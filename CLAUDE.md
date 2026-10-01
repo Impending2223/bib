@@ -1,0 +1,196 @@
+# The 1968 series: how to work on it
+
+Eight linked bibliographies and a calendar for 1961–1974, kept as data and
+rendered to HTML. **Do not read the whole series, and never read `build/`.**
+Find the few entries you need with `./bib`, edit those, check, build.
+
+## Layout
+
+```
+series.yaml               the lists: key, abbreviation, artifact URL
+lists/<key>/list.yaml     a list's title, intro paragraphs, and outline (sections → files)
+lists/<key>/<file>.yaml   one section's entries, in display order (II.D.yaml, apr.yaml)
+inbox/                    patch files waiting to be merged
+build/                    generated pages (git-ignored)
+tools/bib/                the code behind ./bib
+```
+
+| key  | cited as  | list                                         |
+|------|-----------|----------------------------------------------|
+| kja  | K–J Adm.  | Kennedy and Johnson administrations, 1961–69 |
+| kjc  | K–J Cong. | Congress, the nation, and the states, 1961–69 |
+| opp  | Opp.      | The Republican opposition, 1961–69           |
+| cal  | Cal.      | Calendar, Jan.–Sept. 1961                    |
+| l68  | 1968      | The 1968 campaign ("the 1968 list")          |
+| adm  | Adm.      | Nixon and his administration, 1969–74        |
+| cong | Cong.     | Congress, the nation, and the states, 1969–74 |
+| wg   | Wg.       | Watergate, 1971–74                           |
+
+Parts: I portrayals, II sources, III names. A reference like "K–J Adm. II.D"
+is `lists/kja/II.D.yaml`. The calendar's files are named by month (`apr.yaml`)
+plus `th.yaml` (threads) and `pro.yaml` (prologue).
+
+## Finding things (start here)
+
+```
+./bib status                          counts, conflicts, inbox, pages to republish
+./bib outline kja                     sections → files → entry counts (calendar: threads too)
+./bib find bay of pigs                every entry containing all the words
+./bib find -l cal --thread cuba       one calendar thread
+./bib find -l cal --since 1961-08 --until 1961-08
+./bib find -t check -l cal            entries with a "Check" to verify
+./bib find -t person -t in:cal -l kja tags combine (AND)
+./bib show ID [ID...]                 full entry + rev + tags + what links to it
+./bib works Parting the Waters        every list that holds or cites a title or person
+```
+
+`find` prints `id`, then `file:line` and a one-line summary. Open the file
+at that line to edit, reading only that section.
+
+## Entries
+
+```yaml
+- id: kja.beschloss-crisis-years       # permanent; never rename or reuse
+  s: 'Kennedy, Robert F.'              # optional bold subject line (people, memoir subjects)
+  c: Michael R. Beschloss, *The Crisis Years* (1991)   # citation; a list for several works
+  r: Attorney General, 1961–64         # people (Part III): the role
+  n: The note. Free prose.             # optional
+  tags: [topic:berlin, todo]           # optional, stored tags
+  aliases: [kja.old-id]                # ids folded into this one by ./bib combine
+```
+
+Calendar entries have no `s` (the build makes "Apr. 15–19 (Cuba)"):
+
+```yaml
+- id: cal.1961-04-15.cuba              # cal.<date>.<thread>, -2 if taken
+  when: Apr. 15–19                     # shown as written
+  date: '1961-04-15'                   # sort and range key; '1961-02' for month-only entries
+  thread: cuba                         # primary thread (slug of a cal.thread.* entry)
+  also: [space]                        # other threads it belongs to
+  c: What happened.
+  n: Sources. See [[cal.1961-02-20.school-aid]].
+```
+
+The thread index (Part I of the calendar) is generated from `thread` and
+`also`; never write dates into `th.yaml`. A new thread is a new entry in
+`th.yaml` (`id: cal.thread.<slug>`, `s:` name, `c:` one-line scope).
+
+### Markup inside text
+
+- `*Title*`: italics. `[text](https://…)`: an outside link.
+- `[[id]]`: a link to another entry, shown as its label (a calendar date).
+  `[[id|text]]` shows "text". Use these for "See …" in calendar notes, so a
+  corrected date updates every reference.
+- Cross-list references stay plain prose ("(K–J Adm. II.D)", "Also Opp.",
+  "Names: Heller, Tobin (K–J Adm. III.H)"). The build links them and `check`
+  verifies the sections exist and that a cited title is in the cited section.
+- YAML: quote a value in single quotes when it holds `: ` or ` #` or starts with
+  `*`, `[`, `'` or `"`; double an apostrophe inside: `'Kennedy''s'`.
+
+### House style (keep it)
+
+Short declarative sentences. Books already in a list are cited by short title
+with list and section; works found only here are cited in full. "Check" marks
+a detail to verify. In the calendar the first entry of each thread carries its
+bibliography and later ones point back with `See [[id]]`. Bibliography sections
+are chronological by publication unless their intro says "Alphabetical".
+
+## Changing things
+
+**Directly** (you are working in this repo): edit the section file, then
+
+```
+./bib new-id cal 1961-10-27 berlin-and-vienna   # an unused id
+./bib check            # must end "0 errors"; deal with new warnings
+./bib build            # build/<key>.html and build/series.html
+```
+
+**By patch**: when another session or a person will merge your work, or you
+cannot touch the repo. Write `inbox/<date>-<name>.yaml` and run
+`./bib merge inbox/<file> [--dry-run] [--archive]`:
+
+```yaml
+patch: berlin-autumn                  # name, shown in conflict records
+by: who wrote it
+ops:
+  - add:                              # placed by date (calendar), by subject
+      entry: {id: ..., when: ..., date: ..., thread: ..., c: ..., n: ...}
+      section: II.D                   #   ("Alphabetical"), or by year; or say
+      after: kja.wyden-bay-of-pigs    #   section/after
+  - edit:
+      id: cal.1961-08-13.berlin-and-vienna
+      base: 7047fc46                  # the rev ./bib show printed when you read it
+      set: {n: 'New note …'}
+      unset: [r]
+  - tag:     {id: ..., add: [topic:berlin], remove: [todo]}
+  - move:    {id: ..., section: II.E, after: ...}
+  - delete:  {id: ..., base: ...}
+  - combine: {keep: ID, drop: ID}
+```
+
+Always give `edit` and `delete` a `base`. With it, the merge is three-way:
+fields only you changed apply, fields only others changed stay, and a field
+both changed becomes a conflict. Without it, your values simply overwrite.
+
+**Git**: run `./bib setup` once per clone. Section files then merge entry by
+entry (`.gitattributes`): both sides' new entries are kept in order, and a field
+changed on both sides becomes a conflict record instead of `<<<<<<<` markers.
+
+## Conflicts and duplicates
+
+A conflict never blocks a merge; it is written into the entry:
+
+```yaml
+  conflict:
+    - {field: n, ours: …, theirs: …, base: …, from: berlin-autumn}
+    - {kind: duplicate, of: [cal.1961-08-13.berlin-and-vienna], from: …}
+```
+
+`./bib conflicts` lists them; `./bib check` and `./bib build` fail until
+they are settled:
+
+```
+./bib resolve ID --take ours|theirs|both|base [--field n]
+./bib resolve ID --take keep          # a flagged duplicate that is really distinct
+./bib combine KEEP DROP               # it is a duplicate: fold DROP into KEEP
+```
+
+`combine` unions tags, threads and citation lines, keeps DROP's id as an
+alias of KEEP (old links still resolve), rewrites `[[DROP]]` links, and turns
+any disagreement in text into a conflict on KEEP. Or edit the YAML by hand
+and delete the `conflict:` block.
+
+## Tags
+
+Stored tags are free; use `namespace:value` (`topic:berlin`, `status:verified`,
+`todo`, `source:frus`). `./bib tag ID... +topic:berlin -todo` edits them.
+
+Derived tags are computed and searchable with `-t` but never stored:
+`list:kja section:II.D check person work event thread:cuba month:1961-04
+pub:1990s in:opp in:cal conflict`. `in:<list>` means the same work or person
+is also in that list.
+
+A deliberate exception to a `check` warning is tagged `ok:<rule>` on the
+entry (the rule name is printed in brackets), e.g. `ok:thread-first`.
+
+## Publishing
+
+Each list is an artifact on claude.ai; the compiled reader is another
+(`series.yaml` has the URLs).
+
+```
+./bib build
+./bib publish-plan                   # which pages changed since last publish, and their URLs
+```
+
+Publish a changed page by passing `build/<key>.html` to the Artifact tool
+with the list's `url`, then `./bib mark-published <key>` and commit.
+`build/series.html` goes to `compiled_artifact`.
+
+## Do not
+
+- read `build/*.html` or a whole list to find something: use `find`/`show`/`works`;
+- change an `id`, or reuse a deleted one (add an alias instead);
+- write the thread index by hand, or `s:` on calendar entries;
+- edit `published.yaml` by hand;
+- publish with errors from `./bib check`.

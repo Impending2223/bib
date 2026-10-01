@@ -33,9 +33,24 @@ _Loader.yaml_implicit_resolvers = {
 }
 
 
+class DataError(SystemExit):
+    pass
+
+
 def load_yaml(path):
     with open(path, encoding="utf-8") as f:
-        return yaml.load(f, Loader=_Loader)
+        text = f.read()
+    if "\n<<<<<<< " in "\n" + text:
+        raise DataError(f"{os.path.relpath(path, ROOT)}: git conflict markers. Run ./bib setup once so git "
+                        "merges these files entry by entry, or settle the markers by hand.")
+    try:
+        return yaml.load(text, Loader=_Loader)
+    except yaml.YAMLError as e:
+        mark = getattr(e, "problem_mark", None)
+        where = f"{os.path.relpath(path, ROOT)}:{mark.line + 1}" if mark else os.path.relpath(path, ROOT)
+        raise DataError(f"{where}: not valid YAML ({getattr(e, 'problem', e)}).\n"
+                        "Quote a value in single quotes when it holds ': ' or ' #', or starts with * [ { ' \" & ! | > % @ `.\n"
+                        "Inside single quotes, write an apostrophe as ''.")
 
 
 def _scalar(v):

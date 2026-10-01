@@ -87,6 +87,8 @@ def _author_title_slug(c0):
     title = m.group(1) if m else ""
     if c0.startswith("*") or not text.split(",")[0].strip():
         return store.slug(title or text, 5)
+    if not title:  # a document or recording cited without an italic title
+        return store.slug(text, 5)
     author = re.split(r"\s+(?:&|with)\s+", text.split(",")[0])[0]
     words = [w for w in author.replace(".", " ").split() if w not in ("Jr", "Sr", "II", "III")]
     sur = store.slug(words[-1] if words else author, 2)
@@ -143,6 +145,7 @@ def run(path, root=store.ROOT, force=False):
     series = {
         "title": meta["home"]["title"],
         "compiled_artifact": COMPILED,
+        "source_repo": "https://github.com/impending2223/bib",
         "home": home_data,
         "names_index": {"title": meta["nx"]["title"]},
         "outside_lists": ["the Vietnam bibliography"],

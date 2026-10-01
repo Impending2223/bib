@@ -33,7 +33,7 @@ class Refs:
         self.rx = re.compile(
             rf"(?P<abbr>(?<![\w])(?<!th )(?<!st )(?<!nd )(?<!rd )(?:{alts}))(?:\s+(?P<code>{RANGE}))?(?![\w])"
             rf"|(?P<dabbr>(?<![\w(])(?:{dalts}))\s+(?P<dcode>{RANGE})(?![\w])"
-            rf"|(?<![\w.–])(?P<bare>{BARE}(?:–(?:{CODE}|[A-Z](?:\.\d+)?))?)(?![\w])"
+            rf"|(?<![\w.–])(?P<bare>{BARE}(?:–(?:{CODE}|[A-Z](?:\.\d+)?))?)(?![\w])(?!\.\s*[A-Z][a-z])"  # not "I.M. Destler"
         )
 
     # ------------------------------------------------------------ section refs
