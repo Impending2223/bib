@@ -1,8 +1,58 @@
 # The 1968 series: how to work on it
 
-Eight linked bibliographies and a calendar for 1961–1974, with a ninth on Vietnam, kept as data and
-rendered to HTML. **Do not read the whole series, and never read `build/`.**
+Eight linked bibliographies and a calendar for 1961–1974, and a ninth on
+Vietnam, kept as data and rendered to HTML. **Do not read the whole series, and never read `build/`.**
 Find the few entries you need with `./bib`, edit those, check, build.
+
+## The brief (read before adding anything)
+
+The owner's standing instructions.
+
+**Prose.** "Compact. Plain. Compressed. Springs and Autumns, but without the
+subtle words." Record what happened, not what it meant. No praise, blame,
+irony, or color; no "for Moscow's benefit," "a good midterm," "the movement
+reads it as a defeat." Short declaratives and fragments. Drop articles and
+verbs where the line still reads. Match the original lists, not your own
+register: read a few entries of the section you are adding to before writing.
+
+**The calendar.** In the owner's words: "a calendar of executive and
+legislative events, and any other events that left a trace, or should have
+left a trace, on the political and policy histories of the Kennedy and
+Johnson Administrations, their Congresses, or those of their members. ... at
+least a month-by-month granularity. ... a brief statement for each calendar
+entry and, where events span multiple calendar entries, for each thread. ...
+The purpose of the statements for calendar entries is not a narrative, but a
+memory aid and a bibliographic record, or a set of bibliographic pointers.
+... I want the calendar to supply a bibliography for each event, if not each
+entry. (That is, you might have several entries for the Vienna Summit or the
+Berlin Crisis, but you might only have a full bibliography entry for the
+first.) At the very least, I want the calendar entries to point to the
+relevant material elsewhere in the bibliography. Names, events."
+
+So every calendar entry has:
+- `c`: what happened, in one to three clipped sentences. Who, what, the number.
+- `n`: the pointers. The source for this event (message, case, statute, FRUS
+  volume, a book by short title with list and section); `See [[id]]` back to
+  the thread's first entry, which carries the full bibliography; and
+  `Names: …` with the list and Part III section of every person in `c`.
+
+Thread scopes in `th.yaml` are a list of the thread's stations, not a summary.
+
+**Bibliography notes.** One or two fragments: what the book is, whose voice,
+what to read it for. "Interviews with nearly everyone, Bissell included."
+"Read the Washington chapters." Not reviews.
+
+Before and after:
+
+```
+no:  c: Gilpatric at Hot Springs, Virginia, to the Business Council. The American
+        second strike is at least as large as any Soviet first strike. The missile
+        gap reversed, in public, for Moscow's benefit.
+yes: c: Gilpatric to the Business Council at Hot Springs. The American second
+        strike at least equal to any Soviet first strike. The missile gap reversed.
+     n: Ball, *Politics and Force Levels*; Kaplan, *Wizards of Armageddon* (K–J Adm.
+        II.D). See [[cal.1961-02-06.defense]]. Names: Gilpatric (K–J Adm. III.F).
+```
 
 ## Layout
 
