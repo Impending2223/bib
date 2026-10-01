@@ -1,0 +1,161 @@
+# Wg.: page text and outline. Entries live in the files named by 'file'.
+page_title: 'Watergate, 1971–1974: Bibliography'
+h1: 'Watergate, 1971–1974: working bibliography'
+lede: 'Sources, portrayals, and names for Watergate alone: the operations that led to the break-in, the break-in, the cover-up, the investigations, the tapes, impeachment, resignation, and pardon.'
+logic:
+  - 'Fourth of four lists. This one is Wg. The others: the Republican opposition, 1961–69 (Opp.); Nixon and his administration (Adm.); and Congress, the nation, and the states, 1969–74 (Cong.). Cross-references give list and section.'
+  - 'The rule. This list holds what exists only because of the scandal, and nothing else: the covert operations from the White House and the Committee to Re-elect that led to the break-in (the Plumbers, the Fielding break-in, Gemstone, Segretti''s tricks); the break-in of June 17, 1972; and everything that followed its discovery, from the cover-up to the pardon of September 8, 1974. The Kissinger wiretaps, the Huston Plan, ITT, the milk fund, the President''s taxes, and Agnew are in Adm. even where the investigators took them up. People appear here for their Watergate part; if they had another part, they appear in Adm. or Cong. as well.'
+  - Part I lists portrayals, Part II sources, Part III names. Unless a section says otherwise, entries run in chronological order. Where my knowledge is thin, the entry says so. "Check" marks a detail to verify.
+sections:
+  - id: p1
+    num: I.
+    title: Portrayals
+    logic:
+      - 'Two sections: A. Fiction. B. Screen and stage. *Frost/Nixon*, *Secret Honor*, and *Nixon''s Nixon* treat Watergate among other things and are in Adm. I.'
+    sections:
+      - id: p1a
+        num: I.A
+        title: Fiction
+        logic:
+          - Chronological by first publication.
+        file: I.A.yaml
+      - id: p1b
+        num: I.B
+        title: Screen and stage
+        logic:
+          - Dramas and documentaries together. Chronological by release.
+        file: I.B.yaml
+  - id: p2
+    num: II.
+    title: Sources
+    logic:
+      - 'Works and records to draw facts and voices from. Eight sections, from the most digested to the least: A. Narratives and histories. B. The press. C. The law: prosecution, impeachment, and the Constitution. D. Revisionists. E. Memoirs and biographies. F. Documents. G. Recordings. H. Archives. Sections A through D are chronological by first publication.'
+    sections:
+      - id: p2a
+        num: II.A
+        title: Narratives and histories
+        logic:
+          - Start with Kutler for the whole, then Lukas for the operations, then Drew for the months of impeachment.
+        file: II.A.yaml
+      - id: p2b
+        num: II.B
+        title: The press
+        logic:
+          - The reporting and its later disputes.
+        file: II.B.yaml
+      - id: p2c
+        num: II.C
+        title: 'The law: prosecution, impeachment, and the Constitution'
+        logic:
+          - The trials, the special prosecutors, the House inquiry, and the constitutional argument.
+        short: II.C The law
+        file: II.C.yaml
+      - id: p2d
+        num: II.D
+        title: Revisionists
+        logic:
+          - Books that dispute the received account. Read them for what they found in the record, and check their conclusions against Kutler.
+        file: II.D.yaml
+      - id: p2e
+        num: II.E
+        title: Memoirs and biographies
+        logic:
+          - Books that preserve a person's voice. Alphabetical by subject. Lives with a Watergate part among others are in Adm. II.G and Cong. II.H.
+        file: II.E.yaml
+      - id: p2f
+        num: II.F
+        title: Documents
+        logic:
+          - 'Three groups: 1. Cases. 2. Congressional records. 3. Transcripts and other records. Chronological within each. Most can be quoted as they stand.'
+        sections:
+          - id: p2f1
+            num: II.F.1
+            title: Cases
+            logic:
+              - Chronological. Links go to the reporter PDFs.
+            file: II.F.1.yaml
+          - id: p2f2
+            num: II.F.2
+            title: Congressional records
+            logic:
+              - Chronological.
+            file: II.F.2.yaml
+          - id: p2f3
+            num: II.F.3
+            title: Transcripts and other records
+            logic:
+              - Chronological.
+            short: II.F.3 Transcripts and records
+            file: II.F.3.yaml
+      - id: p2g
+        num: II.G
+        title: Recordings
+        logic:
+          - Broadcasts, hearings, and tapes to look for in II.H. Chronological by date.
+        file: II.G.yaml
+      - id: p2h
+        num: II.H
+        title: Archives
+        logic:
+          - Free unless noted. Alphabetical by name.
+        file: II.H.yaml
+  - id: p3
+    num: III.
+    title: Names
+    logic:
+      - 'The people. Nine groups: the White House, the Committee to Re-elect, the operatives, the defense, the prosecutors and the court, the Senate committee, the House committee, the press, and others. Alphabetical within each. Each entry gives the Watergate role, a note, and where to find the voice. "Also Adm." and "Also Cong." mark those who had another part.'
+    sections:
+      - id: p3a
+        num: III.A
+        title: The White House
+        logic:
+          - Alphabetical.
+        file: III.A.yaml
+      - id: p3b
+        num: III.B
+        title: The Committee to Re-elect
+        logic:
+          - Alphabetical.
+        file: III.B.yaml
+      - id: p3c
+        num: III.C
+        title: The operatives
+        logic:
+          - The Plumbers, the burglars, and the tricksters. Alphabetical.
+        file: III.C.yaml
+      - id: p3d
+        num: III.D
+        title: The defense
+        logic:
+          - Alphabetical.
+        file: III.D.yaml
+      - id: p3e
+        num: III.E
+        title: The prosecutors and the court
+        logic:
+          - Alphabetical.
+        file: III.E.yaml
+      - id: p3f
+        num: III.F
+        title: The Senate committee
+        logic:
+          - Members and staff. Alphabetical.
+        file: III.F.yaml
+      - id: p3g
+        num: III.G
+        title: The House committee
+        logic:
+          - Members and staff. Alphabetical.
+        file: III.G.yaml
+      - id: p3h
+        num: III.H
+        title: The press
+        logic:
+          - Alphabetical.
+        file: III.H.yaml
+      - id: p3i
+        num: III.I
+        title: Others
+        logic:
+          - Alphabetical.
+        file: III.I.yaml

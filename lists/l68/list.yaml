@@ -1,0 +1,229 @@
+# 1968: page text and outline. Entries live in the files named by 'file'.
+page_title: '1968 Thriller: Bibliography'
+h1: '1968 thriller: working bibliography'
+lede: 'Sources, models, and names for an alternate-history political thriller: Johnson takes the nomination at the Chicago convention in August 1968 and runs against Nixon.'
+logic:
+  - 'Three parts. Part I lists models: works to imitate for style and structure. Part II lists sources: works and records to draw facts and voices from. Part III lists names: the people in the story, grouped by camp, with where to find each voice. Each part opens with a list of its sections. Unless a section says otherwise, entries run in chronological order. Where my knowledge is thin, the entry says so.'
+sections:
+  - id: p1
+    num: I.
+    title: Models
+    logic:
+      - 'Works to imitate. Five sections, from fiction to nonfiction to the screen to manuals: A. Commercial thrillers. B. Literary novels. C. Nonfiction stylists. D. Film and television. E. Craft manuals.'
+    sections:
+      - id: p1a
+        num: I.A
+        title: Commercial thrillers
+        logic:
+          - Novels written for the mass market. Read for pace, premise, and clock. Chronological by first publication.
+        file: I.A.yaml
+      - id: p1b
+        num: I.B
+        title: Literary novels
+        logic:
+          - Novels and one play, read for voice and for how they handle real people. Chronological by first publication.
+        file: I.B.yaml
+      - id: p1c
+        num: I.C
+        title: Nonfiction stylists
+        logic:
+          - Five nonfiction writers read for style. Each note gives the style in a few words. Chronological by first publication.
+        file: I.C.yaml
+      - id: p1d
+        num: I.D
+        title: Film and television
+        logic:
+          - Dramas and documentaries. Read the dramas for what adaptation keeps; mine the documentaries for footage. Chronological by release.
+        file: I.D.yaml
+      - id: p1e
+        num: I.E
+        title: Craft manuals
+        logic:
+          - Books on how commercial fiction and film are built. Chronological by first publication.
+        file: I.E.yaml
+  - id: p2
+    num: II.
+    title: Sources
+    logic:
+      - 'Works and records to draw facts and voices from. Six sections, from the most digested to the least: A. Journalism and history. B. Vietnam and the military. C. Memoirs and biographies. D. Documents. E. Recordings. F. Archives.'
+    sections:
+      - id: p2a
+        num: II.A
+        title: Journalism and history
+        logic:
+          - Accounts of 1968 and its people. Caro, Mailer, Perlstein, Thompson, and White are in I.C. Chronological by first publication.
+        file: II.A.yaml
+      - id: p2b
+        num: II.B
+        title: Vietnam and the military
+        logic:
+          - War policy and the civilian–military relationship. Chronological by first publication.
+        file: II.B.yaml
+      - id: p2c
+        num: II.C
+        title: Memoirs and biographies
+        logic:
+          - 'Books that preserve a person''s voice. Three groups: 1. Johnson and his court. 2. Rival Democrats. 3. Others. Within each group, alphabetical by the person whose voice the book preserves.'
+        sections:
+          - id: p2c1
+            num: II.C.1
+            title: Johnson and his court
+            logic:
+              - Alphabetical by subject.
+            short: II.C.1 Johnson's court
+            file: II.C.1.yaml
+          - id: p2c2
+            num: II.C.2
+            title: Rival Democrats
+            logic:
+              - Humphrey, McCarthy, and Kennedy people, and the likely running mates. Alphabetical by subject.
+            file: II.C.2.yaml
+          - id: p2c3
+            num: II.C.3
+            title: Others
+            logic:
+              - Labor, the Nixon camp, Wallace, and the Chennault channel. Alphabetical by subject.
+            file: II.C.3.yaml
+      - id: p2d
+        num: II.D
+        title: Documents
+        logic:
+          - Cases first, then government records and transcripts. Chronological within each group. Several of these can be quoted or interpolated in the novel as documents.
+        sections:
+          - id: p2d1
+            num: II.D.1
+            title: Cases
+            logic:
+              - Chronological.
+            file: II.D.1.yaml
+          - id: p2d2
+            num: II.D.2
+            title: Records and transcripts
+            logic:
+              - Chronological.
+            short: II.D.2 Records
+            file: II.D.2.yaml
+      - id: p2e
+        num: II.E
+        title: Recordings
+        logic:
+          - Speeches, broadcasts, and calls to look for on YouTube and in the archives in II.F. Chronological by date.
+        file: II.E.yaml
+      - id: p2f
+        num: II.F
+        title: Archives
+        logic:
+          - Where to find the recordings and records. Free unless noted. Alphabetical by name.
+        file: II.F.yaml
+  - id: p3
+    num: III.
+    title: Names
+    logic:
+      - 'The people in the story. Groups run from Johnson outward: his staff and allies, the Vietnam circle, the rival Democrats, the other parties, then Chicago, the press, the ticket, and the family. Within each group, alphabetical by surname. Each entry gives the 1968 role, a note, and where to find the voice. "Tapes" means Johnson''s recordings (II.F). "Oral history" means the LBJ Library collection (II.F).'
+    sections:
+      - id: p3a
+        num: III.A
+        title: White House staff
+        logic:
+          - In the White House in August 1968. Alphabetical.
+        file: III.A.yaml
+      - id: p3b
+        num: III.B
+        title: Johnson's outside circle
+        logic:
+          - Loyalists outside the White House in August 1968. Alphabetical.
+        short: III.B Outside circle
+        file: III.B.yaml
+      - id: p3c
+        num: III.C
+        title: Texans and money
+        logic:
+          - Alphabetical.
+        short: III.C Texans
+        file: III.C.yaml
+      - id: p3d
+        num: III.D
+        title: Labor
+        logic:
+          - Labor ran the Democrats' real field operation in 1968. Alphabetical.
+        file: III.D.yaml
+      - id: p3e
+        num: III.E
+        title: 'Vietnam: inner circle'
+        logic:
+          - Regulars at the Tuesday lunch, fall 1968, besides Johnson, Christian, and Tom Johnson (III.A). Alphabetical.
+        file: III.E.yaml
+      - id: p3f
+        num: III.F
+        title: 'Vietnam: wider circle'
+        logic:
+          - Negotiators, deputies, and outside advisers. Alphabetical.
+        file: III.F.yaml
+      - id: p3g
+        num: III.G
+        title: Military command
+        logic:
+          - The officers a late-1968 escalation would run through. Alphabetical.
+        file: III.G.yaml
+      - id: p3h
+        num: III.H
+        title: The Chennault channel
+        logic:
+          - The people on either end of the back channel to Saigon, and those watching it. Alphabetical.
+        short: III.H Chennault channel
+        file: III.H.yaml
+      - id: p3i
+        num: III.I
+        title: Humphrey camp
+        logic:
+          - Most would walk after a stolen nomination. Alphabetical.
+        file: III.I.yaml
+      - id: p3j
+        num: III.J
+        title: McCarthy camp
+        logic:
+          - Alphabetical.
+        file: III.J.yaml
+      - id: p3k
+        num: III.K
+        title: Kennedy camp
+        logic:
+          - Robert Kennedy was killed in June 1968; his people and his shadow remain. Alphabetical.
+        file: III.K.yaml
+      - id: p3l
+        num: III.L
+        title: Wallace camp
+        logic:
+          - Alphabetical.
+        file: III.L.yaml
+      - id: p3m
+        num: III.M
+        title: Republicans
+        logic:
+          - Nixon, his staff, and his rivals for the nomination. Alphabetical.
+        file: III.M.yaml
+      - id: p3n
+        num: III.N
+        title: Chicago
+        logic:
+          - The city, the hall, and the courtroom. Alphabetical.
+        file: III.N.yaml
+      - id: p3o
+        num: III.O
+        title: Press and commentators
+        logic:
+          - Alphabetical.
+        short: III.O Press
+        file: III.O.yaml
+      - id: p3p
+        num: III.P
+        title: Running mates
+        logic:
+          - Candidates for Johnson's ticket in the scenario. Alphabetical.
+        file: III.P.yaml
+      - id: p3q
+        num: III.Q
+        title: Family
+        logic:
+          - Alphabetical.
+        file: III.Q.yaml

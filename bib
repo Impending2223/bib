@@ -1,0 +1,3 @@
+#!/bin/sh
+# Entry point for the tools. ./bib --help, or see CLAUDE.md.
+exec python3 "$(dirname "$0")/tools/bibcli.py" "$@"
