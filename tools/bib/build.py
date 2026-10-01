@@ -12,7 +12,7 @@ import os
 import re
 
 from . import store
-from .markup import to_html, plain, italics, ITAL_RE
+from .markup import to_html, plain, italics, ITAL_RE, REF_RE
 from .refs import Refs, split_protected
 
 TEMPLATES = os.path.join(store.ROOT, "templates")
@@ -56,6 +56,27 @@ def thread_members(lst):
     return out
 
 
+def date_label(e, year=None):
+    """A calendar entry's label: its "when", with the year added when it is not `year`."""
+    y = (e.get("date") or "")[:4]
+    return f"{e['when']}, {y}" if y and y != year else e["when"]
+
+
+def year_qualified(series, text, year):
+    """Give bare [[id]] links to calendar entries of another year their year,
+    so "See Dec. 21–22" written in 1962 reads "See Dec. 21–22, 1961"."""
+    def sub(m):
+        if m.group(2):
+            return m.group(0)
+        hit = series.get(m.group(1).strip())
+        if not hit or hit[0].kind != "calendar" or "when" not in hit[2]:
+            return m.group(0)
+        e = hit[2]
+        label = date_label(e, year)
+        return m.group(0) if label == e["when"] else f"[[{m.group(1)}|{label}]]"
+    return REF_RE.sub(sub, text) if text and year else text
+
+
 def label_of(series, eid):
     hit = series.get(eid)
     if not hit:
@@ -68,18 +89,25 @@ def label_of(series, eid):
 
 def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans=""):
     parts = []
+    year = (e.get("date") or "")[:4] if lst.kind == "calendar" else None
     subj = entry_subject(lst, e)
     if subj:
         parts.append(f'<span class="s">{text_html(subj, "s")}</span>')
     for c in store.as_list(e.get("c")):
-        parts.append(f'<span class="c">{text_html(c, "c")}</span>')
+        parts.append(f'<span class="c">{text_html(year_qualified(series, c, year), "c")}</span>')
     if e.get("r"):
         parts.append(f'<span class="r">{text_html(e["r"], "r")}</span>')
-    n = e.get("n")
+    n = year_qualified(series, e.get("n"), year)
     if lst.kind == "calendar" and e["id"].startswith(f"{lst.key}.thread."):
         slug = e["id"].split(".", 2)[2]
         members = thread_members(lst).get(slug, [])
-        n = "; ".join(f"[[{m['id']}]]" for m in members)
+        # the year on the first date of each year
+        shown, prev = [], None
+        for m in members:
+            y = m["date"][:4]
+            shown.append(f"[[{m['id']}|{date_label(m, prev)}]]" if y != prev else f"[[{m['id']}]]")
+            prev = y
+        n = "; ".join(shown)
         if members and not members[-1]["when"].endswith("."):
             n += "."
     if n:

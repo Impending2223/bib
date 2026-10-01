@@ -1,11 +1,11 @@
 # Cal.: page text and outline. Entries live in the files named by 'file'.
-page_title: Calendar, January–September 1961
-h1: 'Calendar of the Kennedy and Johnson years: January 20 to September 30, 1961'
-lede: 'Executive, legislative, judicial, and state events from the inauguration to the end of September 1961: the first session of the 87th Congress (Jan. 3–Sept. 27), and the first eight months of the Kennedy administration.'
+page_title: Calendar, January 1961–January 1963
+h1: 'Calendar of the Kennedy and Johnson years: the 87th Congress, January 3, 1961, to January 3, 1963'
+lede: 'Executive, legislative, judicial, and state events across the 87th Congress: the first session (Jan. 3–Sept. 27, 1961), the second (Jan. 10–Oct. 13, 1962), and the months around them, to the Congresss end at noon on Jan. 3, 1963. The first two years of the Kennedy administration.'
 logic:
-  - Seventh list in the series. This one is Cal. It points into K–J Adm. and K–J Cong., and into the earlier lists where they hold the record.
-  - 'How to read it. One entry per event, by date, with the thread in parentheses. The line says what happened. The note gives sources: the first entry of each thread carries its bibliography, and later entries point back by date ("See Apr. 15"). Books already in a list are cited by short title with the list and section; works found only here are cited in full. Names point to Part III of the lists. Presidential messages, speeches, and press conferences are cited by title and date; all are in the *Public Papers* for 1961 and on the American Presidency Project (K–J Adm. II.K). FRUS means *Foreign Relations of the United States, 1961–1963*, by volume. Votes link to Voteview where the roll call is identified. "Check" marks a detail to verify.'
-  - 'Three parts: the threads, a short prologue, then the months.'
+  - Seventh list in the series. This one is Cal. It points into K–J Adm. and K–J Cong., into Viet. for the war in Vietnam, and into the earlier lists where they hold the record.
+  - 'How to read it. One entry per event, by date, with the thread in parentheses. The line says what happened. The note gives sources: the first entry of each thread carries its bibliography, and later entries point back by date ("See Apr. 15"). Books already in a list are cited by short title with the list and section; works found only here are cited in full. Names point to Part III of the lists. Presidential messages, speeches, and press conferences are cited by title and date; all are in the *Public Papers* for 1961 and 1962 and on the American Presidency Project (K–J Adm. II.K). FRUS means *Foreign Relations of the United States, 1961–1963*, by volume. Votes link to Voteview where the roll call is identified. "Check" marks a detail to verify.'
+  - 'Three parts: the threads, a short prologue, then the months, October 1961 to December 1962 continuing the first nine. The last section runs to the end of the Congress on Jan. 3, 1963.'
 kind: calendar
 year: 1961
 threads_section: th
@@ -18,63 +18,155 @@ sections:
     file: th.yaml
   - id: pro
     num: II.
-    title: Prologue, January 3–19
+    title: Prologue, January 3–19, 1961
     logic:
       - What was already in motion on inauguration day.
-    file: pro.yaml
     from: '1961-01-01'
     to: '1961-01-19'
+    file: pro.yaml
   - id: jan
     num: III.
-    title: January 20–31
-    file: jan.yaml
+    title: January 20–31, 1961
     from: '1961-01-20'
     to: '1961-01-31'
+    file: jan.yaml
   - id: feb
     num: IV.
-    title: February
-    file: feb.yaml
+    title: February 1961
     from: '1961-02-01'
     to: '1961-02-28'
+    file: feb.yaml
   - id: mar
     num: V.
-    title: March
-    file: mar.yaml
+    title: March 1961
     from: '1961-03-01'
     to: '1961-03-31'
+    file: mar.yaml
   - id: apr
     num: VI.
-    title: April
-    file: apr.yaml
+    title: April 1961
     from: '1961-04-01'
     to: '1961-04-30'
+    file: apr.yaml
   - id: may
     num: VII.
-    title: May
-    file: may.yaml
+    title: May 1961
     from: '1961-05-01'
     to: '1961-05-31'
+    file: may.yaml
   - id: jun
     num: VIII.
-    title: June
-    file: jun.yaml
+    title: June 1961
     from: '1961-06-01'
     to: '1961-06-30'
+    file: jun.yaml
   - id: jul
     num: IX.
-    title: July
-    file: jul.yaml
+    title: July 1961
     from: '1961-07-01'
     to: '1961-07-31'
+    file: jul.yaml
   - id: aug
     num: X.
-    title: August
-    file: aug.yaml
+    title: August 1961
     from: '1961-08-01'
     to: '1961-08-31'
+    file: aug.yaml
   - id: sep
     num: XI.
-    title: September
-    file: sep.yaml
+    title: September 1961
     from: '1961-09-01'
     to: '1961-09-30'
+    file: sep.yaml
+  - id: oct
+    num: XII.
+    title: October 1961
+    from: '1961-10-01'
+    to: '1961-10-31'
+    file: oct.yaml
+  - id: nov
+    num: XIII.
+    title: November 1961
+    from: '1961-11-01'
+    to: '1961-11-30'
+    file: nov.yaml
+  - id: dec
+    num: XIV.
+    title: December 1961
+    from: '1961-12-01'
+    to: '1961-12-31'
+    file: dec.yaml
+  - id: jan62
+    num: XV.
+    title: January 1962
+    from: '1962-01-01'
+    to: '1962-01-31'
+    file: jan62.yaml
+  - id: feb62
+    num: XVI.
+    title: February 1962
+    from: '1962-02-01'
+    to: '1962-02-28'
+    file: feb62.yaml
+  - id: mar62
+    num: XVII.
+    title: March 1962
+    from: '1962-03-01'
+    to: '1962-03-31'
+    file: mar62.yaml
+  - id: apr62
+    num: XVIII.
+    title: April 1962
+    from: '1962-04-01'
+    to: '1962-04-30'
+    file: apr62.yaml
+  - id: may62
+    num: XIX.
+    title: May 1962
+    from: '1962-05-01'
+    to: '1962-05-31'
+    file: may62.yaml
+  - id: jun62
+    num: XX.
+    title: June 1962
+    from: '1962-06-01'
+    to: '1962-06-30'
+    file: jun62.yaml
+  - id: jul62
+    num: XXI.
+    title: July 1962
+    from: '1962-07-01'
+    to: '1962-07-31'
+    file: jul62.yaml
+  - id: aug62
+    num: XXII.
+    title: August 1962
+    from: '1962-08-01'
+    to: '1962-08-31'
+    file: aug62.yaml
+  - id: sep62
+    num: XXIII.
+    title: September 1962
+    from: '1962-09-01'
+    to: '1962-09-30'
+    file: sep62.yaml
+  - id: oct62
+    num: XXIV.
+    title: October 1962
+    from: '1962-10-01'
+    to: '1962-10-31'
+    file: oct62.yaml
+  - id: nov62
+    num: XXV.
+    title: November 1962
+    from: '1962-11-01'
+    to: '1962-11-30'
+    file: nov62.yaml
+  - id: dec62
+    num: XXVI.
+    title: December 1962–January 3, 1963
+    logic:
+      - The lame-duck weeks. Congress gone since Oct. 13; the 87th ends at noon on Jan. 3, 1963, and the 88th convenes Jan. 9.
+    from: '1962-12-01'
+    to: '1963-01-03'
+    file: dec62.yaml

@@ -56,6 +56,12 @@ def run(series, only=None):
     for lst in series.lists.values():
         if only and lst.key != only:
             continue
+        # page text: a paragraph with an unquoted ': ' loads as a mapping, not a string
+        for where, paras in [(f"lists/{lst.key}/list.yaml", [lst.data.get("lede")] + store.as_list(lst.data.get("logic")))] + \
+                [(f"lists/{lst.key}/list.yaml ({s.id})", s.logic) for s in lst.walk()]:
+            for p in paras:
+                if p is not None and not isinstance(p, str):
+                    add(ERROR, where, f"paragraph is not plain text (quote it if it holds ': '): {str(p)[:60]}")
         threads = lst.threads()
         prev_date = {}
         for sec, e in lst.entries():

@@ -1,6 +1,6 @@
 # The 1968 series: how to work on it
 
-Eight linked bibliographies and a calendar for 1961–1974, kept as data and
+Eight linked bibliographies and a calendar for 1961–1974, with a ninth on Vietnam, kept as data and
 rendered to HTML. **Do not read the whole series, and never read `build/`.**
 Find the few entries you need with `./bib`, edit those, check, build.
 
@@ -20,15 +20,18 @@ tools/bib/                the code behind ./bib
 | kja  | K–J Adm.  | Kennedy and Johnson administrations, 1961–69 |
 | kjc  | K–J Cong. | Congress, the nation, and the states, 1961–69 |
 | opp  | Opp.      | The Republican opposition, 1961–69           |
-| cal  | Cal.      | Calendar, Jan.–Sept. 1961                    |
+| cal  | Cal.      | Calendar, Jan. 1961–Jan. 3, 1963 (87th Congress) |
 | l68  | 1968      | The 1968 campaign ("the 1968 list")          |
 | adm  | Adm.      | Nixon and his administration, 1969–74        |
 | cong | Cong.     | Congress, the nation, and the states, 1969–74 |
 | wg   | Wg.       | Watergate, 1971–74                           |
+| vn   | Viet.     | Vietnam and the American war, 1945–75        |
 
 Parts: I portrayals, II sources, III names. A reference like "K–J Adm. II.D"
-is `lists/kja/II.D.yaml`. The calendar's files are named by month (`apr.yaml`)
-plus `th.yaml` (threads) and `pro.yaml` (prologue).
+is `lists/kja/II.D.yaml`. The calendar's files are named by month: `apr.yaml`
+for 1961, `apr62.yaml` for 1962 (the last, `dec62.yaml`, runs to Jan. 3, 1963),
+plus `th.yaml` (threads) and `pro.yaml` (prologue). Its sections are numbered
+straight through, I to XXVI.
 
 ## Finding things (start here)
 
@@ -80,12 +83,18 @@ The thread index (Part I of the calendar) is generated from `thread` and
 - `*Title*`: italics. `[text](https://…)`: an outside link.
 - `[[id]]`: a link to another entry, shown as its label (a calendar date).
   `[[id|text]]` shows "text". Use these for "See …" in calendar notes, so a
-  corrected date updates every reference.
+  corrected date updates every reference. The build adds the year when the
+  date linked to falls in a different year from the entry linking to it
+  ("Dec. 21–22, 1961"); don't write the year in.
 - Cross-list references stay plain prose ("(K–J Adm. II.D)", "Also Opp.",
   "Names: Heller, Tobin (K–J Adm. III.H)"). The build links them and `check`
   verifies the sections exist and that a cited title is in the cited section.
 - YAML: quote a value in single quotes when it holds `: ` or ` #` or starts with
-  `*`, `[`, `'` or `"`; double an apostrophe inside: `'Kennedy''s'`.
+  `*`, `[`, `'` or `"`; double an apostrophe inside: `'Kennedy''s'`. This goes
+  for the paragraphs in `list.yaml` too; `check` reports one that loaded as a
+  mapping.
+- "87th Cong." and the like are Congresses, not the list: the reference reader
+  skips an abbreviation that follows an ordinal number.
 
 ### House style (keep it)
 
@@ -184,7 +193,9 @@ Each list is an artifact on claude.ai; the compiled reader is another
 ```
 
 Publish a changed page by passing `build/<key>.html` to the Artifact tool
-with the list's `url`, then `./bib mark-published <key>` and commit.
+with the list's `url`, then `./bib mark-published <key>` and commit. A list
+with `artifact: ''` in `series.yaml` has never been published: publish it
+without a `url`, then put the new URL in `series.yaml` and the README.
 `build/series.html` goes to `compiled_artifact`.
 
 ## Do not

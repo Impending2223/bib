@@ -31,7 +31,7 @@ class Refs:
         # an abbreviation, optionally followed by a section code; or a bare code.
         # "87th Cong." is a Congress, not the list.
         self.rx = re.compile(
-            rf"(?P<abbr>(?<![\w])(?<!th )(?<!st )(?<!nd )(?<!rd )(?:{alts}))(?:\s+(?P<code>{RANGE}))?(?![\w])"
+            rf"(?P<abbr>(?<![\w])(?<!\dth )(?<!\dst )(?<!\dnd )(?<!\drd )(?:{alts}))(?:\s+(?P<code>{RANGE}))?(?![\w])"
             rf"|(?P<dabbr>(?<![\w(])(?:{dalts}))\s+(?P<dcode>{RANGE})(?![\w])"
             rf"|(?<![\w.–])(?P<bare>{BARE}(?:–(?:{CODE}|[A-Z](?:\.\d+)?))?)(?![\w])(?!\.\s*[A-Z][a-z])"  # not "I.M. Destler"
         )
