@@ -1,0 +1,232 @@
+# K–J Adm.: page text and outline. Entries live in the files named by 'file'.
+page_title: 'Kennedy and Johnson Administrations, 1961–1969: Bibliography'
+h1: 'Kennedy, Johnson, and their administrations, 1961–1969: working bibliography'
+lede: 'Sources, portrayals, and names for the Kennedy and Johnson presidencies, from the inauguration of January 20, 1961, to that of January 20, 1969: the White House, the departments, and the policies made there.'
+logic:
+  - 'Fifth list in the series. This one is K–J Adm. Its companion is K–J Cong.: Congress, the nation, and the states, 1961–69. A calendar (Cal.) runs month by month and points into both. Earlier lists: the 1968 list; the Republican opposition (Opp.); Nixon and his administration (Adm.); Congress, the nation, and the states, 1969–74 (Cong.); Watergate (Wg.); and the Vietnam bibliography. Cross-references give list and section. Part I lists portrayals, Part II sources, Part III names. Unless a section says otherwise, entries run in chronological order. Where my knowledge is thin, the entry says so. "Check" marks a detail to verify.'
+  - Overlaps. Entries carried over from the 1968 list or Opp. are marked "Also in the 1968 list" or "Also Opp." The 1968 list keeps the campaign, Chicago, and the last year of Johnson's court; what serves the whole presidency is repeated here. Opp. keeps the Republicans.
+  - 'The Dallas rule. The assassination has its own library, most of it conspiracy. Here: the official record, the transition, and the few books that bear on politics and policy (II.F). Nothing on who fired. Fiction and film about Dallas appear only where they portray the administration.'
+  - The war. The decisions and the documents are here (II.D, II.H). The war itself and its historiography are in the Vietnam bibliography.
+sections:
+  - id: p1
+    num: I.
+    title: Portrayals
+    logic:
+      - 'Three sections: A. Fiction. B. Stage, film, and television. C. Reportage, for the set pieces the novels did not write.'
+    sections:
+      - id: p1a
+        num: I.A
+        title: Fiction
+        logic:
+          - Chronological by first publication.
+        file: I.A.yaml
+      - id: p1b
+        num: I.B
+        title: Stage, film, and television
+        logic:
+          - Dramas and documentaries together. Chronological by release.
+        file: I.B.yaml
+      - id: p1c
+        num: I.C
+        title: Reportage
+        logic:
+          - Set pieces. Chronological.
+        file: I.C.yaml
+  - id: p2
+    num: II.
+    title: Sources
+    logic:
+      - 'Works and records to draw facts and voices from. Eleven sections, from the most digested to the least: A. The presidents and the White House. B. Domestic policy and the economy. C. Civil rights: the executive. D. National security. E. Justice, intelligence, and the FBI. F. Dallas and the transition. G. Memoirs and biographies. H. Documents. I. Recordings. J. The tapes. K. Archives. Sections A through F are chronological by first publication.'
+    sections:
+      - id: p2a
+        num: II.A
+        title: The presidents and the White House
+        logic:
+          - Biographies and general histories. Memoirs are in II.G. Start with Reeves for Kennedy's days and Caro and Dallek for Johnson; Matusow for the decade's argument.
+        file: II.A.yaml
+      - id: p2b
+        num: II.B
+        title: Domestic policy and the economy
+        logic:
+          - The program, the economists, the poverty war, Medicare, schools, space, trade, the dollar, and monetary policy. The legislative side is in K–J Cong. II.B.
+        file: II.B.yaml
+      - id: p2c
+        num: II.C
+        title: 'Civil rights: the executive'
+        logic:
+          - The Justice Department, the White House, and the movement as seen from Washington. The bills are in K–J Cong. II.C; the movement is in K–J Cong. II.F.
+        file: II.C.yaml
+      - id: p2d
+        num: II.D
+        title: National security
+        logic:
+          - Cuba, Berlin, Laos, the missile crisis, arms control, Vietnam decisions, Latin America, the Congo, the Dominican Republic, the Six-Day War, the *Pueblo*. For the war after 1965, the Vietnam bibliography.
+        file: II.D.yaml
+      - id: p2e
+        num: II.E
+        title: Justice, intelligence, and the FBI
+        logic:
+          - Robert Kennedy's department, organized crime, the CIA's covert side, and Hoover. Civil rights enforcement is in II.C.
+        file: II.E.yaml
+      - id: p2f
+        num: II.F
+        title: Dallas and the transition
+        logic:
+          - Under the Dallas rule. The commission's report and the later official inquiries are in II.H.3.
+        file: II.F.yaml
+      - id: p2g
+        num: II.G
+        title: Memoirs and biographies
+        logic:
+          - 'Books that preserve a person''s voice. Seven groups: 1. The Kennedys. 2. The Kennedy White House. 3. Johnson and his court. 4. National security and the military. 5. The cabinet and the domestic side. 6. Justice and intelligence. 7. Abroad. Alphabetical by subject within each.'
+        sections:
+          - id: p2g1
+            num: II.G.1
+            title: The Kennedys
+            logic:
+              - Alphabetical by subject. Edward Kennedy is in K–J Cong.
+            file: II.G.1.yaml
+          - id: p2g2
+            num: II.G.2
+            title: The Kennedy White House
+            logic:
+              - Alphabetical by subject.
+            file: II.G.2.yaml
+          - id: p2g3
+            num: II.G.3
+            title: Johnson and his court
+            logic:
+              - Alphabetical by subject. Carried from the 1968 list where the book covers the whole presidency.
+            file: II.G.3.yaml
+          - id: p2g4
+            num: II.G.4
+            title: National security and the military
+            logic:
+              - Alphabetical by subject.
+            file: II.G.4.yaml
+          - id: p2g5
+            num: II.G.5
+            title: The cabinet and the domestic side
+            logic:
+              - Alphabetical by subject.
+            file: II.G.5.yaml
+          - id: p2g6
+            num: II.G.6
+            title: Justice and intelligence
+            logic:
+              - Alphabetical by subject.
+            file: II.G.6.yaml
+          - id: p2g7
+            num: II.G.7
+            title: Abroad
+            logic:
+              - Foreign leaders. Where the book is in another language, the original comes first and the translation in the note. Alphabetical by subject.
+            file: II.G.7.yaml
+      - id: p2h
+        num: II.H
+        title: Documents
+        logic:
+          - 'Three groups: 1. Cases. 2. Orders, directives, and plans. 3. Reports and memoranda. Chronological within each. Congress''s statutes are in K–J Cong. II.J.2.'
+        sections:
+          - id: p2h1
+            num: II.H.1
+            title: Cases
+            logic:
+              - Litigation the administration brought or answered for. Chronological. Links go to the reporter PDFs. The Warren Court's docket is in K–J Cong. II.J.1.
+            file: II.H.1.yaml
+          - id: p2h2
+            num: II.H.2
+            title: Orders, directives, and plans
+            logic:
+              - Chronological. National Security Action Memoranda (NSAMs) are at the JFK and LBJ Libraries; many are printed in FRUS.
+            file: II.H.2.yaml
+          - id: p2h3
+            num: II.H.3
+            title: Reports and memoranda
+            logic:
+              - Chronological. Several can be quoted as they stand.
+            file: II.H.3.yaml
+      - id: p2i
+        num: II.I
+        title: Recordings
+        logic:
+          - Speeches and broadcasts to look for in II.K. Chronological by date. The calendar dates each one in context.
+        file: II.I.yaml
+      - id: p2j
+        num: II.J
+        title: The tapes
+        logic:
+          - Kennedy's recordings run from July 1962 to November 1963, about 260 hours; Johnson's telephone recordings from November 22, 1963, to the end of the term. Nothing was taped in 1961. Where to hear them and how they are in print.
+        file: II.J.yaml
+      - id: p2k
+        num: II.K
+        title: Archives
+        logic:
+          - Where the records are. Free unless noted. Alphabetical by name.
+        file: II.K.yaml
+  - id: p3
+    num: III.
+    title: Names
+    logic:
+      - 'The people. Ten groups, from the presidents outward: family, the Kennedy staff, the Johnson staff, the vice presidents, national security and State, defense and the military, the cabinet and the domestic side, the economy, justice and intelligence, and abroad. Alphabetical within each. Each entry gives the role in these years, a note, and where to find the voice. "Tapes" means the recordings in II.J. "Oral history" means the JFK or LBJ Library collections.'
+    sections:
+      - id: p3a
+        num: III.A
+        title: Family
+        logic:
+          - Alphabetical.
+        file: III.A.yaml
+      - id: p3b
+        num: III.B
+        title: Kennedy White House staff
+        logic:
+          - In the White House, 1961–63. Alphabetical. Bundy and Rostow are in III.E.
+        file: III.B.yaml
+      - id: p3c
+        num: III.C
+        title: Johnson White House staff
+        logic:
+          - In the White House from November 1963. Alphabetical. Those who were there in August 1968 are also in the 1968 list, III.A.
+        file: III.C.yaml
+      - id: p3d
+        num: III.D
+        title: The vice presidents
+        logic:
+          - Alphabetical.
+        file: III.D.yaml
+      - id: p3e
+        num: III.E
+        title: National security and State
+        logic:
+          - Alphabetical.
+        file: III.E.yaml
+      - id: p3f
+        num: III.F
+        title: Defense and the military
+        logic:
+          - Civilians first, then officers. Alphabetical within each.
+        file: III.F.yaml
+      - id: p3g
+        num: III.G
+        title: The cabinet and the domestic side
+        logic:
+          - Alphabetical.
+        file: III.G.yaml
+      - id: p3h
+        num: III.H
+        title: The economy
+        logic:
+          - Alphabetical.
+        file: III.H.yaml
+      - id: p3i
+        num: III.I
+        title: Justice and intelligence
+        logic:
+          - Alphabetical.
+        file: III.I.yaml
+      - id: p3j
+        num: III.J
+        title: Abroad
+        logic:
+          - Alphabetical.
+        file: III.J.yaml

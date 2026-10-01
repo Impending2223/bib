@@ -1,0 +1,80 @@
+# Cal.: page text and outline. Entries live in the files named by 'file'.
+page_title: Calendar, January–September 1961
+h1: 'Calendar of the Kennedy and Johnson years: January 20 to September 30, 1961'
+lede: 'Executive, legislative, judicial, and state events from the inauguration to the end of September 1961: the first session of the 87th Congress (Jan. 3–Sept. 27), and the first eight months of the Kennedy administration.'
+logic:
+  - Seventh list in the series. This one is Cal. It points into K–J Adm. and K–J Cong., and into the earlier lists where they hold the record.
+  - 'How to read it. One entry per event, by date, with the thread in parentheses. The line says what happened. The note gives sources: the first entry of each thread carries its bibliography, and later entries point back by date ("See Apr. 15"). Books already in a list are cited by short title with the list and section; works found only here are cited in full. Names point to Part III of the lists. Presidential messages, speeches, and press conferences are cited by title and date; all are in the *Public Papers* for 1961 and on the American Presidency Project (K–J Adm. II.K). FRUS means *Foreign Relations of the United States, 1961–1963*, by volume. Votes link to Voteview where the roll call is identified. "Check" marks a detail to verify.'
+  - 'Three parts: the threads, a short prologue, then the months.'
+kind: calendar
+year: 1961
+threads_section: th
+sections:
+  - id: th
+    num: I.
+    title: Threads
+    logic:
+      - Each thread with its span and the dates where it appears. The first date carries the bibliography. Alphabetical.
+    file: th.yaml
+  - id: pro
+    num: II.
+    title: Prologue, January 3–19
+    logic:
+      - What was already in motion on inauguration day.
+    file: pro.yaml
+    from: '1961-01-01'
+    to: '1961-01-19'
+  - id: jan
+    num: III.
+    title: January 20–31
+    file: jan.yaml
+    from: '1961-01-20'
+    to: '1961-01-31'
+  - id: feb
+    num: IV.
+    title: February
+    file: feb.yaml
+    from: '1961-02-01'
+    to: '1961-02-28'
+  - id: mar
+    num: V.
+    title: March
+    file: mar.yaml
+    from: '1961-03-01'
+    to: '1961-03-31'
+  - id: apr
+    num: VI.
+    title: April
+    file: apr.yaml
+    from: '1961-04-01'
+    to: '1961-04-30'
+  - id: may
+    num: VII.
+    title: May
+    file: may.yaml
+    from: '1961-05-01'
+    to: '1961-05-31'
+  - id: jun
+    num: VIII.
+    title: June
+    file: jun.yaml
+    from: '1961-06-01'
+    to: '1961-06-30'
+  - id: jul
+    num: IX.
+    title: July
+    file: jul.yaml
+    from: '1961-07-01'
+    to: '1961-07-31'
+  - id: aug
+    num: X.
+    title: August
+    file: aug.yaml
+    from: '1961-08-01'
+    to: '1961-08-31'
+  - id: sep
+    num: XI.
+    title: September
+    file: sep.yaml
+    from: '1961-09-01'
+    to: '1961-09-30'

@@ -1,0 +1,229 @@
+# Adm.: page text and outline. Entries live in the files named by 'file'.
+page_title: 'Nixon Administration, 1969–1974: Bibliography'
+h1: 'Richard Nixon and his administration, 1969–1974: working bibliography'
+lede: Sources, portrayals, and names for the Nixon presidency, from the inauguration of January 20, 1969, to the resignation of August 9, 1974, less Watergate.
+logic:
+  - 'Second of four lists. This one is Adm. The others: the Republican opposition, 1961–69 (Opp.); Congress, the nation, and the states, 1969–74 (Cong.); and Watergate (Wg.). Cross-references give list and section. Part I lists portrayals, Part II sources, Part III names. Unless a section says otherwise, entries run in chronological order. Where my knowledge is thin, the entry says so. "Check" marks a detail to verify.'
+  - 'The Watergate rule. Wg. holds what exists only because of the scandal: the break-in of June 17, 1972; the covert operations from the White House and the Committee to Re-elect that led to it (the Plumbers, the Fielding break-in, Gemstone, Segretti); and everything that followed its discovery, through the pardon. Nothing of that kind appears here. What stands on its own stays here even where the investigators swept it in: the Kissinger wiretaps, the Huston Plan, ITT, the milk fund, the President''s taxes, Agnew. General works stay here too; where Watergate is most of a general book, the note says so. A person whose part in the period was only Watergate appears only in Wg.; one with another part appears in both.'
+sections:
+  - id: p1
+    num: I.
+    title: Portrayals
+    logic:
+      - 'Three sections: A. Fiction. B. Stage and opera. C. Film and television. Works whose subject is Watergate are in Wg. I.'
+    sections:
+      - id: p1a
+        num: I.A
+        title: Fiction
+        logic:
+          - Chronological by first publication.
+        file: I.A.yaml
+      - id: p1b
+        num: I.B
+        title: Stage and opera
+        logic:
+          - Chronological by first production.
+        file: I.B.yaml
+      - id: p1c
+        num: I.C
+        title: Film and television
+        logic:
+          - Dramas and documentaries together. Chronological by release.
+        file: I.C.yaml
+  - id: p2
+    num: II.
+    title: Sources
+    logic:
+      - 'Works and records to draw facts and voices from. Eleven sections, from the most digested to the least: A. The man and the White House. B. Vietnam, Cambodia, and Laos. C. The world. D. The home front. E. Law, the Court, and domestic security. F. The vice presidents. G. Memoirs and biographies. H. Documents. I. Recordings. J. The tapes. K. Archives. Sections A through F are chronological by first publication.'
+    sections:
+      - id: p2a
+        num: II.A
+        title: The man and the White House
+        logic:
+          - Biographies, accounts of the White House, and the first histories. Memoirs are in II.G. Start with Reeves for the day-to-day, then Farrell for the life.
+        file: II.A.yaml
+      - id: p2b
+        num: II.B
+        title: Vietnam, Cambodia, and Laos
+        logic:
+          - The war under Nixon, the secret talks, and the settlement. For the Johnson years, see the 1968 list and the Vietnam bibliography.
+        short: II.B Vietnam
+        file: II.B.yaml
+      - id: p2c
+        num: II.C
+        title: The world
+        logic:
+          - China, the Soviet Union, the Middle East, South Asia, Chile, Japan, Europe, and the dollar.
+        file: II.C.yaml
+      - id: p2d
+        num: II.D
+        title: The home front
+        logic:
+          - Domestic policy, the economy, environment, drugs, and civil rights. The legislative side is in Cong. II.B.
+        file: II.D.yaml
+      - id: p2e
+        num: II.E
+        title: Law, the Court, and domestic security
+        logic:
+          - The nominations, the wiretaps, the Huston Plan, the FBI, and the Pentagon Papers. Cases are in II.H.1.
+        short: II.E Law and security
+        file: II.E.yaml
+      - id: p2f
+        num: II.F
+        title: The vice presidents
+        logic:
+          - Agnew, his fall, and Ford's confirmation. The Senate and House hearings on Ford are in Cong. II.I.3.
+        file: II.F.yaml
+      - id: p2g
+        num: II.G
+        title: Memoirs and biographies
+        logic:
+          - 'Books that preserve a person''s voice. Six groups: 1. Nixon and his family. 2. The White House. 3. National security and the military. 4. The cabinet and the economy. 5. Justice and intelligence. 6. Abroad. Alphabetical by subject within each. Memoirs that are mostly Watergate are in Wg.'
+        sections:
+          - id: p2g1
+            num: II.G.1
+            title: Nixon and his family
+            logic:
+              - Alphabetical by subject.
+            file: II.G.1.yaml
+          - id: p2g2
+            num: II.G.2
+            title: The White House
+            logic:
+              - Alphabetical by subject.
+            file: II.G.2.yaml
+          - id: p2g3
+            num: II.G.3
+            title: National security and the military
+            logic:
+              - Alphabetical by subject.
+            short: II.G.3 National security
+            file: II.G.3.yaml
+          - id: p2g4
+            num: II.G.4
+            title: The cabinet and the economy
+            logic:
+              - Alphabetical by subject.
+            short: II.G.4 Cabinet and economy
+            file: II.G.4.yaml
+          - id: p2g5
+            num: II.G.5
+            title: Justice and intelligence
+            logic:
+              - Alphabetical by subject.
+            file: II.G.5.yaml
+          - id: p2g6
+            num: II.G.6
+            title: Abroad
+            logic:
+              - Foreign leaders and diplomats. Where the book is in another language, the original comes first and the translation in the note. Alphabetical by subject.
+            file: II.G.6.yaml
+      - id: p2h
+        num: II.H
+        title: Documents
+        logic:
+          - 'Three groups: 1. Cases. 2. Statutes, orders, and plans. 3. Reports and memoranda. Chronological within each.'
+        sections:
+          - id: p2h1
+            num: II.H.1
+            title: Cases
+            logic:
+              - Chronological. Links go to the reporter PDFs.
+            file: II.H.1.yaml
+          - id: p2h2
+            num: II.H.2
+            title: Statutes, orders, and plans
+            logic:
+              - Chronological. Congress's side of each is in Cong. II.I.2.
+            short: II.H.2 Statutes and orders
+            file: II.H.2.yaml
+          - id: p2h3
+            num: II.H.3
+            title: Reports and memoranda
+            logic:
+              - Chronological. Several can be quoted as they stand.
+            file: II.H.3.yaml
+      - id: p2i
+        num: II.I
+        title: Recordings
+        logic:
+          - Speeches, broadcasts, and interviews to look for in II.K. Chronological by date. Watergate addresses are in Wg.
+        file: II.I.yaml
+      - id: p2j
+        num: II.J
+        title: The tapes
+        logic:
+          - The White House recordings, February 1971 to July 1973. Most of it is not Watergate. What follows is where to hear them and how they are in print. Watergate transcripts are in Wg. II.F.
+        file: II.J.yaml
+      - id: p2k
+        num: II.K
+        title: Archives
+        logic:
+          - Where the recordings and records are. Free unless noted. Alphabetical by name.
+        file: II.K.yaml
+  - id: p3
+    num: III.
+    title: Names
+    logic:
+      - 'The people. Groups run from Nixon outward: family and friends, the White House staff, the vice presidents, national security, the military, the cabinet, the economy, justice and intelligence, the drug war, and abroad. Alphabetical within each group. Each entry gives the role in these years, a note, and where to find the voice. "Tapes" means the White House recordings (II.J). A name marked "Also Wg." has a Watergate part as well; those with only a Watergate part are in Wg. alone.'
+    sections:
+      - id: p3a
+        num: III.A
+        title: Family and friends
+        logic:
+          - Alphabetical.
+        file: III.A.yaml
+      - id: p3b
+        num: III.B
+        title: White House staff
+        logic:
+          - Alphabetical.
+        file: III.B.yaml
+      - id: p3c
+        num: III.C
+        title: The vice presidents
+        logic:
+          - Alphabetical.
+        file: III.C.yaml
+      - id: p3d
+        num: III.D
+        title: National security and State
+        logic:
+          - Alphabetical.
+        file: III.D.yaml
+      - id: p3e
+        num: III.E
+        title: Defense and the military
+        logic:
+          - Civilians first, then officers. Alphabetical within each.
+        file: III.E.yaml
+      - id: p3f
+        num: III.F
+        title: The cabinet and the domestic side
+        logic:
+          - Alphabetical.
+        file: III.F.yaml
+      - id: p3g
+        num: III.G
+        title: The economy
+        logic:
+          - Alphabetical.
+        file: III.G.yaml
+      - id: p3h
+        num: III.H
+        title: Justice and intelligence
+        logic:
+          - Alphabetical.
+        file: III.H.yaml
+      - id: p3i
+        num: III.I
+        title: The drug war
+        logic:
+          - The Controlled Substances Act, the Shafer Commission, and the special action office. Alphabetical.
+        file: III.I.yaml
+      - id: p3j
+        num: III.J
+        title: Abroad
+        logic:
+          - Alphabetical.
+        file: III.J.yaml
