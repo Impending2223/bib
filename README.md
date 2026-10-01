@@ -15,7 +15,7 @@ the pages published on claude.ai.
 | Nixon and his administration, 1969–74 (Adm.) | https://claude.ai/artifact/UnACbvVAd3HguTvpsaE6RM |
 | Congress, the nation, and the states, 1969–74 (Cong.) | https://claude.ai/artifact/1rzmmHQPAvEZpqVvxshNkc |
 | Watergate, 1971–74 (Wg.) | https://claude.ai/artifact/R7oEex8RCkSQhjjec7puCG |
-| Vietnam and the American war, 1945–75 (Viet.) | not yet published |
+| Vietnam and the American war, 1945–75 (Viet.) | https://claude.ai/artifact/Lp6cu5vWjkGMi3rUyRahKc |
 | All of them in one reader, with live cross-references | https://claude.ai/artifact/9VsXuvj8UhFT9pLFxVMav5 |
 
 ## How it is kept
