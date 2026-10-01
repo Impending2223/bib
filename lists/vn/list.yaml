@@ -1,0 +1,207 @@
+# Viet.: page text and outline. Entries live in the files named by 'file'.
+page_title: 'Vietnam, 1945–1975: Bibliography'
+h1: 'Vietnam and the American war, 1945–1975: working bibliography'
+lede: 'Sources, portrayals, and names for the war in Vietnam, from the French war to the fall of Saigon, weighted to the American years: the decisions, the war in the field, the Vietnamese on every side, and the war at home.'
+logic:
+  - 'Ninth list in the series. This one is Viet. It holds the war itself and its historiography. The decisions as the presidents made them stay where they were: K–J Adm. II.D and II.H for Kennedy and Johnson, Adm. II.B for Nixon. The Senate''s war is in K–J Cong. II.D, and the fight over war powers in Cong. II.C; March 1968 and the bombing halt are in the 1968 list. The calendar (Cal.) dates the Kennedy years'' steps. Cross-references give list and section. Part I lists portrayals, Part II sources, Part III names. Unless a section says otherwise, entries run in chronological order. Where my knowledge is thin, the entry says so. "Check" marks a detail to verify.'
+  - Overlaps. A book whose subject is the war is listed here even when another list holds it, and marked "Also K–J Adm." or the like. A book that only touches the war is cited from the list that holds it.
+  - Vietnamese names. Family name first, as in Vietnamese, and alphabetized that way (Ngo Dinh Diem under N). The text calls Diem, Thieu, Ky, and Giap by the last syllable, as Americans did then. Diacritics are kept in the titles of works in Vietnamese and dropped elsewhere.
+sections:
+  - id: p1
+    num: I.
+    title: Portrayals
+    logic:
+      - 'Three sections: A. Fiction. B. Stage, film, and television. C. Reportage.'
+    sections:
+      - id: p1a
+        num: I.A
+        title: Fiction
+        logic:
+          - Novels and stories. Where the book was written in another language, the original comes first and the translation in the note. Chronological by first publication.
+        file: I.A.yaml
+      - id: p1b
+        num: I.B
+        title: Stage, film, and television
+        logic:
+          - Dramas and documentaries together. Chronological by release.
+        file: I.B.yaml
+      - id: p1c
+        num: I.C
+        title: Reportage
+        logic:
+          - The correspondents, in books. Chronological. The press as a subject is in II.G.
+        file: I.C.yaml
+  - id: p2
+    num: II.
+    title: Sources
+    logic:
+      - 'Works and records to draw facts and voices from. Eleven sections, from the most digested to the least: A. General histories. B. The road in, 1945–63. C. Johnson''s war, 1964–68. D. Nixon''s war and the fall, 1969–75. E. The Vietnamese sides. F. Strategy and the field. G. The war at home. H. Memoirs and biographies. I. Documents. J. Recordings and the tapes. K. Archives. Sections A through G are chronological by first publication.'
+    sections:
+      - id: p2a
+        num: II.A
+        title: General histories
+        logic:
+          - The whole war, or most of it. Start with Herring for the American side, Logevall for how it began, Goscha and Asselin for the Vietnamese. Gibbons and Kahin are in K–J Adm. II.D.
+        file: II.A.yaml
+      - id: p2b
+        num: II.B
+        title: The road in, 1945–1963
+        logic:
+          - The French war, Geneva, Diem, and the Kennedy years to the coup. Kennedy's decisions are also in K–J Adm. II.D (Freedman, Novosejt, Logevall's *Choosing War*); the calendar dates them through January 1963.
+        file: II.B.yaml
+      - id: p2c
+        num: II.C
+        title: Johnson's war, 1964–1968
+        logic:
+          - Escalation, the ground war, the search for talks, Tet. Berman, VanDeMark, Moïse, McMaster, Preston, and Goldstein are in K–J Adm. II.D; Hoopes, Schandler, and Clodfelter in the 1968 list II.B.
+        file: II.C.yaml
+      - id: p2d
+        num: II.D
+        title: Nixon's war and the fall, 1969–1975
+        logic:
+          - Vietnamization, Cambodia and Laos, the Easter Offensive, Paris, and the end. Shawcross, Kimball, Berman's *No Peace, No Honor*, Asselin's *Bitter Peace*, and the Kissinger memoirs are in Adm. II.B.
+        file: II.D.yaml
+      - id: p2e
+        num: II.E
+        title: The Vietnamese sides
+        logic:
+          - Hanoi, the Front, Saigon, and the armies, mostly from Vietnamese sources. With China and the Soviet Union as Hanoi's allies.
+        file: II.E.yaml
+      - id: p2f
+        num: II.F
+        title: Strategy and the field
+        logic:
+          - How the war was fought: strategy, pacification, the air war, the secret wars in Laos and the North, the soldiers, the prisoners.
+        file: II.F.yaml
+      - id: p2g
+        num: II.G
+        title: The war at home
+        logic:
+          - The antiwar movement, the draft, the press, opinion, the veterans, and memory. Opinion polls are in K–J Cong. II.E (Mueller); the movement after 1969 also in Cong. II.E.
+        file: II.G.yaml
+      - id: p2h
+        num: II.H
+        title: Memoirs and biographies
+        logic:
+          - 'Books that preserve a person''s voice. Four groups: 1. Washington. 2. In the field. 3. Vietnamese. 4. Others abroad. Alphabetical by subject within each. Where the memoir is already in another list, the entry points there.'
+        sections:
+          - id: p2h1
+            num: II.H.1
+            title: Washington
+            logic:
+              - Alphabetical by subject.
+            file: II.H.1.yaml
+          - id: p2h2
+            num: II.H.2
+            title: In the field
+            logic:
+              - Officers, advisers, soldiers, prisoners. Alphabetical by subject.
+            file: II.H.2.yaml
+          - id: p2h3
+            num: II.H.3
+            title: Vietnamese
+            logic:
+              - Alphabetical by subject, family name first.
+            file: II.H.3.yaml
+          - id: p2h4
+            num: II.H.4
+            title: Others abroad
+            logic:
+              - Alphabetical by subject.
+            file: II.H.4.yaml
+      - id: p2i
+        num: II.I
+        title: Documents
+        logic:
+          - 'Three groups: 1. Cases. 2. Treaties, resolutions, statutes, and directives. 3. Reports, papers, and official histories. Chronological within each.'
+        sections:
+          - id: p2i1
+            num: II.I.1
+            title: Cases
+            logic:
+              - The war in the courts. Chronological.
+            file: II.I.1.yaml
+          - id: p2i2
+            num: II.I.2
+            title: Treaties, resolutions, statutes, and directives
+            logic:
+              - Chronological. NSAMs are at the JFK and LBJ Libraries; most are printed in FRUS.
+            file: II.I.2.yaml
+          - id: p2i3
+            num: II.I.3
+            title: Reports, papers, and official histories
+            logic:
+              - Chronological. The service histories are free online from the Army's Center of Military History and the other historical offices (II.K).
+            file: II.I.3.yaml
+      - id: p2j
+        num: II.J
+        title: Recordings and the tapes
+        logic:
+          - Broadcasts, speeches, and the presidents' recordings on Vietnam. Chronological by date.
+        file: II.J.yaml
+      - id: p2k
+        num: II.K
+        title: Archives
+        logic:
+          - Where the records are. Free unless noted. Alphabetical by name.
+        file: II.K.yaml
+  - id: p3
+    num: III.
+    title: Names
+    logic:
+      - 'The people. Nine groups: Washington under Kennedy and Johnson; Washington under Nixon and Ford; Saigon: the embassy and the station; the military command; critics and the movement; the press; South Vietnam; North Vietnam and the Front; others abroad. Alphabetical within each. Each entry gives the role in these years, a note, and where to find the voice. People with fuller entries elsewhere in the series point there.'
+    sections:
+      - id: p3a
+        num: III.A
+        title: Washington, 1961–1969
+        logic:
+          - Alphabetical.
+        file: III.A.yaml
+      - id: p3b
+        num: III.B
+        title: Washington, 1969–1975
+        logic:
+          - Alphabetical.
+        file: III.B.yaml
+      - id: p3c
+        num: III.C
+        title: 'Saigon: the embassy and the station'
+        logic:
+          - Ambassadors, the mission, the CIA. Alphabetical.
+        file: III.C.yaml
+      - id: p3d
+        num: III.D
+        title: The military command
+        logic:
+          - Officers in Saigon and the Pacific, and soldiers whose names became events. Alphabetical.
+        file: III.D.yaml
+      - id: p3e
+        num: III.E
+        title: Critics and the movement
+        logic:
+          - In Congress and out of it. Alphabetical.
+        file: III.E.yaml
+      - id: p3f
+        num: III.F
+        title: The press
+        logic:
+          - Correspondents and photographers in Vietnam, and a few at home. Alphabetical.
+        file: III.F.yaml
+      - id: p3g
+        num: III.G
+        title: South Vietnam
+        logic:
+          - Alphabetical, family name first.
+        file: III.G.yaml
+      - id: p3h
+        num: III.H
+        title: North Vietnam and the Front
+        logic:
+          - Alphabetical, family name first.
+        file: III.H.yaml
+      - id: p3i
+        num: III.I
+        title: Others abroad
+        logic:
+          - Laos, Cambodia, the French, the British, the Chinese, the go-betweens. Alphabetical.
+        file: III.I.yaml

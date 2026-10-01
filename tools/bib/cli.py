@@ -357,6 +357,7 @@ def cmd_publish_plan(series, a):
     for key, state in st.items():
         url = series.data["compiled_artifact"] if key == "series" else series.lists[key].meta.get("artifact")
         last = (rec.get(key) or {}).get("date", "never")
+        url = url or "(no artifact yet: publish without a url, then put the new URL in series.yaml)"
         print(f"{key:6} {state:9} build/{key}.html -> {url}   (last recorded publish: {last})")
     print("\nAfter publishing a page with the Artifact tool, record it: ./bib mark-published KEY")
 
