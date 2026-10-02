@@ -270,7 +270,7 @@ def block(c, data, geo, ptr, href, rid):
                f'<figure class="cgmap" data-chamber="s"><figcaption>Senate, by state</figcaption></figure></div>')
     out.append('<p class="cgkey"><span class="sw pD"></span>Democratic <span class="sw pR"></span>Republican '
                '<span class="sw pO"></span>Other <span class="sw pV"></span>Vacant <span class="sw pX"></span>Split delegation. '
-               'Dots: at-large seats beside districts. Zoom with the buttons, a double-click, a pinch, or Ctrl-scroll; drag to pan. Click a district for its representatives, a state for its senators. Delegations, under the House map: a dot a seat, a block a State; hover a dot for its district, click to go to it.</p>')
+               'Dots: at-large seats beside districts. Zoom with the buttons, a double-click, a pinch, or Ctrl-scroll; drag to pan. Click a district for its representatives, a state for its senators. Delegations, under the House map: a dot a seat, a block a State; hover a dot for its district, click to go to it, click another district to move there, double-click white space to come back.</p>')
     for ch, rows, label in (("h", house, "House"), ("s", senate, "Senate")):
         out.append(f'<details class="cgr"><summary>{label} members, {len(rows)}, by state</summary><table>'
                    '<colgroup><col class="c1"><col class="c2"><col class="c3"><col class="c4"></colgroup>')
