@@ -75,6 +75,11 @@ ADD = {  # terms missing from the dataset
 NOTE = {
     (90, 'h', 'NY', 18): 'Not seated at the opening; excluded Mar. 1, 1967. *Powell v. McCormack*, 395 U.S. 486 (1969).',
 }
+def given(p):
+    n = p['name']
+    return ' '.join(x for x in (n['first'], n.get('middle')) if x and not x.startswith('('))
+def person(bio):
+    return next(p for p in L if p['id'].get('bioguide') == bio)
 def find_id(q):
     last, first, st = q
     hits = [p for p in L if p['name']['last'] == last and p['name']['first'].startswith(first) and any(t['state'] == st for t in p['terms'])]
@@ -99,12 +104,12 @@ for c in OPEN:
             key = (c, 'h', st, d)
             if key in VACANT:
                 rows.append({'st': st, 'd': d, 'vacant': True, 'n': VACANT[key]}); continue
-            r = {'st': st, 'd': d, 'name': name(p), 'party': PARTY[party_at(t, OPEN[c])], 'bio': p['id']['bioguide']}
+            r = {'st': st, 'd': d, 'name': name(p), 'given': given(p), 'party': PARTY[party_at(t, OPEN[c])], 'bio': p['id']['bioguide']}
             if key in NOTE: r['n'] = NOTE[key]
             rows.append(r)
         for key, (nm_, pa, bio) in ADD.items():
             if key[0] == c and key[1] == 'h' and key[2] == st:
-                rows.append({'st': st, 'd': key[3], 'name': nm_, 'party': pa, 'bio': find_id(bio), 'n': 'Term missing from the source dataset; added by hand.'})
+                rows.append({'st': st, 'd': key[3], 'name': nm_, 'given': given(person(find_id(bio))), 'party': pa, 'bio': find_id(bio), 'n': 'Term missing from the source dataset; added by hand.'})
         for key, note in VACANT.items():
             if key[0] == c and key[1] == 'h' and key[2] == st and not any(r['d'] == key[3] for r in rows):
                 rows.append({'st': st, 'd': key[3], 'vacant': True, 'n': note})
@@ -116,10 +121,10 @@ for c in OPEN:
         for (s2, cl), v in S.items():
             if s2 != st: continue
             for p, t in v:
-                srows.append({'st': st, 'cl': cl, 'name': name(p), 'party': PARTY[party_at(t, OPEN[c])], 'bio': p['id']['bioguide']})
+                srows.append({'st': st, 'cl': cl, 'name': name(p), 'given': given(p), 'party': PARTY[party_at(t, OPEN[c])], 'bio': p['id']['bioguide']})
         for key, (nm_, pa, bio) in ADD.items():
             if key[0] == c and key[1] == 's' and key[2] == st:
-                srows.append({'st': st, 'cl': key[3], 'name': nm_, 'party': pa, 'bio': find_id(bio), 'n': 'Term missing from the source dataset; added by hand.'})
+                srows.append({'st': st, 'cl': key[3], 'name': nm_, 'given': given(person(find_id(bio))), 'party': pa, 'bio': find_id(bio), 'n': 'Term missing from the source dataset; added by hand.'})
         for key, note in VACANT.items():
             if key[0] == c and key[1] == 's' and key[2] == st:
                 srows = [r for r in srows if r['cl'] != key[3]] + [{'st': st, 'cl': key[3], 'vacant': True, 'n': note}]
