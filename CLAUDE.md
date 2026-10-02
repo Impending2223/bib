@@ -58,7 +58,7 @@ yes: c: Gilpatric to the Business Council at Hot Springs. The American second
 ## Layout
 
 ```
-series.yaml               the lists: key, abbreviation, artifact URL
+series.yaml               the lists: key, abbreviation, old artifact URL
 lists/<key>/list.yaml     a list's title, intro paragraphs, and outline (sections → files)
 lists/<key>/<file>.yaml   one section's entries, in display order (II.D.yaml, apr.yaml)
 inbox/                    patch files waiting to be merged
@@ -235,19 +235,15 @@ entry (the rule name is printed in brackets), e.g. `ok:thread-first`.
 
 ## Publishing
 
-Each list is an artifact on claude.ai; the compiled reader is another
-(`series.yaml` has the URLs).
+The site is GitHub Pages: https://impending2223.github.io/bib/ (the compiled
+reader; each list at `<key>.html`). Every push to `main` runs
+`.github/workflows/pages.yml`: `./bib check`, `./bib build`, deploy. A failing
+check stops the deploy. So publishing is merging to `main`. Run `check` and
+`build` locally before you push.
 
-```
-./bib build
-./bib publish-plan                   # which pages changed since last publish, and their URLs
-```
-
-Publish a changed page by passing `build/<key>.html` to the Artifact tool
-with the list's `url`, then `./bib mark-published <key>` and commit. A list
-with `artifact: ''` in `series.yaml` has never been published: publish it
-without a `url`, then put the new URL in `series.yaml` and the README.
-`build/series.html` goes to `compiled_artifact`.
+The claude.ai artifacts named in `series.yaml` are frozen copies of
+Oct. 1, 2026. Don't republish them; `publish-plan` and `mark-published`
+belong to that old route.
 
 ## Do not
 
@@ -255,4 +251,4 @@ without a `url`, then put the new URL in `series.yaml` and the README.
 - change an `id`, or reuse a deleted one (add an alias instead);
 - write the thread index by hand, or `s:` on calendar entries;
 - edit `published.yaml` by hand;
-- publish with errors from `./bib check`.
+- push to `main` with errors from `./bib check`.
