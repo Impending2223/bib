@@ -276,6 +276,34 @@ the two-letter postal codes. The bars split the Democrats, non-Southern then Sou
 the eleven Southern States, the thirteen represented in the Confederate States
 Congress less Missouri and Kentucky.
 
+## Economic indicators
+
+`./bib build` puts a table at the head of each calendar month: the figures that
+report on that month, filed by the period they cover, not the date they were
+issued (quarters in the quarter's last month, fiscal years in June, calendar
+years in December, December 1960 in the Prologue). Each row has the figure as
+first reported, its release date, and the figure as revised today.
+
+```
+indicators/<id>.yaml          one series; rows {p, first, released, chg, unit, now, source, est}
+tools/indicators/make_indicators.py   writes them: FRED_API_KEY=... python3 tools/indicators/make_indicators.py
+tools/bib/indicators.py       renders them (ORDER, GROUP) and checks them
+```
+
+- ALFRED initial releases: CPI, unemployment, payrolls, industrial production,
+  GNP, real GNP; the deflator is GNP over real GNP in the same release.
+- Transcribed from the *Economic Report* of the next January (page images on
+  govinfo; values and table/page in MANUAL in the script): wholesale prices,
+  the administrative and cash budgets, the federal sector of the national
+  accounts, the balance of payments. For these "first" means as reported then.
+- Today's values: FRED. Budget figures today are on the unified basis (fiscal
+  1969 on), not the old concepts; the over-all balance of payments is no longer
+  published; the gold stock has no first-reported column.
+- Edit the script, not the YAML, and rerun; the key comes from the environment
+  and is never written to the repo. The build needs no network.
+- `check` fails on a bad period, a first-reported figure without a release
+  date, or a transcribed figure without a source.
+
 ## Publishing
 
 The site is GitHub Pages: https://impending2223.github.io/bib/ (the compiled

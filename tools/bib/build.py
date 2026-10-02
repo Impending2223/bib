@@ -523,7 +523,7 @@ def run(series, which=None):
     os.makedirs(OUT, exist_ok=True)
     written = []
     keys = [which] if which and which not in ("series", "congress") else ([] if which in ("series", "congress") else list(series.lists))
-    from . import congress
+    from . import congress, indicators
     linker = None
     for k in keys:
         path = os.path.join(OUT, f"{k}.html")
@@ -531,12 +531,14 @@ def run(series, which=None):
         if series.lists[k].kind == "calendar":
             linker = linker or Linker(series)
             page = congress.inject(page, series, linker, "list")
+            page = indicators.inject(page, series, "list")
         with open(path, "w", encoding="utf-8") as f:
             f.write(page)
         written.append(path)
     if which in (None, "series"):
         page, linker = build_series(series)
         page = congress.inject(page, series, linker, "series")
+        page = indicators.inject(page, series, "series")
         path = os.path.join(OUT, "series.html")
         with open(path, "w", encoding="utf-8") as f:
             f.write(page)
