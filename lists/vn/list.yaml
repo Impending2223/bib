@@ -35,55 +35,511 @@ sections:
     num: II.
     title: Sources
     logic:
-      - 'Works and records to draw facts and voices from. Eleven sections, from the most digested to the least: A. General histories. B. The road in, 1945–63. C. Johnson''s war, 1964–68. D. Nixon''s war and the fall, 1969–75. E. The Vietnamese sides. F. Strategy and the field. G. The war at home. H. Memoirs and biographies. I. Documents. J. Recordings and the tapes. K. Archives. Sections A through G are chronological by first publication.'
+      - 'Works and records to draw facts and voices from. Twelve sections, from the most digested to the least: A. General histories. B. The road in, to 1963. C. Johnson''s war, 1964–68. D. Nixon''s war and the fall, 1969–75. E. The Vietnamese sides. F. Strategy and the field. G. The war at home. H. Memoirs and biographies. I. Documents. J. Recordings and the tapes. K. Archives. L. Historians. Sections A through G are divided as the war was: by place, year, and subject.'
     sections:
       - id: p2a
         num: II.A
         title: General histories
         logic:
-          - 'The whole war, or most of it. Start with Herring; Logevall for the origins; Goscha and Asselin for the Vietnamese. Gibbons and Kahin: K–J Adm. II.D.'
-        file: II.A.yaml
+          - 'Four groups: 1. Vietnam. 2. Religion and thought. 3. Vietnam''s American wars, the Vietnamese at the center. 4. America''s Vietnam wars. Gibbons and Kahin also K–J Adm. II.D.'
+        sections:
+          - id: p2a1
+            num: II.A.1
+            title: Vietnam
+            logic:
+              - Vietnam before and beyond the wars. Chronological.
+            file: II.A.1.yaml
+          - id: p2a2
+            num: II.A.2
+            title: Religion and thought
+            logic:
+              - The Buddhists, the Catholics, the Cao Dai, the Hoa Hao. Chronological.
+            file: II.A.2.yaml
+          - id: p2a3
+            num: II.A.3
+            title: Vietnam's American wars
+            logic:
+              - The wars as Vietnamese wars. Chronological.
+            file: II.A.3.yaml
+          - id: p2a4
+            num: II.A.4
+            title: America's Vietnam wars
+            logic:
+              - The whole war, or most of it, from the American side. Chronological.
+            file: II.A.4.yaml
       - id: p2b
         num: II.B
-        title: The road in, 1945–1963
+        title: The road in, to 1963
         logic:
-          - The French war, Geneva, Diem, the Kennedy years to the coup. Kennedy's decisions also in K–J Adm. II.D (Freedman, Novosejt, Logevall); the calendar dates them to January 1963.
-        file: II.B.yaml
+          - The colony, the French war, Geneva, Diem, and the Kennedy years to the coup. Kennedy's decisions also in K–J Adm. II.D; the calendar dates them to January 1963.
+        sections:
+          - id: p2b1
+            num: II.B.1
+            title: French Indochina
+            logic:
+              - The colony and the first nationalists. Chronological.
+            file: II.B.1.yaml
+          - id: p2b2
+            num: II.B.2
+            title: Vichy and Japanese Indochina
+            logic:
+              - 1940–45. Chronological.
+            file: II.B.2.yaml
+          - id: p2b3
+            num: II.B.3
+            title: The French war
+            logic:
+              - 1945–54. Sources first, then studies, then works that bear on it from further off; chronological within each.
+            file: II.B.3.yaml
+          - id: p2b4
+            num: II.B.4
+            title: Dien Bien Phu, 1954
+            logic:
+              - Sources first, then studies, then works that bear on it from further off; chronological within each.
+            file: II.B.4.yaml
+          - id: p2b5
+            num: II.B.5
+            title: Geneva, 1954
+            logic:
+              - Chronological.
+            file: II.B.5.yaml
+          - id: p2b6
+            num: II.B.6
+            title: Roosevelt's war?
+            logic:
+              - Washington and Indochina, 1940–45. Chronological.
+            file: II.B.6.yaml
+          - id: p2b7
+            num: II.B.7
+            title: Truman's and Eisenhower's wars?
+            logic:
+              - 1945–61. Sources first, then studies, then works that bear on it from further off; chronological within each.
+            file: II.B.7.yaml
+          - id: p2b8
+            num: II.B.8
+            title: Kennedy's war
+            logic:
+              - 1961–63. Chronological.
+            file: II.B.8.yaml
+          - id: p2b9
+            num: II.B.9
+            title: The Delta, 1962–63
+            logic:
+              - Dinh Tuong, Kien Giang, Long An, Tien Giang, Vinh Long. Chronological.
+            file: II.B.9.yaml
+          - id: p2b10
+            num: II.B.10
+            title: Ap Bac, 1963
+            logic:
+              - Jan. 2, 1963. Chronological.
+            file: II.B.10.yaml
+          - id: p2b11
+            num: II.B.11
+            title: The Buddhist crisis, 1963
+            logic:
+              - Chronological.
+            file: II.B.11.yaml
+          - id: p2b12
+            num: II.B.12
+            title: Diem's fall, 1963
+            logic:
+              - The coup of November 1963. Chronological.
+            file: II.B.12.yaml
       - id: p2c
         num: II.C
         title: Johnson's war, 1964–1968
         logic:
-          - 'Escalation, the ground war, the search for talks, Tet. Berman, VanDeMark, Moïse, McMaster, Preston, Goldstein: K–J Adm. II.D. Hoopes, Schandler, Clodfelter: the 1968 list II.B.'
-        file: II.C.yaml
+          - 'Escalation, the ground war by region and year, Tet. Berman, VanDeMark, Moïse, McMaster, Preston, Goldstein: also K–J Adm. II.D. Hoopes, Schandler, Clodfelter: also the 1968 list II.B.'
+        sections:
+          - id: p2c1
+            num: II.C.1
+            title: The war, 1964–68
+            logic:
+              - Chronological.
+            file: II.C.1.yaml
+          - id: p2c2
+            num: II.C.2
+            title: Tonkin Gulf, 1964
+            logic:
+              - Chronological.
+            file: II.C.2.yaml
+          - id: p2c3
+            num: II.C.3
+            title: Escalation, 1964–65
+            logic:
+              - Chronological.
+            file: II.C.3.yaml
+          - id: p2c4
+            num: II.C.4
+            title: Central Highlands, 1965
+            logic:
+              - Ia Drang, Plei Me, Pleiku. Sources first, then studies, then works that bear on it from further off; chronological within each.
+            file: II.C.4.yaml
+          - id: p2c5
+            num: II.C.5
+            title: Central coast, 1965
+            logic:
+              - Quang Ngai, Quang Tin, Quang Tri. Chronological.
+            file: II.C.5.yaml
+          - id: p2c6
+            num: II.C.6
+            title: Saigon, 1965
+            logic:
+              - Binh Duong, Dong Nai. Chronological.
+            file: II.C.6.yaml
+          - id: p2c7
+            num: II.C.7
+            title: The Delta, 1965–66
+            logic:
+              - Chronological.
+            file: II.C.7.yaml
+          - id: p2c8
+            num: II.C.8
+            title: North central coast, 1967
+            logic:
+              - Con Thien, Khe Sanh, Quang Tri. Chronological.
+            file: II.C.8.yaml
+          - id: p2c10
+            num: II.C.10
+            title: Central Highlands, 1967
+            logic:
+              - Dak To, Pleiku. Chronological.
+            file: II.C.10.yaml
+          - id: p2c11
+            num: II.C.11
+            title: Saigon, 1967
+            logic:
+              - The Iron Triangle. Chronological.
+            file: II.C.11.yaml
+          - id: p2c12
+            num: II.C.12
+            title: North central coast, 1968
+            logic:
+              - Khe Sanh, Lang Vei, Quang Tri. Chronological.
+            file: II.C.12.yaml
+          - id: p2c13
+            num: II.C.13
+            title: South central coast, 1968
+            logic:
+              - Kham Duc, Quang Nam, Quang Tin. Chronological.
+            file: II.C.13.yaml
+          - id: p2c14
+            num: II.C.14
+            title: My Lai, 1968
+            logic:
+              - Mar. 16, 1968, and after. Chronological.
+            file: II.C.14.yaml
+          - id: p2c15
+            num: II.C.15
+            title: The Delta, 1968
+            logic:
+              - Long An. Chronological.
+            file: II.C.15.yaml
+          - id: p2c16
+            num: II.C.16
+            title: Tet, 1968
+            logic:
+              - The offensive as a whole. Chronological.
+            file: II.C.16.yaml
+          - id: p2c17
+            num: II.C.17
+            title: Tet in Hue
+            logic:
+              - Chronological.
+            file: II.C.17.yaml
+          - id: p2c18
+            num: II.C.18
+            title: Tet in Saigon
+            logic:
+              - Chronological.
+            file: II.C.18.yaml
+          - id: p2c19
+            num: II.C.19
+            title: Others abroad, 1964–68
+            logic:
+              - Allies and third countries. Chronological.
+            file: II.C.19.yaml
       - id: p2d
         num: II.D
         title: Nixon's war and the fall, 1969–1975
         logic:
-          - 'Vietnamization, Cambodia and Laos, the Easter Offensive, Paris, the end. Shawcross, Kimball, Berman, Asselin, the Kissinger memoirs: Adm. II.B.'
-        file: II.D.yaml
+          - 'Vietnamization, Cambodia and Laos, the Easter Offensive, Paris, the end. Shawcross, Kimball, Berman, Asselin, the Kissinger memoirs: also Adm. II.B.'
+        sections:
+          - id: p2d1
+            num: II.D.1
+            title: The war, 1969–73
+            logic:
+              - Sources first, then studies, then works that bear on it from further off; chronological within each.
+            file: II.D.1.yaml
+          - id: p2d2
+            num: II.D.2
+            title: Hamburger Hill, 1969
+            logic:
+              - Chronological.
+            file: II.D.2.yaml
+          - id: p2d3
+            num: II.D.3
+            title: Cambodia, 1969–70
+            logic:
+              - Chronological.
+            file: II.D.3.yaml
+          - id: p2d4
+            num: II.D.4
+            title: A Shau, 1970
+            logic:
+              - Chronological.
+            file: II.D.4.yaml
+          - id: p2d5
+            num: II.D.5
+            title: Kent State, 1970
+            logic:
+              - Chronological.
+            file: II.D.5.yaml
+          - id: p2d6
+            num: II.D.6
+            title: Lam Son 719, 1971
+            logic:
+              - Chronological.
+            file: II.D.6.yaml
+          - id: p2d7
+            num: II.D.7
+            title: The Easter Offensive, 1972
+            logic:
+              - Chronological.
+            file: II.D.7.yaml
+          - id: p2d8
+            num: II.D.8
+            title: Linebacker, 1972
+            logic:
+              - Chronological.
+            file: II.D.8.yaml
+          - id: p2d9
+            num: II.D.9
+            title: Paris, 1972–73
+            logic:
+              - Chronological.
+            file: II.D.9.yaml
+          - id: p2d10
+            num: II.D.10
+            title: An Loc, 1972
+            logic:
+              - Chronological.
+            file: II.D.10.yaml
+          - id: p2d11
+            num: II.D.11
+            title: Others abroad, 1969–73
+            logic:
+              - Chronological.
+            file: II.D.11.yaml
+          - id: p2d12
+            num: II.D.12
+            title: After the withdrawal, 1973–75
+            logic:
+              - Chronological.
+            file: II.D.12.yaml
       - id: p2e
         num: II.E
         title: The Vietnamese sides
         logic:
-          - Hanoi, the Front, Saigon, the armies. Mostly from Vietnamese sources. China and the Soviet Union as Hanoi's allies.
-        file: II.E.yaml
+          - 'Hanoi, the Front, Laos, Saigon, the highlanders, and after. Many in Vietnamese: the original title, then a translation in brackets.'
+        sections:
+          - id: p2e1
+            num: II.E.1
+            title: Hanoi's war
+            logic:
+              - The Democratic Republic and its army. Sources first, then studies, then works that bear on it from further off; chronological within each.
+            file: II.E.1.yaml
+          - id: p2e2
+            num: II.E.2
+            title: The Front's war
+            logic:
+              - The National Liberation Front and the southern revolution. Sources first, then studies, then works that bear on it from further off; chronological within each.
+            file: II.E.2.yaml
+          - id: p2e3
+            num: II.E.3
+            title: Hanoi's foreign relations
+            logic:
+              - China, the Soviet Union, and others. Sources first, then studies, then works that bear on it from further off; chronological within each.
+            file: II.E.3.yaml
+          - id: p2e4
+            num: II.E.4
+            title: Laos's war
+            logic:
+              - Chronological.
+            file: II.E.4.yaml
+          - id: p2e5
+            num: II.E.5
+            title: Saigon's war
+            logic:
+              - The Republic of Vietnam and its army. Sources first, then studies, then works that bear on it from further off; chronological within each.
+            file: II.E.5.yaml
+          - id: p2e6
+            num: II.E.6
+            title: The Central Highlanders' war
+            logic:
+              - Chronological.
+            file: II.E.6.yaml
+          - id: p2e7
+            num: II.E.7
+            title: The Socialist Republic
+            logic:
+              - After 1975. Chronological.
+            file: II.E.7.yaml
       - id: p2f
         num: II.F
         title: Strategy and the field
         logic:
-          - Strategy, pacification, the air war, the secret wars in Laos and the North, the soldiers, the prisoners.
-        file: II.F.yaml
+          - The American war by subject. Eighteen groups, as numbered.
+        sections:
+          - id: p2f1
+            num: II.F.1
+            title: Advice and support
+            logic:
+              - Chronological.
+            file: II.F.1.yaml
+          - id: p2f2
+            num: II.F.2
+            title: Aid and development
+            logic:
+              - Chronological.
+            file: II.F.2.yaml
+          - id: p2f3
+            num: II.F.3
+            title: Command
+            logic:
+              - Chronological.
+            file: II.F.3.yaml
+          - id: p2f4
+            num: II.F.4
+            title: Counterinsurgency and pacification
+            logic:
+              - Sources first, then studies, then works that bear on it from further off; chronological within each.
+            file: II.F.4.yaml
+          - id: p2f5
+            num: II.F.5
+            title: Ground combat
+            logic:
+              - Chronological.
+            file: II.F.5.yaml
+          - id: p2f6
+            num: II.F.6
+            title: Air operations
+            logic:
+              - Sources first, then studies, then works that bear on it from further off; chronological within each.
+            file: II.F.6.yaml
+          - id: p2f7
+            num: II.F.7
+            title: Defoliants
+            logic:
+              - Chronological.
+            file: II.F.7.yaml
+          - id: p2f8
+            num: II.F.8
+            title: Interdiction and the Ho Chi Minh Trail
+            logic:
+              - Sources first, then studies, then works that bear on it from further off; chronological within each.
+            file: II.F.8.yaml
+          - id: p2f9
+            num: II.F.9
+            title: Maritime and riverine operations
+            logic:
+              - Chronological.
+            file: II.F.9.yaml
+          - id: p2f10
+            num: II.F.10
+            title: Covert operations outside South Vietnam
+            logic:
+              - Chronological.
+            file: II.F.10.yaml
+          - id: p2f11
+            num: II.F.11
+            title: Intelligence and measurement
+            logic:
+              - Sources first, then studies, then works that bear on it from further off; chronological within each.
+            file: II.F.11.yaml
+          - id: p2f12
+            num: II.F.12
+            title: Statistics
+            logic:
+              - Chronological.
+            file: II.F.12.yaml
+          - id: p2f13
+            num: II.F.13
+            title: Soldiers and officers
+            logic:
+              - Sources first, then studies, then works that bear on it from further off; chronological within each.
+            file: II.F.13.yaml
+          - id: p2f14
+            num: II.F.14
+            title: Prisoners
+            logic:
+              - Chronological.
+            file: II.F.14.yaml
+          - id: p2f16
+            num: II.F.16
+            title: Contacts and negotiations
+            logic:
+              - Bilateral and multilateral. Chronological.
+            file: II.F.16.yaml
+          - id: p2f17
+            num: II.F.17
+            title: Allies and others abroad
+            logic:
+              - Chronological.
+            file: II.F.17.yaml
+          - id: p2f18
+            num: II.F.18
+            title: Fiscal and monetary
+            logic:
+              - Chronological.
+            file: II.F.18.yaml
       - id: p2g
         num: II.G
         title: The war at home
         logic:
-          - 'The antiwar movement, the draft, the press, the veterans, memory. Opinion: K–J Cong. II.E (Mueller). The movement after 1969: also Cong. II.E.'
-        file: II.G.yaml
+          - 'The antiwar movement, the draft, opinion, the press, image, memory. Opinion also K–J Cong. II.E (Mueller). The movement after 1969: also Cong. II.E.'
+        sections:
+          - id: p2g1
+            num: II.G.1
+            title: Antiwar
+            logic:
+              - Sources first, then studies, then works that bear on it from further off; chronological within each.
+            file: II.G.1.yaml
+          - id: p2g2
+            num: II.G.2
+            title: Antisubversion
+            logic:
+              - Chronological.
+            file: II.G.2.yaml
+          - id: p2g3
+            num: II.G.3
+            title: Public opinion
+            logic:
+              - Chronological.
+            file: II.G.3.yaml
+          - id: p2g4
+            num: II.G.4
+            title: The press
+            logic:
+              - Sources first, then studies, then works that bear on it from further off; chronological within each.
+            file: II.G.4.yaml
+          - id: p2g5
+            num: II.G.5
+            title: Image and representation
+            logic:
+              - Chronological.
+            file: II.G.5.yaml
+          - id: p2g6
+            num: II.G.6
+            title: Memory and reception
+            logic:
+              - Chronological.
+            file: II.G.6.yaml
       - id: p2h
         num: II.H
         title: Memoirs and biographies
         logic:
-          - 'Books that preserve a person''s voice. Four groups: 1. Washington. 2. In the field. 3. Vietnamese. 4. Others abroad. Alphabetical by subject within each. A memoir held elsewhere is pointed to.'
+          - 'Books that preserve a person''s voice, and books about the person. Four groups: 1. Washington. 2. In the field. 3. Vietnamese. 4. Others abroad. Alphabetical by subject within each. A memoir held elsewhere is pointed to. Where known, the offices held.'
         sections:
           - id: p2h1
             num: II.H.1
@@ -95,7 +551,7 @@ sections:
             num: II.H.2
             title: In the field
             logic:
-              - Officers, advisers, soldiers, prisoners. Alphabetical by subject.
+              - Officers, advisers, correspondents, soldiers, prisoners. Alphabetical by subject.
             file: II.H.2.yaml
           - id: p2h3
             num: II.H.3
@@ -145,6 +601,12 @@ sections:
         logic:
           - Where the records are. Free unless noted. Alphabetical by name.
         file: II.K.yaml
+      - id: p2l
+        num: II.L
+        title: Historians
+        logic:
+          - Works by historian of the war. Each work is also under its subject. Alphabetical.
+        file: II.L.yaml
   - id: p3
     num: III.
     title: Names

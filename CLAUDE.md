@@ -41,7 +41,10 @@ Thread scopes in `th.yaml` are a list of the thread's stations, not a summary.
 
 **Bibliography notes.** One or two fragments: what the book is, whose voice,
 what to read it for. "Interviews with nearly everyone, Bissell included."
-"Read the Washington chapters." Not reviews.
+"Read the Washington chapters." Not reviews. Most entries need no note: when
+the title does the work, leave it bare. No awards, no "start here," no side
+labels ("defense," "revisionist," "from the left"); state a thesis or a
+source's provenance the same way whichever side it is on.
 
 Before and after:
 
