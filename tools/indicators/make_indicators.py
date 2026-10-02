@@ -4,7 +4,8 @@
 #   Rewrites indicators/<id>.yaml for the series in API below. Series entered by hand from the
 #   Economic Reports and budget documents (manual: true in their files) are left alone.
 #   'first' is the initial release in ALFRED, with the date it was released; 'chg' is the change
-#   from the prior period in that same release. 'now' is the current FRED value.
+#   from the prior period in that same release; 'now' and 'chg_now' are the current FRED value and
+#   its change, on the same basis (CHANGE below).
 #   The key is read from the environment and never written out.
 """
 import json, os, sys, time, urllib.parse, urllib.request
@@ -21,7 +22,7 @@ API = {
     'cpi': ('CPIAUCNS', 'M', 'Consumer price index', None, '1982–84=100', 'pct',
             'BLS, Consumer Price Index for city wage-earner and clerical-worker families, all items, not seasonally adjusted',
             'BLS, CPI for all urban consumers (CPI-U), all items, not seasonally adjusted'),
-    'unemployment': ('UNRATE', 'M', 'Unemployment rate', 'percent of civilian labor force', 'percent', None,
+    'unemployment': ('UNRATE', 'M', 'Unemployment rate', 'percent of civilian labor force', 'percent', 'pts',
             'BLS, from the Census Current Population Survey, seasonally adjusted',
             'BLS, Current Population Survey, seasonally adjusted, ages 16 and over'),
     'payrolls': ('PAYEMS', 'M', 'Nonfarm payroll employment', 'thousands', 'thousands', 'diff',
@@ -30,10 +31,10 @@ API = {
     'industrial-production': ('INDPRO', 'M', 'Industrial production', None, '2017=100', 'pct',
             'Federal Reserve Board, index of industrial production, seasonally adjusted',
             'Federal Reserve Board, industrial production index, seasonally adjusted'),
-    'gnp': ('GNP', 'Q', 'Gross national product', 'billions of dollars, seasonally adjusted annual rate', 'billions of dollars, SAAR', 'diff',
+    'gnp': ('GNP', 'Q', 'Gross national product', 'billions of dollars, seasonally adjusted annual rate', 'billions of dollars, SAAR', 'pct_ar',
             'Commerce, Office of Business Economics, national income accounts',
             'BEA, national income and product accounts'),
-    'real-gnp': ('GNPC96', 'Q', 'Real gross national product', None, 'billions of chained 2017 dollars, SAAR', 'pct',
+    'real-gnp': ('GNPC96', 'Q', 'Real gross national product', None, 'billions of chained 2017 dollars, SAAR', 'pct_ar',
             'Commerce, Office of Business Economics, GNP in constant dollars',
             'BEA, real GNP, chained dollars'),
 }
@@ -76,7 +77,11 @@ def vintage(sid, date):
 
 
 def current(sid):
-    d = get('series/observations', series_id=sid, observation_start=FROM, observation_end=TO)
+    return current_from(sid, '1960-07-01')
+
+
+def current_from(sid, start):
+    d = get('series/observations', series_id=sid, observation_start=start, observation_end=TO)
     return {o['date']: num(o['value']) for o in d['observations']}
 
 
@@ -101,10 +106,19 @@ def prior(date, freq):
     return f'{y}-{m:02d}-01'
 
 
+# Change from the prior period, the same way in both columns:
+#   pct     monthly percent change, not annualized (as BLS and the Fed report monthly series)
+#   pct_ar  quarterly percent change at an annual rate, ((a/b)^4 - 1) (as BEA reports quarterly series)
+#   pts     difference in percentage points (unemployment rate)
+#   diff    difference in the series' own unit (payrolls in thousands; gold in $ millions)
 def change(kind, a, b):
-    if a is None or b is None:
+    if a is None or b is None or not kind:
         return None
-    return round(100 * (a / b - 1), 1) if kind == 'pct' else round(a - b, 1)
+    if kind == 'pct':
+        return round(100 * (a / b - 1), 1)
+    if kind == 'pct_ar':
+        return round(100 * ((a / b) ** 4 - 1), 1)
+    return round(a - b, 1)
 
 
 def write(sid_key, meta, rows):
@@ -133,6 +147,9 @@ def main():
                 row['chg'] = c
             row['unit'] = base(sid, rel) or u_then
             row['now'] = cur.get(date)
+            cn = change(kind, cur.get(date), cur.get(prior(date, freq)))
+            if cn is not None:
+                row['chg_now'] = cn
             rows.append(row)
         write(key, {'id': key, 'name': name, 'freq': freq, 'change': kind,
                     'then': {'label': then, 'source': f'ALFRED {sid}, initial release', 'url': ALFRED + sid},
@@ -140,6 +157,7 @@ def main():
     # Implicit deflator: nominal over real GNP in the release that first carried the quarter.
     sid, name, u_now, then, now = DEFLATOR
     cur = current(sid)
+    curp = current_from(sid, '1960-07-01')
     rows = []
     for date, (g, rel) in sorted(firsts['GNP'].items()):
         vin_n, vin_r = vintage('GNP', rel), vintage('GNPC96', rel)
@@ -150,11 +168,14 @@ def main():
         row = {'p': period(date, 'Q'), 'first': d, 'released': rel}
         pn, pr = vin_n.get(prior(date, 'Q')), vin_r.get(prior(date, 'Q'))
         if pn and pr:
-            row['chg'] = round(100 * (d / (100 * pn / pr) - 1), 1)
+            row['chg'] = change('pct_ar', d, 100 * pn / pr)
         row['unit'] = base(sid, rel)
         row['now'] = cur.get(date)
+        cn = change('pct_ar', curp.get(date), curp.get(prior(date, 'Q')))
+        if cn is not None:
+            row['chg_now'] = cn
         rows.append(row)
-    write('deflator', {'id': 'deflator', 'name': name, 'freq': 'Q', 'change': 'pct',
+    write('deflator', {'id': 'deflator', 'name': name, 'freq': 'Q', 'change': 'pct_ar',
                        'then': {'label': then, 'source': 'ALFRED GNP and GNPC96, initial release', 'url': ALFRED + 'GNP'},
                        'now': {'label': now, 'unit': u_now, 'source': f'FRED {sid}', 'url': FRED + sid}}, rows)
 
@@ -176,6 +197,7 @@ MANUAL = {
         then='BLS, wholesale price index, all commodities', now_label='BLS, producer price index, all commodities',
         now_unit='1982=100', now_fred='PPIACO',
         tables={1962: 'Table B-40, p. 254 (1947–49=100)', 1963: 'Table C-41, p. 220 (1957–59=100)'},
+        prior={'1962-01': (100.4, 1963)},   # Dec. 1961 on the 1957-59 base, Table C-41
         rows={**{p: (v, 1962, '1947–49=100') for p, v in zip(MONTHS[:13], [
             119.5, 119.9, 120.0, 119.9, 119.4, 118.7, 118.2, 118.6, 118.9, 118.8, 118.7, 118.8, 119.2])},
               **{p: (v, 1963, '1957–59=100') for p, v in zip(MONTHS[13:], [
@@ -220,6 +242,15 @@ MANUAL = {
               '1962Q2': ((-904,), 1963, 'millions of dollars, annual rate'), '1962Q3': ((-2876,), 1963, 'millions of dollars, annual rate'),
               '1960': ((-3925,), 1963, 'millions of dollars, year'), '1961': ((-2461,), 1963, 'millions of dollars, year'),
               '1962': ((-1916,), 1963, 'millions of dollars, annual rate, first three quarters')}),
+    'gap-cea': dict(
+        name='Output gap, CEA (contemporary)', freq='Q',
+        then='Council of Economic Advisers: potential GNP (a 3½ percent trend through actual GNP in mid-1955, at 4 percent unemployment) less actual GNP',
+        now_label=None, now_unit=None, now_fred=None,
+        tables={1962: 'ch. 1, "Full Production," p. 49', 1963: "President's message, p. xiii"},
+        rows={'1961Q1': (51, 1962, 'billions of 1961 dollars, annual rate'),
+              '1961Q4': (28, 1962, 'billions of 1961 dollars, annual rate'),
+              '1961': (40, 1962, 'billions of 1961 dollars, year'),
+              '1962Q4': ('30–40', 1963, 'billions of dollars, annual rate')}),
     'gold-stock': dict(
         name='Monetary gold stock', freq='M', change='diff',
         then=None, now_label='Treasury monetary gold stock, end of month, as compiled by NBER from the Federal Reserve Bulletin',
@@ -242,6 +273,22 @@ def pdate(p):
     if len(p) == 4:
         return f'{p}-01-01'
     return f'{p}-01'
+
+
+def prev_p(p):
+    if 'Q' in p:
+        y, q = int(p[:4]), int(p[-1])
+        return f'{y - 1}Q4' if q == 1 else f'{y}Q{q - 1}'
+    if len(p) == 7:
+        y, mo = int(p[:4]), int(p[5:7])
+        return f'{y - 1}-12' if mo == 1 else f'{y}-{mo - 1:02d}'
+    return p
+
+
+# Qualifiers the source puts on a figure ("about $28 billion"; "some $30-40 billion").
+QUAL = {('gap-cea', '1961Q4'): 'about', ('gap-cea', '1962Q4'): 'some'}
+# Notes the source attaches to a single figure, shown after it.
+NOTE = {('balance-of-payments', '1962'): 'Q1–Q3, annual rate'}
 
 
 def manual():
@@ -270,13 +317,22 @@ def manual():
                 row['source'] = f'{ERP[erp][1]}, {m["tables"][erp]}'
                 if unit:
                     row['unit'] = unit
-                if m.get('change') == 'pct' and prev and prev[1] == erp:
-                    row['chg'] = round(100 * (v / prev[0] - 1), 1)
+                base_v = prev if prev and prev[1] == erp else m.get('prior', {}).get(p)
+                if m.get('change') and base_v and not isinstance(v, (tuple, str)):
+                    row['chg'] = change(m['change'], v, base_v[0])
                 prev = (v, erp)
+                if (key, p) in QUAL:
+                    row['q'] = QUAL[(key, p)]
+                if (key, p) in NOTE:
+                    row['note'] = NOTE[(key, p)]
             for e in m.get('est', {}).get(p, []):
                 row.setdefault('est', []).append({'value': dict(zip(m['fields'], e[0])), 'as_of': ERP[e[1]][0],
                                                   'source': f'{ERP[e[1]][1]}, {m["tables"][e[1]]}'})
             row['now'] = now_for(p)
+            if m.get('change') and not isinstance(row['now'], dict):
+                c = change(m['change'], row['now'], now_for(prev_p(p)))
+                if c is not None:
+                    row['chg_now'] = c
             rows.append(row)
         for p, ests in m.get('est', {}).items():
             if p not in m['rows']:
@@ -295,6 +351,28 @@ def manual():
         write(key, meta, rows)
 
 
+def gap_cbo():
+    """Retrospective output gap: CBO potential GDP against BEA real GDP, as published today."""
+    pot, act = current_from('GDPPOT', '1960-01-01'), current_from('GDPC1', '1960-01-01')
+    vin = get('series/vintagedates', series_id='GDPPOT', sort_order='desc', limit=1)['vintage_dates'][0]
+    rows, years = [], {}
+    for d in sorted(pot):
+        if d in act and pot[d]:
+            g = round(100 * (act[d] / pot[d] - 1), 1)
+            p = period(d, 'Q')
+            years.setdefault(p[:4], []).append(g)
+            if d >= '1960-10-01':
+                rows.append({'p': p, 'now': g})
+    for y in ('1960', '1961', '1962'):
+        if len(years.get(y, [])) == 4:
+            rows.append({'p': y, 'now': round(sum(years[y]) / 4, 1)})
+    write('gap-cbo', {'id': 'gap-cbo', 'name': 'Output gap, CBO (retrospective)', 'freq': 'Q', 'then': None,
+                      'now': {'label': f'CBO potential GDP (GDPPOT, vintage {vin}) against BEA real GDP (GDPC1): real GDP over potential, less 1, percent',
+                              'unit': 'percent of potential', 'source': f'FRED GDPPOT and GDPC1, vintage {vin}',
+                              'url': FRED + 'GDPPOT', 'vintage': vin}}, rows)
+
+
 if __name__ == '__main__':
     main()
     manual()
+    gap_cbo()

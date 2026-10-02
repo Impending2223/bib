@@ -285,7 +285,7 @@ years in December, December 1960 in the Prologue). Each row has the figure as
 first reported, its release date, and the figure as revised today.
 
 ```
-indicators/<id>.yaml          one series; rows {p, first, released, chg, unit, now, source, est}
+indicators/<id>.yaml          one series; rows {p, first, released, chg, unit, now, chg_now, source, est, q, note}
 tools/indicators/make_indicators.py   writes them: FRED_API_KEY=... python3 tools/indicators/make_indicators.py
 tools/bib/indicators.py       renders them (ORDER, GROUP) and checks them
 ```
@@ -299,6 +299,17 @@ tools/bib/indicators.py       renders them (ORDER, GROUP) and checks them
 - Today's values: FRED. Budget figures today are on the unified basis (fiscal
   1969 on), not the old concepts; the over-all balance of payments is no longer
   published; the gold stock has no first-reported column.
+- Output gap: the CEA's estimates then (from the Reports) and the CBO's now
+  (FRED GDPPOT against GDPC1, with its vintage), in separate rows: the concepts
+  are not comparable, so each row leaves the other's column "—".
+- Changes use one basis in both value columns (CHANGE in the script): monthly
+  percent, not annualized; quarterly percent at an annual rate; points; persons.
+- Formatting and style are settled in the STYLE notes at the top of
+  `tools/bib/indicators.py` (periods "Q1 1961", "FY1962"; "$bn" and "m"; one
+  scale per group; stacked receipts/expenditures/balance right-aligned; "—"
+  versus "n.a."; separate rows for incomparable concepts). Follow them, and fix
+  any table that drifts from them. Each series needs a definition in DEFS, with
+  pointers; `check` fails without one.
 - Edit the script, not the YAML, and rerun; the key comes from the environment
   and is never written to the repo. The build needs no network.
 - `check` fails on a bad period, a first-reported figure without a release

@@ -5,10 +5,42 @@
                            reported, its release date and source, and the figure as revised today.
                            Made by tools/indicators/make_indicators.py; see that script.
 
-Each calendar month section whose dates hold the last day of a period carries that period's
-figures in a table under its heading: months in their month, quarters in the quarter's last
-month, fiscal years (ending June 30) in June, calendar years in December. Periods that end
-before the first dated section go to it (the Prologue).
+Filing. Each calendar month section whose dates hold the last day of a period carries that
+period's figures in a table under its heading: months in their month, quarters in the quarter's
+last month, fiscal years (ending June 30) in June, calendar years in December. Periods that end
+before the first dated section go to it (the Prologue). A block of definitions, "Indicators:
+concepts and sources", goes before the Prologue; each series name in a table links to its entry.
+
+STYLE (settled; keep it, and fix anything that drifts from it):
+ 1. Columns: Indicator | As first reported | Released | Revised, today. "Released" is the date the
+    first-reported figure was published (or the Economic Report transmitted); its source shows on
+    hover.
+ 2. Periods: "Mar. 1961", "Q1 1961", "FY1962" (July 1961-June 1962), "1961".
+ 3. Money in the Economist's style: "$499.8bn", "$17.3bn". One scale per group: every dollar figure
+    in Output, Federal finance, and International is in $bn, one decimal. The YAML keeps the source's
+    own unit and precision; the exact source figure shows on hover.
+ 4. People: "52.0m"; changes in persons, "+24,000". Rates: "6.9%"; changes in points, "+0.1 pt".
+    Indexes: one decimal, the base after in grey, "127.5 (1947-49=100)".
+ 5. Changes, on the same basis in both value columns (CHANGE in the script): monthly series, percent
+    from the prior month, not annualized; quarterly series, percent from the prior quarter at an
+    annual rate, marked "ar". Positive changes carry "+"; minus is U+2212.
+ 6. Receipts / expenditures / balance: one line each, label left, figure right-aligned in tabular
+    figures; estimates as further "Balance, est." lines. A negative balance is a deficit.
+ 7. "—" means no figure in this column by design (a different concept, or none published);
+    "n.a." means the source marks the figure not available.
+ 8. Concepts that are not comparable never share a row. Give each its own row, with "—" in the
+    other's column: a contemporary estimate fills "As first reported", a retrospective one
+    "Revised, today" (the CEA and CBO output gaps).
+ 9. Exception to 3: a source given in whole billions keeps its precision ("$51bn", the CEA gap),
+    and a shortfall stated as a positive amount says so ("below potential").
+10. In Federal finance and International the group header carries "$bn" and cells carry bare
+    figures; the gold stock alone has two decimals (its monthly changes run to tens of millions).
+    Stacked figures sit in a fixed two-column grid (label 7.5em, figure 4.2em) so they align
+    down the column.
+11. Source qualifiers stay: "about $28bn", "some $30–40bn"; a note the source attaches to one
+    figure (NOTE in the script) shows after it in grey: "(Q1–Q3, annual rate)".
+12. Definitions (DEFS): what the figure was then, what it is today, and pointers, in the brief's
+    register: compact, plain, no judgment of the figures.
 """
 import calendar
 import datetime
@@ -16,19 +48,43 @@ import os
 import re
 
 from . import store
+from .markup import to_html
 
 DIR = os.path.join(store.ROOT, "indicators")
 ORDER = ["cpi", "wpi", "deflator", "unemployment", "payrolls", "industrial-production", "gnp", "real-gnp",
-         "administrative-budget", "cash-budget", "federal-national-accounts", "balance-of-payments", "gold-stock"]
+         "gap-cea", "gap-cbo", "administrative-budget", "cash-budget", "federal-national-accounts",
+         "balance-of-payments", "gold-stock"]
 GROUP = {"cpi": "Prices", "wpi": "Prices", "deflator": "Prices",
          "unemployment": "Employment", "payrolls": "Employment",
          "industrial-production": "Output", "gnp": "Output", "real-gnp": "Output",
+         "gap-cea": "Output", "gap-cbo": "Output",
          "administrative-budget": "Federal finance", "cash-budget": "Federal finance",
          "federal-national-accounts": "Federal finance",
          "balance-of-payments": "International", "gold-stock": "International"}
+FIELD_LABEL = {"receipts": "Receipts", "expenditures": "Expenditures", "payments": "Payments", "balance": "Balance"}
 MON = ["Jan.", "Feb.", "Mar.", "Apr.", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."]
-MONTH = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October",
-         "November", "December"]
+
+ERP62 = "https://www.govinfo.gov/app/details/SERIALSET-12497_00_00-002-0278-0000"
+ERP63 = "https://www.govinfo.gov/app/details/SERIALSET-12600_00_00-002-0028-0000"
+F = "https://fred.stlouisfed.org/series/"
+A = "https://alfred.stlouisfed.org/series?seid="
+DEFS = {
+    "cpi": f"BLS. Retail prices of a fixed basket bought by city wage-earner and clerical-worker families; 1947–49=100 through Dec. 1961, 1957–59=100 from Jan. 1962. Today: CPI for all urban consumers, 1982–84=100. Neither seasonally adjusted. First releases: [ALFRED]({A}CPIAUCNS); today: [FRED]({F}CPIAUCNS).",
+    "wpi": f"BLS. Primary-market prices of all commodities; 1947–49=100 through 1961, 1957–59=100 from 1962. Today the producer price index, all commodities, 1982=100 ([FRED]({F}PPIACO)). First reported here means as tabled in the next January's *Economic Report* ([1962]({ERP62}), Table B-40; [1963]({ERP63}), Table C-41).",
+    "deflator": f"Commerce, Office of Business Economics. GNP in current dollars over GNP in 1954 dollars, times 100, computed from the release that first carried the quarter ([ALFRED]({A}GNP)). Today BEA's GNP deflator, chained, 2017=100 ([FRED]({F}GNPDEF)).",
+    "unemployment": f"Unemployed as a percent of the civilian labor force, seasonally adjusted, from the Current Population Survey (household survey), collected by Census, published by BLS. Then ages 14 and over; today's series ages 16 and over ([ALFRED]({A}UNRATE); [FRED]({F}UNRATE)).",
+    "payrolls": f"BLS establishment survey: wage and salary workers in nonagricultural establishments, seasonally adjusted. Today's figures are benchmarked to later counts of insured employment ([ALFRED]({A}PAYEMS); [FRED]({F}PAYEMS)).",
+    "industrial-production": f"Federal Reserve Board. Physical output of manufacturing, mining, and utilities; 1957=100 then, 2017=100 today ([ALFRED]({A}INDPRO); [FRED]({F}INDPRO)).",
+    "gnp": f"Commerce, Office of Business Economics. Output of the nation's residents at market prices, seasonally adjusted annual rates. Today's BEA figures carry later definitions and benchmarks ([ALFRED]({A}GNP); [FRED]({F}GNP)).",
+    "real-gnp": f"GNP in 1954 prices then; in chained 2017 dollars today (chain weighting from 1996) ([ALFRED]({A}GNPC96); [FRED]({F}GNPC96)).",
+    "gap-cea": f"Council of Economic Advisers. Potential GNP: a 3½ percent trend line through actual GNP in mid-1955, taken as full use of resources; full employment taken as 4 percent unemployment, an interim target. Gap: potential less actual, in 1961 prices (Jan. 1962) or 1962 prices (Jan. 1963). Each point of unemployment above 4 percent put at about 3 percent of output (Okun's relation). [*Economic Report*, Jan. 1962]({ERP62}), \"Full Production,\" p. 49; [Jan. 1963]({ERP63}), Chart 5. Arthur M. Okun, \"Potential GNP: Its Measurement and Significance,\" *Proceedings of the Business and Economic Statistics Section*, American Statistical Association (1962).",
+    "gap-cbo": f"Congressional Budget Office, estimated decades later. Potential GDP: output at CBO's noncyclical rate of unemployment (about 5.5 percent for 1961) and trend productivity, from a model revised with each budget outlook. Gap: real GDP over potential, less 1, in percent; negative is output below potential. Not comparable with the CEA's figures: GDP not GNP, chained 2017 dollars, a later concept of full employment, a different benchmark. [FRED GDPPOT]({F}GDPPOT), [GDPC1]({F}GDPC1), [NROU]({F}NROU); CBO, *CBO's Method for Estimating Potential Output: An Update* (2001).",
+    "administrative-budget": f"Three federal budgets were reported. The administrative budget: receipts and expenditures of federal funds only, the deficit of the headlines; fiscal years ending June 30. [*Economic Report*, Jan. 1962]({ERP62}), Table 7, p. 78, compares the three. Today: OMB's unified budget receipts, outlays, and deficit, recast back from the unified budget adopted for fiscal 1969 on the President's Commission on Budget Concepts (*Report*, 1967) ([FRED]({F}FYFSD)).",
+    "cash-budget": f"The consolidated cash statement: federal receipts from and payments to the public, including the trust funds (Social Security, highways). Today: the unified budget, as above ([FRED]({F}FYONET)).",
+    "federal-national-accounts": f"Commerce: federal receipts and expenditures in the national income accounts, seasonally adjusted annual rates; accrual basis, excluding loans and purchases of land and existing assets. Today: BEA's federal current receipts and current expenditures, a narrower and later definition; their balance is not the old surplus or deficit ([FRED]({F}FGRECPT); [FGEXPND]({F}FGEXPND)).",
+    "balance-of-payments": f"Commerce: the over-all balance, measured by the change in U.S. gold, convertible currencies, and liquid liabilities to foreigners; seasonally adjusted annual rates. The figure behind the gold and dollar measures of 1961–62. No longer published; no figure today. [*Economic Report*, Jan. 1963]({ERP63}), Table C-78.",
+    "gold-stock": f"Treasury monetary gold stock, end of month, as compiled by NBER from the *Federal Reserve Bulletin* ([FRED]({F}M1476CUSM144NNBR)). Not a revised series; one column.",
+}
 
 
 def esc(t):
@@ -45,6 +101,8 @@ def load():
             out[d["id"]] = d
     return out
 
+
+# ---------------------------------------------------------------- periods and dates
 
 def period_end(p):
     p = str(p)
@@ -63,13 +121,13 @@ def period_end(p):
 def period_label(p):
     p = str(p)
     if p.startswith("FY"):
-        return f"fiscal {p[2:]}"
+        return p
     if "Q" in p:
         y, q = p.split("Q")
-        return f"{['first', 'second', 'third', 'fourth'][int(q) - 1]} quarter {y}"
+        return f"Q{q} {y}"
     if re.match(r"^\d{4}$", p):
-        return f"year {p}"
-    return f"{MONTH[int(p[5:7]) - 1]} {p[:4]}"
+        return p
+    return f"{MON[int(p[5:7]) - 1]} {p[:4]}"
 
 
 def date_label(iso, year=None):
@@ -78,63 +136,117 @@ def date_label(iso, year=None):
     return s if year == d.year else f"{s}, {d.year}"
 
 
-def fmt(v, nd=1):
+# ---------------------------------------------------------------- numbers
+
+MINUS = "−"
+
+
+def num(v, nd=1, comma=True):
     if v is None:
         return "n.a."
-    if abs(v) >= 1000 or isinstance(v, int):
-        s = f"{abs(v):,.0f}"
-    else:
-        s = f"{abs(v):.{nd}f}"
-    return ("−" if v < 0 else "") + s
+    if isinstance(v, str):
+        return v
+    s = f"{abs(v):,.{nd}f}" if comma else f"{abs(v):.{nd}f}"
+    return (MINUS if v < 0 else "") + s
 
 
-def signed(v, nd=1, pct=False):
-    if v is None:
+def signed(v, nd=1):
+    s = f"{abs(v):,.{nd}f}"
+    return ("+" if v > 0 else MINUS if v < 0 else "±") + s
+
+
+def to_bn(v, unit):
+    """Dollar figures to $bn: the source unit is millions or billions of dollars."""
+    if v is None or isinstance(v, str):
+        return v
+    return v / 1000 if unit and "millions of dollars" in unit else v
+
+
+def grey(t):
+    return f'<span class="u">{esc(t)}</span>' if t else ""
+
+
+def base_of(unit):
+    """The index base or price basis worth showing after a level, from the stored unit."""
+    if not unit:
+        return None
+    m = re.search(r"(\d{4}(?:–\d{2})?=100)", unit)
+    if m:
+        return m.group(1)
+    m = re.search(r"(\d{4}) dollars", unit)
+    if m:
+        return f"{m.group(1)} dollars" if "chained" not in unit else f"chained {m.group(1)} dollars"
+    return None
+
+
+def chg_text(kind, c):
+    if c is None:
         return ""
-    s = ("+" if v > 0 else "−" if v < 0 else "±") + (f"{abs(v):,.0f}" if abs(v) >= 1000 else f"{abs(v):.{nd}f}")
-    return s + ("%" if pct else "")
+    if kind == "pct":
+        return f", {signed(c)}%"
+    if kind == "pct_ar":
+        return f", {signed(c)}% {grey('ar')}"
+    if kind == "pts":
+        return f", {signed(c)} pt"
+    return ""
 
 
-def unit_note(u):
-    return f' <span class="u">({esc(u)})</span>' if u else ""
-
-
-def value_cell(sid, v, unit, chg, kind):
-    """One figure, with its unit and change, in the series' house form."""
-    if isinstance(v, dict):
-        parts = []
-        for k, x in v.items():
-            name = {"balance": "surplus" if (x or 0) >= 0 else "deficit"}.get(k, k)
-            parts.append(f"{name} {fmt(x)}")
-        return "; ".join(parts) + unit_note(unit)
+def single(sid, v, unit, kind, c, q=None):
+    """One figure in its series' form."""
+    qual = f"{esc(q)} " if q else ""
+    if v is None:
+        return "n.a."
     if sid == "unemployment":
-        out = f"{fmt(v)}%"
-        if chg is not None:
-            out += f", {signed(chg)} pt"
-        return out
-    elif sid in ("payrolls",):
-        out = f"{v / 1000:.1f} million"
-        if chg is not None:
-            out += f", {signed(chg * 1000, 0)}"
-        return out
-    elif sid in ("gnp", "real-gnp"):
-        out = f"${fmt(v)} billion"
-    elif sid == "gold-stock":
-        out = f"${fmt(v)} million"
-    else:
-        out = fmt(v)
-    out += unit_note(unit)
-    if chg is not None:
-        out += ", " + signed(chg, 1 if kind == "pct" else 1, pct=(kind == "pct"))
-    return out
+        return f"{num(v)}%" + chg_text(kind, c)
+    if sid == "payrolls":
+        out = f"{v / 1000:.1f}m"
+        return out + (f", {signed(c * 1000, 0)}" if c is not None else "")
+    if sid == "gold-stock":
+        lines = [("Stock", num(to_bn(v, unit), 2))]
+        if c is not None:
+            lines.append(("Change", signed(c / 1000, 2)))
+        return '<span class="kv">' + "".join(
+            f'<span class="k">{esc(a)}</span><span class="v">{esc(b)}</span>' for a, b in lines) + "</span>"
+    if sid == "gap-cea":
+        out = f"{qual}${num(v, 0)}bn"
+        b = base_of(unit)
+        return out + " " + grey(f"below potential ({b})" if b else "below potential")
+    if sid in ("gnp", "real-gnp"):
+        out = f"{qual}${num(to_bn(v, unit))}bn"
+        b = base_of(unit)
+        if b:
+            out += " " + grey(f"({b})")
+        return out + chg_text(kind, c)
+    if sid == "gap-cbo":
+        return f"{num(v)}% {grey('of potential')}"
+    b = base_of(unit)
+    return f"{qual}{num(v)}" + (" " + grey(f"({b})") if b else "") + chg_text(kind, c)
 
 
-def gnp_unit(u):
-    return {"billions of dollars, seasonally adjusted annual rate": "annual rate"}.get(u, u)
+def stacked(fields, v, unit, ests, year, field_names):
+    """Receipts / expenditures / balance, one line each, figures right-aligned, $bn."""
+    lines = []
+    for k in fields:
+        x = v.get(k) if v else None
+        lines.append((FIELD_LABEL.get(k, k.capitalize()), num(to_bn(x, unit))))
+    for e in ests or []:
+        bal = e["value"].get("balance")
+        d = datetime.date.fromisoformat(str(e["as_of"]))
+        lines.append((f"Est. {MON[d.month - 1]} {d.year}", num(to_bn(bal, unit))))
+    return '<span class="kv">' + "".join(
+        f'<span class="k">{esc(a)}</span><span class="v">{esc(b)}</span>' for a, b in lines) + "</span>"
 
+
+def exact(v, unit):
+    """The source figure as stored, for the hover title."""
+    if isinstance(v, dict):
+        return "; ".join(f"{k} {x}" for k, x in v.items()) + (f" ({unit})" if unit else "")
+    return f"{v}" + (f" ({unit})" if unit else "")
+
+
+# ---------------------------------------------------------------- the table
 
 def rows_for(data, lo, hi, first_section):
-    """Rows of every series whose period ends in [lo, hi] (or before lo, for the first section)."""
     out = []
     for sid in ORDER + [k for k in data if k not in ORDER]:
         s = data.get(sid)
@@ -147,67 +259,95 @@ def rows_for(data, lo, hi, first_section):
     return out
 
 
+def cell_first(sid, s, r, year):
+    if "first" not in r and not r.get("est"):
+        return "—"
+    unit, kind = r.get("unit"), s.get("change")
+    if s.get("fields"):
+        out = stacked(s["fields"], r.get("first"), unit, r.get("est"), year, s["fields"])
+        return out + (f'<br>{grey(r["note"])}' if r.get("note") else "")
+    out = single(sid, r["first"], unit, kind, r.get("chg"), r.get("q"))
+    return out + (" " + grey(f"({r['note']})") if r.get("note") else "")
+
+
+def cell_now(sid, s, r):
+    v = r.get("now")
+    if v is None or (isinstance(v, dict) and not any(x is not None for x in v.values())):
+        return "—"
+    unit, kind = (s.get("now") or {}).get("unit"), s.get("change")
+    if s.get("fields"):
+        return stacked(s["fields"], v, unit, None, None, s["fields"])
+    if sid in ("gnp", "real-gnp", "gold-stock"):
+        unit = unit or ""
+        if sid == "gold-stock":
+            unit = "millions of dollars"
+    return single(sid, v, unit, kind, r.get("chg_now"))
+
+
 def block(data, sec_from, sec_to, first_section, year):
     lo, hi = datetime.date.fromisoformat(sec_from), datetime.date.fromisoformat(sec_to)
     rows = rows_for(data, lo, hi, first_section)
     if not rows:
         return ""
-    trs = []
-    shown_groups = set()
+    trs, shown = [], set()
     for sid, s, r in rows:
         g = GROUP.get(sid)
-        if g and g not in shown_groups:
-            shown_groups.add(g)
-            trs.append(f'<tr class="g"><th colspan="4">{esc(g)}</th></tr>')
+        if g and g not in shown:
+            shown.add(g)
+            unit_note = " $bn" if g in ("Federal finance", "International") else ""
+            trs.append(f'<tr class="g"><th colspan="4">{esc(g)}{grey(unit_note)}</th></tr>')
         then, now = s.get("then") or {}, s.get("now") or {}
-        name = esc(s["name"])
-        if then.get("url"):
-            name = f'<a href="{esc(then["url"])}" title="{esc(then.get("label", ""))}">{name}</a>'
-        per = esc(period_label(r["p"]))
-        first = "—"
+        name = f'<a href="#ind-def-{esc(sid)}">{esc(s["name"])}</a> <span class="per">{esc(period_label(r["p"]))}</span>'
+        first = cell_first(sid, s, r, year)
         if "first" in r:
-            u = r.get("unit")
-            u = gnp_unit(u) if sid == "gnp" else ("1954 dollars" if u == "billions of 1954 dollars, SAAR" else u)
-            if isinstance(r["first"], dict) or sid in ("unemployment", "payrolls"):
-                u = u if isinstance(r["first"], dict) else None
-            first = value_cell(sid, r["first"], u, r.get("chg"), s.get("change"))
-        rel = ""
+            first = f'<span title="{esc(exact(r["first"], r.get("unit")))}">{first}</span>'
+        rel = "—"
         if r.get("released"):
-            rel = esc(date_label(r["released"], year))
             src = r.get("source") or (then.get("source") and f'{then["source"]}, released {r["released"]}')
-            if src:
-                rel = f'<span title="{esc(src)}">{rel}</span>'
-        for e in r.get("est", []):
-            v = e["value"]
-            bal = v.get("balance") if isinstance(v, dict) else v
-            first += f'<br><span class="est">est. {esc(date_label(e["as_of"], year))}: {fmt(bal)}</span>'
-        nu = now.get("unit")
-        nu = {"billions of dollars, SAAR": None, "percent": None, "thousands": None,
-              "millions of dollars": "$ millions" if isinstance(r.get("now"), dict) else None,
-              "billions of chained 2017 dollars, SAAR": "2017 dollars"}.get(nu, nu)
-        nowv = "—" if r.get("now") is None else value_cell(sid, r["now"], nu, None, None)
-        if now.get("url") and r.get("now") is not None:
-            nowv = f'<a href="{esc(now["url"])}" title="{esc(now.get("label", ""))}">{nowv}</a>'
-        trs.append(f"<tr><td>{name} <span class=\"per\">{per}</span></td><td>{first}</td>"
-                   f"<td class=\"rel\">{rel}</td><td>{nowv}</td></tr>")
+            rel = f'<span title="{esc(src or "")}">{esc(date_label(r["released"], year))}</span>'
+        nowv = cell_now(sid, s, r)
+        if nowv != "—" and now.get("source"):
+            nowv = f'<span title="{esc(now["source"] + (": " + exact(r["now"], now.get("unit")) if r.get("now") is not None else ""))}">{nowv}</span>'
+        trs.append(f'<tr><td class="n">{name}</td><td>{first}</td><td class="rel">{rel}</td><td>{nowv}</td></tr>')
     return ('<div class="ind"><table><thead><tr><th>Indicator</th><th>As first reported</th>'
             '<th>Released</th><th>Revised, today</th></tr></thead><tbody>'
             + "".join(trs) + "</tbody></table></div>")
 
 
+def defs_block(data):
+    items = []
+    for sid in ORDER:
+        if sid in data and sid in DEFS:
+            items.append(f'<dt id="ind-def-{esc(sid)}">{esc(data[sid]["name"])}</dt>'
+                         f'<dd>{to_html(DEFS[sid], lambda eid, shown: None)}</dd>')
+    return ('<div class="ind-defs" id="indicators"><h3 data-short="Indicators">Indicators: concepts and sources</h3>'
+            '<p class="logic">Under each month: the figures for that month, its quarter, fiscal year, or year, '
+            'as first reported and as revised today. Monthly changes from the prior month; quarterly changes '
+            'from the prior quarter at an annual rate (ar). "—": no figure in that column; "n.a.": not available in the source. '
+            'Figures in $bn throughout federal finance and international; the source figure shows on hover. '
+            'Data and transcriptions: indicators/ in the repository.</p><dl>'
+            + "".join(items) + "</dl></div>")
+
+
 STYLE = """<style>
 div.ind{margin:.4rem 0 1.1rem;overflow-x:auto}
-div.ind table{border-collapse:collapse;font-family:var(--sans);font-size:.8rem;line-height:1.35;color:var(--ink);min-width:100%}
-div.ind th,div.ind td{text-align:left;vertical-align:top;padding:.18rem .5rem .18rem 0;border-bottom:1px solid var(--rule)}
+div.ind table{border-collapse:collapse;font-family:var(--sans);font-size:.8rem;line-height:1.35;color:var(--ink);min-width:100%;font-variant-numeric:tabular-nums}
+div.ind th,div.ind td{text-align:left;vertical-align:top;padding:.2rem .6rem .2rem 0;border-bottom:1px solid var(--rule)}
 div.ind thead th{color:var(--muted);font-weight:600}
-div.ind tr.g th{padding-top:.5rem;color:var(--muted);font-weight:600;font-size:.75rem;text-transform:uppercase;letter-spacing:.04em;border-bottom:0}
-div.ind .per,div.ind .u,div.ind .est,div.ind td.rel{color:var(--muted)}
-div.ind a{color:inherit;text-decoration-color:var(--rule)}
+div.ind tr.g th{padding-top:.55rem;color:var(--muted);font-weight:600;font-size:.75rem;text-transform:uppercase;letter-spacing:.04em;border-bottom:0}
+div.ind tr.g th .u{text-transform:none;letter-spacing:0}
+div.ind .per,div.ind .u,div.ind td.rel{color:var(--muted)}
+div.ind td.n a{color:inherit;text-decoration-color:var(--rule)}
+div.ind .kv{display:inline-grid;grid-template-columns:7.5em 4.2em;column-gap:.4rem}
+div.ind .kv .v{text-align:right}
+div.ind-defs{font-family:var(--sans);font-size:.85rem;line-height:1.45;margin:1rem 0 1.5rem}
+div.ind-defs dt{font-weight:600;margin-top:.6rem}
+div.ind-defs dd{margin:.1rem 0 0 0;color:var(--ink)}
 </style>"""
 
 
 def inject(page, series, mode):
-    """Put each calendar month's indicators under its heading in a built page."""
+    """Put each calendar month's indicators under its heading, and the definitions before the Prologue."""
     data = load()
     if not data:
         return page
@@ -217,11 +357,14 @@ def inject(page, series, mode):
             continue
         dated = [s for s in lst.sections if s.extra.get("from") and s.extra.get("to")]
         for i, sec in enumerate(dated):
-            year = int(sec.extra["to"][:4])
+            year = int(str(sec.extra["to"])[:4])
+            hid = f"{lst.key}--{sec.id}" if mode == "series" else sec.id
+            if i == 0:
+                pat0 = re.compile(r'(<h\d id="' + re.escape(hid) + r'")')
+                page, n0 = pat0.subn(lambda m: defs_block(data) + "\n" + m.group(1), page, count=1)
             blk = block(data, str(sec.extra["from"]), str(sec.extra["to"]), i == 0, year)
             if not blk:
                 continue
-            hid = f"{lst.key}--{sec.id}" if mode == "series" else sec.id
             pat = re.compile(r'(<h\d id="' + re.escape(hid) + r'"[^>]*>.*?</h\d>(?:\s*<p class="logic">.*?</p>)*)', re.S)
             page, n = pat.subn(lambda m: m.group(1) + "\n" + blk, page, count=1)
             done = done or bool(n)
@@ -231,11 +374,13 @@ def inject(page, series, mode):
 
 
 def problems():
-    """For ./bib check: malformed periods, rows without a source, unknown series."""
+    """For ./bib check: malformed periods, rows without a source, unknown series, missing definitions."""
     out = []
     for sid, s in load().items():
         if sid not in ORDER:
             out.append((sid, f"indicator series {sid!r} not in ORDER (tools/bib/indicators.py)"))
+        if sid not in DEFS:
+            out.append((sid, f"indicator series {sid!r} has no definition in DEFS (tools/bib/indicators.py)"))
         for r in s.get("rows", []):
             try:
                 period_end(r["p"])

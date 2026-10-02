@@ -4,16 +4,16 @@
 id: real-gnp
 name: Real gross national product
 freq: Q
-change: pct
+change: pct_ar
 then: {label: 'Commerce, Office of Business Economics, GNP in constant dollars', source: 'ALFRED GNPC96, initial release', url: 'https://alfred.stlouisfed.org/series?seid=GNPC96'}
 now: {label: 'BEA, real GNP, chained dollars', unit: 'billions of chained 2017 dollars, SAAR', source: FRED GNPC96, url: 'https://fred.stlouisfed.org/series/GNPC96'}
 rows:
-- {p: 1960Q4, first: 437.0, released: '1961-02-19', chg: -0.2, unit: 'billions of 1954 dollars, SAAR', now: 3499.492}
-- {p: 1961Q1, first: 432.4, released: '1961-05-18', chg: -1.1, unit: 'billions of 1954 dollars, SAAR', now: 3524.336}
-- {p: 1961Q2, first: 445.5, released: '1961-08-18', chg: 2.8, unit: 'billions of 1954 dollars, SAAR', now: 3582.462}
-- {p: 1961Q3, first: 451.8, released: '1961-11-21', chg: 1.4, unit: 'billions of 1954 dollars, SAAR', now: 3651.335}
-- {p: 1961Q4, first: 464.6, released: '1962-02-24', chg: 2.8, unit: 'billions of 1954 dollars, SAAR', now: 3723.033}
-- {p: 1962Q1, first: 468.2, released: '1962-05-18', chg: 0.8, unit: 'billions of 1954 dollars, SAAR', now: 3788.824}
-- {p: 1962Q2, first: 470.8, released: '1962-08-14', chg: 0.7, unit: 'billions of 1954 dollars, SAAR', now: 3825.291}
-- {p: 1962Q3, first: 471.6, released: '1962-11-20', chg: 0.2, unit: 'billions of 1954 dollars, SAAR', now: 3872.259}
-- {p: 1962Q4, first: 477.7, released: '1963-02-20', chg: 1.3, unit: 'billions of 1954 dollars, SAAR', now: 3889.003}
+- {p: 1960Q4, first: 437.0, released: '1961-02-19', chg: -0.9, unit: 'billions of 1954 dollars, SAAR', now: 3499.492, chg_now: -4.9}
+- {p: 1961Q1, first: 432.4, released: '1961-05-18', chg: -4.1, unit: 'billions of 1954 dollars, SAAR', now: 3524.336, chg_now: 2.9}
+- {p: 1961Q2, first: 445.5, released: '1961-08-18', chg: 11.9, unit: 'billions of 1954 dollars, SAAR', now: 3582.462, chg_now: 6.8}
+- {p: 1961Q3, first: 451.8, released: '1961-11-21', chg: 5.8, unit: 'billions of 1954 dollars, SAAR', now: 3651.335, chg_now: 7.9}
+- {p: 1961Q4, first: 464.6, released: '1962-02-24', chg: 11.8, unit: 'billions of 1954 dollars, SAAR', now: 3723.033, chg_now: 8.1}
+- {p: 1962Q1, first: 468.2, released: '1962-05-18', chg: 3.1, unit: 'billions of 1954 dollars, SAAR', now: 3788.824, chg_now: 7.3}
+- {p: 1962Q2, first: 470.8, released: '1962-08-14', chg: 2.9, unit: 'billions of 1954 dollars, SAAR', now: 3825.291, chg_now: 3.9}
+- {p: 1962Q3, first: 471.6, released: '1962-11-20', chg: 0.7, unit: 'billions of 1954 dollars, SAAR', now: 3872.259, chg_now: 5.0}
+- {p: 1962Q4, first: 477.7, released: '1963-02-20', chg: 5.3, unit: 'billions of 1954 dollars, SAAR', now: 3889.003, chg_now: 1.7}
