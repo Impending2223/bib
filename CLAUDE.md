@@ -1,8 +1,9 @@
 # The 1968 series: how to work on it
 
 Eight linked bibliographies and a calendar for 1961–1974, and a ninth on
-Vietnam, kept as data and rendered to HTML. **Do not read the whole series, and never read `build/`.**
-Find the few entries you need with `./bib`, edit those, check, build.
+Vietnam, kept as data and rendered to HTML. **Do not read the whole series,
+and never read `build/`.** Find the few entries you need with `./bib`, edit
+those, check, build.
 
 ## The brief (read before adding anything)
 
