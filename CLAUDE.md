@@ -254,8 +254,12 @@ The rosters come from unitedstates/congress-legislators by
 at the opening, terms missing from the source, notes). Fix a member there and
 rerun it, or edit `congress/<NN>.yaml` directly for a one-off. The shapes come
 from Lewis et al.'s district files by `tools/congress/make_geo.py` (needs
-shapely and pyproj; the build does not), simplified at 0.01 map units: fine
-enough for a single Manhattan district, about 9 MB. Pointers match members to Part III by
+shapely and pyproj; the build does not), simplified twice: at 0.01 map units,
+fine enough for a single Manhattan district, and at 0.12 for the full map; 11 MB
+together. The pages draw the coarse shapes and swap in the fine past 3× zoom
+(`FINE` in `templates/congress.html`). Each map is drawn when it nears the
+screen, the House districts when first shown, and maps off the screen are not
+painted (`content-visibility`). Pointers match members to Part III by
 surname and first given name (with common short forms: Sam, Bill, Mike).
 
 The maps label a member by surname alone; by initials and surname where the

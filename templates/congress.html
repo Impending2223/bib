@@ -19,6 +19,7 @@
 .cgmaps{display:grid;grid-template-columns:1fr;gap:.6rem}
 .cgmap{margin:0;border:1px solid var(--rule);border-radius:6px;background:var(--panel);overflow:hidden;position:relative}
 .cgmap figcaption{position:absolute;left:.6rem;top:.4rem;font-size:.75rem;font-weight:600;color:var(--muted);pointer-events:none}
+.cgmap .cgv{content-visibility:auto}
 .cgmap svg{width:100%;height:auto;display:block;touch-action:none;cursor:grab}
 .cgmap path.d{stroke:var(--stb);stroke-width:.35;vector-effect:non-scaling-stroke}
 .cgmap path.s{fill:none;stroke:var(--stb);stroke-width:1.4;vector-effect:non-scaling-stroke;pointer-events:none}
@@ -74,6 +75,7 @@ details.cgr tr:target td,details.cgr tr.hit td{background:var(--hl-bg);color:var
   // the delegations view takes more room on the right for the Northeast
   var VB=[0,-60,960,660], VBD=[0,-60,1085,660];
   var P=12, R=5.3, MAXZ=250;                        // dot pitch and radius, in map units
+  var FINE=3;                                       // zoom at which the detailed shapes replace the coarse
   // delegation blocks set on their own States: [x, y, columns]; others centered with near-square blocks
   var ON={CA:[80,282,6],NY:[799,156,8],PA:[789,229,8],OH:[713,250,5],IL:[603,262,4],MI:[668,170,4],IN:[655,268,3],
           TX:[440,452,6],FL:[778,512,4],NC:[800,345,6],VA:[788,300,5],TN:[663,357,5],KY:[672,314,4],GA:[722,416,4],
@@ -89,6 +91,9 @@ details.cgr tr:target td,details.cgr tr.hit td{background:var(--hl-bg);color:var
   function link(id,child,title,shape,p){child._shape=shape;child._p=p;child.setAttribute('data-row',id);child.setAttribute('data-who',title);var t=el('title');t.textContent=title;child.appendChild(t);return child;}
   function who(m){return m.n+(m.p==='V'?'':' ('+m.p+')');}
   function seatName(st,m){return st+(m.d?' '+m.d:' at large')+': '+who(m);}
+  // a shape is named by a ref, 'd:KEY' (a district) or 's:ST' (a State outline), and drawn coarse or fine
+  function geo(ref,fine){if(!ref)return null;var k=ref.slice(2);
+    return ref[0]==='d'?(fine?G.shapes:G.coarse)[k]:(fine?G.states:G.statesC)[k];}
   function bbox(d){var x0=1e9,y0=1e9,x1=-1e9,y1=-1e9,re=/([Ml])\s*(-?[\d.]+)\s+(-?[\d.]+)/g,m,x=0,y=0;
     while((m=re.exec(d))){ if(m[1]==='M'){x=+m[2];y=+m[3];} else {x+=+m[2];y+=+m[3];}
       if(x<x0)x0=x;if(x>x1)x1=x;if(y<y0)y0=y;if(y>y1)y1=y; }
@@ -96,13 +101,23 @@ details.cgr tr:target td,details.cgr tr.hit td{background:var(--hl-bg);color:var
   function draw(fig,c,seats){
     var ch=fig.dataset.chamber, svg=el('svg',{viewBox:VB.join(' '),role:'img','aria-label':(ch==='h'?'House':'Senate')+' map'});
     svg._vb=VB.slice();
+    var frame=fig.querySelector('.cgv')||fig, fine=false, lod=[], lodT=0;
+    // a path whose detail follows the zoom
+    function shp(ref,a){a.d=geo(ref,fine); var e=el('path',a); e._ref=ref; lod.push(e); return e;}
+    function detail(f){ if(f===fine) return; fine=f;
+      lod.forEach(function(e){e.setAttribute('d',geo(e._ref,fine));});
+      var h=hi.firstChild; if(h&&h._ref) h.setAttribute('d',geo(h._ref,fine)); }
+    function onScale(s){ clearTimeout(lodT); lodT=setTimeout(function(){detail(s>=FINE);},120); }
     var g=el('g'), base=el('g',{'class':'lb'}), dist=el('g',{'class':'ld'}), lines=el('g'), hi=el('g',{'class':'lh'}), blocks=el('g',{'class':'lk'});
     g.appendChild(base); g.appendChild(dist); g.appendChild(lines); g.appendChild(hi); g.appendChild(blocks); svg.appendChild(g);
     var cong=G.congress[c], dots=[];
     function shapeOf(st,m){var k=cong[st]||{};
-      if(m.d&&k[m.d]) return G.shapes[k[m.d]];
+      if(m.d&&k[m.d]) return 'd:'+k[m.d];
       var nd=Object.keys(k).filter(function(d){return +d>0;}).length;
-      return (!nd&&k['0'])?G.shapes[k['0']]:G.states[st];}
+      return (!nd&&k['0'])?'d:'+k['0']:'s:'+st;}
+    // the districts: built when first shown (the Senate at once, the House when a dot opens or on Districts)
+    var built=false;
+    function buildDistricts(){ if(built) return; built=true;
     Object.keys(cong).forEach(function(st){
       var m=cong[st], ms=(seats[ch][st]||[]);
       if(ch==='h'){
@@ -110,30 +125,31 @@ details.cgr tr:target td,details.cgr tr.hit td{background:var(--hl-bg);color:var
         if(numbered.length){
           numbered.forEach(function(d){
             var mm=ms.filter(function(x){return x.d==d;})[0]; if(!mm||!G.shapes[m[d]]) return;
-            dist.appendChild(link(mm.id,el('path',{d:G.shapes[m[d]],'class':'d '+cls(mm.p)}),seatName(st,mm),G.shapes[m[d]],mm.p));
+            dist.appendChild(link(mm.id,shp('d:'+m[d],{'class':'d '+cls(mm.p)}),seatName(st,mm),'d:'+m[d],mm.p));
           });
           ms.filter(function(x){return x.d==0;}).forEach(function(x){dots.push([st,x]);});
         } else {
           var k=m['0']; var ps={}; ms.forEach(function(x){ps[x.p]=1;});
           var pk=Object.keys(ps), c2=pk.length===1?cls(pk[0]):'pX';
-          if(k&&G.shapes[k]) dist.appendChild(link(ms[0]?ms[0].id:'',el('path',{d:G.shapes[k],'class':'d '+c2}),st+' at large: '+ms.map(who).join('; '),G.shapes[k],pk.length===1?pk[0]:'X'));
+          if(k&&G.shapes[k]) dist.appendChild(link(ms[0]?ms[0].id:'',shp('d:'+k,{'class':'d '+c2}),st+' at large: '+ms.map(who).join('; '),'d:'+k,pk.length===1?pk[0]:'X'));
         }
       } else {
         var ps2={}; ms.forEach(function(x){ps2[x.p]=1;});
         var pk2=Object.keys(ps2), c3=pk2.length===1?cls(pk2[0]):'pX';
-        if(G.states[st]) dist.appendChild(link(ms[0]?ms[0].id:'',el('path',{d:G.states[st],'class':'d '+c3}),st+': '+ms.map(who).join('; ')));
+        if(G.states[st]) dist.appendChild(link(ms[0]?ms[0].id:'',shp('s:'+st,{'class':'d '+c3}),st+': '+ms.map(who).join('; ')));
       }
     });
-    Object.keys(G.states).forEach(function(st){ lines.appendChild(el('path',{d:G.states[st],'class':'s'})); });
     // at-large seats beside districts: dots at the State's center
     var bySt={}; dots.forEach(function(x){(bySt[x[0]]=bySt[x[0]]||[]).push(x[1]);});
     Object.keys(bySt).forEach(function(st){
       var cxy=G.centers[st], n=bySt[st].length;
       bySt[st].forEach(function(mm,i){
-        dist.appendChild(link(mm.id,el('circle',{cx:cxy[0]+(i-(n-1)/2)*14,cy:cxy[1],r:6.5,'class':cls(mm.p)}),seatName(st,mm),G.states[st],mm.p));
+        dist.appendChild(link(mm.id,el('circle',{cx:cxy[0]+(i-(n-1)/2)*14,cy:cxy[1],r:6.5,'class':cls(mm.p)}),seatName(st,mm),'s:'+st,mm.p));
       });
     });
-    fig.appendChild(svg);
+    }
+    Object.keys(G.states).forEach(function(st){ lines.appendChild(shp('s:'+st,{'class':'s'})); });
+    frame.appendChild(svg);
     var bar=document.createElement('div'); bar.className='cgz';
     bar.innerHTML='<button type="button" data-z="1.8" aria-label="Zoom in">+</button><button type="button" data-z="0.55" aria-label="Zoom out">&minus;</button><button type="button" data-z="0" aria-label="Reset">&#8634;</button>';
     fig.appendChild(bar);
@@ -145,13 +161,13 @@ details.cgr tr:target td,details.cgr tr.hit td{background:var(--hl-bg);color:var
     var DHINT='One dot a seat. Hover a dot for its district; click a dot to open it. Then click a district to select it, double-click to go there. Double-click white space to come back.';
     function isDots(){return fig.classList.contains('dots');}
     // the dots stay until one is clicked; then the districts show, until home
-    function openDistricts(on){blocks.classList.toggle('faded',on); fig.classList.toggle('zoomed',on); opened=on;}
+    function openDistricts(on){if(on)buildDistricts(); blocks.classList.toggle('faded',on); fig.classList.toggle('zoomed',on); opened=on;}
     var opened=false;
     function home(){z.reset(); pin=null; hi.innerHTML=''; openDistricts(false); info.textContent=isDots()?DHINT:hint;}
-    function go(t){pin=t; show(t); say(t); z.to(bbox(t._shape));}
+    function go(t){pin=t; show(t); say(t); z.to(bbox(geo(t._shape,false)));}
     // double-click on white space (water, or land outside the States) goes home; on a shape, the
     // delegations view does nothing more than the click did, the districts view zooms in
-    var z=zoom(svg,g,null,
+    var z=zoom(svg,g,onScale,
       function(e){ var t=e.target.closest&&e.target.closest('[data-row],path.b,path.d'); if(!t){home();return true;}
         if(!isDots()) return false;
         // an opened district view: double-click a district to go there
@@ -169,13 +185,13 @@ details.cgr tr:target td,details.cgr tr.hit td{background:var(--hl-bg);color:var
       if(t.classList.contains('dot')){ go(t); openDistricts(true); }
       else if(opened){ pin=t; show(t); }
     });
-    function show(t){hi.innerHTML=''; if(t&&t._shape) hi.appendChild(el('path',{d:t._shape,'class':'h '+cls(t._p)}));}
-    if(ch!=='h') return;
+    function show(t){hi.innerHTML=''; if(t&&t._shape){var h=el('path',{d:geo(t._shape,fine),'class':'h '+cls(t._p)}); h._ref=t._shape; hi.appendChild(h);}}
+    if(ch!=='h'){ buildDistricts(); return; }
     // ---- the delegations view: a dot a seat, a block a State
     var DOT=null;
     function buildBlocks(){
       DOT=true;
-      Object.keys(G.states).forEach(function(st){ base.appendChild(el('path',{d:G.states[st],'class':'b'})); });
+      Object.keys(G.states).forEach(function(st){ base.appendChild(shp('s:'+st,{'class':'b'})); });
       Object.keys(seats.h).forEach(function(st){
         var ms=seats.h[st].slice().sort(function(a,b){return (ORDER[a.p]-ORDER[b.p])||(a.d-b.d);}), n=ms.length, cols, x0, y0, off=OFF[st];
         if(off){ cols=off[0]; x0=OX; y0=off[1];
@@ -203,8 +219,10 @@ details.cgr tr:target td,details.cgr tr.hit td{background:var(--hl-bg);color:var
     function setView(v){
       [].forEach.call(tog.children,function(x){x.setAttribute('aria-pressed',x.dataset.v===v?'true':'false');});
       if(v==='k'&&!DOT) buildBlocks();
+      if(v==='d') buildDistricts();
       fig.classList.toggle('dots',v==='k');
       svg._vb=(v==='k'?VBD:VB).slice(); svg.setAttribute('viewBox',svg._vb.join(' '));
+      frame.style.aspectRatio=svg._vb[2]+'/'+svg._vb[3];
       pin=null; hi.innerHTML=''; z.reset(); openDistricts(false);
       info.textContent=v==='k'?DHINT:hint;
       var cap=fig.querySelector('figcaption'); if(cap) cap.textContent=v==='k'?'House, by delegation':'House, by district';
@@ -242,9 +260,21 @@ details.cgr tr:target td,details.cgr tr.hit td{background:var(--hl-bg);color:var
   function open(id){var r=document.getElementById(id);if(r){var d=r.closest('details');if(d)d.open=true;r.classList.add('hit');setTimeout(function(){r.classList.remove('hit');},2000);}}
   document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href^="#cg"]');if(a)open(a.getAttribute('href').slice(1));},true);
   if(/^#cg/.test(location.hash))open(location.hash.slice(1));
+  // each map is drawn when it comes near the screen
+  var figs=[];
   [].forEach.call(document.querySelectorAll('.cg'),function(b){
-    var c=b.dataset.cg, seats=JSON.parse(b.querySelector('.cgseats').textContent);
-    [].forEach.call(b.querySelectorAll('.cgmap'),function(f){draw(f,c,seats);});
+    var seats=null;
+    [].forEach.call(b.querySelectorAll('.cgmap'),function(f){
+      f._draw=function(){ if(f._drawn) return; f._drawn=true;
+        if(!seats) seats=JSON.parse(b.querySelector('.cgseats').textContent);
+        draw(f,b.dataset.cg,seats); };
+      figs.push(f);
+    });
   });
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){
+      if(e.isIntersecting){io.unobserve(e.target); e.target._draw();}});},{rootMargin:'600px 0px'});
+    figs.forEach(function(f){io.observe(f);});
+  } else figs.forEach(function(f){f._draw();});
 })();
 </script>
