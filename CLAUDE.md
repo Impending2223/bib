@@ -254,7 +254,8 @@ The rosters come from unitedstates/congress-legislators by
 at the opening, terms missing from the source, notes). Fix a member there and
 rerun it, or edit `congress/<NN>.yaml` directly for a one-off. The shapes come
 from Lewis et al.'s district files by `tools/congress/make_geo.py` (needs
-shapely and pyproj; the build does not). Pointers match members to Part III by
+shapely and pyproj; the build does not), simplified at 0.01 map units: fine
+enough for a single Manhattan district, about 9 MB. Pointers match members to Part III by
 surname and first given name (with common short forms: Sam, Bill, Mike).
 
 The maps label a member by surname alone; by initials and surname where the
@@ -263,7 +264,9 @@ names (the `given` field) where the initials are shared too (James Thomas and
 Joel Thomas Broyhill). The House map opens in Delegations, its default view: a dot a
 seat, a block a State, set on the State or, for VT, NH, MA, RI, CT, NJ, DE and MD,
 in a column off the coast with two-letter codes and leader lines. The block
-positions are the ON and OFF tables in `templates/congress.html`. Map labels use
+positions are the ON and OFF tables in `templates/congress.html`. Clicking a dot
+zooms to its district and hides the dots; clicking another district moves there;
+a double-click on white space (water, or land outside the States) goes back. Map labels use
 the two-letter postal codes. The bars split the Democrats, non-Southern then Southern:
 the eleven Southern States, the thirteen represented in the Confederate States
 Congress less Missouri and Kentucky.

@@ -10,7 +10,7 @@ from shapely.geometry import shape, mapping, Polygon, MultiPolygon
 from shapely.ops import unary_union, transform
 from pyproj import Transformer
 SRC = os.path.join(sys.argv[1] if len(sys.argv) > 1 else '../congressional-district-boundaries', 'GeoJson') + '/'
-TOL = float(sys.argv[2]) if len(sys.argv) > 2 else 0.12
+TOL = float(sys.argv[2]) if len(sys.argv) > 2 else 0.01
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 ABBR = dict(Alabama='AL', Alaska='AK', Arizona='AZ', Arkansas='AR', California='CA', Colorado='CO', Connecticut='CT', Delaware='DE',
             Florida='FL', Georgia='GA', Hawaii='HI', Idaho='ID', Illinois='IL', Indiana='IN', Iowa='IA', Kansas='KS', Kentucky='KY',
