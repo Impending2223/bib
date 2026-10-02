@@ -260,7 +260,11 @@ surname and first given name (with common short forms: Sam, Bill, Mike).
 The maps label a member by surname alone; by initials and surname where the
 surname is shared in that Congress (H.T. Johnson, A.W. Johnson); by full given
 names (the `given` field) where the initials are shared too (James Thomas and
-Joel Thomas Broyhill). The bars split the Democrats, non-Southern then Southern:
+Joel Thomas Broyhill). The House map has a second view, Delegations: a dot a
+seat, a block a State, set on the State or, for VT, NH, MA, RI, CT, NJ, DE and MD,
+in a column off the coast with two-letter codes and leader lines. The block
+positions are the ON and OFF tables in `templates/congress.html`. Map labels use
+the two-letter postal codes. The bars split the Democrats, non-Southern then Southern:
 the eleven Southern States, the thirteen represented in the Confederate States
 Congress less Missouri and Kentucky.
 

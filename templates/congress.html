@@ -25,7 +25,24 @@
 .cgmap path.d:hover{opacity:.7}
 .cgz{position:absolute;right:.4rem;top:.4rem;display:flex;gap:.25rem}
 .cgz button{font:600 .9rem/1 var(--sans);width:1.8rem;height:1.8rem;border:1px solid var(--rule);border-radius:5px;background:var(--panel);color:var(--ink);cursor:pointer}
-.cgi{margin:0;padding:.35rem .6rem;font-size:.8rem;color:var(--muted);border-top:1px solid var(--rule);min-height:1.9rem}
+.cgf{display:flex;align-items:center;gap:.5rem;border-top:1px solid var(--rule);padding:.3rem .6rem;min-height:1.9rem}
+.cgi{margin:0;flex:1;font-size:.8rem;color:var(--muted)}
+.cgt{display:flex;flex:none}
+.cgt button{font:600 .72rem/1 var(--sans);padding:.35rem .5rem;border:1px solid var(--rule);background:var(--panel);color:var(--muted);cursor:pointer}
+.cgt button:first-child{border-radius:5px 0 0 5px}.cgt button:last-child{border-radius:0 5px 5px 0;border-left:0}
+.cgt button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+.cgmap .lb,.cgmap .lk{display:none}
+.cgmap.dots .lb,.cgmap.dots .lk{display:inline}
+.cgmap.dots .ld{display:none}
+.cgmap.dots.zoomed .ld{display:inline;opacity:.4}
+.cgmap path.b{fill:var(--pV);opacity:.55;stroke:var(--stb);stroke-width:.8;vector-effect:non-scaling-stroke}
+.cgmap path.h{opacity:.95;stroke:var(--mk);stroke-width:1;vector-effect:non-scaling-stroke;pointer-events:none}
+.cgmap circle.dot{stroke:var(--stb);stroke-width:.8;vector-effect:non-scaling-stroke;cursor:pointer}
+.cgmap circle.dot:hover{stroke:var(--mk);stroke-width:1.6}
+.cgmap .lk.faded{opacity:.15;pointer-events:none}
+.cgmap line.ll{stroke:var(--muted);stroke-width:.7;vector-effect:non-scaling-stroke}
+.cgmap circle.lp{fill:var(--muted)}
+.cgmap text.lc{font:700 9px var(--sans);fill:var(--ink);text-anchor:start}
 .cgmap [data-row]{cursor:pointer}
 .cgmap circle{stroke:var(--stb);stroke-width:1.5;vector-effect:non-scaling-stroke}
 .cgkey .sw{display:inline-block;width:.8em;height:.8em;border-radius:2px;margin:0 .25em 0 .6em;vertical-align:-.05em}
@@ -53,17 +70,39 @@ details.cgr tr:target td,details.cgr tr.hit td{background:var(--hl-bg);color:var
 <script>
 (function(){
   var G=JSON.parse(document.getElementById('cggeo').textContent), NS='http://www.w3.org/2000/svg';
-  // a blank band above the map, so the title sits on white space until the map is moved
-  var VB=[0,-60,960,660];
+  // a blank band above the map, so the title sits on white space until the map is moved;
+  // the delegations view takes more room on the right for the Northeast
+  var VB=[0,-60,960,660], VBD=[0,-60,1070,660];
+  var P=10, R=4.2, MAXZ=250;                        // dot pitch and radius, in map units
+  // delegation blocks set on their own States: [x, y, columns]; others centered with near-square blocks
+  var ON={CA:[80,282,6],NY:[810,153,7],PA:[796,224,8],OH:[713,250,5],IL:[603,262,4],MI:[668,170,4],IN:[655,268,3],
+          TX:[440,452,6],FL:[778,512,4],NC:[800,345,6],VA:[788,300,5],TN:[663,357,5],KY:[672,314,4],GA:[722,416,4],
+          WI:[585,165,4],MN:[517,132,3],MO:[552,302,4],LA:[560,468,4],AL:[661,425,3],MS:[606,432,2],SC:[768,388,3],
+          WV:[752,282,3],IA:[532,224,4],KS:[450,304,3],OK:[462,370,3],AR:[555,385,3],WA:[121,60,4],OR:[100,132,2],
+          CO:[326,285,3],ME:[905,95,3],NE:[428,236,4],AZ:[204,376,2],HI:[318,578,2],AK:[102,516,1]};
+  // delegations set off the coast, north to south: [columns, top y]
+  var OFF={VT:[1,100],NH:[2,120],MA:[5,142],RI:[2,182],CT:[3,202],NJ:[5,234],DE:[1,276],MD:[4,296]};
+  var OX=1000, LX=992;                    // the offset blocks' left edge; their labels end just before it
+  var ORDER={D:0,ID:1,I:2,C:3,V:4,R:5};
   function el(n,a){var e=document.createElementNS(NS,n);for(var k in a)e.setAttribute(k,a[k]);return e;}
   function cls(p){return p==='D'?'pD':p==='R'?'pR':p==='V'?'pV':'pO';}
   function link(id,child,title){child.setAttribute('data-row',id);child.setAttribute('data-who',title);var t=el('title');t.textContent=title;child.appendChild(t);return child;}
   function who(m){return m.n+(m.p==='V'?'':' ('+m.p+')');}
-  var ST={AL:'Ala.',AK:'Alaska',AZ:'Ariz.',AR:'Ark.',CA:'Calif.',CO:'Colo.',CT:'Conn.',DE:'Del.',FL:'Fla.',GA:'Ga.',HI:'Hawaii',ID:'Idaho',IL:'Ill.',IN:'Ind.',IA:'Iowa',KS:'Kans.',KY:'Ky.',LA:'La.',ME:'Maine',MD:'Md.',MA:'Mass.',MI:'Mich.',MN:'Minn.',MS:'Miss.',MO:'Mo.',MT:'Mont.',NE:'Nebr.',NV:'Nev.',NH:'N.H.',NJ:'N.J.',NM:'N.Mex.',NY:'N.Y.',NC:'N.C.',ND:'N.Dak.',OH:'Ohio',OK:'Okla.',OR:'Oreg.',PA:'Pa.',RI:'R.I.',SC:'S.C.',SD:'S.Dak.',TN:'Tenn.',TX:'Tex.',UT:'Utah',VT:'Vt.',VA:'Va.',WA:'Wash.',WV:'W.Va.',WI:'Wis.',WY:'Wyo.'};
+  function seatName(st,m){return st+(m.d?' '+m.d:' at large')+': '+who(m);}
+  function bbox(d){var x0=1e9,y0=1e9,x1=-1e9,y1=-1e9,re=/([Ml])\s*(-?[\d.]+)\s+(-?[\d.]+)/g,m,x=0,y=0;
+    while((m=re.exec(d))){ if(m[1]==='M'){x=+m[2];y=+m[3];} else {x+=+m[2];y+=+m[3];}
+      if(x<x0)x0=x;if(x>x1)x1=x;if(y<y0)y0=y;if(y>y1)y1=y; }
+    return [x0,y0,x1,y1];}
   function draw(fig,c,seats){
     var ch=fig.dataset.chamber, svg=el('svg',{viewBox:VB.join(' '),role:'img','aria-label':(ch==='h'?'House':'Senate')+' map'});
-    var g=el('g'); svg.appendChild(g);
+    svg._vb=VB.slice();
+    var g=el('g'), base=el('g',{'class':'lb'}), dist=el('g',{'class':'ld'}), lines=el('g'), hi=el('g',{'class':'lh'}), blocks=el('g',{'class':'lk'});
+    g.appendChild(base); g.appendChild(dist); g.appendChild(lines); g.appendChild(hi); g.appendChild(blocks); svg.appendChild(g);
     var cong=G.congress[c], dots=[];
+    function shapeOf(st,m){var k=cong[st]||{};
+      if(m.d&&k[m.d]) return G.shapes[k[m.d]];
+      var nd=Object.keys(k).filter(function(d){return +d>0;}).length;
+      return (!nd&&k['0'])?G.shapes[k['0']]:G.states[st];}
     Object.keys(cong).forEach(function(st){
       var m=cong[st], ms=(seats[ch][st]||[]);
       if(ch==='h'){
@@ -71,48 +110,96 @@ details.cgr tr:target td,details.cgr tr.hit td{background:var(--hl-bg);color:var
         if(numbered.length){
           numbered.forEach(function(d){
             var mm=ms.filter(function(x){return x.d==d;})[0]; if(!mm||!G.shapes[m[d]]) return;
-            g.appendChild(link(mm.id,el('path',{d:G.shapes[m[d]],'class':'d '+cls(mm.p)}),ST[st]+' '+d+': '+who(mm)));
+            dist.appendChild(link(mm.id,el('path',{d:G.shapes[m[d]],'class':'d '+cls(mm.p)}),seatName(st,mm)));
           });
           ms.filter(function(x){return x.d==0;}).forEach(function(x){dots.push([st,x]);});
         } else {
           var k=m['0']; var ps={}; ms.forEach(function(x){ps[x.p]=1;});
           var pk=Object.keys(ps), c2=pk.length===1?cls(pk[0]):'pX';
-          if(k&&G.shapes[k]) g.appendChild(link(ms[0]?ms[0].id:'',el('path',{d:G.shapes[k],'class':'d '+c2}),ST[st]+' at large: '+ms.map(who).join('; ')));
+          if(k&&G.shapes[k]) dist.appendChild(link(ms[0]?ms[0].id:'',el('path',{d:G.shapes[k],'class':'d '+c2}),st+' at large: '+ms.map(who).join('; ')));
         }
       } else {
         var ps2={}; ms.forEach(function(x){ps2[x.p]=1;});
         var pk2=Object.keys(ps2), c3=pk2.length===1?cls(pk2[0]):'pX';
-        if(G.states[st]) g.appendChild(link(ms[0]?ms[0].id:'',el('path',{d:G.states[st],'class':'d '+c3}),ST[st]+': '+ms.map(who).join('; ')));
+        if(G.states[st]) dist.appendChild(link(ms[0]?ms[0].id:'',el('path',{d:G.states[st],'class':'d '+c3}),st+': '+ms.map(who).join('; ')));
       }
     });
-    Object.keys(G.states).forEach(function(st){ g.appendChild(el('path',{d:G.states[st],'class':'s'})); });
-    // at-large seats beside districts: dots at the state's center
+    Object.keys(G.states).forEach(function(st){ lines.appendChild(el('path',{d:G.states[st],'class':'s'})); });
+    // at-large seats beside districts: dots at the State's center
     var bySt={}; dots.forEach(function(x){(bySt[x[0]]=bySt[x[0]]||[]).push(x[1]);});
     Object.keys(bySt).forEach(function(st){
       var cxy=G.centers[st], n=bySt[st].length;
       bySt[st].forEach(function(mm,i){
-        g.appendChild(link(mm.id,el('circle',{cx:cxy[0]+(i-(n-1)/2)*14,cy:cxy[1],r:6.5,'class':cls(mm.p)}),ST[st]+' at large: '+who(mm)));
+        dist.appendChild(link(mm.id,el('circle',{cx:cxy[0]+(i-(n-1)/2)*14,cy:cxy[1],r:6.5,'class':cls(mm.p)}),seatName(st,mm)));
       });
     });
     fig.appendChild(svg);
     var bar=document.createElement('div'); bar.className='cgz';
     bar.innerHTML='<button type="button" data-z="1.8" aria-label="Zoom in">+</button><button type="button" data-z="0.55" aria-label="Zoom out">&minus;</button><button type="button" data-z="0" aria-label="Reset">&#8634;</button>';
     fig.appendChild(bar);
-    var info=document.createElement('p'); info.className='cgi'; info.textContent=ch==='h'?'Click a district for its representatives.':'Click a state for its senators.';
-    fig.appendChild(info);
-    var z=zoom(svg,g);
-    bar.addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;var f=+b.dataset.z;if(!f)z.reset();else z.by(f);});
+    var foot=document.createElement('div'); foot.className='cgf';
+    var info=document.createElement('p'); info.className='cgi'; foot.appendChild(info);
+    var hint=ch==='h'?'Click a district for its representatives.':'Click a state for its senators.';
+    info.textContent=hint;
+    fig.appendChild(foot);
+    var z=zoom(svg,g,function(s){ blocks.classList.toggle('faded',s>1.5); fig.classList.toggle('zoomed',s>1.5); });
+    bar.addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;var f=+b.dataset.z;if(!f){z.reset();pin=null;hi.innerHTML='';}else z.by(f);});
+    function say(t){info.innerHTML='';info.appendChild(document.createTextNode(t.getAttribute('data-who')+' '));
+      var a=document.createElement('a'); a.href='#'+t.getAttribute('data-row'); a.textContent='Roster ↓'; info.appendChild(a);}
+    var pin=null;
     svg.addEventListener('click',function(e){
       if(z.moved())return; var t=e.target.closest('[data-row]'); if(!t)return;
-      info.innerHTML=''; info.appendChild(document.createTextNode(t.getAttribute('data-who')+' '));
-      var a=document.createElement('a'); a.href='#'+t.getAttribute('data-row'); a.textContent='Roster \u2193'; info.appendChild(a);
+      say(t);
+      if(t.classList.contains('dot')){ pin=t; show(t); var bb=bbox(t._shape); z.to(bb); }
+    });
+    function show(t){hi.innerHTML=''; if(t&&t._shape) hi.appendChild(el('path',{d:t._shape,'class':'h '+cls(t._p)}));}
+    if(ch!=='h') return;
+    // ---- the delegations view: a dot a seat, a block a State
+    var DOT=null;
+    function buildBlocks(){
+      DOT=true;
+      Object.keys(G.states).forEach(function(st){ base.appendChild(el('path',{d:G.states[st],'class':'b'})); });
+      Object.keys(seats.h).forEach(function(st){
+        var ms=seats.h[st].slice().sort(function(a,b){return (ORDER[a.p]-ORDER[b.p])||(a.d-b.d);}), n=ms.length, cols, x0, y0, off=OFF[st];
+        if(off){ cols=off[0]; x0=OX; y0=off[1];
+          var rows=Math.ceil(n/cols), my=y0+(rows-1)*P/2, cxy=G.centers[st];
+          blocks.appendChild(el('line',{x1:cxy[0],y1:cxy[1],x2:LX-18,y2:my,'class':'ll'}));
+          blocks.appendChild(el('circle',{cx:cxy[0],cy:cxy[1],r:1.8,'class':'lp'}));
+          var tx=el('text',{x:LX-14,y:my+3.6,'class':'lc'}); tx.textContent=st; blocks.appendChild(tx);
+        } else {
+          var on=ON[st]||[G.centers[st][0],G.centers[st][1],Math.max(1,Math.ceil(Math.sqrt(n*1.4)))];
+          cols=Math.min(on[2],n); var rows2=Math.ceil(n/cols);
+          x0=on[0]-(cols-1)*P/2; y0=on[1]-(rows2-1)*P/2;
+        }
+        ms.forEach(function(m,i){
+          var r=Math.floor(i/cols), k=i%cols, inRow=Math.min(cols,n-r*cols), shift=(cols-inRow)*P/2;
+          var d=link(m.id,el('circle',{cx:x0+shift+k*P,cy:y0+r*P,r:R,'class':'dot '+cls(m.p)}),seatName(st,m));
+          d._shape=shapeOf(st,m); d._p=m.p; blocks.appendChild(d);
+        });
+      });
+      blocks.addEventListener('mouseover',function(e){var t=e.target.closest('.dot'); if(t){show(t); say(t);}});
+      blocks.addEventListener('mouseout',function(e){var t=e.target.closest('.dot'); if(t&&!(e.relatedTarget&&e.relatedTarget.closest&&e.relatedTarget.closest('.dot'))) show(pin);});
+    }
+    var tog=document.createElement('div'); tog.className='cgt';
+    tog.innerHTML='<button type="button" data-v="d" aria-pressed="true">Districts</button><button type="button" data-v="k" aria-pressed="false">Delegations</button>';
+    foot.appendChild(tog);
+    tog.addEventListener('click',function(e){
+      var b=e.target.closest('button'); if(!b)return; var v=b.dataset.v;
+      [].forEach.call(tog.children,function(x){x.setAttribute('aria-pressed',x===b?'true':'false');});
+      if(v==='k'&&!DOT) buildBlocks();
+      fig.classList.toggle('dots',v==='k');
+      svg._vb=(v==='k'?VBD:VB).slice(); svg.setAttribute('viewBox',svg._vb.join(' '));
+      pin=null; hi.innerHTML=''; z.reset();
+      info.textContent=v==='k'?'One dot a seat. Hover a dot for its district; click to go to it.':hint;
+      var cap=fig.querySelector('figcaption'); if(cap) cap.textContent=v==='k'?'House, by delegation':'House, by district';
     });
   }
-  function zoom(svg,g){
+  function zoom(svg,g,onScale){
     var s=1,tx=0,ty=0,drag=null,moved=0,pts={};
-    function apply(){g.setAttribute('transform','translate('+tx+' '+ty+') scale('+s+')');}
-    function local(e){var r=svg.getBoundingClientRect();return [VB[0]+(e.clientX-r.left)*VB[2]/r.width,VB[1]+(e.clientY-r.top)*VB[3]/r.height];}
-    function zoomAt(p,f){var ns=Math.max(1,Math.min(40,s*f));tx=p[0]-(p[0]-tx)*ns/s;ty=p[1]-(p[1]-ty)*ns/s;s=ns;if(s===1){tx=ty=0;}apply();}
+    function vb(){return svg._vb;}
+    function apply(){g.setAttribute('transform','translate('+tx+' '+ty+') scale('+s+')'); if(onScale)onScale(s);}
+    function local(e){var r=svg.getBoundingClientRect(),V=vb();return [V[0]+(e.clientX-r.left)*V[2]/r.width,V[1]+(e.clientY-r.top)*V[3]/r.height];}
+    function zoomAt(p,f){var ns=Math.max(1,Math.min(MAXZ,s*f));tx=p[0]-(p[0]-tx)*ns/s;ty=p[1]-(p[1]-ty)*ns/s;s=ns;if(s===1){tx=ty=0;}apply();}
     svg.addEventListener('wheel',function(e){if(!(e.ctrlKey||e.metaKey||s>1))return;e.preventDefault();zoomAt(local(e),Math.exp(-e.deltaY*0.002));},{passive:false});
     svg.addEventListener('pointerdown',function(e){pts[e.pointerId]=local(e);drag=local(e);moved=0;});
     svg.addEventListener('pointermove',function(e){
@@ -126,7 +213,13 @@ details.cgr tr:target td,details.cgr tr.hit td{background:var(--hl-bg);color:var
     function up(e){delete pts[e.pointerId];drag=null;}
     svg.addEventListener('pointerup',up);svg.addEventListener('pointercancel',up);
     svg.addEventListener('dblclick',function(e){e.preventDefault();zoomAt(local(e),2.5);});
-    return {by:function(f){zoomAt([VB[0]+VB[2]/2,VB[1]+VB[3]/2],f);},reset:function(){s=1;tx=ty=0;apply();},moved:function(){return moved>4;}};
+    return {by:function(f){var V=vb();zoomAt([V[0]+V[2]/2,V[1]+V[3]/2],f);},
+            reset:function(){s=1;tx=ty=0;apply();},
+            moved:function(){return moved>4;},
+            // center a box (map units), filling about half the frame
+            to:function(bb){var V=vb(),w=Math.max(bb[2]-bb[0],4),h=Math.max(bb[3]-bb[1],4);
+              s=Math.max(1,Math.min(MAXZ,Math.min(V[2]/w,V[3]/h)*0.4));
+              tx=V[0]+V[2]/2-s*(bb[0]+bb[2])/2; ty=V[1]+V[3]/2-s*(bb[1]+bb[3])/2; apply();}};
   }
   function open(id){var r=document.getElementById(id);if(r){var d=r.closest('details');if(d)d.open=true;r.classList.add('hit');setTimeout(function(){r.classList.remove('hit');},2000);}}
   document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href^="#cg"]');if(a)open(a.getAttribute('href').slice(1));},true);
