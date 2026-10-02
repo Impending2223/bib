@@ -72,16 +72,16 @@ details.cgr tr:target td,details.cgr tr.hit td{background:var(--hl-bg);color:var
   var G=JSON.parse(document.getElementById('cggeo').textContent), NS='http://www.w3.org/2000/svg';
   // a blank band above the map, so the title sits on white space until the map is moved;
   // the delegations view takes more room on the right for the Northeast
-  var VB=[0,-60,960,660], VBD=[0,-60,1070,660];
-  var P=10, R=4.2, MAXZ=250;                        // dot pitch and radius, in map units
+  var VB=[0,-60,960,660], VBD=[0,-60,1085,660];
+  var P=12, R=5.3, MAXZ=250;                        // dot pitch and radius, in map units
   // delegation blocks set on their own States: [x, y, columns]; others centered with near-square blocks
-  var ON={CA:[80,282,6],NY:[810,153,7],PA:[796,224,8],OH:[713,250,5],IL:[603,262,4],MI:[668,170,4],IN:[655,268,3],
+  var ON={CA:[80,282,6],NY:[799,156,8],PA:[789,229,8],OH:[713,250,5],IL:[603,262,4],MI:[668,170,4],IN:[655,268,3],
           TX:[440,452,6],FL:[778,512,4],NC:[800,345,6],VA:[788,300,5],TN:[663,357,5],KY:[672,314,4],GA:[722,416,4],
           WI:[585,165,4],MN:[517,132,3],MO:[552,302,4],LA:[560,468,4],AL:[661,425,3],MS:[606,432,2],SC:[768,388,3],
           WV:[752,282,3],IA:[532,224,4],KS:[450,304,3],OK:[462,370,3],AR:[555,385,3],WA:[121,60,4],OR:[100,132,2],
           CO:[326,285,3],ME:[905,95,3],NE:[428,236,4],AZ:[204,376,2],HI:[318,578,2],AK:[102,516,1]};
   // delegations set off the coast, north to south: [columns, top y]
-  var OFF={VT:[1,100],NH:[2,120],MA:[5,142],RI:[2,182],CT:[3,202],NJ:[5,234],DE:[1,276],MD:[4,296]};
+  var OFF={VT:[1,96],NH:[2,116],MA:[5,138],RI:[2,186],CT:[3,206],NJ:[5,242],DE:[1,290],MD:[4,310]};
   var OX=1000, LX=992;                    // the offset blocks' left edge; their labels end just before it
   var ORDER={D:0,ID:1,I:2,C:3,V:4,R:5};
   function el(n,a){var e=document.createElementNS(NS,n);for(var k in a)e.setAttribute(k,a[k]);return e;}
@@ -181,18 +181,19 @@ details.cgr tr:target td,details.cgr tr.hit td{background:var(--hl-bg);color:var
       blocks.addEventListener('mouseout',function(e){var t=e.target.closest('.dot'); if(t&&!(e.relatedTarget&&e.relatedTarget.closest&&e.relatedTarget.closest('.dot'))) show(pin);});
     }
     var tog=document.createElement('div'); tog.className='cgt';
-    tog.innerHTML='<button type="button" data-v="d" aria-pressed="true">Districts</button><button type="button" data-v="k" aria-pressed="false">Delegations</button>';
-    foot.appendChild(tog);
-    tog.addEventListener('click',function(e){
-      var b=e.target.closest('button'); if(!b)return; var v=b.dataset.v;
-      [].forEach.call(tog.children,function(x){x.setAttribute('aria-pressed',x===b?'true':'false');});
+    tog.innerHTML='<button type="button" data-v="k" aria-pressed="true">Delegations</button><button type="button" data-v="d" aria-pressed="false">Districts</button>';
+    foot.insertBefore(tog,foot.firstChild);
+    function setView(v){
+      [].forEach.call(tog.children,function(x){x.setAttribute('aria-pressed',x.dataset.v===v?'true':'false');});
       if(v==='k'&&!DOT) buildBlocks();
       fig.classList.toggle('dots',v==='k');
       svg._vb=(v==='k'?VBD:VB).slice(); svg.setAttribute('viewBox',svg._vb.join(' '));
       pin=null; hi.innerHTML=''; z.reset();
       info.textContent=v==='k'?'One dot a seat. Hover a dot for its district; click to go to it.':hint;
       var cap=fig.querySelector('figcaption'); if(cap) cap.textContent=v==='k'?'House, by delegation':'House, by district';
-    });
+    }
+    tog.addEventListener('click',function(e){var b=e.target.closest('button'); if(b) setView(b.dataset.v);});
+    setView('k');   // the delegations view first
   }
   function zoom(svg,g,onScale){
     var s=1,tx=0,ty=0,drag=null,moved=0,pts={};

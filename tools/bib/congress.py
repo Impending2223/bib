@@ -266,7 +266,7 @@ def block(c, data, geo, ptr, href, rid):
                                     "n": lab.get(id(r), "Vacant"), "id": rid(c, "s", r["st"], r["cl"])})
     out.append(f'<script type="application/json" class="cgseats">{json.dumps(seats, ensure_ascii=False, separators=(",", ":"))}</script>')
     out.append('<div class="cgmaps">'
-               f'<figure class="cgmap" data-chamber="h"><figcaption>House, by district</figcaption></figure>'
+               f'<figure class="cgmap dots" data-chamber="h"><figcaption>House, by delegation</figcaption></figure>'
                f'<figure class="cgmap" data-chamber="s"><figcaption>Senate, by state</figcaption></figure></div>')
     out.append('<p class="cgkey"><span class="sw pD"></span>Democratic <span class="sw pR"></span>Republican '
                '<span class="sw pO"></span>Other <span class="sw pV"></span>Vacant <span class="sw pX"></span>Split delegation. '
