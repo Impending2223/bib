@@ -235,6 +235,11 @@ var META={{meta}}, ORDER={{order}};
       a.addEventListener('click',function(e){ e.preventDefault(); closeDrawer(); openList(k); });
       li.appendChild(a); lsts.appendChild(li);
     });
+    // pages outside the reader
+    var gp=document.createElement('li'); gp.className='gl'; gp.textContent='Pages'; lsts.appendChild(gp);
+    var lp=document.createElement('li'), ap=document.createElement('a');
+    ap.href='congress.html'; ap.innerHTML='<b>Congress</b><span>Each Congress at its opening, 1961\u20131973: bars, maps, members</span>';
+    lp.appendChild(ap); lsts.appendChild(lp);
   })();
   function buildDrawer(){
     $$('a',lsts).forEach(function(a){a.classList.toggle('on',a.dataset.k===active);});
