@@ -161,7 +161,8 @@ def build_list(series, key):
         main.append(f'<p class="lede">{text_html(lst.data["lede"], "lede")}</p>')
     for p in store.as_list(lst.data.get("logic")):
         main.append(f'<p class="logic">{text_html(p, "logic")}</p>')
-    main.append('<p class="logic">To navigate, use the Outline button, the contents below, or the handle on the right edge, which you can drag to see nearby headings.</p>')
+    main.append('<p class="logic">To navigate, use the Outline button, the contents below, or the handle on the right edge, which you can drag to see nearby headings. '
+                'All the lists in one reader: <a href="series.html">the series</a>. Each Congress at its opening: <a href="congress.html">Congress</a>.</p>')
     main.append('<nav class="toc" aria-label="Contents">\n<h3 id="contents" style="border-top:0;margin-top:1.5rem" data-short="Contents">Contents</h3>\n<ol id="tocList"></ol>\n</nav>')
     for s in lst.sections:
         main.extend(section_body(series, lst, s, lambda sec: attr(sec.id), text_html))

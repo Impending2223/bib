@@ -39,6 +39,9 @@ before the style revision. They are no longer updated.
   and git branches (`./bib setup`) both use a three-way, field-by-field merge.
   Duplicates are flagged and can be folded together (`./bib combine`).
   Disagreements are recorded in the entry as conflicts to settle, never lost.
+- `congress/` holds each Congress at its opening, 87th–93rd: the members by
+  state and district or class, and the district and state shapes. The build
+  draws them on `congress.html`, and in the calendar at each opening it covers.
 - `./bib build` regenerates every page, including the compiled reader's links,
   "Elsewhere" lines, and names index. A push to `main` runs `check` and
   `build` and publishes the result; if `check` fails, the site stays as it was.
