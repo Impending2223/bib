@@ -266,8 +266,10 @@ def block(c, data, geo, ptr, href, rid):
                                     "n": lab.get(id(r), "Vacant"), "id": rid(c, "s", r["st"], r["cl"])})
     out.append(f'<script type="application/json" class="cgseats">{json.dumps(seats, ensure_ascii=False, separators=(",", ":"))}</script>')
     out.append('<div class="cgmaps">'
-               f'<figure class="cgmap dots" data-chamber="h"><figcaption>House, by delegation</figcaption></figure>'
-               f'<figure class="cgmap" data-chamber="s"><figcaption>Senate, by state</figcaption></figure></div>')
+               '<figure class="cgmap dots" data-chamber="h"><figcaption>House, by delegation</figcaption>'
+               '<div class="cgv" style="aspect-ratio:1085/660"></div></figure>'
+               '<figure class="cgmap" data-chamber="s"><figcaption>Senate, by state</figcaption>'
+               '<div class="cgv" style="aspect-ratio:960/660"></div></figure></div>')
     out.append('<p class="cgkey"><span class="sw pD"></span>Democratic <span class="sw pR"></span>Republican '
                '<span class="sw pO"></span>Other <span class="sw pV"></span>Vacant <span class="sw pX"></span>Split delegation. '
                'Dots: at-large seats beside districts. Zoom with the buttons, a double-click, a pinch, or Ctrl-scroll; drag to pan. Click a district for its representatives, a state for its senators. Delegations, under the House map: a dot a seat, a block a State; hover a dot for its district, click a dot to open it; then click a district to select it, double-click to go there; double-click white space to come back.</p>')
@@ -305,11 +307,12 @@ def fmt_date(d):
 
 
 def geo_subset(geo, cs):
-    """The shapes the given Congresses use, plus state outlines and centers."""
+    """The shapes the given Congresses use, fine and coarse, plus state outlines and centers."""
     keys = {k for c in cs for st in geo["congress"][str(c)].values() for k in st.values()}
     return {"shapes": {k: geo["shapes"][k] for k in keys},
+            "coarse": {k: geo["coarse"][k] for k in keys},
             "congress": {str(c): geo["congress"][str(c)] for c in cs},
-            "states": geo["states"], "centers": geo["centers"]}
+            "states": geo["states"], "statesC": geo["statesC"], "centers": geo["centers"]}
 
 
 ASSETS = os.path.join(store.ROOT, "templates", "congress.html")

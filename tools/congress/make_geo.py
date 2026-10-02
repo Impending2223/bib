@@ -1,8 +1,10 @@
 """Project, simplify, and dedupe district shapes for the 87th-93rd Congresses -> congress/geo.json
 
-Usage: python3 tools/congress/make_geo.py PATH/TO/congressional-district-boundaries [tolerance]
+Usage: python3 tools/congress/make_geo.py PATH/TO/congressional-district-boundaries [tolerance [coarse]]
   (a clone of https://github.com/JeffreyBLewis/congressional-district-boundaries; only the
   GeoJson files covering Congresses 87-93 are needed). Needs shapely and pyproj. Takes ~6 minutes.
+Writes each shape twice: fine (`shapes`, `states`; default 0.01) for close zoom, coarse
+(`coarse`, `statesC`; default 0.12) for the full map, where the pages draw first.
 """
 import json, glob, re, os, sys
 from collections import defaultdict
@@ -11,6 +13,7 @@ from shapely.ops import unary_union, transform
 from pyproj import Transformer
 SRC = os.path.join(sys.argv[1] if len(sys.argv) > 1 else '../congressional-district-boundaries', 'GeoJson') + '/'
 TOL = float(sys.argv[2]) if len(sys.argv) > 2 else 0.01
+TOLC = float(sys.argv[3]) if len(sys.argv) > 3 else 0.12
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 ABBR = dict(Alabama='AL', Alaska='AK', Arizona='AZ', Arkansas='AR', California='CA', Colorado='CO', Connecticut='CT', Delaware='DE',
             Florida='FL', Georgia='GA', Hawaii='HI', Idaho='ID', Illinois='IL', Indiana='IN', Iowa='IA', Kansas='KS', Kentucky='KY',
@@ -61,6 +64,7 @@ for f in glob.glob(SRC + '*.geojson'):
     m = re.search(r'GeoJson/(.+)_(\d{3})_to_(\d{3})\.geojson$', f)
     files[ABBR.get(m.group(1), m.group(1))].append((int(m.group(2)), int(m.group(3)), f))
 shapes = {}       # key -> path
+coarse = {}       # key -> path, at TOLC
 congress = {}     # c -> {st: {district: key}}
 cache = {}
 def load(f, st):
@@ -73,6 +77,7 @@ def load(f, st):
         cache[f] = {d: unary_union(v) for d, v in feats.items()}
     return cache[f]
 outline = {}
+outlineC = {}
 for c in range(87, 94):
     congress[c] = {}
     for st, lst in files.items():
@@ -88,6 +93,7 @@ for c in range(87, 94):
                     g = unary_union(list(load(f, st).values())); d = 0
                 if key not in shapes:
                     shapes[key] = path(g.simplify(TOL, preserve_topology=True))
+                    coarse[key] = path(g.simplify(TOLC, preserve_topology=True))
                 m[d] = key
                 if st not in outline and c == 87:
                     pass
@@ -101,10 +107,12 @@ for st, lst in files.items():
         gs += list(load(f, st).values())
     u = unary_union([g.buffer(0.3) for g in gs]).buffer(-0.3)
     outline[st] = path(u.simplify(TOL, preserve_topology=True))
+    outlineC[st] = path(u.simplify(TOLC, preserve_topology=True))
     rp = u.representative_point(); cen = u.centroid
     outline[st + '@'] = [round(cen.x, 1), round(cen.y, 1)]
 os.makedirs(os.path.join(ROOT, 'congress'), exist_ok=True)
-json.dump({'shapes': shapes, 'congress': congress, 'states': {k: v for k, v in outline.items() if '@' not in k},
+json.dump({'shapes': shapes, 'coarse': coarse, 'congress': congress,
+           'states': {k: v for k, v in outline.items() if '@' not in k}, 'statesC': outlineC,
            'centers': {k[:-1]: v for k, v in outline.items() if '@' in k}},
           open(os.path.join(ROOT, 'congress', 'geo.json'), 'w'), separators=(',', ':'))
 print(len(shapes), os.path.getsize(os.path.join(ROOT, 'congress', 'geo.json')) / 1e6, 'MB')
