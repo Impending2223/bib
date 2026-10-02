@@ -142,13 +142,21 @@ details.cgr tr:target td,details.cgr tr.hit td{background:var(--hl-bg);color:var
     var hint=ch==='h'?'Click a district for its representatives.':'Click a state for its senators.';
     info.textContent=hint;
     fig.appendChild(foot);
-    var DHINT='One dot a seat. Hover a dot for its district; click to go to it. Double-click white space to come back.';
+    var DHINT='One dot a seat. Hover a dot for its district; click a dot to open it. Then click a district to select it, double-click to go there. Double-click white space to come back.';
     function isDots(){return fig.classList.contains('dots');}
-    function home(){z.reset(); pin=null; hi.innerHTML=''; info.textContent=isDots()?DHINT:hint;}
+    // the dots stay until one is clicked; then the districts show, until home
+    function openDistricts(on){blocks.classList.toggle('faded',on); fig.classList.toggle('zoomed',on); opened=on;}
+    var opened=false;
+    function home(){z.reset(); pin=null; hi.innerHTML=''; openDistricts(false); info.textContent=isDots()?DHINT:hint;}
+    function go(t){pin=t; show(t); say(t); z.to(bbox(t._shape));}
     // double-click on white space (water, or land outside the States) goes home; on a shape, the
     // delegations view does nothing more than the click did, the districts view zooms in
-    var z=zoom(svg,g,function(s){ blocks.classList.toggle('faded',s>1.5); fig.classList.toggle('zoomed',s>1.5); },
-      function(e){ var t=e.target.closest&&e.target.closest('[data-row],path.b,path.d'); if(!t){home();return true;} return isDots(); });
+    var z=zoom(svg,g,null,
+      function(e){ var t=e.target.closest&&e.target.closest('[data-row],path.b,path.d'); if(!t){home();return true;}
+        if(!isDots()) return false;
+        // an opened district view: double-click a district to go there
+        if(opened&&t._shape&&!t.classList.contains('dot')) go(t);
+        return true; });
     bar.addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;var f=+b.dataset.z;if(!f)home();else z.by(f);});
     function say(t){info.innerHTML='';info.appendChild(document.createTextNode(t.getAttribute('data-who')+' '));
       var a=document.createElement('a'); a.href='#'+t.getAttribute('data-row'); a.textContent='Roster ↓'; info.appendChild(a);}
@@ -156,8 +164,10 @@ details.cgr tr:target td,details.cgr tr.hit td{background:var(--hl-bg);color:var
     svg.addEventListener('click',function(e){
       if(z.moved())return; var t=e.target.closest('[data-row]'); if(!t)return;
       say(t);
-      // in the delegations view a dot, or a district once zoomed, is highlighted and centered
-      if(isDots()&&t._shape){ pin=t; show(t); z.to(bbox(t._shape)); }
+      if(!isDots()||!t._shape) return;
+      // a dot opens its district; once open, a click on a district selects it
+      if(t.classList.contains('dot')){ go(t); openDistricts(true); }
+      else if(opened){ pin=t; show(t); }
     });
     function show(t){hi.innerHTML=''; if(t&&t._shape) hi.appendChild(el('path',{d:t._shape,'class':'h '+cls(t._p)}));}
     if(ch!=='h') return;
@@ -195,7 +205,7 @@ details.cgr tr:target td,details.cgr tr.hit td{background:var(--hl-bg);color:var
       if(v==='k'&&!DOT) buildBlocks();
       fig.classList.toggle('dots',v==='k');
       svg._vb=(v==='k'?VBD:VB).slice(); svg.setAttribute('viewBox',svg._vb.join(' '));
-      pin=null; hi.innerHTML=''; z.reset();
+      pin=null; hi.innerHTML=''; z.reset(); openDistricts(false);
       info.textContent=v==='k'?DHINT:hint;
       var cap=fig.querySelector('figcaption'); if(cap) cap.textContent=v==='k'?'House, by delegation':'House, by district';
     }
