@@ -53,13 +53,15 @@ details.cgr tr:target td,details.cgr tr.hit td{background:var(--hl-bg);color:var
 <script>
 (function(){
   var G=JSON.parse(document.getElementById('cggeo').textContent), NS='http://www.w3.org/2000/svg';
+  // a blank band above the map, so the title sits on white space until the map is moved
+  var VB=[0,-60,960,660];
   function el(n,a){var e=document.createElementNS(NS,n);for(var k in a)e.setAttribute(k,a[k]);return e;}
   function cls(p){return p==='D'?'pD':p==='R'?'pR':p==='V'?'pV':'pO';}
   function link(id,child,title){child.setAttribute('data-row',id);child.setAttribute('data-who',title);var t=el('title');t.textContent=title;child.appendChild(t);return child;}
   function who(m){return m.n+(m.p==='V'?'':' ('+m.p+')');}
   var ST={AL:'Ala.',AK:'Alaska',AZ:'Ariz.',AR:'Ark.',CA:'Calif.',CO:'Colo.',CT:'Conn.',DE:'Del.',FL:'Fla.',GA:'Ga.',HI:'Hawaii',ID:'Idaho',IL:'Ill.',IN:'Ind.',IA:'Iowa',KS:'Kans.',KY:'Ky.',LA:'La.',ME:'Maine',MD:'Md.',MA:'Mass.',MI:'Mich.',MN:'Minn.',MS:'Miss.',MO:'Mo.',MT:'Mont.',NE:'Nebr.',NV:'Nev.',NH:'N.H.',NJ:'N.J.',NM:'N.Mex.',NY:'N.Y.',NC:'N.C.',ND:'N.Dak.',OH:'Ohio',OK:'Okla.',OR:'Oreg.',PA:'Pa.',RI:'R.I.',SC:'S.C.',SD:'S.Dak.',TN:'Tenn.',TX:'Tex.',UT:'Utah',VT:'Vt.',VA:'Va.',WA:'Wash.',WV:'W.Va.',WI:'Wis.',WY:'Wyo.'};
   function draw(fig,c,seats){
-    var ch=fig.dataset.chamber, svg=el('svg',{viewBox:'0 0 960 600',role:'img','aria-label':(ch==='h'?'House':'Senate')+' map'});
+    var ch=fig.dataset.chamber, svg=el('svg',{viewBox:VB.join(' '),role:'img','aria-label':(ch==='h'?'House':'Senate')+' map'});
     var g=el('g'); svg.appendChild(g);
     var cong=G.congress[c], dots=[];
     Object.keys(cong).forEach(function(st){
@@ -96,7 +98,7 @@ details.cgr tr:target td,details.cgr tr.hit td{background:var(--hl-bg);color:var
     var bar=document.createElement('div'); bar.className='cgz';
     bar.innerHTML='<button type="button" data-z="1.8" aria-label="Zoom in">+</button><button type="button" data-z="0.55" aria-label="Zoom out">&minus;</button><button type="button" data-z="0" aria-label="Reset">&#8634;</button>';
     fig.appendChild(bar);
-    var info=document.createElement('p'); info.className='cgi'; info.textContent='Click a district or state for its member.';
+    var info=document.createElement('p'); info.className='cgi'; info.textContent=ch==='h'?'Click a district for its representatives.':'Click a state for its senators.';
     fig.appendChild(info);
     var z=zoom(svg,g);
     bar.addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;var f=+b.dataset.z;if(!f)z.reset();else z.by(f);});
@@ -109,7 +111,7 @@ details.cgr tr:target td,details.cgr tr.hit td{background:var(--hl-bg);color:var
   function zoom(svg,g){
     var s=1,tx=0,ty=0,drag=null,moved=0,pts={};
     function apply(){g.setAttribute('transform','translate('+tx+' '+ty+') scale('+s+')');}
-    function local(e){var r=svg.getBoundingClientRect();return [(e.clientX-r.left)*960/r.width,(e.clientY-r.top)*600/r.height];}
+    function local(e){var r=svg.getBoundingClientRect();return [VB[0]+(e.clientX-r.left)*VB[2]/r.width,VB[1]+(e.clientY-r.top)*VB[3]/r.height];}
     function zoomAt(p,f){var ns=Math.max(1,Math.min(40,s*f));tx=p[0]-(p[0]-tx)*ns/s;ty=p[1]-(p[1]-ty)*ns/s;s=ns;if(s===1){tx=ty=0;}apply();}
     svg.addEventListener('wheel',function(e){if(!(e.ctrlKey||e.metaKey||s>1))return;e.preventDefault();zoomAt(local(e),Math.exp(-e.deltaY*0.002));},{passive:false});
     svg.addEventListener('pointerdown',function(e){pts[e.pointerId]=local(e);drag=local(e);moved=0;});
@@ -124,7 +126,7 @@ details.cgr tr:target td,details.cgr tr.hit td{background:var(--hl-bg);color:var
     function up(e){delete pts[e.pointerId];drag=null;}
     svg.addEventListener('pointerup',up);svg.addEventListener('pointercancel',up);
     svg.addEventListener('dblclick',function(e){e.preventDefault();zoomAt(local(e),2.5);});
-    return {by:function(f){zoomAt([480,300],f);},reset:function(){s=1;tx=ty=0;apply();},moved:function(){return moved>4;}};
+    return {by:function(f){zoomAt([VB[0]+VB[2]/2,VB[1]+VB[3]/2],f);},reset:function(){s=1;tx=ty=0;apply();},moved:function(){return moved>4;}};
   }
   function open(id){var r=document.getElementById(id);if(r){var d=r.closest('details');if(d)d.open=true;r.classList.add('hit');setTimeout(function(){r.classList.remove('hit');},2000);}}
   document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href^="#cg"]');if(a)open(a.getAttribute('href').slice(1));},true);
