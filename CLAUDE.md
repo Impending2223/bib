@@ -257,6 +257,13 @@ from Lewis et al.'s district files by `tools/congress/make_geo.py` (needs
 shapely and pyproj; the build does not). Pointers match members to Part III by
 surname and first given name (with common short forms: Sam, Bill, Mike).
 
+The maps label a member by surname alone; by initials and surname where the
+surname is shared in that Congress (H.T. Johnson, A.W. Johnson); by full given
+names (the `given` field) where the initials are shared too (James Thomas and
+Joel Thomas Broyhill). The bars split the Democrats, non-Southern then Southern:
+the eleven Southern States, the thirteen represented in the Confederate States
+Congress less Missouri and Kentucky.
+
 ## Publishing
 
 The site is GitHub Pages: https://impending2223.github.io/bib/ (the compiled

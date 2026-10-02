@@ -169,41 +169,83 @@ class Pointers:
 
 # ---------------------------------------------------------------- the block
 
+SOUTH_LINE = ("The eleven Southern States: the thirteen States represented in the Confederate States Congress, "
+              "less Missouri and Kentucky.")
+
+
 def bar(label, rows, senate):
     n = len(rows)
-    cnt = Counter(r.get("party", "vacant") if not r.get("vacant") else "vacant" for r in rows)
-    order = ["D", "ID", "I", "C", "vacant", "R"]
+    def kind(r):
+        if r.get("vacant"):
+            return "vacant"
+        if r["party"] == "D":
+            return "Ds" if r["st"] in SOUTH else "Dn"
+        return r["party"]
+    cnt = Counter(kind(r) for r in rows)
+    names = {"Dn": "Non-Southern Democrats", "Ds": "Southern Democrats", "vacant": "Vacant"}
     x, segs = 0.0, []
     W = 1000
-    for p in order:
+    for p in ["Dn", "Ds", "ID", "I", "C", "vacant", "R"]:
         k = cnt.get(p, 0)
         if not k:
             continue
         w = W * k / n
-        segs.append(f'<rect class="p{p}" x="{x:.1f}" y="18" width="{w:.1f}" height="30"><title>{esc(PARTY.get(p, "Vacant"))}: {k}</title></rect>')
+        segs.append(f'<rect class="p{p}" x="{x:.1f}" y="18" width="{w:.1f}" height="30"><title>{esc(names.get(p, PARTY.get(p, p)))}: {k}</title></rect>')
         if w > 40:
-            segs.append(f'<text class="bn{" lt" if p in ("D", "R") else ""}" x="{x + (8 if p != "R" else w - 8):.1f}" y="38" text-anchor="{"start" if p != "R" else "end"}">{k}</text>')
+            segs.append(f'<text class="bn b{p}" x="{x + (8 if p != "R" else w - 8):.1f}" y="38" text-anchor="{"start" if p != "R" else "end"}">{k}</text>')
         x += w
     maj = n // 2 + 1
     two3 = -(-2 * n // 3)
-    marks = [(W * n / 2 / n, f"{maj}: majority"), (W * 2 / 3, f"{two3}: two-thirds"), (W / 3, "")]
+    marks = [(W / 2, f"{maj}: majority"), (W * 2 / 3, f"{two3}: two-thirds"), (W / 3, "")]
     lines = []
     for pos, txt in marks:
         lines.append(f'<line class="mk" x1="{pos:.1f}" x2="{pos:.1f}" y1="12" y2="54"/>')
         if txt:
             lines.append(f'<text class="ml" x="{pos:.1f}" y="9" text-anchor="middle">{txt}</text>')
-    south = sum(1 for r in rows if r.get("party") == "D" and r["st"] in SOUTH)
-    parts = [f"{cnt.get(p)} {PARTY[p] if cnt.get(p) == 1 else PARTY[p] + 's'}" for p in ("D", "R", "C", "I", "ID") if cnt.get(p)]
+    lines.append(f'<text class="ml" x="{W / 3:.1f}" y="66" text-anchor="middle">two-thirds from the right</text>')
+    d = cnt.get("Dn", 0) + cnt.get("Ds", 0)
+    parts = [f"{d} Democrats ({cnt.get('Dn', 0)} non-Southern, {cnt.get('Ds', 0)} Southern)"]
+    parts += [f"{cnt.get(p)} {PARTY[p] if cnt.get(p) == 1 else PARTY[p] + 's'}" for p in ("R", "C", "I", "ID") if cnt.get(p)]
     if cnt.get("vacant"):
         parts.append(f"{cnt['vacant']} vacant")
-    cap = f'{label}, {n} seats: ' + ", ".join(parts) + f". Of the Democrats, {south} from the eleven Southern states."
-    lines.append(f'<text class="ml" x="{W / 3:.1f}" y="66" text-anchor="middle">two-thirds from the right</text>')
+    cap = f'{label}, {n} seats: ' + ", ".join(parts) + "."
     if senate:
         cap += " The two-thirds line is both the veto override and cloture (Rule XXII as amended in 1959: two-thirds of those present and voting)."
     else:
         cap += " The two-thirds line is the veto override (two-thirds of those present and voting, here of the whole House)."
     return (f'<figure class="cgbar"><svg viewBox="0 -4 1000 74" role="img" aria-label="{esc(cap)}">'
             + "".join(segs) + "".join(lines) + f'</svg><figcaption>{esc(cap)}</figcaption></figure>')
+
+
+def initials(given):
+    return "".join(w[0] + "." for w in given.replace(".", " ").split())
+
+
+def map_labels(rows):
+    """Surname alone; given-name initials where a surname is shared in this Congress;
+    full given names where the initials are shared too."""
+    def parts(r):
+        bare = re.sub(r"\s*\([^)]*\)", "", r["name"])
+        p = [x.strip() for x in bare.split(",")]
+        return p[0], r.get("given") or (p[1] if len(p) > 1 else ""), ", ".join(p[2:])
+    people = [r for r in rows if r.get("name")]
+    by_sur = defaultdict(list)
+    for r in people:
+        by_sur[parts(r)[0]].append(r)
+    out = {}
+    for sur, rs in by_sur.items():
+        if len(rs) == 1:
+            out[id(rs[0])] = sur
+            continue
+        by_ini = defaultdict(list)
+        for r in rs:
+            by_ini[initials(parts(r)[1])].append(r)
+        for ini, rr in by_ini.items():
+            for r in rr:
+                _, given, suffix = parts(r)
+                first = given if len(rr) > 1 else ini
+                out[id(r)] = f"{first} {sur}" + (f" {suffix}" if suffix and len(rr) > 1 else "")
+    return out
 
 
 def block(c, data, geo, ptr, href, rid):
@@ -213,13 +255,15 @@ def block(c, data, geo, ptr, href, rid):
     out.append(f'<p class="cgh">{ordinal(c)} Congress at its opening, {esc(fmt_date(data["opened"]))}</p>')
     out.append(bar("House", house, False))
     out.append(bar("Senate", senate, True))
+    out.append(f'<p class="cgsouth">{esc(SOUTH_LINE)}</p>')
+    lab = map_labels(house + senate)
     seats = {"h": defaultdict(list), "s": defaultdict(list)}
     for r in house:
         seats["h"][r["st"]].append({"d": r["d"], "p": "V" if r.get("vacant") else r["party"],
-                                    "n": r.get("name", "Vacant"), "id": rid(c, "h", r["st"], r["d"])})
+                                    "n": lab.get(id(r), "Vacant"), "id": rid(c, "h", r["st"], r["d"])})
     for r in senate:
         seats["s"][r["st"]].append({"cl": r["cl"], "p": "V" if r.get("vacant") else r["party"],
-                                    "n": r.get("name", "Vacant"), "id": rid(c, "s", r["st"], r["cl"])})
+                                    "n": lab.get(id(r), "Vacant"), "id": rid(c, "s", r["st"], r["cl"])})
     out.append(f'<script type="application/json" class="cgseats">{json.dumps(seats, ensure_ascii=False, separators=(",", ":"))}</script>')
     out.append('<div class="cgmaps">'
                f'<figure class="cgmap" data-chamber="h"><figcaption>House, by district</figcaption></figure>'
@@ -228,7 +272,8 @@ def block(c, data, geo, ptr, href, rid):
                '<span class="sw pO"></span>Other <span class="sw pV"></span>Vacant <span class="sw pX"></span>Split delegation. '
                'Dots: at-large seats beside districts. Zoom with the buttons, a double-click, a pinch, or Ctrl-scroll; drag to pan. Click a district or state for its member.</p>')
     for ch, rows, label in (("h", house, "House"), ("s", senate, "Senate")):
-        out.append(f'<details class="cgr"><summary>{label} members, {len(rows)}, by state</summary><table>')
+        out.append(f'<details class="cgr"><summary>{label} members, {len(rows)}, by state</summary><table>'
+                   '<colgroup><col class="c1"><col class="c2"><col class="c3"><col class="c4"></colgroup>')
         out.append(f'<thead><tr><th>{"District" if ch == "h" else "Class"}</th><th>Member</th><th>Party</th><th>In the series</th></tr></thead><tbody>')
         bystate = defaultdict(list)
         for r in rows:
