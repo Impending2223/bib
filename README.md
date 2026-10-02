@@ -18,6 +18,7 @@ https://impending2223.github.io/bib/ on every push to `main`
 | Congress, the nation, and the states, 1969–74 (Cong.) | https://impending2223.github.io/bib/cong.html |
 | Watergate, 1971–74 (Wg.) | https://impending2223.github.io/bib/wg.html |
 | Vietnam and the American war, 1945–75 (Viet.) | https://impending2223.github.io/bib/vn.html |
+| Each Congress at its opening, 87th–93rd: party bars, House and Senate maps, every member | https://impending2223.github.io/bib/congress.html |
 
 The claude.ai artifacts named in `series.yaml` are copies as of Oct. 1, 2026,
 before the style revision. They are no longer updated.

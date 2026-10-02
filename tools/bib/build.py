@@ -488,6 +488,9 @@ def build_series(series):
     home.append('<h2 id="home--nx" data-short="Names">Names</h2><ol class="e lists"><li><a class="lk" href="#nx--top">'
                 f'<span class="ab">Names</span><span class="tt">Every person across the {NUMBERS.get(len(series.lists), len(series.lists))} lists, merged</span></a>'
                 f'<span class="r">{n_people} names</span></li></ol>')
+    home.append('<h2 id="home--cg" data-short="Congress">Congress</h2><ol class="e lists"><li><a class="lk" href="congress.html">'
+                '<span class="ab">Congress</span><span class="tt">Each Congress at its opening, 1961–1973: party bars, House and Senate maps, every member</span></a>'
+                '<span class="r">87th–93rd</span></li></ol>')
     home.append("</section>")
 
     page = open(os.path.join(TEMPLATES, "series.html"), encoding="utf-8").read()
@@ -518,16 +521,31 @@ def _section_series(series, lst, sec, linker, li_extra):
 def run(series, which=None):
     os.makedirs(OUT, exist_ok=True)
     written = []
-    keys = [which] if which and which != "series" else ([] if which == "series" else list(series.lists))
+    keys = [which] if which and which not in ("series", "congress") else ([] if which in ("series", "congress") else list(series.lists))
+    from . import congress
+    linker = None
     for k in keys:
         path = os.path.join(OUT, f"{k}.html")
+        page = build_list(series, k)
+        if series.lists[k].kind == "calendar":
+            linker = linker or Linker(series)
+            page = congress.inject(page, series, linker, "list")
         with open(path, "w", encoding="utf-8") as f:
-            f.write(build_list(series, k))
+            f.write(page)
         written.append(path)
     if which in (None, "series"):
         page, linker = build_series(series)
+        page = congress.inject(page, series, linker, "series")
         path = os.path.join(OUT, "series.html")
         with open(path, "w", encoding="utf-8") as f:
             f.write(page)
         written.append(path)
+    if which in (None, "congress"):
+        linker = linker or Linker(series)
+        page = congress.page(series, linker, os.path.join(TEMPLATES, "list.html"))
+        if page:
+            path = os.path.join(OUT, "congress.html")
+            with open(path, "w", encoding="utf-8") as f:
+                f.write(page)
+            written.append(path)
     return written

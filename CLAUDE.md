@@ -65,8 +65,12 @@ series.yaml               the lists: key, abbreviation, old artifact URL
 lists/<key>/list.yaml     a list's title, intro paragraphs, and outline (sections → files)
 lists/<key>/<file>.yaml   one section's entries, in display order (II.D.yaml, apr.yaml)
 inbox/                    patch files waiting to be merged
+congress/<NN>.yaml        each Congress at its opening (87–93): House by state and
+                          district (0 = at large), Senate by state and class
+congress/geo.json         district and state shapes, projected and simplified
 build/                    generated pages (git-ignored)
 tools/bib/                the code behind ./bib
+tools/congress/           one-time scripts that made congress/ (see below)
 ```
 
 | key  | cited as  | list                                         |
@@ -235,6 +239,23 @@ is also in that list.
 
 A deliberate exception to a `check` warning is tagged `ok:<rule>` on the
 entry (the rule name is printed in brackets), e.g. `ok:thread-first`.
+
+## Congress at each opening
+
+`./bib build` also draws each Congress at its opening: party bars (majority and
+two-thirds lines), a House map by district, a Senate map by state, and rosters
+by state with pointers to Part III and the calendar entries that name each
+member. All seven are on `build/congress.html`. A calendar entry tagged
+`congress:<NN>` carries that Congress's block in `cal.html` and the reader;
+now the Jan. 3, 1961 and Jan. 3, 1963 entries.
+
+The rosters come from unitedstates/congress-legislators by
+`tools/congress/make_rosters.py`, which holds the hand corrections (seats vacant
+at the opening, terms missing from the source, notes). Fix a member there and
+rerun it, or edit `congress/<NN>.yaml` directly for a one-off. The shapes come
+from Lewis et al.'s district files by `tools/congress/make_geo.py` (needs
+shapely and pyproj; the build does not). Pointers match members to Part III by
+surname and first given name (with common short forms: Sam, Bill, Mike).
 
 ## Publishing
 
