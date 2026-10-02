@@ -264,9 +264,10 @@ names (the `given` field) where the initials are shared too (James Thomas and
 Joel Thomas Broyhill). The House map opens in Delegations, its default view: a dot a
 seat, a block a State, set on the State or, for VT, NH, MA, RI, CT, NJ, DE and MD,
 in a column off the coast with two-letter codes and leader lines. The block
-positions are the ON and OFF tables in `templates/congress.html`. Clicking a dot
-zooms to its district and hides the dots; clicking another district moves there;
-a double-click on white space (water, or land outside the States) goes back. Map labels use
+positions are the ON and OFF tables in `templates/congress.html`. The dots stay through
+zooming until one is clicked: that zooms to its district and shows the districts.
+Then a click selects a district, a double-click goes there, and a double-click on
+white space (water, or land outside the States) goes back. Map labels use
 the two-letter postal codes. The bars split the Democrats, non-Southern then Southern:
 the eleven Southern States, the thirteen represented in the Confederate States
 Congress less Missouri and Kentucky.
