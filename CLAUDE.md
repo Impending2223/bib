@@ -68,6 +68,8 @@ inbox/                    patch files waiting to be merged
 congress/<NN>.yaml        each Congress at its opening (87–93): House by state and
                           district (0 = at large), Senate by state and class
 congress/geo.json         district and state shapes, projected and simplified
+daybook/<YYYY-MM>.yaml    every Public Papers (APP) and FRUS document by date (generated)
+daybook/abstracts.yaml    one-sentence abstracts, keyed by document (kept by hand or agent)
 build/                    generated pages (git-ignored)
 tools/bib/                the code behind ./bib
 tools/congress/           one-time scripts that made congress/ (see below)
@@ -318,6 +320,34 @@ tools/bib/indicators.py       renders them (ORDER, GROUP) and checks them
   and is never written to the repo. The build needs no network.
 - `check` fails on a bad period, a first-reported figure without a release
   date, or a transcribed figure without a source.
+
+## The day's executive documents
+
+`./bib build` writes `build/days-<YYYY-MM>.html`, one page per calendar month, and
+`build/days.html`, the index. Every day from Jan. 1, 1961 to Jan. 3, 1963 gets a heading,
+a link to that day's *New York Times* in TimesMachine (by date only; none during the
+newspaper strike, Dec. 8, 1962–Mar. 31, 1963), the calendar entries that open on it, the
+President's documents, and the FRUS documents. Each calendar month links to its page.
+
+```
+tools/daybook/make_daybook.py   writes daybook/<YYYY-MM>.yaml (needs the network; the build does not)
+tools/bib/daybook.py            renders the pages (STYLE notes at the top) and checks the data
+```
+
+- The President: APP's documents by date (Public Papers items, executive orders,
+  proclamations), in APP's order.
+- FRUS: every volume of the 1958–60 and 1961–63 subseries, microfiche supplements
+  included, from the TEI files at github.com/HistoryAtState/frus; dated by
+  `frus:doc-dateTime-min`. Editorial notes carry only their volume's span, so each is
+  filed under the document before it in its volume. Within a day, by volume and number.
+- Authors: the President for APP; for FRUS the sender in the heading (the name in
+  parentheses where there is one), else the drafter in the source note, else none.
+  Titles are the sources' own. Nothing is read or summarized by the generator.
+- Abstracts go in `daybook/abstracts.yaml` (`key: sentence`), never in the generated
+  files, so a rerun keeps them. Keys: `app:<slug>`, `frus:<volume>/<dN>`. `check` fails
+  on an abstract whose key is not in the daybook.
+- To extend the span, change FROM/TO in the script and add calendar sections; pages
+  follow the calendar's dated sections.
 
 ## Publishing
 
