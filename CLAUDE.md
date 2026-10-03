@@ -122,7 +122,8 @@ at that line to edit, reading only that section.
   aliases: [kja.old-id]                # ids folded into this one by ./bib combine
 ```
 
-Calendar entries have no `s` (the build makes "Apr. 15–19 (Cuba)"):
+Calendar entries have no `s` (the build makes the rubric, "Cuba, Apr. 15–19", and files
+the entry under its first day):
 
 ```yaml
 - id: cal.1961-04-15.cuba              # cal.<date>.<thread>, -2 if taken
@@ -321,17 +322,20 @@ tools/bib/indicators.py       renders them (ORDER, GROUP) and checks them
 - `check` fails on a bad period, a first-reported figure without a release
   date, or a transcribed figure without a source.
 
-## The day's executive documents
+## The calendar by day
 
-`./bib build` writes `build/days-<YYYY-MM>.html`, one page per calendar month, and
-`build/days.html`, the index. Every day from Jan. 1, 1961 to Jan. 3, 1963 gets a heading,
-a link to that day's *New York Times* in TimesMachine (by date only; none during the
-newspaper strike, Dec. 8, 1962–Mar. 31, 1963), the calendar entries that open on it, the
-President's documents, and the FRUS documents. Each calendar month links to its page.
+Each dated section of the calendar (a month) is laid out by day, in `cal.html` and the
+series reader alike: the month's undated entries, then every day from the section's first
+to its last. A day shows its date, "The *Times*" under it (a TimesMachine link by date
+only; "No *Times* (strike)" from Dec. 8, 1962 to Mar. 31, 1963), the entries that begin
+that day, each opened by its thread as a rubric (muted small capitals, no indent; the date
+added for a range or a month-only entry), a "Continuing" pointer on each later day of a
+ranged entry, and the day's documents, closed by default, with "Expand all" and
+"Collapse all" under each month heading.
 
 ```
 tools/daybook/make_daybook.py   writes daybook/<YYYY-MM>.yaml (needs the network; the build does not)
-tools/bib/daybook.py            renders the pages (STYLE notes at the top) and checks the data
+tools/bib/daybook.py            lays the calendar out by day (STYLE notes at the top) and checks the data
 ```
 
 - The President: APP's documents by date (Public Papers items, executive orders,
@@ -346,7 +350,7 @@ tools/bib/daybook.py            renders the pages (STYLE notes at the top) and c
 - Abstracts go in `daybook/abstracts.yaml` (`key: sentence`), never in the generated
   files, so a rerun keeps them. Keys: `app:<slug>`, `frus:<volume>/<dN>`. `check` fails
   on an abstract whose key is not in the daybook.
-- To extend the span, change FROM/TO in the script and add calendar sections; pages
+- To extend the span, change FROM/TO in the script and add calendar sections; the days
   follow the calendar's dated sections.
 
 ## Publishing
