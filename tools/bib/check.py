@@ -152,6 +152,10 @@ def run(series, only=None):
     from . import indicators
     for where, msg in indicators.problems():
         add(ERROR, f"indicators/{where}.yaml", msg, "indicators")
+    # the day's executive documents (daybook/*.yaml)
+    from . import daybook
+    for where, msg in daybook.problems():
+        add(ERROR, "daybook/", f"{where}: {msg}", "daybook")
     return out
 
 

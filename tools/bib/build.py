@@ -11,7 +11,7 @@ import json
 import os
 import re
 
-from . import store
+from . import daybook, store
 from .markup import to_html, plain, italics, ITAL_RE, REF_RE
 from .refs import Refs, split_protected
 
@@ -87,14 +87,16 @@ def label_of(series, eid):
 
 # ---------------------------------------------------------------- entry markup
 
-def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans=""):
+def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", rubric=None):
+    """rubric: for a calendar entry laid out by day, the thread line that opens its first sentence."""
     parts = []
     year = (e.get("date") or "")[:4] if lst.kind == "calendar" else None
-    subj = entry_subject(lst, e)
+    subj = None if rubric is not None else entry_subject(lst, e)
     if subj:
         parts.append(f'<span class="s">{text_html(subj, "s")}</span>')
-    for c in store.as_list(e.get("c")):
-        parts.append(f'<span class="c">{text_html(year_qualified(series, c, year), "c")}</span>')
+    for i, c in enumerate(store.as_list(e.get("c"))):
+        lead = rubric if (rubric and i == 0) else ""
+        parts.append(f'<span class="c">{lead}{text_html(year_qualified(series, c, year), "c")}</span>')
     if e.get("r"):
         parts.append(f'<span class="r">{text_html(e["r"], "r")}</span>')
     n = year_qualified(series, e.get("n"), year)
@@ -123,11 +125,21 @@ def headings(lst, sec, idfmt):
     return f'<{tag} id="{idfmt(sec)}" data-short="{attr(sec.label)}">{num}{to_html(sec.title)}</{tag}>'
 
 
+def by_day(lst, sec):
+    """A dated calendar section is laid out by day (tools/bib/daybook.py)."""
+    return lst.kind == "calendar" and sec.extra.get("from") and sec.extra.get("to")
+
+
 def section_body(series, lst, sec, idfmt, text_html, li_extra=None):
     out = [headings(lst, sec, idfmt)]
     for p in sec.logic:
         out.append(f'<p class="logic">{text_html(p, "logic")}</p>')
-    if sec.entries:
+    if by_day(lst, sec):
+        def li(e, rub):
+            a, s = li_extra(sec, e) if li_extra else ("", "")
+            return entry_html(series, lst, sec, e, text_html, a, s, rub)
+        out.extend(daybook.section_days(lst, sec, li, thread_name))
+    elif sec.entries:
         out.append('<ol class="e">')
         for e in sec.entries:
             a, s = li_extra(sec, e) if li_extra else ("", "")
@@ -508,7 +520,12 @@ def _section_series(series, lst, sec, linker, li_extra):
     prose = linker.text_html(lst, sec, None)
     for p in sec.logic:
         out.append(f'<p class="logic">{prose(p, "logic")}</p>')
-    if sec.entries:
+    if by_day(lst, sec):
+        def li(e, rub):
+            a, s = li_extra(sec, e)
+            return entry_html(series, lst, sec, e, linker.text_html(lst, sec, e), a, s, rub)
+        out.extend(daybook.section_days(lst, sec, li, thread_name))
+    elif sec.entries:
         out.append('<ol class="e">')
         for e in sec.entries:
             a, s = li_extra(sec, e)
@@ -532,6 +549,7 @@ def run(series, which=None):
             linker = linker or Linker(series)
             page = congress.inject(page, series, linker, "list")
             page = indicators.inject(page, series, "list")
+            page = daybook.inject(page)
         with open(path, "w", encoding="utf-8") as f:
             f.write(page)
         written.append(path)
@@ -539,6 +557,7 @@ def run(series, which=None):
         page, linker = build_series(series)
         page = congress.inject(page, series, linker, "series")
         page = indicators.inject(page, series, "series")
+        page = daybook.inject(page)
         path = os.path.join(OUT, "series.html")
         with open(path, "w", encoding="utf-8") as f:
             f.write(page)
