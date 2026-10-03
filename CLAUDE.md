@@ -304,6 +304,10 @@ tools/bib/indicators.py       renders them (ORDER, GROUP) and checks them
   are not comparable, so each row leaves the other's column "—".
 - Changes use one basis in both value columns (CHANGE in the script): monthly
   percent, not annualized; quarterly percent at an annual rate; points; persons.
+  CPI, WPI and industrial production also carry the change from a year earlier
+  (YOY in the script; `yoy`, `yoy_now`), each column from its own figures: the
+  year-earlier value in the same release or Report (for the WPI, `year_ago` in
+  MANUAL, transcribed from the same tables), and today's series.
 - Formatting and style are settled in the STYLE notes at the top of
   `tools/bib/indicators.py` (periods "Q1 1961", "FY1962"; "$bn" and "m"; one
   scale per group; stacked receipts/expenditures/balance right-aligned; "—"

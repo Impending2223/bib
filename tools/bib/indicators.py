@@ -24,6 +24,11 @@ STYLE (settled; keep it, and fix anything that drifts from it):
  5. Changes, on the same basis in both value columns (CHANGE in the script): monthly series, percent
     from the prior month, not annualized; quarterly series, percent from the prior quarter at an
     annual rate, marked "ar". Positive changes carry "+"; minus is U+2212.
+    CPI, WPI and industrial production add the change from the same month a year earlier, in
+    parentheses, "y/y" in grey: "+0.1% (+1.0% y/y)". Each column computes it in its own figures:
+    the year-earlier figure in the same release or Report, and today's series. Not annualized
+    monthly rates: the CPI and WPI are not seasonally adjusted, and one-decimal indexes make a
+    monthly rate times twelve mostly rounding.
  6. Receipts / expenditures / balance: one line each, label left, figure right-aligned in tabular
     figures; estimates as further "Balance, est." lines. A negative balance is a deficit.
  7. "—" means no figure in this column by design (a different concept, or none published);
@@ -191,7 +196,11 @@ def chg_text(kind, c):
     return ""
 
 
-def single(sid, v, unit, kind, c, q=None):
+def yoy_text(y):
+    return f" ({signed(y)}%\u00a0{grey('y/y')})" if y is not None else ""
+
+
+def single(sid, v, unit, kind, c, q=None, yoy=None):
     """One figure in its series' form."""
     qual = f"{esc(q)} " if q else ""
     if v is None:
@@ -220,7 +229,10 @@ def single(sid, v, unit, kind, c, q=None):
     if sid == "gap-cbo":
         return f"{num(v)}% {grey('of potential')}"
     b = base_of(unit)
-    return f"{qual}{num(v)}" + (" " + grey(f"({b})") if b else "") + chg_text(kind, c)
+    out = f"{qual}{num(v)}" + (" " + grey(f"({b})") if b else "") + chg_text(kind, c)
+    if yoy is not None and c is None:
+        return out + f", {signed(yoy)}%\u00a0{grey('y/y')}"
+    return out + yoy_text(yoy)
 
 
 def stacked(fields, v, unit, ests, year, field_names):
@@ -266,7 +278,7 @@ def cell_first(sid, s, r, year):
     if s.get("fields"):
         out = stacked(s["fields"], r.get("first"), unit, r.get("est"), year, s["fields"])
         return out + (f'<br>{grey(r["note"])}' if r.get("note") else "")
-    out = single(sid, r["first"], unit, kind, r.get("chg"), r.get("q"))
+    out = single(sid, r["first"], unit, kind, r.get("chg"), r.get("q"), r.get("yoy"))
     return out + (" " + grey(f"({r['note']})") if r.get("note") else "")
 
 
@@ -281,7 +293,7 @@ def cell_now(sid, s, r):
         unit = unit or ""
         if sid == "gold-stock":
             unit = "millions of dollars"
-    return single(sid, v, unit, kind, r.get("chg_now"))
+    return single(sid, v, unit, kind, r.get("chg_now"), yoy=r.get("yoy_now"))
 
 
 def block(data, sec_from, sec_to, first_section, year):
