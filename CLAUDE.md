@@ -329,8 +329,8 @@ series reader alike: the month's undated entries, then every day from the sectio
 to its last. A day shows its date, "*New York Times*" under it (a TimesMachine link by
 date only; "No *New York Times* (strike)" from Dec. 8, 1962 to Mar. 31, 1963), the entries that begin
 that day, each under its thread as a rubric (a line of muted small capitals above the entry;
-the date added for a range or a month-only entry), a "Continuing" pointer on each later day of a
-ranged entry, and the day's documents, closed by default, with "Expand all" and
+the date added for a range or a month-only entry), a "Continuing" pointer under the date on each later
+day of a ranged entry, and the day's documents, closed by default, with "Expand all" and
 "Collapse all" under each month heading.
 
 ```
