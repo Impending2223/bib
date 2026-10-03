@@ -11,9 +11,9 @@ from an earlier day, and the day's documents in a list that opens and closes ("E
 "Collapse all" under each month heading).
 
 STYLE:
- 1. Day: "Monday, Apr. 17", bold sans; "The Times" under it, muted, linked to that day's paper
-    (by date only); during the newspaper strike, "No Times (strike)".
- 2. Entry: the thread as a rubric opening the first line, muted small capitals in sans, no indent;
+ 1. Day: "Monday, Apr. 17", bold sans; "New York Times" under it, muted, linked to that day's paper
+    (by date only); during the newspaper strike, "No New York Times (strike)".
+ 2. Entry: the thread as a rubric on its own line above the first line, muted small capitals in sans;
     other threads after a middle dot; a range or a month-only date after a comma ("Cuba, Apr.
     15–19"). The day's own date is not repeated (it shows in link previews and search).
  3. A ranged entry is filed under its first day; each later day of the range carries a muted
@@ -177,9 +177,9 @@ def section_days(lst, sec, entry_li, thread_name):
         h = [f'<div class="day" id="d{iso}"><div class="dh" role="heading" aria-level="4">'
              f'<span class="dn">{calendar.day_name[d.weekday()]}, {esc(day_label(d, d.year != lo.year))}</span>']
         if NO_TIMES[0] <= d <= NO_TIMES[1]:
-            h.append('<span class="tm">No <i>Times</i> (strike)</span>')
+            h.append('<span class="tm">No <i>New York Times</i> (strike)</span>')
         else:
-            h.append(f'<a class="tm" href="{TM.format(y=d.year, m=d.month, d=d.day)}">The <i>Times</i></a>')
+            h.append(f'<a class="tm" href="{TM.format(y=d.year, m=d.month, d=d.day)}"><i>New York Times</i></a>')
         h.append("</div>")
         if d in dated:
             h.append('<ol class="e">' + "".join(entry_li(e, rubric(lst, e, thread_name)) for e in dated[d]) + "</ol>")
@@ -202,8 +202,8 @@ STYLE = """<style>
 .day a.tm{color:var(--muted);text-decoration-color:var(--rule)}
 .day ol.e>li{padding:.45rem 0;border-bottom:0}
 .day ol.e>li+li{border-top:1px dotted var(--rule)}
-.s.rub{display:inline;font-family:var(--sans);font-size:.7rem;font-weight:600;letter-spacing:.06em;
-  text-transform:uppercase;color:var(--muted);margin:0 .45em 0 0;vertical-align:.08em}
+.s.rub{display:block;font-family:var(--sans);font-size:.7rem;font-weight:600;letter-spacing:.06em;
+  text-transform:uppercase;color:var(--muted);margin:0 0 .1rem}
 .s.rub .rw{letter-spacing:.02em}
 .day .rw.same{display:none}
 #pv .rw.same{display:inline}
