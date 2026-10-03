@@ -133,7 +133,7 @@ def docs_html(docs, ab):
     frus = [x for x in docs if x["src"] == "frus"]
     counts = []
     if ppp:
-        counts.append(f"the President {len(ppp)}")
+        counts.append(f"PPP {len(ppp)}")
     if frus:
         counts.append(f"FRUS {len(frus)}")
     body = []
@@ -200,10 +200,10 @@ STYLE = """<style>
 .day .dn{font-weight:700;font-size:.92rem}
 .day .tm{font-size:.78rem;color:var(--muted);margin-top:.05rem}
 .day a.tm{color:var(--muted);text-decoration-color:var(--rule)}
-.day ol.e>li{padding:.45rem 0;border-bottom:0}
+.day ol.e>li{padding:.8rem 0 .45rem;border-bottom:0}
 .day ol.e>li+li{border-top:1px dotted var(--rule)}
 .s.rub{display:block;font-family:var(--sans);font-size:.7rem;font-weight:600;letter-spacing:.06em;
-  text-transform:uppercase;color:var(--muted);margin:0 0 .1rem}
+  text-transform:uppercase;color:var(--muted);line-height:1.2;margin:0}
 .s.rub .rw{letter-spacing:.02em}
 .day .rw.same{display:none}
 #pv .rw.same{display:inline}
