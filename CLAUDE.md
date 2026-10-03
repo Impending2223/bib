@@ -276,6 +276,49 @@ the two-letter postal codes. The bars split the Democrats, non-Southern then Sou
 the eleven Southern States, the thirteen represented in the Confederate States
 Congress less Missouri and Kentucky.
 
+## Economic indicators
+
+`./bib build` puts a table at the head of each calendar month: the figures that
+report on that month, filed by the period they cover, not the date they were
+issued (quarters in the quarter's last month, fiscal years in June, calendar
+years in December, December 1960 in the Prologue). Each row has the figure as
+first reported, its release date, and the figure as revised today.
+
+```
+indicators/<id>.yaml          one series; rows {p, first, released, chg, unit, now, chg_now, source, est, q, note}
+tools/indicators/make_indicators.py   writes them: FRED_API_KEY=... python3 tools/indicators/make_indicators.py
+tools/bib/indicators.py       renders them (ORDER, GROUP) and checks them
+```
+
+- ALFRED initial releases: CPI, unemployment, payrolls, industrial production,
+  GNP, real GNP; the deflator is GNP over real GNP in the same release.
+- Transcribed from the *Economic Report* of the next January (page images on
+  govinfo; values and table/page in MANUAL in the script): wholesale prices,
+  the administrative and cash budgets, the federal sector of the national
+  accounts, the balance of payments. For these "first" means as reported then.
+- Today's values: FRED. Budget figures today are on the unified basis (fiscal
+  1969 on), not the old concepts; the over-all balance of payments is no longer
+  published; the gold stock has no first-reported column.
+- Output gap: the CEA's estimates then (from the Reports) and the CBO's now
+  (FRED GDPPOT against GDPC1, with its vintage), in separate rows: the concepts
+  are not comparable, so each row leaves the other's column "—".
+- Changes use one basis in both value columns (CHANGE in the script): monthly
+  percent, not annualized; quarterly percent at an annual rate; points; persons.
+  CPI, WPI and industrial production also carry the change from a year earlier
+  (YOY in the script; `yoy`, `yoy_now`), each column from its own figures: the
+  year-earlier value in the same release or Report (for the WPI, `year_ago` in
+  MANUAL, transcribed from the same tables), and today's series.
+- Formatting and style are settled in the STYLE notes at the top of
+  `tools/bib/indicators.py` (periods "Q1 1961", "FY1962"; "$bn" and "m"; one
+  scale per group; stacked receipts/expenditures/balance right-aligned; "—"
+  versus "n.a."; separate rows for incomparable concepts). Follow them, and fix
+  any table that drifts from them. Each series needs a definition in DEFS, with
+  pointers; `check` fails without one.
+- Edit the script, not the YAML, and rerun; the key comes from the environment
+  and is never written to the repo. The build needs no network.
+- `check` fails on a bad period, a first-reported figure without a release
+  date, or a transcribed figure without a source.
+
 ## Publishing
 
 The site is GitHub Pages: https://impending2223.github.io/bib/ (the compiled

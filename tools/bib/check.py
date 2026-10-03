@@ -147,6 +147,11 @@ def run(series, only=None):
                         if where:
                             add(WARN, e["id"], f"*{m.group(1)}* cited as {plain(tail)[a:b]} but found in {', '.join(where[:3])}", "cited-section")
                         break
+
+    # economic indicators (indicators/*.yaml)
+    from . import indicators
+    for where, msg in indicators.problems():
+        add(ERROR, f"indicators/{where}.yaml", msg, "indicators")
     return out
 
 
