@@ -3,6 +3,37 @@
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--pDs:#46638F;--pD:#7D9CCB;--pR:#C9847F;--pO:#A9A688;--pV:#3C424C;--stb:#15181D;--mk:#E6E8EC}}
 :root[data-theme="dark"]{--pDs:#46638F;--pD:#7D9CCB;--pR:#C9847F;--pO:#A9A688;--pV:#3C424C;--stb:#15181D;--mk:#E6E8EC}
 .cg{margin:1rem 0 .5rem;font-family:var(--sans)}
+:root{--eR4:#8A3F38;--eR3:#C47168;--eR2:#DDA19B;--eR1:#EFCFCB;--eN:#DCDEE2;--eB1:#CCD8EC;--eB2:#9AB2DA;--eB3:#6A8BC2;--eB4:#3F5F95;--eNone:#F1F2F4;--eNA:#E6E8EB}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--eR4:#E8B2AB;--eR3:#C07A72;--eR2:#8C514B;--eR1:#5A3532;--eN:#3A3F47;--eB1:#2F4364;--eB2:#4A6799;--eB3:#7896CC;--eB4:#AEC4EA;--eNone:#262A31;--eNA:#30353D}}
+:root[data-theme="dark"]{--eR4:#E8B2AB;--eR3:#C07A72;--eR2:#8C514B;--eR1:#5A3532;--eN:#3A3F47;--eB1:#2F4364;--eB2:#4A6799;--eB3:#7896CC;--eB4:#AEC4EA;--eNone:#262A31;--eNA:#30353D}
+.eR4{fill:var(--eR4)}.eR3{fill:var(--eR3)}.eR2{fill:var(--eR2)}.eR1{fill:var(--eR1)}.eN{fill:var(--eN)}.eB1{fill:var(--eB1)}.eB2{fill:var(--eB2)}.eB3{fill:var(--eB3)}.eB4{fill:var(--eB4)}.eNone{fill:var(--eNone)}
+.eNA{fill:url(#cgna)}
+.sw.eR4{background:var(--eR4)}.sw.eR3{background:var(--eR3)}.sw.eR2{background:var(--eR2)}.sw.eR1{background:var(--eR1)}.sw.eN{background:var(--eN)}.sw.eB1{background:var(--eB1)}.sw.eB2{background:var(--eB2)}.sw.eB3{background:var(--eB3)}.sw.eB4{background:var(--eB4)}.sw.eNone{background:var(--eNone);outline:1px solid var(--rule)}
+.sw.eNA{background:repeating-linear-gradient(45deg,var(--eNA) 0 3px,var(--eNone) 3px 6px)}
+.cg.el .elsum{font-size:.85rem;line-height:1.4;margin:.15rem 0}
+.cg.el .elt{margin:.5rem 0 .4rem}
+.cg.el .elkey .lk{display:none}.cg.el[data-view="r"] .elkey .lk-r,.cg.el[data-view="s"] .elkey .lk-s,.cg.el[data-view="w"] .elkey .lk-w{display:inline}
+.cg.el:not([data-view]) .elkey .lk-r{display:inline}
+.elkey .sw{margin:0 .1em 0 .5em}.elkey .lk-s .sw,.elkey .lk-w .sw{margin:0;border-radius:0}
+.elkey .lt{margin-left:.4em}
+.elsrc{font-size:.78rem;color:var(--muted);line-height:1.4}
+details.cgr.er table{font-size:.8rem}
+details.cgr.er col.c1{width:3.4rem}details.cgr.er col.c2{width:auto}details.cgr.er col.c3{width:4.6rem}details.cgr.er col.c4{width:22%}
+details.cgr.er td.ecs{padding-right:.6rem}
+details.cgr.er .ec{display:grid;grid-template-columns:1fr 4.9em 3.4em;column-gap:.35rem;padding:.05rem 0}
+details.cgr.er .ec .w .en{font-weight:700}
+details.cgr.er .ep{color:var(--muted);font-size:.72rem;white-space:nowrap}
+details.cgr.er .eln{display:block;color:var(--muted);font-size:.75rem}
+details.cgr.er .ev,details.cgr.er .es{text-align:right;font-variant-numeric:tabular-nums}
+details.cgr.er .es{color:var(--muted)}
+details.cgr.er td.em{text-align:right;font-variant-numeric:tabular-nums}
+details.cgr.er td.eno{font-size:.8rem;color:var(--note)}
+details.cgr.er tr.pk.wD td{background:color-mix(in srgb,var(--eB1) 85%,transparent)}
+details.cgr.er tr.pk.wR td{background:color-mix(in srgb,var(--eR1) 85%,transparent)}
+details.cgr.er tr.mc td{background:color-mix(in srgb,var(--eN) 45%,transparent)}
+details.cgr.er tr:target td,details.cgr.er tr.hit td{background:var(--hl-bg);color:var(--hl-ink)}
+details.cgr.er tr:target td .ep,details.cgr.er tr:target td .es,details.cgr.er tr:target td.eno,details.cgr.er tr.hit td .ep,details.cgr.er tr.hit td .es,details.cgr.er tr.hit td.eno{color:var(--hl-ink)}
+details.cgr.er td:nth-child(3){font-weight:400}
 .cg .cgh{font-weight:700;font-size:.95rem;margin:.2rem 0 .4rem}
 .cgbar{margin:.4rem 0 .9rem}
 .cgbar svg{width:100%;height:auto;display:block;overflow:visible}
@@ -62,11 +93,14 @@ details.cgr td:first-child{color:var(--muted)}
 details.cgr td:nth-child(3){font-weight:700}
 .pDt{color:var(--pD)}.pRt{color:var(--pR)}.pCt,.pIt,.pIDt{color:var(--pO)}
 .cgn{display:block;font-family:var(--serif);font-size:.85rem;color:var(--note)}
+.cgn.cgc{font-family:var(--sans);font-size:.78rem;color:var(--muted)}
 details.cgr tr:target td,details.cgr tr.hit td{background:var(--hl-bg);color:var(--hl-ink)}
 </style>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
 <pattern id="cgsplit" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
-<rect width="3" height="6" style="fill:var(--pD)"/><rect x="3" width="3" height="6" style="fill:var(--pR)"/></pattern></defs></svg>
+<rect width="3" height="6" style="fill:var(--pD)"/><rect x="3" width="3" height="6" style="fill:var(--pR)"/></pattern>
+<pattern id="cgna" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+<rect width="6" height="6" style="fill:var(--eNone)"/><rect width="2.5" height="6" style="fill:var(--eNA)"/></pattern></defs></svg>
 <script type="application/json" id="cggeo">{{geo}}</script>
 <script>
 (function(){
@@ -88,8 +122,22 @@ details.cgr tr:target td,details.cgr tr.hit td{background:var(--hl-bg);color:var
   var ORDER={D:0,ID:1,I:2,C:3,V:4,R:5};
   function el(n,a){var e=document.createElementNS(NS,n);for(var k in a)e.setAttribute(k,a[k]);return e;}
   function cls(p){return p==='D'?'pD':p==='R'?'pR':p==='V'?'pV':p==='X'?'pX':'pO';}
-  function link(id,child,title,shape,p){child._shape=shape;child._p=p;child.setAttribute('data-row',id);child.setAttribute('data-who',title);var t=el('title');t.textContent=title;child.appendChild(t);return child;}
-  function who(m){return m.n+(m.p==='V'?'':' ('+m.p+')');}
+  // election blocks: the fill follows the view (r result, s Democratic share, w swing)
+  var SHARE=[[20,'R4'],[35,'R3'],[45,'R2'],[48,'R1'],[52,'N'],[55,'B1'],[65,'B2'],[80,'B3'],[1e9,'B4']];
+  var SWING=[[-10,'R4'],[-6,'R3'],[-3,'R2'],[-1,'R1'],[1,'N'],[3,'B1'],[6,'B2'],[10,'B3'],[1e9,'B4']];
+  function bin(v,bins){for(var i=0;i<bins.length;i++)if(v<bins[i][0])return 'e'+bins[i][1];return 'e'+bins[bins.length-1][1];}
+  function fillOf(m,mode){
+    if(!mode) return cls(m.p);
+    if(mode==='r') return m.p==='D'?(m.k==='pickup'?'eB4':'eB2'):m.p==='R'?(m.k==='pickup'?'eR4':'eR2'):'pO';
+    if(mode==='s') return m.sh==null?'eNA':bin(m.sh,SHARE);
+    return m.sw==null?'eNA':bin(m.sw,SWING);
+  }
+  var KIND={pickup:'pickup',change:'new member',held:'held',new:'new seat'};
+  function evText(m){var t=[];if(m.k)t.push(KIND[m.k]);if(m.sh!=null)t.push(m.u?'unopposed':'D '+m.sh.toFixed(1)+'%');
+    if(m.sw!=null)t.push('swing '+(m.sw>0?'+':m.sw<0?'\u2212':'\u00b1')+Math.abs(m.sw).toFixed(1)+(m.swb==='state'?' (State)':''));
+    return t.length?'; '+t.join(', '):'';}
+  function link(id,child,title,shape,p,m){child._shape=shape;child._p=p;child._m=m;child.setAttribute('data-row',id);child.setAttribute('data-who',title);var t=el('title');t.textContent=title;child.appendChild(t);return child;}
+  function who(m){return m.n+(m.p==='V'?'':' ('+m.p+')')+(m.k?evText(m):'');}
   function seatName(st,m){return st+(m.d?' '+m.d:' at large')+': '+who(m);}
   // a shape is named by a ref, 'd:KEY' (a district) or 's:ST' (a State outline), and drawn coarse or fine
   function geo(ref,fine){if(!ref)return null;var k=ref.slice(2);
@@ -100,6 +148,10 @@ details.cgr tr:target td,details.cgr tr.hit td{background:var(--hl-bg);color:var
     return [x0,y0,x1,y1];}
   function draw(fig,c,seats){
     var ch=fig.dataset.chamber, svg=el('svg',{viewBox:VB.join(' '),role:'img','aria-label':(ch==='h'?'House':'Senate')+' map'});
+    var blk=fig.closest('.cg'), EV=blk&&blk.dataset.ev;
+    function mode(){return EV?(blk.dataset.view||'r'):null;}
+    function F(m){return fillOf(m,mode());}
+    function group(ms){var f={};ms.forEach(function(x){f[F(x)]=1;});var k=Object.keys(f);return k.length===1?k[0]:(k.length?'pX':(EV?'eNone':'pX'));}
     svg._vb=VB.slice();
     var frame=fig.querySelector('.cgv')||fig, fine=false, lod=[], lodT=0;
     // a path whose detail follows the zoom
@@ -125,18 +177,18 @@ details.cgr tr:target td,details.cgr tr.hit td{background:var(--hl-bg);color:var
         if(numbered.length){
           numbered.forEach(function(d){
             var mm=ms.filter(function(x){return x.d==d;})[0]; if(!mm||!G.shapes[m[d]]) return;
-            dist.appendChild(link(mm.id,shp('d:'+m[d],{'class':'d '+cls(mm.p)}),seatName(st,mm),'d:'+m[d],mm.p));
+            var e1=link(mm.id,shp('d:'+m[d],{'class':'d '+F(mm)}),seatName(st,mm),'d:'+m[d],mm.p,mm); e1._base='d'; dist.appendChild(e1);
           });
           ms.filter(function(x){return x.d==0;}).forEach(function(x){dots.push([st,x]);});
         } else {
           var k=m['0']; var ps={}; ms.forEach(function(x){ps[x.p]=1;});
-          var pk=Object.keys(ps), c2=pk.length===1?cls(pk[0]):'pX';
-          if(k&&G.shapes[k]) dist.appendChild(link(ms[0]?ms[0].id:'',shp('d:'+k,{'class':'d '+c2}),st+' at large: '+ms.map(who).join('; '),'d:'+k,pk.length===1?pk[0]:'X'));
+          var pk=Object.keys(ps), c2=EV?group(ms):(pk.length===1?cls(pk[0]):'pX');
+          if(k&&G.shapes[k]){var e2=link(ms[0]?ms[0].id:'',shp('d:'+k,{'class':'d '+c2}),st+' at large: '+ms.map(who).join('; '),'d:'+k,pk.length===1?pk[0]:'X',null); e2._base='d'; e2._ms=ms; dist.appendChild(e2);}
         }
       } else {
         var ps2={}; ms.forEach(function(x){ps2[x.p]=1;});
-        var pk2=Object.keys(ps2), c3=pk2.length===1?cls(pk2[0]):'pX';
-        if(G.states[st]) dist.appendChild(link(ms[0]?ms[0].id:'',shp('s:'+st,{'class':'d '+c3}),st+': '+ms.map(who).join('; ')));
+        var pk2=Object.keys(ps2), c3=EV?group(ms):(pk2.length===1?cls(pk2[0]):'pX');
+        if(G.states[st]){var e3=link(ms[0]?ms[0].id:'',shp('s:'+st,{'class':'d '+c3}),st+': '+(ms.length?ms.map(who).join('; '):(EV?'no election':'')),null,null,null); e3._base='d'; e3._ms=ms; dist.appendChild(e3);}
       }
     });
     // at-large seats beside districts: dots at the State's center
@@ -144,7 +196,7 @@ details.cgr tr:target td,details.cgr tr.hit td{background:var(--hl-bg);color:var
     Object.keys(bySt).forEach(function(st){
       var cxy=G.centers[st], n=bySt[st].length;
       bySt[st].forEach(function(mm,i){
-        dist.appendChild(link(mm.id,el('circle',{cx:cxy[0]+(i-(n-1)/2)*14,cy:cxy[1],r:6.5,'class':cls(mm.p)}),seatName(st,mm),'s:'+st,mm.p));
+        var e4=link(mm.id,el('circle',{cx:cxy[0]+(i-(n-1)/2)*14,cy:cxy[1],r:6.5,'class':F(mm)}),seatName(st,mm),'s:'+st,mm.p,mm); e4._base=''; dist.appendChild(e4);
       });
     });
     }
@@ -185,7 +237,11 @@ details.cgr tr:target td,details.cgr tr.hit td{background:var(--hl-bg);color:var
       if(t.classList.contains('dot')){ go(t); openDistricts(true); }
       else if(opened){ pin=t; show(t); }
     });
-    function show(t){hi.innerHTML=''; if(t&&t._shape){var h=el('path',{d:geo(t._shape,fine),'class':'h '+cls(t._p)}); h._ref=t._shape; hi.appendChild(h);}}
+    function show(t){hi.innerHTML=''; if(t&&t._shape){var h=el('path',{d:geo(t._shape,fine),'class':'h '+(EV&&t._m?F(t._m):cls(t._p))}); h._ref=t._shape; hi.appendChild(h);}}
+    // repaint every seat for the block's current view
+    fig._recolor=function(){ [].forEach.call(svg.querySelectorAll('[data-row],path.d'),function(e){
+        if(e._base==null) return; var f=e._m?F(e._m):(e._ms?group(e._ms):null); if(!f) return;
+        e.setAttribute('class',(e._base?e._base+' ':'')+f); }); show(pin); };
     if(ch!=='h'){ buildDistricts(); return; }
     // ---- the delegations view: a dot a seat, a block a State
     var DOT=null;
@@ -206,7 +262,7 @@ details.cgr tr:target td,details.cgr tr.hit td{background:var(--hl-bg);color:var
         }
         ms.forEach(function(m,i){
           var r=Math.floor(i/cols), k=i%cols, inRow=Math.min(cols,n-r*cols), shift=(cols-inRow)*P/2;
-          var d=link(m.id,el('circle',{cx:x0+shift+k*P,cy:y0+r*P,r:R,'class':'dot '+cls(m.p)}),seatName(st,m),shapeOf(st,m),m.p);
+          var d=link(m.id,el('circle',{cx:x0+shift+k*P,cy:y0+r*P,r:R,'class':'dot '+F(m)}),seatName(st,m),shapeOf(st,m),m.p,m); d._base='dot';
           blocks.appendChild(d);
         });
       });
@@ -258,8 +314,21 @@ details.cgr tr:target td,details.cgr tr.hit td{background:var(--hl-bg);color:var
               tx=V[0]+V[2]/2-s*(bb[0]+bb[2])/2; ty=V[1]+V[3]/2-s*(bb[1]+bb[3])/2; apply();}};
   }
   function open(id){var r=document.getElementById(id);if(r){var d=r.closest('details');if(d)d.open=true;r.classList.add('hit');setTimeout(function(){r.classList.remove('hit');},2000);}}
-  document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href^="#cg"]');if(a)open(a.getAttribute('href').slice(1));},true);
-  if(/^#cg/.test(location.hash))open(location.hash.slice(1));
+  document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href^="#cg"],a[href^="#e1"]');if(a)open(a.getAttribute('href').slice(1));},true);
+  if(/^#(cg|e1)/.test(location.hash))open(location.hash.slice(1));
+  // election blocks: one view switch for both maps and the key
+  [].forEach.call(document.querySelectorAll('.cg.el'),function(b){
+    var vs=(b.querySelector('[data-views]')||{dataset:{views:'r s'}}).dataset.views.split(' ');
+    var names={r:'Result',s:'Vote share',w:'Swing'};
+    var bar=document.createElement('div'); bar.className='cgt elt';
+    bar.innerHTML=vs.map(function(v){return '<button type="button" data-v="'+v+'" aria-pressed="'+(v==='r')+'">'+names[v]+'</button>';}).join('');
+    var maps=b.querySelector('.cgmaps'); maps.parentNode.insertBefore(bar,maps);
+    b.dataset.view='r';
+    bar.addEventListener('click',function(e){var t=e.target.closest('button'); if(!t) return;
+      b.dataset.view=t.dataset.v;
+      [].forEach.call(bar.children,function(x){x.setAttribute('aria-pressed',x===t?'true':'false');});
+      [].forEach.call(b.querySelectorAll('.cgmap'),function(f){if(f._recolor)f._recolor();});});
+  });
   // each map is drawn when it comes near the screen
   var figs=[];
   [].forEach.call(document.querySelectorAll('.cg'),function(b){

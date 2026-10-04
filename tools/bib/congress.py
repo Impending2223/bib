@@ -248,6 +248,30 @@ def map_labels(rows):
     return out
 
 
+FULL = {"January": "Jan.", "February": "Feb.", "March": "Mar.", "April": "Apr.", "August": "Aug.",
+        "September": "Sept.", "October": "Oct.", "November": "Nov.", "December": "Dec."}
+
+
+def changes():
+    p = os.path.join(DIR, "changes.yaml")
+    return store.load_yaml(p) if os.path.exists(p) else {}
+
+
+def change_note(x):
+    """'Died Nov. 16, 1961. Successor elected Jan. 30, 1962. Ray Roberts (D), seated Jan. 30, 1962.'"""
+    t = (x.get("reason") or "").strip()
+    if t and not t.endswith("."):
+        t += "."
+    if x.get("into"):
+        t += f" {x['into']}" + (f" ({x['into_party']})" if x.get("into_party") else "") + \
+             (f", seated {x['seated']}." if x.get("seated") and re.search(r"\d{4}", x["seated"]) else ".")
+    else:
+        t += " Not filled."
+    for k, v in FULL.items():
+        t = re.sub(r"\b" + k + r"\b", v, t)
+    return t.strip()
+
+
 def block(c, data, geo, ptr, href, rid):
     """One Congress: bars, two maps, two rosters. rid(c, chamber, st, seat) -> a row id."""
     house, senate = data["house"], data["senate"]
@@ -273,6 +297,9 @@ def block(c, data, geo, ptr, href, rid):
     out.append('<p class="cgkey"><span class="sw pD"></span>Democratic <span class="sw pR"></span>Republican '
                '<span class="sw pO"></span>Other <span class="sw pV"></span>Vacant <span class="sw pX"></span>Split delegation. '
                'Dots: at-large seats beside districts. Zoom with the buttons, a double-click, a pinch, or Ctrl-scroll; drag to pan. Click a district for its representatives, a state for its senators. Delegations, under the House map: a dot a seat, a block a State; hover a dot for its district, click a dot to open it; then click a district to select it, double-click to go there; double-click white space to come back.</p>')
+    later = defaultdict(list)
+    for x in changes().get(c, []) or []:
+        later[(x["ch"], x["st"], x["seat"])].append(x)
     for ch, rows, label in (("h", house, "House"), ("s", senate, "Senate")):
         out.append(f'<details class="cgr"><summary>{label} members, {len(rows)}, by state</summary><table>'
                    '<colgroup><col class="c1"><col class="c2"><col class="c3"><col class="c4"></colgroup>')
@@ -291,6 +318,8 @@ def block(c, data, geo, ptr, href, rid):
                     who, party = esc(r["name"]), r["party"]
                     pts = ptr.lines(r["name"], href)
                 note = f'<span class="cgn">{to_html(r["n"])}</span>' if r.get("n") else ""
+                for x in later.get((ch, r["st"], seat), []):
+                    note += f'<span class="cgn cgc">{esc(change_note(x))}</span>'
                 out.append(f'<tr id="{rid(c, ch, r["st"], seat)}"><td>{lab}</td><td>{who}{note}</td>'
                            f'<td class="p{party or "V"}t">{party}</td><td>{"; ".join(pts)}</td></tr>')
         out.append("</tbody></table></details>")
@@ -333,11 +362,21 @@ def inject(page, series, linker, mode):
     href = (lambda key, eid: f"#{eid}") if mode == "series" else (lambda key, eid: f"{key}.html#{eid}" if key != "cal" else f"#{eid}")
     rid = lambda c, ch, st, seat: f"cg{c}-{ch}-{st}-{seat}"
     used = []
+    from . import elections
+    edata = elections.load()
     for lst in series.lists.values():
         if lst.kind != "calendar":
             continue
         for sec, e in lst.entries():
             for t in e.get("tags", []):
+                m = re.match(r"^election:(\d{4})$", t)
+                if m and int(m.group(1)) in edata:
+                    y = int(m.group(1))
+                    blk = elections.block(y, edata)
+                    pat = re.compile(r'(<li id="' + re.escape(e["id"]) + r'"[^>]*>.*?)(</li>)', re.S)
+                    page, n = pat.subn(lambda mm: mm.group(1) + blk + mm.group(2), page, count=1)
+                    if n:
+                        used.append(edata[y]["congress"])
                 m = re.match(r"^congress:(\d+)$", t)
                 if m and int(m.group(1)) in data:
                     c = int(m.group(1))
@@ -347,7 +386,7 @@ def inject(page, series, linker, mode):
                     if n:
                         used.append(c)
     if used:
-        page = page.replace("</body>", assets(geo_subset(geo, used)) + "\n</body>", 1)
+        page = page.replace("</body>", assets(geo_subset(geo, sorted(set(used)))) + "\n</body>", 1)
     return page
 
 
@@ -377,8 +416,18 @@ def page(series, linker, template):
             'biography, matched on surname and first given name; and the calendar entries that name the member. '
             'The calendar runs January 1961 to January 1963.</p>',
             '<nav class="toc" aria-label="Contents">\n<h3 id="contents" style="border-top:0;margin-top:1.5rem" data-short="Contents">Contents</h3>\n<ol id="tocList"></ol>\n</nav>']
+    from . import elections
+    edata = elections.load()
+    etag = elections.tagged(series)
     for c in sorted(data):
         main.append(f'<h2 id="c{c}" data-short="{ordinal(c)}">{ordinal(c)} Congress, {YEARS[c]}</h2>')
+        y = 1960 + 2 * (c - 87)
+        if y in edata:
+            main.append(f'<h3 id="e{y}" data-short="Election of {y}">The election, {esc(fmt_date(edata[y]["date"]))}</h3>')
+            if y in etag:
+                main.append(f'<p class="logic">In the calendar: <a href="cal.html#{etag[y]["id"]}">{esc(etag[y]["when"])}, {y}</a>.</p>')
+            main.append(elections.block(y, edata))
+            main.append(f'<h3 id="o{c}" data-short="Opening">At the opening</h3>')
         if c in tagged:
             main.append(f'<p class="logic">In the calendar: <a href="cal.html#{tagged[c]["id"]}">{esc(tagged[c]["when"])}, {tagged[c]["date"][:4]}</a>.</p>')
         main.append(block(c, data[c], geo, ptr, href, rid))
