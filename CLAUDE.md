@@ -68,6 +68,8 @@ inbox/                    patch files waiting to be merged
 congress/<NN>.yaml        each Congress at its opening (87–93): House by state and
                           district (0 = at large), Senate by state and class
 congress/geo.json         district and state shapes, projected and simplified
+elections/<YYYY>.yaml     House and Senate returns, race by race (generated; readings by eye in tools/elections/read.py)
+congress/changes.yaml     departures and successors during each Congress (generated)
 daybook/<YYYY-MM>.yaml    every Public Papers (APP) and FRUS document by date (generated)
 daybook/abstracts.yaml    one-sentence abstracts, keyed by document (kept by hand or agent)
 build/                    generated pages (git-ignored)
@@ -278,6 +280,43 @@ white space (water, or land outside the States) goes back. Map labels use
 the two-letter postal codes. The bars split the Democrats, non-Southern then Southern:
 the eleven Southern States, the thirteen represented in the Confederate States
 Congress less Missouri and Kentucky.
+
+Notes under a member in the rosters at the opening give the seat's later changes: the
+departure and its date, the successor and party, the date seated (`congress/changes.yaml`,
+made by `tools/congress/make_changes.py` from Wikipedia's Congress pages, "Changes in
+membership"; check a date against the Biographical Directory where it matters).
+
+## Elections
+
+A calendar entry tagged `election:<year>` carries that election's block (now Nov. 6, 1962),
+and `build/congress.html` puts each election before the Congress it chose (1960, 1962). A
+block: seats won, pickups, and new members by chamber; House and Senate maps with three views
+(Result: held seats light, pickups dark; Vote share: the Democratic share of the two-party
+vote; Swing: its change from the seat's last election); and every race in two tables:
+candidates with party, votes and share, the margin in votes and in points of the two
+leaders' combined vote, and a note (pickup, new member, new seat, and the incumbent's fate).
+Pickups are shaded in the winner's color, other member changes in gray. Definitions are the
+STYLE notes at the top of `tools/bib/elections.py`.
+
+```
+tools/elections/make_elections.py   writes elections/<year>.yaml and senate-prior.yaml (needs network, pdftoppm, tesseract)
+tools/elections/read.py             figures read by eye from the Clerk's page images; these replace the OCR
+tools/bib/elections.py              renders the blocks and checks the data
+```
+
+- Votes: the Clerk's *Statistics of the Presidential and Congressional Election*
+  (clerk.house.gov), OCR'd. Each figure is read three times and settled against the
+  State's recapitulation total and Wikipedia's percentages (`reconcile.py`); a race that
+  does not settle is read by eye and entered in `read.py` with its page. Where the Clerk
+  and Wikipedia disagree after a reading, the Clerk stands (`AGREE_NOT`).
+- Candidates, incumbents, and their fates: Wikipedia's race tables. New York's fusion
+  candidates carry their party lines and the Clerk's bracketed total.
+- Swing: House, the same district where its lines did not change between the two
+  Congresses (the same shape key in `congress/geo.json`), otherwise the State's House vote;
+  Senate, the seat's last regular election (`elections/senate-prior.yaml`, from Wikipedia's
+  percentages). No swing for 1960, which has no 1958 base.
+- To add an election: `python3 tools/elections/make_elections.py YEAR`, read the races it
+  reports unsettled into `read.py`, rerun, then tag the calendar entry.
 
 ## Economic indicators
 
