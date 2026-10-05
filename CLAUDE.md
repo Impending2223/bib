@@ -68,7 +68,7 @@ inbox/                    patch files waiting to be merged
 congress/<NN>.yaml        each Congress at its opening (87–93): House by state and
                           district (0 = at large), Senate by state and class
 congress/geo.json         district and state shapes, projected and simplified
-elections/<YYYY>.yaml     House and Senate returns, race by race (generated; readings by eye in tools/elections/read.py)
+elections/<YYYY>.yaml     President, House and Senate returns, 1956–74 (generated; readings by eye in tools/elections/read.py)
 congress/changes.yaml     departures and successors during each Congress (generated)
 daybook/<YYYY-MM>.yaml    every Public Papers (APP) and FRUS document by date (generated)
 daybook/abstracts.yaml    one-sentence abstracts, keyed by document (kept by hand or agent)
@@ -259,9 +259,10 @@ The rosters come from unitedstates/congress-legislators by
 at the opening, terms missing from the source, notes). Fix a member there and
 rerun it, or edit `congress/<NN>.yaml` directly for a one-off. The shapes come
 from Lewis et al.'s district files by `tools/congress/make_geo.py` (needs
-shapely and pyproj; the build does not), simplified twice: at 0.01 map units,
-fine enough for a single Manhattan district, and at 0.12 for the full map; 11 MB
-together. The pages draw the coarse shapes and swap in the fine past 3× zoom
+shapely and pyproj; the build does not), for the 85th to the 94th Congress (the
+elections need the districts before and after), simplified twice: at 0.01 map units,
+fine enough for a single Manhattan district, and at 0.12 for the full map; 12 MB
+together, with a point for the District of Columbia. The pages draw the coarse shapes and swap in the fine past 3× zoom
 (`FINE` in `templates/congress.html`). Each map is drawn when it nears the
 screen, the House districts when first shown, and maps off the screen are not
 painted (`content-visibility`). Pointers match members to Part III by
@@ -288,35 +289,44 @@ membership"; check a date against the Biographical Directory where it matters).
 
 ## Elections
 
-A calendar entry tagged `election:<year>` carries that election's block (now Nov. 6, 1962),
-and `build/congress.html` puts each election before the Congress it chose (1960, 1962). A
-block: seats won, pickups, and new members by chamber; House and Senate maps with three views
-(Result: held seats light, pickups dark; Vote share: the Democratic share of the two-party
-vote; Swing: its change from the seat's last election); and every race in two tables:
-candidates with party, votes and share, the margin in votes and in points of the two
-leaders' combined vote, and a note (pickup, new member, new seat, and the incumbent's fate).
-Pickups are shaded in the winner's color, other member changes in gray. Definitions are the
+Every general election from 1956 to 1974, in `elections/<year>.yaml`: the House and Senate race by
+race, and in presidential years the vote for President by State with the electoral votes as cast.
+1956 is a base for swing and is not shown. `build/congress.html` puts each election from 1958 to
+1974 before the Congress it chose (the 86th and 94th have no rosters); a calendar entry tagged
+`election:<year>` carries its block too (now Nov. 6, 1962). A block: seats won, pickups, and new
+members by chamber, and the electoral and popular vote; one view switch for every map (Result:
+held seats light, pickups dark; Vote share; Swing); the President's map above the House and Senate,
+with an Electors toggle (a dot an elector, as voted); and every race in tables: candidates with
+party, votes and share, the margin in votes and in points of the two leaders' combined vote, and a
+note. Pickups are shaded in the winner's color, other member changes in gray. Definitions are the
 STYLE notes at the top of `tools/bib/elections.py`.
 
 ```
 tools/elections/make_elections.py   writes elections/<year>.yaml and senate-prior.yaml (needs network, pdftoppm, tesseract)
-tools/elections/read.py             figures read by eye from the Clerk's page images; these replace the OCR
+tools/elections/president.py        the presidential vote by State; CAST, the electors who broke from their slate
+tools/elections/read.py             figures read by eye from the Clerk's page images; these replace the OCR (READ, PRES)
 tools/bib/elections.py              renders the blocks and checks the data
 ```
 
 - Votes: the Clerk's *Statistics of the Presidential and Congressional Election*
   (clerk.house.gov), OCR'd. Each figure is read three times and settled against the
   State's recapitulation total and Wikipedia's percentages (`reconcile.py`); a race that
-  does not settle is read by eye and entered in `read.py` with its page. Where the Clerk
-  and Wikipedia disagree after a reading, the Clerk stands (`AGREE_NOT`).
-- Candidates, incumbents, and their fates: Wikipedia's race tables. New York's fusion
-  candidates carry their party lines and the Clerk's bracketed total.
+  does not settle is read by eye and entered in `read.py`. Where a race page and its
+  recapitulation differ, the figure the Clerk's totals add up with is used, and the
+  reading's comment says so. Where the Clerk and Wikipedia disagree after a reading, the
+  Clerk stands (`AGREE_NOT`), names included.
+- Candidates, incumbents, and their fates: Wikipedia's race tables; names as Wikipedia
+  gives them where the surname matches. New York's fusion candidates carry their party
+  lines and the Clerk's total.
+- President: each slate's vote (its highest elector), assigned to a candidate by
+  Wikipedia's results by State; electoral votes from the same table, with `CAST`.
 - Swing: House, the same district where its lines did not change between the two
   Congresses (the same shape key in `congress/geo.json`), otherwise the State's House vote;
-  Senate, the seat's last regular election (`elections/senate-prior.yaml`, from Wikipedia's
-  percentages). No swing for 1960, which has no 1958 base.
-- To add an election: `python3 tools/elections/make_elections.py YEAR`, read the races it
-  reports unsettled into `read.py`, rerun, then tag the calendar entry.
+  Senate, the seat's last regular election, six years before (1952 and 1954 from
+  `elections/senate-prior.yaml`, Wikipedia's percentages); President, the last
+  presidential election.
+- To add an election: `python3 tools/elections/make_elections.py YEAR --cache DIR`, read
+  the races it reports unsettled into `read.py`, rerun, then tag the calendar entry.
 
 ## Economic indicators
 

@@ -50,8 +50,12 @@ def settle(cands, scat, row, totals, pct_ok):
             if sum(maj) + s0 == T or sum(maj) == T:
                 return maj, scat, "readings agree and sum to the total"
     found = set()
-    for T in totals:
-        for combo in itertools.product(*[options(rs, row) for rs in cands]):
+    opts = [options(rs, row) for rs in cands]
+    size = 1
+    for o in opts:
+        size *= max(1, len(o))
+    for T in (totals if size <= 50000 else []):    # a long slate of candidates: by eye instead
+        for combo in itertools.product(*opts):
             if (sum(combo) + s0 == T or sum(combo) == T) and pct_ok(list(combo)):
                 found.add(combo)
     if len(found) == 1:

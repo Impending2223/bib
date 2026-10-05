@@ -1,8 +1,8 @@
-"""Project, simplify, and dedupe district shapes for the 87th-93rd Congresses -> congress/geo.json
+"""Project, simplify, and dedupe district shapes for the 85th-94th Congresses -> congress/geo.json
 
 Usage: python3 tools/congress/make_geo.py PATH/TO/congressional-district-boundaries [tolerance [coarse]]
   (a clone of https://github.com/JeffreyBLewis/congressional-district-boundaries; only the
-  GeoJson files covering Congresses 87-93 are needed). Needs shapely and pyproj. Takes ~6 minutes.
+  GeoJson files covering Congresses 85-94 are needed). Needs shapely and pyproj. Takes ~10 minutes.
 Writes each shape twice: fine (`shapes`, `states`; default 0.01) for close zoom, coarse
 (`coarse`, `statesC`; default 0.12) for the full map, where the pages draw first.
 """
@@ -78,7 +78,7 @@ def load(f, st):
     return cache[f]
 outline = {}
 outlineC = {}
-for c in range(87, 94):
+for c in range(85, 95):
     congress[c] = {}
     for st, lst in files.items():
         if st == 'District Of Columbia': continue
@@ -110,6 +110,8 @@ for st, lst in files.items():
     outlineC[st] = path(u.simplify(TOLC, preserve_topology=True))
     rp = u.representative_point(); cen = u.centroid
     outline[st + '@'] = [round(cen.x, 1), round(cen.y, 1)]
+# the District of Columbia: a point (the presidential maps mark it)
+outline['DC@'] = [round(v, 1) for v in proj('DC')(-77.0369, 38.9072)]
 os.makedirs(os.path.join(ROOT, 'congress'), exist_ok=True)
 json.dump({'shapes': shapes, 'coarse': coarse, 'congress': congress,
            'states': {k: v for k, v in outline.items() if '@' not in k}, 'statesC': outlineC,

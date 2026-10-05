@@ -41,10 +41,15 @@ def seat_of(tpl):
 
 def candidates(cell):
     out = []
-    for line in re.findall(r"^\*(.*)$", cell, re.M):
+    found = re.findall(r"^\*(.*)$", cell, re.M)
+    if not found and "Party stripe" in cell:    # one candidate, no list: '| nowrap | {{Party stripe|..}}.. (Democratic) Unopposed'
+        found = [cell[cell.index("{{Party stripe"):].split("\n")[0]]
+    for line in found:
+        line = re.sub(r"'{2,}", "", line)
         won = "{{Aye}}" in line or "{{aye}}" in line
         line = re.sub(r"\{\{Party stripe\|[^}]*\}\}|\{\{[Aa]ye\}\}|\{\{[Nn]ay\}\}", "", line)
         line = re.sub(r"\{\{(?:[Dd]agger|[Ee]f|[Rr]efn|[Nn]ote|efn)[^}]*\}\}", "", line)
+        line = re.sub(r"\s*\}\}\s*$", "", line)    # the Plainlist's close on its last line
         m = re.match(r"\s*(.*?)\s*\(([^()]*)\)\s*([\d.]+)\s*%?\s*$", unlink(line))
         if m:
             out.append({"name": m.group(1).strip(), "party": m.group(2).strip(), "pct": float(m.group(3)), "won": won})
@@ -61,12 +66,21 @@ PARTIES = ("Democratic", "Republican", "DFL", "Democratic–Farmer–Labor", "De
 def sections(text):
     """[(heading, body)] at level 2."""
     parts = re.split(r"^==\s*([^=].*?)\s*==\s*$", text, flags=re.M)
-    return [(parts[i], parts[i + 1]) for i in range(1, len(parts) - 1, 2)]
+    return [(unlink(parts[i]), parts[i + 1]) for i in range(1, len(parts) - 1, 2)]
+
+
+def flat_lists(text):
+    """A {{collapsible list|title=Others| | a | b }} of minor candidates as bullets, so its rows are not taken
+    for table cells."""
+    def one(m):
+        return "\n" + re.sub(r"\n\|\s*", "\n* ", m.group(1))
+    return re.sub(r"\n?\{\{[Cc]ollapsible list\s*\|\s*title=[^|\n]*\|(.*?)\n\}\}", one, text, flags=re.S)
 
 
 def house(text):
     """[{st, d, special, incumbents:[{name, party, first, result, from}], candidates:[...]}]"""
     out = []
+    text = flat_lists(text)
     for head, body in sections(text):
         sp = head.lower().startswith("special")
         if sp or st_of(head):
@@ -126,6 +140,7 @@ def sortname(t):
 def senate(text, regular_class):
     """[{st, cl, special, incumbents:[{name, party, result}], candidates:[...]}] from the race summary tables."""
     out = []
+    text = flat_lists(text)
     parts = re.split(r"^===\s*(.*?)\s*===\s*$", text, flags=re.M)
     for i in range(1, len(parts) - 1, 2):
         head, body = parts[i].lower(), parts[i + 1]
