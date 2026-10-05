@@ -24,6 +24,8 @@ CAST = {
     1968: {'NC': {'R': 12, 'A': 1}},
     1972: {'VA': {'R': 11, 'Hospers': 1}},
 }
+# A slate's candidate where Wikipedia's figures would assign it otherwise (year, State, party as printed).
+SLATE = {(1960, 'AL', 'Democratic'): 'D'}    # five Kennedy electors and six unpledged: counted with Kennedy (NOTES)
 # A note for the State's row in the table.
 NOTES = {
     (1960, 'AL'): 'The Democratic slate: five electors pledged to Kennedy, six unpledged; its vote is counted with Kennedy.',
@@ -60,7 +62,7 @@ def cells(row):
     return out
 
 
-def wiki_table(text):
+def wiki_table(text, year=None):
     """{'cands': [{'n', 'party', 'k'}], 'states': {ST: {'votes': [..], 'ev': [..], 'total'}}} from 'Results by state'."""
     m = re.search(r'^===+\s*Results by state\s*===+', text, re.M | re.I)
     body = text[m.end():]
@@ -119,7 +121,7 @@ def wiki_table(text):
             continue
         if not st or st in states:
             continue
-        rec = {'votes': [], 'ev': [], 'total': None, 'ev_total': None}
+        rec = {'votes': [], 'ev': [], 'total': None, 'ev_total': None, 'year': year}
         ci = 0
         for (lab, kind), v in zip(cols, cs):
             if lab.lower().startswith('state') and kind == 'ev' or (lab == '' and kind == 'ev' and ci == 1):
@@ -145,20 +147,22 @@ def assign(st, parties, vals, W, cands):
         exact = [c['k'] for c, x in zip(cands, wv) if x and v == x]
         close = [c['k'] for c, x in zip(cands, wv) if x and v and abs(v - x) <= 0.01 * x]
         low = p.lower()
-        if len(exact) == 1:
+        if (W.get('year'), st, p) in SLATE:
+            k = SLATE[(W['year'], st, p)]
+        elif len(exact) == 1:
             k = exact[0]
         elif st == 'NY' and 'liberal' in low:
             k = 'D'
         elif st == 'NY' and 'conservative' in low:
             k = 'R'
-        elif len(close) == 1:
-            k = close[0]
         elif 'unpledged' in low and any(c['k'] == 'U' for c in cands):
             k = 'U'
         elif low.startswith('dem'):
             k = 'D'
         elif low.startswith('rep'):
             k = 'R'
+        elif len(close) == 1:
+            k = close[0]
         elif 'american' in low and any(c['k'] == 'A' for c in cands):
             k = 'A'
         keys.append(k or 'O')
@@ -192,7 +196,7 @@ def races(y, C, d, T, dg):
             sc = re.compile(r'(?i)scatter|write-?ins?$')
             slates = [{'party': p, 'v': v} for p, v in R[st] if not sc.match(p)]
             scat = sum(v for p, v in R[st] if sc.match(p)) if any(sc.match(p) for p, _ in R[st]) else None
-            how = 'read by eye'
+            how = getattr(read, 'PRES_FROM', {}).get((y, st), 'read by eye')
         else:
             sl = [l for l in lines if not re.match(r'(?i)\W*s[ce]at', l['party'])]
             sc = [l for l in lines if re.match(r'(?i)\W*s[ce]at', l['party'])]
@@ -238,7 +242,8 @@ def races(y, C, d, T, dg):
         rec['how'] = how
         if (y, st) in NOTES:
             rec['note'] = NOTES[(y, st)]
-        win = max(slates, key=lambda s: s['v'] or 0)['k']
+        by = totals_by([s['k'] for s in slates], [s['v'] for s in slates])
+        win = max(by, key=by.get)    # the candidate's slates together (New York's Democratic and Liberal lines)
         rec['cast'] = dict(CAST.get(y, {}).get(st) or {win: ev})
         if sum(rec['cast'].values()) != ev and st not in CAST.get(y, {}):
             rec['cast'] = {win: ev}

@@ -5994,6 +5994,14 @@ president:
   - {k: D, n: Hubert H. Humphrey, party: Democratic}
   - {k: A, n: George Wallace, party: American Independent}
   states:
+  - st: AK
+    ev: 3
+    slates:
+    - {party: Democratic, v: 35411, k: D}
+    - {party: Republican, v: 37600, k: R}
+    - {party: American Independent, v: 10024, k: A}
+    how: read by eye
+    cast: {R: 3}
   - st: AL
     ev: 10
     page: 2
@@ -6017,6 +6025,18 @@ president:
     - {party: American Independent, v: 235627, k: A}
     how: readings agree and sum to the total
     cast: {A: 6}
+  - st: AZ
+    ev: 5
+    slates:
+    - {party: Democratic, v: 170514, k: D}
+    - {party: Republican, v: 266721, k: R}
+    - {party: American Independent, v: 46573, k: A}
+    - {party: New Party, v: 2751, k: O}
+    - {party: Peace and Freedom, v: 217, k: O}
+    - {party: Socialist Labor, v: 75, k: O}
+    - {party: Socialist Workers, v: 85, k: O}
+    how: read by eye
+    cast: {R: 5}
   - st: CA
     ev: 40
     page: 5
@@ -6028,6 +6048,19 @@ president:
     how: sum to the total
     note: 'The Clerk''s figures run under the State''s canvass as Wikipedia gives it: Nixon 3,467,664, Humphrey 3,244,318, Wallace 487,270.'
     cast: {R: 40}
+  - st: CO
+    ev: 6
+    slates:
+    - {party: Democratic, v: 331063, k: D}
+    - {party: Republican, v: 409345, k: R}
+    - {party: American Independent, v: 60813, k: A}
+    - {party: Socialist Labor, v: 3016, k: O}
+    - {party: New Party, v: 1393, k: O}
+    - {party: Socialist Workers, v: 235, k: O}
+    - {party: Peace and Freedom, v: 275, k: O}
+    scat: 948
+    how: read by eye
+    cast: {R: 6}
   - st: CT
     ev: 8
     page: 8
@@ -6038,6 +6071,13 @@ president:
     scat: 1300
     how: readings agree and sum to the total
     cast: {D: 8}
+  - st: DC
+    ev: 3
+    slates:
+    - {party: Democratic, v: 139566, k: D}
+    - {party: Republican, v: 31012, k: R}
+    how: read by eye
+    cast: {D: 3}
   - st: DE
     ev: 3
     page: 9
@@ -6056,6 +6096,15 @@ president:
     - {party: American Independent, v: 624207, k: A}
     how: readings agree and sum to the total
     cast: {R: 14}
+  - st: GA
+    ev: 12
+    slates:
+    - {party: Democratic, v: 334439, k: D}
+    - {party: Republican, v: 366611, k: R}
+    - {party: American Independent, v: 535550, k: A}
+    scat: 128
+    how: read by eye
+    cast: {A: 12}
   - st: HI
     ev: 4
     page: 12
@@ -6154,12 +6203,11 @@ president:
     cast: {D: 14}
   - st: MD
     ev: 10
-    page: 19
     slates:
     - {party: Democratic, v: 538310, k: D}
     - {party: Republican, v: 517995, k: R}
     - {party: American Independent, v: 178734, k: A}
-    how: sum to the total
+    how: read by eye
     cast: {D: 10}
   - st: ME
     ev: 4
@@ -6185,7 +6233,6 @@ president:
     cast: {D: 21}
   - st: MN
     ev: 10
-    page: 23
     slates:
     - {party: Democratic, v: 857738, k: D}
     - {party: Republican, v: 658643, k: R}
@@ -6194,9 +6241,25 @@ president:
     - {party: Industrial Government, v: 285, k: O}
     - {party: Communist, v: 415, k: O}
     - {party: Peace and Freedom, v: 935, k: O}
-    - {party: Write-in, v: 755, k: O}
-    how: sum to the total
+    scat: 755
+    how: read by eye
     cast: {D: 10}
+  - st: MO
+    ev: 12
+    slates:
+    - {party: Democratic, v: 791444, k: D}
+    - {party: Republican, v: 811932, k: R}
+    - {party: American Independent, v: 206126, k: A}
+    how: read by eye
+    cast: {R: 12}
+  - st: MS
+    ev: 7
+    slates:
+    - {party: Democratic, v: 150644, k: D}
+    - {party: Republican, v: 88516, k: R}
+    - {party: American Independent, v: 415349, k: A}
+    how: read by eye
+    cast: {A: 7}
   - st: MT
     ev: 4
     page: 25
@@ -6230,6 +6293,14 @@ president:
     - {party: Constitution. ..22, v: 34, k: O}
     how: readings agree and sum to the total
     cast: {R: 4}
+  - st: NE
+    ev: 5
+    slates:
+    - {party: Democratic, v: 170784, k: D}
+    - {party: Republican, v: 321163, k: R}
+    - {party: American Independent, v: 44904, k: A}
+    how: read by eye
+    cast: {R: 5}
   - st: NH
     ev: 4
     page: 27
@@ -6253,6 +6324,49 @@ president:
     - {party: Socialist Labor, v: 6784, k: O}
     how: sum to the total
     cast: {R: 17}
+  - st: NM
+    ev: 4
+    slates:
+    - {party: Democratic, v: 130081, k: D}
+    - {party: Republican, v: 169692, k: R}
+    - {party: American Independent, v: 25737, k: A}
+    - {party: Socialist Workers, v: 252, k: O}
+    - {party: People's Constitutional, v: 1519, k: O}
+    how: read by eye
+    cast: {R: 4}
+  - st: NV
+    ev: 3
+    slates:
+    - {party: Democratic, v: 60598, k: D}
+    - {party: Republican, v: 73188, k: R}
+    - {party: American Independent, v: 20432, k: A}
+    how: read by eye
+    cast: {R: 3}
+  - st: NY
+    ev: 43
+    slates:
+    - {party: Democratic, v: 3066848, k: D}
+    - {party: Republican, v: 3007932, k: R}
+    - {party: Liberal, v: 311622, k: D}
+    - {party: Courage, v: 358864, k: A}
+    - {party: Socialist Workers, v: 11851, k: O}
+    - {party: Socialist Labor, v: 8432, k: O}
+    - {party: Peace and Freedom, v: 24517, k: O}
+    how: read by eye
+    cast: {D: 43}
+  - st: OH
+    ev: 26
+    slates:
+    - {party: Democratic, v: 1700586, k: D}
+    - {party: Republican, v: 1791014, k: R}
+    - {party: American Independent, v: 467495, k: A}
+    - {party: Socialist Labor, v: 120, k: O}
+    - {party: Socialist Workers, v: 69, k: O}
+    - {party: Communist, v: 23, k: O}
+    - {party: Prohibition, v: 19, k: O}
+    - {party: Peace and Freedom, v: 372, k: O}
+    how: read by eye
+    cast: {R: 26}
   - st: OK
     ev: 8
     page: 37
@@ -6271,6 +6385,17 @@ president:
     - {party: American Independent, v: 49683, k: A}
     how: readings agree and sum to the total
     cast: {R: 6}
+  - st: PA
+    ev: 29
+    slates:
+    - {party: Democratic, v: 2259403, k: D}
+    - {party: Republican, v: 2090017, k: R}
+    - {party: American Independent, v: 378582, k: A}
+    - {party: Socialist Workers, v: 4862, k: O}
+    - {party: Socialist Labor, v: 4977, k: O}
+    - {party: Peace and Freedom, v: 7821, k: O}
+    how: read by eye
+    cast: {D: 29}
   - st: RI
     ev: 4
     page: 41
@@ -6329,6 +6454,17 @@ president:
     - {party: Socialist Workers, v: 89, k: O}
     how: readings agree and sum to the total
     cast: {R: 4}
+  - st: VA
+    ev: 12
+    slates:
+    - {party: Democratic, v: 442387, k: D}
+    - {party: Republican, v: 590319, k: R}
+    - {party: American Independent, v: 320272, k: A}
+    - {party: Socialist Labor, v: 4671, k: O}
+    - {party: Prohibition, v: 599, k: O}
+    - {party: Peace and Freedom, v: 1680, k: O}
+    how: read by eye
+    cast: {R: 12}
   - st: VT
     ev: 3
     page: 47

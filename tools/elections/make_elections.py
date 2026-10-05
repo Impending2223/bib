@@ -233,7 +233,7 @@ def main():
                            'url': CLERK.format(y=y)},
                 'races': races_out}
         if y % 4 == 0:
-            T = president.wiki_table(wiki_page(f'{y}_United_States_presidential_election', cache))
+            T = president.wiki_table(wiki_page(f'{y}_United_States_presidential_election', cache), y)
             pres = president.races(y, C, d, T, dg)
             cands = [{'k': c['k'], 'n': c['n'], 'party': c['party']} for c in T['cands']]    # 'col' dropped
             for who in sorted({k for v in president.CAST.get(y, {}).values() for k in v if k in president.ELECTEES}):

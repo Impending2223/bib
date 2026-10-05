@@ -5919,43 +5919,39 @@ president:
   states:
   - st: AK
     ev: 3
-    page: 3
     slates:
     - {party: Democratic, v: 32967, k: D}
     - {party: Republican, v: 55349, k: R}
     - {party: American Independent, v: 6903, k: A}
-    how: readings agree and sum to the total
+    how: read by eye
     cast: {R: 3}
   - st: AL
     ev: 9
-    page: 2
     slates:
     - {party: Democratic, v: 219108, k: D}
     - {party: Republican, v: 728701, k: R}
-    - {party: 'Prohibition. _~.22 222-2 ee ee eee - 8, 551', v: 8551, k: O}
+    - {party: Prohibition, v: 8551, k: O}
     - {party: Conservative, v: 11918, k: A}
     - {party: National Democrat, v: 37815, k: D}
-    how: readings agree and sum to the total
+    how: read by eye
     note: McGovern ran on two slates, the Democratic and the National Democratic.
     cast: {R: 9}
   - st: AR
     ev: 6
-    page: 4
     slates:
     - {party: Democratic, v: 198899, k: D}
     - {party: Republican, v: 445751, k: R}
     - {party: American Independent, v: 3016, k: A}
-    how: readings agree and sum to the total
+    how: read by eye
     cast: {R: 6}
   - st: AZ
     ev: 6
-    page: 3
     slates:
-    - {party: Democratie, v: 198540, k: D}
+    - {party: Democratic, v: 198540, k: D}
     - {party: Republican, v: 402812, k: R}
     - {party: American Independent, v: 21208, k: A}
     - {party: Socialist Workers, v: 30945, k: O}
-    how: sum to the total
+    how: read by eye
     cast: {R: 6}
   - st: CA
     ev: 45
@@ -5968,6 +5964,66 @@ president:
     how: sum to the total
     note: 'The Clerk''s figures run under the State''s canvass as Wikipedia gives it: Nixon 4,602,096, McGovern 3,475,847.'
     cast: {R: 45}
+  - st: CO
+    ev: 7
+    slates:
+    - {party: Democratic, v: 329980, k: D}
+    - {party: Republican, v: 597189, k: R}
+    - {party: American Independent, v: 17269, k: A}
+    - {party: Socialist Labor, v: 4361, k: O}
+    - {party: Socialist Workers, v: 666, k: O}
+    - {party: Peace and Freedom, v: 2403, k: O}
+    - {party: Communist, v: 432, k: O}
+    - {party: Libertarian, v: 1111, k: Hospers}
+    - {party: Prohibition, v: 467, k: O}
+    scat: 6
+    how: read by eye
+    cast: {R: 7}
+  - st: CT
+    ev: 8
+    slates:
+    - {party: Democratic, v: 555498, k: D}
+    - {party: Republican, v: 810763, k: R}
+    - {party: American Independent, v: 17239, k: A}
+    scat: 777
+    how: read by eye
+    cast: {R: 8}
+  - st: DC
+    ev: 3
+    slates:
+    - {party: Democratic, v: 127627, k: D}
+    - {party: Republican, v: 35226, k: R}
+    - {party: Socialist Workers, v: 316, k: O}
+    - {party: Communist, v: 252, k: O}
+    how: read by eye
+    cast: {D: 3}
+  - st: DE
+    ev: 3
+    slates:
+    - {party: Democratic, v: 92283, k: D}
+    - {party: Republican, v: 140357, k: R}
+    - {party: American Independent, v: 2638, k: A}
+    - {party: Prohibition, v: 238, k: O}
+    how: read by eye
+    cast: {R: 3}
+  - st: FL
+    ev: 17
+    slates:
+    - {party: Democratic, v: 718117, k: D}
+    - {party: Republican, v: 1857759, k: R}
+    scat: 7407
+    how: read by eye
+    cast: {R: 17}
+  - st: GA
+    ev: 12
+    slates:
+    - {party: Democratic, v: 289529, k: D}
+    - {party: Republican, v: 881496, k: R}
+    - {party: American Independent, v: 812, k: A}
+    - {party: Socialist Labor, v: 3, k: O}
+    scat: 2932
+    how: read by eye
+    cast: {R: 12}
   - st: HI
     ev: 4
     page: 12
@@ -5975,6 +6031,29 @@ president:
     - {party: Democratic, v: 101409, k: D}
     - {party: Republican, v: 168865, k: R}
     how: sum to the total
+    cast: {R: 4}
+  - st: IA
+    ev: 8
+    slates:
+    - {party: Democratic, v: 496206, k: D}
+    - {party: Republican, v: 706207, k: R}
+    - {party: American Independent, v: 22056, k: A}
+    - {party: Socialist Workers, v: 488, k: O}
+    - {party: Socialist Labor, v: 195, k: O}
+    - {party: Communist, v: 272, k: O}
+    - {party: Universal, v: 199, k: O}
+    scat: 321
+    how: read by eye
+    cast: {R: 8}
+  - st: ID
+    ev: 4
+    slates:
+    - {party: Democratic, v: 80826, k: D}
+    - {party: Republican, v: 199384, k: R}
+    - {party: American Independent, v: 28869, k: A}
+    - {party: Peace and Freedom, v: 903, k: O}
+    - {party: Socialist Workers, v: 397, k: O}
+    how: read by eye
     cast: {R: 4}
   - st: IL
     ev: 26
@@ -5999,6 +6078,26 @@ president:
     - {party: Peace and Freedom, v: 4544, k: O}
     how: readings agree and sum to the total
     cast: {R: 13}
+  - st: KS
+    ev: 7
+    slates:
+    - {party: Democratic, v: 270287, k: D}
+    - {party: Republican, v: 619812, k: R}
+    - {party: Prohibition, v: 4188, k: O}
+    - {party: Conservative, v: 21808, k: A}
+    how: read by eye
+    cast: {R: 7}
+  - st: KY
+    ev: 9
+    slates:
+    - {party: Democratic, v: 371159, k: D}
+    - {party: Republican, v: 676446, k: R}
+    - {party: American Independent, v: 17627, k: A}
+    - {party: Socialist Workers, v: 685, k: O}
+    - {party: People's, v: 1118, k: O}
+    - {party: Communist, v: 464, k: O}
+    how: read by eye
+    cast: {R: 9}
   - st: LA
     ev: 10
     page: 18
@@ -6009,6 +6108,28 @@ president:
     - {party: Socialist Workers, v: 14398, k: O}
     how: sum to the total
     cast: {R: 10}
+  - st: MA
+    ev: 14
+    slates:
+    - {party: Democratic, v: 1332540, k: D}
+    - {party: Republican, v: 1112078, k: R}
+    - {party: American Independent, v: 2877, k: A}
+    - {party: Socialist Labor, v: 129, k: O}
+    - {party: Socialist Workers, v: 10600, k: O}
+    - {party: Peace and Freedom, v: 101, k: O}
+    - {party: Communist, v: 46, k: O}
+    - {party: Libertarian, v: 43, k: Hospers}
+    scat: 342
+    how: read by eye
+    cast: {D: 14}
+  - st: MD
+    ev: 10
+    slates:
+    - {party: Democratic, v: 505781, k: D}
+    - {party: Republican, v: 829305, k: R}
+    - {party: American Independent, v: 18726, k: A}
+    how: read by eye
+    cast: {R: 10}
   - st: ME
     ev: 4
     page: 19
@@ -6017,9 +6138,19 @@ president:
     - {party: '- Republican', v: 256458, k: R}
     how: readings agree and sum to the total
     cast: {R: 4}
+  - st: MI
+    ev: 21
+    slates:
+    - {party: Democratic, v: 1459435, k: D}
+    - {party: Republican, v: 1961721, k: R}
+    - {party: American Independent, v: 63321, k: A}
+    - {party: Socialist Workers, v: 1603, k: O}
+    - {party: Socialist Labor, v: 2437, k: O}
+    - {party: Communist, v: 1210, k: O}
+    how: read by eye
+    cast: {R: 21}
   - st: MN
     ev: 10
-    page: 23
     slates:
     - {party: Democratic, v: 802346, k: D}
     - {party: Republican, v: 897569, k: R}
@@ -6027,9 +6158,9 @@ president:
     - {party: Socialist Workers, v: 940, k: O}
     - {party: Industrial Government, v: 4261, k: O}
     - {party: Communist, v: 662, k: O}
-    - {party: People’s, v: 2855, k: O}
-    - {party: Write-in, v: 962, k: O}
-    how: readings agree and sum to the total
+    - {party: People's, v: 2855, k: O}
+    scat: 962
+    how: read by eye
     cast: {R: 10}
   - st: MO
     ev: 12
@@ -6039,24 +6170,41 @@ president:
     - {party: 'Republican _ 222-222-222 1, 158, 852', v: 1153852, k: R}
     how: sum to the total
     cast: {R: 12}
+  - st: MS
+    ev: 7
+    slates:
+    - {party: Democratic, v: 126782, k: D}
+    - {party: Republican, v: 505125, k: R}
+    - {party: American Independent, v: 11598, k: A}
+    - {party: Socialist Workers, v: 2458, k: O}
+    how: read by eye
+    cast: {R: 7}
   - st: MT
     ev: 4
-    page: 26
     slates:
     - {party: Democratic, v: 120197, k: D}
     - {party: Republican, v: 183976, k: R}
     - {party: American Independent, v: 13430, k: A}
-    how: sum to the total
+    how: read by eye
     cast: {R: 4}
   - st: NC
     ev: 13
-    page: 35
     slates:
     - {party: Democratic, v: 438705, k: D}
     - {party: Republican, v: 1054889, k: R}
     - {party: American Independent, v: 25018, k: A}
-    how: sum to the total
+    how: read by eye
     cast: {R: 13}
+  - st: ND
+    ev: 3
+    slates:
+    - {party: Democratic, v: 100384, k: D}
+    - {party: Republican, v: 174109, k: R}
+    - {party: American Independent, v: 5646, k: A}
+    - {party: Socialist Workers, v: 288, k: O}
+    - {party: Communist, v: 87, k: O}
+    how: read by eye
+    cast: {R: 3}
   - st: NE
     ev: 5
     page: 26
@@ -6090,6 +6238,22 @@ president:
     - {party: Communist, v: 1263, k: O}
     how: two of three readings agree; shares match
     cast: {R: 17}
+  - st: NM
+    ev: 4
+    slates:
+    - {party: Democratic, v: 141084, k: D}
+    - {party: Republican, v: 235606, k: R}
+    - {party: American Independent, v: 8767, k: A}
+    - {party: Socialist Workers, v: 474, k: O}
+    how: read by eye
+    cast: {R: 4}
+  - st: NV
+    ev: 3
+    slates:
+    - {party: Democratic, v: 66016, k: D}
+    - {party: Republican, v: 115750, k: R}
+    how: read by eye
+    cast: {R: 3}
   - st: NY
     ev: 41
     page: 31
@@ -6105,15 +6269,14 @@ president:
     cast: {R: 41}
   - st: OH
     ev: 25
-    page: 36
     slates:
-    - {party: _ Demoeratic, v: 1558889, k: D}
+    - {party: Democratic, v: 1558889, k: D}
     - {party: Republican, v: 2441827, k: R}
-    - {party: « American Independent, v: 80067, k: A}
+    - {party: American Independent, v: 80067, k: A}
     - {party: Socialist Labor, v: 7107, k: O}
-    - {party: “ Communist. -222..2-222, v: 6437, k: O}
-    - {party: “o. Write-in_ oe ee ee eee | +460, v: 460, k: O}
-    how: sum to the total
+    - {party: Communist, v: 6437, k: O}
+    scat: 460
+    how: read by eye
     cast: {R: 25}
   - st: OK
     ev: 8
@@ -6124,6 +6287,26 @@ president:
     - {party: American Independent, v: 23728, k: A}
     how: readings agree and sum to the total
     cast: {R: 8}
+  - st: OR
+    ev: 6
+    slates:
+    - {party: Democratic, v: 392760, k: D}
+    - {party: Republican, v: 486686, k: R}
+    - {party: American Independent, v: 46211, k: A}
+    scat: 2289
+    how: read by eye
+    cast: {R: 6}
+  - st: PA
+    ev: 27
+    slates:
+    - {party: Democratic, v: 1796951, k: D}
+    - {party: Republican, v: 2714521, k: R}
+    - {party: Constitutional, v: 70593, k: A}
+    - {party: Socialist Workers, v: 4639, k: O}
+    - {party: Communist, v: 2686, k: O}
+    - {party: Others, v: 2715, k: O}
+    how: read by eye
+    cast: {R: 27}
   - st: RI
     ev: 4
     page: 41
@@ -6133,6 +6316,16 @@ president:
     - {party: Socialist Workers, v: 729, k: O}
     how: readings agree and sum to the total
     cast: {R: 4}
+  - st: SC
+    ev: 8
+    slates:
+    - {party: Democratic, v: 184559, k: D}
+    - {party: Republican, v: 477044, k: R}
+    - {party: American Independent, v: 10075, k: A}
+    - {party: United Citizens, v: 2265, k: O}
+    scat: 17
+    how: read by eye
+    cast: {R: 8}
   - st: SD
     ev: 4
     page: 42
@@ -6142,6 +6335,15 @@ president:
     - {party: Socialist Workers, v: 994, k: O}
     how: sum to the total
     cast: {R: 4}
+  - st: TN
+    ev: 10
+    slates:
+    - {party: Democratic, v: 357293, k: D}
+    - {party: Republican, v: 813147, k: R}
+    - {party: American Independent, v: 30373, k: A}
+    scat: 369
+    how: read by eye
+    cast: {R: 10}
   - st: TX
     ev: 26
     page: 44
@@ -6153,6 +6355,14 @@ president:
     - {party: 'Write-in. 2.222 eee eee 3, 893', v: 3393, k: O}
     how: readings agree and sum to the total
     cast: {R: 26}
+  - st: UT
+    ev: 4
+    slates:
+    - {party: Democratic, v: 126284, k: D}
+    - {party: Republican, v: 323643, k: R}
+    - {party: American Independent, v: 28549, k: A}
+    how: read by eye
+    cast: {R: 4}
   - st: VA
     ev: 12
     page: 46
@@ -6163,6 +6373,29 @@ president:
     - {party: Socialist Labor, v: 9918, k: O}
     how: sum to the total
     cast: {R: 11, Hospers: 1}
+  - st: VT
+    ev: 3
+    slates:
+    - {party: Democratic, v: 67613, k: D}
+    - {party: Republican, v: 117149, k: R}
+    - {party: Liberty Union, v: 1010, k: O}
+    - {party: Socialist Workers, v: 296, k: O}
+    scat: 318
+    how: read by eye
+    cast: {R: 3}
+  - st: WA
+    ev: 9
+    slates:
+    - {party: Democratic, v: 568334, k: D}
+    - {party: Republican, v: 837135, k: R}
+    - {party: American Independent, v: 58906, k: A}
+    - {party: Socialist Labor, v: 1102, k: O}
+    - {party: Socialist Workers, v: 623, k: O}
+    - {party: People's, v: 2644, k: O}
+    - {party: Libertarian, v: 1537, k: Hospers}
+    - {party: Communist, v: 566, k: O}
+    how: read by eye
+    cast: {R: 9}
   - st: WI
     ev: 11
     page: 49

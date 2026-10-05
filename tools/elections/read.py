@@ -1546,3 +1546,95 @@ READ[1956] = {
     ('h', 'VA', 2): [('Porter Hardy, Jr.', 'Democrat', 46958), ('William R. Burns', 'Republican', 14483)],
     ('s', 'VT', 3): [("Bernard G. O'Shea", 'Democrat', 52184), ('George D. Aiken', 'Republican', 103101), ('Scattering', None, 4)],
 }
+
+# The vote for presidential electors, State by State, where the OCR did not settle: (party as printed, votes)
+# a slate, in printed order; ('Scattering', n). Each checked against the State's recapitulation row.
+# 1960 New York: the recapitulation's total counts 88,996 blank and void ballots; they are left out here.
+# 1968 New York: Wallace's slate is printed "Courage". 1972 Florida: the slate list prints the Democratic
+# vote 2,718,117; the recapitulation's 718,117 is the figure its total adds up with.
+PRES = {
+    1956: {
+        'CA': [('Democratic', 2420135), ('Republican', 3027668), ('Prohibition', 11119), ('Constitution', 6087), ('Socialist Labor', 300), ('Socialist', 123), ('Socialist Workers', 96), ('Christian Nationalist', 8), ('Scattering', 819)],
+        'GA': [('Democratic', 444388), ('Republican', 222778), ('Write-ins', 1754)],
+        'LA': [('Democratic', 243977), ('Republican', 329047), ("States' Rights", 44520)],
+        'MS': [('Democratic', 144498), ('Republican', 56372), ('Independent', 42966), ('Mississippi Black and Tan Grand Old Party', 4313)],
+        'NM': [('Democratic', 106098), ('Republican', 146788), ('Prohibition', 607), ('Socialist Labor', 69), ('New Party', 364)],
+        'NY': [('Democratic', 2458212), ('Liberal', 292557), ('Republican', 4340340), ('Scattering', 1751), ('Miscellaneous', 476)],
+        'OK': [('Democratic', 385581), ('Republican', 473769)],
+        'VA': [('Democratic', 267760), ('Republican', 386459), ('States Rights', 42964), ('Socialist Labor', 351), ('Virginia Social-Democratic', 444)],
+    },
+    1960: {
+        'AL': [('Democratic', 324050), ('Republican', 237981), ('National States Rights', 4367), ('Prohibition', 2106), ('Independent Afro-American', 1485), ('Scattering', 236)],
+        'AZ': [('Democratic', 176781), ('Republican', 221241), ('Socialist-Labor', 469)],
+        'IA': [('Democratic', 550565), ('Republican', 722381), ('Socialist-Labor', 230), ('Write-in', 634)],
+        'IN': [('Democratic', 952358), ('Republican', 1175120), ('Prohibition', 6746), ('Socialist-Labor', 1136)],
+        'MI': [('Democratic', 1687269), ('Republican', 1620428), ('Socialist Workers', 4347), ('Socialist-Labor', 1718), ('Prohibition', 2029), ('Independent American', 539), ('Tax Cut', 1767)],
+        'NC': [('Democratic', 713136), ('Republican', 655420)],
+        'ND': [('Democratic', 123963), ('Republican', 154310), ('Socialist Workers', 158)],
+        'NE': [('Democratic', 232542), ('Republican', 380553)],
+        'NY': [('Democratic', 3423909), ('Liberal', 406176), ('Republican', 3446419), ('Socialist Worker', 14319), ('Scattering', 256)],
+        'WY': [('Democratic', 63331), ('Republican', 76551)],
+    },
+    1964: {
+        'GA': [('Democratic', 522557), ('Republican', 616600)],
+        'NH': [('Democratic', 182065), ('Republican', 104029)],
+        'NY': [('Democratic', 4570724), ('Liberal', 342432), ('Republican', 2243559), ('Socialist Labor', 6085), ('Socialist Workers', 3215)],
+        'WV': [('Democratic', 538087), ('Republican', 253953)],
+    },
+    1968: {
+        'AK': [('Democratic', 35411), ('Republican', 37600), ('American Independent', 10024)],
+        'AZ': [('Democratic', 170514), ('Republican', 266721), ('American Independent', 46573), ('New Party', 2751), ('Peace and Freedom', 217), ('Socialist Labor', 75), ('Socialist Workers', 85)],
+        'CO': [('Democratic', 331063), ('Republican', 409345), ('American Independent', 60813), ('Socialist Labor', 3016), ('New Party', 1393), ('Socialist Workers', 235), ('Write-in', 948), ('Peace and Freedom', 275)],
+        'DC': [('Democratic', 139566), ('Republican', 31012)],
+        'GA': [('Democratic', 334439), ('Republican', 366611), ('American Independent', 535550), ('Write-in', 128)],
+        'MD': [('Democratic', 538310), ('Republican', 517995), ('American Independent', 178734)],
+        'MN': [('Democratic', 857738), ('Republican', 658643), ('American Independent', 68931), ('Socialist Workers', 808), ('Industrial Government', 285), ('Communist', 415), ('Peace and Freedom', 935), ('Write-in', 755)],
+        'MO': [('Democratic', 791444), ('Republican', 811932), ('American Independent', 206126)],
+        'MS': [('Democratic', 150644), ('Republican', 88516), ('American Independent', 415349)],
+        'NE': [('Democratic', 170784), ('Republican', 321163), ('American Independent', 44904)],
+        'NM': [('Democratic', 130081), ('Republican', 169692), ('American Independent', 25737), ('Socialist Workers', 252), ("People's Constitutional", 1519)],
+        'NV': [('Democratic', 60598), ('Republican', 73188), ('American Independent', 20432)],
+        'NY': [('Democratic', 3066848), ('Republican', 3007932), ('Liberal', 311622), ('Courage', 358864), ('Socialist Workers', 11851), ('Socialist Labor', 8432), ('Peace and Freedom', 24517)],
+        'OH': [('Democratic', 1700586), ('Republican', 1791014), ('American Independent', 467495), ('Socialist Labor', 120), ('Socialist Workers', 69), ('Communist', 23), ('Prohibition', 19), ('Peace and Freedom', 372)],
+        'PA': [('Democratic', 2259403), ('Republican', 2090017), ('American Independent', 378582), ('Socialist Workers', 4862), ('Socialist Labor', 4977), ('Peace and Freedom', 7821)],
+        'VA': [('Democratic', 442387), ('Republican', 590319), ('American Independent', 320272), ('Socialist Labor', 4671), ('Prohibition', 599), ('Peace and Freedom', 1680)],
+    },
+    1972: {
+        'AK': [('Democratic', 32967), ('Republican', 55349), ('American Independent', 6903)],
+        'AL': [('Democratic', 219108), ('Republican', 728701), ('Prohibition', 8551), ('Conservative', 11918), ('National Democrat', 37815)],
+        'AR': [('Democratic', 198899), ('Republican', 445751), ('American Independent', 3016)],
+        'AZ': [('Democratic', 198540), ('Republican', 402812), ('American Independent', 21208), ('Socialist Workers', 30945)],
+        'CO': [('Democratic', 329980), ('Republican', 597189), ('American Independent', 17269), ('Socialist Labor', 4361), ('Socialist Workers', 666), ('Peace and Freedom', 2403), ('Communist', 432), ('Libertarian', 1111), ('Prohibition', 467), ('Write-in', 6)],
+        'CT': [('Democratic', 555498), ('Republican', 810763), ('American Independent', 17239), ('Scattering', 777)],
+        'DC': [('Democratic', 127627), ('Republican', 35226), ('Socialist Workers', 316), ('Communist', 252)],
+        'DE': [('Democratic', 92283), ('Republican', 140357), ('American Independent', 2638), ('Prohibition', 238)],
+        'FL': [('Democratic', 718117), ('Republican', 1857759), ('Scattering', 7407)],
+        'GA': [('Democratic', 289529), ('Republican', 881496), ('American Independent', 812), ('Socialist Labor', 3), ('Write-in', 2932)],
+        'IA': [('Democratic', 496206), ('Republican', 706207), ('American Independent', 22056), ('Socialist Workers', 488), ('Socialist Labor', 195), ('Communist', 272), ('Universal', 199), ('Scattering', 321)],
+        'ID': [('Democratic', 80826), ('Republican', 199384), ('American Independent', 28869), ('Peace and Freedom', 903), ('Socialist Workers', 397)],
+        'KS': [('Democratic', 270287), ('Republican', 619812), ('Prohibition', 4188), ('Conservative', 21808)],
+        'KY': [('Democratic', 371159), ('Republican', 676446), ('American Independent', 17627), ('Socialist Workers', 685), ("People's", 1118), ('Communist', 464)],
+        'MA': [('Democratic', 1332540), ('Republican', 1112078), ('American Independent', 2877), ('Socialist Labor', 129), ('Socialist Workers', 10600), ('Peace and Freedom', 101), ('Communist', 46), ('Libertarian', 43), ('Scattering', 342)],
+        'MD': [('Democratic', 505781), ('Republican', 829305), ('American Independent', 18726)],
+        'MI': [('Democratic', 1459435), ('Republican', 1961721), ('American Independent', 63321), ('Socialist Workers', 1603), ('Socialist Labor', 2437), ('Communist', 1210)],
+        'MN': [('Democratic', 802346), ('Republican', 897569), ('American Independent', 31407), ('Socialist Workers', 940), ('Industrial Government', 4261), ('Communist', 662), ("People's", 2855), ('Write-in', 962)],
+        'MS': [('Democratic', 126782), ('Republican', 505125), ('American Independent', 11598), ('Socialist Workers', 2458)],
+        'MT': [('Democratic', 120197), ('Republican', 183976), ('American Independent', 13430)],
+        'NC': [('Democratic', 438705), ('Republican', 1054889), ('American Independent', 25018)],
+        'ND': [('Democratic', 100384), ('Republican', 174109), ('American Independent', 5646), ('Socialist Workers', 288), ('Communist', 87)],
+        'NM': [('Democratic', 141084), ('Republican', 235606), ('American Independent', 8767), ('Socialist Workers', 474)],
+        'NV': [('Democratic', 66016), ('Republican', 115750)],
+        'OH': [('Democratic', 1558889), ('Republican', 2441827), ('American Independent', 80067), ('Socialist Labor', 7107), ('Communist', 6437), ('Write-in', 460)],
+        'OR': [('Democratic', 392760), ('Republican', 486686), ('American Independent', 46211), ('Write-in', 2289)],
+        'PA': [('Democratic', 1796951), ('Republican', 2714521), ('Constitutional', 70593), ('Socialist Workers', 4639), ('Communist', 2686), ('Others', 2715)],
+        'SC': [('Democratic', 184559), ('Republican', 477044), ('American Independent', 10075), ('United Citizens', 2265), ('Write-in', 17)],
+        'TN': [('Democratic', 357293), ('Republican', 813147), ('American Independent', 30373), ('Write-in', 369)],
+        'UT': [('Democratic', 126284), ('Republican', 323643), ('American Independent', 28549)],
+        'VT': [('Democratic', 67613), ('Republican', 117149), ('Liberty Union', 1010), ('Socialist Workers', 296), ('Scattering', 318)],
+        'WA': [('Democratic', 568334), ('Republican', 837135), ('American Independent', 58906), ('Socialist Labor', 1102), ('Socialist Workers', 623), ("People's", 2644), ('Libertarian', 1537), ('Communist', 566)],
+    },
+}
+# The Clerk's 1964 volume prints no vote for the District of Columbia (its summary gives only the
+# electoral vote); these are Wikipedia's figures.
+PRES[1964]['DC'] = [('Democratic', 169796), ('Republican', 28801)]
+PRES_FROM = {(1964, 'DC'): "Wikipedia's figures; the Clerk prints no vote for the District"}

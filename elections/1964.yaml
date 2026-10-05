@@ -6017,6 +6017,13 @@ president:
     scat: 1313
     how: sum to the total
     cast: {D: 8}
+  - st: DC
+    ev: 3
+    slates:
+    - {party: Democratic, v: 169796, k: D}
+    - {party: Republican, v: 28801, k: R}
+    how: Wikipedia's figures; the Clerk prints no vote for the District
+    cast: {D: 3}
   - st: DE
     ev: 3
     page: 9
@@ -6035,6 +6042,13 @@ president:
     - {party: Republican, v: 905941, k: R}
     how: two of three readings agree; shares match
     cast: {D: 14}
+  - st: GA
+    ev: 12
+    slates:
+    - {party: Democratic, v: 522557, k: D}
+    - {party: Republican, v: 616600, k: R}
+    how: read by eye
+    cast: {R: 12}
   - st: HI
     ev: 4
     page: 12
@@ -6211,6 +6225,13 @@ president:
     - {party: Republican, v: 276847, k: R}
     how: readings agree and sum to the total
     cast: {D: 5}
+  - st: NH
+    ev: 4
+    slates:
+    - {party: Democratic, v: 182065, k: D}
+    - {party: Republican, v: 104029, k: R}
+    how: read by eye
+    cast: {D: 4}
   - st: NJ
     ev: 17
     page: 29
@@ -6239,6 +6260,16 @@ president:
     - {party: Republican, v: 56094, k: R}
     how: readings agree and sum to the total
     cast: {D: 3}
+  - st: NY
+    ev: 43
+    slates:
+    - {party: Democratic, v: 4570724, k: D}
+    - {party: Liberal, v: 342432, k: D}
+    - {party: Republican, v: 2243559, k: R}
+    - {party: Socialist Labor, v: 6085, k: O}
+    - {party: Socialist Workers, v: 3215, k: O}
+    how: read by eye
+    cast: {D: 43}
   - st: OH
     ev: 26
     page: 37
@@ -6366,11 +6397,10 @@ president:
     cast: {D: 12}
   - st: WV
     ev: 7
-    page: 50
     slates:
     - {party: Democratic, v: 538087, k: D}
-    - {party: Republiean, v: 253953, k: R}
-    how: sum to the total
+    - {party: Republican, v: 253953, k: R}
+    how: read by eye
     cast: {D: 7}
   - st: WY
     ev: 3
