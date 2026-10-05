@@ -1,13 +1,11 @@
 <style>
 /* Colors, light and dark. p: the parties (pDs Southern Democrats; pT a third ticket). e: the election scales,
-   result and swing, four steps a side around a gray middle (eN), eA a third ticket. w: the winner's share, six
-   steps a hue, interpolated in OKLab from e?1 to e?4 (python3 -m tools.bib.palette prints this block). */
+   four steps a side around a gray middle (eN), eA a third ticket: the result view uses steps 2 to 4; the winner's
+   share runs continuously from e?1 to e?4, and swing from eN to eR4 or eB4, mixed in OKLab (SHARE, SWING in the
+   script; the keys' .gr bars). */
 :root{--pDs:#9DB4D6;--pD:#5878A8;--pR:#B0625E;--pO:#8C8A6E;--pV:#C9CDD3;--stb:#FFFFFF;--mk:#1A1E26}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--pDs:#46638F;--pD:#7D9CCB;--pR:#C9847F;--pO:#A9A688;--pV:#3C424C;--stb:#15181D;--mk:#E6E8EC}}
 :root[data-theme="dark"]{--pDs:#46638F;--pD:#7D9CCB;--pR:#C9847F;--pO:#A9A688;--pV:#3C424C;--stb:#15181D;--mk:#E6E8EC}
-:root{--wB1:#CCD8EC;--wB2:#AEBFDB;--wB3:#91A6C9;--wB4:#758EB8;--wB5:#5A76A6;--wB6:#3F5F95;--wR1:#EFCFCB;--wR2:#DBB1AC;--wR3:#C8948D;--wR4:#B37770;--wR5:#9F5B54;--wR6:#8A3F38;--wA1:#F2E4C6;--wA2:#DECBA6;--wA3:#C9B286;--wA4:#B59967;--wA5:#A28147;--wA6:#8E6A24}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--wB1:#2F4364;--wB2:#465B7D;--wB3:#5F7497;--wB4:#788EB2;--wB5:#93A9CE;--wB6:#AEC4EA;--wR1:#5A3532;--wR2:#754C48;--wR3:#90645F;--wR4:#AD7D78;--wR5:#CA9791;--wR6:#E8B2AB;--wA1:#463A22;--wA2:#625436;--wA3:#806E4A;--wA4:#9F8B60;--wA5:#BFA877;--wA6:#E0C68E}}
-:root[data-theme="dark"]{--wB1:#2F4364;--wB2:#465B7D;--wB3:#5F7497;--wB4:#788EB2;--wB5:#93A9CE;--wB6:#AEC4EA;--wR1:#5A3532;--wR2:#754C48;--wR3:#90645F;--wR4:#AD7D78;--wR5:#CA9791;--wR6:#E8B2AB;--wA1:#463A22;--wA2:#625436;--wA3:#806E4A;--wA4:#9F8B60;--wA5:#BFA877;--wA6:#E0C68E}
 :root{--eA1:#F2E4C6;--eA2:#E0C384;--eA3:#C49A45;--eA4:#8E6A24;--pT:#B98F3E}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--eA1:#463A22;--eA2:#755F31;--eA3:#AE8C4C;--eA4:#E0C68E;--pT:#C9A865}}
 :root[data-theme="dark"]{--eA1:#463A22;--eA2:#755F31;--eA3:#AE8C4C;--eA4:#E0C68E;--pT:#C9A865}
@@ -15,7 +13,6 @@
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--eR4:#E8B2AB;--eR3:#C07A72;--eR2:#8C514B;--eR1:#5A3532;--eN:#3A3F47;--eB1:#2F4364;--eB2:#4A6799;--eB3:#7896CC;--eB4:#AEC4EA;--eNone:#262A31;--eNA:#30353D}}
 :root[data-theme="dark"]{--eR4:#E8B2AB;--eR3:#C07A72;--eR2:#8C514B;--eR1:#5A3532;--eN:#3A3F47;--eB1:#2F4364;--eB2:#4A6799;--eB3:#7896CC;--eB4:#AEC4EA;--eNone:#262A31;--eNA:#30353D}
 /* Fills and key swatches */
-.wB1{fill:var(--wB1)}.sw.wB1{background:var(--wB1)}.wB2{fill:var(--wB2)}.sw.wB2{background:var(--wB2)}.wB3{fill:var(--wB3)}.sw.wB3{background:var(--wB3)}.wB4{fill:var(--wB4)}.sw.wB4{background:var(--wB4)}.wB5{fill:var(--wB5)}.sw.wB5{background:var(--wB5)}.wB6{fill:var(--wB6)}.sw.wB6{background:var(--wB6)}.wR1{fill:var(--wR1)}.sw.wR1{background:var(--wR1)}.wR2{fill:var(--wR2)}.sw.wR2{background:var(--wR2)}.wR3{fill:var(--wR3)}.sw.wR3{background:var(--wR3)}.wR4{fill:var(--wR4)}.sw.wR4{background:var(--wR4)}.wR5{fill:var(--wR5)}.sw.wR5{background:var(--wR5)}.wR6{fill:var(--wR6)}.sw.wR6{background:var(--wR6)}.wA1{fill:var(--wA1)}.sw.wA1{background:var(--wA1)}.wA2{fill:var(--wA2)}.sw.wA2{background:var(--wA2)}.wA3{fill:var(--wA3)}.sw.wA3{background:var(--wA3)}.wA4{fill:var(--wA4)}.sw.wA4{background:var(--wA4)}.wA5{fill:var(--wA5)}.sw.wA5{background:var(--wA5)}.wA6{fill:var(--wA6)}.sw.wA6{background:var(--wA6)}
 .pDi{fill:url(#cgDi)}.pRi{fill:url(#cgRi)}
 .sw.pDi{background:repeating-linear-gradient(45deg,var(--pD) 0 3px,var(--pDs) 3px 5px)}.sw.pRi{background:repeating-linear-gradient(45deg,var(--pR) 0 3px,#E6C3C0 3px 5px)}
 .eA1{fill:var(--eA1)}.eA2{fill:var(--eA2)}.eA3{fill:var(--eA3)}.eA4{fill:var(--eA4)}.pT{fill:var(--pT)}
@@ -29,6 +26,11 @@
 .sw.pD{background:var(--pD)}.sw.pR{background:var(--pR)}.sw.pO{background:var(--pO)}.sw.pV{background:var(--pV)}
 .sw.pX{background:repeating-linear-gradient(45deg,var(--pD) 0 3px,var(--pR) 3px 6px)}
 /* Blocks, summaries and keys */
+.gr{display:inline-block;width:7em;height:.7em;vertical-align:-.05em;margin:0 .35em;border-radius:2px}
+.gr.gB{background:linear-gradient(90deg,var(--eB1),var(--eB4));background:linear-gradient(in oklab 90deg,var(--eB1),var(--eB4))}
+.gr.gR{background:linear-gradient(90deg,var(--eR1),var(--eR4));background:linear-gradient(in oklab 90deg,var(--eR1),var(--eR4))}
+.gr.gA{background:linear-gradient(90deg,var(--eA1),var(--eA4));background:linear-gradient(in oklab 90deg,var(--eA1),var(--eA4))}
+.gr.gW{width:10em;background:linear-gradient(90deg,var(--eR4),var(--eN),var(--eB4));background:linear-gradient(in oklab 90deg,var(--eR4),var(--eN),var(--eB4))}
 .cg{margin:1rem 0 .5rem;font-family:var(--sans)}
 .cg .cgh{font-weight:700;font-size:.95rem;margin:.2rem 0 .4rem}
 .cg.el .elsum{font-size:.85rem;line-height:1.4;margin:.15rem 0}
@@ -73,6 +75,7 @@
 .cgt button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
 .cgx{font:500 .7rem/1 var(--sans);margin-left:.5rem;padding:.25rem .45rem;border:1px dashed var(--rule);border-radius:4px;background:transparent;color:var(--muted);cursor:pointer;flex:none}
 .cgx[aria-pressed="true"]{border-style:solid;color:var(--ink)}
+.cgx:disabled{opacity:.45;cursor:default}
 .cgmap .lb,.cgmap .lk{display:none}
 .cgmap.dots .lb,.cgmap.dots .lk{display:inline}
 .cgmap.dots .ld{display:none}
@@ -89,8 +92,6 @@
 .cgmap circle{stroke:var(--stb);stroke-width:1.5;vector-effect:non-scaling-stroke}
 .cgmap circle.dot.ho{opacity:.38}
 .cgmap circle.dc{stroke:var(--stb);stroke-width:1;vector-effect:non-scaling-stroke}
-.cgmap .flo{display:none;fill:none;stroke:var(--mk);stroke-width:2.4;vector-effect:non-scaling-stroke;pointer-events:none}
-.cgmap.flips .flo{display:inline}.cgmap.flips.dots .flo{display:none}
 /* Tables: rosters, then race returns */
 details.cgr{margin:.5rem 0;font-size:.85rem}
 details.cgr summary{cursor:pointer;font-weight:600;padding:.3rem 0}
@@ -161,17 +162,22 @@ details.cgr.er td:nth-child(3){font-weight:400}
   function el(n,a){var e=document.createElementNS(NS,n);for(var k in a)e.setAttribute(k,a[k]);return e;}
   function cls(p){return p==='D'?'pD':p==='R'?'pR':p==='V'?'pV':p==='X'?'pX':p==='Di'?'pDi':p==='Ri'?'pRi':'pO';}
   // election blocks: the fill follows the view (r result, s the winner's share, w swing)
-  var WIN=[[50,1],[55,2],[60,3],[65,4],[75,5],[1e9,6]], HUE={D:'B',R:'R',T:'A'};
+  // A fill is a class ('pD', 'eB4', 'eNA') or, on the continuous scales, 'v:' and a CSS color; paint() applies either.
+  var HUE={D:'B',R:'R',T:'A'};
+  var SHARE=[40,90], SWING=15;            // the winner's share, lightest to darkest, in percent; swing, gray to darkest, in points
+  function mix(a,b,t){t=Math.max(0,Math.min(1,t)); return 'v:color-mix(in oklab,var(--'+b+') '+(100*t).toFixed(1)+'%,var(--'+a+'))';}
   function win(m){var h=HUE[m.p]; if(!h) return 'pO'; if(m.sh==null) return 'eNA';
-    for(var i=0;i<WIN.length;i++) if(m.sh<WIN[i][0]) return 'w'+h+WIN[i][1];}
-  var SWING=[[-10,'R4'],[-6,'R3'],[-3,'R2'],[-1,'R1'],[1,'N'],[3,'B1'],[6,'B2'],[10,'B3'],[1e9,'B4']];
-  function bin(v,bins){for(var i=0;i<bins.length;i++)if(v<bins[i][0])return 'e'+bins[i][1];return 'e'+bins[bins.length-1][1];}
+    return mix('e'+h+'1','e'+h+'4',(m.sh-SHARE[0])/(SHARE[1]-SHARE[0]));}
+  function swung(m){return m.sw==null?'eNA':mix('eN',m.sw>0?'eB4':'eR4',Math.abs(m.sw)/SWING);}
+  function fc(t){return t.slice(0,2)==='v:'?'cv':t;}
+  function fs(t){return t.slice(0,2)==='v:'?'fill:'+t.slice(2):'';}
+  function paint(e,base,t){e.setAttribute('class',(base?base+' ':'')+fc(t)); if(fs(t)) e.setAttribute('style',fs(t)); else e.removeAttribute('style');}
   function fillOf(m,mode){
     if(!mode) return cls(m.p);
     if(m.ho) return cls(m.x?m.p+'i':m.p);
     if(mode==='r') return m.x?cls(m.p+'i'):m.p==='D'?(m.k==='pickup'?'eB4':'eB2'):m.p==='R'?(m.k==='pickup'?'eR4':'eR2'):'pO';
     if(mode==='s') return win(m);
-    return m.sw==null?'eNA':bin(m.sw,SWING);
+    return swung(m);
   }
   var KIND={pickup:'pickup',change:'new member',held:'held',new:'new seat'};
   function swingText(m){return 'swing '+(Math.abs(m.sw)<0.05?'none':Math.abs(m.sw).toFixed(1)+' to '+(m.sw>0?'D':'R'))+(m.swb==='state'?' (State)':'');}
@@ -192,10 +198,11 @@ details.cgr.er td:nth-child(3){font-weight:400}
     return [x0,y0,x1,y1];}
   // ---- the President: States (result, winner's share, swing) or Electors (a dot an elector, as voted)
   var OFFE=[['VT',1],['NH',2],['MA',5],['RI',2],['CT',3],['NJ',5],['DE',3],['MD',4],['DC',3]];
-  function pFill(m,mode){var h=HUE[m.p]; if(!h) return 'pO';
+  // Result: the winner's color; with Changed hands on, the Congress maps' scheme (held light, changed hands dark)
+  function pFill(m,mode,flips){var h=HUE[m.p]; if(!h) return 'pO';
     if(mode==='s') return win(m);
-    if(mode==='w') return m.sw==null?'eNA':bin(m.sw,SWING);
-    return 'e'+h+'3';}
+    if(mode==='w') return swung(m);
+    return 'e'+h+(flips?(m.k==='flip'?'4':'2'):'3');}
   function pText(st,m){var t=st+': '+m.n+(m.sh!=null?' '+m.sh.toFixed(1)+'%':'')+(m.mg!=null?', by '+m.mg.toFixed(1)+' pts':'');
     if(m.k==='flip') t+='; changed hands'; else if(m.k==='new') t+='; first vote';
     if(m.sw!=null) t+='; '+swingText(m);
@@ -207,19 +214,16 @@ details.cgr.er td:nth-child(3){font-weight:400}
     function shp(ref,a){a.d=geo(ref,fine); var e=el('path',a); e._ref=ref; lod.push(e); return e;}
     function onScale(s){clearTimeout(lodT); lodT=setTimeout(function(){var f=s>=FINE; if(f===fine) return; fine=f;
       lod.forEach(function(e){e.setAttribute('d',geo(e._ref,fine));});},120);}
-    var g=el('g'), base=el('g',{'class':'lb'}), sts=el('g',{'class':'ld'}), lines=el('g'), flo=el('g'), blocks=el('g',{'class':'lk'});
-    g.appendChild(base); g.appendChild(sts); g.appendChild(lines); g.appendChild(flo); g.appendChild(blocks); svg.appendChild(g);
-    var painted=[], flips=0;
-    // the States that changed hands, outlined when the toggle is on
-    Object.keys(ps).forEach(function(st){ if(ps[st].k!=='flip') return; flips++;
-      if(st==='DC'){var c=G.centers.DC; if(c) flo.appendChild(el('circle',{cx:c[0]+16,cy:c[1]+10,r:7.5,'class':'flo'}));}
-      else if(G.states[st]) flo.appendChild(shp('s:'+st,{'class':'flo'})); });
+    var g=el('g'), base=el('g',{'class':'lb'}), sts=el('g',{'class':'ld'}), lines=el('g'), blocks=el('g',{'class':'lk'});
+    g.appendChild(base); g.appendChild(sts); g.appendChild(lines); g.appendChild(blocks); svg.appendChild(g);
+    var painted=[], flips=Object.keys(ps).filter(function(st){return ps[st].k==='flip';}).length;
+    function pf(m){return pFill(m,mode(),fig.classList.contains('flips'));}
     Object.keys(G.states).forEach(function(st){var m=ps[st];
-      var e=shp('s:'+st,{'class':'d '+(m?pFill(m,mode()):'eNone')});
+      var e=shp('s:'+st,{}); paint(e,'d',m?pf(m):'eNone');
       if(m){link(m.id,e,pText(st,m),'s:'+st,m.p,m); painted.push(e);} else {var t=el('title'); t.textContent=st+': no vote'; e.appendChild(t);}
       sts.appendChild(e); lines.appendChild(shp('s:'+st,{'class':'s'})); base.appendChild(shp('s:'+st,{'class':'b'}));});
     if(ps.DC&&G.centers.DC){var c=G.centers.DC, m=ps.DC;
-      var e=link(m.id,el('circle',{cx:c[0]+16,cy:c[1]+10,r:5.5,'class':'dc '+pFill(m,mode())}),pText('DC',m),null,m.p,m); e._dc=1; painted.push(e); sts.appendChild(e);
+      var e=link(m.id,el('circle',{cx:c[0]+16,cy:c[1]+10,r:5.5}),pText('DC',m),null,m.p,m); paint(e,'dc',pf(m)); e._dc=1; painted.push(e); sts.appendChild(e);
       sts.appendChild(el('line',{x1:c[0],y1:c[1],x2:c[0]+12,y2:c[1]+7,'class':'ll'}));}
     // electors: blocks on the States, the small ones stacked off the coast
     var offy=90, offs={};
@@ -258,13 +262,15 @@ details.cgr.er td:nth-child(3){font-weight:400}
       var a=document.createElement('a'); a.href='#'+t.getAttribute('data-row'); a.textContent='Returns \u2193'; info.appendChild(a);}
     svg.addEventListener('click',function(e){if(z.moved()) return; var t=e.target.closest('[data-row]'); if(t) say(t);});
     blocks.addEventListener('mouseover',function(e){var t=e.target.closest('.dot'); if(t) say(t);});
-    fig._recolor=function(){painted.forEach(function(e){e.setAttribute('class',(e._dc?'dc ':'d ')+pFill(e._m,mode()));});};
+    var fx=null;
+    fig._recolor=function(){painted.forEach(function(e){paint(e,e._dc?'dc':'d',pf(e._m));});
+      if(fx) fx.disabled=mode()!=='r'||blk.dataset.pv==='e';};
     var tog=document.createElement('div'); tog.className='cgt';
     tog.innerHTML='<button type="button" data-v="s" aria-pressed="true">States</button><button type="button" data-v="e" aria-pressed="false">Electors</button>';
     foot.insertBefore(tog,foot.firstChild);
-    if(flips){ var fx=document.createElement('button'); fx.type='button'; fx.className='cgx'; fx.setAttribute('aria-pressed','false');
-      fx.textContent='Changed hands'; fx.title='Outline the States that went to another party than at the last election';
-      fx.addEventListener('click',function(){var on=fig.classList.toggle('flips'); fx.setAttribute('aria-pressed',on?'true':'false');});
+    if(flips){ fx=document.createElement('button'); fx.type='button'; fx.className='cgx'; fx.setAttribute('aria-pressed','false');
+      fx.textContent='Changed hands'; fx.title='Result view: the States that went to another party than at the last election dark, the others light';
+      fx.addEventListener('click',function(){var on=fig.classList.toggle('flips'); fx.setAttribute('aria-pressed',on?'true':'false'); fig._recolor();});
       tog.parentNode.insertBefore(fx,tog.nextSibling); }
     function setView(v){
       [].forEach.call(tog.children,function(x){x.setAttribute('aria-pressed',x.dataset.v===v?'true':'false');});
@@ -273,6 +279,7 @@ details.cgr.er td:nth-child(3){font-weight:400}
       frame.style.aspectRatio=svg._vb[2]+'/'+svg._vb[3]; z.reset();
       info.textContent=v==='e'?EHINT:HINT;
       var cap=fig.querySelector('figcaption'); if(cap) cap.textContent=v==='e'?'President, the Electors\' ballots':'President, by state';
+      fig._recolor();
     }
     tog.addEventListener('click',function(e){var b=e.target.closest('button'); if(b) setView(b.dataset.v);});
     setView('s');
@@ -283,7 +290,12 @@ details.cgr.er td:nth-child(3){font-weight:400}
     var blk=fig.closest('.cg'), EV=blk&&blk.dataset.ev;
     function mode(){return EV?(blk.dataset.view||'r'):null;}
     function F(m){return fillOf(m,mode());}
-    function group(ms){var f={};ms.forEach(function(x){f[F(x)]=1;});var k=Object.keys(f);return k.length===1?k[0]:(k.length?'pX':(EV?'eNone':'pX'));}
+    // a shape shared by several seats: their common fill; on the continuous scales, their mean (one party, for share)
+    function group(ms){var f={};ms.forEach(function(x){f[F(x)]=1;});var k=Object.keys(f);
+      if(k.length===1) return k[0]; if(!k.length) return EV?'eNone':'pX';
+      var md=mode(), v=md==='s'?'sh':md==='w'?'sw':null, p=ms[0].p;
+      if(v&&ms.every(function(x){return x[v]!=null&&!x.x&&(v==='sw'||x.p===p);})){var o={p:p}; o[v]=ms.reduce(function(a,x){return a+x[v];},0)/ms.length; return F(o);}
+      return 'pX';}
     svg._vb=VB.slice();
     var frame=fig.querySelector('.cgv')||fig, fine=false, lod=[], lodT=0;
     // a path whose detail follows the zoom
@@ -309,18 +321,18 @@ details.cgr.er td:nth-child(3){font-weight:400}
         if(numbered.length){
           numbered.forEach(function(d){
             var mm=ms.filter(function(x){return x.d==d;})[0]; if(!mm||!G.shapes[m[d]]) return;
-            var e1=link(mm.id,shp('d:'+m[d],{'class':'d '+F(mm)}),seatName(st,mm),'d:'+m[d],mm.p,mm); e1._base='d'; dist.appendChild(e1);
+            var e1=link(mm.id,shp('d:'+m[d],{}),seatName(st,mm),'d:'+m[d],mm.p,mm); paint(e1,'d',F(mm)); e1._base='d'; dist.appendChild(e1);
           });
           ms.filter(function(x){return x.d==0;}).forEach(function(x){dots.push([st,x]);});
         } else {
           var k=m['0']; var ps={}; ms.forEach(function(x){ps[x.p]=1;});
           var pk=Object.keys(ps), c2=EV?group(ms):(pk.length===1?cls(pk[0]):'pX');
-          if(k&&G.shapes[k]){var e2=link(ms[0]?ms[0].id:'',shp('d:'+k,{'class':'d '+c2}),st+' at large: '+ms.map(who).join('; '),'d:'+k,pk.length===1?pk[0]:'X',null); e2._base='d'; e2._ms=ms; dist.appendChild(e2);}
+          if(k&&G.shapes[k]){var e2=link(ms[0]?ms[0].id:'',shp('d:'+k,{}),st+' at large: '+ms.map(who).join('; '),'d:'+k,pk.length===1?pk[0]:'X',null); paint(e2,'d',c2); e2._base='d'; e2._ms=ms; dist.appendChild(e2);}
         }
       } else {
         var up=ms.filter(function(x){return !x.ho;}), ps2={}; up.forEach(function(x){ps2[x.p]=1;});
         var pk2=Object.keys(ps2), c3=EV?group(up):(pk2.length===1?cls(pk2[0]):'pX'); ms=up;
-        if(G.states[st]){var e3=link(ms[0]?ms[0].id:'',shp('s:'+st,{'class':'d '+c3}),st+': '+(ms.length?ms.map(who).join('; '):(EV?'no election':'')),null,null,null); e3._base='d'; e3._ms=ms; dist.appendChild(e3);}
+        if(G.states[st]){var e3=link(ms[0]?ms[0].id:'',shp('s:'+st,{}),st+': '+(ms.length?ms.map(who).join('; '):(EV?'no election':'')),null,null,null); paint(e3,'d',c3); e3._base='d'; e3._ms=ms; dist.appendChild(e3);}
       }
     });
     // at-large seats beside districts: dots at the State's center
@@ -328,7 +340,7 @@ details.cgr.er td:nth-child(3){font-weight:400}
     Object.keys(bySt).forEach(function(st){
       var cxy=G.centers[st], n=bySt[st].length;
       bySt[st].forEach(function(mm,i){
-        var e4=link(mm.id,el('circle',{cx:cxy[0]+(i-(n-1)/2)*14,cy:cxy[1],r:6.5,'class':F(mm)}),seatName(st,mm),'s:'+st,mm.p,mm); e4._base=''; dist.appendChild(e4);
+        var e4=link(mm.id,el('circle',{cx:cxy[0]+(i-(n-1)/2)*14,cy:cxy[1],r:6.5}),seatName(st,mm),'s:'+st,mm.p,mm); paint(e4,'',F(mm)); e4._base=''; dist.appendChild(e4);
       });
     });
     }
@@ -370,11 +382,11 @@ details.cgr.er td:nth-child(3){font-weight:400}
       if(t.classList.contains('dot')){ go(t); openDistricts(true); }
       else if(opened){ pin=t; show(t); }
     });
-    function show(t){hi.innerHTML=''; if(t&&t._shape){var h=el('path',{d:geo(t._shape,fine),'class':'h '+(EV&&t._m?F(t._m):cls(t._p))}); h._ref=t._shape; hi.appendChild(h);}}
+    function show(t){hi.innerHTML=''; if(t&&t._shape){var h=el('path',{d:geo(t._shape,fine)}); paint(h,'h',EV&&t._m?F(t._m):cls(t._p)); h._ref=t._shape; hi.appendChild(h);}}
     // repaint every seat for the block's current view
     fig._recolor=function(){ [].forEach.call(svg.querySelectorAll('[data-row],path.d'),function(e){
         if(e._base==null) return; var f=e._m?F(e._m):(e._ms?group(e._ms):null); if(!f) return;
-        e.setAttribute('class',(e._base?e._base+' ':'')+f); }); show(pin); };
+        paint(e,e._base,f); }); show(pin); };
     if(ch!=='h') buildDistricts();
     // ---- the delegations view: a dot a seat, a block a State (the Senate: a dot a senator)
     var DOT=null;
@@ -396,7 +408,7 @@ details.cgr.er td:nth-child(3){font-weight:400}
         }
         ms.forEach(function(m,i){
           var r=Math.floor(i/cols), k=i%cols, inRow=Math.min(cols,n-r*cols), shift=(cols-inRow)*P/2;
-          var d=link(m.id,el('circle',{cx:x0+shift+k*P,cy:y0+r*P,r:R,'class':(m.ho?'dot ho ':'dot ')+F(m)}),seatName(st,m),ch==='h'?shapeOf(st,m):'s:'+st,m.p,m);
+          var d=link(m.id,el('circle',{cx:x0+shift+k*P,cy:y0+r*P,r:R}),seatName(st,m),ch==='h'?shapeOf(st,m):'s:'+st,m.p,m); paint(d,m.ho?'dot ho':'dot',F(m));
           d._base=m.ho?'dot ho':'dot';
           blocks.appendChild(d);
         });

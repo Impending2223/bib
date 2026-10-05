@@ -10,9 +10,10 @@ Definitions (STYLE, settled):
  2. Margin: the winner's votes less the runner-up's, in votes and in points of all the votes cast in
     the race (50-45-5 is 5 votes and 5.0 pts). Where several were elected at large, the margin is
     between the last winner and the first loser. The two-party share serves only for swing.
- 3. Vote share (maps): the winner's share of all the votes, in the winner's color, six steps: under 50,
-    50, 55, 60, 65, 75 and over; the unopposed at the top. A winner of neither major party takes the
-    color of the party caucused with.
+ 3. Vote share (maps): the winner's share of all the votes, in the winner's color, continuous, not in
+    steps: lightest at 40 percent or less, darkest at 90 or more (the unopposed), mixed in OKLab
+    (SHARE in templates/congress.html). A winner of neither major party takes the color of the party
+    caucused with. A shape shared by several seats of one party takes their mean.
  4. Caucus: a member of neither major party counts with the party caucused with, in the seats won, the
     net change and pickups, and is so labeled: "Conservative, caucusing with the Republicans" (elections/facts.yaml caucus:).
     Maps and bars give them a striped variant of that party's color.
@@ -30,9 +31,9 @@ Definitions (STYLE, settled):
     State's House vote. Senate: the seat's last regular election, six years before (1952 and 1954 from
     Wikipedia's percentages, later years from the returns). No swing where either election was unopposed,
     or where the winner ran on neither major party's line.
- 8. Colors: in the result view, held seats light and pickups dark; the swing view, one diverging scale,
-    Republican red and Democratic blue around a gray middle, four steps a side. Every map value is also
-    in the tables and on hover.
+ 8. Colors: in the result view, held seats light and pickups dark; the swing view, one continuous
+    diverging scale, gray at no swing to the darkest red or blue at 15 points or more (SWING in the
+    template). The keys draw the scales as gradient bars. Every map value is also in the tables and on hover.
  9. The Senate by senator: a dot a seat; in an election, the seats at stake, and the others faint, from
     the roster at the opening of the Congress chosen, where there is one.
 10. President: the Clerk's figure for a slate is the highest vote for any of its electors. Slates go to
@@ -42,8 +43,9 @@ Definitions (STYLE, settled):
     reckonings. Alabama, 1964: Johnson had no slate; the Democratic slate was unpledged. The electoral
     votes are as cast (tools/elections/president.py CAST).
 11. The presidential map. Result: the winner's color, a third ticket (unpledged electors, Byrd,
-    Wallace) amber; "Changed hands", a toggle under the map, outlines the States that went to another
-    party than at the last election. Vote share and swing as for the House and Senate; no swing where
+    Wallace) amber, one flat shade. "Changed hands", a toggle under the map, applies the Congress maps'
+    scheme in the result view: the States that went to another party than at the last election dark, the
+    others light. The outlines stay the standard ones. Vote share and swing as for the House and Senate; no swing where
     either party had no slate. Electors: a dot an elector, colored by the elector's vote, faithless
     electors included.
 
@@ -495,17 +497,19 @@ def block(year, data, view="r"):
     return "\n".join(out)
 
 
+SHARE_KEY = {"B": "Democratic", "R": "Republican", "A": "third ticket"}
+
+
 def share_scale(hues=("B", "R", "A")):
-    """The winner's-share key: six steps a hue."""
-    sw = lambda k: f'<span class="sw w{k}"></span>'
-    return (" ".join("".join(sw(f"{h}{i}") for i in range(1, 7)) for h in hues) +
-            ' <span class="lt">under 50 · 50 · 55 · 60 · 65 · 75 and over (unopposed)</span>')
+    """The winner's-share key: a gradient bar a hue, 40 percent or less to 90 or more (SHARE in the template)."""
+    return ('<span class="lt">40% or less to 90% or more (unopposed):</span>' +
+            " ".join(f'<span class="gr g{h}"></span>{SHARE_KEY[h]}' for h in hues))
 
 
 def swing_scale():
-    sw = lambda k: f'<span class="sw e{k}"></span>'
-    return (f'{sw("R4")}{sw("R3")}{sw("R2")}{sw("R1")}{sw("N")}{sw("B1")}{sw("B2")}{sw("B3")}{sw("B4")} '
-            '<span class="lt">10 or more Republican · 6 · 3 · 1 · ±1 · 1 · 3 · 6 · 10 or more Democratic</span>')
+    """The swing key: one diverging gradient bar, 15 points or more each way (SWING in the template)."""
+    return ('<span class="lt">15 or more Republican</span><span class="gr gW"></span>'
+            '<span class="lt">15 or more Democratic</span>')
 
 
 def legend(has_sw):
@@ -514,7 +518,7 @@ def legend(has_sw):
            f'{sw("R2")}Republican held {sw("R4")}Republican pickup <span class="sw pDi"></span><span class="sw pRi"></span>'
            f'Independent or third party, by the party caucused with {sw("None")}No election; '
            'Senators: the seats not at stake faint</span>')
-    share = f'<span class="lk lk-s">The winner\'s share of all the votes: {share_scale(("B", "R"))}</span>'
+    share = f'<span class="lk lk-s">The winner\'s share of all the votes,{share_scale(("B", "R"))}</span>'
     swing = (f'<span class="lk lk-w">Swing, points: {swing_scale()} <span class="lt">redrawn districts take their '
              'State\'s swing</span> ' + sw("NA") + 'None</span>') if has_sw else ""
     return f'<p class="cgkey elkey">{res}{share}{swing}</p>'
@@ -608,7 +612,7 @@ def pres_summary(year, data):
                 f"own leading elector ({top:,}), the unpledged electors' apart: Kennedy ahead by {k2 - N:,}. "
                 f"The slate's vote divided by its electors, {A['cq_share_words']} to Kennedy ({part:,}), as Congressional Quarterly "
                 f"reckoned it: Nixon ahead by {N - k3:,}. Mississippi's unpledged slate, which carried the State, counts for "
-                "neither. " + " ".join(A["source"].split()))
+                "neither. " + " ".join(A["source"].split()) + " " + " ".join(A["check"].split()))
     return line, note
 
 
@@ -657,8 +661,8 @@ def pres_table(year, data):
 def pres_legend(has_prev, has_sw):
     sw = lambda k: f'<span class="sw e{k}"></span>'
     res = (f'<span class="lk lk-r">{sw("B3")}Democratic {sw("R3")}Republican {sw("A3")}Third ticket (unpledged electors, Byrd, Wallace)'
-           + ('; Changed hands, under the map, outlines the States that went to another party than at the last election' if has_prev else '') + '</span>')
-    share = f'<span class="lk lk-s">The winner\'s share of all the votes: {share_scale()}</span>'
+           + ('; Changed hands, under the map: the States that went to another party than at the last election dark, the others light' if has_prev else '') + '</span>')
+    share = f'<span class="lk lk-s">The winner\'s share of all the votes,{share_scale()}</span>'
     swing = (f'<span class="lk lk-w">Swing from the last presidential election, points: {swing_scale()} '
              '<span class="lt">none where a party had no slate</span> ' + sw("NA") + 'None</span>') if has_sw else ""
     dots = ('<span class="lk lk-e">Electors, one dot each, as they voted: <span class="sw pD"></span>Democratic '

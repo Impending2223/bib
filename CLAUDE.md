@@ -297,9 +297,9 @@ race, and in presidential years the vote for President by State with the elector
 1974 before the Congress it chose (the 86th and 94th have no rosters); a calendar entry tagged
 `election:<year>` carries its block too (now Nov. 6, 1962). A block: the electoral and popular vote
 first, then by chamber the seats won, the net change from the close of the last Congress, pickups,
-and new members; one view switch for every map (Result; Vote share, the winner's share; Swing); the
+and new members; one view switch for every map (Result; Vote share, the winner's share, continuous; Swing, continuous); the
 President's map above the House and Senate, with an Electors toggle (a dot an elector, as voted) and a
-Changed-hands toggle; the Senate map with a Senators toggle (a dot a seat); and every race in tables:
+Changed-hands toggle (in Result, the flips dark, the others light); the Senate map with a Senators toggle (a dot a seat); and every race in tables:
 candidates with party, votes and share, the margin in votes and in points of all the votes cast, and
 a note. Pickups are shaded in the winner's color, other member changes in gray. Members of neither
 major party count with the party they caucused with, and are labeled so ("Conservative, caucusing
@@ -313,7 +313,6 @@ tools/elections/read.py             loads elections/readings/; its docstring is 
 tools/elections/review.py           the by-eye loop: left, sheets, pages, locate, verify, merge, audit (docstring)
 tools/elections/review/             READER.md and PRESIDENT.md: instructions to hand a reader, person or agent
 tools/bib/elections.py              renders the blocks and checks the data (STYLE notes; "Map records")
-tools/bib/palette.py                the winner's-share colors (--w*), interpolated from the --e* endpoints
 ```
 
 - Votes: the Clerk's *Statistics of the Presidential and Congressional Election*
@@ -347,8 +346,11 @@ tools/bib/palette.py                the winner's-share colors (--w*), interpolat
   `review/READER.md`; `review.py verify`, then `merge`; rerun `make_elections.py` (it should
   leave nothing); `review.py audit YEAR`; `./bib check`; then tag the calendar entry.
 - Colors are tokens at the top of `templates/congress.html` (its CSS is in commented
-  sections). After changing an `--e*` endpoint, run `python3 -m tools.bib.palette` and paste
-  its lines over the `--w*` lines; `--check` says whether they are current.
+  sections). Vote share and swing are continuous, not stepped: mixed in OKLab between the
+  `--e*` endpoints, over the ranges in `SHARE` and `SWING` in its script; the keys draw the
+  same ranges as gradient bars. Change an endpoint and every map and key follows.
+- "Check" in a note (as in the calendar) marks a detail still to verify:
+  `grep -rn Check elections/facts.yaml elections/readings`.
 
 ## Economic indicators
 

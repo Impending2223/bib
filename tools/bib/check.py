@@ -156,9 +156,6 @@ def run(series, only=None):
     from . import elections
     for where, msg in elections.problems():
         add(ERROR, where, msg, "elections")
-    from . import palette
-    if not palette.current():
-        add(ERROR, "templates/congress.html", "the --w* colors are not those interpolated from --e*: run python3 -m tools.bib.palette", "palette")
     # the day's executive documents (daybook/*.yaml)
     from . import daybook
     for where, msg in daybook.problems():
