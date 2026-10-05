@@ -157,6 +157,8 @@ details.cgr.er td:nth-child(3){font-weight:400}
           CO:[326,285,3],ME:[905,95,3],NE:[428,236,4],AZ:[204,376,2],HI:[318,578,2],AK:[102,516,1]};
   // delegations set off the coast, north to south: [columns, top y]
   var OFF={VT:[1,96],NH:[2,116],MA:[5,138],RI:[2,186],CT:[3,206],NJ:[5,242],DE:[1,290],MD:[4,310]};
+  // the Senate: two senators a State, so one row each, evenly spaced, in the same order
+  var SOFF={}; Object.keys(OFF).forEach(function(st,i){SOFF[st]=[2,96+i*28];});
   var OX=1000, LX=992;                    // the offset blocks' left edge; their labels end just before it
   var ORDER={D:0,Di:1,ID:2,I:3,C:4,O:5,V:6,Ri:7,R:8};
   function el(n,a){var e=document.createElementNS(NS,n);for(var k in a)e.setAttribute(k,a[k]);return e;}
@@ -355,7 +357,7 @@ details.cgr.er td:nth-child(3){font-weight:400}
     info.textContent=hint;
     fig.appendChild(foot);
     var DHINT=ch==='h'?'One dot a seat. Hover a dot for its district; click a dot to open it. Then click a district to select it, double-click to go there. Double-click white space to come back.'
-      :'One dot a senator'+(EV?'; the seats not at stake faint':'')+'. Hover a dot for the senator; click a dot to go to the State. Double-click white space to come back.';
+      :'One dot a senator'+(EV?'; the seats not at stake faint':'')+'. Hover or click a dot for the senator; a click marks the State. Double-click white space to reset the zoom.';
     function isDots(){return fig.classList.contains('dots');}
     // the dots stay until one is clicked; then the districts show, until home
     function openDistricts(on){if(on)buildDistricts(); blocks.classList.toggle('faded',on); fig.classList.toggle('zoomed',on); opened=on;}
@@ -379,7 +381,10 @@ details.cgr.er td:nth-child(3){font-weight:400}
       say(t);
       if(!isDots()||!t._shape) return;
       // a dot opens its district; once open, a click on a district selects it
-      if(t.classList.contains('dot')){ go(t); openDistricts(true); }
+      if(t.classList.contains('dot')){
+        if(ch==='h'){ go(t); openDistricts(true); }
+        else { pin=t; show(t); }            // the Senate: mark the State, stay where you are
+      }
       else if(opened){ pin=t; show(t); }
     });
     function show(t){hi.innerHTML=''; if(t&&t._shape){var h=el('path',{d:geo(t._shape,fine)}); paint(h,'h',EV&&t._m?F(t._m):cls(t._p)); h._ref=t._shape; hi.appendChild(h);}}
@@ -395,7 +400,7 @@ details.cgr.er td:nth-child(3){font-weight:400}
       Object.keys(G.states).forEach(function(st){ base.appendChild(shp('s:'+st,{'class':'b'})); });
       Object.keys(seats[ch]).forEach(function(st){
         var ms=seats[ch][st].slice().sort(function(a,b){return ((a.ho?1:0)-(b.ho?1:0))||(ORDER[a.p]-ORDER[b.p])||((a.d||a.cl||0)-(b.d||b.cl||0));}),
-            n=ms.length, cols, x0, y0, off=OFF[st];
+            n=ms.length, cols, x0, y0, off=(ch==='h'?OFF:SOFF)[st];
         if(off){ cols=off[0]; x0=OX; y0=off[1];
           var rows=Math.ceil(n/cols), my=y0+(rows-1)*P/2, cxy=G.centers[st];
           blocks.appendChild(el('line',{x1:cxy[0],y1:cxy[1],x2:LX-18,y2:my,'class':'ll'}));
@@ -407,7 +412,7 @@ details.cgr.er td:nth-child(3){font-weight:400}
           x0=on[0]-(cols-1)*P/2; y0=on[1]-(rows2-1)*P/2;
         }
         ms.forEach(function(m,i){
-          var r=Math.floor(i/cols), k=i%cols, inRow=Math.min(cols,n-r*cols), shift=(cols-inRow)*P/2;
+          var r=Math.floor(i/cols), k=i%cols, inRow=Math.min(cols,n-r*cols), shift=(off&&ch!=='h')?0:(cols-inRow)*P/2;
           var d=link(m.id,el('circle',{cx:x0+shift+k*P,cy:y0+r*P,r:R}),seatName(st,m),ch==='h'?shapeOf(st,m):'s:'+st,m.p,m); paint(d,m.ho?'dot ho':'dot',F(m));
           d._base=m.ho?'dot ho':'dot';
           blocks.appendChild(d);
