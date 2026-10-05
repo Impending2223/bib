@@ -320,7 +320,7 @@ def block(data, sec_from, sec_to, first_section, year):
         nowv = cell_now(sid, s, r)
         if nowv != "—" and now.get("source"):
             nowv = f'<span title="{esc(now["source"] + (": " + exact(r["now"], now.get("unit")) if r.get("now") is not None else ""))}">{nowv}</span>'
-        trs.append(f'<tr><td class="n">{name}</td><td>{first}</td><td class="rel">{rel}</td><td>{nowv}</td></tr>')
+        trs.append(f'<tr><td class="iname">{name}</td><td>{first}</td><td class="rel">{rel}</td><td>{nowv}</td></tr>')
     return ('<div class="ind"><table><thead><tr><th>Indicator</th><th>As first reported</th>'
             '<th>Released</th><th>Revised, today</th></tr></thead><tbody>'
             + "".join(trs) + "</tbody></table></div>")
@@ -342,15 +342,18 @@ def defs_block(data):
 
 
 STYLE = """<style>
+/* class names here are prefixed or scoped: the page's own .n (entry notes) once made the first cell a block */
 div.ind{margin:.4rem 0 1.1rem;overflow-x:auto}
 div.ind table{border-collapse:collapse;font-family:var(--sans);font-size:.8rem;line-height:1.35;color:var(--ink);min-width:100%;font-variant-numeric:tabular-nums}
-div.ind th,div.ind td{text-align:left;vertical-align:top;padding:.2rem .6rem .2rem 0;border-bottom:1px solid var(--rule)}
+div.ind th,div.ind td{display:table-cell;text-align:left;vertical-align:top;padding:.2rem .6rem .2rem 0;border-bottom:1px solid var(--rule)}
 div.ind thead th{color:var(--muted);font-weight:600}
+div.ind th:last-child,div.ind td:last-child{padding-right:0}
+@media (max-width:480px){div.ind th,div.ind td{padding-right:.3rem}}
 div.ind tr.g th{padding-top:.55rem;color:var(--muted);font-weight:600;font-size:.75rem;text-transform:uppercase;letter-spacing:.04em;border-bottom:0}
 div.ind tr.g th .u{text-transform:none;letter-spacing:0}
 div.ind .per,div.ind .u,div.ind td.rel{color:var(--muted)}
-div.ind td.n a{color:inherit;text-decoration-color:var(--rule)}
-div.ind .kv{display:inline-grid;grid-template-columns:7.5em 4.2em;column-gap:.4rem}
+div.ind td.iname a{color:inherit;text-decoration-color:var(--rule)}
+div.ind .kv{display:inline-grid;grid-template-columns:minmax(3.5em,7.5em) auto;column-gap:.4rem}
 div.ind .kv .v{text-align:right}
 div.ind-defs{font-family:var(--sans);font-size:.85rem;line-height:1.45;margin:1rem 0 1.5rem}
 div.ind-defs dt{font-weight:600;margin-top:.6rem}
