@@ -7,33 +7,61 @@ build/congress.html carries each election before the Congress it chose.
 
 Definitions (STYLE, settled):
  1. Share: a candidate's votes over all votes cast for the office in that race (scattering included).
- 2. Margin: the winner's votes less the runner-up's ("numeric"), and the same difference over the two
-    candidates' combined votes, in points (the two-party margin: 50-45-5 is 5 votes and 5.3 pts).
-    Where several were elected at large, the margin is between the last winner and the first loser.
- 3. Democratic share (maps): Democratic votes over Democratic and Republican votes in the race (a
-    fusion candidate's Liberal line counts with the Democratic). A race without both parties is
-    "unopposed" and takes the scale's end.
- 4. Pickup: the seat's winner is of a party other than every incumbent who held it (the incumbents
-    as Wikipedia lists them, with redistricted members under the district they ran in). A new member
-    of the incumbent's party is a member change, shaded lightly. A new seat has no incumbent.
- 5. Swing: the change in the Democratic share from the seat's previous election, in points, toward
-    the Democrats (+) or Republicans (-). House: the same district where its lines did not change
-    (the same shape in congress/geo.json for both Congresses), otherwise the State's House vote.
-    Senate: the seat's last regular election, six years before (1952 and 1954 from Wikipedia's
-    percentages, later years from the returns). No swing where either election was unopposed.
- 6. Colors: one diverging scale, Republican red and Democratic blue around a gray middle, four
-    steps a side (tools/bib/elections.py SCALES); in the result view, held seats light and pickups
-    dark. Every map value is also in the tables and on hover.
- 7. President: the Clerk's figure for a slate is the highest vote for any of its electors. Slates go to
+ 2. Margin: the winner's votes less the runner-up's, in votes and in points of all the votes cast in
+    the race (50-45-5 is 5 votes and 5.0 pts). Where several were elected at large, the margin is
+    between the last winner and the first loser. The two-party share serves only for swing.
+ 3. Vote share (maps): the winner's share of all the votes, in the winner's color, continuous, not in
+    steps: lightest at 40 percent or less, darkest at 90 or more (the unopposed), mixed in OKLab
+    (SHARE in templates/congress.html). A winner of neither major party takes the color of the party
+    caucused with. A shape shared by several seats of one party takes their mean.
+ 4. Caucus: a member of neither major party counts with the party caucused with, in the seats won, the
+    net change and pickups, and is so labeled: "Conservative, caucusing with the Republicans" (elections/facts.yaml caucus:).
+    Maps and bars give them a striped variant of that party's color.
+ 5. Pickup: the seat's winner caucuses with a party other than every incumbent who held it (the
+    incumbents as Wikipedia lists them, with redistricted members under the district they ran in, and a
+    vacant seat under the member who last held it). A new member of the incumbent's party is a member
+    change, shaded lightly. A new seat has no incumbent.
+ 6. Net change: the seats won, by caucus, less the seats held at the close of the last Congress (the
+    members sitting at the election; a vacant seat with the party that last held it). In the Senate,
+    the seats at stake only.
+ 7. Swing: the change in the Democratic share of the two-party vote (Democratic votes over Democratic
+    and Republican, a fusion candidate's Liberal line with the Democratic) from the seat's previous
+    election, in points, toward the Democrats or the Republicans. House: the same district where its
+    lines did not change (the same shape in congress/geo.json for both Congresses), otherwise the
+    State's House vote. Senate: the seat's last regular election, six years before (1952 and 1954 from
+    Wikipedia's percentages, later years from the returns). No swing where either election was unopposed,
+    or where the winner ran on neither major party's line.
+ 8. Colors: in the result view, held seats light and pickups dark; the swing view, one continuous
+    diverging scale, gray at no swing to the darkest red or blue at 15 points or more (SWING in the
+    template). The keys draw the scales as gradient bars. Every map value is also in the tables and on hover.
+ 9. The Senate by senator: a dot a seat; in an election, the seats at stake, and the others faint, from
+    the roster at the opening of the Congress chosen, where there is one.
+10. President: the Clerk's figure for a slate is the highest vote for any of its electors. Slates go to
     candidates by Wikipedia's figures, else by party (New York's Liberal line with the Democrat, its
     Conservative line with the Republican). Alabama, 1960: the Democratic slate, five electors pledged
-    to Kennedy and six unpledged, counts with Kennedy. Alabama, 1964: Johnson had no slate; the
-    Democratic slate was unpledged. The electoral votes are as cast (tools/elections/president.py CAST).
- 8. The presidential map. Result: the winner's color, light where the party carried the State at the
-    last election, dark where it changed hands; a third ticket (unpledged electors, Byrd, Wallace) amber.
-    Vote share: the winner's share of all votes, under 50, 50, 55, 65 and over. Swing: the change in the
-    Democratic share of the two-party vote from the last presidential election; none where either party
-    had no slate. Electors: a dot an elector, colored by the elector's vote, faithless electors included.
+    to Kennedy and six unpledged, counts with Kennedy; the note to the popular vote gives the other
+    reckonings. Alabama, 1964: Johnson had no slate; the Democratic slate was unpledged. The electoral
+    votes are as cast (tools/elections/president.py CAST).
+11. The presidential map. Result: the winner's color, a third ticket (unpledged electors, Byrd,
+    Wallace) amber, one flat shade. "Changed hands", a toggle under the map, applies the Congress maps'
+    scheme in the result view: the States that went to another party than at the last election dark, the
+    others light. The outlines stay the standard ones. Vote share and swing as for the House and Senate; no swing where
+    either party had no slate. Electors: a dot an elector, colored by the elector's vote, faithless
+    electors included.
+
+Map records (the JSON in each block's script.cgseats, read by templates/congress.html):
+  seats.h[ST], seats.s[ST]: one record a seat. Congress at its opening (congress.py): {p, n, id, d | cl, pl?}.
+  Election (rows_for): {p, n, id, d | cl, k, sh, mg?, u?, sw?, swb?, x?, pl?, ho?}
+    p   party for color and counts: D, R (by caucus for a third-party member), O; at an opening also V
+        (vacant), Di, Ri (a third-party member caucusing with the Democrats, the Republicans)
+    n   the label on the map (a surname); pl the full party label of a third-party member
+    id  the row id in the tables (e<year>-<ch>-<ST>-<seat>, or the roster's cg<c>-<ch>-<ST>-<seat>)
+    d   district (0 at large) | cl Senate class
+    k   pickup | change | held | new          sh the winner's share of all votes; u unopposed
+    mg  the margin, points of all votes        sw swing, points toward the Democrats; swb its basis
+    x   a winner of neither major party        ho a seat not at stake (the Senate, from the roster)
+  seats.p[ST] (pres_rows): {p (D, R, T a third ticket, O), n, id, ev, cast [[class, electors, name]],
+    sh, mg, k (held | flip | new), sw}
 """
 import json
 import os
@@ -46,9 +74,6 @@ DIR = os.path.join(store.ROOT, "elections")
 MON = ["Jan.", "Feb.", "Mar.", "Apr.", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."]
 NAME = {"D": "Democratic", "R": "Republican", "ID": "Independent Democratic", "L": "Liberal", "C": "Conservative", "I": "Independent",
         "O": "other"}
-# bins: Democratic share (%), and swing (points toward the Democrats)
-SHARE_BINS = [(20, "R4"), (35, "R3"), (45, "R2"), (48, "R1"), (52, "N"), (55, "B1"), (65, "B2"), (80, "B3"), (101, "B4")]
-SWING_BINS = [(-10, "R4"), (-6, "R3"), (-3, "R2"), (-1, "R1"), (1, "N"), (3, "B1"), (6, "B2"), (10, "B3"), (999, "B4")]
 
 _cache = {}
 
@@ -79,7 +104,43 @@ def num(v):
 
 
 def party_of(c):
+    """The party for the two-party share: the Democratic and Republican nominees' lines."""
     return "D" if c["p"] in ("D", "ID") else c["p"]
+
+
+def facts():
+    """elections/facts.yaml: the hand facts (caucus, the President's electors, Alabama 1960)."""
+    if "facts" not in _cache:
+        p = os.path.join(DIR, "facts.yaml")
+        _cache["facts"] = store.load_yaml(p) if os.path.exists(p) else {}
+    return _cache["facts"]
+
+
+def third(surname_):
+    """(label, caucus) for a member of neither major party, from facts.yaml caucus:, or None."""
+    t = (facts().get("caucus") or {}).get(surname_)
+    return (t["label"], t["caucus"]) if t else None
+
+
+PLURAL = {"D": "Democrats", "R": "Republicans"}
+
+
+def caucus(c):
+    """D or R: the party a member sat with (Buckley, Conservative, with the Republicans)."""
+    if c["p"] in ("D", "R"):
+        return c["p"]
+    if c["p"] == "ID":
+        return "D"
+    t = third(surname(c["n"]))
+    return t[1] if t else c["p"]
+
+
+def third_label(c):
+    """'Conservative, caucusing with the Republicans', for a winner of neither major party."""
+    t = third(surname(c["n"]))
+    lab = t[0] if t else NAME.get(c["p"], c.get("party") or c["p"])
+    cc = caucus(c)
+    return f"{lab}, caucusing with the {PLURAL[cc]}" if cc in PLURAL else lab
 
 
 def surname(n):
@@ -98,7 +159,7 @@ def metrics(r):
     if len(order) > k:
         a, b = order[k - 1]["v"], order[k]["v"]
         out["margin"] = a - b
-        out["margin_pts"] = round(100 * (a - b) / (a + b), 1) if a + b else None
+        out["margin_pts"] = round(100 * (a - b) / total, 1) if total else None
     d = sum(c["v"] for c in cs if party_of(c) == "D")
     rr = sum(c["v"] for c in cs if party_of(c) == "R")
     out["d"], out["r"] = d, rr
@@ -120,15 +181,8 @@ def kind(r, winner):
         return "new"
     if surname(winner["n"]) in {surname(i["n"]) for i in inc}:
         return "held"
-    parties = {("D" if i["p"] in ("D", "ID") else i["p"]) for i in inc}
-    return "change" if party_of(winner) in parties else "pickup"
-
-
-def bin_of(v, bins):
-    for hi, k in bins:
-        if v < hi:
-            return k
-    return bins[-1][1]
+    parties = {caucus(i) for i in inc}
+    return "change" if caucus(winner) in parties else "pickup"
 
 
 # ---------------------------------------------------------------- swing
@@ -198,35 +252,60 @@ def senate_base(year, data):
 
 # ---------------------------------------------------------------- the block
 
+def roster(c):
+    """The Congress's members at its opening (congress/<c>.yaml), or None."""
+    p = os.path.join(store.ROOT, "congress", f"{c}.yaml")
+    if ("roster", c) not in _cache:
+        _cache[("roster", c)] = store.load_yaml(p) if os.path.exists(p) else None
+    return _cache[("roster", c)]
+
+
 def rows_for(year, data):
-    """Every seat's map record and the race it came from."""
+    """Every seat's map record and the race it came from; in the Senate also the seats not at stake,
+    from the roster at the opening of the Congress chosen, where there is one."""
     E = data[year]
     sw = swings(year, data)
     prior = senate_base(year, data)
     seats = {"h": defaultdict(list), "s": defaultdict(list)}
+    up = defaultdict(set)
     for r in E["races"]:
         m = metrics(r)
         winners = [c for c in r["cands"] if c.get("w")]
-        for i, w in enumerate(winners):
-            k = kind(r, w)
-            rec = {"p": party_of(w) if party_of(w) in ("D", "R") else "O", "n": short(w["n"]), "k": k,
-                   "id": rid(year, r)}
-            if "dshare" in m:
-                rec["sh"] = m["dshare"]
-            if m.get("unopposed"):
+        for w in winners:
+            cc = caucus(w)
+            rec = {"p": cc if cc in ("D", "R") else "O", "n": short(w["n"]), "k": kind(r, w), "id": rid(year, r)}
+            if w["p"] not in ("D", "R"):
+                rec["x"], rec["pl"] = 1, third_label(w)
+            opposed = any(c is not w and c.get("v") for c in r["cands"])
+            if w.get("v") is None or not opposed:
                 rec["u"] = 1
+            rec["sh"] = round(100 * w["v"] / m["total"], 1) if w.get("v") and m["total"] else 100.0
+            if m.get("margin_pts") is not None:
+                rec["mg"] = m["margin_pts"]
             s = sw.get((r["ch"], r["st"], r["seat"]))
             if r["ch"] == "s" and not r.get("special"):
                 ps = prior.get(r["st"])
                 if ps is not None and "dshare" in m and not m.get("unopposed") and 0 < ps < 100:
                     s = (round(m["dshare"] - ps, 1), "seat")
-            if s:
+            if s and not rec.get("x"):    # no swing where the winner ran on neither major party's line
                 rec["sw"], rec["swb"] = s
             if r["ch"] == "h":
                 rec["d"] = r["seat"]
             else:
                 rec["cl"] = r["seat"]
+                up[r["st"]].add(r["seat"])
             seats[r["ch"]][r["st"]].append(rec)
+    C = roster(E["congress"])
+    for r in (C or {}).get("senate", []):
+        if r.get("vacant") or r["cl"] in up.get(r["st"], ()):
+            continue
+        sur = r["name"].split(",")[0].strip()
+        cc = caucus({"p": r["party"], "n": sur})
+        rec = {"p": cc if cc in ("D", "R") else "O", "n": sur, "cl": r["cl"], "ho": 1,
+               "id": f"cg{E['congress']}-s-{r['st']}-{r['cl']}"}
+        if r["party"] not in ("D", "R"):
+            rec["x"], rec["pl"] = 1, third_label({"p": r["party"], "n": sur})
+        seats["s"][r["st"]].append(rec)
     return seats
 
 
@@ -242,21 +321,46 @@ def rid(year, r):
     return f"e{year}-{r['ch']}-{r['st']}-{r['seat']}{pos}{sp}"
 
 
+def ordinal(n):
+    return f"{n}{'th' if 11 <= n % 100 <= 13 else {1: 'st', 2: 'nd', 3: 'rd'}.get(n % 10, 'th')}"
+
+
+def signed(v):
+    return f"+{v}" if v > 0 else f"\u2212{-v}" if v < 0 else "0"
+
+
 def summary(year, data):
-    """Seats won by party, and the change from the last election's winners (House) or the seats up (Senate)."""
+    """Seats won by party; the net change by caucus from the seats held at the close of the last
+    Congress (the members sitting at the election, a vacant seat with the party that last held it);
+    pickups, new members of the same party, new seats."""
     E = data[year]
     out = []
     for ch, label in (("h", "House"), ("s", "Senate")):
         races = [r for r in E["races"] if r["ch"] == ch]
-        won = Counter(party_of(c) for r in races for c in r["cands"] if c.get("w"))
-        pk = Counter(party_of(c) for r in races for c in r["cands"] if c.get("w") and kind(r, c) == "pickup")
-        ch_ = sum(1 for r in races for c in r["cands"] if c.get("w") and kind(r, c) == "change")
-        new = sum(1 for r in races for c in r["cands"] if c.get("w") and kind(r, c) == "new")
-        n = sum(won.values())
-        parts = [f"{won[p]} {NAME.get(p, p)}" for p in ("D", "R") if won.get(p)]
-        parts += [f"{v} {NAME.get(p, p)}" for p, v in won.items() if p not in ("D", "R")]
+        wins = [(r, c) for r in races for c in r["cands"] if c.get("w")]
+        won = Counter(c["p"] for r, c in wins if c["p"] in ("D", "R"))
+        thirds = [c for r, c in wins if c["p"] not in ("D", "R")]
+        n = len(wins)
+        parts = [f"{won[p]} {NAME[p]}" for p in ("D", "R") if won.get(p)]
+        parts += [f"1 {third_label(c)}" for c in thirds]
         what = "seats" if ch == "h" else "seats at stake" + (", specials included" if any(r.get("special") for r in races) else "")
-        line = f"{label}, {n} {what}: " + ", ".join(parts) + "."
+        line = f"{label}, {n} {what}: " + ("; " if thirds else ", ").join(parts) + "."
+        before, seen = Counter(), set()
+        for r in races:
+            for i in r.get("inc") or []:
+                if i["n"] not in seen:
+                    seen.add(i["n"])
+                    before[caucus(i)] += 1
+        after = Counter(caucus(c) for r, c in wins)
+        net = {p: after.get(p, 0) - before.get(p, 0) for p in ("D", "R")}
+        if any(net.values()):
+            line += f" Net change from the close of the {ordinal(E['congress'] - 1)} Congress: " + \
+                ", ".join(f"{NAME[p]} {signed(v)}" for p, v in sorted(net.items(), key=lambda kv: -kv[1]) if v) + "."
+        else:
+            line += f" No net change from the close of the {ordinal(E['congress'] - 1)} Congress."
+        pk = Counter(caucus(c) for r, c in wins if kind(r, c) == "pickup")
+        ch_ = sum(1 for r, c in wins if kind(r, c) == "change")
+        new = sum(1 for r, c in wins if kind(r, c) == "new")
         if pk:
             line += " Pickups: " + ", ".join(f"{NAME.get(p, p)} {v}" for p, v in pk.most_common()) + "."
         if ch_:
@@ -357,13 +461,17 @@ def block(year, data, view="r"):
     has_sw = any("sw" in x for ch in seats.values() for v in ch.values() for x in v)
     out = [f'<div class="cg el" data-cg="{c}" data-ev="{year}">']
     out.append(f'<p class="cgh">Election of {esc(fmt_date(E["date"]))}: the {c}th Congress</p>')
-    for line in summary(year, data):
-        out.append(f'<p class="elsum">{esc(line)}</p>')
     pres = E.get("president")
+    note = None
     if pres:
         seats["p"] = pres_rows(year, data)
-        out.append(f'<p class="elsum">{esc(pres_summary(year, data))}</p>')
+        line, note = pres_summary(year, data)
+        out.append(f'<p class="elsum">{esc(line)}</p>')
         has_sw = has_sw or any("sw" in x for x in seats["p"].values())
+    for line in summary(year, data):
+        out.append(f'<p class="elsum">{esc(line)}</p>')
+    if note:
+        out.append(f'<p class="elsum elnote">{esc(note)}</p>')
     out.append(f'<script type="application/json" class="cgseats">{json.dumps(seats, ensure_ascii=False, separators=(",", ":"))}</script>')
     views = '<span data-views="r s' + (' w' if has_sw else '') + '"></span>'
     if pres:
@@ -384,27 +492,40 @@ def block(year, data, view="r"):
     src = E.get("source", {})
     out.append(f'<p class="elsrc">Returns: <a href="{esc(src.get("url", ""))}">{esc(src.get("label", ""))}</a>, '
                'read by OCR and checked against its recapitulation totals and Wikipedia\'s percentages, or read by eye. '
-               'Incumbents and their fates: Wikipedia\'s race tables. Margin: votes, and points of the two leaders\' combined vote.</p>')
+               'Incumbents and their fates: Wikipedia\'s race tables. Margin: votes, and points of all the votes cast in the race.</p>')
     out.append("</div>")
     return "\n".join(out)
 
 
+SHARE_KEY = {"B": "Democratic", "R": "Republican", "A": "third ticket"}
+
+
+def share_scale(hues=("B", "R", "A")):
+    """The winner's-share key: a gradient bar a hue, 40 percent or less to 90 or more (SHARE in the template)."""
+    return ('<span class="lt">40% or less to 90% or more (unopposed):</span>' +
+            " ".join(f'<span class="gr g{h}"></span>{SHARE_KEY[h]}' for h in hues))
+
+
+def swing_scale():
+    """The swing key: one diverging gradient bar, 15 points or more each way (SWING in the template)."""
+    return ('<span class="lt">15 or more Republican</span><span class="gr gW"></span>'
+            '<span class="lt">15 or more Democratic</span>')
+
+
 def legend(has_sw):
     sw = lambda k: f'<span class="sw e{k}"></span>'
-    share = (f'<span class="lk lk-s">Democratic share of the two-party vote: {sw("R4")}{sw("R3")}{sw("R2")}{sw("R1")}'
-             f'{sw("N")}{sw("B1")}{sw("B2")}{sw("B3")}{sw("B4")} '
-             '<span class="lt">under 20 · 35 · 45 · 48–52 · 55 · 65 · 80 and over; unopposed at the ends</span></span>')
     res = (f'<span class="lk lk-r">{sw("B2")}Democratic held {sw("B4")}Democratic pickup '
-           f'{sw("R2")}Republican held {sw("R4")}Republican pickup {sw("None")}No election</span>')
-    swing = (f'<span class="lk lk-w">Swing, points: {sw("R4")}{sw("R3")}{sw("R2")}{sw("R1")}{sw("N")}'
-             f'{sw("B1")}{sw("B2")}{sw("B3")}{sw("B4")} <span class="lt">10 or more Republican · 6 · 3 · 1 · ±1 · 1 · 3 · 6 · 10 or more Democratic; '
-             'redrawn districts take their State\'s swing</span> ' + sw("NA") + 'None</span>') if has_sw else ""
+           f'{sw("R2")}Republican held {sw("R4")}Republican pickup <span class="sw pDi"></span><span class="sw pRi"></span>'
+           f'Independent or third party, by the party caucused with {sw("None")}No election; '
+           'Senators: the seats not at stake faint</span>')
+    share = f'<span class="lk lk-s">The winner\'s share of all the votes,{share_scale(("B", "R"))}</span>'
+    swing = (f'<span class="lk lk-w">Swing, points: {swing_scale()} <span class="lt">redrawn districts take their '
+             'State\'s swing</span> ' + sw("NA") + 'None</span>') if has_sw else ""
     return f'<p class="cgkey elkey">{res}{share}{swing}</p>'
 
 
 # ---------------------------------------------------------------- the President
 
-WIN_BINS = [(50, "1"), (55, "2"), (65, "3"), (101, "4")]   # the winner's share: plurality, 50, 55, 65
 
 
 def pcls(k, cands):
@@ -424,7 +545,7 @@ def pmetrics(rec):
         out["sh"] = round(100 * tot[order[0]] / total, 1)
     if len(order) > 1:
         a, b = tot[order[0]], tot[order[1]]
-        out["margin"], out["margin_pts"] = a - b, round(100 * (a - b) / (a + b), 1) if a + b else None
+        out["margin"], out["margin_pts"] = a - b, round(100 * (a - b) / total, 1) if total else None
     d, r = tot.get("D", 0), tot.get("R", 0)
     if d and r:
         out["dsh"] = round(100 * d / (d + r), 1)
@@ -450,6 +571,8 @@ def pres_rows(year, data):
                "ev": r["ev"], "cast": [[pcls(k, C), n, short(C[k]["n"]) if k in C else k] for k, n in r["cast"].items()]}
         if "sh" in m:
             rec["sh"] = m["sh"]
+        if m.get("margin_pts") is not None:
+            rec["mg"] = m["margin_pts"]
         q = pm.get(r["st"])
         if prev:
             rec["k"] = "new" if q is None else "held" if pcls(q["win"], PC) == p else "flip"
@@ -460,6 +583,7 @@ def pres_rows(year, data):
 
 
 def pres_summary(year, data):
+    """The electoral and popular vote; for 1960, a note on the ways of counting Alabama."""
     E = data[year]
     C = pcands(E)
     ev, pop = Counter(), Counter()
@@ -470,10 +594,26 @@ def pres_summary(year, data):
             pop[k] += v
     total = sum(pop.values()) + sum(r.get("scat") or 0 for r in E["president"]["states"])
     name = lambda k: C[k]["n"] if k in C else "Others"
+    star = "*" if year == 1960 else ""
     line = f"President, {sum(ev.values())} electoral votes: " + ", ".join(f"{name(k)} {n}" for k, n in ev.most_common()) + "."
-    line += " Popular vote: " + ", ".join(f"{name(k)} {pop[k]:,} ({100 * pop[k] / total:.1f}%)" for k, _ in pop.most_common()
-                                         if k != "O" and 100 * pop[k] / total >= 0.5) + "."
-    return line
+    line += f" Popular vote{star}: " + ", ".join(f"{name(k)} {pop[k]:,} ({100 * pop[k] / total:.1f}%)" for k, _ in pop.most_common()
+                                                if k != "O" and 100 * pop[k] / total >= 0.5) + "."
+    note = None
+    if year == 1960:
+        al = next(r for r in E["president"]["states"] if r["st"] == "AL")
+        d = sum(x["v"] for x in al["slates"] if x["k"] == "D")
+        K, N = pop["D"], pop["R"]
+        A = facts()["alabama_1960"]
+        top, (num_, den) = A["kennedy_top_elector"], A["cq_share"]
+        k2, part = K - d + top, round(d * num_ / den)
+        k3 = K - d + part
+        note = (f"* Alabama's Democratic slate, eleven electors, five pledged to Kennedy and six unpledged, is counted here "
+                f"with Kennedy, at its leading elector's vote ({d:,}): Kennedy ahead by {K - N:,}. At the vote of Kennedy's "
+                f"own leading elector ({top:,}), the unpledged electors' apart: Kennedy ahead by {k2 - N:,}. "
+                f"The slate's vote divided by its electors, {A['cq_share_words']} to Kennedy ({part:,}), as Congressional Quarterly "
+                f"reckoned it: Nixon ahead by {N - k3:,}. Mississippi's unpledged slate, which carried the State, counts for "
+                "neither. " + " ".join(A["source"].split()) + " " + " ".join(A["check"].split()))
+    return line, note
 
 
 def pres_table(year, data):
@@ -520,15 +660,12 @@ def pres_table(year, data):
 
 def pres_legend(has_prev, has_sw):
     sw = lambda k: f'<span class="sw e{k}"></span>'
-    res = (f'<span class="lk lk-r">{sw("B2")}Democratic {sw("R2")}Republican {sw("A2")}Third ticket'
-           + (f'; dark where the State changed hands: {sw("B4")}{sw("R4")}{sw("A4")}' if has_prev else "") + '</span>')
-    share = (f'<span class="lk lk-s">The winner\'s share of the vote: {sw("B1")}{sw("B2")}{sw("B3")}{sw("B4")} '
-             f'{sw("R1")}{sw("R2")}{sw("R3")}{sw("R4")} {sw("A1")}{sw("A2")}{sw("A3")}{sw("A4")} '
-             '<span class="lt">under 50 · 50 · 55 · 65 and over</span></span>')
-    swing = (f'<span class="lk lk-w">Swing from the last presidential election, points: {sw("R4")}{sw("R3")}{sw("R2")}{sw("R1")}{sw("N")}'
-             f'{sw("B1")}{sw("B2")}{sw("B3")}{sw("B4")} <span class="lt">10 or more Republican · 6 · 3 · 1 · ±1 · 1 · 3 · 6 · 10 or more Democratic; '
-             'none where a party had no slate</span> ' + sw("NA") + 'None</span>') if has_sw else ""
-    dots = (f'<span class="lk lk-e">Electors, one dot each, as they voted: <span class="sw pD"></span>Democratic '
+    res = (f'<span class="lk lk-r">{sw("B3")}Democratic {sw("R3")}Republican {sw("A3")}Third ticket (unpledged electors, Byrd, Wallace)'
+           + ('; Changed hands, under the map: the States that went to another party than at the last election dark, the others light' if has_prev else '') + '</span>')
+    share = f'<span class="lk lk-s">The winner\'s share of all the votes,{share_scale()}</span>'
+    swing = (f'<span class="lk lk-w">Swing from the last presidential election, points: {swing_scale()} '
+             '<span class="lt">none where a party had no slate</span> ' + sw("NA") + 'None</span>') if has_sw else ""
+    dots = ('<span class="lk lk-e">Electors, one dot each, as they voted: <span class="sw pD"></span>Democratic '
             '<span class="sw pR"></span>Republican <span class="sw pT"></span>Third ticket <span class="sw pO"></span>Other</span>')
     return f'<p class="cgkey elkey elpk">{res}{share}{swing}{dots}</p>'
 
@@ -546,28 +683,79 @@ def tagged(series):
     return out
 
 
-def problems():
-    """For ./bib check: winners against seats, votes as integers, a source per election."""
+KEY = re.compile(r"^[hs] [A-Z]{2} \d+(-\d+)?( special)?$")
+
+
+def reading_problems(R):
+    """The readings schema (tools/elections/read.py): keys 'h NY 9', rows [name, party, votes(, lines)]."""
     out = []
+    for part in ("races", "untabulated", "won", "wikipedia_differs", "not_in_volume"):
+        for k in (R.get(part) or []):
+            if not KEY.match(str(k)):
+                out.append(f"{part}: '{k}' is not a key like 'h NY 9' or 's VA 1'")
+    for k, v in (R.get("races") or {}).items():
+        for r in (v or {}).get("cands") or []:
+            if not (isinstance(r, list) and len(r) in (3, 4) and (r[2] is None or isinstance(r[2], int))):
+                out.append(f"{k}: a row is not [name, party, votes] or [name, parties, total, lines]: {r}")
+    for st, v in (R.get("president") or {}).items():
+        for r in (v or {}).get("slates") or []:
+            if not (isinstance(r, list) and len(r) == 2 and isinstance(r[1], int)):
+                out.append(f"president {st}: a slate is not [party, votes]: {r}")
+    return out
+
+
+def problems():
+    """For ./bib check: winners against seats, votes as integers, a source per election; electoral votes;
+    a caucus for every winner and member of neither major party; no reading without its race."""
+    out = []
+    for c in range(85, 95):
+        for ch in ("house", "senate"):
+            for r in (roster(c) or {}).get(ch, []):
+                if not r.get("vacant") and r.get("party") not in ("D", "R") and not third(r["name"].split(",")[0].strip().lower()):
+                    out.append((f"congress/{c}.yaml", f"{r['name']} ({r['party']}): add the party caucused with to "
+                                                      "elections/facts.yaml caucus:"))
+    rd = os.path.join(DIR, "readings")
     for y, E in load().items():
+        for r in E.get("races", []):
+            for c in r["cands"]:
+                if c.get("w") and c["p"] not in ("D", "R", "ID") and not third(surname(c["n"])):
+                    out.append((f"elections/{y}.yaml", f"{r['ch']} {r['st']} {r['seat']}: {c['n']} ({c['party']}) won; add the party "
+                                        "caucused with to elections/facts.yaml caucus:"))
+        p = os.path.join(rd, f"{y}.yaml")
+        try:
+            R = store.load_yaml(p) if os.path.exists(p) else {}
+        except Exception as e:
+            out.append((f"elections/readings/{y}.yaml", f"does not load: {e}"))
+            continue
+        out += [(f"elections/readings/{y}.yaml", m) for m in reading_problems(R)]
+        have = {f"{r['ch']} {r['st']} {r['seat']}" for r in E.get("races", [])} | \
+               {f"{r['ch']} {r['st']} {r['seat']}-{r['position']}" for r in E.get("races", []) if r.get("position")}
+        have |= {f"{r['ch']} {r['st']} {r['seat']} special" for r in E.get("races", []) if r.get("special")}
+        for k in list((R.get("races") or {})) + list(R.get("untabulated") or []) + list(R.get("won") or {}):
+            if k not in have:
+                out.append((f"elections/readings/{y}.yaml", f"{k}: a reading for no race in elections/{y}.yaml"))
+        pst = {r["st"] for r in (E.get("president") or {}).get("states", [])}
+        for st in R.get("president") or {}:
+            if st not in pst:
+                out.append((f"elections/readings/{y}.yaml", f"president {st}: a reading for no State in elections/{y}.yaml"))
         if not (E.get("source") or {}).get("url"):
-            out.append((str(y), "election without a source"))
+            out.append((f"elections/{y}.yaml", "election without a source"))
         for r in E.get("races", []):
             w = sum(1 for c in r["cands"] if c.get("w"))
             if w != r.get("seats", 1):
-                out.append((str(y), f"{r['ch']} {r['st']} {r['seat']}: {w} winners for {r.get('seats', 1)} seats"))
+                out.append((f"elections/{y}.yaml", f"{r['ch']} {r['st']} {r['seat']}: {w} winners for {r.get('seats', 1)} seats"))
             for c in r["cands"]:
                 if c.get("v") is not None and not isinstance(c["v"], int):
-                    out.append((str(y), f"{r['st']} {r['seat']}: votes not a number for {c['n']}"))
+                    out.append((f"elections/{y}.yaml", f"{r['st']} {r['seat']}: votes not a number for {c['n']}"))
         P = E.get("president")
         if P:
             EV = {1956: 531, 1960: 537}.get(y, 538)
             got = sum(sum(r["cast"].values()) for r in P["states"])
             if got != EV:
-                out.append((str(y), f"president: {got} electoral votes, not {EV}"))
+                out.append((f"elections/{y}.yaml", f"president: {got} electoral votes, not {EV}"))
             for r in P["states"]:
                 if sum(r["cast"].values()) != r["ev"]:
-                    out.append((str(y), f"president {r['st']}: electors cast {sum(r['cast'].values())} of {r['ev']}"))
+                    out.append((f"elections/{y}.yaml", f"president {r['st']}: electors cast {sum(r['cast'].values())} of {r['ev']}"))
                 if any(not isinstance(x.get("v"), int) for x in r["slates"]):
-                    out.append((str(y), f"president {r['st']}: a slate without a vote"))
+                    out.append((f"elections/{y}.yaml", f"president {r['st']}: a slate without a vote"))
     return out

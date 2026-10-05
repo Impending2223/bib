@@ -72,9 +72,6 @@ TAIL = re.compile(NUM + r'[^\d]{0,6}$')
 PARTY = (r'Democrat\w*|Demo\w*|Dem\w+|Republi\w*|Repub\w*|Liberal|Conservative|Constitution|Prohibition|'
          r'Independent[\w ]*|Socialist[\w ]*|Farmer[\w\- ]*|Tax[\w ]*|Nuberal|Tiberal|Libera\w*')
 SUFFIX = r'(?:,\s*(?:Jr|Sr|J[rt])\.?|,?\s*I{2,3})?'
-LINE = re.compile(r'^(?P<pre>.{0,8}?)(?P<name>[A-Z][^_]{1,60}?' + SUFFIX + r'),\s*(?P<party>[A-Z][A-Za-z\- ]{2,30}?)[\s_.\-~:;|,\'"‘’`]')
-LINE2 = re.compile(r'^(?P<pre>.{0,8}?)(?P<name>[A-Z][^_]{1,60}?' + SUFFIX + r')\s+(?P<party>' + PARTY + r')\b')
-FUSION = re.compile(r'^.{0,8}?(?P<party>Liberal|Conservative|Democrat|Republican|Nuberal|Tiberal|Libera\w*)\b')
 SCAT = re.compile(r'^.{0,8}?S[ce][ae]?t+[et]?ering')
 
 

@@ -155,7 +155,7 @@ def run(series, only=None):
     # election returns (elections/*.yaml)
     from . import elections
     for where, msg in elections.problems():
-        add(ERROR, f"elections/{where}.yaml", msg, "elections")
+        add(ERROR, where, msg, "elections")
     # the day's executive documents (daybook/*.yaml)
     from . import daybook
     for where, msg in daybook.problems():

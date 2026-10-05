@@ -60,7 +60,7 @@ def candidates(cell):
     return out
 
 
-PARTIES = ("Democratic", "Republican", "DFL", "Democratic–Farmer–Labor", "Democratic-NPL", "Liberal", "Conservative", "Independent", "Socialist", "Prohibition")
+PARTIES = ("Democratic", "Republican", "DFL", "Democratic (DFL)", "Democratic–Farmer–Labor", "Democratic-NPL", "Liberal", "Conservative", "Independent", "Socialist", "Prohibition")
 
 
 def sections(text):
@@ -117,6 +117,8 @@ def house_rows(text):
         for c in rest:
             body = re.sub(r"^(?:\s*(?:rowspan|colspan|nowrap|style)[^|]*\|)+", "", c.strip())
             body = re.sub(r"^\s*\{\{[Pp]arty shading/[^}]*\}\}\s*\|", "", body).strip()
+            body = re.sub(r"\{\{[Pp]arty (?:shortname|name)[^|}]*\|([^}|]*)\}\}", lambda m: "DFL" if "Farmer" in m.group(1) else
+                          next((p for p in ("Democratic", "Republican", "Liberal", "Conservative", "Independent") if p in m.group(1)), m.group(1)), body)
             if "Plainlist" in c or c.strip().startswith("*") or "{{Party stripe" in c:
                 race["candidates"] = candidates(c)
             elif "party" not in inc and unlink(body) in PARTIES:
@@ -126,7 +128,13 @@ def house_rows(text):
             elif "result" not in inc and body:
                 t = re.sub(r"<br\s*/?>", " ", body)
                 inc["result"] = re.sub(r"\s+", " ", unlink(re.sub(r"\{\{[^}]*\}\}", "", t))).strip()
-        if inc["name"] and not inc["name"].lower().startswith(("none", "new seat", "vacant")):
+        if inc["name"].lower().startswith("vacant"):
+            # a vacancy, under the member who last held it: '[[William E. McVey]] (R) died August 10, 1958.'
+            vm = re.search(r"^(.*?)\s*\(([DR])\)\s*(.*?)(?:\.|$)", inc.get("result", ""))
+            if vm and vm.group(1):
+                races[-1]["incumbents"].append({"name": vm.group(1).strip(), "party": {"D": "Democratic", "R": "Republican"}[vm.group(2)],
+                                                "result": vm.group(3).strip() + ".", "vacant": True})
+        elif inc["name"] and not inc["name"].lower().startswith(("none", "new seat")):
             races[-1]["incumbents"].append(inc)
         elif "result" in inc:
             races[-1].setdefault("result", inc["result"])
@@ -155,7 +163,7 @@ def senate(text, regular_class):
             st = st_of(hm.group(2))
             if not st:
                 continue
-            cm = re.search(r"Class (\d)", hm.group(0))
+            cm = re.search(r"(?i)class (\d)", hm.group(0))
             race = {"st": st, "cl": int(cm.group(1)) if cm else regular_class, "special": sp,
                     "incumbents": [], "candidates": []}
             lines = [l for l in block.strip().split("\n") if not l.startswith("!")]
@@ -164,6 +172,9 @@ def senate(text, regular_class):
             for c in cells[1:]:
                 b = re.sub(r"^(?:\s*(?:rowspan|colspan|nowrap|style|data-sort-value)[^|]*\|)+", "", c.strip())
                 b = re.sub(r"^\s*\{\{[Pp]arty shading/[^}]*\}\}\s*\|", "", b).strip()
+                b = re.sub(r"\{\{[Ee]fn\|.*?\}\}", "", b, flags=re.S).strip()
+                b = re.sub(r"\{\{[Pp]arty (?:shortname|name)[^|}]*\|([^}|]*)\}\}", lambda m: "DFL" if "Farmer" in m.group(1) else
+                           next((p for p in ("Democratic", "Republican", "Liberal", "Conservative", "Independent") if p in m.group(1)), m.group(1)), b)
                 if "Plainlist" in c or "{{Party stripe" in c:
                     race["candidates"] = candidates(sortname(c))
                 elif "party" not in inc and unlink(b) in PARTIES:
@@ -172,7 +183,7 @@ def senate(text, regular_class):
                     inc["history"] = re.sub(r"\s+", " ", unlink(re.sub(r"\{\{[^}]*\}\}|<br\s*/?>", " ", b))).strip()
                 elif "result" not in inc and b:
                     inc["result"] = re.sub(r"\s+", " ", unlink(re.sub(r"\{\{[^}]*\}\}", "", re.sub(r"<br\s*/?>", " ", b)))).strip()
-            if inc.get("name"):
+            if inc.get("name") and not re.search(r"admitted|colspan|rowspan|New state", inc["name"]):
                 race["incumbents"].append(inc)
             out.append(race)
     return out

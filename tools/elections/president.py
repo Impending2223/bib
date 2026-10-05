@@ -9,38 +9,27 @@ Wikipedia's results by State. A State that does not settle is read by eye (read.
 
 Slates are assigned to candidates by Wikipedia's figures (a slate whose vote is the candidate's, or, with
 New York's Liberal and Conservative lines, part of it), else by party. The electoral votes are Wikipedia's,
-with the electors who did not vote for their slate's candidate set out in CAST.
+with the electors who did not vote for their slate's candidate set out in elections/facts.yaml.
 """
+import os
 import re
+
+import yaml
 
 import read
 import reconcile
 from wiki import st_of, unlink
 
-# Electors as they voted, where a State's did not all vote for the candidate whose slate won.
-CAST = {
-    1956: {'AL': {'D': 10, 'Jones': 1}},    # an elector pledged to Stevenson voted for Walter B. Jones
-    1960: {'AL': {'D': 5, 'Byrd': 6}, 'MS': {'Byrd': 8}, 'OK': {'R': 7, 'Byrd': 1}},
-    1968: {'NC': {'R': 12, 'A': 1}},
-    1972: {'VA': {'R': 11, 'Hospers': 1}},
-}
-# A slate's candidate where Wikipedia's figures would assign it otherwise (year, State, party as printed).
-SLATE = {(1960, 'AL', 'Democratic'): 'D'}    # five Kennedy electors and six unpledged: counted with Kennedy (NOTES)
-# A note for the State's row in the table.
-NOTES = {
-    (1960, 'AL'): 'The Democratic slate: five electors pledged to Kennedy, six unpledged; its vote is counted with Kennedy.',
-    (1964, 'AL'): 'Johnson had no slate; the Democratic slate was unpledged.',
-    (1968, 'AL'): 'Humphrey ran on two slates, the Democratic and the National Democratic.',
-    (1968, 'CA'): 'The Clerk\'s figures run under the State\'s canvass as Wikipedia gives it: Nixon 3,467,664, Humphrey 3,244,318, Wallace 487,270.',
-    (1972, 'AL'): 'McGovern ran on two slates, the Democratic and the National Democratic.',
-    (1972, 'CA'): 'The Clerk\'s figures run under the State\'s canvass as Wikipedia gives it: Nixon 4,602,096, McGovern 3,475,847.',
-}
-# Wikipedia's column heads, where they are not the candidate's name.
-NAMES = {'T. Coleman Andrews/Unpledged Electors': 'T. Coleman Andrews; unpledged electors', 'Unpledged Electors': 'Unpledged electors',
-         'Nixon/Agnew': 'Richard Nixon', 'McGovern/Shriver': 'George McGovern', 'Schmitz/Anderson': 'John G. Schmitz',
-         'Hospers/Nathan': 'John Hospers'}
-# Who received electoral votes without a slate of their own.
-ELECTEES = {'Jones': ('Walter B. Jones', 'O'), 'Byrd': ('Harry F. Byrd', 'U'), 'Hospers': ('John Hospers', 'O')}
+# States a run leaves for reading by eye: {year, st, why}; tools/elections/review.py reads it.
+LEFT = []
+# The hand facts (electors as cast, electees, slate overrides, notes, display names): elections/facts.yaml.
+FACTS = yaml.safe_load(open(os.path.join(os.path.dirname(__file__), '..', '..', 'elections', 'facts.yaml'),
+                            encoding='utf-8'))['president']
+CAST = FACTS['cast']                                                   # year -> State -> {key: electors}
+SLATE = {(y, st, p): k for y, v in FACTS['slates'].items() for st, m in v.items() for p, k in m.items()}
+NOTES = {(y, st): n for y, v in FACTS['notes'].items() for st, n in v.items()}
+NAMES = FACTS['names']
+ELECTEES = {k: (v['name'], v['like']) for k, v in FACTS['electees'].items()}
 
 
 def num(c):
@@ -202,7 +191,8 @@ def races(y, C, d, T, dg):
             sc = [l for l in lines if re.match(r'(?i)\W*s[ce]at', l['party'])]
             if not sl:
                 import sys
-                sys.stderr.write(f'unmatched {y} pres {st}: no slates read\n')
+                LEFT.append({'year': y, 'st': st, 'why': 'unmatched'})
+                sys.stderr.write(f'unmatched {y} president {st}: no slates read; read it by eye (tools/elections/review.py)\n')
                 continue
             readings = [(l['votes'], dg(st, 'pres', l['k'], 'dg'), dg(st, 'pres', l['k'], 'dg2')) for l in sl]
             scat = reconcile.majority([sc[0]['votes'], dg(st, 'pres', sc[0]['k'], 'dg'), dg(st, 'pres', sc[0]['k'], 'dg2')]) if sc else None
@@ -228,7 +218,8 @@ def races(y, C, d, T, dg):
             got = reconcile.settle(readings, scat, row, tots, pct_ok)
             if not got:
                 import sys
-                sys.stderr.write(f'unsettled {y} pres {st}: add a reading to read.PRES\n')
+                LEFT.append({'year': y, 'st': st, 'why': 'unsettled'})
+                sys.stderr.write(f'unsettled {y} president {st}: read it by eye (tools/elections/review.py)\n')
                 continue
             slates = [{'party': p, 'v': v} for p, v in zip(parties, got[0])]
             how = got[2]
