@@ -293,13 +293,16 @@ Every general election from 1956 to 1974, in `elections/<year>.yaml`: the House 
 race, and in presidential years the vote for President by State with the electoral votes as cast.
 1956 is a base for swing and is not shown. `build/congress.html` puts each election from 1958 to
 1974 before the Congress it chose (the 86th and 94th have no rosters); a calendar entry tagged
-`election:<year>` carries its block too (now Nov. 6, 1962). A block: seats won, pickups, and new
-members by chamber, and the electoral and popular vote; one view switch for every map (Result:
-held seats light, pickups dark; Vote share; Swing); the President's map above the House and Senate,
-with an Electors toggle (a dot an elector, as voted); and every race in tables: candidates with
-party, votes and share, the margin in votes and in points of the two leaders' combined vote, and a
-note. Pickups are shaded in the winner's color, other member changes in gray. Definitions are the
-STYLE notes at the top of `tools/bib/elections.py`.
+`election:<year>` carries its block too (now Nov. 6, 1962). A block: the electoral and popular vote
+first, then by chamber the seats won, the net change from the close of the last Congress, pickups,
+and new members; one view switch for every map (Result; Vote share, the winner's share; Swing); the
+President's map above the House and Senate, with an Electors toggle (a dot an elector, as voted) and a
+Changed-hands toggle; the Senate map with a Senators toggle (a dot a seat); and every race in tables:
+candidates with party, votes and share, the margin in votes and in points of all the votes cast, and
+a note. Pickups are shaded in the winner's color, other member changes in gray. Members of neither
+major party count with the party they caucused with, and are labeled so ("Conservative, caucusing
+with the Republicans"; `THIRD` in `tools/bib/elections.py`), here and in the rosters and bars at each
+opening. Definitions are the STYLE notes at the top of `tools/bib/elections.py`.
 
 ```
 tools/elections/make_elections.py   writes elections/<year>.yaml and senate-prior.yaml (needs network, pdftoppm, tesseract)
@@ -320,6 +323,8 @@ tools/bib/elections.py              renders the blocks and checks the data
   lines and the Clerk's total.
 - President: each slate's vote (its highest elector), assigned to a candidate by
   Wikipedia's results by State; electoral votes from the same table, with `CAST`.
+- Margins are ordinary: the leader's votes less the runner-up's, over all the votes. The
+  two-party share (D over D+R) serves only for swing.
 - Swing: House, the same district where its lines did not change between the two
   Congresses (the same shape key in `congress/geo.json`), otherwise the State's House vote;
   Senate, the seat's last regular election, six years before (1952 and 1954 from

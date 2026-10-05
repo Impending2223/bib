@@ -3,6 +3,19 @@
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--pDs:#46638F;--pD:#7D9CCB;--pR:#C9847F;--pO:#A9A688;--pV:#3C424C;--stb:#15181D;--mk:#E6E8EC}}
 :root[data-theme="dark"]{--pDs:#46638F;--pD:#7D9CCB;--pR:#C9847F;--pO:#A9A688;--pV:#3C424C;--stb:#15181D;--mk:#E6E8EC}
 .cg{margin:1rem 0 .5rem;font-family:var(--sans)}
+:root{--wB1:#CCD8EC;--wB2:#AEBFDB;--wB3:#91A6C9;--wB4:#758EB8;--wB5:#5A76A6;--wB6:#3F5F95;--wR1:#EFCFCB;--wR2:#DBB1AC;--wR3:#C8948D;--wR4:#B37770;--wR5:#9F5B54;--wR6:#8A3F38;--wA1:#F2E4C6;--wA2:#DECBA6;--wA3:#C9B286;--wA4:#B59967;--wA5:#A28147;--wA6:#8E6A24}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--wB1:#2F4364;--wB2:#465B7D;--wB3:#5F7497;--wB4:#788EB2;--wB5:#93A9CE;--wB6:#AEC4EA;--wR1:#5A3532;--wR2:#754C48;--wR3:#90645F;--wR4:#AD7D78;--wR5:#CA9791;--wR6:#E8B2AB;--wA1:#463A22;--wA2:#625436;--wA3:#806E4A;--wA4:#9F8B60;--wA5:#BFA877;--wA6:#E0C68E}}
+:root[data-theme="dark"]{--wB1:#2F4364;--wB2:#465B7D;--wB3:#5F7497;--wB4:#788EB2;--wB5:#93A9CE;--wB6:#AEC4EA;--wR1:#5A3532;--wR2:#754C48;--wR3:#90645F;--wR4:#AD7D78;--wR5:#CA9791;--wR6:#E8B2AB;--wA1:#463A22;--wA2:#625436;--wA3:#806E4A;--wA4:#9F8B60;--wA5:#BFA877;--wA6:#E0C68E}
+.wB1{fill:var(--wB1)}.sw.wB1{background:var(--wB1)}.wB2{fill:var(--wB2)}.sw.wB2{background:var(--wB2)}.wB3{fill:var(--wB3)}.sw.wB3{background:var(--wB3)}.wB4{fill:var(--wB4)}.sw.wB4{background:var(--wB4)}.wB5{fill:var(--wB5)}.sw.wB5{background:var(--wB5)}.wB6{fill:var(--wB6)}.sw.wB6{background:var(--wB6)}.wR1{fill:var(--wR1)}.sw.wR1{background:var(--wR1)}.wR2{fill:var(--wR2)}.sw.wR2{background:var(--wR2)}.wR3{fill:var(--wR3)}.sw.wR3{background:var(--wR3)}.wR4{fill:var(--wR4)}.sw.wR4{background:var(--wR4)}.wR5{fill:var(--wR5)}.sw.wR5{background:var(--wR5)}.wR6{fill:var(--wR6)}.sw.wR6{background:var(--wR6)}.wA1{fill:var(--wA1)}.sw.wA1{background:var(--wA1)}.wA2{fill:var(--wA2)}.sw.wA2{background:var(--wA2)}.wA3{fill:var(--wA3)}.sw.wA3{background:var(--wA3)}.wA4{fill:var(--wA4)}.sw.wA4{background:var(--wA4)}.wA5{fill:var(--wA5)}.sw.wA5{background:var(--wA5)}.wA6{fill:var(--wA6)}.sw.wA6{background:var(--wA6)}
+.pDi{fill:url(#cgDi)}.pRi{fill:url(#cgRi)}
+.sw.pDi{background:repeating-linear-gradient(45deg,var(--pD) 0 3px,var(--pDs) 3px 5px)}.sw.pRi{background:repeating-linear-gradient(45deg,var(--pR) 0 3px,#E6C3C0 3px 5px)}
+.pDit{color:var(--pD)}.pRit{color:var(--pR)}
+.cgmap circle.dot.ho{opacity:.38}
+.cgmap .flo{display:none;fill:none;stroke:var(--mk);stroke-width:2.4;vector-effect:non-scaling-stroke;pointer-events:none}
+.cgmap.flips .flo{display:inline}.cgmap.flips.dots .flo{display:none}
+.cgx{font:500 .7rem/1 var(--sans);margin-left:.5rem;padding:.25rem .45rem;border:1px dashed var(--rule);border-radius:4px;background:transparent;color:var(--muted);cursor:pointer;flex:none}
+.cgx[aria-pressed="true"]{border-style:solid;color:var(--ink)}
+.cg.el .elnote{font-size:.78rem;color:var(--note);line-height:1.45}
 :root{--eA1:#F2E4C6;--eA2:#E0C384;--eA3:#C49A45;--eA4:#8E6A24;--pT:#B98F3E}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--eA1:#463A22;--eA2:#755F31;--eA3:#AE8C4C;--eA4:#E0C68E;--pT:#C9A865}}
 :root[data-theme="dark"]{--eA1:#463A22;--eA2:#755F31;--eA3:#AE8C4C;--eA4:#E0C68E;--pT:#C9A865}
@@ -108,6 +121,10 @@ details.cgr tr:target td,details.cgr tr.hit td{background:var(--hl-bg);color:var
 <svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
 <pattern id="cgsplit" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
 <rect width="3" height="6" style="fill:var(--pD)"/><rect x="3" width="3" height="6" style="fill:var(--pR)"/></pattern>
+<pattern id="cgDi" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+<rect width="6" height="6" style="fill:var(--pD)"/><rect width="2" height="6" style="fill:var(--pDs)"/></pattern>
+<pattern id="cgRi" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
+<rect width="6" height="6" style="fill:var(--pR)"/><rect width="2" height="6" style="fill:#E6C3C0"/></pattern>
 <pattern id="cgna" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
 <rect width="6" height="6" style="fill:var(--eNone)"/><rect width="2.5" height="6" style="fill:var(--eNA)"/></pattern></defs></svg>
 <script type="application/json" id="cggeo">{{geo}}</script>
@@ -128,26 +145,32 @@ details.cgr tr:target td,details.cgr tr.hit td{background:var(--hl-bg);color:var
   // delegations set off the coast, north to south: [columns, top y]
   var OFF={VT:[1,96],NH:[2,116],MA:[5,138],RI:[2,186],CT:[3,206],NJ:[5,242],DE:[1,290],MD:[4,310]};
   var OX=1000, LX=992;                    // the offset blocks' left edge; their labels end just before it
-  var ORDER={D:0,ID:1,I:2,C:3,V:4,R:5};
+  var ORDER={D:0,Di:1,ID:2,I:3,C:4,O:5,V:6,Ri:7,R:8};
   function el(n,a){var e=document.createElementNS(NS,n);for(var k in a)e.setAttribute(k,a[k]);return e;}
-  function cls(p){return p==='D'?'pD':p==='R'?'pR':p==='V'?'pV':p==='X'?'pX':'pO';}
-  // election blocks: the fill follows the view (r result, s Democratic share, w swing)
-  var SHARE=[[20,'R4'],[35,'R3'],[45,'R2'],[48,'R1'],[52,'N'],[55,'B1'],[65,'B2'],[80,'B3'],[1e9,'B4']];
+  function cls(p){return p==='D'?'pD':p==='R'?'pR':p==='V'?'pV':p==='X'?'pX':p==='Di'?'pDi':p==='Ri'?'pRi':'pO';}
+  // election blocks: the fill follows the view (r result, s the winner's share, w swing)
+  var WIN=[[50,1],[55,2],[60,3],[65,4],[75,5],[1e9,6]], HUE={D:'B',R:'R',T:'A'};
+  function win(m){var h=HUE[m.p]; if(!h) return 'pO'; if(m.sh==null) return 'eNA';
+    for(var i=0;i<WIN.length;i++) if(m.sh<WIN[i][0]) return 'w'+h+WIN[i][1];}
   var SWING=[[-10,'R4'],[-6,'R3'],[-3,'R2'],[-1,'R1'],[1,'N'],[3,'B1'],[6,'B2'],[10,'B3'],[1e9,'B4']];
   function bin(v,bins){for(var i=0;i<bins.length;i++)if(v<bins[i][0])return 'e'+bins[i][1];return 'e'+bins[bins.length-1][1];}
   function fillOf(m,mode){
     if(!mode) return cls(m.p);
-    if(mode==='r') return m.p==='D'?(m.k==='pickup'?'eB4':'eB2'):m.p==='R'?(m.k==='pickup'?'eR4':'eR2'):'pO';
-    if(mode==='s') return m.sh==null?'eNA':bin(m.sh,SHARE);
+    if(m.ho) return cls(m.x?m.p+'i':m.p);
+    if(mode==='r') return m.x?cls(m.p+'i'):m.p==='D'?(m.k==='pickup'?'eB4':'eB2'):m.p==='R'?(m.k==='pickup'?'eR4':'eR2'):'pO';
+    if(mode==='s') return win(m);
     return m.sw==null?'eNA':bin(m.sw,SWING);
   }
   var KIND={pickup:'pickup',change:'new member',held:'held',new:'new seat'};
-  function evText(m){var t=[];if(m.k)t.push(KIND[m.k]);if(m.sh!=null)t.push(m.u?'unopposed':'D '+m.sh.toFixed(1)+'%');
-    if(m.sw!=null)t.push('swing '+(m.sw>0?'+':m.sw<0?'\u2212':'\u00b1')+Math.abs(m.sw).toFixed(1)+(m.swb==='state'?' (State)':''));
-    return t.length?'; '+t.join(', '):'';}
+  function swingText(m){return 'swing '+(Math.abs(m.sw)<0.05?'none':Math.abs(m.sw).toFixed(1)+' to '+(m.sw>0?'D':'R'))+(m.swb==='state'?' (State)':'');}
+  // '66.5%, by 33.0 pts; held; swing 2.5 to D'
+  function evText(m){if(m.ho) return '; not at stake'; var t=[], a='';
+    if(m.sh!=null) a=' '+(m.u?'unopposed':m.sh.toFixed(1)+'%'+(m.mg!=null?', by '+m.mg.toFixed(1)+' pts':''));
+    if(m.k) t.push(KIND[m.k]); if(m.sw!=null) t.push(swingText(m));
+    return a+(t.length?'; '+t.join('; '):'');}
   function link(id,child,title,shape,p,m){child._shape=shape;child._p=p;child._m=m;child.setAttribute('data-row',id);child.setAttribute('data-who',title);var t=el('title');t.textContent=title;child.appendChild(t);return child;}
-  function who(m){return m.n+(m.p==='V'?'':' ('+m.p+')')+(m.k?evText(m):'');}
-  function seatName(st,m){return st+(m.d?' '+m.d:' at large')+': '+who(m);}
+  function who(m){return m.n+(m.p==='V'?'':' ('+(m.pl||m.p)+')')+(m.k||m.ho||m.sh!=null?evText(m):'');}
+  function seatName(st,m){return st+(m.d!=null?(m.d?' '+m.d:' at large'):'')+': '+who(m);}
   // a shape is named by a ref, 'd:KEY' (a district) or 's:ST' (a State outline), and drawn coarse or fine
   function geo(ref,fine){if(!ref)return null;var k=ref.slice(2);
     return ref[0]==='d'?(fine?G.shapes:G.coarse)[k]:(fine?G.states:G.statesC)[k];}
@@ -156,15 +179,14 @@ details.cgr tr:target td,details.cgr tr.hit td{background:var(--hl-bg);color:var
       if(x<x0)x0=x;if(x>x1)x1=x;if(y<y0)y0=y;if(y>y1)y1=y; }
     return [x0,y0,x1,y1];}
   // ---- the President: States (result, winner's share, swing) or Electors (a dot an elector, as voted)
-  var PWIN=[[50,'1'],[55,'2'],[65,'3'],[1e9,'4']], HUE={D:'B',R:'R',T:'A'};
   var OFFE=[['VT',1],['NH',2],['MA',5],['RI',2],['CT',3],['NJ',5],['DE',3],['MD',4],['DC',3]];
   function pFill(m,mode){var h=HUE[m.p]; if(!h) return 'pO';
-    if(mode==='s'){if(m.sh==null) return 'eNA'; for(var i=0;i<PWIN.length;i++) if(m.sh<PWIN[i][0]) return 'e'+h+PWIN[i][1];}
+    if(mode==='s') return win(m);
     if(mode==='w') return m.sw==null?'eNA':bin(m.sw,SWING);
-    return 'e'+h+(m.k==='flip'?'4':m.k?'2':'3');}
-  function pText(st,m){var t=st+': '+m.n+(m.sh!=null?' '+m.sh.toFixed(1)+'%':'');
-    if(m.k==='flip') t+=', changed hands'; else if(m.k==='new') t+=', first vote';
-    if(m.sw!=null) t+=', swing '+(m.sw>0?'+':m.sw<0?'\u2212':'\u00b1')+Math.abs(m.sw).toFixed(1);
+    return 'e'+h+'3';}
+  function pText(st,m){var t=st+': '+m.n+(m.sh!=null?' '+m.sh.toFixed(1)+'%':'')+(m.mg!=null?', by '+m.mg.toFixed(1)+' pts':'');
+    if(m.k==='flip') t+='; changed hands'; else if(m.k==='new') t+='; first vote';
+    if(m.sw!=null) t+='; '+swingText(m);
     return t+'; electors: '+m.cast.map(function(c){return c[1]+' '+c[2];}).join(', ');}
   function drawP(fig,ps){
     var blk=fig.closest('.cg'); function mode(){return blk.dataset.view||'r';}
@@ -173,9 +195,13 @@ details.cgr tr:target td,details.cgr tr.hit td{background:var(--hl-bg);color:var
     function shp(ref,a){a.d=geo(ref,fine); var e=el('path',a); e._ref=ref; lod.push(e); return e;}
     function onScale(s){clearTimeout(lodT); lodT=setTimeout(function(){var f=s>=FINE; if(f===fine) return; fine=f;
       lod.forEach(function(e){e.setAttribute('d',geo(e._ref,fine));});},120);}
-    var g=el('g'), base=el('g',{'class':'lb'}), sts=el('g',{'class':'ld'}), lines=el('g'), blocks=el('g',{'class':'lk'});
-    g.appendChild(base); g.appendChild(sts); g.appendChild(lines); g.appendChild(blocks); svg.appendChild(g);
-    var painted=[];
+    var g=el('g'), base=el('g',{'class':'lb'}), sts=el('g',{'class':'ld'}), lines=el('g'), flo=el('g'), blocks=el('g',{'class':'lk'});
+    g.appendChild(base); g.appendChild(sts); g.appendChild(lines); g.appendChild(flo); g.appendChild(blocks); svg.appendChild(g);
+    var painted=[], flips=0;
+    // the States that changed hands, outlined when the toggle is on
+    Object.keys(ps).forEach(function(st){ if(ps[st].k!=='flip') return; flips++;
+      if(st==='DC'){var c=G.centers.DC; if(c) flo.appendChild(el('circle',{cx:c[0]+16,cy:c[1]+10,r:7.5,'class':'flo'}));}
+      else if(G.states[st]) flo.appendChild(shp('s:'+st,{'class':'flo'})); });
     Object.keys(G.states).forEach(function(st){var m=ps[st];
       var e=shp('s:'+st,{'class':'d '+(m?pFill(m,mode()):'eNone')});
       if(m){link(m.id,e,pText(st,m),'s:'+st,m.p,m); painted.push(e);} else {var t=el('title'); t.textContent=st+': no vote'; e.appendChild(t);}
@@ -224,6 +250,10 @@ details.cgr tr:target td,details.cgr tr.hit td{background:var(--hl-bg);color:var
     var tog=document.createElement('div'); tog.className='cgt';
     tog.innerHTML='<button type="button" data-v="s" aria-pressed="true">States</button><button type="button" data-v="e" aria-pressed="false">Electors</button>';
     foot.insertBefore(tog,foot.firstChild);
+    if(flips){ var fx=document.createElement('button'); fx.type='button'; fx.className='cgx'; fx.setAttribute('aria-pressed','false');
+      fx.textContent='Changed hands'; fx.title='Outline the States that went to another party than at the last election';
+      fx.addEventListener('click',function(){var on=fig.classList.toggle('flips'); fx.setAttribute('aria-pressed',on?'true':'false');});
+      tog.parentNode.insertBefore(fx,tog.nextSibling); }
     function setView(v){
       [].forEach.call(tog.children,function(x){x.setAttribute('aria-pressed',x.dataset.v===v?'true':'false');});
       fig.classList.toggle('dots',v==='e'); blk.dataset.pv=v;
@@ -276,8 +306,8 @@ details.cgr tr:target td,details.cgr tr.hit td{background:var(--hl-bg);color:var
           if(k&&G.shapes[k]){var e2=link(ms[0]?ms[0].id:'',shp('d:'+k,{'class':'d '+c2}),st+' at large: '+ms.map(who).join('; '),'d:'+k,pk.length===1?pk[0]:'X',null); e2._base='d'; e2._ms=ms; dist.appendChild(e2);}
         }
       } else {
-        var ps2={}; ms.forEach(function(x){ps2[x.p]=1;});
-        var pk2=Object.keys(ps2), c3=EV?group(ms):(pk2.length===1?cls(pk2[0]):'pX');
+        var up=ms.filter(function(x){return !x.ho;}), ps2={}; up.forEach(function(x){ps2[x.p]=1;});
+        var pk2=Object.keys(ps2), c3=EV?group(up):(pk2.length===1?cls(pk2[0]):'pX'); ms=up;
         if(G.states[st]){var e3=link(ms[0]?ms[0].id:'',shp('s:'+st,{'class':'d '+c3}),st+': '+(ms.length?ms.map(who).join('; '):(EV?'no election':'')),null,null,null); e3._base='d'; e3._ms=ms; dist.appendChild(e3);}
       }
     });
@@ -300,7 +330,8 @@ details.cgr tr:target td,details.cgr tr.hit td{background:var(--hl-bg);color:var
     var hint=ch==='h'?'Click a district for its representatives.':'Click a state for its senators.';
     info.textContent=hint;
     fig.appendChild(foot);
-    var DHINT='One dot a seat. Hover a dot for its district; click a dot to open it. Then click a district to select it, double-click to go there. Double-click white space to come back.';
+    var DHINT=ch==='h'?'One dot a seat. Hover a dot for its district; click a dot to open it. Then click a district to select it, double-click to go there. Double-click white space to come back.'
+      :'One dot a senator'+(EV?'; the seats not at stake faint':'')+'. Hover a dot for the senator; click a dot to go to the State. Double-click white space to come back.';
     function isDots(){return fig.classList.contains('dots');}
     // the dots stay until one is clicked; then the districts show, until home
     function openDistricts(on){if(on)buildDistricts(); blocks.classList.toggle('faded',on); fig.classList.toggle('zoomed',on); opened=on;}
@@ -317,7 +348,7 @@ details.cgr tr:target td,details.cgr tr.hit td{background:var(--hl-bg);color:var
         return true; });
     bar.addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;var f=+b.dataset.z;if(!f)home();else z.by(f);});
     function say(t){info.innerHTML='';info.appendChild(document.createTextNode(t.getAttribute('data-who')+' '));
-      var a=document.createElement('a'); a.href='#'+t.getAttribute('data-row'); a.textContent='Roster ↓'; info.appendChild(a);}
+      var a=document.createElement('a'); a.href='#'+t.getAttribute('data-row'); a.textContent=EV&&!(t._m&&t._m.ho)?'Returns ↓':'Roster ↓'; info.appendChild(a);}
     var pin=null;
     svg.addEventListener('click',function(e){
       if(z.moved())return; var t=e.target.closest('[data-row]'); if(!t)return;
@@ -332,14 +363,15 @@ details.cgr tr:target td,details.cgr tr.hit td{background:var(--hl-bg);color:var
     fig._recolor=function(){ [].forEach.call(svg.querySelectorAll('[data-row],path.d'),function(e){
         if(e._base==null) return; var f=e._m?F(e._m):(e._ms?group(e._ms):null); if(!f) return;
         e.setAttribute('class',(e._base?e._base+' ':'')+f); }); show(pin); };
-    if(ch!=='h'){ buildDistricts(); return; }
-    // ---- the delegations view: a dot a seat, a block a State
+    if(ch!=='h') buildDistricts();
+    // ---- the delegations view: a dot a seat, a block a State (the Senate: a dot a senator)
     var DOT=null;
     function buildBlocks(){
       DOT=true;
       Object.keys(G.states).forEach(function(st){ base.appendChild(shp('s:'+st,{'class':'b'})); });
-      Object.keys(seats.h).forEach(function(st){
-        var ms=seats.h[st].slice().sort(function(a,b){return (ORDER[a.p]-ORDER[b.p])||(a.d-b.d);}), n=ms.length, cols, x0, y0, off=OFF[st];
+      Object.keys(seats[ch]).forEach(function(st){
+        var ms=seats[ch][st].slice().sort(function(a,b){return ((a.ho?1:0)-(b.ho?1:0))||(ORDER[a.p]-ORDER[b.p])||((a.d||a.cl||0)-(b.d||b.cl||0));}),
+            n=ms.length, cols, x0, y0, off=OFF[st];
         if(off){ cols=off[0]; x0=OX; y0=off[1];
           var rows=Math.ceil(n/cols), my=y0+(rows-1)*P/2, cxy=G.centers[st];
           blocks.appendChild(el('line',{x1:cxy[0],y1:cxy[1],x2:LX-18,y2:my,'class':'ll'}));
@@ -352,7 +384,8 @@ details.cgr tr:target td,details.cgr tr.hit td{background:var(--hl-bg);color:var
         }
         ms.forEach(function(m,i){
           var r=Math.floor(i/cols), k=i%cols, inRow=Math.min(cols,n-r*cols), shift=(cols-inRow)*P/2;
-          var d=link(m.id,el('circle',{cx:x0+shift+k*P,cy:y0+r*P,r:R,'class':'dot '+F(m)}),seatName(st,m),shapeOf(st,m),m.p,m); d._base='dot';
+          var d=link(m.id,el('circle',{cx:x0+shift+k*P,cy:y0+r*P,r:R,'class':(m.ho?'dot ho ':'dot ')+F(m)}),seatName(st,m),ch==='h'?shapeOf(st,m):'s:'+st,m.p,m);
+          d._base=m.ho?'dot ho':'dot';
           blocks.appendChild(d);
         });
       });
@@ -360,7 +393,8 @@ details.cgr tr:target td,details.cgr tr.hit td{background:var(--hl-bg);color:var
       blocks.addEventListener('mouseout',function(e){var t=e.target.closest('.dot'); if(t&&!(e.relatedTarget&&e.relatedTarget.closest&&e.relatedTarget.closest('.dot'))) show(pin);});
     }
     var tog=document.createElement('div'); tog.className='cgt';
-    tog.innerHTML='<button type="button" data-v="k" aria-pressed="true">Delegations</button><button type="button" data-v="d" aria-pressed="false">Districts</button>';
+    var TOG=ch==='h'?['Delegations','Districts','House, by delegation','House, by district']:['Senators','States','Senate, by senator','Senate, by state'];
+    tog.innerHTML='<button type="button" data-v="k" aria-pressed="true">'+TOG[0]+'</button><button type="button" data-v="d" aria-pressed="false">'+TOG[1]+'</button>';
     foot.insertBefore(tog,foot.firstChild);
     function setView(v){
       [].forEach.call(tog.children,function(x){x.setAttribute('aria-pressed',x.dataset.v===v?'true':'false');});
@@ -371,10 +405,10 @@ details.cgr tr:target td,details.cgr tr.hit td{background:var(--hl-bg);color:var
       frame.style.aspectRatio=svg._vb[2]+'/'+svg._vb[3];
       pin=null; hi.innerHTML=''; z.reset(); openDistricts(false);
       info.textContent=v==='k'?DHINT:hint;
-      var cap=fig.querySelector('figcaption'); if(cap) cap.textContent=v==='k'?'House, by delegation':'House, by district';
+      var cap=fig.querySelector('figcaption'); if(cap) cap.textContent=v==='k'?TOG[2]:TOG[3];
     }
     tog.addEventListener('click',function(e){var b=e.target.closest('button'); if(b) setView(b.dataset.v);});
-    setView('k');   // the delegations view first
+    setView(ch==='h'?'k':'d');   // the House by delegation, the Senate by state, first
   }
   function zoom(svg,g,onScale,onDbl){
     var s=1,tx=0,ty=0,drag=null,moved=0,pts={};

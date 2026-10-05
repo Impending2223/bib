@@ -173,6 +173,21 @@ SOUTH_LINE = ("The eleven Southern States: the thirteen States represented in th
               "less Missouri and Kentucky.")
 
 
+def caucused(r):
+    """'Di' or 'Ri' for a member of neither major party, by the party caucused with; else None."""
+    if r.get("vacant") or r["party"] in ("D", "R"):
+        return None
+    from .elections import caucus
+    cc = caucus({"p": r["party"], "n": r["name"].split(",")[0].strip()})
+    return cc + "i" if cc in ("D", "R") else None
+
+
+def third_name(r):
+    """'Conservative, caucusing with the Republicans'."""
+    from .elections import third_label
+    return third_label({"p": r["party"], "n": r["name"].split(",")[0].strip(), "party": PARTY.get(r["party"])})
+
+
 def bar(label, rows, senate):
     n = len(rows)
     def kind(r):
@@ -180,12 +195,13 @@ def bar(label, rows, senate):
             return "vacant"
         if r["party"] == "D":
             return "Ds" if r["st"] in SOUTH else "Dn"
-        return r["party"]
+        return caucused(r) or r["party"]
     cnt = Counter(kind(r) for r in rows)
-    names = {"Dn": "Non-Southern Democrats", "Ds": "Southern Democrats", "vacant": "Vacant"}
+    names = {"Dn": "Non-Southern Democrats", "Ds": "Southern Democrats", "vacant": "Vacant",
+             "Di": "Caucusing with the Democrats", "Ri": "Caucusing with the Republicans"}
     x, segs = 0.0, []
     W = 1000
-    for p in ["Dn", "Ds", "ID", "I", "C", "vacant", "R"]:
+    for p in ["Dn", "Ds", "Di", "ID", "I", "C", "vacant", "Ri", "R"]:
         k = cnt.get(p, 0)
         if not k:
             continue
@@ -206,9 +222,10 @@ def bar(label, rows, senate):
     d = cnt.get("Dn", 0) + cnt.get("Ds", 0)
     parts = [f"{d} Democrats ({cnt.get('Dn', 0)} non-Southern, {cnt.get('Ds', 0)} Southern)"]
     parts += [f"{cnt.get(p)} {PARTY[p] if cnt.get(p) == 1 else PARTY[p] + 's'}" for p in ("R", "C", "I", "ID") if cnt.get(p)]
+    parts += [f"1 {third_name(r)}" for r in rows if caucused(r)]
     if cnt.get("vacant"):
         parts.append(f"{cnt['vacant']} vacant")
-    cap = f'{label}, {n} seats: ' + ", ".join(parts) + "."
+    cap = f'{label}, {n} seats: ' + ("; " if any(caucused(r) for r in rows) else ", ").join(parts) + "."
     if senate:
         cap += " The two-thirds line is both the veto override and cloture (Rule XXII as amended in 1959: two-thirds of those present and voting)."
     else:
@@ -282,12 +299,16 @@ def block(c, data, geo, ptr, href, rid):
     out.append(f'<p class="cgsouth">{esc(SOUTH_LINE)}</p>')
     lab = map_labels(house + senate)
     seats = {"h": defaultdict(list), "s": defaultdict(list)}
+    def rec(r, ch, seat):
+        x = {("d" if ch == "h" else "cl"): seat, "p": "V" if r.get("vacant") else (caucused(r) or r["party"]),
+             "n": lab.get(id(r), "Vacant"), "id": rid(c, ch, r["st"], seat)}
+        if caucused(r):
+            x["pl"] = third_name(r)
+        return x
     for r in house:
-        seats["h"][r["st"]].append({"d": r["d"], "p": "V" if r.get("vacant") else r["party"],
-                                    "n": lab.get(id(r), "Vacant"), "id": rid(c, "h", r["st"], r["d"])})
+        seats["h"][r["st"]].append(rec(r, "h", r["d"]))
     for r in senate:
-        seats["s"][r["st"]].append({"cl": r["cl"], "p": "V" if r.get("vacant") else r["party"],
-                                    "n": lab.get(id(r), "Vacant"), "id": rid(c, "s", r["st"], r["cl"])})
+        seats["s"][r["st"]].append(rec(r, "s", r["cl"]))
     out.append(f'<script type="application/json" class="cgseats">{json.dumps(seats, ensure_ascii=False, separators=(",", ":"))}</script>')
     out.append('<div class="cgmaps">'
                '<figure class="cgmap dots" data-chamber="h"><figcaption>House, by delegation</figcaption>'
@@ -295,6 +316,7 @@ def block(c, data, geo, ptr, href, rid):
                '<figure class="cgmap" data-chamber="s"><figcaption>Senate, by state</figcaption>'
                '<div class="cgv" style="aspect-ratio:960/660"></div></figure></div>')
     out.append('<p class="cgkey"><span class="sw pD"></span>Democratic <span class="sw pR"></span>Republican '
+               '<span class="sw pDi"></span>Caucusing with the Democrats <span class="sw pRi"></span>Caucusing with the Republicans '
                '<span class="sw pO"></span>Other <span class="sw pV"></span>Vacant <span class="sw pX"></span>Split delegation. '
                'Dots: at-large seats beside districts. Zoom with the buttons, a double-click, a pinch, or Ctrl-scroll; drag to pan. Click a district for its representatives, a state for its senators. Delegations, under the House map: a dot a seat, a block a State; hover a dot for its district, click a dot to open it; then click a district to select it, double-click to go there; double-click white space to come back.</p>')
     later = defaultdict(list)
@@ -317,11 +339,13 @@ def block(c, data, geo, ptr, href, rid):
                 else:
                     who, party = esc(r["name"]), r["party"]
                     pts = ptr.lines(r["name"], href)
+                    if caucused(r):
+                        party = f'<span title="{esc(third_name(r))}">{party} ({caucused(r)[0]})</span>'
                 note = f'<span class="cgn">{to_html(r["n"])}</span>' if r.get("n") else ""
                 for x in later.get((ch, r["st"], seat), []):
                     note += f'<span class="cgn cgc">{esc(change_note(x))}</span>'
                 out.append(f'<tr id="{rid(c, ch, r["st"], seat)}"><td>{lab}</td><td>{who}{note}</td>'
-                           f'<td class="p{party or "V"}t">{party}</td><td>{"; ".join(pts)}</td></tr>')
+                           f'<td class="p{(caucused(r) or r.get("party") or "V") if not r.get("vacant") else "V"}t">{party}</td><td>{"; ".join(pts)}</td></tr>')
         out.append("</tbody></table></details>")
     out.append("</div>")
     return "\n".join(out)
