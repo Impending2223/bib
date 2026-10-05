@@ -417,9 +417,19 @@ tools/bib/daybook.py            lays the calendar out by day (STYLE notes at the
   included, from the TEI files at github.com/HistoryAtState/frus; dated by
   `frus:doc-dateTime-min`. Editorial notes carry only their volume's span, so each is
   filed under the document before it in its volume. Within a day, by volume and number.
-- Authors: the President for APP; for FRUS the sender in the heading (the name in
-  parentheses where there is one), else the drafter in the source note, else none.
-  Titles are the sources' own. Nothing is read or summarized by the generator.
+- Authors are persons where the sources name one, read through each FRUS volume's list of
+  persons (the `corresp` links on names): the heading's sender ("Director of Central
+  Intelligence (Dulles)"), else, where the heading names an office ("Mission at Berlin"),
+  the signer (Lightner), else the drafter of a memorandum of conversation. Initials and
+  first-name signatures ("LLC", "Bob K.") count only through a link. Where FRUS's link
+  is wrong, the heading's office words (Attorney General → Robert F. Kennedy) or a signature
+  naming another listed namesake (John S. D. Eisenhower) correct it. Intelligence estimates go
+  to the board their note says concurred (U.S. Intelligence Board). A person shows by surname
+  ("Rusk") unless the lists or the Presidents hold another by that name; then by full name
+  ("McGeorge Bundy", "John F. Kennedy"). An office shows where nobody signed. Rules and order:
+  "authors as persons" in `tools/daybook/make_daybook.py`. Titles are the sources' own;
+  nothing is read or summarized by the generator.
+- FRUS citations carry the volume's title: "FRUS 1961–63, XXIV: Laos Crisis, doc. 4".
 - Abstracts go in `daybook/abstracts.yaml` (`key: sentence`), never in the generated
   files, so a rerun keeps them. Keys: `app:<slug>`, `frus:<volume>/<dN>`. `check` fails
   on an abstract whose key is not in the daybook.
