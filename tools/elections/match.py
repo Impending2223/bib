@@ -10,7 +10,6 @@ import difflib
 import re
 import unicodedata
 
-SUF = {"jr", "jr.", "sr", "sr.", "ii", "iii", "iv"}
 
 
 def fold(t):

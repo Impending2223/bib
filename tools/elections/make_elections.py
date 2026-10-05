@@ -159,96 +159,137 @@ def seat_key(r):
     return r['d'] if r['chamber'] == 'h' else r['cl']
 
 
+# The races and States a run leaves for reading by eye: {year, key, why (unsettled | unmatched), loc
+# (page, top, bottom) on the page images, wiki [(name, party, pct)], ocr [raw lines]}. tools/elections/review.py
+# reads this list to make the reading sheets.
+LEFT = []
+
+
+def where(r, lines):
+    """The race's place on the page images, from the lines matched to it: (page, top, bottom), or None."""
+    idx = [i for c in r['candidates'] if c.get('clerk') for i in c['clerk']['lines']] + [i for x in r.get('minor', []) for i in x['lines']]
+    if r.get('span'):
+        idx += list(range(r['span'][0], r['span'][1] + 1))
+    if not idx:
+        return None, []
+    pg = lines[idx[0]]['page']
+    same = [lines[i] for i in idx if lines[i]['page'] == pg]
+    return (pg, min(l['top'] for l in same) - 60, max(l['bottom'] for l in same) + 60), [lines[i]['raw'] for i in sorted(set(idx))]
+
+
+def leave(y, key, why, r, lines):
+    loc, raw = where(r, lines)
+    LEFT.append({'year': y, 'key': list(key), 'why': why, 'loc': loc, 'ocr': raw,
+                 'wiki': [(c['name'], c.get('party'), c.get('pct')) for c in r['candidates']]})
+    sys.stderr.write(f'{why} {y} {key}: read it by eye (tools/elections/review.py)\n')
+
+
 def main():
+    """make_elections.py YEAR... [--cache DIR]: write elections/<year>.yaml for each year."""
     years = [int(a) for a in sys.argv[1:] if a.isdigit()]
     cache = sys.argv[sys.argv.index('--cache') + 1] if '--cache' in sys.argv else os.path.join(tempfile.gettempdir(), 'clerk-ocr')
-    os.makedirs(OUT, exist_ok=True)
     for y in years:
-        d = ocr(y, cache)
-        C = clerk.states(clerk.lines(d))
-        for st, v in C.items():
-            for sec in v:
-                for k, l in enumerate(v[sec]):
-                    l['sec'], l['k'] = sec, k
-        digits(y, d, C)
-        H, S = wiki_races(y, cache)
+        year(y, cache)
 
-        def dg(st, sec, k, kind):
-            f = os.path.join(d, f'{kind}_{st}_{sec}_{k}.txt')
-            n = reconcile.nums(open(f).read()) if os.path.exists(f) else []
-            return n[-1] if n else None
 
-        rows_cache = {}
+def year(y, cache, write=True):
+    """One election: the Clerk's volume OCR'd and settled, Wikipedia's races, the readings by eye; the
+    year's record (and elections/<year>.yaml when write). What is left for reading goes to LEFT."""
+    os.makedirs(OUT, exist_ok=True)
+    d = ocr(y, cache)
+    C = clerk.states(clerk.lines(d))
+    for st, v in C.items():
+        for sec in v:
+            for k, l in enumerate(v[sec]):
+                l['sec'], l['k'] = sec, k
+    digits(y, d, C)
+    H, S = wiki_races(y, cache)
 
-        def recap(st, key):
-            if st not in rows_cache:
-                out = {'d': [], 0: [], 's': []}
-                for k, r in enumerate(C.get(st, {}).get('recap', [])):
-                    low = r['raw'].lower()
-                    extra = []
-                    for kind in ('dg', 'dg2'):
-                        f = os.path.join(d, f'{kind}_{st}_recap_{k}.txt')
-                        extra += reconcile.nums(open(f).read()) if os.path.exists(f) else []
-                    m = re.search(r'di[s8]tr', low)
-                    if m:
-                        out['d'].append((reconcile.nums(r['raw'][m.end():]), extra))
-                    elif re.search(r'at\s*large', low):
-                        out[0].append((reconcile.nums(r['raw']), extra))
-                    elif re.search(r'senat|term', low):
-                        out['s'].append((reconcile.nums(r['raw']), extra))
-                rows_cache[st] = out
-            R = rows_cache[st]
-            rows = R['s'] if key == 's' else R[0] if key == 0 else R['d'][key - 1:key]
-            return [x for a, b in rows for x in a + b], sorted({x[-1] for a, b in rows for x in (a, b) if x})
+    def dg(st, sec, k, kind):
+        f = os.path.join(d, f'{kind}_{st}_{sec}_{k}.txt')
+        n = reconcile.nums(open(f).read()) if os.path.exists(f) else []
+        return n[-1] if n else None
 
-        races_out = []
-        for st in sorted({r['st'] for r in H + S}):
-            lines = sorted(C.get(st, {}).get('senate', []) + C.get(st, {}).get('house', []), key=lambda l: (l['page'], l['top']))
-            races = ([dict(r, chamber='s') for r in S if r['st'] == st and not r['special']]
-                     + [dict(r, chamber='s') for r in S if r['st'] == st and r['special']]
-                     + [dict(r, chamber='h') for r in sorted([r for r in H if r['st'] == st],
-                                                              key=lambda r: (r['d'] == 0 and any(x['st'] == st and x['d'] > 0 for x in H), r['d']))])
-            # an at-large delegation Wikipedia lists a row a seat: one race of several seats
-            merged = []
-            for r in races:
-                prev = next((x for x in merged if x['chamber'] == 'h' == r['chamber'] and x['d'] == 0 == r['d']), None)
-                if prev:
-                    prev['incumbents'] += r['incumbents']
-                    prev['candidates'] += [c for c in r['candidates'] if c['name'] not in [x['name'] for x in prev['candidates']]]
-                else:
-                    merged.append(r)
-            races = merged
-            match.align(races, lines)
-            for r in races:
-                key = (r['chamber'], st, seat_key(r))
-                rec = race_record(y, st, r, lines, key, dg, recap)
-                if rec:
-                    races_out.extend(rec)
-        head = ('# Generated by tools/elections/make_elections.py. Edit the script (or read.py), not this file.\n'
-                '# races: ch (h|s), st, seat (district, 0 at large; Senate class), seats (members elected), special,\n'
-                '# cands [{n name, party as printed, p code, v votes, w won, lines for fusion}], scat, how (how the\n'
-                '# figures were settled), page (PDF page), inc [{n, p, result}] from Wikipedia.\n')
-        data = {'year': y, 'date': DATE[y], 'congress': 87 + (y - 1960) // 2,
-                'source': {'label': f"Clerk of the House, Statistics of the Presidential and Congressional Election of {DATE[y][:4]}",
-                           'url': CLERK.format(y=y)},
-                'races': races_out}
-        if y % 4 == 0:
-            T = president.wiki_table(wiki_page(f'{y}_United_States_presidential_election', cache), y)
-            pres = president.races(y, C, d, T, dg)
-            cands = [{'k': c['k'], 'n': c['n'], 'party': c['party']} for c in T['cands']]    # 'col' dropped
-            for who in sorted({k for v in president.CAST.get(y, {}).values() for k in v if k in president.ELECTEES}):
-                if who not in [c['k'] for c in cands]:
-                    cands.append({'k': who, 'n': president.ELECTEES[who][0], 'party': None, 'like': president.ELECTEES[who][1]})
-            data['president'] = {'cands': cands, 'states': pres}
-            print(y, len(pres), 'States for President')
+    rows_cache = {}
+
+    def recap(st, key):
+        if st not in rows_cache:
+            out = {'d': [], 0: [], 's': []}
+            for k, r in enumerate(C.get(st, {}).get('recap', [])):
+                low = r['raw'].lower()
+                extra = []
+                for kind in ('dg', 'dg2'):
+                    f = os.path.join(d, f'{kind}_{st}_recap_{k}.txt')
+                    extra += reconcile.nums(open(f).read()) if os.path.exists(f) else []
+                m = re.search(r'di[s8]tr', low)
+                if m:
+                    out['d'].append((reconcile.nums(r['raw'][m.end():]), extra))
+                elif re.search(r'at\s*large', low):
+                    out[0].append((reconcile.nums(r['raw']), extra))
+                elif re.search(r'senat|term', low):
+                    out['s'].append((reconcile.nums(r['raw']), extra))
+            rows_cache[st] = out
+        R = rows_cache[st]
+        rows = R['s'] if key == 's' else R[0] if key == 0 else R['d'][key - 1:key]
+        return [x for a, b in rows for x in a + b], sorted({x[-1] for a, b in rows for x in (a, b) if x})
+
+    races_out = []
+    for st in sorted({r['st'] for r in H + S}):
+        lines = sorted(C.get(st, {}).get('senate', []) + C.get(st, {}).get('house', []), key=lambda l: (l['page'], l['top']))
+        races = ([dict(r, chamber='s') for r in S if r['st'] == st and not r['special']]
+                 + [dict(r, chamber='s') for r in S if r['st'] == st and r['special']]
+                 + [dict(r, chamber='h') for r in sorted([r for r in H if r['st'] == st],
+                                                          key=lambda r: (r['d'] == 0 and any(x['st'] == st and x['d'] > 0 for x in H), r['d']))])
+        # an at-large delegation Wikipedia lists a row a seat: one race of several seats
+        merged = []
+        for r in races:
+            prev = next((x for x in merged if x['chamber'] == 'h' == r['chamber'] and x['d'] == 0 == r['d']), None)
+            if prev:
+                prev['incumbents'] += r['incumbents']
+                prev['candidates'] += [c for c in r['candidates'] if c['name'] not in [x['name'] for x in prev['candidates']]]
+            else:
+                merged.append(r)
+        races = merged
+        match.align(races, lines)
+        for r in races:
+            key = (r['chamber'], st, seat_key(r))
+            rec = race_record(y, st, r, lines, key, dg, recap)
+            if rec:
+                races_out.extend(rec)
+    head = ('# Generated by tools/elections/make_elections.py. Edit the script or elections/readings/, not this file.\n'
+            '# races: ch (h|s), st, seat (district, 0 at large; Senate class), seats (members elected), special,\n'
+            '# cands [{n name, party as printed, p code, v votes, w won, lines for fusion}], scat, how (how the\n'
+            '# figures were settled), page (PDF page), inc [{n, p, result}] from Wikipedia.\n')
+    data = {'year': y, 'date': DATE[y], 'congress': 87 + (y - 1960) // 2,
+            'source': {'label': f"Clerk of the House, Statistics of the Presidential and Congressional Election of {DATE[y][:4]}",
+                       'url': CLERK.format(y=y)},
+            'races': races_out}
+    if y % 4 == 0:
+        T = president.wiki_table(wiki_page(f'{y}_United_States_presidential_election', cache), y)
+        pres = president.races(y, C, d, T, dg)
+        cands = [{'k': c['k'], 'n': c['n'], 'party': c['party']} for c in T['cands']]    # 'col' dropped
+        for who in sorted({k for v in president.CAST.get(y, {}).values() for k in v if k in president.ELECTEES}):
+            if who not in [c['k'] for c in cands]:
+                cands.append({'k': who, 'n': president.ELECTEES[who][0], 'party': None, 'like': president.ELECTEES[who][1]})
+        data['president'] = {'cands': cands, 'states': pres}
+        print(y, len(pres), 'States for President')
+    if write:
         body = yaml.safe_dump(data, sort_keys=False, allow_unicode=True, width=200, default_flow_style=None)
         open(os.path.join(OUT, f'{y}.yaml'), 'w', encoding='utf-8').write(head + body)
-        print(y, len(races_out), 'races')
+    print(y, len(races_out), 'races')
+    return data
 
 
 def race_record(y, st, r, lines, key, dg, recap):
     """One or more race records (New Mexico 1962 elected by position) from Wikipedia's race and the Clerk."""
     R = read.READ.get(y, {})
+    if r.get('special'):
+        # a special election's own reading ('s OR 2 special'); a plain key serves where no regular race
+        # is held for the same seat; left unread, it is reported under its special key
+        sk = key + ('special',)
+        has = lambda k: any(k in t.get(y, ()) for t in (read.READ, read.UNTABULATED, read.WON, read.NOT_IN_VOLUME))
+        if has(sk) or not has(key):
+            key = sk
     inc = [{'n': i['name'], 'p': code(i.get('party')), 'result': i.get('result', '')} for i in r['incumbents'] if i.get('name')]
     base = {'ch': r['chamber'], 'st': st, 'seat': seat_key(r), 'special': bool(r.get('special'))}
     winners_w = sum(c['won'] for c in r['candidates'])
@@ -276,8 +317,9 @@ def race_record(y, st, r, lines, key, dg, recap):
     else:
         if any(c.get('clerk') is None for c in r['candidates']) or not r['candidates']:
             # not in the Clerk's November volume (an earlier special election), or a name the OCR lost
-            miss = [c['name'] for c in r['candidates'] if c.get('clerk') is None]
-            sys.stderr.write(f'unmatched {y} {key}: {", ".join(miss) or "no candidates"}\n')
+            if key in read.NOT_IN_VOLUME.get(y, {}):
+                return None    # an earlier special election, not in the November volume
+            leave(y, key, 'unmatched', r, lines)
             return None
         cands, readings = [], []
         for c in r['candidates']:
@@ -303,7 +345,7 @@ def race_record(y, st, r, lines, key, dg, recap):
         row, tots = recap(st, seat_key(r) if r['chamber'] == 'h' else 's')
         got = reconcile.settle(readings, scat, row, tots, pct_ok)
         if not got:
-            sys.stderr.write(f'unsettled {y} {key}: add a reading to read.py\n')
+            leave(y, key, 'unsettled', r, lines)
             return None
         for c, v in zip(cands, got[0]):
             c['v'] = v

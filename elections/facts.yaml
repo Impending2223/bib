@@ -1,0 +1,63 @@
+# Hand facts for the elections: what the Clerk's volumes and Wikipedia's tables do not give in a form the
+# generators can read. Kept by hand. Read by tools/elections/president.py (president:) and by
+# tools/bib/elections.py and congress.py (caucus:, alabama_1960:). ./bib check names anything missing.
+
+# Winners and members of neither major party, by surname (matched only where the party is not D or R):
+# the label shown, and the party they caucused with. They count with that party in seats won, net
+# change and pickups, and take a striped variant of its color. check fails on a winner or a roster
+# member of neither major party who is not here.
+caucus:
+  buckley: {name: 'James L. Buckley (N.Y., Senate, 1970)', label: Conservative, caucus: R}
+  byrd: {name: 'Harry F. Byrd Jr. (Va., Senate, 1970)', label: Independent, caucus: D}
+  moakley: {name: 'Joe Moakley (Mass. 9th, 1972)', label: Independent, caucus: D}
+  fulton: {name: 'Richard Fulton (Tenn. 5th, 1962; printed Independent Democrat by the Clerk)', label: Independent Democrat, caucus: D}
+
+president:
+  # Wikipedia's column heads (results by State) where they are not the candidate's name.
+  names:
+    T. Coleman Andrews/Unpledged Electors: T. Coleman Andrews; unpledged electors
+    Unpledged Electors: Unpledged electors
+    Nixon/Agnew: Richard Nixon
+    McGovern/Shriver: George McGovern
+    Schmitz/Anderson: John G. Schmitz
+    Hospers/Nathan: John Hospers
+
+  # Electors as they voted, where a State's did not all vote for the candidate whose slate won.
+  # Keys: a candidate's key (D, R, U unpledged, A American Independent) or an electee below.
+  cast:
+    1956: {AL: {D: 10, Jones: 1}}                         # an elector pledged to Stevenson voted for Walter B. Jones
+    1960: {AL: {D: 5, Byrd: 6}, MS: {Byrd: 8}, OK: {R: 7, Byrd: 1}}
+    1968: {NC: {R: 12, A: 1}}
+    1972: {VA: {R: 11, Hospers: 1}}
+
+  # Who received electoral votes without a slate of their own; 'like' is the key whose color they take.
+  electees:
+    Jones: {name: Walter B. Jones, like: O}
+    Byrd: {name: Harry F. Byrd, like: U}
+    Hospers: {name: John Hospers, like: O}
+
+  # A slate's candidate where Wikipedia's figures would assign it otherwise: year, State, party as printed.
+  slates:
+    1960: {AL: {Democratic: D}}                          # five Kennedy electors and six unpledged: counted with Kennedy
+
+  # A note for the State's row in the table.
+  notes:
+    1960:
+      AL: The Democratic slate, five electors pledged to Kennedy, six unpledged; its vote is counted with Kennedy.
+    1964:
+      AL: Johnson had no slate; the Democratic slate was unpledged.
+    1968:
+      AL: Humphrey ran on two slates, the Democratic and the National Democratic.
+      CA: "The Clerk's figures run under the State's canvass as Wikipedia gives it: Nixon 3,467,664, Humphrey 3,244,318, Wallace 487,270."
+    1972:
+      AL: McGovern ran on two slates, the Democratic and the National Democratic.
+      CA: "The Clerk's figures run under the State's canvass as Wikipedia gives it: Nixon 4,602,096, McGovern 3,475,847."
+
+# 1960: the note to the popular vote reckons Alabama three ways (tools/bib/elections.py pres_summary).
+alabama_1960:
+  kennedy_top_elector: 318303          # Kennedy's own leading elector in Alabama (Wikipedia, from the State's canvass)
+  cq_share: [5, 11]                    # Congressional Quarterly: the slate's vote divided by its electors
+  cq_share_words: five-elevenths
+  source: >-
+    Brian J. Gaines, “Popular Myths about Popular Vote–Electoral College Splits,” PS: Political Science and
+    Politics 34 (2001).

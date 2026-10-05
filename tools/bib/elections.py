@@ -14,7 +14,7 @@ Definitions (STYLE, settled):
     50, 55, 60, 65, 75 and over; the unopposed at the top. A winner of neither major party takes the
     color of the party caucused with.
  4. Caucus: a member of neither major party counts with the party caucused with, in the seats won, the
-    net change and pickups, and is so labeled: "Conservative, caucusing with the Republicans" (THIRD).
+    net change and pickups, and is so labeled: "Conservative, caucusing with the Republicans" (elections/facts.yaml caucus:).
     Maps and bars give them a striped variant of that party's color.
  5. Pickup: the seat's winner caucuses with a party other than every incumbent who held it (the
     incumbents as Wikipedia lists them, with redistricted members under the district they ran in, and a
@@ -46,6 +46,20 @@ Definitions (STYLE, settled):
     party than at the last election. Vote share and swing as for the House and Senate; no swing where
     either party had no slate. Electors: a dot an elector, colored by the elector's vote, faithless
     electors included.
+
+Map records (the JSON in each block's script.cgseats, read by templates/congress.html):
+  seats.h[ST], seats.s[ST]: one record a seat. Congress at its opening (congress.py): {p, n, id, d | cl, pl?}.
+  Election (rows_for): {p, n, id, d | cl, k, sh, mg?, u?, sw?, swb?, x?, pl?, ho?}
+    p   party for color and counts: D, R (by caucus for a third-party member), O; at an opening also V
+        (vacant), Di, Ri (a third-party member caucusing with the Democrats, the Republicans)
+    n   the label on the map (a surname); pl the full party label of a third-party member
+    id  the row id in the tables (e<year>-<ch>-<ST>-<seat>, or the roster's cg<c>-<ch>-<ST>-<seat>)
+    d   district (0 at large) | cl Senate class
+    k   pickup | change | held | new          sh the winner's share of all votes; u unopposed
+    mg  the margin, points of all votes        sw swing, points toward the Democrats; swb its basis
+    x   a winner of neither major party        ho a seat not at stake (the Senate, from the roster)
+  seats.p[ST] (pres_rows): {p (D, R, T a third ticket, O), n, id, ev, cast [[class, electors, name]],
+    sh, mg, k (held | flip | new), sw}
 """
 import json
 import os
@@ -58,8 +72,6 @@ DIR = os.path.join(store.ROOT, "elections")
 MON = ["Jan.", "Feb.", "Mar.", "Apr.", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."]
 NAME = {"D": "Democratic", "R": "Republican", "ID": "Independent Democratic", "L": "Liberal", "C": "Conservative", "I": "Independent",
         "O": "other"}
-# bins: swing (points toward the Democrats)
-SWING_BINS = [(-10, "R4"), (-6, "R3"), (-3, "R2"), (-1, "R1"), (1, "N"), (3, "B1"), (6, "B2"), (10, "B3"), (999, "B4")]
 
 _cache = {}
 
@@ -94,9 +106,20 @@ def party_of(c):
     return "D" if c["p"] in ("D", "ID") else c["p"]
 
 
-# winners of neither major party, by surname: the label and the party they caucused with
-THIRD = {"buckley": ("Conservative", "R"), "byrd": ("Independent", "D"), "moakley": ("Independent", "D"),
-         "fulton": ("Independent Democrat", "D")}
+def facts():
+    """elections/facts.yaml: the hand facts (caucus, the President's electors, Alabama 1960)."""
+    if "facts" not in _cache:
+        p = os.path.join(DIR, "facts.yaml")
+        _cache["facts"] = store.load_yaml(p) if os.path.exists(p) else {}
+    return _cache["facts"]
+
+
+def third(surname_):
+    """(label, caucus) for a member of neither major party, from facts.yaml caucus:, or None."""
+    t = (facts().get("caucus") or {}).get(surname_)
+    return (t["label"], t["caucus"]) if t else None
+
+
 PLURAL = {"D": "Democrats", "R": "Republicans"}
 
 
@@ -106,13 +129,13 @@ def caucus(c):
         return c["p"]
     if c["p"] == "ID":
         return "D"
-    t = THIRD.get(surname(c["n"]))
+    t = third(surname(c["n"]))
     return t[1] if t else c["p"]
 
 
 def third_label(c):
     """'Conservative, caucusing with the Republicans', for a winner of neither major party."""
-    t = THIRD.get(surname(c["n"]))
+    t = third(surname(c["n"]))
     lab = t[0] if t else NAME.get(c["p"], c.get("party") or c["p"])
     cc = caucus(c)
     return f"{lab}, caucusing with the {PLURAL[cc]}" if cc in PLURAL else lab
@@ -158,13 +181,6 @@ def kind(r, winner):
         return "held"
     parties = {caucus(i) for i in inc}
     return "change" if caucus(winner) in parties else "pickup"
-
-
-def bin_of(v, bins):
-    for hi, k in bins:
-        if v < hi:
-            return k
-    return bins[-1][1]
 
 
 # ---------------------------------------------------------------- swing
@@ -506,7 +522,6 @@ def legend(has_sw):
 
 # ---------------------------------------------------------------- the President
 
-WIN_BINS = [(50, "1"), (55, "2"), (65, "3"), (101, "4")]   # the winner's share: plurality, 50, 55, 65
 
 
 def pcls(k, cands):
@@ -563,10 +578,6 @@ def pres_rows(year, data):
     return out
 
 
-# 1960: Kennedy's own leading elector in Alabama (Wikipedia, from the State's canvass)
-AL1960_KENNEDY = 318303
-
-
 def pres_summary(year, data):
     """The electoral and popular vote; for 1960, a note on the ways of counting Alabama."""
     E = data[year]
@@ -588,15 +599,16 @@ def pres_summary(year, data):
         al = next(r for r in E["president"]["states"] if r["st"] == "AL")
         d = sum(x["v"] for x in al["slates"] if x["k"] == "D")
         K, N = pop["D"], pop["R"]
-        k2, part = K - d + AL1960_KENNEDY, round(d * 5 / 11)
+        A = facts()["alabama_1960"]
+        top, (num_, den) = A["kennedy_top_elector"], A["cq_share"]
+        k2, part = K - d + top, round(d * num_ / den)
         k3 = K - d + part
         note = (f"* Alabama's Democratic slate, eleven electors, five pledged to Kennedy and six unpledged, is counted here "
                 f"with Kennedy, at its leading elector's vote ({d:,}): Kennedy ahead by {K - N:,}. At the vote of Kennedy's "
-                f"own leading elector ({AL1960_KENNEDY:,}), the unpledged electors' apart: Kennedy ahead by {k2 - N:,}. "
-                f"The slate's vote divided by its electors, five-elevenths to Kennedy ({part:,}), as Congressional Quarterly "
+                f"own leading elector ({top:,}), the unpledged electors' apart: Kennedy ahead by {k2 - N:,}. "
+                f"The slate's vote divided by its electors, {A['cq_share_words']} to Kennedy ({part:,}), as Congressional Quarterly "
                 f"reckoned it: Nixon ahead by {N - k3:,}. Mississippi's unpledged slate, which carried the State, counts for "
-                "neither. Brian J. Gaines, \u201cPopular Myths about Popular Vote\u2013Electoral College Splits,\u201d "
-                "PS: Political Science and Politics 34 (2001).")
+                "neither. " + " ".join(A["source"].split()))
     return line, note
 
 
@@ -649,7 +661,7 @@ def pres_legend(has_prev, has_sw):
     share = f'<span class="lk lk-s">The winner\'s share of all the votes: {share_scale()}</span>'
     swing = (f'<span class="lk lk-w">Swing from the last presidential election, points: {swing_scale()} '
              '<span class="lt">none where a party had no slate</span> ' + sw("NA") + 'None</span>') if has_sw else ""
-    dots = (f'<span class="lk lk-e">Electors, one dot each, as they voted: <span class="sw pD"></span>Democratic '
+    dots = ('<span class="lk lk-e">Electors, one dot each, as they voted: <span class="sw pD"></span>Democratic '
             '<span class="sw pR"></span>Republican <span class="sw pT"></span>Third ticket <span class="sw pO"></span>Other</span>')
     return f'<p class="cgkey elkey elpk">{res}{share}{swing}{dots}</p>'
 
@@ -667,28 +679,79 @@ def tagged(series):
     return out
 
 
-def problems():
-    """For ./bib check: winners against seats, votes as integers, a source per election."""
+KEY = re.compile(r"^[hs] [A-Z]{2} \d+(-\d+)?( special)?$")
+
+
+def reading_problems(R):
+    """The readings schema (tools/elections/read.py): keys 'h NY 9', rows [name, party, votes(, lines)]."""
     out = []
+    for part in ("races", "untabulated", "won", "wikipedia_differs", "not_in_volume"):
+        for k in (R.get(part) or []):
+            if not KEY.match(str(k)):
+                out.append(f"{part}: '{k}' is not a key like 'h NY 9' or 's VA 1'")
+    for k, v in (R.get("races") or {}).items():
+        for r in (v or {}).get("cands") or []:
+            if not (isinstance(r, list) and len(r) in (3, 4) and (r[2] is None or isinstance(r[2], int))):
+                out.append(f"{k}: a row is not [name, party, votes] or [name, parties, total, lines]: {r}")
+    for st, v in (R.get("president") or {}).items():
+        for r in (v or {}).get("slates") or []:
+            if not (isinstance(r, list) and len(r) == 2 and isinstance(r[1], int)):
+                out.append(f"president {st}: a slate is not [party, votes]: {r}")
+    return out
+
+
+def problems():
+    """For ./bib check: winners against seats, votes as integers, a source per election; electoral votes;
+    a caucus for every winner and member of neither major party; no reading without its race."""
+    out = []
+    for c in range(85, 95):
+        for ch in ("house", "senate"):
+            for r in (roster(c) or {}).get(ch, []):
+                if not r.get("vacant") and r.get("party") not in ("D", "R") and not third(r["name"].split(",")[0].strip().lower()):
+                    out.append((f"congress/{c}.yaml", f"{r['name']} ({r['party']}): add the party caucused with to "
+                                                      "elections/facts.yaml caucus:"))
+    rd = os.path.join(DIR, "readings")
     for y, E in load().items():
+        for r in E.get("races", []):
+            for c in r["cands"]:
+                if c.get("w") and c["p"] not in ("D", "R", "ID") and not third(surname(c["n"])):
+                    out.append((f"elections/{y}.yaml", f"{r['ch']} {r['st']} {r['seat']}: {c['n']} ({c['party']}) won; add the party "
+                                        "caucused with to elections/facts.yaml caucus:"))
+        p = os.path.join(rd, f"{y}.yaml")
+        try:
+            R = store.load_yaml(p) if os.path.exists(p) else {}
+        except Exception as e:
+            out.append((f"elections/readings/{y}.yaml", f"does not load: {e}"))
+            continue
+        out += [(f"elections/readings/{y}.yaml", m) for m in reading_problems(R)]
+        have = {f"{r['ch']} {r['st']} {r['seat']}" for r in E.get("races", [])} | \
+               {f"{r['ch']} {r['st']} {r['seat']}-{r['position']}" for r in E.get("races", []) if r.get("position")}
+        have |= {f"{r['ch']} {r['st']} {r['seat']} special" for r in E.get("races", []) if r.get("special")}
+        for k in list((R.get("races") or {})) + list(R.get("untabulated") or []) + list(R.get("won") or {}):
+            if k not in have:
+                out.append((f"elections/readings/{y}.yaml", f"{k}: a reading for no race in elections/{y}.yaml"))
+        pst = {r["st"] for r in (E.get("president") or {}).get("states", [])}
+        for st in R.get("president") or {}:
+            if st not in pst:
+                out.append((f"elections/readings/{y}.yaml", f"president {st}: a reading for no State in elections/{y}.yaml"))
         if not (E.get("source") or {}).get("url"):
-            out.append((str(y), "election without a source"))
+            out.append((f"elections/{y}.yaml", "election without a source"))
         for r in E.get("races", []):
             w = sum(1 for c in r["cands"] if c.get("w"))
             if w != r.get("seats", 1):
-                out.append((str(y), f"{r['ch']} {r['st']} {r['seat']}: {w} winners for {r.get('seats', 1)} seats"))
+                out.append((f"elections/{y}.yaml", f"{r['ch']} {r['st']} {r['seat']}: {w} winners for {r.get('seats', 1)} seats"))
             for c in r["cands"]:
                 if c.get("v") is not None and not isinstance(c["v"], int):
-                    out.append((str(y), f"{r['st']} {r['seat']}: votes not a number for {c['n']}"))
+                    out.append((f"elections/{y}.yaml", f"{r['st']} {r['seat']}: votes not a number for {c['n']}"))
         P = E.get("president")
         if P:
             EV = {1956: 531, 1960: 537}.get(y, 538)
             got = sum(sum(r["cast"].values()) for r in P["states"])
             if got != EV:
-                out.append((str(y), f"president: {got} electoral votes, not {EV}"))
+                out.append((f"elections/{y}.yaml", f"president: {got} electoral votes, not {EV}"))
             for r in P["states"]:
                 if sum(r["cast"].values()) != r["ev"]:
-                    out.append((str(y), f"president {r['st']}: electors cast {sum(r['cast'].values())} of {r['ev']}"))
+                    out.append((f"elections/{y}.yaml", f"president {r['st']}: electors cast {sum(r['cast'].values())} of {r['ev']}"))
                 if any(not isinstance(x.get("v"), int) for x in r["slates"]):
-                    out.append((str(y), f"president {r['st']}: a slate without a vote"))
+                    out.append((f"elections/{y}.yaml", f"president {r['st']}: a slate without a vote"))
     return out

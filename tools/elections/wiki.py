@@ -163,7 +163,7 @@ def senate(text, regular_class):
             st = st_of(hm.group(2))
             if not st:
                 continue
-            cm = re.search(r"Class (\d)", hm.group(0))
+            cm = re.search(r"(?i)class (\d)", hm.group(0))
             race = {"st": st, "cl": int(cm.group(1)) if cm else regular_class, "special": sp,
                     "incumbents": [], "candidates": []}
             lines = [l for l in block.strip().split("\n") if not l.startswith("!")]
