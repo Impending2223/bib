@@ -32,7 +32,7 @@ SHORT = {"samuel": ["sam"], "william": ["bill", "will"], "robert": ["bob"], "tho
          "john": ["jack"], "daniel": ["dan"], "eugene": ["gene"], "frederick": ["fred"], "albert": ["al"],
          "hubert": ["hubert"], "lawrence": ["larry"], "kenneth": ["ken"], "theodore": ["ted"], "henry": ["harry"],
          "everett": ["everett"], "clifford": ["cliff"], "gerald": ["jerry"], "abraham": ["abe"], "barry": ["barry"]}
-YEARS = {c: f"{1961 + 2 * (c - 87)}–{str(1963 + 2 * (c - 87))[2:]}" for c in range(87, 94)}
+YEARS = {c: f"{1961 + 2 * (c - 87)}–{str(1963 + 2 * (c - 87))[2:]}" for c in range(86, 95)}
 
 
 def ordinal(n):
@@ -405,9 +405,11 @@ def page(series, linker, template):
                 for t in e.get("tags", []):
                     if t.startswith("congress:"):
                         tagged[int(t.split(":")[1])] = e
-    main = ["<h1>Congress at each opening, 1961–1973</h1>",
+    main = ["<h1>Congress at each opening, 1961–1973, and the elections, 1958–1974</h1>",
             '<p class="lede">The House and Senate on the day each Congress convened, from the 87th to the 93rd: '
-            'the party division, the districts and states, and every member, with pointers to the lists and the calendar.</p>',
+            'the party division, the districts and states, and every member, with pointers to the lists and the calendar. '
+            'Before each, the election that chose it, from 1958 (the 86th) to 1974 (the 94th): '
+            'every House and Senate race, and in presidential years the vote for President and the Electors\' ballots.</p>',
             '<p class="logic">Members from <a href="https://github.com/unitedstates/congress-legislators">unitedstates/congress-legislators</a>, '
             'corrected by hand where noted in the rosters (terms missing from the source, seats vacant at the opening). '
             'District shapes from Jeffrey B. Lewis et al., <a href="https://cdmaps.polisci.ucla.edu">United States Congressional District Shapefiles</a>, '
@@ -419,7 +421,8 @@ def page(series, linker, template):
     from . import elections
     edata = elections.load()
     etag = elections.tagged(series)
-    for c in sorted(data):
+    shown = sorted(set(data) | {87 + (y - 1960) // 2 for y in edata if y >= 1958})
+    for c in shown:
         main.append(f'<h2 id="c{c}" data-short="{ordinal(c)}">{ordinal(c)} Congress, {YEARS[c]}</h2>')
         y = 1960 + 2 * (c - 87)
         if y in edata:
@@ -427,10 +430,13 @@ def page(series, linker, template):
             if y in etag:
                 main.append(f'<p class="logic">In the calendar: <a href="cal.html#{etag[y]["id"]}">{esc(etag[y]["when"])}, {y}</a>.</p>')
             main.append(elections.block(y, edata))
-            main.append(f'<h3 id="o{c}" data-short="Opening">At the opening</h3>')
+            if c in data:
+                main.append(f'<h3 id="o{c}" data-short="Opening">At the opening</h3>')
+        if c not in data:
+            continue
         if c in tagged:
             main.append(f'<p class="logic">In the calendar: <a href="cal.html#{tagged[c]["id"]}">{esc(tagged[c]["when"])}, {tagged[c]["date"][:4]}</a>.</p>')
         main.append(block(c, data[c], geo, ptr, href, rid))
     pg = open(template, encoding="utf-8").read()
-    pg = pg.replace("{{page_title}}", "Congress at each opening, 1961–1973").replace("{{main}}", "\n".join(main))
+    pg = pg.replace("{{page_title}}", "Congress at each opening and the elections").replace("{{main}}", "\n".join(main))
     return pg.replace("</body>", assets(geo) + "\n</body>", 1)

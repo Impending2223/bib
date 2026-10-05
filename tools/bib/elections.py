@@ -1,4 +1,4 @@
-"""Election Day: House and Senate results, with maps (result, vote share, swing) and every race.
+"""Election Day: President, House and Senate, with maps (result, vote share, swing; the Electors) and every race.
 
     elections/<year>.yaml   the Clerk's returns, race by race (tools/elections/make_elections.py)
 
@@ -19,11 +19,21 @@ Definitions (STYLE, settled):
  5. Swing: the change in the Democratic share from the seat's previous election, in points, toward
     the Democrats (+) or Republicans (-). House: the same district where its lines did not change
     (the same shape in congress/geo.json for both Congresses), otherwise the State's House vote.
-    Senate: the seat's last regular election (1956 for 1962; from Wikipedia's percentages).
-    No swing where either election was unopposed.
+    Senate: the seat's last regular election, six years before (1952 and 1954 from Wikipedia's
+    percentages, later years from the returns). No swing where either election was unopposed.
  6. Colors: one diverging scale, Republican red and Democratic blue around a gray middle, four
     steps a side (tools/bib/elections.py SCALES); in the result view, held seats light and pickups
     dark. Every map value is also in the tables and on hover.
+ 7. President: the Clerk's figure for a slate is the highest vote for any of its electors. Slates go to
+    candidates by Wikipedia's figures, else by party (New York's Liberal line with the Democrat, its
+    Conservative line with the Republican). Alabama, 1960: the Democratic slate, five electors pledged
+    to Kennedy and six unpledged, counts with Kennedy. Alabama, 1964: Johnson had no slate; the
+    Democratic slate was unpledged. The electoral votes are as cast (tools/elections/president.py CAST).
+ 8. The presidential map. Result: the winner's color, light where the party carried the State at the
+    last election, dark where it changed hands; a third ticket (unpledged electors, Byrd, Wallace) amber.
+    Vote share: the winner's share of all votes, under 50, 50, 55, 65 and over. Swing: the change in the
+    Democratic share of the two-party vote from the last presidential election; none where either party
+    had no slate. Electors: a dot an elector, colored by the elector's vote, faithless electors included.
 """
 import json
 import os
@@ -34,11 +44,11 @@ from . import store
 
 DIR = os.path.join(store.ROOT, "elections")
 MON = ["Jan.", "Feb.", "Mar.", "Apr.", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."]
-NAME = {"D": "Democratic", "R": "Republican", "ID": "Independent Democratic", "L": "Liberal", "C": "Conservative", "I": "Independent"}
+NAME = {"D": "Democratic", "R": "Republican", "ID": "Independent Democratic", "L": "Liberal", "C": "Conservative", "I": "Independent",
+        "O": "other"}
 # bins: Democratic share (%), and swing (points toward the Democrats)
 SHARE_BINS = [(20, "R4"), (35, "R3"), (45, "R2"), (48, "R1"), (52, "N"), (55, "B1"), (65, "B2"), (80, "B3"), (101, "B4")]
 SWING_BINS = [(-10, "R4"), (-6, "R3"), (-3, "R2"), (-1, "R1"), (1, "N"), (3, "B1"), (6, "B2"), (10, "B3"), (999, "B4")]
-SENATE_PRIOR = {1962: 1956}   # the year each regular class last voted, for Senate swing
 
 _cache = {}
 
@@ -171,13 +181,28 @@ def senate_prior():
     return store.load_yaml(p) if os.path.exists(p) else {}
 
 
+def senate_base(year, data):
+    """State -> the Democratic share in the seat's last regular election, six years before: from the
+    returns where we have them, else from Wikipedia's percentages (senate-prior.yaml)."""
+    y0 = year - 6
+    if y0 in data:
+        out = {}
+        for r in data[y0]["races"]:
+            if r["ch"] == "s" and not r.get("special"):
+                m = metrics(r)
+                if "dshare" in m:
+                    out[r["st"]] = m["dshare"]
+        return out
+    return senate_prior().get(y0, {}) or {}
+
+
 # ---------------------------------------------------------------- the block
 
 def rows_for(year, data):
     """Every seat's map record and the race it came from."""
     E = data[year]
     sw = swings(year, data)
-    prior = senate_prior().get(SENATE_PRIOR.get(year), {}) or {}
+    prior = senate_base(year, data)
     seats = {"h": defaultdict(list), "s": defaultdict(list)}
     for r in E["races"]:
         m = metrics(r)
@@ -334,14 +359,26 @@ def block(year, data, view="r"):
     out.append(f'<p class="cgh">Election of {esc(fmt_date(E["date"]))}: the {c}th Congress</p>')
     for line in summary(year, data):
         out.append(f'<p class="elsum">{esc(line)}</p>')
+    pres = E.get("president")
+    if pres:
+        seats["p"] = pres_rows(year, data)
+        out.append(f'<p class="elsum">{esc(pres_summary(year, data))}</p>')
+        has_sw = has_sw or any("sw" in x for x in seats["p"].values())
     out.append(f'<script type="application/json" class="cgseats">{json.dumps(seats, ensure_ascii=False, separators=(",", ":"))}</script>')
     views = '<span data-views="r s' + (' w' if has_sw else '') + '"></span>'
+    if pres:
+        out.append('<div class="cgmaps"><figure class="cgmap" data-chamber="p"><figcaption>President, by state</figcaption>'
+                   '<div class="cgv" style="aspect-ratio:960/660"></div></figure></div>')
+        out.append(pres_legend(year - 4 in data and "president" in data[year - 4],
+                               any("sw" in x for x in seats["p"].values())))
     out.append('<div class="cgmaps">'
                '<figure class="cgmap dots" data-chamber="h"><figcaption>House, by delegation</figcaption>'
                '<div class="cgv" style="aspect-ratio:1085/660"></div></figure>'
                '<figure class="cgmap" data-chamber="s"><figcaption>Senate, by state</figcaption>'
                '<div class="cgv" style="aspect-ratio:960/660"></div></figure></div>' + views)
     out.append(legend(has_sw))
+    if pres:
+        out.append(pres_table(year, data))
     out.append(table(year, "h", E["races"]))
     out.append(table(year, "s", E["races"]))
     src = E.get("source", {})
@@ -363,6 +400,137 @@ def legend(has_sw):
              f'{sw("B1")}{sw("B2")}{sw("B3")}{sw("B4")} <span class="lt">10 or more Republican · 6 · 3 · 1 · ±1 · 1 · 3 · 6 · 10 or more Democratic; '
              'redrawn districts take their State\'s swing</span> ' + sw("NA") + 'None</span>') if has_sw else ""
     return f'<p class="cgkey elkey">{res}{share}{swing}</p>'
+
+
+# ---------------------------------------------------------------- the President
+
+WIN_BINS = [(50, "1"), (55, "2"), (65, "3"), (101, "4")]   # the winner's share: plurality, 50, 55, 65
+
+
+def pcls(k, cands):
+    """A candidate key's color class: D, R, T (a third ticket: unpledged electors, Byrd, Wallace), O (others)."""
+    like = (cands.get(k) or {}).get("like", k)
+    return like if like in ("D", "R") else "T" if like in ("U", "A") else "O"
+
+
+def pmetrics(rec):
+    tot = {}
+    for s in rec["slates"]:
+        tot[s["k"]] = tot.get(s["k"], 0) + (s.get("v") or 0)
+    total = sum(tot.values()) + (rec.get("scat") or 0)
+    order = sorted(tot, key=lambda k: -tot[k])
+    out = {"tot": tot, "total": total, "win": order[0] if order else None}
+    if order and total:
+        out["sh"] = round(100 * tot[order[0]] / total, 1)
+    if len(order) > 1:
+        a, b = tot[order[0]], tot[order[1]]
+        out["margin"], out["margin_pts"] = a - b, round(100 * (a - b) / (a + b), 1) if a + b else None
+    d, r = tot.get("D", 0), tot.get("R", 0)
+    if d and r:
+        out["dsh"] = round(100 * d / (d + r), 1)
+    return out
+
+
+def pcands(E):
+    return {c["k"]: c for c in E["president"]["cands"]}
+
+
+def pres_rows(year, data):
+    """Each State's map record: winner class, share, flip, swing, and its electors as they voted."""
+    E = data[year]
+    C = pcands(E)
+    prev = (data.get(year - 4) or {}).get("president")
+    pm = {r["st"]: pmetrics(r) for r in prev["states"]} if prev else {}
+    PC = pcands(data[year - 4]) if prev else {}
+    out = {}
+    for r in E["president"]["states"]:
+        m = pmetrics(r)
+        p = pcls(m["win"], C)
+        rec = {"p": p, "n": short(C[m["win"]]["n"]) if m["win"] in C else "Others", "id": f"e{year}-p-{r['st']}",
+               "ev": r["ev"], "cast": [[pcls(k, C), n, short(C[k]["n"]) if k in C else k] for k, n in r["cast"].items()]}
+        if "sh" in m:
+            rec["sh"] = m["sh"]
+        q = pm.get(r["st"])
+        if prev:
+            rec["k"] = "new" if q is None else "held" if pcls(q["win"], PC) == p else "flip"
+        if q and "dsh" in m and "dsh" in q:
+            rec["sw"] = round(m["dsh"] - q["dsh"], 1)
+        out[r["st"]] = rec
+    return out
+
+
+def pres_summary(year, data):
+    E = data[year]
+    C = pcands(E)
+    ev, pop = Counter(), Counter()
+    for r in E["president"]["states"]:
+        for k, n in r["cast"].items():
+            ev[k] += n
+        for k, v in pmetrics(r)["tot"].items():
+            pop[k] += v
+    total = sum(pop.values()) + sum(r.get("scat") or 0 for r in E["president"]["states"])
+    name = lambda k: C[k]["n"] if k in C else "Others"
+    line = f"President, {sum(ev.values())} electoral votes: " + ", ".join(f"{name(k)} {n}" for k, n in ev.most_common()) + "."
+    line += " Popular vote: " + ", ".join(f"{name(k)} {pop[k]:,} ({100 * pop[k] / total:.1f}%)" for k, _ in pop.most_common()
+                                         if k != "O" and 100 * pop[k] / total >= 0.5) + "."
+    return line
+
+
+def pres_table(year, data):
+    from .congress import STATE
+    E = data[year]
+    C = pcands(E)
+    prev = (data.get(year - 4) or {}).get("president")
+    pm = {r["st"]: pmetrics(r) for r in prev["states"]} if prev else {}
+    PC = pcands(data[year - 4]) if prev else {}
+    rows = sorted(E["president"]["states"], key=lambda r: STATE.get(r["st"], r["st"]))
+    out = [f'<details class="cgr er"><summary>President, {len(rows)} States{" and the District" if any(r["st"] == "DC" for r in rows) else ""}</summary><table>'
+           '<colgroup><col class="c1"><col class="c2"><col class="c3"><col class="c4"></colgroup>'
+           '<thead><tr><th>State, electors</th><th>Slates, votes, share</th><th>Margin</th><th>Note</th></tr></thead><tbody>']
+    for r in rows:
+        m = pmetrics(r)
+        cs = ""
+        for s in sorted(r["slates"], key=lambda s: -(s.get("v") or 0)):
+            who = C[s["k"]]["n"] if s["k"] in C else ""
+            share = f"{100 * s['v'] / m['total']:.1f}%" if s.get("v") is not None and m["total"] else "—"
+            w = ' class="w"' if s["k"] == m["win"] else ""
+            cs += (f'<span class="ec"><span{w}><span class="en">{esc(s["party"])}</span>'
+                   + (f' <span class="ep">{esc(who)}</span>' if who else "") +
+                   f'</span><span class="ev">{num(s.get("v"))}</span><span class="es">{share}</span></span>')
+        if r.get("scat"):
+            cs += f'<span class="ec"><span><span class="en">Scattering</span></span><span class="ev">{num(r["scat"])}</span><span class="es"></span></span>'
+        margin = f'{num(m["margin"])}<br><span class="es">{m["margin_pts"]:.1f} pts</span>' if "margin" in m else ""
+        p = pcls(m["win"], C)
+        note = []
+        q = pm.get(r["st"])
+        if q and pcls(q["win"], PC) != p:
+            note.append(f"{NAME[p]} gain." if p in ("D", "R") else "Carried by a third ticket.")
+        cast = "; ".join(f"{n} {C[k]['n'] if k in C else k}" for k, n in r["cast"].items())
+        if len(r["cast"]) > 1 or list(r["cast"])[0] != m["win"]:
+            note.append(f"Electors: {cast}.")
+        if r.get("note"):
+            note.append(r["note"])
+        cls = "pk" if q and pcls(q["win"], PC) != p else ""
+        out.append(f'<tr id="e{year}-p-{r["st"]}" class="{cls} w{p}"><td>{esc(STATE.get(r["st"], r["st"]))}<br>'
+                   f'<span class="es">{r["ev"]}</span></td><td class="ecs">{cs}</td><td class="em">{margin}</td>'
+                   f'<td class="eno">{esc(" ".join(note))}</td></tr>')
+    out.append("</tbody></table></details>")
+    return "\n".join(out)
+
+
+def pres_legend(has_prev, has_sw):
+    sw = lambda k: f'<span class="sw e{k}"></span>'
+    res = (f'<span class="lk lk-r">{sw("B2")}Democratic {sw("R2")}Republican {sw("A2")}Third ticket'
+           + (f'; dark where the State changed hands: {sw("B4")}{sw("R4")}{sw("A4")}' if has_prev else "") + '</span>')
+    share = (f'<span class="lk lk-s">The winner\'s share of the vote: {sw("B1")}{sw("B2")}{sw("B3")}{sw("B4")} '
+             f'{sw("R1")}{sw("R2")}{sw("R3")}{sw("R4")} {sw("A1")}{sw("A2")}{sw("A3")}{sw("A4")} '
+             '<span class="lt">under 50 · 50 · 55 · 65 and over</span></span>')
+    swing = (f'<span class="lk lk-w">Swing from the last presidential election, points: {sw("R4")}{sw("R3")}{sw("R2")}{sw("R1")}{sw("N")}'
+             f'{sw("B1")}{sw("B2")}{sw("B3")}{sw("B4")} <span class="lt">10 or more Republican · 6 · 3 · 1 · ±1 · 1 · 3 · 6 · 10 or more Democratic; '
+             'none where a party had no slate</span> ' + sw("NA") + 'None</span>') if has_sw else ""
+    dots = (f'<span class="lk lk-e">Electors, one dot each, as they voted: <span class="sw pD"></span>Democratic '
+            '<span class="sw pR"></span>Republican <span class="sw pT"></span>Third ticket <span class="sw pO"></span>Other</span>')
+    return f'<p class="cgkey elkey elpk">{res}{share}{swing}{dots}</p>'
 
 
 def tagged(series):
@@ -391,4 +559,15 @@ def problems():
             for c in r["cands"]:
                 if c.get("v") is not None and not isinstance(c["v"], int):
                     out.append((str(y), f"{r['st']} {r['seat']}: votes not a number for {c['n']}"))
+        P = E.get("president")
+        if P:
+            EV = {1956: 531, 1960: 537}.get(y, 538)
+            got = sum(sum(r["cast"].values()) for r in P["states"])
+            if got != EV:
+                out.append((str(y), f"president: {got} electoral votes, not {EV}"))
+            for r in P["states"]:
+                if sum(r["cast"].values()) != r["ev"]:
+                    out.append((str(y), f"president {r['st']}: electors cast {sum(r['cast'].values())} of {r['ev']}"))
+                if any(not isinstance(x.get("v"), int) for x in r["slates"]):
+                    out.append((str(y), f"president {r['st']}: a slate without a vote"))
     return out

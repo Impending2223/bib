@@ -1,12 +1,14 @@
 """Read the Clerk's Statistics of the Congressional Election from OCR (tesseract TSV, one per page).
 
 lines(dir) -> [(page, top, bottom, text)]
-states(lines) -> {ST: {'senate': [...], 'house': [...], 'recap': [...]}}, each a list of parsed lines:
+states(lines) -> {ST: {'senate': [...], 'house': [...], 'recap': [...], 'pres': [...]}}, each a list of parsed lines:
     {'name', 'party', 'votes', 'num' (a district number printed on the line), 'page', 'top', 'bottom', 'raw'}.
     A fusion line ('| Liberal ... 85,619') has name None and belongs to the candidate above it.
+'pres' holds the presidential electors' lines: the slate's party as printed, and its vote.
 Votes are the last number on the line (the leader dots throw up stray digits before it).
 """
 import csv
+import difflib
 import glob
 import os
 import re
@@ -14,6 +16,28 @@ import re
 from wiki import ABBR
 
 CAPS = {k.upper().replace(' ', ''): v for k, v in ABBR.items()}
+CAPS['DISTRICTOFCOLUMBIA'] = 'DC'
+BYLEN = sorted(CAPS, key=len, reverse=True)
+
+
+def heading(u):
+    """The State a heading line names, through the OCR's noise ('E - OHIO oes Pe LOE gy', 'oo “RENNESSEE'):
+    a short line of capitals holding a State's name, the longest name first (ARKANSAS, not KANSAS)."""
+    low = u.lower().lstrip(' -—–|.:;\'"‘“')
+    if len(u) > 60 or 'recapitulation' in low or low.startswith(('for ', 'title', 'total', 'statistics', 'congressional')):
+        return None
+    letters = re.sub(r'[^A-Za-z]', '', u)
+    if len(letters) < 4 or sum(c.isupper() for c in letters) < 0.55 * len(letters):
+        return None
+    caps = re.sub(r'[^A-Z]', '', u)
+    for k in BYLEN:
+        if k in caps:
+            return CAPS[k]
+    for w in re.findall(r'[A-Z]{5,}', u):
+        near = difflib.get_close_matches(w, BYLEN, n=1, cutoff=0.85)
+        if near:
+            return CAPS[near[0]]
+    return None
 
 
 def lines(d):
@@ -71,25 +95,73 @@ def fix_party(p):
     return p
 
 
+def in_caps(u):
+    """A State named in a line's capitals, longest name first."""
+    caps = re.sub(r'[^A-Z]', '', u)
+    return next((CAPS[k] for k in BYLEN if k in caps), None)
+
+
+def section(u):
+    return re.match(r'^[\W\w]{0,8}?\bfor\s+(?:u|p|r|d|g|s)\w', u.lower()) is not None and not re.search(r'\d{2}', u[:8])
+
+
+def headings(ls):
+    """Line index -> the State whose heading it is. Besides heading(): a line just above a section ('For ...')
+    holding a State's name in capitals; and, where the OCR lost a heading altogether, the State its
+    recapitulation names, placed at the first section after the last State's recapitulation."""
+    out, recaps = {}, []
+    for i, (page, top, bot, t, fx) in enumerate(ls):
+        u = t.strip()
+        h = heading(u)
+        if not h and i + 1 < len(ls) and section(ls[i + 1][3]) and not section(u) and len(u) < 60:
+            h = in_caps(u)
+        if h:
+            out[i] = h
+        m = re.search(r'RECAPITULATION OF VOTES CAST (?:IN|1N|IX)\s+(.*)', u)
+        if m:
+            recaps.append((i, in_caps(m.group(1)) or heading(m.group(1))))
+    prev = -1
+    for i, x in recaps:
+        last = max([j for j in out if j < i] or [-1])
+        if x and (last < 0 or out[last] != x and not any(out[j] == x for j in out if prev < j < i)):
+            k = next((j for j in range(prev + 1, i) if section(ls[j][3])), None)
+            if k is not None:
+                out[k - 1 if k - 1 > prev and k - 1 not in out else k] = x
+        prev = i
+    return out
+
+
 def states(ls):
     out, st, sec = {}, None, None
-    for page, top, bot, t, fx in ls:
+    H = headings(ls)
+    for i, (page, top, bot, t, fx) in enumerate(ls):
         u = t.strip()
-        key = re.sub(r'[^A-Z]', '', re.split(r'[—–-]', u)[0])
-        if key in CAPS and (u.isupper() or '—' in u or 'Continued' in u):
-            if CAPS[key] != st and 'Continued' not in u and '—' not in u:
+        key = re.sub(r'[^A-Z]', '', re.split(r'[—–-]', u.lstrip(' -—–|.:;\'"‘'))[0])
+        cont = key in CAPS and ('—' in u or 'Continued' in u)
+        hs = CAPS[key] if cont else H.get(i)
+        if hs:
+            # a new State's heading ('NEW YORE', 'EKANSAS', 'Mee PENNSYLVANIA —__ re') starts afresh
+            if hs != st and not cont:
                 sec = None
-            st = CAPS[key]
+            st = hs
             out.setdefault(st, {'senate': [], 'house': [], 'recap': []})
             continue
         if st is None:
             continue
-        low = u.lower()
-        if low.startswith('for') and ('elector' in low or 'ectoral' in low or 'presid' in low or 'governor' in low):
+        low = u.lower().lstrip(' -—–|.:;\'"‘')
+        m = re.match(r'^[\W\w]{0,8}?\b(for\s+(?:u|p|r|d|g|s)\w.*)$', low) if not low.startswith('for') else None
+        if m and not re.search(r'\d{2}', low[:m.start(1)]):
+            low = m.group(1)    # margin noise before a heading on a skewed page ('ee For Unrrep Starks ...')
+        # "For Presidential Electors" ("PresipentiaL ExvEectors", "Presipentiay EvLectors"); not "For Representatives"
+        if low.startswith('for') and ('elector' in low or 'ectoral' in low or 'presid' in low or re.match(r'for\s+p\w{6,}\s+\w', low)):
+            sec = 'pres'
+            out[st].setdefault('pres', [])
+            continue
+        if low.startswith('for') and ('delegate' in low or 'governor' in low):
             sec = 'other'
             continue
-        # "For United States Senator" ("Unirep" in the OCR), "For Representatives"
-        if low.startswith('for') and 'sena' in low:
+        # "For United States Senator" ("Unirep" in the OCR), "For U.S. Senator" ("SEnNaTor", "Smnaror"), "For Representatives"
+        if low.startswith('for') and re.search(r'sena|s\w{1,2}na\w*or|u\.\s?s[.,]', low):
             sec = 'senate'
             continue
         if low.startswith('for') and ('rese' in low or 'repr' in low):
@@ -107,6 +179,15 @@ def states(ls):
         if sec == 'recap':
             out[st]['recap'].append(rec)
             continue
+        if sec == 'pres':
+            # a slate: the party (or the elector's name) and its vote
+            v = last_num(u)
+            text = re.split(r'_{2,}|\.{3,}|-{3,}|[_.\-~]{4,}', u)[0].strip(' ,.;:|')
+            if v is None or re.match(r'^\W*(Total|Majority|Plurality)', text):
+                continue
+            rec.update(votes=v, party=text, name=None)
+            out[st]['pres'].append(rec)
+            continue
         v = last_num(u)
         if v is None:
             continue
@@ -120,7 +201,12 @@ def states(ls):
             continue
         pm = list(re.finditer(r'\b(' + PARTY + r')\b', text))
         if pm:
-            party_at, party = pm[-1].start(), pm[-1].group(1)
+            # a run of parties ('Democrat, Republican': California's cross-filing) kept whole, first first
+            j = len(pm) - 1
+            while j and re.fullmatch(r'[\s,]*', text[pm[j - 1].end():pm[j].start()]):
+                j -= 1
+            party_at = pm[j].start()
+            party = ', '.join(fix_party(x.group(1)) for x in pm[j:])
         elif ',' in text:
             party_at = text.rindex(',') + 1
             party = text[party_at:]
