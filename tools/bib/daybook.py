@@ -18,10 +18,12 @@ STYLE:
     15–19"). The day's own date is not repeated (it shows in link previews and search).
  3. A ranged entry is filed under its first day; each later day of the range carries a muted
     "Continuing" line linking back to it, directly under the date and the New York Times.
- 4. Document line: author, title (linked to the text), source in grey. Author is the source's own:
-    the President for APP; for FRUS the sender in the heading, else the drafter in the source note,
-    else none. FRUS citation "FRUS 1961–63, XIV, doc. 177"; the volume's title on hover; a time of
-    day in grey where the document gives one; "through Mar. 9" for a dated range; an editorial note
+ 4. Document line: author, title (linked to the text), source in grey. Author: a person where the
+    sources name one, by surname, or by full name where another person in the FRUS volumes' lists (or
+    a President) shares the surname ("Rusk"; "McGeorge Bundy", "John F. Kennedy"); an office or body
+    where no person signed ("Embassy in France"); the rules are in tools/daybook/make_daybook.py. FRUS
+    citation with the volume's title: "FRUS 1961–63, XIV: Berlin Crisis, 1961–1962, doc. 177"; a time
+    of day in grey where the document gives one; "through Mar. 9" for a dated range; an editorial note
     filed by its place in the volume says so.
  5. An abstract, where there is one, on its own line under the title: one sentence, the brief's
     register (what the document is and says; no judgment).
@@ -106,13 +108,19 @@ def rubric(lst, e, thread_name):
 
 # ---------------------------------------------------------------- documents
 
+def frus_cite(x):
+    """'FRUS 1961–63, XXIV: Laos Crisis, doc. 4': the volume's title after its number."""
+    vol, _, doc = x["cite"].rpartition(", doc. ")
+    return f'{vol}: {x["vol"]}, doc. {doc}' if x.get("vol") and vol else x["cite"]
+
+
 def doc_html(x, ab):
     title = f'<a href="{esc(x["url"])}">{esc(x["title"])}</a>'
     au = f'<span class="au">{esc(x["author"])}</span> ' if x.get("author") else ""
     if x["src"] == "ppp":
         src, hover = "APP", "American Presidency Project"
     else:
-        src, hover = x["cite"], x.get("vol", "")
+        src, hover = frus_cite(x), "Foreign Relations of the United States"
     bits = [f'<span class="src" title="{esc(hover)}">{esc(src)}</span>']
     if x.get("time"):
         bits.append(f'<span class="src">{esc(x["time"])}</span>')
