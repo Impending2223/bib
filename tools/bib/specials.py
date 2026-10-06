@@ -7,9 +7,15 @@ Swing), and a table of the races. Specials held with the November election are i
 from the Clerk's returns; they are not repeated here. A calendar entry tagged special:<key> carries its
 race's table. The rosters' notes take each special's date and each switch from here.
 
+Votes read from a State's own returns are kept by hand in congress/specials-state.yaml (keyed by the race's
+key; header there) and laid over the generated file when it loads: the race then has votes by round and
+cites the State's publication and page. sources/states.yaml says where each State's returns are.
+
 STYLE:
- 1. Shares are the source's, in percent (Wikipedia's tables give no votes); a race with votes (Texas,
-    1961) shows votes and shares by round. Margin: points between the first two.
+ 1. Votes and shares from the State's own returns where read (specials-state.yaml), by round: an open
+    first round (a California special primary) before the deciding one; party primaries are not rounds.
+    Otherwise Wikipedia's shares, in percent, no votes; Texas, 1961, votes from Bartley and Graham.
+    Shares are of all the votes cast, scattering included. Margin: points between the first two.
  2. Pickup: the winner's party differs from the departed member's. A member re-elected to his own seat
     under another party (Watson, 1965) counts so, and the note says so.
  3. Swing: the change in the Democratic share of the two-party vote from the general election that
@@ -42,9 +48,30 @@ def fmt_date(d):
     return f"{MONTHS[int(m) - 1]} {int(dd)}, {y}"
 
 
+def readings():
+    p = os.path.join(DIR, "specials-state.yaml")
+    return (store.load_yaml(p) or {}) if os.path.exists(p) else {}
+
+
 def load():
+    """specials.yaml, with the votes read from the States' returns (specials-state.yaml) laid over it."""
     p = os.path.join(DIR, "specials.yaml")
-    return {int(k): v for k, v in (store.load_yaml(p) or {}).items()} if os.path.exists(p) else {}
+    data = {int(k): v for k, v in (store.load_yaml(p) or {}).items()} if os.path.exists(p) else {}
+    R = readings()
+    for xs in data.values():
+        for x in xs:
+            r = R.get(x["key"])
+            if not r or not r.get("rounds"):
+                continue
+            x["wiki"] = x.get("cands")
+            x["rounds"] = [{"date": str(rd["date"]), "label": rd["label"],
+                            "cands": rd["cands"] + ([["Scattering", "", rd["scattering"]]] if rd.get("scattering") else [])}
+                           for rd in r["rounds"]]
+            x["source"] = f"{r['source']}, {r['where']}" if r.get("where") else r["source"]
+            x["state"] = True
+            if r.get("note"):
+                x["note"] = r["note"]
+    return data
 
 
 def switches():
@@ -171,6 +198,10 @@ def note_cell(x):
     if x.get("flip"):
         same = surname(x["out"]) == surname(x["winner"])
         bits.append(f"{NAME.get(x['party'], x['party'])} pickup" + (", the same member under another party." if same else "."))
+    if x.get("note"):
+        bits.append(esc(x["note"]))
+    if x.get("state"):
+        bits.append(f"Votes: {esc(x['source'])}.")
     if x.get("check"):
         bits.append(f"Check: {esc(x['check'])}")
     return " ".join(bits)
@@ -313,7 +344,24 @@ def switch_note(s):
 
 def problems(series=None):
     out = []
-    keys = Counter(x["key"] for xs in load().values() for x in xs)
+    data = load()
+    keys = Counter(x["key"] for xs in data.values() for x in xs)
+    byk = {x["key"]: x for xs in data.values() for x in xs}
+    for k, r in readings().items():
+        where = f"congress/specials-state.yaml {k}"
+        if k not in byk:
+            out.append((where, "no such special in congress/specials.yaml"))
+            continue
+        if not r.get("rounds"):
+            continue
+        if not r.get("source"):
+            out.append((where, "no source"))
+        for rd in r["rounds"]:
+            tot = sum(c[2] for c in rd["cands"]) + (rd.get("scattering") or 0)
+            if rd.get("total") is not None and tot != rd["total"]:
+                out.append((where, f"{rd['label']}: the votes add to {tot:,}, the printed total is {rd['total']:,}"))
+        if not any(surname(c[0]) == surname(byk[k]["winner"]) for c in r["rounds"][-1]["cands"]):
+            out.append((where, f"the winner, {byk[k]['winner']}, is not in the last round"))
     out += [("congress/specials.yaml", f"duplicate key {k}") for k, n in keys.items() if n > 1]
     for s in switches():
         p = os.path.join(DIR, f"{s['cong']}.yaml")

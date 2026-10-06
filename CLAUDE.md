@@ -75,6 +75,7 @@ elections/facts.yaml      hand-kept facts: caucus labels, faithless electors, 19
 congress/changes.yaml     departures and successors during each Congress (generated)
 congress/specials.yaml    special elections during each Congress, 87th–93rd, with candidates (generated)
 congress/switches.yaml    members who changed party in office (kept by hand)
+sources/states.yaml       each State's own official election publications, where to read them, what they print (kept by hand)
 daybook/<YYYY-MM>.yaml    every Public Papers (APP) and FRUS document by date (generated)
 daybook/abstracts.yaml    one-sentence abstracts, keyed by document (kept by hand or agent)
 build/                    generated pages (git-ignored)
@@ -306,15 +307,22 @@ notes in `tools/bib/specials.py`.
 
 ```
 tools/congress/make_specials.py   writes congress/specials.yaml from Wikipedia (needs the network)
+congress/specials-state.yaml      votes read from the States' own returns, by hand (laid over specials.yaml)
 tools/bib/specials.py             renders the blocks, the calendar's race tables, the roster notes' dates; checks
 ```
 
-- Shares are Wikipedia's tables of each year's House specials ("<year> United States House of
+- Votes: where a State's own returns print a special (`sources/states.yaml`, `best_for_specials`), its
+  figures go in `congress/specials-state.yaml`, keyed by the race, with the publication, edition, page and
+  copy read (header there). The race then shows votes by round and cites them; Wikipedia's shares stay
+  in `specials.yaml` underneath. A date the State's returns correct goes in `STATE` in `make_specials.py`.
+
+- Otherwise, shares are Wikipedia's tables of each year's House specials ("<year> United States House of
   Representatives elections"): percentages, no votes. Texas, 1961 (Tower): votes by round, from
   Bartley and Graham, *Southern Elections*. The official returns are the States' canvasses.
 - Where Wikipedia's list and its year table disagree on a date, the table's is used and the race
   carries a "Check"; so do shares that do not add to 100.
-- `check` fails on a duplicate key, a `special:` tag with no race, or a switch not at its seat.
+- `check` fails on a duplicate key, a `special:` tag with no race, a switch not at its seat, or a reading
+  whose votes do not add to its printed total or whose last round lacks the winner.
 - The 85th and 86th Congresses (1957–60) have no rosters and no specials.
 
 ## Elections
@@ -383,6 +391,32 @@ tools/bib/elections.py              renders the blocks and checks the data (STYL
   points. The keys draw the same scales as gradient bars.
 - "Check" in a note (as in the calendar) marks a detail still to verify:
   `grep -rn Check elections/facts.yaml elections/readings`.
+
+## State sources
+
+`sources/states.yaml` is the register of each State's own official publications of election returns: blue
+books, legislative manuals, registers, statements of vote, canvasses, abstracts, count books, and the State
+election databases. Its header is the schema. For every State and D.C. it records, for 1956–1974 first:
+
+- each publication or database: title, publisher, which edition prints which election;
+- what it prints: the general election, the specials between Novembers (with votes or not, as checked against
+  `congress/specials.yaml`), State races (governor, statewide, legislature), primaries (official or party);
+- every online copy with its `access` from here, tested on the date in `checked`: open, borrow, bot-check,
+  blocked, dead, other;
+- `best_for_specials` (where to get vote counts for that State's specials) and `gaps` (what is only on paper).
+
+Start there before searching for a State's returns. The Clerk's *Statistics* stay the source for `elections/`;
+a State figure goes in as a reading or a note, with its page. Recheck access with
+`python3 tools/sources/check_access.py [--write] [--st XX ...]`; `check` fails on a State missing from the
+register, an access outside the legend, or an online copy without a url or a checked date.
+
+- Bot checks (Cloudflare, AWS WAF, captchas) are the sites' own: don't try to get around them; a person in a
+  browser can open the page. HathiTrust's pages are bot-checked here, but its catalog data (the Bib API,
+  `catalog.hathitrust.org/api/volumes/brief/htid/<id>.json`) answers: holdings and rights, not text.
+- archive.org works: item pages, OCR text (`/download/<id>/<id>_djvu.txt`), page images
+  (`/download/<id>/page/n<N>.jpg`). Many States' runs are there (CT, NH, MA, IL, CA, NC, HI, MT, AL, FL).
+- A host this environment's network policy refuses ("CONNECT tunnel failed, response 403") is `blocked`; the
+  owner can allow it in the environment's network settings.
 
 ## Economic indicators
 

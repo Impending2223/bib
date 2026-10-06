@@ -1,0 +1,1850 @@
+# State election sources: each State's own official publications of election returns (blue books, legislative
+# manuals, registers, statements of vote, official canvasses, abstracts, count books) and State election
+# databases; where they can be read; what they print; and whether a session in this environment can open them.
+# Surveyed and verified 2026-10-06, for 1956-1974 first; many series run on before and after (see `years`).
+# The House Clerk's Statistics remain the series' source for the returns (elections/); this register is where
+# to look for what the Clerk does not print (specials between Novembers, State races, primaries) and to check it.
+#
+# Per State:
+#   sources: one per publication or database
+#     title, publisher, kind (blue book | canvass | statement of vote | register | database | count book | report),
+#     frequency, covers (which edition prints which election)
+#     contents: general (President, Senate, House; level), specials (congressional specials between Novembers,
+#       with votes or not, as checked), state_races (governor, statewide, legislature), primaries (official or
+#       party; parties; runoffs; level), checked_in (the edition and pages looked at)
+#     online: one line each, {host, url, years, access, checked, pattern, rights, note}
+#   labels_1968: the Democratic and Wallace slates as the State printed them (verified: true where read on the page)
+#   best_for_specials: where to get vote counts for this State's specials (congress/specials.yaml)
+#   gaps: what is not online for 1956-1974, and where it is (State archives, microfilm, paper)
+#
+# access, as tested from this environment on `checked`:
+#   open       the page or file answers with content
+#   borrow     Internet Archive lending only (needs a login)
+#   bot-check  the site answers with a bot challenge (Cloudflare "Just a moment...", AWS WAF, captcha). Do not try
+#              to get around it; a person in a browser can open it. HathiTrust's pages are bot-checked here, but its
+#              catalog data feeds answer (catalog.hathitrust.org/api/volumes/brief/htid/<id>.json; the Bib API;
+#              the monthly hathifile): use them for holdings and rights, not text.
+#   blocked    this environment's network policy refuses the host (the environment's network settings can allow it)
+#   dead       404 or gone; other: see the note
+# Recheck: python3 tools/sources/check_access.py [--write] [--st XX ...]
+#
+# Ways in that work from here: archive.org item pages, OCR text (https://archive.org/download/<id>/<id>_djvu.txt)
+# and page images (https://archive.org/download/<id>/page/n<N>.jpg); CONTENTdm APIs on State collections; some
+# State sites want a browser User-Agent (Kentucky, Utah); www.nj.gov works where nj.gov is refused.
+- st: AK
+  name: Alaska
+  sources:
+  - title: '"State of Alaska Official Returns by Election Precincts, General Election <date>" (1970: "Published by Lieutenant Governor"); separate "... Primary Election <date>" (1968: "Published by Secretary of State") and "... Special Election March 6, 1973"'
+    publisher: Secretary of State, from 1970 Lieutenant Governor (Division of Elections)
+    kind: canvass
+    frequency: each election
+    covers: one pamphlet per election; 1958 statehood referendum and general in one volume (paper only)
+    contents:
+      general: President, U.S. Senate, U.S. House at large, by precinct with election-district totals and a statewide recapitulation
+      specials: 'yes, with votes. 1973-03-06 AK-0 checked: Notti (D) 33,123, Young (R) 35,044, persons voting 69,121, by precinct (73spec.pdf p. 8 statewide totals); also a bonding proposition on the same ballot'
+      state_races: governor-lieutenant governor (1970 checked), State Senate and House by precinct within election district (1970 'State Representatives' pages), judicial retention by judicial district, referenda
+      primaries: 'official, separate pamphlet each primary (open primary, all parties on one ballot; 1968 checked: Senate Gravel, Gruening (D), Rasmuson, Stevens (R); House Begich, Rader, Veach, Wright (D), Pollock (R)), by precinct'
+      checked_in: 68genr.pdf p. 2; 70genr.pdf pp. 1-3, 12, 20, 24, 27; 68prim.pdf pp. 1-2; 73spec.pdf pp. 1-2, 9
+    online:
+    - {host: Alaska Division of Elections, url: 'https://www.elections.alaska.gov/Core/Archive/68GENR/68genr.pdf', years: general 1960-1974 every even year, access: open, checked: '2026-10-06', pattern: 'https://www.elections.alaska.gov/Core/Archive/YYGENR/YYgenr.pdf, same files at /results/YYGENR/YYgenr.pdf (tested 60, 62, 64, 66, 68, 70, 72, 74; 58 is 404)'}
+    - {host: Alaska Division of Elections, url: 'https://www.elections.alaska.gov/Core/Archive/68PRIM/68prim.pdf', years: primary 1960-1974, access: open, checked: '2026-10-06', pattern: 'https://www.elections.alaska.gov/Core/Archive/YYPRIM/YYprim.pdf (tested 60-74 even years)'}
+    - {host: Alaska Division of Elections, url: 'https://www.elections.alaska.gov/Core/Archive/73SPEC/73spec.pdf', years: 'special election Mar. 6, 1973', access: open, checked: '2026-10-06'}
+    - {host: Alaska Division of Elections, url: 'https://www.elections.alaska.gov/doc/info/ElectionResults.php', years: index page, access: bot-check, checked: '2026-10-06', note: 'access: bot-check (AWS WAF captcha, HTTP 405)'}
+    - {host: Alaska Division of Elections, url: 'http://www.elections.alaska.gov/doc/info/stathood.htm', years: '1958', access: bot-check, checked: '2026-10-06', note: 'access: bot-check (WAF, 403)'}
+    - {host: Alaska State Library, url: 'https://lam.alaska.gov/elections', years: research guide, access: open, checked: '2026-10-06'}
+    notes: 'Scanned images, no text layer; tesseract reads them adequately. The State Library guide lists print holdings: 1958 returns (JK9593 1958.A53); official returns by precinct, general 1960-1984 and primary 1958-1984 (JK9592.A35, .A37); and says the paper returns are sometimes more detailed than the website''s scans.'
+  labels_1968:
+    democratic: Humphrey (D)
+    wallace: Wallace (I)
+    source: 68genr.pdf p. 2 (column heads under 'U.S. President')
+    verified: true
+  best_for_specials: the Division of Elections' 73SPEC/73spec.pdf (votes by precinct)
+  gaps: 1958 statehood/general returns not online (State Library print). No blue book used.
+- st: AL
+  name: Alabama
+  sources:
+  - title: Alabama Official and Statistical Register
+    publisher: Alabama Department of Archives and History (Milo B. Howard, Jr., Director, 1971)
+    kind: blue book
+    frequency: quadrennial (1955, 1959, 1963, 1967, 1971, 1975, 1979); the 1971 edition was printed late (it notes events of 1972-73)
+    covers: 'each edition prints the elections of the four years before it: 1959 = 1956-58; 1963 = 1960-62; 1967 = 1964-66; 1971 = 1968-70; 1975 = 1972-74'
+    contents:
+      general: President (a vote for each elector, Place No. 1-10, by county; elector names as column heads, no party label on p. 396 of the 1971 ed.), U.S. Senate, U.S. House, by county
+      specials: 'no votes. 1972-04-04 AL-3: the 1971 Register (Congress chapter) says only ''Mrs. Elizabeth Bullock Andrews ... nominated by Democratic Executive Committee to succeed her husband, January 27, 1972; elected April 4, 1972; took her seat, April 9, 1972.'' The 1975 Register''s election chapter has no special-election table (its OCR headings: Dem. primary May 2, 1972; second primary May 30, 1972; general Nov. 7, 1972; amendment elections). She was unopposed.'
+      state_races: governor and statewide offices by county; legislature by district and place (the 1970 legislative returns, left out of the 1971 ed., are printed at the head of the 1975 ed.'s ch. XII, p. 207); constitutional amendment elections by county
+      primaries: 'official, Democratic primary and second primary (runoff), by county: e.g. 1959 ed. May 6 and June 3, 1958; 1963 ed. May 3 and May 31, 1960, May 1 and May 29, 1962; 1971 ed. May 7, 1968 and May 5, 1970; 1975 ed. May 2 and May 30, 1972, May 7, 1974. Republican primaries not seen.'
+      checked_in: OCR of the 1959, 1963, 1967, 1971, 1975 editions (election headings); 1971 ed. p. 396 (page image); 1975 ed. ch. XII, p. 207 ff.
+    online:
+    - {host: Internet Archive, url: 'https://archive.org/details/alabama-official-statistical-register-1971', years: '1903-1979, every edition (series ids alabama-official-statistical-register-YYYY)', access: open, checked: '2026-10-06', pattern: 'https://archive.org/details/alabama-official-statistical-register-YYYY (tested 1955, 1959, 1963, 1967, 1971, 1975; 1979 listed by search)'}
+    - {host: Internet Archive (OCR text), url: 'https://archive.org/download/alabama-official-statistical-register-1975/OSR_1975_djvu.txt', years: same, access: open, checked: '2026-10-06', pattern: 'https://archive.org/download/alabama-official-statistical-register-YYYY/OSR_YYYY_djvu.txt (tested 1959, 1963, 1967, 1971, 1975)'}
+    - {host: ADAH digital collections (CONTENTdm), url: 'https://digital.archives.alabama.gov/digital/collection/register/id/593', years: unknown, access: other, checked: '2026-10-06', note: 'access: other: the page returns 200 but is an empty JavaScript shell; the CONTENTdm API answers ''Error looking up collection /register'' and the IIIF manifest is 404; WebFetch is refused (egress)'}
+    - {host: HathiTrust, url: 'https://catalog.hathitrust.org/Record/102871127', years: Register (catalog record), access: bot-check, checked: '2026-10-06'}
+    notes: The 1968 presidential tables (1971 ed. pp. 393-410) are printed sideways; the OCR is mirrored nonsense, so use the page images (p. 396 = https://archive.org/download/alabama-official-statistical-register-1971/page/n399.jpg). AL voted for electors one at a time, so the Register gives a vote for each elector.
+  labels_1968:
+    democratic: none printed on p. 396 (columns headed by elector names under 'For Presidential Elector Place No. 1')
+    wallace: same
+    source: 1971 Register p. 396 (page image)
+    verified: true
+  best_for_specials: none with votes found; the Register records only the 1972 AL-3 result (unopposed). The Clerk does not print it either; newspapers or the Secretary of State's certificate (ADAH) for any figure.
+  gaps: 'Republican and minor-party nominations (conventions) not in the Register as seen. Precinct returns: county probate offices and ADAH (Secretary of State election files).'
+- st: AR
+  name: Arkansas
+  sources:
+  - title: '"Historical Report of the Secretary of State" (editions 1958, 1968, 1978, 1986, 1998, 2008, 2018)'
+    publisher: Arkansas Secretary of State
+    kind: report
+    frequency: about every ten years
+    covers: each edition reprints the returns from statehood to its year; the 2008 and 2018 editions cover 1956-74 in full
+    contents:
+      general: President, U.S. Senate (by class), U.S. House by district, statewide totals only; 'Unopposed' where no contest
+      specials: '1966-11-08 AR-4: yes, with votes, as a separate ''Special Election'' row (Pryor, Democrat, 85,125; Lowe, Republican, 46,764; total 131,889), below the full-term race (86,887 / 46,804). 1961-04-18 AR-6: no; the House table goes from 1960 to 1962. The Congress roster has only a footnote: Catherine D. Norrell ''Elected to fill vacancy caused by death of her husband, William F. Norrell; seated April 25, 1961.'''
+      state_races: governor only (with Democratic primary, Democratic run-off, Republican primary and general, statewide totals); no other statewide offices and no legislative returns (rosters only)
+      primaries: 'official totals, statewide only: Democratic primary and run-off, Republican primary, for governor and U.S. Senate (2018 ed. ch. 6); not for the House'
+      checked_in: 2018 edition ch. 6 'Arkansas Elections' (contents p. 345; House pp. 367-400, the 1966 special on p. 389; gubernatorial p. 401 ff.); 2008 edition text searched
+    online:
+    - {host: Arkansas Secretary of State, url: 'https://www.sos.arkansas.gov/uploads/education/2018_Historical_Report.pdf', years: 2018 edition (609 pp.), access: open, checked: '2026-10-06'}
+    - {host: Arkansas Secretary of State, url: 'https://www.sos.arkansas.gov/uploads/elections/historical_report1210.pdf', years: 2008 edition (751 pp.), access: open, checked: '2026-10-06'}
+    - {host: Arkansas Secretary of State, url: 'https://www.sos.arkansas.gov/elections/research/historical-report-of-the-secretary-of-state', years: series page (links only the 2018 PDF), access: open, checked: '2026-10-06'}
+    - {host: Internet Archive, url: 'https://archive.org/details/historicalreport0000unse', years: 2008 edition, access: borrow, checked: '2026-10-06'}
+    - {host: Arkansas State Archives, url: 'https://digitalheritage.arkansas.gov/finding-aids/602', years: 'finding aid: Certified election returns of Arkansas precincts and counties, 1902-1978 (microfilm, e.g. 1962 Democratic preferential primary through 1964 presidential electors, per search summary)', access: other, checked: '2026-10-06', note: 'access: other: proxy ''CONNECT tunnel failed, response 502'' (upstream unreachable), twice'}
+    notes: 'No biennial State canvass for 1956-74 found. The Internet Archive''s Arkansas compilations (''1980 Arkansas Elections: A Compilation of Primary, Run-Off, and General Election'', ''Official Certification of Votes, 1986 ...'') start after the period. The 1958, 1968 and 1978 Historical Reports were not found online.'
+  labels_1968:
+    democratic: not printed by slate in the Historical Report (statewide totals by candidate with party)
+    wallace: unverified
+    source: 2018 Historical Report, presidential table (not opened for 1968)
+    verified: false
+  best_for_specials: '1966 AR-4: the Historical Report (2008 or 2018), statewide totals. 1961 AR-6: none found in State publications; the county certified returns on microfilm at the Arkansas State Archives (finding aid 602).'
+  gaps: 'County-level returns and House primaries for 1956-74: only the certified returns on microfilm (Arkansas State Archives). Legislature: no returns.'
+- st: AZ
+  name: Arizona
+  sources:
+  - title: '"Official Canvass General Election - <date>" (1958-62), "State of Arizona Official Canvass General Election - <date>" (1964 on); primary canvasses separate (titles from Wikipedia''s citations, first pass)'
+    publisher: Arizona Secretary of State
+    kind: canvass
+    frequency: each election
+    covers: one canvass per election
+    contents:
+      general: unverified (host behind a bot check)
+      specials: unverified. 1961-05-02 AZ-2 (Udall-Matheson) not opened. The State Library's collection description (search-result summary of azlibrary.gov/node/131, itself bot-checked) says the Official Canvass collection covers 'primary, special, general, recounts, and presidential preference elections from 1906 to the present', so a 1961 special canvass probably exists.
+      state_races: unverified
+      primaries: separate canvasses (first pass; unverified)
+      checked_in: nothing opened
+    online:
+    - {host: Arizona Memory Project (Arizona State Library), url: 'https://azmemory.azlibrary.gov/nodes/view/102663', years: '1968 general; node ids from Wikipedia citations: 1958 general 102654, 1960 102655, 1962 102657, 1964 102659, 1966 102661, 1968 102663, 1970 102665, 1972 102667, 1974 102669; primaries the even ids 102656-102670 (1958 primary 283938; 1956 primary 102653)', access: bot-check, checked: '2026-10-06'}
+    - {host: Arizona Memory Project, url: 'https://azmemory.azlibrary.gov/nodes/view/255745', years: collection 'State of Arizona Official Canvass', access: bot-check, checked: '2026-10-06', pattern: Wayback has a capture (20251014034318) per archive.org/wayback/available; web.archive.org itself is not reachable from here}
+    - {host: Arizona Secretary of State, url: 'https://azsos.gov/elections/archived-election-results', years: unknown, access: bot-check, checked: '2026-10-06'}
+    - {host: Internet Archive (CIS microfiche), url: 'https://archive.org/search?query=title%3A%28official+canvass%29+AND+arizona', years: 1980-1994 only (micro_IA... items), access: open, checked: '2026-10-06'}
+    notes: Every Arizona host (azsos.gov, apps.azsos.gov, azlibrary.gov, azmemory) answers with a Cloudflare challenge. Someone with a browser should open node 255745 and look for a 'Special Election May 2, 1961' item.
+  labels_1968:
+    democratic: 'unverified (Wikipedia, citing the canvass: ''Democratic Party'')'
+    wallace: 'unverified (Wikipedia: ''American Independent Party'')'
+    source: https://azmemory.azlibrary.gov/nodes/view/102663
+    verified: false
+  best_for_specials: the State Library's Official Canvass collection (azmemory), if it holds the May 2, 1961 special; not seen
+  gaps: 'All of 1956-74 unseen from here. Paper: Arizona State Library, Archives and Public Records (Phoenix).'
+- st: CA
+  name: California
+  sources:
+  - title: '"Statement of Vote" (title pages: "State of California Statement of Vote, General Election November 4, 1952 ...", "Direct Primary Election", "Consolidated Primary Election June 4, 1968"; "California Statement of Vote General Election, November 3, 1964, Special Elections, 1963-1964"), with the "Supplement to the Statement of Vote" (vote by assembly, senate, congressional district and city)'
+    publisher: California Secretary of State (Frank M. Jordan; from 1971 Edmund G. Brown Jr.)
+    kind: statement of vote
+    frequency: each primary and general election
+    covers: 'one Statement per election; special elections since the last Statement are printed in the next one (''Including: Special Elections'')'
+    contents:
+      general: President (slates), U.S. Senate, U.S. House, by county; Supplement by district and city
+      specials: 'yes, with votes, every one checked. 1963-01-22 CA-1 (Clausen 79,292; Grader 65,339; Stuart 1,661), 1963-06-11 CA-23 and 1964-02-18 CA-5: Nov. 3, 1964 Statement, ''Special Elections in 1963 and 1964'', pp. 28-29 (1962-64 vol., leaves ~179-180). 1965-12-15 CA-26 run-off (Rees 40,430; Marshall 27,579) and 1966-06-07 CA-14 special primary: June 7, 1966 Statement (1966-68 vol., leaf ~50). 1967-12-12 CA-11 run-off: 1966-68 vol., leaf ~185. 1969-04-29 CA-27 run-off and 1970-06-30 CA-24 and CA-35 run-offs: Nov. 3, 1970 Statement, ''Special Elections in 1969 and 1970'' (1970-72 vol., leaves ~57-58). 1974: June 4, 1974 primary Statement, ''Special Election Results'' pp. 51-54 (1973-74 vol., p. 54 = leaf n95): CA-6 special primary June 4, 1974 (Burton 73,114, 50.02%*) and CA-13 special primary MARCH 5, 1974 (Lagomarsino 52,140, 53.64%*). Special primaries and run-offs both printed, precinct, absentee and total vote, by county; some 1969-70 tables give ''total vote only''.'
+      state_races: governor and all statewide offices by county; State Senate and Assembly by district (county breakdown); judges; propositions
+      primaries: official, all parties (Democratic, Republican, minor), by county, in the primary Statement; no run-offs (none in California primaries)
+      checked_in: OCR of all five SFPL volumes; page images of the 1973-74 vol. pp. 52, 54
+    online:
+    - {host: Internet Archive (San Francisco Public Library), url: 'https://archive.org/details/stateofcaliforn195262cali', years: 1952-62 vol. (Statements Nov. 1952 to Nov. 1960 and the June 1962 primary), access: open, checked: '2026-10-06'}
+    - {host: Internet Archive (SFPL), url: 'https://archive.org/details/castatem196264cali', years: '1962-64 vol. (Nov. 1962 to Nov. 1964, specials 1961-64)', access: open, checked: '2026-10-06'}
+    - {host: Internet Archive (SFPL), url: 'https://archive.org/details/californiastate196668cali', years: '1966-68 vol. (June 1966 to Nov. 1968, specials 1965-68)', access: open, checked: '2026-10-06'}
+    - {host: Internet Archive (SFPL), url: 'https://archive.org/details/statementofvote197072cali', years: 1970-72 vol. (specials 1969-72), access: open, checked: '2026-10-06'}
+    - {host: Internet Archive (SFPL), url: 'https://archive.org/details/statementofvote197374cali', years: '1973-74 vol. (Nov. 1973 special, June and Nov. 1974, specials 1973-74)', access: open, checked: '2026-10-06'}
+    - {host: Internet Archive, url: 'https://archive.org/details/california-blue-book-1958-sfg', years: California Blue Book 1958, access: open, checked: '2026-10-06'}
+    - {host: Internet Archive, url: 'https://archive.org/details/californiabluebo0000unse_n6p9', years: California Blue Book 1963, access: open, checked: '2026-10-06'}
+    - {host: HathiTrust, url: 'https://babel.hathitrust.org/cgi/pt?id=uc1.31158002471570&seq=3', years: 'Nov. 5, 1968 Statement', access: bot-check, checked: '2026-10-06'}
+    - {host: HathiTrust, url: 'https://catalog.hathitrust.org/Record/007709821', years: 'June 6, 1972 primary', access: bot-check, checked: '2026-10-06'}
+    - {host: California Secretary of State, url: 'https://elections.cdn.sos.ca.gov/sov/2018-general/sov/04-historical-voter-reg-participation.pdf', years: 'registration and turnout table, 1910-2018', access: open, checked: '2026-10-06'}
+    - {host: California Secretary of State, url: 'https://www.sos.ca.gov/elections/prior-elections/statewide-election-results', years: recent elections, access: open, checked: '2026-10-06'}
+    notes: The SFPL volumes have good OCR except for the sideways special-election tables of 1974; use page images there. The series continues on the Internet Archive to 2010 (statementofvote... items). Use the hOCR page index (<id>_hocr_pageindex.json.gz with <id>_hocr_searchtext.txt.gz) to find the leaf of a word.
+  labels_1968:
+    democratic: 1968 DEMOCRATIC PRESIDENTIAL ELECTORS
+    wallace: 1968 AMERICAN INDEPENDENT PRESIDENTIAL ELECTORS
+    source: Statement of Vote, Nov. 5, 1968, p. 11 (1966-68 vol.) (first pass, from OCR)
+    verified: true
+  best_for_specials: the Statement of Vote (votes by county, precinct and absentee) for all eleven 1963-74 House specials
+  gaps: 'none for 1956-74. Precinct-level returns: county registrars.'
+- st: CO
+  name: Colorado
+  sources:
+  - title: '"State of Colorado Abstract of Votes Cast at the Primary Election Held on the 8th day of September A.D., 1970 and at the General Election Held on the 3rd day of November A.D., 1970 for United States Congressmen, State, Legislative and District Officers and Proposed Constitutional Amendments; also Directory of the United States, State, Legislative, District and County Officers ..." (wording varies by year)'
+    publisher: Colorado Secretary of State (Byron A. Anderson, 1970)
+    kind: canvass
+    frequency: biennial
+    covers: the volume for year N prints the N primary and the N general
+    contents:
+      general: President (slates), U.S. Senate, U.S. House, by county
+      specials: no specials to Congress in 1956-74 to check
+      state_races: governor and lieutenant governor and statewide offices by county; State Senate and House by county and district, primary and general side by side
+      primaries: official, Democratic and Republican, by county, in the same volume (no run-offs)
+      checked_in: 1970 Abstract (26 pp., text layer); 1968 Abstract PDF p. 12 (presidential electors)
+    online:
+    - {host: Colorado State Publications Library, url: 'https://spl.cde.state.co.us/artemis/sserials/s111internet/', years: '1904-1908, 1912-2020 (series page with every PDF)', access: open, checked: '2026-10-06', pattern: 'https://spl.cde.state.co.us/artemis/sserials/s111internet/s111YYYYinternet.pdf (tested 1956, 1960, 1966, 1968, 1970, 1972, 1974; the server reset a large download once, a retry worked)'}
+    - {host: 'Colorado Secretary of State, historical election database', url: 'https://historicalelectiondata.coloradosos.gov/eng/contests/view/12097', years: '1902-; contest pages link the scanned Abstract page (e.g. /document/263?page=23)', access: open, checked: '2026-10-06'}
+    - {host: Colorado Secretary of State, url: 'https://www.sos.state.co.us/pubs/elections/Results/Abstract/pdf/1900-1999/1968AbstractBook.pdf', years: 1956-1974 (first-pass URLs), access: dead, checked: '2026-10-06', pattern: every YYYYAbstractBook.pdf tested 1956-1974 is 404}
+    - {host: Colorado Secretary of State, url: 'https://www.sos.state.co.us/pubs/elections/resultsData.html', years: links to the database and recent abstracts, access: open, checked: '2026-10-06'}
+    - {host: Internet Archive, url: 'https://archive.org/search?query=title%3A%28abstract+of+votes+cast%29+AND+colorado', years: 1908-1948 and 1976 on; not 1950-74, access: open, checked: '2026-10-06'}
+  labels_1968:
+    democratic: Hubert H. Humphrey / Edmund S. Muskie —Dem.
+    wallace: George C. Wallace / S. Marvin Griffin —American Ind. Party
+    source: 1968 Abstract, PDF p. 12, 'PRESIDENTIAL ELECTORS' (page image)
+    verified: true
+  best_for_specials: n/a (no congressional specials 1956-74)
+  gaps: none for 1956-74; precinct returns with county clerks.
+- st: CT
+  name: Connecticut
+  sources:
+  - title: '"Register and Manual" (title page "Register and Manual - State of Connecticut")'
+    publisher: Secretary of the State
+    kind: blue book
+    frequency: annual
+    covers: the year N+1 edition prints the November N election; odd-year editions reprint the last presidential vote
+    contents:
+      general: President and U.S. Senate by town (1971 ed. pp. 630-637), electoral votes 1928-1968 (p. 638), U.S. House by town (p. 658 ff.)
+      specials: 'yes, with votes. 1970-11-03 CT-2 checked: 1971 Register prints the full-term and the ''To Fill Vacancy'' race in parallel columns by town, Pickett (D) v. Steele (R); ''Steele (R) plurality, 11,354 (Full Term)'', ''Steele (R) plurality, 11,483 (To Fill Vacancy)'' (pp. 660-661)'
+      state_races: state officers (p. 639), county sheriffs, State Senators, judges of probate, State Representatives, constitutional amendments, all by town (1971 ed. contents)
+      primaries: not in the Register's election statistics (1971 contents list none); party enrollment printed
+      checked_in: 1971 edition contents (Election Statistics, pp. 626-738) and pp. 658-661 (OCR)
+    online:
+    - {host: Internet Archive (Connecticut State Library), url: 'https://archive.org/details/registe71conn', years: every edition 1956-1976 and many others, access: open, checked: '2026-10-06', pattern: 'no single pattern; ids register56conn, register57conn, registe58conn, registe59conn, registerm60conn, regist61conn, register62conn, registe63conn, registerm64conn, regist65conn, register66conn, registe67conn, registerm68conn, register69conn, registe70conn, registe71conn, register72conn, registe73conn, regist74conn, regi75conn (all 19 tested open)'}
+  - title: '"State of Connecticut, Public Document No. 26: Statement of Vote, General Election <date>" ("Tabulated from returns as recorded by the moderators and filed with the office of Secretary of the State")'
+    publisher: Secretary of the State
+    kind: statement of vote
+    frequency: each general election
+    covers: that November's election
+    contents:
+      general: U.S. Senate, Representatives in Congress, by town
+      specials: 'yes: 1970 Statement, ''Vote for Representative in Congress (To Fill Vacancy, Second Congressional District)'', pp. 25-26'
+      state_races: state officers, county sheriffs, State Senators, judges of probate, State Representatives, constitutional amendments, statement of presiding officers (1970 contents)
+      primaries: not included
+      checked_in: 1970 Statement, pp. 1-3 (title and contents)
+    online:
+    - {host: Connecticut Secretary of the State, url: 'https://portal.ct.gov/-/media/sots/electionservices/statementofvote_pdfs/1970sovpdf.pdf', years: 1956-1974 at least, access: open, checked: '2026-10-06', pattern: 'https://portal.ct.gov/-/media/sots/electionservices/statementofvote_pdfs/YYYYsovpdf.pdf (tested 1956, 1958, 1960, 1962, 1964, 1966, 1968, 1970, 1972, 1974)'}
+    - {host: 'Connecticut Secretary of the State, ElectionStats', url: 'https://electionhistory.ct.gov/eng/contests/view/14950', years: at least 1960-, access: open, checked: '2026-10-06'}
+  labels_1968:
+    democratic: Democratic Party
+    wallace: George Wallace Party
+    source: '1969 Register p. 611 (first pass, OCR: elector list ''(Democratic) ...'', ''(George Wallace Party) ...'')'
+    verified: true
+  best_for_specials: the Statement of Vote (1970, pp. 25-26) or the 1971 Register (pp. 658-661); both by town
+  gaps: 'Primaries (from 1956 challenge primaries): not in either; try ElectionStats or the SOTS files at the State Library.'
+- st: DC
+  name: District of Columbia
+  sources: []
+  labels_1968:
+    democratic: unverified
+    wallace: not on the ballot (Wikipedia)
+    source: none
+    verified: false
+  best_for_specials: 'the Mar. 23, 1971 Delegate special: no D.C. publication found; the Clerk (Statistics, 1971 special) and newspapers'
+  gaps: No published canvass found for 1964-74. The Board of Elections' results archive (https://www.dcboe.org/Elections/Election-Results-Archives, open) starts in 1992; https://electionresults.dcboe.org/ (open) holds recent elections. The Board's certificates of ascertainment for 1964, 1968 and 1972 are with the Electoral College records at the National Archives (paper; online only from 2000). Possibly printed in D.C. government annual reports or congressional hearings on D.C. (unverified).
+- st: DE
+  name: Delaware
+  sources:
+  - title: '"State of Delaware: Official Results of General Election" (1968 cover: "Prepared by George W. Cripps, Commissioner of Elections"; 1972 by Burton D. Willis per Wikipedia)'
+    publisher: Commissioner of Elections (Department of Elections)
+    kind: canvass
+    frequency: biennial
+    covers: one per general election
+    contents:
+      general: President, U.S. Senate, U.S. House at large, by county with majority (1968 p. 2); vote by representative district for every statewide office (1968 'Vote Tabulation by Representative Districts')
+      specials: no congressional specials 1956-74 to check (the archive lists later legislative specials, 1975 and 1979)
+      state_races: governor, lieutenant governor, treasurer, auditor by county; General Assembly by senatorial and representative district; New Castle County council and county offices; historical governor returns from 1940; voting statistics
+      primaries: not in the 1968 results (Delaware nominated by convention until the 1970s; unverified)
+      checked_in: 1968 results, PDF pp. 1, 3 and a sample of pp. 4-25 (25 pp.)
+    online:
+    - {host: Delaware Department of Elections, url: 'https://elections.delaware.gov/elections/election_archive.html', years: '''1940-1982'' section: 1940 (in folder elect40To52), 1966, 1968, 1970, 1972, 1974, 1976, 1978 and legislative specials 1975, 1979; nothing for 1942-1964 apart from the 1940 file', access: open, checked: '2026-10-06'}
+    - {host: Delaware Department of Elections, url: 'https://elections.delaware.gov/elections/resultsarchive/elect68/pdfs/19681105_GeneralElectionResults.pdf', years: '1968', access: open, checked: '2026-10-06'}
+    - {host: Delaware Department of Elections, url: 'https://elections.delaware.gov/elections/resultsarchive/elect72/pdfs/1972.pdf', years: '1972', access: open, checked: '2026-10-06'}
+    - {host: Delaware Department of Elections, url: 'https://elections.delaware.gov/elections/resultsarchive/elect66/pdfs/1966.pdf', years: '1966; also elect70/pdfs/1970.pdf, elect74/pdfs/1974.pdf', access: other, checked: '2026-10-06', pattern: 'https://elections.delaware.gov/elections/resultsarchive/electYY/pdfs/19YY.pdf (from the archive page; 1968 is named 19681105_GeneralElectionResults.pdf)', note: 'access: other: after a few requests the site''s firewall answered ''Request Rejected'' (HTTP 200, 244-byte HTML) for every file, including ones that had opened; retry later'}
+  - title: '"State Manual Containing Official List of Officers, Boards, Commissions and County Officers" (later "Delaware State Manual")'
+    publisher: Secretary of State
+    kind: blue book
+    frequency: annual or biennial (unverified)
+    covers: prints the last election's returns (Wikipedia cites 1957 p. 61, 1960 p. 67, 1965 p. 71)
+    contents:
+      general: unverified
+      specials: n/a
+      state_races: unverified
+      primaries: unverified
+      checked_in: not opened
+    online:
+    - {host: HathiTrust, url: 'https://babel.hathitrust.org/cgi/pt?id=uiug.30112085283304&seq=63', years: '1957', access: bot-check, checked: '2026-10-06'}
+    - {host: HathiTrust, url: 'https://babel.hathitrust.org/cgi/pt?id=mdp.39015053596881&seq=169', years: '1960', access: bot-check, checked: '2026-10-06', note: 'access: bot-check (same host; not retested)'}
+    - {host: HathiTrust, url: 'https://babel.hathitrust.org/cgi/pt?id=uiug.30112085283379&seq=73', years: '1965', access: bot-check, checked: '2026-10-06', note: 'access: bot-check (same host; not retested)'}
+    notes: Not found on the Internet Archive.
+  labels_1968:
+    democratic: HUMPHREY (D)
+    wallace: WALLACE (A)
+    source: Official Results of General Election 1968, p. 2 (PDF p. 3), page image
+    verified: true
+  best_for_specials: n/a (no congressional specials 1956-74)
+  gaps: 1956-1964 official results not on the Department's site; the State Manual (HathiTrust, bot-checked) or Delaware Public Archives (Dover) for those years.
+- st: FL
+  name: Florida
+  sources:
+  - title: '"Tabulation of Official Votes Cast in the General Election, <date>" (1968 title page: "... November 5, 1968, Compiled By TOM ADAMS Secretary of State"; running head "Official Vote - Florida General Election, November 5, 1968")'
+    publisher: Florida Secretary of State
+    kind: canvass
+    frequency: biennial
+    covers: that November's election
+    contents:
+      general: President and Vice President, U.S. Senate, Representatives in Congress, by county (1968 PDF p. 5 ff.)
+      specials: no congressional specials 1956-74 to check
+      state_races: registered voters by county and race (white, Negro) and party; state offices; State Senate and House by district with county breakdown; public defenders and other circuit offices (1968 checked)
+      primaries: separate series, below
+      checked_in: 1968 Tabulation (35 pp.), PDF pp. 1-5 and samples of pp. 6-35, page images
+    online:
+    - {host: Internet Archive (State Library and Archives of Florida), url: 'https://archive.org/details/Tabulationofofficialvotescastinthegeneralelection1968', years: 1948-1970 even years, access: open, checked: '2026-10-06', pattern: 'https://archive.org/details/TabulationofofficialvotescastinthegeneralelectionYYYY, some with a trailing 1: 1956, 1962, 1964, 1966, 1968, 1970 plain; 19581, 19601 (and 19481-19541) with the 1 (all from an archive.org search, 1968 opened)'}
+    - {host: Internet Archive, url: 'https://archive.org/search?query=title%3A%28tabulation+of+official+votes+cast%29', years: '1972, 1974: not found', access: open, checked: '2026-10-06'}
+    - {host: Internet Archive, url: 'https://archive.org/details/reportofsecr19611962flor', years: Report of the Secretary of State 1961-62 (earlier biennia too), access: open, checked: '2026-10-06'}
+    - {host: Florida Division of Elections, url: 'https://results.elections.myflorida.com/', years: from 1978 (first pass; not rechecked), access: open, checked: '2026-10-06'}
+  - title: '"Tabulation of Official Vote, Florida Primary Elections: Democratic and Republican (<year>)" (1972: "Democratic, Republican and Nonpartisan")'
+    publisher: Florida Secretary of State
+    kind: canvass
+    frequency: biennial
+    covers: that year's primaries
+    contents:
+      general: n/a
+      specials: n/a
+      state_races: n/a
+      primaries: official, Democratic and Republican, by county (titles); first and second primaries not checked
+      checked_in: titles only (archive.org search)
+    online:
+    - {host: Internet Archive (SLAF), url: 'https://archive.org/details/TabulationofofficialvoteFloridaprimaryelections1968', years: '1932-1972 (1956, 1958, 1960, 1962, 1964, 1966, 1968, 1970, 1972 found; 1974 not found)', access: open, checked: '2026-10-06', pattern: 'https://archive.org/details/TabulationofofficialvoteFloridaprimaryelectionsYYYY (1952 is ...19521)'}
+    - {host: HathiTrust, url: 'https://babel.hathitrust.org/cgi/pt?id=uc1.c109427849&seq=9', years: primary tabulations 1962-72 (bound), access: bot-check, checked: '2026-10-06'}
+    notes: The SLAF items are PDFs with poor OCR (no hOCR index); use the page images.
+  labels_1968:
+    democratic: (Dem)
+    wallace: (G.W.)
+    source: Tabulation, Nov. 5, 1968, PDF p. 5, 'PRESIDENT AND VICE PRESIDENT' (page image); key to G.W. not seen
+    verified: true
+  best_for_specials: n/a (no congressional specials 1956-74)
+  gaps: 1972 and 1974 general tabulations and the 1974 primary tabulation not online; State Archives of Florida (Tallahassee).
+- st: GA
+  name: Georgia
+  sources:
+  - title: '"Official State of Georgia Tabulation by Counties for Presidential Electors, U.S. Senator, U.S. Representatives, State Officers and Constitutional Amendments, General Election Nov. 5, 1968" (wording varies by year)'
+    publisher: Secretary of State (Ben W. Fortson, Jr.)
+    kind: canvass
+    frequency: each general election
+    covers: that November's election
+    contents:
+      general: presidential electors (a vote for each elector, by county, under party heads), U.S. Senate, 'Consolidated Returns for U.S. Representative from Georgia' by district and county
+      specials: no congressional specials 1956-74 to check
+      state_races: state officers (Public Service Commission, Supreme Court in 1968), judges by judicial circuit, constitutional amendments statewide and local, by county; the General Assembly not seen
+      primaries: not in the tabulation
+      checked_in: 1968 tabulation (51 pp.), page images of PDF pp. 1-9 and headers of pp. 10-51
+    online:
+    - {host: Digital Library of Georgia (Georgia Government Publications), url: 'https://dlg.galileo.usg.edu/data/dlg/ggpd/pdfs/dlg_ggpd_y-ga-bs700-b-ps1-bs4-b1968-bfolio.pdf', years: 1956-1974 every even year, access: open, checked: '2026-10-06', pattern: 'https://dlg.galileo.usg.edu/data/dlg/ggpd/pdfs/dlg_ggpd_y-ga-bs700-b-ps1-bs4-bYYYY-bfolio.pdf (tested 1956-1974 even years; downloads sometimes reset, a retry works); record page https://dlg.usg.edu/record/dlg_ggpd_y-ga-bs700-b-ps1-bs4-bYYYY-bfolio (1962, 1968 open)'}
+  - title: '"Georgia''s Official Register, 1965-1966" (DLG title; Department of Archives and History, Carroll Hart); DLG collection "Georgia Official and Statistical Register"'
+    publisher: Georgia Department of Archives and History
+    kind: blue book
+    frequency: biennial
+    covers: unverified which elections each prints
+    contents:
+      general: unverified
+      specials: n/a
+      state_races: unverified
+      primaries: unverified
+      checked_in: 'record pages only; PDFs are 200+ MB (1965-66: 210 MB) and were not read'
+    online:
+    - {host: Digital Library of Georgia, url: 'https://dlg.usg.edu/record/dlg_sreg_1965', years: record page, access: open, checked: '2026-10-06'}
+    - {host: Digital Library of Georgia, url: 'https://dlg.galileo.usg.edu/data/dlg/sreg/pdfs/dlg_sreg_1965.pdf', years: '1955, 1957, 1959, ... 1975 (first year of each biennium)', access: open, checked: '2026-10-06', pattern: 'https://dlg.galileo.usg.edu/data/dlg/sreg/pdfs/dlg_sreg_YYYY.pdf (tested 1955, 1957, 1959, 1961, 1963, 1965, 1967, 1969, 1971, 1973, 1975; 1956 is 404)'}
+    - {host: Digital Library of Georgia, url: 'https://dlg.usg.edu/collection/dlg_sreg', years: collection page, access: bot-check, checked: '2026-10-06', note: 'access: bot-check (redirects to /turnstile/access)'}
+    - {host: Digital Library of Georgia, url: 'http://dlg.galileo.usg.edu/statreg-images/pdfs/1961.pdf', years: old Register path, access: dead, checked: '2026-10-06', note: 'access: dead (https: 403; http: proxy refuses the plain-http host)'}
+  labels_1968:
+    democratic: DEMOCRATIC PARTY (Presidential Electors)
+    wallace: AMERICAN PARTY (Presidential Electors)
+    source: Tabulation 1968, PDF pp. 2-7 (American pp. 2-3, Republican pp. 4-5, Democratic pp. 6-7), page images
+    verified: true
+  best_for_specials: n/a (no congressional specials 1956-74)
+  gaps: 'Primaries (party-run in Georgia): not in the tabulation; perhaps in the Official Register (unverified) or the State Democratic Executive Committee''s certifications (Georgia Archives). General Assembly returns not seen in the tabulation.'
+- st: HI
+  name: Hawaii
+  sources:
+  - title: Result of Votes Cast, General Election ... State of Hawaii (and a separate 'Result of Votes Cast, Primary Election')
+    publisher: Office of the Lieutenant Governor (Hawaii's chief election officer until the Office of Elections, 1990s)
+    kind: canvass
+    frequency: per election (primary and general issued separately)
+    covers: one issue per election, 1959 on
+    contents:
+      general: President, U.S. Senate, U.S. House, by representative district and precinct (computer print-out), with a statewide summary by county (Hawaii, Maui, Honolulu, Kauai)
+      specials: none on the list for Hawaii
+      state_races: 'governor and lieutenant governor (1962, 1966, 1970, 1974: ''1970 General'' has GOVERNOR, LT. GOVERNOR); State Senate and House by district and precinct; county offices (Honolulu mayor and council, Maui, Kauai); constitutional amendments'
+      primaries: 'official State primary (open primary, party ballots): Democratic, Republican, and minor parties (1968: Peace and Freedom, Democratic, Republican), by precinct with a ''Final Summary Report'''
+      checked_in: '1968 General (archive.org HI-hist 1968_General.pdf, OCR): tabulation guide, statewide summary, Lt. Governor Thomas P. Gill''s certification of Nov. 25, 1968; 1968 Primary and 1970 General OCR text grepped'
+    online:
+    - {host: 'Internet Archive (private upload ''Hawaii historical election returns'', creator given as ''Hawaii Secretary of State'')', url: 'https://archive.org/details/HI-hist', years: 'general 1959, 1960, 1962, 1964, 1966 (A, B), 1968, 1970, 1972, 1974; primaries 1959-1974; later years to 1998 with gaps', access: open, checked: '2026-10-06', pattern: 'https://archive.org/download/HI-hist/<YYYY>_General.pdf and <YYYY>_Primary.pdf; OCR at .../<YYYY>_General_djvu.txt (tested 1968 General, 1968 Primary, 1970 General)'}
+    - {host: HathiTrust (Northwestern copies), url: 'https://catalog.hathitrust.org/Record/000848789', years: 'general 1960, 1974, 1976, 1978 (Full view per Bib API)', access: bot-check, checked: '2026-10-06'}
+    - {host: HathiTrust (Michigan copies), url: 'https://catalog.hathitrust.org/Record/000048735', years: 'primary 1966, 1970, 1972, 1976 (Full view per Bib API)', access: bot-check, checked: '2026-10-06'}
+    - {host: 'State of Hawaii Data Book (DBEDT), elections section (a State compilation, statewide totals)', url: 'https://files.hawaii.gov/dbedt/economic/databook/archive/DB1970/Section13.pdf', years: 1970 edition tested, access: open, checked: '2026-10-06'}
+    - {host: Hawaii Office of Elections, url: 'https://elections.hawaii.gov/election-results/', years: 1992 on only (files.hawaii.gov/elections/files/results/<YYYY>/...), access: open, checked: '2026-10-06'}
+    notes: The archive.org set is a private upload, not the State's own posting; the 1968 copy is stamped 'File copy, do not remove, Office of the Lt. Gov.'. Complete for 1959-74 generals and primaries.
+  labels_1968:
+    democratic: (D) HUMPHREY - MUSKIE
+    wallace: (AI) WALLACE - LEMAY
+    source: Result of Votes Cast, General Election, Nov. 5, 1968, statewide summary (archive.org HI-hist 1968_General.pdf; OCR text read)
+    verified: true
+    note: 'Only the abbreviation (AI) seen; no expansion in the OCR. Senate: (PF) Oliver M. Lee.'
+  best_for_specials: none needed (no specials 1961-74)
+  gaps: None for 1959-74 returns. Pre-statehood territorial returns not checked.
+- st: IA
+  name: Iowa
+  sources:
+  - title: Canvass of the Vote, General Election, November N (and 'Official Canvass ... Primary Election')
+    publisher: Secretary of State (Melvin D. Synhorst, 1968); published by the State of Iowa
+    kind: canvass
+    frequency: per election
+    covers: one per election
+    contents:
+      general: President, U.S. Senate, U.S. House by county; officials elected listed in front
+      specials: none on the list for Iowa
+      state_races: governor and statewide offices by county; judges retained (legislature unverified in the canvass; the Register prints it)
+      primaries: official State canvass (primcanv files), parties unverified here
+      checked_in: '1968 general canvass (9 pages): pp. 1-3 viewed'
+    online:
+    - {host: Iowa Secretary of State, url: 'https://sos.iowa.gov/elections/pdf/results/60s/1968gencanv.pdf', years: general and primary 1956-1974 except the 1972 primary, access: open, checked: '2026-10-06', pattern: 'https://sos.iowa.gov/elections/pdf/results/<D>0s/<YYYY>gencanv.pdf and <YYYY>primcanv.pdf (<D> = 5, 6, 7). Tested 1956-1974 every even year: all 200 except 1972primcanv (403, apparently absent).'}
+    - {host: Iowa Publications Online (State Library), url: 'https://publications.iowa.gov/29728/1/1962_Election_Canvas.pdf', years: 1962 general (also 46833 for 1964), access: open, checked: '2026-10-06'}
+  - title: Iowa Official Register (the 'Redbook'), numbered biennial editions
+    publisher: Secretary of State, compiler; State of Iowa (Superintendent of Printing)
+    kind: blue book
+    frequency: biennial (odd years)
+    covers: the N+1-N+2 Register prints the Nov. N election (1971-72 prints 1970 by offices and precincts, per first pass)
+    contents:
+      general: by county (precinct tables in some editions, per first pass); not opened this pass
+      specials: n/a
+      state_races: unverified this pass
+      primaries: unverified this pass
+      checked_in: title pages of 1951-52 and 1957-58 PDFs only
+    online:
+    - {host: Iowa Legislature, url: 'https://www.legis.iowa.gov/docs/publications/REDBK/860905.pdf', years: '1955-56 (860904), 1957-58 (860905), 1959-60 (860906), 1961-62 (860907), 1963-64 (860908)', access: open, checked: '2026-10-06', pattern: '…/REDBK/8609NN.pdf; 860902 is 1951-52 (Wikipedia links it for 1957-58 too: wrong); 860905 is 1957-58 (title page read)'}
+    - {host: Iowa Publications Online, url: 'https://publications.iowa.gov/41454/1/Iowa%20Official%20Register%201969-1970.pdf', years: '1965-66 (41452), 1967-68 (41453), 1969-70 (41454), 1971-72 (41455), 1973-74 (41456), 1975-76 (41457)', access: open, checked: '2026-10-06', pattern: 'https://publications.iowa.gov/<id>/1/Iowa%20Official%20Register%20<YYYY>-<YYYY>.pdf (all six tested)'}
+    - {host: Iowa Legislature, url: 'https://www.legis.iowa.gov/DOCS/Shelves/Redbooks/Redbook-1969-1970%20(63GA).pdf', years: 1969-70 (second copy), access: open, checked: '2026-10-06'}
+    - {host: HathiTrust, url: 'https://catalog.hathitrust.org/Record/006136883', years: '1957-58 to 1975-76 Full view across copies (also Record 000058001: 1965-66 to 1971-72 Full view)', access: bot-check, checked: '2026-10-06'}
+    - {host: Internet Archive, url: 'https://archive.org/details/iowaofficialregi0000edwa', years: 1971-72, access: borrow, checked: '2026-10-06'}
+    - {host: Wikipedia (edition list with links), url: 'https://en.wikipedia.org/wiki/Iowa_Official_Register', years: 1873-2024, access: open, checked: '2026-10-06'}
+  labels_1968:
+    democratic: Democrat
+    wallace: American Independ. (column 'American Independ. George C. Wallace')
+    source: Canvass of the Vote, General Election, Nov. 5, 1968, p. 3 'For President of the United States' (sos.iowa.gov 1968gencanv.pdf, page image read)
+    verified: true
+    note: 'Other columns: Republican; Nomin. by Petition (Halstead); Iowa Prohibition (Munn); Socialist Labor (Blomen); Ia. Peace & Freedom (Cleaver); Universal (Hensley); Scattering.'
+  best_for_specials: none needed (no specials 1961-74)
+  gaps: 1972 primary canvass not on the SOS site (look in the 1973-74 Register).
+- st: ID
+  name: Idaho
+  sources:
+  - title: State of Idaho Abstract of Votes Cast at the General Election (title as on the 1980s copies)
+    publisher: Secretary of State
+    kind: canvass
+    frequency: per election (biennial)
+    covers: abstract of N prints the Nov. N election
+    contents:
+      general: unverified for 1956-74 (no copy seen); the 1980s SRI copies are by county
+      specials: none on the list for Idaho
+      state_races: unverified
+      primaries: unverified
+      checked_in: no 1956-74 copy found online
+    online:
+    - {host: Internet Archive (SRI microfiche), url: 'https://archive.org/details/micro_IA40706905_0289', years: '1980 (also 1982 micro_IA40706912_0270, 1984 micro_IA40706919_0025, 1986, 1988)', access: open, checked: '2026-10-06'}
+    - {host: 'Idaho Secretary of State, Elections Database', url: 'https://canvass.sos.idaho.gov/', years: 1990-2024 only, access: open, checked: '2026-10-06'}
+    - {host: 'Idaho Secretary of State, old results archive', url: 'https://archive.sos.idaho.gov/ELECT/results/', years: 1990 on only, access: open, checked: '2026-10-06'}
+    notes: Not in HathiTrust's file under this title.
+  - title: Biennial Report of the Secretary of State for the State of Idaho
+    publisher: Secretary of State
+    kind: report
+    frequency: biennial
+    covers: HathiTrust holds a bound run; volume 'uc1.b4049387' is enumerated 1959-66
+    contents:
+      general: unverified (not opened; earlier Idaho reports carried abstracts of votes, but not seen here for 1959-66)
+      specials: n/a
+      state_races: unverified
+      primaries: unverified
+      checked_in: not opened
+    online:
+    - {host: HathiTrust (UC copies), url: 'https://catalog.hathitrust.org/Record/010055161', years: '1916/18 to 1953-54, and 1959-66 (Full view per Bib API; htid uc1.b4049387 for 1959-66)', access: bot-check, checked: '2026-10-06'}
+    notes: 'Worth opening in a browser: if it carries the abstracts, it is the only full-view Idaho State source for 1960-66.'
+  - title: Idaho Blue Book (compiled by Pete T. Cenarrusa, Secretary of State)
+    publisher: Secretary of State
+    kind: blue book
+    frequency: biennial, odd years, from 1969-70 (v.1)
+    covers: 1969-70 prints the 1968 returns (per the Reed v. Reed brief, archive.org micro_IA40386413_0385, seen in the first pass)
+    contents:
+      general: unverified
+      specials: n/a
+      state_races: unverified
+      primaries: unverified
+      checked_in: not opened
+    online:
+    - {host: HathiTrust, url: 'https://catalog.hathitrust.org/Record/007810636', years: '1969-70, 1973-74, 1975-76, 1977-78 ... (search-only)', access: bot-check, checked: '2026-10-06'}
+    - {host: Idaho Secretary of State, url: 'https://sos.idaho.gov/blue-book/', years: 2003-04 on only (archive.sos.idaho.gov/blue_book/bluebook-03-04.pdf ...), access: open, checked: '2026-10-06'}
+  labels_1968:
+    democratic: not found
+    wallace: not found
+    source: ''
+    verified: false
+  best_for_specials: none needed (no specials 1961-74)
+  gaps: 'No Idaho State return for 1956-74 opened. Paper: Idaho State Archives (Boise) holds Secretary of State election records (catalog host rate-limited here). Compilation only: Duncombe et al., ''Idaho election statistics, 1970'' (Univ. of Idaho Bureau of Public Affairs Research; HathiTrust search-only).'
+- st: IL
+  name: Illinois
+  sources:
+  - title: Official Vote of the State of Illinois Cast at the General Election ..., Judicial Elections ..., Primary Elections ... (1956-64); from 1966 'State of Illinois Official Vote Cast at the General Election ..., Judicial, Primary Election, General Primary'
+    publisher: Secretary of State (Carpentier; Powell 1968; John W. Lewis 1970; Michael J. Howlett 1972); 1974 'Compiled by the State Board of Elections'
+    kind: canvass
+    frequency: biennial (one volume per even-year general election, bound with that year's primary)
+    covers: the volume for N prints the Nov. N general and the N primary, and the special elections held since the last volume
+    contents:
+      general: President, U.S. Senate, U.S. House by county (Cook County by Chicago/outside); summary of vote with counties carried
+      specials: 'yes, with votes, primaries included: 1969 IL-13 and 1970 IL-6 in the 1970 volume; 1972 IL-15 in the 1972 volume. 1973 IL-7 not found (see best_for_specials)'
+      state_races: governor and statewide offices by county; State Senate and House by district (also legislative specials); judicial; constitutional convention 1969-70; 1970 Constitution
+      primaries: official State canvass, Democratic and Republican, by county; separate primary volumes also exist (below)
+      checked_in: '1970 volume (OCR): title page and index; 1972 volume p. 55; 1968 summary of vote; 1974 volume grepped'
+    online:
+    - {host: 'Internet Archive (Illinois State Library, CARLI)', url: 'https://archive.org/search?query=collection%3Aillinois_state_lib+AND+title%3A%28%22official+vote%22%29', years: 'general volumes 1910s-2000s; for 1956-74: officialvotesof1956illi, officialvote1958illi, officialvote1960illi, officialvoteofst1962illi, officialvoteof1964illi, officialvote66illi, officialvote1968illi, officialvoteofst1970illi, officialvote72illi, officialvote1974illi', access: open, checked: '2026-10-06', pattern: 'https://archive.org/details/<id>; OCR https://archive.org/download/<id>/<id>_djvu.txt (tested 1968, 1970, 1972, 1974). Identifiers irregular: list the collection.'}
+    - {host: Internet Archive (Illinois State Library), url: 'https://archive.org/details/stateofillinoiso1968illi', years: 'separate primary volumes: officialvoteofst1956illi, officialvoteofst1958illi, officialvoteofst1960illi, officialvoteofapr1962illi, stateofillinoiso1966illi, ...1968, ...1970, ...1972, ...1974 (1964 not found)', access: open, checked: '2026-10-06'}
+    - {host: 'Illinois State Board of Elections, archived official vote PDFs', url: 'https://www.elections.il.gov/DocDisplay.aspx?doc=Downloads/ElectionOperations/VoteTotals/Archived/1968/1968%20GE%20and%20PE.PDF', years: 1956-1974 (no index page found; the live results page lists 1998 on), access: open, checked: '2026-10-06', pattern: '…/Archived/<YYYY>/<YYYY>%20GE%20and%20PE.pdf (tested 1964, 1966, 1968, 1970, 1972, 1974); 1956: …/1956/PE%20and%20GE%201956.pdf; 1960: …/1960/1960%20GE%20and%20PE%20Part%201.pdf (and Part 2). Rate-limits: three 403s in a burst, 200 on retry.'}
+    - {host: HathiTrust, url: 'https://catalog.hathitrust.org/Record/100813575', years: '1950-62, Nov. 1970, March 1972, Nov. 1974 Full view; 1964-68 search-only (other records 000545608, 101815524, 100802366, 100950451 primaries)', access: bot-check, checked: '2026-10-06'}
+    notes: Full run 1956-74, general and primary, open on archive.org with OCR, and again as PDFs from the State Board.
+  - title: Illinois Blue Book
+    publisher: Secretary of State
+    kind: blue book
+    frequency: biennial
+    covers: the N+1-N+2 Blue Book prints a summary of the Nov. N election (Wikipedia cites 1969-70 p. 854; not checked here)
+    contents:
+      general: unverified
+      specials: unverified
+      state_races: unverified
+      primaries: unverified
+      checked_in: not opened
+    online:
+    - {host: Illinois Digital Archives (CONTENTdm 'bb'), url: 'https://www.idaillinois.org/digital/collection/bb/id/33365', years: 'Blue Books, 1900s on (33365 = 1969-70)', access: open, checked: '2026-10-06', pattern: 'https only; the http://www.idaillinois.org/cdm/ref/... form is refused by this session''s proxy (host not in allowlist)'}
+    - {host: HathiTrust, url: 'https://catalog.hathitrust.org/Record/006136963', years: '1951-52 to 1969-70 Full view (pdus); 1967-68, 1979-80 cc-by-4.0', access: bot-check, checked: '2026-10-06'}
+    - {host: Internet Archive, url: 'https://archive.org/details/illinoisbluebook0000mich_z5z5', years: 1975-76, access: borrow, checked: '2026-10-06'}
+  labels_1968:
+    democratic: Democratic
+    wallace: Independent
+    source: Official Vote 1968 (archive.org officialvote1968illi), summary of vote, 'PRESIDENTIAL ELECTORS Democratic Hubert H. Humphrey. Republican Richard M. Nixon Socialist Labor Henning A. Blomen Independent George C. Wallace' (OCR read here; page number not read)
+    verified: true
+  best_for_specials: 'Official Vote volumes: 1970 volume, p. 113 (index ''Special Election''): IL-13 special primary Oct. 7, 1969 (Warman 6,638; Crane 17,919, Young 15,801 ...) and special general Nov. 25, 1969 (Crane, Rep 68,418; Warman, Dem 48,759), Cook County totals; 1970 volume, congressional table: ''91st Congress, 6th Congressional District (To Fill Vacancy)'' Collins, Dem 68,949, Zabrosky, Rep 54,746; 1972 volume, p. 55: IL-15 special primary Feb. 15, 1972 and special general Apr. 4, 1972 (Carlson, Hall) by county. IL-7, June 5, 1973 (Cardiss Collins): not in the 1974 volume (OCR has ''Cardiss'' only in the Nov. 1974 race and no special-election section) nor in 1972; not found.'
+  gaps: '1973 IL-7 special (and its primary): look for a separate State Board of Elections canvass, or the Chicago Board of Election Commissioners'' returns (the district lay in Chicago and suburban Cook).'
+- st: IN
+  name: Indiana
+  sources:
+  - title: 'Election Report, State of Indiana (catalog titles: ''General Election Report of the Secretary of State of the State of Indiana: General Election Statistics''; Indiana Memory: ''Election report of Indiana, YYYY'')'
+    publisher: Secretary of State (William N. Salin 1968; Larry A. Conrad 1970)
+    kind: canvass
+    frequency: biennial, one per general election
+    covers: the report for N prints the Nov. N general; from 1972 primary and general
+    contents:
+      general: President (with Vice President), U.S. Senate, U.S. House, by county
+      specials: none on the list for Indiana
+      state_races: governor and lieutenant governor, Secretary, Auditor, Treasurer of State, Superintendent of Public Instruction, Attorney General, Reporter/Clerk, Supreme and Appellate Court judges; State Senators and Representatives by district; circuit and other judges; constitutional amendments; registration
+      primaries: 'not in the 1950-70 reports (Indiana State Library guide: ''general, not primary''); 1972 on primary and general. Primaries 1952-56: Legislative Bureau, ''Primary Election Returns of the State of Indiana'' (ISL IP* 324 no.1, not seen)'
+      checked_in: '1968 report (Indiana Memory, 23 page-images): page list read; pp. 6-7 ''President and Vice President'' by county viewed'
+    online:
+    - {host: 'Indiana Memory (Indiana State Library), Indiana State Agency Documents, subcollection ''Secretary of State General Election Reports''', url: 'https://digital.library.in.gov/Record/ISL_p16066coll37-1222', years: every even year 1950-2000, access: open, checked: '2026-10-06', pattern: 'https://digital.library.in.gov/Record/ISL_p16066coll37-<pointer>; pointers 1956=310, 1958=395, 1960=354, 1962=2141, 1964=2100, 1966=1977, 1968=1222, 1970=1245, 1972=1283, 1974=1321 (from the CONTENTdm API: https://indianamemory.contentdm.oclc.org/digital/bl/dmwebservices/index.php?q=dmQuery/p16066coll37/title^election^all^and/title!date/title/200/1/0/0/0/0/json). Tested records 48, 354, 1245 (pages) and 1222 (API, page image via /digital/iiif/p16066coll37/<page>/full/1600,/0/default.jpg).'}
+    - {host: HathiTrust, url: 'https://catalog.hathitrust.org/Record/009684061', years: 1962-1972 Full view (Illinois copies); 1974 on search-only, access: bot-check, checked: '2026-10-06'}
+    - {host: HathiTrust, url: 'https://catalog.hathitrust.org/Record/100813222', years: '1950-64, 1966, 1968, 1970 Full view (UC copies); also Record 009684062 (1950-60, 1962-70 Full view)', access: bot-check, checked: '2026-10-06'}
+    - {host: Internet Archive (SRI microfiche), url: 'https://archive.org/details/micro_IA40706905_0314', years: 1980 on, access: open, checked: '2026-10-06'}
+    notes: 'Indiana Memory rights: No Copyright - United States. Images, no OCR (''cdmhasocr'' 0).'
+  labels_1968:
+    democratic: DEMOCRAT (column 'DEMOCRAT Hubert H. HUMPHREY Edmund S. MUSKIE')
+    wallace: 'no party label: column headed ''GEORGE C. WALLACE / George C. Wallace / S. Marvin Griffin'''
+    source: Election Report 1968, pp. 6-7, 'President and Vice President' (Indiana Memory page pointer 1203)
+    verified: true
+    note: 'Others: REPUBLICAN; PROHIBITION; SOCIALIST WORKERS. Griffin printed as running mate.'
+  best_for_specials: none needed (no specials 1961-74)
+  gaps: 'Primaries 1956-70 (Indiana nominated statewide officers by convention; congressional and legislative primaries): ISL''s Legislative Bureau series (1952-56) and the Secretary of State''s annual reports; not online as far as seen.'
+- st: KS
+  name: Kansas
+  sources:
+  - title: State of Kansas Election Statistics, [year], Primary and General Elections
+    publisher: Secretary of State (Elwill M. Shanahan, 1968)
+    kind: canvass
+    frequency: biennial (one per even-year cycle)
+    covers: the N issue prints the N primary and general
+    contents:
+      general: unverified (no 1956-74 copy seen)
+      specials: none on the list for Kansas
+      state_races: unverified
+      primaries: printed (title says primary and general); detail unverified
+      checked_in: title only, from the citation 'Elwill M. Shanahan, Secretary of State. State of Kansas Election Statistics, 1968, Primary and General Elections' in an ICPSR referenda compilation (Ballotpedia PDF, read here)
+    online:
+    - {host: Internet Archive (SRI microfiche), url: 'https://archive.org/details/micro_IA40706905_0339', years: '1980 on (1982 micro_IA40706912_0332, 1984, 1986)', access: open, checked: '2026-10-06'}
+    - {host: 'Ballotpedia (ICPSR, ''Referenda Elections for Kansas 1968-1990'', citing the 1968 issue)', url: 'https://cdn.ballotpedia.org/images/2/29/Referenda_Elections_for_Kansas_1968-1990.pdf', years: citation only, access: open, checked: '2026-10-06'}
+    - {host: Kansas Secretary of State, url: 'https://sos.ks.gov/elections/election-results.html', years: recent years only (2018 on seen), access: open, checked: '2026-10-06'}
+    notes: Not in HathiTrust under this title.
+  - title: 'Biennial Report of the Secretary of State (Kansas); earlier also ''Primary election ...: official statement of votes cast'''
+    publisher: Secretary of State
+    kind: report
+    frequency: biennial
+    covers: HathiTrust run ends 1953/54
+    contents:
+      general: unverified
+      specials: n/a
+      state_races: unverified
+      primaries: unverified
+      checked_in: not opened
+    online:
+    - {host: HathiTrust (Michigan copies), url: 'https://catalog.hathitrust.org/Record/000047559', years: to 1953/1954 (Full view), access: bot-check, checked: '2026-10-06'}
+  labels_1968:
+    democratic: not found
+    wallace: not found
+    source: ''
+    verified: false
+    note: 'Clerk 1968: ''Conservative''; not checked against a Kansas source.'
+  best_for_specials: none needed (no specials 1961-74)
+  gaps: 'No 1956-74 issue online. Paper: Kansas Historical Society, State Archives (Secretary of State election records, kansashistory.gov/archives/195181, 194425: bot-check, AWS WAF); KU Spencer Research Library holds copies in political papers (e.g. ''Election statistics for the State of Kansas, 1952-1958'', Wint Smith papers; ''Election Statistics, 1970'', Docking papers: archives.lib.ku.edu, open). Compilations: ''Kansas votes; national and statewide general elections, 1958-1964'' (KU Governmental Research Center; HathiTrust search-only).'
+- st: KY
+  name: Kentucky
+  sources:
+  - title: Statement of the Official Vote of Kentucky, [Democratic | Republican] Primary Election Held ... (from the Office of the Secretary of State); and 'Official Tabulation of Votes Cast in Kentucky in the General Election Held November N'
+    publisher: Secretary of State (Elmer Begley, 1968); now held by the State Board of Elections
+    kind: canvass
+    frequency: per election (broadsheet tabulations; one PDF per year on the SBE site)
+    covers: 'the YYYY.pdf holds that year''s primaries and general (e.g. 1968.pdf: Republican and Democratic primaries of May 28, 1968, and the general of Nov. 5, 1968, 5 sheets)'
+    contents:
+      general: President (and Vice President, separate columns), U.S. Senate, U.S. House, by county
+      specials: 'no for KY-6, Dec. 4, 1971: not in 1971.pdf (Nov. 1971 general: governor, statewide, legislature, railroad commissioners, amendment) nor in 1972.pdf (which does print State Senate and House specials of 1972, by county)'
+      state_races: 'governor and statewide offices (odd years: 1955, 1959, 1963, 1967, 1971), Court of Appeals, circuit judges, State Senate and House by county within district'
+      primaries: official, Democratic and Republican, by county (May primaries; 1955 has an August primary)
+      checked_in: 1968.pdf (page images of all five sheets; p. 5 header read); 1971.pdf and 1972.pdf (page text and images); keyword survey of all 1955-1972 files
+    online:
+    - {host: Kentucky State Board of Elections, url: 'https://elect.ky.gov/results/1973-1979/Pages/1972.aspx', years: '1955, 1956, 1958, 1959, 1960, 1962-1972 (1957 and 1961 absent); 1973 on per-office PDFs', access: open, checked: '2026-10-06', pattern: 'https://elect.ky.gov/results/1973-1979/Documents/<YYYY>.pdf (all 16 tested; needs a browser User-Agent, otherwise an HTML page comes back). Scans; OCR uneven (1956, 1958 have no text layer).'}
+    - {host: Internet Archive (SRI microfiche), url: 'https://archive.org/details/micro_IA40706912_0350', years: 1981 on, access: open, checked: '2026-10-06'}
+    notes: Coverage per file is uneven (1960 and 1962 files are 4 sheets, general only).
+  labels_1968:
+    democratic: Democrat (column 'PRESIDENT Hubert H. Humphrey Democrat')
+    wallace: American Party (column 'PRESIDENT George C. Wallace American Party'; VP column 'Marvin Griffin American Party')
+    source: Official Tabulation of Votes Cast in Kentucky in the General Election Held November 5, 1968, sheet 5 of elect.ky.gov 1968.pdf (image read)
+    verified: true
+    note: Socialist Workers Party (Halstead, Boutelle). Clerk's 'American Independent' differs.
+  best_for_specials: none found for KY-6, Dec. 4, 1971 (Curlin)
+  gaps: '1971 KY-6 special: Kentucky Department for Libraries and Archives (Secretary of State and State Board of Elections certificates), or newspaper canvass. 1957 and 1961 files missing from the SBE site. ''Kentucky Votes'' (Univ. of Kentucky Press, 1963; HathiTrust Full view v.1-2) is a compilation to 1960.'
+- st: LA
+  name: Louisiana
+  sources:
+  - title: Primary Election Returns (Department of State, Wade O. Martin, Jr., Secretary of State)
+    publisher: Secretary of State (Department of State)
+    kind: canvass
+    frequency: per primary cycle (HathiTrust volumes enumerated 1959-60, 1963-64, 1971)
+    covers: the Democratic first and second primaries of a cycle (unverified)
+    contents:
+      general: n/a
+      specials: unverified
+      state_races: unverified (the 1959-60 and 1963-64 cycles are the gubernatorial ones)
+      primaries: printed; detail unverified
+      checked_in: not opened (search-only)
+    online:
+    - {host: HathiTrust, url: 'https://catalog.hathitrust.org/Record/100813157', years: '1944, 1952, 1956 Full view; 1950, 1963-64, 1971 search-only (also Record 100233473: 1959-60, 1963-64 search-only)', access: bot-check, checked: '2026-10-06'}
+  - title: General Election Returns, State of Louisiana (e.g. 'General election returns, State of Louisiana, March 3, 1964, compiled by Wade O. Martin, Jr., Secretary of State')
+    publisher: Secretary of State
+    kind: canvass
+    frequency: per general election
+    covers: one per election
+    contents:
+      general: unverified
+      specials: unverified
+      state_races: unverified
+      primaries: n/a
+      checked_in: not opened
+    online:
+    - {host: HathiTrust, url: 'https://catalog.hathitrust.org/Record/103484702', years: 'March 3, 1964 (search-only; also Record 100813399, 1964)', access: bot-check, checked: '2026-10-06'}
+  - title: Report of the Secretary of State (biennial)
+    publisher: Secretary of State
+    kind: report
+    frequency: biennial
+    covers: 1980s copies on SRI microfiche; HathiTrust run stops at 1912
+    contents:
+      general: unverified
+      specials: unverified
+      state_races: unverified
+      primaries: unverified
+      checked_in: not opened
+    online:
+    - {host: Internet Archive (SRI microfiche), url: 'https://archive.org/details/micro_IA40706919_0110', years: '1981-82 (micro_IA40706912_0361), 1983-84, 1985-86', access: open, checked: '2026-10-06'}
+  labels_1968:
+    democratic: not found
+    wallace: not found
+    source: ''
+    verified: false
+  best_for_specials: none found online. None of the four (LA-4 Dec. 19, 1961; LA-7 Oct. 2, 1965; LA-7 Sept. 30, 1972; LA-2 Mar. 20, 1973) checked in a State source.
+  gaps: 'Nothing for 1956-74 opened. Paper: Louisiana State Archives (Baton Rouge), Secretary of State election records; the HathiTrust search-only volumes (Illinois and UC copies). Proposed-amendment pamphlets 1954-68 by the Secretary of State are on HathiTrust (Full view) but carry no returns.'
+- st: MA
+  name: Massachusetts
+  sources:
+  - title: Election Statistics, The Commonwealth of Massachusetts (Public Document No. 43)
+    publisher: Secretary of the Commonwealth ("Compiled in the Office of" the Secretary)
+    kind: statement of vote
+    frequency: annual
+    covers: 'the volume for year N prints the elections of year N: odd years the city and town elections and any special state primaries and elections; even years the state primary, state election and (presidential years) the presidential primary. IA binds two or three years per item.'
+    contents:
+      general: President (electors), U.S. Senate, U.S. House, by city and town (towns by county), with party designation in the column heads
+      specials: 'yes, with votes, by town: special primaries and special elections, congressional and General Court. MA-6 1969 checked: 1969 P.D. 43, pp. 53-55, ''Number of Votes Received by Each Candidate at The Special Primaries, August 26, 1969, Democratic, Representative in the 91st Congress (to fill vacancy), Sixth Congressional District'' (and the Republican), then ''at The Special Election, September 30, 1969'' by town (Amesbury 1,426 / 1,456 ...). Candidate names are rotated column heads; read the page images.'
+      state_races: 'governor and all state officers, councillors, state senators and representatives in the General Court by district and town, county offices, ballot questions (1970 volume: State Election pp. 271-404, questions pp. 405-506)'
+      primaries: 'official state primary, Republican and Democratic, every office, by town (1970 volume: Republican pp. 48-145, Democratic pp. 148-269); presidential primary with presidential preference and delegates by district (1968 volume)'
+      checked_in: '1969 and 1970 volumes (IA electionstatisti19691970mass, OCR: tables of contents, letter of transmittal, special tables); 1968 volume p. 272 (page image)'
+    online:
+    - {host: Internet Archive (Boston Public Library), url: 'https://archive.org/details/electionstatisti1956mass', years: '1956', access: open, checked: '2026-10-06'}
+    - {host: Internet Archive, url: 'https://archive.org/details/electionstatisti19571958mass', years: 1957-1958, access: open, checked: '2026-10-06'}
+    - {host: Internet Archive, url: 'https://archive.org/details/electionstatisti19591960mass', years: 1959-1960, access: open, checked: '2026-10-06'}
+    - {host: Internet Archive, url: 'https://archive.org/details/electionstatisti19611963mass', years: 1961-1963, access: open, checked: '2026-10-06'}
+    - {host: Internet Archive, url: 'https://archive.org/details/electionstatisti1964mass', years: '1964', access: open, checked: '2026-10-06'}
+    - {host: Internet Archive, url: 'https://archive.org/details/electionstatisti19651966mass', years: 1965-1966, access: open, checked: '2026-10-06'}
+    - {host: Internet Archive, url: 'https://archive.org/details/electionstatisti19671968mass', years: 1967-1968 (1968 p. 272 = page image n341), access: open, checked: '2026-10-06'}
+    - {host: Internet Archive, url: 'https://archive.org/details/electionstatisti19691970mass', years: 1969-1970 (1969 specials pp. 53-58), access: open, checked: '2026-10-06'}
+    - {host: Internet Archive, url: 'https://archive.org/details/electionstatisti1971mass', years: '1971', access: open, checked: '2026-10-06'}
+    - {host: Internet Archive, url: 'https://archive.org/details/electionstatisti19721973mass', years: 1972-1973, access: open, checked: '2026-10-06'}
+    - {host: Internet Archive, url: 'https://archive.org/details/electionstatisti19741975mass', years: 1974-1975, access: open, checked: '2026-10-06'}
+    - {host: State Library of Massachusetts DSpace, url: 'https://archives.lib.state.ma.us/handle/2452/40889', years: collection 'Massachusetts Elections Statistics (PD43)', access: open, checked: '2026-10-06', note: 'redirects to /entities/aggregation/f74920e7-...; item list is drawn by JavaScript, editions not listed from here'}
+    notes: 'Page images: https://archive.org/download/<id>/page/n<leaf-1>_w1400.jpg; printed page to leaf from <id>_page_numbers.json. The OCR does not read the rotated candidate heads.'
+  - title: PD43+ Massachusetts Election Statistics
+    publisher: Secretary of the Commonwealth
+    kind: database
+    covers: federal, state and local elections; year menu begins 1970 (1970, 1971, 1972, 1974 ...)
+    online:
+    - {host: Secretary of the Commonwealth, url: 'https://electionstats.state.ma.us/', years: 1970-present, access: open, checked: '2026-10-06'}
+  labels_1968:
+    democratic: Humphrey and Muskie, Democratic
+    wallace: Wallace and Griffin, Independent
+    source: P.D. 43, 1968, p. 272, 'Presidential Electors of President and Vice-President, Barnstable County' (column heads; also 'Blomen and Taylor, Socialist Labor', 'Munn and Fisher, Prohibition', 'Nixon and Agnew, Republican')
+    verified: true
+  best_for_specials: P.D. 43 of the year of the special (by town, primaries and election).
+  gaps: None for 1956-1974; full run online.
+- st: MD
+  name: Maryland
+  sources:
+  - title: Maryland Manual (election returns section)
+    publisher: Hall of Records Commission / Secretary of State; digitized by the Maryland State Archives (Archives of Maryland Online)
+    kind: blue book
+    frequency: biennial
+    covers: the N+1-N+2 Manual prints the Nov. N general and the N primary, the previous cycle again, and the special elections since
+    contents:
+      general: President, U.S. Senate, U.S. House by county and Baltimore City
+      specials: 'yes, with votes by county, special primaries included: 1971 MD-1 in the 1971-72 Manual pp. 513-514 and again 1973-74 pp. 601-602; 1973 MD-1 in the 1973-74 Manual pp. 563-564'
+      state_races: governor, lieutenant governor (1970), comptroller, attorney general by county; State Senate and House of Delegates by legislative district (1971-72 p. 526 on); judges; amendments and referenda; constitution ratification special, May 14, 1968 (1971-72 p. 585)
+      primaries: 'official State primary, Democratic and Republican, by county (1971-72: Sept. 15, 1970 at p. 548; 1973-74: May 16, 1972 presidential preference at p. 592)'
+      checked_in: 1969-70 (vol. 174) p. 473 (HTML and page PDF); 1971-72 (vol. 175) pp. 500-640 scanned, contents p. 511; 1973-74 (vol. 176) pp. 560-680 scanned
+    online:
+    - {host: 'Archives of Maryland Online, Maryland Manual volumes', url: 'https://msa.maryland.gov/megafile/msa/speccol/sc2900/sc2908/html/manual.html', years: Maryland Manual list (1957-58 = vol. 167 ... 1975-76 = vol. 177), access: open, checked: '2026-10-06', pattern: 'https://msa.maryland.gov/megafile/msa/speccol/sc2900/sc2908/000001/000<VOL>/html/am<VOL>--<PAGE>.html, page image ../pdf/am<VOL>--<PAGE>.pdf (tested vols. 167-169, 171-177; HTML OCR text is uneven, page images good)'}
+    - {host: HathiTrust (UC copies), url: 'https://catalog.hathitrust.org/Record/000532309', years: Maryland Manual run (137 items; mostly pre-1930 Full view), access: bot-check, checked: '2026-10-06'}
+  - title: Maryland Election Returns (State Administrative Board of Election Laws), e.g. 'Maryland General Election Returns, November 5, 1968'
+    publisher: State Administrative Board of Election Laws
+    kind: canvass
+    frequency: per election
+    covers: one per election
+    contents:
+      general: unverified
+      specials: unverified (the May 1972-Nov 1974 volume may hold the Aug. 1973 special)
+      state_races: unverified
+      primaries: Sept. 1966 primary volume exists
+      checked_in: not opened
+    online:
+    - {host: HathiTrust (UC copies), url: 'https://catalog.hathitrust.org/Record/100813574', years: 'Sept 1966, Nov 1966, Nov 1968, Nov 1970, May 1972-Nov 1974 (Full view per Bib API)', access: bot-check, checked: '2026-10-06'}
+  labels_1968:
+    democratic: Democratic Party
+    wallace: American Party
+    source: 'Maryland Manual 1969-70 (vol. 174) p. 473, ''General Election Returns, November 5, 1968, For President and Vice President of the United States'' (page image read): ''Republican Party / Democratic Party / American Party''; Wallace''s running mate printed as S. Marvin Griffin, footnote: ''S. Marvin Griffin''s name appeared on the ballot in Maryland as the Vice Presidential Candidate of the American Party even though the official nominee was Curtis LeMay.'''
+    verified: true
+  best_for_specials: 'Maryland Manual: 1971-72 (vol. 175) p. 513, 1st Cong. Dist. special, May 25, 1971 (Mills, Rep; Boyer, Dem) by county, p. 514 special primary Apr. 13, 1971; 1973-74 (vol. 176) p. 563, special Aug. 21, 1973 (Bauman, Rep; Malkus, Dem) by county, p. 564 special primary July 10, 1973.'
+  gaps: None for returns. Precinct detail only in the Board's own returns (HathiTrust, not opened).
+- st: ME
+  name: Maine
+  sources:
+  - title: 'Tabulations for elections (Secretary of State), one per election and office group, e.g. ''1968 General Election: Presidential'', ''1968 Republican Primary: State & County Officers'''
+    publisher: Secretary of State; digitized by the Maine State Archives / Maine State Library (Digital Maine)
+    kind: canvass
+    frequency: per election
+    covers: every general, primary and special (referendum) election, 1950s-1970s
+    contents:
+      general: 'Presidential (1956, 1960, 1964, 1968, 1972); U.S. Senate and House (1956, 1958 ... 1974); by town (unverified: PDFs not opened)'
+      specials: 'none on the list for Maine (the ''Special Election'' items are referenda; 1969 ''Special Election: State Senators, and State Representatives'')'
+      state_races: governor (1956, 1958, 1960, 1962, 1966, 1970, 1974), county officers, State Senators, Representatives to Legislature, district attorneys (1974), referenda and amendments
+      primaries: 'official, Democratic and Republican, separately: Representatives to Legislature; State & County Officers; State Senators (from 1968)'
+      checked_in: collection listings read (all items 1956-74); no PDF opened
+    online:
+    - {host: 'Digital Maine, ''Tabulations for Elections 1950s / 1960s / 1970s''', url: 'https://digitalmaine.com/tabulations_for_elections_1960s/', years: 1950s-1970s (1968 Presidential = 1960s/65; 1968 Representatives to Congress = 1960s/66; 1972 Presidential = 1970s/29), access: open, checked: '2026-10-06', pattern: 'listing https://digitalmaine.com/tabulations_for_elections_<DECADE>/ (and index.2.html …); item pages https://digitalmaine.com/tabulations_for_elections_<DECADE>/<n> open; the PDFs (cgi/viewcontent.cgi?article=…&context=…) are bot-check'}
+    - {host: Internet Archive (SRI microfiche), url: 'https://archive.org/details/micro_IA40706939_0022', years: 1990 on, access: open, checked: '2026-10-06'}
+    notes: Maine's state elections were in September through 1958; the 1956 'Presidential' tabulation is the November one.
+  - title: Maine Register, State Year-Book and Legislative Manual
+    publisher: Tower Publishing Co., Portland (private, not a State publication)
+    kind: register
+    frequency: annual
+    covers: unverified
+    contents:
+      general: unverified
+      specials: unverified
+      state_races: unverified
+      primaries: unverified
+      checked_in: not opened
+    online:
+    - {host: HathiTrust, url: 'https://catalog.hathitrust.org/Record/000551151', years: 1955/56 to 1976 search-only, access: bot-check, checked: '2026-10-06'}
+  labels_1968:
+    democratic: not found
+    wallace: not found
+    source: 'Digital Maine ''1968 General Election: Presidential'' (tabulations_for_elections_1960s/65): PDF bot-check'
+    verified: false
+  best_for_specials: none needed (no congressional specials 1961-74)
+  gaps: None in coverage; the Digital Maine PDFs need a browser.
+- st: MI
+  name: Michigan
+  sources:
+  - title: Michigan Official Directory and Legislative Manual (to 1959-1960); Michigan Manual (from 1961-1962)
+    publisher: Secretary of State (1950s-60s); Department of Administration (1969-74); Department of Management and Budget (1975-76)
+    kind: blue book
+    frequency: biennial (odd-year editions)
+    covers: edition N-(N+1), N odd, prints the November N-1 election (1969-70 -> 1968). Not checked against a volume from here.
+    contents:
+      general: President, U.S. Senate, U.S. House by county (per Wikipedia page citations; unverified)
+      specials: 'unverified. The specials (MI-1 1961-11-07, MI-14 1962-02-13 -> 1963-64 Manual; MI-9 1966-11-08 -> 1967-68; MI-5 1974-02-18, MI-8 1974-04-16 -> 1975-76) could not be checked: HathiTrust bot-check. The modern Manual has a chapter ''Official Canvass of Votes'' that lists special primaries and special general elections (2021-22 Manual p. 711, seen); whether the 1960s editions did is unknown.'
+      state_races: unverified
+      primaries: unverified
+      checked_in: not opened (HathiTrust bot-check); rights from the Bib API
+    online:
+    - {host: HathiTrust, url: 'https://babel.hathitrust.org/cgi/pt?id=uc1.b4049852', years: 1957-58, access: bot-check, checked: '2026-10-06', rights: Full view}
+    - {host: HathiTrust, url: 'https://babel.hathitrust.org/cgi/pt?id=mdp.39015071179223', years: 1959/1960 (also uc1.b4049853), access: bot-check, checked: '2026-10-06', rights: Full view}
+    - {host: HathiTrust, url: 'https://babel.hathitrust.org/cgi/pt?id=mdp.39015071179231', years: 1961/1962 (also uc1.b4049854), access: bot-check, checked: '2026-10-06', rights: Full view}
+    - {host: HathiTrust, url: 'https://babel.hathitrust.org/cgi/pt?id=mdp.39015071179249', years: 1963/1964 (also uc1.b4049855), access: bot-check, checked: '2026-10-06', rights: Full view}
+    - {host: HathiTrust, url: 'https://babel.hathitrust.org/cgi/pt?id=mdp.39015071179256', years: 1965/1966, access: bot-check, checked: '2026-10-06', rights: Full view}
+    - {host: HathiTrust, url: 'https://babel.hathitrust.org/cgi/pt?id=mdp.39015071179264', years: 1967/1968, access: bot-check, checked: '2026-10-06', rights: Full view}
+    - {host: HathiTrust, url: 'https://babel.hathitrust.org/cgi/pt?id=mdp.39015071179272', years: 1969/1970, access: bot-check, checked: '2026-10-06', rights: Full view}
+    - {host: HathiTrust, url: 'https://babel.hathitrust.org/cgi/pt?id=mdp.39015071179280', years: 1971/1972, access: bot-check, checked: '2026-10-06', rights: Full view}
+    - {host: HathiTrust, url: 'https://babel.hathitrust.org/cgi/pt?id=mdp.39015071179298', years: 1973/1974, access: bot-check, checked: '2026-10-06', rights: Full view}
+    - {host: HathiTrust, url: 'https://babel.hathitrust.org/cgi/pt?id=mdp.39015071179306', years: 1975/1976, access: bot-check, checked: '2026-10-06', rights: Full view}
+    - {host: HathiTrust catalog, url: 'https://catalog.hathitrust.org/Record/000060510', years: all; 1977/78 on search-only, access: bot-check, checked: '2026-10-06'}
+    - {host: Michigan Legislature, url: 'https://legislature.mi.gov/Legislature/MichiganManuals', years: '1963-64 on: only ''Legislative and Congressional Representation'' page-range PDFs and a member search; no election-return pages listed', access: open, checked: '2026-10-06', pattern: 'https://www.legislature.mi.gov/documents/1969-1970/michiganmanual/1969-MM-P0178-P0186.pdf (200; representation by counties, not returns)'}
+    notes: 'No 1956-1976 Manuals on Internet Archive (IA has 1893-1921 and 1990s lending copies only). IA has the separate ''State of Michigan General Election ... Official Canvass'' only for 1982 and 1984 (SRI microfiche: micro_IA40706913_0052, micro_IA40706919_0158).'
+  labels_1968:
+    democratic: unverified
+    wallace: unverified
+    source: Michigan Manual 1969-70 (HathiTrust mdp.39015071179272; bot-check)
+    verified: false
+  best_for_specials: Michigan Manual (1963-64, 1967-68, 1975-76) on HathiTrust, full view, if it prints them (unverified); else the Board of State Canvassers' records at the Archives of Michigan.
+  gaps: Nothing in Michigan was opened from here. Every Manual 1957-76 is full view on HathiTrust; a session that can pass HathiTrust should check whether specials are printed.
+- st: MN
+  name: Minnesota
+  sources:
+  - title: The Minnesota Legislative Manual (election sections, scanned by the Legislative Reference Library)
+    publisher: Secretary of State (compiler); scans by the Minnesota Legislative Reference Library
+    kind: blue book
+    frequency: biennial (odd-year editions)
+    covers: 'the N-(N+1) Manual (N odd) prints the November N-1 general and the September primary: 1969-1970 -> Sept. 10 and Nov. 5, 1968. The LRL index gives the source edition of each file; 1972 general and 1974 general/primary come from the Secretary of State''s ''Minnesota Election Results''.'
+    contents:
+      general: 'President, U.S. Senate, U.S. House by county and by congressional district with percentages, then precinct returns by county (1968 file: 132 pp., Manual pp. 420 ff.)'
+      specials: no congressional specials in Minnesota 1956-1974. Legislative specials are in the Manual where the LRL index says so (1964-11-03, 1969-03-11, 1969-03-25, 1969-04-08, 1969-05-09, 1971-05-04, 1974-12-14, 1974-12-23, 1975-02-01); 'Results not available' for 1957-02-26, 1965-03-27, 1965-05-04, 1966-05-10, 1973-11-06.
+      state_races: governor and state officers by county; legislature (nonpartisan) by district with county breakdown and percentages; district judges
+      primaries: official state primary by county; presidential primary 1956 (1956-03-20-pp-man.pdf)
+      checked_in: 1968-11-05-g-man.pdf (text layer and page image, p. 426)
+    online:
+    - {host: Minnesota Legislative Reference Library, url: 'https://www.lrl.mn.gov/mngov/electionresults', years: 'index of every Minnesota election, territorial to present (old address www.leg.state.mn.us/lrl/mngov/electionresults redirects)', access: open, checked: '2026-10-06', pattern: 'https://www.lrl.mn.gov/archive/sessions/electionresults/YYYY-MM-DD-{g,p,pp,s}-{man,sec}.pdf (tested 1956-11-06-g-man, 1956-03-20-pp-man, 1958, 1960, 1962, 1964, 1966, 1968-11-05-g-man, 1968-09-10-p-man, 1970-11-03-g-man, 1972-11-07-g-sec, 1974-11-05-g-sec, 1974-09-10-p-sec: all 200)'}
+    - {host: HathiTrust, url: 'https://catalog.hathitrust.org/Record/100753414', years: 'Manual: full view 1955, 1967-68 (uiug.30112085285846), 1975-76 (uiug.30112098031112); search-only 1957-58 to 1965-66, 1969-70, 1971-72', access: bot-check, checked: '2026-10-06'}
+    - {host: HathiTrust, url: 'https://catalog.hathitrust.org/Record/000552910', years: 'Manual: full view 1955, 1957-58 (mdp.39015055031341), 1959-60 (mdp.39015055031333), 1963/64 (mdp.39015049797619), 1965-66 (mdp.39015055031325)', access: bot-check, checked: '2026-10-06'}
+    - {host: Internet Archive, url: 'https://archive.org/details/minnesotalegisla0000arle', years: 1973-1974, access: borrow, checked: '2026-10-06'}
+  - title: Report of the State Canvassing Board, General Election ... / Primary Election ...
+    publisher: Secretary of State (compiled by Joseph L. Donovan)
+    kind: canvass
+    frequency: one per election
+    covers: the Board's certified statewide totals for each candidate, with party ('By Democratic-Farmer-Labor Party for HUMPHREY and ...', 'George Daley, Democratic-Farmer-Labor received ...'); statewide totals only
+    contents:
+      general: Presidential electors, U.S. Senate, state officers, U.S. House, legislature, district judges; statewide/district totals
+      specials: n/a
+      state_races: yes, totals
+      primaries: separate primary reports (232069 series), totals
+      checked_in: 1964 and 1968 general reports, 1962 primary report (text layer)
+    online:
+    - {host: Minnesota Legislative Reference Library, url: 'https://www.lrl.mn.gov/docs/2023/Other/232070/1968.pdf', years: 'general: 1946-1974 (1956, 1958, 1960, 1962, 1964, 1966, 1968, 1970, 1974 tested 200; 1972 is 404)', access: open, checked: '2026-10-06', pattern: 'https://www.lrl.mn.gov/docs/2023/Other/232070/YYYY.pdf'}
+    - {host: Minnesota Legislative Reference Library, url: 'https://www.lrl.mn.gov/docs/2023/Other/232069/1962.pdf', years: 'primary: 1956-1974 (1956, 1958, 1960, 1962, 1964, 1966, 1968, 1970, 1972, 1974 tested 200)', access: open, checked: '2026-10-06', pattern: 'https://www.lrl.mn.gov/docs/2023/Other/232069/YYYY.pdf'}
+  - title: Minnesota Election Archives (University of Minnesota)
+    kind: database
+    online:
+    - {host: University of Minnesota, url: 'https://mn.electionarchives.lib.umn.edu/', years: 'by office and cycle, from the Legislative Manual', access: open, checked: '2026-10-06'}
+  labels_1968:
+    democratic: Democratic-Farmer-Labor
+    wallace: American Party
+    source: Minnesota Legislative Manual 1969-1970, p. 426, 'Returns of General Election in State of Minnesota, November 5, 1968. Official Canvass' (column heads 'Humphrey-Muskie Democratic-Farmer-Labor', 'Wallace-Griffin American Party'; also Socialist Workers Party, Industrial Government, Communist Party, Peace and Freedom Party). The 1968 Canvassing Board report reads 'By Democratic-Farmer-Labor Party for HUMPHREY' and 'By American Party for WALLACE and GRIFFIN'. District tables abbreviate DFL and Am.
+    verified: true
+  best_for_specials: 'No congressional specials. Legislative specials: LRL index files.'
+  gaps: 1972 Canvassing Board general report not at the LRL pattern (404); the 1972 general is in the '-sec' file.
+- st: MO
+  name: Missouri
+  sources:
+  - title: Official Manual, State of Missouri (the 'Blue Book')
+    publisher: Secretary of State
+    kind: blue book
+    frequency: biennial
+    covers: the N-(N+1) edition (N odd) prints the November N-1 general, the August primary of N-1, and the special elections since the last edition (1965-66 -> Nov. 3, 1964; 1969-70 -> Aug. 6 and Nov. 5, 1968)
+    contents:
+      general: President, U.S. Senate, U.S. House by county (1969-70 pp. 1194 ff.)
+      specials: 'yes, with votes, by county. MO-9 1964 checked: 1965-66 Manual p. 1276, ''Vote for Representative in Congress, Special Election, November 3, 1964, Ninth District (Unexpired Term)'', Hungate (D) 102,422, Schroeder (R) 61,439, plus an Independent column (Hubert Willis). The same section prints state legislative specials (Aug. 17, 1965; Jan. 14, 1966).'
+      state_races: governor and state officers, state senators and representatives by district, judges, amendments
+      primaries: 'official, Democratic and Republican, by county (1969-70: ''Vote for Candidates for Governor at Primary Election Held August 6, 1968'', p. 1319)'
+      checked_in: 1965-66 (CONTENTdm 38486), section XXIII General Election Returns, OCR text of every page; 1969-70 (41354) pp. 1194-1196 and 1316-1321
+    online:
+    - {host: Missouri Digital Heritage (CONTENTdm), url: 'https://mdh.contentdm.oclc.org/digital/collection/bluebook', years: '1878-2000, one compound object per edition', access: open, checked: '2026-10-06', pattern: 'https://mdh.contentdm.oclc.org/digital/collection/bluebook/id/<pointer> (1969-70 = 41354, tested); pointers for 1957-58 32190, 1959-60 33680, 1961-62 35309, 1963-64 36894, 1965-66 38486, 1967-68 39823, 1969-70 41354, 1971-72 42857, 1973-74 44457, 1975-76 45962'}
+    - {host: Missouri Digital Heritage API, url: 'https://mdh.contentdm.oclc.org/digital/bl/dmwebservices/index.php?q=dmGetCompoundObjectInfo/bluebook/38486/json', years: page lists by chapter; dmGetItemInfo/bluebook/<page pointer>/json returns each page's OCR in 'full', access: open, checked: '2026-10-06', note: server drops connections under quick repeated calls; pause between requests}
+    - {host: Missouri Secretary of State splash page, url: 'http://www.sos.mo.gov/archives/mdh_splash/default.asp?coll=bluebook', access: blocked, checked: '2026-10-06'}
+    - {host: HathiTrust, url: 'https://catalog.hathitrust.org/Record/006136989', years: 'full view 1957-58, 1961-62, 1963-64, 1967-68, 1969-70 (uiug.30112118315255), 1971-72; search-only 1955-56, 1959-60, 1965-66, 1977/78', access: bot-check, checked: '2026-10-06'}
+    - {host: Internet Archive, url: 'https://archive.org/details/stateofmissourio0000unse', years: 1967-1968, access: borrow, checked: '2026-10-06'}
+    - {host: Internet Archive, url: 'https://archive.org/details/officialmanualst00miss', years: 1975-1976, access: borrow, checked: '2026-10-06'}
+  labels_1968:
+    democratic: Democratic
+    wallace: American Party of Missouri
+    source: Official Manual 1969-1970, p. 1194, 'Vote for President, by Counties, at General Election, November 5, 1968' (CONTENTdm OCR text, page 41027)
+    verified: true
+  best_for_specials: Official Manual of the next edition, 'Special Election' tables in the General Election Returns chapter (Missouri Digital Heritage).
+  gaps: None found for 1956-1974.
+- st: MS
+  name: Mississippi
+  sources:
+  - title: Mississippi Official and Statistical Register (from 1968/72 also 'Mississippi Blue Book')
+    publisher: Secretary of State (Heber Ladner)
+    kind: register
+    frequency: quadrennial, issued after each gubernatorial election
+    covers: each edition carries the elections of its quadrennium; which edition prints Nov. 1968 not checked
+    contents:
+      general: unverified
+      specials: unverified. MS-3 special (runoff 1968-03-12) should fall in the 1968/72 edition (or 1964/68 if issued after March 1968); not opened (HathiTrust bot-check).
+      state_races: unverified
+      primaries: unverified
+      checked_in: not opened; rights from the HathiTrust Bib API
+    online:
+    - {host: HathiTrust, url: 'https://babel.hathitrust.org/cgi/pt?id=uc1.c092714757', years: 1949/51-1956/60 (bound together), access: bot-check, checked: '2026-10-06', rights: Full view}
+    - {host: HathiTrust, url: 'https://babel.hathitrust.org/cgi/pt?id=uc1.b3763465', years: 1960-64 (also uiug.30112051302773), access: bot-check, checked: '2026-10-06', rights: Full view}
+    - {host: HathiTrust, url: 'https://babel.hathitrust.org/cgi/pt?id=uc1.b3763466', years: 1964-68 (the first pass called this a second 1960-64 copy; the API says 1964-68), access: bot-check, checked: '2026-10-06', rights: Full view}
+    - {host: HathiTrust, url: 'https://babel.hathitrust.org/cgi/pt?id=uiug.30112118316998', years: 1964/68, access: bot-check, checked: '2026-10-06', rights: Full view}
+    - {host: HathiTrust, url: 'https://babel.hathitrust.org/cgi/pt?id=mdp.39015053613819', years: 1964/1968-1968/1972 (bound together), access: bot-check, checked: '2026-10-06', rights: Full view}
+    - {host: HathiTrust, url: 'https://babel.hathitrust.org/cgi/pt?id=uiug.30112086088652', years: 1968/72, access: bot-check, checked: '2026-10-06', rights: Full view}
+    - {host: HathiTrust, url: 'https://babel.hathitrust.org/cgi/pt?id=uc1.b3763467', years: 1972-76, access: bot-check, checked: '2026-10-06', rights: Full view}
+    - {host: HathiTrust, url: 'https://babel.hathitrust.org/cgi/pt?id=pst.000006031763', years: no enumeration in the record (record 103168813), access: bot-check, checked: '2026-10-06', rights: Full view}
+    - {host: HathiTrust catalog, url: 'https://catalog.hathitrust.org/Record/000549439', years: 'all (also records 007518546, 103168813)', access: bot-check, checked: '2026-10-06'}
+    notes: Internet Archive has no 1956-1976 edition (only 1908-1933 and 1980-96 microfiche records, 2000-2024 uploads).
+  - title: Election Returns, Series 0107 (Secretary of State; certified county and statewide returns)
+    publisher: Mississippi Department of Archives and History
+    kind: count book
+    covers: paper returns 1817-2016; PDFs online from 2008 only
+    online:
+    - {host: MDAH Digital Archives, url: 'https://da.mdah.ms.gov/series/sos/s0107', years: 2008 on, access: open, checked: '2026-10-06'}
+    - {host: MDAH finding aid, url: 'https://finding.mdah.ms.gov/government-records/series-107', access: other, checked: '2026-10-06', note: 'access: other (connection failed, no response)'}
+  labels_1968:
+    democratic: unverified
+    wallace: unverified
+    source: not opened
+    verified: false
+  best_for_specials: Register 1968/72 on HathiTrust (unverified that it prints the special); else MDAH Series 0107 on paper in Jackson.
+  gaps: 'Nothing opened from here. Paper: MDAH, Jackson.'
+- st: MT
+  name: Montana
+  sources:
+  - title: Official Montana General Election Returns (1960-1964, 1968); Report of the Official Canvass of the Vote Cast at the General Election ... (1966); Report of the Official Canvass by County of Votes Cast at the General Election (1970-1974)
+    publisher: Secretary of State (Frank Murray)
+    kind: canvass
+    frequency: one per general election
+    covers: that November's election
+    contents:
+      general: President, U.S. Senate, U.S. House by county
+      specials: no. The 1969 MT-2 special (1969-06-24) is not in the 1968 or 1970 general reports (OCR searched), and no 1969 special-election pamphlet is in the Montana State Library series on Internet Archive.
+      state_races: 'governor and state officers by county; the canvass is ''exclusive of vote cast for district judges and legislative candidates'' (1966, 1970 title pages; 1972-74 titles). Legislature: separate ''Returns by district for legislative candidates'', from 1974 (returnsbydistric1974montrich).'
+      primaries: separate 'Report of the official canvass of the vote cast at the primary election', 1960-1974 on IA (primaryofficial19NNmontrich)
+      checked_in: OCR of 1960-1974 general reports (first pass) and 1966, 1970 title pages; IA collection search
+    online:
+    - {host: Internet Archive (Montana State Library), url: 'https://archive.org/details/officialmontanag1960montrich', years: '1960, 1962, 1964, 1968', access: open, checked: '2026-10-06', pattern: 'https://archive.org/details/officialmontanag19NNmontrich (tested 1960, 1962, 1964, 1968)'}
+    - {host: Internet Archive, url: 'https://archive.org/details/electionofficial1966montrich', years: '1966', access: open, checked: '2026-10-06'}
+    - {host: Internet Archive, url: 'https://archive.org/details/reportofofficial1970montrich', years: '1970, 1972, 1974', access: open, checked: '2026-10-06', pattern: 'https://archive.org/details/reportofofficial19NNmontrich (tested 1970, 1972, 1974)'}
+    - {host: Internet Archive, url: 'https://archive.org/details/primaryofficial1968montrich', years: primaries 1960-1974, access: open, checked: '2026-10-06', pattern: 'https://archive.org/details/primaryofficial19NNmontrich (tested 1960, 1962, 1964, 1966, 1968, 1970, 1972, 1974)'}
+    - {host: Internet Archive, url: 'https://archive.org/details/returnsbydistric1974montrich', years: 1974 legislative by district, access: open, checked: '2026-10-06'}
+  labels_1968:
+    democratic: Dem.
+    wallace: American
+    source: Official Montana General Election Returns, Nov. 5, 1968, 'For Presidential Electors' (first-pass OCR)
+    verified: true
+  best_for_specials: 'none found. The 1969 special: Secretary of State records at the Montana Historical Society Research Center (Helena), or the Montana State Library.'
+  gaps: 1956 and 1958 general and primary reports not on IA; 1969 special not found; legislative returns before 1974 not in these reports.
+- st: NC
+  name: North Carolina
+  sources:
+  - title: North Carolina Manual
+    publisher: 'Secretary of State (1969: ''Issued by Thad Eure, Secretary of State'')'
+    kind: blue book
+    frequency: biennial, odd years
+    covers: the edition of N+1 prints the November N general, the N primaries, and specials since the last edition
+    contents:
+      general: President (by county, and national table by States), U.S. Senate and Congress by county
+      specials: 'yes, with votes by county: 1966-02-05 NC-1 (Walter B. Jones (D) v. John P. East (R)), 1967 Manual p. 299; also the special Democratic primary of Dec. 18, 1965, p. 298'
+      state_races: Governor, Lieutenant Governor and State officers by county; no General Assembly returns in the contents (legislators' biographies only)
+      primaries: 'official; Democratic and Republican, by county; second primary (runoff) printed (1967 Manual: Congress, Democratic and Republican primaries 1966, second primary June 25, 1966; 1969 Manual: governor, State officials, Congress, Senate, second primary 1968)'
+      checked_in: 1967 Manual, contents and pp. 298-299 (OCR); 1969 Manual, Part IV contents and p. 265 (OCR)
+    online:
+    - {host: 'Internet Archive (UNC Libraries, collection unclibraries)', url: 'https://archive.org/details/northcarolinama1969nort', years: '1955-1975 every edition, open, full text', access: open, checked: '2026-10-06', pattern: 'northcarolinamanYYYYnort for 1955-1965 and 1975; northcarolinamaYYYYnort for 1967-1973 (all 11 tested: 1955, 1957, 1959, 1961, 1963, 1965, 1967, 1969, 1971, 1973, 1975)'}
+    notes: The State's own county table for President 1948-68 (1969, p. 268) is printed sideways; its OCR is unreadable.
+  labels_1968:
+    democratic: Democrat (column head 'Humphrey Democrat')
+    wallace: American (column head 'Wallace American')
+    source: 1969 Manual, Part IV, 'Popular and Electoral Vote for President by States, 1968', p. 265 (archive.org OCR); first pass, not re-read
+    verified: true
+  best_for_specials: North Carolina Manual of the following odd year (1967 Manual pp. 298-299 for 1965-66 NC-1)
+  gaps: None for Congress, President, statewide offices, primaries. General Assembly returns not in the Manual.
+- st: ND
+  name: North Dakota
+  sources:
+  - title: Official Abstract of Votes Cast at the General [Primary, Special] Election ... / Statement of the Findings of the State Board of Canvassers
+    publisher: Secretary of State (State Board of Canvassers)
+    kind: canvass
+    frequency: each election, general, primary and special
+    covers: one PDF per election
+    contents:
+      general: President, U.S. Senate, Congress by county
+      specials: 'yes, with votes by county: 1963-10-22 ND-1, Mark Andrews (R) 47,062, John Hove (Dem) 42,470, Thomas W. Dewey (Independent) 337, John W. Scott (Conservative) 5,995; 23 counties, precinct counts and total votes cast'
+      state_races: Governor and all statewide offices, judges, measures by county; the Legislature is not tabulated (1968 general and primary checked)
+      primaries: official State canvass; Republican, Democrat and No-Party columns, by county (1968 primary, Sept. 3)
+      checked_in: 1963-10-22 special; 1968-11-05 general (pp. 1-3); 1968-09-03 primary; 1956 and 1974 generals
+    online:
+    - {host: ND Secretary of State, url: 'https://www.sos.nd.gov/elections/election-results', years: 'index: 1950-1978 and on (generals, primaries, specials incl. 1960-06-28, 1963-07-17, 1963-10-22, 1965-09-21, 1971-09-23, 1972-04-28, 1973-12-04)', access: open, checked: '2026-10-06'}
+    - {host: ND Secretary of State, url: 'https://www.sos.nd.gov/sites/default/files/documents/elections/election-results-pdfs/1963-10-22-special.pdf', years: 1950 on, access: open, checked: '2026-10-06', pattern: 'https://www.sos.nd.gov/sites/default/files/documents/elections/election-results-pdfs/YYYY-MM-DD-{general,primary,special}.pdf (tested 1956-11-06-general, 1963-10-22-special, 1968-09-03-primary, 1968-11-05-general, 1974-11-05-general; /sites/www/files/ also answers). Exception: 1960 primary is ''1960-06028-primary.pdf'''}
+    notes: Scanned images (CCITT) with a text layer. The vip.sos.nd.gov folder URL in the first pass was not needed.
+  - title: North Dakota Blue Book
+    publisher: Secretary of State (with SHSND)
+    kind: blue book
+    frequency: 'irregular: 1942, 1954, 1961, 1973, 1981, then centennial 1989'
+    covers: biographies and rosters, party per official; no candidate returns found
+    contents:
+      general: no tables of candidate votes found (1961 and 1973 editions, all pages' OCR searched); measures votes only (1973 p. 78)
+      specials: 'no returns; biography notes it (1973 p. 13: Andrews ''Elected to 88th Congress October 22, 1963'')'
+      state_races: 'no'
+      primaries: 'no'
+      checked_in: 1961 (378 pp.) and 1973 (468 pp.), OCR of every page via CONTENTdm API
+    online:
+    - {host: SHSND Blue Book page, url: 'https://www.history.nd.gov/bluebook/index.html', years: 'links 1942, 1954, 1961, 1973, 1981, 1889-1989', access: open, checked: '2026-10-06'}
+    - {host: Digital Horizons (CONTENTdm), url: 'https://cdm16921.contentdm.oclc.org/digital/collection/ndbb/id/21103/rec/9', years: 1961 (id 21103); 1973 is id 22004; 1954 id 20379, access: open, checked: '2026-10-06', pattern: 'https://digitalhorizonsonline.org/digital/collection/ndbb (collection page, 200)'}
+  labels_1968:
+    democratic: Dem. (column head 'Hum-phrey Dem.'); no 'NPL' anywhere in the 1968 general or primary abstract
+    wallace: Ind. (column head 'Wallace Ind.'; the elector list under it closes '(The American Party)')
+    source: 'Official Abstract of Votes Cast at the General Election Held November 5, 1968, p. 1 (sos.nd.gov 1968-11-05-general.pdf, page image read). Primary abstract, Sept. 3, 1968: party columns ''Republican'', ''Democrat'', ''NO-PARTY''. By contrast the 1961 Blue Book, p. 49, labels Gov. Guy ''Democratic-NPL''.'
+    verified: true
+  best_for_specials: the Secretary of State's special-election abstract PDF (1963-10-22-special.pdf), votes by county
+  gaps: Legislative returns are not in the abstracts; county auditors' records or SHSND 'Elections, Abstracts of Votes' (inventory 30458) for those.
+- st: NE
+  name: Nebraska
+  sources:
+  - title: 'Official Report of the Board of State Canvassers of the State of Nebraska: Primary Election ... / General Election ...'
+    publisher: Secretary of State (Frank Marsh, 1968)
+    kind: canvass
+    frequency: one per election year (May primary and November general in one PDF)
+    covers: S001-YYYYprim_gen.pdf = the primary and general of YYYY
+    contents:
+      general: President, U.S. Senate, U.S. House by county ('Abstract of Votes Cast in General Election', 1968 pp. 38-48)
+      specials: no congressional specials in Nebraska 1956-1974
+      state_races: state officers, state board of education, railway commissioners, regents, Legislature (nonpartisan) by district, amendments, judges' retention, by county
+      primaries: 'official, by county: Republican, Democratic, American (1968), and Non-Political (legislature, judges)'
+      checked_in: 1968 report (text layer; p. 38 page image)
+    online:
+    - {host: Nebraska Library Commission govdocs, url: 'https://govdocs.nebraska.gov/epubs/S1200/S001-1968prim_gen.pdf', years: '1956-1974, every even year', access: open, checked: '2026-10-06', pattern: 'https://govdocs.nebraska.gov/epubs/S1200/S001-YYYYprim_gen.pdf (all ten years 1956-1974 tested 200)'}
+  - title: Nebraska Blue Book
+    publisher: Nebraska Legislative Council
+    kind: blue book
+    frequency: biennial
+    online:
+    - {host: Nebraska Library Commission govdocs, url: 'https://govdocs.nebraska.gov/epubs/L3000/D001.html', years: index; 1956-1974/75 listed, access: open, checked: '2026-10-06', pattern: 'https://govdocs.nebraska.gov/epubs/L3000/D001-YYYY.pdf (tested 1956, 1968; 1974-75 = D001-197475.pdf)'}
+    - {host: HathiTrust, url: 'https://catalog.hathitrust.org/Record/000552324', years: 'full view 1954-1966, 1970, 1972, 1973, 1974-1975, 1976-1977 (mdp copies); 1968 osu copy search-only', access: bot-check, checked: '2026-10-06'}
+  labels_1968:
+    democratic: Democratic
+    wallace: American
+    source: Official Report of the Board of State Canvassers, 1968, p. 38, 'Abstract of Votes Cast in General Election-November 5, 1968', President column groups 'Republican', 'Democratic', 'American' (page image)
+    verified: true
+  best_for_specials: n/a
+  gaps: None for 1956-1974.
+- st: NH
+  name: New Hampshire
+  sources:
+  - title: Manual for the General Court (running head 'New Hampshire Manual'), numbered
+    publisher: Department of State
+    kind: blue book
+    frequency: biennial (odd years)
+    covers: no. 35 (1957) -> 1956 ... no. 44 (1975) -> 1974
+    contents:
+      general: President (each elector, residence, party, votes), U.S. Senate, U.S. House; summary then county and town tables
+      specials: no congressional specials in New Hampshire 1956-1974
+      state_races: 'governor, executive council, state senate, House by town (no. 41: General Election p. 701; recounts p. 859)'
+      primaries: official presidential primary (no. 41, p. 317) and direct primary (p. 525), by town
+      checked_in: no. 41 (1969) index (OCR); first-pass OCR of nos. 35-44
+    online:
+    - {host: Internet Archive (University of New Hampshire Library), url: 'https://archive.org/details/manualforgeneral41newh', years: nos. 35-44 (1957-1975), access: open, checked: '2026-10-06', pattern: 'https://archive.org/details/manualforgeneralNNnewh (all ten, 35-44, tested 200)'}
+  labels_1968:
+    democratic: 'Democratic Party:'
+    wallace: 'George C. Wallace Party:'
+    source: Manual for the General Court no. 41 (1969), p. 702 (first-pass OCR)
+    verified: true
+  best_for_specials: n/a
+  gaps: None for 1956-1974.
+- st: NJ
+  name: New Jersey
+  sources:
+  - title: 'State of New Jersey: Results of the General Election Held November [date], 19xx / Results of the Primary Election Held [date]'
+    publisher: Secretary of State (e.g. Robert J. Burkhardt, 1968-69)
+    kind: canvass
+    frequency: annual (general and primary)
+    covers: that year's election
+    contents:
+      general: President, U.S. Senate, U.S. House by county, with each candidate's party or ballot designation
+      specials: 'yes, with votes. NJ-8 1969 checked: ''Votes Cast for Member of House of Representatives, 8th Congressional District (Passaic County) To Fill a Vacancy'': Roe (Democratic) 67,188, Boyle (Republican) 66,228, Johnson (Independent) 3,122 (1969 Results, p. [3]). NJ-6 1970 checked: ''Sixth Congressional District (To Fill a Vacancy)'', by county (Burlington, Ocean part, Camden part), Forsythe (Republican) 89,565, Yates (Democratic) 73,821 (1970 Results, p. 6).'
+      state_races: governor by county (with candidate addresses); General Assembly and State Senate by district with county breakdown; public questions
+      primaries: 'official, Republican and Democratic, by county: presidential preference (write-ins), delegates, House (1968 Results of the Primary Election, June 4, 1968)'
+      checked_in: 1968 and 1970 general (page images), 1969 general (page images pp. 1, 3, 4), 1968 primary (pp. 1-2)
+    online:
+    - {host: NJ Division of Elections, url: 'https://www.nj.gov/state/elections/election-information-results.shtml', years: 'general 1925-1979, primary 1927-1979 (no 1963 primary)', access: open, checked: '2026-10-06'}
+    - {host: NJ Division of Elections, url: 'https://www.nj.gov/state/elections/assets/pdf/election-results/1920-1970/1968-general-election.pdf', years: general 1956-1974, access: open, checked: '2026-10-06', pattern: 'https://www.nj.gov/state/elections/assets/pdf/election-results/1920-1970/YYYY-general-election.pdf (tested every year 1956-1974); www.state.nj.us redirects here; bare http://nj.gov/... is refused by the proxy (blocked)'}
+    - {host: NJ Division of Elections, url: 'https://www.nj.gov/state/elections/assets/pdf/election-results/1920-1970/1968-primary-election.pdf', years: primary 1956-1974 except 1963 (404), access: open, checked: '2026-10-06', pattern: 'https://www.nj.gov/state/elections/assets/pdf/election-results/1920-1970/YYYY-primary-election.pdf'}
+    - {host: NJ Division of Elections, url: 'https://www.nj.gov/state/elections/assets/pdf/election-results/other/primary-election-data-1925-2025.pdf', years: summary, access: open, checked: '2026-10-06'}
+    notes: Scans have no text layer; OCR or read the images.
+  - title: Manual of the Legislature of New Jersey
+    publisher: compiled under authority of the Legislature (privately printed)
+    kind: blue book
+    frequency: annual
+    covers: edition N+1 reprints the November N returns
+    online:
+    - {host: HathiTrust, url: 'https://babel.hathitrust.org/cgi/pt?id=uc1.b4046198', years: '1957', access: bot-check, checked: '2026-10-06', rights: Full view}
+    - {host: HathiTrust, url: 'https://babel.hathitrust.org/cgi/pt?id=uc1.b4046202', years: '1961', access: bot-check, checked: '2026-10-06', rights: Full view}
+    - {host: HathiTrust catalog, url: 'https://catalog.hathitrust.org/Record/006135724', years: 'full view 1954-1963 (1958 uc1.b4046199, 1959 b4046200, 1960 b4046201, 1962 b4046203, 1963 b4046204); search-only 1973-1977', access: bot-check, checked: '2026-10-06'}
+  labels_1968:
+    democratic: Democratic
+    wallace: George Wallace Party
+    source: Results of the General Election Held November 5, 1968, p. [2], 'Votes Cast for President and Vice-President of the United States' (column heads 'Hubert H. Humphrey and Edmund S. Muskie Democratic', 'George C. Wallace and Marvin Griffin George Wallace Party'; also Socialist Workers Party, Peace Freedom Alternative, Socialist Labor Party) (page image)
+    verified: true
+  best_for_specials: The Secretary of State's Results of the General Election of the year (both NJ specials were held with the November election).
+  gaps: 1963 primary missing from the archive.
+- st: NM
+  name: New Mexico
+  sources:
+  - title: New Mexico Blue Book (1966-1977/78); continued as 'Official New Mexico Blue Book' (1979/80-)
+    publisher: Secretary of State
+    kind: blue book
+    frequency: biennial (editions dated e.g. 1965/1966, 1969-1970, 1971-1972, 1975/1976)
+    covers: 'edition for years N+1/N+2 should print the November N election (unverified: no 1957-76 edition opened)'
+    contents:
+      general: unverified
+      specials: n/a (no specials to Congress in NM, 1961-74)
+      state_races: unverified
+      primaries: unverified
+      checked_in: none opened (HathiTrust blocked)
+    online:
+    - {host: HathiTrust, url: 'https://catalog.hathitrust.org/Record/000060503', years: 'Full view (catalog API): 1958 (mdp.39015055034253), 1965/1966 (mdp.39015055034402), 1971-1972 (mdp.39015055034246), 1975/1976 (mdp.39015055034386); search-only: 1956/1958/1969-72 (nyp), 1958-60, 1965-72, 1969-1970, 1975-76', access: bot-check, checked: '2026-10-06', pattern: 'https://babel.hathitrust.org/cgi/pt?id=<htid>'}
+    - {host: HathiTrust (successor title), url: 'https://catalog.hathitrust.org/Record/000060104', years: '1958, 1971/72, 1975-78 search-only', access: bot-check, checked: '2026-10-06'}
+    - {host: Online Books Page, url: 'https://onlinebooks.library.upenn.edu/webbin/who/New%20Mexico%2e%20Secretary%20of%20State', years: 'index; lists ''New Mexico blue book (Secretary of State, in the 1960s)'' and 1980 with page images at HathiTrust', access: open, checked: '2026-10-06'}
+    notes: archive.org 'newmexicoblueboo0000unse' (1968) and 'newmexicoblueboo0000newm' are borrow-only and are a facsimile of the 1882 Blue Book; not relevant.
+  - title: Official Returns (general and primary elections)
+    publisher: Secretary of State / State Canvassing Board
+    kind: canvass
+    frequency: each election
+    covers: one per election
+    contents:
+      general: unverified
+      specials: n/a
+      state_races: unverified
+      primaries: unverified
+      checked_in: not seen
+    online:
+    - {host: New Mexico Archives Online (finding aid; repository 17), url: 'https://nmarchives.unm.edu/repositories/17/top_containers/35165', years: 'paper: Official Returns 1964 and 1968 (Box 85); box 35164 reported as 1911-1966 (search summary only)', access: bot-check, checked: '2026-10-06', note: Anubis 'Making sure you're not a bot!' page}
+    notes: Paper only, as far as found (NM State Records Center and Archives per the finding aid title; unverified).
+  - title: ElectionStats (Secretary of State elections database)
+    publisher: Secretary of State
+    kind: database
+    online:
+    - {host: NM Secretary of State, url: 'https://electionstats.sos.nm.gov/', years: '2000 on (the page''s own search config: minYear 2000)', access: open, checked: '2026-10-06'}
+    - {host: NM Secretary of State, url: 'https://www.sos.nm.gov/sos-archive/', years: election results archive 1990 on, access: open, checked: '2026-10-06'}
+    notes: Nothing before 1990 from the Secretary of State online.
+  labels_1968:
+    democratic: unverified
+    wallace: unverified
+    source: no State source opened
+    verified: false
+  best_for_specials: n/a (none 1961-74)
+  gaps: 1956-74 returns online only inside HathiTrust Blue Books (four full-view editions, not opened here). Official Returns on paper at the State Records Center and Archives.
+- st: NV
+  name: Nevada
+  sources:
+  - title: Official Returns of the General Election of 19xx (with Official Returns of the Primary Election)
+    publisher: Secretary of State
+    kind: canvass
+    frequency: one per election
+    contents:
+      general: unverified (not opened)
+      specials: no congressional specials in Nevada 1956-1974
+      state_races: unverified
+      primaries: unverified
+      checked_in: not opened (HathiTrust bot-check; nvsos.gov bot-check)
+    online:
+    - {host: HathiTrust, url: 'https://babel.hathitrust.org/cgi/pt?id=mdp.39015067324437', years: '1956', access: bot-check, checked: '2026-10-06', rights: Full view}
+    - {host: HathiTrust, url: 'https://babel.hathitrust.org/cgi/pt?id=mdp.39015067324429', years: '1958', access: bot-check, checked: '2026-10-06', rights: Full view}
+    - {host: HathiTrust, url: 'https://babel.hathitrust.org/cgi/pt?id=mdp.39015067324411', years: '1960', access: bot-check, checked: '2026-10-06', rights: Full view}
+    - {host: HathiTrust, url: 'https://babel.hathitrust.org/cgi/pt?id=mdp.39015067324403', years: '1962', access: bot-check, checked: '2026-10-06', rights: Full view}
+    - {host: HathiTrust, url: 'https://babel.hathitrust.org/cgi/pt?id=mdp.39015067324395', years: '1964', access: bot-check, checked: '2026-10-06', rights: Full view}
+    - {host: HathiTrust, url: 'https://babel.hathitrust.org/cgi/pt?id=mdp.39015067324387', years: '1966', access: bot-check, checked: '2026-10-06', rights: Full view}
+    - {host: HathiTrust, url: 'https://babel.hathitrust.org/cgi/pt?id=mdp.39015067324379', years: '1968', access: bot-check, checked: '2026-10-06', rights: Full view}
+    - {host: HathiTrust catalog, url: 'https://catalog.hathitrust.org/Record/000047806', years: 1934-1968 full view (1954 = mdp.39015067324445); 1970-1974 not held; 1976 search-only, access: bot-check, checked: '2026-10-06'}
+    - {host: Nevada Secretary of State, url: 'https://www.nvsos.gov/sos/elections/election-information/previous-elections/election-results', years: 1962-present (per search), access: bot-check, checked: '2026-10-06', note: Imperva/Incapsula JavaScript challenge}
+    notes: UNLV Special Collections (Eileen Brookman Papers, MS-00620) holds print copies of primary and general returns, 1964-1976.
+  - title: Political History of Nevada
+    publisher: Secretary of State (2016 edition, Barbara K. Cegavske)
+    kind: report
+    frequency: irregular editions
+    covers: 'Chapter 9: general and special results 1864-2016, primary results 1910-2016; statewide and district totals with margins, no county figures'
+    contents:
+      general: President, U.S. Senate, U.S. House, totals
+      specials: n/a for Congress 1956-74
+      state_races: state officers, regents, board of education, judges, questions, totals
+      primaries: Democratic and Republican, totals; nonpartisan
+      checked_in: 2016 edition (leg.state.nv.us PDF), pp. 511-512 (1968)
+    online:
+    - {host: Nevada Legislature (LCB Research), url: 'https://www.leg.state.nv.us/Division/Research/Publications/PHoN/PHoN.pdf', years: 2016 edition (596 pp.), access: open, checked: '2026-10-06'}
+    - {host: Nevada State Library epubs, url: 'https://epubs.nsla.nv.gov/statepubs/epubs/613636-2006.pdf', years: 11th ed. 2006, access: open, checked: '2026-10-06'}
+    - {host: Internet Archive, url: 'https://archive.org/details/politicalhistory0000john', years: 1965 edition, access: borrow, checked: '2026-10-06'}
+  labels_1968:
+    democratic: (D)
+    wallace: (IA)
+    source: 'Political History of Nevada, 2016 ed., p. 512, ''General Election-November 5, 1968'': ''Humphrey, Hubert H., Muskie, Edmund S. (D)'', ''Wallace, George C., Griffin, S. Marvin (IA)''. A compilation; the 1968 Official Returns (p. 8) not opened.'
+    verified: true
+  best_for_specials: n/a
+  gaps: '1970, 1972, 1974 Official Returns: not on HathiTrust; nvsos.gov behind a bot check; print at UNLV and the Nevada State Library/Archives. County-level figures for those years not found online.'
+- st: NY
+  name: New York
+  sources:
+  - title: Manual for the Use of the Legislature of the State of New York ('Legislative Manual')
+    publisher: Department of State (1927 to 1988/89, when it ceased)
+    kind: blue book
+    frequency: annual (unverified for 1957-75)
+    covers: edition of year N+1 should print the November N official canvass (unverified)
+    contents:
+      general: unverified
+      specials: 'unverified (1962 NY-6, 1966 NY-17, 1967 NY-18, 1968 NY-13 not checked: no edition could be opened)'
+      state_races: unverified
+      primaries: unverified
+      checked_in: none opened
+    online:
+    - {host: Internet Archive, url: 'https://archive.org/details/manualforuseofle0000john', years: '1966', access: borrow, checked: '2026-10-06'}
+    - {host: Internet Archive, url: 'https://archive.org/details/manualforuseofle0000thom', years: '1946', access: borrow, checked: '2026-10-06'}
+    - {host: HathiTrust, url: 'https://catalog.hathitrust.org/Record/009816152', years: only 1865 and 1879 on this record (catalog API); no 1950s-70s record found, access: bot-check, checked: '2026-10-06'}
+    - {host: Columbia DLC (Durst), url: 'https://dlc.library.columbia.edu/catalog/cul:4tmpg4f4rg', years: 19th century, access: bot-check, checked: '2026-10-06', note: Anubis bot page}
+    - {host: 'Niagara Falls Public Library, local history (paper)', url: 'https://nflh.libraryhost.com/repositories/2/archival_objects/41', years: Manuals 1963-1966 (this record); /top_containers/44 lists 1956-63, access: open, checked: '2026-10-06'}
+    notes: The New York Red Book (Williams Press) is private; archive.org has a 1975 Red Book, borrow only (newyorkredbook0000unse_q7h5, bwb_Y0-BIS-800).
+  - title: NYS Board of Elections results
+    publisher: State Board of Elections (from 1974)
+    kind: database
+    online:
+    - {host: elections.ny.gov, url: 'https://elections.ny.gov/election-results', years: 1990s on (per first pass; not re-seen), access: bot-check, checked: '2026-10-06'}
+  labels_1968:
+    democratic: unverified
+    wallace: unverified ('Courage' line per Wikipedia)
+    source: no State source opened
+    verified: false
+  best_for_specials: none found online. The Legislative Manual of the following year is the likely State source; paper at NYSL and NFPL.
+  gaps: No 1957-75 Legislative Manual open online. nysl.nysed.gov did not answer (connection returned nothing). Check NYSL holdings or a HathiTrust login for search-only copies.
+- st: OH
+  name: Ohio
+  sources:
+  - title: Ohio Election Statistics (subtitle varies)
+    publisher: Secretary of State
+    kind: report
+    frequency: biennial, each volume two years (e.g. 1965-66)
+    covers: volume for N-1/N prints the elections of those years (unverified for 1957-76)
+    contents:
+      general: unverified
+      specials: unverified (1965-11-02 OH-7, 1970-11-03 OH-19, 1974-03-05 OH-1 not checked)
+      state_races: unverified
+      primaries: unverified
+      checked_in: none opened
+    online:
+    - {host: HathiTrust, url: 'https://catalog.hathitrust.org/Record/000546832', years: 'Full view (catalog API): 1957-1958 (mdp.39015078623223), 1959/60-1967/68 bound without 1961-64 (uiug.30112074273266), 1961-62 (osu.32435028463180), 1965-1970 (osu.32435028463172), 1973-74 (osu.32435028463156), 1975-76 (osu.32435028463149); search-only: 1955-56, 1958, 1969-72, 1971-72, 1973-1974 (mdp)', access: bot-check, checked: '2026-10-06', pattern: 'https://babel.hathitrust.org/cgi/pt?id=<htid>'}
+    - {host: Internet Archive, url: 'https://archive.org/details/ohioelectionsta02statgoog', years: pre-1925 Google scans; 1979-80 on as microfiche (micro_IA40706909_0369 etc.); 1980 borrow (bwb_S0-CJG-415), access: open, checked: '2026-10-06'}
+    notes: The 1957-76 run is in HathiTrust full view, which is the place to verify everything here.
+  - title: Ohio Secretary of State election results
+    publisher: Secretary of State
+    kind: database
+    online:
+    - {host: ohiosos.gov, url: 'https://www.ohiosos.gov/elections/election-results-and-data/', years: unverified, access: other, checked: '2026-10-06', note: 'HTTP 403 from Cloudflare, page titled ''Website Maintenance'' (no cf-mitigated header)'}
+  labels_1968:
+    democratic: unverified
+    wallace: unverified
+    source: no State source opened
+    verified: false
+  best_for_specials: Ohio Election Statistics 1965-1970 (HathiTrust osu.32435028463172) for 1965 OH-7 and 1970 OH-19; 1973-74 (osu.32435028463156) for 1974 OH-1. Unverified that the specials are printed.
+  gaps: Nothing opened. County boards (e.g. Franklin County, vote.franklincountyohio.gov, PDFs by year) hold local returns.
+- st: OK
+  name: Oklahoma
+  sources:
+  - title: Election Results 1907-1992 (State Election Board compilation, by period)
+    publisher: State Election Board
+    kind: database
+    frequency: one PDF per period (1952-1956, 1958-1966, 1968-1974, 1976-1978; yearly from 1980)
+    covers: primaries, runoffs, general and special elections, State questions
+    contents:
+      general: 'President (elector slates and totals), U.S. Senate, Congress by district: statewide/district totals with percentages, no county detail'
+      specials: n/a (no specials to Congress in OK, 1961-74); the compilation does carry special elections (on State questions) e.g. 1968-1970
+      state_races: statewide offices and corporation commission, supreme court retention; no legislative races found in 1968-1974 file
+      primaries: 'official: Democratic, Republican and American Party primaries and runoffs, statewide/district totals (1968)'
+      checked_in: 1968-1974 PDF (65 pp.), pp. C-1 to C-14
+    online:
+    - {host: Oklahoma State Election Board, url: 'https://oklahoma.gov/elections/elections-results/election-results/election-results-1907-1992.html', years: 1907-1992, access: open, checked: '2026-10-06', pattern: 'https://oklahoma.gov/content/dam/ok/en/elections/election-results/results-prior-to-1980/1968-1974-results.pdf (also 1958-1966, 1952-1956, 1976-1978)'}
+    notes: A born-digital compilation (Word to PDF, Acrobat PDFMaker 10.1), not page scans.
+  - title: 'Roster: State and County Officers and Election Returns'
+    publisher: Secretary, State Election Board
+    kind: report
+    frequency: each general election (biennial)
+    covers: officers elected in November N, with hold-overs; summary returns
+    contents:
+      general: '1966 roster: officer lists by county, a table of the vote for Governor 1907-1966 by party, and the 1964 presidential vote by county'
+      specials: n/a
+      state_races: names and party of State and county officers and legislators; governor totals
+      primaries: false
+      checked_in: 1966 roster (29 pp. scan), page images
+    online:
+    - {host: Oklahoma State Election Board, url: 'https://oklahoma.gov/elections/candidates/state-and-county-officer-roster-archive/oklahoma-state-and-county-officers-archives.html', years: '1930-1972 biennial, 1976 on (no 1974 on the page)', access: open, checked: '2026-10-06', pattern: 'https://www.oklahoma.gov/content/dam/ok/en/elections/rosters/officer-roster-YYYY.pdf (tested 1966)'}
+  - title: Directory and Manual of the State of Oklahoma / Directory of Oklahoma
+    publisher: State Election Board
+    kind: blue book
+    contents:
+      general: unverified
+      specials: n/a
+      state_races: unverified
+      primaries: unverified
+      checked_in: not found online
+    online: []
+    notes: 'No online copy found (archive.org: none).'
+  labels_1968:
+    democratic: DEMOCRAT
+    wallace: AMERICAN PARTY
+    source: Election Board compilation, 1968-1974 results PDF, p. C-13 (elector slates headed DEMOCRAT, REPUBLICAN, AMERICAN PARTY); a modern compilation, not the 1968 printed canvass
+    verified: true
+  best_for_specials: n/a (none 1961-74)
+  gaps: Legislative returns and county-level returns not in the compilation; Election Board files or the printed Directory.
+- st: OR
+  name: Oregon
+  sources:
+  - title: Official Abstract of Votes, General Election [year] / Primary Election / Special Election
+    publisher: Secretary of State (compiled by the Elections Division)
+    kind: canvass
+    frequency: each election
+    covers: one per election, issued weeks after
+    contents:
+      general: President, U.S. Senate, U.S. Representative by county
+      specials: 'yes, with votes by county: 1964 OR-1 special for the term ending Jan. 3, 1965 printed as its own table beside the regular race (Whipple (Democrat) 112,112, Wyatt (Republican) 125,473, write-in 138), 1964 General abstract, pdf p. 6'
+      state_races: Secretary of State, Treasurer, Attorney General etc. by county; State Senator and State Representative by district, with county figures in multi-county districts; judges; district attorneys; measures
+      primaries: official; Republican and Democratic, by county, including national convention delegates and national committee members (1968 primary abstract, 36 pp.; seen in page thumbnails only)
+      checked_in: 1964 General (15 pp.) and 1968 General (18 pp.) page images; 1968 Primary thumbnails
+    online:
+    - {host: 'Oregon Secretary of State, ORMS (records.sos.state.or.us), ''Election Abstracts of Votes''', url: 'https://records.sos.state.or.us/ORSOSWebDrawer/Record/8411026/File/document', years: '1942-1982 generals, primaries and specials (APD/21/3854 to /3902)', access: open, checked: '2026-10-06', pattern: 'https://records.sos.state.or.us/ORSOSWebDrawer/Record/<uri>/File/document; uri 8411016=1956 General, 8411017=1956 Primary, 8411018/19=1958, 8411020/21=1960, 8411022/23=1962, 8411024=1963 Oct Special, 8411026/27=1964, 8411028/29=1966, 8411030/31=1968, 8411032=1969 Aug Special, 8411033/34=1970, 8411035=1972 General, 8411036=1972 Jan Special, 8411038=1972 Primary, 8411039=1973 Jun Special, 8411040/41=1974 (General, Primary). Tested downloads: 8411026, 8411030, 8411031; titles of all read from SearchDetail.aspx?uri=<uri>'}
+    - {host: State Library of Oregon Digital Collections, url: 'https://digitalcollections.library.oregon.gov/nodes/view/88649', years: 'general abstracts 1982 on only (88650: specials 1977 on)', access: open, checked: '2026-10-06'}
+    - {host: results.oregonvotes.gov, url: 'https://results.oregonvotes.gov', years: unverified, access: other, checked: '2026-10-06', note: HTTP 403 'Oregon Secretary of State Support ID' (WAF)}
+    notes: 'The best find in this group for Oregon: the whole 1942-82 run of official abstracts, scanned, on the Secretary of State''s records server. Found via sos.oregon.gov/elections/pages/historical-data.aspx.'
+  - title: Oregon Blue Book
+    publisher: Secretary of State
+    kind: blue book
+    frequency: biennial
+    covers: summary returns of the last elections (unverified)
+    contents:
+      general: unverified
+      specials: unverified
+      state_races: unverified
+      primaries: unverified
+      checked_in: none
+    online:
+    - {host: HathiTrust, url: 'https://catalog.hathitrust.org/Record/004031402', years: '1945-1980 search-only, except 1973-1974 Full view (mdp.39015039746089)', access: bot-check, checked: '2026-10-06'}
+    - {host: Internet Archive, url: 'https://archive.org/details/oregonbluebook00oreg', years: 1911 etc.; nothing 1955-77, access: borrow, checked: '2026-10-06', note: checked in the first survey}
+  labels_1968:
+    democratic: (D) after the name ('Hubert H. Humphrey (D)')
+    wallace: (I) ('George C. Wallace (I)')
+    source: Official Abstract of Votes, General Election 1968, 'President of the United States', pdf p. 6 (ORMS uri 8411030)
+    verified: true
+  best_for_specials: Official Abstract of Votes for the election (ORMS); 1964 General abstract for OR-1
+  gaps: None for 1956-74 at State level.
+- st: PA
+  name: Pennsylvania
+  sources:
+  - title: The Pennsylvania Manual, Section V 'Elections' (1959-60 Manual, vol. 94)
+    publisher: Department of Property and Supplies (vol. 94); later Department of General Services
+    kind: blue book
+    frequency: biennial (vol. 94 1959-60; 95 1961-62; 96 1963-64; 97 1965-66; 98 1967; 99 1968-69; 100 1970-71; 101 1972-73; 102 1974-75)
+    covers: vol. 94 prints the 1958 primary and general, 1959 municipal (judges, amendments), and special elections 1958-60
+    contents:
+      general: U.S. Senate and Governor by political subdivision; Congress by district; State Senate and House by district (vol. 94)
+      specials: 'yes, with votes, in vol. 94: ''Special Elections 1958-1959-1960'', p. 698: General Assembly specials and Congress (17th and 18th districts, Apr. 26, 1960) with votes by county. Later volumes unverified (1961-05-16 PA-16, 1963-07-30 PA-15, 1963-11-05 PA-23, 1964-04-28 PA-5, 1968 PA-20, 1970 PA-9, 1971-11-02 PA-18, 1972-04-25 PA-27, 1974-02-05 PA-12 not checked)'
+      state_races: Governor, Lieutenant Governor, Secretary of Internal Affairs, judges, by county; legislature by district
+      primaries: '''Primary and General Election, 1958, Vote for U.S. Senator, Governor, Lt. Governor ...'' (vol. 94 contents); party detail unverified'
+      checked_in: vol. 94 (1959-60), contents and p. 698 (archive.org OCR)
+    online:
+    - {host: Internet Archive, url: 'https://archive.org/details/cwopa-the-pennsylvania-manual-vol-094-1959_202403', years: 1959-60 (vol. 94); the 'cwopa' uploads otherwise only 2003 on (vols. 116-126), access: open, checked: '2026-10-06'}
+    - {host: Internet Archive, url: 'https://archive.org/details/pennsylvaniamanu0095iris', years: '1961-62 (vol. 95); also pennsylvaniamanu0096will (1963-64), bwb_T5-CVG-500_100 (1971), pennsylvaniamanu0000kath (1975)', access: borrow, checked: '2026-10-06'}
+    - {host: HathiTrust, url: 'https://catalog.hathitrust.org/Record/009441218', years: 'Full view (catalog API): 1951-52, 1959-60, 1961-62 (uc1.31205033028992, osu.32435024075012, uiug.30112053623135); search-only: 1963-64, 1965-66, 1967, 1968-69, 1970-71, 1972-73, 1974-75, 1976-77', access: bot-check, checked: '2026-10-06'}
+    - {host: PA House of Representatives Archives (paper), url: 'https://pahousearchives.klnpa.org/repositories/2/archival_objects/102413', years: Manuals 1929-present, access: open, checked: '2026-10-06'}
+    notes: The HathiTrust full-view 1961-62 volume should carry the May 16, 1961 PA-16 special if the vol. 94 practice held; unverified.
+  labels_1968:
+    democratic: unverified
+    wallace: unverified
+    source: 1968-69 Manual is search-only/borrow; not opened
+    verified: false
+  best_for_specials: 'The Pennsylvania Manual''s ''Special Elections'' table in the next volume (format seen in vol. 94, p. 698: votes by county). Only vol. 94 is open; 1961-62 is full view at HathiTrust (blocked here).'
+  gaps: 1963-75 volumes search-only or borrow. PA Department of State returns online only from 2000.
+- st: RI
+  name: Rhode Island
+  sources:
+  - title: Official Count of the Ballots Cast for Presidential Electors, Representatives in Congress, General Officers, Senators and Representatives in the General Assembly ... also the Republican Primary ... and the Democratic Primary (the 'Count Book')
+    publisher: Board of Elections (State Board of Elections)
+    kind: count book
+    frequency: each general election (biennial)
+    covers: the Count Book of year N prints the November N general and the September N primaries
+    contents:
+      general: President, Congress by city and town; candidates' lists with party; grand summary
+      specials: 'no: the 1967-03-28 RI-2 special (Tiernan) is not in the 1966 or 1968 Count Book (text searched); no 1967 Count Book (1967-Count-Book.pdf 404)'
+      state_races: General officers by city and town (pp. 22-25); General Assembly by district (pp. 189-322); ballots by city and town (pp. 33-187)
+      primaries: official Board count; Republican and Democratic primaries (Sept. 10, 1968, pp. 5-11), including General Assembly districts
+      checked_in: 1968 Count Book (328 pp.), index and pp. 12-13; 1966 Count Book text
+    online:
+    - {host: RI Board of Elections, url: 'https://elections.ri.gov/sites/g/files/xkgbur756/files/publications/Election_Publications/Countbooks/1968-Count-Book.pdf', years: 1954-1976 every even year, access: open, checked: '2026-10-06', pattern: '.../Countbooks/YYYY-Count-Book.pdf (tested 1956, 1958, 1960, 1962, 1964, 1966, 1968, 1970, 1972, 1974, 1976); 1954 is ''1954-Count-book.pdf'''}
+    - {host: RI Board of Elections, url: 'https://elections.ri.gov/publications/index.php', years: index, access: bot-check, checked: '2026-10-06', note: the index page is bot-checked; the PDFs themselves download}
+  - title: Manual ... the State of Rhode Island and Providence Plantations
+    publisher: Secretary of State
+    kind: blue book
+    frequency: biennial (1975/76-1989/90); earlier editions by legislative term
+    covers: rosters, history, election records (the 1913-14 edition records special elections for Congress)
+    contents:
+      general: unverified
+      specials: unverified for 1967 (no 1965-68 edition in HathiTrust)
+      state_races: unverified
+      primaries: unverified
+      checked_in: 1913-14 edition only (archive.org bub_gb_Ky8tAQAAMAAJ, mislabeled 1976)
+    online:
+    - {host: HathiTrust, url: 'https://catalog.hathitrust.org/Record/002502477', years: 'Full view (catalog API): 1953-54, 1955-56, 1957-58, 1959-60, 1961/62, 1963-64, 1969-70, 1971/72, 1973-74, 1975-76; none for 1965-68', access: bot-check, checked: '2026-10-06'}
+    - {host: Internet Archive, url: 'https://archive.org/details/bub_gb_Ky8tAQAAMAAJ', years: 1913-14 (metadata says 1976), access: open, checked: '2026-10-06'}
+  labels_1968:
+    democratic: Democrat (electors' slate heading); 'Humphrey-Muskie, D.' in the tables
+    wallace: GEORGE WALLACE / INDEPENDENT / 'Nom. Papers' (slate heading); 'WALLACE-GRIFFIN, I.' in the tables
+    source: 1968 Count Book, p. 12 (list of Presidential Electors) and city/town tables (PDF text layer)
+    verified: true
+  best_for_specials: none found for 1967 RI-2. The 1969-70 RI Manual (HathiTrust full view, blocked here) or the Board's own records.
+  gaps: 1967 special (March 28, 1967) not in the online Count Books; RI Manual 1965-68 not in HathiTrust.
+- st: SC
+  name: South Carolina
+  sources:
+  - title: 'Supplemental Report of the Secretary of State [O. Frank Thornton] to the General Assembly of South Carolina: Election November 5, 1968 and Primary of June 11, 1968 (Part I; Part II, General Election Returns by Precinct)'
+    publisher: Secretary of State (printed under the State Budget and Control Board); also issued in Reports and Resolutions, vol. II
+    kind: report
+    frequency: each general election (to 1968)
+    covers: the November N general and the June N primary
+    contents:
+      general: President (each elector by county), U.S. Senate and Congress by county; Part II by precinct
+      specials: 'not in the 1968 report (none that year). 1962-04-10 SC-2 and 1965-06-15 SC-2: the 1962 and 1966 reports were not found online here; Wikipedia cites the 1962 report (Reports and Resolutions 1963, vol. II, pp. 16-17) for the 1962 special (unverified)'
+      state_races: State Senate, solicitors, county offices by county; State Senate and House by precinct (Part II); constitutional amendments by county; State Board of Canvassers minutes
+      primaries: June 11, 1968 Democratic primary for U.S. Senate and Congress by county (headings read from page thumbnails); Republican primary not seen
+      checked_in: '1968 report (93 PDF pages, two printed pages each), page images: pp. 16-19 and contents'
+    online:
+    - {host: SC State Election Commission, url: 'https://scvotes.gov/wp-content/uploads/2022/08/Election_Report_1968.pdf', years: '1968', access: open, checked: '2026-10-06', pattern: 'https://scvotes.gov/wp-content/uploads/2022/08/Election_Report_<years>.pdf; answers for 1968, 1969-1973, 1974-1975, 1976-1977; 404 for 1956-1967 singly and 1966-1968 (tested). Old scvotes.org/files/ElectionReports/ URL is 404'}
+    - {host: SC State Library Digital Collections (DSpace), url: 'https://dc.statelibrary.sc.gov/server/api/core/bitstreams/2da33853-5d08-4ad9-9ac0-cd9925b149f8/content', years: 'Secretary of State supplemental reports (1962, 1966 cited in search results); exact list unverified', access: other, checked: '2026-10-06', note: 'HTTP 403 Forbidden from the server itself (Apache), every path incl. the home page; not a proxy refusal and not a challenge page'}
+  - title: Report of the South Carolina [State] Election Commission (for the period ending June 30, ...)
+    publisher: State Election Commission (from 1969)
+    kind: report
+    frequency: 'per period: to June 30, 1973 (covers 1970 and 1972); to June 30, 1974 including the Nov. 5, 1974 general; 1976-77'
+    covers: general elections by precinct and county; State Board of Canvassers decisions; primaries
+    contents:
+      general: Federal, State, district and county offices by precinct with county totals, and county/State totals (1970, 1972, 1974)
+      specials: 'yes, totals only: 1971-04-27 SC-1 certified in the Board of Canvassers minutes of May 6, 1971 (Mendel Davis 37,821; James B. Edwards 32,443; Victoria DeLee 8,029; write-in 63), 1969-73 report p. 15; no county table found'
+      state_races: Governor and statewide offices, State Senate and House by precinct and county
+      primaries: 'official tabulation, Democratic primary June 9, 1970 and run-off June 23, 1970; Democratic primary Aug. 29, 1972 and run-off Sept. 12, 1972, by county, incl. State Senate runoffs; 1974: Democratic primary July 16 and run-off July 30, and Republican primary July 16, by county'
+      checked_in: 1969-1973 report (595 pp.), contents and p. 15; 1974-1975 report (464 pp.), contents and primary pages
+    online:
+    - {host: SC State Election Commission, url: 'https://scvotes.gov/wp-content/uploads/2022/08/Election_Report_1969-1973.pdf', years: 1969-1973, access: open, checked: '2026-10-06'}
+    - {host: SC State Election Commission, url: 'https://scvotes.gov/wp-content/uploads/2022/08/Election_Report_1974-1975.pdf', years: '1974', access: open, checked: '2026-10-06'}
+    - {host: SC State Election Commission, url: 'https://scvotes.gov/wp-content/uploads/2022/08/Election_Report_1976-1977.pdf', years: 1976-1977, access: open, checked: '2026-10-06'}
+    - {host: Internet Archive, url: 'https://archive.org/details/micro_IA40706909_0429', years: 1981 on (microfiche), access: open, checked: '2026-10-06', note: checked in the first survey}
+  labels_1968:
+    democratic: DEMOCRAT (heading 'DEMOCRAT / HUMPHREY-MUSKIE')
+    wallace: NOMINATED BY PETITION (heading 'NOMINATED BY PETITION / WALLACE-GRIFFIN')
+    source: Supplemental Report of the Secretary of State, Election November 5, 1968, pp. 16 and 18 (page images; Republican is p. 17 'REPUBLICAN / NIXON-AGNEW')
+    verified: true
+  best_for_specials: '1971 SC-1: Election Commission report 1969-73, p. 15 (totals). 1962 and 1965 SC-2: the Secretary of State''s supplemental reports for 1962 and 1966 (SC State Library; blocked here); the 1964 report for the 1964 SC-5 special held with the general (not found online).'
+  gaps: 'Secretary of State reports before 1968 (1956-66) not reachable: State Library DSpace answers 403; archive.org has only 19th-century Reports and Resolutions. SC Archives holds the series.'
+- st: SD
+  name: South Dakota
+  sources:
+  - title: Official Election Returns by Counties for the State of South Dakota, General Election, [date]
+    publisher: Secretary of State (1968 compiled by Alma Larson, Secretary of State)
+    kind: canvass
+    frequency: one pamphlet per election (general and primary), biennial
+    covers: the election in its title
+    contents:
+      general: President (electors by slate), U.S. Senate, U.S. House by district, by county
+      specials: none in the period (no SD specials in the list)
+      state_races: governor, lieutenant governor, attorney general, secretary of state, auditor, treasurer, school and public lands commissioner, public utilities commissioner, superintendent (nonpartisan), referred laws and amendments, all by county; State Senate and House by district (multi-county districts by county); district county court judges
+      primaries: 'official, Republican and Democratic, contested races only, by county: presidential delegate groups (1968: Nixon; Kennedy, Johnson, McCarthy groups), Congress, joint legislative districts, county court judges. No runoff seen in 1968'
+      checked_in: 1968 general (29 pp.) and 1968 primary (7 pp.) pamphlets, all pages' headings OCR'd; 1968 general p. [2] President
+    online:
+    - {host: SD Secretary of State, url: 'https://sdsos.gov/elections-voting/election-resources/election-history/official-election-returns.aspx', years: 1889-2024 (index), access: open, checked: '2026-10-06', note: lists every general and primary pamphlet; 1956-1974 all present}
+    - {host: SD Secretary of State, url: 'https://sdsos.gov/elections-voting/assets/historicalelectiondata/1968G.pdf', years: 1956-1974 (pattern), access: open, checked: '2026-10-06', pattern: 'https://sdsos.gov/elections-voting/assets/historicalelectiondata/YYYYG.pdf and YYYYP.pdf (tested 1956G, 1956P, 1964G, 1966P, 1968G, 1968P, 1970G, 1972G, 1974G). Exceptions: 1962 general is .../1962generalpdf.pdf, 1960 general .../1960general0001.pdf', note: 'image-only scans, no text layer'}
+    - {host: SD Secretary of State, url: 'https://sdsos.gov/elections-voting/assets/Archive/Prior%20to%202026/ElectionsReturnsPre1972.pdf', years: 1889-1970 summary, access: open, checked: '2026-10-06', note: 'statewide summary, a later compilation. The old URL .../assets/ElectionsReturnsPre1972.pdf is dead (404)'}
+    - {host: SD Secretary of State, url: 'https://sdsos.gov/elections-voting/assets/72SDGEN.pdf', years: '1972', access: dead, checked: '2026-10-06', note: 'Wikipedia''s URL; also dead: 72SDPRIM.pdf, 74SDGEN.pdf, 74SDPRIM.pdf. Use the pattern above'}
+    - {host: SD Secretary of State, url: 'https://sdsos.gov/elections-voting/election-resources/election-history/election-history-search.aspx', years: 1972-2014 (search), access: open, checked: '2026-10-06'}
+    - {host: SD State Library, url: 'https://libguides.library.sd.gov/services/govt', years: Legislative Manuals (claimed), access: other, checked: '2026-10-06', note: TLS certificate expired; not opened}
+    - {host: Google Books, url: 'https://books.google.com/books?id=kU1MAQAAMAAJ', years: 1968 returns, access: other, checked: '2026-10-06', note: snippet view only. Same for EddKAQAAIAAJ (1964) and 7a1KAQAAMAAJ (1961 Legislative Manual)}
+    notes: The SOS pamphlets themselves, scanned. The best State in this group for access. The odd-year South Dakota Legislative Manual also prints returns (not checked).
+  labels_1968:
+    democratic: Democratic (Humphrey & Muskie)
+    wallace: Independent (Wallace & Griffin)
+    republican: Republican (Nixon and Agnew)
+    source: Official Election Returns by Counties, General Election November 5, 1968, p. [2], 'Presidential Electors' (OCR of the scan)
+    verified: true
+  best_for_specials: no specials in the period
+  gaps: none for 1956-1974; the Legislative Manuals were not checked
+- st: TN
+  name: Tennessee
+  sources:
+  - title: '"Tennessee Blue Book" (1961: "Tennessee Blue Book and Official Directory"; editions dated 1956, 1958, 1961, 1962, 1964, 1965-1966, 1969-1970, 1971-1972 per Google Books catalog)'
+    publisher: Secretary of State (Joe C. Carr), Nashville
+    kind: blue book
+    frequency: irregular to biennial
+    covers: the 1961 edition prints the Aug. 4, 1960 primary and the Nov. 8, 1960 general
+    contents:
+      general: President (candidates by name, no party labels in the snippet), U.S. Senate, U.S. Congress, by county (1961 ed. pp. 199-211)
+      specials: 'no for TN-1, May 16, 1961: the 1961 edition, which already carries Louise Goff Reece as Representative, does not print the special (snippet search: her opponents William W. Faw and Leland A. Davis appear only as legislator or not at all; ''special election'' hits only biographies). TN-2 1964 and TN-8 1969 unverified (1964 and 1969-70 editions not viewable)'
+      state_races: '1960 general: State Senate and direct and floterial representatives by county (1961 ed. p. 205)'
+      primaries: Democratic primary (Aug. 4, 1960) by county including State Senate districts (1961 ed. pp. 190-199). No Republican primary found by snippet search
+      checked_in: '1961 edition, Google Books snippet search only (index p. PT2: ''Primary 190-199'', ''Election Returns, General 199-211'')'
+    online:
+    - {host: Google Books, url: 'https://books.google.com/books?id=a4xLAQAAMAAJ', years: '1961', access: other, checked: '2026-10-06', note: snippet view; searchable}
+    - {host: Google Books, url: 'https://books.google.com/books?id=m0R4twAACAAJ', years: 1969-1970, access: other, checked: '2026-10-06', note: 'no preview. Also no preview: JJ2PtwAACAAJ (1965-66), BEhWuAAACAAJ (1964), prlEuAAACAAJ (1962), IFsJuAAACAAJ (1958), 2VXgswEACAAJ (1971-72)'}
+    - {host: University of Memphis Digital Commons, url: 'https://digitalcommons.memphis.edu/govpubs-tn-blue-book', years: 2011-2026 only, access: open, checked: '2026-10-06'}
+    - {host: TSLA catalog, url: 'https://tnsla.ent.sirsi.net/client/en_US/tnslapublic/search/detailnonmodal/ent:$002f$002fSD_ILS$002f0$002fSD_ILS:64666/one', years: web-archived editions 2006-2017, access: open, checked: '2026-10-06', note: links only to archived recent editions}
+    - {host: Tennessee SOS, url: 'https://sos.tn.gov/elections/results', years: 1996-, access: open, checked: '2026-10-06', note: nothing before 1996}
+    - {host: HathiTrust, url: 'https://catalog.hathitrust.org/Record/102997800', years: unknown, access: bot-check, checked: '2026-10-06'}
+    - {host: Lafayette College catalog, url: 'https://libcat.lafayette.edu/Record/eres_on1108424008', years: 1965-1966 (e-resource record), access: other, checked: '2026-10-06', note: HTTP 202 with empty body}
+    notes: No 1956-1974 edition readable online. Paper at TSLA and large libraries.
+  labels_1968:
+    democratic: unverified
+    wallace: unverified
+    source: Tennessee Blue Book 1969-1970 (no preview)
+    verified: false
+  best_for_specials: none found online. TSLA (Secretary of State election returns, archival) for the 1961, 1964 and 1969 specials
+  gaps: All 1956-74 editions offline. Check the 1965-66 and 1969-70 Blue Books on paper for the 1964 and 1969 specials; TSLA for certified returns
+- st: TX
+  name: Texas
+  sources:
+  - title: '"House Journal" of each Legislature (joint-session canvass)'
+    publisher: Texas House of Representatives
+    kind: report
+    frequency: per regular session (odd years)
+    covers: the January session canvass of the November election for governor and lieutenant governor
+    contents:
+      general: none (President, Senate, House not canvassed there)
+      specials: 'no'
+      state_races: 'governor and lieutenant governor, statewide totals with party (58th Leg., Jan. 14, 1963, p. 49: Connally, Democratic Party 847,035; Jack Cox, Republican Party 714,995)'
+      primaries: 'no'
+      checked_in: 58th Legislature (1963), vol. 0, pp. 48-49 (text layer)
+    online:
+    - {host: Texas Legislative Reference Library, url: 'https://lrl.texas.gov/collections/journals/journals.cfm', years: all sessions, access: open, checked: '2026-10-06', pattern: 'https://lrl.texas.gov/scanned/Housejournals/NN/H_NN_0.pdf (NN = Legislature; tested 55, 57, 58, 61, 63; 140-280 MB each)'}
+  - title: '"State of Texas election returns (county-by-county), 1846-1984"; Secretary of State election registers and "election materials, 1909-1984"'
+    publisher: Secretary of State / State Board of Canvassers (archival, unpublished)
+    kind: canvass
+    frequency: per election
+    covers: every State-canvassed election, specials included (archival description)
+    contents:
+      general: county returns
+      specials: unverified (archival; not opened)
+      state_races: unverified
+      primaries: unverified
+      checked_in: not opened; TSLA research guide only
+    online:
+    - {host: TSLA, url: 'https://www.tsl.texas.gov/ref/historicalelections', years: guide, access: open, checked: '2026-10-06', note: copies by request or visit; registers on microfilm by ILL}
+  - title: '"Historical presidential election results" (Secretary of State web page)'
+    publisher: Secretary of State
+    kind: database
+    frequency: n/a
+    covers: President 1848-, statewide totals
+    contents:
+      general: President only, statewide
+      specials: 'no'
+      state_races: 'no'
+      primaries: 'no'
+      checked_in: page read 2026-10-06
+    online:
+    - {host: Texas SOS, url: 'https://www.sos.state.tx.us/elections/historical/presidential.shtml', years: 1848-, access: open, checked: '2026-10-06', note: same at www.sos.texas.gov}
+    - {host: Texas SOS, url: 'https://www.sos.state.tx.us/elections/historical/70-92.shtml', years: turnout 1970-, access: open, checked: '2026-10-06'}
+  - title: Texas Legislative Manual
+    publisher: Texas Legislature
+    kind: register
+    frequency: per Legislature
+    covers: unverified
+    contents:
+      general: unverified
+      specials: unverified
+      state_races: unverified
+      primaries: unverified
+      checked_in: not seen
+    online:
+    - {host: Google Books, url: 'https://books.google.com/books?id=SqgYzQEACAAJ', years: '1969', access: other, checked: '2026-10-06', note: no preview}
+  labels_1968:
+    democratic: Dem
+    wallace: Am. Ind.
+    source: SOS historical presidential page (a modern compilation, not a 1968 document)
+    verified: false
+  best_for_specials: none published found. TSLA archival county returns for the 1961 Senate special and the six House specials. (The Texas Almanac prints them but is a newspaper almanac; its Portal to Texas History search answered with an ALTCHA bot check.)
+  gaps: Texas published no canvass book in 1956-74. Primaries were party-run (county executive committees); State canvass of primaries archival only. archive.org's Statistical Reference Index fiche of Texas returns begins 1980
+- st: UT
+  name: Utah
+  sources:
+  - title: '"Abstract of the Returns of the General Election held in the County of ..., State of Utah, Tuesday, November 5, 1968" (the State abstract on the county form), with a retyped "1968 General Election Abstract" summary page'
+    publisher: Secretary of State / Board of State Canvassers; posted by the Lieutenant Governor
+    kind: canvass
+    frequency: per election
+    covers: the election in its title
+    contents:
+      general: President (each elector slate's two names), U.S. Senate, U.S. Congress by district, by county; registered and voting
+      specials: none in the period
+      state_races: governor, secretary of state, attorney general, auditor, treasurer by county; district attorneys; State Senate and House only for multi-county districts; State School Board districts
+      primaries: '1960, 1964, 1970, 1974 primary abstracts posted (1970: contested multi-county races by county, retyped sheet with party letters). 1962, 1966, 1968, 1972 primaries not posted (1968Pri.pdf dead)'
+      checked_in: 1968Gen.pdf (4 pp.) and 1970Pri.pdf p. 1, read from the images
+    online:
+    - {host: Utah Lt. Governor, url: 'https://vote.utah.gov/historical-election-results/', years: 1960-, access: open, checked: '2026-10-06', note: open with a full browser User-Agent; a bare 'Mozilla/5.0' UA got a Cloudflare 'you have been blocked' page}
+    - {host: Utah Lt. Governor, url: 'https://vote.utah.gov/wp-content/uploads/2023/09/1968Gen.pdf', years: 1960-1974, access: open, checked: '2026-10-06', pattern: 'https://vote.utah.gov/wp-content/uploads/2023/09/YYYYGen.pdf (tested 1960, 1962, 1966, 1968, 1970, 1974); YYYYPri.pdf for 1960, 1964, 1970, 1974'}
+    - {host: Google Books, url: 'https://books.google.com/books?id=QNM9zQEACAAJ', years: '1968', access: other, checked: '2026-10-06', note: no preview}
+    notes: Single-county legislative races are not in the State abstract (county abstracts). 1956-58 abstracts at the Utah State Archives.
+  labels_1968:
+    democratic: D (column code)
+    wallace: AI (column code); summary page 'A. I.'
+    source: 1968Gen.pdf, p. 2 (State abstract form) and p. 1 (summary)
+    verified: true
+  best_for_specials: no specials in the period
+  gaps: 1956 and 1958 abstracts; the 1962, 1966, 1968 and 1972 primaries (Utah State Archives)
+- st: VA
+  name: Virginia
+  sources:
+  - title: '"Statement of the Vote for ..." (State Board of Elections), one per election; 1968: "Statement of the Vote for President and Vice-President, 81 Million Dollar Bond Issue, Members of Congress and Supervisors of Certain Soil Conservation Districts, General Election Tuesday, November 5, 1968"; odd-year state elections: "Votes Cast for Governor, Lieutenant Governor and Attorney General ... General Election, November 7, 1961"; 1969 adds "and Members of the House of Delegates ... and Special Senatorial Elections"; primaries: "Statement of the Vote for Governor and Lieutenant Governor and Attorney General, Democratic Primary Election, Tuesday, July 11, 1961"'
+    publisher: 'State Board of Elections (Secretary: Levin Nock Davis; 1968 L. Stanley Hardaway)'
+    kind: statement of vote
+    frequency: one per election (annual, odd-year State elections)
+    covers: the election in its title
+    contents:
+      general: President by county and city ('Official Statement of the Whole Number of Votes Cast ... for Electors'), U.S. Senate, Congress by district and locality
+      specials: 'yes, with votes. Each special is in the Board''s record: the 1966 U.S. Senate special (Byrd Jr.) in the 1966 Statement; state legislative specials'
+      state_races: governor, lieutenant governor, attorney general by locality; House of Delegates by district (1969 Statement, 22 pp.)
+      primaries: official, Democratic primaries for statewide office by locality, including the 1969 runoff (July 15 and Aug. 19, 1969 in one Statement)
+      checked_in: 1968 Statement pp. [1]-[2] (cover, President); 1961 general and primary, 1966 Congress, 1969 general covers (OCR)
+    online:
+    - {host: Virginia Dept. of Elections historical database, url: 'https://historical.elections.virginia.gov/', years: '1789- (House), 1924- (President)', access: open, checked: '2026-10-06', pattern: 'contest https://historical.elections.virginia.gov/contest/NNNNN (old /elections/view/NNNNN/ redirects); source PDFs https://va2.elstats2.civera.com/eng/files/serve/NNNN (1029 = 1968 Statement; 1041 = 1961 governor; 1111 = 1961 Dem. primary; 1070 = 1966 Congress; 1096 = 1969 governor and House of Delegates; 1100 = 1969 primaries); search CSV https://va2.elstats.civera.com/api/download_search.csv?search=<JSON> (works; specialElectionsOnly filter lists 1956-74 specials)'}
+    - {host: Library of Virginia, url: 'https://www.lva.virginia.gov/public/guides/Published_Election_Results.pdf', years: guide, access: other, checked: '2026-10-06', note: 'redirects to https://lva-virginia.libguides.com/elections (open)'}
+    - {host: Google Books, url: 'https://books.google.com/books?id=B9vGSgAACAAJ', years: '1968', access: other, checked: '2026-10-06', note: 'no preview; likewise 0b5qGwAACAAJ (1956), qzANGwAACAAJ (1960), lGTXnQEACAAJ (1964), Bgz9GwAACAAJ (1958), G670GgAACAAJ (1962)'}
+  - title: '"Commonwealth of Virginia Official Election Results, 1972 ..." (annual from 1972)'
+    publisher: State Board of Elections
+    kind: statement of vote
+    frequency: annual
+    covers: the year's general, primaries and specials
+    contents:
+      general: President, U.S. Senate, Congress by locality; constitutional amendments
+      specials: 'yes, with votes (VA-6, Nov. 7, 1972, unexpired term ''as it was composed in 1970'': Butler (R), White (I), Anderson (D), by city and county). Also House of Delegates and State Senate specials of Feb. 1, Aug. 1, Nov. 7 and Dec. 12, 1972'
+      state_races: in odd-year volumes (not checked)
+      primaries: 'official; 1972: Congress, Republican and Democratic (June 13), contested only (''unopposed and no primary was held'' noted)'
+      checked_in: '1972 volume, archive.org OCR text: contents page and pp. for the specials'
+    online:
+    - {host: Internet Archive (Library of Virginia), url: 'https://archive.org/details/vaofficialelectionresults', years: 1972-1995, access: open, checked: '2026-10-06', pattern: 'https://archive.org/details/officialelectionYYYYvirg (1972, 1973, 1974 seen in search; 1972 opened)'}
+    - {host: Google Books, url: 'https://books.google.com/books?id=6D9mtwAACAAJ', years: '1972', access: other, checked: '2026-10-06', note: no preview}
+  labels_1968:
+    democratic: Democratic
+    wallace: American Independent
+    source: 'Statement of the Vote ... November 5, 1968, first table page (PDF p. 2): ''Humphrey (Democratic)'', ''Wallace (American Independent)''; read off the image'
+    verified: true
+  best_for_specials: Official Election Results 1972 (archive.org, officialelection1972virg) for VA-6; the historical database for all others
+  gaps: 1956-1971 Statements are online only as the database's source scans (one file per Statement); no archive.org copies before 1972
+- st: VT
+  name: Vermont
+  sources:
+  - title: '"Vermont Legislative Directory and State Manual" (1969 catalogued as "State of Vermont Legislative Directory")'
+    publisher: Secretary of State (Legislative Council in the 1969 catalog record), Montpelier
+    kind: blue book
+    frequency: biennial, odd years
+    covers: the odd-year edition prints the preceding September primary and November general
+    contents:
+      general: 'President (electors by party, every town: ''Table VI, Canvass of Votes for Presidential Electors, General Election—November 5, 1968''), U.S. Senate, U.S. House, by town'
+      specials: unverified for the Jan. 7, 1972 VT-0 special (1973-74 edition not viewable). The State's archive cites a modern SOS compilation for it, not the Directory
+      state_races: governor, lieutenant governor and other State officers by town (Tables VIII ff.)
+      primaries: official, Republican and Democratic, by town (Table IV) and summary (Table V, 'Primary Election—September 10, 1968, Summary of Votes for Federal and State Officers')
+      checked_in: '1969 Directory: pp. 216-217 seen as a scan in the Vermont Elections Database; Google Books snippets of the 1969 Directory (PA205, PA222, PA225, PA273)'
+    online:
+    - {host: Google Books, url: 'https://books.google.com/books?id=HS4omAo9tQ0C', years: '1969', access: other, checked: '2026-10-06', note: 'snippet view, searchable'}
+    - {host: Google Books, url: 'https://books.google.com/books?id=sfXvAAAAMAAJ', years: '1955', access: other, checked: '2026-10-06', note: snippet view (not full view as the first pass said)}
+    - {host: Google Books, url: 'https://books.google.com/books?id=aAhKswEACAAJ', years: 1973-1974, access: other, checked: '2026-10-06', note: no preview}
+    - {host: HathiTrust, url: 'https://catalog.hathitrust.org/Record/009426166', years: unknown, access: bot-check, checked: '2026-10-06'}
+    - {host: UPenn Online Books, url: 'https://onlinebooks.library.upenn.edu/webbin/cinfo/vtlegdir', years: copyright page only, access: open, checked: '2026-10-06', note: a copyright-information page; no volume list}
+  - title: '"Vermont Elections Database" (VSARA / Secretary of State; ElectionStats, now on Civera)'
+    publisher: Secretary of State
+    kind: database
+    frequency: continuous
+    covers: 1789-present, town level, with scans of the source page for each contest
+    contents:
+      general: President, Senate, House by town
+      specials: 'yes, with votes: VT-0 Jan. 7, 1972: Mallary (R) 39,903, O''Brien (D) 26,889, Lake (Liberty Union) 3,362, Doria (Vermont Independent) 1,353; total 71,507. Source shown is ''generalelection_usrep_1932on_1d.pdf'' p. 4-5, an SOS spreadsheet compilation (Excel, 2013), not a contemporary document'
+      state_races: governor, statewide officers, State Senate and Representatives
+      primaries: Republican and Democratic primaries
+      checked_in: contests 137995 (1968 President) and 83628 (1972 special); source files 2874 and 1297 downloaded
+    online:
+    - {host: Vermont Elections Database, url: 'https://electionarchive.vermont.gov/', years: 1789-, access: open, checked: '2026-10-06', pattern: 'contest pages https://electionarchive.vermont.gov/contest/NNNNN (old /elections/view/NNNNN redirects); source PDFs https://vt2.elstats2.civera.com/eng/files/serve/NNNN; CSV https://vt2.elstats.civera.com/api/download_contest/NNNNN_table.csv?split_party=false (returned 307 to curl)', note: old get_source_documentation/NNNNN URLs are dead (404). Search page is client-rendered}
+    - {host: Vermont Elections Database, url: 'https://vt2.elstats2.civera.com/eng/files/serve/2874', years: Presidential electors 1916-1972, access: open, checked: '2026-10-06', note: '''VT-Presidential_Electors_1916-1972--opt2.pdf'', 134 pp. of scanned Directory pages; p. 119 = 1968 (Directory pp. 216-217)'}
+    - {host: Vermont Elections Database, url: 'https://vt2.elstats2.civera.com/eng/files/serve/1297', years: U.S. Representative 1932-, access: open, checked: '2026-10-06', note: SOS compilation with the 1972 special (p. 4)}
+  labels_1968:
+    democratic: Democratic Party
+    wallace: George Wallace Party
+    others: Republican Party; Socialist Workers Party; The New Party (McCarthy)
+    source: Vermont Legislative Directory 1969, p. 217, Table VI (scan in electors file 2874, p. 119; confirmed by Google Books snippet of the 1969 Directory, PA222/PA225/PA273)
+    verified: true
+  best_for_specials: Vermont Elections Database contest 83628 (votes; from an SOS compilation). Check the 1973 Directory on paper
+  gaps: 1956-1975 Directories not readable online (snippet only); the database's scans cover many contests
+- st: WA
+  name: Washington
+  sources:
+  - title: '"Abstract of Votes" (1956, 1960 "Official Abstract of Votes, State General Election"; 1964, 1968 "Abstract of Votes, Presidential and State General Election Held on ..."; primaries "Official Abstract of Votes, State Primary ..." / "... Primary Election Held on September 17, 1968")'
+    publisher: Secretary of State, Olympia
+    kind: canvass
+    frequency: per election (primary and general)
+    covers: the election in its title
+    contents:
+      general: unverified (not opened)
+      specials: none in the period
+      state_races: 'unverified (Wikipedia cites governor pages: 1964 p. 4, 1968 p. 13)'
+      primaries: official abstracts exist (Wikipedia cites 1964 and 1968 primary abstracts, governor p. 7 and p. 3); not opened
+      checked_in: not opened
+    online:
+    - {host: HathiTrust, url: 'https://babel.hathitrust.org/cgi/pt?id=ien.35556023457161&view=1up&seq=12', years: '1968', access: bot-check, checked: '2026-10-06', note: 'also bot-check: uc1.c109446414 (1956), uc1.c047129914 (1960 and 1964), ien.35556023457187 (1972)'}
+    - {host: UPenn Online Books, url: 'https://onlinebooks.library.upenn.edu/webbin/who/Washington%20%28State%29%2e%20Office%20of%20the%20Secretary%20of%20State', years: HathiTrust list, access: open, checked: '2026-10-06'}
+  - title: Washington State Election Results Archive
+    publisher: Secretary of State
+    kind: database
+    frequency: continuous
+    covers: offices and measures filed with the SOS, primaries and generals, 1900s-
+    contents:
+      general: President, U.S. Senate, U.S. House, statewide totals only (no counties)
+      specials: none in the period
+      state_races: statewide offices, State Representative and Senator by district, Supreme Court, measures; statewide totals
+      primaries: yes, every primary 1950- (statewide totals per candidate)
+      checked_in: 'downloaded xlsx; 1968 General: 100 contests read'
+    online:
+    - {host: Washington SOS, url: 'https://www.sos.wa.gov/elections/data-research/election-data-and-maps/election-results-and-voters-pamphlets/washington-state-election-results-archive', years: to 2006, access: open, checked: '2026-10-06', note: 'https://www.sos.wa.gov/node/30367 redirects here. Download: https://www.sos.wa.gov/sites/default/files/2026-04/Washington%20State%20Elections%20Results%20Archive.xlsx (open; path carries an upload date and will move). ''For copies of historical abstracts'' the page gives an e-mail contact'}
+  labels_1968:
+    democratic: Democratic
+    wallace: American
+    source: SOS Election Results Archive spreadsheet, 1968 General (a database, not the abstract); the abstract's own labels unverified
+    verified: false
+  best_for_specials: no specials in the period
+  gaps: Abstracts readable only on HathiTrust (bot check from here) or by request to the SOS; county-level returns not online otherwise
+- st: WI
+  name: Wisconsin
+  sources:
+  - title: '"The Wisconsin Blue Book" (even years 1956-1968), "The Wisconsin Book" (1967 and 1969, a smaller odd-year book), "The State of Wisconsin Blue Book" (1970, then 1971, 1973, 1975)'
+    publisher: Legislative Reference Library (to 1962), Legislative Reference Bureau (1964 on)
+    kind: blue book
+    frequency: biennial (even years to 1970; odd years from 1971), with the 1967 and 1969 Wisconsin Book
+    covers: 'the next edition prints the last election and the special elections since: 1970 Blue Book = Sept. and Nov. 1968 and the 1969 special primaries and elections; 1971 Blue Book = Nov. 1970 and the 1971 specials (pp. 306-308); 1969 Wisconsin Book = Nov. 1968 (p. 167)'
+    contents:
+      general: President by county and (1969 Book) by precinct; U.S. Senate by county; Congress by district and county
+      specials: 'yes, with votes: WI-7 special, April 1, 1969, Obey (Dem.) and Chilsen (Rep.) by county, 1970 Blue Book p. 814 (Google Books full view, snippet read)'
+      state_races: governor and State officers by county; State Senate and Assembly by district, multi-county districts by county; April nonpartisan (supreme court, circuit judges, superintendent)
+      primaries: official, September partisan primary by county and district for every party; presidential preference primary by county and district (1969 Book pp. 158-166, 204-244)
+      checked_in: 1969 Wisconsin Book, contents and p. 167 (PDF text); 1970 Blue Book contents (PR10) and p. 814; 1971 Blue Book contents (PR7)
+    online:
+    - {host: UW Digital Collections, url: 'https://search.library.wisc.edu/digital/AZ2BBQ7OUYLAX78W', years: 1853- (journal record listing every edition), access: open, checked: '2026-10-06', note: 'edition records: 1956 ATT2C657GYH2FO85, 1958 A2BH4FP76N6HMK8V, 1960 ALRZ6UQ3SNASLD9C, 1962 A5BZZBS2FDP3LV8O, 1964 AXF6R5VAIXPXFS8Y, 1966 ANICGVB65P4ZNO8M, 1967 Book AG6RFYCTIXQ6SK85, 1968 AW5GGNB5NK26Z38S, 1969 Book AGMDNMSNXDGTAN8A, 1970 A63MVAJVDHMHFW9E, 1971 A4QZIH6JIJYFLR8R, 1973 AZKQZSCWLXXUFN8R, 1975 AK4UW47RO2T4A38E; URL https://search.library.wisc.edu/digital/<id>. Record and section pages open, but PDF and full-text links are withheld behind a bot verification (''reduced features''). https://search.library.wisc.edu/digital/AWIBlueBks and https://digital.library.wisc.edu/1711.dl/WIBlueBks open (collection page)'}
+    - {host: UW Digital Collections, url: 'https://asset.library.wisc.edu/1711.dl/GMDNMSNXDGTAN8A/E/file-73e4e.pdf', years: 1969 Wisconsin Book, access: open, checked: '2026-10-06', note: 'direct PDF (96 MB, text layer). Other editions'' PDF names carry a hash; no pattern'}
+    - {host: Google Books, url: 'https://books.google.com/books?id=BB9WAAAAMAAJ', years: '1970', access: open, checked: '2026-10-06', note: full view; second copy _ccqAAAAMAAJ (full view)}
+    - {host: Google Books, url: 'https://books.google.com/books?id=0g1WAAAAMAAJ', years: '1971', access: open, checked: '2026-10-06', note: full view}
+    - {host: Wisconsin LRB, url: 'https://docs.legis.wisconsin.gov/misc/lrb/blue_book', years: recent editions, access: open, checked: '2026-10-06'}
+    notes: 'The first pass''s 1967/1969 doubt is settled: the 1967 and 1969 editions are ''The Wisconsin Book'', and they carry the returns.'
+  labels_1968:
+    democratic: Dem.
+    wallace: Ind.
+    others: Rep.; Blomen and Halstead also Ind.
+    source: The Wisconsin Book 1969, p. 167, 'Vote for President and Vice President by County' (column heads 'Humphrey and Muskie (Dem.)', 'Wallace and Griffin (Ind.)'), PDF text layer
+    verified: true
+  best_for_specials: 'the Blue Book after the special: 1970 Blue Book p. 814 for WI-7 1969 (Google Books full view BB9WAAAAMAAJ)'
+  gaps: none for 1956-1974; UWDC downloads need the browser verification or Google Books copies
+- st: WV
+  name: West Virginia
+  sources:
+  - title: West Virginia Blue Book
+    publisher: Clerk of the Senate (Legislature), Charleston
+    kind: blue book
+    frequency: annual
+    covers: the year N+1 edition prints the November N general; the election-year edition prints that May's primary
+    contents:
+      general: President (each party's electors, by county), Congress by district, by county
+      specials: none in the period
+      state_races: governor, secretary of state, auditor, treasurer, attorney general, commissioner of agriculture, supreme court by county; State Senate and House of Delegates by district (1969 ed. pp. 554-599)
+      primaries: 'official, Democratic and Republican, by county: President, national convention delegates at large and by district, governor, Congress, legislature (1968 ed. pp. 811-877, ''Primary Election Returns, 1968''); no runoff'
+      checked_in: 1969 edition pp. 571-573 and section 8 (text layer); 1968 edition contents and pp. 811-877
+    online:
+    - {host: WV Legislature, url: 'https://www.wvlegislature.gov/Educational/publications.cfm', years: 1916-present (list), access: open, checked: '2026-10-06', note: the list page; the first pass's .../Educational/Publications/pub.cfm opens but lists only recent editions}
+    - {host: WV Legislature, url: 'https://www.wvlegislature.gov/legisdocs/publications/bluebook/WVS_Bluebook_1969.pdf', years: '1950-1973, 1975-', access: open, checked: '2026-10-06', pattern: 'https://www.wvlegislature.gov/legisdocs/publications/bluebook/WVS_Bluebook_YYYY.pdf (HEAD 200 for every year 1956-1973 and 1975-1976; 1974 is 404 and not on the list). 90-190 MB each, with a text layer'}
+  - title: '"Official Returns of the General Election" / "Official Returns of the Primary Election" (Secretary of State)'
+    publisher: Secretary of State
+    kind: canvass
+    frequency: per election
+    covers: the election in its title
+    contents:
+      general: unverified
+      specials: none in the period
+      state_races: unverified
+      primaries: unverified
+      checked_in: not opened
+    online:
+    - {host: WV Secretary of State, url: 'https://sos.wv.gov/elections/Documents/HistElecDocs/1960/1960%20General%20Election%20-%20Official%20Election%20Returns.pdf', years: '1960, 1966, 1968, 1972 tested', access: dead, checked: '2026-10-06', note: 'all HistElecDocs URLs 404. The SOS page https://sos.wv.gov/elections/election-data/historical-election-results-and-turnout now says ''Election data prior to 2008 may be found in West Virginia Blue Books''. Wayback not checked (429)'}
+  labels_1968:
+    democratic: Democratic Electors
+    wallace: American Electors
+    republican: Republican Electors
+    source: West Virginia Blue Book 1969, pp. 571, 572, 573 ('Vote for President of the United States'), text layer
+    verified: true
+  best_for_specials: no specials in the period
+  gaps: 1974 Blue Book missing from the Legislature's run (the 1974 primary; the 1975 edition has the 1974 general). SOS official returns no longer online
+- st: WY
+  name: Wyoming
+  sources:
+  - title: '[Year] Wyoming Official Directory and [Year-1] Election Returns'
+    publisher: Secretary of State, Cheyenne
+    kind: blue book
+    frequency: biennial, odd years
+    covers: the odd-year edition prints the preceding even-year primary and general (per the title; not opened)
+    contents:
+      general: unverified
+      specials: none in the period
+      state_races: unverified
+      primaries: unverified
+      checked_in: not opened
+    online:
+    - {host: HathiTrust, url: 'https://babel.hathitrust.org/cgi/pt?id=uiug.30112086376016&view=1up&seq=83', years: 1969 ed., access: bot-check, checked: '2026-10-06', note: 'also bot-check: catalog Record/008686235; the other first-pass babel links (uc1.b4049508 1957, uc1.b4049510 1961, mdp.39015055034295 1965, mdp.39015051423823 1973) not retried'}
+    - {host: Google Books, url: 'https://books.google.com/books?id=30XoMgEACAAJ', years: '1959 [etc.]', access: other, checked: '2026-10-06', note: 'catalog record, no preview (found in the Books feed)'}
+    - {host: Wyoming State Archives, url: 'https://wyocomet.wyo.gov/repositories/2/archival_objects/130606', years: Official Directories 1903-2015, access: open, checked: '2026-10-06', note: finding aid}
+    - {host: Internet Archive, url: 'https://archive.org/details/micro_IA40706910_0111', years: 1981-1989 eds., access: open, checked: '2026-10-06', note: Statistical Reference Index microfiche; outside 1956-74}
+  - title: '"Historical information" (SOS statewide compilations: PresidentialVote.pdf, GubernatorailVoteToals.pdf, CongressionalRoster.pdf)'
+    publisher: Secretary of State
+    kind: report
+    frequency: n/a
+    covers: statewide totals, modern compilation
+    contents:
+      general: 'President statewide by year (1968: Nixon 70,927, Humphrey 45,173, Wallace 11,105; no party for Wallace)'
+      specials: 'no'
+      state_races: governor statewide totals
+      primaries: 'no'
+      checked_in: PresidentialVote.pdf read
+    online:
+    - {host: Wyoming SOS, url: 'https://sos.wyo.gov/Services/HistoricalInfo.aspx', years: 1890-, access: open, checked: '2026-10-06', note: 'files at https://sos.wyo.gov/Services/docs/<name>.pdf'}
+  labels_1968:
+    democratic: unverified
+    wallace: unverified
+    source: 1969 Official Directory p. 81 (HathiTrust, bot-check)
+    verified: false
+  best_for_specials: no specials in the period
+  gaps: The Directories are online only at HathiTrust (bot check from here); paper at the State Archives and State Library
