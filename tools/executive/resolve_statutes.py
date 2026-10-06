@@ -58,7 +58,7 @@ def cites():
         for t, is_cite in texts:
             for m in STAT.finditer(t):
                 out.append((int(m.group(2)), int(m.group(3)), int(m.group(4)) if m.group(4) else None,
-                            m.group(1) if is_cite else None, os.path.basename(f)))
+                            m.group(1), os.path.basename(f)))
     return out
 
 
@@ -95,14 +95,18 @@ def main():
             continue
         info = {g: granule(vol, g, cache) for g in cands}
         pick = cands[0]
+        def same(num, g):
+            # govinfo's records sometimes truncate a chapter number ('18' for 181)
+            ch = info[g]['ch'] or ''
+            return num == info[g]['pl'] or num == ch or (len(ch) >= 2 and num.startswith(ch) and len(num) == len(ch) + 1)
         if marker and len(cands) > 1:
             num = marker.split()[-1]
-            hit = [g for g in cands if num in (info[g]['ch'], info[g]['pl'])]
+            hit = [g for g in cands if same(num, g)]
             if hit:
                 pick = hit[0]
             else:
                 problems.append(f'{where}: {marker}, {vol} Stat. {start}: no act of that number begins there')
-        elif marker and info[pick]['ch'] != marker.split()[-1] and info[pick]['pl'] != marker.split()[-1]:
+        elif marker and not same(marker.split()[-1], pick):
             problems.append(f'{where}: {marker}, {vol} Stat. {start}: the act there is ch. {info[pick]["ch"]}, '
                             f'Pub. L. {info[pick]["pl"]}')
         url = PDF.format(v=vol, g=pick)

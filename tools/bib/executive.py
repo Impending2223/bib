@@ -325,13 +325,13 @@ STAT_PIN_RE = re.compile(r"(?:(ch\. \d+|Pub\. L\. \d+-\d+)[^;]*?)?\b(\d+) Stat\.
 
 
 def stat_links(html, cite=False):
-    """Every 'NN Stat. PPP[, pin]' in a piece of HTML outside links, linked to govinfo; in a cite, the chapter or
-    public law before it picks the act."""
+    """Every 'NN Stat. PPP[, pin]' in a piece of HTML outside links, linked to govinfo; the chapter or public law
+    before it, where given, picks the act."""
     if "<a " in html:
         return html
 
     def one(m):
-        url = stat_url(m.group(2), m.group(3), m.group(4), m.group(1) if cite else None)
+        url = stat_url(m.group(2), m.group(3), m.group(4), m.group(1))
         lead = m.group(0)[:m.start(2) - m.start(0)]
         return f'{lead}<a href="{url}">{m.group(0)[len(lead):]}</a>'
     return STAT_PIN_RE.sub(one, html)
