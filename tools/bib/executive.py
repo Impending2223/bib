@@ -105,7 +105,10 @@ OFFICE_KEYS = {"id", "title", "titles", "rank", "appt", "under", "group", "level
                "law", "n", "holders"}
 HOLDER_KEYS = {"name", "given", "rank", "title", "acting", "nominated", "confirmed", "recess", "appointed", "from", "to",
                "out", "n", "src"}
-LAW_KEYS = {"act", "date", "cite", "usc", "does", "url"}
+LAW_KEYS = {"act", "date", "effective", "until", "tags", "cite", "usc", "does", "url"}
+# What an authority does for its unit or office (the label shown before it).
+TAGS = {"creates": "Creates", "powers": "Powers", "appointment": "Appointment", "vacancy": "Vacancy",
+        "pay": "Pay", "reorganizes": "Reorganizes"}
 DATE_RE = re.compile(r"^\d{4}(-\d{2}(-\d{2})?)?$")
 MONTHS = ["Jan.", "Feb.", "Mar.", "Apr.", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."]
 STAT_RE = re.compile(r"\b(\d+) Stat\. (\d+)")
@@ -232,26 +235,112 @@ def offices_in_order(u):
 
 # ---------------------------------------------------------------- authorities
 
+USC_RE = re.compile(r"(\d+) U\.S\.C\. (§§?) ?([0-9][\w\-–]*)(.*?)\((\d{4})(?: Supp\. ([IVX]+))?\)")
+ROMAN = {"I": 1, "II": 2, "III": 3, "IV": 4, "V": 5, "VI": 6}
+_USC = None
+
+
+def usc_index():
+    """sources/uscode-loc.json (tools/executive/make_uscode_index.py): the Library of Congress's chapter scans."""
+    global _USC
+    if _USC is None:
+        import json
+        p = os.path.join(store.ROOT, "sources", "uscode-loc.json")
+        _USC = json.load(open(p, encoding="utf-8")) if os.path.exists(p) else {}
+    return _USC
+
+
+def sec_key(x):
+    m = re.match(r"(\d+)([a-z]*)(?:[\-–](\d+))?", str(x))
+    return (int(m.group(1)), m.group(2), int(m.group(3) or 0)) if m else (0, "", 0)
+
+
+def usc_url(title, sec, ed, supp=0):
+    """The Library's scan of the chapter of that edition holding the section, or None."""
+    k = sec_key(sec)
+    for it in usc_index().get(ed, []):
+        if it["title"] == int(title) and it["supp"] == supp and sec_key(it["from"]) <= k <= sec_key(it["to"]):
+            return it["url"]
+    return None
+
+
+def usc_html(cite):
+    """'50 U.S.C. § 402 (1958)', linked to the 1958 edition's chapter."""
+    m = USC_RE.search(cite)
+    if not m:
+        return esc(cite)
+    sec = re.split(r"[(\s]", m.group(3))[0].rstrip("–-")
+    url = usc_url(m.group(1), sec, m.group(5), ROMAN.get(m.group(6) or "", 0))
+    return f'<a href="{esc(url)}">{esc(cite)}</a>' if url else esc(cite)
+
+
+_STAT = None
+
+
+def stat_url(vol, page, pin=None, marker=None):
+    """The govinfo file for 'vol Stat. page, pin': from sources/statute-links.json (made by
+    tools/executive/resolve_statutes.py, which matches the act by its chapter or public law and finds the pin
+    page), else the file named by the page the act begins on."""
+    global _STAT
+    if _STAT is None:
+        import json
+        p = os.path.join(store.ROOT, "sources", "statute-links.json")
+        _STAT = json.load(open(p, encoding="utf-8")) if os.path.exists(p) else {}
+    k = f"{vol}|{page}|{pin or ''}|{marker or ''}"
+    if k in _STAT:
+        return _STAT[k]
+    return f"https://www.govinfo.gov/content/pkg/STATUTE-{vol}/pdf/STATUTE-{vol}-Pg{page}.pdf"
+
+
+STAT_PIN_RE = re.compile(r"(?:(ch\. \d+|Pub\. L\. \d+-\d+)[^;]*?)?\b(\d+) Stat\. (\d+)(?:, (\d+)(?![\d.]))?")
+
+
+def stat_links(html, cite=False):
+    """Every 'NN Stat. PPP[, pin]' in a piece of HTML outside links, linked to govinfo; in a cite, the chapter or
+    public law before it picks the act."""
+    if "<a " in html:
+        return html
+
+    def one(m):
+        url = stat_url(m.group(2), m.group(3), m.group(4), m.group(1) if cite else None)
+        lead = m.group(0)[:m.start(2) - m.start(0)]
+        return f'{lead}<a href="{url}">{m.group(0)[len(lead):]}</a>'
+    return STAT_PIN_RE.sub(one, html)
+
+
 def law_html(a):
-    """'National Security Act of 1947, ch. 343, § 101, 61 Stat. 495, 496; 50 U.S.C. § 402 (1958).'"""
-    cite = a.get("cite") or ""
-    url = a.get("url")
-    m = STAT_RE.search(cite)
-    if not url and m:
-        url = f"https://www.govinfo.gov/content/pkg/STATUTE-{m.group(1)}/pdf/STATUTE-{m.group(1)}-Pg{m.group(2)}.pdf"
+    """[Creates · Appointment] National Security Act of 1947 (July 26, 1947), ch. 343, § 101, 61 Stat. 495, 496;
+    50 U.S.C. § 402 (1958). What it does."""
+    tags = " · ".join(TAGS[t] for t in store.as_list(a.get("tags")) if t in TAGS)
     act = esc(a.get("act") or "")
-    head = act + (f", {esc(cite)}" if cite else "")
-    if url:
-        head = f'<a href="{esc(url)}">{head}</a>'
-    t = head + (f"; {esc(a['usc'])}" if a.get("usc") else "") + "."
+    if a.get("url"):
+        act = f'<a href="{esc(a["url"])}">{act}</a>'
+    when = []
+    d = a.get("date")
+    if d and str(d)[:4] not in (a.get("act") or ""):
+        when.append(("ratified " if (a.get("act") or "").startswith("Constitution, Amend") else "") + fmt(d))
+    if a.get("effective"):
+        when.append(f"in force {fmt(a['effective'])}")
+    if a.get("until"):
+        when.append(f"until {fmt(a['until'])}")
+    t = (f'<span class="exg">{tags}</span> ' if tags else "") + act
+    if when:
+        t += f' <span class="exw">({"; ".join(when)})</span>'
+    if a.get("cite"):
+        t += ", " + stat_links(esc(a["cite"]), cite=True)
+    usc = store.as_list(a.get("usc"))
+    if usc:
+        t += "; " + "; ".join(usc_html(x) for x in usc)
+    t += "."
     if a.get("does"):
-        t += " " + to_html(a["does"])
+        t += " " + stat_links(to_html(a["does"]))
     return t
 
 
-def in_force(a, b):
-    """Shown with a term: an authority dated before the term's end."""
-    return not a.get("date") or lo(a["date"]) < lo(b)
+def in_force(a, x, y):
+    """In force at some time in [x, y): taken effect before y, not repealed by x."""
+    start = a.get("effective") or a.get("date")
+    return (not start or lo(start) < lo(y)) and (not a.get("until") or lo(a["until"]) > lo(x))
 
 
 # ---------------------------------------------------------------- holders
@@ -324,12 +413,35 @@ def term_index(day):
     return None
 
 
+SECTIONS = [(0, None), (30, "The executive departments"), (500, "Independent establishments and agencies")]
+
+
+def section_of(u, units):
+    """The top-level unit's place: the President and his Office; the departments; the independent agencies."""
+    while u.get("under") and u["under"] != "president" and u["under"] in units:
+        u = units[u["under"]]
+    if u["unit"] == "president":
+        return None
+    return [lab for o, lab in SECTIONS if u.get("order", 999) >= o][-1]
+
+
+def path_of(u, units):
+    """'Department of Defense › ' for the Department of the Army: the units above, below the President."""
+    out = []
+    while u.get("under") and u["under"] not in ("president", None) and u["under"] in units:
+        u = units[u["under"]]
+        out.append(u)
+    return out[::-1]
+
+
 def block(i, units, ptr, href, rid, here=False):
-    """The roster for one term: each unit a collapsible table of its offices and their holders."""
+    """The roster for one term: each unit a collapsible table of its offices, their holders, and under each office
+    the law that governs it."""
     a, b = term_span(i)
     day, pres, label = TERMS[i]
     rows_total, held = 0, 0
     parts = []
+    section = None
     for depth, u in tree(units):
         if not exists(u, a, b):
             continue
@@ -343,8 +455,7 @@ def block(i, units, ptr, href, rid, here=False):
             if o.get("group") != group and o.get("group"):
                 group = o["group"]
                 rows.append(f'<tr class="st"><th colspan="3">{esc(group)}</th></tr>')
-            title = esc(title_at(o, a))
-            meta = []
+            meta = [esc(RANK[o["rank"]])] if o.get("rank") in RANK else []
             if o.get("appt"):
                 meta.append(f'<abbr title="{esc(APPT.get(o["appt"], o["appt"]))}">{esc(o["appt"])}</abbr>')
             if o.get("level"):
@@ -353,82 +464,83 @@ def block(i, units, ptr, href, rid, here=False):
                 meta.append(f"from {fmt(o['from'])}")
             if o.get("until") and hi(o["until"]) < lo(b):
                 meta.append(f"until {fmt(o['until'])}")
-            laws = "".join(f'<span class="exl">{law_html(x)}</span>' for x in o.get("law") or [] if in_force(x, b))
+            if od and o.get("under"):
+                sup = next((x for x in u.get("offices") or [] if x["id"] == o["under"]), None)
+                if sup and sup is not (u.get("offices") or [None])[0]:
+                    meta.append(f"under the {esc(title_at(sup, a))}")
+            laws = [law_html(x) for x in o.get("law") or [] if in_force(x, a, b)]
             onote = f'<span class="cgn">{to_html(o["n"])}</span>' if o.get("n") else ""
-            cells = []
-            pts_all = []
+            cells, pts_all = [], []
             at_start = [h for h in hs if lo(h["from"]) <= lo(a)]
             if hs and not at_start and lo(o.get("from") or START) <= lo(a):
                 cells.append('<span class="exh"><i>Vacant</i> on the first day of the term.</span>')
             if not hs:
-                cells.append('<span class="exh"><i>No holder recorded</i>.</span>' if not o.get("many") else
-                             '<span class="exh"><i>None recorded</i>.</span>')
+                cells.append('<span class="exh"><i>No holder recorded.</i></span>')
             for h in hs:
                 who, line, pts = holder_html(h, a, b, ptr, href, o)
                 cells.append(f'<span class="exh{" exa" if h.get("acting") else ""}"><b>{who}</b> {line}</span>')
-                for p in pts:
-                    if p not in pts_all:
-                        pts_all.append(p)
+                pts_all += [p for p in pts if p not in pts_all]
             rows_total += 1
             held += bool(hs)
-            rk = f' <span class="exk">{esc(RANK.get(o.get("rank"), ""))}</span>' if o.get("rank") else ""
-            rows.append(f'<tr id="{rid(i, u["unit"], o["id"])}" class="d{min(od, 3)}"><td><span class="ext">{title}</span>{rk}'
-                        f'<span class="exm">{" · ".join(meta)}</span>{laws}{onote}</td>'
+            rows.append(f'<tr id="{rid(i, u["unit"], o["id"])}" class="exo{" exhl" if laws else ""}"><td>'
+                        f'<span class="ext">{esc(title_at(o, a))}</span><span class="exm">{" · ".join(meta)}</span>{onote}</td>'
                         f'<td>{"".join(cells)}</td><td>{"; ".join(pts_all)}</td></tr>')
-        if not rows and not u.get("law"):
+            if laws:
+                rows.append('<tr class="exlr"><td colspan="3"><ul class="exlaw">'
+                            + "".join(f"<li>{x}</li>" for x in laws) + "</ul></td></tr>")
+        ulaw = [law_html(x) for x in u.get("law") or [] if in_force(x, a, b)]
+        if not rows and not ulaw:
             continue
-        ulaw = "".join(f'<li>{law_html(x)}</li>' for x in u.get("law") or [] if in_force(x, b))
-        unote = f'<p class="exun">{to_html(u["n"])}</p>' if u.get("n") else ""
+        sec = section_of(u, units)
+        if sec != section and sec:
+            parts.append(f'<p class="exsec">{esc(sec)}</p>')
+        section = sec
+        unote = f'<p class="cgn exun">{to_html(u["n"])}</p>' if u.get("n") else ""
         heads = [h["name"].split(",")[0] for o in (u.get("offices") or [])[:1] for h in o.get("holders") or []
                  if in_term(h, a, b) and not h.get("acting")]
-        who = f' <span class="exs">{esc(", ".join(dict.fromkeys(heads)))}</span>' if heads and u["unit"] != "president" else ""
-        parts.append(f'<details class="exu" style="margin-left:{min(depth, 3) * .9:.1f}rem" id="{rid(i, u["unit"], "")}">'
-                     f'<summary>{esc(name_at(u, a))}{who}</summary>'
-                     + (f'<ul class="exlaw">{ulaw}</ul>' if ulaw else "") + unote
-                     + ('<table><colgroup><col class="c1"><col class="c2"><col class="c3"></colgroup>'
-                        '<thead><tr><th>Office and authority</th><th>Holders during the term</th><th>In the series</th></tr></thead>'
+        who = f' <span class="cgsm">{esc(", ".join(dict.fromkeys(heads)))}</span>' if heads and u["unit"] != "president" else ""
+        path = "".join(f'<span class="cgsm">{esc(name_at(p, a))} › </span>' for p in path_of(u, units))
+        parts.append(f'<details class="cgr exu" id="{rid(i, u["unit"], "")}">'
+                     f'<summary>{path}{esc(name_at(u, a))}{who}</summary>'
+                     + ('<ul class="exlaw exul">' + "".join(f"<li>{x}</li>" for x in ulaw) + "</ul>" if ulaw else "") + unote
+                     + ('<table><colgroup><col class="x1"><col class="x2"><col class="x3"></colgroup>'
+                        '<thead><tr><th>Office</th><th>Holders during the term</th><th>In the series</th></tr></thead>'
                         f'<tbody>{"".join(rows)}</tbody></table>' if rows else "") + '</details>')
-    out = [f'<div class="ex" data-term="{a}">',
+    out = [f'<div class="cg ex" data-term="{a}">',
            f'<p class="cgh">The Executive Branch, {esc(label)}: {esc(fmt(a))} to {esc(fmt(term_end(b)))}</p>',
-           f'<p class="exsum">{rows_total} offices; {held} with a holder recorded. Each office with its authority in law '
-           'and every holder during the term: dates of nomination, confirmation, commission, and taking office; of '
-           'leaving; acting officers. Open a unit for its offices.</p>',
-           '<p class="exsum"><button type="button" class="exall" onclick="this.closest(\'.ex\').querySelectorAll(\'details\').forEach(d=>d.open=true)">Expand all</button> '
-           '<button type="button" class="exall" onclick="this.closest(\'.ex\').querySelectorAll(\'details\').forEach(d=>d.open=false)">Collapse all</button></p>']
+           f'<p class="cgs">{rows_total} offices; {held} with a holder recorded. Each office with every holder during the '
+           'term (dates of nomination, confirmation, commission, and taking office; of leaving; acting officers), and under '
+           'it the law in force during the term that creates it, sets its powers, governs appointment and vacancy, and fixes '
+           'its pay. Open a unit for its offices.</p>',
+           '<p class="cgs"><button type="button" class="cgb" onclick="this.closest(\'.ex\').querySelectorAll(\'details\').forEach(d=>d.open=true)">Expand all</button> '
+           '<button type="button" class="cgb" onclick="this.closest(\'.ex\').querySelectorAll(\'details\').forEach(d=>d.open=false)">Collapse all</button></p>']
     out += parts
     out.append("</div>")
     return "\n".join(out)
 
 
 CSS = """<style>
-/* The Executive Branch roster: one block a term (tools/bib/executive.py) */
-.ex{margin:1rem 0 .5rem;font-family:var(--sans)}
-.ex .cgh{font-weight:700;font-size:.95rem;margin:.2rem 0 .4rem}
-.ex .exsum{font-size:.82rem;line-height:1.4;color:var(--muted);margin:.15rem 0 .5rem}
-.ex button.exall{font:600 .72rem/1 var(--sans);padding:.3rem .5rem;border:1px solid var(--rule);border-radius:5px;background:var(--panel);color:var(--muted);cursor:pointer}
-details.exu{margin:.2rem 0;font-size:.85rem}
-details.exu>summary{cursor:pointer;font-weight:600;padding:.3rem 0}
-details.exu>summary .exs{font-weight:400;color:var(--muted)}
-details.exu table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:.82rem;margin:.2rem 0 .8rem}
-details.exu col.c1{width:36%}details.exu col.c2{width:auto}details.exu col.c3{width:17%}
-details.exu th,details.exu td{text-align:left;vertical-align:top;padding:.3rem .4rem .3rem 0;border-bottom:1px solid var(--rule)}
-details.exu thead th{font-size:.72rem;font-weight:600;color:var(--muted)}
-details.exu tr.st th{padding-top:.8rem;font-size:.8rem;border-bottom:1px solid var(--ink)}
+/* The Executive Branch roster (tools/bib/executive.py). The shared block and table rules: templates/roster.css. */
+.ex .exsec{font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:1rem 0 .2rem}
+details.exu table{font-size:.82rem;margin:.2rem 0 .8rem}
+details.exu col.x1{width:30%}details.exu col.x2{width:auto}details.exu col.x3{width:17%}
 details.exu td:nth-child(3){font-size:.76rem;overflow-wrap:anywhere}
-details.exu tr.d1 td:first-child{padding-left:.9rem}details.exu tr.d2 td:first-child{padding-left:1.8rem}details.exu tr.d3 td:first-child{padding-left:2.7rem}
-details.exu tr:target td{background:var(--hl-bg);color:var(--hl-ink)}
+details.exu tr.exhl td{border-bottom:0}
+details.exu tr.exlr td{padding-top:0}
 .ex .ext{font-weight:600}
-.ex .exk,.ex .exm{display:block;font-size:.72rem;color:var(--muted)}
-.ex .exl{display:block;font-size:.72rem;line-height:1.35;color:var(--muted);margin-top:.15rem}
+.ex .exm{display:block;font-size:.72rem;color:var(--muted)}
 .ex .exh{display:block;margin-bottom:.3rem}
 .ex .exh>b{font-weight:600}
 .ex .exh.exa>b{font-weight:400;font-style:italic}
 .ex .exd{display:block;font-size:.74rem;color:var(--muted);line-height:1.35}
 .ex .exr{font-weight:400;font-size:.74rem;color:var(--muted)}
-.ex .cgn{display:block;font-family:var(--serif);font-size:.8rem;line-height:1.35;color:var(--note)}
-.ex ul.exlaw{margin:.1rem 0 .5rem 1.1rem;padding:0;font-size:.74rem;line-height:1.4;color:var(--muted)}
-.ex ul.exlaw li{margin:.1rem 0}
-.ex .exun{font-size:.8rem;color:var(--note);margin:.2rem 0 .4rem;font-family:var(--serif)}
+.ex .cgn{font-size:.8rem;line-height:1.35}
+.ex ul.exlaw{margin:0;padding:.2rem 0 .1rem 1.1rem;font-size:.74rem;line-height:1.4;color:var(--muted)}
+.ex ul.exlaw.exul{margin:.1rem 0 .5rem}
+.ex ul.exlaw li{margin:.12rem 0}
+.ex .exg{font-size:.66rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--ink)}
+.ex .exw{white-space:nowrap}
+.ex .exun{margin:.2rem 0 .4rem}
 .ex abbr{text-decoration:none;cursor:help}
 ol.exauth li{font-size:.85rem;margin:.3rem 0}
 ol.exauth .exd{display:block;font-size:.76rem;color:var(--muted)}
@@ -473,7 +585,8 @@ def inject(page, series, linker, mode):
         page, n = pat.subn(lambda mm: mm.group(1) + blk + mm.group(2), page, count=1)
         used = used or bool(n)
     if used:
-        page = page.replace("</body>", CSS + "\n</body>", 1)
+        from . import roster
+        page = roster.ensure(page.replace("</body>", CSS + "\n</body>", 1))
     return page
 
 
@@ -542,7 +655,8 @@ def page(series, linker, template):
     main.append("</ol>")
     pg = open(template, encoding="utf-8").read()
     pg = pg.replace("{{page_title}}", "The Executive Branch, 1953–1974").replace("{{main}}", "\n".join(main))
-    return pg.replace("</body>", CSS + "\n</body>", 1)
+    from . import roster
+    return roster.ensure(pg.replace("</body>", CSS + "\n</body>", 1))
 
 
 # ---------------------------------------------------------------- check
@@ -650,6 +764,12 @@ def law_problems(where, laws):
             out.append((where, f"authority {a.get('act')!r}: bad date {a['date']!r}"))
         if not a.get("date"):
             out.append((where, f"authority {a.get('act')!r} needs a date"))
+        for d in ("effective", "until"):
+            if a.get(d) and not DATE_RE.match(str(a[d])):
+                out.append((where, f"authority {a.get('act')!r}: bad {d} {a[d]!r}"))
+        for t in store.as_list(a.get("tags")):
+            if t not in TAGS:
+                out.append((where, f"authority {a.get('act')!r}: tag {t!r} not one of {', '.join(TAGS)}"))
     return out
 
 

@@ -335,7 +335,7 @@ def block(c, data, geo, ptr, href, rid, here=False):
     for x in changes().get(c, []) or []:
         later[(x["ch"], x["st"], x["seat"])].append(x)
     for ch, rows, label in (("h", house, "House"), ("s", senate, "Senate")):
-        out.append(f'<details class="cgr"><summary>{label} members, {len(rows)}, by state</summary><table>'
+        out.append(f'<details class="cgr cgm"><summary>{label} members, {len(rows)}, by state</summary><table>'
                    '<colgroup><col class="c1"><col class="c2"><col class="c3"><col class="c4"></colgroup>')
         out.append(f'<thead><tr><th>{"District" if ch == "h" else "Class"}</th><th>Member</th><th>Party</th><th>In the series</th></tr></thead><tbody>')
         bystate = defaultdict(list)
@@ -445,7 +445,8 @@ def inject(page, series, linker, mode):
                     if n:
                         used.append(c)
     if used:
-        page = page.replace("</body>", assets(geo_subset(geo, sorted(set(used)))) + "\n</body>", 1)
+        from . import roster
+        page = roster.ensure(page.replace("</body>", assets(geo_subset(geo, sorted(set(used)))) + "\n</body>", 1))
     return page
 
 
@@ -502,4 +503,5 @@ def page(series, linker, template):
             main.append(sp)
     pg = open(template, encoding="utf-8").read()
     pg = pg.replace("{{page_title}}", "Congress at each opening and the elections").replace("{{main}}", "\n".join(main))
-    return pg.replace("</body>", assets(geo) + "\n</body>", 1)
+    from . import roster
+    return roster.ensure(pg.replace("</body>", assets(geo) + "\n</body>", 1))

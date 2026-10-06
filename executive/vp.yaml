@@ -4,30 +4,59 @@ unit: vp
 name: The Vice President
 under: president
 order: 10
-law:
-  - act: Constitution, Art. II, § 1; Amend. XII
-    date: '1804-09-25'
-    url: https://www.archives.gov/founding-docs/amendments-11-27
-    does: Elected with the President for the same term.
-  - act: National Security Act Amendments of 1949
-    date: '1949-08-10'
-    cite: 'ch. 412, § 3, 63 Stat. 578, 579'
-    usc: '50 U.S.C. § 402(a) (1958)'
-    does: The Vice President a member of the National Security Council.
 offices:
   - id: vice-president
     title: Vice President of the United States
     appt: ELECTED
     law:
+      - act: Constitution, Art. II, § 1; Amend. XII
+        date: '1804-06-15'
+        tags: [creates, appointment]
+        url: https://www.archives.gov/founding-docs/amendments-11-27
+        does: Chosen by the electors for the same term as the President, by a distinct ballot (Amend. XII); the qualifications of a President.
+      - act: Constitution, Art. II, § 1, cl. 6; Art. I, § 3, cl. 4
+        date: '1789-03-04'
+        tags: [powers]
+        url: https://www.archives.gov/founding-docs/constitution-transcript
+        does: Succeeds to the powers and duties of the President on his removal, death, resignation, or inability. President of the Senate, voting only when it is equally divided.
+      - act: National Security Act Amendments of 1949
+        date: '1949-08-10'
+        tags: [powers]
+        cite: 'ch. 412, § 3, 63 Stat. 578, 579'
+        usc: '50 U.S.C. § 402 (1958)'
+        does: A member of the National Security Council.
       - act: National Aeronautics and Space Act Amendments of 1961
         date: '1961-04-25'
-        cite: 'Pub. L. 87-26, 75 Stat. 46'
+        until: '1973-07-01'
+        tags: [powers]
+        cite: 'Pub. L. 87-26, 75 Stat. 47'
         usc: '42 U.S.C. § 2471 (1964)'
-        does: The Vice President chairman of the National Aeronautics and Space Council, in place of the President.
+        does: Chairman of the National Aeronautics and Space Council, in place of the President. The Council abolished by Reorganization Plan No. 1 of 1973, July 1, 1973.
       - act: Constitution, Amend. XXV, § 2
         date: '1967-02-10'
+        tags: [vacancy]
         url: https://www.archives.gov/founding-docs/amendments-11-27
-        does: A vacancy filled by the President's nominee, on confirmation by a majority vote of both Houses.
+        does: 'A vacancy filled by the President''s nominee, on confirmation by a majority vote of both Houses. Certified Feb. 23, 1967: [32 Fed. Reg. 3287](https://www.govinfo.gov/content/pkg/FR-1967-02-25/pdf/FR-1967-02-25.pdf#page=5).'
+      - act: Act of Jan. 19, 1949
+        date: '1949-01-19'
+        effective: '1949-01-20'
+        tags: [pay]
+        cite: 'ch. 2, 63 Stat. 4'
+        usc: '3 U.S.C. §§ 104, 111 (1952)'
+        does: Compensation $30,000 a year, and $10,000 for expenses.
+      - act: Act of Mar. 2, 1955
+        date: '1955-03-02'
+        effective: '1955-03-01'
+        tags: [pay]
+        cite: 'ch. 9, § 4(c), 69 Stat. 9, 11'
+        usc: '3 U.S.C. § 104 (1958)'
+        does: Compensation $35,000.
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 304(a), 78 Stat. 400, 422'
+        usc: '3 U.S.C. § 104 (1964)'
+        does: Compensation $43,000. Check the effective date.
     holders:
       - name: Barkley, Alben W.
         from: '1949-01-20'

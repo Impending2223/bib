@@ -2,35 +2,77 @@
 # See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
 unit: president
 name: The President
-law:
-  - act: Constitution, Art. II, §§ 1–3
-    date: '1789-03-04'
-    url: https://www.archives.gov/founding-docs/constitution-transcript
-    does: 'The executive Power vested in a President. Commander in Chief; may require the opinion in writing of the principal Officer in each of the executive Departments; nominates, and by and with the advice and consent of the Senate appoints, ambassadors and all other Officers of the United States whose appointments are not otherwise provided for; Congress may by law vest the appointment of inferior Officers in the President alone, the courts, or the Heads of Departments; may fill vacancies in the recess of the Senate by commissions expiring at the end of its next session; commissions all the Officers of the United States.'
-  - act: Presidential Succession Act of 1947
-    date: '1947-07-18'
-    cite: 'ch. 264, 61 Stat. 380'
-    usc: '3 U.S.C. § 19 (1958)'
-    does: 'After the Vice President, the Speaker and the President pro tempore; then the heads of departments in the order of their creation: State, Treasury, Defense (as Secretary of War in the act), Attorney General, Postmaster General, Navy (dropped 1949), Interior, Agriculture, Commerce, Labor. HEW added 1955 (69 Stat. 1), HUD 1965 (79 Stat. 671), Transportation 1966 (80 Stat. 948).'
-  - act: Constitution, Amend. XXV
-    date: '1967-02-10'
-    url: https://www.archives.gov/founding-docs/amendments-11-27
-    does: 'The Vice President becomes President on the President''s removal, death, or resignation (§ 1); the President nominates a Vice President to fill a vacancy, confirmed by a majority of both Houses (§ 2); disability (§§ 3–4).'
 offices:
   - id: president
     title: President of the United States
     appt: ELECTED
     law:
+      - act: Constitution, Art. II
+        date: '1789-03-04'
+        tags: [creates, powers, appointment]
+        url: https://www.archives.gov/founding-docs/constitution-transcript
+        does: 'The executive Power vested in a President, chosen by electors for four years (§ 1). Commander in Chief; may require the opinion in writing of the principal Officer in each of the executive Departments; nominates, and by and with the advice and consent of the Senate appoints, ambassadors and all other Officers of the United States whose appointments are not otherwise provided for, Congress may by law vest the appointment of inferior Officers in the President alone, the courts, or the Heads of Departments; fills vacancies in the recess of the Senate by commissions expiring at the end of its next session (§ 2). Takes care that the laws be faithfully executed; commissions all the Officers of the United States (§ 3).'
+      - act: Constitution, Amend. XX, § 1
+        date: '1933-01-23'
+        tags: [appointment]
+        url: https://www.archives.gov/founding-docs/amendments-11-27
+        does: The term ends at noon on the 20th day of January.
+      - act: Constitution, Amend. XXII
+        date: '1951-02-27'
+        tags: [appointment]
+        url: https://www.archives.gov/founding-docs/amendments-11-27
+        does: No person elected President more than twice; one who has served more than two years of another's term elected no more than once. Not applicable to Truman.
+      - act: Constitution, Art. II, § 1, cl. 6
+        date: '1789-03-04'
+        tags: [vacancy]
+        url: https://www.archives.gov/founding-docs/constitution-transcript
+        does: On the President's removal, death, resignation, or inability, the powers and duties devolve on the Vice President; Congress provides by law for the case of both.
+      - act: Constitution, Amend. XXV
+        date: '1967-02-10'
+        tags: [vacancy]
+        url: https://www.archives.gov/founding-docs/amendments-11-27
+        does: 'On the President''s removal, death, or resignation the Vice President becomes President (§ 1); the President nominates a Vice President to fill a vacancy, confirmed by a majority of both Houses (§ 2); the President''s written declaration of inability, and the Vice President''s with a majority of the principal officers of the executive departments (§§ 3–4). Certified by the Administrator of General Services, Feb. 23, 1967: [32 Fed. Reg. 3287](https://www.govinfo.gov/content/pkg/FR-1967-02-25/pdf/FR-1967-02-25.pdf#page=5).'
+      - act: Presidential Succession Act of 1947
+        date: '1947-07-18'
+        tags: [vacancy]
+        cite: 'ch. 264, 61 Stat. 380'
+        usc: '3 U.S.C. § 19 (1958)'
+        does: 'After the Vice President, the Speaker and the President pro tempore, each on resigning his seat; then the heads of departments in the order of their creation, each acting until a President or Vice President qualifies: State, Treasury, War, Attorney General, Postmaster General, Navy, Interior, Agriculture, Commerce, Labor. Defense for War and Navy from 1949 (63 Stat. 578).'
+      - act: Department of Housing and Urban Development Act
+        date: '1965-09-09'
+        effective: '1965-11-09'
+        tags: [vacancy]
+        cite: 'Pub. L. 89-174, § 6(a), 79 Stat. 667, 669'
+        usc: '3 U.S.C. § 19 (1964 Supp. I)'
+        does: The Secretary of Health, Education, and Welfare and the Secretary of Housing and Urban Development added to the line of succession, after Labor.
+      - act: Department of Transportation Act
+        date: '1966-10-15'
+        effective: '1967-04-01'
+        tags: [vacancy]
+        cite: 'Pub. L. 89-670, § 10(a), 80 Stat. 931, 948'
+        usc: '3 U.S.C. § 19 (1970)'
+        does: The Secretary of Transportation added, after Housing and Urban Development.
+      - act: Act of June 25, 1948 (Title 3, U.S. Code, enacted)
+        date: '1948-06-25'
+        tags: [vacancy]
+        cite: 'ch. 644, § 1, 62 Stat. 672, 678'
+        usc: '3 U.S.C. § 20 (1958)'
+        does: A resignation or a refusal to accept the office is an instrument in writing, subscribed, delivered to the office of the Secretary of State.
       - act: Act of Jan. 19, 1949
         date: '1949-01-19'
+        effective: '1949-01-20'
+        until: '1969-01-20'
+        tags: [pay]
         cite: 'ch. 2, 63 Stat. 4'
         usc: '3 U.S.C. §§ 102, 103 (1958)'
-        does: 'Compensation, $100,000 a year, and an expense allowance.'
-      - act: Act of Mar. 4, 1969
+        does: Compensation $100,000 a year, and $50,000 for expenses, from the term beginning Jan. 20, 1949.
+      - act: Act of Jan. 17, 1969
         date: '1969-01-17'
+        effective: '1969-01-20'
+        tags: [pay]
         cite: 'Pub. L. 91-1, 83 Stat. 3'
         usc: '3 U.S.C. § 102 (1970)'
-        does: 'Compensation raised to $200,000, from Jan. 20, 1969.'
+        does: Compensation $200,000 a year, from noon Jan. 20, 1969.
     holders:
       - name: Truman, Harry S.
         from: '1945-04-12'
