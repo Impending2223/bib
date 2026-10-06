@@ -171,6 +171,8 @@ def note_cell(x):
     if x.get("flip"):
         same = surname(x["out"]) == surname(x["winner"])
         bits.append(f"{NAME.get(x['party'], x['party'])} pickup" + (", the same member under another party." if same else "."))
+    if x.get("note"):
+        bits.append(esc(x["note"]))
     if x.get("check"):
         bits.append(f"Check: {esc(x['check'])}")
     return " ".join(bits)

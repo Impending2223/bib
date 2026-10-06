@@ -75,6 +75,7 @@ elections/facts.yaml      hand-kept facts: caucus labels, faithless electors, 19
 congress/changes.yaml     departures and successors during each Congress (generated)
 congress/specials.yaml    special elections during each Congress, 87th–93rd, with candidates (generated)
 congress/switches.yaml    members who changed party in office (kept by hand)
+sources/states.yaml       each State's own official election publications, where to read them, what they print (kept by hand)
 daybook/<YYYY-MM>.yaml    every Public Papers (APP) and FRUS document by date (generated)
 daybook/abstracts.yaml    one-sentence abstracts, keyed by document (kept by hand or agent)
 build/                    generated pages (git-ignored)
@@ -383,6 +384,32 @@ tools/bib/elections.py              renders the blocks and checks the data (STYL
   points. The keys draw the same scales as gradient bars.
 - "Check" in a note (as in the calendar) marks a detail still to verify:
   `grep -rn Check elections/facts.yaml elections/readings`.
+
+## State sources
+
+`sources/states.yaml` is the register of each State's own official publications of election returns: blue
+books, legislative manuals, registers, statements of vote, canvasses, abstracts, count books, and the State
+election databases. Its header is the schema. For every State and D.C. it records, for 1956–1974 first:
+
+- each publication or database: title, publisher, which edition prints which election;
+- what it prints: the general election, the specials between Novembers (with votes or not, as checked against
+  `congress/specials.yaml`), State races (governor, statewide, legislature), primaries (official or party);
+- every online copy with its `access` from here, tested on the date in `checked`: open, borrow, bot-check,
+  blocked, dead, other;
+- `best_for_specials` (where to get vote counts for that State's specials) and `gaps` (what is only on paper).
+
+Start there before searching for a State's returns. The Clerk's *Statistics* stay the source for `elections/`;
+a State figure goes in as a reading or a note, with its page. Recheck access with
+`python3 tools/sources/check_access.py [--write] [--st XX ...]`; `check` fails on a State missing from the
+register, an access outside the legend, or an online copy without a url or a checked date.
+
+- Bot checks (Cloudflare, AWS WAF, captchas) are the sites' own: don't try to get around them; a person in a
+  browser can open the page. HathiTrust's pages are bot-checked here, but its catalog data (the Bib API,
+  `catalog.hathitrust.org/api/volumes/brief/htid/<id>.json`) answers: holdings and rights, not text.
+- archive.org works: item pages, OCR text (`/download/<id>/<id>_djvu.txt`), page images
+  (`/download/<id>/page/n<N>.jpg`). Many States' runs are there (CT, NH, MA, IL, CA, NC, HI, MT, AL, FL).
+- A host this environment's network policy refuses ("CONNECT tunnel failed, response 403") is `blocked`; the
+  owner can allow it in the environment's network settings.
 
 ## Economic indicators
 
