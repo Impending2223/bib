@@ -254,6 +254,80 @@ offices:
         to: '1976-03-31'
         src:
           - POCOM
+  - id: under-secretary-staff
+    title: Special Assistant to the Under Secretary of State
+    rank: employee
+    appt: HD
+    under: under-secretary
+    group: Office of the Secretary
+    many: true
+    n: The special and staff assistants of the Under Secretaries, with the Under Secretary served in the holder's title.
+    holders:
+      - name: Nolting, Frederick E., Jr.
+        title: Special Assistant to the Deputy Under Secretary
+        from: '1951-10-14'
+        to: '1953-08-04'
+        n: Assistant to the Deputy Under Secretary; then Acting Special Assistant to the Secretary for Mutual Security Affairs, Aug. 4, 1953–Jan. 4, 1954, and Special Assistant for Mutual Security Affairs.
+        src:
+          - FRUS persons list
+          - CDIR 1953-03
+      - name: Donhauser, Robert
+        title: Special Assistant to the Deputy Under Secretary, then the Under Secretary, for Political Affairs
+        from: 1958-03
+        to: 1960-08
+        src:
+          - FRUS persons list
+      - name: Rashish, Meyer
+        title: Special Assistant to the Under Secretary for Economic Affairs
+        from: '1961'
+        to: '1961'
+        n: 'Check: the days; in CDIR 1961-04.'
+        src:
+          - CDIR 1961-04
+      - name: Hughes, Thomas L.
+        given: Thomas Lowe
+        from: 1961-02
+        to: 1961-11
+        out: To Deputy Director of Intelligence and Research.
+        n: 'Special Assistant to Under Secretary Bowles. Check: the days.'
+        src:
+          - CDIR 1961-04
+          - CDIR 1962-01
+      - name: Brubeck, William H.
+        from: 1961-02
+        to: 1961-12
+        n: 'Special Assistant to Under Secretary Bowles; Deputy Executive Secretary in CDIR 1962-01. Check: the days.'
+        src:
+          - CDIR 1961-04
+          - CDIR 1962-01
+      - name: Schaetzel, J. Robert
+        title: Special Assistant to the Under Secretary for Economic Affairs, then to the Under Secretary
+        from: '1961-02-03'
+        to: '1962-09-15'
+        out: To Deputy Assistant Secretary of State for Atlantic Affairs.
+        n: Special Assistant to the Under Secretary for Economic Affairs to Mar. 26, 1962; to the Under Secretary, Mar. 27–Sept. 15, 1962.
+        src:
+          - FRUS persons list
+      - name: Thomson, James C., Jr.
+        from: 1961-04
+        to: 1961-12
+        n: Special Assistant to Under Secretary Bowles; then to the President's Special Representative (see the Ambassador at Large).
+        src:
+          - FRUS persons list
+          - CDIR 1961-04
+      - name: Lewis, Samuel W.
+        from: '1961-05-28'
+        to: '1962-02-18'
+        n: Special Assistant to Under Secretary Bowles; then to the President's Special Representative.
+        src:
+          - FRUS persons list
+      - name: Curtis, John R., Jr.
+        title: Special Assistant to the Under Secretary for Political Affairs
+        from: 1962-03
+        to: 1963-04
+        n: Staff Assistant, Policy Planning Council, Aug. 1961–Mar. 1962.
+        src:
+          - FRUS persons list
   - id: under-secretary-political
     title: Under Secretary of State for Political Affairs
     rank: principal
@@ -428,8 +502,8 @@ offices:
       - act: Foreign Assistance Act of 1971
         date: '1972-02-07'
         tags: [creates, appointment, pay]
-        cite: 'Pub. L. 92-226, §§ 302, 403, 86 Stat. 20, 28'
-        usc: '22 U.S.C. § 2384 (1970 Supp. II)'
+        cite: Pub. L. 92-226, §§ 302, 403, 86 Stat. 20, 28
+        usc: 22 U.S.C. § 2384 (1970 Supp. II)
         does: 'Foreign Assistance Act of 1961, § 624(e): besides the other statutory officers, the President shall appoint, with the advice and consent of the Senate, a coordinator of the security assistance programs; § 403 puts an Under Secretary of State for Coordinating Security Assistance Programs at level III of the Executive Schedule.'
     n: Called in the Department the Under Secretary for Security Assistance.
     holders:
@@ -731,11 +805,12 @@ offices:
           - POCOM
       - name: Bowles, Chester
         given: Chester Bliss
+        title: President’s Special Representative and Adviser on African, Asian, and Latin American Affairs
         recess: '1961-12-01'
         appointed: '1962-01-30'
         from: '1961-12-04'
         to: '1963-06-09'
-        n: Commissioned as Presidential Special Representative and Adviser on African, Asian, and Latin American Affairs.
+        n: Commissioned as Presidential Special Representative and Adviser on African, Asian, and Latin American Affairs, with the rank of ambassador.
         src:
           - POCOM
       - name: Thompson, Llewellyn E.
@@ -799,6 +874,29 @@ offices:
         n: Later commissioned to serve concurrently as Assistant Secretary of State for Congressional Relations.
         src:
           - POCOM
+  - id: special-representative-staff
+    title: Special Assistant to the President's Special Representative and Adviser on African, Asian, and Latin American Affairs
+    rank: employee
+    appt: HD
+    under: ambassador-at-large
+    group: Office of the Secretary
+    many: true
+    from: 1961-12
+    until: 1963-06
+    n: Chester Bowles's staff, 1961–63.
+    holders:
+      - name: Thomson, James C., Jr.
+        from: 1961-12
+        to: '1963'
+        n: 'Check: the day he left (to the Bureau of Far Eastern Affairs, then the NSC staff).'
+        src:
+          - FRUS persons list
+      - name: Lewis, Samuel W.
+        from: '1962-02-18'
+        to: '1963'
+        n: 'Check: the day he left.'
+        src:
+          - FRUS persons list
   - id: assistant-secretary-african
     title: Assistant Secretary of State for African Affairs
     rank: principal
@@ -842,6 +940,57 @@ offices:
         to: '1975-03-26'
         src:
           - POCOM
+  - id: deputy-assistant-secretary-african
+    title: Deputy Assistant Secretary of State for African Affairs
+    rank: inferior
+    appt: HD
+    under: assistant-secretary-african
+    group: Regional bureaus
+    many: true
+    holders:
+      - name: Penfield, James K.
+        from: 1958-09
+        to: '1961'
+        n: 'Check: the day he left; in CDIR 1961-04.'
+        src:
+          - FRUS persons list
+          - CDIR 1961-04
+      - name: Tasca, Henry J.
+        title: Deputy Assistant Secretary for African Economic Affairs
+        from: '1961'
+        to: 1965-05
+        out: To Ambassador to Morocco.
+        n: 'Check: the day he took office; in CDIR 1961-04.'
+        src:
+          - FRUS persons list
+          - CDIR 1961-04
+      - name: Fredericks, J. Wayne
+        from: 1961-05
+        to: 1967-09
+        src:
+          - FRUS persons list
+  - id: african-officers
+    title: Officers of the Bureau of African Affairs
+    rank: employee
+    appt: CAREER
+    under: assistant-secretary-african
+    group: Regional bureaus
+    many: true
+    holders:
+      - name: Coote, Wendell B.
+        title: Deputy Director, Office of West African Affairs (Western African and Malagasy Affairs from June 1961)
+        from: 1960-09
+        to: 1962-01
+        src:
+          - FRUS persons list
+          - CDIR 1961-04
+      - name: Hooper, Peter, Jr.
+        title: Officer in Charge of Algerian Affairs
+        from: '1961'
+        to: '1963'
+        n: FRUS 1961–63 lists the post without dates.
+        src:
+          - FRUS persons list
   - id: assistant-secretary-european
     title: Assistant Secretary of State for European Affairs
     rank: principal
@@ -923,6 +1072,255 @@ offices:
         to: '1977-06-08'
         src:
           - POCOM
+  - id: deputy-assistant-secretary-european
+    title: Deputy Assistant Secretary of State for European Affairs
+    rank: inferior
+    appt: HD
+    under: assistant-secretary-european
+    group: Regional bureaus
+    many: true
+    holders:
+      - name: White, Ivan B.
+        from: 1959-03
+        to: '1961'
+        n: 'Check: the day he left; in CDIR 1961-04.'
+        src:
+          - FRUS persons list
+          - CDIR 1961-04
+      - name: Davis, Richard H.
+        from: 1959-12
+        to: '1963'
+        n: 'Principal Deputy Assistant Secretary from September 1962. Check: the day he left.'
+        src:
+          - FRUS persons list
+      - name: Tyler, William R.
+        given: William Royall
+        from: '1961'
+        to: '1962-09-02'
+        out: To Assistant Secretary.
+        n: 'Check: the day he took office.'
+        src:
+          - CDIR 1962-01
+      - name: Burdett, William C., Jr.
+        from: 1962-09
+        to: '1965'
+        n: 'Check: the day he left.'
+        src:
+          - FRUS persons list
+      - name: Schaetzel, J. Robert
+        title: Deputy Assistant Secretary of State for Atlantic Affairs
+        from: '1962-09-15'
+        to: 1966-09
+        out: To Representative to the European Communities.
+        n: 'Check: the day he left.'
+        src:
+          - FRUS persons list
+          - POCOM
+      - name: Creel, Robert C.
+        from: '1964'
+        to: '1967'
+        n: 'Check: the days.'
+        src:
+          - FRUS persons list
+      - name: Stoessel, Walter J., Jr.
+        from: 1965-09
+        to: 1968-07
+        out: To Ambassador to Poland.
+        src:
+          - FRUS persons list
+  - id: european-officers
+    title: Officers of the Bureau of European Affairs
+    rank: employee
+    appt: CAREER
+    under: assistant-secretary-european
+    group: Regional bureaus
+    many: true
+    holders:
+      - name: Freers, Edward L.
+        title: Director, Office of Eastern European Affairs
+        from: '1956-07-15'
+        to: 1959-05
+        out: To Counselor of the Embassy in Moscow.
+        src:
+          - FRUS persons list
+      - name: Lampson, Edward T.
+        title: Acting Officer in Charge of German Political Affairs, Office of German Affairs
+        from: '1958'
+        to: 1960-01
+        src:
+          - FRUS persons list
+      - name: Hillenbrand, Martin J.
+        title: Director, Office of German Affairs, and of the Berlin Task Force
+        from: '1958'
+        to: '1962'
+        n: 'Check: the days; in CDIR 1960-01 and 1961-04.'
+        src:
+          - FRUS persons list
+          - CDIR 1961-04
+      - name: McSweeney, John M.
+        title: Director, Office of Soviet Union Affairs
+        from: '1959'
+        to: 1961-06
+        out: To Minister-Counselor at Moscow.
+        src:
+          - FRUS persons list
+          - CDIR 1961-04
+      - name: Armitage, John A.
+        title: Officer in Charge of Multilateral Political Relations, Office of Soviet Union Affairs
+        from: '1959'
+        to: 1961-08
+        src:
+          - FRUS persons list
+      - name: Valdes, Philip H.
+        title: Officer in Charge of French Affairs; Office of Soviet Union Affairs
+        from: 1959-06
+        to: '1963'
+        n: 'Check: the days.'
+        src:
+          - FRUS persons list
+      - name: Vedeler, Harold C.
+        title: Director, Office of Eastern European Affairs
+        from: '1960'
+        to: '1963'
+        n: 'Check: the days; in CDIR 1961-04.'
+        src:
+          - FRUS persons list
+          - CDIR 1961-04
+      - name: Fessenden, Russell
+        title: Director, Office of European Regional Affairs
+        from: '1960'
+        to: 1962-08
+        out: To Minister at Brussels (Mission to the European Communities).
+        n: 'Check: the day he took office.'
+        src:
+          - FRUS persons list
+          - CDIR 1961-04
+      - name: Magill, Robert N.
+        title: Deputy Director, Office of European Regional Affairs
+        from: '1960'
+        to: 1962-02
+        src:
+          - FRUS persons list
+          - CDIR 1961-04
+      - name: Blue, William L.
+        title: Deputy Director, then Director, Office of Western European Affairs
+        from: '1960'
+        to: 1962-02
+        n: Deputy Director until July 1961; Director, July 1961–Feb. 1962.
+        src:
+          - FRUS persons list
+      - name: Guthrie, John C.
+        title: Deputy Director, then Director, Office of Soviet Union Affairs
+        from: '1960'
+        to: '1963'
+        n: 'Director from June 1961. Check: the days.'
+        src:
+          - FRUS persons list
+          - CDIR 1961-04
+      - name: Burdett, William C., Jr.
+        title: Director, Office of British Commonwealth and Northern European Affairs
+        from: 1960-09
+        to: 1962-09
+        src:
+          - FRUS persons list
+      - name: Cash, Frank E., Jr.
+        title: Office of German Affairs
+        from: '1961'
+        to: '1963'
+        n: FRUS 1961–63 lists the post without dates.
+        src:
+          - FRUS persons list
+      - name: Holloway, Jerome K., Jr.
+        title: Office of German Affairs
+        from: '1961'
+        to: '1963'
+        n: FRUS 1961–63 lists the post without dates.
+        src:
+          - FRUS persons list
+      - name: Brandin, Robert M.
+        title: Office of German Affairs
+        from: '1961'
+        to: '1963'
+        n: FRUS 1961–63 lists the post without dates.
+        src:
+          - FRUS persons list
+      - name: Freshman, C. Arnold
+        title: Officer in Charge of German Economic Affairs
+        from: '1961'
+        to: '1963'
+        n: FRUS 1961–63 lists the post without dates.
+        src:
+          - FRUS persons list
+      - name: Katz, Julius L.
+        title: Office of Eastern European Affairs
+        from: '1961'
+        to: '1963'
+        n: FRUS 1961–63 lists the post without dates.
+        src:
+          - FRUS persons list
+      - name: Anderson, William O.
+        title: Office of Soviet Union Affairs
+        from: '1961'
+        to: '1963'
+        n: FRUS 1961–63 lists the post without dates.
+        src:
+          - FRUS persons list
+      - name: Imhof, Johannes V.
+        title: International Relations Officer, Office of Western European Affairs
+        from: '1961'
+        to: '1963'
+        n: FRUS 1961–63 lists the post without dates.
+        src:
+          - FRUS persons list
+      - name: Beigel, Edgar J.
+        title: International Relations Officer, Office of Western European Affairs
+        from: '1961'
+        to: '1963'
+        n: FRUS 1961–63 lists the post without dates.
+        src:
+          - FRUS persons list
+      - name: Knight, William E., II
+        title: Office of Western European Affairs
+        from: '1961'
+        to: '1963'
+        n: FRUS 1961–63 lists the post without dates.
+        src:
+          - FRUS persons list
+      - name: Sulser, Jack
+        title: Office of Western European Affairs
+        from: '1961'
+        to: '1963'
+        n: FRUS 1961–63 lists the post without dates.
+        src:
+          - FRUS persons list
+      - name: Vine, Richard D.
+        title: International Relations Officer, Office of European Regional Affairs
+        from: '1961'
+        to: 1963-07
+        n: 'Check: the day he joined.'
+        src:
+          - FRUS persons list
+      - name: Stone, Galen L.
+        title: Officer in Charge of Swiss-Belgian-Luxembourg-Netherlands Affairs, Office of Western European Affairs; then Deputy Director
+        from: '1961'
+        to: '1963'
+        n: 'Deputy Director from October 1962. Check: the days.'
+        src:
+          - FRUS persons list
+          - CDIR 1963-03
+      - name: Sweeney, Joseph
+        title: Officer in Charge of United Kingdom-Ireland Affairs, Office of British Commonwealth and Northern European Affairs
+        from: 1961-07
+        to: 1962-08
+        src:
+          - FRUS persons list
+      - name: Creel, Robert C.
+        title: Director, Office of German Affairs
+        from: '1962'
+        to: '1964'
+        n: 'Counselor and Consul General at Vientiane from May 19, 1961. Check: the days.'
+        src:
+          - FRUS persons list
   - id: assistant-secretary-far-eastern
     title: Assistant Secretary of State for Far Eastern Affairs
     titles:
@@ -996,6 +1394,204 @@ offices:
         to: '1974-07-09'
         src:
           - POCOM
+  - id: deputy-assistant-secretary-far-eastern
+    title: Deputy Assistant Secretary of State for Far Eastern Affairs
+    titles:
+      - title: Deputy Assistant Secretary of State for East Asian and Pacific Affairs
+        from: '1966-11-01'
+    rank: inferior
+    appt: HD
+    under: assistant-secretary-far-eastern
+    group: Regional bureaus
+    many: true
+    holders:
+      - name: Steeves, John M.
+        from: 1959-10
+        to: 1962-01
+        n: Acting Assistant Secretary, Apr.–May 1961.
+        src:
+          - FRUS persons list
+      - name: Peterson, Avery F.
+        title: Deputy Assistant Secretary of State for Far Eastern Economic Affairs
+        from: 1959-11
+        to: 1963-02
+        src:
+          - FRUS persons list
+      - name: Rice, Edward E.
+        from: '1962-01-01'
+        to: '1964'
+        n: 'Check: the day he left.'
+        src:
+          - FRUS persons list
+      - name: Barnett, Robert W.
+        title: Deputy Assistant Secretary of State for Far Eastern Economic Affairs
+        from: '1963-02-03'
+        to: 1970-01
+        src:
+          - FRUS persons list
+  - id: far-eastern-officers
+    title: Officers of the Bureau of Far Eastern Affairs
+    rank: employee
+    appt: CAREER
+    under: assistant-secretary-far-eastern
+    group: Regional bureaus
+    many: true
+    holders:
+      - name: Sneider, Richard L.
+        title: Officer in Charge of Japanese Affairs, Office of Northeast Asian Affairs
+        from: 1958-11
+        to: 1961-08
+        src:
+          - FRUS persons list
+      - name: Bane, David M.
+        title: Director, Office of Northeast Asian Affairs
+        from: 1959-04
+        to: 1961-05
+        src:
+          - FRUS persons list
+      - name: Anderson, Daniel V.
+        title: Director, Office of Southeast Asian Affairs
+        from: 1959-07
+        to: 1961-12
+        src:
+          - FRUS persons list
+      - name: Chapman, Christian G.
+        title: Officer in Charge of Laos Affairs
+        from: 1959-08
+        to: '1961-09-03'
+        src:
+          - FRUS persons list
+      - name: Martin, Edwin W.
+        title: Director, Office of Chinese Affairs
+        from: '1960'
+        to: 1961-09
+        n: 'Check: the day he took office.'
+        src:
+          - FRUS persons list
+          - CDIR 1961-04
+      - name: Bacon, Leonard L.
+        title: Deputy Director, Office of Northeast Asian Affairs (East Asian Affairs from December 1961)
+        from: '1960'
+        to: 1963-08
+        n: 'Then acting Director. Check: the day he took office.'
+        src:
+          - FRUS persons list
+          - CDIR 1960-01
+      - name: Usher, Richard E.
+        title: Deputy Director, Office of Southeast Asian Affairs
+        from: '1960'
+        to: '1961-12-26'
+        out: To Regional Planning Adviser, Bureau of Far Eastern Affairs.
+        n: 'Check: the day he took office.'
+        src:
+          - FRUS persons list
+          - CDIR 1961-04
+      - name: Emmons, Arthur B., III
+        title: Deputy Director, Office of Southwest Pacific Affairs
+        from: '1960'
+        to: 1962-09
+        src:
+          - FRUS persons list
+          - CDIR 1961-04
+      - name: Lindquist, Robert S.
+        title: Officer in Charge of Indonesian Affairs, Office of Southwest Pacific Affairs
+        from: '1960'
+        to: 1962-09
+        src:
+          - FRUS persons list
+      - name: MacDonald, Donald S.
+        title: Officer in Charge of Korean Affairs
+        from: '1960'
+        to: 1962-08
+        n: 'Check: the day he took office.'
+        src:
+          - FRUS persons list
+      - name: McFarland, James H.
+        title: Officer in Charge of Philippine Affairs, Office of Southwest Pacific Affairs
+        from: '1960'
+        to: 1962-06
+        n: 'Check: the day he took office.'
+        src:
+          - FRUS persons list
+      - name: Bell, James D.
+        title: Director, Office of Southwest Pacific Affairs
+        from: 1960-06
+        to: '1963'
+        n: 'Check: the day he left.'
+        src:
+          - FRUS persons list
+      - name: Heavner, Theodore J. C.
+        title: Officer in Charge of Vietnam Affairs
+        from: '1961'
+        to: '1963'
+        n: FRUS 1961–63 lists the post without dates.
+        src:
+          - FRUS persons list
+      - name: Cleveland, Robert G.
+        title: Office of Southeast Asian Affairs; Deputy Director from May 1962
+        from: '1961'
+        to: 1962-09
+        src:
+          - FRUS persons list
+      - name: Ingraham, Edward C., Jr.
+        title: Office of Southwest Pacific Affairs; then Officer in Charge of Indonesian Affairs
+        from: 1961-02
+        to: '1963'
+        src:
+          - FRUS persons list
+      - name: Vettel, Thelma E.
+        title: Special Assistant, Office of Northeast Asian (East Asian) Affairs
+        from: 1961-08
+        to: '1963'
+        src:
+          - FRUS persons list
+      - name: Yager, Joseph A.
+        title: Director, Office of Chinese Affairs; then Office of East Asian Affairs
+        from: 1961-09
+        to: 1963-08
+        src:
+          - FRUS persons list
+      - name: Queneau, Francois G.
+        title: Office of Southeast Asian Affairs
+        from: '1961-09-03'
+        to: '1963'
+        n: 'Check: the day he left.'
+        src:
+          - FRUS persons list
+      - name: Peters, Richard B.
+        title: SEATO Affairs Officer
+        from: 1961-10
+        to: 1962-05
+        n: Regional Coordinator for Far East, Office of Coordination for Mutual Security Affairs, until October 1961.
+        src:
+          - FRUS persons list
+      - name: Arzac, Daniel M., Jr.
+        title: Officer in Charge of Cambodian Affairs, Office of Southeast Asian Affairs
+        from: 1961-11
+        to: '1963'
+        n: 'Check: the day he left.'
+        src:
+          - FRUS persons list
+      - name: Masters, Edward D.
+        title: Officer in Charge of Thai Affairs, Office of Southeast Asian Affairs
+        from: 1962-02
+        to: 1963-08
+        src:
+          - FRUS persons list
+      - name: Ainsworth, Thomas W.
+        title: Officer in Charge of Japanese Affairs
+        from: 1963-08
+        to: '1965'
+        n: 'Check: the day he left.'
+        src:
+          - FRUS persons list
+      - name: Kattenburg, Paul M.
+        title: Deputy Director, Office of Southeast Asian Affairs, and Chairman of the Vietnam Interdepartmental Working Group
+        from: '1963-08-04'
+        to: '1964'
+        n: 'Check: the day he left.'
+        src:
+          - FRUS persons list
   - id: assistant-secretary-inter-american
     title: Assistant Secretary of State for Inter-American Affairs
     rank: principal
@@ -1089,6 +1685,168 @@ offices:
         to: '1974-09-04'
         src:
           - POCOM
+  - id: deputy-assistant-secretary-inter-american
+    title: Deputy Assistant Secretary of State for Inter-American Affairs
+    rank: inferior
+    appt: HD
+    under: assistant-secretary-inter-american
+    group: Regional bureaus
+    many: true
+    holders:
+      - name: Coerr, Wymberley DeR.
+        from: 1960-10
+        to: 1962-03
+        src:
+          - FRUS persons list
+      - name: Barall, Milton
+        from: '1961'
+        to: '1962'
+        n: 'Check: the days; in CDIR 1961-04.'
+        src:
+          - FRUS persons list
+          - CDIR 1961-04
+      - name: Morales-Carrión, Arturo
+        from: '1961-02-14'
+        to: '1964'
+        n: 'Check: the day he left.'
+        src:
+          - FRUS persons list
+      - name: Goodwin, Richard N.
+        from: 1961-11
+        to: 1963-01
+        n: Assistant Special Counsel to the President until November 1961; then Secretary General, International Peace Corps Secretariat.
+        src:
+          - FRUS persons list
+      - name: May, Herbert K.
+        from: '1962-05-16'
+        to: '1964'
+        n: 'Check: the day he left.'
+        src:
+          - FRUS persons list
+      - name: Cottrell, Sterling J.
+        from: '1963-04-14'
+        to: '1964'
+        n: 'Check: the day he left.'
+        src:
+          - FRUS persons list
+  - id: inter-american-officers
+    title: Officers of the Bureau of Inter-American Affairs
+    rank: employee
+    appt: CAREER
+    under: assistant-secretary-inter-american
+    group: Regional bureaus
+    many: true
+    holders:
+      - name: Bracken, Katherine W.
+        title: Director, Office of Central American and Panamanian Affairs
+        from: '1959'
+        to: '1961-11-11'
+        n: 'Check: the day she took office.'
+        src:
+          - FRUS persons list
+          - CDIR 1961-04
+      - name: Osborne, Melville E.
+        title: Officer in Charge of Mexican Affairs, Office of Caribbean and Mexican Affairs
+        from: '1959-01-25'
+        to: '1962'
+        n: 'Check: the day he left.'
+        src:
+          - FRUS persons list
+      - name: Vallon, Edwin E.
+        title: Deputy Director, then Director, Office of Caribbean and Mexican Affairs
+        from: 1959-10
+        to: '1962'
+        n: 'Director from October 1960. Check: the day he left.'
+        src:
+          - FRUS persons list
+          - CDIR 1961-04
+      - name: DeSeabra, A. José
+        title: Bureau of Inter-American Affairs
+        from: '1960'
+        to: '1962'
+        n: 'Check: the days.'
+        src:
+          - FRUS persons list
+      - name: Wilson, Jackson W.
+        title: Officer in Charge of Brazilian Affairs, Office of East Coast Affairs
+        from: '1960'
+        to: 1962-10
+        n: 'Check: the day he took office.'
+        src:
+          - FRUS persons list
+      - name: Rosenson, Alexander M.
+        title: Deputy Director, Office of Inter-American Regional Economic Affairs
+        from: '1960-10-14'
+        to: '1962'
+        n: 'Check: the day he left.'
+        src:
+          - FRUS persons list
+          - CDIR 1961-04
+      - name: Crimmins, John H.
+        title: Deputy Director, then Director, Office of Caribbean and Mexican Affairs
+        from: '1961'
+        to: '1963'
+        n: 'Director from February 1962. Then Coordinator of Cuban Affairs. Check: the days.'
+        src:
+          - FRUS persons list
+          - CDIR 1962-01
+      - name: Berle, Adolf A.
+        title: Chairman, Task Force on Latin America
+        from: '1961-01-02'
+        to: '1961-07-07'
+        n: Chairman of the President-elect's Task Force on Immediate Latin American Problems, Nov.–Dec. 1960.
+        src:
+          - FRUS persons list
+      - name: Turnage, William V.
+        title: Director, Office of Inter-American Regional Economic Affairs
+        from: '1961-06-11'
+        to: '1963'
+        n: 'Check: the day he left.'
+        src:
+          - FRUS persons list
+      - name: Poole, Richard A.
+        title: Officer in Charge of Peruvian Affairs, Office of West Coast Affairs
+        from: 1962-06
+        to: '1964'
+        n: 'Check: the day he left.'
+        src:
+          - FRUS persons list
+      - name: Lancaster, Bruce M.
+        title: Officer in Charge of Argentine Affairs, Office of East Coast Affairs
+        from: 1962-06
+        to: '1964'
+        n: 'Check: the day he left.'
+        src:
+          - FRUS persons list
+      - name: Fisher, John W.
+        title: Director, Office of Central American and Panamanian Affairs
+        from: '1962-06-10'
+        to: '1964'
+        n: 'Check: the day he left.'
+        src:
+          - FRUS persons list
+  - id: coordinator-cuban-affairs
+    title: Coordinator of Cuban Affairs
+    rank: inferior
+    appt: HD
+    under: assistant-secretary-inter-american
+    group: Regional bureaus
+    from: 1963-01
+    holders:
+      - name: Crimmins, John H.
+        from: '1963'
+        to: '1963-04-14'
+        out: To Ambassador to the Dominican Republic.
+        n: 'Check: the day he took office.'
+        src:
+          - FRUS persons list
+      - name: Cottrell, Sterling J.
+        from: 1963-04
+        to: '1963'
+        out: To Deputy Assistant Secretary.
+        n: 'Check: the day he took office; FRUS: until January 1966.'
+        src:
+          - FRUS persons list
   - id: assistant-secretary-near-eastern
     title: Assistant Secretary of State for Near Eastern, South Asian, and African Affairs
     titles:
@@ -1169,6 +1927,108 @@ offices:
         to: '1978-04-13'
         src:
           - POCOM
+  - id: deputy-assistant-secretary-near-eastern
+    title: Deputy Assistant Secretary of State for Near Eastern and South Asian Affairs
+    rank: inferior
+    appt: HD
+    under: assistant-secretary-near-eastern
+    group: Regional bureaus
+    many: true
+    holders:
+      - name: Cottam, Howard R.
+        title: Deputy Assistant Secretary for Economic and Regional Affairs
+        from: '1960'
+        to: '1962-03-03'
+        n: 'Check: the day he took office; in CDIR 1961-04.'
+        src:
+          - FRUS persons list
+          - CDIR 1961-04
+      - name: Meyer, Armin H.
+        from: '1961-03-05'
+        to: '1961-10-17'
+        out: To Ambassador to Lebanon.
+        src:
+          - FRUS persons list
+      - name: Grant, James P.
+        from: 1962-01
+        to: 1964-09
+        n: Deputy Director for Program and Planning, ICA, 1959–61.
+        src:
+          - FRUS persons list
+  - id: near-eastern-officers
+    title: Officers of the Bureau of Near Eastern and South Asian Affairs
+    rank: employee
+    appt: CAREER
+    under: assistant-secretary-near-eastern
+    group: Regional bureaus
+    many: true
+    holders:
+      - name: Ludlow, James M.
+        title: United Nations Adviser to the Assistant Secretary
+        from: 1958-12
+        to: 1963-08
+        src:
+          - FRUS persons list
+      - name: Spielman, Henry W.
+        title: Officer in Charge of Economic Affairs, then of Pakistan Affairs, Office of South Asian Affairs
+        from: 1959-02
+        to: '1962'
+        n: 'Check: the day he left.'
+        src:
+          - FRUS persons list
+      - name: Weil, T. Eliot
+        title: Director, Office of South Asian Affairs
+        from: 1960-08
+        to: 1962-04
+        src:
+          - FRUS persons list
+      - name: Bowling, John W.
+        title: Officer in Charge of Iranian Affairs; Deputy Director, Office of Greek, Turkish, and Iranian Affairs
+        from: '1961'
+        to: 1964-08
+        n: 'Check: the day he took office.'
+        src:
+          - FRUS persons list
+      - name: Horgan, Rogers B.
+        title: Officer in Charge of India-Ceylon-Nepal Affairs
+        from: '1961'
+        to: '1963'
+        n: FRUS 1961–63 lists the post without dates.
+        src:
+          - FRUS persons list
+      - name: Schott, Robert R.
+        title: Officer in Charge of Greek Affairs, Office of Greek, Turkish, and Iranian Affairs
+        from: '1961'
+        to: '1963'
+        n: FRUS 1961–63 lists the post without dates.
+        src:
+          - FRUS persons list
+      - name: Helseth, William A.
+        title: Multilateral Organizations Adviser, Office of Regional Affairs
+        from: '1961'
+        to: '1963'
+        n: FRUS 1961–63 lists the post without dates.
+        src:
+          - FRUS persons list
+      - name: Russell, H. Earle, Jr.
+        title: Staff Assistant to the Assistant Secretary; then Officer in Charge of Lebanon-Israel Affairs
+        from: '1961-02-05'
+        to: 1965-06
+        src:
+          - FRUS persons list
+      - name: Barrow, John R.
+        title: Officer in Charge of United Arab Republic Affairs
+        from: '1961-08-06'
+        to: '1963-07-07'
+        src:
+          - FRUS persons list
+      - name: Naas, Charles W.
+        title: Pakistan Desk Officer
+        from: '1962'
+        to: 1964-07
+        n: 'Check: the day he took office.'
+        src:
+          - FRUS persons list
   - id: assistant-secretary-international-organization
     title: Assistant Secretary of State for United Nations Affairs
     titles:
@@ -1244,6 +2104,83 @@ offices:
         to: '1975-12-18'
         src:
           - POCOM
+  - id: deputy-assistant-secretary-international-organization
+    title: Deputy Assistant Secretary of State for International Organization Affairs
+    rank: inferior
+    appt: HD
+    under: assistant-secretary-international-organization
+    group: Functional bureaus
+    many: true
+    holders:
+      - name: Hanes, John W., Jr.
+        from: '1957-04-08'
+        to: 1959-01
+        out: To Administrator, Bureau of Security and Consular Affairs.
+        src:
+          - FRUS persons list
+      - name: Wallner, Woodruff
+        from: 1959-08
+        to: '1962'
+        n: 'Check: the day he left.'
+        src:
+          - FRUS persons list
+          - CDIR 1961-04
+      - name: Gardner, Richard N.
+        from: '1961-04-03'
+        to: '1965'
+        n: 'Check: the day he left.'
+        src:
+          - FRUS persons list
+  - id: international-organization-officers
+    title: Officers of the Bureau of International Organization Affairs
+    rank: employee
+    appt: CAREER
+    under: assistant-secretary-international-organization
+    group: Functional bureaus
+    many: true
+    holders:
+      - name: Marcus, Melvin M.
+        title: Office of United Nations Political and Security Affairs
+        from: '1958'
+        to: '1960'
+        n: FRUS 1958–60 lists the post without dates.
+        src:
+          - FRUS persons list
+      - name: Dorman, John R.
+        title: Deputy Director, Office of Dependent Area Affairs
+        from: 1958-12
+        to: 1960-09
+        src:
+          - FRUS persons list
+      - name: Owen, George H.
+        title: Special Assistant for Antarctica Affairs
+        from: 1959-03
+        to: 1962-09
+        src:
+          - FRUS persons list
+      - name: Fisher, Wayne W.
+        title: Office of the Special Assistant for Antarctic Affairs
+        from: '1960'
+        to: 1961-09
+        n: 'Office of the Deputy Under Secretary for Political Affairs from February 1959. Check: the day he joined the Antarctica staff.'
+        src:
+          - FRUS persons list
+      - name: Mulliken, Otis E.
+        title: Deputy Director, Office of International Economic and Social Affairs
+        from: '1960'
+        to: '1963'
+        n: 'Check: the days; in CDIR 1960-01 through 1962-01.'
+        src:
+          - FRUS persons list
+          - CDIR 1961-04
+      - name: Westfall, Virginia C.
+        title: Director, Office of International Administration
+        from: 1962-12
+        to: '1964'
+        n: 'Acting Director in CDIR 1961-04. Check: the day she left.'
+        src:
+          - FRUS persons list
+          - CDIR 1961-04
   - id: assistant-secretary-economic
     title: Assistant Secretary of State for Economic Affairs
     titles:
@@ -1327,6 +2264,57 @@ offices:
         to: '1975-12-22'
         src:
           - POCOM
+  - id: deputy-assistant-secretary-economic
+    title: Deputy Assistant Secretary of State for Economic Affairs
+    rank: inferior
+    appt: HD
+    under: assistant-secretary-economic
+    group: Functional bureaus
+    many: true
+    holders:
+      - name: Kerr, Payton
+        from: '1960'
+        to: '1962'
+        n: 'Check: the days; in CDIR 1961-04.'
+        src:
+          - CDIR 1961-04
+      - name: Blumenthal, W. Michael
+        from: '1961-04-03'
+        to: '1963-07-31'
+        out: To Deputy Special Representative for Trade Negotiations.
+        src:
+          - FRUS persons list
+  - id: economic-officers
+    title: Officers of the Bureau of Economic Affairs
+    rank: employee
+    appt: CAREER
+    under: assistant-secretary-economic
+    group: Functional bureaus
+    many: true
+    holders:
+      - name: Herrington, William C.
+        title: Special Assistant for Fisheries and Wildlife
+        from: '1955'
+        to: '1963'
+        n: 'In the Office of the Under Secretary. Check: the days.'
+        src:
+          - FRUS persons list
+          - CDIR 1961-04
+      - name: Frank, Isaiah
+        title: Director, Office of International Trade; Acting Director, Office of International Financial and Development Affairs
+        from: 1957-06
+        to: '1962'
+        n: 'Acting Director, Office of International Financial and Development Affairs, in CDIR 1961-04. Check: the days.'
+        src:
+          - FRUS persons list
+          - CDIR 1961-04
+      - name: Rollefson, Ragnar
+        title: Director, Office of International Scientific Affairs
+        from: '1962-09-14'
+        to: '1964'
+        n: 'Check: the day he left.'
+        src:
+          - FRUS persons list
   - id: assistant-secretary-public
     title: Assistant Secretary of State for Public Affairs
     rank: principal
@@ -1396,6 +2384,28 @@ offices:
         to: '1975-03-27'
         src:
           - POCOM
+  - id: deputy-assistant-secretary-public
+    title: Deputy Assistant Secretary of State for Public Affairs
+    rank: inferior
+    appt: HD
+    under: assistant-secretary-public
+    group: Functional bureaus
+    many: true
+    holders:
+      - name: Stern, Philip M.
+        from: '1961'
+        to: '1962'
+        n: 'Check: the days; in CDIR 1961-04.'
+        src:
+          - CDIR 1961-04
+      - name: Rowan, Carl T.
+        given: Carl Thomas
+        from: '1961-02-27'
+        to: 1963-05
+        out: To Ambassador to Finland.
+        src:
+          - FRUS persons list
+          - CDIR 1961-04
   - id: assistant-secretary-congressional
     title: Assistant Secretary of State for Congressional Relations
     rank: principal
@@ -1474,6 +2484,29 @@ offices:
         to: '1975-01-31'
         src:
           - POCOM
+  - id: deputy-assistant-secretary-congressional
+    title: Deputy Assistant Secretary of State for Congressional Relations
+    rank: inferior
+    appt: HD
+    under: assistant-secretary-congressional
+    group: Functional bureaus
+    many: true
+    holders:
+      - name: Hoghland, John S., II
+        from: '1957-06-10'
+        to: '1962'
+        n: 'Check: the day he left; in CDIR 1961-04.'
+        src:
+          - FRUS persons list
+          - CDIR 1961-04
+      - name: Claxton, Philander P., Jr.
+        title: Deputy Assistant Secretary of State for Congressional Relations (Mutual Security Affairs)
+        from: 1959-03
+        to: '1962'
+        n: 'Check: the day he left; in CDIR 1961-04.'
+        src:
+          - FRUS persons list
+          - CDIR 1961-04
   - id: assistant-secretary-educational-cultural
     title: Assistant Secretary of State for Educational and Cultural Affairs
     rank: principal
@@ -1728,6 +2761,86 @@ offices:
         to: '1975-11-24'
         src:
           - POCOM
+  - id: deputy-director-intelligence-research
+    title: Deputy Special Assistant for Intelligence
+    titles:
+      - title: Deputy Director of Intelligence and Research
+        from: '1957-10-10'
+    rank: inferior
+    appt: HD
+    under: director-intelligence-research
+    group: Functional bureaus
+    many: true
+    n: From 1961 the Bureau had deputy directors for research and for coordination besides the Deputy Director.
+    holders:
+      - name: Howe, Fisher
+        from: '1953'
+        to: '1956-03-11'
+        out: To Director of the Executive Secretariat.
+        n: 'Check: the day he took office.'
+        src:
+          - FRUS persons list
+      - name: Arneson, R. Gordon
+        from: '1957-06-30'
+        to: 1959-11
+        src:
+          - FRUS persons list
+      - name: Scott, Joseph W.
+        title: Deputy Director for Coordination
+        from: '1961'
+        to: 1964-07
+        n: 'Check: the day he took office; in CDIR 1962-01.'
+        src:
+          - FRUS persons list
+          - CDIR 1962-01
+      - name: Evans, Allan
+        title: Deputy Director for Research
+        from: '1961-06-25'
+        to: '1966'
+        n: 'Special Assistant to the Director in CDIR 1961-04. Check: the day he left.'
+        src:
+          - FRUS persons list
+          - CDIR 1962-01
+      - name: Hughes, Thomas L.
+        given: Thomas Lowe
+        from: 1961-11
+        to: '1963-04-28'
+        out: To Director.
+        n: 'Called Deputy Assistant Secretary for Intelligence and Research in one FRUS list. Check: the day he took office; in CDIR 1962-01.'
+        src:
+          - FRUS persons list
+          - CDIR 1962-01
+  - id: intelligence-research-officers
+    title: Officers of the Bureau of Intelligence and Research
+    rank: employee
+    appt: CAREER
+    under: director-intelligence-research
+    group: Functional bureaus
+    many: true
+    holders:
+      - name: Magistretti, William L.
+        title: Chief of the Division of Research and Analysis
+        from: '1957'
+        to: 1958-08
+        n: 'Check: the day he took office.'
+        src:
+          - FRUS persons list
+      - name: Sanger, Richard H.
+        title: Director, Office of Research and Analysis for Middle East and Africa; for Africa from 1961
+        from: '1958'
+        to: '1962'
+        n: 'Check: the days; in CDIR 1961-04.'
+        src:
+          - FRUS persons list
+          - CDIR 1961-04
+      - name: Elwood, Robert B.
+        title: Director, Office of Intelligence Resources and Coordination; then Office of Research and Analysis for Near East and South Asia
+        from: 1959-09
+        to: '1963'
+        n: 'Near East and South Asia from Mar. 19, 1961. Check: the day he left.'
+        src:
+          - FRUS persons list
+          - CDIR 1961-04
   - id: director-politico-military
     title: Deputy Assistant Secretary of State for Politico-Military Affairs
     titles:
@@ -1767,6 +2880,43 @@ offices:
         to: '1977-03-27'
         src:
           - POCOM
+  - id: politico-military-officers
+    title: Officers for Politico-Military Affairs
+    rank: employee
+    appt: CAREER
+    under: director-politico-military
+    group: Functional bureaus
+    many: true
+    holders:
+      - name: Maechling, Charles W., Jr.
+        title: Director for Internal Defense, Office of Politico-Military Affairs
+        from: '1962-02-06'
+        to: '1963'
+        n: 'Then Special Assistant to the Under Secretary for Political Affairs. Check: the day he left.'
+        src:
+          - FRUS persons list
+      - name: Farley, Philip J.
+        title: Deputy Assistant Secretary of State for Politico-Military Affairs
+        from: '1967'
+        to: 1969-08
+        out: To Deputy Director of the Arms Control and Disarmament Agency.
+        n: 'Check: the day he took office.'
+        src:
+          - FRUS persons list
+      - name: Spiers, Ronald I.
+        title: Deputy Assistant Secretary of State for Politico-Military Affairs
+        from: '1969-08-15'
+        to: '1969-09-18'
+        out: To Director of the Bureau.
+        src:
+          - POCOM
+      - name: Garthoff, Raymond L.
+        title: Deputy Director, Bureau of Politico-Military Affairs
+        from: '1970'
+        to: '1973'
+        n: 'Executive officer and senior adviser to the SALT delegation. Check: the days.'
+        src:
+          - FRUS persons list
   - id: legal-adviser
     title: Legal Adviser
     rank: principal
@@ -1837,6 +2987,37 @@ offices:
         to: '1974-07-09'
         src:
           - POCOM
+  - id: legal-adviser-staff
+    title: Deputy and Assistant Legal Advisers
+    rank: employee
+    appt: CAREER
+    under: legal-adviser
+    group: Staff offices
+    many: true
+    holders:
+      - name: Yingling, Raymond T.
+        title: Assistant Legal Adviser for European Affairs; for Special Functional Problems from Oct. 9, 1957
+        from: '1955'
+        to: '1963'
+        n: 'Check: the days.'
+        src:
+          - FRUS persons list
+      - name: Meeker, Leonard C.
+        given: Leonard Carpenter
+        title: Deputy Legal Adviser
+        from: '1957-04-03'
+        to: 1964-06
+        n: Acting Deputy Legal Adviser from Apr. 3, 1957; Deputy Legal Adviser in CDIR 1961-04; Acting Legal Adviser, June 1964–May 1965.
+        src:
+          - FRUS persons list
+          - CDIR 1961-04
+      - name: Bevans, Charles I.
+        title: Assistant Legal Adviser for Treaty Affairs
+        from: '1961'
+        to: '1963'
+        n: FRUS 1961–63 lists the post without dates.
+        src:
+          - FRUS persons list
   - id: director-policy-planning
     title: Director of the Policy Planning Staff
     titles:
@@ -1926,6 +3107,88 @@ offices:
         n: Originally designated Director of the Planning and Coordination Staff; Director of the Policy Planning Staff from Feb 27, 1974.
         src:
           - POCOM
+  - id: policy-planning-members
+    title: Member of the Policy Planning Staff
+    titles:
+      - title: Member of the Policy Planning Council
+        from: 1961-02
+    rank: employee
+    appt: HD
+    under: director-policy-planning
+    group: Staff offices
+    many: true
+    holders:
+      - name: Owen, Henry D.
+        given: Henry David
+        from: '1955'
+        to: '1966-06-19'
+        out: To Chairman of the Council.
+        n: 'Member until Nov. 25, 1962; then Vice Chairman. Check: the day he joined.'
+        src:
+          - FRUS persons list
+      - name: Morgan, George A.
+        from: 1958-04
+        to: 1962-06
+        n: Member, Apr. 1958–Aug. 1959; then Deputy Assistant Secretary for Policy Planning; Deputy Counselor in CDIR 1961-04. To Director of the Foreign Service Institute, June 10, 1962.
+        src:
+          - FRUS persons list
+          - CDIR 1961-04
+      - name: Rice, Edward E.
+        from: '1959'
+        to: '1962-01-01'
+        out: To Deputy Assistant Secretary for Far Eastern Affairs.
+        n: 'Check: the day he joined.'
+        src:
+          - FRUS persons list
+      - name: Wilson, Evan M.
+        from: 1959-10
+        to: '1961'
+        n: 'Check: the day he left.'
+        src:
+          - FRUS persons list
+      - name: Curtis, John R., Jr.
+        title: Staff Assistant, Policy Planning Council
+        from: 1961-08
+        to: 1962-03
+        src:
+          - FRUS persons list
+      - name: Jorden, William J.
+        from: '1961-08-01'
+        to: '1965'
+        n: 'Check: the day he left.'
+        src:
+          - FRUS persons list
+      - name: Johnson, Robert H.
+        from: 1962-02
+        to: '1967'
+        n: 'NSC staff until February 1962. Check: FRUS also gives "after August 1963"; and the day he left.'
+        src:
+          - FRUS persons list
+      - name: Fried, Edward R.
+        from: '1963'
+        to: '1965-10-24'
+        out: To Deputy Assistant Secretary for International Resources.
+        n: 'Check: the day he joined.'
+        src:
+          - FRUS persons list
+      - name: Huizenga, John W.
+        from: '1964'
+        to: '1966'
+        out: To Deputy Director, Office of National Estimates, CIA.
+        n: 'Check: the days.'
+        src:
+          - FRUS persons list
+      - name: Brewer, William D.
+        from: 1965-09
+        to: 1966-11
+        src:
+          - FRUS persons list
+      - name: Brzezinski, Zbigniew
+        from: 1966-06
+        to: '1968'
+        n: 'FRUS: June 1966–1967. Check: the day he left.'
+        src:
+          - FRUS persons list
   - id: executive-secretary
     title: Director of the Executive Secretariat
     titles:
@@ -2012,6 +3275,43 @@ offices:
         from: '1974-01-31'
         to: '1976-07-14'
         src:
+          - POCOM
+  - id: executive-secretariat-staff
+    title: Officers of the Executive Secretariat
+    rank: employee
+    appt: CAREER
+    under: executive-secretary
+    group: Staff offices
+    many: true
+    holders:
+      - name: Kitchen, Jeffrey C.
+        title: Deputy Director of the Executive Secretariat
+        from: '1953-01-23'
+        to: '1955'
+        n: 'Special Assistant to the Secretary, Nov. 9, 1952–Jan. 23, 1953. Check: the day he left.'
+        src:
+          - FRUS persons list
+      - name: Swank, Emory C.
+        title: Deputy Director of the Executive Secretariat; Acting Special Assistant to the Secretary
+        from: '1960'
+        to: '1961'
+        n: 'Check: the days; in CDIR 1961-04.'
+        src:
+          - CDIR 1961-04
+      - name: Pezzullo, Lawrence
+        title: Executive Secretariat Staff
+        from: '1961'
+        to: '1963'
+        n: FRUS 1961–63 lists the post without dates.
+        src:
+          - FRUS persons list
+      - name: Brubeck, William H.
+        title: Deputy Executive Secretary
+        from: 1961-12
+        to: '1962-05-14'
+        out: To Executive Secretary.
+        src:
+          - CDIR 1962-01
           - POCOM
   - id: chief-of-protocol
     title: Chief of Protocol
@@ -2303,6 +3603,141 @@ offices:
         to: '1976-04-23'
         src:
           - POCOM
+  - id: language-services
+    title: Interpreters, Division of Language Services
+    rank: employee
+    appt: CAREER
+    group: Staff offices
+    many: true
+    n: The Department's interpreters named in the series' FRUS documents.
+    holders:
+      - name: Lejins, Nora M.
+        title: Assistant Chief, Division of Language Services; interpreter
+        from: '1955'
+        to: '1963'
+        n: 'Assistant Chief until October 1958. Check: the days.'
+        src:
+          - FRUS persons list
+      - name: Akalovsky, Alexander
+        title: Interpreter; Officer in Charge of General Disarmament Negotiations, U.S. Disarmament Administration
+        from: '1958'
+        to: '1963'
+        n: 'Interpreter for the Department and the Arms Control and Disarmament Agency. Check: the days.'
+        src:
+          - FRUS persons list
+      - name: Glenn, Edmund S.
+        title: Language Services
+        from: '1961'
+        to: '1963'
+        n: FRUS 1961–63 lists the post without dates.
+        src:
+          - FRUS persons list
+      - name: Kamman, Curtis W.
+        title: Interpreter
+        from: '1961'
+        to: '1963'
+        n: FRUS 1961–63 lists the post without dates.
+        src:
+          - FRUS persons list
+      - name: Wickel, James J.
+        title: Interpreter
+        from: '1961'
+        to: '1963'
+        n: 'Later Special Assistant in the Executive Section of the Embassy in Tokyo. Check: the days.'
+        src:
+          - FRUS persons list
+  - id: disarmament-administration
+    title: Deputy Director, United States Disarmament Administration
+    rank: inferior
+    appt: HD
+    group: Disarmament
+    from: 1960-09
+    until: '1961-09-26'
+    n: 'Set up in the Department by the Secretary in September 1960; its functions to the Arms Control and Disarmament Agency, Sept. 26, 1961. Check: the day it was set up.'
+    holders:
+      - name: Gullion, Edmund A.
+        acting: true
+        from: 1960-09
+        to: '1961-08-03'
+        out: To Ambassador to the Republic of the Congo.
+        src:
+          - FRUS persons list
+          - CDIR 1961-04
+  - id: disarmament-officers
+    title: Officers for disarmament, atomic energy, and outer space
+    rank: employee
+    appt: CAREER
+    group: Disarmament
+    many: true
+    holders:
+      - name: Spiers, Ronald I.
+        title: Officer in Charge of Disarmament Affairs; Chief, Political Office, Disarmament Administration
+        from: '1958'
+        to: '1961'
+        n: 'Officer in Charge until October 1960. Check: the days.'
+        src:
+          - FRUS persons list
+      - name: Goodby, James E.
+        title: Officer in Charge, Nuclear Test Negotiations
+        from: '1961'
+        to: '1963'
+        n: FRUS 1961–63 lists the post without dates.
+        src:
+          - FRUS persons list
+      - name: Gathright, Wreatham E.
+        title: Office of the Special Assistant for Atomic Energy and Outer Space
+        from: 1961-03
+        to: 1962-04
+        out: To the Arms Control and Disarmament Agency.
+        src:
+          - FRUS persons list
+  - id: adviser-disarmament
+    title: Adviser to the President on Disarmament
+    rank: principal
+    appt: PA
+    group: Disarmament
+    many: true
+    from: 1961-01
+    until: '1961-09-26'
+    n: Listed with the Department of State in the Congressional Directory. Coordinated the Kennedy administration's disarmament study until the Arms Control and Disarmament Agency was set up.
+    holders:
+      - name: Fisher, Adrian S.
+        title: Deputy to the Adviser
+        from: '1961'
+        to: '1961-09-26'
+        n: 'Check: the day he took office.'
+        src:
+          - CDIR 1961-04
+      - name: McCloy, John J.
+        from: 1961-01
+        to: '1961-09-26'
+        n: 'Later the President''s coordinator for the U.S.-Soviet negotiations over Cuba at the United Nations (Oct. 1962–Jan. 1963), and Chairman of the ACDA''s General Advisory Committee. Check: the days.'
+        src:
+          - FRUS persons list
+          - CDIR 1961-04
+  - id: vietnam-task-force
+    title: Director, Interdepartmental Task Force on Vietnam
+    titles:
+      - title: Chairman, Vietnam Interdepartmental Working Group
+        from: '1963-08-04'
+    rank: employee
+    appt: HD
+    group: Task forces
+    from: 1961-05
+    n: The Department's coordinating group on Vietnam.
+    holders:
+      - name: Cottrell, Sterling J.
+        from: 1961-05
+        to: 1962-06
+        n: Political Adviser to CINCPAC until April 1961. Thereafter Deputy Director and Chairman of the Task Force on Southeast Asia.
+        src:
+          - FRUS persons list
+      - name: Kattenburg, Paul M.
+        from: '1963-08-04'
+        to: '1964'
+        n: 'Check: the day he left.'
+        src:
+          - FRUS persons list
   - id: administrator-tca
     title: Administrator of the Technical Cooperation Administration
     rank: inferior
@@ -2439,3 +3874,93 @@ offices:
         n: Deputy Secretary of State; Acting Secretary of State.
         src:
           - POCOM
+  - id: special-assistants
+    title: Special Assistant to the Secretary of State
+    rank: inferior
+    appt: HD
+    under: secretary
+    group: Office of the Secretary
+    many: true
+    n: The Secretary's special assistants and advisers, with their designations.
+    holders:
+      - name: Hanes, John W., Jr.
+        from: '1953-01-21'
+        to: '1957-04-08'
+        out: To Deputy Assistant Secretary for International Organization Affairs.
+        src:
+          - FRUS persons list
+      - name: O’Connor, Roderic L.
+        from: '1953-01-21'
+        to: '1957-05-28'
+        out: To Administrator, Bureau of Security and Consular Affairs.
+        n: Assistant to the Secretary from Jan. 21, 1953; Special Assistant from Feb. 21, 1954.
+        src:
+          - FRUS persons list
+          - POCOM
+      - name: Bernau, Phyllis D.
+        title: Personal Assistant to the Secretary
+        from: '1953-01-21'
+        to: '1963'
+        n: 'Personal assistant to Dulles; Personal Assistant to the Secretary in CDIR 1961-04. Check: the days.'
+        src:
+          - FRUS persons list
+          - CDIR 1961-04
+      - name: Nolting, Frederick E., Jr.
+        title: Special Assistant to the Secretary for Mutual Security Affairs
+        from: '1953-08-04'
+        to: '1955'
+        n: 'Acting to Jan. 4, 1954. Check: the day he left.'
+        src:
+          - FRUS persons list
+      - name: Greene, Joseph N., Jr.
+        from: '1957-10-21'
+        to: '1959'
+        n: 'Director of the Executive Secretariat, Sept. 9, 1956–Oct. 21, 1957 (FRUS; another list calls him Deputy Director). Check: the day he left.'
+        src:
+          - FRUS persons list
+      - name: Lacy, William S. B.
+        title: Special Assistant to the Secretary for East-West Exchanges
+        from: '1958'
+        to: '1961'
+        n: 'Check: the days; in CDIR 1961-04.'
+        src:
+          - CDIR 1961-04
+      - name: Bohlen, Charles E.
+        given: Charles Eustis
+        title: Special Assistant to the Secretary (Soviet affairs)
+        from: '1959'
+        to: 1962-10
+        out: To Ambassador to France.
+        n: 'Check: the days; in CDIR 1961-04 and 1962-01.'
+        src:
+          - CDIR 1961-04
+      - name: Whitman, Walter G.
+        title: Science Adviser
+        from: '1960'
+        to: '1962'
+        n: 'Check: the days; in CDIR 1961-04.'
+        src:
+          - FRUS persons list
+          - CDIR 1961-04
+      - name: Farley, Philip J.
+        title: Special Assistant to the Secretary for Atomic Energy and Outer Space
+        from: '1961'
+        to: 1962-03
+        n: 'FRUS: August 1961–March 1962; in CDIR 1961-04 already. Check: the day he took office.'
+        src:
+          - FRUS persons list
+          - CDIR 1961-04
+      - name: Riddleberger, James W.
+        given: James Williams
+        from: '1961-02-23'
+        to: 1961-08
+        n: Head of the U.S. delegation to the Development Assistance Group meeting, July 1961.
+        src:
+          - FRUS persons list
+      - name: Garthoff, Raymond L.
+        title: Special Assistant for Politico-Military Affairs
+        from: 1962-02
+        to: '1964'
+        n: 'Check: the day he left.'
+        src:
+          - FRUS persons list
