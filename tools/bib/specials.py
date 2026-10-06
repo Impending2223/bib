@@ -14,7 +14,9 @@ STYLE:
     under another party (Watson, 1965) counts so, and the note says so.
  3. Swing: the change in the Democratic share of the two-party vote from the general election that
     chose the Congress, in the same district (the lines do not change within a Congress); none where
-    either race lacked a Democrat or a Republican.
+    either race lacked a Democrat or a Republican. Under the margin in the tables ("swing 2.3 to R").
+    Net change: as for the general elections, the change in the Democratic margin, from the departed
+    members to the winners ("net change: R+2").
  4. "Check" in a race's note marks what the sources disagree on (a date, shares that do not add to 100).
 """
 import json
@@ -116,10 +118,20 @@ def record(c, x, edata):
             rec["mg"] = mg
     else:
         rec["sh"], rec["u"] = 100.0, 1
-    a, b = dshare(rows), general_dshare(c, x, edata)
-    if a is not None and b is not None:
-        rec["sw"], rec["swb"] = round(a - b, 1), "seat"
+    sw = swing(c, x, edata)
+    if sw is not None:
+        rec["sw"], rec["swb"] = sw, "seat"
     return rec
+
+
+def swing(c, x, edata):
+    """Points toward the Democrats (+) or Republicans (−), from the general election in the same seat."""
+    a, b = dshare(final(x)), general_dshare(c, x, edata)
+    return round(a - b, 1) if a is not None and b is not None else None
+
+
+def swing_words(v):
+    return "no swing" if abs(v) < 0.05 else f"swing {abs(v):.1f} to {'D' if v > 0 else 'R'}"
 
 
 # ---------------------------------------------------------------- the block
@@ -136,12 +148,9 @@ def summary(c, sp):
         for p, n in sorted(gains.items()):
             where = ", ".join((x["st"] + (f" {x['seat']}" if ch == "h" else "")) for x in xs if x.get("flip") and x["party"] == p)
             bits.append(f"{NAME.get(p, p)} pickup{'s' if n > 1 else ''} {n} ({where})")
-        net = Counter()
-        for x in xs:
-            if x.get("flip"):
-                net[x["party"]] += 1
-                net[x["out_party"]] -= 1
-        nets = "; net " + ", ".join(f"{NAME.get(p, p)} {'+' if v > 0 else '−'}{abs(v)}" for p, v in sorted(net.items()) if v) if any(net.values()) else ""
+        from .elections import net_change
+        net = net_change(Counter(x["out_party"] for x in xs), Counter(x["party"] for x in xs))
+        nets = f"; net change: {net}" if net != "none" else ""
         out.append(f"{label}, {len(xs)} special election{'s' if len(xs) > 1 else ''}: " + "; ".join(bits) + nets + ".")
     return out
 
@@ -167,17 +176,17 @@ def note_cell(x):
     return " ".join(bits)
 
 
-def table(c, sp, open_=False):
+def table(c, sp, edata, open_=False):
     from .congress import STATE
     out = [f'<details class="cgr er"{" open" if open_ else ""}><summary>Races, {len(sp)}, by date</summary><table>'
            '<colgroup><col class="c1"><col class="c2"><col class="c3"><col class="c4"></colgroup>'
            '<thead><tr><th>Date, seat</th><th>Candidates, votes, share</th><th>Margin</th><th>Vacancy; note</th></tr></thead><tbody>']
-    out += [row(x, STATE) for x in sp]
+    out += [row(x, STATE, swing(c, x, edata)) for x in sp]
     out.append("</tbody></table></details>")
     return "\n".join(out)
 
 
-def row(x, STATE):
+def row(x, STATE, sw=None):
     where = (f'<span title="{esc(STATE[x["st"]])}">{x["st"]} {"AL" if x["seat"] == 0 else x["seat"]}</span>' if x["ch"] == "h"
              else f'<span title="{esc(STATE[x["st"]])}, class {("I", "II", "III")[x["seat"] - 1]}">{x["st"]}, Senate</span>')
     cells = []
@@ -193,6 +202,8 @@ def row(x, STATE):
         cells.append(cand_cell(rows, False))
     mg = margin(rows)
     mcell = f"{mg:.1f} pts" if mg is not None else "Unopposed"
+    if sw is not None:
+        mcell += f'<br><span class="es">{swing_words(sw)}</span>'
     wp = x["party"] if x["party"] in ("D", "R") else ""
     return (f'<tr id="{rid(x)}" class="{"pk" if x.get("flip") else ""} w{wp}"><td>{esc(fmt_date(x["date"]))}<br>{where}</td>'
             f'<td class="ecs">{"".join(cells)}</td><td class="em">{mcell}</td><td class="eno">{note_cell(x)}</td></tr>')
@@ -234,7 +245,7 @@ def block(c, edata=None):
                  '<div class="cgv" style="aspect-ratio:960/660"></div></figure>')
     out.append(f'<div class="cgmaps">{figs}</div><span data-views="r s{" w" if has_sw else ""}"></span>')
     out.append(legend(has_sw))
-    out.append(table(c, sp))
+    out.append(table(c, sp, edata))
     out.append('<p class="elsrc">Specials held between general elections; those held with the November election are in its '
                'block, from the Clerk. Returns: Wikipedia\'s tables of each year\'s House specials, which give shares, not votes; '
                'Texas, 1961: votes from Bartley and Graham, <i>Southern Elections</i>. The official returns are the States\' '
@@ -247,6 +258,8 @@ def block(c, edata=None):
 def race_block(key, edata=None):
     """One race's table, for the calendar entry tagged special:<key>."""
     from .congress import STATE
+    from . import elections
+    edata = edata if edata is not None else elections.load()
     for c, xs in load().items():
         for x in xs:
             if x["key"] == key:
@@ -255,7 +268,7 @@ def race_block(key, edata=None):
                         f'{esc(fmt_date(x["date"]))}</summary><table>'
                         '<colgroup><col class="c1"><col class="c2"><col class="c3"><col class="c4"></colgroup>'
                         '<thead><tr><th>Date, seat</th><th>Candidates, votes, share</th><th>Margin</th><th>Vacancy; note</th></tr></thead><tbody>'
-                        + row(x, STATE) + '</tbody></table></details>'
+                        + row(x, STATE, swing(c, x, edata)) + '</tbody></table></details>'
                         f'<p class="elsrc">{src}. <a href="congress.html#{rid(x)}">All the specials of the '
                         f'{ordinal(c)} Congress</a>.</p></div>')
     return ""

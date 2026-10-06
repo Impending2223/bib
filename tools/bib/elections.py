@@ -21,7 +21,9 @@ Definitions (STYLE, settled):
     incumbents as Wikipedia lists them, with redistricted members under the district they ran in, and a
     vacant seat under the member who last held it). A new member of the incumbent's party is a member
     change, shaded lightly. A new seat has no incumbent.
- 6. Net change: the seats won, by caucus, less the seats held at the close of the last Congress (the
+ 6. Net change: the change in the Democratic margin over the Republicans, (D1 − R1) − (D0 − R0), from
+    the close of the last Congress to the seats won, by caucus, stated for the party that gained it
+    ("Net change from prior close: R+41"). The close: the seats held at the close of the last Congress (the
     members sitting at the election; a vacant seat with the party that last held it). In the Senate,
     the seats at stake only.
  7. Swing: the change in the Democratic share of the two-party vote (Democratic votes over Democratic
@@ -329,6 +331,13 @@ def signed(v):
     return f"+{v}" if v > 0 else f"\u2212{-v}" if v < 0 else "0"
 
 
+def net_change(before, after):
+    """The change in the Democratic margin over the Republicans, (D1 − R1) − (D0 − R0), stated for the
+    party that gained it: 'R+41'; 'none'. Counts by caucus."""
+    m = (after.get("D", 0) - after.get("R", 0)) - (before.get("D", 0) - before.get("R", 0))
+    return f"D+{m}" if m > 0 else f"R+{-m}" if m < 0 else "none"
+
+
 def summary(year, data):
     """Seats won by party; the net change by caucus from the seats held at the close of the last
     Congress (the members sitting at the election, a vacant seat with the party that last held it);
@@ -352,12 +361,7 @@ def summary(year, data):
                     seen.add(i["n"])
                     before[caucus(i)] += 1
         after = Counter(caucus(c) for r, c in wins)
-        net = {p: after.get(p, 0) - before.get(p, 0) for p in ("D", "R")}
-        if any(net.values()):
-            line += f" Net change from the close of the {ordinal(E['congress'] - 1)} Congress: " + \
-                ", ".join(f"{NAME[p]} {signed(v)}" for p, v in sorted(net.items(), key=lambda kv: -kv[1]) if v) + "."
-        else:
-            line += f" No net change from the close of the {ordinal(E['congress'] - 1)} Congress."
+        line += f" Net change from prior close: {net_change(before, after)}."
         pk = Counter(caucus(c) for r, c in wins if kind(r, c) == "pickup")
         ch_ = sum(1 for r, c in wins if kind(r, c) == "change")
         new = sum(1 for r, c in wins if kind(r, c) == "new")
