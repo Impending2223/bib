@@ -15,8 +15,8 @@ STYLE:
  3. Swing: the change in the Democratic share of the two-party vote from the general election that
     chose the Congress, in the same district (the lines do not change within a Congress); none where
     either race lacked a Democrat or a Republican. Under the margin in the tables ("swing 2.3 to R").
-    Net change: as for the general elections, the change in the Democratic margin, from the departed
-    members to the winners ("net change: R+2").
+    Net change: as for the general elections, the gaining party's seats, from the departed members to
+    the winners ("net change: R+1").
  4. "Check" in a race's note marks what the sources disagree on (a date, shares that do not add to 100).
 """
 import json

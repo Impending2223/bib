@@ -21,9 +21,10 @@ Definitions (STYLE, settled):
     incumbents as Wikipedia lists them, with redistricted members under the district they ran in, and a
     vacant seat under the member who last held it). A new member of the incumbent's party is a member
     change, shaded lightly. A new seat has no incumbent.
- 6. Net change: the change in the Democratic margin over the Republicans, (D1 − R1) − (D0 − R0), from
-    the close of the last Congress to the seats won, by caucus, stated for the party that gained it
-    ("Net change from prior close: R+41"). The close: the seats held at the close of the last Congress (the
+ 6. Net change: the seats the gaining party gained, by caucus, from the close of the last Congress to
+    the seats won ("Net change from prior close: R+20"); the other party's change follows only where
+    it does not mirror the gain, as when a new seat was added ("D+49 (R−48)"). The close: the seats held
+    at the close of the last Congress (the
     members sitting at the election; a vacant seat with the party that last held it). In the Senate,
     the seats at stake only.
  7. Swing: the change in the Democratic share of the two-party vote (Democratic votes over Democratic
@@ -332,10 +333,14 @@ def signed(v):
 
 
 def net_change(before, after):
-    """The change in the Democratic margin over the Republicans, (D1 − R1) − (D0 − R0), stated for the
-    party that gained it: 'R+41'; 'none'. Counts by caucus."""
-    m = (after.get("D", 0) - after.get("R", 0)) - (before.get("D", 0) - before.get("R", 0))
-    return f"D+{m}" if m > 0 else f"R+{-m}" if m < 0 else "none"
+    """The seats the gaining party gained, by caucus: 'R+20'. The other party's change follows only where
+    it does not mirror the gain (a new seat, a third member): 'D+49 (R−48)'. 'none' where neither changed."""
+    d, r = after.get("D", 0) - before.get("D", 0), after.get("R", 0) - before.get("R", 0)
+    if not d and not r:
+        return "none"
+    gain, other = (("D", d), ("R", r)) if d > r else (("R", r), ("D", d))
+    out = f"{gain[0]}{signed(gain[1])}"
+    return out if other[1] == -gain[1] else f"{out} ({other[0]}{signed(other[1])})"
 
 
 def summary(year, data):
@@ -360,7 +365,7 @@ def summary(year, data):
                 if i["n"] not in seen:
                     seen.add(i["n"])
                     before[caucus(i)] += 1
-        after = Counter(caucus(c) for r, c in wins)
+        after = Counter(caucus(c) for c in {c["n"]: c for r, c in wins}.values())   # one member who won two races (Oregon, 1960) once
         line += f" Net change from prior close: {net_change(before, after)}."
         pk = Counter(caucus(c) for r, c in wins if kind(r, c) == "pickup")
         ch_ = sum(1 for r, c in wins if kind(r, c) == "change")
