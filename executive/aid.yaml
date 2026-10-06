@@ -29,7 +29,7 @@ law:
     tags: [creates, appointment, reorganizes, powers]
     cite: Pub. L. 87-195, § 624, 75 Stat. 424, 445
     usc: 22 U.S.C. § 2384 (1964)
-    does: 'Officers to administer the Act: one with the rank of an Under Secretary of an executive department, one with the rank of a Deputy Under Secretary, and up to ten with the rank of an Assistant Secretary, appointed by the President with the advice and consent of the Senate (§ 624(a)); abolishes the International Cooperation Administration and the Development Loan Fund, their functions to the President.'
+    does: The President may appoint, with the advice and consent of the Senate, an officer with the rank of an Under Secretary of an executive department to direct the programs, and other officers to administer them (§ 624(a)); abolishes the International Cooperation Administration and the Development Loan Fund, their functions to the President.
   - act: Executive Order 10973
     date: '1961-11-03'
     tags: [creates, powers, appointment]
@@ -54,6 +54,8 @@ offices:
     holders:
       - name: Hollister, John B.
         given: John Baker
+        nominated: '1955-05-25'
+        confirmed: '1955-06-15'
         appointed: '1955-07-01'
         from: '1955-07-01'
         to: '1957-09-13'
@@ -61,15 +63,20 @@ offices:
         src:
           - POCOM
           - FRUS persons list
+          - Cong. Rec.
       - name: Smith, James H., Jr.
         given: James Hopkins
+        nominated: '1957-08-09'
+        confirmed: '1957-08-19'
         appointed: '1957-10-04'
         from: '1957-10-08'
         to: '1959-01-31'
         src:
           - POCOM
+          - Cong. Rec.
       - name: Riddleberger, James W.
         given: James Williams
+        confirmed: '1959-03-09'
         appointed: '1959-03-09'
         from: '1959-03-09'
         to: '1961-02-22'
@@ -77,24 +84,35 @@ offices:
         src:
           - POCOM
           - FRUS persons list
+          - Cong. Rec.
       - name: Labouisse, Henry R.
+        nominated: '1961-02-16'
+        confirmed: '1961-02-22'
         from: '1961-02-22'
         to: '1961-10-03'
         n: 'Check: FRUS gives Feb. 22–Oct. 6, Feb. 22–Oct. 3, and Mar. 1–Oct. 3, 1961; Wikipedia ends the tenure Sept. 4.'
         src:
           - FRUS persons list
           - 'Wikipedia: Henry R. Labouisse'
+          - Cong. Rec.
+          - Cong. Rec. Index
       - name: Hamilton, Fowler
+        nominated: '1961-09-20'
+        confirmed: '1961-09-23'
         appointed: '1961-09-30'
         from: '1961-10-03'
         to: '1962-12-07'
         out: Resigned.
-        n: Administrator of the Agency for International Development from its establishment, Nov. 3, 1961; in charge of the ICA and the Development Loan Fund until then. POCOM gives Sept. 30, 1961, for taking office; FRUS and Wikipedia Oct. 3.
+        n: Sworn in Oct. 3, 1961 (APP); POCOM gives Sept. 30. Administrator of the Agency for International Development from its establishment, Nov. 3, 1961; in charge of the ICA and the Development Loan Fund until then.
         src:
           - POCOM
           - FRUS persons list
+          - APP
+          - Cong. Rec.
       - name: Bell, David E.
         given: David Elliott
+        nominated: '1963-01-15'
+        confirmed: '1963-02-19'
         recess: '1962-12-17'
         appointed: '1963-02-27'
         from: '1962-12-21'
@@ -102,13 +120,16 @@ offices:
         src:
           - POCOM
           - FRUS persons list
+          - Cong. Rec.
       - name: Gaud, William S.
         given: William Steen
+        nominated: '1966-06-30'
         appointed: '1966-08-01'
         from: '1966-08-03'
         to: '1969-01-10'
         src:
           - POCOM
+          - Cong. Rec.
       - name: Poats, Rutherford M.
         acting: true
         from: 1969-01
@@ -118,17 +139,23 @@ offices:
           - CDIR 1969-03
           - FRUS persons list
       - name: Hannah, John A.
+        nominated: '1969-02-17'
+        confirmed: '1969-03-27'
         appointed: '1969-03-28'
         from: '1969-04-02'
         to: '1973-10-07'
         src:
           - POCOM
           - 'Wikipedia: John A. Hannah'
+          - Cong. Rec.
       - name: Parker, Daniel
+        nominated: '1973-09-07'
+        confirmed: '1973-10-12'
         appointed: '1973-10-15'
         from: '1973-10-31'
         src:
           - POCOM
+          - Cong. Rec.
   - id: deputy-administrator
     title: Deputy Director of the International Cooperation Administration
     titles:
@@ -156,6 +183,7 @@ offices:
           - CDIR 1964-01
       - name: Gaud, William S.
         given: William Steen
+        confirmed: '1964-02-25'
         from: 1964-02
         to: '1966-08-01'
         out: To Administrator.
@@ -163,12 +191,16 @@ offices:
         src:
           - FRUS persons list
           - CDIR 1965-03
+          - Cong. Rec.
       - name: Poats, Rutherford M.
+        nominated: '1967-02-20'
+        confirmed: '1967-05-16'
         from: 1967-05
         to: 1971-01
         n: 'Assistant Administrator for the Far East, Apr. 1964–May 1967. Acting Administrator, Jan.–Apr. 1969. Detailed to the Overseas Private Investment Corporation from January 1971. Check: the days.'
         src:
           - FRUS persons list
+          - Cong. Rec.
       - name: Williams, Maurice J.
         from: 1971-01
         n: 'Assistant Administrator for Near East and South Asia in CDIR 1969-12; Deputy Administrator in CDIR 1971-03 and after. Check: the day he took office.'
@@ -176,6 +208,19 @@ offices:
           - CDIR 1971-03
           - CDIR 1973-12
           - FRUS persons list
+  - id: executive-secretary
+    title: Executive Secretary of the Agency for International Development
+    rank: employee
+    appt: HD
+    from: '1961-11-03'
+    holders:
+      - name: Toner, Joseph S.
+        from: 1961-11
+        to: '1963'
+        n: 'Secretary of the Development Loan Fund in CDIR 1959-03 and 1960-01; Executive Secretary of AID in CDIR 1962-01. Check: the days.'
+        src:
+          - CDIR 1960-01
+          - CDIR 1962-01
   - id: general-counsel
     title: General Counsel of the International Cooperation Administration
     titles:
@@ -229,11 +274,13 @@ offices:
     from: '1961-11-03'
     holders:
       - name: Chenery, Hollis B.
+        confirmed: '1962-10-02'
         from: 1961-10
         to: 1964-11
         n: 'Assistant Administrator for Program, Office of Program Coordination, until November 1964. Check: the days.'
         src:
           - FRUS persons list
+          - Cong. Rec.
   - id: latin-america
     title: Regional Director for Latin American Operations
     titles:
@@ -262,6 +309,7 @@ offices:
           - CDIR 1961-04
           - FRUS persons list
       - name: Moscoso, Teodoro
+        confirmed: '1962-02-05'
         from: 1961-11
         to: '1964'
         n: 'Ambassador to Venezuela, May–Nov. 1961. Assistant Administrator for Latin America and U.S. Coordinator, Alliance for Progress. Check: the days.'
@@ -269,6 +317,7 @@ offices:
           - FRUS persons list
           - 'Wikipedia: Teodoro Moscoso'
           - CDIR 1963-03
+          - Cong. Rec.
   - id: far-east
     title: Regional Director for Far East, Foreign Operations
     titles:
@@ -299,22 +348,30 @@ offices:
           - FRUS persons list
           - CDIR 1961-04
       - name: Janow, Seymour J.
+        nominated: '1962-01-15'
+        confirmed: '1962-02-05'
         from: '1962-01-03'
         to: 1964-04
         src:
           - FRUS persons list
+          - Cong. Rec.
       - name: Poats, Rutherford M.
+        nominated: '1964-03-04'
+        confirmed: '1964-04-07'
         from: 1964-04
         to: 1967-05
         out: To Deputy Administrator.
         src:
           - FRUS persons list
+          - Cong. Rec.
       - name: Bullitt, John C.
+        confirmed: '1967-04-17'
         from: 1967-05
         to: '1969'
         n: 'Assistant Secretary of the Treasury for International Affairs, 1962–64. Check: the days.'
         src:
           - FRUS persons list
+          - Cong. Rec.
       - name: O’Connor, Roderic L.
         from: 1969-08
         to: 1971-06
@@ -375,18 +432,22 @@ offices:
           - CDIR 1961-04
       - name: Gaud, William S.
         given: William Steen
+        confirmed: '1962-02-05'
         from: '1961-11-08'
         to: 1964-02
         out: To Deputy Administrator.
         src:
           - FRUS persons list
+          - Cong. Rec.
       - name: Macomber, William B., Jr.
         given: William Butts
+        confirmed: '1964-02-25'
         from: 1964-02
         to: 1967-03
         out: To Assistant Secretary of State for Congressional Relations.
         src:
           - FRUS persons list
+          - Cong. Rec.
       - name: Williams, Maurice J.
         from: '1969'
         to: '1971'
@@ -431,12 +492,14 @@ offices:
           - CDIR 1960-01
           - CDIR 1961-04
       - name: Hutchinson, Edmond C.
+        confirmed: '1962-02-05'
         from: '1962'
         to: '1966'
         n: 'Check: the days; in CDIR 1963-03 through 1966-01.'
         src:
           - CDIR 1963-03
           - CDIR 1966-01
+          - Cong. Rec.
       - name: Kleine, Herman
         acting: true
         from: '1967'
@@ -490,8 +553,8 @@ offices:
         date: '1957-08-14'
         until: '1961-11-03'
         tags: [creates, powers]
-        cite: Pub. L. 85-141, § 8, 71 Stat. 355
-        does: The Development Loan Fund, a corporation under the direction of the Secretary of State, to make loans and guaranties for economic development; a manager. The Act of June 30, 1958 (Mutual Security Act of 1958) gave it a Managing Director, appointed by the President with the advice and consent of the Senate. Abolished by the Foreign Assistance Act of 1961.
+        cite: Pub. L. 85-141, 71 Stat. 355
+        does: The Development Loan Fund, a corporation under the direction of the Secretary of State, to make loans and guaranties for economic development. Its functions went to the Agency for International Development under the Foreign Assistance Act of 1961.
     holders:
       - name: McIntosh, Dempster
         from: '1958-01-03'
@@ -501,19 +564,24 @@ offices:
         src:
           - FRUS persons list
       - name: Brand, Vance
+        nominated: '1959-08-26'
         from: '1959-09-02'
         to: 1961-02
         n: 'Director of the Export-Import Bank. Check: the day he left.'
         src:
           - FRUS persons list
           - CDIR 1960-01
+          - Cong. Rec.
       - name: Coffin, Frank M.
+        nominated: '1961-01-30'
+        confirmed: '1961-02-06'
         from: 1961-02
         to: '1961-09-30'
         out: To Deputy Administrator.
         n: 'Check: the day he took office.'
         src:
           - FRUS persons list
+          - Cong. Rec.
   - id: usom-vietnam
     title: Director, United States Operations Mission, Vietnam
     titles:
@@ -567,3 +635,34 @@ offices:
         n: 'Check: the days.'
         src:
           - FRUS persons list
+  - id: officers
+    title: 'Officers of the Agency'
+    rank: employee
+    appt: HD
+    many: true
+    n: 'Officers named in the series and its FRUS documents, in posts not listed above.'
+    holders:
+      - name: 'Sternfeld, Reuben'
+        title: 'Director, Office of Development Planning'
+        from: '1962'
+        to: '1962'
+        n: 'Drafted a memorandum of conversation, Feb. 16, 1962 (FRUS 1961–63, XII, doc. 41). Later Assistant Director, Council on International Economic Policy (FRUS). Check both dates.'
+        src: ['FRUS 1961–63, XII, doc. 41']
+      - name: 'Funari, John'
+        title: 'Executive Assistant to the Administrator'
+        from: '1962'
+        to: '1962'
+        n: 'Memorandum to the Administrator, June 23, 1962 (FRUS 1961–63, IX, doc. 144). Check both dates.'
+        src: ['FRUS 1961–63, IX, doc. 144']
+      - name: 'Moorman, R. L.'
+        title: 'Deputy Director of Engineering'
+        from: '1962'
+        to: '1962'
+        n: 'Memorandum to the Administrator, Nov. 9, 1962 (FRUS 1961–63, VII–IX, microfiche supp., doc. 419). Check both dates.'
+        src: ['FRUS 1961–63, VII–IX, microfiche supp., doc. 419']
+      - name: 'Vann, John Paul'
+        title: 'Province representative, Operations Mission in Vietnam (Hau Nghia)'
+        from: '1965-03'
+        to: '1966'
+        n: 'Returned to Vietnam with AID, Mar. 1965 (Wikipedia). Check the province and both dates.'
+        src: ['Wikipedia: John Paul Vann', 'FRUS persons list, 1969–76, VIII']

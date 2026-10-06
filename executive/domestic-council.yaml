@@ -1,0 +1,122 @@
+# The Domestic Council, 1970-. Kept by hand. Holders known only from the Congressional Directory (CDIR <edition>) carry year
+# dates and a Check. See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: domestic-council
+name: Domestic Council
+under: eop
+order: 100
+from: '1970-07-01'
+law:
+  - act: Reorganization Plan No. 2 of 1970
+    date: '1970-07-01'
+    cite: '84 Stat. 2085, 2086'
+    usc: '31 U.S.C. § 16 note (1970)'
+    tags: [creates, powers, appointment]
+    does: 'Establishes in the Executive Office a Domestic Council: the President, presiding; the Vice President, the Attorney General, the Secretaries of Agriculture, Commerce, Health, Education, and Welfare, Housing and Urban Development, the Interior, Labor, Transportation, and the Treasury, and others the President directs; to perform such functions as the President assigns; its staff headed by an Executive Director, an assistant to the President designated by the President (Part II).'
+  - act: Executive Order 11541
+    date: '1970-07-01'
+    cite: '35 Fed. Reg. 10737'
+    url: https://www.presidency.ucsb.edu/documents/executive-order-11541-prescribing-the-duties-the-office-management-and-budget-and-the
+    tags: [powers]
+    does: 'The Council to receive and develop information for policy on domestic affairs, consider alternatives, coordinate policy recommendations, and provide continuing review of programs.'
+  - act: Executive Order 11690
+    date: '1972-12-14'
+    url: https://www.presidency.ucsb.edu/documents/executive-order-11690-delegation-certain-functions-the-executive-director-the-domestic
+    tags: [powers, reorganizes]
+    does: Delegates functions to the Executive Director of the Domestic Council, among them those of the Office of Intergovernmental Relations. Check.
+offices:
+  - id: executive-director
+    title: Executive Director of the Domestic Council
+    rank: head
+    appt: DES
+    n: An assistant to the President designated by the President (plan, § 203).
+    holders:
+      - name: Ehrlichman, John D.
+        from: '1970-07-01'
+        to: '1972-12'
+        n: Assistant to the President for Domestic Affairs from Nov. 4, 1969; resigned Apr. 30, 1973. Check the day Cole succeeded as Executive Director.
+        src: [CDIR 1971-03, FRUS persons list, 'Wikipedia: John Ehrlichman']
+      - name: Cole, Kenneth R., Jr.
+        from: '1972-12'
+        n: Deputy Director, 1970–72. Assistant to the President for Domestic Affairs from Jan. 1974. Served to Mar. 1975.
+        src: [FRUS persons list, CDIR 1973-03]
+  - id: deputy-director
+    title: Deputy Director of the Domestic Council
+    rank: principal
+    appt: DES
+    from: '1970-07-01'
+    holders:
+      - name: Cole, Kenneth R., Jr.
+        from: '1970'
+        to: '1972-12'
+        out: To Executive Director.
+        n: Deputy Assistant to the President for Domestic Affairs. Listed in the Congressional Directory, Mar. 1971–Dec. 1971. Check the dates of office.
+        src: [CDIR 1971-03, CDIR 1971-12]
+  - id: assistant-director
+    title: Assistant Director of the Domestic Council
+    rank: inferior
+    appt: PA
+    titles: [{title: Associate Director of the Domestic Council, from: '1973'}]
+    from: '1970-07-01'
+    many: true
+    holders:
+      - name: Harper, Edwin L.
+        from: '1970'
+        to: '1972'
+        n: Special Assistant to the President. Listed in the Congressional Directory, Mar. 1971–Dec. 1971. Check the dates of office.
+        src: [CDIR 1971-03, CDIR 1971-12, FRUS persons list]
+      - name: Krogh, Egil (Bud)
+        from: '1970'
+        to: '1972'
+        n: Deputy Assistant to the President for Domestic Affairs; crime and drugs. To Under Secretary of Transportation, Feb. 2, 1973. Listed in the Congressional Directory, Mar. 1971–Dec. 1971. Check the dates of office.
+        src: [CDIR 1971-03, CDIR 1971-12, FRUS persons list]
+      - name: Morgan, Edward L.
+        to: '1971'
+        from: '1970'
+        n: Listed in the Congressional Directory, Mar. 1971–Dec. 1971. Check the dates of office.
+        src: [CDIR 1971-03, CDIR 1971-12]
+      - name: Whitaker, John C.
+        to: '1971'
+        from: '1970'
+        n: Deputy Assistant to the President; environment and natural resources. Listed in the Congressional Directory, Mar. 1971–Dec. 1971. Check the dates of office.
+        src: [CDIR 1971-03, CDIR 1971-12]
+      - name: Engman, Lewis A.
+        from: '1971'
+        to: '1971'
+        n: Listed in the Congressional Directory, Dec. 1971. Check the dates of office.
+        src: [CDIR 1971-12]
+      - name: Evans, John F., Jr.
+        from: '1971'
+        to: '1971'
+        n: Listed in the Congressional Directory, Dec. 1971. Check the dates of office.
+        src: [CDIR 1971-12]
+  - id: associate-director
+    title: Associate Director of the Domestic Council
+    rank: inferior
+    appt: PA
+    from: '1973'
+    many: true
+    holders:
+      - name: Cavanaugh, James H.
+        from: '1973'
+        n: Listed in the Congressional Directory, Mar. 1973–Dec. 1973. Check the dates of office.
+        src: [CDIR 1973-03, CDIR 1973-12]
+      - name: Falk, James H.
+        from: '1973'
+        n: Listed in the Congressional Directory, Mar. 1973–Dec. 1973. Check the dates of office.
+        src: [CDIR 1973-03, CDIR 1973-12]
+      - name: Mead, Dana G.
+        from: '1973'
+        n: Listed in the Congressional Directory, Mar. 1973–Dec. 1973. Check the dates of office.
+        src: [CDIR 1973-03, CDIR 1973-12]
+      - name: Shepard, Geoffrey C.
+        from: '1973'
+        n: Served to Mar. 3, 1975 (FRUS). Listed in the Congressional Directory, Mar. 1973–Dec. 1973. Check the dates of office.
+        src: [CDIR 1973-03, CDIR 1973-12]
+      - name: Fairbanks, Richard M., III
+        from: '1973-05'
+        to: '1974-05'
+        src: [FRUS persons list, CDIR 1973-12]
+      - name: Raoul-Duval, Michael
+        from: '1974-05'
+        n: Staff assistant, Oct. 1973–May 1974; served to Oct. 1975 (FRUS).
+        src: [FRUS persons list]

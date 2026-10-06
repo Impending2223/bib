@@ -1,0 +1,736 @@
+# The Department of Labor. Kept by hand.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+# Below the Secretary, most dates come from the Congressional Directory's editions (CDIR <date>), so many are
+# years only and carry a "Check". The Department's own list of officials (dol.gov) was not reachable from here.
+unit: labor
+name: Department of Labor
+under: president
+order: 110
+law:
+  - act: Act of Mar. 4, 1913
+    date: '1913-03-04'
+    cite: 'ch. 141, 37 Stat. 736'
+    usc: ['5 U.S.C. §§ 611, 612 (1958)', '29 U.S.C. §§ 551, 552 (1970)']
+    tags: [creates, powers, appointment]
+    does: 'Creates an executive department to be known as the Department of Labor, with a Secretary of Labor at its head, appointed by the President, by and with the advice and consent of the Senate; its purpose to foster, promote and develop the welfare of the wage earners of the United States, to improve their working conditions, and to advance their opportunities for profitable employment. The Bureau of Labor Statistics and the Children''s Bureau transferred to it.'
+  - act: Reorganization Plan No. 6 of 1950
+    date: '1950-05-24'
+    cite: '64 Stat. 1263'
+    usc: '5 U.S.C. § 133z note (1958)'
+    tags: [powers, reorganizes]
+    does: 'Transfers to the Secretary all functions of all other officers, agencies and employees of the Department, except the hearing examiners''; the Secretary may authorize any officer or employee to perform them; an Administrative Assistant Secretary, appointed by the Secretary with the President''s approval under the classified civil service.'
+offices:
+  - id: secretary
+    title: Secretary of Labor
+    rank: head
+    appt: PAS
+    level: I
+    law:
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        cite: 'Pub. L. 88-426, § 303(a), 78 Stat. 400, 416'
+        usc: '5 U.S.C. § 5312 (1970)'
+        tags: [pay]
+        does: 'The Secretary of Labor in level I of the Federal Executive Salary Schedule.'
+    holders:
+      - name: Tobin, Maurice J.
+        from: '1948-08-13'
+        to: '1953-01-20'
+        src: ['Wikipedia: United States Secretary of Labor']
+      - name: Durkin, Martin P.
+        given: Martin Patrick
+        nominated: '1953-01-20'
+        confirmed: '1953-01-21'
+        from: '1953-01-21'
+        to: '1953-09-10'
+        out: Resigned.
+        n: President of the plumbers' union. Resigned over the Taft–Hartley amendments.
+        src: ['Wikipedia: Martin Patrick Durkin', CDIR 1953-03, Cong. Rec.]
+      - name: Mashburn, Lloyd A.
+        acting: true
+        title: Under Secretary of Labor, acting as Secretary
+        from: '1953-09-10'
+        to: '1953-10-09'
+        n: 'The Under Secretary performs the duties of the Secretary in a vacancy (Act of Apr. 17, 1946). Check whether he acted the whole time; he resigned Oct. 9, 1953.'
+        src: ['Annual Report of the Secretary of Labor, FY1953']
+      - name: Mitchell, James P.
+        given: James Paul
+        nominated: '1954-01-11'
+        confirmed: '1954-01-19'
+        from: '1953-10-09'
+        to: '1961-01-20'
+        n: 'Check whether first a recess appointment.'
+        src: ['Wikipedia: James P. Mitchell', CDIR 1954-01, Cong. Rec. Index 1954, Cong. Rec.]
+      - name: Goldberg, Arthur J.
+        given: Arthur Joseph
+        nominated: '1961-01-20'
+        confirmed: '1961-01-21'
+        from: '1961-01-21'
+        to: '1962-09-20'
+        out: To Associate Justice of the Supreme Court.
+        n: 'Check: FRUS gives Sept. 24, 1962, as his last day.'
+        src: ['Wikipedia: Arthur Goldberg', FRUS persons list, Cong. Rec. Index 1961]
+      - name: Wirtz, W. Willard
+        given: William Willard
+        nominated: '1962-08-31'
+        confirmed: '1962-09-20'
+        from: '1962-09-25'
+        to: '1969-01-20'
+        n: Under Secretary, 1961–62. Sworn at the White House.
+        src: ['Wikipedia: W. Willard Wirtz', APP, Cong. Rec.]
+      - name: Shultz, George P.
+        given: George Pratt
+        nominated: '1969-01-20'
+        confirmed: '1969-01-20'
+        from: '1969-01-22'
+        to: '1970-07-01'
+        out: To Director, Office of Management and Budget.
+        src: ['Wikipedia: George Shultz', FRUS persons list, Cong. Rec. Index 1969, Cong. Rec.]
+      - name: Hodgson, James D.
+        given: James Day
+        nominated: '1970-06-12'
+        confirmed: '1970-06-17'
+        from: '1970-07-02'
+        to: '1973-02-01'
+        n: Under Secretary, 1969–70.
+        src: ['Wikipedia: James Day Hodgson', Cong. Rec. Index 1970, Cong. Rec.]
+      - name: Brennan, Peter J.
+        given: Peter Joseph
+        nominated: '1973-01-04'
+        confirmed: '1973-01-31'
+        from: '1973-02-02'
+        n: President of the Building and Construction Trades Council of Greater New York.
+        src: ['Wikipedia: Peter J. Brennan', FRUS persons list, Cong. Rec., Cong. Rec. Index 1973]
+
+  - id: under-secretary
+    title: Under Secretary of Labor
+    rank: principal
+    appt: PAS
+    level: III
+    law:
+      - act: Act of Apr. 17, 1946, § 1
+        date: '1946-04-17'
+        cite: 'ch. 140, § 1, 60 Stat. 91'
+        usc: '29 U.S.C. § 552 (1970)'
+        tags: [creates, appointment, vacancy]
+        does: 'Establishes the office of Under Secretary of Labor, appointed by the President, by and with the advice and consent of the Senate, to perform such duties as the Secretary prescribes, and to perform the duties of the Secretary in a vacancy, or in his absence or sickness.'
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        cite: 'Pub. L. 88-426, § 303(c), 78 Stat. 400, 416'
+        usc: '5 U.S.C. § 5314 (1970)'
+        tags: [pay]
+        does: 'The Under Secretary of Labor in level III.'
+    holders:
+      - name: Mashburn, Lloyd A.
+        nominated: '1953-02-16'
+        confirmed: '1953-02-23'
+        from: '1953-02-24'
+        to: '1953-10-09'
+        out: Resigned.
+        n: 'Sworn Feb. 24, 1953, succeeding Michael J. Galvin, who resigned Jan. 20, 1953. Acting Secretary from Sept. 10, 1953.'
+        src: ['Annual Report of the Secretary of Labor, FY1953', 'Wikipedia: United States Deputy Secretary of Labor', CDIR 1953-03, CDIR 1954-01, Cong. Rec. Index 1953]
+      - name: Larson, Arthur
+        nominated: '1954-03-23'
+        confirmed: '1954-04-05'
+        from: '1954'
+        to: '1956-11'
+        out: To Director, United States Information Agency.
+        n: 'Check the day he took office.'
+        src: [FRUS persons list, CDIR 1955-02, Cong. Rec. Index 1954]
+      - name: O'Connell, James T.
+        from: '1957'
+        to: '1961'
+        n: 'Check both dates.'
+        src: ['Wikipedia: James T. O''Connell', CDIR 1957-03, CDIR 1960-01]
+      - name: Wirtz, W. Willard
+        given: William Willard
+        nominated: '1961-01-21'
+        confirmed: '1961-01-30'
+        from: '1961'
+        to: '1962-09'
+        out: To Secretary of Labor, Sept. 25, 1962.
+        n: 'Check the day he took office.'
+        src: [FRUS persons list, CDIR 1962-01, Cong. Rec., Cong. Rec. Index 1961]
+      - name: Henning, John F.
+        nominated: '1962-09-24'
+        confirmed: '1962-09-26'
+        from: '1962-09-26'
+        to: '1967-04-05'
+        out: To Ambassador to New Zealand.
+        src: ['Wikipedia: John F. Henning', Cong. Rec., Cong. Rec. Index 1962]
+      - name: Reynolds, James J.
+        given: James Joseph
+        from: '1967-04'
+        to: '1969'
+        n: 'Assistant Secretary for Labor-Management Relations, 1961–67. Check both days.'
+        src: [CDIR 1967-12]
+      - name: Hodgson, James D.
+        given: James Day
+        from: '1969'
+        to: '1970'
+        out: To Secretary of Labor, July 2, 1970.
+        n: 'Check the day he took office.'
+        src: ['Wikipedia: James Day Hodgson', CDIR 1969-12]
+      - name: Silberman, Laurence H.
+        nominated: '1970-06-22'
+        confirmed: '1970-09-01'
+        from: '1970'
+        to: '1973'
+        n: 'Solicitor, 1969–70. Check both dates.'
+        src: ['Wikipedia: Laurence Silberman', CDIR 1971-12, Cong. Rec.]
+      - name: Schubert, Richard F.
+        confirmed: '1973-05-16'
+        from: '1973'
+        n: 'Solicitor, 1971–73. Nominated Apr. 1973. Check the day.'
+        src: ['Wikipedia: Richard F. Schubert', CDIR 1973-12, Cong. Rec.]
+
+  - id: assistant-secretary
+    title: Assistant Secretary of Labor
+    rank: principal
+    appt: PAS
+    level: IV
+    many: true
+    n: 'Three by the Act of 1946; four from 1961; five from 1970, one for occupational safety and health. The portfolio shown is the Directory''s.'
+    law:
+      - act: Act of Apr. 17, 1946, § 2
+        date: '1946-04-17'
+        cite: 'ch. 140, § 2, 60 Stat. 91'
+        usc: '29 U.S.C. § 553 (1970)'
+        tags: [creates, appointment]
+        does: 'Three offices of Assistant Secretary of Labor, appointed by the President, by and with the advice and consent of the Senate, to perform such duties as the Secretary prescribes; the Assistant Secretary of 1913 and the Second Assistant Secretary abolished.'
+      - act: Act of Aug. 11, 1961
+        date: '1961-08-11'
+        cite: 'Pub. L. 87-137, 75 Stat. 338'
+        usc: '5 U.S.C. § 611b (1958 Supp. III)'
+        tags: [creates]
+        does: 'Four Assistant Secretaries of Labor, in place of three.'
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        cite: 'Pub. L. 88-426, § 303(d), 78 Stat. 400, 418'
+        usc: '5 U.S.C. § 5315 (1970)'
+        tags: [pay]
+        does: 'The Assistant Secretaries of Labor (4) in level IV.'
+      - act: Occupational Safety and Health Act of 1970, § 29
+        date: '1970-12-29'
+        cite: 'Pub. L. 91-596, § 29, 84 Stat. 1590, 1618'
+        usc: '29 U.S.C. § 553 (1970 Supp. I)'
+        tags: [creates, pay]
+        does: 'Five Assistant Secretaries, in place of four, one of them an Assistant Secretary of Labor for Occupational Safety and Health; five in level IV.'
+    holders:
+      - name: Kaiser, Philip M., Jr.
+        title: Assistant Secretary of Labor for International Labor Affairs
+        from: '1949'
+        to: '1953-07-10'
+        out: Resigned.
+        n: 'Listed in CDIR, Jan. 1952. Check the day he took office.'
+        src: ['Annual Report of the Secretary of Labor, FY1953', CDIR 1952-01]
+      - name: Wright, Ralph
+        from: '1952'
+        to: '1953-03-27'
+        out: Resigned.
+        n: 'Listed in CDIR, Jan. 1952. Check the day he took office.'
+        src: ['Annual Report of the Secretary of Labor, FY1953', CDIR 1952-01]
+      - name: Miller, Spencer, Jr.
+        title: Assistant Secretary of Labor for International Labor Affairs
+        nominated: '1953-07-09'
+        confirmed: '1953-07-15'
+        from: '1953-07-23'
+        to: '1954'
+        n: 'Sworn July 23, 1953, succeeding Kaiser. Check the day he left; in the Directory of Jan. 18, 1954.'
+        src: ['Annual Report of the Secretary of Labor, FY1953', CDIR 1954-01, Cong. Rec. Index 1953]
+      - name: Siciliano, Rocco C.
+        title: Assistant Secretary of Labor for Employment and Manpower
+        nominated: '1953-07-29'
+        from: '1953-08-24'
+        to: '1957'
+        out: To the White House staff.
+        n: 'Sworn Aug. 24, 1953, succeeding Robert T. Creasey, who resigned Dec. 1, 1952. Check the day he left; in the Directory from Feb. 1955 to Mar. 1957.'
+        src: ['Annual Report of the Secretary of Labor, FY1953', CDIR 1955-02, CDIR 1957-03, Cong. Rec. Index 1953]
+      - name: Hobart, Harrison C.
+        title: Assistant Secretary of Labor for Standards and Statistics
+        nominated: '1953-07-15'
+        from: '1953-08-31'
+        to: '1954'
+        n: 'Sworn Aug. 31, 1953, succeeding Wright. Check the day he left; in the Directory of Jan. 18, 1954.'
+        src: ['Annual Report of the Secretary of Labor, FY1953', CDIR 1954-01, Cong. Rec.]
+      - name: Wilkins, J. Ernest
+        title: Assistant Secretary of Labor for International Labor Affairs
+        nominated: '1954-03-04'
+        confirmed: '1954-03-12'
+        from: '1954-03-12'
+        to: '1958-11-06'
+        out: Resigned.
+        src: ['Wikipedia: J. Ernest Wilkins Sr.', CDIR 1955-02, Cong. Rec.]
+      - name: Gilhooley, John J.
+        title: Assistant Secretary of Labor for Labor-Management Relations
+        nominated: '1957-07-23'
+        confirmed: '1957-08-19'
+        from: '1957'
+        to: '1961'
+        n: 'Assistant to the Secretary, 1954–57. Check both dates.'
+        src: [CDIR 1958-01, CDIR 1960-01, Cong. Rec.]
+      - name: Brown, Newell
+        title: Assistant Secretary of Labor for Employment and Manpower
+        nominated: '1958-01-13'
+        confirmed: '1958-04-02'
+        from: '1957'
+        to: '1959'
+        n: 'Wage and Hour Administrator to 1957. Check both dates and the portfolio.'
+        src: [CDIR 1958-01, CDIR 1959-03, Cong. Rec. Index 1958, Cong. Rec.]
+      - name: Lodge, George C.
+        given: George Cabot
+        title: Assistant Secretary of Labor for International Labor Affairs
+        nominated: '1959-01-17'
+        confirmed: '1959-01-28'
+        from: '1958'
+        to: '1961'
+        n: 'Check both dates.'
+        src: [CDIR 1959-03, CDIR 1961-04, Cong. Rec. Index 1959]
+      - name: Reynolds, James J.
+        given: James Joseph
+        title: Assistant Secretary of Labor for Labor-Management Relations
+        nominated: '1961-03-02'
+        from: '1961'
+        to: '1967-04'
+        out: To Under Secretary.
+        n: 'Check the day he took office.'
+        src: [CDIR 1961-04, CDIR 1966-01, Cong. Rec. Index 1961]
+      - name: Holleman, Jerry R.
+        title: Assistant Secretary of Labor for Employment and Manpower
+        nominated: '1961-01-21'
+        confirmed: '1961-01-30'
+        from: '1961'
+        to: '1962'
+        out: Resigned.
+        n: 'Check both dates.'
+        src: [CDIR 1961-04, CDIR 1962-01, Cong. Rec., Cong. Rec. Index 1961]
+      - name: Weaver, George L-P
+        given: George Leon-Paul
+        title: Assistant Secretary of Labor for International Affairs
+        nominated: '1961-07-10'
+        confirmed: '1961-07-20'
+        from: '1961'
+        to: '1969'
+        n: 'Check both dates.'
+        src: [CDIR 1962-01, CDIR 1967-12, Cong. Rec.]
+      - name: Peterson, Esther
+        title: Assistant Secretary of Labor for Labor Standards
+        nominated: '1961-08-11'
+        confirmed: '1961-08-15'
+        from: '1961'
+        to: '1969'
+        n: 'Director of the Women''s Bureau, 1961–64; Special Assistant to the President for Consumer Affairs, 1964–67. Check both dates.'
+        src: [CDIR 1962-01, CDIR 1967-12, Cong. Rec., Cong. Rec. Index 1961]
+      - name: Moynihan, Daniel Patrick
+        title: Assistant Secretary of Labor for Policy Planning and Research
+        nominated: '1963-01-18'
+        confirmed: '1963-03-04'
+        from: '1963'
+        to: '1965'
+        out: Resigned.
+        n: 'Special Assistant to the Secretary, 1961–63. Check both dates.'
+        src: [CDIR 1963-03, CDIR 1965-03, Cong. Rec., Cong. Rec. Index 1963]
+      - name: Ruttenberg, Stanley H.
+        title: Assistant Secretary of Labor for Manpower
+        nominated: '1966-04-13'
+        confirmed: '1966-06-06'
+        from: '1966'
+        to: '1969'
+        n: 'Also Manpower Administrator. Check both dates.'
+        src: [CDIR 1967-02, CDIR 1967-12, Cong. Rec.]
+      - name: Donahue, Thomas R.
+        given: Thomas Reilly
+        title: Assistant Secretary of Labor for Labor-Management Relations
+        confirmed: '1967-02-03'
+        from: '1967'
+        to: '1969'
+        n: 'Check both dates.'
+        src: ['Wikipedia: Thomas R. Donahue', CDIR 1967-02, Cong. Rec.]
+      - name: Weber, Arnold R.
+        given: Arnold Robert
+        title: Assistant Secretary of Labor for Manpower
+        confirmed: '1969-02-07'
+        from: '1969'
+        to: '1970'
+        out: To Associate Director, Office of Management and Budget.
+        n: 'Check both dates.'
+        src: [CDIR 1969-03, CDIR 1969-12, Cong. Rec.]
+      - name: Usery, W. J., Jr.
+        given: Willie Julian
+        title: Assistant Secretary of Labor for Labor-Management Relations
+        nominated: '1969-01-22'
+        confirmed: '1969-02-07'
+        from: '1969'
+        to: '1973'
+        n: 'Nominated Feb. 1969. Check both dates.'
+        src: ['Wikipedia: W. J. Usery Jr.', CDIR 1969-03, CDIR 1973-03, Cong. Rec.]
+      - name: Rosow, Jerome M.
+        title: Assistant Secretary of Labor for Policy, Evaluation, and Research
+        nominated: '1969-02-17'
+        confirmed: '1969-03-26'
+        from: '1969'
+        to: '1971'
+        n: 'Check both dates.'
+        src: [CDIR 1969-03, CDIR 1971-03, Cong. Rec.]
+      - name: Fletcher, Arthur A.
+        title: Assistant Secretary of Labor for Wage and Labor Standards
+        nominated: '1969-03-14'
+        confirmed: '1969-05-01'
+        from: '1969'
+        to: '1971'
+        n: 'Title Assistant Secretary for Workplace Standards by 1971. Check both dates.'
+        src: [CDIR 1969-12, CDIR 1971-03, Cong. Rec.]
+      - name: Lovell, Malcolm R., Jr.
+        title: Assistant Secretary of Labor for Manpower
+        confirmed: '1970-09-30'
+        from: '1970'
+        to: '1973'
+        n: 'Check both dates.'
+        src: [CDIR 1971-03, CDIR 1971-12, Cong. Rec.]
+      - name: Guenther, George C.
+        title: Assistant Secretary of Labor for Occupational Safety and Health
+        nominated: '1971-03-19'
+        confirmed: '1971-04-14'
+        from: '1971-04'
+        to: '1973-01'
+        n: 'The first. Check both days.'
+        src: ['Wikipedia: Occupational Safety and Health Administration', CDIR 1971-12, Cong. Rec.]
+      - name: Kolberg, William H.
+        title: Assistant Secretary of Labor for Manpower
+        from: '1973'
+        n: 'Check the date.'
+        src: [CDIR 1973-12]
+      - name: Fasser, Paul J., Jr.
+        title: Assistant Secretary of Labor for Labor-Management Relations
+        nominated: '1973-03-27'
+        from: '1973'
+        n: 'Manpower Administrator, 1970–73. Check the date.'
+        src: [CDIR 1973-12, Cong. Rec.]
+      - name: DeLury, Bernard E.
+        title: Assistant Secretary of Labor for Employment Standards
+        from: '1973'
+        n: 'Check the date.'
+        src: [CDIR 1973-12]
+      - name: Robbins, M. Chain
+        title: Assistant Secretary of Labor for Occupational Safety and Health
+        acting: true
+        from: '1973-01'
+        to: '1973-04'
+        src: ['Wikipedia: Occupational Safety and Health Administration']
+      - name: Stender, John H.
+        title: Assistant Secretary of Labor for Occupational Safety and Health
+        confirmed: '1973-04-03'
+        from: '1973-04'
+        n: 'Check the day.'
+        src: ['Wikipedia: Occupational Safety and Health Administration', CDIR 1973-12, Cong. Rec.]
+
+  - id: assistant-secretary-administration
+    title: Administrative Assistant Secretary of Labor
+    titles:
+      - {title: Assistant Secretary of Labor for Administration, from: '1964-08-14'}
+    rank: inferior
+    appt: HD
+    level: V
+    law:
+      - act: Reorganization Plan No. 6 of 1950
+        date: '1950-05-24'
+        cite: '64 Stat. 1263'
+        usc: '5 U.S.C. § 133z note (1958)'
+        tags: [creates, appointment]
+        does: 'An Administrative Assistant Secretary of Labor, appointed by the Secretary with the approval of the President under the classified civil service, to perform such duties as the Secretary prescribes.'
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        cite: 'Pub. L. 88-426, §§ 303(e), 307, 78 Stat. 400, 420, 432'
+        usc: '5 U.S.C. § 5316 (1970)'
+        tags: [pay, reorganizes]
+        does: 'Renames the office Assistant Secretary of Labor for Administration; level V.'
+    holders:
+      - name: Dodson, James E.
+        from: '1952-07-30'
+        to: '1961'
+        n: 'Sworn July 30, 1952. Check the day he left; in the Directory from Jan. 1954 to Jan. 1960.'
+        src: ['Annual Report of the Secretary of Labor, FY1953', CDIR 1954-01, CDIR 1960-01]
+      - name: Werts, Leo R.
+        from: '1961'
+        to: '1970'
+        n: 'Check both dates; in the Directory from Apr. 1961 (Assistant Secretary) to Dec. 1969.'
+        src: [CDIR 1961-04, CDIR 1969-12]
+      - name: Zarb, Frank G.
+        given: Frank Gustave
+        from: '1971'
+        to: '1972'
+        out: To Associate Director, Office of Management and Budget.
+        n: 'Check both dates.'
+        src: [CDIR 1971-12]
+      - name: Clark, Fred G.
+        title: Assistant Secretary of Labor for Administration and Management
+        from: '1973'
+        n: 'Check the date.'
+        src: [CDIR 1973-12]
+
+  - id: solicitor
+    title: Solicitor of Labor
+    rank: principal
+    appt: PAS
+    level: IV
+    law:
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        cite: 'Pub. L. 88-426, § 303(d), 78 Stat. 400, 418'
+        usc: '5 U.S.C. § 5315 (1970)'
+        tags: [pay]
+        does: 'The Solicitor of the Department of Labor in level IV.'
+    holders:
+      - name: Tyson, William S.
+        from: '1952'
+        to: '1953-03'
+        out: Resigned.
+        n: 'In office by Jan. 1952 (CDIR). Resigned Mar. 8, 1953 (Annual Report, which gives William L.); Routzohn took office Mar. 6. Check both dates.'
+        src: ['Annual Report of the Secretary of Labor, FY1953', CDIR 1952-01]
+      - name: Routzohn, Harry N.
+        given: Harry Nelson
+        confirmed: '1953-03-05'
+        from: '1953-03-06'
+        to: '1953-04-14'
+        out: Died.
+        src: ['Wikipedia: Harry N. Routzohn', CDIR 1953-03]
+      - name: Rothman, Stuart
+        nominated: '1953-07-08'
+        confirmed: '1953-07-10'
+        from: '1953-07-29'
+        to: '1959'
+        n: 'Sworn July 29, 1953. Check the day he left.'
+        src: ['Wikipedia: Solicitor of Labor', CDIR 1954-01, CDIR 1959-03, Cong. Rec.]
+      - name: Nystrom, Harold C.
+        acting: true
+        from: '1959'
+        to: '1961'
+        n: 'Check the span.'
+        src: ['Wikipedia: Solicitor of Labor', CDIR 1959-03]
+      - name: Donahue, Charles
+        from: '1961'
+        to: '1969'
+        n: 'Check both dates.'
+        src: ['Wikipedia: Solicitor of Labor', CDIR 1961-04, CDIR 1967-12]
+      - name: Silberman, Laurence H.
+        nominated: '1969-03-13'
+        confirmed: '1969-05-01'
+        from: '1969'
+        to: '1970'
+        out: To Under Secretary.
+        n: 'Check both dates.'
+        src: ['Wikipedia: Laurence Silberman', CDIR 1969-12, Cong. Rec.]
+      - name: Nash, Peter G.
+        confirmed: '1970-09-01'
+        from: '1970'
+        to: '1971'
+        n: 'Check both dates.'
+        src: ['Wikipedia: Solicitor of Labor', CDIR 1971-03, Cong. Rec.]
+      - name: Schubert, Richard F.
+        nominated: '1971-07-28'
+        confirmed: '1971-10-21'
+        from: '1971'
+        to: '1973'
+        out: To Under Secretary.
+        n: 'Check both dates.'
+        src: ['Wikipedia: Richard F. Schubert', CDIR 1971-12, Cong. Rec.]
+      - name: Kilberg, William J.
+        nominated: '1973-03-27'
+        from: '1973'
+        n: 'Check the date.'
+        src: ['Wikipedia: Solicitor of Labor', CDIR 1973-12, Cong. Rec.]
+
+  - id: commissioner-labor-statistics
+    title: Commissioner of Labor Statistics
+    rank: inferior
+    appt: PAS
+    group: Bureau of Labor Statistics
+    law:
+      - act: Act of Mar. 4, 1913, § 4
+        date: '1913-03-04'
+        cite: 'ch. 141, § 4, 37 Stat. 736'
+        usc: '29 U.S.C. §§ 1–3 (1958)'
+        tags: [appointment, powers]
+        does: 'The Bureau of Labor Statistics, under a Commissioner of Labor Statistics appointed by the President, by and with the advice and consent of the Senate, for four years, to collect, collate and report information on the subject of labor.'
+    holders:
+      - name: Clague, Ewan
+        from: '1946-08'
+        to: '1965-09'
+        out: Retired.
+        src: ['Wikipedia: Commissioner of Labor Statistics', 'Wikipedia: Ewan Clague']
+      - name: Ross, Arthur M.
+        nominated: '1965-09-13'
+        from: '1965-10'
+        to: '1968-07'
+        src: ['Wikipedia: Commissioner of Labor Statistics', CDIR 1966-01, Cong. Rec.]
+      - name: Burdetsky, Ben
+        acting: true
+        from: '1968-07'
+        to: '1969-03'
+        src: ['Wikipedia: Commissioner of Labor Statistics', CDIR 1969-03]
+      - name: Moore, Geoffrey H.
+        confirmed: '1969-03-07'
+        from: '1969-03'
+        to: '1973-01'
+        src: ['Wikipedia: Commissioner of Labor Statistics', CDIR 1969-12, Cong. Rec.]
+      - name: Burdetsky, Ben
+        acting: true
+        from: '1973-01'
+        to: '1973-07'
+        src: ['Wikipedia: Commissioner of Labor Statistics', CDIR 1973-03]
+      - name: Shiskin, Julius
+        nominated: '1973-06-14'
+        confirmed: '1973-07-25'
+        from: '1973-07'
+        src: ['Wikipedia: Commissioner of Labor Statistics', CDIR 1973-12, Cong. Rec.]
+
+  - id: wage-hour-administrator
+    title: Administrator, Wage and Hour Division
+    rank: inferior
+    appt: PAS
+    group: Wage and Hour and Public Contracts Divisions
+    law:
+      - act: Fair Labor Standards Act of 1938, § 4
+        date: '1938-06-25'
+        cite: 'ch. 676, § 4, 52 Stat. 1060'
+        usc: '29 U.S.C. § 204 (1958)'
+        tags: [creates, appointment]
+        does: 'A Wage and Hour Division in the Department of Labor, under an Administrator appointed by the President, by and with the advice and consent of the Senate.'
+    holders:
+      - name: McComb, William R.
+        from: '1946'
+        to: '1953-03'
+        n: 'Check both dates; in the Directory of Mar. 1, 1953.'
+        src: [CDIR 1953-03]
+      - name: Grimes, F. Granville
+        from: '1953-03'
+        to: '1955'
+        n: 'Check both dates.'
+        src: [CDIR 1954-01]
+      - name: Brown, Newell
+        from: '1955'
+        to: '1957'
+        out: To Assistant Secretary.
+        n: 'Check both dates.'
+        src: [CDIR 1956-01]
+      - name: Lundquist, Clarence T.
+        nominated: '1958-03-04'
+        confirmed: '1958-06-30'
+        from: '1957'
+        to: '1967'
+        n: 'Acting at first. Check both dates; in the Directory from Jan. 1958 to Jan. 1966.'
+        src: [CDIR 1958-01, CDIR 1966-01, Cong. Rec.]
+      - name: Moran, Robert D.
+        confirmed: '1969-05-01'
+        from: '1969'
+        to: '1971'
+        n: 'Check both dates.'
+        src: [CDIR 1969-03, CDIR 1971-03, Cong. Rec.]
+
+  - id: director-womens-bureau
+    title: Director of the Women's Bureau
+    rank: inferior
+    appt: PAS
+    group: Women's Bureau
+    law:
+      - act: Act of June 5, 1920
+        date: '1920-06-05'
+        cite: 'ch. 248, 41 Stat. 987'
+        usc: '29 U.S.C. §§ 11–16 (1958)'
+        tags: [creates, appointment, powers]
+        does: 'Establishes in the Department of Labor a Women''s Bureau, in charge of a director, a woman, appointed by the President, by and with the advice and consent of the Senate, to formulate standards and policies for the welfare of wage-earning women.'
+    holders:
+      - name: Miller, Frieda S.
+        from: '1944'
+        to: '1953'
+        out: Resigned at the President's request.
+        n: 'Director in the Annual Report for FY1953, after Oct. 9, 1953. Check both dates.'
+        src: ['Wikipedia: Frieda S. Miller', 'Wikipedia: Women''s Bureau', 'Annual Report of the Secretary of Labor, FY1953']
+      - name: Leopold, Alice K.
+        given: Alice Koller
+        confirmed: '1954-01-19'
+        from: '1953-11'
+        to: '1961'
+        n: 'A recess appointment; confirmed Jan. 1954. Check the days.'
+        src: ['Wikipedia: Alice Leopold', Cong. Rec.]
+      - name: Peterson, Esther
+        nominated: '1961-01-30'
+        from: '1961'
+        to: '1964-01-03'
+        n: 'Also Assistant Secretary for Labor Standards from 1961. Check the day she took office.'
+        src: ['Wikipedia: Esther Peterson', Cong. Rec.]
+      - name: Keyserling, Mary Dublin
+        confirmed: '1964-04-10'
+        from: '1964'
+        to: '1969'
+        n: 'Check both dates.'
+        src: ['Wikipedia: Women''s Bureau', Cong. Rec.]
+      - name: Koontz, Elizabeth Duncan
+        confirmed: '1969-02-07'
+        from: '1969'
+        to: '1973'
+        n: 'Check both dates.'
+        src: ['Wikipedia: Women''s Bureau', Cong. Rec.]
+      - name: Maymi, Carmen R.
+        given: Carmen Rosa
+        confirmed: '1973-06-07'
+        from: '1973'
+        n: 'Check the date.'
+        src: ['Wikipedia: Women''s Bureau', Cong. Rec.]
+
+  - id: director-employment-security
+    title: Director, Bureau of Employment Security
+    titles:
+      - {title: Administrator, Bureau of Employment Security, from: '1965'}
+    rank: inferior
+    appt: HD
+    group: Bureau of Employment Security
+    n: The Bureau passed into the Manpower Administration in 1969.
+    holders:
+      - name: Goodwin, Robert C.
+        from: '1948'
+        to: '1969'
+        n: 'Check both dates; in the Directory from 1953 to Dec. 1967.'
+        src: [CDIR 1953-03, CDIR 1967-12]
+      - name: Curtis, William R.
+        from: '1969'
+        n: 'Check the dates; in the Directory of Mar. 1, 1969.'
+        src: [CDIR 1969-03]
+
+  - id: manpower-administrator
+    title: Manpower Administrator
+    rank: inferior
+    appt: HD
+    level: V
+    group: Manpower Administration
+    from: '1963'
+    law:
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        cite: 'Pub. L. 88-426, § 303(e), 78 Stat. 400, 421'
+        usc: '5 U.S.C. § 5316 (1970)'
+        tags: [pay]
+        does: 'The Manpower Administrator, Department of Labor, in level V.'
+    holders:
+      - name: Henning, John F.
+        from: '1963'
+        to: '1965'
+        n: 'As Under Secretary. Check both dates.'
+        src: [CDIR 1964-01]
+      - name: Ruttenberg, Stanley H.
+        from: '1965'
+        to: '1969'
+        n: 'Assistant Secretary for Manpower from 1966. Check both dates.'
+        src: [CDIR 1965-03, CDIR 1967-12]
+      - name: Fasser, Paul J., Jr.
+        from: '1970'
+        to: '1973'
+        out: To Assistant Secretary for Labor-Management Relations.
+        n: 'Check both dates.'
+        src: [CDIR 1971-03, CDIR 1973-03]

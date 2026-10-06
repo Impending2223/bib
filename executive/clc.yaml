@@ -1,0 +1,106 @@
+# The Cost of Living Council, with the Price Commission and the Pay Board, 1971-74. Kept by hand. Holders known only from the Congressional Directory (CDIR <edition>) carry year
+# dates and a Check. See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: clc
+name: Cost of Living Council
+under: eop
+order: 150
+from: '1971-08-15'
+until: '1974-04-30'
+law:
+  - act: Economic Stabilization Act of 1970
+    date: '1970-08-15'
+    cite: 'Pub. L. 91-379, title II, 84 Stat. 796, 799'
+    usc: '12 U.S.C. § 1904 note (1970)'
+    until: '1974-04-30'
+    tags: [powers]
+    does: 'The President authorized to issue orders and regulations to stabilize prices, rents, wages, and salaries, and to delegate the authority. Extended and amended in 1971 and 1973; expired Apr. 30, 1974.'
+  - act: Executive Order 11615
+    date: '1971-08-15'
+    url: https://www.presidency.ucsb.edu/documents/executive-order-11615-providing-for-stabilization-prices-rents-wages-and-salaries
+    tags: [creates, powers]
+    does: 'Stabilizes prices, rents, wages, and salaries for ninety days at levels of May 25–Aug. 14, 1971; establishes the Cost of Living Council: the Secretary of the Treasury, Chairman, and the heads of departments and offices named; the Director of the Office of Emergency Preparedness to administer the freeze.'
+  - act: Executive Order 11627
+    date: '1971-10-15'
+    url: https://www.presidency.ucsb.edu/documents/executive-order-11627-further-providing-for-the-stabilization-the-economy
+    tags: [creates, powers]
+    does: 'Continues the Council for Phase II; establishes the Price Commission and the Pay Board, their members appointed by the President, to set standards for prices and rents, and for wages and salaries.'
+  - act: Executive Order 11695
+    date: '1973-01-11'
+    url: https://www.presidency.ucsb.edu/documents/executive-order-11695-further-providing-for-the-stabilization-the-economy
+    tags: [reorganizes, powers]
+    does: Phase III. Abolishes the Price Commission and the Pay Board; their functions to the Council.
+  - act: Executive Order 11788
+    date: '1974-06-18'
+    url: https://www.presidency.ucsb.edu/documents/executive-order-11788-providing-for-the-orderly-termination-economic-stabilization
+    tags: [reorganizes]
+    does: Provides for the winding up of the Council's affairs after the expiration of the Act, Apr. 30, 1974. Check.
+offices:
+  - id: chairman
+    title: Chairman of the Cost of Living Council
+    rank: head
+    appt: XO
+    n: The Secretary of the Treasury, by Executive Order 11615.
+    holders:
+      - name: Connally, John
+        title: Secretary of the Treasury
+        from: '1971-08-15'
+        to: '1972-06-12'
+        out: Resigned as Secretary of the Treasury.
+        src: [APP]
+      - name: Shultz, George P.
+        title: Secretary of the Treasury
+        from: '1972-06-12'
+        to: '1974-04-30'
+        out: Council expired.
+        n: Check the day he succeeded as chairman.
+        src: ['Wikipedia: George Shultz']
+  - id: director
+    title: Director of the Cost of Living Council
+    rank: principal
+    appt: PA
+    holders:
+      - name: Weber, Arnold R.
+        title: Executive Director of the Cost of Living Council
+        from: '1971-08'
+        to: '1971-10'
+        n: Associate Director of the Office of Management and Budget. Member of the Pay Board from Oct. 1971. Check the dates.
+        src: [APP]
+      - name: Rumsfeld, Donald
+        from: '1971-10-15'
+        to: '1973-01'
+        out: To Ambassador to NATO, Feb. 2, 1973.
+        n: Also Counsellor to the President.
+        src: ['Wikipedia: Donald Rumsfeld']
+      - name: Dunlop, John T.
+        from: '1973-01'
+        to: '1974-04-30'
+        out: Council expired.
+        n: Check the day he took office.
+        src: [FRUS persons list]
+  - id: price-commission-chairman
+    title: Chairman of the Price Commission
+    rank: principal
+    appt: PA
+    from: '1971-10-15'
+    until: '1973-01-11'
+    holders:
+      - name: Grayson, C. Jackson
+        from: '1971-10'
+        to: '1973-01-11'
+        out: Commission abolished.
+        n: Dean of the business school, Southern Methodist University. Check the day he took office.
+        src: ['Wikipedia: C. Jackson Grayson']
+  - id: pay-board-chairman
+    title: Chairman of the Pay Board
+    rank: principal
+    appt: PA
+    from: '1971-10-15'
+    until: '1973-01-11'
+    holders:
+      - name: Boldt, George H.
+        appointed: '1971-10-22'
+        from: '1971-10-22'
+        to: '1973-01-11'
+        out: Board abolished.
+        n: Judge, Western District of Washington; senior status Oct. 30, 1971.
+        src: ['Wikipedia: George Hugo Boldt']

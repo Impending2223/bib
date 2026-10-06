@@ -1,0 +1,35 @@
+# The Council on Economic Policy, 1973-. Kept by hand. Holders known only from the Congressional Directory (CDIR <edition>) carry year
+# dates and a Check. See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: cep
+name: Council on Economic Policy
+under: eop
+order: 210
+from: '1972-12'
+law:
+  - act: Executive Order 11702
+    date: '1973-01-25'
+    url: https://www.presidency.ucsb.edu/documents/executive-order-11702-relative-the-executive-office-the-president
+    tags: [reorganizes]
+    does: 'In view of the establishment of the Council on Economic Policy, abolishes the Cabinet Committee on Economic Policy.'
+n: 'Formation announced Dec. 1972 (APP, statement of Jan. 5, 1973): a Cabinet-level council for economic affairs, Shultz, Assistant to the President, chairman.'
+offices:
+  - id: chairman
+    title: Chairman of the Council on Economic Policy
+    rank: head
+    appt: DES
+    holders:
+      - name: Shultz, George P.
+        title: Assistant to the President; Secretary of the Treasury
+        from: '1972-12'
+        to: '1974-05-08'
+        n: Check the dates.
+        src: [CDIR 1973-12]
+  - id: executive-director
+    title: Executive Director of the Council on Economic Policy
+    rank: principal
+    appt: PA
+    holders:
+      - name: Dam, Kenneth W.
+        from: '1973'
+        n: Assistant Director of the Office of Management and Budget, 1971–73. Listed in the Congressional Directory, Dec. 1973. Check the dates of office.
+        src: [CDIR 1973-12, FRUS persons list, 'Wikipedia: Kenneth W. Dam']

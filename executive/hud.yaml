@@ -1,0 +1,752 @@
+# The Housing and Home Finance Agency, and from Nov. 9, 1965 the Department of Housing and Urban Development.
+# Kept by hand. Sources: the Congressional Directory (CDIR, by edition), Wikipedia, APP, the Statutes at Large.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: hud
+name: Housing and Home Finance Agency
+names:
+  - {name: Department of Housing and Urban Development, from: '1965-11-09'}
+under: president
+order: 130
+law:
+  - act: Reorganization Plan No. 3 of 1947
+    date: '1947-07-27'
+    cite: '61 Stat. 954'
+    tags: [creates]
+    until: '1965-11-09'
+    does: 'Consolidates the Home Owners'' Loan Corporation, the Federal Savings and Loan Insurance Corporation, the Federal Housing Administration, the United States Housing Authority and other agencies in a Housing and Home Finance Agency, with constituent agencies the Home Loan Bank Board, the Federal Housing Administration and the Public Housing Administration.'
+  - act: Housing Act of 1954
+    date: '1954-08-02'
+    cite: 'ch. 649, 68 Stat. 590'
+    usc: '42 U.S.C. §§ 1450–1462 (1958)'
+    tags: [powers]
+    does: 'Urban renewal: loans and grants for slum clearance, rehabilitation and conservation; a workable program required of the community. Rechartered the Federal National Mortgage Association (title II).'
+  - act: Department of Housing and Urban Development Act
+    date: '1965-09-09'
+    effective: '1965-11-09'
+    cite: 'Pub. L. 89-174, 79 Stat. 667'
+    usc: '42 U.S.C. §§ 3531–3537 (1970)'
+    tags: [creates, reorganizes, powers]
+    does: 'Establishes the Department; all functions of the Agency, of the Federal Housing Administration and of the Public Housing Administration, and of their heads and officers, to the Secretary; the Federal National Mortgage Association to the Department. Takes effect sixty days after approval.'
+  - act: Department of Housing and Urban Development Act, § 11(b)
+    date: '1965-09-09'
+    cite: 'Pub. L. 89-174, 79 Stat. 667, 671'
+    tags: [vacancy]
+    until: '1966-01-18'
+    does: 'Where a Senate-confirmed officer has not entered on office on the effective date, the President may designate an officer of the Agency to act for up to sixty days.'
+  - act: Civil Rights Act of 1968, title VIII (Fair Housing)
+    date: '1968-04-11'
+    cite: 'Pub. L. 90-284, 82 Stat. 73, 81'
+    usc: '42 U.S.C. §§ 3601–3619 (1970)'
+    tags: [powers]
+    does: 'Discrimination in the sale or rental of housing unlawful; administration of the title in the Secretary.'
+  - act: Housing and Urban Development Act of 1968, § 802
+    date: '1968-08-01'
+    cite: 'Pub. L. 90-448, 82 Stat. 476, 536'
+    usc: '12 U.S.C. § 1716b (1970)'
+    tags: [reorganizes]
+    does: 'The Federal National Mortgage Association partitioned: a Government National Mortgage Association in the Department; the secondary market operations to a private corporation.'
+n: 'The Home Loan Bank Board was a constituent agency to Aug. 11, 1955 (Housing Amendments of 1955), then independent.'
+offices:
+  - id: administrator
+    title: Housing and Home Finance Administrator
+    rank: head
+    appt: PAS
+    level: II
+    until: '1965-11-09'
+    law:
+      - act: Reorganization Plan No. 3 of 1947, § 5
+        date: '1947-07-27'
+        cite: '61 Stat. 954, 955'
+        tags: [creates, appointment, powers]
+        does: 'The Agency headed by an Administrator appointed by the President with the consent of the Senate; general supervision and coordination of the constituent agencies.'
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        cite: 'Pub. L. 88-426, § 303(b), 78 Stat. 400, 416'
+        tags: [pay]
+        does: Level II.
+    holders:
+      - name: Foley, Raymond M.
+        from: '1947-07-24'
+        to: '1953-01-20'
+        src: ['Wikipedia: Housing and Home Finance Agency']
+      - name: 'Fitzpatrick, B. T.'
+        title: 'Deputy Administrator, acting as Administrator'
+        acting: true
+        from: '1953-01-20'
+        to: '1953-03-11'
+        n: 'Signs as Acting Housing and Home Finance Administrator in the Federal Register of Jan. 20, 1953. Check both days.'
+        src: ['Federal Register, Jan. 20, 1953']
+      - name: Cole, Albert M.
+        nominated: '1953-02-25'
+        confirmed: '1953-03-09'
+        from: '1953-03-11'
+        to: '1959-01-13'
+        src: ['Wikipedia: Albert M. Cole', CDIR 1953-03, Cong. Rec.]
+      - name: Mason, Norman P.
+        nominated: '1959-01-14'
+        from: '1959-01-13'
+        to: '1961-01-20'
+        n: Federal Housing Commissioner, 1954–59.
+        src: ['Wikipedia: Housing and Home Finance Agency', CDIR 1959-03, Cong. Rec.]
+      - name: Conway, Jack T.
+        acting: true
+        from: '1961-01-20'
+        to: '1961-02-11'
+        n: The Deputy Administrator.
+        src: ['Wikipedia: Jack T. Conway', 'Wikipedia: Housing and Home Finance Agency']
+      - name: Weaver, Robert C.
+        given: Robert Clifton
+        nominated: '1961-01-30'
+        confirmed: '1961-02-09'
+        from: '1961-02-11'
+        to: '1965-11-09'
+        out: Agency abolished; to Secretary, Jan. 18, 1966.
+        n: 'Sworn Feb. 11, 1961. Wikipedia carries him as Administrator to Jan. 18, 1966. Check: designation to act under § 11(b) of the 1965 act.'
+        src: [APP 1961-02-11, 'Wikipedia: Robert C. Weaver', CDIR 1961-04, CDIR 1966-01, K–J Adm. III.G, Cong. Rec.]
+  - id: secretary
+    title: Secretary of Housing and Urban Development
+    rank: head
+    appt: PAS
+    level: I
+    from: '1965-11-09'
+    law:
+      - act: Department of Housing and Urban Development Act, § 3
+        date: '1965-09-09'
+        effective: '1965-11-09'
+        cite: 'Pub. L. 89-174, 79 Stat. 667'
+        usc: '42 U.S.C. § 3532 (1970)'
+        tags: [creates, appointment, powers, pay]
+        does: 'A Secretary at the head of the Department, appointed by the President with the consent of the Senate; advises the President on housing and urban development, coordinates federal activities affecting it, and encourages comprehensive planning by State and local governments.'
+      - act: Department of Transportation Act, § 9(d)(1)
+        date: '1966-10-15'
+        cite: 'Pub. L. 89-670, 80 Stat. 931, 948'
+        usc: '5 U.S.C. § 5312 (1970)'
+        tags: [pay]
+        does: The Secretary added to level I of the Executive Schedule.
+    holders:
+      - name: Weaver, Robert C.
+        given: Robert Clifton
+        nominated: '1966-01-14'
+        confirmed: '1966-01-17'
+        from: '1966-01-18'
+        to: '1968-12-18'
+        out: Resigned.
+        n: Sworn Jan. 18, 1966.
+        src: [APP 1966-01-17, APP 1966-01-18, 'Wikipedia: Robert C. Weaver', Cong. Rec.]
+      - name: 'Wood, Robert C.'
+        title: 'Under Secretary, acting as Secretary'
+        acting: true
+        from: '1968-12-18'
+        to: '1969-01-07'
+        n: 'Signs as Acting Secretary in the Federal Register of Dec. 20, 1968. Check the day he began.'
+        src: ['Federal Register, Dec. 20, 1968']
+      - name: Wood, Robert C.
+        given: Robert Coldwell
+        nominated: '1969-01-09'
+        from: '1969-01-07'
+        to: '1969-01-20'
+        n: 'Under Secretary from Jan. 18, 1966. Check: manner of appointment.'
+        src: ['Wikipedia: Robert Coldwell Wood', Cong. Rec.]
+      - name: Romney, George W.
+        given: George Wilcken
+        nominated: '1969-01-20'
+        confirmed: '1969-01-20'
+        from: '1969-01-22'
+        to: '1973-01-20'
+        out: Resigned.
+        src: ['Wikipedia: George W. Romney', CDIR 1969-03, FRUS persons list, Cong. Rec. Index 1969, Cong. Rec.]
+      - name: Lynn, James T.
+        given: James Thomas
+        nominated: '1973-01-04'
+        confirmed: '1973-01-23'
+        from: '1973-02-02'
+        n: 'Sworn Feb. 2, 1973; served to Feb. 5, 1975. Under Secretary of Commerce to Feb. 1973.'
+        src: ['Wikipedia: James Thomas Lynn', APP 1973-02-02, FRUS persons list, Cong. Rec.]
+  - id: under-secretary
+    title: Under Secretary of Housing and Urban Development
+    rank: principal
+    appt: PAS
+    level: III
+    from: '1965-11-09'
+    law:
+      - act: Department of Housing and Urban Development Act, § 4(a)
+        date: '1965-09-09'
+        effective: '1965-11-09'
+        cite: 'Pub. L. 89-174, 79 Stat. 667, 668'
+        usc: '42 U.S.C. § 3533 (1970)'
+        tags: [creates, appointment]
+        does: 'An Under Secretary, four Assistant Secretaries and a General Counsel, appointed by the President with the consent of the Senate, to perform such functions as the Secretary prescribes.'
+    holders:
+      - name: Wood, Robert C.
+        given: Robert Coldwell
+        nominated: '1966-01-14'
+        confirmed: '1966-01-17'
+        from: '1966-01-18'
+        to: '1969-01-07'
+        out: To Secretary.
+        n: Sworn Jan. 18, 1966.
+        src: [APP 1966-01-17, APP 1966-01-18, 'Wikipedia: Robert Coldwell Wood', CDIR 1967-02, Cong. Rec. Index 1966]
+      - name: Van Dusen, Richard C.
+        nominated: '1969-01-27'
+        from: '1969-03'
+        to: '1973'
+        n: 'Check both dates. Not listed Mar. 1969; listed Dec. 1969 and Dec. 1971; not Mar. 1973.'
+        src: [CDIR 1969-12, CDIR 1971-12, CDIR 1973-03, Cong. Rec.]
+      - name: Hyde, Floyd H.
+        nominated: '1973-03-08'
+        from: '1973'
+        n: 'Assistant Secretary, 1969–73. Wikipedia: Under Secretary, 1973–74. Check: both dates; whether he left before Aug. 31, 1974.'
+        src: ['Wikipedia: Floyd H. Hyde', CDIR 1973-12, Cong. Rec.]
+  - id: deputy-administrator
+    title: Deputy Housing and Home Finance Administrator
+    rank: principal
+    appt: HD
+    level: III
+    until: '1965-11-09'
+    n: 'Check: manner of appointment.'
+    holders:
+      - name: Fitzpatrick, B. T.
+        from: '1953'
+        to: '1954'
+        title: Deputy Administrator and General Counsel
+        n: 'In office before Jan. 20, 1953. Check both dates. Listed Mar. 1953 and Jan. 1954.'
+        src: [CDIR 1953-03, CDIR 1954-01]
+      - name: Meistrell, Frank J.
+        from: '1955'
+        to: '1956'
+        n: 'Check both dates. Listed Jan. 1956; not Mar. 1957.'
+        src: [CDIR 1956-01, CDIR 1957-03]
+      - name: Rosenberry, Walter S.
+        from: '1958'
+        to: '1961'
+        n: 'Check both dates. Listed Mar. 1959 and Jan. 1960.'
+        src: [CDIR 1959-03, CDIR 1960-01]
+      - name: Conway, Jack T.
+        from: '1961-01'
+        to: '1962'
+        n: 'Acting Administrator, Jan. 20–Feb. 11, 1961. Check both dates. Listed Apr. 1961; not Mar. 1963.'
+        src: [CDIR 1961-04, CDIR 1963-03, 'Wikipedia: Jack T. Conway']
+      - name: Semer, Milton P.
+        from: '1964'
+        to: '1965-11-09'
+        n: 'Also General Counsel. Check: date of taking office. Listed Mar. 1965.'
+        src: [CDIR 1965-03]
+  - id: general-counsel
+    title: General Counsel of the Housing and Home Finance Agency
+    titles:
+      - {title: General Counsel of the Department of Housing and Urban Development, from: '1965-11-09'}
+    rank: principal
+    appt: HD
+    level: IV
+    n: 'Appointed by the Administrator; from 1965 by the President with the consent of the Senate (law under under-secretary).'
+    holders:
+      - name: Fitzpatrick, B. T.
+        from: '1953'
+        to: '1954'
+        title: Deputy Administrator and General Counsel
+        n: 'In office before Jan. 20, 1953. Check both dates.'
+        src: [CDIR 1953-03, CDIR 1954-01]
+      - name: Hunter, A. Oakley
+        given: Allan Oakley
+        from: '1954'
+        to: '1957'
+        n: 'Check both dates. Listed Feb. 1955 to Mar. 1957.'
+        src: [CDIR 1955-02, CDIR 1957-03]
+      - name: Zimmerman, Julian H.
+        from: '1957'
+        to: '1959'
+        out: To Federal Housing Commissioner.
+        n: 'Check both dates. Listed Jan. 1958.'
+        src: [CDIR 1958-01]
+      - name: Brownfield, Lyman Hugh
+        from: '1959'
+        to: '1961'
+        n: 'Check both dates. Listed Mar. 1959 and Jan. 1960.'
+        src: [CDIR 1959-03, CDIR 1960-01]
+      - name: Semer, Milton P.
+        from: '1961'
+        to: '1966'
+        n: 'Check both dates. Listed Apr. 1961 to Jan. 1966.'
+        src: [CDIR 1961-04, CDIR 1966-01]
+      - name: McGrath, Thomas C., Jr.
+        from: '1966'
+        to: '1969'
+        n: 'Check both dates. Listed Feb. and Dec. 1967.'
+        src: [CDIR 1967-02, CDIR 1967-12]
+      - name: Unger, Sherman E.
+        from: '1969'
+        to: '1970'
+        n: 'Check both dates. Listed Mar. 1969.'
+        src: [CDIR 1969-03, 'Wikipedia: Sherman Unger']
+      - name: Maxwell, David O.
+        from: '1970'
+        to: '1973'
+        n: 'Check both dates. Listed Mar. and Dec. 1971; not Mar. 1973.'
+        src: [CDIR 1971-03, CDIR 1971-12]
+      - name: Mitchell, James L.
+        from: '1973'
+        n: 'Check: date of taking office. Listed Dec. 1973.'
+        src: [CDIR 1973-12]
+  - id: fha-commissioner
+    title: Federal Housing Commissioner
+    titles:
+      - {title: Assistant Secretary for Mortgage Credit and Federal Housing Commissioner, from: '1965-11-09'}
+      - {title: 'Assistant Secretary for Housing Production and Mortgage Credit, and Federal Housing Commissioner', from: '1970'}
+    rank: principal
+    appt: PAS
+    level: IV
+    group: Federal Housing Administration
+    law:
+      - act: National Housing Act
+        date: '1934-06-27'
+        cite: 'ch. 847, 48 Stat. 1246'
+        usc: '12 U.S.C. §§ 1701–1750 (1958)'
+        tags: [creates, powers]
+        does: 'A Federal Housing Administration; insurance of mortgages and of property improvement loans.'
+      - act: Reorganization Plan No. 3 of 1947, § 3
+        date: '1947-07-27'
+        cite: '61 Stat. 954'
+        tags: [appointment]
+        does: 'The Federal Housing Administration headed by a Federal Housing Commissioner, appointed by the President with the consent of the Senate.'
+      - act: Department of Housing and Urban Development Act, § 4(a)
+        date: '1965-09-09'
+        effective: '1965-11-09'
+        cite: 'Pub. L. 89-174, 79 Stat. 667, 668'
+        tags: [appointment, powers]
+        does: 'The Federal Housing Commissioner one of the Assistant Secretaries; heads a Federal Housing Administration in the Department and administers its programs for the private mortgage market.'
+    holders:
+      - name: Greene, Walter L.
+        from: '1952'
+        to: '1953-03'
+        n: 'Check both dates. Listed Mar. 1953.'
+        src: ['Wikipedia: Assistant Secretary of HUD for Housing', CDIR 1953-03]
+      - name: Hollyday, Guy T. O.
+        nominated: '1953-04-07'
+        from: '1953-03'
+        to: '1954'
+        n: 'Check both dates. Listed Jan. 1954.'
+        src: ['Wikipedia: Assistant Secretary of HUD for Housing', CDIR 1954-01, Cong. Rec.]
+      - name: Mason, Norman P.
+        nominated: '1954-06-07'
+        from: '1954'
+        to: '1959-01'
+        out: To Housing and Home Finance Administrator, Jan. 13, 1959.
+        n: 'Check: date of taking office. Listed Feb. 1955 to Jan. 1958.'
+        src: ['Wikipedia: Assistant Secretary of HUD for Housing', CDIR 1955-02, CDIR 1958-01, Cong. Rec.]
+      - name: Zimmerman, Julian H.
+        from: '1959-01'
+        to: '1960'
+        n: 'Check both dates. Listed Mar. 1959 and Jan. 1960.'
+        src: ['Wikipedia: Assistant Secretary of HUD for Housing', CDIR 1959-03, CDIR 1960-01]
+      - name: Mason, Norman P.
+        acting: true
+        from: '1960'
+        to: '1961'
+        n: 'Check: Wikipedia''s list; the Housing and Home Finance Administrator.'
+        src: ['Wikipedia: Assistant Secretary of HUD for Housing']
+      - name: Hardy, Neal J.
+        nominated: '1961-03-07'
+        from: '1961'
+        to: '1963'
+        n: 'Check both dates. Listed Apr. 1961 and Jan. 1962.'
+        src: ['Wikipedia: Assistant Secretary of HUD for Housing', CDIR 1961-04, CDIR 1962-01, Cong. Rec.]
+      - name: Brownstein, Philip N.
+        nominated: '1963-01-17'
+        from: '1963'
+        to: '1969'
+        n: 'Federal Housing Commissioner from 1963; Assistant Secretary for Mortgage Credit from 1966, nomination announced Jan. 17, 1966. Check both dates.'
+        src: ['Wikipedia: Assistant Secretary of HUD for Housing', APP 1966-01-17, CDIR 1963-03, CDIR 1967-12, Cong. Rec.]
+      - name: Gulledge, Eugene A.
+        confirmed: '1969-09-26'
+        from: '1969'
+        to: '1973-01'
+        n: 'Check both dates. Wikipedia: Oct. 1969–Jan. 1973. Listed Mar. 1971 and Dec. 1971.'
+        src: ['Wikipedia: Assistant Secretary of HUD for Housing', CDIR 1971-03, CDIR 1971-12, Cong. Rec.]
+      - name: Kingman, Woodward
+        acting: true
+        from: '1973-01'
+        to: '1973-07'
+        n: President, Government National Mortgage Association.
+        src: ['Wikipedia: Assistant Secretary of HUD for Housing']
+      - name: Lubar, Sheldon B.
+        nominated: '1973-06-07'
+        from: '1973-07'
+        n: 'Served to Nov. 1974. Check: day of taking office.'
+        src: ['Wikipedia: Assistant Secretary of HUD for Housing', CDIR 1973-12, Cong. Rec.]
+  - id: public-housing-commissioner
+    title: Public Housing Commissioner
+    rank: principal
+    appt: PAS
+    level: IV
+    group: Public Housing Administration
+    until: '1966'
+    law:
+      - act: Reorganization Plan No. 3 of 1947, § 4
+        date: '1947-07-27'
+        cite: '61 Stat. 954, 955'
+        tags: [creates, appointment, powers]
+        does: 'The Public Housing Administration headed by a Public Housing Commissioner, appointed by the President with the consent of the Senate; the functions of the Administrator of the United States Housing Authority.'
+    n: 'Its functions passed to the Secretary on Nov. 9, 1965; the Administration kept its name in the Department into 1966.'
+    holders:
+      - name: Egan, John Taylor
+        from: '1947'
+        to: '1953-03'
+        n: 'Check both dates. Listed Mar. 1953.'
+        src: [CDIR 1953-03]
+      - name: Slusser, Charles E.
+        nominated: '1953-06-08'
+        confirmed: '1953-06-16'
+        from: '1953-03'
+        to: '1961'
+        n: 'Check both dates. Listed Jan. 1954 to Jan. 1960.'
+        src: [CDIR 1954-01, CDIR 1960-01, Cong. Rec.]
+      - name: Savage, Bruce
+        acting: true
+        from: '1961'
+        to: '1961'
+        n: 'Listed Apr. 1961. Check: acting, and dates.'
+        src: [CDIR 1961-04]
+      - name: McGuire, Marie C.
+        confirmed: '1961-04-24'
+        from: '1961'
+        to: '1966'
+        n: 'Check both dates. Listed Jan. 1962 to Jan. 1966.'
+        src: [CDIR 1962-01, CDIR 1966-01, Cong. Rec.]
+  - id: urban-renewal-commissioner
+    title: Urban Renewal Commissioner
+    rank: inferior
+    appt: HD
+    level: IV
+    group: Urban Renewal Administration
+    from: '1954'
+    until: '1966'
+    n: 'The Urban Renewal Administration set up by the Administrator under the Housing Act of 1954 (law on the unit).'
+    holders:
+      - name: Follin, James W.
+        from: '1954'
+        to: '1957'
+        n: 'Check both dates. Listed Jan. 1956.'
+        src: [CDIR 1956-01]
+      - name: Steiner, Richard L.
+        from: '1957'
+        to: '1959'
+        n: 'Acting Commissioner, Mar. 1957; Commissioner, Jan. 1958 and Mar. 1959. Check both dates.'
+        src: [CDIR 1957-03, CDIR 1958-01, CDIR 1959-03]
+      - name: Walker, David M.
+        from: '1959'
+        to: '1961'
+        n: 'Check both dates. Listed Jan. 1960.'
+        src: [CDIR 1960-01]
+      - name: Slayton, William L.
+        from: '1961'
+        to: '1966'
+        n: 'Check both dates. Listed Apr. 1961 to Jan. 1966.'
+        src: [CDIR 1961-04, CDIR 1966-01]
+  - id: community-facilities-commissioner
+    title: Community Facilities Commissioner
+    rank: inferior
+    appt: HD
+    level: IV
+    group: Community Facilities Administration
+    from: '1954'
+    until: '1966'
+    holders:
+      - name: Hazeltine, John C.
+        from: '1954'
+        to: '1961'
+        n: 'Check both dates. Listed Jan. 1956 to Jan. 1960.'
+        src: [CDIR 1956-01, CDIR 1960-01]
+      - name: Woolner, Sidney H.
+        from: '1961'
+        to: '1964'
+        n: 'Check both dates. Listed Apr. 1961 to Jan. 1964.'
+        src: [CDIR 1961-04, CDIR 1964-01]
+      - name: Osthagen, Clarence H.
+        from: '1964'
+        to: '1966'
+        n: 'Check both dates. Listed Mar. 1965.'
+        src: [CDIR 1965-03]
+  - id: fnma-president
+    title: President, Federal National Mortgage Association
+    titles:
+      - {title: 'President, Government National Mortgage Association', from: '1968-09-01'}
+    rank: inferior
+    appt: HD
+    level: V
+    group: Federal National Mortgage Association
+    law:
+      - act: Housing Act of 1954, title II (Federal National Mortgage Association Charter Act)
+        date: '1954-08-02'
+        cite: 'ch. 649, 68 Stat. 590, 612'
+        usc: '12 U.S.C. §§ 1716–1723d (1958)'
+        tags: [creates, powers]
+        does: 'Rechartered the Association: secondary market operations, special assistance functions, and management and liquidation.'
+      - act: Housing and Urban Development Act of 1968, § 802
+        date: '1968-08-01'
+        cite: 'Pub. L. 90-448, 82 Stat. 476, 536'
+        tags: [reorganizes]
+        does: 'Partitioned; the Government National Mortgage Association, in the Department, takes the special assistance and liquidation functions.'
+    n: 'Appointed by the Administrator, later the Secretary.'
+    holders:
+      - name: Baughman, J. Stanley
+        from: '1950'
+        to: '1966'
+        n: 'Check both dates. Listed Mar. 1953 to Jan. 1966.'
+        src: [CDIR 1953-03, CDIR 1966-01]
+      - name: Lapin, Raymond H.
+        from: '1967'
+        to: '1968'
+        n: 'Listed Dec. 1967. Check both dates.'
+        src: [CDIR 1967-12]
+      - name: Kingman, Woodward
+        from: '1969'
+        n: 'President of the Government National Mortgage Association; acting Federal Housing Commissioner, Jan.–July 1973. Check: date of taking office. Listed Mar. 1971 to Dec. 1973.'
+        src: [CDIR 1971-03, CDIR 1973-12]
+  - id: assistant-secretary-metropolitan-development
+    title: Assistant Secretary for Metropolitan Development
+    titles:
+      - {title: Assistant Secretary for Community Planning and Management, from: '1971'}
+      - {title: Assistant Secretary for Community Planning and Development, from: '1973'}
+    rank: principal
+    appt: PAS
+    level: IV
+    from: '1965-11-09'
+    n: 'One of the four Assistant Secretaries of the 1965 act (law under under-secretary).'
+    holders:
+      - name: Haar, Charles M.
+        given: Charles Monroe
+        nominated: '1966-01-19'
+        confirmed: '1966-01-27'
+        from: '1966'
+        to: '1969'
+        n: 'Nomination announced Jan. 17, 1966. Check both dates.'
+        src: [APP 1966-01-17, CDIR 1967-02, CDIR 1967-12, Cong. Rec. Index 1966]
+      - name: Jackson, Samuel C.
+        nominated: '1969-01-27'
+        from: '1969'
+        to: '1973'
+        n: 'Also styled General Assistant Secretary, 1969–72. Check both dates. Listed Mar. 1969 to Dec. 1971.'
+        src: [CDIR 1969-03, CDIR 1971-12, Cong. Rec.]
+      - name: Graves, Clifford W.
+        acting: true
+        from: '1973'
+        to: '1973'
+        n: 'Listed as acting, Mar. 1973. Check dates.'
+        src: [CDIR 1973-03]
+      - name: Meeker, David Olan, Jr.
+        confirmed: '1973-07-28'
+        from: '1973'
+        n: 'Check: date of taking office. Listed Dec. 1973.'
+        src: [CDIR 1973-12, Cong. Rec.]
+  - id: assistant-secretary-renewal-housing
+    title: Assistant Secretary for Renewal and Housing Assistance
+    titles:
+      - {title: Assistant Secretary for Renewal and Housing Management, from: '1970'}
+      - {title: Assistant Secretary for Housing Management, from: '1972'}
+    rank: principal
+    appt: PAS
+    level: IV
+    from: '1965-11-09'
+    n: 'One of the four Assistant Secretaries of the 1965 act. Public housing and urban renewal.'
+    holders:
+      - name: Hummel, Don
+        nominated: '1966-05-10'
+        confirmed: '1966-05-16'
+        from: '1966'
+        to: '1969'
+        n: 'Formerly mayor of Tucson. Check both dates. Listed Feb. and Dec. 1967.'
+        src: ['Wikipedia: Don Hummel', CDIR 1967-02, CDIR 1967-12, Cong. Rec. Index 1966, Cong. Rec.]
+      - name: Cox, Lawrence M.
+        nominated: '1969-02-20'
+        confirmed: '1969-03-04'
+        from: '1969-03'
+        to: '1970-07'
+        n: 'Check both dates.'
+        src: ['Wikipedia: Assistant Secretary of HUD for Housing', CDIR 1969-03, CDIR 1969-12, Cong. Rec.]
+      - name: Watson, Norman V.
+        nominated: '1971-05-05'
+        from: '1970-07'
+        to: '1973-01'
+        n: 'Listed as acting, Mar. 1971. Check both dates.'
+        src: ['Wikipedia: Assistant Secretary of HUD for Housing', CDIR 1971-03, Cong. Rec.]
+      - name: Silverman, Abner D.
+        acting: true
+        from: '1973-01'
+        to: '1973-04-02'
+        src: ['Wikipedia: Assistant Secretary of HUD for Housing']
+      - name: Crawford, H. R.
+        given: Hercules Rudolph
+        nominated: '1973-03-08'
+        from: '1973-04-02'
+        n: Served to Jan. 27, 1976.
+        src: ['Wikipedia: H. R. Crawford', CDIR 1973-12, Cong. Rec.]
+  - id: assistant-secretary-demonstrations
+    title: Assistant Secretary for Demonstrations and Intergovernmental Relations
+    titles:
+      - {title: Assistant Secretary for Model Cities and Governmental Relations, from: '1969'}
+      - {title: Assistant Secretary for Community Development, from: '1971'}
+    rank: principal
+    appt: PAS
+    level: IV
+    from: '1965-11-09'
+    until: '1973'
+    n: 'One of the four Assistant Secretaries of the 1965 act; over the Model Cities program from 1966.'
+    holders:
+      - name: Taylor, H. Ralph
+        confirmed: '1966-05-16'
+        from: '1966'
+        to: '1969'
+        n: 'Nomination announced May 6, 1966. Check both dates.'
+        src: [APP 1966-05-06, CDIR 1967-02, CDIR 1967-12, Cong. Rec.]
+      - name: Hyde, Floyd H.
+        nominated: '1969-01-27'
+        from: '1969-01'
+        to: '1973'
+        out: To Under Secretary.
+        n: 'Formerly mayor of Fresno. Check both dates.'
+        src: ['Wikipedia: Floyd H. Hyde', CDIR 1969-03, CDIR 1971-12, Cong. Rec.]
+  - id: model-cities-director
+    title: Director, Model Cities Administration
+    rank: inferior
+    appt: HD
+    from: '1966-11-03'
+    under: assistant-secretary-demonstrations
+    law:
+      - act: Demonstration Cities and Metropolitan Development Act of 1966
+        date: '1966-11-03'
+        cite: 'Pub. L. 89-754, 80 Stat. 1255'
+        usc: '42 U.S.C. §§ 3301–3313 (1970)'
+        tags: [powers]
+        does: 'Grants and technical assistance to cities for comprehensive demonstration programs to rebuild slum and blighted areas.'
+    holders:
+      - name: Farr, Walter G.
+        from: '1967'
+        to: '1969'
+        n: 'Check both dates. Listed Feb. 1967 to Mar. 1969; not Dec. 1969.'
+        src: [CDIR 1967-02, CDIR 1969-03, CDIR 1969-12]
+  - id: assistant-secretary-equal-opportunity
+    title: Assistant Secretary for Equal Opportunity
+    rank: principal
+    appt: PAS
+    level: IV
+    from: '1968-04-11'
+    law:
+      - act: Civil Rights Act of 1968, § 808(b)
+        date: '1968-04-11'
+        cite: 'Pub. L. 90-284, 82 Stat. 73, 84'
+        usc: '42 U.S.C. § 3533 (1970)'
+        tags: [creates, appointment]
+        does: 'An additional Assistant Secretary; five in the 1965 act''s § 4(a).'
+    holders:
+      - name: Simmons, Samuel J.
+        nominated: '1969-01-27'
+        from: '1969'
+        to: '1972'
+        n: 'Check both dates. Listed Mar. 1969 to Dec. 1971.'
+        src: [CDIR 1969-03, CDIR 1971-12, Cong. Rec.]
+      - name: Toote, Gloria E. A.
+        nominated: '1973-05-07'
+        from: '1973'
+        n: 'Check: date of taking office. Not listed Mar. 1973; listed Dec. 1973.'
+        src: [CDIR 1973-03, CDIR 1973-12, Cong. Rec.]
+  - id: assistant-secretary-research
+    title: Assistant Secretary for Research and Technology
+    titles:
+      - {title: Assistant Secretary for Policy Development and Research, from: '1973'}
+    rank: principal
+    appt: PAS
+    level: IV
+    from: '1968-08-01'
+    law:
+      - act: Housing and Urban Development Act of 1968, § 1708
+        date: '1968-08-01'
+        cite: 'Pub. L. 90-448, 82 Stat. 476, 606'
+        usc: '42 U.S.C. § 3533 (1970)'
+        tags: [creates, appointment]
+        does: 'A sixth Assistant Secretary.'
+    holders:
+      - name: Finger, Harold B.
+        nominated: '1969-03-25'
+        confirmed: '1969-04-25'
+        from: '1969'
+        to: '1973'
+        n: 'Check both dates. Listed Dec. 1969 to Dec. 1971.'
+        src: [CDIR 1969-12, CDIR 1971-12, Cong. Rec.]
+      - name: Britton, Theodore R.
+        acting: true
+        from: '1973'
+        to: '1973'
+        n: 'Listed Mar. 1973. Check: acting, and dates.'
+        src: [CDIR 1973-03]
+      - name: Moskow, Michael H.
+        nominated: '1973-03-08'
+        from: '1973'
+        n: 'Check: date of taking office. Listed Dec. 1973.'
+        src: [CDIR 1973-12, Cong. Rec.]
+  - id: assistant-secretary-legislative-affairs
+    title: Assistant Secretary for Legislative Affairs
+    rank: principal
+    appt: PAS
+    level: IV
+    from: '1973'
+    holders:
+      - name: Mosher, Sol
+        nominated: '1973-03-08'
+        from: '1973'
+        n: 'Check: date of taking office, and authority for the office. Listed Dec. 1973.'
+        src: [CDIR 1973-12, Cong. Rec.]
+  - id: assistant-secretary-administration
+    title: Assistant Secretary for Administration
+    rank: inferior
+    appt: CAREER
+    level: V
+    from: '1965-11-09'
+    law:
+      - act: Department of Housing and Urban Development Act, § 4(b)
+        date: '1965-09-09'
+        effective: '1965-11-09'
+        cite: 'Pub. L. 89-174, 79 Stat. 667, 668'
+        usc: '42 U.S.C. § 3533 (1970)'
+        tags: [creates, appointment]
+        does: 'An Assistant Secretary for Administration, appointed by the Secretary with the approval of the President under the classified civil service.'
+    holders:
+      - name: Ink, Dwight A.
+        from: '1966'
+        to: '1969'
+        n: 'Check both dates. Listed Feb. and Dec. 1967; not Mar. 1969.'
+        src: [CDIR 1967-02, CDIR 1967-12, CDIR 1969-03]
+      - name: Condon, Lester P.
+        from: '1969'
+        to: '1972'
+        n: 'Check both dates. Listed Dec. 1969 to Dec. 1971.'
+        src: [CDIR 1969-12, CDIR 1971-12]
+      - name: Morley, Harry T.
+        from: '1972'
+        to: '1973'
+        n: 'Check both dates. Listed Mar. 1973.'
+        src: [CDIR 1973-03]
+      - name: Christensen, W. Boyd
+        from: '1973'
+        n: 'Check: date of taking office. Listed Dec. 1973.'
+        src: [CDIR 1973-12]
+  - id: secretary-staff
+    title: Assistant to the Secretary
+    rank: employee
+    appt: HD
+    many: true
+    from: '1965-11-09'
+    n: Personal staff of the Secretary named in the FRUS persons lists.
+    holders:
+      - name: Wilderotter, James A.
+        title: Executive Assistant to the Secretary
+        from: '1973'
+        to: '1974'
+        out: To Associate Deputy Attorney General.
+        n: 'Check both dates.'
+        src: ['FRUS persons list']
+      - name: Raoul-Duval, Michael
+        title: Aide to the Secretary
+        from: '1973-03'
+        to: '1973-10'
+        out: To the Domestic Council staff.
+        src: ['FRUS persons list']

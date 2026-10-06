@@ -1,0 +1,147 @@
+# The Federal Deposit Insurance Corporation. Kept by hand.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: fdic
+name: Federal Deposit Insurance Corporation
+under: president
+order: 500
+law:
+  - act: Banking Act of 1933
+    date: '1933-06-16'
+    tags: [creates]
+    cite: 'ch. 89, § 8, 48 Stat. 162, 168'
+    usc: '12 U.S.C. § 264 (1946)'
+    does: Creates the Federal Deposit Insurance Corporation, to insure the deposits of member banks of the Federal Reserve System and of admitted nonmember banks.
+  - act: Federal Deposit Insurance Act
+    date: '1950-09-21'
+    tags: [appointment, powers]
+    cite: 'ch. 967, § 2, 64 Stat. 873'
+    usc: ['12 U.S.C. §§ 1811–1831 (1958)']
+    does: 'The Corporation''s law restated as a separate act. A Board of Directors of three: the Comptroller of the Currency and two members appointed by the President, by and with the advice and consent of the Senate, for six years; one of the appointive members the Chairman; not more than two of one party. The Comptroller acts as Chairman in a vacancy.'
+n: Chairmen as the Corporation lists them; directors as the Congressional Directory lists them at each edition. The Comptroller of the Currency, the third member, is entered under the Treasury.
+offices:
+  - id: chairman
+    title: Chairman of the Board of Directors
+    rank: head
+    appt: PAS
+    level: III
+    law:
+      - act: Federal Deposit Insurance Act
+        date: '1950-09-21'
+        tags: [appointment, vacancy]
+        cite: 'ch. 967, § 2, 64 Stat. 873'
+        usc: '12 U.S.C. § 1812 (1958)'
+        does: One of the appointive members the Chairman; in a vacancy the Comptroller of the Currency acts as Chairman.
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(c)(20), 78 Stat. 400, 417'
+        usc: '5 U.S.C. § 5314 (1970)'
+        does: Level III, $28,500.
+    holders:
+      - name: Harl, Maple T.
+        from: '1946-01-05'
+        to: '1953-05-10'
+        out: Remained a director.
+        src: ['fdic.gov, FDIC Chairmen']
+      - name: Cook, H. Earl
+        from: '1953-05-10'
+        to: '1957-09-06'
+        src: ['fdic.gov, FDIC Chairmen', CDIR 1954-01, CDIR 1957-03]
+      - name: Gidney, Ray M.
+        acting: true
+        from: '1957-09-06'
+        to: '1957-09-17'
+        n: Comptroller of the Currency.
+        src: ['fdic.gov, FDIC Chairmen']
+      - name: Wolcott, Jesse P.
+        from: '1957-09-17'
+        to: '1961-01-20'
+        out: Remained a director.
+        n: Former Representative from Michigan.
+        src: ['fdic.gov, FDIC Chairmen', CDIR 1958-01, CDIR 1960-01]
+      - name: Cocke, Erle, Sr.
+        from: '1961-01-20'
+        to: '1963-08-04'
+        src: ['fdic.gov, FDIC Chairmen', CDIR 1961-04, CDIR 1963-03]
+      - name: Saxon, James J.
+        acting: true
+        from: '1963-08-04'
+        to: '1964-01-22'
+        n: Comptroller of the Currency.
+        src: ['fdic.gov, FDIC Chairmen', CDIR 1964-01]
+      - name: Barr, Joseph W.
+        from: '1964-01-22'
+        to: '1965-04-21'
+        out: To Under Secretary of the Treasury.
+        n: Former Representative from Indiana.
+        src: ['fdic.gov, FDIC Chairmen', CDIR 1965-03]
+      - name: Randall, Kenneth A.
+        from: '1965-04-21'
+        to: '1970-03-09'
+        src: ['fdic.gov, FDIC Chairmen', CDIR 1966-01, CDIR 1969-12]
+      - name: Camp, William B.
+        acting: true
+        from: '1970-03-09'
+        to: '1970-04-01'
+        n: Comptroller of the Currency.
+        src: ['fdic.gov, FDIC Chairmen']
+      - name: Wille, Frank
+        nominated: '1970-02-20'
+        from: '1970-04-01'
+        n: Served to Mar. 16, 1976.
+        src: ['fdic.gov, FDIC Chairmen', CDIR 1971-03, CDIR 1973-12, Cong. Rec.]
+  - id: director
+    title: Director (appointive member of the Board)
+    rank: principal
+    appt: PAS
+    level: IV
+    law:
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(d)(58), 78 Stat. 400, 419'
+        usc: '5 U.S.C. § 5315 (1970)'
+        does: Level IV, $27,000.
+    holders:
+      - name: Harl, Maple T.
+        from: '1953-05-10'
+        to: '1957'
+        n: 'Chairman before. Check: the day he left (listed Mar. 1957, not Jan. 1958).'
+        src: ['fdic.gov, FDIC Chairmen', CDIR 1957-03]
+      - name: Cocke, Erle, Sr.
+        confirmed: '1957-08-05'
+        from: '1957'
+        to: '1961-01-20'
+        out: To Chairman.
+        n: 'Check: the day he took office (listed Jan. 1958).'
+        src: [CDIR 1958-01, CDIR 1960-01, Cong. Rec.]
+      - name: Wolcott, Jesse P.
+        from: '1961-01-20'
+        to: '1964'
+        n: 'Chairman before. Check: the day he left (listed Jan. 1964, not Mar. 1965).'
+        src: ['fdic.gov, FDIC Chairmen', CDIR 1962-01, CDIR 1964-01]
+      - name: Randall, Kenneth A.
+        from: '1964'
+        to: '1965-04-21'
+        out: To Chairman.
+        n: 'Check: the day he took office (listed Mar. 1965).'
+        src: [CDIR 1965-03]
+      - name: Sherrill, William W.
+        from: '1966'
+        to: '1967-04'
+        out: To the Board of Governors of the Federal Reserve System.
+        n: 'Check: the dates (listed Feb. 1967).'
+        src: [CDIR 1967-02]
+      - name: Sprague, Irvine H.
+        nominated: '1968-07-19'
+        confirmed: '1968-07-30'
+        from: '1968'
+        to: '1972'
+        n: 'Chairman, 1979–81. Check: the dates (listed Mar. 1969 to Dec. 1971).'
+        src: [CDIR 1969-03, CDIR 1971-12, Cong. Rec.]
+      - name: LeMaistre, George A.
+        from: '1973'
+        n: 'Chairman, 1977–78. Check: the day he took office (listed Dec. 1973).'
+        src: [CDIR 1973-12]

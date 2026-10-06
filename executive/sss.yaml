@@ -1,0 +1,102 @@
+# The Selective Service System. Kept by hand.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: sss
+name: Selective Service System
+under: president
+order: 500
+law:
+  - act: Selective Service Act of 1948
+    date: '1948-06-24'
+    tags: [creates, powers]
+    cite: 'ch. 625, § 10(a), 62 Stat. 604, 618'
+    usc: '50 U.S.C. App. § 460 (1958)'
+    does: Establishes in the executive branch the Selective Service System, with a national headquarters, a headquarters in each State, and local and appeal boards of civilians, and a Director of Selective Service its head; transfers to it the Office of Selective Service Records.
+  - act: Universal Military Training and Service Act
+    date: '1951-06-19'
+    tags: [powers]
+    cite: 'ch. 144, § 1, 65 Stat. 75'
+    usc: '50 U.S.C. App. §§ 451–471 (1958)'
+    does: Renames the 1948 Act; extends induction to July 1, 1955 and lowers the age to eighteen and a half; a National Security Training Commission. Induction extended by later acts in 1955, 1959 and 1963.
+  - act: Military Selective Service Act of 1967
+    date: '1967-06-30'
+    tags: [powers]
+    cite: 'Pub. L. 90-40, 81 Stat. 100'
+    usc: '50 U.S.C. App. §§ 451–473 (1970)'
+    does: Renames the Act again and extends induction to July 1, 1971. Amended Nov. 26, 1969 (Pub. L. 91-124, 83 Stat. 220) to permit a random selection (the lottery); induction authority extended to July 1, 1973 by Pub. L. 92-129 (Sept. 28, 1971), and not after.
+offices:
+  - id: director
+    title: Director of Selective Service
+    rank: head
+    appt: PAS
+    level: III
+    n: Level III while Hershey held it; level IV for his successors.
+    law:
+      - act: Selective Service Act of 1948
+        date: '1948-06-24'
+        tags: [creates, appointment, pay]
+        cite: 'ch. 625, § 10(a)(3), 62 Stat. 604, 618'
+        usc: '50 U.S.C. App. § 460 (1958)'
+        does: The Director appointed by the President with the advice and consent of the Senate; $12,500.
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(c), 78 Stat. 400, 417'
+        usc: '5 U.S.C. § 5314 (1970)'
+        does: The Director in level III so long as the position is held by the present incumbent; afterward level IV.
+    holders:
+      - name: Hershey, Lewis B.
+        given: Lewis Blaine
+        rank: Maj. Gen., USA; Lt. Gen. from 1956
+        from: '1941-07-31'
+        to: '1970-02-16'
+        out: Relieved; to adviser to the President on manpower mobilization.
+        n: 'Director of the wartime Selective Service System from 1941, of the Office of Selective Service Records 1947–48, and of the System under the 1948 Act. Departure announced Oct. 10, 1969.'
+        src: [Wikipedia, Lewis Blaine Hershey, CDIR 1953-03 to 1969-12]
+      - name: 'Ingold, Dee'
+        title: 'Acting Director of Selective Service'
+        acting: true
+        from: '1970-02-16'
+        to: '1970-04-06'
+        n: 'Wikipedia gives Feb. 15, 1970. Check the day.'
+        src: ['Wikipedia: Selective Service System']
+      - name: Tarr, Curtis W.
+        given: Curtis William
+        nominated: '1970-03-12'
+        confirmed: '1970-03-20'
+        from: '1970-04-06'
+        to: '1972-05-01'
+        out: To Under Secretary of State for Coordinating Security Assistance.
+        src: [Wikipedia, Curtis W. Tarr, CDIR 1971-03, 1971-12, Cong. Rec. Index 1970, Cong. Rec.]
+      - name: Pepitone, Byron V.
+        nominated: '1973-02-27'
+        confirmed: '1973-03-26'
+        from: '1972-05-01'
+        to: '1977-07-31'
+        src: [Wikipedia, Byron V. Pepitone, CDIR 1973-03, Cong. Rec.]
+  - id: deputy-director
+    title: Deputy Director
+    titles:
+      - title: Deputy Director and General Counsel
+        from: '1959'
+    rank: principal
+    appt: HD
+    holders:
+      - name: Renfrow, Louis H.
+        given: Louis Henry
+        rank: Brig. Gen., USA
+        from: '1950'
+        to: '1957'
+        n: Check both dates.
+        src: [Wikipedia, Louis H. Renfrow, CDIR 1953-03 to 1957-03]
+      - name: Omer, Daniel O.
+        rank: Col., USA
+        from: '1959'
+        to: '1970'
+        n: 'Listed CDIR 1960-01 to 1969-12. Check both dates.'
+        src: [CDIR 1960-01 to 1969-12]
+      - name: Dewhurst, John D.
+        title: Deputy Director, Administration
+        from: '1971'
+        n: 'Listed CDIR 1971-03 to 1973-12. Check both dates.'
+        src: [CDIR 1971-03 to 1973-12]

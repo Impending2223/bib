@@ -1,0 +1,224 @@
+# The Federal Bureau of Investigation. Kept by hand.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+# Sources: the Congressional Directory (CDIR, by edition), the Public Papers (APP), FRUS lists of persons,
+# Wikipedia (leads only), the Statutes and the U.S. Code, 1970 edition.
+unit: fbi
+name: Federal Bureau of Investigation
+under: justice
+order: 10
+law:
+  - act: Act of May 22, 1908 (appropriations)
+    date: '1908-05-22'
+    tags: [creates]
+    cite: 'ch. 186, 35 Stat. 184, 236'
+    usc: '28 U.S.C. § 531 note (1970)'
+    does: Funds for the detection and prosecution of crimes; the Bureau of Investigation made from them by the Attorney General's order of July 26, 1908. The act does not name the Bureau.
+  - act: Executive Order 6166, § 3
+    date: '1933-06-10'
+    tags: [reorganizes]
+    url: https://www.presidency.ucsb.edu/documents/executive-order-6166-organization-executive-agencies
+    does: The Bureau of Investigation and the investigative functions of the Bureau of Prohibition consolidated in a Division of Investigation in the Department of Justice, headed by a Director of Investigation.
+  - act: Act of Mar. 22, 1935 (appropriations)
+    date: '1935-03-22'
+    tags: [reorganizes]
+    cite: 'ch. 39, title II, 49 Stat. 67, 77'
+    does: The Division of Investigation first designated the Federal Bureau of Investigation.
+  - act: Act of Sept. 6, 1966 (Title 5, U.S. Code, enacted)
+    date: '1966-09-06'
+    tags: [creates, powers]
+    cite: 'Pub. L. 89-554, § 4(c), 80 Stat. 378, 616'
+    usc: '28 U.S.C. §§ 531–535 (1970)'
+    does: The Federal Bureau of Investigation is in the Department of Justice (§ 531). The Attorney General may appoint officials to detect and prosecute crimes against the United States, to assist in protecting the President, and to conduct other investigations (§ 533).
+offices:
+  - id: director
+    title: Director of the Federal Bureau of Investigation
+    rank: inferior
+    appt: HD
+    level: II
+    n: Appointed by the Attorney General; by the President with the Senate's consent from May 3, 1972 (Pub. L. 90-351, § 1101).
+    law:
+      - act: Act of Sept. 6, 1966 (Title 5, U.S. Code, enacted)
+        date: '1966-09-06'
+        tags: [appointment]
+        cite: 'Pub. L. 89-554, § 4(c), 80 Stat. 378, 616'
+        usc: '28 U.S.C. § 532 (1970)'
+        does: The Attorney General may appoint a Director of the Federal Bureau of Investigation, its head.
+      - act: Federal Executive Salary Act of 1964, § 303(b)
+        date: '1964-08-14'
+        effective: '1964-07'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(b), 78 Stat. 400, 416'
+        usc: '5 U.S.C. § 5313 (1970)'
+        does: Level II so long as the position is held by the present incumbent; thereafter level III.
+      - act: Omnibus Crime Control and Safe Streets Act of 1968, § 1101
+        date: '1968-06-19'
+        effective: '1972-05-03'
+        tags: [appointment, pay]
+        cite: 'Pub. L. 90-351, § 1101, 82 Stat. 197, 236'
+        usc: '28 U.S.C. § 532 note (1970)'
+        does: From the day after the present incumbent ceases to serve, the Director appointed by the President with the Senate's consent, at level II.
+    holders:
+      - name: Hoover, J. Edgar
+        from: '1924-05-10'
+        to: '1972-05-02'
+        out: Died.
+        n: Director of the Bureau of Investigation, 1924; of the Division of Investigation, 1933; of the FBI from 1935. Appointed by the Attorney General.
+        src: [Wikipedia, CDIR 1953-03, FRUS persons list]
+      - name: Gray, L. Patrick, III
+        acting: true
+        nominated: '1973-02'
+        from: '1972-05-03'
+        to: '1973-04-27'
+        out: Resigned.
+        n: 'Designated by the Attorney General, May 3, 1972. Nominated Director, Feb. 1973; withdrawal announced Apr. 5, 1973 (APP). Check: Wikipedia gives the nomination Feb. 15.'
+        src: [APP, Wikipedia]
+      - name: Ruckelshaus, William D.
+        acting: true
+        from: '1973-04-30'
+        to: '1973-07-09'
+        n: Administrator, Environmental Protection Agency, to Apr. 30, 1973.
+        src: [FRUS persons list, Wikipedia]
+      - name: Kelley, Clarence M.
+        from: '1973-07-09'
+        n: Sworn July 9, 1973, at Kansas City by Chief Judge Becker (APP). The first Director confirmed by the Senate. Check the dates of nomination and confirmation.
+        src: [APP, FRUS persons list, CDIR 1973-12]
+
+  - id: associate-director
+    title: Associate Director
+    rank: employee
+    appt: HD
+    level: IV
+    holders:
+      - name: Tolson, Clyde A.
+        from: '1947'
+        to: '1972-05-03'
+        out: Retired.
+        n: 'Acting Director, May 2–3, 1972. Check the dates; Wikipedia gives 1930 for the start of the office.'
+        src: [Wikipedia, CDIR 1953-03, CDIR 1971-12]
+      - name: Felt, W. Mark
+        acting: true
+        from: '1972-05-03'
+        to: '1973-06-22'
+        out: Retired.
+        n: Check the day he began acting.
+        src: [Wikipedia, CDIR 1973-03]
+      - name: Callahan, Nicholas P.
+        from: '1973'
+        n: Assistant Director, Administrative Division, from 1961. Check the dates.
+        src: [CDIR 1973-12]
+
+  - id: deputy-associate-director
+    title: Deputy Associate Director
+    rank: employee
+    appt: HD
+    from: '1971-07-01'
+    holders:
+      - name: Felt, W. Mark
+        from: '1971-07-01'
+        to: '1972-05-03'
+        out: To Acting Associate Director.
+        src: [Wikipedia, CDIR 1971-12]
+
+  - id: assistant-to-director
+    title: Assistant to the Director
+    rank: employee
+    appt: HD
+    level: V
+    many: true
+    n: The ranks below the Associate Director. Dates from the Directory's editions unless noted.
+    holders:
+      - name: Ladd, D. Milton
+        from: '1949-05-05'
+        to: '1954'
+        out: Retired.
+        n: Check the day he left.
+        src: [Wikipedia, CDIR 1954-01]
+      - name: Nichols, Louis B.
+        from: '1951'
+        to: '1957'
+        n: Check the dates.
+        src: [CDIR 1955-02, CDIR 1957-03]
+      - name: Boardman, Leland V.
+        from: '1955'
+        to: '1959'
+        n: Check the dates.
+        src: [CDIR 1955-02, CDIR 1958-01]
+      - name: Parsons, Donald J.
+        from: '1959'
+        to: '1962'
+        n: Check the dates.
+        src: [CDIR 1961-04]
+      - name: Mohr, John P.
+        from: '1959'
+        to: '1972-06-30'
+        out: Retired.
+        n: Check the day he took office.
+        src: [Wikipedia, CDIR 1961-04, CDIR 1971-12]
+      - name: Belmont, Alan H.
+        from: '1961'
+        to: '1965'
+        n: Check the dates.
+        src: [CDIR 1962-01, CDIR 1966-01]
+      - name: DeLoach, Cartha D.
+        from: '1965'
+        to: '1970-07'
+        out: Resigned; to PepsiCo.
+        n: 'Liaison to the Johnson White House. FRUS: Assistant to the Director until 1970. Check the dates.'
+        src: [FRUS persons list, CDIR 1967-02, CDIR 1969-12]
+      - name: Sullivan, William C.
+        from: '1970-07'
+        to: '1971-10-01'
+        out: Forced out by Hoover.
+        n: Check the dates.
+        src: [FRUS persons list, Wikipedia, CDIR 1971-03]
+      - name: Rosen, Alex
+        from: '1971'
+        to: '1972'
+        n: Assistant Director, General Investigative Division, from 1954. Check the dates.
+        src: [CDIR 1971-12]
+
+  - id: assistant-directors
+    title: Assistant Director
+    rank: employee
+    appt: HD
+    many: true
+    n: Heads of the Bureau's divisions; those named in the series and their predecessors in the same division. Dates from the Directory's editions unless noted.
+    holders:
+      - name: Belmont, Alan H.
+        title: Assistant Director, Domestic Intelligence Division
+        from: '1953'
+        to: '1961'
+        out: To Assistant to the Director.
+        n: Check the dates.
+        src: [CDIR 1954-01, CDIR 1961-04]
+      - name: DeLoach, Cartha D.
+        title: Assistant Director, Crime Records Division
+        from: '1959'
+        to: '1965'
+        out: To Assistant to the Director.
+        n: Inspector in charge of the division, 1959. Check the dates.
+        src: [CDIR 1959-03, CDIR 1960-01, CDIR 1965-03]
+      - name: Evans, Courtney A.
+        title: Assistant Director, Special Investigative Division
+        from: '1961'
+        to: '1964'
+        n: The Bureau's liaison to Robert Kennedy. Check the dates.
+        src: [CDIR 1961-04, CDIR 1964-01]
+      - name: Sullivan, William C.
+        title: Assistant Director, Domestic Intelligence Division
+        from: '1961'
+        to: '1970-07'
+        out: To Assistant to the Director.
+        src: [FRUS persons list, CDIR 1962-01, CDIR 1969-12]
+      - name: Felt, W. Mark
+        title: Assistant Director, Inspection Division
+        from: '1964-11'
+        to: '1971-07-01'
+        out: To Deputy Associate Director.
+        src: [Wikipedia, CDIR 1965-03, CDIR 1969-12]
+      - name: Miller, Edward S.
+        title: Assistant Director, Domestic Intelligence Division
+        from: '1971'
+        to: '1973'
+        n: Acting in CDIR, Dec. 1971. Check the dates.
+        src: [CDIR 1971-12, CDIR 1973-03]

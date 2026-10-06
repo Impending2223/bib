@@ -1,0 +1,79 @@
+# The Council on Environmental Quality, 1970-. Kept by hand. Holders known only from the Congressional Directory (CDIR <edition>) carry year
+# dates and a Check. See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: ceq
+name: Council on Environmental Quality
+under: eop
+order: 110
+from: '1970-01-01'
+law:
+  - act: National Environmental Policy Act of 1969
+    date: '1970-01-01'
+    cite: 'Pub. L. 91-190, §§ 202–206, 83 Stat. 852, 854'
+    usc: '42 U.S.C. §§ 4342–4346 (1970)'
+    tags: [creates, appointment, powers, pay]
+    does: 'Creates in the Executive Office a Council on Environmental Quality of three members appointed by the President to serve at his pleasure, by and with the advice and consent of the Senate; the President designates one Chairman; the Council assists in the annual Environmental Quality Report, gathers information on environmental trends, appraises the Government''s programs, and recommends policy; the Chairman at level II, the other members at level IV (§ 206).'
+  - act: Environmental Quality Improvement Act of 1970
+    date: '1970-04-03'
+    cite: 'Pub. L. 91-224, title II, 84 Stat. 91, 114'
+    usc: '42 U.S.C. §§ 4371–4374 (1970)'
+    tags: [creates, powers]
+    does: 'Establishes in the Executive Office an Office of Environmental Quality, its Director the Chairman of the Council, to provide the Council''s professional and administrative staff.'
+offices:
+  - id: chairman
+    title: Chairman of the Council on Environmental Quality
+    rank: head
+    appt: DES
+    level: II
+    n: A member, designated Chairman by the President.
+    holders:
+      - name: Train, Russell E.
+        from: '1970-01'
+        to: '1973-09-12'
+        out: To Administrator of the Environmental Protection Agency.
+        n: Under Secretary of the Interior, 1969–70. Check the nomination, confirmation, and oath.
+        src: ['Wikipedia: Russell E. Train', FRUS persons list, CDIR 1971-03]
+      - name: Busterud, John A.
+        acting: true
+        from: '1973-09'
+        to: '1973-11-30'
+        n: A member. Listed as acting Chairman with the Federal Property Council (CDIR 1973-12). Check the dates.
+        src: [CDIR 1973-12]
+      - name: Peterson, Russell W.
+        from: '1973-11-30'
+        n: Governor of Delaware, 1969–73. Served to Sept. 4, 1976.
+        src: [FRUS persons list, 'Wikipedia: Russell W. Peterson']
+  - id: member
+    title: Member of the Council on Environmental Quality
+    rank: principal
+    appt: PAS
+    level: IV
+    many: true
+    holders:
+      - name: Cahn, Robert
+        from: '1970'
+        to: '1972'
+        n: Listed in the Congressional Directory, Mar. 1971–Dec. 1971. Check the dates of office.
+        src: [CDIR 1971-03, CDIR 1971-12]
+      - name: MacDonald, Gordon J. F.
+        from: '1970'
+        to: '1972'
+        n: Listed in the Congressional Directory, Mar. 1971–Dec. 1971. Check the dates of office.
+        src: [CDIR 1971-03, CDIR 1971-12, 'Wikipedia: Gordon J. F. MacDonald', FRUS persons list]
+      - name: Train, Russell E.
+        from: '1970-01'
+        to: '1973-09-12'
+        n: Chairman.
+        src: ['Wikipedia: Russell E. Train']
+      - name: Busterud, John A.
+        from: '1972'
+        n: Listed in the Congressional Directory, Mar. 1973–Dec. 1973. Check the dates of office.
+        src: [CDIR 1973-03, CDIR 1973-12]
+      - name: Willard, Beatrice E.
+        from: '1972'
+        n: Listed in the Congressional Directory, Mar. 1973–Dec. 1973. Check the dates of office.
+        src: [CDIR 1973-03, CDIR 1973-12]
+      - name: Peterson, Russell W.
+        confirmed: '1973-11-20'
+        from: '1973-11-30'
+        n: Chairman.
+        src: [FRUS persons list, Cong. Rec.]

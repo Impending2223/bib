@@ -1,0 +1,52 @@
+# The President's Advisory Committee on Government Organization, 1953-61. Kept by hand. Holders known only from the Congressional Directory (CDIR <edition>) carry year
+# dates and a Check. See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: pacgo
+name: President's Advisory Committee on Government Organization
+under: eop
+order: 220
+from: '1953-01-24'
+until: '1961-01-20'
+law:
+  - act: Executive Order 10432
+    date: '1953-01-24'
+    url: https://www.presidency.ucsb.edu/documents/executive-order-10432-establishing-the-presidents-advisory-committee-government
+    tags: [creates, powers]
+    does: 'Establishes a committee of three, designated by the President, to advise him on changes in the organization of the executive branch.'
+offices:
+  - id: chairman
+    title: Chairman of the President's Advisory Committee on Government Organization
+    rank: head
+    appt: DES
+    holders:
+      - name: Rockefeller, Nelson A.
+        from: '1953-01-24'
+        to: '1958-12'
+        n: Governor of New York from Jan. 1, 1959. Under Secretary of HEW, 1953–54; Special Assistant to the President, 1954–55. Listed in the Congressional Directory, Jan. 1954–Jan. 1958. Check the dates of office.
+        src: [CDIR 1954-01, CDIR 1958-01]
+      - name: Flemming, Arthur S.
+        from: '1959'
+        to: '1961-01-20'
+        n: A member from 1953. Secretary of Health, Education, and Welfare from Aug. 1, 1958. Listed in the Congressional Directory, Mar. 1959–Jan. 1960. Check the dates of office.
+        src: [CDIR 1959-03, CDIR 1960-01]
+  - id: member
+    title: Member of the President's Advisory Committee on Government Organization
+    rank: principal
+    appt: DES
+    many: true
+    holders:
+      - name: Eisenhower, Milton S.
+        from: '1953-01-24'
+        to: '1961-01-20'
+        n: Listed in the Congressional Directory, Jan. 1954–Jan. 1960. Check the dates of office.
+        src: [CDIR 1954-01, CDIR 1960-01]
+      - name: Flemming, Arthur S.
+        from: '1953-01-24'
+        to: '1959'
+        out: To Chairman.
+        n: Listed in the Congressional Directory, Jan. 1954–Jan. 1958. Check the dates of office.
+        src: [CDIR 1954-01, CDIR 1958-01]
+      - name: Price, Don K., Jr.
+        from: '1959'
+        to: '1961-01-20'
+        n: Listed in the Congressional Directory, Mar. 1959–Jan. 1960. Check the dates of office.
+        src: [CDIR 1959-03, CDIR 1960-01]

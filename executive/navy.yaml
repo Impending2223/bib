@@ -1,0 +1,755 @@
+# The Department of the Navy: the civilian secretariat. Kept by hand.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: navy
+name: Department of the Navy
+under: defense
+order: 30
+law:
+- act: National Security Act of 1947
+  date: '1947-07-26'
+  tags:
+  - creates
+  - powers
+  cite: ch. 343, § 206, 61 Stat. 495, 501
+  does: 'The Department of the Navy within the National Military Establishment: the Navy, naval aviation, and the
+    Marine Corps.'
+- act: Act of Aug. 10, 1956 (Title 10 enacted)
+  date: '1956-08-10'
+  tags:
+  - creates
+  - powers
+  cite: ch. 1041, 70A Stat. 1, 278
+  usc: 10 U.S.C. §§ 5011, 5031–5035 (1958)
+  does: The Department of the Navy and its offices restated in subtitle C of title 10.
+n: The civilian secretariat. The service's military staff is a separate unit.
+offices:
+- id: secretary
+  title: Secretary of the Navy
+  rank: principal
+  appt: PAS
+  level: II
+  law:
+  - act: Act of Aug. 10, 1956 (Title 10 enacted)
+    date: '1956-08-10'
+    tags:
+    - appointment
+    - powers
+    cite: ch. 1041, 70A Stat. 1, 278
+    usc: 10 U.S.C. § 5031 (1958)
+    does: The Secretary of the Navy, appointed from civilian life by the President with the advice and consent of
+      the Senate, is the head of the Department.
+  - act: Federal Executive Salary Act of 1964
+    date: '1964-08-14'
+    effective: '1964-07'
+    until: '1966-09-06'
+    tags:
+    - pay
+    cite: Pub. L. 88-426, title III, § 303(b), 78 Stat. 400, 416
+    does: 'Executive Schedule level II: Secretary of the Navy.'
+  - act: Act of Sept. 6, 1966 (Title 5 enacted)
+    date: '1966-09-06'
+    tags:
+    - pay
+    cite: Pub. L. 89-554, 80 Stat. 378, 460
+    usc: 5 U.S.C. § 5313 (1970)
+    does: Level II continued.
+  holders:
+  - name: Kimball, Dan A.
+    from: '1951-07-31'
+    to: '1953-01-20'
+    src:
+    - 'Wikipedia: Dan A. Kimball'
+  - name: Whitehair, Francis P.
+    acting: true
+    from: '1953-01-20'
+    to: '1953-01-29'
+    n: 'Under Secretary. Check: dates.'
+    src:
+    - 'Wikipedia: Francis P. Whitehair'
+  - name: Anderson, Robert B.
+    nominated: '1953-01-29'
+    confirmed: '1953-02-02'
+    from: '1953-02-04'
+    to: '1954-03-03'
+    out: To Deputy Secretary of Defense.
+    n: Sworn Feb. 4, 1953, per the Congressional Directory.
+    src:
+    - CDIR 1954-01
+    - 'Wikipedia: Robert B. Anderson'
+    - Cong. Rec.
+  - name: Thomas, Charles S.
+    nominated: '1954-04-06'
+    confirmed: '1954-04-06'
+    from: '1954-05-03'
+    to: '1957-04-01'
+    src:
+    - CDIR 1955-02
+    - 'Wikipedia: Charles Thomas (Secretary of the Navy)'
+    - Cong. Rec.
+  - name: Gates, Thomas S., Jr.
+    nominated: '1957-03-01'
+    confirmed: '1957-03-22'
+    from: '1957-04-01'
+    to: '1959-06-08'
+    out: To Deputy Secretary of Defense.
+    n: Sworn Apr. 1, 1957, per the Congressional Directory.
+    src:
+    - CDIR 1958-01
+    - 'Wikipedia: Thomas S. Gates Jr.'
+    - Cong. Rec. Index 1957
+    - Cong. Rec.
+  - name: Franke, William B.
+    given: William Birrell
+    nominated: '1959-05-05'
+    confirmed: '1959-06-02'
+    from: '1959-06-08'
+    to: '1961-01-19'
+    n: Oath June 8, 1959, per the Congressional Directory.
+    src:
+    - CDIR 1960-01
+    - 'Wikipedia: William B. Franke'
+    - Cong. Rec.
+  - name: Connally, John
+    given: John Bowden, Jr.
+    nominated: '1961-01-21'
+    confirmed: '1961-01-23'
+    from: '1961-01-25'
+    to: '1961-12-20'
+    out: Resigned to run for governor of Texas.
+    n: 'Check: the Congressional Directory gives took office Jan. 23, 1961.'
+    src:
+    - CDIR 1961-04
+    - 'Wikipedia: John Connally'
+    - Cong. Rec. Index 1961
+    - Cong. Rec.
+  - name: Korth, Fred
+    nominated: '1962-01-15'
+    confirmed: '1962-01-29'
+    from: '1962-01-04'
+    to: '1963-11-01'
+    out: Resigned.
+    n: 'Check: the Congressional Directory gives took office Jan. 3, 1962.'
+    src:
+    - CDIR 1962-01
+    - 'Wikipedia: Fred Korth'
+    - Cong. Rec.
+  - name: Fay, Paul B., Jr.
+    acting: true
+    from: '1963-11-02'
+    to: '1963-11-28'
+    n: Under Secretary.
+    src:
+    - 'Wikipedia: Paul B. Fay'
+  - name: Nitze, Paul H.
+    nominated: '1963-10-16'
+    confirmed: '1963-11-27'
+    from: '1963-11-29'
+    to: '1967-06-30'
+    out: To Deputy Secretary of Defense.
+    n: 'Check: the Congressional Directory gives took office Nov. 27, 1963.'
+    src:
+    - CDIR 1964-01
+    - 'Wikipedia: Paul Nitze'
+    - Cong. Rec.
+  - name: Baird, Charles F.
+    acting: true
+    from: '1967-07-01'
+    to: '1967-08-31'
+    n: Under Secretary.
+    src:
+    - 'Wikipedia: United States Secretary of the Navy'
+  - name: Ignatius, Paul R.
+    nominated: '1967-08-04'
+    confirmed: '1967-08-18'
+    from: '1967-09-01'
+    to: '1969-01-24'
+    src:
+    - FRUS persons list
+    - 'Wikipedia: Paul Robert Ignatius'
+    - Cong. Rec.
+  - name: Chafee, John H.
+    given: John Hubbard
+    confirmed: '1969-01-29'
+    from: '1969-01-31'
+    to: '1972-05-04'
+    out: Resigned to run for the Senate.
+    src:
+    - 'Wikipedia: John Chafee'
+    - Cong. Rec.
+  - name: Warner, John W.
+    given: John William
+    nominated: '1972-04-10'
+    confirmed: '1972-04-25'
+    from: '1972-05-04'
+    to: '1974-04-08'
+    src:
+    - 'Wikipedia: John Warner'
+    - Cong. Rec.
+  - name: Middendorf, J. William, II
+    given: John William
+    confirmed: '1974-06-06'
+    from: '1974-04-08'
+    src:
+    - 'Wikipedia: J. William Middendorf'
+    - Cong. Rec.
+- id: under-secretary
+  title: Under Secretary of the Navy
+  rank: principal
+  appt: PAS
+  level: IV
+  law:
+  - act: Act of Aug. 10, 1956 (Title 10 enacted)
+    date: '1956-08-10'
+    tags:
+    - creates
+    - appointment
+    cite: ch. 1041, 70A Stat. 1, 278
+    usc: 10 U.S.C. § 5032 (1958)
+    does: An Under Secretary of the Navy, appointed from civilian life by the President with the advice and consent
+      of the Senate.
+  - act: Federal Executive Salary Act of 1964
+    date: '1964-08-14'
+    effective: '1964-07'
+    until: '1966-09-06'
+    tags:
+    - pay
+    cite: Pub. L. 88-426, title III, § 303(d), 78 Stat. 400, 418
+    does: 'Executive Schedule level IV: Under Secretary of the Navy.'
+  - act: Act of Sept. 6, 1966 (Title 5 enacted)
+    date: '1966-09-06'
+    tags:
+    - pay
+    cite: Pub. L. 89-554, 80 Stat. 378, 461
+    usc: 5 U.S.C. § 5315 (1970)
+    does: Level IV continued.
+  holders:
+  - name: Whitehair, Francis P.
+    from: '1951-08-07'
+    to: '1953-01-29'
+    src:
+    - 'Wikipedia: Francis P. Whitehair'
+  - name: Thomas, Charles S.
+    nominated: '1953-02-04'
+    confirmed: '1953-02-06'
+    from: '1953-02-09'
+    to: '1953-08-05'
+    out: To Assistant Secretary of Defense (Supply and Logistics).
+    src:
+    - CDIR 1953-03
+    - 'Wikipedia: United States Under Secretary of the Navy'
+    - Cong. Rec. Index 1953
+  - name: Gates, Thomas S., Jr.
+    confirmed: '1954-01-25'
+    from: '1953-10-07'
+    to: '1957-04-01'
+    out: To Secretary of the Navy.
+    src:
+    - CDIR 1954-01
+    - 'Wikipedia: Thomas S. Gates Jr.'
+    - Cong. Rec.
+  - name: Franke, William B.
+    nominated: '1957-03-29'
+    confirmed: '1957-04-16'
+    from: '1957-04-17'
+    to: '1959-06-07'
+    out: To Secretary of the Navy.
+    src:
+    - CDIR 1958-01
+    - 'Wikipedia: United States Under Secretary of the Navy'
+    - Cong. Rec. Index 1957
+    - Cong. Rec.
+  - name: Bantz, Fred A.
+    nominated: '1959-05-05'
+    confirmed: '1959-06-04'
+    from: '1959-06-08'
+    to: '1961-01-20'
+    src:
+    - CDIR 1960-01
+    - 'Wikipedia: Fred A. Bantz'
+    - Cong. Rec.
+  - name: Fay, Paul B., Jr.
+    nominated: '1961-02-13'
+    confirmed: '1961-02-16'
+    from: '1961-02-16'
+    to: '1965-01-15'
+    n: 'Acting Secretary, Nov. 2–28, 1963. Check: Wikipedia''s biography gives Feb. 24, 1961.'
+    src:
+    - CDIR 1961-04
+    - 'Wikipedia: United States Under Secretary of the Navy'
+    - Cong. Rec.
+  - name: BeLieu, Kenneth E.
+    confirmed: '1965-02-19'
+    from: '1965-02-26'
+    to: '1965-07-01'
+    src:
+    - CDIR 1965-03
+    - 'Wikipedia: Kenneth E. BeLieu'
+    - Cong. Rec.
+  - name: Baldwin, Robert H. B.
+    nominated: '1965-06-22'
+    confirmed: '1965-06-30'
+    from: '1965-07-02'
+    to: '1967-07-31'
+    src:
+    - CDIR 1967-02
+    - 'Wikipedia: Robert H. B. Baldwin'
+    - Cong. Rec.
+    - Cong. Rec. Index 1965
+  - name: Baird, Charles F.
+    nominated: '1967-06-06'
+    confirmed: '1967-06-29'
+    from: '1967-08-01'
+    to: '1969-01-20'
+    n: Acting Secretary, July 1–Aug. 31, 1967.
+    src:
+    - CDIR 1967-12
+    - 'Wikipedia: Charles F. Baird'
+    - Cong. Rec.
+  - name: Warner, John W.
+    nominated: '1969-01-31'
+    confirmed: '1969-02-07'
+    from: '1969-02-11'
+    to: '1972-05-04'
+    out: To Secretary of the Navy.
+    src:
+    - CDIR 1969-03
+    - 'Wikipedia: John Warner'
+    - Cong. Rec.
+  - name: Sanders, Frank P.
+    nominated: '1972-04-10'
+    confirmed: '1972-04-25'
+    from: '1972-05-05'
+    to: '1973-06-29'
+    src:
+    - 'Wikipedia: Frank P. Sanders'
+    - Cong. Rec.
+  - name: Middendorf, J. William, II
+    nominated: '1973-07-20'
+    confirmed: '1973-07-26'
+    from: '1973-08-03'
+    to: '1974-06-20'
+    out: To Secretary of the Navy.
+    n: 'Secretary from Apr. 8, 1974. Check: dual service as Under Secretary to June 20, 1974.'
+    src:
+    - CDIR 1973-12
+    - 'Wikipedia: J. William Middendorf'
+    - Cong. Rec.
+  - name: Potter, David S.
+    nominated: '1974-06-24'
+    from: '1974-08-28'
+    src:
+    - 'Wikipedia: David S. Potter'
+    - Cong. Rec.
+- id: asn-material
+  title: Assistant Secretary of the Navy
+  titles:
+  - title: Assistant Secretary of the Navy (Material)
+    from: '1954'
+  - title: Assistant Secretary of the Navy (Installations and Logistics)
+    from: '1961'
+  rank: principal
+  appt: PAS
+  group: Assistant Secretaries
+  level: IV
+  law:
+  - act: Act of Aug. 10, 1956 (Title 10 enacted)
+    date: '1956-08-10'
+    tags:
+    - creates
+    - appointment
+    cite: ch. 1041, 70A Stat. 1, 279
+    usc: 10 U.S.C. § 5034 (1958)
+    does: Assistant Secretaries of the Navy, appointed from civilian life by the President with the advice and consent
+      of the Senate; duties as the Secretary prescribes.
+  - act: Department of Defense Reorganization Act of 1958
+    date: '1958-08-06'
+    tags:
+    - reorganizes
+    cite: Pub. L. 85-599, § 8(b), 72 Stat. 514, 519
+    usc: 10 U.S.C. § 5034 (1958)
+    does: Three Assistant Secretaries of the Navy; § 5035 (the Assistant Secretary for Air) repealed, effective
+      six months after enactment.
+  - act: Reserve Forces Bill of Rights and Vitalization Act
+    date: '1967-12-01'
+    effective: '1968-01-01'
+    tags:
+    - reorganizes
+    cite: Pub. L. 90-168, § 2(13), 81 Stat. 521, 523
+    usc: 10 U.S.C. § 5034 (1970)
+    does: Four Assistant Secretaries of the Navy.
+  - act: Federal Executive Salary Act of 1964
+    date: '1964-08-14'
+    effective: '1964-07'
+    until: '1966-09-06'
+    tags:
+    - pay
+    cite: Pub. L. 88-426, title III, § 303(d), 78 Stat. 400, 418
+    does: 'Executive Schedule level IV: Assistant Secretaries of the Navy (3).'
+  - act: Act of Sept. 6, 1966 (Title 5 enacted)
+    date: '1966-09-06'
+    tags:
+    - pay
+    cite: Pub. L. 89-554, 80 Stat. 378, 462
+    usc: 5 U.S.C. § 5315 (1970)
+    does: Level IV continued.
+  holders:
+  - name: Askins, Herbert R.
+    from: '1951-10-03'
+    to: '1953-01-20'
+    src:
+    - 'Wikipedia: Herbert R. Askins'
+  - name: Fogler, Raymond H.
+    from: '1953-06-22'
+    to: '1957-01-12'
+    n: 'Confirmed June 22, 1953. Check: Wikipedia''s list ends his service Oct. 4, 1954; the Congressional Directory
+      lists him as Assistant Secretary (Material) in 1955 and 1956.'
+    src:
+    - CDIR 1955-02
+    - CDIR 1956-01
+    - 'Wikipedia: Raymond H. Fogler'
+  - name: Bantz, Fred A.
+    nominated: '1957-03-18'
+    confirmed: '1957-04-09'
+    from: '1957-04-09'
+    to: '1959-04-16'
+    out: To Under Secretary.
+    src:
+    - CDIR 1958-01
+    - 'Wikipedia: Fred A. Bantz'
+    - Cong. Rec. Index 1957
+    - Cong. Rec.
+  - name: Milne, Cecil P.
+    nominated: '1959-03-10'
+    confirmed: '1959-04-13'
+    from: '1959-04-16'
+    to: '1961'
+    n: 'Nominated Mar. 10, confirmed Apr. 13, 1959 (Cong. Rec. Index); from given as Bantz''s leaving, Apr. 16. Check the day, and the day he left.'
+    src:
+    - CDIR 1960-01
+    - Cong. Rec. Index 1959
+    - Cong. Rec.
+  - name: BeLieu, Kenneth E.
+    confirmed: '1961-02-06'
+    from: '1961'
+    to: '1965-02-26'
+    out: To Under Secretary.
+    n: 'Check: date of appointment.'
+    src:
+    - CDIR 1961-04
+    - CDIR 1964-01
+    - Cong. Rec.
+  - name: Bannerman, Graeme C.
+    confirmed: '1965-02-19'
+    from: '1965-02-26'
+    to: '1969'
+    n: 'Check: dates; from given as BeLieu''s leaving.'
+    src:
+    - CDIR 1965-03
+    - CDIR 1967-12
+    - Cong. Rec.
+  - name: Sanders, Frank P.
+    from: '1969'
+    to: '1971-08-02'
+    out: To Assistant Secretary (Financial Management).
+    n: 'Check: date of appointment.'
+    src:
+    - CDIR 1969-03
+    - CDIR 1971-03
+  - name: Ill, Charles L., II
+    from: '1971-08-02'
+    to: '1973'
+    n: 'Check: dates; from given as Sanders''s leaving.'
+    src:
+    - CDIR 1971-12
+    - CDIR 1973-03
+  - name: Bowers, Jack L.
+    confirmed: '1973-06-15'
+    from: '1973'
+    n: 'Check: date of appointment.'
+    src:
+    - CDIR 1973-12
+    - Cong. Rec.
+- id: asn-air
+  title: Assistant Secretary of the Navy for Air
+  titles:
+  - title: Assistant Secretary of the Navy (Research and Development)
+    from: '1959-02-06'
+  rank: principal
+  appt: PAS
+  group: Assistant Secretaries
+  level: IV
+  law:
+  - act: Act of Aug. 10, 1956 (Title 10 enacted)
+    date: '1956-08-10'
+    until: '1959-02-06'
+    tags:
+    - creates
+    - appointment
+    - powers
+    cite: ch. 1041, 70A Stat. 1, 279
+    usc: 10 U.S.C. § 5035 (1958)
+    does: An Assistant Secretary of the Navy for Air, appointed by the President with the advice and consent of
+      the Senate; furthers naval aeronautics.
+  n: The Assistant Secretaryship for Air redesignated Research and Development, 1959.
+  holders:
+  - name: Floberg, John F.
+    from: '1949-12-05'
+    to: '1953-07-23'
+    src:
+    - 'Wikipedia: John F. Floberg'
+  - name: Smith, James H., Jr.
+    nominated: '1953-07-06'
+    confirmed: '1953-07-22'
+    from: '1953-07-23'
+    to: '1956-06-20'
+    out: To Director, International Cooperation Administration.
+    src:
+    - CDIR 1955-02
+    - 'Wikipedia: James H. Smith Jr.'
+    - Cong. Rec. Index 1953
+  - name: Norton, Garrison
+    nominated: '1956-05-28'
+    confirmed: '1956-06-22'
+    from: '1956-07-07'
+    to: '1959-02-05'
+    src:
+    - CDIR 1958-01
+    - 'Wikipedia: Garrison Norton'
+    - Cong. Rec.
+  - name: Wakelin, James H., Jr.
+    nominated: '1959-06-05'
+    confirmed: '1959-06-30'
+    from: '1959-06-05'
+    to: '1964-06-30'
+    src:
+    - CDIR 1960-01
+    - 'Wikipedia: James H. Wakelin Jr.'
+    - Cong. Rec. Index 1959
+    - Cong. Rec.
+  - name: Morse, Robert W.
+    from: '1964-07-01'
+    to: '1966-06-30'
+    n: Sworn July 1, 1964.
+    src:
+    - APP
+    - CDIR 1965-03
+    - 'Wikipedia: Assistant Secretary of the Navy (AIR)'
+  - name: Frosch, Robert A.
+    nominated: '1966-06-06'
+    confirmed: '1966-06-24'
+    from: '1966-07-01'
+    to: '1973-01-20'
+    src:
+    - CDIR 1967-02
+    - 'Wikipedia: Assistant Secretary of the Navy (AIR)'
+    - Cong. Rec.
+  - name: Waterman, Peter
+    acting: true
+    from: '1973-01'
+    to: '1973-09'
+    n: 'Check: title and dates.'
+    src:
+    - CDIR 1973-03
+  - name: Potter, David S.
+    nominated: '1973-09-05'
+    confirmed: '1973-09-13'
+    from: '1973-09-14'
+    to: '1974-08-16'
+    out: To Under Secretary.
+    src:
+    - CDIR 1973-12
+    - 'Wikipedia: David S. Potter'
+    - Cong. Rec.
+- id: asn-financial-management
+  title: Assistant Secretary of the Navy (Financial Management)
+  rank: principal
+  appt: PAS
+  group: Assistant Secretaries
+  level: IV
+  from: '1954-10'
+  holders:
+  - name: Franke, William B.
+    nominated: '1954-08-12'
+    confirmed: '1954-08-18'
+    from: '1954-10-04'
+    to: '1957-04-16'
+    out: To Under Secretary.
+    src:
+    - CDIR 1955-02
+    - 'Wikipedia: Assistant Secretary of the Navy (Financial Management and Comptroller)'
+    - Cong. Rec.
+    - Cong. Rec. Index 1954
+  - name: Armstrong, J. Sinclair
+    nominated: '1957-04-16'
+    confirmed: '1957-05-23'
+    from: '1957-05-28'
+    to: '1959-01-02'
+    src:
+    - CDIR 1958-01
+    - 'Wikipedia: J. Sinclair Armstrong'
+    - Cong. Rec.
+  - name: Longstreet, Victor M.
+    confirmed: '1962-08-09'
+    from: '1962-09-14'
+    to: '1965-12-31'
+    src:
+    - CDIR 1963-03
+    - 'Wikipedia: Victor M. Longstreet'
+    - Cong. Rec.
+  - name: Baird, Charles F.
+    nominated: '1966-01-14'
+    confirmed: '1966-03-07'
+    from: '1966-03-07'
+    to: '1967-08-01'
+    out: To Under Secretary.
+    src:
+    - CDIR 1967-02
+    - 'Wikipedia: Charles F. Baird'
+    - Cong. Rec.
+  - name: Bowsher, Charles A.
+    confirmed: '1967-12-13'
+    from: '1967-12-18'
+    to: '1971-06-30'
+    src:
+    - CDIR 1969-03
+    - 'Wikipedia: Charles Bowsher'
+    - Cong. Rec.
+  - name: Sanders, Frank P.
+    from: '1971-08-02'
+    to: '1972-05-05'
+    out: To Under Secretary.
+    src:
+    - CDIR 1971-12
+    - 'Wikipedia: Frank P. Sanders'
+  - name: Nesen, Robert D.
+    nominated: '1972-04-13'
+    from: '1972-05-31'
+    to: '1974-05-15'
+    src:
+    - CDIR 1973-03
+    - 'Wikipedia: Robert D. Nesen'
+    - Cong. Rec.
+- id: asn-personnel
+  title: Assistant Secretary of the Navy (Personnel and Reserve Forces)
+  rank: principal
+  appt: PAS
+  group: Assistant Secretaries
+  from: '1954'
+  until: '1961'
+  holders:
+  - name: Pratt, Albert
+    nominated: '1955-01-10'
+    confirmed: '1955-02-08'
+    from: '1954'
+    to: '1957'
+    n: 'Check: dates.'
+    src:
+    - CDIR 1955-02
+    - CDIR 1956-01
+    - Cong. Rec.
+  - name: Jackson, Richard
+    nominated: '1957-08-15'
+    confirmed: '1957-08-23'
+    from: '1957'
+    to: '1961-01'
+    n: 'Check: dates.'
+    src:
+    - CDIR 1958-01
+    - CDIR 1960-01
+    - Cong. Rec.
+    - Cong. Rec. Index 1957
+- id: asn-manpower-reserve
+  title: Assistant Secretary of the Navy (Manpower and Reserve Affairs)
+  rank: principal
+  appt: PAS
+  group: Assistant Secretaries
+  level: IV
+  from: '1968-01-01'
+  law:
+  - act: Reserve Forces Bill of Rights and Vitalization Act
+    date: '1967-12-01'
+    effective: '1968-01-01'
+    tags:
+    - creates
+    - powers
+    cite: Pub. L. 90-168, § 2(13), (14), 81 Stat. 521, 523
+    does: One of the Assistant Secretaries of the Navy to be the Assistant Secretary for Manpower and Reserve Affairs,
+      with the overall supervision of manpower and reserve component affairs of the department.
+  holders:
+  - name: Driver, Randolph S.
+    nominated: '1968-03-26'
+    confirmed: '1968-04-08'
+    from: '1968-09'
+    to: '1969-01-20'
+    src:
+    - 'Wikipedia: Assistant Secretary of the Navy (Manpower and Reserve Affairs)'
+    - Cong. Rec.
+  - name: Hittle, James D.
+    nominated: '1969-02-19'
+    confirmed: '1969-02-28'
+    from: '1969-03'
+    to: '1971-03'
+    src:
+    - CDIR 1969-12
+    - 'Wikipedia: Assistant Secretary of the Navy (Manpower and Reserve Affairs)'
+    - Cong. Rec.
+  - name: Johnson, James E.
+    nominated: '1971-04-29'
+    confirmed: '1971-05-14'
+    from: '1971-06'
+    to: '1973-09'
+    src:
+    - CDIR 1971-12
+    - 'Wikipedia: Assistant Secretary of the Navy (Manpower and Reserve Affairs)'
+    - Cong. Rec.
+  - name: McCullen, Joseph T., Jr.
+    from: '1973-09'
+    src:
+    - CDIR 1973-12
+    - 'Wikipedia: Joseph T. McCullen Jr.'
+- id: general-counsel
+  title: General Counsel of the Department of the Navy
+  rank: inferior
+  appt: HD
+  group: Counsel
+  law:
+  - act: Federal Executive Salary Act of 1964
+    date: '1964-08-14'
+    effective: '1964-07'
+    until: '1966-09-06'
+    tags:
+    - pay
+    cite: Pub. L. 88-426, title III, § 303(e), 78 Stat. 400, 421
+    does: 'Executive Schedule level V: General Counsel of the Department of the Navy.'
+  - act: Act of Sept. 6, 1966 (Title 5 enacted)
+    date: '1966-09-06'
+    tags:
+    - pay
+    cite: Pub. L. 89-554, 80 Stat. 378, 466
+    usc: 5 U.S.C. § 5316 (1970)
+    does: Level V continued.
+  holders:
+  - name: Gross, Harold B.
+    from: '1949-04-30'
+    to: '1953-08-30'
+    src:
+    - 'Wikipedia: Harold B. Gross'
+  - name: vom Baur, F. Trowbridge
+    from: '1953-12-15'
+    to: '1960-04-30'
+    src:
+    - 'Wikipedia: F. Trowbridge vom Baur'
+  - name: Steger, Meritt H.
+    from: '1960-05-02'
+    to: '1971-05-31'
+    src:
+    - 'Wikipedia: Meritt H. Steger'
+  - name: Mankin, Hart T.
+    from: '1971-06-07'
+    to: '1973-07-21'
+    src:
+    - 'Wikipedia: Hart T. Mankin'
+  - name: Lewis, E. Grey
+    from: '1973-08-01'
+    src:
+    - 'Wikipedia: E. Grey Lewis'

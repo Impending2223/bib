@@ -1,0 +1,251 @@
+# The United States Tariff Commission. Kept by hand.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: tariff-commission
+name: United States Tariff Commission
+under: president
+order: 500
+law:
+  - act: Revenue Act of 1916, title VII
+    date: '1916-09-08'
+    tags: [creates]
+    cite: 'ch. 463, § 700, 39 Stat. 756, 795'
+    usc: '19 U.S.C. § 1330 note (1958)'
+    does: Creates the Tariff Commission, to investigate the administration and effects of the customs laws and report to the President and the Congress.
+  - act: Tariff Act of 1930
+    date: '1930-06-17'
+    tags: [appointment, powers]
+    cite: 'ch. 497, §§ 330–341, 46 Stat. 590, 696'
+    usc: ['19 U.S.C. §§ 1330–1341 (1958)']
+    does: 'Six commissioners appointed by the President, by and with the advice and consent of the Senate, for six years, one term expiring each year; not more than three of one party; members of different parties appointed alternately. Investigations of costs of production and of unfair practices in import trade; the flexible tariff (§ 336).'
+  - act: Trade Agreements Extension Act of 1951
+    date: '1951-06-16'
+    tags: [powers]
+    cite: 'ch. 141, § 7, 65 Stat. 72, 74'
+    usc: '19 U.S.C. § 1364 (1958)'
+    does: Escape-clause investigations, on petition, of imports increased by trade-agreement concessions so as to cause or threaten serious injury to a domestic industry.
+  - act: Trade Expansion Act of 1962
+    date: '1962-10-11'
+    tags: [powers]
+    cite: 'Pub. L. 87-794, § 301, 76 Stat. 872, 884'
+    usc: '19 U.S.C. § 1901 (1964)'
+    does: Investigations of injury from imports, for tariff adjustment and for adjustment assistance to firms and workers.
+n: Members as the Congressional Directory lists them at each edition; most dates are known only to the year, and carry a Check.
+offices:
+  - id: chairman
+    title: Chairman of the Tariff Commission
+    rank: head
+    appt: DES
+    level: IV
+    law:
+      - act: Tariff Act of 1930
+        date: '1930-06-17'
+        tags: [appointment]
+        cite: 'ch. 497, § 330(c), 46 Stat. 590, 697'
+        usc: '19 U.S.C. § 1330(c) (1958)'
+        does: The President annually designates one commissioner chairman and one vice chairman; the vice chairman acts in the chairman's absence or disability.
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(d)(24), 78 Stat. 400, 418'
+        usc: '5 U.S.C. § 5315 (1970)'
+        does: Level IV, $27,000.
+    holders:
+      - name: Brossard, Edgar B.
+        from: '1953'
+        to: '1959'
+        n: 'Check: the dates of his chairmanship (chairman Mar. 1953 to Jan. 1958; Talbot Jan. 1960). A member from 1925.'
+        src: [CDIR 1953-03, CDIR 1958-01]
+      - name: Talbot, Joseph E.
+        from: '1959'
+        to: '1961'
+        n: 'Check: the dates (chairman Jan. 1960 and Apr. 1961).'
+        src: [CDIR 1960-01, CDIR 1961-04]
+      - name: Dorfman, Ben D.
+        from: '1961'
+        to: '1965'
+        n: 'Check: the dates (chairman Jan. 1962 to Mar. 1965; chair empty Jan. 1966).'
+        src: [CDIR 1962-01, CDIR 1965-03]
+      - name: Kaplowitz, Paul
+        from: '1966'
+        to: '1967'
+        n: 'Check: the dates (chairman Feb. 1967).'
+        src: [CDIR 1967-02]
+      - name: Metzger, Stanley D.
+        from: '1967'
+        to: '1969'
+        n: 'Check: the dates (chairman Dec. 1967 and Mar. 1969).'
+        src: [CDIR 1967-12, CDIR 1969-03]
+      - name: Sutton, Glenn W.
+        from: '1969'
+        to: '1970'
+        n: 'Check: the dates (chairman Dec. 1969).'
+        src: [CDIR 1969-12]
+      - name: Mize, Chester L.
+        from: '1970'
+        to: '1971'
+        n: 'Check: the dates (chairman Mar. 1971).'
+        src: [CDIR 1971-03]
+      - name: Bedell, Catherine
+        from: '1971'
+        n: 'Formerly Representative Catherine May, of Washington. Check: the day she took office (chairman Dec. 1971 to Dec. 1973).'
+        src: [CDIR 1971-12, CDIR 1973-12]
+  - id: commissioner
+    title: Commissioner
+    rank: principal
+    appt: PAS
+    many: true
+    law:
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(e)(93), 78 Stat. 400, 421'
+        usc: '5 U.S.C. § 5316 (1970)'
+        does: Members at Level V, $26,000.
+    n: Six commissioners, the chairman and vice chairman among them.
+    holders:
+      - name: Brossard, Edgar B.
+        from: '1925'
+        to: '1959'
+        n: 'Of Utah. Chairman. Check: the day he left (listed Jan. 1958, not Jan. 1960).'
+        src: [CDIR 1953-03, CDIR 1958-01]
+      - name: Ryder, Oscar B.
+        from: '1939'
+        to: '1955'
+        n: 'Of Virginia. Check: the dates (listed Mar. 1953 to Feb. 1955).'
+        src: [CDIR 1953-03, CDIR 1955-02]
+      - name: Edminster, Lynn R.
+        from: '1949'
+        to: '1955'
+        n: 'Of Illinois. Vice chairman, 1953. Check: the dates (listed Mar. 1953 to Feb. 1955).'
+        src: [CDIR 1953-03, CDIR 1955-02]
+      - name: McGill, George
+        from: '1950'
+        to: '1954'
+        n: 'Of Kansas; former Senator. Check: the dates (listed Mar. 1953 and Jan. 1954).'
+        src: [CDIR 1953-03, CDIR 1954-01]
+      - name: Schreiber, Walter R.
+        confirmed: '1953-07-31'
+        from: '1953'
+        to: '1964'
+        n: 'Of Maryland. Check: the dates (listed Jan. 1954 to Jan. 1964).'
+        src: [CDIR 1954-01, CDIR 1964-01, Cong. Rec.]
+      - name: Talbot, Joseph E.
+        confirmed: '1953-04-10'
+        from: '1953-04'
+        to: '1966'
+        n: 'Of Connecticut; former Representative. Vice chairman, 1953–59; chairman, 1959–61. Check: the day he left (listed Jan. 1966, not Feb. 1967).'
+        src: ['Wikipedia: Joseph E. Talbot', CDIR 1954-01, CDIR 1966-01, Cong. Rec.]
+      - name: Sutton, Glenn W.
+        nominated: '1954-07-23'
+        confirmed: '1954-07-28'
+        from: '1954'
+        to: '1972'
+        n: 'Of Georgia. Vice chairman, 1967–69; chairman, 1969–70. Check: the dates (listed Feb. 1955 to Dec. 1971).'
+        src: [CDIR 1955-02, CDIR 1971-12, Cong. Rec.]
+      - name: Jones, J. Weldon
+        nominated: '1955-07-28'
+        from: '1955'
+        to: '1961'
+        n: 'Of Texas. Check: the dates (listed Jan. 1956 to Apr. 1961).'
+        src: [CDIR 1956-01, CDIR 1961-04, Cong. Rec.]
+      - name: Dowling, William E.
+        nominated: '1955-07-28'
+        from: '1955'
+        to: '1963'
+        n: 'Of Michigan. Check: the dates (listed Jan. 1956 to Mar. 1963).'
+        src: [CDIR 1956-01, CDIR 1963-03, Cong. Rec.]
+      - name: Overton, J. Allen, Jr.
+        from: '1959'
+        to: '1962'
+        n: 'Of West Virginia. Vice chairman, 1959–61. Check: the dates (listed Jan. 1960 to Jan. 1962).'
+        src: [CDIR 1960-01, CDIR 1962-01]
+      - name: Dorfman, Ben D.
+        nominated: '1962-01-15'
+        confirmed: '1962-02-05'
+        from: '1961'
+        to: '1965'
+        n: 'Chairman. Check: the dates.'
+        src: [CDIR 1962-01, CDIR 1965-03, Cong. Rec.]
+      - name: Culliton, James W.
+        confirmed: '1963-02-21'
+        from: '1962'
+        to: '1968'
+        n: 'Of Indiana. Check: the dates (listed Mar. 1963 to Dec. 1967).'
+        src: [CDIR 1963-03, CDIR 1967-12, Cong. Rec.]
+      - name: Fenn, Dan H., Jr.
+        nominated: '1963-08-26'
+        from: '1963'
+        to: '1967'
+        n: 'Of Massachusetts; formerly on the White House staff. Vice chairman, 1965. Check: the dates (listed Jan. 1964 to Feb. 1967).'
+        src: [CDIR 1964-01, CDIR 1967-02, Cong. Rec.]
+      - name: Thunberg, Penelope H.
+        nominated: '1965-07-14'
+        from: '1965'
+        to: '1969'
+        n: 'Of Maryland. The first woman member. Check: the dates (listed Jan. 1966 to Dec. 1969).'
+        src: ['Wikipedia: Penelope Hartland-Thunberg', CDIR 1966-01, CDIR 1969-12, Cong. Rec.]
+      - name: Kaplowitz, Paul
+        confirmed: '1966-01-20'
+        from: '1966'
+        to: '1967'
+        n: 'Chairman. Check: the dates.'
+        src: [CDIR 1967-02, Cong. Rec.]
+      - name: Metzger, Stanley D.
+        confirmed: '1967-11-07'
+        from: '1967'
+        to: '1969'
+        n: 'Chairman. Check: the dates.'
+        src: [CDIR 1967-12, CDIR 1969-03, Cong. Rec.]
+      - name: Clubb, Bruce E.
+        nominated: '1967-05-31'
+        confirmed: '1967-06-27'
+        from: '1967'
+        to: '1971'
+        n: 'Of Virginia. Check: the dates (listed Dec. 1967 to Mar. 1971).'
+        src: [CDIR 1967-12, CDIR 1971-03, Cong. Rec.]
+      - name: Leonard, Will E., Jr.
+        nominated: '1968-10-08'
+        confirmed: '1968-10-09'
+        from: '1968'
+        n: 'Of Louisiana. Check: the day he took office (listed Mar. 1969). Listed Dec. 1973.'
+        src: [CDIR 1969-03, CDIR 1973-12, Cong. Rec.]
+      - name: Newsom, Herschel D.
+        nominated: '1968-10-08'
+        confirmed: '1968-10-09'
+        from: '1968'
+        to: '1970-07-02'
+        out: Died.
+        n: 'Of Indiana; master of the National Grange, 1950–68. Check: the day he took office (listed Mar. 1969) and that he died in office.'
+        src: ['Wikipedia: Herschel D. Newsom', CDIR 1969-03, CDIR 1969-12, Cong. Rec.]
+      - name: Moore, George M.
+        nominated: '1969-07-22'
+        confirmed: '1969-08-12'
+        from: '1969'
+        n: 'Of Maryland. Check: the day he took office (listed Dec. 1969). Listed Dec. 1973.'
+        src: [CDIR 1969-12, CDIR 1973-12, Cong. Rec.]
+      - name: Mize, Chester L.
+        from: '1970'
+        to: '1971'
+        n: 'Of Kansas; former Representative. Chairman. Check: the dates (listed Mar. 1971 only).'
+        src: [CDIR 1971-03]
+      - name: Young, J. Banks
+        from: '1970'
+        n: 'Of Virginia. Check: the day he took office (listed Mar. 1971). Listed Dec. 1973.'
+        src: [CDIR 1971-03, CDIR 1973-12]
+      - name: Bedell, Catherine
+        nominated: '1971-06-01'
+        from: '1971'
+        n: 'Of Washington. Chairman. Check: the day she took office (listed Dec. 1971).'
+        src: [CDIR 1971-12, CDIR 1973-12, Cong. Rec.]
+      - name: Parker, Joseph O.
+        nominated: '1971-06-10'
+        from: '1971'
+        n: 'Of Virginia. Vice chairman. Check: the day he took office (listed Dec. 1971).'
+        src: [CDIR 1971-12, CDIR 1973-12, Cong. Rec.]
+      - name: Ablondi, Italo H.
+        confirmed: '1972-06-29'
+        from: '1972'
+        n: 'Of New York. Check: the day he took office (listed Mar. 1973, not Dec. 1971).'
+        src: [CDIR 1973-03, CDIR 1973-12, Cong. Rec.]

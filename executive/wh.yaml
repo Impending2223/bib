@@ -1,0 +1,2325 @@
+# The White House Office, 1953-74. Kept by hand.
+# Offices in the order of the Congressional Directory's lists (CDIR <edition>). Holders known only from the
+# Directory carry the edition's month or year and a Check. The Special Assistant for National Security Affairs
+# and the NSC staff are in nsc.yaml; the science adviser in ost.yaml; consumer affairs in consumer.yaml.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: wh
+name: The White House Office
+under: eop
+order: 10
+law:
+  - act: Executive Order 8248
+    date: '1939-09-08'
+    cite: '4 Fed. Reg. 3864'
+    url: https://www.presidency.ucsb.edu/documents/executive-order-8248-establishing-the-divisions-the-executive-office-the-president-and
+    tags: [creates, powers]
+    does: 'The White House Office the first division of the Executive Office: "to serve the President in an intimate capacity in the performance of the many detailed activities incident to his immediate office." Subdivisions: the Secretaries to the President, the Executive Clerk, the Administrative Assistants to the President.'
+  - act: Act of June 25, 1948 (Title 3, U.S. Code, enacted)
+    date: '1948-06-25'
+    cite: 'ch. 644, 62 Stat. 672, 678'
+    usc: ['3 U.S.C. § 105 (1946 Supp. II)', '3 U.S.C. § 107 (1946 Supp. II)']
+    tags: [pay, powers]
+    does: 'Secretary to the President, $10,000 (§ 105). Employees of the executive departments and independent establishments may be detailed to the White House Office for temporary assistance (§ 107).'
+  - act: Act of Oct. 15, 1949
+    date: '1949-10-15'
+    cite: 'ch. 695, § 2, 63 Stat. 880'
+    usc: '3 U.S.C. § 105 (1952)'
+    until: '1956-07-31'
+    tags: [pay]
+    does: 'The President to fix the pay of the six administrative assistants, the Executive Secretary of the National Security Council, and five other secretaries or immediate staff assistants in the White House Office: two at not over $20,000, three at $18,000, seven at $15,000.'
+  - act: Federal Executive Pay Act of 1956
+    date: '1956-07-31'
+    effective: '1956-07-01'
+    cite: 'ch. 804, § 109, 70 Stat. 736, 740'
+    usc: '3 U.S.C. § 105 (1958)'
+    until: '1964-08-14'
+    tags: [pay]
+    does: 'Eight other secretaries or immediate staff assistants: two at not over $22,500, three at $21,000, seven at $20,000, three at $17,500. In effect from the first pay period after June 30, 1956.'
+  - act: Federal Executive Salary Act of 1964
+    date: '1964-08-14'
+    effective: '1964-07-01'
+    cite: 'Pub. L. 88-426, § 304(b), 78 Stat. 400, 422'
+    usc: '3 U.S.C. § 105 (1964)'
+    tags: [pay]
+    does: 'The six administrative assistants, the Executive Secretaries of the National Security Council and the National Aeronautics and Space Council, and eight other secretaries or immediate staff assistants in the White House Office: pay fixed by the President, not above level II of the Federal Executive Salary Schedule. In effect from the first pay period beginning on or after July 1, 1964.'
+n: 'Staff appointed by the President alone; no office in the White House Office required confirmation. Titles below the six statutory administrative assistants rest on the President''s appointment and the annual appropriation for the Office. Military aides were officers detailed from their services.'
+offices:
+  - id: assistant
+    title: The Assistant to the President
+    rank: employee
+    appt: PA
+    until: '1961-01-20'
+    holders:
+      - name: Adams, Sherman
+        from: '1953-01-21'
+        to: '1958-10-07'
+        out: Resigned.
+        n: 'Resignation accepted Sept. 22, 1958 (APP). Check: Wikipedia gives Jan. 20, 1953.'
+        src: [CDIR 1953-03, 'Wikipedia: White House Chief of Staff', https://www.presidency.ucsb.edu/documents/letter-accepting-resignation-sherman-adams-the-assistant-the-president]
+      - name: Persons, Wilton B.
+        rank: Maj. Gen., USA (ret.)
+        appointed: '1958-10-07'
+        from: '1958-10-07'
+        to: '1961-01-20'
+        n: From Deputy Assistant.
+        src: [CDIR 1959-03, FRUS persons list, Eisenhower Library finding aid]
+  - id: deputy-assistant
+    title: The Deputy Assistant to the President
+    rank: employee
+    appt: PA
+    from: '1953-09-05'
+    until: '1961-01-20'
+    holders:
+      - name: Persons, Wilton B.
+        rank: Maj. Gen., USA (ret.)
+        appointed: '1953-09-05'
+        from: '1953-09-05'
+        to: '1958-10-07'
+        out: To The Assistant to the President.
+        n: Congressional relations.
+        src: [CDIR 1954-01, FRUS persons list]
+      - name: Morgan, Gerald D.
+        appointed: '1958-11-03'
+        from: '1958-11-03'
+        to: '1961-01-20'
+        n: From Special Counsel.
+        src: [CDIR 1959-03, Eisenhower Library finding aid]
+  - id: assistants
+    title: Assistant to the President
+    rank: employee
+    appt: PA
+    many: true
+    from: '1969-01-20'
+    n: 'Under Nixon the senior staff title, each with his subject. Kissinger, Assistant for National Security Affairs, in nsc.yaml; Shultz, Assistant to the President with the Treasury, in cep.yaml.'
+    holders:
+      - name: Haldeman, H.R.
+        given: Harry Robbins
+        from: '1969-01-20'
+        to: '1973-04-30'
+        out: Resigned.
+        n: Chief of the staff.
+        src: [CDIR 1969-03, 'Wikipedia: H. R. Haldeman', https://www.presidency.ucsb.edu/documents/statement-announcing-resignation-the-attorney-general-and-members-the-white-house-staff]
+      - name: Harlow, Bryce N.
+        title: Assistant to the President for Congressional Relations
+        from: '1969-01-20'
+        to: '1969-11-05'
+        out: To Counsellor to the President.
+        src: [CDIR 1969-03, 'Wikipedia: White House Director of Legislative Affairs']
+      - name: Ellsworth, Robert F.
+        from: '1969-01-20'
+        to: '1969-05'
+        out: To Permanent Representative on the North Atlantic Council.
+        src: [CDIR 1969-03, FRUS persons list]
+      - name: Moynihan, Daniel Patrick
+        title: Assistant to the President for Urban Affairs
+        from: '1969-01-20'
+        to: '1969-11-05'
+        out: To Counsellor to the President.
+        n: Also Executive Secretary of the Council for Urban Affairs.
+        src: [CDIR 1969-03, FRUS persons list, 'Wikipedia: Counselor to the President']
+      - name: Flanigan, Peter M.
+        from: '1969-04-16'
+        to: '1974-06'
+        out: Resigned.
+        n: 'Consultant to the President on administration and staffing, Jan. 20–Apr. 15, 1969. For international economic affairs from Jan. 1972; Executive Director, Council on International Economic Policy, from Feb. 1972. Resignation accepted June 24, 1974 (APP). Check: end; one FRUS list gives Aug. 15, 1974.'
+        src: [CDIR 1969-12, CDIR 1973-12, FRUS persons list, https://www.presidency.ucsb.edu/documents/letter-accepting-the-resignation-peter-m-flanigan-assistant-the-president]
+      - name: Rumsfeld, Donald
+        from: '1969-05-27'
+        to: '1970-12-11'
+        out: To Counsellor to the President.
+        n: 'Concurrently Director of the Office of Economic Opportunity, with Cabinet rank. Check: start.'
+        src: [CDIR 1969-12, FRUS persons list]
+      - name: Ehrlichman, John D.
+        title: Assistant to the President for Domestic Affairs
+        from: '1969-11-04'
+        to: '1973-04-30'
+        out: Resigned.
+        n: From Counsel to the President. Also Executive Director of the Domestic Council from July 1970.
+        src: [CDIR 1971-03, FRUS persons list, 'Wikipedia: John Ehrlichman']
+      - name: Timmons, William E.
+        title: Assistant to the President for Congressional Relations
+        from: '1970-02-04'
+        to: '1974-12-31'
+        n: From Deputy Assistant. For Legislative Affairs from 1973.
+        src: [CDIR 1971-03, CDIR 1973-03, FRUS persons list, 'Wikipedia: William Timmons (lobbyist)']
+      - name: Peterson, Peter G.
+        title: Assistant to the President for International Economic Affairs
+        from: '1971-02'
+        to: '1972-02-29'
+        out: To Secretary of Commerce.
+        n: 'Appointment announced Jan. 19, 1971 (APP). Also Executive Director, Council on International Economic Policy. Check: start.'
+        src: [CDIR 1971-03, FRUS persons list, https://www.presidency.ucsb.edu/documents/remarks-announcing-appointment-peter-g-peterson-assistant-the-president-for-international]
+      - name: Ash, Roy L.
+        title: Assistant to the President for Executive Management
+        from: '1973-02-02'
+        n: Concurrently Director of the Office of Management and Budget.
+        src: [CDIR 1973-12, FRUS persons list]
+      - name: Haig, Alexander M., Jr.
+        rank: Gen., USA
+        from: '1973-05-04'
+        to: '1974-09-21'
+        n: 'Chief of the staff. From Vice Chief of Staff of the Army; retired from the Army Aug. 1973. Check: one FRUS list dates the post from Aug. 1973.'
+        src: [CDIR 1973-12, FRUS persons list, 'Wikipedia: White House Chief of Staff']
+      - name: Ziegler, Ronald L.
+        title: Assistant to the President and Press Secretary
+        from: '1973-06-06'
+        to: '1974-08-09'
+        n: Press Secretary throughout.
+        src: [CDIR 1973-12, FRUS persons list]
+      - name: Cole, Kenneth R., Jr.
+        title: Assistant to the President for Domestic Affairs
+        from: '1974-01'
+        n: Also Executive Director of the Domestic Council.
+        src: [FRUS persons list]
+      - name: Garment, Leonard
+        from: '1974-01-04'
+        n: From Counsel to the President.
+        src: [FRUS persons list]
+  - id: counsellors
+    title: Counsellor to the President
+    rank: employee
+    appt: PA
+    many: true
+    from: '1968'
+    n: 'Nixon''s Counsellors held Cabinet rank. In Jan. 1973 three department heads were also named Counsellors (natural resources, human resources, community development), to May 1973.'
+    holders:
+      - name: Murphy, Charles S.
+        title: Counselor to the President
+        from: '1968'
+        to: '1969-01-20'
+        n: 'From Chairman of the Civil Aeronautics Board. Liaison to the Humphrey campaign; the transition to Nixon. Check: start.'
+        src: ['Wikipedia: Charles S. Murphy']
+      - name: Burns, Arthur F.
+        from: '1969-01-20'
+        to: '1970-01-31'
+        out: To Chairman of the Board of Governors of the Federal Reserve System.
+        n: 'Appointment announced Jan. 23, 1969; sworn Feb. 4, 1969 (APP). Check: Wikipedia gives to Nov. 5, 1969.'
+        src: [CDIR 1969-03, FRUS persons list, https://www.presidency.ucsb.edu/documents/remarks-the-swearing-members-the-executive-office-the-president-and-the-white-house-staff]
+      - name: Harlow, Bryce N.
+        from: '1969-11-05'
+        to: '1970-12-09'
+        out: Resigned.
+        n: Resignation accepted Dec. 9, 1970 (APP).
+        src: [CDIR 1969-12, 'Wikipedia: Counselor to the President', https://www.presidency.ucsb.edu/documents/letter-bryce-n-harlow-accepting-his-resignation-counsellor-the-president]
+      - name: Moynihan, Daniel Patrick
+        from: '1969-11-05'
+        to: '1970-12-31'
+        out: Resigned.
+        src: [CDIR 1969-12, 'Wikipedia: Counselor to the President']
+      - name: Finch, Robert H.
+        from: '1970-06-24'
+        to: '1972-12-15'
+        out: Resigned.
+        n: From Secretary of Health, Education, and Welfare. Sworn June 24, 1970 (APP).
+        src: [CDIR 1971-03, 'Wikipedia: Counselor to the President', https://www.presidency.ucsb.edu/documents/remarks-the-swearing-secretary-richardson-and-counsellor-finch]
+      - name: Mayo, Robert P.
+        from: '1970-07-01'
+        to: '1970-07-17'
+        out: Resigned.
+        n: 'From Director of the Bureau of the Budget. Resignation accepted July 17, 1970 (APP). Check: dates; FRUS gives July 1970–1972.'
+        src: [FRUS persons list, https://www.presidency.ucsb.edu/documents/letter-accepting-the-resignation-robert-p-mayo-counsellor-the-president]
+      - name: Rumsfeld, Donald
+        from: '1970-12-11'
+        to: '1973-01'
+        out: To Permanent Representative on the North Atlantic Council.
+        n: 'Also Director of the Cost of Living Council from Oct. 15, 1971. Check: Wikipedia ends the post Oct. 15, 1971; CDIR 1971-12 still lists him.'
+        src: [CDIR 1971-03, CDIR 1971-12, FRUS persons list]
+      - name: Butz, Earl L.
+        title: Counsellor to the President for Natural Resources
+        from: '1973-01'
+        to: '1973-05'
+        n: 'Concurrently Secretary of Agriculture. Check: dates.'
+        src: [FRUS persons list]
+      - name: Weinberger, Caspar W.
+        title: Counsellor to the President for Human Resources
+        from: '1973-01'
+        to: '1973-05'
+        n: 'Director of the Office of Management and Budget, then Secretary of Health, Education, and Welfare. Check: dates.'
+        src: [FRUS persons list]
+      - name: Armstrong, Anne L.
+        from: '1973-01-19'
+        to: '1974-12-18'
+        n: Women's programs; the Office of Public Liaison.
+        src: [CDIR 1973-03, CDIR 1973-12, 'Wikipedia: Anne Armstrong']
+      - name: Lynn, James T.
+        title: Counsellor to the President for Community Development
+        from: '1973-02'
+        to: '1973-05'
+        n: 'Concurrently Secretary of Housing and Urban Development. Check: dates.'
+        src: [FRUS persons list]
+      - name: Harlow, Bryce N.
+        from: '1973-06'
+        to: '1974-04'
+        out: Resigned.
+        n: 'Check: dates.'
+        src: [CDIR 1973-12, FRUS persons list]
+      - name: Laird, Melvin R.
+        title: Counsellor to the President for Domestic Affairs
+        from: '1973-06-06'
+        to: '1974-02-01'
+        out: Resigned.
+        n: 'Resignation accepted Dec. 19, 1973 (APP). Check: dates; FRUS gives June 1973–Feb. 1974, Wikipedia May 1, 1973–Jan. 8, 1974.'
+        src: [CDIR 1973-12, FRUS persons list, https://www.presidency.ucsb.edu/documents/letter-accepting-the-resignation-melvin-r-laird-counsellor-the-president-for-domestic]
+      - name: Burch, Dean
+        from: '1974-03-08'
+        to: '1974-12-31'
+        n: From Chairman of the Federal Communications Commission.
+        src: ['Wikipedia: Counselor to the President', FRUS persons list]
+      - name: Rush, Kenneth
+        title: Counsellor to the President for Economic Policy
+        from: '1974-05-29'
+        to: '1974-09-19'
+        out: To Ambassador to France.
+        n: From Deputy Secretary of State. Sworn May 29, 1974 (APP).
+        src: ['Wikipedia: Counselor to the President', https://www.presidency.ucsb.edu/documents/remarks-the-swearing-kenneth-rush-counsellor-the-president-for-economic-policy]
+      - name: Hartmann, Robert T.
+        from: '1974-08-09'
+        n: From Chief of Staff to the Vice President.
+        src: [FRUS persons list, 'Wikipedia: Robert T. Hartmann']
+      - name: Marsh, John O., Jr.
+        from: '1974-08-10'
+        n: From Assistant to the Vice President.
+        src: [FRUS persons list]
+  - id: counsel
+    title: Special Counsel to the President
+    titles: [{title: Counsel to the President, from: '1969-01-20'}]
+    rank: employee
+    appt: PA
+    holders:
+      - name: Stephens, Thomas E.
+        from: '1953-01-21'
+        to: '1953-01-29'
+        out: To Acting Secretary to the President.
+        n: 'Check: Wikipedia gives Special Counsel, on leave, to Apr. 14, 1953.'
+        src: [CDIR 1959-03, 'Wikipedia: White House Counsel']
+      - name: Shanley, Bernard M.
+        acting: true
+        from: '1953-01-30'
+        to: '1953-06-05'
+        src: [CDIR 1953-03, CDIR 1955-02]
+      - name: Shanley, Bernard M.
+        appointed: '1953-06-05'
+        from: '1953-06-05'
+        to: '1955-02-19'
+        out: To Secretary to the President.
+        n: 'Check: Wikipedia gives Apr. 14, 1953.'
+        src: [CDIR 1955-02, 'Wikipedia: White House Counsel']
+      - name: Morgan, Gerald D.
+        appointed: '1955-02-19'
+        from: '1955-02-19'
+        to: '1958-11-03'
+        out: To The Deputy Assistant to the President.
+        src: [CDIR 1955-02, CDIR 1959-03]
+      - name: Kendall, David W.
+        appointed: '1958-11-01'
+        from: '1958-11-05'
+        to: '1961-01-20'
+        n: From General Counsel of the Treasury.
+        src: [CDIR 1959-03, FRUS persons list, 'Wikipedia: White House Counsel']
+      - name: Sorensen, Theodore C.
+        from: '1961-01-20'
+        to: '1964-02-29'
+        out: Resigned.
+        n: Resignation accepted Jan. 15, 1964 (APP).
+        src: [CDIR 1961-04, FRUS persons list, https://www.presidency.ucsb.edu/documents/letter-accepting-resignation-theodore-c-sorensen-special-counsel-the-president]
+      - name: Feldman, Myer
+        from: '1964-03'
+        to: '1965-01-17'
+        out: Resigned.
+        n: 'From Deputy Special Counsel. Check: start; Wikipedia gives Apr. 1964.'
+        src: [FRUS persons list, 'Wikipedia: White House Counsel']
+      - name: White, Lee C.
+        from: '1965-01-17'
+        to: '1966-02-11'
+        out: To Chairman of the Federal Power Commission.
+        src: [CDIR 1965-03, CDIR 1966-01, 'Wikipedia: Lee C. White']
+      - name: McPherson, Harry
+        given: Harry Cummings, Jr.
+        from: '1966-02-11'
+        to: '1969-01-20'
+        n: Chief speechwriter from 1966.
+        src: [CDIR 1967-02, CDIR 1967-12, FRUS persons list, 'Wikipedia: Harry McPherson']
+      - name: Ehrlichman, John D.
+        from: '1969-01-20'
+        to: '1969-11-04'
+        out: To Assistant to the President for Domestic Affairs.
+        src: [CDIR 1969-03, FRUS persons list]
+      - name: Dean, John W., III
+        from: '1970-07-09'
+        to: '1973-04-30'
+        out: Dismissed.
+        n: From Associate Deputy Attorney General.
+        src: [CDIR 1971-03, CDIR 1973-03, FRUS persons list, 'Wikipedia: John Dean']
+      - name: Garment, Leonard
+        from: '1973-05-10'
+        to: '1974-01-03'
+        out: To Assistant to the President.
+        n: 'Acting from Apr. 30, 1973. Check: Wikipedia gives Apr. 30, 1973.'
+        src: [CDIR 1973-12, FRUS persons list]
+      - name: Buzhardt, J. Fred
+        from: '1974-01-04'
+        to: '1974-08'
+        n: 'From Special Counsel for Watergate. Check: end.'
+        src: ['Wikipedia: J. Fred Buzhardt']
+      - name: Buchen, Philip W.
+        from: '1974-08-15'
+        n: From Executive Director, Domestic Council Committee on the Right of Privacy.
+        src: [FRUS persons list]
+  - id: counsel-staff
+    title: Associate and Assistant Special Counsel to the President
+    rank: employee
+    appt: PA
+    many: true
+    under: counsel
+    holders:
+      - name: Rabb, Maxwell M.
+        title: Associate Counsel to the President; Cabinet Operations Officer
+        from: '1953-01-21'
+        to: '1954'
+        out: To Secretary to the Cabinet.
+        n: 'Also Assistant to The Assistant to the President. Check: dates.'
+        src: [CDIR 1953-03, CDIR 1954-01, Eisenhower Library finding aid]
+      - name: Barba, J. William
+        title: Assistant to the Special Counsel; Assistant Special Counsel from 1956
+        from: '1955'
+        to: '1957'
+        n: 'Check: dates; listed CDIR 1955-02 to 1957-03.'
+        src: [CDIR 1955-02, CDIR 1957-03]
+      - name: McPhee, Henry Roemer
+        title: Special Assistant in the White House Office; Assistant Special Counsel; Associate Special Counsel from 1959
+        from: '1955'
+        to: '1961-01-20'
+        n: 'Check: dates; first listed CDIR 1955-02.'
+        src: [CDIR 1955-02, CDIR 1958-01, CDIR 1959-03]
+      - name: McCabe, Edward A.
+        title: Associate Special Counsel to the President
+        from: '1956-01-16'
+        to: '1958-09-10'
+        out: To Administrative Assistant to the President.
+        src: [Eisenhower Library finding aid, CDIR 1957-03]
+      - name: Areeda, Phillip E.
+        title: Assistant Special Counsel to the President
+        appointed: '1958-11-13'
+        from: '1958-11-13'
+        to: '1961-01-20'
+        n: From Special Assistant in the White House Office.
+        src: [Eisenhower Library finding aid, CDIR 1959-03]
+      - name: Feldman, Myer
+        title: Deputy Special Counsel to the President
+        from: '1961-01-20'
+        to: '1964-03'
+        out: To Special Counsel.
+        src: [CDIR 1961-04, CDIR 1964-01, FRUS persons list]
+      - name: Goodwin, Richard N.
+        title: Assistant Special Counsel to the President
+        from: '1961-01-20'
+        to: '1961-11'
+        out: To Deputy Assistant Secretary of State for Inter-American Affairs.
+        src: [CDIR 1961-04, FRUS persons list]
+      - name: White, Lee C.
+        title: Assistant Special Counsel; Associate Special Counsel from 1963
+        from: '1961-01-20'
+        to: '1965-01-17'
+        out: To Special Counsel.
+        src: [CDIR 1961-04, CDIR 1964-01, 'Wikipedia: Lee C. White']
+      - name: Alexander, Clifford L., Jr.
+        title: Deputy Special Assistant, 1964–65; Associate Special Counsel, 1965–66; Deputy Special Counsel, 1966–67
+        from: '1964'
+        to: '1967-08-04'
+        out: To Chairman of the Equal Employment Opportunity Commission.
+        n: 'From the National Security Council staff. Check: start.'
+        src: [CDIR 1966-01, CDIR 1967-02, FRUS persons list]
+      - name: Jacobsen, Jake
+        title: Legislative Counsel to the President
+        from: '1965'
+        to: '1967'
+        n: 'Check: dates; listed CDIR 1966-01 and 1967-02.'
+        src: [CDIR 1966-01, CDIR 1967-02, FRUS persons list]
+      - name: Semer, Milton P.
+        title: Counsel to the President
+        from: '1966-02-14'
+        to: '1966-12-31'
+        n: 'Check: dates; from Wikipedia''s list.'
+        src: ['Wikipedia: White House Counsel']
+      - name: Levinson, Lawrence E.
+        title: Deputy Special Counsel to the President
+        from: '1967'
+        to: '1969-01-20'
+        n: 'Check: start; first listed CDIR 1967-02.'
+        src: [CDIR 1967-02, CDIR 1967-12]
+      - name: Pierson, DeVier
+        given: W. DeVier
+        title: Associate Special Counsel; Special Counsel, 1968
+        from: '1967'
+        to: '1969-01-20'
+        n: 'Check: dates; first listed CDIR 1967-12.'
+        src: [CDIR 1967-12, FRUS persons list]
+      - name: Sanders, Harold Barefoot, Jr.
+        title: Legislative Counsel to the President
+        from: '1967-05'
+        to: '1969-01-20'
+        n: From Assistant Attorney General, Civil Division. Head of congressional liaison.
+        src: [CDIR 1967-12, 'Wikipedia: Barefoot Sanders']
+      - name: Temple, Larry
+        title: Special Counsel to the President
+        from: '1967-10-26'
+        to: '1969-01-20'
+        src: [CDIR 1967-12, 'Wikipedia: Larry Temple']
+      - name: Dent, Harry S.
+        title: Deputy Counsel to the President
+        from: '1969-01-20'
+        to: '1969'
+        out: To Special Counsel.
+        n: 'Check: end.'
+        src: [CDIR 1969-03, FRUS persons list]
+      - name: Morgan, Edward L.
+        title: Deputy Counsel to the President
+        from: '1969-01-20'
+        to: '1970'
+        n: 'Check: dates; later on the Domestic Council staff.'
+        src: [CDIR 1969-03]
+      - name: Sears, John P.
+        title: Deputy Counsel to the President
+        from: '1969-01-20'
+        to: '1970'
+        n: 'Check: end.'
+        src: [CDIR 1969-03, 'Wikipedia: John Sears (political strategist)']
+      - name: Burress, Richard T.
+        title: Deputy Counsel to the President
+        from: '1969-01-20'
+        to: '1970'
+        n: 'Check: end.'
+        src: [CDIR 1969-03]
+      - name: Fielding, Fred F.
+        title: Assistant Counsel; Deputy Counsel to the President
+        from: '1970'
+        to: '1974'
+        n: 'Check: dates; listed CDIR 1973-03 and 1973-12.'
+        src: [CDIR 1973-03, CDIR 1973-12]
+      - name: Wright, Charles Alan
+        title: Consultant to the Counsel to the President
+        from: '1973'
+        to: '1973'
+        n: Constitutional counsel in the tapes litigation. Check dates.
+        src: ['Wikipedia: Charles Alan Wright']
+  - id: special-counsels
+    title: Special Counsel to the President
+    rank: employee
+    appt: PA
+    many: true
+    from: '1969'
+    n: Under Nixon, a title of the senior staff apart from the Counsel to the President.
+    holders:
+      - name: Dent, Harry S.
+        from: '1969'
+        to: '1972-12'
+        out: Resigned.
+        n: 'Political liaison. Check: start.'
+        src: [CDIR 1971-03, FRUS persons list, 'Wikipedia: Harry S. Dent Sr.']
+      - name: Mollenhoff, Clark R.
+        from: '1969'
+        to: '1970-05-30'
+        out: Resigned.
+        n: 'Investigations. Resignation accepted May 30, 1970 (APP). Check: start.'
+        src: [https://www.presidency.ucsb.edu/documents/letter-clark-r-mollenhoff-accepting-his-resignation-special-counsel-the-president]
+      - name: Colson, Charles W.
+        from: '1969-11-06'
+        to: '1973-03-10'
+        out: Resigned.
+        n: Liaison with outside groups; the Office of Public Liaison from 1970.
+        src: [CDIR 1971-03, FRUS persons list, 'Wikipedia: Charles Colson']
+      - name: Moore, Richard A.
+        from: '1971'
+        to: '1974'
+        n: 'Check: dates; listed CDIR 1971-12 to 1973-12.'
+        src: [CDIR 1971-12, CDIR 1973-12, 'Wikipedia: Richard A. Moore']
+      - name: MacGregor, Clark
+        title: Counsel to the President for Congressional Relations
+        from: '1971-01'
+        to: '1972-07-01'
+        out: To Chairman of the Committee for the Re-election of the President.
+        n: 'Check: dates.'
+        src: [CDIR 1971-03, FRUS persons list]
+      - name: DiBona, Charles J.
+        title: Special Consultant, then Special Counsel, to the President for Energy; Deputy Assistant for Energy Matters
+        from: '1973'
+        to: '1974'
+        n: 'Check: dates.'
+        src: [CDIR 1973-03, FRUS persons list]
+      - name: Buzhardt, J. Fred
+        title: Special Counsel to the President for Watergate
+        from: '1973-05-10'
+        to: '1974-01-04'
+        out: To Counsel to the President.
+        n: From General Counsel of the Department of Defense.
+        src: ['Wikipedia: J. Fred Buzhardt', CDIR 1973-12]
+      - name: St. Clair, James D.
+        from: '1974-01'
+        to: '1974-08-09'
+        n: 'Counsel in the impeachment inquiry and the tapes case. Check: dates.'
+        src: ['Wikipedia: James D. St. Clair']
+  - id: press-secretary
+    title: Press Secretary to the President
+    rank: employee
+    appt: PA
+    holders:
+      - name: Hagerty, James C.
+        from: '1953-01-20'
+        to: '1961-01-20'
+        src: [CDIR 1953-03, 'Wikipedia: White House Press Secretary', FRUS persons list]
+      - name: Salinger, Pierre
+        given: Pierre Emil George
+        from: '1961-01-20'
+        to: '1964-03-19'
+        out: Resigned.
+        n: Special Assistant and Press Secretary.
+        src: [CDIR 1961-04, 'Wikipedia: White House Press Secretary']
+      - name: Reedy, George E.
+        from: '1964-03-19'
+        to: '1965-07-08'
+        n: Special Assistant and Press Secretary.
+        src: [FRUS persons list, 'Wikipedia: White House Press Secretary']
+      - name: Moyers, Bill D.
+        from: '1965-07-08'
+        to: '1967-02-01'
+        out: Resigned.
+        n: Special Assistant and Press Secretary.
+        src: [FRUS persons list, 'Wikipedia: White House Press Secretary']
+      - name: Christian, George
+        from: '1967-02-01'
+        to: '1969-01-20'
+        n: Special Assistant and Press Secretary.
+        src: [CDIR 1967-02, FRUS persons list]
+      - name: Ziegler, Ronald L.
+        from: '1969-01-20'
+        to: '1974-08-09'
+        n: Also Assistant to the President from June 6, 1973.
+        src: [CDIR 1969-03, FRUS persons list]
+      - name: terHorst, Jerald F.
+        from: '1974-08-09'
+        to: '1974-09-08'
+        out: Resigned.
+        src: ['Wikipedia: Jerald terHorst', https://www.presidency.ucsb.edu/documents/remarks-announcing-appointment-jf-terhorst-press-secretary-the-president]
+  - id: press-staff
+    title: Assistant Press Secretary
+    titles: [{title: Deputy Press Secretary, from: '1966'}]
+    rank: employee
+    appt: PA
+    many: true
+    under: press-secretary
+    holders:
+      - name: Snyder, Murray
+        from: '1953-01-20'
+        to: '1957-03-21'
+        out: To the Department of Defense, public affairs.
+        src: [Eisenhower Library finding aid, CDIR 1953-03, CDIR 1957-03]
+      - name: Wheaton, Anne W.
+        title: Associate Press Secretary
+        from: '1957-04'
+        to: '1961-01-20'
+        n: 'Check: start.'
+        src: [CDIR 1958-01, Eisenhower Library finding aid, FRUS persons list]
+      - name: Kilduff, Malcolm
+        from: '1961'
+        to: '1965'
+        out: Resigned.
+        n: 'Check: dates.'
+        src: ['Wikipedia: Malcolm Kilduff']
+      - name: Hatcher, Andrew T.
+        title: Associate Press Secretary
+        from: '1961-01-20'
+        to: '1964'
+        n: 'Check: end; last listed CDIR 1964-01.'
+        src: [CDIR 1961-04, CDIR 1964-01]
+      - name: Fleming, Robert H.
+        title: Deputy Press Secretary
+        from: '1966'
+        to: '1968'
+        n: 'Check: dates; listed CDIR 1967-02 and 1967-12.'
+        src: [CDIR 1967-02, CDIR 1967-12]
+      - name: Johnson, Tom
+        given: W. Thomas, Jr.
+        title: Assistant Press Secretary; Deputy Press Secretary from Sept. 1968
+        from: '1966-09-01'
+        to: '1969-01-20'
+        src: [FRUS persons list]
+      - name: Warren, Gerald L.
+        title: Deputy Press Secretary
+        from: '1969-01-20'
+        n: 'Check: start.'
+        src: [CDIR 1969-03, CDIR 1973-12, FRUS persons list]
+      - name: Ball, Neal
+        title: Deputy Press Secretary
+        from: '1971'
+        to: '1972'
+        n: 'Check: dates; listed CDIR 1971-12.'
+        src: [CDIR 1971-12]
+      - name: Falkiewicz, Andrew T.
+        title: Deputy Press Secretary
+        from: '1973'
+        n: 'Check: dates; listed CDIR 1973-03 and 1973-12.'
+        src: [CDIR 1973-03, CDIR 1973-12]
+  - id: communications
+    title: Director of Communications for the Executive Branch
+    rank: employee
+    appt: PA
+    from: '1969-01-20'
+    holders:
+      - name: Klein, Herbert G.
+        from: '1969-01-20'
+        to: '1973-07-01'
+        out: Resigned.
+        n: Resignation accepted June 5, 1973 (APP).
+        src: [CDIR 1969-03, 'Wikipedia: White House Communications Director', https://www.presidency.ucsb.edu/documents/letter-accepting-the-resignation-herbert-g-klein-director-communications-for-the-executive]
+      - name: Clawson, Ken W.
+        from: '1974-01-30'
+        to: '1974-11-04'
+        n: From Deputy Director.
+        src: ['Wikipedia: Ken W. Clawson']
+  - id: communications-deputy
+    title: Deputy Director of Communications
+    rank: employee
+    appt: PA
+    many: true
+    under: communications
+    from: '1970'
+    holders:
+      - name: Magruder, Jeb Stuart
+        from: '1970'
+        to: '1971-05'
+        out: To the Committee for the Re-election of the President.
+        n: 'Special Assistant to the President, 1969–70. Check: dates.'
+        src: [CDIR 1971-03, 'Wikipedia: Jeb Stuart Magruder']
+      - name: Clawson, Ken W.
+        from: '1972'
+        to: '1974-01-30'
+        out: To Director.
+        n: 'Also Deputy Press Secretary (CDIR 1973). Check: start.'
+        src: [CDIR 1973-03, 'Wikipedia: Ken W. Clawson']
+  - id: secretary
+    title: Secretary to the President
+    titles: [{title: Appointments Secretary, from: '1961-01-20'}]
+    rank: employee
+    appt: PA
+    n: 'The appointments secretary. Under Kennedy, Johnson, and Nixon not a separate title: held by a Special Assistant (under Nixon a Deputy Assistant).'
+    law:
+      - act: Act of June 25, 1948 (Title 3, U.S. Code, enacted)
+        date: '1948-06-25'
+        cite: 'ch. 644, 62 Stat. 672, 678'
+        usc: '3 U.S.C. § 105 (1946 Supp. II)'
+        until: '1949-10-15'
+        tags: [pay]
+        does: 'The compensation for the position of Secretary to the President, $10,000 a year (§ 105).'
+    holders:
+      - name: Stephens, Thomas E.
+        acting: true
+        from: '1953-01-29'
+        to: '1953-06-05'
+        src: [CDIR 1953-03, CDIR 1959-03]
+      - name: Stephens, Thomas E.
+        appointed: '1953-06-05'
+        from: '1953-06-05'
+        to: '1955-02-18'
+        src: [CDIR 1954-01, CDIR 1959-03]
+      - name: Shanley, Bernard M.
+        appointed: '1955-02-19'
+        from: '1955-02-19'
+        to: '1957-11-06'
+        out: Resigned.
+        n: 'Check: end; Wikipedia gives Nov. 6, 1957.'
+        src: [CDIR 1955-02, CDIR 1957-03, 'Wikipedia: Bernard M. Shanley']
+      - name: Gray, Robert K.
+        from: '1957-11-06'
+        to: '1958-03-24'
+        n: 'Check: dates; from Wikipedia. CDIR 1958-01 lists him as a Special Assistant in the White House Office.'
+        src: ['Wikipedia: Robert Keith Gray']
+      - name: Stephens, Thomas E.
+        appointed: '1958-03-24'
+        from: '1958-03-24'
+        to: '1961-01-20'
+        src: [CDIR 1959-03, CDIR 1960-01]
+      - name: O'Donnell, Kenneth P.
+        title: Special Assistant to the President
+        from: '1961-01-20'
+        to: '1965-01'
+        out: Resigned.
+        n: 'Check: end.'
+        src: [CDIR 1961-04, CDIR 1964-01, 'Wikipedia: Kenneth O''Donnell']
+      - name: Valenti, Jack
+        title: Special Assistant to the President
+        from: '1965-01'
+        to: '1965-02-01'
+        n: 'Appointments with O''Donnell from Nov. 1963. Check: dates; Wikipedia gives Nov. 22, 1963–Feb. 1, 1965.'
+        src: ['Wikipedia: Jack Valenti']
+      - name: Watson, W. Marvin
+        title: Special Assistant to the President
+        from: '1965-02-01'
+        to: '1968-04-26'
+        out: To Postmaster General.
+        src: [CDIR 1965-03, FRUS persons list, 'Wikipedia: Marvin Watson']
+      - name: Jones, Jim
+        given: James Robert
+        title: Deputy Special Assistant; Special Assistant to the President from May 1968
+        from: '1968-04-26'
+        to: '1969-01-20'
+        src: [FRUS persons list, 'Wikipedia: James R. Jones']
+      - name: Chapin, Dwight L.
+        title: Special Assistant; Deputy Assistant to the President from 1971
+        from: '1969-01-20'
+        to: '1973-03'
+        out: Resigned.
+        n: 'Check: end; Wikipedia gives Mar. 1973.'
+        src: [CDIR 1969-03, CDIR 1971-12, FRUS persons list, 'Wikipedia: Dwight Chapin']
+      - name: Bull, Stephen B.
+        title: Special Assistant to the President
+        from: '1973-03'
+        to: '1974-08-09'
+        n: 'Staff Assistant to 1973. Check: dates.'
+        src: [CDIR 1973-03, FRUS persons list]
+  - id: staff-secretary
+    title: Staff Secretary
+    rank: employee
+    appt: PA
+    n: No Staff Secretary under Johnson. Kennedy's staff had none after 1961.
+    holders:
+      - name: Carroll, Paul T.
+        rank: Brig. Gen., USA
+        from: '1953-01-21'
+        to: '1954-09-17'
+        out: Died.
+        n: Military Liaison Officer, then Staff Secretary and Defense Liaison Officer.
+        src: [CDIR 1953-03, CDIR 1954-01, FRUS persons list]
+      - name: Goodpaster, Andrew J.
+        rank: Col., USA; Brig. Gen. from Jan. 1957
+        from: '1954-10-10'
+        to: '1961-01-20'
+        n: Also Defense Liaison Officer.
+        src: [CDIR 1955-02, CDIR 1960-01, FRUS persons list]
+      - name: Hartigan, William J.
+        from: '1961-01-20'
+        to: '1961-08-04'
+        n: 'Check: dates; from Wikipedia; not in CDIR 1961-04.'
+        src: ['Wikipedia: White House Office of the Staff Secretary']
+      - name: Cole, Kenneth R., Jr.
+        title: Special Assistant to the President
+        from: '1969-01-20'
+        to: '1969-11-01'
+        out: To Deputy Assistant to the President for Domestic Affairs.
+        src: [CDIR 1969-03, FRUS persons list]
+      - name: Brown, John
+        from: '1969-11'
+        to: '1971-02-22'
+        n: 'Check: dates; from Wikipedia.'
+        src: ['Wikipedia: White House Office of the Staff Secretary']
+      - name: Huntsman, Jon M.
+        title: Special Assistant to the President
+        from: '1971-02-22'
+        to: '1972-01-01'
+        out: Resigned.
+        src: [CDIR 1971-03, FRUS persons list, 'Wikipedia: Jon Huntsman Sr.']
+      - name: Kehrli, Bruce A.
+        title: Special Assistant to the President
+        from: '1972-01-01'
+        to: '1974-05'
+        src: [CDIR 1973-03, 'Wikipedia: White House Office of the Staff Secretary']
+      - name: Jones, Jerry H.
+        title: Special Assistant to the President
+        from: '1974-05'
+        n: 'Check: start; FRUS gives Apr. 1974.'
+        src: [FRUS persons list, 'Wikipedia: Jerry H. Jones']
+  - id: staff-secretary-staff
+    title: Assistant Staff Secretary
+    rank: employee
+    appt: PA
+    many: true
+    under: staff-secretary
+    until: '1961-01-20'
+    holders:
+      - name: Benedict, Stephen
+        title: Special Assistant; Assistant Staff Secretary, 1955
+        from: '1953'
+        to: '1955'
+        n: 'Check: dates.'
+        src: [CDIR 1954-01, CDIR 1955-02, Eisenhower Library finding aid]
+      - name: Minnich, L. Arthur, Jr.
+        from: '1953-01-21'
+        to: '1960-08'
+        out: To the Department of State.
+        n: Kept the minutes of the Cabinet and the legislative leaders' meetings.
+        src: [CDIR 1954-01, FRUS persons list, Eisenhower Library finding aid]
+      - name: Toner, Albert P.
+        title: Assistant to the Staff Secretary
+        from: '1957'
+        to: '1961-01-20'
+        n: 'Check: start; first listed CDIR 1957-03.'
+        src: [CDIR 1957-03, CDIR 1960-01]
+      - name: Eisenhower, John S. D.
+        rank: Maj., USA; Lt. Col. from May 1960
+        from: '1958-10-20'
+        to: '1961-01-20'
+        src: [CDIR 1959-03, FRUS persons list]
+      - name: Russell, Christopher H.
+        title: Special Assistant in the White House Office; staff research group
+        from: '1959'
+        to: '1961-01-20'
+        n: 'Check: dates; listed CDIR 1960-01.'
+        src: [CDIR 1960-01, Eisenhower Library finding aid]
+      - name: Lambie, James M., Jr.
+        from: '1960'
+        to: '1961-01-20'
+        n: Special Assistant in the White House Office throughout.
+        src: [Eisenhower Library finding aid]
+  - id: cabinet-secretary
+    title: Secretary to the Cabinet
+    rank: employee
+    appt: PA
+    from: '1953-10'
+    holders:
+      - name: Rabb, Maxwell M.
+        from: '1953-10'
+        to: '1958-05-19'
+        out: Resigned.
+        n: 'Check: start; the Eisenhower Library gives 1954.'
+        src: [CDIR 1955-02, 'Wikipedia: White House Cabinet Secretary', Eisenhower Library finding aid]
+      - name: Gray, Robert K.
+        from: '1958-05-19'
+        to: '1961-01-20'
+        n: 'Check: FRUS gives May 16, 1958.'
+        src: [CDIR 1959-03, FRUS persons list]
+      - name: Dutton, Frederick G.
+        title: Special Assistant to the President
+        from: '1961-01-20'
+        to: '1961-12-03'
+        out: To Assistant Secretary of State for Congressional Relations.
+        src: [CDIR 1961-04, FRUS persons list]
+      - name: Busby, Horace
+        title: Special Assistant to the President
+        from: '1963-11-22'
+        to: '1965-09-15'
+        src: ['Wikipedia: White House Cabinet Secretary', 'Wikipedia: Horace Busby']
+      - name: Kintner, Robert E.
+        title: Special Assistant to the President
+        from: '1966-03-31'
+        to: '1967-06-14'
+        out: Resigned.
+        src: [CDIR 1967-02, 'Wikipedia: White House Cabinet Secretary']
+      - name: Whitaker, John C.
+        from: '1969-01-20'
+        to: '1969-11-04'
+        out: To Deputy Assistant to the President.
+        src: [CDIR 1969-03, FRUS persons list, 'Wikipedia: White House Cabinet Secretary']
+  - id: cabinet-secretary-staff
+    title: Assistant to the Secretary to the Cabinet
+    rank: employee
+    appt: PA
+    under: cabinet-secretary
+    until: '1961-01-20'
+    holders:
+      - name: Patterson, Bradley H., Jr.
+        from: '1955'
+        to: '1961-01-20'
+        n: 'Check: start; first listed CDIR 1956-01.'
+        src: [CDIR 1956-01, CDIR 1960-01]
+  - id: deputy-assistants
+    title: Deputy Assistant to the President
+    rank: employee
+    appt: PA
+    many: true
+    from: '1955'
+    n: Each for a subject. Haig and Scowcroft, Deputy Assistants for National Security Affairs, in nsc.yaml.
+    holders:
+      - name: Pyle, Howard
+        title: Deputy Assistant to the President for Intergovernmental Relations
+        from: '1955'
+        to: '1959'
+        n: 'An Administrative Assistant serving as Deputy Assistant. Check: dates; listed CDIR 1956-01 to 1958-01.'
+        src: [CDIR 1956-01, CDIR 1958-01]
+      - name: Seaton, Fred A.
+        title: Deputy Assistant to the President for Administrative Liaison
+        from: '1955-06'
+        to: '1956-05-28'
+        out: To Secretary of the Interior.
+        n: Administrative Assistant to the President from Feb. 1955.
+        src: [CDIR 1956-01, FRUS persons list]
+      - name: Merriam, Robert E.
+        title: Deputy Assistant to the President for Interdepartmental Affairs
+        from: '1958-09'
+        to: '1961-01-20'
+        n: From Deputy Director of the Bureau of the Budget.
+        src: [CDIR 1959-03, FRUS persons list, Eisenhower Library finding aid]
+      - name: Harlow, Bryce N.
+        title: Deputy Assistant to the President for Congressional Affairs
+        from: '1958-10-25'
+        to: '1961-01-20'
+        n: From Administrative Assistant.
+        src: [CDIR 1959-03, Eisenhower Library finding aid]
+      - name: Butterfield, Alexander P.
+        from: '1969-01-20'
+        to: '1973-03-14'
+        out: To Administrator of the Federal Aviation Administration.
+        n: Haldeman's deputy; the President's papers and the Cabinet.
+        src: [CDIR 1969-03, CDIR 1971-12, FRUS persons list]
+      - name: Hess, Stephen
+        title: Deputy Assistant to the President for Urban Affairs
+        from: '1969-01-20'
+        to: '1969'
+        n: 'Check: end.'
+        src: [CDIR 1969-03, 'Wikipedia: Stephen Hess']
+      - name: BeLieu, Kenneth E.
+        title: Deputy Assistant to the President for Congressional Relations; for Senate Relations from 1970
+        from: '1969-01-21'
+        to: '1971'
+        n: 'Check: end.'
+        src: [CDIR 1969-03, CDIR 1969-12, FRUS persons list, 'Wikipedia: Kenneth E. BeLieu']
+      - name: Timmons, William E.
+        title: Deputy Assistant to the President for Congressional Relations; for House Relations from 1969
+        from: '1969-01-21'
+        to: '1970-02-03'
+        out: To Assistant to the President for Congressional Relations.
+        src: [CDIR 1969-03, FRUS persons list]
+      - name: Cole, Kenneth R., Jr.
+        title: Deputy Assistant to the President for Domestic Affairs
+        from: '1969-11'
+        to: '1972-12'
+        n: Deputy Director of the Domestic Council from 1970.
+        src: [FRUS persons list]
+      - name: Whitaker, John C.
+        from: '1969-11-04'
+        to: '1973'
+        out: To Under Secretary of the Interior.
+        n: 'Environment and natural resources; Domestic Council staff. Check: end.'
+        src: [CDIR 1971-03, CDIR 1971-12]
+      - name: Krogh, Egil (Bud)
+        title: Deputy Assistant to the President for Domestic Affairs
+        from: '1970'
+        to: '1973-02-02'
+        out: To Under Secretary of Transportation.
+        n: 'Staff Assistant to the Counsel, 1969. Co-director of the Special Investigations Unit (the Plumbers), July–Dec. 1971. Check: start.'
+        src: [FRUS persons list, 'Wikipedia: Egil Krogh']
+      - name: Cook, Richard K.
+        title: Special Assistant; Deputy Assistant to the President for Congressional (Legislative) Affairs from 1971
+        from: '1970'
+        to: '1973'
+        n: 'Check: dates; listed CDIR 1971-03 to 1973-03.'
+        src: [CDIR 1971-03, CDIR 1973-03, FRUS persons list]
+      - name: Cowen, Eugene S.
+        title: Special Assistant; Deputy Assistant to the President for Congressional Relations from 1971
+        from: '1970'
+        to: '1972'
+        n: 'Check: dates; listed CDIR 1971-03 and 1971-12.'
+        src: [CDIR 1971-03, CDIR 1971-12]
+      - name: Chapin, Dwight L.
+        from: '1971'
+        to: '1973-03'
+        out: Resigned.
+        n: The President's appointments.
+        src: [CDIR 1971-03, FRUS persons list]
+      - name: Cashen, Henry C., II
+        from: '1971'
+        to: '1973'
+        n: 'Check: dates; listed CDIR 1971-03 and 1971-12.'
+        src: [CDIR 1971-03, CDIR 1971-12]
+      - name: Korologos, Tom C.
+        title: Deputy Assistant to the President for Congressional (Legislative) Affairs
+        from: '1971'
+        n: 'Senate liaison. Check: start; first listed CDIR 1971-12.'
+        src: [CDIR 1971-12, CDIR 1973-12, FRUS persons list]
+      - name: Higby, Lawrence M.
+        from: '1973'
+        n: 'Haldeman''s assistant from 1969. Check: dates.'
+        src: [CDIR 1973-03, CDIR 1973-12]
+      - name: Bennett, John C.
+        rank: Lt. Gen., USA
+        from: '1973'
+        n: 'Office of the Chief of Staff. Check: dates.'
+        src: [CDIR 1973-12, FRUS persons list]
+      - name: Friedersdorf, Max L.
+        title: Deputy Assistant to the President for Legislative Affairs
+        from: '1973-06'
+        n: Special Assistant for Legislative Affairs to June 1973.
+        src: [CDIR 1973-12, FRUS persons list]
+  - id: assistant-staff
+    title: Assistant to The Assistant to the President
+    titles: [{title: Assistant to The Deputy Assistant to the President, from: '1953-09-05'}]
+    rank: employee
+    appt: PA
+    many: true
+    until: '1961-01-20'
+    holders:
+      - name: Steffan, Roger
+        title: Special Assistant to The Assistant to the President
+        from: '1953-01'
+        to: '1954'
+        n: 'Check: dates; listed CDIR 1953-03 and 1954-01.'
+        src: [CDIR 1953-03, CDIR 1954-01]
+      - name: Willis, Charles F., Jr.
+        title: Special Assistant in the White House Office; Assistant to The Assistant from 1953
+        from: '1953-01'
+        to: '1955'
+        n: 'Personnel. Check: dates; listed CDIR 1953-03 to 1955-02.'
+        src: [CDIR 1953-03, CDIR 1955-02]
+      - name: Gruenther, Homer H.
+        title: Special Assistant in the White House Office; Assistant to The Deputy Assistant from 1953
+        from: '1953-01-21'
+        to: '1961-01-20'
+        n: 'Congressional relations. Appointment announced Feb. 3, 1953. Check: end.'
+        src: [CDIR 1953-03, CDIR 1960-01, Eisenhower Library finding aid]
+      - name: Chesney, Earle D.
+        title: Assistant to The Deputy Assistant to the President
+        from: '1954-03-04'
+        to: '1961-01-20'
+        n: 'From the Veterans Administration. Check: end.'
+        src: [CDIR 1955-02, CDIR 1960-01, Eisenhower Library finding aid]
+  - id: administrative-assistants
+    title: Administrative Assistant to the President
+    rank: employee
+    appt: PA
+    many: true
+    n: Six authorized by law.
+    law:
+      - act: Reorganization Act of 1939, § 301
+        date: '1939-04-03'
+        cite: 'ch. 36, § 301, 53 Stat. 561, 565'
+        tags: [creates, appointment, pay, powers]
+        does: 'The President may appoint not to exceed six administrative assistants and fix the pay of each at not more than $10,000; each to perform such duties as the President may prescribe.'
+      - act: Act of June 25, 1948 (Title 3, U.S. Code, enacted)
+        date: '1948-06-25'
+        cite: 'ch. 644, 62 Stat. 672, 678'
+        usc: ['3 U.S.C. § 106 (1958)', '3 U.S.C. § 106 (1970)']
+        tags: [appointment, powers]
+        does: 'Re-enacts § 301 as 3 U.S.C. § 106; pay fixed under § 105 from 1949 (63 Stat. 880).'
+    holders:
+      - name: Cutler, Robert
+        from: '1953-01-21'
+        to: '1953-03-23'
+        out: To Special Assistant to the President for National Security Affairs.
+        src: [CDIR 1953-03]
+      - name: Hauge, Gabriel
+        from: '1953-01-21'
+        to: '1956'
+        out: To Special Assistant to the President for Economic Affairs.
+        n: 'Economics. Check: end; listed CDIR 1956-01, a Special Assistant in CDIR 1957-03.'
+        src: [CDIR 1953-03, CDIR 1956-01, FRUS persons list]
+      - name: Hughes, Emmet John
+        from: '1953-01-21'
+        to: '1953-09-24'
+        out: Resigned.
+        n: Speeches.
+        src: [CDIR 1953-03, Eisenhower Library finding aid (Harlow)]
+      - name: Morgan, Gerald D.
+        from: '1953-09-10'
+        to: '1955-02-19'
+        out: To Special Counsel.
+        n: Special Assistant in the White House Office from Jan. 21, 1953.
+        src: [CDIR 1954-01, CDIR 1955-02, Eisenhower Library finding aid]
+      - name: Martin, I. Jack
+        appointed: '1953-09-22'
+        from: '1953-09-22'
+        to: '1958-08-27'
+        out: Resigned.
+        n: Congressional relations.
+        src: [CDIR 1954-01, Eisenhower Library finding aid]
+      - name: Harlow, Bryce N.
+        from: '1953-10-24'
+        to: '1958-10-25'
+        out: To Deputy Assistant to the President for Congressional Affairs.
+        n: Special Assistant in the White House Office from Jan. 21, 1953. Speeches, then congressional relations. Sworn Oct. 24, 1953.
+        src: [CDIR 1954-01, Eisenhower Library finding aid]
+      - name: Pyle, Howard
+        from: '1955'
+        to: '1959'
+        n: 'Serving as Deputy Assistant for Intergovernmental Relations. From Governor of Arizona. Check: dates.'
+        src: [CDIR 1955-02, CDIR 1958-01]
+      - name: Seaton, Fred A.
+        from: '1955-02'
+        to: '1955-06'
+        out: To Deputy Assistant to the President for Administrative Liaison.
+        n: From Assistant Secretary of Defense for Legislative Affairs.
+        src: [CDIR 1955-02, FRUS persons list]
+      - name: Anderson, Jack Z.
+        from: '1956'
+        to: '1961-01-20'
+        n: 'Congressional relations. From Special Assistant to the Secretary of Agriculture. Check: start.'
+        src: [CDIR 1957-03, CDIR 1960-01, Eisenhower Library finding aid]
+      - name: Moos, Malcolm C.
+        from: '1958-09'
+        to: '1961-01-20'
+        out: Resigned.
+        n: 'Chief speechwriter. Consultant to Larson from Nov. 1957. Check: start.'
+        src: [CDIR 1959-03, Eisenhower Library finding aid, 'Wikipedia: Malcolm Moos']
+      - name: McCabe, Edward A.
+        from: '1958-09-10'
+        to: '1961-01-20'
+        n: From Associate Special Counsel.
+        src: [CDIR 1959-03, Eisenhower Library finding aid]
+      - name: Manatos, Mike N.
+        from: '1961-01-20'
+        to: '1969-01-20'
+        n: Senate liaison.
+        src: [CDIR 1961-04, CDIR 1967-12, FRUS persons list]
+      - name: Reardon, Timothy J., Jr.
+        from: '1961-01-20'
+        to: '1961'
+        out: To Special Assistant to the President.
+        n: 'Check: end; a Special Assistant in CDIR 1962-01.'
+        src: [CDIR 1961-04]
+      - name: Wilson, Henry Hall
+        given: Henry Hall, Jr.
+        from: '1961-01-20'
+        to: '1967-05'
+        n: House liaison; head of congressional liaison after O'Brien, Nov. 1965.
+        src: [CDIR 1961-04, CDIR 1967-02, FRUS persons list]
+  - id: special-assistants
+    title: Special Assistant to the President
+    rank: employee
+    appt: PA
+    many: true
+    n: 'The title of most of the senior staff from 1961 to 1969, and of the second rank under Eisenhower and Nixon. Each holder''s subject in his title. Those who held a separate post (counsel, press, appointments, Cabinet secretary) are listed there.'
+    holders:
+      - name: Persons, Wilton B.
+        title: Special Assistant to the President (congressional relations)
+        from: '1953-01-21'
+        to: '1953-09-05'
+        out: To The Deputy Assistant to the President.
+        src: [CDIR 1953-03, CDIR 1954-01]
+      - name: Jackson, C. D.
+        title: Special Assistant to the President (international affairs; cold war planning)
+        from: '1953-02-16'
+        to: '1954-03-31'
+        out: Resigned.
+        src: [CDIR 1953-03, FRUS persons list]
+      - name: Strauss, Lewis L.
+        title: Special Assistant to the President on Atomic Energy Matters
+        from: '1953-03-09'
+        to: '1958-11-12'
+        n: 'Chairman of the Atomic Energy Commission, July 2, 1953–June 30, 1958. Check: end; FRUS gives Nov. 12, 1958.'
+        src: [CDIR 1955-02, CDIR 1958-01, FRUS persons list]
+      - name: Dodge, Joseph M.
+        title: Special Assistant to the President; Chairman, Council on Foreign Economic Policy
+        appointed: '1954-12-11'
+        from: '1954-12-11'
+        to: '1956-07-10'
+        src: [CDIR 1955-02, FRUS persons list, https://www.presidency.ucsb.edu/documents/letter-joseph-m-dodge-designating-him-special-assistant-the-president-and-chairman-council]
+      - name: Rockefeller, Nelson A.
+        title: Special Assistant to the President (cold war strategy)
+        appointed: '1954-12-16'
+        from: '1954-12-16'
+        to: '1955-12-31'
+        out: Resigned.
+        n: Vice Chairman of the Operations Coordinating Board.
+        src: [CDIR 1955-02, FRUS persons list, https://www.presidency.ucsb.edu/documents/letter-nelson-rockefeller-appointing-him-special-assistant-the-president]
+      - name: McCann, Kevin
+        title: Special Assistant to the President (speeches)
+        from: '1955'
+        to: '1961-01-20'
+        n: 'Check: dates; listed CDIR 1955-02 to 1960-01.'
+        src: [CDIR 1955-02, CDIR 1960-01]
+      - name: Kestnbaum, Meyer
+        title: Special Assistant to the President (intergovernmental relations)
+        from: '1955'
+        to: '1960-12-14'
+        out: Died.
+        n: 'Unpaid. Check: start.'
+        src: [CDIR 1956-01, CDIR 1960-01, 'Wikipedia: Meyer Kestnbaum']
+      - name: Stassen, Harold E.
+        title: Special Assistant to the President for Disarmament
+        from: '1955-03-22'
+        to: '1958-02-15'
+        out: Resigned.
+        n: Appointment announced Mar. 19, 1955 (APP). From Director of the Foreign Operations Administration.
+        src: [CDIR 1956-01, FRUS persons list, https://www.presidency.ucsb.edu/documents/letter-accepting-resignation-harold-e-stassen-special-assistant-the-president]
+      - name: Bragdon, John S.
+        rank: Maj. Gen., USA (ret.)
+        title: Special Assistant to the President for Public Works Planning
+        appointed: '1955-08-12'
+        from: '1955-08-12'
+        to: '1960-04-26'
+        out: To member of the Civil Aeronautics Board.
+        src: [CDIR 1956-01, Eisenhower Library finding aid, https://www.presidency.ucsb.edu/documents/letter-maj-gen-john-s-bragdon-appointing-him-special-assistant-the-president-coordinate]
+      - name: Hauge, Gabriel
+        title: Special Assistant to the President for Economic Affairs
+        from: '1956'
+        to: '1958-10'
+        out: Resigned.
+        n: 'Check: dates.'
+        src: [CDIR 1957-03, CDIR 1958-01, FRUS persons list]
+      - name: Peaslee, Amos J.
+        title: Deputy Special Assistant to the President (disarmament)
+        from: '1956-02'
+        to: '1959'
+        n: 'From Ambassador to Australia. Check: dates.'
+        src: [CDIR 1957-03, CDIR 1960-01, FRUS persons list, 'Wikipedia: Amos J. Peaslee']
+      - name: Curtis, Edward P.
+        title: Special Assistant to the President for Aviation Facilities Planning
+        from: '1956-02-10'
+        to: '1957-05-10'
+        src: [CDIR 1957-03, https://www.presidency.ucsb.edu/documents/letter-edward-p-curtis-his-appointment-special-assistant-the-president-for-aviation]
+      - name: Randall, Clarence B.
+        title: Special Assistant to the President for Foreign Economic Policy; Chairman, Council on Foreign Economic Policy
+        appointed: '1956-07-10'
+        from: '1956-07-10'
+        to: '1961-01-20'
+        n: Special Consultant to the President, 1954–56.
+        src: [CDIR 1957-03, FRUS persons list, https://www.presidency.ucsb.edu/documents/letter-clarence-b-randall-his-appointment-special-assistant-the-president-for-foreign]
+      - name: Quesada, Elwood R.
+        title: Special Assistant to the President for Aviation Facilities Planning
+        from: '1957'
+        to: '1958-11-01'
+        out: To Administrator of the Federal Aviation Agency.
+        n: 'Check: start.'
+        src: [CDIR 1958-01]
+      - name: George, Walter F.
+        title: Special Assistant to the President (personal representative to NATO)
+        from: '1957-01'
+        to: '1957-08-04'
+        out: Died.
+        n: 'Former Senator from Georgia. Check: start.'
+        src: [CDIR 1957-03]
+      - name: Richards, James P.
+        title: Special Assistant to the President for the Middle East
+        from: '1957-01'
+        to: '1958-01'
+        n: Former Representative from South Carolina; personal rank of Ambassador. The Eisenhower Doctrine.
+        src: [CDIR 1957-03, FRUS persons list, 'Wikipedia: James P. Richards']
+      - name: Larson, Arthur
+        title: Special Assistant to the President (speeches)
+        from: '1957-10-28'
+        to: '1958-08-31'
+        out: Resigned.
+        n: From Director of the U.S. Information Agency.
+        src: [CDIR 1958-01, Eisenhower Library finding aid]
+      - name: Paarlberg, Don
+        title: Special Assistant to the President for Economic Affairs
+        from: '1958-10-18'
+        to: '1961-01-20'
+        n: From Assistant Secretary of Agriculture. Also Food for Peace Coordinator from 1960.
+        src: [CDIR 1959-03, FRUS persons list, Eisenhower Library finding aid]
+      - name: Wallis, W. Allen
+        title: Special Assistant to the President
+        from: '1960-02-01'
+        to: '1961-01-20'
+        n: 'Executive Vice Chairman, Cabinet Committee on Price Stability for Economic Growth, June 10, 1959–Feb. 1, 1960. Check: start.'
+        src: [CDIR 1960-01, Eisenhower Library finding aid]
+      - name: Reardon, Timothy J., Jr.
+        title: Special Assistant to the President (Cabinet affairs)
+        from: '1961'
+        to: '1964'
+        n: 'From Administrative Assistant. Check: dates; listed CDIR 1962-01 to 1964-01.'
+        src: [CDIR 1962-01, CDIR 1964-01]
+      - name: O'Brien, Lawrence F.
+        title: Special Assistant to the President for Congressional Relations
+        from: '1961-01-20'
+        to: '1965-11-03'
+        out: To Postmaster General.
+        n: Also personnel, 1961.
+        src: [CDIR 1961-04, CDIR 1965-03, FRUS persons list, 'Wikipedia: White House Director of Legislative Affairs']
+      - name: Dungan, Ralph A.
+        title: Special Assistant to the President (personnel; Latin America)
+        from: '1961-01-20'
+        to: '1964-09'
+        out: To Ambassador to Chile.
+        src: [CDIR 1961-04, CDIR 1964-01, FRUS persons list]
+      - name: Landis, James M.
+        title: Special Assistant to the President (regulatory agencies)
+        from: '1961-01-20'
+        to: '1961-09'
+        out: Resigned.
+        n: 'Check: end.'
+        src: [CDIR 1961-04]
+      - name: Schlesinger, Arthur M., Jr.
+        title: Special Assistant to the President
+        from: '1961-01-20'
+        to: '1964-03-01'
+        out: Resigned.
+        n: Latin America; liaison with the United Nations delegation; historian.
+        src: [CDIR 1961-04, CDIR 1964-01, FRUS persons list]
+      - name: Wofford, Harris
+        title: Special Assistant to the President for Civil Rights
+        from: '1961-01-20'
+        to: '1962-04'
+        out: To the Peace Corps, Ethiopia.
+        n: 'Check: end.'
+        src: [CDIR 1961-04, CDIR 1962-01]
+      - name: Powers, David F.
+        title: Special Assistant to the President
+        from: '1961-01-20'
+        to: '1965'
+        n: 'Check: dates; not in CDIR.'
+        src: [K–J Adm. III.B]
+      - name: Reeves, Frank D.
+        title: Special Assistant to the President
+        from: '1961-01-21'
+        to: '1961'
+        out: Resigned.
+        n: 'Check: end.'
+        src: [CDIR 1961-04, 'Wikipedia: Frank D. Reeves']
+      - name: Hays, Brooks
+        title: Special Assistant to the President
+        from: '1961-12-04'
+        to: '1964-02'
+        n: 'From Assistant Secretary of State for Congressional Relations. Check: end.'
+        src: [CDIR 1962-01, CDIR 1964-01, 'Wikipedia: Brooks Hays']
+      - name: Horsky, Charles A.
+        title: Advisor to the President for National Capital Affairs
+        from: '1962'
+        to: '1967'
+        n: 'Check: dates; listed CDIR 1963-03 to 1967-02.'
+        src: [CDIR 1963-03, CDIR 1967-02]
+      - name: Warren, Stafford L.
+        title: Special Assistant to the President (mental retardation)
+        from: '1963'
+        to: '1965'
+        n: 'Check: dates.'
+        src: [CDIR 1964-01, 'Wikipedia: Stafford L. Warren']
+      - name: Lawrence, David L.
+        title: Special Assistant to the President; Chairman, President's Committee on Equal Opportunity in Housing
+        from: '1963'
+        to: '1966-11-21'
+        out: Died.
+        n: 'Former Governor of Pennsylvania. Check: start.'
+        src: [CDIR 1964-01, CDIR 1966-01]
+      - name: Moyers, Bill D.
+        title: Special Assistant to the President
+        from: '1963-11'
+        to: '1967-02-01'
+        out: Resigned.
+        n: 'From Deputy Director of the Peace Corps. Chief of the staff, Oct. 1964–1967; Press Secretary from July 8, 1965. Check: start.'
+        src: [CDIR 1965-03, CDIR 1966-01, FRUS persons list]
+      - name: Reedy, George E.
+        title: Special Assistant to the President
+        from: '1963-11'
+        to: '1966'
+        n: 'Press Secretary, Mar. 19, 1964–July 8, 1965. Check: dates.'
+        src: [CDIR 1965-03, CDIR 1966-01, FRUS persons list]
+      - name: Jenkins, Walter W.
+        title: Special Assistant to the President
+        from: '1963-11-22'
+        to: '1964-10-14'
+        out: Resigned.
+        n: The chief of Johnson's staff.
+        src: [CDIR 1964-01, FRUS persons list, 'Wikipedia: Walter Jenkins']
+      - name: Valenti, Jack
+        title: Special Consultant; Special Assistant to the President
+        from: '1963-11-22'
+        to: '1966-05'
+        out: Resigned.
+        n: 'Appointments and the staff, 1965–66. Check: end; FRUS gives May 15, 1966 and May 1966.'
+        src: [CDIR 1964-01, CDIR 1966-01, FRUS persons list]
+      - name: Busby, Horace
+        title: Special Assistant to the President (speeches)
+        from: '1963-11-22'
+        to: '1965-10-01'
+        out: Resigned.
+        src: [CDIR 1965-03, FRUS persons list]
+      - name: Stevens, Roger L.
+        title: Special Assistant to the President on the Arts
+        from: '1964'
+        to: '1965'
+        n: 'Then Chairman of the National Endowment for the Arts. Check: dates.'
+        src: [CDIR 1965-03]
+      - name: Goodwin, Richard N.
+        title: Special Assistant to the President (speeches)
+        from: '1964-03'
+        to: '1965-09'
+        out: Resigned.
+        n: 'Check: start.'
+        src: [CDIR 1965-03, 'Wikipedia: Richard N. Goodwin']
+      - name: Cater, S. Douglass, Jr.
+        title: Special Assistant to the President (education and health)
+        from: '1964-05-08'
+        to: '1968-10'
+        out: Resigned.
+        src: [CDIR 1965-03, CDIR 1967-12, FRUS persons list]
+      - name: Jones, Jim
+        given: James Robert
+        title: Assistant to the President (under Watson); Deputy Special Assistant, Jan. 1968; Special Assistant from May 1968
+        from: '1965-02'
+        to: '1969-01-20'
+        src: [FRUS persons list]
+      - name: Watson, W. Marvin
+        title: Special Assistant to the President
+        from: '1965-02-01'
+        to: '1968-04-26'
+        out: To Postmaster General.
+        n: Appointments; chief of the staff from 1966.
+        src: [CDIR 1965-03, FRUS persons list]
+      - name: Califano, Joseph A., Jr.
+        title: Special Assistant to the President (domestic affairs)
+        from: '1965-07-26'
+        to: '1969-01-20'
+        n: From Special Assistant to the Secretary of Defense.
+        src: [CDIR 1966-01, CDIR 1967-12, FRUS persons list, 'Wikipedia: Joseph A. Califano Jr.']
+      - name: McPherson, Harry
+        given: Harry Cummings, Jr.
+        title: Special Assistant and Counsel to the President
+        from: '1965-08'
+        to: '1966-02-11'
+        out: To Special Counsel.
+        n: From Assistant Secretary of State for Educational and Cultural Affairs.
+        src: [CDIR 1966-01, FRUS persons list]
+      - name: Christian, George
+        title: Special Assistant to the President
+        from: '1966'
+        to: '1967-02-01'
+        out: To Press Secretary.
+        n: 'Check: start.'
+        src: [FRUS persons list]
+      - name: Komer, Robert W.
+        title: Special Assistant to the President (pacification in Vietnam)
+        from: '1966-03-28'
+        to: '1967-05'
+        out: To Deputy to the Commander, Military Assistance Command, Vietnam, for CORDS.
+        n: 'From Acting Special Assistant for National Security Affairs. Check: end.'
+        src: [CDIR 1967-02, FRUS persons list]
+      - name: Goldstein, E. Ernest
+        title: Special Assistant to the President
+        from: '1967'
+        to: '1969-01-20'
+        n: 'Check: start; first listed CDIR 1967-12.'
+        src: [CDIR 1967-12, FRUS persons list]
+      - name: Magruder, Jeb Stuart
+        title: Special Assistant to the President
+        from: '1969'
+        to: '1970'
+        out: To Deputy Director of Communications.
+        n: 'Check: dates.'
+        src: ['Wikipedia: Jeb Stuart Magruder']
+      - name: Huebner, Lee W.
+        title: Special Assistant to the President (speeches)
+        from: '1969'
+        n: 'Check: dates; listed CDIR 1973-03 and 1973-12.'
+        src: [CDIR 1973-03, CDIR 1973-12]
+      - name: Keogh, James
+        title: Special Assistant to the President (speeches and research)
+        from: '1969-01-20'
+        to: '1970-12'
+        out: Resigned.
+        n: 'Resignation accepted Dec. 16, 1970 (APP). Check: FRUS gives Dec. 1971.'
+        src: [CDIR 1969-03, https://www.presidency.ucsb.edu/documents/letter-james-keogh-accepting-his-resignation-special-assistant-the-president]
+      - name: Anderson, Martin
+        title: Special Assistant to the President (policy research)
+        from: '1969-01-20'
+        to: '1971-03'
+        out: Resigned.
+        src: [CDIR 1969-03, 'Wikipedia: Martin Anderson (economist)']
+      - name: Atwater, James D.
+        title: Special Assistant to the President
+        from: '1969-01-20'
+        to: '1970'
+        n: 'Check: end; listed CDIR 1969-03 only.'
+        src: [CDIR 1969-03]
+      - name: Brown, Robert J.
+        title: Special Assistant to the President (minority affairs)
+        from: '1969-01-20'
+        to: '1972'
+        n: 'Check: dates.'
+        src: [CDIR 1969-03, APP]
+      - name: Buchanan, Patrick J.
+        title: Special Assistant to the President (speeches; news summary); Special Consultant from 1973
+        from: '1969-01-20'
+        to: '1974-08'
+        n: 'Stayed briefly under Ford. Check: end.'
+        src: [CDIR 1969-03, CDIR 1973-12, FRUS persons list]
+      - name: Davies, John S.
+        title: Special Assistant to the President
+        from: '1969-01-20'
+        to: '1971'
+        n: 'Check: end; listed CDIR 1969-03 and 1971-03.'
+        src: [CDIR 1969-03, CDIR 1971-03]
+      - name: Flemming, Harry S.
+        title: Special Assistant to the President (personnel)
+        from: '1969-01-20'
+        to: '1970'
+        n: 'Check: end.'
+        src: [CDIR 1969-03]
+      - name: Grubb, H. Dale
+        title: Special Assistant to the President (congressional relations)
+        from: '1969-01-20'
+        to: '1970'
+        n: 'Check: end; listed CDIR 1969-03 only.'
+        src: [CDIR 1969-03]
+      - name: Price, Raymond K., Jr.
+        title: Special Assistant to the President (speeches); Special Consultant from 1973
+        from: '1969-01-20'
+        to: '1974-08-09'
+        n: Chief speechwriter from Dec. 31, 1970.
+        src: [CDIR 1969-03, CDIR 1973-12, FRUS persons list, 'Wikipedia: Ray Price (speechwriter)']
+      - name: Safire, William
+        title: Special Assistant to the President (speeches)
+        from: '1969-01-20'
+        to: '1973-03'
+        out: Resigned.
+        n: 'Check: end.'
+        src: [CDIR 1969-03, CDIR 1971-12, FRUS persons list]
+      - name: Zartman, Leonard
+        title: Special Assistant to the President
+        from: '1969-01-20'
+        to: '1970'
+        n: 'Check: end; listed CDIR 1969-03 only.'
+        src: [CDIR 1969-03]
+      - name: Bell, George T.
+        title: Special Assistant to the President
+        from: '1970'
+        to: '1972'
+        n: 'Check: dates; listed CDIR 1971-03 and 1971-12.'
+        src: [CDIR 1971-03, CDIR 1971-12]
+      - name: Gifford, William L.
+        title: Special Assistant to the President (congressional relations)
+        from: '1970'
+        to: '1972'
+        n: 'Check: dates; listed CDIR 1971-03 and 1971-12.'
+        src: [CDIR 1971-03, CDIR 1971-12]
+      - name: Goode, Mark I.
+        title: Special Assistant to the President (television)
+        from: '1970'
+        to: '1972'
+        n: 'Check: dates; listed CDIR 1971-03 and 1971-12.'
+        src: [CDIR 1971-03, CDIR 1971-12]
+      - name: Johnson, Roger E.
+        title: Special Assistant to the President
+        from: '1970'
+        to: '1972'
+        n: 'Check: dates; listed CDIR 1971-03 and 1971-12.'
+        src: [CDIR 1971-03, CDIR 1971-12]
+      - name: Kingsley, Daniel T.
+        title: Special Assistant to the President (personnel)
+        from: '1970'
+        n: 'Check: dates; listed CDIR 1971-03 to 1973-12.'
+        src: [CDIR 1971-03, CDIR 1973-12]
+      - name: Malek, Frederic V.
+        title: Special Assistant to the President (personnel)
+        from: '1970-09'
+        to: '1973-01'
+        out: To Deputy Director of the Office of Management and Budget.
+        src: [CDIR 1971-03, FRUS persons list, 'Wikipedia: Fred Malek']
+      - name: Barker, Desmond J., Jr.
+        title: Special Assistant to the President
+        from: '1971'
+        to: '1972'
+        n: 'Check: dates; listed CDIR 1971-12.'
+        src: [CDIR 1971-12]
+      - name: Farrell, Michael J.
+        title: Special Assistant to the President
+        from: '1971'
+        n: 'Check: dates; listed CDIR 1971-12 to 1973-12.'
+        src: [CDIR 1971-12, CDIR 1973-12]
+      - name: Friedersdorf, Max L.
+        title: Special Assistant to the President for Legislative Affairs
+        from: '1971'
+        to: '1973-06'
+        out: To Deputy Assistant to the President for Legislative Affairs.
+        n: 'Check: start; first listed CDIR 1971-12.'
+        src: [CDIR 1971-12, FRUS persons list]
+      - name: Rose, Jonathan C.
+        title: Special Assistant to the President
+        from: '1971'
+        to: '1973'
+        n: 'Check: dates; listed CDIR 1971-12.'
+        src: [CDIR 1971-12]
+      - name: Scott, Stanley S.
+        title: Special Assistant to the President (minority affairs)
+        from: '1971'
+        n: 'Check: dates; listed CDIR 1973-03 and 1973-12.'
+        src: [CDIR 1973-03, CDIR 1973-12]
+      - name: 'McLaughlin, John'
+        title: 'Special Assistant to the President (speechwriter)'
+        from: '1971'
+        to: '1974'
+        n: 'Joined after his Senate campaign in Rhode Island, 1970. The post abolished at the start of Ford''s administration, or two months later (Wikipedia). Check both dates.'
+        src: ['Wikipedia: John McLaughlin (host)']
+      - name: Huntsman, Jon M.
+        title: Special Assistant to the President
+        from: '1971-02-22'
+        to: '1972-01-01'
+        n: Staff Secretary; listed there.
+        src: [CDIR 1971-03]
+      - name: Johnson, Wallace H.
+        title: Special Assistant to the President for Legislative Affairs
+        from: '1973'
+        to: '1973'
+        n: 'Check: dates; listed CDIR 1973-03.'
+        src: [CDIR 1973-03]
+      - name: Allin, Lyndon K.
+        title: Special Assistant to the President (news summary)
+        from: '1973'
+        n: 'Check: dates; listed CDIR 1973-03 and 1973-12.'
+        src: [CDIR 1973-03, CDIR 1973-12]
+      - name: Gergen, David R.
+        title: Special Assistant to the President (speeches)
+        from: '1973'
+        n: 'Staff Assistant, 1971–72. Head of the writing and research staff from Feb. 6, 1973. Check: start.'
+        src: [CDIR 1973-03, FRUS persons list, 'Wikipedia: White House Director of Speechwriting']
+      - name: Howard, W. Richard
+        title: Special Assistant to the President
+        from: '1973'
+        n: 'Check: dates; listed CDIR 1973-03 and 1973-12.'
+        src: [CDIR 1973-03, CDIR 1973-12]
+      - name: Parker, David N.
+        title: Special Assistant to the President (appearances and scheduling)
+        from: '1973'
+        to: '1974-07'
+        n: In Chapin's office from Jan. 1971.
+        src: [CDIR 1973-03, FRUS persons list]
+      - name: Ainsworth, Wilburn Eugene, Jr.
+        title: Special Assistant to the President for Legislative Affairs
+        from: '1973'
+        n: 'Check: dates; listed CDIR 1973-12.'
+        src: [CDIR 1973-12]
+      - name: Elliott, Roland L.
+        title: Special Assistant to the President
+        from: '1973'
+        n: 'Check: dates; listed CDIR 1973-12.'
+        src: [CDIR 1973-12]
+      - name: Henkel, William, Jr.
+        title: Special Assistant to the President (advance)
+        from: '1973'
+        n: 'Check: dates; listed CDIR 1973-12.'
+        src: [CDIR 1973-12]
+      - name: Loen, Vernon C.
+        title: Special Assistant to the President for Legislative Affairs
+        from: '1973'
+        n: 'Check: dates; listed CDIR 1973-12.'
+        src: [CDIR 1973-12]
+      - name: Nidecker, John E.
+        title: Special Assistant to the President
+        from: '1973'
+        n: 'Check: dates; listed CDIR 1973-12.'
+        src: [CDIR 1973-12]
+      - name: O'Donnell, Patrick E.
+        title: Special Assistant to the President
+        from: '1973'
+        n: 'Check: dates; listed CDIR 1973-12.'
+        src: [CDIR 1973-12]
+      - name: Webber, Frederick L.
+        title: Special Assistant to the President for Legislative Affairs
+        from: '1973'
+        n: 'Check: dates; listed CDIR 1973-12.'
+        src: [CDIR 1973-12]
+      - name: Jones, Jerry H.
+        title: Special Assistant to the President (personnel)
+        from: '1973-01'
+        to: '1974-04'
+        out: To Staff Secretary.
+        src: [CDIR 1973-03, FRUS persons list, 'Wikipedia: Jerry H. Jones']
+      - name: Baroody, William J., Jr.
+        title: Special Assistant to the President (Office of Public Liaison)
+        from: '1973-03'
+        n: 'From assistant to the Secretary of Defense. Check: start.'
+        src: [CDIR 1973-03, CDIR 1973-12, 'Wikipedia: William J. Baroody Jr.']
+  - id: who-special-assistants
+    title: Special Assistant in the White House Office
+    rank: employee
+    appt: PA
+    many: true
+    until: '1961-01-20'
+    n: Eisenhower's junior title, below the Special Assistants to the President.
+    holders:
+      - name: Kieve, Robert S.
+        from: '1953-01'
+        to: '1955-01'
+        n: Speeches.
+        src: [CDIR 1954-01, Eisenhower Library finding aid]
+      - name: Lambie, James M., Jr.
+        from: '1953-03'
+        to: '1961-01-20'
+        n: Advertising liaison; Assistant Staff Secretary, 1960–61.
+        src: [CDIR 1953-03, CDIR 1960-01, Eisenhower Library finding aid]
+      - name: Masterson, Charles F.
+        from: '1953-09'
+        to: '1956'
+        n: 'Check: end; listed CDIR 1954-01 to 1956-01.'
+        src: [CDIR 1954-01, CDIR 1956-01, Eisenhower Library finding aid]
+      - name: Ewald, William B., Jr.
+        from: '1954-09'
+        to: '1956'
+        out: To Assistant to the Secretary of the Interior.
+        n: 'Speeches. Check: end.'
+        src: [CDIR 1955-02, Eisenhower Library finding aid]
+      - name: Tait, Edward T.
+        from: '1955'
+        to: '1956'
+        n: 'Check: dates; listed CDIR 1956-01.'
+        src: [CDIR 1956-01]
+      - name: Morrow, E. Frederic
+        title: Administrative Officer, Special Projects
+        from: '1955'
+        to: '1961-01-20'
+        n: 'Check: start.'
+        src: [CDIR 1956-01, CDIR 1960-01, Eisenhower Library finding aid]
+      - name: Gray, Robert K.
+        from: '1956'
+        to: '1958-05-16'
+        out: To Secretary to the Cabinet.
+        n: 'Check: start.'
+        src: [CDIR 1957-03, CDIR 1958-01, FRUS persons list]
+      - name: Fox, Frederic E.
+        from: '1956'
+        to: '1961-01-20'
+        n: 'Correspondence; Staff Assistant to the President from 1957. Check: start.'
+        src: [CDIR 1957-03, CDIR 1960-01, Eisenhower Library finding aid]
+      - name: Areeda, Phillip E.
+        from: '1956-07'
+        to: '1958-11-13'
+        out: To Assistant Special Counsel.
+        src: [CDIR 1958-01, Eisenhower Library finding aid]
+      - name: Warrington, Wayne B.
+        title: Assistant to the Administrative Assistant to the President (Pyle)
+        from: '1957-02'
+        to: '1959-05'
+        src: [CDIR 1958-01, CDIR 1959-03, Eisenhower Library finding aid]
+      - name: Hampton, Robert E.
+        from: '1958'
+        to: '1961-01-20'
+        n: 'Personnel. Check: dates; listed CDIR 1959-03 and 1960-01.'
+        src: [CDIR 1959-03, CDIR 1960-01]
+      - name: Price, Douglas R.
+        from: '1958'
+        to: '1961-01-20'
+        n: 'Intergovernmental relations. Check: dates; listed CDIR 1959-03 and 1960-01.'
+        src: [CDIR 1959-03, CDIR 1960-01, Eisenhower Library finding aid]
+      - name: Wheeler, Clyde A., Jr.
+        title: Staff Assistant to the President
+        from: '1959-02'
+        to: '1961-01-20'
+        n: 'Congressional relations. Check: dates.'
+        src: [CDIR 1960-01, Eisenhower Library finding aid]
+      - name: Hess, Stephen
+        from: '1959-02-20'
+        to: '1961-01-20'
+        n: Speeches.
+        src: [CDIR 1960-01, 'Wikipedia: Stephen Hess']
+  - id: staff-assistants
+    title: Staff Assistant to the President
+    rank: employee
+    appt: PA
+    many: true
+    from: '1965'
+    n: The writers and aides below the Special Assistants under Johnson and Nixon; not in the Directory's lists.
+    holders:
+      - name: Goldman, Eric F.
+        title: Special Consultant to the President
+        from: '1963-12'
+        to: '1966-08'
+        out: Resigned.
+        n: 'Liaison with scholars and writers. Check: dates.'
+        src: [K–J Adm. III.C, 'Wikipedia: Eric F. Goldman']
+      - name: Hardesty, Robert
+        title: Staff Assistant (speeches)
+        from: '1965'
+        to: '1969-01-20'
+        n: 'Check: dates.'
+        src: [1968 III.A]
+      - name: Maguire, Charles
+        title: Staff Assistant (speeches)
+        from: '1966'
+        to: '1969-01-20'
+        n: 'Check: dates.'
+        src: [1968 III.A]
+      - name: Sparks, Will
+        title: Staff Assistant (speeches)
+        from: '1966'
+        to: '1968'
+        n: 'Check: dates.'
+        src: [1968 III.A]
+      - name: Wattenberg, Ben J.
+        title: Staff Assistant (speeches)
+        from: '1966'
+        to: '1968'
+        n: 'Check: dates.'
+        src: [1968 III.A, 'Wikipedia: Ben Wattenberg']
+      - name: Kearns, Doris
+        title: White House Fellow; then on the President's staff
+        from: '1967'
+        to: '1969-01-20'
+        n: 'Check: dates.'
+        src: [1968 III.A, 'Wikipedia: Doris Kearns Goodwin']
+      - name: Huston, Tom Charles
+        title: Staff Assistant to the President
+        from: '1969'
+        to: '1971'
+        n: 'The domestic intelligence plan of July 1970. Check: dates.'
+        src: [Adm. III.B, 'Wikipedia: Tom Charles Huston']
+      - name: 'Sloan, Hugh W., Jr.'
+        title: 'Staff assistant (assistant to Dwight Chapin)'
+        from: '1969-01-20'
+        to: '1971-03'
+        out: 'To the Finance Committee to Re-elect the President.'
+        n: 'Also planned White House social functions (Wikipedia). Check the day he left.'
+        src: ['Wikipedia: Hugh W. Sloan Jr.']
+      - name: Strachan, Gordon C.
+        title: Staff Assistant to the President (Haldeman's office)
+        from: '1970'
+        to: '1972-12'
+        out: To General Counsel of the U.S. Information Agency.
+        n: 'Check: dates.'
+        src: [Wg. III.A, 'Wikipedia: Gordon C. Strachan']
+      - name: Liddy, G. Gordon
+        title: Staff Assistant, Domestic Council (Special Investigations Unit)
+        from: '1971-07'
+        to: '1971-12'
+        out: To counsel to the Finance Committee to Re-elect the President.
+        n: 'Check: dates.'
+        src: [Wg. III.C, 'Wikipedia: G. Gordon Liddy']
+      - name: Hunt, E. Howard
+        title: Consultant (Colson's office; Special Investigations Unit)
+        from: '1971-07'
+        to: '1972-03'
+        n: 'Check: dates.'
+        src: [Wg. III.C, 'Wikipedia: E. Howard Hunt']
+  - id: special-consultants
+    title: Special Consultant to the President
+    rank: employee
+    appt: PA
+    many: true
+    holders:
+      - name: Francis, Clarence
+        from: '1954'
+        to: '1961-01-20'
+        n: 'Surplus agricultural commodities. Check: dates; listed CDIR 1955-02 to 1960-01.'
+        src: [CDIR 1955-02, CDIR 1960-01, Eisenhower Library finding aid]
+      - name: Randall, Clarence B.
+        title: Special Consultant to the President on Foreign Economic Policy
+        from: '1954'
+        to: '1956-07-10'
+        out: To Special Assistant to the President for Foreign Economic Policy.
+        n: 'Chairman of the Commission on Foreign Economic Policy, 1953–54. Check: start.'
+        src: [CDIR 1955-02, Eisenhower Library finding aid]
+      - name: Young, Philip
+        title: Presidential Adviser on Personnel Management
+        from: '1955'
+        to: '1957-02-11'
+        n: 'Concurrently Chairman of the Civil Service Commission. Check: start; first listed CDIR 1955-02.'
+        src: [CDIR 1955-02, CDIR 1957-03]
+      - name: Voorhees, Tracy S.
+        title: Consultant
+        from: '1956'
+        to: '1957'
+        n: 'Chairman, President''s Committee for Hungarian Refugee Relief. Check: dates.'
+        src: [CDIR 1957-03, 'Wikipedia: Tracy Voorhees']
+      - name: Siciliano, Rocco C.
+        title: Special Assistant to the President for Personnel Management
+        from: '1957'
+        to: '1959'
+        n: 'Check: dates; listed CDIR 1958-01 and 1959-03.'
+        src: [CDIR 1958-01, CDIR 1959-03]
+      - name: Stambaugh, John H.
+        from: '1957'
+        to: '1958'
+        n: 'Check: dates; listed CDIR 1958-01.'
+        src: [CDIR 1958-01]
+      - name: Larson, Arthur
+        from: '1958-08-31'
+        to: '1961-01-20'
+        n: From Special Assistant.
+        src: [CDIR 1959-03, Eisenhower Library finding aid]
+      - name: Lyons, Eugene J.
+        title: Special Assistant to the President for Personnel Management
+        from: '1959'
+        to: '1961-01-20'
+        n: 'Check: dates; listed CDIR 1960-01.'
+        src: [CDIR 1960-01]
+      - name: Dulles, John Foster
+        title: Special Consultant to the President with Cabinet rank
+        from: '1959-04-23'
+        to: '1959-05-24'
+        out: Died.
+        n: From Secretary of State. Sworn Apr. 23, 1959 (APP).
+        src: [https://www.presidency.ucsb.edu/documents/remarks-the-swearing-john-foster-dulles-special-consultant-the-president-with-cabinet-rank]
+      - name: Acheson, Dean
+        from: '1961'
+        to: '1961'
+        n: 'NATO and Berlin. Check: dates.'
+        src: [FRUS persons list]
+      - name: Taylor, Maxwell D.
+        rank: Gen., USA (ret.)
+        from: '1965-09-01'
+        to: '1969-01-20'
+        n: 'From Ambassador to South Vietnam. Appointment announced Sept. 1, 1965 (APP). Chairman of the President''s Foreign Intelligence Advisory Board from 1968. Check: end.'
+        src: [CDIR 1966-01, CDIR 1967-12, FRUS persons list, 'APP: statement of Sept. 1, 1965']
+      - name: Roche, John P.
+        from: '1966-09-08'
+        to: '1968-09'
+        out: Resigned.
+        n: 'Check: end.'
+        src: [CDIR 1967-02, CDIR 1967-12, FRUS persons list]
+      - name: Garment, Leonard
+        from: '1969-01-20'
+        to: '1973-05-09'
+        out: To Counsel to the President.
+        n: Civil rights, the arts, Indian affairs.
+        src: [CDIR 1969-12, CDIR 1973-03, FRUS persons list]
+      - name: Flanigan, Peter M.
+        title: Consultant to the President on Administration and Staffing
+        from: '1969-01-20'
+        to: '1969-04-15'
+        out: To Assistant to the President.
+        src: [FRUS persons list]
+      - name: Wilkinson, Charles B.
+        from: '1969-01-20'
+        to: '1970'
+        n: 'Check: end; listed CDIR 1969-03 and 1969-12.'
+        src: [CDIR 1969-03, CDIR 1969-12]
+      - name: Hershey, Lewis B.
+        rank: Gen., USA
+        title: Advisor to the President on Manpower Mobilization
+        from: '1970-02-16'
+        to: '1973-04'
+        n: 'From Director of Selective Service. Check: end.'
+        src: [CDIR 1971-03, CDIR 1971-12]
+      - name: Magruder, William M.
+        from: '1971'
+        to: '1972'
+        n: 'Check: dates; listed CDIR 1971-12.'
+        src: [CDIR 1971-12]
+      - name: Scali, John A.
+        from: '1971-04'
+        to: '1973-02-20'
+        out: To Permanent Representative to the United Nations.
+        src: [CDIR 1971-12, FRUS persons list]
+      - name: Jaffe, Jerome H.
+        title: Special Consultant to the President for Narcotics and Dangerous Drugs
+        from: '1971-06-17'
+        to: '1973-06-17'
+        n: Concurrently Director of the Special Action Office for Drug Abuse Prevention.
+        src: [CDIR 1971-12, FRUS persons list]
+      - name: Flemming, Arthur S.
+        title: Special Consultant to the President on Aging
+        from: '1972-01-11'
+        n: Sworn Jan. 11, 1972 (APP).
+        src: [https://www.presidency.ucsb.edu/documents/remarks-the-swearing-arthur-s-flemming-special-consultant-the-president-aging]
+  - id: former-presidents
+    title: Special Assistant to the President for Liaison with Former Presidents
+    rank: employee
+    appt: PA
+    from: '1969-02-14'
+    law:
+      - act: Executive Order 11456
+        date: '1969-02-14'
+        url: https://www.presidency.ucsb.edu/documents/executive-order-11456-providing-for-special-assistant-the-president-for-liaison-with
+        tags: [creates, powers]
+        does: 'A Special Assistant to the President for Liaison with Former Presidents in the White House Office: to keep channels of communication between the President and each living former President, keep them informed, and convey their views.'
+    holders:
+      - name: Schulz, Robert L.
+        rank: Brig. Gen., USA (ret.)
+        appointed: '1969-02-14'
+        from: '1969-02-14'
+        n: 'Check: end; last listed CDIR 1971-12.'
+        src: [CDIR 1971-03, Eisenhower Library finding aid]
+  - id: food-for-peace
+    title: Director of the Food-for-Peace Program
+    rank: employee
+    appt: PA
+    from: '1961-01-24'
+    until: '1965'
+    n: 'Also Special Assistant to the President. Under Eisenhower, Paarlberg was Food for Peace Coordinator (1960). Check: when the office left the White House Office; not in CDIR 1966-01.'
+    law:
+      - act: Executive Order 10915
+        date: '1961-01-24'
+        url: https://www.presidency.ucsb.edu/documents/executive-order-10915-amending-prior-executive-orders-provide-for-the-responsibilities-the
+        tags: [creates, powers]
+        does: 'The Director of the Food-for-Peace Program, provided for by letter of the same date, subject to the direction of the President, responsible for the continuous supervision and coordination of the functions delegated under the Agricultural Trade Development and Assistance Act of 1954.'
+    holders:
+      - name: McGovern, George
+        from: '1961-01-21'
+        to: '1962-07-18'
+        out: Resigned.
+        n: To run for the Senate in South Dakota. Resignation accepted July 18, 1962 (APP).
+        src: [CDIR 1961-04, FRUS persons list, https://www.presidency.ucsb.edu/documents/letter-accepting-resignation-george-mcgovern-director-the-food-for-peace-program]
+      - name: Reuter, Richard W.
+        from: '1962-07'
+        to: '1965'
+        n: 'Then Special Assistant to the Secretary of State for Food for Peace. Check: dates.'
+        src: [CDIR 1963-03, CDIR 1965-03, 'Wikipedia: Richard W. Reuter']
+  - id: military-representative
+    title: Military Representative of the President
+    rank: military
+    appt: MIL
+    from: '1961-07-01'
+    until: '1962-10-01'
+    n: 'Advice on military and intelligence matters, and on the conduct of the cold war; chairman of the Special Group (Counter-Insurgency). Check: the President''s letter of appointment, June 1961.'
+    holders:
+      - name: Taylor, Maxwell D.
+        rank: Gen., USA
+        from: '1961-07-01'
+        to: '1962-10-01'
+        out: To Chairman of the Joint Chiefs of Staff.
+        n: Recalled to active duty from retirement. Chairman of the Cuba Study Group, Apr.–June 1961.
+        src: [FRUS persons list, https://www.presidency.ucsb.edu/documents/remarks-the-swearing-gen-maxwell-d-taylor-chairman-the-joint-chiefs-staff]
+  - id: military-representative-staff
+    title: Assistant to the Military Representative of the President
+    rank: military
+    appt: MIL
+    many: true
+    under: military-representative
+    from: '1961-07-01'
+    until: '1962-10-01'
+    holders:
+      - name: Parrott, Thomas A.
+        from: '1961'
+        to: '1962-10'
+        n: 'Of the Central Intelligence Agency; also Executive Secretary of the Special Group. Check: dates.'
+        src: [FRUS persons list]
+      - name: Legere, Lawrence J.
+        rank: Col., USA
+        from: '1961-07'
+        to: '1962-10'
+        n: 'Check: dates.'
+        src: [FRUS persons list]
+      - name: Bagley, Worth H.
+        rank: Lt. Comdr., USN
+        title: Naval Aide to the Military Representative of the President
+        from: '1961-07'
+        to: '1962-10'
+        n: 'Check: end.'
+        src: [FRUS persons list]
+      - name: Smith, William Y.
+        rank: Maj., USAF
+        from: '1961-07'
+        to: '1962-10'
+        n: 'Check: dates.'
+        src: [FRUS persons list]
+      - name: Ewell, Julian J.
+        rank: Col., USA
+        title: Executive Officer to the Military Representative of the President
+        from: '1961-07'
+        to: '1962-10'
+        n: 'Check: post and dates.'
+        src: [Coordinator's note from the military agent]
+  - id: military-aide
+    title: Military Aide to the President
+    titles: [{title: Armed Forces Aide to the President, from: '1965-07'}, {title: Military Assistant to the President, from: '1969'}]
+    rank: military
+    appt: MIL
+    n: 'Johnson replaced the three service aides with one Armed Forces Aide in 1965. Check: the date.'
+    holders:
+      - name: Schulz, Robert L.
+        rank: Lt. Col., USA; later Col., Brig. Gen.
+        from: '1953-01-20'
+        to: '1961-01-20'
+        n: Aide to Eisenhower from 1948. Executive Assistant to former President Eisenhower, 1961–69.
+        src: [CDIR 1953-03, CDIR 1960-01, Eisenhower Library finding aid]
+      - name: Clifton, Chester V., Jr.
+        rank: Brig. Gen., USA; Maj. Gen. from 1962
+        from: '1961-01-20'
+        to: '1965-07'
+        src: [CDIR 1961-04, CDIR 1965-03, FRUS persons list]
+      - name: Cross, James U.
+        rank: Lt. Col., USAF; Col. from 1967
+        from: '1965-07'
+        to: '1968'
+        n: 'Also the President''s pilot. Check: dates.'
+        src: [CDIR 1966-01, CDIR 1967-12, 'Wikipedia: James U. Cross']
+      - name: Hughes, James D.
+        rank: Col., USAF; Brig. Gen. from 1971
+        from: '1969-01-20'
+        to: '1972'
+        n: 'Check: dates.'
+        src: [CDIR 1969-03, CDIR 1971-12]
+      - name: Scowcroft, Brent
+        rank: Brig. Gen., USAF
+        from: '1972-02'
+        to: '1973-01-04'
+        out: To Deputy Assistant to the President for National Security Affairs.
+        n: 'Check: dates; CDIR 1973-03 still lists him here.'
+        src: [CDIR 1973-03, 'Wikipedia: Brent Scowcroft']
+      - name: Lawson, Richard L.
+        rank: Brig. Gen., USAF
+        from: '1973-08'
+        src: [CDIR 1973-12, FRUS persons list]
+  - id: naval-aide
+    title: Naval Aide to the President
+    rank: military
+    appt: MIL
+    until: '1965'
+    holders:
+      - name: Beach, Edward L.
+        rank: Comdr., USN; Capt. from 1956
+        from: '1953-01'
+        to: '1957-01'
+        src: [CDIR 1953-03, Eisenhower Library finding aid, 'Wikipedia: Edward L. Beach Jr.']
+      - name: Aurand, Evan P.
+        rank: Capt., USN
+        from: '1957-02'
+        to: '1961-01'
+        src: [CDIR 1958-01, 'Wikipedia: Evan Peter Aurand']
+      - name: Shepard, Tazewell T., Jr.
+        rank: Comdr., USN; Capt. from 1961
+        from: '1961-01-20'
+        to: '1964'
+        n: 'Check: end; last listed CDIR 1964-01.'
+        src: [CDIR 1961-04, CDIR 1964-01]
+  - id: air-force-aide
+    title: Air Force Aide to the President
+    rank: military
+    appt: MIL
+    until: '1965'
+    holders:
+      - name: Draper, William G.
+        rank: Maj., USAF; later Col.
+        from: '1953-01-20'
+        to: '1961-01-20'
+        n: Also the President's pilot.
+        src: [CDIR 1953-03, Eisenhower Library finding aid]
+      - name: McHugh, Godfrey T.
+        rank: Col., USAF; Brig. Gen. from 1961
+        from: '1961-01-20'
+        to: '1964'
+        n: 'Check: end; last listed CDIR 1964-01.'
+        src: [CDIR 1961-04, CDIR 1964-01]
+  - id: physician
+    title: Physician to the President
+    rank: employee
+    appt: PA
+    holders:
+      - name: Snyder, Howard McC.
+        rank: Maj. Gen., USA (MC)
+        from: '1953-01-20'
+        to: '1961-01-20'
+        src: [CDIR 1953-03, CDIR 1960-01, 'Wikipedia: Howard McCrum Snyder']
+      - name: Travell, Janet G.
+        from: '1961-01-20'
+        to: '1963-07'
+        n: 'Personal Physician to the President. Stayed on the staff to 1965. Check: end.'
+        src: [CDIR 1961-04, CDIR 1963-03, 'Wikipedia: Janet G. Travell']
+      - name: Burkley, George G.
+        rank: Rear Adm., USN (MC); Vice Adm. from 1965
+        from: '1963-07'
+        to: '1969-01-20'
+        out: Retired.
+        n: 'Retirement announced Jan. 10, 1969 (APP). Check: start; Wikipedia gives July 1963.'
+        src: [CDIR 1964-01, CDIR 1967-12, 'Wikipedia: George Burkley', https://www.presidency.ucsb.edu/documents/statement-the-president-the-retirement-the-presidents-physician-vice-adm-george-g-burkley]
+      - name: Tkach, Walter R.
+        rank: Col., USAF (MC); Brig. Gen. 1971; Maj. Gen. 1973
+        from: '1969-01-20'
+        to: '1974-09-16'
+        src: [CDIR 1969-03, CDIR 1973-12, 'Wikipedia: Walter R. Tkach']
+  - id: personal-secretary
+    title: Personal Secretary to the President
+    rank: employee
+    appt: PA
+    holders:
+      - name: Whitman, Ann C.
+        from: '1953-01-20'
+        to: '1961-01-20'
+        src: [CDIR 1953-03, 'Wikipedia: Ann C. Whitman']
+      - name: Lincoln, Evelyn
+        from: '1961-01-20'
+        to: '1963-11-22'
+        src: [CDIR 1961-04, 'Wikipedia: Evelyn Lincoln']
+      - name: Roberts, Juanita Duggan
+        from: '1963-11'
+        to: '1968'
+        n: 'Check: dates; listed CDIR 1964-01 to 1967-12.'
+        src: [CDIR 1964-01, CDIR 1967-12]
+      - name: Woods, Rose Mary
+        from: '1969-01-20'
+        to: '1974-08-09'
+        n: Executive Assistant and Personal Secretary from 1973.
+        src: [CDIR 1969-03, CDIR 1973-12, 'Wikipedia: Rose Mary Woods']
+  - id: executive-clerk
+    title: Executive Clerk
+    titles: [{title: Executive Assistant, from: '1967'}, {title: Chief Executive Clerk, from: '1971'}]
+    rank: employee
+    appt: PA
+    holders:
+      - name: Hopkins, William J.
+        from: '1948'
+        to: '1971'
+        out: Retired.
+        n: 'On the White House staff from 1931. Check: dates of appointment and retirement.'
+        src: [CDIR 1953-03, CDIR 1971-03]
+      - name: Melencamp, Noble M.
+        from: '1971'
+        to: '1973'
+        n: 'Check: dates; listed CDIR 1973-03.'
+        src: [CDIR 1973-03]
+      - name: Linder, Robert D.
+        from: '1973'
+        n: 'Check: start; listed CDIR 1973-12.'
+        src: [CDIR 1973-12]
+  - id: chief-usher
+    title: Chief Usher
+    rank: employee
+    appt: PA
+    holders:
+      - name: Crim, Howell G.
+        from: '1938-04-04'
+        to: '1957-06-02'
+        out: Retired.
+        src: [CDIR 1953-03, 'Wikipedia: White House Chief Usher']
+      - name: West, J. Bernard
+        from: '1957-06-02'
+        to: '1969-03-01'
+        out: Retired.
+        n: Assistant to the Chief Usher from 1941.
+        src: [CDIR 1958-01, 'Wikipedia: J. B. West']
+      - name: Scouten, Rex W.
+        from: '1969-03'
+        src: [CDIR 1969-12, 'Wikipedia: White House Chief Usher']
+  - id: first-lady-staff
+    title: Secretary to the Wife of the President
+    titles: [{title: Social Secretary, from: '1961-01-20'}]
+    rank: employee
+    appt: PA
+    many: true
+    n: The First Lady's staff, each with her title.
+    holders:
+      - name: McCaffree, Mary Jane
+        title: Secretary to the Wife of the President; Personal and Social Secretary to Mrs. Eisenhower from 1955
+        from: '1953-01-20'
+        to: '1961-01-20'
+        n: Acting to 1955.
+        src: [CDIR 1953-03, CDIR 1960-01, Eisenhower Library finding aid]
+      - name: Baldrige, Letitia
+        title: Social Secretary
+        from: '1961-01-20'
+        to: '1963-06'
+        n: 'Check: end.'
+        src: [CDIR 1961-04, CDIR 1963-03]
+      - name: Turnure, Pamela
+        title: Press Secretary to the First Lady
+        from: '1961-01-20'
+        to: '1963-11-22'
+        src: ['Wikipedia: Pamela Turnure']
+      - name: Tuckerman, Nancy
+        title: Social Secretary
+        from: '1963-06'
+        to: '1963-12'
+        n: 'Check: dates.'
+        src: ['Wikipedia: Nancy Tuckerman']
+      - name: Carpenter, Liz
+        given: Elizabeth Sutherland
+        title: Press Secretary and Staff Director for the First Lady
+        from: '1963-11'
+        to: '1969-01-20'
+        src: [CDIR 1964-01, CDIR 1967-12, 'Wikipedia: Liz Carpenter']
+      - name: Abell, Bess
+        title: Social Secretary
+        from: '1963-12'
+        to: '1969-01-20'
+        n: 'Check: start.'
+        src: [CDIR 1964-01, CDIR 1967-12]
+      - name: Stuart, Constance
+        title: Staff Director for the First Lady; also her Press Secretary
+        from: '1969'
+        to: '1973'
+        n: 'Check: dates; listed CDIR 1969-12 to 1971-12.'
+        src: [CDIR 1969-12, CDIR 1971-12]
+      - name: Van der Heuvel, Gerry
+        title: Press Secretary to the First Lady
+        from: '1969-01-20'
+        to: '1970'
+        n: 'Check: end; listed CDIR 1969-03.'
+        src: [CDIR 1969-03]
+      - name: Winchester, Lucy Alexander
+        title: Social Secretary
+        from: '1969-01-20'
+        to: '1974-08-09'
+        n: 'Check: end.'
+        src: [CDIR 1969-03, CDIR 1973-12]
+      - name: Smith, Helen McCain
+        title: Press Secretary to the First Lady
+        from: '1973'
+        to: '1974-08-09'
+        n: 'Check: dates; listed CDIR 1973-12.'
+        src: [CDIR 1973-12]

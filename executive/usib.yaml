@@ -1,0 +1,415 @@
+# The Intelligence Advisory Committee and United States Intelligence Board; the Council's covert-action committees. Kept by hand (research agent, Oct. 2026; generated once from the agent's notes).
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: usib
+name: Intelligence Advisory Committee
+names:
+- name: United States Intelligence Board
+  from: '1958-09-15'
+under: nsc
+order: 50
+law:
+- act: National Security Act of 1947
+  date: '1947-07-26'
+  effective: '1947-09-18'
+  tags:
+  - powers
+  cite: ch. 343, § 102(d), 61 Stat. 495, 498
+  usc:
+  - 50 U.S.C. § 403(d) (1958)
+  does: The Central Intelligence Agency, under the direction of the Council, to advise the Council on the intelligence activities
+    of the departments and agencies and recommend their coordination; to correlate and evaluate intelligence. The basis of
+    the Council's intelligence directives.
+- act: National Security Council Intelligence Directive No. 1 (revised)
+  date: '1952-03-28'
+  until: '1958-09-15'
+  tags:
+  - creates
+  - powers
+  - appointment
+  url: https://history.state.gov/historicaldocuments/frus1950-55Intel/d256
+  does: 'An Intelligence Advisory Committee to advise the Director of Central Intelligence: the Director (chairman), the Director
+    of the Federal Bureau of Investigation, and the intelligence chiefs of State, the Army, the Navy, the Air Force, the Joint
+    Staff, and the Atomic Energy Commission, or their representatives.'
+- act: Reorganization of the United States Intelligence Board
+  date: '1964-03-04'
+  tags:
+  - reorganizes
+  - appointment
+  url: https://history.state.gov/historicaldocuments/frus1964-68v33/d196
+  does: 'By the President''s direction: the Director of Central Intelligence (chairman), the Deputy Director, the Director
+    of Intelligence and Research of State, the Directors of the Defense Intelligence Agency and the National Security Agency,
+    representatives of the Atomic Energy Commission and the Director of the FBI. The service intelligence chiefs become observers.'
+- act: Memorandum by President Nixon on the intelligence community
+  date: '1971-11-05'
+  tags:
+  - reorganizes
+  - appointment
+  url: https://history.state.gov/historicaldocuments/frus1969-76v02/d242
+  does: The Board reconstituted under the Director of Central Intelligence, the Deputy Director vice chairman; a representative
+    of the Secretary of the Treasury added. Establishes the NSC Intelligence Committee under the Assistant to the President,
+    and a Net Assessment Group on the NSC staff.
+n: 'The Committee first set up by NSCID No. 1 of Dec. 12, 1947 (https://history.state.gov/historicaldocuments/frus1945-50Intel/d432).
+  Reconstituted as the United States Intelligence Board by NSCID No. 1 of Sept. 15, 1958, merging it with the U.S. Communications
+  Intelligence Board; the National Security Agency added. Check: the 1958 and 1972 texts of NSCID No. 1 not found. Members
+  sit ex officio; their holders are under their own agencies. Executive Secretary: James S. Lay, Jr., in Mar. 1964 (FRUS 1964–68,
+  XXXIII, doc. 196). The covert-action and counterinsurgency committees of the Council follow.'
+offices:
+- id: chairman
+  title: Chairman of the Intelligence Advisory Committee
+  titles:
+  - title: Chairman of the United States Intelligence Board
+    from: '1958-09-15'
+  rank: employee
+  appt: XO
+  n: The Director of Central Intelligence (cia.director).
+  holders:
+  - name: Smith, Walter B.
+    rank: Gen., USA
+    from: '1950-10-07'
+    to: '1953-02-09'
+    out: To Under Secretary of State.
+    src:
+    - 'Wikipedia: Director of Central Intelligence'
+  - name: Dulles, Allen W.
+    acting: true
+    from: '1953-02-09'
+    to: '1953-02-26'
+    n: Deputy Director.
+    src:
+    - 'Wikipedia: Director of Central Intelligence'
+  - name: Dulles, Allen W.
+    from: '1953-02-26'
+    to: '1961-11-29'
+    src:
+    - 'Wikipedia: Director of Central Intelligence'
+    - CDIR 1954-01
+  - name: McCone, John A.
+    from: '1961-11-29'
+    to: '1965-04-28'
+    src:
+    - 'Wikipedia: Director of Central Intelligence'
+    - FRUS persons list
+  - name: Raborn, William F., Jr.
+    rank: Vice Adm., USN (ret.)
+    from: '1965-04-28'
+    to: '1966-06-30'
+    src:
+    - 'Wikipedia: Director of Central Intelligence'
+    - CDIR 1966-01
+  - name: Helms, Richard
+    from: '1966-06-30'
+    to: '1973-02-02'
+    src:
+    - 'Wikipedia: Director of Central Intelligence'
+  - name: Schlesinger, James R.
+    from: '1973-02-02'
+    to: '1973-07-02'
+    out: To Secretary of Defense.
+    src:
+    - 'Wikipedia: Director of Central Intelligence'
+  - name: Walters, Vernon A.
+    rank: Lt. Gen., USA
+    acting: true
+    from: '1973-07-02'
+    to: '1973-09-04'
+    n: Deputy Director.
+    src:
+    - 'Wikipedia: Director of Central Intelligence'
+    - FRUS persons list
+  - name: Colby, William E.
+    from: '1973-09-04'
+    src:
+    - 'Wikipedia: Director of Central Intelligence'
+    - FRUS persons list
+    - CDIR 1973-12
+- id: deputy-director-cia
+  title: Deputy Director of Central Intelligence
+  rank: employee
+  appt: XO
+  group: Members, by agency
+  from: '1958-09-15'
+  n: 'Member from 1958, for the Central Intelligence Agency; vice chairman from Nov. 1971. Holders: cia.deputy-director.'
+  holders: []
+- id: state
+  title: Intelligence chief of the Department of State
+  rank: employee
+  appt: XO
+  group: Members, by agency
+  n: The Special Assistant to the Secretary for Intelligence; from Oct. 1957 the Director of Intelligence and Research (state.director-intelligence-research).
+  holders: []
+- id: army
+  title: Assistant Chief of Staff, Intelligence, Department of the Army
+  rank: employee
+  appt: XO
+  group: Members, by agency
+  until: '1964-03-04'
+  n: Member to Mar. 4, 1964; then an observer.
+  holders: []
+- id: navy
+  title: Director of Naval Intelligence
+  rank: employee
+  appt: XO
+  group: Members, by agency
+  until: '1964-03-04'
+  n: Member to Mar. 4, 1964; then an observer.
+  holders: []
+- id: air-force
+  title: Assistant Chief of Staff, Intelligence, United States Air Force
+  rank: employee
+  appt: XO
+  group: Members, by agency
+  until: '1964-03-04'
+  n: Member to Mar. 4, 1964; then an observer.
+  holders: []
+- id: joint-staff
+  title: Intelligence chief of the Joint Staff
+  rank: employee
+  appt: XO
+  group: Members, by agency
+  until: '1964-03-04'
+  n: 'Member to the establishment of the Defense Intelligence Agency. Check: end.'
+  holders: []
+- id: dia
+  title: Director of the Defense Intelligence Agency
+  rank: employee
+  appt: XO
+  group: Members, by agency
+  from: '1961-10-01'
+  n: Member from the Agency's establishment, Oct. 1, 1961; from Mar. 1964 for all of Defense except the National Security
+    Agency.
+  holders: []
+- id: nsa
+  title: Director of the National Security Agency
+  rank: employee
+  appt: XO
+  group: Members, by agency
+  from: '1958-09-15'
+  n: Member from 1958.
+  holders: []
+- id: aec
+  title: Representative of the Atomic Energy Commission
+  rank: employee
+  appt: XO
+  group: Members, by agency
+  n: Its Director of Intelligence.
+  holders: []
+- id: fbi
+  title: Representative of the Director of the Federal Bureau of Investigation
+  rank: employee
+  appt: XO
+  group: Members, by agency
+  n: The Director, or an Assistant Director.
+  holders: []
+- id: treasury
+  title: Representative of the Secretary of the Treasury
+  rank: employee
+  appt: XO
+  group: Members, by agency
+  from: '1971-11-05'
+  n: Member from the reconstitution of Nov. 1971.
+  holders: []
+- id: special-group
+  title: Chairman of the 5412 Committee
+  titles:
+  - title: Chairman of the Special Group
+    from: '1957'
+  - title: Chairman of the 303 Committee
+    from: '1964-06-02'
+  - title: Chairman of the 40 Committee
+    from: '1970-02-17'
+  rank: employee
+  appt: XO
+  group: Committees on covert action and counterinsurgency
+  from: '1955-12-28'
+  law:
+  - act: NSC 5412/2
+    date: '1955-12-28'
+    until: '1970-02-17'
+    tags:
+    - creates
+    - powers
+    - appointment
+    url: https://history.state.gov/historicaldocuments/frus1950-55Intel/d250
+    does: Designated representatives of the Secretaries of State and Defense, of Assistant Secretary rank or above, and a
+      representative of the President, to be advised in advance of major covert programs of the Central Intelligence Agency
+      and to be the normal channel for their policy approval.
+  - act: National Security Action Memorandum 303
+    date: '1964-06-02'
+    tags:
+    - reorganizes
+    url: https://history.state.gov/historicaldocuments/frus1964-68v33/d204
+    does: The Special Group 5412 renamed the 303 Committee; composition and functions unchanged.
+  - act: National Security Decision Memorandum 40
+    date: '1970-02-17'
+    tags:
+    - reorganizes
+    - powers
+    - appointment
+    url: https://history.state.gov/historicaldocuments/frus1969-76v02/d203
+    does: 'Supersedes NSC 5412/2: the 40 Committee, the Assistant to the President chairman, with the Attorney General, the
+      Under Secretary of State for Political Affairs, the Deputy Secretary of Defense and the Director of Central Intelligence;
+      policy approval of major or sensitive covert programs; annual review.'
+  n: 'The representative of the President: the Special Assistant for National Security Affairs. Members: the Deputy Under
+    Secretary (from 1959 Under Secretary) of State for Political Affairs, the Deputy Secretary of Defense, the Director of
+    Central Intelligence; the Chairman of the Joint Chiefs of Staff attended from 1961; the Attorney General from 1970. Called
+    the 5412 Group or Special Group from 1957 (Check).'
+  holders:
+  - name: Anderson, Dillon
+    title: Representative of the President
+    from: '1955-12-28'
+    to: '1956-09-01'
+    n: 'Check: designation.'
+    src:
+    - https://history.state.gov/historicaldocuments/frus1950-55Intel/d250
+    - 'Wikipedia: Executive oversight of United States covert operations'
+  - name: Jackson, William H.
+    acting: true
+    from: '1956-09-01'
+    to: '1957-01-07'
+    n: 'Check: designation.'
+    src:
+    - FRUS persons list
+  - name: Cutler, Robert
+    title: Representative of the President
+    from: '1957-01-07'
+    to: '1958-06-24'
+    n: 'Check: designation.'
+    src:
+    - 'Wikipedia: Executive oversight of United States covert operations'
+  - name: Gray, Gordon
+    from: '1958-06-24'
+    to: '1961-01-20'
+    src:
+    - 'Wikipedia: Executive oversight of United States covert operations'
+  - name: Bundy, McGeorge
+    from: '1961-01-20'
+    to: '1966-02-28'
+    n: 'Check: start; Wikipedia gives chairman of the 303 Committee 1964–66.'
+    src:
+    - https://history.state.gov/historicaldocuments/frus1964-68v33/d204
+    - 'Wikipedia: McGeorge Bundy'
+  - name: Rostow, Walt W.
+    from: '1966-04-01'
+    to: '1969-01-20'
+    n: 'Check: designation.'
+    src:
+    - FRUS persons list
+  - name: Kissinger, Henry A.
+    from: '1969-01-20'
+    src:
+    - https://history.state.gov/historicaldocuments/frus1969-76v02/d203
+- id: special-group-secretary
+  title: Executive Secretary of the 5412 Committee
+  titles:
+  - title: Executive Secretary of the 303 Committee
+    from: '1964-06-02'
+  - title: Executive Secretary of the 40 Committee
+    from: '1970-02-17'
+  rank: employee
+  appt: HD
+  under: special-group
+  group: Committees on covert action and counterinsurgency
+  from: '1955-12-28'
+  n: An officer of the Central Intelligence Agency on the NSC staff.
+  holders:
+  - name: Parrott, Thomas A.
+    from: '1961'
+    to: 1964-01
+    n: 'Also Assistant to the Military Representative of the President, 1961–62. Check: dates.'
+    src:
+    - FRUS persons list
+  - name: Jessup, Peter
+    from: 1964-01
+    to: '1972'
+    src:
+    - FRUS persons list
+  - name: Ratliff, Rob Roy
+    from: 1972-04
+    src:
+    - FRUS persons list
+- id: special-group-augmented
+  title: Chairman of the Special Group (Augmented)
+  rank: employee
+  appt: DES
+  group: Committees on covert action and counterinsurgency
+  from: 1961-11
+  until: 1962-10
+  n: 'The Special Group with the Attorney General and the Military Representative of the President added, for Operation Mongoose
+    against Cuba; Brig. Gen. Edward G. Lansdale, chief of operations. Check: dates.'
+  holders:
+  - name: Taylor, Maxwell D.
+    rank: Gen., USA (ret.)
+    title: Military Representative of the President
+    from: 1961-11
+    to: 1962-10
+    n: 'Check: dates.'
+    src:
+    - FRUS persons list
+    - https://history.state.gov/historicaldocuments/frus1961-63v10/d384
+- id: special-group-ci
+  title: Chairman of the Special Group (Counter-Insurgency)
+  rank: employee
+  appt: XO
+  group: Committees on covert action and counterinsurgency
+  from: '1962-01-18'
+  until: '1966-03-02'
+  law:
+  - act: National Security Action Memorandum 124
+    date: '1962-01-18'
+    until: '1966-03-02'
+    tags:
+    - creates
+    - powers
+    - appointment
+    url: https://history.state.gov/historicaldocuments/frus1961-63v08/d68
+    does: 'Establishes the Special Group (Counter-Insurgency): the Military Representative of the President (chairman), the
+      Attorney General, the Deputy Under Secretary of State for Political Affairs, the Deputy Secretary of Defense, the Chairman
+      of the Joint Chiefs of Staff, the Director of Central Intelligence, the Special Assistant for National Security Affairs;
+      to see that subversive insurgency is recognized and met across the Government.'
+  - act: National Security Action Memorandum 341
+    date: '1966-03-02'
+    tags:
+    - reorganizes
+    url: https://history.state.gov/historicaldocuments/frus1964-68v33/d56
+    does: The Special Group (Counter-Insurgency) abolished; its functions to the Senior Interdepartmental Group under the
+      Under Secretary of State.
+  n: 'Executive secretaries: Thomas W. Davis, Jr.; Maj. James W. Dingeman, USA (FRUS). Check: their dates.'
+  holders:
+  - name: Taylor, Maxwell D.
+    rank: Gen., USA
+    title: Military Representative of the President
+    from: '1962-01-18'
+    to: '1962-10-01'
+    out: To Chairman of the Joint Chiefs of Staff.
+    n: 'Check: end of chairmanship.'
+    src:
+    - https://history.state.gov/historicaldocuments/frus1961-63v08/d68
+  - name: Harriman, W. Averell
+    title: Under Secretary of State for Political Affairs
+    from: '1963-04-04'
+    to: 1965-03
+    n: 'Check: dates.'
+    src:
+    - FRUS persons list
+- id: special-group-ci-secretary
+  title: Executive Secretary of the Special Group (Counter-Insurgency)
+  rank: employee
+  appt: HD
+  under: special-group-ci
+  group: Committees on covert action and counterinsurgency
+  from: '1962-01-18'
+  until: '1966-03-02'
+  holders:
+  - name: Davis, Thomas W., Jr.
+    from: '1962'
+    to: '1963'
+    n: 'Check: dates.'
+    src:
+    - FRUS persons list
+  - name: Dingeman, James W.
+    rank: Maj., USA
+    from: '1963'
+    to: '1966'
+    n: 'Check: dates.'
+    src:
+    - FRUS persons list

@@ -1,0 +1,122 @@
+# The Small Business Administration. Kept by hand.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: sba
+name: Small Business Administration
+under: president
+order: 500
+from: '1953-07-30'
+law:
+  - act: Small Business Act of 1953
+    date: '1953-07-30'
+    until: '1958-07-18'
+    tags: [creates, powers]
+    cite: 'Pub. L. 83-163, title II, § 204, 67 Stat. 230, 233'
+    usc: '15 U.S.C. § 633 (1958)'
+    does: Creates the Small Business Administration, under the general direction and supervision of the President and within no other agency; a revolving fund of $275 million for loans to small business and disaster loans; to terminate June 30, 1955 (extended).
+  - act: Small Business Act (Act of July 18, 1958)
+    date: '1958-07-18'
+    tags: [creates, powers]
+    cite: 'Pub. L. 85-536, § 4, 72 Stat. 384'
+    usc: '15 U.S.C. §§ 631–647 (1964)'
+    does: Restates the Act as a permanent law. The Administration under the general direction and supervision of the President; loans, procurement assistance, and management and technical assistance to small business.
+offices:
+  - id: administrator
+    title: Administrator of the Small Business Administration
+    rank: head
+    appt: PAS
+    level: III
+    law:
+      - act: Small Business Act of 1953
+        date: '1953-07-30'
+        until: '1958-07-18'
+        tags: [appointment, pay]
+        cite: 'Pub. L. 83-163, title II, § 204(c), 67 Stat. 230, 233'
+        usc: '15 U.S.C. § 633 (1958)'
+        does: The Administrator appointed from civilian life by the President with the advice and consent of the Senate, a person of outstanding qualifications familiar with small-business needs; $17,500; no other business.
+      - act: Small Business Act (Act of July 18, 1958)
+        date: '1958-07-18'
+        tags: [appointment]
+        cite: 'Pub. L. 85-536, § 4(b), 72 Stat. 384'
+        usc: '15 U.S.C. § 633(b) (1964)'
+        does: The same manner of appointment; the Administrator may appoint three Deputy Administrators.
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(c), 78 Stat. 400, 417'
+        usc: '5 U.S.C. § 5314 (1970)'
+        does: The Administrator in level III.
+    holders:
+      - name: Mitchell, William D.
+        from: '1953-08-01'
+        to: '1953-10-30'
+        src: [Wikipedia, Administrator of the Small Business Administration]
+      - name: Barnes, Wendell B.
+        acting: true
+        from: '1953-10'
+        to: '1954-02-09'
+        n: 'General Counsel and acting Administrator (CDIR 1954-01). Check the day he began to act.'
+        src: [CDIR 1954-01]
+      - name: Barnes, Wendell B.
+        nominated: '1954-02-02'
+        confirmed: '1954-02-08'
+        from: '1954-02-09'
+        to: '1959-11-21'
+        src: [Wikipedia, Administrator of the Small Business Administration, CDIR 1955-02 to 1959-03, Cong. Rec.]
+      - name: McCallum, Philip
+        nominated: '1960-01-11'
+        confirmed: '1960-01-26'
+        from: '1959-11-23'
+        to: '1961-01-20'
+        src: [Wikipedia, Administrator of the Small Business Administration, Cong. Rec.]
+      - name: Horne, John E.
+        nominated: '1961-01-30'
+        confirmed: '1961-02-02'
+        from: '1961-02-02'
+        to: '1963-08-07'
+        src: [Wikipedia, Administrator of the Small Business Administration, CDIR 1961-04 to 1963-03, Cong. Rec.]
+      - name: Foley, Eugene P.
+        nominated: '1963-07-24'
+        confirmed: '1963-07-31'
+        from: '1963-08-08'
+        to: '1965-09-10'
+        out: To Assistant Secretary of Commerce for Economic Development.
+        src: [Wikipedia, Administrator of the Small Business Administration, CDIR 1965-03, Cong. Rec., Cong. Rec. Index 1963]
+      - name: 'Davis, Ross D.'
+        title: 'Executive Administrator, heading the Administration'
+        acting: true
+        from: '1965-09-10'
+        to: '1966-05-19'
+        n: 'Signs regulations as Executive Administrator (Federal Register, Dec. 1, 1965); heads the Administration''s listing in CDIR, Jan. 1966. Check whether designated Acting Administrator, and both days.'
+        src: ['Federal Register, Dec. 1, 1965', 'CDIR 1966-01']
+      - name: Boutin, Bernard L.
+        given: Bernard Louis
+        nominated: '1966-05-09'
+        confirmed: '1966-05-16'
+        from: '1966-05-19'
+        to: '1967-07-31'
+        src: [Wikipedia, Bernard L. Boutin, Cong. Rec.]
+      - name: Moot, Robert C.
+        nominated: '1967-07-10'
+        confirmed: '1967-07-13'
+        from: '1967-08-01'
+        to: '1968-07-31'
+        src: [Wikipedia, Administrator of the Small Business Administration, CDIR 1967-12, Cong. Rec.]
+      - name: Samuels, Howard J.
+        confirmed: '1968-07-19'
+        from: '1968-08-01'
+        to: '1969-02-22'
+        src: [Wikipedia, Administrator of the Small Business Administration, Cong. Rec.]
+      - name: Sandoval, Hilary J., Jr.
+        nominated: '1969-02-20'
+        confirmed: '1969-03-04'
+        from: '1969-03-05'
+        to: '1971-01-01'
+        src: [Wikipedia, Administrator of the Small Business Administration, CDIR 1969-12, Cong. Rec.]
+      - name: Kleppe, Thomas S.
+        nominated: '1971-01-28'
+        confirmed: '1971-02-10'
+        from: '1971-01-18'
+        to: '1975-10-12'
+        out: To Secretary of the Interior.
+        src: [Wikipedia, Administrator of the Small Business Administration, CDIR 1971-12 to 1973-03, Cong. Rec.]

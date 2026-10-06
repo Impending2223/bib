@@ -1,0 +1,129 @@
+# The Veterans Administration. Kept by hand.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: va
+name: Veterans Administration
+under: president
+order: 500
+law:
+  - act: Act of July 3, 1930
+    date: '1930-07-03'
+    until: '1959-01-01'
+    tags: [creates, powers, appointment]
+    cite: 'ch. 863, 46 Stat. 1016'
+    usc: '38 U.S.C. §§ 11–11a (1952)'
+    does: Authorizes the President to consolidate the Bureau of Pensions, the National Home for Disabled Volunteer Soldiers and the Veterans' Bureau into a Veterans' Administration, headed by an Administrator of Veterans' Affairs appointed by the President with the advice and consent of the Senate; the Administrator may reorganize its bureaus and offices.
+  - act: Act of Sept. 2, 1958 (Title 38, United States Code, Veterans' Benefits)
+    date: '1958-09-02'
+    effective: '1959-01-01'
+    tags: [creates, powers]
+    cite: 'Pub. L. 85-857, § 1, 72 Stat. 1105, 1114'
+    usc: '38 U.S.C. §§ 201–202 (1964)'
+    does: Codifies the veterans' laws as Title 38. The Veterans' Administration an independent establishment in the executive branch, for the administration of the laws on relief and benefits for veterans and their dependents.
+offices:
+  - id: administrator
+    title: Administrator of Veterans' Affairs
+    rank: head
+    appt: PAS
+    level: II
+    law:
+      - act: Act of Sept. 2, 1958 (Title 38, United States Code, Veterans' Benefits)
+        date: '1958-09-02'
+        effective: '1959-01-01'
+        tags: [appointment, powers, pay]
+        cite: 'Pub. L. 85-857, § 1, 72 Stat. 1105, 1114'
+        usc: '38 U.S.C. § 210 (1964)'
+        does: The Administrator the head of the Veterans' Administration, appointed by the President with the advice and consent of the Senate; $21,000. Under the President's direction, responsible for all laws the Administration administers; may consolidate, abolish or create its offices; makes its rules and regulations.
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(b), 78 Stat. 400, 416'
+        usc: '5 U.S.C. § 5313 (1970)'
+        does: The Administrator in level II.
+    holders:
+      - name: Gray, Carl R., Jr.
+        given: Carl Raymond
+        from: '1948-01-01'
+        to: '1953-06-30'
+        out: Resigned.
+        src: [Wikipedia, Administrator of Veterans Affairs]
+      - name: Higley, Harvey V.
+        given: Harvey Vernon
+        from: '1953-07-22'
+        to: '1957-11-13'
+        src: [Wikipedia, Harvey V. Higley, CDIR 1955-02 to 1958-01]
+      - name: Whittier, Sumner G.
+        given: Sumner Gage
+        from: '1957-12-18'
+        to: '1961-01-20'
+        src: [Wikipedia, Sumner G. Whittier, CDIR 1960-01]
+      - name: Gleason, John S., Jr.
+        given: John Stephen
+        nominated: '1961-01-21'
+        confirmed: '1961-01-30'
+        from: '1961-01-30'
+        to: '1965-01-01'
+        src: [Wikipedia, John S. Gleason Jr., CDIR 1961-04 to 1964-01, Cong. Rec., Cong. Rec. Index 1961]
+      - name: Driver, William J.
+        given: William Joseph
+        nominated: '1965-01-06'
+        confirmed: '1965-02-02'
+        from: '1965-01-01'
+        to: '1969-05-31'
+        n: Deputy Administrator before.
+        src: [Wikipedia, Administrator of Veterans Affairs, CDIR 1967-12, 1969-03, Cong. Rec.]
+      - name: Johnson, Donald E.
+        given: Donald Edward
+        nominated: '1969-06-09'
+        confirmed: '1969-06-19'
+        from: '1969-06-23'
+        to: '1974-10-12'
+        out: Succeeded by Roudebush, Oct. 12, 1974.
+        src: [Wikipedia, Donald E. Johnson, CDIR 1969-12 to 1973-12, Cong. Rec.]
+  - id: deputy-administrator
+    title: Deputy Administrator of Veterans' Affairs
+    rank: principal
+    appt: HD
+    level: III
+    law:
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(c), 78 Stat. 400, 417'
+        usc: '5 U.S.C. § 5314 (1970)'
+        does: The Deputy Administrator in level III.
+    n: 'Check: the authority for the office, the manner of appointment, and the holders before 1958.'
+    holders:
+      - name: Morse, Bradford
+        from: '1958'
+        to: '1960'
+        out: Elected to the House from Massachusetts.
+        n: 'Listed CDIR 1960-01. Check both dates.'
+        src: [CDIR 1960-01]
+      - name: Driver, William J.
+        given: William Joseph
+        from: '1961'
+        to: '1965-01-01'
+        out: To Administrator.
+        n: 'Listed CDIR 1963-03. Check the date he took office.'
+        src: [CDIR 1963-03]
+      - name: Brickfield, Cyril F.
+        from: '1965'
+        to: '1966'
+        n: 'General Counsel before. Listed CDIR 1966-01. Check both dates.'
+        src: [CDIR 1966-01]
+      - name: McAnsh, A. T.
+        from: '1967'
+        to: '1967'
+        n: 'Assistant Deputy Administrator 1962–64; Deputy in CDIR 1967-02; the office vacant in CDIR 1967-12. Check both dates.'
+        src: [CDIR 1962-01 to 1967-12]
+      - name: Stratton, A. W.
+        from: '1968'
+        to: '1969'
+        n: 'Chief Benefits Director before. Listed CDIR 1969-03. Check both dates.'
+        src: [CDIR 1967-12, 1969-03]
+      - name: Rhodes, Fred B.
+        from: '1969-12'
+        n: 'Listed CDIR 1969-12 to 1973-12. Check the date he took office.'
+        src: [CDIR 1969-12 to 1973-12]

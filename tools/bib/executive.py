@@ -111,7 +111,21 @@ LAW_KEYS = {"act", "date", "effective", "until", "tags", "cite", "usc", "does", 
 # What an authority does for its unit or office (the label shown before it).
 TAGS = {"creates": "Creates", "powers": "Powers", "appointment": "Appointment", "vacancy": "Vacancy",
         "pay": "Pay", "reorganizes": "Reorganizes"}
-DATE_RE = re.compile(r"^\d{4}(-\d{2}(-\d{2})?)?$")
+DATE_RE = re.compile(r"^\d{4}(-(0[1-9]|1[0-2])(-(0[1-9]|[12]\d|3[01]))?)?$")
+
+
+def bad_date(d):
+    """Not 'YYYY', 'YYYY-MM' or a real 'YYYY-MM-DD'."""
+    import datetime
+    d = str(d)
+    if not DATE_RE.match(d):
+        return True
+    if len(d) == 10:
+        try:
+            datetime.date.fromisoformat(d)
+        except ValueError:
+            return True
+    return False
 MONTHS = ["Jan.", "Feb.", "Mar.", "Apr.", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."]
 STAT_RE = re.compile(r"\b(\d+) Stat\. (\d+)")
 
@@ -122,11 +136,21 @@ def esc(t):
 
 # ---------------------------------------------------------------- data
 
+_LOADED = {}
+
+
 def load():
-    """{unit key: unit}, every file in executive/."""
-    out = {}
+    """{unit key: unit}, every file in executive/; parsed once a process while the files are unchanged."""
     if not os.path.isdir(DIR):
-        return out
+        return {}
+    stamp = tuple((f, os.path.getmtime(os.path.join(DIR, f))) for f in sorted(os.listdir(DIR)) if f.endswith(".yaml"))
+    if _LOADED.get("stamp") != stamp:
+        _LOADED.update(stamp=stamp, units=_load())
+    return _LOADED["units"]
+
+
+def _load():
+    out = {}
     for f in sorted(os.listdir(DIR)):
         if f.endswith(".yaml"):
             d = store.load_yaml(os.path.join(DIR, f)) or {}
@@ -190,8 +214,11 @@ def exists(x, a, b):
 
 
 def in_term(h, a, b):
-    """Did the holder serve during [a, b)? One who left on the term's first day belongs to the term before."""
-    return lo(h["from"]) < lo(b) and (not h.get("to") or lo(h["to"]) > lo(a))
+    """Did the holder serve during [a, b)? One who left on the term's first day belongs to the term before.
+    A leaving date known only to the month or year of Jan. 20, 1953 ('1953', '1953-01') counts as within the period."""
+    t = h.get("to")
+    end = hi(t) if t and lo(t) < lo(START) else lo(t)
+    return lo(h["from"]) < lo(b) and (not t or end > lo(a))
 
 
 def tree(units):
@@ -298,13 +325,13 @@ STAT_PIN_RE = re.compile(r"(?:(ch\. \d+|Pub\. L\. \d+-\d+)[^;]*?)?\b(\d+) Stat\.
 
 
 def stat_links(html, cite=False):
-    """Every 'NN Stat. PPP[, pin]' in a piece of HTML outside links, linked to govinfo; in a cite, the chapter or
-    public law before it picks the act."""
+    """Every 'NN Stat. PPP[, pin]' in a piece of HTML outside links, linked to govinfo; the chapter or public law
+    before it, where given, picks the act."""
     if "<a " in html:
         return html
 
     def one(m):
-        url = stat_url(m.group(2), m.group(3), m.group(4), m.group(1) if cite else None)
+        url = stat_url(m.group(2), m.group(3), m.group(4), m.group(1))
         lead = m.group(0)[:m.start(2) - m.start(0)]
         return f'{lead}<a href="{url}">{m.group(0)[len(lead):]}</a>'
     return STAT_PIN_RE.sub(one, html)
@@ -386,10 +413,9 @@ def span(x, y=None):
 def holder_html(h, a, b, ptr, href, o=None):
     """The name (with grade and title), then one line: the dates, how it ended, and the note."""
     who = f"<b>{esc(h['name'])}</b>"
-    if h.get("rank"):
-        who += f' <span class="exr">{esc(h["rank"])}</span>'
-    if h.get("title"):
-        who += f' <span class="exr">{esc(h["title"])}</span>'
+    extra = "; ".join(esc(x) for x in (h.get("rank"), h.get("title")) if x)
+    if extra:
+        who += f' <span class="exr">{extra}</span>'
     line = holder_line(h, a, b, o) + (" " + to_html(h["n"]) if h.get("n") else "")
     pts = ptr.lines(h["name"], href) if ptr else []
     return who, f'<span class="exd">{line}</span>', pts
@@ -524,12 +550,14 @@ def block(i, units, ptr, href, rid, here=False):
                 pts_all += [p for p in pts if p not in pts_all]
             rows_total += 1
             held += bool(hs)
-            rows.append(f'<tr id="{rid(i, u["unit"], o["id"])}" class="exo{" exhl" if laws else ""}"><td>'
-                        f'<span class="ext">{esc(title_at(o, a))}</span><span class="exm">{" · ".join(meta)}</span>{onote}</td>'
+            full = laws or onote
+            rows.append(f'<tr id="{rid(i, u["unit"], o["id"])}" class="exo{" exhl" if full else ""}"><td>'
+                        f'<span class="ext">{esc(title_at(o, a))}</span><span class="exm">{" · ".join(meta)}</span></td>'
                         f'<td>{"".join(cells)}</td><td>{"; ".join(pts_all)}</td></tr>')
-            if laws:
-                rows.append('<tr class="exlr"><td colspan="3"><ul class="exlaw">'
-                            + "".join(f"<li>{x}</li>" for x in laws) + "</ul></td></tr>")
+            if full:
+                rows.append('<tr class="exlr"><td colspan="3">' + onote
+                            + ('<ul class="exlaw">' + "".join(f"<li>{x}</li>" for x in laws) + "</ul>" if laws else "")
+                            + "</td></tr>")
         ulaw = [law_html(x) for x in u.get("law") or [] if in_force(x, a, b)]
         if not rows and not ulaw:
             continue
@@ -577,6 +605,7 @@ details.exu tr.exlr td{padding-top:0}
 .ex .exd{display:block;font-size:.74rem;color:var(--muted);line-height:1.35}
 .ex .exr{font-weight:400;font-size:.74rem;color:var(--muted)}
 .ex .cgn{font-size:.8rem;line-height:1.35}
+details.exu tr.exlr .cgn{margin:.1rem 0 .15rem}
 .ex ul.exlaw{list-style:none;margin:0;padding:.2rem 0 .1rem;font-size:.74rem;line-height:1.4;color:var(--muted)}
 .ex ul.exlaw.exul{margin:.1rem 0 .5rem}
 .ex ul.exlaw li{margin:.12rem 0}
@@ -767,20 +796,19 @@ def problems(series=None):
                     out.append((hw, "holder needs 'from' (the day of taking office)"))
                     continue
                 for d in ("nominated", "confirmed", "recess", "appointed", "from", "to"):
-                    if h.get(d) and not DATE_RE.match(str(h[d])):
+                    if h.get(d) and bad_date(h[d]):
                         out.append((hw, f"bad date {d}: {h[d]!r}"))
                 if h.get("to") and hi(h["to"]) < lo(h["from"]):
                     out.append((hw, "left before taking office"))
                 if h.get("nominated") and h.get("confirmed") and hi(h["confirmed"]) < lo(h["nominated"]):
                     out.append((hw, "confirmed before nominated"))
-                if h.get("to") and lo(h["to"]) < lo(START):
+                if h.get("to") and hi(h["to"]) < lo(START):
                     out.append((hw, "left before Jan. 20, 1953: not in the period"))
                 if lo(h["from"]) > hi(END):
                     out.append((hw, "took office after Aug. 31, 1974: not in the period"))
                 if not o.get("many") and not h.get("acting") and prev and prev.get("to") is None:
                     out.append((hw, f"follows {prev['name']}, who has no 'to'"))
-                elif not o.get("many") and not h.get("acting") and prev and hi(prev["to"]) > lo(h["from"]) and \
-                        lo(prev["to"]) > lo(h["from"]):
+                elif not o.get("many") and not h.get("acting") and prev and lo(prev["to"]) > hi(h["from"]):
                     out.append((hw, f"overlaps {prev['name']} (to {prev['to']}); acting, or 'many: true'?"))
                 if prev and lo(h["from"]) < lo(prev["from"]):
                     out.append((hw, "holders out of order (by 'from')"))

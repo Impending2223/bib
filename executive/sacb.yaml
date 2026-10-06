@@ -1,0 +1,193 @@
+# The Subversive Activities Control Board, 1950–73. Kept by hand.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: sacb
+name: Subversive Activities Control Board
+under: president
+order: 500
+until: '1973-06-30'
+law:
+  - act: Subversive Activities Control Act of 1950 (Internal Security Act of 1950, title I)
+    date: '1950-09-23'
+    tags: [creates, appointment, powers]
+    cite: 'ch. 1024, § 12, 64 Stat. 987, 997'
+    usc: '50 U.S.C. § 791 (1958)'
+    does: 'Creates the Board: five members appointed by the President, by and with the advice and consent of the Senate, for three years; not more than three of one party; the President designates the Chairman; removable upon notice and hearing for neglect of duty or malfeasance in office, but for no other cause. On application of the Attorney General, to determine whether an organization is a Communist-action or Communist-front organization, and order it to register.'
+  - act: Act of Jan. 2, 1968
+    date: '1968-01-02'
+    tags: [powers]
+    cite: 'Pub. L. 90-237, 81 Stat. 765'
+    usc: ['50 U.S.C. §§ 786, 792–793 (1970)']
+    does: The registration provisions replaced, after Albertson v. SACB (1965), by Board determinations and public registers of the organizations and their members.
+n: 'Members as the Congressional Directory lists them at each edition and their biographies. The Board went out of operation June 30, 1973, when the Congress gave it no appropriation for fiscal 1974.'
+offices:
+  - id: chairman
+    title: Chairman
+    rank: head
+    appt: DES
+    level: V
+    law:
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(e)(34), 78 Stat. 400, 420'
+        usc: '5 U.S.C. § 5316 (1970)'
+        does: Level V, $26,000.
+    holders:
+      - name: Brown, Peter Campbell
+        from: '1950'
+        to: '1953-03'
+        n: 'Check: the dates (chairman Mar. 1953; Herbert Jan. 1954).'
+        src: ['Wikipedia: Peter Campbell Brown', CDIR 1953-03]
+      - name: Herbert, Thomas J.
+        from: '1953-03'
+        to: '1956'
+        n: 'Former Governor of Ohio. Check: the dates (chairman Jan. 1954 to Jan. 1956).'
+        src: [CDIR 1954-01, CDIR 1956-01]
+      - name: Lee, Dorothy McCullough
+        appointed: '1957-01-02'
+        from: '1957-01-21'
+        to: '1962'
+        n: 'Former Mayor of Portland, Oregon. Check: the day she left (chairman Jan. 1962; Cherry Mar. 1963).'
+        src: ['Wikipedia: Dorothy McCullough Lee', CDIR 1957-03, CDIR 1962-01]
+      - name: Cherry, Francis Adams
+        from: '1962'
+        to: '1965'
+        out: Died.
+        n: 'Former Governor of Arkansas. Check: the dates (chairman Mar. 1963 to Mar. 1965).'
+        src: [CDIR 1963-03, CDIR 1965-03]
+      - name: Mahan, John W.
+        from: '1966'
+        to: '1973-06-30'
+        out: Board ceased operation.
+        n: 'Check: the day he was designated (chairman Feb. 1967).'
+        src: [CDIR 1967-02, CDIR 1973-03]
+  - id: member
+    title: Member
+    rank: principal
+    appt: PAS
+    many: true
+    law:
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(e)(92), 78 Stat. 400, 421'
+        usc: '5 U.S.C. § 5316 (1970)'
+        does: Members at Level V, $26,000.
+    n: Five members, the chairman among them.
+    holders:
+      - name: Brown, Peter Campbell
+        from: '1950'
+        to: '1953-03'
+        n: 'Appointed by Truman. Chairman. Check: the day he left.'
+        src: ['Wikipedia: Peter Campbell Brown', CDIR 1953-03]
+      - name: McHale, Kathryn
+        from: '1950'
+        to: '1956-05'
+        n: 'Formerly general director of the American Association of University Women. Appointed by Truman.'
+        src: ['Wikipedia: Kathryn McHale', CDIR 1956-01]
+      - name: Coddaire, David J.
+        from: '1950'
+        to: '1955'
+        n: 'Check: the dates (listed Mar. 1953 to Feb. 1955).'
+        src: [CDIR 1953-03, CDIR 1955-02]
+      - name: Miller, Watson B.
+        from: '1950'
+        to: '1955'
+        n: 'Commissioner of Immigration and Naturalization, 1947–50. Check: the dates (listed Mar. 1953 to Feb. 1955).'
+        src: [CDIR 1953-03, CDIR 1955-02]
+      - name: Herbert, Thomas J.
+        confirmed: '1953-04-28'
+        from: '1953-03'
+        to: '1956'
+        n: 'Chairman. Associate Justice of the Ohio Supreme Court from Jan. 1957. Check: the dates.'
+        src: ['Wikipedia: Thomas J. Herbert', CDIR 1954-01, CDIR 1956-01, Cong. Rec.]
+      - name: Cain, Harry P.
+        confirmed: '1953-04-28'
+        from: '1953-03'
+        to: '1956'
+        n: Former Senator from Washington. Appointed by Eisenhower.
+        src: ['Wikipedia: Harry P. Cain', CDIR 1954-01, CDIR 1956-01, Cong. Rec.]
+      - name: Cherry, Francis Adams
+        nominated: '1956-01-12'
+        from: '1955'
+        to: '1965'
+        out: Died.
+        n: 'Chairman from 1962. Check: the dates (listed Jan. 1956 to Mar. 1965).'
+        src: [CDIR 1956-01, CDIR 1965-03, Cong. Rec.]
+      - name: Duncan, James R.
+        nominated: '1956-04-09'
+        from: '1956'
+        to: '1963'
+        n: 'Check: the dates (listed Mar. 1957 to Mar. 1963).'
+        src: [CDIR 1957-03, CDIR 1963-03, Cong. Rec.]
+      - name: Jones, R. Lockwood
+        from: '1956'
+        to: '1960'
+        n: 'Check: the dates (listed Mar. 1957 to Jan. 1960).'
+        src: [CDIR 1957-03, CDIR 1960-01]
+      - name: Lee, Dorothy McCullough
+        nominated: '1957-01-14'
+        from: '1956-09-04'
+        to: '1962'
+        n: 'Chairman from Jan. 21, 1957. Check: the day she left.'
+        src: ['Wikipedia: Dorothy McCullough Lee', CDIR 1962-01, Cong. Rec.]
+      - name: Donegan, Thomas J.
+        nominated: '1957-02-04'
+        confirmed: '1957-04-08'
+        from: '1957'
+        to: '1967'
+        n: 'Check: the dates (listed Mar. 1959 to Feb. 1967).'
+        src: [CDIR 1959-03, CDIR 1967-02, Cong. Rec.]
+      - name: Sweeney, Edward Cleaveland
+        nominated: '1960-05-16'
+        from: '1960'
+        to: '1967'
+        n: 'Check: the dates (listed Apr. 1961 to Feb. 1967).'
+        src: [CDIR 1961-04, CDIR 1967-02, Cong. Rec.]
+      - name: Kowalski, Frank
+        nominated: '1963-01-17'
+        from: '1963'
+        to: '1966'
+        n: Former Representative from Connecticut.
+        src: ['Wikipedia: Frank Kowalski', CDIR 1964-01, CDIR 1966-01, Cong. Rec.]
+      - name: Sells, Leonard L.
+        nominated: '1964-04-28'
+        confirmed: '1964-07-01'
+        from: '1964'
+        to: '1972'
+        n: 'Check: the dates (listed Mar. 1965 to Dec. 1969, not Mar. 1971).'
+        src: [CDIR 1965-03, CDIR 1969-12, Cong. Rec.]
+      - name: Mahan, John W.
+        nominated: '1965-09-16'
+        from: '1965'
+        to: '1973-06-30'
+        n: 'Chairman. Check: the day he took office (listed Jan. 1966).'
+        src: [CDIR 1966-01, CDIR 1973-03, Cong. Rec.]
+      - name: Patterson, John S.
+        confirmed: '1966-09-07'
+        from: '1966'
+        to: '1973-06-30'
+        n: 'Member of the Federal Maritime Commission, 1961–66. Check: the day he took office (listed Feb. 1967).'
+        src: [CDIR 1967-02, CDIR 1973-03, Cong. Rec.]
+      - name: McHugh, Simon F., Jr.
+        nominated: '1967-06-27'
+        confirmed: '1967-07-17'
+        from: '1967'
+        to: '1973-06-30'
+        n: 'Check: the day he took office (listed Dec. 1967).'
+        src: [CDIR 1967-12, CDIR 1973-03, Cong. Rec.]
+      - name: Otepka, Otto F.
+        from: '1969-03'
+        to: '1972'
+        out: Retired.
+        n: Formerly chief of the Evaluations Division, Office of Security, Department of State.
+        src: ['Wikipedia: Otto Otepka', CDIR 1969-12, CDIR 1971-12]
+      - name: O'Neill, Paul J.
+        nominated: '1969-09-25'
+        confirmed: '1969-11-05'
+        from: '1970'
+        to: '1973-06-30'
+        n: 'Check: the day he took office (listed Mar. 1971).'
+        src: [CDIR 1971-03, CDIR 1973-03, Cong. Rec.]

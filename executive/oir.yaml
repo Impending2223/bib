@@ -1,0 +1,46 @@
+# The Office of Intergovernmental Relations, 1969-. Kept by hand. Holders known only from the Congressional Directory (CDIR <edition>) carry year
+# dates and a Check. See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: oir
+name: Office of Intergovernmental Relations
+under: eop
+order: 180
+from: '1969-02-14'
+law:
+  - act: Executive Order 11455
+    date: '1969-02-14'
+    url: https://www.presidency.ucsb.edu/documents/executive-order-11455-establishing-office-intergovernmental-relations
+    tags: [creates, powers]
+    does: 'Establishes in the Executive Office an Office of Intergovernmental Relations under the supervision of the Vice President, with a Director, to facilitate coordination between the Federal Government and State and local governments.'
+  - act: Executive Order 11690
+    date: '1972-12-14'
+    url: https://www.presidency.ucsb.edu/documents/executive-order-11690-delegation-certain-functions-the-executive-director-the-domestic
+    tags: [reorganizes]
+    does: The Office's functions to the Executive Director of the Domestic Council. Check.
+offices:
+  - id: director
+    title: Director of the Office of Intergovernmental Relations
+    rank: head
+    appt: PA
+    holders:
+      - name: Boe, Nils A.
+        from: '1969'
+        to: '1971-08'
+        out: To Judge of the U.S. Customs Court, Aug. 10, 1971.
+        n: Governor of South Dakota, 1965–69. Listed in the Congressional Directory, Dec. 1969–Mar. 1971. Check the dates of office.
+        src: [CDIR 1969-12, CDIR 1971-03, 'Wikipedia: Nils Boe']
+  - id: deputy-director
+    title: Deputy Director of the Office of Intergovernmental Relations
+    rank: principal
+    appt: HD
+    holders:
+      - name: Hulcher, Wendell E.
+        from: '1969'
+        to: '1971'
+        n: Listed in the Congressional Directory, Dec. 1969–Mar. 1971. Check the dates of office.
+        src: [CDIR 1969-12, CDIR 1971-03]
+      - name: Ward, C. D.
+        acting: true
+        from: '1971'
+        to: '1971'
+        n: Listed in the Congressional Directory, Dec. 1971. Check the dates of office.
+        src: [CDIR 1971-12]

@@ -1,0 +1,666 @@
+# The Department of the Air Force: the civilian secretariat. Kept by hand.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: air-force
+name: Department of the Air Force
+under: defense
+order: 40
+law:
+- act: National Security Act of 1947
+  date: '1947-07-26'
+  tags:
+  - creates
+  - appointment
+  cite: ch. 343, § 207, 61 Stat. 495, 502
+  does: Establishes the Department of the Air Force, an executive department within the National Military Establishment,
+    headed by a Secretary of the Air Force appointed from civilian life by the President with the advice and consent
+    of the Senate; an Under Secretary and two Assistant Secretaries.
+- act: Act of Aug. 10, 1956 (Title 10 enacted)
+  date: '1956-08-10'
+  tags:
+  - creates
+  - powers
+  cite: ch. 1041, 70A Stat. 1, 488
+  usc: 10 U.S.C. §§ 8011–8013 (1958)
+  does: The Department of the Air Force and its offices restated in subtitle D of title 10.
+n: The civilian secretariat. The service's military staff is a separate unit.
+offices:
+- id: secretary
+  title: Secretary of the Air Force
+  rank: principal
+  appt: PAS
+  level: II
+  law:
+  - act: Act of Aug. 10, 1956 (Title 10 enacted)
+    date: '1956-08-10'
+    tags:
+    - appointment
+    - powers
+    cite: ch. 1041, 70A Stat. 1, 488
+    usc: 10 U.S.C. § 8012 (1958)
+    does: The Secretary of the Air Force, appointed from civilian life by the President with the advice and consent
+      of the Senate, is the head of the Department.
+  - act: Federal Executive Salary Act of 1964
+    date: '1964-08-14'
+    effective: '1964-07'
+    until: '1966-09-06'
+    tags:
+    - pay
+    cite: Pub. L. 88-426, title III, § 303(b), 78 Stat. 400, 416
+    does: 'Executive Schedule level II: Secretary of the Air Force.'
+  - act: Act of Sept. 6, 1966 (Title 5 enacted)
+    date: '1966-09-06'
+    tags:
+    - pay
+    cite: Pub. L. 89-554, 80 Stat. 378, 460
+    usc: 5 U.S.C. § 5313 (1970)
+    does: Level II continued.
+  holders:
+  - name: Finletter, Thomas K.
+    from: '1950-04-24'
+    to: '1953-01-20'
+    src:
+    - 'Wikipedia: Thomas K. Finletter'
+  - name: Talbott, Harold E.
+    nominated: '1953-01-29'
+    confirmed: '1953-02-04'
+    from: '1953-02-04'
+    to: '1955-08-13'
+    out: Resigned.
+    src:
+    - CDIR 1954-01
+    - 'Wikipedia: Harold E. Talbott'
+    - Cong. Rec.
+  - name: Quarles, Donald A.
+    nominated: '1956-01-12'
+    confirmed: '1956-02-16'
+    recess: '1955-08-11'
+    from: '1955-08-15'
+    to: '1957-04-30'
+    out: To Deputy Secretary of Defense.
+    src:
+    - 'Wikipedia: Donald A. Quarles'
+    - Cong. Rec.
+  - name: Douglas, James H., Jr.
+    nominated: '1957-03-26'
+    confirmed: '1957-04-09'
+    from: '1957-05-01'
+    to: '1959-12-10'
+    out: To Deputy Secretary of Defense.
+    src:
+    - 'Wikipedia: James H. Douglas Jr.'
+    - Cong. Rec.
+  - name: Sharp, Dudley C.
+    nominated: '1960-01-11'
+    confirmed: '1960-01-26'
+    from: '1959-12-11'
+    to: '1961-01-20'
+    src:
+    - 'Wikipedia: Dudley C. Sharp'
+    - Cong. Rec.
+  - name: Zuckert, Eugene M.
+    nominated: '1961-01-21'
+    confirmed: '1961-01-23'
+    appointed: '1961-01-23'
+    from: '1961-01-24'
+    to: '1965-09-30'
+    n: Sworn Jan. 24, 1961, per the Congressional Directory.
+    src:
+    - CDIR 1961-04
+    - 'Wikipedia: Eugene M. Zuckert'
+    - Cong. Rec. Index 1961
+    - Cong. Rec.
+  - name: Brown, Harold
+    nominated: '1965-07-12'
+    confirmed: '1965-08-06'
+    from: '1965-10-01'
+    to: '1969-02-15'
+    n: Sworn Oct. 1, 1965, per the Congressional Directory.
+    src:
+    - CDIR 1966-01
+    - 'Wikipedia: Harold Brown (Secretary of Defense)'
+    - Cong. Rec.
+  - name: Seamans, Robert C., Jr.
+    confirmed: '1969-01-29'
+    from: '1969-02-15'
+    to: '1973-05-15'
+    out: Resigned.
+    src:
+    - CDIR 1969-03
+    - 'Wikipedia: Robert Seamans'
+    - Cong. Rec.
+  - name: McLucas, John L.
+    acting: true
+    from: '1973-05-15'
+    to: '1973-07-18'
+    n: Under Secretary.
+    src:
+    - 'Wikipedia: John L. McLucas'
+  - name: McLucas, John L.
+    nominated: '1973-07-10'
+    from: '1973-07-19'
+    n: 'Check: Wikipedia''s list gives July 18.'
+    src:
+    - CDIR 1973-12
+    - 'Wikipedia: John L. McLucas'
+    - Cong. Rec.
+- id: under-secretary
+  title: Under Secretary of the Air Force
+  rank: principal
+  appt: PAS
+  level: IV
+  law:
+  - act: Act of Aug. 10, 1956 (Title 10 enacted)
+    date: '1956-08-10'
+    tags:
+    - creates
+    - appointment
+    cite: ch. 1041, 70A Stat. 1, 489
+    usc: 10 U.S.C. § 8013 (1958)
+    does: An Under Secretary and Assistant Secretaries of the Air Force, appointed from civilian life by the President
+      with the advice and consent of the Senate.
+  - act: Federal Executive Salary Act of 1964
+    date: '1964-08-14'
+    effective: '1964-07'
+    until: '1966-09-06'
+    tags:
+    - pay
+    cite: Pub. L. 88-426, title III, § 303(d), 78 Stat. 400, 417
+    does: 'Executive Schedule level IV: Under Secretary of the Air Force.'
+  - act: Act of Sept. 6, 1966 (Title 5 enacted)
+    date: '1966-09-06'
+    tags:
+    - pay
+    cite: Pub. L. 89-554, 80 Stat. 378, 461
+    usc: 5 U.S.C. § 5315 (1970)
+    does: Level IV continued.
+  holders:
+  - name: Gilpatric, Roswell L.
+    from: '1951-10-19'
+    to: '1953-02-05'
+    src:
+    - 'Wikipedia: Roswell Gilpatric'
+  - name: Douglas, James H., Jr.
+    from: '1953-03-03'
+    to: '1957-04-30'
+    out: To Secretary of the Air Force.
+    src:
+    - CDIR 1954-01
+    - 'Wikipedia: United States Under Secretary of the Air Force'
+  - name: MacIntyre, Malcolm A.
+    from: '1957-06-05'
+    to: '1959-07-31'
+    src:
+    - CDIR 1959-03
+    - 'Wikipedia: United States Under Secretary of the Air Force'
+  - name: Sharp, Dudley C.
+    nominated: '1959-07-08'
+    confirmed: '1959-07-24'
+    from: '1959-08-03'
+    to: '1959-12-10'
+    out: To Secretary of the Air Force.
+    src:
+    - 'Wikipedia: Dudley C. Sharp'
+    - Cong. Rec.
+  - name: Charyk, Joseph V.
+    nominated: '1960-01-18'
+    confirmed: '1960-01-26'
+    from: '1960-01-28'
+    to: '1963-03-01'
+    src:
+    - CDIR 1961-04
+    - 'Wikipedia: Joseph V. Charyk'
+    - Cong. Rec. Index 1960
+    - Cong. Rec.
+  - name: McMillan, Brockway
+    nominated: '1963-04-23'
+    from: '1963-06-12'
+    to: '1965-09-30'
+    src:
+    - CDIR 1964-01
+    - 'Wikipedia: United States Under Secretary of the Air Force'
+    - Cong. Rec. Index 1963
+  - name: Paul, Norman S.
+    nominated: '1965-07-12'
+    confirmed: '1965-08-06'
+    from: '1965-10-01'
+    to: '1967-09-30'
+    src:
+    - CDIR 1966-01
+    - 'Wikipedia: Norman S. Paul'
+    - Cong. Rec.
+  - name: Hoopes, Townsend W.
+    nominated: '1967-08-04'
+    from: '1967-10-02'
+    to: '1969-02-03'
+    src:
+    - CDIR 1967-12
+    - 'Wikipedia: United States Under Secretary of the Air Force'
+    - Cong. Rec.
+  - name: McLucas, John L.
+    confirmed: '1969-03-04'
+    from: '1969-03-17'
+    to: '1973-07-18'
+    out: To Secretary of the Air Force.
+    n: Acting Secretary from May 15, 1973.
+    src:
+    - CDIR 1969-12
+    - 'Wikipedia: United States Under Secretary of the Air Force'
+    - Cong. Rec.
+  - name: Plummer, James W.
+    nominated: '1973-11-28'
+    confirmed: '1973-12-14'
+    from: '1973-12-20'
+    src:
+    - 'Wikipedia: United States Under Secretary of the Air Force'
+    - Cong. Rec.
+- id: asaf-financial-management
+  title: Assistant Secretary of the Air Force (Management)
+  titles:
+  - title: Assistant Secretary of the Air Force (Financial Management)
+    from: '1954'
+  rank: principal
+  appt: PAS
+  group: Assistant Secretaries
+  level: IV
+  law:
+  - act: Department of Defense Reorganization Act of 1958
+    date: '1958-08-06'
+    tags:
+    - reorganizes
+    cite: Pub. L. 85-599, § 8(c), 72 Stat. 514, 520
+    usc: 10 U.S.C. § 8013 (1958)
+    does: An Under Secretary and three Assistant Secretaries of the Air Force.
+  - act: Reserve Forces Bill of Rights and Vitalization Act
+    date: '1967-12-01'
+    effective: '1968-01-01'
+    tags:
+    - reorganizes
+    cite: Pub. L. 90-168, § 2(15), 81 Stat. 521, 523
+    usc: 10 U.S.C. § 8013 (1970)
+    does: Four Assistant Secretaries of the Air Force.
+  - act: Federal Executive Salary Act of 1964
+    date: '1964-08-14'
+    effective: '1964-07'
+    until: '1966-09-06'
+    tags:
+    - pay
+    cite: Pub. L. 88-426, title III, § 303(d), 78 Stat. 400, 418
+    does: 'Executive Schedule level IV: Assistant Secretaries of the Air Force (3).'
+  - act: Act of Sept. 6, 1966 (Title 5 enacted)
+    date: '1966-09-06'
+    tags:
+    - pay
+    cite: Pub. L. 89-554, 80 Stat. 378, 462
+    usc: 5 U.S.C. § 5315 (1970)
+    does: Level IV continued.
+  holders:
+  - name: Hill, James T., Jr.
+    from: '1952-07-05'
+    to: '1953-01-20'
+    src:
+    - 'Wikipedia: Assistant Secretary of the Air Force (Financial Management & Comptroller)'
+  - name: White, H. Lee
+    nominated: '1953-02-06'
+    confirmed: '1953-02-13'
+    from: '1953-02-16'
+    to: '1954-07-02'
+    src:
+    - CDIR 1953-03
+    - 'Wikipedia: Assistant Secretary of the Air Force (Financial Management & Comptroller)'
+    - Cong. Rec.
+  - name: Garlock, Lyle S.
+    nominated: '1954-07-28'
+    from: '1954-08-23'
+    to: '1961-10-15'
+    src:
+    - CDIR 1955-02
+    - 'Wikipedia: Assistant Secretary of the Air Force (Financial Management & Comptroller)'
+    - Cong. Rec.
+  - name: Harlan, Neil E.
+    nominated: '1962-01-15'
+    confirmed: '1962-01-29'
+    from: '1962-01-03'
+    to: '1964-04-15'
+    src:
+    - CDIR 1963-03
+    - 'Wikipedia: Assistant Secretary of the Air Force (Financial Management & Comptroller)'
+    - Cong. Rec.
+    - Cong. Rec. Index 1962
+  - name: Marks, Leonard, Jr.
+    from: '1964-06-26'
+    to: '1967-12-31'
+    src:
+    - CDIR 1965-03
+    - 'Wikipedia: Assistant Secretary of the Air Force (Financial Management & Comptroller)'
+  - name: Nielsen, Thomas H.
+    nominated: '1967-09-11'
+    from: '1968-01-01'
+    to: '1969-06-23'
+    src:
+    - CDIR 1969-03
+    - 'Wikipedia: Assistant Secretary of the Air Force (Financial Management & Comptroller)'
+    - Cong. Rec.
+  - name: Schedler, Spencer J.
+    nominated: '1969-05-19'
+    confirmed: '1969-06-20'
+    from: '1969-06-24'
+    to: '1973-04-01'
+    src:
+    - CDIR 1969-12
+    - 'Wikipedia: Assistant Secretary of the Air Force (Financial Management & Comptroller)'
+    - Cong. Rec.
+  - name: Woodruff, William W.
+    confirmed: '1973-03-22'
+    from: '1973-04-02'
+    src:
+    - CDIR 1973-12
+    - 'Wikipedia: Assistant Secretary of the Air Force (Financial Management & Comptroller)'
+    - Cong. Rec.
+- id: asaf-materiel
+  title: Assistant Secretary of the Air Force (Materiel)
+  titles:
+  - title: Assistant Secretary of the Air Force (Installations and Logistics)
+    from: '1964-02'
+  rank: principal
+  appt: PAS
+  group: Assistant Secretaries
+  level: IV
+  n: 'Check: holder on Jan. 20, 1953.'
+  holders:
+  - name: Huggins, Edwin V.
+    nominated: '1952-01-10'
+    confirmed: '1952-01-29'
+    from: '1952-01'
+    to: '1953'
+    n: 'Assistant Secretary (Materiel) in CDIR, Jan. 1952; the office vacant in CDIR, Mar. 1953. Check both dates.'
+    src:
+    - Cong. Rec. Index 1952
+    - CDIR 1952-01
+    - CDIR 1953-03
+  - name: Lewis, Roger
+    confirmed: '1953-04-02'
+    from: '1953'
+    to: '1955'
+    n: 'Check: dates.'
+    src:
+    - CDIR 1954-01
+    - 'Wikipedia: Roger Lewis (businessman)'
+    - Cong. Rec.
+  - name: Sharp, Dudley C.
+    nominated: '1955-07-20'
+    confirmed: '1955-08-01'
+    from: '1955'
+    to: '1959-08-03'
+    out: To Under Secretary.
+    n: 'Check: date of appointment.'
+    src:
+    - CDIR 1956-01
+    - CDIR 1959-03
+    - 'Wikipedia: Dudley C. Sharp'
+    - Cong. Rec.
+  - name: Imirie, Joseph S.
+    nominated: '1961-03-24'
+    confirmed: '1961-04-12'
+    from: '1961'
+    to: '1963'
+    n: 'Check: dates.'
+    src:
+    - CDIR 1962-01
+    - CDIR 1963-03
+    - Cong. Rec. Index 1961
+  - name: Charles, Robert H.
+    nominated: '1963-11-08'
+    confirmed: '1963-11-22'
+    from: '1963'
+    to: '1969'
+    n: 'Check: dates.'
+    src:
+    - CDIR 1964-01
+    - CDIR 1969-03
+    - Cong. Rec. Index 1963
+  - name: Whittaker, Philip N.
+    nominated: '1969-04-10'
+    from: '1969'
+    to: '1973'
+    n: 'Check: dates.'
+    src:
+    - CDIR 1969-12
+    - CDIR 1971-12
+    - Cong. Rec.
+  - name: Turner, Lewis E.
+    acting: true
+    from: '1973'
+    to: '1973'
+    n: 'Check: title and dates.'
+    src:
+    - CDIR 1973-03
+  - name: Shrontz, Frank A.
+    from: '1973'
+    n: 'Check: date of appointment.'
+    src:
+    - CDIR 1973-12
+- id: asaf-research-development
+  title: Assistant Secretary of the Air Force (Research and Development)
+  rank: principal
+  appt: PAS
+  group: Assistant Secretaries
+  level: IV
+  from: '1955-03'
+  holders:
+  - name: Gardner, Trevor
+    nominated: '1954-08-16'
+    confirmed: '1955-02-28'
+    from: '1955-03'
+    to: '1956-02'
+    n: 'Special Assistant to the Secretary for Research and Development from Feb. 1953. Check: dates.'
+    src:
+    - CDIR 1956-01
+    - 'Wikipedia: Trevor Gardner'
+    - Cong. Rec.
+    - Cong. Rec. Index 1955
+  - name: Horner, Richard E.
+    nominated: '1957-06-10'
+    confirmed: '1957-07-01'
+    from: '1957'
+    to: '1959'
+    n: 'Check: dates.'
+    src:
+    - CDIR 1957-03
+    - CDIR 1959-03
+    - Cong. Rec. Index 1957
+    - Cong. Rec.
+  - name: Charyk, Joseph V.
+    nominated: '1959-05-15'
+    confirmed: '1959-06-04'
+    from: '1959'
+    to: '1960-01-28'
+    out: To Under Secretary.
+    n: 'Check: date of appointment.'
+    src:
+    - CDIR 1960-01
+    - 'Wikipedia: Joseph V. Charyk'
+    - Cong. Rec. Index 1959
+    - Cong. Rec.
+  - name: McMillan, Brockway
+    nominated: '1961-05-16'
+    from: '1961'
+    to: '1963-06-12'
+    out: To Under Secretary.
+    n: 'Check: date of appointment.'
+    src:
+    - CDIR 1962-01
+    - 'Wikipedia: Brockway McMillan'
+    - Cong. Rec.
+  - name: Flax, Alexander H.
+    nominated: '1963-06-17'
+    confirmed: '1963-06-28'
+    from: '1963'
+    to: '1969'
+    n: 'Nominated June 19, confirmed June 28, 1963 (Cong. Rec. Index); McMillan left June 12. Check the day he took office, and the day he left.'
+    src:
+    - CDIR 1964-01
+    - 'Wikipedia: Alexander H. Flax'
+    - Cong. Rec.
+  - name: Hansen, Grant L.
+    nominated: '1969-02-19'
+    confirmed: '1969-03-04'
+    from: '1969'
+    to: '1973'
+    n: 'Check: dates.'
+    src:
+    - CDIR 1969-12
+    - CDIR 1973-03
+    - Cong. Rec.
+  - name: LaBerge, Walter B.
+    from: '1973'
+    n: 'Check: date of appointment.'
+    src:
+    - CDIR 1973-12
+    - 'Wikipedia: Walter B. LaBerge'
+- id: asaf-manpower
+  title: Assistant Secretary of the Air Force (Manpower and Personnel)
+  titles:
+  - title: Assistant Secretary of the Air Force (Manpower, Personnel and Reserve Forces)
+    from: '1955'
+  rank: principal
+  appt: PAS
+  group: Assistant Secretaries
+  from: '1954'
+  until: '1959'
+  n: Followed by a Special Assistant (Manpower, Personnel and Reserve Forces), 1959–68.
+  holders:
+  - name: Smith, David S.
+    nominated: '1954-11-08'
+    confirmed: '1954-12-02'
+    from: '1954'
+    to: '1959'
+    n: 'Check: dates.'
+    src:
+    - CDIR 1955-02
+    - CDIR 1959-03
+    - Cong. Rec. Index 1954
+- id: asaf-manpower-reserve
+  title: Assistant Secretary of the Air Force (Manpower and Reserve Affairs)
+  rank: principal
+  appt: PAS
+  group: Assistant Secretaries
+  level: IV
+  from: '1968-01-01'
+  law:
+  - act: Reserve Forces Bill of Rights and Vitalization Act
+    date: '1967-12-01'
+    effective: '1968-01-01'
+    tags:
+    - creates
+    - powers
+    cite: Pub. L. 90-168, § 2(15), 81 Stat. 521, 523
+    does: One of the Assistant Secretaries of the Air Force to be the Assistant Secretary for Manpower and Reserve
+      Affairs, with the overall supervision of manpower and reserve component affairs of the department.
+  holders:
+  - name: Doolittle, J. William
+    nominated: '1968-03-26'
+    confirmed: '1968-04-08'
+    from: '1968'
+    to: '1969'
+    n: 'From General Counsel. Check: dates.'
+    src:
+    - CDIR 1969-03
+    - Cong. Rec.
+  - name: Tarr, Curtis W.
+    nominated: '1969-02-19'
+    confirmed: '1969-04-22'
+    from: '1969'
+    to: '1970'
+    out: To Director of Selective Service.
+    n: 'Check: dates.'
+    src:
+    - CDIR 1969-12
+    - 'Wikipedia: Curtis W. Tarr'
+    - Cong. Rec.
+  - name: Borda, Richard J.
+    nominated: '1970-09-09'
+    from: '1970'
+    to: '1973'
+    n: 'Check: dates.'
+    src:
+    - CDIR 1971-12
+    - CDIR 1973-03
+    - Cong. Rec.
+  - name: Goode, James P.
+    acting: true
+    from: '1973'
+    n: 'Check: dates.'
+    src:
+    - CDIR 1973-12
+- id: general-counsel
+  title: General Counsel of the Department of the Air Force
+  rank: inferior
+  appt: HD
+  group: Counsel
+  law:
+  - act: Federal Executive Salary Act of 1964
+    date: '1964-08-14'
+    effective: '1964-07'
+    until: '1966-09-06'
+    tags:
+    - pay
+    cite: Pub. L. 88-426, title III, § 303(e), 78 Stat. 400, 421
+    does: 'Executive Schedule level V: General Counsel of the Department of the Air Force.'
+  - act: Act of Sept. 6, 1966 (Title 5 enacted)
+    date: '1966-09-06'
+    tags:
+    - pay
+    cite: Pub. L. 89-554, 80 Stat. 378, 465
+    usc: 5 U.S.C. § 5316 (1970)
+    does: Level V continued.
+  holders:
+  - name: Johnson, John A.
+    given: John Alvin
+    from: '1952'
+    to: '1958-10-07'
+    out: To General Counsel of NASA.
+    src:
+    - CDIR 1953-03
+    - 'Wikipedia: John Alvin Johnson'
+  - name: Golden, Max
+    from: '1958-10-07'
+    to: '1963'
+    n: 'Check: dates; from given as Johnson''s leaving.'
+    src:
+    - CDIR 1959-03
+    - CDIR 1962-01
+    - 'Wikipedia: General Counsel of the Department of the Air Force'
+  - name: Wesselink, Gerritt W.
+    from: '1964'
+    to: '1965'
+    n: 'Check: dates.'
+    src:
+    - CDIR 1964-01
+    - CDIR 1965-03
+  - name: Shulman, Stephen N.
+    from: '1965'
+    to: '1966'
+    n: 'Check: dates.'
+    src:
+    - 'Wikipedia: Stephen N. Shulman'
+  - name: Doolittle, J. William
+    from: '1966'
+    to: '1968'
+    out: To Assistant Secretary (Manpower and Reserve Affairs).
+    n: 'Check: dates.'
+    src:
+    - CDIR 1967-02
+    - CDIR 1967-12
+  - name: Steadman, John M.
+    from: '1968'
+    to: '1970'
+    n: 'Check: dates.'
+    src:
+    - CDIR 1969-03
+    - 'Wikipedia: General Counsel of the Department of the Air Force'
+  - name: Stempler, Jack L.
+    from: '1970'
+    n: 'Check: date of appointment.'
+    src:
+    - CDIR 1971-12
+    - 'Wikipedia: General Counsel of the Department of the Air Force'

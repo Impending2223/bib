@@ -1,0 +1,68 @@
+# The Energy Policy Office (June 1973) and the Federal Energy Office (Dec. 1973). Kept by hand. Holders known only from the Congressional Directory (CDIR <edition>) carry year
+# dates and a Check. See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: feo
+name: Energy Policy Office
+names:
+  - {name: Federal Energy Office, from: '1973-12-04'}
+under: eop
+order: 200
+from: '1973-06-29'
+until: '1974-06-28'
+law:
+  - act: Executive Order 11726
+    date: '1973-06-29'
+    url: https://www.presidency.ucsb.edu/documents/executive-order-11726-energy-policy-office
+    tags: [creates, powers]
+    does: Establishes in the Executive Office an Energy Policy Office, under a Director, to formulate and coordinate energy policy for the President.
+  - act: Executive Order 11748
+    date: '1973-12-04'
+    url: https://www.presidency.ucsb.edu/documents/executive-order-11748-federal-energy-office
+    tags: [creates, reorganizes, powers]
+    does: 'Establishes in the Executive Office the Federal Energy Office, under an Administrator, with the functions of the Energy Policy Office and the allocation of fuels under the Emergency Petroleum Allocation Act of 1973.'
+  - act: Federal Energy Administration Act of 1974
+    date: '1974-05-07'
+    cite: 'Pub. L. 93-275, 88 Stat. 96'
+    usc: '15 U.S.C. § 761 (1970 Supp. IV)'
+    tags: [reorganizes]
+    does: 'Establishes the Federal Energy Administration, an independent agency, with the Federal Energy Office''s functions; activated June 28, 1974. Check.'
+offices:
+  - id: director
+    title: Director of the Energy Policy Office
+    rank: head
+    appt: PA
+    until: '1973-12-04'
+    holders:
+      - name: Love, John A.
+        from: '1973-07-16'
+        to: '1973-12-03'
+        out: Resigned.
+        n: 'Governor of Colorado, 1963–73. Also Assistant to the President for Energy. Check: FRUS gives June 1973.'
+        src: ['Wikipedia: John A. Love', FRUS persons list]
+  - id: administrator
+    title: Administrator of the Federal Energy Office
+    rank: head
+    appt: PA
+    from: '1973-12-04'
+    holders:
+      - name: Simon, William E.
+        from: '1973-12-04'
+        to: '1974-05-08'
+        out: To Secretary of the Treasury.
+        n: 'Also Deputy Secretary of the Treasury. Check: FRUS gives Apr. 1974 for leaving.'
+        src: ['Wikipedia: William E. Simon', FRUS persons list, CDIR 1973-12]
+      - name: Sawhill, John C.
+        from: '1974-05-09'
+        to: '1974-06-28'
+        out: To Administrator of the Federal Energy Administration.
+        src: ['Wikipedia: John C. Sawhill']
+  - id: deputy-administrator
+    title: Deputy Administrator of the Federal Energy Office
+    rank: principal
+    appt: PA
+    from: '1973-12-04'
+    holders:
+      - name: Sawhill, John C.
+        from: '1973-12'
+        to: '1974-05-09'
+        out: To Administrator.
+        src: [CDIR 1973-12, FRUS persons list]

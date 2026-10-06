@@ -1,0 +1,44 @@
+# The Indian Claims Commission, 1946–78. Kept by hand.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: indian-claims
+name: Indian Claims Commission
+under: president
+order: 500
+law:
+  - act: Indian Claims Commission Act
+    date: '1946-08-13'
+    tags: [creates, appointment, powers]
+    cite: 'ch. 959, §§ 1–3, 60 Stat. 1049, 1050'
+    usc: ['25 U.S.C. §§ 70–70b (1958)']
+    does: 'Creates the Commission, to hear and determine claims against the United States on behalf of any tribe, band, or other identifiable group of American Indians arising before Aug. 13, 1946: a Chief Commissioner and two Associate Commissioners appointed by the President, by and with the advice and consent of the Senate; at least two members of the bar of the Supreme Court; not more than two of one party. The Commission to end ten years after its first meeting (extended).'
+n: Chief commissioners as the Congressional Directory lists them at each edition; dates known only to the year carry a Check. The Commission was enlarged to five members in 1967, under a Chairman.
+offices:
+  - id: chief-commissioner
+    title: Chief Commissioner
+    titles:
+      - title: Chairman
+        from: '1967'
+    rank: head
+    appt: PAS
+    holders:
+      - name: Witt, Edgar E.
+        from: '1947'
+        to: '1960'
+        n: 'Former Lieutenant Governor of Texas. Check: the dates (Mar. 1953 to Jan. 1960).'
+        src: [CDIR 1953-03, CDIR 1960-01]
+      - name: Watkins, Arthur V.
+        nominated: '1960-05-16'
+        confirmed: '1960-05-16'
+        from: '1960'
+        to: '1967'
+        n: 'Former Senator from Utah. Check: the dates (Apr. 1961 to Feb. 1967).'
+        src: [CDIR 1961-04, CDIR 1967-02, Cong. Rec.]
+      - name: Vance, John T.
+        from: '1968'
+        to: '1969'
+        n: 'Check: the dates (chairman Mar. 1969).'
+        src: [CDIR 1969-03]
+      - name: Kuykendall, Jerome K.
+        from: '1969'
+        n: 'Chairman of the Federal Power Commission, 1953–61. Check: the day he was designated (chairman Dec. 1969 to Dec. 1973).'
+        src: [CDIR 1969-12, CDIR 1973-12]

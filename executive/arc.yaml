@@ -1,0 +1,78 @@
+# The Appalachian Regional Commission: its federal officers. Kept by hand.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: arc
+name: Appalachian Regional Commission
+under: president
+order: 500
+from: '1965-03-09'
+law:
+  - act: Appalachian Regional Development Act of 1965
+    date: '1965-03-09'
+    tags: [creates, appointment, powers]
+    cite: 'Pub. L. 89-4, §§ 101–105, 79 Stat. 5'
+    usc: ['40 U.S.C. App. §§ 101–105 (1970)']
+    does: 'Establishes the Appalachian Regional Commission: a Federal Cochairman, appointed by the President by and with the advice and consent of the Senate, and one member from each participating State; decisions require the affirmative vote of the Federal Cochairman and of a majority of the State members. To develop plans and programs for the region, with highways, health centers, and other public works financed by the Act.'
+n: The Federal Cochairman and his alternate as the Congressional Directory lists them at each edition; the State members, officers of the States, are not entered.
+offices:
+  - id: federal-cochairman
+    title: Federal Cochairman
+    rank: head
+    appt: PAS
+    law:
+      - act: Appalachian Regional Development Act of 1965
+        date: '1965-03-09'
+        tags: [appointment]
+        cite: 'Pub. L. 89-4, § 101(a), 79 Stat. 5'
+        usc: '40 U.S.C. App. § 101(a) (1970)'
+        does: The Federal Cochairman appointed by the President, by and with the advice and consent of the Senate; an alternate likewise appointed.
+    holders:
+      - name: Sweeney, John L.
+        from: '1965'
+        to: '1966'
+        n: 'Check: the dates (Jan. 1966).'
+        src: [CDIR 1966-01]
+      - name: Fleming, Joe W., II
+        confirmed: '1967-02-09'
+        from: '1966'
+        to: '1969'
+        n: 'Alternate Federal Cochairman, Jan. 1966. Check: the dates (Federal Cochairman Feb. 1967 to Mar. 1969).'
+        src: [CDIR 1967-02, CDIR 1969-03, Cong. Rec.]
+      - name: Waters, John B., Jr.
+        confirmed: '1969-03-26'
+        from: '1969'
+        to: '1970'
+        n: 'Check: the dates (Dec. 1969).'
+        src: [CDIR 1969-12, Cong. Rec.]
+      - name: Whitehead, Donald W.
+        nominated: '1971-02-11'
+        confirmed: '1971-03-01'
+        from: '1970'
+        n: 'Check: the day he took office (Mar. 1971 to Dec. 1973).'
+        src: [CDIR 1971-03, CDIR 1973-12, Cong. Rec.]
+  - id: alternate-federal-cochairman
+    title: Alternate Federal Cochairman
+    rank: principal
+    appt: PAS
+    holders:
+      - name: Fleming, Joe W., II
+        from: '1965'
+        to: '1966'
+        n: 'Check: the dates (Jan. 1966).'
+        src: [CDIR 1966-01]
+      - name: Burke, Fred B.
+        nominated: '1967-05-23'
+        confirmed: '1967-06-07'
+        from: '1967'
+        to: '1967'
+        n: 'Check: the dates (Feb. 1967).'
+        src: [CDIR 1967-02, Cong. Rec.]
+      - name: Tyler, Clark
+        from: '1967'
+        to: '1969'
+        n: 'Check: the dates (Dec. 1967 and Mar. 1969).'
+        src: [CDIR 1967-12, CDIR 1969-03]
+      - name: Lerch, Orville H.
+        confirmed: '1969-07-16'
+        from: '1969'
+        n: 'Check: the day he took office (Dec. 1969 to Dec. 1973).'
+        src: [CDIR 1969-12, CDIR 1973-12, Cong. Rec.]
