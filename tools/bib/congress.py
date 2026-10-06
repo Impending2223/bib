@@ -390,10 +390,26 @@ def geo_subset(geo, cs):
 ASSETS = os.path.join(store.ROOT, "templates", "congress.html")
 
 
+MARGINS = os.path.join(store.ROOT, "elections", "pres-margins.csv")
+
+
+def margin_quantiles(step=2.5):
+    """The Margin view's quantile table (QM in the template): the margin at every 2.5th percentile of the
+    contested races for presidential electors, 1824-2024 (elections/pres-margins.csv, tools/elections/pres_margins.py)."""
+    import csv
+    ms = sorted(float(r["margin"]) for r in csv.DictReader(open(MARGINS, encoding="utf-8")))
+    out = []
+    for i in range(int(100 / step) + 1):
+        x = (len(ms) - 1) * i * step / 100
+        lo = int(x)
+        out.append(round(ms[lo] + (ms[min(lo + 1, len(ms) - 1)] - ms[lo]) * (x - lo), 2))
+    return out
+
+
 def assets(geo):
     """CSS and JS for the blocks, with the geometry they need."""
     t = open(ASSETS, encoding="utf-8").read()
-    return t.replace("{{geo}}", json.dumps(geo, separators=(",", ":")))
+    return t.replace("{{geo}}", json.dumps(geo, separators=(",", ":"))).replace("{{qm}}", json.dumps(margin_quantiles()))
 
 
 def inject(page, series, linker, mode):

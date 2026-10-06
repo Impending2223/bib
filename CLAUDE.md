@@ -70,6 +70,7 @@ congress/<NN>.yaml        each Congress at its opening (87–93): House by state
 congress/geo.json         district and state shapes, projected and simplified
 elections/<YYYY>.yaml     President, House and Senate returns, 1956–74 (generated; never edit)
 elections/readings/<YYYY>.yaml  figures read by eye from the Clerk's pages, with a note on each ruling
+elections/pres-margins.csv  every contested race for presidential electors, 1824–2024, by constituency (generated)
 elections/facts.yaml      hand-kept facts: caucus labels, faithless electors, 1960 slates, the Alabama reckonings
 congress/changes.yaml     departures and successors during each Congress (generated)
 congress/specials.yaml    special elections during each Congress, 87th–93rd, with candidates (generated)
@@ -298,7 +299,7 @@ Biographical Directory where it matters), and a change of party in office, with 
 Specials held between general elections are not in the Clerk's biennial *Statistics*, which print
 only the November election (specials held that day are there, and in the election blocks). After
 each Congress at its opening, `build/congress.html` gives that Congress's specials: a summary, House
-and Senate maps of the seats filled (Result, Vote share, Swing from the general election that chose
+and Senate maps of the seats filled (large dots; the other districts drawn in the base map's gray; Result, Margin, Swing from the general election that chose
 the Congress, same district), and a table of the races. A calendar entry tagged `special:<key>`
 carries its race's table (the 87th's thirteen, thread "Special elections"). Definitions: the STYLE
 notes in `tools/bib/specials.py`.
@@ -324,9 +325,9 @@ race, and in presidential years the vote for President by State with the elector
 1974 before the Congress it chose (the 86th and 94th have no rosters); a calendar entry tagged
 `election:<year>` carries its block too (now Nov. 6, 1962). A block: the electoral and popular vote
 first, then by chamber the seats won, the net change from the close of the last Congress, pickups,
-and new members; one view switch for every map (Result; Vote share, the winner's share, continuous; Swing, continuous); the
-President's map above the House and Senate, with an Electors toggle (a dot an elector, as voted) and a
-Changed-hands toggle (in Result, the flips dark, the others light); the Senate map with a Senators toggle (a dot a seat); and every race in tables:
+and new members; one view switch for every map (Result; Margin, the winner's lead over the runner-up in points of all the votes, on Kovesi's CET-D1 by the quantile rule; Swing, continuous); the
+President's map above the House and Senate, with a States | Flips | Electors switch (Flips: in Result, the
+States that flipped dark, the others light; Electors: a dot an elector, as voted); the Senate map with a Senators toggle (a dot a seat, larger than the House's: `PB`, `RB`); and every race in tables:
 candidates with party, votes and share, the margin in votes and in points of all the votes cast, and
 a note. Pickups are shaded in the winner's color, other member changes in gray. Members of neither
 major party count with the party they caucused with, and are labeled so ("Conservative, caucusing
@@ -336,6 +337,7 @@ opening. Definitions are the STYLE notes at the top of `tools/bib/elections.py`.
 ```
 tools/elections/make_elections.py   writes elections/<year>.yaml and senate-prior.yaml (needs network, pdftoppm, tesseract)
 tools/elections/president.py        the presidential vote by State (electors, names, notes from elections/facts.yaml)
+tools/elections/pres_margins.py     elections/pres-margins.csv: every contested elector race, 1824–2024 (needs network, pandas)
 tools/elections/read.py             loads elections/readings/; its docstring is the readings schema
 tools/elections/review.py           the by-eye loop: left, sheets, pages, locate, verify, merge, audit (docstring)
 tools/elections/review/             READER.md and PRESIDENT.md: instructions to hand a reader, person or agent
@@ -373,9 +375,12 @@ tools/bib/elections.py              renders the blocks and checks the data (STYL
   `review/READER.md`; `review.py verify`, then `merge`; rerun `make_elections.py` (it should
   leave nothing); `review.py audit YEAR`; `./bib check`; then tag the calendar entry.
 - Colors are tokens at the top of `templates/congress.html` (its CSS is in commented
-  sections). Vote share and swing are continuous, not stepped: mixed in OKLab between the
-  `--e*` endpoints, over the ranges in `SHARE` and `SWING` in its script; the keys draw the
-  same ranges as gradient bars. Change an endpoint and every map and key follows.
+  sections). Margin and swing are continuous, not stepped. Margin: Kovesi's
+  perceptually uniform diverging maps, CET-D1 in light mode and CET-D4 in dark (the `--k*` tokens, 17 stops
+  a side from colorcet), by the quantile rule: a margin's position is the share of the 2,291 contested races
+  for presidential electors, 1824–2024, decided by less (`elections/pres-margins.csv`, written by
+  `tools/elections/pres_margins.py`; the build puts its percentiles into `QM`). Swing: mixed in OKLab from
+  `--eN` to `--eR4`/`--eB4` over `SWING`. The keys draw the same scales as gradient bars.
 - "Check" in a note (as in the calendar) marks a detail still to verify:
   `grep -rn Check elections/facts.yaml elections/readings`.
 

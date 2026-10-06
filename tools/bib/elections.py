@@ -1,4 +1,4 @@
-"""Election Day: President, House and Senate, with maps (result, vote share, swing; the Electors) and every race.
+"""Election Day: President, House and Senate, with maps (result, margin, swing; the Electors) and every race.
 
     elections/<year>.yaml   the Clerk's returns, race by race (tools/elections/make_elections.py)
 
@@ -10,9 +10,13 @@ Definitions (STYLE, settled):
  2. Margin: the winner's votes less the runner-up's, in votes and in points of all the votes cast in
     the race (50-45-5 is 5 votes and 5.0 pts). Where several were elected at large, the margin is
     between the last winner and the first loser. The two-party share serves only for swing.
- 3. Vote share (maps): the winner's share of all the votes, in the winner's color, continuous, not in
-    steps: lightest at 40 percent or less, darkest at 90 or more (the unopposed), mixed in OKLab
-    (SHARE in templates/congress.html). A winner of neither major party takes the color of the party
+ 3. Margin (maps): the winner's margin over the runner-up (note 2), in points of all the votes, in the
+    winner's color, continuous, not in steps, on Kovesi's perceptually uniform diverging maps (CET-D1;
+    CET-D4 in dark mode), Republican red through the light middle at a tie to Democratic blue. Quantile
+    rule: a margin's position on the ramp is the share of the 2,291 contested races for presidential
+    electors, 1824-2024, decided by less (elections/pres-margins.csv; QM in templates/congress.html): 5
+    points about a fifth of the way, 14 (the median) half, 41 nine-tenths; the unopposed count as 100. The
+    same table for the House and Senate, so a shade means the same margin on every map. A winner of neither major party takes the color of the party
     caucused with. A shape shared by several seats of one party takes their mean.
  4. Caucus: a member of neither major party counts with the party caucused with, in the seats won, the
     net change and pickups, and is so labeled: "Conservative, caucusing with the Republicans" (elections/facts.yaml caucus:).
@@ -22,7 +26,7 @@ Definitions (STYLE, settled):
     vacant seat under the member who last held it). A new member of the incumbent's party is a member
     change, shaded lightly. A new seat has no incumbent.
  6. Net change: the seats the gaining party gained, by caucus, from the close of the last Congress to
-    the seats won ("Net change from prior close: R+20"); the other party's change follows only where
+    the seats won ("Net change from close: R+20"); the other party's change follows only where
     it does not mirror the gain, as when a new seat was added ("D+49 (R−48)"). The close: the seats held
     at the close of the last Congress (the
     members sitting at the election; a vacant seat with the party that last held it). In the Senate,
@@ -46,9 +50,9 @@ Definitions (STYLE, settled):
     reckonings. Alabama, 1964: Johnson had no slate; the Democratic slate was unpledged. The electoral
     votes are as cast (tools/elections/president.py CAST).
 11. The presidential map. Result: the winner's color, a third ticket (unpledged electors, Byrd,
-    Wallace) amber, one flat shade. "Changed hands", a toggle under the map, applies the Congress maps'
+    Wallace) amber, one flat shade. "Flips", a toggle under the map between States and Electors, applies the Congress maps'
     scheme in the result view: the States that went to another party than at the last election dark, the
-    others light. The outlines stay the standard ones. Vote share and swing as for the House and Senate; no swing where
+    others light. The outlines stay the standard ones. Margin and swing as for the House and Senate; no swing where
     either party had no slate. Electors: a dot an elector, colored by the elector's vote, faithless
     electors included.
 
@@ -346,7 +350,7 @@ def net_change(before, after):
 def summary(year, data):
     """Seats won by party; the net change by caucus from the seats held at the close of the last
     Congress (the members sitting at the election, a vacant seat with the party that last held it);
-    pickups, new members of the same party, new seats."""
+    pickups, new members of same party, new seats."""
     E = data[year]
     out = []
     for ch, label in (("h", "House"), ("s", "Senate")):
@@ -366,14 +370,14 @@ def summary(year, data):
                     seen.add(i["n"])
                     before[caucus(i)] += 1
         after = Counter(caucus(c) for c in {c["n"]: c for r, c in wins}.values())   # one member who won two races (Oregon, 1960) once
-        line += f" Net change from prior close: {net_change(before, after)}."
+        line += f" Net change from close: {net_change(before, after)}."
         pk = Counter(caucus(c) for r, c in wins if kind(r, c) == "pickup")
         ch_ = sum(1 for r, c in wins if kind(r, c) == "change")
         new = sum(1 for r, c in wins if kind(r, c) == "new")
         if pk:
             line += " Pickups: " + ", ".join(f"{NAME.get(p, p)} {v}" for p, v in pk.most_common()) + "."
         if ch_:
-            line += f" New members of the same party: {ch_}."
+            line += f" New members of same party: {ch_}."
         if new:
             line += f" New seats: {new}."
         out.append(line)
@@ -506,13 +510,13 @@ def block(year, data, view="r"):
     return "\n".join(out)
 
 
-SHARE_KEY = {"B": "Democratic", "R": "Republican", "A": "third ticket"}
-
-
-def share_scale(hues=("B", "R", "A")):
-    """The winner's-share key: a gradient bar a hue, 40 percent or less to 90 or more (SHARE in the template)."""
-    return ('<span class="lt">40% or less to 90% or more (unopposed):</span>' +
-            " ".join(f'<span class="gr g{h}"></span>{SHARE_KEY[h]}' for h in hues))
+def margin_scale(third=False):
+    """The margin key: one diverging gradient bar (Kovesi CET-D1), a tie in the middle, positioned by the
+    quantile rule (STYLE 3); a third ticket's bar beside it."""
+    out = ('<span class="lt">Republican</span><span class="gr gS"></span><span class="lt">Democratic. Lightest at a '
+           'tie; darker by the share of contested elector races since 1824 decided by less: 5 points, a fifth of '
+           'the way; 14, half; 41, nine-tenths; the unopposed darkest.</span>')
+    return out + (' <span class="gr gA"></span><span class="lt">third ticket</span>' if third else "")
 
 
 def swing_scale():
@@ -527,7 +531,7 @@ def legend(has_sw):
            f'{sw("R2")}Republican held {sw("R4")}Republican pickup <span class="sw pDi"></span><span class="sw pRi"></span>'
            f'Independent or third party, by the party caucused with {sw("None")}No election; '
            'Senators: the seats not at stake faint</span>')
-    share = f'<span class="lk lk-s">The winner\'s share of all the votes,{share_scale(("B", "R"))}</span>'
+    share = f'<span class="lk lk-s">The winner\'s margin over the runner-up, points of all the votes: {margin_scale()}</span>'
     swing = (f'<span class="lk lk-w">Swing, points: {swing_scale()} <span class="lt">redrawn districts take their '
              'State\'s swing</span> ' + sw("NA") + 'None</span>') if has_sw else ""
     return f'<p class="cgkey elkey">{res}{share}{swing}</p>'
@@ -670,8 +674,8 @@ def pres_table(year, data):
 def pres_legend(has_prev, has_sw):
     sw = lambda k: f'<span class="sw e{k}"></span>'
     res = (f'<span class="lk lk-r">{sw("B3")}Democratic {sw("R3")}Republican {sw("A3")}Third ticket (unpledged electors, Byrd, Wallace)'
-           + ('; Changed hands, under the map: the States that went to another party than at the last election dark, the others light' if has_prev else '') + '</span>')
-    share = f'<span class="lk lk-s">The winner\'s share of all the votes,{share_scale()}</span>'
+           + ('; Flips, under the map: the States that went to another party than at the last election dark, the others light' if has_prev else '') + '</span>')
+    share = f'<span class="lk lk-s">The winner\'s margin over the runner-up, points of all the votes: {margin_scale(third=True)}</span>'
     swing = (f'<span class="lk lk-w">Swing from the last presidential election, points: {swing_scale()} '
              '<span class="lt">none where a party had no slate</span> ' + sw("NA") + 'None</span>') if has_sw else ""
     dots = ('<span class="lk lk-e">Electors, one dot each, as they voted: <span class="sw pD"></span>Democratic '

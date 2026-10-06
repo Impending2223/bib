@@ -1,15 +1,20 @@
 <style>
 /* Colors, light and dark. p: the parties (pDs Southern Democrats; pT a third ticket). e: the election scales,
    four steps a side around a gray middle (eN), eA a third ticket: the result view uses steps 2 to 4; the winner's
-   share runs continuously from e?1 to e?4, and swing from eN to eR4 or eB4, mixed in OKLab (SHARE, SWING in the
-   script; the keys' .gr bars). */
+   margin is Kovesi's CET-D1 (light) and CET-D4 (dark), perceptually uniform diverging maps: k0 at a tie, kB1..kB16
+   and kR1..kR16 out to the darkest (light) or brightest (dark), sampled from colorcet at 17 points a side; a third
+   ticket from k0 to eA4. Swing runs from eN to eR4 or eB4. Mixed in OKLab (QM, SWING in the script; the keys'
+   .gr bars). */
 :root{--pDs:#9DB4D6;--pD:#5878A8;--pR:#B0625E;--pO:#8C8A6E;--pV:#C9CDD3;--stb:#FFFFFF;--mk:#1A1E26}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--pDs:#46638F;--pD:#7D9CCB;--pR:#C9847F;--pO:#A9A688;--pV:#3C424C;--stb:#15181D;--mk:#E6E8EC}}
 :root[data-theme="dark"]{--pDs:#46638F;--pD:#7D9CCB;--pR:#C9847F;--pO:#A9A688;--pV:#3C424C;--stb:#15181D;--mk:#E6E8EC}
 :root{--eA1:#F2E4C6;--eA2:#E0C384;--eA3:#C49A45;--eA4:#8E6A24;--pT:#B98F3E}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--eA1:#463A22;--eA2:#755F31;--eA3:#AE8C4C;--eA4:#E0C68E;--pT:#C9A865}}
 :root[data-theme="dark"]{--eA1:#463A22;--eA2:#755F31;--eA3:#AE8C4C;--eA4:#E0C68E;--pT:#C9A865}
+:root{--k0:#EDE7E9;--kB1:#E6E3EE;--kB2:#DDDAEE;--kB3:#D3CFED;--kB4:#C9C5EC;--kB5:#BFBAEB;--kB6:#B5B0EA;--kB7:#ABA6E8;--kB8:#A09CE7;--kB9:#9592E6;--kB10:#8988E4;--kB11:#7D7EE3;--kB12:#7075E1;--kB13:#616BE0;--kB14:#5162DE;--kB15:#3D59DC;--kB16:#2050DA;--kR1:#F1E0DD;--kR2:#F1D5CE;--kR3:#F1C9BF;--kR4:#F0BCAF;--kR5:#EEB0A0;--kR6:#ECA391;--kR7:#E99783;--kR8:#E68A75;--kR9:#E37F68;--kR10:#DF725A;--kR11:#DB654C;--kR12:#D6573F;--kR13:#D14931;--kR14:#CB3924;--kR15:#C62515;--kR16:#BF0205}
 :root{--eR4:#8A3F38;--eR3:#C47168;--eR2:#DDA19B;--eR1:#EFCFCB;--eN:#DCDEE2;--eB1:#CCD8EC;--eB2:#9AB2DA;--eB3:#6A8BC2;--eB4:#3F5F95;--eNone:#F1F2F4;--eNA:#E6E8EB}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--k0:#221F20;--kB1:#212128;--kB2:#232633;--kB3:#272C3F;--kB4:#29324C;--kB5:#2C3859;--kB6:#2E3E66;--kB7:#304474;--kB8:#314B82;--kB9:#315190;--kB10:#31589F;--kB11:#305EAD;--kB12:#2F65BC;--kB13:#2C6CCB;--kB14:#2873DB;--kB15:#227AEA;--kB16:#1881FA;--kR1:#2A201E;--kR2:#352320;--kR3:#402722;--kR4:#4C2B25;--kR5:#582E27;--kR6:#643129;--kR7:#71352C;--kR8:#7D382E;--kR9:#883B30;--kR10:#953E33;--kR11:#A24135;--kR12:#AF4437;--kR13:#BD473A;--kR14:#CA4A3C;--kR15:#D84D3F;--kR16:#E64F41}}
+:root[data-theme="dark"]{--k0:#221F20;--kB1:#212128;--kB2:#232633;--kB3:#272C3F;--kB4:#29324C;--kB5:#2C3859;--kB6:#2E3E66;--kB7:#304474;--kB8:#314B82;--kB9:#315190;--kB10:#31589F;--kB11:#305EAD;--kB12:#2F65BC;--kB13:#2C6CCB;--kB14:#2873DB;--kB15:#227AEA;--kB16:#1881FA;--kR1:#2A201E;--kR2:#352320;--kR3:#402722;--kR4:#4C2B25;--kR5:#582E27;--kR6:#643129;--kR7:#71352C;--kR8:#7D382E;--kR9:#883B30;--kR10:#953E33;--kR11:#A24135;--kR12:#AF4437;--kR13:#BD473A;--kR14:#CA4A3C;--kR15:#D84D3F;--kR16:#E64F41}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--eR4:#E8B2AB;--eR3:#C07A72;--eR2:#8C514B;--eR1:#5A3532;--eN:#3A3F47;--eB1:#2F4364;--eB2:#4A6799;--eB3:#7896CC;--eB4:#AEC4EA;--eNone:#262A31;--eNA:#30353D}}
 :root[data-theme="dark"]{--eR4:#E8B2AB;--eR3:#C07A72;--eR2:#8C514B;--eR1:#5A3532;--eN:#3A3F47;--eB1:#2F4364;--eB2:#4A6799;--eB3:#7896CC;--eB4:#AEC4EA;--eNone:#262A31;--eNA:#30353D}
 /* Fills and key swatches */
@@ -27,9 +32,8 @@
 .sw.pX{background:repeating-linear-gradient(45deg,var(--pD) 0 3px,var(--pR) 3px 6px)}
 /* Blocks, summaries and keys */
 .gr{display:inline-block;width:7em;height:.7em;vertical-align:-.05em;margin:0 .35em;border-radius:2px}
-.gr.gB{background:linear-gradient(90deg,var(--eB1),var(--eB4));background:linear-gradient(in oklab 90deg,var(--eB1),var(--eB4))}
-.gr.gR{background:linear-gradient(90deg,var(--eR1),var(--eR4));background:linear-gradient(in oklab 90deg,var(--eR1),var(--eR4))}
-.gr.gA{background:linear-gradient(90deg,var(--eA1),var(--eA4));background:linear-gradient(in oklab 90deg,var(--eA1),var(--eA4))}
+.gr.gS{width:10em;background:linear-gradient(90deg,var(--kR16),var(--kR15),var(--kR14),var(--kR13),var(--kR12),var(--kR11),var(--kR10),var(--kR9),var(--kR8),var(--kR7),var(--kR6),var(--kR5),var(--kR4),var(--kR3),var(--kR2),var(--kR1),var(--k0),var(--kB1),var(--kB2),var(--kB3),var(--kB4),var(--kB5),var(--kB6),var(--kB7),var(--kB8),var(--kB9),var(--kB10),var(--kB11),var(--kB12),var(--kB13),var(--kB14),var(--kB15),var(--kB16));outline:1px solid var(--rule)}
+.gr.gA{background:linear-gradient(90deg,var(--k0),var(--eA4));background:linear-gradient(in oklab 90deg,var(--k0),var(--eA4));outline:1px solid var(--rule)}
 .gr.gW{width:10em;background:linear-gradient(90deg,var(--eR4),var(--eN),var(--eB4));background:linear-gradient(in oklab 90deg,var(--eR4),var(--eN),var(--eB4))}
 .cg{margin:1rem 0 .5rem;font-family:var(--sans)}
 .cg .cgh{font-weight:700;font-size:.95rem;margin:.2rem 0 .4rem}
@@ -73,14 +77,15 @@
 .cgt button{font:600 .72rem/1 var(--sans);padding:.35rem .5rem;border:1px solid var(--rule);background:var(--panel);color:var(--muted);cursor:pointer}
 .cgt button:first-child{border-radius:5px 0 0 5px}.cgt button:last-child{border-radius:0 5px 5px 0;border-left:0}
 .cgt button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
-.cgx{font:500 .7rem/1 var(--sans);margin-left:.5rem;padding:.25rem .45rem;border:1px dashed var(--rule);border-radius:4px;background:transparent;color:var(--muted);cursor:pointer;flex:none}
-.cgx[aria-pressed="true"]{border-style:solid;color:var(--ink)}
-.cgx:disabled{opacity:.45;cursor:default}
+.cgt button+button{border-left:0}.cgt button:not(:first-child):not(:last-child){border-radius:0}
+.cgt button:disabled{color:var(--rule);cursor:default}
 .cgmap .lb,.cgmap .lk{display:none}
 .cgmap.dots .lb,.cgmap.dots .lk{display:inline}
 .cgmap.dots .ld{display:none}
 .cgmap.dots.zoomed .ld{display:inline;opacity:.4}
 .cgmap path.b{fill:var(--pV);opacity:.55;stroke:var(--stb);stroke-width:.8;vector-effect:non-scaling-stroke}
+/* the specials: seats and States without one in the base map's gray */
+.cg.sp .cgmap .eNone{fill:color-mix(in srgb,var(--pV) 55%,var(--panel))}.cg.sp .sw.eNone{background:color-mix(in srgb,var(--pV) 55%,var(--panel))}
 .cgmap path.h{opacity:.95;stroke:var(--mk);stroke-width:1;vector-effect:non-scaling-stroke;pointer-events:none}
 .cgmap circle.dot{stroke:var(--stb);stroke-width:.8;vector-effect:non-scaling-stroke;cursor:pointer}
 .cgmap circle.dot:hover{stroke:var(--mk);stroke-width:1.6}
@@ -148,6 +153,7 @@ details.cgr.er td:nth-child(3){font-weight:400}
   // the delegations view takes more room on the right for the Northeast
   var VB=[0,-60,960,660], VBD=[0,-60,1085,660];
   var P=12, R=5.3, MAXZ=250;                        // dot pitch and radius, in map units
+  var PB=25, RB=11;                                 // the same for the Senate's dots and the specials' (few dots a State)
   var FINE=3;                                       // zoom at which the detailed shapes replace the coarse
   // delegation blocks set on their own States: [x, y, columns]; others centered with near-square blocks
   var ON={CA:[80,282,6],NY:[799,156,8],PA:[789,229,8],OH:[713,250,5],IL:[603,262,4],MI:[668,170,4],IN:[655,268,3],
@@ -163,13 +169,21 @@ details.cgr.er td:nth-child(3){font-weight:400}
   var ORDER={D:0,Di:1,ID:2,I:3,C:4,O:5,V:6,Ri:7,R:8};
   function el(n,a){var e=document.createElementNS(NS,n);for(var k in a)e.setAttribute(k,a[k]);return e;}
   function cls(p){return p==='D'?'pD':p==='R'?'pR':p==='V'?'pV':p==='X'?'pX':p==='Di'?'pDi':p==='Ri'?'pRi':'pO';}
-  // election blocks: the fill follows the view (r result, s the winner's share, w swing)
+  // election blocks: the fill follows the view (r result, s the winner's margin, w swing)
   // A fill is a class ('pD', 'eB4', 'eNA') or, on the continuous scales, 'v:' and a CSS color; paint() applies either.
   var HUE={D:'B',R:'R',T:'A'};
-  var SHARE=[40,90], SWING=15;            // the winner's share, lightest to darkest, in percent; swing, gray to darkest, in points
+  var SWING=15;                           // swing, gray to darkest, in points
+  // the Margin view's quantile rule: a margin's position on the ramp is the share of the contested races for
+  // presidential electors, 1824-2024, decided by less. QM: the margin at every 2.5th percentile (from
+  // elections/pres-margins.csv, filled in by the build: congress.margin_quantiles)
+  var QM={{qm}};
+  function rank(v){if(v<=QM[0]) return 0; for(var i=1;i<QM.length;i++) if(v<=QM[i]) return (i-1+(v-QM[i-1])/((QM[i]-QM[i-1])||1))/(QM.length-1); return 1;}
+  // a position on Kovesi's ramp, one side: between the two nearest of its 17 stops
+  function kov(s,t){var x=Math.max(0,Math.min(1,t))*16, i=Math.min(15,Math.floor(x)); return mix(i?'k'+s+i:'k0','k'+s+(i+1),x-i);}
   function mix(a,b,t){t=Math.max(0,Math.min(1,t)); return 'v:color-mix(in oklab,var(--'+b+') '+(100*t).toFixed(1)+'%,var(--'+a+'))';}
-  function win(m){var h=HUE[m.p]; if(!h) return 'pO'; if(m.sh==null) return 'eNA';
-    return mix('e'+h+'1','e'+h+'4',(m.sh-SHARE[0])/(SHARE[1]-SHARE[0]));}
+  function mgOf(m){return m.u?100:m.mg;}   // points of all the votes over the runner-up; the unopposed, 100
+  function win(m){var h=HUE[m.p], v=mgOf(m); if(!h) return 'pO'; if(v==null) return 'eNA';
+    var t=rank(v); return h==='A'?mix('k0','eA4',t):kov(h,t);}
   function swung(m){return m.sw==null?'eNA':mix('eN',m.sw>0?'eB4':'eR4',Math.abs(m.sw)/SWING);}
   function fc(t){return t.slice(0,2)==='v:'?'cv':t;}
   function fs(t){return t.slice(0,2)==='v:'?'fill:'+t.slice(2):'';}
@@ -198,15 +212,15 @@ details.cgr.er td:nth-child(3){font-weight:400}
     while((m=re.exec(d))){ if(m[1]==='M'){x=+m[2];y=+m[3];} else {x+=+m[2];y+=+m[3];}
       if(x<x0)x0=x;if(x>x1)x1=x;if(y<y0)y0=y;if(y>y1)y1=y; }
     return [x0,y0,x1,y1];}
-  // ---- the President: States (result, winner's share, swing) or Electors (a dot an elector, as voted)
+  // ---- the President: States (result, winner's margin, swing) or Electors (a dot an elector, as voted)
   var OFFE=[['VT',1],['NH',2],['MA',5],['RI',2],['CT',3],['NJ',5],['DE',3],['MD',4],['DC',3]];
-  // Result: the winner's color; with Changed hands on, the Congress maps' scheme (held light, changed hands dark)
+  // Result: the winner's color; in Flips, the Congress maps' scheme (held light, flipped dark)
   function pFill(m,mode,flips){var h=HUE[m.p]; if(!h) return 'pO';
     if(mode==='s') return win(m);
     if(mode==='w') return swung(m);
     return 'e'+h+(flips?(m.k==='flip'?'4':'2'):'3');}
   function pText(st,m){var t=st+': '+m.n+(m.sh!=null?' '+m.sh.toFixed(1)+'%':'')+(m.mg!=null?', by '+m.mg.toFixed(1)+' pts':'');
-    if(m.k==='flip') t+='; changed hands'; else if(m.k==='new') t+='; first vote';
+    if(m.k==='flip') t+='; flipped'; else if(m.k==='new') t+='; first vote';
     if(m.sw!=null) t+='; '+swingText(m);
     return t+'; electors: '+m.cast.map(function(c){return c[1]+' '+c[2];}).join(', ');}
   function drawP(fig,ps){
@@ -264,21 +278,21 @@ details.cgr.er td:nth-child(3){font-weight:400}
       var a=document.createElement('a'); a.href='#'+t.getAttribute('data-row'); a.textContent='Returns \u2193'; info.appendChild(a);}
     svg.addEventListener('click',function(e){if(z.moved()) return; var t=e.target.closest('[data-row]'); if(t) say(t);});
     blocks.addEventListener('mouseover',function(e){var t=e.target.closest('.dot'); if(t) say(t);});
-    var fx=null;
-    fig._recolor=function(){painted.forEach(function(e){paint(e,e._dc?'dc':'d',pf(e._m));});
-      if(fx) fx.disabled=mode()!=='r'||blk.dataset.pv==='e';};
+    // States | Flips | Electors; Flips is the States in the Congress maps' scheme, Result view only
     var tog=document.createElement('div'); tog.className='cgt';
-    tog.innerHTML='<button type="button" data-v="s" aria-pressed="true">States</button><button type="button" data-v="e" aria-pressed="false">Electors</button>';
+    tog.innerHTML='<button type="button" data-v="s" aria-pressed="true">States</button>'
+      +(flips?'<button type="button" data-v="f" aria-pressed="false" title="The States that went to another party than at the last election dark, the others light (Result view)">Flips</button>':'')
+      +'<button type="button" data-v="e" aria-pressed="false">Electors</button>';
     foot.insertBefore(tog,foot.firstChild);
-    if(flips){ fx=document.createElement('button'); fx.type='button'; fx.className='cgx'; fx.setAttribute('aria-pressed','false');
-      fx.textContent='Changed hands'; fx.title='Result view: the States that went to another party than at the last election dark, the others light';
-      fx.addEventListener('click',function(){var on=fig.classList.toggle('flips'); fx.setAttribute('aria-pressed',on?'true':'false'); fig._recolor();});
-      tog.parentNode.insertBefore(fx,tog.nextSibling); }
+    var fx=tog.querySelector('[data-v="f"]');
+    fig._recolor=function(){
+      if(fx){ fx.disabled=mode()!=='r'; if(fx.disabled&&blk.dataset.pv==='f'){setView('s'); return;} }
+      painted.forEach(function(e){paint(e,e._dc?'dc':'d',pf(e._m));});};
     function setView(v){
       [].forEach.call(tog.children,function(x){x.setAttribute('aria-pressed',x.dataset.v===v?'true':'false');});
-      fig.classList.toggle('dots',v==='e'); blk.dataset.pv=v;
-      svg._vb=(v==='e'?VBD:VB).slice(); svg.setAttribute('viewBox',svg._vb.join(' '));
-      frame.style.aspectRatio=svg._vb[2]+'/'+svg._vb[3]; z.reset();
+      fig.classList.toggle('dots',v==='e'); fig.classList.toggle('flips',v==='f'); blk.dataset.pv=v;
+      var was=svg._vb[2]; svg._vb=(v==='e'?VBD:VB).slice(); svg.setAttribute('viewBox',svg._vb.join(' '));
+      frame.style.aspectRatio=svg._vb[2]+'/'+svg._vb[3]; if(was!==svg._vb[2]) z.reset();
       info.textContent=v==='e'?EHINT:HINT;
       var cap=fig.querySelector('figcaption'); if(cap) cap.textContent=v==='e'?'President, the Electors\' ballots':'President, by state';
       fig._recolor();
@@ -289,14 +303,14 @@ details.cgr.er td:nth-child(3){font-weight:400}
   function draw(fig,c,seats){
     if(fig.dataset.chamber==='p'){drawP(fig,seats.p||{}); return;}
     var ch=fig.dataset.chamber, svg=el('svg',{viewBox:VB.join(' '),role:'img','aria-label':(ch==='h'?'House':'Senate')+' map'});
-    var blk=fig.closest('.cg'), EV=blk&&blk.dataset.ev;
+    var blk=fig.closest('.cg'), EV=blk&&blk.dataset.ev, SP=blk&&blk.classList.contains('sp'), NONE=SP?'no special election':'no election';
     function mode(){return EV?(blk.dataset.view||'r'):null;}
     function F(m){return fillOf(m,mode());}
     // a shape shared by several seats: their common fill; on the continuous scales, their mean (one party, for share)
     function group(ms){var f={};ms.forEach(function(x){f[F(x)]=1;});var k=Object.keys(f);
       if(k.length===1) return k[0]; if(!k.length) return EV?'eNone':'pX';
-      var md=mode(), v=md==='s'?'sh':md==='w'?'sw':null, p=ms[0].p;
-      if(v&&ms.every(function(x){return x[v]!=null&&!x.x&&(v==='sw'||x.p===p);})){var o={p:p}; o[v]=ms.reduce(function(a,x){return a+x[v];},0)/ms.length; return F(o);}
+      var md=mode(), v=md==='s'?mgOf:md==='w'?function(x){return x.sw;}:null, p=ms[0].p;
+      if(v&&ms.every(function(x){return v(x)!=null&&!x.x&&(md==='w'||x.p===p);})){var o={p:p}; o[md==='s'?'mg':'sw']=ms.reduce(function(a,x){return a+v(x);},0)/ms.length; return F(o);}
       return 'pX';}
     svg._vb=VB.slice();
     var frame=fig.querySelector('.cgv')||fig, fine=false, lod=[], lodT=0;
@@ -313,6 +327,7 @@ details.cgr.er td:nth-child(3){font-weight:400}
       if(m.d&&k[m.d]) return 'd:'+k[m.d];
       var nd=Object.keys(k).filter(function(d){return +d>0;}).length;
       return (!nd&&k['0'])?'d:'+k['0']:'s:'+st;}
+    function blank(ref,name){var e=shp(ref,{'class':'d eNone'}), t=el('title'); t.textContent=name+': '+NONE; e.appendChild(t); return e;}
     // the districts: built when first shown (the Senate at once, the House when a dot opens or on Districts)
     var built=false;
     function buildDistricts(){ if(built) return; built=true;
@@ -322,19 +337,21 @@ details.cgr.er td:nth-child(3){font-weight:400}
         var numbered=Object.keys(m).filter(function(d){return +d>0;});
         if(numbered.length){
           numbered.forEach(function(d){
-            var mm=ms.filter(function(x){return x.d==d;})[0]; if(!mm||!G.shapes[m[d]]) return;
+            var mm=ms.filter(function(x){return x.d==d;})[0]; if(!G.shapes[m[d]]) return;
+            if(!mm){ if(EV) dist.appendChild(blank('d:'+m[d],st+' '+d)); return; }   // a seat not in the election (the specials): gray
             var e1=link(mm.id,shp('d:'+m[d],{}),seatName(st,mm),'d:'+m[d],mm.p,mm); paint(e1,'d',F(mm)); e1._base='d'; dist.appendChild(e1);
           });
           ms.filter(function(x){return x.d==0;}).forEach(function(x){dots.push([st,x]);});
         } else {
           var k=m['0']; var ps={}; ms.forEach(function(x){ps[x.p]=1;});
           var pk=Object.keys(ps), c2=EV?group(ms):(pk.length===1?cls(pk[0]):'pX');
-          if(k&&G.shapes[k]){var e2=link(ms[0]?ms[0].id:'',shp('d:'+k,{}),st+' at large: '+ms.map(who).join('; '),'d:'+k,pk.length===1?pk[0]:'X',null); paint(e2,'d',c2); e2._base='d'; e2._ms=ms; dist.appendChild(e2);}
+          if(k&&G.shapes[k]&&!ms.length&&EV) dist.appendChild(blank('d:'+k,st+' at large'));
+          else if(k&&G.shapes[k]){var e2=link(ms[0]?ms[0].id:'',shp('d:'+k,{}),st+' at large: '+ms.map(who).join('; '),'d:'+k,pk.length===1?pk[0]:'X',null); paint(e2,'d',c2); e2._base='d'; e2._ms=ms; dist.appendChild(e2);}
         }
       } else {
         var up=ms.filter(function(x){return !x.ho;}), ps2={}; up.forEach(function(x){ps2[x.p]=1;});
         var pk2=Object.keys(ps2), c3=EV?group(up):(pk2.length===1?cls(pk2[0]):'pX'); ms=up;
-        if(G.states[st]){var e3=link(ms[0]?ms[0].id:'',shp('s:'+st,{}),st+': '+(ms.length?ms.map(who).join('; '):(EV?'no election':'')),null,null,null); paint(e3,'d',c3); e3._base='d'; e3._ms=ms; dist.appendChild(e3);}
+        if(G.states[st]){var e3=link(ms[0]?ms[0].id:'',shp('s:'+st,{}),st+': '+(ms.length?ms.map(who).join('; '):(EV?NONE:'')),null,null,null); paint(e3,'d',c3); e3._base='d'; e3._ms=ms; dist.appendChild(e3);}
       }
     });
     // at-large seats beside districts: dots at the State's center
@@ -393,27 +410,28 @@ details.cgr.er td:nth-child(3){font-weight:400}
         if(e._base==null) return; var f=e._m?F(e._m):(e._ms?group(e._ms):null); if(!f) return;
         paint(e,e._base,f); }); show(pin); };
     if(ch!=='h') buildDistricts();
-    // ---- the delegations view: a dot a seat, a block a State (the Senate: a dot a senator)
-    var DOT=null;
+    // ---- the delegations view: a dot a seat, a block a State (the Senate: a dot a senator, two to a row);
+    // the Senate's dots and the specials' are larger (PB, RB)
+    var DOT=null, big=ch==='s'||SP, PP=big?PB:P, RR=big?RB:R;
     function buildBlocks(){
       DOT=true;
       Object.keys(G.states).forEach(function(st){ base.appendChild(shp('s:'+st,{'class':'b'})); });
       Object.keys(seats[ch]).forEach(function(st){
         var ms=seats[ch][st].slice().sort(function(a,b){return ((a.ho?1:0)-(b.ho?1:0))||(ORDER[a.p]-ORDER[b.p])||((a.d||a.cl||0)-(b.d||b.cl||0));}),
             n=ms.length, cols, x0, y0, off=(ch==='h'?OFF:SOFF)[st];
-        if(off){ cols=off[0]; x0=OX; y0=off[1];
-          var rows=Math.ceil(n/cols), my=y0+(rows-1)*P/2, cxy=G.centers[st];
+        if(off){ cols=SP?n:off[0]; x0=OX+RR-R; y0=off[1];
+          var rows=Math.ceil(n/cols), my=y0+(rows-1)*PP/2, cxy=G.centers[st];
           blocks.appendChild(el('line',{x1:cxy[0],y1:cxy[1],x2:LX-18,y2:my,'class':'ll'}));
           blocks.appendChild(el('circle',{cx:cxy[0],cy:cxy[1],r:1.8,'class':'lp'}));
           var tx=el('text',{x:LX-14,y:my+3.6,'class':'lc'}); tx.textContent=st; blocks.appendChild(tx);
         } else {
           var on=ON[st]||[G.centers[st][0],G.centers[st][1],Math.max(1,Math.ceil(Math.sqrt(n*1.4)))];
-          cols=Math.min(on[2],n); var rows2=Math.ceil(n/cols);
-          x0=on[0]-(cols-1)*P/2; y0=on[1]-(rows2-1)*P/2;
+          cols=ch==='s'?n:Math.min(on[2],n); var rows2=Math.ceil(n/cols);
+          x0=on[0]-(cols-1)*PP/2; y0=on[1]-(rows2-1)*PP/2;
         }
         ms.forEach(function(m,i){
-          var r=Math.floor(i/cols), k=i%cols, inRow=Math.min(cols,n-r*cols), shift=(off&&ch!=='h')?0:(cols-inRow)*P/2;
-          var d=link(m.id,el('circle',{cx:x0+shift+k*P,cy:y0+r*P,r:R}),seatName(st,m),ch==='h'?shapeOf(st,m):'s:'+st,m.p,m); paint(d,m.ho?'dot ho':'dot',F(m));
+          var r=Math.floor(i/cols), k=i%cols, inRow=Math.min(cols,n-r*cols), shift=(off&&ch!=='h')?0:(cols-inRow)*PP/2;
+          var d=link(m.id,el('circle',{cx:x0+shift+k*PP,cy:y0+r*PP,r:RR}),seatName(st,m),ch==='h'?shapeOf(st,m):'s:'+st,m.p,m); paint(d,m.ho?'dot ho':'dot',F(m));
           d._base=m.ho?'dot ho':'dot';
           blocks.appendChild(d);
         });
@@ -472,7 +490,7 @@ details.cgr.er td:nth-child(3){font-weight:400}
   // election blocks: one view switch for both maps and the key
   [].forEach.call(document.querySelectorAll('.cg.el'),function(b){
     var vs=(b.querySelector('[data-views]')||{dataset:{views:'r s'}}).dataset.views.split(' ');
-    var names={r:'Result',s:'Vote share',w:'Swing'};
+    var names={r:'Result',s:'Margin',w:'Swing'};
     var bar=document.createElement('div'); bar.className='cgt elt';
     bar.innerHTML=vs.map(function(v){return '<button type="button" data-v="'+v+'" aria-pressed="'+(v==='r')+'">'+names[v]+'</button>';}).join('');
     var maps=b.querySelector('.cgmaps'); maps.parentNode.insertBefore(bar,maps);
