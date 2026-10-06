@@ -61,14 +61,19 @@ def load():
     for xs in data.values():
         for x in xs:
             r = R.get(x["key"])
+            if r and r.get("pending"):
+                x["pending"] = r["pending"]
             if not r or not r.get("rounds"):
                 continue
             x["wiki"] = x.get("cands")
             x["rounds"] = [{"date": str(rd["date"]), "label": rd["label"],
                             "cands": rd["cands"] + ([["Scattering", "", rd["scattering"]]] if rd.get("scattering") else [])}
                            for rd in r["rounds"]]
-            x["source"] = f"{r['source']}, {r['where']}" if r.get("where") else r["source"]
+            x["source"] = r.get("cite") or (f"{r['source']}, {r['where']}" if r.get("where") else r["source"])
             x["state"] = True
+            x["url"] = r.get("url")
+            if x.get("check"):   # Wikipedia's shares no longer stand
+                x["check"] = re.sub(r"\s*The shares in the source add to [\d.]+%\.", "", x["check"]).strip() or None
             if r.get("note"):
                 x["note"] = r["note"]
     return data
@@ -90,6 +95,19 @@ def rid(x):
 
 def ordinal(n):
     return f"{n}{'th' if 11 <= n % 100 <= 13 else {1: 'st', 2: 'nd', 3: 'rd'}.get(n % 10, 'th')}"
+
+
+def seat_label(x):
+    """MA-6, VT-AL."""
+    return f"{x['st']}-{'AL' if x['seat'] == 0 else x['seat']}"
+
+
+def cite_html(text, url=None, access=None):
+    """A short citation: *Title* in italics, linked to the copy read; '(bot-check)' and the like where the copy is gated."""
+    t = re.sub(r"\*([^*]+)\*", r"<i>\1</i>", esc(text))
+    if url:
+        t = f'<a href="{esc(url)}">{t}</a>'
+    return t + (f" ({esc(access)})" if access and access != "open" else "")
 
 
 def surname(n):
@@ -173,7 +191,7 @@ def summary(c, sp):
         gains = Counter(x["party"] for x in xs if x.get("flip"))
         bits = [f"{PLURAL.get(p, p)} held {n}" for p, n in sorted(held.items())]
         for p, n in sorted(gains.items()):
-            where = ", ".join((x["st"] + (f" {x['seat']}" if ch == "h" else "")) for x in xs if x.get("flip") and x["party"] == p)
+            where = ", ".join((seat_label(x) if ch == "h" else x["st"]) for x in xs if x.get("flip") and x["party"] == p)
             bits.append(f"{NAME.get(p, p)} pickup{'s' if n > 1 else ''} {n} ({where})")
         from .elections import net_change
         net = net_change(Counter(x["out_party"] for x in xs), Counter(x["party"] for x in xs))
@@ -201,7 +219,9 @@ def note_cell(x):
     if x.get("note"):
         bits.append(esc(x["note"]))
     if x.get("state"):
-        bits.append(f"Votes: {esc(x['source'])}.")
+        bits.append(f"Votes: {cite_html(x['source'], x.get('url'))}.")
+    for c in x.get("pending") or []:
+        bits.append(f"Check: {cite_html(c['cite'], c.get('url'), c.get('access'))}.")
     if x.get("check"):
         bits.append(f"Check: {esc(x['check'])}")
     return " ".join(bits)
@@ -218,7 +238,7 @@ def table(c, sp, edata, open_=False):
 
 
 def row(x, STATE, sw=None):
-    where = (f'<span title="{esc(STATE[x["st"]])}">{x["st"]} {"AL" if x["seat"] == 0 else x["seat"]}</span>' if x["ch"] == "h"
+    where = (f'<span title="{esc(STATE[x["st"]])}">{seat_label(x)}</span>' if x["ch"] == "h"
              else f'<span title="{esc(STATE[x["st"]])}, class {("I", "II", "III")[x["seat"] - 1]}">{x["st"]}, Senate</span>')
     cells = []
     if x.get("rounds"):
@@ -357,9 +377,10 @@ def problems(series=None):
         if not r.get("source"):
             out.append((where, "no source"))
         for rd in r["rounds"]:
-            tot = sum(c[2] for c in rd["cands"]) + (rd.get("scattering") or 0)
-            if rd.get("total") is not None and tot != rd["total"]:
-                out.append((where, f"{rd['label']}: the votes add to {tot:,}, the printed total is {rd['total']:,}"))
+            tot = sum(c[2] for c in rd["cands"])   # a printed total may or may not count the scattering
+            if rd.get("total") is not None and rd["total"] not in (tot, tot + (rd.get("scattering") or 0)):
+                out.append((where, f"{rd['label']}: the votes add to {tot:,} (with scattering "
+                                   f"{tot + (rd.get('scattering') or 0):,}), the printed total is {rd['total']:,}"))
         if not any(surname(c[0]) == surname(byk[k]["winner"]) for c in r["rounds"][-1]["cands"]):
             out.append((where, f"the winner, {byk[k]['winner']}, is not in the last round"))
     out += [("congress/specials.yaml", f"duplicate key {k}") for k, n in keys.items() if n > 1]

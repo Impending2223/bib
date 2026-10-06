@@ -202,7 +202,7 @@ details.cgr.er td:nth-child(3){font-weight:400}
     return a+(t.length?'; '+t.join('; '):'');}
   function link(id,child,title,shape,p,m){child._shape=shape;child._p=p;child._m=m;child.setAttribute('data-row',id);child.setAttribute('data-who',title);var t=el('title');t.textContent=title;child.appendChild(t);return child;}
   function who(m){return m.n+(m.p==='V'?'':' ('+(m.pl||m.p)+')')+(m.k||m.ho||m.sh!=null?evText(m):'');}
-  function seatName(st,m){return st+(m.d!=null?(m.d?' '+m.d:' at large'):'')+': '+who(m);}
+  function seatName(st,m){return st+(m.d!=null?(m.d?'-'+m.d:'-AL'):'')+': '+who(m);}
   // a shape is named by a ref, 'd:KEY' (a district) or 's:ST' (a State outline), and drawn coarse or fine
   function geo(ref,fine){if(!ref)return null;var k=ref.slice(2);
     return ref[0]==='d'?(fine?G.shapes:G.coarse)[k]:(fine?G.states:G.statesC)[k];}
@@ -336,15 +336,15 @@ details.cgr.er td:nth-child(3){font-weight:400}
         if(numbered.length){
           numbered.forEach(function(d){
             var mm=ms.filter(function(x){return x.d==d;})[0]; if(!G.shapes[m[d]]) return;
-            if(!mm){ if(EV) dist.appendChild(blank('d:'+m[d],st+' '+d)); return; }   // a seat not in the election (the specials): gray
+            if(!mm){ if(EV) dist.appendChild(blank('d:'+m[d],st+'-'+d)); return; }   // a seat not in the election (the specials): gray
             var e1=link(mm.id,shp('d:'+m[d],{}),seatName(st,mm),'d:'+m[d],mm.p,mm); paint(e1,'d',F(mm)); e1._base='d'; dist.appendChild(e1);
           });
           ms.filter(function(x){return x.d==0;}).forEach(function(x){dots.push([st,x]);});
         } else {
           var k=m['0']; var ps={}; ms.forEach(function(x){ps[x.p]=1;});
           var pk=Object.keys(ps), c2=EV?group(ms):(pk.length===1?cls(pk[0]):'pX');
-          if(k&&G.shapes[k]&&!ms.length&&EV) dist.appendChild(blank('d:'+k,st+' at large'));
-          else if(k&&G.shapes[k]){var e2=link(ms[0]?ms[0].id:'',shp('d:'+k,{}),st+' at large: '+ms.map(who).join('; '),'d:'+k,pk.length===1?pk[0]:'X',null); paint(e2,'d',c2); e2._base='d'; e2._ms=ms; dist.appendChild(e2);}
+          if(k&&G.shapes[k]&&!ms.length&&EV) dist.appendChild(blank('d:'+k,st+'-AL'));
+          else if(k&&G.shapes[k]){var e2=link(ms[0]?ms[0].id:'',shp('d:'+k,{}),st+'-AL: '+ms.map(who).join('; '),'d:'+k,pk.length===1?pk[0]:'X',null); paint(e2,'d',c2); e2._base='d'; e2._ms=ms; dist.appendChild(e2);}
         }
       } else {
         var up=ms.filter(function(x){return !x.ho;}), ps2={}; up.forEach(function(x){ps2[x.p]=1;});
