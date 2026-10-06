@@ -174,7 +174,8 @@ def build_list(series, key):
     for p in store.as_list(lst.data.get("logic")):
         main.append(f'<p class="logic">{text_html(p, "logic")}</p>')
     main.append('<p class="logic">To navigate, use the Outline button, the contents below, or the handle on the right edge, which you can drag to see nearby headings. '
-                'All the lists in one reader: <a href="series.html">the series</a>. Each Congress at its opening: <a href="congress.html">Congress</a>.</p>')
+                'All the lists in one reader: <a href="series.html">the series</a>. Each Congress at its opening: <a href="congress.html">Congress</a>. '
+                'The Executive Branch at each inauguration: <a href="executive.html">Executive</a>.</p>')
     main.append('<nav class="toc" aria-label="Contents">\n<h3 id="contents" style="border-top:0;margin-top:1.5rem" data-short="Contents">Contents</h3>\n<ol id="tocList"></ol>\n</nav>')
     for s in lst.sections:
         main.extend(section_body(series, lst, s, lambda sec: attr(sec.id), text_html))
@@ -504,6 +505,9 @@ def build_series(series):
     home.append('<h2 id="home--cg" data-short="Congress">Congress</h2><ol class="e lists"><li><a class="lk" href="congress.html">'
                 '<span class="ab">Congress</span><span class="tt">Each Congress at its opening, 1961–1973: party bars, House and Senate maps, every member</span></a>'
                 '<span class="r">87th–93rd</span></li></ol>')
+    home.append('<h2 id="home--ex" data-short="Executive">The Executive Branch</h2><ol class="e lists"><li><a class="lk" href="executive.html">'
+                '<span class="ab">Executive</span><span class="tt">The Executive Branch at each inauguration, 1953–1974: every office, its authority, its holders</span></a>'
+                '<span class="r">1953–74</span></li></ol>')
     home.append("</section>")
 
     page = open(os.path.join(TEMPLATES, "series.html"), encoding="utf-8").read()
@@ -539,8 +543,8 @@ def _section_series(series, lst, sec, linker, li_extra):
 def run(series, which=None):
     os.makedirs(OUT, exist_ok=True)
     written = []
-    keys = [which] if which and which not in ("series", "congress") else ([] if which in ("series", "congress") else list(series.lists))
-    from . import congress, indicators
+    keys = [which] if which and which not in ("series", "congress", "executive") else ([] if which in ("series", "congress", "executive") else list(series.lists))
+    from . import congress, executive, indicators
     linker = None
     for k in keys:
         path = os.path.join(OUT, f"{k}.html")
@@ -548,6 +552,7 @@ def run(series, which=None):
         if series.lists[k].kind == "calendar":
             linker = linker or Linker(series)
             page = congress.inject(page, series, linker, "list")
+            page = executive.inject(page, series, linker, "list")
             page = specials.inject(page, series)
             page = indicators.inject(page, series, "list")
             page = daybook.inject(page)
@@ -557,6 +562,7 @@ def run(series, which=None):
     if which in (None, "series"):
         page, linker = build_series(series)
         page = congress.inject(page, series, linker, "series")
+        page = executive.inject(page, series, linker, "series")
         page = specials.inject(page, series)
         page = indicators.inject(page, series, "series")
         page = daybook.inject(page)
@@ -569,6 +575,14 @@ def run(series, which=None):
         page = congress.page(series, linker, os.path.join(TEMPLATES, "list.html"))
         if page:
             path = os.path.join(OUT, "congress.html")
+            with open(path, "w", encoding="utf-8") as f:
+                f.write(page)
+            written.append(path)
+    if which in (None, "executive"):
+        linker = linker or Linker(series)
+        page = executive.page(series, linker, os.path.join(TEMPLATES, "list.html"))
+        if page:
+            path = os.path.join(OUT, "executive.html")
             with open(path, "w", encoding="utf-8") as f:
                 f.write(page)
             written.append(path)

@@ -1,0 +1,233 @@
+# The National Labor Relations Board. Kept by hand.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: nlrb
+name: National Labor Relations Board
+under: president
+order: 500
+law:
+  - act: National Labor Relations Act
+    date: '1935-07-05'
+    tags: [creates, powers]
+    cite: 'ch. 372, §§ 3, 10, 49 Stat. 449, 451'
+    usc: ['29 U.S.C. §§ 153, 160 (1958)']
+    does: Creates the Board, of three members; empowered to prevent unfair labor practices affecting commerce and to certify bargaining representatives.
+  - act: Labor Management Relations Act, 1947
+    date: '1947-06-23'
+    tags: [reorganizes, appointment, powers]
+    cite: 'ch. 120, title I, § 101, 61 Stat. 136, 139'
+    usc: '29 U.S.C. § 153 (1958)'
+    does: 'Board enlarged to five members, appointed by the President by and with the advice and consent of the Senate for five years; one designated by the President as Chairman; removable by the President, upon notice and hearing, for neglect of duty or malfeasance in office, but for no other cause. A General Counsel. Unfair labor practices of labor organizations added.'
+  - act: Labor-Management Reporting and Disclosure Act of 1959
+    date: '1959-09-14'
+    tags: [powers]
+    cite: 'Pub. L. 86-257, § 701, 73 Stat. 519, 541'
+    usc: '29 U.S.C. §§ 153(b), 164(c) (1964)'
+    does: The Board may delegate its powers over representation cases to regional directors; may decline jurisdiction over disputes with slight effect on commerce, the States to assert it.
+n: Terms of five years. Dates of service and of chairmanship are the Board's own list of members since 1935.
+offices:
+  - id: chairman
+    title: Chairman of the National Labor Relations Board
+    rank: head
+    appt: DES
+    level: III
+    law:
+      - act: Labor Management Relations Act, 1947
+        date: '1947-06-23'
+        tags: [appointment]
+        cite: 'ch. 120, title I, § 101, 61 Stat. 136, 139'
+        usc: '29 U.S.C. § 153(a) (1958)'
+        does: The President designates one member as Chairman.
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(c)(25), 78 Stat. 400, 417'
+        usc: '5 U.S.C. § 5314 (1970)'
+        does: Level III, $28,500.
+    n: Reorganization Plan No. 12 of 1950, which would have given the chairman the Board's executive functions, was disapproved by the Senate, May 11, 1950.
+    holders:
+      - name: Herzog, Paul M.
+        from: '1945-07-05'
+        to: '1953-06-30'
+        out: Resigned.
+        src: ['nlrb.gov, Board Members Since 1935', CDIR 1953-03]
+      - name: Farmer, Guy
+        given: Guy Otto
+        from: '1953-07-13'
+        to: '1955-08-27'
+        out: Term expired.
+        src: ['nlrb.gov, Board Members Since 1935', CDIR 1954-01, CDIR 1955-02]
+      - name: Leedom, Boyd S.
+        from: '1955-11-02'
+        to: '1961-03-06'
+        out: Remained a member.
+        src: ['nlrb.gov, Board Members Since 1935', CDIR 1956-01, CDIR 1960-01]
+      - name: McCulloch, Frank W.
+        from: '1961-03-07'
+        to: '1970-06-02'
+        out: Remained a member to the end of his term, Aug. 27, 1970.
+        src: ['nlrb.gov, Board Members Since 1935', CDIR 1961-04, CDIR 1969-12]
+      - name: Miller, Edward B.
+        from: '1970-06-03'
+        n: Served to the end of his term, Dec. 16, 1974.
+        src: ['nlrb.gov, Board Members Since 1935', CDIR 1971-03, CDIR 1973-12]
+  - id: member
+    title: Member of the National Labor Relations Board
+    rank: principal
+    appt: PAS
+    many: true
+    law:
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(d)(63), 78 Stat. 400, 419'
+        usc: '5 U.S.C. § 5315 (1970)'
+        does: Members at Level IV, $27,000.
+    n: Five members, the chairman among them. Party as the Board gives it.
+    holders:
+      - name: Houston, John M.
+        from: '1943-03-15'
+        to: '1953-08-27'
+        n: Democrat.
+        src: ['nlrb.gov, Board Members Since 1935', CDIR 1953-03]
+      - name: Herzog, Paul M.
+        from: '1945-07-05'
+        to: '1953-06-30'
+        out: Resigned.
+        n: Democrat. Chairman throughout.
+        src: ['nlrb.gov, Board Members Since 1935']
+      - name: Murdock, Abe
+        from: '1947-08-01'
+        to: '1957-12-16'
+        n: Democrat; former Senator from Utah.
+        src: ['nlrb.gov, Board Members Since 1935', CDIR 1957-03]
+      - name: Styles, Paul L.
+        from: '1950-02-27'
+        to: '1953-08-31'
+        n: Democrat.
+        src: ['nlrb.gov, Board Members Since 1935', CDIR 1953-03]
+      - name: Peterson, Ivar H.
+        from: '1952-03-21'
+        to: '1956-08-27'
+        n: Republican.
+        src: ['nlrb.gov, Board Members Since 1935', CDIR 1956-01]
+      - name: Farmer, Guy
+        given: Guy Otto
+        from: '1953-07-13'
+        to: '1955-08-27'
+        n: Republican. Chairman throughout.
+        src: ['nlrb.gov, Board Members Since 1935']
+      - name: Rodgers, Philip Ray
+        from: '1953-08-28'
+        to: '1963-08-27'
+        n: Republican.
+        src: ['nlrb.gov, Board Members Since 1935', CDIR 1963-03]
+      - name: Beeson, Albert C.
+        from: '1954-03-02'
+        to: '1954-12-16'
+        n: Republican.
+        src: ['nlrb.gov, Board Members Since 1935']
+      - name: Leedom, Boyd S.
+        from: '1955-04-04'
+        to: '1964-12-16'
+        n: Republican. Chairman, 1955–61.
+        src: ['nlrb.gov, Board Members Since 1935', CDIR 1964-01]
+      - name: Bean, Stephen S.
+        from: '1955-12-01'
+        to: '1960-08-27'
+        n: Republican.
+        src: ['nlrb.gov, Board Members Since 1935', CDIR 1960-01]
+      - name: Jenkins, Joseph Alton
+        from: '1957-03-28'
+        to: '1961-03-27'
+        n: Democrat.
+        src: ['nlrb.gov, Board Members Since 1935', CDIR 1961-04]
+      - name: Fanning, John H.
+        from: '1957-12-20'
+        n: Democrat. Served to Dec. 16, 1982; chairman, 1977–81.
+        src: ['nlrb.gov, Board Members Since 1935', CDIR 1973-12]
+      - name: Kimball, Arthur A.
+        from: '1960-09-13'
+        to: '1961-03-06'
+        n: Republican. Recess appointment by Eisenhower.
+        src: ['nlrb.gov, Board Members Since 1935']
+      - name: McCulloch, Frank W.
+        from: '1961-03-07'
+        to: '1970-08-27'
+        n: Democrat. Chairman to June 2, 1970.
+        src: ['nlrb.gov, Board Members Since 1935']
+      - name: Brown, Gerald A.
+        from: '1961-04-14'
+        to: '1971-08-27'
+        n: Democrat.
+        src: ['nlrb.gov, Board Members Since 1935', CDIR 1971-03]
+      - name: Jenkins, Howard, Jr.
+        from: '1963-08-28'
+        n: Republican. The first Negro member. Served to Aug. 27, 1983.
+        src: ['nlrb.gov, Board Members Since 1935', CDIR 1973-12]
+      - name: Zagoria, Sam
+        from: '1965-04-20'
+        to: '1969-12-16'
+        n: Republican.
+        src: ['nlrb.gov, Board Members Since 1935', CDIR 1969-03]
+      - name: Miller, Edward B.
+        from: '1970-06-03'
+        n: Republican. Chairman. Served to Dec. 16, 1974.
+        src: ['nlrb.gov, Board Members Since 1935']
+      - name: Kennedy, Ralph E.
+        from: '1970-12-14'
+        n: Republican. Served to July 31, 1975.
+        src: ['nlrb.gov, Board Members Since 1935', CDIR 1971-03]
+      - name: Penello, John A.
+        from: '1972-02-22'
+        n: Democrat. Served to Jan. 14, 1981.
+        src: ['nlrb.gov, Board Members Since 1935', CDIR 1973-03]
+  - id: general-counsel
+    title: General Counsel
+    rank: principal
+    appt: PAS
+    law:
+      - act: Labor Management Relations Act, 1947
+        date: '1947-06-23'
+        tags: [creates, appointment, powers]
+        cite: 'ch. 120, title I, § 101, 61 Stat. 136, 139'
+        usc: '29 U.S.C. § 153(d) (1958)'
+        does: 'A General Counsel appointed by the President, by and with the advice and consent of the Senate, for four years: general supervision over the attorneys and the regional offices; final authority, on behalf of the Board, over the investigation of charges and issuance and prosecution of complaints.'
+    n: The Board's list gives the beginning of service as appointment, continuation, or oath.
+    holders:
+      - name: Bott, George J.
+        from: '1950-09-29'
+        to: '1954-12-20'
+        src: ['nlrb.gov, General Counsels Since 1935']
+      - name: Kammholz, Theophil C.
+        from: '1955-03-29'
+        to: '1957-01-02'
+        n: 'Check: who acted, Dec. 20, 1954–Mar. 29, 1955.'
+        src: ['nlrb.gov, General Counsels Since 1935']
+      - name: McGuiness, Kenneth
+        acting: true
+        from: '1957-01-03'
+        to: '1957-03-03'
+        src: ['nlrb.gov, General Counsels Since 1935']
+      - name: Fenton, Jerome D.
+        from: '1957-03-04'
+        to: '1959-06-28'
+        src: ['nlrb.gov, General Counsels Since 1935']
+      - name: Rothman, Stuart
+        from: '1959-06-29'
+        to: '1963-05-13'
+        src: ['nlrb.gov, General Counsels Since 1935']
+      - name: Ordman, Arnold
+        from: '1963-05-14'
+        to: '1971-06-25'
+        src: ['nlrb.gov, General Counsels Since 1935']
+      - name: Goslee, Eugene G.
+        acting: true
+        from: '1971-06-26'
+        to: '1971-08-23'
+        src: ['nlrb.gov, General Counsels Since 1935']
+      - name: Nash, Peter G.
+        from: '1971-08-24'
+        n: Served to Aug. 14, 1975.
+        src: ['nlrb.gov, General Counsels Since 1935']

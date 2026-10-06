@@ -78,9 +78,11 @@ congress/switches.yaml    members who changed party in office (kept by hand)
 sources/states.yaml       each State's own official election publications, where to read them, what they print (kept by hand)
 daybook/<YYYY-MM>.yaml    every Public Papers (APP) and FRUS document by date (generated)
 daybook/abstracts.yaml    one-sentence abstracts, keyed by document (kept by hand or agent)
+executive/<unit>.yaml     the Executive Branch, 1953–74: each department or agency, its offices, their law and holders (kept by hand)
 build/                    generated pages (git-ignored)
 tools/bib/                the code behind ./bib
 tools/congress/           one-time scripts that made congress/ (see below)
+tools/executive/          the one-time script that seeded executive/ from POCOM
 ```
 
 | key  | cited as  | list                                         |
@@ -294,6 +296,43 @@ row) and the date seated (`congress/changes.yaml`, made by `tools/congress/make_
 from Wikipedia's Congress pages, "Changes in membership"; check a date against the
 Biographical Directory where it matters), and a change of party in office, with its date
 (`congress/switches.yaml`, by hand: Thurmond, Watson, Byrd Jr., Reid, Riegle).
+
+## The Executive Branch
+
+`./bib build` writes `build/executive.html`: the Executive Branch at each inauguration (1953, 1957, 1961,
+1965, 1969, 1973) and at the successions of Nov. 22, 1963, and Aug. 9, 1974, with every change during each
+term, through Aug. 31, 1974. A calendar entry tagged `executive:<YYYY-MM-DD>` (a term's first day) carries
+that term's block in `cal.html` and the reader; now Jan. 20, 1961.
+
+```
+executive/<unit>.yaml         one unit (department, agency, office of the President): its offices, in order,
+                              each with its law and its holders (schema: the docstring of tools/bib/executive.py)
+tools/bib/executive.py        renders the blocks and the page, checks the files (STYLE notes at the top)
+tools/bib/executive_names.py  who in the series is not yet in the roster
+tools/executive/make_state.py seeded state.yaml and missions.yaml from POCOM, once; don't rerun
+notes/executive-brief.md      the brief for whoever adds to the roster, person or agent
+```
+
+```
+./bib executive check                 the roster's errors only (./bib check runs them too)
+./bib executive who rusk              where a person is placed
+./bib executive names [part3|daybook|cal]   series persons with executive roles not yet placed
+```
+
+- Units nest by `under:` (the President at the top; the EOP; the departments in their order of creation;
+  the independent agencies), offices within a unit by `under:` (Rusk, and the men under Rusk). Ranks in the
+  terms of Art. II, § 2, cl. 2: heads of departments, principal officers (PAS), inferior officers (PA, HD),
+  employees, military officers (`rank`, `appt`).
+- Holders: `from` (taking office) is required; `nominated`, `confirmed`, `recess`, `appointed` (the
+  commission), `to`, `out`, `acting`. Holders in order of taking office; two who are not acting may not
+  overlap unless the office is `many: true`. Holders who left on a term's first day show only in the term before.
+- Law: `act`, `date`, `cite` (Statutes at Large: the page the act begins on, then the pin: the build links it
+  to govinfo), `usc` (the period's edition), `does`. Every unit and office should point to the provisions
+  that establish it and set its powers and manner of appointment.
+- Names as Part III writes them ("Rusk, Dean"), so the pointers find them; `given` for full given names.
+- State and the chiefs of mission come from POCOM (the Office of the Historian): commission, credentials,
+  end of mission. Others from the Congressional Directory (each session), the Senate's records, department
+  histories, and Wikipedia's lists for nominations. "Check" in a note marks a detail still to verify.
 
 ## Special elections
 

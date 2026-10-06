@@ -1,0 +1,182 @@
+# The Federal Aviation Agency, and before it the Airways Modernization Board. Kept by hand.
+# From Apr. 1, 1967, the Federal Aviation Administration in the Department of Transportation: see dot.yaml.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: faa
+name: Federal Aviation Agency
+under: president
+order: 500
+from: '1957-08-14'
+until: '1967-04-01'
+names:
+  - name: Airways Modernization Board
+    from: '1957-08-14'
+  - name: Federal Aviation Agency
+    from: '1958-08-23'
+law:
+  - act: Airways Modernization Act of 1957
+    date: '1957-08-14'
+    until: '1958-11-01'
+    tags: [creates, powers, appointment]
+    cite: 'Pub. L. 85-133, 71 Stat. 349'
+    does: Establishes an Airways Modernization Board of three, a Chairman appointed by the President with the advice and consent of the Senate, the Secretary of Defense and the Secretary of Commerce, to develop and select systems of navigation and traffic control for civil and military aviation; to expire June 30, 1960.
+  - act: Federal Aviation Act of 1958
+    date: '1958-08-23'
+    tags: [creates, powers, reorganizes]
+    cite: 'Pub. L. 85-726, § 301, 72 Stat. 731, 744'
+    usc: '49 U.S.C. § 1341 (1964)'
+    does: Establishes the Federal Aviation Agency, headed by an Administrator; transfers to it the functions of the Civil Aeronautics Administration, the Airways Modernization Board, and the safety rule-making of the Civil Aeronautics Board; repeals the Airways Modernization Act. Most provisions in effect sixty days after the first Administrator qualified (Dec. 31, 1958).
+  - act: Executive Order 10786
+    date: '1958-11-01'
+    tags: [reorganizes]
+    url: https://www.presidency.ucsb.edu/documents/executive-order-10786-transferring-functions-the-airways-modernization-board-the
+    does: Under § 304 of the Federal Aviation Act, transfers all functions of the Airways Modernization Board and its Chairman, with its records, property, employees and funds, to the Administrator of the Federal Aviation Agency.
+  - act: Department of Transportation Act
+    date: '1966-10-15'
+    effective: '1967-04-01'
+    tags: [reorganizes]
+    cite: 'Pub. L. 89-670, § 3(e), 80 Stat. 931, 932'
+    usc: '49 U.S.C. § 1652 (1970)'
+    does: The Federal Aviation Agency transferred to the Department of Transportation as the Federal Aviation Administration, headed by an Administrator.
+n: 'Quesada sworn as the first Administrator Nov. 1, 1958; the Agency assumed its full functions Dec. 31, 1958, superseding the Civil Aeronautics Administration (Department of Commerce). From Apr. 1, 1967, a modal administration of the Department of Transportation. Source for the dates: FAA Historical Chronology, 1926–1996 (FAA).'
+offices:
+  - id: special-assistant
+    title: Special Assistant to the President for Aviation Facilities Planning
+    titles:
+      - title: Special Assistant to the President for Aviation
+        from: '1957-07-17'
+    rank: principal
+    appt: PA
+    from: '1956-02-10'
+    until: '1958-11-01'
+    group: Before the Agency
+    n: A White House post. Curtis's final report (May 10, 1957) proposed an Airways Modernization Board at once and an independent Federal Aviation Agency to follow.
+    holders:
+      - name: Curtis, Edward P.
+        given: Edward Peck
+        from: '1956-02-10'
+        to: '1957-05-10'
+        out: Final report submitted.
+        n: 'Check: when he left the post.'
+        src: [FAA Historical Chronology, 1926–1996, Wikipedia, Edward Peck Curtis]
+      - name: Quesada, Elwood R.
+        given: Elwood Richard
+        from: '1957-07-17'
+        to: '1958-11-01'
+        out: To Administrator.
+        n: Charged with carrying out the Curtis plan; also Chairman of the Airways Modernization Board.
+        src: [FAA Historical Chronology, 1926–1996]
+  - id: amb-chairman
+    title: Chairman, Airways Modernization Board
+    rank: head
+    appt: PAS
+    from: '1957-08-14'
+    until: '1958-11-01'
+    group: Before the Agency
+    n: The other members the Secretaries of Defense and Commerce, who designated Malcolm A. MacIntyre (Under Secretary of the Air Force) and Louis S. Rothschild (Under Secretary of Commerce for Transportation) to sit in their stead.
+    holders:
+      - name: Quesada, Elwood R.
+        given: Elwood Richard
+        confirmed: '1957-08-16'
+        from: '1957-08-16'
+        to: '1958-11-01'
+        out: Board's functions to the Federal Aviation Agency.
+        n: 'Check: the day he took office.'
+        src: [FAA Historical Chronology, 1926–1996, CDIR 1958-01]
+  - id: administrator
+    title: Administrator of the Federal Aviation Agency
+    rank: head
+    appt: PAS
+    level: II
+    from: '1958-08-23'
+    until: '1967-04-01'
+    law:
+      - act: Federal Aviation Act of 1958
+        date: '1958-08-23'
+        tags: [creates, appointment, pay]
+        cite: 'Pub. L. 85-726, § 301, 72 Stat. 731, 744'
+        usc: '49 U.S.C. § 1341 (1964)'
+        does: 'The Administrator appointed by the President with the advice and consent of the Senate; $22,500; responsible for all the Agency''s powers and duties, not bound by any board or committee created by Executive order. At his nomination a civilian, with experience in a field directly related to aviation; no interest in any aeronautical enterprise, no other business.'
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(b), 78 Stat. 400, 416'
+        usc: '5 U.S.C. § 5313 (1970)'
+        does: The Administrator in level II.
+    holders:
+      - name: Quesada, Elwood R.
+        given: Elwood Richard
+        rank: Lt. Gen., USAF (ret.)
+        from: '1958-11-01'
+        to: '1961-01-20'
+        out: Resigned.
+        src: [FAA Historical Chronology, 1926–1996, Wikipedia, Federal Aviation Administration, CDIR 1959-03]
+      - name: Pyle, James T.
+        given: James Tate
+        acting: true
+        from: '1961-01-20'
+        to: '1961-03-03'
+        n: Acting as Deputy Administrator.
+        src: [FAA Historical Chronology, 1926–1996]
+      - name: Halaby, Najeeb E.
+        given: Najeeb Elias
+        nominated: '1961-02-13'
+        confirmed: '1961-02-24'
+        from: '1961-03-03'
+        to: '1965-07-01'
+        out: Resigned.
+        n: Selection announced Jan. 19, 1961.
+        src: [FAA Historical Chronology, 1926–1996, Wikipedia, Najeeb Halaby, CDIR 1961-04 to 1965-03]
+      - name: McKee, William F.
+        given: William Fulton
+        rank: Gen., USAF (ret.)
+        nominated: '1965-06-23'
+        confirmed: '1965-06-30'
+        from: '1965-07-01'
+        to: '1967-04-01'
+        out: Continued as Administrator of the Federal Aviation Administration, Department of Transportation (to July 31, 1968).
+        n: Selection announced Apr. 27, 1965; nominated after Congress passed, June 22, 1965, an act exempting him from the requirement that the Administrator be a civilian.
+        src: [FAA Historical Chronology, 1926–1996, CDIR 1966-01, 1967-02]
+  - id: deputy-administrator
+    title: Deputy Administrator of the Federal Aviation Agency
+    rank: principal
+    appt: PAS
+    level: IV
+    from: '1958-08-23'
+    until: '1967-04-01'
+    law:
+      - act: Federal Aviation Act of 1958
+        date: '1958-08-23'
+        tags: [creates, appointment, vacancy]
+        cite: 'Pub. L. 85-726, § 302, 72 Stat. 731, 744'
+        usc: '49 U.S.C. § 1342 (1964)'
+        does: A Deputy Administrator appointed by the President with the advice and consent of the Senate; $20,500; acts for the Administrator in his absence or disability. A citizen; may be an officer of the armed services, but not if the Administrator is a former regular officer.
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(d), 78 Stat. 400, 417'
+        usc: '5 U.S.C. § 5315 (1970)'
+        does: The Deputy Administrator in level IV.
+    holders:
+      - name: Pyle, James T.
+        given: James Tate
+        from: '1958-12-31'
+        to: '1961-11-30'
+        n: The last Administrator of Civil Aeronautics (interim appointment Dec. 26, 1956; confirmed Feb. 11, 1957). Acting Administrator, Jan. 20–Mar. 3, 1961.
+        src: [FAA Historical Chronology, 1926–1996, CDIR 1961-04]
+      - name: Grant, Harold W.
+        given: Harold Wiley
+        rank: Maj. Gen., USAF; Lt. Gen. by 1963
+        confirmed: '1962-02-21'
+        from: '1962-02-21'
+        to: '1965-06-30'
+        out: Resigned; barred from serving under McKee, a former regular officer.
+        n: 'Selected Feb. 1, 1962. Check: the day he took office.'
+        src: [FAA Historical Chronology, 1926–1996, CDIR 1963-03 to 1965-03]
+      - name: Thomas, David D.
+        from: '1965-07-01'
+        to: '1967-04-01'
+        out: Continued as Deputy Administrator, Federal Aviation Administration.
+        n: Associate Administrator for Programs before (from June 1963).
+        src: [FAA Historical Chronology, 1926–1996, CDIR 1967-02]

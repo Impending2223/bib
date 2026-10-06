@@ -1,0 +1,19 @@
+/* Shared by the rosters: Congress at each opening, the elections and specials (templates/congress.html),
+   and the Executive Branch at each term (tools/bib/executive.py). Loaded once a page by tools/bib/roster.py.
+   Each block keeps here only what the others share: the block and its heading, the summary lines, the
+   collapsible tables (details.cgr) with their group rows and highlighted rows, the notes under a name, the
+   small buttons. Column widths and a table's own cells stay with its block. */
+.cg{margin:1rem 0 .5rem;font-family:var(--sans)}
+.cg .cgh{font-weight:700;font-size:.95rem;margin:.2rem 0 .4rem}
+.cg .cgs{font-size:.82rem;line-height:1.4;color:var(--muted);margin:.15rem 0 .5rem}
+details.cgr{margin:.5rem 0;font-size:.85rem}
+details.cgr>summary{cursor:pointer;font-weight:600;padding:.3rem 0}
+details.cgr>summary .cgsm{font-weight:400;color:var(--muted)}
+details.cgr table{width:100%;border-collapse:collapse;table-layout:fixed}
+details.cgr th,details.cgr td{text-align:left;vertical-align:top;padding:.25rem .3rem .25rem 0;border-bottom:1px solid var(--rule)}
+details.cgr thead th{font-size:.75rem;color:var(--muted)}
+details.cgr tr.st th{padding-top:.8rem;font-size:.85rem;border-bottom:1px solid var(--ink)}
+details.cgr tr:target td,details.cgr tr.hit td{background:var(--hl-bg);color:var(--hl-ink)}
+.cgn{display:block;font-family:var(--serif);font-size:.85rem;color:var(--note)}
+.cgn.cgc{font-family:var(--sans);font-size:.78rem;color:var(--muted)}
+.cg button.cgb{font:600 .72rem/1 var(--sans);padding:.35rem .5rem;border:1px solid var(--rule);border-radius:5px;background:var(--panel);color:var(--muted);cursor:pointer}

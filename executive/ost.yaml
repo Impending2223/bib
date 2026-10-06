@@ -1,0 +1,207 @@
+# The President's science adviser: the Special Assistant to the President for Science and Technology (Nov. 1957),
+# the President's Science Advisory Committee (from the Office of Defense Mobilization's Science Advisory Committee,
+# Nov. 1957), and the Office of Science and Technology (1962–73). Kept by hand.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: ost
+name: Office of Science and Technology
+under: eop
+order: 60
+from: '1957-11-07'
+until: '1973-07-01'
+law:
+  - act: Reorganization Plan No. 2 of 1962
+    date: '1962-06-08'
+    cite: '76 Stat. 1253'
+    usc: '42 U.S.C. § 1861 note (1964)'
+    tags: [creates, appointment, vacancy, pay, powers]
+    does: 'Establishes in the Executive Office the Office of Science and Technology, under a Director ($22,500) and a Deputy Director ($20,500), both appointed by the President by and with the advice and consent of the Senate; the Deputy acts in the Director''s absence or a vacancy; transfers from the National Science Foundation the functions of advising the President on coordinated policy for basic research and education in the sciences and of evaluating the Government''s scientific research programs (Part I).'
+  - act: Reorganization Plan No. 1 of 1973
+    date: '1973-07-01'
+    cite: '87 Stat. 1089'
+    usc: '5 U.S.C. App. (1970 Supp. IV)'
+    tags: [reorganizes]
+    does: 'Transfers the functions of the Office and its Director and Deputy Director to the Director of the National Science Foundation and abolishes the Office (§§ 2, 3(a)(5)).'
+n: 'The office of Special Assistant announced by Eisenhower Nov. 7, 1957, after Sputnik. Before the Office, the Special Assistant''s staff was in the White House Office. Federal Council for Science and Technology, Executive Order 10807, Mar. 13, 1959, the Special Assistant chairman.'
+offices:
+  - id: special-assistant
+    title: Special Assistant to the President for Science and Technology
+    titles: [{title: Science Adviser to the President, from: '1969'}]
+    rank: head
+    appt: PA
+    until: '1973-07-01'
+    n: 'Held with the Directorship of the Office of Science and Technology from 1962, and with the chairmanship of the Science Advisory Committee and of the Federal Council for Science and Technology. From July 1, 1973, the Director of the National Science Foundation (Stever) was named Science Adviser.'
+    holders:
+      - name: Killian, James R., Jr.
+        given: James Rhyne
+        from: '1957-11-07'
+        to: '1959-07-15'
+        out: Resigned; to the Massachusetts Institute of Technology.
+        n: 'Check the day he left: FRUS gives May and July 1959.'
+        src: ['Wikipedia: James Rhyne Killian', FRUS persons list]
+      - name: Kistiakowsky, George B.
+        from: '1959-07-15'
+        to: '1961-01-20'
+        out: Resigned at the change of Administration; resignation accepted Jan. 9, 1961 (APP).
+        src: [FRUS persons list, APP]
+      - name: Wiesner, Jerome B.
+        from: '1961-01-20'
+        to: '1964-01-24'
+        out: Resigned; to the Massachusetts Institute of Technology.
+        src: ['Wikipedia: Jerome Wiesner', FRUS persons list]
+      - name: Hornig, Donald F.
+        from: '1964-01-24'
+        to: '1969-01-20'
+        out: Resigned at the change of Administration.
+        src: ['Wikipedia: Donald Hornig', FRUS persons list]
+      - name: DuBridge, Lee A.
+        from: '1969-01-20'
+        to: '1970-08-31'
+        out: Resigned.
+        src: ['Wikipedia: Lee Alvin DuBridge', FRUS persons list]
+      - name: David, Edward E., Jr.
+        from: '1970-08-31'
+        to: '1973-01-26'
+        out: Resigned.
+        n: 'Check: FRUS gives Sept. 14, 1970 for taking office.'
+        src: ['Wikipedia: Edward E. David Jr.', FRUS persons list]
+  - id: director
+    title: Director of the Office of Science and Technology
+    rank: principal
+    appt: PAS
+    level: II
+    from: '1962-06-08'
+    until: '1973-07-01'
+    n: Held by the Special Assistant.
+    law:
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07-01'
+        until: '1966-09-06'
+        cite: 'Pub. L. 88-426, § 303(b)(12), 78 Stat. 400, 416'
+        tags: [pay]
+        does: Director of the Office of Science and Technology, level II.
+      - act: Act of Sept. 6, 1966 (Title 5 enacted)
+        date: '1966-09-06'
+        cite: 'Pub. L. 89-554, 80 Stat. 378, 460'
+        usc: '5 U.S.C. § 5313 (1970)'
+        tags: [pay]
+        does: Director of the Office of Science and Technology, level II.
+    holders:
+      - name: Wiesner, Jerome B.
+        from: '1962-06'
+        to: '1964-01-24'
+        n: Check the nomination, confirmation, and oath as Director.
+        src: [FRUS persons list, CDIR 1963-03]
+      - name: Hornig, Donald F.
+        from: '1964-01-24'
+        to: '1969-01-20'
+        n: Check the nomination and confirmation.
+        src: ['Wikipedia: Donald Hornig', CDIR 1965-03]
+      - name: DuBridge, Lee A.
+        from: '1969-01-20'
+        to: '1970-08-31'
+        src: ['Wikipedia: Lee Alvin DuBridge', CDIR 1969-03]
+      - name: David, Edward E., Jr.
+        from: '1970-08-31'
+        to: '1973-01-26'
+        n: 'Check: FRUS gives Sept. 14, 1970.'
+        src: ['Wikipedia: Edward E. David Jr.', FRUS persons list, CDIR 1971-03]
+  - id: deputy-director
+    title: Deputy Director of the Office of Science and Technology
+    rank: principal
+    appt: PAS
+    level: IV
+    from: '1962-06-08'
+    until: '1973-07-01'
+    law:
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07-01'
+        until: '1966-09-06'
+        cite: 'Pub. L. 88-426, § 303(d)(33), 78 Stat. 400, 418'
+        tags: [pay]
+        does: Deputy Director of the Office of Science and Technology, level IV.
+      - act: Act of Sept. 6, 1966 (Title 5 enacted)
+        date: '1966-09-06'
+        cite: 'Pub. L. 89-554, 80 Stat. 378, 462'
+        usc: '5 U.S.C. § 5315 (1970)'
+        tags: [pay]
+        does: Deputy Director of the Office of Science and Technology, level IV.
+    holders:
+      - name: MacLeod, Colin M.
+        from: '1963'
+        to: '1966'
+        n: 'The first Deputy Director (Wikipedia). Listed in the Congressional Directory, Jan. 1964–Jan. 1966. Check the dates of office.'
+        src: ['Wikipedia: Colin Munro MacLeod', CDIR 1964-01, CDIR 1966-01]
+      - name: Bennett, Ivan L., Jr.
+        from: '1966'
+        to: '1969'
+        n: 'Listed in the Congressional Directory, Feb.–Dec. 1967. Check the dates of office.'
+        src: ['Wikipedia: Ivan L. Bennett Jr.', CDIR 1967-02, CDIR 1967-12]
+      - name: Heffner, Hubert
+        from: '1969'
+        to: '1971'
+        n: Listed in the Congressional Directory, Dec. 1969–Mar. 1971. Check the dates of office.
+        src: [CDIR 1969-12, CDIR 1971-03]
+      - name: Baldeschwieler, John D.
+        from: '1971'
+        to: '1973'
+        n: Listed in the Congressional Directory, Dec. 1971. Check the dates of office.
+        src: [CDIR 1971-12]
+  - id: psac-chairman
+    title: Chairman of the Science Advisory Committee, Office of Defense Mobilization
+    titles: [{title: Chairman of the President's Science Advisory Committee, from: '1957-11'}]
+    rank: principal
+    appt: DES
+    until: '1973-07-01'
+    n: 'The Committee, of 1951, advisory to the Director of Defense Mobilization; reconstituted as the President''s Science Advisory Committee, Nov. 1957, with the Special Assistant as chairman (from Dec. 1957). Abolished with the Office, 1973.'
+    holders:
+      - name: DuBridge, Lee A.
+        from: '1952'
+        to: '1956'
+        n: Listed as chairman Mar. 1953–Jan. 1956. Check the dates.
+        src: ['Wikipedia: Lee Alvin DuBridge', CDIR 1953-03, CDIR 1956-01]
+      - name: Rabi, Isidor I.
+        from: '1956'
+        to: '1957-11-07'
+        n: 'A member from 1955 (FRUS). Check the dates.'
+        src: ['Wikipedia: James Rhyne Killian', FRUS persons list, CDIR 1957-03, CDIR 1958-01]
+      - name: Killian, James R., Jr.
+        given: James Rhyne
+        from: '1957-11-07'
+        to: '1959-07-15'
+        src: ['Wikipedia: James Rhyne Killian']
+      - name: Kistiakowsky, George B.
+        from: '1959-07-15'
+        to: '1961-01-20'
+        src: ['Wikipedia: George Kistiakowsky']
+      - name: Wiesner, Jerome B.
+        from: '1961-02'
+        to: '1964-01-24'
+        n: Named chairman Feb. 1961 (Wikipedia).
+        src: ['Wikipedia: Jerome Wiesner']
+      - name: Hornig, Donald F.
+        from: '1964-01-24'
+        to: '1969-01-20'
+        src: ['Wikipedia: Donald Hornig']
+      - name: DuBridge, Lee A.
+        from: '1969-01-20'
+        to: '1970-08-31'
+        src: ['Wikipedia: Lee Alvin DuBridge']
+      - name: David, Edward E., Jr.
+        from: '1970-08-31'
+        to: '1973-01-26'
+        src: ['Wikipedia: Edward E. David Jr.']
+  - id: assistant-to-director
+    title: Assistant to the Director
+    titles: [{title: Executive Assistant to the Director, from: '1971'}]
+    rank: employee
+    appt: CAREER
+    from: '1962-06-08'
+    until: '1973-07-01'
+    holders:
+      - name: Beckler, David Z.
+        from: '1962'
+        to: '1973-07-01'
+        n: 'Listed in the Congressional Directory, Mar. 1963–Mar. 1973 (Assistant Director, 1971). Check the dates of office.'
+        src: [CDIR 1963-03, CDIR 1973-03]

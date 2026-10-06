@@ -337,6 +337,9 @@ def inject(page, series):
                     blk = race_block(m.group(1))
                     pat = re.compile(r'(<li id="' + re.escape(e["id"]) + r'"[^>]*>.*?)(</li>)', re.S)
                     page = pat.sub(lambda mm: mm.group(1) + blk + mm.group(2), page, count=1)
+    if 'class="cg sprace"' in page:
+        from . import roster
+        page = roster.ensure(page)
     return page
 
 

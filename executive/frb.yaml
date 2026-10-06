@@ -1,0 +1,204 @@
+# Board of Governors of the Federal Reserve System. Kept by hand.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: frb
+name: Board of Governors of the Federal Reserve System
+under: president
+order: 500
+law:
+  - act: Federal Reserve Act
+    date: '1913-12-23'
+    tags: [creates, powers]
+    cite: 'ch. 6, § 10, 38 Stat. 251, 260'
+    usc: '12 U.S.C. § 241 (1958)'
+    does: Creates the Federal Reserve Board, to supervise the Federal Reserve banks.
+  - act: Banking Act of 1935
+    date: '1935-08-23'
+    tags: [reorganizes, appointment]
+    cite: 'ch. 614, § 203, 49 Stat. 684, 704'
+    usc: ['12 U.S.C. §§ 241–242 (1958)', '12 U.S.C. §§ 241–242 (1970)']
+    does: 'Renames it the Board of Governors of the Federal Reserve System. Seven members appointed by the President, by and with the advice and consent of the Senate, for fourteen years; not more than one from any Federal Reserve district; due regard to financial, agricultural, industrial, and commercial interests and geographical divisions. A member who has served a full term not eligible for reappointment. Members serve until successors qualify. The Secretary of the Treasury and the Comptroller of the Currency off the Board from Feb. 1, 1936.'
+n: 'Terms of fourteen years run from Feb. 1 of even years; one expires every two years. The Fed''s list of members gives the day each took the oath, and how each left.'
+offices:
+  - id: chairman
+    title: Chairman of the Board of Governors
+    rank: head
+    appt: DES
+    level: II
+    law:
+      - act: Banking Act of 1935
+        date: '1935-08-23'
+        tags: [appointment, powers]
+        cite: 'ch. 614, § 203(b), 49 Stat. 684, 705'
+        usc: '12 U.S.C. § 242 (1958)'
+        does: 'One of the members designated by the President as chairman, for four years. The chairman, subject to the Board''s supervision, its active executive officer; presides at its meetings.'
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(b), 78 Stat. 400, 416'
+        usc: '5 U.S.C. § 5313 (1970)'
+        does: Level II of the Federal Executive Salary Schedule, $30,000.
+    holders:
+      - name: Martin, William McChesney, Jr.
+        from: '1951-04-02'
+        to: '1970-01-31'
+        out: Term as member expired.
+        n: Designated by Truman, 1951; redesignated by Eisenhower, Kennedy, and Johnson for four-year terms (1955, 1959, 1963, 1967).
+        src: ['federalreserve.gov, Board Members 1914–present', 'Wikipedia: Chair of the Federal Reserve']
+      - name: Burns, Arthur F.
+        from: '1970-02-01'
+        n: Nomination announced Oct. 17, 1969 (APP). Sworn as member and chairman Jan. 31, 1970, at the White House (APP); his term as chairman ran from Feb. 1. Served to Mar. 31, 1978.
+        src: ['federalreserve.gov, Board Members 1914–present', APP]
+  - id: vice-chairman
+    title: Vice Chairman of the Board of Governors
+    rank: principal
+    appt: DES
+    law:
+      - act: Banking Act of 1935
+        date: '1935-08-23'
+        tags: [appointment]
+        cite: 'ch. 614, § 203(b), 49 Stat. 684, 705'
+        usc: '12 U.S.C. § 242 (1958)'
+        does: One member designated by the President as vice chairman, for four years; presides in the chairman's absence.
+    holders:
+      - name: Balderston, C. Canby
+        from: '1955-03-11'
+        to: '1966-02-28'
+        out: Retired from the Board.
+        src: ['federalreserve.gov, Board Members 1914–present']
+      - name: Robertson, J. L.
+        given: James Louis
+        from: '1966-03-01'
+        to: '1973-04-30'
+        out: Resigned.
+        src: ['federalreserve.gov, Board Members 1914–present']
+      - name: Mitchell, George W.
+        from: '1973-05-01'
+        n: 'Served to Feb. 13, 1976. Check: Wikipedia''s table of seats gives Mar. 1, 1973.'
+        src: ['federalreserve.gov, Board Members 1914–present']
+  - id: member
+    title: Member of the Board of Governors
+    rank: principal
+    appt: PAS
+    many: true
+    law:
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(c), 78 Stat. 400, 417'
+        usc: '5 U.S.C. § 5314 (1970)'
+        does: Members at Level III, $28,500.
+    n: Seven members. Dates are the oath of office, as the Board lists them.
+    holders:
+      - name: Szymczak, M. S.
+        given: Menc Stephen
+        from: '1933-06-14'
+        to: '1961-05-31'
+        out: Resigned.
+        n: Chicago district. Reappointed 1936 and 1948.
+        src: ['federalreserve.gov, Board Members 1914–present']
+      - name: Evans, Rudolph M.
+        from: '1942-03-14'
+        to: '1954-08-13'
+        out: Served until successor qualified.
+        n: Richmond district.
+        src: ['federalreserve.gov, Board Members 1914–present']
+      - name: Vardaman, James K., Jr.
+        from: '1946-04-04'
+        to: '1958-11-30'
+        out: Resigned.
+        n: St. Louis district.
+        src: ['federalreserve.gov, Board Members 1914–present']
+      - name: Martin, William McChesney, Jr.
+        from: '1951-04-02'
+        to: '1970-01-31'
+        out: Term expired.
+        n: New York district. Appointed to the term ending Jan. 31, 1956; reappointed 1956 for fourteen years. Chairman throughout.
+        src: ['federalreserve.gov, Board Members 1914–present']
+      - name: Mills, A. L., Jr.
+        given: Abbot Low
+        from: '1952-02-18'
+        to: '1965-02-28'
+        out: Resigned.
+        n: San Francisco district. Reappointed 1958.
+        src: ['federalreserve.gov, Board Members 1914–present']
+      - name: Robertson, J. L.
+        given: James Louis
+        from: '1952-02-18'
+        to: '1973-04-30'
+        out: Resigned.
+        n: Kansas City district. Reappointed 1964. Vice chairman from Mar. 1, 1966.
+        src: ['federalreserve.gov, Board Members 1914–present']
+      - name: Balderston, C. Canby
+        from: '1954-08-12'
+        to: '1966-02-28'
+        out: Served through the end of his term.
+        n: Philadelphia district. Vice chairman from Mar. 11, 1955.
+        src: ['federalreserve.gov, Board Members 1914–present']
+      - name: Miller, Paul E.
+        from: '1954-08-13'
+        to: '1954-10-21'
+        out: Died.
+        n: Minneapolis district.
+        src: ['federalreserve.gov, Board Members 1914–present']
+      - name: Shepardson, Charles N.
+        from: '1955-03-17'
+        to: '1967-04-30'
+        out: Retired.
+        n: Dallas district.
+        src: ['federalreserve.gov, Board Members 1914–present']
+      - name: King, G. H., Jr.
+        from: '1959-03-25'
+        to: '1963-09-18'
+        out: Resigned.
+        n: Atlanta district. Reappointed 1960.
+        src: ['federalreserve.gov, Board Members 1914–present']
+      - name: Mitchell, George W.
+        from: '1961-08-31'
+        n: Chicago district. Reappointed 1962. Vice chairman from May 1, 1973. Served to Feb. 13, 1976.
+        src: ['federalreserve.gov, Board Members 1914–present']
+      - name: Daane, J. Dewey
+        from: '1963-11-29'
+        to: '1974-03-08'
+        out: Served until successor qualified.
+        n: Richmond district.
+        src: ['federalreserve.gov, Board Members 1914–present']
+      - name: Maisel, Sherman J.
+        from: '1965-04-30'
+        to: '1972-05-31'
+        out: Served through the end of his term.
+        n: San Francisco district.
+        src: ['federalreserve.gov, Board Members 1914–present']
+      - name: Brimmer, Andrew F.
+        from: '1966-03-09'
+        to: '1974-08-31'
+        out: Resigned.
+        n: Philadelphia district. The first Negro member. Sworn by Martin at the White House (APP).
+        src: ['federalreserve.gov, Board Members 1914–present', APP]
+      - name: Sherrill, William W.
+        from: '1967-05-01'
+        to: '1971-11-15'
+        out: Resigned.
+        n: Dallas district. Reappointed 1968.
+        src: ['federalreserve.gov, Board Members 1914–present']
+      - name: Burns, Arthur F.
+        from: '1970-01-31'
+        n: New York district. Term began Feb. 1, 1970. Chairman. Served to Mar. 31, 1978.
+        src: ['federalreserve.gov, Board Members 1914–present']
+      - name: Sheehan, John E.
+        from: '1972-01-04'
+        n: St. Louis district. Served to June 1, 1975.
+        src: ['federalreserve.gov, Board Members 1914–present']
+      - name: Bucher, Jeffrey M.
+        from: '1972-06-05'
+        n: San Francisco district. Served to Jan. 2, 1976.
+        src: ['federalreserve.gov, Board Members 1914–present']
+      - name: Holland, Robert C.
+        from: '1973-06-11'
+        n: Kansas City district. Served to May 15, 1976.
+        src: ['federalreserve.gov, Board Members 1914–present']
+      - name: Wallich, Henry C.
+        from: '1974-03-08'
+        n: Boston district. Served to Dec. 15, 1986.
+        src: ['federalreserve.gov, Board Members 1914–present']

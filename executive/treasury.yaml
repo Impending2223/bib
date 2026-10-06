@@ -1,0 +1,1229 @@
+# The Department of the Treasury. Kept by hand.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+# Dates of service for the Office of the Secretary: the Treasury's own tables, Annual Report of the
+# Secretary of the Treasury, 1973, exhibit 81 (officials from 1789 to Jan. 20, 1973), and 1974, p. XI
+# (Jan. 21, 1973, to June 30, 1974); FRASER, St. Louis Fed.
+unit: treasury
+name: Department of the Treasury
+under: president
+order: 40
+law:
+  - act: Act of Sept. 2, 1789
+    date: '1789-09-02'
+    cite: 'ch. 12, 1 Stat. 65'
+    usc: ['5 U.S.C. §§ 241, 242 (1958)', '31 U.S.C. § 1001 (1970)']
+    tags: [creates, powers, appointment]
+    does: 'A Department of Treasury: a Secretary of the Treasury, to be deemed head of the department; a Comptroller, an Auditor, a Treasurer, a Register, and an Assistant to the Secretary. The Secretary to digest and prepare plans for the improvement and management of the revenue and the support of the public credit; prepare estimates; superintend the collection of the revenue; grant warrants for moneys issued from the Treasury in pursuance of appropriations by law; report to either House on matters referred to him.'
+  - act: Reorganization Plan No. 26 of 1950
+    date: '1950-07-31'
+    cite: '64 Stat. 1280'
+    usc: '5 U.S.C. § 241 note (1958)'
+    tags: [powers, reorganizes]
+    does: 'Transfers to the Secretary all functions of all other officers, agencies and employees of the Department, except the hearing examiners'' and the Comptroller of the Currency''s; the Secretary may authorize any officer or employee to perform any function of the Secretary.'
+  - act: Executive Order 10941
+    date: '1961-05-15'
+    url: https://www.presidency.ucsb.edu/documents/executive-order-10941-designation-certain-officers-act-secretary-the-treasury
+    tags: [vacancy]
+    does: 'Designates the officers who act as Secretary of the Treasury in the absence of the Secretary and of the officers the statute names, in a fixed order.'
+  - act: Act of May 18, 1972
+    date: '1972-05-18'
+    cite: 'Pub. L. 92-302, 86 Stat. 148'
+    usc: '31 U.S.C. §§ 1004, 1005a (1970 Supp. III)'
+    tags: [creates, appointment, vacancy, pay]
+    does: 'Establishes a Deputy Secretary, who acts as Secretary in a vacancy; keeps an Under Secretary, whom the President may designate Counselor, and the Under Secretary for Monetary Affairs; adds two Deputy Under Secretaries, whom the President may designate Assistant Secretaries; the Assistant Secretary for Administration appointed by the President, with the Senate''s consent.'
+offices:
+  - id: secretary
+    title: Secretary of the Treasury
+    rank: head
+    appt: PAS
+    level: I
+    law:
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        cite: 'Pub. L. 88-426, § 303(a), 78 Stat. 400, 416'
+        usc: '5 U.S.C. § 5312 (1970)'
+        tags: [pay]
+        does: 'The Secretary of the Treasury in level I of the Federal Executive Salary Schedule, $35,000. In force from the first pay period on or after July 1, 1964.'
+    holders:
+      - name: Snyder, John W.
+        given: John Wesley
+        from: '1946-06-25'
+        to: '1953-01-20'
+        src: [Treasury Annual Report 1973, exhibit 81]
+      - name: Humphrey, George M.
+        given: George Magoffin
+        from: '1953-01-21'
+        to: '1957-07-28'
+        out: Resigned.
+        n: 'Check: Wikipedia gives July 29, 1957, as his last day.'
+        src: [Treasury Annual Report 1973, exhibit 81, 'Wikipedia: George M. Humphrey']
+      - name: Anderson, Robert B.
+        given: Robert Bernard
+        from: '1957-07-29'
+        to: '1961-01-20'
+        src: [Treasury Annual Report 1973, exhibit 81]
+      - name: Dillon, C. Douglas
+        given: Clarence Douglas
+        from: '1961-01-21'
+        to: '1965-04-01'
+        out: Resigned.
+        n: A Republican; Under Secretary of State to Jan. 4, 1961.
+        src: [Treasury Annual Report 1973, exhibit 81, CDIR 1961-04]
+      - name: Fowler, Henry H.
+        given: Henry Hammill
+        from: '1965-04-01'
+        to: '1968-12-20'
+        out: Resigned.
+        n: Under Secretary, 1961–64.
+        src: [Treasury Annual Report 1973, exhibit 81]
+      - name: Barr, Joseph W.
+        given: Joseph Walker
+        recess: '1968-12'
+        from: '1968-12-21'
+        to: '1969-01-20'
+        n: 'Under Secretary, 1965–68. A recess appointment, for the rest of Johnson''s term; not confirmed. Check the date of the commission.'
+        src: [Treasury Annual Report 1973, exhibit 81, 'Wikipedia: Joseph W. Barr']
+      - name: Kennedy, David M.
+        given: David Matthew
+        from: '1969-01-22'
+        to: '1971-02-10'
+        out: Resigned; to Ambassador at Large.
+        src: [Treasury Annual Report 1973, exhibit 81]
+      - name: Connally, John
+        given: John Bowden
+        from: '1971-02-11'
+        to: '1972-06-12'
+        out: Resigned.
+        n: A Democrat; former Governor of Texas.
+        src: [Treasury Annual Report 1973, exhibit 81]
+      - name: Shultz, George P.
+        given: George Pratt
+        from: '1972-06-12'
+        to: '1974-05-08'
+        out: Resigned.
+        n: Secretary of Labor, 1969–70; Director of the Office of Management and Budget, 1970–72.
+        src: [Treasury Annual Report 1973, exhibit 81, Treasury Annual Report 1974]
+      - name: Simon, William E.
+        given: William Edward
+        from: '1974-05-08'
+        n: Deputy Secretary, 1973–74. Kept by Ford.
+        src: [Treasury Annual Report 1974, 'Wikipedia: William E. Simon']
+
+  - id: deputy-secretary
+    title: Deputy Secretary of the Treasury
+    rank: principal
+    appt: PAS
+    level: II
+    from: '1972-05-18'
+    n: Established by the Act of May 18, 1972, as the Department's second officer, above the Under Secretaries.
+    holders:
+      - name: Walker, Charls E.
+        given: Charls Edward
+        from: '1972-06-12'
+        to: '1973-01-17'
+        out: Resigned.
+        n: Under Secretary to June 12, 1972.
+        src: [Treasury Annual Report 1973, exhibit 81]
+      - name: Simon, William E.
+        given: William Edward
+        from: '1973-01-22'
+        to: '1974-05-08'
+        out: To Secretary of the Treasury.
+        n: Also Administrator of the Federal Energy Office, Dec. 4, 1973–May 7, 1974.
+        src: [Treasury Annual Report 1974, FRUS persons list]
+
+  - id: under-secretary
+    title: Under Secretary of the Treasury
+    titles:
+      - {title: Under Secretary of the Treasury (Counselor), from: '1972-06-12'}
+    rank: principal
+    appt: PAS
+    level: III
+    law:
+      - act: Act of Feb. 17, 1922
+        date: '1922-02-17'
+        cite: 'ch. 55, 42 Stat. 366'
+        usc: '5 U.S.C. § 244 (1958)'
+        tags: [creates, appointment]
+        does: 'Establishes the office of Under Secretary of the Treasury, appointed by the President, by and with the advice and consent of the Senate, to perform such duties in the Office of the Secretary as the Secretary prescribes.'
+      - act: Act of July 22, 1954
+        date: '1954-07-22'
+        cite: 'ch. 557, § 3, 68 Stat. 496'
+        usc: '5 U.S.C. § 244 (1958)'
+        until: '1972-05-18'
+        tags: [appointment, pay]
+        does: 'Restates the office: an Under Secretary and an Under Secretary for Monetary Affairs, each appointed by the President, by and with the advice and consent of the Senate, at $17,500 a year, to perform such duties in the Office of the Secretary as the Secretary prescribes.'
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        cite: 'Pub. L. 88-426, § 303(c), 78 Stat. 400, 416'
+        usc: '5 U.S.C. § 5314 (1970)'
+        tags: [pay]
+        does: 'The Under Secretary of the Treasury in level III, $28,500.'
+      - act: Act of May 18, 1972
+        date: '1972-05-18'
+        cite: 'Pub. L. 92-302, § 1(a), 86 Stat. 148'
+        usc: '31 U.S.C. § 1004 (1970 Supp. III)'
+        tags: [appointment]
+        does: 'The President may, in appointing the Under Secretary, designate him "Counselor."'
+    holders:
+      - name: Foley, Edward H.
+        given: Edward Herbert
+        from: '1948-07-15'
+        to: '1953-01-20'
+        src: [Treasury Annual Report 1973, exhibit 81]
+      - name: Folsom, Marion B.
+        given: Marion Bayard
+        from: '1953-01-28'
+        to: '1955-07-31'
+        out: To Secretary of Health, Education, and Welfare.
+        src: [Treasury Annual Report 1973, exhibit 81]
+      - name: Rose, H. Chapman
+        from: '1955-08-03'
+        to: '1956-01-31'
+        out: Resigned.
+        n: Assistant Secretary, 1953–55.
+        src: [Treasury Annual Report 1973, exhibit 81]
+      - name: Scribner, Fred C., Jr.
+        given: Fred Clark
+        from: '1957-08-09'
+        to: '1961-01-20'
+        n: General Counsel, 1955–57; Assistant Secretary, Apr.–Aug. 1957.
+        src: [Treasury Annual Report 1973, exhibit 81]
+      - name: Fowler, Henry H.
+        given: Henry Hammill
+        from: '1961-02-03'
+        to: '1964-04-10'
+        out: Resigned.
+        src: [Treasury Annual Report 1973, exhibit 81]
+      - name: Barr, Joseph W.
+        given: Joseph Walker
+        from: '1965-04-29'
+        to: '1968-12-20'
+        out: To Secretary of the Treasury.
+        n: Assistant to the Secretary for congressional relations, 1961–64; Chairman of the Federal Deposit Insurance Corporation, 1964–65.
+        src: [Treasury Annual Report 1973, exhibit 81]
+      - name: Walker, Charls E.
+        given: Charls Edward
+        from: '1969-01-27'
+        to: '1972-06-12'
+        out: To Deputy Secretary of the Treasury.
+        src: [Treasury Annual Report 1973, exhibit 81]
+      - name: Cohen, Edwin S.
+        given: Edwin Samuel
+        title: Under Secretary of the Treasury (Counselor)
+        from: '1972-06-12'
+        to: '1973-03-17'
+        out: Resigned.
+        n: Assistant Secretary (Tax Policy), 1969–72.
+        src: [Treasury Annual Report 1974]
+      - name: Bennett, Jack F.
+        given: Jack Franklin
+        title: Under Secretary of the Treasury (Counselor)
+        from: '1974-03-15'
+        to: '1974-07'
+        out: To Under Secretary for Monetary Affairs.
+        n: 'Deputy Under Secretary, 1972–74. Check: the day he moved to Monetary Affairs (FRUS: "until July 1974").'
+        src: [Treasury Annual Report 1974, FRUS persons list]
+
+  - id: under-secretary-monetary
+    title: Under Secretary of the Treasury for Monetary Affairs
+    rank: principal
+    appt: PAS
+    level: III
+    from: '1954-07-22'
+    law:
+      - act: Act of July 22, 1954
+        date: '1954-07-22'
+        cite: 'ch. 557, § 3, 68 Stat. 496'
+        usc: '5 U.S.C. § 244 (1958)'
+        tags: [creates, appointment, pay]
+        does: 'An Under Secretary for Monetary Affairs, appointed by the President, by and with the advice and consent of the Senate, at $17,500 a year, to perform such duties in the Office of the Secretary as the Secretary prescribes.'
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        cite: 'Pub. L. 88-426, § 303(c), 78 Stat. 400, 416'
+        usc: '5 U.S.C. § 5314 (1970)'
+        tags: [pay]
+        does: 'The Under Secretary of the Treasury for Monetary Affairs in level III.'
+    holders:
+      - name: Burgess, W. Randolph
+        given: Warren Randolph
+        from: '1954-08-03'
+        to: '1957-09-25'
+        out: Resigned; to Permanent Representative to NATO.
+        n: Deputy to the Secretary from 1953.
+        src: [Treasury Annual Report 1973, exhibit 81, CDIR 1955-02]
+      - name: Baird, Julian B.
+        from: '1957-09-30'
+        to: '1961-01-20'
+        src: [Treasury Annual Report 1973, exhibit 81]
+      - name: Roosa, Robert V.
+        given: Robert Vincent
+        from: '1961-01-31'
+        to: '1964-12-31'
+        out: Resigned.
+        src: [Treasury Annual Report 1973, exhibit 81]
+      - name: Deming, Frederick L.
+        from: '1965-02-01'
+        to: '1969-01-20'
+        src: [Treasury Annual Report 1973, exhibit 81]
+      - name: Volcker, Paul A.
+        given: Paul Adolph
+        from: '1969-01-27'
+        to: '1974-06'
+        out: Resigned.
+        n: 'Deputy Under Secretary for Monetary Affairs, 1963–65. Check: the last day; FRUS persons lists give "January 1969–June 1974"; the Annual Report for 1974 lists him serving June 30, 1974.'
+        src: [Treasury Annual Report 1973, exhibit 81, Treasury Annual Report 1974, FRUS persons list]
+      - name: Bennett, Jack F.
+        given: Jack Franklin
+        from: '1974-07'
+        n: 'Check: the day he took office.'
+        src: [FRUS persons list]
+
+  - id: deputy-under-secretary-monetary
+    title: Deputy Under Secretary of the Treasury for Monetary Affairs
+    rank: inferior
+    appt: HD
+    level: V
+    under: under-secretary-monetary
+    from: '1961-12-21'
+    holders:
+      - name: Daane, J. Dewey
+        given: James Dewey
+        from: '1961-12-21'
+        to: '1963-11-28'
+        out: To the Board of Governors of the Federal Reserve System.
+        n: Assistant to the Secretary, 1961.
+        src: [Treasury Annual Report 1973, exhibit 81]
+      - name: Volcker, Paul A.
+        given: Paul Adolph
+        from: '1963-12-03'
+        to: '1965-11-23'
+        out: Resigned.
+        src: [Treasury Annual Report 1973, exhibit 81]
+      - name: Sternlight, Peter D.
+        from: '1965-11-24'
+        to: '1967-11-11'
+        src: [Treasury Annual Report 1973, exhibit 81]
+      - name: Schiff, Frank W.
+        from: '1968-02-12'
+        to: '1969-03-31'
+        src: [Treasury Annual Report 1973, exhibit 81]
+      - name: MacLaury, Bruce K.
+        from: '1969-04-01'
+        to: '1971-06-30'
+        src: [Treasury Annual Report 1973, exhibit 81]
+      - name: Bennett, Jack F.
+        given: Jack Franklin
+        from: '1971-09-23'
+        to: '1972-08-18'
+        out: To Deputy Under Secretary.
+        src: [Treasury Annual Report 1973, exhibit 81, Treasury Annual Report 1974]
+
+  - id: deputy-under-secretary
+    title: Deputy Under Secretary of the Treasury
+    rank: principal
+    appt: PAS
+    many: true
+    from: '1972-05-18'
+    law:
+      - act: Act of May 18, 1972
+        date: '1972-05-18'
+        cite: 'Pub. L. 92-302, § 1(b), 86 Stat. 148'
+        usc: '31 U.S.C. § 1005a (1970 Supp. III)'
+        tags: [creates, appointment]
+        does: 'Two Deputy Under Secretaries, appointed by the President, by and with the advice and consent of the Senate, whom the President may designate Assistant Secretaries.'
+    holders:
+      - name: Bennett, Jack F.
+        given: Jack Franklin
+        from: '1972-08-18'
+        to: '1974-03-14'
+        out: To Under Secretary.
+        n: For monetary affairs.
+        src: [Treasury Annual Report 1974]
+      - name: Smith, James E.
+        from: '1972-08-22'
+        to: '1973-07-04'
+        out: To Comptroller of the Currency.
+        n: For congressional relations.
+        src: [Treasury Annual Report 1974, CDIR 1973-03]
+      - name: Gifford, William L.
+        from: '1973-08-03'
+        to: '1974-04-13'
+        n: For legislative affairs.
+        src: [Treasury Annual Report 1974, CDIR 1973-12]
+      - name: Webber, Frederick L.
+        title: Assistant Secretary of the Treasury (Legislative Affairs)
+        from: '1974-05-28'
+        n: 'Listed by the Treasury among the Assistant Secretaries; presumably a Deputy Under Secretary designated Assistant Secretary under the 1972 act. Check.'
+        src: [Treasury Annual Report 1974, 'Wikipedia: Assistant Secretary of the Treasury for Legislative Affairs']
+
+  - id: assistant-secretary
+    title: Assistant Secretary of the Treasury
+    rank: principal
+    appt: PAS
+    level: IV
+    many: true
+    n: 'Three by statute from 1954, four from 1963, under the Assistant Secretaries named in the Revised Statutes; each assigned his work by the Secretary. The portfolio shown is the one he held, where known.'
+    law:
+      - act: Revised Statutes § 234
+        date: '1874-06-22'
+        usc: '5 U.S.C. § 246 (1958)'
+        tags: [creates, appointment]
+        does: 'Assistant Secretaries of the Treasury, appointed by the President, by and with the advice and consent of the Senate.'
+      - act: Act of July 22, 1954
+        date: '1954-07-22'
+        cite: 'ch. 557, § 4, 68 Stat. 496'
+        usc: '5 U.S.C. § 246 (1958)'
+        tags: [appointment]
+        does: 'Three Assistant Secretaries of the Treasury, appointed by the President, by and with the advice and consent of the Senate.'
+      - act: Act of July 8, 1963
+        date: '1963-07-08'
+        cite: 'Pub. L. 88-58, 77 Stat. 76'
+        usc: '5 U.S.C. § 246 (1958 Supp. IV)'
+        tags: [creates]
+        does: 'Four Assistant Secretaries, in place of three.'
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        cite: 'Pub. L. 88-426, § 303(d), 78 Stat. 400, 418'
+        usc: '5 U.S.C. § 5315 (1970)'
+        tags: [pay]
+        does: 'The Assistant Secretaries of the Treasury (4) in level IV, $27,000.'
+    holders:
+      - name: Graham, John S.
+        given: John Stephens
+        from: '1948-07-16'
+        to: '1953-01-20'
+        n: Acting Commissioner of Internal Revenue, Nov. 19, 1952–Jan. 19, 1953.
+        src: [Treasury Annual Report 1973, exhibit 81]
+      - name: Overby, Andrew N.
+        title: Assistant Secretary of the Treasury (International Affairs)
+        from: '1952-01-24'
+        to: '1957-02-28'
+        out: Resigned.
+        src: [Treasury Annual Report 1973, exhibit 81, FRUS persons list]
+      - name: Rose, H. Chapman
+        from: '1953-01-28'
+        to: '1955-08-02'
+        out: To Under Secretary.
+        src: [Treasury Annual Report 1973, exhibit 81]
+      - name: Robbins, Laurence B.
+        from: '1954-09-20'
+        to: '1961-01-20'
+        n: The additional Assistant Secretary under the Act of July 22, 1954.
+        src: [Treasury Annual Report 1973, exhibit 81]
+      - name: Kendall, David W.
+        given: David Walbridge
+        from: '1955-08-03'
+        to: '1957-12-15'
+        out: Resigned.
+        n: General Counsel, Jan.–Aug. 1955. Special Counsel to the President, 1958–61.
+        src: [Treasury Annual Report 1973, exhibit 81]
+      - name: Scribner, Fred C., Jr.
+        given: Fred Clark
+        from: '1957-04-18'
+        to: '1957-08-08'
+        out: To Under Secretary.
+        src: [Treasury Annual Report 1973, exhibit 81]
+      - name: Coughran, Tom B.
+        title: Assistant Secretary of the Treasury (International Affairs)
+        from: '1957-12-04'
+        to: '1958-12-15'
+        src: [Treasury Annual Report 1973, exhibit 81, FRUS persons list]
+      - name: Flues, A. Gilmore
+        title: Assistant Secretary of the Treasury (Law Enforcement)
+        from: '1957-12-16'
+        to: '1961-12-19'
+        n: 'Over the Office of Law Enforcement Coordination (CDIR 1961-04). Special consultant to the Secretary, 1962.'
+        src: [Treasury Annual Report 1973, exhibit 81, CDIR 1961-04]
+      - name: Upton, T. Graydon
+        title: Assistant Secretary of the Treasury (International Affairs)
+        from: '1958-12-17'
+        to: '1960-12-18'
+        out: Resigned; to Executive Vice President, Inter-American Development Bank.
+        n: 'Check the portfolio.'
+        src: [Treasury Annual Report 1973, exhibit 81]
+      - name: Weitzel, John P.
+        from: '1960-12-20'
+        to: '1961-01-20'
+        src: [Treasury Annual Report 1973, exhibit 81]
+      - name: Leddy, John M.
+        title: Assistant Secretary of the Treasury (International Affairs)
+        from: '1961-04-05'
+        to: '1962-10-31'
+        out: To Representative to the Organization for Economic Cooperation and Development.
+        src: [Treasury Annual Report 1973, exhibit 81, FRUS persons list]
+      - name: Surrey, Stanley S.
+        given: Stanley Sheldon
+        title: Assistant Secretary of the Treasury (Tax Policy)
+        from: '1961-04-24'
+        to: '1969-01-20'
+        src: [Treasury Annual Report 1973, exhibit 81, CDIR 1961-04]
+      - name: Reed, James A.
+        title: Assistant Secretary of the Treasury (Law Enforcement)
+        from: '1961-12-20'
+        to: '1965-09-01'
+        n: 'Check the portfolio.'
+        src: [Treasury Annual Report 1973, exhibit 81]
+      - name: Bullitt, John C.
+        given: John Christian
+        title: Assistant Secretary of the Treasury (International Affairs)
+        from: '1962-12-18'
+        to: '1964-10-15'
+        n: Deputy Assistant Secretary for International Affairs, May 1961–1962.
+        src: [Treasury Annual Report 1973, exhibit 81, FRUS persons list]
+      - name: Wallace, Robert A.
+        title: Assistant Secretary of the Treasury (Economic Policy)
+        from: '1963-09-18'
+        to: '1969-01-20'
+        n: 'The fourth Assistant Secretary under the Act of July 8, 1963. Check the portfolio.'
+        src: [Treasury Annual Report 1973, exhibit 81]
+      - name: Trued, Merlyn N.
+        title: Assistant Secretary of the Treasury (International Affairs)
+        acting: true
+        from: '1964'
+        to: '1965-04-29'
+        n: 'Acting, as Deputy Assistant Secretary. Check the day he began.'
+        src: [FRUS persons list]
+      - name: Trued, Merlyn N.
+        title: Assistant Secretary of the Treasury (International Affairs)
+        from: '1965-04-29'
+        to: '1966-06-10'
+        src: [Treasury Annual Report 1973, exhibit 81, FRUS persons list]
+      - name: Davis, W. True, Jr.
+        from: '1965-09-14'
+        to: '1968-01-15'
+        src: [Treasury Annual Report 1973, exhibit 81]
+      - name: Knowlton, Winthrop
+        title: Assistant Secretary of the Treasury (International Affairs)
+        from: '1966-08-02'
+        to: '1968-01-31'
+        n: Deputy Assistant Secretary for International Monetary Affairs to Aug. 2, 1966.
+        src: [Treasury Annual Report 1973, exhibit 81, FRUS persons list]
+      - name: Bowman, Joseph M.
+        from: '1968-03-19'
+        to: '1969-01-20'
+        n: Assistant to the Secretary for congressional relations, 1965–68 (CDIR).
+        src: [Treasury Annual Report 1973, exhibit 81, CDIR 1966-01]
+      - name: Petty, John R.
+        title: Assistant Secretary of the Treasury (International Affairs)
+        from: '1968-05-15'
+        to: '1972-02-25'
+        n: Deputy Assistant Secretary for International Monetary Affairs, 1966–68.
+        src: [Treasury Annual Report 1973, exhibit 81, FRUS persons list]
+      - name: Cohen, Edwin S.
+        given: Edwin Samuel
+        title: Assistant Secretary of the Treasury (Tax Policy)
+        from: '1969-03-11'
+        to: '1972-06-12'
+        out: To Under Secretary.
+        src: [Treasury Annual Report 1973, exhibit 81, FRUS persons list]
+      - name: Rossides, Eugene T.
+        title: Assistant Secretary of the Treasury (Enforcement and Operations)
+        from: '1969-04-01'
+        to: '1973-01-21'
+        src: [Treasury Annual Report 1973, exhibit 81, Treasury Annual Report 1974, CDIR 1969-12]
+      - name: Weidenbaum, Murray L.
+        title: Assistant Secretary of the Treasury (Economic Policy)
+        from: '1969-06-23'
+        to: '1971-08-13'
+        src: [Treasury Annual Report 1973, exhibit 81]
+      - name: Fiedler, Edgar R.
+        title: Assistant Secretary of the Treasury (Economic Policy)
+        from: '1971-12-12'
+        src: [Treasury Annual Report 1973, exhibit 81, Treasury Annual Report 1974]
+      - name: Hennessy, John M.
+        title: Assistant Secretary of the Treasury (International Affairs)
+        from: '1972-06-12'
+        to: '1974-06-30'
+        n: 'Deputy Assistant Secretary for Development Finance from 1971. Wikipedia gives his swearing-in as May 2, 1972; the Treasury, June 12. FRUS: "until June 30, 1974."'
+        src: [Treasury Annual Report 1973, exhibit 81, FRUS persons list, 'Wikipedia: John M. Hennessy']
+      - name: Hickman, Frederic W.
+        title: Assistant Secretary of the Treasury (Tax Policy)
+        from: '1972-08-18'
+        src: [Treasury Annual Report 1973, exhibit 81, Treasury Annual Report 1974]
+      - name: Morgan, Edward L.
+        title: Assistant Secretary of the Treasury (Enforcement, Tariff and Trade Affairs, and Operations)
+        from: '1973-01-22'
+        to: '1974-02-01'
+        src: [Treasury Annual Report 1974, FRUS persons list]
+      - name: Macdonald, David R.
+        title: Assistant Secretary of the Treasury (Enforcement, Operations, and Tariff Affairs)
+        from: '1974-05-08'
+        src: [Treasury Annual Report 1974, FRUS persons list]
+      - name: Parsky, Gerald L.
+        title: Assistant Secretary of the Treasury (Trade, Energy, and Financial Resources Policy)
+        from: '1974-06-24'
+        n: Executive Assistant to the Deputy Secretary and to the Administrator of the Federal Energy Office, 1973–74.
+        src: [Treasury Annual Report 1974, FRUS persons list]
+
+  - id: special-assistant-enforcement
+    title: Special Assistant to the Assistant Secretary (Enforcement and Operations)
+    rank: employee
+    appt: HD
+    many: true
+    under: assistant-secretary
+    n: Staff of the Assistant Secretary over the enforcement bureaus. Only those named in the series are listed.
+    holders:
+      - name: Liddy, G. Gordon
+        given: George Gordon Battle
+        title: Assistant to the Secretary (Organized Crime)
+        from: '1969'
+        to: '1971'
+        out: To the White House staff.
+        n: 'The Directory lists him under the Assistant Secretary (Enforcement and Operations), Eugene Rossides. Check both dates.'
+        src: [CDIR 1969-12]
+
+  - id: assistant-secretary-administration
+    title: Administrative Assistant Secretary of the Treasury
+    titles:
+      - {title: Assistant Secretary of the Treasury for Administration, from: '1964-08-14'}
+    rank: inferior
+    appt: HD
+    level: V
+    n: Appointed by the Secretary, with the President's approval, in the classified civil service; by the President, with the Senate's consent, from May 18, 1972.
+    law:
+      - act: Reorganization Plan No. 26 of 1950
+        date: '1950-07-31'
+        cite: '64 Stat. 1280'
+        usc: '5 U.S.C. § 241 note (1958)'
+        tags: [creates, appointment]
+        does: 'An Administrative Assistant Secretary of the Treasury, appointed by the Secretary with the approval of the President under the classified civil service, to perform such duties as the Secretary prescribes.'
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        cite: 'Pub. L. 88-426, §§ 303(e), 307, 78 Stat. 400, 420, 432'
+        usc: '5 U.S.C. § 5316 (1970)'
+        tags: [pay, reorganizes]
+        does: 'Renames the office Assistant Secretary of the Treasury for Administration; level V.'
+      - act: Act of May 18, 1972
+        date: '1972-05-18'
+        cite: 'Pub. L. 92-302, 86 Stat. 148'
+        tags: [appointment]
+        does: 'The Assistant Secretary for Administration to be appointed by the President, by and with the advice and consent of the Senate.'
+    holders:
+      - name: Parsons, William W.
+        from: '1950-08-02'
+        to: '1959-08-31'
+        src: [Treasury Annual Report 1973, exhibit 81]
+      - name: Weatherbee, A. E.
+        given: Artemus Edwin
+        from: '1959-09-14'
+        to: '1970-10-25'
+        n: 'Check the given names.'
+        src: [Treasury Annual Report 1973, exhibit 81]
+      - name: Betts, Ernest C., Jr.
+        from: '1970-10-25'
+        to: '1972-01-07'
+        src: [Treasury Annual Report 1973, exhibit 81]
+      - name: Brecht, Warren F.
+        from: '1972-04-11'
+        n: The first appointed by the President, with the Senate's consent.
+        src: [Treasury Annual Report 1973, exhibit 81, Treasury Annual Report 1974]
+
+  - id: fiscal-assistant-secretary
+    title: Fiscal Assistant Secretary of the Treasury
+    rank: inferior
+    appt: HD
+    level: V
+    group: Fiscal Service
+    law:
+      - act: Reorganization Plan No. 3 of 1940
+        date: '1940-06-30'
+        cite: '54 Stat. 1231'
+        usc: '5 U.S.C. § 133t note (1958)'
+        tags: [creates, appointment, powers]
+        does: 'Establishes the Fiscal Service in the Treasury, of the Bureau of Accounts, the Bureau of the Public Debt and the Office of the Treasurer, under a Fiscal Assistant Secretary appointed by the Secretary under the civil service laws.'
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        cite: 'Pub. L. 88-426, § 303(e), 78 Stat. 400, 421'
+        usc: '5 U.S.C. § 5316 (1970)'
+        tags: [pay]
+        does: 'The Fiscal Assistant Secretary of the Treasury in level V.'
+    holders:
+      - name: Bartelt, Edward F.
+        from: '1945-03-16'
+        to: '1955-06-17'
+        src: [Treasury Annual Report 1973, exhibit 81]
+      - name: Heffelfinger, William T.
+        from: '1955-06-19'
+        to: '1962-03-31'
+        src: [Treasury Annual Report 1973, exhibit 81]
+      - name: Carlock, John K.
+        from: '1962-06-15'
+        src: [Treasury Annual Report 1973, exhibit 81, Treasury Annual Report 1974]
+
+  - id: general-counsel
+    title: General Counsel for the Department of the Treasury
+    rank: principal
+    appt: PAS
+    level: IV
+    law:
+      - act: Revenue Act of 1934
+        date: '1934-05-10'
+        cite: 'ch. 277, § 512, 48 Stat. 680, 758'
+        tags: [creates, powers]
+        does: 'Establishes the office of General Counsel for the Department of the Treasury, the chief law officer of the Department; the Assistant General Counsel for the Bureau of Internal Revenue its chief counsel.'
+      - act: Internal Revenue Code of 1954, § 7801(b)
+        date: '1954-08-16'
+        usc: '26 U.S.C. § 7801(b) (1958)'
+        tags: [appointment]
+        does: 'A General Counsel for the Department of the Treasury, appointed by the President, by and with the advice and consent of the Senate, the chief law officer of the Department.'
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        cite: 'Pub. L. 88-426, § 303(d), 78 Stat. 400, 418'
+        usc: '5 U.S.C. § 5315 (1970)'
+        tags: [pay]
+        does: 'The General Counsel of the Department of the Treasury in level IV.'
+    holders:
+      - name: Lynch, Thomas J.
+        from: '1948-06-10'
+        to: '1953-01-20'
+        src: [Treasury Annual Report 1973, exhibit 81]
+      - name: Tuttle, Elbert P.
+        given: Elbert Parr
+        from: '1953-01-30'
+        to: '1954-09-01'
+        out: To the Court of Appeals for the Fifth Circuit.
+        n: Confirmed as judge Aug. 3, 1954; commissioned Aug. 4.
+        src: [Treasury Annual Report 1973, exhibit 81, 'Wikipedia: Elbert Tuttle']
+      - name: Kendall, David W.
+        given: David Walbridge
+        from: '1955-01-26'
+        to: '1955-08-02'
+        out: To Assistant Secretary.
+        src: [Treasury Annual Report 1973, exhibit 81]
+      - name: Scribner, Fred C., Jr.
+        given: Fred Clark
+        from: '1955-09-22'
+        to: '1957-04-17'
+        out: To Assistant Secretary.
+        src: [Treasury Annual Report 1973, exhibit 81]
+      - name: Rose, Nelson P.
+        from: '1958-01-28'
+        to: '1959-10-01'
+        src: [Treasury Annual Report 1973, exhibit 81]
+      - name: Lindsay, David A.
+        from: '1959-10-02'
+        to: '1961-01-20'
+        src: [Treasury Annual Report 1973, exhibit 81]
+      - name: Knight, Robert H.
+        from: '1961-04-05'
+        to: '1962-10-06'
+        src: [Treasury Annual Report 1973, exhibit 81, CDIR 1961-04]
+      - name: Belin, G. d'Andelot
+        from: '1962-11-16'
+        to: '1965-01-31'
+        src: [Treasury Annual Report 1973, exhibit 81]
+      - name: Smith, Fred B.
+        acting: true
+        from: '1965-02'
+        to: '1966-04-12'
+        n: 'Listed as General Counsel in the Directory of Mar. 1, 1965, and Jan. 10, 1966, before his appointment. Check the acting span.'
+        src: [CDIR 1965-03, CDIR 1966-01]
+      - name: Smith, Fred B.
+        from: '1966-04-12'
+        to: '1969-01-20'
+        src: [Treasury Annual Report 1973, exhibit 81]
+      - name: Eggers, Paul W.
+        from: '1969-04-01'
+        to: '1970-03-20'
+        out: Resigned; Republican candidate for Governor of Texas.
+        src: [Treasury Annual Report 1973, exhibit 81]
+      - name: Pierce, Samuel R., Jr.
+        given: Samuel Riley
+        from: '1970-07-01'
+        to: '1973-06-01'
+        src: [Treasury Annual Report 1973, exhibit 81, Treasury Annual Report 1974]
+      - name: Schmults, Edward C.
+        given: Edward Charles
+        from: '1973-06-02'
+        src: [Treasury Annual Report 1974]
+
+  - id: treasurer
+    title: Treasurer of the United States
+    rank: inferior
+    appt: PAS
+    group: Fiscal Service
+    law:
+      - act: Act of Sept. 2, 1789
+        date: '1789-09-02'
+        cite: 'ch. 12, § 4, 1 Stat. 65'
+        usc: '31 U.S.C. § 141 (1958)'
+        tags: [creates, powers]
+        does: 'A Treasurer, to receive and keep the moneys of the United States and disburse them upon warrants drawn by the Secretary.'
+      - act: Revised Statutes § 301
+        date: '1874-06-22'
+        usc: '31 U.S.C. § 141 (1958)'
+        tags: [appointment]
+        does: 'A Treasurer of the United States in the Department of the Treasury, appointed by the President, by and with the advice and consent of the Senate.'
+    holders:
+      - name: Clark, Georgia Neese
+        from: '1949-06-21'
+        to: '1953-01-27'
+        src: ['Wikipedia: Treasurer of the United States']
+      - name: Priest, Ivy Baker
+        from: '1953-01-28'
+        to: '1961-01-29'
+        src: ['Wikipedia: Treasurer of the United States', 'Wikipedia: Ivy Baker Priest']
+      - name: Smith, Elizabeth Rudel
+        from: '1961-01-30'
+        to: '1962-04-13'
+        out: Resigned.
+        src: ['Wikipedia: Treasurer of the United States']
+      - name: Granahan, Kathryn O'Hay
+        given: Kathryn Elizabeth
+        from: '1963-01-03'
+        to: '1966-11-22'
+        out: Resigned.
+        n: 'Representative from Pennsylvania, 1956–63. Check: the Wikipedia list gives Jan. 3, 1963; her article, Jan. 9.'
+        src: ['Wikipedia: Treasurer of the United States', 'Wikipedia: Kathryn O''Hay Granahan']
+      - name: Kabis, Dorothy Andrews Elston
+        from: '1969-05-08'
+        to: '1971-07-03'
+        out: Died.
+        src: ['Wikipedia: Treasurer of the United States']
+      - name: Bañuelos, Romana Acosta
+        from: '1971-12-17'
+        to: '1974-02-14'
+        out: Resigned.
+        src: [Treasury Annual Report 1974, 'Wikipedia: Romana Acosta Bañuelos']
+      - name: Neff, Francine Irving
+        nominated: '1974-05-29'
+        from: '1974-06-21'
+        n: 'Check: Wikipedia''s article gives June 23. Raised from the operating level of the Department to the Office of the Secretary by Treasury Department Order 229, Jan. 14, 1974.'
+        src: [Treasury Annual Report 1974, 'Wikipedia: Francine Irving Neff']
+
+  - id: comptroller-currency
+    title: Comptroller of the Currency
+    rank: inferior
+    appt: PAS
+    level: III
+    group: Office of the Comptroller of the Currency
+    law:
+      - act: National Currency Act
+        date: '1863-02-25'
+        cite: 'ch. 58, 12 Stat. 665'
+        tags: [creates]
+        does: 'A separate bureau in the Treasury, charged with the execution of the laws for a national currency secured by United States bonds, the chief officer of which is the Comptroller of the Currency.'
+      - act: Revised Statutes §§ 324, 325
+        date: '1874-06-22'
+        usc: '12 U.S.C. §§ 1, 2 (1958)'
+        tags: [appointment, powers]
+        does: 'The Comptroller of the Currency, under the general direction of the Secretary, appointed by the President, by and with the advice and consent of the Senate, for five years unless sooner removed by the President for reasons to be communicated to the Senate.'
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        cite: 'Pub. L. 88-426, § 303(c), 78 Stat. 400, 417'
+        usc: '5 U.S.C. § 5314 (1970)'
+        tags: [pay]
+        does: 'The Comptroller of the Currency in level III.'
+    holders:
+      - name: Delano, Preston
+        from: '1938-10-24'
+        to: '1953-02-15'
+        src: ['Wikipedia: Comptroller of the Currency']
+      - name: Gidney, Ray M.
+        given: Ray Millard
+        from: '1953-04-16'
+        to: '1961-11-15'
+        src: ['Wikipedia: Comptroller of the Currency', CDIR 1961-04]
+      - name: Saxon, James J.
+        from: '1961-11-16'
+        to: '1966-11-15'
+        src: ['Wikipedia: Comptroller of the Currency']
+      - name: Camp, William B.
+        from: '1966-11-16'
+        to: '1973-03-23'
+        src: ['Wikipedia: Comptroller of the Currency']
+      - name: Watson, Justin T.
+        acting: true
+        from: '1973-03-24'
+        to: '1973-07-04'
+        src: ['Wikipedia: Comptroller of the Currency']
+      - name: Smith, James E.
+        from: '1973-07-05'
+        n: Deputy Under Secretary of the Treasury, 1972–73.
+        src: ['Wikipedia: Comptroller of the Currency', Treasury Annual Report 1974]
+
+  - id: commissioner-internal-revenue
+    title: Commissioner of Internal Revenue
+    rank: inferior
+    appt: PAS
+    level: III
+    group: Internal Revenue Service
+    n: The Bureau of Internal Revenue was renamed the Internal Revenue Service in July 1953, by the Secretary's order.
+    law:
+      - act: Act of July 1, 1862
+        date: '1862-07-01'
+        cite: 'ch. 119, § 1, 12 Stat. 432'
+        tags: [creates]
+        does: 'An office of Commissioner of Internal Revenue in the Treasury, appointed by the President, by and with the advice and consent of the Senate, to superintend the assessment and collection of internal duties and taxes.'
+      - act: Internal Revenue Code of 1954, § 7802
+        date: '1954-08-16'
+        usc: '26 U.S.C. § 7802 (1958)'
+        tags: [appointment, powers]
+        does: 'A Commissioner of Internal Revenue in the Department of the Treasury, appointed by the President, by and with the advice and consent of the Senate, with such duties and powers as the Secretary prescribes.'
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        cite: 'Pub. L. 88-426, § 303(c), 78 Stat. 400, 417'
+        usc: '5 U.S.C. § 5314 (1970)'
+        tags: [pay]
+        does: 'The Commissioner of Internal Revenue in level III.'
+    holders:
+      - name: Winkle, Justin F.
+        acting: true
+        from: '1953-01-20'
+        to: '1953-02-03'
+        src: ['Wikipedia: Commissioner of Internal Revenue']
+      - name: Andrews, T. Coleman
+        given: Thomas Coleman
+        from: '1953-02-04'
+        to: '1955-10-31'
+        out: Resigned.
+        src: ['Wikipedia: Commissioner of Internal Revenue', 'Wikipedia: T. Coleman Andrews']
+      - name: Delk, O. Gordon
+        acting: true
+        from: '1955-11-01'
+        to: '1955-12-04'
+        src: ['Wikipedia: Commissioner of Internal Revenue']
+      - name: Harrington, Russell C.
+        from: '1955-12-05'
+        to: '1958-09-30'
+        src: ['Wikipedia: Commissioner of Internal Revenue']
+      - name: Delk, O. Gordon
+        acting: true
+        from: '1958-10-01'
+        to: '1958-11-04'
+        src: ['Wikipedia: Commissioner of Internal Revenue']
+      - name: Latham, Dana
+        from: '1958-11-05'
+        to: '1961-01-20'
+        src: ['Wikipedia: Commissioner of Internal Revenue']
+      - name: Fox, C. Irving
+        acting: true
+        from: '1961-01-21'
+        to: '1961-02-06'
+        n: 'Deputy Commissioner (CDIR 1961-04). Wikipedia calls him Charles I. Fox.'
+        src: ['Wikipedia: Commissioner of Internal Revenue', CDIR 1961-04]
+      - name: Caplin, Mortimer M.
+        given: Mortimer Maxwell
+        from: '1961-02-07'
+        to: '1964-07-10'
+        out: Resigned.
+        src: ['Wikipedia: Commissioner of Internal Revenue', 'Wikipedia: Mortimer Caplin']
+      - name: Harding, Bertrand M.
+        acting: true
+        from: '1964-07-11'
+        to: '1965-01-24'
+        n: 'Deputy Commissioner. Wikipedia''s list calls him Bernard M. Harding; the Directory, Bertrand M.'
+        src: ['Wikipedia: Commissioner of Internal Revenue', CDIR 1961-04]
+      - name: Cohen, Sheldon S.
+        given: Sheldon Stanley
+        from: '1965-01-25'
+        to: '1969-01-20'
+        src: ['Wikipedia: Commissioner of Internal Revenue']
+      - name: Smith, William H.
+        acting: true
+        from: '1969-01-21'
+        to: '1969-03-31'
+        src: ['Wikipedia: Commissioner of Internal Revenue', CDIR 1969-03]
+      - name: Thrower, Randolph W.
+        from: '1969-04-01'
+        to: '1971-06-22'
+        src: ['Wikipedia: Commissioner of Internal Revenue']
+      - name: Swartz, Harold T.
+        acting: true
+        from: '1971-06-23'
+        to: '1971-08-05'
+        src: ['Wikipedia: Commissioner of Internal Revenue']
+      - name: Walters, Johnnie M.
+        given: Johnnie Mac
+        from: '1971-08-06'
+        to: '1973-04-30'
+        src: ['Wikipedia: Commissioner of Internal Revenue', CDIR 1973-03]
+      - name: Harless, Raymond F.
+        acting: true
+        from: '1973-05-01'
+        to: '1973-05-25'
+        src: ['Wikipedia: Commissioner of Internal Revenue']
+      - name: Alexander, Donald C.
+        from: '1973-05-25'
+        src: ['Wikipedia: Commissioner of Internal Revenue']
+
+  - id: commissioner-customs
+    title: Commissioner of Customs
+    rank: inferior
+    appt: HD
+    level: V
+    group: Bureau of Customs
+    n: The Bureau of Customs was renamed the United States Customs Service by Treasury Department Order 165-23, Aug. 1, 1973. Check whether the Commissioner was a presidential appointment later in the period.
+    law:
+      - act: Customs Bureau Act
+        date: '1927-03-03'
+        cite: 'ch. 348, § 1, 44 Stat. 1381'
+        usc: '19 U.S.C. § 2071 (1958)'
+        tags: [creates, appointment]
+        does: 'A Bureau of Customs in the Treasury, headed by a Commissioner of Customs appointed by the Secretary of the Treasury without regard to the civil service laws.'
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        cite: 'Pub. L. 88-426, § 303(e), 78 Stat. 400, 420'
+        usc: '5 U.S.C. § 5316 (1970)'
+        tags: [pay]
+        does: 'The Commissioner of Customs in level V.'
+    holders:
+      - name: Dow, Frank
+        from: '1949'
+        to: '1953-03'
+        n: 'Acting, 1947–49. Check both dates; Commissioner in the Directory of Mar. 1, 1953; the office vacant in that of Jan. 18, 1954.'
+        src: ['Wikipedia: United States Customs Service', CDIR 1953-03, CDIR 1954-01]
+      - name: Strubinger, David B.
+        acting: true
+        from: '1953'
+        to: '1954'
+        n: 'Assistant Commissioner; the Directory of Jan. 18, 1954, shows the Commissioner''s office vacant. Check that he acted, and the span.'
+        src: [CDIR 1954-01]
+      - name: Kelly, Ralph
+        from: '1954'
+        to: '1961'
+        n: 'Check both dates. Commissioner in the Directory from Feb. 14, 1955, to Jan. 6, 1960.'
+        src: ['Wikipedia: United States Customs Service', CDIR 1955-02, CDIR 1960-01]
+      - name: Nichols, Philip, Jr.
+        from: '1961'
+        to: '1964-09'
+        out: To the Customs Court.
+        n: 'Check the day he took office; in the Directory of Apr. 1, 1961. Confirmed to the Customs Court Sept. 15, 1964.'
+        src: ['Wikipedia: Philip Nichols Jr.', CDIR 1961-04]
+      - name: Johnson, Lester D.
+        from: '1965'
+        to: '1969'
+        n: 'Check both dates. In the Directory from 1965 to Mar. 1969.'
+        src: ['Wikipedia: United States Customs Service', CDIR 1965-03, CDIR 1969-03]
+      - name: Ambrose, Myles J.
+        from: '1969'
+        to: '1972'
+        out: To Special Assistant Attorney General for Drug Abuse Law Enforcement.
+        n: 'Assistant to the Secretary for law enforcement, 1957–60. Check both dates.'
+        src: ['Wikipedia: Myles Ambrose', CDIR 1971-03]
+      - name: Acree, Vernon D.
+        given: Vernon Darrell
+        from: '1972-05-02'
+        n: 'Check: Wikipedia''s date may be that of the announcement.'
+        src: ['Wikipedia: Vernon D. Acree']
+
+  - id: director-mint
+    title: Director of the Mint
+    rank: inferior
+    appt: PAS
+    group: Bureau of the Mint
+    law:
+      - act: Coinage Act of 1873
+        date: '1873-02-12'
+        cite: 'ch. 131, § 1, 17 Stat. 424'
+        usc: '31 U.S.C. § 251 (1958)'
+        tags: [creates, appointment]
+        does: 'A Bureau of the Mint in the Treasury, in charge of a Director of the Mint, appointed by the President, by and with the advice and consent of the Senate, for five years unless sooner removed, under the general direction of the Secretary.'
+    holders:
+      - name: Ross, Nellie Tayloe
+        from: '1933-05-03'
+        to: '1953-04'
+        n: 'Check the last day.'
+        src: ['Wikipedia: Director of the United States Mint']
+      - name: Howard, Leland
+        acting: true
+        from: '1953-04'
+        to: '1954-07'
+        n: 'Assistant Director; the office vacant in the Directory of Jan. 18, 1954. Check the span.'
+        src: [CDIR 1954-01]
+      - name: Brett, William H.
+        given: William Howard
+        from: '1954-07'
+        to: '1961-01'
+        n: 'Check both days.'
+        src: ['Wikipedia: Director of the United States Mint', 'Wikipedia: William H. Brett']
+      - name: Howard, Leland
+        acting: true
+        from: '1961-01'
+        to: '1961-10'
+        n: 'Assistant Director; the office vacant in the Directory of Apr. 1, 1961. Check the span.'
+        src: [CDIR 1961-04]
+      - name: Adams, Eva
+        given: Eva Bertrand
+        from: '1961-10'
+        to: '1969-08'
+        n: 'Check both days.'
+        src: ['Wikipedia: Director of the United States Mint', CDIR 1962-01]
+      - name: Brooks, Mary
+        from: '1969-09'
+        n: 'Check the day.'
+        src: ['Wikipedia: Director of the United States Mint', CDIR 1969-12]
+
+  - id: director-engraving
+    title: Director of the Bureau of Engraving and Printing
+    rank: inferior
+    appt: HD
+    group: Bureau of Engraving and Printing
+    law:
+      - act: Act of July 11, 1862
+        date: '1862-07-11'
+        cite: '12 Stat. 532'
+        tags: [creates]
+        does: 'Authorizes the Secretary to have Treasury notes engraved and printed at the Treasury Department; the beginning of the Bureau.'
+    holders:
+      - name: Hall, Alvin W.
+        from: '1924'
+        to: '1954'
+        n: 'Check both dates; Director in the Directory of Jan. 18, 1954.'
+        src: [CDIR 1953-03, CDIR 1954-01]
+      - name: Holtzclaw, Henry J.
+        from: '1954'
+        to: '1967'
+        n: 'Check both dates; Director in the Directory from Feb. 1955 to Feb. 1967.'
+        src: [CDIR 1955-02, CDIR 1967-02]
+      - name: Conlon, James A.
+        from: '1967'
+        n: 'Check the date; Director in the Directory from Dec. 1967.'
+        src: [CDIR 1967-12, CDIR 1973-12]
+
+  - id: commissioner-narcotics
+    title: Commissioner of Narcotics
+    rank: inferior
+    appt: PAS
+    group: Bureau of Narcotics
+    until: '1968-04-08'
+    law:
+      - act: Act of June 14, 1930
+        date: '1930-06-14'
+        cite: '46 Stat. 585'
+        tags: [creates, appointment, vacancy]
+        does: 'A Bureau of Narcotics in the Treasury and a Commissioner of Narcotics at its head, appointed by the President, by and with the advice and consent of the Senate; a deputy commissioner, appointed by the Secretary, acts in a vacancy.'
+      - act: Reorganization Plan No. 1 of 1968
+        date: '1968-04-08'
+        cite: '82 Stat. 1367'
+        usc: '5 U.S.C. App. (1970)'
+        tags: [reorganizes]
+        does: 'Transfers to the Attorney General the functions of the Bureau of Narcotics and of the Commissioner, and abolishes the Bureau, the office of Commissioner, and the offices under it; the Bureau of Narcotics and Dangerous Drugs in the Department of Justice.'
+    holders:
+      - name: Anslinger, Harry J.
+        given: Harry Jacob
+        from: '1930-08-12'
+        to: '1962-08-17'
+        out: Retired.
+        src: ['Wikipedia: Harry J. Anslinger']
+      - name: Giordano, Henry L.
+        from: '1962-08-17'
+        to: '1968-04-08'
+        out: Office abolished.
+        n: Deputy Commissioner to 1962.
+        src: ['Wikipedia: Henry Giordano', CDIR 1964-01]
+
+  - id: chief-secret-service
+    title: Chief of the United States Secret Service
+    titles:
+      - {title: Director of the United States Secret Service, from: '1965'}
+    rank: inferior
+    appt: HD
+    group: United States Secret Service
+    law:
+      - act: Act of July 16, 1951
+        date: '1951-07-16'
+        cite: 'Pub. L. 82-79, 65 Stat. 121'
+        usc: '18 U.S.C. § 3056 (1958)'
+        tags: [powers]
+        does: 'Subject to the direction of the Secretary, the Secret Service authorized to protect the President, his immediate family, the President-elect, and the Vice President at his request; to detect and arrest those counterfeiting the coins, obligations and securities of the United States.'
+    holders:
+      - name: Baughman, U. E.
+        given: Urbanus Edmund
+        from: '1948-11-29'
+        to: '1961-08-31'
+        out: Retired.
+        src: ['Wikipedia: U. E. Baughman']
+      - name: Rowley, James J.
+        given: James Joseph
+        from: '1961-09-01'
+        to: '1973-10'
+        out: Retired.
+        n: 'Check the last day.'
+        src: ['Wikipedia: James Joseph Rowley']
+      - name: Knight, H. Stuart
+        from: '1973-11-07'
+        src: ['Wikipedia: H. Stuart Knight']
+
+  - id: director-atf
+    title: Director, Bureau of Alcohol, Tobacco, and Firearms
+    rank: inferior
+    appt: HD
+    group: Bureau of Alcohol, Tobacco, and Firearms
+    from: '1972-07-01'
+    law:
+      - act: Treasury Department Order 221
+        date: '1972-06-06'
+        effective: '1972-07-01'
+        cite: '37 Fed. Reg. 11696'
+        tags: [creates, powers, reorganizes]
+        does: 'Under Reorganization Plan No. 26 of 1950, transfers the functions of the Internal Revenue Service under the laws on alcohol, tobacco, firearms and explosives to a Bureau of Alcohol, Tobacco, and Firearms, headed by a Director under the Assistant Secretary (Enforcement, Tariff and Trade Affairs, and Operations). Signed by Charls E. Walker, Acting Secretary.'
+    holders:
+      - name: Davis, Rex D.
+        given: Rex Darwin
+        from: '1972-07-01'
+        src: ['Wikipedia: Bureau of Alcohol, Tobacco, Firearms and Explosives']
+
+  - id: commandant-coast-guard
+    title: Commandant of the Coast Guard
+    rank: military
+    appt: MIL
+    group: United States Coast Guard
+    until: '1967-04-01'
+    n: The Coast Guard passed to the Department of Transportation on Apr. 1, 1967.
+    law:
+      - act: Act of Jan. 28, 1915
+        date: '1915-01-28'
+        cite: 'ch. 20, 38 Stat. 800'
+        tags: [creates]
+        does: 'Creates the Coast Guard, of the Revenue-Cutter Service and the Life-Saving Service, as a part of the military forces, under the Treasury in time of peace.'
+      - act: Act of Aug. 4, 1949
+        date: '1949-08-04'
+        cite: 'ch. 393, 63 Stat. 495'
+        usc: ['14 U.S.C. § 1 (1958)', '14 U.S.C. § 44 (1958)']
+        tags: [powers, appointment]
+        does: 'Enacts Title 14: the Coast Guard a military service and a branch of the armed forces at all times, a service in the Treasury Department except when operating as part of the Navy; a Commandant appointed by the President, by and with the advice and consent of the Senate, from the officers of the Coast Guard, for four years.'
+      - act: Department of Transportation Act
+        date: '1966-10-15'
+        effective: '1967-04-01'
+        cite: 'Pub. L. 89-670, § 6(b)(1), 80 Stat. 931, 938'
+        usc: '49 U.S.C. § 1655(b) (1970)'
+        tags: [reorganizes]
+        does: 'Transfers the Coast Guard, and the functions of the Secretary of the Treasury and other officers of the Treasury relating to it, to the Secretary of Transportation.'
+    holders:
+      - name: O'Neill, Merlin
+        rank: Vice Adm., USCG
+        from: '1950-01-01'
+        to: '1954-06-01'
+        out: Retired.
+        src: ['Wikipedia: Commandant of the Coast Guard']
+      - name: Richmond, Alfred C.
+        rank: Vice Adm., USCG
+        from: '1954-06-01'
+        to: '1962-06-01'
+        out: Retired.
+        n: Named by Eisenhower May 13, 1954, as a vice admiral. Second term from June 1, 1958. Admiral from June 1, 1960.
+        src: ['Wikipedia: Commandant of the Coast Guard', 'Wikipedia: Alfred C. Richmond']
+      - name: Roland, Edwin J.
+        rank: Adm., USCG
+        from: '1962-06-01'
+        to: '1966-06-01'
+        out: Retired.
+        src: ['Wikipedia: Commandant of the Coast Guard', 'Wikipedia: Edwin J. Roland']
+      - name: Smith, Willard J.
+        rank: Adm., USCG
+        from: '1966-06-01'
+        to: '1967-04-01'
+        out: Transferred with the Coast Guard to the Department of Transportation; Commandant to June 1, 1970.
+        src: ['Wikipedia: Commandant of the Coast Guard']

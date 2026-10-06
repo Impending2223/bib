@@ -1,0 +1,259 @@
+# The Federal Communications Commission. Kept by hand.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: fcc
+name: Federal Communications Commission
+under: president
+order: 500
+law:
+  - act: Communications Act of 1934
+    date: '1934-06-19'
+    tags: [creates, appointment, powers]
+    cite: 'ch. 652, §§ 1, 4, 48 Stat. 1064, 1066'
+    usc: ['47 U.S.C. §§ 151, 154 (1958)']
+    does: 'Creates the Commission to regulate interstate and foreign commerce in communication by wire and radio. Seven commissioners appointed by the President, by and with the advice and consent of the Senate, for seven years; not more than four of one party; one designated by the President as chairman.'
+  - act: Communications Act Amendments, 1952
+    date: '1952-07-16'
+    tags: [powers]
+    cite: 'ch. 879, § 4, 66 Stat. 711, 712'
+    usc: '47 U.S.C. § 155 (1958)'
+    does: The chairman the chief executive officer of the Commission; a review staff; a commissioner may be designated to act in the chairman's absence.
+n: Terms of seven years, expiring June 30. Dates of service are Wikipedia's table of commissioners, which follows the Commission's own list.
+offices:
+  - id: chairman
+    title: Chairman of the Federal Communications Commission
+    rank: head
+    appt: DES
+    level: III
+    law:
+      - act: Communications Act of 1934
+        date: '1934-06-19'
+        tags: [appointment]
+        cite: 'ch. 652, § 4(a), 48 Stat. 1064, 1066'
+        usc: '47 U.S.C. § 154(a) (1958)'
+        does: The President designates one of the commissioners chairman.
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(c)(19), 78 Stat. 400, 417'
+        usc: '5 U.S.C. § 5314 (1970)'
+        does: Level III, $28,500.
+    n: Reorganization Plan No. 11 of 1950, which would have given the chairman the Commission's executive functions, was disapproved by the Senate, May 17, 1950; the 1952 amendments made him chief executive officer.
+    holders:
+      - name: Walker, Paul A.
+        from: '1952-02-28'
+        to: '1953-04-17'
+        src: ['Wikipedia: List of chairs of the Federal Communications Commission', CDIR 1953-03]
+      - name: Hyde, Rosel H.
+        from: '1953-04-18'
+        to: '1954-10-03'
+        out: Remained a commissioner.
+        src: ['Wikipedia: List of chairs of the Federal Communications Commission', CDIR 1954-01]
+      - name: McConnaughey, George C.
+        from: '1954-10-04'
+        to: '1957-06-30'
+        out: Term expired.
+        src: ['Wikipedia: List of chairs of the Federal Communications Commission', CDIR 1955-02, CDIR 1957-03]
+      - name: Doerfer, John C.
+        from: '1957-07-01'
+        to: '1960-03-10'
+        out: Resigned.
+        src: ['Wikipedia: List of chairs of the Federal Communications Commission', CDIR 1958-01, CDIR 1960-01]
+      - name: Ford, Frederick W.
+        from: '1960-03-15'
+        to: '1961-03-01'
+        out: Remained a commissioner.
+        src: ['Wikipedia: List of chairs of the Federal Communications Commission']
+      - name: Minow, Newton N.
+        from: '1961-03-02'
+        to: '1963-06-01'
+        out: Resigned.
+        n: '"Vast wasteland" speech to the National Association of Broadcasters, May 9, 1961.'
+        src: ['Wikipedia: List of chairs of the Federal Communications Commission', CDIR 1961-04, CDIR 1963-03]
+      - name: Henry, E. William
+        from: '1963-06-02'
+        to: '1966-05-01'
+        out: Resigned.
+        src: ['Wikipedia: List of chairs of the Federal Communications Commission', CDIR 1964-01, CDIR 1966-01]
+      - name: Hyde, Rosel H.
+        acting: true
+        from: '1966-05-01'
+        to: '1966-06-27'
+        src: ['Wikipedia: List of chairs of the Federal Communications Commission']
+      - name: Hyde, Rosel H.
+        from: '1966-06-27'
+        to: '1969-10-31'
+        out: Retired.
+        src: ['Wikipedia: List of chairs of the Federal Communications Commission', CDIR 1967-02, CDIR 1969-03]
+      - name: Burch, Dean
+        from: '1969-10-31'
+        to: '1974-03-08'
+        out: Resigned, to Counselor to the President.
+        src: ['Wikipedia: List of chairs of the Federal Communications Commission', CDIR 1969-12, CDIR 1973-12]
+      - name: Wiley, Richard E.
+        from: '1974-03-08'
+        n: Served to Oct. 13, 1977.
+        src: ['Wikipedia: List of chairs of the Federal Communications Commission']
+  - id: commissioner
+    title: Commissioner
+    rank: principal
+    appt: PAS
+    many: true
+    law:
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(d)(57), 78 Stat. 400, 418'
+        usc: '5 U.S.C. § 5315 (1970)'
+        does: Members at Level IV, $27,000.
+    n: Seven commissioners, the chairman among them.
+    holders:
+      - name: Walker, Paul A.
+        from: '1934-07-11'
+        to: '1953-06-30'
+        n: Democrat; an original member. Chairman, 1952–53.
+        src: ['Wikipedia: Federal Communications Commission']
+      - name: Hyde, Rosel H.
+        from: '1946-04-17'
+        to: '1969-10-31'
+        n: Republican. Chairman, 1953–54 and 1966–69.
+        src: ['Wikipedia: Federal Communications Commission']
+      - name: Webster, Edward M.
+        from: '1947-04-10'
+        to: '1956-06-30'
+        n: Independent.
+        src: ['Wikipedia: Federal Communications Commission', CDIR 1956-01]
+      - name: Sterling, George E.
+        from: '1948-01-02'
+        to: '1954-09-30'
+        n: Republican.
+        src: ['Wikipedia: Federal Communications Commission', CDIR 1954-01]
+      - name: Hennock, Frieda B.
+        from: '1948-07-06'
+        to: '1955-06-30'
+        n: Democrat. The first woman member.
+        src: ['Wikipedia: Federal Communications Commission', CDIR 1955-02]
+      - name: Bartley, Robert T.
+        from: '1952-03-06'
+        to: '1972-06-30'
+        n: Democrat.
+        src: ['Wikipedia: Federal Communications Commission', CDIR 1971-12]
+      - name: Merrill, Eugene H.
+        from: '1952-10-06'
+        to: '1953-04-15'
+        n: Democrat. Recess appointment by Truman; not confirmed.
+        src: ['Wikipedia: Federal Communications Commission', CDIR 1953-03]
+      - name: Doerfer, John C.
+        from: '1953-04-15'
+        to: '1960-03-10'
+        out: Resigned.
+        n: Republican. Chairman, 1957–60.
+        src: ['Wikipedia: Federal Communications Commission']
+      - name: Lee, Robert E.
+        from: '1953-10-06'
+        n: Republican. Served to June 30, 1981.
+        src: ['Wikipedia: Federal Communications Commission', CDIR 1973-12]
+      - name: McConnaughey, George C.
+        from: '1954-10-04'
+        to: '1957-06-30'
+        n: Republican. Chairman throughout.
+        src: ['Wikipedia: Federal Communications Commission']
+      - name: Craven, T. A. M.
+        from: '1956-07-02'
+        to: '1963-03-25'
+        n: Democrat; a member before, 1937–44.
+        src: ['Wikipedia: Federal Communications Commission', CDIR 1963-03]
+      - name: Ford, Frederick W.
+        from: '1957-08-29'
+        to: '1964-12-31'
+        out: Resigned.
+        n: Republican. Chairman, 1960–61.
+        src: ['Wikipedia: Federal Communications Commission']
+      - name: Cross, John S.
+        from: '1958-05-23'
+        to: '1962-09-30'
+        n: Democrat.
+        src: ['Wikipedia: Federal Communications Commission', CDIR 1962-01]
+      - name: King, Charles H.
+        from: '1960-07-19'
+        to: '1961-03-02'
+        n: Republican. Recess appointment by Eisenhower; not confirmed.
+        src: ['Wikipedia: Federal Communications Commission']
+      - name: Minow, Newton N.
+        from: '1961-03-02'
+        to: '1963-06-01'
+        out: Resigned.
+        n: Democrat. Chairman throughout.
+        src: ['Wikipedia: Federal Communications Commission']
+      - name: Henry, E. William
+        from: '1962-10-02'
+        to: '1966-05-01'
+        out: Resigned.
+        n: Democrat. Chairman from June 2, 1963.
+        src: ['Wikipedia: Federal Communications Commission']
+      - name: Cox, Kenneth A.
+        from: '1963-03-26'
+        to: '1970-08-31'
+        n: Democrat.
+        src: ['Wikipedia: Federal Communications Commission', CDIR 1969-12]
+      - name: Loevinger, Lee
+        from: '1963-06-11'
+        to: '1968-06-30'
+        n: Democrat; formerly Assistant Attorney General, Antitrust Division.
+        src: ['Wikipedia: Federal Communications Commission']
+      - name: Wadsworth, James J.
+        from: '1965-05-05'
+        to: '1969-10-31'
+        n: Republican; formerly Representative to the United Nations.
+        src: ['Wikipedia: Federal Communications Commission', CDIR 1969-03]
+      - name: Johnson, Nicholas
+        from: '1966-07-01'
+        to: '1973-12-05'
+        n: Democrat; formerly Maritime Administrator. Term expired June 30, 1973; served until his successor qualified.
+        src: ['Wikipedia: Federal Communications Commission', CDIR 1973-12]
+      - name: Lee, H. Rex
+        from: '1968-10-28'
+        to: '1973-12-05'
+        n: 'Democrat; formerly Governor of American Samoa. Check: Wikipedia gives the same day of leaving as Johnson''s; the Directory lists him in Dec. 1973.'
+        src: ['Wikipedia: Federal Communications Commission', CDIR 1973-12]
+      - name: Burch, Dean
+        from: '1969-10-31'
+        to: '1974-03-08'
+        out: Resigned, to Counselor to the President.
+        n: Republican; chairman of the Republican National Committee, 1964–65. Chairman throughout.
+        src: ['Wikipedia: Federal Communications Commission']
+      - name: Wells, Robert
+        from: '1969-11-06'
+        to: '1971-11-01'
+        n: Republican.
+        src: ['Wikipedia: Federal Communications Commission', CDIR 1971-03]
+      - name: Houser, Thomas J.
+        from: '1971-01-06'
+        to: '1971-10-05'
+        n: Republican.
+        src: ['Wikipedia: Federal Communications Commission']
+      - name: Reid, Charlotte T.
+        from: '1971-10-08'
+        n: Republican; resigned from the House to take the seat. Served to July 1, 1976.
+        src: ['Wikipedia: Federal Communications Commission', CDIR 1971-12]
+      - name: Wiley, Richard E.
+        from: '1972-01-05'
+        n: Republican; General Counsel of the Commission, 1970–72. Chairman from Mar. 8, 1974. Served to Oct. 13, 1977.
+        src: ['Wikipedia: Federal Communications Commission', CDIR 1973-03]
+      - name: Hooks, Benjamin L.
+        from: '1972-07-05'
+        n: Democrat. The first Negro member. Served to July 25, 1977.
+        src: ['Wikipedia: Federal Communications Commission', CDIR 1973-03]
+      - name: Quello, James H.
+        from: '1974-04-30'
+        n: Democrat. Served to Nov. 1, 1997.
+        src: ['Wikipedia: Federal Communications Commission']
+      - name: Robinson, Glen O.
+        from: '1974-07-10'
+        n: Democrat. Served to Aug. 30, 1976.
+        src: ['Wikipedia: Federal Communications Commission']
+      - name: Washburn, Abbott M.
+        from: '1974-07-10'
+        n: Republican; formerly Deputy Director of the U.S. Information Agency. Served to Oct. 1, 1982.
+        src: ['Wikipedia: Federal Communications Commission']

@@ -1,0 +1,286 @@
+# The Securities and Exchange Commission. Kept by hand.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: sec
+name: Securities and Exchange Commission
+under: president
+order: 500
+law:
+  - act: Securities Exchange Act of 1934
+    date: '1934-06-06'
+    tags: [creates, appointment]
+    cite: 'ch. 404, § 4, 48 Stat. 881, 885'
+    usc: '15 U.S.C. § 78d (1958)'
+    does: 'Creates the Commission: five commissioners appointed by the President, by and with the advice and consent of the Senate, for five years; not more than three of one party; to engage in no other business. The functions of the Federal Trade Commission under the Securities Act of 1933 transferred to it (§ 210).'
+  - act: Securities Act of 1933
+    date: '1933-05-27'
+    tags: [powers]
+    cite: 'ch. 38, 48 Stat. 74'
+    usc: ['15 U.S.C. §§ 77a–77aa (1958)']
+    does: Registration of securities offered to the public in interstate commerce; prospectuses; civil liability for misstatement.
+  - act: Public Utility Holding Company Act of 1935
+    date: '1935-08-26'
+    tags: [powers]
+    cite: 'ch. 687, title I, 49 Stat. 803'
+    usc: ['15 U.S.C. §§ 79–79z-6 (1958)']
+    does: Registration and simplification of holding-company systems of gas and electric utilities.
+  - act: Investment Company Act of 1940; Investment Advisers Act of 1940
+    date: '1940-08-22'
+    tags: [powers]
+    cite: 'ch. 686, 54 Stat. 789'
+    usc: ['15 U.S.C. §§ 80a-1–80a-52 (1958)', '15 U.S.C. §§ 80b-1–80b-21 (1958)']
+    does: Registration and regulation of investment companies and investment advisers.
+n: Terms of five years, one expiring each June 5. Dates of service and of chairmanship are the Commission's own historical summary.
+offices:
+  - id: chairman
+    title: Chairman of the Securities and Exchange Commission
+    rank: head
+    appt: DES
+    level: III
+    law:
+      - act: Reorganization Plan No. 10 of 1950
+        date: '1950-05-24'
+        tags: [appointment, powers]
+        cite: '64 Stat. 1265'
+        usc: '15 U.S.C. § 78d note (1958)'
+        does: The Commission's executive and administrative functions transferred to the Chairman, governed by its general policies; the Commission's function of choosing a chairman from among the commissioners transferred to the President.
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(c)(26), 78 Stat. 400, 417'
+        usc: '5 U.S.C. § 5314 (1970)'
+        does: Level III, $28,500.
+    holders:
+      - name: Cook, Donald C.
+        from: '1952-02-26'
+        to: '1953-06-17'
+        out: Resigned.
+        src: ['SEC Historical Summary of Chairmen and Commissioners', CDIR 1953-03]
+      - name: Demmler, Ralph H.
+        from: '1953-06-17'
+        to: '1955-05-25'
+        out: Resigned.
+        n: 'Check: Wikipedia gives June 27, 1953.'
+        src: ['SEC Historical Summary of Chairmen and Commissioners', CDIR 1954-01, CDIR 1955-02]
+      - name: Armstrong, J. Sinclair
+        from: '1955-05-25'
+        to: '1957-06-27'
+        out: To Assistant Secretary of the Navy.
+        src: ['SEC Historical Summary of Chairmen and Commissioners', CDIR 1956-01, CDIR 1957-03]
+      - name: Gadsby, Edward N.
+        from: '1957-08-20'
+        to: '1961-03-26'
+        out: Remained a commissioner to Aug. 4, 1961.
+        src: ['SEC Historical Summary of Chairmen and Commissioners', CDIR 1958-01, CDIR 1960-01]
+      - name: Cary, William L.
+        from: '1961-03-27'
+        to: '1964-08-20'
+        out: Resigned.
+        src: ['SEC Historical Summary of Chairmen and Commissioners', CDIR 1961-04, CDIR 1964-01]
+      - name: Cohen, Manuel F.
+        from: '1964-08-20'
+        to: '1969-02-22'
+        out: Resigned.
+        src: ['SEC Historical Summary of Chairmen and Commissioners', CDIR 1965-03, CDIR 1967-02]
+      - name: Budge, Hamer H.
+        from: '1969-02-22'
+        to: '1971-01-02'
+        out: Resigned.
+        n: 'Check: who acted as chairman, Jan. 2–Apr. 14, 1971.'
+        src: ['SEC Historical Summary of Chairmen and Commissioners', CDIR 1969-03, CDIR 1971-03]
+      - name: Casey, William J.
+        from: '1971-04-14'
+        to: '1973-02-02'
+        out: To Under Secretary of State for Economic Affairs.
+        src: ['SEC Historical Summary of Chairmen and Commissioners', CDIR 1971-12, CDIR 1973-03]
+      - name: Cook, G. Bradford
+        from: '1973-03-03'
+        to: '1973-05-16'
+        out: Resigned.
+        n: 'Check: who presided Feb. 2–Mar. 3 and May 16–Aug. 6, 1973.'
+        src: ['SEC Historical Summary of Chairmen and Commissioners']
+      - name: Garrett, Ray, Jr.
+        from: '1973-08-06'
+        n: Served to Oct. 28, 1975.
+        src: ['SEC Historical Summary of Chairmen and Commissioners', CDIR 1973-12]
+  - id: commissioner
+    title: Commissioner
+    rank: principal
+    appt: PAS
+    many: true
+    law:
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(d)(64), 78 Stat. 400, 419'
+        usc: '5 U.S.C. § 5315 (1970)'
+        does: Members at Level IV, $27,000.
+    n: Five commissioners, the chairman among them. Party as the Commission gives it.
+    holders:
+      - name: McEntire, Richard B.
+        from: '1946-06-04'
+        to: '1953-05-31'
+        n: Republican.
+        src: ['SEC Historical Summary of Chairmen and Commissioners', CDIR 1953-03]
+      - name: Rowen, Paul R.
+        from: '1948-05-28'
+        to: '1955-06-05'
+        n: Democrat.
+        src: ['SEC Historical Summary of Chairmen and Commissioners', CDIR 1955-02]
+      - name: Cook, Donald C.
+        from: '1949-11-01'
+        to: '1953-06-17'
+        out: Resigned.
+        n: Democrat. Chairman from Feb. 26, 1952.
+        src: ['SEC Historical Summary of Chairmen and Commissioners']
+      - name: Adams, Clarence H.
+        from: '1952-05-12'
+        to: '1956-06-05'
+        n: Republican.
+        src: ['SEC Historical Summary of Chairmen and Commissioners', CDIR 1956-01]
+      - name: Rossbach, J. Howard
+        from: '1952-08-04'
+        to: '1953-02-14'
+        n: Democrat.
+        src: ['SEC Historical Summary of Chairmen and Commissioners']
+      - name: Demmler, Ralph H.
+        from: '1953-06-17'
+        to: '1955-05-25'
+        out: Resigned.
+        n: Republican. Chairman throughout.
+        src: ['SEC Historical Summary of Chairmen and Commissioners']
+      - name: Armstrong, J. Sinclair
+        from: '1953-07-16'
+        to: '1957-06-27'
+        out: To Assistant Secretary of the Navy.
+        n: Republican. Chairman from May 25, 1955.
+        src: ['SEC Historical Summary of Chairmen and Commissioners']
+      - name: Goodwin, A. J., Jr.
+        given: A. Jackson
+        from: '1953-07-16'
+        to: '1955-12-31'
+        n: Democrat.
+        src: ['SEC Historical Summary of Chairmen and Commissioners', CDIR 1956-01]
+      - name: Orrick, Andrew Downey
+        from: '1955-05-26'
+        to: '1960-07-15'
+        n: Republican.
+        src: ['SEC Historical Summary of Chairmen and Commissioners', CDIR 1960-01]
+      - name: Patterson, Harold C.
+        from: '1955-08-05'
+        to: '1960-11-29'
+        n: Democrat.
+        src: ['SEC Historical Summary of Chairmen and Commissioners', CDIR 1960-01]
+      - name: Hastings, Earl F.
+        given: Earl Freeman
+        from: '1956-03-11'
+        to: '1961-08-31'
+        n: Democrat.
+        src: ['SEC Historical Summary of Chairmen and Commissioners', CDIR 1961-04]
+      - name: Sargent, James C.
+        from: '1956-06-29'
+        to: '1960-10-21'
+        n: Republican.
+        src: ['SEC Historical Summary of Chairmen and Commissioners', CDIR 1960-01]
+      - name: Gadsby, Edward N.
+        from: '1957-08-20'
+        to: '1961-08-04'
+        n: Republican. Chairman to Mar. 26, 1961.
+        src: ['SEC Historical Summary of Chairmen and Commissioners', CDIR 1961-04]
+      - name: Woodside, Byron D.
+        from: '1960-07-15'
+        to: '1967-04-30'
+        n: Republican.
+        src: ['SEC Historical Summary of Chairmen and Commissioners', CDIR 1967-02]
+      - name: McCauley, Daniel J., Jr.
+        from: '1960-10-24'
+        to: '1961-03-26'
+        n: Republican. Recess appointment by Eisenhower.
+        src: ['SEC Historical Summary of Chairmen and Commissioners']
+      - name: Frear, J. Allen, Jr.
+        from: '1961-03-15'
+        to: '1963-09-30'
+        n: Democrat; former Senator from Delaware.
+        src: ['SEC Historical Summary of Chairmen and Commissioners', CDIR 1963-03]
+      - name: Cary, William L.
+        from: '1961-03-27'
+        to: '1964-08-21'
+        out: Resigned.
+        n: Democrat. Chairman throughout.
+        src: ['SEC Historical Summary of Chairmen and Commissioners']
+      - name: Cohen, Manuel F.
+        from: '1961-10-11'
+        to: '1969-02-22'
+        out: Resigned.
+        n: Democrat; a member of the staff from 1942. Chairman from Aug. 20, 1964.
+        src: ['SEC Historical Summary of Chairmen and Commissioners']
+      - name: Whitney, Jack M., II
+        from: '1961-11-09'
+        to: '1964-06-15'
+        n: Republican.
+        src: ['SEC Historical Summary of Chairmen and Commissioners', CDIR 1964-01]
+      - name: Owens, Hugh F.
+        from: '1964-03-23'
+        to: '1973-11-20'
+        n: Democrat.
+        src: ['SEC Historical Summary of Chairmen and Commissioners', CDIR 1973-12]
+      - name: Budge, Hamer H.
+        from: '1964-07-08'
+        to: '1971-01-02'
+        out: Resigned.
+        n: Republican; former Representative from Idaho. Chairman from Feb. 22, 1969.
+        src: ['SEC Historical Summary of Chairmen and Commissioners']
+      - name: Wheat, Francis M.
+        from: '1964-10-02'
+        to: '1969-09-30'
+        n: Democrat.
+        src: ['SEC Historical Summary of Chairmen and Commissioners', CDIR 1969-03]
+      - name: Smith, Richard B.
+        from: '1967-05-01'
+        to: '1971-07-30'
+        n: Republican.
+        src: ['SEC Historical Summary of Chairmen and Commissioners', CDIR 1971-03]
+      - name: Needham, James J.
+        from: '1969-07-10'
+        to: '1972-07-14'
+        out: Resigned, to the chairmanship of the New York Stock Exchange.
+        n: Republican.
+        src: ['SEC Historical Summary of Chairmen and Commissioners', CDIR 1971-12]
+      - name: Herlong, A. Sydney, Jr.
+        from: '1969-10-29'
+        to: '1973-06-30'
+        n: Democrat; former Representative from Florida.
+        src: ['SEC Historical Summary of Chairmen and Commissioners', CDIR 1973-03]
+      - name: Casey, William J.
+        from: '1971-04-14'
+        to: '1973-02-02'
+        out: To Under Secretary of State for Economic Affairs.
+        n: Republican. Chairman throughout.
+        src: ['SEC Historical Summary of Chairmen and Commissioners']
+      - name: Loomis, Philip A., Jr.
+        from: '1971-08-13'
+        n: Republican; General Counsel of the Commission, 1963–71. Served to June 18, 1982.
+        src: ['SEC Historical Summary of Chairmen and Commissioners', CDIR 1973-12]
+      - name: Evans, John R.
+        from: '1973-03-03'
+        n: Republican. Served to Dec. 2, 1983.
+        src: ['SEC Historical Summary of Chairmen and Commissioners', CDIR 1973-12]
+      - name: Cook, G. Bradford
+        from: '1973-03-03'
+        to: '1973-05-16'
+        out: Resigned.
+        n: Republican; General Counsel of the Commission, 1971–73. Chairman throughout.
+        src: ['SEC Historical Summary of Chairmen and Commissioners']
+      - name: Garrett, Ray, Jr.
+        from: '1973-08-06'
+        n: Republican. Chairman. Served to Oct. 28, 1975.
+        src: ['SEC Historical Summary of Chairmen and Commissioners']
+      - name: Sommer, A. A., Jr.
+        from: '1973-08-06'
+        n: Democrat. Served to Apr. 2, 1976.
+        src: ['SEC Historical Summary of Chairmen and Commissioners', CDIR 1973-12]
+      - name: Pollack, Irving M.
+        from: '1974-02-13'
+        n: Democrat; Director of the Division of Enforcement. Served to June 5, 1980.
+        src: ['SEC Historical Summary of Chairmen and Commissioners']

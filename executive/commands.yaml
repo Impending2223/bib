@@ -1,0 +1,1082 @@
+# The unified and specified commands, and the subordinate commands of the series, 1953-74. Kept by hand.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: commands
+name: Unified and specified commands
+under: defense
+order: 50
+law:
+  - act: Unified Command Plan (Outline Command Plan)
+    date: '1946-12-14'
+    until: '1953-07-24'
+    tags: [creates]
+    url: https://archive.org/details/DTIC_ADA426162
+    does: 'Approved by the President: unified commands in the Pacific, the Far East, Alaska, the Caribbean, and the Atlantic, each under one commander responsible to the Joint Chiefs of Staff; the Strategic Air Command brought under the Joint Chiefs.'
+  - act: National Security Act Amendments of 1949
+    date: '1949-08-10'
+    until: '1956-08-10'
+    tags: [creates]
+    cite: ch. 412, § 7(b), 63 Stat. 578, 582
+    usc: 5 U.S.C. § 171f(b)(3) (1952)
+    does: 'Among the duties of the Joint Chiefs of Staff: establishment of unified commands in strategic areas.'
+  - act: Unified Command Plan (SM-1419-53)
+    date: '1953-07-24'
+    until: '1955-03-09'
+    tags: [reorganizes]
+    url: https://archive.org/details/DTIC_ADA426162
+    does: 'Revised plan, approved by the Secretary of Defense June 30, 1953: the European Command''s logistic and administrative responsibilities exercised on the Secretary''s authority. Executive agents (a military department for each command) designated by the Secretary, Jan. 15, 1954.'
+  - act: Unified Command Plan (SM-180-55)
+    date: '1955-03-09'
+    until: '1956-07-03'
+    tags: [reorganizes]
+    url: https://archive.org/details/DTIC_ADA426162
+    does: Revised for the Continental Air Defense Command (Sept. 1, 1954) and the early warning system.
+  - act: Unified Command Plan (SM-548-56)
+    date: '1956-07-03'
+    until: '1957-10-24'
+    tags: [reorganizes]
+    url: https://archive.org/details/DTIC_ADA426162
+    does: 'Approved by the President: the Far East Command disestablished, effective July 1, 1957, its area to the Pacific Command; the Northeast Command disestablished Sept. 1, 1956; U.S. Air Forces, Europe, no longer a specified command (July 1, 1956).'
+  - act: Unified Command Plan (SM-749-57)
+    date: '1957-10-24'
+    until: '1958-09-08'
+    tags: [reorganizes]
+    url: https://archive.org/details/DTIC_ADA426162
+    does: Revised after the North American Air Defense Command (Sept. 12, 1957), its commander also Commander in Chief, Continental Air Defense Command.
+  - act: Department of Defense Reorganization Act of 1958
+    date: '1958-08-06'
+    tags: [creates, powers]
+    cite: Pub. L. 85-599, § 5(b), 72 Stat. 514, 518
+    usc:
+      - 5 U.S.C. § 171a(j) (1958)
+      - 10 U.S.C. § 124 (1964)
+    does: The President, through the Secretary of Defense, with the advice of the Joint Chiefs, establishes unified or specified combatant commands and determines their force structure; the commands responsible to the President and the Secretary; assigned forces under the full operational command of the commander; administration and support by the military departments.
+  - act: Unified Command Plan (SM-643-58)
+    date: '1958-09-08'
+    until: '1961-02-04'
+    tags: [reorganizes]
+    url: https://archive.org/details/DTIC_ADA426162
+    does: 'Approved by the President Sept. 4, 1958, under the Reorganization Act: the chain of command from the President and the Secretary through the Joint Chiefs to the commanders; the Continental Air Defense Command a unified command.'
+  - act: Unified Command Plan (SM-105-61)
+    date: '1961-02-04'
+    until: '1963-11-20'
+    tags: [reorganizes]
+    url: https://archive.org/details/DTIC_ADA426162
+    does: 'Approved by the President Dec. 30, 1960: a commander''s emergency authority to assume operational command of forces scheduled for war plans deleted. The Strike Command established Jan. 1, 1962.'
+  - act: Unified Command Plan (SM-1400-63)
+    date: '1963-11-20'
+    effective: '1963-12-01'
+    until: '1971-06-30'
+    tags: [reorganizes]
+    url: https://archive.org/details/DTIC_ADA426162
+    does: The Strike Command also given the Middle East, Southern Asia, and Africa south of the Sahara (CINCMEAFSA); the Naval Forces, Eastern Atlantic and Mediterranean, disestablished as a specified command; the Caribbean Command renamed Southern Command (June 6, 1963).
+  - act: Unified Command Plan (SM-422-71)
+    date: '1971-06-30'
+    effective: '1972-01-01'
+    tags: [reorganizes]
+    url: https://archive.org/details/DTIC_ADA426162
+    does: 'Approved by the President Apr. 21, 1971: the Strike Command replaced by the Readiness Command; the Middle East to the European Command, southern Asia and the Indian Ocean to the Pacific Command; the Southern Command kept.'
+n: 'Commanders in chief of the unified and specified commands, and the subordinate commands of the series. Each commander is an officer assigned to the post; the post itself needs no confirmation, but his grade (general or admiral, with its office) does. Dates from the commands'' lists of commanders (Wikipedia, with its sources), checked against the FRUS persons lists where they give dates. Establishment dates: the JCS History Office''s History of the Unified Command Plan, 1946–1999, app. I.'
+offices:
+  - id: cincpac
+    title: Commander in Chief, Pacific (CINCPAC)
+    rank: military
+    appt: MIL
+    group: Unified commands
+    n: Established Jan. 1, 1947. Also Commander in Chief, Pacific Fleet, until Jan. 14, 1958. The Far East Command's area added July 1, 1957.
+    holders:
+      - name: Radford, Arthur W.
+        rank: Adm., USN
+        from: '1949-04-30'
+        to: '1953-07-10'
+        out: To Chairman of the Joint Chiefs of Staff.
+        n: Also High Commissioner of the Trust Territory of the Pacific Islands.
+        src: &id001
+          - 'Wikipedia: United States Indo-Pacific Command'
+          - FRUS persons list
+      - name: Stump, Felix B.
+        rank: Adm., USN
+        from: '1953-07-10'
+        to: '1958-07-31'
+        out: Retired.
+        src: *id001
+      - name: Felt, Harry D.
+        rank: Adm., USN
+        from: '1958-07-31'
+        to: '1964-06-30'
+        out: Retired.
+        n: From Vice Chief of Naval Operations.
+        src: *id001
+      - name: Sharp, U.S. Grant
+        rank: Adm., USN
+        from: '1964-06-30'
+        to: '1968-07-31'
+        out: Retired.
+        n: From Commander in Chief, Pacific Fleet.
+        src: *id001
+      - name: McCain, John S., Jr.
+        rank: Adm., USN
+        from: '1968-07-31'
+        to: '1972-09-01'
+        out: Retired.
+        n: From Commander in Chief, U.S. Naval Forces, Europe.
+        src: *id001
+      - name: Gayler, Noel A. M.
+        rank: Adm., USN
+        from: '1972-09-01'
+        to: '1976-08-30'
+        out: Retired.
+        n: From Director, National Security Agency.
+        src: *id001
+  - id: cincfe
+    title: Commander in Chief, Far East (CINCFE)
+    rank: military
+    appt: MIL
+    group: Unified commands
+    until: '1957-07-01'
+    n: Established Jan. 1, 1947; disestablished July 1, 1957, its area to the Pacific Command. Held with Commander in Chief, United Nations Command, and Governor of the Ryukyu Islands.
+    holders:
+      - name: Clark, Mark W.
+        rank: Gen., USA
+        from: '1952-05-12'
+        to: '1953-10-07'
+        out: Retired.
+        src: &id002
+          - 'Wikipedia: Far East Command (United States)'
+          - FRUS persons list
+      - name: Hull, John E.
+        rank: Gen., USA
+        from: '1953-10-07'
+        to: '1955-04-01'
+        out: Retired.
+        n: From Vice Chief of Staff of the Army.
+        src: *id002
+      - name: Taylor, Maxwell D.
+        rank: Gen., USA
+        from: '1955-04-01'
+        to: '1955-06-05'
+        out: To Chief of Staff of the Army.
+        n: From Commanding General, Eighth Army.
+        src: *id002
+      - name: Lemnitzer, Lyman L.
+        rank: Gen., USA
+        from: '1955-06-05'
+        to: '1957-07-01'
+        out: Command disestablished; to Vice Chief of Staff of the Army.
+        src: *id002
+  - id: cinclant
+    title: Commander in Chief, Atlantic (CINCLANT)
+    rank: military
+    appt: MIL
+    group: Unified commands
+    n: Established Dec. 1, 1947. Held with Commander in Chief, U.S. Atlantic Fleet (navy-staff), and NATO's Supreme Allied Commander, Atlantic (from Jan. 30, 1952).
+    holders:
+      - name: McCormick, Lynde D.
+        rank: Adm., USN
+        from: '1951-08-15'
+        to: '1954-04-12'
+        out: To President, Naval War College.
+        src: &id003
+          - 'Wikipedia: United States Atlantic Command'
+          - 'Wikipedia: Supreme Allied Commander Atlantic'
+      - name: Wright, Jerauld
+        rank: Adm., USN
+        from: '1954-04-12'
+        to: '1960-02-28'
+        out: Retired.
+        src: *id003
+      - name: Dennison, Robert L.
+        rank: Adm., USN
+        from: '1960-02-28'
+        to: '1963-04-30'
+        out: Retired.
+        n: From Commander in Chief, U.S. Naval Forces, Eastern Atlantic and Mediterranean.
+        src: *id003
+      - name: Smith, Harold P.
+        rank: Adm., USN
+        from: '1963-04-30'
+        to: '1965-04-30'
+        out: Retired.
+        n: From Commander in Chief, U.S. Naval Forces, Europe.
+        src: *id003
+      - name: Moorer, Thomas H.
+        rank: Adm., USN
+        from: '1965-04-30'
+        to: '1967-06-17'
+        out: To Chief of Naval Operations.
+        n: From Commander in Chief, Pacific Fleet.
+        src: *id003
+      - name: Holmes, Ephraim P.
+        rank: Adm., USN
+        from: '1967-06-17'
+        to: '1970-09-30'
+        out: Retired.
+        src: *id003
+      - name: Duncan, Charles K.
+        rank: Adm., USN
+        from: '1970-09-30'
+        to: '1972-10-31'
+        out: Retired.
+        src: *id003
+      - name: Cousins, Ralph W.
+        rank: Adm., USN
+        from: '1972-10-31'
+        to: '1975-05-30'
+        out: Retired.
+        n: From Vice Chief of Naval Operations.
+        src: *id003
+  - id: cinceur
+    title: Commander in Chief, U.S. European Command (USCINCEUR)
+    rank: military
+    appt: MIL
+    group: Unified commands
+    n: The European Command a full unified command from Aug. 1, 1952 (a European Command under the Army from Mar. 15, 1947). Its commander also NATO's Supreme Allied Commander, Europe (saceur).
+    holders:
+      - name: Ridgway, Matthew B.
+        rank: Gen., USA
+        from: '1952-05-30'
+        to: '1953-07-11'
+        out: To Chief of Staff of the Army.
+        src:
+          - 'Wikipedia: United States European Command'
+      - name: Gruenther, Alfred M.
+        rank: Gen., USA
+        from: '1953-07-11'
+        to: '1956-11-20'
+        out: Retired.
+        n: From Chief of Staff, SHAPE.
+        src:
+          - 'Wikipedia: United States European Command'
+          - FRUS persons list
+      - name: Norstad, Lauris
+        rank: Gen., USAF
+        from: '1956-11-20'
+        to: '1962-11-01'
+        out: Resigned; retired.
+        n: From Air Deputy, SHAPE. The President accepted his resignation July 19, 1962 (APP); SACEUR to Jan. 1, 1963.
+        src:
+          - 'Wikipedia: United States European Command'
+          - https://www.presidency.ucsb.edu/documents/letter-accepting-resignation-general-norstad-supreme-commander-united-states-and-allied
+      - name: Lemnitzer, Lyman L.
+        rank: Gen., USA
+        from: '1962-11-01'
+        to: '1969-07-01'
+        out: Retired.
+        n: 'From Chairman of the Joint Chiefs of Staff. Check: Wikipedia (Goodpaster) gives May 5, 1969, for the change of command.'
+        src:
+          - 'Wikipedia: United States European Command'
+      - name: Goodpaster, Andrew J.
+        rank: Gen., USA
+        from: '1969-07-01'
+        to: '1974-12-15'
+        out: Retired.
+        n: 'From Deputy Commander, U.S. Military Assistance Command, Vietnam. FRUS: CINCEUR from May 1969.'
+        src:
+          - 'Wikipedia: United States European Command'
+          - FRUS persons list
+  - id: saceur
+    title: Supreme Allied Commander, Europe (SACEUR)
+    rank: military
+    appt: DES
+    under: cinceur
+    group: Unified commands
+    n: A NATO command, not an office of the United States; held by the U.S. Commander in Chief, Europe, on the North Atlantic Council's appointment at the President's nomination.
+    holders:
+      - name: Ridgway, Matthew B.
+        rank: Gen., USA
+        from: '1952-05-30'
+        to: '1953-07-11'
+        src:
+          - 'Wikipedia: Supreme Allied Commander Europe'
+      - name: Gruenther, Alfred M.
+        rank: Gen., USA
+        from: '1953-07-11'
+        to: '1956-11-20'
+        src:
+          - 'Wikipedia: Supreme Allied Commander Europe'
+      - name: Norstad, Lauris
+        rank: Gen., USAF
+        from: '1956-11-20'
+        to: '1963-01-01'
+        out: Retired.
+        src:
+          - 'Wikipedia: Supreme Allied Commander Europe'
+      - name: Lemnitzer, Lyman L.
+        rank: Gen., USA
+        from: '1963-01-01'
+        to: '1969-07-01'
+        out: Retired.
+        src:
+          - 'Wikipedia: Supreme Allied Commander Europe'
+      - name: Goodpaster, Andrew J.
+        rank: Gen., USA
+        from: '1969-07-01'
+        to: '1974-12-15'
+        out: Retired.
+        src:
+          - 'Wikipedia: Supreme Allied Commander Europe'
+  - id: cincso
+    title: Commander in Chief, Caribbean (CINCARIB)
+    titles:
+      - title: Commander in Chief, U.S. Southern Command (USCINCSO)
+        from: '1963-06-06'
+    rank: military
+    appt: MIL
+    group: Unified commands
+    n: The Caribbean Command established Nov. 1, 1947, at Quarry Heights, Canal Zone; renamed Southern Command June 6, 1963.
+    holders:
+      - name: McBride, Horace L.
+        rank: Lt. Gen., USA
+        from: '1952-04-01'
+        to: '1954-06-01'
+        src: &id004
+          - 'Wikipedia: United States Southern Command'
+          - FRUS persons list
+      - name: Harrison, William K., Jr.
+        rank: Lt. Gen., USA
+        from: '1954-06-01'
+        to: '1957-01-01'
+        out: Retired.
+        src: *id004
+      - name: Montague, Robert M.
+        rank: Lt. Gen., USA
+        from: '1957-01-01'
+        to: '1958-02-01'
+        n: 'Check: who commanded Feb. 1–Apr. 1, 1958 (none in Wikipedia''s list).'
+        src: *id004
+      - name: Gaither, Ridgely
+        rank: Lt. Gen., USA
+        from: '1958-04-01'
+        to: '1960-07-01'
+        src: *id004
+      - name: Sink, Robert F.
+        rank: Lt. Gen., USA
+        from: '1960-07-01'
+        to: '1961-01-01'
+        src: *id004
+      - name: O'Meara, Andrew P.
+        rank: Gen., USA
+        from: '1961-01-06'
+        to: '1965-02-22'
+        out: To Commanding General, U.S. Army, Europe.
+        src: *id004
+      - name: Porter, Robert W., Jr.
+        rank: Gen., USA
+        from: '1965-02-22'
+        to: '1969-02-18'
+        out: Retired.
+        src: *id004
+      - name: Mather, George R.
+        rank: Gen., USA
+        from: '1969-02-18'
+        to: '1971-09-20'
+        out: Retired.
+        src: *id004
+      - name: Underwood, George V., Jr.
+        rank: Gen., USA
+        from: '1971-09-20'
+        to: '1973-01-17'
+        out: Retired.
+        src: *id004
+      - name: Rosson, William B.
+        rank: Gen., USA
+        from: '1973-01-17'
+        to: '1975-08-01'
+        out: Retired.
+        n: From Commander in Chief, U.S. Army, Pacific.
+        src: *id004
+  - id: cincal
+    title: Commander in Chief, Alaska (CINCAL)
+    rank: military
+    appt: MIL
+    group: Unified commands
+    n: 'Established Jan. 1, 1947; disestablished June 30, 1975. Held by the commanders of the Alaskan Air Command. Check: holders not yet found.'
+    holders: []
+  - id: cinconad
+    title: Commander in Chief, Continental Air Defense Command (CINCONAD)
+    titles:
+      - title: Commander in Chief, Continental Air Defense Command, and Commander in Chief, North American Air Defense Command (CINCONAD/CINCNORAD)
+        from: '1957-09-12'
+    rank: military
+    appt: MIL
+    group: Unified commands
+    n: CONAD established Sept. 1, 1954, a joint command; a unified command from Sept. 1958. NORAD, combined with Canada (deputy commander a Canadian officer), established Sept. 12, 1957, under the same commander. CONAD disestablished June 30, 1975.
+    holders:
+      - name: Chidlaw, Benjamin W.
+        rank: Gen., USAF
+        from: '1954-09-01'
+        to: '1955-05-31'
+        out: Retired.
+        n: Also Commander, Air Defense Command.
+        src:
+          - JCS History Office, History of the Unified Command Plan, 1946–1999 (2003)
+          - Wikipedia
+      - name: Partridge, Earle E.
+        rank: Gen., USAF
+        from: 1955-07
+        to: '1959-07-30'
+        out: Retired.
+        n: 'From Commander, Far East Air Forces. Check: day of taking command; Maj. Gen. Frederic H. Smith, Jr., commanded the Air Defense Command from May 31, 1955.'
+        src:
+          - 'Wikipedia: Commander of the North American Aerospace Defense Command'
+      - name: Kuter, Laurence S.
+        rank: Gen., USAF
+        from: '1959-08-01'
+        to: '1962-07-30'
+        out: Retired.
+        n: From Commander in Chief, Pacific Air Forces.
+        src:
+          - 'Wikipedia: Commander of the North American Aerospace Defense Command'
+      - name: Gerhart, John K.
+        rank: Gen., USAF
+        from: '1962-08-01'
+        to: '1965-03-30'
+        out: Retired.
+        src:
+          - 'Wikipedia: Commander of the North American Aerospace Defense Command'
+      - name: Strother, Dean C.
+        rank: Gen., USAF
+        from: '1965-04-01'
+        to: '1966-07-29'
+        out: Retired.
+        src:
+          - 'Wikipedia: Commander of the North American Aerospace Defense Command'
+      - name: Reeves, Raymond J.
+        rank: Gen., USAF
+        from: '1966-08-01'
+        to: '1969-07-31'
+        out: Retired.
+        src:
+          - 'Wikipedia: Commander of the North American Aerospace Defense Command'
+      - name: McKee, Seth J.
+        rank: Gen., USAF
+        from: '1969-08-01'
+        to: '1973-09-30'
+        out: Retired.
+        src:
+          - 'Wikipedia: Commander of the North American Aerospace Defense Command'
+      - name: Clay, Lucius D., Jr.
+        rank: Gen., USAF
+        from: '1973-10-01'
+        to: '1975-08-29'
+        out: Retired.
+        n: From Commander in Chief, Pacific Air Forces.
+        src:
+          - 'Wikipedia: Commander of the North American Aerospace Defense Command'
+  - id: cincstrike
+    title: Commander in Chief, U.S. Strike Command (USCINCSTRIKE)
+    titles:
+      - title: Commander in Chief, U.S. Strike Command, and Commander in Chief, Middle East, Southern Asia, and Africa South of the Sahara (USCINCSTRIKE/USCINCMEAFSA)
+        from: '1963-12-01'
+      - title: Commander in Chief, U.S. Readiness Command (USCINCRED)
+        from: '1972-01-01'
+    rank: military
+    appt: MIL
+    group: Unified commands
+    from: '1962-01-01'
+    n: 'Established Jan. 1, 1962, at MacDill Air Force Base: Army and Air Force combat forces in the United States, a reserve for the other commands. The Middle East, Southern Asia, and Africa south of the Sahara added Dec. 1, 1963. Replaced by the Readiness Command Jan. 1, 1972.'
+    holders:
+      - name: Adams, Paul D.
+        rank: Gen., USA
+        from: '1962-01-01'
+        to: 1966-11
+        out: Retired.
+        n: 'Commander in Chief, American Land Forces, Lebanon, July 1958 (FRUS). Check: day of leaving.'
+        src: &id005
+          - 'Wikipedia: United States Strike Command'
+          - FRUS persons list
+      - name: Conway, Theodore J.
+        rank: Gen., USA
+        from: 1966-11
+        to: 1969-07
+        out: Retired.
+        n: 'Check: days.'
+        src: *id005
+      - name: Throckmorton, John L.
+        rank: Gen., USA
+        from: 1969-08
+        to: 1973-07
+        out: Retired.
+        n: 'From Commanding General, Third Army. USCINCRED from Jan. 1, 1972. Check: days.'
+        src: *id005
+      - name: Palmer, Bruce, Jr.
+        rank: Gen., USA
+        from: 1973-08
+        to: 1974-09
+        out: Retired.
+        n: 'From Vice Chief of Staff of the Army. Check: days.'
+        src: *id005
+  - id: cincsac
+    title: Commander in Chief, Strategic Air Command (CINCSAC)
+    rank: military
+    appt: MIL
+    group: Specified commands
+    n: A specified command, recognized in the plan of Dec. 14, 1946. Its commander also Director of Strategic Target Planning (Joint Strategic Target Planning Staff), from Aug. 1960.
+    holders:
+      - name: LeMay, Curtis E.
+        rank: Gen., USAF
+        from: '1948-10-19'
+        to: '1957-06-30'
+        out: To Vice Chief of Staff of the Air Force.
+        n: Styled Commanding General to 1953, Commander to 1957.
+        src: &id006
+          - 'Wikipedia: List of commanders-in-chief of the Strategic Air Command'
+      - name: Power, Thomas S.
+        rank: Gen., USAF
+        from: '1957-07-01'
+        to: '1964-11-30'
+        out: Retired.
+        n: Also Director of Strategic Target Planning, from Aug. 1960.
+        src: *id006
+      - name: Ryan, John D.
+        rank: Gen., USAF
+        from: '1964-12-01'
+        to: '1967-01-31'
+        out: To Commander in Chief, Pacific Air Forces.
+        src: *id006
+      - name: Nazzaro, Joseph J.
+        rank: Gen., USAF
+        from: '1967-02-01'
+        to: '1968-07-31'
+        out: To Commander in Chief, Pacific Air Forces.
+        src: *id006
+      - name: Holloway, Bruce K.
+        rank: Gen., USAF
+        from: '1968-08-01'
+        to: '1972-04-30'
+        out: Retired.
+        n: From Vice Chief of Staff of the Air Force.
+        src: *id006
+      - name: Meyer, John C.
+        rank: Gen., USAF
+        from: '1972-05-01'
+        to: '1974-07-31'
+        out: Retired.
+        n: From Vice Chief of Staff of the Air Force.
+        src: *id006
+      - name: Dougherty, Russell E.
+        rank: Gen., USAF
+        from: '1974-08-01'
+        to: '1977-07-31'
+        out: Retired.
+        src: *id006
+  - id: cincnelm
+    title: Commander in Chief, U.S. Naval Forces, Eastern Atlantic and Mediterranean (CINCNELM)
+    titles:
+      - title: Commander in Chief, U.S. Naval Forces, Europe (CINCUSNAVEUR)
+        from: '1963-12-01'
+    rank: military
+    appt: MIL
+    group: Specified commands
+    n: 'A specified command from Nov. 1, 1947; from Aug. 1, 1952, also the Navy component of the European Command, and from Feb. 1960 titled also Commander in Chief, U.S. Naval Forces, Europe. The specified command disestablished Dec. 1, 1963; thereafter the European Command''s naval component only. Months from Wikipedia''s list: Check days.'
+    holders:
+      - name: Wright, Jerauld
+        rank: Adm., USN
+        from: '1952-06-14'
+        to: 1954-03
+        out: To Commander in Chief, Atlantic.
+        n: 'Check: day of leaving.'
+        src: &id007
+          - 'Wikipedia: United States Naval Forces Europe and Africa'
+          - FRUS persons list
+      - name: Cassady, John H.
+        rank: Adm., USN
+        from: 1954-03
+        to: '1956-05-01'
+        out: Retired.
+        n: From Commander, Sixth Fleet.
+        src: *id007
+      - name: Boone, Walter F.
+        rank: Adm., USN
+        from: '1956-05-01'
+        to: 1958-02
+        n: 'Check: day of leaving.'
+        src: *id007
+      - name: Holloway, James L., Jr.
+        rank: Adm., USN
+        from: 1958-02
+        to: 1959-03
+        n: Also Commander in Chief, Specified Command, Middle East (CINCSPECOMME), and commander of the Lebanon landing, July 1958.
+        src: *id007
+      - name: Dennison, Robert L.
+        rank: Adm., USN
+        from: 1959-03
+        to: 1960-02
+        out: To Commander in Chief, Atlantic.
+        src: *id007
+      - name: Smith, Harold P.
+        rank: Adm., USN
+        from: 1960-02
+        to: 1963-04
+        out: To Commander in Chief, Atlantic.
+        n: Also Commander in Chief, U.S. Naval Forces, Europe, from Feb. 1960.
+        src: *id007
+      - name: McDonald, David L.
+        rank: Adm., USN
+        from: 1963-04
+        to: 1963-06
+        out: To Chief of Naval Operations.
+        src: *id007
+      - name: Griffin, Charles D.
+        rank: Adm., USN
+        from: 1963-06
+        to: 1965-03
+        n: From Commander, Seventh Fleet.
+        src: *id007
+      - name: Thach, John S.
+        rank: Adm., USN
+        from: 1965-03
+        to: 1967-05
+        out: Retired.
+        src: *id007
+      - name: McCain, John S., Jr.
+        rank: Adm., USN
+        from: 1967-05
+        to: 1968-07
+        out: To Commander in Chief, Pacific.
+        src: *id007
+      - name: Wendt, Waldemar F. A.
+        rank: Adm., USN
+        from: 1968-07
+        to: 1971-06
+        out: Retired.
+        src: *id007
+      - name: Bringle, William F.
+        rank: Adm., USN
+        from: 1971-06
+        to: 1973-08
+        out: Retired.
+        n: From Commander, Seventh Fleet.
+        src: *id007
+      - name: Bagley, Worth H.
+        rank: Adm., USN
+        from: 1973-08
+        to: 1974-05
+        out: To Vice Chief of Naval Operations.
+        n: Naval aide to the President's Military Representative, 1961.
+        src: *id007
+      - name: Shear, Harold E.
+        rank: Adm., USN
+        from: 1974-05
+        to: 1975-05
+        src: *id007
+  - id: cincunc
+    title: Commander in Chief, United Nations Command (Korea)
+    rank: military
+    appt: DES
+    group: Subordinate unified and other commands
+    n: The United Nations Command, under a U.S. commander designated by the President (Security Council resolution of July 7, 1950). Held by CINCFE to July 1, 1957; thereafter with Commander, U.S. Forces, Korea, and Commanding General, Eighth Army (army-staff).
+    holders:
+      - name: Clark, Mark W.
+        rank: Gen., USA
+        from: '1952-05-12'
+        to: '1953-10-07'
+        out: Retired.
+        n: Also CINCFE.
+        src: &id008
+          - 'Wikipedia: United Nations Command'
+          - FRUS persons list
+      - name: Hull, John E.
+        rank: Gen., USA
+        from: '1953-10-07'
+        to: '1955-04-01'
+        out: Retired.
+        n: Also CINCFE.
+        src: *id008
+      - name: Taylor, Maxwell D.
+        rank: Gen., USA
+        from: '1955-04-01'
+        to: '1955-06-05'
+        out: To Chief of Staff of the Army.
+        n: Also CINCFE.
+        src: *id008
+      - name: Lemnitzer, Lyman L.
+        rank: Gen., USA
+        from: '1955-06-05'
+        to: '1957-07-01'
+        out: To Vice Chief of Staff of the Army.
+        n: Also CINCFE.
+        src: *id008
+      - name: Decker, George H.
+        rank: Gen., USA
+        from: '1957-07-01'
+        to: '1959-06-30'
+        out: To Vice Chief of Staff of the Army.
+        src: *id008
+      - name: Magruder, Carter B.
+        rank: Gen., USA
+        from: '1959-07-01'
+        to: '1961-06-30'
+        out: Retired.
+        src: *id008
+      - name: Meloy, Guy S., Jr.
+        rank: Gen., USA
+        from: '1961-07-01'
+        to: '1963-07-31'
+        out: Retired.
+        src: *id008
+      - name: Howze, Hamilton H.
+        rank: Gen., USA
+        from: '1963-08-01'
+        to: '1965-06-15'
+        out: Retired.
+        src: *id008
+      - name: Beach, Dwight E.
+        rank: Gen., USA
+        from: '1965-06-16'
+        to: '1966-08-31'
+        out: To Commander in Chief, U.S. Army, Pacific.
+        src: *id008
+      - name: Bonesteel, Charles H., III
+        rank: Gen., USA
+        from: '1966-09-01'
+        to: '1969-09-30'
+        out: Retired.
+        src: *id008
+      - name: Michaelis, John H.
+        rank: Gen., USA
+        from: '1969-10-01'
+        to: '1972-08-31'
+        out: Retired.
+        src: *id008
+      - name: Bennett, Donald V.
+        rank: Gen., USA
+        from: '1972-09-01'
+        to: '1973-07-31'
+        out: To Commander in Chief, U.S. Army, Pacific.
+        src: *id008
+      - name: Stilwell, Richard G.
+        rank: Gen., USA
+        from: '1973-08-01'
+        to: '1976-10-08'
+        out: Retired.
+        src: *id008
+  - id: usfk
+    title: Commander, U.S. Forces, Korea (COMUSKOREA)
+    rank: military
+    appt: MIL
+    under: cincpac
+    group: Subordinate unified and other commands
+    from: '1957-07-01'
+    n: A subordinate unified command under CINCPAC, established July 1, 1957; held with Commander in Chief, United Nations Command.
+    holders:
+      - name: Decker, George H.
+        rank: Gen., USA
+        from: '1957-07-01'
+        to: '1959-06-30'
+        out: To Vice Chief of Staff of the Army.
+        src: &id009
+          - 'Wikipedia: United States Forces Korea'
+      - name: Magruder, Carter B.
+        rank: Gen., USA
+        from: '1959-07-01'
+        to: '1961-06-30'
+        out: Retired.
+        src: *id009
+      - name: Meloy, Guy S., Jr.
+        rank: Gen., USA
+        from: '1961-07-01'
+        to: '1963-07-31'
+        out: Retired.
+        src: *id009
+      - name: Howze, Hamilton H.
+        rank: Gen., USA
+        from: '1963-08-01'
+        to: '1965-06-15'
+        out: Retired.
+        src: *id009
+      - name: Beach, Dwight E.
+        rank: Gen., USA
+        from: '1965-06-16'
+        to: '1966-08-31'
+        out: To Commander in Chief, U.S. Army, Pacific.
+        src: *id009
+      - name: Bonesteel, Charles H., III
+        rank: Gen., USA
+        from: '1966-09-01'
+        to: '1969-09-30'
+        out: Retired.
+        src: *id009
+      - name: Michaelis, John H.
+        rank: Gen., USA
+        from: '1969-10-01'
+        to: '1972-08-31'
+        out: Retired.
+        src: *id009
+      - name: Bennett, Donald V.
+        rank: Gen., USA
+        from: '1972-09-01'
+        to: '1973-07-31'
+        out: To Commander in Chief, U.S. Army, Pacific.
+        src: *id009
+      - name: Stilwell, Richard G.
+        rank: Gen., USA
+        from: '1973-08-01'
+        to: '1976-10-08'
+        out: Retired.
+        src: *id009
+  - id: ustdc
+    title: Commander, U.S. Taiwan Defense Command (COMUSTDC)
+    rank: military
+    appt: MIL
+    under: cincpac
+    group: Subordinate unified and other commands
+    from: 1955-04
+    n: 'A subordinate unified command under CINCPAC, under the Mutual Defense Treaty with the Republic of China (1954). Months from Wikipedia''s list: Check days.'
+    holders:
+      - name: Pride, Alfred M.
+        rank: Vice Adm., USN
+        from: 1955-04
+        to: 1955-11
+        n: Also Commander, Seventh Fleet.
+        src: &id010
+          - 'Wikipedia: United States Taiwan Defense Command'
+      - name: Ingersoll, Stuart H.
+        rank: Vice Adm., USN
+        from: 1955-11
+        to: 1957-07
+        src: *id010
+      - name: Doyle, Austin K.
+        rank: Vice Adm., USN
+        from: 1957-07
+        to: 1958-09
+        src: *id010
+      - name: Smoot, Roland N.
+        rank: Vice Adm., USN
+        from: 1958-09
+        to: 1962-05
+        src: *id010
+      - name: Melson, Charles L.
+        rank: Vice Adm., USN
+        from: 1962-05
+        to: 1964-07
+        src: *id010
+      - name: Gentner, William E., Jr.
+        rank: Vice Adm., USN
+        from: 1964-07
+        to: 1967-07
+        src: *id010
+      - name: Chew, John L.
+        rank: Vice Adm., USN
+        from: 1967-07
+        to: 1970-08
+        src: *id010
+      - name: Baumberger, Walter H.
+        rank: Vice Adm., USN
+        from: 1970-08
+        to: 1972-09
+        src: *id010
+      - name: Beshany, Philip A.
+        rank: Vice Adm., USN
+        from: 1972-09
+        to: 1974-08
+        src: *id010
+      - name: Snyder, Edwin K.
+        rank: Vice Adm., USN
+        from: 1974-08
+        to: 1977-07
+        src: *id010
+  - id: comusmacv
+    title: Commander, U.S. Military Assistance Command, Vietnam (COMUSMACV)
+    rank: military
+    appt: MIL
+    under: cincpac
+    group: Subordinate unified and other commands
+    from: '1962-02-08'
+    until: '1973-03-29'
+    n: A subordinate unified command under CINCPAC, established Feb. 8, 1962; absorbed MAAG Vietnam May 15, 1964; disestablished Mar. 29, 1973. Its commander also commanded U.S. Army, Vietnam.
+    holders:
+      - name: Harkins, Paul D.
+        rank: Gen., USA
+        from: '1962-02-08'
+        to: '1964-06-20'
+        out: Retired.
+        n: From Deputy Commander in Chief, U.S. Army, Pacific.
+        src: &id011
+          - 'Wikipedia: Military Assistance Command, Vietnam'
+      - name: Westmoreland, William C.
+        rank: Gen., USA
+        from: '1964-06-20'
+        to: '1968-07-02'
+        out: To Chief of Staff of the Army.
+        n: Deputy commander from Jan. 1964. Left Saigon June 11, 1968; Abrams in acting command from then. Check.
+        src: *id011
+      - name: Abrams, Creighton W.
+        rank: Gen., USA
+        from: '1968-07-03'
+        to: '1972-06-29'
+        out: To Chief of Staff of the Army.
+        n: Deputy commander from May 1967.
+        src: *id011
+      - name: Weyand, Frederick C.
+        rank: Gen., USA
+        from: '1972-06-30'
+        to: '1973-03-29'
+        out: Command disestablished.
+        n: Deputy commander from 1970.
+        src:
+          - 'Wikipedia: Military Assistance Command, Vietnam'
+          - 'Wikipedia: Frederick C. Weyand'
+  - id: deputy-comusmacv
+    title: Deputy Commander, U.S. Military Assistance Command, Vietnam
+    rank: military
+    appt: MIL
+    under: comusmacv
+    group: Subordinate unified and other commands
+    from: 1964-01
+    holders:
+      - name: Westmoreland, William C.
+        rank: Lt. Gen., USA
+        from: '1964-01-27'
+        to: '1964-06-20'
+        out: To COMUSMACV.
+        src: &id012
+          - Wikipedia
+          - FRUS persons list
+      - name: Throckmorton, John L.
+        rank: Lt. Gen., USA
+        from: 1964-08
+        to: 1965-11
+        n: 'Check: dates.'
+        src: *id012
+      - name: Heintges, John A.
+        rank: Lt. Gen., USA
+        from: 1965-11
+        to: 1967-04
+        n: 'Check: dates.'
+        src: *id012
+      - name: Abrams, Creighton W.
+        rank: Gen., USA
+        from: 1967-05
+        to: 1968-06
+        out: To COMUSMACV.
+        n: From Vice Chief of Staff of the Army. In acting command of MACV from Westmoreland's departure, June 1968. Check.
+        src: *id012
+      - name: Goodpaster, Andrew J.
+        rank: Lt. Gen., USA
+        from: 1968-07
+        to: 1969-04
+        out: To Commander in Chief, U.S. European Command.
+        n: 'FRUS: until Apr. 1969.'
+        src: *id012
+      - name: Rosson, William B.
+        rank: Gen., USA
+        from: 1969-05
+        to: 1970-05
+        n: 'Check: dates.'
+        src: *id012
+      - name: Weyand, Frederick C.
+        rank: Gen., USA
+        from: 1970-09
+        to: '1972-06-29'
+        out: To COMUSMACV.
+        n: 'Check: month of taking office.'
+        src: *id012
+  - id: maag-vietnam
+    title: Chief, Military Assistance Advisory Group, Indochina
+    titles:
+      - title: Chief, Military Assistance Advisory Group, Vietnam
+        from: '1955-11-01'
+    rank: military
+    appt: MIL
+    under: comusmacv
+    group: Subordinate unified and other commands
+    until: '1964-05-15'
+    n: MAAG Indochina established Sept. 17, 1950; MAAG Vietnam from Nov. 1, 1955; under MACV from Feb. 8, 1962; merged into MACV May 15, 1964.
+    holders:
+      - name: Trapnell, Thomas J. H.
+        rank: Brig. Gen., USA
+        from: 1952-08
+        to: 1954-04
+        n: 'Check: dates.'
+        src:
+          - 'Wikipedia: Thomas J. H. Trapnell'
+      - name: O'Daniel, John W.
+        rank: Lt. Gen., USA
+        from: 1954-04
+        to: 1955-10
+        out: Retired Dec. 31, 1955.
+        n: 'Took a reduction to major general for the post. Check: day of handing over.'
+        src:
+          - 'Wikipedia: John W. O''Daniel'
+      - name: Williams, Samuel T.
+        rank: Lt. Gen., USA
+        from: 1955-11
+        to: '1960-08-31'
+        out: Retired.
+        n: 'Check: days.'
+        src:
+          - 'Wikipedia: Samuel Tankersley Williams'
+      - name: McGarr, Lionel C.
+        rank: Lt. Gen., USA
+        from: '1960-09-01'
+        to: '1962-03-05'
+        out: Retired.
+        n: 'FRUS: Timmes chief from Mar. 6, 1962; Wikipedia gives July 1962.'
+        src:
+          - 'Wikipedia: Lionel C. McGarr'
+          - FRUS persons list
+      - name: Timmes, Charles J.
+        rank: Maj. Gen., USA
+        from: '1962-03-06'
+        to: '1964-05-15'
+        out: Group merged into MACV.
+        n: Deputy to McGarr from July 1961.
+        src:
+          - FRUS persons list
+          - 'Wikipedia: Charles J. Timmes'
+  - id: saigon-military-mission
+    title: Chief, Saigon Military Mission
+    rank: military
+    appt: MIL
+    under: maag-vietnam
+    group: Subordinate unified and other commands
+    until: 1956-12
+    holders:
+      - name: Lansdale, Edward G.
+        rank: Col., USAF
+        from: '1954-06-01'
+        to: 1956-12
+        n: 'A CIA mission under the cover of the advisory group; also chief of the National Security Division of the training mission (TRIM), MAAG, to Dec. 1956 (FRUS). His later posts, in the Office of the Secretary of Defense (1957–63) and at the embassy in Saigon (1965–68), are under those units. Check: dates.'
+        src:
+          - FRUS persons list
+          - 'Wikipedia: Edward Lansdale'
+  - id: comusmacthai
+    title: Commander, U.S. Military Assistance Command, Thailand (COMUSMACTHAI)
+    rank: military
+    appt: MIL
+    under: cincpac
+    group: Subordinate unified and other commands
+    from: '1962-05-15'
+    n: 'Established May 15, 1962, at Bangkok, as U.S. forces went into Thailand. Later commanders not yet entered: Check.'
+    holders:
+      - name: Harkins, Paul D.
+        rank: Gen., USA
+        from: '1962-05-15'
+        to: '1964-06-20'
+        n: Held with COMUSMACV. Check.
+        src:
+          - Wikipedia
+      - name: Westmoreland, William C.
+        rank: Gen., USA
+        from: '1964-06-20'
+        to: '1965'
+        n: 'Held with COMUSMACV. Check: when the commands were separated, and the later commanders.'
+        src:
+          - Wikipedia
+  - id: american-land-forces-lebanon
+    title: Commander in Chief, American Land Forces, Lebanon
+    rank: military
+    appt: MIL
+    under: cincnelm
+    group: Subordinate unified and other commands
+    from: '1958-07-23'
+    until: 1958-10
+    holders:
+      - name: Adams, Paul D.
+        rank: Maj. Gen., USA
+        appointed: '1958-07-23'
+        from: '1958-07-26'
+        to: 1958-10
+        n: 'Appointed July 23, 1958; assumed command July 26 (FRUS). Check: day of withdrawal.'
+        src:
+          - FRUS persons list

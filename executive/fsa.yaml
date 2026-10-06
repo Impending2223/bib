@@ -1,0 +1,45 @@
+# The Federal Security Agency, to Apr. 11, 1953, when its functions passed to the Department of Health,
+# Education, and Welfare (executive/hew.yaml). Kept by hand.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: fsa
+name: Federal Security Agency
+under: president
+order: 119
+until: '1953-04-11'
+law:
+  - act: Reorganization Plan No. 1 of 1939
+    date: '1939-07-01'
+    cite: '53 Stat. 1423, 1424'
+    tags: [creates, appointment]
+    until: '1953-04-11'
+    does: 'Groups the Social Security Board, the Public Health Service, the Office of Education and other agencies in a Federal Security Agency, under a Federal Security Administrator appointed by the President with the consent of the Senate.'
+  - act: Reorganization Plan No. 2 of 1946
+    date: '1946-07-16'
+    cite: '60 Stat. 1095, 1096'
+    tags: [reorganizes, powers]
+    until: '1953-04-11'
+    does: 'The Children''s Bureau to the Agency; the Social Security Board abolished, its functions to the Administrator.'
+  - act: Reorganization Plan No. 1 of 1953
+    date: '1953-04-11'
+    cite: '67 Stat. 631, 632'
+    tags: [reorganizes]
+    does: 'Abolishes the Agency and the offices of Administrator and Assistant Administrator; all functions and agencies to the Department of Health, Education, and Welfare.'
+n: 'Its functions, agencies and officers passed whole to the Department of Health, Education, and Welfare on Apr. 11, 1953.'
+offices:
+  - id: administrator
+    title: Federal Security Administrator
+    rank: head
+    appt: PAS
+    holders:
+      - name: Ewing, Oscar R.
+        given: Oscar Ross
+        from: '1947-08-19'
+        to: '1953-01-20'
+        out: Resigned.
+        src: ['Wikipedia: Oscar R. Ewing']
+      - name: Hobby, Oveta Culp
+        from: '1953-01-21'
+        to: '1953-04-11'
+        out: To Secretary of Health, Education, and Welfare.
+        n: 'Check: Wikipedia gives Jan. 20 for taking office; the cabinet took office Jan. 21.'
+        src: ['Wikipedia: Oveta Culp Hobby', CDIR 1953-03]
