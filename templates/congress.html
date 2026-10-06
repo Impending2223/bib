@@ -1,17 +1,17 @@
 <style>
 /* Colors, light and dark. p: the parties (pDs Southern Democrats; pT a third ticket). e: the election scales,
    four steps a side around a gray middle (eN), eA a third ticket: the result view uses steps 2 to 4; the winner's
-   share runs continuously from e?0 (near white) to e?4, and swing from eN to eR4 or eB4, mixed in OKLab (SHARE,
-   SWING in the script; the keys' .gr bars). */
+   share runs continuously from eW, white at an even split (50 percent), out to eR4 or eB4 (eA4), one diverging
+   scale; swing from eN to eR4 or eB4; mixed in OKLab (SHARE, SWING in the script; the keys' .gr bars). */
 :root{--pDs:#9DB4D6;--pD:#5878A8;--pR:#B0625E;--pO:#8C8A6E;--pV:#C9CDD3;--stb:#FFFFFF;--mk:#1A1E26}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--pDs:#46638F;--pD:#7D9CCB;--pR:#C9847F;--pO:#A9A688;--pV:#3C424C;--stb:#15181D;--mk:#E6E8EC}}
 :root[data-theme="dark"]{--pDs:#46638F;--pD:#7D9CCB;--pR:#C9847F;--pO:#A9A688;--pV:#3C424C;--stb:#15181D;--mk:#E6E8EC}
-:root{--eA0:#FBF5E9;--eA1:#F2E4C6;--eA2:#E0C384;--eA3:#C49A45;--eA4:#8E6A24;--pT:#B98F3E}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--eA0:#2E2719;--eA1:#463A22;--eA2:#755F31;--eA3:#AE8C4C;--eA4:#E0C68E;--pT:#C9A865}}
-:root[data-theme="dark"]{--eA0:#2E2719;--eA1:#463A22;--eA2:#755F31;--eA3:#AE8C4C;--eA4:#E0C68E;--pT:#C9A865}
-:root{--eR0:#FBEFED;--eB0:#EEF3FA;--eR4:#8A3F38;--eR3:#C47168;--eR2:#DDA19B;--eR1:#EFCFCB;--eN:#DCDEE2;--eB1:#CCD8EC;--eB2:#9AB2DA;--eB3:#6A8BC2;--eB4:#3F5F95;--eNone:#F1F2F4;--eNA:#E6E8EB}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--eR0:#33292A;--eB0:#252D3B;--eR4:#E8B2AB;--eR3:#C07A72;--eR2:#8C514B;--eR1:#5A3532;--eN:#3A3F47;--eB1:#2F4364;--eB2:#4A6799;--eB3:#7896CC;--eB4:#AEC4EA;--eNone:#262A31;--eNA:#30353D}}
-:root[data-theme="dark"]{--eR0:#33292A;--eB0:#252D3B;--eR4:#E8B2AB;--eR3:#C07A72;--eR2:#8C514B;--eR1:#5A3532;--eN:#3A3F47;--eB1:#2F4364;--eB2:#4A6799;--eB3:#7896CC;--eB4:#AEC4EA;--eNone:#262A31;--eNA:#30353D}
+:root{--eA1:#F2E4C6;--eA2:#E0C384;--eA3:#C49A45;--eA4:#8E6A24;--pT:#B98F3E}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--eA1:#463A22;--eA2:#755F31;--eA3:#AE8C4C;--eA4:#E0C68E;--pT:#C9A865}}
+:root[data-theme="dark"]{--eA1:#463A22;--eA2:#755F31;--eA3:#AE8C4C;--eA4:#E0C68E;--pT:#C9A865}
+:root{--eW:#FAFAF8;--eR4:#8A3F38;--eR3:#C47168;--eR2:#DDA19B;--eR1:#EFCFCB;--eN:#DCDEE2;--eB1:#CCD8EC;--eB2:#9AB2DA;--eB3:#6A8BC2;--eB4:#3F5F95;--eNone:#F1F2F4;--eNA:#E6E8EB}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--eW:#30343B;--eR4:#E8B2AB;--eR3:#C07A72;--eR2:#8C514B;--eR1:#5A3532;--eN:#3A3F47;--eB1:#2F4364;--eB2:#4A6799;--eB3:#7896CC;--eB4:#AEC4EA;--eNone:#262A31;--eNA:#30353D}}
+:root[data-theme="dark"]{--eW:#30343B;--eR4:#E8B2AB;--eR3:#C07A72;--eR2:#8C514B;--eR1:#5A3532;--eN:#3A3F47;--eB1:#2F4364;--eB2:#4A6799;--eB3:#7896CC;--eB4:#AEC4EA;--eNone:#262A31;--eNA:#30353D}
 /* Fills and key swatches */
 .pDi{fill:url(#cgDi)}.pRi{fill:url(#cgRi)}
 .sw.pDi{background:repeating-linear-gradient(45deg,var(--pD) 0 3px,var(--pDs) 3px 5px)}.sw.pRi{background:repeating-linear-gradient(45deg,var(--pR) 0 3px,#E6C3C0 3px 5px)}
@@ -27,9 +27,8 @@
 .sw.pX{background:repeating-linear-gradient(45deg,var(--pD) 0 3px,var(--pR) 3px 6px)}
 /* Blocks, summaries and keys */
 .gr{display:inline-block;width:7em;height:.7em;vertical-align:-.05em;margin:0 .35em;border-radius:2px}
-.gr.gB{background:linear-gradient(90deg,var(--eB0),var(--eB4));background:linear-gradient(in oklab 90deg,var(--eB0),var(--eB4))}
-.gr.gR{background:linear-gradient(90deg,var(--eR0),var(--eR4));background:linear-gradient(in oklab 90deg,var(--eR0),var(--eR4))}
-.gr.gA{background:linear-gradient(90deg,var(--eA0),var(--eA4));background:linear-gradient(in oklab 90deg,var(--eA0),var(--eA4))}
+.gr.gS{width:10em;background:linear-gradient(90deg,var(--eR4),var(--eW),var(--eB4));background:linear-gradient(in oklab 90deg,var(--eR4),var(--eW),var(--eB4));outline:1px solid var(--rule)}
+.gr.gA{background:linear-gradient(90deg,var(--eW),var(--eA4));background:linear-gradient(in oklab 90deg,var(--eW),var(--eA4));outline:1px solid var(--rule)}
 .gr.gW{width:10em;background:linear-gradient(90deg,var(--eR4),var(--eN),var(--eB4));background:linear-gradient(in oklab 90deg,var(--eR4),var(--eN),var(--eB4))}
 .cg{margin:1rem 0 .5rem;font-family:var(--sans)}
 .cg .cgh{font-weight:700;font-size:.95rem;margin:.2rem 0 .4rem}
@@ -168,10 +167,10 @@ details.cgr.er td:nth-child(3){font-weight:400}
   // election blocks: the fill follows the view (r result, s the winner's share, w swing)
   // A fill is a class ('pD', 'eB4', 'eNA') or, on the continuous scales, 'v:' and a CSS color; paint() applies either.
   var HUE={D:'B',R:'R',T:'A'};
-  var SHARE=[40,90], SWING=15;            // the winner's share, lightest to darkest, in percent; swing, gray to darkest, in points
+  var SHARE=[50,90], SWING=15;            // the winner's share, white (an even split) to darkest, in percent; swing, gray to darkest, in points
   function mix(a,b,t){t=Math.max(0,Math.min(1,t)); return 'v:color-mix(in oklab,var(--'+b+') '+(100*t).toFixed(1)+'%,var(--'+a+'))';}
   function win(m){var h=HUE[m.p]; if(!h) return 'pO'; if(m.sh==null) return 'eNA';
-    return mix('e'+h+'0','e'+h+'4',(m.sh-SHARE[0])/(SHARE[1]-SHARE[0]));}
+    return mix('eW','e'+h+'4',(m.sh-SHARE[0])/(SHARE[1]-SHARE[0]));}
   function swung(m){return m.sw==null?'eNA':mix('eN',m.sw>0?'eB4':'eR4',Math.abs(m.sw)/SWING);}
   function fc(t){return t.slice(0,2)==='v:'?'cv':t;}
   function fs(t){return t.slice(0,2)==='v:'?'fill:'+t.slice(2):'';}

@@ -214,7 +214,7 @@ def legend(has_sw):
     sw = lambda k: f'<span class="sw e{k}"></span>'
     res = (f'<span class="lk lk-r">{sw("B2")}Democratic held {sw("B4")}Democratic pickup '
            f'{sw("R2")}Republican held {sw("R4")}Republican pickup {sw("None")}No special election</span>')
-    share = f'<span class="lk lk-s">The winner\'s share of all the votes,{share_scale(("B", "R"))}</span>'
+    share = f'<span class="lk lk-s">The winner\'s share of all the votes,{share_scale()}</span>'
     swing = (f'<span class="lk lk-w">Swing from the general election that chose the Congress, same district, points: '
              f'{swing_scale()} {sw("NA")}None</span>') if has_sw else ""
     return f'<p class="cgkey elkey">{res}{share}{swing}</p>'

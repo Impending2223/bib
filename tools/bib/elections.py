@@ -11,8 +11,9 @@ Definitions (STYLE, settled):
     the race (50-45-5 is 5 votes and 5.0 pts). Where several were elected at large, the margin is
     between the last winner and the first loser. The two-party share serves only for swing.
  3. Vote share (maps): the winner's share of all the votes, in the winner's color, continuous, not in
-    steps: near white at 40 percent or less, darkest at 90 or more (the unopposed), mixed in OKLab
-    (SHARE in templates/congress.html). A winner of neither major party takes the color of the party
+    steps: one diverging scale, white at an even split (50 percent or less), the winner's color
+    deepening to its darkest at 90 or more (the unopposed), Republican red through white to Democratic
+    blue; mixed in OKLab (SHARE in templates/congress.html). A winner of neither major party takes the color of the party
     caucused with. A shape shared by several seats of one party takes their mean.
  4. Caucus: a member of neither major party counts with the party caucused with, in the seats won, the
     net change and pickups, and is so labeled: "Conservative, caucusing with the Republicans" (elections/facts.yaml caucus:).
@@ -506,13 +507,12 @@ def block(year, data, view="r"):
     return "\n".join(out)
 
 
-SHARE_KEY = {"B": "Democratic", "R": "Republican", "A": "third ticket"}
-
-
-def share_scale(hues=("B", "R", "A")):
-    """The winner's-share key: a gradient bar a hue, 40 percent or less to 90 or more (SHARE in the template)."""
-    return ('<span class="lt">40% or less to 90% or more (unopposed):</span>' +
-            " ".join(f'<span class="gr g{h}"></span>{SHARE_KEY[h]}' for h in hues))
+def share_scale(third=False):
+    """The winner's-share key: one diverging gradient bar, white at 50 percent or less, darkest at 90 or
+    more each way (SHARE in the template); a third ticket's bar beside it."""
+    out = ('<span class="lt">90% or more Republican</span><span class="gr gS"></span>'
+           '<span class="lt">90% or more Democratic; white at 50% or less</span>')
+    return out + (' <span class="gr gA"></span><span class="lt">third ticket</span>' if third else "")
 
 
 def swing_scale():
@@ -527,7 +527,7 @@ def legend(has_sw):
            f'{sw("R2")}Republican held {sw("R4")}Republican pickup <span class="sw pDi"></span><span class="sw pRi"></span>'
            f'Independent or third party, by the party caucused with {sw("None")}No election; '
            'Senators: the seats not at stake faint</span>')
-    share = f'<span class="lk lk-s">The winner\'s share of all the votes,{share_scale(("B", "R"))}</span>'
+    share = f'<span class="lk lk-s">The winner\'s share of all the votes,{share_scale()}</span>'
     swing = (f'<span class="lk lk-w">Swing, points: {swing_scale()} <span class="lt">redrawn districts take their '
              'State\'s swing</span> ' + sw("NA") + 'None</span>') if has_sw else ""
     return f'<p class="cgkey elkey">{res}{share}{swing}</p>'
@@ -671,7 +671,7 @@ def pres_legend(has_prev, has_sw):
     sw = lambda k: f'<span class="sw e{k}"></span>'
     res = (f'<span class="lk lk-r">{sw("B3")}Democratic {sw("R3")}Republican {sw("A3")}Third ticket (unpledged electors, Byrd, Wallace)'
            + ('; Flips, under the map: the States that went to another party than at the last election dark, the others light' if has_prev else '') + '</span>')
-    share = f'<span class="lk lk-s">The winner\'s share of all the votes,{share_scale()}</span>'
+    share = f'<span class="lk lk-s">The winner\'s share of all the votes,{share_scale(third=True)}</span>'
     swing = (f'<span class="lk lk-w">Swing from the last presidential election, points: {swing_scale()} '
              '<span class="lt">none where a party had no slate</span> ' + sw("NA") + 'None</span>') if has_sw else ""
     dots = ('<span class="lk lk-e">Electors, one dot each, as they voted: <span class="sw pD"></span>Democratic '

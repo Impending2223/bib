@@ -324,7 +324,7 @@ race, and in presidential years the vote for President by State with the elector
 1974 before the Congress it chose (the 86th and 94th have no rosters); a calendar entry tagged
 `election:<year>` carries its block too (now Nov. 6, 1962). A block: the electoral and popular vote
 first, then by chamber the seats won, the net change from the close of the last Congress, pickups,
-and new members; one view switch for every map (Result; Vote share, the winner's share, continuous; Swing, continuous); the
+and new members; one view switch for every map (Result; Vote share, the winner's share, red through white at 50 percent to blue; Swing, continuous); the
 President's map above the House and Senate, with a States | Flips | Electors switch (Flips: in Result, the
 States that flipped dark, the others light; Electors: a dot an elector, as voted); the Senate map with a Senators toggle (a dot a seat, larger than the House's: `PB`, `RB`); and every race in tables:
 candidates with party, votes and share, the margin in votes and in points of all the votes cast, and
@@ -374,7 +374,7 @@ tools/bib/elections.py              renders the blocks and checks the data (STYL
   leave nothing); `review.py audit YEAR`; `./bib check`; then tag the calendar entry.
 - Colors are tokens at the top of `templates/congress.html` (its CSS is in commented
   sections). Vote share and swing are continuous, not stepped: mixed in OKLab between the
-  `--e*` endpoints (share from the near-white `--e?0`), over the ranges in `SHARE` and `SWING` in its script; the keys draw the
+  `--e*` endpoints (share: one diverging scale, `--eR4` through white `--eW` at an even split to `--eB4`), over the ranges in `SHARE` and `SWING` in its script; the keys draw the
   same ranges as gradient bars. Change an endpoint and every map and key follows.
 - "Check" in a note (as in the calendar) marks a detail still to verify:
   `grep -rn Check elections/facts.yaml elections/readings`.
