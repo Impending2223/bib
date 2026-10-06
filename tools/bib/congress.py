@@ -13,7 +13,7 @@ import os
 import re
 from collections import Counter, defaultdict
 
-from . import store
+from . import specials, store
 from .markup import to_html, plain
 
 DIR = os.path.join(store.ROOT, "congress")
@@ -274,22 +274,34 @@ def changes():
     return store.load_yaml(p) if os.path.exists(p) else {}
 
 
-def change_note(x):
-    """'Died Nov. 16, 1961. Successor elected Jan. 30, 1962. Ray Roberts (D), seated Jan. 30, 1962.'"""
+def change_note(x, sp=None, here=False):
+    """'Died Nov. 16, 1961. Ray Roberts (D), elected Jan. 30, 1962, seated Jan. 30, 1962.' (HTML): the
+    election date, linked to the race, from congress/specials.yaml where a special filled the seat."""
     t = (x.get("reason") or "").strip()
+    if sp:   # the special's own date over the changes table's ("Successor elected June 14, 1961")
+        t = re.sub(r"\s*Successor elected [^.]*\.", "", t)
     if t and not t.endswith("."):
         t += "."
     if x.get("into"):
-        t += f" {x['into']}" + (f" ({x['into_party']})" if x.get("into_party") else "") + \
-             (f", seated {x['seated']}." if x.get("seated") and re.search(r"\d{4}", x["seated"]) else ".")
+        t += f" {x['into']}" + (f" ({x['into_party']})" if x.get("into_party") else "")
+        if sp:
+            t += f", elected \x00{sp['date']}\x00"
+        t += (f", seated {x['seated']}." if x.get("seated") and re.search(r"\d{4}", x["seated"]) else ".")
     else:
         t += " Not filled."
     for k, v in FULL.items():
         t = re.sub(r"\b" + k + r"\b", v, t)
-    return t.strip()
+    t = esc(t.strip())
+    if sp:
+        from . import specials
+        lab = specials.fmt_date(sp["date"]) + ("" if sp.get("with_general") else " (special)")
+        target = (("#" if here else "congress.html#") + specials.rid(sp)) if not sp.get("with_general") else ""
+        link = f'<a href="{target}">{esc(lab)}</a>' if target else esc(lab)
+        t = t.replace(f"\x00{sp['date']}\x00", link)
+    return t
 
 
-def block(c, data, geo, ptr, href, rid):
+def block(c, data, geo, ptr, href, rid, here=False):
     """One Congress: bars, two maps, two rosters. rid(c, chamber, st, seat) -> a row id."""
     house, senate = data["house"], data["senate"]
     out = [f'<div class="cg" data-cg="{c}">']
@@ -342,8 +354,15 @@ def block(c, data, geo, ptr, href, rid):
                     if caucused(r):
                         party = f'<span title="{esc(third_name(r))}">{party} ({caucused(r)[0]})</span>'
                 note = f'<span class="cgn">{to_html(r["n"])}</span>' if r.get("n") else ""
+                sws = specials.switch_for(c, ch, r["st"], seat)
                 for x in later.get((ch, r["st"], seat), []):
-                    note += f'<span class="cgn cgc">{esc(change_note(x))}</span>'
+                    if any(specials.surname(s_["name"]) == specials.surname(x.get("out") or "") and
+                           (x.get("into") or "") == (x.get("out") or "") or re.search(r"[Cc]hanged part|[Ss]witched part", x.get("reason") or "")
+                           for s_ in sws):
+                        continue            # a party switch: the note below says it, with the date
+                    note += f'<span class="cgn cgc">{change_note(x, specials.for_change(c, x), here)}</span>'
+                for s_ in sws:
+                    note += f'<span class="cgn cgc">{esc(specials.switch_note(s_))}</span>'
                 out.append(f'<tr id="{rid(c, ch, r["st"], seat)}"><td>{lab}</td><td>{who}{note}</td>'
                            f'<td class="p{(caucused(r) or r.get("party") or "V") if not r.get("vacant") else "V"}t">{party}</td><td>{"; ".join(pts)}</td></tr>')
         out.append("</tbody></table></details>")
@@ -460,7 +479,11 @@ def page(series, linker, template):
             continue
         if c in tagged:
             main.append(f'<p class="logic">In the calendar: <a href="cal.html#{tagged[c]["id"]}">{esc(tagged[c]["when"])}, {tagged[c]["date"][:4]}</a>.</p>')
-        main.append(block(c, data[c], geo, ptr, href, rid))
+        main.append(block(c, data[c], geo, ptr, href, rid, here=True))
+        sp = specials.block(c, edata)
+        if sp:
+            main.append(f'<h3 id="sp{c}" data-short="Specials">Special elections during the {ordinal(c)} Congress</h3>')
+            main.append(sp)
     pg = open(template, encoding="utf-8").read()
     pg = pg.replace("{{page_title}}", "Congress at each opening and the elections").replace("{{main}}", "\n".join(main))
     return pg.replace("</body>", assets(geo) + "\n</body>", 1)

@@ -11,7 +11,7 @@ import json
 import os
 import re
 
-from . import daybook, store
+from . import daybook, specials, store
 from .markup import to_html, plain, italics, ITAL_RE, REF_RE
 from .refs import Refs, split_protected
 
@@ -548,6 +548,7 @@ def run(series, which=None):
         if series.lists[k].kind == "calendar":
             linker = linker or Linker(series)
             page = congress.inject(page, series, linker, "list")
+            page = specials.inject(page, series)
             page = indicators.inject(page, series, "list")
             page = daybook.inject(page)
         with open(path, "w", encoding="utf-8") as f:
@@ -556,6 +557,7 @@ def run(series, which=None):
     if which in (None, "series"):
         page, linker = build_series(series)
         page = congress.inject(page, series, linker, "series")
+        page = specials.inject(page, series)
         page = indicators.inject(page, series, "series")
         page = daybook.inject(page)
         path = os.path.join(OUT, "series.html")
