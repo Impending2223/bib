@@ -3,7 +3,8 @@
 # cites the publication and page. Where each State's returns are: sources/states.yaml.
 #
 # <key in specials.yaml>:
-#   cite: the short citation shown with the race (publication, date, page)
+#   cite: the short citation shown with the race, linked to url: State abbreviated as in the Bluebook (Cal., Mass.,
+#     Vt.), *title* in italics, date, page
 #   source: the publication, as titled            where: edition and printed page     url: the copy read
 #   rounds: [{date, label (special primary | special election ...), cands [[name, party, votes]], scattering?, total?}]
 #     earlier first: an open first round (a California special primary), then the deciding one; party
@@ -11,10 +12,12 @@
 #   checked: what was checked (sums to the printed total; county figures)   note: shown with the race, one line
 #   remarks: the reader's fuller notes (names as printed, vacancy, page finding), not shown
 #   differs_from_wikipedia: shares that differ by more than 0.2 points from specials.yaml (Wikipedia)
+#   pending: [{cite, url, access}] where a race is not read yet: the source to check, shown "Check: <cite> (access)"
+#     with access from sources/states.yaml (bot-check, borrow, search only, paper)
 # ./bib check fails on a key not in specials.yaml, a round whose votes do not add to its printed total (with or
 # without the scattering), or a winner missing from the last round.
 1963-01-22-h-CA-1:
-  cite: California Statement of Vote, Nov. 3, 1964, p. 28
+  cite: 'Cal. *Statement of Vote*, Nov. 3, 1964, p. 28'
   source: California, Secretary of State, Statement of Vote, General Election, November 3, 1964, 'Special Elections in 1963 and 1964'
   where: SFPL bound volume 1962-64, p. 28
   url: https://archive.org/details/castatem196264cali/page/n177
@@ -33,7 +36,7 @@
     H. Clausen; the Statement prints DON CLAUSEN.'
   verified: true
 1963-06-11-h-CA-23:
-  cite: California Statement of Vote, Nov. 3, 1964, p. 28
+  cite: 'Cal. *Statement of Vote*, Nov. 3, 1964, p. 28'
   source: California, Secretary of State, Statement of Vote, General Election, November 3, 1964, 'Special Elections in 1963 and 1964'
   where: SFPL bound volume 1962-64, p. 28
   url: https://archive.org/details/castatem196264cali/page/n177
@@ -56,7 +59,7 @@
   remarks: 'One all-candidate special election, plurality wins (Clawson 53.18%). Vacancy: death of Clyde Doyle, Mar. 14, 1963. Christo and Johnston tied at 875; printed order kept.'
   verified: true
 1963-10-22-h-ND-1:
-  cite: North Dakota State Board of Canvassers, abstract of the special election, Oct. 22, 1963
+  cite: 'N.D. State Board of Canvassers, *Abstract of Votes*, special election, Oct. 22, 1963'
   source: North Dakota, Secretary of State, Statement of the Findings of the State Board of Canvassers, Special Election Held October 22, 1963 (abstract of votes for Representative in Congress, First District)
   where: single page, abstract by county, certified Nov. 1, 1963
   url: https://www.sos.nd.gov/sites/default/files/documents/elections/election-results-pdfs/1963-10-22-special.pdf
@@ -77,7 +80,7 @@
     it is not the sum of the candidates. The State Board of Canvassers certified Andrews of Mapleton as elected.
   verified: true
 1964-02-18-h-CA-5:
-  cite: California Statement of Vote, Nov. 3, 1964, p. 29
+  cite: 'Cal. *Statement of Vote*, Nov. 3, 1964, p. 29'
   source: California, Secretary of State, Statement of Vote, General Election, November 3, 1964, 'Special Elections in 1963 and 1964—Continued'
   where: SFPL bound volume 1962-64, p. 29
   url: https://archive.org/details/castatem196264cali/page/n178
@@ -100,7 +103,7 @@
     Statement prints NICK A. VERREOS.'
   verified: true
 1965-12-15-h-CA-26:
-  cite: California Statement of Vote, Nov. 8, 1966, p. 5
+  cite: 'Cal. *Statement of Vote*, Nov. 8, 1966, p. 5'
   source: 'California, Secretary of State, Statement of Vote, General Election, November 8, 1966 (title page: ''Including: Special Elections 1965-1966''), ''Special Elections in 1965 and 1966'''
   where: SFPL bound volume 1966-68, p. 5
   url: https://archive.org/details/californiastate196668cali/page/n50
@@ -130,7 +133,7 @@
     1965. The sources register says the 1965-66 specials are in the June 7, 1966 Statement; this page is in the Nov. 8, 1966 general Statement.'
   verified: true
 1966-02-05-h-NC-1:
-  cite: North Carolina Manual, 1967, p. 299
+  cite: '*N.C. Manual*, 1967, p. 299'
   source: North Carolina Manual 1967 (Secretary of State), Election Returns, 'Special Election Held February 5, 1966, in First Congressional District for Unexpired Term Ending January 3, 1967'
   where: North Carolina Manual 1967, p. 299 (archive.org leaf n316)
   url: https://archive.org/details/northcarolinama1967nort/page/n316
@@ -146,7 +149,7 @@
   remarks: 'Same page: the special Democratic primary of Dec. 18, 1965 (Jones, Jackson, Langston, Pittman, Small), a party primary, not a round. The contents list it at p. 298, but it is printed on p. 299.'
   verified: true
 1966-06-07-h-CA-14:
-  cite: California Statement of Vote, Nov. 8, 1966, p. 5
+  cite: 'Cal. *Statement of Vote*, Nov. 8, 1966, p. 5'
   source: 'California, Secretary of State, Statement of Vote, General Election, November 8, 1966 (title page: ''Including: Special Elections 1965-1966''), ''Special Elections in 1965 and 1966'''
   where: SFPL bound volume 1966-68, p. 5
   url: https://archive.org/details/californiastate196668cali/page/n50
@@ -170,7 +173,7 @@
     ''Dooris G. (Duke) Johnston'' (Wikipedia: Doris G. Johnston), ''Tallak B. Wralstad'' (Wikipedia: Talluk B. Wrakstad).'
   verified: true
 1967-12-12-h-CA-11:
-  cite: California Statement of Vote, Nov. 5, 1968, p. 8
+  cite: 'Cal. *Statement of Vote*, Nov. 5, 1968, p. 8'
   source: California, Secretary of State, Statement of Vote, General Election, November 5, 1968, 'Special Elections in 1967-1968'
   where: SFPL bound volume 1966-68, p. 8
   url: https://archive.org/details/californiastate196668cali/page/n185
@@ -204,7 +207,7 @@
     (''Rep. (Write-in)''). Vacancy: death of J. Arthur Younger.'
   verified: true
 1969-04-29-h-CA-27:
-  cite: California Statement of Vote, Nov. 3, 1970, p. 8
+  cite: 'Cal. *Statement of Vote*, Nov. 3, 1970, p. 8'
   source: California, Secretary of State, Statement of Vote, General Election, November 3, 1970, 'Special Elections in 1969-1970'
   where: SFPL bound volume 1970-72, p. 8
   url: https://archive.org/details/statementofvote197072cali/page/n57
@@ -240,7 +243,7 @@
   remarks: 'No majority at the Apr. 1, 1969 special primary (Goldwater 31.32%); Goldwater (R) and Van de Kamp (D) went to the Apr. 29 run-off. Vacancy: resignation of Ed Reinecke.'
   verified: true
 1969-09-30-h-MA-6:
-  cite: 'Massachusetts Election Statistics, 1969 (P.D. 43), pp. 53–55'
+  cite: 'Mass. *Election Statistics*, 1969 (P.D. 43), pp. 53–55'
   source: The Commonwealth of Massachusetts, Election Statistics 1969 (Public Document No. 43), 'Number of Votes Received by Each Candidate at The Special Election, September 30, 1969, Representative in
     the 91st Congress (to fill vacancy), Sixth Congressional District'
   where: P.D. 43, 1969, p. 55
@@ -260,7 +263,7 @@
     14,934, Francis W. Hatch, Jr. 12,349 (blanks 241, total 27,524); Democratic, Michael J. Harrington 16,959, Irving E. Kane 9,129, Daniel J. Burke 6,226 (all others 8, blanks 315, total 32,637).'
   verified: true
 1969-11-25-h-IL-13:
-  cite: 'Illinois Official Vote, Nov. 3, 1970, p. 113'
+  cite: 'Ill. *Official Vote*, Nov. 3, 1970, p. 113'
   source: State of Illinois, Official Vote Cast at the General Election, November 3, 1970 (Secretary of State), Special Election, General Election for Representative in Congress, Thirteenth Congressional
     District, Election November 25, 1969, 13th District, Cook County
   where: 1970 volume, p. 113
@@ -278,7 +281,7 @@
     Vacancy caused by the resignation of the Honorable Donald Rumsfeld''.'
   verified: true
 1970-06-30-h-CA-24:
-  cite: California Statement of Vote, Nov. 3, 1970, p. 9
+  cite: 'Cal. *Statement of Vote*, Nov. 3, 1970, p. 9'
   source: California, Secretary of State, Statement of Vote, General Election, November 3, 1970, 'Special Elections in 1969-1970—Continued'
   where: SFPL bound volume 1970-72, p. 9
   url: https://archive.org/details/statementofvote197072cali/page/n58
@@ -304,7 +307,7 @@
     P. Lipscomb.'
   verified: true
 1970-06-30-h-CA-35:
-  cite: California Statement of Vote, Nov. 3, 1970, p. 9
+  cite: 'Cal. *Statement of Vote*, Nov. 3, 1970, p. 9'
   source: California, Secretary of State, Statement of Vote, General Election, November 3, 1970, 'Special Elections in 1969-1970—Continued'
   where: SFPL bound volume 1970-72, p. 9
   url: https://archive.org/details/statementofvote197072cali/page/n58
@@ -332,7 +335,7 @@
     B. Utt.'
   verified: true
 1971-04-27-h-SC-1:
-  cite: South Carolina Election Commission, Report, 1969–73, p. 14
+  cite: 'S.C. Election Commission, *Report*, 1969–73, p. 14'
   source: 'Report of the South Carolina State Election Commission, 1969-1973: State Board of Canvassers, minutes of May 6, 1971'
   where: Election Commission report 1969-73, printed p. 14 (PDF p. 18 of 595); the register's 'p. 15' is the next page (Sept. 23, 1971 meeting)
   url: https://scvotes.gov/wp-content/uploads/2022/08/Election_Report_1969-1973.pdf#page=18
@@ -351,7 +354,7 @@
     Mendel Davis to the Secretary of State as elected.
   verified: true
 1971-05-25-h-MD-1:
-  cite: 'Maryland Manual, 1971–72, p. 513'
+  cite: '*Md. Manual*, 1971–72, p. 513'
   source: Maryland Manual 1971-1972 (Archives of Maryland Online vol. 175), 'First Congressional District, Special Election, May 25, 1971'
   where: 1971-72 Manual, p. 513; reprinted 1973-74 Manual (vol. 176) p. 601, same figures
   url: https://msa.maryland.gov/megafile/msa/speccol/sc2900/sc2908/000001/000175/pdf/am175--513.pdf
@@ -368,7 +371,7 @@
     O. Pilchard 4,560, K. King Burnett 4,401, David S. Aland 3,002, Jerry A. Berardi 390, Shelton H. Skolnick 222; Republican, William O. Mills 6,551, Robert E. Bauman 3,911, Marvin O. Morris 344.'
   verified: true
 1972-01-07-h-VT-0:
-  cite: Vermont Secretary of State, U.S. Representative returns 1932–2016 (2017 compilation), p. 5
+  cite: 'Vt. Secretary of State, *United States Representative (One District): 1932–2016* (2017), p. 5'
   source: 'Vermont Secretary of State / Vermont State Archives and Records Administration, ''United States Representative (One District): 1932-2016'' (generalelection_usrep_1932on_1d.pdf), a modern compilation
     (Excel 2013, PDF made Jan. 23, 2017), shown by the Vermont Elections Database, contest 83628'
   where: generalelection_usrep_1932on_1d.pdf, PDF p. 5 of 10 (the database says 'Page 5'; the register's 'p. 4' is the page before)
@@ -393,7 +396,7 @@
     The contemporary record is presumably the Vermont Legislative Directory and State Manual, 1973-74 edition (not viewable online). Check it on paper.'
   verified: true
 1972-04-04-h-IL-15:
-  cite: 'Illinois Official Vote, Nov. 7, 1972, p. 55'
+  cite: 'Ill. *Official Vote*, Nov. 7, 1972, p. 55'
   source: State of Illinois, Official Vote Cast at the General Election, November 7, 1972 (Secretary of State), Special Election, General Election for Representative in Congress, Fifteenth Congressional
     District, April 4, 1972 (To Fill Vacancy)
   where: 1972 volume, p. 55
@@ -412,7 +415,7 @@
     resignation of Honorable Charlotte T. Reid''.'
   verified: true
 1973-03-06-h-AK-0:
-  cite: Alaska Official Returns by Election Precincts, special election, Mar. 6, 1973, p. 8
+  cite: 'Alaska, *Official Returns by Election Precincts*, special election, Mar. 6, 1973, p. 8'
   source: State of Alaska, Official Returns by Election Precincts, Special Election, March 6, 1973 (Division of Elections)
   where: printed p. (8), 'Statewide' recapitulation by election district (PDF p. 9 of 9); precinct tables pp. (1)-(8)
   url: https://www.elections.alaska.gov/Core/Archive/73SPEC/73spec.pdf
@@ -429,7 +432,7 @@
     votes. A bonding proposition was on the same ballot. No write-in or scattering line.
   verified: true
 1973-08-21-h-MD-1:
-  cite: 'Maryland Manual, 1973–74, pp. 563–64'
+  cite: '*Md. Manual*, 1973–74, pp. 563–64'
   source: Maryland Manual 1973-1974 (Archives of Maryland Online vol. 176), 'First Congressional District, Special Election, August 21, 1973'
   where: 1973-74 Manual, p. 563
   url: https://msa.maryland.gov/megafile/msa/speccol/sc2900/sc2908/000001/000176/pdf/am176--563.pdf
@@ -447,7 +450,7 @@
     141.'
   verified: true
 1974-03-05-h-CA-13:
-  cite: California Statement of Vote, June 4, 1974, p. 54
+  cite: 'Cal. *Statement of Vote*, June 4, 1974, p. 54'
   source: California, Secretary of State, Statement of Vote, Primary Election, June 4, 1974, 'Special Election Results'
   where: SFPL bound volume 1973-74, p. 54
   url: https://archive.org/details/statementofvote197374cali/page/n95
@@ -473,7 +476,7 @@
     Joe Deauchamp'' (Wikipedia: F. Joe Beauchamp), ''E. T. "Tom" Jolicoeur'' (Wikipedia: Jolicouer).'
   verified: true
 1974-06-04-h-CA-6:
-  cite: California Statement of Vote, June 4, 1974, p. 54
+  cite: 'Cal. *Statement of Vote*, June 4, 1974, p. 54'
   source: California, Secretary of State, Statement of Vote, Primary Election, June 4, 1974, 'Special Election Results'
   where: SFPL bound volume 1973-74, p. 54
   url: https://archive.org/details/statementofvote197374cali/page/n95
@@ -496,3 +499,135 @@
   note: A majority at the special primary; elected without a run-off.
   remarks: 'Burton had a majority (50.02%) at the special primary and was declared elected; no special general. Held with the June 4, 1974 direct primary. Vacancy: resignation of William S. Mailliard.'
   verified: true
+1969-11-04-h-NJ-8:
+  cite: 'N.J. Secretary of State, *Results of the General Election*, Nov. 4, 1969, p. 3'
+  source: State of New Jersey, Results of the General Election Held November 4, 1969 (Secretary of State), 'Votes Cast for Member of House of Representatives, 8th Congressional District (Passaic County) To Fill a Vacancy'
+  where: PDF p. 3
+  url: https://www.nj.gov/state/elections/assets/pdf/election-results/1920-1970/1969-general-election.pdf#page=3
+  rounds:
+  - date: '1969-11-04'
+    label: special election
+    cands:
+    - [Robert A. Roe, D, 67188]
+    - [Gene Boyle, R, 66228]
+    - [Walter E. Johnson, Independent, 3122]
+  checked: 'Read off the page image (200 dpi): totals only, one row. The same figures as the 2026-10-06 verification pass.'
+  differs_from_wikipedia: none over 0.2 pts (49.21, 48.51, 2.29)
+  verified: true
+1961-11-07-h-MI-1:
+  pending:
+  - {cite: '*Mich. Manual*, 1963–64, if it prints the special', url: 'https://babel.hathitrust.org/cgi/pt?id=mdp.39015071179249', access: bot-check}
+1962-02-13-h-MI-14:
+  pending:
+  - {cite: '*Mich. Manual*, 1963–64, if it prints the special', url: 'https://babel.hathitrust.org/cgi/pt?id=mdp.39015071179249', access: bot-check}
+1974-02-18-h-MI-5:
+  pending:
+  - {cite: '*Mich. Manual*, 1975–76, if it prints the special', url: 'https://babel.hathitrust.org/cgi/pt?id=mdp.39015071179306', access: bot-check}
+1974-04-16-h-MI-8:
+  pending:
+  - {cite: '*Mich. Manual*, 1975–76, if it prints the special', url: 'https://babel.hathitrust.org/cgi/pt?id=mdp.39015071179306', access: bot-check}
+1965-11-02-h-OH-7:
+  pending:
+  - {cite: '*Ohio Election Statistics*, 1965–70, if it prints the special', url: 'https://babel.hathitrust.org/cgi/pt?id=osu.32435028463172', access: bot-check}
+1974-03-05-h-OH-1:
+  pending:
+  - {cite: '*Ohio Election Statistics*, 1973–74, if it prints the special', url: 'https://babel.hathitrust.org/cgi/pt?id=osu.32435028463156', access: bot-check}
+1961-05-16-h-PA-16:
+  pending:
+  - {cite: '*Pa. Manual*, 1961–62 (vol. 95), "Special Elections"', url: 'https://babel.hathitrust.org/cgi/pt?id=uiug.30112053623135', access: bot-check}
+1963-07-30-h-PA-15:
+  pending:
+  - {cite: '*Pa. Manual*, 1963–64 (vol. 96), "Special Elections"', url: 'https://archive.org/details/pennsylvaniamanu0096will', access: borrow}
+1963-11-05-h-PA-23:
+  pending:
+  - {cite: '*Pa. Manual*, 1963–64 (vol. 96), "Special Elections"', url: 'https://archive.org/details/pennsylvaniamanu0096will', access: borrow}
+1964-04-28-h-PA-5:
+  pending:
+  - {cite: '*Pa. Manual*, 1965–66, "Special Elections"', url: 'https://catalog.hathitrust.org/Record/009441218', access: search only}
+1971-11-02-h-PA-18:
+  pending:
+  - {cite: '*Pa. Manual*, the next volume, "Special Elections"', url: 'https://catalog.hathitrust.org/Record/009441218', access: search only}
+1972-04-25-h-PA-27:
+  pending:
+  - {cite: '*Pa. Manual*, the next volume, "Special Elections"', url: 'https://catalog.hathitrust.org/Record/009441218', access: search only}
+1974-02-05-h-PA-12:
+  pending:
+  - {cite: '*Pa. Manual*, 1975, "Special Elections"', url: 'https://archive.org/details/pennsylvaniamanu0000kath', access: borrow}
+1968-03-12-h-MS-3:
+  pending:
+  - {cite: 'Miss. *Official and Statistical Register*, 1968–72, if it prints the special', url: 'https://babel.hathitrust.org/cgi/pt?id=uiug.30112086088652', access: bot-check}
+1967-03-28-h-RI-2:
+  pending:
+  - {cite: '*R.I. Manual*, 1969–70, if it prints the special', url: 'https://catalog.hathitrust.org/Record/002502477', access: bot-check}
+1969-04-01-h-WI-7:
+  pending:
+  - {cite: 'Wis. *Blue Book*, 1970, p. 814', url: 'https://books.google.com/books?id=BB9WAAAAMAAJ', access: bot-check}
+1961-05-02-h-AZ-2:
+  pending:
+  - {cite: 'Ariz. Secretary of State, *Official Canvass*, special election, May 2, 1961', url: 'https://azmemory.azlibrary.gov/nodes/view/255745', access: bot-check}
+1961-05-27-s-TX-2:
+  pending:
+  - {cite: 'Tex. Secretary of State, election returns, Tex. State Library and Archives', access: paper}
+1961-11-04-h-TX-20:
+  pending:
+  - {cite: 'Tex. Secretary of State, election returns, Tex. State Library and Archives', access: paper}
+1962-01-27-h-TX-13:
+  pending:
+  - {cite: 'Tex. Secretary of State, election returns, Tex. State Library and Archives', access: paper}
+1962-01-30-h-TX-4:
+  pending:
+  - {cite: 'Tex. Secretary of State, election returns, Tex. State Library and Archives', access: paper}
+1963-12-21-h-TX-10:
+  pending:
+  - {cite: 'Tex. Secretary of State, election returns, Tex. State Library and Archives', access: paper}
+1966-03-26-h-TX-8:
+  pending:
+  - {cite: 'Tex. Secretary of State, election returns, Tex. State Library and Archives', access: paper}
+1968-08-24-h-TX-3:
+  pending:
+  - {cite: 'Tex. Secretary of State, election returns, Tex. State Library and Archives', access: paper}
+1961-05-16-h-TN-1:
+  pending:
+  - {cite: 'Tenn. Secretary of State, election returns, Tenn. State Library and Archives', access: paper}
+1964-03-10-h-TN-2:
+  pending:
+  - {cite: 'Tenn. Secretary of State, election returns, Tenn. State Library and Archives', access: paper}
+1969-03-25-h-TN-8:
+  pending:
+  - {cite: 'Tenn. Secretary of State, election returns, Tenn. State Library and Archives', access: paper}
+1962-02-20-h-NY-6:
+  pending:
+  - {cite: '*N.Y. Legislative Manual*, 1963', access: paper}
+1966-02-08-h-NY-17:
+  pending:
+  - {cite: '*N.Y. Legislative Manual*, 1967', access: paper}
+1967-04-11-h-NY-18:
+  pending:
+  - {cite: '*N.Y. Legislative Manual*, 1968', access: paper}
+1968-02-20-h-NY-13:
+  pending:
+  - {cite: '*N.Y. Legislative Manual*, 1969', access: paper}
+1969-06-24-h-MT-2:
+  pending:
+  - {cite: 'Mont. Secretary of State records, Mont. Historical Society', access: paper}
+1961-04-18-h-AR-6:
+  pending:
+  - {cite: 'Ark. county certified returns, Ark. State Archives', access: microfilm}
+1973-06-05-h-IL-7:
+  pending:
+  - {cite: 'Chicago Board of Election Commissioners, canvass', access: paper}
+1972-04-04-h-AL-3:
+  pending:
+  - {cite: 'Ala. Secretary of State''s certificate, Ala. Dept. of Archives and History', access: paper}
+1961-12-19-h-LA-4:
+  pending:
+  - {cite: 'La. Secretary of State, *General Election Returns*, the next report', access: search only}
+1965-10-02-h-LA-7:
+  pending:
+  - {cite: 'La. Secretary of State, *General Election Returns*, the next report', access: search only}
+1972-09-30-h-LA-7:
+  pending:
+  - {cite: 'La. Secretary of State, *General Election Returns*, the next report', access: search only}
+1973-03-20-h-LA-2:
+  pending:
+  - {cite: 'La. Secretary of State, *General Election Returns*, the next report', access: search only}

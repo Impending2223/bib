@@ -315,6 +315,10 @@ tools/bib/specials.py             renders the blocks, the calendar's race tables
   figures go in `congress/specials-state.yaml`, keyed by the race, with the publication, edition, page and
   copy read (header there). The race then shows votes by round and cites them; Wikipedia's shares stay
   in `specials.yaml` underneath. A date the State's returns correct goes in `STATE` in `make_specials.py`.
+- Citations shown with a race (`cite`): the State abbreviated as in the Bluebook (Cal., Mass., Vt., N.C.),
+  `*title*` in italics, date, page; linked to the copy read. A race not yet read carries `pending`, the
+  source to check, shown "Check: <cite> (bot-check)" with its access from `sources/states.yaml`.
+- Seats are written with a hyphen: MA-6, VT-AL (summaries, tables, map hover text).
 
 - Otherwise, shares are Wikipedia's tables of each year's House specials ("<year> United States House of
   Representatives elections"): percentages, no votes. Texas, 1961 (Tower): votes by round, from
