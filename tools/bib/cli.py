@@ -209,6 +209,32 @@ def cmd_build(series, a):
         print(os.path.relpath(p, HERE), f"{os.path.getsize(p) // 1024} KB")
 
 
+def cmd_executive(series, a):
+    from . import executive
+    units = executive.load()
+    if a.action == "check":
+        probs = executive.problems(series)
+        for w, m in probs:
+            print(f"error  {w}: {m}")
+        print(f"{len(probs)} errors in executive/ ({len(units)} units, "
+              f"{sum(len(u.get('offices') or []) for u in units.values())} offices, "
+              f"{sum(len(o.get('holders') or []) for u in units.values() for o in u.get('offices') or [])} tenures)")
+        return 1 if probs else 0
+    if a.action == "who":
+        q = store.fold(" ".join(a.args))
+        for u in units.values():
+            for o in u.get("offices") or []:
+                for h in o.get("holders") or []:
+                    if all(w in store.fold(h["name"]) for w in q.split()):
+                        print(f"{h['name']:32} {u['unit']}.{o['id']:34} {h.get('from')}–{h.get('to') or ''}"
+                              + (" (acting)" if h.get("acting") else ""))
+        return 0
+    if a.action == "names":
+        from . import executive_names
+        executive_names.report(series, units, a.args)
+        return 0
+
+
 def cmd_merge(series, a):
     from .merge import apply_patch, Report
     rc = 0
@@ -421,6 +447,9 @@ def main(argv=None):
     x = sub.add_parser("build", help="write build/<key>.html and build/series.html")
     x.add_argument("which", nargs="?", help="a list key, or 'series'; default all")
     x.add_argument("--force", action="store_true")
+    x = sub.add_parser("executive", help="the Executive Branch roster: check | who NAME | names [cal|part3|daybook]")
+    x.add_argument("action", choices=["check", "who", "names"])
+    x.add_argument("args", nargs="*")
     x = sub.add_parser("merge", help="apply patch files (see CLAUDE.md for the format)")
     x.add_argument("patches", nargs="+")
     x.add_argument("--dry-run", "-n", action="store_true")

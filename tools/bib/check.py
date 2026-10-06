@@ -164,6 +164,10 @@ def run(series, only=None):
     from . import sources
     for where, msg in sources.problems():
         add(ERROR, where, msg, "sources")
+    # the Executive Branch (executive/*.yaml)
+    from . import executive
+    for where, msg in executive.problems(series):
+        add(ERROR, where, msg, "executive")
     # the day's executive documents (daybook/*.yaml)
     from . import daybook
     for where, msg in daybook.problems():

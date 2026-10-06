@@ -240,6 +240,9 @@ var META={{meta}}, ORDER={{order}};
     var lp=document.createElement('li'), ap=document.createElement('a');
     ap.href='congress.html'; ap.innerHTML='<b>Congress</b><span>Each Congress at its opening, 1961\u20131973: bars, maps, members</span>';
     lp.appendChild(ap); lsts.appendChild(lp);
+    var lx=document.createElement('li'), ax=document.createElement('a');
+    ax.href='executive.html'; ax.innerHTML='<b>Executive</b><span>The Executive Branch at each inauguration, 1953\u20131974: offices, law, holders</span>';
+    lx.appendChild(ax); lsts.appendChild(lx);
   })();
   function buildDrawer(){
     $$('a',lsts).forEach(function(a){a.classList.toggle('on',a.dataset.k===active);});
