@@ -1,0 +1,2230 @@
+# The Department of State. Seeded from POCOM by tools/executive/make_state.py; kept by hand since.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: state
+name: Department of State
+under: president
+order: 30
+offices:
+  - id: secretary
+    title: Secretary of State
+    rank: head
+    appt: PAS
+    holders:
+      - name: Acheson, Dean G.
+        given: Dean Gooderham
+        appointed: '1949-01-19'
+        from: '1949-01-21'
+        to: '1953-01-20'
+        src:
+          - POCOM
+      - name: Dulles, John Foster
+        appointed: '1953-01-21'
+        from: '1953-01-21'
+        to: '1959-04-22'
+        src:
+          - POCOM
+      - name: Herter, Christian A.
+        given: Christian Archibald
+        appointed: '1959-04-21'
+        from: '1959-04-22'
+        to: '1961-01-20'
+        src:
+          - POCOM
+      - name: Rusk, Dean
+        given: David Dean
+        appointed: '1961-01-21'
+        from: '1961-01-21'
+        to: '1969-01-20'
+        src:
+          - POCOM
+      - name: Rogers, William P.
+        given: William Pierce
+        appointed: '1969-01-21'
+        from: '1969-01-22'
+        to: '1973-09-03'
+        src:
+          - POCOM
+      - name: Kissinger, Henry A.
+        given: Henry A. (Heinz Alfred)
+        appointed: '1973-09-21'
+        from: '1973-09-22'
+        to: '1977-01-20'
+        n: Served concurrently as Assistant to the President for National Security Affairs until Nov 3, 1975.
+        src:
+          - POCOM
+  - id: under-secretary
+    title: Under Secretary of State
+    rank: principal
+    appt: PAS
+    under: secretary
+    holders:
+      - name: Bruce, David K. E.
+        given: David Kirkpatrick Este
+        appointed: '1952-02-07'
+        from: '1952-04-01'
+        to: '1953-01-20'
+        src:
+          - POCOM
+      - name: Smith, Walter B.
+        given: Walter Bedell
+        appointed: '1953-02-09'
+        from: '1953-02-09'
+        to: '1954-10-01'
+        src:
+          - POCOM
+      - name: Hoover, Herbert, Jr.
+        given: Herbert Clark
+        appointed: '1954-08-18'
+        from: '1954-10-04'
+        to: '1957-02-05'
+        src:
+          - POCOM
+      - name: Herter, Christian A.
+        given: Christian Archibald
+        appointed: '1957-02-21'
+        from: '1957-02-21'
+        to: '1959-04-22'
+        src:
+          - POCOM
+      - name: Dillon, C. Douglas
+        given: Clarence Douglas
+        appointed: '1959-06-11'
+        from: '1959-06-12'
+        to: '1961-01-04'
+        src:
+          - POCOM
+      - name: Bowles, Chester
+        given: Chester Bliss
+        appointed: '1961-01-24'
+        from: '1961-01-25'
+        to: '1961-12-03'
+        src:
+          - POCOM
+      - name: Ball, George W.
+        given: George Wildman
+        recess: '1961-11-29'
+        from: '1961-12-04'
+        to: '1966-09-30'
+        n: Commissioned during a recess of the Senate; recommissioned after confirmation on Jan 30, 1962.
+        src:
+          - POCOM
+      - name: Katzenbach, Nicholas deB.
+        given: Nicholas deBelleville
+        appointed: '1966-09-30'
+        from: '1966-10-03'
+        to: '1969-01-20'
+        src:
+          - POCOM
+      - name: Richardson, Elliot L.
+        given: Elliot Lee
+        appointed: '1969-01-23'
+        from: '1969-01-23'
+        to: '1970-06-23'
+        src:
+          - POCOM
+      - name: Irwin, John N., II
+        given: John Nichol
+        appointed: '1970-09-18'
+        from: '1970-09-21'
+        to: '1972-07-12'
+        src:
+          - POCOM
+  - id: deputy-secretary
+    title: Deputy Secretary of State
+    rank: principal
+    appt: PAS
+    under: secretary
+    holders:
+      - name: Irwin, John N., II
+        given: John Nichol
+        from: '1972-07-13'
+        to: '1973-02-01'
+        n: Not commissioned as Deputy Secretary; had been serving as Under Secretary of State and was redesignated Deputy Secretary of State under terms of the Foreign Affairs Authorization Act of 1972. Prior to Jul 13, 1972, the Under Secretary of State had been the second ranking officer of the Department.
+        src:
+          - POCOM
+      - name: Rush, Kenneth
+        appointed: '1973-02-02'
+        from: '1973-02-02'
+        to: '1974-05-29'
+        src:
+          - POCOM
+      - name: Ingersoll, Robert S.
+        given: Robert Stephen
+        appointed: '1974-06-30'
+        from: '1974-07-10'
+        to: '1976-03-31'
+        src:
+          - POCOM
+  - id: under-secretary-political
+    title: Under Secretary of State for Political Affairs
+    rank: principal
+    appt: PAS
+    under: secretary
+    holders:
+      - name: Murphy, Robert D.
+        given: Robert Daniel
+        appointed: '1959-08-12'
+        from: '1959-08-14'
+        to: '1959-12-03'
+        src:
+          - POCOM
+      - name: Merchant, Livingston T.
+        given: Livingston Tallmadge
+        recess: '1959-12-01'
+        from: '1959-12-04'
+        to: '1961-01-31'
+        n: Commissioned during a recess of the Senate; recommissioned after confirmation on Jan 27, 1960.
+        src:
+          - POCOM
+      - name: McGhee, George C.
+        given: George Crews
+        recess: '1961-11-29'
+        from: '1961-12-04'
+        to: '1963-03-27'
+        n: Commissioned during a recess of the Senate; recommissioned after confirmation on Jan 30, 1962.
+        src:
+          - POCOM
+      - name: Harriman, W. Averell
+        given: William Averell
+        appointed: '1963-04-04'
+        from: '1963-04-04'
+        to: '1965-03-17'
+        src:
+          - POCOM
+      - name: Rostow, Eugene
+        given: Eugene Victor Debs
+        appointed: '1966-10-13'
+        from: '1966-10-14'
+        to: '1969-01-20'
+        src:
+          - POCOM
+      - name: Johnson, U. Alexis
+        given: Ural Alexis
+        appointed: '1969-02-07'
+        from: '1969-02-07'
+        to: '1973-02-01'
+        src:
+          - POCOM
+      - name: Porter, William J.
+        given: William James
+        appointed: '1973-02-02'
+        from: '1973-02-02'
+        to: '1974-02-18'
+        src:
+          - POCOM
+      - name: Sisco, Joseph J.
+        given: Joseph John
+        appointed: '1974-02-11'
+        from: '1974-02-19'
+        to: '1976-06-30'
+        src:
+          - POCOM
+  - id: under-secretary-economic
+    title: Under Secretary of State for Economic Affairs
+    rank: principal
+    appt: PAS
+    under: secretary
+    holders:
+      - name: Dillon, C. Douglas
+        given: Clarence Douglas
+        appointed: '1958-06-30'
+        from: '1958-07-01'
+        to: '1959-06-11'
+        src:
+          - POCOM
+      - name: Ball, George W.
+        given: George Wildman
+        appointed: '1961-01-30'
+        from: '1961-02-01'
+        to: '1961-12-03'
+        src:
+          - POCOM
+      - name: Mann, Thomas C.
+        given: Thomas Clifton
+        appointed: '1965-03-11'
+        from: '1965-03-18'
+        to: '1966-05-31'
+        src:
+          - POCOM
+      - name: Casey, William J.
+        given: William Joseph
+        appointed: '1973-02-02'
+        from: '1973-02-02'
+        to: '1974-03-14'
+        src:
+          - POCOM
+  - id: under-secretary-management
+    title: Under Secretary of State for Management
+    rank: principal
+    appt: PAS
+    under: secretary
+    holders:
+      - name: Lourie, Donold B.
+        given: Donold Bradford
+        appointed: '1953-02-13'
+        from: '1953-02-16'
+        to: '1954-03-05'
+        n: Commissioned as Under Secretary of State for Administration.
+        src:
+          - POCOM
+      - name: Saltzman, Charles E.
+        given: Charles Eckridge
+        appointed: '1954-06-28'
+        from: '1954-06-29'
+        to: '1954-12-31'
+        n: Commissioned as Under Secretary of State for Administration.
+        src:
+          - POCOM
+  - id: under-secretary-security
+    title: Under Secretary of State for Security Assistance
+    rank: principal
+    appt: PAS
+    under: secretary
+    holders:
+      - name: Tarr, Curtis W.
+        given: Curtis William
+        appointed: '1972-05-01'
+        from: '1972-05-02'
+        to: '1973-11-25'
+        src:
+          - POCOM
+      - name: Donaldson, William H.
+        given: William Henry
+        appointed: '1973-11-23'
+        from: '1973-11-26'
+        to: '1974-05-10'
+        src:
+          - POCOM
+      - name: Maw, Carlyle E.
+        given: Carlyle Edward
+        appointed: '1974-06-30'
+        from: '1974-07-10'
+        to: '1976-09-17'
+        src:
+          - POCOM
+  - id: deputy-under-secretary
+    title: Deputy Under Secretary of State
+    rank: principal
+    appt: PAS
+    under: secretary
+    holders:
+      - name: Murphy, Robert D.
+        given: Robert Daniel
+        from: '1953-11-30'
+        to: '1955-08-10'
+        n: Commissioned as an Assistant Secretary of State for United Nations Affairs and later designated to serve as Deputy Under Secretary of State, a position created by the Department of State Organization Act of May 29, 1949. The 1949 act allotted the Department two Deputy Under Secretary positions, and Murphy used the title Deputy Under Secretary of State for Political Affairs.
+        src:
+          - POCOM
+  - id: deputy-under-secretary-political
+    title: Deputy Under Secretary of State for Political Affairs
+    rank: principal
+    appt: PAS
+    under: secretary
+    holders:
+      - name: Murphy, Robert D.
+        given: Robert Daniel
+        appointed: '1955-08-11'
+        from: '1955-08-11'
+        to: '1959-08-13'
+        src:
+          - POCOM
+      - name: Merchant, Livingston T.
+        given: Livingston Tallmadge
+        appointed: '1959-08-12'
+        from: '1959-08-21'
+        to: '1959-12-03'
+        src:
+          - POCOM
+      - name: Hare, Raymond A.
+        given: Raymond Arthur
+        appointed: '1960-01-21'
+        from: '1960-01-25'
+        to: '1961-03-05'
+        src:
+          - POCOM
+      - name: Johnson, U. Alexis
+        given: Ural Alexis
+        appointed: '1961-04-27'
+        from: '1961-05-02'
+        to: '1964-07-12'
+        n: An earlier nomination as Assistant Secretary of State was withdrawn before the Senate acted upon it.
+        src:
+          - POCOM
+      - name: Johnson, U. Alexis
+        given: Ural Alexis
+        appointed: '1965-09-27'
+        from: '1965-11-01'
+        to: '1966-10-09'
+        src:
+          - POCOM
+      - name: Kohler, Foy D.
+        given: Foy David
+        appointed: '1966-10-13'
+        from: '1966-11-29'
+        to: '1967-12-31'
+        src:
+          - POCOM
+      - name: Bohlen, Charles E.
+        given: Charles Eustis
+        appointed: '1967-12-15'
+        from: '1968-02-11'
+        to: '1969-01-22'
+        src:
+          - POCOM
+  - id: deputy-under-secretary-economic
+    title: Deputy Under Secretary of State for Economic Affairs
+    rank: principal
+    appt: PAS
+    under: secretary
+    holders:
+      - name: Waugh, Samuel C.
+        given: Samuel Clark
+        recess: '1955-08-25'
+        from: '1955-08-26'
+        to: '1955-10-01'
+        n: Commissioned during a recess of the Senate.
+        src:
+          - POCOM
+      - name: Prochnow, Herbert V.
+        given: Herbert Victor
+        recess: '1955-10-04'
+        from: '1955-11-07'
+        to: '1956-11-15'
+        n: Commissioned during a recess of the Senate; recommissioned after confirmation on Jan 25, 1956.
+        src:
+          - POCOM
+      - name: Dillon, C. Douglas
+        given: Clarence Douglas
+        appointed: '1957-03-14'
+        from: '1957-03-15'
+        to: '1958-06-30'
+        src:
+          - POCOM
+      - name: Samuels, Nathaniel
+        appointed: '1969-03-28'
+        from: '1969-04-01'
+        to: '1972-05-31'
+        src:
+          - POCOM
+  - id: deputy-under-secretary-administration
+    title: Deputy Under Secretary of State for Administration
+    rank: principal
+    appt: PAS
+    under: secretary
+    holders:
+      - name: Humelsine, Carlisle H.
+        given: Carlisle Hubbard
+        from: '1950-08-11'
+        to: '1953-02-13'
+        n: Commissioned as an Assistant Secretary of State and designated to serve as Deputy Under Secretary.
+        src:
+          - POCOM
+      - name: Henderson, Loy W.
+        given: Loy Wesley
+        from: '1955-01-26'
+        to: '1955-08-09'
+        n: Commissioned as an Assistant Secretary of State and designated to serve as Deputy Under Secretary.
+        src:
+          - POCOM
+      - name: Henderson, Loy W.
+        given: Loy Wesley
+        appointed: '1955-08-10'
+        from: '1955-08-10'
+        to: '1961-01-31'
+        src:
+          - POCOM
+      - name: Jones, Roger W.
+        given: Roger Warren
+        appointed: '1961-01-30'
+        from: '1961-02-01'
+        to: '1962-06-30'
+        src:
+          - POCOM
+      - name: Orrick, William H., Jr.
+        given: William Horsley
+        appointed: '1962-07-03'
+        from: '1962-07-03'
+        to: '1963-06-07'
+        src:
+          - POCOM
+      - name: Crockett, William J.
+        given: William James
+        appointed: '1963-06-04'
+        from: '1963-06-08'
+        to: '1967-01-28'
+        src:
+          - POCOM
+      - name: Rimestad, Idar
+        appointed: '1967-01-26'
+        from: '1967-02-03'
+        to: '1969-10-02'
+        src:
+          - POCOM
+      - name: Macomber, William B., Jr.
+        given: William Butts
+        appointed: '1969-09-26'
+        from: '1969-10-03'
+        to: '1973-04-04'
+        src:
+          - POCOM
+      - name: Brown, L. Dean
+        given: Lewis Dean
+        appointed: '1973-12-19'
+        from: '1973-12-28'
+        to: '1975-02-23'
+        src:
+          - POCOM
+  - id: counselor
+    title: Counselor of the Department of State
+    rank: principal
+    appt: PAS
+    under: secretary
+    holders:
+      - name: Bohlen, Charles E.
+        given: Charles Eustis
+        appointed: '1951-03-13'
+        from: '1951-07-12'
+        to: '1953-03-29'
+        src:
+          - POCOM
+      - name: MacArthur, Douglas, II
+        appointed: '1953-03-11'
+        from: '1953-03-30'
+        to: '1956-12-16'
+        src:
+          - POCOM
+      - name: Reinhardt, G. Frederick
+        given: George Frederick
+        appointed: '1957-03-14'
+        from: '1957-03-17'
+        to: '1960-02-03'
+        src:
+          - POCOM
+      - name: Achilles, Theodore C.
+        given: Theodore Carter
+        appointed: '1960-03-18'
+        from: '1960-03-24'
+        to: '1961-02-15'
+        src:
+          - POCOM
+      - name: McGhee, George C.
+        given: George Crews
+        appointed: '1961-02-13'
+        from: '1961-02-16'
+        to: '1961-12-03'
+        src:
+          - POCOM
+      - name: Rostow, Walt W.
+        given: Walt Whitman
+        recess: '1961-11-29'
+        from: '1961-12-04'
+        to: '1966-03-31'
+        n: Commissioned during a recess of the Senate; recommissioned after confirmation on Mar 5, 1962.
+        src:
+          - POCOM
+      - name: Bowie, Robert R.
+        given: Robert Richardson
+        appointed: '1966-09-21'
+        from: '1966-09-21'
+        to: '1968-04-01'
+        src:
+          - POCOM
+      - name: Pedersen, Richard F.
+        given: Richard Foote
+        appointed: '1969-01-23'
+        from: '1969-01-24'
+        to: '1973-07-26'
+        src:
+          - POCOM
+      - name: Sonnenfeldt, Helmut
+        appointed: '1973-12-19'
+        from: '1974-01-07'
+        to: '1977-02-21'
+        src:
+          - POCOM
+  - id: ambassador-at-large
+    title: Ambassador at Large
+    rank: principal
+    appt: PAS
+    under: secretary
+    many: true
+    holders:
+      - name: Harriman, W. Averell
+        given: William Averell
+        appointed: '1961-02-06'
+        from: '1961-02-13'
+        to: '1961-12-03'
+        src:
+          - POCOM
+      - name: Bowles, Chester
+        given: Chester Bliss
+        recess: '1961-12-01'
+        from: '1961-12-04'
+        to: '1963-06-09'
+        n: Commissioned as Presidential Special Representative and Adviser on African, Asian, and Latin American Affairs. Commissioned during a recess of the Senate; recommissioned after confirmation on Jan 30, 1962.
+        src:
+          - POCOM
+      - name: Thompson, Llewellyn E., Jr.
+        appointed: '1962-10-03'
+        from: '1962-10-03'
+        to: '1966-12-26'
+        src:
+          - POCOM
+      - name: Harriman, W. Averell
+        given: William Averell
+        appointed: '1965-03-11'
+        from: '1965-03-18'
+        to: '1969-01-20'
+        src:
+          - POCOM
+      - name: Bunker, Ellsworth
+        appointed: '1966-10-13'
+        from: '1966-11-08'
+        to: '1967-04-11'
+        src:
+          - POCOM
+      - name: Lodge, Henry Cabot, Jr.
+        appointed: '1967-04-05'
+        from: '1967-05-03'
+        to: '1968-05-07'
+        src:
+          - POCOM
+      - name: McGhee, George C.
+        given: George Crews
+        appointed: '1968-04-22'
+        from: '1968-05-24'
+        to: '1969-03-15'
+        src:
+          - POCOM
+      - name: Kennedy, David M.
+        given: David Matthew
+        appointed: '1971-02-11'
+        from: '1971-02-11'
+        to: '1973-03-08'
+        n: Commissioned as Ambassador at Large for Foreign Economic Policy Development; later commissioned to serve concurrently as U.S. Permanent Representative to the North Atlantic Treaty Organization.
+        src:
+          - POCOM
+      - name: Johnson, U. Alexis
+        given: Ural Alexis
+        appointed: '1973-02-02'
+        from: '1973-02-02'
+        to: '1977-02-28'
+        src:
+          - POCOM
+      - name: Bunker, Ellsworth
+        appointed: '1973-09-26'
+        from: '1973-10-11'
+        to: '1978-06-30'
+        src:
+          - POCOM
+      - name: McCloskey, Robert J.
+        given: Robert James
+        appointed: '1973-12-19'
+        from: '1974-02-14'
+        to: '1975-02-20'
+        n: Later commissioned to serve concurrently as Assistant Secretary of State for Congressional Relations.
+        src:
+          - POCOM
+  - id: assistant-secretary-african
+    title: Assistant Secretary of State for African Affairs
+    rank: principal
+    appt: PAS
+    group: Regional bureaus
+    under: secretary
+    holders:
+      - name: Satterthwaite, Joseph C.
+        given: Joseph Charles
+        appointed: '1958-08-23'
+        from: '1958-09-02'
+        to: '1961-01-31'
+        src:
+          - POCOM
+      - name: Williams, G. Mennen
+        given: Gerhard Mennen
+        appointed: '1961-01-30'
+        from: '1961-02-01'
+        to: '1966-03-23'
+        src:
+          - POCOM
+      - name: Palmer, Joseph, II
+        appointed: '1966-04-01'
+        from: '1966-04-11'
+        to: '1969-07-07'
+        src:
+          - POCOM
+      - name: Newsom, David D.
+        given: David Dunlap
+        appointed: '1969-07-08'
+        from: '1969-07-17'
+        to: '1974-01-13'
+        src:
+          - POCOM
+      - name: Easum, Donald B.
+        given: Donald Boyd
+        appointed: '1974-02-27'
+        from: '1974-03-18'
+        to: '1975-03-26'
+        src:
+          - POCOM
+  - id: assistant-secretary-european
+    title: Assistant Secretary of State for European Affairs
+    rank: principal
+    appt: PAS
+    group: Regional bureaus
+    under: secretary
+    holders:
+      - name: Perkins, George W.
+        given: George Walbridge
+        appointed: '1949-06-24'
+        from: '1949-08-01'
+        to: '1953-01-31'
+        src:
+          - POCOM
+      - name: Merchant, Livingston T.
+        given: Livingston Tallmadge
+        appointed: '1953-03-11'
+        from: '1953-03-16'
+        to: '1956-05-06'
+        src:
+          - POCOM
+      - name: Riddleberger, James W.
+        given: James Williams
+        recess: '1956-10-15'
+        from: '1956-10-15'
+        n: Commissioned during a recess of the Senate; declined appointment.
+        src:
+          - POCOM
+      - name: Elbrick, C. Burke
+        given: Charles Burke
+        appointed: '1957-02-11'
+        from: '1957-02-14'
+        to: '1958-11-16'
+        src:
+          - POCOM
+      - name: Merchant, Livingston T.
+        given: Livingston Tallmadge
+        recess: '1953-10-29'
+        from: '1958-11-18'
+        to: '1959-08-20'
+        n: Commissioned during a recess of the Senate; recommissioned after confirmation on Jan 29, 1959.
+        src:
+          - POCOM
+      - name: Dowling, Walter C.
+        given: Walter Cecil
+        appointed: '1959-08-26'
+        from: '1959-08-26'
+        n: Did not take oath of office under this appointment.
+        src:
+          - POCOM
+      - name: Kohler, Foy D.
+        given: Foy David
+        recess: '1959-12-11'
+        from: '1959-12-11'
+        to: '1962-08-19'
+        n: Commissioned during a recess of the Senate; recommissioned after confirmation on Jan 27, 1960.
+        src:
+          - POCOM
+      - name: Tyler, William R.
+        given: William Royall
+        appointed: '1962-08-20'
+        from: '1962-09-02'
+        to: '1965-05-18'
+        src:
+          - POCOM
+      - name: Leddy, John M.
+        given: John Marshall
+        appointed: '1965-06-04'
+        from: '1965-06-16'
+        to: '1969-02-19'
+        src:
+          - POCOM
+      - name: Hillenbrand, Martin J.
+        given: Martin Joseph Anthony
+        appointed: '1969-02-07'
+        from: '1969-02-20'
+        to: '1972-04-30'
+        src:
+          - POCOM
+      - name: Stoessel, Walter J., Jr.
+        given: Walter John
+        appointed: '1972-07-25'
+        from: '1972-08-09'
+        to: '1974-01-07'
+        src:
+          - POCOM
+      - name: Hartman, Arthur A.
+        given: Arthur Adair
+        appointed: '1973-12-19'
+        from: '1974-01-08'
+        to: '1977-06-08'
+        src:
+          - POCOM
+  - id: assistant-secretary-far-eastern
+    title: Assistant Secretary of State for Far Eastern Affairs
+    rank: principal
+    appt: PAS
+    group: Regional bureaus
+    under: secretary
+    holders:
+      - name: Allison, John M.
+        given: John Moore
+        appointed: '1952-02-01'
+        from: '1952-02-01'
+        to: '1953-04-07'
+        src:
+          - POCOM
+      - name: Robertson, Walter S.
+        given: Walter Spencer
+        appointed: '1953-03-27'
+        from: '1953-04-08'
+        to: '1959-06-30'
+        src:
+          - POCOM
+      - name: Parsons, J. Graham
+        given: James Graham
+        appointed: '1959-06-05'
+        from: '1959-07-01'
+        to: '1961-03-30'
+        src:
+          - POCOM
+      - name: McConaughy, Walter P., Jr.
+        given: Walter Patrick
+        appointed: '1961-04-18'
+        from: '1961-04-24'
+        to: '1961-12-03'
+        src:
+          - POCOM
+      - name: Harriman, W. Averell
+        given: William Averell
+        recess: '1961-11-29'
+        from: '1961-12-04'
+        to: '1963-04-03'
+        n: Commissioned during a recess of the Senate; recommissioned after confirmation on Mar 5, 1962.
+        src:
+          - POCOM
+      - name: Hilsman, Roger, Jr.
+        appointed: '1963-04-25'
+        from: '1963-05-09'
+        to: '1964-03-15'
+        src:
+          - POCOM
+      - name: Bundy, William P.
+        given: William Putnam
+        appointed: '1964-03-10'
+        from: '1964-03-16'
+        to: '1969-05-04'
+        src:
+          - POCOM
+      - name: Green, Marshall
+        appointed: '1969-05-01'
+        from: '1969-05-05'
+        to: '1973-05-10'
+        src:
+          - POCOM
+      - name: Ingersoll, Robert S.
+        given: Robert Stephen
+        appointed: '1973-12-19'
+        from: '1974-01-08'
+        to: '1974-07-09'
+        src:
+          - POCOM
+  - id: assistant-secretary-inter-american
+    title: Assistant Secretary of State for Inter-American Affairs
+    rank: principal
+    appt: PAS
+    group: Regional bureaus
+    under: secretary
+    holders:
+      - name: Cabot, John M.
+        given: John Moors
+        appointed: '1953-02-27'
+        from: '1953-03-03'
+        to: '1954-03-01'
+        src:
+          - POCOM
+      - name: Holland, Henry F.
+        given: Henry Finch
+        appointed: '1954-03-01'
+        from: '1954-03-02'
+        to: '1956-09-13'
+        src:
+          - POCOM
+      - name: Rubottom, Roy R., Jr.
+        given: Roy Richard
+        appointed: '1957-06-18'
+        from: '1957-06-18'
+        to: '1960-08-27'
+        src:
+          - POCOM
+      - name: Mann, Thomas C.
+        given: Thomas Clifton
+        appointed: '1957-09-07'
+        from: '1960-08-28'
+        to: '1961-04-20'
+        n: Date of original commission as Assistant Secretary; prior to Aug 28, 1960, served as Assistant Secretary for Economic Affairs.
+        src:
+          - POCOM
+      - name: Woodward, Robert F.
+        given: Robert Forbes
+        appointed: '1961-07-14'
+        from: '1961-07-17'
+        to: '1962-03-17'
+        src:
+          - POCOM
+      - name: Martin, Edwin M.
+        given: Edwin McCammon
+        appointed: '1962-05-12'
+        from: '1962-05-18'
+        to: '1964-01-02'
+        src:
+          - POCOM
+      - name: Mann, Thomas C.
+        given: Thomas Clifton
+        appointed: '1963-12-21'
+        from: '1964-01-03'
+        to: '1965-03-17'
+        src:
+          - POCOM
+      - name: Vaughn, Jack H.
+        given: Jack Hood
+        appointed: '1965-03-11'
+        from: '1965-03-22'
+        to: '1966-02-28'
+        src:
+          - POCOM
+      - name: Gordon, Lincoln
+        given: Abraham Lincoln
+        appointed: '1966-02-25'
+        from: '1966-03-09'
+        to: '1967-06-30'
+        src:
+          - POCOM
+      - name: Oliver, Covey T.
+        given: Covey Thomas
+        appointed: '1967-06-09'
+        from: '1967-07-01'
+        to: '1968-12-31'
+        src:
+          - POCOM
+      - name: Meyer, Charles A.
+        given: Charles Appleton
+        appointed: '1969-03-28'
+        from: '1969-04-02'
+        to: '1973-03-02'
+        src:
+          - POCOM
+      - name: Kubisch, Jack B.
+        given: Jack Bloom
+        appointed: '1973-05-23'
+        from: '1973-05-29'
+        to: '1974-09-04'
+        src:
+          - POCOM
+  - id: assistant-secretary-near-eastern
+    title: Assistant Secretary of State for Near Eastern, South Asian, and African Affairs
+    rank: principal
+    appt: PAS
+    group: Regional bureaus
+    under: secretary
+    holders:
+      - name: Byroade, Henry A.
+        given: Henry Alfred
+        appointed: '1952-04-10'
+        from: '1952-04-14'
+        to: '1955-01-25'
+        src:
+          - POCOM
+      - name: Allen, George V.
+        given: George Venable
+        appointed: '1955-01-24'
+        from: '1955-01-26'
+        to: '1956-08-27'
+        src:
+          - POCOM
+      - name: Rountree, William M.
+        given: William Manning
+        appointed: '1956-07-26'
+        from: '1956-08-30'
+        to: '1959-07-06'
+        src:
+          - POCOM
+      - name: Jones, G. Lewis
+        given: George Lewis
+        appointed: '1959-07-06'
+        from: '1959-07-10'
+        to: '1961-04-20'
+        src:
+          - POCOM
+      - name: Talbot, Phillips
+        appointed: '1961-04-18'
+        from: '1961-04-21'
+        to: '1965-09-01'
+        src:
+          - POCOM
+      - name: Hare, Raymond A.
+        given: Raymond Arthur
+        appointed: '1965-09-11'
+        from: '1965-09-22'
+        to: '1966-11-30'
+        src:
+          - POCOM
+      - name: Battle, Lucius D.
+        given: Lucius Durham
+        appointed: '1967-04-05'
+        from: '1967-04-05'
+        to: '1968-09-30'
+        src:
+          - POCOM
+      - name: Hart, Parker T.
+        given: Parker Thompson
+        appointed: '1968-10-04'
+        from: '1968-10-14'
+        to: '1969-02-04'
+        src:
+          - POCOM
+      - name: Sisco, Joseph J.
+        given: Joseph John
+        appointed: '1969-02-07'
+        from: '1969-02-10'
+        to: '1974-02-18'
+        src:
+          - POCOM
+      - name: Atherton, Alfred L., Jr.
+        given: Alfred Leroy
+        appointed: '1974-04-25'
+        from: '1974-04-27'
+        to: '1978-04-13'
+        src:
+          - POCOM
+  - id: assistant-secretary-international-organization
+    title: Assistant Secretary of State for International Organization Affairs
+    rank: principal
+    appt: PAS
+    group: Functional bureaus
+    under: secretary
+    holders:
+      - name: Hickerson, John D.
+        given: John Dewey
+        appointed: '1949-06-24'
+        from: '1949-08-08'
+        to: '1953-07-27'
+        n: Designated as Assistant Secretary of State for International Organization Affairs Jul 6-Aug 8, 1949.
+        src:
+          - POCOM
+      - name: Murphy, Robert D.
+        given: Robert Daniel
+        appointed: '1953-03-20'
+        from: '1953-07-28'
+        to: '1953-11-30'
+        n: Designated under the same appointment as Deputy Under Secretary of State as authorized by the Department of State Organization Act of May 29, 1949. Commission as Assistant Secretary terminated on August 10, 1955, although Murphy left office on November 30, 1953.
+        src:
+          - POCOM
+      - name: Key, David McK., II
+        given: David McKendree
+        recess: '1953-12-04'
+        from: '1953-12-18'
+        to: '1955-07-31'
+        n: Commissioned during a recess of the Senate; recommissioned after confirmation on Mar 17, 1954.
+        src:
+          - POCOM
+      - name: Wilcox, Francis O.
+        given: Francis Orlando
+        appointed: '1955-07-28'
+        from: '1955-09-06'
+        to: '1961-01-20'
+        src:
+          - POCOM
+      - name: Cleveland, Harlan
+        appointed: '1961-02-20'
+        from: '1961-02-23'
+        to: '1965-09-08'
+        src:
+          - POCOM
+      - name: Sisco, Joseph J.
+        given: Joseph John
+        appointed: '1965-09-01'
+        from: '1965-09-10'
+        to: '1969-02-09'
+        src:
+          - POCOM
+      - name: De Palma, Samuel
+        appointed: '1969-02-07'
+        from: '1969-02-11'
+        to: '1973-06-20'
+        src:
+          - POCOM
+      - name: Popper, David H.
+        given: David Henry
+        appointed: '1973-06-12'
+        from: '1973-06-25'
+        to: '1974-01-02'
+        src:
+          - POCOM
+      - name: Buffum, William B.
+        given: William Burnside
+        appointed: '1973-12-19'
+        from: '1974-02-04'
+        to: '1975-12-18'
+        src:
+          - POCOM
+  - id: assistant-secretary-economic
+    title: Assistant Secretary of State for Economic Affairs
+    rank: principal
+    appt: PAS
+    group: Functional bureaus
+    under: secretary
+    holders:
+      - name: Linder, Harold F.
+        given: Harold Francis
+        recess: '1952-12-11'
+        from: '1952-12-12'
+        to: '1953-05-15'
+        n: Commissioned during a recess of the Senate.
+        src:
+          - POCOM
+      - name: Waugh, Samuel C.
+        given: Samuel Clark
+        appointed: '1953-06-04'
+        from: '1953-06-05'
+        to: '1955-08-25'
+        src:
+          - POCOM
+      - name: Kalijarvi, Thorsten V.
+        given: Thorsten Valentine
+        appointed: '1957-03-14'
+        from: '1957-03-15'
+        to: '1957-09-26'
+        src:
+          - POCOM
+      - name: Mann, Thomas C.
+        given: Thomas Clifton
+        recess: '1957-09-07'
+        from: '1957-09-30'
+        to: '1960-08-28'
+        n: Commissioned during a recess of the Senate; recommissioned after confirmation on Jan 27, 1958. Designated Assistant Secretary of State for Inter-American Affairs on this date. A personnel action assigned Mann to the position of Assistant Secretary for Inter-American Affairs effective Aug 7, 1960, but this date was probably an error for Aug 28, 1960. Mann’s commission expired Apr 20, 1961.
+        src:
+          - POCOM
+      - name: Martin, Edwin M.
+        given: Edwin McCammon
+        appointed: '1960-08-27'
+        from: '1960-09-04'
+        to: '1962-05-17'
+        src:
+          - POCOM
+      - name: Johnson, G. Griffith, Jr.
+        given: Gove Griffith
+        appointed: '1962-05-12'
+        from: '1962-05-18'
+        to: '1965-05-01'
+        src:
+          - POCOM
+      - name: Solomon, Anthony M.
+        given: Anthony Morton
+        appointed: '1965-03-18'
+        from: '1965-06-01'
+        to: '1969-01-10'
+        src:
+          - POCOM
+      - name: Trezise, Philip H.
+        given: Philip Harold
+        appointed: '1969-07-08'
+        from: '1969-07-08'
+        to: '1971-11-27'
+        src:
+          - POCOM
+      - name: Armstrong, Willis C.
+        given: Willis Coburn
+        appointed: '1972-02-14'
+        from: '1972-02-15'
+        to: '1974-04-16'
+        src:
+          - POCOM
+      - name: Enders, Thomas O.
+        given: Thomas Ostrom
+        appointed: '1974-06-30'
+        from: '1974-07-24'
+        to: '1975-12-22'
+        src:
+          - POCOM
+  - id: assistant-secretary-public
+    title: Assistant Secretary of State for Public Affairs
+    rank: principal
+    appt: PAS
+    group: Functional bureaus
+    under: secretary
+    holders:
+      - name: Sargeant, Howland H.
+        given: Howland Hill
+        appointed: '1952-02-21'
+        from: '1952-02-21'
+        to: '1953-01-29'
+        src:
+          - POCOM
+      - name: McCardle, Carl W.
+        given: Carl Wesley
+        appointed: '1953-01-29'
+        from: '1953-01-30'
+        to: '1957-03-01'
+        src:
+          - POCOM
+      - name: Berding, Andrew H.
+        given: Andrew Henry Thomas
+        appointed: '1957-03-22'
+        from: '1957-03-28'
+        to: '1961-03-09'
+        src:
+          - POCOM
+      - name: Tubby, Roger W.
+        given: Roger Wellington
+        appointed: '1961-03-02'
+        from: '1961-03-10'
+        to: '1962-04-01'
+        src:
+          - POCOM
+      - name: Manning, Robert J.
+        given: Robert Joseph
+        appointed: '1962-04-04'
+        from: '1962-04-11'
+        to: '1964-07-31'
+        src:
+          - POCOM
+      - name: Greenfield, James L.
+        given: James Lloyd
+        appointed: '1964-08-17'
+        from: '1964-09-10'
+        to: '1966-03-12'
+        src:
+          - POCOM
+      - name: Donnelley, Dixon
+        appointed: '1966-03-17'
+        from: '1966-03-22'
+        to: '1969-01-31'
+        src:
+          - POCOM
+      - name: Collins, Michael
+        appointed: '1969-12-15'
+        from: '1970-01-06'
+        to: '1971-04-11'
+        src:
+          - POCOM
+      - name: Laise, Carol C.
+        given: Caroline Clendening
+        appointed: '1973-09-20'
+        from: '1973-10-10'
+        to: '1975-03-27'
+        src:
+          - POCOM
+  - id: assistant-secretary-congressional
+    title: Assistant Secretary of State for Congressional Relations
+    rank: principal
+    appt: PAS
+    group: Functional bureaus
+    under: secretary
+    holders:
+      - name: Morton, Thruston B.
+        given: Thruston Ballard
+        appointed: '1953-01-29'
+        from: '1953-01-30'
+        to: '1956-02-29'
+        src:
+          - POCOM
+      - name: Hill, Robert C.
+        given: Robert Charles
+        appointed: '1956-03-07'
+        from: '1956-03-09'
+        to: '1957-06-26'
+        src:
+          - POCOM
+      - name: Macomber, William B., Jr.
+        given: William Butts
+        appointed: '1957-08-15'
+        from: '1957-10-21'
+        to: '1961-02-27'
+        src:
+          - POCOM
+      - name: Hays, Brooks
+        given: Lawrence Brooks
+        appointed: '1961-02-20'
+        from: '1961-02-28'
+        to: '1961-12-03'
+        src:
+          - POCOM
+      - name: Dutton, Frederick G.
+        given: Frederick Gary
+        recess: '1961-11-29'
+        from: '1961-12-04'
+        to: '1964-07-27'
+        n: Commissioned during a recess of the Senate. Recommissioned after confirmation on Jan 30, 1962.
+        src:
+          - POCOM
+      - name: MacArthur, Douglas, II
+        appointed: '1965-03-11'
+        from: '1965-03-14'
+        to: '1967-03-06'
+        src:
+          - POCOM
+      - name: Macomber, William B., Jr.
+        given: William Butts
+        appointed: '1967-03-02'
+        from: '1967-03-07'
+        to: '1969-10-02'
+        src:
+          - POCOM
+      - name: Abshire, David M.
+        given: David Manker
+        appointed: '1970-04-08'
+        from: '1970-04-20'
+        to: '1973-01-08'
+        src:
+          - POCOM
+      - name: Wright, Marshall
+        given: William Marshall
+        appointed: '1973-05-24'
+        from: '1973-05-29'
+        to: '1974-02-02'
+        src:
+          - POCOM
+      - name: Holton, Linwood
+        given: Abner Linwood
+        appointed: '1974-02-27'
+        from: '1974-02-28'
+        to: '1975-01-31'
+        src:
+          - POCOM
+  - id: assistant-secretary-educational-cultural
+    title: Assistant Secretary of State for Educational and Cultural Affairs
+    rank: principal
+    appt: PAS
+    group: Functional bureaus
+    under: secretary
+    holders:
+      - name: Coombs, Philip H.
+        given: Philip Hall
+        appointed: '1961-03-07'
+        from: '1961-03-23'
+        to: '1962-06-04'
+        src:
+          - POCOM
+      - name: Battle, Lucius D.
+        given: Lucius Durham
+        appointed: '1962-05-29'
+        from: '1962-06-05'
+        to: '1964-08-20'
+        src:
+          - POCOM
+      - name: McPherson, Harry, Jr.
+        given: Harry Cummings
+        appointed: '1964-08-07'
+        from: '1964-08-23'
+        to: '1965-08-14'
+        src:
+          - POCOM
+      - name: Frankel, Charles
+        appointed: '1965-09-11'
+        from: '1965-09-15'
+        to: '1967-12-31'
+        src:
+          - POCOM
+      - name: Re, Edward D.
+        given: Edward Dominic
+        appointed: '1968-02-02'
+        from: '1968-02-28'
+        to: '1969-01-09'
+        src:
+          - POCOM
+      - name: Richardson, John, Jr.
+        appointed: '1969-07-08'
+        from: '1969-07-15'
+        to: '1977-03-07'
+        src:
+          - POCOM
+  - id: assistant-secretary-administration
+    title: Assistant Secretary of State for Administration
+    rank: principal
+    appt: PAS
+    group: Functional bureaus
+    under: secretary
+    holders:
+      - name: Humelsine, Carlisle H.
+        given: Carlisle Hubbard
+        appointed: '1950-07-29'
+        from: '1950-08-11'
+        to: '1953-02-13'
+        n: Designated Deputy Under Secretary for Administration.
+        src:
+          - POCOM
+      - name: Wailes, Edward T.
+        given: Edward Thompson
+        appointed: '1953-05-26'
+        from: '1953-05-29'
+        to: '1954-06-22'
+        n: Designated Assistant Secretary for Personnel and Administration from Mar 26, 1954.
+        src:
+          - POCOM
+      - name: Carpenter, Isaac W., Jr.
+        given: Isaac White
+        appointed: '1954-06-16'
+        from: '1954-06-23'
+        to: '1955-01-25'
+        n: Designated Assistant Secretary for Personnel and Administration.
+        src:
+          - POCOM
+      - name: Henderson, Loy W.
+        given: Loy Wesley
+        appointed: '1955-01-24'
+        from: '1955-01-26'
+        to: '1955-08-09'
+        n: Commissioned as Assistant Secretary of State and designated Deputy Under Secretary for Administration.
+        src:
+          - POCOM
+      - name: Carpenter, Isaac W., Jr.
+        given: Isaac White
+        recess: '1955-08-11'
+        from: '1955-08-11'
+        to: '1957-12-15'
+        n: Commissioned during a recess of the Senate; recommissioned after confirmation on Jan 25, 1956. Originally designated as Controller; Assistant Secretary for Administration from Oct 10, 1957.
+        src:
+          - POCOM
+      - name: Scott, Walter K.
+        given: Walter Kenneth
+        appointed: '1958-02-17'
+        from: '1958-03-21'
+        to: '1959-07-22'
+        src:
+          - POCOM
+      - name: Dwinell, Lane
+        appointed: '1959-07-15'
+        from: '1959-07-23'
+        to: '1961-02-03'
+        src:
+          - POCOM
+      - name: Crockett, William J.
+        given: William James
+        appointed: '1961-02-20'
+        from: '1961-02-23'
+        to: '1963-06-07'
+        src:
+          - POCOM
+      - name: Porter, Dwight J.
+        given: Dwight Johnson
+        appointed: '1963-10-01'
+        from: '1963-10-02'
+        to: '1965-03-28'
+        src:
+          - POCOM
+      - name: Meyer, Francis G.
+        given: Francis Gerald
+        appointed: '1969-09-26'
+        from: '1969-09-26'
+        to: '1971-05-31'
+        src:
+          - POCOM
+      - name: Donelan, Joseph F., Jr.
+        given: Joseph Francis
+        appointed: '1971-06-14'
+        from: '1971-06-14'
+        to: '1973-03-31'
+        src:
+          - POCOM
+      - name: Thomas, John M.
+        given: John Morgan
+        appointed: '1973-11-23'
+        from: '1973-11-23'
+        to: '1979-06-28'
+        src:
+          - POCOM
+  - id: administrator-security-consular
+    title: Administrator, Bureau of Security and Consular Affairs
+    rank: principal
+    appt: PAS
+    group: Functional bureaus
+    under: secretary
+    holders:
+      - name: McLeod, Scott
+        given: Robert Walter Scott
+        appointed: '1953-03-03'
+        from: '1953-03-03'
+        to: '1957-03-09'
+        n: Designated Administrator of the Bureau of Inspection, Security, and Consular Affairs, Mar 1-Dec 30, 1954. 1953, Administrator, Bureau of Security and Consular Affairs. 1954, Administrator, Bureau of Inspection, Security and Consular Affairs. 1957 Ambassador Extraordinary and Plenipotentiary, Ireland.
+        src:
+          - POCOM
+      - name: O’Connor, Roderic L.
+        appointed: '1957-05-28'
+        from: '1957-05-28'
+        to: '1958-12-29'
+        src:
+          - POCOM
+      - name: Schwartz, Abba P.
+        given: Abba Philip
+        appointed: '1962-09-14'
+        from: '1962-10-05'
+        to: '1966-03-06'
+        src:
+          - POCOM
+      - name: Watson, Barbara M.
+        given: Barbara Mae
+        appointed: '1968-07-31'
+        from: '1968-08-12'
+        to: '1974-12-31'
+        src:
+          - POCOM
+  - id: director-intelligence-research
+    title: Director of Intelligence and Research
+    rank: inferior
+    appt: HD
+    group: Functional bureaus
+    under: secretary
+    holders:
+      - name: Cumming, Hugh S., Jr.
+        given: Hugh Smith
+        appointed: '1957-10-10'
+        from: '1957-10-10'
+        to: '1961-02-19'
+        src:
+          - POCOM
+      - name: Hilsman, Roger, Jr.
+        appointed: '1961-02-19'
+        from: '1961-02-19'
+        to: '1963-04-25'
+        src:
+          - POCOM
+      - name: Hughes, Thomas L.
+        given: Thomas Lowe
+        appointed: '1963-04-28'
+        from: '1963-04-28'
+        to: '1969-08-25'
+        src:
+          - POCOM
+      - name: Cline, Ray S.
+        appointed: '1969-10-26'
+        from: '1969-10-26'
+        to: '1973-11-24'
+        src:
+          - POCOM
+      - name: Hyland, William G.
+        appointed: '1974-01-21'
+        from: '1974-01-21'
+        to: '1975-11-24'
+        src:
+          - POCOM
+  - id: director-politico-military
+    title: Director, Bureau of Politico-Military Affairs
+    rank: inferior
+    appt: HD
+    group: Functional bureaus
+    under: secretary
+    holders:
+      - name: Spiers, Ronald I.
+        given: Ronald Ian
+        appointed: '1969-09-18'
+        from: '1969-09-18'
+        to: '1973-08-02'
+        n: Had been designated Deputy Assistant Secretary of State for Politico-Military Affairs, Aug 15, 1969.
+        src:
+          - POCOM
+      - name: Weiss, Seymour
+        appointed: '1973-08-06'
+        from: '1973-08-06'
+        to: '1974-01-17'
+        src:
+          - POCOM
+      - name: Vest, George S.
+        given: George Southall
+        appointed: '1974-04-29'
+        from: '1974-04-29'
+        to: '1977-03-27'
+        src:
+          - POCOM
+  - id: assistant-secretary
+    title: Assistant Secretary of State
+    rank: principal
+    appt: PAS
+    group: Functional bureaus
+    under: secretary
+    holders:
+      - name: Acheson, Dean G.
+        given: Dean Gooderham
+        appointed: '1941-01-31'
+        from: '1941-02-01'
+        n: Continued to serve until Aug 15, 1945; designated Assistant Secretary of State for Congressional Relations and International Conferences on Dec 20, 1944.
+        src:
+          - POCOM
+  - id: legal-adviser
+    title: Legal Adviser
+    rank: principal
+    appt: PAS
+    group: Staff offices
+    under: secretary
+    holders:
+      - name: Fisher, Adrian S.
+        given: Adrian Sanford
+        appointed: '1949-06-24'
+        from: '1949-06-28'
+        to: '1953-01-27'
+        src:
+          - POCOM
+      - name: Phleger, Herman
+        appointed: '1953-01-30'
+        from: '1953-02-02'
+        to: '1957-04-01'
+        src:
+          - POCOM
+      - name: Becker, Loftus E.
+        given: Loftus Eugene
+        appointed: '1957-06-13'
+        from: '1957-06-13'
+        to: '1959-08-15'
+        src:
+          - POCOM
+      - name: Hager, Eric H.
+        given: Eric Hill
+        appointed: '1959-08-26'
+        from: '1959-09-09'
+        to: '1961-01-20'
+        src:
+          - POCOM
+      - name: Chayes, Abram
+        given: Abram Joseph
+        appointed: '1961-02-06'
+        from: '1961-02-06'
+        to: '1964-06-27'
+        src:
+          - POCOM
+      - name: Meeker, Leonard C.
+        given: Leonard Carpenter
+        appointed: '1965-05-18'
+        from: '1965-05-18'
+        to: '1969-07-13'
+        src:
+          - POCOM
+      - name: Stevenson, John R.
+        given: John Reese
+        appointed: '1969-07-08'
+        from: '1969-07-14'
+        to: '1973-01-01'
+        src:
+          - POCOM
+      - name: Maw, Carlyle E.
+        given: Carlyle Edward
+        appointed: '1973-11-23'
+        from: '1973-11-27'
+        to: '1974-07-09'
+        src:
+          - POCOM
+  - id: director-policy-planning
+    title: Director of the Policy Planning Staff
+    rank: inferior
+    appt: HD
+    group: Staff offices
+    under: secretary
+    holders:
+      - name: Nitze, Paul H.
+        given: Paul Henry
+        appointed: '1950-01-01'
+        from: '1950-01-01'
+        to: '1953-05-28'
+        src:
+          - POCOM
+      - name: Bowie, Robert R.
+        given: Robert Richardson
+        appointed: '1953-05-28'
+        from: '1953-05-28'
+        to: '1957-08-02'
+        n: Received rank equivalent to an Assistant Secretary on Nov 17, 1954.
+        src:
+          - POCOM
+      - name: Bowie, Robert R.
+        given: Robert Richardson
+        appointed: '1955-08-10'
+        from: '1955-08-10'
+        to: '1957-08-31'
+        n: Commissioned as Assistant Secretary of State for Policy Planning; recommissioned after Senate confirmation on Feb 17, 1956.
+        src:
+          - POCOM
+      - name: Smith, Gerard C.
+        given: Gerard Coad
+        recess: '1957-09-06'
+        from: '1957-10-18'
+        to: '1961-01-20'
+        n: A nomination of Aug 28, 1959, was not confirmed by the Senate. Commissioned as Assistant Secretary of State for Policy Planning. Commissioned during a recess of the Senate; recommissioned after confirmation on Jan 27, 1958.
+        src:
+          - POCOM
+      - name: McGhee, George C.
+        given: George Crews
+        appointed: '1961-02-13'
+        from: '1961-02-13'
+        to: '1961-11-29'
+        n: Commissioned as Counselor; served as Chairman of the Policy Planning Council.
+        src:
+          - POCOM
+      - name: Rostow, Walt W.
+        given: Walt Whitman
+        appointed: '1961-11-29'
+        from: '1961-11-29'
+        to: '1966-03-31'
+        n: Commissioned as Counselor; served as Chairman of the Policy Planning Council.
+        src:
+          - POCOM
+      - name: Owen, Henry D.
+        given: Henry David
+        appointed: '1966-06-19'
+        from: '1966-06-19'
+        to: '1969-02-08'
+        n: Chairman of the Policy Planning Council, with rank equivalent to an Assistant Secretary of State.
+        src:
+          - POCOM
+      - name: Cargo, William I.
+        given: William Ira
+        appointed: '1969-08-04'
+        from: '1969-08-04'
+        to: '1973-07-30'
+        n: Held the title of Director of the Planning and Coordination Staff, with rank equivalent to an Assistant Secretary of State.
+        src:
+          - POCOM
+      - name: Sutterlin, James E.
+        given: James S.
+        appointed: '1973-09-04'
+        from: '1973-09-04'
+        to: '1973-10-15'
+        n: Held the title of Director of the Planning and Coordination Staff, with rank equivalent to an Assistant Secretary of State.
+        src:
+          - POCOM
+      - name: Lord, Winston
+        appointed: '1973-10-12'
+        from: '1973-10-12'
+        to: '1977-01-20'
+        n: Originally designated Director of the Planning and Coordination Staff; Director of the Policy Planning Staff from Feb 27, 1974.
+        src:
+          - POCOM
+  - id: executive-secretary
+    title: Executive Secretary of the Department
+    rank: inferior
+    appt: HD
+    group: Staff offices
+    under: secretary
+    holders:
+      - name: Battle, Lucius D.
+        given: Lucius Durham
+        appointed: '1961-03-16'
+        from: '1961-03-16'
+        to: '1962-05-02'
+        src:
+          - POCOM
+      - name: Brubeck, William H.
+        appointed: '1962-05-14'
+        from: '1962-05-14'
+        to: '1963-07-20'
+        src:
+          - POCOM
+      - name: Read, Benjamin H.
+        given: Benjamin Huger
+        appointed: '1963-08-04'
+        from: '1963-08-04'
+        to: '1969-02-14'
+        src:
+          - POCOM
+      - name: Eliot, Theodore L., Jr.
+        given: Theodore Lyman
+        appointed: '1969-08-10'
+        from: '1969-08-10'
+        to: '1973-09-26'
+        src:
+          - POCOM
+      - name: Pickering, Thomas R.
+        given: Thomas Reeve
+        appointed: '1973-07-30'
+        from: '1973-07-30'
+        to: '1974-01-31'
+        src:
+          - POCOM
+      - name: Springsteen, George S., Jr.
+        given: George Stoney
+        appointed: '1974-01-31'
+        from: '1974-01-31'
+        to: '1976-07-14'
+        src:
+          - POCOM
+  - id: chief-of-protocol
+    title: Chief of Protocol
+    rank: inferior
+    appt: PA
+    group: Staff offices
+    under: secretary
+    holders:
+      - name: Summerlin, George T.
+        given: George Thomas
+        appointed: '1937-07-29'
+        from: '1938-07-29'
+        src:
+          - POCOM
+      - name: Woodward, Stanley
+        appointed: '1944-01-15'
+        from: '1944-01-15'
+        src:
+          - POCOM
+      - name: Simmons, John F.
+        given: John Farr
+        appointed: '1950-07-21'
+        from: '1950-08-18'
+        to: '1957-01-31'
+        src:
+          - POCOM
+      - name: Buchanan, Wiley T., Jr.
+        given: Wiley Thomas
+        appointed: '1957-02-04'
+        from: '1957-02-04'
+        to: '1961-01-23'
+        src:
+          - POCOM
+      - name: Duke, Angier B.
+        given: Angier Biddle
+        appointed: '1961-01-24'
+        from: '1961-01-24'
+        to: '1965-01-20'
+        src:
+          - POCOM
+      - name: Hand, Lloyd N.
+        given: Lloyd Nelson
+        appointed: '1965-01-21'
+        from: '1965-01-21'
+        to: '1966-03-21'
+        src:
+          - POCOM
+      - name: Symington, James W.
+        given: James Wadsworth
+        appointed: '1966-03-22'
+        from: '1966-03-22'
+        to: '1968-03-31'
+        src:
+          - POCOM
+      - name: Duke, Angier B.
+        given: Angier Biddle
+        appointed: '1968-03-26'
+        from: '1968-04-01'
+        to: '1968-09-26'
+        src:
+          - POCOM
+      - name: Abell, Tyler
+        appointed: '1968-09-25'
+        from: '1968-09-30'
+        to: '1969-01-20'
+        src:
+          - POCOM
+      - name: Mosbacher, Emil, Jr.
+        appointed: '1969-01-28'
+        from: '1969-01-28'
+        to: '1972-06-30'
+        n: Had been serving since Jan 21, 1969, under an appointment by the Secretary of State.
+        src:
+          - POCOM
+      - name: Smoak, Marion H.
+        given: Marion Hartzog
+        appointed: '1974-03-01'
+        from: '1974-03-01'
+        to: '1974-03-30'
+        n: Took oath of office Mar 29, 1974, as Chief of Protocol for the White House, but no personnel action was processed to reflect this appointment; resignation effective Mar 30, 1974,was processed as a resignation of the office of Deputy Chiefs of Protocol. Smoak had previously been accorded the rank of Ambassador while serving as Acting Chief.
+        src:
+          - POCOM
+      - name: Catto, Henry E., Jr.
+        given: Henry Edward
+        appointed: '1974-04-02'
+        from: '1974-04-03'
+        to: '1976-07-01'
+        src:
+          - POCOM
+  - id: director-general
+    title: Director General of the Foreign Service
+    rank: inferior
+    appt: HD
+    group: Staff offices
+    under: secretary
+    holders:
+      - name: Drew, Gerald A.
+        given: Gerald Augustin
+        appointed: '1952-03-30'
+        from: '1952-03-30'
+        to: '1954-10-18'
+        src:
+          - POCOM
+      - name: Satterthwaite, Joseph C.
+        given: Joseph Charles
+        appointed: '1957-05-06'
+        from: '1957-05-06'
+        to: '1958-09-01'
+        src:
+          - POCOM
+      - name: Gallman, Waldemar J.
+        given: Waldemar John
+        appointed: '1958-11-17'
+        from: '1958-11-17'
+        to: '1961-01-31'
+        src:
+          - POCOM
+      - name: Thompson, Tyler
+        appointed: '1961-05-14'
+        from: '1961-05-14'
+        to: '1964-02-15'
+        src:
+          - POCOM
+      - name: Palmer, Joseph, II
+        appointed: '1964-02-16'
+        from: '1964-02-16'
+        to: '1966-04-10'
+        src:
+          - POCOM
+      - name: Steeves, John M.
+        given: John Milton
+        appointed: '1966-08-01'
+        from: '1966-08-01'
+        to: '1969-07-31'
+        src:
+          - POCOM
+      - name: Burns, John H.
+        given: John Howard
+        appointed: '1969-08-01'
+        from: '1969-08-01'
+        to: '1971-06-15'
+        src:
+          - POCOM
+      - name: Hall, William O.
+        appointed: '1971-07-05'
+        from: '1971-07-05'
+        to: '1973-09-30'
+        src:
+          - POCOM
+      - name: Davis, Nathaniel
+        appointed: '1973-11-13'
+        from: '1973-11-13'
+        to: '1975-03-17'
+        src:
+          - POCOM
+  - id: inspector-general
+    title: Inspector General of the Foreign Service
+    rank: inferior
+    appt: HD
+    group: Staff offices
+    under: secretary
+    holders:
+      - name: Miller, Raymond C.
+        given: Raymond Clendenin
+        appointed: '1957-11-19'
+        from: '1957-11-19'
+        to: '1960-10-31'
+        n: Miller had served as Chief Inspector, Foreign Service Inspection Corps, from Mar 1, 1954.
+        src:
+          - POCOM
+      - name: Drew, Gerald A.
+        given: Gerald Augustin
+        appointed: '1960-11-13'
+        from: '1960-11-13'
+        to: '1962-05-31'
+        src:
+          - POCOM
+      - name: Haselton, Norris S.
+        appointed: '1962-06-10'
+        from: '1962-06-10'
+        to: '1964-07-31'
+        src:
+          - POCOM
+      - name: Wilkins, Fraser
+        appointed: '1964-07-23'
+        from: '1964-07-23'
+        to: '1971-08-08'
+        src:
+          - POCOM
+      - name: McElhiney, Thomas W.
+        given: Thomas Watkins
+        appointed: '1971-07-01'
+        from: '1971-07-01'
+        to: '1973-07-18'
+        src:
+          - POCOM
+      - name: Sutterlin, James E.
+        given: James S.
+        appointed: '1973-10-15'
+        from: '1973-10-15'
+        to: '1974-08-31'
+        n: Robert L. Yost served as Acting Inspector General, Sep 1974-Aug 1975.
+        src:
+          - POCOM
+  - id: director-fsi
+    title: Director of the Foreign Service Institute
+    rank: inferior
+    appt: HD
+    group: Staff offices
+    under: secretary
+    holders:
+      - name: Burns, Norman
+        appointed: '1952-03-03'
+        from: '1952-03-03'
+        to: '1953-11-03'
+        n: Edward J. Bash was Acting Director, Jan 1954-Mar 1955.
+        src:
+          - POCOM
+      - name: Hoskins, Harold B.
+        given: Harold Boies
+        appointed: '1955-03-08'
+        from: '1955-03-08'
+        to: '1961-03-07'
+        src:
+          - POCOM
+      - name: Strom, Carl W.
+        given: Carl Walther
+        appointed: '1961-06-09'
+        from: '1961-06-09'
+        to: '1962-05-31'
+        src:
+          - POCOM
+      - name: Morgan, George A.
+        given: George Allen
+        appointed: '1962-06-10'
+        from: '1962-06-10'
+        to: '1965-05-18'
+        src:
+          - POCOM
+      - name: Allen, George V.
+        given: George Venable
+        appointed: '1966-03-01'
+        from: '1966-03-01'
+        to: '1968-11-30'
+        src:
+          - POCOM
+      - name: Hart, Parker T.
+        given: Parker Thompson
+        appointed: '1969-02-05'
+        from: '1969-02-05'
+        to: '1969-09-30'
+        src:
+          - POCOM
+      - name: Sollenberger, Howard E.
+        appointed: '1971-05-24'
+        from: '1971-05-24'
+        to: '1976-04-23'
+        src:
+          - POCOM
+  - id: director-msa
+    title: Director for Mutual Security
+    rank: head
+    appt: PAS
+    group: Foreign assistance
+    under: secretary
+    holders:
+      - name: Harriman, W. Averell
+        given: William Averell
+        appointed: '1951-10-19'
+        from: '1951-10-31'
+        to: '1953-01-20'
+        src:
+          - POCOM
+      - name: Stassen, Harold E.
+        appointed: '1953-01-27'
+        from: '1953-01-28'
+        to: '1953-08-01'
+        src:
+          - POCOM
+  - id: director-foa
+    title: Director of the Foreign Operations Administration
+    rank: head
+    appt: PAS
+    group: Foreign assistance
+    under: secretary
+    holders:
+      - name: Stassen, Harold E.
+        appointed: '1953-08-03'
+        from: '1953-08-03'
+        to: '1955-03-19'
+        n: Had formerly served as Director of the Mutual Security Agency; authorized by the President on Aug 1, 1953, to occupy the new position of Director of the Foreign Operations Administration, pending Senate confirmation of his appointment.
+        src:
+          - POCOM
+  - id: administrator-tca
+    title: Administrator of the Technical Cooperation Administration
+    rank: inferior
+    appt: HD
+    group: Foreign assistance
+    under: secretary
+    holders:
+      - name: Andrews, Stanley
+        appointed: '1952-04-25'
+        from: '1952-06-01'
+        to: '1953-08-28'
+        n: Section 8(b) of Reorganization Plan No. 7 abolished the Administrator’s position, effective Aug 1, 1953. Section 9(b) authorized the President to allow the incumbent to occupy his position for up to 60 days.
+        src:
+          - POCOM
+  - id: director-ica
+    title: Director of the International Cooperation Administration
+    rank: principal
+    appt: PAS
+    group: Foreign assistance
+    under: secretary
+    holders:
+      - name: Hollister, John B.
+        given: John Baker
+        appointed: '1955-07-01'
+        from: '1955-07-01'
+        to: '1957-09-13'
+        src:
+          - POCOM
+      - name: Smith, James H., Jr.
+        given: James Hopkins
+        appointed: '1957-10-04'
+        from: '1957-10-08'
+        to: '1959-01-31'
+        src:
+          - POCOM
+      - name: Riddleberger, James W.
+        given: James Williams
+        appointed: '1959-03-09'
+        from: '1959-03-09'
+        to: '1961-02-22'
+        src:
+          - POCOM
+  - id: inspector-general-foreign-assistance
+    title: Inspector General, Foreign Assistance
+    rank: principal
+    appt: PAS
+    group: Foreign assistance
+    under: secretary
+    holders:
+      - name: Mansfield, John K.
+        given: John Kenneth
+        appointed: '1962-05-12'
+        from: '1962-05-23'
+        to: '1969-09-19'
+        src:
+          - POCOM
+      - name: Heuer, Scott, Jr.
+        appointed: '1969-11-04'
+        from: '1969-11-06'
+        to: '1971-02-26'
+        n: 'The following served as Acting Inspectors General: Anthony Faunce (Feb 1971-Mar 1973) and John P. Constandy (Jun 1973-May 1974).'
+        src:
+          - POCOM
+      - name: Todd, Webster B., Jr.
+        appointed: '1974-05-02'
+        from: '1974-05-06'
+        to: '1976-02-17'
+        src:
+          - POCOM
+  - id: deputy-inspector-general-foreign-assistance
+    title: Deputy Inspector General, Foreign Assistance
+    rank: inferior
+    appt: HD
+    group: Foreign assistance
+    under: secretary
+    holders:
+      - name: Haselton, Norris S.
+        appointed: '1961-11-04'
+        from: '1961-11-04'
+        to: '1962-05-12'
+        n: Designated, not commissioned.
+        src:
+          - POCOM
+      - name: Cotter, Francis P.
+        appointed: '1962-06-09'
+        from: '1962-06-22'
+        to: '1963-05-31'
+        n: Designated, not commissioned.
+        src:
+          - POCOM
+      - name: Haugerud, Howard E.
+        appointed: '1963-07-13'
+        from: '1963-07-15'
+        n: Designated, not commissioned.
+        src:
+          - POCOM
+      - name: Haugerud, Howard E.
+        appointed: '1964-03-10'
+        from: '1964-03-10'
+        to: '1969-09-19'
+        src:
+          - POCOM
+      - name: Faunce, Anthony
+        appointed: '1969-11-04'
+        from: '1969-11-18'
+        to: '1973-03-01'
+        src:
+          - POCOM
+      - name: Constandy, John P.
+        appointed: '1974-05-03'
+        from: '1974-05-08'
+        to: '1976-02-29'
+        src:
+          - POCOM
+  - id: administrator-aid
+    title: Administrator of the Agency for International Development
+    rank: principal
+    appt: PAS
+    group: Foreign assistance
+    under: secretary
+    holders:
+      - name: Hamilton, Fowler
+        appointed: '1961-09-30'
+        from: '1961-09-30'
+        to: '1962-12-07'
+        src:
+          - POCOM
+      - name: Bell, David E.
+        given: David Elliott
+        recess: '1961-12-17'
+        from: '1961-12-21'
+        to: '1966-07-31'
+        n: Commissioned during a recess of the Senate; recommissioned after confirmation on Feb 27, 1963.
+        src:
+          - POCOM
+      - name: Gaud, William S.
+        given: William Steen
+        appointed: '1966-08-01'
+        from: '1966-08-03'
+        to: '1969-01-10'
+        src:
+          - POCOM
+      - name: Hannah, John A.
+        appointed: '1969-03-28'
+        from: '1969-04-02'
+        to: '1973-10-07'
+        src:
+          - POCOM
+      - name: Parker, Daniel
+        appointed: '1973-10-15'
+        from: '1973-10-31'
+        to: '1977-01-19'
+        src:
+          - POCOM
+  - id: secretary-ad-interim
+    title: Secretary of State ad interim
+    rank: principal
+    appt: DES
+    under: secretary
+    many: true
+    holders:
+      - name: Matthews, H. Freeman
+        given: Harrison Freeman
+        appointed: '1953-01-20'
+        from: '1953-01-20'
+        to: '1953-01-21'
+        n: Deputy Under Secretary of State; Secretary of State ad interim.
+        src:
+          - POCOM
+      - name: Merchant, Livingston T.
+        given: Livingston Tallmadge
+        appointed: '1961-01-20'
+        from: '1961-01-20'
+        to: '1961-01-21'
+        n: Under Secretary of State for Political Affairs; Secretary of State ad interim.
+        src:
+          - POCOM
+      - name: Bohlen, Charles E.
+        given: Charles Eustis
+        appointed: '1969-01-20'
+        from: '1969-01-20'
+        to: '1969-01-22'
+        n: Deputy Under Secretary of State for Political Affairs; Acting Secretary of State.
+        src:
+          - POCOM
+      - name: Rush, Kenneth
+        appointed: '1973-09-03'
+        from: '1973-09-03'
+        to: '1973-09-22'
+        n: Deputy Secretary of State; Acting Secretary of State.
+        src:
+          - POCOM

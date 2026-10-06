@@ -1,0 +1,57 @@
+# The President: the top of the roster. Kept by hand.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: president
+name: The President
+law:
+  - act: Constitution, Art. II, §§ 1–3
+    date: '1789-03-04'
+    url: https://www.archives.gov/founding-docs/constitution-transcript
+    does: 'The executive Power vested in a President. Commander in Chief; may require the opinion in writing of the principal Officer in each of the executive Departments; nominates, and by and with the advice and consent of the Senate appoints, ambassadors and all other Officers of the United States whose appointments are not otherwise provided for; Congress may by law vest the appointment of inferior Officers in the President alone, the courts, or the Heads of Departments; may fill vacancies in the recess of the Senate by commissions expiring at the end of its next session; commissions all the Officers of the United States.'
+  - act: Presidential Succession Act of 1947
+    date: '1947-07-18'
+    cite: 'ch. 264, 61 Stat. 380'
+    usc: '3 U.S.C. § 19 (1958)'
+    does: 'After the Vice President, the Speaker and the President pro tempore; then the heads of departments in the order of their creation: State, Treasury, Defense (as Secretary of War in the act), Attorney General, Postmaster General, Navy (dropped 1949), Interior, Agriculture, Commerce, Labor. HEW added 1955 (69 Stat. 1), HUD 1965 (79 Stat. 671), Transportation 1966 (80 Stat. 948).'
+  - act: Constitution, Amend. XXV
+    date: '1967-02-10'
+    url: https://www.archives.gov/founding-docs/amendments-11-27
+    does: 'The Vice President becomes President on the President''s removal, death, or resignation (§ 1); the President nominates a Vice President to fill a vacancy, confirmed by a majority of both Houses (§ 2); disability (§§ 3–4).'
+offices:
+  - id: president
+    title: President of the United States
+    appt: ELECTED
+    law:
+      - act: Act of Jan. 19, 1949
+        date: '1949-01-19'
+        cite: 'ch. 2, 63 Stat. 4'
+        usc: '3 U.S.C. §§ 102, 103 (1958)'
+        does: 'Compensation, $100,000 a year, and an expense allowance.'
+      - act: Act of Mar. 4, 1969
+        date: '1969-01-17'
+        cite: 'Pub. L. 91-1, 83 Stat. 3'
+        usc: '3 U.S.C. § 102 (1970)'
+        does: 'Compensation raised to $200,000, from Jan. 20, 1969.'
+    holders:
+      - name: Truman, Harry S.
+        from: '1945-04-12'
+        to: '1953-01-20'
+      - name: Eisenhower, Dwight D.
+        from: '1953-01-20'
+        to: '1961-01-20'
+        n: Re-elected Nov. 6, 1956; sworn Jan. 20, 1957, privately, and in public Jan. 21.
+      - name: Kennedy, John F.
+        from: '1961-01-20'
+        to: '1963-11-22'
+        out: Assassinated at Dallas.
+      - name: Johnson, Lyndon B.
+        from: '1963-11-22'
+        to: '1969-01-20'
+        n: Succeeded on Kennedy's death, sworn aboard Air Force One at Love Field, Dallas, by Judge Sarah T. Hughes. Elected Nov. 3, 1964.
+      - name: Nixon, Richard M.
+        from: '1969-01-20'
+        to: '1974-08-09'
+        out: Resigned.
+        n: Re-elected Nov. 7, 1972. Resignation delivered to the Secretary of State, Aug. 9, 1974, 11:35 a.m. (3 U.S.C. § 20).
+      - name: Ford, Gerald R.
+        from: '1974-08-09'
+        n: Succeeded on Nixon's resignation, sworn by Chief Justice Burger.
