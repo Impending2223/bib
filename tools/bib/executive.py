@@ -111,7 +111,21 @@ LAW_KEYS = {"act", "date", "effective", "until", "tags", "cite", "usc", "does", 
 # What an authority does for its unit or office (the label shown before it).
 TAGS = {"creates": "Creates", "powers": "Powers", "appointment": "Appointment", "vacancy": "Vacancy",
         "pay": "Pay", "reorganizes": "Reorganizes"}
-DATE_RE = re.compile(r"^\d{4}(-\d{2}(-\d{2})?)?$")
+DATE_RE = re.compile(r"^\d{4}(-(0[1-9]|1[0-2])(-(0[1-9]|[12]\d|3[01]))?)?$")
+
+
+def bad_date(d):
+    """Not 'YYYY', 'YYYY-MM' or a real 'YYYY-MM-DD'."""
+    import datetime
+    d = str(d)
+    if not DATE_RE.match(d):
+        return True
+    if len(d) == 10:
+        try:
+            datetime.date.fromisoformat(d)
+        except ValueError:
+            return True
+    return False
 MONTHS = ["Jan.", "Feb.", "Mar.", "Apr.", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."]
 STAT_RE = re.compile(r"\b(\d+) Stat\. (\d+)")
 
@@ -122,11 +136,21 @@ def esc(t):
 
 # ---------------------------------------------------------------- data
 
+_LOADED = {}
+
+
 def load():
-    """{unit key: unit}, every file in executive/."""
-    out = {}
+    """{unit key: unit}, every file in executive/; parsed once a process while the files are unchanged."""
     if not os.path.isdir(DIR):
-        return out
+        return {}
+    stamp = tuple((f, os.path.getmtime(os.path.join(DIR, f))) for f in sorted(os.listdir(DIR)) if f.endswith(".yaml"))
+    if _LOADED.get("stamp") != stamp:
+        _LOADED.update(stamp=stamp, units=_load())
+    return _LOADED["units"]
+
+
+def _load():
+    out = {}
     for f in sorted(os.listdir(DIR)):
         if f.endswith(".yaml"):
             d = store.load_yaml(os.path.join(DIR, f)) or {}
@@ -767,7 +791,7 @@ def problems(series=None):
                     out.append((hw, "holder needs 'from' (the day of taking office)"))
                     continue
                 for d in ("nominated", "confirmed", "recess", "appointed", "from", "to"):
-                    if h.get(d) and not DATE_RE.match(str(h[d])):
+                    if h.get(d) and bad_date(h[d]):
                         out.append((hw, f"bad date {d}: {h[d]!r}"))
                 if h.get("to") and hi(h["to"]) < lo(h["from"]):
                     out.append((hw, "left before taking office"))
