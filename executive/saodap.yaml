@@ -1,0 +1,49 @@
+# The Special Action Office for Drug Abuse Prevention, 1971-. Kept by hand. Holders known only from the Congressional Directory (CDIR <edition>) carry year
+# dates and a Check. See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: saodap
+name: Special Action Office for Drug Abuse Prevention
+under: eop
+order: 140
+from: '1971-06-17'
+law:
+  - act: Executive Order 11599
+    date: '1971-06-17'
+    url: https://www.presidency.ucsb.edu/documents/executive-order-11599-establishing-special-action-office-for-drug-abuse-prevention
+    tags: [creates, powers]
+    until: '1972-03-21'
+    does: Establishes in the Executive Office the Special Action Office for Drug Abuse Prevention under a Director, to coordinate the Government's drug abuse prevention, treatment, and rehabilitation programs.
+  - act: Drug Abuse Office and Treatment Act of 1972
+    date: '1972-03-21'
+    cite: 'Pub. L. 92-255, §§ 201–212, 86 Stat. 65, 67'
+    usc: '21 U.S.C. §§ 1111–1123 (1970 Supp. II)'
+    tags: [creates, appointment, vacancy, pay, powers]
+    does: 'Establishes in the Executive Office the Special Action Office for Drug Abuse Prevention, its Director and Deputy Director appointed by the President by and with the advice and consent of the Senate, and Assistant Directors; the President may authorize a sitting official to act until the posts are first filled; the Director at level II, the Deputy at level IV, six Assistant Directors at level V (§ 212). The Office to expire June 30, 1975.'
+offices:
+  - id: director
+    title: Director of the Special Action Office for Drug Abuse Prevention
+    rank: head
+    appt: PAS
+    level: II
+    holders:
+      - name: Jaffe, Jerome H.
+        from: '1971-06-17'
+        to: '1973-06-17'
+        out: Resigned.
+        n: Also Special Consultant to the President for Narcotics and Dangerous Drugs. Check the confirmation under the act of 1972.
+        src: ['Wikipedia: Jerome Jaffe', FRUS persons list]
+      - name: DuPont, Robert L.
+        from: '1973-06-17'
+        n: Also Director of the National Institute on Drug Abuse. Served to June 30, 1975.
+        src: ['Wikipedia: Robert DuPont', FRUS persons list, CDIR 1973-12]
+  - id: deputy-director
+    title: Deputy Director of the Special Action Office for Drug Abuse Prevention
+    rank: principal
+    appt: PAS
+    level: IV
+    from: '1972-03-21'
+    holders:
+      - name: Perito, Paul L.
+        to: '1973'
+        from: '1972'
+        n: Assistant Director and General Counsel, 1971–72 (CDIR 1971-12). Listed in the Congressional Directory, Mar. 1973. Check the dates of office.
+        src: [CDIR 1973-03]

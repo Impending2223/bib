@@ -1,0 +1,61 @@
+# The Office of Telecommunications Policy, 1970-. Kept by hand. Holders known only from the Congressional Directory (CDIR <edition>) carry year
+# dates and a Check. See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: otp
+name: Office of Telecommunications Policy
+under: eop
+order: 130
+from: '1970-04-20'
+law:
+  - act: Reorganization Plan No. 1 of 1970
+    date: '1970-04-20'
+    cite: '84 Stat. 2083'
+    usc: '47 U.S.C. § 305 note (1970)'
+    tags: [creates, appointment, vacancy, pay, reorganizes]
+    does: 'Establishes in the Executive Office the Office of Telecommunications Policy; transfers to its Director the President''s function of assigning frequencies to Government radio stations; a Director at level III and a Deputy Director at level IV, both appointed by the President by and with the advice and consent of the Senate; the Deputy acts in the Director''s absence or a vacancy unless the President designates another; abolishes the office of Director of Telecommunications Management in the Office of Emergency Preparedness.'
+  - act: Executive Order 11556
+    date: '1970-09-04'
+    url: https://www.presidency.ucsb.edu/documents/executive-order-11556-assigning-telecommunications-functions
+    tags: [powers]
+    does: 'Assigns to the Director the functions of policy for and coordination of the Government''s telecommunications, and the frequency functions; the Director the President''s principal adviser on telecommunications.'
+offices:
+  - id: director
+    title: Director of the Office of Telecommunications Policy
+    rank: head
+    appt: PAS
+    level: III
+    holders:
+      - name: Whitehead, Clay T.
+        from: '1970-09'
+        to: '1974-09-15'
+        out: Resigned.
+        n: Special Assistant to the President, 1969–70. Check the nomination, confirmation, and oath.
+        src: ['Wikipedia: Clay T. Whitehead', FRUS persons list, CDIR 1971-03]
+  - id: deputy-director
+    title: Deputy Director of the Office of Telecommunications Policy
+    rank: principal
+    appt: PAS
+    level: IV
+    holders:
+      - name: Mansur, George F.
+        from: '1970'
+        to: '1972'
+        n: Listed in the Congressional Directory, Mar. 1971–Dec. 1971. Check the dates of office.
+        src: [CDIR 1971-03, CDIR 1971-12]
+      - name: Eger, John M.
+        from: '1974'
+        n: Acting Director from Sept. 15, 1974 (FRUS). Check the dates.
+        src: [FRUS persons list]
+  - id: general-counsel
+    title: General Counsel
+    rank: inferior
+    appt: HD
+    holders:
+      - name: Scalia, Antonin
+        from: '1971'
+        to: '1972'
+        n: Listed in the Congressional Directory, Dec. 1971. Check the dates of office.
+        src: [CDIR 1971-12]
+      - name: Goldberg, Henry
+        from: '1973'
+        n: Acting, Mar. 1973. Listed in the Congressional Directory, Mar. 1973–Dec. 1973. Check the dates of office.
+        src: [CDIR 1973-03, CDIR 1973-12]

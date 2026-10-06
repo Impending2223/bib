@@ -1,0 +1,43 @@
+# The President's consumer adviser and the Office of Consumer Affairs, 1964-. Kept by hand. Holders known only from the Congressional Directory (CDIR <edition>) carry year
+# dates and a Check. See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: consumer
+name: Office of Consumer Affairs
+under: eop
+order: 160
+from: '1964-01-03'
+law:
+  - act: Executive Order 11136
+    date: '1964-01-03'
+    url: https://www.presidency.ucsb.edu/documents/executive-order-11136-establishing-the-presidents-committee-consumer-interests-and-the
+    tags: [creates, powers]
+    does: 'Establishes the President''s Committee on Consumer Interests, the Special Assistant to the President for Consumer Affairs chairman, and a Consumer Advisory Council.'
+  - act: Executive Order 11583
+    date: '1971-02-24'
+    url: https://www.presidency.ucsb.edu/documents/executive-order-11583-office-consumer-affairs
+    tags: [creates, powers, reorganizes]
+    does: Establishes in the Executive Office an Office of Consumer Affairs under a Director, the Special Assistant to the President for Consumer Affairs, to advise the President and coordinate the Government's consumer programs.
+  - act: Executive Order 11702
+    date: '1973-01-25'
+    url: https://www.presidency.ucsb.edu/documents/executive-order-11702-relative-the-executive-office-the-president
+    tags: [reorganizes]
+    does: 'Moves the Office of Consumer Affairs to the Department of Health, Education, and Welfare; its Director continues as Special Assistant to the President for Consumer Affairs.'
+offices:
+  - id: special-assistant
+    title: Special Assistant to the President for Consumer Affairs
+    rank: head
+    appt: PA
+    titles: [{title: Director of the Office of Consumer Affairs, from: '1971-02-24'}]
+    holders:
+      - name: Peterson, Esther
+        from: '1964-01-03'
+        to: '1967-05-01'
+        n: Also Assistant Secretary of Labor.
+        src: ['Wikipedia: Esther Peterson']
+      - name: Furness, Betty
+        from: '1967-05-01'
+        to: '1969-01-20'
+        src: ['Wikipedia: Betty Furness']
+      - name: Knauer, Virginia H.
+        from: '1969-04-19'
+        n: Director of the Office of Consumer Affairs from Feb. 24, 1971.
+        src: ['Wikipedia: Virginia Knauer', CDIR 1973-12]
