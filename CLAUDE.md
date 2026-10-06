@@ -382,7 +382,7 @@ tools/bib/elections.py              renders the blocks and checks the data (STYL
   margin's position being the share of the 2,291 contested races for presidential electors, 1824–2024, decided
   by less (`elections/pres-margins.csv`, written by `tools/elections/pres_margins.py`; the build puts its
   percentiles into `QM`); swing linear to `SWING`. The result view takes fixed points on the lines
-  (`--eR1`–`--eR4`, `--eB1`–`--eB4`: 15, 40, 75, 95 percent). The keys draw the same scales as gradient bars.
+  (`--eR1`–`--eR4`, `--eB1`–`--eB4`: 15, 40, 75, 89 percent; dark mode held 25 and pickup 100, so held and pickup differ as much as on the old stepped scale). The keys draw the same scales as gradient bars.
 - "Check" in a note (as in the calendar) marks a detail still to verify:
   `grep -rn Check elections/facts.yaml elections/readings`.
 

@@ -42,8 +42,9 @@ Definitions (STYLE, settled):
     from near white (a dark gray in dark mode) out to a deep red and a deep blue of matched lightness, the
     most colorful ends whose whole line stays on screen (rW, rR, rB in templates/congress.html; rA, amber,
     a third ticket). Margin: the quantile rule (note 3). Swing: near white at none, the end at 15 points or
-    more (SWING). Result: fixed points on the lines, held seats 40 percent of the way and pickups 95; the
-    President's winner 75, and with Flips, held 40 and flipped 95. The keys draw the scales as gradient bars. Every map value is also in the tables and on hover.
+    more (SWING). Result: fixed points on the lines, held seats 40 percent of the way and pickups 89; the
+    President's winner 75, and with Flips, held 40 and flipped 89 (dark mode: 25 and the end itself). Held
+    against pickup keeps the contrast of the stepped scale used before (OKLab difference about 0.29-0.30). The keys draw the scales as gradient bars. Every map value is also in the tables and on hover.
  9. The Senate by senator: a dot a seat; in an election, the seats at stake, and the others faint, from
     the roster at the opening of the Congress chosen, where there is one.
 10. President: the Clerk's figure for a slate is the highest vote for any of its electors. Slates go to
