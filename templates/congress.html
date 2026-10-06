@@ -5,17 +5,17 @@
    a third ticket). Margin and swing take any point on them (ramp() in the script; QM, SWING); the result view
    takes fixed points, eR1-eR4 and eB1-eB4: 15, 40 (held), 75 (the President's winner) and 89 percent (a pickup or
    a flip); in dark mode held 25 and a pickup or flip the end itself. The held-to-pickup pairs are set to the old
-   stepped scale's contrast (OKLab difference about 0.29 light, 0.30 dark). eA a third ticket's steps; eN the gray of other member changes in the tables; eHo a Senate seat not at stake. */
+   stepped scale's contrast (OKLab difference about 0.29 light, 0.30 dark). eA a third ticket's steps; eN the gray of other member changes in the tables; eHo a Senate seat not at stake: the base map's gray, a dot shown only by its ring. */
 :root{--pDs:#9DB4D6;--pD:#5878A8;--pR:#B0625E;--pO:#8C8A6E;--pV:#C9CDD3;--stb:#FFFFFF;--mk:#1A1E26}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--pDs:#46638F;--pD:#7D9CCB;--pR:#C9847F;--pO:#A9A688;--pV:#3C424C;--stb:#15181D;--mk:#E6E8EC}}
 :root[data-theme="dark"]{--pDs:#46638F;--pD:#7D9CCB;--pR:#C9847F;--pO:#A9A688;--pV:#3C424C;--stb:#15181D;--mk:#E6E8EC}
 :root{--eA1:#F2E4C6;--eA2:#E0C384;--eA3:#C49A45;--eA4:#8E6A24;--pT:#B98F3E}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--eA1:#463A22;--eA2:#755F31;--eA3:#AE8C4C;--eA4:#E0C68E;--pT:#C9A865}}
 :root[data-theme="dark"]{--eA1:#463A22;--eA2:#755F31;--eA3:#AE8C4C;--eA4:#E0C68E;--pT:#C9A865}
-:root{--rW:#FAFAF8;--rR:#94000C;--rB:#003EB4;--rA:#654700;--eHo:#AEB3BB;--eN:#DCDEE2;--eNone:#E3E5E9;--eNA:#D5D8DD}
+:root{--rW:#FAFAF8;--rR:#94000C;--rB:#003EB4;--rA:#654700;--eHo:color-mix(in srgb,var(--pV) 55%,var(--panel));--eN:#DCDEE2;--eNone:#E3E5E9;--eNA:#D5D8DD}
 :root{--eR1:color-mix(in oklab,var(--rR) 15%,var(--rW));--eR2:color-mix(in oklab,var(--rR) 40%,var(--rW));--eR3:color-mix(in oklab,var(--rR) 75%,var(--rW));--eR4:color-mix(in oklab,var(--rR) 89%,var(--rW));--eB1:color-mix(in oklab,var(--rB) 15%,var(--rW));--eB2:color-mix(in oklab,var(--rB) 40%,var(--rW));--eB3:color-mix(in oklab,var(--rB) 75%,var(--rW));--eB4:color-mix(in oklab,var(--rB) 89%,var(--rW))}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--rW:#33373E;--rR:#FF645A;--rB:#679CFF;--rA:#CC9300;--eHo:#5A606B;--eR2:color-mix(in oklab,var(--rR) 25%,var(--rW));--eR4:var(--rR);--eB2:color-mix(in oklab,var(--rB) 25%,var(--rW));--eB4:var(--rB);--eN:#3A3F47;--eNone:#262A31;--eNA:#30353D}}
-:root[data-theme="dark"]{--rW:#33373E;--rR:#FF645A;--rB:#679CFF;--rA:#CC9300;--eHo:#5A606B;--eR2:color-mix(in oklab,var(--rR) 25%,var(--rW));--eR4:var(--rR);--eB2:color-mix(in oklab,var(--rB) 25%,var(--rW));--eB4:var(--rB);--eN:#3A3F47;--eNone:#262A31;--eNA:#30353D}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--rW:#33373E;--rR:#FF645A;--rB:#679CFF;--rA:#CC9300;--eR2:color-mix(in oklab,var(--rR) 25%,var(--rW));--eR4:var(--rR);--eB2:color-mix(in oklab,var(--rB) 25%,var(--rW));--eB4:var(--rB);--eN:#3A3F47;--eNone:#262A31;--eNA:#30353D}}
+:root[data-theme="dark"]{--rW:#33373E;--rR:#FF645A;--rB:#679CFF;--rA:#CC9300;--eR2:color-mix(in oklab,var(--rR) 25%,var(--rW));--eR4:var(--rR);--eB2:color-mix(in oklab,var(--rB) 25%,var(--rW));--eB4:var(--rB);--eN:#3A3F47;--eNone:#262A31;--eNA:#30353D}
 /* Fills and key swatches */
 .pDi{fill:url(#cgDi)}.pRi{fill:url(#cgRi)}
 .sw.pDi{background:repeating-linear-gradient(45deg,var(--pD) 0 3px,var(--pDs) 3px 5px)}.sw.pRi{background:repeating-linear-gradient(45deg,var(--pR) 0 3px,#E6C3C0 3px 5px)}
