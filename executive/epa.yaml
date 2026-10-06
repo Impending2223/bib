@@ -1,0 +1,77 @@
+# The Environmental Protection Agency. Kept by hand.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: epa
+name: Environmental Protection Agency
+under: president
+order: 500
+from: '1970-12-02'
+law:
+  - act: Reorganization Plan No. 3 of 1970
+    date: '1970-12-02'
+    tags: [creates, powers, reorganizes]
+    cite: '84 Stat. 2086'
+    usc: '5 U.S.C. App. (1970)'
+    does: Establishes the Environmental Protection Agency. Transfers to it the water pollution functions of the Department of the Interior, the air pollution and solid waste functions of HEW, pesticide functions of Agriculture, Interior and HEW, radiation standards of the Atomic Energy Commission and the Federal Radiation Council, and functions of the Council on Environmental Quality.
+offices:
+  - id: administrator
+    title: Administrator of the Environmental Protection Agency
+    rank: head
+    appt: PAS
+    level: II
+    from: '1970-12-02'
+    law:
+      - act: Reorganization Plan No. 3 of 1970
+        date: '1970-12-02'
+        tags: [creates, appointment, pay]
+        cite: '84 Stat. 2086'
+        usc: '5 U.S.C. App. (1970)'
+        does: 'The Administrator at the head of the Agency, appointed by the President with the advice and consent of the Senate; level II (§ 1(b)).'
+    holders:
+      - name: Ruckelshaus, William D.
+        given: William Doyle
+        from: '1970-12-04'
+        to: '1973-04-30'
+        out: To acting Director, Federal Bureau of Investigation.
+        src: [Wikipedia, Administrator of the Environmental Protection Agency, CDIR 1971-03, 1971-12]
+      - name: Fri, Robert W.
+        given: Robert Wheeler
+        acting: true
+        from: '1973-04-30'
+        to: '1973-09-12'
+        n: Acting as Deputy Administrator.
+        src: [Wikipedia, Robert W. Fri]
+      - name: Train, Russell E.
+        given: Russell Errol
+        from: '1973-09-12'
+        to: '1977-01-20'
+        n: Chairman, Council on Environmental Quality, before.
+        src: [Wikipedia, Russell E. Train, CDIR 1973-12]
+  - id: deputy-administrator
+    title: Deputy Administrator of the Environmental Protection Agency
+    rank: principal
+    appt: PAS
+    level: III
+    from: '1970-12-02'
+    law:
+      - act: Reorganization Plan No. 3 of 1970
+        date: '1970-12-02'
+        tags: [creates, appointment, vacancy, pay]
+        cite: '84 Stat. 2086, 2087'
+        usc: '5 U.S.C. App. (1970)'
+        does: 'A Deputy Administrator appointed by the President with the advice and consent of the Senate; level III; functions as the Administrator assigns; acts as Administrator in his absence or disability or a vacancy (§ 1(c)).'
+    holders:
+      - name: Fri, Robert W.
+        given: Robert Wheeler
+        from: '1971-06-14'
+        to: '1973-04-29'
+        out: Acting Administrator.
+        src: [Wikipedia, Robert W. Fri, CDIR 1971-12, 1973-03]
+      - name: Quarles, John R., Jr.
+        acting: true
+        from: '1973-04-29'
+        to: '1973-10-18'
+        src: [Wikipedia, John R. Quarles Jr.]
+      - name: Quarles, John R., Jr.
+        from: '1973-10-19'
+        to: '1977-01-20'
+        src: [Wikipedia, John R. Quarles Jr., CDIR 1973-12]
