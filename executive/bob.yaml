@@ -1,0 +1,750 @@
+# The Bureau of the Budget; the Office of Management and Budget from July 1, 1970. Kept by hand.
+# Below the Director and Deputy, holders known only from the Congressional Directory (CDIR <edition>) carry year dates
+# and a Check. See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: bob
+name: Bureau of the Budget
+names:
+  - {name: Office of Management and Budget, from: '1970-07-01'}
+under: eop
+order: 20
+law:
+  - act: Budget and Accounting Act, 1921
+    date: '1921-06-10'
+    cite: 'ch. 18, § 207, 42 Stat. 20, 22'
+    usc: '31 U.S.C. § 16 (1958)'
+    tags: [creates, powers, appointment, vacancy]
+    does: 'Creates in the Treasury a Bureau of the Budget, with a Director and an Assistant Director appointed by the President; the Assistant Director acts as Director in his absence or in a vacancy. The Bureau prepares the Budget for the President, with authority to assemble, correlate, revise, reduce, or increase the estimates of the departments.'
+  - act: Reorganization Plan No. 1 of 1939
+    date: '1939-07-01'
+    cite: '53 Stat. 1423'
+    usc: '5 U.S.C. § 133t note (1958)'
+    tags: [reorganizes]
+    does: 'Transfers the Bureau, its Director and Assistant Director, from the Treasury to the Executive Office of the President, administered by the Director under the direction of the President (§ 1).'
+  - act: Budget and Accounting Procedures Act of 1950
+    date: '1950-09-12'
+    cite: 'ch. 946, title I, 64 Stat. 832'
+    usc: '31 U.S.C. §§ 18a–18c (1958)'
+    tags: [powers]
+    does: 'The President, through the Director, to develop programs and regulations for better organization and management of the executive branch and for improved statistical information (§§ 103, 104); budget form and content.'
+  - act: Reorganization Plan No. 2 of 1970
+    date: '1970-07-01'
+    cite: '84 Stat. 2085'
+    usc: '31 U.S.C. § 16 note (1970)'
+    tags: [reorganizes, powers, vacancy]
+    does: 'Transfers the functions of the Bureau and its Director to the President; designates the Bureau the Office of Management and Budget, its Director, Deputy Director, and statutory Assistant Directors as officers of the Office; up to six further officers at level V appointed by the Director; the Deputy Director acts as Director in his absence or in a vacancy (Part I).'
+  - act: Executive Order 11541
+    date: '1970-07-01'
+    cite: '35 Fed. Reg. 10737'
+    url: https://www.presidency.ucsb.edu/documents/executive-order-11541-prescribing-the-duties-the-office-management-and-budget-and-the
+    tags: [powers]
+    does: 'Delegates to the Director the functions transferred to the President by the plan; the Office to assist in developing efficient coordinating mechanisms, in preparing the budget, in clearing legislation, and in evaluating programs.'
+offices:
+  - id: director
+    title: Director of the Bureau of the Budget
+    titles: [{title: Director of the Office of Management and Budget, from: '1970-07-01'}]
+    rank: head
+    appt: PA
+    level: II
+    n: 'Appointed by the President alone until the act of Mar. 2, 1974, which required the advice and consent of the Senate for the next appointment after Ash.'
+    law:
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07-01'
+        until: '1966-09-06'
+        cite: 'Pub. L. 88-426, § 303(b)(11), 78 Stat. 400, 416'
+        tags: [pay]
+        does: Level II, $30,000.
+      - act: Act of Sept. 6, 1966 (Title 5 enacted)
+        date: '1966-09-06'
+        cite: 'Pub. L. 89-554, 80 Stat. 378, 460'
+        usc: '5 U.S.C. § 5313 (1970)'
+        tags: [pay]
+        does: Director of the Bureau of the Budget (from 1970, of the Office of Management and Budget), level II.
+      - act: Act of Mar. 2, 1974
+        date: '1974-03-02'
+        cite: 'Pub. L. 93-250, 88 Stat. 11'
+        usc: '31 U.S.C. § 16 (1970 Supp. IV)'
+        tags: [appointment]
+        does: 'The Director and the Deputy Director to be appointed by the President, by and with the advice and consent of the Senate; for each office, from the end of the incumbent''s tenure.'
+    holders:
+      - name: Lawton, Frederick J.
+        from: '1950-04-13'
+        to: '1953-01-21'
+        out: Resigned; to the Civil Service Commission.
+        n: 'Check: FRUS gives Jan. 20, 1953.'
+        src: ['Wikipedia: Office of Management and Budget', FRUS persons list]
+      - name: Dodge, Joseph M.
+        from: '1953-01-21'
+        to: '1954-04-15'
+        out: Resigned.
+        n: 'Check: Wikipedia gives Jan. 22, 1953. Special Assistant to the President and chairman of the Council on Foreign Economic Policy from Dec. 1, 1954.'
+        src: [FRUS persons list, 'Wikipedia: Joseph Dodge']
+      - name: Hughes, Rowland R.
+        from: '1954-04-16'
+        to: '1956-04-01'
+        out: Resigned. Died Apr. 2, 1957.
+        src: [FRUS persons list, 'Wikipedia: Rowland Hughes']
+      - name: Brundage, Percival F.
+        from: '1956-04-02'
+        to: '1958-03-17'
+        out: Resigned.
+        src: [FRUS persons list, 'Wikipedia: Percival Brundage']
+      - name: Stans, Maurice H.
+        from: '1958-03-18'
+        to: '1961-01-21'
+        out: Resigned at the change of Administration.
+        n: 'Check: FRUS gives Mar. 16, 1958 for taking office. Resignation accepted Jan. 11, 1961 (APP).'
+        src: ['Wikipedia: Maurice Stans', FRUS persons list, APP]
+      - name: Bell, David E.
+        from: '1961-01-22'
+        to: '1962-12-20'
+        out: To Administrator of the Agency for International Development.
+        src: [FRUS persons list, 'Wikipedia: David E. Bell']
+      - name: Gordon, Kermit
+        from: '1962-12-28'
+        to: '1965-06-01'
+        out: Resigned; to the Brookings Institution.
+        n: Office vacant Dec. 21–27, 1962; Staats, Deputy Director, the statutory acting Director.
+        src: ['Wikipedia: Kermit Gordon', ERP 1975, p. 235]
+      - name: Schultze, Charles L.
+        from: '1965-06-01'
+        to: '1968-01-28'
+        out: Resigned.
+        src: ['Wikipedia: Charles Schultze', FRUS persons list]
+      - name: Zwick, Charles J.
+        from: '1968-01-29'
+        to: '1969-01-21'
+        out: Resigned at the change of Administration.
+        src: ['Wikipedia: Office of Management and Budget', FRUS persons list]
+      - name: Mayo, Robert P.
+        from: '1969-01-22'
+        to: '1970-06-30'
+        out: Office became the Office of Management and Budget; named Counsellor to the President; President of the Federal Reserve Bank of Chicago from July 29, 1970.
+        src: [FRUS persons list, 'Wikipedia: Robert P. Mayo']
+      - name: Shultz, George P.
+        from: '1970-07-01'
+        to: '1972-06-11'
+        out: To Secretary of the Treasury.
+        n: 'Sworn July 2, 1970, at San Clemente, with Weinberger and Weber (APP).'
+        src: ['Wikipedia: George Shultz', APP]
+      - name: Weinberger, Caspar W.
+        from: '1972-06-12'
+        to: '1973-02-01'
+        out: To Secretary of Health, Education, and Welfare.
+        src: [FRUS persons list, 'Wikipedia: Caspar Weinberger']
+      - name: Ash, Roy L.
+        from: '1973-02-02'
+        n: Also Assistant to the President for Executive Management. Served to Feb. 3, 1975.
+        src: [FRUS persons list, 'Wikipedia: Roy Ash']
+  - id: deputy-director
+    title: Assistant Director of the Bureau of the Budget
+    titles:
+      - {title: Deputy Director of the Bureau of the Budget, from: '1953'}
+      - {title: Deputy Director of the Office of Management and Budget, from: '1970-07-01'}
+    rank: principal
+    appt: PA
+    level: III
+    n: 'The statutory second officer and acting Director. Styled Deputy Director by 1950 (FRUS, Wikipedia), but listed as Assistant Director in the Directory of Mar. 1953 and as Deputy Director from Jan. 1954. Check the authority for the title.'
+    law:
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07-01'
+        until: '1966-09-06'
+        cite: 'Pub. L. 88-426, § 303(c)(35), 78 Stat. 400, 417'
+        tags: [pay]
+        does: Deputy Director of the Bureau of the Budget, level III.
+      - act: Act of Sept. 6, 1966 (Title 5 enacted)
+        date: '1966-09-06'
+        cite: 'Pub. L. 89-554, 80 Stat. 378, 461'
+        usc: '5 U.S.C. § 5314 (1970)'
+        tags: [pay]
+        does: Deputy Director, level III.
+      - act: Act of Mar. 2, 1974
+        date: '1974-03-02'
+        cite: 'Pub. L. 93-250, 88 Stat. 11'
+        usc: '31 U.S.C. § 16 (1970 Supp. IV)'
+        tags: [appointment]
+        does: The Deputy Director to be appointed with the advice and consent of the Senate, from the end of the incumbent's tenure.
+    holders:
+      - name: Staats, Elmer B.
+        from: '1950'
+        to: '1953'
+        out: To Executive Officer of the Operations Coordinating Board, Sept. 1953.
+        n: 'Appointed by Truman, 1950 (Wikipedia). Listed as Assistant Director, Mar. 1953. Check the dates.'
+        src: ['Wikipedia: Elmer B. Staats', FRUS persons list, CDIR 1953-03]
+      - name: Hughes, Rowland R.
+        from: '1953-04'
+        to: '1954-04-16'
+        out: To Director.
+        n: 'Check: Wikipedia gives Apr. 1953, FRUS May 1953.'
+        src: ['Wikipedia: Rowland Hughes', FRUS persons list, CDIR 1954-01]
+      - name: Brundage, Percival F.
+        from: '1954-05'
+        to: '1956-04-02'
+        out: To Director.
+        n: 'Appointed when Hughes became Director (Wikipedia). Check the day.'
+        src: ['Wikipedia: Percival Brundage', FRUS persons list, CDIR 1955-02]
+      - name: Jones, Arnold R.
+        from: '1956'
+        to: '1957'
+        n: Listed in the Congressional Directory, Mar. 1957. Check the dates of office.
+        src: [CDIR 1957-03]
+      - name: Stans, Maurice H.
+        from: '1957'
+        to: '1958-03-18'
+        out: To Director.
+        n: 'Deputy Postmaster General, 1955–57. Check the day he took office.'
+        src: ['Wikipedia: Maurice Stans', FRUS persons list, CDIR 1958-01]
+      - name: Merriam, Robert E.
+        from: '1958'
+        to: '1958-09'
+        out: To Deputy Assistant to the President for Interdepartmental Affairs.
+        n: 'An Assistant Director from 1955 (CDIR 1957-03, 1958-01). Listed as Deputy Director in the Government Organization Manual, 1958–59. Check the dates.'
+        src: ['Wikipedia: Robert E. Merriam', GOM 1958-59, FRUS persons list]
+      - name: Staats, Elmer B.
+        from: '1959-03-16'
+        to: '1966-03-03'
+        out: To Comptroller General of the United States.
+        n: 'An Assistant Director, Sept. 1958–Mar. 1959. Office vacant at the Directory of Mar. 1959. Check: FRUS gives Mar. 16, 1959; the day he left is inferred from his oath as Comptroller General, Mar. 4, 1966.'
+        src: [FRUS persons list, 'Wikipedia: Elmer B. Staats', CDIR 1959-03]
+      - name: Hughes, Phillip S.
+        from: '1966'
+        to: '1969'
+        n: 'Assistant Director for Legislative Reference until 1966. Listed Feb. 1967–Mar. 1969; office vacant Dec. 1969. Check the dates.'
+        src: [FRUS persons list, CDIR 1967-02, CDIR 1969-03, CDIR 1969-12]
+      - name: Weinberger, Caspar W.
+        from: '1970-07-01'
+        to: '1972-06-12'
+        out: To Director.
+        n: 'Sworn July 2, 1970 (APP).'
+        src: [FRUS persons list, APP, CDIR 1971-03]
+      - name: Carlucci, Frank C.
+        from: '1972-06'
+        to: '1973-01'
+        out: To Under Secretary of Health, Education, and Welfare.
+        n: 'Associate Director, 1971–72. Check the dates; not in the Directory as Deputy Director.'
+        src: ['Wikipedia: Frank Carlucci']
+      - name: Malek, Frederic V.
+        from: '1973-02-02'
+        n: 'Sworn Feb. 2, 1973 (Wikipedia). Served to 1975.'
+        src: ['Wikipedia: Fred Malek', FRUS persons list, CDIR 1973-03]
+  - id: assistant-director
+    title: Assistant Director of the Bureau of the Budget
+    rank: principal
+    appt: PA
+    titles: [{title: Assistant Director of the Office of Management and Budget, from: '1970-07-01'}]
+    level: IV
+    many: true
+    n: 'Three, by statute from the 1950s (31 U.S.C. §§ 16a, 16c), designated Assistant Directors of the Office by Reorganization Plan No. 2 of 1970; listed in the Directory without portfolio. Check the statutes.'
+    law:
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07-01'
+        until: '1966-09-06'
+        cite: 'Pub. L. 88-426, § 303(d)(37), 78 Stat. 400, 418'
+        tags: [pay]
+        does: Assistant Directors of the Bureau of the Budget (3), level IV.
+      - act: Act of Sept. 6, 1966 (Title 5 enacted)
+        date: '1966-09-06'
+        cite: 'Pub. L. 89-554, 80 Stat. 378, 462'
+        usc: '5 U.S.C. § 5315 (1970)'
+        tags: [pay]
+        does: Assistant Directors of the Bureau of the Budget (3), level IV.
+    holders:
+      - name: Morrison, Paul L.
+        from: '1954'
+        to: '1954'
+        n: Listed in the Congressional Directory, Jan. 1954. Check the dates of office.
+        src: [CDIR 1954-01]
+      - name: Belcher, Donald R.
+        from: '1954'
+        to: '1955'
+        n: Listed in the Congressional Directory, Jan. 1954–Feb. 1955. Check the dates of office.
+        src: [CDIR 1954-01, CDIR 1955-02]
+      - name: Pearson, Harold L.
+        from: '1955'
+        to: '1955'
+        n: Listed in the Congressional Directory, Feb. 1955. Check the dates of office.
+        src: [CDIR 1955-02]
+      - name: Rappaport, Percy
+        from: '1956'
+        to: '1958'
+        n: Listed in the Congressional Directory, Jan. 1956–Jan. 1958. Check the dates of office.
+        src: [CDIR 1956-01, CDIR 1958-01]
+      - name: Reid, Ralph W. E.
+        from: '1956'
+        to: '1960'
+        n: Assistant to the Director, 1954–55. Listed in the Congressional Directory, Jan. 1956–Jan. 1960. Check the dates of office.
+        src: [CDIR 1956-01, CDIR 1960-01]
+      - name: Merriam, Robert E.
+        from: '1957'
+        to: '1958'
+        out: To Deputy Director.
+        n: Listed in the Congressional Directory, Mar. 1957–Jan. 1958. Check the dates of office.
+        src: [CDIR 1957-03, CDIR 1958-01]
+      - name: Jones, Roger W.
+        from: '1958'
+        to: '1959'
+        n: Listed in the Government Organization Manual, 1958–59. Check the dates.
+        src: [GOM 1958-59]
+      - name: Staats, Elmer B.
+        from: '1958-09'
+        to: '1959-03'
+        out: To Deputy Director.
+        n: Listed in the Congressional Directory, Mar. 1959. Check the dates of office.
+        src: [CDIR 1959-03, 'Wikipedia: Elmer B. Staats']
+      - name: Archambault, Raoul, Jr.
+        from: '1959'
+        to: '1960'
+        n: Listed in the Congressional Directory, Mar. 1959–Jan. 1960. Check the dates of office.
+        src: [CDIR 1959-03, CDIR 1960-01]
+      - name: Beckett, John A.
+        from: '1960'
+        to: '1960'
+        n: Listed in the Congressional Directory, Jan. 1960. Check the dates of office.
+        src: [CDIR 1960-01]
+      - name: Turner, Robert C.
+        from: '1961'
+        to: '1962'
+        n: Listed in the Congressional Directory, Apr. 1961–Jan. 1962. Check the dates of office.
+        src: [CDIR 1961-04, CDIR 1962-01]
+      - name: Hansen, Kenneth R.
+        from: '1962'
+        to: '1964'
+        n: A FRUS author, 1961–63. Listed in the Congressional Directory, Jan. 1962–Jan. 1964. Check the dates of office.
+        src: [CDIR 1962-01, CDIR 1964-01]
+      - name: Schultze, Charles L.
+        from: '1963'
+        to: '1965-06-01'
+        out: To Director.
+        n: Listed in the Congressional Directory, Mar. 1963–Jan. 1964. Check the dates of office.
+        src: [CDIR 1963-03, CDIR 1964-01]
+      - name: Capron, William M.
+        from: '1965'
+        to: '1965'
+        n: Listed in the Congressional Directory, Mar. 1965. Check the dates of office.
+        src: [CDIR 1965-03]
+      - name: Rowen, Henry S.
+        from: '1965'
+        to: '1966'
+        n: Listed in the Congressional Directory, Mar. 1965–Jan. 1966. Check the dates of office.
+        src: [CDIR 1965-03, CDIR 1966-01]
+      - name: Zwick, Charles J.
+        from: '1966'
+        to: '1968-01-29'
+        out: To Director.
+        n: Listed in the Congressional Directory, Jan. 1966–Dec. 1967. Check the dates of office.
+        src: [CDIR 1966-01, CDIR 1967-12]
+      - name: Carey, William D.
+        to: '1967'
+        from: '1966'
+        n: Executive Assistant Director, 1959–66; Assistant Director from 1966 (Wikipedia). Listed in the Congressional Directory, Feb. 1967–Dec. 1967. Check the dates of office.
+        src: [CDIR 1967-02, CDIR 1967-12]
+      - name: Hoffman, Fred S.
+        from: '1967'
+        to: '1967'
+        n: Listed in the Congressional Directory, Dec. 1967. Check the dates of office.
+        src: [CDIR 1967-12]
+      - name: Nathan, Richard P.
+        from: '1969'
+        to: '1969'
+        n: Listed in the Congressional Directory, Mar. 1969–Dec. 1969. Check the dates of office.
+        src: [CDIR 1969-03, CDIR 1969-12]
+      - name: Mann, Maurice
+        from: '1969'
+        to: '1969'
+        n: Listed in the Congressional Directory, Mar. 1969–Dec. 1969. Check the dates of office.
+        src: [CDIR 1969-03, CDIR 1969-12]
+      - name: Schlesinger, James R.
+        from: '1969-01'
+        to: '1971-08'
+        out: To Chairman of the Atomic Energy Commission.
+        n: Defense and international programs. Listed in the Congressional Directory, Mar. 1969–Mar. 1971. Check the dates of office.
+        src: [CDIR 1969-03, CDIR 1971-03, FRUS persons list]
+      - name: Jones, Roger W.
+        from: '1969'
+        to: '1969'
+        n: Special Assistant to the Director, 1964–69; acting Assistant Director for Executive Development and Labor Relations, 1971. Listed in the Congressional Directory, Dec. 1969. Check the dates of office.
+        src: [CDIR 1969-12]
+      - name: Rice, Donald B.
+        from: '1971'
+        to: '1971'
+        n: Listed in the Congressional Directory, Mar. 1971–Dec. 1971. Check the dates of office.
+        src: [CDIR 1971-03, CDIR 1971-12]
+      - name: Dam, Kenneth W.
+        from: '1971'
+        to: '1973'
+        n: National security and international affairs (FRUS). Executive Director, Council on Economic Policy, 1973. Listed in the Congressional Directory, Dec. 1971. Check the dates of office.
+        src: [CDIR 1971-12, FRUS persons list]
+      - name: Bridgewater, Bernard A., Jr.
+        from: '1973'
+        to: '1973'
+        n: Associate Director for National Security and International Affairs by Dec. 1973. Listed in the Congressional Directory, Mar. 1973. Check the dates of office.
+        src: [CDIR 1973-03]
+      - name: O'Neill, Paul H.
+        from: '1973'
+        to: '1973'
+        n: Associate Director for Human and Community Affairs by Dec. 1973; Deputy Director, 1974–77. Listed in the Congressional Directory, Mar. 1973. Check the dates of office.
+        src: [CDIR 1973-03]
+      - name: Morrill, William A.
+        from: '1973'
+        to: '1973'
+        n: Listed in the Congressional Directory, Mar. 1973. Check the dates of office.
+        src: [CDIR 1973-03]
+  - id: associate-director
+    title: Associate Director of the Office of Management and Budget
+    rank: principal
+    appt: HD
+    from: '1970-07-01'
+    level: V
+    many: true
+    n: 'The officers of section 102(c) of Reorganization Plan No. 2 of 1970, appointed by the Director with the approval of the President; four Associate Directors by program area from 1973.'
+    holders:
+      - name: Weber, Arnold R.
+        from: '1970-07-01'
+        to: '1971'
+        n: Sworn July 2, 1970 (APP). Executive Director, Cost of Living Council, 1971. Listed in the Congressional Directory, Mar. 1971. Check the dates of office.
+        src: [CDIR 1971-03, APP]
+      - name: Carlucci, Frank C.
+        from: '1971'
+        to: '1972-06'
+        out: To Deputy Director.
+        n: Listed in the Congressional Directory, Dec. 1971. Check the dates of office.
+        src: [CDIR 1971-12]
+      - name: Bridgewater, Bernard A., Jr.
+        title: Associate Director for National Security and International Affairs
+        from: '1973'
+        n: Listed in the Congressional Directory, Dec. 1973. Check the dates of office.
+        src: [CDIR 1973-12]
+      - name: O'Neill, Paul H.
+        title: Associate Director for Human and Community Affairs
+        from: '1973'
+        n: Listed in the Congressional Directory, Dec. 1973. Check the dates of office.
+        src: [CDIR 1973-12]
+      - name: Scott, Walter D.
+        title: Associate Director for Economics and Government
+        from: '1973'
+        n: Listed in the Congressional Directory, Dec. 1973. Check the dates of office.
+        src: [CDIR 1973-12]
+      - name: Sawhill, John C.
+        title: Associate Director for Natural Resources, Energy, and Science
+        from: '1973'
+        to: '1973-12'
+        out: To Deputy Administrator of the Federal Energy Office.
+        n: Listed in the Congressional Directory, Dec. 1973. Check the dates of office.
+        src: [CDIR 1973-12, FRUS persons list]
+      - name: Zarb, Frank G.
+        title: Assistant Director for Management and Operations
+        from: '1973'
+        n: Associate Director, 1973–74 (Wikipedia); also acting Assistant Administrator for Operations and Compliance, Federal Energy Office. Listed in the Congressional Directory, Dec. 1973. Check the dates of office.
+        src: [CDIR 1973-12, 'Wikipedia: Frank Zarb']
+  - id: executive-assistant-director
+    title: Executive Assistant Director
+    rank: inferior
+    appt: CAREER
+    holders:
+      - name: Carey, William D.
+        from: '1959'
+        to: '1966'
+        n: Executive assistant director from 1959 (Wikipedia). Listed in the Congressional Directory, Mar. 1959–Jan. 1966. Check the dates of office.
+        src: [CDIR 1959-03, CDIR 1966-01]
+      - name: Frey, James M.
+        from: '1969'
+        to: '1970'
+        n: Listed in the Congressional Directory, Dec. 1969. Check the dates of office.
+        src: [CDIR 1969-12]
+  - id: general-counsel
+    title: General Counsel
+    rank: inferior
+    appt: CAREER
+    n: 'Not listed in the Directory before 1959. Check.'
+    holders:
+      - name: Focke, Arthur B.
+        from: '1959'
+        to: '1972'
+        n: Listed in the Congressional Directory, Mar. 1959–Dec. 1971. Check the dates of office.
+        src: [CDIR 1959-03, CDIR 1971-12]
+      - name: Bradley, James P.
+        acting: true
+        from: '1973'
+        to: '1973'
+        n: Listed in the Congressional Directory, Mar. 1973. Check the dates of office.
+        src: [CDIR 1973-03]
+      - name: Ebner, Stanley
+        from: '1973'
+        n: Listed in the Congressional Directory, Dec. 1973. Check the dates of office.
+        src: [CDIR 1973-12]
+  - id: budget-review
+    title: Assistant Director for Budget Review
+    rank: inferior
+    appt: CAREER
+    group: Staff offices
+    holders:
+      - name: McCandless, William F.
+        from: '1953'
+        to: '1966'
+        n: Listed in the Congressional Directory, Mar. 1953–Jan. 1966. Check the dates of office.
+        src: [CDIR 1953-03, CDIR 1966-01]
+      - name: Cohn, Samuel M.
+        from: '1967'
+        to: '1973'
+        n: Listed in the Congressional Directory, Feb. 1967–Mar. 1973. Check the dates of office.
+        src: [CDIR 1967-02, CDIR 1973-03]
+      - name: McOmber, Dale R.
+        from: '1973'
+        n: Listed in the Congressional Directory, Dec. 1973. Check the dates of office.
+        src: [CDIR 1973-12]
+  - id: legislative-reference
+    title: Assistant Director for Legislative Reference
+    rank: inferior
+    appt: CAREER
+    group: Staff offices
+    holders:
+      - name: Jones, Roger W.
+        from: '1953'
+        to: '1958'
+        n: Chairman of the Civil Service Commission, 1959–61. Listed in the Congressional Directory, Mar. 1953–Jan. 1958. Check the dates of office.
+        src: [CDIR 1953-03, CDIR 1958-01]
+      - name: Hughes, Phillip S.
+        from: '1959'
+        to: '1966'
+        out: To Deputy Director.
+        n: Listed in the Congressional Directory, Mar. 1959–Jan. 1966. Check the dates of office.
+        src: [CDIR 1959-03, CDIR 1966-01, FRUS persons list, GOM 1958-59]
+      - name: Rommel, Wilfred H.
+        from: '1967'
+        n: Listed in the Congressional Directory, Feb. 1967–Dec. 1973. Check the dates of office.
+        src: [CDIR 1967-02, CDIR 1973-12]
+  - id: management
+    title: Assistant Director for Management and Organization
+    rank: inferior
+    appt: CAREER
+    titles:
+      - {title: Assistant Director for Executive Management, from: '1967'}
+      - {title: Assistant Director (Organization and Management Systems), from: '1971'}
+    group: Staff offices
+    holders:
+      - name: Finan, William F.
+        from: '1953'
+        to: '1959'
+        n: Office vacant Jan. 1960–Apr. 1961. Listed in the Congressional Directory, Mar. 1953–Mar. 1959. Check the dates of office.
+        src: [CDIR 1953-03, CDIR 1959-03]
+      - name: Seidman, Harold
+        from: '1962'
+        to: '1967'
+        n: Acting, 1962–64. Listed in the Congressional Directory, Jan. 1962–Feb. 1967. Check the dates of office.
+        src: [CDIR 1962-01, CDIR 1967-02]
+      - name: Ink, Dwight A.
+        from: '1969'
+        to: '1973'
+        n: Listed in the Congressional Directory, Mar. 1969–Mar. 1973. Check the dates of office.
+        src: [CDIR 1969-03, CDIR 1973-03]
+  - id: statistical-standards
+    title: Assistant Director for Statistical Standards
+    rank: inferior
+    appt: CAREER
+    titles:
+      - {title: Assistant Director for Statistical Policy, from: '1969'}
+      - {title: Chief Statistician, from: '1971'}
+    group: Staff offices
+    holders:
+      - name: Rice, Stuart A.
+        from: '1953'
+        to: '1954'
+        n: Office vacant Feb. 1955. Listed in the Congressional Directory, Mar. 1953–Jan. 1954. Check the dates of office.
+        src: [CDIR 1953-03, CDIR 1954-01]
+      - name: Bowman, Raymond T.
+        from: '1956'
+        to: '1969'
+        n: Listed in the Congressional Directory, Jan. 1956–Mar. 1969. Check the dates of office.
+        src: [CDIR 1956-01, CDIR 1969-03]
+      - name: Shiskin, Julius
+        from: '1969'
+        to: '1973'
+        n: Assistant Director for Statistical Policy, 1969; Chief Statistician, 1971–73. To Commissioner of Labor Statistics, 1973. Listed in the Congressional Directory, Dec. 1969–Mar. 1973. Check the dates of office.
+        src: [CDIR 1969-12, CDIR 1973-03]
+  - id: program-evaluation
+    title: Assistant Director for Program Evaluation
+    rank: inferior
+    appt: CAREER
+    from: '1969'
+    group: Staff offices
+    holders:
+      - name: Carlson, Jack W.
+        from: '1969'
+        to: '1970'
+        n: Listed in the Congressional Directory, Mar. 1969–Dec. 1969. Check the dates of office.
+        src: [CDIR 1969-03, CDIR 1969-12]
+      - name: Niskanen, William A.
+        from: '1971'
+        to: '1972'
+        n: Listed in the Congressional Directory, Mar. 1971–Dec. 1971. Check the dates of office.
+        src: [CDIR 1971-03, CDIR 1971-12]
+  - id: financial-management
+    title: Chief, Office of Accounting
+    rank: inferior
+    appt: CAREER
+    titles: [{title: 'Chief, Office of Financial Management', from: '1961'}]
+    group: Staff offices
+    holders:
+      - name: Armstrong, William J.
+        from: '1958'
+        to: '1967'
+        n: Chief, Office of Accounting; of Financial Management from 1961. Listed in the Congressional Directory, Jan. 1958–Feb. 1967. Check the dates of office.
+        src: [CDIR 1958-01, CDIR 1967-02]
+  - id: international-division
+    title: Chief, International Division
+    rank: inferior
+    appt: CAREER
+    titles: [{title: 'Chief, International Programs Division', from: '1967'}]
+    group: Divisions
+    holders:
+      - name: Macy, Robert M.
+        from: '1953'
+        to: '1962'
+        n: Listed in the Congressional Directory, Mar. 1953–Jan. 1962. Check the dates of office.
+        src: [CDIR 1953-03, CDIR 1962-01, FRUS persons list]
+      - name: Amory, Robert, Jr.
+        to: '1965'
+        from: '1962'
+        n: Deputy Director (Intelligence), CIA, to 1962. Listed in the Congressional Directory, Mar. 1963–Mar. 1965. Check the dates of office.
+        src: [CDIR 1963-03, CDIR 1965-03]
+      - name: Clark, James W.
+        from: '1966'
+        to: '1969'
+        n: Listed in the Congressional Directory, Jan. 1966–Dec. 1969. Check the dates of office.
+        src: [CDIR 1966-01, CDIR 1969-12]
+      - name: Frey, James M.
+        from: '1971'
+        n: Deputy Associate Director for International Affairs, Dec. 1973. Listed in the Congressional Directory, Mar. 1971–Dec. 1973. Check the dates of office.
+        src: [CDIR 1971-03, CDIR 1973-12, FRUS persons list]
+  - id: military-division
+    title: Chief, Military Division
+    rank: inferior
+    appt: CAREER
+    titles: [{title: 'Chief, National Security Programs Division', from: '1967'}]
+    group: Divisions
+    holders:
+      - name: Schaub, William F.
+        from: '1953'
+        to: '1960'
+        n: Listed in the Congressional Directory, Mar. 1953–Jan. 1960. Check the dates of office.
+        src: [CDIR 1953-03, CDIR 1960-01]
+      - name: Veatch, Ellis H.
+        from: '1961'
+        n: Deputy Associate Director for National Security, Dec. 1973. Listed in the Congressional Directory, Apr. 1961–Dec. 1973. Check the dates of office.
+        src: [CDIR 1961-04, CDIR 1973-12]
+  - id: labor-welfare-division
+    title: Chief, Labor and Welfare Division
+    rank: inferior
+    appt: CAREER
+    titles:
+      - {title: 'Chief, Health and Welfare Division', from: '1966'}
+      - {title: 'Director, Human Resources Programs Division', from: '1967'}
+    group: Divisions
+    holders:
+      - name: Carey, William D.
+        from: '1953'
+        to: '1958'
+        n: Listed in the Congressional Directory, Mar. 1953–Jan. 1958. Check the dates of office.
+        src: [CDIR 1953-03, CDIR 1958-01]
+      - name: Sutton, Hirst
+        from: '1959'
+        to: '1965'
+        n: Chief, General Government Division, 1966–67. Listed in the Congressional Directory, Mar. 1959–Mar. 1965. Check the dates of office.
+        src: [CDIR 1959-03, CDIR 1965-03]
+      - name: Lewis, Irving J.
+        title: Chief, Health and Welfare Division
+        from: '1966'
+        to: '1967'
+        n: Listed in the Congressional Directory, Jan. 1966–Feb. 1967. Check the dates of office.
+        src: [CDIR 1966-01, CDIR 1967-02]
+      - name: Carey, William D.
+        title: Director, Human Resources Programs Division
+        from: '1967'
+        to: '1967'
+        n: Listed in the Congressional Directory, Dec. 1967. Check the dates of office.
+        src: [CDIR 1967-12]
+      - name: Nathan, Richard P.
+        title: Director, Human Resources Programs Division
+        from: '1969'
+        to: '1969'
+        n: Listed in the Congressional Directory, Mar. 1969–Dec. 1969. Check the dates of office.
+        src: [CDIR 1969-03, CDIR 1969-12]
+      - name: O'Neill, Paul H.
+        title: Chief, Human Resources Programs Division
+        from: '1971'
+        to: '1971'
+        n: Listed in the Congressional Directory, Mar. 1971. Check the dates of office.
+        src: [CDIR 1971-03]
+      - name: Fischer, C. William
+        title: Chief, Human Resources Programs Division
+        from: '1971'
+        to: '1973'
+        n: Deputy Associate Director for Human Resources, Dec. 1973. Listed in the Congressional Directory, Dec. 1971–Mar. 1973. Check the dates of office.
+        src: [CDIR 1971-12, CDIR 1973-03]
+  - id: commerce-division
+    title: Chief, Commerce and Finance Division
+    rank: inferior
+    appt: CAREER
+    titles:
+      - {title: 'Chief, Commerce and Housing Division', from: '1966'}
+      - {title: 'Director, Economics, Science, and Technology Programs Division', from: '1967'}
+    group: Divisions
+    holders:
+      - name: Broadbent, Sam R.
+        from: '1953'
+        to: '1967'
+        n: Commerce and Housing Division from 1966. Special Adviser to the Director, Dec. 1967. Listed in the Congressional Directory, Mar. 1953–Feb. 1967. Check the dates of office.
+        src: [CDIR 1953-03, CDIR 1967-02]
+      - name: Young, John D.
+        title: Director, Economics, Science, and Technology Programs Division
+        from: '1967'
+        to: '1973'
+        n: Listed in the Congressional Directory, Dec. 1967–Mar. 1973. Check the dates of office.
+        src: [CDIR 1967-12, CDIR 1973-03]
+  - id: resources-division
+    title: Chief, Resources and Civil Works Division
+    rank: inferior
+    appt: CAREER
+    titles: [{title: 'Director, Natural Resources Programs Division', from: '1967'}]
+    group: Divisions
+    holders:
+      - name: Schwartz, Carl H., Jr.
+        from: '1953'
+        to: '1969'
+        n: Natural Resources Programs Division from 1967. Listed in the Congressional Directory, Mar. 1953–Dec. 1969. Check the dates of office.
+        src: [CDIR 1953-03, CDIR 1969-12]
+      - name: Crabill, Donald E.
+        from: '1971'
+        n: Deputy Associate Director for Natural Resources, Dec. 1973. Listed in the Congressional Directory, Mar. 1971–Dec. 1973. Check the dates of office.
+        src: [CDIR 1971-03, CDIR 1973-12]
+  - id: general-government-division
+    title: Chief, General Government Division
+    rank: inferior
+    appt: CAREER
+    from: '1966'
+    titles: [{title: 'Director, General Government Management Division', from: '1967'}]
+    group: Divisions
+    holders:
+      - name: Sutton, Hirst
+        from: '1966'
+        to: '1967'
+        n: Listed in the Congressional Directory, Jan. 1966–Feb. 1967. Check the dates of office.
+        src: [CDIR 1966-01, CDIR 1967-02]
+      - name: Pfleger, William
+        from: '1967'
+        to: '1969'
+        n: Listed in the Congressional Directory, Dec. 1967–Mar. 1969. Check the dates of office.
+        src: [CDIR 1967-12, CDIR 1969-03]
+      - name: Boleyn, William A.
+        acting: true
+        from: '1969'
+        to: '1969'
+        n: Listed in the Congressional Directory, Dec. 1969. Check the dates of office.
+        src: [CDIR 1969-12]
+      - name: Alger, Mark W.
+        from: '1971'
+        to: '1973'
+        n: Listed in the Congressional Directory, Mar. 1971–Mar. 1973. Check the dates of office.
+        src: [CDIR 1971-03, CDIR 1973-03]
