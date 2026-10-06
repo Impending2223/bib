@@ -13,21 +13,21 @@ law:
     date: '1951-10-10'
     until: '1953-08-01'
     tags: [creates, appointment, powers]
-    cite: 'ch. 479, §§ 501, 502, 65 Stat. 373'
+    cite: ch. 479, §§ 501, 502, 65 Stat. 373
     does: 'A Director for Mutual Security in the Executive Office of the President, appointed by the President with the advice and consent of the Senate: the continuous supervision and general direction of the military, economic, and technical assistance programs. The Economic Cooperation Administration continued as the Mutual Security Agency, under the Director.'
   - act: Reorganization Plan No. 7 of 1953
     date: '1953-08-01'
     tags: [creates, reorganizes, appointment, vacancy, powers]
-    cite: '67 Stat. 639'
-    does: 'Establishes the Foreign Operations Administration under a Director, appointed by the President with the advice and consent of the Senate (the Secretary of State to advise on the appointment and tenure), and a Deputy Director, who acts in a vacancy; six further offices, appointed the same way. Transfers to the Director the functions of the Director for Mutual Security, the Mutual Security Agency, and the Technical Cooperation Administration; abolishes the office of Director for Mutual Security and the Mutual Security Agency.'
+    cite: 67 Stat. 639
+    does: Establishes the Foreign Operations Administration under a Director, appointed by the President with the advice and consent of the Senate (the Secretary of State to advise on the appointment and tenure), and a Deputy Director, who acts in a vacancy; six further offices, appointed the same way. Transfers to the Director the functions of the Director for Mutual Security, the Mutual Security Agency, and the Technical Cooperation Administration; abolishes the office of Director for Mutual Security and the Mutual Security Agency.
   - act: Executive Order 10610
     date: '1955-05-09'
     effective: '1955-06-30'
     tags: [reorganizes]
-    cite: '20 Fed. Reg. 3179'
-    url: https://www.presidency.ucsb.edu/documents/executive-order-10610-administration-mutual-security-and-related-functions
+    cite: 20 Fed. Reg. 3179
     does: 'Under the Mutual Security Act of 1954, §§ 521, 525: the functions and offices of the Foreign Operations Administration, but for its Director, to the Secretary and the Department of State (the International Cooperation Administration), the military assistance functions to the Secretary of Defense, at the close of June 30, 1955.'
-n: 'In the Executive Office of the President as the Mutual Security Agency; an independent agency as the Foreign Operations Administration, Aug. 1, 1953–June 30, 1955. Succeeded by the International Cooperation Administration in the Department of State.'
+    url: https://www.presidency.ucsb.edu/documents/executive-order-10610-administration-mutual-security-and-related-functions
+n: In the Executive Office of the President as the Mutual Security Agency; an independent agency as the Foreign Operations Administration, Aug. 1, 1953–June 30, 1955. Succeeded by the International Cooperation Administration in the Department of State.
 offices:
   - id: director
     title: Director for Mutual Security
@@ -42,14 +42,18 @@ offices:
         appointed: '1951-10-19'
         from: '1951-10-31'
         to: '1953-01-20'
-        src: [POCOM]
+        src:
+          - POCOM
       - name: Stassen, Harold E.
         appointed: '1953-01-27'
         from: '1953-01-28'
         to: '1955-05-09'
         out: To Special Assistant to the President for Disarmament, Mar. 19, 1955.
         n: 'Director for Mutual Security; Director of the Foreign Operations Administration from Aug. 1, 1953, by the President''s authority pending confirmation; commissioned Aug. 3, 1953. Check: POCOM ends the tenure Mar. 19, 1955; Wikipedia gives May 9, 1955, the date of Executive Order 10610.'
-        src: [POCOM, 'Wikipedia: Harold Stassen', FRUS persons list]
+        src:
+          - POCOM
+          - 'Wikipedia: Harold Stassen'
+          - FRUS persons list
   - id: deputy-director
     title: Deputy Director of the Mutual Security Agency
     titles:
@@ -63,13 +67,16 @@ offices:
         from: '1953'
         to: '1954'
         n: 'Check: the days. FRUS: Deputy Director of the Mutual Security Agency until July 1953, thereafter of the Foreign Operations Administration; CDIR 1954-01.'
-        src: [FRUS persons list, CDIR 1954-01]
+        src:
+          - FRUS persons list
+          - CDIR 1954-01
       - name: Lloyd, Glen A.
         acting: true
         from: '1954'
         to: '1955'
         n: 'Check: the days. CDIR 1955-02: Deputy to the Director, and Deputy Director (acting).'
-        src: [CDIR 1955-02]
+        src:
+          - CDIR 1955-02
   - id: deputy-director-operations
     title: Deputy Director for Operations, Foreign Operations Administration
     rank: inferior
@@ -78,7 +85,10 @@ offices:
     n: One of the six offices of Reorganization Plan No. 7 of 1953, § 1(d). The office continued in the International Cooperation Administration.
     holders:
       - name: FitzGerald, Dennis A.
-        from: '1953-08'
+        from: 1953-08
         to: '1955-06-30'
         n: 'Associate Deputy Director of the Mutual Security Agency from Jan. 1, 1952. Check: the day he took this office. To Deputy Director for Operations, ICA.'
-        src: [FRUS persons list, CDIR 1954-01, CDIR 1955-02]
+        src:
+          - FRUS persons list
+          - CDIR 1954-01
+          - CDIR 1955-02

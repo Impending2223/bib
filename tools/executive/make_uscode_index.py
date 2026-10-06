@@ -1,5 +1,5 @@
 """Index the Library of Congress's scans of the United States Code, 1958, 1964 and 1970 editions and supplements.
-# Usage: python3 tools/executive/make_uscode_index.py
+# Usage: python3 tools/executive/make_uscode_index.py [--resplit]
 #   Writes sources/uscode-loc.json: for each edition, every chapter item the Library holds, with its title
 #   number, its first and last sections, and the item's URL. The build links a roster citation such as
 #   '50 U.S.C. § 402 (1958)' to the item that holds the section (tools/bib/executive.py, usc_link). Needs the
@@ -25,13 +25,39 @@ def fetch(q, page):
     raise SystemExit('failed: ' + url)
 
 
+def split_range(sec, plural):
+    """'1-20' under '§§' -> ('1', '20'); '133z-15-133z-18' -> ('133z-15', '133z-18'); '133z-15' under '§' stays."""
+    parts = sec.split('-')
+    if not plural or len(parts) < 2:
+        return sec, sec
+    if len(parts) % 2 == 0:
+        return '-'.join(parts[:len(parts) // 2]), '-'.join(parts[len(parts) // 2:])
+    if len(parts) == 3 and re.match(r'\d+[a-z]+$', parts[0]) and parts[1].isdigit():   # '133z-15-18'
+        return '-'.join(parts[:2]), '-'.join([parts[0], parts[2]])
+    return parts[0], '-'.join(parts[1:])
+
+
 def sec_key(s):
     """'402' -> (402, ''); '403a' -> (403, 'a'); '1305' -> (1305, '')."""
     m = re.match(r'(\d+)([a-z\-]*)', s)
     return (int(m.group(1)), m.group(2)) if m else (0, s)
 
 
+def resplit():
+    """Redo the ranges of an existing index from its item names, without the network."""
+    d = json.load(open(OUT, encoding='utf-8'))
+    for ed, items in d.items():
+        for it in items:
+            m = re.search(r'U\.S\.C\. (§§?) ([\w\-]+)(?:\s*[-–]\s*([\w\-]+))?', it['name'])
+            if m:
+                it['from'], it['to'] = (m.group(2), m.group(3)) if m.group(3) else split_range(m.group(2), m.group(1) == '§§')
+    with open(OUT, 'w', encoding='utf-8') as f:
+        json.dump(d, f, ensure_ascii=False, indent=0)
+
+
 def main():
+    if '--resplit' in sys.argv:
+        return resplit()
     out = {}
     for ed in EDITIONS:
         items, page = [], 1
@@ -46,7 +72,8 @@ def main():
                 if not m:
                     continue
                 sup = re.search(r'Suppl?\. (\d+)', m.group(4))
-                items.append({'title': int(m.group(1)), 'from': m.group(2), 'to': m.group(3) or m.group(2),
+                lo_, hi_ = split_range(m.group(2), m.group(2) and '§§' in t) if not m.group(3) else (m.group(2), m.group(3))
+                items.append({'title': int(m.group(1)), 'from': lo_, 'to': hi_,
                               'supp': int(sup.group(1)) if sup else 0, 'url': r.get('url') or iid,
                               'name': t.replace('United States Code: ', '')})
             pg = d.get('pagination', {})
