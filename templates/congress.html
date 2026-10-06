@@ -1,8 +1,8 @@
 <style>
 /* Colors, light and dark. p: the parties (pDs Southern Democrats; pT a third ticket). e: the election scales,
    four steps a side around a gray middle (eN), eA a third ticket: the result view uses steps 2 to 4; the winner's
-   share runs continuously from eW, white at an even split (50 percent), out to eR4 or eB4 (eA4), one diverging
-   scale; swing from eN to eR4 or eB4; mixed in OKLab (SHARE, SWING in the script; the keys' .gr bars). */
+   margin runs continuously from eW, white at a tie, out to eR4 or eB4 (eA4), one diverging scale; swing from
+   eN to eR4 or eB4; mixed in OKLab (MARGIN, SWING in the script; the keys' .gr bars). */
 :root{--pDs:#9DB4D6;--pD:#5878A8;--pR:#B0625E;--pO:#8C8A6E;--pV:#C9CDD3;--stb:#FFFFFF;--mk:#1A1E26}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--pDs:#46638F;--pD:#7D9CCB;--pR:#C9847F;--pO:#A9A688;--pV:#3C424C;--stb:#15181D;--mk:#E6E8EC}}
 :root[data-theme="dark"]{--pDs:#46638F;--pD:#7D9CCB;--pR:#C9847F;--pO:#A9A688;--pV:#3C424C;--stb:#15181D;--mk:#E6E8EC}
@@ -164,13 +164,14 @@ details.cgr.er td:nth-child(3){font-weight:400}
   var ORDER={D:0,Di:1,ID:2,I:3,C:4,O:5,V:6,Ri:7,R:8};
   function el(n,a){var e=document.createElementNS(NS,n);for(var k in a)e.setAttribute(k,a[k]);return e;}
   function cls(p){return p==='D'?'pD':p==='R'?'pR':p==='V'?'pV':p==='X'?'pX':p==='Di'?'pDi':p==='Ri'?'pRi':'pO';}
-  // election blocks: the fill follows the view (r result, s the winner's share, w swing)
+  // election blocks: the fill follows the view (r result, s the winner's margin, w swing)
   // A fill is a class ('pD', 'eB4', 'eNA') or, on the continuous scales, 'v:' and a CSS color; paint() applies either.
   var HUE={D:'B',R:'R',T:'A'};
-  var SHARE=[50,90], SWING=15;            // the winner's share, white (an even split) to darkest, in percent; swing, gray to darkest, in points
+  var MARGIN=40, SWING=15;                // the winner's margin, white at a tie to darkest, in points; swing, gray to darkest, in points
   function mix(a,b,t){t=Math.max(0,Math.min(1,t)); return 'v:color-mix(in oklab,var(--'+b+') '+(100*t).toFixed(1)+'%,var(--'+a+'))';}
-  function win(m){var h=HUE[m.p]; if(!h) return 'pO'; if(m.sh==null) return 'eNA';
-    return mix('eW','e'+h+'4',(m.sh-SHARE[0])/(SHARE[1]-SHARE[0]));}
+  function mgOf(m){return m.u?100:m.mg;}   // points of all the votes over the runner-up; the unopposed, 100
+  function win(m){var h=HUE[m.p], v=mgOf(m); if(!h) return 'pO'; if(v==null) return 'eNA';
+    return mix('eW','e'+h+'4',v/MARGIN);}
   function swung(m){return m.sw==null?'eNA':mix('eN',m.sw>0?'eB4':'eR4',Math.abs(m.sw)/SWING);}
   function fc(t){return t.slice(0,2)==='v:'?'cv':t;}
   function fs(t){return t.slice(0,2)==='v:'?'fill:'+t.slice(2):'';}
@@ -199,7 +200,7 @@ details.cgr.er td:nth-child(3){font-weight:400}
     while((m=re.exec(d))){ if(m[1]==='M'){x=+m[2];y=+m[3];} else {x+=+m[2];y+=+m[3];}
       if(x<x0)x0=x;if(x>x1)x1=x;if(y<y0)y0=y;if(y>y1)y1=y; }
     return [x0,y0,x1,y1];}
-  // ---- the President: States (result, winner's share, swing) or Electors (a dot an elector, as voted)
+  // ---- the President: States (result, winner's margin, swing) or Electors (a dot an elector, as voted)
   var OFFE=[['VT',1],['NH',2],['MA',5],['RI',2],['CT',3],['NJ',5],['DE',3],['MD',4],['DC',3]];
   // Result: the winner's color; in Flips, the Congress maps' scheme (held light, flipped dark)
   function pFill(m,mode,flips){var h=HUE[m.p]; if(!h) return 'pO';
@@ -296,8 +297,8 @@ details.cgr.er td:nth-child(3){font-weight:400}
     // a shape shared by several seats: their common fill; on the continuous scales, their mean (one party, for share)
     function group(ms){var f={};ms.forEach(function(x){f[F(x)]=1;});var k=Object.keys(f);
       if(k.length===1) return k[0]; if(!k.length) return EV?'eNone':'pX';
-      var md=mode(), v=md==='s'?'sh':md==='w'?'sw':null, p=ms[0].p;
-      if(v&&ms.every(function(x){return x[v]!=null&&!x.x&&(v==='sw'||x.p===p);})){var o={p:p}; o[v]=ms.reduce(function(a,x){return a+x[v];},0)/ms.length; return F(o);}
+      var md=mode(), v=md==='s'?mgOf:md==='w'?function(x){return x.sw;}:null, p=ms[0].p;
+      if(v&&ms.every(function(x){return v(x)!=null&&!x.x&&(md==='w'||x.p===p);})){var o={p:p}; o[md==='s'?'mg':'sw']=ms.reduce(function(a,x){return a+v(x);},0)/ms.length; return F(o);}
       return 'pX';}
     svg._vb=VB.slice();
     var frame=fig.querySelector('.cgv')||fig, fine=false, lod=[], lodT=0;
@@ -477,7 +478,7 @@ details.cgr.er td:nth-child(3){font-weight:400}
   // election blocks: one view switch for both maps and the key
   [].forEach.call(document.querySelectorAll('.cg.el'),function(b){
     var vs=(b.querySelector('[data-views]')||{dataset:{views:'r s'}}).dataset.views.split(' ');
-    var names={r:'Result',s:'Vote share',w:'Swing'};
+    var names={r:'Result',s:'Margin',w:'Swing'};
     var bar=document.createElement('div'); bar.className='cgt elt';
     bar.innerHTML=vs.map(function(v){return '<button type="button" data-v="'+v+'" aria-pressed="'+(v==='r')+'">'+names[v]+'</button>';}).join('');
     var maps=b.querySelector('.cgmaps'); maps.parentNode.insertBefore(bar,maps);

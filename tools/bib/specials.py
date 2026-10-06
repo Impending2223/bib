@@ -2,7 +2,7 @@
 tools/congress/make_specials.py, which see) and congress/switches.yaml (kept by hand).
 
 congress.html puts, after each Congress at its opening, the specials held between general elections:
-a summary, House and Senate maps of the seats filled (the election blocks' views: Result, Vote share,
+a summary, House and Senate maps of the seats filled (the election blocks' views: Result, Margin,
 Swing), and a table of the races. Specials held with the November election are in that election's block,
 from the Clerk's returns; they are not repeated here. A calendar entry tagged special:<key> carries its
 race's table. The rosters' notes take each special's date and each switch from here.
@@ -210,11 +210,11 @@ def row(x, STATE, sw=None):
 
 
 def legend(has_sw):
-    from .elections import share_scale, swing_scale
+    from .elections import margin_scale, swing_scale
     sw = lambda k: f'<span class="sw e{k}"></span>'
     res = (f'<span class="lk lk-r">{sw("B2")}Democratic held {sw("B4")}Democratic pickup '
            f'{sw("R2")}Republican held {sw("R4")}Republican pickup {sw("None")}No special election</span>')
-    share = f'<span class="lk lk-s">The winner\'s share of all the votes,{share_scale()}</span>'
+    share = f'<span class="lk lk-s">The winner\'s margin over the runner-up, points of all the votes: {margin_scale()}</span>'
     swing = (f'<span class="lk lk-w">Swing from the general election that chose the Congress, same district, points: '
              f'{swing_scale()} {sw("NA")}None</span>') if has_sw else ""
     return f'<p class="cgkey elkey">{res}{share}{swing}</p>'
