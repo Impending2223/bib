@@ -779,8 +779,7 @@ def problems(series=None):
                     out.append((hw, "took office after Aug. 31, 1974: not in the period"))
                 if not o.get("many") and not h.get("acting") and prev and prev.get("to") is None:
                     out.append((hw, f"follows {prev['name']}, who has no 'to'"))
-                elif not o.get("many") and not h.get("acting") and prev and hi(prev["to"]) > lo(h["from"]) and \
-                        lo(prev["to"]) > lo(h["from"]):
+                elif not o.get("many") and not h.get("acting") and prev and lo(prev["to"]) > hi(h["from"]):
                     out.append((hw, f"overlaps {prev['name']} (to {prev['to']}); acting, or 'many: true'?"))
                 if prev and lo(h["from"]) < lo(prev["from"]):
                     out.append((hw, "holders out of order (by 'from')"))
