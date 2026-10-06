@@ -1,0 +1,126 @@
+# The United States Postal Service, from July 1, 1971, and the Postal Rate Commission. Kept by hand.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+# Sources: the Congressional Directory (CDIR, by edition), Wikipedia (leads only), the Statutes and the U.S.
+# Code, 1970 edition.
+unit: usps
+name: United States Postal Service
+under: president
+order: 500
+from: '1971-07-01'
+n: An independent establishment of the executive branch. The Board of Governors and the Postal Rate Commission were organized from the fall of 1970; the Service took over the Post Office Department's functions July 1, 1971.
+law:
+  - act: Postal Reorganization Act
+    date: '1970-08-12'
+    tags: [creates, powers, reorganizes]
+    cite: 'Pub. L. 91-375, § 2, 84 Stat. 719, 720'
+    usc: ['39 U.S.C. § 201 (1970)', '39 U.S.C. § 401 (1970)']
+    does: The United States Postal Service established as an independent establishment of the executive branch (§ 201), with the powers of a public corporation (§ 401). The functions of the Post Office Department and the Postmaster General transferred to it, on the day set by the Board, July 1, 1971 (§ 4(a)).
+offices:
+  - id: postmaster-general
+    title: Postmaster General
+    rank: head
+    appt: DES
+    law:
+      - act: Postal Reorganization Act
+        date: '1970-08-12'
+        tags: [appointment, pay, powers]
+        cite: 'Pub. L. 91-375, § 2, 84 Stat. 719, 720'
+        usc: ['39 U.S.C. § 202(c) (1970)', '39 U.S.C. § 203 (1970)']
+        does: The Governors appoint and may remove the Postmaster General, a voting member of the Board, his pay and term fixed by the Governors; the chief executive officer of the Postal Service.
+    n: Appointed by the Governors, not the President.
+    holders:
+      - name: Blount, Winton M.
+        from: '1971-07-01'
+        to: '1972-01-01'
+        out: Resigned; candidate for the Senate from Alabama.
+        n: 'Postmaster General of the Post Office Department from Jan. 22, 1969. Check the day he left; Wikipedia gives Jan. 1, 1972.'
+        src: [Wikipedia, CDIR 1973-03]
+      - name: Klassen, Elmer T.
+        appointed: '1971-12-07'
+        from: '1972-01-01'
+        n: Elected by the Board of Governors Dec. 7, 1971, effective Jan. 1, 1972 (CDIR). Served to Feb. 16, 1975.
+        src: [CDIR 1973-03, Wikipedia]
+
+  - id: deputy-postmaster-general
+    title: Deputy Postmaster General
+    rank: principal
+    appt: DES
+    law:
+      - act: Postal Reorganization Act
+        date: '1970-08-12'
+        tags: [appointment]
+        cite: 'Pub. L. 91-375, § 2, 84 Stat. 719, 720'
+        usc: ['39 U.S.C. § 202(d) (1970)', '39 U.S.C. § 203 (1970)']
+        does: The Governors and the Postmaster General appoint and may remove the Deputy Postmaster General, a voting member of the Board; the alternate chief executive officer.
+    holders:
+      - name: Hayden, Merrill A.
+        from: '1971'
+        to: '1972'
+        n: Listed in CDIR, Dec. 1971; not in Mar. 1973. Check the dates.
+        src: [CDIR 1971-12, CDIR 1973-03]
+
+  - id: board-chairman
+    title: Chairman, Board of Governors
+    rank: principal
+    appt: DES
+    law:
+      - act: Postal Reorganization Act
+        date: '1970-08-12'
+        tags: [creates, appointment, powers, pay]
+        cite: 'Pub. L. 91-375, § 2, 84 Stat. 719, 720'
+        usc: '39 U.S.C. § 202 (1970)'
+        does: The exercise of the power of the Postal Service directed by a Board of Governors of eleven; nine Governors appointed by the President with the Senate's consent, not more than five of one party, for nine years (the first for one to nine), removable only for cause, $10,000 a year and $300 a day of meetings; the Governors elect a Chairman from among the members.
+    n: Elected by the Governors. Check the first Chairman, 1971.
+    holders:
+      - name: Kappel, Frederick R.
+        from: '1972'
+        to: '1974'
+        n: Governor from 1971. Check the dates.
+        src: [Wikipedia]
+
+  - id: governors
+    title: Governor, United States Postal Service
+    rank: principal
+    appt: PAS
+    under: board-chairman
+    many: true
+    n: Nine Governors. Those named here held other posts in the roster.
+    holders:
+      - name: Kappel, Frederick R.
+        from: '1971'
+        n: Check the dates of nomination and confirmation.
+        src: [Wikipedia]
+      - name: Klassen, Elmer T.
+        from: '1971-01'
+        to: '1971-12-31'
+        out: To Postmaster General.
+        n: Check the dates of nomination and confirmation.
+        src: [CDIR 1973-03]
+
+  - id: postal-rate-commission-chairman
+    title: Chairman, Postal Rate Commission
+    rank: principal
+    appt: DES
+    group: Postal Rate Commission
+    n: The Commission an independent establishment of the executive branch, not part of the Postal Service; shown here with it.
+    law:
+      - act: Postal Reorganization Act
+        date: '1970-08-12'
+        tags: [creates, appointment, powers]
+        cite: 'Pub. L. 91-375, § 2, 84 Stat. 719, 759'
+        usc: ['39 U.S.C. §§ 3601–3604 (1970)', '39 U.S.C. §§ 3621–3625 (1970)']
+        does: A Postal Rate Commission of five Commissioners appointed by the President, not more than three of one party, for six years, removable only under 5 U.S.C. § 7521; one designated Chairman by the President, at his pleasure (§ 3601). Recommends rates and classes of mail to the Governors (§§ 3622–3625).
+    holders:
+      - name: Crowley, William J.
+        from: '1970-10-15'
+        to: '1973-05-01'
+        src: [Wikipedia, CDIR 1971-12]
+      - name: Ryan, John L.
+        from: '1973-08-04'
+        to: '1973-10-31'
+        n: Commissioner from Nov. 23, 1970.
+        src: [Wikipedia]
+      - name: Rhodes, Fred B.
+        from: '1974-01-18'
+        n: Served to Dec. 30, 1974.
+        src: [Wikipedia]

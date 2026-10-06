@@ -1,0 +1,69 @@
+# The Federal Mediation and Conciliation Service. Kept by hand.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: fmcs
+name: Federal Mediation and Conciliation Service
+under: president
+order: 500
+law:
+  - act: Labor Management Relations Act, 1947, title II
+    date: '1947-06-23'
+    tags: [creates, appointment, powers]
+    cite: 'ch. 120, §§ 202–203, 61 Stat. 136, 153'
+    usc: ['29 U.S.C. §§ 172–173 (1958)']
+    does: 'Creates an independent agency, the Federal Mediation and Conciliation Service, under a Director appointed by the President, by and with the advice and consent of the Senate; the functions of the Conciliation Service of the Department of Labor transferred to it. The Service may proffer its services in any labor dispute in an industry affecting commerce, to assist the parties to settle it through conciliation and mediation.'
+n: Directors as the Congressional Directory lists them and their biographies.
+offices:
+  - id: director
+    title: Director
+    rank: head
+    appt: PAS
+    level: IV
+    law:
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(d)(30), 78 Stat. 400, 418'
+        usc: '5 U.S.C. § 5315 (1970)'
+        does: Level IV, $27,000.
+    n: 'Check: the day Cyrus S. Ching, Director from Sept. 1947, left.'
+    holders:
+      - name: McCoy, Whitley P.
+        from: '1953'
+        to: '1955'
+        n: 'Check: the dates (Jan. 1954).'
+        src: [CDIR 1954-01]
+      - name: Finnegan, Joseph F.
+        from: '1955'
+        to: '1961'
+        n: 'Nominated by Eisenhower, Jan. 1955. Check: the dates (Feb. 1955 to Jan. 1960).'
+        src: ['Wikipedia: Joseph F. Finnegan', CDIR 1955-02, CDIR 1960-01]
+      - name: Simkin, William E.
+        from: '1961'
+        to: '1969'
+        n: 'Reappointed by Johnson. Check: the dates (Apr. 1961 to Dec. 1967).'
+        src: ['Wikipedia: William E. Simkin', CDIR 1961-04, CDIR 1967-12]
+      - name: Counts, J. Curtis
+        from: '1969'
+        to: '1973-03'
+        n: 'Check: the dates (Mar. 1969 to Mar. 1973).'
+        src: [CDIR 1969-03, CDIR 1973-03]
+      - name: Usery, W. J., Jr.
+        from: '1973-03'
+        n: Assistant Secretary of Labor before. Also Special Assistant to the President for Labor-Management Affairs from Jan. 1974. Served to Feb. 1976.
+        src: ['Wikipedia: William Usery Jr.', CDIR 1973-12]
+  - id: deputy-director
+    title: Deputy Director
+    rank: inferior
+    appt: HD
+    holders:
+      - name: Moore, Robert H.
+        from: '1957'
+        to: '1969'
+        n: 'Associate Director, 1957; Deputy Director from 1958. Check: the dates (Mar. 1957 to Mar. 1969).'
+        src: [CDIR 1957-03, CDIR 1969-03]
+      - name: McGinnis, Lowell M.
+        from: '1969'
+        to: '1973'
+        n: 'Check: the dates (Dec. 1969 to Mar. 1973).'
+        src: [CDIR 1969-12, CDIR 1973-03]

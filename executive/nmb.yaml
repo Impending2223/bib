@@ -1,0 +1,172 @@
+# The National Mediation Board. Kept by hand.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: nmb
+name: National Mediation Board
+under: president
+order: 500
+law:
+  - act: Railway Labor Act amendments of 1934
+    date: '1934-06-21'
+    tags: [creates, appointment, powers]
+    cite: 'ch. 691, § 2, 48 Stat. 1185, 1193'
+    usc: '45 U.S.C. § 154 (1958)'
+    does: 'Creates the National Mediation Board in place of the Board of Mediation: three members appointed by the President, by and with the advice and consent of the Senate, for three years, not more than two of one party; the Board annually designates a member to act as chairman. To mediate disputes between carriers and their employees, and to investigate and certify representatives.'
+  - act: Act of Apr. 10, 1936
+    date: '1936-04-10'
+    tags: [powers]
+    cite: 'ch. 166, 49 Stat. 1189'
+    usc: ['45 U.S.C. §§ 181–188 (1958)']
+    does: The Railway Labor Act extended to carriers by air.
+n: Members as the Congressional Directory lists them at each edition; dates known only to the year carry a Check.
+offices:
+  - id: chairman
+    title: Chairman
+    rank: head
+    appt: DES
+    level: III
+    law:
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(c)(28), 78 Stat. 400, 417'
+        usc: '5 U.S.C. § 5314 (1970)'
+        does: Level III, $28,500.
+    n: 'Designated by the Board for a year, by rotation. Check: the chairmen for 1965–66 and 1972–73.'
+    holders:
+      - name: O'Neill, Francis A., Jr.
+        from: '1952-07'
+        to: '1955-06'
+        n: 'Check: the term (chairman in the Directory of Mar. 1953, Jan. 1954, Feb. 1955); the Board''s year taken as July 1–June 30.'
+        src: [Congressional Directory]
+      - name: Edwards, Leverett
+        from: '1955-07'
+        to: '1956-06'
+        n: 'Check: the term (chairman in the Directory of Jan. 1956); the Board''s year taken as July 1–June 30.'
+        src: [Congressional Directory]
+      - name: Boyd, Robert O.
+        from: '1956-07'
+        to: '1957-06'
+        n: 'Check: the term (chairman in the Directory of Mar. 1957); the Board''s year taken as July 1–June 30.'
+        src: [Congressional Directory]
+      - name: O'Neill, Francis A., Jr.
+        from: '1957-07'
+        to: '1958-06'
+        n: 'Check: the term (chairman in the Directory of Jan. 1958); the Board''s year taken as July 1–June 30.'
+        src: [Congressional Directory]
+      - name: Edwards, Leverett
+        from: '1958-07'
+        to: '1959-06'
+        n: 'Check: the term (chairman in the Directory of Mar. 1959); the Board''s year taken as July 1–June 30.'
+        src: [Congressional Directory]
+      - name: Boyd, Robert O.
+        from: '1959-07'
+        to: '1960-06'
+        n: 'Check: the term (chairman in the Directory of Jan. 1960); the Board''s year taken as July 1–June 30.'
+        src: [Congressional Directory]
+      - name: O'Neill, Francis A., Jr.
+        from: '1960-07'
+        to: '1961-06'
+        n: 'Check: the term (chairman in the Directory of Apr. 1961); the Board''s year taken as July 1–June 30.'
+        src: [Congressional Directory]
+      - name: Edwards, Leverett
+        from: '1961-07'
+        to: '1963-06'
+        n: 'Check: the term (chairman in the Directory of Jan. 1962, Mar. 1963); the Board''s year taken as July 1–June 30.'
+        src: [Congressional Directory]
+      - name: O'Neill, Francis A., Jr.
+        from: '1963-07'
+        to: '1964-06'
+        n: 'Check: the term (chairman in the Directory of Jan. 1964); the Board''s year taken as July 1–June 30.'
+        src: [Congressional Directory]
+      - name: Gamser, Howard G.
+        from: '1964-07'
+        to: '1965-06'
+        n: 'Check: the term (chairman in the Directory of Mar. 1965); the Board''s year taken as July 1–June 30.'
+        src: [Congressional Directory]
+      - name: O'Neill, Francis A., Jr.
+        from: '1966-07'
+        to: '1967-06'
+        n: 'Check: the term (chairman in the Directory of Feb. 1967); the Board''s year taken as July 1–June 30.'
+        src: [Congressional Directory]
+      - name: Gamser, Howard G.
+        from: '1967-07'
+        to: '1968-06'
+        n: 'Check: the term (chairman in the Directory of Dec. 1967); the Board''s year taken as July 1–June 30.'
+        src: [Congressional Directory]
+      - name: Edwards, Leverett
+        from: '1968-07'
+        to: '1969-06'
+        n: 'Check: the term (chairman in the Directory of Mar. 1969); the Board''s year taken as July 1–June 30.'
+        src: [Congressional Directory]
+      - name: O'Neill, Francis A., Jr.
+        from: '1969-07'
+        to: '1970-06'
+        n: 'Check: the term (chairman in the Directory of Dec. 1969); the Board''s year taken as July 1–June 30.'
+        src: [Congressional Directory]
+      - name: Ives, George S.
+        from: '1970-07'
+        to: '1972-06'
+        n: 'Check: the term (chairman in the Directory of Mar. and Dec. 1971); the Board''s year taken as July 1–June 30.'
+        src: [Congressional Directory]
+      - name: McMurray, Kay
+        from: '1973-07'
+        n: 'Check: the term (chairman in the Directory of Dec. 1973); the Board''s year taken as July 1–June 30.'
+        src: [Congressional Directory]
+  - id: member
+    title: Member
+    rank: principal
+    appt: PAS
+    many: true
+    law:
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(d)(68), 78 Stat. 400, 419'
+        usc: '5 U.S.C. § 5315 (1970)'
+        does: Members at Level IV, $27,000.
+    n: Three members, the chairman among them.
+    holders:
+      - name: O'Neill, Francis A., Jr.
+        from: '1947'
+        to: '1971'
+        n: 'Check: the dates (in office by Mar. 1953; listed Mar. 1971, not Dec. 1971).'
+        src: [CDIR 1953-03, CDIR 1971-03]
+      - name: Edwards, Leverett
+        from: '1950'
+        to: '1969'
+        n: 'Check: the dates (in office by Mar. 1953; listed Dec. 1969, not Mar. 1971).'
+        src: [CDIR 1953-03, CDIR 1969-12]
+      - name: Scott, John Thad, Jr.
+        from: '1950'
+        to: '1953-03'
+        n: 'Check: the dates (listed Mar. 1953, not Jan. 1954).'
+        src: [CDIR 1953-03]
+      - name: Boyd, Robert O.
+        from: '1953'
+        to: '1962'
+        n: 'Check: the dates (listed Jan. 1954 to Jan. 1962).'
+        src: [CDIR 1954-01, CDIR 1962-01]
+      - name: Gamser, Howard G.
+        from: '1962'
+        to: '1969'
+        n: 'Check: the dates (listed Mar. 1963 to Mar. 1969).'
+        src: [CDIR 1963-03, CDIR 1969-03]
+      - name: Ives, George S.
+        from: '1969'
+        n: 'Check: the day he took office (listed Dec. 1969). Listed Dec. 1973.'
+        src: [CDIR 1969-12, CDIR 1973-12]
+      - name: Stowe, David H.
+        from: '1970'
+        n: 'Formerly on the White House staff. Check: the day he took office (listed Mar. 1971). Listed Dec. 1973.'
+        src: [CDIR 1971-03, CDIR 1973-12]
+      - name: Benedict, Peter C.
+        from: '1971'
+        to: '1973'
+        n: 'Check: the dates (listed Dec. 1971 only).'
+        src: [CDIR 1971-12]
+      - name: McMurray, Kay
+        from: '1973'
+        n: 'Check: the day he took office (listed chairman Dec. 1973).'
+        src: [CDIR 1973-12]
