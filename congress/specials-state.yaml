@@ -1,0 +1,14 @@
+# Special elections to Congress, read from the States' own returns (kept by hand). Laid over the generated
+# congress/specials.yaml when it loads (tools/bib/specials.py): a race here shows these votes, by round, and
+# cites the publication and page. Where each State's returns are: sources/states.yaml.
+#
+# <key in specials.yaml>:
+#   source: the publication, as titled            where: edition and printed page     url: the copy read
+#   rounds: [{date, label (special primary | special election ...), cands [[name, party, votes]], scattering?, total?}]
+#     earlier first: an open first round (a California special primary), then the deciding one; party
+#     nominating primaries are not rounds (give their dates in note). Parties D, R, or the label printed.
+#   checked: what was checked (sums to the printed total; county figures)   note: shown with the race
+#   differs_from_wikipedia: shares that differ by more than 0.2 points from specials.yaml (Wikipedia)
+# ./bib check fails on a key not in specials.yaml, a round whose votes do not add to its printed total, or a
+# winner missing from the last round.
+{}

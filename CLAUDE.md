@@ -307,15 +307,22 @@ notes in `tools/bib/specials.py`.
 
 ```
 tools/congress/make_specials.py   writes congress/specials.yaml from Wikipedia (needs the network)
+congress/specials-state.yaml      votes read from the States' own returns, by hand (laid over specials.yaml)
 tools/bib/specials.py             renders the blocks, the calendar's race tables, the roster notes' dates; checks
 ```
 
-- Shares are Wikipedia's tables of each year's House specials ("<year> United States House of
+- Votes: where a State's own returns print a special (`sources/states.yaml`, `best_for_specials`), its
+  figures go in `congress/specials-state.yaml`, keyed by the race, with the publication, edition, page and
+  copy read (header there). The race then shows votes by round and cites them; Wikipedia's shares stay
+  in `specials.yaml` underneath. A date the State's returns correct goes in `STATE` in `make_specials.py`.
+
+- Otherwise, shares are Wikipedia's tables of each year's House specials ("<year> United States House of
   Representatives elections"): percentages, no votes. Texas, 1961 (Tower): votes by round, from
   Bartley and Graham, *Southern Elections*. The official returns are the States' canvasses.
 - Where Wikipedia's list and its year table disagree on a date, the table's is used and the race
   carries a "Check"; so do shares that do not add to 100.
-- `check` fails on a duplicate key, a `special:` tag with no race, or a switch not at its seat.
+- `check` fails on a duplicate key, a `special:` tag with no race, a switch not at its seat, or a reading
+  whose votes do not add to its printed total or whose last round lacks the winner.
 - The 85th and 86th Congresses (1957–60) have no rosters and no specials.
 
 ## Elections
