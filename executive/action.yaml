@@ -9,16 +9,16 @@ law:
   - act: Reorganization Plan No. 1 of 1971
     date: '1971-07-01'
     tags: [creates, appointment, vacancy, pay, reorganizes]
-    cite: '85 Stat. 819'
-    does: 'Establishes in the executive branch an agency known as Action, headed by a Director appointed by the President with the advice and consent of the Senate, at level III; a Deputy Director, appointed the same way, at level IV, who acts in a vacancy; up to four Associate Directors, at level V. Transfers to it VISTA and the other volunteer programs of the Office of Economic Opportunity, the Foster Grandparents and Retired Senior Volunteer programs, and SCORE and ACE.'
+    cite: 85 Stat. 819
+    does: Establishes in the executive branch an agency known as Action, headed by a Director appointed by the President with the advice and consent of the Senate, at level III; a Deputy Director, appointed the same way, at level IV, who acts in a vacancy; up to four Associate Directors, at level V. Transfers to it VISTA and the other volunteer programs of the Office of Economic Opportunity, the Foster Grandparents and Retired Senior Volunteer programs, and SCORE and ACE.
   - act: Executive Order 11603
     date: '1971-06-30'
     effective: '1971-07-01'
     tags: [reorganizes, powers]
-    cite: '36 Fed. Reg. 12675'
+    cite: 36 Fed. Reg. 12675
+    does: Delegates to the Director of Action the functions under the Peace Corps Act, which the Peace Corps carries on within Action.
     url: https://www.presidency.ucsb.edu/documents/executive-order-11603-assigning-additional-functions-the-director-action
-    does: 'Delegates to the Director of Action the functions under the Peace Corps Act, which the Peace Corps carries on within Action.'
-n: 'An independent agency, created July 1, 1971. Its Associate Director for International Operations was the Director of the Peace Corps.'
+n: An independent agency, created July 1, 1971. Its Associate Director for International Operations was the Director of the Peace Corps.
 offices:
   - id: director
     title: Director of ACTION
@@ -28,15 +28,20 @@ offices:
     holders:
       - name: Blatchford, Joseph H.
         from: '1971-07-01'
-        to: '1973-02'
+        to: 1973-02
         n: 'Director of the Peace Corps, May 1969–June 1971. Check: the day he left (FRUS: to February 1973; CDIR 1973-03 lists the post vacant).'
-        src: [FRUS persons list, CDIR 1971-12, CDIR 1973-03]
+        src:
+          - FRUS persons list
+          - CDIR 1971-12
+          - CDIR 1973-03
       - name: Balzano, Michael P., Jr.
         nominated: '1973-03-06'
         confirmed: '1973-04-06'
-        from: '1973-04'
+        from: 1973-04
         n: 'Nomination referred jointly to Foreign Relations and Labor and Public Welfare; confirmation deferred Mar. 26 for a hearing. Check: the day he took office.'
-        src: ['Cong. Rec. 1973, 6695, 11368', 'Cong. Rec. 1973, 9384']
+        src:
+          - Cong. Rec. 1973, 6695, 11368
+          - Cong. Rec. 1973, 9384
   - id: deputy-director
     title: Deputy Director of ACTION
     rank: principal
@@ -49,11 +54,15 @@ offices:
         from: '1971-07-01'
         to: '1972'
         n: 'Deputy Director (acting) in CDIR 1971-12. Check: the days.'
-        src: [CDIR 1971-12]
+        src:
+          - CDIR 1971-12
       - name: Howe, Walter C., Jr.
+        confirmed: '1972-04-10'
         from: '1972'
         n: 'Check: the days; in CDIR 1973-03.'
-        src: [CDIR 1973-03]
+        src:
+          - CDIR 1973-03
+          - Cong. Rec.
   - id: peace-corps
     title: Associate Director for International Operations (Director of the Peace Corps)
     rank: inferior
@@ -65,17 +74,20 @@ offices:
         from: '1971-07-01'
         to: '1972'
         n: 'Acting Associate Director for International Operations in CDIR 1971-12. Check: the days, and his title as Director of the Peace Corps.'
-        src: [CDIR 1971-12]
+        src:
+          - CDIR 1971-12
       - name: Hess, Donald K.
         from: '1972'
         to: '1973'
         n: 'Check: the days; in CDIR 1973-03.'
-        src: [CDIR 1973-03]
+        src:
+          - CDIR 1973-03
       - name: Craw, Nicholas W.
         acting: true
         from: '1973'
         n: 'Associate Director for Citizens Placement, 1971–73; Acting Associate Director for International Operations in CDIR 1973-12. Check: the days.'
-        src: [CDIR 1973-12]
+        src:
+          - CDIR 1973-12
   - id: domestic
     title: Associate Director for Domestic and Antipoverty Operations
     rank: inferior
@@ -86,4 +98,6 @@ offices:
       - name: Mould, Christopher M.
         from: '1971-07-01'
         n: 'Acting in CDIR 1971-12; Associate Director in CDIR 1973-03. Check: the days.'
-        src: [CDIR 1971-12, CDIR 1973-03]
+        src:
+          - CDIR 1971-12
+          - CDIR 1973-03
