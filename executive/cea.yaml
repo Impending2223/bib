@@ -1,0 +1,255 @@
+# The Council of Economic Advisers. Kept by hand.
+# Dates of office: the oath and separation dates in the Council's annual reports to the President,
+# printed with the Economic Report (ERP 1962-1975, FRASER), cited as "ERP 1975, p. 235".
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: cea
+name: Council of Economic Advisers
+under: eop
+order: 30
+law:
+  - act: Employment Act of 1946
+    date: '1946-02-20'
+    cite: 'ch. 33, § 4, 60 Stat. 23, 24'
+    usc: '15 U.S.C. § 1023 (1958)'
+    tags: [creates, appointment, pay, powers]
+    does: 'Creates in the Executive Office of the President a Council of Economic Advisers of three members, appointed by the President by and with the advice and consent of the Senate, each exceptionally qualified to analyze and interpret economic developments; $15,000 a year; the President designates one chairman and one vice chairman. The Council assists in the Economic Report, gathers information on economic trends, appraises the Government''s programs, and reports to the President.'
+  - act: Reorganization Plan No. 9 of 1953
+    date: '1953-08-01'
+    cite: '67 Stat. 644'
+    usc: '15 U.S.C. § 1023 note (1958)'
+    url: https://www.presidency.ucsb.edu/documents/special-message-the-congress-transmitting-reorganization-plan-9-1953-concerning-the
+    tags: [powers, reorganizes]
+    does: 'Transfers to the Chairman the Council''s functions of employing and fixing the pay of its staff (§ 4(b)) and of reporting to the President (§ 4(c)); abolishes the vice chairman.'
+offices:
+  - id: chairman
+    title: Chairman of the Council of Economic Advisers
+    rank: head
+    appt: DES
+    level: II
+    n: 'A member, nominated and confirmed as such, designated chairman by the President.'
+    law:
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07-01'
+        cite: 'Pub. L. 88-426, § 303(b)(9), 78 Stat. 400, 416'
+        until: '1966-09-06'
+        tags: [pay]
+        does: Level II of the Federal Executive Salary Schedule, $30,000.
+      - act: Act of Sept. 6, 1966 (Title 5 enacted)
+        date: '1966-09-06'
+        cite: 'Pub. L. 89-554, 80 Stat. 378, 460'
+        usc: '5 U.S.C. § 5313 (1970)'
+        tags: [pay]
+        does: Chairman, Council of Economic Advisers, at level II of the Executive Schedule.
+    holders:
+      - name: Keyserling, Leon H.
+        from: '1950-05-10'
+        to: '1953-01-20'
+        out: Resigned at the change of Administration.
+        n: 'Acting chairman from Nov. 2, 1949. Council without a chairman Jan. 20–Mar. 19, 1953.'
+        src: [ERP 1975, p. 235]
+      - name: Burns, Arthur F.
+        from: '1953-03-19'
+        to: '1956-12-01'
+        out: Resigned.
+        n: 'ERP 1957 gives Mar. 18, 1953 for joining the Council; ERP 1975 lists the oath on Mar. 19.'
+        src: [ERP 1957, ERP 1975, p. 235]
+      - name: Saulnier, Raymond J.
+        from: '1956-12-03'
+        to: '1961-01-20'
+        out: Resigned.
+        n: A member from Apr. 4, 1955.
+        src: [ERP 1958, ERP 1962, ERP 1975, p. 235]
+      - name: Heller, Walter W.
+        from: '1961-01-29'
+        to: '1964-11-15'
+        out: Resigned; to the University of Minnesota.
+        n: 'Check: ERP 1962 says he took office Jan. 27, 1961; the later lists of members give the oath on Jan. 29.'
+        src: [ERP 1962, ERP 1965, ERP 1975, p. 235]
+      - name: Ackley, Gardner
+        given: Hugh Gardner
+        from: '1964-11-16'
+        to: '1968-02-15'
+        out: To Ambassador to Italy.
+        n: A member from Aug. 3, 1962.
+        src: [ERP 1965, ERP 1969, ERP 1975, p. 235]
+      - name: Okun, Arthur M.
+        from: '1968-02-15'
+        to: '1969-01-20'
+        out: Resigned at the change of Administration.
+        n: A member from Nov. 16, 1964.
+        src: [ERP 1969, ERP 1975, p. 235]
+      - name: McCracken, Paul W.
+        from: '1969-02-04'
+        to: '1971-12-31'
+        out: Resigned; to the University of Michigan.
+        n: A member Dec. 3, 1956–Jan. 31, 1959.
+        src: [ERP 1975, p. 235]
+      - name: Stein, Herbert
+        from: '1972-01-01'
+        to: '1974-08-31'
+        out: Resigned; to the University of Virginia.
+        n: 'A member from Feb. 4, 1969. Greenspan sworn as chairman Sept. 4, 1974.'
+        src: [ERP 1975, p. 235]
+  - id: vice-chairman
+    title: Vice Chairman of the Council of Economic Advisers
+    rank: principal
+    appt: DES
+    until: '1953-08-01'
+    n: Abolished by Reorganization Plan No. 9 of 1953.
+    holders:
+      - name: Clark, John D.
+        from: '1950-05-10'
+        to: '1953-02-11'
+        out: Resigned.
+        n: A member from Aug. 9, 1946. The office not filled again.
+        src: [ERP 1975, p. 235]
+  - id: member
+    title: Member of the Council of Economic Advisers
+    rank: principal
+    appt: PAS
+    level: IV
+    many: true
+    n: 'Three members, the chairman among them; the chairman''s service as chairman is under that office. Each member also listed here for service as member only.'
+    law:
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07-01'
+        cite: 'Pub. L. 88-426, § 303(d)(55), 78 Stat. 400, 419'
+        until: '1966-09-06'
+        tags: [pay]
+        does: Members, Council of Economic Advisers, at level IV.
+      - act: Act of Sept. 6, 1966 (Title 5 enacted)
+        date: '1966-09-06'
+        cite: 'Pub. L. 89-554, 80 Stat. 378, 462'
+        usc: '5 U.S.C. § 5315 (1970)'
+        tags: [pay]
+        does: Members, Council of Economic Advisers, at level IV of the Executive Schedule.
+    holders:
+      - name: Turner, Robert C.
+        from: '1952-09-08'
+        to: '1953-01-20'
+        out: Resigned at the change of Administration.
+        src: [ERP 1975, p. 235]
+      - name: Jacoby, Neil H.
+        from: '1953-09-15'
+        to: '1955-02-09'
+        out: Resigned; to the University of California, Los Angeles.
+        src: [ERP 1956, ERP 1975, p. 235]
+      - name: Stewart, Walter W.
+        from: '1953-12-02'
+        to: '1955-04-29'
+        out: Resigned; a consultant to the Council after.
+        src: [ERP 1956, ERP 1975, p. 235]
+      - name: Saulnier, Raymond J.
+        nominated: '1955-03-23'
+        confirmed: '1955-04-01'
+        from: '1955-04-04'
+        to: '1956-12-03'
+        out: To Chairman.
+        src: [ERP 1956, ERP 1975, p. 235]
+      - name: Davis, Joseph S.
+        nominated: '1955-03-23'
+        confirmed: '1955-04-01'
+        from: '1955-05-02'
+        to: '1958-10-31'
+        out: Resigned.
+        src: [ERP 1956, ERP 1959, ERP 1975, p. 235]
+      - name: McCracken, Paul W.
+        from: '1956-12-03'
+        to: '1959-01-31'
+        out: Resigned; to the University of Michigan.
+        n: Formerly of the Council's senior staff.
+        src: [ERP 1957, ERP 1960, ERP 1975, p. 235]
+      - name: Brandt, Karl
+        recess: '1958-11'
+        confirmed: '1959-03-12'
+        from: '1958-11-01'
+        to: '1961-01-20'
+        out: Resigned at the change of Administration.
+        n: 'An interim appointment, Nov. 1958; nominated when Congress met in Jan. 1959.'
+        src: [ERP 1959, ERP 1960, ERP 1975, p. 235]
+      - name: Wallich, Henry C.
+        appointed: '1959-04-15'
+        confirmed: '1959-05-05'
+        from: '1959-05-07'
+        to: '1961-01-20'
+        out: Resigned at the change of Administration.
+        n: 'ERP 1960 says "appointed a member of the Council on April 15, 1959"; read as the nomination. Check.'
+        src: [ERP 1960, ERP 1975, p. 235]
+      - name: Gordon, Kermit
+        from: '1961-01-29'
+        to: '1962-12-27'
+        out: To Director of the Bureau of the Budget.
+        n: 'Check: ERP 1962 gives Jan. 27, 1961.'
+        src: [ERP 1962, ERP 1975, p. 235]
+      - name: Tobin, James
+        from: '1961-01-29'
+        to: '1962-07-31'
+        out: Resigned; to Yale.
+        n: 'Check: ERP 1962 gives Jan. 27, 1961.'
+        src: [ERP 1962, ERP 1963, ERP 1975, p. 235]
+      - name: Ackley, Gardner
+        given: Hugh Gardner
+        from: '1962-08-03'
+        to: '1964-11-16'
+        out: To Chairman.
+        src: [ERP 1975, p. 235]
+      - name: Lewis, John P.
+        from: '1963-05-17'
+        to: '1964-08-31'
+        out: To Director of the AID mission to India.
+        src: [ERP 1964, ERP 1965, ERP 1975, p. 235]
+      - name: Eckstein, Otto
+        from: '1964-09-02'
+        to: '1966-02-01'
+        out: Resigned; to Harvard.
+        src: [ERP 1965, ERP 1967, ERP 1975, p. 235]
+      - name: Okun, Arthur M.
+        from: '1964-11-16'
+        to: '1968-02-15'
+        out: To Chairman.
+        src: [ERP 1965, ERP 1975, p. 235]
+      - name: Duesenberry, James S.
+        from: '1966-02-02'
+        to: '1968-06-30'
+        out: Resigned; to Harvard.
+        src: [ERP 1967, ERP 1969, ERP 1975, p. 235]
+      - name: Peck, Merton J.
+        from: '1968-02-15'
+        to: '1969-01-20'
+        out: Resigned at the change of Administration.
+        src: [ERP 1969, ERP 1975, p. 235]
+      - name: Smith, Warren L.
+        from: '1968-07-01'
+        to: '1969-01-20'
+        out: Resigned at the change of Administration.
+        src: [ERP 1969, ERP 1975, p. 235]
+      - name: Houthakker, Hendrik S.
+        from: '1969-02-04'
+        to: '1971-07-15'
+        out: Resigned; to Harvard.
+        src: [ERP 1975, p. 235]
+      - name: Stein, Herbert
+        from: '1969-02-04'
+        to: '1972-01-01'
+        out: To Chairman.
+        src: [ERP 1975, p. 235]
+      - name: Solomon, Ezra
+        from: '1971-09-09'
+        to: '1973-03-26'
+        out: Resigned; to Stanford.
+        src: [ERP 1974, ERP 1975, p. 235]
+      - name: Whitman, Marina v.N.
+        given: Marina von Neumann
+        from: '1972-03-13'
+        to: '1973-08-15'
+        out: Resigned; to the University of Pittsburgh.
+        src: [ERP 1974, ERP 1975, p. 235]
+      - name: Seevers, Gary L.
+        from: '1973-07-18'
+        n: Formerly special assistant to the Chairman.
+        src: [ERP 1974, ERP 1975]
+      - name: Fellner, William J.
+        from: '1973-10-31'
+        src: [ERP 1974, ERP 1975]

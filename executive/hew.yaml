@@ -1,0 +1,220 @@
+# The Department of Health, Education, and Welfare, from Apr. 11, 1953 (before it, executive/fsa.yaml).
+# Kept by hand. Sources: the Congressional Directory (CDIR, by edition), Wikipedia, APP, the Statutes at Large.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: hew
+name: Department of Health, Education, and Welfare
+under: president
+order: 120
+from: '1953-04-11'
+law:
+  - act: Reorganization Plan No. 1 of 1953
+    date: '1953-04-11'
+    cite: '67 Stat. 631'
+    usc: '5 U.S.C. § 133z-15 note (1958)'
+    tags: [creates, reorganizes]
+    does: 'Establishes the Department; all functions of the Federal Security Administrator to the Secretary; all agencies of the Federal Security Agency to the Department; the Agency abolished.'
+  - act: Joint resolution of Apr. 1, 1953 (Pub. L. 83-13)
+    date: '1953-04-01'
+    effective: '1953-04-11'
+    cite: 'ch. 14, 67 Stat. 18'
+    usc: '5 U.S.C. § 623 (1958)'
+    tags: [creates]
+    does: 'Reorganization Plan No. 1 of 1953 to take effect ten days after enactment.'
+  - act: Reorganization Plan No. 1 of 1953, §§ 6–7
+    date: '1953-04-11'
+    cite: '67 Stat. 631, 632'
+    tags: [powers]
+    does: 'The Secretary may authorize any officer or employee of the Department to perform his functions, and may establish central administrative services.'
+  - act: Act of July 31, 1956 (Pub. L. 84-853)
+    date: '1956-07-31'
+    cite: 'ch. 803, 70 Stat. 733'
+    usc: '5 U.S.C. § 1 (1958)'
+    tags: [creates]
+    does: 'The Department of Health, Education, and Welfare added to the executive departments listed in Rev. Stat. § 158.'
+  - act: Reorganization Plan No. 3 of 1966
+    date: '1966-06-25'
+    cite: '80 Stat. 1610'
+    usc: '42 U.S.C. § 202 note (1970)'
+    tags: [reorganizes, powers]
+    does: 'The functions of the Surgeon General and of the Public Health Service, its officers and agencies, to the Secretary.'
+n: 'Successor to the Federal Security Agency. The Public Health Service, the Office of Education, the Social Security Administration (with the Children''s Bureau), the Office of Vocational Rehabilitation and the Food and Drug Administration came over whole.'
+offices:
+  - id: secretary
+    title: Secretary of Health, Education, and Welfare
+    rank: head
+    appt: PAS
+    level: I
+    law:
+      - act: Reorganization Plan No. 1 of 1953, § 1
+        date: '1953-04-11'
+        cite: '67 Stat. 631'
+        tags: [creates, appointment, pay]
+        does: 'A Secretary at the head of the Department, appointed by the President with the consent of the Senate, paid as the heads of executive departments.'
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        cite: 'Pub. L. 88-426, § 303(a), 78 Stat. 400, 416'
+        usc: '5 U.S.C. § 2211(a) (1964)'
+        tags: [pay]
+        until: '1966-09-06'
+        does: 'Level I of the Federal Executive Salary Schedule.'
+      - act: Act of Sept. 6, 1966 (Title 5 enacted)
+        date: '1966-09-06'
+        cite: 'Pub. L. 89-554, 80 Stat. 378, 460'
+        usc: '5 U.S.C. § 5312 (1970)'
+        tags: [pay]
+        does: 'Level I of the Executive Schedule.'
+    holders:
+      - name: Hobby, Oveta Culp
+        from: '1953-04-11'
+        to: '1955-07-31'
+        out: Resigned.
+        n: 'Federal Security Administrator from Jan. 21, 1953. Resignation accepted July 13, 1955.'
+        src: ['Wikipedia: Oveta Culp Hobby', APP 1955-07-13, CDIR 1954-01]
+      - name: Folsom, Marion B.
+        given: Marion Bayard
+        from: '1955-08-01'
+        to: '1958-07-31'
+        out: Resigned.
+        n: 'Check: Wikipedia''s list of secretaries gives Aug. 2, 1955. Resignation accepted May 7, 1958.'
+        src: ['Wikipedia: Marion B. Folsom', APP 1958-05-07, CDIR 1956-01]
+      - name: Flemming, Arthur S.
+        given: Arthur Sherwood
+        from: '1958-08-01'
+        to: '1961-01-19'
+        out: Resigned.
+        n: Resignation accepted Jan. 15, 1961.
+        src: ['Wikipedia: Arthur Flemming', APP 1961-01-15, CDIR 1959-03]
+      - name: Ribicoff, Abraham A.
+        from: '1961-01-21'
+        to: '1962-07-13'
+        out: Resigned, to run for the Senate in Connecticut.
+        src: ['Wikipedia: Abraham Ribicoff', APP 1962-07-13, CDIR 1961-04]
+      - name: Nestingen, Ivan A.
+        given: Ivan Arnold
+        acting: true
+        from: '1962-07-13'
+        to: '1962-07-31'
+        n: 'The Under Secretary, acting by Reorganization Plan No. 1 of 1953, § 2. Check the days.'
+        src: [67 Stat. 631]
+      - name: Celebrezze, Anthony J.
+        given: Anthony Joseph
+        from: '1962-07-31'
+        to: '1965-08-17'
+        out: Resigned; to judge, Court of Appeals, Sixth Circuit.
+        n: 'Sworn July 31, 1962. Nomination as judge announced July 27, 1965; resignation accepted July 28.'
+        src: ['Wikipedia: Anthony J. Celebrezze', APP 1962-07-31, APP 1965-07-28]
+      - name: Gardner, John W.
+        given: John William
+        from: '1965-08-18'
+        to: '1968-03-01'
+        out: Resigned.
+        n: Sworn Aug. 18, 1965.
+        src: ['Wikipedia: John W. Gardner', APP 1965-08-18]
+      - name: Cohen, Wilbur J.
+        given: Wilbur Joseph
+        acting: true
+        from: '1968-03-01'
+        to: '1968-05-16'
+        n: The Under Secretary, acting by the plan, § 2.
+        src: ['FRUS persons list', 'Wikipedia: Wilbur J. Cohen']
+      - name: Cohen, Wilbur J.
+        given: Wilbur Joseph
+        from: '1968-05-16'
+        to: '1969-01-20'
+        n: Sworn May 16, 1968.
+        src: ['Wikipedia: Wilbur J. Cohen', APP 1968-05-16]
+      - name: Finch, Robert H.
+        given: Robert Hutchison
+        from: '1969-01-21'
+        to: '1970-06-23'
+        out: To Counselor to the President.
+        src: ['Wikipedia: Robert Finch (politician)', APP 1970-06-24, CDIR 1969-03]
+      - name: Richardson, Elliot L.
+        given: Elliot Lee
+        from: '1970-06-24'
+        to: '1973-01-29'
+        out: To Secretary of Defense.
+        n: Sworn June 24, 1970.
+        src: ['Wikipedia: Elliot Richardson', APP 1970-06-24, 'FRUS persons list']
+      - name: Weinberger, Caspar W.
+        given: Caspar Willard
+        from: '1973-02-12'
+        n: 'Sworn Feb. 12, 1973; served to Aug. 8, 1975. Check: who acted Jan. 29–Feb. 12, 1973.'
+        src: ['Wikipedia: Caspar Weinberger', APP 1973-02-12, 'FRUS persons list']
+  - id: under-secretary
+    title: Under Secretary of Health, Education, and Welfare
+    rank: principal
+    appt: PAS
+    level: III
+    law:
+      - act: Reorganization Plan No. 1 of 1953, § 2
+        date: '1953-04-11'
+        cite: '67 Stat. 631'
+        tags: [creates, appointment, vacancy]
+        does: 'An Under Secretary, appointed by the President with the consent of the Senate; acts as Secretary in his absence or disability or a vacancy in the office.'
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        cite: 'Pub. L. 88-426, § 303(c), 78 Stat. 400, 417'
+        tags: [pay]
+        until: '1966-09-06'
+        does: Level III.
+      - act: Act of Sept. 6, 1966 (Title 5 enacted)
+        date: '1966-09-06'
+        cite: 'Pub. L. 89-554, 80 Stat. 378, 460'
+        usc: '5 U.S.C. § 5314 (1970)'
+        tags: [pay]
+        does: Level III of the Executive Schedule.
+    n: Vacant Apr. 11–June 11, 1953; Dec. 23, 1954–Sept. 11, 1955; Feb. 5–Apr. 4, 1957; Mar. 7–18, 1958; May 17–July 14, 1968.
+    holders:
+      - name: Rockefeller, Nelson A.
+        given: Nelson Aldrich
+        from: '1953-06-11'
+        to: '1954-12-22'
+        out: Resigned; to Special Assistant to the President.
+        src: ['Wikipedia: Deputy Secretary of HHS (citing A Common Thread of Service)', CDIR 1954-01]
+      - name: Hunt, Herold C.
+        given: Herold Christian
+        from: '1955-09-12'
+        to: '1957-02-04'
+        out: Resigned.
+        src: ['Wikipedia: Deputy Secretary of HHS (citing A Common Thread of Service)', CDIR 1956-01]
+      - name: Perkins, John A.
+        given: John Alanson
+        from: '1957-04-05'
+        to: '1958-03-06'
+        out: Resigned.
+        src: ['Wikipedia: Deputy Secretary of HHS (citing A Common Thread of Service)', CDIR 1958-01]
+      - name: Adkins, Bertha S.
+        given: Bertha Sheppard
+        from: '1958-03-19'
+        to: '1961-01-19'
+        src: ['Wikipedia: Deputy Secretary of HHS (citing A Common Thread of Service)', CDIR 1959-03]
+      - name: Nestingen, Ivan A.
+        given: Ivan Arnold
+        from: '1961-01-21'
+        to: '1965-05-31'
+        out: Resigned.
+        n: 'Check: Wikipedia''s article on him gives Feb. 7, 1961 for taking office.'
+        src: ['Wikipedia: Deputy Secretary of HHS (citing A Common Thread of Service)', CDIR 1961-04]
+      - name: Cohen, Wilbur J.
+        given: Wilbur Joseph
+        from: '1965-06-01'
+        to: '1968-05-16'
+        out: To Secretary.
+        n: Acting Secretary, Mar. 1–May 16, 1968.
+        src: ['Wikipedia: Deputy Secretary of HHS (citing A Common Thread of Service)', CDIR 1966-01]
+      - name: McCrocklin, James H.
+        from: '1968-07-15'
+        to: '1969-01-20'
+        src: ['Wikipedia: Deputy Secretary of HHS (citing A Common Thread of Service)']
+      - name: Veneman, John G.
+        given: John Gerald
+        from: '1969-02'
+        to: '1973'
+        n: 'Nomination announced Feb. 7, 1969; in office by Mar. 1, 1969 (CDIR). Check both dates.'
+        src: [APP 1969-02-07, CDIR 1969-12, CDIR 1971-12, 'Wikipedia: John Veneman']
+      - name: Carlucci, Frank C.
+        given: Frank Charles
+        from: '1973'
+        n: 'Served to Dec. 1974. Check: date of taking office, early 1973.'
+        src: [CDIR 1973-03, 'FRUS persons list']

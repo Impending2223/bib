@@ -1,0 +1,33 @@
+# The Executive Office of the President: the heading over its units (bob, cea, nsc, wh, oep, ost, ...). Kept by hand.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: eop
+name: Executive Office of the President
+under: president
+order: 20
+law:
+  - act: Reorganization Act of 1939
+    date: '1939-04-03'
+    cite: 'ch. 36, 53 Stat. 561'
+    usc: '5 U.S.C. §§ 133–133r (1940)'
+    tags: [powers]
+    does: 'The President may transfer, consolidate, or abolish agencies by reorganization plans, effective sixty days after transmittal unless both Houses disapprove by concurrent resolution; six administrative assistants to the President authorized (§ 301).'
+  - act: Reorganization Plan No. 1 of 1939
+    date: '1939-07-01'
+    cite: '53 Stat. 1423'
+    usc: '5 U.S.C. § 133t note (1958)'
+    tags: [creates, reorganizes]
+    does: 'Moves the Bureau of the Budget from the Treasury and the Central Statistical Board into the Executive Office of the President; brings in the National Resources Planning Board (§§ 1, 3, 4).'
+  - act: Executive Order 8248
+    date: '1939-09-08'
+    cite: '4 Fed. Reg. 3864'
+    url: https://www.presidency.ucsb.edu/documents/executive-order-8248-establishing-the-divisions-the-executive-office-the-president-and
+    tags: [creates, powers]
+    does: 'Divides the Executive Office into the White House Office, the Bureau of the Budget, the National Resources Planning Board, the Liaison Office for Personnel Management, the Office of Government Reports, and an office for emergency management; sets the functions of each.'
+  - act: Reorganization Act of 1949
+    date: '1949-06-20'
+    cite: 'ch. 226, 63 Stat. 203'
+    usc: '5 U.S.C. §§ 133z–133z-15 (1958)'
+    until: '1973-04-01'
+    tags: [powers]
+    does: 'Reorganization plans again authorized; a plan takes effect after sixty days unless either House disapproves by a majority of the authorized membership (as amended). Extended by later acts; lapsed Apr. 1, 1973. The authority for the plans of 1953–1970 that added units to the Office.'
+n: 'Later additions in the period: the Council of Economic Advisers (1946), National Security Council (1947, moved in 1949), Office of Defense Mobilization (1950; by plan, 1953), National Aeronautics and Space Council (1958), Office of Science and Technology (1962), Office of the Special Representative for Trade Negotiations (1963), Office of Economic Opportunity (1964), Council on Environmental Quality (1969), Office of Management and Budget and Domestic Council (1970), Office of Telecommunications Policy (1970), Council on International Economic Policy (1971), Special Action Office for Drug Abuse Prevention (1971), Federal Energy Office (1973). Check the dates of the 1949 Act''s extensions and amendments.'
