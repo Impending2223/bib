@@ -1,0 +1,298 @@
+# The President's foreign intelligence board. Kept by hand (research agent, Oct. 2026; generated once from the agent's notes).
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: pfiab
+name: President's Board of Consultants on Foreign Intelligence Activities
+names:
+- name: President's Foreign Intelligence Advisory Board
+  from: '1961-05-04'
+under: eop
+order: 45
+from: '1956-01-13'
+law:
+- act: Executive Order 10656
+  date: '1956-02-06'
+  effective: '1956-01-13'
+  until: '1961-05-04'
+  tags:
+  - creates
+  - powers
+  - appointment
+  - pay
+  cite: 21 Fed. Reg. 859
+  url: https://www.presidency.ucsb.edu/documents/executive-order-10656-establishing-the-presidents-board-consultants-foreign-intelligence
+  does: 'Establishes the President''s Board of Consultants on Foreign Intelligence Activities: members appointed by the President
+    from outside the Government, without compensation; to review the Government''s foreign intelligence activities and the
+    Central Intelligence Agency''s performance and report to the President semiannually.'
+- act: Executive Order 10938
+  date: '1961-05-04'
+  until: '1969-03-20'
+  tags:
+  - creates
+  - powers
+  - appointment
+  - pay
+  cite: 26 Fed. Reg. 3951
+  url: https://www.presidency.ucsb.edu/documents/executive-order-10938-establishing-the-presidents-foreign-intelligence-advisory-board
+  does: Establishes the President's Foreign Intelligence Advisory Board, members from outside the Government, with compensation;
+    to advise the President on the objectives and conduct of foreign intelligence and review all functions of the Central
+    Intelligence Agency; revokes Executive Order 10656.
+- act: Executive Order 11460
+  date: '1969-03-20'
+  tags:
+  - creates
+  - powers
+  - appointment
+  - pay
+  cite: 34 Fed. Reg. 5535
+  url: https://www.presidency.ucsb.edu/documents/executive-order-11460-establishing-the-presidents-intelligence-advisory-board
+  does: 'Re-establishes the Board: to advise on the objectives, conduct, management and coordination of the national intelligence
+    effort; a staff under an Executive Secretary appointed by the President; revokes Executive Order 10938.'
+n: Eight members named Jan. 1956 (letter to Killian, Jan. 11, 1956). The members resigned with the administration (last meeting
+  with Eisenhower, Jan. 5, 1961); no board until May 4, 1961. Members' terms from the FRUS persons lists, APP and Wikipedia;
+  most only by year.
+offices:
+- id: chairman
+  title: Chairman of the President's Board of Consultants on Foreign Intelligence Activities
+  titles:
+  - title: Chairman of the President's Foreign Intelligence Advisory Board
+    from: '1961-05-04'
+  rank: employee
+  appt: PA
+  holders:
+  - name: Killian, James R., Jr.
+    from: '1956-01-13'
+    to: 1958-03
+    n: 'Special Assistant to the President for Science and Technology from Nov. 1957. Check: end.'
+    src:
+    - https://www.presidency.ucsb.edu/documents/letter-dr-james-r-killian-jr-appointing-him-chairman-board-consultants-foreign
+  - name: Hull, John E.
+    rank: Gen., USA (ret.)
+    from: 1958-03
+    to: '1961-01-20'
+    n: 'A member from Jan. 1956. Check: start; Wikipedia gives 1958.'
+    src:
+    - 'Wikipedia: John E. Hull'
+    - https://history.state.gov/historicaldocuments/frus1961-63v25/d82
+  - name: Killian, James R., Jr.
+    from: '1961-05-04'
+    to: '1963-03-07'
+    out: Resigned (illness).
+    n: 'Check: APP''s note to the news conference of Jan. 19, 1968, gives from May 5, 1961.'
+    src:
+    - https://www.presidency.ucsb.edu/documents/letter-members-the-presidents-foreign-intelligence-advisory-board
+    - https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-1201
+  - name: Clifford, Clark M.
+    from: 1963-04
+    to: 1968-02
+    out: To Secretary of Defense.
+    src:
+    - FRUS persons list
+    - https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-1201
+  - name: Taylor, Maxwell D.
+    rank: Gen., USA (ret.)
+    from: '1968-03-01'
+    to: 1970-04
+    n: Special Consultant to the President from Sept. 17, 1965.
+    src:
+    - FRUS persons list
+  - name: Anderson, George W., Jr.
+    rank: Adm., USN (ret.)
+    from: 1970-05
+    n: Served to 1976.
+    src:
+    - FRUS persons list
+- id: member
+  title: Member of the President's Board of Consultants on Foreign Intelligence Activities
+  titles:
+  - title: Member of the President's Foreign Intelligence Advisory Board
+    from: '1961-05-04'
+  rank: employee
+  appt: PA
+  many: true
+  holders:
+  - name: Conolly, Richard L.
+    rank: Adm., USN (ret.)
+    from: '1956-01-13'
+    to: '1961-01-20'
+    n: 'Check: end.'
+    src:
+    - 'Wikipedia: President''s Intelligence Advisory Board'
+  - name: Doolittle, James H.
+    rank: Lt. Gen., USAF (ret.)
+    from: '1956-01-13'
+    to: '1961-01-20'
+    n: Reappointed May 4, 1961.
+    src:
+    - 'Wikipedia: President''s Intelligence Advisory Board'
+  - name: Fairless, Benjamin F.
+    from: '1956-01-13'
+    to: '1961-01-20'
+    n: 'Check: end.'
+    src:
+    - 'Wikipedia: Benjamin Franklin Fairless'
+  - name: Hull, John E.
+    rank: Gen., USA (ret.)
+    from: '1956-01-13'
+    to: 1958-03
+    out: To chairman.
+    src:
+    - 'Wikipedia: President''s Intelligence Advisory Board'
+  - name: Kennedy, Joseph P.
+    from: '1956-01-13'
+    to: '1956'
+    n: 'Check: end.'
+    src:
+    - 'Wikipedia: President''s Intelligence Advisory Board'
+  - name: Lovett, Robert A.
+    from: '1956-01-13'
+    to: '1961-01-20'
+    n: 'Check: end.'
+    src:
+    - 'Wikipedia: President''s Intelligence Advisory Board'
+  - name: Ryerson, Edward L.
+    from: '1956-01-13'
+    to: '1961-01-20'
+    n: 'Check: end.'
+    src:
+    - 'Wikipedia: President''s Intelligence Advisory Board'
+  - name: Land, Edwin H.
+    from: '1961'
+    n: 'Served to 1977. Check: start.'
+    src:
+    - 'Wikipedia: Edwin H. Land'
+    - FRUS persons list
+  - name: Pace, Frank, Jr.
+    from: '1961'
+    n: 'Check: dates.'
+    src:
+    - FRUS persons list
+  - name: Baker, William O.
+    from: '1961-05-04'
+    n: 'Served to 1977. Check: end.'
+    src:
+    - https://www.presidency.ucsb.edu/documents/letter-members-the-presidents-foreign-intelligence-advisory-board
+    - FRUS persons list
+  - name: Doolittle, James H.
+    rank: Lt. Gen., USAF (ret.)
+    from: '1961-05-04'
+    to: '1965'
+    n: 'Check: end.'
+    src:
+    - https://www.presidency.ucsb.edu/documents/letter-members-the-presidents-foreign-intelligence-advisory-board
+  - name: Langer, William L.
+    from: '1961-05-04'
+    n: Served to 1977.
+    src:
+    - https://www.presidency.ucsb.edu/documents/letter-members-the-presidents-foreign-intelligence-advisory-board
+    - 'Wikipedia: William L. Langer'
+  - name: Murphy, Robert D.
+    from: '1961-05-04'
+    n: 'Served into the Ford administration. Check: end.'
+    src:
+    - https://www.presidency.ucsb.edu/documents/letter-members-the-presidents-foreign-intelligence-advisory-board
+    - FRUS persons list
+  - name: Taylor, Maxwell D.
+    rank: Gen., USA (ret.)
+    from: '1961-05-04'
+    to: 1961-06
+    out: To Military Representative of the President.
+    n: 'Check: end.'
+    src:
+    - https://www.presidency.ucsb.edu/documents/letter-members-the-presidents-foreign-intelligence-advisory-board
+  - name: Clifford, Clark M.
+    from: '1961-05-15'
+    to: 1963-04
+    out: To chairman.
+    src:
+    - https://www.presidency.ucsb.edu/documents/letter-members-the-presidents-foreign-intelligence-advisory-board
+  - name: Gray, Gordon
+    from: '1961-05-15'
+    n: 'Served under Kennedy, Johnson and Nixon. Check: end.'
+    src:
+    - https://www.presidency.ucsb.edu/documents/letter-members-the-presidents-foreign-intelligence-advisory-board
+    - 'Wikipedia: Gordon Gray (politician)'
+  - name: Lincoln, Franklin B., Jr.
+    from: '1969'
+    n: 'Check: dates.'
+    src:
+    - FRUS persons list
+  - name: Rockefeller, Nelson A.
+    from: '1969'
+    n: 'Served to Dec. 1974 (Vice President). Check: dates.'
+    src:
+    - FRUS persons list
+    - https://www.presidency.ucsb.edu/documents/remarks-plans-for-the-second-term
+  - name: Teller, Edward
+    from: '1969'
+    n: 'Check: dates.'
+    src:
+    - FRUS persons list
+  - name: Connally, John B., Jr.
+    from: '1970'
+    to: '1971-02-11'
+    out: To Secretary of the Treasury.
+    src:
+    - FRUS persons list
+  - name: Murphy, Franklin D.
+    from: '1970'
+    n: 'Check: dates.'
+    src:
+    - FRUS persons list
+  - name: Connally, John B., Jr.
+    from: 1972-06
+    n: 'Check: start; continuing Nov. 27, 1972 (APP).'
+    src:
+    - https://www.presidency.ucsb.edu/documents/remarks-plans-for-the-second-term
+  - name: Galvin, Robert W.
+    from: '1973-06-18'
+    src:
+    - FRUS persons list
+  - name: Cherne, Leo
+    from: '1973-06-28'
+    n: Chairman from Mar. 11, 1976.
+    src:
+    - FRUS persons list
+    - 'Wikipedia: Leo Cherne'
+  - name: Foster, John S., Jr.
+    from: '1973-06-28'
+    n: From Director of Defense Research and Engineering.
+    src:
+    - FRUS persons list
+    - 'Wikipedia: John S. Foster Jr.'
+  - name: Luce, Clare Boothe
+    from: '1973-06-28'
+    src:
+    - FRUS persons list
+    - 'Wikipedia: Clare Boothe Luce'
+  - name: Shultz, George P.
+    from: 1974-05
+    n: 'After leaving the Treasury, May 8, 1974. Check: start.'
+    src:
+    - FRUS persons list
+- id: executive-secretary
+  title: Executive Officer of the President's Board of Consultants on Foreign Intelligence Activities
+  titles:
+  - title: Executive Secretary of the President's Foreign Intelligence Advisory Board
+    from: '1961-05-04'
+  rank: employee
+  appt: HD
+  n: On detail from the NSC staff to 1969; appointed by the President under Executive Order 11460, § 4.
+  holders:
+  - name: Coyne, J. Patrick
+    from: '1956'
+    to: 1970-09
+    n: 'Executive Officer of the Board of Consultants (on detail from the NSC staff), then Executive Secretary. Check: start.'
+    src:
+    - FRUS persons list
+    - https://history.state.gov/historicaldocuments/frus1961-63v25/d82
+  - name: Burke, Gerard P.
+    from: 1970-09
+    to: '1973'
+    n: 'Check: end.'
+    src:
+    - FRUS persons list
+  - name: Byers, Wheaton B.
+    from: '1973'
+    n: 'Served to 1976. Check: start.'
+    src:
+    - FRUS persons list

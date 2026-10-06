@@ -1,0 +1,115 @@
+# The Peace Corps, in the Department of State, 1961-71; in ACTION from July 1, 1971 (see action.yaml). Kept by hand.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: peace-corps
+name: Peace Corps
+under: state
+order: 70
+from: '1961-03-01'
+until: '1971-07-01'
+law:
+  - act: Executive Order 10924
+    date: '1961-03-01'
+    until: '1962-08-06'
+    tags: [creates, powers]
+    cite: '26 Fed. Reg. 1789'
+    url: https://www.presidency.ucsb.edu/documents/executive-order-10924-establishment-and-administration-the-peace-corps-the-department
+    does: 'Under the Mutual Security Act of 1954: the Secretary of State shall establish in the Department an agency known as the Peace Corps, headed by a Director, for the training and service abroad of men and women of the United States in programs of assistance; financed from mutual security funds.'
+  - act: Peace Corps Act
+    date: '1961-09-22'
+    tags: [creates, appointment, powers, pay]
+    cite: 'Pub. L. 87-293, 75 Stat. 612'
+    usc: '22 U.S.C. §§ 2501–2523 (1964)'
+    does: 'Authorizes the President to carry out a Peace Corps program: volunteers to serve abroad; a Director and a Deputy Director, appointed by the President with the advice and consent of the Senate (§ 4(a)); the President may delegate his functions.'
+  - act: Executive Order 11041
+    date: '1962-08-06'
+    tags: [powers]
+    url: https://www.presidency.ucsb.edu/advanced-search?field-keywords=%22Executive+Order+11041%22
+    cite: '27 Fed. Reg. 7859'
+    does: 'Delegates the President''s functions under the Peace Corps Act to the Secretary of State, who redelegated them to the Director; supersedes Executive Order 10924.'
+  - act: Federal Executive Salary Act of 1964
+    date: '1964-08-14'
+    tags: [pay]
+    cite: 'Pub. L. 88-426, § 303, 78 Stat. 400, 416'
+    does: 'Executive Schedule: Director, level III; Deputy Director, level IV; Associate Director for Volunteers and Associate Director for Program Development and Operations, level V.'
+  - act: Reorganization Plan No. 1 of 1971
+    date: '1971-07-01'
+    tags: [reorganizes]
+    cite: '85 Stat. 819'
+    does: 'With Executive Order 11603 (June 30, 1971), transfers the Peace Corps''s functions from the Department of State to Action.'
+n: 'An agency in the Department of State. From July 1, 1971, a part of ACTION; its Director there is under the Director of ACTION.'
+offices:
+  - id: director
+    title: Director of the Peace Corps
+    rank: head
+    appt: PAS
+    level: III
+    holders:
+      - name: Shriver, R. Sargent
+        given: Robert Sargent, Jr.
+        from: '1961-03-22'
+        to: '1966-02-28'
+        n: 'Named by the President Mar. 1, 1961; the dates of nomination and confirmation from the Congressional Record (1961), below. Also Director of the Office of Economic Opportunity from Oct. 16, 1964.'
+        src: ['Wikipedia: Sargent Shriver', FRUS persons list]
+      - name: Vaughn, Jack Hood
+        from: '1966-03-01'
+        to: '1969-04-30'
+        n: Assistant Secretary of State for Inter-American Affairs to Feb. 28, 1966.
+        src: ['Wikipedia: Jack Hood Vaughn']
+      - name: Blatchford, Joseph H.
+        from: '1969-05-01'
+        to: '1971-07-01'
+        out: To Director of ACTION.
+        src: ['Wikipedia: Joseph Blatchford', FRUS persons list]
+  - id: deputy-director
+    title: Deputy Director of the Peace Corps
+    rank: principal
+    appt: PAS
+    level: IV
+    from: '1961'
+    holders:
+      - name: Geren, Paul F.
+        from: '1961'
+        to: '1962'
+        n: 'Check: the days; in CDIR 1962-01.'
+        src: [CDIR 1962-01]
+      - name: Moyers, Bill D.
+        from: '1963-02'
+        to: '1963-11'
+        out: To Special Assistant to the President.
+        n: 'Associate Director for Public Affairs, 1961–63. Check: the days; still listed in CDIR 1964-01.'
+        src: [FRUS persons list, CDIR 1963-03]
+      - name: Wiggins, Warren W.
+        from: '1965'
+        to: '1966'
+        n: 'Associate Director for Program Development and Operations, 1961–65. Check: the days; in CDIR 1966-01.'
+        src: [CDIR 1966-01]
+      - name: Ashabranner, Brent K.
+        from: '1966'
+        to: '1969'
+        n: 'Acting Deputy Director in CDIR 1967-02; Deputy Director in CDIR 1967-12 and 1969-03. Check: the days.'
+        src: [CDIR 1967-02, CDIR 1969-03]
+  - id: general-counsel
+    title: General Counsel of the Peace Corps
+    rank: inferior
+    appt: HD
+    holders:
+      - name: Delano, William
+        from: '1961'
+        to: '1963'
+        n: 'Check: the days; in CDIR 1962-01 and 1963-03.'
+        src: [CDIR 1962-01, CDIR 1963-03]
+      - name: Josephson, William H.
+        from: '1963'
+        to: '1966'
+        n: 'Check: the days; in CDIR 1964-01 through 1966-01.'
+        src: [CDIR 1964-01, CDIR 1966-01]
+      - name: Stevenson, Eric
+        from: '1966'
+        to: '1968'
+        n: 'Check: the days; in CDIR 1967-02 and 1967-12.'
+        src: [CDIR 1967-02]
+      - name: Sharlot, M. Michael
+        from: '1968'
+        to: '1969'
+        n: 'Check: the days; in CDIR 1969-03.'
+        src: [CDIR 1969-03]

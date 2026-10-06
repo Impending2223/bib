@@ -1,9 +1,22 @@
-# Office of the Special Representative for Trade Negotiations. Seeded from POCOM by tools/executive/make_state.py; kept by hand since.
-# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+# Office of the Special Representative for Trade Negotiations. Seeded from POCOM by tools/executive/make_state.py;
+# kept by hand since. See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
 unit: str
 name: Office of the Special Representative for Trade Negotiations
-under: president
-order: 500
+under: eop
+order: 80
+from: '1962-10-11'
+law:
+  - act: Trade Expansion Act of 1962
+    date: '1962-10-11'
+    cite: 'Pub. L. 87-794, §§ 241, 242, 76 Stat. 872, 878'
+    usc: '19 U.S.C. §§ 1871, 1872 (1964)'
+    tags: [creates, appointment, pay, powers]
+    does: 'A Special Representative for Trade Negotiations, appointed by the President by and with the advice and consent of the Senate, to hold office at the pleasure of the President with the pay and allowances of a chief of mission and the rank of ambassador extraordinary and plenipotentiary; the chief representative of the United States in each negotiation under the trade agreements title, and chairman of an interagency trade organization of heads of departments.'
+  - act: Executive Order 11075
+    date: '1963-01-15'
+    url: https://www.presidency.ucsb.edu/documents/executive-order-11075-administration-the-trade-expansion-act-1962
+    tags: [creates, powers]
+    does: 'Establishes in the Executive Office of the President the Office of the Special Representative for Trade Negotiations, under the Special Representative; the Trade Executive Committee as the interagency organization of § 242, the Special Representative chairman.'
 offices:
   - id: special-representative
     title: Special Representative for Trade Negotiations
@@ -13,29 +26,86 @@ offices:
       - name: Herter, Christian A.
         given: Christian Archibald
         recess: '1962-12-10'
+        confirmed: '1963-02-27'
         from: '1962-12-10'
         to: '1966-12-30'
-        n: Commissioned during a recess of the Senate; recommissioned after confirmation on Feb 27, 1963.
-        src:
-          - POCOM
+        out: Died.
+        n: 'Appointment announced Nov. 15, 1962; sworn Dec. 10, 1962 (APP). Recommissioned after confirmation.'
+        src: [POCOM, APP, FRUS persons list]
       - name: Roth, William M.
         given: William Matson
         appointed: '1967-02-28'
         from: '1967-03-24'
         to: '1969-01-20'
-        src:
-          - POCOM
+        n: Deputy Special Representative to Mar. 24, 1967.
+        src: [POCOM, FRUS persons list]
       - name: Gilbert, Carl J.
         given: Carl Joyce
         appointed: '1969-08-04'
         from: '1969-08-06'
         to: '1971-09-21'
-        src:
-          - POCOM
+        out: Resigned.
+        src: [POCOM]
       - name: Eberle, William D.
         given: William Denman
         appointed: '1971-11-05'
         from: '1971-11-12'
-        to: '1974-12-24'
-        src:
-          - POCOM
+        n: Served to Dec. 24, 1974. Also Executive Director, Council on International Economic Policy, 1974.
+        src: [POCOM, FRUS persons list]
+  - id: deputy
+    title: Deputy Special Representative for Trade Negotiations
+    rank: principal
+    appt: PAS
+    many: true
+    n: 'Two deputies, with the rank of ambassador, one at Geneva. Check the authority and the manner of appointment.'
+    holders:
+      - name: Gossett, William T.
+        from: '1962'
+        to: '1964'
+        n: Listed in the Congressional Directory, Mar. 1963. Check the dates of office.
+        src: [CDIR 1963-03]
+      - name: Roth, William M.
+        from: '1963'
+        to: '1967-03-24'
+        out: To Special Representative.
+        n: Listed in the Congressional Directory, Jan. 1964–Feb. 1967. Check the day he took office.
+        src: [FRUS persons list, CDIR 1964-01, CDIR 1967-02]
+      - name: Blumenthal, W. Michael
+        from: '1963-08'
+        to: '1967'
+        out: Resigned; to the Bendix Corporation.
+        n: 'At Geneva, for the Kennedy Round. Deputy Assistant Secretary of State for Economic Affairs, Apr. 3, 1961–July 31, 1963 (FRUS). Check the day he took office; FRUS also gives Dec. 1962.'
+        src: [FRUS persons list, CDIR 1964-01, CDIR 1967-02, 'Wikipedia: W. Michael Blumenthal']
+      - name: Pearce, William R.
+        from: '1972'
+        n: Listed in the Congressional Directory, Mar.–Dec. 1973. Check the dates of office.
+        src: [CDIR 1973-03, CDIR 1973-12, FRUS persons list]
+      - name: Malmgren, Harald B.
+        from: '1972'
+        n: 'Deputy, 1972–75 (Wikipedia); Assistant Special Representative, 1967–69. Check the dates of office.'
+        src: ['Wikipedia: Harald Malmgren', CDIR 1973-03, FRUS persons list]
+  - id: general-counsel
+    title: General Counsel
+    rank: inferior
+    appt: HD
+    holders:
+      - name: Rehm, John B.
+        from: '1963'
+        to: '1969'
+        n: Listed in the Congressional Directory, Mar. 1963–Mar. 1969. Check the dates of office.
+        src: [CDIR 1963-03, CDIR 1969-03]
+      - name: Chotiner, Murray M.
+        from: '1969'
+        to: '1970'
+        n: Listed in the Congressional Directory, Dec. 1969. Check the dates of office.
+        src: [CDIR 1969-12]
+      - name: Mullaney, Joseph E.
+        from: '1970'
+        to: '1972'
+        n: Listed in the Congressional Directory, Mar.–Dec. 1971. Check the dates of office.
+        src: [CDIR 1971-03, CDIR 1971-12]
+      - name: Jackson, John H.
+        from: '1973'
+        to: '1974'
+        n: Listed in the Congressional Directory, Mar.–Dec. 1973. Acting Deputy Special Representative, 1974 (FRUS). Check the dates of office.
+        src: [CDIR 1973-03, CDIR 1973-12, FRUS persons list]

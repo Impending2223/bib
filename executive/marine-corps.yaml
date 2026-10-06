@@ -1,0 +1,307 @@
+# Headquarters, Marine Corps, and the Fleet Marine Forces, 1953-74. Kept by hand.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: marine-corps
+name: 'United States Marine Corps: Headquarters and Fleet Marine Forces'
+under: navy
+order: 50
+law:
+  - act: National Security Act of 1947
+    date: '1947-07-26'
+    until: '1956-08-10'
+    tags: [creates, powers]
+    cite: ch. 343, § 206(c), 61 Stat. 495, 502
+    usc: 5 U.S.C. § 411a (1952)
+    does: 'The Marine Corps, within the Department of the Navy: Fleet Marine Forces of combined arms, with supporting air, for service with the fleet, seizure of advanced naval bases, and land operations essential to a naval campaign.'
+  - act: Act of June 28, 1952 (Marine Corps strength; the Commandant and the Joint Chiefs)
+    date: '1952-06-28'
+    until: '1956-08-10'
+    tags: [powers]
+    cite: Pub. L. 82-416, ch. 479, § 1, 66 Stat. 282
+    usc: 5 U.S.C. § 411a (1952)
+    does: The Marine Corps of not less than three combat divisions and three air wings; Regular strength not over 400,000 except in war or declared emergency.
+  - act: Title 10, United States Code, enacted
+    date: '1956-08-10'
+    tags: [creates, powers]
+    cite: ch. 1041, 70A Stat. 1, 278
+    usc:
+      - 10 U.S.C. § 5013 (1958)
+      - 10 U.S.C. §§ 5201–5202 (1958)
+    does: The composition and functions of the Marine Corps (§ 5013); the Commandant and Assistant Commandant (§§ 5201–5202).
+n: The Commandant is in the Joint Chiefs of Staff unit (jcs.commandant). Dates from Wikipedia's lists of officeholders.
+offices:
+  - id: assistant-commandant
+    title: Assistant Commandant of the Marine Corps
+    rank: military
+    appt: MIL
+    under: jcs.commandant
+    law:
+      - act: Title 10, United States Code, enacted
+        date: '1956-08-10'
+        tags: [appointment, vacancy]
+        cite: ch. 1041, 70A Stat. 1, 292
+        usc: 10 U.S.C. § 5202 (1958)
+        does: The Assistant Commandant detailed from officers of the Marine Corps; acts for the Commandant in a vacancy or in his absence or disability.
+    holders:
+      - name: Thomas, Gerald C.
+        rank: Lt. Gen., USMC
+        from: '1952-03-08'
+        to: '1954-07-01'
+        out: Retired.
+        src: &id001
+          - 'Wikipedia: Assistant Commandant of the Marine Corps'
+      - name: Pate, Randolph M.
+        rank: Lt. Gen., USMC
+        from: '1954-07-01'
+        to: '1955-12-31'
+        out: To Commandant.
+        src: *id001
+      - name: Megee, Vernon E.
+        rank: Lt. Gen., USMC
+        from: '1956-01-01'
+        to: '1957-11-30'
+        out: To Commanding General, Fleet Marine Force, Pacific.
+        src: *id001
+      - name: McCaul, Verne J.
+        rank: Lt. Gen., USMC
+        from: '1957-12-01'
+        to: '1959-12-31'
+        out: Retired.
+        src: *id001
+      - name: Munn, John C.
+        rank: Lt. Gen., USMC
+        from: '1960-01-01'
+        to: '1963-03-31'
+        out: Retired.
+        src: *id001
+      - name: Hayes, Charles H.
+        rank: Lt. Gen., USMC
+        from: '1963-04-01'
+        to: '1965-06-30'
+        out: Retired.
+        src: *id001
+      - name: Mangrum, Richard C.
+        rank: Lt. Gen., USMC
+        from: '1965-07-01'
+        to: '1967-06-30'
+        out: Retired.
+        src: *id001
+      - name: Chapman, Leonard F., Jr.
+        rank: Lt. Gen., USMC
+        from: '1967-07-01'
+        to: '1967-12-31'
+        out: To Commandant.
+        src: *id001
+      - name: Walt, Lewis W.
+        rank: Gen., USMC
+        from: '1968-01-01'
+        to: '1971-01-29'
+        out: Retired.
+        n: 'General from June 2, 1969, under a new law: the first Assistant Commandant of that grade.'
+        src: *id001
+      - name: McCutcheon, Keith B.
+        rank: Gen., USMC
+        from: '1971-01-30'
+        to: '1971-03-11'
+        out: Retired, ill.
+        n: 'Check: Wikipedia lists him; nominated and promoted, but ill with cancer.'
+        src: *id001
+      - name: Davis, Raymond G.
+        rank: Gen., USMC
+        from: '1971-03-12'
+        to: '1972-03-30'
+        out: Retired.
+        src: *id001
+      - name: Anderson, Earl E.
+        rank: Gen., USMC
+        from: '1972-04-01'
+        to: '1975-03-31'
+        out: Retired.
+        n: 'Check: Wikipedia''s table repeats Davis''s dates for him.'
+        src: *id001
+  - id: fmfpac
+    title: Commanding General, Fleet Marine Force, Pacific
+    rank: military
+    appt: MIL
+    group: Fleet Marine Forces
+    holders:
+      - name: Hart, Franklin A.
+        rank: Lt. Gen., USMC
+        from: 1952-01
+        to: '1954-08-01'
+        src: &id002
+          - 'Wikipedia: Fleet Marine Force, Pacific'
+      - name: Pepper, Robert H.
+        rank: Lt. Gen., USMC
+        from: '1954-08-01'
+        to: '1955-09-09'
+        src: *id002
+      - name: Brice, William O.
+        rank: Lt. Gen., USMC
+        from: '1955-09-09'
+        to: '1956-09-01'
+        src: *id002
+      - name: Pollock, Edwin A.
+        rank: Lt. Gen., USMC
+        from: '1956-09-01'
+        to: '1957-12-10'
+        src: *id002
+      - name: Megee, Vernon E.
+        rank: Lt. Gen., USMC
+        from: '1957-12-10'
+        to: '1959-10-30'
+        src: *id002
+      - name: Wornham, Thomas A.
+        rank: Lt. Gen., USMC
+        from: '1959-10-30'
+        to: '1961-04-01'
+        src: *id002
+      - name: Shapley, Alan
+        rank: Lt. Gen., USMC
+        from: '1961-04-01'
+        to: '1962-06-01'
+        src: *id002
+      - name: Roberts, Carson A.
+        rank: Lt. Gen., USMC
+        from: '1962-06-01'
+        to: '1964-03-01'
+        src: *id002
+      - name: Krulak, Victor H.
+        rank: Lt. Gen., USMC
+        from: '1964-03-01'
+        to: '1968-05-31'
+        out: Retired.
+        n: From Special Assistant for Counterinsurgency and Special Activities, Joint Staff.
+        src: *id002
+      - name: Buse, Henry W., Jr.
+        rank: Lt. Gen., USMC
+        from: '1968-05-31'
+        to: '1970-07-01'
+        src: *id002
+      - name: Jones, William K.
+        rank: Lt. Gen., USMC
+        from: '1970-07-01'
+        to: '1972-09-01'
+        src: *id002
+      - name: Wilson, Louis H., Jr.
+        rank: Lt. Gen., USMC
+        from: '1972-09-01'
+        to: 1975-05
+        src: *id002
+  - id: fmflant
+    title: Commanding General, Fleet Marine Force, Atlantic
+    rank: military
+    appt: MIL
+    group: Fleet Marine Forces
+    holders:
+      - name: Erskine, Graves B.
+        rank: Lt. Gen., USMC
+        from: '1951-07-01'
+        to: '1953-07-01'
+        out: Retired.
+        src: &id003
+          - 'Wikipedia: Fleet Marine Force, Atlantic'
+      - name: Smith, Oliver P.
+        rank: Lt. Gen., USMC
+        from: '1953-07-01'
+        to: '1955-09-01'
+        out: Retired.
+        src: *id003
+      - name: Noble, Alfred H.
+        rank: Lt. Gen., USMC
+        from: '1955-09-01'
+        to: '1956-11-01'
+        src: *id003
+      - name: Robinson, Ray A.
+        rank: Lt. Gen., USMC
+        from: '1956-11-01'
+        to: '1957-11-01'
+        src: *id003
+      - name: Pollock, Edwin A.
+        rank: Lt. Gen., USMC
+        from: '1957-11-01'
+        to: '1959-11-01'
+        src: *id003
+      - name: Burger, Joseph C.
+        rank: Lt. Gen., USMC
+        from: '1959-11-01'
+        to: '1961-11-01'
+        src: *id003
+      - name: Luckey, Robert B.
+        rank: Lt. Gen., USMC
+        from: '1961-11-01'
+        to: '1963-08-01'
+        src: *id003
+      - name: Berkeley, James P.
+        rank: Lt. Gen., USMC
+        from: '1963-08-01'
+        to: '1965-07-01'
+        src: *id003
+      - name: Bowser, Alpha L.
+        rank: Lt. Gen., USMC
+        from: '1965-07-01'
+        to: '1967-07-01'
+        src: *id003
+      - name: Weede, Richard G.
+        rank: Lt. Gen., USMC
+        from: '1967-07-01'
+        to: '1969-08-31'
+        src: *id003
+      - name: Leek, Frederick E.
+        rank: Lt. Gen., USMC
+        from: '1969-08-31'
+        to: '1971-07-01'
+        src: *id003
+      - name: Anderson, Earl E.
+        rank: Lt. Gen., USMC
+        from: '1971-07-01'
+        to: '1972-04-01'
+        out: To Assistant Commandant.
+        src: *id003
+      - name: Axtell, George C.
+        rank: Lt. Gen., USMC
+        from: '1972-04-01'
+        to: '1974-09-01'
+        src: *id003
+  - id: iii-maf
+    title: Commanding General, III Marine Amphibious Force
+    rank: military
+    appt: MIL
+    under: commands.comusmacv
+    group: Fleet Marine Forces
+    from: 1965-05
+    n: 'Marine forces in I Corps, South Vietnam, from May 1965; headquarters left for Okinawa Apr. 1971. Check: names and dates after 1967.'
+    holders:
+      - name: Walt, Lewis W.
+        rank: Maj. Gen., USMC
+        from: '1965-06-04'
+        to: '1967-06-01'
+        out: To Deputy Chief of Staff, Headquarters, Marine Corps.
+        n: 'From Commanding General, 3d Marine Division; also Commander, Naval Component, MACV. Check: days.'
+        src: &id004
+          - 'Wikipedia: III Marine Amphibious Force'
+          - 'Wikipedia: Lewis W. Walt'
+      - name: Cushman, Robert E., Jr.
+        rank: Lt. Gen., USMC
+        from: '1967-06-01'
+        to: 1969-03
+        out: To Deputy Director of Central Intelligence.
+        n: 'Check: days.'
+        src: *id004
+      - name: Nickerson, Herman, Jr.
+        rank: Lt. Gen., USMC
+        from: 1969-03
+        to: 1970-03
+        n: 'Check: dates.'
+        src: *id004
+      - name: McCutcheon, Keith B.
+        rank: Lt. Gen., USMC
+        from: 1970-03
+        to: 1970-12
+        n: 'Check: dates.'
+        src: *id004
+      - name: Robertson, Donn J.
+        rank: Lt. Gen., USMC
+        from: 1970-12
+        to: 1971-04
+        n: 'Check: dates.'
+        src: *id004

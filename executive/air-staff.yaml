@@ -1,0 +1,437 @@
+# The Air Staff and the major Air Force commands, 1953-74. Kept by hand.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: air-staff
+name: The Air Staff and major Air Force commands
+under: air-force
+order: 50
+law:
+  - act: Air Force Organization Act of 1951
+    date: '1951-09-19'
+    until: '1956-08-10'
+    tags: [creates, powers]
+    cite: ch. 407, title II, 65 Stat. 326, 327
+    does: 'The Air Staff: the Chief of Staff, a Vice Chief of Staff, not over five Deputy Chiefs of Staff; plans for the employment, organizing, supplying, and training of the Air Force. The Air Force divided into commands, forces, and organizations as the Secretary prescribes.'
+  - act: Title 10, United States Code, enacted
+    date: '1956-08-10'
+    tags: [creates, powers]
+    cite: ch. 1041, 70A Stat. 1, 490
+    usc:
+      - 10 U.S.C. §§ 8031–8036 (1958)
+      - 10 U.S.C. § 8074 (1958)
+    does: 'The Air Staff restated: composition, duties, the Vice Chief and Deputy Chiefs (§§ 8031–8036); the commands (§ 8074).'
+  - act: Department of Defense Reorganization Act of 1958
+    date: '1958-08-06'
+    tags: [reorganizes, powers]
+    cite: Pub. L. 85-599, § 4(d)–(f), 72 Stat. 514, 517
+    usc: 10 U.S.C. § 8074 (1958)
+    does: The Air Force divided into such organizations as the Secretary prescribes (the statutory commands repealed); the Chief of Staff's supervision consistent with the full operational command of the unified and specified commanders.
+n: The Chief of Staff is in the Joint Chiefs of Staff unit (jcs.air-force-chief); the Strategic Air Command, a specified command, and the Continental Air Defense Command are in commands. Dates from Wikipedia's lists of commanders.
+offices:
+  - id: vice-chief
+    title: Vice Chief of Staff, United States Air Force
+    rank: military
+    appt: MIL
+    under: jcs.air-force-chief
+    law:
+      - act: Air Force Organization Act of 1951
+        date: '1951-09-19'
+        until: '1956-08-10'
+        tags: [creates, vacancy]
+        cite: ch. 407, § 203, 65 Stat. 326, 328
+        does: The Vice Chief of Staff a general officer detailed; in a vacancy or the Chief's absence or disability, he (or the senior Deputy Chief of Staff) performs the Chief's duties unless the President directs otherwise.
+      - act: Title 10, United States Code, enacted
+        date: '1956-08-10'
+        tags: [appointment, vacancy]
+        cite: ch. 1041, 70A Stat. 1
+        usc: 10 U.S.C. § 8035 (1958)
+        does: The Vice Chief of Staff detailed from the general officers; acts for the Chief in a vacancy or in his absence or disability.
+    holders:
+      - name: Twining, Nathan F.
+        rank: Gen., USAF
+        from: '1950-10-10'
+        to: '1953-06-29'
+        out: To Chief of Staff.
+        src: &id001
+          - 'Wikipedia: Vice Chief of Staff of the United States Air Force'
+      - name: White, Thomas D.
+        rank: Gen., USAF
+        from: '1953-06-30'
+        to: '1957-06-30'
+        out: To Chief of Staff.
+        src: *id001
+      - name: LeMay, Curtis E.
+        rank: Gen., USAF
+        from: '1957-07-01'
+        to: '1961-06-30'
+        out: To Chief of Staff.
+        n: From Commander in Chief, Strategic Air Command.
+        src: *id001
+      - name: Smith, Frederic H., Jr.
+        rank: Gen., USAF
+        from: '1961-07-01'
+        to: '1962-06-30'
+        out: Retired.
+        n: From Commander in Chief, U.S. Air Forces in Europe.
+        src: *id001
+      - name: McKee, William F.
+        rank: Gen., USAF
+        from: '1962-07-01'
+        to: '1964-07-31'
+        out: Retired.
+        src: *id001
+      - name: McConnell, John P.
+        rank: Gen., USAF
+        from: '1964-08-01'
+        to: '1965-01-31'
+        out: To Chief of Staff.
+        src: *id001
+      - name: Blanchard, William H.
+        rank: Gen., USAF
+        from: '1965-02-19'
+        to: '1966-05-31'
+        out: Died.
+        src: *id001
+      - name: Wheless, Hewitt T.
+        rank: Lt. Gen., USAF
+        from: '1966-06-13'
+        to: '1966-07-31'
+        src: *id001
+        acting: true
+      - name: Holloway, Bruce K.
+        rank: Gen., USAF
+        from: '1966-08-01'
+        to: '1968-07-31'
+        out: To Commander in Chief, Strategic Air Command.
+        src: *id001
+      - name: Ryan, John D.
+        rank: Gen., USAF
+        from: '1968-08-01'
+        to: '1969-07-31'
+        out: To Chief of Staff.
+        src: *id001
+      - name: Meyer, John C.
+        rank: Gen., USAF
+        from: '1969-08-01'
+        to: '1972-04-30'
+        out: To Commander in Chief, Strategic Air Command.
+        src: *id001
+      - name: Wade, Horace M.
+        rank: Gen., USAF
+        from: '1972-05-01'
+        to: '1973-10-31'
+        out: Retired.
+        src: *id001
+      - name: Ellis, Richard H.
+        rank: Gen., USAF
+        from: '1973-11-01'
+        to: '1975-08-18'
+        src: *id001
+  - id: tac
+    title: Commander, Tactical Air Command
+    rank: military
+    appt: MIL
+    group: Major commands
+    n: 'Dates not yet confirmed from an official list: Check each.'
+    holders:
+      - name: Cannon, John K.
+        rank: Gen., USAF
+        from: 1951-01
+        to: 1954-03
+        out: Retired.
+        n: 'Check: dates.'
+        src: &id002
+          - Wikipedia
+      - name: Weyland, Otto P.
+        rank: Gen., USAF
+        from: '1954-05-01'
+        to: '1959-07-31'
+        out: Retired.
+        n: 'From Commander, Far East Air Forces. Check: dates.'
+        src: *id002
+      - name: Everest, Frank F.
+        rank: Gen., USAF
+        from: '1959-08-01'
+        to: '1961-09-30'
+        out: Retired.
+        n: 'From Commander in Chief, U.S. Air Forces in Europe. Check: dates.'
+        src: *id002
+      - name: Sweeney, Walter C., Jr.
+        rank: Gen., USAF
+        from: '1961-10-01'
+        to: '1965-07-31'
+        out: Retired.
+        n: 'Check: dates.'
+        src: *id002
+      - name: Disosway, Gabriel P.
+        rank: Gen., USAF
+        from: '1965-08-01'
+        to: '1968-07-31'
+        out: Retired.
+        n: 'From Commander in Chief, U.S. Air Forces in Europe. Check: dates.'
+        src: *id002
+      - name: Momyer, William W.
+        rank: Gen., USAF
+        from: '1968-08-01'
+        to: '1973-09-30'
+        out: Retired.
+        n: 'From Commander, Seventh Air Force. Check: dates.'
+        src: *id002
+      - name: Dixon, Robert J.
+        rank: Gen., USAF
+        from: '1973-10-01'
+        to: 1978-02
+        n: 'Check: dates.'
+        src: *id002
+  - id: pacaf
+    title: Commander, Far East Air Forces
+    titles:
+      - title: Commander in Chief, Pacific Air Forces (CINCPACAF)
+        from: '1957-07-01'
+    rank: military
+    appt: MIL
+    group: Major commands
+    n: The Air Force component of the Far East Command, then of the Pacific Command (from July 1, 1957, at Hickam).
+    holders:
+      - name: Weyland, Otto P.
+        rank: Gen., USAF
+        from: '1951-06-10'
+        to: '1954-03-25'
+        out: To Commander, Tactical Air Command.
+        src: &id003
+          - 'Wikipedia: Pacific Air Forces'
+      - name: Partridge, Earle E.
+        rank: Gen., USAF
+        from: '1954-03-26'
+        to: '1955-05-31'
+        out: To Commander, Air Defense Command.
+        src: *id003
+      - name: Kuter, Laurence S.
+        rank: Gen., USAF
+        from: '1955-06-01'
+        to: '1959-08-01'
+        out: To Commander in Chief, North American Air Defense Command.
+        src: *id003
+      - name: O'Donnell, Emmett, Jr.
+        rank: Gen., USAF
+        from: '1959-08-01'
+        to: '1963-08-01'
+        out: Retired.
+        src: *id003
+      - name: Smart, Jacob E.
+        rank: Gen., USAF
+        from: '1963-08-01'
+        to: '1964-08-01'
+        src: *id003
+      - name: Harris, Hunter, Jr.
+        rank: Gen., USAF
+        from: '1964-08-01'
+        to: '1967-02-01'
+        out: Retired.
+        src: *id003
+      - name: Ryan, John D.
+        rank: Gen., USAF
+        from: '1967-02-01'
+        to: '1968-08-01'
+        out: To Vice Chief of Staff.
+        src: *id003
+      - name: Nazzaro, Joseph J.
+        rank: Gen., USAF
+        from: '1968-08-01'
+        to: '1971-08-01'
+        out: Retired.
+        src: *id003
+      - name: Clay, Lucius D., Jr.
+        rank: Gen., USAF
+        from: '1971-08-01'
+        to: '1973-10-01'
+        out: To Commander in Chief, North American Air Defense Command.
+        src: *id003
+      - name: Vogt, John W., Jr.
+        rank: Gen., USAF
+        from: '1973-10-01'
+        to: '1974-07-01'
+        out: To Commander in Chief, U.S. Air Forces in Europe.
+        src: *id003
+      - name: Wilson, Louis L., Jr.
+        rank: Gen., USAF
+        from: '1974-07-01'
+        to: 1977-07
+        n: 'Check: dates.'
+        src: *id003
+  - id: usafe
+    title: Commander in Chief, U.S. Air Forces in Europe (CINCUSAFE)
+    rank: military
+    appt: MIL
+    group: Major commands
+    n: A specified command, Jan. 22, 1951–July 1, 1956; from Aug. 1, 1952, also the Air Force component of the European Command.
+    holders:
+      - name: Norstad, Lauris
+        rank: Gen., USAF
+        from: '1951-01-21'
+        to: '1953-07-27'
+        out: To Air Deputy, SHAPE.
+        n: Also Commander in Chief, Allied Air Forces, Central Europe.
+        src: &id004
+          - 'Wikipedia: United States Air Forces in Europe – Air Forces Africa'
+      - name: Tunner, William H.
+        rank: Lt. Gen., USAF
+        from: '1953-07-27'
+        to: '1957-07-01'
+        src: *id004
+      - name: Everest, Frank F.
+        rank: Gen., USAF
+        from: '1957-07-01'
+        to: '1959-08-01'
+        out: To Commander, Tactical Air Command.
+        src: *id004
+      - name: Smith, Frederic H., Jr.
+        rank: Gen., USAF
+        from: '1959-08-01'
+        to: '1961-07-01'
+        out: To Vice Chief of Staff.
+        src: *id004
+      - name: Landon, Truman H.
+        rank: Gen., USAF
+        from: '1961-07-01'
+        to: '1963-08-01'
+        out: Retired.
+        src: *id004
+      - name: Disosway, Gabriel P.
+        rank: Gen., USAF
+        from: '1963-08-01'
+        to: '1965-08-01'
+        out: To Commander, Tactical Air Command.
+        src: *id004
+      - name: Holloway, Bruce K.
+        rank: Gen., USAF
+        from: '1965-08-01'
+        to: '1966-08-01'
+        out: To Vice Chief of Staff.
+        src: *id004
+      - name: Preston, Maurice A.
+        rank: Gen., USAF
+        from: '1966-08-01'
+        to: '1968-08-01'
+        out: Retired.
+        src: *id004
+      - name: Wade, Horace M.
+        rank: Gen., USAF
+        from: '1968-08-01'
+        to: '1969-02-01'
+        src: *id004
+      - name: Holzapple, Joseph R.
+        rank: Gen., USAF
+        from: '1969-02-01'
+        to: '1971-09-01'
+        out: Retired.
+        src: *id004
+      - name: Jones, David C.
+        rank: Gen., USAF
+        from: '1971-09-01'
+        to: '1974-07-01'
+        out: To Chief of Staff.
+        src: *id004
+      - name: Vogt, John W., Jr.
+        rank: Gen., USAF
+        from: '1974-07-01'
+        to: '1975-09-01'
+        out: Retired.
+        src: *id004
+  - id: seventh-af
+    title: Commander, 2d Air Division
+    titles:
+      - title: Commander, Seventh Air Force
+        from: '1966-04-01'
+    rank: military
+    appt: MIL
+    under: commands.comusmacv
+    group: Major commands
+    from: 1961-11
+    n: 'The Air Force command in South Vietnam, under Pacific Air Forces and MACV. Moved to Nakhon Phanom, Thailand, Mar. 1973, as U.S. Support Activities Group/Seventh Air Force; later commanders not yet entered: Check.'
+    holders:
+      - name: Anthis, Rollen H.
+        rank: Maj. Gen., USAF
+        from: 1961-11
+        to: 1964-01
+        n: 'Commander, 2d Advanced Echelon, then 2d Air Division, at Tan Son Nhut. Check: dates.'
+        src: &id005
+          - 'Wikipedia: Seventh Air Force'
+          - 'Wikipedia: John D. Lavelle'
+          - 'Wikipedia: Joseph Harold Moore'
+      - name: Moore, Joseph H.
+        rank: Lt. Gen., USAF
+        from: 1964-01
+        to: 1966-06
+        n: 'Seventh Air Force from Apr. 1, 1966. Check: dates.'
+        src: *id005
+      - name: Momyer, William W.
+        rank: Gen., USAF
+        from: '1966-07-01'
+        to: '1968-07-31'
+        out: To Commander, Tactical Air Command.
+        n: 'Also MACV''s deputy commander for air operations. Check: days.'
+        src: *id005
+      - name: Brown, George S.
+        rank: Gen., USAF
+        from: '1968-08-01'
+        to: 1970-08
+        out: To Commander, Air Force Systems Command.
+        n: Also deputy commander for air operations, MACV.
+        src: *id005
+      - name: Clay, Lucius D., Jr.
+        rank: Gen., USAF
+        from: 1970-09
+        to: 1971-07
+        out: To Commander in Chief, Pacific Air Forces.
+        n: 'Check: dates.'
+        src: *id005
+      - name: Lavelle, John D.
+        rank: Gen., USAF
+        from: '1971-07-29'
+        to: 1972-04
+        out: Relieved; retired as major general.
+        n: 'Strikes in North Vietnam outside the rules of engagement, Nov. 1971–Mar. 1972; Armed Services hearings, 1972. Check: day relieved.'
+        src: *id005
+      - name: Vogt, John W., Jr.
+        rank: Gen., USAF
+        from: 1972-04
+        to: 1973-09
+        out: To Commander in Chief, Pacific Air Forces.
+        n: 'From Director, Joint Staff. Also deputy commander, MACV. Check: days.'
+        src: *id005
+  - id: afsc
+    title: Commander, Air Force Systems Command
+    rank: military
+    appt: MIL
+    group: Major commands
+    from: '1961-04-01'
+    n: Replaced the Air Research and Development Command, Apr. 1, 1961.
+    holders:
+      - name: Schriever, Bernard A.
+        rank: Gen., USAF
+        from: '1961-04-01'
+        to: 1966-08
+        out: Retired.
+        n: 'Check: day of leaving.'
+        src: &id006
+          - 'Wikipedia: Air Force Systems Command'
+      - name: Ferguson, James
+        rank: Gen., USAF
+        from: 1966-09
+        to: 1970-08
+        out: Retired.
+        n: 'Check: dates.'
+        src: *id006
+      - name: Brown, George S.
+        rank: Gen., USAF
+        from: '1970-09-01'
+        to: '1973-07-31'
+        out: To Chief of Staff.
+        src: *id006
+      - name: Phillips, Samuel C.
+        rank: Gen., USAF
+        from: '1973-08-01'
+        to: 1975-08
+        out: Retired.
+        n: From Director, National Security Agency.
+        src: *id006

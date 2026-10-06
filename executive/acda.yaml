@@ -4,11 +4,26 @@ unit: acda
 name: United States Arms Control and Disarmament Agency
 under: president
 order: 500
+from: '1961-09-26'
+law:
+  - act: Arms Control and Disarmament Act
+    date: '1961-09-26'
+    tags: [creates, appointment, vacancy, powers]
+    cite: Pub. L. 87-297, 75 Stat. 631
+    usc: 22 U.S.C. §§ 2551–2592 (1964)
+    does: Establishes the United States Arms Control and Disarmament Agency, its Director the principal adviser to the Secretary of State and the President on arms control and disarmament, acting under the direction of the Secretary of State (§ 22); a Director, a Deputy Director, who acts in a vacancy, and up to four Assistant Directors and a General Counsel, all appointed by the President with the advice and consent of the Senate (§§ 21, 23–25); research, the preparation and management of negotiations, and the direction of United States participation in them (§§ 31, 34).
+  - act: Federal Executive Salary Act of 1964
+    date: '1964-08-14'
+    tags: [pay]
+    cite: Pub. L. 88-426, § 303, 78 Stat. 400, 416
+    does: 'Executive Schedule: Director, level II; Deputy Director, level IV; Assistant Directors (4) and General Counsel, level V.'
+n: Succeeded the United States Disarmament Administration in the Department of State (1960–61).
 offices:
   - id: director
     title: Director of the United States Arms Control and Disarmament Agency
     rank: head
     appt: PAS
+    level: II
     holders:
       - name: Foster, William C.
         given: William Chapman
@@ -18,13 +33,16 @@ offices:
         to: '1968-12-31'
         src:
           - POCOM
+          - 'Wikipedia: William Chapman Foster'
       - name: Smith, Gerard C.
         given: Gerard Coad
         appointed: '1969-02-07'
         from: '1969-02-07'
         to: '1973-01-04'
+        n: Chief of the United States delegation to the Strategic Arms Limitation Talks, 1969–72.
         src:
           - POCOM
+          - 'Wikipedia: Gerard C. Smith'
       - name: Iklé, Fred C.
         given: Fred Charles
         appointed: '1973-07-10'
@@ -32,3 +50,165 @@ offices:
         to: '1977-01-19'
         src:
           - POCOM
+          - FRUS persons list
+  - id: deputy-director
+    title: Deputy Director of the United States Arms Control and Disarmament Agency
+    rank: principal
+    appt: PAS
+    level: IV
+    n: Acts as Director in a vacancy (Arms Control and Disarmament Act, § 23).
+    holders:
+      - name: Fisher, Adrian S.
+        given: Adrian Sanford
+        from: 1961-10
+        to: 1969-03
+        n: 'Deputy to the Adviser to the President on Disarmament, 1961. Check: the days.'
+        src:
+          - FRUS persons list
+          - CDIR 1963-03
+          - CDIR 1969-03
+      - name: Farley, Philip J.
+        from: 1969-08
+        to: '1973'
+        n: 'Deputy Assistant Secretary of State for Politico-Military Affairs until August 1969. Member of the SALT delegation. Check: the days.'
+        src:
+          - FRUS persons list
+          - CDIR 1971-03
+      - name: Zurhellen, J. Owen, Jr.
+        from: '1973'
+        n: 'Check: the day he took office; in CDIR 1973-12.'
+        src:
+          - CDIR 1973-12
+  - id: general-counsel
+    title: General Counsel, Arms Control and Disarmament Agency
+    rank: inferior
+    appt: PAS
+    level: V
+    holders:
+      - name: Bunn, George
+        from: '1961'
+        to: '1968'
+        n: 'Check: the days; in CDIR 1963-03 and 1964-01.'
+        src:
+          - FRUS persons list
+          - CDIR 1963-03
+      - name: Van Doren, Charles N.
+        acting: true
+        from: '1969'
+        to: '1969'
+        n: 'Deputy General Counsel, acting General Counsel in CDIR 1969-03. Check: the days.'
+        src:
+          - CDIR 1969-03
+      - name: Hancock, William W.
+        from: '1969'
+        to: '1973'
+        n: 'Check: the days; in CDIR 1969-12 through 1973-03.'
+        src:
+          - CDIR 1969-12
+          - CDIR 1973-03
+  - id: international-relations
+    title: Assistant Director, International Relations Bureau
+    rank: inferior
+    appt: PAS
+    group: Bureaus
+    level: V
+    holders:
+      - name: Beam, Jacob D.
+        from: 1962-03
+        to: '1966-08-31'
+        out: To Ambassador to Czechoslovakia.
+        src:
+          - FRUS persons list
+      - name: De Palma, Samuel
+        from: 1966-11
+        to: 1969-02
+        out: To Assistant Secretary of State for International Organization Affairs.
+        n: 'Deputy Assistant Director, Nov. 1965–Nov. 1966. Check: the days.'
+        src:
+          - FRUS persons list
+          - CDIR 1967-12
+      - name: Leonard, James F., Jr.
+        from: 1969-02
+        to: '1973'
+        n: 'Also Representative to the Eighteen-Nation Disarmament Committee and the Conference of the Committee on Disarmament. Check: the days.'
+        src:
+          - FRUS persons list
+      - name: Miller, Robert H.
+        from: '1973'
+        n: 'Check: the day he took office; in CDIR 1973-12.'
+        src:
+          - CDIR 1973-12
+  - id: science-technology
+    title: Assistant Director, Science and Technology Bureau
+    rank: inferior
+    appt: PAS
+    group: Bureaus
+    level: V
+    holders:
+      - name: Scoville, Herbert, Jr.
+        from: '1963'
+        to: '1969'
+        n: 'Check: the days; in CDIR 1965-03 through 1969-03.'
+        src:
+          - FRUS persons list
+          - CDIR 1965-03
+          - CDIR 1969-03
+      - name: Keeny, Spurgeon M., Jr.
+        from: '1969'
+        n: 'Member of the NSC staff until 1969. Check: the days; in CDIR 1969-12 through 1973-03.'
+        src:
+          - FRUS persons list
+          - CDIR 1969-12
+  - id: economics
+    title: Assistant Director, Economics Bureau
+    titles:
+      - title: Assistant Director, Economic Affairs Bureau
+        from: '1971'
+    rank: inferior
+    appt: PAS
+    group: Bureaus
+    level: V
+    holders:
+      - name: Alexander, Archibald S.
+        from: '1963'
+        to: '1969'
+        n: 'Check: the days; in CDIR 1964-01 through 1967-12.'
+        src:
+          - CDIR 1964-01
+          - CDIR 1967-12
+      - name: Wade, Robert H. B.
+        from: '1969'
+        to: '1973'
+        n: 'Check: the days; in CDIR 1969-12 through 1973-03.'
+        src:
+          - CDIR 1969-12
+          - CDIR 1973-03
+  - id: delegations
+    title: Chief of the United States Delegation to a disarmament negotiation
+    rank: principal
+    appt: DES
+    group: Negotiators
+    many: true
+    n: The chiefs of delegation at Geneva (the Eighteen-Nation Disarmament Committee from 1962) and at the Strategic Arms Limitation Talks.
+    holders:
+      - name: Stelle, Charles C.
+        title: Deputy Representative to the Eighteen-Nation Disarmament Committee
+        from: '1962'
+        to: '1963'
+        n: 'U.S. Deputy Representative at the Geneva Conference on the Discontinuance of Nuclear Weapon Tests until 1962. Check: the days.'
+        src:
+          - FRUS persons list
+      - name: Dean, Arthur H.
+        title: Chairman of the U.S. Delegation to the Eighteen-Nation Disarmament Committee
+        from: 1962-03
+        to: '1962-12-27'
+        n: 'Also U.S. Representative at the Geneva Conference on the Discontinuance of Nuclear Weapon Tests, 1961. Check: the day he took the chairmanship.'
+        src:
+          - FRUS persons list
+      - name: Smith, Gerard C.
+        title: Chief of the U.S. Delegation to the Strategic Arms Limitation Talks
+        from: 1969-11
+        to: '1973-01-04'
+        n: 'Director of the Agency. Check: the day he took the delegation.'
+        src:
+          - FRUS persons list

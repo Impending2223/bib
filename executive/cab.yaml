@@ -1,0 +1,231 @@
+# The Civil Aeronautics Board. Kept by hand.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: cab
+name: Civil Aeronautics Board
+under: president
+order: 500
+law:
+  - act: Civil Aeronautics Act of 1938
+    date: '1938-06-23'
+    tags: [creates, powers]
+    cite: 'ch. 601, 52 Stat. 973'
+    usc: ['49 U.S.C. §§ 401–722 (1952)']
+    does: Creates the Civil Aeronautics Authority, of five members, to regulate air carriers by certificate of public convenience and necessity, tariffs, and safety rules.
+  - act: Reorganization Plan No. IV of 1940
+    date: '1940-06-30'
+    tags: [reorganizes]
+    cite: '54 Stat. 1234, 1235'
+    usc: '5 U.S.C. § 133t note (1958)'
+    does: The Authority's five members and the Air Safety Board's functions made the Civil Aeronautics Board, in the Department of Commerce for administrative housekeeping only; the Administrator's functions to the Secretary of Commerce.
+  - act: Federal Aviation Act of 1958
+    date: '1958-08-23'
+    tags: [creates, appointment, powers]
+    cite: 'Pub. L. 85-726, § 201, 72 Stat. 731, 741'
+    usc: '49 U.S.C. § 1321 (1964)'
+    does: 'The Board continued as an independent agency: five members appointed by the President, by and with the advice and consent of the Senate, for six years; not more than three of one party; removable for inefficiency, neglect of duty, or malfeasance in office. The President annually designates a chairman and a vice chairman. Economic regulation of air carriers (title IV); safety rulemaking to the new Federal Aviation Agency, accident investigation kept.'
+n: 'Dates here come chiefly from the Congressional Directory''s lists at each edition, with the members'' biographies where Wikipedia has them; a "Check" marks a date known only to the year or the interval between editions.'
+offices:
+  - id: chairman
+    title: Chairman of the Civil Aeronautics Board
+    rank: head
+    appt: DES
+    level: III
+    law:
+      - act: Reorganization Plan No. 13 of 1950
+        date: '1950-05-24'
+        tags: [powers]
+        cite: '64 Stat. 1266'
+        usc: '49 U.S.C. § 421 note (1958)'
+        does: The Board's executive and administrative functions transferred to the Chairman, governed by its general policies.
+      - act: Federal Aviation Act of 1958
+        date: '1958-08-23'
+        tags: [appointment]
+        cite: 'Pub. L. 85-726, § 201(a), 72 Stat. 731, 741'
+        usc: '49 U.S.C. § 1321(a) (1964)'
+        does: The President annually designates one member chairman and one vice chairman.
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(c)(17), 78 Stat. 400, 417'
+        usc: '5 U.S.C. § 5314 (1970)'
+        does: Level III, $28,500.
+    holders:
+      - name: Ryan, Oswald
+        from: '1952'
+        to: '1953-04'
+        n: 'Check: the dates of his chairmanship (chairman Mar. 1953; Gurney chairman Jan. 1954, Denny a member from Apr. 7, 1953).'
+        src: [CDIR 1953-03]
+      - name: Gurney, Chan
+        from: '1953-04'
+        to: '1955'
+        n: 'Listed as acting chairman, Feb. 1955. Check: the dates.'
+        src: [CDIR 1954-01, CDIR 1955-02]
+      - name: Rizley, Ross
+        from: '1955'
+        to: '1956-04-13'
+        out: To United States District Judge, Western District of Oklahoma.
+        n: 'Check: the day he took office.'
+        src: ['Wikipedia: Ross Rizley', CDIR 1956-01]
+      - name: Durfee, James R.
+        from: '1956-04-13'
+        to: '1960'
+        n: 'Check: the dates; taken here as succeeding Rizley on his leaving (chairman Mar. 1957 to Jan. 1960).'
+        src: [CDIR 1957-03, CDIR 1960-01]
+      - name: Boyd, Alan S.
+        from: '1961'
+        to: '1965'
+        out: To Under Secretary of Commerce for Transportation.
+        n: 'Check: the dates (chairman Apr. 1961 to Mar. 1965).'
+        src: ['Wikipedia: Alan S. Boyd', CDIR 1961-04, CDIR 1965-03]
+      - name: Murphy, Charles S.
+        from: '1965-06-01'
+        to: '1968-03-11'
+        n: Under Secretary of Agriculture, 1961–65.
+        src: ['Wikipedia: Charles S. Murphy', CDIR 1966-01, CDIR 1967-12]
+      - name: Crooker, John H., Jr.
+        from: '1968-03-11'
+        to: '1969'
+        n: 'Check: the dates; taken here as succeeding Murphy on his leaving (chairman Mar. 1969; Browne Dec. 1969).'
+        src: [CDIR 1969-03]
+      - name: Browne, Secor D.
+        from: '1969'
+        to: '1973-02'
+        n: 'Formerly Assistant Secretary of Transportation. Check: the dates.'
+        src: [CDIR 1969-12, CDIR 1973-03]
+      - name: Timm, Robert D.
+        from: '1973-03-01'
+        n: Served to Dec. 31, 1974.
+        src: ['Wikipedia: Robert D. Timm', CDIR 1973-12]
+  - id: vice-chairman
+    title: Vice Chairman of the Civil Aeronautics Board
+    rank: principal
+    appt: DES
+    holders:
+      - name: Denny, Harmar D., Jr.
+        from: '1953'
+        to: '1954'
+        n: 'Check: the dates (listed Jan. 1954).'
+        src: [CDIR 1954-01]
+      - name: Adams, Joseph P.
+        from: '1955'
+        to: '1956'
+        n: 'Check: the dates (listed Jan. 1956).'
+        src: [CDIR 1956-01]
+      - name: Gurney, Chan
+        from: '1957'
+        to: '1960'
+        n: 'Check: the dates (listed Jan. 1958 to Jan. 1960).'
+        src: [CDIR 1958-01, CDIR 1960-01]
+      - name: Murphy, Robert T.
+        from: '1961'
+        to: '1970'
+        n: 'Check: the dates (listed Apr. 1961 to Dec. 1969).'
+        src: [CDIR 1961-04, CDIR 1969-12]
+      - name: Gillilland, Whitney
+        from: '1970'
+        n: 'Check: the dates (listed Mar. 1971 to Dec. 1973).'
+        src: [CDIR 1971-03, CDIR 1973-12]
+  - id: member
+    title: Member of the Civil Aeronautics Board
+    rank: principal
+    appt: PAS
+    many: true
+    law:
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(d)(54), 78 Stat. 400, 418'
+        usc: '5 U.S.C. § 5315 (1970)'
+        does: Members at Level IV, $27,000.
+    n: Five members, the chairman among them.
+    holders:
+      - name: Ryan, Oswald
+        from: '1938'
+        to: '1954'
+        n: 'An original member of the Civil Aeronautics Authority. Check: the day he left (listed Jan. 1954, not Feb. 1955).'
+        src: [CDIR 1953-03, CDIR 1954-01]
+      - name: Lee, Josh
+        from: '1943'
+        to: '1956'
+        n: 'Former Senator from Oklahoma. Check: the dates (listed Mar. 1953 to Jan. 1956).'
+        src: ['Wikipedia: Josh Lee', CDIR 1953-03, CDIR 1956-01]
+      - name: Adams, Joseph P.
+        from: '1951'
+        to: '1956'
+        n: 'Check: the dates (listed Mar. 1953 to Jan. 1956).'
+        src: [CDIR 1953-03, CDIR 1956-01]
+      - name: Gurney, Chan
+        from: '1951'
+        to: '1965'
+        n: 'Former Senator from South Dakota. Check: the day he left (listed Mar. 1965, not Jan. 1966).'
+        src: ['Wikipedia: Chan Gurney', CDIR 1965-03]
+      - name: Denny, Harmar D., Jr.
+        from: '1953-04-07'
+        to: '1959-11-15'
+        n: Former Representative from Pennsylvania.
+        src: ['Wikipedia: Harmar D. Denny Jr.']
+      - name: Rizley, Ross
+        from: '1955'
+        to: '1956-04-13'
+        out: To United States District Judge.
+        n: Former Representative from Oklahoma. Chairman throughout.
+        src: ['Wikipedia: Ross Rizley', CDIR 1956-01]
+      - name: Durfee, James R.
+        from: '1956'
+        to: '1960'
+        n: 'Check: the dates (listed Mar. 1957 to Jan. 1960, not Apr. 1961).'
+        src: [CDIR 1957-03, CDIR 1960-01]
+      - name: Minetti, G. Joseph
+        from: '1956'
+        n: 'Formerly a member of the Federal Maritime Board. Check: the day he took office (listed Mar. 1957; on the Maritime Board Jan. 1956). Listed Dec. 1973.'
+        src: [CDIR 1957-03, CDIR 1973-12]
+      - name: Hector, Louis J.
+        from: '1957'
+        to: '1959'
+        n: 'Check: the dates (listed Jan. 1958 and Mar. 1959).'
+        src: [CDIR 1958-01, CDIR 1959-03]
+      - name: Boyd, Alan S.
+        from: '1959'
+        to: '1965'
+        out: To Under Secretary of Commerce for Transportation.
+        n: 'Appointed by Eisenhower. Chairman from 1961. Check: the dates.'
+        src: ['Wikipedia: Alan S. Boyd', CDIR 1960-01, CDIR 1965-03]
+      - name: Gillilland, Whitney
+        from: '1959'
+        n: 'Check: the day he took office (listed Jan. 1960). Listed Dec. 1973.'
+        src: [CDIR 1960-01, CDIR 1973-12]
+      - name: Murphy, Robert T.
+        from: '1961'
+        to: '1973'
+        n: 'Check: the dates (listed Apr. 1961 to Mar. 1973, not Dec. 1973).'
+        src: [CDIR 1961-04, CDIR 1973-03]
+      - name: Adams, John G.
+        from: '1965'
+        to: '1971'
+        n: 'Formerly Counsel to the Department of the Army. Check: the dates (listed Jan. 1966 to Dec. 1969, not Mar. 1971).'
+        src: [CDIR 1966-01, CDIR 1969-12]
+      - name: Murphy, Charles S.
+        from: '1965-06-01'
+        to: '1968-03-11'
+        n: Chairman throughout.
+        src: ['Wikipedia: Charles S. Murphy']
+      - name: Crooker, John H., Jr.
+        from: '1968'
+        to: '1969'
+        n: 'Chairman throughout. Check: the dates.'
+        src: [CDIR 1969-03]
+      - name: Browne, Secor D.
+        from: '1969'
+        to: '1973-02'
+        n: 'Chairman throughout. Check: the dates.'
+        src: [CDIR 1969-12, CDIR 1973-03]
+      - name: Timm, Robert D.
+        from: '1971'
+        n: 'Chairman from Mar. 1, 1973. Served to 1976. Check: the day he took office (listed Mar. 1971).'
+        src: ['Wikipedia: Robert D. Timm', CDIR 1971-03]
+      - name: West, Lee R.
+        from: '1973'
+        n: 'Served to 1978. Check: the day he took office (two seats vacant in the Directory of Dec. 1973).'
+        src: ['Wikipedia: Lee Roy West']

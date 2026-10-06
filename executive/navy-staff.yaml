@@ -1,0 +1,417 @@
+# The Office of the Chief of Naval Operations and the fleets, 1953-74. Kept by hand.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: navy-staff
+name: Office of the Chief of Naval Operations and the fleets
+under: navy
+order: 50
+law:
+  - act: Title 10, United States Code, enacted
+    date: '1956-08-10'
+    tags: [creates, powers]
+    cite: ch. 1041, 70A Stat. 1, 281
+    usc: 10 U.S.C. §§ 5081–5087 (1958)
+    does: 'The Office of the Chief of Naval Operations: the Chief, a Vice Chief, Deputy and Assistant Chiefs; the Chief commands the operating forces under the Secretary of the Navy.'
+  - act: Department of Defense Reorganization Act of 1958
+    date: '1958-08-06'
+    tags: [powers]
+    cite: Pub. L. 85-599, § 4(b), 72 Stat. 514, 516
+    usc: 10 U.S.C. § 5081(c) (1958)
+    does: The Chief of Naval Operations supervises such members and organizations of the Navy and Marine Corps as the Secretary determines, consistent with the full operational command of the unified and specified commanders.
+n: 'The Chief of Naval Operations is in the Joint Chiefs of Staff unit (jcs.cno). Fleet commanders are assigned; the fleets serve under the unified commanders (commands). Dates from Wikipedia''s lists of commanders; months only where so given: Check days.'
+offices:
+  - id: vice-cno
+    title: Vice Chief of Naval Operations
+    rank: military
+    appt: MIL
+    under: jcs.cno
+    group: Office of the Chief of Naval Operations
+    law:
+      - act: Title 10, United States Code, enacted
+        date: '1956-08-10'
+        tags: [appointment, vacancy]
+        cite: ch. 1041, 70A Stat. 1
+        usc: 10 U.S.C. § 5085 (1958)
+        does: The Vice Chief of Naval Operations detailed from officers of the line eligible to command at sea; acts for the Chief in a vacancy or in his absence or disability.
+    holders:
+      - name: Duncan, Donald B.
+        rank: Adm., USN
+        from: '1951'
+        to: '1956'
+        out: Retired.
+        n: 'Check: dates.'
+        src: &id001
+          - 'Wikipedia: Vice Chief of Naval Operations'
+      - name: Felt, Harry D.
+        rank: Adm., USN
+        from: '1956'
+        to: 1958-07
+        out: To Commander in Chief, Pacific.
+        n: 'From Commander, Sixth Fleet (Apr.–Aug. 1956). Check: from.'
+        src: *id001
+      - name: Russell, James S.
+        rank: Adm., USN
+        from: '1958-07-21'
+        to: 1961-09
+        out: Retired.
+        src: *id001
+      - name: Ricketts, Claude V.
+        rank: Adm., USN
+        from: '1961-09-25'
+        to: 1964-07
+        n: 'Wikipedia''s list gives July 6, 1964, for leaving; he died July 6, 1964. Check: whether in office.'
+        src: *id001
+      - name: Rivero, Horacio, Jr.
+        rank: Adm., USN
+        from: 1964-07
+        to: 1968-01
+        n: 'Check: day of taking office.'
+        src: *id001
+      - name: Clarey, Bernard A.
+        rank: Adm., USN
+        from: 1968-01
+        to: 1970-12
+        out: To Commander in Chief, Pacific Fleet.
+        src: *id001
+      - name: Cousins, Ralph W.
+        rank: Adm., USN
+        from: 1970-12
+        to: 1972-10
+        out: To Commander in Chief, Atlantic.
+        n: 'Check: dates.'
+        src: *id001
+      - name: Weisner, Maurice F.
+        rank: Adm., USN
+        from: 1972-10
+        to: 1973-09
+        out: To Commander in Chief, Pacific Fleet.
+        n: 'Check: dates.'
+        src: *id001
+      - name: Holloway, James L., III
+        rank: Adm., USN
+        from: 1973-09
+        to: 1974-06
+        out: To Chief of Naval Operations.
+        src: *id001
+      - name: Bagley, Worth H.
+        rank: Adm., USN
+        from: 1974-06
+        to: 1975-07
+        out: Retired.
+        n: 'From Commander in Chief, U.S. Naval Forces, Europe. Check: day.'
+        src: *id001
+  - id: atlantic-fleet
+    title: Commander in Chief, U.S. Atlantic Fleet (CINCLANTFLT)
+    rank: military
+    appt: MIL
+    group: Fleets
+    n: Held by the Commander in Chief, Atlantic (commands.cinclant), throughout.
+    holders:
+      - name: McCormick, Lynde D.
+        rank: Adm., USN
+        from: '1951-08-15'
+        to: '1954-04-12'
+        src: &id002
+          - 'Wikipedia: United States Atlantic Command'
+      - name: Wright, Jerauld
+        rank: Adm., USN
+        from: '1954-04-12'
+        to: '1960-02-28'
+        src: *id002
+      - name: Dennison, Robert L.
+        rank: Adm., USN
+        from: '1960-02-28'
+        to: '1963-04-30'
+        src: *id002
+      - name: Smith, Harold P.
+        rank: Adm., USN
+        from: '1963-04-30'
+        to: '1965-04-30'
+        src: *id002
+      - name: Moorer, Thomas H.
+        rank: Adm., USN
+        from: '1965-04-30'
+        to: '1967-06-17'
+        out: To Chief of Naval Operations.
+        src: *id002
+      - name: Holmes, Ephraim P.
+        rank: Adm., USN
+        from: '1967-06-17'
+        to: '1970-09-30'
+        src: *id002
+      - name: Duncan, Charles K.
+        rank: Adm., USN
+        from: '1970-09-30'
+        to: '1972-10-31'
+        src: *id002
+      - name: Cousins, Ralph W.
+        rank: Adm., USN
+        from: '1972-10-31'
+        to: '1975-05-30'
+        src: *id002
+  - id: pacific-fleet
+    title: Commander in Chief, U.S. Pacific Fleet (CINCPACFLT)
+    rank: military
+    appt: MIL
+    group: Fleets
+    n: Held by CINCPAC until Jan. 14, 1958; separate thereafter, at Pearl Harbor.
+    holders:
+      - name: Radford, Arthur W.
+        rank: Adm., USN
+        from: '1949-04-30'
+        to: '1953-07-10'
+        out: To Chairman of the Joint Chiefs of Staff.
+        src: &id003
+          - 'Wikipedia: Commander, U.S. Pacific Fleet'
+          - FRUS persons list
+      - name: Stump, Felix B.
+        rank: Adm., USN
+        from: '1953-07-10'
+        to: '1958-01-14'
+        n: Also CINCPAC.
+        src: *id003
+      - name: Curts, Maurice E.
+        rank: Adm., USN
+        from: '1958-01-14'
+        to: '1958-02-01'
+        src: *id003
+      - name: Hopwood, Herbert G.
+        rank: Adm., USN
+        from: '1958-02-01'
+        to: '1960-08-30'
+        out: Retired.
+        src: *id003
+      - name: Sides, John H.
+        rank: Adm., USN
+        from: '1960-08-30'
+        to: '1963-09-30'
+        out: Retired.
+        src: *id003
+      - name: Sharp, U.S. Grant
+        rank: Adm., USN
+        from: '1963-09-30'
+        to: '1964-06-26'
+        out: To Commander in Chief, Pacific.
+        src: *id003
+      - name: Moorer, Thomas H.
+        rank: Adm., USN
+        from: '1964-06-26'
+        to: '1965-03-30'
+        out: To Commander in Chief, Atlantic.
+        src: *id003
+      - name: Johnson, Roy L.
+        rank: Adm., USN
+        from: '1965-03-30'
+        to: '1967-11-30'
+        out: Retired.
+        src: *id003
+      - name: Hyland, John J., Jr.
+        rank: Adm., USN
+        from: '1967-11-30'
+        to: '1970-12-05'
+        out: Retired.
+        src: *id003
+      - name: Clarey, Bernard A.
+        rank: Adm., USN
+        from: '1970-12-05'
+        to: '1973-09-30'
+        out: Retired.
+        src: *id003
+      - name: Weisner, Maurice F.
+        rank: Adm., USN
+        from: '1973-09-30'
+        to: '1976-08-12'
+        out: To Commander in Chief, Pacific.
+        n: 'Check: day of leaving.'
+        src: *id003
+  - id: sixth-fleet
+    title: Commander, Sixth Fleet
+    rank: military
+    appt: MIL
+    group: Fleets
+    n: 'In the Mediterranean. Months from Wikipedia''s list: Check days.'
+    holders:
+      - name: Cassady, John H.
+        rank: Vice Adm., USN
+        from: 1952-05
+        to: 1954-03
+        out: To Commander in Chief, U.S. Naval Forces, Eastern Atlantic and Mediterranean.
+        src: &id004
+          - 'Wikipedia: United States Sixth Fleet'
+      - name: Combs, Thomas S.
+        rank: Vice Adm., USN
+        from: 1954-06
+        to: 1955-03
+        src: *id004
+      - name: Ofstie, Ralph A.
+        rank: Vice Adm., USN
+        from: 1955-03
+        to: 1956-04
+        src: *id004
+      - name: Felt, Harry D.
+        rank: Vice Adm., USN
+        from: 1956-04
+        to: 1956-08
+        out: To Vice Chief of Naval Operations.
+        src: *id004
+      - name: Brown, Charles R.
+        rank: Vice Adm., USN
+        from: 1956-08
+        to: 1958-09
+        src: *id004
+      - name: Ekstrom, Clarence E.
+        rank: Vice Adm., USN
+        from: 1958-09
+        to: 1959-09
+        src: *id004
+      - name: Anderson, George W., Jr.
+        rank: Vice Adm., USN
+        from: 1959-09
+        to: 1961-07
+        out: To Chief of Naval Operations.
+        src: *id004
+      - name: McDonald, David L.
+        rank: Vice Adm., USN
+        from: 1961-07
+        to: 1963-03
+        out: To Commander in Chief, U.S. Naval Forces, Europe.
+        src: *id004
+      - name: Gentner, William E., Jr.
+        rank: Vice Adm., USN
+        from: 1963-03
+        to: 1964-06
+        out: To Commander, U.S. Taiwan Defense Command.
+        src: *id004
+      - name: Ellis, William E.
+        rank: Vice Adm., USN
+        from: 1964-06
+        to: 1966-09
+        src: *id004
+      - name: Ashworth, Frederick L.
+        rank: Vice Adm., USN
+        from: 1966-09
+        to: 1967-04
+        src: *id004
+      - name: Martin, William I.
+        rank: Vice Adm., USN
+        from: 1967-04
+        to: 1968-08
+        src: *id004
+      - name: Richardson, David C.
+        rank: Vice Adm., USN
+        from: 1968-08
+        to: 1970-08
+        src: *id004
+      - name: Kidd, Isaac C., Jr.
+        rank: Vice Adm., USN
+        from: 1970-08
+        to: 1971-10
+        src: *id004
+      - name: Miller, Gerald E.
+        rank: Vice Adm., USN
+        from: 1971-10
+        to: 1973-06
+        src: *id004
+      - name: Murphy, Daniel J.
+        rank: Vice Adm., USN
+        from: 1973-06
+        to: 1974-09
+        src: *id004
+  - id: seventh-fleet
+    title: Commander, Seventh Fleet
+    rank: military
+    appt: MIL
+    group: Fleets
+    n: In the western Pacific.
+    holders:
+      - name: Clark, Joseph J.
+        rank: Vice Adm., USN
+        from: '1952-05-20'
+        to: '1953-12-01'
+        src: &id005
+          - 'Wikipedia: United States Seventh Fleet'
+      - name: Pride, Alfred M.
+        rank: Vice Adm., USN
+        from: '1953-12-01'
+        to: '1955-12-09'
+        n: Also Commander, U.S. Taiwan Defense Command, from Apr. 1955.
+        src: *id005
+      - name: Ingersoll, Stuart H.
+        rank: Vice Adm., USN
+        from: '1955-12-19'
+        to: '1957-01-28'
+        src: *id005
+      - name: Beakley, Wallace M.
+        rank: Vice Adm., USN
+        from: '1957-01-28'
+        to: '1958-09-30'
+        src: *id005
+      - name: Kivette, Frederick N.
+        rank: Vice Adm., USN
+        from: '1958-09-30'
+        to: '1960-03-07'
+        src: *id005
+      - name: Griffin, Charles D.
+        rank: Vice Adm., USN
+        from: '1960-03-07'
+        to: '1961-10-28'
+        src: *id005
+      - name: Schoech, William A.
+        rank: Vice Adm., USN
+        from: '1961-10-28'
+        to: '1962-10-13'
+        src: *id005
+      - name: Moorer, Thomas H.
+        rank: Vice Adm., USN
+        from: '1962-10-13'
+        to: '1964-06-15'
+        out: To Commander in Chief, Pacific Fleet.
+        src: *id005
+      - name: Johnson, Roy L.
+        rank: Vice Adm., USN
+        from: '1964-06-15'
+        to: '1965-03-01'
+        out: To Commander in Chief, Pacific Fleet.
+        n: In command in the Gulf of Tonkin, Aug. 1964.
+        src: *id005
+      - name: Blackburn, Paul P.
+        rank: Vice Adm., USN
+        from: '1965-03-01'
+        to: '1965-10-09'
+        src: *id005
+      - name: Williams, Joseph W., Jr.
+        rank: Rear Adm., USN
+        from: '1965-10-09'
+        to: '1965-12-13'
+        src: *id005
+        acting: true
+      - name: Hyland, John J., Jr.
+        rank: Vice Adm., USN
+        from: '1965-12-13'
+        to: '1967-11-06'
+        out: To Commander in Chief, Pacific Fleet.
+        src: *id005
+      - name: Bringle, William F.
+        rank: Vice Adm., USN
+        from: '1967-11-06'
+        to: '1970-03-10'
+        src: *id005
+      - name: Weisner, Maurice F.
+        rank: Vice Adm., USN
+        from: '1970-03-10'
+        to: '1971-06-18'
+        src: *id005
+      - name: Mack, William P.
+        rank: Vice Adm., USN
+        from: '1971-06-18'
+        to: '1972-05-23'
+        src: *id005
+      - name: Holloway, James L., III
+        rank: Vice Adm., USN
+        from: '1972-05-23'
+        to: '1973-07-28'
+        src: *id005
+      - name: Steele, George P.
+        rank: Vice Adm., USN
+        from: '1973-07-28'
+        to: '1975-06-14'
+        src: *id005
