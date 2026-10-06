@@ -214,8 +214,11 @@ def exists(x, a, b):
 
 
 def in_term(h, a, b):
-    """Did the holder serve during [a, b)? One who left on the term's first day belongs to the term before."""
-    return lo(h["from"]) < lo(b) and (not h.get("to") or lo(h["to"]) > lo(a))
+    """Did the holder serve during [a, b)? One who left on the term's first day belongs to the term before.
+    A leaving date known only to the month or year of Jan. 20, 1953 ('1953', '1953-01') counts as within the period."""
+    t = h.get("to")
+    end = hi(t) if t and lo(t) < lo(START) else lo(t)
+    return lo(h["from"]) < lo(b) and (not t or end > lo(a))
 
 
 def tree(units):
@@ -797,7 +800,7 @@ def problems(series=None):
                     out.append((hw, "left before taking office"))
                 if h.get("nominated") and h.get("confirmed") and hi(h["confirmed"]) < lo(h["nominated"]):
                     out.append((hw, "confirmed before nominated"))
-                if h.get("to") and lo(h["to"]) < lo(START):
+                if h.get("to") and hi(h["to"]) < lo(START):
                     out.append((hw, "left before Jan. 20, 1953: not in the period"))
                 if lo(h["from"]) > hi(END):
                     out.append((hw, "took office after Aug. 31, 1974: not in the period"))
