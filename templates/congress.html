@@ -1,21 +1,20 @@
 <style>
-/* Colors, light and dark. p: the parties (pDs Southern Democrats; pT a third ticket). The election maps run on two
-   straight lines in OKLab, uniform by construction: from rW (near white; in dark mode a dark gray) at a tie, or no
-   swing, out to rR or rB, the most colorful ends of matched lightness whose whole line stays on screen (rA, amber,
-   a third ticket). Margin and swing take any point on them (ramp() in the script; QM, SWING); the result view
-   takes fixed points, eR1-eR4 and eB1-eB4: 15, 40 (held), 75 (the President's winner) and 89 percent (a pickup or
-   a flip); in dark mode held 25 and a pickup or flip the end itself. The held-to-pickup pairs are set to the old
-   stepped scale's contrast (OKLab difference about 0.29 light, 0.30 dark). eA a third ticket's steps; eN the gray of other member changes in the tables. */
+/* Colors, light and dark. p: the parties (pDs Southern Democrats; pT a third ticket). e: the election scales.
+   Result and Flips: four steps a side, eR1-eR4 and eB1-eB4 (held 2, the President's winner 3, a pickup or flip
+   4). Margin: a straight line in OKLab from rW (near white; a dark gray in dark mode) at a tie out to rR or rB,
+   the step-4 colors (rA, amber, a third ticket), placed by the quantile rule (QM in the script). Swing: from eN,
+   gray, at none to eR4 or eB4 at SWING points. eN also the gray of other member changes in the tables; eNone no
+   election; eHo a Senate seat not at stake: the base map's gray, a dot shown only by its ring. */
 :root{--pDs:#9DB4D6;--pD:#5878A8;--pR:#B0625E;--pO:#8C8A6E;--pV:#C9CDD3;--stb:#FFFFFF;--mk:#1A1E26}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--pDs:#46638F;--pD:#7D9CCB;--pR:#C9847F;--pO:#A9A688;--pV:#3C424C;--stb:#15181D;--mk:#E6E8EC}}
 :root[data-theme="dark"]{--pDs:#46638F;--pD:#7D9CCB;--pR:#C9847F;--pO:#A9A688;--pV:#3C424C;--stb:#15181D;--mk:#E6E8EC}
 :root{--eA1:#F2E4C6;--eA2:#E0C384;--eA3:#C49A45;--eA4:#8E6A24;--pT:#B98F3E}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--eA1:#463A22;--eA2:#755F31;--eA3:#AE8C4C;--eA4:#E0C68E;--pT:#C9A865}}
 :root[data-theme="dark"]{--eA1:#463A22;--eA2:#755F31;--eA3:#AE8C4C;--eA4:#E0C68E;--pT:#C9A865}
-:root{--rW:#FAFAF8;--rR:#94000C;--rB:#003EB4;--rA:#654700;--eN:#DCDEE2;--eNone:#E3E5E9;--eNA:#D5D8DD}
-:root{--eR1:color-mix(in oklab,var(--rR) 15%,var(--rW));--eR2:color-mix(in oklab,var(--rR) 40%,var(--rW));--eR3:color-mix(in oklab,var(--rR) 75%,var(--rW));--eR4:color-mix(in oklab,var(--rR) 89%,var(--rW));--eB1:color-mix(in oklab,var(--rB) 15%,var(--rW));--eB2:color-mix(in oklab,var(--rB) 40%,var(--rW));--eB3:color-mix(in oklab,var(--rB) 75%,var(--rW));--eB4:color-mix(in oklab,var(--rB) 89%,var(--rW))}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--rW:#33373E;--rR:#FF645A;--rB:#679CFF;--rA:#CC9300;--eR2:color-mix(in oklab,var(--rR) 25%,var(--rW));--eR4:var(--rR);--eB2:color-mix(in oklab,var(--rB) 25%,var(--rW));--eB4:var(--rB);--eN:#3A3F47;--eNone:#262A31;--eNA:#30353D}}
-:root[data-theme="dark"]{--rW:#33373E;--rR:#FF645A;--rB:#679CFF;--rA:#CC9300;--eR2:color-mix(in oklab,var(--rR) 25%,var(--rW));--eR4:var(--rR);--eB2:color-mix(in oklab,var(--rB) 25%,var(--rW));--eB4:var(--rB);--eN:#3A3F47;--eNone:#262A31;--eNA:#30353D}
+:root{--rW:#FAFAF8;--rR:#8A3F38;--rB:#3F5F95;--rA:#8E6A24;--eHo:color-mix(in srgb,var(--pV) 55%,var(--panel));--eN:#DCDEE2;--eNone:#E3E5E9;--eNA:#D5D8DD}
+:root{--eR4:#8A3F38;--eR3:#C47168;--eR2:#DDA19B;--eR1:#EFCFCB;--eB1:#CCD8EC;--eB2:#9AB2DA;--eB3:#6A8BC2;--eB4:#3F5F95}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--rW:#30343B;--rR:#E8B2AB;--rB:#AEC4EA;--rA:#E0C68E;--eR4:#E8B2AB;--eR3:#C07A72;--eR2:#8C514B;--eR1:#5A3532;--eB1:#2F4364;--eB2:#4A6799;--eB3:#7896CC;--eB4:#AEC4EA;--eN:#3A3F47;--eNone:#262A31;--eNA:#30353D}}
+:root[data-theme="dark"]{--rW:#30343B;--rR:#E8B2AB;--rB:#AEC4EA;--rA:#E0C68E;--eR4:#E8B2AB;--eR3:#C07A72;--eR2:#8C514B;--eR1:#5A3532;--eB1:#2F4364;--eB2:#4A6799;--eB3:#7896CC;--eB4:#AEC4EA;--eN:#3A3F47;--eNone:#262A31;--eNA:#30353D}
 /* Fills and key swatches */
 .pDi{fill:url(#cgDi)}.pRi{fill:url(#cgRi)}
 .sw.pDi{background:repeating-linear-gradient(45deg,var(--pD) 0 3px,var(--pDs) 3px 5px)}.sw.pRi{background:repeating-linear-gradient(45deg,var(--pR) 0 3px,#E6C3C0 3px 5px)}
@@ -33,7 +32,7 @@
 .gr{display:inline-block;width:7em;height:.7em;vertical-align:-.05em;margin:0 .35em;border-radius:2px}
 .gr.gS{width:10em;background:linear-gradient(90deg,var(--rR),var(--rW),var(--rB));background:linear-gradient(in oklab 90deg,var(--rR),var(--rW),var(--rB));outline:1px solid var(--rule)}
 .gr.gA{background:linear-gradient(90deg,var(--rW),var(--rA));background:linear-gradient(in oklab 90deg,var(--rW),var(--rA));outline:1px solid var(--rule)}
-.gr.gW{width:10em;background:linear-gradient(90deg,var(--rR),var(--rW),var(--rB));background:linear-gradient(in oklab 90deg,var(--rR),var(--rW),var(--rB));outline:1px solid var(--rule)}
+.gr.gW{width:10em;background:linear-gradient(90deg,var(--eR4),var(--eN),var(--eB4));background:linear-gradient(in oklab 90deg,var(--eR4),var(--eN),var(--eB4))}
 .cg{margin:1rem 0 .5rem;font-family:var(--sans)}
 .cg .cgh{font-weight:700;font-size:.95rem;margin:.2rem 0 .4rem}
 .cg.el .elsum{font-size:.85rem;line-height:1.4;margin:.15rem 0}
@@ -94,7 +93,7 @@
 .cgmap text.lc{font:700 9px var(--sans);fill:var(--ink);text-anchor:start}
 .cgmap [data-row]{cursor:pointer}
 .cgmap circle{stroke:var(--stb);stroke-width:1.5;vector-effect:non-scaling-stroke}
-.cgmap circle.dot.ho{opacity:.38}
+.eHo{fill:var(--eHo)}.sw.eHo{background:var(--eHo)}
 .cgmap circle.dc{stroke:var(--stb);stroke-width:1;vector-effect:non-scaling-stroke}
 /* Tables: rosters, then race returns */
 details.cgr{margin:.5rem 0;font-size:.85rem}
@@ -171,25 +170,25 @@ details.cgr.er td:nth-child(3){font-weight:400}
   // election blocks: the fill follows the view (r result, s the winner's margin, w swing)
   // A fill is a class ('pD', 'eB4', 'eNA') or, on the continuous scales, 'v:' and a CSS color; paint() applies either.
   var HUE={D:'B',R:'R',T:'A'};
-  var SWING=15;                           // swing: rW at none, rR or rB at 15 points or more
+  var SWING=15;                           // swing: eN, gray, at none to eR4 or eB4 at 15 points or more
   // the Margin view's quantile rule: a margin's position on the ramp is the share of the contested races for
   // presidential electors, 1824-2024, decided by less. QM: the margin at every 2.5th percentile (from
   // elections/pres-margins.csv, filled in by the build: congress.margin_quantiles)
   var QM={{qm}};
   function rank(v){if(v<=QM[0]) return 0; for(var i=1;i<QM.length;i++) if(v<=QM[i]) return (i-1+(v-QM[i-1])/((QM[i]-QM[i-1])||1))/(QM.length-1); return 1;}
-  // a point on one of the straight lines: 0 at rW (a tie, no swing), 1 at rR or rB (rA, a third ticket)
+  // a point on the margin's straight lines: 0 at rW (a tie), 1 at rR or rB (rA, a third ticket)
   function ramp(s,t){return mix('rW','r'+s,t);}
   function mix(a,b,t){t=Math.max(0,Math.min(1,t)); return 'v:color-mix(in oklab,var(--'+b+') '+(100*t).toFixed(1)+'%,var(--'+a+'))';}
   function mgOf(m){return m.u?100:m.mg;}   // points of all the votes over the runner-up; the unopposed, 100
   function win(m){var h=HUE[m.p], v=mgOf(m); if(!h) return 'pO'; if(v==null) return 'eNA';
     return ramp(h,rank(v));}
-  function swung(m){return m.sw==null?'eNA':ramp(m.sw>0?'B':'R',Math.abs(m.sw)/SWING);}
+  function swung(m){return m.sw==null?'eNA':mix('eN',m.sw>0?'eB4':'eR4',Math.abs(m.sw)/SWING);}
   function fc(t){return t.slice(0,2)==='v:'?'cv':t;}
   function fs(t){return t.slice(0,2)==='v:'?'fill:'+t.slice(2):'';}
   function paint(e,base,t){e.setAttribute('class',(base?base+' ':'')+fc(t)); if(fs(t)) e.setAttribute('style',fs(t)); else e.removeAttribute('style');}
   function fillOf(m,mode){
     if(!mode) return cls(m.p);
-    if(m.ho) return cls(m.x?m.p+'i':m.p);
+    if(m.ho) return 'eHo';                 // a Senate seat not at stake: gray, in every view
     if(mode==='r') return m.x?cls(m.p+'i'):m.p==='D'?(m.k==='pickup'?'eB4':'eB2'):m.p==='R'?(m.k==='pickup'?'eR4':'eR2'):'pO';
     if(mode==='s') return win(m);
     return swung(m);
@@ -373,7 +372,7 @@ details.cgr.er td:nth-child(3){font-weight:400}
     info.textContent=hint;
     fig.appendChild(foot);
     var DHINT=ch==='h'?'One dot a seat. Hover a dot for its district; click a dot to open it. Then click a district to select it, double-click to go there. Double-click white space to come back.'
-      :'One dot a senator'+(EV&&!blk.classList.contains('sp')?'; the seats not at stake faint':'')+'. Hover or click a dot for the senator; a click marks the State. Double-click white space to reset the zoom.';
+      :'One dot a senator'+(EV&&!blk.classList.contains('sp')?'; the seats not at stake gray':'')+'. Hover or click a dot for the senator; a click marks the State. Double-click white space to reset the zoom.';
     function isDots(){return fig.classList.contains('dots');}
     // the dots stay until one is clicked; then the districts show, until home
     function openDistricts(on){if(on)buildDistricts(); blocks.classList.toggle('faded',on); fig.classList.toggle('zoomed',on); opened=on;}

@@ -375,14 +375,12 @@ tools/bib/elections.py              renders the blocks and checks the data (STYL
   `review/READER.md`; `review.py verify`, then `merge`; rerun `make_elections.py` (it should
   leave nothing); `review.py audit YEAR`; `./bib check`; then tag the calendar entry.
 - Colors are tokens at the top of `templates/congress.html` (its CSS is in commented
-  sections). Every view runs on one diverging scale: two straight lines in OKLab, uniform
-  by construction, from `--rW` (near white; a dark gray in dark mode) to `--rR` and `--rB`, the most colorful
-  ends of matched lightness whose whole line stays on screen (`--rA`, amber, for a third ticket). Change an end
-  and every map, swatch and key follows. Margin and swing are continuous: margin by the quantile rule, a
-  margin's position being the share of the 2,291 contested races for presidential electors, 1824–2024, decided
-  by less (`elections/pres-margins.csv`, written by `tools/elections/pres_margins.py`; the build puts its
-  percentiles into `QM`); swing linear to `SWING`. The result view takes fixed points on the lines
-  (`--eR1`–`--eR4`, `--eB1`–`--eB4`: 15, 40, 75, 89 percent; dark mode held 25 and pickup 100, so held and pickup differ as much as on the old stepped scale). The keys draw the same scales as gradient bars.
+  sections). Result and Flips: four steps a side (`--eR1`–`--eR4`, `--eB1`–`--eB4`).
+  Margin: a straight line in OKLab from `--rW` (near white) at a tie to `--rR`/`--rB`, the darkest steps, by the
+  quantile rule: a margin's position is the share of the 2,291 contested races for presidential electors,
+  1824–2024, decided by less (`elections/pres-margins.csv`, written by `tools/elections/pres_margins.py`; the
+  build puts its percentiles into `QM`). Swing: from `--eN` (gray) at none to `--eR4`/`--eB4` at `SWING`
+  points. The keys draw the same scales as gradient bars.
 - "Check" in a note (as in the calendar) marks a detail still to verify:
   `grep -rn Check elections/facts.yaml elections/readings`.
 

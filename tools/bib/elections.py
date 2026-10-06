@@ -38,14 +38,12 @@ Definitions (STYLE, settled):
     State's House vote. Senate: the seat's last regular election, six years before (1952 and 1954 from
     Wikipedia's percentages, later years from the returns). No swing where either election was unopposed,
     or where the winner ran on neither major party's line.
- 8. Colors: one diverging scale for every view, two straight lines in OKLab (uniform by construction)
-    from near white (a dark gray in dark mode) out to a deep red and a deep blue of matched lightness, the
-    most colorful ends whose whole line stays on screen (rW, rR, rB in templates/congress.html; rA, amber,
-    a third ticket). Margin: the quantile rule (note 3). Swing: near white at none, the end at 15 points or
-    more (SWING). Result: fixed points on the lines, held seats 40 percent of the way and pickups 89; the
-    President's winner 75, and with Flips, held 40 and flipped 89 (dark mode: 25 and the end itself). Held
-    against pickup keeps the contrast of the stepped scale used before (OKLab difference about 0.29-0.30). The keys draw the scales as gradient bars. Every map value is also in the tables and on hover.
- 9. The Senate by senator: a dot a seat; in an election, the seats at stake, and the others faint, from
+ 8. Colors: in the result view, four steps a side, held seats light and pickups dark (with Flips, held
+    and flipped; the President's winner a middle step); the margin view, a straight line in OKLab from near
+    white at a tie to the darkest step, by the quantile rule (note 3); the swing view, gray at no swing to
+    the darkest step at 15 points or more (SWING in the template). The keys draw the scales as gradient
+    bars. Every map value is also in the tables and on hover.
+ 9. The Senate by senator: a dot a seat; in an election, the seats at stake, and the others gray, from
     the roster at the opening of the Congress chosen, where there is one.
 10. President: the Clerk's figure for a slate is the highest vote for any of its electors. Slates go to
     candidates by Wikipedia's figures, else by party (New York's Liberal line with the Democrat, its
@@ -534,7 +532,7 @@ def legend(has_sw):
     res = (f'<span class="lk lk-r">{sw("B2")}Democratic held {sw("B4")}Democratic pickup '
            f'{sw("R2")}Republican held {sw("R4")}Republican pickup <span class="sw pDi"></span><span class="sw pRi"></span>'
            f'Independent or third party, by the party caucused with {sw("None")}No election; '
-           'Senators: the seats not at stake faint</span>')
+           'Senators: <span class="sw eHo"></span>not at stake</span>')
     share = f'<span class="lk lk-s">The winner\'s margin over the runner-up, points of all the votes: {margin_scale()}</span>'
     swing = (f'<span class="lk lk-w">Swing, points: {swing_scale()} <span class="lt">redrawn districts take their '
              'State\'s swing</span> ' + sw("NA") + 'None</span>') if has_sw else ""
