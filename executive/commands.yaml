@@ -971,6 +971,70 @@ offices:
         out: To COMUSMACV.
         n: 'Check: month of taking office.'
         src: *id012
+  - id: cords
+    title: 'Deputy to COMUSMACV for Civil Operations and Revolutionary Development Support (CORDS)'
+    rank: inferior
+    appt: PA
+    under: comusmacv
+    group: 'Subordinate unified and other commands'
+    from: '1967-05'
+    until: '1973-02'
+    law:
+      - act: 'National Security Action Memorandum No. 362'
+        date: '1967-05-09'
+        tags: [creates]
+        does: 'Responsibility for the U.S. role in pacification (Revolutionary Development) assigned to COMUSMACV, with a civilian deputy for it under him.'
+        url: 'https://history.state.gov/historicaldocuments/frus1964-68v05/d167'
+    n: 'A civilian deputy to the commander, with the personal rank of Ambassador, over all U.S. civil and military pacification programs; also Special Assistant to the Ambassador. Succeeded the Office of Civil Operations. Abolished with the Paris Agreement, Feb. 1973.'
+    holders:
+      - name: 'Komer, Robert W.'
+        from: '1967-05'
+        to: '1968-10-28'
+        out: 'To Ambassador to Turkey.'
+        n: 'Special Assistant to the President until May 1967 (FRUS). Arrived in Vietnam May 1967 (Wikipedia). Check the day.'
+        src: ['FRUS persons list, 1964–68, V and VII', 'Wikipedia: Robert Komer']
+      - name: 'Colby, William E.'
+        from: '1968-11'
+        to: '1971-06'
+        out: 'To Executive Director-Comptroller of the Central Intelligence Agency.'
+        n: 'Deputy to Komer in 1968 (FRUS). Gave up the post at the end of June 1971 (New York Times, July 1, 1971). Check the day he succeeded.'
+        src: ['FRUS persons list, 1969–76, VII', 'Wikipedia: George Jacobson']
+      - name: 'Jacobson, George D.'
+        from: '1971-07'
+        to: '1973-02'
+        out: 'Office abolished.'
+        n: 'Assistant Chief of Staff for CORDS from Dec. 1968 (Wikipedia). Check both days.'
+        src: ['Wikipedia: George Jacobson']
+  - id: cords-regions
+    title: 'Regional directors and senior advisers, CORDS'
+    rank: employee
+    appt: HD
+    under: cords
+    group: 'Subordinate unified and other commands'
+    many: true
+    from: '1967-05'
+    until: '1973-02'
+    n: 'Civilians in charge of pacification, or of all U.S. advisers, in a corps tactical zone. Those named in the series.'
+    holders:
+      - name: 'Vann, John Paul'
+        title: 'Deputy for CORDS, III Corps Tactical Zone'
+        from: '1967-05'
+        to: '1968-11'
+        n: 'Director of civil operations in the region under the Office of Civil Operations before (Wikipedia). Check both dates.'
+        src: ['Wikipedia: John Paul Vann']
+      - name: 'Vann, John Paul'
+        title: 'Deputy for CORDS, IV Corps Tactical Zone'
+        from: '1968-11'
+        to: '1971'
+        n: 'Check both dates.'
+        src: ['Wikipedia: John Paul Vann']
+      - name: 'Vann, John Paul'
+        title: 'Senior Adviser, II Corps (Second Regional Assistance Group)'
+        from: '1971'
+        to: '1972-06-09'
+        out: 'Killed in a helicopter crash near Kontum.'
+        n: 'In charge of U.S. civilian and military programs in central South Vietnam (FRUS). Check the day he took office.'
+        src: ['Wikipedia: John Paul Vann', 'FRUS persons list, 1969–76, VIII']
   - id: maag-vietnam
     title: Chief, Military Assistance Advisory Group, Indochina
     titles:
@@ -1040,6 +1104,36 @@ offices:
         src:
           - FRUS persons list
           - 'Wikipedia: Edward Lansdale'
+  - id: advisory-officers
+    title: 'Chiefs and officers of military assistance advisory groups and missions'
+    rank: military
+    appt: MIL
+    group: 'Subordinate unified and other commands'
+    many: true
+    n: 'Chiefs of advisory groups and advisers named in the series. Not a complete list.'
+    holders:
+      - name: 'Scherrer, E. C. D.'
+        rank: 'Brig. Gen., USA'
+        title: 'Chief, Military Assistance Advisory Group, Cambodia'
+        from: '1961-08'
+        to: '1961'
+        n: 'Succeeded Brig. Gen. Charles H. Chase (FRUS). In post Nov. 15, 1961. Check when he left.'
+        src: ['FRUS 1961–63, XXIII, doc. 80']
+      - name: 'Vann, John Paul'
+        rank: 'Lt. Col., USA'
+        title: 'Senior Adviser, 7th Division, ARVN (Military Assistance Advisory Group, Vietnam)'
+        from: '1962-03-23'
+        to: '1963-03'
+        out: 'Retired from the Army, 1963.'
+        n: 'Arrived Mar. 23, 1962; completed the assignment Mar. 1963 (Wikipedia).'
+        src: ['Wikipedia: John Paul Vann', 'FRUS persons list']
+      - name: 'Twitchell, Hamilton A.'
+        rank: 'Maj. Gen., USA'
+        title: 'Chief, U.S. Army Mission in Iran and Military Assistance Advisory Group (ARMISH/MAAG)'
+        from: '1969'
+        to: '1971'
+        n: 'In post in 1969 (FRUS 1969–76, E–4, which gives until 1971). Check both dates.'
+        src: ['FRUS persons list, 1969–76, E–4']
   - id: comusmacthai
     title: Commander, U.S. Military Assistance Command, Thailand (COMUSMACTHAI)
     rank: military
