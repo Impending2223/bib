@@ -357,7 +357,7 @@ details.cgr.er td:nth-child(3){font-weight:400}
     info.textContent=hint;
     fig.appendChild(foot);
     var DHINT=ch==='h'?'One dot a seat. Hover a dot for its district; click a dot to open it. Then click a district to select it, double-click to go there. Double-click white space to come back.'
-      :'One dot a senator'+(EV?'; the seats not at stake faint':'')+'. Hover or click a dot for the senator; a click marks the State. Double-click white space to reset the zoom.';
+      :'One dot a senator'+(EV&&!blk.classList.contains('sp')?'; the seats not at stake faint':'')+'. Hover or click a dot for the senator; a click marks the State. Double-click white space to reset the zoom.';
     function isDots(){return fig.classList.contains('dots');}
     // the dots stay until one is clicked; then the districts show, until home
     function openDistricts(on){if(on)buildDistricts(); blocks.classList.toggle('faded',on); fig.classList.toggle('zoomed',on); opened=on;}

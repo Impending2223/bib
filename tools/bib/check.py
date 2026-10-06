@@ -156,6 +156,10 @@ def run(series, only=None):
     from . import elections
     for where, msg in elections.problems():
         add(ERROR, where, msg, "elections")
+    # special elections and party switches (congress/specials.yaml, congress/switches.yaml)
+    from . import specials
+    for where, msg in specials.problems(series):
+        add(ERROR, where, msg, "specials")
     # the day's executive documents (daybook/*.yaml)
     from . import daybook
     for where, msg in daybook.problems():

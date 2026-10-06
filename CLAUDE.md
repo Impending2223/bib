@@ -72,6 +72,8 @@ elections/<YYYY>.yaml     President, House and Senate returns, 1956–74 (genera
 elections/readings/<YYYY>.yaml  figures read by eye from the Clerk's pages, with a note on each ruling
 elections/facts.yaml      hand-kept facts: caucus labels, faithless electors, 1960 slates, the Alabama reckonings
 congress/changes.yaml     departures and successors during each Congress (generated)
+congress/specials.yaml    special elections during each Congress, 87th–93rd, with candidates (generated)
+congress/switches.yaml    members who changed party in office (kept by hand)
 daybook/<YYYY-MM>.yaml    every Public Papers (APP) and FRUS document by date (generated)
 daybook/abstracts.yaml    one-sentence abstracts, keyed by document (kept by hand or agent)
 build/                    generated pages (git-ignored)
@@ -285,9 +287,34 @@ the eleven Southern States, the thirteen represented in the Confederate States
 Congress less Missouri and Kentucky.
 
 Notes under a member in the rosters at the opening give the seat's later changes: the
-departure and its date, the successor and party, the date seated (`congress/changes.yaml`,
-made by `tools/congress/make_changes.py` from Wikipedia's Congress pages, "Changes in
-membership"; check a date against the Biographical Directory where it matters).
+departure and its date, the successor and party, the date elected (linked to the special's
+row) and the date seated (`congress/changes.yaml`, made by `tools/congress/make_changes.py`
+from Wikipedia's Congress pages, "Changes in membership"; check a date against the
+Biographical Directory where it matters), and a change of party in office, with its date
+(`congress/switches.yaml`, by hand: Thurmond, Watson, Byrd Jr., Reid, Riegle).
+
+## Special elections
+
+Specials held between general elections are not in the Clerk's biennial *Statistics*, which print
+only the November election (specials held that day are there, and in the election blocks). After
+each Congress at its opening, `build/congress.html` gives that Congress's specials: a summary, House
+and Senate maps of the seats filled (Result, Vote share, Swing from the general election that chose
+the Congress, same district), and a table of the races. A calendar entry tagged `special:<key>`
+carries its race's table (the 87th's thirteen, thread "Special elections"). Definitions: the STYLE
+notes in `tools/bib/specials.py`.
+
+```
+tools/congress/make_specials.py   writes congress/specials.yaml from Wikipedia (needs the network)
+tools/bib/specials.py             renders the blocks, the calendar's race tables, the roster notes' dates; checks
+```
+
+- Shares are Wikipedia's tables of each year's House specials ("<year> United States House of
+  Representatives elections"): percentages, no votes. Texas, 1961 (Tower): votes by round, from
+  Bartley and Graham, *Southern Elections*. The official returns are the States' canvasses.
+- Where Wikipedia's list and its year table disagree on a date, the table's is used and the race
+  carries a "Check"; so do shares that do not add to 100.
+- `check` fails on a duplicate key, a `special:` tag with no race, or a switch not at its seat.
+- The 85th and 86th Congresses (1957–60) have no rosters and no specials.
 
 ## Elections
 
