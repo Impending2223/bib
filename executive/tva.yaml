@@ -1,0 +1,123 @@
+# The Tennessee Valley Authority. Kept by hand.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: tva
+name: Tennessee Valley Authority
+under: president
+order: 500
+law:
+  - act: Tennessee Valley Authority Act of 1933
+    date: '1933-05-18'
+    tags: [creates, appointment, powers]
+    cite: 'ch. 32, §§ 1–4, 48 Stat. 58'
+    usc: ['16 U.S.C. §§ 831–831c (1958)']
+    does: 'Creates a corporation, the Tennessee Valley Authority, to operate the properties at Muscle Shoals and develop the Tennessee River for navigation, flood control, and power. A board of three directors appointed by the President, by and with the advice and consent of the Senate, for nine years; the President designates the chairman; removable by the President, or by concurrent resolution of the Congress. Each director to profess belief in the feasibility and wisdom of the Act.'
+  - act: Act of Aug. 6, 1959 (TVA revenue bonds)
+    date: '1959-08-06'
+    tags: [powers]
+    cite: 'Pub. L. 86-137, 73 Stat. 280'
+    usc: '16 U.S.C. § 831n-4 (1964)'
+    does: The Authority may issue revenue bonds to finance power facilities, up to $750 million; its power service area limited.
+n: Directors as the Congressional Directory lists them at each edition and their biographies.
+offices:
+  - id: chairman
+    title: Chairman of the Board of Directors
+    rank: head
+    appt: DES
+    level: III
+    law:
+      - act: Tennessee Valley Authority Act of 1933
+        date: '1933-05-18'
+        tags: [appointment]
+        cite: 'ch. 32, § 2(a), 48 Stat. 58, 59'
+        usc: '16 U.S.C. § 831a(a) (1958)'
+        does: The President designates one director chairman.
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(c)(27), 78 Stat. 400, 417'
+        usc: '5 U.S.C. § 5314 (1970)'
+        does: Level III, $28,500.
+    holders:
+      - name: Clapp, Gordon R.
+        from: '1946'
+        to: '1954'
+        n: 'Check: the dates (chairman Mar. 1953 and Jan. 1954; Vogel Feb. 1955).'
+        src: [CDIR 1953-03, CDIR 1954-01]
+      - name: Vogel, Herbert D.
+        from: '1954'
+        to: '1962'
+        n: 'Brig. Gen., Corps of Engineers. Check: the dates (chairman Feb. 1955 to Jan. 1962).'
+        src: [CDIR 1955-02, CDIR 1962-01]
+      - name: Wagner, Aubrey J.
+        from: '1962'
+        n: 'Served to 1978. Check: the day he was designated (chairman Mar. 1963).'
+        src: [CDIR 1963-03, CDIR 1973-12]
+  - id: director
+    title: Director
+    rank: principal
+    appt: PAS
+    many: true
+    law:
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(d)(65), 78 Stat. 400, 419'
+        usc: '5 U.S.C. § 5315 (1970)'
+        does: Members at Level IV, $27,000.
+    n: Three directors, the chairman among them. A. R. Jones listed as vice chairman, 1961–66.
+    holders:
+      - name: Clapp, Gordon R.
+        from: '1946'
+        to: '1954'
+        n: 'Chairman. Check: the dates.'
+        src: [CDIR 1953-03, CDIR 1954-01]
+      - name: Curtis, Harry A.
+        from: '1949'
+        to: '1957'
+        n: 'Check: the dates (listed Mar. 1953 to Mar. 1957).'
+        src: [CDIR 1953-03, CDIR 1957-03]
+      - name: Paty, Raymond R.
+        from: '1952'
+        to: '1957'
+        n: 'Check: the dates (listed Mar. 1953 to Mar. 1957).'
+        src: [CDIR 1953-03, CDIR 1957-03]
+      - name: Vogel, Herbert D.
+        from: '1954'
+        to: '1962'
+        n: 'Chairman. Check: the dates.'
+        src: [CDIR 1955-02, CDIR 1962-01]
+      - name: Jones, A. R.
+        from: '1957'
+        to: '1966'
+        n: 'Vice chairman, 1961–66. Check: the dates (listed Jan. 1958 to Jan. 1966).'
+        src: [CDIR 1958-01, CDIR 1966-01]
+      - name: Welch, Frank J.
+        from: '1957'
+        to: '1959'
+        n: 'Check: the dates (listed Jan. 1958 and Mar. 1959).'
+        src: [CDIR 1958-01, CDIR 1959-03]
+      - name: Hays, Brooks
+        from: '1959'
+        to: '1961-02'
+        out: To Assistant Secretary of State for Congressional Relations.
+        n: 'Former Representative from Arkansas. Check: the day he took office.'
+        src: ['Wikipedia: Brooks Hays', CDIR 1960-01]
+      - name: Wagner, Aubrey J.
+        from: '1961-02'
+        n: 'General Manager of the Authority, 1954–61. Appointment announced Feb. 11, 1961 (APP). Chairman from 1962. Check: the day he took office.'
+        src: [APP, CDIR 1961-04]
+      - name: Smith, Frank E.
+        from: '1962-11-14'
+        to: '1972-05-18'
+        n: Former Representative from Mississippi.
+        src: ['Wikipedia: Frank Ellis Smith', CDIR 1963-03, CDIR 1971-12]
+      - name: McBride, Don
+        from: '1966'
+        n: 'Check: the day he took office (listed Feb. 1967). Listed Dec. 1973.'
+        src: [CDIR 1967-02, CDIR 1973-12]
+      - name: Jenkins, William L.
+        from: '1972'
+        n: 'Check: the day he took office (listed Dec. 1973).'
+        src: [CDIR 1973-12]
