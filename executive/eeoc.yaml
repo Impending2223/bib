@@ -1,0 +1,170 @@
+# The Equal Employment Opportunity Commission. Kept by hand.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: eeoc
+name: Equal Employment Opportunity Commission
+under: president
+order: 500
+from: '1964-07-02'
+law:
+  - act: Civil Rights Act of 1964, title VII
+    date: '1964-07-02'
+    tags: [creates, appointment]
+    cite: 'Pub. L. 88-352, § 705, 78 Stat. 241, 258'
+    usc: '42 U.S.C. § 2000e-4 (1964 Supp. I)'
+    does: 'Creates the Commission: five members appointed by the President, by and with the advice and consent of the Senate, for five years (the first for one to five), not more than three of one party. The President designates a chairman and a vice chairman; the chairman responsible for the administrative operations; the vice chairman acts in the chairman''s absence or disability or a vacancy in the office.'
+  - act: Civil Rights Act of 1964, title VII
+    date: '1964-07-02'
+    effective: '1965-07-02'
+    tags: [powers]
+    cite: 'Pub. L. 88-352, §§ 703–706, 716, 78 Stat. 241, 255'
+    usc: ['42 U.S.C. §§ 2000e-2–2000e-5 (1970)']
+    does: Discrimination in employment because of race, color, religion, sex, or national origin made unlawful for employers, unions, and employment agencies of 100 workers or more in the first year, falling to 25; the Commission to investigate charges and seek conciliation; suits by the person aggrieved, or by the Attorney General for a pattern or practice. Effective one year after enactment.
+  - act: Equal Employment Opportunity Act of 1972
+    date: '1972-03-24'
+    tags: [powers, appointment]
+    cite: 'Pub. L. 92-261, 86 Stat. 103'
+    usc: ['42 U.S.C. §§ 2000e-4, 2000e-5 (1970 Supp. II)']
+    does: The Commission may bring civil actions against private employers; coverage extended to State and local governments and employers of 15 or more; federal employment to the Civil Service Commission. A General Counsel appointed by the President with the advice and consent of the Senate, for four years.
+n: Chairmen as Wikipedia lists them; members as the Congressional Directory lists them at each edition, with a Check where a date is known only to the year.
+offices:
+  - id: chairman
+    title: Chairman of the Equal Employment Opportunity Commission
+    rank: head
+    appt: DES
+    holders:
+      - name: Roosevelt, Franklin D., Jr.
+        from: '1965-05-26'
+        to: '1966-05-11'
+        out: Resigned.
+        src: ['Wikipedia: Franklin D. Roosevelt Jr.', CDIR 1966-01]
+      - name: Holcomb, Luther
+        acting: true
+        from: '1966-05-11'
+        to: '1966-09-14'
+        n: 'Vice chairman; acting by statute (§ 705(a)). Check: that he acted.'
+        src: [CDIR 1966-01]
+      - name: Shulman, Stephen N.
+        from: '1966-09-14'
+        to: '1967-07-01'
+        out: Resigned.
+        src: ['Wikipedia: Stephen N. Shulman', CDIR 1967-02]
+      - name: Holcomb, Luther
+        acting: true
+        from: '1967-07-01'
+        to: '1967-08-04'
+        n: 'Vice chairman; acting by statute. Check: that he acted.'
+        src: [CDIR 1967-12]
+      - name: Alexander, Clifford L., Jr.
+        from: '1967-08-04'
+        to: '1969-05-01'
+        out: Replaced as chairman by Nixon; remained a member.
+        src: ['Wikipedia: Clifford Alexander Jr.', CDIR 1967-12, CDIR 1969-03]
+      - name: Brown, William H., III
+        from: '1969-05-05'
+        to: '1973-12-23'
+        src: ['Wikipedia: William H. Brown III', CDIR 1969-12, CDIR 1973-12]
+      - name: Powell, John H., Jr.
+        from: '1973-12-28'
+        n: Served to Mar. 18, 1975.
+        src: ['Wikipedia: John H. Powell Jr.']
+  - id: vice-chairman
+    title: Vice Chairman of the Equal Employment Opportunity Commission
+    rank: principal
+    appt: DES
+    holders:
+      - name: Holcomb, Luther
+        from: '1965'
+        n: 'Check: the day he took office (vice chairman Jan. 1966). Listed Dec. 1973.'
+        src: [CDIR 1966-01, CDIR 1973-12]
+  - id: commissioner
+    title: Commissioner
+    rank: principal
+    appt: PAS
+    many: true
+    n: Five members, the chairman and vice chairman among them.
+    holders:
+      - name: Holcomb, Luther
+        from: '1965'
+        n: 'An original member. Check: the day he took office, and the day he left (listed Dec. 1973).'
+        src: [CDIR 1966-01, CDIR 1973-12]
+      - name: Graham, Richard A.
+        from: '1965'
+        to: '1966'
+        n: 'An original member. Check: the dates (listed Jan. 1966 only).'
+        src: [CDIR 1966-01]
+      - name: Hernandez, Aileen C.
+        from: '1965'
+        to: '1966'
+        out: Resigned.
+        n: 'An original member; the only woman. Check: the dates (listed Jan. 1966 only).'
+        src: ['Wikipedia: Aileen Hernandez', CDIR 1966-01]
+      - name: Jackson, Samuel C.
+        from: '1965'
+        to: '1968'
+        n: 'An original member. Check: the dates (listed Jan. 1966 to Dec. 1967).'
+        src: [CDIR 1966-01, CDIR 1967-12]
+      - name: Roosevelt, Franklin D., Jr.
+        from: '1965-05-26'
+        to: '1966-05-11'
+        n: Chairman throughout.
+        src: ['Wikipedia: Franklin D. Roosevelt Jr.']
+      - name: Shulman, Stephen N.
+        from: '1966-09-14'
+        to: '1967-07-01'
+        n: Chairman throughout.
+        src: ['Wikipedia: Stephen N. Shulman']
+      - name: Ximenes, Vicente T.
+        from: '1967'
+        to: '1971'
+        n: 'Check: the dates (listed Dec. 1967 to Mar. 1971).'
+        src: [CDIR 1967-12, CDIR 1971-03]
+      - name: Alexander, Clifford L., Jr.
+        from: '1967-08-04'
+        to: '1969'
+        out: Resigned.
+        n: 'Chairman to May 1, 1969. Check: the day he took office as member, and the day he left (listed Mar. 1969, not Dec. 1969).'
+        src: ['Wikipedia: Clifford Alexander Jr.', CDIR 1969-03]
+      - name: Brown, William H., III
+        from: '1968'
+        to: '1973-12-23'
+        n: 'Appointed by Johnson. Chairman from May 5, 1969. Check: the day he took office (listed Mar. 1969).'
+        src: ['Wikipedia: William H. Brown III', CDIR 1969-03]
+      - name: Kuck, Elizabeth J.
+        from: '1969'
+        to: '1970'
+        n: 'Check: the dates (listed Dec. 1969 only).'
+        src: [CDIR 1969-12]
+      - name: Lewis, Colston A.
+        from: '1970'
+        n: 'Check: the day he took office (listed Mar. 1971). Listed Dec. 1973.'
+        src: [CDIR 1971-03, CDIR 1973-12]
+      - name: Walsh, Ethel Bent
+        from: '1970'
+        n: 'Check: the day she took office (listed Mar. 1971). Listed Dec. 1973.'
+        src: [CDIR 1971-03, CDIR 1973-12]
+      - name: Telles, Raymond L.
+        from: '1971'
+        n: 'Former Mayor of El Paso and Ambassador to Costa Rica. Check: the day he took office (listed Dec. 1971). Listed Dec. 1973.'
+        src: ['Wikipedia: Raymond Telles', CDIR 1971-12, CDIR 1973-12]
+      - name: Powell, John H., Jr.
+        from: '1973-12-28'
+        n: Chairman. Served to Mar. 18, 1975.
+        src: ['Wikipedia: John H. Powell Jr.']
+  - id: general-counsel
+    title: General Counsel
+    rank: principal
+    appt: PAS
+    from: '1972-03-24'
+    law:
+      - act: Equal Employment Opportunity Act of 1972
+        date: '1972-03-24'
+        tags: [creates, appointment, powers]
+        cite: 'Pub. L. 92-261, § 8, 86 Stat. 103, 110'
+        usc: '42 U.S.C. § 2000e-4(b) (1970 Supp. II)'
+        does: A General Counsel appointed by the President, by and with the advice and consent of the Senate, for four years; responsible for the conduct of litigation under §§ 706 and 707.
+    n: The office existed before 1972 as an appointment of the Commission.
+    holders:
+      - name: Carey, William A.
+        from: '1972'
+        n: 'Check: the day he took office (listed Mar. and Dec. 1973).'
+        src: [CDIR 1973-03, CDIR 1973-12]
