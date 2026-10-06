@@ -1,0 +1,779 @@
+# The Army Staff and the major Army commands, 1953-74. Kept by hand.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: army-staff
+name: The Army Staff and major Army commands
+under: army
+order: 50
+law:
+  - act: Army Organization Act of 1950
+    date: '1950-06-28'
+    until: '1956-08-10'
+    tags: [creates, powers]
+    cite: ch. 383, title II, 64 Stat. 263, 265
+    does: 'The Army Staff: the Chief of Staff, a Vice Chief of Staff, Deputy and Assistant Chiefs of Staff, general officers detailed; prepares plans for the employment, organizing, supplying, and training of the Army; acts as the agent of the Secretary and the Chief of Staff.'
+  - act: Title 10, United States Code, enacted
+    date: '1956-08-10'
+    tags: [creates, powers]
+    cite: ch. 1041, 70A Stat. 1, 161
+    usc: 10 U.S.C. §§ 3031–3036 (1958)
+    does: 'The Army Staff restated: composition, general duties, the Vice Chief of Staff, the Deputy and Assistant Chiefs.'
+  - act: Department of Defense Reorganization Act of 1958
+    date: '1958-08-06'
+    tags: [powers]
+    cite: Pub. L. 85-599, § 4(a), (g), 72 Stat. 514, 516
+    usc: 10 U.S.C. §§ 3032, 3034 (1958)
+    does: The Chief of Staff supervises such members and organizations of the Army as the Secretary determines, consistent with the full operational command of the unified and specified commanders; the Army Staff prepares for the employment of the Army.
+n: The Chief of Staff is in the Joint Chiefs of Staff unit (jcs.army-chief). Officers detailed by the Secretary of the Army; the commands are assignments, the officers' grades confirmed by the Senate. Staff holders from the Congressional Directory editions, the commands from Wikipedia's lists of commanders; where only a year or month is known the holder's note says Check.
+offices:
+  - id: vice-chief
+    title: Vice Chief of Staff, United States Army
+    rank: military
+    appt: MIL
+    under: jcs.army-chief
+    group: Army Staff
+    law:
+      - act: Army Organization Act of 1950
+        date: '1950-06-28'
+        until: '1956-08-10'
+        tags: [creates, vacancy]
+        cite: ch. 383, § 203, 64 Stat. 263, 266
+        does: The Vice Chief of Staff a general officer detailed; in a vacancy or the Chief's absence or disability, he (or the senior Deputy Chief of Staff) performs the Chief's duties unless the President directs otherwise.
+      - act: Title 10, United States Code, enacted
+        date: '1956-08-10'
+        tags: [appointment, vacancy]
+        cite: ch. 1041, 70A Stat. 1, 162
+        usc: 10 U.S.C. § 3035 (1958)
+        does: The Vice Chief of Staff detailed from the general officers; acts for the Chief in a vacancy or in his absence or disability.
+      - act: Department of Defense Reorganization Act of 1958
+        date: '1958-08-06'
+        tags: [powers]
+        cite: Pub. L. 85-599, § 6(a), 72 Stat. 514, 519
+        usc: 10 U.S.C. § 3035(c) (1958)
+        does: The Vice Chief of Staff has such authority as the Chief of Staff, with the Secretary's approval, delegates to him; his orders have the Chief's force.
+    holders:
+      - name: Hull, John E.
+        rank: Gen., USA
+        from: '1951-07-30'
+        to: '1953-08-14'
+        out: To Commander in Chief, Far East.
+        n: Styled Vice Chief of Staff for Operations and Administration (FRUS).
+        src: &id001
+          - 'Wikipedia: Vice Chief of Staff of the United States Army'
+          - FRUS persons list
+      - name: Bolte, Charles L.
+        rank: Gen., USA
+        from: '1953-08-15'
+        to: '1955-06-29'
+        out: Retired.
+        src: *id001
+      - name: Palmer, Williston B.
+        rank: Gen., USA
+        from: '1955-06-30'
+        to: '1957-05-31'
+        src: *id001
+      - name: Lemnitzer, Lyman L.
+        rank: Gen., USA
+        from: '1957-06-01'
+        to: '1959-06-30'
+        out: To Chief of Staff.
+        src: *id001
+      - name: Decker, George H.
+        rank: Gen., USA
+        from: '1959-07-01'
+        to: '1960-09-29'
+        out: To Chief of Staff.
+        src: *id001
+      - name: Eddleman, Clyde D.
+        rank: Gen., USA
+        from: '1960-09-30'
+        to: '1962-03-31'
+        out: Retired.
+        src: *id001
+      - name: Hamlett, Barksdale
+        rank: Gen., USA
+        from: '1962-04-01'
+        to: '1964-09-03'
+        out: Retired.
+        src: *id001
+      - name: Abrams, Creighton W.
+        rank: Gen., USA
+        from: '1964-09-04'
+        to: '1967-04-30'
+        out: To Deputy Commander, U.S. Military Assistance Command, Vietnam.
+        src: *id001
+      - name: Haines, Ralph E., Jr.
+        rank: Gen., USA
+        from: '1967-05-01'
+        to: '1968-07-02'
+        out: To Commander in Chief, U.S. Army, Pacific.
+        src: *id001
+      - name: Palmer, Bruce, Jr.
+        rank: Gen., USA
+        from: '1968-07-03'
+        to: '1973-01-04'
+        out: To Commander in Chief, U.S. Readiness Command.
+        n: Acting Chief of Staff, July 1–Oct. 11, 1972.
+        src: *id001
+      - name: Haig, Alexander M., Jr.
+        rank: Gen., USA
+        from: '1973-01-04'
+        to: '1973-05-04'
+        out: To Assistant to the President (White House chief of staff); retired from the Army Aug. 1, 1973.
+        n: From Deputy Assistant to the President for National Security Affairs; promoted from major general to general.
+        src: *id001
+      - name: Weyand, Frederick C.
+        rank: Gen., USA
+        from: '1973-05-04'
+        to: '1974-10-20'
+        out: To Chief of Staff.
+        n: Acting Chief of Staff from Sept. 4, 1974.
+        src: *id001
+  - id: dcsops
+    title: Assistant Chief of Staff, G-3, Operations
+    titles:
+      - title: Deputy Chief of Staff for Military Operations
+        from: '1956'
+    rank: military
+    appt: MIL
+    under: jcs.army-chief
+    group: Army Staff
+    n: 'The operations staff. The G-3 became the Deputy Chief of Staff for Military Operations in the reorganization of the Army Staff, 1956 (Check: date).'
+    holders:
+      - name: Eddleman, Clyde D.
+        rank: Maj. Gen., USA
+        from: '1953'
+        to: '1954'
+        n: 'In office Mar. 1, 1953 (CDIR). Check: dates.'
+        src: &id002
+          - CDIR
+      - name: Gavin, James M.
+        rank: Maj. Gen., USA
+        from: '1954'
+        to: '1955'
+        out: To Chief of Research and Development.
+        n: 'In office Feb. 14, 1955 (CDIR). Check: dates.'
+        src: *id002
+      - name: Eddleman, Clyde D.
+        rank: Lt. Gen., USA
+        from: '1956'
+        to: '1958'
+        out: To Commanding General, Seventh Army.
+        n: 'In office Mar. 1, 1957, and Jan. 7, 1958 (CDIR). Check: dates.'
+        src: *id002
+      - name: Moore, James E.
+        rank: Lt. Gen., USA
+        from: '1958'
+        to: '1960'
+        n: 'In office Mar. 1, 1959, and Jan. 6, 1960 (CDIR). Check: dates.'
+        src: *id002
+      - name: Hamlett, Barksdale
+        rank: Lt. Gen., USA
+        from: '1960'
+        to: '1962-03-31'
+        out: To Vice Chief of Staff.
+        n: 'In office Apr. 1, 1961, and Jan. 10, 1962 (CDIR). Check: from.'
+        src: *id002
+      - name: Parker, Theodore W.
+        rank: Lt. Gen., USA
+        from: 1962-04
+        to: '1963'
+        n: 'In office Mar. 1, 1963 (CDIR). Check: dates.'
+        src: *id002
+      - name: Johnson, Harold K.
+        rank: Lt. Gen., USA
+        from: '1963'
+        to: '1964-07-02'
+        out: To Chief of Staff.
+        n: 'In office Jan. 1, 1964 (CDIR). Check: from.'
+        src: *id002
+      - name: Palmer, Bruce, Jr.
+        rank: Lt. Gen., USA
+        from: 1964-07
+        to: '1965'
+        n: 'In office Mar. 1, 1965 (CDIR). Check: dates.'
+        src: *id002
+      - name: Mock, Vernon P.
+        rank: Lt. Gen., USA
+        from: '1965'
+        to: '1966'
+        n: 'In office Jan. 10, 1966 (CDIR). Check: dates.'
+        src: *id002
+      - name: Lemley, Harry J., Jr.
+        rank: Lt. Gen., USA
+        from: '1966'
+        to: '1969'
+        n: 'In office Feb. 28, 1967, Dec. 15, 1967, and Mar. 1, 1969 (CDIR). Check: dates.'
+        src: *id002
+      - name: Stilwell, Richard G.
+        rank: Lt. Gen., USA
+        from: '1969'
+        to: '1972'
+        n: 'In office Dec. 15, 1969, Mar. 10, 1971, and Dec. 3, 1971 (CDIR). Check: dates.'
+        src: *id002
+      - name: Cowles, Donald H.
+        rank: Lt. Gen., USA
+        from: '1972'
+        n: 'In office Mar. 10 and Dec. 22, 1973 (CDIR). Check: dates.'
+        src: *id002
+  - id: research-development
+    title: Chief of Research and Development
+    rank: military
+    appt: MIL
+    under: jcs.army-chief
+    group: Army Staff
+    from: '1955'
+    n: Successor to the Deputy Chief of Staff for Plans and Research (Lemnitzer, Mar. 1953, CDIR).
+    holders:
+      - name: Gavin, James M.
+        rank: Lt. Gen., USA
+        from: '1955'
+        to: 1958-03
+        out: Retired.
+        n: 'In office Jan. 3, 1956, Mar. 1, 1957, and Jan. 7, 1958 (CDIR). Announced his retirement Jan. 1958. Check: dates.'
+        src: &id003
+          - CDIR
+      - name: Trudeau, Arthur G.
+        rank: Lt. Gen., USA
+        from: '1958'
+        to: '1962'
+        out: Retired.
+        n: 'In office Mar. 1, 1959, through Jan. 10, 1962 (CDIR). Check: dates.'
+        src: *id003
+      - name: Beach, Dwight E.
+        rank: Lt. Gen., USA
+        from: '1962'
+        to: '1963'
+        n: 'In office Mar. 1, 1963 (CDIR). Check: dates.'
+        src: *id003
+      - name: Dick, William W., Jr.
+        rank: Lt. Gen., USA
+        from: '1963'
+        to: '1966'
+        n: 'In office Jan. 1, 1964, through Jan. 10, 1966 (CDIR). Check: dates.'
+        src: *id003
+      - name: Betts, Austin W.
+        rank: Lt. Gen., USA
+        from: '1966'
+        to: '1971'
+        n: 'In office Feb. 28, 1967, through Dec. 15, 1969 (CDIR). Check: dates.'
+        src: *id003
+      - name: Gribble, William C., Jr.
+        rank: Lt. Gen., USA
+        from: '1971'
+        to: '1973'
+        n: 'In office Mar. 10, 1971, through Mar. 10, 1973 (CDIR). Check: dates.'
+        src: *id003
+      - name: Deane, John R., Jr.
+        rank: Lt. Gen., USA
+        from: '1973'
+        n: 'In office Dec. 22, 1973 (CDIR). Check: dates.'
+        src: *id003
+  - id: my-lai-review
+    title: Director, Department of the Army Review of the Preliminary Investigations into the My Lai Incident
+    rank: military
+    appt: MIL
+    under: jcs.army-chief
+    group: Army Staff
+    from: '1969-11-26'
+    until: '1970-03-14'
+    holders:
+      - name: Peers, William R.
+        rank: Lt. Gen., USA
+        from: '1969-11-26'
+        to: '1970-03-14'
+        out: Report submitted.
+        n: Appointed by the Secretary of the Army (Resor) and the Chief of Staff (Westmoreland). Then Deputy Commanding General, Eighth Army.
+        src:
+          - 'Wikipedia: Peers Commission'
+          - 'Wikipedia: William R. Peers'
+  - id: conarc
+    title: Commanding General, U.S. Continental Army Command
+    rank: military
+    appt: MIL
+    group: Major commands
+    from: '1955-02-01'
+    until: '1973-07-01'
+    n: 'Replaced the Office, Chief of Army Field Forces, Feb. 1, 1955: the field armies in the United States, training, and doctrine. Divided into Forces Command and the Training and Doctrine Command, July 1, 1973. Months from Wikipedia''s list: Check days.'
+    holders:
+      - name: Dahlquist, John E.
+        rank: Gen., USA
+        from: '1955-02-01'
+        to: 1956-03
+        out: Retired.
+        n: 'Chief, Army Field Forces, from 1953. Check: dates.'
+        src: &id004
+          - 'Wikipedia: United States Continental Army Command'
+      - name: Wyman, Willard G.
+        rank: Gen., USA
+        from: 1956-03
+        to: 1958-08
+        out: Retired.
+        src: *id004
+      - name: Clarke, Bruce C.
+        rank: Gen., USA
+        from: 1958-08
+        to: 1960-09
+        out: To Commander in Chief, U.S. Army, Europe.
+        src: *id004
+      - name: Powell, Herbert B.
+        rank: Gen., USA
+        from: 1960-10
+        to: 1963-02
+        out: Retired.
+        src: *id004
+      - name: Waters, John K.
+        rank: Gen., USA
+        from: 1963-03
+        to: 1964-03
+        out: To Commander in Chief, U.S. Army, Pacific.
+        src: *id004
+      - name: Harris, Hugh P.
+        rank: Gen., USA
+        from: 1964-03
+        to: '1965'
+        out: Retired.
+        src: *id004
+      - name: Freeman, Paul L., Jr.
+        rank: Gen., USA
+        from: '1965'
+        to: 1967-06
+        out: Retired.
+        src: *id004
+      - name: Woolnough, James K.
+        rank: Gen., USA
+        from: 1967-07
+        to: 1970-10
+        out: Retired.
+        src: *id004
+      - name: Haines, Ralph E., Jr.
+        rank: Gen., USA
+        from: 1970-11
+        to: 1973-01
+        out: Retired.
+        src: *id004
+      - name: Kerwin, Walter T., Jr.
+        rank: Gen., USA
+        from: 1973-02
+        to: '1973-06-30'
+        out: Command divided; to Commanding General, Forces Command.
+        src: *id004
+  - id: usarpac
+    title: Commanding General, U.S. Army, Pacific
+    titles:
+      - title: Commander in Chief, U.S. Army, Pacific (CINCUSARPAC)
+        from: '1957-07-01'
+    rank: military
+    appt: MIL
+    group: Major commands
+    n: 'At Fort Shafter, Hawaii. From July 1, 1957, the Army component of the Pacific Command, absorbing U.S. Army Forces, Far East. Disestablished Dec. 31, 1974. Months from Wikipedia''s list: Check days.'
+    holders:
+      - name: O'Daniel, John W.
+        rank: Lt. Gen., USA
+        from: 1952-09
+        to: 1954-04
+        out: To Chief, Military Assistance Advisory Group, Indochina.
+        n: 'Check: days.'
+        src: &id005
+          - 'Wikipedia: Commanding General, United States Army Pacific'
+      - name: Clarke, Bruce C.
+        rank: Lt. Gen., USA
+        from: 1954-12
+        to: 1956-04
+        out: To Commanding General, Seventh Army.
+        n: 'Check: days.'
+        src: *id005
+      - name: Powell, Herbert B.
+        rank: Maj. Gen., USA
+        from: 1956-04
+        to: 1956-07
+        n: 'Check: days.'
+        src: *id005
+      - name: Bryan, Blackshear M.
+        rank: Lt. Gen., USA
+        from: 1956-07
+        to: 1957-07
+        n: 'Check: days.'
+        src: *id005
+      - name: White, Isaac D.
+        rank: Gen., USA
+        from: 1957-07
+        to: 1961-03
+        out: Retired.
+        n: From Commanding General, Eighth Army.
+        src: *id005
+      - name: Collins, James F.
+        rank: Gen., USA
+        from: 1961-04
+        to: 1964-03
+        out: Retired.
+        src: *id005
+      - name: Waters, John K.
+        rank: Gen., USA
+        from: 1964-03
+        to: 1966-09
+        out: Retired.
+        src: *id005
+      - name: Beach, Dwight E.
+        rank: Gen., USA
+        from: 1966-09
+        to: 1968-07
+        out: Retired.
+        src: *id005
+      - name: Haines, Ralph E., Jr.
+        rank: Gen., USA
+        from: 1968-08
+        to: 1970-10
+        out: To Commanding General, Continental Army Command.
+        src: *id005
+      - name: Rosson, William B.
+        rank: Gen., USA
+        from: 1970-10
+        to: 1973-01
+        out: To Commander in Chief, U.S. Southern Command.
+        src: *id005
+      - name: Weyand, Frederick C.
+        rank: Gen., USA
+        from: 1973-01
+        to: '1973-05-04'
+        out: To Vice Chief of Staff.
+        n: 'Check: dates; Wikipedia says only that he served briefly in 1973.'
+        src: *id005
+      - name: Bennett, Donald V.
+        rank: Gen., USA
+        from: 1973-08
+        to: 1974-08
+        out: Retired.
+        src: *id005
+      - name: Stilwell, Richard G.
+        rank: Gen., USA
+        from: 1974-09
+        to: '1974-12-31'
+        out: Command disestablished.
+        src: *id005
+  - id: eighth-army
+    title: Commanding General, Eighth Army
+    rank: military
+    appt: MIL
+    group: Major commands
+    n: In Korea. From July 1, 1957, held by the Commander in Chief, United Nations Command, and Commander, U.S. Forces, Korea (commands).
+    holders:
+      - name: Van Fleet, James A.
+        rank: Gen., USA
+        from: '1951-04-14'
+        to: '1953-02-11'
+        out: Retired.
+        src: &id006
+          - 'Wikipedia: Eighth Army (United States)'
+      - name: Taylor, Maxwell D.
+        rank: Gen., USA
+        from: '1953-02-11'
+        to: '1955-03-25'
+        out: To Commander in Chief, Far East.
+        src: *id006
+      - name: Lemnitzer, Lyman L.
+        rank: Gen., USA
+        from: '1955-03-25'
+        to: '1955-06-05'
+        out: To Commander in Chief, Far East.
+        src: *id006
+      - name: White, Isaac D.
+        rank: Gen., USA
+        from: '1955-06-25'
+        to: '1957-07-01'
+        out: To Commander in Chief, U.S. Army, Pacific.
+        src: *id006
+      - name: Decker, George H.
+        rank: Gen., USA
+        from: '1957-07-01'
+        to: '1959-06-30'
+        out: To Vice Chief of Staff.
+        src: *id006
+      - name: Magruder, Carter B.
+        rank: Gen., USA
+        from: '1959-07-01'
+        to: '1961-06-30'
+        out: Retired.
+        src: *id006
+      - name: Meloy, Guy S., Jr.
+        rank: Gen., USA
+        from: '1961-07-01'
+        to: '1963-07-31'
+        out: Retired.
+        src: *id006
+      - name: Howze, Hamilton H.
+        rank: Gen., USA
+        from: '1963-08-01'
+        to: '1965-06-15'
+        out: Retired.
+        src: *id006
+      - name: Beach, Dwight E.
+        rank: Gen., USA
+        from: '1965-06-16'
+        to: '1966-08-31'
+        out: To Commander in Chief, U.S. Army, Pacific.
+        src: *id006
+      - name: Bonesteel, Charles H., III
+        rank: Gen., USA
+        from: '1966-09-01'
+        to: '1969-09-30'
+        out: Retired.
+        src: *id006
+      - name: Michaelis, John H.
+        rank: Gen., USA
+        from: '1969-10-01'
+        to: '1972-08-31'
+        out: Retired.
+        src: *id006
+      - name: Bennett, Donald V.
+        rank: Gen., USA
+        from: '1972-09-01'
+        to: '1973-07-31'
+        out: To Commander in Chief, U.S. Army, Pacific.
+        src: *id006
+      - name: Stilwell, Richard G.
+        rank: Gen., USA
+        from: '1973-08-01'
+        to: '1976-10-08'
+        out: Retired.
+        src: *id006
+  - id: usareur
+    title: Commander in Chief, U.S. Army, Europe (CINCUSAREUR)
+    rank: military
+    appt: MIL
+    group: Major commands
+    n: The Army component of the European Command, at Heidelberg. From 1966 the commander also commanded the Seventh Army; the two headquarters merged in Jan. 1967.
+    holders:
+      - name: Eddy, Manton S.
+        rank: Lt. Gen., USA
+        from: '1952-08-12'
+        to: '1953-04-01'
+        out: Retired.
+        src: &id007
+          - 'Wikipedia: Commanding General, United States Army Europe'
+          - FRUS persons list
+      - name: Bolte, Charles L.
+        rank: Gen., USA
+        from: '1953-04-01'
+        to: '1953-09-29'
+        out: To Vice Chief of Staff.
+        src: *id007
+      - name: Hoge, William M.
+        rank: Gen., USA
+        from: '1953-09-29'
+        to: '1955-02-01'
+        out: Retired.
+        src: *id007
+      - name: McAuliffe, Anthony C.
+        rank: Gen., USA
+        from: '1955-02-01'
+        to: '1956-05-01'
+        out: Retired.
+        src: *id007
+      - name: Hodes, Henry I.
+        rank: Gen., USA
+        from: '1956-05-01'
+        to: '1959-04-01'
+        out: Retired.
+        src: *id007
+      - name: Eddleman, Clyde D.
+        rank: Gen., USA
+        from: '1959-04-01'
+        to: '1960-10-20'
+        out: To Vice Chief of Staff.
+        src: *id007
+      - name: Clarke, Bruce C.
+        rank: Gen., USA
+        from: '1960-10-20'
+        to: '1962-05-01'
+        out: Retired.
+        src: *id007
+      - name: Freeman, Paul L., Jr.
+        rank: Gen., USA
+        from: '1962-05-01'
+        to: '1965-03-18'
+        out: To Commanding General, Continental Army Command.
+        src: *id007
+      - name: O'Meara, Andrew P.
+        rank: Gen., USA
+        from: '1965-03-18'
+        to: '1967-06-01'
+        out: Retired.
+        src: *id007
+      - name: Polk, James H.
+        rank: Gen., USA
+        from: '1967-06-01'
+        to: '1971-03-20'
+        out: Retired.
+        src: *id007
+      - name: Collins, Arthur S., Jr.
+        rank: Lt. Gen., USA
+        from: '1971-03-20'
+        to: '1971-05-26'
+        out: Davison took command.
+        src: *id007
+        acting: true
+      - name: Davison, Michael S.
+        rank: Gen., USA
+        from: '1971-05-26'
+        to: '1975-06-29'
+        out: Retired.
+        src: *id007
+  - id: seventh-army
+    title: Commanding General, Seventh Army
+    rank: military
+    appt: MIL
+    under: usareur
+    group: Major commands
+    n: 'The field army in Germany. Years from Wikipedia''s list: Check dates. From Mar. 1, 1966, held by the Commander in Chief, U.S. Army, Europe (usareur).'
+    holders:
+      - name: Bolte, Charles L.
+        rank: Lt. Gen., USA
+        from: '1952'
+        to: '1953'
+        out: To Commander in Chief, U.S. Army, Europe.
+        src: &id008
+          - 'Wikipedia: Seventh United States Army'
+      - name: Hoge, William M.
+        rank: Lt. Gen., USA
+        from: '1953'
+        to: '1953'
+        out: To Commander in Chief, U.S. Army, Europe.
+        src: *id008
+      - name: McAuliffe, Anthony C.
+        rank: Lt. Gen., USA
+        from: '1953'
+        to: '1954'
+        src: *id008
+      - name: Hodes, Henry I.
+        rank: Lt. Gen., USA
+        from: '1954'
+        to: '1956'
+        src: *id008
+      - name: Clarke, Bruce C.
+        rank: Lt. Gen., USA
+        from: '1956'
+        to: '1958'
+        src: *id008
+      - name: Eddleman, Clyde D.
+        rank: Lt. Gen., USA
+        from: '1958'
+        to: '1959'
+        out: To Commander in Chief, U.S. Army, Europe.
+        src: *id008
+      - name: Farrell, Francis W.
+        rank: Lt. Gen., USA
+        from: '1959'
+        to: '1960'
+        src: *id008
+      - name: Davidson, Garrison H.
+        rank: Lt. Gen., USA
+        from: '1960'
+        to: '1962'
+        src: *id008
+      - name: Oakes, John C.
+        rank: Lt. Gen., USA
+        from: '1962'
+        to: '1963'
+        src: *id008
+      - name: Harris, Hugh P.
+        rank: Lt. Gen., USA
+        from: '1963'
+        to: '1964'
+        src: *id008
+      - name: Quinn, William W.
+        rank: Lt. Gen., USA
+        from: '1964'
+        to: '1966-03-01'
+        src: *id008
+  - id: 24th-division
+    title: Commanding General, 24th Infantry Division
+    rank: military
+    appt: MIL
+    under: seventh-army
+    group: Major commands
+    n: Only the commander named in the series is entered.
+    holders:
+      - name: Walker, Edwin A.
+        rank: Maj. Gen., USA
+        from: '1959'
+        to: '1961-04-17'
+        out: Relieved of command, pending inquiry; admonished; resigned from the Army Nov. 2, 1961.
+        n: 'At Augsburg. Check: day of taking command (after Aug. 1959).'
+        src:
+          - 'Wikipedia: Edwin Walker'
+  - id: i-field-force
+    title: Commanding General, I Field Force, Vietnam
+    rank: military
+    appt: MIL
+    under: commands.comusmacv
+    group: Vietnam
+    from: 1965-08
+    until: 1971-04
+    n: 'The corps-level command in the Central Highlands and II Corps. Months: Check.'
+    holders:
+      - name: Larsen, Stanley R.
+        rank: Lt. Gen., USA
+        from: 1965-08
+        to: 1967-03
+        src: &id009
+          - 'Wikipedia: William R. Peers'
+          - Wikipedia
+      - name: Rosson, William B.
+        rank: Lt. Gen., USA
+        from: 1967-03
+        to: 1968-03
+        src: *id009
+      - name: Peers, William R.
+        rank: Lt. Gen., USA
+        from: 1968-03
+        to: 1969-03
+        n: From Commanding General, 4th Infantry Division.
+        src: *id009
+      - name: Corcoran, Charles A.
+        rank: Lt. Gen., USA
+        from: 1969-03
+        to: 1970-03
+        src: *id009
+      - name: Collins, Arthur S., Jr.
+        rank: Lt. Gen., USA
+        from: 1970-03
+        to: 1971-01
+        src: *id009
+  - id: ii-field-force
+    title: Commanding General, II Field Force, Vietnam
+    rank: military
+    appt: MIL
+    under: commands.comusmacv
+    group: Vietnam
+    from: 1966-03
+    until: 1971-05
+    n: 'The corps-level command around Saigon (III Corps). Months: Check.'
+    holders:
+      - name: Seaman, Jonathan O.
+        rank: Lt. Gen., USA
+        from: 1966-03
+        to: 1967-03
+        src: &id010
+          - 'Wikipedia: Frederick C. Weyand'
+          - Wikipedia
+      - name: Weyand, Frederick C.
+        rank: Lt. Gen., USA
+        from: 1967-03
+        to: 1968-08
+        n: From Commanding General, 25th Infantry Division.
+        src: *id010
+      - name: Kerwin, Walter T., Jr.
+        rank: Lt. Gen., USA
+        from: 1968-08
+        to: 1969-04
+        src: *id010
+      - name: Ewell, Julian J.
+        rank: Lt. Gen., USA
+        from: 1969-04
+        to: 1970-04
+        src: *id010
+      - name: Davison, Michael S.
+        rank: Lt. Gen., USA
+        from: 1970-04
+        to: 1971-05
+        src: *id010
