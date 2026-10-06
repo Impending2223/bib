@@ -298,7 +298,7 @@ Biographical Directory where it matters), and a change of party in office, with 
 Specials held between general elections are not in the Clerk's biennial *Statistics*, which print
 only the November election (specials held that day are there, and in the election blocks). After
 each Congress at its opening, `build/congress.html` gives that Congress's specials: a summary, House
-and Senate maps of the seats filled (Result, Vote share, Swing from the general election that chose
+and Senate maps of the seats filled (large dots; the other districts drawn in the base map's gray; Result, Vote share, Swing from the general election that chose
 the Congress, same district), and a table of the races. A calendar entry tagged `special:<key>`
 carries its race's table (the 87th's thirteen, thread "Special elections"). Definitions: the STYLE
 notes in `tools/bib/specials.py`.
@@ -325,8 +325,8 @@ race, and in presidential years the vote for President by State with the elector
 `election:<year>` carries its block too (now Nov. 6, 1962). A block: the electoral and popular vote
 first, then by chamber the seats won, the net change from the close of the last Congress, pickups,
 and new members; one view switch for every map (Result; Vote share, the winner's share, continuous; Swing, continuous); the
-President's map above the House and Senate, with an Electors toggle (a dot an elector, as voted) and a
-Changed-hands toggle (in Result, the flips dark, the others light); the Senate map with a Senators toggle (a dot a seat); and every race in tables:
+President's map above the House and Senate, with a States | Flips | Electors switch (Flips: in Result, the
+States that flipped dark, the others light; Electors: a dot an elector, as voted); the Senate map with a Senators toggle (a dot a seat, larger than the House's: `PB`, `RB`); and every race in tables:
 candidates with party, votes and share, the margin in votes and in points of all the votes cast, and
 a note. Pickups are shaded in the winner's color, other member changes in gray. Members of neither
 major party count with the party they caucused with, and are labeled so ("Conservative, caucusing
@@ -374,7 +374,7 @@ tools/bib/elections.py              renders the blocks and checks the data (STYL
   leave nothing); `review.py audit YEAR`; `./bib check`; then tag the calendar entry.
 - Colors are tokens at the top of `templates/congress.html` (its CSS is in commented
   sections). Vote share and swing are continuous, not stepped: mixed in OKLab between the
-  `--e*` endpoints, over the ranges in `SHARE` and `SWING` in its script; the keys draw the
+  `--e*` endpoints (share from the near-white `--e?0`), over the ranges in `SHARE` and `SWING` in its script; the keys draw the
   same ranges as gradient bars. Change an endpoint and every map and key follows.
 - "Check" in a note (as in the calendar) marks a detail still to verify:
   `grep -rn Check elections/facts.yaml elections/readings`.
