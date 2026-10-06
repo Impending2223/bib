@@ -413,10 +413,9 @@ def span(x, y=None):
 def holder_html(h, a, b, ptr, href, o=None):
     """The name (with grade and title), then one line: the dates, how it ended, and the note."""
     who = f"<b>{esc(h['name'])}</b>"
-    if h.get("rank"):
-        who += f' <span class="exr">{esc(h["rank"])}</span>'
-    if h.get("title"):
-        who += f' <span class="exr">{esc(h["title"])}</span>'
+    extra = "; ".join(esc(x) for x in (h.get("rank"), h.get("title")) if x)
+    if extra:
+        who += f' <span class="exr">{extra}</span>'
     line = holder_line(h, a, b, o) + (" " + to_html(h["n"]) if h.get("n") else "")
     pts = ptr.lines(h["name"], href) if ptr else []
     return who, f'<span class="exd">{line}</span>', pts
@@ -551,12 +550,14 @@ def block(i, units, ptr, href, rid, here=False):
                 pts_all += [p for p in pts if p not in pts_all]
             rows_total += 1
             held += bool(hs)
-            rows.append(f'<tr id="{rid(i, u["unit"], o["id"])}" class="exo{" exhl" if laws else ""}"><td>'
-                        f'<span class="ext">{esc(title_at(o, a))}</span><span class="exm">{" · ".join(meta)}</span>{onote}</td>'
+            full = laws or onote
+            rows.append(f'<tr id="{rid(i, u["unit"], o["id"])}" class="exo{" exhl" if full else ""}"><td>'
+                        f'<span class="ext">{esc(title_at(o, a))}</span><span class="exm">{" · ".join(meta)}</span></td>'
                         f'<td>{"".join(cells)}</td><td>{"; ".join(pts_all)}</td></tr>')
-            if laws:
-                rows.append('<tr class="exlr"><td colspan="3"><ul class="exlaw">'
-                            + "".join(f"<li>{x}</li>" for x in laws) + "</ul></td></tr>")
+            if full:
+                rows.append('<tr class="exlr"><td colspan="3">' + onote
+                            + ('<ul class="exlaw">' + "".join(f"<li>{x}</li>" for x in laws) + "</ul>" if laws else "")
+                            + "</td></tr>")
         ulaw = [law_html(x) for x in u.get("law") or [] if in_force(x, a, b)]
         if not rows and not ulaw:
             continue
@@ -604,6 +605,7 @@ details.exu tr.exlr td{padding-top:0}
 .ex .exd{display:block;font-size:.74rem;color:var(--muted);line-height:1.35}
 .ex .exr{font-weight:400;font-size:.74rem;color:var(--muted)}
 .ex .cgn{font-size:.8rem;line-height:1.35}
+details.exu tr.exlr .cgn{margin:.1rem 0 .15rem}
 .ex ul.exlaw{list-style:none;margin:0;padding:.2rem 0 .1rem;font-size:.74rem;line-height:1.4;color:var(--muted)}
 .ex ul.exlaw.exul{margin:.1rem 0 .5rem}
 .ex ul.exlaw li{margin:.12rem 0}
