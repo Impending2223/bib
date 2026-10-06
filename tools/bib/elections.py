@@ -45,7 +45,7 @@ Definitions (STYLE, settled):
     more (SWING). Result: fixed points on the lines, held seats 40 percent of the way and pickups 89; the
     President's winner 75, and with Flips, held 40 and flipped 89 (dark mode: 25 and the end itself). Held
     against pickup keeps the contrast of the stepped scale used before (OKLab difference about 0.29-0.30). The keys draw the scales as gradient bars. Every map value is also in the tables and on hover.
- 9. The Senate by senator: a dot a seat; in an election, the seats at stake, and the others faint, from
+ 9. The Senate by senator: a dot a seat; in an election, the seats at stake, and the others gray, from
     the roster at the opening of the Congress chosen, where there is one.
 10. President: the Clerk's figure for a slate is the highest vote for any of its electors. Slates go to
     candidates by Wikipedia's figures, else by party (New York's Liberal line with the Democrat, its
@@ -534,7 +534,7 @@ def legend(has_sw):
     res = (f'<span class="lk lk-r">{sw("B2")}Democratic held {sw("B4")}Democratic pickup '
            f'{sw("R2")}Republican held {sw("R4")}Republican pickup <span class="sw pDi"></span><span class="sw pRi"></span>'
            f'Independent or third party, by the party caucused with {sw("None")}No election; '
-           'Senators: the seats not at stake faint</span>')
+           'Senators: <span class="sw eHo"></span>not at stake</span>')
     share = f'<span class="lk lk-s">The winner\'s margin over the runner-up, points of all the votes: {margin_scale()}</span>'
     swing = (f'<span class="lk lk-w">Swing, points: {swing_scale()} <span class="lt">redrawn districts take their '
              'State\'s swing</span> ' + sw("NA") + 'None</span>') if has_sw else ""
