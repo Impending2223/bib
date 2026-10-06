@@ -1,0 +1,72 @@
+# The Federal Civil Defense Administration, to July 1, 1958, when it was consolidated with the Office of Defense
+# Mobilization (executive/oep.yaml). Kept by hand. See tools/bib/executive.py for the fields.
+unit: fcda
+name: Federal Civil Defense Administration
+under: president
+order: 500
+until: '1958-07-01'
+law:
+  - act: Federal Civil Defense Act of 1950
+    date: '1951-01-12'
+    cite: 'ch. 1228, § 101, 64 Stat. 1245, 1247'
+    usc: '50 U.S.C. App. § 2271 (1952)'
+    tags: [creates, appointment, vacancy, pay, powers]
+    does: 'Establishes in the executive branch a Federal Civil Defense Administration under an Administrator appointed from civilian life by the President by and with the advice and consent of the Senate ($17,500), subject to the direction and control of the President; a Deputy Administrator so appointed ($16,000), who acts for the Administrator in his absence or disability; a Civil Defense Advisory Council, the Administrator chairman.'
+  - act: Reorganization Plan No. 1 of 1958
+    date: '1958-07-01'
+    cite: '72 Stat. 1799'
+    usc: '50 U.S.C. App. § 2271 note (1958)'
+    tags: [reorganizes]
+    does: Transfers the functions of the Administration and the Administrator to the President and consolidates the Administration with the Office of Defense Mobilization as the Office of Defense and Civilian Mobilization.
+n: Created by Executive Order 10186, Dec. 1, 1950, in the Office for Emergency Management; by statute from Jan. 12, 1951. Headquarters at Battle Creek, Michigan, from 1954.
+offices:
+  - id: administrator
+    title: Federal Civil Defense Administrator
+    rank: head
+    appt: PAS
+    until: '1958-07-01'
+    holders:
+      - name: Wadsworth, James J.
+        acting: true
+        from: '1952-11-15'
+        to: '1953-02-20'
+        n: 'Deputy Administrator. Caldwell, Administrator from Dec. 1, 1950, resigned Nov. 15, 1952. To Deputy U.S. Representative at the United Nations, Feb. 23, 1953.'
+        src: ['Wikipedia: James Jeremiah Wadsworth', FRUS persons list]
+      - name: Peterson, Val
+        from: '1953-02-19'
+        to: '1957-06-14'
+        out: Resigned; to Ambassador to Denmark.
+        n: 'Acting Feb. 19–Mar. 4, 1953 (Wikipedia). Administrative Assistant to the President, Jan. 21–Mar. 1, 1953 (FRUS). Check the confirmation.'
+        src: ['Wikipedia: Val Peterson', FRUS persons list, CDIR 1953-03]
+      - name: Berry, Lewis E., Jr.
+        acting: true
+        from: '1957-06-14'
+        to: '1957-07-19'
+        n: Deputy Administrator.
+        src: ['Wikipedia: Leo Hoegh', 'Wikipedia: Val Peterson']
+      - name: Hoegh, Leo A.
+        from: '1957-07-19'
+        to: '1958-07-01'
+        out: To Director of the Office of Defense and Civilian Mobilization.
+        src: ['Wikipedia: Leo Hoegh', FRUS persons list]
+  - id: deputy-administrator
+    title: Deputy Federal Civil Defense Administrator
+    rank: principal
+    appt: PAS
+    until: '1958-07-01'
+    holders:
+      - name: Wadsworth, James J.
+        from: '1950'
+        to: '1953-02-20'
+        n: 'Acting Administrator from Nov. 15, 1952. Office vacant at the Directory of Mar. 1953. Check the dates.'
+        src: ['Wikipedia: James Jeremiah Wadsworth', CDIR 1953-03]
+      - name: Howard, Katherine G.
+        from: '1953-03'
+        to: '1954'
+        n: 'With the Administration, 1953–57 (Wikipedia); listed as Deputy Administrator in the Congressional Directory, Jan. 1954; not listed Feb. 1955. Check the dates of office.'
+        src: [CDIR 1954-01, 'Wikipedia: Katherine G. Howard']
+      - name: Berry, Lewis E., Jr.
+        from: '1956'
+        to: '1958-07-01'
+        n: 'Listed in the Congressional Directory, Mar. 1957–Jan. 1958. Acting Administrator, June 14–July 19, 1957. Assistant Director of the Office of Civil and Defense Mobilization from 1958. Check the dates of office.'
+        src: [CDIR 1957-03, CDIR 1958-01]

@@ -1,0 +1,260 @@
+# The Department of the Interior. Kept by hand.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+# Holders are dated from the Congressional Directory (CDIR, two editions a Congress), the bureaus' own
+# lists, and Wikipedia; where only a Directory edition brackets a change, the date is a month or a year
+# and the holder's note says "Check".
+unit: interior
+name: Department of the Interior
+under: president
+order: 80
+law:
+  - act: Act of Mar. 3, 1849
+    date: '1849-03-03'
+    tags: [creates]
+    cite: 'ch. 108, § 1, 9 Stat. 395'
+    usc: ['5 U.S.C. § 481 (1958)', '43 U.S.C. § 1451 (1970)']
+    does: Establishes the Department of the Interior, with a Secretary of the Interior at its head (R.S. § 437).
+  - act: Act of Mar. 1, 1873
+    date: '1873-03-01'
+    tags: [powers]
+    cite: 'ch. 217, 17 Stat. 484'
+    usc: ['5 U.S.C. § 486 (1958)', '43 U.S.C. § 1458 (1970)']
+    does: The Secretary exercises the powers and duties in relation to the Territories formerly exercised by the Secretary of State (R.S. § 442).
+  - act: Reorganization Plan No. 3 of 1950
+    date: '1950-05-24'
+    tags: [powers, appointment, reorganizes]
+    cite: '64 Stat. 1262'
+    usc: '43 U.S.C. § 1451 note (1970)'
+    does: 'Transfers to the Secretary all functions of all other officers, agencies, and employees of the Department, with power to delegate; one additional Assistant Secretary (PAS); an Administrative Assistant Secretary, appointed by the Secretary with the approval of the President under the classified civil service.'
+  - act: Executive Order 10156
+    date: '1950-08-26'
+    until: '1958-02-15'
+    tags: [vacancy]
+    cite: '15 Fed. Reg. 5789'
+    does: Designates the officers of the Department who act as Secretary in case of death, resignation, absence, or sickness.
+  - act: Executive Order 10753
+    date: '1958-02-15'
+    until: '1969-10-06'
+    tags: [vacancy]
+    cite: '23 Fed. Reg. 1107'
+    url: https://www.presidency.ucsb.edu/documents/executive-order-10753-designation-certain-officers-the-department-the-interior-act
+    does: 'Order of succession to act as Secretary: the Under Secretary; the Assistant Secretaries and the Assistant Secretary for Fish and Wildlife, by length of service; the Solicitor.'
+  - act: Executive Order 11487
+    date: '1969-10-06'
+    tags: [vacancy]
+    cite: '34 Fed. Reg. 15593'
+    url: https://www.presidency.ucsb.edu/documents/executive-order-11487-designation-officers-the-department-the-interior-act-secretary-the
+    does: 'When neither the Secretary nor the Under Secretary is available, an Assistant Secretary or the Solicitor acts as Secretary, in the order the Secretary prescribes, otherwise by date of taking office.'
+  - act: Reorganization Plan No. 2 of 1966
+    date: '1966-05-10'
+    tags: [reorganizes, appointment]
+    cite: '80 Stat. 1608'
+    does: 'Transfers the Federal Water Pollution Control Administration and the water pollution functions of the Secretary of Health, Education, and Welfare to the Secretary of the Interior; one additional Assistant Secretary (PAS).'
+  - act: Reorganization Plan No. 3 of 1970
+    date: '1970-12-02'
+    tags: [reorganizes]
+    cite: '84 Stat. 2086'
+    does: Transfers the Federal Water Quality Administration and other functions of the Secretary to the new Environmental Protection Agency.
+  - act: Act of June 1, 1971
+    date: '1971-06-01'
+    tags: [appointment]
+    cite: 'Pub. L. 92-22, § 1, 85 Stat. 75'
+    usc: '43 U.S.C. § 1453a (1970 Supp. V)'
+    does: An additional Assistant Secretary of the Interior, appointed by the President with the advice and consent of the Senate.
+offices:
+  - id: secretary
+    title: Secretary of the Interior
+    rank: head
+    appt: PAS
+    level: I
+    law:
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(a), 78 Stat. 400, 416'
+        usc: '5 U.S.C. § 5312 (1970)'
+        does: Level I of the Federal Executive Salary Schedule, $35,000.
+    holders:
+      - name: Chapman, Oscar L.
+        given: Oscar Littleton
+        from: '1949-12-01'
+        to: '1953-01-20'
+        src: ['Wikipedia: United States Secretary of the Interior']
+      - name: McKay, Douglas
+        from: '1953-01-21'
+        to: '1956-04-15'
+        out: Resigned, to run for the Senate in Oregon.
+        n: Resignation submitted Mar. 9, 1956, effective Apr. 15.
+        src: ['Wikipedia: Douglas McKay', CDIR 1953-03]
+      - name: Davis, Clarence A.
+        acting: true
+        title: Under Secretary of the Interior, acting as Secretary
+        from: '1956-04-15'
+        to: '1956-06-08'
+        src: ['Wikipedia: United States Secretary of the Interior']
+      - name: Seaton, Fred A.
+        given: Fred Andrew
+        from: '1956-06-08'
+        to: '1961-01-20'
+        src: ['Wikipedia: Fred Andrew Seaton', 'APP: letter accepting resignation, Jan. 9, 1961']
+      - name: Udall, Stewart L.
+        given: Stewart Lee
+        from: '1961-01-21'
+        to: '1969-01-20'
+        src: ['Wikipedia: Stewart Udall', CDIR 1961-04]
+      - name: Hickel, Walter J.
+        given: Walter Joseph
+        confirmed: '1969-01-23'
+        from: '1969-01-24'
+        to: '1970-11-25'
+        out: Dismissed by the President.
+        n: 'Office vacant Jan. 20–24, 1969. Check who acted.'
+        src: ['Wikipedia: Wally Hickel', 'Wikipedia: United States Secretary of the Interior']
+      - name: Russell, Fred J.
+        acting: true
+        title: Under Secretary of the Interior, acting as Secretary
+        from: '1970-11-25'
+        to: '1971-01-29'
+        src: ['Wikipedia: Fred J. Russell']
+      - name: Morton, Rogers C. B.
+        given: Rogers Clark Ballard
+        from: '1971-01-29'
+        n: Served to Apr. 30, 1975.
+        src: ['Wikipedia: Rogers Morton', CDIR 1973-12]
+  - id: under-secretary
+    title: Under Secretary of the Interior
+    rank: principal
+    appt: PAS
+    level: III
+    law:
+      - act: Interior Department Appropriation Act, 1936
+        date: '1935-05-09'
+        tags: [creates, appointment]
+        cite: 'ch. 101, 49 Stat. 176, 177'
+        usc: ['5 U.S.C. § 481a (1958)', '43 U.S.C. § 1452 (1970)']
+        does: Establishes the position of Under Secretary, appointed by the President with the advice and consent of the Senate.
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(c), 78 Stat. 400, 416'
+        usc: '5 U.S.C. § 5314 (1970)'
+        does: Level III, $28,500.
+    holders:
+      - name: Tudor, Ralph A.
+        from: '1953'
+        to: '1954-09'
+        out: Resigned.
+        n: 'Listed in CDIR, Mar. 1, 1953; Wikipedia: appointed March 1953, resigned September 1954. Check both dates.'
+        src: ['Wikipedia: Ralph A. Tudor', CDIR 1953-03, CDIR 1954-01]
+      - name: Davis, Clarence A.
+        from: '1954-09'
+        to: '1956'
+        n: 'Succeeded Tudor, who resigned in September 1954; Solicitor until then. Acting Secretary, Apr. 15–June 8, 1956. Listed in CDIR, Feb. 1955 and Jan. 1956; office vacant in CDIR, Mar. 1957. Check both dates.'
+        src: [CDIR 1955-02, CDIR 1956-01, CDIR 1957-03]
+      - name: Chilson, Hatfield
+        given: Olin Hatfield
+        from: '1957'
+        to: '1958'
+        n: 'Assistant Secretary for Public Land Management before. FRUS: Under Secretary from 1957. Listed in CDIR, Jan. 1958. Check both dates.'
+        src: ['FRUS persons list, 1955–57, IX', CDIR 1958-01]
+      - name: Bennett, Elmer F.
+        from: '1958-10'
+        to: '1961-01'
+        n: 'FRUS: Under Secretary from October 1958. Check the day.'
+        src: ['FRUS persons list, 1958–60, II', CDIR 1959-03, CDIR 1960-01]
+      - name: Carr, James K.
+        from: '1961-01'
+        to: '1964'
+        n: 'FRUS: Under Secretary from January 1961. Listed in CDIR to Jan. 1964. Check both dates.'
+        src: ['FRUS persons list, 1961–63, IX', CDIR 1961-04, CDIR 1964-01]
+      - name: Carver, John A., Jr.
+        from: '1964'
+        to: '1966'
+        out: To the Federal Power Commission.
+        n: 'Listed in CDIR, Mar. 1965 and Jan. 1966. Check both dates.'
+        src: ['Wikipedia: John A. Carver Jr.', CDIR 1965-03, CDIR 1966-01]
+      - name: Luce, Charles F.
+        from: '1966-08'
+        to: '1967'
+        n: 'Bonneville Power Administrator to Aug. 30, 1966. Listed in CDIR, Feb. 1967. Check both dates.'
+        src: ['Wikipedia: Bonneville Power Administration', CDIR 1967-02]
+      - name: Black, David S.
+        from: '1967-09'
+        to: '1969-01'
+        n: 'Bonneville Power Administrator to Sept. 7, 1967. Listed in CDIR, Dec. 1967. Check the day.'
+        src: ['Wikipedia: Bonneville Power Administration', CDIR 1967-12]
+      - name: Train, Russell E.
+        from: '1969-01'
+        to: '1970-01'
+        out: To chairman, Council on Environmental Quality.
+        n: 'FRUS: Under Secretary, 1969–1970. Listed in CDIR, Mar. and Dec. 1969. Check both dates.'
+        src: ['FRUS persons list, 1969–76, E-1', CDIR 1969-03, CDIR 1969-12]
+      - name: Russell, Fred J.
+        from: '1970-01'
+        to: '1971-02-18'
+        n: 'Acting Secretary, Nov. 25, 1970–Jan. 29, 1971. Check the day he took office.'
+        src: ['Wikipedia: Fred J. Russell']
+      - name: Pecora, William T.
+        given: William Thomas
+        appointed: '1971-04-01'
+        from: '1971-04'
+        to: '1972-07-19'
+        out: Died.
+        n: 'Wikipedia: appointed Apr. 1, 1971. Director of the Geological Survey before. Check the day he took office.'
+        src: ['Wikipedia: William T. Pecora', CDIR 1971-12]
+      - name: Whitaker, John C.
+        from: '1973'
+        n: 'FRUS: Under Secretary, 1973–1975. Listed in CDIR, Mar. and Dec. 1973. Check the day.'
+        src: ['FRUS persons list, 1969–76, E-3', CDIR 1973-03, CDIR 1973-12]
+  - id: deputy-under-secretary
+    title: Deputy Under Secretary of the Interior
+    rank: inferior
+    appt: HD
+    many: true
+    from: '1962'
+    n: 'Listed in CDIR from Mar. 1963. Several at once from 1971. Dates from the Directory editions; Check each.'
+    holders:
+      - name: Burge, Moris
+        from: '1963'
+        to: '1966'
+        n: 'Listed in CDIR, Mar. 1963 to Mar. 1965. Check both dates.'
+        src: [CDIR 1963-03, CDIR 1965-03]
+      - name: Mangan, Robert M.
+        from: '1966'
+        to: '1969'
+        n: 'Listed in CDIR, Jan. 1966 to Dec. 1967. Check both dates.'
+        src: [CDIR 1966-01, CDIR 1967-12]
+      - name: Shooshan, Harry M., Jr.
+        title: Deputy Under Secretary for Programs
+        from: '1967'
+        to: '1970'
+        n: 'Listed in CDIR, Dec. 1967 to Dec. 1969. Check both dates.'
+        src: [CDIR 1967-12, CDIR 1969-12]
+      - name: Gibbons, Boyd H., III
+        from: '1969'
+        to: '1970'
+        n: 'Listed in CDIR, Dec. 1969. Check both dates.'
+        src: [CDIR 1969-12]
+      - name: Rogers, William L.
+        from: '1970'
+        to: '1971'
+        n: 'Listed in CDIR, Mar. 1971. Check both dates.'
+        src: [CDIR 1971-03]
+      - name: Horton, Jack O.
+        from: '1971'
+        to: '1973'
+        out: To Assistant Secretary for Land and Water Resources.
+        n: 'Listed in CDIR, Dec. 1971. Check both dates.'
+        src: [CDIR 1971-12]
+      - name: Clarke, Frank E.
+        from: '1971'
+        to: '1973'
+        n: 'Listed in CDIR, Dec. 1971. Check both dates.'
+        src: [CDIR 1971-12]
+      - name: Lay, Kenneth L.
+        from: '1973'
+        to: '1974'
+        n: 'Listed in CDIR, Dec. 1973. Check both dates.'
+        src: [CDIR 1973-12]

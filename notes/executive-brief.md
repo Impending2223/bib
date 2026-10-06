@@ -45,6 +45,12 @@ the office's, `acting: true` for acting officers. Begin each office with whoever
 acting officers wherever an office was vacant: who acted, from when to when. `src`: a short list of where the
 dates came from (`CDIR 1961-04`, `Wikipedia: Dean Rusk`, a URL, `POCOM`, `FRUS persons list`, `APP`).
 
+Vacancies are computed by the build from the holders' dates: don't write "Office vacant ..." in a note. An
+acting officer serves in a vacancy and does not fill it; the build shows him under the vacancy. A note (`n`)
+continues the holder's date line in the same style: write it as clipped facts, not commentary. POCOM's
+"Commissioned during a recess of the Senate; recommissioned after confirmation on <date>" belongs in the
+fields (`recess`, `confirmed` where known, `appointed` = the recommission), not in `n`.
+
 Never invent. If you cannot find a date, leave the field out. For `from`, give the best precision you can
 support ('1961-02' or '1961' is allowed) and add "Check" to the holder's `n` saying what to verify. Where two
 good sources disagree, give the more official and say "Check: Wikipedia gives Feb. 3." in `n`.

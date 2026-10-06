@@ -1,0 +1,334 @@
+# The Atomic Energy Commission. Kept by hand.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: aec
+name: Atomic Energy Commission
+under: president
+order: 500
+law:
+  - act: Atomic Energy Act of 1946
+    date: '1946-08-01'
+    until: '1954-08-30'
+    tags: [creates, powers, appointment]
+    cite: 'ch. 724, § 2, 60 Stat. 755, 756'
+    usc: '42 U.S.C. §§ 1801–1819 (1952)'
+    does: Establishes an Atomic Energy Commission of five members, appointed by the President with the advice and consent of the Senate, one designated Chairman by the President; Government ownership of fissionable material and production facilities; the Commission to conduct research and production for the common defense and security.
+  - act: Atomic Energy Act of 1954
+    date: '1954-08-30'
+    tags: [creates, powers, reorganizes]
+    cite: 'ch. 1073, § 1, 68 Stat. 919, 921'
+    usc: '42 U.S.C. §§ 2011–2281 (1958)'
+    does: Restates the 1946 Act. The Commission continued (§ 21); private ownership and operation of reactors under Commission license; dissemination of information and international cooperation under agreements for cooperation.
+n: The Commission's functions divided by the Energy Reorganization Act of 1974 (Pub. L. 93-438, Oct. 11, 1974) between the Energy Research and Development Administration and the Nuclear Regulatory Commission; the Commission abolished Jan. 19, 1975, after the period.
+offices:
+  - id: chairman
+    title: Chairman, Atomic Energy Commission
+    rank: head
+    appt: DES
+    level: II
+    n: A member designated by the President, to serve as Chairman at his pleasure.
+    law:
+      - act: Atomic Energy Act of 1954
+        date: '1954-08-30'
+        tags: [appointment, vacancy, powers]
+        cite: 'ch. 1073, § 1, 68 Stat. 919, 924'
+        usc: '42 U.S.C. § 2031 (1958)'
+        does: 'The President designates one member Chairman, during his pleasure; the Chairman may designate another member Acting Chairman in his absence. The Chairman presides, speaks for the Commission, and sees to the faithful execution of its policies and decisions (§ 21).'
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(b), 78 Stat. 400, 416'
+        usc: '5 U.S.C. § 5313 (1970)'
+        does: The Chairman in level II.
+    holders:
+      - name: Dean, Gordon E.
+        given: Gordon Evans
+        from: '1950-07-11'
+        to: '1953-06-30'
+        out: Term expired.
+        src: [Buck, A History of the Atomic Energy Commission (DOE, 1983), CDIR 1953-03]
+      - name: Strauss, Lewis L.
+        given: Lewis Lichtenstein
+        from: '1953-07-02'
+        to: '1958-06-30'
+        out: Term expired; to Secretary of Commerce (recess appointment), Nov. 1958.
+        n: 'Office vacant, June 30–July 14, 1958. Check: who acted.'
+        src: [Buck, A History of the Atomic Energy Commission (DOE, 1983), CDIR 1954-01 to 1958-01]
+      - name: McCone, John A.
+        given: John Alex
+        from: '1958-07-14'
+        to: '1961-01-20'
+        out: Resigned.
+        src: [Buck, A History of the Atomic Energy Commission (DOE, 1983), CDIR 1959-03, 1960-01]
+      - name: Graham, John S.
+        given: John Stephens
+        acting: true
+        from: '1961-01-20'
+        to: '1961-03-01'
+        n: 'Listed as acting chairman in CDIR 1961-04. Check the dates.'
+        src: [CDIR 1961-04]
+      - name: Seaborg, Glenn T.
+        given: Glenn Theodore
+        from: '1961-03-01'
+        to: '1971-08-16'
+        out: Resigned.
+        src: [Buck, A History of the Atomic Energy Commission (DOE, 1983), FRUS persons list, CDIR 1962-01 to 1971-03]
+      - name: Schlesinger, James R.
+        given: James Rodney
+        from: '1971-08-17'
+        to: '1973-01-26'
+        out: To Director of Central Intelligence.
+        n: 'Office vacant, Jan. 26–Feb. 6, 1973. Check: who acted.'
+        src: [Buck, A History of the Atomic Energy Commission (DOE, 1983), CDIR 1971-12, 1973-03]
+      - name: Ray, Dixy Lee
+        from: '1973-02-06'
+        to: '1975-01-18'
+        out: Commission abolished.
+        src: [Buck, A History of the Atomic Energy Commission (DOE, 1983), CDIR 1973-12]
+  - id: commissioner
+    title: Member, Atomic Energy Commission
+    rank: principal
+    appt: PAS
+    level: III
+    many: true
+    n: Five members, the Chairman among them. Five-year terms, staggered to expire June 30.
+    law:
+      - act: Atomic Energy Act of 1954
+        date: '1954-08-30'
+        tags: [appointment, pay]
+        cite: 'ch. 1073, § 1, 68 Stat. 919, 924'
+        usc: '42 U.S.C. § 2032 (1958)'
+        does: 'Members appointed by the President with the advice and consent of the Senate, the nomination to set out the nominee''s experience and qualifications; five-year terms; removable by the President for inefficiency, neglect of duty, or malfeasance; no other business or employment; $18,000, the Chairman $20,000 (§ 22).'
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(c), 78 Stat. 400, 417'
+        usc: '5 U.S.C. § 5314 (1970)'
+        does: Members in level III.
+    holders:
+      - name: Dean, Gordon E.
+        given: Gordon Evans
+        from: '1949-05-24'
+        to: '1953-06-30'
+        src: [Buck, A History of the Atomic Energy Commission (DOE, 1983)]
+      - name: Smyth, Henry DeWolf
+        from: '1949-05-30'
+        to: '1954-09-30'
+        out: Resigned.
+        n: The one member to vote against stripping Oppenheimer of his clearance, June 29, 1954.
+        src: [Buck, A History of the Atomic Energy Commission (DOE, 1983), CDIR 1953-03, 1954-01]
+      - name: Murray, Thomas E.
+        given: Thomas Edward
+        from: '1950-05-09'
+        to: '1957-06-30'
+        out: Term expired.
+        src: [Buck, A History of the Atomic Energy Commission (DOE, 1983), CDIR 1953-03 to 1957-03]
+      - name: Zuckert, Eugene M.
+        from: '1952-02-25'
+        to: '1954-06-30'
+        out: Term expired.
+        src: [Buck, A History of the Atomic Energy Commission (DOE, 1983), CDIR 1953-03, 1954-01]
+      - name: Strauss, Lewis L.
+        given: Lewis Lichtenstein
+        from: '1953-07-02'
+        to: '1958-06-30'
+        n: Chairman throughout. A member also Nov. 12, 1946–Apr. 15, 1950.
+        src: [Buck, A History of the Atomic Energy Commission (DOE, 1983)]
+      - name: Campbell, Joseph
+        from: '1953-07-27'
+        to: '1954-11-30'
+        out: To Comptroller General.
+        src: [Buck, A History of the Atomic Energy Commission (DOE, 1983), CDIR 1954-01]
+      - name: Libby, Willard F.
+        given: Willard Frank
+        from: '1954-10-05'
+        to: '1959-06-30'
+        src: [Buck, A History of the Atomic Energy Commission (DOE, 1983), CDIR 1956-01]
+      - name: von Neumann, John
+        from: '1955-03-15'
+        to: '1957-02-08'
+        out: Died.
+        src: [Buck, A History of the Atomic Energy Commission (DOE, 1983), CDIR 1956-01]
+      - name: Vance, Harold S.
+        given: Harold Sines
+        from: '1955-10-31'
+        to: '1959-08-31'
+        out: Died.
+        src: [Buck, A History of the Atomic Energy Commission (DOE, 1983), CDIR 1956-01, 1957-03]
+      - name: Graham, John S.
+        given: John Stephens
+        from: '1957-09-12'
+        to: '1962-06-30'
+        src: [Buck, A History of the Atomic Energy Commission (DOE, 1983), CDIR 1960-01, 1961-04]
+      - name: Floberg, John F.
+        given: John Forrest
+        from: '1957-10-01'
+        to: '1960-06-23'
+        out: Resigned.
+        src: [Buck, A History of the Atomic Energy Commission (DOE, 1983), CDIR 1960-01]
+      - name: McCone, John A.
+        given: John Alex
+        from: '1958-07-14'
+        to: '1961-01-20'
+        n: Chairman throughout.
+        src: [Buck, A History of the Atomic Energy Commission (DOE, 1983)]
+      - name: Williams, John H.
+        given: John Harry
+        from: '1959-08-13'
+        to: '1960-06-30'
+        src: [Buck, A History of the Atomic Energy Commission (DOE, 1983), CDIR 1960-01]
+      - name: Wilson, Robert E.
+        from: '1960-03-22'
+        to: '1964-01-31'
+        src: [Buck, A History of the Atomic Energy Commission (DOE, 1983), CDIR 1961-04 to 1964-01]
+      - name: Olson, Loren K.
+        from: '1960-06-23'
+        to: '1962-06-30'
+        src: [Buck, A History of the Atomic Energy Commission (DOE, 1983), CDIR 1961-04]
+      - name: Seaborg, Glenn T.
+        given: Glenn Theodore
+        from: '1961-03-01'
+        to: '1971-08-16'
+        n: Chairman throughout.
+        src: [Buck, A History of the Atomic Energy Commission (DOE, 1983)]
+      - name: Haworth, Leland J.
+        given: Leland John
+        from: '1961-04-17'
+        to: '1963-06-30'
+        out: To Director, National Science Foundation.
+        src: [Buck, A History of the Atomic Energy Commission (DOE, 1983), CDIR 1963-03, FRUS persons list]
+      - name: Palfrey, John G.
+        given: John Gorham
+        from: '1962-08-31'
+        to: '1966-06-30'
+        n: Sworn with Ramey, Aug. 31, 1962 (APP).
+        src: [Buck, A History of the Atomic Energy Commission (DOE, 1983), APP, CDIR 1963-03 to 1966-01]
+      - name: Ramey, James T.
+        given: James Thomas
+        from: '1962-08-31'
+        to: '1973-06-30'
+        src: [Buck, A History of the Atomic Energy Commission (DOE, 1983), APP, CDIR 1965-03 to 1973-03]
+      - name: Tape, Gerald F.
+        given: Gerald Frederick
+        from: '1963-07-15'
+        to: '1969-04-30'
+        src: [Buck, A History of the Atomic Energy Commission (DOE, 1983), CDIR 1964-01 to 1969-03]
+      - name: Bunting, Mary I.
+        given: Mary Ingraham
+        from: '1964-06-29'
+        to: '1965-06-30'
+        src: [Buck, A History of the Atomic Energy Commission (DOE, 1983), CDIR 1965-03]
+      - name: Johnson, Wilfrid E.
+        from: '1966-08-01'
+        to: '1972-06-30'
+        n: Buck spells him Wilfred; the Congressional Directory, Wilfrid.
+        src: [Buck, A History of the Atomic Energy Commission (DOE, 1983), CDIR 1967-02 to 1971-12]
+      - name: Nabrit, Samuel M.
+        given: Samuel Milton
+        from: '1966-08-01'
+        to: '1967-08-01'
+        src: [Buck, A History of the Atomic Energy Commission (DOE, 1983), CDIR 1967-02]
+      - name: Costagliola, Francesco
+        from: '1968-10-01'
+        to: '1969-06-30'
+        src: [Buck, A History of the Atomic Energy Commission (DOE, 1983)]
+      - name: Thompson, Theos J.
+        from: '1969-06-12'
+        to: '1970-11-25'
+        out: Died.
+        src: [Buck, A History of the Atomic Energy Commission (DOE, 1983), CDIR 1969-12]
+      - name: Larson, Clarence E.
+        from: '1969-09-02'
+        to: '1974-06-30'
+        src: [Buck, A History of the Atomic Energy Commission (DOE, 1983), CDIR 1971-03 to 1973-12]
+      - name: Schlesinger, James R.
+        given: James Rodney
+        from: '1971-08-17'
+        to: '1973-01-26'
+        n: Chairman throughout.
+        src: [Buck, A History of the Atomic Energy Commission (DOE, 1983)]
+      - name: Doub, William O.
+        from: '1971-08-17'
+        to: '1974-08-17'
+        src: [Buck, A History of the Atomic Energy Commission (DOE, 1983), CDIR 1971-12]
+      - name: Ray, Dixy Lee
+        from: '1972-08-08'
+        to: '1975-01-18'
+        n: Chairman from Feb. 6, 1973.
+        src: [Buck, A History of the Atomic Energy Commission (DOE, 1983)]
+      - name: Kriegsman, William E.
+        from: '1973-06-12'
+        to: '1975-01-18'
+        src: [Buck, A History of the Atomic Energy Commission (DOE, 1983)]
+      - name: Anders, William A.
+        given: William Alison
+        from: '1973-08-06'
+        to: '1975-01-18'
+        out: To Nuclear Regulatory Commission, as chairman.
+        src: [Buck, A History of the Atomic Energy Commission (DOE, 1983), CDIR 1973-12]
+  - id: general-manager
+    title: General Manager
+    rank: principal
+    appt: PAS
+    level: IV
+    n: Appointed by the President with the advice and consent of the Senate under the 1946 Act; by the Commission, at its pleasure, from Aug. 30, 1954.
+    law:
+      - act: Atomic Energy Act of 1946
+        date: '1946-08-01'
+        until: '1954-08-30'
+        tags: [creates, appointment, pay]
+        cite: 'ch. 724, § 2(a)(4)(A), 60 Stat. 755, 757'
+        usc: '42 U.S.C. § 1802 (1952)'
+        does: A General Manager to discharge such administrative and executive functions as the Commission directs; appointed by the President with the advice and consent of the Senate; $15,000.
+      - act: Atomic Energy Act of 1954
+        date: '1954-08-30'
+        tags: [appointment, powers, pay]
+        cite: 'ch. 1073, § 1, 68 Stat. 919, 925'
+        usc: '42 U.S.C. § 2034 (1958)'
+        does: The General Manager appointed by the Commission, serving at its pleasure and removable by it; pay set by the Commission, not over $20,000 (§ 24).
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(d), 78 Stat. 400, 418'
+        usc: '5 U.S.C. § 5315 (1970)'
+        does: The General Manager in level IV.
+    holders:
+      - name: Boyer, Marion W.
+        from: '1950-11-01'
+        to: '1953-10-31'
+        src: [Buck, A History of the Atomic Energy Commission (DOE, 1983), CDIR 1953-03]
+      - name: Nichols, Kenneth D.
+        given: Kenneth David
+        rank: Maj. Gen., USA (ret.)
+        from: '1953-11-01'
+        to: '1955-04-30'
+        n: 'Wikipedia gives Nov. 2, 1953.'
+        src: [Buck, A History of the Atomic Energy Commission (DOE, 1983), CDIR 1954-01, 1955-02]
+      - name: Fields, Kenneth E.
+        rank: Brig. Gen., USA
+        from: '1955-05-01'
+        to: '1958-06-30'
+        n: Buck prints Kenneth F.; the Congressional Directory, K. E. Fields.
+        src: [Buck, A History of the Atomic Energy Commission (DOE, 1983), CDIR 1956-01, 1958-01]
+      - name: Foster, Paul F.
+        from: '1958-07-01'
+        to: '1958-11-30'
+        src: [Buck, A History of the Atomic Energy Commission (DOE, 1983)]
+      - name: Luedecke, A. R.
+        given: Alvin Roubal
+        rank: Maj. Gen., USAF
+        from: '1958-12-01'
+        to: '1964-07-31'
+        src: [Buck, A History of the Atomic Energy Commission (DOE, 1983), CDIR 1960-01 to 1964-01]
+      - name: Hollingsworth, Robert E.
+        from: '1964-08-11'
+        to: '1973-12-31'
+        n: 'Buck prints Aug. 11, 1974, a misprint for 1964. Check. Deputy General Manager before.'
+        src: [Buck, A History of the Atomic Energy Commission (DOE, 1983), CDIR 1965-03 to 1973-03]
+      - name: Erlewine, John A.
+        from: '1974-02-15'
+        to: '1974-12-31'
+        n: Office vacant, Dec. 31, 1973–Feb. 15, 1974.
+        src: [Buck, A History of the Atomic Energy Commission (DOE, 1983)]

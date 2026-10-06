@@ -65,11 +65,13 @@ An authority:
 Dates: 'YYYY-MM-DD', or 'YYYY-MM' or 'YYYY' where the day is not known.
 
 STYLE:
- 1. Each term shows every office that existed during it, the holder at its start ("Vacant" where none, with
-    the acting officer) and every change through its end. Holders who left on or before the first day of the
-    term show only in the term before.
+ 1. Each term shows every office that existed during it, the holder at its start and every change through its
+    end. Holders who left on or before the first day of the term show only in the term before. Vacancies are
+    computed from the appointed holders' dates ("Vacant, Jan. 20–21, 1961"); an acting officer serves in a
+    vacancy without filling it, and shows under it. A one-day handover is not a vacancy unless someone acted.
  2. A holder's line: the dates of nomination, confirmation, commission (or recess commission), and taking
-    office, the year once per run; then the date of leaving and how. Acting officers say so, with their span.
+    office, the year once per run; then the date of leaving and how; then the note, in the same style. Acting
+    officers say so, with their span.
  3. Authorities link to the Statutes at Large on govinfo by volume and the page the act begins on.
 """
 import os
@@ -349,10 +351,7 @@ def holder_line(h, a, b, o=None):
     """The holder's dates, as one clipped line (HTML)."""
     pairs = []
     if h.get("acting"):
-        span = fmt(h["from"])
-        if h.get("to"):
-            span += "–" + fmt(h["to"])
-        t = f"Acting, {span}."
+        t = f"Acting, {span(h['from'], h.get('to'))}."
     else:
         if h.get("recess"):
             pairs.append(("recess appointment", h["recess"]))
@@ -373,16 +372,54 @@ def holder_line(h, a, b, o=None):
     return t
 
 
+def span(x, y=None):
+    """'Jan. 20–21, 1961'; 'Nov. 22, 1963–Jan. 20, 1965'; 'from Aug. 9, 1974' where there is no end."""
+    if not y:
+        return f"from {fmt(x)}"
+    if len(str(x)) == 10 and len(str(y)) == 10 and str(x)[:4] == str(y)[:4]:
+        if str(x)[:7] == str(y)[:7]:
+            return f"{fmt(x, year=False)}–{int(str(y)[8:])}, {str(y)[:4]}"
+        return f"{fmt(x, year=False)}–{fmt(y)}"
+    return f"{fmt(x)}–{fmt(y)}"
+
+
 def holder_html(h, a, b, ptr, href, o=None):
-    who = esc(h["name"])
+    """The name (with grade and title), then one line: the dates, how it ended, and the note."""
+    who = f"<b>{esc(h['name'])}</b>"
     if h.get("rank"):
         who += f' <span class="exr">{esc(h["rank"])}</span>'
     if h.get("title"):
-        who += f' <span class="exr">({esc(h["title"])})</span>'
-    line = f'<span class="exd">{holder_line(h, a, b, o)}</span>'
-    note = f'<span class="cgn">{to_html(h["n"])}</span>' if h.get("n") else ""
+        who += f' <span class="exr">{esc(h["title"])}</span>'
+    line = holder_line(h, a, b, o) + (" " + to_html(h["n"]) if h.get("n") else "")
     pts = ptr.lines(h["name"], href) if ptr else []
-    return who, line + note, pts
+    return who, f'<span class="exd">{line}</span>', pts
+
+
+def vacancies(o, a, b):
+    """Spans within [a, b) when the office was vacant: no one held it by appointment (an acting officer serves in
+    a vacancy; he does not fill it). [(from, to)], clipped to the term. A day between one holder's last day and
+    the next one's first is a handover, not a vacancy, unless someone acted in it."""
+    import datetime
+    def day(d):
+        return datetime.date.fromisoformat(d) if len(str(d)) == 10 else None
+    gaps, last = [], None
+    acting = [h for h in o.get("holders") or [] if h.get("acting")]
+    for h in sorted([h for h in o.get("holders") or [] if not h.get("acting")], key=lambda h: lo(h["from"])):
+        f = day(h["from"])
+        if last and f and (f - last).days >= 1:
+            gaps.append((last.isoformat(), h["from"]))
+        t = day(h["to"]) if h.get("to") else datetime.date(9999, 1, 1)
+        if t and (not last or t > last):
+            last = t
+    end = o.get("until") if o.get("until") and len(str(o["until"])) == 10 else END
+    if last and last.year < 9999 and last.isoformat() < end:
+        gaps.append((last.isoformat(), end))
+    out = []
+    for x, y in gaps:
+        x, y = max(x, a), min(y, b)
+        if x < y and ((day(y) - day(x)).days > 1 or any(lo(x) <= lo(h["from"]) < lo(y) for h in acting)):
+            out.append((x, y))
+    return out
 
 
 # ---------------------------------------------------------------- the block
@@ -471,14 +508,19 @@ def block(i, units, ptr, href, rid, here=False):
             laws = [law_html(x) for x in o.get("law") or [] if in_force(x, a, b)]
             onote = f'<span class="cgn">{to_html(o["n"])}</span>' if o.get("n") else ""
             cells, pts_all = [], []
-            at_start = [h for h in hs if lo(h["from"]) <= lo(a)]
-            if hs and not at_start and lo(o.get("from") or START) <= lo(a):
-                cells.append('<span class="exh"><i>Vacant</i> on the first day of the term.</span>')
-            if not hs:
+            gaps = [] if o.get("many") else vacancies(o, a, b)
+            if not hs and not gaps:
                 cells.append('<span class="exh"><i>No holder recorded.</i></span>')
-            for h in hs:
-                who, line, pts = holder_html(h, a, b, ptr, href, o)
-                cells.append(f'<span class="exh{" exa" if h.get("acting") else ""}"><b>{who}</b> {line}</span>')
+            items = [(lo(h["from"]), 1, h) for h in hs] + [(lo(g[0]), 0, g) for g in gaps]
+            gap = None
+            for _, kind, x in sorted(items, key=lambda t: (t[0], t[1])):
+                if kind == 0:
+                    gap = x
+                    cells.append(f'<span class="exh"><b>Vacant</b> <span class="exd">{span(x[0], term_end(x[1]) if x[1] == b else x[1])}.</span></span>')
+                    continue
+                who, line, pts = holder_html(x, a, b, ptr, href, o)
+                inside = x.get("acting") and gap and lo(gap[0]) <= lo(x["from"]) < lo(gap[1])
+                cells.append(f'<span class="exh{" exin" if inside else ""}">{who} {line}</span>')
                 pts_all += [p for p in pts if p not in pts_all]
             rows_total += 1
             held += bool(hs)
@@ -531,7 +573,7 @@ details.exu tr.exlr td{padding-top:0}
 .ex .exm{display:block;font-size:.72rem;color:var(--muted)}
 .ex .exh{display:block;margin-bottom:.3rem}
 .ex .exh>b{font-weight:600}
-.ex .exh.exa>b{font-weight:400;font-style:italic}
+.ex .exh.exin{margin-left:1rem}
 .ex .exd{display:block;font-size:.74rem;color:var(--muted);line-height:1.35}
 .ex .exr{font-weight:400;font-size:.74rem;color:var(--muted)}
 .ex .cgn{font-size:.8rem;line-height:1.35}

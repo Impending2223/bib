@@ -1,0 +1,273 @@
+# The National Aeronautics and Space Administration, and before it the National Advisory Committee for
+# Aeronautics. Kept by hand.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: nasa
+name: National Aeronautics and Space Administration
+under: president
+order: 500
+names:
+  - name: National Advisory Committee for Aeronautics
+    from: '1915-03-03'
+  - name: National Aeronautics and Space Administration
+    from: '1958-10-01'
+law:
+  - act: Naval Appropriation Act of Mar. 3, 1915
+    date: '1915-03-03'
+    until: '1958-10-01'
+    tags: [creates, powers]
+    cite: 'ch. 83, 38 Stat. 928, 930'
+    usc: '50 U.S.C. § 151 (1952)'
+    does: Establishes an Advisory Committee for Aeronautics of not more than twelve members, appointed by the President, to supervise and direct the scientific study of the problems of flight; members serve without compensation.
+  - act: National Aeronautics and Space Act of 1958
+    date: '1958-07-29'
+    tags: [creates, powers]
+    cite: 'Pub. L. 85-568, § 202, 72 Stat. 426, 429'
+    usc: '42 U.S.C. §§ 2451–2476 (1964)'
+    does: 'Declares that activities in space be devoted to peaceful purposes; aeronautical and space activities the responsibility of a civilian agency, except those peculiar to weapons, military operations or defense. Establishes the National Aeronautics and Space Administration, headed by an Administrator; under the President''s supervision, the Administrator exercises all its powers and controls its personnel.'
+  - act: National Aeronautics and Space Act of 1958
+    date: '1958-07-29'
+    effective: '1958-10-01'
+    tags: [reorganizes]
+    cite: 'Pub. L. 85-568, § 301, 72 Stat. 426, 432'
+    usc: '42 U.S.C. § 2471 (1964)'
+    does: The National Advisory Committee for Aeronautics ceases to exist; its functions, powers, property, personnel and records transferred to the Administration.
+n: The Administration began operating Oct. 1, 1958, absorbing the Committee.
+offices:
+  - id: naca-chairman
+    title: Chairman, National Advisory Committee for Aeronautics
+    rank: head
+    appt: PA
+    until: '1958-10-01'
+    n: Elected by the Committee from among its members, who were appointed by the President.
+    holders:
+      - name: Hunsaker, Jerome C.
+        given: Jerome Clarke
+        from: '1941'
+        to: '1956'
+        n: Check both dates.
+        src: [Wikipedia, National Advisory Committee for Aeronautics]
+      - name: Doolittle, James H.
+        given: James Harold
+        rank: Lt. Gen., USAF (ret.)
+        from: '1957'
+        to: '1958-10-01'
+        out: Committee abolished.
+        n: 'Check: the date he took the chair.'
+        src: [Wikipedia, National Advisory Committee for Aeronautics]
+  - id: naca-director
+    title: Director, National Advisory Committee for Aeronautics
+    rank: principal
+    appt: HD
+    until: '1958-10-01'
+    holders:
+      - name: Dryden, Hugh L.
+        given: Hugh Latimer
+        from: '1947'
+        to: '1958-10-01'
+        out: To Deputy Administrator, National Aeronautics and Space Administration.
+        n: Director of Aeronautical Research from 1946, Director from 1947. Check the day.
+        src: [Wikipedia, Hugh Latimer Dryden]
+  - id: administrator
+    title: Administrator of the National Aeronautics and Space Administration
+    rank: head
+    appt: PAS
+    level: II
+    from: '1958-07-29'
+    law:
+      - act: National Aeronautics and Space Act of 1958
+        date: '1958-07-29'
+        tags: [creates, appointment, pay]
+        cite: 'Pub. L. 85-568, § 202(a), (c), 72 Stat. 426, 429'
+        usc: '42 U.S.C. § 2472 (1964)'
+        does: The Administrator appointed from civilian life by the President with the advice and consent of the Senate; $22,500; no other business or employment.
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(b), 78 Stat. 400, 416'
+        usc: '5 U.S.C. § 5313 (1970)'
+        does: The Administrator in level II.
+    holders:
+      - name: Glennan, T. Keith
+        given: Thomas Keith
+        from: '1958-08-19'
+        to: '1961-01-20'
+        out: Resigned.
+        n: Nominated with Dryden; both confirmed promptly and took office Aug. 19, 1958; the Administration began work Oct. 1, 1958.
+        src: [NASA Historical Data Book, I, Wikipedia, T. Keith Glennan, CDIR 1960-01]
+      - name: Dryden, Hugh L.
+        given: Hugh Latimer
+        acting: true
+        from: '1961-01-21'
+        to: '1961-02-14'
+        n: Acting as Deputy Administrator.
+        src: [Wikipedia, Administrator of NASA]
+      - name: Webb, James E.
+        given: James Edwin
+        from: '1961-02-14'
+        to: '1968-10-07'
+        out: Resigned.
+        src: [Wikipedia, James E. Webb, NASA Historical Data Book, IV, CDIR 1961-04 to 1967-12, FRUS persons list]
+      - name: Paine, Thomas O.
+        given: Thomas Otten
+        acting: true
+        from: '1968-10-08'
+        to: '1969-03-21'
+        n: Acting as Deputy Administrator.
+        src: [Wikipedia, Administrator of NASA, CDIR 1969-03]
+      - name: Paine, Thomas O.
+        given: Thomas Otten
+        nominated: '1969-03-05'
+        confirmed: '1969-03-20'
+        from: '1969-03-21'
+        to: '1970-09-15'
+        out: Resigned; to General Electric.
+        src: [Wikipedia, Thomas O. Paine, NASA Historical Data Book, IV, CDIR 1969-12]
+      - name: Low, George M.
+        given: George Michael
+        acting: true
+        from: '1970-09-16'
+        to: '1971-04-26'
+        n: Acting as Deputy Administrator.
+        src: [Wikipedia, Administrator of NASA, NASA Historical Data Book, IV]
+      - name: Fletcher, James C.
+        given: James Chipman
+        from: '1971-04-27'
+        to: '1977-05-01'
+        src: [Wikipedia, James C. Fletcher, NASA Historical Data Book, IV, CDIR 1971-12 to 1973-12]
+  - id: deputy-administrator
+    title: Deputy Administrator of the National Aeronautics and Space Administration
+    rank: principal
+    appt: PAS
+    level: III
+    from: '1958-07-29'
+    law:
+      - act: National Aeronautics and Space Act of 1958
+        date: '1958-07-29'
+        tags: [creates, appointment, vacancy, pay]
+        cite: 'Pub. L. 85-568, § 202(b), 72 Stat. 426, 429'
+        usc: '42 U.S.C. § 2472 (1964)'
+        does: A Deputy Administrator appointed from civilian life by the President with the advice and consent of the Senate; $21,500; duties as the Administrator prescribes; acts for the Administrator in his absence or disability.
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(c), 78 Stat. 400, 417'
+        usc: '5 U.S.C. § 5314 (1970)'
+        does: The Deputy Administrator in level III.
+    holders:
+      - name: Dryden, Hugh L.
+        given: Hugh Latimer
+        from: '1958-08-19'
+        to: '1965-12-02'
+        out: Died.
+        src: [Wikipedia, Deputy Administrator of NASA, NASA Historical Data Book, I, CDIR 1960-01 to 1966-01, FRUS persons list]
+      - name: Seamans, Robert C., Jr.
+        given: Robert Channing
+        from: '1965-12-21'
+        to: '1968-01-05'
+        out: Resigned.
+        n: Associate Administrator at the same time, to Oct. 1967.
+        src: [Wikipedia, Deputy Administrator of NASA, CDIR 1967-02, 1967-12]
+      - name: Paine, Thomas O.
+        given: Thomas Otten
+        from: '1968-03-25'
+        to: '1969-03-20'
+        out: To Administrator.
+        n: Wikipedia (Thomas O. Paine) has him appointed Jan. 31, 1968. Acting Administrator from Oct. 8, 1968.
+        src: [Wikipedia, Deputy Administrator of NASA, NASA Historical Data Book, IV]
+      - name: Low, George M.
+        given: George Michael
+        from: '1969-12-03'
+        to: '1976-06-05'
+        n: Office vacant, Mar. 1969–Dec. 3, 1969. Acting Administrator, Sept. 16, 1970–Apr. 26, 1971.
+        src: [Wikipedia, George Low, NASA Historical Data Book, IV, CDIR 1971-12 to 1973-12]
+  - id: associate-administrator
+    title: Associate Administrator
+    rank: principal
+    appt: HD
+    level: IV
+    from: '1959'
+    n: The general manager of the Administration, over the program offices and the field centers.
+    law:
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(d), 78 Stat. 400, 417'
+        usc: '5 U.S.C. § 5315 (1970)'
+        does: The Associate Administrator in level IV.
+    holders:
+      - name: Horner, Richard E.
+        from: '1959-06'
+        to: '1960-07'
+        src: [NASA Historical Data Book, IV, CDIR 1960-01]
+      - name: Seamans, Robert C., Jr.
+        given: Robert Channing
+        from: '1960-09'
+        to: '1967-10'
+        src: [NASA Historical Data Book, IV, CDIR 1962-01 to 1967-02]
+      - name: Newell, Homer E., Jr.
+        given: Homer Edward
+        from: '1967-10'
+        to: '1973-12'
+        src: [NASA Historical Data Book, IV, CDIR 1967-12 to 1973-12]
+      - name: Petrone, Rocco A.
+        from: '1974-03'
+        to: '1975-04'
+        src: [NASA Historical Data Book, IV]
+  - id: manned-space-flight
+    title: Director of Space Flight Development
+    titles:
+      - title: Director of Space Flight Programs
+        from: '1960'
+      - title: Director of Manned Space Flight
+        from: '1961-11'
+      - title: Associate Administrator for Manned Space Flight
+        from: '1963-09-01'
+    rank: inferior
+    appt: HD
+    level: V
+    group: Program offices
+    from: '1958-10'
+    n: Head of the program office for manned flight (Mercury, Gemini, Apollo, Skylab, the Shuttle). Before Nov. 1961 the office of space flight development also held the unmanned programs.
+    law:
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(e), 78 Stat. 400, 419'
+        usc: '5 U.S.C. § 5316 (1970)'
+        does: The Associate Administrator for Manned Space Flight in level V.
+    holders:
+      - name: Silverstein, Abe
+        from: '1958-10'
+        to: '1961-11'
+        out: To Director, Lewis Research Center.
+        n: Check both dates.
+        src: [NASA Historical Data Book, II]
+      - name: Holmes, D. Brainerd
+        given: Dyer Brainerd
+        from: '1961-11'
+        to: '1963-08'
+        out: Resigned; to Raytheon.
+        src: [NASA Historical Data Book, II, Wikipedia, D. Brainerd Holmes]
+      - name: Mueller, George E.
+        given: George Edwin
+        from: '1963-09-01'
+        to: '1969-12-10'
+        out: Resigned.
+        src: [NASA Historical Data Book, II, Wikipedia, George Mueller (engineer)]
+      - name: Myers, Dale D.
+        from: '1970-01'
+        to: '1974-03'
+        out: Resigned; to Rockwell International.
+        src: [NASA Historical Data Book, III]
+      - name: Schneider, William C.
+        acting: true
+        from: '1974-03'
+        to: '1974-05'
+        src: [NASA Historical Data Book, III]
+      - name: Yardley, John F.
+        from: '1974-05'
+        src: [NASA Historical Data Book, III]

@@ -1,0 +1,652 @@
+# The Joint Chiefs of Staff and the Joint Staff, 1953-74. Kept by hand.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: jcs
+name: Joint Chiefs of Staff
+under: defense
+order: 10
+law:
+  - act: National Security Act of 1947
+    date: '1947-07-26'
+    until: '1956-08-10'
+    tags: [creates, powers]
+    cite: ch. 343, § 211, 61 Stat. 495, 505
+    usc: 5 U.S.C. § 171f (1952)
+    does: 'Establishes the Joint Chiefs of Staff: the Chief of Staff, U.S. Army; the Chief of Naval Operations; the Chief of Staff, U.S. Air Force. Principal military advisers to the President and the Secretary of Defense. Strategic plans; joint logistic plans; unified commands in strategic areas; joint training.'
+  - act: National Security Act Amendments of 1949
+    date: '1949-08-10'
+    until: '1956-08-10'
+    tags: [reorganizes, powers]
+    cite: ch. 412, § 7(b), 63 Stat. 578, 581
+    usc: 5 U.S.C. § 171f (1952)
+    does: 'The Joint Chiefs of Staff within the Department of Defense: the Chairman, presiding, without vote, and the three chiefs. Principal military advisers to the President, the National Security Council, and the Secretary of Defense. Duties restated.'
+  - act: Title 10, United States Code, enacted
+    date: '1956-08-10'
+    tags: [creates, powers]
+    cite: ch. 1041, 70A Stat. 1, 6
+    usc: 10 U.S.C. §§ 141–143 (1958)
+    does: 'Restates the law of the Joint Chiefs of Staff: composition, the Chairman, the Joint Staff, duties (§§ 141–143); the Commandant''s place on Marine Corps matters (§ 141(c)).'
+  - act: Department of Defense Reorganization Act of 1958
+    date: '1958-08-06'
+    tags: [powers]
+    cite: Pub. L. 85-599, § 3(a), 72 Stat. 514, 516
+    usc: 5 U.S.C. § 171a(c)(8) (1958)
+    does: A member of the Joint Chiefs of Staff may present recommendations to Congress on his own initiative, after first informing the Secretary of Defense. Unified and specified commands under the President through the Secretary; the Joint Chiefs advise.
+n: 'Members: the Chairman; the Chief of Staff, U.S. Army; the Chief of Naval Operations; the Chief of Staff, U.S. Air Force; and, for matters directly concerning the Marine Corps, the Commandant of the Marine Corps (a full member only from 1978). Each chief is appointed to his post by the President, by and with the advice and consent of the Senate. Dates: the JCS History Office''s table of members (taking office and leaving), with Wikipedia''s lists; where they differ the JCS date is given and the holder''s note says so. Nomination and confirmation dates for most of the chiefs not yet found (Senate Executive Journal): Check.'
+offices:
+  - id: chairman
+    title: Chairman of the Joint Chiefs of Staff
+    rank: military
+    appt: MIL
+    law:
+      - act: National Security Act Amendments of 1949
+        date: '1949-08-10'
+        until: '1956-08-10'
+        tags: [creates, appointment, pay, powers]
+        cite: ch. 412, § 7(b), 63 Stat. 578, 582
+        usc: 5 U.S.C. § 171f(c)–(e) (1952)
+        does: 'Creates the Chairman: appointed by the President, by and with the advice and consent of the Senate, from the Regular officers, to serve at the President''s pleasure for two years, eligible for one reappointment except in a war declared by Congress. Presides; no vote; no command over the Joint Chiefs or the services; pay of the Chief of Staff of the Army; precedence over all other officers.'
+      - act: Title 10, United States Code, enacted
+        date: '1956-08-10'
+        tags: [appointment, powers]
+        cite: ch. 1041, 70A Stat. 1, 6
+        usc: 10 U.S.C. § 142 (1958)
+        does: 'The Chairman: appointment, two-year term, one reappointment in peace; duties; precedence.'
+      - act: Department of Defense Reorganization Act of 1958
+        date: '1958-08-06'
+        tags: [powers]
+        cite: Pub. L. 85-599, § 7, 72 Stat. 514, 519
+        usc: 10 U.S.C. §§ 141–143 (1958)
+        does: 'Strikes "who has no vote": the Chairman a voting member of the Joint Chiefs of Staff. The Chairman manages the Joint Staff and its Director on behalf of the Joint Chiefs.'
+    n: Appointed by the President, by and with the advice and consent of the Senate (10 U.S.C. § 142), for two-year terms.
+    holders:
+      - name: Bradley, Omar N.
+        rank: Gen. of the Army, USA
+        from: '1949-08-16'
+        to: '1953-08-15'
+        out: Term ended.
+        n: The first Chairman. Reappointed 1951. Wikipedia gives Aug. 19, 1949, for taking office.
+        src: &id001
+          - JCS History Office, History of the Unified Command Plan, 1946–1999 (2003), app. IV
+          - Wikipedia
+      - name: Radford, Arthur W.
+        rank: Adm., USN
+        from: '1953-08-15'
+        to: '1957-08-15'
+        out: Retired.
+        n: Named May 1953, from Commander in Chief, Pacific. Reappointed 1955.
+        src: *id001
+      - name: Twining, Nathan F.
+        rank: Gen., USAF
+        from: '1957-08-15'
+        to: '1960-09-30'
+        out: Retired.
+        n: Special assistant to the Secretary of Defense, July 1–Aug. 15, 1957; sworn as Chairman Aug. 15. Reappointed 1959.
+        src: *id001
+      - name: Lemnitzer, Lyman L.
+        rank: Gen., USA
+        from: '1960-10-01'
+        to: '1962-09-30'
+        out: Not reappointed; to Supreme Allied Commander, Europe.
+        n: From Chief of Staff of the Army.
+        src: *id001
+      - name: Taylor, Maxwell D.
+        rank: Gen., USA
+        from: '1962-10-01'
+        to: '1964-07-01'
+        out: To Ambassador to South Vietnam.
+        n: Retired 1959; recalled to active duty July 1, 1961, as Military Representative of the President. Sworn as Chairman by the President, Oct. 1, 1962 (APP).
+        src:
+          - JCS History Office, History of the Unified Command Plan, 1946–1999 (2003), app. IV
+          - Wikipedia
+          - https://www.presidency.ucsb.edu/documents/remarks-the-swearing-gen-maxwell-d-taylor-chairman-the-joint-chiefs-staff
+      - name: Wheeler, Earle G.
+        rank: Gen., USA
+        from: '1964-07-03'
+        to: '1970-07-02'
+        out: Retired.
+        n: From Chief of Staff of the Army. Reappointed for two years, 1966; for one year, 1968 and 1969.
+        src: *id001
+      - name: Moorer, Thomas H.
+        rank: Adm., USN
+        from: '1970-07-02'
+        to: '1974-07-01'
+        out: Retired.
+        n: From Chief of Naval Operations. Reappointed 1972.
+        src: *id001
+      - name: Brown, George S.
+        rank: Gen., USAF
+        from: '1974-07-01'
+        to: '1978-06-20'
+        out: Retired, ill.
+        n: From Chief of Staff of the Air Force.
+        src: *id001
+  - id: army-chief
+    title: Chief of Staff, United States Army
+    rank: military
+    appt: MIL
+    law:
+      - act: Army Organization Act of 1950
+        date: '1950-06-28'
+        until: '1956-08-10'
+        tags: [appointment]
+        cite: ch. 383, § 202, 64 Stat. 263, 266
+        does: The Chief of Staff appointed by the President, by and with the advice and consent of the Senate, from the general officers of the Army, at the President's pleasure; no more than four years unless reappointed; the grade of general.
+      - act: Title 10, United States Code, enacted
+        date: '1956-08-10'
+        tags: [appointment, powers]
+        cite: ch. 1041, 70A Stat. 1, 162
+        usc: 10 U.S.C. § 3034 (1958)
+        does: 'The Chief of Staff: appointment for four years, at the President''s pleasure; duties under the Secretary of the Army.'
+      - act: Act of June 5, 1967 (Armed Forces appropriation authorization, 1968), title IV
+        date: '1967-06-05'
+        effective: '1969-01-01'
+        tags: [appointment]
+        cite: Pub. L. 90-22, § 401, 81 Stat. 52, 53
+        usc: 10 U.S.C. § 3034(a) (1970)
+        does: A term of four years; reappointment for not more than four years only in a war or national emergency declared by Congress after Dec. 31, 1968.
+    n: Appointed by the President, by and with the advice and consent of the Senate (10 U.S.C. § 3034).
+    holders:
+      - name: Collins, J. Lawton
+        rank: Gen., USA
+        from: '1949-08-16'
+        to: '1953-08-15'
+        out: Term ended.
+        n: Wikipedia gives Aug. 14, 1953, for leaving.
+        src: *id001
+      - name: Ridgway, Matthew B.
+        rank: Gen., USA
+        from: '1953-08-15'
+        to: '1955-06-30'
+        out: Retired.
+        n: From Supreme Allied Commander, Europe; the President's letter on his nomination, May 1953 (APP).
+        src:
+          - JCS History Office, History of the Unified Command Plan, 1946–1999 (2003), app. IV
+          - Wikipedia
+          - https://www.presidency.ucsb.edu/documents/letter-general-ridgway-supreme-allied-commander-europe-regarding-his-nomination-chief-staff
+      - name: Taylor, Maxwell D.
+        rank: Gen., USA
+        from: '1955-06-30'
+        to: '1959-07-01'
+        out: Retired.
+        n: From Commander in Chief, Far East. Wikipedia gives June 30, 1959, for leaving.
+        src: *id001
+      - name: Lemnitzer, Lyman L.
+        rank: Gen., USA
+        from: '1959-07-01'
+        to: '1960-09-30'
+        out: To Chairman of the Joint Chiefs of Staff.
+        n: From Vice Chief of Staff.
+        src: *id001
+      - name: Decker, George H.
+        rank: Gen., USA
+        from: '1960-10-01'
+        to: '1962-09-30'
+        out: Retired.
+        n: From Vice Chief of Staff.
+        src: *id001
+      - name: Wheeler, Earle G.
+        rank: Gen., USA
+        from: '1962-10-01'
+        to: '1964-07-02'
+        out: To Chairman of the Joint Chiefs of Staff.
+        n: From Deputy Commander in Chief, U.S. European Command.
+        src: *id001
+      - name: Johnson, Harold K.
+        rank: Gen., USA
+        from: '1964-07-03'
+        to: '1968-07-02'
+        out: Retired.
+        n: From Deputy Chief of Staff for Military Operations.
+        src: *id001
+      - name: Westmoreland, William C.
+        rank: Gen., USA
+        from: '1968-07-03'
+        to: '1972-06-30'
+        out: Retired.
+        n: From Commander, U.S. Military Assistance Command, Vietnam.
+        src: *id001
+      - name: Palmer, Bruce, Jr.
+        rank: Gen., USA
+        acting: true
+        from: '1972-07-01'
+        to: '1972-10-11'
+        out: Abrams sworn.
+        n: Vice Chief of Staff, acting while Abrams's nomination was before the Senate.
+        src: *id001
+      - name: Abrams, Creighton W.
+        rank: Gen., USA
+        from: '1972-10-12'
+        to: '1974-09-04'
+        out: Died.
+        n: 'Named June 1972, from Commander, U.S. Military Assistance Command, Vietnam; Senate action held over to October. Check: dates of nomination and confirmation. Weyand acting, Sept. 4–Oct. 2, 1974.'
+        src: *id001
+  - id: cno
+    title: Chief of Naval Operations
+    rank: military
+    appt: MIL
+    law:
+      - act: Naval Appropriation Act of 1915
+        date: '1915-03-03'
+        tags: [creates, appointment]
+        cite: ch. 83, 38 Stat. 928, 929
+        does: 'Creates the Chief of Naval Operations: an officer of the line not below captain, appointed by the President, by and with the advice and consent of the Senate, for four years; charged under the Secretary with the operations of the fleet and the preparation of war plans.'
+      - act: Title 10, United States Code, enacted
+        date: '1956-08-10'
+        tags: [appointment, powers]
+        cite: ch. 1041, 70A Stat. 1, 281
+        usc: 10 U.S.C. § 5081 (1958)
+        does: 'The Chief of Naval Operations: appointed by the President, by and with the advice and consent of the Senate, at his pleasure, for two years, from officers of the line eligible to command at sea and not below rear admiral; duties under the Secretary of the Navy.'
+      - act: Act of June 5, 1967 (Armed Forces appropriation authorization, 1968), title IV
+        date: '1967-06-05'
+        effective: '1969-01-01'
+        tags: [appointment]
+        cite: Pub. L. 90-22, § 402, 81 Stat. 52, 53
+        usc: 10 U.S.C. § 5081(a) (1970)
+        does: A term of four years; reappointment for not more than four years only in a war or national emergency declared by Congress after Dec. 31, 1968.
+    n: 'Appointed by the President, by and with the advice and consent of the Senate (10 U.S.C. § 5081): two-year terms to 1969, four-year thereafter.'
+    holders:
+      - name: Fechteler, William M.
+        rank: Adm., USN
+        from: '1951-08-16'
+        to: '1953-08-16'
+        out: To Commander in Chief, Allied Forces, Southern Europe.
+        n: Wikipedia gives Aug. 17, 1953, for leaving.
+        src: *id001
+      - name: Carney, Robert B.
+        rank: Adm., USN
+        from: '1953-08-17'
+        to: '1955-08-17'
+        out: Retired.
+        n: From Commander in Chief, Allied Forces, Southern Europe; the President's letter on his nomination, May 1953 (APP).
+        src:
+          - JCS History Office, History of the Unified Command Plan, 1946–1999 (2003), app. IV
+          - Wikipedia
+          - https://www.presidency.ucsb.edu/documents/letter-admiral-carney-regarding-his-nomination-chief-naval-operations
+      - name: Burke, Arleigh A.
+        rank: Adm., USN
+        from: '1955-08-17'
+        to: '1961-08-01'
+        out: Retired.
+        n: Reappointed 1957 and 1959.
+        src: *id001
+      - name: Anderson, George W., Jr.
+        rank: Adm., USN
+        from: '1961-08-01'
+        to: '1963-08-01'
+        out: Not reappointed; to Ambassador to Portugal.
+        n: From Commander, Sixth Fleet.
+        src: *id001
+      - name: McDonald, David L.
+        rank: Adm., USN
+        from: '1963-08-01'
+        to: '1967-08-01'
+        out: Retired.
+        n: From Commander in Chief, U.S. Naval Forces, Europe.
+        src: *id001
+      - name: Moorer, Thomas H.
+        rank: Adm., USN
+        from: '1967-08-01'
+        to: '1970-07-01'
+        out: To Chairman of the Joint Chiefs of Staff.
+        n: From Commander in Chief, Atlantic.
+        src: *id001
+      - name: Zumwalt, Elmo R., Jr.
+        rank: Adm., USN
+        from: '1970-07-01'
+        to: '1974-07-01'
+        out: Retired.
+        n: 'Nominated Apr. 1970, from Commander, Naval Forces, Vietnam. Check: day of nomination. Wikipedia gives June 29, 1974, for leaving.'
+        src: *id001
+      - name: Holloway, James L., III
+        rank: Adm., USN
+        from: '1974-07-01'
+        to: '1978-07-01'
+        out: Retired.
+        n: From Vice Chief of Naval Operations. Wikipedia gives June 29, 1974.
+        src: *id001
+  - id: air-force-chief
+    title: Chief of Staff, United States Air Force
+    rank: military
+    appt: MIL
+    law:
+      - act: Air Force Organization Act of 1951
+        date: '1951-09-19'
+        until: '1956-08-10'
+        tags: [appointment]
+        cite: ch. 407, § 202, 65 Stat. 326, 328
+        does: The Chief of Staff appointed by the President, by and with the advice and consent of the Senate, from the general officers of the Air Force, at the President's pleasure; no more than four years unless reappointed; the grade of general.
+      - act: Title 10, United States Code, enacted
+        date: '1956-08-10'
+        tags: [appointment, powers]
+        cite: ch. 1041, 70A Stat. 1, 492
+        usc: 10 U.S.C. § 8034 (1958)
+        does: 'The Chief of Staff: appointment for four years, at the President''s pleasure; duties under the Secretary of the Air Force.'
+      - act: Act of June 5, 1967 (Armed Forces appropriation authorization, 1968), title IV
+        date: '1967-06-05'
+        effective: '1969-01-01'
+        tags: [appointment]
+        cite: Pub. L. 90-22, § 403, 81 Stat. 52, 53
+        usc: 10 U.S.C. § 8034(a) (1970)
+        does: A term of four years; reappointment for not more than four years only in a war or national emergency declared by Congress after Dec. 31, 1968.
+    n: Appointed by the President, by and with the advice and consent of the Senate (10 U.S.C. § 8034).
+    holders:
+      - name: Vandenberg, Hoyt S.
+        rank: Gen., USAF
+        from: '1948-04-30'
+        to: '1953-06-30'
+        out: Retired.
+        src: *id001
+      - name: Twining, Nathan F.
+        rank: Gen., USAF
+        from: '1953-06-30'
+        to: '1957-06-30'
+        out: To Chairman of the Joint Chiefs of Staff.
+        n: From Vice Chief of Staff.
+        src: *id001
+      - name: White, Thomas D.
+        rank: Gen., USAF
+        from: '1957-07-01'
+        to: '1961-06-30'
+        out: Retired.
+        n: From Vice Chief of Staff.
+        src: *id001
+      - name: LeMay, Curtis E.
+        rank: Gen., USAF
+        from: '1961-06-30'
+        to: '1965-01-31'
+        out: Retired.
+        n: From Vice Chief of Staff. Sworn at the White House, June 30, 1961 (APP).
+        src:
+          - JCS History Office, History of the Unified Command Plan, 1946–1999 (2003), app. IV
+          - Wikipedia
+          - https://www.presidency.ucsb.edu/documents/remarks-the-swearing-general-curtis-lemay-chief-staff-us-air-force
+      - name: McConnell, John P.
+        rank: Gen., USAF
+        from: '1965-02-01'
+        to: '1969-07-31'
+        out: Retired.
+        n: From Vice Chief of Staff. The JCS table gives Aug. 1, 1969, for leaving.
+        src: *id001
+      - name: Ryan, John D.
+        rank: Gen., USAF
+        from: '1969-08-01'
+        to: '1973-07-31'
+        out: Retired.
+        n: From Vice Chief of Staff.
+        src: *id001
+      - name: Brown, George S.
+        rank: Gen., USAF
+        from: '1973-08-01'
+        to: '1974-06-30'
+        out: To Chairman of the Joint Chiefs of Staff.
+        n: From Commander, Air Force Systems Command.
+        src: *id001
+      - name: Jones, David C.
+        rank: Gen., USAF
+        from: '1974-07-01'
+        to: '1978-06-20'
+        out: To Chairman of the Joint Chiefs of Staff.
+        n: From Commander in Chief, U.S. Air Forces in Europe.
+        src: *id001
+  - id: commandant
+    title: Commandant of the Marine Corps
+    rank: military
+    appt: MIL
+    law:
+      - act: Act of June 28, 1952 (Marine Corps strength; the Commandant and the Joint Chiefs)
+        date: '1952-06-28'
+        until: '1956-08-10'
+        tags: [powers]
+        cite: Pub. L. 82-416, ch. 479, § 2, 66 Stat. 282, 283
+        usc: 5 U.S.C. § 171f (1952)
+        does: The Commandant indicates to the Chairman any matter before the Joint Chiefs of Staff directly concerning the Marine Corps; unless the Secretary of Defense determines otherwise, he meets with them on it, with co-equal status.
+      - act: Title 10, United States Code, enacted
+        date: '1956-08-10'
+        tags: [appointment, powers]
+        cite: ch. 1041, 70A Stat. 1, 292
+        usc:
+          - 10 U.S.C. § 5201 (1958)
+          - 10 U.S.C. § 141(c) (1958)
+        does: The Commandant appointed by the President, by and with the advice and consent of the Senate, for four years, from officers of the Marine Corps not below colonel; duties under the Secretary of the Navy; his place with the Joint Chiefs (§ 141(c)).
+      - act: Act of June 5, 1967 (Armed Forces appropriation authorization, 1968), title IV
+        date: '1967-06-05'
+        effective: '1969-01-01'
+        tags: [appointment]
+        cite: Pub. L. 90-22, § 404, 81 Stat. 52, 54
+        usc: 10 U.S.C. § 5201(a) (1970)
+        does: A term of four years, at the President's pleasure; reappointment for not more than four years only in a war or national emergency declared by Congress after Dec. 31, 1968.
+    n: Head of the Marine Corps, in the Department of the Navy; his staff and commands are in the Marine Corps unit. Appointed by the President, by and with the advice and consent of the Senate (10 U.S.C. § 5201). A member of the Joint Chiefs of Staff only for matters directly concerning the Marine Corps (1952); a full member from 1978.
+    holders:
+      - name: Shepherd, Lemuel C., Jr.
+        rank: Gen., USMC
+        from: '1952-01-01'
+        to: '1955-12-31'
+        out: Retired.
+        src: &id002
+          - 'Wikipedia: Commandant of the United States Marine Corps'
+      - name: Pate, Randolph M.
+        rank: Gen., USMC
+        from: '1956-01-01'
+        to: '1959-12-31'
+        out: Retired.
+        n: From Assistant Commandant.
+        src: *id002
+      - name: Shoup, David M.
+        rank: Gen., USMC
+        from: '1960-01-01'
+        to: '1963-12-31'
+        out: Retired.
+        n: Named while a major general.
+        src: *id002
+      - name: Greene, Wallace M., Jr.
+        rank: Gen., USMC
+        from: '1964-01-01'
+        to: '1967-12-31'
+        out: Retired.
+        n: From Chief of Staff, Headquarters, Marine Corps.
+        src: *id002
+      - name: Chapman, Leonard F., Jr.
+        rank: Gen., USMC
+        nominated: '1967-12-04'
+        confirmed: '1967-12-13'
+        from: '1968-01-01'
+        to: '1971-12-31'
+        out: Retired.
+        n: From Assistant Commandant.
+        src:
+          - 'Wikipedia: Commandant of the United States Marine Corps'
+          - 'Wikipedia: Leonard F. Chapman Jr.'
+      - name: Cushman, Robert E., Jr.
+        rank: Gen., USMC
+        from: '1972-01-01'
+        to: '1975-06-30'
+        out: Retired.
+        n: From Deputy Director of Central Intelligence.
+        src: *id002
+  - id: director-joint-staff
+    title: Director, Joint Staff
+    rank: military
+    appt: MIL
+    under: chairman
+    law:
+      - act: National Security Act Amendments of 1949
+        date: '1949-08-10'
+        until: '1956-08-10'
+        tags: [creates, appointment]
+        cite: ch. 412, § 7(c), 63 Stat. 578, 582
+        usc: 5 U.S.C. § 171g (1952)
+        does: A Joint Staff under the Joint Chiefs of not over 210 officers, in about equal numbers from the three services, operating under a Director appointed by the Joint Chiefs; the Director junior in grade to every member.
+      - act: Reorganization Plan No. 6 of 1953
+        date: '1953-06-30'
+        tags: [appointment, reorganizes]
+        cite: 67 Stat. 638
+        usc: 5 U.S.C. § 171 note (1958)
+        does: The Director's selection by the Joint Chiefs, and his tenure, subject to the approval of the Secretary of Defense; the selection of members subject to the Chairman's; management of the Joint Staff and its Director transferred to the Chairman.
+      - act: Department of Defense Reorganization Act of 1958
+        date: '1958-08-06'
+        tags: [appointment, powers]
+        cite: Pub. L. 85-599, § 5(a), 72 Stat. 514, 517
+        usc: 10 U.S.C. § 143 (1958)
+        does: The Joint Staff of not over 400 officers; the Chairman, in consultation with the Joint Chiefs and with the Secretary's approval, selects the Director, who serves no more than three years; not to operate as an overall Armed Forces general staff.
+    n: Selected by the Joint Chiefs (from 1958 by the Chairman), with the approval of the Secretary of Defense; no Senate confirmation of the post.
+    holders:
+      - name: Cabell, Charles P.
+        rank: Lt. Gen., USAF
+        from: '1951-11-02'
+        to: '1953-04-23'
+        out: To Deputy Director of Central Intelligence.
+        src: &id003
+          - 'Wikipedia: Director of the Joint Staff'
+      - name: Everest, Frank F.
+        rank: Lt. Gen., USAF
+        from: '1953-04-24'
+        to: '1954-03-18'
+        src: *id003
+      - name: Mathewson, Lemuel
+        rank: Lt. Gen., USA
+        from: '1954-03-19'
+        to: '1956-03-14'
+        src: *id003
+      - name: Austin, Bernard L.
+        rank: Vice Adm., USN
+        from: '1956-03-15'
+        to: '1958-03-31'
+        src: *id003
+      - name: Picher, Oliver S.
+        rank: Lt. Gen., USAF
+        from: '1958-04-01'
+        to: '1960-03-31'
+        src: *id003
+      - name: Wheeler, Earle G.
+        rank: Lt. Gen., USA
+        from: '1960-04-01'
+        to: '1962-02-24'
+        out: To Deputy Commander in Chief, U.S. European Command.
+        n: In office Apr. 1, 1961 (CDIR).
+        src:
+          - 'Wikipedia: Director of the Joint Staff'
+          - CDIR 1961-04
+      - name: Riley, Herbert D.
+        rank: Vice Adm., USN
+        from: '1962-02-25'
+        to: '1964-02-23'
+        n: 'From Chief of Staff to the Commander in Chief, Pacific. FRUS: Director from Feb. 25, 1962.'
+        src:
+          - 'Wikipedia: Director of the Joint Staff'
+          - FRUS persons list
+      - name: Burchinal, David A.
+        rank: Lt. Gen., USAF
+        from: '1964-02-24'
+        to: '1966-07-31'
+        src: *id003
+      - name: Goodpaster, Andrew J.
+        rank: Lt. Gen., USA
+        from: '1966-08-01'
+        to: '1967-03-31'
+        out: To Commandant, National War College.
+        src: *id003
+      - name: Spivy, Berton E., Jr.
+        rank: Lt. Gen., USA
+        from: '1967-04-01'
+        to: '1968-07-31'
+        src: *id003
+      - name: Johnson, Nels C.
+        rank: Vice Adm., USN
+        from: '1968-08-01'
+        to: '1970-07-19'
+        src: *id003
+      - name: Vogt, John W., Jr.
+        rank: Lt. Gen., USAF
+        from: '1970-07-20'
+        to: '1972-04-07'
+        out: Promoted general; to Vietnam (Seventh Air Force).
+        src: *id003
+      - name: Freeman, Mason B.
+        rank: Rear Adm., USN
+        acting: true
+        from: '1972-04-08'
+        to: '1972-06-11'
+        src: *id003
+      - name: Seignious, George M., II
+        rank: Lt. Gen., USA
+        from: '1972-06-12'
+        to: '1974-05-31'
+        src: *id003
+      - name: Sitton, Ray B.
+        rank: Lt. Gen., USAF
+        from: 1974-06
+        n: 'Check: date of taking office; Wikipedia''s list ends with Seignious.'
+        src:
+          - Wikipedia
+  - id: chairman-staff
+    title: Assistants to the Chairman
+    rank: military
+    appt: MIL
+    under: chairman
+    many: true
+    n: Officers on the Chairman's personal staff named in the series' sources. Not a complete list.
+    holders:
+      - name: Goodpaster, Andrew J.
+        rank: Maj. Gen., USA
+        title: Special Assistant to the Chairman
+        from: '1962'
+        to: 1966-07
+        out: To Director, Joint Staff.
+        n: 'Special Assistant to the Chairman (FRUS). Check: dates.'
+        src:
+          - FRUS persons list
+          - 'Wikipedia: Andrew J. Goodpaster'
+      - name: Twitchell, H. A.
+        rank: Brig. Gen., USA
+        title: Office of the Chairman
+        from: 1962-09
+        n: 'Office of the Chairman, Joint Chiefs of Staff, Sept. 19, 1962 (FRUS 1961–63, XVIII, doc. 44, Tehran). Check: title and dates.'
+        src:
+          - FRUS 1961–63, XVIII, doc. 44
+      - name: Pauly, John W.
+        rank: Lt. Gen., USAF
+        title: Assistant to the Chairman
+        from: 1974-07
+        to: 1975-09
+        n: 'FRUS: Assistant to the Chairman, July 1974–Sept. 1975.'
+        src:
+          - FRUS persons list
+  - id: sacsa
+    title: Special Assistant for Counterinsurgency and Special Activities
+    rank: military
+    appt: MIL
+    under: director-joint-staff
+    from: 1962-02
+    n: In the Joint Staff (SACSA), from Feb. 1962. Later holders not yet entered.
+    holders:
+      - name: Krulak, Victor H.
+        rank: Maj. Gen., USMC
+        from: 1962-02
+        to: 1964-01
+        out: To Commanding General, Fleet Marine Force, Pacific.
+        n: 'Also JCS representative on the Task Force on Southeast Asia; chairman, Committee on Cuban Subversion, from Feb. 27, 1963 (FRUS). Check: days.'
+        src:
+          - FRUS persons list
+          - 'Wikipedia: Victor H. Krulak'
+      - name: Anthis, Rollen H.
+        rank: Maj. Gen., USAF
+        from: 1964-02
+        to: '1966'
+        n: 'Check: dates.'
+        src:
+          - Wikipedia
+      - name: Peers, William R.
+        rank: Maj. Gen., USA
+        from: '1966'
+        to: 1967-01
+        out: To Commanding General, 4th Infantry Division.
+        n: 'Check: dates.'
+        src:
+          - 'Wikipedia: William R. Peers'
+      - name: DePuy, William E.
+        rank: Maj. Gen., USA
+        from: 1967-02
+        to: '1969'
+        n: 'Check: dates.'
+        src:
+          - Wikipedia
