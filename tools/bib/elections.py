@@ -11,9 +11,12 @@ Definitions (STYLE, settled):
     the race (50-45-5 is 5 votes and 5.0 pts). Where several were elected at large, the margin is
     between the last winner and the first loser. The two-party share serves only for swing.
  3. Margin (maps): the winner's margin over the runner-up (note 2), in points of all the votes, in the
-    winner's color, continuous, not in steps: one diverging scale, Republican red through white at a tie
-    to Democratic blue, darkest at 40 points or more (the unopposed count as 100); mixed in OKLab (MARGIN
-    in templates/congress.html). A winner of neither major party takes the color of the party
+    winner's color, continuous, not in steps, on Kovesi's perceptually uniform diverging maps (CET-D1;
+    CET-D4 in dark mode), Republican red through the light middle at a tie to Democratic blue. Quantile
+    rule: a margin's position on the ramp is the share of the 2,291 contested races for presidential
+    electors, 1824-2024, decided by less (elections/pres-margins.csv; QM in templates/congress.html): 5
+    points about a fifth of the way, 14 (the median) half, 41 nine-tenths; the unopposed count as 100. The
+    same table for the House and Senate, so a shade means the same margin on every map. A winner of neither major party takes the color of the party
     caucused with. A shape shared by several seats of one party takes their mean.
  4. Caucus: a member of neither major party counts with the party caucused with, in the seats won, the
     net change and pickups, and is so labeled: "Conservative, caucusing with the Republicans" (elections/facts.yaml caucus:).
@@ -508,10 +511,11 @@ def block(year, data, view="r"):
 
 
 def margin_scale(third=False):
-    """The margin key: one diverging gradient bar, white at a tie, darkest at 40 points or more each way
-    (MARGIN in the template); a third ticket's bar beside it."""
-    out = ('<span class="lt">40 or more Republican</span><span class="gr gS"></span>'
-           '<span class="lt">40 or more Democratic; white at a tie; the unopposed darkest</span>')
+    """The margin key: one diverging gradient bar (Kovesi CET-D1), a tie in the middle, positioned by the
+    quantile rule (STYLE 3); a third ticket's bar beside it."""
+    out = ('<span class="lt">Republican</span><span class="gr gS"></span><span class="lt">Democratic. Lightest at a '
+           'tie; darker by the share of contested elector races since 1824 decided by less: 5 points, a fifth of '
+           'the way; 14, half; 41, nine-tenths; the unopposed darkest.</span>')
     return out + (' <span class="gr gA"></span><span class="lt">third ticket</span>' if third else "")
 
 
