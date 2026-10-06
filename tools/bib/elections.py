@@ -11,8 +11,8 @@ Definitions (STYLE, settled):
     the race (50-45-5 is 5 votes and 5.0 pts). Where several were elected at large, the margin is
     between the last winner and the first loser. The two-party share serves only for swing.
  3. Margin (maps): the winner's margin over the runner-up (note 2), in points of all the votes, in the
-    winner's color, continuous, not in steps, on Kovesi's perceptually uniform diverging maps (CET-D1;
-    CET-D4 in dark mode), Republican red through the light middle at a tie to Democratic blue. Quantile
+    winner's color, continuous, not in steps, on the maps' one diverging scale (note 8), Republican red
+    through near white at a tie to Democratic blue. Quantile
     rule: a margin's position on the ramp is the share of the 2,291 contested races for presidential
     electors, 1824-2024, decided by less (elections/pres-margins.csv; QM in templates/congress.html): 5
     points about a fifth of the way, 14 (the median) half, 41 nine-tenths; the unopposed count as 100. The
@@ -38,9 +38,12 @@ Definitions (STYLE, settled):
     State's House vote. Senate: the seat's last regular election, six years before (1952 and 1954 from
     Wikipedia's percentages, later years from the returns). No swing where either election was unopposed,
     or where the winner ran on neither major party's line.
- 8. Colors: in the result view, held seats light and pickups dark; the swing view, one continuous
-    diverging scale, gray at no swing to the darkest red or blue at 15 points or more (SWING in the
-    template). The keys draw the scales as gradient bars. Every map value is also in the tables and on hover.
+ 8. Colors: one diverging scale for every view, two straight lines in OKLab (uniform by construction)
+    from near white (a dark gray in dark mode) out to a deep red and a deep blue of matched lightness, the
+    most colorful ends whose whole line stays on screen (rW, rR, rB in templates/congress.html; rA, amber,
+    a third ticket). Margin: the quantile rule (note 3). Swing: near white at none, the end at 15 points or
+    more (SWING). Result: fixed points on the lines, held seats 40 percent of the way and pickups 95; the
+    President's winner 75, and with Flips, held 40 and flipped 95. The keys draw the scales as gradient bars. Every map value is also in the tables and on hover.
  9. The Senate by senator: a dot a seat; in an election, the seats at stake, and the others faint, from
     the roster at the opening of the Congress chosen, where there is one.
 10. President: the Clerk's figure for a slate is the highest vote for any of its electors. Slates go to
@@ -511,8 +514,8 @@ def block(year, data, view="r"):
 
 
 def margin_scale(third=False):
-    """The margin key: one diverging gradient bar (Kovesi CET-D1), a tie in the middle, positioned by the
-    quantile rule (STYLE 3); a third ticket's bar beside it."""
+    """The margin key: one diverging gradient bar (STYLE 8), a tie in the middle, positioned by the quantile
+    rule (STYLE 3); a third ticket's bar beside it."""
     out = ('<span class="lt">Republican</span><span class="gr gS"></span><span class="lt">Democratic. Lightest at a '
            'tie; darker by the share of contested elector races since 1824 decided by less: 5 points, a fifth of '
            'the way; 14, half; 41, nine-tenths; the unopposed darkest.</span>')
