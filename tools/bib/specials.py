@@ -67,8 +67,10 @@ def load():
             x["rounds"] = [{"date": str(rd["date"]), "label": rd["label"],
                             "cands": rd["cands"] + ([["Scattering", "", rd["scattering"]]] if rd.get("scattering") else [])}
                            for rd in r["rounds"]]
-            x["source"] = f"{r['source']}, {r['where']}" if r.get("where") else r["source"]
+            x["source"] = r.get("cite") or (f"{r['source']}, {r['where']}" if r.get("where") else r["source"])
             x["state"] = True
+            if x.get("check"):   # Wikipedia's shares no longer stand
+                x["check"] = re.sub(r"\s*The shares in the source add to [\d.]+%\.", "", x["check"]).strip() or None
             if r.get("note"):
                 x["note"] = r["note"]
     return data
@@ -357,9 +359,10 @@ def problems(series=None):
         if not r.get("source"):
             out.append((where, "no source"))
         for rd in r["rounds"]:
-            tot = sum(c[2] for c in rd["cands"]) + (rd.get("scattering") or 0)
-            if rd.get("total") is not None and tot != rd["total"]:
-                out.append((where, f"{rd['label']}: the votes add to {tot:,}, the printed total is {rd['total']:,}"))
+            tot = sum(c[2] for c in rd["cands"])   # a printed total may or may not count the scattering
+            if rd.get("total") is not None and rd["total"] not in (tot, tot + (rd.get("scattering") or 0)):
+                out.append((where, f"{rd['label']}: the votes add to {tot:,} (with scattering "
+                                   f"{tot + (rd.get('scattering') or 0):,}), the printed total is {rd['total']:,}"))
         if not any(surname(c[0]) == surname(byk[k]["winner"]) for c in r["rounds"][-1]["cands"]):
             out.append((where, f"the winner, {byk[k]['winner']}, is not in the last round"))
     out += [("congress/specials.yaml", f"duplicate key {k}") for k, n in keys.items() if n > 1]

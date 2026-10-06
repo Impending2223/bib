@@ -3,12 +3,496 @@
 # cites the publication and page. Where each State's returns are: sources/states.yaml.
 #
 # <key in specials.yaml>:
+#   cite: the short citation shown with the race (publication, date, page)
 #   source: the publication, as titled            where: edition and printed page     url: the copy read
 #   rounds: [{date, label (special primary | special election ...), cands [[name, party, votes]], scattering?, total?}]
 #     earlier first: an open first round (a California special primary), then the deciding one; party
 #     nominating primaries are not rounds (give their dates in note). Parties D, R, or the label printed.
-#   checked: what was checked (sums to the printed total; county figures)   note: shown with the race
+#   checked: what was checked (sums to the printed total; county figures)   note: shown with the race, one line
+#   remarks: the reader's fuller notes (names as printed, vacancy, page finding), not shown
 #   differs_from_wikipedia: shares that differ by more than 0.2 points from specials.yaml (Wikipedia)
-# ./bib check fails on a key not in specials.yaml, a round whose votes do not add to its printed total, or a
-# winner missing from the last round.
-{}
+# ./bib check fails on a key not in specials.yaml, a round whose votes do not add to its printed total (with or
+# without the scattering), or a winner missing from the last round.
+1963-01-22-h-CA-1:
+  cite: California Statement of Vote, Nov. 3, 1964, p. 28
+  source: California, Secretary of State, Statement of Vote, General Election, November 3, 1964, 'Special Elections in 1963 and 1964'
+  where: SFPL bound volume 1962-64, p. 28
+  url: https://archive.org/details/castatem196264cali/page/n177
+  rounds:
+  - date: '1963-01-22'
+    label: special election
+    cands:
+    - [Don Clausen, R, 79292]
+    - [William F. Grader, D, 65339]
+    - [John C. Stuart, D, 1661]
+    scattering: 45
+  checked: 'By county (Del Norte, Humboldt, Marin, Napa, Mendocino, Sonoma): every column''s six county figures sum to the printed Totals row (79,292; 65,339; 1,661; 45). No grand total printed; candidates
+    plus scattering = 146,337.'
+  differs_from_wikipedia: none over 0.2 pts (54.18/44.65/1.14 of all votes; 54.20/44.66/1.14 without scattering)
+  remarks: 'One all-candidate special election, plurality wins; no special primary printed. Vacancy: death of Clem Miller, Oct. 7, 1962, elected Nov. 6, 1962 (footnote). Wikipedia names the winner Donald
+    H. Clausen; the Statement prints DON CLAUSEN.'
+  verified: true
+1963-06-11-h-CA-23:
+  cite: California Statement of Vote, Nov. 3, 1964, p. 28
+  source: California, Secretary of State, Statement of Vote, General Election, November 3, 1964, 'Special Elections in 1963 and 1964'
+  where: SFPL bound volume 1962-64, p. 28
+  url: https://archive.org/details/castatem196264cali/page/n177
+  rounds:
+  - date: '1963-06-11'
+    label: special election
+    cands:
+    - [Del M. Clawson, R, 33042]
+    - [Carley V. Porter, D, 21969]
+    - [Maurice H. Quigley, D, 2915]
+    - [Armand R. Porter, D, 1656]
+    - [James Earle Christo, D, 875]
+    - [Lynn W. Johnston, D, 875]
+    - [Harry L. Butler, R, 396]
+    - [Harold R. (Hal) Bennett, R, 388]
+    scattering: 13
+  checked: 'Los Angeles County only; table by precinct and absentee vote: precinct + absentee = total for every line. No grand total printed; candidates plus scattering = 62,129.'
+  differs_from_wikipedia: Wikipedia omits two Republicans, Harry L. Butler (396, 0.64%) and Harold R. (Hal) Bennett (388, 0.62%), and the scattering (13); that is why its shares add to 98.7%. The six it
+    lists agree within 0.01 pts (Clawson 53.18, C. Porter 35.36, Quigley 4.69, A. Porter 2.67, Christo 1.41, Johnston 1.41).
+  remarks: 'One all-candidate special election, plurality wins (Clawson 53.18%). Vacancy: death of Clyde Doyle, Mar. 14, 1963. Christo and Johnston tied at 875; printed order kept.'
+  verified: true
+1963-10-22-h-ND-1:
+  cite: North Dakota State Board of Canvassers, abstract of the special election, Oct. 22, 1963
+  source: North Dakota, Secretary of State, Statement of the Findings of the State Board of Canvassers, Special Election Held October 22, 1963 (abstract of votes for Representative in Congress, First District)
+  where: single page, abstract by county, certified Nov. 1, 1963
+  url: https://www.sos.nd.gov/sites/default/files/documents/elections/election-results-pdfs/1963-10-22-special.pdf
+  rounds:
+  - date: '1963-10-22'
+    label: special election
+    cands:
+    - [Mark Andrews, R, 47062]
+    - [John Hove, Dem, 42470]
+    - [John W. Scott, Conservative Republican, 5995]
+    - [Thomas W. Dewey, Independent, 337]
+  checked: 'The PDF''s visible page is ABBYY''s rendering of its OCR text layer; the scan underneath is a 1-bit CCITT image of 1.5 KB that holds only rules, so no photographic page image exists to read
+    against. Every column of the 23 county rows sums to the printed TOTAL line (precincts 1,075; total votes cast 96,627; Andrews 47,062; Hove 42,470; Dewey 337; Scott 5,995), so the digits are consistent.
+    The candidates sum to 95,864, not to the printed ''Total Votes Cast'' of 96,627 (ballots cast, it seems): 763 more; in Ramsey County the candidates exceed the total votes cast by 20.'
+  differs_from_wikipedia: Wikipedia leaves out Dewey (Independent, 337, 0.35%). The other three match exactly as shares of the four-candidate vote (Andrews 49.09, Hove 44.30, Scott 6.25). As shares of the
+    printed 96,627 they would be 48.70, 43.95, 6.20.
+  remarks: Column heads print 'MARK ANDREWS Rep', 'JOHN HOVE Dem', 'THOMAS W DEWEY Independent', 'JOHN W SCOTT Conservative Republican'. The printed 'Total Votes Cast', 96,627, is left out of `total` because
+    it is not the sum of the candidates. The State Board of Canvassers certified Andrews of Mapleton as elected.
+  verified: true
+1964-02-18-h-CA-5:
+  cite: California Statement of Vote, Nov. 3, 1964, p. 29
+  source: California, Secretary of State, Statement of Vote, General Election, November 3, 1964, 'Special Elections in 1963 and 1964—Continued'
+  where: SFPL bound volume 1962-64, p. 29
+  url: https://archive.org/details/castatem196264cali/page/n178
+  rounds:
+  - date: '1964-02-18'
+    label: special election
+    cands:
+    - [Phillip Burton, D, 26698]
+    - [Nick A. Verreos, R, 12777]
+    - [Tom Flowers, D, 3841]
+    - [Joe Bortin, D, 3327]
+    - [Edward E. Heavey, D, 1214]
+    - [Al J. Quinn, R, 857]
+    - [Bryant McDonald, R, 784]
+    - [Harry Johns, D, 311]
+    scattering: 41
+  checked: 'San Francisco only; table by precinct and absentee vote: precinct + absentee = total for every line. No grand total printed; candidates plus scattering = 49,850.'
+  differs_from_wikipedia: none over 0.2 pts (Burton 53.56, Verreos 25.63, Flowers 7.71, Bortin 6.67, Heavey 2.44, Quinn 1.72, McDonald 1.57, Johns 0.62)
+  remarks: 'One all-candidate special election, plurality wins. Vacancy: resignation of John F. Shelley, elected Mayor of San Francisco Nov. 5, 1963. Wikipedia spells the Republican ''Nick Verrios''; the
+    Statement prints NICK A. VERREOS.'
+  verified: true
+1965-12-15-h-CA-26:
+  cite: California Statement of Vote, Nov. 8, 1966, p. 5
+  source: 'California, Secretary of State, Statement of Vote, General Election, November 8, 1966 (title page: ''Including: Special Elections 1965-1966''), ''Special Elections in 1965 and 1966'''
+  where: SFPL bound volume 1966-68, p. 5
+  url: https://archive.org/details/californiastate196668cali/page/n50
+  rounds:
+  - date: '1965-11-23'
+    label: special primary
+    cands:
+    - [Thomas M. Rees, D, 21481]
+    - [Leonard Horwin, D, 19612]
+    - [Edward M. Marshall, R, 16088]
+    - [John (Jack) McCulloch, D, 2236]
+    - [Edwin Rosenfeld, D, 750]
+    - [S. B. Carter, D, 399]
+    - [Walter R. "Buck" Buchanan, D, 262]
+    scattering: 56
+  - date: '1965-12-15'
+    label: special election (run-off)
+    cands:
+    - [Thomas M. Rees, D, 40430]
+    - [Edward M. Marshall, R, 27579]
+    scattering: 29
+  checked: 'Los Angeles County only; tables by precinct and absentee vote: precinct + absentee = total for every candidate in both rounds. No grand totals printed (primary 60,884 and run-off 68,038 with
+    scattering). The primary''s scattering figure (56) has a smudge to its left; read as 56, cannot be checked against a total.'
+  differs_from_wikipedia: none over 0.2 pts for the run-off (Rees 59.42, Marshall 40.53; 59.45/40.55 without scattering). Wikipedia gives no primary.
+  note: No majority at the special primary; the leader of each party to the run-off.
+  remarks: 'No majority at the Nov. 23, 1965 special primary (Rees 35.28%); Rees (D) and Marshall (R), top of each party, went to the Dec. 15 run-off. Vacancy: resignation of James Roosevelt, Sept. 30,
+    1965. The sources register says the 1965-66 specials are in the June 7, 1966 Statement; this page is in the Nov. 8, 1966 general Statement.'
+  verified: true
+1966-02-05-h-NC-1:
+  cite: North Carolina Manual, 1967, p. 299
+  source: North Carolina Manual 1967 (Secretary of State), Election Returns, 'Special Election Held February 5, 1966, in First Congressional District for Unexpired Term Ending January 3, 1967'
+  where: North Carolina Manual 1967, p. 299 (archive.org leaf n316)
+  url: https://archive.org/details/northcarolinama1967nort/page/n316
+  rounds:
+  - date: '1966-02-05'
+    label: special election
+    cands:
+    - [Walter B. Jones, D, 21773]
+    - [John P. East, R, 14308]
+  checked: Read on the page image (https://archive.org/download/northcarolinama1967nort/page/n316.jpg), table cropped at full resolution. The fifteen county figures sum to the printed totals for both candidates
+    (21,773; 14,308). No grand total or scattering printed; the two sum to 36,081.
+  differs_from_wikipedia: none over 0.2 pts (Jones 60.34, East 39.66)
+  remarks: 'Same page: the special Democratic primary of Dec. 18, 1965 (Jones, Jackson, Langston, Pittman, Small), a party primary, not a round. The contents list it at p. 298, but it is printed on p. 299.'
+  verified: true
+1966-06-07-h-CA-14:
+  cite: California Statement of Vote, Nov. 8, 1966, p. 5
+  source: 'California, Secretary of State, Statement of Vote, General Election, November 8, 1966 (title page: ''Including: Special Elections 1965-1966''), ''Special Elections in 1965 and 1966'''
+  where: SFPL bound volume 1966-68, p. 5
+  url: https://archive.org/details/californiastate196668cali/page/n50
+  rounds:
+  - date: '1966-06-07'
+    label: special primary
+    cands:
+    - [Jerome R. Waldie, D, 71501]
+    - [Frank J. Newman, R, 43539]
+    - [John A. Richardson, R, 14693]
+    - [Leo Antonio Costa, D, 6012]
+    - [Dooris G. (Duke) Johnston, R, 2298]
+    - [Tallak B. Wralstad, R, 1711]
+    scattering: 72
+    total: 139754
+  checked: 'Contra Costa County only; precinct + absentee = total for every line, and the columns sum to the printed totals (137,106 + 2,648 = 139,754). The printed Total excludes scattering, which is printed
+    under it: ''("Scattering" vote was 72)''.'
+  differs_from_wikipedia: none over 0.2 pts (Waldie 51.16, Newman 31.15, Richardson 10.51, Costa 4.30, Johnston 1.64, Wralstad 1.22)
+  note: A majority at the special primary; elected without a run-off.
+  remarks: 'Waldie had a majority at the special primary and is marked ''(elected)''; no run-off. Held with the June 7, 1966 direct primary. Vacancy: death of John F. Baldwin, Mar. 9, 1966. Names as printed:
+    ''Dooris G. (Duke) Johnston'' (Wikipedia: Doris G. Johnston), ''Tallak B. Wralstad'' (Wikipedia: Talluk B. Wrakstad).'
+  verified: true
+1967-12-12-h-CA-11:
+  cite: California Statement of Vote, Nov. 5, 1968, p. 8
+  source: California, Secretary of State, Statement of Vote, General Election, November 5, 1968, 'Special Elections in 1967-1968'
+  where: SFPL bound volume 1966-68, p. 8
+  url: https://archive.org/details/californiastate196668cali/page/n185
+  rounds:
+  - date: '1967-11-14'
+    label: special primary
+    cands:
+    - ['Paul N. "Pete" McCloskey, Jr.', R, 52882]
+    - [Shirley Temple Black, R, 34521]
+    - [William H. Draper, R, 19566]
+    - [Roy Archibald, D, 15069]
+    - [Earl B. Whitmore, R, 12823]
+    - [Edward M. Keating, D, 8813]
+    - [Daniel J. Monaco, D, 6994]
+    - [Andrew Baldwin, D, 1333]
+    - [Patrick F. X. McGucken, D, 840]
+    - [Bryant McDonald, D, 555]
+    - [Robert "Bob" Barry, R, 471]
+    scattering: 77
+  - date: '1967-12-12'
+    label: special election (run-off)
+    cands:
+    - ['Paul N. "Pete" McCloskey, Jr.', R, 66385]
+    - [Roy Archibald, D, 44319]
+    - [Shirley Temple Black, R (write-in), 4064]
+    scattering: 292
+  checked: San Mateo County only; precinct + absentee = total for every candidate in both rounds. No grand totals printed (primary 153,944 and run-off 115,060 with scattering).
+  differs_from_wikipedia: 'Run-off: McCloskey 57.70 (Wikipedia 57.2, +0.50), Archibald 38.52 (39.2, -0.68), Black 3.53 (3.5); without scattering 57.84/38.62/3.54. Wikipedia gives no primary.'
+  note: No majority at the special primary; the leader of each party to the run-off. Shirley Temple Black a write-in.
+  remarks: 'No majority at the Nov. 14, 1967 special primary (McCloskey 34.35%); McCloskey (R) and Archibald (D), top of each party, went to the Dec. 12 run-off, where Shirley Temple Black ran as a write-in
+    (''Rep. (Write-in)''). Vacancy: death of J. Arthur Younger.'
+  verified: true
+1969-04-29-h-CA-27:
+  cite: California Statement of Vote, Nov. 3, 1970, p. 8
+  source: California, Secretary of State, Statement of Vote, General Election, November 3, 1970, 'Special Elections in 1969-1970'
+  where: SFPL bound volume 1970-72, p. 8
+  url: https://archive.org/details/statementofvote197072cali/page/n57
+  rounds:
+  - date: '1969-04-01'
+    label: special primary
+    cands:
+    - ['Barry M. Goldwater, Jr.', R, 40075]
+    - [John K. Van de Kamp, D, 17504]
+    - ['James B. Potter, Jr.', R, 17105]
+    - [Jack Lindsey, R, 14019]
+    - [Gary A. Schlessinger, D, 12381]
+    - [Patrick D. McGee, R, 8605]
+    - [Edward Brown, D, 3964]
+    - [Dick Erickson, R, 2319]
+    - [Kenneth M. "Ken" Smith, D, 2319]
+    - [Donald C. Kahl, R, 2125]
+    - [Bill Dentzel, R, 1771]
+    - [Sam Cavnar, R, 1513]
+    - [Edward M. Curran, R, 1400]
+    - [Lawrence M. Schulner, D, 1022]
+    - [David V. Dalsimer, D, 988]
+    - [James H. (Val) Valdes, R, 844]
+  - date: '1969-04-29'
+    label: special election (run-off)
+    cands:
+    - ['Barry M. Goldwater, Jr.', R, 64734]
+    - [John K. Van de Kamp, D, 48983]
+  checked: 'Los Angeles/Kern; tables by precinct and absentee vote, no county split, no scattering line, no totals printed: precinct + absentee = total for every candidate in both rounds (primary 127,954;
+    run-off 113,717). The run-off''s Van de Kamp total is cut by the binding gutter (''48,98_''); 48,671 + 312 = 48,983, which fits the visible digits.'
+  differs_from_wikipedia: none over 0.2 pts (run-off 56.93/43.07, exactly Wikipedia's). Wikipedia gives no primary.
+  note: No majority at the special primary; the leader of each party to the run-off.
+  remarks: 'No majority at the Apr. 1, 1969 special primary (Goldwater 31.32%); Goldwater (R) and Van de Kamp (D) went to the Apr. 29 run-off. Vacancy: resignation of Ed Reinecke.'
+  verified: true
+1969-09-30-h-MA-6:
+  cite: 'Massachusetts Election Statistics, 1969 (P.D. 43), pp. 53–55'
+  source: The Commonwealth of Massachusetts, Election Statistics 1969 (Public Document No. 43), 'Number of Votes Received by Each Candidate at The Special Election, September 30, 1969, Representative in
+    the 91st Congress (to fill vacancy), Sixth Congressional District'
+  where: P.D. 43, 1969, p. 55
+  url: https://archive.org/details/electionstatisti19691970mass/page/n60
+  rounds:
+  - date: '1969-09-30'
+    label: special election
+    cands:
+    - [Michael J. Harrington, D, 72029]
+    - [William L. Saltonstall, R, 65452]
+    scattering: 10
+  checked: 'Read off the page image (zoomed, rotated column heads read from the image). By city and town; all 30 towns transcribed: each column sums to its printed total (72,029; 65,452; all others 10;
+    blanks 457; total ballots 137,948), and every town row (candidates + others + blanks) equals its total ballots. The printed total is ''Total Ballots'', blanks included; candidates and all others sum
+    to 137,491. The printed Total Ballots, 137,948, counts 457 blanks.'
+  differs_from_wikipedia: none over 0.2 pts (52.39 / 47.60 of all votes; identical)
+  remarks: 'Column heads ''Michael J. Harrington of Salem (Democrat)'', ''William L. Saltonstall of Manchester (Republican)''. Party special primaries Aug. 26, 1969 (pp. 53-54): Republican, William L. Saltonstall
+    14,934, Francis W. Hatch, Jr. 12,349 (blanks 241, total 27,524); Democratic, Michael J. Harrington 16,959, Irving E. Kane 9,129, Daniel J. Burke 6,226 (all others 8, blanks 315, total 32,637).'
+  verified: true
+1969-11-25-h-IL-13:
+  cite: 'Illinois Official Vote, Nov. 3, 1970, p. 113'
+  source: State of Illinois, Official Vote Cast at the General Election, November 3, 1970 (Secretary of State), Special Election, General Election for Representative in Congress, Thirteenth Congressional
+    District, Election November 25, 1969, 13th District, Cook County
+  where: 1970 volume, p. 113
+  url: https://archive.org/details/officialvoteofst1970illi/page/n116
+  rounds:
+  - date: '1969-11-25'
+    label: special general election
+    cands:
+    - [Philip M. Crane, R, 68418]
+    - [Edward A. Warman, D, 48759]
+  checked: Read off the page image (zoomed). No total, write-in line, or county breakdown printed (district wholly in Cook County), so no sum to check against; the two figures give 58.39/41.61.
+  differs_from_wikipedia: none over 0.2 pts (58.39 / 41.61, identical)
+  remarks: 'Party special primaries Oct. 7, 1969, same page: Democratic, Edward A. Warman 6,638, write-ins 32; Republican, Philip M. Crane 17,919, Samuel H. Young 15,801, Joseph D. Mathewson 12,910, Alan
+    R. Johnston 10,520, Eugene F. Schlickman 9,247, Gerald M. Marks 6,606, John J. Nimrod 5,552, Lar (America First) Daly 48, David A. Roe 27, Alban Weber 27, Yale Roe 26, write-ins 1. Printed ''To Fill
+    Vacancy caused by the resignation of the Honorable Donald Rumsfeld''.'
+  verified: true
+1970-06-30-h-CA-24:
+  cite: California Statement of Vote, Nov. 3, 1970, p. 9
+  source: California, Secretary of State, Statement of Vote, General Election, November 3, 1970, 'Special Elections in 1969-1970—Continued'
+  where: SFPL bound volume 1970-72, p. 9
+  url: https://archive.org/details/statementofvote197072cali/page/n58
+  rounds:
+  - date: '1970-06-02'
+    label: special primary
+    cands:
+    - [John H. Rousselot, R, 39519]
+    - [Bill McColl, R, 37256]
+    - [Myrlie B. Evers, D, 25870]
+    - [Patrick J. Hillings, R, 23553]
+    - [Jack Alex, R, 9257]
+    - [James W. Booth, R, 1820]
+  - date: '1970-06-30'
+    label: special election (run-off)
+    cands:
+    - [John H. Rousselot, R, 62749]
+    - [Myrlie B. Evers, D, 29248]
+  checked: 'Los Angeles/San Bernardino; total vote only (no precinct/absentee split, no county split, no scattering, no totals printed), so nothing to sum against. Sums: primary 137,275, run-off 91,997.'
+  differs_from_wikipedia: none over 0.2 pts (run-off Rousselot 68.21, Evers 31.79). Wikipedia gives no primary.
+  note: No majority at the special primary; the leader of each party to the run-off.
+  remarks: 'No majority at the June 2, 1970 special primary (Rousselot 28.79%); Rousselot (R) and Evers (D) went to the June 30 run-off. Held with the June 2, 1970 direct primary. Vacancy: death of Glenard
+    P. Lipscomb.'
+  verified: true
+1970-06-30-h-CA-35:
+  cite: California Statement of Vote, Nov. 3, 1970, p. 9
+  source: California, Secretary of State, Statement of Vote, General Election, November 3, 1970, 'Special Elections in 1969-1970—Continued'
+  where: SFPL bound volume 1970-72, p. 9
+  url: https://archive.org/details/statementofvote197072cali/page/n58
+  rounds:
+  - date: '1970-06-02'
+    label: special primary
+    cands:
+    - [John G. Schmitz, R, 103127]
+    - [John A. Steiger, R, 30191]
+    - [William M. Wilcoxen, R, 27016]
+    - [David N. Hartman, D, 19163]
+    - [Thomas B. Lenhart, D, 16378]
+    - [John D. Ratterree, R, 7881]
+    - [Maggie Meggs, R, 5440]
+  - date: '1970-06-30'
+    label: special election (run-off)
+    cands:
+    - [John G. Schmitz, R, 67209]
+    - [David N. Hartman, D, 25655]
+  checked: 'Orange/San Diego; the page says these tables ''show total vote only which includes the precinct and absentee vote'': no precinct/absentee split, no county split, no scattering, no totals, so
+    nothing to sum against. Sums: primary 209,196, run-off 92,864.'
+  differs_from_wikipedia: none over 0.2 pts (run-off Schmitz 72.37, Hartman 27.63). Wikipedia gives no primary.
+  note: No majority at the special primary; the leader of each party to the run-off.
+  remarks: 'No majority at the June 2, 1970 special primary (Schmitz 49.30%); Schmitz (R) and Hartman (D) went to the June 30 run-off. Held with the June 2, 1970 direct primary. Vacancy: death of James
+    B. Utt.'
+  verified: true
+1971-04-27-h-SC-1:
+  cite: South Carolina Election Commission, Report, 1969–73, p. 14
+  source: 'Report of the South Carolina State Election Commission, 1969-1973: State Board of Canvassers, minutes of May 6, 1971'
+  where: Election Commission report 1969-73, printed p. 14 (PDF p. 18 of 595); the register's 'p. 15' is the next page (Sept. 23, 1971 meeting)
+  url: https://scvotes.gov/wp-content/uploads/2022/08/Election_Report_1969-1973.pdf#page=18
+  rounds:
+  - date: '1971-04-27'
+    label: special election
+    cands:
+    - [Mendel Davis, D, 37821]
+    - [James B. Edwards, R, 32443]
+    - [Victoria DeLee, United Citizens, 8029]
+    scattering: 63
+  checked: 'Read on the page image. Totals only: no county table in the report (whole report''s text searched for DeLee and April 27), so no county check. No total printed; candidates plus write-ins = 78,356.'
+  differs_from_wikipedia: none over 0.2 pts (Davis 48.27, Edwards 41.40, DeLee 10.25, write-ins 0.08 against Wikipedia's Elsie V. Carroll, Independent, 0.08)
+  note: Totals only, without parties; parties from Wikipedia.
+  remarks: The minutes print no party labels; D, R and United Citizens are from specials.yaml. The 63 are printed as 'Write-In Votes', unnamed (Wikipedia gives them to Elsie V. Carroll). Board certified
+    Mendel Davis to the Secretary of State as elected.
+  verified: true
+1971-05-25-h-MD-1:
+  cite: 'Maryland Manual, 1971–72, p. 513'
+  source: Maryland Manual 1971-1972 (Archives of Maryland Online vol. 175), 'First Congressional District, Special Election, May 25, 1971'
+  where: 1971-72 Manual, p. 513; reprinted 1973-74 Manual (vol. 176) p. 601, same figures
+  url: https://msa.maryland.gov/megafile/msa/speccol/sc2900/sc2908/000001/000175/pdf/am175--513.pdf
+  rounds:
+  - date: '1971-05-25'
+    label: special election
+    cands:
+    - [William O. Mills, R, 31510]
+    - [Elroy G. Boyer, D, 26661]
+  checked: Read off the page image (embedded scan, 300 dpi). By county; the twelve county figures sum exactly to the printed totals 31,510 and 26,661. No grand total or write-in line printed. The 1973-74
+    reprint (p. 601) reads identically.
+  differs_from_wikipedia: none over 0.2 pts (54.17 / 45.83, identical)
+  remarks: 'Printed as ''Republican Party: William O. Mills, Salisbury; Democratic Party: Elroy G. Boyer, Rock Hall''. Party special primaries Apr. 13, 1971 (p. 514): Democratic, Elroy G. Boyer 7,235, Mark
+    O. Pilchard 4,560, K. King Burnett 4,401, David S. Aland 3,002, Jerry A. Berardi 390, Shelton H. Skolnick 222; Republican, William O. Mills 6,551, Robert E. Bauman 3,911, Marvin O. Morris 344.'
+  verified: true
+1972-01-07-h-VT-0:
+  cite: Vermont Secretary of State, U.S. Representative returns 1932–2016 (2017 compilation), p. 5
+  source: 'Vermont Secretary of State / Vermont State Archives and Records Administration, ''United States Representative (One District): 1932-2016'' (generalelection_usrep_1932on_1d.pdf), a modern compilation
+    (Excel 2013, PDF made Jan. 23, 2017), shown by the Vermont Elections Database, contest 83628'
+  where: generalelection_usrep_1932on_1d.pdf, PDF p. 5 of 10 (the database says 'Page 5'; the register's 'p. 4' is the page before)
+  url: https://electionarchive.vermont.gov/contest/83628
+  rounds:
+  - date: '1972-01-07'
+    label: special election
+    cands:
+    - [Richard W. Mallary, R, 39903]
+    - [J. William O'Brien, D, 26889]
+    - [Doris Lake, Liberty Union, 3362]
+    - [Anthony Doria, Vermont Independent, 1353]
+    total: 71507
+  checked: Figures verified against the compilation only, not against a contemporary record. Read on the compilation's page (a typeset Excel export, not a scan) and in the database contest's own data (same
+    four figures; write-ins, overvotes and undervotes 0; total 71,507). The candidates sum to the printed total. No town figures in the compilation; the database shows only the statewide line, so no town
+    check.
+  differs_from_wikipedia: Wikipedia leaves out Doris Lake (Liberty Union, 3,362, 4.70%), which is why its shares add to 95.3. The other three match (Mallary 55.80, O'Brien 37.60, Doria 1.89).
+  note: A 2017 compilation, not a contemporary return.
+  remarks: 'The source is a Secretary of State compilation, not a contemporary document. It cites no source of its own: no footnote, header or note names the Legislative Directory or any canvass (whole
+    PDF searched). The database names only this PDF as its ''Official Source''. The compilation prints ''Anthony Doria''; the database''s candidate record has ''Anthony N. Doria''. No scattering line for
+    this special (the compilation''s other elections print one). The file server now answers 403 to curl''s default User-Agent and 200 to a browser one (https://vt2.elstats2.civera.com/eng/files/serve/1297).
+    The contemporary record is presumably the Vermont Legislative Directory and State Manual, 1973-74 edition (not viewable online). Check it on paper.'
+  verified: true
+1972-04-04-h-IL-15:
+  cite: 'Illinois Official Vote, Nov. 7, 1972, p. 55'
+  source: State of Illinois, Official Vote Cast at the General Election, November 7, 1972 (Secretary of State), Special Election, General Election for Representative in Congress, Fifteenth Congressional
+    District, April 4, 1972 (To Fill Vacancy)
+  where: 1972 volume, p. 55
+  url: https://archive.org/details/officialvote72illi/page/n60
+  rounds:
+  - date: '1972-04-04'
+    label: special general election
+    cands:
+    - [Cliffard D. Carlson, R, 31543]
+    - [Tim L. Hall, D, 26030]
+  checked: Read off the page image (zoomed). By county; the five counties (DeKalb 4,051/3,607, Grundy 3,519/3,148, Kane 10,881/6,135, Kendall 1,958/655, LaSalle 11,134/12,485) sum exactly to the printed
+    totals 31,543 and 26,030. No grand total or write-in line printed for the general.
+  differs_from_wikipedia: none over 0.2 pts (54.79 / 45.21, identical)
+  remarks: 'Party special primaries Feb. 15, 1972, same page, by county: Republican, Cliffard D. Carlson 7,949, John A. ''Jack'' Cunningham 6,005, William C. McConkey 5,211 (write-ins, Kendall Co., 1);
+    Democratic, Tim L. Hall 2,673, Dale R. Moore 1,463, Eugene H. Balmes 364 (write-ins, Kendall Co., 2). County columns summed to the printed totals for all six. Printed ''To Fill Vacancy caused by the
+    resignation of Honorable Charlotte T. Reid''.'
+  verified: true
+1973-03-06-h-AK-0:
+  cite: Alaska Official Returns by Election Precincts, special election, Mar. 6, 1973, p. 8
+  source: State of Alaska, Official Returns by Election Precincts, Special Election, March 6, 1973 (Division of Elections)
+  where: printed p. (8), 'Statewide' recapitulation by election district (PDF p. 9 of 9); precinct tables pp. (1)-(8)
+  url: https://www.elections.alaska.gov/Core/Archive/73SPEC/73spec.pdf
+  rounds:
+  - date: '1973-03-06'
+    label: special election
+    cands:
+    - [Young, R, 35044]
+    - [Notti, D, 33123]
+  checked: Read on the page image (scan, no text layer). The twenty election-district rows sum to the statewide line in all three columns (persons voting 69,121; Notti 33,123; Young 35,044). Precinct figures
+    summed for Districts 1, 2 and 19 match their district totals. No total for the race is printed; Young plus Notti = 68,167.
+  differs_from_wikipedia: none over 0.2 pts (Young 51.41, Notti 48.59, of the two-candidate vote)
+  remarks: The source prints surnames only, as column heads 'Notti (D)' and 'Young (R)' (Emil Notti, Don Young). It prints 'Number of Persons Voting', 69,121 statewide, which is not a total of the race's
+    votes. A bonding proposition was on the same ballot. No write-in or scattering line.
+  verified: true
+1973-08-21-h-MD-1:
+  cite: 'Maryland Manual, 1973–74, pp. 563–64'
+  source: Maryland Manual 1973-1974 (Archives of Maryland Online vol. 176), 'First Congressional District, Special Election, August 21, 1973'
+  where: 1973-74 Manual, p. 563
+  url: https://msa.maryland.gov/megafile/msa/speccol/sc2900/sc2908/000001/000176/pdf/am176--563.pdf
+  rounds:
+  - date: '1973-08-21'
+    label: special election
+    cands:
+    - [Robert E. Bauman, R, 27248]
+    - ['Frederick C. Malkus, Jr.', D, 26001]
+  checked: Read off the page image (embedded scan, 300 dpi). By county; the thirteen county figures (Calvert to Worcester, with Charles and Harford, no Anne Arundel) sum exactly to the printed totals 27,248
+    and 26,001. No grand total or write-in line printed.
+  differs_from_wikipedia: none over 0.2 pts (51.17 / 48.83 vs Wikipedia 51.2 / 48.8)
+  remarks: 'Printed as ''Republican Party: Robert E. Bauman, Easton; Democratic Party: Frederick C. Malkus, Jr., Cambridge''. Party special primaries July 10, 1973 (p. 564): Democratic, Frederick C. Malkus,
+    Jr. 9,413, Ronald Windsor 1,811, Vernon Hammed 1,464, Edward Post 525, Monroe Cornish 479, Henry J. Laque 238; Republican, Robert Bauman 5,651, John W. Hardwicke 3,093, D. C. Cole 613, Charles Grace
+    141.'
+  verified: true
+1974-03-05-h-CA-13:
+  cite: California Statement of Vote, June 4, 1974, p. 54
+  source: California, Secretary of State, Statement of Vote, Primary Election, June 4, 1974, 'Special Election Results'
+  where: SFPL bound volume 1973-74, p. 54
+  url: https://archive.org/details/statementofvote197374cali/page/n95
+  rounds:
+  - date: '1974-03-05'
+    label: special primary
+    cands:
+    - [Robert J. Lagomarsino, R, 52140]
+    - [James D. Loebl, D, 18223]
+    - [James A. Browning Jr., D, 7536]
+    - [Roger A. Ikola, D, 6155]
+    - [E. T. "Tom" Jolicoeur, D, 5786]
+    - [David H. Miller, D, 3128]
+    - [R. W. Handley, D, 2328]
+    - [F. Joe Deauchamp, D, 1879]
+    - [Herbert A. Ford, R (write-in), 35]
+    total: 97210
+  checked: 'Santa Barbara/Ventura; table sideways, read from the rotated page image. Precinct + absentee = total for every line; columns sum to the printed totals (94,548 + 2,662 = 97,210). Printed percents
+    agree (Lagomarsino 53.64). Header also prints Total Votes Cast 98,656 (precinct 95,954, absentee 2,702): ballots, including those with no vote for this office. No county split.'
+  differs_from_wikipedia: none over 0.2 pts. Wikipedia omits the write-in Herbert A. Ford (35, 0.04%).
+  note: A majority at the special primary; elected without a run-off (Elections Code sec. 7202).
+  remarks: 'Lagomarsino had a majority at the special primary and was declared elected (footnote: Elections Code sec. 7202); no special general. Vacancy: death of Charles M. Teague. Names as printed: ''F.
+    Joe Deauchamp'' (Wikipedia: F. Joe Beauchamp), ''E. T. "Tom" Jolicoeur'' (Wikipedia: Jolicouer).'
+  verified: true
+1974-06-04-h-CA-6:
+  cite: California Statement of Vote, June 4, 1974, p. 54
+  source: California, Secretary of State, Statement of Vote, Primary Election, June 4, 1974, 'Special Election Results'
+  where: SFPL bound volume 1973-74, p. 54
+  url: https://archive.org/details/statementofvote197374cali/page/n95
+  rounds:
+  - date: '1974-06-04'
+    label: special primary
+    cands:
+    - [John L. Burton, D, 73114]
+    - [Thomas Caylor, R, 30908]
+    - [Terrence "T.V." McGuire, D, 12777]
+    - [Jean Wall, R, 8501]
+    - [Sean McCarthy, R, 7783]
+    - [Alan F. Reeves, D, 6032]
+    - [Wesley Wilkes, R, 4015]
+    - [Leslie Alan Grant, D, 3017]
+    total: 146147
+  checked: 'San Francisco/Marin; table sideways, read from the rotated page image. Precinct + absentee = total for every line; columns sum to the printed totals (136,915 + 9,232 = 146,147). Printed percents
+    agree (Burton 50.02*, computed 50.027). Header also prints Total Votes Cast 159,251 (precinct 149,645, absentee 9,606): ballots, including those with no vote for this office. No county split.'
+  differs_from_wikipedia: none over 0.2 pts
+  note: A majority at the special primary; elected without a run-off.
+  remarks: 'Burton had a majority (50.02%) at the special primary and was declared elected; no special general. Held with the June 4, 1974 direct primary. Vacancy: resignation of William S. Mailliard.'
+  verified: true
