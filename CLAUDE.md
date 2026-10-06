@@ -310,6 +310,11 @@ executive/<unit>.yaml         one unit (department, agency, office of the Presid
 tools/bib/executive.py        renders the blocks and the page, checks the files (STYLE notes at the top)
 tools/bib/executive_names.py  who in the series is not yet in the roster
 tools/executive/make_state.py seeded state.yaml and missions.yaml from POCOM, once; don't rerun
+tools/executive/resolve_statutes.py   sources/statute-links.json: the govinfo file (and pin page) for every
+                              Statutes at Large cite; rerun after adding law (needs the network; the build does not)
+tools/executive/make_uscode_index.py  sources/uscode-loc.json: the Library of Congress's chapter scans of the
+                              1952, 1958, 1964 and 1970 Codes, so a cite like '50 U.S.C. § 402 (1958)' links
+templates/roster.css          the styles the Congress, election and Executive blocks share
 notes/executive-brief.md      the brief for whoever adds to the roster, person or agent
 ```
 
@@ -326,9 +331,15 @@ notes/executive-brief.md      the brief for whoever adds to the roster, person o
 - Holders: `from` (taking office) is required; `nominated`, `confirmed`, `recess`, `appointed` (the
   commission), `to`, `out`, `acting`. Holders in order of taking office; two who are not acting may not
   overlap unless the office is `many: true`. Holders who left on a term's first day show only in the term before.
-- Law: `act`, `date`, `cite` (Statutes at Large: the page the act begins on, then the pin: the build links it
-  to govinfo), `usc` (the period's edition), `does`. Every unit and office should point to the provisions
-  that establish it and set its powers and manner of appointment.
+- Law: `act`, `date` (enacted; for an amendment, ratified), `effective` and `until` where it took effect
+  later or was repealed or superseded, `tags` (creates, powers, appointment, vacancy, pay, reorganizes),
+  `cite` (Statutes at Large: the page the act begins on, then the pin), `usc` (sections with the edition:
+  '3 U.S.C. § 19 (1958)'), `does`. A term shows only the law in force during it, in a full-width row under
+  the office. The law of the whole unit goes on the unit; an office carries only its own.
+- Vacancies are computed from the appointed holders; an acting officer shows under the vacancy he served in.
+- Statute links: govinfo files the Statutes by act, named by the first page (STATUTE-61-Pg495), with a
+  suffix where several begin on a page (STATUTE-69-Pg9-2); a wrong name answers 200 with an empty body.
+  `resolve_statutes.py` matches each cite by its chapter or public law and reports cites that point nowhere.
 - Names as Part III writes them ("Rusk, Dean"), so the pointers find them; `given` for full given names.
 - State and the chiefs of mission come from POCOM (the Office of the Historian): commission, credentials,
   end of mission. Others from the Congressional Directory (each session), the Senate's records, department
