@@ -1,0 +1,564 @@
+# The Central Intelligence Agency. Kept by hand.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: cia
+name: Central Intelligence Agency
+under: president
+order: 500
+law:
+  - act: National Security Act of 1947
+    date: '1947-07-26'
+    tags: [creates, powers, appointment]
+    cite: 'ch. 343, § 102, 61 Stat. 495, 497'
+    usc: '50 U.S.C. § 403 (1958)'
+    does: Establishes under the National Security Council a Central Intelligence Agency, with a Director of Central Intelligence its head; the Director appointed by the President with the advice and consent of the Senate, from the commissioned officers of the armed services or from civilian life. The Agency to advise the Council, correlate and evaluate intelligence, and perform services of common concern; no police, subpoena, law-enforcement or internal-security functions.
+  - act: Central Intelligence Agency Act of 1949
+    date: '1949-06-20'
+    tags: [powers]
+    cite: 'ch. 227, 63 Stat. 208'
+    usc: '50 U.S.C. §§ 403a–403j (1958)'
+    does: The Agency's administration. Procurement, education and training, travel and allowances; the Director may spend funds without regard to the laws on public money, on his certificate alone, for objects of a confidential nature; exempts the Agency from disclosing its organization, functions, names, titles, salaries or numbers of personnel.
+n: The Agency's officers below the Director and Deputy Director are the Agency's employees, appointed by the Director. The directorates and their heads are the Agency's own organization, not set by statute; dates for them are from the FRUS lists of persons and other secondary sources, and many need checking.
+offices:
+  - id: director
+    title: Director of Central Intelligence
+    rank: head
+    appt: PAS
+    level: II
+    law:
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(b), 78 Stat. 400, 416'
+        usc: '5 U.S.C. § 5313 (1970)'
+        does: The Director of Central Intelligence in level II of the Federal Executive Salary Schedule.
+    holders:
+      - name: Smith, Walter B.
+        given: Walter Bedell
+        rank: Gen., USA
+        from: '1950-10-07'
+        to: '1953-02-09'
+        out: To Under Secretary of State.
+        src: [Wikipedia, Director of Central Intelligence, FRUS persons list]
+      - name: Dulles, Allen W.
+        given: Allen Welsh
+        acting: true
+        from: '1953-02-09'
+        to: '1953-02-26'
+        n: Acting as Deputy Director.
+        src: [Wikipedia, Director of Central Intelligence]
+      - name: Dulles, Allen W.
+        given: Allen Welsh
+        from: '1953-02-26'
+        to: '1961-11-29'
+        out: Resigned.
+        src: [Wikipedia, Director of Central Intelligence, CDIR 1957-03 to 1961-04, FRUS persons list]
+      - name: McCone, John A.
+        given: John Alex
+        from: '1961-11-29'
+        to: '1965-04-28'
+        out: Resigned.
+        n: 'Appointment announced Sept. 27, 1961; sworn Nov. 29, 1961 (APP). Carter, the Deputy Director, acted in his absence, Aug.–Sept. 1962. Check: a recess appointment, nomination confirmed Jan. 1962.'
+        src: [APP, Wikipedia, Director of Central Intelligence, CDIR 1962-01 to 1965-03]
+      - name: Raborn, William F., Jr.
+        given: William Francis
+        rank: Vice Adm., USN (ret.)
+        from: '1965-04-28'
+        to: '1966-06-30'
+        out: Resigned.
+        src: [Wikipedia, Director of Central Intelligence, CDIR 1966-01]
+      - name: Helms, Richard
+        given: Richard McGarrah
+        from: '1966-06-30'
+        to: '1973-02-02'
+        out: Removed by the President; to Ambassador to Iran.
+        src: [Wikipedia, Director of Central Intelligence, CDIR 1967-02 to 1971-12, FRUS persons list]
+      - name: Schlesinger, James R.
+        given: James Rodney
+        from: '1973-02-02'
+        to: '1973-07-02'
+        out: To Secretary of Defense.
+        src: [Wikipedia, Director of Central Intelligence, CDIR 1973-03]
+      - name: Walters, Vernon A.
+        given: Vernon Anthony
+        rank: Lt. Gen., USA
+        acting: true
+        from: '1973-07-02'
+        to: '1973-09-04'
+        n: Acting as Deputy Director.
+        src: [Wikipedia, Director of Central Intelligence, FRUS persons list]
+      - name: Colby, William E.
+        given: William Egan
+        from: '1973-09-04'
+        to: '1976-01-30'
+        src: [Wikipedia, Director of Central Intelligence, CDIR 1973-12, FRUS persons list]
+  - id: deputy-director
+    title: Deputy Director of Central Intelligence
+    rank: principal
+    appt: PAS
+    level: III
+    n: Before Apr. 4, 1953, a deputy appointed by the Director.
+    law:
+      - act: Act of Apr. 4, 1953
+        date: '1953-04-04'
+        tags: [creates, appointment, vacancy]
+        cite: 'ch. 16, 67 Stat. 19'
+        usc: '50 U.S.C. § 403(a) (1958)'
+        does: A Deputy Director of Central Intelligence, to act for and exercise the powers of the Director in his absence or disability; Director and Deputy appointed by the President with the advice and consent of the Senate, from the commissioned officers of the armed services or from civilian life, but not both from the officers at once.
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(c), 78 Stat. 400, 417'
+        usc: '5 U.S.C. § 5314 (1970)'
+        does: The Deputy Director in level III.
+    holders:
+      - name: Dulles, Allen W.
+        given: Allen Welsh
+        from: '1951-08-23'
+        to: '1953-02-26'
+        out: To Director.
+        src: [Wikipedia, Deputy Director of Central Intelligence]
+      - name: Cabell, Charles P.
+        given: Charles Pearre
+        rank: Lt. Gen., USAF; Gen. from July 11, 1958
+        from: '1953-04-23'
+        to: '1962-01-31'
+        out: Retired from the Air Force; left the Agency.
+        n: Office vacant, Feb. 26–Apr. 23, 1953, and Jan. 31–Apr. 3, 1962.
+        src: [Wikipedia, Charles P. Cabell, CDIR 1957-03 to 1961-04, FRUS persons list]
+      - name: Carter, Marshall S.
+        given: Marshall Sylvester
+        rank: Lt. Gen., USA
+        from: '1962-04-03'
+        to: '1965-04-28'
+        out: To Director, National Security Agency.
+        src: [Wikipedia, Marshall Carter, CDIR 1963-03 to 1965-03, FRUS persons list]
+      - name: Helms, Richard
+        given: Richard McGarrah
+        from: '1965-04-28'
+        to: '1966-06-30'
+        out: To Director.
+        n: Office vacant, June 30–Oct. 13, 1966.
+        src: [Wikipedia, Deputy Director of Central Intelligence, CDIR 1966-01, FRUS persons list]
+      - name: Taylor, Rufus L.
+        given: Rufus Lackland
+        rank: Vice Adm., USN
+        from: '1966-10-13'
+        to: '1969-02-01'
+        out: Retired.
+        n: Office vacant, Feb. 1–May 7, 1969.
+        src: [Wikipedia, Rufus L. Taylor, CDIR 1967-02 to 1969-03]
+      - name: Cushman, Robert E., Jr.
+        given: Robert Everton
+        rank: Lt. Gen., USMC
+        nominated: '1969-03-06'
+        confirmed: '1969-04-21'
+        from: '1969-05-07'
+        to: '1971-12-31'
+        out: To Commandant of the Marine Corps.
+        n: Office vacant, Dec. 31, 1971–May 2, 1972.
+        src: [Wikipedia, Robert E. Cushman Jr., CDIR 1969-12 to 1971-12]
+      - name: Walters, Vernon A.
+        given: Vernon Anthony
+        rank: Maj. Gen., USA; Lt. Gen. from Mar. 1972
+        from: '1972-05-02'
+        to: '1976-07-02'
+        n: Acting Director, July 2–Sept. 4, 1973.
+        src: [Wikipedia, Vernon A. Walters, CDIR 1973-03, 1973-12, FRUS persons list]
+  - id: executive-director
+    title: Executive Director
+    titles:
+      - title: Executive Director-Comptroller
+        from: '1965-07'
+    rank: employee
+    appt: HD
+    n: The Agency's third officer, over the support offices.
+    holders:
+      - name: Kirkpatrick, Lyman B., Jr.
+        from: '1962'
+        to: '1965-06'
+        n: 'Check: the date he moved from Inspector General to Executive Director (FRUS has him Inspector General Nov. 1961–Jan. 1962).'
+        src: [FRUS persons list]
+      - name: White, Lawrence K.
+        from: '1965-07'
+        to: '1972-01-10'
+        src: [FRUS persons list]
+      - name: Colby, William E.
+        given: William Egan
+        from: '1972-01-10'
+        to: '1973-03-02'
+        out: To Deputy Director for Operations.
+        n: 'FRUS gives January 1972; the day is White''s last. Check.'
+        src: [FRUS persons list]
+  - id: inspector-general
+    title: Inspector General
+    rank: employee
+    appt: HD
+    holders:
+      - name: Hedden, Stuart
+        from: '1952'
+        to: '1953-04'
+        src: [FRUS persons list, Wikipedia, Inspector General of the Central Intelligence Agency]
+      - name: Kirkpatrick, Lyman B., Jr.
+        from: '1953-04'
+        to: '1962'
+        out: To Executive Director.
+        n: 'Survey report on the Cuban operation, Oct. 1961 (FRUS 1961–63, X–XII, microfiche supp., doc. 273a). Check his dates; and the Inspectors General between him and Chamberlain (1973).'
+        src: [FRUS persons list]
+      - name: Chamberlain, Donald F.
+        from: '1973-07'
+        to: '1976-07'
+        src: [Wikipedia, Inspector General of the Central Intelligence Agency]
+  - id: legislative-counsel
+    title: Legislative Counsel
+    rank: employee
+    appt: HD
+    holders:
+      - name: Warner, John S.
+        from: '1962'
+        to: '1968-05-01'
+        n: 'Check: first listed CDIR 1962-01.'
+        src: [CDIR 1962-01 to 1967-12, FRUS persons list]
+      - name: Maury, John M.
+        from: '1968-05-01'
+        to: '1974'
+        n: 'Formerly chief of the Soviet Russia Division, Directorate of Plans. Check both dates.'
+        src: [CDIR 1969-03 to 1973-12]
+  - id: executive-assistant
+    title: Executive Assistant to the Director
+    rank: employee
+    appt: HD
+    many: true
+    holders:
+      - name: Earman, J. S.
+        from: '1952'
+        to: '1962-04'
+        src: [FRUS persons list]
+      - name: Knoche, E. Henry
+        given: Enno Henry
+        title: Assistant to the Director
+        from: '1962'
+        n: 'Signs as the Director''s assistant, May 1962 (FRUS 1961–63, XXIII, doc. 269); Deputy Director of Central Intelligence, July 7, 1976. Check his dates.'
+        src: [FRUS persons list]
+      - name: Elder, Walter
+        from: '1962-04'
+        src: [FRUS persons list]
+        n: 'Check: when he left.'
+  - id: ddp
+    title: Deputy Director (Plans)
+    titles:
+      - title: Deputy Director for Operations
+        from: '1973-03-01'
+    rank: employee
+    appt: HD
+    group: Directorates
+    n: Head of the Directorate of Plans (clandestine collection and covert action); the Directorate of Operations from 1973.
+    holders:
+      - name: Wisner, Frank G.
+        given: Frank Gardiner
+        from: '1951-08-23'
+        to: '1959-01-01'
+        out: Breakdown, Sept. 1958; to chief of station, London.
+        src: [Wikipedia, Frank Wisner, FRUS persons list]
+      - name: Bissell, Richard M., Jr.
+        from: '1959-01-01'
+        to: '1962-02-17'
+        out: Resigned.
+        src: [Wikipedia, Richard M. Bissell Jr., FRUS persons list]
+      - name: Helms, Richard
+        given: Richard McGarrah
+        from: '1962-02-17'
+        to: '1965-04-28'
+        out: To Deputy Director of Central Intelligence.
+        n: Chief of operations of the Directorate before.
+        src: [Wikipedia, Richard Helms, FRUS persons list]
+      - name: FitzGerald, Desmond
+        from: '1965-06'
+        to: '1967-07-23'
+        out: Died.
+        n: Chief, Western Hemisphere Division, Mar. 1964–June 1965; before that chief of the Cuba task force (Special Affairs Staff). Check the day he took office.
+        src: [FRUS persons list]
+      - name: Karamessines, Thomas H.
+        from: '1967-07-31'
+        to: '1973-02-24'
+        out: Resigned.
+        src: [FRUS persons list, Wikipedia, Thomas Karamessines]
+      - name: Colby, William E.
+        given: William Egan
+        from: '1973-03-02'
+        to: '1973-08-24'
+        out: To Director.
+        src: [FRUS persons list, Wikipedia, William Colby]
+      - name: Nelson, William E.
+        from: '1973-08-24'
+        to: '1976-05-14'
+        src: [FRUS persons list]
+  - id: ddi
+    title: Deputy Director (Intelligence)
+    rank: employee
+    appt: HD
+    group: Directorates
+    n: Head of the Directorate of Intelligence (research, current intelligence, estimates support).
+    holders:
+      - name: Amory, Robert, Jr.
+        from: '1952-11-06'
+        to: '1962-03-30'
+        n: Acting from Nov. 6, 1952; Deputy Director from May 1953 (FRUS).
+        src: [FRUS persons list]
+      - name: Cline, Ray S.
+        given: Ray Steiner
+        from: '1962-04-23'
+        to: '1966-01-17'
+        out: To special assistant to the Director; later Director of Intelligence and Research, Department of State.
+        n: Chief of station, Taipei, before.
+        src: [FRUS persons list]
+      - name: Smith, R. Jack
+        from: '1966-01-17'
+        to: '1971-05'
+        src: [FRUS persons list]
+      - name: Proctor, Edward W.
+        from: '1971-05'
+        n: 'Assistant Deputy Director before. Check: when he left (1976).'
+        src: [FRUS persons list]
+  - id: dds
+    title: Deputy Director (Administration)
+    titles:
+      - title: Deputy Director (Support)
+        from: '1955'
+    rank: employee
+    appt: HD
+    group: Directorates
+    n: 'Head of the support directorate (personnel, security, logistics, finance, communications, training). Check: the date of the change of title, and the holders after White.'
+    holders:
+      - name: White, Lawrence K.
+        from: '1954'
+        to: '1965-06'
+        out: To Executive Director-Comptroller.
+        n: 'Check: the date he took office.'
+        src: [FRUS persons list]
+  - id: ddst
+    title: Deputy Director (Research)
+    titles:
+      - title: Deputy Director for Science and Technology
+        from: '1963-08'
+    rank: employee
+    appt: HD
+    group: Directorates
+    from: '1962-02'
+    n: The Directorate of Research, Feb. 1962; consolidated with technical offices of the other directorates as the Directorate of Science and Technology, Aug. 1963.
+    holders:
+      - name: Scoville, Herbert, Jr.
+        from: '1962-02'
+        to: '1963-06'
+        out: To Assistant Director for Science and Technology, Arms Control and Disarmament Agency.
+        n: 'Before, Assistant Director, Office of Scientific Intelligence. Check both dates.'
+        src: [FRUS persons list]
+      - name: Wheelon, Albert D.
+        from: '1963-08'
+        to: '1966-09'
+        src: [FRUS persons list, Wikipedia, Carl Duckett]
+      - name: Duckett, Carl E.
+        from: '1966-09'
+        to: '1976-06-01'
+        n: 'Check: acting before his appointment.'
+        src: [FRUS persons list, Wikipedia, Carl Duckett]
+  - id: national-estimates
+    title: Chairman, Board of National Estimates
+    rank: employee
+    appt: HD
+    group: Offices
+    until: '1973-10'
+    n: Also Assistant Director for National Estimates (head of the Office of National Estimates); Director of National Estimates from July 24, 1965. The Board and Office abolished in 1973; national intelligence officers in their place (Carver deputy to the Director for them from Oct. 1, 1973).
+    holders:
+      - name: Kent, Sherman
+        from: '1952-01'
+        to: '1967-12'
+        out: Retired.
+        n: Succeeded Langer, who organized the Office in 1950. Check the day he took the chair.
+        src: [FRUS persons list, Wikipedia, William L. Langer]
+      - name: Smith, Abbot E.
+        from: '1968-01'
+        to: '1971-04-16'
+        src: [FRUS persons list]
+      - name: Huizenga, John W.
+        from: '1971-04-16'
+        to: '1973'
+        n: 'Check: deputy before; both dates.'
+        src: [FRUS persons list]
+  - id: npic
+    title: Director, National Photographic Interpretation Center
+    rank: employee
+    appt: HD
+    group: Offices
+    n: Before 1961, the Agency's Photographic Intelligence Division.
+    holders:
+      - name: Lundahl, Arthur C.
+        from: '1953-05'
+        to: '1973-06'
+        out: Retired.
+        src: [Wikipedia, Arthur C. Lundahl]
+  - id: counterintelligence
+    title: Chief, Counterintelligence Staff
+    rank: employee
+    appt: HD
+    group: Offices
+    holders:
+      - name: Angleton, James J.
+        from: '1954'
+        to: '1974-12-23'
+        out: Resigned.
+        src: [Wikipedia, James Jesus Angleton, FRUS persons list]
+  - id: wh-division
+    title: Chief, Western Hemisphere Division, Directorate of Plans
+    rank: employee
+    appt: HD
+    group: Offices
+    holders:
+      - name: King, J. C.
+        given: Joseph Caldwell
+        rank: Col., USA (ret.)
+        from: '1952'
+        to: '1964-03'
+        n: 'Check: the date he took the division.'
+        src: [FRUS persons list]
+      - name: FitzGerald, Desmond
+        from: '1964-03'
+        to: '1965-06'
+        out: To Deputy Director for Plans.
+        src: [FRUS persons list]
+      - name: Broe, William V.
+        from: '1965-06'
+        to: '1972-04'
+        src: [FRUS persons list]
+      - name: Shackley, Theodore G.
+        from: '1972-04'
+        to: '1973-11'
+        src: [FRUS persons list]
+  - id: saigon-station
+    title: Chief of Station, Saigon
+    rank: employee
+    appt: HD
+    group: Stations
+    holders:
+      - name: Colby, William E.
+        given: William Egan
+        from: '1959'
+        to: '1962'
+        out: To chief, Far East Division, Directorate of Plans (to 1967).
+        src: [Viet. III.C]
+      - name: Richardson, John H.
+        from: '1962'
+        to: '1963-10-05'
+        out: Recalled.
+        src: [Viet. III.C, FRUS persons list]
+      - name: De Silva, Peer
+        from: '1964'
+        to: '1965'
+        n: 'Check both dates; Hart and Jorgensen followed (FRUS).'
+        src: [FRUS persons list]
+      - name: Shackley, Theodore G.
+        from: '1968'
+        to: '1972-01'
+        out: To chief, Western Hemisphere Division.
+        n: 'Check: the date he took the station.'
+        src: [FRUS persons list]
+      - name: Polgar, Thomas
+        from: '1972-01'
+        to: '1975-04'
+        src: [Wikipedia, Thomas Polgar, Viet. III.C]
+  - id: taipei-station
+    title: Chief of Station, Taipei
+    rank: employee
+    appt: HD
+    group: Stations
+    holders:
+      - name: Cline, Ray S.
+        given: Ray Steiner
+        from: '1958'
+        to: '1962-06'
+        out: To Deputy Director (Intelligence).
+        n: 'Check: the date he took the station.'
+        src: [FRUS persons list]
+  - id: officers
+    title: Officers named in the series
+    rank: employee
+    appt: HD
+    many: true
+    group: Officers
+    n: Agency officers who appear in the calendar, the lists, or the FRUS documents of the daybook, in posts not listed above.
+    holders:
+      - name: Hunt, E. Howard
+        given: Everette Howard
+        from: '1949'
+        to: '1970-04-30'
+        out: Retired; White House consultant from 1971.
+        src: [Wikipedia, E. Howard Hunt]
+      - name: McCord, James W., Jr.
+        title: Office of Security; chief, Physical Security Division
+        from: '1951-08'
+        to: '1970-08'
+        out: Retired.
+        src: [Wikipedia, James W. McCord Jr.]
+      - name: Barnes, C. Tracy
+        title: Assistant Deputy Director (Plans) for Covert Action; from 1962, Domestic Operations Division
+        from: '1960'
+        n: 'Check: when he left (1968).'
+        src: [Wikipedia, C. Tracy Barnes, FRUS persons list]
+      - name: Esterline, J. D.
+        title: Chief, Branch 4, Western Hemisphere Division (the Cuban operation)
+        from: '1960'
+        to: '1961'
+        n: Check both dates.
+        src: [FRUS persons list]
+      - name: Hawkins, Jack
+        rank: Col., USMC
+        title: Chief, paramilitary section, Branch 4, Western Hemisphere Division
+        from: '1960'
+        to: '1961'
+        n: Detailed from the Marine Corps. Check both dates.
+        src: [FRUS persons list]
+      - name: Beerli, Stanley W.
+        rank: Col., USAF
+        title: Chief of air operations, Branch 4, Western Hemisphere Division
+        from: '1960'
+        to: '1961'
+        n: Detailed from the Air Force. Check both dates.
+        src: [FRUS persons list]
+      - name: Harvey, William K.
+        title: Chief, Task Force W (Mongoose)
+        from: '1961-11'
+        to: '1963'
+        out: To chief of station, Rome.
+        n: 'Check both dates.'
+        src: [FRUS persons list, Wikipedia, William King Harvey]
+      - name: Maury, John M.
+        title: Chief, Soviet Russia Division, Directorate of Plans
+        from: '1962'
+        to: '1968'
+        n: Check both dates.
+        src: [FRUS persons list]
+      - name: Cooper, Chester L.
+        title: Deputy Assistant Director for National Estimates; from Sept. 17, 1962, Assistant for Policy Support to the Deputy Director (Intelligence)
+        from: '1962'
+        to: '1964'
+        out: To the National Security Council staff, on detail.
+        n: Check both dates.
+        src: [FRUS persons list]
+      - name: Conein, Lucien
+        title: Officer in Saigon, liaison with the generals
+        from: '1962'
+        to: '1968'
+        n: Check both dates.
+        src: [Viet. III.C]
+      - name: Carver, George A., Jr.
+        title: Special Assistant for Vietnamese Affairs
+        from: '1966-09'
+        to: '1973-10-01'
+        out: To deputy to the Director for national intelligence officers.
+        src: [FRUS persons list]
+      - name: Snepp, Frank
+        title: Analyst, Saigon station
+        from: '1969'
+        to: '1975'
+        src: [Viet. III.C]

@@ -535,9 +535,9 @@ details.exu tr.exlr td{padding-top:0}
 .ex .exd{display:block;font-size:.74rem;color:var(--muted);line-height:1.35}
 .ex .exr{font-weight:400;font-size:.74rem;color:var(--muted)}
 .ex .cgn{font-size:.8rem;line-height:1.35}
-.ex ul.exlaw{margin:0;padding:.2rem 0 .1rem 1.1rem;font-size:.74rem;line-height:1.4;color:var(--muted)}
+.ex ul.exlaw{list-style:none;margin:0;padding:.2rem 0 .1rem;font-size:.74rem;line-height:1.4;color:var(--muted)}
 .ex ul.exlaw.exul{margin:.1rem 0 .5rem}
-.ex ul.exlaw li{margin:.12rem 0}
+.ex ul.exlaw li{margin:.12rem 0;padding-left:1.2em;text-indent:-1.2em}
 .ex .exg{font-size:.66rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--ink)}
 .ex .exw{white-space:nowrap}
 .ex .exun{margin:.2rem 0 .4rem}

@@ -1,0 +1,238 @@
+# The Federal Trade Commission. Kept by hand.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: ftc
+name: Federal Trade Commission
+under: president
+order: 500
+law:
+  - act: Federal Trade Commission Act
+    date: '1914-09-26'
+    tags: [creates, appointment]
+    cite: 'ch. 311, § 1, 38 Stat. 717, 718'
+    usc: '15 U.S.C. § 41 (1958)'
+    does: 'Creates the Commission: five commissioners appointed by the President, by and with the advice and consent of the Senate, for seven years; not more than three of one party; removable by the President for inefficiency, neglect of duty, or malfeasance in office. The commission to choose a chairman from its own membership.'
+  - act: Federal Trade Commission Act
+    date: '1914-09-26'
+    tags: [powers]
+    cite: 'ch. 311, §§ 5–6, 38 Stat. 717, 719'
+    usc: ['15 U.S.C. §§ 45–46 (1958)']
+    does: Unfair methods of competition in commerce declared unlawful; the Commission empowered to prevent them by complaint, hearing, and order to cease and desist, and to investigate corporations and report.
+  - act: Clayton Act
+    date: '1914-10-15'
+    tags: [powers]
+    cite: 'ch. 323, § 11, 38 Stat. 730, 734'
+    usc: '15 U.S.C. § 21 (1958)'
+    does: Authority to enforce the prohibitions of price discrimination, tying contracts, stock acquisitions, and interlocking directorates, in commerce generally.
+  - act: Wheeler-Lea Act
+    date: '1938-03-21'
+    tags: [powers]
+    cite: 'ch. 49, 52 Stat. 111'
+    usc: ['15 U.S.C. §§ 45, 52–58 (1958)']
+    does: Unfair or deceptive acts or practices in commerce made unlawful; false advertisement of foods, drugs, devices, and cosmetics.
+n: 'Seven-year terms expire Sept. 25 or 26. The Wikipedia list of members begins in 1949 and omits most of the members of the 1950s; their dates here come from their biographies and the Congressional Directory, and carry a "Check" where only the year or month is known.'
+offices:
+  - id: chairman
+    title: Chairman of the Federal Trade Commission
+    rank: head
+    appt: DES
+    level: III
+    law:
+      - act: Reorganization Plan No. 8 of 1950
+        date: '1950-05-24'
+        tags: [appointment, powers]
+        cite: '64 Stat. 1264'
+        usc: '15 U.S.C. § 41 note (1958)'
+        does: 'The Commission''s executive and administrative functions (appointment and supervision of personnel, distribution of business, use and expenditure of funds) transferred to the Chairman, governed by the Commission''s general policies; the Commission''s function of choosing a chairman transferred to the President.'
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(c)(23), 78 Stat. 400, 417'
+        usc: '5 U.S.C. § 5314 (1970)'
+        does: Level III, $28,500.
+    holders:
+      - name: Mead, James M.
+        from: '1950-05-24'
+        to: '1953-03-31'
+        n: Designated by Truman on the plan's taking effect.
+        src: ['Wikipedia: List of members of the Federal Trade Commission', CDIR 1953-03]
+      - name: Howrey, Edward F.
+        from: '1953-04-01'
+        to: '1955-09-12'
+        out: Resigned.
+        src: ['Wikipedia: Edward F. Howrey', CDIR 1954-01, CDIR 1955-02]
+      - name: Gwynne, John W.
+        from: '1955-09-12'
+        to: '1959-05-31'
+        src: ['Wikipedia: List of members of the Federal Trade Commission', CDIR 1956-01, CDIR 1959-03]
+      - name: Kintner, Earl W.
+        from: '1959-06-11'
+        to: '1961-03-20'
+        src: ['Wikipedia: Earl W. Kintner', CDIR 1960-01]
+      - name: Dixon, Paul Rand
+        from: '1961-03-21'
+        to: '1969-12-31'
+        out: Remained a commissioner.
+        src: ['Wikipedia: List of members of the Federal Trade Commission', CDIR 1961-04, CDIR 1969-03]
+      - name: Weinberger, Caspar W.
+        from: '1970-01-01'
+        to: '1970-08-06'
+        out: To Deputy Director of the Bureau of the Budget (Office of Management and Budget).
+        src: ['Wikipedia: List of members of the Federal Trade Commission']
+      - name: MacIntyre, A. Everette
+        acting: true
+        from: '1970-08-08'
+        to: '1970-09-14'
+        src: ['Wikipedia: List of members of the Federal Trade Commission']
+      - name: Kirkpatrick, Miles W.
+        from: '1970-09-15'
+        to: '1973-02-20'
+        out: Resigned.
+        src: ['Wikipedia: List of members of the Federal Trade Commission', CDIR 1971-03, CDIR 1973-03]
+      - name: Engman, Lewis A.
+        from: '1973-02-21'
+        n: Served to Dec. 31, 1975.
+        src: ['Wikipedia: List of members of the Federal Trade Commission', CDIR 1973-12]
+  - id: commissioner
+    title: Commissioner
+    rank: principal
+    appt: PAS
+    many: true
+    law:
+      - act: Federal Executive Salary Act of 1964
+        date: '1964-08-14'
+        effective: '1964-07'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(d)(61), 78 Stat. 400, 419'
+        usc: '5 U.S.C. § 5315 (1970)'
+        does: Members at Level IV, $27,000.
+    n: Five commissioners, the chairman among them.
+    holders:
+      - name: Mason, Lowell B.
+        from: '1945'
+        to: '1956'
+        n: 'Republican. Chairman, 1949–50. Reappointed 1949 for seven years. Check: the day he took office and the day he left; the Directory lists him in Jan. 1956, not in Mar. 1957.'
+        src: ['Wikipedia: Lowell B. Mason', CDIR 1953-03, CDIR 1956-01]
+      - name: Carson, John J.
+        from: '1948-09-28'
+        to: '1953-03-31'
+        n: 'Check: his biography says he served from 1949.'
+        src: ['Wikipedia: List of members of the Federal Trade Commission', CDIR 1953-03]
+      - name: Mead, James M.
+        from: '1949-11-15'
+        to: '1955-09-25'
+        n: Democrat; former Senator from New York. Chairman, 1950–53.
+        src: ['Wikipedia: James M. Mead', CDIR 1955-02]
+      - name: Spingarn, Stephen J.
+        from: '1950-10-25'
+        to: '1953-09-25'
+        n: Democrat; formerly administrative assistant to Truman.
+        src: ['Wikipedia: Stephen J. Spingarn', CDIR 1953-03]
+      - name: Carretta, Albert A.
+        from: '1952'
+        to: '1954'
+        n: 'Check: the dates of his service; the Directory lists him in Mar. 1953 and Jan. 1954, not in Feb. 1955.'
+        src: [CDIR 1953-03, CDIR 1954-01]
+      - name: Gwynne, John W.
+        from: '1953'
+        to: '1959-05-31'
+        n: 'Republican; former Representative from Iowa. Chairman from Sept. 12, 1955. Check: the day he took office (appointed 1953; listed Jan. 1954).'
+        src: ['Wikipedia: John W. Gwynne', CDIR 1954-01, CDIR 1959-03]
+      - name: Howrey, Edward F.
+        from: '1953-04-01'
+        to: '1955-09-12'
+        out: Resigned.
+        n: Republican. Chairman throughout.
+        src: ['Wikipedia: Edward F. Howrey']
+      - name: Secrest, Robert T.
+        from: '1954-09'
+        to: '1961'
+        n: 'Democrat; resigned from the House Sept. 26, 1954, to take the seat. Check: the day he took office and the day he left (listed Apr. 1961, not Jan. 1962).'
+        src: ['Wikipedia: Robert T. Secrest', CDIR 1955-02, CDIR 1961-04]
+      - name: Anderson, Sigurd
+        from: '1955'
+        to: '1964'
+        n: 'Republican; former Governor of South Dakota. Check: the dates (listed Jan. 1956 to Jan. 1964, not Mar. 1965).'
+        src: ['Wikipedia: Sigurd Anderson', CDIR 1956-01, CDIR 1964-01]
+      - name: Kern, William C.
+        from: '1955'
+        to: '1962'
+        n: 'Democrat. Check: the dates (listed Jan. 1956 to Jan. 1962, not Mar. 1963).'
+        src: [CDIR 1956-01, CDIR 1962-01]
+      - name: Tait, Edward T.
+        from: '1956'
+        to: '1960'
+        n: 'Republican; formerly executive assistant to the SEC chairman. Check: the dates (listed Mar. 1957 to Jan. 1960; seat vacant Apr. 1961).'
+        src: [CDIR 1957-03, CDIR 1960-01]
+      - name: Kintner, Earl W.
+        from: '1959-06-11'
+        to: '1961-03-20'
+        n: General Counsel of the Commission, 1953–59. Chairman throughout.
+        src: ['Wikipedia: Earl W. Kintner']
+      - name: Dixon, Paul Rand
+        from: '1961-03-21'
+        n: Democrat. Chairman to Dec. 31, 1969. Served to Sept. 25, 1981.
+        src: ['Wikipedia: List of members of the Federal Trade Commission']
+      - name: Elman, Philip
+        from: '1961-04-21'
+        to: '1970-10-18'
+        n: Independent; formerly in the Solicitor General's office.
+        src: ['Wikipedia: List of members of the Federal Trade Commission']
+      - name: MacIntyre, A. Everette
+        from: '1961-09-26'
+        to: '1973-08-30'
+        n: Democrat; FTC trial lawyer. Acting chairman, Aug. 8–Sept. 14, 1970.
+        src: ['Wikipedia: List of members of the Federal Trade Commission']
+      - name: Higginbotham, A. Leon, Jr.
+        from: '1962'
+        to: '1964'
+        out: To United States District Judge, Eastern District of Pennsylvania.
+        n: 'The first Negro member of a federal regulatory commission. Check: the dates (listed Mar. 1963 and Jan. 1964).'
+        src: ['Wikipedia: A. Leon Higginbotham Jr.', CDIR 1963-03, CDIR 1964-01]
+      - name: Reilly, John R.
+        from: '1964'
+        to: '1967'
+        n: 'Democrat. Check: the dates (listed Mar. 1965 to Dec. 1967; left 1967 per his biography).'
+        src: ['Wikipedia: John R. Reilly', CDIR 1965-03]
+      - name: Jones, Mary Gardiner
+        from: '1964-10-29'
+        to: '1973-11-02'
+        n: Republican. The first woman member.
+        src: ['Wikipedia: List of members of the Federal Trade Commission']
+      - name: Nicholson, James M.
+        from: '1967'
+        to: '1969'
+        n: 'Check: the dates (listed Mar. 1969, not Mar. 1971).'
+        src: [CDIR 1969-03]
+      - name: Weinberger, Caspar W.
+        from: '1969-12-31'
+        to: '1970-08-06'
+        out: To Deputy Director of the Bureau of the Budget.
+        n: Republican. Chairman.
+        src: ['Wikipedia: List of members of the Federal Trade Commission']
+      - name: Kirkpatrick, Miles W.
+        from: '1970-09-14'
+        to: '1973-02-20'
+        n: Republican. Chairman.
+        src: ['Wikipedia: List of members of the Federal Trade Commission']
+      - name: Dennison, David S., Jr.
+        from: '1970-10-18'
+        to: '1973-12-31'
+        n: Republican; former Representative from Ohio.
+        src: ['Wikipedia: List of members of the Federal Trade Commission']
+      - name: Engman, Lewis A.
+        from: '1973-02-20'
+        n: Republican. Chairman. Served to Dec. 31, 1975.
+        src: ['Wikipedia: List of members of the Federal Trade Commission']
+      - name: Thompson, Mayo J.
+        from: '1973-07-08'
+        n: Democrat. Served to Sept. 26, 1975.
+        src: ['Wikipedia: List of members of the Federal Trade Commission', CDIR 1973-12]
+      - name: Hanford, Elizabeth
+        from: '1973-12-04'
+        n: Formerly director of the White House Office of Consumer Affairs; later Elizabeth Hanford Dole. Served to Mar. 9, 1979.
+        src: ['Wikipedia: List of members of the Federal Trade Commission', CDIR 1973-12]
+      - name: Nye, Stephen A.
+        from: '1974-05-05'
+        n: Republican. Served to May 5, 1978.
+        src: ['Wikipedia: List of members of the Federal Trade Commission']
