@@ -152,6 +152,103 @@ offices:
         n: Served concurrently as Assistant to the President for National Security Affairs until Nov 3, 1975.
         src:
           - POCOM
+  - id: special-assistants
+    title: Special Assistant to the Secretary of State
+    rank: inferior
+    appt: HD
+    under: secretary
+    group: Office of the Secretary
+    many: true
+    n: The Secretary's special assistants and advisers, with their designations.
+    holders:
+      - name: Hanes, John W., Jr.
+        from: '1953-01-21'
+        to: '1957-04-08'
+        out: To Deputy Assistant Secretary for International Organization Affairs.
+        src:
+          - FRUS persons list
+      - name: O’Connor, Roderic L.
+        from: '1953-01-21'
+        to: '1957-05-28'
+        out: To Administrator, Bureau of Security and Consular Affairs.
+        n: Assistant to the Secretary from Jan. 21, 1953; Special Assistant from Feb. 21, 1954.
+        src:
+          - FRUS persons list
+          - POCOM
+      - name: Bernau, Phyllis D.
+        title: Personal Assistant to the Secretary
+        from: '1953-01-21'
+        to: '1963'
+        n: 'Personal assistant to Dulles; Personal Assistant to the Secretary in CDIR 1961-04. Check: the days.'
+        src:
+          - FRUS persons list
+          - CDIR 1961-04
+      - name: Nolting, Frederick E., Jr.
+        title: Special Assistant to the Secretary for Mutual Security Affairs
+        from: '1953-08-04'
+        to: '1955'
+        n: 'Acting to Jan. 4, 1954. Check: the day he left.'
+        src:
+          - FRUS persons list
+      - name: Greene, Joseph N., Jr.
+        from: '1957-10-21'
+        to: '1959'
+        n: 'Director of the Executive Secretariat, Sept. 9, 1956–Oct. 21, 1957 (FRUS; another list calls him Deputy Director). Check: the day he left.'
+        src:
+          - FRUS persons list
+      - name: Lacy, William S. B.
+        title: Special Assistant to the Secretary for East-West Exchanges
+        from: '1958'
+        to: '1961'
+        n: 'Check: the days; in CDIR 1961-04.'
+        src:
+          - CDIR 1961-04
+      - name: Bohlen, Charles E.
+        given: Charles Eustis
+        title: Special Assistant to the Secretary (Soviet affairs)
+        from: '1959'
+        to: 1962-10
+        out: To Ambassador to France.
+        n: 'Check: the days; in CDIR 1961-04 and 1962-01.'
+        src:
+          - CDIR 1961-04
+      - name: Whitman, Walter G.
+        title: Science Adviser
+        from: '1960'
+        to: '1962'
+        n: 'Check: the days; in CDIR 1961-04.'
+        src:
+          - FRUS persons list
+          - CDIR 1961-04
+      - name: Farley, Philip J.
+        title: Special Assistant to the Secretary for Atomic Energy and Outer Space
+        from: '1961'
+        to: 1962-03
+        n: 'FRUS: August 1961–March 1962; in CDIR 1961-04 already. Check: the day he took office.'
+        src:
+          - FRUS persons list
+          - CDIR 1961-04
+      - name: Riddleberger, James W.
+        given: James Williams
+        from: '1961-02-23'
+        to: 1961-08
+        n: Head of the U.S. delegation to the Development Assistance Group meeting, July 1961.
+        src:
+          - FRUS persons list
+      - name: Garthoff, Raymond L.
+        title: Special Assistant for Politico-Military Affairs
+        from: 1962-02
+        to: '1964'
+        n: 'Check: the day he left.'
+        src:
+          - FRUS persons list
+      - name: Sullivan, William H.
+        title: Special Assistant to the Secretary for Vietnamese Affairs; head of the interagency Vietnam Coordinating Committee
+        from: 1964-03
+        to: 1964-11
+        out: To Ambassador to Laos.
+        src:
+          - FRUS persons list
   - id: under-secretary
     title: Under Secretary of State
     titles:
@@ -271,6 +368,13 @@ offices:
         src:
           - FRUS persons list
           - CDIR 1953-03
+      - name: Barnes, Robert G.
+        title: Special Assistant to the Under Secretary for Mutual Security Affairs
+        from: '1956-03-11'
+        to: '1958'
+        n: 'Check: the day he left.'
+        src:
+          - FRUS persons list
       - name: Donhauser, Robert
         title: Special Assistant to the Deputy Under Secretary, then the Under Secretary, for Political Affairs
         from: 1958-03
@@ -427,22 +531,6 @@ offices:
         to: '1976-06-30'
         src:
           - POCOM
-  - id: under-secretary-economic-1972
-    title: Under Secretary of State for Economic Affairs
-    rank: principal
-    appt: PAS
-    under: secretary
-    level: III
-    from: '1972-07-13'
-    n: A permanent post by the Foreign Relations Authorization Act of 1972 (Pub. L. 92-352, § 103).
-    holders:
-      - name: Casey, William J.
-        given: William Joseph
-        appointed: '1973-02-02'
-        from: '1973-02-02'
-        to: '1974-03-14'
-        src:
-          - POCOM
   - id: under-secretary-economic
     title: Under Secretary of State for Economic Affairs
     rank: principal
@@ -465,6 +553,22 @@ offices:
         appointed: '1958-06-30'
         from: '1958-07-01'
         to: '1959-06-11'
+        src:
+          - POCOM
+  - id: under-secretary-economic-1972
+    title: Under Secretary of State for Economic Affairs
+    rank: principal
+    appt: PAS
+    under: secretary
+    level: III
+    from: '1972-07-13'
+    n: A permanent post by the Foreign Relations Authorization Act of 1972 (Pub. L. 92-352, § 103).
+    holders:
+      - name: Casey, William J.
+        given: William Joseph
+        appointed: '1973-02-02'
+        from: '1973-02-02'
+        to: '1974-03-14'
         src:
           - POCOM
   - id: under-secretary-administration
@@ -2356,6 +2460,13 @@ offices:
         to: '1969-01-10'
         src:
           - POCOM
+      - name: Greenwald, Joseph A.
+        acting: true
+        from: 1969-01
+        to: '1969-07-08'
+        n: 'Acting in CDIR 1969-03. Check: the days.'
+        src:
+          - CDIR 1969-03
       - name: Trezise, Philip H.
         given: Philip Harold
         appointed: '1969-07-08'
@@ -2498,12 +2609,27 @@ offices:
         to: '1969-01-31'
         src:
           - POCOM
+      - name: Phillips, Richard I.
+        acting: true
+        from: '1969'
+        to: '1970-01-06'
+        n: 'Acting in CDIR 1969-12. Check: the days.'
+        src:
+          - CDIR 1969-12
       - name: Collins, Michael
         appointed: '1969-12-15'
         from: '1970-01-06'
         to: '1971-04-11'
         src:
           - POCOM
+      - name: Richardson, John, Jr.
+        acting: true
+        from: 1971-04
+        to: '1973-10-10'
+        n: 'Assistant Secretary for Educational and Cultural Affairs; acting in CDIR 1971-12 and 1973-03. Check: the days.'
+        src:
+          - CDIR 1971-12
+          - CDIR 1973-03
       - name: Laise, Carol C.
         given: Caroline Clendening
         appointed: '1973-09-20'
@@ -2604,6 +2730,13 @@ offices:
         to: '1973-01-08'
         src:
           - POCOM
+      - name: Wright, Marshall
+        acting: true
+        from: 1973-01
+        to: '1973-05-29'
+        n: 'Deputy Assistant Secretary; acting in CDIR 1973-03. Check: the day he began to act.'
+        src:
+          - CDIR 1973-03
       - name: Wright, Marshall
         given: William Marshall
         appointed: '1973-05-24'
@@ -2825,11 +2958,18 @@ offices:
           - POCOM
       - name: Hanes, John W., Jr.
         from: 1959-01
-        to: '1962'
-        n: 'Check: the days of taking and leaving office.'
+        to: '1961'
+        n: 'Check: the days; Huston acting in CDIR 1961-04.'
         src:
           - FRUS persons list
           - CDIR 1960-01
+      - name: Huston, Harris H.
+        acting: true
+        from: '1961'
+        to: '1962-10-05'
+        n: 'Deputy Administrator; acting in CDIR 1961-04. Check: the days; CDIR 1962-01 lists the post vacant, Michel Cieplinski Deputy Administrator.'
+        src:
+          - CDIR 1961-04
       - name: Schwartz, Abba P.
         given: Abba Philip
         appointed: '1962-09-14'
@@ -2837,6 +2977,20 @@ offices:
         to: '1966-03-06'
         src:
           - POCOM
+      - name: Heymann, Philip B.
+        acting: true
+        from: '1966'
+        to: '1967'
+        n: 'Acting in CDIR 1967-02. Check: the days.'
+        src:
+          - CDIR 1967-02
+      - name: Watson, Barbara M.
+        acting: true
+        from: '1967'
+        to: '1968-08-12'
+        n: 'Acting in CDIR 1967-12. Check: the day she began to act.'
+        src:
+          - CDIR 1967-12
       - name: Watson, Barbara M.
         given: Barbara Mae
         appointed: '1968-07-31'
@@ -3546,6 +3700,14 @@ offices:
         src:
           - POCOM
       - name: Smoak, Marion H.
+        acting: true
+        from: 1972-07
+        to: '1974-03-01'
+        n: 'Acting Chief, with the rank of Ambassador (POCOM); in CDIR 1973-03 and 1973-12. Check: the day he began to act.'
+        src:
+          - POCOM
+          - CDIR 1973-03
+      - name: Smoak, Marion H.
         given: Marion Hartzog
         appointed: '1974-03-01'
         from: '1974-03-01'
@@ -3945,6 +4107,25 @@ offices:
         n: Section 8(b) of Reorganization Plan No. 7 abolished the Administrator’s position, effective Aug 1, 1953. Section 9(b) authorized the President to allow the incumbent to occupy his position for up to 60 days.
         src:
           - POCOM
+  - id: mutual-security-coordination
+    title: Deputy Coordinator for Mutual Security
+    titles:
+      - title: Deputy Coordinator for Foreign Assistance
+        from: '1961'
+    rank: inferior
+    appt: HD
+    under: under-secretary
+    group: Foreign assistance
+    until: '1961-11-04'
+    n: In the Office of the Under Secretary, who coordinated the mutual security programs.
+    holders:
+      - name: Bell, John O.
+        from: 1958-12
+        to: '1961-11-04'
+        out: To Ambassador to Guatemala.
+        src:
+          - FRUS persons list
+          - CDIR 1961-04
   - id: inspector-general-foreign-assistance
     title: Inspector General, Foreign Assistance
     rank: principal
@@ -3971,7 +4152,21 @@ offices:
         appointed: '1969-11-04'
         from: '1969-11-06'
         to: '1971-02-26'
-        n: 'The following served as Acting Inspectors General: Anthony Faunce (Feb 1971-Mar 1973) and John P. Constandy (Jun 1973-May 1974).'
+        src:
+          - POCOM
+      - name: Faunce, Anthony
+        acting: true
+        from: 1971-02
+        to: 1973-03
+        n: Deputy Inspector General (POCOM).
+        src:
+          - POCOM
+          - CDIR 1971-12
+      - name: Constandy, John P.
+        acting: true
+        from: 1973-06
+        to: 1974-05
+        n: POCOM.
         src:
           - POCOM
       - name: Todd, Webster B., Jr.
@@ -4059,100 +4254,3 @@ offices:
         n: Deputy Secretary of State; Acting Secretary of State.
         src:
           - POCOM
-  - id: special-assistants
-    title: Special Assistant to the Secretary of State
-    rank: inferior
-    appt: HD
-    under: secretary
-    group: Office of the Secretary
-    many: true
-    n: The Secretary's special assistants and advisers, with their designations.
-    holders:
-      - name: Hanes, John W., Jr.
-        from: '1953-01-21'
-        to: '1957-04-08'
-        out: To Deputy Assistant Secretary for International Organization Affairs.
-        src:
-          - FRUS persons list
-      - name: O’Connor, Roderic L.
-        from: '1953-01-21'
-        to: '1957-05-28'
-        out: To Administrator, Bureau of Security and Consular Affairs.
-        n: Assistant to the Secretary from Jan. 21, 1953; Special Assistant from Feb. 21, 1954.
-        src:
-          - FRUS persons list
-          - POCOM
-      - name: Bernau, Phyllis D.
-        title: Personal Assistant to the Secretary
-        from: '1953-01-21'
-        to: '1963'
-        n: 'Personal assistant to Dulles; Personal Assistant to the Secretary in CDIR 1961-04. Check: the days.'
-        src:
-          - FRUS persons list
-          - CDIR 1961-04
-      - name: Nolting, Frederick E., Jr.
-        title: Special Assistant to the Secretary for Mutual Security Affairs
-        from: '1953-08-04'
-        to: '1955'
-        n: 'Acting to Jan. 4, 1954. Check: the day he left.'
-        src:
-          - FRUS persons list
-      - name: Greene, Joseph N., Jr.
-        from: '1957-10-21'
-        to: '1959'
-        n: 'Director of the Executive Secretariat, Sept. 9, 1956–Oct. 21, 1957 (FRUS; another list calls him Deputy Director). Check: the day he left.'
-        src:
-          - FRUS persons list
-      - name: Lacy, William S. B.
-        title: Special Assistant to the Secretary for East-West Exchanges
-        from: '1958'
-        to: '1961'
-        n: 'Check: the days; in CDIR 1961-04.'
-        src:
-          - CDIR 1961-04
-      - name: Bohlen, Charles E.
-        given: Charles Eustis
-        title: Special Assistant to the Secretary (Soviet affairs)
-        from: '1959'
-        to: 1962-10
-        out: To Ambassador to France.
-        n: 'Check: the days; in CDIR 1961-04 and 1962-01.'
-        src:
-          - CDIR 1961-04
-      - name: Whitman, Walter G.
-        title: Science Adviser
-        from: '1960'
-        to: '1962'
-        n: 'Check: the days; in CDIR 1961-04.'
-        src:
-          - FRUS persons list
-          - CDIR 1961-04
-      - name: Farley, Philip J.
-        title: Special Assistant to the Secretary for Atomic Energy and Outer Space
-        from: '1961'
-        to: 1962-03
-        n: 'FRUS: August 1961–March 1962; in CDIR 1961-04 already. Check: the day he took office.'
-        src:
-          - FRUS persons list
-          - CDIR 1961-04
-      - name: Riddleberger, James W.
-        given: James Williams
-        from: '1961-02-23'
-        to: 1961-08
-        n: Head of the U.S. delegation to the Development Assistance Group meeting, July 1961.
-        src:
-          - FRUS persons list
-      - name: Garthoff, Raymond L.
-        title: Special Assistant for Politico-Military Affairs
-        from: 1962-02
-        to: '1964'
-        n: 'Check: the day he left.'
-        src:
-          - FRUS persons list
-      - name: Sullivan, William H.
-        title: Special Assistant to the Secretary for Vietnamese Affairs; head of the interagency Vietnam Coordinating Committee
-        from: 1964-03
-        to: 1964-11
-        out: To Ambassador to Laos.
-        src:
-          - FRUS persons list

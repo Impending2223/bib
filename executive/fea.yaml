@@ -1,0 +1,52 @@
+# The Federal Energy Administration, from June 28, 1974. Kept by hand. Its predecessor, the Federal Energy
+# Office in the Executive Office of the President, is executive/feo.yaml.
+# See tools/bib/executive.py for the fields. Run ./bib executive check after editing.
+unit: fea
+name: Federal Energy Administration
+under: president
+order: 500
+from: '1974-06-28'
+law:
+  - act: Federal Energy Administration Act of 1974
+    date: '1974-05-07'
+    tags: [creates, powers]
+    cite: 'Pub. L. 93-275, §§ 2–5, 88 Stat. 96, 97'
+    usc: ['15 U.S.C. §§ 761–764 (1970 Supp. IV)']
+    does: 'Establishes an independent agency in the executive branch, the Federal Energy Administration, to assure adequate energy supplies, allocate and price fuels, and plan for energy self-sufficiency; the functions of the Federal Energy Office and of other agencies over oil allocation, conservation, and data transferred to it. The Act to terminate June 30, 1976.'
+  - act: Executive Order 11790
+    date: '1974-06-25'
+    tags: [creates]
+    url: https://www.presidency.ucsb.edu/documents/executive-order-11790-providing-for-the-effectuation-the-federal-energy-administration-act
+    does: Provides for the effectuation of the Act; the Federal Energy Office's functions and personnel to the Administration.
+offices:
+  - id: administrator
+    title: Administrator
+    rank: head
+    appt: PAS
+    level: II
+    law:
+      - act: Federal Energy Administration Act of 1974
+        date: '1974-05-07'
+        tags: [appointment, powers, pay]
+        cite: 'Pub. L. 93-275, § 4(a)–(b), 88 Stat. 96, 97'
+        usc: '15 U.S.C. § 763 (1970 Supp. IV)'
+        does: An Administrator at the head, appointed by the President, by and with the advice and consent of the Senate, at Level II; the functions and powers of the Administration vested in him.
+    holders:
+      - name: Sawhill, John C.
+        from: '1974-06-28'
+        n: Administrator of the Federal Energy Office from May 9, 1974. Served to Dec. 18, 1974 (Wikipedia).
+        src: ['Wikipedia: John C. Sawhill', executive/feo.yaml]
+  - id: deputy-administrator
+    title: Deputy Administrator
+    rank: principal
+    appt: PAS
+    level: III
+    many: true
+    law:
+      - act: Federal Energy Administration Act of 1974
+        date: '1974-05-07'
+        tags: [creates, appointment, pay]
+        cite: 'Pub. L. 93-275, § 4(c), 88 Stat. 96, 97'
+        usc: '15 U.S.C. § 763(c) (1970 Supp. IV)'
+        does: Two Deputy Administrators, appointed by the President with the advice and consent of the Senate, at Level III; six Assistant Administrators, likewise appointed, at Level IV.
+    n: 'Check: the Deputy Administrators in office by Aug. 31, 1974.'
