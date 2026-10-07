@@ -471,11 +471,11 @@ def election_sentences(sur, given, sfx="", strict=False):
                 "cong": (int(y) - 1788) // 2 + 1, "ch": r["ch"], "st": r["st"], "date": d["date"],
                 "election": ptr(f"{SITE}congress.html#{erid(y, r)}", fmt(d["date"])),
                 "seat": f"Senate, {BLUEBOOK.get(r['st'], r['st'])}" if r["ch"] == "s" else f"{r['st']}-{r['seat'] or 'AL'}",
-                "result": what,
-                "cands": [cand(me["n"], me.get("p"), (f"{me['v']:,}" + (f" ({pct(me['v'], tot)})" if tot else ""))
-                               if me.get("v") else ("unopposed; no vote printed" if len(cs) == 1 else ""), True)]
-                         + [cand(c["n"], c.get("p"), f"{c['v']:,}" + (f" ({pct(c['v'], tot)})" if tot else ""))
-                            for c in cs if c is not me and c.get("v")],
+                "result": "",
+                # every candidate by the final tally, the person among them in bold
+                "cands": [cand(c["n"], c.get("p"), (f"{c['v']:,}" + (f" ({pct(c['v'], tot)})" if tot else "")) if c.get("v")
+                               else ("unopposed; no vote printed" if len(cs) == 1 else ""), c is me)
+                          for c in sorted((c for c in cs if c is me or c.get("v")), key=lambda c: -(c.get("v") or 0))],
                 "src": a(url + (f"#page={r['page']}" if r.get("page") else ""),
                          f"Clerk {y}" + (f", p. {r['page']}" if r.get("page") else ""))}
         out += ticket_rows(y, d, url, mine)
@@ -671,9 +671,10 @@ def ticket_rows(y, d, url, mine):
         result = "Elected" if won else "Defeated"
         share = lambda x: f"{pv.get(x, 0):,} ({pct(pv.get(x, 0), allv)})" if pv.get(x) else ""
         line = lambda n2, k2, e2: "; ".join(x for x in (f"{e2} EV" if e2 else "", share(k2) if k2 else "") if x)
-        others = [cand(n2, letter.get(k2, "") if k2 else "", line(n2, k2, e2))
+        # every candidate by electoral votes, then popular; the person among them in bold
+        field_ = [cand(n2, letter.get(k2, "") if k2 else "", line(n2, k2, e2), (n2, k2) == (n, k))
                   for n2, k2, e2 in sorted(field, key=lambda f: (-f[2], -pv.get(f[1], 0)))
-                  if (n2, k2) != (n, k) and (e2 or pv.get(k2, 0) >= allv * 0.01)]
+                  if (n2, k2) == (n, k) or e2 or pv.get(k2, 0) >= allv * 0.01]
         t = (f"{result.split(' (')[0]} {'to' if won else 'for'} the office of {office}, {fmt(d['date'])}: {e} electoral "
              f"votes; {share(k)} popular." if k else f"{office}, {fmt(d['date'])}: {e} electoral votes.")
         out.append(sent(d["date"], t, [a(url, f"Clerk, Election Statistics {y}")],
@@ -681,15 +682,17 @@ def ticket_rows(y, d, url, mine):
                         dates={d["date"]}))
         out[-1]["row"] = {
             "cong": None, "ch": "p" if office == "President" else "v", "st": "", "date": d["date"],
-            "election": ptr(f"{SITE}congress.html#e{y}", fmt(d["date"])), "seat": office, "result": result,
-            "cands": [cand(n, lt, line(n, k, e), True)] + others, "src": a(url, f"Clerk {y}")}
+            "election": ptr(f"{SITE}congress.html#e{y}", fmt(d["date"])), "seat": office, "result": "",
+            "cands": field_, "src": a(url, f"Clerk {y}")}
     return out
 
 
 def record_html(rows, rosters):
     """The record in Congress, a table after the life: a row an election, with the Congress it chose and the seat at
     that Congress's opening; a row a Congress where the member sat at its opening without an election here (a Senator
-    between elections); a row a presidential candidacy. Every cite and pointer the running text gave."""
+    between elections, "Continuing"); a row a candidacy for President or Vice President. The candidates by the final
+    tally (electoral votes, then popular), the person in bold: where he stands shows how he did. Every cite and
+    pointer the running text gave."""
     from .congress import BLUEBOOK
     seats = {(c, ch): (day, st, p, seat) for day, c, ch, st, p, seat in rosters}
     used, out = set(), []
@@ -710,7 +713,7 @@ def record_html(rows, rosters):
     if not out:
         return ""
     out.sort(key=lambda x: (x[1][:4], x[0]))
-    head = "<tr><th>Election<br>Congress</th><th>Seat<br>Result</th><th>Candidates<br>Source</th></tr>"
+    head = "<tr><th>Election<br>Congress</th><th>Seat</th><th>Candidates<br>Source</th></tr>"
     two = lambda a_, b_: f"{a_}<br>{b_}" if a_ and b_ else (a_ or b_)
     body = "".join(
         f"<tr><td>{two(el, cg)}</td><td>{two(seat, res)}</td>"
