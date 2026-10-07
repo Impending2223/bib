@@ -149,9 +149,11 @@ offices:
         appointed: '1966-08-01'
         from: '1966-08-03'
         to: '1969-01-10'
+        n: 'Check: the Plum Book of Sept. 30, 1968, prints level III (p. 21); the Executive Schedule places the Administrator at level II (5 U.S.C. § 5313(3) (1970)).'
         src:
           - POCOM
           - Cong. Rec.
+          - 'Plum Book 1968, p. 21'
       - name: Poats, Rutherford M.
         acting: true
         from: 1969-01
@@ -170,6 +172,7 @@ offices:
           - POCOM
           - 'Wikipedia: John A. Hannah'
           - Cong. Rec.
+          - 'Plum Book 1972, p. 30'
       - name: Parker, Daniel
         nominated: '1973-09-07'
         confirmed: '1973-10-12'
@@ -254,6 +257,7 @@ offices:
         src:
           - FRUS persons list
           - Cong. Rec.
+          - 'Plum Book 1968, p. 21'
       - name: Williams, Maurice J.
         from: 1971-01
         n: 'Assistant Administrator for Near East and South Asia in CDIR 1969-12; Deputy Administrator in CDIR 1971-03 and after. Check: the day he took office.'
@@ -261,6 +265,7 @@ offices:
           - CDIR 1971-03
           - CDIR 1973-12
           - FRUS persons list
+          - 'Plum Book 1972, p. 30'
   - id: executive-secretary
     title: Executive Secretary of the Agency for International Development
     rank: employee
@@ -349,10 +354,15 @@ offices:
       - name: Farmer, Thomas L.
         from: '1964'
         to: '1968'
-        n: 'Check: the days; General Counsel in CDIR 1965-03 through 1967-12.'
+        n: 'Check: the days; General Counsel in CDIR 1965-03 through 1967-12. Not in the Plum Book of Sept. 30, 1968 (p. 24 gives Stephen Ives).'
         src:
           - CDIR 1965-03
           - CDIR 1967-12
+      - name: Ives, Stephen B.
+        from: '1968'
+        to: '1970'
+        n: In office Sept. 30, 1968 (Plum Book); listed in CDIR, Mar. and Dec. 1969; Farmer listed in Dec. 1967. Check both dates.
+        src: [CDIR 1969-03, CDIR 1969-12, 'Plum Book 1968, p. 24']
       - name: Wray, Robert T.
         from: '1970'
         to: '1971'
@@ -365,6 +375,7 @@ offices:
         src:
           - CDIR 1971-12
           - CDIR 1973-12
+          - 'Plum Book 1972, p. 30'
   - id: program-coordination
     title: Director, Program Review and Coordination Staff
     titles:
@@ -415,6 +426,254 @@ offices:
         src:
           - FRUS persons list
           - Cong. Rec.
+      - name: Clark, Paul G.
+        title: Assistant Administrator for Program and Policy Coordination
+        confirmed: '1967-12-01'
+        from: '1967-12'
+        to: '1969'
+        n: Listed in CDIR, Mar. 1969; Ernest Stern in Dec. 1969. Check both dates.
+        src: [Cong. Rec., CDIR 1969-03, 'Plum Book 1968, p. 21']
+      - name: Birnbaum, Philip
+        title: Assistant Administrator for Program and Policy Coordination
+        from: '1972'
+        n: In office Sept. 15, 1972 (Plum Book); Ernest Stern listed in CDIR, Dec. 1971. Listed in CDIR, Mar. and Dec. 1973. Check both dates.
+        src: [CDIR 1973-03, CDIR 1973-12, 'Plum Book 1972, p. 30']
+  - id: administration
+    title: Assistant Administrator for Administration
+    rank: inferior
+    appt: PAS
+    level: IV
+    from: '1961-11-03'
+    law:
+      - act: 'Federal Executive Salary Act of 1964'
+        date: '1964-08-14'
+        effective: '1964-07'
+        until: '1966-09-06'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(d)(5), 78 Stat. 400, 417'
+        usc: '5 U.S.C. § 2211(d) (1964)'
+        does: 'Level IV, $27,000 a year ("Assistant Administrators, Agency for International Development (6)").'
+      - act: 'Act of Sept. 6, 1966 (Title 5 enacted)'
+        date: '1966-09-06'
+        until: '1967-12'
+        tags: [pay]
+        cite: 'Pub. L. 89-554, 80 Stat. 378, 461'
+        usc: '5 U.S.C. § 5315 (1970)'
+        does: 'Level IV continued, $27,000 a year (§ 5315(5)).'
+      - act: 'Federal Salary Act of 1967'
+        date: '1967-12-16'
+        effective: '1967-12'
+        until: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 215(b), 81 Stat. 613, 638'
+        usc: '5 U.S.C. § 5315 (1970)'
+        does: 'Level IV raised to $28,750 a year.'
+      - act: 'Federal Salary Act of 1967, § 225'
+        date: '1967-12-16'
+        effective: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644'
+        usc: '2 U.S.C. §§ 358–360 (1970)'
+        does: 'Level IV, $38,000 a year, on the President''s recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).'
+    
+    n: 'One of the Assistant Administrators of the Foreign Assistance Act of 1961, § 624(a). Check: the date the office was set up.'
+    holders:
+      - name: Lee, H. Rex
+        nominated: '1967-08-21'
+        from: '1967'
+        to: '1968'
+        out: To the Federal Communications Commission.
+        n: Nominated vice William O. Hall. Listed in CDIR, Dec. 1967, and in the Plum Book of Sept. 30, 1968 (p. 21). Confirmed to the Federal Communications Commission Sept. 16, 1968. Check both dates.
+        src: [Cong. Rec., CDIR 1967-12, 'Plum Book 1968, p. 21']
+      - name: Campbell, James F.
+        nominated: '1971-08-02'
+        confirmed: '1971-08-06'
+        from: '1971-08'
+        n: 'Nominated vice Lane Dwinell, resigned. Listed in CDIR, Dec. 1971; Assistant Administrator for Program and Management Services in the Plum Book of Sept. 15, 1972 (p. 30), and in CDIR, Mar. and Dec. 1973. Check: the day he took office, and the date of the new title.'
+        src: [Cong. Rec., CDIR 1971-12, CDIR 1973-12, 'Plum Book 1972, p. 30']
+  - id: private-resources
+    title: Assistant Administrator for Private Resources
+    rank: inferior
+    appt: PAS
+    level: IV
+    from: '1966'
+    law:
+      - act: 'Federal Executive Salary Act of 1964'
+        date: '1964-08-14'
+        effective: '1964-07'
+        until: '1966-09-06'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(d)(5), 78 Stat. 400, 417'
+        usc: '5 U.S.C. § 2211(d) (1964)'
+        does: 'Level IV, $27,000 a year ("Assistant Administrators, Agency for International Development (6)").'
+      - act: 'Act of Sept. 6, 1966 (Title 5 enacted)'
+        date: '1966-09-06'
+        until: '1967-12'
+        tags: [pay]
+        cite: 'Pub. L. 89-554, 80 Stat. 378, 461'
+        usc: '5 U.S.C. § 5315 (1970)'
+        does: 'Level IV continued, $27,000 a year (§ 5315(5)).'
+      - act: 'Federal Salary Act of 1967'
+        date: '1967-12-16'
+        effective: '1967-12'
+        until: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 215(b), 81 Stat. 613, 638'
+        usc: '5 U.S.C. § 5315 (1970)'
+        does: 'Level IV raised to $28,750 a year.'
+      - act: 'Federal Salary Act of 1967, § 225'
+        date: '1967-12-16'
+        effective: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644'
+        usc: '2 U.S.C. §§ 358–360 (1970)'
+        does: 'Level IV, $38,000 a year, on the President''s recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).'
+    
+    n: 'Assistant Administrator for Development Finance and Private Enterprise at first. One of the Assistant Administrators of the Foreign Assistance Act of 1961, § 624(a). Check: the date the office was set up.'
+    holders:
+      - name: Salzman, Herbert
+        confirmed: '1966-10-12'
+        from: '1966-10'
+        to: '1971'
+        n: Confirmed as Assistant Administrator for Development Finance and Private Enterprise. Listed in CDIR, Feb. 1967 to Dec. 1969. Confirmed Executive Vice President of the Overseas Private Investment Corporation Dec. 17, 1970. Check both dates.
+        src: [Cong. Rec., CDIR 1967-02, CDIR 1969-12, 'Plum Book 1968, p. 21']
+  - id: war-on-hunger
+    title: Assistant Administrator for War on Hunger
+    rank: inferior
+    appt: PAS
+    level: IV
+    from: '1966'
+    law:
+      - act: 'Federal Executive Salary Act of 1964'
+        date: '1964-08-14'
+        effective: '1964-07'
+        until: '1966-09-06'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(d)(5), 78 Stat. 400, 417'
+        usc: '5 U.S.C. § 2211(d) (1964)'
+        does: 'Level IV, $27,000 a year ("Assistant Administrators, Agency for International Development (6)").'
+      - act: 'Act of Sept. 6, 1966 (Title 5 enacted)'
+        date: '1966-09-06'
+        until: '1967-12'
+        tags: [pay]
+        cite: 'Pub. L. 89-554, 80 Stat. 378, 461'
+        usc: '5 U.S.C. § 5315 (1970)'
+        does: 'Level IV continued, $27,000 a year (§ 5315(5)).'
+      - act: 'Federal Salary Act of 1967'
+        date: '1967-12-16'
+        effective: '1967-12'
+        until: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 215(b), 81 Stat. 613, 638'
+        usc: '5 U.S.C. § 5315 (1970)'
+        does: 'Level IV raised to $28,750 a year.'
+      - act: 'Federal Salary Act of 1967, § 225'
+        date: '1967-12-16'
+        effective: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644'
+        usc: '2 U.S.C. §§ 358–360 (1970)'
+        does: 'Level IV, $38,000 a year, on the President''s recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).'
+    
+    n: 'One of the Assistant Administrators of the Foreign Assistance Act of 1961, § 624(a). Herbert J. Waters listed in CDIR, Feb. and Dec. 1967. Check: the date the office was set up.'
+    holders:
+      - name: James, H. Brooks
+        nominated: '1968-05-08'
+        confirmed: '1968-06-24'
+        from: '1968-06'
+        to: '1969'
+        n: Nominated vice Herbert J. Waters. In office Sept. 30, 1968 (Plum Book); Irwin R. Hedges acting in CDIR, Mar. 1969. Check both dates.
+        src: [Cong. Rec., 'Plum Book 1968, p. 21']
+  - id: technical-assistance
+    title: Assistant Administrator for Technical Assistance
+    rank: inferior
+    appt: PAS
+    level: IV
+    from: '1969'
+    law:
+      - act: 'Federal Executive Salary Act of 1964'
+        date: '1964-08-14'
+        effective: '1964-07'
+        until: '1966-09-06'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(d)(5), 78 Stat. 400, 417'
+        usc: '5 U.S.C. § 2211(d) (1964)'
+        does: 'Level IV, $27,000 a year ("Assistant Administrators, Agency for International Development (6)").'
+      - act: 'Act of Sept. 6, 1966 (Title 5 enacted)'
+        date: '1966-09-06'
+        until: '1967-12'
+        tags: [pay]
+        cite: 'Pub. L. 89-554, 80 Stat. 378, 461'
+        usc: '5 U.S.C. § 5315 (1970)'
+        does: 'Level IV continued, $27,000 a year (§ 5315(5)).'
+      - act: 'Federal Salary Act of 1967'
+        date: '1967-12-16'
+        effective: '1967-12'
+        until: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 215(b), 81 Stat. 613, 638'
+        usc: '5 U.S.C. § 5315 (1970)'
+        does: 'Level IV raised to $28,750 a year.'
+      - act: 'Federal Salary Act of 1967, § 225'
+        date: '1967-12-16'
+        effective: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644'
+        usc: '2 U.S.C. §§ 358–360 (1970)'
+        does: 'Level IV, $38,000 a year, on the President''s recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).'
+    
+    n: 'One of the Assistant Administrators of the Foreign Assistance Act of 1961, § 624(a). Check: the date the office was set up.'
+    holders:
+      - name: Bernstein, Joel
+        confirmed: '1969-09-18'
+        from: '1969-09'
+        n: 'Listed in CDIR, Dec. 1969 to Dec. 1973; in office Sept. 15, 1972 (Plum Book). Check: the day he took office and the day he left.'
+        src: [Cong. Rec., CDIR 1969-12, CDIR 1973-12, 'Plum Book 1972, p. 30']
+  - id: population-humanitarian
+    title: Assistant Administrator for Population and Humanitarian Assistance
+    rank: inferior
+    appt: PAS
+    level: IV
+    from: '1972'
+    law:
+      - act: 'Federal Executive Salary Act of 1964'
+        date: '1964-08-14'
+        effective: '1964-07'
+        until: '1966-09-06'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(d)(5), 78 Stat. 400, 417'
+        usc: '5 U.S.C. § 2211(d) (1964)'
+        does: 'Level IV, $27,000 a year ("Assistant Administrators, Agency for International Development (6)").'
+      - act: 'Act of Sept. 6, 1966 (Title 5 enacted)'
+        date: '1966-09-06'
+        until: '1967-12'
+        tags: [pay]
+        cite: 'Pub. L. 89-554, 80 Stat. 378, 461'
+        usc: '5 U.S.C. § 5315 (1970)'
+        does: 'Level IV continued, $27,000 a year (§ 5315(5)).'
+      - act: 'Federal Salary Act of 1967'
+        date: '1967-12-16'
+        effective: '1967-12'
+        until: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 215(b), 81 Stat. 613, 638'
+        usc: '5 U.S.C. § 5315 (1970)'
+        does: 'Level IV raised to $28,750 a year.'
+      - act: 'Federal Salary Act of 1967, § 225'
+        date: '1967-12-16'
+        effective: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644'
+        usc: '2 U.S.C. §§ 358–360 (1970)'
+        does: 'Level IV, $38,000 a year, on the President''s recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).'
+    
+    n: 'One of the Assistant Administrators of the Foreign Assistance Act of 1961, § 624(a). Check: the date the office was set up.'
+    holders:
+      - name: Kieffer, Jarold A.
+        nominated: '1972-03-22'
+        from: '1972'
+        n: 'In office Sept. 15, 1972 (Plum Book); listed in CDIR, Mar. and Dec. 1973. Check: the day he took office and the day he left.'
+        src: [Cong. Rec., CDIR 1973-03, CDIR 1973-12, 'Plum Book 1972, p. 30']
   - id: latin-america
     title: Regional Director for Latin American Operations
     titles:
@@ -484,6 +743,12 @@ offices:
           - 'Wikipedia: Teodoro Moscoso'
           - CDIR 1963-03
           - Cong. Rec.
+      - name: Kleine, Herman
+        nominated: '1971-09-10'
+        confirmed: '1971-09-29'
+        from: '1972'
+        n: 'Nominated an Assistant Administrator, vice Albert H. Moseman, resigned. Acting Assistant Administrator for Africa, 1967. In office for Latin America Sept. 15, 1972 (Plum Book); listed in CDIR, Mar. and Dec. 1973. Check: the day he took this office.'
+        src: [Cong. Rec., CDIR 1973-03, CDIR 1973-12, 'Plum Book 1972, p. 30']
   - id: far-east
     title: Regional Director for Far East, Foreign Operations
     titles:
@@ -572,6 +837,7 @@ offices:
         src:
           - FRUS persons list
           - Cong. Rec.
+          - 'Plum Book 1968, p. 21'
       - name: O’Connor, Roderic L.
         from: 1969-08
         to: 1971-06
@@ -584,6 +850,7 @@ offices:
         src:
           - CDIR 1973-03
           - CDIR 1973-12
+          - 'Plum Book 1972, p. 30'
   - id: near-east
     title: Regional Director for Near East, South Asia, and Africa, Foreign Operations
     titles:
@@ -683,16 +950,20 @@ offices:
           - FRUS persons list
           - Cong. Rec.
       - name: Williams, Maurice J.
-        from: '1969'
+        nominated: '1967-03-08'
+        from: '1967'
         to: '1971'
         out: To Deputy Administrator.
-        n: 'Check: the days; in CDIR 1969-12.'
+        n: 'Nominated Mar. 8, 1967, vice Macomber. Listed in CDIR, Dec. 1967 and Dec. 1969; in office Sept. 30, 1968 (Plum Book). Check: the days.'
         src:
           - CDIR 1969-12
+          - Cong. Rec.
+          - CDIR 1967-12
+          - 'Plum Book 1968, p. 22'
       - name: MacDonald, Donald G.
         from: '1971'
         to: '1972'
-        n: 'Check: the days; in CDIR 1971-03 and 1971-12.'
+        n: 'Check: the days; in CDIR 1971-03 and 1971-12. Check: no Near East and South Asia line in the Plum Book of Sept. 15, 1972 (p. 30 gives MacDonald as Assistant Administrator for Asia).'
         src:
           - CDIR 1971-03
           - CDIR 1971-12
@@ -774,6 +1045,20 @@ offices:
         n: 'Acting Assistant Administrator for Africa in CDIR 1967-02. Check: the days.'
         src:
           - CDIR 1967-02
+      - name: Straus, R. Peter
+        nominated: '1967-04-20'
+        confirmed: '1967-05-10'
+        from: '1967-05'
+        to: '1969'
+        out: Resigned.
+        n: Adams nominated Oct. 2, 1969, vice Straus, resigned. Check both dates.
+        src: [Cong. Rec., 'Plum Book 1968, p. 21']
+      - name: Adams, Samuel C., Jr.
+        nominated: '1969-10-02'
+        confirmed: '1969-10-30'
+        from: '1969-10'
+        n: 'Ambassador to Niger, 1968–69. In office Sept. 15, 1972 (Plum Book). Check: the day he took office and the day he left.'
+        src: [Cong. Rec., 'Plum Book 1972, p. 30']
   - id: vietnam
     title: Assistant Administrator for Vietnam
     rank: inferior
@@ -799,14 +1084,28 @@ offices:
         does: 'Level IV, $38,000 a year, on the President''s recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).'
     n: 'The Bureau for Vietnam. Check: the date it was set up.'
     holders:
+      - name: Grant, James P.
+        confirmed: '1967-06-26'
+        from: '1967'
+        to: '1969'
+        out: Resigned.
+        n: Confirmed as an Assistant Administrator. In office for Vietnam Sept. 30, 1968 (Plum Book); Mendenhall acting in CDIR, Mar. 1969. Nooter nominated Feb. 4, 1970, vice Grant, resigned. Check both dates.
+        src: [Cong. Rec., 'Plum Book 1968, p. 21']
       - name: Mendenhall, Joseph A.
         acting: true
         from: '1968'
         to: 1970-01
-        n: 'Acting Assistant Administrator, Bureau for Vietnam, in CDIR 1969-03 and 1969-12; until January 1970. Check: the day he began.'
+        n: 'Acting Assistant Administrator, Bureau for Vietnam, in CDIR 1969-03 and 1969-12; until January 1970. Check: the day he began. Check: the Plum Book of Sept. 30, 1968, gives James P. Grant as Assistant Administrator (p. 21).'
         src:
           - FRUS persons list
           - CDIR 1969-03
+      - name: Nooter, Robert H.
+        given: Robert Harry
+        nominated: '1970-02-04'
+        confirmed: '1970-03-23'
+        from: '1970-03'
+        n: 'Nominated vice Grant, resigned. Assistant Administrator for Supporting Assistance in the Plum Book of Sept. 15, 1972 (p. 30), and in CDIR, Mar. and Dec. 1973. Check: the day he took office, and when the Bureau for Vietnam became the Bureau for Supporting Assistance.'
+        src: [Cong. Rec., CDIR 1973-03, CDIR 1973-12, 'Plum Book 1972, p. 30']
   - id: vietnam-office
     title: Director, Office of Vietnam Affairs
     rank: employee
