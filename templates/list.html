@@ -135,6 +135,7 @@ ol.e>li:last-child{border-bottom:0}
 
   // build nested outline (contents + drawer)
   function buildTree(ol){
+    if(!ol) return;                  // a page without a contents list (the Lives)
     var stack=[{level:1,el:ol}];
     heads.forEach(function(h){
       var L=lvl(h);

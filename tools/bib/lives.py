@@ -253,6 +253,39 @@ def roster_href(day):
     return max(j for j, t in enumerate(X.TERMS) if t[0] <= day)
 
 
+THE = {"Soviet Union", "United Kingdom", "Netherlands", "Philippines", "Holy See", "Dominican Republic", "Bahamas",
+       "Gambia", "Central African Republic", "United Arab Emirates", "United Arab Republic", "Ivory Coast",
+       "Marshall Islands", "Maldives", "Seychelles", "Comoros", "Solomon Islands", "Czech Republic",
+       "Slovak Republic", "Kyrgyz Republic"}
+TITLE_STOP = {"department", "office", "united", "states", "administration", "agency", "bureau", "service",
+              "commission", "council", "board", "national", "federal", "with", "from", "the", "and", "for"}
+
+
+def the(place):
+    """'the Soviet Union', 'the United Nations'; 'India', 'UNESCO'."""
+    lead = place.split(" (")[0].split(";")[0]
+    org = lead.startswith(("United Nations", "Organization", "North Atlantic", "European", "International"))
+    return f"the {place}" if lead in THE or org or lead.startswith("Congo") else place
+
+
+def shown_title(u, o, h):
+    """(title, acting prefix wanted): the office as a reader needs it outside its unit. A chief of mission by his
+    post ('Ambassador to the Soviet Union'); an office whose title does not name its agency, with the agency
+    ('Commissioner, Federal Trade Commission')."""
+    from . import executive as X
+    raw = h.get("title") or X.title_at(o, h["from"])
+    if u["unit"] == "missions":
+        place = X.title_at(o, h["from"])
+        org = (o.get("group") or "") == "International organizations"
+        if h.get("acting"):
+            return f"Chargé d'Affaires ad interim {'to' if org else 'in'} {the(place)}", False
+        return f"{h.get('title') or ('Representative' if org else 'Ambassador')} to {the(place)}", True
+    words = lambda t: set(re.findall(r"[a-z]{4,}", fold(t))) - TITLE_STOP
+    if u.get("name") and not words(raw) & words(u["name"]):
+        return f"{raw}, {u['name']}", True
+    return raw, True
+
+
 def office_sentences(sur, given, names=None):
     """Each office held, with the ex officio offices held by virtue of it after it."""
     from . import executive as X, executive_sources as S
@@ -286,8 +319,9 @@ def office_sentences(sur, given, names=None):
             pairs.insert(0, ("recess appointment", h["recess"]))
         extra = "; " + X.dates_run(pairs) if pairs else ""
         out_ = " " + to_html(h["out"]).rstrip(".") + "." if h.get("out") else ""
-        acting = "Acting " if h.get("acting") and not title.startswith("Acting") else ""
-        t = f"{acting}{esc(title)} {when(h)}{extra}.{out_}"
+        shown, prefix = shown_title(u, o, h)
+        acting = "Acting " if prefix and h.get("acting") and not shown.startswith("Acting") else ""
+        t = f"{acting}{esc(shown)} {when(h)}{extra}.{out_}"
         ext, intl = cites(u, o, h)
         ds = {str(h[k]) for k in ("from", "to", "nominated", "confirmed", "appointed") if h.get(k)}
         out.append(sent(h["from"], t, ext, intl, para=not h.get("acting"), kind="office", dates=ds))
@@ -296,13 +330,13 @@ def office_sentences(sur, given, names=None):
             if (xh.get("title") or "") == title or (xh.get("title") and xh["title"] in title):
                 w = when(xh, h)
                 ext, intl = cites(xu, xo_, xh)
-                t = f"{esc(X.title_at(xo_, xh['from']))}, ex officio{', ' + w if w else ''}."
+                t = f"{esc(shown_title(xu, xo_, xh)[0])}, ex officio{', ' + w if w else ''}."
                 out.append(sent(h["from"], t, ext, intl, kind="xo"))
                 xh["_placed"] = True
     for xu, xo_, xh in xo:
         if not xh.pop("_placed", False):
             ext, intl = cites(xu, xo_, xh)
-            out.append(sent(xh["from"], f"{esc(X.title_at(xo_, xh['from']))}, ex officio, {when(xh)}.", ext, intl,
+            out.append(sent(xh["from"], f"{esc(shown_title(xu, xo_, xh)[0])}, ex officio, {when(xh)}.", ext, intl,
                             kind="office"))
     return out
 
@@ -470,7 +504,8 @@ def election_sentences(sur, given, sfx="", strict=False):
             out[-1]["row"] = {
                 "cong": (int(y) - 1788) // 2 + 1, "ch": r["ch"], "st": r["st"], "date": d["date"],
                 "election": ptr(f"{SITE}congress.html#{erid(y, r)}", fmt(d["date"])),
-                "seat": f"Senate, {BLUEBOOK.get(r['st'], r['st'])}" if r["ch"] == "s" else f"{r['st']}-{r['seat'] or 'AL'}",
+                "seat": f"Senate, {BLUEBOOK.get(r['st'], r['st'])}" if r["ch"] == "s" else
+                        f"{BLUEBOOK.get(r['st'], r['st'])}-{r['seat'] or 'AL'}",
                 "result": "",
                 # every candidate by the final tally, the person among them in bold
                 "cands": [cand(c["n"], c.get("p"), (f"{c['v']:,}" + (f" ({pct(c['v'], tot)})" if tot else "")) if c.get("v")
@@ -630,7 +665,7 @@ def pct(v, tot):
     return f"{x:.1f}%" if x >= 0.05 else "<0.1%"
 
 
-PARTY_LETTER = {"Democratic": "D", "Republican": "R", "American Independent": "AI", "Libertarian": "L",
+PARTY_LETTER = {"Democratic": "D", "Republican": "R", "American Independent": "AIP", "Libertarian": "L",
                 "Socialist Labor": "SL", "Unpledged Democratic": "U"}
 
 
@@ -669,7 +704,7 @@ def ticket_rows(y, d, url, mine):
         lt = letter.get(k, "")
         won = k == winner
         result = "Elected" if won else "Defeated"
-        share = lambda x: f"{pv.get(x, 0):,} ({pct(pv.get(x, 0), allv)})" if pv.get(x) else ""
+        share = lambda x: f"{pv.get(x, 0):,} PV ({pct(pv.get(x, 0), allv)})" if pv.get(x) else ""
         line = lambda n2, k2, e2: "; ".join(x for x in (f"{e2} EV" if e2 else "", share(k2) if k2 else "") if x)
         # every candidate by electoral votes, then popular; the person among them in bold
         field_ = [cand(n2, letter.get(k2, "") if k2 else "", line(n2, k2, e2), (n2, k2) == (n, k))
@@ -683,8 +718,21 @@ def ticket_rows(y, d, url, mine):
         out[-1]["row"] = {
             "cong": None, "ch": "p" if office == "President" else "v", "st": "", "date": d["date"],
             "election": ptr(f"{SITE}congress.html#e{y}", fmt(d["date"])), "seat": office, "result": "",
+            "exec": exec_pointer(n, office, f"{int(y) + 1}-01-20") if k == winner else "",
             "cands": field_, "src": a(url, f"Clerk {y}")}
     return out
+
+
+def exec_pointer(name, office, day):
+    """'Exec. 1965', to the office in the term the election chose, as the roster holds it."""
+    from . import executive as X
+    sur = last_word(name)
+    for u, o, h in holders_of(sur):
+        if str(h.get("from")) <= day <= str(h.get("to") or "9999") and X.title_at(o, day) in (office, f"{office} of the United States") \
+                and fold(split_name(h["name"])[1].split()[0] if split_name(h["name"])[1] else "") == fold(name.split()[0]):
+            i = roster_href(day)
+            return ptr(f"{SITE}executive.html#{X.rid_for()(i, u['unit'], o['id'])}", f"Exec. {X.TERMS[i][0][:4]}")
+    return ""
 
 
 def record_html(rows, rosters):
@@ -703,13 +751,13 @@ def record_html(rows, rosters):
             used.add(k)
         else:
             hit = None
-        out.append((r["cong"] or 0, r["date"], hit[2] if hit else "", r["election"], r["seat"], r["result"],
+        out.append((r["cong"] or 0, r["date"], hit[2] if hit else r.get("exec", ""), r["election"], r["seat"], r["result"],
                     "<br>".join(r["cands"]), r["src"]))
     for (c, ch), (day, st, p, seat) in seats.items():
         if (c, ch) in used:
             continue
-        where = f"Senate, {BLUEBOOK.get(st, st)}" if ch == "s" else f"{st}-{seat or 'AL'}"
-        out.append((c, day, p, "", where, "Continuing", "", ""))
+        where = f"Senate, {BLUEBOOK.get(st, st)}" if ch == "s" else f"{BLUEBOOK.get(st, st)}-{seat or 'AL'}"
+        out.append((c, day, p, "", where, "", "<i>Continuing</i>", ""))
     if not out:
         return ""
     out.sort(key=lambda x: (x[1][:4], x[0]))
@@ -931,10 +979,11 @@ def entry(series, linker, ptrs, p):
     works = series_works(series, linker, ptrs, name, subs, strict)
     sent_, named = frus_lists(name)
     ppp = app_list(name, sur)
-    out = [f'<section class="lv" id="{key_of(name)}"><h2 data-short="{esc(sur)}">{esc(name)}</h2>']
+    out = [f'<section class="lv" id="{key_of(name)}"><h2 id="{key_of(name)}-h" data-short="{esc(sur)}">{esc(name)}</h2>']
     if e:
         head = re.split(r";\s+", e["text"])[0]
         desc = head.split("), ", 1)[-1] if "), " in head else head.split(", ", 2)[-1]
+        desc = re.sub(r" and (?:an?) ", " and ", re.sub(r"^(?:an?) ", "", desc))   # 'Senator from Minnesota and Vice President' 
         out.append(f'<p class="lvd">{esc(desc[0].upper() + desc[1:])}. <span class="lvc">{bd_cite(e)}.</span></p>')
     else:
         roles = [(l, s_, x) for l, s_, x in subs if (s_.code or "").startswith("III") and x.get("r")]
@@ -984,14 +1033,17 @@ CSS = """<style>
 .lvd{font-size:.95rem}
 .lvs{font-size:.82rem;color:var(--muted)}
 p.lvl{margin:.5rem 0;line-height:1.55}
+ul.lvx{list-style:none;margin:.3rem 0 1rem;padding:0;columns:2;column-gap:1.5rem;font-size:.92rem;line-height:1.5}
+ul.lvx li{break-inside:avoid;padding-left:1em;text-indent:-1em}
+ul.lvx a{color:var(--ink);text-decoration:none}
+ul.lvx a:hover{text-decoration:underline;text-decoration-color:var(--muted)}
 .lvtw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:.3rem 0 .8rem}
 table.lvt{border-collapse:collapse;font-size:.82rem;line-height:1.35;min-width:100%}
 table.lvt th{font-family:var(--sans);font-size:.7rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;
   color:var(--muted);text-align:left;border-bottom:1px solid var(--rule,#ccc);padding:.25rem .5rem .25rem 0;white-space:nowrap}
 table.lvt td{vertical-align:top;padding:.3rem .6rem .3rem 0;border-bottom:1px solid var(--rule,#e5e5e5)}
-table.lvt td:nth-child(1){white-space:nowrap}
+table.lvt td:nth-child(-n+2){white-space:nowrap}
 table.lvt td:nth-child(3){padding-right:0}
-table.lvt td:nth-child(2){min-width:5.5em}
 table.lvt b{font-weight:600}
 table.lvt .lvv{white-space:nowrap}
 table.lvt .lvts,table.lvt .lvts a{color:var(--muted);font-size:.92em}
@@ -1090,8 +1142,8 @@ def pages(series, linker, template):
     index.append(f'<p class="lvs">{nav}</p>')
     for L in sorted(by_letter):
         ps = by_letter[L]
-        index.append(f'<h2 id="{L}" data-short="{L.upper()}">{L.upper()}</h2><p class="lvx">' + "; ".join(
-            f'<a href="lives-{L}.html#{key_of(p["name"])}">{esc(p["name"])}</a>' for p in ps) + ".</p>")
+        index.append(f'<h2 id="{L}" data-short="{L.upper()}">{L.upper()}</h2><ul class="lvx">' + "".join(
+            f'<li><a href="lives-{L}.html#{key_of(p["name"])}">{esc(p["name"])}</a></li>' for p in ps) + "</ul>")
         main = [f"<h1>Lives: {L.upper()}</h1>", f'<p class="lvs">{nav} · <a class="lvp" href="lives.html">Index</a></p>']
         for p in ps:
             try:

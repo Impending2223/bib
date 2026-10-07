@@ -70,10 +70,7 @@ def text(e, path):
     return (x.text or '').strip() if x is not None and x.text else ''
 
 
-THE = {'Soviet Union', 'United Kingdom', 'Netherlands', 'Philippines', 'Holy See', 'Dominican Republic', 'Bahamas',
-       'Gambia', 'Central African Republic', 'United Arab Emirates', 'United Arab Republic', 'Ivory Coast',
-       'Marshall Islands', 'Maldives', 'Seychelles', 'Comoros', 'Solomon Islands', 'Czech Republic',
-       'Slovak Republic', 'Kyrgyz Republic'}
+THE = L.THE                          # the countries English gives 'the' (tools/bib/lives.py)
 
 
 def country(tid, day):
