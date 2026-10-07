@@ -286,7 +286,8 @@ def office_sentences(sur, given, names=None):
             pairs.insert(0, ("recess appointment", h["recess"]))
         extra = "; " + X.dates_run(pairs) if pairs else ""
         out_ = " " + to_html(h["out"]).rstrip(".") + "." if h.get("out") else ""
-        t = f"{'Acting ' if h.get('acting') else ''}{esc(title)} {when(h)}{extra}.{out_}"
+        acting = "Acting " if h.get("acting") and not title.startswith("Acting") else ""
+        t = f"{acting}{esc(title)} {when(h)}{extra}.{out_}"
         ext, intl = cites(u, o, h)
         ds = {str(h[k]) for k in ("from", "to", "nominated", "confirmed", "appointed") if h.get(k)}
         out.append(sent(h["from"], t, ext, intl, para=not h.get("acting"), kind="office", dates=ds))
@@ -303,6 +304,61 @@ def office_sentences(sur, given, names=None):
             ext, intl = cites(xu, xo_, xh)
             out.append(sent(xh["from"], f"{esc(X.title_at(xo_, xh['from']))}, ex officio, {when(xh)}.", ext, intl,
                             kind="office"))
+    return out
+
+
+POCOM_URL = "https://history.state.gov/departmenthistory/people/"
+POCOM_END = {"Left post on": "Left post.", "Left post on or soon after": "Left post.", "Presented recall on":
+             "Presented recall.", "Died at post on": "Died at post.", "Relinquished charge": "Relinquished charge.",
+             "Superseded": "Superseded."}
+WINDOW = ("1953-01-20", "1974-08-31")
+
+
+def pocom_sentences(p, has_bd):
+    """From POCOM (sources/pocom.json, tools/lives/make_pocom.py): the years of birth and death where the Directory
+    gives none; the career type and home State; and the posts the Executive roster does not hold, those ended
+    before Jan. 20, 1953, or begun after Aug. 31, 1974."""
+    from .congress import STATE
+    d = cached("pocom", lambda: json.load(open(os.path.join(store.ROOT, "sources", "pocom.json"), encoding="utf-8"))
+               if os.path.exists(os.path.join(store.ROOT, "sources", "pocom.json")) else {})
+    pid = (d.get("match") or {}).get(key_of(p["name"]))
+    r = (d.get("persons") or {}).get(pid) if pid else None
+    if not r:
+        return []
+    cite = [a(POCOM_URL + pid, "POCOM")]
+    out = []
+    states = [{"DC": "the District of Columbia"}.get(x.upper()) or STATE.get(x.upper(), x.upper())
+              for x in r.get("states") or []]
+    home = ", of " + (" and ".join(states) if len(states) < 3 else ", ".join(states[:-1]) + ", and " + states[-1]) \
+        if states else ""
+    first = (r.get("posts") or [[None, "", ""]])[0]
+    k0 = r.get("birth") or (first[2] or first[1] or "")[:4]
+    if r.get("birth") and not has_bd:
+        out.append(sent(r["birth"], f"Born {r['birth']}.", cite, kind="pocom"))
+    if r.get("career") or home:
+        t = (r.get("career") or "") + home if r.get("career") else home[2:].capitalize()
+        out.append(sent(k0, f"{t}.", cite, kind="pocom"))
+    for label, ap, began, ended, end_note, note in r.get("posts") or []:
+        b = began or ap
+        if b and b <= WINDOW[1] and (ended or "9999") >= WINDOW[0]:
+            continue                     # the roster holds it
+        label = re.sub(r"\s+", " ", label)
+        if began:
+            t = f"{esc(label)} from {fmt(began)}" + (f" to {fmt(ended)}" if ended else "")
+            t += (f"; commissioned {fmt(ap)}" if ap and ap != began else "") + "."
+        elif ap:
+            t = f"Commissioned {esc(label)}, {fmt(ap)}."
+        else:
+            continue
+        if POCOM_END.get(end_note):
+            t += " " + POCOM_END[end_note]
+        elif end_note and not end_note.endswith(" on"):
+            t += " " + esc(end_note.rstrip(".")) + "."
+        if note:
+            t += " " + esc(re.sub(r"\s+", " ", note).rstrip(".")) + "."
+        out.append(sent(b, t, cite, para=True, kind="office", dates={x for x in (ap, began, ended) if x}))
+    if r.get("death") and not has_bd:
+        out.append(sent(f"{r['death']}-99", f"Died {r['death']}.", cite, kind="pocom"))
     return out
 
 
@@ -399,7 +455,7 @@ def election_sentences(sur, given, sfx="", strict=False):
             seat = "Senate" if r["ch"] == "s" else f"House, {r['st']}-{r['seat'] or 'AL'}"
             votes = f": {me['v']:,} votes{share}" + (f"; {others}" if others else "") if me.get("v") else (
                 ": unopposed, no vote printed" if len(cs) == 1 else "")
-            t = f"{what} to the {seat}{', ' + where if r['ch'] == 's' else ''}, {fmt(d['date'])}{votes}."
+            t = f"{what} {'to' if me.get('w') or inc else 'for'} the {seat}{', ' + where if r['ch'] == 's' else ''}, {fmt(d['date'])}{votes}."
             out.append(sent(d["date"], t, [clerk(r.get("page"))], [ptr(f"{SITE}congress.html#{erid(y, r)}", f"Election {y}")],
                             para=True, kind="election", dates={d["date"]}))
         p = d.get("president")
@@ -746,7 +802,7 @@ def entry(series, linker, ptrs, p):
     member = bool(rp)
     e = bd_entry(sur, given, member, () if member else person_words(sur, given, names), sfx)
     structured = (office_sentences(sur, given, names) + election_sentences(sur, given, sfx, strict)
-                  + calendar_sentences(ptrs, cal))
+                  + calendar_sentences(ptrs, cal) + pocom_sentences(p, bool(e)))
     life = merge(structured, bd_sentences(e) if e else [], rp)
     works = series_works(series, linker, ptrs, name, subs, strict)
     sent_, named = frus_lists(name)

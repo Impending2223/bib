@@ -1,0 +1,127 @@
+# POCOM matches by name
+
+Made by tools/lives/make_pocom.py: the persons of the Lives that the Executive roster does not already tie to POCOM, matched by name, with the evidence. Override in sources/pocom-matches.yaml (`Name: pocom-id`, or `Name: null` to refuse); then rerun the script.
+
+767 persons tied through the roster; 106 matched by name; 10 refused.
+
+## Matched
+
+- Aaron, David L. = [aaron-david-laurence](https://history.state.gov/departmenthistory/people/aaron-david-laurence) (David Laurence Aaron, 1938–): David L. and David Laurence: the middle names agree
+- Anders, William A. = [anders-william-allison](https://history.state.gov/departmenthistory/people/anders-william-allison) (William Allison Anders, 1933–): William A. and William Allison: the middle names agree
+- Armstrong, Anne L. = [armstrong-anne-legendre](https://history.state.gov/departmenthistory/people/armstrong-anne-legendre) (Anne Legendre Armstrong, 1927–2008): Anne L. and Anne Legendre: the middle names agree
+- Askew, Reubin = [askew-reubin-odonovan](https://history.state.gov/departmenthistory/people/askew-reubin-odonovan) (Reubin O’Donovan Askew, 1928–): Reubin and Reubin O’Donovan: the first name alone, and no one else on either side; born 1928, at work 1971
+- Baker, Howard H., Jr. = [baker-howard-henry](https://history.state.gov/departmenthistory/people/baker-howard-henry) (Howard Henry Baker, 1925–2014): born 1925, the Directory and POCOM
+- Bow, Frank T. = [bow-frank-townsend](https://history.state.gov/departmenthistory/people/bow-frank-townsend) (Frank Townsend Bow, 1901–1972): born 1901, the Directory and POCOM
+- Braddock, Daniel M. = [braddock-daniel-mccoy](https://history.state.gov/departmenthistory/people/braddock-daniel-mccoy) (Daniel McCoy Braddock, 1906–1980): Daniel M. and Daniel McCoy: the middle names agree
+- Britton, Theodore R., Jr. = [britton-theodore-roosevelt](https://history.state.gov/departmenthistory/people/britton-theodore-roosevelt) (Theodore Roosevelt Britton, 1925–): Theodore R. and Theodore Roosevelt: the middle names agree
+- Brock, Bill = [brock-william-emerson](https://history.state.gov/departmenthistory/people/brock-william-emerson) (William Emerson Brock, 1930–): born 1930, the Directory and POCOM
+- Brown, Robert L. = [brown-robert-lyle](https://history.state.gov/departmenthistory/people/brown-robert-lyle) (Robert Lyle Brown, 1920–): Robert L. and Robert Lyle: the middle names agree
+- Buckley, James L. = [buckley-james-lane](https://history.state.gov/departmenthistory/people/buckley-james-lane) (James Lane Buckley, 1923–): born 1923, the Directory and POCOM
+- Burns, Arthur F. = [burns-arthur-frank](https://history.state.gov/departmenthistory/people/burns-arthur-frank) (Arthur Frank Burns, 1904–1987): Arthur F. and Arthur Frank: the middle names agree
+- Capen, Richard G., Jr. = [capen-richard-goodwin](https://history.state.gov/departmenthistory/people/capen-richard-goodwin) (Richard Goodwin Capen, 1934–): Richard G. and Richard Goodwin: the middle names agree
+- Chisholm, Shirley = [chisholm-shirley-anita](https://history.state.gov/departmenthistory/people/chisholm-shirley-anita) (Shirley Anita Chisholm, 1924–2005): born 1924, the Directory and POCOM
+- Christopher, Warren = [christopher-warren-minor](https://history.state.gov/departmenthistory/people/christopher-warren-minor) (Warren Minor Christopher, 1925–2011): Warren and Warren Minor: the first name alone, and no one else on either side; born 1925, at work 1967
+- Clark, Mark W. = [clark-mark-wayne](https://history.state.gov/departmenthistory/people/clark-mark-wayne) (Mark Wayne Clark, 1896–1984): Mark W. and Mark Wayne: the middle names agree
+- Collins, James F. = [collins-james-franklin](https://history.state.gov/departmenthistory/people/collins-james-franklin) (James Franklin Collins, 1939–): James F. and James Franklin: the middle names agree
+- Cooper, Richard N. = [cooper-richard-newell](https://history.state.gov/departmenthistory/people/cooper-richard-newell) (Richard Newell Cooper, 1934–): Richard N. and Richard Newell: the middle names agree
+- Crocker, Chester A. = [crocker-chester-a](https://history.state.gov/departmenthistory/people/crocker-chester-a) (Chester A. Crocker, 1941–): Chester A. and Chester A.: the middle names agree
+- Crosby, Oliver S. = [crosby-oliver-sexsmith](https://history.state.gov/departmenthistory/people/crosby-oliver-sexsmith) (Oliver Sexsmith Crosby, 1920–2014): Oliver S. and Oliver Sexsmith: the middle names agree
+- Dam, Kenneth W. = [dam-kenneth-w](https://history.state.gov/departmenthistory/people/dam-kenneth-w) (Kenneth W. Dam, 1932–): Kenneth W. and Kenneth W.: the middle names agree
+- Dearborn, Henry V. = [dearborn-henry-mark-valpey](https://history.state.gov/departmenthistory/people/dearborn-henry-mark-valpey) (Henry Mark Valpey Dearborn, 1913–2013): Henry V. and Henry Mark Valpey: the middle names agree
+- Dent, Frederick B. = [dent-frederick-baily](https://history.state.gov/departmenthistory/people/dent-frederick-baily) (Frederick Baily Dent, 1922–): Frederick B. and Frederick Baily: the middle names agree
+- Derwinski, Edward J. = [derwinski-edward-j](https://history.state.gov/departmenthistory/people/derwinski-edward-j) (Edward J. Derwinski, 1926–2012): born 1926, the Directory and POCOM
+- Dominick, Peter H. = [dominick-peter-hoyt](https://history.state.gov/departmenthistory/people/dominick-peter-hoyt) (Peter Hoyt Dominick, 1915–1981): born 1915, the Directory and POCOM
+- Eagleburger, Lawrence S. = [eagleburger-lawrence-sidney](https://history.state.gov/departmenthistory/people/eagleburger-lawrence-sidney) (Lawrence Sidney Eagleburger, 1930–2011): Lawrence S. and Lawrence Sidney: the middle names agree
+- Earle, Ralph, II = [earle-ralph](https://history.state.gov/departmenthistory/people/earle-ralph) (Ralph Earle, 1928–): Ralph, II, and Ralph, II: the suffixes agree
+- Evans, Melvin H. = [evans-melvin-h](https://history.state.gov/departmenthistory/people/evans-melvin-h) (Melvin H. Evans, 1917–1984): Melvin H. and Melvin H.: the middle names agree
+- Flanigan, Peter M. = [flanigan-peter-magnus](https://history.state.gov/departmenthistory/people/flanigan-peter-magnus) (Peter Magnus Flanigan, 1923–2013): Peter M. and Peter Magnus: the middle names agree
+- Foley, Thomas S. = [foley-thomas-stephen](https://history.state.gov/departmenthistory/people/foley-thomas-stephen) (Thomas Stephen Foley, 1929–2013): born 1929, the Directory and POCOM
+- Gardner, Richard N. = [gardner-richard-newton](https://history.state.gov/departmenthistory/people/gardner-richard-newton) (Richard Newton Gardner, 1927–): Richard N. and Richard Newton: the middle names agree
+- Garthoff, Raymond L. = [garthoff-raymond-leonard](https://history.state.gov/departmenthistory/people/garthoff-raymond-leonard) (Raymond Leonard Garthoff, 1929–): Raymond L. and Raymond Leonard: the middle names agree
+- Gates, Thomas S., Jr. = [gates-thomas-sovereign](https://history.state.gov/departmenthistory/people/gates-thomas-sovereign) (Thomas Sovereign Gates, 1906–1983): Thomas S. and Thomas Sovereign: the middle names agree
+- Gilligan, John J. = [gilligan-john-joyce](https://history.state.gov/departmenthistory/people/gilligan-john-joyce) (John Joyce Gilligan, 1921–2013): born 1921, the Directory and POCOM
+- Goodby, James E. = [goodby-james-eugene](https://history.state.gov/departmenthistory/people/goodby-james-eugene) (James Eugene Goodby, 1929–): James E. and James Eugene: the middle names agree
+- Guthrie, D. Keith = [guthrie-donald-keith](https://history.state.gov/departmenthistory/people/guthrie-donald-keith) (Donald Keith Guthrie, 1936–2010): D. Keith and Donald Keith: the middle names agree
+- Haig, Alexander M., Jr. = [haig-alexander-meigs](https://history.state.gov/departmenthistory/people/haig-alexander-meigs) (Alexander Meigs Haig, 1924–2010): Alexander M. and Alexander Meigs: the middle names agree
+- Halperin, Morton H. = [halperin-morton-h](https://history.state.gov/departmenthistory/people/halperin-morton-h) (Morton H. Halperin, 1938–): Morton H. and Morton H.: the middle names agree
+- Hargrove, James W. = [hargrove-james-ward](https://history.state.gov/departmenthistory/people/hargrove-james-ward) (James Ward Hargrove, 1922–2004): James W. and James Ward: the middle names agree
+- Harrop, William C. = [harrop-william-caldwell](https://history.state.gov/departmenthistory/people/harrop-william-caldwell) (William Caldwell Harrop, 1929–): William C. and William Caldwell: the middle names agree
+- Heckler, Margaret M. = [heckler-margaret-mary-oshaughnessy](https://history.state.gov/departmenthistory/people/heckler-margaret-mary-oshaughnessy) (Margaret Mary O’Shaughnessy Heckler, 1931–): born 1931, the Directory and POCOM
+- Hills, Carla A. = [hills-carla-anderson](https://history.state.gov/departmenthistory/people/hills-carla-anderson) (Carla Anderson Hills, 1934–): Carla A. and Carla Anderson: the middle names agree
+- Holdridge, John H. = [holdridge-john-herbert](https://history.state.gov/departmenthistory/people/holdridge-john-herbert) (John Herbert Holdridge, 1924–2001): John H. and John Herbert: the middle names agree
+- Horan, Harold E. = [horan-harold-eugene](https://history.state.gov/departmenthistory/people/horan-harold-eugene) (Harold Eugene Horan, 1927–2008): Harold E. and Harold Eugene: the middle names agree
+- Hormats, Robert D. = [hormats-robert-david](https://history.state.gov/departmenthistory/people/hormats-robert-david) (Robert David Hormats, 1943–): Robert D. and Robert David: the middle names agree
+- Houdek, Robert G. = [houdek-robert-gordon](https://history.state.gov/departmenthistory/people/houdek-robert-gordon) (Robert Gordon Houdek, 1940–): Robert G. and Robert Gordon: the middle names agree
+- Howe, Jonathan T. = [howe-jonathan-trumbull](https://history.state.gov/departmenthistory/people/howe-jonathan-trumbull) (Jonathan Trumbull Howe, 1935–): Jonathan T. and Jonathan Trumbull: the middle names agree
+- Jones, Jim = [jones-james-robert](https://history.state.gov/departmenthistory/people/jones-james-robert) (James Robert Jones, 1939–): born 1939, the Directory and POCOM
+- Kamman, Curtis W. = [kamman-curtis-w](https://history.state.gov/departmenthistory/people/kamman-curtis-w) (Curtis W. Kamman, 1939–): Curtis W. and Curtis W.: the middle names agree
+- Kampelman, Max M. = [kampelman-max-m](https://history.state.gov/departmenthistory/people/kampelman-max-m) (Max M. Kampelman, 1920–2013): Max M. and Max M.: the middle names agree
+- Katz, Julius L. = [katz-julius-louis](https://history.state.gov/departmenthistory/people/katz-julius-louis) (Julius Louis Katz, 1925–2000): Julius L. and Julius Louis: the middle names agree
+- Kennedy, Joseph P. = [kennedy-joseph-patrick](https://history.state.gov/departmenthistory/people/kennedy-joseph-patrick) (Joseph Patrick Kennedy, 1888–1969): Joseph P. and Joseph Patrick: the middle names agree
+- Kennedy, Richard T. = [kennedy-richard-thomas](https://history.state.gov/departmenthistory/people/kennedy-richard-thomas) (Richard Thomas Kennedy, 1919–1998): Richard T. and Richard Thomas: the middle names agree
+- Kerry, John = [kerry-john-forbes](https://history.state.gov/departmenthistory/people/kerry-john-forbes) (John Forbes Kerry, 1943–): John and John Forbes: the first name alone, and no one else on either side; born 1943, at work 1968
+- Korologos, Tom C. = [korologos-tom-c](https://history.state.gov/departmenthistory/people/korologos-tom-c) (Tom C. Korologos, 1933–): Tom C. and Tom C.: the middle names agree
+- Kuter, Laurence S. = [kuter-laurence-sherman](https://history.state.gov/departmenthistory/people/kuter-laurence-sherman) (Laurence Sherman Kuter, 1905–1979): Laurence S. and Laurence Sherman: the middle names agree
+- Lewis, Samuel W. = [lewis-samuel-winfield](https://history.state.gov/departmenthistory/people/lewis-samuel-winfield) (Samuel Winfield Lewis, 1930–2014): Samuel W. and Samuel Winfield: the middle names agree
+- Lovett, Robert A. = [lovett-robert-abercrombie](https://history.state.gov/departmenthistory/people/lovett-robert-abercrombie) (Robert Abercrombie Lovett, 1895–1986): Robert A. and Robert Abercrombie: the middle names agree
+- Loy, Frank E. = [loy-frank-e](https://history.state.gov/departmenthistory/people/loy-frank-e) (Frank E. Loy, 1928–): Frank E. and Frank E.: the middle names agree
+- Mansfield, Mike = [mansfield-michael-joseph](https://history.state.gov/departmenthistory/people/mansfield-michael-joseph) (Michael Joseph Mansfield, 1903–2001): born 1903, the Directory and POCOM
+- McFarlane, Robert C. = [mcfarlane-robert-carl](https://history.state.gov/departmenthistory/people/mcfarlane-robert-carl) (Robert Carl McFarlane, 1937–): Robert C. and Robert Carl: the middle names agree
+- McGee, Gale W. = [mcgee-gale](https://history.state.gov/departmenthistory/people/mcgee-gale) (Gale McGee, 1915–1992): born 1915, the Directory and POCOM
+- McGovern, George = [mcgovern-george-stanley](https://history.state.gov/departmenthistory/people/mcgovern-george-stanley) (George Stanley McGovern, 1922–2012): born 1922, the Directory and POCOM
+- Miller, Robert H. = [miller-robert-hopkins](https://history.state.gov/departmenthistory/people/miller-robert-hopkins) (Robert Hopkins Miller, 1927–): Robert H. and Robert Hopkins: the middle names agree
+- Mink, Patsy T. = [mink-patsy-takemoto](https://history.state.gov/departmenthistory/people/mink-patsy-takemoto) (Patsy Takemoto Mink, 1927–2002): born 1927, the Directory and POCOM
+- Mondale, Walter F. = [mondale-walter-f](https://history.state.gov/departmenthistory/people/mondale-walter-f) (Walter F. Mondale, 1928–): born 1928, the Directory and POCOM
+- Moore, Jonathan = [moore-jonathan](https://history.state.gov/departmenthistory/people/moore-jonathan) (Jonathan Moore, 1932–2017): Jonathan and Jonathan: the first name alone, and no one else on either side; born 1932, at work 1973
+- Moore, Richard A. = [moore-richard-anthony](https://history.state.gov/departmenthistory/people/moore-richard-anthony) (Richard Anthony Moore, 1914–1995): Richard A. and Richard Anthony: the middle names agree
+- Moose, Richard M. = [moose-richard-menifee](https://history.state.gov/departmenthistory/people/moose-richard-menifee) (Richard Menifee Moose, 1932–2015): Richard M. and Richard Menifee: the middle names agree
+- Muskie, Edmund S. = [muskie-edmund-sixtus](https://history.state.gov/departmenthistory/people/muskie-edmund-sixtus) (Edmund Sixtus Muskie, 1914–1996): born 1914, the Directory and POCOM
+- Negroponte, John D. = [negroponte-john-dimitri](https://history.state.gov/departmenthistory/people/negroponte-john-dimitri) (John Dimitri Negroponte, 1939–): John D. and John Dimitri: the middle names agree
+- Nesen, Robert D. = [nesen-robert-dean](https://history.state.gov/departmenthistory/people/nesen-robert-dean) (Robert Dean Nesen, 1918–2005): Robert D. and Robert Dean: the middle names agree
+- Norton, Garrison = [norton-garrison](https://history.state.gov/departmenthistory/people/norton-garrison) (Garrison Norton, 1900–1995): Garrison and Garrison: the first name alone, and no one else on either side; born 1900, at work 1956
+- Phillips, Christopher H. = [phillips-christopher-h](https://history.state.gov/departmenthistory/people/phillips-christopher-h) (Christopher H. Phillips, 1920–2008): Christopher H. and Christopher H.: the middle names agree
+- Pryce, William T. = [pryce-william-t](https://history.state.gov/departmenthistory/people/pryce-william-t) (William T. Pryce, 1932–2006): William T. and William T.: the middle names agree
+- Rabb, Maxwell M. = [rabb-maxwell-m](https://history.state.gov/departmenthistory/people/rabb-maxwell-m) (Maxwell M. Rabb, 1910–2002): Maxwell M. and Maxwell M.: the middle names agree
+- Ray, Dixy Lee = [ray-dixy-lee](https://history.state.gov/departmenthistory/people/ray-dixy-lee) (Dixy Lee Ray, 1914–1994): Dixy Lee and Dixy Lee: the middle names agree
+- Reed, John H. = [reed-john-hathaway](https://history.state.gov/departmenthistory/people/reed-john-hathaway) (John Hathaway Reed, 1921–2012): John H. and John Hathaway: the middle names agree
+- Rockefeller, Nelson = [rockefeller-nelson-aldrich](https://history.state.gov/departmenthistory/people/rockefeller-nelson-aldrich) (Nelson Aldrich Rockefeller, 1908–1979): Nelson A. and Nelson Aldrich: the middle names agree
+- Rodman, Peter W. = [rodman-peter-warren](https://history.state.gov/departmenthistory/people/rodman-peter-warren) (Peter Warren Rodman, 1943–): Peter W. and Peter Warren: the middle names agree
+- Rondon, Fernando E. = [rondon-fernando-enrique](https://history.state.gov/departmenthistory/people/rondon-fernando-enrique) (Fernando Enrique Rondon, 1936–): Fernando E. and Fernando Enrique: the middle names agree
+- Salzman, Herbert = [salzman-herbert](https://history.state.gov/departmenthistory/people/salzman-herbert) (Herbert Salzman, 1916–1990): Herbert and Herbert: the first name alone, and no one else on either side; born 1916, at work 1966
+- Saunders, Harold H. = [saunders-harold-henry](https://history.state.gov/departmenthistory/people/saunders-harold-henry) (Harold Henry Saunders, 1930–2016): Harold H. and Harold Henry: the middle names agree
+- Sawyer, Charles = [sawyer-charles](https://history.state.gov/departmenthistory/people/sawyer-charles) (Charles Sawyer, 1887–1979): Charles and Charles: the first name alone, and no one else on either side; born 1887, at work 1948
+- Saxbe, William B. = [saxbe-william-bart](https://history.state.gov/departmenthistory/people/saxbe-william-bart) (William Bart Saxbe, 1916–2010): born 1916, the Directory and POCOM
+- Scranton, William W. = [scranton-william-warren](https://history.state.gov/departmenthistory/people/scranton-william-warren) (William Warren Scranton, 1917–2013): born 1917, the Directory and POCOM
+- Seignious, George M., II = [seignious-george-marion](https://history.state.gov/departmenthistory/people/seignious-george-marion) (George Marion Seignious, 1921–2005): George M. and George Marion: the middle names agree
+- Selin, Ivan = [selin-ivan](https://history.state.gov/departmenthistory/people/selin-ivan) (Ivan Selin, 1937–): Ivan and Ivan: the first name alone, and no one else on either side; born 1937, at work 1969
+- Shultz, George P. = [shultz-george-pratt](https://history.state.gov/departmenthistory/people/shultz-george-pratt) (George Pratt Shultz, 1920–2021): George P. and George Pratt: the middle names agree
+- Silberman, Laurence H. = [silberman-laurence-hirsch](https://history.state.gov/departmenthistory/people/silberman-laurence-hirsch) (Laurence Hirsch Silberman, 1935–): Laurence H. and Laurence Hirsch: the middle names agree
+- Smith, David S. = [smith-david-shiverick](https://history.state.gov/departmenthistory/people/smith-david-shiverick) (David Shiverick Smith, 1918–2012): David S. and David Shiverick: the middle names agree
+- Sneider, Richard L. = [sneider-richard-lee](https://history.state.gov/departmenthistory/people/sneider-richard-lee) (Richard Lee Sneider, 1922–1986): Richard L. and Richard Lee: the middle names agree
+- Solomon, Richard H. = [solomon-richard-h](https://history.state.gov/departmenthistory/people/solomon-richard-h) (Richard H. Solomon, 1937–2017): Richard H. and Richard H.: the middle names agree
+- Stone, Galen L. = [stone-galen-luther](https://history.state.gov/departmenthistory/people/stone-galen-luther) (Galen Luther Stone, 1921–): Galen L. and Galen Luther: the middle names agree
+- Stookey, Robert W. = [stookey-robert-wilson](https://history.state.gov/departmenthistory/people/stookey-robert-wilson) (Robert Wilson Stookey, 1917–1998): Robert W. and Robert Wilson: the middle names agree
+- Vance, Cyrus = [vance-cyrus-roberts](https://history.state.gov/departmenthistory/people/vance-cyrus-roberts) (Cyrus Roberts Vance, 1917–2002): Cyrus R. and Cyrus Roberts: the middle names agree
+- Vine, Richard D. = [vine-richard-david](https://history.state.gov/departmenthistory/people/vine-richard-david) (Richard David Vine, 1925–2008): Richard D. and Richard David: the middle names agree
+- Wallis, W. Allen = [wallis-w-allen](https://history.state.gov/departmenthistory/people/wallis-w-allen) (W. Allen Wallis, 1912–1998): W. Allen and W. Allen: the middle names agree
+- Walters, Vernon A. = [walters-vernon-a](https://history.state.gov/departmenthistory/people/walters-vernon-a) (Vernon A. Walters, 1917–2002): Vernon A. and Vernon A.: the middle names agree
+- Warnke, Paul = [warnke-paul-culliton](https://history.state.gov/departmenthistory/people/warnke-paul-culliton) (Paul Culliton Warnke, 1920–2001): Paul and Paul Culliton: the first name alone, and no one else on either side; born 1920, at work 1966
+- Webb, James E. = [webb-james-edwin](https://history.state.gov/departmenthistory/people/webb-james-edwin) (James Edwin Webb, 1906–1992): James E. and James Edwin: the middle names agree
+- Wilkey, Malcolm R. = [wilkey-malcolm-richard](https://history.state.gov/departmenthistory/people/wilkey-malcolm-richard) (Malcolm Richard Wilkey, 1918–2009): Malcolm R. and Malcolm Richard: the middle names agree
+- Wriggins, W. Howard = [wriggins-william-howard](https://history.state.gov/departmenthistory/people/wriggins-william-howard) (William Howard Wriggins, 1918–2008): W. Howard and William Howard: the middle names agree
+- Yeutter, Clayton = [yeutter-clayton-keith](https://history.state.gov/departmenthistory/people/yeutter-clayton-keith) (Clayton Keith Yeutter, 1930–2017): Clayton and Clayton Keith: the first name alone, and no one else on either side; born 1930, at work 1970
+- Young, Andrew J., Jr. = [young-andrew-jackson](https://history.state.gov/departmenthistory/people/young-andrew-jackson) (Andrew Jackson Young, 1932–): born 1932, the Directory and POCOM
+- Zurhellen, J. Owen, Jr. = [zurhellen-joseph-owen](https://history.state.gov/departmenthistory/people/zurhellen-joseph-owen) (Joseph Owen Zurhellen, 1920–1990): J. Owen and Joseph Owen: the middle names agree
+
+## Refused
+
+- Baker, Howard H.: baker-howard-henry: born 1902 (the Directory), 1925 (POCOM)
+- Campbell, John C.: campbell-john-allen: John C. and John: nothing beyond the first name, and born 1944
+- Dawson, William L.: dawson-william: born 1886 (the Directory), 1885 (POCOM)
+- Dodd, Thomas J.: dodd-thomas-j: born 1907 (the Directory), 1935 (POCOM)
+- Fairbanks, Richard M., III: fairbanks-richard: Richard M. and Richard: nothing beyond the first name, and born 1941
+- Harvey, James: harvey-james-e: born 1922 (the Directory), 1820 (POCOM)
+- Nicholson, James M.: nicholson-james-jim: James M. and James (Jim): nothing beyond the first name, and born 1938
+- O'Leary, John F.: oleary-john: John F. and John: nothing beyond the first name, and born 1947
+- Strauss, Robert: strauss-robert-schwarz: Robert and Robert Schwarz: nothing beyond the first name, and no year of work in the series
+- Walker, E. S. Johnny: walker-edward-s: born 1911 (the Directory), 1940 (POCOM)

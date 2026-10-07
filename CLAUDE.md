@@ -403,7 +403,16 @@ tools/lives/frus_names.py     sources/frus-names/<letter>.json and volumes.json:
 tools/lives/app_corpus.py     the APP documents of 1953-74, read once into a local corpus (resumable; about 2 hours)
 tools/lives/app_names.py      sources/app-index.jsonl and sources/app-names/<letter>.json: the documents that name each
                               person, matched in the corpus
+tools/lives/make_pocom.py     sources/pocom.json: POCOM's years of birth and death, career type, home State, and every
+                              State post, for the persons POCOM holds (python3 tools/lives/make_pocom.py POCOM_DIR);
+                              notes/pocom-matches.md, the matches made by name, with the evidence, and those refused
+sources/pocom-matches.yaml    kept by hand: overrides to the name matches (Name: pocom-id, or Name: null)
 ```
+
+POCOM in a life: the years of birth and death where the Directory gives none; "Career Foreign Service officer" or
+"Non-career appointee", with the home State; and the State posts the roster does not hold (ended before Jan. 20,
+1953, or begun after Aug. 31, 1974), each cited POCOM and linked to the person's page. The roster's own POCOM ties
+decide who is whom; anyone else is matched by name only with evidence (the rules: the script's docstring).
 
 Rerun `frus_names.py --all` and `app_names.py` after adding people; the build needs no network.
 
