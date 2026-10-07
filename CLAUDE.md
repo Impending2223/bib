@@ -357,6 +357,20 @@ notes/executive-brief.md      the brief for whoever adds to the roster, person o
   end of mission. Others from the Congressional Directory (each session), the Senate's records, department
   histories, and Wikipedia's lists for nominations. "Check" in a note marks a detail still to verify.
 
+## Lives (prototype)
+
+`./bib lives 'Humphrey, Hubert H.' [--site URL] [--out FILE]` writes `build/lives.html`: a name entry for each
+person named, a chronology with pincites (the Biographical Directory, the Executive roster, the Congress rosters
+and changes, the elections, the calendar), then the person's writings, FRUS documents sent, papers and other
+primary sources, works about, and the FRUS and APP documents that name the person. Not yet in `./bib build`.
+
+```
+tools/bib/lives.py            renders the entries (STYLE notes at the top)
+tools/lives/make_bd.py        sources/bd/<letter>.json: the 2005 printed Biographical Directory on govinfo, by page
+tools/lives/frus_names.py     sources/frus-names/<person>.json: the FRUS documents that name or were sent by a person
+tools/lives/app_names.py      sources/app-names/<person>.json: the APP documents that name a person (phrase search)
+```
+
 ## Special elections
 
 Specials held between general elections are not in the Clerk's biennial *Statistics*, which print
