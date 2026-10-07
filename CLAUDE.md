@@ -350,12 +350,71 @@ notes/executive-brief.md      the brief for whoever adds to the roster, person o
 - Names as Part III writes them ("Rusk, Dean"), so the pointers find them; `given` for full given names.
 - Sources (`src`), in the forms the line reads: `CDIR 1961-04` (an edition), `Cong. Rec.` (the Senate's days of
   nomination and confirmation), `Cong. Rec. Index 1961`, `POCOM`, `FRUS persons list[, 1961–63, V]`,
-  `FRUS 1961–63, IX, doc. 144`, `Wikipedia: Title`, `APP[ YYYY-MM-DD]`, `Federal Register, Jan. 20, 1953`, a URL,
+  `FRUS 1961–63, IX, doc. 144`, `Wikipedia: Title`, `APP[ YYYY-MM-DD]`, `Federal Register, Jan. 20, 1953`,
+  `BD 1415` (the printed Biographical Directory of Congress, by page: a member's later offices), a URL,
   or a work in `sources/executive-sources.yaml` (add it there first). Quote an item holding a comma: a flow list
   splits it.
 - State and the chiefs of mission come from POCOM (the Office of the Historian): commission, credentials,
   end of mission. Others from the Congressional Directory (each session), the Senate's records, department
   histories, and Wikipedia's lists for nominations. "Check" in a note marks a detail still to verify.
+
+## Lives
+
+`./bib build` writes `build/lives.html` (the index of names) and `build/lives-a.html` … `lives-z.html`: a name
+entry for each person in Part III, the Executive roster, and the Congresses at their openings (`people` in
+`tools/bib/lives.py`: one entry a person). `./bib lives` builds those pages alone; `./bib lives 'Humphrey, Hubert H.'
+[--site URL] [--out FILE]` one page.
+
+Who is one person (`people`, `one`): a name as written is one person in every source. Names written differently
+join where the surnames agree, the given names agree (initials, middle names in order, the roster's `given`), and
+the suffixes agree. Within the Congress rosters two names are two members; Part III may drop a middle initial but
+not a suffix; the Executive roster may drop a suffix but not an initial (its bare "Anderson, Robert" is not Robert
+B. Anderson). A bare name joins a fuller one from another source only with support: Part III's role shares a word
+with the roster's office, or Part III's man sat in Congress, or the member's Directory entry gives Part III's role.
+A short form ("Bob") joins only through the roster's "(Bob)", agreeing middle initials, or a role in Congress. A
+father written bare and a son with "Jr." stay two (Harry F. Byrd; Barry M. Goldwater); the son's pointers, returns,
+and FRUS documents go by his suffix, and a FRUS document naming the father bare after his death (the Directory's
+year) is the son's. To keep two roster spellings of one man together, write them alike.
+
+The Directory entry (`bd_entry`): the same surname and given names, a suffix that agrees, and an entry whose latest
+year is 1953 or later; a member may match by the middle name he went by (Thad Cochran); anyone else only where the
+entry also names one of his offices.
+
+Each entry: the Directory's description (or the Part III role), the pointers into the series, then the life as
+running text, with the date in each sentence; then Publications; FRUS documents sent; Oral histories given, papers,
+and other primary sources; Secondary sources; and, folded, the FRUS and presidential documents that name the
+person. Empty sections are left out. Rules (the STYLE notes in `tools/bib/lives.py`):
+
+- Each fact cites its ground source, linked: BD (the 2005 printed Biographical Directory, by page), the roster
+  holder's own sources (CDir., CR, FR, DSB, GOM, POCOM, APP …), the Clerk's *Election Statistics* by page, a calendar
+  entry's own sources. The series' pages are pointers, not sources: Exec. 1965, 87th, 88th Cong., Election 1960,
+  Cal. Jan. 3, 1961, list sections — in the headings' sans serif, not underlined.
+- A run of sentences with the same sources and pointers is a sentence block; its source block follows it: the
+  cites, then the pointers. A new paragraph at each office and election.
+- An office is followed by the offices held ex officio by virtue of it, with their dates only where they differ.
+- The Directory's color is cut (`CUT`); its bibliography is put in the series' form ("Timothy N. Thurber, *The
+  Politics of Equality* (1999)"). FRUS headings with "from" in lower case.
+
+```
+tools/bib/lives.py            renders the entries and pages (STYLE notes at the top)
+tools/lives/make_bd.py        sources/bd/<letter>.json: the 2005 printed Biographical Directory on govinfo, by page
+tools/lives/frus_names.py     sources/frus-names/<letter>.json and volumes.json: the FRUS documents that name or were
+                              sent by each person, one pass over every volume (python3 tools/lives/frus_names.py FRUS_GIT --all)
+tools/lives/app_corpus.py     the APP documents of 1953-74, read once into a local corpus (resumable; about 2 hours)
+tools/lives/app_names.py      sources/app-index.jsonl and sources/app-names/<letter>.json: the documents that name each
+                              person, matched in the corpus
+tools/lives/make_pocom.py     sources/pocom.json: POCOM's years of birth and death, career type, home State, and every
+                              State post, for the persons POCOM holds (python3 tools/lives/make_pocom.py POCOM_DIR);
+                              notes/pocom-matches.md, the matches made by name, with the evidence, and those refused
+sources/pocom-matches.yaml    kept by hand: overrides to the name matches (Name: pocom-id, or Name: null)
+```
+
+POCOM in a life: the years of birth and death where the Directory gives none; "Career Foreign Service officer" or
+"Non-career appointee", with the home State; and the State posts the roster does not hold (ended before Jan. 20,
+1953, or begun after Aug. 31, 1974), each cited POCOM and linked to the person's page. The roster's own POCOM ties
+decide who is whom; anyone else is matched by name only with evidence (the rules: the script's docstring).
+
+Rerun `frus_names.py --all` and `app_names.py` after adding people; the build needs no network.
 
 ## Special elections
 

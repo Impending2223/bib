@@ -61,3 +61,9 @@ def plain(text, label=None):
 def italics(text):
     """The italicized spans in text (titles, mostly)."""
     return ITAL_RE.findall(LINK_RE.sub(r"\1", text or ""))
+
+
+def lower_from(t):
+    """FRUS headings in sentence case for 'from': 'Memorandum From Rusk to Kennedy' -> 'Memorandum from Rusk to Kennedy'."""
+    import re
+    return re.sub(r"(?<=\S )From\b", "from", t)

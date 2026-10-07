@@ -71,11 +71,14 @@ class Pointers:
                     if "Jr" not in suf:
                         self.senior.update(ks[:1])
         self.cal = defaultdict(list)   # name key -> [calendar entry]
+        self.calx = defaultdict(list)  # Part III entry id -> [calendar entry]
         for lst in series.lists.values():
             if lst.kind != "calendar":
                 continue
             for sec, e in lst.entries():
                 for x in self.named(lst, e):
+                    if e not in self.calx[x["id"]]:
+                        self.calx[x["id"]].append(e)
                     for k, _ in linker.refs.name_keys(x["s"]):
                         if e not in self.cal[k]:
                             self.cal[k].append(e)

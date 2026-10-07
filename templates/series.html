@@ -243,6 +243,9 @@ var META={{meta}}, ORDER={{order}};
     var lx=document.createElement('li'), ax=document.createElement('a');
     ax.href='executive.html'; ax.innerHTML='<b>Executive</b><span>The Executive Branch at each inauguration, 1953\u20131974: offices, law, holders</span>';
     lx.appendChild(ax); lsts.appendChild(lx);
+    var lv=document.createElement('li'), av=document.createElement('a');
+    av.href='lives.html'; av.innerHTML='<b>Lives</b><span>A name entry for each person: the life with its sources, papers, works, and the documents that name them</span>';
+    lv.appendChild(av); lsts.appendChild(lv);
   })();
   function buildDrawer(){
     $$('a',lsts).forEach(function(a){a.classList.toggle('on',a.dataset.k===active);});

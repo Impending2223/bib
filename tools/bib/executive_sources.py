@@ -15,6 +15,8 @@ line under the holder's dates, every source linked where it can be:
     Wikipedia: Title             the article
     APP[ YYYY-MM-DD]             the American Presidency Project, searched for the holder (on that day)
     Federal Register, Jan. 20, 1953   the issue (govinfo)
+    BD 1415                      the printed Biographical Directory of Congress (2005), by page (govinfo; the pages
+                                 from sources/bd/, tools/lives/make_bd.py)
     a URL                        the page, labeled by its site
     anything else                sources/executive-sources.yaml, the register of named works: each a pattern,
                                  the full citation, and its link; else shown as written
@@ -22,9 +24,13 @@ line under the holder's dates, every source linked where it can be:
 The lookups (Senate days, Index volumes, POCOM ids, FRUS volumes) are in sources/executive-links.json, made by
 tools/executive/make_source_links.py; the build needs no network.
 
+Labels: CDir. (the Congressional Directory), CR (the Congressional Record), FR (the Federal Register), DSB (the
+Department of State Bulletin), GOM (the Government Organization Manual), APP (the American Presidency Project), FRUS by
+subseries, volume and doc.
+
 STYLE:
  1. One line, "Sources:", muted and small, after the holder's date line and note. Sources in the order written;
-    several editions of the Directory together ("Cong. Dir., Mar. 1953, Jan. 1954"), several Senate days together.
+    several editions of the Directory together ("CDir., Mar. 1953, Jan. 1954"), several Senate days together.
  2. Short labels in the line; the register's full citations in the page's list of sources.
 """
 import json
@@ -180,7 +186,7 @@ def index_link(year):
     if not g:
         return None
     pkg = g.rsplit("-", 1)[0]
-    return a(f"{GOVINFO}/content/pkg/{pkg}/pdf/{g}.pdf", f"Cong. Rec. Index, {year}")
+    return a(f"{GOVINFO}/content/pkg/{pkg}/pdf/{g}.pdf", f"CR Index, {year}")
 
 
 def frus_volume(sub, vol):
@@ -295,37 +301,57 @@ def reg_html(s):
     return None
 
 
+_cache = {}
+BD_PDF = "https://www.govinfo.gov/content/pkg/GPO-CDOC-108hdoc222/pdf/GPO-CDOC-108hdoc222-4-{}.pdf#page={}"
+
+
+def bd_pages():
+    """{printed page: (granule, page in it)} of the 2005 Biographical Directory."""
+    if "bd" not in _cache:
+        out, d = {}, os.path.join(store.ROOT, "sources", "bd")
+        for f in sorted(os.listdir(d)) if os.path.isdir(d) else []:
+            for e in json.load(open(os.path.join(d, f), encoding="utf-8")):
+                if e.get("page"):
+                    out.setdefault(e["page"], (e["part"], e["pdf"]))
+        _cache["bd"] = out
+    return _cache["bd"]
+
+
 def one(s, h, ctx=None):
-    """(group, html): a source, linked; group gathers several of a kind into one ("Cong. Dir., Mar. 1953, Jan. 1954")."""
+    """(group, html): a source, linked; group gathers several of a kind into one ("CDir., Mar. 1953, Jan. 1954")."""
+    m = re.match(r"^BD (\d{1,4})$", s)
+    if m:
+        hit = bd_pages().get(int(m.group(1)))
+        return None, (a(BD_PDF.format(*hit), s) if hit else s)
     m = re.match(r"^CDIR (\d{4}-\d{2})(?: to (\d{4}-\d{2}))?$", s)
     if m:
         t = cdir_link(m.group(1))
         if m.group(2):
             t += " to " + cdir_link(m.group(2))
-        return "Cong. Dir.", t
+        return "CDir.", t
     if s in ("CDIR", "Congressional Directory"):
-        return None, a(CDIR_COLL, "Cong. Dir.")
+        return None, a(CDIR_COLL, "CDir.")
     if s == "Cong. Rec.":
         days = [str(h[k]) for k in ("nominated", "confirmed") if len(str(h.get(k) or "")) == 10]
         ls = [x for x in (senate_link(d) for d in dict.fromkeys(days)) if x]
-        return ("Cong. Rec., Senate", ", ".join(ls)) if ls else (None, a(CRECB_COLL, "Cong. Rec."))
+        return ("CR, Senate", ", ".join(ls)) if ls else (None, a(CRECB_COLL, "CR"))
     m = re.match(r"^CR, (.+)$", s)
     if m:
         ls = [senate_link(d) or esc(fmt_day(d)) for d in days_in(s)]
-        return "Cong. Rec., Senate", ", ".join(ls) or esc(s)
+        return "CR, Senate", ", ".join(ls) or esc(s)
     m = re.match(r"^Cong\. Rec\. (\d{4}), ([\d, ]+)$", s)
     if m:
         out = []
         for p in re.findall(r"\d+", m.group(2)):
             g = links().get("pages", {}).get(f"{m.group(1)}|{p}")
             out.append(a(f"{GOVINFO}/content/pkg/{g.rsplit('-', 2)[0]}/pdf/{g}.pdf", p) if g else p)
-        return None, f"Cong. Rec. {m.group(1)}, " + ", ".join(out)
+        return None, f"CR {m.group(1)}, " + ", ".join(out)
     m = re.match(r"^Cong\. Rec\. Index(?: (\d{4}))?$", s)
     if m:
         years = [m.group(1)] if m.group(1) else list(dict.fromkeys(
             str(h[k])[:4] for k in ("nominated", "confirmed") if h.get(k)))
-        ls = [index_link(y) or f"Cong. Rec. Index, {y}" for y in years]
-        return None, "; ".join(ls) if ls else a(CRECB_COLL, "Cong. Rec. Index")
+        ls = [index_link(y) or f"CR Index, {y}" for y in years]
+        return None, "; ".join(ls) if ls else a(CRECB_COLL, "CR Index")
     if s == "POCOM":
         pid = links().get("pocom", {}).get(h["name"])
         url = f"https://history.state.gov/departmenthistory/people/{pid}" if pid else \
@@ -347,7 +373,7 @@ def one(s, h, ctx=None):
     if s.startswith("Federal Register"):
         ds = days_in(s)
         if ds:
-            return None, "Fed. Reg., " + ", ".join(
+            return None, "FR, " + ", ".join(
                 a(f"{GOVINFO}/content/pkg/FR-{d}/pdf/FR-{d}.pdf", fmt_day(d)) for d in ds)
     if re.match(r"^https?://", s):
         return None, url_html(s)
@@ -411,9 +437,9 @@ def html(h, ctx=None):
 # ---------------------------------------------------------------- the page's list
 
 KINDS = [
-    ("Cong. Dir.", "*Congressional Directory*, each session's edition, 1952–74 (Government Printing Office; govinfo). "
+    ("CDir.", "*Congressional Directory*, each session's edition, 1952–74 (Government Printing Office; govinfo). "
                    "Each department's and agency's officers by title, at the date of the edition."),
-    ("Cong. Rec.", "*Congressional Record*, bound edition (govinfo): the Senate's proceedings on the day a nomination "
+    ("CR", "*Congressional Record*, bound edition (govinfo): the Senate's proceedings on the day a nomination "
                    "was received and on the day it was confirmed; the annual Index, under the nominee's name."),
     ("POCOM", "Office of the Historian, U.S. Department of State, *Principal Officers and Chiefs of Mission* "
               "(history.state.gov): State's officers and the chiefs of mission, with commission, credentials, "
@@ -424,7 +450,9 @@ KINDS = [
                   "no official source was at hand."),
     ("APP", "Gerhard Peters and John T. Woolley, *The American Presidency Project* (presidency.ucsb.edu): "
             "nominations, appointments, resignations, and orders, by date."),
-    ("Fed. Reg.", "*Federal Register* (govinfo): executive orders and designations, by issue."),
+    ("FR", "*Federal Register* (govinfo): executive orders and designations, by issue."),
+    ("BD", "*Biographical Directory of the United States Congress, 1774–2005*, H. Doc. 108-222 (Government Printing "
+           "Office, 2005; govinfo): a member's later offices, by page."),
 ]
 
 
@@ -462,10 +490,10 @@ def section(units):
 
 def kind(s):
     """The kind a source belongs to, for the counts: a KINDS label or a register entry's match."""
-    for pre, k in (("CDIR", "Cong. Dir."), ("Congressional Directory", "Cong. Dir."), ("Cong. Rec", "Cong. Rec."),
-                   ("CR,", "Cong. Rec."), ("POCOM", "POCOM"), ("FRUS", "FRUS"), ("Wikipedia", "Wikipedia"),
+    for pre, k in (("CDIR", "CDir."), ("Congressional Directory", "CDir."), ("Cong. Rec", "CR"),
+                   ("CR,", "CR"), ("POCOM", "POCOM"), ("FRUS", "FRUS"), ("Wikipedia", "Wikipedia"),
                    ("APP", "APP"), ("https://www.presidency.ucsb.edu", "APP"), ("https://history.state.gov", "FRUS"),
-                   ("Federal Register", "Fed. Reg.")):
+                   ("Federal Register", "FR"), ("BD ", "BD")):
         if s.startswith(pre):
             return k
     for r in register():

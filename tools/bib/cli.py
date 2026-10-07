@@ -245,6 +245,25 @@ def cmd_executive(series, a):
         return 0
 
 
+def cmd_lives(series, a):
+    from . import lives
+    from .build import Linker, TEMPLATES, OUT
+    lives.SITE = a.site or ""
+    os.makedirs(OUT, exist_ok=True)
+    if not a.names:                      # everyone: build/lives.html and a page a letter
+        for name, page in lives.pages(series, Linker(series), os.path.join(TEMPLATES, "list.html")).items():
+            with open(os.path.join(OUT, name), "w", encoding="utf-8") as f:
+                f.write(page)
+            print(name, f"{len(page.encode()) // 1024} KB")
+        return 0
+    page = lives.page(series, Linker(series), os.path.join(TEMPLATES, "list.html"), a.names)
+    path = a.out or os.path.join(OUT, "lives.html")
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(page)
+    print(os.path.relpath(path, HERE), f"{os.path.getsize(path) // 1024} KB")
+    return 0
+
+
 def cmd_merge(series, a):
     from .merge import apply_patch, Report
     rc = 0
@@ -460,6 +479,10 @@ def main(argv=None):
     x = sub.add_parser("executive", help="the Executive Branch roster: check | who NAME | names [cal|part3|daybook] | sources [all]")
     x.add_argument("action", choices=["check", "who", "names", "sources"])
     x.add_argument("args", nargs="*")
+    x = sub.add_parser("lives", help="lives: a name entry for each person named ('Humphrey, Hubert H.')")
+    x.add_argument("names", nargs="*")
+    x.add_argument("--site", help="base url for links to the other pages (for a copy read off the site)")
+    x.add_argument("--out", help="write here instead of build/lives.html")
     x = sub.add_parser("merge", help="apply patch files (see CLAUDE.md for the format)")
     x.add_argument("patches", nargs="+")
     x.add_argument("--dry-run", "-n", action="store_true")

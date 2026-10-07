@@ -188,7 +188,7 @@
   n: 'FY1953: the forty-first report.'
 
 - match: '(?:Gov\. Org\. Manual|GOM|Government Organization Manual),? (\d{4})[-–](\d{2})'
-  short: 'Gov. Org. Manual {1}–{2}'
+  short: 'GOM {1}–{2}'
   cite: 'National Archives and Records Service, Office of the Federal Register, *United States Government Organization Manual* (Government Printing Office), annual editions'
   urls:
     '1958': 'https://archive.org/details/in.ernet.dli.2015.110873'
@@ -270,10 +270,12 @@
   n: 'Every position outside the competitive service and the policy posts within it, by department: location, title, incumbent, type of appointment, grade or salary, tenure. The scans and their text are in sources/plum/.'
 
 - match: 'DOS Bulletin, (.+)'
-  short: 'Department of State Bulletin, {1}'
+  short: 'DSB, {1}'
   cite: 'Department of State, *Department of State Bulletin*, weekly (Government Printing Office; archive.org, the Serials in Microfilm copies): the President''s appointments and the Department''s nominations, confirmations, and recess appointments'
   urls:
     'Dec. 14, 1953': 'https://archive.org/details/sim_department-of-state-bulletin_1953-12-14_29_755'
+    'Sept. 19, 1955': 'https://archive.org/details/sim_department-of-state-bulletin_1955-09-19_33_847'
+    'Sept. 26, 1955': 'https://archive.org/details/sim_department-of-state-bulletin_1955-09-26_33_848'
     'Nov. 17, 1958': 'https://archive.org/details/sim_department-of-state-bulletin_1958-11-17_39_1012'
     'Aug. 8, 1960': 'https://archive.org/details/sim_department-of-state-bulletin_1960-08-08_43_1102'
   n: 'Each issue on archive.org as sim_department-of-state-bulletin_<date>_<volume>_<number>.'

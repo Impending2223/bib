@@ -543,7 +543,8 @@ def _section_series(series, lst, sec, linker, li_extra):
 def run(series, which=None):
     os.makedirs(OUT, exist_ok=True)
     written = []
-    keys = [which] if which and which not in ("series", "congress", "executive") else ([] if which in ("series", "congress", "executive") else list(series.lists))
+    PAGES = ("series", "congress", "executive", "lives")
+    keys = [which] if which and which not in PAGES else ([] if which in PAGES else list(series.lists))
     from . import congress, executive, indicators
     linker = None
     for k in keys:
@@ -583,6 +584,14 @@ def run(series, which=None):
         page = executive.page(series, linker, os.path.join(TEMPLATES, "list.html"))
         if page:
             path = os.path.join(OUT, "executive.html")
+            with open(path, "w", encoding="utf-8") as f:
+                f.write(page)
+            written.append(path)
+    if which in (None, "lives"):
+        from . import lives
+        linker = linker or Linker(series)
+        for name, page in lives.pages(series, linker, os.path.join(TEMPLATES, "list.html")).items():
+            path = os.path.join(OUT, name)
             with open(path, "w", encoding="utf-8") as f:
                 f.write(page)
             written.append(path)

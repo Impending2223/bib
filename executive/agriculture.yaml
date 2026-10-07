@@ -1674,15 +1674,31 @@ offices:
     from: '1969-08-08'
     n: Established by the Secretary, Aug. 8, 1969 (Wikipedia).
     holders:
-      - name: Langen, Odin
-        from: '1969'
-        to: '1972'
-        n: 'Listed in CDIR, Mar. and Dec. 1971. Check both dates; Wikipedia names Hekman the first Administrator.'
-        src: [CDIR 1971-03, CDIR 1971-12]
       - name: Hekman, Edward J.
-        from: '1972'
-        n: 'Listed in CDIR, Mar. and Dec. 1973. Check the day.'
-        src: ['Wikipedia: Food and Nutrition Service', CDIR 1973-03, CDIR 1973-12, 'Plum Book 1972, p. 54']
+        seen: '1971-03-10'
+        n: 'Listed in CDIR, Mar. 1971 to Dec. 1973. Wikipedia names him the first Administrator; check the day he took office.'
+        src: ['Wikipedia: Food and Nutrition Service', CDIR 1971-03, CDIR 1971-12, CDIR 1973-03, CDIR 1973-12, 'Plum Book 1972, p. 54']
+  - id: psa
+    title: Administrator, Packers and Stockyards Administration
+    group: Packers and Stockyards Administration
+    rank: inferior
+    appt: HD
+    n: 'Check: when the Administration was established, and the Administrators before and after Langen.'
+    law:
+      - act: Packers and Stockyards Act, 1921
+        date: '1921-08-15'
+        tags: [powers]
+        cite: 'ch. 64, 42 Stat. 159'
+        usc: '7 U.S.C. §§ 181–229 (1958)'
+        does: The Secretary to regulate the packers, stockyards, and market agencies and dealers in livestock.
+    holders:
+      - name: Langen, Odin
+        given: Odin Elsford Stanley
+        from: '1971-01'
+        to: '1972-04'
+        out: Resigned.
+        n: 'Representative from Minnesota, 1959–71. The Directory gives the months, Jan. 1971 to Apr. 1972; check the days.'
+        src: [BD 1415, CDIR 1971-03, CDIR 1971-12]
   - id: extension
     title: Administrator, Federal Extension Service
     titles:
