@@ -1014,16 +1014,16 @@ def entry(series, linker, ptrs, p):
     bown, babout = bd_bib(e, sur, every)
     n1, n2 = len(g_own), len(g_own) + len(g_prim)
     g_own, g_prim, g_about = every[:n1], every[n1:n2], every[n2:]
-    section("Publications", g_own + bown)
+    section("Publications", by_date(g_own + bown))
     ns = sum(x.count('class="lvg"') for x in sent_)
     section("FRUS documents sent", sent_, "None found.", fold=f"{ns:,}" if len(sent_) > 20 else None)
-    section("Oral histories given, papers, and other primary sources", g_prim)
+    section("Oral histories given, papers, and other primary sources", by_date(g_prim))
     nf = sum(x.count(" ") + 1 for x in re.findall(r'class="lvf" data-v="[^"]*">([^<]*)<', "".join(named)))
     section("FRUS documents that name", named, "None found.", "lvb lvf",
             fold=f"{nf:,} in {len(named)} {'volume' if len(named) == 1 else 'volumes'}")
     na = sum(x.count("<br>") for x in ppp)
     section("Presidential documents that name", ppp, "None found.", "lvb lvf lvy", fold=f"{na:,}")
-    section("Secondary sources", by_year(g_about + babout))
+    section("Secondary sources", by_date(g_about + babout))
     out.append("</section>")
     return "\n".join(out)
 
@@ -1161,6 +1161,8 @@ def pages(series, linker, template):
 
 
 PRIMARY = re.compile(r"Recording|Archive|Document|Record|Paper|Oral|Speech|Tape|Interview|Film|Screen")
+# the sections of records (not the portrayals, Part I): what they hold that names a person is his record
+RECORD_SEC = re.compile(r"^(?!.*Portrayal).*(Recording|Archive|Document|Record|Paper|Oral|Speech|Tape|Interview)")
 
 
 def series_works(series, linker, ptrs, name, subs=None, strict=False):
@@ -1255,8 +1257,14 @@ def work_kind(c, author, sur, subject, sec, given=""):
     if author is not None:
         if any(is_person(a, sur, given) for a in re.split(r" & | and |, ", author)):
             return "primary" if PRIMARY.search(sec) or not re.search(r"\*", c) else "own"
-        return "about"
+        # a recording, a document, an archive that names him is his record, whoever heads it (the CBS tour of the
+        # White House, in which Kennedy appears; the Kennedy Library)
+        return "primary" if RECORD_SEC.search(sec) else "about"
+    if RECORD_SEC.search(sec) and not subject:
+        return "primary"
     if edited and not (fold(sur) in fold(edited.group(1))):
+        if subject and fold(sur) not in fold(plain(c).split("(")[0]):
+            return "own"                 # his writings, collected by another: *The Strategy of Peace* (Nevins ed.)
         return "primary" if RECORDS.search(plain(c)) else "about"
     if subject:
         return "primary" if PRIMARY.search(sec) else "own"
@@ -1272,13 +1280,22 @@ def is_person(a, sur, given):
     return not g or not given or same_person(sur, given, sur, g) or nick(gtoks(given)[0], (gtoks(g) or [""])[0])
 
 
-def by_year(items):
-    """Citations in the order of publication: the year closing the citation's parenthesis ('(1991)', '(Michael R.
-    Beschloss ed., 1997)'); one without a year last."""
-    def year(x):
-        m = re.search(r"\b(1[5-9]\d\d|20\d\d)(?:[–-]\d*)?\)", re.sub(r"<[^>]+>", "", x))
-        return m.group(1) if m else "9999"
-    return sorted(items, key=year)
+def by_date(items):
+    """Citations in the order of their dates: the first parenthesis that gives a year ('(Jan. 20, 1961)', '(CBS
+    Feb. 14, 1962)', '(Michael R. Beschloss ed., 1997)', '(3 vols., 1962–64)'), with its month and day where given;
+    one without a date last."""
+    mo = {m.lower(): i + 1 for i, m in enumerate(["jan", "feb", "mar", "apr", "may", "june", "july", "aug", "sept",
+                                                     "oct", "nov", "dec"])}
+
+    def key(x):
+        t = re.sub(r"<[^>]+>", "", x)
+        for inner in re.findall(r"\(([^()]*)\)", t):
+            y = re.search(r"\b(1[5-9]\d\d|20\d\d)\b", inner)
+            if y:
+                m = re.search(r"\b(Jan|Feb|Mar|Apr|May|June|July|Aug|Sept|Oct|Nov|Dec)[a-z]*\.?(?: (\d{1,2}))?", inner[:y.start()])
+                return (y.group(1), mo[m.group(1).lower()] if m else 0, int(m.group(2) or 0) if m else 0)
+        return ("9999", 0, 0)
+    return sorted(items, key=key)
 
 
 def grouped(items):
