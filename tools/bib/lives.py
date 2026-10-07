@@ -389,7 +389,7 @@ def roster_pointers(sur, given, names=None):
                 if r.get("name") and (r["name"] in names if names else same_person(rs, rg, sur, given)):
                     seat = r.get("cl") if ch == "s" else r.get("d", 0)
                     out.append((str(d.get("opened")), c, ch, r["st"],
-                                ptr(f"{SITE}congress.html#cg{c}-{ch}-{r['st']}-{seat}", f"{ordinal(c)} Cong.")))
+                                ptr(f"{SITE}congress.html#cg{c}-{ch}-{r['st']}-{seat}", f"{ordinal(c)} Cong."), seat))
     return out
 
 
@@ -461,6 +461,16 @@ def election_sentences(sur, given, sfx="", strict=False):
             t = f"{what} {'to' if me.get('w') or inc else 'for'} the {seat}{', ' + where if r['ch'] == 's' else ''}, {fmt(d['date'])}{votes}."
             out.append(sent(d["date"], t, [clerk(r.get("page"))], [ptr(f"{SITE}congress.html#{erid(y, r)}", f"Election {y}")],
                             para=True, kind="election", dates={d["date"]}))
+            out[-1]["row"] = {
+                "cong": (int(y) - 1788) // 2 + 1, "ch": r["ch"], "st": r["st"], "date": d["date"],
+                "election": ptr(f"{SITE}congress.html#{erid(y, r)}", fmt(d["date"])),
+                "seat": f"Senate, {r['st']}" if r["ch"] == "s" else f"House, {r['st']}-{r['seat'] or 'AL'}",
+                "result": what,
+                "votes": (f"{me['v']:,}" + (f" ({100 * me['v'] / tot:.1f}%)" if tot else "")) if me.get("v") else (
+                    "Unopposed; no vote printed" if len(cs) == 1 else ""),
+                "others": "<br>".join(f"{esc(c['n'])} ({c['p']}) {c['v']:,}" for c in cs if c is not me and c.get("v")),
+                "src": a(url + (f"#page={r['page']}" if r.get("page") else ""),
+                         f"Clerk {y}" + (f", p. {r['page']}" if r.get("page") else ""))}
         p = d.get("president")
         k = next((c["k"] for c in (p or {}).get("cands") or [] if mine(c.get("n"))), None)
         if k:
@@ -472,6 +482,20 @@ def election_sentences(sur, given, sfx="", strict=False):
                  f"({100 * pv / allv:.1f} percent); {ev} electoral votes.")
             out.append(sent(d["date"], t, [clerk()], [ptr(f"{SITE}congress.html#e{y}", f"Election {y}")],
                             para=True, kind="election", dates={d["date"]}))
+            ov = {}
+            for st in p["states"]:
+                for s_ in st.get("slates") or []:
+                    if s_.get("k") and s_["k"] != k:
+                        ov[s_["k"]] = ov.get(s_["k"], 0) + s_["v"]
+            name_of = {c["k"]: c.get("n") or c["k"] for c in p["cands"]}
+            out[-1]["row"] = {
+                "cong": None, "ch": "p", "st": "", "date": d["date"],
+                "election": ptr(f"{SITE}congress.html#e{y}", fmt(d["date"])),
+                "seat": "President", "result": f"{esc(party)} candidate".strip(),
+                "votes": f"{pv:,} ({100 * pv / allv:.1f}%)<br>{ev} electoral",
+                "others": "<br>".join(f"{esc(name_of.get(x, x))} {v:,}" for x, v in sorted(ov.items(), key=lambda kv: -kv[1])
+                                    if v >= allv * 0.01),
+                "src": a(url, f"Clerk {y}")}
     return out
 
 
@@ -586,7 +610,7 @@ def merge(structured, bd, rosters):
             return False
         end = max(b["dates"]) if len(b["dates"]) >= 2 else "9999"
         return min(b["dates"]) <= day <= end
-    for day, c, ch, st, p in rosters:
+    for day, c, ch, st, p, *_ in rosters:
         span = next((b for b in out if serves(b, day)), None)
         if span:
             span["int"].append(p)
@@ -608,6 +632,44 @@ def pointers(ps):
     if cg:
         out.append(", ".join(cg) + ' <span class="lvp">Cong.</span>')
     return "; ".join(out)
+
+
+def record_html(rows, rosters):
+    """The record in Congress, a table after the life: a row an election, with the Congress it chose and the seat at
+    that Congress's opening; a row a Congress where the member sat at its opening without an election here (a Senator
+    between elections); a row a presidential candidacy. Every cite and pointer the running text gave."""
+    from .congress import ordinal, STATE
+    seats = {(c, ch): (day, st, p, seat) for day, c, ch, st, p, seat in rosters}
+    used, out = set(), []
+    for r in rows:
+        k = (r["cong"], r["ch"]) if r["cong"] else None
+        hit = seats.get(k) if k else None
+        if hit and hit[1] == r["st"]:
+            used.add(k)
+        else:
+            hit = None
+        out.append((r["cong"] or 0, r["date"], hit[2] if hit else "", r["election"], r["seat"], r["result"], r["votes"],
+                    r["others"], r["src"]))
+    for (c, ch), (day, st, p, seat) in seats.items():
+        if (c, ch) in used:
+            continue
+        where = f"Senate, {st}" if ch == "s" else f"House, {st}-{seat or 'AL'}"
+        out.append((c, day, p, "", where, "Term continuing", "", "", ""))
+    if not out:
+        return ""
+    out.sort(key=lambda x: (x[1][:4], x[0]))
+    head = "<tr><th>Congress<br>Election</th><th>Seat<br>Result</th><th>Votes</th><th>Opponents<br>Source</th></tr>"
+
+    def votes(v):                        # '106,708 (85.9%)' as the votes over the share
+        m = re.match(r"^([\d,]+) \(([\d.]+%)\)(.*)$", v)
+        return f"{m.group(1)}<br>{m.group(2)}{m.group(3)}" if m else v
+    two = lambda a_, b_: f"{a_}<br>{b_}" if a_ and b_ else (a_ or b_)
+    body = "".join(
+        f"<tr><td>{two(cg, el)}</td><td>{two(seat, res)}</td><td>{votes(v)}</td>"
+        f'<td>{two(oth, f"""<span class="lvts">{src}</span>""" if src else "")}</td></tr>'
+        for _, _, cg, el, seat, res, v, oth, src in out)
+    return (f'<h3>Elections and Congresses</h3><div class="lvtw"><table class="lvt"><thead>{head}</thead>'
+            f"<tbody>{body}</tbody></table></div>")
 
 
 def life_html(sents):
@@ -806,7 +868,9 @@ def entry(series, linker, ptrs, p):
     e = bd_entry(sur, given, member, () if member else person_words(sur, given, names), sfx)
     structured = (office_sentences(sur, given, names) + election_sentences(sur, given, sfx, strict)
                   + calendar_sentences(ptrs, cal) + pocom_sentences(p, bool(e)))
-    life = merge(structured, bd_sentences(e) if e else [], rp)
+    record = [s_["row"] for s_ in structured if s_.get("row")]
+    structured = [s_ for s_ in structured if s_["kind"] != "election"]
+    life = merge(structured, bd_sentences(e) if e else [], [])
     works = series_works(series, linker, ptrs, name, subs, strict)
     sent_, named = frus_lists(name)
     ppp = app_list(name, sur)
@@ -825,6 +889,7 @@ def entry(series, linker, ptrs, p):
     if pts:
         out.append('<p class="lvs">In the series: ' + "; ".join(pts) + ".</p>")
     out.append("<h3>Life</h3>" + life_html(life))
+    out.append(record_html(record, rp))
 
     def section(title, items, empty="None in the series.", cls="lvb", fold=None):
         if not items:                    # an empty section is left out
@@ -862,6 +927,17 @@ CSS = """<style>
 .lvd{font-size:.95rem}
 .lvs{font-size:.82rem;color:var(--muted)}
 p.lvl{margin:.5rem 0;line-height:1.55}
+.lvtw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:.3rem 0 .8rem}
+table.lvt td:nth-child(3){padding-left:.3rem}
+table.lvt{border-collapse:collapse;font-size:.82rem;line-height:1.35;min-width:100%}
+table.lvt th{font-family:var(--sans);font-size:.7rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;
+  color:var(--muted);text-align:left;border-bottom:1px solid var(--rule,#ccc);padding:.25rem .5rem .25rem 0;white-space:nowrap}
+table.lvt td{vertical-align:top;padding:.3rem .6rem .3rem 0;border-bottom:1px solid var(--rule,#e5e5e5)}
+table.lvt td:nth-child(1){white-space:nowrap}
+table.lvt td:nth-child(3),table.lvt th:nth-child(3){text-align:right;white-space:nowrap}
+table.lvt td:nth-child(4){padding-right:0}
+table.lvt .lvts,table.lvt .lvts a{color:var(--muted);font-size:.92em}
+table.lvt td a.lvp{font-size:.9em}
 .lvc{font-size:.85em;color:var(--muted)}
 .lvc a{color:inherit}
 /* pointers into the series: sans serif, not underlined, as the headings */
