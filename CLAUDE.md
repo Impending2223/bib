@@ -315,6 +315,10 @@ tools/executive/resolve_statutes.py   sources/statute-links.json: the govinfo fi
 tools/executive/make_uscode_index.py  sources/uscode-loc.json: the Library of Congress's chapter scans of the
                               1952, 1958, 1964 and 1970 Codes, so a cite like '50 U.S.C. § 402 (1958)' links
 templates/roster.css          the styles the Congress, election and Executive blocks share
+tools/bib/executive_sources.py  each holder's `src`, read and linked in a "Sources:" line (the forms: its docstring)
+sources/executive-sources.yaml  the register of named works a `src` may cite: pattern, label, full citation, link
+tools/executive/make_source_links.py  sources/executive-links.json: the Senate's day in the bound Record for each
+                              date, each year's Index, POCOM person ids, FRUS volumes by person (scratch inputs; once)
 notes/executive-brief.md      the brief for whoever adds to the roster, person or agent
 ```
 
@@ -322,6 +326,7 @@ notes/executive-brief.md      the brief for whoever adds to the roster, person o
 ./bib executive check                 the roster's errors only (./bib check runs them too)
 ./bib executive who rusk              where a person is placed
 ./bib executive names [part3|daybook|cal]   series persons with executive roles not yet placed
+./bib executive sources [all]         holder sources the line cannot link, by form ([all]: by holder)
 ```
 
 - Units nest by `under:` (the President at the top; the EOP; the departments in their order of creation;
@@ -341,6 +346,11 @@ notes/executive-brief.md      the brief for whoever adds to the roster, person o
   suffix where several begin on a page (STATUTE-69-Pg9-2); a wrong name answers 200 with an empty body.
   `resolve_statutes.py` matches each cite by its chapter or public law and reports cites that point nowhere.
 - Names as Part III writes them ("Rusk, Dean"), so the pointers find them; `given` for full given names.
+- Sources (`src`), in the forms the line reads: `CDIR 1961-04` (an edition), `Cong. Rec.` (the Senate's days of
+  nomination and confirmation), `Cong. Rec. Index 1961`, `POCOM`, `FRUS persons list[, 1961–63, V]`,
+  `FRUS 1961–63, IX, doc. 144`, `Wikipedia: Title`, `APP[ YYYY-MM-DD]`, `Federal Register, Jan. 20, 1953`, a URL,
+  or a work in `sources/executive-sources.yaml` (add it there first). Quote an item holding a comma: a flow list
+  splits it.
 - State and the chiefs of mission come from POCOM (the Office of the Historian): commission, credentials,
   end of mission. Others from the Congressional Directory (each session), the Senate's records, department
   histories, and Wikipedia's lists for nominations. "Check" in a note marks a detail still to verify.

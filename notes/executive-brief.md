@@ -43,7 +43,10 @@ for an officer's grade and service ("Gen., USA", "Adm., USN"), `title` where the
 the office's, `acting: true` for acting officers. Begin each office with whoever held it on Jan. 20, 1953
 (with that person's real `from`, however early), or with its first holder if it was created later. Record
 acting officers wherever an office was vacant: who acted, from when to when. `src`: a short list of where the
-dates came from (`CDIR 1961-04`, `Wikipedia: Dean Rusk`, a URL, `POCOM`, `FRUS persons list`, `APP`).
+dates came from, in the forms the build links (the docstring of tools/bib/executive_sources.py): `CDIR 1961-04`,
+`Cong. Rec.`, `Cong. Rec. Index 1961`, `POCOM`, `FRUS persons list, 1961–63, V`, `FRUS 1961–63, IX, doc. 144`,
+`Wikipedia: Dean Rusk`, `APP 1961-01-21`, `Federal Register, Jan. 20, 1953`, a URL, or a work named in
+sources/executive-sources.yaml. Quote an item that holds a comma. `./bib executive sources` lists what does not link.
 
 Vacancies are computed by the build from the holders' dates: don't write "Office vacant ..." in a note. An
 acting officer serves in a vacancy and does not fill it; the build shows him under the vacancy. A note (`n`)

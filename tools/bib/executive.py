@@ -51,7 +51,7 @@ A holder:
       to: '1969-01-20'             # left office; none if still there on Aug. 31, 1974
       out: Resigned.               # how it ended, clipped: "Resigned." "Died." "To Secretary of Defense."
       n: a note; "Check" marks a detail to verify
-      src: [POCOM, CDIR 1961-04, https://...]
+      src: [POCOM, CDIR 1961-04, https://...]   # the forms: tools/bib/executive_sources.py
 
 An authority:
 
@@ -78,7 +78,7 @@ import os
 import re
 from collections import defaultdict
 
-from . import store
+from . import store, executive_sources
 from .markup import to_html, plain
 
 DIR = os.path.join(store.ROOT, "executive")
@@ -433,7 +433,7 @@ def holder_html(h, a, b, ptr, href, o=None):
         who += f' <span class="exr">{extra}</span>'
     line = holder_line(h, a, b, o) + (" " + to_html(h["n"]) if h.get("n") else "")
     pts = ptr.lines(h["name"], href) if ptr else []
-    return who, f'<span class="exd">{line}</span>', pts
+    return who, f'<span class="exd">{line}</span>' + executive_sources.html(h), pts
 
 
 def vacancies(o, a, b):
@@ -655,6 +655,8 @@ details.exu tr.exlr td{padding-top:0}
 .ex .exh>b{font-weight:600}
 .ex .exh.exin{margin-left:1rem}
 .ex .exd{display:block;font-size:.74rem;color:var(--muted);line-height:1.35}
+.ex .exs{display:block;font-size:.68rem;color:var(--muted);line-height:1.35;margin-top:.1rem}
+.ex .exs a{color:inherit;text-decoration-color:var(--rule)}
 .ex .exr{font-weight:400;font-size:.74rem;color:var(--muted)}
 .ex .cgn{font-size:.8rem;line-height:1.35}
 details.exu tr.exlr .cgn{margin:.1rem 0 .15rem}
@@ -758,7 +760,9 @@ def page(series, linker, template):
             'Sources: the Office of the Historian\'s Principal Officers and Chiefs of Mission (POCOM) for the Department '
             'of State and the missions; the Congressional Directory for each session (govinfo); the Senate\'s '
             'Executive Journal and the Congressional Record for nominations; department and service histories; the '
-            'statutes in the Statutes at Large (govinfo). "Check" marks a detail still to verify.</p>',
+            'statutes in the Statutes at Large (govinfo). Each holder\'s sources follow the dates, linked; '
+            '<a href="#sources">the sources</a> are listed in full at the end. "Check" marks a detail still to '
+            'verify.</p>',
             '<p class="logic">Pointers: the list and section where the holder appears in Part III or as the subject of a '
             'memoir or biography, and the calendar entries that name the holder.</p>',
             '<nav class="toc" aria-label="Contents">\n<h3 id="contents" style="border-top:0;margin-top:1.5rem" data-short="Contents">Contents</h3>\n<ol id="tocList"></ol>\n</nav>']
@@ -776,6 +780,7 @@ def page(series, linker, template):
         main.append(f'<li>{esc(fmt(a["date"])) + ". " if a.get("date") else ""}{law_html(a)} '
                     f'<span class="exd">{esc("; ".join(dict.fromkeys(where)))}.</span></li>')
     main.append("</ol>")
+    main += executive_sources.section(units)
     pg = open(template, encoding="utf-8").read()
     pg = pg.replace("{{page_title}}", "The Executive Branch, 1953–1974").replace("{{main}}", "\n".join(main))
     from . import roster

@@ -30,8 +30,9 @@ law:
   - act: Executive Order 10481
     date: '1953-08-15'
     tags: [vacancy]
+    cite: '18 Fed. Reg. 4944'
     url: https://www.presidency.ucsb.edu/documents/executive-order-10481-designation-certain-officers-the-department-agriculture-act
-    does: 'When both the Secretary and the Under Secretary are absent, sick, resigned, or dead, the Assistant Secretaries, in the order the Secretary fixes, act as Secretary. Check the Federal Register cite.'
+    does: 'When both the Secretary and the Under Secretary are absent, sick, resigned, or dead, the Assistant Secretaries, in the order the Secretary fixes, act as Secretary.'
 offices:
   - id: secretary
     title: Secretary of Agriculture
@@ -76,9 +77,9 @@ offices:
       - name: 'Campbell, J. Phil'
         title: 'Under Secretary of Agriculture, acting as Secretary'
         acting: true
-        from: '1971-11-22'
+        from: '1971-11-18'
         to: '1971-12-02'
-        n: 'Signs as Acting Secretary, Nov. 22, 1971 (Federal Register, Nov. 25, 1971). Check when he began; the office vacant from Nov. 17.'
+        n: 'Acting by law in the vacancy, as Under Secretary (Act of June 5, 1939). Signs as Acting Secretary, Nov. 22, 1971 (Federal Register, Nov. 25, 1971).'
         src: ['Federal Register, Nov. 25, 1971']
       - name: Butz, Earl L.
         given: Earl Lauer
@@ -203,7 +204,7 @@ offices:
         confirmed: '1953-07-16'
         from: '1953-07-21'
         to: '1953-09-27'
-        n: Administrator of the Foreign Agricultural Service, 1953. Check his group.
+        n: 'Administrator of the Foreign Agricultural Service, Mar. 1953. As Assistant Secretary, the Foreign Agricultural Service; it passed to Davis on his resignation (Century of Service, p. 375).'
         src: ['Century of Service (1963), p. 453', Cong. Rec. Index 1953, Cong. Rec.]
       - name: Rizley, Ross
         title: Assistant Secretary for Agricultural Stabilization
@@ -299,13 +300,16 @@ offices:
         confirmed: '1962-08-01'
         from: '1962-08-03'
         to: '1969'
-        n: 'Director of Agricultural Credit, 1961–62. Listed in CDIR to Dec. 1967. Check his title and the day he left.'
-        src: ['Century of Service (1963), p. 453', CDIR 1963-03, CDIR 1967-12, Cong. Rec.]
+        n: 'Director of Agricultural Credit, 1961–62. Rural development and conservation group from the reorganization of Sept. 1962. Listed in CDIR to Dec. 1967. Check the day he left.'
+        src: ['Century of Service (1963), p. 453', CDIR 1963-03, CDIR 1967-12, Cong. Rec., 'CR, Sept. 19, 1962', 'CR, Jan. 10, 1967']
       - name: Renne, Roland R.
+        title: Assistant Secretary for International Affairs
+        nominated: '1963-01-24'
+        confirmed: '1963-03-01'
         from: '1963'
         to: '1964'
-        n: 'Listed in CDIR, Mar. 1963 and Jan. 1964. Check his group and both dates.'
-        src: [CDIR 1963-03, CDIR 1964-01]
+        n: 'President of Montana State College. Listed in CDIR, Mar. 1963 and Jan. 1964; Jacobson nominated to succeed, Apr. 1964. Check the days he took office and left.'
+        src: [CDIR 1963-03, CDIR 1964-01, 'Wikipedia: Roland Renne', Cong. Rec.]
       - name: Mehren, George L.
         title: Assistant Secretary for Marketing and Consumer Services
         nominated: '1963-08-19'
@@ -729,19 +733,29 @@ offices:
     rank: inferior
     appt: PAS
     level: V
-    n: Check the manner of appointment.
     law:
       - act: Farmers Home Administration Act of 1946
         date: '1946-08-14'
         tags: [creates, powers]
         cite: 'ch. 964, 60 Stat. 1062'
         does: Amends the Bankhead-Jones Farm Tenant Act; establishes the Farmers Home Administration in the Department (§ 40(a)).
+      - act: Farmers Home Administration Act of 1946
+        date: '1946-08-14'
+        tags: [appointment]
+        cite: 'ch. 964, § 3, 60 Stat. 1062, 1064'
+        does: 'Section 41(a) of the Bankhead-Jones Farm Tenant Act as amended: the Administrator of the Farmers Home Administration appointed by the President, by and with the advice and consent of the Senate; salary not over $10,000.'
       - act: Consolidated Farmers Home Administration Act of 1961
         date: '1961-08-08'
         tags: [powers]
         cite: 'Pub. L. 87-128, title III, 75 Stat. 294, 307'
         usc: '7 U.S.C. § 1921 (1964)'
         does: Consolidates the Administration's farm ownership, operating, and emergency loan authorities.
+      - act: Consolidated Farmers Home Administration Act of 1961
+        date: '1961-08-08'
+        tags: [appointment]
+        cite: 'Pub. L. 87-128, § 331, 75 Stat. 294, 312'
+        usc: '7 U.S.C. § 1981 (1964)'
+        does: 'The Secretary may assign his agricultural credit powers to the Farmers Home Administration, headed by an Administrator appointed by the President, by and with the advice and consent of the Senate.'
       - act: Federal Executive Salary Act of 1964
         date: '1964-08-14'
         effective: '1964-07'
@@ -972,16 +986,11 @@ offices:
         to: '1968'
         n: 'Listed in CDIR, Jan. 1962 to Dec. 1967. Check his given name and both dates.'
         src: ['Century of Service (1963), p. 454', CDIR 1962-01, CDIR 1967-12]
-      - name: Finner, Winn F.
-        from: '1969'
-        to: '1969'
-        n: 'Listed in CDIR, Mar. 1969. Check whether acting, and both dates.'
-        src: [CDIR 1969-03]
       - name: Lennartson, Roy W.
         from: '1969'
         to: '1970'
-        n: 'Listed in CDIR, Dec. 1969. Check both dates.'
-        src: [CDIR 1969-12]
+        n: 'Listed in CDIR, Mar. and Dec. 1969; Winn F. Finner associate administrator, Mar. 1969. Check both dates.'
+        src: [CDIR 1969-03, CDIR 1969-12]
       - name: Yeutter, Clayton
         from: '1970'
         to: '1972'
@@ -1062,14 +1071,19 @@ offices:
     group: Federal Crop Insurance Corporation
     rank: inferior
     appt: HD
-    n: The Manager appointed by the Corporation's Board of Directors. Check.
     law:
       - act: Federal Crop Insurance Act
         date: '1938-02-16'
         tags: [creates, powers]
         cite: 'ch. 30, title V, 52 Stat. 31, 72'
         usc: '7 U.S.C. §§ 1501–1519 (1958)'
-        does: Creates the Federal Crop Insurance Corporation within the Department of Agriculture, to insure crops against loss.
+        does: Creates the Federal Crop Insurance Corporation within the Department of Agriculture, to insure crops against loss. A manager, the executive officer, selected by the Board of Directors with the Secretary's approval (§ 505(d)).
+      - act: Act of Aug. 1, 1947
+        date: '1947-08-01'
+        tags: [appointment]
+        cite: 'ch. 440, § 8, 61 Stat. 718, 720'
+        usc: '7 U.S.C. § 1505 (1958)'
+        does: 'Section 505 rewritten: the manager the chief executive officer, appointed by and holding office at the pleasure of the Secretary; a member of the Board.'
     holders:
       - name: Brainard, John W.
         from: '1952'
@@ -1096,10 +1110,10 @@ offices:
         to: '1972'
         n: 'Listed in CDIR, Dec. 1969 to Dec. 1971. Check both dates.'
         src: [CDIR 1969-12, CDIR 1971-12]
-      - name: Skeffington, John P.
+      - name: Peterson, Manly R.
         from: '1973'
-        n: 'Listed in CDIR, Dec. 1973. Check his title and the day.'
-        src: [CDIR 1973-12]
+        n: 'Manager in Sept. 1973 (Congressional Record, Sept. 5, 1973) and the Directory of Dec. 1973; the office vacant in the Directory of Mar. 1973. Check the day.'
+        src: [CDIR 1973-03, CDIR 1973-12, 'CR, Sept. 5, 1973']
   - id: fns
     title: Administrator, Food and Nutrition Service
     group: Food and Nutrition Service

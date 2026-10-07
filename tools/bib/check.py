@@ -168,6 +168,11 @@ def run(series, only=None):
     from . import executive
     for where, msg in executive.problems(series):
         add(ERROR, where, msg, "executive")
+    from . import executive_sources
+    un = executive_sources.unlinked(executive.load())
+    if un:
+        add(WARN, "executive/", f"{len(un)} holder sources not linked; ./bib executive sources lists them",
+            "executive-sources")
     # the day's executive documents (daybook/*.yaml)
     from . import daybook
     for where, msg in daybook.problems():
