@@ -138,13 +138,26 @@ offices:
   - id: deputy-director
     title: Assistant Director of the Bureau of the Budget
     titles:
-      - {title: Deputy Director of the Bureau of the Budget, from: '1953'}
+      - {title: Deputy Director of the Bureau of the Budget, from: '1953-07-31'}
       - {title: Deputy Director of the Office of Management and Budget, from: '1970-07-01'}
     rank: principal
     appt: PA
     level: III
-    n: 'The statutory second officer and acting Director. Styled Deputy Director by 1950 (FRUS, Wikipedia), but listed as Assistant Director in the Directory of Mar. 1953 and as Deputy Director from Jan. 1954. Check the authority for the title.'
+    n: 'The statutory second officer and acting Director (Budget and Accounting Act, 1921, § 207). Retitled Deputy Director by statute, July 31, 1953. Listed as Assistant Director in the Directory of Mar. 1953, as Deputy Director from Jan. 1954.'
     law:
+      - act: Independent Offices Appropriation Act, 1954
+        date: '1953-07-31'
+        cite: 'ch. 302, title I, 67 Stat. 298, 299'
+        usc: '31 U.S.C. § 16 (1958)'
+        tags: [reorganizes]
+        does: The title of the Assistant Director of the Bureau of the Budget changed to Deputy Director.
+      - act: Federal Executive Pay Act of 1956
+        date: '1956-07-31'
+        until: '1964-07-01'
+        cite: 'ch. 804, title I, § 105, 70 Stat. 736, 737'
+        usc: '5 U.S.C. § 2204 (1958)'
+        tags: [pay]
+        does: Deputy Director of the Bureau of the Budget, $20,500.
       - act: Federal Executive Salary Act of 1964
         date: '1964-08-14'
         effective: '1964-07-01'
@@ -234,8 +247,27 @@ offices:
     titles: [{title: Assistant Director of the Office of Management and Budget, from: '1970-07-01'}]
     level: IV
     many: true
-    n: 'Three, by statute from the 1950s (31 U.S.C. §§ 16a, 16c), designated Assistant Directors of the Office by Reorganization Plan No. 2 of 1970; listed in the Directory without portfolio. Check the statutes.'
+    n: 'Two by statute from July 31, 1953 (31 U.S.C. § 16a), in place of two GS-18 positions; a third from Aug. 1, 1956 (§ 16c). Designated Assistant Directors of the Office by Reorganization Plan No. 2 of 1970. Listed in the Directory without portfolio.'
     law:
+      - act: Independent Offices Appropriation Act, 1954
+        date: '1953-07-31'
+        cite: 'ch. 302, title I, 67 Stat. 298, 299'
+        usc: '31 U.S.C. § 16a (1958)'
+        tags: [creates, pay]
+        does: Two positions of Assistant Director authorized, at $15,000, in lieu of two positions in grade GS-18.
+      - act: Federal Executive Pay Act of 1956
+        date: '1956-07-31'
+        until: '1964-07-01'
+        cite: 'ch. 804, title I, § 106(a)(9), 70 Stat. 736, 737'
+        usc: '5 U.S.C. § 2205 (1958)'
+        tags: [pay]
+        does: Assistant Directors of the Bureau of the Budget (2), $20,000.
+      - act: Joint resolution of Aug. 1, 1956
+        date: '1956-08-01'
+        cite: 'ch. 838, 70 Stat. 887'
+        usc: '31 U.S.C. § 16c (1958)'
+        tags: [creates]
+        does: One additional position of Assistant Director, at the same pay as the two.
       - act: Federal Executive Salary Act of 1964
         date: '1964-08-14'
         effective: '1964-07-01'
