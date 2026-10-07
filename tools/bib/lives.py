@@ -1221,7 +1221,7 @@ def series_works(series, linker, ptrs, name, subs=None, strict=False):
         sec = " ".join(x.title for x in chain(s))
         ptr_html = ptr(f"{SITE}{l.key}.html#{e['id']}", f"{esc(l.abbr)} {esc(s.code or s.id)}")
         if subject == "papers":
-            out.append(("primary", esc(e.get("s") or ""), f" {to_html(e['n'])}" if e.get("n") else "", ptr_html))
+            out.append(("primary", esc(e.get("s") or ""), f" {series_html(ptrs, e['n'], l.key, e)}" if e.get("n") else "", ptr_html))
             continue
         cs = store.as_list(e.get("c"))
         prev = None                      # the author a title-first line continues ('*Flawed Giant*' after Dallek)
@@ -1235,7 +1235,7 @@ def series_works(series, linker, ptrs, name, subs=None, strict=False):
                 continue           # another work in the same entry
             if not kind:
                 continue
-            note = f" {to_html(e['n'])}" if e.get("n") and len(cs) == 1 else ""
+            note = f" {series_html(ptrs, e['n'], l.key, e)}" if e.get("n") and len(cs) == 1 else ""
             out.append((kind, to_html(c), note, ptr_html))
     return out
 

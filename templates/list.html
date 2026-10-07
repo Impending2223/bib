@@ -160,6 +160,7 @@ ol.e>li:last-child{border-bottom:0}
   function measure(){tops=heads.map(function(h){return h.getBoundingClientRect().top+window.scrollY;});}
   measure();
   window.addEventListener('resize',function(){measure();place();});
+  document.addEventListener('toggle',function(){measure();place();},true);   // a folded list opened or closed
   window.addEventListener('load',function(){measure();place();});
   if(document.fonts&&document.fonts.ready) document.fonts.ready.then(function(){measure();place();});
 
