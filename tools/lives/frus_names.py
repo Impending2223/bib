@@ -86,7 +86,7 @@ def scan(git, targets, heirs=None):
             head = d.find(M.T + 'head')
             who, title = [], ''
             if head is not None and d.get('subtype') != 'editorial-note':
-                title = re.sub(r'^' + re.escape(str(n)) + r'\.\s*', '', M.head_text(head))
+                title = M.strip_number(M.head_text(head), n)
                 try:
                     who = M.authors(d, head, title, P, roles, bs)
                 except Exception:

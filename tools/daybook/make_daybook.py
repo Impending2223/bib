@@ -167,6 +167,14 @@ def parse_name(n):
     return sur, rest, suf
 
 
+def strip_number(title, n):
+    """A heading less its document number: '499. The Ambassador ...'; the 1952-54 volumes' 'No. 499The Ambassador
+    ...'; the microfiche supplements' '278J. Memorandum ...' for document 278j."""
+    if not n:
+        return title
+    return re.sub(r'^(?:No\.\s*)?' + re.escape(str(n)) + r'\.?\s*', '', title, flags=re.I)
+
+
 def first_word(given):
     """The given name a person goes by: 'Allen W.' -> allen; 'C. Douglas' -> douglas (an initial before a name)."""
     w = given.split()
@@ -546,7 +554,7 @@ def frus_docs(cache, names):
                 continue
             title = head_text(head)
             n = d.get('n')
-            title = re.sub(r'^' + re.escape(str(n)) + r'\.\s*', '', title) if n else title
+            title = strip_number(title, n)
             ed = d.get('subtype') == 'editorial-note'
             lo, hi = d.get(F + 'doc-dateTime-min'), d.get(F + 'doc-dateTime-max')
             if ed or not lo:
