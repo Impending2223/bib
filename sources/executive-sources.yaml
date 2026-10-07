@@ -268,3 +268,12 @@
     '1968': 'https://books.google.com/books?id=38A9rUvZPSQC&pg=PA{3}'
     '1972': 'https://books.google.com/books?id=qEY76289tQkC&pg=PA{3}'
   n: 'Every position outside the competitive service and the policy posts within it, by department: location, title, incumbent, type of appointment, grade or salary, tenure. The scans and their text are in sources/plum/.'
+
+- match: 'DOS Bulletin, (.+)'
+  short: 'Department of State Bulletin, {1}'
+  cite: 'Department of State, *Department of State Bulletin*, weekly (Government Printing Office; archive.org, the Serials in Microfilm copies): the President''s appointments and the Department''s nominations, confirmations, and recess appointments'
+  urls:
+    'Dec. 14, 1953': 'https://archive.org/details/sim_department-of-state-bulletin_1953-12-14_29_755'
+    'Nov. 17, 1958': 'https://archive.org/details/sim_department-of-state-bulletin_1958-11-17_39_1012'
+    'Aug. 8, 1960': 'https://archive.org/details/sim_department-of-state-bulletin_1960-08-08_43_1102'
+  n: 'Each issue on archive.org as sim_department-of-state-bulletin_<date>_<volume>_<number>.'
