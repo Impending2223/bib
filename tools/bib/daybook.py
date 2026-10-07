@@ -115,10 +115,11 @@ def frus_cite(x):
 
 
 def doc_html(x, ab):
-    title = f'<a href="{esc(x["url"])}">{esc(x["title"])}</a>'
+    from .markup import lower_from
+    title = f'<a href="{esc(x["url"])}">{esc(lower_from(x["title"]) if x["src"] == "frus" else x["title"])}</a>'
     au = f'<span class="au">{esc(x["author"])}</span> ' if x.get("author") else ""
     if x["src"] == "ppp":
-        src, hover = "APP", "American Presidency Project"
+        src, hover = "PPP", "Public Papers of the Presidents (the American Presidency Project's copy)"
     else:
         src, hover = frus_cite(x), "Foreign Relations of the United States"
     bits = [f'<span class="src" title="{esc(hover)}">{esc(src)}</span>']
