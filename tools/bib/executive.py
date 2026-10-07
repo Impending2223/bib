@@ -99,9 +99,24 @@ APPT = {"PAS": "the President, by and with the advice and consent of the Senate"
         "HD": "the head of the department or agency",
         "XO": "ex officio: held by virtue of another office",
         "DES": "designated by the President from among other officers",
-        "MIL": "a military officer assigned or detailed, with the advice and consent of the Senate to the grade",
-        "CAREER": "the career service",
+        "MIL": "a military officer, assigned or detailed to the post; the Senate confirms the grade, and for the chiefs and the major commands the post",
+        "CAREER": "the career service: a Foreign Service or civil-service officer, assigned by the department; not a political appointment",
         "ELECTED": "elected"}
+# The Executive Schedule: the Federal Executive Salary Act of 1964, title III (Pub. L. 88-426, 78 Stat. 400, 415),
+# in force with the first pay period beginning on or after July 1, 1964; 5 U.S.C. §§ 5311-5316 from 1966.
+LEVELS_FROM = "1964-07-01"
+LEVELS = {"I": "$35,000: the heads of the executive departments",
+          "II": "$30,000: the deputy heads of the largest departments, the service secretaries, the heads of the principal agencies",
+          "III": "$28,500: the under secretaries, the heads of lesser agencies",
+          "IV": "$27,000: the assistant secretaries, general counsels, members of the larger commissions",
+          "V": "$26,000: the heads of bureaus, members of the lesser boards"}
+KEY = ("PAS: appointed by the President with the advice and consent of the Senate. PA: by the President alone. "
+       "HD: by the head of the department or agency. XO: ex officio. DES: designated by the President from among "
+       "other officers. MIL: a military officer assigned to the post. CAREER: a Foreign Service or civil-service "
+       "officer, not a political appointment. ELECTED: the President and Vice President.")
+KEY_LEVELS = (" Levels I–V: the pay grades of the Executive Schedule, fixed by the Federal Executive Salary Act of 1964 "
+              "for each office by name (I, $35,000, the heads of departments; II, $30,000; III, $28,500; IV, $27,000; "
+              "V, $26,000), raised later in the period. A level marks rank as well as pay.")
 UNIT_KEYS = {"unit", "name", "names", "under", "order", "from", "until", "law", "n", "offices"}
 OFFICE_KEYS = {"id", "title", "titles", "rank", "appt", "under", "group", "level", "many", "from", "until",
                "law", "n", "holders"}
@@ -542,8 +557,9 @@ def block(i, units, ptr, href, rid, here=False):
             meta = [esc(RANK[o["rank"]])] if o.get("rank") in RANK else []
             if o.get("appt"):
                 meta.append(f'<abbr title="{esc(APPT.get(o["appt"], o["appt"]))}">{esc(o["appt"])}</abbr>')
-            if o.get("level"):
-                meta.append(f"Level {esc(o['level'])}")
+            if o.get("level") and lo(b) > lo(LEVELS_FROM):
+                lv = str(o["level"])
+                meta.append(f'<abbr title="Executive Schedule, level {esc(lv)}: {esc(LEVELS.get(lv, ""))} (1964)">Level {esc(lv)}</abbr>')
             if o.get("from") and lo(o["from"]) > lo(START):
                 meta.append(f"from {fmt(o['from'])}")
             if o.get("until") and hi(o["until"]) < lo(b):
@@ -565,8 +581,8 @@ def block(i, units, ptr, href, rid, here=False):
                 if kind == 0:
                     gap = x
                     when = span(x[0], term_end(x[1]) if x[1] == b else x[1])
-                    label = '<b>Vacant</b>' if x[2] else '<i>No holder recorded</i>'
-                    cells.append((f'<span class="exh">{label} <span class="exd">{when}.</span></span>', []))
+                    gap_label = '<b>Vacant</b>' if x[2] else '<i>No holder recorded</i>'
+                    cells.append((f'<span class="exh">{gap_label} <span class="exd">{when}.</span></span>', []))
                     continue
                 who, line, pts = holder_html(x, a, b, ptr, href, o)
                 inside = x.get("acting") and gap and lo(gap[0]) <= lo(x["from"]) < lo(gap[1])
@@ -611,6 +627,8 @@ def block(i, units, ptr, href, rid, here=False):
            'term (dates of nomination, confirmation, commission, and taking office; of leaving; acting officers), and under '
            'it the law in force during the term that creates it, sets its powers, governs appointment and vacancy, and fixes '
            'its pay. Open a unit for its offices.</p>',
+           f'<p class="cgs exkey">{esc(KEY)}{esc(KEY_LEVELS) if lo(b) > lo(LEVELS_FROM) else ""} '
+           'Hover over a code for its meaning.</p>',
            '<p class="cgs"><button type="button" class="cgb" onclick="this.closest(\'.ex\').querySelectorAll(\'details\').forEach(d=>d.open=true)">Expand all</button> '
            '<button type="button" class="cgb" onclick="this.closest(\'.ex\').querySelectorAll(\'details\').forEach(d=>d.open=false)">Collapse all</button></p>']
     out += parts
