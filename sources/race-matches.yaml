@@ -1,0 +1,69 @@
+# Races matched to a person by name, settled by hand (tools/bib/lives.py, election_sentences).
+#
+# The lives take a candidate in elections/<year>.yaml as the person where the names agree. A race is refused
+# without this file only on certain grounds: after his death; another man of the name seated from it in the
+# rosters; another man the Directory's winner; the Directory's full given names disagreeing with the returns'; a
+# win while in executive office when the Congress met (Art. I, sec. 6). A race confirmed by nothing (the rosters
+# seating him from it, his own Directory entry as its winner or naming his candidacy that year) shows "Check:
+# matched by name only".
+#
+#   Person as the series writes him:
+#     refuse:  {race: why}      not his: left out of his life
+#     confirm: {race: why}      his: shown without the Check
+#
+# Race keys: the year, then the readings' key: chamber (h, s), State, district (0 at large) or Senate class,
+# an at-large position after a hyphen, 'special' for a special held with a regular race ('1962 h AL 0',
+# '1966 s SC 3 special'). `check` fails on a person or race that does not answer.
+#
+# Seeded Oct. 7, 2026 from the State and election-day office rules, which no longer refuse anything: each a
+# namesake by its State or the office he held that day. Check: each awaits the owner's confirmation.
+
+'Abernethy, Thomas G.':
+  refuse:
+    '1962 h AL 0': Alabama Republican, 5.2 percent. Abernethy sat for Mississippi; reelected in Miss.-1 that day.
+'Alexander, William V., Jr. (Bill)':
+  refuse:
+    '1966 h MS 1': Mississippi independent, 21.3 percent. Alexander sat for Arkansas from 1969.
+'Carroll, John A.':
+  refuse:
+    '1966 h HI 0': Hawaii Republican, 16.4 percent. Carroll sat for Colorado.
+'Clark, Richard C. (Dick)':
+  refuse:
+    '1972 h NC 8': North Carolina Democrat, 39.8 percent. Clark sat for Iowa; elected to the Senate there that day.
+'Frey, Louis, Jr.':
+  refuse:
+    '1964 h OH 13': Ohio Democrat, 45.3 percent. Frey sat for Florida from 1969.
+'McDonald, Jack H.':
+  refuse:
+    '1974 h MT 2': Montana Republican, 37.0 percent. McDonald sat for Michigan.
+'Scott, Hugh':
+  refuse:
+    '1968 h MO 2': Missouri Republican, 46.8 percent. Scott sat for Pennsylvania, in the Senate.
+'Wilson, Bob':
+  refuse:
+    '1962 h IL 22': Illinois Democrat, 40.3 percent. Wilson sat for California; reelected in Cal.-36 that day.
+'Young, John A.':
+  refuse:
+    '1964 h PA 27': Pennsylvania Democrat, 37.3 percent. Young sat for Texas; reelected in Tex.-14 that day.
+'Carroll, Joseph F.':
+  refuse:
+    '1966 h NJ 11': Third-party candidate, 0.9 percent. Carroll was Director, Defense Intelligence Agency.
+    '1968 h NJ 11': Third-party candidate, 0.4 percent. Carroll was Director, Defense Intelligence Agency.
+'Collins, James F.':
+  refuse:
+    '1962 h CT 1': Connecticut Republican, 41.9 percent. Collins was Commander in Chief, U.S. Army, Pacific.
+'Kennedy, John F.':
+  refuse:
+    '1962 h RI 2': Rhode Island Republican, 28.2 percent. Kennedy was President.
+'Lee, Robert E.':
+  refuse:
+    '1970 h LA 2': Louisiana Republican, 26.3 percent. Lee was a member of the Federal Communications Commission.
+'Smith, Don S.':
+  refuse:
+    '1974 h KS 1': Kansas Democrat, 33.0 percent. Smith was a member of the Federal Power Commission.
+'Smith, Frank E.':
+  refuse:
+    '1964 h OH 6': Ohio Democrat, 39.9 percent. Smith, formerly of Mississippi, was a director of the Tennessee Valley Authority.
+'Thompson, Tyler':
+  refuse:
+    '1960 h IL 13': Illinois Democrat, 34.0 percent. Thompson was Ambassador to Iceland.

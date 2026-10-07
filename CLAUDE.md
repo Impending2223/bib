@@ -377,8 +377,19 @@ and FRUS documents go by his suffix, and a FRUS document naming the father bare 
 year) is the son's. To keep two roster spellings of one man together, write them alike.
 
 The Directory entry (`bd_entry`): the same surname and given names, a suffix that agrees, and an entry whose latest
-year is 1953 or later; a member may match by the middle name he went by (Thad Cochran); anyone else only where the
-entry also names one of his offices.
+year is 1953 or later, of a man not dead before 1953 or before the series first shows the person; anyone may match by
+the middle name he went by (Thad Cochran, Brooks Hays); anyone not in the rosters only where the entry also names one
+of his offices or Part III roles ("Governor of Arkansas"; the Presidency by "President of the United States"). Of
+several, the one whose service spans the person's first seat, then the fullest agreement of given names.
+
+Races (`election_sentences`): a candidate whose name agrees (a short form of the first name counts: Dick Clark) is
+taken, and refused only on certain grounds: the race is after his death; the rosters seat another man of the name
+from it, or seated one as its incumbent; the Directory's winner (`bd_winner`: its member of the name who sat for the
+State and was elected to that Congress) is another man; the Directory's full given names disagree with the returns'
+(George B. Murphy is not George Lloyd); he won while in executive office when the Congress met (Art. I, § 6). Nothing
+is refused by State or party. A race nothing confirms (a roster seat from it, his own Directory entry as its winner
+or naming his candidacy that year) shows "Check: matched by name only". `sources/race-matches.yaml` refuses or
+confirms a race by hand, with the reason; `check` fails on a person or race there that does not answer.
 
 Each entry: the Directory's description (or the Part III role), the pointers into the series, then the life as
 running text, with the date in each sentence; then Publications; FRUS documents sent; Oral histories given, papers,
@@ -407,6 +418,7 @@ tools/lives/make_pocom.py     sources/pocom.json: POCOM's years of birth and dea
                               State post, for the persons POCOM holds (python3 tools/lives/make_pocom.py POCOM_DIR);
                               notes/pocom-matches.md, the matches made by name, with the evidence, and those refused
 sources/pocom-matches.yaml    kept by hand: overrides to the name matches (Name: pocom-id, or Name: null)
+sources/race-matches.yaml     kept by hand: races refused or confirmed for a person, each with its reason
 ```
 
 POCOM in a life: the years of birth and death where the Directory gives none; "Career Foreign Service officer" or

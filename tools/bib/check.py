@@ -160,6 +160,10 @@ def run(series, only=None):
     from . import specials
     for where, msg in specials.problems(series):
         add(ERROR, where, msg, "specials")
+    # races settled by hand for the lives (sources/race-matches.yaml)
+    from . import lives
+    for where, msg in lives.problems(series):
+        add(ERROR, where, msg, "lives")
     # the register of State election sources (sources/states.yaml)
     from . import sources
     for where, msg in sources.problems():
