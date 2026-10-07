@@ -6,9 +6,9 @@ sources/app-index.jsonl.
 #   each person {key: [line numbers]}.
 #   A document names a person where its text gives the person's name: the first given name (or a name in
 #   parentheses, 'Ted'), any further given names or initials, and the surname ('Hubert Humphrey', 'Hubert H.
-#   Humphrey'); or a title and the surname ('Senator Humphrey', 'Vice President Humphrey') where no other person
-#   with an entry has that surname. A person whose first name and surname another entry shares is left out:
-#   the text cannot tell them apart. A document is not counted as naming its own author.
+#   Humphrey'); or an office title and the surname ('Senator Humphrey', 'Vice President Humphrey'; not 'Mr.')
+#   where no other person with an entry has that surname. A person whose first name and surname another entry
+#   shares is left out: the text cannot tell them apart. A document is not counted as naming its own author.
 """
 import gzip, hashlib, json, os, re, sys
 
@@ -18,9 +18,10 @@ from bib import store  # noqa: E402
 from bib.lives import people, key_of, split_name  # noqa: E402
 
 OUT = os.path.join(HERE, "..", "..", "sources")
-TITLES = (r"(?:Senator|Senators|Secretary|Ambassador|Governor|General|Gen\.|Admiral|Adm\.|Vice President|Mr\.|Mrs\.|Miss|"
-          r"Dr\.|Judge|Justice|Representative|Congressman|Congresswoman|Director|Chairman|Commissioner|Attorney "
-          r"General|Postmaster General|Under Secretary|Assistant Secretary|Speaker|Leader)")
+# office titles only: 'Mr. Hunt' or 'Dr. Brown' may be anyone of the name
+TITLES = (r"(?:Senator|Secretary|Ambassador|Governor|General|Gen\.|Admiral|Adm\.|Vice President|Judge|Justice|"
+          r"Representative|Congressman|Congresswoman|Director|Chairman|Commissioner|Attorney General|"
+          r"Postmaster General|Under Secretary|Assistant Secretary|Speaker|Leader)")
 
 
 def forms(p):
