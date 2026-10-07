@@ -1421,7 +1421,9 @@ def entry(series, linker, ptrs, p):
     out = [f'<section class="lv" id="{key_of(name)}"><h2 id="{key_of(name)}-h" data-short="{esc(sur)}">{esc(name)}</h2>']
     if e:
         head = re.split(r";\s+", e["text"])[0]
-        desc = head.split("), ", 1)[-1] if "), " in head else head.split(", ", 2)[-1]
+        # from the description's article: the name's 'Jr.' and its '(brother of …)' left out
+        m = re.search(r", ((?:an?|the) [A-Z0-9].*)", re.sub(r"\([^)]*\)|\[[^]]*\]", "", head))
+        desc = (m.group(1) if m else (head.split("), ", 1)[-1] if "), " in head else head.split(", ", 2)[-1])).strip(" .")
         desc = re.sub(r" and (?:an?) ", " and ", re.sub(r"^(?:an?) ", "", desc))   # 'Senator from Minnesota and Vice President' 
         out.append(f'<p class="lvd">{esc(desc[0].upper() + desc[1:])}. <span class="lvc">{bd_cite(e)}.</span></p>')
     else:
