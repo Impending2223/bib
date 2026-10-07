@@ -166,9 +166,12 @@ STOP = {"united", "states", "department", "office", "assistant", "deputy", "spec
         "administration", "service", "executive", "with", "from", "after", "before", "until", "acting"}
 
 
-def bd_entry(sur, given, member=True, words=(), sfx=""):
+def bd_entry(sur, given, member=True, words=(), sfx="", alive=None):
     """The Directory's entry for the person. The member lived into the period (the entry's latest year 1953 or
-    later), so a namesake of the last century is not taken. A member of Congress at an opening may match by a
+    later, and no death before 1953 or before alive, the first day the series shows the person: a seat at an
+    opening, an office), so a namesake of the last century or a father is not taken ('Dingell, John D.' of the
+    87th is not the John David Dingell who died in 1955). Of several, the one whose given names agree most fully
+    ('Albert W.' is Albert Walter Johnson, not Washington's Albert Johnson). A member of Congress at an opening may match by a
     middle name he went by ('Thad Cochran', 'William Thad'); anyone else only where the entry also names one of
     his offices (a word of its title: 'Ambassador to India')."""
     best = None
@@ -194,9 +197,16 @@ def bd_entry(sur, given, member=True, words=(), sfx=""):
             ok = len(A) == 1 and any(A[0] == b or nick(A[0], b) for b in B[1:])
         if ok and not member:
             ok = bool(set(words) & set(re.findall(r"[a-z]{4,}", fold(e["text"]))))
+        d = death_day(e)
+        if ok and d and d < max("1953-01-01", alive or ""):
+            ok = False
         if ok:
-            return e
-    return best
+            A, B = gtoks(given), gtoks(g)
+            score = sum(1 for a, b in zip(A, B) if a == b or (len(a) == 1 and b.startswith(a)) or
+                        (len(b) == 1 and a.startswith(b)))
+            if not best or score > best[0]:
+                best = (score, e)
+    return best and best[1]
 
 
 def holders_of(sur):
@@ -439,7 +449,35 @@ def last_word(n):
     return w[-1] if w else n
 
 
-def election_sentences(sur, given, sfx="", strict=False, givens=(), parties=(), held=(), seated=()):
+def returns_given(n):
+    """The given names of a name as the returns print it: 'Harry F. Byrd Jr.' -> 'Harry F.'."""
+    ws = [w for w in re.sub(r",", " ", n).split() if not re.fullmatch(r"(Jr|Sr|II|III|IV)\.?", w)]
+    return " ".join(ws[:-1])
+
+
+def returns_suffix(n):
+    """'Harry F. Byrd Jr.' -> 'Jr'; '' where none, or Sr."""
+    m = re.search(r",? (Jr|II|III|IV)\.?$", n)
+    return m.group(1) if m else ""
+
+
+def seat_holders():
+    """{(Congress, chamber, State, district or class): the roster's name} at each opening, 87th to 93rd."""
+    def make():
+        idx = {}
+        for f in sorted(os.listdir(os.path.join(store.ROOT, "congress"))):
+            m = re.match(r"(\d\d)\.yaml$", f)
+            if m:
+                d = store.load_yaml(os.path.join(store.ROOT, "congress", f)) or {}
+                for ch, rows in (("s", d.get("senate") or []), ("h", d.get("house") or [])):
+                    for r in rows:
+                        if r.get("name"):
+                            idx[(int(m.group(1)), ch, r["st"], r.get("cl") if ch == "s" else r.get("d", 0))] = r["name"]
+        return idx
+    return cached("seat-holders", make)
+
+
+def election_sentences(sur, given, sfx="", strict=False, givens=(), held=(), seated=(), names=(), died=None):
     """The person's races, from elections/. A candidate's suffix as Wikipedia writes it ('Harry F. Byrd Jr.') agrees
     with the person's; one without a suffix is taken only where no namesake has an entry (strict: the person is the
     son, and the father, written bare, has his own)."""
@@ -456,31 +494,37 @@ def election_sentences(sur, given, sfx="", strict=False, givens=(), parties=(), 
         return cs == sfx if cs else not strict
 
     def mine_race(c):
-        """A candidate in a race for Congress is the person: the name (above); the middle names agree where both give
-        one ('John F.' is not 'John A.'); the party is one he is known by (the Rhode Island Republican John F. Kennedy
-        of 1962 is not the President); and he held no executive office on election day (held: the roster's spans),
-        unless he sat in the Congress the race chose (seated). In the series' data every such overlap has been a
-        namesake: Assistant Secretary of Defense Thomas D. Morris and New Mexico's Thomas G. Morris; the Chairman
-        of the Joint Chiefs and a Delaware candidate."""
+        """A candidate in a race for Congress is the person: the name (above), and the middle names agree where both
+        give one ('John F.' is not Illinois's John A. Kennedy). The race itself must fit too (free, below)."""
         n = c.get("n")
         if not mine(n):
             return False
-        ws = [w for w in re.sub(r",", " ", n).split() if not re.fullmatch(r"(Jr|Sr|II|III|IV)\.?", w)]
-        cg = " ".join(ws[:-1])           # the given names: the words before the surname, the suffix aside
+        cg = returns_given(n)
         gs = [g for g in givens if g] or [given]
         if not any(same_person(sur, g, sur, cg) for g in gs):
             return False
-        # a party he is not known by refuses the candidate, unless the returns give his full middle name too
-        # ('Chester Earl Merrow', a Democrat in 1970)
-        full_mid = len(gtoks(cg)) > 1 and len(gtoks(cg)[1]) > 1 and any(
-            len(gtoks(g)) > 1 and gtoks(g)[1] == gtoks(cg)[1] for g in gs)
-        if parties and c.get("p") in ("D", "R") and c["p"] not in parties and not full_mid:
-            return False
         return True
 
-    def free(r, day):
-        """Not in executive office on election day, or seated in the Congress the race chose."""
-        if ((int(day[:4]) - 1788) // 2 + 1, r["ch"]) in seated:
+    def free(r, day, c=None):
+        """The race can be his: not after his death (Howard H. Baker, d. Jan. 7, 1964: the son's race); a member's
+        races are in the State he sat for (Mississippi's Thomas G. Abernethy is not Alabama's candidate); and he held
+        no executive office on election day (held: the roster's spans), unless he sat in the Congress the race
+        chose. In the series' data every such overlap has been a namesake: Assistant Secretary of Defense Thomas D.
+        Morris and New Mexico's Thomas G. Morris; the Chairman of the Joint Chiefs and a Delaware candidate; the
+        sitting President and Rhode Island's John F. Kennedy, 1962."""
+        if died and day > died:
+            return False
+        states = {st for _, _, st in seated}
+        if states and r["st"] not in states:
+            # after he left Congress he may run elsewhere, named with his middle initial (Robert R. Barry of New York,
+            # in California, 1966)
+            congs = [cg for cg, _, _ in seated]
+            later = (int(day[:4]) - 1788) // 2 + 1 > max(congs) + 1
+            cg_ = gtoks(returns_given((c or {}).get("n") or ""))
+            named = len(cg_) > 1 and any(len(gtoks(g)) > 1 and gtoks(g)[1][0] == cg_[1][0] for g in (givens or [given]))
+            if not (later and named):
+                return False
+        if ((int(day[:4]) - 1788) // 2 + 1, r["ch"]) in {(c, ch) for c, ch, _ in seated}:
             return True
         return not any(f <= day <= t for f, t in held)
     def make():                          # the elections module's copy: the build has read them once already
@@ -518,7 +562,33 @@ def election_sentences(sur, given, sfx="", strict=False, givens=(), parties=(), 
         races = d.get("races") or []
         for r in (races[i] for i in years[y] if i >= 0):
             cs = r.get("cands") or []
-            me = next((c for c in cs if mine_race(c)), None) if free(r, d["date"]) else None
+            me = next((c for c in cs if mine_race(c) and free(r, d["date"], c)), None)
+            cong = (int(y) - 1788) // 2 + 1
+            if not me and names and not sfx:
+                # the winner the roster seats from this race, or the incumbent it seated at this opening, is the
+                # person, though the returns add a suffix the rosters do not write (John D. Dingell Jr., 1970)
+                seat = r.get("seat") or 0
+                incs = {i.get("n") for i in r.get("inc") or []}
+                me = next((c for c in cs if returns_suffix(c.get("n") or "")
+                           and ((c.get("w") and seat_holders().get((cong, r["ch"], r["st"], seat)) in names)
+                                or (c.get("n") in incs and seat_holders().get((cong - 1, r["ch"], r["st"], seat)) in names))
+                           and mine_race(dict(c, n=re.sub(r",? (Jr|II|III|IV)\.?$", "", c["n"])))), None)
+            if me and names:
+                # the seat's own member settles it: a winner who is the roster's member at the next opening, or an
+                # incumbent who is the member at this one, is that member, not a namesake (Texas's Charles Wilson,
+                # not Eisenhower's Secretary of Defense)
+                inc = any(i.get("n") == me.get("n") for i in r.get("inc") or [])
+                for k, cond in (((cong, r["ch"], r["st"], r.get("seat") or 0), me.get("w")),
+                                ((cong - 1, r["ch"], r["st"], r.get("seat") or 0), inc)):
+                    h = seat_holders().get(k)
+                    if cond and h and h not in names and same_person(*split_name(h), last_word(me["n"]), returns_given(me["n"])) \
+                            and returns_suffix(me["n"]) in ("", suffix(h).replace("Sr", "")):
+                        # (a 'Jr.' in the returns the holder lacks is the son: Harry F. Byrd Jr. in his father's
+                        # seat, 1966; the returns may drop a holder's 'Jr.', never add one)
+                        me = None
+                        break
+            if not me:
+                continue
             if not me:
                 continue
             tot = sum(c.get("v") or 0 for c in cs) + (r.get("scat") or 0)
@@ -993,6 +1063,22 @@ def person_suffix(series, p):
     return sfx, bool(sfx) and (fold(sur), (gtoks(given) or [""])[0]) in namesakes(series)
 
 
+def death_day(e):
+    """The day of the person's own death the Directory gives ('died in Dallas, Tex., November 22, 1963'; 'until his
+    death in Knoxville, Tenn., January 7, 1964'), the last such; not 'the vacancy caused by the death of' another."""
+    if not e:
+        return None
+    ms = re.findall(r"(?:\bdied\b|\buntil (?:his|her) death\b)[^;]*?\b(January|February|March|April|May|June|July|"
+                    r"August|September|October|November|December) (\d{1,2}), (\d{4})", e["text"])
+    return f"{ms[-1][2]}-{FULL[ms[-1][0]]:02d}-{int(ms[-1][1]):02d}" if ms else None
+
+
+def alive_day(rp, names):
+    """The first day the series shows the person alive: his first seat at an opening, his first office."""
+    days = [str(d) for d, *_ in rp] + [f for f, t in held_spans(names)]
+    return min(days) if days else None
+
+
 def held_spans(names):
     """[(from, to)]: the person's tenures in the Executive roster, ex officio offices aside."""
     out = []
@@ -1030,31 +1116,6 @@ def full_givens(names):
     return out
 
 
-def known_parties(names, rosters, e):
-    """The parties the person is known by: his party in the Congress rosters, the Directory's 'as a Democrat', and
-    any change of party recorded in congress/switches.yaml."""
-    out = set()
-    def make():
-        idx = {}
-        for f in sorted(os.listdir(os.path.join(store.ROOT, "congress"))):
-            if re.match(r"\d\d\.yaml$", f):
-                d = store.load_yaml(os.path.join(store.ROOT, "congress", f)) or {}
-                for r in (d.get("house") or []) + (d.get("senate") or []):
-                    if r.get("name") and r.get("party"):
-                        idx.setdefault(r["name"], set()).add(r["party"])
-        return idx
-    for n in names:
-        out |= cached("roster-parties", make).get(n, set())
-    if e:
-        for m in re.findall(r"\bas an? (Democrat|Republican)", e["text"]):
-            out.add(m[0])
-    sw = cached("switches", lambda: store.load_yaml(os.path.join(store.ROOT, "congress", "switches.yaml")) or [])
-    for x in sw:
-        if any(same_person(*split_name(n), last_word(x["name"]), x["name"].split()[0]) for n in names):
-            out |= {x.get("from"), x.get("to")}
-    return {x for x in out if x}
-
-
 def entry(series, linker, ptrs, p):
     if isinstance(p, str):
         p = person_for(series, p)
@@ -1070,10 +1131,11 @@ def entry(series, linker, ptrs, p):
     cal = calendar_of(ptrs, [x for x in subs if (x[1].code or "").startswith("III")])
     rp = roster_pointers(sur, given, names)
     member = bool(rp)
-    e = bd_entry(sur, given, member, () if member else person_words(sur, given, names), sfx)
+    e = bd_entry(sur, given, member, () if member else person_words(sur, given, names), sfx, alive_day(rp, names))
     structured = (office_sentences(sur, given, names)
                   + election_sentences(sur, given, sfx, strict, [split_name(n)[1] for n in names] + full_givens(names),
-                                       known_parties(names, rp, e), held_spans(names), {(c, ch) for _, c, ch, *_ in rp})
+                                       held_spans(names), {(c, ch, st) for _, c, ch, st, *_ in rp}, names,
+                                       death_day(e))
                   + calendar_sentences(ptrs, cal) + pocom_sentences(p, bool(e)))
     record = [s_["row"] for s_ in structured if s_.get("row")]
     structured = [s_ for s_ in structured if s_["kind"] != "election"]
