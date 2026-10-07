@@ -49,6 +49,10 @@ A holder:
       appointed: '1961-01-21'      # the commission, or the appointment where there is no commission
       from: '1961-01-21'           # took office: the oath, entry on duty, or assumption of command (required)
       to: '1969-01-20'             # left office; none if still there on Aug. 31, 1974
+      last: '1968-09-30'           # instead of to, where the end is not known: the last day a source shows the
+                                   # holder in office ("Last listed Sept. 30, 1968; end not known")
+      seen: '1968-09-30'           # instead of from, where the start is not known: the first day a source shows
+                                   # the holder in office ("In office by Sept. 30, 1968")
       out: Resigned.               # how it ended, clipped: "Resigned." "Died." "To Secretary of Defense."
       n: a note; "Check" marks a detail to verify
       src: [POCOM, CDIR 1961-04, https://...]   # the forms: tools/bib/executive_sources.py
@@ -139,7 +143,7 @@ UNIT_KEYS = {"unit", "name", "names", "under", "order", "from", "until", "law", 
 OFFICE_KEYS = {"id", "title", "titles", "rank", "appt", "under", "group", "level", "many", "from", "until",
                "law", "n", "holders"}
 HOLDER_KEYS = {"name", "given", "rank", "title", "acting", "nominated", "confirmed", "recess", "appointed", "from", "to",
-               "out", "n", "src"}
+               "last", "seen", "out", "n", "src"}
 LAW_KEYS = {"act", "date", "effective", "until", "tags", "cite", "usc", "does", "url"}
 # What an authority does for its unit or office (the label shown before it).
 TAGS = {"creates": "Creates", "powers": "Powers", "appointment": "Appointment", "vacancy": "Vacancy",
@@ -189,6 +193,12 @@ def _load():
             d = store.load_yaml(os.path.join(DIR, f)) or {}
             if isinstance(d, dict) and d.get("unit"):
                 d["_file"] = f
+                for o in d.get("offices") or []:
+                    for h in o.get("holders") or []:
+                        if h.get("last") and not h.get("to"):     # the end not known: count to the last day seen
+                            h["to"], h["_last"] = h["last"], True
+                        if h.get("seen") and not h.get("from"):   # the start not known: count from the first day seen
+                            h["from"], h["_seen"] = h["seen"], True
                 out[d["unit"]] = d
     return out
 
@@ -410,7 +420,11 @@ def in_force(a, x, y):
 def holder_line(h, a, b, o=None):
     """The holder's dates, as one clipped line (HTML)."""
     pairs = []
-    if h.get("acting"):
+    if h.get("acting") and (h.get("_seen") or h.get("_last")):
+        t = "Acting" + (f"; in office by {fmt(h['from'])}" if h.get("_seen") else f", from {fmt(h['from'])}")
+        t += (f"; last listed {fmt(h['to'])}, end not known." if h.get("_last")
+              else f"; left {fmt(h['to'])}." if h.get("to") else ".")
+    elif h.get("acting"):
         t = f"Acting, {span(h['from'], h.get('to'))}."
     else:
         if h.get("recess"):
@@ -422,10 +436,16 @@ def holder_line(h, a, b, o=None):
         if h.get("appointed") and h.get("appointed") != h.get("recess"):
             com = h.get("confirmed") or h.get("recess") or (o or {}).get("appt") in ("PAS", "MIL")
             pairs.append(("commissioned" if com else "appointed", h["appointed"]))
-        pairs.append(("took office", h["from"]))
-        t = dates_run(pairs)
-        t = t[0].upper() + t[1:] + "."
-        if h.get("to"):
+        if not h.get("_seen"):
+            pairs.append(("took office", h["from"]))
+        t = dates_run(pairs) if pairs else ""
+        t = (t[0].upper() + t[1:] + ". ") if t else ""
+        if h.get("_seen"):
+            t += f"In office by {fmt(h['from'])}."
+        t = t.rstrip()
+        if h.get("_last"):
+            t += f" Last listed {fmt(h['to'])}; end not known."
+        elif h.get("to"):
             t += f" Left {fmt(h['to'])}."
     if h.get("out"):
         t += " " + to_html(h["out"]).rstrip(".") + "."
@@ -477,18 +497,19 @@ def vacancies(o, a, b):
         m = p[1] if len(p) > 1 else 12
         return datetime.date(p[0], m, calendar.monthrange(p[0], m)[1])
 
-    gaps, last, last_s = [], None, None
+    gaps, last, last_s, seen = [], None, None, False     # seen: the last end is only the last day a source shows
     acting = [h for h in o.get("holders") or [] if h.get("acting")]
     for h in sorted([h for h in o.get("holders") or [] if not h.get("acting")], key=lambda h: lo(h["from"])):
         if last and (first(h["from"]) - last).days >= 1:
-            gaps.append((last_s, str(h["from"]), len(last_s or "") == 10 and len(str(h["from"])) == 10))
+            gaps.append((last_s, str(h["from"]), not seen and not h.get("_seen") and len(last_s or "") == 10
+                         and len(str(h["from"])) == 10))
         if not h.get("to"):
-            last, last_s = datetime.date(9999, 1, 1), None
+            last, last_s, seen = datetime.date(9999, 1, 1), None, False
         elif not last or final(h["to"]) > last:
-            last, last_s = final(h["to"]), str(h["to"])
+            last, last_s, seen = final(h["to"]), str(h["to"]), bool(h.get("_last"))
     end = o.get("until") or END
     if last and last.year < 9999 and final(end) > last:
-        gaps.append((last_s, str(end), len(last_s or "") == 10 and (final(end) - last).days < 90))
+        gaps.append((last_s, str(end), not seen and len(last_s or "") == 10 and (final(end) - last).days < 90))
     out = []
     for x, y, sure_vacant in gaps:
         x = a if lo(x) < lo(a) else x
@@ -891,7 +912,7 @@ def problems(series=None):
             prev = None
             for h in o.get("holders") or []:
                 hw = f"{w} {h.get('name')}"
-                bad = set(h) - HOLDER_KEYS
+                bad = {k for k in set(h) - HOLDER_KEYS if not k.startswith("_")}
                 if bad:
                     out.append((hw, f"unknown holder fields: {', '.join(sorted(bad))}"))
                 if not h.get("name"):
@@ -899,7 +920,7 @@ def problems(series=None):
                 if not h.get("from"):
                     out.append((hw, "holder needs 'from' (the day of taking office)"))
                     continue
-                for d in ("nominated", "confirmed", "recess", "appointed", "from", "to"):
+                for d in ("nominated", "confirmed", "recess", "appointed", "from", "to", "last", "seen"):
                     if h.get(d) and bad_date(h[d]):
                         out.append((hw, f"bad date {d}: {h[d]!r}"))
                 if h.get("to") and hi(h["to"]) < lo(h["from"]):

@@ -334,7 +334,9 @@ notes/executive-brief.md      the brief for whoever adds to the roster, person o
   terms of Art. II, § 2, cl. 2: heads of departments, principal officers (PAS), inferior officers (PA, HD),
   employees, military officers (`rank`, `appt`).
 - Holders: `from` (taking office) is required; `nominated`, `confirmed`, `recess`, `appointed` (the
-  commission), `to`, `out`, `acting`. Holders in order of taking office; two who are not acting may not
+  commission), `to`, `out`, `acting`. Where a source shows a holder in office but not when the term began or
+  ended, write `seen` (the first day shown) for `from` or `last` (the last day shown) for `to`: shown "In office
+  by Sept. 30, 1968", "Last listed …; end not known", and no vacancy is computed on that side. Holders in order of taking office; two who are not acting may not
   overlap unless the office is `many: true`. Holders who left on a term's first day show only in the term before.
 - Law: `act`, `date` (enacted; for an amendment, ratified), `effective` and `until` where it took effect
   later or was repealed or superseded, `tags` (creates, powers, appointment, vacancy, pay, reorganizes),

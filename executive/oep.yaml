@@ -200,14 +200,14 @@ offices:
         from: '1967-10-09'
         to: '1969-01-20'
         out: Resigned at the change of Administration.
-        src: ['Wikipedia: Price Daniel', CDIR 1967-12, Cong. Rec.]
+        src: ['Wikipedia: Price Daniel', CDIR 1967-12, Cong. Rec., 'Plum Book 1968, p. 9']
       - name: Lincoln, George A.
         rank: Brig. Gen., USA (ret.)
         confirmed: '1969-01-29'
         from: '1969-01-29'
         to: '1973-01-20'
         out: Resigned.
-        src: ['Wikipedia: George A. Lincoln', FRUS persons list, CDIR 1969-03, Cong. Rec.]
+        src: ['Wikipedia: George A. Lincoln', FRUS persons list, CDIR 1969-03, Cong. Rec., 'Plum Book 1972, p. 15']
       - name: Trent, Darrell M.
         acting: true
         from: '1973-01-20'
@@ -297,6 +297,13 @@ offices:
         to: '1966'
         n: Listed in the Congressional Directory, Mar. 1965–Jan. 1966. Check the dates of office.
         src: [CDIR 1965-03, CDIR 1966-01, Cong. Rec.]
+      - name: Merker, Mordecai M.
+        nominated: '1968-10-08'
+        confirmed: '1968-10-10'
+        from: '1968-10'
+        to: '1969'
+        n: Nominated vice Myron R. Blee. General Counsel before. Listed as Deputy Director in the Plum Book of Sept. 30, 1968, with a note of his confirmation (p. 9). Russell listed Mar. 1969. Check both dates.
+        src: [Cong. Rec., 'Plum Book 1968, p. 9']
       - name: Russell, Fred J.
         nominated: '1969-01-29'
         from: '1969'
@@ -308,11 +315,11 @@ offices:
         from: '1970'
         to: '1973-07-01'
         n: Acting Director from Jan. 20, 1973. Check the day he took office. Listed in the Congressional Directory, Dec. 1971–Mar. 1973. Check the dates of office.
-        src: [CDIR 1971-12, CDIR 1973-03, 'Wikipedia: Darrell M. Trent', Cong. Rec.]
+        src: [CDIR 1971-12, CDIR 1973-03, 'Wikipedia: Darrell M. Trent', Cong. Rec., 'Plum Book 1972, p. 15']
   - id: assistant-director
     title: Assistant Director of Defense Mobilization
     rank: inferior
-    appt: HD
+    appt: PAS
     level: V
     many: true
     until: '1973-07-01'
@@ -501,9 +508,9 @@ offices:
       - name: Brewton, Charles S.
         title: Assistant Director for Resources and Economic Affairs
         from: '1962'
-        to: '1967'
-        n: Listed in the Congressional Directory, Jan. 1962–Dec. 1967. Check the dates of office.
-        src: [CDIR 1962-01, CDIR 1967-12]
+        last: '1968-09-30'
+        n: Listed in the Congressional Directory, Jan. 1962–Dec. 1967; in office Sept. 30, 1968 (Plum Book). Check the dates of office.
+        src: [CDIR 1962-01, CDIR 1967-12, 'Plum Book 1968, p. 9']
       - name: Cosgrove, John E.
         title: Assistant Director for Federal-State Relations
         from: '1962'
@@ -522,17 +529,17 @@ offices:
         to: '1969'
         from: '1964'
         n: Listed in the Congressional Directory, Mar. 1965–Mar. 1969. Check the dates of office.
-        src: [CDIR 1965-03, CDIR 1969-03]
+        src: [CDIR 1965-03, CDIR 1969-03, 'Plum Book 1968, p. 9']
       - name: Peabody, Endicott
         from: '1967'
         to: '1968'
-        n: Governor of Massachusetts, 1963–65. Listed in the Congressional Directory, Dec. 1967. Check the dates of office.
+        n: 'Governor of Massachusetts, 1963–65. Listed in the Congressional Directory, Dec. 1967. Check the dates of office. Check: not in the Plum Book of Sept. 30, 1968 (p. 9 gives O''Connell, Brewton, and one post vacant).'
         src: [CDIR 1967-12]
       - name: Lindjord, Haakon
         to: '1973'
         from: '1969'
         n: Special Assistant for Planning, Mar. 1969. Listed in the Congressional Directory, Dec. 1969–Mar. 1973. Check the dates of office.
-        src: [CDIR 1969-12, CDIR 1973-03]
+        src: [CDIR 1969-12, CDIR 1973-03, 'Plum Book 1972, p. 15']
       - name: Boe, Nils A.
         from: '1969'
         to: '1969'
@@ -558,7 +565,7 @@ offices:
         title: Legal Adviser; General Counsel from 1967
         from: '1965'
         to: '1967'
-        n: Listed in the Congressional Directory, Mar. 1965–Dec. 1967. Check the dates of office.
+        n: 'Listed in the Congressional Directory, Mar. 1965–Dec. 1967. Check the dates of office. Nominated Deputy Director Oct. 8, 1968. Check: the day he left this office.'
         src: [CDIR 1965-03, CDIR 1967-12]
       - name: Simms, Charles F.
         from: '1969'
@@ -573,8 +580,8 @@ offices:
       - name: Bennett, Elmer F.
         from: '1971'
         to: '1973-07-01'
-        n: Listed in the Congressional Directory, Dec. 1971–Mar. 1973. Check the dates of office.
-        src: [CDIR 1971-12, CDIR 1973-03]
+        n: 'Listed in the Congressional Directory, Dec. 1971–Mar. 1973. Check the dates of office. Check: an Assistant Director (PAS, level V) in the Plum Book of Sept. 15, 1972 (p. 15).'
+        src: [CDIR 1971-12, CDIR 1973-03, 'Plum Book 1972, p. 15']
   - id: nsrb-chairman
     title: Chairman of the National Security Resources Board
     rank: principal
@@ -641,7 +648,7 @@ offices:
         to: '1969'
         from: '1964'
         n: Also Special Assistant to the President for Telecommunications (FRUS). Listed in the Congressional Directory, Mar. 1965–Mar. 1969. Check the dates of office.
-        src: [CDIR 1965-03, CDIR 1969-03, FRUS persons list]
+        src: [CDIR 1965-03, CDIR 1969-03, FRUS persons list, 'Plum Book 1968, p. 9']
       - name: Plummer, William
         acting: true
         from: '1969'
