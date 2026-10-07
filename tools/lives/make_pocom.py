@@ -16,7 +16,8 @@ and notes/pocom-matches.md.
 #     it); or, without the Directory, both give a middle name or initial and they agree, or both give the same
 #     suffix; or the first name alone, where the dates are known and fit and no other person on either side fits
 #     (not where the series gives a middle initial POCOM lacks: 'John F. O'Leary' is not POCOM's John O'Leary);
-#   - sources/pocom-matches.yaml, kept by hand, overrides: {person name: POCOM id, or null to refuse}.
+#   - sources/pocom-matches.yaml, kept by hand, overrides: {person name: POCOM id, or null to refuse, or {id: POCOM
+#     id, check: what to verify}}; a check is shown in the life as "Check: ...".
 #   The build needs neither the clone nor the network.
 """
 import glob, json, os, re, sys
@@ -190,7 +191,7 @@ def main():
     links = json.load(open(os.path.join(ROOT, 'sources', 'executive-links.json'), encoding='utf-8')).get('pocom', {})
     hand = store.load_yaml(HAND) if os.path.exists(HAND) else {}
     hand = hand or {}
-    match, taken = {}, set()
+    match, taken, checks = {}, set(), {}
     for p in everyone:
         ids = sorted({links[n] for n in p['names'] if n in links and links[n] in recs})
         if ids:
@@ -225,10 +226,14 @@ def main():
     accepted, refused = [], []
     for k, (p, c) in sorted(cands.items()):
         if p['name'] in hand:
-            i = hand[p['name']]
-            (accepted if i else refused).append((p['name'], i or c[0], 'by hand'))
+            h = hand[p['name']]
+            i, note = (h.get('id'), h.get('check')) if isinstance(h, dict) else (h, None)
+            (accepted if i else refused).append((p['name'], i or c[0], 'by hand' + (f'; check: {note}' if note else '')
+                                                 if i else 'refused by hand' + (f': {note}' if note else '')))
             if i:
                 match[k] = i
+                if note:
+                    checks[k] = note
             continue
         if len(c) > 1:
             refused.append((p['name'], ', '.join(c), 'more than one POCOM record fits'))
@@ -264,7 +269,7 @@ def main():
         persons[i] = {'name': f"{r['fore']} {r['sur']}" + (f", {r['gen']}" if r['gen'] else ''), 'birth': r['birth'],
                       'death': r['death'], 'career': CAREER.get(r['career'], ''), 'states': r['states'],
                       'posts': allposts.get(i, [])}
-    json.dump({'match': match, 'persons': persons}, open(OUT, 'w', encoding='utf-8'), ensure_ascii=False,
+    json.dump({'match': match, 'persons': persons, 'check': checks}, open(OUT, 'w', encoding='utf-8'), ensure_ascii=False,
               separators=(',', ':'))
     url = 'https://history.state.gov/departmenthistory/people/'
     lines = ['# POCOM matches by name', '',

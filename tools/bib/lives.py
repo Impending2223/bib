@@ -338,6 +338,9 @@ def pocom_sentences(p, has_bd):
     if r.get("career") or home:
         t = (r.get("career") or "") + home if r.get("career") else home[2:].capitalize()
         out.append(sent(k0, f"{t}.", cite, kind="pocom"))
+    note = (d.get("check") or {}).get(key_of(p["name"]))
+    if note:                             # a match made by hand, to verify
+        out.append(sent(k0, f"Check: {esc(note.rstrip('.'))}.", cite, kind="pocom"))
     for label, ap, began, ended, end_note, note in r.get("posts") or []:
         b = began or ap
         if b and b <= WINDOW[1] and (ended or "9999") >= WINDOW[0]:

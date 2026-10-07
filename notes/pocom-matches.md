@@ -2,7 +2,7 @@
 
 Made by tools/lives/make_pocom.py: the persons of the Lives that the Executive roster does not already tie to POCOM, matched by name, with the evidence. Override in sources/pocom-matches.yaml (`Name: pocom-id`, or `Name: null` to refuse); then rerun the script.
 
-767 persons tied through the roster; 106 matched by name; 10 refused.
+767 persons tied through the roster; 108 matched by name; 8 refused.
 
 ## Matched
 
@@ -34,6 +34,7 @@ Made by tools/lives/make_pocom.py: the persons of the Lives that the Executive r
 - Eagleburger, Lawrence S. = [eagleburger-lawrence-sidney](https://history.state.gov/departmenthistory/people/eagleburger-lawrence-sidney) (Lawrence Sidney Eagleburger, 1930–2011): Lawrence S. and Lawrence Sidney: the middle names agree
 - Earle, Ralph, II = [earle-ralph](https://history.state.gov/departmenthistory/people/earle-ralph) (Ralph Earle, 1928–): Ralph, II, and Ralph, II: the suffixes agree
 - Evans, Melvin H. = [evans-melvin-h](https://history.state.gov/departmenthistory/people/evans-melvin-h) (Melvin H. Evans, 1917–1984): Melvin H. and Melvin H.: the middle names agree
+- Fairbanks, Richard M., III = [fairbanks-richard](https://history.state.gov/departmenthistory/people/fairbanks-richard) (Richard Fairbanks, 1941–): by hand; check: taken for POCOM's Richard Fairbanks (born 1941), who is given there without middle initial or suffix
 - Flanigan, Peter M. = [flanigan-peter-magnus](https://history.state.gov/departmenthistory/people/flanigan-peter-magnus) (Peter Magnus Flanigan, 1923–2013): Peter M. and Peter Magnus: the middle names agree
 - Foley, Thomas S. = [foley-thomas-stephen](https://history.state.gov/departmenthistory/people/foley-thomas-stephen) (Thomas Stephen Foley, 1929–2013): born 1929, the Directory and POCOM
 - Gardner, Richard N. = [gardner-richard-newton](https://history.state.gov/departmenthistory/people/gardner-richard-newton) (Richard Newton Gardner, 1927–): Richard N. and Richard Newton: the middle names agree
@@ -101,6 +102,7 @@ Made by tools/lives/make_pocom.py: the persons of the Lives that the Executive r
 - Solomon, Richard H. = [solomon-richard-h](https://history.state.gov/departmenthistory/people/solomon-richard-h) (Richard H. Solomon, 1937–2017): Richard H. and Richard H.: the middle names agree
 - Stone, Galen L. = [stone-galen-luther](https://history.state.gov/departmenthistory/people/stone-galen-luther) (Galen Luther Stone, 1921–): Galen L. and Galen Luther: the middle names agree
 - Stookey, Robert W. = [stookey-robert-wilson](https://history.state.gov/departmenthistory/people/stookey-robert-wilson) (Robert Wilson Stookey, 1917–1998): Robert W. and Robert Wilson: the middle names agree
+- Strauss, Robert = [strauss-robert-schwarz](https://history.state.gov/departmenthistory/people/strauss-robert-schwarz) (Robert Schwarz Strauss, 1918–2014): by hand; check: taken for POCOM's Robert Schwarz Strauss (1918–2014) by name; the series gives no year of his work to test the dates against
 - Vance, Cyrus = [vance-cyrus-roberts](https://history.state.gov/departmenthistory/people/vance-cyrus-roberts) (Cyrus Roberts Vance, 1917–2002): Cyrus R. and Cyrus Roberts: the middle names agree
 - Vine, Richard D. = [vine-richard-david](https://history.state.gov/departmenthistory/people/vine-richard-david) (Richard David Vine, 1925–2008): Richard D. and Richard David: the middle names agree
 - Wallis, W. Allen = [wallis-w-allen](https://history.state.gov/departmenthistory/people/wallis-w-allen) (W. Allen Wallis, 1912–1998): W. Allen and W. Allen: the middle names agree
@@ -116,12 +118,10 @@ Made by tools/lives/make_pocom.py: the persons of the Lives that the Executive r
 ## Refused
 
 - Baker, Howard H.: baker-howard-henry: born 1902 (the Directory), 1925 (POCOM)
-- Campbell, John C.: campbell-john-allen: John C. and John: nothing beyond the first name, and born 1944
+- Campbell, John C.: campbell-john-allen: refused by hand
 - Dawson, William L.: dawson-william: born 1886 (the Directory), 1885 (POCOM)
 - Dodd, Thomas J.: dodd-thomas-j: born 1907 (the Directory), 1935 (POCOM)
-- Fairbanks, Richard M., III: fairbanks-richard: Richard M. and Richard: nothing beyond the first name, and born 1941
 - Harvey, James: harvey-james-e: born 1922 (the Directory), 1820 (POCOM)
-- Nicholson, James M.: nicholson-james-jim: James M. and James (Jim): nothing beyond the first name, and born 1938
+- Nicholson, James M.: nicholson-james-jim: refused by hand
 - O'Leary, John F.: oleary-john: John F. and John: nothing beyond the first name, and born 1947
-- Strauss, Robert: strauss-robert-schwarz: Robert and Robert Schwarz: nothing beyond the first name, and no year of work in the series
 - Walker, E. S. Johnny: walker-edward-s: born 1911 (the Directory), 1940 (POCOM)
