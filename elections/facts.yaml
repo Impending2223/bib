@@ -30,6 +30,19 @@ president:
     1968: {NC: {R: 12, A: 1}}
     1972: {VA: {R: 11, Hospers: 1}}
 
+  # The candidates for Vice President on each ticket, by the presidential candidate's key. The Clerk's table of
+  # electoral votes for President and Vice President heads its columns by the presidential candidates only; a
+  # running mate's electoral votes are the ticket's, except where an elector split them (vice_cast).
+  vice:
+    1960: {D: Lyndon B. Johnson, R: Henry Cabot Lodge}
+    1964: {D: Hubert H. Humphrey, R: William E. Miller}
+    1968: {R: Spiro T. Agnew, D: Edmund S. Muskie, A: Curtis E. LeMay}
+    1972: {R: Spiro T. Agnew, D: R. Sargent Shriver, A: Thomas J. Anderson, Hospers: Theodora Nathan}
+  # Electors for a presidential electee who voted for another for Vice President: the unpledged electors' 14 for
+  # Thurmond (Alabama 6, Mississippi 8) and Oklahoma's elector for Goldwater.
+  vice_cast:
+    1960: {Byrd: {Strom Thurmond: 14, Barry Goldwater: 1}}
+
   # Who received electoral votes without a slate of their own; 'like' is the key whose color they take.
   electees:
     Jones: {name: Walter B. Jones, like: O}

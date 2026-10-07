@@ -407,7 +407,7 @@ def election_sentences(sur, given, sfx="", strict=False):
     with the person's; one without a suffix is taken only where no namesake has an entry (strict: the person is the
     son, and the father, written bare, has his own)."""
     from .elections import rid as erid
-    from .congress import STATE
+    from .congress import STATE, BLUEBOOK
     out = []
     first = fold(given.split()[0]) if given else ""
 
@@ -434,6 +434,12 @@ def election_sentences(sur, given, sfx="", strict=False):
             for c in (d.get("president") or {}).get("cands") or []:
                 if c.get("n"):
                     idx.setdefault(fold(last_word(c["n"])), {}).setdefault(y, []).append(-1)
+            from . import elections as E
+            pf = E.facts().get("president") or {}
+            vn = list(((pf.get("vice") or {}).get(int(y)) or {}).values())
+            vn += [n for split in ((pf.get("vice_cast") or {}).get(int(y)) or {}).values() for n in split]
+            for n in vn:                 # the running mates
+                idx.setdefault(fold(last_word(n)), {}).setdefault(y, []).append(-1)
         return idx
     years = cached("election-races", cand_index).get(fold(sur), {})
     for y, d in cached("elections", make):
@@ -464,38 +470,15 @@ def election_sentences(sur, given, sfx="", strict=False):
             out[-1]["row"] = {
                 "cong": (int(y) - 1788) // 2 + 1, "ch": r["ch"], "st": r["st"], "date": d["date"],
                 "election": ptr(f"{SITE}congress.html#{erid(y, r)}", fmt(d["date"])),
-                "seat": f"Senate, {r['st']}" if r["ch"] == "s" else f"House, {r['st']}-{r['seat'] or 'AL'}",
+                "seat": f"Senate, {BLUEBOOK.get(r['st'], r['st'])}" if r["ch"] == "s" else f"{r['st']}-{r['seat'] or 'AL'}",
                 "result": what,
-                "votes": (f"{me['v']:,}" + (f" ({100 * me['v'] / tot:.1f}%)" if tot else "")) if me.get("v") else (
-                    "Unopposed; no vote printed" if len(cs) == 1 else ""),
-                "others": "<br>".join(f"{esc(c['n'])} ({c['p']}) {c['v']:,}" for c in cs if c is not me and c.get("v")),
+                "cands": [cand(me["n"], me.get("p"), (f"{me['v']:,}" + (f" ({pct(me['v'], tot)})" if tot else ""))
+                               if me.get("v") else ("unopposed; no vote printed" if len(cs) == 1 else ""), True)]
+                         + [cand(c["n"], c.get("p"), f"{c['v']:,}" + (f" ({pct(c['v'], tot)})" if tot else ""))
+                            for c in cs if c is not me and c.get("v")],
                 "src": a(url + (f"#page={r['page']}" if r.get("page") else ""),
                          f"Clerk {y}" + (f", p. {r['page']}" if r.get("page") else ""))}
-        p = d.get("president")
-        k = next((c["k"] for c in (p or {}).get("cands") or [] if mine(c.get("n"))), None)
-        if k:
-            pv = sum(s_["v"] for st in p["states"] for s_ in st.get("slates") or [] if s_.get("k") == k)
-            ev = sum((st.get("cast") or {}).get(k, 0) for st in p["states"])
-            allv = sum(s_["v"] for st in p["states"] for s_ in st.get("slates") or [])
-            party = next((c.get("party") for c in p["cands"] if c["k"] == k), "")
-            t = (f"{esc(party)} candidate for President, {fmt(d['date'])}: {pv:,} popular votes "
-                 f"({100 * pv / allv:.1f} percent); {ev} electoral votes.")
-            out.append(sent(d["date"], t, [clerk()], [ptr(f"{SITE}congress.html#e{y}", f"Election {y}")],
-                            para=True, kind="election", dates={d["date"]}))
-            ov = {}
-            for st in p["states"]:
-                for s_ in st.get("slates") or []:
-                    if s_.get("k") and s_["k"] != k:
-                        ov[s_["k"]] = ov.get(s_["k"], 0) + s_["v"]
-            name_of = {c["k"]: c.get("n") or c["k"] for c in p["cands"]}
-            out[-1]["row"] = {
-                "cong": None, "ch": "p", "st": "", "date": d["date"],
-                "election": ptr(f"{SITE}congress.html#e{y}", fmt(d["date"])),
-                "seat": "President", "result": f"{esc(party)} candidate".strip(),
-                "votes": f"{pv:,} ({100 * pv / allv:.1f}%)<br>{ev} electoral",
-                "others": "<br>".join(f"{esc(name_of.get(x, x))} {v:,}" for x, v in sorted(ov.items(), key=lambda kv: -kv[1])
-                                    if v >= allv * 0.01),
-                "src": a(url, f"Clerk {y}")}
+        out += ticket_rows(y, d, url, mine)
     return out
 
 
@@ -634,11 +617,80 @@ def pointers(ps):
     return "; ".join(out)
 
 
+def cand(name, party, votes, me=False):
+    """A candidate's line in the record: 'Ray Wolfram (R) 17,471 (14.1%)'; the person's own first, in bold."""
+    n = esc(name) + (f" ({esc(party)})" if party else "")
+    n = f"<b>{n}</b>" if me else n
+    return n + (f' <span class="lvv">{votes}</span>' if votes else "")
+
+
+def pct(v, tot):
+    """A share of the vote: '85.9%'; under a tenth of a point, '<0.1%'."""
+    x = 100 * v / tot
+    return f"{x:.1f}%" if x >= 0.05 else "<0.1%"
+
+
+PARTY_LETTER = {"Democratic": "D", "Republican": "R", "American Independent": "AI", "Libertarian": "L",
+                "Socialist Labor": "SL", "Unpledged Democratic": "U"}
+
+
+def ticket_rows(y, d, url, mine):
+    """The person's candidacies for President and Vice President in the year: a sentence and a table row each, with
+    the electoral votes before the popular. The running mates and their electoral votes: elections/facts.yaml
+    (president: vice, vice_cast)."""
+    from . import elections as E
+    p = d.get("president")
+    if not p:
+        return []
+    facts = (E.facts().get("president") or {}) if hasattr(E, "facts") else {}
+    vice, vcast = (facts.get("vice") or {}).get(int(y), {}), (facts.get("vice_cast") or {}).get(int(y), {})
+    pv, ev = {}, {}
+    for st in p["states"]:
+        for s_ in st.get("slates") or []:
+            if s_.get("k"):
+                pv[s_["k"]] = pv.get(s_["k"], 0) + s_["v"]
+        for k_, n_ in (st.get("cast") or {}).items():
+            ev[k_] = ev.get(k_, 0) + n_
+    allv = sum(pv.values()) or 1
+    letter = {c["k"]: PARTY_LETTER.get(c.get("party") or "", "") for c in p["cands"]}
+    pres = {c["k"]: c.get("n") or c["k"] for c in p["cands"]}
+    winner = max(ev, key=ev.get)
+    out = []
+    for office, names in (("President", pres), ("Vice President", vice)):
+        # (name, key, electoral votes): a running mate takes his ticket's, an elector's split its own
+        field = [(n, k_, ev.get(k_, 0)) for k_, n in names.items() if k_ not in vcast or office == "President"]
+        if office == "Vice President":
+            for k_, split in vcast.items():
+                field += [(n, None, v) for n, v in split.items()]
+        me = next((f for f in field if mine(f[0])), None)
+        if not me:
+            continue
+        n, k, e = me
+        lt = letter.get(k, "")
+        won = k == winner
+        result = "Elected" if won else "Defeated"
+        share = lambda x: f"{pv.get(x, 0):,} ({pct(pv.get(x, 0), allv)})" if pv.get(x) else ""
+        line = lambda n2, k2, e2: "; ".join(x for x in (f"{e2} EV" if e2 else "", share(k2) if k2 else "") if x)
+        others = [cand(n2, letter.get(k2, "") if k2 else "", line(n2, k2, e2))
+                  for n2, k2, e2 in sorted(field, key=lambda f: (-f[2], -pv.get(f[1], 0)))
+                  if (n2, k2) != (n, k) and (e2 or pv.get(k2, 0) >= allv * 0.01)]
+        t = (f"{result.split(' (')[0]} {'to' if won else 'for'} the office of {office}, {fmt(d['date'])}: {e} electoral "
+             f"votes; {share(k)} popular." if k else f"{office}, {fmt(d['date'])}: {e} electoral votes.")
+        out.append(sent(d["date"], t, [a(url, f"Clerk, Election Statistics {y}")],
+                        [ptr(f"{SITE}congress.html#e{y}", f"Election {y}")], para=True, kind="election",
+                        dates={d["date"]}))
+        out[-1]["row"] = {
+            "cong": None, "ch": "p" if office == "President" else "v", "st": "", "date": d["date"],
+            "election": ptr(f"{SITE}congress.html#e{y}", fmt(d["date"])), "seat": office, "result": result,
+            "cands": [cand(n, lt, line(n, k, e), True)] + others, "src": a(url, f"Clerk {y}")}
+    return out
+
+
 def record_html(rows, rosters):
     """The record in Congress, a table after the life: a row an election, with the Congress it chose and the seat at
     that Congress's opening; a row a Congress where the member sat at its opening without an election here (a Senator
     between elections); a row a presidential candidacy. Every cite and pointer the running text gave."""
-    from .congress import ordinal, STATE
+    from .congress import BLUEBOOK
     seats = {(c, ch): (day, st, p, seat) for day, c, ch, st, p, seat in rosters}
     used, out = set(), []
     for r in rows:
@@ -648,26 +700,22 @@ def record_html(rows, rosters):
             used.add(k)
         else:
             hit = None
-        out.append((r["cong"] or 0, r["date"], hit[2] if hit else "", r["election"], r["seat"], r["result"], r["votes"],
-                    r["others"], r["src"]))
+        out.append((r["cong"] or 0, r["date"], hit[2] if hit else "", r["election"], r["seat"], r["result"],
+                    "<br>".join(r["cands"]), r["src"]))
     for (c, ch), (day, st, p, seat) in seats.items():
         if (c, ch) in used:
             continue
-        where = f"Senate, {st}" if ch == "s" else f"House, {st}-{seat or 'AL'}"
-        out.append((c, day, p, "", where, "Term continuing", "", "", ""))
+        where = f"Senate, {BLUEBOOK.get(st, st)}" if ch == "s" else f"{st}-{seat or 'AL'}"
+        out.append((c, day, p, "", where, "Continuing", "", ""))
     if not out:
         return ""
     out.sort(key=lambda x: (x[1][:4], x[0]))
-    head = "<tr><th>Congress<br>Election</th><th>Seat<br>Result</th><th>Votes</th><th>Opponents<br>Source</th></tr>"
-
-    def votes(v):                        # '106,708 (85.9%)' as the votes over the share
-        m = re.match(r"^([\d,]+) \(([\d.]+%)\)(.*)$", v)
-        return f"{m.group(1)}<br>{m.group(2)}{m.group(3)}" if m else v
+    head = "<tr><th>Election<br>Congress</th><th>Seat<br>Result</th><th>Candidates<br>Source</th></tr>"
     two = lambda a_, b_: f"{a_}<br>{b_}" if a_ and b_ else (a_ or b_)
     body = "".join(
-        f"<tr><td>{two(cg, el)}</td><td>{two(seat, res)}</td><td>{votes(v)}</td>"
-        f'<td>{two(oth, f"""<span class="lvts">{src}</span>""" if src else "")}</td></tr>'
-        for _, _, cg, el, seat, res, v, oth, src in out)
+        f"<tr><td>{two(el, cg)}</td><td>{two(seat, res)}</td>"
+        f'<td>{two(cands, f"""<span class="lvts">{src}</span>""" if src else "")}</td></tr>'
+        for _, _, cg, el, seat, res, cands, src in out)
     return (f'<h3>Elections and Congresses</h3><div class="lvtw"><table class="lvt"><thead>{head}</thead>'
             f"<tbody>{body}</tbody></table></div>")
 
@@ -871,6 +919,12 @@ def entry(series, linker, ptrs, p):
     record = [s_["row"] for s_ in structured if s_.get("row")]
     structured = [s_ for s_ in structured if s_["kind"] != "election"]
     life = merge(structured, bd_sentences(e) if e else [], [])
+    # the Directory's account of service in Congress opens a paragraph, with its own source block
+    for s_ in life:
+        if s_["kind"] == "bd" and re.match(r"(Elected|Appointed|Was elected|Successfully contested)\b", s_["text"]) \
+                and re.search(r"Congress|Senate|House", s_["text"]):
+            s_["para"] = True
+            break
     works = series_works(series, linker, ptrs, name, subs, strict)
     sent_, named = frus_lists(name)
     ppp = app_list(name, sur)
@@ -928,14 +982,15 @@ CSS = """<style>
 .lvs{font-size:.82rem;color:var(--muted)}
 p.lvl{margin:.5rem 0;line-height:1.55}
 .lvtw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:.3rem 0 .8rem}
-table.lvt td:nth-child(3){padding-left:.3rem}
 table.lvt{border-collapse:collapse;font-size:.82rem;line-height:1.35;min-width:100%}
 table.lvt th{font-family:var(--sans);font-size:.7rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;
   color:var(--muted);text-align:left;border-bottom:1px solid var(--rule,#ccc);padding:.25rem .5rem .25rem 0;white-space:nowrap}
 table.lvt td{vertical-align:top;padding:.3rem .6rem .3rem 0;border-bottom:1px solid var(--rule,#e5e5e5)}
 table.lvt td:nth-child(1){white-space:nowrap}
-table.lvt td:nth-child(3),table.lvt th:nth-child(3){text-align:right;white-space:nowrap}
-table.lvt td:nth-child(4){padding-right:0}
+table.lvt td:nth-child(3){padding-right:0}
+table.lvt td:nth-child(2){min-width:5.5em}
+table.lvt b{font-weight:600}
+table.lvt .lvv{white-space:nowrap}
 table.lvt .lvts,table.lvt .lvts a{color:var(--muted);font-size:.92em}
 table.lvt td a.lvp{font-size:.9em}
 .lvc{font-size:.85em;color:var(--muted)}
