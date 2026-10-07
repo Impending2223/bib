@@ -424,27 +424,48 @@ def holder_html(h, a, b, ptr, href, o=None):
 def vacancies(o, a, b):
     """Spans within [a, b) when the office was vacant: no one held it by appointment (an acting officer serves in
     a vacancy; he does not fill it). [(from, to)], clipped to the term. A day between one holder's last day and
-    the next one's first is a handover, not a vacancy, unless someone acted in it."""
+    the next one's first is a handover, not a vacancy, unless someone acted in it. A date known only to the
+    month or year counts at its outermost: a leaving date at its latest day, a taking of office at its earliest,
+    so an imprecise date never makes a vacancy the sources do not show. Each span is (from, to, sure): sure where
+    both ends are known to the day (a holder's leaving and the next one's taking office), or the span runs from
+    the last holder known to the day for less than three months; otherwise the sources record no holder there,
+    which is not proof of a vacancy."""
+    import calendar
     import datetime
-    def day(d):
-        return datetime.date.fromisoformat(d) if len(str(d)) == 10 else None
-    gaps, last = [], None
+
+    def first(d):
+        p = [int(x) for x in str(d).split("-")]
+        return datetime.date(p[0], p[1] if len(p) > 1 else 1, p[2] if len(p) > 2 else 1)
+
+    def final(d):
+        p = [int(x) for x in str(d).split("-")]
+        if len(p) == 3:
+            return datetime.date(*p)
+        m = p[1] if len(p) > 1 else 12
+        return datetime.date(p[0], m, calendar.monthrange(p[0], m)[1])
+
+    gaps, last, last_s = [], None, None
     acting = [h for h in o.get("holders") or [] if h.get("acting")]
     for h in sorted([h for h in o.get("holders") or [] if not h.get("acting")], key=lambda h: lo(h["from"])):
-        f = day(h["from"])
-        if last and f and (f - last).days >= 1:
-            gaps.append((last.isoformat(), h["from"]))
-        t = day(h["to"]) if h.get("to") else datetime.date(9999, 1, 1)
-        if t and (not last or t > last):
-            last = t
-    end = o.get("until") if o.get("until") and len(str(o["until"])) == 10 else END
-    if last and last.year < 9999 and last.isoformat() < end:
-        gaps.append((last.isoformat(), end))
+        if last and (first(h["from"]) - last).days >= 1:
+            gaps.append((last_s, str(h["from"]), len(last_s or "") == 10 and len(str(h["from"])) == 10))
+        if not h.get("to"):
+            last, last_s = datetime.date(9999, 1, 1), None
+        elif not last or final(h["to"]) > last:
+            last, last_s = final(h["to"]), str(h["to"])
+    end = o.get("until") or END
+    if last and last.year < 9999 and final(end) > last:
+        gaps.append((last_s, str(end), len(last_s or "") == 10 and (final(end) - last).days < 90))
     out = []
-    for x, y in gaps:
-        x, y = max(x, a), min(y, b)
-        if x < y and ((day(y) - day(x)).days > 1 or any(lo(x) <= lo(h["from"]) < lo(y) for h in acting)):
-            out.append((x, y))
+    for x, y, sure_vacant in gaps:
+        x = a if lo(x) < lo(a) else x
+        y = b if lo(y) > lo(b) else y
+        if lo(x) >= lo(y):
+            continue
+        sure = (first(y) - final(x)).days
+        acted = any(lo(x) <= lo(h["from"]) < lo(y) for h in acting)
+        if sure > 1 or (sure >= 1 and acted):
+            out.append((x, y, sure_vacant or acted))
     return out
 
 
@@ -543,7 +564,9 @@ def block(i, units, ptr, href, rid, here=False):
             for _, kind, x in sorted(items, key=lambda t: (t[0], t[1])):
                 if kind == 0:
                     gap = x
-                    cells.append((f'<span class="exh"><b>Vacant</b> <span class="exd">{span(x[0], term_end(x[1]) if x[1] == b else x[1])}.</span></span>', []))
+                    when = span(x[0], term_end(x[1]) if x[1] == b else x[1])
+                    label = '<b>Vacant</b>' if x[2] else '<i>No holder recorded</i>'
+                    cells.append((f'<span class="exh">{label} <span class="exd">{when}.</span></span>', []))
                     continue
                 who, line, pts = holder_html(x, a, b, ptr, href, o)
                 inside = x.get("acting") and gap and lo(gap[0]) <= lo(x["from"]) < lo(gap[1])
@@ -555,7 +578,7 @@ def block(i, units, ptr, href, rid, here=False):
             for k, (cell, pts) in enumerate(cells):
                 last = k == n - 1
                 cls = "exo" + ("" if last else " exmid") + (" exhl" if full and last else "")
-                head = (f'<td rowspan="{n}" class="exof"><span class="ext">{esc(title_at(o, a))}</span>'
+                head = (f'<td rowspan="{n}" class="exof{" exnb" if full else ""}"><span class="ext">{esc(title_at(o, a))}</span>'
                         f'<span class="exm">{" · ".join(meta)}</span></td>') if k == 0 else ""
                 pcell = "".join(f'<span class="exp">{p_}</span>' for p_ in pts)
                 rid_ = f' id="{rid(i, u["unit"], o["id"])}"' if k == 0 else ""
@@ -604,7 +627,7 @@ details.exu td:nth-child(3){font-size:.76rem;overflow-wrap:anywhere}
 details.exu tr.exhl td{border-bottom:0}
 details.exu tr.exmid td:not(.exof){border-bottom:0;padding-bottom:0}
 details.exu td.exof{border-bottom:1px solid var(--rule)}
-details.exu tr.exhl td.exof{border-bottom:0}
+details.exu tr.exhl td.exof,details.exu td.exof.exnb{border-bottom:0}
 .ex .exp{display:block;margin-bottom:.15rem}
 .ex .exp a{white-space:nowrap}
 details.exu tr.exlr td{padding-top:0}
