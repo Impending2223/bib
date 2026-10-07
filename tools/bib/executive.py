@@ -594,7 +594,9 @@ def block(i, units, ptr, href, rid, here=False):
             gaps = [] if o.get("many") else vacancies(o, a, b)
             if not hs and not gaps:
                 cells.append(('<span class="exh"><i>No holder recorded.</i></span>', []))
-            items = [(lo(h["from"]), 1, h) for h in hs] + [(lo(g[0]), 0, g) for g in gaps]
+            # an acting officer who began before the term sorts from its first day, under the vacancy he served in
+            items = [(max(lo(h["from"]), lo(a)) if h.get("acting") else lo(h["from"]), 1, h) for h in hs] \
+                + [(lo(g[0]), 0, g) for g in gaps]
             gap = None
             for _, kind, x in sorted(items, key=lambda t: (t[0], t[1])):
                 if kind == 0:
@@ -604,7 +606,7 @@ def block(i, units, ptr, href, rid, here=False):
                     cells.append((f'<span class="exh">{gap_label} <span class="exd">{when}.</span></span>', []))
                     continue
                 who, line, pts = holder_html(x, a, b, ptr, href, o)
-                inside = x.get("acting") and gap and lo(gap[0]) <= lo(x["from"]) < lo(gap[1])
+                inside = x.get("acting") and gap and lo(gap[0]) <= max(lo(x["from"]), lo(a)) < lo(gap[1])
                 cells.append((f'<span class="exh{" exin" if inside else ""}">{who} {line}</span>', pts))
             rows_total += 1
             held += bool(hs)
