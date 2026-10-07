@@ -2010,14 +2010,21 @@ offices:
     rank: employee
     appt: PA
     from: '1961-01-24'
-    until: '1965'
-    n: 'Also Special Assistant to the President. Under Eisenhower, Paarlberg was Food for Peace Coordinator (1960). Check: when the office left the White House Office; not in CDIR 1966-01.'
+    until: '1965-11-01'
+    n: 'Also Special Assistant to the President. Under Eisenhower, Paarlberg was Food for Peace Coordinator (1960). The Director''s functions transferred to the Secretary of State, Nov. 1, 1965.'
     law:
       - act: Executive Order 10915
         date: '1961-01-24'
         url: https://www.presidency.ucsb.edu/documents/executive-order-10915-amending-prior-executive-orders-provide-for-the-responsibilities-the
         tags: [creates, powers]
         does: 'The Director of the Food-for-Peace Program, provided for by letter of the same date, subject to the direction of the President, responsible for the continuous supervision and coordination of the functions delegated under the Agricultural Trade Development and Assistance Act of 1954.'
+      - act: Executive Order 11252
+        date: '1965-10-20'
+        effective: '1965-11-01'
+        cite: '30 Fed. Reg. 13507'
+        url: https://www.presidency.ucsb.edu/documents/executive-order-11252-food-for-peace-program
+        tags: [reorganizes]
+        does: 'All functions of the Director of the Food-for-Peace Program transferred to the Secretary of State; a Special Assistant to the Secretary for the program.'
     holders:
       - name: McGovern, George
         from: '1961-01-21'
@@ -2027,9 +2034,10 @@ offices:
         src: [CDIR 1961-04, FRUS persons list, https://www.presidency.ucsb.edu/documents/letter-accepting-resignation-george-mcgovern-director-the-food-for-peace-program]
       - name: Reuter, Richard W.
         from: '1962-07'
-        to: '1965'
-        n: 'Then Special Assistant to the Secretary of State for Food for Peace. Check: dates.'
-        src: [CDIR 1963-03, CDIR 1965-03, 'Wikipedia: Richard W. Reuter']
+        to: '1965-11-01'
+        out: Office transferred to State; to Special Assistant to the Secretary of State (Food-for-Peace Program).
+        n: 'Director of the Program, Oct. 1965 (APP). Check: the day he took office.'
+        src: [CDIR 1963-03, CDIR 1965-03, 'Wikipedia: Richard W. Reuter', https://www.presidency.ucsb.edu/documents/memorandum-steps-taken-strengthen-the-food-for-peace-program]
   - id: military-representative
     title: Military Representative of the President
     rank: military
