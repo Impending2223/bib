@@ -78,14 +78,29 @@ def pocom_ids(pocom):
         r = ET.parse(f).getroot()
         t = lambda p: re.sub(r'\s+', ' ', (r.findtext(p) or '')).strip()
         by_sur.setdefault(store.fold(t('persName/surname')), []).append(
-            (t('id'), t('persName/forename'), t('persName/altname')))
+            (t('id'), t('persName/forename'), t('persName/altname'), t('birth')))
     out = {}
-    for name, given, src, *_ in holders():
+    for name, given, src, frm, *_ in holders():
         if 'POCOM' not in src or name in out:
             continue
         sur, g = split(name)
-        hits = [i for i, fore, alt in by_sur.get(sur, []) if compatible(g, fore) or compatible(given, fore)
-                or (alt and compatible(g, alt))]
+        cands = by_sur.get(sur, [])
+        hits = [i for i, fore, alt, b in cands if (g and compatible(g, fore)) or (given and compatible(given, fore))]
+        if len(hits) > 1:   # the initials too: 'Charles E.' is Charles Eustis, not Charles Wesley
+            words = store.fold(given or g).replace('.', ' ').split()
+            hits = [i for i, fore, alt, b in cands if i in hits and
+                    all(any(f.startswith(w) for f in store.fold(fore).replace('.', ' ').split()) for w in words)]
+        if len(hits) > 1:   # father and son: alive and of age when the holder took office, and the suffix
+            y = int(frm[:4]) if frm[:4].isdigit() else 1960
+            info = {i: (alt, b) for i, fore, alt, b in cands}
+            hits = [i for i in hits if not info[i][1].isdigit() or 22 <= y - int(info[i][1]) <= 85] or hits
+            suf = re.search(r',\s*(Jr\.|II|III|IV)$', name)
+            if len(hits) > 1:
+                marked = [i for i in hits if re.search(r'(Jr\.?|\bII|\bIII|\bIV)$', info[i][0]) or i.endswith('-jr')]
+                hits = (marked if suf else [i for i in hits if i not in marked]) or hits
+            if len(hits) > 1:   # the forename exactly as the roster gives it ('Nathaniel', not Nathaniel P.)
+                fore = {i: f for i, f, alt, b in cands}
+                hits = [i for i in hits if store.fold(fore[i]) == store.fold(given or g)] or hits
         if len(hits) == 1:
             out[name] = hits[0]
     return out
