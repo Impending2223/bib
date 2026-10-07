@@ -26,7 +26,7 @@ An office:
       title: Secretary of State
       titles: [{title: ..., from: ...}]   # where the title changed in the period
       rank: head | principal | inferior | employee | military
-      appt: PAS | PA | HD | XO | DES | MIL | CAREER | ELECTED   (see APPT)
+      appt: PAS | PA | HD | VP | XO | DES | MIL | CAREER | ELECTED   (see APPT)
       under: under-secretary       # the office it reports to, where not the unit's head ("unit.office" across units)
       group: Regional bureaus      # a subheading in the unit's table
       level: II                    # the Executive Schedule level (Federal Executive Salary Act of 1964)
@@ -97,6 +97,7 @@ RANK = {"head": "Head", "principal": "Principal officer", "inferior": "Inferior 
 APPT = {"PAS": "the President, by and with the advice and consent of the Senate",
         "PA": "the President alone",
         "HD": "the head of the department or agency",
+        "VP": "the Vice President, as President of the Senate: Senate employees, paid by the Secretary of the Senate",
         "XO": "ex officio: held by virtue of another office",
         "DES": "designated by the President from among other officers",
         "MIL": "a military officer, assigned or detailed to the post; the Senate confirms the grade, and for the chiefs and the major commands the post",
@@ -111,7 +112,7 @@ LEVELS = {"I": "$35,000: the heads of the executive departments",
           "IV": "$27,000: the assistant secretaries, general counsels, members of the larger commissions",
           "V": "$26,000: the heads of bureaus, members of the lesser boards"}
 KEY = ("PAS: appointed by the President with the advice and consent of the Senate. PA: by the President alone. "
-       "HD: by the head of the department or agency. XO: ex officio. DES: designated by the President from among "
+       "HD: by the head of the department or agency. VP: by the Vice President. XO: ex officio. DES: designated by the President from among "
        "other officers. MIL: a military officer assigned to the post. CAREER: a Foreign Service or civil-service "
        "officer, not a political appointment. ELECTED: the President and Vice President.")
 KEY_LEVELS = (" Levels I–V: the pay grades of the Executive Schedule, fixed by the Federal Executive Salary Act of 1964 "
@@ -752,7 +753,7 @@ def page(series, linker, template):
             '<p class="logic">Rank, in the terms of Article II, § 2, cl. 2: heads of departments; principal officers, '
             'appointed by the President with the advice and consent of the Senate (PAS); inferior officers, whose '
             'appointment Congress has vested in the President alone (PA) or the heads of departments (HD); employees, '
-            'who hold no office in law; military officers, assigned to a command or a staff (MIL). XO: ex officio. '
+            'who hold no office in law (VP: the Vice President\'s staff, Senate employees); military officers, assigned to a command or a staff (MIL). XO: ex officio. '
             'DES: designated by the President. Levels: the Executive Schedule of the Federal Executive Salary Act of 1964.</p>',
             '<p class="logic">Dates: nominated, the day the nomination reached the Senate; confirmed; commissioned, the day '
             'the President signed the commission (a recess appointment, during a recess of the Senate); took office, the '

@@ -30,7 +30,7 @@ office for the one it reports to where that is not the head, and `group:` for a 
 service, "Staff offices").
 
 For every office: `title` (the title in January 1953, or when created; `titles:` for later changes, with
-dates), `rank` (head / principal / inferior / employee / military), `appt` (PAS, PA, HD, XO, DES, MIL, CAREER,
+dates), `rank` (head / principal / inferior / employee / military), `appt` (PAS, PA, HD, VP, XO, DES, MIL, CAREER,
 ELECTED: see APPT in the code), `level` where the Executive Schedule (1964 on) fixes one, `from`/`until`
 where the office was created or abolished in the period, `law`, and `holders`.
 
