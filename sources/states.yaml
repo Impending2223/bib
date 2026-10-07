@@ -125,7 +125,7 @@
     covers: one canvass per election
     contents:
       general: unverified (host behind a bot check)
-      specials: unverified. 1961-05-02 AZ-2 (Udall-Matheson) not opened. The State Library's collection description (search-result summary of azlibrary.gov/node/131, itself bot-checked) says the Official Canvass collection covers 'primary, special, general, recounts, and presidential preference elections from 1906 to the present', so a 1961 special canvass probably exists.
+      specials: 'not in the 1960 or 1962 general canvasses, and no separate canvass of the 1961-05-02 AZ-2 special found in the collection (the owner looked, 2026-10-06). See the almanac below.'
       state_races: unverified
       primaries: separate canvasses (first pass; unverified)
       checked_in: nothing opened
@@ -134,13 +134,27 @@
     - {host: Arizona Memory Project, url: 'https://azmemory.azlibrary.gov/nodes/view/255745', years: collection 'State of Arizona Official Canvass', access: bot-check, checked: '2026-10-06', pattern: Wayback has a capture (20251014034318) per archive.org/wayback/available; web.archive.org itself is not reachable from here}
     - {host: Arizona Secretary of State, url: 'https://azsos.gov/elections/archived-election-results', years: unknown, access: bot-check, checked: '2026-10-06'}
     - {host: Internet Archive (CIS microfiche), url: 'https://archive.org/search?query=title%3A%28official+canvass%29+AND+arizona', years: 1980-1994 only (micro_IA... items), access: open, checked: '2026-10-06'}
-    notes: Every Arizona host (azsos.gov, apps.azsos.gov, azlibrary.gov, azmemory) answers with a Cloudflare challenge. Someone with a browser should open node 255745 and look for a 'Special Election May 2, 1961' item.
+    notes: Every Arizona host (azsos.gov, apps.azsos.gov, azlibrary.gov, azmemory) answers with a Cloudflare challenge; a person in a browser can open them.
+  - title: Bill Turnbow's Arizona Political Almanac (1962 edition seen)
+    publisher: Bill Turnbow (private; reprints the Secretary of State's official canvasses)
+    kind: almanac
+    frequency: unknown; 1962 seen
+    covers: registration and returns, 1958-61, with the official canvasses reprinted
+    contents:
+      general: 'unverified beyond p. 64 (registration by county, 1958 and 1960)'
+      specials: 'yes, with votes: 1961-05-02 AZ-2 special general (Udall 51,304; Matheson 49,297) and its special primary of 1961-03-07, both by county, ''Official Canvass'', p. 65 (index: ''Election Returns Special, 1961 ... 65, 66'')'
+      state_races: unverified
+      primaries: the 1961 special primary, all candidates of both parties, by county
+      checked_in: the owner's PDF of the 1962 edition (68 pp.), p. 65 read off the page image
+    online:
+    - {host: Arizona Memory Project, url: 'https://azmemory.azlibrary.gov/nodes/view/102593', years: '1962 edition', access: bot-check, checked: '2026-10-06'}
+    notes: A copy came from the owner, who opened it in a browser.
   labels_1968:
     democratic: 'unverified (Wikipedia, citing the canvass: ''Democratic Party'')'
     wallace: 'unverified (Wikipedia: ''American Independent Party'')'
     source: https://azmemory.azlibrary.gov/nodes/view/102663
     verified: false
-  best_for_specials: the State Library's Official Canvass collection (azmemory), if it holds the May 2, 1961 special; not seen
+  best_for_specials: 'Turnbow''s *Arizona Political Almanac*, 1962, p. 65 (the one special, 1961-05-02 AZ-2; read)'
   gaps: 'All of 1956-74 unseen from here. Paper: Arizona State Library, Archives and Public Records (Phoenix).'
 - st: CA
   name: California
@@ -1378,22 +1392,22 @@
     covers: vol. 94 prints the 1958 primary and general, 1959 municipal (judges, amendments), and special elections 1958-60
     contents:
       general: U.S. Senate and Governor by political subdivision; Congress by district; State Senate and House by district (vol. 94)
-      specials: 'yes, with votes, in vol. 94: ''Special Elections 1958-1959-1960'', p. 698: General Assembly specials and Congress (17th and 18th districts, Apr. 26, 1960) with votes by county. Later volumes unverified (1961-05-16 PA-16, 1963-07-30 PA-15, 1963-11-05 PA-23, 1964-04-28 PA-5, 1968 PA-20, 1970 PA-9, 1971-11-02 PA-18, 1972-04-25 PA-27, 1974-02-05 PA-12 not checked)'
+      specials: 'yes, with votes, in vol. 94: ''Special Elections 1958-1959-1960'', p. 698: General Assembly specials and Congress (17th and 18th districts, Apr. 26, 1960) with votes by county. Vol. 95 (1961-62), ''Special Elections 1960-1961'', p. 714: 1961-05-16 PA-16 (Kunkel 43,220; Vanderslice 22,698) and 1960-11-08 PA-18, by county, with the General Assembly specials (read, 2026-10-06). Later volumes unverified (1963-07-30 PA-15, 1963-11-05 PA-23, 1964-04-28 PA-5, 1968 PA-20, 1970 PA-9, 1971-11-02 PA-18, 1972-04-25 PA-27, 1974-02-05 PA-12 not checked)'
       state_races: Governor, Lieutenant Governor, Secretary of Internal Affairs, judges, by county; legislature by district
       primaries: '''Primary and General Election, 1958, Vote for U.S. Senator, Governor, Lt. Governor ...'' (vol. 94 contents); party detail unverified'
-      checked_in: vol. 94 (1959-60), contents and p. 698 (archive.org OCR)
+      checked_in: vol. 94 (1959-60), contents and p. 698 (archive.org OCR); vol. 95 (1961-62), p. 714 (HathiTrust page image supplied by the owner)
     online:
     - {host: Internet Archive, url: 'https://archive.org/details/cwopa-the-pennsylvania-manual-vol-094-1959_202403', years: 1959-60 (vol. 94); the 'cwopa' uploads otherwise only 2003 on (vols. 116-126), access: open, checked: '2026-10-06'}
     - {host: Internet Archive, url: 'https://archive.org/details/pennsylvaniamanu0095iris', years: '1961-62 (vol. 95); also pennsylvaniamanu0096will (1963-64), bwb_T5-CVG-500_100 (1971), pennsylvaniamanu0000kath (1975)', access: borrow, checked: '2026-10-06'}
     - {host: HathiTrust, url: 'https://catalog.hathitrust.org/Record/009441218', years: 'Full view (catalog API): 1951-52, 1959-60, 1961-62 (uc1.31205033028992, osu.32435024075012, uiug.30112053623135); search-only: 1963-64, 1965-66, 1967, 1968-69, 1970-71, 1972-73, 1974-75, 1976-77', access: bot-check, checked: '2026-10-06'}
     - {host: PA House of Representatives Archives (paper), url: 'https://pahousearchives.klnpa.org/repositories/2/archival_objects/102413', years: Manuals 1929-present, access: open, checked: '2026-10-06'}
-    notes: The HathiTrust full-view 1961-62 volume should carry the May 16, 1961 PA-16 special if the vol. 94 practice held; unverified.
+    notes: 'The HathiTrust full-view 1961-62 volume carries the May 16, 1961 PA-16 special at p. 714 (seq. 722), as vol. 94''s practice suggested.'
   labels_1968:
     democratic: unverified
     wallace: unverified
     source: 1968-69 Manual is search-only/borrow; not opened
     verified: false
-  best_for_specials: 'The Pennsylvania Manual''s ''Special Elections'' table in the next volume (format seen in vol. 94, p. 698: votes by county). Only vol. 94 is open; 1961-62 is full view at HathiTrust (blocked here).'
+  best_for_specials: 'The Pennsylvania Manual''s ''Special Elections'' table in the next volume, votes by county (vol. 94, p. 698; vol. 95, p. 714, read). Vols. 94 and 95 full view (95 at HathiTrust, bot-checked here); later volumes search-only or borrow.'
   gaps: 1963-75 volumes search-only or borrow. PA Department of State returns online only from 2000.
 - st: RI
   name: Rhode Island

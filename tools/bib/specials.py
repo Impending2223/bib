@@ -14,6 +14,7 @@ cites the State's publication and page. sources/states.yaml says where each Stat
 STYLE:
  1. Votes and shares from the State's own returns where read (specials-state.yaml), by round: an open
     first round (a California special primary) before the deciding one; party primaries are not rounds.
+    Each round is headed by its label and date only where there are two; one round needs neither.
     Otherwise Wikipedia's shares, in percent, no votes; Texas, 1961, votes from Bartley and Graham.
     Shares are of all the votes cast, scattering included. Margin: points between the first two.
  2. Pickup: the winner's party differs from the departed member's. A member re-elected to his own seat
@@ -246,7 +247,9 @@ def row(x, STATE, sw=None):
             tot = sum(r[2] for r in rd["cands"])
             rows = [(r[0], r[1], r[2], 100 * r[2] / tot, rd is x["rounds"][-1] and surname(r[0]) == surname(x["winner"]))
                     for r in sorted(rd["cands"], key=lambda r: -r[2])]
-            cells.append(f'<span class="eln">{esc(rd["label"].capitalize())}, {esc(fmt_date(rd["date"]))}</span>' + cand_cell(rows, True))
+            head = (f'<span class="eln">{esc(rd["label"].capitalize())}, {esc(fmt_date(rd["date"]))}</span>'
+                    if len(x["rounds"]) > 1 else "")
+            cells.append(head + cand_cell(rows, True))
         rows = final(x)
     else:
         rows = final(x)
