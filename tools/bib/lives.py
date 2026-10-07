@@ -465,8 +465,8 @@ def election_sentences(sur, given, sfx="", strict=False, givens=(), parties=(), 
         n = c.get("n")
         if not mine(n):
             return False
-        cg = " ".join(w for w in re.sub(r",", " ", n).split()[:-1] if not re.fullmatch(r"(Jr|Sr|II|III|IV)\.?", w))
-        cg = re.sub(r"\s+(Jr|Sr|II|III|IV)\.?$", "", cg)
+        ws = [w for w in re.sub(r",", " ", n).split() if not re.fullmatch(r"(Jr|Sr|II|III|IV)\.?", w)]
+        cg = " ".join(ws[:-1])           # the given names: the words before the surname, the suffix aside
         gs = [g for g in givens if g] or [given]
         if not any(same_person(sur, g, sur, cg) for g in gs):
             return False
