@@ -513,7 +513,10 @@ def merge(structured, bd, rosters):
             cand = [s for s in hosts if s["key"][:4] == b["key"][:4] and len(words & W(s["text"])) >= 2]
         if cand:
             host = max(cand, key=lambda s: (len(words & W(s["text"])), -len(W(s["text"]) - words)))
-            host["ext"] = host["ext"] + [x for x in b["ext"] if x not in host["ext"]]
+            # a cite the host already gives (the roster's own 'BD 1415') is not given twice
+            have = "; ".join(re.sub(r"<[^>]+>", "", y) for y in host["ext"])
+            host["ext"] = host["ext"] + [x for x in b["ext"] if x not in host["ext"] and not re.search(
+                r"(?:^|; )" + re.escape(re.sub(r"<[^>]+>", "", x)) + r"(?:;|$)", have)]
             continue
         out.append(b)
     from .congress import ordinal

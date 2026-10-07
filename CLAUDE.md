@@ -350,7 +350,8 @@ notes/executive-brief.md      the brief for whoever adds to the roster, person o
 - Names as Part III writes them ("Rusk, Dean"), so the pointers find them; `given` for full given names.
 - Sources (`src`), in the forms the line reads: `CDIR 1961-04` (an edition), `Cong. Rec.` (the Senate's days of
   nomination and confirmation), `Cong. Rec. Index 1961`, `POCOM`, `FRUS persons list[, 1961–63, V]`,
-  `FRUS 1961–63, IX, doc. 144`, `Wikipedia: Title`, `APP[ YYYY-MM-DD]`, `Federal Register, Jan. 20, 1953`, a URL,
+  `FRUS 1961–63, IX, doc. 144`, `Wikipedia: Title`, `APP[ YYYY-MM-DD]`, `Federal Register, Jan. 20, 1953`,
+  `BD 1415` (the printed Biographical Directory of Congress, by page: a member's later offices), a URL,
   or a work in `sources/executive-sources.yaml` (add it there first). Quote an item holding a comma: a flow list
   splits it.
 - State and the chiefs of mission come from POCOM (the Office of the Historian): commission, credentials,

@@ -15,6 +15,8 @@ line under the holder's dates, every source linked where it can be:
     Wikipedia: Title             the article
     APP[ YYYY-MM-DD]             the American Presidency Project, searched for the holder (on that day)
     Federal Register, Jan. 20, 1953   the issue (govinfo)
+    BD 1415                      the printed Biographical Directory of Congress (2005), by page (govinfo; the pages
+                                 from sources/bd/, tools/lives/make_bd.py)
     a URL                        the page, labeled by its site
     anything else                sources/executive-sources.yaml, the register of named works: each a pattern,
                                  the full citation, and its link; else shown as written
@@ -299,8 +301,28 @@ def reg_html(s):
     return None
 
 
+_cache = {}
+BD_PDF = "https://www.govinfo.gov/content/pkg/GPO-CDOC-108hdoc222/pdf/GPO-CDOC-108hdoc222-4-{}.pdf#page={}"
+
+
+def bd_pages():
+    """{printed page: (granule, page in it)} of the 2005 Biographical Directory."""
+    if "bd" not in _cache:
+        out, d = {}, os.path.join(store.ROOT, "sources", "bd")
+        for f in sorted(os.listdir(d)) if os.path.isdir(d) else []:
+            for e in json.load(open(os.path.join(d, f), encoding="utf-8")):
+                if e.get("page"):
+                    out.setdefault(e["page"], (e["part"], e["pdf"]))
+        _cache["bd"] = out
+    return _cache["bd"]
+
+
 def one(s, h, ctx=None):
     """(group, html): a source, linked; group gathers several of a kind into one ("CDir., Mar. 1953, Jan. 1954")."""
+    m = re.match(r"^BD (\d{1,4})$", s)
+    if m:
+        hit = bd_pages().get(int(m.group(1)))
+        return None, (a(BD_PDF.format(*hit), s) if hit else s)
     m = re.match(r"^CDIR (\d{4}-\d{2})(?: to (\d{4}-\d{2}))?$", s)
     if m:
         t = cdir_link(m.group(1))
@@ -429,6 +451,8 @@ KINDS = [
     ("APP", "Gerhard Peters and John T. Woolley, *The American Presidency Project* (presidency.ucsb.edu): "
             "nominations, appointments, resignations, and orders, by date."),
     ("FR", "*Federal Register* (govinfo): executive orders and designations, by issue."),
+    ("BD", "*Biographical Directory of the United States Congress, 1774–2005*, H. Doc. 108-222 (Government Printing "
+           "Office, 2005; govinfo): a member's later offices, by page."),
 ]
 
 
@@ -469,7 +493,7 @@ def kind(s):
     for pre, k in (("CDIR", "CDir."), ("Congressional Directory", "CDir."), ("Cong. Rec", "CR"),
                    ("CR,", "CR"), ("POCOM", "POCOM"), ("FRUS", "FRUS"), ("Wikipedia", "Wikipedia"),
                    ("APP", "APP"), ("https://www.presidency.ucsb.edu", "APP"), ("https://history.state.gov", "FRUS"),
-                   ("Federal Register", "FR")):
+                   ("Federal Register", "FR"), ("BD ", "BD")):
         if s.startswith(pre):
             return k
     for r in register():
