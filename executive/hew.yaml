@@ -674,8 +674,15 @@ offices:
         confirmed: '1966-08-11'
         from: '1966'
         to: '1968'
-        n: 'Check both dates. Listed Feb. 1967 and Dec. 1967.'
+        n: Check both dates. Listed Feb. 1967 and Dec. 1967. Bartlett nominated June 10, 1968, vice Miller.
         src: ['Wikipedia: Paul A. Miller', CDIR 1967-02, CDIR 1967-12, Cong. Rec.]
+      - name: Bartlett, Lynn M.
+        nominated: '1968-06-10'
+        confirmed: '1968-06-17'
+        from: '1968-06'
+        to: '1969'
+        n: Nominated vice Miller. In office Sept. 30, 1968 (Plum Book). Check both dates.
+        src: [Cong. Rec., 'Plum Book 1968, p. 99']
       - name: Allen, James E., Jr.
         nominated: '1969-02-19'
         confirmed: '1969-05-05'
@@ -688,7 +695,7 @@ offices:
         confirmed: '1972-10-14'
         from: '1972'
         to: '1973'
-        n: 'Commissioner of Education to Oct. 1972; Assistant Secretary for Education, listed Mar. 1973. Check both dates.'
+        n: 'Commissioner of Education to Oct. 1972; Assistant Secretary for Education, listed Mar. 1973. Check both dates. Check: the Plum Book of Sept. 15, 1972, gives the post vacant and Marland as Commissioner of Education (p. 85).'
         src: [CDIR 1973-03, Cong. Rec.]
       - name: Saunders, Charles B., Jr.
         acting: true
@@ -798,8 +805,16 @@ offices:
         confirmed: '1966-02-10'
         from: '1966'
         to: '1968'
-        n: 'Deputy Assistant Secretary, 1962–64. Check both dates. Listed Feb. and Dec. 1967.'
+        n: Deputy Assistant Secretary, 1962–64. Check both dates. Listed Feb. and Dec. 1967. Sylvester nominated June 6, 1968, vice Carter.
         src: [CDIR 1967-02, CDIR 1967-12, 'Wikipedia: Lisle C. Carter Jr.', Cong. Rec. Index 1966, Cong. Rec.]
+      - name: Sylvester, Edward C., Jr.
+        title: Assistant Secretary of Health, Education, and Welfare (Community and Field Services)
+        nominated: '1968-06-06'
+        confirmed: '1968-07-25'
+        from: '1968-07'
+        to: '1969'
+        n: Nominated vice Carter. Assistant Secretary for Community and Field Services in the Plum Book of Sept. 30, 1968 (p. 99). Check both dates, and when the post took that title.
+        src: [Cong. Rec., 'Plum Book 1968, p. 99']
   - id: assistant-secretary-community-field
     title: Assistant Secretary of Health, Education, and Welfare (Community and Field Services)
     rank: principal
@@ -1092,7 +1107,7 @@ offices:
       - name: Libassi, F. Peter
         from: '1966'
         to: '1968'
-        n: 'Not listed Jan. 1966; listed Feb. and Dec. 1967. Check both dates.'
+        n: 'Not listed Jan. 1966; listed Feb. and Dec. 1967. Check both dates. Check: not in the Plum Book of Sept. 30, 1968 (p. 99 gives Ruby G. Martin as Director, Office for Civil Rights).'
         src: [CDIR 1967-02, CDIR 1967-12]
       - name: Panetta, Leon E.
         from: '1969'
@@ -1219,6 +1234,33 @@ offices:
         from: '1973-05-29'
         n: Served to Jan. 31, 1975.
         src: ['Wikipedia: Robert Stone (scientist)']
+  - id: hsmha-administrator
+    title: Administrator, Health Services and Mental Health Administration
+    rank: inferior
+    appt: HD
+    level: IV
+    from: '1968'
+    law:
+      - act: 'Executive Order 11409'
+        date: '1968-04-29'
+        tags: [pay]
+        cite: '33 Fed. Reg. 6601'
+        usc: '5 U.S.C. § 5317 (1970)'
+        does: 'Places the Administrator, Health Services and Mental Health Administration, in level IV (amending Executive Order 11248).'
+        url: https://www.presidency.ucsb.edu/documents/executive-order-11409-amending-executive-order-no-11248-placing-certain-positions-levels
+      - act: 'Executive Order 11708'
+        date: '1973-03-23'
+        tags: [pay]
+        usc: '5 U.S.C. § 5317 (1970)'
+        does: 'The Administrator placed in level IV.'
+        url: https://www.presidency.ucsb.edu/documents/executive-order-11708-placing-certain-positions-levels-iv-and-v-the-executive-schedule
+    n: 'Schedule C in the Plum Book of Sept. 15, 1972 (p. 89). Only the holder the Plum Book names is entered. Check: the date the Administration was set up and its other heads.'
+    holders:
+      - name: Wilson, Vernon L.
+        seen: '1972-09-15'
+        last: '1972-09-15'
+        n: 'Check: the dates.'
+        src: ['Plum Book 1972, p. 89']
   - id: fda-commissioner
     title: Commissioner of Food and Drugs
     rank: inferior
@@ -1599,6 +1641,7 @@ offices:
     rank: inferior
     appt: HD
     group: Children's Bureau
+    level: V
     law:
       - act: Act of Apr. 9, 1912
         date: '1912-04-09'
@@ -1611,7 +1654,21 @@ offices:
         cite: '60 Stat. 1095'
         tags: [reorganizes]
         does: 'The Bureau to the Federal Security Agency; its functions to the Administrator, those of the 1912 act to be administered through the Bureau.'
-    n: 'In the Social Security Administration to 1963; the Welfare Administration, 1963–67; the Social and Rehabilitation Service, 1967–69; the Office of Child Development from Sept. 17, 1969. The 1946 plan transfers the Chief''s functions to the Administrator, to be performed by officers and employees he designates: the Chief thereafter appointed within the Agency, then the Department.'
+      - act: 'Executive Order 11550'
+        date: '1970-07-30'
+        tags: [pay]
+        cite: '35 Fed. Reg. 12315'
+        usc: '5 U.S.C. § 5317 (1970)'
+        does: 'The Chief, Children''s Bureau, struck from level V (amending Executive Order 11248).'
+        url: 'https://www.presidency.ucsb.edu/documents/executive-order-11550-amending-executive-order-no-11248-placing-certain-positions-levels'
+      - act: 'Executive Order 11369'
+        date: '1967-08-29'
+        tags: [pay]
+        cite: '32 Fed. Reg. 12585'
+        usc: '5 U.S.C. § 5317 (1970)'
+        does: 'Places the Chief, Children''s Bureau, Social and Rehabilitation Service, in level V.'
+        url: 'https://www.presidency.ucsb.edu/documents/executive-order-11369-placing-additional-positions-level-v-the-federal-executive-salary'
+    n: 'In the Social Security Administration to 1963; the Welfare Administration, 1963–67; the Social and Rehabilitation Service, 1967–69; the Office of Child Development from Sept. 17, 1969. The 1946 plan transfers the Chief''s functions to the Administrator, to be performed by officers and employees he designates: the Chief thereafter appointed within the Agency, then the Department. Level V from Aug. 29, 1967, to July 30, 1970. Check: the manner of appointment; the Plum Book of Sept. 30, 1968, lists Delli Quadri as Chief, PAS, level V (p. 99).'
     holders:
       - name: Eliot, Martha M.
         given: Martha May
@@ -1624,7 +1681,7 @@ offices:
         from: '1957'
         to: '1968'
         out: To Deputy Assistant Secretary (Population and Family Planning).
-        n: 'Not listed Mar. 1957. Check both dates.'
+        n: 'Not listed Mar. 1957. Check both dates. Check: a Deputy Assistant Secretary in the Plum Book of Sept. 30, 1968 (p. 99); Delli Quadri sworn as Chief June 21, 1968.'
         src: ['Wikipedia: United States Children''s Bureau', CDIR 1958-01, CDIR 1967-12]
       - name: DelliQuadri, P. Frederick
         from: '1968-06-21'
@@ -1640,7 +1697,7 @@ offices:
       - name: Zigler, Edward
         from: '1970'
         to: '1972'
-        n: 'Director, Office of Child Development, and Chief. Check both dates.'
+        n: 'Director, Office of Child Development, and Chief. Check both dates. Check: not in the Plum Book of Sept. 15, 1972 (p. 85: Director, Office of Child Development, vacant; PAS, GS-18).'
         src: [CDIR 1971-03, CDIR 1971-12, 'Gov. Org. Manual 1972–73']
       - name: Rosoff, Saul R.
         acting: true
@@ -1659,7 +1716,7 @@ offices:
       - {title: 'Administrator, Social and Rehabilitation Service', from: '1967-08-15'}
     rank: inferior
     appt: HD
-    level: V
+    level: IV
     group: Welfare Administration
     from: '1963'
     law:
@@ -1681,7 +1738,7 @@ offices:
       - act: 'Federal Salary Act of 1967'
         date: '1967-12-16'
         effective: '1967-12'
-        until: '1969-02'
+        until: '1968-04-29'
         tags: [pay]
         cite: 'Pub. L. 90-206, § 215(c), 81 Stat. 613, 638'
         usc: '5 U.S.C. § 5316 (1970)'
@@ -1692,7 +1749,27 @@ offices:
         tags: [pay]
         cite: 'Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644'
         usc: '2 U.S.C. §§ 358–360 (1970)'
-        does: 'Level V, $36,000 a year, on the President''s recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).'
+        does: 'Level IV, $38,000 a year, on the President''s recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).'
+      - act: 'Executive Order 11409'
+        date: '1968-04-29'
+        tags: [pay]
+        cite: '33 Fed. Reg. 6601'
+        usc: '5 U.S.C. § 5317 (1970)'
+        does: 'The Administrator, Social and Rehabilitation Service, moved from level V to level IV (amending Executive Order 11248).'
+        url: 'https://www.presidency.ucsb.edu/documents/executive-order-11409-amending-executive-order-no-11248-placing-certain-positions-levels'
+      - act: 'Executive Order 11708'
+        date: '1973-03-23'
+        tags: [pay]
+        usc: '5 U.S.C. § 5317 (1970)'
+        does: 'The Administrator, Social and Rehabilitation Service, placed in level IV.'
+        url: 'https://www.presidency.ucsb.edu/documents/executive-order-11708-placing-certain-positions-levels-iv-and-v-the-executive-schedule'
+      - act: 'Executive Order 11369'
+        date: '1967-08-29'
+        tags: [pay]
+        cite: '32 Fed. Reg. 12585'
+        usc: '5 U.S.C. § 5317 (1970)'
+        does: 'Places the Administrator, Social and Rehabilitation Service, in level V.'
+        url: 'https://www.presidency.ucsb.edu/documents/executive-order-11369-placing-additional-positions-level-v-the-federal-executive-salary'
     n: 'The Welfare Administration was set up by the Secretary in 1963 from the Bureau of Public Assistance (in the Social Security Administration) and the Children''s Bureau; the Social and Rehabilitation Service by the Secretary''s reorganization of Aug. 15, 1967, joining it with the Vocational Rehabilitation Administration and the Administration on Aging. Directors of the Bureau of Public Assistance before 1963: Jane M. Hoey (to 1953), Jay L. Roney, Kathryn D. Goodwin (CDIR).'
     holders:
       - name: Winston, Ellen
@@ -1785,6 +1862,7 @@ offices:
     rank: principal
     appt: PAS
     group: Administration on Aging
+    level: V
     from: '1965-07-14'
     law:
       - act: Older Americans Act of 1965, § 201
@@ -1793,6 +1871,19 @@ offices:
         usc: '42 U.S.C. § 3011 (1970)'
         tags: [creates, appointment, powers]
         does: 'An Administration on Aging in the Department, headed by a Commissioner on Aging appointed by the President with the consent of the Senate.'
+      - act: 'Executive Order 11248'
+        date: '1965-10-10'
+        tags: [pay]
+        cite: '30 Fed. Reg. 12999'
+        usc: '5 U.S.C. § 5317 (1970)'
+        does: 'Places the Commissioner on Aging in level V.'
+        url: 'https://www.presidency.ucsb.edu/documents/executive-order-11248-placing-certain-positions-levels-iv-and-v-the-federal-executive'
+      - act: 'Executive Order 11708'
+        date: '1973-03-23'
+        tags: [pay]
+        usc: '5 U.S.C. § 5317 (1970)'
+        does: 'The Commissioner on Aging continued in level V.'
+        url: 'https://www.presidency.ucsb.edu/documents/executive-order-11708-placing-certain-positions-levels-iv-and-v-the-executive-schedule'
     holders:
       - name: Bechill, William D.
         nominated: '1965-10-06'

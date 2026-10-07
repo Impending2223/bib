@@ -185,7 +185,7 @@ offices:
         confirmed: '1970-03-20'
         from: '1970'
         to: '1972'
-        n: 'Deputy Under Secretary, 1969. Resigned: Hazard nominated in his place Feb. 14, 1972. Check both dates. Listed Mar. and Dec. 1971.'
+        n: 'Deputy Under Secretary, 1969. Resigned: Hazard nominated in his place Feb. 14, 1972. Check both dates. Listed Mar. and Dec. 1971. Not in the Plum Book of Sept. 15, 1972 (p. 95 gives Hazard).'
         src: [CDIR 1971-03, CDIR 1971-12, Cong. Rec.]
       - name: Hazard, John L.
         nominated: '1972-02-14'
@@ -193,7 +193,7 @@ offices:
         from: '1972'
         to: '1973'
         n: 'Resigned: Binder nominated in his place June 25, 1974. Check: the day he took office (confirmed Apr. 17, 1972; listed Mar. 1973); the day he left (Binder listed as designate, Dec. 1973).'
-        src: [CDIR 1973-03, Cong. Rec.]
+        src: [CDIR 1973-03, Cong. Rec., 'Plum Book 1972, p. 95']
       - name: Binder, Robert Henri
         nominated: '1974-06-25'
         confirmed: '1974-08-22'
@@ -315,8 +315,16 @@ offices:
         confirmed: '1971-03-16'
         from: '1971'
         to: '1972'
-        n: 'Michael Cafferty acting, Mar. 1971. Check both dates.'
+        n: 'Michael Cafferty acting, Mar. 1971. Check both dates. Check: not in the Plum Book of Sept. 15, 1972 (p. 95 gives Hirten, Assistant Secretary for Environment and Urban Systems).'
         src: ['Wikipedia: Herbert F. DeSimone', CDIR 1971-03, CDIR 1971-12, Cong. Rec.]
+      - name: Hirten, John E.
+        title: Assistant Secretary for Environment and Urban Systems
+        confirmed: '1972-08-10'
+        from: '1972-08'
+        to: '1973'
+        out: Resigned.
+        n: In office Sept. 15, 1972 (Plum Book). Monagan nominated Mar. 6, 1973, vice Hirten, resigned. Check both dates, and the title of the post.
+        src: [Cong. Rec., 'Plum Book 1972, p. 95']
   - id: assistant-secretary-congressional
     title: Assistant Secretary for Congressional and Intergovernmental Affairs
     rank: principal
@@ -568,6 +576,33 @@ offices:
         from: '1973-03-14'
         n: 'Deputy Assistant to the President to Mar. 1973. Served to Mar. 31, 1975.'
         src: ['Wikipedia: Alexander Butterfield', CDIR 1973-12, Wg. III.A, Cong. Rec.]
+  - id: faa-deputy-administrator
+    title: Deputy Administrator of the Federal Aviation Administration
+    rank: principal
+    appt: PAS
+    level: IV
+    group: Federal Aviation Administration
+    from: '1967-04-01'
+    law:
+      - act: Federal Aviation Act of 1958
+        date: '1958-08-23'
+        tags: [creates, appointment, vacancy]
+        cite: 'Pub. L. 85-726, § 302, 72 Stat. 731, 744'
+        usc: '49 U.S.C. § 1342 (1964)'
+        does: A Deputy Administrator appointed by the President with the advice and consent of the Senate; $20,500; acts for the Administrator in his absence or disability. A citizen; may be an officer of the armed services, but not if the Administrator is a former regular officer.
+      - act: 'Act of Sept. 6, 1966 (Title 5 enacted)'
+        date: '1966-09-06'
+        tags: [pay]
+        cite: 'Pub. L. 89-554, 80 Stat. 378, 461'
+        usc: '5 U.S.C. § 5315 (1970)'
+        does: 'Level IV continued, $27,000 a year (§ 5315(2)).'
+    n: 'The Federal Aviation Agency''s Deputy Administrator (faa.deputy-administrator) to Apr. 1, 1967. Only the holder the Plum Book of Sept. 30, 1968, names is entered (p. 105).'
+    holders:
+      - name: Thomas, David D.
+        from: '1967-04-01'
+        to: '1969'
+        n: 'Deputy Administrator of the Federal Aviation Agency before. Acting Administrator, Aug. 1968–Mar. 1969. Deputy Administrator in the Plum Book of Sept. 30, 1968 (p. 105). Check: the day he left.'
+        src: ['Plum Book 1968, p. 105']
   - id: fhwa-administrator
     title: Federal Highway Administrator
     rank: principal
@@ -595,6 +630,7 @@ offices:
         cite: 'Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644'
         usc: '2 U.S.C. §§ 358–360 (1970)'
         does: 'Level III, $40,000 a year, on the President''s recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).'
+    n: 'Check: the Plum Book of Sept. 15, 1972, prints level II (p. 95); the Administrator is at level III (5 U.S.C. § 5314(45) (1970)).'
     holders:
       - name: Bridwell, Lowell K.
         confirmed: '1966-02-25'
@@ -860,3 +896,55 @@ offices:
         from: '1969-06'
         n: 'Served to Feb. 1983. Check: day of taking office.'
         src: ['Wikipedia: Saint Lawrence Seaway Development Corporation', Cong. Rec.]
+  - id: ntsb-member
+    title: Member of the National Transportation Safety Board
+    rank: principal
+    appt: PAS
+    many: true
+    from: '1967-04'
+    law:
+      - act: Department of Transportation Act, § 5
+        date: '1966-10-15'
+        tags: [creates, appointment]
+        cite: 'Pub. L. 89-670, § 5(h)–(j), 80 Stat. 931, 936'
+        does: 'A National Transportation Safety Board in the Department, of five members appointed by the President with the advice and consent of the Senate for five-year terms, not more than three of one party; the President designates the Chairman and Vice Chairman.'
+    n: 'The Chairman level III (5 U.S.C. § 5314(47) (1970)); the members level IV in the Plum Books (1968, p. 106; 1972, p. 95). Check: the members'' level in the statute.'
+    holders:
+      - name: 'O''Connell, Joseph J., Jr.'
+        nominated: '1967-04-05'
+        confirmed: '1967-04-19'
+        from: '1967-04'
+        to: '1969'
+        n: Term to Dec. 31, 1969. Chairman, Plum Book of Sept. 30, 1968 (p. 106). Check both dates.
+        src: [Cong. Rec., 'Plum Book 1968, p. 106']
+      - name: Laurel, Oscar M.
+        nominated: '1967-04-05'
+        confirmed: '1967-04-19'
+        from: '1967-04'
+        to: '1972'
+        n: Term to Dec. 31, 1971. In office Sept. 30, 1968 (Plum Book). Haley nominated 1972 vice Laurel. Check both dates.
+        src: [Cong. Rec., 'Plum Book 1968, p. 106']
+      - name: Reed, John H.
+        nominated: '1967-04-05'
+        confirmed: '1967-04-19'
+        from: '1967-04'
+        n: Former Governor of Maine. Term to Dec. 31, 1970; reappointed to Dec. 31, 1975 (nominated Dec. 28, 1970). Chairman in the Plum Book of Sept. 15, 1972 (p. 95). Check both dates.
+        src: [Cong. Rec., 'Plum Book 1968, p. 106', 'Plum Book 1972, p. 95']
+      - name: Thayer, Louis M.
+        confirmed: '1967-04-19'
+        from: '1967-04'
+        n: Term to Dec. 31, 1968. In office Sept. 30, 1968, and Sept. 15, 1972 (Plum Book). Check both dates and the later terms.
+        src: [Cong. Rec., 'Plum Book 1968, p. 106', 'Plum Book 1972, p. 95']
+      - name: McAdams, Francis H.
+        from: '1967-04'
+        n: First term to Dec. 31, 1967; renominated for the term to Dec. 31, 1972. In office Sept. 30, 1968, and Sept. 15, 1972 (Plum Book). Check both dates.
+        src: [Cong. Rec., 'Plum Book 1968, p. 106', 'Plum Book 1972, p. 95']
+      - name: Burgess, Isabel A.
+        nominated: '1969-10-06'
+        from: '1969-10'
+        n: For the remainder of the term to Dec. 31, 1969, and the term to Dec. 31, 1974. In office Sept. 15, 1972 (Plum Book). Check both dates.
+        src: [Cong. Rec., 'Plum Book 1972, p. 95']
+      - name: Haley, William R.
+        from: '1972'
+        n: For the term to Dec. 31, 1976, vice Laurel. In office Sept. 15, 1972 (Plum Book). Check both dates.
+        src: [Cong. Rec., 'Plum Book 1972, p. 95']

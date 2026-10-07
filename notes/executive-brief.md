@@ -54,7 +54,9 @@ continues the holder's date line in the same style: write it as clipped facts, n
 "Commissioned during a recess of the Senate; recommissioned after confirmation on <date>" belongs in the
 fields (`recess`, `confirmed` where known, `appointed` = the recommission), not in `n`.
 
-Never invent. If you cannot find a date, leave the field out. For `from`, give the best precision you can
+Never invent. If you cannot find a date, leave the field out. Where a source shows the holder in office on a
+day but not when the term began or ended (a Directory edition, the Plum Book), write `seen` or `last` with that
+day instead of guessing `from` or `to`. For `from`, give the best precision you can
 support ('1961-02' or '1961' is allowed) and add "Check" to the holder's `n` saying what to verify. Where two
 good sources disagree, give the more official and say "Check: Wikipedia gives Feb. 3." in `n`.
 

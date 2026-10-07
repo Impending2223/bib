@@ -694,7 +694,7 @@ offices:
         from: '1970'
         to: '1972'
         out: To Assistant Attorney General, Civil Division.
-        n: Director of the Executive Office for United States Attorneys, 1969–70.
+        n: 'Director of the Executive Office for United States Attorneys, 1969–70. Check: Assistant Attorney General, Civil Division, in the Plum Book of Sept. 15, 1972 (p. 46).'
         src: [FJC, CDIR 1971-03]
       - name: Ablard, Charles D.
         title: Associate Deputy Attorney General
@@ -810,9 +810,10 @@ offices:
       - name: Zimmerman, Edwin M.
         nominated: '1968-05-10'
         confirmed: '1968-06-06'
-        from: '1968'
+        from: '1968-06'
         to: '1969'
-        n: First assistant from 1966. Check the dates.
+        out: Resigned.
+        n: 'First assistant from 1966. Nominated vice Donald F. Turner. McLaren nominated Jan. 22, 1969, vice Zimmerman, resigned. Check: the day he took office and the day he left.'
         src: ['Wikipedia: United States Department of Justice Antitrust Division', CDIR 1967-02, Cong. Rec., 'Plum Book 1968, p. 47']
       - name: McLaren, Richard W.
         given: Richard Wellington
@@ -827,7 +828,7 @@ offices:
         acting: true
         from: '1972-01'
         to: '1972'
-        n: Deputy Assistant Attorney General. Check the dates.
+        n: 'Deputy Assistant Attorney General. Check the dates. Check: not in the Plum Book of Sept. 15, 1972 (p. 46 gives Kauper).'
         src: ['Wikipedia: United States Department of Justice Antitrust Division', CDIR 1971-12]
       - name: Kauper, Thomas E.
         nominated: '1972-06-12'
@@ -1282,7 +1283,7 @@ offices:
         from: '1970'
         to: '1972'
         out: To the Committee for the Re-election of the President.
-        n: Check the dates.
+        n: 'Check the dates. Check: not in the Plum Book of Sept. 15, 1972 (p. 45 gives Olson).'
         src: [CDIR 1971-03, CDIR 1971-12, Cong. Rec.]
       - name: Olson, A. William
         nominated: '1972-06-12'
@@ -1628,7 +1629,7 @@ offices:
         from: '1971-12'
         to: '1972'
         out: To Deputy Attorney General.
-        n: Check the dates.
+        n: Check the dates. Nominated Deputy Attorney General June 20, 1972; Cramton nominated July 17, 1972, vice Erickson, elevated.
         src: ['Wikipedia: Ralph E. Erickson', CDIR 1971-12, Cong. Rec.]
       - name: Cramton, Roger C.
         nominated: '1972-07-17'
@@ -1826,7 +1827,7 @@ offices:
       - name: Cozart, Reed
         from: '1955'
         to: '1969'
-        n: Check the dates.
+        n: 'Check the dates. Check: the Plum Book of Sept. 30, 1968, gives T. Oscar Smith as Pardon Attorney (p. 60).'
         src: [CDIR 1956-01, CDIR 1967-12]
       - name: Traylor, Lawrence M.
         from: '1970'
@@ -1891,6 +1892,7 @@ offices:
         cite: 'Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644'
         usc: '2 U.S.C. §§ 358–360 (1970)'
         does: 'Level V, $36,000 a year, on the President''s recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).'
+    n: 'Check: the manner of appointment; the Plum Book of Sept. 15, 1972, gives the Director as PA (p. 51); the act of 1930 has him appointed by the Attorney General.'
     holders:
       - name: Bennett, James V.
         from: '1937'
@@ -2091,6 +2093,7 @@ offices:
     rank: inferior
     appt: PAS
     group: Offices and bureaus
+    level: IV
     from: '1968-06-19'
     law:
       - act: Omnibus Crime Control and Safe Streets Act of 1968, § 101
@@ -2105,6 +2108,20 @@ offices:
         cite: 'Pub. L. 93-83, § 2, 87 Stat. 197'
         usc: '42 U.S.C. § 3711 (1970 Supp. III)'
         does: The Administrator the head of the agency; two Deputy Administrators, for Policy Development and for Administration, in place of the three-member Administration.
+      - act: 'Omnibus Crime Control and Safe Streets Act of 1968, § 505'
+        date: '1968-06-19'
+        until: '1971-01-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-351, § 505, 82 Stat. 197, 205'
+        usc: '5 U.S.C. § 5315 (1970)'
+        does: 'Level IV ("Administrator of Law Enforcement Assistance"); the Associate Administrators at level V (§ 506).'
+      - act: 'Omnibus Crime Control Act of 1970, § 7'
+        date: '1971-01-02'
+        tags: [pay]
+        cite: 'Pub. L. 91-644, § 7, 84 Stat. 1880, 1887'
+        usc: '5 U.S.C. § 5314 (1970)'
+        does: 'The Administrator moved to level III (§ 5314(55)); the Associate Administrators to level IV.'
+    n: Level IV, 1968–71; level III from Jan. 2, 1971. Vacant in the Plum Book of Sept. 30, 1968 (p. 47).
     holders:
       - name: Rogovin, Charles H.
         nominated: '1969-02-25'
@@ -2125,6 +2142,77 @@ offices:
         from: '1973'
         n: Resigned 1974. Check the dates.
         src: [CDIR 1973-12, Cong. Rec.]
+  - id: leaa-associate-administrator
+    title: Associate Administrator of Law Enforcement Assistance
+    rank: inferior
+    appt: PAS
+    level: V
+    many: true
+    group: Offices and bureaus
+    from: '1968-06-19'
+    until: '1973-08-06'
+    law:
+      - act: Omnibus Crime Control and Safe Streets Act of 1968, § 101
+        date: '1968-06-19'
+        tags: [creates, appointment]
+        cite: 'Pub. L. 90-351, § 101, 82 Stat. 197, 198'
+        usc: '42 U.S.C. § 3711 (1970)'
+        does: 'Two Associate Administrators, with the Administrator composing the Administration, appointed by the President with the Senate''s consent.'
+      - act: 'Omnibus Crime Control and Safe Streets Act of 1968, § 506'
+        date: '1968-06-19'
+        until: '1971-01-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-351, § 506, 82 Stat. 197, 205'
+        usc: '5 U.S.C. § 5316 (1970)'
+        does: 'Level V ("Associate Administrator of Law Enforcement Assistance").'
+      - act: 'Omnibus Crime Control Act of 1970, § 7'
+        date: '1971-01-02'
+        tags: [pay]
+        cite: 'Pub. L. 91-644, § 7, 84 Stat. 1880, 1887'
+        usc: '5 U.S.C. § 5315 (1970)'
+        does: 'Level IV ("Associate Administrators of Law Enforcement Assistance (2)").'
+      - act: Crime Control Act of 1973
+        date: '1973-08-06'
+        tags: [reorganizes]
+        cite: 'Pub. L. 93-83, § 2, 87 Stat. 197'
+        does: 'Two Deputy Administrators in place of the Associate Administrators.'
+    n: 'Level V, 1968–71; level IV from Jan. 2, 1971. Two vacant in the Plum Book of Sept. 30, 1968 (p. 47); $38,000 in that of Sept. 15, 1972 (p. 51). Only the holders the Plum Books name are entered.'
+    holders:
+      - name: Velde, Richard W.
+        nominated: '1969-02-25'
+        confirmed: '1969-03-20'
+        from: '1969-03'
+        to: '1973-08-06'
+        n: 'In office Sept. 15, 1972 (Plum Book). Check: the day he took office.'
+        src: [Cong. Rec., 'Plum Book 1972, p. 51']
+      - name: Coster, Clarence M.
+        nominated: '1969-10-09'
+        confirmed: '1969-12-10'
+        from: '1969-12'
+        to: '1973-08-06'
+        n: 'Nominated vice Wesley A. Pomeroy, resigned. In office Sept. 15, 1972 (Plum Book). Check: the day he took office and the day he left.'
+        src: [Cong. Rec., 'Plum Book 1972, p. 51']
+  - id: onni-director
+    title: Director, Office of National Narcotics Intelligence
+    rank: inferior
+    appt: HD
+    level: IV
+    group: Offices and bureaus
+    from: '1972'
+    law:
+      - act: 'Executive Order 11708'
+        date: '1973-03-23'
+        tags: [pay]
+        usc: '5 U.S.C. § 5317 (1970)'
+        does: 'Places the Director, Office of National Narcotics Intelligence, in level IV.'
+        url: https://www.presidency.ucsb.edu/documents/executive-order-11708-placing-certain-positions-levels-iv-and-v-the-executive-schedule
+    n: 'Schedule C, level IV, in the Plum Book of Sept. 15, 1972 (p. 44). Check: the order that set up the Office, and the date it ended.'
+    holders:
+      - name: Sullivan, William C.
+        seen: '1972-09-15'
+        to: '1973'
+        n: 'Assistant to the Director, FBI, to Oct. 1971. Check: the dates; in office Sept. 15, 1972 (Plum Book).'
+        src: ['Plum Book 1972, p. 44']
 
   - id: bndd-director
     title: Director, Bureau of Narcotics and Dangerous Drugs
