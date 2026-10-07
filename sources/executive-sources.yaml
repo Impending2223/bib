@@ -1,0 +1,262 @@
+# The named sources of the Executive Branch roster: the works a holder's `src` cites that the renderer does not
+# link by itself (tools/bib/executive_sources.py links CDIR, Cong. Rec., POCOM, FRUS, Wikipedia, APP, the Federal
+# Register and URLs). Each entry is one work or one series; the first entry whose pattern matches wins.
+# Links verified 2026-10-07 from this environment (200 with a real body; PDFs by a range request).
+#
+#   match   Python regex, matched against the whole source string as items() reads it (anchored at the end)
+#   short   the label in the holder's "Sources:" line; {0} the whole match, {1}, {2}.. the groups ('' if absent).
+#           Plain text: no markup.
+#   cite    the full citation, in the page's list of sources (markup allowed: *Title*). Written without groups:
+#           the list formats it with every group empty. An entry without cite is not listed.
+#   urls    a link for each value of group 1 (quote the keys); a page anchor where the offset was checked
+#   url     the link otherwise (may use {1}..); without braces it also links the citation in the list
+#   n       a note after the citation in the list
+#
+# archive.org page anchors are /page/n<index>, the index of the page in the item's OCR (_djvu.xml), checked
+# against its words. FRASER PDF anchors are #page=<PDF page>, checked with pdftotext.
+
+- match: 'Treasury Annual Report ((\d{4})(?:, exhibit \d+)?)'
+  short: 'Treasury, Annual Report, FY{1}'
+  cite: 'Department of the Treasury, *Annual Report of the Secretary of the Treasury on the State of the Finances*, fiscal years ended June 30, 1973 and 1974 (Government Printing Office; FRASER, Federal Reserve Bank of St. Louis)'
+  urls:
+    '1973, exhibit 81': 'https://fraser.stlouisfed.org/docs/publications/treasar/AR_TREASURY_1973.pdf#page=569'
+    '1973': 'https://fraser.stlouisfed.org/docs/publications/treasar/AR_TREASURY_1973.pdf'
+    '1974': 'https://fraser.stlouisfed.org/docs/publications/treasar/AR_TREASURY_1974.pdf#page=11'
+  url: 'https://fraser.stlouisfed.org/title/annual-report-secretary-treasury-state-finances-194'
+  n: 'FY1973, exhibit 81: the Secretaries, Deputy Secretary, Under Secretaries, General Counsels and Assistant Secretaries, Sept. 11, 1789, to Jan. 20, 1973. FY1974, front matter: those serving Jan. 21, 1973, to June 30, 1974.'
+
+- match: 'Century of Service \(1963\)(?:(?=, pp?\. (\d+))(, pp?\. [\d, –]+))?'
+  short: 'Century of Service{2}'
+  cite: 'Gladys L. Baker, Wayne D. Rasmussen, Vivian Wiser and Jane M. Porter, *Century of Service: The First 100 Years of the United States Department of Agriculture* (U.S. Department of Agriculture, 1963)'
+  urls:
+    '374': 'https://archive.org/details/centuryofservice00unit/page/n393'
+    '375': 'https://archive.org/details/centuryofservice00unit/page/n394'
+    '376': 'https://archive.org/details/centuryofservice00unit/page/n395'
+    '377': 'https://archive.org/details/centuryofservice00unit/page/n396'
+    '451': 'https://archive.org/details/centuryofservice00unit/page/n470'
+    '452': 'https://archive.org/details/centuryofservice00unit/page/n471'
+    '453': 'https://archive.org/details/centuryofservice00unit/page/n472'
+    '454': 'https://archive.org/details/centuryofservice00unit/page/n473'
+    '455': 'https://archive.org/details/centuryofservice00unit/page/n474'
+    '456': 'https://archive.org/details/centuryofservice00unit/page/n475'
+    '457': 'https://archive.org/details/centuryofservice00unit/page/n476'
+    '460': 'https://archive.org/details/centuryofservice00unit/page/n479'
+  url: 'https://archive.org/details/centuryofservice00unit'
+  n: 'The appendix, pp. 452–460: Commissioners and Secretaries, Assistant Secretaries, and the heads of the Department''s agencies, with dates.'
+
+- match: 'Buck, A History of the Atomic Energy Commission \(DOE, 1983\)'
+  short: 'Buck, History of the AEC'
+  cite: 'Alice L. Buck, *A History of the Atomic Energy Commission*, DOE/ES-0003/1 (U.S. Department of Energy, History Division, July 1983; OSTI)'
+  url: 'https://www.osti.gov/servlets/purl/5977409'
+  n: 'The Commissioners and General Managers, 1946–74, at the end.'
+
+- match: 'Eisenhower Library finding aid \(Harlow\)'
+  short: 'Eisenhower Library, Harlow papers, finding aid'
+  cite: 'Dwight D. Eisenhower Presidential Library, finding aid to the papers of Bryce N. Harlow'
+  url: 'https://www.eisenhowerlibrary.gov/research/finding-aids/harlow-bryce-n'
+
+- match: 'Eisenhower Library finding aid'
+  short: 'Eisenhower Library, finding aids'
+  cite: 'Dwight D. Eisenhower Presidential Library, finding aids to the papers of members of the White House staff'
+  url: 'https://www.eisenhowerlibrary.gov/research/finding-aids'
+  n: 'Each aid''s biographical sketch gives the person''s posts and dates. The link is to the list of aids, by name.'
+
+- match: 'SEC Historical Summary of Chairmen and Commissioners'
+  short: 'SEC, Historical Summary of Chairmen and Commissioners'
+  cite: 'Securities and Exchange Commission, *SEC Historical Summary of Chairmen and Commissioners* (sec.gov)'
+  url: 'https://www.sec.gov/about/sec-commissioners/sec-historical-summary-chairmen-commissioners'
+  n: 'Bot-checked here; opens in a browser.'
+
+- match: 'ERP ((\d{4})(?:, pp?\. [\d, –]+)?)'
+  short: 'Economic Report, {1}'
+  cite: '*Economic Report of the President*, transmitted to the Congress each January, with the Annual Report of the Council of Economic Advisers (Government Printing Office; FRASER, Federal Reserve Bank of St. Louis)'
+  urls:
+    '1975, p. 235': 'https://fraser.stlouisfed.org/docs/publications/ERP/1975/ERP_1975.pdf#page=241'
+    '1953': 'https://fraser.stlouisfed.org/title/economic-report-president-45/1953-8123'
+    '1954': 'https://fraser.stlouisfed.org/title/economic-report-president-45/1954-8125'
+    '1955': 'https://fraser.stlouisfed.org/title/economic-report-president-45/1955-8126'
+    '1956': 'https://fraser.stlouisfed.org/title/economic-report-president-45/1956-8127'
+    '1957': 'https://fraser.stlouisfed.org/title/economic-report-president-45/1957-8128'
+    '1958': 'https://fraser.stlouisfed.org/title/economic-report-president-45/1958-8129'
+    '1959': 'https://fraser.stlouisfed.org/title/economic-report-president-45/1959-8130'
+    '1960': 'https://fraser.stlouisfed.org/title/economic-report-president-45/1960-8131'
+    '1961': 'https://fraser.stlouisfed.org/title/economic-report-president-45/1961-8132'
+    '1962': 'https://fraser.stlouisfed.org/title/economic-report-president-45/1962-8133'
+    '1963': 'https://fraser.stlouisfed.org/title/economic-report-president-45/1963-8134'
+    '1964': 'https://fraser.stlouisfed.org/title/economic-report-president-45/1964-8135'
+    '1965': 'https://fraser.stlouisfed.org/title/economic-report-president-45/1965-8136'
+    '1966': 'https://fraser.stlouisfed.org/title/economic-report-president-45/1966-8137'
+    '1967': 'https://fraser.stlouisfed.org/title/economic-report-president-45/1967-8138'
+    '1968': 'https://fraser.stlouisfed.org/title/economic-report-president-45/1968-8139'
+    '1969': 'https://fraser.stlouisfed.org/title/economic-report-president-45/1969-8140'
+    '1970': 'https://fraser.stlouisfed.org/title/economic-report-president-45/1970-8141'
+    '1971': 'https://fraser.stlouisfed.org/title/economic-report-president-45/1971-8142'
+    '1972': 'https://fraser.stlouisfed.org/title/economic-report-president-45/1972-8143'
+    '1973': 'https://fraser.stlouisfed.org/title/economic-report-president-45/1973-8144'
+    '1974': 'https://fraser.stlouisfed.org/title/economic-report-president-45/1974-8145'
+    '1975': 'https://fraser.stlouisfed.org/title/economic-report-president-45/1975-8146'
+  url: 'https://fraser.stlouisfed.org/title/economic-report-president-45'
+  n: 'The Council''s report names its members and staff; 1975, p. 235: the members since 1946, with dates.'
+
+- match: 'JCS History Office, History of the Unified Command Plan, 1946–1999 \(2003\)(, app\. [IVX]+)?'
+  short: 'JCS, History of the Unified Command Plan{1}'
+  cite: 'Ronald H. Cole, Walter S. Poole, James F. Schnabel, Robert J. Watson and Willard J. Webb, *The History of the Unified Command Plan, 1946–1999* (Joint History Office, Office of the Chairman of the Joint Chiefs of Staff, 2003; DTIC ADA426162, archive.org)'
+  urls:
+    ', app. IV': 'https://archive.org/details/DTIC_ADA426162/page/n117'
+  url: 'https://archive.org/details/DTIC_ADA426162'
+  n: 'App. IV: the membership of the Joint Chiefs of Staff, with dates.'
+
+- match: 'ICC Annual Report (\d{4})'
+  short: 'ICC, Annual Report, FY{1}'
+  cite: '*Annual Report of the Interstate Commerce Commission*, 66th to 88th, fiscal years 1952–74 (Government Printing Office; University of Illinois copy, archive.org)'
+  urls:
+    '1952': 'https://archive.org/details/annualreportofin66unit'
+    '1953': 'https://archive.org/details/annualreportofin67unit'
+    '1954': 'https://archive.org/details/annualreportofin68unit'
+    '1955': 'https://archive.org/details/annualreportofin69unit'
+    '1956': 'https://archive.org/details/annualreportofin70unit'
+    '1957': 'https://archive.org/details/annualreportofin71unit'
+    '1958': 'https://archive.org/details/annualreportofin72unit'
+    '1959': 'https://archive.org/details/annualreportofin73unit'
+    '1960': 'https://archive.org/details/annualreportofin74unit'
+    '1961': 'https://archive.org/details/annualreportofin75unit'
+    '1962': 'https://archive.org/details/annualreportofin76unit'
+    '1963': 'https://archive.org/details/annualreportofin77unit'
+    '1964': 'https://archive.org/details/annualreportofin78unit'
+    '1965': 'https://archive.org/details/annualreportofin79unit'
+    '1966': 'https://archive.org/details/annualreportofin80unit'
+    '1967': 'https://archive.org/details/annualreportofin8184unit/page/n6'
+    '1968': 'https://archive.org/details/annualreportofin8184unit/page/n208'
+    '1969': 'https://archive.org/details/annualreportofin8184unit/page/n404'
+    '1970': 'https://archive.org/details/annualreportofin8184unit/page/n582'
+    '1971': 'https://archive.org/details/annualreportofin8588unit/page/n6'
+    '1972': 'https://archive.org/details/annualreportofin8588unit/page/n178'
+    '1973': 'https://archive.org/details/annualreportofin8588unit/page/n342'
+    '1974': 'https://archive.org/details/annualreportofin8588unit/page/n506'
+  n: 'The Nth report covers the fiscal year 1886 + N. The 81st to 84th and the 85th to 88th are bound together; the links open each at its title page.'
+
+- match: 'Foreign Service List, (.+)'
+  short: 'Foreign Service List, {1}'
+  cite: 'Department of State, *Foreign Service List*, quarterly (Government Printing Office; archive.org)'
+  urls:
+    'Jan. 1961–Apr. 1963': 'https://archive.org/details/foreignserviceli1961wash'
+    'Jan.–July 1961, Jan. 1962': 'https://archive.org/details/foreignserviceli1961wash'
+  n: 'The officers at each post and in the Department, by issue. The links open the first issue cited.'
+
+- match: 'nlrb\.gov, Board Members Since 1935'
+  short: 'NLRB, Members of the NLRB since 1935'
+  cite: 'National Labor Relations Board, *Members of the NLRB since 1935* (nlrb.gov)'
+  url: 'https://www.nlrb.gov/about-nlrb/who-we-are/the-board/members-of-the-nlrb-since-1935'
+
+- match: 'nlrb\.gov, General Counsels Since 1935'
+  short: 'NLRB, General Counsels since 1935'
+  cite: 'National Labor Relations Board, *General Counsels since 1935* (nlrb.gov)'
+  url: 'https://www.nlrb.gov/about-nlrb/who-we-are/general-counsel/general-counsels-since-1935'
+
+- match: 'federalreserve\.gov, Board Members 1914–present'
+  short: 'Federal Reserve Board, Members, 1914–present'
+  cite: 'Board of Governors of the Federal Reserve System, *Board of Governors Members, 1914–Present* (federalreserve.gov)'
+  url: 'https://www.federalreserve.gov/aboutthefed/bios/board/boardmembership.htm'
+
+- match: 'FJC'
+  short: 'FJC, Biographical Directory of Federal Judges'
+  cite: 'Federal Judicial Center, *Biographical Directory of Article III Federal Judges, 1789–present* (fjc.gov)'
+  url: 'https://www.fjc.gov/history/judges'
+  n: 'Search by name for the judge''s page: nomination, confirmation, commission, and earlier offices.'
+
+- match: 'DOJ biography'
+  short: 'DOJ, Attorneys General'
+  cite: 'Department of Justice, *Attorneys General of the United States*, biographies (justice.gov)'
+  url: 'https://www.justice.gov/ag/historical-bios'
+  n: 'Cited also for the Attorneys General''s earlier posts in the Department.'
+
+- match: 'fdic\.gov, FDIC Chairmen'
+  short: 'FDIC, List of Chairmen'
+  cite: 'Federal Deposit Insurance Corporation, *List of Chairmen of the FDIC* (fdic.gov)'
+  url: 'https://www.fdic.gov/history/list-chairmen-fdic'
+
+- match: 'FAA Historical Chronology, 1926–1996(?: \(FAA\))?'
+  short: 'FAA Historical Chronology, 1926–1996'
+  cite: 'Federal Aviation Administration, *FAA Historical Chronology, 1926–1996* (faa.gov), with its appendices: the Administrators, and the leaders of the predecessor agencies'
+  url: 'https://www.faa.gov/about/history/chronolog_history'
+
+- match: 'Annual Report of the Secretary of Labor, FY(\d{4})'
+  short: 'Labor, Annual Report, FY{1}'
+  cite: 'Department of Labor, *Annual Report of the Secretary of Labor* (Government Printing Office; govinfo)'
+  urls:
+    '1953': 'https://www.govinfo.gov/content/pkg/GOVPUB-L-47dab04d0c70b9c88161495680d846de/pdf/GOVPUB-L-47dab04d0c70b9c88161495680d846de.pdf'
+  n: 'FY1953: the forty-first report.'
+
+- match: '(?:Gov\. Org\. Manual|GOM|Government Organization Manual),? (\d{4})[-–](\d{2})'
+  short: 'Gov. Org. Manual {1}–{2}'
+  cite: 'National Archives and Records Service, Office of the Federal Register, *United States Government Organization Manual* (Government Printing Office), annual editions'
+  urls:
+    '1958': 'https://archive.org/details/in.ernet.dli.2015.110873'
+    '1970': 'https://archive.org/details/sim_united-states-government-manual_1970-1971_annual'
+    '1971': 'https://archive.org/details/sim_united-states-government-manual_1971-1972_annual'
+    '1972': 'https://archive.org/details/sim_united-states-government-manual_1972-1973_annual'
+    '1973': 'https://archive.org/details/sim_united-states-government-manual_1973-1974_annual'
+    '1974': 'https://archive.org/details/sim_united-states-government-manual_1974-1975_annual'
+  n: 'Each department''s and agency''s officers, and the law that made them. 1958–59: revised as of June 1, 1958.'
+
+- match: 'NASA Historical Data Book, ([IV]+)'
+  short: 'NASA Historical Data Book, {1}'
+  cite: '*NASA Historical Data Book*, NASA SP-4012: I by Jane Van Nimmen and Leonard C. Bruno, with Robert L. Rosholt (1976; repr. 1988); II and III by Linda Neuman Ezell (1988); IV by Ihor Y. Gawdiak with Helen Fedor (1994) (NASA; NTRS)'
+  urls:
+    'I': 'https://ntrs.nasa.gov/api/citations/19880016044/downloads/19880016044.pdf'
+    'II': 'https://ntrs.nasa.gov/api/citations/19880016045/downloads/19880016045.pdf'
+    'III': 'https://ntrs.nasa.gov/api/citations/19880016046/downloads/19880016046.pdf'
+    'IV': 'https://ntrs.nasa.gov/api/citations/19940029443/downloads/19940029443.pdf'
+  n: 'I: NASA Resources, 1958–1968. II: Programs and Projects, 1958–1968. III: Programs and Projects, 1969–1978. IV: NASA Resources, 1969–1978. The key officials, with dates, in I and IV.'
+
+- match: 'npshistory\.com, Directors of the National Park Service'
+  short: 'NPS, Directors and Directorate'
+  cite: 'National Park Service, *Historic Listings of NPS Officials*: National Park Service Directors and Directorate (npshistory.com)'
+  url: 'https://npshistory.com/publications/tolson/histlist6.htm'
+
+- match: 'usbr\.gov, Commissioners: (\w+)'
+  short: 'Reclamation, Commissioner {1}'
+  cite: 'Bureau of Reclamation, Reclamation History, the Commissioners'' biographies (usbr.gov)'
+  urls:
+    'Straus': 'https://www.usbr.gov/history/CommissBios/straus.html'
+    'Dexheimer': 'https://www.usbr.gov/history/CommissBios/dexheimer.html'
+    'Dominy': 'https://www.usbr.gov/history/CommissBios/dominy.html'
+    'Armstrong': 'https://www.usbr.gov/history/CommissBios/armstrong.html'
+    'Stamm': 'https://www.usbr.gov/history/CommissBios/stamm.html'
+
+- match: 'USPTO: (.+)'
+  short: 'USPTO, {1}'
+  cite: 'United States Patent and Trademark Office, the Commissioners of Patents, biographies (uspto.gov)'
+  urls:
+    'John A. Marzall': 'https://www.uspto.gov/about-us/john-marzall'
+    'Robert C. Watson': 'https://www.uspto.gov/about-us/robert-c-watson'
+
+- match: 'BIA press release, Mar\. 20, 1953'
+  short: 'BIA press release, Mar. 20, 1953'
+  cite: 'Department of the Interior, Bureau of Indian Affairs, press release, Mar. 20, 1953, "Greenwood Acting Indian Commissioner" (bia.gov)'
+  url: 'https://www.bia.gov/as-ia/opa/online-press-release/greenwood-acting-indian-commissioner'
+
+- match: 'Executive Order (\d+)'
+  short: 'E.O. {1}'
+  cite: 'Executive orders, as printed by the American Presidency Project'
+  urls:
+    '10483': 'https://www.presidency.ucsb.edu/documents/executive-order-10483-establishing-the-operations-coordinating-board'
+
+- match: 'NSDM (\d+)'
+  short: 'NSDM {1}'
+  cite: 'National Security Decision Memoranda (Richard Nixon Presidential Library)'
+  urls:
+    '2': 'https://www.nixonlibrary.gov/sites/default/files/virtuallibrary/documents/nsdm/nsdm_002.pdf'
+  url: 'https://www.nixonlibrary.gov/national-security-decision-memoranda-nsdm'
+
+- match: '((\d+) Stat\. (\d+))'
+  short: '{1}'
+  cite: '*United States Statutes at Large* (govinfo)'
+  urls:
+    '67 Stat. 631': 'https://www.govinfo.gov/content/pkg/STATUTE-67/pdf/STATUTE-67-Pg631.pdf'
+    '79 Stat. 449': 'https://www.govinfo.gov/content/pkg/STATUTE-79/pdf/STATUTE-79-Pg449.pdf'
+  n: 'Linked where the cite is the first page of an act (govinfo files the Statutes by act).'
+
+# The series' own lists: Part III and the like. Not linked here (the build links them); no cite, so not listed.
+- match: '(?:Part III: )?((?:K–J Adm\.|K–J Cong\.|Opp\.|Adm\.|Cong\.|Wg\.|Viet\.|1968|Cal\.) [IV]+\.[A-Z](?:\.\d+)?)'
+  short: '{1}'
