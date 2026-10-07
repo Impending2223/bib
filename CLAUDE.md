@@ -361,8 +361,23 @@ notes/executive-brief.md      the brief for whoever adds to the roster, person o
 
 `./bib build` writes `build/lives.html` (the index of names) and `build/lives-a.html` … `lives-z.html`: a name
 entry for each person in Part III, the Executive roster, and the Congresses at their openings (`people` in
-`tools/bib/lives.py`: one entry a person, names merged where the surname agrees and the given names are compatible).
-`./bib lives` builds those pages alone; `./bib lives 'Humphrey, Hubert H.' [--site URL] [--out FILE]` one page.
+`tools/bib/lives.py`: one entry a person). `./bib lives` builds those pages alone; `./bib lives 'Humphrey, Hubert H.'
+[--site URL] [--out FILE]` one page.
+
+Who is one person (`people`, `one`): a name as written is one person in every source. Names written differently
+join where the surnames agree, the given names agree (initials, middle names in order, the roster's `given`), and
+the suffixes agree. Within the Congress rosters two names are two members; Part III may drop a middle initial but
+not a suffix; the Executive roster may drop a suffix but not an initial (its bare "Anderson, Robert" is not Robert
+B. Anderson). A bare name joins a fuller one from another source only with support: Part III's role shares a word
+with the roster's office, or Part III's man sat in Congress, or the member's Directory entry gives Part III's role.
+A short form ("Bob") joins only through the roster's "(Bob)", agreeing middle initials, or a role in Congress. A
+father written bare and a son with "Jr." stay two (Harry F. Byrd; Barry M. Goldwater); the son's pointers, returns,
+and FRUS documents go by his suffix, and a FRUS document naming the father bare after his death (the Directory's
+year) is the son's. To keep two roster spellings of one man together, write them alike.
+
+The Directory entry (`bd_entry`): the same surname and given names, a suffix that agrees, and an entry whose latest
+year is 1953 or later; a member may match by the middle name he went by (Thad Cochran); anyone else only where the
+entry also names one of his offices.
 
 Each entry: the Directory's description (or the Part III role), the pointers into the series, then the life as
 running text, with the date in each sentence; then Publications; FRUS documents sent; Oral histories given, papers,

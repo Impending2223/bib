@@ -27,6 +27,7 @@ STYLE:
  5. FRUS headings with 'from' in lower case; works from the Directory's bibliography in the series' form.
 """
 import datetime
+import functools
 import json
 import sys
 import os
@@ -34,6 +35,8 @@ import re
 
 from . import store
 from .markup import to_html, plain, lower_from
+
+fold = functools.lru_cache(maxsize=None)(store.fold)     # the same names are folded many thousand times
 
 SITE = ""   # a base url for the links to the other pages ('' on the site itself)
 MONTHS = ["Jan.", "Feb.", "Mar.", "Apr.", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."]
@@ -74,7 +77,8 @@ def fmt(d):
 
 
 def key_of(name):
-    return re.sub(r"[^a-z]+", "-", store.fold(re.sub(r",\s*(Jr|Sr|II|III)\.?$", "", name)).lower()).strip("-")
+    """'Byrd, Harry F., Jr.' -> 'byrd-harry-f-jr': the anchor, and the key of the person's FRUS and APP lists."""
+    return re.sub(r"[^a-z]+", "-", fold(re.sub(r"\s*\([^)]*\)", "", name)).lower()).strip("-")
 
 
 def split_name(name):
@@ -83,11 +87,47 @@ def split_name(name):
     return p[0], (p[1] if len(p) > 1 else "")
 
 
+SUFFIX = {"jr", "sr", "ii", "iii", "iv"}
+
+
+def gtoks(g):
+    """'Hubert H., Jr.' -> ['hubert', 'h']; 'George H.W.' -> ['george', 'h', 'w']; a name in parentheses dropped."""
+    g = re.sub(r"\([^)]*\)", " ", g)
+    return [t for t in re.split(r"[\s.,]+", fold(g)) if t and t not in SUFFIX]
+
+
+def suffix(name):
+    """'Vinson, Fred M., Jr.' -> 'Jr'; 'McCain, John S., III' -> 'III'; '' if none."""
+    m = re.search(r",\s*(Jr|Sr|II|III|IV)\b\.?(?=\s*(\(|$))", name)
+    return m.group(1) if m else ""
+
+
+def nick(a, b):
+    """Bill and William, Ted and Edward: the short forms the Congress rosters use."""
+    from .congress import SHORT
+    return b in SHORT.get(a, ()) or a in SHORT.get(b, ())
+
+
 def same_person(sur, given, other_sur, other_given):
-    from .executive_names import compatible
-    f = lambda g: (store.fold(g).replace(".", " ").split() or [""])[0]
-    return store.fold(sur) == store.fold(other_sur) and compatible(given, other_given) and \
-        (f(given) == f(other_given) or len(f(given)) == 1 or len(f(other_given)) == 1)
+    """The surnames agree; the first given names agree, by initial, or as a short form; and where both give a second
+    given name or initial, those agree."""
+    if fold(sur) != fold(other_sur):
+        return False
+    A, B = gtoks(given), gtoks(other_given)
+    if not A or not B:
+        return False
+    a, b = A[0], B[0]
+    if not (a == b or (len(a) == 1 and b.startswith(a)) or (len(b) == 1 and a.startswith(b)) or nick(a, b)):
+        return False
+    # each further initial the one gives is among the other's further names, in order ('Thomas L.' and 'Thomas
+    # William Ludlow'; not 'William O.' and 'William P.')
+    # 'J. Skelly' goes by Skelly: the other gives Skelly too ('James Skelly'; not 'Jim')
+    for X, Y in ((A, B), (B, A)):
+        if len(X[0]) == 1 and len(X) > 1 and len(X[1]) > 1 and X[1] not in Y[:2]:
+            return False
+    short, long_ = (A, B) if len(A) <= len(B) else (B, A)
+    rest = iter(t[0] for t in long_[1:])
+    return all(t[0] in rest for t in short[1:])
 
 
 # ---------------------------------------------------------------- sentences
@@ -121,12 +161,67 @@ def letter_json(folder, letter):
     return cached((folder, letter), make)
 
 
-def bd_entry(sur, given):
-    for e in letter_json("bd", store.fold(sur)[:1].upper()):
-        m = re.match(r"([A-Z][A-Z'’\- ]+), ([^,(]+)", e["name"])
-        if m and same_person(m.group(1).title(), m.group(2), sur, given):
+STOP = {"united", "states", "department", "office", "assistant", "deputy", "special", "general", "director", "chief",
+        "member", "chairman", "president", "secretary", "under", "national", "council", "commission", "board", "affairs",
+        "administration", "service", "executive", "with", "from", "after", "before", "until", "acting"}
+
+
+def bd_entry(sur, given, member=True, words=(), sfx=""):
+    """The Directory's entry for the person. The member lived into the period (the entry's latest year 1953 or
+    later), so a namesake of the last century is not taken. A member of Congress at an opening may match by a
+    middle name he went by ('Thad Cochran', 'William Thad'); anyone else only where the entry also names one of
+    his offices (a word of its title: 'Ambassador to India')."""
+    best = None
+    for e in letter_json("bd", fold(sur)[:1].upper()):
+        m = re.match(r"([^,(]+), ([^(]+?)(?:,? \(|$)", e["name"]) or re.match(r"([^,]+), (.+)", e["name"])
+        if not m or fold(m.group(1)) != fold(sur):
+            continue
+        yrs = [int(y) for y in re.findall(r"\b(1[789]\d\d|20\d\d)\b", e["text"])]
+        if not yrs or max(yrs) < 1953:
+            continue
+        g = m.group(2)
+        # the suffix agrees: Fred M. Vinson, Jr., is not his father; Adm. John S. McCain, Jr., not the Senator, III
+        head = re.sub(r"\([^)]*\)|\[[^]]*\]", "", re.split(r", (?:an?|the) [A-Z]", e["text"], 1)[0])
+        sm = re.search(r"\b(Jr|Sr|II|III|IV)\b", head.split(",", 1)[-1])
+        if sfx not in ("", "Sr") and (sm.group(1) if sm else "") != sfx:
+            continue
+        ok = same_person(sur, given, sur, g)
+        if ok and not member:
+            # anyone else gives his initials in full in the Directory ('William P.' is not 'Will')
+            ok = len(gtoks(g)) >= len(gtoks(given)) and not nick(gtoks(given)[0], gtoks(g)[0])
+        if not ok and member:
+            A, B = gtoks(given), gtoks(g)
+            ok = len(A) == 1 and any(A[0] == b or nick(A[0], b) for b in B[1:])
+        if ok and not member:
+            ok = bool(set(words) & set(re.findall(r"[a-z]{4,}", fold(e["text"]))))
+        if ok:
             return e
-    return None
+    return best
+
+
+def holders_of(sur):
+    """[(unit, office, holder)] in the Executive roster with the surname."""
+    from . import executive as X
+
+    def make():
+        idx = {}
+        for u in X.load().values():
+            for o in u.get("offices") or []:
+                for h in o.get("holders") or []:
+                    idx.setdefault(fold(split_name(h["name"])[0]), []).append((u, o, h))
+        return idx
+    return cached("holders", make).get(fold(sur), [])
+
+
+def person_words(sur, given, names=None):
+    """The distinctive words of the person's offices in the roster, for matching the Directory."""
+    from . import executive as X
+    hs = [(o, h) for u, o, h in holders_of(sur)
+          if (h["name"] in names if names else same_person(*split_name(h["name"]), sur, given))]
+    w = set()
+    for o, h in hs:
+        w |= set(re.findall(r"[a-z]{4,}", fold(f"{X.title_at(o, h['from'])} {h.get('title') or ''}")))
+    return w - STOP
 
 
 def bd_cite(e):
@@ -135,6 +230,7 @@ def bd_cite(e):
 
 def bd_sentences(e):
     text = e["text"].replace("‘‘", "“").replace("’’", "”")
+    text = re.sub(r"(?<=[a-z])(?=(?:1[789]|20)\d\d\b)", " ", text)        # 'State senate1915-1925': a space lost
     out, last = [], "0000"
     for c in [c.strip() for c in re.split(r";\s+", text)][1:]:     # the first: the name and description
         if CUT.match(c):
@@ -157,19 +253,12 @@ def roster_href(day):
     return max(j for j, t in enumerate(X.TERMS) if t[0] <= day)
 
 
-def office_sentences(sur, given):
+def office_sentences(sur, given, names=None):
     """Each office held, with the ex officio offices held by virtue of it after it."""
     from . import executive as X, executive_sources as S
 
-    def make():
-        idx = {}
-        for u in X.load().values():
-            for o in u.get("offices") or []:
-                for h in o.get("holders") or []:
-                    idx.setdefault(store.fold(split_name(h["name"])[0]), []).append((u, o, h))
-        return idx
-    held = [(u, o, h) for u, o, h in cached("holders", make).get(store.fold(sur), [])
-            if same_person(*split_name(h["name"]), sur, given)]
+    held = [(u, o, h) for u, o, h in holders_of(sur)
+            if (h["name"] in names if names else same_person(*split_name(h["name"]), sur, given))]
 
     def cites(u, o, h):
         s = S.html(h)
@@ -217,7 +306,7 @@ def office_sentences(sur, given):
     return out
 
 
-def roster_pointers(sur, given):
+def roster_pointers(sur, given, names=None):
     """[(day, Congress, pointer)] for each Congress at whose opening the person held a seat."""
     from .congress import ordinal
 
@@ -231,14 +320,14 @@ def roster_pointers(sur, given):
             for ch, rows in (("s", d.get("senate") or []), ("h", d.get("house") or [])):
                 for r in rows:
                     if r.get("name"):
-                        idx.setdefault(store.fold(split_name(r["name"])[0]), []).append((int(m.group(1)), d, ch, r))
+                        idx.setdefault(fold(split_name(r["name"])[0]), []).append((int(m.group(1)), d, ch, r))
         return idx
     out = []
-    for c, d, ch, r in cached("congress", make).get(store.fold(sur), []):
+    for c, d, ch, r in cached("congress", make).get(fold(sur), []):
         if True:
             if True:
                 rs, rg = split_name(r.get("name") or ",")
-                if r.get("name") and same_person(rs, rg, sur, given):
+                if r.get("name") and (r["name"] in names if names else same_person(rs, rg, sur, given)):
                     seat = r.get("cl") if ch == "s" else r.get("d", 0)
                     out.append((str(d.get("opened")), c, ch, r["st"],
                                 ptr(f"{SITE}congress.html#cg{c}-{ch}-{r['st']}-{seat}", f"{ordinal(c)} Cong.")))
@@ -254,30 +343,40 @@ def last_word(n):
     return w[-1] if w else n
 
 
-def election_sentences(sur, given):
+def election_sentences(sur, given, sfx="", strict=False):
+    """The person's races, from elections/. A candidate's suffix as Wikipedia writes it ('Harry F. Byrd Jr.') agrees
+    with the person's; one without a suffix is taken only where no namesake has an entry (strict: the person is the
+    son, and the father, written bare, has his own)."""
     from .elections import rid as erid
     from .congress import STATE
     out = []
-    first = store.fold(given.split()[0]) if given else ""
-    mine = lambda n: bool(n) and store.fold(last_word(n)) == store.fold(sur) and store.fold(n.split()[0]) == first
-    def make():
-        out_ = []
-        for f in sorted(os.listdir(os.path.join(store.ROOT, "elections"))):
-            m = re.match(r"(\d{4})\.yaml$", f)
-            if m and m.group(1) != "1956":
-                out_.append((m.group(1), store.load_yaml(os.path.join(store.ROOT, "elections", f)) or {}))
-        return out_
+    first = fold(given.split()[0]) if given else ""
+
+    def mine(n):
+        if not n or fold(last_word(n)) != fold(sur) or fold(n.split()[0]) != first:
+            return False
+        m = re.search(r",? (Jr|Sr|II|III|IV)\.?$", n)
+        cs = m.group(1) if m and m.group(1) != "Sr" else ""
+        return cs == sfx if cs else not strict
+    def make():                          # the elections module's copy: the build has read them once already
+        from .elections import load
+        return [(str(y), d or {}) for y, d in sorted(load().items()) if y != 1956]
 
     def cand_index():
+        """surname -> {year: [the races (by index) with a candidate of that surname]}; -1 the presidential race."""
         idx = {}
         for y, d in cached("elections", make):
-            names = {c.get("n") for r in d.get("races") or [] for c in r.get("cands") or []}
-            names |= {c.get("n") for c in (d.get("president") or {}).get("cands") or []}
-            for n in names:
-                if n:
-                    idx.setdefault(store.fold(last_word(n)), set()).add(y)
+            for i, r in enumerate(d.get("races") or []):
+                for c in (r.get("cands") or []) + (r.get("inc") or []):
+                    if c.get("n"):
+                        rs = idx.setdefault(fold(last_word(c["n"])), {}).setdefault(y, [])
+                        if i not in rs:
+                            rs.append(i)
+            for c in (d.get("president") or {}).get("cands") or []:
+                if c.get("n"):
+                    idx.setdefault(fold(last_word(c["n"])), {}).setdefault(y, []).append(-1)
         return idx
-    years = cached("election-names", cand_index).get(store.fold(sur), set())
+    years = cached("election-races", cand_index).get(fold(sur), {})
     for y, d in cached("elections", make):
         if y not in years:
             continue
@@ -285,7 +384,8 @@ def election_sentences(sur, given):
 
         def clerk(pg=None):
             return a(url + (f"#page={pg}" if pg else ""), f"Clerk, Election Statistics {y}" + (f", p. {pg}" if pg else ""))
-        for r in d.get("races") or []:
+        races = d.get("races") or []
+        for r in (races[i] for i in years[y] if i >= 0):
             cs = r.get("cands") or []
             me = next((c for c in cs if mine(c.get("n"))), None)
             if not me:
@@ -352,13 +452,46 @@ def series_html(ptrs, text, home, e=None):
     return re.sub(r"\x01(\d+)\x01", lambda m: toks[int(m.group(1))], html)
 
 
-def calendar_sentences(ptrs, name):
+def subjects(ptrs, name, ok):
+    """[(list, section, entry)]: the series' entries whose subject line ('s') is the person (Part III and the
+    subject entries of Part II), by the name keys, a namesake's suffix left out (ok)."""
     out, seen = [], set()
     for k in ptrs.keys(name)[0]:
-        for e in ptrs.cal.get(k, []):
-            if e["id"] in seen:
-                continue
-            seen.add(e["id"])
+        for l, s, e in ptrs.linker.people.get(k, []):
+            if e["id"] not in seen and ok(e.get("s") or ""):
+                seen.add(e["id"])
+                out.append((l, s, e))
+    return out
+
+
+def calendar_of(ptrs, subs):
+    """The calendar entries whose 'Names:' line names one of the person's Part III entries, by date."""
+    out, seen = [], set()
+    for l, s, x in subs:
+        for e in ptrs.calx.get(x["id"], []):
+            if e["id"] not in seen:
+                seen.add(e["id"])
+                out.append(e)
+    return sorted(out, key=lambda e: e["date"])
+
+
+def series_lines(subs, cal):
+    """The 'In the series' pointers: each entry by list and section, then the calendar's dates."""
+    out = [ptr(f"{SITE}{l.key}.html#{e['id']}", f"{esc(l.abbr)} {esc(s.code)}") for l, s, e in subs]
+    dates, prev = [], None
+    for e in cal:
+        y = e["date"][:4]
+        dates.append(ptr(f"{SITE}cal.html#{e['id']}", esc(e["when"] + (f", {y}" if y != prev else ""))))
+        prev = y
+    if dates:
+        out.append("Cal. " + ", ".join(dates))
+    return out
+
+
+def calendar_sentences(ptrs, cal):
+    out = []
+    for e in cal:
+        if True:
             c = series_html(ptrs, store.as_list(e.get("c"))[0] if e.get("c") else "", "cal", e)
             n = series_html(ptrs, re.sub(r"\s*Names:.*$", "", e.get("n") or "").strip(), "cal", e) if e.get("n") else ""
             out.append(sent(e["date"], f"{esc(e['when'])}, {e['date'][:4]}: {c}", [n] if n else [],
@@ -446,6 +579,12 @@ def life_html(sents):
 
 # ---------------------------------------------------------------- the lists
 
+def article(title, rest):
+    """“Title,” in Where (1977)."""
+    rest = re.sub(r"^In\b", "in", rest.strip()).rstrip(".")
+    return f"“{title.rstrip('.,')}{',' if rest else ''}”" + (f" {rest}" if rest else "")
+
+
 def bd_work(item):
     """The Directory's 'Thurber, Timothy N. The Politics of Equality. New York: Columbia University Press, 1999.'
     in the series' form: 'Timothy N. Thurber, *The Politics of Equality* (1999)'."""
@@ -453,6 +592,17 @@ def bd_work(item):
     if not m:
         return f"*{item.rstrip('.')}*"
     sur, toks = m.group(1), m.group(2).split(" ")
+    sm = re.match(r"^([^,]+), (Jr\.|Sr\.|II|III|IV)\.? (.*)$", m.group(2))
+    if sm:                               # 'Byrd, Harry F., Jr. ‘‘The Limitations of Detente.’’ In ...'
+        given, sfx, rest = sm.group(1).strip(), sm.group(2), sm.group(3)
+        q = re.match(r"^(?:‘‘|“|\")(.+?)[.,]?(?:’’|”|\")\s*(.*)$", rest)
+        if q:
+            return f"{given} {sur}, {sfx}, " + article(q.group(1), q.group(2))
+        return bd_work(f"{sur}, {given} {rest}").replace(f"{given} {sur},", f"{given} {sur}, {sfx},", 1)
+    # an article: 'Smith, John. ‘‘Title.’’ In Journal ...'
+    am = re.match(r"^(.*?)\. (?:‘‘|“)(.+?)[.,]?(?:’’|”)\s*(.*)$", m.group(2))
+    if am and len(am.group(1)) < 40:
+        return f"{am.group(1)} {sur}, " + article(am.group(2), am.group(3))
     # the given names run to a word that ends with a period, or to an initial not followed by another initial
     k = 0
     while k < len(toks):
@@ -479,9 +629,9 @@ def bd_bib(e, sur, lines):
     own, about = [], []
     for item in re.split(r";\s+", e["bib"]):
         parts = item.split(". ")
-        title = store.fold(parts[1] if len(parts) > 1 and "," in parts[0] else parts[0])
+        title = fold(parts[1] if len(parts) > 1 and "," in parts[0] else parts[0])
         title = re.split(r"[:.]", title)[0].strip()
-        hit = next((i for i, l in enumerate(lines) if title and title in store.fold(plain(re.sub(r"<[^>]+>", "", l)))), None)
+        hit = next((i for i, l in enumerate(lines) if title and title in fold(plain(re.sub(r"<[^>]+>", "", l)))), None)
         if hit is not None:
             lines[hit] = lines[hit][:-len("</span>")] + f"; {bd_cite(e)}</span>"
             continue
@@ -548,12 +698,54 @@ def app_list(name, sur):
 
 # ---------------------------------------------------------------- the entry
 
-def entry(series, linker, ptrs, name):
+def person_for(series, name):
+    """The person (people()) a name given on the command line is: the one holding it as written, else one whose
+    names it agrees with."""
+    everyone = cached("people", lambda: people(series))
+    return (next((p for p in everyone if name in p["names"]), None)
+            or next((p for p in everyone if same_person(p["sur"], p["given"], *split_name(name))), None)
+            or {"name": name, "sur": split_name(name)[0], "given": split_name(name)[1], "names": {name}})
+
+
+def namesakes(series):
+    """(surname, first given name) held by more than one person: there a bare name in the returns is not taken."""
+    def make():
+        n = {}
+        for p in cached("people", lambda: people(series)):
+            k = (fold(p["sur"]), (gtoks(p["given"]) or [""])[0])
+            n[k] = n.get(k, 0) + 1
+        return {k for k, v in n.items() if v > 1}
+    return cached("namesakes", make)
+
+
+def person_suffix(series, p):
+    """(suffix, strict): the person's Jr., II, III or IV, if any name gives one; strict where a namesake has his own
+    entry, so a bare name elsewhere is the namesake's."""
+    sfx = next((suffix(n) for n in sorted(p["names"]) if suffix(n) not in ("", "Sr")), "")
+    sur, given = split_name(p["name"])
+    return sfx, bool(sfx) and (fold(sur), (gtoks(given) or [""])[0]) in namesakes(series)
+
+
+def entry(series, linker, ptrs, p):
+    if isinstance(p, str):
+        p = person_for(series, p)
+    name, names = p["name"], p["names"]
     sur, given = split_name(name)
-    e = bd_entry(sur, given)
-    structured = office_sentences(sur, given) + election_sentences(sur, given) + calendar_sentences(ptrs, name)
-    life = merge(structured, bd_sentences(e) if e else [], roster_pointers(sur, given))
-    works = series_works(series, linker, ptrs, name)
+    sfx, strict = person_suffix(series, p)
+    # Part III's pointers go by surname and first name: a person Part III does not hold, whose namesake it does
+    # (Harry F. Byrd, Jr.; Adlai E. Stevenson III), has none
+    def ok(s_):
+        es = suffix(re.sub(r"\s*\([^)]*\)\s*$", "", plain(s_)))
+        return es == sfx if es not in ("", "Sr") else not strict
+    subs = subjects(ptrs, name, ok)
+    cal = calendar_of(ptrs, [x for x in subs if (x[1].code or "").startswith("III")])
+    rp = roster_pointers(sur, given, names)
+    member = bool(rp)
+    e = bd_entry(sur, given, member, () if member else person_words(sur, given, names), sfx)
+    structured = (office_sentences(sur, given, names) + election_sentences(sur, given, sfx, strict)
+                  + calendar_sentences(ptrs, cal))
+    life = merge(structured, bd_sentences(e) if e else [], rp)
+    works = series_works(series, linker, ptrs, name, subs, strict)
     sent_, named = frus_lists(name)
     ppp = app_list(name, sur)
     out = [f'<section class="lv" id="{key_of(name)}"><h2 data-short="{esc(sur)}">{esc(name)}</h2>']
@@ -562,15 +754,13 @@ def entry(series, linker, ptrs, name):
         desc = head.split("), ", 1)[-1] if "), " in head else head.split(", ", 2)[-1]
         out.append(f'<p class="lvd">{esc(desc[0].upper() + desc[1:])}. <span class="lvc">{bd_cite(e)}.</span></p>')
     else:
-        roles = [(l, s_, x) for k in ptrs.keys(name)[0] for l, s_, x in linker.people.get(k, [])
-                 if (s_.code or "").startswith("III") and x.get("r")]
+        roles = [(l, s_, x) for l, s_, x in subs if (s_.code or "").startswith("III") and x.get("r")]
         if roles:
             l, s_, x = roles[0]
             out.append(f'<p class="lvd">{to_html(x["r"])}. <span class="lvq">'
                        f'{ptr(f"{SITE}{l.key}.html#{x["id"]}", f"{esc(l.abbr)} {esc(s_.code)}")}</span></p>')
-    pts = ptrs.lines(name, lambda k, i: f"{SITE}{k}.html#{i}")
+    pts = series_lines(subs, cal)
     if pts:
-        pts = [re.sub(r'<a href=', '<a class="lvp" href=', p) for p in pts]
         out.append('<p class="lvs">In the series: ' + "; ".join(pts) + ".</p>")
     out.append("<h3>Life</h3>" + life_html(life))
 
@@ -672,7 +862,7 @@ INTRO = ['<p class="lede">A name entry for each person in the series, the Execut
 
 
 def letter_of(p):
-    return (store.fold(p["sur"])[:1] or "x").lower()
+    return (fold(p["sur"])[:1] or "x").lower()
 
 
 def page(series, linker, template, names):
@@ -694,7 +884,7 @@ def pages(series, linker, template):
     from .congress import Pointers
     global SITE
     ptrs = Pointers(series, linker)
-    everyone = people(series)
+    everyone = cached("people", lambda: people(series))
     by_letter = {}
     for p in everyone:
         by_letter.setdefault(letter_of(p), []).append(p)
@@ -709,7 +899,7 @@ def pages(series, linker, template):
         main = [f"<h1>Lives: {L.upper()}</h1>", f'<p class="lvs">{nav} · <a class="lvp" href="lives.html">Index</a></p>']
         for p in ps:
             try:
-                main.append(entry(series, linker, ptrs, p["name"]))
+                main.append(entry(series, linker, ptrs, p))
             except Exception as ex:          # one entry's fault names the person and does not stop the page
                 import traceback
                 print(f"lives: {p['name']}: {ex!r}", traceback.format_exc().splitlines()[-3], file=sys.stderr)
@@ -721,19 +911,18 @@ def pages(series, linker, template):
 PRIMARY = re.compile(r"Recording|Archive|Document|Record|Paper|Oral|Speech|Tape|Interview|Film|Screen")
 
 
-def series_works(series, linker, ptrs, name):
+def series_works(series, linker, ptrs, name, subs=None, strict=False):
     """[(kind, citation html, pointer html)] for every citation in the series that is by or names the person:
     kind 'own' (the person's work), 'primary' (the person's speech, recording, or papers: an entry in a section
     of documents, recordings, or archives), or 'about'."""
     sur, given = split_name(name)
     out, seen = [], set()
     hits = []
-    for k in ptrs.keys(name)[0]:
-        for l, s, e in linker.people.get(k, []):
-            if e["id"] not in seen and not (s.code or "").startswith("III"):
-                seen.add(e["id"])
-                hits.append((l, s, e, True))
-    q = [store.fold(x) for x in ([f"{given.split()[0]} {sur}", f"{sur}, {given.split()[0]}", f"{given} {sur}"]
+    for l, s, e in subs:
+        if e["id"] not in seen and not (s.code or "").startswith("III"):
+            seen.add(e["id"])
+            hits.append((l, s, e, True))
+    q = [fold(x) for x in ([f"{given.split()[0]} {sur}", f"{sur}, {given.split()[0]}", f"{given} {sur}"]
                                  if given else [sur])]
     def make():
         """Every entry outside Part III and the calendar, with its folded text, indexed by its words."""
@@ -744,13 +933,14 @@ def series_works(series, linker, ptrs, name):
             for s, e in l.entries():
                 if (s.code or "").startswith("III"):
                     continue
-                txt = store.fold(plain(" ".join(store.as_list(e.get("c"))) + " " + (e.get("n") or "") + " " + (e.get("s") or "")))
+                txt = fold(plain(" ".join(store.as_list(e.get("c"))) + " " + (e.get("n") or "") + " " + (e.get("s") or "")))
                 row = (l, s, e, txt, " ".join(x.title for x in chain(s)))
                 for w in set(re.findall(r"[a-z]+", txt)):
                     idx.setdefault(w, []).append(row)
         return idx
-    words = re.findall(r"[a-z]+", store.fold(sur))
-    for l, s, e, txt, sec in cached("works", make).get(words[-1] if words else "", []):
+    words = re.findall(r"[a-z]+", fold(sur))
+    # a son whose father, written bare, has his own entry: only the entries whose subject is the son
+    for l, s, e, txt, sec in ([] if strict else cached("works", make).get(words[-1] if words else "", [])):
         if True:
             if e["id"] in seen:
                 continue
@@ -758,7 +948,7 @@ def series_works(series, linker, ptrs, name):
                 seen.add(e["id"])
                 hits.append((l, s, e, False))
             elif PRIMARY.search(sec) and \
-                    re.search(r"\b" + re.escape(store.fold(sur)) + r"(?:s| papers)\b", txt):
+                    re.search(r"\b" + re.escape(fold(sur)) + r"(?:s| papers)\b", txt):
                 seen.add(e["id"])        # an archive holding the person's papers ('Humphrey's papers')
                 hits.append((l, s, e, "papers"))
     for l, s, e, subject in hits:
@@ -770,7 +960,7 @@ def series_works(series, linker, ptrs, name):
         cs = store.as_list(e.get("c"))
         for i, c in enumerate(cs):
             mine = is_own(c, e, sur, subject and len(cs) == 1)
-            if not mine and not any(x in store.fold(plain(c)) for x in q) and not (subject and len(cs) == 1):
+            if not mine and not any(x in fold(plain(c)) for x in q) and not (subject and len(cs) == 1):
                 continue           # another work in the same entry
             kind = ("primary" if PRIMARY.search(sec) else "own") if mine else "about"
             note = f" {to_html(e['n'])}" if e.get("n") and len(cs) == 1 else ""
@@ -789,7 +979,7 @@ def is_own(c, e, sur, subject_only):
     author = c.split(", *")[0] if ", *" in c else (c.split(",")[0] if "," in c else "")
     if subject_only and not re.search(r"[A-Z][a-z]+ [A-Z]", author or ""):
         return True                     # a subject entry whose citation names no other author: the person's own
-    return bool(author) and store.fold(sur) in store.fold(author)
+    return bool(author) and fold(sur) in fold(author)
 
 
 def grouped(items):
@@ -797,7 +987,7 @@ def grouped(items):
     by, order = {}, []
     for kind, c, note, ptr in items:
         m = re.search(r"<i>(.*?)</i>", c)
-        k = store.fold(re.sub(r":.*", "", m.group(1))) if m else c
+        k = fold(re.sub(r":.*", "", m.group(1))) if m else c
         if k not in by:
             by[k] = [c, note, []]
             order.append(k)
@@ -813,6 +1003,9 @@ def grouped(items):
 
 # ---------------------------------------------------------------- who has an entry
 
+CONG = re.compile(r"\b(Senators?|Senate|Representatives?|House|Congress|Speaker|Rep\.|Sen\.|Whip|Leader)\b")
+
+
 def people(series):
     """Everyone with an entry: the persons of Part III, the Executive roster's holders, and the members of Congress at
     each opening, one a person. Two names are one person where the surnames agree and the given names are
@@ -820,31 +1013,103 @@ def people(series):
     the roster's, else the Congress roster's."""
     from . import executive as X
     cands = []                           # (name, source rank)
+    role = {}                            # Part III name -> its roles and section titles
+    office = {}                          # roster name -> its offices' titles and units
+    full = {}                            # roster name -> its full given names ('Ellsworth, Robert': 'Robert Fred')
+    words = lambda t: set(re.findall(r"[a-z]{4,}", fold(t))) - STOP
     for l in series.lists.values():
         for s, e in l.entries():
             if (s.code or "").startswith("III") and e.get("s") and "," in e["s"]:
-                cands.append((re.sub(r"\s*\(.*?\)\s*$", "", e["s"]).strip(), 0))
+                for n in re.split(r";\s*", e["s"]):          # 'Dirksen, Everett M.; Kuchel, Thomas H.': two
+                    n = re.sub(r"\s*\(.*?\)\s*$", "", n).strip()
+                    if "," in n:
+                        cands.append((n, 0))
+                        role[n] = role.get(n, "") + " " + (e.get("r") or "") + " " + " ".join(x.title for x in chain(s))
     for u in X.load().values():
         for o in u.get("offices") or []:
             for h in o.get("holders") or []:
                 cands.append((h["name"], 1))
+                office[h["name"]] = office.get(h["name"], "") + f" {X.title_at(o, h['from'])} {h.get('title') or ''} {u.get('name') or ''}"
+                if h.get("given"):
+                    full.setdefault(h["name"], h["given"])
     for f in sorted(os.listdir(os.path.join(store.ROOT, "congress"))):
         if re.match(r"\d\d\.yaml$", f):
             d = store.load_yaml(os.path.join(store.ROOT, "congress", f)) or {}
             for r in (d.get("house") or []) + (d.get("senate") or []):
                 if r.get("name"):
                     cands.append((r["name"], 2))
+    def one(a, ra, b, rb):
+        """Names a and b (from sources ra, rb) are one person: compatible with each other (every name the person
+        has, so 'J. Skelly' and 'Jim' do not join through 'James'), and their suffixes agree. 'Jr.' and none may
+        join across sources (Part III writes 'Humphrey, Hubert H.'; the rosters, 'Humphrey, Hubert H., Jr.'); two
+        suffixes that differ never join (James L. Holloway, Jr., and III)."""
+        if a == b:
+            return True
+        # the roster's full given names stand for its initials ('Robert' is 'Robert Fred'; 'Jim' is 'James Robert')
+        ga, gb = full.get(a) or split_name(a)[1], full.get(b) or split_name(b)[1]
+        if not (same_person(*split_name(a), *split_name(b)) or same_person(split_name(a)[0], ga, split_name(b)[0], gb)):
+            return False
+        A, B = gtoks(ga), gtoks(gb)
+        paren = {fold(x) for x in re.findall(r"\(([^)]+)\)", a + " " + b)}
+        in_cong = lambda n, r: r == 0 and CONG.search(role.get(n, ""))
+        if A[0] != B[0] and not (len(A[0]) == 1 or len(B[0]) == 1):
+            # by a short form ('Bob' and 'Robert'): where the roster gives it ('Robert C. (Bob)'), or both give
+            # the middle initial, or Part III's man of that name sat in Congress and the other is a member
+            if not (paren & {A[0], B[0]} or (len(A) > 1 and len(B) > 1)
+                    or (in_cong(a, ra) and rb == 2) or (in_cong(b, rb) and ra == 2)):
+                return False
+        if (len(A) == 1) != (len(B) == 1) and ra != rb:
+            # a bare name and a fuller one ('Anderson, Jack' and 'Anderson, Jack Z.'): Part III's role shares a
+            # word with the roster's office, or Part III's man sat in Congress and the other is a member
+            # a roster name Part III also writes takes Part III's word for it
+            (n0, r0), (n1, r1) = sorted(((a, 0 if a in role else ra), (b, 0 if b in role else rb)), key=lambda x: x[1])
+            if r0 == r1 == 0:
+                pass
+            elif r0 == 0 and r1 == 1:
+                if role.get(n0, "").strip() and not words(role[n0]) & words(office.get(n1, "")):
+                    return False
+            elif r0 == 0 and r1 == 2:
+                # or the member's Directory entry gives Part III's role ('Governor of Oklahoma')
+                if not in_cong(n0, r0) and not paren & {A[0], B[0]}:
+                    e = bd_entry(*split_name(n1), True, (), suffix(n1))
+                    if not (e and len(words(role.get(n0, "")) & words(e["text"])) >= 2):
+                        return False
+            else:                        # the Executive roster and the Congress rosters: initials both, or none
+                return False
+        sa, sb = suffix(a), suffix(b)
+        real = lambda x: x not in ("", "Sr")
+        if real(sa) and real(sb) and sa != sb:
+            return False
+        if ra != rb:
+            return True
+        # within one source. The Congress rosters write each member one way: two names are two members (Charles
+        # Wilson and Charles H. Wilson). Part III may drop a middle initial (Clark Clifford, Clark M. Clifford) but
+        # writes a suffix every time. The Executive roster may drop a suffix but not an initial (Philip M. and
+        # Philip M., Jr.; not Robert and Robert B. Anderson).
+        if ra == 2:
+            return False
+        if ra == 0:
+            return sa.replace("Sr", "") == sb.replace("Sr", "") and A[0] == B[0]
+        return len(A) == len(B) and all(x == y or (len(x) == 1 and y.startswith(x)) or (len(y) == 1 and x.startswith(y))
+                                        for x, y in zip(A, B))
+
     by_sur, out = {}, []
-    for name, rank in sorted(cands, key=lambda c: c[1]):
+    # a name as written is one person in every source; then names written differently join, a suffixed name first
+    exact = {}
+    for name, rank in cands:
+        exact.setdefault(name, set()).add(rank)
+    for name, ranks in sorted(exact.items(), key=lambda x: (min(x[1]), suffix(x[0]) in ("", "Sr"), x[0])):
         sur, given = split_name(name)
         if not given:
             continue
-        group = by_sur.setdefault(store.fold(sur), [])
-        hit = next((p for p in group if same_person(sur, given, p["sur"], p["given"])), None)
+        mine = {(name, r) for r in ranks}
+        group = by_sur.setdefault(fold(sur), [])
+        hit = next((p for p in group if all(one(a, ra, b, rb) for a, ra in mine for b, rb in p["ranks"])), None)
         if hit:
             hit["names"].add(name)
+            hit["ranks"] |= mine
             continue
-        p = {"name": name, "sur": sur, "given": given, "names": {name}}
+        p = {"name": name, "sur": sur, "given": given, "names": {name}, "ranks": mine}
         group.append(p)
         out.append(p)
-    return sorted(out, key=lambda p: (store.fold(p["sur"]), store.fold(p["given"])))
+    return sorted(out, key=lambda p: (fold(p["sur"]), fold(p["given"])))
