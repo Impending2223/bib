@@ -106,18 +106,35 @@ APPT = {"PAS": "the President, by and with the advice and consent of the Senate"
 # The Executive Schedule: the Federal Executive Salary Act of 1964, title III (Pub. L. 88-426, 78 Stat. 400, 415),
 # in force with the first pay period beginning on or after July 1, 1964; 5 U.S.C. §§ 5311-5316 from 1966.
 LEVELS_FROM = "1964-07-01"
-LEVELS = {"I": "$35,000: the heads of the executive departments",
-          "II": "$30,000: the deputy heads of the largest departments, the service secretaries, the heads of the principal agencies",
-          "III": "$28,500: the under secretaries, the heads of lesser agencies",
-          "IV": "$27,000: the assistant secretaries, general counsels, members of the larger commissions",
-          "V": "$26,000: the heads of bureaus, members of the lesser boards"}
+LEVELS = {"I": "the heads of the executive departments",
+          "II": "the deputy heads of the largest departments, the service secretaries, the heads of the principal agencies",
+          "III": "the under secretaries, the heads of lesser agencies",
+          "IV": "the assistant secretaries, general counsels, members of the larger commissions",
+          "V": "the heads of bureaus, members of the lesser boards"}
+# The rates, with the day each took effect: the 1964 act (§ 303); the Federal Salary Act of 1967, § 215 (levels
+# III-V, Dec. 1967); the President's recommendations under § 225 of that act, in force Feb. 1969 (34 Fed. Reg. 2241).
+# No change to Aug. 1974. The pay entries on each office give the authorities.
+RATES = [("1964-07-01", {"I": 35000, "II": 30000, "III": 28500, "IV": 27000, "V": 26000}),
+         ("1967-12", {"I": 35000, "II": 30000, "III": 29500, "IV": 28750, "V": 28000}),
+         ("1969-02-14", {"I": 60000, "II": 42500, "III": 40000, "IV": 38000, "V": 36000})]
+
+
+def level_rates(lv, a, b):
+    """'$28,500 (July 1964); $29,500 (Dec. 1967)': the level's rates in force in [a, b)."""
+    out = []
+    for i, (d, r) in enumerate(RATES):
+        nxt = RATES[i + 1][0] if i + 1 < len(RATES) else None
+        if lo(d) < lo(b) and (not nxt or lo(nxt) > lo(a)) and lv in r:
+            out.append(f"${r[lv]:,} (from {MONTHS[int(d[5:7]) - 1]} {d[:4]})")
+    return "; ".join(out)
 KEY = ("PAS: appointed by the President with the advice and consent of the Senate. PA: by the President alone. "
        "HD: by the head of the department or agency. VP: by the Vice President. XO: ex officio. DES: designated by the President from among "
        "other officers. MIL: a military officer assigned to the post. CAREER: a Foreign Service or civil-service "
        "officer, not a political appointment. ELECTED: the President and Vice President.")
 KEY_LEVELS = (" Levels I–V: the pay grades of the Executive Schedule, fixed by the Federal Executive Salary Act of 1964 "
               "for each office by name (I, $35,000, the heads of departments; II, $30,000; III, $28,500; IV, $27,000; "
-              "V, $26,000), raised later in the period. A level marks rank as well as pay.")
+              "V, $26,000); levels III–V raised in Dec. 1967 (Federal Salary Act of 1967), all five in Feb. 1969 ($60,000, "
+              "$42,500, $40,000, $38,000, $36,000). A level marks rank as well as pay.")
 UNIT_KEYS = {"unit", "name", "names", "under", "order", "from", "until", "law", "n", "offices"}
 OFFICE_KEYS = {"id", "title", "titles", "rank", "appt", "under", "group", "level", "many", "from", "until",
                "law", "n", "holders"}
@@ -560,7 +577,8 @@ def block(i, units, ptr, href, rid, here=False):
                 meta.append(f'<abbr title="{esc(APPT.get(o["appt"], o["appt"]))}">{esc(o["appt"])}</abbr>')
             if o.get("level") and lo(b) > lo(LEVELS_FROM):
                 lv = str(o["level"])
-                meta.append(f'<abbr title="Executive Schedule, level {esc(lv)}: {esc(LEVELS.get(lv, ""))} (1964)">Level {esc(lv)}</abbr>')
+                meta.append(f'<abbr title="Executive Schedule, level {esc(lv)}: {esc(level_rates(lv, a, b))}. '
+                            f'{esc(LEVELS.get(lv, "").capitalize())}.">Level {esc(lv)}</abbr>')
             if o.get("from") and lo(o["from"]) > lo(START):
                 meta.append(f"from {fmt(o['from'])}")
             if o.get("until") and hi(o["until"]) < lo(b):
