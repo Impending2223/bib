@@ -889,7 +889,7 @@ def frus_lists(name):
         # the numbers only; the page links each to its document (the script below), to keep the pages light
         docs = " ".join(esc(n) for n, _ in v["named"])
         k = len(v["named"])
-        named.append((vol, f'<i>{esc(lab)}</i>{": " + esc(titles.get(vol, "")) if titles.get(vol) else ""}: '
+        named.append((vol, f'{esc(lab)}{": " + esc(titles.get(vol, "")) if titles.get(vol) else ""}: '
                            f'{"doc." if k == 1 else "docs."} <span class="lvf" data-v="{esc(vol)}">{docs}</span>.'))
     sent_.sort()
     return [x for _, x in sent_], [x for _, x in sorted(named, key=lambda t: vol_order(t[0]))]
@@ -916,9 +916,10 @@ def app_list(name, sur):
     by_year = {}
     for d, r in keep:
         president = any(n == r["who"] and f <= d < t for n, f, t in PRESIDENTS)
+        # the title, then who and when, as the speeches are cited: 'Address on Mississippi (Sept. 30, 1962)'
         by_year.setdefault(d[:4], []).append(
-            f'{fmt(d)[:-6]}. {esc(r["title"].rstrip("."))}' + ("" if president else f' ({esc(r["who"])})')
-            + f'. <span class="lvc">{a(r["url"], "APP")}</span>')
+            f'{esc(r["title"].rstrip("."))} ({"" if president else esc(r["who"]) + ", "}{fmt(d)}).'
+            + f' <span class="lvc">{a(r["url"], "APP")}</span>')
     return [f'<b>{y}</b><br>' + "<br>".join(v) for y, v in by_year.items()]
 
 
@@ -1289,6 +1290,10 @@ def by_date(items):
 
     def key(x):
         t = re.sub(r"<[^>]+>", "", x)
+        pp = re.match(r"Public Papers of the Presidents[^(]*\([^()]*?(\d{4})(?:[–-](\d{2,4}))?\)", t)
+        if pp:                           # a President's Public Papers after his last speech: the year the set closed
+            end = pp.group(2) or pp.group(1)
+            return ((pp.group(1)[:4 - len(end)] + end) if len(end) < 4 else end, 13, 0)
         for inner in re.findall(r"\(([^()]*)\)", t):
             y = re.search(r"\b(1[5-9]\d\d|20\d\d)\b", inner)
             if y:
