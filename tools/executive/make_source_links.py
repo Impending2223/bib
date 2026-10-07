@@ -53,6 +53,7 @@ def senate_days(d, cited=()):
                 ids = ast.literal_eval(m.group(2))
                 if ids:
                     index[m.group(1)] = ids[0]
+    index.setdefault('1952', 'GPO-CRECB-1952-pt12-1')   # 82d Cong., 2d sess.: before the pages files begin
     return days, index, pages
 
 

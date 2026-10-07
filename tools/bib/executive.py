@@ -434,7 +434,7 @@ def holder_html(h, a, b, ptr, href, o=None):
         who += f' <span class="exr">{extra}</span>'
     line = holder_line(h, a, b, o) + (" " + to_html(h["n"]) if h.get("n") else "")
     pts = ptr.lines(h["name"], href) if ptr else []
-    return who, f'<span class="exd">{line}</span>' + executive_sources.html(h), pts
+    return who, f'<span class="exd">{line}</span>' + executive_sources.html(h, (ptr.linker, href) if ptr else None), pts
 
 
 def vacancies(o, a, b):

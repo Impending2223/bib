@@ -290,7 +290,7 @@ def reg_html(s):
     return None
 
 
-def one(s, h):
+def one(s, h, ctx=None):
     """(group, html): a source, linked; group gathers several of a kind into one ("Cong. Dir., Mar. 1953, Jan. 1954")."""
     m = re.match(r"^CDIR (\d{4}-\d{2})(?: to (\d{4}-\d{2}))?$", s)
     if m:
@@ -349,25 +349,49 @@ def one(s, h):
     m = re.match(r"^cal\.(\d{4}-\d{2}-\d{2})\.", s)
     if m:
         return None, a(f"cal.html#{s}", "Cal. " + fmt_day(m.group(1)))
+    if ctx:
+        t = series_html(s, *ctx)
+        if t:
+            return None, t
     r = reg_html(s)
     if r is not None:
         return None, r
     return None, esc(s)
 
 
+def series_html(s, linker, href):
+    """'K–J Adm. III.G' (or 'Part III: K–J Adm. III.G'): the section in the series, linked as the build links
+    a cross-list reference."""
+    s = re.sub(r"^Part III: ", "", s)
+    hits = list(linker.refs.scan(s, None))
+    if len(hits) != 1 or hits[0][0] != 0 or hits[0][1] != len(s) or not hits[0][3]:
+        return None
+    _, _, key, code = hits[0]
+    sec = linker.refs.section_for(key, code)
+    if not sec:
+        return None
+    url = href(key, sec.id)     # a list page: kja.html#p3g; the series reader: #kja--p3g
+    if url.startswith("#"):
+        url = f"#{key}--{sec.id}"
+    return a(url, esc(s))
+
+
 def resolved(s, h):
-    """Whether a source is linked (for check)."""
-    return "<a " in one(s, h)[1]
+    """Whether a source is linked (for check). A reference to the series counts: the build links it."""
+    return "<a " in one(s, h)[1] or bool(SERIES_RE.match(s))
 
 
-def html(h):
-    """The holder's sources as one line, or ''."""
+SERIES_RE = re.compile(r"^(?:Part III: )?(?:K–J Adm\.|K–J Cong\.|Opp\.|Adm\.|Cong\.|Wg\.|Viet\.|1968|Cal\.) [IVX]+\.[A-Z][\w.]*$")
+
+
+def html(h, ctx=None):
+    """The holder's sources as one line, or ''. ctx: (linker, href) to link references to the series."""
     srcs = items(h.get("src"))
     if not srcs:
         return ""
     parts, groups = [], {}
     for s in srcs:
-        g, t = one(s, h)
+        g, t = one(s, h, ctx)
         if g:
             if g in groups:
                 parts[groups[g]] += ", " + t
