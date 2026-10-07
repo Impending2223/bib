@@ -551,6 +551,30 @@ def path_of(u, units):
     return out[::-1]
 
 
+def office_refs(html, units, i, a, rid):
+    """'(cia.director)' in a note: the unit's name; a bare 'cia.director': the office's title. Each linked to that
+    office in the same term (unlinked where the office did not exist in the term)."""
+    def one(m):
+        paren = m.group(1) is not None
+        uid, oid = (m.group(1), m.group(2)) if paren else (m.group(3), m.group(4))
+        u = units.get(uid)
+        o = next((x for x in (u or {}).get("offices") or [] if x["id"] == oid), None)
+        if not o:
+            return m.group(0)
+        text = esc(name_at(u, a)) if paren else esc(title_at(o, a))   # '(cia.director)'; 'Holders: cia.director'
+        if exists(o, *term_span(i)):
+            text = f'<a href="#{rid(i, u["unit"], o["id"])}">{text}</a>'
+        return f"({text})" if paren else text
+    def unit(m):     # 'executive/faa.yaml', 'nsc.yaml': the unit's name, linked to it in the same term
+        u = units.get(m.group(1))
+        if not u:
+            return m.group(0)
+        text = esc(name_at(u, a))
+        return f'<a href="#{rid(i, u["unit"], "")}">{text}</a>' if exists(u, *term_span(i)) else text
+    html = re.sub(r"\b(?:executive/)?([a-z][a-z0-9-]*)\.yaml\b", unit, html)
+    return re.sub(r"\(([a-z][a-z0-9-]*)\.([a-z][a-z0-9-]*)\)|\b([a-z][a-z0-9-]*)\.([a-z][a-z0-9-]*)\b", one, html)
+
+
 def block(i, units, ptr, href, rid, here=False):
     """The roster for one term: each unit a collapsible table of its offices, their holders, and under each office
     the law that governs it."""
@@ -588,7 +612,7 @@ def block(i, units, ptr, href, rid, here=False):
                 if sup and sup is not (u.get("offices") or [None])[0]:
                     meta.append(f"under the {esc(title_at(sup, a))}")
             laws = [law_html(x) for x in o.get("law") or [] if in_force(x, a, b)]
-            onote = f'<span class="cgn">{to_html(o["n"])}</span>' if o.get("n") else ""
+            onote = f'<span class="cgn">{office_refs(to_html(o["n"]), units, i, a, rid)}</span>' if o.get("n") else ""
             # one row a holder (or vacancy), each with its own pointers; the office cell spans them
             cells = []
             gaps = [] if o.get("many") else vacancies(o, a, b)
@@ -617,9 +641,11 @@ def block(i, units, ptr, href, rid, here=False):
                 cls = "exo" + ("" if last else " exmid") + (" exhl" if full and last else "")
                 head = (f'<td rowspan="{n}" class="exof{" exnb" if full else ""}"><span class="ext">{esc(title_at(o, a))}</span>'
                         f'<span class="exm">{" · ".join(meta)}</span></td>') if k == 0 else ""
-                pcell = "".join(f'<span class="exp">{p_}</span>' for p_ in pts)
+                # a link and the comma after it break together, so no line starts with a comma
+                pcell = "".join(f'<span class="exp">{re.sub(r"(<a [^>]*>[^<]*</a>,)", r'<span class="exnw">\1</span>', p_)}</span>'
+                                for p_ in pts)
                 rid_ = f' id="{rid(i, u["unit"], o["id"])}"' if k == 0 else ""
-                rows.append(f'<tr{rid_} class="{cls}">{head}<td>{cell}</td><td>{pcell}</td></tr>')
+                rows.append(f'<tr{rid_} class="{cls}">{head}<td>{cell}</td><td class="expc">{pcell}</td></tr>')
             if full:
                 rows.append('<tr class="exlr"><td colspan="3">' + onote
                             + ('<ul class="exlaw">' + "".join(f"<li>{x}</li>" for x in laws) + "</ul>" if laws else "")
@@ -631,7 +657,7 @@ def block(i, units, ptr, href, rid, here=False):
         if sec != section and sec:
             parts.append(f'<p class="exsec">{esc(sec)}</p>')
         section = sec
-        unote = f'<p class="cgn exun">{to_html(u["n"])}</p>' if u.get("n") else ""
+        unote = f'<p class="cgn exun">{office_refs(to_html(u["n"]), units, i, a, rid)}</p>' if u.get("n") else ""
         heads = [h["name"].split(",")[0] for o in (u.get("offices") or [])[:1] for h in o.get("holders") or []
                  if in_term(h, a, b) and not h.get("acting")]
         who = f' <span class="cgsm">{esc(", ".join(dict.fromkeys(heads)))}</span>' if heads and u["unit"] != "president" else ""
@@ -662,13 +688,13 @@ CSS = """<style>
 .ex .exsec{font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:1rem 0 .2rem}
 details.exu table{font-size:.82rem;margin:.2rem 0 .8rem}
 details.exu col.exc1{width:28%}details.exu col.exc2{width:auto}details.exu col.exc3{width:19%}
-details.exu td:nth-child(3){font-size:.76rem;overflow-wrap:anywhere}
+details.exu td.expc{font-size:.76rem;overflow-wrap:anywhere}
 details.exu tr.exhl td{border-bottom:0}
 details.exu tr.exmid td:not(.exof){border-bottom:0;padding-bottom:0}
 details.exu td.exof{border-bottom:1px solid var(--rule)}
 details.exu tr.exhl td.exof,details.exu td.exof.exnb{border-bottom:0}
 .ex .exp{display:block;margin-bottom:.15rem}
-.ex .exp a{white-space:nowrap}
+.ex .exp a,.ex .exnw{white-space:nowrap}
 details.exu tr.exlr td{padding-top:0}
 .ex .ext{font-weight:600}
 .ex .exm{display:block;font-size:.72rem;color:var(--muted)}

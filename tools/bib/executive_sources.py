@@ -113,7 +113,7 @@ def items(src):
     """The `src` list as written, with a citation the flow list split at its commas put back together:
     ['Buck', 'A History of ... (DOE', '1983)'] -> ['Buck, A History of ... (DOE, 1983)']; 'Wikipedia' then bare
     titles -> 'Wikipedia: Title'; 'CDIR 1959-03', '1960-01' -> two editions."""
-    out, wiki = [], False
+    out, wiki, used = [], False, False
     for raw in store.as_list(src):
         s = str(raw).strip()
         if not s:
@@ -128,11 +128,16 @@ def items(src):
             out[-1] += ", " + s
             continue
         if s == "Wikipedia":
-            wiki = True
+            if wiki and not used:
+                out.append("Wikipedia")
+            wiki, used = True, False
             continue
         if wiki and not KNOWN.match(s) and not any(r["rx"].match(s) for r in register()):
-            out.append("Wikipedia: " + s)
+            out.append("Wikipedia: " + s)       # 'Wikipedia', then the titles the flow list split off
+            used = True
             continue
+        if wiki and not used:
+            out.append("Wikipedia")             # a bare 'Wikipedia' before another source
         wiki = False
         if s == "Buck":     # the author, before the title the list split off
             out.append(s)
@@ -141,7 +146,7 @@ def items(src):
             out[-1] = "Buck, " + s
             continue
         out.append(s)
-    if wiki:
+    if wiki and not used:
         out.append("Wikipedia")
     return out
 
