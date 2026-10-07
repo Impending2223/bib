@@ -357,19 +357,39 @@ notes/executive-brief.md      the brief for whoever adds to the roster, person o
   end of mission. Others from the Congressional Directory (each session), the Senate's records, department
   histories, and Wikipedia's lists for nominations. "Check" in a note marks a detail still to verify.
 
-## Lives (prototype)
+## Lives
 
-`./bib lives 'Humphrey, Hubert H.' [--site URL] [--out FILE]` writes `build/lives.html`: a name entry for each
-person named, a chronology with pincites (the Biographical Directory, the Executive roster, the Congress rosters
-and changes, the elections, the calendar), then the person's writings, FRUS documents sent, papers and other
-primary sources, works about, and the FRUS and APP documents that name the person. Not yet in `./bib build`.
+`./bib build` writes `build/lives.html` (the index of names) and `build/lives-a.html` … `lives-z.html`: a name
+entry for each person in Part III, the Executive roster, and the Congresses at their openings (`people` in
+`tools/bib/lives.py`: one entry a person, names merged where the surname agrees and the given names are compatible).
+`./bib lives` builds those pages alone; `./bib lives 'Humphrey, Hubert H.' [--site URL] [--out FILE]` one page.
+
+Each entry: the Directory's description (or the Part III role), the pointers into the series, then the life as
+running text, with the date in each sentence; then Publications; FRUS documents sent; Oral histories given, papers,
+and other primary sources; Secondary sources; and, folded, the FRUS and presidential documents that name the
+person. Empty sections are left out. Rules (the STYLE notes in `tools/bib/lives.py`):
+
+- Each fact cites its ground source, linked: BD (the 2005 printed Biographical Directory, by page), the roster
+  holder's own sources (CDir., CR, FR, DSB, GOM, POCOM, APP …), the Clerk's *Election Statistics* by page, a calendar
+  entry's own sources. The series' pages are pointers, not sources: Exec. 1965, 87th, 88th Cong., Election 1960,
+  Cal. Jan. 3, 1961, list sections — in the headings' sans serif, not underlined.
+- A run of sentences with the same sources and pointers is a sentence block; its source block follows it: the
+  cites, then the pointers. A new paragraph at each office and election.
+- An office is followed by the offices held ex officio by virtue of it, with their dates only where they differ.
+- The Directory's color is cut (`CUT`); its bibliography is put in the series' form ("Timothy N. Thurber, *The
+  Politics of Equality* (1999)"). FRUS headings with "from" in lower case.
 
 ```
-tools/bib/lives.py            renders the entries (STYLE notes at the top)
+tools/bib/lives.py            renders the entries and pages (STYLE notes at the top)
 tools/lives/make_bd.py        sources/bd/<letter>.json: the 2005 printed Biographical Directory on govinfo, by page
-tools/lives/frus_names.py     sources/frus-names/<person>.json: the FRUS documents that name or were sent by a person
-tools/lives/app_names.py      sources/app-names/<person>.json: the APP documents that name a person (phrase search)
+tools/lives/frus_names.py     sources/frus-names/<letter>.json and volumes.json: the FRUS documents that name or were
+                              sent by each person, one pass over every volume (python3 tools/lives/frus_names.py FRUS_GIT --all)
+tools/lives/app_corpus.py     the APP documents of 1953-74, read once into a local corpus (resumable; about 2 hours)
+tools/lives/app_names.py      sources/app-index.jsonl and sources/app-names/<letter>.json: the documents that name each
+                              person, matched in the corpus
 ```
+
+Rerun `frus_names.py --all` and `app_names.py` after adding people; the build needs no network.
 
 ## Special elections
 

@@ -11,20 +11,24 @@ Each entry: the name as Part III writes it, the Directory's description, the poi
   FRUS documents sent  by the daybook's rules for authors
   Primary sources      oral histories, papers, speeches and recordings in the series
   Secondary sources    works on the person: the series' entries, the Directory's bibliography, works citing the name
-  Named                FRUS documents that name the person, by volume; the Public Papers (PPP: a President's own
-                       papers in his term) and other presidential documents (APP), one a line, by year
+  Named                FRUS documents that name the person, by volume; presidential documents (APP: the Public
+                       Papers and the campaign documents), one a line, by year
 
 STYLE:
  1. Telegraphic: the Directory's clauses as printed, the first letter raised; nicknames and honors of color cut.
  2. Each fact cites its ground source, linked; the series' pages are pointers, not sources. A run of facts from
     the same page of the same source cites it once, at the end of the run.
  3. A fact the Directory and our structured files both give shows once, with both cites.
- 4. Abbreviations: BD, CDir., CR, FR, DSB, GOM, PPP; FRUS by subseries, volume and doc.; Clerk, Election
-    Statistics, by year and page; pointers: Exec. Roster, Roster (a Congress at its opening), Election, Cal.
+ 4. Abbreviations: BD, CDir., CR, FR, DSB, GOM, APP; FRUS by subseries, volume and doc.; Clerk, Election
+    Statistics, by year and page; pointers: Exec. (the roster at a term), Cong. (a Congress at its opening),
+    Election, Cal.
+ 6. Each run of sentences sharing their sources and pointers is a sentence block; its source block follows it,
+    the cites first, then the pointers.
  5. FRUS headings with 'from' in lower case; works from the Directory's bibliography in the series' form.
 """
 import datetime
 import json
+import sys
 import os
 import re
 
@@ -39,7 +43,7 @@ BD_URL = "https://www.govinfo.gov/content/pkg/GPO-CDOC-108hdoc222/pdf/GPO-CDOC-1
 BD_CITE = ("*Biographical Directory of the United States Congress, 1774–2005*, H. Doc. 108-222 (Government "
            "Printing Office, 2005)")
 HSG = "https://history.state.gov/historicaldocuments/"
-# The Presidents' terms, for PPP: a President's own papers in his term
+# The Presidents' terms: a President's own papers in his term are listed without his name
 PRESIDENTS = [("Dwight D. Eisenhower", "1953-01-20", "1961-01-20"), ("John F. Kennedy", "1961-01-20", "1963-11-22"),
               ("Lyndon B. Johnson", "1963-11-22", "1969-01-20"), ("Richard Nixon", "1969-01-20", "1974-08-09"),
               ("Gerald R. Ford", "1974-08-09", "1977-01-20")]
@@ -101,11 +105,24 @@ def iso_dates(t):
     return [f"{y}-{FULL[m]:02d}-{int(d):02d}" for m, d, y in DATE_RE.findall(t)]
 
 
+_CACHE = {}
+
+
+def cached(key, make):
+    if key not in _CACHE:
+        _CACHE[key] = make()
+    return _CACHE[key]
+
+
+def letter_json(folder, letter):
+    def make():
+        p = os.path.join(store.ROOT, "sources", folder, letter + ".json")
+        return json.load(open(p, encoding="utf-8")) if os.path.exists(p) else ([] if folder == "bd" else {})
+    return cached((folder, letter), make)
+
+
 def bd_entry(sur, given):
-    p = os.path.join(store.ROOT, "sources", "bd", sur[0].upper() + ".json")
-    if not os.path.exists(p):
-        return None
-    for e in json.load(open(p, encoding="utf-8")):
+    for e in letter_json("bd", store.fold(sur)[:1].upper()):
         m = re.match(r"([A-Z][A-Z'’\- ]+), ([^,(]+)", e["name"])
         if m and same_person(m.group(1).title(), m.group(2), sur, given):
             return e
@@ -143,14 +160,16 @@ def roster_href(day):
 def office_sentences(sur, given):
     """Each office held, with the ex officio offices held by virtue of it after it."""
     from . import executive as X, executive_sources as S
-    units = X.load()
-    held = []
-    for u in units.values():
-        for o in u.get("offices") or []:
-            for h in o.get("holders") or []:
-                hs, hg = split_name(h["name"])
-                if same_person(hs, hg, sur, given):
-                    held.append((u, o, h))
+
+    def make():
+        idx = {}
+        for u in X.load().values():
+            for o in u.get("offices") or []:
+                for h in o.get("holders") or []:
+                    idx.setdefault(store.fold(split_name(h["name"])[0]), []).append((u, o, h))
+        return idx
+    held = [(u, o, h) for u, o, h in cached("holders", make).get(store.fold(sur), [])
+            if same_person(*split_name(h["name"]), sur, given)]
 
     def cites(u, o, h):
         s = S.html(h)
@@ -158,7 +177,7 @@ def office_sentences(sur, given):
         start = max(str(h["from"]), X.TERMS[0][0]).ljust(10, "0").replace("-00", "-01")
         i = roster_href(start)
         rid = X.rid_for()(i, u["unit"], o["id"])
-        return ext, [ptr(f"{SITE}executive.html#{rid}", f"Exec. Roster {X.TERMS[i][0][:4]}")]
+        return ext, [ptr(f"{SITE}executive.html#{rid}", f"Exec. {X.TERMS[i][0][:4]}")]
 
     def when(h, host=None):
         f, t = h["from"], h.get("to")
@@ -201,24 +220,38 @@ def office_sentences(sur, given):
 def roster_pointers(sur, given):
     """[(day, Congress, pointer)] for each Congress at whose opening the person held a seat."""
     from .congress import ordinal
+
+    def make():
+        idx = {}
+        for f in sorted(os.listdir(os.path.join(store.ROOT, "congress"))):
+            m = re.match(r"(\d\d)\.yaml$", f)
+            if not m:
+                continue
+            d = store.load_yaml(os.path.join(store.ROOT, "congress", f)) or {}
+            for ch, rows in (("s", d.get("senate") or []), ("h", d.get("house") or [])):
+                for r in rows:
+                    if r.get("name"):
+                        idx.setdefault(store.fold(split_name(r["name"])[0]), []).append((int(m.group(1)), d, ch, r))
+        return idx
     out = []
-    for f in sorted(os.listdir(os.path.join(store.ROOT, "congress"))):
-        m = re.match(r"(\d\d)\.yaml$", f)
-        if not m:
-            continue
-        c = int(m.group(1))
-        d = store.load_yaml(os.path.join(store.ROOT, "congress", f)) or {}
-        for ch, rows in (("s", d.get("senate") or []), ("h", d.get("house") or [])):
-            for r in rows:
+    for c, d, ch, r in cached("congress", make).get(store.fold(sur), []):
+        if True:
+            if True:
                 rs, rg = split_name(r.get("name") or ",")
                 if r.get("name") and same_person(rs, rg, sur, given):
                     seat = r.get("cl") if ch == "s" else r.get("d", 0)
                     out.append((str(d.get("opened")), c, ch, r["st"],
-                                ptr(f"{SITE}congress.html#cg{c}-{ch}-{r['st']}-{seat}", f"Roster, {ordinal(c)} Cong.")))
+                                ptr(f"{SITE}congress.html#cg{c}-{ch}-{r['st']}-{seat}", f"{ordinal(c)} Cong.")))
     return out
 
 
 
+
+
+def last_word(n):
+    """The surname of a name as the returns print it: 'Harry F. Byrd Jr.' -> 'Byrd'."""
+    w = [x for x in re.sub(r",", " ", n).split() if not re.fullmatch(r"(Jr|Sr|II|III|IV)\.?", x)]
+    return w[-1] if w else n
 
 
 def election_sentences(sur, given):
@@ -226,13 +259,28 @@ def election_sentences(sur, given):
     from .congress import STATE
     out = []
     first = store.fold(given.split()[0]) if given else ""
-    mine = lambda n: n and store.fold(n.split()[-1]) == store.fold(sur) and store.fold(n.split()[0]) == first
-    for f in sorted(os.listdir(os.path.join(store.ROOT, "elections"))):
-        m = re.match(r"(\d{4})\.yaml$", f)
-        if not m or m.group(1) == "1956":
+    mine = lambda n: bool(n) and store.fold(last_word(n)) == store.fold(sur) and store.fold(n.split()[0]) == first
+    def make():
+        out_ = []
+        for f in sorted(os.listdir(os.path.join(store.ROOT, "elections"))):
+            m = re.match(r"(\d{4})\.yaml$", f)
+            if m and m.group(1) != "1956":
+                out_.append((m.group(1), store.load_yaml(os.path.join(store.ROOT, "elections", f)) or {}))
+        return out_
+
+    def cand_index():
+        idx = {}
+        for y, d in cached("elections", make):
+            names = {c.get("n") for r in d.get("races") or [] for c in r.get("cands") or []}
+            names |= {c.get("n") for c in (d.get("president") or {}).get("cands") or []}
+            for n in names:
+                if n:
+                    idx.setdefault(store.fold(last_word(n)), set()).add(y)
+        return idx
+    years = cached("election-names", cand_index).get(store.fold(sur), set())
+    for y, d in cached("elections", make):
+        if y not in years:
             continue
-        y = m.group(1)
-        d = store.load_yaml(os.path.join(store.ROOT, "elections", f)) or {}
         url = (d.get("source") or {}).get("url", "")
 
         def clerk(pg=None):
@@ -249,7 +297,9 @@ def election_sentences(sur, given):
             what = ("Reelected" if inc else "Elected") if me.get("w") else ("Defeated for reelection" if inc else "Defeated")
             where = STATE.get(r["st"], r["st"])
             seat = "Senate" if r["ch"] == "s" else f"House, {r['st']}-{r['seat'] or 'AL'}"
-            t = f"{what} to the {seat}{', ' + where if r['ch'] == 's' else ''}, {fmt(d['date'])}: {me['v']:,} votes{share}; {others}."
+            votes = f": {me['v']:,} votes{share}" + (f"; {others}" if others else "") if me.get("v") else (
+                ": unopposed, no vote printed" if len(cs) == 1 else "")
+            t = f"{what} to the {seat}{', ' + where if r['ch'] == 's' else ''}, {fmt(d['date'])}{votes}."
             out.append(sent(d["date"], t, [clerk(r.get("page"))], [ptr(f"{SITE}congress.html#{erid(y, r)}", f"Election {y}")],
                             para=True, kind="election", dates={d["date"]}))
         p = d.get("president")
@@ -266,6 +316,42 @@ def election_sentences(sur, given):
     return out
 
 
+def series_html(ptrs, text, home, e=None):
+    """Text with the series' own markup made pointers: '[[id]]' (a calendar date, the year added where it differs)
+    and the references to lists and sections ('K–J Adm. II.D')."""
+    from .build import label_of
+    series, linker = ptrs.series, ptrs.linker
+    toks = []
+
+    def tok(html):
+        toks.append(html)
+        return f"\x01{len(toks) - 1}\x01"
+
+    def link(m):
+        eid, shown = m.group(1), m.group(2)
+        hit = series.get(eid)
+        if not hit:
+            return shown or eid
+        lst, sec, x = hit
+        lab = shown or label_of(series, eid) or eid
+        if not shown and x.get("date") and e is not None and x["date"][:4] != (e.get("date") or "")[:4]:
+            lab += f", {x['date'][:4]}"
+        return tok(ptr(f"{SITE}{lst.key}.html#{eid}", esc(lab)))
+    text = re.sub(r"\[\[([^\]|]+)(?:\|([^\]]+))?\]\]", link, text)
+    out, pos = [], 0
+    for a_, b_, key, code in linker.refs.scan(text, home):
+        sec = linker.refs.section_for(key, code) if code else None
+        lst = series.lists.get(key)
+        if not lst:
+            continue
+        href = f"{SITE}{key}.html#{sec.id}" if sec else f"{SITE}{key}.html"
+        out.append(text[pos:a_] + tok(ptr(href, esc(text[a_:b_]))))
+        pos = b_
+    out.append(text[pos:])
+    html = to_html("".join(out))
+    return re.sub(r"\x01(\d+)\x01", lambda m: toks[int(m.group(1))], html)
+
+
 def calendar_sentences(ptrs, name):
     out, seen = [], set()
     for k in ptrs.keys(name)[0]:
@@ -273,8 +359,8 @@ def calendar_sentences(ptrs, name):
             if e["id"] in seen:
                 continue
             seen.add(e["id"])
-            c = to_html(store.as_list(e.get("c"))[0] if e.get("c") else "")
-            n = to_html(re.sub(r"\s*Names:.*$", "", e.get("n") or "").strip()) if e.get("n") else ""
+            c = series_html(ptrs, store.as_list(e.get("c"))[0] if e.get("c") else "", "cal", e)
+            n = series_html(ptrs, re.sub(r"\s*Names:.*$", "", e.get("n") or "").strip(), "cal", e) if e.get("n") else ""
             out.append(sent(e["date"], f"{esc(e['when'])}, {e['date'][:4]}: {c}", [n] if n else [],
                             [ptr(f"{SITE}cal.html#{e['id']}", f"Cal. {esc(e['when'])}, {e['date'][:4]}")], kind="cal"))
     return out
@@ -316,40 +402,43 @@ def merge(structured, bd, rosters):
 
 
 def pointers(ps):
-    """'Roster, 87th Cong.' and 'Roster, 88th Cong.' as one pointer, 'Roster, 87th, 88th Cong.', each linked."""
-    out, ros = [], []
+    """'87th Cong.' and '88th Cong.' as one pointer, '87th, 88th Cong.', each Congress linked."""
+    out, cg = [], []
     for p in dict.fromkeys(ps):
-        m = re.match(r'(<a class="lvp" href="[^"]+">)Roster, (\d+\w+) Cong\.</a>', p)
+        m = re.match(r'(<a class="lvp" href="[^"]+">)(\d+\w+) Cong\.</a>', p)
         if m:
-            ros.append(m.group(1) + m.group(2) + "</a>")
+            cg.append(m.group(1) + m.group(2) + "</a>")
         else:
             out.append(p)
-    if ros:
-        out.insert(0, '<span class="lvp">Roster,</span> ' + ", ".join(ros) + ' <span class="lvp">Cong.</span>')
+    if cg:
+        out.append(", ".join(cg) + ' <span class="lvp">Cong.</span>')
     return "; ".join(out)
 
 
 def life_html(sents):
-    """Running text: paragraphs at each office and election; a run of sentences with the same cites cites once."""
-    paras, cur, pend = [], [], None
+    """Running text, in paragraphs at each office and election. Each run of sentences with the same sources and the
+    same pointers is one sentence block; its source block follows it: the cites, then the pointers."""
+    paras, cur, block = [], [], None
 
-    def flush():
-        nonlocal pend
-        if pend:
-            cur.append(f'<span class="lvc">{"; ".join(x.rstrip(".") for x in dict.fromkeys(pend))}.</span>')
-        pend = None
+    def close():
+        nonlocal block
+        if block:
+            ext, intl = block
+            if ext:
+                cur.append(f'<span class="lvc">{"; ".join(x.rstrip(".") for x in ext)}.</span>')
+            if intl:
+                cur.append('<span class="lvq">' + pointers(list(intl)) + "</span>")
+        block = None
     for s in sents:
-        if pend is not None and (s["ext"] != pend or s["para"] or s["int"] and False):
-            flush()
+        key = (tuple(dict.fromkeys(s["ext"])), tuple(dict.fromkeys(s["int"])))
+        if block is not None and (key != block or s["para"]):
+            close()
         if s["para"] and cur:
-            flush()
             paras.append(" ".join(cur))
             cur = []
         cur.append(s["text"])
-        if s["int"]:
-            cur.append('<span class="lvq">' + pointers(s["int"]) + "</span>")
-        pend = s["ext"] or None
-    flush()
+        block = key
+    close()
     if cur:
         paras.append(" ".join(cur))
     return "".join(f'<p class="lvl">{p}</p>' for p in paras)
@@ -402,23 +491,30 @@ def bd_bib(e, sur, lines):
 
 
 def frus_lists(name):
-    p = os.path.join(store.ROOT, "sources", "frus-names", key_of(name) + ".json")
-    if not os.path.exists(p):
-        return [], []
-    d = json.load(open(p, encoding="utf-8"))
+    d = letter_json("frus-names", key_of(name)[:1].upper()).get(key_of(name), {})
+    titles = cached("frus-volumes", lambda: json.load(open(os.path.join(store.ROOT, "sources", "frus-names", "volumes.json"),
+                                                         encoding="utf-8")) if os.path.exists(os.path.join(
+                                                         store.ROOT, "sources", "frus-names", "volumes.json")) else {})
     from .executive_sources import frus_label
     sent_, named = [], []
     for vol, v in d.items():
         lab = frus_label(vol)
-        rows = {r["n"]: r for r in v["named"]}
-        for n in v["sent"]:
-            r = rows.get(n, {"title": "", "date": ""})
-            sent_.append((r["date"], f'{fmt(r["date"]) + ". " if r["date"] else ""}{esc(lower_from(r["title"]))}. '
-                                     f'<span class="lvc">{a(f"{HSG}{vol}/d{n}", f"{esc(lab)}, doc. {n}")}</span>'))
-        docs = ", ".join(a(f"{HSG}{vol}/d{r['n']}", esc(r["n"])) for r in v["named"])
+        # one line a heading in a volume: 'Telegram from the Department of State to the Embassy in France.
+        # FRUS 1961–63, XIV, docs. 12 (Feb. 3, 1961), 15 (Feb. 9, 1961)'
+        heads = {}
+        for n, date, title in v["sent"]:
+            heads.setdefault(lower_from(title), []).append((n, date))
+        for title, docs in heads.items():
+            first = min(d for _, d in docs) if any(d for _, d in docs) else ""
+            nums = ", ".join(f'<span class="lvg" data-v="{esc(vol)}" data-n="{esc(n)}">{esc(n)}</span>'
+                             + (f" ({fmt(d)})" if d else "") for n, d in docs)
+            sent_.append((first, f'{esc(title)}. <span class="lvc">{esc(lab)}, {"doc." if len(docs) == 1 else "docs."} '
+                                 f'{nums}</span>'))
+        # the numbers only; the page links each to its document (the script below), to keep the pages light
+        docs = " ".join(esc(n) for n, _ in v["named"])
         k = len(v["named"])
-        named.append((vol, f'<i>{esc(lab)}</i>{": " + esc(v["title"]) if v.get("title") else ""}: '
-                           f'{"doc." if k == 1 else "docs."} {docs}.'))
+        named.append((vol, f'<i>{esc(lab)}</i>{": " + esc(titles.get(vol, "")) if titles.get(vol) else ""}: '
+                           f'{"doc." if k == 1 else "docs."} <span class="lvf" data-v="{esc(vol)}">{docs}</span>.'))
     sent_.sort()
     return [x for _, x in sent_], [x for _, x in sorted(named, key=lambda t: vol_order(t[0]))]
 
@@ -428,31 +524,25 @@ def vol_order(vol):
     return (m.group(1), m.group(2), int(m.group(3))) if m else (vol, "", 0)
 
 
-def ppp_or_app(who, day):
-    """PPP for a President's own papers in his term; APP for the rest (a candidate's, a Vice President's)."""
-    return "PPP" if any(n == who and f <= day < t for n, f, t in PRESIDENTS) else "APP"
-
-
 def app_list(name, sur):
-    p = os.path.join(store.ROOT, "sources", "app-names", key_of(name) + ".json")
-    if not os.path.exists(p):
+    """The presidential documents that name the person (sources/app-names: indexes into sources/app-index.jsonl)."""
+    hits = letter_json("app-names", key_of(name)[:1].upper()).get(key_of(name), [])
+    if not hits:
         return []
-    rows = json.load(open(p, encoding="utf-8"))
+    rows = cached("app-index", lambda: [json.loads(l) for l in open(os.path.join(store.ROOT, "sources", "app-index.jsonl"),
+                                                                    encoding="utf-8")])
     keep = []
-    for r in rows:
-        # a hit only on the given name must name this person, not a namesake ('Hubert R. Harmon')
-        if all(q.strip('"').count(" ") == 0 for q in r["q"]):
-            if all(re.search(r"\b" + r["q"][0].strip('"') + r"\s+(?!" + sur + r"|H\.|Horatio)[A-Z]", s_) for s_ in r["snip"]):
-                continue
+    for i in hits:
+        r = rows[i]
         d = datetime.datetime.strptime(r["date"], "%b %d, %Y").date().isoformat()
         keep.append((d, r))
     keep.sort(key=lambda t: t[0])
     by_year = {}
     for d, r in keep:
-        lab = ppp_or_app(r["who"], d)
+        president = any(n == r["who"] and f <= d < t for n, f, t in PRESIDENTS)
         by_year.setdefault(d[:4], []).append(
-            f'{fmt(d)[:-6]}. {esc(r["title"].rstrip("."))}' + (f' ({esc(r["who"])})' if lab == "APP" else "")
-            + f'. <span class="lvc">{a(r["url"], lab)}</span>')
+            f'{fmt(d)[:-6]}. {esc(r["title"].rstrip("."))}' + ("" if president else f' ({esc(r["who"])})')
+            + f'. <span class="lvc">{a(r["url"], "APP")}</span>')
     return [f'<b>{y}</b><br>' + "<br>".join(v) for y, v in by_year.items()]
 
 
@@ -471,30 +561,44 @@ def entry(series, linker, ptrs, name):
         head = re.split(r";\s+", e["text"])[0]
         desc = head.split("), ", 1)[-1] if "), " in head else head.split(", ", 2)[-1]
         out.append(f'<p class="lvd">{esc(desc[0].upper() + desc[1:])}. <span class="lvc">{bd_cite(e)}.</span></p>')
+    else:
+        roles = [(l, s_, x) for k in ptrs.keys(name)[0] for l, s_, x in linker.people.get(k, [])
+                 if (s_.code or "").startswith("III") and x.get("r")]
+        if roles:
+            l, s_, x = roles[0]
+            out.append(f'<p class="lvd">{to_html(x["r"])}. <span class="lvq">'
+                       f'{ptr(f"{SITE}{l.key}.html#{x["id"]}", f"{esc(l.abbr)} {esc(s_.code)}")}</span></p>')
     pts = ptrs.lines(name, lambda k, i: f"{SITE}{k}.html#{i}")
     if pts:
         pts = [re.sub(r'<a href=', '<a class="lvp" href=', p) for p in pts]
         out.append('<p class="lvs">In the series: ' + "; ".join(pts) + ".</p>")
     out.append("<h3>Life</h3>" + life_html(life))
 
-    def section(title, items, empty="None in the series.", cls="lvb"):
-        out.append(f"<h3>{title}</h3>")
-        out.append(f'<ul class="{cls}">' + "".join(f"<li>{x}</li>" for x in items) + "</ul>" if items
-                   else f'<p class="lvn">{empty}</p>')
+    def section(title, items, empty="None in the series.", cls="lvb", fold=None):
+        if not items:                    # an empty section is left out
+            return
+        body = f'<ul class="{cls}">' + "".join(f"<li>{x}</li>" for x in items) + "</ul>"
+        if fold:                         # the long lists closed until opened
+            out.append(f'<details class="lvz"><summary><h3>{title}</h3> <span class="lvc">{fold}</span></summary>{body}</details>')
+        else:
+            out.append(f"<h3>{title}</h3>" + body)
     kinds = lambda k: [w for w in works if w[0] == k]
     g_own, g_prim, g_about = grouped(kinds("own")), grouped(kinds("primary")), grouped(kinds("about"))
     every = g_own + g_prim + g_about
     bown, babout = bd_bib(e, sur, every)
     n1, n2 = len(g_own), len(g_own) + len(g_prim)
     g_own, g_prim, g_about = every[:n1], every[n1:n2], every[n2:]
-    pron = "him"
     section("Publications", g_own + bown)
-    section("FRUS documents sent", sent_, "None found.")
+    ns = sum(x.count('class="lvg"') for x in sent_)
+    section("FRUS documents sent", sent_, "None found.", fold=f"{ns:,}" if len(sent_) > 20 else None)
     section("Oral histories given, papers, and other primary sources", g_prim)
     section("Secondary sources", g_about + babout)
-    section(f"FRUS documents that name {pron}", named, "None found.", "lvb lvf")
-    section(f"Oral histories that name {pron}", [], "None in the series.")
-    section(f"The Public Papers and other presidential documents that name {pron}", ppp, "None found.", "lvb lvf lvy")
+    nf = sum(x.count(" ") + 1 for x in re.findall(r'class="lvf" data-v="[^"]*">([^<]*)<', "".join(named)))
+    section(f"FRUS documents that name {esc(sur)}", named, "None found.", "lvb lvf",
+            fold=f"{nf:,} in {len(named)} {'volume' if len(named) == 1 else 'volumes'}")
+    section(f"Oral histories that name {esc(sur)}", [], "None in the series.")
+    na = sum(x.count("<br>") for x in ppp)
+    section(f"Presidential documents that name {esc(sur)}", ppp, "None found.", "lvb lvf lvy", fold=f"{na:,}")
     out.append("</section>")
     return "\n".join(out)
 
@@ -519,29 +623,101 @@ ul.lvf{font-size:.84rem}
 ul.lvy{list-style:none;padding-left:0}
 ul.lvy li{margin:.6rem 0}
 .lvn{font-size:.85rem;color:var(--muted)}
-</style>"""
+details.lvz>summary{cursor:pointer;list-style:none}
+details.lvz>summary h3{display:inline}
+details.lvz>summary::before{content:"▸ ";color:var(--muted)}
+details.lvz[open]>summary::before{content:"▾ "}
+</style>
+<script>
+/* the FRUS document numbers, linked when their list is first opened */
+function lvLink(d) {
+  if (d.dataset.done) return;
+  d.dataset.done = 1;
+  d.querySelectorAll("span.lvg").forEach(function (s) {
+    s.innerHTML = '<a href="https://history.state.gov/historicaldocuments/' + s.getAttribute("data-v") + '/d' +
+      s.getAttribute("data-n") + '">' + s.innerHTML + '</a>';
+  });
+  d.querySelectorAll("span.lvf").forEach(function (s) {
+    var v = s.getAttribute("data-v");
+    s.innerHTML = s.textContent.trim().split(/\\s+/).map(function (n) {
+      return '<a href="https://history.state.gov/historicaldocuments/' + v + '/d' + n + '">' + n + '</a>';
+    }).join(", ");
+  });
+}
+document.addEventListener("toggle", function (ev) {
+  var d = ev.target;
+  if (d.open && d.classList && d.classList.contains("lvz")) lvLink(d);
+}, true);
+/* the short lists, never folded, linked at once */
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll(".lv ul.lvb").forEach(function (u) {
+    if (!u.closest("details.lvz")) lvLink(u);
+  });
+});
+</script>"""
+
+
+INTRO = ['<p class="lede">A name entry for each person in the series, the Executive roster, and the Congresses at '
+         "their openings: the life, each fact with its source; then the person's publications and papers, the FRUS "
+         "documents the person sent, the works on the person, and the FRUS and presidential documents that name the "
+         "person.</p>",
+         '<p class="logic">Sources: BD, the ' + to_html(BD_CITE) + ", by page; CDir., the *Congressional "
+         "Directory*; CR, the *Congressional Record*; FR, the *Federal Register*; DSB, the *Department of State "
+         "Bulletin*; GOM, the *Government Organization Manual*; Clerk, Election Statistics, the Clerk of the House's "
+         "*Statistics of the Presidential and Congressional Election* of that year, by page; FRUS, by subseries, "
+         "volume, and document; APP, the American Presidency Project (the Public Papers and the campaign "
+         'documents). Pointers into the series (<a class="lvp" href="#">in this type</a>): Exec., the Executive '
+         "Branch at the term named; Cong., a Congress at its opening; Election, the election's block; Cal., the "
+         "calendar.</p>"]
+
+
+def letter_of(p):
+    return (store.fold(p["sur"])[:1] or "x").lower()
 
 
 def page(series, linker, template, names):
+    """One page for the persons named ('Humphrey, Hubert H.')."""
     from .congress import Pointers
     ptrs = Pointers(series, linker)
-    main = ["<h1>Lives</h1>",
-            '<p class="lede">A name entry for each person: the life, each fact with its source; then the person\'s '
-            "publications and papers, the FRUS documents the person sent, the works on the person, and the FRUS and "
-            "presidential documents that name the person.</p>",
-            '<p class="logic">Sources: BD, the ' + to_html(BD_CITE) + ", by page; CDir., the *Congressional "
-            "Directory*; CR, the *Congressional Record*; FR, the *Federal Register*; DSB, the *Department of State "
-            "Bulletin*; GOM, the *Government Organization Manual*; Clerk, Election Statistics, the Clerk of the House's "
-            "*Statistics of the Presidential and Congressional Election* of that year, by page; FRUS, by subseries, "
-            "volume, and document; PPP, the *Public Papers of the Presidents* (a President's own papers in his term, "
-            "from the American Presidency Project's copy); APP, the Project's other documents. Pointers into the series "
-            '(<a class="lvp" href="#">in this type</a>): Exec. Roster, the Executive Branch at the term named; Roster, '
-            "a Congress at its opening; Election, the election's block; Cal., the calendar.</p>"]
-    for n in names:
-        main.append(entry(series, linker, ptrs, n))
+    main = ["<h1>Lives</h1>"] + INTRO + [entry(series, linker, ptrs, n) for n in names]
+    return wrap(template, "Lives", main)
+
+
+def wrap(template, title, main):
     pg = open(template, encoding="utf-8").read()
-    pg = pg.replace("{{page_title}}", "Lives").replace("{{main}}", "\n".join(main))
+    pg = pg.replace("{{page_title}}", title).replace("{{main}}", "\n".join(main))
     return pg.replace("</body>", CSS + "\n</body>", 1)
+
+
+def pages(series, linker, template):
+    """{file name: html}: lives.html, the index of names by letter; lives-a.html ... lives-z.html, the entries."""
+    from .congress import Pointers
+    global SITE
+    ptrs = Pointers(series, linker)
+    everyone = people(series)
+    by_letter = {}
+    for p in everyone:
+        by_letter.setdefault(letter_of(p), []).append(p)
+    out = {}
+    index = ["<h1>Lives</h1>"] + INTRO + [f'<p class="logic">{len(everyone):,} persons.</p>']
+    nav = " ".join(f'<a class="lvp" href="lives-{L}.html">{L.upper()}</a>' for L in sorted(by_letter))
+    index.append(f'<p class="lvs">{nav}</p>')
+    for L in sorted(by_letter):
+        ps = by_letter[L]
+        index.append(f'<h2 id="{L}" data-short="{L.upper()}">{L.upper()}</h2><p class="lvx">' + "; ".join(
+            f'<a href="lives-{L}.html#{key_of(p["name"])}">{esc(p["name"])}</a>' for p in ps) + ".</p>")
+        main = [f"<h1>Lives: {L.upper()}</h1>", f'<p class="lvs">{nav} · <a class="lvp" href="lives.html">Index</a></p>']
+        for p in ps:
+            try:
+                main.append(entry(series, linker, ptrs, p["name"]))
+            except Exception as ex:          # one entry's fault names the person and does not stop the page
+                import traceback
+                print(f"lives: {p['name']}: {ex!r}", traceback.format_exc().splitlines()[-3], file=sys.stderr)
+        out[f"lives-{L}.html"] = wrap(template, f"Lives: {L.upper()}", main)
+    out["lives.html"] = wrap(template, "Lives", index)
+    return out
+
+
 PRIMARY = re.compile(r"Recording|Archive|Document|Record|Paper|Oral|Speech|Tape|Interview|Film|Screen")
 
 
@@ -559,17 +735,29 @@ def series_works(series, linker, ptrs, name):
                 hits.append((l, s, e, True))
     q = [store.fold(x) for x in ([f"{given.split()[0]} {sur}", f"{sur}, {given.split()[0]}", f"{given} {sur}"]
                                  if given else [sur])]
-    for l in series.lists.values():
-        if l.kind == "calendar":
-            continue
-        for s, e in l.entries():
-            if e["id"] in seen or (s.code or "").startswith("III"):
+    def make():
+        """Every entry outside Part III and the calendar, with its folded text, indexed by its words."""
+        idx = {}
+        for l in series.lists.values():
+            if l.kind == "calendar":
                 continue
-            txt = store.fold(plain(" ".join(store.as_list(e.get("c"))) + " " + (e.get("n") or "") + " " + (e.get("s") or "")))
+            for s, e in l.entries():
+                if (s.code or "").startswith("III"):
+                    continue
+                txt = store.fold(plain(" ".join(store.as_list(e.get("c"))) + " " + (e.get("n") or "") + " " + (e.get("s") or "")))
+                row = (l, s, e, txt, " ".join(x.title for x in chain(s)))
+                for w in set(re.findall(r"[a-z]+", txt)):
+                    idx.setdefault(w, []).append(row)
+        return idx
+    words = re.findall(r"[a-z]+", store.fold(sur))
+    for l, s, e, txt, sec in cached("works", make).get(words[-1] if words else "", []):
+        if True:
+            if e["id"] in seen:
+                continue
             if any(x in txt for x in q):
                 seen.add(e["id"])
                 hits.append((l, s, e, False))
-            elif PRIMARY.search(" ".join(x.title for x in chain(s))) and \
+            elif PRIMARY.search(sec) and \
                     re.search(r"\b" + re.escape(store.fold(sur)) + r"(?:s| papers)\b", txt):
                 seen.add(e["id"])        # an archive holding the person's papers ('Humphrey's papers')
                 hits.append((l, s, e, "papers"))
@@ -621,3 +809,42 @@ def grouped(items):
     return [f'{by[k][0]}.{by[k][1]} <span class="lvc">{"; ".join(dict.fromkeys(by[k][2]))}</span>' for k in order]
 
 
+
+
+# ---------------------------------------------------------------- who has an entry
+
+def people(series):
+    """Everyone with an entry: the persons of Part III, the Executive roster's holders, and the members of Congress at
+    each opening, one a person. Two names are one person where the surnames agree and the given names are
+    compatible ('Hubert H.' and 'Hubert H., Jr.'; not 'Hubert' and 'Harold'). The name shown: Part III's form, else
+    the roster's, else the Congress roster's."""
+    from . import executive as X
+    cands = []                           # (name, source rank)
+    for l in series.lists.values():
+        for s, e in l.entries():
+            if (s.code or "").startswith("III") and e.get("s") and "," in e["s"]:
+                cands.append((re.sub(r"\s*\(.*?\)\s*$", "", e["s"]).strip(), 0))
+    for u in X.load().values():
+        for o in u.get("offices") or []:
+            for h in o.get("holders") or []:
+                cands.append((h["name"], 1))
+    for f in sorted(os.listdir(os.path.join(store.ROOT, "congress"))):
+        if re.match(r"\d\d\.yaml$", f):
+            d = store.load_yaml(os.path.join(store.ROOT, "congress", f)) or {}
+            for r in (d.get("house") or []) + (d.get("senate") or []):
+                if r.get("name"):
+                    cands.append((r["name"], 2))
+    by_sur, out = {}, []
+    for name, rank in sorted(cands, key=lambda c: c[1]):
+        sur, given = split_name(name)
+        if not given:
+            continue
+        group = by_sur.setdefault(store.fold(sur), [])
+        hit = next((p for p in group if same_person(sur, given, p["sur"], p["given"])), None)
+        if hit:
+            hit["names"].add(name)
+            continue
+        p = {"name": name, "sur": sur, "given": given, "names": {name}}
+        group.append(p)
+        out.append(p)
+    return sorted(out, key=lambda p: (store.fold(p["sur"]), store.fold(p["given"])))

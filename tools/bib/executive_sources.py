@@ -23,8 +23,8 @@ The lookups (Senate days, Index volumes, POCOM ids, FRUS volumes) are in sources
 tools/executive/make_source_links.py; the build needs no network.
 
 Labels: CDir. (the Congressional Directory), CR (the Congressional Record), FR (the Federal Register), DSB (the
-Department of State Bulletin), GOM (the Government Organization Manual), PPP (the Public Papers, from the APP's
-copy), FRUS by subseries, volume and doc.
+Department of State Bulletin), GOM (the Government Organization Manual), APP (the American Presidency Project), FRUS by
+subseries, volume and doc.
 
 STYLE:
  1. One line, "Sources:", muted and small, after the holder's date line and note. Sources in the order written;
@@ -256,7 +256,7 @@ def app_html(s, h):
     q = {"field-keywords": sur, "items_per_page": 100}
     if day:
         q.update({"from[date]": day, "to[date]": day})
-    label = "PPP" + (s[3:] if s.startswith("APP:") else (f", {fmt_day(f'{day[6:]}-{day[:2]}-{day[3:5]}')}" if day else ""))
+    label = "APP" + (s[3:] if s.startswith("APP:") else (f", {fmt_day(f'{day[6:]}-{day[:2]}-{day[3:5]}')}" if day else ""))
     return a("https://www.presidency.ucsb.edu/advanced-search?" + urlencode(q), esc(label))
 
 
@@ -281,7 +281,7 @@ def url_html(u):
         return a(u, "archive.org: " + esc(m.group(1)))
     if host == "presidency.ucsb.edu":
         slug = u.rstrip("/").rsplit("/", 1)[-1].replace("-", " ")
-        return a(u, "PPP: " + esc(slug[:60] + ("…" if len(slug) > 60 else "")))
+        return a(u, "APP: " + esc(slug[:60] + ("…" if len(slug) > 60 else "")))
     return a(u, esc(host))
 
 
@@ -426,7 +426,7 @@ KINDS = [
              "which give each person's offices and dates; documents, by volume and number."),
     ("Wikipedia", "Wikipedia: the articles on persons and offices, and the lists of officeholders; leads, where "
                   "no official source was at hand."),
-    ("PPP", "*Public Papers of the Presidents*, as the American Presidency Project (presidency.ucsb.edu, Gerhard Peters and John T. Woolley) gives them: "
+    ("APP", "Gerhard Peters and John T. Woolley, *The American Presidency Project* (presidency.ucsb.edu): "
             "nominations, appointments, resignations, and orders, by date."),
     ("FR", "*Federal Register* (govinfo): executive orders and designations, by issue."),
 ]
@@ -468,7 +468,7 @@ def kind(s):
     """The kind a source belongs to, for the counts: a KINDS label or a register entry's match."""
     for pre, k in (("CDIR", "CDir."), ("Congressional Directory", "CDir."), ("Cong. Rec", "CR"),
                    ("CR,", "CR"), ("POCOM", "POCOM"), ("FRUS", "FRUS"), ("Wikipedia", "Wikipedia"),
-                   ("APP", "PPP"), ("https://www.presidency.ucsb.edu", "PPP"), ("https://history.state.gov", "FRUS"),
+                   ("APP", "APP"), ("https://www.presidency.ucsb.edu", "APP"), ("https://history.state.gov", "FRUS"),
                    ("Federal Register", "FR")):
         if s.startswith(pre):
             return k

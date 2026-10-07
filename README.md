@@ -20,6 +20,7 @@ https://impending2223.github.io/bib/ on every push to `main`
 | Vietnam and the American war, 1945–75 (Viet.) | https://impending2223.github.io/bib/vn.html |
 | Each Congress at its opening, 87th–93rd: party bars, House and Senate maps, every member | https://impending2223.github.io/bib/congress.html |
 | The Executive Branch at each inauguration, 1953–74: every office, the law that governs it, every holder | https://impending2223.github.io/bib/executive.html |
+| Lives: a name entry for each person, the life with its sources, the person's papers and works, and the FRUS and presidential documents that name the person | https://impending2223.github.io/bib/lives.html |
 
 The claude.ai artifacts named in `series.yaml` are copies as of Oct. 1, 2026,
 before the style revision. They are no longer updated.
