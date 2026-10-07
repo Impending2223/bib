@@ -760,7 +760,7 @@ def record_html(rows, rosters):
         if (c, ch) in used:
             continue
         where = f"Senate, {BLUEBOOK.get(st, st)}" if ch == "s" else f"{BLUEBOOK.get(st, st)}-{seat or 'AL'}"
-        out.append((c, day, p, "", where, "", "<i>Continuing</i>", ""))
+        out.append((c, day, p, "", where, "", "Continuing", ""))
     if not out:
         return ""
     out.sort(key=lambda x: (x[1][:4], x[0]))
@@ -1018,13 +1018,12 @@ def entry(series, linker, ptrs, p):
     ns = sum(x.count('class="lvg"') for x in sent_)
     section("FRUS documents sent", sent_, "None found.", fold=f"{ns:,}" if len(sent_) > 20 else None)
     section("Oral histories given, papers, and other primary sources", g_prim)
-    section("Secondary sources", g_about + babout)
     nf = sum(x.count(" ") + 1 for x in re.findall(r'class="lvf" data-v="[^"]*">([^<]*)<', "".join(named)))
-    section(f"FRUS documents that name {esc(sur)}", named, "None found.", "lvb lvf",
+    section("FRUS documents that name", named, "None found.", "lvb lvf",
             fold=f"{nf:,} in {len(named)} {'volume' if len(named) == 1 else 'volumes'}")
-    section(f"Oral histories that name {esc(sur)}", [], "None in the series.")
     na = sum(x.count("<br>") for x in ppp)
-    section(f"Presidential documents that name {esc(sur)}", ppp, "None found.", "lvb lvf lvy", fold=f"{na:,}")
+    section("Presidential documents that name", ppp, "None found.", "lvb lvf lvy", fold=f"{na:,}")
+    section("Secondary sources", by_year(g_about + babout))
     out.append("</section>")
     return "\n".join(out)
 
@@ -1107,8 +1106,9 @@ INTRO = ['<p class="lede">A name entry for each person in the series, the Execut
          "Bulletin*; GOM, the *Government Organization Manual*; Clerk, Election Statistics, the Clerk of the House's "
          "*Statistics of the Presidential and Congressional Election* of that year, by page; FRUS, by subseries, "
          "volume, and document; APP, the American Presidency Project (the Public Papers and the campaign "
-         'documents). Pointers into the series (<a class="lvp" href="#">in this type</a>): Exec., the Executive '
-         "Branch at the term named; Cong., a Congress at its opening; Election, the election's block; Cal., the "
+         'documents). Pointers into the series: <span class="lvp">Exec.</span>, the Executive '
+         'Branch at the term named; <span class="lvp">Cong.</span>, a Congress at its opening; '
+         '<span class="lvp">Election</span>, the election\'s block; <span class="lvp">Cal.</span>, the '
          "calendar.</p>"]
 INTRO = [re.sub(r"\*([^*]+)\*", r"<i>\1</i>", x) for x in INTRO]      # the series' *Title* as italics
 
@@ -1210,11 +1210,17 @@ def series_works(series, linker, ptrs, name, subs=None, strict=False):
             out.append(("primary", esc(e.get("s") or ""), f" {to_html(e['n'])}" if e.get("n") else "", ptr_html))
             continue
         cs = store.as_list(e.get("c"))
+        prev = None                      # the author a title-first line continues ('*Flawed Giant*' after Dallek)
         for i, c in enumerate(cs):
-            mine = is_own(c, e, sur, subject and len(cs) == 1)
-            if not mine and not any(x in fold(plain(c)) for x in q) and not (subject and len(cs) == 1):
+            author = author_of(c)
+            if author is None and i:
+                author = prev
+            prev = author if author is not None else prev
+            kind = work_kind(c, author, sur, bool(subject), sec, given)
+            if kind != "own" and not any(x in fold(plain(c)) for x in q) and not (subject and kind):
                 continue           # another work in the same entry
-            kind = ("primary" if PRIMARY.search(sec) else "own") if mine else "about"
+            if not kind:
+                continue
             note = f" {to_html(e['n'])}" if e.get("n") and len(cs) == 1 else ""
             out.append((kind, to_html(c), note, ptr_html))
     return out
@@ -1226,12 +1232,53 @@ def chain(s):
         s = s.parent
 
 
-def is_own(c, e, sur, subject_only):
-    c = plain(c)
-    author = c.split(", *")[0] if ", *" in c else (c.split(",")[0] if "," in c else "")
-    if subject_only and not re.search(r"[A-Z][a-z]+ [A-Z]", author or ""):
-        return True                     # a subject entry whose citation names no other author: the person's own
-    return bool(author) and fold(sur) in fold(author)
+RECORDS = re.compile(r"\b(Tapes|Recordings?|Papers|Diary|Diaries|Letters|Speeches|Press Conferences|Transcripts?)\b")
+
+
+def author_of(c):
+    """The author a citation names before its title ('Robert Dallek, *Flawed Giant*'), or None where it opens with
+    the title ('*Taking Charge*', '*Flawed Giant*' continuing the line above)."""
+    if c.lstrip().startswith(("*", "'", "\"", "“")):
+        return None
+    # a name, then the title or what it is: 'Robert Dallek, *Flawed Giant*'; 'Lyndon B. Johnson, address to a joint
+    # session (Nov. 27, 1963)'; not 'Speech to Am. Friends of Viet., June 1956, *in* ...'
+    nm = r"[A-Z][\w'’.\-]*(?: (?:[A-Z][\w'’.\-]*|de|van|von|du|la))*(?:,? (?:Jr|Sr)\.|,? I{2,3})?"
+    m = re.match(rf"^({nm}(?: (?:&|and) {nm})*), ", plain(c))
+    return m.group(1) if m and len(m.group(1).split()) <= 8 else None
+
+
+def work_kind(c, author, sur, subject, sec, given=""):
+    """'own', 'primary', 'about', or '' (not about the person). The person's own: a citation he is the author of, or
+    one with no author in his own subject entry. A collection someone else edited ('Beschloss ed.') is not his: his
+    tapes, papers and the like are primary sources; essays and remembrances are about him."""
+    edited = re.search(r"\(([^()]*?) eds?\.,", plain(c)) if c.lstrip().startswith("*") else None
+    if author is not None:
+        if any(is_person(a, sur, given) for a in re.split(r" & | and |, ", author)):
+            return "primary" if PRIMARY.search(sec) or not re.search(r"\*", c) else "own"
+        return "about"
+    if edited and not (fold(sur) in fold(edited.group(1))):
+        return "primary" if RECORDS.search(plain(c)) else "about"
+    if subject:
+        return "primary" if PRIMARY.search(sec) else "own"
+    return "primary" if RECORDS.search(plain(c)) and fold(sur) in fold(plain(c)) else "about"
+
+
+def is_person(a, sur, given):
+    """'Lyndon Baines Johnson' and 'Lyndon B. Johnson' are the person; 'Jacqueline Kennedy' is not John F."""
+    a = a.strip()
+    if not a or fold(last_word(a)) != fold(sur):
+        return False
+    g = a[: a.rfind(last_word(a))].strip()
+    return not g or not given or same_person(sur, given, sur, g) or nick(gtoks(given)[0], (gtoks(g) or [""])[0])
+
+
+def by_year(items):
+    """Citations in the order of publication: the year closing the citation's parenthesis ('(1991)', '(Michael R.
+    Beschloss ed., 1997)'); one without a year last."""
+    def year(x):
+        m = re.search(r"\b(1[5-9]\d\d|20\d\d)(?:[–-]\d*)?\)", re.sub(r"<[^>]+>", "", x))
+        return m.group(1) if m else "9999"
+    return sorted(items, key=year)
 
 
 def grouped(items):
