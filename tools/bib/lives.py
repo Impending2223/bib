@@ -50,8 +50,6 @@ HSG = "https://history.state.gov/historicaldocuments/"
 PRESIDENTS = [("Dwight D. Eisenhower", "1953-01-20", "1961-01-20"), ("John F. Kennedy", "1961-01-20", "1963-11-22"),
               ("Lyndon B. Johnson", "1963-11-22", "1969-01-20"), ("Richard Nixon", "1969-01-20", "1974-08-09"),
               ("Gerald R. Ford", "1974-08-09", "1977-01-20")]
-INITIALS = {"Dwight D. Eisenhower": "DDE", "John F. Kennedy": "JFK", "Lyndon B. Johnson": "LBJ", "Richard Nixon": "RN",
-            "Gerald R. Ford": "GRF"}
 # Clauses of the Directory left out: color, not record
 CUT = re.compile(r"^(known (in|as)|called |nicknamed )", re.I)
 
@@ -921,12 +919,12 @@ def app_list(name, sur):
     is_president = any(me(n) for n, _, _ in PRESIDENTS)
     for d, r in keep:
         sitting = any(n == r["who"] and f <= d < t for n, f, t in PRESIDENTS)
-        # who issued it: in a President's own entry, nothing for his own documents and the initials of the sitting
-        # President for another's (DDE); elsewhere, nothing for the sitting President and the name for anyone else
+        # who issued it: in a President's own entry, nothing for his own documents and the name of the sitting
+        # President for another's; elsewhere, nothing for the sitting President and the name for anyone else
         if me(r["who"]):
             who = ""
         elif is_president and sitting:
-            who = INITIALS[r["who"]]
+            who = esc(r["who"])
         else:
             who = "" if sitting else esc(r["who"])
         # the title, then who and when, as the speeches are cited: 'Address on Mississippi (Sept. 30, 1962), APP.'
