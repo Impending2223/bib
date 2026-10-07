@@ -19,6 +19,7 @@ https://impending2223.github.io/bib/ on every push to `main`
 | Watergate, 1971–74 (Wg.) | https://impending2223.github.io/bib/wg.html |
 | Vietnam and the American war, 1945–75 (Viet.) | https://impending2223.github.io/bib/vn.html |
 | Each Congress at its opening, 87th–93rd: party bars, House and Senate maps, every member | https://impending2223.github.io/bib/congress.html |
+| The Executive Branch at each inauguration, 1953–74: every office, the law that governs it, every holder | https://impending2223.github.io/bib/executive.html |
 
 The claude.ai artifacts named in `series.yaml` are copies as of Oct. 1, 2026,
 before the style revision. They are no longer updated.
@@ -42,6 +43,11 @@ before the style revision. They are no longer updated.
 - `congress/` holds each Congress at its opening, 87th–93rd: the members by
   state and district or class, and the district and state shapes. The build
   draws them on `congress.html`, and in the calendar at each opening it covers.
+- `executive/` holds the Executive Branch, Jan. 20, 1953 to Aug. 31, 1974: each department and agency, its
+  offices in order under the head, the law that creates and governs each (linked to the Statutes at Large
+  and the U.S. Code of the period), and every holder with the dates of nomination, confirmation, commission,
+  taking office, and leaving. The build draws it on `executive.html`, a roster at each inauguration and
+  succession, and in the calendar at the term it covers.
 - `./bib build` regenerates every page, including the compiled reader's links,
   "Elsewhere" lines, and names index. A push to `main` runs `check` and
   `build` and publishes the result; if `check` fails, the site stays as it was.

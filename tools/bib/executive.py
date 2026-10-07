@@ -533,27 +533,33 @@ def block(i, units, ptr, href, rid, here=False):
                     meta.append(f"under the {esc(title_at(sup, a))}")
             laws = [law_html(x) for x in o.get("law") or [] if in_force(x, a, b)]
             onote = f'<span class="cgn">{to_html(o["n"])}</span>' if o.get("n") else ""
-            cells, pts_all = [], []
+            # one row a holder (or vacancy), each with its own pointers; the office cell spans them
+            cells = []
             gaps = [] if o.get("many") else vacancies(o, a, b)
             if not hs and not gaps:
-                cells.append('<span class="exh"><i>No holder recorded.</i></span>')
+                cells.append(('<span class="exh"><i>No holder recorded.</i></span>', []))
             items = [(lo(h["from"]), 1, h) for h in hs] + [(lo(g[0]), 0, g) for g in gaps]
             gap = None
             for _, kind, x in sorted(items, key=lambda t: (t[0], t[1])):
                 if kind == 0:
                     gap = x
-                    cells.append(f'<span class="exh"><b>Vacant</b> <span class="exd">{span(x[0], term_end(x[1]) if x[1] == b else x[1])}.</span></span>')
+                    cells.append((f'<span class="exh"><b>Vacant</b> <span class="exd">{span(x[0], term_end(x[1]) if x[1] == b else x[1])}.</span></span>', []))
                     continue
                 who, line, pts = holder_html(x, a, b, ptr, href, o)
                 inside = x.get("acting") and gap and lo(gap[0]) <= lo(x["from"]) < lo(gap[1])
-                cells.append(f'<span class="exh{" exin" if inside else ""}">{who} {line}</span>')
-                pts_all += [p for p in pts if p not in pts_all]
+                cells.append((f'<span class="exh{" exin" if inside else ""}">{who} {line}</span>', pts))
             rows_total += 1
             held += bool(hs)
             full = laws or onote
-            rows.append(f'<tr id="{rid(i, u["unit"], o["id"])}" class="exo{" exhl" if full else ""}"><td>'
-                        f'<span class="ext">{esc(title_at(o, a))}</span><span class="exm">{" · ".join(meta)}</span></td>'
-                        f'<td>{"".join(cells)}</td><td>{"; ".join(pts_all)}</td></tr>')
+            n = len(cells)
+            for k, (cell, pts) in enumerate(cells):
+                last = k == n - 1
+                cls = "exo" + ("" if last else " exmid") + (" exhl" if full and last else "")
+                head = (f'<td rowspan="{n}" class="exof"><span class="ext">{esc(title_at(o, a))}</span>'
+                        f'<span class="exm">{" · ".join(meta)}</span></td>') if k == 0 else ""
+                pcell = "".join(f'<span class="exp">{p_}</span>' for p_ in pts)
+                rid_ = f' id="{rid(i, u["unit"], o["id"])}"' if k == 0 else ""
+                rows.append(f'<tr{rid_} class="{cls}">{head}<td>{cell}</td><td>{pcell}</td></tr>')
             if full:
                 rows.append('<tr class="exlr"><td colspan="3">' + onote
                             + ('<ul class="exlaw">' + "".join(f"<li>{x}</li>" for x in laws) + "</ul>" if laws else "")
@@ -573,7 +579,7 @@ def block(i, units, ptr, href, rid, here=False):
         parts.append(f'<details class="cgr exu" id="{rid(i, u["unit"], "")}">'
                      f'<summary>{path}{esc(name_at(u, a))}{who}</summary>'
                      + ('<ul class="exlaw exul">' + "".join(f"<li>{x}</li>" for x in ulaw) + "</ul>" if ulaw else "") + unote
-                     + ('<table><colgroup><col class="x1"><col class="x2"><col class="x3"></colgroup>'
+                     + ('<table><colgroup><col class="exc1"><col class="exc2"><col class="exc3"></colgroup>'
                         '<thead><tr><th>Office</th><th>Holders during the term</th><th>In the series</th></tr></thead>'
                         f'<tbody>{"".join(rows)}</tbody></table>' if rows else "") + '</details>')
     out = [f'<div class="cg ex" data-term="{a}">',
@@ -593,9 +599,14 @@ CSS = """<style>
 /* The Executive Branch roster (tools/bib/executive.py). The shared block and table rules: templates/roster.css. */
 .ex .exsec{font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:1rem 0 .2rem}
 details.exu table{font-size:.82rem;margin:.2rem 0 .8rem}
-details.exu col.x1{width:30%}details.exu col.x2{width:auto}details.exu col.x3{width:17%}
+details.exu col.exc1{width:28%}details.exu col.exc2{width:auto}details.exu col.exc3{width:19%}
 details.exu td:nth-child(3){font-size:.76rem;overflow-wrap:anywhere}
 details.exu tr.exhl td{border-bottom:0}
+details.exu tr.exmid td:not(.exof){border-bottom:0;padding-bottom:0}
+details.exu td.exof{border-bottom:1px solid var(--rule)}
+details.exu tr.exhl td.exof{border-bottom:0}
+.ex .exp{display:block;margin-bottom:.15rem}
+.ex .exp a{white-space:nowrap}
 details.exu tr.exlr td{padding-top:0}
 .ex .ext{font-weight:600}
 .ex .exm{display:block;font-size:.72rem;color:var(--muted)}
