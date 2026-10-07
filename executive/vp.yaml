@@ -53,10 +53,11 @@ offices:
         does: Compensation $35,000.
       - act: Federal Executive Salary Act of 1964
         date: '1964-08-14'
+        effective: '1964-07'
         tags: [pay]
         cite: 'Pub. L. 88-426, § 304(a), 78 Stat. 400, 422'
         usc: '3 U.S.C. § 104 (1964)'
-        does: Compensation $43,000. Check the effective date.
+        does: Compensation $43,000, from the first pay period beginning on or after July 1, 1964 (§ 501(a)).
     holders:
       - name: Barkley, Alben W.
         from: '1949-01-20'
@@ -86,7 +87,7 @@ offices:
     title: 'Military Aide to the Vice President'
     rank: military
     appt: MIL
-    n: 'An officer detailed to the Vice President''s staff.'
+    n: 'An officer detailed by his service to the Vice President''s staff. No statute or published order for the post or the detail found, 1953–74; details to "the Office of the Vice President" first authorized in 1978 (Pub. L. 95-570, § 3; 3 U.S.C. § 112).'
     holders:
       - name: 'Burris, Howard L.'
         rank: 'Col., USAF'
@@ -94,12 +95,87 @@ offices:
         to: '1963'
         n: 'Military aide to Vice President Johnson (FRUS); memoranda to the Vice President, Jan. 31–Dec. 4, 1962, in the daybook. Check both dates.'
         src: ['FRUS persons list, 1961–63, II', 'FRUS 1961–63, XXI, doc. 243']
+      - name: 'Dunn, John M.'
+        rank: 'Brig. Gen., USA'
+        title: 'Military Assistant to the Vice President; from 1973, Senior Military Aide'
+        from: '1971'
+        to: '1974'
+        n: 'Listed in CDIR, Mar. 1971 to Mar. 1973, as Military Assistant; Dec. 1973, Maj. Gen., Senior Military Aide, under Ford. Check both dates.'
+        src: ['CDIR 1971-03', 'CDIR 1971-12', 'CDIR 1973-03', 'CDIR 1973-12']
   - id: staff
     title: 'Assistants to the Vice President'
     rank: employee
-    appt: HD
+    appt: VP
     many: true
-    n: 'The Vice President''s staff as the Congressional Directory lists it. Those named in the series; not a complete list.'
+    n: 'The Vice President''s staff as the Congressional Directory lists it, under the Officers of the Senate. Senate employees, paid by the Secretary of the Senate from the item "Office of the Vice President"; from fiscal 1971 also an Executive Office item, "Special Assistance to the President." No general statute until 1978 (Pub. L. 95-570; 3 U.S.C. § 106). Appointed by the Vice President. Those named in the series; not a complete list.'
+    law:
+      - act: Legislative Branch Appropriation Act, 1942
+        date: '1941-07-01'
+        until: '1967-07-28'
+        tags: [creates, appointment, pay]
+        cite: 'ch. 268, §§ 1, 4, 55 Stat. 446, 465'
+        usc: '2 U.S.C. § 60a (1958)'
+        does: 'In place of the Legislative Pay Act''s secretary, clerk and two assistant clerks (46 Stat. 32), "clerical assistance to the Vice President, at rates of compensation to be fixed by him"; a Senate item. Re-enacted each year through fiscal 1967.'
+      - act: Legislative Branch Appropriation Act, 1954
+        date: '1953-08-01'
+        effective: '1953-07-01'
+        until: '1954-06-30'
+        tags: [pay]
+        cite: 'ch. 304, 67 Stat. 318'
+        does: 'Senate, "Office of the Vice President": "For clerical assistance to the Vice President, at rates of compensation to be fixed by him in multiples of $5 per month, $55,410."'
+      - act: Legislative Branch Appropriation Act, 1962
+        date: '1961-08-10'
+        effective: '1961-07-01'
+        until: '1962-06-30'
+        tags: [pay]
+        cite: 'Pub. L. 87-130, 75 Stat. 320'
+        does: '"For clerical assistance to the Vice President, at rates of compensation to be fixed by him in basic multiples of $5 per month, $120,550."'
+      - act: Legislative Branch Appropriation Act, 1968
+        date: '1967-07-28'
+        effective: '1967-08-01'
+        tags: [appointment, pay]
+        cite: 'Pub. L. 90-57, § 105, 81 Stat. 127, 141'
+        usc: '2 U.S.C. § 61-1 (1970)'
+        does: '"For clerical assistance to the Vice President", without the rate clause. Every employee paid by the Secretary of the Senate at "a single per annum gross rate"; new or changed rates "certified in writing to the disbursing office of the Senate."'
+      - act: Legislative Branch Appropriation Act, 1970
+        date: '1969-12-12'
+        effective: '1969-07-01'
+        until: '1970-06-30'
+        tags: [pay]
+        cite: 'Pub. L. 91-145, 83 Stat. 338, 339'
+        does: '"For clerical assistance to the Vice President, $281,187."'
+      - act: Executive Office Appropriation Act, 1971
+        date: '1970-09-26'
+        effective: '1970-07-01'
+        tags: [creates, pay]
+        cite: 'Pub. L. 91-422, 84 Stat. 872, 876'
+        does: '"Special Assistance to the President": "expenses necessary to enable the Vice President to provide assistance to the President in connection with specially assigned functions", one position at up to Level II, $700,000. The first executive-branch money for his staff; renewed each year.'
+      - act: Federal Pay Comparability Act of 1970
+        date: '1971-01-08'
+        tags: [pay]
+        cite: 'Pub. L. 91-656, § 4, 84 Stat. 1946, 1952'
+        usc: '2 U.S.C. § 60a note (1970 Supp. IV)'
+        does: 'The President pro tempore adjusts the pay of "personnel whose pay is disbursed by the Secretary of the Senate"; his orders authorize "the Vice President, for any employee under his jurisdiction" to raise it.'
+      - act: Executive Office Appropriation Act, 1972
+        date: '1971-07-09'
+        effective: '1971-07-01'
+        tags: [appointment, pay]
+        cite: 'Pub. L. 92-49, 85 Stat. 108, 112'
+        does: 'Special Assistance to the President adds "other personal services without regard to the provisions of law regulating the employment and compensation of persons in the Government service"; $735,000.'
+      - act: Executive Office Appropriation Act, 1974
+        date: '1973-10-30'
+        effective: '1973-07-01'
+        until: '1974-06-30'
+        tags: [pay]
+        cite: 'Pub. L. 93-143, 87 Stat. 510, 515'
+        does: 'Special Assistance to the President, $675,000.'
+      - act: Legislative Branch Appropriation Act, 1974
+        date: '1973-11-01'
+        effective: '1973-07-01'
+        until: '1974-06-30'
+        tags: [pay]
+        cite: 'Pub. L. 93-145, 87 Stat. 527, 528'
+        does: '"For clerical assistance to the Vice President, $430,200."'
     holders:
       - name: 'Sherman, Norman'
         title: 'Assistant to the Vice President; from 1967, Press Assistant'

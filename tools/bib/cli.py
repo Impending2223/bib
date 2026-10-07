@@ -229,6 +229,16 @@ def cmd_executive(series, a):
                         print(f"{h['name']:32} {u['unit']}.{o['id']:34} {h.get('from')}–{h.get('to') or ''}"
                               + (" (acting)" if h.get("acting") else ""))
         return 0
+    if a.action == "sources":
+        from . import executive_sources
+        from collections import Counter
+        un = executive_sources.unlinked(units)
+        for (w, src), n in Counter(un).most_common() if "all" in a.args else []:
+            print(f"{w}: {src}")
+        for src, n in Counter(s for _, s in un).most_common():
+            print(f"{n:5}  {src}")
+        print(f"{len(un)} holder sources not linked")
+        return 0
     if a.action == "names":
         from . import executive_names
         executive_names.report(series, units, a.args)
@@ -447,8 +457,8 @@ def main(argv=None):
     x = sub.add_parser("build", help="write build/<key>.html and build/series.html")
     x.add_argument("which", nargs="?", help="a list key, or 'series'; default all")
     x.add_argument("--force", action="store_true")
-    x = sub.add_parser("executive", help="the Executive Branch roster: check | who NAME | names [cal|part3|daybook]")
-    x.add_argument("action", choices=["check", "who", "names"])
+    x = sub.add_parser("executive", help="the Executive Branch roster: check | who NAME | names [cal|part3|daybook] | sources [all]")
+    x.add_argument("action", choices=["check", "who", "names", "sources"])
     x.add_argument("args", nargs="*")
     x = sub.add_parser("merge", help="apply patch files (see CLAUDE.md for the format)")
     x.add_argument("patches", nargs="+")

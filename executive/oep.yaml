@@ -54,8 +54,9 @@ law:
   - act: Executive Order 10952
     date: '1961-07-20'
     cite: '26 Fed. Reg. 6577'
+    url: https://www.presidency.ucsb.edu/documents/executive-order-10952-assigning-civil-defense-responsibilities-the-secretary-defense-and
     tags: [reorganizes]
-    does: 'Delegates the civil defense functions of the Federal Civil Defense Act to the Secretary of Defense; the Director keeps the coordination of civil and defense mobilization. Check the citation.'
+    does: 'Delegates the civil defense functions of the Federal Civil Defense Act to the Secretary of Defense; the Director keeps the coordination of civil and defense mobilization.'
   - act: Act of Sept. 22, 1961
     date: '1961-09-22'
     cite: 'Pub. L. 87-296, 75 Stat. 630'
@@ -88,19 +89,44 @@ offices:
     until: '1973-07-01'
     n: 'Appointed by the President alone under Executive Order 10193; by and with the advice and consent of the Senate from the plan of 1953. A member of the National Security Council.'
     law:
-      - act: Federal Executive Salary Act of 1964
-        date: '1964-08-14'
-        effective: '1964-07-01'
-        until: '1966-09-06'
-        cite: 'Pub. L. 88-426, § 303(c)(37), 78 Stat. 400, 417'
+      - act: 'Federal Executive Pay Act of 1956'
+        date: '1956-07-31'
+        effective: '1956-07'
+        until: '1958-07-01'
         tags: [pay]
-        does: Director of the Office of Emergency Planning, level III.
-      - act: Act of Sept. 6, 1966 (Title 5 enacted)
+        cite: 'ch. 804, title I, § 103(a)(3), 70 Stat. 736'
+        usc: '5 U.S.C. § 2202 (1958)'
+        does: '$22,500 a year ("Director, Office of Defense Mobilization").'
+      - act: 'Federal Executive Salary Act of 1964'
+        date: '1964-08-14'
+        effective: '1964-07'
+        until: '1966-09-06'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(c)(37), 78 Stat. 400, 417'
+        usc: '5 U.S.C. § 2211(c) (1964)'
+        does: 'Level III, $28,500 a year.'
+      - act: 'Act of Sept. 6, 1966 (Title 5 enacted)'
         date: '1966-09-06'
+        until: '1967-12'
+        tags: [pay]
         cite: 'Pub. L. 89-554, 80 Stat. 378, 461'
         usc: '5 U.S.C. § 5314 (1970)'
+        does: 'Level III continued, $28,500 a year (§ 5314(36)).'
+      - act: 'Federal Salary Act of 1967'
+        date: '1967-12-16'
+        effective: '1967-12'
+        until: '1969-02'
         tags: [pay]
-        does: Director of the Office of Emergency Planning, level III. Check whether raised to level II later in the period.
+        cite: 'Pub. L. 90-206, § 215(a), 81 Stat. 613, 638'
+        usc: '5 U.S.C. § 5314 (1970)'
+        does: 'Level III raised to $29,500 a year.'
+      - act: 'Federal Salary Act of 1967, § 225'
+        date: '1967-12-16'
+        effective: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644'
+        usc: '2 U.S.C. §§ 358–360 (1970)'
+        does: 'Level III, $40,000 a year, on the President''s recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).'
     holders:
       - name: Fowler, Henry H.
         from: '1952-09'
@@ -114,7 +140,7 @@ offices:
         from: '1953-01-20'
         to: '1957-03-14'
         out: Resigned; to the presidency of Ohio Wesleyan University.
-        n: 'Listed as acting Director, Mar. 1953; the office made subject to confirmation by the plan of June 12, 1953. Check the nomination and confirmation. FRUS gives "until February 1957".'
+        n: 'Listed as acting Director, Mar. 1953. Nominated Apr. 6 and confirmed Apr. 9, 1953 (Cong. Rec.), before the plan of June 12, 1953, made the office subject to confirmation. Check: FRUS gives "until February 1957".'
         src: ['Wikipedia: Arthur Flemming', CDIR 1953-03, FRUS persons list, Cong. Rec.]
       - name: Gray, Gordon
         nominated: '1957-02-07'
@@ -140,24 +166,29 @@ offices:
         src: ['Wikipedia: Leo Hoegh']
       - name: Ellis, Frank B.
         nominated: '1961-02-24'
+        confirmed: '1961-03-07'
         from: '1961-03-09'
         to: '1962-02-02'
         out: To United States District Judge, Eastern District of Louisiana (recess appointment).
         n: 'Appointment announced Jan. 23, 1961 (APP). Director of the Office of Emergency Planning from Sept. 22, 1961.'
-        src: ['Wikipedia: Frank Burton Ellis', APP, FRUS persons list, Cong. Rec.]
+        src: ['Wikipedia: Frank Burton Ellis', https://www.presidency.ucsb.edu/documents/statement-the-president-concerning-the-appointment-frank-b-ellis-director-office-civil-and, FRUS persons list, Cong. Rec.]
       - name: McDermott, Edward A.
         nominated: '1962-02-02'
+        confirmed: '1962-04-02'
         from: '1962-02-02'
         to: '1965'
         n: 'Deputy Director from 1961. Check the day he left.'
         src: [FRUS persons list, CDIR 1963-03, CDIR 1964-01, Cong. Rec.]
       - name: Ellington, Buford
+        nominated: '1965-02-01'
+        confirmed: '1965-02-19'
         from: '1965-03-04'
         to: '1966-03-23'
         out: Resigned; Governor of Tennessee again, 1967.
-        src: ['Wikipedia: Buford Ellington', CDIR 1965-03, CDIR 1966-01]
+        src: ['Wikipedia: Buford Ellington', CDIR 1965-03, CDIR 1966-01, Cong. Rec.]
       - name: Bryant, Farris
         given: Cecil Farris
+        nominated: '1966-03-14'
         confirmed: '1966-03-22'
         from: '1966-03-23'
         to: '1967-10-09'
@@ -196,19 +227,44 @@ offices:
     until: '1973-07-01'
     n: Acts as Director in his absence or in a vacancy.
     law:
-      - act: Federal Executive Salary Act of 1964
-        date: '1964-08-14'
-        effective: '1964-07-01'
-        until: '1966-09-06'
-        cite: 'Pub. L. 88-426, § 303(d)(32), 78 Stat. 400, 418'
+      - act: 'Federal Executive Pay Act of 1956'
+        date: '1956-07-31'
+        effective: '1956-07'
+        until: '1958-07-01'
         tags: [pay]
-        does: Deputy Director of the Office of Emergency Planning, level IV.
-      - act: Act of Sept. 6, 1966 (Title 5 enacted)
+        cite: 'ch. 804, title I, § 105(27), 70 Stat. 736, 737'
+        usc: '5 U.S.C. § 2204 (1958)'
+        does: '$20,500 a year ("Deputy Director of the Office of Defense Mobilization").'
+      - act: 'Federal Executive Salary Act of 1964'
+        date: '1964-08-14'
+        effective: '1964-07'
+        until: '1966-09-06'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(d)(32), 78 Stat. 400, 418'
+        usc: '5 U.S.C. § 2211(d) (1964)'
+        does: 'Level IV, $27,000 a year.'
+      - act: 'Act of Sept. 6, 1966 (Title 5 enacted)'
         date: '1966-09-06'
+        until: '1967-12'
+        tags: [pay]
         cite: 'Pub. L. 89-554, 80 Stat. 378, 462'
         usc: '5 U.S.C. § 5315 (1970)'
+        does: 'Level IV continued, $27,000 a year (§ 5315(32)).'
+      - act: 'Federal Salary Act of 1967'
+        date: '1967-12-16'
+        effective: '1967-12'
+        until: '1969-02'
         tags: [pay]
-        does: Deputy Director of the Office of Emergency Planning, level IV.
+        cite: 'Pub. L. 90-206, § 215(b), 81 Stat. 613, 638'
+        usc: '5 U.S.C. § 5315 (1970)'
+        does: 'Level IV raised to $28,750 a year.'
+      - act: 'Federal Salary Act of 1967, § 225'
+        date: '1967-12-16'
+        effective: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644'
+        usc: '2 U.S.C. §§ 358–360 (1970)'
+        does: 'Level IV, $38,000 a year, on the President''s recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).'
     holders:
       - name: Cooley, Victor E.
         nominated: '1953-07-28'
@@ -222,11 +278,12 @@ offices:
         n: Acting Director, Jan.–Mar. 1961. Listed in the Congressional Directory, Mar. 1959–Jan. 1960. Check the dates of office.
         src: [CDIR 1959-03, CDIR 1960-01]
       - name: McDermott, Edward A.
+        confirmed: '1961-05-19'
         from: '1961-03'
         to: '1962-02-02'
         out: To Director.
         n: Check the day he took office. Deputy Director of the Office of Civil and Defense Mobilization until Sept. 22, 1961, then of the Office of Emergency Planning (FRUS). A FRUS author, 1961–63. Listed in the Congressional Directory, Jan. 1962. Check the dates of office.
-        src: [CDIR 1962-01, FRUS persons list]
+        src: [CDIR 1962-01, FRUS persons list, Cong. Rec.]
       - name: Chambers, Justice M.
         nominated: '1962-04-09'
         from: '1963'
@@ -235,6 +292,7 @@ offices:
         src: [CDIR 1963-03, CDIR 1964-01, Cong. Rec.]
       - name: Dryden, Franklin B.
         nominated: '1964-07-06'
+        confirmed: '1964-07-31'
         from: '1965'
         to: '1966'
         n: Listed in the Congressional Directory, Mar. 1965–Jan. 1966. Check the dates of office.
@@ -255,8 +313,40 @@ offices:
     title: Assistant Director of Defense Mobilization
     rank: inferior
     appt: HD
+    level: V
     many: true
     until: '1973-07-01'
+    law:
+      - act: 'Federal Executive Salary Act of 1964'
+        date: '1964-08-14'
+        effective: '1964-07'
+        until: '1966-09-06'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(e)(74), 78 Stat. 400, 421'
+        usc: '5 U.S.C. § 2211(e) (1964)'
+        does: 'Level V, $26,000 a year ("Assistant Directors, Office of Emergency Planning (3)").'
+      - act: 'Act of Sept. 6, 1966 (Title 5 enacted)'
+        date: '1966-09-06'
+        until: '1967-12'
+        tags: [pay]
+        cite: 'Pub. L. 89-554, 80 Stat. 378, 465'
+        usc: '5 U.S.C. § 5316 (1970)'
+        does: 'Level V continued, $26,000 a year (§ 5316(74)).'
+      - act: 'Federal Salary Act of 1967'
+        date: '1967-12-16'
+        effective: '1967-12'
+        until: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 215(c), 81 Stat. 613, 638'
+        usc: '5 U.S.C. § 5316 (1970)'
+        does: 'Level V raised to $28,000 a year.'
+      - act: 'Federal Salary Act of 1967, § 225'
+        date: '1967-12-16'
+        effective: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644'
+        usc: '2 U.S.C. §§ 358–360 (1970)'
+        does: 'Level V, $36,000 a year, on the President''s recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).'
     n: 'Under the Office of Defense Mobilization, assistant directors and assistants to the Director by function, named by the Director. From 1958, three Assistant Directors appointed by the President with the advice and consent of the Senate (Reorganization Plan No. 1 of 1958, § 2(d)); at level V from 1964 (Pub. L. 88-426, § 303(e)(74), 78 Stat. 421).'
     holders:
       - name: Trigg, Ralph S.
@@ -504,6 +594,12 @@ offices:
         usc: '50 U.S.C. § 404 note (1952)'
         tags: [powers, reorganizes]
         does: Transfers the functions of the Board to its Chairman; the Board advisory.
+      - act: 'Executive Pay Act of 1949'
+        date: '1949-10-15'
+        effective: '1949-10'
+        tags: [pay]
+        cite: 'ch. 695, § 3, 63 Stat. 880'
+        does: '$17,500 a year.'
     holders:
       - name: Gorrie, Jack
         from: '1952'

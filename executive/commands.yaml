@@ -340,8 +340,9 @@ offices:
       - name: Montague, Robert M.
         rank: Lt. Gen., USA
         from: '1957-01-01'
-        to: '1958-02-01'
-        n: 'Check: who commanded Feb. 1–Apr. 1, 1958 (none in Wikipedia''s list).'
+        to: '1958-02-20'
+        out: Died.
+        n: 'Ill from Jan. 1958; died in command at Balboa (Wikipedia: Robert M. Montague, citing the Southern Command''s list). Check: who acted to Apr. 1, 1958.'
         src: *id004
       - name: Gaither, Ridgely
         rank: Lt. Gen., USA
@@ -1056,12 +1057,15 @@ offices:
           - 'Wikipedia: Thomas J. H. Trapnell'
       - name: O'Daniel, John W.
         rank: Lt. Gen., USA
+        nominated: '1955-01-21'
+        confirmed: '1955-03-14'
         from: 1954-04
         to: 1955-10
         out: Retired Dec. 31, 1955.
         n: 'Took a reduction to major general for the post. Check: day of handing over.'
         src:
           - 'Wikipedia: John W. O''Daniel'
+          - Cong. Rec.
       - name: Williams, Samuel T.
         rank: Lt. Gen., USA
         from: 1955-11
@@ -1141,7 +1145,7 @@ offices:
     under: cincpac
     group: Subordinate unified and other commands
     from: '1962-05-15'
-    n: 'Established May 15, 1962, at Bangkok, as U.S. forces went into Thailand. Later commanders not yet entered: Check.'
+    n: 'Established May 15, 1962, at Bangkok, as U.S. forces went into Thailand. Commanders after Stilwell not yet entered: Check.'
     holders:
       - name: Harkins, Paul D.
         rank: Gen., USA
@@ -1154,9 +1158,16 @@ offices:
         rank: Gen., USA
         from: '1964-06-20'
         to: '1965'
-        n: 'Held with COMUSMACV. Check: when the commands were separated, and the later commanders.'
+        n: 'Held with COMUSMACV. Check: the day the commands were separated.'
         src:
           - Wikipedia
+      - name: Stilwell, Richard G.
+        from: '1965'
+        to: '1967'
+        out: To the 1st Armored Division.
+        n: 'Commander, 1965–67 (Wikipedia: Richard G. Stilwell). Check: dates and rank.'
+        src:
+          - 'Wikipedia: Richard G. Stilwell'
   - id: american-land-forces-lebanon
     title: Commander in Chief, American Land Forces, Lebanon
     rank: military

@@ -144,77 +144,76 @@ offices:
         from: '1953'
         to: '1954'
         n: 'In office Mar. 1, 1953 (CDIR). Check: dates.'
-        src: &id002
-          - CDIR
+        src: [CDIR 1953-03 to 1954-01]
       - name: Gavin, James M.
         rank: Maj. Gen., USA
         from: '1954'
         to: '1955'
         out: To Chief of Research and Development.
         n: 'In office Feb. 14, 1955 (CDIR). Check: dates.'
-        src: *id002
+        src: [CDIR 1955-02]
       - name: Eddleman, Clyde D.
         rank: Lt. Gen., USA
         from: '1956'
         to: '1958'
         out: To Commanding General, Seventh Army.
         n: 'In office Mar. 1, 1957, and Jan. 7, 1958 (CDIR). Check: dates.'
-        src: *id002
+        src: [CDIR 1957-03 to 1958-01]
       - name: Moore, James E.
         rank: Lt. Gen., USA
         from: '1958'
         to: '1960'
         n: 'In office Mar. 1, 1959, and Jan. 6, 1960 (CDIR). Check: dates.'
-        src: *id002
+        src: [CDIR 1959-03 to 1960-01]
       - name: Hamlett, Barksdale
         rank: Lt. Gen., USA
         from: '1960'
         to: '1962-03-31'
         out: To Vice Chief of Staff.
         n: 'In office Apr. 1, 1961, and Jan. 10, 1962 (CDIR). Check: from.'
-        src: *id002
+        src: [CDIR 1961-04 to 1962-01]
       - name: Parker, Theodore W.
         rank: Lt. Gen., USA
         from: 1962-04
         to: '1963'
         n: 'In office Mar. 1, 1963 (CDIR). Check: dates.'
-        src: *id002
+        src: [CDIR 1963-03]
       - name: Johnson, Harold K.
         rank: Lt. Gen., USA
         from: '1963'
         to: 1964-07
         out: To Chief of Staff.
         n: 'In office Jan. 1, 1964 (CDIR). Check: from.'
-        src: *id002
+        src: [CDIR 1964-01]
       - name: Palmer, Bruce, Jr.
         rank: Lt. Gen., USA
         from: 1964-07
         to: '1965'
         n: 'In office Mar. 1, 1965 (CDIR). Check: dates.'
-        src: *id002
+        src: [CDIR 1965-03]
       - name: Mock, Vernon P.
         rank: Lt. Gen., USA
         from: '1965'
         to: '1966'
         n: 'In office Jan. 10, 1966 (CDIR). Check: dates.'
-        src: *id002
+        src: [CDIR 1966-01]
       - name: Lemley, Harry J., Jr.
         rank: Lt. Gen., USA
         from: '1966'
         to: '1969'
         n: 'In office Feb. 28, 1967, Dec. 15, 1967, and Mar. 1, 1969 (CDIR). Check: dates.'
-        src: *id002
+        src: [CDIR 1967-02 to 1969-03]
       - name: Stilwell, Richard G.
         rank: Lt. Gen., USA
         from: '1969'
         to: '1972'
         n: 'In office Dec. 15, 1969, Mar. 10, 1971, and Dec. 3, 1971 (CDIR). Check: dates.'
-        src: *id002
+        src: [CDIR 1969-12 to 1971-12]
       - name: Cowles, Donald H.
         rank: Lt. Gen., USA
         from: '1972'
         n: 'In office Mar. 10 and Dec. 22, 1973 (CDIR). Check: dates.'
-        src: *id002
+        src: [CDIR 1973-03 to 1973-12]
   - id: research-development
     title: Chief of Research and Development
     rank: military
@@ -230,44 +229,43 @@ offices:
         to: 1958-03
         out: Retired.
         n: 'In office Jan. 3, 1956, Mar. 1, 1957, and Jan. 7, 1958 (CDIR). Announced his retirement Jan. 1958. Check: dates.'
-        src: &id003
-          - CDIR
+        src: [CDIR 1956-01 to 1958-01]
       - name: Trudeau, Arthur G.
         rank: Lt. Gen., USA
         from: 1958-04
         to: '1962'
         out: Retired.
         n: 'In office Mar. 1, 1959, through Jan. 10, 1962 (CDIR). Check: dates.'
-        src: *id003
+        src: [CDIR 1959-03 to 1962-01]
       - name: Beach, Dwight E.
         rank: Lt. Gen., USA
         from: '1962'
         to: '1963'
         n: 'In office Mar. 1, 1963 (CDIR). Check: dates.'
-        src: *id003
+        src: [CDIR 1963-03]
       - name: Dick, William W., Jr.
         rank: Lt. Gen., USA
         from: '1963'
         to: '1966'
         n: 'In office Jan. 1, 1964, through Jan. 10, 1966 (CDIR). Check: dates.'
-        src: *id003
+        src: [CDIR 1964-01 to 1966-01]
       - name: Betts, Austin W.
         rank: Lt. Gen., USA
         from: '1966'
         to: '1971'
         n: 'In office Feb. 28, 1967, through Dec. 15, 1969 (CDIR). Check: dates.'
-        src: *id003
+        src: [CDIR 1967-02 to 1969-12]
       - name: Gribble, William C., Jr.
         rank: Lt. Gen., USA
         from: '1971'
         to: '1973'
         n: 'In office Mar. 10, 1971, through Mar. 10, 1973 (CDIR). Check: dates.'
-        src: *id003
+        src: [CDIR 1971-03 to 1973-03]
       - name: Deane, John R., Jr.
         rank: Lt. Gen., USA
         from: '1973'
         n: 'In office Dec. 22, 1973 (CDIR). Check: dates.'
-        src: *id003
+        src: [CDIR 1973-12]
   - id: my-lai-review
     title: Director, Department of the Army Review of the Preliminary Investigations into the My Lai Incident
     rank: military
@@ -460,16 +458,18 @@ offices:
           - 'Wikipedia: Eighth Army (United States)'
       - name: Taylor, Maxwell D.
         rank: Gen., USA
+        nominated: '1953-06-22'
         from: '1953-02-11'
         to: '1955-03-25'
         out: To Commander in Chief, Far East.
-        src: *id006
+        src: ['Wikipedia: Eighth Army (United States)', Cong. Rec.]
       - name: Lemnitzer, Lyman L.
         rank: Gen., USA
+        confirmed: '1955-03-25'
         from: '1955-03-25'
         to: '1955-06-05'
         out: To Commander in Chief, Far East.
-        src: *id006
+        src: ['Wikipedia: Eighth Army (United States)', Cong. Rec.]
       - name: White, Isaac D.
         rank: Gen., USA
         from: '1955-06-25'
@@ -547,22 +547,26 @@ offices:
           - FRUS persons list
       - name: Bolte, Charles L.
         rank: Gen., USA
+        nominated: '1953-07-24'
+        confirmed: '1953-07-30'
         from: '1953-04-01'
         to: '1953-09-29'
         out: To Vice Chief of Staff.
-        src: *id007
+        src: ['Wikipedia: Commanding General, United States Army Europe', FRUS persons list, Cong. Rec.]
       - name: Hoge, William M.
         rank: Gen., USA
+        confirmed: '1954-01-25'
         from: '1953-09-29'
         to: '1955-02-01'
         out: Retired.
-        src: *id007
+        src: ['Wikipedia: Commanding General, United States Army Europe', FRUS persons list, Cong. Rec.]
       - name: McAuliffe, Anthony C.
         rank: Gen., USA
+        nominated: '1955-02-08'
         from: '1955-02-01'
         to: '1956-05-01'
         out: Retired.
-        src: *id007
+        src: ['Wikipedia: Commanding General, United States Army Europe', FRUS persons list, Cong. Rec.]
       - name: Hodes, Henry I.
         rank: Gen., USA
         from: '1956-05-01'

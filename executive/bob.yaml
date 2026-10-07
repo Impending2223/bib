@@ -47,19 +47,43 @@ offices:
     level: II
     n: 'Appointed by the President alone until the act of Mar. 2, 1974, which required the advice and consent of the Senate for the next appointment after Ash.'
     law:
-      - act: Federal Executive Salary Act of 1964
-        date: '1964-08-14'
-        effective: '1964-07-01'
-        until: '1966-09-06'
-        cite: 'Pub. L. 88-426, § 303(b)(11), 78 Stat. 400, 416'
+      - act: 'Executive Pay Act of 1949'
+        date: '1949-10-15'
+        effective: '1949-10'
+        until: '1956-07'
         tags: [pay]
-        does: Level II, $30,000.
-      - act: Act of Sept. 6, 1966 (Title 5 enacted)
+        cite: 'ch. 695, § 3, 63 Stat. 880'
+        does: '$17,500 a year.'
+      - act: 'Federal Executive Pay Act of 1956'
+        date: '1956-07-31'
+        effective: '1956-07'
+        until: '1964-07'
+        tags: [pay]
+        cite: 'ch. 804, title I, § 103(a)(1), 70 Stat. 736'
+        usc: '5 U.S.C. § 2202 (1958)'
+        does: '$22,500 a year.'
+      - act: 'Federal Executive Salary Act of 1964'
+        date: '1964-08-14'
+        effective: '1964-07'
+        until: '1966-09-06'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(b)(11), 78 Stat. 400, 416'
+        usc: '5 U.S.C. § 2211(b) (1964)'
+        does: 'Level II, $30,000 a year.'
+      - act: 'Act of Sept. 6, 1966 (Title 5 enacted)'
         date: '1966-09-06'
+        until: '1969-02'
+        tags: [pay]
         cite: 'Pub. L. 89-554, 80 Stat. 378, 460'
         usc: '5 U.S.C. § 5313 (1970)'
+        does: 'Level II continued, $30,000 a year (§ 5313(11)).'
+      - act: 'Federal Salary Act of 1967, § 225'
+        date: '1967-12-16'
+        effective: '1969-02'
         tags: [pay]
-        does: Director of the Bureau of the Budget (from 1970, of the Office of Management and Budget), level II.
+        cite: 'Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644'
+        usc: '2 U.S.C. §§ 358–360 (1970)'
+        does: 'Level II, $42,500 a year, on the President''s recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).'
       - act: Act of Mar. 2, 1974
         date: '1974-03-02'
         cite: 'Pub. L. 93-250, 88 Stat. 11'
@@ -94,7 +118,7 @@ offices:
         to: '1961-01-21'
         out: Resigned at the change of Administration.
         n: 'Check: FRUS gives Mar. 16, 1958 for taking office. Resignation accepted Jan. 11, 1961 (APP).'
-        src: ['Wikipedia: Maurice Stans', FRUS persons list, APP]
+        src: ['Wikipedia: Maurice Stans', FRUS persons list, https://www.presidency.ucsb.edu/documents/letter-accepting-resignation-maurice-h-stans-director-bureau-the-budget-january-11-1961]
       - name: Bell, David E.
         from: '1961-01-22'
         to: '1962-12-20'
@@ -125,7 +149,7 @@ offices:
         to: '1972-06-11'
         out: To Secretary of the Treasury.
         n: 'Sworn July 2, 1970, at San Clemente, with Weinberger and Weber (APP).'
-        src: ['Wikipedia: George Shultz', APP]
+        src: ['Wikipedia: George Shultz', https://www.presidency.ucsb.edu/documents/remarks-announcing-appointments-the-executive-branch, https://www.presidency.ucsb.edu/documents/remarks-the-swearing-the-secretary-labor-and-the-director-deputy-director-and-associate]
       - name: Weinberger, Caspar W.
         from: '1972-06-12'
         to: '1973-02-01'
@@ -138,26 +162,64 @@ offices:
   - id: deputy-director
     title: Assistant Director of the Bureau of the Budget
     titles:
-      - {title: Deputy Director of the Bureau of the Budget, from: '1953'}
+      - {title: Deputy Director of the Bureau of the Budget, from: '1953-07-31'}
       - {title: Deputy Director of the Office of Management and Budget, from: '1970-07-01'}
     rank: principal
     appt: PA
     level: III
-    n: 'The statutory second officer and acting Director. Styled Deputy Director by 1950 (FRUS, Wikipedia), but listed as Assistant Director in the Directory of Mar. 1953 and as Deputy Director from Jan. 1954. Check the authority for the title.'
+    n: 'The statutory second officer and acting Director (Budget and Accounting Act, 1921, § 207). Retitled Deputy Director by statute, July 31, 1953. Listed as Assistant Director in the Directory of Mar. 1953, as Deputy Director from Jan. 1954.'
     law:
-      - act: Federal Executive Salary Act of 1964
-        date: '1964-08-14'
-        effective: '1964-07-01'
-        until: '1966-09-06'
-        cite: 'Pub. L. 88-426, § 303(c)(35), 78 Stat. 400, 417'
+      - act: Independent Offices Appropriation Act, 1954
+        date: '1953-07-31'
+        cite: 'ch. 302, title I, 67 Stat. 298, 299'
+        usc: '31 U.S.C. § 16 (1958)'
+        tags: [reorganizes]
+        does: The title of the Assistant Director of the Bureau of the Budget changed to Deputy Director.
+      - act: 'Executive Pay Act of 1949'
+        date: '1949-10-15'
+        effective: '1949-10'
+        until: '1956-07'
         tags: [pay]
-        does: Deputy Director of the Bureau of the Budget, level III.
-      - act: Act of Sept. 6, 1966 (Title 5 enacted)
+        cite: 'ch. 695, § 4, 63 Stat. 880'
+        does: '$16,000 a year ("the Assistant Director of the Bureau of the Budget").'
+      - act: 'Federal Executive Pay Act of 1956'
+        date: '1956-07-31'
+        effective: '1956-07'
+        until: '1964-07'
+        tags: [pay]
+        cite: 'ch. 804, title I, § 105(25), 70 Stat. 736, 737'
+        usc: '5 U.S.C. § 2204 (1958)'
+        does: '$20,500 a year.'
+      - act: 'Federal Executive Salary Act of 1964'
+        date: '1964-08-14'
+        effective: '1964-07'
+        until: '1966-09-06'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(c)(35), 78 Stat. 400, 417'
+        usc: '5 U.S.C. § 2211(c) (1964)'
+        does: 'Level III, $28,500 a year.'
+      - act: 'Act of Sept. 6, 1966 (Title 5 enacted)'
         date: '1966-09-06'
+        until: '1967-12'
+        tags: [pay]
         cite: 'Pub. L. 89-554, 80 Stat. 378, 461'
         usc: '5 U.S.C. § 5314 (1970)'
+        does: 'Level III continued, $28,500 a year (§ 5314(35)).'
+      - act: 'Federal Salary Act of 1967'
+        date: '1967-12-16'
+        effective: '1967-12'
+        until: '1969-02'
         tags: [pay]
-        does: Deputy Director, level III.
+        cite: 'Pub. L. 90-206, § 215(a), 81 Stat. 613, 638'
+        usc: '5 U.S.C. § 5314 (1970)'
+        does: 'Level III raised to $29,500 a year.'
+      - act: 'Federal Salary Act of 1967, § 225'
+        date: '1967-12-16'
+        effective: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644'
+        usc: '2 U.S.C. §§ 358–360 (1970)'
+        does: 'Level III, $40,000 a year, on the President''s recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).'
       - act: Act of Mar. 2, 1974
         date: '1974-03-02'
         cite: 'Pub. L. 93-250, 88 Stat. 11'
@@ -216,7 +278,7 @@ offices:
         to: '1972-06-12'
         out: To Director.
         n: 'Sworn July 2, 1970 (APP).'
-        src: [FRUS persons list, APP, CDIR 1971-03]
+        src: [FRUS persons list, https://www.presidency.ucsb.edu/documents/remarks-announcing-appointments-the-executive-branch, https://www.presidency.ucsb.edu/documents/remarks-the-swearing-the-secretary-labor-and-the-director-deputy-director-and-associate, CDIR 1971-03]
       - name: Carlucci, Frank C.
         from: '1972-06-12'
         to: '1973-01'
@@ -234,21 +296,58 @@ offices:
     titles: [{title: Assistant Director of the Office of Management and Budget, from: '1970-07-01'}]
     level: IV
     many: true
-    n: 'Three, by statute from the 1950s (31 U.S.C. §§ 16a, 16c), designated Assistant Directors of the Office by Reorganization Plan No. 2 of 1970; listed in the Directory without portfolio. Check the statutes.'
+    n: 'Two by statute from July 31, 1953 (31 U.S.C. § 16a), in place of two GS-18 positions; a third from Aug. 1, 1956 (§ 16c). Designated Assistant Directors of the Office by Reorganization Plan No. 2 of 1970. Listed in the Directory without portfolio.'
     law:
-      - act: Federal Executive Salary Act of 1964
-        date: '1964-08-14'
-        effective: '1964-07-01'
-        until: '1966-09-06'
-        cite: 'Pub. L. 88-426, § 303(d)(37), 78 Stat. 400, 418'
+      - act: Independent Offices Appropriation Act, 1954
+        date: '1953-07-31'
+        cite: 'ch. 302, title I, 67 Stat. 298, 299'
+        usc: '31 U.S.C. § 16a (1958)'
+        tags: [creates, pay]
+        does: Two positions of Assistant Director authorized, at $15,000, in lieu of two positions in grade GS-18.
+      - act: 'Federal Executive Pay Act of 1956'
+        date: '1956-07-31'
+        effective: '1956-07'
+        until: '1964-07'
         tags: [pay]
-        does: Assistant Directors of the Bureau of the Budget (3), level IV.
-      - act: Act of Sept. 6, 1966 (Title 5 enacted)
+        cite: 'ch. 804, title I, § 106(a)(9), 70 Stat. 736, 737'
+        usc: '5 U.S.C. § 2205 (1958)'
+        does: '$20,000 a year ("Assistant Directors of the Bureau of the Budget (2)").'
+      - act: 'Federal Executive Salary Act of 1964'
+        date: '1964-08-14'
+        effective: '1964-07'
+        until: '1966-09-06'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(d)(37), 78 Stat. 400, 418'
+        usc: '5 U.S.C. § 2211(d) (1964)'
+        does: 'Level IV, $27,000 a year ("Assistant Directors of the Bureau of the Budget (3)").'
+      - act: 'Act of Sept. 6, 1966 (Title 5 enacted)'
         date: '1966-09-06'
+        until: '1967-12'
+        tags: [pay]
         cite: 'Pub. L. 89-554, 80 Stat. 378, 462'
         usc: '5 U.S.C. § 5315 (1970)'
+        does: 'Level IV continued, $27,000 a year (§ 5315(37)).'
+      - act: 'Federal Salary Act of 1967'
+        date: '1967-12-16'
+        effective: '1967-12'
+        until: '1969-02'
         tags: [pay]
-        does: Assistant Directors of the Bureau of the Budget (3), level IV.
+        cite: 'Pub. L. 90-206, § 215(b), 81 Stat. 613, 638'
+        usc: '5 U.S.C. § 5315 (1970)'
+        does: 'Level IV raised to $28,750 a year.'
+      - act: 'Federal Salary Act of 1967, § 225'
+        date: '1967-12-16'
+        effective: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644'
+        usc: '2 U.S.C. §§ 358–360 (1970)'
+        does: 'Level IV, $38,000 a year, on the President''s recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).'
+      - act: Joint resolution of Aug. 1, 1956
+        date: '1956-08-01'
+        cite: 'ch. 838, 70 Stat. 887'
+        usc: '31 U.S.C. § 16c (1958)'
+        tags: [creates]
+        does: One additional position of Assistant Director, at the same pay as the two.
     holders:
       - name: Morrison, Paul L.
         from: '1954'
@@ -397,13 +496,21 @@ offices:
     from: '1970-07-01'
     level: V
     many: true
+    law:
+      - act: 'Federal Salary Act of 1967, § 225'
+        date: '1967-12-16'
+        effective: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644'
+        usc: '2 U.S.C. §§ 358–360 (1970)'
+        does: 'Level V, $36,000 a year, on the President''s recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).'
     n: 'The officers of section 102(c) of Reorganization Plan No. 2 of 1970, appointed by the Director with the approval of the President; four Associate Directors by program area from 1973.'
     holders:
       - name: Weber, Arnold R.
         from: '1970-07-01'
         to: '1971'
         n: Sworn July 2, 1970 (APP). Executive Director, Cost of Living Council, 1971. Listed in the Congressional Directory, Mar. 1971. Check the dates of office.
-        src: [CDIR 1971-03, APP]
+        src: [CDIR 1971-03, https://www.presidency.ucsb.edu/documents/remarks-the-swearing-the-secretary-labor-and-the-director-deputy-director-and-associate]
       - name: Carlucci, Frank C.
         from: '1971'
         to: '1972-06'

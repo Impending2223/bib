@@ -25,13 +25,43 @@ offices:
     appt: PAS
     level: II
     law:
-      - act: Federal Executive Salary Act of 1964
+      - act: 'Executive Pay Act of 1949'
+        date: '1949-10-15'
+        effective: '1949-10'
+        until: '1956-07'
+        tags: [pay]
+        cite: 'ch. 695, § 4, 63 Stat. 880'
+        does: '$16,000 a year.'
+      - act: 'Federal Executive Pay Act of 1956'
+        date: '1956-07-31'
+        effective: '1956-07'
+        until: '1964-07'
+        tags: [pay]
+        cite: 'ch. 804, title I, § 104(a)(2), 70 Stat. 736'
+        usc: '5 U.S.C. § 2203 (1958)'
+        does: '$21,000 a year.'
+      - act: 'Federal Executive Salary Act of 1964'
         date: '1964-08-14'
         effective: '1964-07'
+        until: '1966-09-06'
         tags: [pay]
-        cite: 'Pub. L. 88-426, § 303(b), 78 Stat. 400, 416'
+        cite: 'Pub. L. 88-426, § 303(b)(16), 78 Stat. 400, 416'
+        usc: '5 U.S.C. § 2211(b) (1964)'
+        does: 'Level II, $30,000 a year.'
+      - act: 'Act of Sept. 6, 1966 (Title 5 enacted)'
+        date: '1966-09-06'
+        until: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 89-554, 80 Stat. 378, 460'
         usc: '5 U.S.C. § 5313 (1970)'
-        does: The Director of Central Intelligence in level II of the Federal Executive Salary Schedule.
+        does: 'Level II continued, $30,000 a year (§ 5313(15)).'
+      - act: 'Federal Salary Act of 1967, § 225'
+        date: '1967-12-16'
+        effective: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644'
+        usc: '2 U.S.C. §§ 358–360 (1970)'
+        does: 'Level II, $42,500 a year, on the President''s recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).'
     holders:
       - name: Smith, Walter B.
         given: Walter Bedell
@@ -46,10 +76,11 @@ offices:
         from: '1953-02-09'
         to: '1953-02-26'
         n: Acting as Deputy Director.
-        src: [Wikipedia, Director of Central Intelligence]
+        src: ['Wikipedia: Director of Central Intelligence']
       - name: Dulles, Allen W.
         given: Allen Welsh
         nominated: '1953-02-07'
+        confirmed: '1953-02-23'
         from: '1953-02-26'
         to: '1961-11-29'
         out: Resigned.
@@ -61,19 +92,21 @@ offices:
         from: '1961-11-29'
         to: '1965-04-28'
         out: Resigned.
-        n: 'Appointment announced Sept. 27, 1961; sworn Nov. 29, 1961 (APP). Carter, the Deputy Director, acted in his absence, Aug.–Sept. 1962. Check: a recess appointment, nomination confirmed Jan. 1962.'
-        src: [APP, Wikipedia, Director of Central Intelligence, CDIR 1962-01 to 1965-03, Cong. Rec.]
+        n: 'Appointment announced Sept. 27, 1961; sworn Nov. 29, 1961 (APP), between sessions of the Senate (Sept. 1961–Jan. 10, 1962). Confirmed 71–12 (Cong. Rec.). Carter, the Deputy Director, acted in his absence, Aug.–Sept. 1962. Check: the date of the recess commission. Check: recess appointment, the date of the commission.'
+        src: [https://www.presidency.ucsb.edu/documents/remarks-newport-upon-announcing-the-appointment-john-mccone-director-the-central, https://www.presidency.ucsb.edu/documents/remarks-the-swearing-john-mccone-director-central-intelligence-agency, https://www.presidency.ucsb.edu/documents/remarks-the-swearing-admiral-raborn-and-richard-helms-director-and-deputy-director-cia, 'Wikipedia: Director of Central Intelligence', CDIR 1962-01 to 1965-03, Cong. Rec.]
       - name: Raborn, William F., Jr.
         given: William Francis
         rank: Vice Adm., USN (ret.)
         nominated: '1965-04-21'
+        confirmed: '1965-04-22'
         from: '1965-04-28'
         to: '1966-06-30'
         out: Resigned.
-        src: [Wikipedia, Director of Central Intelligence, CDIR 1966-01, Cong. Rec. Index 1965]
+        src: [Wikipedia, Director of Central Intelligence, CDIR 1966-01, Cong. Rec. Index 1965, Cong. Rec.]
       - name: Helms, Richard
         given: Richard McGarrah
         nominated: '1966-06-20'
+        confirmed: '1966-06-28'
         from: '1966-06-30'
         to: '1973-02-02'
         out: Removed by the President; to Ambassador to Iran.
@@ -114,20 +147,58 @@ offices:
         cite: 'ch. 16, 67 Stat. 19'
         usc: '50 U.S.C. § 403(a) (1958)'
         does: A Deputy Director of Central Intelligence, to act for and exercise the powers of the Director in his absence or disability; Director and Deputy appointed by the President with the advice and consent of the Senate, from the commissioned officers of the armed services or from civilian life, but not both from the officers at once.
-      - act: Federal Executive Salary Act of 1964
+      - act: 'Executive Pay Act of 1949'
+        date: '1949-10-15'
+        effective: '1949-10'
+        until: '1956-07'
+        tags: [pay]
+        cite: 'ch. 695, § 6(a), 63 Stat. 880, 881'
+        does: '$14,000 a year.'
+      - act: 'Federal Executive Pay Act of 1956'
+        date: '1956-07-31'
+        effective: '1956-07'
+        until: '1964-07'
+        tags: [pay]
+        cite: 'ch. 804, title I, § 105(26), 70 Stat. 736, 737'
+        usc: '5 U.S.C. § 2204 (1958)'
+        does: '$20,500 a year.'
+      - act: 'Federal Executive Salary Act of 1964'
         date: '1964-08-14'
         effective: '1964-07'
+        until: '1966-09-06'
         tags: [pay]
-        cite: 'Pub. L. 88-426, § 303(c), 78 Stat. 400, 417'
+        cite: 'Pub. L. 88-426, § 303(c)(36), 78 Stat. 400, 417'
+        usc: '5 U.S.C. § 2211(c) (1964)'
+        does: 'Level III, $28,500 a year.'
+      - act: 'Act of Sept. 6, 1966 (Title 5 enacted)'
+        date: '1966-09-06'
+        until: '1967-12'
+        tags: [pay]
+        cite: 'Pub. L. 89-554, 80 Stat. 378, 461'
         usc: '5 U.S.C. § 5314 (1970)'
-        does: The Deputy Director in level III.
+        does: 'Level III continued, $28,500 a year (§ 5314(36)).'
+      - act: 'Federal Salary Act of 1967'
+        date: '1967-12-16'
+        effective: '1967-12'
+        until: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 215(a), 81 Stat. 613, 638'
+        usc: '5 U.S.C. § 5314 (1970)'
+        does: 'Level III raised to $29,500 a year.'
+      - act: 'Federal Salary Act of 1967, § 225'
+        date: '1967-12-16'
+        effective: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644'
+        usc: '2 U.S.C. §§ 358–360 (1970)'
+        does: 'Level III, $40,000 a year, on the President''s recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).'
     holders:
       - name: Dulles, Allen W.
         given: Allen Welsh
         from: '1951-08-23'
         to: '1953-02-26'
         out: To Director.
-        src: [Wikipedia, Deputy Director of Central Intelligence]
+        src: ['Wikipedia: Deputy Director of Central Intelligence']
       - name: Cabell, Charles P.
         given: Charles Pearre
         rank: Lt. Gen., USAF; Gen. from July 11, 1958
@@ -140,6 +211,7 @@ offices:
       - name: Carter, Marshall S.
         given: Marshall Sylvester
         rank: Lt. Gen., USA
+        nominated: '1962-03-12'
         confirmed: '1962-04-02'
         from: '1962-04-03'
         to: '1965-04-28'
@@ -148,6 +220,7 @@ offices:
       - name: Helms, Richard
         given: Richard McGarrah
         nominated: '1965-04-21'
+        confirmed: '1965-04-22'
         from: '1965-04-28'
         to: '1966-06-30'
         out: To Director.
@@ -210,7 +283,7 @@ offices:
       - name: Hedden, Stuart
         from: '1952'
         to: '1953-04'
-        src: [FRUS persons list, Wikipedia, Inspector General of the Central Intelligence Agency]
+        src: [FRUS persons list, 'Wikipedia: Inspector General of the Central Intelligence Agency']
       - name: Kirkpatrick, Lyman B., Jr.
         from: '1953-04'
         to: '1962'
@@ -220,7 +293,7 @@ offices:
       - name: Chamberlain, Donald F.
         from: '1973-07'
         to: '1976-07'
-        src: [Wikipedia, Inspector General of the Central Intelligence Agency]
+        src: ['Wikipedia: Inspector General of the Central Intelligence Agency']
   - id: legislative-counsel
     title: Legislative Counsel
     rank: employee
@@ -294,13 +367,13 @@ offices:
         from: '1967-07-31'
         to: '1973-02-24'
         out: Resigned.
-        src: [FRUS persons list, Wikipedia, Thomas Karamessines]
+        src: [FRUS persons list, 'Wikipedia: Thomas Karamessines']
       - name: Colby, William E.
         given: William Egan
         from: '1973-03-02'
         to: '1973-08-24'
         out: To Director.
-        src: [FRUS persons list, Wikipedia, William Colby]
+        src: [FRUS persons list, 'Wikipedia: William Colby']
       - name: Nelson, William E.
         from: '1973-08-24'
         to: '1976-05-14'
@@ -369,12 +442,12 @@ offices:
       - name: Wheelon, Albert D.
         from: '1963-08'
         to: '1966-09'
-        src: [FRUS persons list, Wikipedia, Carl Duckett]
+        src: [FRUS persons list, 'Wikipedia: Carl Duckett']
       - name: Duckett, Carl E.
         from: '1966-09'
         to: '1976-06-01'
         n: 'Check: acting before his appointment.'
-        src: [FRUS persons list, Wikipedia, Carl Duckett]
+        src: [FRUS persons list, 'Wikipedia: Carl Duckett']
   - id: national-estimates
     title: Chairman, Board of National Estimates
     rank: employee
@@ -388,7 +461,7 @@ offices:
         to: '1967-12'
         out: Retired.
         n: Succeeded Langer, who organized the Office in 1950. Check the day he took the chair.
-        src: [FRUS persons list, Wikipedia, William L. Langer]
+        src: [FRUS persons list, 'Wikipedia: William L. Langer']
       - name: Smith, Abbot E.
         from: '1968-01'
         to: '1971-04-16'
@@ -409,7 +482,7 @@ offices:
         from: '1953-05'
         to: '1973-06'
         out: Retired.
-        src: [Wikipedia, Arthur C. Lundahl]
+        src: ['Wikipedia: Arthur C. Lundahl']
   - id: counterintelligence
     title: Chief, Counterintelligence Staff
     rank: employee
@@ -505,13 +578,13 @@ offices:
         from: '1949'
         to: '1970-04-30'
         out: Retired; White House consultant from 1971.
-        src: [Wikipedia, E. Howard Hunt]
+        src: ['Wikipedia: E. Howard Hunt']
       - name: McCord, James W., Jr.
         title: Office of Security; chief, Physical Security Division
         from: '1951-08'
         to: '1970-08'
         out: Retired.
-        src: [Wikipedia, James W. McCord Jr.]
+        src: ['Wikipedia: James W. McCord Jr.']
       - name: Barnes, C. Tracy
         title: Assistant Deputy Director (Plans) for Covert Action; from 1962, Domestic Operations Division
         from: '1960'
@@ -543,7 +616,7 @@ offices:
         to: '1963'
         out: To chief of station, Rome.
         n: 'Check both dates.'
-        src: [FRUS persons list, Wikipedia, William King Harvey]
+        src: [FRUS persons list, 'Wikipedia: William King Harvey']
       - name: Maury, John M.
         title: Chief, Soviet Russia Division, Directorate of Plans
         from: '1962'

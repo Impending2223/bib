@@ -29,13 +29,6 @@ law:
     usc: '39 U.S.C. §§ 301–309 (1964)'
     until: '1971-07-01'
     does: The Post Office Department continued (§ 301). The Postmaster General its head, vested with the functions of all subordinate officers and agencies, for the term of the President by whom appointed and one month (§ 302). A Deputy (§ 304) and five Assistant Postmasters General (§ 305), appointed by the President with the Senate's consent, to perform such duties as the Postmaster General designates. The Advisory Board continued (§ 306). A General Counsel (§ 307). Delegation (§ 309).
-  - act: Federal Executive Salary Act of 1964
-    date: '1964-08-14'
-    effective: '1964-07'
-    tags: [pay]
-    cite: 'Pub. L. 88-426, title III, § 303, 78 Stat. 400, 415'
-    usc: ['5 U.S.C. § 5312 (1970)', '5 U.S.C. §§ 5314–5316 (1970)']
-    does: 'Postmaster General, level I; Deputy Postmaster General, level III; the five Assistant Postmasters General and the General Counsel, level IV; the Chief Postal Inspector, level V.'
   - act: Postal Reorganization Act, § 4(a)
     date: '1970-08-12'
     effective: '1971-07-01'
@@ -49,12 +42,50 @@ offices:
     rank: head
     appt: PAS
     level: I
+    law:
+      - act: 'Executive Pay Act of 1949'
+        date: '1949-10-15'
+        effective: '1949-10'
+        until: '1956-07'
+        tags: [pay]
+        cite: 'ch. 695, § 1, 63 Stat. 880'
+        does: '$22,500 a year ("the head of each executive department").'
+      - act: 'Federal Executive Pay Act of 1956'
+        date: '1956-07-31'
+        effective: '1956-07'
+        until: '1964-07'
+        tags: [pay]
+        cite: 'ch. 804, title I, § 102(5), 70 Stat. 736'
+        usc: '5 U.S.C. § 2201 (1958)'
+        does: '$25,000 a year.'
+      - act: 'Federal Executive Salary Act of 1964'
+        date: '1964-08-14'
+        effective: '1964-07'
+        until: '1966-09-06'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(a)(5), 78 Stat. 400, 416'
+        usc: '5 U.S.C. § 2211(a) (1964)'
+        does: 'Level I, $35,000 a year.'
+      - act: 'Act of Sept. 6, 1966 (Title 5 enacted)'
+        date: '1966-09-06'
+        until: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 89-554, 80 Stat. 378, 460'
+        usc: '5 U.S.C. § 5312 (1970)'
+        does: 'Level I continued, $35,000 a year (§ 5312(5)).'
+      - act: 'Federal Salary Act of 1967, § 225'
+        date: '1967-12-16'
+        effective: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644'
+        usc: '2 U.S.C. §§ 358–360 (1970)'
+        does: 'Level I, $60,000 a year, on the President''s recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).'
     holders:
       - name: Donaldson, Jesse M.
         from: '1947-12-16'
         to: '1953-01-20'
         out: Resigned at the end of the President's term.
-        src: [APP]
+        src: [https://www.presidency.ucsb.edu/documents/letter-accepting-resignation-jesse-m-donaldson-postmaster-general]
       - name: Summerfield, Arthur E.
         nominated: '1953-01-20'
         confirmed: '1953-01-21'
@@ -62,7 +93,7 @@ offices:
         to: '1961-01-20'
         out: Resigned at the end of the President's term.
         n: Renominated for the second term Jan. 23, 1957; confirmed Feb. 4, 1957 (CDIR). Resignation accepted Dec. 30, 1960, effective Jan. 20, 1961 (APP).
-        src: [CDIR 1957-03, APP, Wikipedia]
+        src: [CDIR 1957-03, https://www.presidency.ucsb.edu/documents/letter-accepting-resignation-arthur-e-summerfield-postmaster-general, Wikipedia]
       - name: Day, J. Edward
         nominated: '1961-01-20'
         confirmed: '1961-01-21'
@@ -70,7 +101,7 @@ offices:
         to: '1963-08-09'
         out: Resigned.
         n: 'Named Jan. 16, 1961 (CDIR gives this as the nomination). Resignation accepted July 26, 1963, effective Aug. 9 (APP). Check the date of nomination.'
-        src: [CDIR 1961-04, APP, Cong. Rec. Index 1961]
+        src: [CDIR 1961-04, https://www.presidency.ucsb.edu/documents/letter-accepting-resignation-postmaster-general-j-edward-day, Cong. Rec. Index 1961]
       - name: Gronouski, John A.
         nominated: '1963-09-10'
         confirmed: '1963-09-24'
@@ -78,7 +109,7 @@ offices:
         to: '1965-11-02'
         out: To Ambassador to Poland.
         n: Sworn Sept. 30, 1963, by Justice White (APP). Sworn again for the President's new term, Feb. 19, 1965 (APP).
-        src: [CDIR 1964-01, APP, Cong. Rec. Index 1963]
+        src: [CDIR 1964-01, https://www.presidency.ucsb.edu/documents/remarks-the-swearing-postmaster-general-john-gronouski, https://www.presidency.ucsb.edu/documents/remarks-the-lbj-ranch-the-swearing-john-gronouski-ambassador-poland, Cong. Rec. Index 1963]
       - name: O'Brien, Lawrence F.
         nominated: '1965-08-30'
         confirmed: '1965-09-01'
@@ -86,13 +117,14 @@ offices:
         to: '1968-04-10'
         out: Resigned; to Robert Kennedy's campaign.
         n: Sworn Nov. 3, 1965, at the post office in Hye, Texas (APP). Nomination and confirmation as the CDIR gives them; check.
-        src: [CDIR 1966-01, APP, FRUS persons list, Cong. Rec.]
+        src: [CDIR 1966-01, https://www.presidency.ucsb.edu/documents/remarks-the-post-office-hye-texas-the-swearing-lawrence-f-obrien-postmaster-general, FRUS persons list, Cong. Rec.]
       - name: Watson, W. Marvin
+        nominated: '1968-04-10'
         confirmed: '1968-04-23'
         from: '1968-04-26'
         to: '1969-01-20'
         n: Sworn Apr. 26, 1968 (APP). Check the dates of nomination and confirmation.
-        src: [APP, Cong. Rec.]
+        src: [https://www.presidency.ucsb.edu/documents/remarks-the-swearing-w-marvin-watson-postmaster-general, Cong. Rec.]
       - name: Blount, Winton M.
         nominated: '1969-01-20'
         confirmed: '1969-01-20'
@@ -100,7 +132,7 @@ offices:
         to: '1971-07-01'
         out: To Postmaster General, United States Postal Service.
         n: Sworn Jan. 22, 1969 (CDIR). Check the date of nomination.
-        src: [CDIR 1969-03, APP, Cong. Rec. Index 1969]
+        src: [CDIR 1969-03, https://www.presidency.ucsb.edu/documents/remarks-the-swearing-the-cabinet, Cong. Rec. Index 1969]
 
   - id: deputy-postmaster-general
     title: Deputy Postmaster General
@@ -119,6 +151,51 @@ offices:
         cite: 'Pub. L. 86-682, § 1, 74 Stat. 578, 579'
         usc: '39 U.S.C. § 304 (1964)'
         does: The same, restated.
+      - act: 'Executive Pay Act of 1949'
+        date: '1949-10-15'
+        effective: '1949-10'
+        until: '1956-07'
+        tags: [pay]
+        cite: 'ch. 695, § 3, 63 Stat. 880'
+        does: '$17,500 a year.'
+      - act: 'Federal Executive Pay Act of 1956'
+        date: '1956-07-31'
+        effective: '1956-07'
+        until: '1964-07'
+        tags: [pay]
+        cite: 'ch. 804, title I, § 104(a)(14), 70 Stat. 736'
+        usc: '5 U.S.C. § 2203 (1958)'
+        does: '$21,000 a year.'
+      - act: 'Federal Executive Salary Act of 1964'
+        date: '1964-08-14'
+        effective: '1964-07'
+        until: '1966-09-06'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(c)(3), 78 Stat. 400, 416'
+        usc: '5 U.S.C. § 2211(c) (1964)'
+        does: 'Level III, $28,500 a year.'
+      - act: 'Act of Sept. 6, 1966 (Title 5 enacted)'
+        date: '1966-09-06'
+        until: '1967-12'
+        tags: [pay]
+        cite: 'Pub. L. 89-554, 80 Stat. 378, 460'
+        usc: '5 U.S.C. § 5314 (1970)'
+        does: 'Level III continued, $28,500 a year (§ 5314(3)).'
+      - act: 'Federal Salary Act of 1967'
+        date: '1967-12-16'
+        effective: '1967-12'
+        until: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 215(a), 81 Stat. 613, 638'
+        usc: '5 U.S.C. § 5314 (1970)'
+        does: 'Level III raised to $29,500 a year.'
+      - act: 'Federal Salary Act of 1967, § 225'
+        date: '1967-12-16'
+        effective: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644'
+        usc: '2 U.S.C. §§ 358–360 (1970)'
+        does: 'Level III, $40,000 a year, on the President''s recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).'
     holders:
       - name: Hook, Charles R., Jr.
         nominated: '1953-01-21'
@@ -129,6 +206,7 @@ offices:
         src: [CDIR 1953-03, CDIR 1955-02, Cong. Rec.]
       - name: Stans, Maurice H.
         nominated: '1956-01-12'
+        confirmed: '1956-04-16'
         from: '1955'
         to: '1957'
         out: To Deputy Director of the Budget.
@@ -141,11 +219,13 @@ offices:
         n: Check the dates; not listed in CDIR, Jan. 1960.
         src: [CDIR 1958-01, CDIR 1959-03, Cong. Rec.]
       - name: Brawley, H. W.
+        nominated: '1961-01-21'
+        confirmed: '1961-01-23'
         appointed: '1961-01'
         from: '1961-01'
         to: '1962'
         n: CDIR gives his appointment as Jan. 20, 1961. Check the dates.
-        src: [CDIR 1961-04, CDIR 1962-01]
+        src: [CDIR 1961-04, CDIR 1962-01, Cong. Rec.]
       - name: Bishop, Sidney W.
         nominated: '1963-06-17'
         confirmed: '1963-06-26'
@@ -159,7 +239,7 @@ offices:
         from: '1964-03-04'
         to: '1969'
         n: Sworn Mar. 4, 1964, by Judge Thornberry (APP). Check the day he left.
-        src: [APP, CDIR 1965-03, CDIR 1967-12, Cong. Rec.]
+        src: [https://www.presidency.ucsb.edu/documents/remarks-the-swearing-frederick-c-belen-deputy-postmaster-general-and-william-mcmillan, CDIR 1965-03, CDIR 1967-12, Cong. Rec.]
       - name: Klassen, Elmer T.
         nominated: '1969-01-31'
         confirmed: '1969-02-07'
@@ -189,6 +269,51 @@ offices:
         cite: 'Pub. L. 86-682, § 1, 74 Stat. 578, 579'
         usc: '39 U.S.C. § 305 (1964)'
         does: Five Assistant Postmasters General, appointed by the President with the Senate's consent; such duties as the Postmaster General designates.
+      - act: 'Executive Pay Act of 1949'
+        date: '1949-10-15'
+        effective: '1949-10'
+        until: '1956-07'
+        tags: [pay]
+        cite: 'ch. 695, § 5(a), 63 Stat. 880, 881'
+        does: '$15,000 a year ("each Assistant Postmaster General").'
+      - act: 'Federal Executive Pay Act of 1956'
+        date: '1956-07-31'
+        effective: '1956-07'
+        until: '1964-07'
+        tags: [pay]
+        cite: 'ch. 804, title I, § 106(a)(10), 70 Stat. 736, 737'
+        usc: '5 U.S.C. § 2205 (1958)'
+        does: '$20,000 a year ("Assistant Postmasters General (5)").'
+      - act: 'Federal Executive Salary Act of 1964'
+        date: '1964-08-14'
+        effective: '1964-07'
+        until: '1966-09-06'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(d)(21), 78 Stat. 400, 418'
+        usc: '5 U.S.C. § 2211(d) (1964)'
+        does: 'Level IV, $27,000 a year ("Assistant Postmasters General (5)").'
+      - act: 'Act of Sept. 6, 1966 (Title 5 enacted)'
+        date: '1966-09-06'
+        until: '1967-12'
+        tags: [pay]
+        cite: 'Pub. L. 89-554, 80 Stat. 378, 462'
+        usc: '5 U.S.C. § 5315 (1970)'
+        does: 'Level IV continued, $27,000 a year (§ 5315(21)).'
+      - act: 'Federal Salary Act of 1967'
+        date: '1967-12-16'
+        effective: '1967-12'
+        until: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 215(b), 81 Stat. 613, 638'
+        usc: '5 U.S.C. § 5315 (1970)'
+        does: 'Level IV raised to $28,750 a year.'
+      - act: 'Federal Salary Act of 1967, § 225'
+        date: '1967-12-16'
+        effective: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644'
+        usc: '2 U.S.C. §§ 358–360 (1970)'
+        does: 'Level IV, $38,000 a year, on the President''s recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).'
     holders:
       - name: Abrams, Norman R.
         nominated: '1953-04-17'
@@ -224,7 +349,7 @@ offices:
         from: '1964-03-04'
         to: '1969'
         n: Sworn Mar. 4, 1964 (APP). Check the day he left.
-        src: [APP, CDIR 1967-12, Cong. Rec.]
+        src: [https://www.presidency.ucsb.edu/documents/remarks-the-swearing-frederick-c-belen-deputy-postmaster-general-and-william-mcmillan, CDIR 1967-12, Cong. Rec.]
 
   - id: apmg-transportation
     title: Assistant Postmaster General, Bureau of Transportation
@@ -235,6 +360,52 @@ offices:
     appt: PAS
     level: IV
     group: Assistant Postmasters General
+    law:
+      - act: 'Executive Pay Act of 1949'
+        date: '1949-10-15'
+        effective: '1949-10'
+        until: '1956-07'
+        tags: [pay]
+        cite: 'ch. 695, § 5(a), 63 Stat. 880, 881'
+        does: '$15,000 a year ("each Assistant Postmaster General").'
+      - act: 'Federal Executive Pay Act of 1956'
+        date: '1956-07-31'
+        effective: '1956-07'
+        until: '1964-07'
+        tags: [pay]
+        cite: 'ch. 804, title I, § 106(a)(10), 70 Stat. 736, 737'
+        usc: '5 U.S.C. § 2205 (1958)'
+        does: '$20,000 a year ("Assistant Postmasters General (5)").'
+      - act: 'Federal Executive Salary Act of 1964'
+        date: '1964-08-14'
+        effective: '1964-07'
+        until: '1966-09-06'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(d)(21), 78 Stat. 400, 418'
+        usc: '5 U.S.C. § 2211(d) (1964)'
+        does: 'Level IV, $27,000 a year ("Assistant Postmasters General (5)").'
+      - act: 'Act of Sept. 6, 1966 (Title 5 enacted)'
+        date: '1966-09-06'
+        until: '1967-12'
+        tags: [pay]
+        cite: 'Pub. L. 89-554, 80 Stat. 378, 462'
+        usc: '5 U.S.C. § 5315 (1970)'
+        does: 'Level IV continued, $27,000 a year (§ 5315(21)).'
+      - act: 'Federal Salary Act of 1967'
+        date: '1967-12-16'
+        effective: '1967-12'
+        until: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 215(b), 81 Stat. 613, 638'
+        usc: '5 U.S.C. § 5315 (1970)'
+        does: 'Level IV raised to $28,750 a year.'
+      - act: 'Federal Salary Act of 1967, § 225'
+        date: '1967-12-16'
+        effective: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644'
+        usc: '2 U.S.C. §§ 358–360 (1970)'
+        does: 'Level IV, $38,000 a year, on the President''s recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).'
     holders:
       - name: Allen, John C.
         nominated: '1953-01-26'
@@ -245,6 +416,7 @@ offices:
         src: [CDIR 1953-03, CDIR 1954-01, Cong. Rec. Index 1953, Cong. Rec.]
       - name: Siedle, E. George
         nominated: '1954-08-05'
+        confirmed: '1954-08-16'
         from: '1954'
         to: '1959'
         n: Check the dates.
@@ -269,6 +441,7 @@ offices:
         n: Check the dates.
         src: [CDIR 1964-01, CDIR 1967-12, Cong. Rec. Index 1963, Cong. Rec.]
       - name: Batrus, Frederick E.
+        nominated: '1968-01-30'
         confirmed: '1968-02-08'
         from: '1969'
         to: '1971-07-01'
@@ -283,6 +456,52 @@ offices:
     appt: PAS
     level: IV
     group: Assistant Postmasters General
+    law:
+      - act: 'Executive Pay Act of 1949'
+        date: '1949-10-15'
+        effective: '1949-10'
+        until: '1956-07'
+        tags: [pay]
+        cite: 'ch. 695, § 5(a), 63 Stat. 880, 881'
+        does: '$15,000 a year ("each Assistant Postmaster General").'
+      - act: 'Federal Executive Pay Act of 1956'
+        date: '1956-07-31'
+        effective: '1956-07'
+        until: '1964-07'
+        tags: [pay]
+        cite: 'ch. 804, title I, § 106(a)(10), 70 Stat. 736, 737'
+        usc: '5 U.S.C. § 2205 (1958)'
+        does: '$20,000 a year ("Assistant Postmasters General (5)").'
+      - act: 'Federal Executive Salary Act of 1964'
+        date: '1964-08-14'
+        effective: '1964-07'
+        until: '1966-09-06'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(d)(21), 78 Stat. 400, 418'
+        usc: '5 U.S.C. § 2211(d) (1964)'
+        does: 'Level IV, $27,000 a year ("Assistant Postmasters General (5)").'
+      - act: 'Act of Sept. 6, 1966 (Title 5 enacted)'
+        date: '1966-09-06'
+        until: '1967-12'
+        tags: [pay]
+        cite: 'Pub. L. 89-554, 80 Stat. 378, 462'
+        usc: '5 U.S.C. § 5315 (1970)'
+        does: 'Level IV continued, $27,000 a year (§ 5315(21)).'
+      - act: 'Federal Salary Act of 1967'
+        date: '1967-12-16'
+        effective: '1967-12'
+        until: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 215(b), 81 Stat. 613, 638'
+        usc: '5 U.S.C. § 5315 (1970)'
+        does: 'Level IV raised to $28,750 a year.'
+      - act: 'Federal Salary Act of 1967, § 225'
+        date: '1967-12-16'
+        effective: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644'
+        usc: '2 U.S.C. §§ 358–360 (1970)'
+        does: 'Level IV, $38,000 a year, on the President''s recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).'
     holders:
       - name: Robertson, Albert J.
         nominated: '1953-03-04'
@@ -300,15 +519,18 @@ offices:
         src: [CDIR 1958-01, CDIR 1960-01, Cong. Rec. Index 1957, Cong. Rec.]
       - name: Nicholson, Ralph W.
         nominated: '1961-03-08'
+        confirmed: '1961-03-21'
         from: '1961'
         to: '1969'
         n: Check the dates.
-        src: [CDIR 1962-01, CDIR 1967-12, Cong. Rec. Index 1961]
+        src: [CDIR 1962-01, CDIR 1967-12, Cong. Rec. Index 1961, Cong. Rec.]
       - name: Hargrove, James W.
+        nominated: '1969-01-31'
+        confirmed: '1969-02-07'
         from: '1969'
         to: '1971-07-01'
         n: Check the day he took office.
-        src: [CDIR 1969-03, CDIR 1969-12]
+        src: [CDIR 1969-03, CDIR 1969-12, Cong. Rec.]
 
   - id: apmg-facilities
     title: Assistant Postmaster General, Bureau of Facilities
@@ -316,6 +538,52 @@ offices:
     appt: PAS
     level: IV
     group: Assistant Postmasters General
+    law:
+      - act: 'Executive Pay Act of 1949'
+        date: '1949-10-15'
+        effective: '1949-10'
+        until: '1956-07'
+        tags: [pay]
+        cite: 'ch. 695, § 5(a), 63 Stat. 880, 881'
+        does: '$15,000 a year ("each Assistant Postmaster General").'
+      - act: 'Federal Executive Pay Act of 1956'
+        date: '1956-07-31'
+        effective: '1956-07'
+        until: '1964-07'
+        tags: [pay]
+        cite: 'ch. 804, title I, § 106(a)(10), 70 Stat. 736, 737'
+        usc: '5 U.S.C. § 2205 (1958)'
+        does: '$20,000 a year ("Assistant Postmasters General (5)").'
+      - act: 'Federal Executive Salary Act of 1964'
+        date: '1964-08-14'
+        effective: '1964-07'
+        until: '1966-09-06'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(d)(21), 78 Stat. 400, 418'
+        usc: '5 U.S.C. § 2211(d) (1964)'
+        does: 'Level IV, $27,000 a year ("Assistant Postmasters General (5)").'
+      - act: 'Act of Sept. 6, 1966 (Title 5 enacted)'
+        date: '1966-09-06'
+        until: '1967-12'
+        tags: [pay]
+        cite: 'Pub. L. 89-554, 80 Stat. 378, 462'
+        usc: '5 U.S.C. § 5315 (1970)'
+        does: 'Level IV continued, $27,000 a year (§ 5315(21)).'
+      - act: 'Federal Salary Act of 1967'
+        date: '1967-12-16'
+        effective: '1967-12'
+        until: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 215(b), 81 Stat. 613, 638'
+        usc: '5 U.S.C. § 5315 (1970)'
+        does: 'Level IV raised to $28,750 a year.'
+      - act: 'Federal Salary Act of 1967, § 225'
+        date: '1967-12-16'
+        effective: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644'
+        usc: '2 U.S.C. §§ 358–360 (1970)'
+        does: 'Level IV, $38,000 a year, on the President''s recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).'
     holders:
       - name: Kieb, Ormonde A.
         nominated: '1953-03-04'
@@ -369,10 +637,11 @@ offices:
         n: Check the dates.
         src: [CDIR 1967-12, CDIR 1969-03, Cong. Rec.]
       - name: Lehne, Henry
+        confirmed: '1969-04-29'
         from: '1969'
         to: '1971-07-01'
         n: Check the day he took office.
-        src: [CDIR 1969-12]
+        src: [CDIR 1969-12, Cong. Rec.]
 
   - id: apmg-personnel
     title: Assistant Postmaster General, Bureau of Personnel
@@ -380,6 +649,52 @@ offices:
     appt: PAS
     level: IV
     group: Assistant Postmasters General
+    law:
+      - act: 'Executive Pay Act of 1949'
+        date: '1949-10-15'
+        effective: '1949-10'
+        until: '1956-07'
+        tags: [pay]
+        cite: 'ch. 695, § 5(a), 63 Stat. 880, 881'
+        does: '$15,000 a year ("each Assistant Postmaster General").'
+      - act: 'Federal Executive Pay Act of 1956'
+        date: '1956-07-31'
+        effective: '1956-07'
+        until: '1964-07'
+        tags: [pay]
+        cite: 'ch. 804, title I, § 106(a)(10), 70 Stat. 736, 737'
+        usc: '5 U.S.C. § 2205 (1958)'
+        does: '$20,000 a year ("Assistant Postmasters General (5)").'
+      - act: 'Federal Executive Salary Act of 1964'
+        date: '1964-08-14'
+        effective: '1964-07'
+        until: '1966-09-06'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(d)(21), 78 Stat. 400, 418'
+        usc: '5 U.S.C. § 2211(d) (1964)'
+        does: 'Level IV, $27,000 a year ("Assistant Postmasters General (5)").'
+      - act: 'Act of Sept. 6, 1966 (Title 5 enacted)'
+        date: '1966-09-06'
+        until: '1967-12'
+        tags: [pay]
+        cite: 'Pub. L. 89-554, 80 Stat. 378, 462'
+        usc: '5 U.S.C. § 5315 (1970)'
+        does: 'Level IV continued, $27,000 a year (§ 5315(21)).'
+      - act: 'Federal Salary Act of 1967'
+        date: '1967-12-16'
+        effective: '1967-12'
+        until: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 215(b), 81 Stat. 613, 638'
+        usc: '5 U.S.C. § 5315 (1970)'
+        does: 'Level IV raised to $28,750 a year.'
+      - act: 'Federal Salary Act of 1967, § 225'
+        date: '1967-12-16'
+        effective: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644'
+        usc: '2 U.S.C. §§ 358–360 (1970)'
+        does: 'Level IV, $38,000 a year, on the President''s recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).'
     holders:
       - name: Lyons, Eugene J.
         nominated: '1954-01-11'
@@ -389,15 +704,19 @@ offices:
         n: Check the dates.
         src: [CDIR 1954-01, CDIR 1959-03, Cong. Rec. Index 1954]
       - name: Murphy, Richard J.
+        nominated: '1961-03-08'
+        confirmed: '1961-03-21'
         from: '1961'
         to: '1969'
         n: Check the dates.
-        src: [CDIR 1961-04, CDIR 1967-12]
+        src: [CDIR 1961-04, CDIR 1967-12, Cong. Rec.]
       - name: Housman, Kenneth A.
+        nominated: '1969-01-31'
+        confirmed: '1969-02-07'
         from: '1969'
         to: '1971-07-01'
         n: Check the day he took office.
-        src: [CDIR 1969-03, CDIR 1969-12]
+        src: [CDIR 1969-03, CDIR 1969-12, Cong. Rec.]
 
   - id: apmg-research
     title: Assistant Postmaster General, Bureau of Research and Engineering
@@ -405,8 +724,37 @@ offices:
     appt: PAS
     level: IV
     group: Assistant Postmasters General
-    from: '1966'
-    n: An Office of Research and Engineering from 1959; a bureau under an Assistant Postmaster General by Feb. 1967. Check the act.
+    from: '1966-07-05'
+    law:
+      - act: Act of July 5, 1966
+        date: '1966-07-05'
+        tags: [creates, appointment, pay]
+        cite: 'Pub. L. 89-492, §§ 2–3, 80 Stat. 262'
+        usc: '39 U.S.C. § 305 (1964 Supp. II)'
+        does: 'An additional, sixth, Assistant Postmaster General, appointed by the President by and with the advice and consent of the Senate, to further the Department''s research and development and construction engineering programs; Level IV.'
+      - act: 'Act of Sept. 6, 1966 (Title 5 enacted)'
+        date: '1966-09-06'
+        until: '1967-12'
+        tags: [pay]
+        cite: 'Pub. L. 89-554, 80 Stat. 378, 462'
+        usc: '5 U.S.C. § 5315 (1970)'
+        does: 'Level IV continued, $27,000 a year (§ 5315(21)).'
+      - act: 'Federal Salary Act of 1967'
+        date: '1967-12-16'
+        effective: '1967-12'
+        until: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 215(b), 81 Stat. 613, 638'
+        usc: '5 U.S.C. § 5315 (1970)'
+        does: 'Level IV raised to $28,750 a year.'
+      - act: 'Federal Salary Act of 1967, § 225'
+        date: '1967-12-16'
+        effective: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644'
+        usc: '2 U.S.C. §§ 358–360 (1970)'
+        does: 'Level IV, $38,000 a year, on the President''s recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).'
+    n: An Office of Research and Engineering from 1959; a bureau under the sixth Assistant Postmaster General, created by the act of July 5, 1966.
     holders:
       - name: Packer, Leo S.
         nominated: '1966-08-23'
@@ -417,6 +765,7 @@ offices:
         src: [CDIR 1967-02, CDIR 1967-12, Cong. Rec. Index 1966, Cong. Rec.]
       - name: Faught, Harold F.
         nominated: '1969-06-13'
+        confirmed: '1969-06-18'
         from: '1969'
         to: '1971-07-01'
         n: Check the day he took office.
@@ -429,6 +778,14 @@ offices:
     level: IV
     group: Assistant Postmasters General
     from: '1969'
+    law:
+      - act: 'Federal Salary Act of 1967, § 225'
+        date: '1967-12-16'
+        effective: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644'
+        usc: '2 U.S.C. §§ 358–360 (1970)'
+        does: 'Level IV, $38,000 a year, on the President''s recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).'
     holders:
       - name: Lee, Ronald B.
         from: '1969'
@@ -451,6 +808,52 @@ offices:
         cite: 'Pub. L. 86-682, § 1, 74 Stat. 578, 580'
         usc: '39 U.S.C. § 307 (1964)'
         does: The legal officer of the Department the General Counsel, appointed by the President with the Senate's consent.
+      - act: 'Federal Executive Pay Act of 1956'
+        date: '1956-07-31'
+        effective: '1956-07'
+        until: '1960-07'
+        tags: [pay]
+        cite: 'ch. 804, title I, § 106(b)(9), 70 Stat. 736, 739'
+        usc: '5 U.S.C. § 2205 (1958)'
+        does: '$19,000 a year ("Legal adviser, solicitor, or general counsel of an executive or military department (excluding the Department of Justice)").'
+      - act: 'Act of July 1, 1960'
+        date: '1960-07-01'
+        effective: '1960-07'
+        until: '1964-07'
+        tags: [pay]
+        cite: 'Pub. L. 86-568, § 201(1), 74 Stat. 296, 305'
+        usc: '5 U.S.C. § 2205 (1958 Supp. V)'
+        does: '$20,000 a year ("Legal adviser, solicitor, or general counsel of an executive department (excluding the Department of Justice)"), added to § 106(a) of the Federal Executive Pay Act of 1956.'
+      - act: 'Federal Executive Salary Act of 1964'
+        date: '1964-08-14'
+        effective: '1964-07'
+        until: '1966-09-06'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(d)(45), 78 Stat. 400, 418'
+        usc: '5 U.S.C. § 2211(d) (1964)'
+        does: 'Level IV, $27,000 a year.'
+      - act: 'Act of Sept. 6, 1966 (Title 5 enacted)'
+        date: '1966-09-06'
+        until: '1967-12'
+        tags: [pay]
+        cite: 'Pub. L. 89-554, 80 Stat. 378, 462'
+        usc: '5 U.S.C. § 5315 (1970)'
+        does: 'Level IV continued, $27,000 a year (§ 5315(45)).'
+      - act: 'Federal Salary Act of 1967'
+        date: '1967-12-16'
+        effective: '1967-12'
+        until: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 215(b), 81 Stat. 613, 638'
+        usc: '5 U.S.C. § 5315 (1970)'
+        does: 'Level IV raised to $28,750 a year.'
+      - act: 'Federal Salary Act of 1967, § 225'
+        date: '1967-12-16'
+        effective: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644'
+        usc: '2 U.S.C. §§ 358–360 (1970)'
+        does: 'Level IV, $38,000 a year, on the President''s recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).'
     holders:
       - name: Rizley, Ross
         from: '1953'
@@ -463,6 +866,7 @@ offices:
         n: Solicitor, then General Counsel. Check the dates.
         src: [CDIR 1955-02, CDIR 1958-01]
       - name: Warburton, Herbert B.
+        nominated: '1958-03-17'
         confirmed: '1958-05-22'
         from: '1959'
         to: '1961-01'
@@ -476,6 +880,7 @@ offices:
         n: Deputy General Counsel, 1961; General Counsel by Jan. 1962. Check the dates.
         src: [CDIR 1962-01, CDIR 1965-03, Cong. Rec.]
       - name: May, Timothy J.
+        nominated: '1966-02-16'
         confirmed: '1966-02-21'
         from: '1966'
         to: '1969'
@@ -504,6 +909,36 @@ offices:
         cite: 'Pub. L. 86-682, § 1, 74 Stat. 578, 580'
         usc: '39 U.S.C. § 308 (1964)'
         does: The pay of the Chief Postal Inspector, $19,000.
+      - act: 'Federal Executive Salary Act of 1964'
+        date: '1964-08-14'
+        effective: '1964-07'
+        until: '1966-09-06'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, § 303(e)(37), 78 Stat. 400, 420'
+        usc: '5 U.S.C. § 2211(e) (1964)'
+        does: 'Level V, $26,000 a year.'
+      - act: 'Act of Sept. 6, 1966 (Title 5 enacted)'
+        date: '1966-09-06'
+        until: '1967-12'
+        tags: [pay]
+        cite: 'Pub. L. 89-554, 80 Stat. 378, 464'
+        usc: '5 U.S.C. § 5316 (1970)'
+        does: 'Level V continued, $26,000 a year (§ 5316(37)).'
+      - act: 'Federal Salary Act of 1967'
+        date: '1967-12-16'
+        effective: '1967-12'
+        until: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 215(c), 81 Stat. 613, 638'
+        usc: '5 U.S.C. § 5316 (1970)'
+        does: 'Level V raised to $28,000 a year.'
+      - act: 'Federal Salary Act of 1967, § 225'
+        date: '1967-12-16'
+        effective: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644'
+        usc: '2 U.S.C. §§ 358–360 (1970)'
+        does: 'Level V, $36,000 a year, on the President''s recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).'
     holders:
       - name: Stephens, David H.
         from: '1953'

@@ -30,8 +30,9 @@ law:
   - act: Executive Order 10481
     date: '1953-08-15'
     tags: [vacancy]
+    cite: '18 Fed. Reg. 4944'
     url: https://www.presidency.ucsb.edu/documents/executive-order-10481-designation-certain-officers-the-department-agriculture-act
-    does: 'When both the Secretary and the Under Secretary are absent, sick, resigned, or dead, the Assistant Secretaries, in the order the Secretary fixes, act as Secretary. Check the Federal Register cite.'
+    does: 'When both the Secretary and the Under Secretary are absent, sick, resigned, or dead, the Assistant Secretaries, in the order the Secretary fixes, act as Secretary.'
 offices:
   - id: secretary
     title: Secretary of Agriculture
@@ -39,13 +40,43 @@ offices:
     appt: PAS
     level: I
     law:
-      - act: Federal Executive Salary Act of 1964
+      - act: 'Executive Pay Act of 1949'
+        date: '1949-10-15'
+        effective: '1949-10'
+        until: '1956-07'
+        tags: [pay]
+        cite: 'ch. 695, § 1, 63 Stat. 880'
+        does: '$22,500 a year ("the head of each executive department").'
+      - act: 'Federal Executive Pay Act of 1956'
+        date: '1956-07-31'
+        effective: '1956-07'
+        until: '1964-07'
+        tags: [pay]
+        cite: 'ch. 804, title I, § 102(7), 70 Stat. 736'
+        usc: '5 U.S.C. § 2201 (1958)'
+        does: '$25,000 a year.'
+      - act: 'Federal Executive Salary Act of 1964'
         date: '1964-08-14'
         effective: '1964-07'
+        until: '1966-09-06'
         tags: [pay]
-        cite: 'Pub. L. 88-426, § 303(a), 78 Stat. 400, 416'
+        cite: 'Pub. L. 88-426, § 303(a)(7), 78 Stat. 400, 416'
+        usc: '5 U.S.C. § 2211(a) (1964)'
+        does: 'Level I, $35,000 a year.'
+      - act: 'Act of Sept. 6, 1966 (Title 5 enacted)'
+        date: '1966-09-06'
+        until: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 89-554, 80 Stat. 378, 460'
         usc: '5 U.S.C. § 5312 (1970)'
-        does: Level I of the Federal Executive Salary Schedule, $35,000.
+        does: 'Level I continued, $35,000 a year (§ 5312(7)).'
+      - act: 'Federal Salary Act of 1967, § 225'
+        date: '1967-12-16'
+        effective: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644'
+        usc: '2 U.S.C. §§ 358–360 (1970)'
+        does: 'Level I, $60,000 a year, on the President''s recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).'
     holders:
       - name: Brannan, Charles F.
         given: Charles Franklin
@@ -76,15 +107,16 @@ offices:
       - name: 'Campbell, J. Phil'
         title: 'Under Secretary of Agriculture, acting as Secretary'
         acting: true
-        from: '1971-11-22'
+        from: '1971-11-18'
         to: '1971-12-02'
-        n: 'Signs as Acting Secretary, Nov. 22, 1971 (Federal Register, Nov. 25, 1971). Check when he began; the office vacant from Nov. 17.'
+        n: 'Acting by law in the vacancy, as Under Secretary (Act of June 5, 1939). Signs as Acting Secretary, Nov. 22, 1971 (Federal Register, Nov. 25, 1971).'
         src: ['Federal Register, Nov. 25, 1971']
       - name: Butz, Earl L.
         given: Earl Lauer
+        confirmed: '1971-12-02'
         from: '1971-12-02'
         n: 'Assistant Secretary, 1954–57. Served to Oct. 4, 1976.'
-        src: ['Wikipedia: Earl Butz', CDIR 1973-03]
+        src: ['Wikipedia: Earl Butz', CDIR 1973-03, Cong. Rec.]
   - id: under-secretary
     title: Under Secretary of Agriculture
     rank: principal
@@ -103,13 +135,51 @@ offices:
         cite: 'ch. 181, 53 Stat. 809'
         usc: ['5 U.S.C. § 514b (1958)', '7 U.S.C. § 2211 (1970)']
         does: The Under Secretary the first assistant of the Secretary within R.S. § 177, to act in his absence or a vacancy; other duties as the Secretary prescribes.
-      - act: Federal Executive Salary Act of 1964
+      - act: 'Executive Pay Act of 1949'
+        date: '1949-10-15'
+        effective: '1949-10'
+        until: '1956-07'
+        tags: [pay]
+        cite: 'ch. 695, § 3, 63 Stat. 880'
+        does: '$17,500 a year ("each Under Secretary of an executive department").'
+      - act: 'Federal Executive Pay Act of 1956'
+        date: '1956-07-31'
+        effective: '1956-07'
+        until: '1964-07'
+        tags: [pay]
+        cite: 'ch. 804, title I, § 104(a)(16), 70 Stat. 736'
+        usc: '5 U.S.C. § 2203 (1958)'
+        does: '$21,000 a year.'
+      - act: 'Federal Executive Salary Act of 1964'
         date: '1964-08-14'
         effective: '1964-07'
+        until: '1966-09-06'
         tags: [pay]
-        cite: 'Pub. L. 88-426, § 303(c), 78 Stat. 400, 416'
+        cite: 'Pub. L. 88-426, § 303(c)(4), 78 Stat. 400, 416'
+        usc: '5 U.S.C. § 2211(c) (1964)'
+        does: 'Level III, $28,500 a year.'
+      - act: 'Act of Sept. 6, 1966 (Title 5 enacted)'
+        date: '1966-09-06'
+        until: '1967-12'
+        tags: [pay]
+        cite: 'Pub. L. 89-554, 80 Stat. 378, 460'
         usc: '5 U.S.C. § 5314 (1970)'
-        does: Level III, $28,500.
+        does: 'Level III continued, $28,500 a year (§ 5314(4)).'
+      - act: 'Federal Salary Act of 1967'
+        date: '1967-12-16'
+        effective: '1967-12'
+        until: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 215(a), 81 Stat. 613, 638'
+        usc: '5 U.S.C. § 5314 (1970)'
+        does: 'Level III raised to $29,500 a year.'
+      - act: 'Federal Salary Act of 1967, § 225'
+        date: '1967-12-16'
+        effective: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644'
+        usc: '2 U.S.C. §§ 358–360 (1970)'
+        does: 'Level III, $40,000 a year, on the President''s recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).'
     holders:
       - name: McCormick, Clarence J.
         given: Clarence James
@@ -162,13 +232,51 @@ offices:
         tags: [creates, appointment, powers]
         cite: '67 Stat. 633'
         does: Two additional Assistant Secretaries (PAS), each performing the functions the Secretary prescribes, at the rate for Assistant Secretaries of executive departments.
-      - act: Federal Executive Salary Act of 1964
+      - act: 'Executive Pay Act of 1949'
+        date: '1949-10-15'
+        effective: '1949-10'
+        until: '1956-07'
+        tags: [pay]
+        cite: 'ch. 695, § 5(a), 63 Stat. 880, 881'
+        does: '$15,000 a year ("each Assistant Secretary of an executive department").'
+      - act: 'Federal Executive Pay Act of 1956'
+        date: '1956-07-31'
+        effective: '1956-07'
+        until: '1964-07'
+        tags: [pay]
+        cite: 'ch. 804, title I, § 106(a)(11), 70 Stat. 736, 738'
+        usc: '5 U.S.C. § 2205 (1958)'
+        does: '$20,000 a year ("Assistant Secretaries of Agriculture (3)").'
+      - act: 'Federal Executive Salary Act of 1964'
         date: '1964-08-14'
         effective: '1964-07'
+        until: '1966-09-06'
         tags: [pay]
-        cite: 'Pub. L. 88-426, § 303(d), 78 Stat. 400, 418'
+        cite: 'Pub. L. 88-426, § 303(d)(11), 78 Stat. 400, 418'
+        usc: '5 U.S.C. § 2211(d) (1964)'
+        does: 'Level IV, $27,000 a year ("Assistant Secretaries of Agriculture (3)").'
+      - act: 'Act of Sept. 6, 1966 (Title 5 enacted)'
+        date: '1966-09-06'
+        until: '1967-12'
+        tags: [pay]
+        cite: 'Pub. L. 89-554, 80 Stat. 378, 462'
         usc: '5 U.S.C. § 5315 (1970)'
-        does: Assistant Secretaries of Agriculture (3) at Level IV, $27,000.
+        does: 'Level IV continued, $27,000 a year (§ 5315(11)).'
+      - act: 'Federal Salary Act of 1967'
+        date: '1967-12-16'
+        effective: '1967-12'
+        until: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 215(b), 81 Stat. 613, 638'
+        usc: '5 U.S.C. § 5315 (1970)'
+        does: 'Level IV raised to $28,750 a year.'
+      - act: 'Federal Salary Act of 1967, § 225'
+        date: '1967-12-16'
+        effective: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644'
+        usc: '2 U.S.C. §§ 358–360 (1970)'
+        does: 'Level IV, $38,000 a year, on the President''s recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).'
       - act: Rural Development Act of 1972
         date: '1972-08-30'
         tags: [creates, appointment]
@@ -185,6 +293,7 @@ offices:
         given: James Earl
         title: Assistant Secretary for Federal-States Relations
         nominated: '1953-01-21'
+        confirmed: '1953-01-29'
         from: '1953-01-21'
         to: '1954-11-14'
         src: ['Century of Service (1963), pp. 374, 453', Cong. Rec.]
@@ -203,7 +312,7 @@ offices:
         confirmed: '1953-07-16'
         from: '1953-07-21'
         to: '1953-09-27'
-        n: Administrator of the Foreign Agricultural Service, 1953. Check his group.
+        n: 'Administrator of the Foreign Agricultural Service, Mar. 1953. As Assistant Secretary, the Foreign Agricultural Service; it passed to Davis on his resignation (Century of Service, p. 375).'
         src: ['Century of Service (1963), p. 453', Cong. Rec. Index 1953, Cong. Rec.]
       - name: Rizley, Ross
         title: Assistant Secretary for Agricultural Stabilization
@@ -211,6 +320,7 @@ offices:
         confirmed: '1954-01-14'
         from: '1953-12-17'
         to: '1954-12-16'
+        n: 'Check: recess appointment, the date of the commission.'
         src: ['Century of Service (1963), pp. 377, 453', Cong. Rec. Index 1954, Cong. Rec.]
       - name: Butz, Earl L.
         given: Earl Lauer
@@ -261,6 +371,7 @@ offices:
         confirmed: '1959-02-06'
         from: '1958-12-22'
         to: '1961-01-20'
+        n: 'Check: recess appointment, the date of the commission.'
         src: ['Century of Service (1963), p. 453', CDIR 1959-03, Cong. Rec. Index 1959, Cong. Rec.]
       - name: Ferguson, Clarence M.
         given: Clarence Meadd
@@ -289,9 +400,11 @@ offices:
       - name: Ralph, James T.
         given: James Tyree
         title: Assistant Secretary for Agricultural Stabilization
+        nominated: '1961-03-14'
+        confirmed: '1961-03-16'
         from: '1961-03-20'
         to: '1962-02-20'
-        src: ['Century of Service (1963), p. 453', CDIR 1962-01]
+        src: ['Century of Service (1963), p. 453', CDIR 1962-01, Cong. Rec.]
       - name: Baker, John A.
         given: John Austin
         title: Assistant Secretary for Rural Development and Conservation
@@ -299,13 +412,16 @@ offices:
         confirmed: '1962-08-01'
         from: '1962-08-03'
         to: '1969'
-        n: 'Director of Agricultural Credit, 1961–62. Listed in CDIR to Dec. 1967. Check his title and the day he left.'
-        src: ['Century of Service (1963), p. 453', CDIR 1963-03, CDIR 1967-12, Cong. Rec.]
+        n: 'Director of Agricultural Credit, 1961–62. Rural development and conservation group from the reorganization of Sept. 1962. Listed in CDIR to Dec. 1967. Check the day he left.'
+        src: ['Century of Service (1963), p. 453', CDIR 1963-03, CDIR 1967-12, Cong. Rec., 'CR, Sept. 19, 1962', 'CR, Jan. 10, 1967']
       - name: Renne, Roland R.
+        title: Assistant Secretary for International Affairs
+        nominated: '1963-01-24'
+        confirmed: '1963-03-01'
         from: '1963'
         to: '1964'
-        n: 'Listed in CDIR, Mar. 1963 and Jan. 1964. Check his group and both dates.'
-        src: [CDIR 1963-03, CDIR 1964-01]
+        n: 'President of Montana State College. Listed in CDIR, Mar. 1963 and Jan. 1964; Jacobson nominated to succeed, Apr. 1964. Check the days he took office and left.'
+        src: [CDIR 1963-03, CDIR 1964-01, 'Wikipedia: Roland Renne', Cong. Rec.]
       - name: Mehren, George L.
         title: Assistant Secretary for Marketing and Consumer Services
         nominated: '1963-08-19'
@@ -339,6 +455,7 @@ offices:
         src: [CDIR 1969-03, CDIR 1971-12, Cong. Rec.]
       - name: Cowden, Thomas K.
         title: Assistant Secretary for Rural Development and Conservation
+        nominated: '1969-04-14'
         confirmed: '1969-05-08'
         from: '1969'
         to: '1973'
@@ -370,15 +487,18 @@ offices:
         src: ['FRUS persons list, 1969–76', 'Wikipedia: Clayton Yeutter', CDIR 1973-03, Cong. Rec.]
       - name: Long, Robert W.
         title: Assistant Secretary for Conservation, Research, and Education
+        nominated: '1973-02-20'
         confirmed: '1973-03-12'
         from: '1973'
         n: 'Listed in CDIR, Dec. 1973. Check the day.'
         src: [FRUS persons list, CDIR 1973-12, Cong. Rec.]
       - name: Yeutter, Clayton
         title: Assistant Secretary for International Affairs and Commodity Programs
+        nominated: '1973-01-12'
+        confirmed: '1973-01-23'
         from: '1974-03'
         n: Check the day.
-        src: ['Wikipedia: Clayton Yeutter', 'FRUS persons list, 1969–76']
+        src: ['Wikipedia: Clayton Yeutter', 'FRUS persons list, 1969–76', Cong. Rec.]
   - id: asst-administration
     title: Administrative Assistant Secretary of Agriculture
     titles:
@@ -401,6 +521,43 @@ offices:
         cite: 'Pub. L. 88-426, §§ 303(e), 307, 78 Stat. 400, 419, 432'
         usc: ['5 U.S.C. § 5316 (1970)', '7 U.S.C. § 2213 (1970)']
         does: Level V, $26,000; the title becomes Assistant Secretary of Agriculture for Administration.
+      - act: 'Act of Sept. 23, 1959'
+        date: '1959-09-23'
+        until: '1964-07'
+        tags: [pay]
+        cite: 'Pub. L. 86-370, § 3(b), 73 Stat. 650, 651'
+        usc: '5 U.S.C. § 2205 (1958 Supp. V)'
+        does: '$19,000 a year ("Administrative Assistant Secretary of Agriculture"), added to § 106(b) of the Federal Executive Pay Act of 1956; from the first pay period after Sept. 23, 1959.'
+      - act: 'Federal Executive Salary Act of 1964'
+        date: '1964-08-14'
+        effective: '1964-07'
+        until: '1966-09-06'
+        tags: [pay]
+        cite: 'Pub. L. 88-426, §§ 303(e)(23), 307, 78 Stat. 400, 419, 432'
+        usc: '5 U.S.C. § 2211(e) (1964)'
+        does: 'Level V, $26,000 a year. Retitled Assistant Secretary of Agriculture for Administration (§ 307).'
+      - act: 'Act of Sept. 6, 1966 (Title 5 enacted)'
+        date: '1966-09-06'
+        until: '1967-12'
+        tags: [pay]
+        cite: 'Pub. L. 89-554, 80 Stat. 378, 464'
+        usc: '5 U.S.C. § 5316 (1970)'
+        does: 'Level V continued, $26,000 a year (§ 5316(23)).'
+      - act: 'Federal Salary Act of 1967'
+        date: '1967-12-16'
+        effective: '1967-12'
+        until: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 215(c), 81 Stat. 613, 638'
+        usc: '5 U.S.C. § 5316 (1970)'
+        does: 'Level V raised to $28,000 a year.'
+      - act: 'Federal Salary Act of 1967, § 225'
+        date: '1967-12-16'
+        effective: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644'
+        usc: '2 U.S.C. §§ 358–360 (1970)'
+        does: 'Level V, $36,000 a year, on the President''s recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).'
     holders:
       - name: Aplin, Richard D.
         given: Richard David
@@ -460,13 +617,36 @@ offices:
     level: V
     from: '1961'
     law:
-      - act: Federal Executive Salary Act of 1964
+      - act: 'Federal Executive Salary Act of 1964'
         date: '1964-08-14'
         effective: '1964-07'
+        until: '1966-09-06'
         tags: [pay]
-        cite: 'Pub. L. 88-426, § 303(e), 78 Stat. 400, 420'
+        cite: 'Pub. L. 88-426, § 303(e)(55), 78 Stat. 400, 420'
+        usc: '5 U.S.C. § 2211(e) (1964)'
+        does: 'Level V, $26,000 a year.'
+      - act: 'Act of Sept. 6, 1966 (Title 5 enacted)'
+        date: '1966-09-06'
+        until: '1967-12'
+        tags: [pay]
+        cite: 'Pub. L. 89-554, 80 Stat. 378, 465'
         usc: '5 U.S.C. § 5316 (1970)'
-        does: Level V, $26,000.
+        does: 'Level V continued, $26,000 a year (§ 5316(55)).'
+      - act: 'Federal Salary Act of 1967'
+        date: '1967-12-16'
+        effective: '1967-12'
+        until: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 215(c), 81 Stat. 613, 638'
+        usc: '5 U.S.C. § 5316 (1970)'
+        does: 'Level V raised to $28,000 a year.'
+      - act: 'Federal Salary Act of 1967, § 225'
+        date: '1967-12-16'
+        effective: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644'
+        usc: '2 U.S.C. §§ 358–360 (1970)'
+        does: 'Level V, $36,000 a year, on the President''s recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).'
     holders:
       - name: Cochrane, Willard W.
         from: '1961'
@@ -502,13 +682,36 @@ offices:
     until: '1973'
     n: Succeeded by the Assistant Secretary for Conservation, Research, and Education. Check both dates.
     law:
-      - act: Federal Executive Salary Act of 1964
+      - act: 'Federal Executive Salary Act of 1964'
         date: '1964-08-14'
         effective: '1964-07'
+        until: '1966-09-06'
         tags: [pay]
-        cite: 'Pub. L. 88-426, § 303(e), 78 Stat. 400, 420'
+        cite: 'Pub. L. 88-426, § 303(e)(63), 78 Stat. 400, 421'
+        usc: '5 U.S.C. § 2211(e) (1964)'
+        does: 'Level V, $26,000 a year.'
+      - act: 'Act of Sept. 6, 1966 (Title 5 enacted)'
+        date: '1966-09-06'
+        until: '1967-12'
+        tags: [pay]
+        cite: 'Pub. L. 89-554, 80 Stat. 378, 465'
         usc: '5 U.S.C. § 5316 (1970)'
-        does: Level V, $26,000.
+        does: 'Level V continued, $26,000 a year (§ 5316(63)).'
+      - act: 'Federal Salary Act of 1967'
+        date: '1967-12-16'
+        effective: '1967-12'
+        until: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 215(c), 81 Stat. 613, 638'
+        usc: '5 U.S.C. § 5316 (1970)'
+        does: 'Level V raised to $28,000 a year.'
+      - act: 'Federal Salary Act of 1967, § 225'
+        date: '1967-12-16'
+        effective: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644'
+        usc: '2 U.S.C. §§ 358–360 (1970)'
+        does: 'Level V, $36,000 a year, on the President''s recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).'
     holders:
       - name: Brady, Nyle C.
         from: '1963'
@@ -542,13 +745,52 @@ offices:
         cite: 'ch. 804, § 301, 70 Stat. 736, 742'
         usc: ['5 U.S.C. § 518a (1958)', '7 U.S.C. § 2214 (1970)']
         does: 'A General Counsel of the Department, appointed by the President with the advice and consent of the Senate; the existing office abolished on his appointment or Apr. 1, 1957.'
-      - act: Federal Executive Salary Act of 1964
+      - act: 'Federal Executive Pay Act of 1956'
+        date: '1956-07-31'
+        effective: '1956-07'
+        until: '1960-07'
+        tags: [pay]
+        cite: 'ch. 804, title I, § 106(b)(9), 70 Stat. 736, 739'
+        usc: '5 U.S.C. § 2205 (1958)'
+        does: '$19,000 a year ("Legal adviser, solicitor, or general counsel of an executive or military department (excluding the Department of Justice)").'
+      - act: 'Act of July 1, 1960'
+        date: '1960-07-01'
+        effective: '1960-07'
+        until: '1964-07'
+        tags: [pay]
+        cite: 'Pub. L. 86-568, § 201(1), 74 Stat. 296, 305'
+        usc: '5 U.S.C. § 2205 (1958 Supp. V)'
+        does: '$20,000 a year ("Legal adviser, solicitor, or general counsel of an executive department (excluding the Department of Justice)"), added to § 106(a) of the Federal Executive Pay Act of 1956.'
+      - act: 'Federal Executive Salary Act of 1964'
         date: '1964-08-14'
         effective: '1964-07'
+        until: '1966-09-06'
         tags: [pay]
-        cite: 'Pub. L. 88-426, § 303(d), 78 Stat. 400, 418'
+        cite: 'Pub. L. 88-426, § 303(d)(38), 78 Stat. 400, 418'
+        usc: '5 U.S.C. § 2211(d) (1964)'
+        does: 'Level IV, $27,000 a year.'
+      - act: 'Act of Sept. 6, 1966 (Title 5 enacted)'
+        date: '1966-09-06'
+        until: '1967-12'
+        tags: [pay]
+        cite: 'Pub. L. 89-554, 80 Stat. 378, 462'
         usc: '5 U.S.C. § 5315 (1970)'
-        does: Level IV, $27,000.
+        does: 'Level IV continued, $27,000 a year (§ 5315(38)).'
+      - act: 'Federal Salary Act of 1967'
+        date: '1967-12-16'
+        effective: '1967-12'
+        until: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 215(b), 81 Stat. 613, 638'
+        usc: '5 U.S.C. § 5315 (1970)'
+        does: 'Level IV raised to $28,750 a year.'
+      - act: 'Federal Salary Act of 1967, § 225'
+        date: '1967-12-16'
+        effective: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644'
+        usc: '2 U.S.C. §§ 358–360 (1970)'
+        does: 'Level IV, $38,000 a year, on the President''s recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).'
     holders:
       - name: Hunter, W. Carroll
         from: '1946'
@@ -682,13 +924,44 @@ offices:
     from: '1953'
     n: 'Successor to the Production and Marketing Administration. The Administrator also Executive Vice President of the Commodity Credit Corporation (CDIR).'
     law:
-      - act: Federal Executive Salary Act of 1964
+      - act: 'Federal Executive Pay Act of 1956'
+        date: '1956-07-31'
+        effective: '1956-07'
+        until: '1964-07'
+        tags: [pay]
+        cite: 'ch. 804, title I, § 106(a)(3), 70 Stat. 736, 737'
+        usc: '5 U.S.C. § 2205 (1958)'
+        does: '$20,000 a year.'
+      - act: 'Federal Executive Salary Act of 1964'
         date: '1964-08-14'
         effective: '1964-07'
+        until: '1966-09-06'
         tags: [pay]
-        cite: 'Pub. L. 88-426, § 303(e), 78 Stat. 400, 419'
+        cite: 'Pub. L. 88-426, § 303(e)(3), 78 Stat. 400, 419'
+        usc: '5 U.S.C. § 2211(e) (1964)'
+        does: 'Level V, $26,000 a year.'
+      - act: 'Act of Sept. 6, 1966 (Title 5 enacted)'
+        date: '1966-09-06'
+        until: '1967-12'
+        tags: [pay]
+        cite: 'Pub. L. 89-554, 80 Stat. 378, 463'
         usc: '5 U.S.C. § 5316 (1970)'
-        does: Administrator of the Agricultural Stabilization and Conservation Service at Level V, $26,000.
+        does: 'Level V continued, $26,000 a year (§ 5316(3)).'
+      - act: 'Federal Salary Act of 1967'
+        date: '1967-12-16'
+        effective: '1967-12'
+        until: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 215(c), 81 Stat. 613, 638'
+        usc: '5 U.S.C. § 5316 (1970)'
+        does: 'Level V raised to $28,000 a year.'
+      - act: 'Federal Salary Act of 1967, § 225'
+        date: '1967-12-16'
+        effective: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644'
+        usc: '2 U.S.C. §§ 358–360 (1970)'
+        does: 'Level V, $36,000 a year, on the President''s recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).'
     holders:
       - name: Gordon, Howard H.
         from: '1953'
@@ -727,26 +1000,82 @@ offices:
     rank: inferior
     appt: PAS
     level: V
-    n: Check the manner of appointment.
     law:
       - act: Farmers Home Administration Act of 1946
         date: '1946-08-14'
         tags: [creates, powers]
         cite: 'ch. 964, 60 Stat. 1062'
         does: Amends the Bankhead-Jones Farm Tenant Act; establishes the Farmers Home Administration in the Department (§ 40(a)).
+      - act: Farmers Home Administration Act of 1946
+        date: '1946-08-14'
+        tags: [appointment]
+        cite: 'ch. 964, § 3, 60 Stat. 1062, 1064'
+        does: 'Section 41(a) of the Bankhead-Jones Farm Tenant Act as amended: the Administrator of the Farmers Home Administration appointed by the President, by and with the advice and consent of the Senate; salary not over $10,000.'
       - act: Consolidated Farmers Home Administration Act of 1961
         date: '1961-08-08'
         tags: [powers]
         cite: 'Pub. L. 87-128, title III, 75 Stat. 294, 307'
         usc: '7 U.S.C. § 1921 (1964)'
         does: Consolidates the Administration's farm ownership, operating, and emergency loan authorities.
-      - act: Federal Executive Salary Act of 1964
+      - act: Consolidated Farmers Home Administration Act of 1961
+        date: '1961-08-08'
+        tags: [appointment]
+        cite: 'Pub. L. 87-128, § 331, 75 Stat. 294, 312'
+        usc: '7 U.S.C. § 1981 (1964)'
+        does: 'The Secretary may assign his agricultural credit powers to the Farmers Home Administration, headed by an Administrator appointed by the President, by and with the advice and consent of the Senate.'
+      - act: 'Executive Pay Act of 1949'
+        date: '1949-10-15'
+        effective: '1949-10'
+        until: '1956-07'
+        tags: [pay]
+        cite: 'ch. 695, § 6(a), 63 Stat. 880, 881'
+        does: '$14,000 a year.'
+      - act: 'Federal Executive Pay Act of 1956'
+        date: '1956-07-31'
+        effective: '1956-07'
+        until: '1961-12'
+        tags: [pay]
+        cite: 'ch. 804, title I, § 107(a)(3), 70 Stat. 736, 739'
+        usc: '5 U.S.C. § 2206 (1958)'
+        does: '$17,500 a year.'
+      - act: 'Act of Oct. 4, 1961'
+        date: '1961-10-04'
+        effective: '1961-12'
+        until: '1964-07'
+        tags: [pay]
+        cite: 'Pub. L. 87-367, § 303(c), 75 Stat. 785, 793'
+        usc: '5 U.S.C. § 2205 (1958 Supp. V)'
+        does: '$19,000 a year ("Administrator, Farmers Home Administration"), under the Federal Executive Pay Act of 1956 as amended.'
+      - act: 'Federal Executive Salary Act of 1964'
         date: '1964-08-14'
         effective: '1964-07'
+        until: '1966-09-06'
         tags: [pay]
-        cite: 'Pub. L. 88-426, § 303(e), 78 Stat. 400, 419'
+        cite: 'Pub. L. 88-426, § 303(e)(4), 78 Stat. 400, 419'
+        usc: '5 U.S.C. § 2211(e) (1964)'
+        does: 'Level V, $26,000 a year.'
+      - act: 'Act of Sept. 6, 1966 (Title 5 enacted)'
+        date: '1966-09-06'
+        until: '1967-12'
+        tags: [pay]
+        cite: 'Pub. L. 89-554, 80 Stat. 378, 463'
         usc: '5 U.S.C. § 5316 (1970)'
-        does: Level V, $26,000.
+        does: 'Level V continued, $26,000 a year (§ 5316(4)).'
+      - act: 'Federal Salary Act of 1967'
+        date: '1967-12-16'
+        effective: '1967-12'
+        until: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 215(c), 81 Stat. 613, 638'
+        usc: '5 U.S.C. § 5316 (1970)'
+        does: 'Level V raised to $28,000 a year.'
+      - act: 'Federal Salary Act of 1967, § 225'
+        date: '1967-12-16'
+        effective: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644'
+        usc: '2 U.S.C. §§ 358–360 (1970)'
+        does: 'Level V, $36,000 a year, on the President''s recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).'
     holders:
       - name: Lasseter, Dillard B.
         from: '1946'
@@ -798,13 +1127,51 @@ offices:
         cite: 'ch. 432, 49 Stat. 1363'
         usc: '7 U.S.C. §§ 901–914 (1958)'
         does: 'The Rural Electrification Administration under an Administrator, appointed by the President with the advice and consent of the Senate for ten years; loans for rural electrification.'
-      - act: Federal Executive Salary Act of 1964
+      - act: 'Executive Pay Act of 1949'
+        date: '1949-10-15'
+        effective: '1949-10'
+        until: '1956-07'
+        tags: [pay]
+        cite: 'ch. 695, § 5(a), 63 Stat. 880, 881'
+        does: '$15,000 a year.'
+      - act: 'Federal Executive Pay Act of 1956'
+        date: '1956-07-31'
+        effective: '1956-07'
+        until: '1964-07'
+        tags: [pay]
+        cite: 'ch. 804, title I, § 106(a)(4), 70 Stat. 736, 737'
+        usc: '5 U.S.C. § 2205 (1958)'
+        does: '$20,000 a year.'
+      - act: 'Federal Executive Salary Act of 1964'
         date: '1964-08-14'
         effective: '1964-07'
+        until: '1966-09-06'
         tags: [pay]
-        cite: 'Pub. L. 88-426, § 303(e), 78 Stat. 400, 419'
+        cite: 'Pub. L. 88-426, § 303(e)(6), 78 Stat. 400, 419'
+        usc: '5 U.S.C. § 2211(e) (1964)'
+        does: 'Level V, $26,000 a year.'
+      - act: 'Act of Sept. 6, 1966 (Title 5 enacted)'
+        date: '1966-09-06'
+        until: '1967-12'
+        tags: [pay]
+        cite: 'Pub. L. 89-554, 80 Stat. 378, 463'
         usc: '5 U.S.C. § 5316 (1970)'
-        does: Level V, $26,000.
+        does: 'Level V continued, $26,000 a year (§ 5316(6)).'
+      - act: 'Federal Salary Act of 1967'
+        date: '1967-12-16'
+        effective: '1967-12'
+        until: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 215(c), 81 Stat. 613, 638'
+        usc: '5 U.S.C. § 5316 (1970)'
+        does: 'Level V raised to $28,000 a year.'
+      - act: 'Federal Salary Act of 1967, § 225'
+        date: '1967-12-16'
+        effective: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644'
+        usc: '2 U.S.C. §§ 358–360 (1970)'
+        does: 'Level V, $36,000 a year, on the President''s recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).'
     holders:
       - name: Wickard, Claude R.
         from: '1945'
@@ -819,6 +1186,7 @@ offices:
         n: 'Resigned from the Minnesota Senate May 1, 1953, for the post. Check both dates.'
         src: ['Wikipedia: Ancher Nelsen', CDIR 1954-01, CDIR 1956-01, Cong. Rec.]
       - name: Hamil, David A.
+        nominated: '1956-06-07'
         confirmed: '1956-06-21'
         from: '1956'
         to: '1961'
@@ -850,13 +1218,59 @@ offices:
         cite: 'ch. 85, 49 Stat. 163'
         usc: '16 U.S.C. §§ 590a–590f (1958)'
         does: The Secretary to conduct surveys, investigations, and research on soil erosion and to carry out preventive measures; the Soil Conservation Service established in the Department.
-      - act: Federal Executive Salary Act of 1964
+      - act: 'Executive Pay Act of 1949'
+        date: '1949-10-15'
+        effective: '1949-10'
+        until: '1956-07'
+        tags: [pay]
+        cite: 'ch. 695, § 6(a), 63 Stat. 880, 881'
+        does: '$14,000 a year ("the Chief of the Soil Conservation Service").'
+      - act: 'Federal Executive Pay Act of 1956'
+        date: '1956-07-31'
+        effective: '1956-07'
+        until: '1961-12'
+        tags: [pay]
+        cite: 'ch. 804, title I, § 107(a)(4), 70 Stat. 736, 739'
+        usc: '5 U.S.C. § 2206 (1958)'
+        does: '$17,500 a year.'
+      - act: 'Act of Oct. 4, 1961'
+        date: '1961-10-04'
+        effective: '1961-12'
+        until: '1964-07'
+        tags: [pay]
+        cite: 'Pub. L. 87-367, § 303(c), 75 Stat. 785, 793'
+        usc: '5 U.S.C. § 2205 (1958 Supp. V)'
+        does: '$19,000 a year ("Administrator, Soil Conservation Service, Department of Agriculture"), under the Federal Executive Pay Act of 1956 as amended.'
+      - act: 'Federal Executive Salary Act of 1964'
         date: '1964-08-14'
         effective: '1964-07'
+        until: '1966-09-06'
         tags: [pay]
-        cite: 'Pub. L. 88-426, § 303(e), 78 Stat. 400, 419'
+        cite: 'Pub. L. 88-426, § 303(e)(7), 78 Stat. 400, 419'
+        usc: '5 U.S.C. § 2211(e) (1964)'
+        does: 'Level V, $26,000 a year.'
+      - act: 'Act of Sept. 6, 1966 (Title 5 enacted)'
+        date: '1966-09-06'
+        until: '1967-12'
+        tags: [pay]
+        cite: 'Pub. L. 89-554, 80 Stat. 378, 463'
         usc: '5 U.S.C. § 5316 (1970)'
-        does: Level V, $26,000.
+        does: 'Level V continued, $26,000 a year (§ 5316(7)).'
+      - act: 'Federal Salary Act of 1967'
+        date: '1967-12-16'
+        effective: '1967-12'
+        until: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 215(c), 81 Stat. 613, 638'
+        usc: '5 U.S.C. § 5316 (1970)'
+        does: 'Level V raised to $28,000 a year.'
+      - act: 'Federal Salary Act of 1967, § 225'
+        date: '1967-12-16'
+        effective: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644'
+        usc: '2 U.S.C. §§ 358–360 (1970)'
+        does: 'Level V, $36,000 a year, on the President''s recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).'
     holders:
       - name: Salter, Robert M.
         from: '1951'
@@ -885,13 +1299,59 @@ offices:
         cite: 'ch. 288, 33 Stat. 628'
         usc: '16 U.S.C. § 472 (1958)'
         does: The Secretary of Agriculture to execute the laws affecting the forest reserves, transferred from the Department of the Interior.
-      - act: Federal Executive Salary Act of 1964
+      - act: 'Executive Pay Act of 1949'
+        date: '1949-10-15'
+        effective: '1949-10'
+        until: '1956-07'
+        tags: [pay]
+        cite: 'ch. 695, § 6(a), 63 Stat. 880, 881'
+        does: '$14,000 a year ("the Chief Forester of the Forest Service").'
+      - act: 'Federal Executive Pay Act of 1956'
+        date: '1956-07-31'
+        effective: '1956-07'
+        until: '1961-12'
+        tags: [pay]
+        cite: 'ch. 804, title I, § 107(a)(9), 70 Stat. 736, 739'
+        usc: '5 U.S.C. § 2206 (1958)'
+        does: '$17,500 a year ("Chief Forester of the Forest Service").'
+      - act: 'Act of Oct. 4, 1961'
+        date: '1961-10-04'
+        effective: '1961-12'
+        until: '1964-07'
+        tags: [pay]
+        cite: 'Pub. L. 87-367, § 303(c), 75 Stat. 785, 793'
+        usc: '5 U.S.C. § 2205 (1958 Supp. V)'
+        does: '$19,000 a year ("Chief Forester of the Forest Service, Department of Agriculture"), under the Federal Executive Pay Act of 1956 as amended.'
+      - act: 'Federal Executive Salary Act of 1964'
         date: '1964-08-14'
         effective: '1964-07'
+        until: '1966-09-06'
         tags: [pay]
-        cite: 'Pub. L. 88-426, § 303(e), 78 Stat. 400, 420'
+        cite: 'Pub. L. 88-426, § 303(e)(36), 78 Stat. 400, 420'
+        usc: '5 U.S.C. § 2211(e) (1964)'
+        does: 'Level V, $26,000 a year ("Chief Forester of the Forest Service, Department of Agriculture").'
+      - act: 'Act of Sept. 6, 1966 (Title 5 enacted)'
+        date: '1966-09-06'
+        until: '1967-12'
+        tags: [pay]
+        cite: 'Pub. L. 89-554, 80 Stat. 378, 464'
         usc: '5 U.S.C. § 5316 (1970)'
-        does: Chief Forester at Level V, $26,000.
+        does: 'Level V continued, $26,000 a year (§ 5316(36)).'
+      - act: 'Federal Salary Act of 1967'
+        date: '1967-12-16'
+        effective: '1967-12'
+        until: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 215(c), 81 Stat. 613, 638'
+        usc: '5 U.S.C. § 5316 (1970)'
+        does: 'Level V raised to $28,000 a year.'
+      - act: 'Federal Salary Act of 1967, § 225'
+        date: '1967-12-16'
+        effective: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644'
+        usc: '2 U.S.C. §§ 358–360 (1970)'
+        does: 'Level V, $36,000 a year, on the President''s recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).'
     holders:
       - name: McArdle, Richard E.
         from: '1952-07-01'
@@ -913,13 +1373,44 @@ offices:
     from: '1953-11-02'
     n: 'Established by Secretary''s Memorandum 1320, supp. 4, Nov. 2, 1953, succeeding the Agricultural Research Administration (GOM 1958–59).'
     law:
-      - act: Federal Executive Salary Act of 1964
+      - act: 'Federal Executive Pay Act of 1956'
+        date: '1956-07-31'
+        effective: '1956-07'
+        until: '1959-09-23'
+        tags: [pay]
+        cite: 'ch. 804, title I, § 107(a)(1), 70 Stat. 736, 739'
+        usc: '5 U.S.C. § 2206 (1958)'
+        does: '$17,500 a year.'
+      - act: 'Federal Executive Salary Act of 1964'
         date: '1964-08-14'
         effective: '1964-07'
+        until: '1966-09-06'
         tags: [pay]
-        cite: 'Pub. L. 88-426, § 303(e), 78 Stat. 400, 419'
+        cite: 'Pub. L. 88-426, § 303(e)(2), 78 Stat. 400, 419'
+        usc: '5 U.S.C. § 2211(e) (1964)'
+        does: 'Level V, $26,000 a year.'
+      - act: 'Act of Sept. 6, 1966 (Title 5 enacted)'
+        date: '1966-09-06'
+        until: '1967-12'
+        tags: [pay]
+        cite: 'Pub. L. 89-554, 80 Stat. 378, 463'
         usc: '5 U.S.C. § 5316 (1970)'
-        does: Level V, $26,000.
+        does: 'Level V continued, $26,000 a year (§ 5316(2)).'
+      - act: 'Federal Salary Act of 1967'
+        date: '1967-12-16'
+        effective: '1967-12'
+        until: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 215(c), 81 Stat. 613, 638'
+        usc: '5 U.S.C. § 5316 (1970)'
+        does: 'Level V raised to $28,000 a year.'
+      - act: 'Federal Salary Act of 1967, § 225'
+        date: '1967-12-16'
+        effective: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644'
+        usc: '2 U.S.C. §§ 358–360 (1970)'
+        does: 'Level V, $36,000 a year, on the President''s recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).'
     holders:
       - name: Shaw, Byron T.
         from: '1953-11-02'
@@ -952,13 +1443,36 @@ offices:
         cite: 'ch. 966, title II, 60 Stat. 1082'
         usc: '7 U.S.C. §§ 1621–1627 (1958)'
         does: The Secretary to conduct and promote research, services, and standards for the marketing of agricultural products.
-      - act: Federal Executive Salary Act of 1964
+      - act: 'Federal Executive Salary Act of 1964'
         date: '1964-08-14'
         effective: '1964-07'
+        until: '1966-09-06'
         tags: [pay]
-        cite: 'Pub. L. 88-426, § 303(e), 78 Stat. 400, 419'
+        cite: 'Pub. L. 88-426, § 303(e)(1), 78 Stat. 400, 419'
+        usc: '5 U.S.C. § 2211(e) (1964)'
+        does: 'Level V, $26,000 a year.'
+      - act: 'Act of Sept. 6, 1966 (Title 5 enacted)'
+        date: '1966-09-06'
+        until: '1967-12'
+        tags: [pay]
+        cite: 'Pub. L. 89-554, 80 Stat. 378, 463'
         usc: '5 U.S.C. § 5316 (1970)'
-        does: Level V, $26,000.
+        does: 'Level V continued, $26,000 a year (§ 5316(1)).'
+      - act: 'Federal Salary Act of 1967'
+        date: '1967-12-16'
+        effective: '1967-12'
+        until: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 215(c), 81 Stat. 613, 638'
+        usc: '5 U.S.C. § 5316 (1970)'
+        does: 'Level V raised to $28,000 a year.'
+      - act: 'Federal Salary Act of 1967, § 225'
+        date: '1967-12-16'
+        effective: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644'
+        usc: '2 U.S.C. §§ 358–360 (1970)'
+        does: 'Level V, $36,000 a year, on the President''s recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).'
     holders:
       - name: Wells, Oris V.
         from: '1953'
@@ -970,16 +1484,11 @@ offices:
         to: '1968'
         n: 'Listed in CDIR, Jan. 1962 to Dec. 1967. Check his given name and both dates.'
         src: ['Century of Service (1963), p. 454', CDIR 1962-01, CDIR 1967-12]
-      - name: Finner, Winn F.
-        from: '1969'
-        to: '1969'
-        n: 'Listed in CDIR, Mar. 1969. Check whether acting, and both dates.'
-        src: [CDIR 1969-03]
       - name: Lennartson, Roy W.
         from: '1969'
         to: '1970'
-        n: 'Listed in CDIR, Dec. 1969. Check both dates.'
-        src: [CDIR 1969-12]
+        n: 'Listed in CDIR, Mar. and Dec. 1969; Winn F. Finner associate administrator, Mar. 1969. Check both dates.'
+        src: [CDIR 1969-03, CDIR 1969-12]
       - name: Yeutter, Clayton
         from: '1970'
         to: '1972'
@@ -1005,13 +1514,36 @@ offices:
         cite: 'ch. 1041, title VI, 68 Stat. 897, 908'
         usc: '7 U.S.C. §§ 1761–1768 (1958)'
         does: Agricultural attachés abroad appointed by the Secretary, attached to the diplomatic missions.
-      - act: Federal Executive Salary Act of 1964
+      - act: 'Federal Executive Salary Act of 1964'
         date: '1964-08-14'
         effective: '1964-07'
+        until: '1966-09-06'
         tags: [pay]
-        cite: 'Pub. L. 88-426, § 303(e), 78 Stat. 400, 419'
+        cite: 'Pub. L. 88-426, § 303(e)(5), 78 Stat. 400, 419'
+        usc: '5 U.S.C. § 2211(e) (1964)'
+        does: 'Level V, $26,000 a year.'
+      - act: 'Act of Sept. 6, 1966 (Title 5 enacted)'
+        date: '1966-09-06'
+        until: '1967-12'
+        tags: [pay]
+        cite: 'Pub. L. 89-554, 80 Stat. 378, 463'
         usc: '5 U.S.C. § 5316 (1970)'
-        does: Level V, $26,000.
+        does: 'Level V continued, $26,000 a year (§ 5316(5)).'
+      - act: 'Federal Salary Act of 1967'
+        date: '1967-12-16'
+        effective: '1967-12'
+        until: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 215(c), 81 Stat. 613, 638'
+        usc: '5 U.S.C. § 5316 (1970)'
+        does: 'Level V raised to $28,000 a year.'
+      - act: 'Federal Salary Act of 1967, § 225'
+        date: '1967-12-16'
+        effective: '1969-02'
+        tags: [pay]
+        cite: 'Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644'
+        usc: '2 U.S.C. §§ 358–360 (1970)'
+        does: 'Level V, $36,000 a year, on the President''s recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).'
     holders:
       - name: Short, Romeo E.
         given: Romeo Ennis
@@ -1060,14 +1592,42 @@ offices:
     group: Federal Crop Insurance Corporation
     rank: inferior
     appt: HD
-    n: The Manager appointed by the Corporation's Board of Directors. Check.
     law:
       - act: Federal Crop Insurance Act
         date: '1938-02-16'
         tags: [creates, powers]
         cite: 'ch. 30, title V, 52 Stat. 31, 72'
         usc: '7 U.S.C. §§ 1501–1519 (1958)'
-        does: Creates the Federal Crop Insurance Corporation within the Department of Agriculture, to insure crops against loss.
+        does: Creates the Federal Crop Insurance Corporation within the Department of Agriculture, to insure crops against loss. A manager, the executive officer, selected by the Board of Directors with the Secretary's approval (§ 505(d)).
+      - act: Act of Aug. 1, 1947
+        date: '1947-08-01'
+        tags: [appointment]
+        cite: 'ch. 440, § 8, 61 Stat. 718, 720'
+        usc: '7 U.S.C. § 1505 (1958)'
+        does: 'Section 505 rewritten: the manager the chief executive officer, appointed by and holding office at the pleasure of the Secretary; a member of the Board.'
+      - act: 'Executive Pay Act of 1949'
+        date: '1949-10-15'
+        effective: '1949-10'
+        until: '1956-07'
+        tags: [pay]
+        cite: 'ch. 695, § 6(a), 63 Stat. 880, 881'
+        does: '$14,000 a year.'
+      - act: 'Federal Executive Pay Act of 1956'
+        date: '1956-07-31'
+        effective: '1956-07'
+        until: '1961-12'
+        tags: [pay]
+        cite: 'ch. 804, title I, § 107(a)(22), 70 Stat. 736, 739'
+        usc: '5 U.S.C. § 2206 (1958)'
+        does: '$17,500 a year.'
+      - act: 'Act of Oct. 4, 1961'
+        date: '1961-10-04'
+        effective: '1961-12'
+        until: '1964-07'
+        tags: [pay]
+        cite: 'Pub. L. 87-367, § 303(c), 75 Stat. 785, 794'
+        usc: '5 U.S.C. § 2205 (1958 Supp. V)'
+        does: '$19,000 a year ("Manager, Federal Crop Insurance Corporation, Department of Agriculture"), under the Federal Executive Pay Act of 1956 as amended.'
     holders:
       - name: Brainard, John W.
         from: '1952'
@@ -1094,10 +1654,10 @@ offices:
         to: '1972'
         n: 'Listed in CDIR, Dec. 1969 to Dec. 1971. Check both dates.'
         src: [CDIR 1969-12, CDIR 1971-12]
-      - name: Skeffington, John P.
+      - name: Peterson, Manly R.
         from: '1973'
-        n: 'Listed in CDIR, Dec. 1973. Check his title and the day.'
-        src: [CDIR 1973-12]
+        n: 'Manager in Sept. 1973 (Congressional Record, Sept. 5, 1973) and the Directory of Dec. 1973; the office vacant in the Directory of Mar. 1973. Check the day.'
+        src: [CDIR 1973-03, CDIR 1973-12, 'CR, Sept. 5, 1973']
   - id: fns
     title: Administrator, Food and Nutrition Service
     group: Food and Nutrition Service

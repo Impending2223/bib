@@ -26,7 +26,7 @@ An office:
       title: Secretary of State
       titles: [{title: ..., from: ...}]   # where the title changed in the period
       rank: head | principal | inferior | employee | military
-      appt: PAS | PA | HD | XO | DES | MIL | CAREER | ELECTED   (see APPT)
+      appt: PAS | PA | HD | VP | XO | DES | MIL | CAREER | ELECTED   (see APPT)
       under: under-secretary       # the office it reports to, where not the unit's head ("unit.office" across units)
       group: Regional bureaus      # a subheading in the unit's table
       level: II                    # the Executive Schedule level (Federal Executive Salary Act of 1964)
@@ -51,7 +51,7 @@ A holder:
       to: '1969-01-20'             # left office; none if still there on Aug. 31, 1974
       out: Resigned.               # how it ended, clipped: "Resigned." "Died." "To Secretary of Defense."
       n: a note; "Check" marks a detail to verify
-      src: [POCOM, CDIR 1961-04, https://...]
+      src: [POCOM, CDIR 1961-04, https://...]   # the forms: tools/bib/executive_sources.py
 
 An authority:
 
@@ -78,7 +78,7 @@ import os
 import re
 from collections import defaultdict
 
-from . import store
+from . import store, executive_sources
 from .markup import to_html, plain
 
 DIR = os.path.join(store.ROOT, "executive")
@@ -97,11 +97,44 @@ RANK = {"head": "Head", "principal": "Principal officer", "inferior": "Inferior 
 APPT = {"PAS": "the President, by and with the advice and consent of the Senate",
         "PA": "the President alone",
         "HD": "the head of the department or agency",
+        "VP": "the Vice President, as President of the Senate: Senate employees, paid by the Secretary of the Senate",
         "XO": "ex officio: held by virtue of another office",
         "DES": "designated by the President from among other officers",
-        "MIL": "a military officer assigned or detailed, with the advice and consent of the Senate to the grade",
-        "CAREER": "the career service",
+        "MIL": "a military officer, assigned or detailed to the post; the Senate confirms the grade, and for the chiefs and the major commands the post",
+        "CAREER": "the career service: a Foreign Service or civil-service officer, assigned by the department; not a political appointment",
         "ELECTED": "elected"}
+# The Executive Schedule: the Federal Executive Salary Act of 1964, title III (Pub. L. 88-426, 78 Stat. 400, 415),
+# in force with the first pay period beginning on or after July 1, 1964; 5 U.S.C. §§ 5311-5316 from 1966.
+LEVELS_FROM = "1964-07-01"
+LEVELS = {"I": "the heads of the executive departments",
+          "II": "the deputy heads of the largest departments, the service secretaries, the heads of the principal agencies",
+          "III": "the under secretaries, the heads of lesser agencies",
+          "IV": "the assistant secretaries, general counsels, members of the larger commissions",
+          "V": "the heads of bureaus, members of the lesser boards"}
+# The rates, with the day each took effect: the 1964 act (§ 303); the Federal Salary Act of 1967, § 215 (levels
+# III-V, Dec. 1967); the President's recommendations under § 225 of that act, in force Feb. 1969 (34 Fed. Reg. 2241).
+# No change to Aug. 1974. The pay entries on each office give the authorities.
+RATES = [("1964-07-01", {"I": 35000, "II": 30000, "III": 28500, "IV": 27000, "V": 26000}),
+         ("1967-12", {"I": 35000, "II": 30000, "III": 29500, "IV": 28750, "V": 28000}),
+         ("1969-02-14", {"I": 60000, "II": 42500, "III": 40000, "IV": 38000, "V": 36000})]
+
+
+def level_rates(lv, a, b):
+    """'$28,500 (July 1964); $29,500 (Dec. 1967)': the level's rates in force in [a, b)."""
+    out = []
+    for i, (d, r) in enumerate(RATES):
+        nxt = RATES[i + 1][0] if i + 1 < len(RATES) else None
+        if lo(d) < lo(b) and (not nxt or lo(nxt) > lo(a)) and lv in r:
+            out.append(f"${r[lv]:,} (from {MONTHS[int(d[5:7]) - 1]} {d[:4]})")
+    return "; ".join(out)
+KEY = ("PAS: appointed by the President with the advice and consent of the Senate. PA: by the President alone. "
+       "HD: by the head of the department or agency. VP: by the Vice President. XO: ex officio. DES: designated by the President from among "
+       "other officers. MIL: a military officer assigned to the post. CAREER: a Foreign Service or civil-service "
+       "officer, not a political appointment. ELECTED: the President and Vice President.")
+KEY_LEVELS = (" Levels I–V: the pay grades of the Executive Schedule, fixed by the Federal Executive Salary Act of 1964 "
+              "for each office by name (I, $35,000, the heads of departments; II, $30,000; III, $28,500; IV, $27,000; "
+              "V, $26,000); levels III–V raised in Dec. 1967 (Federal Salary Act of 1967), all five in Feb. 1969 ($60,000, "
+              "$42,500, $40,000, $38,000, $36,000). A level marks rank as well as pay.")
 UNIT_KEYS = {"unit", "name", "names", "under", "order", "from", "until", "law", "n", "offices"}
 OFFICE_KEYS = {"id", "title", "titles", "rank", "appt", "under", "group", "level", "many", "from", "until",
                "law", "n", "holders"}
@@ -418,33 +451,54 @@ def holder_html(h, a, b, ptr, href, o=None):
         who += f' <span class="exr">{extra}</span>'
     line = holder_line(h, a, b, o) + (" " + to_html(h["n"]) if h.get("n") else "")
     pts = ptr.lines(h["name"], href) if ptr else []
-    return who, f'<span class="exd">{line}</span>', pts
+    return who, f'<span class="exd">{line}</span>' + executive_sources.html(h, (ptr.linker, href) if ptr else None), pts
 
 
 def vacancies(o, a, b):
     """Spans within [a, b) when the office was vacant: no one held it by appointment (an acting officer serves in
     a vacancy; he does not fill it). [(from, to)], clipped to the term. A day between one holder's last day and
-    the next one's first is a handover, not a vacancy, unless someone acted in it."""
+    the next one's first is a handover, not a vacancy, unless someone acted in it. A date known only to the
+    month or year counts at its outermost: a leaving date at its latest day, a taking of office at its earliest,
+    so an imprecise date never makes a vacancy the sources do not show. Each span is (from, to, sure): sure where
+    both ends are known to the day (a holder's leaving and the next one's taking office), or the span runs from
+    the last holder known to the day for less than three months; otherwise the sources record no holder there,
+    which is not proof of a vacancy."""
+    import calendar
     import datetime
-    def day(d):
-        return datetime.date.fromisoformat(d) if len(str(d)) == 10 else None
-    gaps, last = [], None
+
+    def first(d):
+        p = [int(x) for x in str(d).split("-")]
+        return datetime.date(p[0], p[1] if len(p) > 1 else 1, p[2] if len(p) > 2 else 1)
+
+    def final(d):
+        p = [int(x) for x in str(d).split("-")]
+        if len(p) == 3:
+            return datetime.date(*p)
+        m = p[1] if len(p) > 1 else 12
+        return datetime.date(p[0], m, calendar.monthrange(p[0], m)[1])
+
+    gaps, last, last_s = [], None, None
     acting = [h for h in o.get("holders") or [] if h.get("acting")]
     for h in sorted([h for h in o.get("holders") or [] if not h.get("acting")], key=lambda h: lo(h["from"])):
-        f = day(h["from"])
-        if last and f and (f - last).days >= 1:
-            gaps.append((last.isoformat(), h["from"]))
-        t = day(h["to"]) if h.get("to") else datetime.date(9999, 1, 1)
-        if t and (not last or t > last):
-            last = t
-    end = o.get("until") if o.get("until") and len(str(o["until"])) == 10 else END
-    if last and last.year < 9999 and last.isoformat() < end:
-        gaps.append((last.isoformat(), end))
+        if last and (first(h["from"]) - last).days >= 1:
+            gaps.append((last_s, str(h["from"]), len(last_s or "") == 10 and len(str(h["from"])) == 10))
+        if not h.get("to"):
+            last, last_s = datetime.date(9999, 1, 1), None
+        elif not last or final(h["to"]) > last:
+            last, last_s = final(h["to"]), str(h["to"])
+    end = o.get("until") or END
+    if last and last.year < 9999 and final(end) > last:
+        gaps.append((last_s, str(end), len(last_s or "") == 10 and (final(end) - last).days < 90))
     out = []
-    for x, y in gaps:
-        x, y = max(x, a), min(y, b)
-        if x < y and ((day(y) - day(x)).days > 1 or any(lo(x) <= lo(h["from"]) < lo(y) for h in acting)):
-            out.append((x, y))
+    for x, y, sure_vacant in gaps:
+        x = a if lo(x) < lo(a) else x
+        y = b if lo(y) > lo(b) else y
+        if lo(x) >= lo(y):
+            continue
+        sure = (first(y) - final(x)).days
+        acted = any(lo(x) <= lo(h["from"]) < lo(y) for h in acting)
+        if sure > 1 or (sure >= 1 and acted):
+            out.append((x, y, sure_vacant or acted))
     return out
 
 
@@ -521,8 +575,10 @@ def block(i, units, ptr, href, rid, here=False):
             meta = [esc(RANK[o["rank"]])] if o.get("rank") in RANK else []
             if o.get("appt"):
                 meta.append(f'<abbr title="{esc(APPT.get(o["appt"], o["appt"]))}">{esc(o["appt"])}</abbr>')
-            if o.get("level"):
-                meta.append(f"Level {esc(o['level'])}")
+            if o.get("level") and lo(b) > lo(LEVELS_FROM):
+                lv = str(o["level"])
+                meta.append(f'<abbr title="Executive Schedule, level {esc(lv)}: {esc(level_rates(lv, a, b))}. '
+                            f'{esc(LEVELS.get(lv, "").capitalize())}.">Level {esc(lv)}</abbr>')
             if o.get("from") and lo(o["from"]) > lo(START):
                 meta.append(f"from {fmt(o['from'])}")
             if o.get("until") and hi(o["until"]) < lo(b):
@@ -533,27 +589,35 @@ def block(i, units, ptr, href, rid, here=False):
                     meta.append(f"under the {esc(title_at(sup, a))}")
             laws = [law_html(x) for x in o.get("law") or [] if in_force(x, a, b)]
             onote = f'<span class="cgn">{to_html(o["n"])}</span>' if o.get("n") else ""
-            cells, pts_all = [], []
+            # one row a holder (or vacancy), each with its own pointers; the office cell spans them
+            cells = []
             gaps = [] if o.get("many") else vacancies(o, a, b)
             if not hs and not gaps:
-                cells.append('<span class="exh"><i>No holder recorded.</i></span>')
+                cells.append(('<span class="exh"><i>No holder recorded.</i></span>', []))
             items = [(lo(h["from"]), 1, h) for h in hs] + [(lo(g[0]), 0, g) for g in gaps]
             gap = None
             for _, kind, x in sorted(items, key=lambda t: (t[0], t[1])):
                 if kind == 0:
                     gap = x
-                    cells.append(f'<span class="exh"><b>Vacant</b> <span class="exd">{span(x[0], term_end(x[1]) if x[1] == b else x[1])}.</span></span>')
+                    when = span(x[0], term_end(x[1]) if x[1] == b else x[1])
+                    gap_label = '<b>Vacant</b>' if x[2] else '<i>No holder recorded</i>'
+                    cells.append((f'<span class="exh">{gap_label} <span class="exd">{when}.</span></span>', []))
                     continue
                 who, line, pts = holder_html(x, a, b, ptr, href, o)
                 inside = x.get("acting") and gap and lo(gap[0]) <= lo(x["from"]) < lo(gap[1])
-                cells.append(f'<span class="exh{" exin" if inside else ""}">{who} {line}</span>')
-                pts_all += [p for p in pts if p not in pts_all]
+                cells.append((f'<span class="exh{" exin" if inside else ""}">{who} {line}</span>', pts))
             rows_total += 1
             held += bool(hs)
             full = laws or onote
-            rows.append(f'<tr id="{rid(i, u["unit"], o["id"])}" class="exo{" exhl" if full else ""}"><td>'
-                        f'<span class="ext">{esc(title_at(o, a))}</span><span class="exm">{" · ".join(meta)}</span></td>'
-                        f'<td>{"".join(cells)}</td><td>{"; ".join(pts_all)}</td></tr>')
+            n = len(cells)
+            for k, (cell, pts) in enumerate(cells):
+                last = k == n - 1
+                cls = "exo" + ("" if last else " exmid") + (" exhl" if full and last else "")
+                head = (f'<td rowspan="{n}" class="exof{" exnb" if full else ""}"><span class="ext">{esc(title_at(o, a))}</span>'
+                        f'<span class="exm">{" · ".join(meta)}</span></td>') if k == 0 else ""
+                pcell = "".join(f'<span class="exp">{p_}</span>' for p_ in pts)
+                rid_ = f' id="{rid(i, u["unit"], o["id"])}"' if k == 0 else ""
+                rows.append(f'<tr{rid_} class="{cls}">{head}<td>{cell}</td><td>{pcell}</td></tr>')
             if full:
                 rows.append('<tr class="exlr"><td colspan="3">' + onote
                             + ('<ul class="exlaw">' + "".join(f"<li>{x}</li>" for x in laws) + "</ul>" if laws else "")
@@ -573,7 +637,7 @@ def block(i, units, ptr, href, rid, here=False):
         parts.append(f'<details class="cgr exu" id="{rid(i, u["unit"], "")}">'
                      f'<summary>{path}{esc(name_at(u, a))}{who}</summary>'
                      + ('<ul class="exlaw exul">' + "".join(f"<li>{x}</li>" for x in ulaw) + "</ul>" if ulaw else "") + unote
-                     + ('<table><colgroup><col class="x1"><col class="x2"><col class="x3"></colgroup>'
+                     + ('<table><colgroup><col class="exc1"><col class="exc2"><col class="exc3"></colgroup>'
                         '<thead><tr><th>Office</th><th>Holders during the term</th><th>In the series</th></tr></thead>'
                         f'<tbody>{"".join(rows)}</tbody></table>' if rows else "") + '</details>')
     out = [f'<div class="cg ex" data-term="{a}">',
@@ -582,6 +646,8 @@ def block(i, units, ptr, href, rid, here=False):
            'term (dates of nomination, confirmation, commission, and taking office; of leaving; acting officers), and under '
            'it the law in force during the term that creates it, sets its powers, governs appointment and vacancy, and fixes '
            'its pay. Open a unit for its offices.</p>',
+           f'<p class="cgs exkey">{esc(KEY)}{esc(KEY_LEVELS) if lo(b) > lo(LEVELS_FROM) else ""} '
+           'Hover over a code for its meaning.</p>',
            '<p class="cgs"><button type="button" class="cgb" onclick="this.closest(\'.ex\').querySelectorAll(\'details\').forEach(d=>d.open=true)">Expand all</button> '
            '<button type="button" class="cgb" onclick="this.closest(\'.ex\').querySelectorAll(\'details\').forEach(d=>d.open=false)">Collapse all</button></p>']
     out += parts
@@ -593,9 +659,14 @@ CSS = """<style>
 /* The Executive Branch roster (tools/bib/executive.py). The shared block and table rules: templates/roster.css. */
 .ex .exsec{font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:1rem 0 .2rem}
 details.exu table{font-size:.82rem;margin:.2rem 0 .8rem}
-details.exu col.x1{width:30%}details.exu col.x2{width:auto}details.exu col.x3{width:17%}
+details.exu col.exc1{width:28%}details.exu col.exc2{width:auto}details.exu col.exc3{width:19%}
 details.exu td:nth-child(3){font-size:.76rem;overflow-wrap:anywhere}
 details.exu tr.exhl td{border-bottom:0}
+details.exu tr.exmid td:not(.exof){border-bottom:0;padding-bottom:0}
+details.exu td.exof{border-bottom:1px solid var(--rule)}
+details.exu tr.exhl td.exof,details.exu td.exof.exnb{border-bottom:0}
+.ex .exp{display:block;margin-bottom:.15rem}
+.ex .exp a{white-space:nowrap}
 details.exu tr.exlr td{padding-top:0}
 .ex .ext{font-weight:600}
 .ex .exm{display:block;font-size:.72rem;color:var(--muted)}
@@ -603,6 +674,8 @@ details.exu tr.exlr td{padding-top:0}
 .ex .exh>b{font-weight:600}
 .ex .exh.exin{margin-left:1rem}
 .ex .exd{display:block;font-size:.74rem;color:var(--muted);line-height:1.35}
+.ex .exs{display:block;font-size:.68rem;color:var(--muted);line-height:1.35;margin-top:.1rem}
+.ex .exs a{color:inherit;text-decoration-color:var(--rule)}
 .ex .exr{font-weight:400;font-size:.74rem;color:var(--muted)}
 .ex .cgn{font-size:.8rem;line-height:1.35}
 details.exu tr.exlr .cgn{margin:.1rem 0 .15rem}
@@ -698,7 +771,7 @@ def page(series, linker, template):
             '<p class="logic">Rank, in the terms of Article II, § 2, cl. 2: heads of departments; principal officers, '
             'appointed by the President with the advice and consent of the Senate (PAS); inferior officers, whose '
             'appointment Congress has vested in the President alone (PA) or the heads of departments (HD); employees, '
-            'who hold no office in law; military officers, assigned to a command or a staff (MIL). XO: ex officio. '
+            'who hold no office in law (VP: the Vice President\'s staff, Senate employees); military officers, assigned to a command or a staff (MIL). XO: ex officio. '
             'DES: designated by the President. Levels: the Executive Schedule of the Federal Executive Salary Act of 1964.</p>',
             '<p class="logic">Dates: nominated, the day the nomination reached the Senate; confirmed; commissioned, the day '
             'the President signed the commission (a recess appointment, during a recess of the Senate); took office, the '
@@ -706,7 +779,9 @@ def page(series, linker, template):
             'Sources: the Office of the Historian\'s Principal Officers and Chiefs of Mission (POCOM) for the Department '
             'of State and the missions; the Congressional Directory for each session (govinfo); the Senate\'s '
             'Executive Journal and the Congressional Record for nominations; department and service histories; the '
-            'statutes in the Statutes at Large (govinfo). "Check" marks a detail still to verify.</p>',
+            'statutes in the Statutes at Large (govinfo). Each holder\'s sources follow the dates, linked; '
+            '<a href="#sources">the sources</a> are listed in full at the end. "Check" marks a detail still to '
+            'verify.</p>',
             '<p class="logic">Pointers: the list and section where the holder appears in Part III or as the subject of a '
             'memoir or biography, and the calendar entries that name the holder.</p>',
             '<nav class="toc" aria-label="Contents">\n<h3 id="contents" style="border-top:0;margin-top:1.5rem" data-short="Contents">Contents</h3>\n<ol id="tocList"></ol>\n</nav>']
@@ -724,6 +799,7 @@ def page(series, linker, template):
         main.append(f'<li>{esc(fmt(a["date"])) + ". " if a.get("date") else ""}{law_html(a)} '
                     f'<span class="exd">{esc("; ".join(dict.fromkeys(where)))}.</span></li>')
     main.append("</ol>")
+    main += executive_sources.section(units)
     pg = open(template, encoding="utf-8").read()
     pg = pg.replace("{{page_title}}", "The Executive Branch, 1953–1974").replace("{{main}}", "\n".join(main))
     from . import roster
