@@ -260,3 +260,11 @@
 # The series' own lists: Part III and the like. Not linked here (the build links them); no cite, so not listed.
 - match: '(?:Part III: )?((?:K–J Adm\.|K–J Cong\.|Opp\.|Adm\.|Cong\.|Wg\.|Viet\.|1968|Cal\.) [IV]+\.[A-Z](?:\.\d+)?)'
   short: '{1}'
+
+- match: 'Plum Book (1968|1972)((?:, pp?\. (\d+))?[\d, –]*)'
+  short: 'Plum Book {1}{2}'
+  cite: 'Committee on Post Office and Civil Service, *United States Government Policy and Supporting Positions* (the "Plum Book"), committee prints prepared by the Civil Service Commission: House, 90th Cong., 2d sess. (1968), as of Sept. 30, 1968; Senate, 93d Cong., 1st sess. (1973), as of Sept. 15, 1972 (Government Printing Office; Google Books, University of California copies)'
+  urls:
+    '1968': 'https://books.google.com/books?id=38A9rUvZPSQC&pg=PA{3}'
+    '1972': 'https://books.google.com/books?id=qEY76289tQkC&pg=PA{3}'
+  n: 'Every position outside the competitive service and the policy posts within it, by department: location, title, incumbent, type of appointment, grade or salary, tenure. The scans and their text are in sources/plum/.'

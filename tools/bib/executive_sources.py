@@ -284,7 +284,7 @@ def reg_html(s):
         g = [m.group(0)] + list(m.groups())
         f = lambda t: (t or "").format(*[x or "" for x in g])
         label = esc(f(r.get("short") or r.get("cite") or s))
-        url = (r.get("urls") or {}).get(m.group(1)) if m.groups() and r.get("urls") else None
+        url = f((r.get("urls") or {}).get(m.group(1))) if m.groups() and r.get("urls") else None
         url = url or f(r.get("url"))
         return a(url, label) if url else label
     return None

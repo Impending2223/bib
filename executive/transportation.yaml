@@ -607,11 +607,17 @@ offices:
     title: Director of Public Roads
     rank: inferior
     level: IV
-    appt: HD
+    appt: PAS
     group: Federal Highway Administration
     under: fhwa-administrator
-    until: '1970'
+    until: '1971'
     law:
+      - act: Department of Transportation Act, § 3(f)(4)
+        date: '1966-10-15'
+        effective: '1967-04-01'
+        tags: [creates, appointment]
+        cite: 'Pub. L. 89-670, § 3(f)(4), 80 Stat. 931, 933'
+        does: 'The office of Federal Highway Administrator (23 U.S.C. § 303), appointed by the President with the consent of the Senate, transferred to the Department and continued as Director of Public Roads, the operating head of the Bureau of Public Roads.'
       - act: 'Federal Salary Act of 1967'
         date: '1967-12-16'
         effective: '1967-12'
@@ -627,15 +633,23 @@ offices:
         cite: 'Pub. L. 90-206, § 225(h)–(j), 81 Stat. 613, 644'
         usc: '2 U.S.C. §§ 358–360 (1970)'
         does: 'Level IV, $38,000 a year, on the President''s recommendation of Jan. 15, 1969 (34 Fed. Reg. 2241).'
-    n: 'Head of the Bureau of Public Roads within the Federal Highway Administration (law under fhwa-administrator). Check: when the Bureau was merged into the Administration, and the manner of appointment.'
+    n: 'Head of the Bureau of Public Roads within the Federal Highway Administration. Nominated to the Senate (Turner, 1967; Bartelsmeyer, 1969). The Bureau in the Organization Manual of July 1970; gone from that of July 1971, its functions assigned to the Administration. Check: the day the Bureau ended.'
     holders:
       - name: Turner, Francis C.
         given: Francis Cutler
+        confirmed: '1967-02-24'
         from: '1967-04-01'
         to: '1969-03-13'
         out: To Federal Highway Administrator.
         n: 'Check: date of taking office.'
         src: [CDIR 1967-12]
+      - name: Bartelsmeyer, Ralph R.
+        nominated: '1969-04-01'
+        confirmed: '1969-04-29'
+        from: '1969-04'
+        to: '1971'
+        n: 'Director of Public Roads in the Directories of Dec. 1969 and Mar. 1971 and the Organization Manual of July 1970. Check both dates.'
+        src: [CDIR 1969-12, CDIR 1971-03, 'Gov. Org. Manual 1970–71', Cong. Rec.]
   - id: fra-administrator
     title: Federal Railroad Administrator
     rank: principal
