@@ -380,6 +380,9 @@ def pocom_sentences(p, has_bd):
         if b and b <= WINDOW[1] and (ended or "9999") >= WINDOW[0]:
             continue                     # the roster holds it
         label = re.sub(r"\s+", " ", label)
+        if not re.search(r"State|Ambassador|Representative|Minister|Chargé|Envoy|Agent|Administrator|Director of the|"
+                         r"Trade|Chief of Mission|Principal Officer", label):
+            label += ", Department of State"   # POCOM's principal officers of the Department: 'Counselor'
         if began:
             t = f"{esc(label)} from {fmt(began)}" + (f" to {fmt(ended)}" if ended else "")
             t += (f"; commissioned {fmt(ap)}" if ap and ap != began else "") + "."
@@ -1107,6 +1110,7 @@ INTRO = ['<p class="lede">A name entry for each person in the series, the Execut
          'documents). Pointers into the series (<a class="lvp" href="#">in this type</a>): Exec., the Executive '
          "Branch at the term named; Cong., a Congress at its opening; Election, the election's block; Cal., the "
          "calendar.</p>"]
+INTRO = [re.sub(r"\*([^*]+)\*", r"<i>\1</i>", x) for x in INTRO]      # the series' *Title* as italics
 
 
 def letter_of(p):
