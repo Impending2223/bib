@@ -1237,8 +1237,8 @@ def pointers(ps):
 def cand(name, party, votes, me=False):
     """A candidate's line in the record, in three columns: 'Ray Wolfram (R)', '17,471', '14.1%' (the count and the
     share right-aligned); the person's own in bold. A row of the grid the cell's candidates make (lvcs)."""
-    n = esc(name) + (f" ({esc(party)})" if party else "")
-    n = f"<b>{n}</b>" if me else n
+    n = f"<b>{esc(name)}</b>" if me else esc(name)
+    n += f' <span class="lvpa">{esc(party)}</span>' if party else ""       # the party as the election tables set it
     m = re.match(r"^(.*?)\s*\(([^()]*%)\)$", votes or "")
     v, s_ = (m.group(1), m.group(2)) if m else (votes or "", "")
     # a ticket's electoral votes over its popular, the popular in the shares' shade
@@ -1754,6 +1754,7 @@ table.lvt b{font-weight:600}
 table.lvt .lvcs{display:grid;grid-template-columns:minmax(6em,1fr) auto auto;column-gap:.7em}
 table.lvt .lvv,table.lvt .lvs{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
 table.lvt .lvs,table.lvt .lvpv{color:var(--muted)}
+table.lvt .lvpa{font-family:var(--sans);font-size:.78em;color:var(--muted)}
 table.lvt .lvs{min-width:3.2em}
 @media (max-width:520px){table.lvt .lvcs{grid-template-columns:minmax(6em,1fr) auto}table.lvt .lvn{grid-column:1;grid-row:span 2}
   table.lvt .lvv,table.lvt .lvs{grid-column:2}}

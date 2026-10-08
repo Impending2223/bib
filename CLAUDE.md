@@ -336,7 +336,7 @@ notes/executive-brief.md      the brief for whoever adds to the roster, person o
   one; before the term, an acting officer who held the office last follows him, marked "(acting)" (not where he is
   the term's own first holder). An office many hold at once (`many: true`) links the term tables before and after
   without naming anyone ("Before: Exec. 1957."). A link only to a table that holds the office.
-- On `executive.html` each term (h2) has three parts (h3, small caps, centered: President and Executive Office,
+- On `executive.html` each term (h2) has three parts (h3, all small caps, centered: President and Executive Office,
   Executive departments, Agencies and commissions), and the President's and departments' top units carry an h4 in
   their summary, styled as the summary, so the Outline drawer and the scroll tool stop at them; the agencies and
   commissions do not. The contents at the top list terms and parts only (`data-depth` on `tocList`). The
@@ -510,14 +510,16 @@ tools/bib/specials.py             renders the blocks, the calendar's race tables
   carries a "Check"; so do shares that do not add to 100.
 - `check` fails on a duplicate key, a `special:` tag with no race, a switch not at its seat, or a reading
   whose votes do not add to its printed total or whose last round lacks the winner.
-- The 85th and 86th Congresses (1957–60) have no rosters. The 86th's one special between Novembers, North Dakota's
-  Senate race of June 28, 1960 (Burdick), is in `specials.yaml` (and `SENATE_HAND`) from the State's canvass, and
-  follows the 1958 election on `congress.html`.
+- The 85th and 86th Congresses (1957–60) have no rosters. The 86th's specials (seven House races from Wikipedia;
+  North Dakota's Senate race of June 28, 1960, Burdick's, from the State's canvass, `SENATE_HAND`) and its changes in
+  membership (`changes.yaml`) are in, and follow the 1958 election on `congress.html`. The scripts now run 86th-93rd;
+  Wikipedia's pages for later Congresses have since changed (the 91st's changes, the 1973 specials), so a rerun
+  should be merged by Congress, not taken whole.
 - Notes shown with a race are for the reader: CQ's shares that count unprinted candidates, and Wikipedia's dates or
   shares that a State's or CQ's figures settle, stay in the files (`remarks`) and are not shown; open Checks are.
   A race's `note` starts a new line ("Party primaries ..."). Months as the series writes them (Feb. 15, 1961). CQ is
   cited "CQ Guide 6th (2010) 1266", the full title with each block's sources and in the Names' list of sources.
-- The margin column gives swing as "8.3 to D" ("No swing"); its heading says "Margin, swing".
+- The margin column gives swing as "8.3 to D" ("No swing"); the headings "Date / Seat" and "Margin / Swing".
 
 ## Rosters and elections, linked
 

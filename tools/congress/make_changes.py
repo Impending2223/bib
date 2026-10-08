@@ -1,13 +1,15 @@
 """Departures and successors during each Congress, for notes in the rosters at the opening.
 # Usage: python3 tools/congress/make_changes.py [--cache DIR]
 #   Writes congress/changes.yaml from the 'Changes in membership' tables of Wikipedia's pages for the
-#   87th through 93rd Congresses: the seat, who left and why (with the date), the successor and party,
+#   86th through 93rd Congresses (the 86th has no roster; its changes serve the names and the 87th's notes): the seat, who left and why (with the date), the successor and party,
 #   and the date the successor was seated. Delegates are left out. Check against the Biographical
 #   Directory of the Congress where a date matters.
 """
 import os
 import sys
 import tempfile
+import time
+import urllib.error
 import urllib.request
 
 import yaml
@@ -16,7 +18,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'elections'))
 import wiki  # noqa: E402
 
 OUT = os.path.join(os.path.dirname(__file__), '..', '..', 'congress', 'changes.yaml')
-ORD = {87: '87th', 88: '88th', 89: '89th', 90: '90th', 91: '91st', 92: '92nd', 93: '93rd'}
+ORD = {86: '86th', 87: '87th', 88: '88th', 89: '89th', 90: '90th', 91: '91st', 92: '92nd', 93: '93rd'}
 
 
 def main():
@@ -27,7 +29,14 @@ def main():
         if not os.path.exists(p):
             url = f'https://en.wikipedia.org/w/index.php?title={name}_United_States_Congress&action=raw'
             req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (bibliography)'})
-            open(p, 'wb').write(urllib.request.urlopen(req, timeout=120).read())
+            for wait in (2, 10, 30, 90, 180):       # Wikipedia answers 429 to a quick run of requests: wait, retry
+                time.sleep(wait)
+                try:
+                    open(p, 'wb').write(urllib.request.urlopen(req, timeout=120).read())
+                    break
+                except urllib.error.HTTPError as e:
+                    if e.code != 429 or wait == 180:
+                        raise
         rows = [x for x in wiki.changes(open(p, encoding='utf-8').read()) if x['st']]
         out[c] = rows
         print(c, len(rows))

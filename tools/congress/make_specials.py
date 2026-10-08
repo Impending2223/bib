@@ -1,4 +1,4 @@
-"""Special elections during each Congress, 87th to 93rd: the seat, who left and why, every round's
+"""Special elections during each Congress, 86th to 93rd: the seat, who left and why, every round's
 candidates, the winner, and whether the seat changed hands.
 # Usage: python3 tools/congress/make_specials.py [--cache DIR]
 #   Writes congress/specials.yaml. Needs the network; the build does not.
@@ -7,7 +7,7 @@ candidates, the winner, and whether the seat changed hands.
 #   special held between general elections is not in them; the official returns are the States'):
 #     "List of special elections to the United States House of Representatives": Congress, seat,
 #       the member who left and why, the winner, the date;
-#     "<year> United States House of Representatives elections", 1961-74, "Special elections": the
+#     "<year> United States House of Representatives elections", 1959-74, "Special elections": the
 #       candidates with their shares, in percent (no votes), and the date elected;
 #     "List of special elections to the United States Senate", and the race's own page where it gives
 #       votes in election boxes (Texas, 1961: both rounds, from Bartley and Graham, Southern Elections).
@@ -21,6 +21,8 @@ import os
 import re
 import sys
 import tempfile
+import time
+import urllib.error
 import urllib.parse
 import urllib.request
 
@@ -60,7 +62,14 @@ def fetch(title, cache):
     if not os.path.exists(p):
         req = urllib.request.Request(WIKI.format(urllib.parse.quote(title.replace(' ', '_'))),
                                      headers={'User-Agent': 'Mozilla/5.0 (bibliography)'})
-        open(p, 'wb').write(urllib.request.urlopen(req, timeout=120).read())
+        for wait in (0, 5, 15, 45, 120):         # Wikipedia answers 429 to a quick run of requests: wait and retry
+            time.sleep(wait or 1)
+            try:
+                open(p, 'wb').write(urllib.request.urlopen(req, timeout=120).read())
+                break
+            except urllib.error.HTTPError as e:
+                if e.code != 429 or wait == 120:
+                    raise
     return open(p, encoding='utf-8').read()
 
 
@@ -103,7 +112,7 @@ def house_list(cache):
     out = {}
     for blk in fetch(HOUSE_LIST, cache).split('\n|-'):
         m = re.search(r'USCongressOrdinal\|(\d+)', blk)
-        if not m or not 87 <= int(m.group(1)) <= 93:
+        if not m or not 86 <= int(m.group(1)) <= 93:
             continue
         u = re.search(r'\{\{[Uu]shr\|([^|}]+)\|([^|}]+)', blk)
         cells = [c.strip() for c in re.split(r'\n\|', blk)]
@@ -114,7 +123,7 @@ def house_list(cache):
             continue
         row = {'cong': int(m.group(1)), 'ch': 'h', 'st': state_of(u.group(1)), 'seat': seat_of(u.group(2)),
                'date': iso(d[-1]), 'out': people[0][0], 'out_party': people[0][1],
-               'winner': people[-1][0] if len(people) > 1 else None, 'party': people[-1][1] if len(people) > 1 else None,
+               'winner': people[-1][0].strip() if len(people) > 1 else None, 'party': people[-1][1] if len(people) > 1 else None,
                'why': why}
         out[(row['cong'], row['st'], row['seat'], row['date'])] = row
     return out
@@ -216,7 +225,7 @@ def main():
     cache = sys.argv[sys.argv.index('--cache') + 1] if '--cache' in sys.argv else tempfile.gettempdir()
     listed = house_list(cache)
     tables = {}
-    for y in range(1961, 1975):
+    for y in range(1959, 1975):
         for st, seat, dates, cands, text, first in year_rows(y, cache):
             for d in dates or ['']:
                 tables[(st, seat, d)] = (dates, cands, text, y, first)

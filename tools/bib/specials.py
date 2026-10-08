@@ -320,7 +320,7 @@ def table(c, sp, edata, open_=False):
     from .congress import STATE
     out = [f'<details class="cgr er esp"{" open" if open_ else ""}><summary>Races, {len(sp)}, by date</summary><table>'
            '<colgroup><col class="c1"><col class="c2"><col class="c3"><col class="c4"></colgroup>'
-           '<thead><tr><th>Date, seat</th><th>Candidates, votes, share</th><th>Margin, swing</th><th>Vacancy; note</th></tr></thead><tbody>']
+           '<thead><tr><th>Date<br>Seat</th><th>Candidates, votes, share</th><th>Margin<br>Swing</th><th>Vacancy; note</th></tr></thead><tbody>']
     out += [row(x, STATE, swing(c, x, edata)) for x in sp]
     out.append("</tbody></table></details>")
     return "\n".join(out)
@@ -413,7 +413,7 @@ def race_block(key, edata=None):
                 return ('<div class="cg sprace"><details class="cgr er esp" open><summary>The special election, '
                         f'{esc(fmt_date(x["date"]))}</summary><table>'
                         '<colgroup><col class="c1"><col class="c2"><col class="c3"><col class="c4"></colgroup>'
-                        '<thead><tr><th>Date, seat</th><th>Candidates, votes, share</th><th>Margin, swing</th><th>Vacancy; note</th></tr></thead><tbody>'
+                        '<thead><tr><th>Date<br>Seat</th><th>Candidates, votes, share</th><th>Margin<br>Swing</th><th>Vacancy; note</th></tr></thead><tbody>'
                         + row(x, STATE, swing(c, x, edata)) + '</tbody></table></details>'
                         f'<p class="elsrc">{src}. <a href="congress.html#{rid(x)}">All the specials of the '
                         f'{ordinal(c)} Congress</a>.</p></div>')
