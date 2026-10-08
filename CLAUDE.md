@@ -383,6 +383,7 @@ notes/executive-brief.md      the brief for whoever adds to the roster, person o
 entry for each person in Part III, the Executive roster, and the Congresses at their openings (`people` in
 `tools/bib/lives.py`: one entry a person). `./bib names` builds those pages alone; `./bib names 'Humphrey, Hubert H.'
 [--site URL] [--out FILE]` one page. The old `lives*.html` addresses forward to the new ones (`./bib lives` still works).
+The scroll wheel and the Outline drawer give each entry's full name; the top bar its surname (`data-crumb`).
 A Part III entry for two people writes them apart with ";" (`s: Evans, Rowland, Jr.; Novak, Robert D.`), never "&".
 
 Names link to their entries throughout (`tools/bib/namelinks.py`), muted: class `nm`, the text's own color and

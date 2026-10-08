@@ -1787,7 +1787,7 @@ def entry(series, linker, ptrs, p):
     works = series_works(series, linker, ptrs, name, subs, strict)
     sent_, named = frus_lists(name)
     ppp = app_list(name, sur)
-    out = [f'<section class="lv" id="{key_of(name)}"><h2 id="{key_of(name)}-h" data-short="{esc(sur)}">{esc(name)}</h2>']
+    out = [f'<section class="lv" id="{key_of(name)}"><h2 id="{key_of(name)}-h" data-crumb="{esc(sur)}">{esc(name)}</h2>']
     if e:
         head = re.split(r";\s+", e["text"])[0]
         # from the description's article: the name's 'Jr.' and its '(brother of …)' left out

@@ -134,6 +134,7 @@ ol.e>li:last-child{border-bottom:0}
 (function(){
   var heads=[].slice.call(document.querySelectorAll('main h2[id], main h3[id], main h4[id]')).filter(function(h){return h.id!=='contents';});
   function label(h){return h.getAttribute('data-short')||h.textContent;}
+  function crumbLabel(h){return h.getAttribute('data-crumb')||label(h);}   // the top bar's shorter form (a surname)
   function lvl(h){return +h.tagName.charAt(1);}
 
   // build nested outline (contents + drawer)
@@ -179,7 +180,7 @@ ol.e>li:last-child{border-bottom:0}
   function updateCrumb(i){
     if(i<0){crumb.innerHTML='<b>'+document.title+'</b>';return;}
     var parts=[], need=5;
-    for(var k=i;k>=0;k--){ var L=lvl(heads[k]); if(L<need){ parts.unshift(label(heads[k])); need=L; } if(L===2) break; }
+    for(var k=i;k>=0;k--){ var L=lvl(heads[k]); if(L<need){ parts.unshift(crumbLabel(heads[k])); need=L; } if(L===2) break; }
     crumb.innerHTML=parts.map(function(p,j){return j===parts.length-1?'<b>'+p+'</b>':p;}).join(' / ');
   }
 
