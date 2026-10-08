@@ -224,8 +224,9 @@ def cmd_merge(a):
         if k in races:
             print('replaced:', k)
         e = {'cands': [Flow(r if len(r) < 4 else r[:3] + [[list(x) for x in r[3]]]) for r in rows]}
-        if v.get('note'):
-            e['note'] = v['note']
+        for f in ('note', 'printed'):
+            if v.get(f):
+                e[f] = v[f]
         races[k] = e
     if races:
         R['races'] = dict(sorted(races.items(), key=lambda kv: (kv[0].split()[1], kv[0].split()[0] != 's', kv[0].split()[2].zfill(4))))
@@ -234,7 +235,7 @@ def cmd_merge(a):
     pres = R.get('president') or {}
     for st, v in new['president'].items():
         e = {'slates': [Flow(x) for x in v['slates'] if not re.match(r'(?i)blank', x[0])]}
-        for f in ('source', 'note'):
+        for f in ('source', 'note', 'printed'):
             if v.get(f):
                 e[f] = v[f]
         pres[st] = e
@@ -251,8 +252,9 @@ def save(y, R):
             R[k] = R.pop(k)
     for v in (R.get('races') or {}).values():
         v['cands'] = [Flow(r if len(r) < 4 else list(r[:3]) + [[list(x) for x in r[3]]]) for r in v['cands']]
-        if 'note' in v:
-            v['note'] = v.pop('note')
+        for f in ('note', 'printed'):
+            if f in v:
+                v[f] = v.pop(f)
     for v in (R.get('president') or {}).values():
         v['slates'] = [Flow(x) for x in v['slates']]
     head = (f"# {y}: figures read by eye from the Clerk's page images where the OCR did not settle\n"

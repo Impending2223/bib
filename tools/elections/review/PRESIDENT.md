@@ -22,14 +22,15 @@ president:
     - [Liberal, 406176]          # each line separately, not a bracketed total
     - [Republican, 3446419]
     - [Scattering, 256]
-    note: >-
+    printed: >-
       The recapitulation's total counts 88,996 blank and void ballots; they are left out here.
 ```
 
 - Every slate line, in printed order; `[Scattering, n]` and `[Write-in, n]` as printed. Leave out
   "Blank and void" (say so in the note).
 - Check each figure and the total against the recapitulation's "Presidential electors" row. Where they
-  differ, record the figure with which the total adds up, and say so in the note.
+  differ, record the figure with which the total adds up, and say so in `printed:` (shown with the State's row;
+  `note:` for anything else, kept in the file).
 - Where the Clerk prints no vote (the District of Columbia, 1964), say so; the figures then come from
   elsewhere with a `source:` line.
 

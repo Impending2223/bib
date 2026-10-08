@@ -584,7 +584,9 @@ tools/bib/elections.py              renders the blocks and checks the data (STYL
   State's recapitulation total and Wikipedia's percentages (`reconcile.py`); a race that
   does not settle is read by eye into `elections/readings/<year>.yaml`. Where a race page
   and its recapitulation differ, the figure the Clerk's totals add up with is used, and the
-  race's `note` says so. Where the Clerk and Wikipedia disagree after a reading, the Clerk
+  reading's `printed` note says so: shown in the race's note, as is any other disagreement among the Clerk's own
+  figures (a misprinted total, transposed figures, a party printed one way and counted another). A reading's `note`
+  (other rulings) is kept in the file and not shown. Where the Clerk and Wikipedia disagree after a reading, the Clerk
   stands (`wikipedia_differs`), names included, unless the State's own canvass, read off its page, says otherwise:
   then the State's figure stands, the reading carrying `source` (the State's cite) and `clerk` (the Clerk's figures),
   both shown in the race's note (Md. 1958, Colo. 1960, Fla. and Mo. 1962; President: Wyo. 1960, Cal., Colo., Ga.

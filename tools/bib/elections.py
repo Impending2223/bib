@@ -464,6 +464,33 @@ def race_key(year, r):
     return f"{year} {r['ch']} {r['st']} {r['seat']}{pos}" + (" special" if r.get("special") else "")
 
 
+def printed_notes():
+    """{(year, readings key): text}: the readings' `printed` notes, where the Clerk's own figures disagree (the race
+    page and the recapitulation, a bracketed total and its lines); shown in the race's note. President: 'president ST'."""
+    if "printed" not in _cache:
+        out = {}
+        rd = os.path.join(DIR, "readings")
+        for f in sorted(os.listdir(rd)) if os.path.isdir(rd) else []:
+            m = re.match(r"^(\d{4})\.yaml$", f)
+            if not m:
+                continue
+            R = store.load_yaml(os.path.join(rd, f)) or {}
+            for k, v in (R.get("races") or {}).items():
+                if (v or {}).get("printed"):
+                    out[(int(m.group(1)), k)] = " ".join(str(v["printed"]).split())
+            for st, v in (R.get("president") or {}).items():
+                if (v or {}).get("printed"):
+                    out[(int(m.group(1)), f"president {st}")] = " ".join(str(v["printed"]).split())
+        _cache["printed"] = out
+    return _cache["printed"]
+
+
+def printed_note(year, key):
+    """The reading's `printed` note, its *italics* set: HTML or ''."""
+    t = printed_notes().get((int(year), key))
+    return re.sub(r"[*]([^*]+)[*]", r"<i>\1</i>", esc(t)) if t else ""
+
+
 def cq_note(key):
     """'CQ Guide 6th (2010) 1275: Rivers 64,804.', where CQ's figures differ from those shown; else ''."""
     x = cq_shown().get(key)
@@ -529,7 +556,8 @@ def table(year, ch, races):
             wp = party_of(winners[0]) if winners else ""
             from . import seatlinks
             ro = seatlinks.roster_after(load()[year]["date"], r["ch"], r["st"], r["seat"])
-            note = " ".join(x for x in (note_html(r, winners), cq_note(race_key(year, r)),
+            note = " ".join(x for x in (note_html(r, winners), printed_note(year, race_key(year, r)[5:]),
+                                        cq_note(race_key(year, r)),
                                         f'<span class="elro">{ro}</span>' if ro else "") if x)
             out.append(f'<tr id="{rid(year, r)}" class="{cls} w{wp}"><td>{esc(seat)}</td><td class="ecs">{cands}</td>'
                        f'<td class="em">{margin}</td><td class="eno">{note}</td></tr>')
@@ -743,7 +771,8 @@ def pres_table(year, data):
         out.append(f'<tr id="e{year}-p-{r["st"]}" class="{cls} w{p}"><td>{esc(STATE.get(r["st"], r["st"]))}<br>'
                    f'<span class="es">{r["ev"]}</span></td><td class="ecs">{cs}</td><td class="em">{margin}</td>'
                    f'<td class="eno">{" ".join([esc(" ".join(note))] + (src_note(r) if r.get("clerk") else [])
-                                               + [cq_note(f"{year} president {r['st']}")])}</td></tr>')
+                                               + [printed_note(year, f"president {r['st']}"),
+                                                  cq_note(f"{year} president {r['st']}")])}</td></tr>')
     out.append("</tbody></table></details>")
     return "\n".join(out)
 

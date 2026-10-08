@@ -35,7 +35,7 @@ races:
     cands:
     - [Jacob K. Javits, 'Republican, Liberal', 3269772, [[Republican, 2810836], [Liberal, 458936]]]
     - [Paul O'Dwyer, Democrat, 2150695]
-    note: >-
+    printed: >-
       What did not add up, and why this figure: "The race page prints 74,627; the recapitulation's
       84,627 is the figure its totals add up with."
 ```
@@ -48,6 +48,8 @@ races:
 - Leave out "Blank and void" lines. Quote a value with ": " or a leading "'" in single quotes.
 - Check every race against the State's recapitulation table (its district or Senate row, and the column
   totals if printed). Where the race page and the recapitulation differ, record the figure with which
-  the recapitulation's totals add up, and say so in the note.
+  the recapitulation's totals add up, and say so in `printed:` (shown with the race; also for a misprinted total,
+  transposed figures, a party printed one way and counted another). Anything else goes in `note:`, which is kept in
+  the file and not shown.
 
 Reply with the file path, the races read, and anything that did not add up.
