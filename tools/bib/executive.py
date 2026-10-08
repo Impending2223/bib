@@ -552,6 +552,13 @@ def term_index(day):
 
 
 SECTIONS = [(0, None), (30, "The executive departments"), (500, "Independent establishments and agencies")]
+SECTIONS_PRESIDENT = "The President and the Executive Office"
+SHORT_SECTION = {"president": "The President", "departments": "Departments", "agencies": "Agencies"}
+
+
+def short_unit(name):
+    """A unit's name for the scroll tool: 'Department of the Treasury' → 'Treasury'."""
+    return re.sub(r"^Department of (the )?", "", name)
 
 
 def section_of(u, units):
@@ -738,7 +745,13 @@ def block(i, units, ptr, href, rid, here=False):
         if not rows and not ulaw:
             continue
         sec = section_of(u, units)
-        if sec != section and sec:
+        tid = f"t{day[:4]}{day[5:7]}"
+        if here and (sec != section or not parts):
+            # on the Executive page, headings the outline and the scroll tool stop at: the three parts, each top unit
+            sid = {None: "president", SECTIONS[1][1]: "departments"}.get(sec, "agencies")
+            parts.append(f'<h3 id="{tid}-{sid}" class="exsech" data-short="{esc(SHORT_SECTION[sid])}">'
+                         f'{esc(sec or SECTIONS_PRESIDENT)}</h3>')
+        elif sec != section and sec:
             parts.append(f'<p class="exsec">{esc(sec)}</p>')
         section = sec
         unote = f'<p class="cgn exun">{office_refs(to_html(u["n"]), units, i, a, rid)}</p>' if u.get("n") else ""
@@ -747,7 +760,9 @@ def block(i, units, ptr, href, rid, here=False):
         who = f' <span class="cgsm">{esc(", ".join(dict.fromkeys(heads)))}</span>' if heads and u["unit"] != "president" else ""
         path = "".join(f'<span class="cgsm">{esc(name_at(p, a))} › </span>' for p in path_of(u, units))
         parts.append(f'<details class="cgr exu" id="{rid(i, u["unit"], "")}">'
-                     f'<summary>{path}{esc(name_at(u, a))}{who}</summary>'
+                     + (f'<summary><h4 id="{rid(i, u["unit"], "")}-h" class="exuh" data-short="{esc(short_unit(name_at(u, a)))}">'
+                        f'{esc(name_at(u, a))}</h4>{who}</summary>' if here and depth <= 1 else
+                        f'<summary>{path}{esc(name_at(u, a))}{who}</summary>')
                      + ('<ul class="exlaw exul">' + "".join(f"<li>{x}</li>" for x in ulaw) + "</ul>" if ulaw else "") + unote
                      + ('<table><colgroup><col class="exc1"><col class="exc2"><col class="exc3"></colgroup>'
                         '<thead><tr><th>Office</th><th>Holders during the term</th><th>In the series</th></tr></thead>'
@@ -769,6 +784,8 @@ def block(i, units, ptr, href, rid, here=False):
 
 CSS = """<style>
 /* The Executive Branch roster (tools/bib/executive.py). The shared block and table rules: templates/roster.css. */
+.ex h3.exsech{margin:2rem 0 .3rem}
+.ex summary h4.exuh{display:inline;font-size:1.02rem;font-weight:700;margin:0}
 .ex .exsec{font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:1rem 0 .2rem}
 details.exu table{font-size:.82rem;margin:.2rem 0 .8rem}
 details.exu col.exc1{width:28%}details.exu col.exc2{width:auto}details.exu col.exc3{width:19%}
@@ -899,7 +916,7 @@ def page(series, linker, template):
             'verify.</p>',
             '<p class="logic">Pointers: the list and section where the holder appears in Part III or as the subject of a '
             'memoir or biography, and the calendar entries that name the holder.</p>',
-            '<nav class="toc" aria-label="Contents">\n<h3 id="contents" style="border-top:0;margin-top:1.5rem" data-short="Contents">Contents</h3>\n<ol id="tocList"></ol>\n</nav>']
+            '<nav class="toc" aria-label="Contents">\n<h3 id="contents" style="border-top:0;margin-top:1.5rem" data-short="Contents">Contents</h3>\n<ol id="tocList" data-depth="3"></ol>\n</nav>']
     rid = rid_for()
     for i, (day, pres, label) in enumerate(TERMS):
         a, b = term_span(i)

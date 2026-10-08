@@ -336,6 +336,10 @@ notes/executive-brief.md      the brief for whoever adds to the roster, person o
   one; before the term, an acting officer who held the office last follows him, marked "(acting)" (not where he is
   the term's own first holder). An office many hold at once (`many: true`) links the term tables before and after
   without naming anyone ("Before: Exec. 1957."). A link only to a table that holds the office.
+- On `executive.html` each term (h2) has three parts (h3: the President and the Executive Office, the departments,
+  the independent agencies) and each top unit's summary is a heading (h4), so the Outline drawer and the scroll tool
+  stop at them; the contents at the top list terms and parts only (`data-depth` on `tocList`). The calendar's
+  copy of a term keeps plain summaries.
 - Units nest by `under:` (the President at the top; the EOP; the departments in their order of creation;
   the independent agencies), offices within a unit by `under:` (Rusk, and the men under Rusk). Ranks in the
   terms of Art. II, § 2, cl. 2: heads of departments, principal officers (PAS), inferior officers (PA, HD),
