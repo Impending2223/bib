@@ -337,8 +337,9 @@ notes/executive-brief.md      the brief for whoever adds to the roster, person o
 ./bib executive sources [all]         holder sources the line cannot link, by form ([all]: by holder)
 ```
 
-- Each office shows, muted (smaller, gray, not italic), the holder before the term ("Before: Rusk, Dean left
-  Jan. 20, 1969") and after it ("After: … took office …"), as precisely as known (`seen`/`last` say "in office by",
+- Each office shows, muted (smaller, gray, not italic), in a full-width row at the foot of the office (after its law),
+  at the left the holder before the term ("Before: Rusk, Dean left
+  Jan. 20, 1969") and at the right the holder after it ("After: … took office …"), as precisely as known (`seen`/`last` say "in office by",
   "last listed"), each linked to the term table that holds him (Exec. 1965). The appointed holder over an acting
   one; before the term, an acting officer who held the office last follows him, marked "(acting)" (not where he is
   the term's own first holder). An office many hold at once (`many: true`) links the term tables before and after
@@ -553,7 +554,8 @@ tools/bib/specials.py             renders the blocks, the calendar's race tables
 seat; for the House, his own race that November where one race in his State names him, else the same number's).
 Under each race and special, "Roster: 87th Cong.", the seat's row at the next opening that has a roster. Under the
 presidential vote, "Took office", the President and Vice President in the Executive roster at the next inauguration.
-Tables write an at-large seat "AL" and leave the district column unheaded; a fusion candidacy's parties abbreviated ("D, R");
+A row highlighted as a link's target (any roster or election table) goes plain when the reader clicks outside it
+(`JS` in `tools/bib/roster.py`; `.unhl`). Tables write an at-large seat "AL" and leave the district column unheaded; a fusion candidacy's parties abbreviated ("D, R");
 a whole vote "100%".
 
 ## Elections
