@@ -1840,7 +1840,9 @@ CSS = """<style>
 .lv h2{margin-top:2rem}
 .lv h3{font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:1.4rem 0 .4rem}
 .lvd{font-size:.95rem}
+p.lvd{margin:.6rem 0 .2rem}
 .lvs{font-size:.82rem;color:var(--muted)}
+p.lvs{margin:.2rem 0 .9rem}
 p.lvl{margin:.5rem 0;line-height:1.55}
 ul.lvx{list-style:none;margin:.3rem 0 1rem;padding:0;columns:2;column-gap:1.5rem;font-size:.92rem;line-height:1.5}
 ul.lvx li{break-inside:avoid;padding-left:1em;text-indent:-1em}
