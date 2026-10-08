@@ -733,15 +733,16 @@ def block(i, units, ptr, href, rid, here=False):
                                 for p_ in pts)
                 rid_ = f' id="{rid(i, u["unit"], o["id"])}"' if k == 0 else ""
                 rows.append(f'<tr{rid_} class="{cls}">{head}<td>{cell}</td><td class="expc">{pcell}</td></tr>')
-            if laws or onote:
-                rows.append(f'<tr class="exlr{" exlrm" if prev or nxt else ""}"><td colspan="3">' + onote
-                            + ('<ul class="exlaw">' + "".join(f"<li>{x}</li>" for x in laws) + "</ul>" if laws else "")
-                            + "</td></tr>")
             if prev or nxt:
-                # the holders before and after the term, under everything: before at the left, after at the right
-                rows.append('<tr class="exnr"><td colspan="3"><div class="exnbw">'
+                # the holders before and after the term, under the holders and over the law: before at the left,
+                # after at the right
+                rows.append(f'<tr class="exnr{" exnrm" if laws or onote else ""}"><td colspan="3"><div class="exnbw">'
                             + (f'<span class="exnbl">{prev}</span>' if prev else "")
                             + (f'<span class="exnbr">{nxt}</span>' if nxt else "") + "</div></td></tr>")
+            if laws or onote:
+                rows.append('<tr class="exlr"><td colspan="3">' + onote
+                            + ('<ul class="exlaw">' + "".join(f"<li>{x}</li>" for x in laws) + "</ul>" if laws else "")
+                            + "</td></tr>")
         ulaw = [law_html(x) for x in u.get("law") or [] if in_force(x, a, b)]
         if not rows and not ulaw:
             continue
@@ -799,8 +800,8 @@ details.exu tr.exhl td.exof,details.exu td.exof.exnb{border-bottom:0}
 .ex .exp{display:block;margin-bottom:.15rem}
 .ex .exp a,.ex .exnw{white-space:nowrap}
 details.exu tr.exlr td{padding-top:0}
-details.exu tr.exlr.exlrm td{border-bottom:0;padding-bottom:0}
 details.exu tr.exnr td{padding-top:.15rem}
+details.exu tr.exnr.exnrm td{border-bottom:0;padding-bottom:.35rem}
 .ex .exnbw{display:flex;flex-wrap:wrap;justify-content:space-between;column-gap:1.5rem;row-gap:.1rem}
 .ex .exnbw .exnbr{margin-left:auto;text-align:right}
 .ex .exnbw .exh{margin-bottom:0}

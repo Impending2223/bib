@@ -337,7 +337,7 @@ notes/executive-brief.md      the brief for whoever adds to the roster, person o
 ./bib executive sources [all]         holder sources the line cannot link, by form ([all]: by holder)
 ```
 
-- Each office shows, muted (smaller, gray, not italic), in a full-width row at the foot of the office (after its law),
+- Each office shows, muted (smaller, gray, not italic), in a full-width row under the holders (over the office's law),
   at the left the holder before the term ("Before: Rusk, Dean left
   Jan. 20, 1969") and at the right the holder after it ("After: … took office …"), as precisely as known (`seen`/`last` say "in office by",
   "last listed"), each linked to the term table that holds him (Exec. 1965). The appointed holder over an acting
