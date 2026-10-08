@@ -477,7 +477,13 @@ tools/lives/make_pocom.py     sources/pocom.json: POCOM's years of birth and dea
                               notes/pocom-matches.md, the matches made by name, with the evidence, and those refused
 sources/pocom-matches.yaml    kept by hand: overrides to the name matches (Name: pocom-id, or Name: null)
 sources/race-matches.yaml     kept by hand: races refused or confirmed for a person, each with its reason
+sources/app-matches.yaml      kept by hand: a bare name two persons share, given to one for some years; a son known
+                              only by his suffix (strict: Roosevelt, Hoover, Clay, MacArthur, Taft, Stevenson III)
 ```
+
+Namesakes in the FRUS and APP indexes: a further given name or initial tells two apart ('John W.' is not 'John G.';
+FRUS's list gives the suffix apart, and it decides between a father and a son); a misprinted list is corrected in
+`ERRATA` (`tools/lives/frus_names.py`: FRUS 1961-63, VII and XVI print Stevenson III for his father).
 
 POCOM in a life: the years of birth and death where the Directory gives none; "Career Foreign Service officer" or
 "Non-career appointee", with the home State; and the State posts the roster does not hold (ended before Jan. 20,
