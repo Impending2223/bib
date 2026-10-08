@@ -4,7 +4,8 @@ tools/congress/make_specials.py, which see) and congress/switches.yaml (kept by 
 congress.html puts, after each Congress at its opening, the specials held between general elections:
 a summary, House and Senate maps of the seats filled (the election blocks' views: Result, Margin,
 Swing), and a table of the races. Specials held with the November election are in that election's block,
-from the Clerk's returns; they are not repeated here. A calendar entry tagged special:<key> carries its
+from the Clerk's returns; they are not repeated here, unless the Clerk's volume does not print the race
+(not_in_clerk: Georgia's Senate special, 1972). A calendar entry tagged special:<key> carries its
 race's table. The rosters' notes take each special's date and each switch from here.
 
 Votes read from a State's own returns are kept by hand in congress/specials-state.yaml (keyed by the race's
@@ -107,8 +108,9 @@ def switches():
 
 
 def between(c, data=None):
-    """The specials held between general elections during Congress c."""
-    return [x for x in (data or load()).get(c, []) if not x.get("with_general")]
+    """The specials held between general elections during Congress c, and those held with one whose race the Clerk's
+    volume does not print (Georgia's Senate special, 1972: not_in_clerk)."""
+    return [x for x in (data or load()).get(c, []) if not x.get("with_general") or x.get("not_in_clerk")]
 
 
 def rid(x):
@@ -132,6 +134,14 @@ def cite_html(text, url=None, access=None):
     return t + (f" ({esc(access)})" if access and access != "open" else "")
 
 
+def is_winner(name, winner):
+    """The candidate is the winner: the surnames agree, or agree with the spaces out ('Vander Veen', 'VanderVeen')."""
+    if surname(name) == surname(winner):
+        return True
+    a, b = (re.sub(r"[\s.]", "", surname(winner)).lower(), re.sub(r"[\s.]", "", re.sub(r",? (Jr|Sr|II|III|IV)\.?$", "", name)).lower())
+    return b.endswith(a)
+
+
 def surname(n):
     """The surname, accents folded ('González' and CQ's 'Gonzalez' are one)."""
     import unicodedata
@@ -147,7 +157,7 @@ def final(x):
     if x.get("rounds"):
         rows = x["rounds"][-1]["cands"]
         tot = sum(r[2] for r in rows)
-        return [(r[0], r[1], r[2], share(r, tot), r[0] == x["winner"] or surname(r[0]) == surname(x["winner"]))
+        return [(r[0], r[1], r[2], share(r, tot), r[0] == x["winner"] or is_winner(r[0], x["winner"]))
                 for r in sorted(rows, key=lambda r: -r[2])]
     return [(r[0], r[1], None, r[2], len(r) > 3 and r[3] == "won") for r in x.get("cands") or []]
 
@@ -286,7 +296,7 @@ def row(x, STATE, sw=None):
     if x.get("rounds"):
         for rd in x["rounds"]:
             tot = sum(r[2] for r in rd["cands"])
-            rows = [(r[0], r[1], r[2], share(r, tot), rd is x["rounds"][-1] and surname(r[0]) == surname(x["winner"]))
+            rows = [(r[0], r[1], r[2], share(r, tot), rd is x["rounds"][-1] and is_winner(r[0], x["winner"]))
                     for r in sorted(rd["cands"], key=lambda r: -r[2])]
             head = (f'<span class="eln">{esc(rd["label"].capitalize())}, {esc(fmt_date(rd["date"]))}</span>'
                     if len(x["rounds"]) > 1 else "")
@@ -440,7 +450,7 @@ def problems(series=None):
         if not r.get("cite"):
             out.append((where, "no cite"))
         if r.get("unopposed"):
-            if surname(r["unopposed"][0]) != surname(byk[k]["winner"]):
+            if not is_winner(r["unopposed"][0], byk[k]["winner"]):
                 out.append((where, f"the winner, {byk[k]['winner']}, is not the unopposed candidate"))
             continue
         for rd in r.get("rounds") or []:
@@ -455,7 +465,7 @@ def problems(series=None):
                 out.append((where, f"{rd['label']}: the votes and printed shares cannot come from one total"))
             if sum(c[2] for c in rd["cands"]) > hi + 1:
                 out.append((where, f"{rd['label']}: the votes add to more than the shares allow"))
-        if r.get("rounds") and not any(surname(c[0]) == surname(byk[k]["winner"]) for c in r["rounds"][-1]["cands"]):
+        if r.get("rounds") and not any(is_winner(c[0], byk[k]["winner"]) for c in r["rounds"][-1]["cands"]):
             out.append((where, f"the winner, {byk[k]['winner']}, is not in the last round"))
     out += [("congress/specials.yaml", f"duplicate key {k}") for k, n in keys.items() if n > 1]
     for s in switches():

@@ -454,6 +454,9 @@ tools/bib/specials.py             renders the blocks, the calendar's race tables
   `*title*` in italics, date, page; linked to the copy read. A race not yet read carries `pending`, the
   source to check, shown "Check: <cite> (bot-check)" with its access from `sources/states.yaml`.
 - Seats are written with a hyphen: MA-6, VT-AL (summaries, tables, map hover text).
+- Senate specials: Texas 1961 from its own page; Vermont (Jan. 7, 1972) and Georgia (Nov. 7, 1972) from
+  `SENATE_HAND` in `make_specials.py`, their votes CQ's. Georgia's was held with the November election, but the
+  Clerk prints the regular race only, so it carries `not_in_clerk` and shows with the specials between elections.
 
 - Where the State's returns are not read, CQ's *Guide to U.S. Elections* (`congress/specials-cq.yaml`, header
   there): votes and CQ's printed shares, cited by page; the State's returns stay the Check. CQ omits minor
