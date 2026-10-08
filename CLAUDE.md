@@ -439,7 +439,8 @@ nominees, where the roster seated him from the State at the last opening; "in th
 source says so (`elections/renominations.yaml`, kept by hand: 35 races, from the incumbents' Wikipedia articles), never
 from a State's nominating law. Where `elections/primaries.yaml` holds the race's primaries (CQ's figures and printed
 shares, by page), the row shows the rounds that name the person, each under its label, before the November vote
-("General election"), and cites CQ; a lost renomination gives the round he lost in the sentence ("in the Democratic
+("General election"), and cites CQ, a little space above each label after the first; a lost renomination shows its
+rounds alone, without the November vote, and gives the round he lost in the sentence ("in the Democratic
 runoff": Jordan, 1972). `check` fails on a key there that names no race. The record table sets each candidate in three columns, the count and the
 share right-aligned (under 520px the share goes under the count).
 

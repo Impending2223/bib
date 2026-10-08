@@ -733,7 +733,7 @@ def primary_rounds(key, name):
 
 def primary_cells(key, name):
     """The record's cells for the primary rounds that name the candidate, each under its label, the person in bold;
-    then the label of the November vote. [] where none."""
+    then the label of the November vote (a lost renomination drops it, and the November vote). [] where none."""
     rs = primary_rounds(key, name)
     if not rs:
         return []
@@ -1028,7 +1028,9 @@ def election_sentences(sur, given, sfx="", strict=False, givens=(), held=(), sea
                 "cnames": [c["n"] for c in sorted(cs, key=lambda c: -(c.get("v") or 0))],
                 "src": src + ("; Check: matched by name only" if check else ""),
                 "key": key, "check": check, "n": i.get("n"), "renomination": True,
-                "pre": primary_cells(key, i.get("n") or "")}
+                "pre": primary_cells(key, i.get("n") or "")[:-1]}
+            if res_[-1]["row"]["pre"]:           # the rounds he lost say it all: the November vote left out
+                res_[-1]["row"]["cands"], res_[-1]["row"]["cnames"] = [], []
         return res_
 
     def special_rows():
