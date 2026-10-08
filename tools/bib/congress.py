@@ -13,7 +13,7 @@ import os
 import re
 from collections import Counter, defaultdict
 
-from . import specials, store
+from . import namelinks, specials, store
 from .markup import to_html, plain
 
 DIR = os.path.join(store.ROOT, "congress")
@@ -359,7 +359,7 @@ def block(c, data, geo, ptr, href, rid, here=False):
                 if r.get("vacant"):
                     who, party, pts = "<i>Vacant</i>", "", []
                 else:
-                    who, party = esc(r["name"]), r["party"]
+                    who, party = namelinks.a(ptr.series, r["name"], esc(r["name"])), r["party"]
                     pts = ptr.lines(r["name"], href)
                     if caucused(r):
                         party = f'<span title="{esc(third_name(r))}">{party} ({caucused(r)[0]})</span>'
@@ -424,6 +424,8 @@ def assets(geo):
 
 def inject(page, series, linker, mode):
     """Put each tagged calendar entry's Congress block into a built page."""
+    from . import elections
+    elections.SERIES = specials.SERIES = series      # the candidates' name entries
     data, geo = load()
     if not data or not geo:
         return page
@@ -462,6 +464,8 @@ def inject(page, series, linker, mode):
 
 def page(series, linker, template):
     """build/congress.html: every Congress in congress/."""
+    from . import elections
+    elections.SERIES = specials.SERIES = series      # the candidates' name entries
     data, geo = load()
     if not data or not geo:
         return None

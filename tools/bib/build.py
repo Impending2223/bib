@@ -152,10 +152,13 @@ def section_body(series, lst, sec, idfmt, text_html, li_extra=None):
 
 # ---------------------------------------------------------------- one list, standalone
 
-def build_list(series, key):
+def build_list(series, key, linker=None):
     lst = series.lists[key]
+    from . import namelinks
 
     def resolve(eid, shown):
+        if eid.startswith("§nmx:"):      # a person's name entry (tools/bib/namelinks.py)
+            return f'<a class="nm" href="{attr(eid[5:])}">{to_html(shown)}</a>'
         hit = series.get(eid)
         if not hit:
             return None
@@ -166,6 +169,15 @@ def build_list(series, key):
         return text
 
     def text_html(t, field):
+        # the persons a line names, linked to their name entries: a subject line's, a citation's authors, a note's
+        # 'Names:' (tools/bib/namelinks.py)
+        if field == "s":
+            return "; ".join(namelinks.a(series, plain(part), part) for part in to_html(t, resolve).split("; "))
+        if field == "c":
+            lead, rest = namelinks.author_split(series, t)
+            return (lead or "") + to_html(rest, resolve)
+        if field == "n" and linker and "Names:" in t:
+            t = linker.names_markup(t, key, internal=False)
         return to_html(t, resolve)
 
     main = [f"<h1>{esc(lst.data['h1'])}</h1>"]
@@ -291,6 +303,51 @@ class Linker:
                 cands.append(e)
         return cands[0] if cands else None
 
+    def names_markup(self, chunk, key, internal=True):
+        """A calendar note's 'Names: Heller, Tobin (K–J Adm. III.H)': each name marked to link to the person's name
+        entry (or, failing one and where internal, to the Part III entry in the reader)."""
+        refs = self.refs
+        m = re.search(r"Names: (.*)$", chunk)
+        if not m:
+            return chunk
+        head, body = chunk[:m.start(1)], m.group(1)
+        groups = []
+        for g in re.split(r"(;\s*)", body):
+            gm = re.match(r"^([^()]+?)\s*\(([^)]*)\)(.*)$", g)
+            if not gm:
+                groups.append(g)
+                continue
+            names_part, ref_part, rest = gm.groups()
+            scanned = list(refs.scan(ref_part, key))
+            if not scanned or "," in names_part and not re.search(r"[A-Za-z]", names_part):
+                groups.append(g)
+                continue
+            lkey = scanned[0][2]
+            codes = [c for _, _, k, c in scanned if c]
+            linked = []
+            for tok in re.split(r"(,\s*)", names_part):
+                if re.match(r"^,\s*$", tok) or not tok.strip():
+                    linked.append(tok)
+                    continue
+                x = self.find_person(tok, lkey, codes)
+                u = self.name_url(x, tok) if x else None
+                linked.append(f"[[§nmx:{u}|{tok}]]" if u else f"[[§nm:{x['id']}|{tok}]]" if x and internal else tok)
+            groups.append("".join(linked) + f" ({ref_part})" + rest)
+        return head + "".join(groups)
+
+    def name_url(self, x, tok=None):
+        """The name entry of the person a Part III entry names (the name of its subject line that tok's surname
+        matches, where it names several), or None."""
+        from . import namelinks
+        names = [re.sub(r"\s*\([^)]*\)\s*$", "", n).strip() for n in re.split(r";\s*", plain(x.get("s") or ""))]
+        names = [n for n in names if "," in n]
+        if not names:
+            return None
+        if tok:
+            sur = store.fold(tok.strip().split()[-1])
+            names = [n for n in names if store.fold(n.split(",")[0]).split()[-1:] == [sur]] or names
+        return namelinks.url(self.series, names[0])
+
     # -------------------------------------------------------- text
     def text_html(self, lst, sec, e):
         """A text renderer bound to one entry (or section prose when e is None)."""
@@ -299,6 +356,8 @@ class Linker:
         def resolve(eid, shown):
             if eid.startswith("§"):
                 cls, href = eid[1:].split(":", 1)
+                if cls == "nmx":         # a person's name entry, on its own page (tools/bib/namelinks.py)
+                    return f'<a class="nm" href="{attr(href)}">{to_html(shown)}</a>'
                 return self.a(href, cls, to_html(shown))
             hit = series.get(eid)
             if not hit:
@@ -350,36 +409,20 @@ class Linker:
             return ITAL_RE.sub(sub, chunk)
 
         def link_names(chunk):
-            m = re.search(r"Names: (.*)$", chunk)
-            if not m:
-                return chunk
-            head, body = chunk[:m.start(1)], m.group(1)
-            groups = []
-            for g in re.split(r"(;\s*)", body):
-                gm = re.match(r"^([^()]+?)\s*\(([^)]*)\)(.*)$", g)
-                if not gm:
-                    groups.append(g)
-                    continue
-                names_part, ref_part, rest = gm.groups()
-                scanned = list(refs.scan(ref_part, lst.key))
-                if not scanned or "," in names_part and not re.search(r"[A-Za-z]", names_part):
-                    groups.append(g)
-                    continue
-                key = scanned[0][2]
-                codes = [c for _, _, k, c in scanned if c]
-                linked = []
-                for tok in re.split(r"(,\s*)", names_part):
-                    if re.match(r"^,\s*$", tok) or not tok.strip():
-                        linked.append(tok)
-                        continue
-                    x = self.find_person(tok, key, codes)
-                    linked.append(f"[[§nm:{x['id']}|{tok}]]" if x else tok)
-                groups.append("".join(linked) + f" ({ref_part})" + rest)
-            return head + "".join(groups)
+            return self.names_markup(chunk, lst.key)
 
         def render(t, field):
             if field in ("s",):
-                return to_html(t, resolve)
+                h = to_html(t, resolve)
+                if e is not None and refs.is_person(lst, sec, e):
+                    from . import namelinks   # the subject's name entry, each name of a shared line its own
+                    h = "; ".join(namelinks.a(series, plain(part), part) for part in h.split("; "))
+                return h
+            lead = ""
+            if field == "c":             # the citation's authors, linked to their name entries
+                from . import namelinks
+                lead, t = namelinks.author_split(series, t)
+                lead = lead or ""
             pieces = []
             for prot, chunk in split_protected(t):
                 if prot:
@@ -395,7 +438,7 @@ class Linker:
                 for p2, c2 in split_protected(chunk):
                     sub.append(c2 if p2 else link_plain(c2, field))
                 pieces.append("".join(sub))
-            return to_html("".join(pieces), resolve)
+            return lead + to_html("".join(pieces), resolve)
 
         return render
 
@@ -543,13 +586,15 @@ def _section_series(series, lst, sec, linker, li_extra):
 def run(series, which=None):
     os.makedirs(OUT, exist_ok=True)
     written = []
-    PAGES = ("series", "congress", "executive", "lives")
+    PAGES = ("series", "congress", "executive", "names", "lives")
     keys = [which] if which and which not in PAGES else ([] if which in PAGES else list(series.lists))
     from . import congress, executive, indicators
+    daybook.SERIES = series                  # the FRUS senders' name entries
     linker = None
     for k in keys:
         path = os.path.join(OUT, f"{k}.html")
-        page = build_list(series, k)
+        linker = linker or Linker(series)
+        page = build_list(series, k, linker)
         if series.lists[k].kind == "calendar":
             linker = linker or Linker(series)
             page = congress.inject(page, series, linker, "list")
@@ -587,7 +632,7 @@ def run(series, which=None):
             with open(path, "w", encoding="utf-8") as f:
                 f.write(page)
             written.append(path)
-    if which in (None, "lives"):
+    if which in (None, "names", "lives"):
         from . import lives
         linker = linker or Linker(series)
         for name, page in lives.pages(series, linker, os.path.join(TEMPLATES, "list.html")).items():

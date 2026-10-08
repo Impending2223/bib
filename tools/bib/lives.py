@@ -1,4 +1,4 @@
-"""Lives: a name entry for each person, gathered from the series' own files. build/lives.html.
+"""Names: a name entry for each person, gathered from the series' own files. build/names.html.
 
 Each entry: the name as Part III writes it, the Directory's description, the pointers into the series, then
   Life                 running text, in order of date: each fact with the date in it and its pincite, linked
@@ -39,6 +39,7 @@ from .markup import to_html, plain, lower_from
 fold = functools.lru_cache(maxsize=None)(store.fold)     # the same names are folded many thousand times
 
 SITE = ""   # a base url for the links to the other pages ('' on the site itself)
+SERIES_FOR_LINKS = None   # the series, once the pages are being written: the record tables link the other candidates
 MONTHS = ["Jan.", "Feb.", "Mar.", "Apr.", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."]
 FULL = {m: i for i, m in enumerate(["January", "February", "March", "April", "May", "June", "July", "August",
                                      "September", "October", "November", "December"], 1)}
@@ -872,11 +873,14 @@ def election_sentences(sur, given, sfx="", strict=False, givens=(), held=(), sea
                 "cands": [cand(c["n"], c.get("p"), (f"{c['v']:,}" + (f" ({pct(c['v'], tot)})" if tot else "")) if c.get("v")
                                else ("unopposed; no vote printed" if len(cs) == 1 else ""), c is me)
                           for c in sorted((c for c in cs if c is me or c.get("v")), key=lambda c: -(c.get("v") or 0))],
+                # the same candidates' names as the returns print them, for linking the others to their entries
+                "cnames": [None if c is me else c["n"]
+                           for c in sorted((c for c in cs if c is me or c.get("v")), key=lambda c: -(c.get("v") or 0))],
                 "src": (re.sub(r"[*]([^*]+)[*]", r"<i>\1</i>", esc(r["src"])) if r.get("src") else   # the Clerk prints none
                         a(url + (f"#page={r['page']}" if r.get("page") else ""),
                           f"Clerk {y}" + (f", p. {r['page']}" if r.get("page") else "")))
                        + ("; Check: matched by name only" if check else ""),
-                "key": key, "check": check}
+                "key": key, "check": check, "n": me["n"]}
         out += ticket_rows(y, d, url, mine)
     return out
 
@@ -1071,9 +1075,9 @@ def ticket_rows(y, d, url, mine):
         share = lambda x: f"{pv.get(x, 0):,} PV ({pct(pv.get(x, 0), allv)})" if pv.get(x) else ""
         line = lambda n2, k2, e2: "; ".join(x for x in (f"{e2} EV" if e2 else "", share(k2) if k2 else "") if x)
         # every candidate by electoral votes, then popular; the person among them in bold
-        field_ = [cand(n2, letter.get(k2, "") if k2 else "", line(n2, k2, e2), (n2, k2) == (n, k))
-                  for n2, k2, e2 in sorted(field, key=lambda f: (-f[2], -pv.get(f[1], 0)))
-                  if (n2, k2) == (n, k) or e2 or pv.get(k2, 0) >= allv * 0.01]
+        shown = [(n2, k2, e2) for n2, k2, e2 in sorted(field, key=lambda f: (-f[2], -pv.get(f[1], 0)))
+                 if (n2, k2) == (n, k) or e2 or pv.get(k2, 0) >= allv * 0.01]
+        field_ = [cand(n2, letter.get(k2, "") if k2 else "", line(n2, k2, e2), (n2, k2) == (n, k)) for n2, k2, e2 in shown]
         t = (f"{result.split(' (')[0]} {'to' if won else 'for'} the office of {office}, {fmt(d['date'])}: {e} electoral "
              f"votes; {share(k)} popular." if k else f"{office}, {fmt(d['date'])}: {e} electoral votes.")
         out.append(sent(d["date"], t, [a(url, f"Clerk, Election Statistics {y}")],
@@ -1083,7 +1087,8 @@ def ticket_rows(y, d, url, mine):
             "cong": None, "ch": "p" if office == "President" else "v", "st": "", "date": d["date"],
             "election": ptr(f"{SITE}congress.html#e{y}", fmt(d["date"])), "seat": office, "result": "",
             "exec": exec_pointer(n, office, f"{int(y) + 1}-01-20") if k == winner else "",
-            "cands": field_, "src": a(url, f"Clerk {y}")}
+            "cands": field_, "src": a(url, f"Clerk {y}"),
+            "cnames": [None if (n2, k2) == (n, k) else n2 for n2, k2, e2 in shown], "ticket": True}
     return out
 
 
@@ -1115,8 +1120,23 @@ def record_html(rows, rosters):
             used.add(k)
         else:
             hit = None
+        cands = r["cands"]
+        if r.get("cnames") and r.get("ticket") and SERIES_FOR_LINKS is not None:
+            # the other tickets' candidates, where one person with an entry fits the name
+            from . import namelinks
+            cands = [h if not n or not namelinks.written(SERIES_FOR_LINKS, n) else
+                     h.replace(esc(n), namelinks.a(SERIES_FOR_LINKS, namelinks.written(SERIES_FOR_LINKS, n), esc(n)), 1)
+                     for h, n in zip(cands, r["cnames"])]
+        if r.get("cnames") and r.get("key"):
+            # the other candidates linked to their name entries, where the entries confirm the race (race_people)
+            idx = race_people(SERIES_FOR_LINKS) if SERIES_FOR_LINKS is not None else {}
+            from . import namelinks
+            cands = [h if not n or (r["date"][:4], r["key"], n) not in idx else
+                     h.replace(esc(n), f'<a class="nm" href="{namelinks.url(SERIES_FOR_LINKS, idx[(r["date"][:4], r["key"], n)])}">'
+                                       f'{esc(n)}</a>', 1)
+                     for h, n in zip(cands, r["cnames"])]
         out.append((r["cong"] or 0, r["date"], hit[2] if hit else r.get("exec", ""), r["election"], r["seat"], r["result"],
-                    "<br>".join(r["cands"]), r["src"]))
+                    "<br>".join(cands), r["src"]))
     for (c, ch), (day, st, p, seat) in seats.items():
         if (c, ch) in used:
             continue
@@ -1385,6 +1405,38 @@ def full_givens(names):
     return out
 
 
+def person_races(series, p):
+    """(roster pointers, Directory entry, election sentences) for a person: the races the returns give him."""
+    return cached(("person-races", p["name"]), lambda: _person_races(series, p))
+
+
+def _person_races(series, p):
+    name, names = p["name"], p["names"]
+    sur, given = split_name(name)
+    sfx, strict = person_suffix(series, p)
+    rp = roster_pointers(sur, given, names)
+    member = bool(rp)
+    e = bd_entry(sur, given, member, () if member else person_words(sur, given, names, part3_roles(series, names)), sfx,
+                 alive_day(rp, names))
+    races = election_sentences(sur, given, sfx, strict, [split_name(n)[1] for n in names] + full_givens(names),
+                               held_spans(names), {(c, ch, st) for _, c, ch, st, *_ in rp}, names, e, last_day(rp, names))
+    return rp, e, races
+
+
+def race_people(series):
+    """{(year, race key, candidate as the returns write him): the person's name}: every race a name entry gives its
+    person and something confirms (not 'Check'), for linking the election tables to the entries."""
+    def make():
+        out = {}
+        for p in cached("people", lambda: people(series)):
+            for s_ in person_races(series, p)[2]:
+                r = s_.get("row")
+                if r and r.get("key") and not r.get("check"):
+                    out[(r["date"][:4], r["key"], r["n"])] = p["name"]
+        return out
+    return cached("race-people", make)
+
+
 def entry(series, linker, ptrs, p):
     if isinstance(p, str):
         p = person_for(series, p)
@@ -1398,14 +1450,8 @@ def entry(series, linker, ptrs, p):
         return es == sfx if es not in ("", "Sr") else not strict
     subs = subjects(ptrs, name, ok)
     cal = calendar_of(ptrs, [x for x in subs if (x[1].code or "").startswith("III")])
-    rp = roster_pointers(sur, given, names)
-    member = bool(rp)
-    e = bd_entry(sur, given, member, () if member else person_words(sur, given, names, part3_roles(series, names)), sfx,
-                 alive_day(rp, names))
-    structured = (office_sentences(sur, given, names)
-                  + election_sentences(sur, given, sfx, strict, [split_name(n)[1] for n in names] + full_givens(names),
-                                       held_spans(names), {(c, ch, st) for _, c, ch, st, *_ in rp}, names, e,
-                                       last_day(rp, names))
+    rp, e, races = person_races(series, p)
+    structured = (office_sentences(sur, given, names) + races
                   + calendar_sentences(ptrs, cal) + pocom_sentences(p, bool(e)))
     record = [s_["row"] for s_ in structured if s_.get("row")]
     structured = [s_ for s_ in structured if s_["kind"] != "election"]
@@ -1468,7 +1514,7 @@ def entry(series, linker, ptrs, p):
 
 
 CSS = """<style>
-/* Lives (tools/bib/lives.py) */
+/* Names (tools/bib/lives.py) */
 .lv h2{margin-top:2rem}
 .lv h3{font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:1.4rem 0 .4rem}
 .lvd{font-size:.95rem}
@@ -1559,9 +1605,11 @@ def letter_of(p):
 def page(series, linker, template, names):
     """One page for the persons named ('Humphrey, Hubert H.')."""
     from .congress import Pointers
+    global SERIES_FOR_LINKS
+    SERIES_FOR_LINKS = series
     ptrs = Pointers(series, linker)
-    main = ["<h1>Lives</h1>"] + INTRO + [entry(series, linker, ptrs, n) for n in names]
-    return wrap(template, "Lives", main)
+    main = ["<h1>Names</h1>"] + INTRO + [entry(series, linker, ptrs, n) for n in names]
+    return wrap(template, "Names", main)
 
 
 def wrap(template, title, main):
@@ -1571,32 +1619,43 @@ def wrap(template, title, main):
 
 
 def pages(series, linker, template):
-    """{file name: html}: lives.html, the index of names by letter; lives-a.html ... lives-z.html, the entries."""
+    """{file name: html}: names.html, the index of names by letter; names-a.html ... names-z.html, the entries; and
+    lives.html, lives-a.html ..., the pages' old names, sending a reader on (anchor kept)."""
     from .congress import Pointers
-    global SITE
+    global SITE, SERIES_FOR_LINKS
+    SERIES_FOR_LINKS = series
     ptrs = Pointers(series, linker)
     everyone = cached("people", lambda: people(series))
     by_letter = {}
     for p in everyone:
         by_letter.setdefault(letter_of(p), []).append(p)
     out = {}
-    index = ["<h1>Lives</h1>"] + INTRO + [f'<p class="logic">{len(everyone):,} persons.</p>']
-    nav = " ".join(f'<a class="lvp" href="lives-{L}.html">{L.upper()}</a>' for L in sorted(by_letter))
+    index = ["<h1>Names</h1>"] + INTRO + [f'<p class="logic">{len(everyone):,} persons.</p>']
+    nav = " ".join(f'<a class="lvp" href="names-{L}.html">{L.upper()}</a>' for L in sorted(by_letter))
     index.append(f'<p class="lvs">{nav}</p>')
     for L in sorted(by_letter):
         ps = by_letter[L]
         index.append(f'<h2 id="{L}" data-short="{L.upper()}">{L.upper()}</h2><ul class="lvx">' + "".join(
-            f'<li><a href="lives-{L}.html#{key_of(p["name"])}">{esc(p["name"])}</a></li>' for p in ps) + "</ul>")
-        main = [f"<h1>Lives: {L.upper()}</h1>", f'<p class="lvs">{nav} · <a class="lvp" href="lives.html">Index</a></p>']
+            f'<li><a href="names-{L}.html#{key_of(p["name"])}">{esc(p["name"])}</a></li>' for p in ps) + "</ul>")
+        main = [f"<h1>Names: {L.upper()}</h1>", f'<p class="lvs">{nav} · <a class="lvp" href="names.html">Index</a></p>']
         for p in ps:
             try:
                 main.append(entry(series, linker, ptrs, p))
             except Exception as ex:          # one entry's fault names the person and does not stop the page
                 import traceback
-                print(f"lives: {p['name']}: {ex!r}", traceback.format_exc().splitlines()[-3], file=sys.stderr)
-        out[f"lives-{L}.html"] = wrap(template, f"Lives: {L.upper()}", main)
-    out["lives.html"] = wrap(template, "Lives", index)
+                print(f"names: {p['name']}: {ex!r}", traceback.format_exc().splitlines()[-3], file=sys.stderr)
+        out[f"names-{L}.html"] = wrap(template, f"Names: {L.upper()}", main)
+        out[f"lives-{L}.html"] = moved(f"names-{L}.html")
+    out["names.html"] = wrap(template, "Names", index)
+    out["lives.html"] = moved("names.html")
     return out
+
+
+def moved(to):
+    """A page under its old name, sending the reader to the new one with the anchor."""
+    return (f'<!doctype html><meta charset="utf-8"><title>Names</title><link rel="canonical" href="{to}">'
+            f'<meta http-equiv="refresh" content="0; url={to}">'
+            f'<script>location.replace("{to}" + location.hash)</script><p><a href="{to}">Names</a></p>')
 
 
 PRIMARY = re.compile(r"Recording|Archive|Document|Record|Paper|Oral|Speech|Tape|Interview|Film|Screen")
@@ -1632,12 +1691,15 @@ def series_works(series, linker, ptrs, name, subs=None, strict=False):
                     idx.setdefault(w, []).append(row)
         return idx
     words = re.findall(r"[a-z]+", fold(sur))
+    # a President's surname alone as a title is a work about him (Sorensen, *Kennedy*)
+    bare = re.compile(r"\*" + re.escape(sur) + r"\*") if given and any(
+        fold(last_word(n)) == fold(sur) and fold(n.split()[0]) == fold(given.split()[0]) for n, _, _ in PRESIDENTS) else None
     # a son whose father, written bare, has his own entry: only the entries whose subject is the son
     for l, s, e, txt, sec in ([] if strict else cached("works", make).get(words[-1] if words else "", [])):
         if True:
             if e["id"] in seen:
                 continue
-            if any(x in txt for x in q):
+            if any(x in txt for x in q) or (bare and any(bare.search(c) for c in store.as_list(e.get("c")))):
                 seen.add(e["id"])
                 hits.append((l, s, e, False))
             elif PRIMARY.search(sec) and \
@@ -1658,13 +1720,29 @@ def series_works(series, linker, ptrs, name, subs=None, strict=False):
                 author = prev
             prev = author if author is not None else prev
             kind = work_kind(c, author, sur, bool(subject), sec, given)
-            if kind != "own" and not any(x in fold(plain(c)) for x in q) and not (subject and kind):
+            if kind != "own" and not any(x in fold(plain(c)) for x in q) and not (subject and kind) \
+                    and not (bare and bare.search(c)):
                 continue           # another work in the same entry
             if not kind:
                 continue
             note = f" {series_html(ptrs, e['n'], l.key, e)}" if e.get("n") and len(cs) == 1 else ""
-            out.append((kind, to_html(c), note, ptr_html))
+            from . import namelinks          # the authors linked to their entries, not the person's own name
+            lead, rest = namelinks.author_split(series, c, own=name)
+            if author is None and e.get("s") and ";" not in e["s"] and not subject:
+                # a title alone in another's subject entry is that person's work (his memoir): his name before it
+                subj = re.sub(r"\s*\([^)]*\)\s*$", "", plain(e["s"])).strip()
+                if "," in subj and namelinks.person(series, subj) != namelinks.person(series, name):
+                    lead = namelinks.a(series, subj, esc(running(subj))) + ", "
+            out.append((kind, (lead or "") + to_html(rest), note, ptr_html))
     return out
+
+
+def running(name):
+    """'Sorensen, Theodore C.' -> 'Theodore C. Sorensen'; 'Schlesinger, Arthur M., Jr.' -> 'Arthur M. Schlesinger Jr.'"""
+    parts = [x.strip() for x in name.split(",")]
+    sfx = [x for x in parts[2:] if re.fullmatch(r"(Jr|Sr|II|III|IV)\.?", x)]
+    return " ".join([parts[1]] if len(parts) > 1 else []) + (" " if len(parts) > 1 else "") + parts[0] + \
+        (" " + sfx[0] if sfx else "")
 
 
 def chain(s):
