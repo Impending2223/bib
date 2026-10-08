@@ -1850,7 +1850,7 @@ table.lvt .lvs2{padding-top:1.35em}
 @media (max-width:520px){table.lvt .lvcs{grid-template-columns:minmax(6em,1fr) auto}table.lvt .lvn{grid-column:1;grid-row:span 2}
   table.lvt .lvv,table.lvt .lvs{grid-column:2}table.lvt .lvs2{padding-top:0}}
 table.lvt .lvpl{grid-column:1/-1;font-family:var(--sans);font-size:.72em;letter-spacing:.04em;text-transform:uppercase;
-  color:var(--muted);padding-top:.25em}
+  color:var(--muted);padding-top:.75em}
 table.lvt .lvpl:first-child{padding-top:0}
 table.lvt .lvts{display:block}
 table.lvt .lvts,table.lvt .lvts a{color:var(--muted);font-size:.92em}
