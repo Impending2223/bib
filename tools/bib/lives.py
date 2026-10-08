@@ -872,8 +872,9 @@ def election_sentences(sur, given, sfx="", strict=False, givens=(), held=(), sea
                 "cands": [cand(c["n"], c.get("p"), (f"{c['v']:,}" + (f" ({pct(c['v'], tot)})" if tot else "")) if c.get("v")
                                else ("unopposed; no vote printed" if len(cs) == 1 else ""), c is me)
                           for c in sorted((c for c in cs if c is me or c.get("v")), key=lambda c: -(c.get("v") or 0))],
-                "src": a(url + (f"#page={r['page']}" if r.get("page") else ""),
-                         f"Clerk {y}" + (f", p. {r['page']}" if r.get("page") else ""))
+                "src": (re.sub(r"[*]([^*]+)[*]", r"<i>\1</i>", esc(r["src"])) if r.get("src") else   # the Clerk prints none
+                        a(url + (f"#page={r['page']}" if r.get("page") else ""),
+                          f"Clerk {y}" + (f", p. {r['page']}" if r.get("page") else "")))
                        + ("; Check: matched by name only" if check else ""),
                 "key": key, "check": check}
         out += ticket_rows(y, d, url, mine)

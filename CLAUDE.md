@@ -72,6 +72,7 @@ elections/<YYYY>.yaml     President, House and Senate returns, 1956–74 (genera
 elections/readings/<YYYY>.yaml  figures read by eye from the Clerk's pages, with a note on each ruling
 elections/pres-margins.csv  every contested race for presidential electors, 1824–2024, by constituency (generated)
 elections/facts.yaml      hand-kept facts: caucus labels, faithless electors, 1960 slates, the Alabama reckonings
+elections/cq.yaml         CQ's *Guide to U.S. Elections* compared with the Clerk's figures, by page (kept by hand)
 congress/changes.yaml     departures and successors during each Congress (generated)
 congress/specials.yaml    special elections during each Congress, 87th–93rd, with candidates (generated)
 congress/switches.yaml    members who changed party in office (kept by hand)
@@ -504,7 +505,9 @@ tools/bib/elections.py              renders the blocks and checks the data (STYL
   does not settle is read by eye into `elections/readings/<year>.yaml`. Where a race page
   and its recapitulation differ, the figure the Clerk's totals add up with is used, and the
   race's `note` says so. Where the Clerk and Wikipedia disagree after a reading, the Clerk
-  stands (`wikipedia_differs`), names included.
+  stands (`wikipedia_differs`), names included. CQ's *Guide to U.S. Elections* (6th ed., 2010) is compared in
+  `elections/cq.yaml`; it fills a race only where the Clerk prints no vote (a reading's `source`, shown in the race's
+  note: Pa.-6, 1964).
 - Reading keys: `h NY 9` (district; 0 at large), `s MD 1` (Senate class), `h NM 0-1` (an
   at-large position), `s OR 2 special` (a special held with a regular race for the same seat).
   A special Wikipedia lists that the Clerk's November volume does not print goes under

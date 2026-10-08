@@ -426,6 +426,9 @@ def note_html(r, winners):
         bits += [esc(f) for f in (fate(i) for i in r.get("inc") or []) if f]
     if r.get("how", "").startswith("unopposed;"):
         bits.append("Unopposed; the State did not tabulate the vote.")
+    if r.get("src"):            # the Clerk prints no vote: another source's (tools/elections/read.py, source)
+        src = re.sub(r"[*]([^*]+)[*]", r"<i>\1</i>", esc(r["src"]))
+        bits.append(f"The Clerk prints no vote; votes: {src}.")
     return " ".join(dict.fromkeys(bits))
 
 
@@ -626,7 +629,8 @@ def pres_summary(year, data):
                 f"with Kennedy, at its leading elector's vote ({d:,}): Kennedy ahead by {K - N:,}. At the vote of Kennedy's "
                 f"own leading elector ({top:,}), the unpledged electors' apart: Kennedy ahead by {k2 - N:,}. "
                 f"The slate's vote divided by its electors, {A['cq_share_words']} to Kennedy ({part:,}), as Congressional Quarterly "
-                f"reckoned it: Nixon ahead by {N - k3:,}. Mississippi's unpledged slate, which carried the State, counts for "
+                f"reckoned it: Nixon ahead by {N - k3:,}. " + " ".join(A.get("guide", "").split()) +
+                " Mississippi's unpledged slate, which carried the State, counts for "
                 "neither. " + " ".join(A["source"].split()) + " " + " ".join(A["check"].split()))
     return line, note
 

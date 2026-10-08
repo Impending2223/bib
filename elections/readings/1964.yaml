@@ -196,6 +196,9 @@ races:
     - [Charles H. Cohen, Republican, 48878]
     - [Howard Rudner, Liberal, 8123]
     - [James F. Martin, Conservative, 0]
+    note: >-
+      Martin's 0 as printed. CQ, Guide to U.S. Elections, 6th ed. (2010), p. 1274, prints Delaney and Cohen only, the
+      same figures; its shares (65.9, 29.3) fit the three figures here as the whole vote, nothing for Martin.
   h NY 10:
     cands:
     - [Emanuel Celler, 'Democrat, Liberal', 118941, [[Democrat, 108483], [Liberal, 10458]]]
@@ -376,9 +379,12 @@ races:
     - [Scattering, null, 473]
   h PA 6:
     cands:
-    - [George M. Rhodes, Democrat, null]
-    - [James B. Bamford, Republican, null]
-    note: '''Vote in 6th Congressional District not available'' (the Clerk); Rhodes elected.'
+    - [George M. Rhodes, Democrat, 144697]
+    - [James B. Bamford, Republican, 88495]
+    source: CQ, *Guide to U.S. Elections*, 6th ed. (2010), p. 1275
+    note: >-
+      The Clerk prints no vote ('Vote in 6th Congressional District not available'); the figures are CQ's,
+      marked '#' (from a source other than the ICPSR), shares 62.1 and 37.9.
   h SC 1:
     cands:
     - [L. Mendel Rivers, Democrat, 56152]
@@ -418,7 +424,6 @@ races:
     - ['John M. Slack, Jr.', Democrat, 103117]
     - [Jim Comstock, Republican, 54566]
 untabulated: [h AR 1, h AR 2, h AR 4]
-won: {h PA 6: George M. Rhodes}
 not_in_volume:
   s NM 1 special: >-
     The special election for the rest of Chavez's term, held with the regular one; the Clerk prints the regular

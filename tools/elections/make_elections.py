@@ -313,6 +313,9 @@ def race_record(y, st, r, lines, key, dg, recap):
     if key in R:
         rec = dict(base, **from_read(R[key]))
         rec['how'] = 'read by eye'
+        if key in getattr(read, 'RACE_FROM', {}).get(y, {}):   # the Clerk prints no vote: another source's figures
+            rec['how'] = 'another source'
+            rec['src'] = read.RACE_FROM[y][key]
         wiki_names(rec['cands'], r['candidates'])
     else:
         if any(c.get('clerk') is None for c in r['candidates']) or not r['candidates']:
