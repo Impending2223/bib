@@ -442,7 +442,8 @@ shares, by page), the row shows the rounds that name the person, each under its 
 ("General election"), and cites CQ, a little space above each label after the first; a lost renomination shows its
 rounds alone, without the November vote, and gives the round he lost in the sentence ("in the Democratic
 runoff": Jordan, 1972). `check` fails on a key there that names no race. The record table sets each candidate in three columns, the count and the
-share right-aligned (under 520px the share goes under the count).
+share right-aligned (under 520px the share goes under the count); a race for several seats (an at-large delegation:
+Ala. 1962, N.M., N.D., Hawaii) has a dashed rule after the last winner, who is also the Xth name for X seats.
 
 Each entry: the Directory's description (or the Part III role), the pointers into the series, then the life as
 running text, with the date in each sentence; then Publications; FRUS documents sent; Oral histories given, papers,

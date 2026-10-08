@@ -1169,12 +1169,14 @@ def election_sentences(sur, given, sfx="", strict=False, givens=(), held=(), sea
                         f"{BLUEBOOK.get(r['st'], r['st'])}-{r['seat'] or 'AL'}",
                 "result": "",
                 # every candidate by the final tally, the person among them in bold
-                "cands": [cand(c["n"], c.get("p"), (f"{c['v']:,}" + (f" ({pct(c['v'], tot)})" if tot else "")) if c.get("v")
-                               else ("unopposed; no vote printed" if len(cs) == 1 else ""), c is me)
-                          for c in sorted((c for c in cs if c is me or c.get("v")), key=lambda c: -(c.get("v") or 0))],
+                "cands": cut([cand(c["n"], c.get("p"), (f"{c['v']:,}" + (f" ({pct(c['v'], tot)})" if tot else "")) if c.get("v")
+                                   else ("unopposed; no vote printed" if len(cs) == 1 else ""), c is me)
+                              for c in sorted((c for c in cs if c is me or c.get("v")), key=lambda c: -(c.get("v") or 0))],
+                             r, sorted((c for c in cs if c is me or c.get("v")), key=lambda c: -(c.get("v") or 0))),
                 # the same candidates' names as the returns print them, for linking the others to their entries
-                "cnames": [None if c is me else c["n"]
-                           for c in sorted((c for c in cs if c is me or c.get("v")), key=lambda c: -(c.get("v") or 0))],
+                "cnames": cut([None if c is me else c["n"]
+                               for c in sorted((c for c in cs if c is me or c.get("v")), key=lambda c: -(c.get("v") or 0))],
+                              r, sorted((c for c in cs if c is me or c.get("v")), key=lambda c: -(c.get("v") or 0)), None),
                 "src": (re.sub(r"[*]([^*]+)[*]", r"<i>\1</i>", esc(r["src"])) if r.get("src") else   # the Clerk prints none
                         a(url + (f"#page={r['page']}" if r.get("page") else ""),
                           f"Clerk {y}" + (f", p. {r['page']}" if r.get("page") else "")))
@@ -1334,6 +1336,15 @@ def cand(name, party, votes, me=False):
     v = "<br>".join(f'<span class="lvpv">{x}</span>' if x.endswith(" PV") else x for x in parts)
     two = len(parts) > 1 and parts[-1].endswith(" PV")     # the share is the popular vote's: on its line
     return f'<span class="lvn">{n}</span><span class="lvv">{v}</span><span class="lvs{" lvs2" if two else ""}">{s_}</span>'
+
+
+def cut(items, r, ordered, mark='<span class="lvcut"></span>'):
+    """A race for several seats (an at-large delegation): a dashed rule between the last winner and the first loser,
+    the candidates being in order of votes. Where the winners are not the top of the tally, no rule."""
+    n = sum(1 for c in ordered if c.get("w"))
+    if (r.get("seats") or 1) < 2 or not 0 < n < len(ordered) or not all(c.get("w") for c in ordered[:n]):
+        return items
+    return items[:n] + [mark] + items[n:]
 
 
 def pct(v, tot):
@@ -1854,6 +1865,7 @@ table.lvt .lvs2{padding-top:1.35em}
 table.lvt .lvpl{grid-column:1/-1;font-family:var(--sans);font-size:.72em;letter-spacing:.04em;text-transform:uppercase;
   color:var(--muted);padding-top:.75em}
 table.lvt .lvpl:first-child{padding-top:0}
+table.lvt .lvcut{grid-column:1/-1;border-top:1px dashed var(--muted);opacity:.6;margin:.2em 0}
 table.lvt .lvts{display:block}
 table.lvt .lvts,table.lvt .lvts a{color:var(--muted);font-size:.92em}
 table.lvt td a.lvp{font-size:.9em}
