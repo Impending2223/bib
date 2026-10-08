@@ -784,7 +784,7 @@ details.exu tr.exlr td{padding-top:0}
 .ex .exm{display:block;font-size:.72rem;color:var(--muted)}
 .ex .exh{display:block;margin-bottom:.3rem}
 .ex .exh>b{font-weight:600}
-.ex .exh.exac{color:var(--muted)}
+.ex .exh.exac>b{font-weight:400}
 .ex .exh.exnb2{font-size:.74rem;color:var(--muted)}
 .ex .exh.exnb2 a:not(.nm){color:inherit;text-decoration-color:var(--rule)}
 .ex .exnl{font-size:.66rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
