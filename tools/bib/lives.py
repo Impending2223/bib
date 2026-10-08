@@ -1634,7 +1634,7 @@ def app_list(name, sur):
         by_year.setdefault(d[:4], []).append(
             f'{esc(r["title"].rstrip("."))} ({who + ", " if who else ""}{fmt(d)}), '
             + f'<span class="lvc">{a(r["url"], "APP")}</span>.')
-    return [f'<b>{y}</b><br>' + "<br>".join(v) for y, v in by_year.items()]
+    return [f'<b>{y}</b>' + "".join(f'<span class="lvad">{x}</span>' for x in v) for y, v in by_year.items()]
 
 
 # ---------------------------------------------------------------- the entry
@@ -1823,12 +1823,12 @@ def entry(series, linker, ptrs, p):
     g_own, g_prim, g_about = every[:n1], every[n1:n2], every[n2:]
     section("Publications", by_date(g_own + bown))
     ns = sum(x.count('class="lvg"') for x in sent_)
-    section("FRUS documents sent", sent_, "None found.", fold=f"{ns:,}" if len(sent_) > 20 else None)
+    section("FRUS documents sent", sent_, "None found.", "lvb lvnb", fold=f"{ns:,}" if len(sent_) > 20 else None)
     section("Oral histories given, papers, and other primary sources", by_date(g_prim))
     nf = sum(x.count(" ") + 1 for x in re.findall(r'class="lvf" data-v="[^"]*">([^<]*)<', "".join(named)))
-    section("FRUS documents that name", named, "None found.", "lvb lvf",
+    section("FRUS documents that name", named, "None found.", "lvb lvf lvnb",
             fold=f"{nf:,} in {len(named)} {'volume' if len(named) == 1 else 'volumes'}")
-    na = sum(x.count("<br>") for x in ppp)
+    na = sum(x.count('class="lvad"') for x in ppp)
     section("Presidential documents that name", ppp, "None found.", "lvb lvf lvy", fold=f"{na:,}")
     section("Secondary sources", by_date(g_about + babout))
     out.append("</section>")
@@ -1880,7 +1880,11 @@ ul.lvb{margin:.2rem 0 .6rem;padding-left:1.1rem;font-size:.9rem;line-height:1.45
 ul.lvb li{margin:.25rem 0}
 ul.lvf{font-size:.84rem}
 ul.lvy{list-style:none;padding-left:0}
-ul.lvy li{margin:.6rem 0}
+ul.lvy li{margin:1.1rem 0}
+ul.lvy .lvad{display:block;margin-top:.7rem}
+ul.lvy b+.lvad{margin-top:.25rem}
+ul.lvnb{list-style:none;padding-left:0}
+ul.lvnb li{margin:.7rem 0}
 .lvn{font-size:.85rem;color:var(--muted)}
 details.lvz>summary{cursor:pointer;list-style:none}
 details.lvz>summary h3{display:inline}
