@@ -186,6 +186,8 @@ def races(y, C, d, T, dg):
             slates = [{'party': p, 'v': v} for p, v in R[st] if not sc.match(p)]
             scat = sum(v for p, v in R[st] if sc.match(p)) if any(sc.match(p) for p, _ in R[st]) else None
             how = getattr(read, 'PRES_FROM', {}).get((y, st), 'read by eye')
+            if (y, st) in getattr(read, 'CLERK', {}):           # the State's canvass, over the Clerk's figures
+                rec['src'], rec['clerk'] = how, read.CLERK[(y, st)]
         else:
             sl = [l for l in lines if not re.match(r'(?i)\W*s[ce]at', l['party'])]
             sc = [l for l in lines if re.match(r'(?i)\W*s[ce]at', l['party'])]

@@ -412,6 +412,17 @@ def fate(i):
     return f"{who} {t}."
 
 
+def src_note(r):
+    """Where the figures are not the Clerk's (tools/elections/read.py, source and clerk): the State's canvass, which
+    overrides the Clerk, with the Clerk's own figures; or another source where the Clerk prints no vote."""
+    if not r.get("src"):
+        return []
+    src = re.sub(r"[*]([^*]+)[*]", r"<i>\1</i>", esc(r["src"]))
+    if r.get("clerk"):
+        return [f"Votes: {src}; the Clerk prints {esc(r['clerk'])}."]
+    return [f"The Clerk prints no vote; votes: {src}."]
+
+
 def note_html(r, winners):
     bits = []
     for w in winners:
@@ -426,9 +437,7 @@ def note_html(r, winners):
         bits += [esc(f) for f in (fate(i) for i in r.get("inc") or []) if f]
     if r.get("how", "").startswith("unopposed;"):
         bits.append("Unopposed; the State did not tabulate the vote.")
-    if r.get("src"):            # the Clerk prints no vote: another source's (tools/elections/read.py, source)
-        src = re.sub(r"[*]([^*]+)[*]", r"<i>\1</i>", esc(r["src"]))
-        bits.append(f"The Clerk prints no vote; votes: {src}.")
+    bits += src_note(r)
     return " ".join(dict.fromkeys(bits))
 
 
@@ -672,7 +681,7 @@ def pres_table(year, data):
         cls = "pk" if q and pcls(q["win"], PC) != p else ""
         out.append(f'<tr id="e{year}-p-{r["st"]}" class="{cls} w{p}"><td>{esc(STATE.get(r["st"], r["st"]))}<br>'
                    f'<span class="es">{r["ev"]}</span></td><td class="ecs">{cs}</td><td class="em">{margin}</td>'
-                   f'<td class="eno">{esc(" ".join(note))}</td></tr>')
+                   f'<td class="eno">{" ".join([esc(" ".join(note))] + (src_note(r) if r.get("clerk") else []))}</td></tr>')
     out.append("</tbody></table></details>")
     return "\n".join(out)
 

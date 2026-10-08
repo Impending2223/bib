@@ -13,8 +13,11 @@ These replace the OCR in make_elections.py. Each file:
         - [Name, 'Democrat, Liberal', 141323, [[Democrat, 47371], [Liberal, 9965]]]   # fusion: total, then lines
         - [Scattering, null, 12]     # also 'Write-in', 'Others', 'Miscellaneous': counted as scattering
         note: >-                     a ruling: why this figure and not another
-        source: >-                   where the figures are not the Clerk's (the Clerk prints none): the short cite
-                                     shown with the race ('CQ, *Guide to U.S. Elections*, 6th ed. (2010), p. 1275')
+        source: >-                   where the figures are not the Clerk's: the short cite shown with the race
+                                     ('CQ, *Guide to U.S. Elections*, 6th ed. (2010), p. 1275'), where the Clerk prints
+                                     none; or the State's canvass, which overrides the Clerk ('Fla., *Tabulation of
+                                     Official Votes Cast*, Nov. 6, 1962, p. 3')
+        clerk: >-                    with a State's canvass: the Clerk's figures as printed, shown with the race
     untabulated: [h AR 1]            unopposed, and the State did not count the vote (the Clerk's footnote)
     won: {h PA 6: George M. Rhodes}  the winner where the Clerk prints no vote for a contested race
     wikipedia_differs: [s MD 1]      read and confirmed; Wikipedia's percentages differ and the Clerk stands
@@ -25,6 +28,7 @@ These replace the OCR in make_elections.py. Each file:
         - [Democratic, 3423909]      a slate's party as printed, and its vote, in printed order
         - [Scattering, 256]
         source: >-                   where the figures are not the Clerk's
+        clerk: >-                    with a State's canvass (source): the Clerk's figures as printed, shown
         note: >-
 
 Rules for a reading (the review tools in tools/elections/review/ apply them):
@@ -57,13 +61,16 @@ def row(r):
     return tuple(r)
 
 
-READ, UNTABULATED, WON, AGREE_NOT, PRES, PRES_FROM, NOTES, NOT_IN_VOLUME, RACE_FROM = {}, {}, {}, {}, {}, {}, {}, {}, {}
+READ, UNTABULATED, WON, AGREE_NOT, PRES, PRES_FROM, NOTES, NOT_IN_VOLUME, RACE_FROM, CLERK = {}, {}, {}, {}, {}, {}, {}, {}, {}, {}
 for f in sorted(glob.glob(os.path.join(DIR, '*.yaml'))):
     d = yaml.safe_load(open(f, encoding='utf-8')) or {}
     y = d['year']
     READ[y] = {key(k): [row(r) for r in v['cands']] for k, v in (d.get('races') or {}).items()}
     NOTES[y] = {key(k): v['note'] for k, v in (d.get('races') or {}).items() if v.get('note')}
     RACE_FROM[y] = {key(k): v['source'] for k, v in (d.get('races') or {}).items() if v.get('source')}
+    for k, v in (d.get('races') or {}).items():
+        if v.get('clerk'):
+            CLERK[(y, key(k))] = v['clerk']
     UNTABULATED[y] = {key(k) for k in d.get('untabulated') or []}
     WON[y] = {key(k): v for k, v in (d.get('won') or {}).items()}
     AGREE_NOT[y] = {key(k) for k in d.get('wikipedia_differs') or []}
@@ -72,3 +79,5 @@ for f in sorted(glob.glob(os.path.join(DIR, '*.yaml'))):
     for st, v in (d.get('president') or {}).items():
         if v.get('source'):
             PRES_FROM[(y, st)] = v['source']
+        if v.get('clerk'):
+            CLERK[(y, st)] = v['clerk']
