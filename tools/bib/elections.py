@@ -450,6 +450,28 @@ def src_note(r):
     return [f"The Clerk prints no vote; votes: {src}."]
 
 
+def cq_shown():
+    """elections/cq.yaml shown: CQ's figures where they differ from those shown, {key: {page, votes}}."""
+    if "cq" not in _cache:
+        p = os.path.join(DIR, "cq.yaml")
+        _cache["cq"] = ((store.load_yaml(p) or {}).get("shown") or {}) if os.path.exists(p) else {}
+    return _cache["cq"]
+
+
+def race_key(year, r):
+    """'1964 h SC 1', as the readings key a race, with the year ('1962 h NM 0-1', '1960 s OR 2 special')."""
+    pos = f"-{r['position']}" if r.get("position") else ""
+    return f"{year} {r['ch']} {r['st']} {r['seat']}{pos}" + (" special" if r.get("special") else "")
+
+
+def cq_note(key):
+    """'CQ Guide 6th (2010) 1275: Rivers 64,804.', where CQ's figures differ from those shown; else ''."""
+    x = cq_shown().get(key)
+    if not x:
+        return ""
+    return f"CQ Guide 6th (2010) {x['page']}: " + ", ".join(f"{esc(n)} {v:,}" for n, v in x["votes"].items()) + "."
+
+
 def note_html(r, winners):
     bits = []
     for w in winners:
@@ -474,7 +496,7 @@ def table(year, ch, races):
     rs = [r for r in races if r["ch"] == ch]
     out = [f'<details class="cgr er"><summary>{label} races, {len(rs)}, by state</summary><table>'
            '<colgroup><col class="c1"><col class="c2"><col class="c3"><col class="c4"></colgroup>'
-           f'<thead><tr><th>{"Dist." if ch == "h" else "Class"}</th><th>Candidates, votes, share</th>'
+           f'<thead><tr><th>{"" if ch == "h" else "Class"}</th><th>Candidates, votes, share</th>'
            '<th>Margin</th><th>Note</th></tr></thead><tbody>']
     by = defaultdict(list)
     for r in rs:
@@ -507,7 +529,8 @@ def table(year, ch, races):
             wp = party_of(winners[0]) if winners else ""
             from . import seatlinks
             ro = seatlinks.roster_after(load()[year]["date"], r["ch"], r["st"], r["seat"])
-            note = " ".join(x for x in (note_html(r, winners), f'<span class="elro">{ro}</span>' if ro else "") if x)
+            note = " ".join(x for x in (note_html(r, winners), cq_note(race_key(year, r)),
+                                        f'<span class="elro">{ro}</span>' if ro else "") if x)
             out.append(f'<tr id="{rid(year, r)}" class="{cls} w{wp}"><td>{esc(seat)}</td><td class="ecs">{cands}</td>'
                        f'<td class="em">{margin}</td><td class="eno">{note}</td></tr>')
     out.append("</tbody></table></details>")
@@ -719,7 +742,8 @@ def pres_table(year, data):
         cls = "pk" if q and pcls(q["win"], PC) != p else ""
         out.append(f'<tr id="e{year}-p-{r["st"]}" class="{cls} w{p}"><td>{esc(STATE.get(r["st"], r["st"]))}<br>'
                    f'<span class="es">{r["ev"]}</span></td><td class="ecs">{cs}</td><td class="em">{margin}</td>'
-                   f'<td class="eno">{" ".join([esc(" ".join(note))] + (src_note(r) if r.get("clerk") else []))}</td></tr>')
+                   f'<td class="eno">{" ".join([esc(" ".join(note))] + (src_note(r) if r.get("clerk") else [])
+                                               + [cq_note(f"{year} president {r['st']}")])}</td></tr>')
     out.append("</tbody></table></details>")
     return "\n".join(out)
 
@@ -780,6 +804,18 @@ def problems():
                 if not r.get("vacant") and r.get("party") not in ("D", "R") and not third(r["name"].split(",")[0].strip().lower()):
                     out.append((f"congress/{c}.yaml", f"{r['name']} ({r['party']}): add the party caucused with to "
                                                       "elections/facts.yaml caucus:"))
+    keys = {}
+    for y, E in load().items():
+        for r in E.get("races", []):
+            keys[race_key(y, r)] = {surname(c["n"]).lower() for c in r["cands"]}
+        for s in ((E.get("president") or {}).get("states") or []):
+            keys[f"{y} president {s['st']}"] = None
+    for k, x in cq_shown().items():
+        if k not in keys:
+            out.append(("elections/cq.yaml", f"shown: {k}: no such race"))
+        elif keys[k] is not None:
+            out += [("elections/cq.yaml", f"shown: {k}: no candidate {n}") for n in (x or {}).get("votes") or {}
+                    if n.lower() not in keys[k]]
     rd = os.path.join(DIR, "readings")
     for y, E in load().items():
         for r in E.get("races", []):

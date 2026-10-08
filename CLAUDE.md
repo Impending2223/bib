@@ -548,7 +548,7 @@ tools/bib/specials.py             renders the blocks, the calendar's race tables
 seat; for the House, his own race that November where one race in his State names him, else the same number's).
 Under each race and special, "Roster: 87th Cong.", the seat's row at the next opening that has a roster. Under the
 presidential vote, "Took office", the President and Vice President in the Executive roster at the next inauguration.
-Tables write an at-large seat "AL" and head the column "Dist."; a fusion candidacy's parties abbreviated ("D, R");
+Tables write an at-large seat "AL" and leave the district column unheaded; a fusion candidacy's parties abbreviated ("D, R");
 a whole vote "100%".
 
 ## Elections
@@ -588,7 +588,8 @@ tools/bib/elections.py              renders the blocks and checks the data (STYL
   then the State's figure stands, the reading carrying `source` (the State's cite) and `clerk` (the Clerk's figures),
   both shown in the race's note (Md. 1958, Colo. 1960, Fla. and Mo. 1962; President: Wyo. 1960, Cal., Colo., Ga.
   1968, Cal. 1972). A later State compilation is not a canvass. CQ's *Guide to U.S. Elections* (6th ed., 2010) is
-  compared in `elections/cq.yaml`; it fills a race only where the Clerk prints no vote (`source` without `clerk`:
+  compared in `elections/cq.yaml`; where it differs from the figures shown, its figures are printed in the race's note
+  ("CQ Guide 6th (2010) 1275: Rivers 64,804."; `shown` there, read by the build); it fills a race only where the Clerk prints no vote (`source` without `clerk`:
   Pa.-6, 1964).
 - Reading keys: `h NY 9` (district; 0 at large), `s MD 1` (Senate class), `h NM 0-1` (an
   at-large position), `s OR 2 special` (a special held with a regular race for the same seat).

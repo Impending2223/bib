@@ -347,7 +347,7 @@ def block(c, data, geo, ptr, href, rid, here=False):
     for ch, rows, label in (("h", house, "House"), ("s", senate, "Senate")):
         out.append(f'<details class="cgr cgm"><summary>{label} members, {len(rows)}, by state</summary><table>'
                    '<colgroup><col class="c1"><col class="c2"><col class="c3"><col class="c4"></colgroup>')
-        out.append(f'<thead><tr><th>{"Dist." if ch == "h" else "Class"}</th><th>Member</th><th>Party</th><th>In the series</th></tr></thead><tbody>')
+        out.append(f'<thead><tr><th>{"" if ch == "h" else "Class"}</th><th>Member</th><th>Party</th><th>In the series</th></tr></thead><tbody>')
         bystate = defaultdict(list)
         for r in rows:
             bystate[r["st"]].append(r)
