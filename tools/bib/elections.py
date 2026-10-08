@@ -388,7 +388,17 @@ def summary(year, data):
 
 ABBR = {"Democrat": "D", "Republican": "R", "Democrat, Liberal": "D, L", "Democrat-Farmer-Labor": "DFL", "Liberal": "L",
         "Conservative": "C", "Independent": "I", "Independent Democrat": "Ind. D", "Socialist Labor": "Soc. Lab.",
-        "Socialist Workers": "Soc. Wkrs.", "Prohibition": "Proh."}
+        "Socialist Workers": "Soc. Wkrs.", "Prohibition": "Proh.", "Democratic": "D"}
+
+
+def pct_text(x):
+    """'54.9%'; a whole vote, '100%' (it fits the column)."""
+    return "100%" if x >= 99.95 else f"{x:.1f}%"
+
+
+def party_abbr(p):
+    """'Democrat, Republican' -> 'D, R': each line of a fusion candidacy abbreviated where it can be."""
+    return ABBR.get(p) or ", ".join(ABBR.get(x.strip(), x.strip()) for x in p.split(","))
 
 
 SERIES = None    # set by the pages that draw the blocks (congress.py): the series, for the candidates' name entries
@@ -406,8 +416,8 @@ def cand_link(year, r, c):
 
 
 def cand_html(c, m, link=None):
-    share = f"{100 * c['v'] / m['total']:.1f}%" if c.get("v") is not None and m["total"] else "—"
-    party = esc(ABBR.get(c["party"], c["party"]))
+    share = pct_text(100 * c['v'] / m['total']) if c.get("v") is not None and m["total"] else "—"
+    party = esc(party_abbr(c["party"]))
     lines = ""
     if c.get("lines"):
         lines = '<span class="eln">' + "; ".join(f"{esc(ABBR.get(p, p))} {num(v)}" for p, v in c["lines"]) + "</span>"
@@ -462,7 +472,7 @@ def table(year, ch, races):
     rs = [r for r in races if r["ch"] == ch]
     out = [f'<details class="cgr er"><summary>{label} races, {len(rs)}, by state</summary><table>'
            '<colgroup><col class="c1"><col class="c2"><col class="c3"><col class="c4"></colgroup>'
-           f'<thead><tr><th>{"District" if ch == "h" else "Class"}</th><th>Candidates, votes, share</th>'
+           f'<thead><tr><th>{"Dist." if ch == "h" else "Class"}</th><th>Candidates, votes, share</th>'
            '<th>Margin</th><th>Note</th></tr></thead><tbody>']
     by = defaultdict(list)
     for r in rs:
@@ -475,7 +485,7 @@ def table(year, ch, races):
             ks = {kind(r, w) for w in winners}
             cls = "pk" if "pickup" in ks else "mc" if ks & {"change", "new"} else ""
             if ch == "h":
-                seat = "At large" if r["seat"] == 0 else str(r["seat"])
+                seat = "AL" if r["seat"] == 0 else str(r["seat"])
                 if r.get("position"):
                     seat += f", position {r['position']}"
                 if r.get("seats", 1) > 1:
@@ -491,8 +501,11 @@ def table(year, ch, races):
             else:
                 margin = "Unopposed"
             wp = party_of(winners[0]) if winners else ""
+            from . import seatlinks
+            ro = seatlinks.roster_after(load()[year]["date"], r["ch"], r["st"], r["seat"])
+            note = " ".join(x for x in (note_html(r, winners), f'<span class="elro">{ro}</span>' if ro else "") if x)
             out.append(f'<tr id="{rid(year, r)}" class="{cls} w{wp}"><td>{esc(seat)}</td><td class="ecs">{cands}</td>'
-                       f'<td class="em">{margin}</td><td class="eno">{note_html(r, winners)}</td></tr>')
+                       f'<td class="em">{margin}</td><td class="eno">{note}</td></tr>')
     out.append("</tbody></table></details>")
     return "\n".join(out)
 
@@ -509,7 +522,9 @@ def block(year, data, view="r"):
     if pres:
         seats["p"] = pres_rows(year, data)
         line, note = pres_summary(year, data)
-        out.append(f'<p class="elsum">{esc(line)}</p>')
+        from . import seatlinks
+        ex = seatlinks.exec_after(year)
+        out.append(f'<p class="elsum">{esc(line)}' + (f" {ex}." if ex else "") + '</p>')
         has_sw = has_sw or any("sw" in x for x in seats["p"].values())
     for line in summary(year, data):
         out.append(f'<p class="elsum">{esc(line)}</p>')
@@ -535,7 +550,9 @@ def block(year, data, view="r"):
     src = E.get("source", {})
     out.append(f'<p class="elsrc">Returns: <a href="{esc(src.get("url", ""))}">{esc(src.get("label", ""))}</a>, '
                'read by OCR and checked against its recapitulation totals and Wikipedia\'s percentages, or read by eye. '
-               'Incumbents and their fates: Wikipedia\'s race tables. Margin: votes, and points of all the votes cast in the race.</p>')
+               'Incumbents and their fates: Wikipedia\'s race tables. Margin: votes, and points of all the votes cast in the race.'
+               + (' CQ Guide 6th (2010): Congressional Quarterly, <i>Guide to U.S. Elections</i>, 6th ed. (2010), by page.'
+                  if any((r.get("src") or "").startswith("CQ Guide") for r in E["races"]) else "") + '</p>')
     out.append("</div>")
     return "\n".join(out)
 
@@ -668,7 +685,7 @@ def pres_table(year, data):
     pm = {r["st"]: pmetrics(r) for r in prev["states"]} if prev else {}
     PC = pcands(data[year - 4]) if prev else {}
     rows = sorted(E["president"]["states"], key=lambda r: STATE.get(r["st"], r["st"]))
-    out = [f'<details class="cgr er"><summary>President, {len(rows)} States{" and the District" if any(r["st"] == "DC" for r in rows) else ""}</summary><table>'
+    out = [f'<details class="cgr er epr"><summary>President, {len(rows)} States{" and the District" if any(r["st"] == "DC" for r in rows) else ""}</summary><table>'
            '<colgroup><col class="c1"><col class="c2"><col class="c3"><col class="c4"></colgroup>'
            '<thead><tr><th>State, electors</th><th>Slates, votes, share</th><th>Margin</th><th>Note</th></tr></thead><tbody>']
     for r in rows:
@@ -677,7 +694,7 @@ def pres_table(year, data):
         for s in sorted(r["slates"], key=lambda s: -(s.get("v") or 0)):
             who = C[s["k"]]["n"] if s["k"] in C else ""
             wl = cand_link(year, None, {"n": who}) if who else None
-            share = f"{100 * s['v'] / m['total']:.1f}%" if s.get("v") is not None and m["total"] else "—"
+            share = pct_text(100 * s['v'] / m['total']) if s.get("v") is not None and m["total"] else "—"
             w = ' class="w"' if s["k"] == m["win"] else ""
             cs += (f'<span class="ec"><span{w}><span class="en">{esc(s["party"])}</span>'
                    + (f' <span class="ep">{f"""<a class="nm" href="{esc(wl)}">{esc(who)}</a>""" if wl else esc(who)}</span>' if who else "") +

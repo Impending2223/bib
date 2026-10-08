@@ -901,6 +901,116 @@ def election_sentences(sur, given, sfx="", strict=False, givens=(), held=(), sea
             for n in vn:                 # the running mates
                 idx.setdefault(letters(last_word(n)), {}).setdefault(y, []).append(-1)
         return idx
+    def renominations(r, y, d, cong, url):
+        """The incumbent who lost renomination: not among the November candidates, named in the race's fates (Wikipedia's
+        race tables). He is the person where the roster seated him from the State at the last opening (a redistricting
+        contest moves him); else by name, with a Check. The fate as written ('Lost renomination in a redistricting
+        contest'); whether by primary or convention the fate does not say."""
+        res_ = []
+        sat = {n_ for (c_, ch_, st_, s_), ns in seat_holders().items() if (c_, ch_, st_) == (cong - 1, r["ch"], r["st"])
+               for n_ in ns} & set(names)
+        for i in r.get("inc") or []:
+            fate = i.get("result") or ""
+            if "renomination" not in fate.lower() or not returns_split(i.get("n") or "", sur):
+                continue
+            if any(c.get("n") == i.get("n") for c in r.get("cands") or []):
+                continue                         # he ran in November all the same: the race's own row says how
+            if not (sat or mine_race(i)) or (died and d["date"] > died):
+                continue
+            key = race_key(y, r)
+            if key in hand.get("refuse", {}):
+                continue
+            check = not (sat or key in hand.get("confirm", {}))
+            what = re.sub(r"^Incumbent\s+", "", fate.split(". ")[0].split(";")[0]).strip().rstrip(".")
+            what = what[:1].upper() + what[1:]
+            where = STATE.get(r["st"], r["st"])
+            seat_ = "Senate, " + where if r["ch"] == "s" else f"House, {r['st']}-{r['seat'] or 'AL'}"
+            wiki = f"https://en.wikipedia.org/wiki/{y}_United_States_{'Senate' if r['ch'] == 's' else 'House_of_Representatives'}_elections"
+            src = a(wiki, f"Wikipedia, {y} {'Senate' if r['ch'] == 's' else 'House'} elections")
+            cs = r.get("cands") or []
+            tot = sum(c.get("v") or 0 for c in cs) + (r.get("scat") or 0)
+            res_.append(sent(d["date"], f"{what}: {seat_}, {y}.", [src],
+                             [ptr(f"{SITE}congress.html#{erid(y, r)}", f"Election {y}")], para=True, kind="election",
+                             dates={d["date"]}))
+            res_[-1]["row"] = {
+                "cong": cong, "ch": r["ch"], "st": r["st"], "date": d["date"],
+                "election": ptr(f"{SITE}congress.html#{erid(y, r)}", fmt(d["date"])),
+                "seat": f"Senate, {BLUEBOOK.get(r['st'], r['st'])}" if r["ch"] == "s" else
+                        f"{BLUEBOOK.get(r['st'], r['st'])}-{r['seat'] or 'AL'}",
+                "result": what,
+                # the nominees who ran in November
+                "cands": [cand(c["n"], c.get("p"), (f"{c['v']:,}" + (f" ({pct(c['v'], tot)})" if tot else "")) if c.get("v")
+                               else "") for c in sorted(cs, key=lambda c: -(c.get("v") or 0))],
+                "cnames": [c["n"] for c in sorted(cs, key=lambda c: -(c.get("v") or 0))],
+                "src": src + ("; Check: matched by name only" if check else ""),
+                "key": key, "check": check, "n": i.get("n"), "renomination": True}
+        return res_
+
+    def special_rows():
+        """The specials held between general elections (congress/specials.yaml, the States' and CQ's figures laid
+        over), by the same rules: the name; the seat (the winner of the surname whom the roster seats from it at
+        the next opening)."""
+        from . import specials as SP
+        res = []
+        def index():
+            """{letters of a candidate's last word: [(Congress, special, its final rows)]}"""
+            loaded, idx = SP.load(), {}
+            for c_ in sorted(loaded):
+                for x in SP.between(c_, loaded):
+                    rows = SP.final(x)
+                    for k in {letters(last_word(r_[0])) for r_ in rows}:
+                        idx.setdefault(k, []).append((c_, x, rows))
+            return idx
+        idx = cached("specials-by-name", index)
+        found = []
+        for k in dict.fromkeys((letters(last_word(sur)), letters(sur))):
+            found += [t for t in idx.get(k, []) if t not in found]
+        for c_, x, rows in found:
+            if True:
+                if not any(returns_split(r_[0], sur) for r_ in rows):
+                    continue
+                me = next((r_ for r_ in rows if mine_race({"n": r_[0]})), None)
+                by_seat = False
+                nxt = set(seat_holders().get((c_ + 1, x["ch"], x["st"], x["seat"])) or []) & set(names or ())
+                hit = [r_ for r_ in rows if r_[4] and nxt and returns_split(r_[0], sur)]
+                if len(hit) == 1 and (me is None or me is hit[0]):
+                    me, by_seat = hit[0], True
+                if not me:
+                    continue
+                if died and x["date"] > died:
+                    continue
+                if x["key"] in hand.get("refuse", {}):
+                    continue
+                check = not (by_seat or x["key"] in hand.get("confirm", {}))
+                won = me[4]
+                where = STATE.get(x["st"], x["st"])
+                seat_ = "Senate" if x["ch"] == "s" else f"House, {x['st']}-{x['seat'] or 'AL'}"
+                tot = sum(r_[2] or 0 for r_ in rows)
+                votes = (f": {me[2]:,} votes ({100 * me[2] / tot:.1f} percent)" if me[2] and tot else
+                         f": {me[3]:.1f} percent" if me[3] is not None else "")
+                others = ", ".join(f"{esc(r_[0])} ({r_[1]}) " + (f"{r_[2]:,}" if r_[2] else f"{r_[3]:.1f}%" if r_[3] is not None else "")
+                                   for r_ in rows if r_ is not me and r_[0] != "Scattering")
+                t = (f"{'Elected' if won else 'Defeated'} {'to' if won else 'for'} the {seat_}"
+                     f"{', ' + where if x['ch'] == 's' else ''} in a special election, {fmt(x['date'])}{votes}"
+                     + (f"; {others}" if others else "") + ".")
+                from .congress import ordinal as ord_
+                cite = re.sub(r"[*]([^*]+)[*]", r"<i>\1</i>", esc(x.get("source") or ""))
+                src = a(x["url"], cite) if x.get("url") and cite else cite
+                there = ptr(f"{SITE}congress.html#{SP.rid(x)}", f"Specials, {ord_(c_)} Cong.")
+                res.append(sent(x["date"], t, [src] if src else [], [there], para=True, kind="election", dates={x["date"]}))
+                res[-1]["row"] = {
+                    "cong": c_, "ch": x["ch"], "st": x["st"], "date": x["date"],
+                    "election": ptr(f"{SITE}congress.html#{SP.rid(x)}", fmt(x["date"]) + " (special)"),
+                    "seat": f"Senate, {BLUEBOOK.get(x['st'], x['st'])}" if x["ch"] == "s" else
+                            f"{BLUEBOOK.get(x['st'], x['st'])}-{x['seat'] or 'AL'}",
+                    "result": "",
+                    "cands": [cand(r_[0], r_[1], (f"{r_[2]:,}" + (f" ({pct(r_[2], tot)})" if tot else "")) if r_[2]
+                                   else (f"{r_[3]:.1f}%" if r_[3] is not None else ""), r_ is me) for r_ in rows],
+                    "cnames": [None if r_ is me else r_[0] for r_ in rows],
+                    "src": (src or "") + ("; Check: matched by name only" if check else ""),
+                    "key": x["key"], "check": check, "n": me[0], "special": True}
+        return res
+
     ci = cached("election-races", cand_index)
     years = {}
     for k in dict.fromkeys((letters(last_word(sur)), letters(sur))):      # 'Van Pelt' by 'pelt'; 'du Pont' by 'dupont'
@@ -946,6 +1056,8 @@ def election_sentences(sur, given, sfx="", strict=False, givens=(), held=(), sea
                 if len(hit) == 1 and (me is None or me is hit[0]):
                     me, by_seat = hit[0], True
             if not me:
+                if names:
+                    out += renominations(r, y, d, cong, url)
                 continue
             key = race_key(y, r)
             if key in hand.get("refuse", {}) or refused(r, y, d["date"], me, by_seat):
@@ -982,6 +1094,8 @@ def election_sentences(sur, given, sfx="", strict=False, givens=(), held=(), sea
                        + ("; Check: matched by name only" if check else ""),
                 "key": key, "check": check, "n": me["n"]}
         out += ticket_rows(y, d, url, mine)
+
+    out += special_rows()
     return out
 
 
@@ -1121,10 +1235,15 @@ def pointers(ps):
 
 
 def cand(name, party, votes, me=False):
-    """A candidate's line in the record: 'Ray Wolfram (R) 17,471 (14.1%)'; the person's own first, in bold."""
+    """A candidate's line in the record, in three columns: 'Ray Wolfram (R)', '17,471', '14.1%' (the count and the
+    share right-aligned); the person's own in bold. A row of the grid the cell's candidates make (lvcs)."""
     n = esc(name) + (f" ({esc(party)})" if party else "")
     n = f"<b>{n}</b>" if me else n
-    return n + (f' <span class="lvv">{votes}</span>' if votes else "")
+    m = re.match(r"^(.*?)\s*\(([^()]*%)\)$", votes or "")
+    v, s_ = (m.group(1), m.group(2)) if m else (votes or "", "")
+    # a ticket's electoral votes over its popular, the popular in the shares' shade
+    v = "<br>".join(f'<span class="lvpv">{x}</span>' if x.endswith(" PV") else x for x in v.split("; "))
+    return f'<span class="lvn">{n}</span><span class="lvv">{v}</span><span class="lvs">{s_}</span>'
 
 
 def pct(v, tot):
@@ -1236,7 +1355,7 @@ def record_html(rows, rosters):
                                        f'{esc(n)}</a>', 1)
                      for h, n in zip(cands, r["cnames"])]
         out.append((r["cong"] or 0, r["date"], hit[2] if hit else r.get("exec", ""), r["election"], r["seat"], r["result"],
-                    "<br>".join(cands), r["src"]))
+                    f'<span class="lvcs">{"".join(cands)}</span>', r["src"]))
     for (c, ch), (day, st, p, seat) in seats.items():
         if (c, ch) in used:
             continue
@@ -1249,7 +1368,7 @@ def record_html(rows, rosters):
     two = lambda a_, b_: f"{a_}<br>{b_}" if a_ and b_ else (a_ or b_)
     body = "".join(
         f"<tr><td>{two(el, cg)}</td><td>{two(seat, res)}</td>"
-        f'<td>{two(cands, f"""<span class="lvts">{src}</span>""" if src else "")}</td></tr>'
+        f'<td>{cands}{f"""<span class="lvts">{src}</span>""" if src else ""}</td></tr>'
         for _, _, cg, el, seat, res, cands, src in out)
     return (f'<h3>Elections and Congresses</h3><div class="lvtw"><table class="lvt"><thead>{head}</thead>'
             f"<tbody>{body}</tbody></table></div>")
@@ -1629,10 +1748,16 @@ table.lvt{border-collapse:collapse;font-size:.82rem;line-height:1.35;min-width:1
 table.lvt th{font-family:var(--sans);font-size:.7rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;
   color:var(--muted);text-align:left;border-bottom:1px solid var(--rule,#ccc);padding:.25rem .5rem .25rem 0;white-space:nowrap}
 table.lvt td{vertical-align:top;padding:.3rem .6rem .3rem 0;border-bottom:1px solid var(--rule,#e5e5e5)}
-table.lvt td:nth-child(-n+2){white-space:nowrap}
+table.lvt td:nth-child(1){white-space:nowrap}
 table.lvt td:nth-child(3){padding-right:0}
 table.lvt b{font-weight:600}
-table.lvt .lvv{white-space:nowrap}
+table.lvt .lvcs{display:grid;grid-template-columns:minmax(6em,1fr) auto auto;column-gap:.7em}
+table.lvt .lvv,table.lvt .lvs{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+table.lvt .lvs,table.lvt .lvpv{color:var(--muted)}
+table.lvt .lvs{min-width:3.2em}
+@media (max-width:520px){table.lvt .lvcs{grid-template-columns:minmax(6em,1fr) auto}table.lvt .lvn{grid-column:1;grid-row:span 2}
+  table.lvt .lvv,table.lvt .lvs{grid-column:2}}
+table.lvt .lvts{display:block}
 table.lvt .lvts,table.lvt .lvts a{color:var(--muted);font-size:.92em}
 table.lvt td a.lvp{font-size:.9em}
 .lvc{font-size:.85em;color:var(--muted)}
@@ -1689,7 +1814,8 @@ INTRO = ['<p class="lede">A name entry for each person in the series, the Execut
          '<p class="logic">Sources: BD, the ' + to_html(BD_CITE) + ", by page; CDir., the *Congressional "
          "Directory*; CR, the *Congressional Record*; FR, the *Federal Register*; DSB, the *Department of State "
          "Bulletin*; GOM, the *Government Organization Manual*; Clerk, Election Statistics, the Clerk of the House's "
-         "*Statistics of the Presidential and Congressional Election* of that year, by page; FRUS, by subseries, "
+         "*Statistics of the Presidential and Congressional Election* of that year, by page; CQ Guide 6th (2010), "
+         "Congressional Quarterly, *Guide to U.S. Elections*, 6th ed. (2010), by page; FRUS, by subseries, "
          "volume, and document; APP, the American Presidency Project (the Public Papers and the campaign "
          'documents). Pointers into the series: <span class="lvp">Exec.</span>, the Executive '
          'Branch at the term named; <span class="lvp">Cong.</span>, a Congress at its opening; '

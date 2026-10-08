@@ -425,6 +425,13 @@ is refused by State or party. A race nothing confirms (a roster seat from it, hi
 or naming his candidacy that year) shows "Check: matched by name only". `sources/race-matches.yaml` refuses or
 confirms a race by hand, with the reason; `check` fails on a person or race there that does not answer.
 
+The specials between Novembers (`congress/specials.yaml`, the States' and CQ's figures laid over) are taken by the same
+rules, the seat being the roster's at the next opening ("June 28, 1960 (special)"). An incumbent who lost renomination
+(the race's fates, from Wikipedia's race tables) has a row of his own, "Lost renomination", with the November
+nominees, where the roster seated him from the State at the last opening; the fates do not say whether by primary or
+convention, and the row does not either. The record table sets each candidate in three columns, the count and the
+share right-aligned (under 520px the share goes under the count).
+
 Each entry: the Directory's description (or the Part III role), the pointers into the series, then the life as
 running text, with the date in each sentence; then Publications; FRUS documents sent; Oral histories given, papers,
 and other primary sources; Secondary sources; and, folded, the FRUS and presidential documents that name the
@@ -503,7 +510,25 @@ tools/bib/specials.py             renders the blocks, the calendar's race tables
   carries a "Check"; so do shares that do not add to 100.
 - `check` fails on a duplicate key, a `special:` tag with no race, a switch not at its seat, or a reading
   whose votes do not add to its printed total or whose last round lacks the winner.
-- The 85th and 86th Congresses (1957–60) have no rosters and no specials.
+- The 85th and 86th Congresses (1957–60) have no rosters. The 86th's one special between Novembers, North Dakota's
+  Senate race of June 28, 1960 (Burdick), is in `specials.yaml` (and `SENATE_HAND`) from the State's canvass, and
+  follows the 1958 election on `congress.html`.
+- Notes shown with a race are for the reader: CQ's shares that count unprinted candidates, and Wikipedia's dates or
+  shares that a State's or CQ's figures settle, stay in the files (`remarks`) and are not shown; open Checks are.
+  A race's `note` starts a new line ("Party primaries ..."). Months as the series writes them (Feb. 15, 1961). CQ is
+  cited "CQ Guide 6th (2010) 1266", the full title with each block's sources and in the Names' list of sources.
+- The margin column gives swing as "8.3 to D" ("No swing"); its heading says "Margin, swing".
+
+## Rosters and elections, linked
+
+`tools/bib/seatlinks.py`. Under each member at an opening, a muted line: the election that seated him ("Elected Nov. 8,
+1960"; "Seat filled Nov. 4, 1958 (Kennedy)" where he did not win the seat's last election, as an appointed Senator;
+1956 unlinked, having no block) and the seat's next ("Next: Nov. 6, 1962"; a special first, where one filled the
+seat; for the House, his own race that November where one race in his State names him, else the same number's).
+Under each race and special, "Roster: 87th Cong.", the seat's row at the next opening that has a roster. Under the
+presidential vote, "Took office", the President and Vice President in the Executive roster at the next inauguration.
+Tables write an at-large seat "AL" and head the column "Dist."; a fusion candidacy's parties abbreviated ("D, R");
+a whole vote "100%".
 
 ## Elections
 

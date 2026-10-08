@@ -197,6 +197,9 @@ def senate(cache):
 # prints the regular race only (elections/readings/1972.yaml, not_in_volume): not_in_clerk shows it with the
 # specials between elections.
 SENATE_HAND = [
+    {'cong': 86, 'ch': 's', 'st': 'ND', 'seat': 1, 'date': '1960-06-28', 'out': 'Clarence Norman Brunsdale', 'out_party': 'R',
+     'why': "Appointed November 19, 1959, on William Langer's death (November 8, 1959).",
+     'winner': 'Quentin Burdick', 'party': 'D', 'source': 'N.D. State Board of Canvassers, Statement of the Finding, July 18, 1960'},
     {'cong': 92, 'ch': 's', 'st': 'VT', 'seat': 1, 'date': '1972-01-07', 'out': 'Robert Stafford', 'out_party': 'R',
      'why': "Appointed September 16, 1971, on Winston L. Prouty's death (September 10, 1971); won the special election.",
      'winner': 'Robert Stafford', 'party': 'R', 'source': 'Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)'},
