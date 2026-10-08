@@ -1795,13 +1795,14 @@ def entry(series, linker, ptrs, p):
         desc = (m.group(1) if m else (head.split("), ", 1)[-1] if "), " in head else head.split(", ", 2)[-1])).strip(" .")
         desc = re.sub(r" and (?:an?) ", " and ", re.sub(r"^(?:an?) ", "", desc))   # 'Senator from Minnesota and Vice President' 
         out.append(f'<p class="lvd">{esc(desc[0].upper() + desc[1:])}. <span class="lvc">{bd_cite(e)}.</span></p>')
-    else:
+    shown = None                         # the pointer the role line already gives, not repeated below it
+    if not e:
         roles = [(l, s_, x) for l, s_, x in subs if (s_.code or "").startswith("III") and x.get("r")]
         if roles:
             l, s_, x = roles[0]
-            out.append(f'<p class="lvd">{to_html(x["r"])}. <span class="lvq">'
-                       f'{ptr(f"{SITE}{l.key}.html#{x["id"]}", f"{esc(l.abbr)} {esc(s_.code)}")}</span></p>')
-    pts = series_lines(subs, cal)
+            shown = ptr(f"{SITE}{l.key}.html#{x['id']}", f"{esc(l.abbr)} {esc(s_.code)}")
+            out.append(f'<p class="lvd">{to_html(x["r"])}. <span class="lvq">{shown}</span></p>')
+    pts = [p_ for p_ in series_lines(subs, cal) if p_ != shown]
     if pts:
         out.append('<p class="lvs">In the series: ' + "; ".join(pts) + ".</p>")
     out.append("<h3>Life</h3>" + life_html(life))
@@ -1883,9 +1884,8 @@ ul.lvb li{margin:.25rem 0}
 ul.lvf{font-size:.84rem}
 ul.lvy{list-style:none;padding-left:0}
 ul.lvy li{margin:.35rem 0}
-ul.lvy .lvad{display:block;margin-top:.35rem}
+ul.lvy .lvad{display:list-item;list-style:disc;margin:.35rem 0 0 1.1rem}
 ul.lvy b+.lvad{margin-top:0}
-ul.lvnb{list-style:none;padding-left:0}
 ul.lvnb li{margin:.35rem 0}
 .lvn{font-size:.85rem;color:var(--muted)}
 details.lvz>summary{cursor:pointer;list-style:none}
