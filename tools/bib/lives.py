@@ -338,6 +338,11 @@ def office_sentences(sur, given, names=None):
         ext = [s.replace('<span class="exs">Sources: ', "").replace(".</span>", "")] if s else []
         start = max(str(h["from"]), X.TERMS[0][0]).ljust(10, "0").replace("-00", "-01")
         i = roster_href(start)
+        # the first term whose table holds the office and him (a unit begun later: the PSAC chair before 1957)
+        i = next((j for j in range(i, len(X.TERMS)) if X.exists(u, *X.term_span(j)) and X.exists(o, *X.term_span(j))
+                  and X.in_term(h, *X.term_span(j))), None)
+        if i is None:
+            return ext, []
         rid = X.rid_for()(i, u["unit"], o["id"])
         return ext, [ptr(f"{SITE}executive.html#{rid}", f"Exec. {X.TERMS[i][0][:4]}")]
 
@@ -916,6 +921,8 @@ def election_sentences(sur, given, sfx="", strict=False, givens=(), held=(), sea
         contest moves him); else by name, with a Check. The fate as written ('Lost renomination in a redistricting
         contest'); whether by primary or convention the fate does not say."""
         res_ = []
+        if not any("renomination" in (i.get("result") or "").lower() for i in r.get("inc") or []):
+            return res_
         sat = {n_ for (c_, ch_, st_, s_), ns in seat_holders().items() if (c_, ch_, st_) == (cong - 1, r["ch"], r["st"])
                for n_ in ns} & set(names)
         for i in r.get("inc") or []:
@@ -1257,8 +1264,10 @@ def cand(name, party, votes, me=False):
     m = re.match(r"^(.*?)\s*\(([^()]*%)\)$", votes or "")
     v, s_ = (m.group(1), m.group(2)) if m else (votes or "", "")
     # a ticket's electoral votes over its popular, the popular in the shares' shade
-    v = "<br>".join(f'<span class="lvpv">{x}</span>' if x.endswith(" PV") else x for x in v.split("; "))
-    return f'<span class="lvn">{n}</span><span class="lvv">{v}</span><span class="lvs">{s_}</span>'
+    parts = v.split("; ")
+    v = "<br>".join(f'<span class="lvpv">{x}</span>' if x.endswith(" PV") else x for x in parts)
+    two = len(parts) > 1 and parts[-1].endswith(" PV")     # the share is the popular vote's: on its line
+    return f'<span class="lvn">{n}</span><span class="lvv">{v}</span><span class="lvs{" lvs2" if two else ""}">{s_}</span>'
 
 
 def pct(v, tot):
@@ -1771,8 +1780,9 @@ table.lvt .lvv,table.lvt .lvs{text-align:right;font-variant-numeric:tabular-nums
 table.lvt .lvs,table.lvt .lvpv{color:var(--muted)}
 table.lvt .lvpa{font-family:var(--sans);font-size:.78em;color:var(--muted)}
 table.lvt .lvs{min-width:3.2em}
+table.lvt .lvs2{padding-top:1.35em}
 @media (max-width:520px){table.lvt .lvcs{grid-template-columns:minmax(6em,1fr) auto}table.lvt .lvn{grid-column:1;grid-row:span 2}
-  table.lvt .lvv,table.lvt .lvs{grid-column:2}}
+  table.lvt .lvv,table.lvt .lvs{grid-column:2}table.lvt .lvs2{padding-top:0}}
 table.lvt .lvts{display:block}
 table.lvt .lvts,table.lvt .lvts a{color:var(--muted);font-size:.92em}
 table.lvt td a.lvp{font-size:.9em}

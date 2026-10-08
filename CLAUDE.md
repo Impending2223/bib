@@ -184,8 +184,13 @@ are chronological by publication unless their intro says "Alphabetical".
 ```
 ./bib new-id cal 1961-10-27 berlin-and-vienna   # an unused id
 ./bib check            # must end "0 errors"; deal with new warnings
-./bib build            # build/<key>.html and build/series.html
+./bib build            # build/<key>.html and build/series.html (a page alone: ./bib build congress | names | cal ...)
+./bib links            # links between the built pages whose anchors are missing
 ```
+
+Every YAML file is parsed once a run, and the parse kept in `.cache/yaml` (git-ignored) by path, modification time and
+size, so a later run parses only what changed: `check` takes about 8 s, a full build about 35 s, a page 15-20 s.
+A link to another page's anchor that a later build lost lands on the page's top; `./bib links` lists them.
 
 **By patch**: when another session or a person will merge your work, or you
 cannot touch the repo. Write `inbox/<date>-<name>.yaml` and run
@@ -585,9 +590,13 @@ tools/bib/elections.py              renders the blocks and checks the data (STYL
   at-large position), `s OR 2 special` (a special held with a regular race for the same seat).
   A special Wikipedia lists that the Clerk's November volume does not print goes under
   `not_in_volume` with the reason. `check` fails on a malformed or stale key.
-- Candidates, incumbents, and their fates: Wikipedia's race tables; names as Wikipedia
-  gives them where the surname matches. New York's fusion candidates carry their party
-  lines and the Clerk's total.
+- Candidates, incumbents, and their fates: Wikipedia's race tables. Names: the OCR's are for matching only (it
+  garbles names), so a race takes Wikipedia's name where the surname matches; in a race read by eye, only where
+  Wikipedia's given names agree with the printed ones (`wiki_names`): a nickname is no disagreement (Bob and Robert;
+  '"Pete"' as printed), nor a first name or initial one drops; a first name nothing matches (Russell and Thomas S.
+  Kleppe, N.D. 1970) or initials that differ (Gladys E. and Gladys L. Davis, Ohio-6, 1960; CQ prints E. too) is,
+  and the printed name stands. Wikipedia's also mends the Clerk's surname misprints ('Zelenki'). New York's fusion
+  candidates carry their party lines and the Clerk's total.
 - President: each slate's vote (its highest elector), assigned to a candidate by
   Wikipedia's results by State; electoral votes from the same table, with `CAST`.
 - Margins are ordinary: the leader's votes less the runner-up's, over all the votes. The

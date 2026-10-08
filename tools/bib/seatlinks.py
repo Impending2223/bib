@@ -51,7 +51,8 @@ def events():
             href = None if y == 1956 else f"congress.html#{elections.rid(y, r)}"
             lab = elections.fmt_date(E["date"]) + (" (special)" if r.get("special") else "")
             out[(r["ch"], r["st"], r["seat"])].append(
-                (E["date"], href, lab, [c["n"] for c in r["cands"] if c.get("w")], [c["n"] for c in r["cands"]], y))
+                (E["date"], href, lab, [c["n"] for c in r["cands"] if c.get("w")],
+                 [c["n"] for c in r["cands"]] + [i["n"] for i in r.get("inc") or [] if i.get("n")], y))   # who ran, or held it
     sp = specials.load()
     for c in sorted(sp):
         for x in specials.between(c, sp):

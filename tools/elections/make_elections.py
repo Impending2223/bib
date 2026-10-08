@@ -382,9 +382,70 @@ def race_record(y, st, r, lines, key, dg, recap):
 
 
 def wiki_names(cands, wcands):
-    """Names as Wikipedia gives them, where a surname matches (the Clerk's misprints: 'Zelenki'); a write-in's
-    party from Wikipedia ('Dale Alford, write-in')."""
+    """Names as Wikipedia gives them, where a surname matches (the Clerk's misprints: 'Zelenki') and the given names
+    agree with the printed ones, an initial with its name ('Julia B.' and 'Julia Butler'); where a given name or an
+    initial disagrees, the name as printed and read by eye stands (Gladys E. Davis, Ohio-6, 1960: Wikipedia's 'Gladys
+    L.'; CQ prints 'E.' too). A write-in's party from Wikipedia ('Dale Alford, write-in')."""
     import difflib
+
+    sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
+    from bib.congress import SHORT                    # Bob and Robert, Neil and Cornelius
+
+    def nick(a, b):
+        return a in SHORT.get(b, ()) or b in SHORT.get(a, ())
+
+    import unicodedata
+
+    def words(n):
+        bare = re.sub(r'"[^"]*"|\([^)]*\)', ' ', n)
+        bare = unicodedata.normalize('NFKD', bare).encode('ascii', 'ignore').decode()
+        return [w.lower() for w in re.sub(r'[,.]', ' ', bare).split() if not re.fullmatch(r'(Jr|Sr|II|III|IV)', w)]
+
+    def given(n, other=''):
+        """(the given names, letters only, in order, the surname the two names share taken off; the nicknames the
+        name gives in quotes or parentheses)"""
+        nicks = [w.lower() for w in re.findall(r'["(]([A-Za-z]+)[")]', n)]
+        ws, os_ = words(n), words(other)
+        k = 0                                         # the shared surname, of one word or more ('St. Onge', 'Van Pelt')
+        while k < min(len(ws), len(os_)) - 1 and ws[-1 - k] == os_[-1 - k]:
+            k += 1
+        return ws[:len(ws) - max(k, 1)], nicks
+
+    def same(a, b):
+        """One given name: as spelled, an initial, a short form (Bob, Wm.), the one the start of the other (Del,
+        Delbert; Mo, Morris), or a spelling of it (Emanuel, Emmanuel; Phil, Phillip)."""
+        if a == b or nick(a, b) or (len(a) == 1 and b.startswith(a)) or (len(b) == 1 and a.startswith(b)):
+            return True
+        if a[0] != b[0] or min(len(a), len(b)) < 2:
+            return False
+        return a.startswith(b) or b.startswith(a) or difflib.SequenceMatcher(None, a, b).ratio() >= 0.66
+
+    def agree(printed, wiki):
+        """Do the printed given names and Wikipedia's name one person? A nickname is no disagreement (Bob and
+        Robert; '"Pete"' as printed), nor a first name or initial one drops (J. Edward Hutchinson, Edward
+        Hutchinson); a first name nothing matches is (Russell and Thomas S. Kleppe), and so are initials that differ
+        after the names that match (Gladys E. and Gladys L.)."""
+        if re.match(r'(Mrs|Mr|Miss)\.?\s', printed):
+            return True                               # 'Mrs. Frank R. Reid, Jr.': the printed form names her husband
+        (A, an), (B, bn) = given(printed, wiki), given(wiki, printed)
+        if len(A) > 1 and A[0] + A[1] == (B[0] if B else ''):
+            A = [A[0] + A[1]] + A[2:]                 # 'De Loyd' printed, 'DeLoyd' at Wikipedia
+        if not A or not B:
+            return True
+        if any(same(b, x) for b in B[:1] + bn for x in an) or any(same(a, x) for a in A[:1] + an for x in bn):
+            return True                               # a nickname either gives
+        for i, a in enumerate(A):                     # the printed first name (or one after a dropped initial) in Wikipedia's
+            for j, b in enumerate(B):
+                if same(a, b) and (i == 0 or j == 0):
+                    rest = list(zip(A[i + 1:], B[j + 1:]))
+                    return all(x[0] == y[0] for x, y in rest)
+        return False
+        if not (A[0][0] == B[0][0]):
+            return False
+        for a, b in zip(A[1:], B[1:]):
+            if a[0] != b[0]:
+                return False
+        return True
 
     def sur(n):
         n = re.sub(r',?\s+(Jr|Sr|II|III)\.?$', '', n.strip())
@@ -392,7 +453,8 @@ def wiki_names(cands, wcands):
     for c in cands:
         m = [w for w in wcands if difflib.SequenceMatcher(None, sur(c['n']), sur(w['name'])).ratio() >= 0.75]
         if len(m) == 1:
-            c['n'] = m[0]['name']
+            if agree(c['n'], m[0]['name']):
+                c['n'] = m[0]['name']
             if c['p'] == 'O' and code(m[0].get('party')) != 'O' and re.search(r'write|^$', c['party'] or ''):
                 c['p'] = code(m[0]['party'])
 

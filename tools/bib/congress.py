@@ -34,11 +34,11 @@ BLUEBOOK = dict(AL="Ala.", AK="Alaska", AZ="Ariz.", AR="Ark.", CA="Cal.", CO="Co
                 MT="Mont.", NE="Neb.", NV="Nev.", NH="N.H.", NJ="N.J.", NM="N.M.", NY="N.Y.", NC="N.C.", ND="N.D.",
                 OH="Ohio", OK="Okla.", OR="Or.", PA="Pa.", RI="R.I.", SC="S.C.", SD="S.D.", TN="Tenn.", TX="Tex.",
                 UT="Utah", VT="Vt.", VA="Va.", WA="Wash.", WV="W. Va.", WI="Wis.", WY="Wyo.")
-SHORT = {"samuel": ["sam"], "william": ["bill", "will"], "robert": ["bob"], "thomas": ["tom"], "edward": ["ted", "ed"],
-         "james": ["jim"], "michael": ["mike"], "charles": ["charlie"], "richard": ["dick"], "joseph": ["joe"],
+SHORT = {"samuel": ["sam"], "william": ["bill", "will", "wm"], "robert": ["bob"], "thomas": ["tom"], "edward": ["ted", "ed"],
+         "james": ["jim", "jimmy"], "michael": ["mike"], "charles": ["charlie"], "richard": ["dick"], "joseph": ["joe"],
          "john": ["jack"], "daniel": ["dan"], "eugene": ["gene"], "frederick": ["fred"], "albert": ["al"],
          "hubert": ["hubert"], "lawrence": ["larry"], "kenneth": ["ken"], "theodore": ["ted"], "henry": ["harry"],
-         "everett": ["everett"], "clifford": ["cliff"], "gerald": ["jerry"], "abraham": ["abe"], "barry": ["barry"], "nicholas": ["nick"], "cornelius": ["neil"], "clement": ["clem"]}
+         "everett": ["everett"], "clifford": ["cliff"], "gerald": ["jerry"], "abraham": ["abe"], "barry": ["barry"], "nicholas": ["nick"], "cornelius": ["neil"], "clement": ["clem"], "david": ["dave"]}
 YEARS = {c: f"{1961 + 2 * (c - 87)}–{str(1963 + 2 * (c - 87))[2:]}" for c in range(85, 95)}
 
 
