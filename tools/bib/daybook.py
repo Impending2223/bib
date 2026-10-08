@@ -114,10 +114,18 @@ def frus_cite(x):
     return f'{vol}: {x["vol"]}, doc. {doc}' if x.get("vol") and vol else x["cite"]
 
 
+SERIES = None    # set by the build (build.py, run): the series, for the FRUS senders' name entries
+
+
 def doc_html(x, ab):
     from .markup import lower_from
     title = f'<a href="{esc(x["url"])}">{esc(lower_from(x["title"]) if x["src"] == "frus" else x["title"])}</a>'
-    au = f'<span class="au">{esc(x["author"])}</span> ' if x.get("author") else ""
+    au = esc(x["author"]) if x.get("author") else ""
+    if au and x["src"] == "frus" and SERIES is not None:
+        from . import namelinks              # the sender's name entry, where the index names one person
+        u = namelinks.frus_sender(SERIES, x["key"])
+        au = f'<a class="nm" href="{esc(u)}">{au}</a>' if u else au
+    au = f'<span class="au">{au}</span> ' if au else ""
     if x["src"] == "ppp":
         src, hover = "APP", "American Presidency Project"
     else:

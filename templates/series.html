@@ -109,6 +109,9 @@ ol.e>li:last-child{border-bottom:0}
 a.x{text-decoration:underline;text-decoration-style:dotted;text-decoration-thickness:1px;text-underline-offset:.18em}
 a.x.xl{text-decoration-style:dashed}
 a.x:hover{text-decoration-style:solid}
+/* a person's name, linked to the name entry (tools/bib/namelinks.py): muted */
+a.nm{color:inherit;text-decoration:underline;text-decoration-color:color-mix(in srgb,var(--muted) 40%,transparent);text-decoration-thickness:1px;text-underline-offset:.2em}
+a.nm:hover{text-decoration-color:var(--accent,currentColor)}
 .x2{display:block;font-family:var(--sans);font-size:.78rem;color:var(--muted);margin-top:.3rem}
 .x2 a{color:var(--muted)}
 .x2 a:hover{color:var(--accent)}
@@ -244,7 +247,7 @@ var META={{meta}}, ORDER={{order}};
     ax.href='executive.html'; ax.innerHTML='<b>Executive</b><span>The Executive Branch at each inauguration, 1953\u20131974: offices, law, holders</span>';
     lx.appendChild(ax); lsts.appendChild(lx);
     var lv=document.createElement('li'), av=document.createElement('a');
-    av.href='lives.html'; av.innerHTML='<b>Lives</b><span>A name entry for each person: the life with its sources, papers, works, and the documents that name them</span>';
+    av.href='names.html'; av.innerHTML='<b>Names</b><span>A name entry for each person: the life with its sources, papers, works, and the documents that name them</span>';
     lv.appendChild(av); lsts.appendChild(lv);
   })();
   function buildDrawer(){

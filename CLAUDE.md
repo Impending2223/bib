@@ -330,6 +330,10 @@ notes/executive-brief.md      the brief for whoever adds to the roster, person o
 ./bib executive sources [all]         holder sources the line cannot link, by form ([all]: by holder)
 ```
 
+- Each office shows, muted and in italics, the holder before the term ("Before: Rusk, Dean, left Jan. 20, 1969")
+  and after it ("After: …, took office …"), as precisely as known (`seen`/`last` say "in office by", "last listed"),
+  each linked to the term table that holds him (Exec. 1965). Not for `many: true` offices; acting holders only
+  where no one else held the office.
 - Units nest by `under:` (the President at the top; the EOP; the departments in their order of creation;
   the independent agencies), offices within a unit by `under:` (Rusk, and the men under Rusk). Ranks in the
   terms of Art. II, § 2, cl. 2: heads of departments, principal officers (PAS), inferior officers (PA, HD),
@@ -359,12 +363,22 @@ notes/executive-brief.md      the brief for whoever adds to the roster, person o
   end of mission. Others from the Congressional Directory (each session), the Senate's records, department
   histories, and Wikipedia's lists for nominations. "Check" in a note marks a detail still to verify.
 
-## Lives
+## Names
 
-`./bib build` writes `build/lives.html` (the index of names) and `build/lives-a.html` … `lives-z.html`: a name
+`./bib build` writes `build/names.html` (the index) and `build/names-a.html` … `names-z.html`: a name
 entry for each person in Part III, the Executive roster, and the Congresses at their openings (`people` in
-`tools/bib/lives.py`: one entry a person). `./bib lives` builds those pages alone; `./bib lives 'Humphrey, Hubert H.'
-[--site URL] [--out FILE]` one page.
+`tools/bib/lives.py`: one entry a person). `./bib names` builds those pages alone; `./bib names 'Humphrey, Hubert H.'
+[--site URL] [--out FILE]` one page. The old `lives*.html` addresses forward to the new ones (`./bib lives` still works).
+A Part III entry for two people writes them apart with ";" (`s: Evans, Rowland, Jr.; Novak, Robert D.`), never "&".
+
+Names link to their entries throughout (`tools/bib/namelinks.py`), muted: class `nm`, the text's own color and
+a faint underline. Linked: the calendar's "Names:" (by the Part III section given), Part III subjects, the
+Congress rosters, the Executive holders, election candidates (only a race matched without "Check"; a ticket by
+its running name), special-election candidates (only a name with a roster seat in the State), FRUS senders in the
+daybook (the index of documents sent, `sources/frus-names`, where one person fits), and a work's authors where
+written in running order and one person fits ("Theodore C. Sorensen"). Not a name in its own entry, not an author
+with no entry, not APP. A title alone in another person's subject entry is that person's (his memoir): his name is
+put before it, linked. A President's surname alone as a title (Sorensen, *Kennedy*) is a work about him.
 
 Who is one person (`people`, `one`): a name as written is one person in every source. Names written differently
 join where the surnames agree, the given names agree (initials, middle names in order, the roster's `given`), and

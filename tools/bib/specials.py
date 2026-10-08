@@ -249,19 +249,39 @@ def summary(c, sp):
     return out
 
 
-def cand_cell(rows, votes):
+def cand_cell(rows, votes, st=None):
     out = []
     for name, party, v, share, won in rows:
         cls = ' class="w"' if won else ""
         vv = f"{v:,}" if votes and v is not None else ""
         ss = f"{share:.1f}%" if share is not None else "Unopposed"
-        out.append(f'<span class="ec"><span{cls}><span class="en">{esc(name)}</span> <span class="ep">{esc(party)}</span></span>'
+        out.append(f'<span class="ec"><span{cls}><span class="en">{member_link(name, st) if st else esc(name)}</span> <span class="ep">{esc(party)}</span></span>'
                    f'<span class="ev">{vv}</span><span class="es">{ss}</span></span>')
     return "".join(out)
 
 
+SERIES = None    # set by the pages that draw the blocks (congress.py): the series, for the members' name entries
+
+
+def member_link(name, st, inner=None):
+    """name (html: inner) linked to the person's name entry, where one person with an entry fits the name as written
+    and he sat in Congress for the State; else unchanged."""
+    inner = inner if inner is not None else esc(name)
+    if SERIES is None or not name:
+        return inner
+    from . import lives, namelinks
+    who = namelinks.written(SERIES, re.sub(r"\s*\([^)]*\)", " ", name))
+    if not who:
+        return inner
+    sur, given = lives.split_name(who)
+    p = next((q for q in lives.cached("people", lambda: lives.people(SERIES)) if q["name"] == who), None)
+    if not p or not any(r[3] == st for r in lives.roster_pointers(sur, given, p["names"])):
+        return inner
+    return f'<a class="nm" href="{esc(namelinks.url(SERIES, who))}">{inner}</a>'
+
+
 def note_cell(x):
-    bits = [f"{esc(x['out'])} ({esc(x['out_party'])}): {esc(x['why'].rstrip('.'))}."]
+    bits = [f"{member_link(x['out'], x['st'])} ({esc(x['out_party'])}): {esc(x['why'].rstrip('.'))}."]
     if x.get("flip"):
         same = surname(x["out"]) == surname(x["winner"])
         bits.append(f"{NAME.get(x['party'], x['party'])} pickup" + (", the same member under another party." if same else "."))
@@ -300,11 +320,11 @@ def row(x, STATE, sw=None):
                     for r in sorted(rd["cands"], key=lambda r: -r[2])]
             head = (f'<span class="eln">{esc(rd["label"].capitalize())}, {esc(fmt_date(rd["date"]))}</span>'
                     if len(x["rounds"]) > 1 else "")
-            cells.append(head + cand_cell(rows, True))
+            cells.append(head + cand_cell(rows, True, x["st"]))
         rows = final(x)
     else:
         rows = final(x)
-        cells.append(cand_cell(rows, False))
+        cells.append(cand_cell(rows, False, x["st"]))
     mg = margin(rows)
     # one candidate printed with a share short of all (CQ's Cardiss Collins, 92.5): the margin is not known
     partial = mg is None and len(rows) == 1 and rows[0][3] is not None and rows[0][3] < 99.95

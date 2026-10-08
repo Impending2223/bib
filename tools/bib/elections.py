@@ -391,14 +391,29 @@ ABBR = {"Democrat": "D", "Republican": "R", "Democrat, Liberal": "D, L", "Democr
         "Socialist Workers": "Soc. Wkrs.", "Prohibition": "Proh."}
 
 
-def cand_html(c, m):
+SERIES = None    # set by the pages that draw the blocks (congress.py): the series, for the candidates' name entries
+
+
+def cand_link(year, r, c):
+    """The name entry of the person a candidate is, where his entry gives him the race and something confirms it
+    (tools/bib/lives.py, race_people); the President's ticket by the name alone, where one person fits."""
+    if SERIES is None or not c.get("n"):
+        return None
+    from . import lives, namelinks
+    who = lives.race_people(SERIES).get((str(year), lives.race_key(str(year), r), c["n"])) if r else \
+        namelinks.written(SERIES, c["n"])
+    return namelinks.url(SERIES, who) if who else None
+
+
+def cand_html(c, m, link=None):
     share = f"{100 * c['v'] / m['total']:.1f}%" if c.get("v") is not None and m["total"] else "—"
     party = esc(ABBR.get(c["party"], c["party"]))
     lines = ""
     if c.get("lines"):
         lines = '<span class="eln">' + "; ".join(f"{esc(ABBR.get(p, p))} {num(v)}" for p, v in c["lines"]) + "</span>"
     cls = ' class="w"' if c.get("w") else ""
-    return (f'<span{cls}><span class="en">{esc(c["n"])}</span> <span class="ep" title="{esc(c["party"])}">{party}</span>{lines}</span>'
+    name = f'<a class="nm" href="{esc(link)}">{esc(c["n"])}</a>' if link else esc(c["n"])
+    return (f'<span{cls}><span class="en">{name}</span> <span class="ep" title="{esc(c["party"])}">{party}</span>{lines}</span>'
             f'<span class="ev">{num(c.get("v"))}</span><span class="es">{share}</span>')
 
 
@@ -467,7 +482,8 @@ def table(year, ch, races):
                     seat += f" ({r['seats']} seats)"
             else:
                 seat = ("I", "II", "III")[r["seat"] - 1] + (", unexpired term" if r.get("special") else "")
-            cands = "".join(f'<span class="ec">{cand_html(c, m)}</span>' for c in sorted(r["cands"], key=lambda c: -(c.get("v") or 0)))
+            cands = "".join(f'<span class="ec">{cand_html(c, m, cand_link(year, r, c))}</span>'
+                            for c in sorted(r["cands"], key=lambda c: -(c.get("v") or 0)))
             if r.get("scat"):
                 cands += f'<span class="ec"><span><span class="en">Scattering</span></span><span class="ev">{num(r["scat"])}</span><span class="es"></span></span>'
             if "margin" in m:
@@ -660,10 +676,11 @@ def pres_table(year, data):
         cs = ""
         for s in sorted(r["slates"], key=lambda s: -(s.get("v") or 0)):
             who = C[s["k"]]["n"] if s["k"] in C else ""
+            wl = cand_link(year, None, {"n": who}) if who else None
             share = f"{100 * s['v'] / m['total']:.1f}%" if s.get("v") is not None and m["total"] else "—"
             w = ' class="w"' if s["k"] == m["win"] else ""
             cs += (f'<span class="ec"><span{w}><span class="en">{esc(s["party"])}</span>'
-                   + (f' <span class="ep">{esc(who)}</span>' if who else "") +
+                   + (f' <span class="ep">{f"""<a class="nm" href="{esc(wl)}">{esc(who)}</a>""" if wl else esc(who)}</span>' if who else "") +
                    f'</span><span class="ev">{num(s.get("v"))}</span><span class="es">{share}</span></span>')
         if r.get("scat"):
             cs += f'<span class="ec"><span><span class="en">Scattering</span></span><span class="ev">{num(r["scat"])}</span><span class="es"></span></span>'

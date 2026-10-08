@@ -17,3 +17,6 @@ details.cgr tr:target td,details.cgr tr.hit td{background:var(--hl-bg);color:var
 .cgn{display:block;font-family:var(--serif);font-size:.85rem;color:var(--note)}
 .cgn.cgc{font-family:var(--sans);font-size:.78rem;color:var(--muted)}
 .cg button.cgb{font:600 .72rem/1 var(--sans);padding:.35rem .5rem;border:1px solid var(--rule);border-radius:5px;background:var(--panel);color:var(--muted);cursor:pointer}
+/* a person's name, linked to the name entry (tools/bib/namelinks.py): muted */
+a.nm{color:inherit;text-decoration:underline;text-decoration-color:color-mix(in srgb,var(--muted) 40%,transparent);text-decoration-thickness:1px;text-underline-offset:.2em}
+a.nm:hover{text-decoration-color:var(--accent,currentColor)}

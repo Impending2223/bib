@@ -53,6 +53,9 @@ h2{font-family:var(--sans);font-weight:800;font-size:1.55rem;line-height:1.15;ma
 h3{font-family:var(--sans);font-weight:700;font-size:1.15rem;line-height:1.25;margin:2.5rem 0 .4rem;padding-top:.6rem;border-top:1px solid var(--rule)}
 h4{font-family:var(--sans);font-weight:600;font-size:1rem;line-height:1.3;margin:1.9rem 0 .3rem;color:var(--ink)}
 .num{color:var(--muted);font-weight:600;margin-right:.45em}
+/* a person's name, linked to the name entry (tools/bib/namelinks.py): muted */
+a.nm{color:inherit;text-decoration:underline;text-decoration-color:color-mix(in srgb,var(--muted) 40%,transparent);text-decoration-thickness:1px;text-underline-offset:.2em}
+a.nm:hover{text-decoration-color:var(--accent,currentColor)}
 p.logic{font-family:var(--sans);font-size:.88rem;line-height:1.45;color:var(--muted);margin:.25rem 0 1rem}
 p.lede{margin:.4rem 0 1rem}
 
@@ -108,7 +111,7 @@ ol.e>li:last-child{border-bottom:0}
 
 <header id="hdr"><div class="in">
   <div id="crumb"><b>{{page_title}}</b></div>
-  <nav class="pg" aria-label="Pages"><a href="series.html">Series</a><a href="congress.html">Congress</a><a href="executive.html">Executive</a><a href="lives.html">Lives</a></nav>
+  <nav class="pg" aria-label="Pages"><a href="series.html">Series</a><a href="congress.html">Congress</a><a href="executive.html">Executive</a><a href="names.html">Names</a></nav>
   <button id="olbtn" aria-controls="drawer" aria-expanded="false">Outline</button>
 </div></header>
 
@@ -135,7 +138,7 @@ ol.e>li:last-child{border-bottom:0}
 
   // build nested outline (contents + drawer)
   function buildTree(ol){
-    if(!ol) return;                  // a page without a contents list (the Lives)
+    if(!ol) return;                  // a page without a contents list (the Names)
     var stack=[{level:1,el:ol}];
     heads.forEach(function(h){
       var L=lvl(h);
@@ -242,6 +245,18 @@ ol.e>li:last-child{border-bottom:0}
 
   place();
 })();
+  // a link into a closed table (the Executive roster's Before/After, a roster row): open what holds the target, then go
+  (function(){
+    function openTo(){
+      var id=decodeURIComponent(location.hash.slice(1)), el=id&&document.getElementById(id);
+      if(!el) return;
+      var d=el.closest('details'), shut=false;
+      while(d){ if(!d.open){ d.open=true; shut=true; } d=d.parentElement&&d.parentElement.closest('details'); }
+      if(shut) el.scrollIntoView();
+    }
+    window.addEventListener('hashchange',openTo);
+    if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',openTo); else openTo();
+  })();
 </script>
 </body>
 </html>
