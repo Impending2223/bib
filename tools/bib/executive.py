@@ -631,7 +631,7 @@ def neighbor_html(o, u, i, a, b, ptr, rid, here, before):
                 else "end not known"
         else:
             when = f"in office by {fmt(h['from'])}" if h.get("_seen") else f"took office {fmt(h['from'])}"
-        terms = [j for j in span if in_term(h, *term_span(j))]
+        terms = [j for j in span if in_term(h, *term_span(j)) and exists(o, *term_span(j)) and exists(u, *term_span(j))]
         if terms:
             j = terms[0]
             tid = rid(j, u["unit"], o["id"])
@@ -640,6 +640,18 @@ def neighbor_html(o, u, i, a, b, ptr, rid, here, before):
     return (f'<span class="exh exnb2"><span class="exnl">{"Before" if before else "After"}:</span> '
             + " ".join(f'{w} <span class="exd">{t}{"." if k == len(parts) - 1 else ";"}</span>'
                        for k, (w, t) in enumerate(parts)) + '</span>')
+
+
+def many_html(o, u, i, rid, here, before):
+    """For an office many held at once: the term tables before and after, linked, the holders not named. None where
+    the office did not exist in the term before (after)."""
+    for j in (range(i - 1, -1, -1) if before else range(i + 1, len(TERMS))):
+        if exists(o, *term_span(j)) and exists(u, *term_span(j)):
+            link = f'<a href="{"" if here else "executive.html"}#{rid(j, u["unit"], o["id"])}">Exec. {esc(TERMS[j][0][:4])}</a>'
+            return (f'<span class="exh exnb2"><span class="exnl">{"Before" if before else "After"}:</span> '
+                    f'{link}.</span>')
+        break
+    return None
 
 
 def block(i, units, ptr, href, rid, here=False):
@@ -688,7 +700,8 @@ def block(i, units, ptr, href, rid, here=False):
             # an acting officer who began before the term sorts from its first day, under the vacancy he served in
             items = [(max(lo(h["from"]), lo(a)) if h.get("acting") else lo(h["from"]), 1, h) for h in hs] \
                 + [(lo(g[0]), 0, g) for g in gaps]
-            prev = None if o.get("many") else neighbor_html(o, u, i, a, b, ptr, rid, here, True)
+            prev = many_html(o, u, i, rid, here, True) if o.get("many") \
+                else neighbor_html(o, u, i, a, b, ptr, rid, here, True)
             if prev:
                 cells.append((prev, []))
             gap = None
@@ -702,7 +715,8 @@ def block(i, units, ptr, href, rid, here=False):
                 who, line, pts = holder_html(x, a, b, ptr, href, o)
                 inside = x.get("acting") and gap and lo(gap[0]) <= max(lo(x["from"]), lo(a)) < lo(gap[1])
                 cells.append((f'<span class="exh{" exin" if inside else ""}">{who} {line}</span>', pts))
-            nxt = None if o.get("many") else neighbor_html(o, u, i, a, b, ptr, rid, here, False)
+            nxt = many_html(o, u, i, rid, here, False) if o.get("many") \
+                else neighbor_html(o, u, i, a, b, ptr, rid, here, False)
             if nxt:
                 cells.append((nxt, []))
             rows_total += 1
@@ -775,7 +789,7 @@ details.exu tr.exlr td{padding-top:0}
 .ex .exh>b{font-weight:600}
 .ex .exh.exin{margin-left:1rem}
 .ex .exh.exnb2{font-size:.74rem;color:var(--muted)}
-.ex .exh.exnb2 .exd a{color:inherit;text-decoration-color:var(--rule)}
+.ex .exh.exnb2 a:not(.nm){color:inherit;text-decoration-color:var(--rule)}
 .ex .exnl{font-size:.66rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
 .ex .exd{display:block;font-size:.74rem;color:var(--muted);line-height:1.35}
 .ex .exs{display:block;font-size:.68rem;color:var(--muted);line-height:1.35;margin-top:.1rem}
