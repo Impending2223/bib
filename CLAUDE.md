@@ -449,7 +449,7 @@ Each entry: the Directory's description (or the Part III role), the pointers int
 running text, with the date in each sentence; then Publications; FRUS documents sent; Oral histories given, papers,
 and other primary sources; Secondary sources; and, folded, the FRUS and presidential documents that name the
 person. Empty sections are left out. The FRUS and presidential lists carry no bullets: a paragraph's space between
-items (`lvnb`), and between the presidential documents within a year (`lvad`), a little more between years. Rules (the STYLE notes in `tools/bib/lives.py`):
+items (`lvnb`) and between the presidential documents (`lvad`), years included, and no more. Rules (the STYLE notes in `tools/bib/lives.py`):
 
 - Each fact cites its ground source, linked: BD (the 2005 printed Biographical Directory, by page), the roster
   holder's own sources (CDir., CR, FR, DSB, GOM, POCOM, APP …), the Clerk's *Election Statistics* by page, a calendar

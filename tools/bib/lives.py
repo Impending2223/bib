@@ -1880,11 +1880,11 @@ ul.lvb{margin:.2rem 0 .6rem;padding-left:1.1rem;font-size:.9rem;line-height:1.45
 ul.lvb li{margin:.25rem 0}
 ul.lvf{font-size:.84rem}
 ul.lvy{list-style:none;padding-left:0}
-ul.lvy li{margin:1.1rem 0}
-ul.lvy .lvad{display:block;margin-top:.7rem}
-ul.lvy b+.lvad{margin-top:.25rem}
+ul.lvy li{margin:.35rem 0}
+ul.lvy .lvad{display:block;margin-top:.35rem}
+ul.lvy b+.lvad{margin-top:0}
 ul.lvnb{list-style:none;padding-left:0}
-ul.lvnb li{margin:.7rem 0}
+ul.lvnb li{margin:.35rem 0}
 .lvn{font-size:.85rem;color:var(--muted)}
 details.lvz>summary{cursor:pointer;list-style:none}
 details.lvz>summary h3{display:inline}
