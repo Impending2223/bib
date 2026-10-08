@@ -505,9 +505,12 @@ tools/bib/elections.py              renders the blocks and checks the data (STYL
   does not settle is read by eye into `elections/readings/<year>.yaml`. Where a race page
   and its recapitulation differ, the figure the Clerk's totals add up with is used, and the
   race's `note` says so. Where the Clerk and Wikipedia disagree after a reading, the Clerk
-  stands (`wikipedia_differs`), names included. CQ's *Guide to U.S. Elections* (6th ed., 2010) is compared in
-  `elections/cq.yaml`; it fills a race only where the Clerk prints no vote (a reading's `source`, shown in the race's
-  note: Pa.-6, 1964).
+  stands (`wikipedia_differs`), names included, unless the State's own canvass, read off its page, says otherwise:
+  then the State's figure stands, the reading carrying `source` (the State's cite) and `clerk` (the Clerk's figures),
+  both shown in the race's note (Md. 1958, Colo. 1960, Fla. and Mo. 1962; President: Wyo. 1960, Cal., Colo., Ga.
+  1968, Cal. 1972). A later State compilation is not a canvass. CQ's *Guide to U.S. Elections* (6th ed., 2010) is
+  compared in `elections/cq.yaml`; it fills a race only where the Clerk prints no vote (`source` without `clerk`:
+  Pa.-6, 1964).
 - Reading keys: `h NY 9` (district; 0 at large), `s MD 1` (Senate class), `h NM 0-1` (an
   at-large position), `s OR 2 special` (a special held with a regular race for the same seat).
   A special Wikipedia lists that the Clerk's November volume does not print goes under
