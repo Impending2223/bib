@@ -704,6 +704,53 @@ def renominations_by():
     return cached("renominations", make)
 
 
+def primaries():
+    """elections/primaries.yaml: {race key: {page, footnote, rounds: [{label, cands: [[name, party, votes, share]]}]}},
+    CQ's primary returns (kept by hand)."""
+    def make():
+        p = os.path.join(store.ROOT, "elections", "primaries.yaml")
+        return (store.load_yaml(p) or {}) if os.path.exists(p) else {}
+    return cached("primaries", make)
+
+
+def same_candidate(a_, b_):
+    """Two names in one race are one candidate: the surnames agree, and the first initials (suffixes aside: CQ prints
+    'Harry F. Byrd Sr.', the returns 'Harry F. Byrd')."""
+    ga, gb = returns_given(a_), returns_given(b_)
+    return letters(last_word(a_)) == letters(last_word(b_)) and (not ga or not gb or fold(ga)[:1] == fold(gb)[:1])
+
+
+def primary_rounds(key, name):
+    """The rounds of the race's primaries (elections/primaries.yaml) that name the candidate: [(label, rows, me)]."""
+    p = primaries().get(key) or {}
+    out = []
+    for rd in p.get("rounds") or []:
+        me = next((c for c in rd["cands"] if same_candidate(c[0], name)), None)
+        if me:
+            out.append((rd["label"], rd["cands"], me))
+    return out
+
+
+def primary_cells(key, name):
+    """The record's cells for the primary rounds that name the candidate, each under its label, the person in bold;
+    then the label of the November vote. [] where none."""
+    rs = primary_rounds(key, name)
+    if not rs:
+        return []
+    lab = lambda s: f'<span class="lvpl">{esc(s)}</span>'
+    cells = []
+    for label, rows, me in rs:
+        cells.append(lab(label))
+        cells += [cand(c[0], c[1], (f"{c[2]:,}" if c[2] else "") + (f" ({c[3]:.1f}%)" if c[3] is not None else ""), c is me)
+                  for c in rows]
+    return cells + [lab("General election")]
+
+
+def primary_cite(key):
+    p = primaries().get(key)
+    return f"CQ Guide 6th (2010) {p['page']}" if p else ""
+
+
 def race_matches():
     """sources/race-matches.yaml: {person: {refuse: {race: why}, confirm: {race: why}}}, kept by hand."""
     def make():
@@ -730,6 +777,13 @@ def problems(series):
         for r in (d or {}).get("races") or []:
             keys.setdefault(race_key(str(y), r), set()).update(fold(last_word(c["n"])) for c in r.get("cands") or []
                                                                 if c.get("n"))
+    for k, p in primaries().items():           # elections/primaries.yaml: a race the returns hold
+        if k not in keys:
+            yield "elections/primaries.yaml", f"{k}: no such race"
+        for rd in (p or {}).get("rounds") or []:
+            for c in rd.get("cands") or []:
+                if len(c) != 4 or (c[2] is not None and not isinstance(c[2], int)):
+                    yield "elections/primaries.yaml", f"{k}, {rd.get('label')}: {c}: [name, party, votes, share]"
     for n, v in race_matches().items():
         if n not in names:
             yield where, f"{n}: no person of that name"
@@ -940,8 +994,14 @@ def election_sentences(sur, given, sfx="", strict=False, givens=(), held=(), sea
             what = re.sub(r"^Incumbent\s+", "", fate.split(". ")[0].split(";")[0]).strip().rstrip(".")
             what = what[:1].upper() + what[1:]
             by = renominations_by().get(f"{key} | {i.get('n')}")   # by primary, where a source says so
+            rounds = primary_rounds(key, i.get("n") or "")
             if by and what == "Lost renomination":
-                what += f" in the {by['party']} primary"
+                what += f" in the {by['party']} " + ("runoff" if rounds and "runoff" in rounds[-1][0].lower() else "primary")
+            figs = ""
+            if rounds:                           # the round he lost, as CQ prints it
+                _, rows_, me_ = rounds[-1]
+                others_ = "; ".join(f"{esc(c[0])} ({c[1]}) {c[2]:,}" for c in rows_ if c is not me_ and c[2])
+                figs = (f": {me_[2]:,} votes ({me_[3]:.1f} percent)" if me_[2] else "") + (f"; {others_}" if others_ else "")
             where = STATE.get(r["st"], r["st"])
             seat_ = "Senate, " + where if r["ch"] == "s" else f"House, {r['st']}-{r['seat'] or 'AL'}"
             wiki = f"https://en.wikipedia.org/wiki/{y}_United_States_{'Senate' if r['ch'] == 's' else 'House_of_Representatives'}_elections"
@@ -951,7 +1011,9 @@ def election_sentences(sur, given, sfx="", strict=False, givens=(), held=(), sea
                 src += "; " + a("https://en.wikipedia.org/wiki/" + art.replace(" ", "_"), f"Wikipedia, {esc(art)}")
             cs = r.get("cands") or []
             tot = sum(c.get("v") or 0 for c in cs) + (r.get("scat") or 0)
-            res_.append(sent(d["date"], f"{what}: {seat_}, {y}.", [src],
+            if rounds:
+                src += "; " + primary_cite(key)
+            res_.append(sent(d["date"], f"{what}: {seat_}, {y}{figs}.", [src],
                              [ptr(f"{SITE}congress.html#{erid(y, r)}", f"Election {y}")], para=True, kind="election",
                              dates={d["date"]}))
             res_[-1]["row"] = {
@@ -965,7 +1027,8 @@ def election_sentences(sur, given, sfx="", strict=False, givens=(), held=(), sea
                                else "") for c in sorted(cs, key=lambda c: -(c.get("v") or 0))],
                 "cnames": [c["n"] for c in sorted(cs, key=lambda c: -(c.get("v") or 0))],
                 "src": src + ("; Check: matched by name only" if check else ""),
-                "key": key, "check": check, "n": i.get("n"), "renomination": True}
+                "key": key, "check": check, "n": i.get("n"), "renomination": True,
+                "pre": primary_cells(key, i.get("n") or "")}
         return res_
 
     def special_rows():
@@ -1113,8 +1176,9 @@ def election_sentences(sur, given, sfx="", strict=False, givens=(), held=(), sea
                 "src": (re.sub(r"[*]([^*]+)[*]", r"<i>\1</i>", esc(r["src"])) if r.get("src") else   # the Clerk prints none
                         a(url + (f"#page={r['page']}" if r.get("page") else ""),
                           f"Clerk {y}" + (f", p. {r['page']}" if r.get("page") else "")))
+                       + (f"; {primary_cite(key)}" if primary_rounds(key, me["n"]) else "")
                        + ("; Check: matched by name only" if check else ""),
-                "key": key, "check": check, "n": me["n"]}
+                "key": key, "check": check, "n": me["n"], "pre": primary_cells(key, me["n"])}
         out += ticket_rows(y, d, url, mine)
 
     out += special_rows()
@@ -1378,6 +1442,8 @@ def record_html(rows, rosters):
                      h.replace(esc(n), f'<a class="nm" href="{namelinks.url(SERIES_FOR_LINKS, idx[(r["date"][:4], r["key"], n)])}">'
                                        f'{esc(n)}</a>', 1)
                      for h, n in zip(cands, r["cnames"])]
+        if r.get("pre"):                         # the primaries first, then the November vote
+            cands = r["pre"] + list(cands)
         out.append((r["cong"] or 0, r["date"], hit[2] if hit else r.get("exec", ""), r["election"], r["seat"], r["result"],
                     f'<span class="lvcs">{"".join(cands)}</span>', r["src"]))
     for (c, ch), (day, st, p, seat) in seats.items():
@@ -1783,6 +1849,9 @@ table.lvt .lvs{min-width:3.2em}
 table.lvt .lvs2{padding-top:1.35em}
 @media (max-width:520px){table.lvt .lvcs{grid-template-columns:minmax(6em,1fr) auto}table.lvt .lvn{grid-column:1;grid-row:span 2}
   table.lvt .lvv,table.lvt .lvs{grid-column:2}table.lvt .lvs2{padding-top:0}}
+table.lvt .lvpl{grid-column:1/-1;font-family:var(--sans);font-size:.72em;letter-spacing:.04em;text-transform:uppercase;
+  color:var(--muted);padding-top:.25em}
+table.lvt .lvpl:first-child{padding-top:0}
 table.lvt .lvts{display:block}
 table.lvt .lvts,table.lvt .lvts a{color:var(--muted);font-size:.92em}
 table.lvt td a.lvp{font-size:.9em}

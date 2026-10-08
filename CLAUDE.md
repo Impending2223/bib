@@ -74,6 +74,7 @@ elections/pres-margins.csv  every contested race for presidential electors, 1824
 elections/facts.yaml      hand-kept facts: caucus labels, faithless electors, 1960 slates, the Alabama reckonings
 elections/cq.yaml         CQ's *Guide to U.S. Elections* compared with the Clerk's figures, by page (kept by hand)
 elections/renominations.yaml  renominations lost by primary, where a source says so (kept by hand)
+elections/primaries.yaml  Senate primaries from CQ's *Guide*, by race (kept by hand; CQ prints no House primaries)
 congress/changes.yaml     departures and successors during each Congress (generated)
 congress/specials.yaml    special elections during each Congress, 87th–93rd, with candidates (generated)
 congress/switches.yaml    members who changed party in office (kept by hand)
@@ -436,7 +437,10 @@ rules, the seat being the roster's at the next opening ("June 28, 1960 (special)
 (the race's fates, from Wikipedia's race tables) has a row of his own, "Lost renomination", with the November
 nominees, where the roster seated him from the State at the last opening; "in the Democratic primary" only where a
 source says so (`elections/renominations.yaml`, kept by hand: 35 races, from the incumbents' Wikipedia articles), never
-from a State's nominating law. The record table sets each candidate in three columns, the count and the
+from a State's nominating law. Where `elections/primaries.yaml` holds the race's primaries (CQ's figures and printed
+shares, by page), the row shows the rounds that name the person, each under its label, before the November vote
+("General election"), and cites CQ; a lost renomination gives the round he lost in the sentence ("in the Democratic
+runoff": Jordan, 1972). `check` fails on a key there that names no race. The record table sets each candidate in three columns, the count and the
 share right-aligned (under 520px the share goes under the count).
 
 Each entry: the Directory's description (or the Part III role), the pointers into the series, then the life as
