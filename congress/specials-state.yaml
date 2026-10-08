@@ -12,6 +12,7 @@
 #   checked: what was checked (sums to the printed total; county figures)   note: shown with the race, one line
 #   remarks: the reader's fuller notes (names as printed, vacancy, page finding), not shown
 #   differs_from_wikipedia: shares that differ by more than 0.2 points from specials.yaml (Wikipedia)
+#   differs_from_cq: where CQ's *Guide to U.S. Elections* (congress/specials-cq.yaml) prints other figures; not shown
 #   pending: [{cite, url, access}] where a race is not read yet: the source to check, shown "Check: <cite> (access)"
 #     with access from sources/states.yaml (bot-check, borrow, search only, paper)
 # ./bib check fails on a key not in specials.yaml, a round whose votes do not add to its printed total (with or
@@ -208,6 +209,7 @@
   verified: true
 1969-04-29-h-CA-27:
   cite: 'Cal. *Statement of Vote*, Nov. 3, 1970, p. 8'
+  differs_from_cq: 'CQ, p. 1286, prints six of the special primary''s candidates, each about 1 percent under this canvass (Goldwater 39,580, Van de Kamp 17,356, Potter 16,908, Lindsey 13,818, Schlessinger 12,278, McGee 8,532; all marked #); the run-off agrees.'
   source: California, Secretary of State, Statement of Vote, General Election, November 3, 1970, 'Special Elections in 1969-1970'
   where: SFPL bound volume 1970-72, p. 8
   url: https://archive.org/details/statementofvote197072cali/page/n57
@@ -244,6 +246,7 @@
   verified: true
 1969-09-30-h-MA-6:
   cite: 'Mass. *Election Statistics*, 1969 (P.D. 43), pp. 53–55'
+  differs_from_cq: 'CQ, p. 1286, gives Harrington 72,092: a transposition; the towns sum to 72,029.'
   source: The Commonwealth of Massachusetts, Election Statistics 1969 (Public Document No. 43), 'Number of Votes Received by Each Candidate at The Special Election, September 30, 1969, Representative in
     the 91st Congress (to fill vacancy), Sixth Congressional District'
   where: P.D. 43, 1969, p. 55
@@ -336,6 +339,7 @@
   verified: true
 1971-04-27-h-SC-1:
   cite: 'S.C. Election Commission, *Report*, 1969–73, p. 14'
+  differs_from_cq: 'CQ, p. 1291: Davis 38,012, Edwards 32,227, DeLee 7,965.'
   source: 'Report of the South Carolina State Election Commission, 1969-1973: State Board of Canvassers, minutes of May 6, 1971'
   where: Election Commission report 1969-73, printed p. 14 (PDF p. 18 of 595); the register's 'p. 15' is the next page (Sept. 23, 1971 meeting)
   url: https://scvotes.gov/wp-content/uploads/2022/08/Election_Report_1969-1973.pdf#page=18
@@ -355,6 +359,7 @@
   verified: true
 1971-05-25-h-MD-1:
   cite: '*Md. Manual*, 1971–72, p. 513'
+  differs_from_cq: 'CQ, p. 1291: Mills 31,165, Boyer 27,234.'
   source: Maryland Manual 1971-1972 (Archives of Maryland Online vol. 175), 'First Congressional District, Special Election, May 25, 1971'
   where: 1971-72 Manual, p. 513; reprinted 1973-74 Manual (vol. 176) p. 601, same figures
   url: https://msa.maryland.gov/megafile/msa/speccol/sc2900/sc2908/000001/000175/pdf/am175--513.pdf

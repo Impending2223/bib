@@ -441,6 +441,8 @@ notes in `tools/bib/specials.py`.
 ```
 tools/congress/make_specials.py   writes congress/specials.yaml from Wikipedia (needs the network)
 congress/specials-state.yaml      votes read from the States' own returns, by hand (laid over specials.yaml)
+congress/specials-cq.yaml         votes and shares from CQ's *Guide to U.S. Elections*, 6th ed. (2010), by hand (under the
+                                  States' returns, over Wikipedia's shares)
 tools/bib/specials.py             renders the blocks, the calendar's race tables, the roster notes' dates; checks
 ```
 
@@ -453,6 +455,10 @@ tools/bib/specials.py             renders the blocks, the calendar's race tables
   source to check, shown "Check: <cite> (bot-check)" with its access from `sources/states.yaml`.
 - Seats are written with a hyphen: MA-6, VT-AL (summaries, tables, map hover text).
 
+- Where the State's returns are not read, CQ's *Guide to U.S. Elections* (`congress/specials-cq.yaml`, header
+  there): votes and CQ's printed shares, cited by page; the State's returns stay the Check. CQ omits minor
+  candidates and its shares count them; `check` fails on votes and shares that cannot come from one total. Where
+  CQ and a State's returns differ, the State's stand (`differs_from_cq` in specials-state.yaml).
 - Otherwise, shares are Wikipedia's tables of each year's House specials ("<year> United States House of
   Representatives elections"): percentages, no votes. Texas, 1961 (Tower): votes by round, from
   Bartley and Graham, *Southern Elections*. The official returns are the States' canvasses.

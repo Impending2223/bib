@@ -15,7 +15,10 @@ STYLE:
  1. Votes and shares from the State's own returns where read (specials-state.yaml), by round: an open
     first round (a California special primary) before the deciding one; party primaries are not rounds.
     Each round is headed by its label and date only where there are two; one round needs neither.
-    Otherwise Wikipedia's shares, in percent, no votes; Texas, 1961, votes from Bartley and Graham.
+    Next, CQ's *Guide to U.S. Elections* (specials-cq.yaml): votes and its printed shares, which count the
+    candidates it does not print ("Its shares count 1.3 points for candidates it does not print"); a round
+    CQ dates by year only shows the year. Otherwise Wikipedia's shares, in percent, no votes; Texas, 1961,
+    votes from Bartley and Graham.
     Shares are of all the votes cast, scattering included. Margin: points between the first two.
  2. Pickup: the winner's party differs from the departed member's. A member re-elected to his own seat
     under another party (Watson, 1965) counts so, and the note says so.
@@ -45,27 +48,45 @@ def esc(t):
 
 
 def fmt_date(d):
+    if re.fullmatch(r"\d{4}", str(d)):
+        return str(d)                    # a year only (CQ's first rounds)
     y, m, dd = str(d).split("-")
     return f"{MONTHS[int(m) - 1]} {int(dd)}, {y}"
 
 
-def readings():
-    p = os.path.join(DIR, "specials-state.yaml")
+def readings(name="specials-state.yaml"):
+    p = os.path.join(DIR, name)
     return (store.load_yaml(p) or {}) if os.path.exists(p) else {}
+
+
+def cq_readings():
+    """congress/specials-cq.yaml: votes and printed shares from CQ's *Guide to U.S. Elections* (header there)."""
+    return readings("specials-cq.yaml")
 
 
 def load():
     """specials.yaml, with the votes read from the States' returns (specials-state.yaml) laid over it."""
     p = os.path.join(DIR, "specials.yaml")
     data = {int(k): v for k, v in (store.load_yaml(p) or {}).items()} if os.path.exists(p) else {}
-    R = readings()
+    R, Q = readings(), cq_readings()
     for xs in data.values():
         for x in xs:
             r = R.get(x["key"])
             if r and r.get("pending"):
                 x["pending"] = r["pending"]
             if not r or not r.get("rounds"):
-                continue
+                r = Q.get(x["key"])     # CQ's figures where the State's are not read
+                if r and r.get("unopposed"):
+                    x["wiki"] = x.get("cands")
+                    x["cands"] = [[r["unopposed"][0], r["unopposed"][1], None, "won"]]
+                    x["source"], x["state"], x["cq"], x["url"] = r["cite"], True, True, r.get("url")
+                    x["check"] = None
+                    if r.get("note"):
+                        x["note"] = r["note"]
+                    continue
+                if not r or not r.get("rounds"):
+                    continue
+                x["cq"] = True
             x["wiki"] = x.get("cands")
             x["rounds"] = [{"date": str(rd["date"]), "label": rd["label"],
                             "cands": rd["cands"] + ([["Scattering", "", rd["scattering"]]] if rd.get("scattering") else [])}
@@ -112,7 +133,10 @@ def cite_html(text, url=None, access=None):
 
 
 def surname(n):
-    n = re.sub(r",? (Jr|Sr)\.?$", "", re.sub(r"\s*\(.*?\)\s*", " ", n).strip())
+    """The surname, accents folded ('González' and CQ's 'Gonzalez' are one)."""
+    import unicodedata
+    n = re.sub(r",? (Jr|Sr|II|III|IV)\.?$", "", re.sub(r"\s*\(.*?\)\s*", " ", n).strip())
+    n = "".join(ch for ch in unicodedata.normalize("NFD", n) if not unicodedata.combining(ch))
     return n.split()[-1] if n.split() else n
 
 
@@ -123,9 +147,23 @@ def final(x):
     if x.get("rounds"):
         rows = x["rounds"][-1]["cands"]
         tot = sum(r[2] for r in rows)
-        return [(r[0], r[1], r[2], 100 * r[2] / tot if tot else None, r[0] == x["winner"] or surname(r[0]) == surname(x["winner"]))
+        return [(r[0], r[1], r[2], share(r, tot), r[0] == x["winner"] or surname(r[0]) == surname(x["winner"]))
                 for r in sorted(rows, key=lambda r: -r[2])]
     return [(r[0], r[1], None, r[2], len(r) > 3 and r[3] == "won") for r in x.get("cands") or []]
+
+
+def share(r, tot):
+    """A candidate's share: as printed where the source prints one (CQ's, of all the votes, its unprinted
+    candidates' included), else of the round's votes."""
+    if len(r) > 3 and isinstance(r[3], (int, float)):
+        return float(r[3])
+    return 100 * r[2] / tot if tot else None
+
+
+def unprinted(rd):
+    """Points of the round's vote that went to candidates the source does not print (CQ's shares short of 100)."""
+    sh = [c[3] for c in rd["cands"] if len(c) > 3 and isinstance(c[3], (int, float))]
+    return round(100 - sum(sh), 1) if sh and len(sh) == len(rd["cands"]) else 0
 
 
 def margin(rows):
@@ -134,8 +172,8 @@ def margin(rows):
 
 
 def dshare(rows):
-    d = max((r[3] for r in rows if r[1] == "D" and r[3] is not None), default=None)
-    r_ = max((r[3] for r in rows if r[1] == "R" and r[3] is not None), default=None)
+    d = max((r[3] for r in rows if str(r[1]).split(",")[0] == "D" and r[3] is not None), default=None)
+    r_ = max((r[3] for r in rows if str(r[1]).split(",")[0] == "R" and r[3] is not None), default=None)
     return 100 * d / (d + r_) if d and r_ else None
 
 
@@ -221,6 +259,9 @@ def note_cell(x):
         bits.append(esc(x["note"]))
     if x.get("state"):
         bits.append(f"Votes: {cite_html(x['source'], x.get('url'))}.")
+        left = unprinted(x["rounds"][-1]) if x.get("rounds") else 0
+        if left >= 0.5:
+            bits.append(f"Its shares count {left:.1f} points for candidates it does not print.")
     for c in x.get("pending") or []:
         bits.append(f"Check: {cite_html(c['cite'], c.get('url'), c.get('access'))}.")
     if x.get("check"):
@@ -245,7 +286,7 @@ def row(x, STATE, sw=None):
     if x.get("rounds"):
         for rd in x["rounds"]:
             tot = sum(r[2] for r in rd["cands"])
-            rows = [(r[0], r[1], r[2], 100 * r[2] / tot, rd is x["rounds"][-1] and surname(r[0]) == surname(x["winner"]))
+            rows = [(r[0], r[1], r[2], share(r, tot), rd is x["rounds"][-1] and surname(r[0]) == surname(x["winner"]))
                     for r in sorted(rd["cands"], key=lambda r: -r[2])]
             head = (f'<span class="eln">{esc(rd["label"].capitalize())}, {esc(fmt_date(rd["date"]))}</span>'
                     if len(x["rounds"]) > 1 else "")
@@ -255,7 +296,9 @@ def row(x, STATE, sw=None):
         rows = final(x)
         cells.append(cand_cell(rows, False))
     mg = margin(rows)
-    mcell = f"{mg:.1f} pts" if mg is not None else "Unopposed"
+    # one candidate printed with a share short of all (CQ's Cardiss Collins, 92.5): the margin is not known
+    partial = mg is None and len(rows) == 1 and rows[0][3] is not None and rows[0][3] < 99.95
+    mcell = f"{mg:.1f} pts" if mg is not None else ("—" if partial else "Unopposed")
     if sw is not None:
         mcell += f'<br><span class="es">{swing_words(sw)}</span>'
     wp = x["party"] if x["party"] in ("D", "R") else ""
@@ -388,6 +431,31 @@ def problems(series=None):
                 out.append((where, f"{rd['label']}: the votes add to {tot:,} (with scattering "
                                    f"{tot + (rd.get('scattering') or 0):,}), the printed total is {rd['total']:,}"))
         if not any(surname(c[0]) == surname(byk[k]["winner"]) for c in r["rounds"][-1]["cands"]):
+            out.append((where, f"the winner, {byk[k]['winner']}, is not in the last round"))
+    for k, r in cq_readings().items():
+        where = f"congress/specials-cq.yaml {k}"
+        if k not in byk:
+            out.append((where, "no such special in congress/specials.yaml"))
+            continue
+        if not r.get("cite"):
+            out.append((where, "no cite"))
+        if r.get("unopposed"):
+            if surname(r["unopposed"][0]) != surname(byk[k]["winner"]):
+                out.append((where, f"the winner, {byk[k]['winner']}, is not the unopposed candidate"))
+            continue
+        for rd in r.get("rounds") or []:
+            # one total behind every printed share: each candidate's votes over his share (rounded to 0.1) bound it
+            lo, hi = 0, float("inf")
+            printed = [c for c in rd["cands"] if len(c) > 3 and c[3]]
+            if printed and len(printed) < len(rd["cands"]):
+                out.append((where, f"{rd['label']}: shares printed for some candidates, not all"))
+            for c in printed:
+                lo, hi = max(lo, c[2] / ((c[3] + 0.05) / 100)), min(hi, c[2] / ((c[3] - 0.05) / 100) if c[3] > 0.05 else hi)
+            if lo > hi + 1:
+                out.append((where, f"{rd['label']}: the votes and printed shares cannot come from one total"))
+            if sum(c[2] for c in rd["cands"]) > hi + 1:
+                out.append((where, f"{rd['label']}: the votes add to more than the shares allow"))
+        if r.get("rounds") and not any(surname(c[0]) == surname(byk[k]["winner"]) for c in r["rounds"][-1]["cands"]):
             out.append((where, f"the winner, {byk[k]['winner']}, is not in the last round"))
     out += [("congress/specials.yaml", f"duplicate key {k}") for k, n in keys.items() if n > 1]
     for s in switches():
