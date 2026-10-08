@@ -1805,7 +1805,9 @@ def entry(series, linker, ptrs, p):
     pts = [p_ for p_ in series_lines(subs, cal) if p_ != shown]
     if pts:
         out.append('<p class="lvs">In the series: ' + "; ".join(pts) + ".</p>")
-    out.append("<h3>Life</h3>" + life_html(life))
+    lh = life_html(life)
+    if re.sub(r"<[^>]+>|\s", "", lh):         # no heading over an empty life
+        out.append("<h3>Life</h3>" + lh)
     out.append(record_html(record, rp))
 
     def section(title, items, empty="None in the series.", cls="lvb", fold=None):
@@ -1888,8 +1890,8 @@ ul.lvy .lvad{display:list-item;list-style:disc;margin:.35rem 0 0 1.1rem}
 ul.lvy b+.lvad{margin-top:0}
 ul.lvnb li{margin:.35rem 0}
 .lvn{font-size:.85rem;color:var(--muted)}
-details.lvz>summary{cursor:pointer;list-style:none}
-details.lvz>summary h3{display:inline}
+details.lvz>summary{cursor:pointer;list-style:none;border-top:1px solid var(--rule);margin-top:1.4rem;padding-top:.6rem}
+details.lvz>summary h3{display:inline;border-top:0;margin:0;padding-top:0}
 details.lvz>summary::before{content:"▸ ";color:var(--muted)}
 details.lvz[open]>summary::before{content:"▾ "}
 </style>

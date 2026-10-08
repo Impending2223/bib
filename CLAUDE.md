@@ -450,7 +450,7 @@ Ala. 1962, N.M., N.D., Hawaii) has a dashed rule after the last winner, who is a
 Each entry: the Directory's description (or the Part III role), the pointers into the series, then the life as
 running text, with the date in each sentence; then Publications; FRUS documents sent; Oral histories given, papers,
 and other primary sources; Secondary sources; and, folded, the FRUS and presidential documents that name the
-person. Empty sections are left out. The FRUS and presidential lists are bulleted, a little space between items
+person. Empty sections are left out, the Life too. The FRUS and presidential lists are bulleted, a little space between items
 (`lvnb`) and between the presidential documents under each year (`lvad`), and no more between years. "In the series"
 leaves out the pointer the role line already gives (and is left out where that was its only one). Rules (the STYLE notes in `tools/bib/lives.py`):
 
