@@ -330,10 +330,11 @@ notes/executive-brief.md      the brief for whoever adds to the roster, person o
 ./bib executive sources [all]         holder sources the line cannot link, by form ([all]: by holder)
 ```
 
-- Each office shows, muted and in italics, the holder before the term ("Before: Rusk, Dean, left Jan. 20, 1969")
-  and after it ("After: …, took office …"), as precisely as known (`seen`/`last` say "in office by", "last listed"),
-  each linked to the term table that holds him (Exec. 1965). Not for `many: true` offices; acting holders only
-  where no one else held the office.
+- Each office shows, muted (smaller, gray, not italic), the holder before the term ("Before: Rusk, Dean left
+  Jan. 20, 1969") and after it ("After: … took office …"), as precisely as known (`seen`/`last` say "in office by",
+  "last listed"), each linked to the term table that holds him (Exec. 1965). The appointed holder over an acting
+  one; before the term, an acting officer who held the office last follows him, marked "(acting)" (not where he is
+  the term's own first holder). Not for `many: true` offices.
 - Units nest by `under:` (the President at the top; the EOP; the departments in their order of creation;
   the independent agencies), offices within a unit by `under:` (Rusk, and the men under Rusk). Ranks in the
   terms of Art. II, § 2, cl. 2: heads of departments, principal officers (PAS), inferior officers (PA, HD),

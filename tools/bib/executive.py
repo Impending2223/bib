@@ -599,31 +599,47 @@ def office_refs(html, units, i, a, rid):
 def neighbor_html(o, u, i, a, b, ptr, rid, here, before):
     """The office's holder before the term (and when he left) or after it (and when the next took office), muted, his
     name linked to his name entry and the term linked to that term's table; an appointed holder over an acting one
-    who served between. None where the roster holds no one."""
+    who served between, and before the term the acting one too where he held the office last ("(acting)"). None
+    where the roster holds no one."""
     hs = [h for h in o.get("holders") or [] if not in_term(h, a, b)]
     pick = lambda xs: [x for x in xs if not x.get("acting")] or xs   # the appointed holder over an acting one
+    last = lambda xs: max(xs, key=lambda h: (hi(h.get("to")), lo(h["from"])), default=None)
     if before:
-        hs = pick([h for h in hs if lo(h["from"]) < lo(a)])
-        h = max(hs, key=lambda h: (hi(h.get("to")), lo(h["from"])), default=None)
-        terms = [j for j in range(i - 1, -1, -1) if h and in_term(h, *term_span(j))]
+        prior = [h for h in hs if lo(h["from"]) < lo(a)]
+        h = last(pick(prior))
+        shown = [h] if h else []
+        act = last(prior)
+        first = min((x for x in o.get("holders") or [] if in_term(x, a, b)), key=lambda x: lo(x["from"]), default=None)
+        if h and act is not h and act.get("acting") and not (first and first["name"] == act["name"]):
+            shown.append(act)                # the acting officer who held it last, after the appointed one
+        span = range(i - 1, -1, -1)
     else:
         hs = pick([h for h in hs if lo(h["from"]) >= lo(b)])
         h = min(hs, key=lambda h: (lo(h["from"]), hi(h.get("to"))), default=None)
-        terms = [j for j in range(i + 1, len(TERMS)) if h and in_term(h, *term_span(j))]
-    if not h:
+        shown = [h] if h else []
+        span = range(i + 1, len(TERMS))
+    if not shown:
         return None
-    name = esc(h["name"]) + (" (acting)" if h.get("acting") else "")
-    who = namelinks.a(ptr.series, h["name"], name) if ptr else name
-    if before:
-        when = (f"last listed {fmt(h['to'])}" if h.get("_last") else f"left {fmt(h['to'])}") if h.get("to") \
-            else "end not known"
-    else:
-        when = f"in office by {fmt(h['from'])}" if h.get("_seen") else f"took office {fmt(h['from'])}"
-    if terms:
-        j = terms[0]
-        tid = rid(j, u["unit"], o["id"])
-        when += f' (<a href="{"" if here else "executive.html"}#{tid}">Exec. {esc(TERMS[j][0][:4])}</a>)'
-    return f'<span class="exh exnb2"><span class="exnl">{"Before" if before else "After"}:</span> {who} <span class="exd">{when}.</span></span>'
+    parts = []
+    for h in shown:
+        name = esc(h["name"])
+        who = namelinks.a(ptr.series, h["name"], name) if ptr else name
+        if h.get("acting"):
+            who += " (acting)"
+        if before:
+            when = (f"last listed {fmt(h['to'])}" if h.get("_last") else f"left {fmt(h['to'])}") if h.get("to") \
+                else "end not known"
+        else:
+            when = f"in office by {fmt(h['from'])}" if h.get("_seen") else f"took office {fmt(h['from'])}"
+        terms = [j for j in span if in_term(h, *term_span(j))]
+        if terms:
+            j = terms[0]
+            tid = rid(j, u["unit"], o["id"])
+            when += f' (<a href="{"" if here else "executive.html"}#{tid}">Exec. {esc(TERMS[j][0][:4])}</a>)'
+        parts.append((who, when))
+    return (f'<span class="exh exnb2"><span class="exnl">{"Before" if before else "After"}:</span> '
+            + " ".join(f'{w} <span class="exd">{t}{"." if k == len(parts) - 1 else ";"}</span>'
+                       for k, (w, t) in enumerate(parts)) + '</span>')
 
 
 def block(i, units, ptr, href, rid, here=False):
@@ -758,10 +774,9 @@ details.exu tr.exlr td{padding-top:0}
 .ex .exh{display:block;margin-bottom:.3rem}
 .ex .exh>b{font-weight:600}
 .ex .exh.exin{margin-left:1rem}
-.ex .exh.exnb2{font-size:.74rem;color:var(--muted);font-style:italic}
-.ex .exh.exnb2 b,.ex .exh.exnb2 .exd{font-style:normal}
+.ex .exh.exnb2{font-size:.74rem;color:var(--muted)}
 .ex .exh.exnb2 .exd a{color:inherit;text-decoration-color:var(--rule)}
-.ex .exnl{font-style:normal;font-size:.66rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+.ex .exnl{font-size:.66rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
 .ex .exd{display:block;font-size:.74rem;color:var(--muted);line-height:1.35}
 .ex .exs{display:block;font-size:.68rem;color:var(--muted);line-height:1.35;margin-top:.1rem}
 .ex .exs a{color:inherit;text-decoration-color:var(--rule)}
