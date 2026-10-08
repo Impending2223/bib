@@ -607,10 +607,12 @@ races:
   seat: 2
   special: false
   cands:
-  - {n: Robert Lee Knous, party: Democrat, p: D, v: 331752, w: false}
+  - {n: Robert Lee Knous, party: Democrat, p: D, v: 334854, w: false}
   - {n: Gordon Allott, party: Republican, p: R, v: 389428, w: true}
   - {n: William R. Casey, party: Independent, p: I, v: 3351, w: false}
-  how: read by eye
+  how: the State's canvass
+  src: Colo., *Abstract of Votes Cast*, 1960, p. 10 (Knous, the sum of its counties)
+  clerk: Knous 331,752, Allott 389,428, Casey 3,351
   inc:
   - {n: Gordon Allott, p: R, result: Incumbent re-elected.}
   seats: 1
@@ -6224,8 +6226,10 @@ president:
     cast: {D: 8}
   - st: WY
     ev: 3
+    src: Wyo., *Official Directory and 1960 Election Returns*, 1961, p. 53
+    clerk: Republican 76,551
     slates:
     - {party: Democratic, v: 63331, k: D}
-    - {party: Republican, v: 76551, k: R}
-    how: read by eye
+    - {party: Republican, v: 77451, k: R}
+    how: Wyo., *Official Directory and 1960 Election Returns*, 1961, p. 53
     cast: {R: 3}

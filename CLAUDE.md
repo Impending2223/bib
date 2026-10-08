@@ -72,6 +72,7 @@ elections/<YYYY>.yaml     President, House and Senate returns, 1956–74 (genera
 elections/readings/<YYYY>.yaml  figures read by eye from the Clerk's pages, with a note on each ruling
 elections/pres-margins.csv  every contested race for presidential electors, 1824–2024, by constituency (generated)
 elections/facts.yaml      hand-kept facts: caucus labels, faithless electors, 1960 slates, the Alabama reckonings
+elections/cq.yaml         CQ's *Guide to U.S. Elections* compared with the Clerk's figures, by page (kept by hand)
 congress/changes.yaml     departures and successors during each Congress (generated)
 congress/specials.yaml    special elections during each Congress, 87th–93rd, with candidates (generated)
 congress/switches.yaml    members who changed party in office (kept by hand)
@@ -377,8 +378,19 @@ and FRUS documents go by his suffix, and a FRUS document naming the father bare 
 year) is the son's. To keep two roster spellings of one man together, write them alike.
 
 The Directory entry (`bd_entry`): the same surname and given names, a suffix that agrees, and an entry whose latest
-year is 1953 or later; a member may match by the middle name he went by (Thad Cochran); anyone else only where the
-entry also names one of his offices.
+year is 1953 or later, of a man not dead before 1953 or before the series first shows the person; anyone may match by
+the middle name he went by (Thad Cochran, Brooks Hays); anyone not in the rosters only where the entry also names one
+of his offices or Part III roles ("Governor of Arkansas"; the Presidency by "President of the United States"). Of
+several, the one whose service spans the person's first seat, then the fullest agreement of given names.
+
+Races (`election_sentences`): a candidate whose name agrees (a short form of the first name counts: Dick Clark) is
+taken, and refused only on certain grounds: the race is after his death; the rosters seat another man of the name
+from it, or seated one as its incumbent; the Directory's winner (`bd_winner`: its member of the name who sat for the
+State and was elected to that Congress) is another man; the Directory's full given names disagree with the returns'
+(George B. Murphy is not George Lloyd); he won while in executive office when the Congress met (Art. I, § 6). Nothing
+is refused by State or party. A race nothing confirms (a roster seat from it, his own Directory entry as its winner
+or naming his candidacy that year) shows "Check: matched by name only". `sources/race-matches.yaml` refuses or
+confirms a race by hand, with the reason; `check` fails on a person or race there that does not answer.
 
 Each entry: the Directory's description (or the Part III role), the pointers into the series, then the life as
 running text, with the date in each sentence; then Publications; FRUS documents sent; Oral histories given, papers,
@@ -407,6 +419,7 @@ tools/lives/make_pocom.py     sources/pocom.json: POCOM's years of birth and dea
                               State post, for the persons POCOM holds (python3 tools/lives/make_pocom.py POCOM_DIR);
                               notes/pocom-matches.md, the matches made by name, with the evidence, and those refused
 sources/pocom-matches.yaml    kept by hand: overrides to the name matches (Name: pocom-id, or Name: null)
+sources/race-matches.yaml     kept by hand: races refused or confirmed for a person, each with its reason
 ```
 
 POCOM in a life: the years of birth and death where the Directory gives none; "Career Foreign Service officer" or
@@ -429,6 +442,8 @@ notes in `tools/bib/specials.py`.
 ```
 tools/congress/make_specials.py   writes congress/specials.yaml from Wikipedia (needs the network)
 congress/specials-state.yaml      votes read from the States' own returns, by hand (laid over specials.yaml)
+congress/specials-cq.yaml         votes and shares from CQ's *Guide to U.S. Elections*, 6th ed. (2010), by hand (under the
+                                  States' returns, over Wikipedia's shares)
 tools/bib/specials.py             renders the blocks, the calendar's race tables, the roster notes' dates; checks
 ```
 
@@ -440,7 +455,14 @@ tools/bib/specials.py             renders the blocks, the calendar's race tables
   `*title*` in italics, date, page; linked to the copy read. A race not yet read carries `pending`, the
   source to check, shown "Check: <cite> (bot-check)" with its access from `sources/states.yaml`.
 - Seats are written with a hyphen: MA-6, VT-AL (summaries, tables, map hover text).
+- Senate specials: Texas 1961 from its own page; Vermont (Jan. 7, 1972) and Georgia (Nov. 7, 1972) from
+  `SENATE_HAND` in `make_specials.py`, their votes CQ's. Georgia's was held with the November election, but the
+  Clerk prints the regular race only, so it carries `not_in_clerk` and shows with the specials between elections.
 
+- Where the State's returns are not read, CQ's *Guide to U.S. Elections* (`congress/specials-cq.yaml`, header
+  there): votes and CQ's printed shares, cited by page; the State's returns stay the Check. CQ omits minor
+  candidates and its shares count them; `check` fails on votes and shares that cannot come from one total. Where
+  CQ and a State's returns differ, the State's stand (`differs_from_cq` in specials-state.yaml).
 - Otherwise, shares are Wikipedia's tables of each year's House specials ("<year> United States House of
   Representatives elections"): percentages, no votes. Texas, 1961 (Tower): votes by round, from
   Bartley and Graham, *Southern Elections*. The official returns are the States' canvasses.
@@ -483,7 +505,12 @@ tools/bib/elections.py              renders the blocks and checks the data (STYL
   does not settle is read by eye into `elections/readings/<year>.yaml`. Where a race page
   and its recapitulation differ, the figure the Clerk's totals add up with is used, and the
   race's `note` says so. Where the Clerk and Wikipedia disagree after a reading, the Clerk
-  stands (`wikipedia_differs`), names included.
+  stands (`wikipedia_differs`), names included, unless the State's own canvass, read off its page, says otherwise:
+  then the State's figure stands, the reading carrying `source` (the State's cite) and `clerk` (the Clerk's figures),
+  both shown in the race's note (Md. 1958, Colo. 1960, Fla. and Mo. 1962; President: Wyo. 1960, Cal., Colo., Ga.
+  1968, Cal. 1972). A later State compilation is not a canvass. CQ's *Guide to U.S. Elections* (6th ed., 2010) is
+  compared in `elections/cq.yaml`; it fills a race only where the Clerk prints no vote (`source` without `clerk`:
+  Pa.-6, 1964).
 - Reading keys: `h NY 9` (district; 0 at large), `s MD 1` (Senate class), `h NM 0-1` (an
   at-large position), `s OR 2 special` (a special held with a regular race for the same seat).
   A special Wikipedia lists that the Clerk's November volume does not print goes under

@@ -192,6 +192,21 @@ def senate(cache):
                        '*Southern Elections: County and Precinct Data, 1950–1972*, 1978)'}]
 
 
+# Senate specials the Wikipedia pages above do not give with figures: the facts from congress/changes.yaml; the
+# votes are CQ's (congress/specials-cq.yaml). Georgia's was held with the November election, but the Clerk's volume
+# prints the regular race only (elections/readings/1972.yaml, not_in_volume): not_in_clerk shows it with the
+# specials between elections.
+SENATE_HAND = [
+    {'cong': 92, 'ch': 's', 'st': 'VT', 'seat': 1, 'date': '1972-01-07', 'out': 'Robert Stafford', 'out_party': 'R',
+     'why': "Appointed September 16, 1971, on Winston L. Prouty's death (September 10, 1971); won the special election.",
+     'winner': 'Robert Stafford', 'party': 'R', 'source': 'Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)'},
+    {'cong': 92, 'ch': 's', 'st': 'GA', 'seat': 2, 'date': '1972-11-07', 'out': 'David H. Gambrell', 'out_party': 'D',
+     'why': "Appointed February 1, 1971, on Richard B. Russell's death (January 21, 1971).",
+     'winner': 'Sam Nunn', 'party': 'D', 'not_in_clerk': True,
+     'source': 'Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)'},
+]
+
+
 # ---------------------------------------------------------------- all
 
 def main():
@@ -243,9 +258,11 @@ def main():
         if rec['date'] in GENERAL:
             rec['with_general'] = True
         out.setdefault(cong, []).append(rec)
-    for rec in senate(cache):
+    for rec in senate(cache) + [dict(r) for r in SENATE_HAND]:
         cong = rec.pop('cong')
-        rec = {'key': f"{rec['date']}-s-{rec['st']}-{rec['seat']}", **rec, 'flip': True}
+        rec = {'key': f"{rec['date']}-s-{rec['st']}-{rec['seat']}", **rec, 'flip': rec['party'] != rec['out_party']}
+        if rec['date'] in GENERAL:
+            rec['with_general'] = True
         out.setdefault(cong, []).insert(0, rec)
     for cong in out:   # by date, the order the file promises
         out[cong].sort(key=lambda x: x['date'])

@@ -27,6 +27,13 @@ STATE = dict(AL="Alabama", AK="Alaska", AZ="Arizona", AR="Arkansas", CA="Califor
              OK="Oklahoma", OR="Oregon", PA="Pennsylvania", RI="Rhode Island", SC="South Carolina", SD="South Dakota",
              TN="Tennessee", TX="Texas", UT="Utah", VT="Vermont", VA="Virginia", WA="Washington", WV="West Virginia",
              WI="Wisconsin", WY="Wyoming")
+# The States as the Bluebook abbreviates them (Table T10), for citations and the Lives' tables.
+BLUEBOOK = dict(AL="Ala.", AK="Alaska", AZ="Ariz.", AR="Ark.", CA="Cal.", CO="Colo.", CT="Conn.", DE="Del.",
+                DC="D.C.", FL="Fla.", GA="Ga.", HI="Haw.", ID="Idaho", IL="Ill.", IN="Ind.", IA="Iowa", KS="Kan.",
+                KY="Ky.", LA="La.", ME="Me.", MD="Md.", MA="Mass.", MI="Mich.", MN="Minn.", MS="Miss.", MO="Mo.",
+                MT="Mont.", NE="Neb.", NV="Nev.", NH="N.H.", NJ="N.J.", NM="N.M.", NY="N.Y.", NC="N.C.", ND="N.D.",
+                OH="Ohio", OK="Okla.", OR="Or.", PA="Pa.", RI="R.I.", SC="S.C.", SD="S.D.", TN="Tenn.", TX="Tex.",
+                UT="Utah", VT="Vt.", VA="Va.", WA="Wash.", WV="W. Va.", WI="Wis.", WY="Wyo.")
 SHORT = {"samuel": ["sam"], "william": ["bill", "will"], "robert": ["bob"], "thomas": ["tom"], "edward": ["ted", "ed"],
          "james": ["jim"], "michael": ["mike"], "charles": ["charlie"], "richard": ["dick"], "joseph": ["joe"],
          "john": ["jack"], "daniel": ["dan"], "eugene": ["gene"], "frederick": ["fred"], "albert": ["al"],

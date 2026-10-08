@@ -32,10 +32,24 @@ def forms(p):
         g = [w for w in g if not re.fullmatch(r"(Jr|Sr|II|III|IV)\.?", w)]
         if g:
             firsts.add(g[0].rstrip("."))
+            if len(g) > 1 and len(g[0].rstrip(".")) == 1 and len(g[1].rstrip(".")) > 1:
+                firsts.add(g[1])         # the middle name he went by: 'M. Caldwell Butler', 'Caldwell Butler'
             for w in g[1:]:
                 mids.add(re.escape(w) if w.endswith(".") else re.escape(w) + r"|" + re.escape(w[0]) + r"\.")
         firsts.update(nick)
+    for n in p["names"]:
+        g = [w for w in re.sub(r"\([^)]*\)", "", split_name(n)[1]).replace(",", " ").split()
+             if not re.fullmatch(r"(Jr|Sr|II|III|IV)\.?", w)]
+        # the Congress rosters' 'C. W. Bill': a full word after the initials is the name he went by
+        if len(g) > 1 and all(len(w.rstrip(".")) == 1 for w in g[:-1]) and len(g[-1]) > 1 and not g[-1].endswith("."):
+            firsts.add(g[-1])
     first = "|".join(re.escape(f) for f in sorted(firsts) if len(f) > 1)
+    inits = sorted({r"\s*".join(re.escape(w) for w in g) for g in
+                    ([w for w in re.sub(r"\([^)]*\)", "", split_name(n)[1]).replace(",", " ").split()
+                      if not re.fullmatch(r"(Jr|Sr|II|III|IV)\.?", w)] for n in p["names"])
+                    if len(g) > 1 and all(re.fullmatch(r"[A-Z]\.", w) for w in g)})
+    if inits:                            # initials alone, all of them: 'C. D. Jackson', 'C.D. Jackson'
+        return rf"\b(?:{'|'.join(inits)}{'|' + first if first else ''})\s+{re.escape(p['sur'])}\b"
     if not first:
         return None
     mid = r"(?:\s+(?:" + "|".join(sorted(mids)) + r"))*" if mids else ""
@@ -153,6 +167,8 @@ def main():
                   and not any(re.search(w, office[q["name"]]) for q in rivals)]
         if mine_t:
             pats.append(rf"\b(?:{'|'.join(mine_t)})\s+{re.escape(p['sur'])}\b")
+        if not any(pats):
+            continue                     # nothing to look for: an empty pattern would match every document
         rx = re.compile("|".join(x for x in pats if x))
         own = {store.fold(f"{split_name(n)[1].split()[0]} {p['sur']}") for n in p["names"] if split_name(n)[1]}
         hits = [i for i in cand if rx.search(texts[i]) and not any(o and o in store.fold(rows[i]["who"]) for o in own)]

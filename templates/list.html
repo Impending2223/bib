@@ -135,6 +135,7 @@ ol.e>li:last-child{border-bottom:0}
 
   // build nested outline (contents + drawer)
   function buildTree(ol){
+    if(!ol) return;                  // a page without a contents list (the Lives)
     var stack=[{level:1,el:ol}];
     heads.forEach(function(h){
       var L=lvl(h);
@@ -159,6 +160,7 @@ ol.e>li:last-child{border-bottom:0}
   function measure(){tops=heads.map(function(h){return h.getBoundingClientRect().top+window.scrollY;});}
   measure();
   window.addEventListener('resize',function(){measure();place();});
+  document.addEventListener('toggle',function(){measure();place();},true);   // a folded list opened or closed
   window.addEventListener('load',function(){measure();place();});
   if(document.fonts&&document.fonts.ready) document.fonts.ready.then(function(){measure();place();});
 
