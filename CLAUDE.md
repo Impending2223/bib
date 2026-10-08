@@ -403,9 +403,21 @@ the middle name he went by (Thad Cochran, Brooks Hays); anyone not in the roster
 of his offices or Part III roles ("Governor of Arkansas"; the Presidency by "President of the United States"). Of
 several, the one whose service spans the person's first seat, then the fullest agreement of given names.
 
-Races (`election_sentences`): a candidate whose name agrees (a short form of the first name counts: Dick Clark) is
-taken, and refused only on certain grounds: the race is after his death; the rosters seat another man of the name
-from it, or seated one as its incumbent; the Directory's winner (`bd_winner`: its member of the name who sat for the
+Races (`election_sentences`): a candidate whose name agrees is taken. The surname may run to several words (Van Pelt,
+St Germain, du Pont / DuPont). The first given name agrees as written, as a short form (Dick Clark; `SHORT` in
+`tools/bib/congress.py`), as the rosters' own short form ("Daniel, Wilbur C. (Dan)": Dan Daniel), as the name the
+series writes him by after an initial ("Sanders, H. Barefoot": Barefoot Sanders), or as the first initial with a
+further given name spelled out where his full given names spell it (H. Carl Andersen: Herman Carl; J. Glenn Beall).
+Initials alone (O. C. Fisher) and a further name alone (Dale Alford, Melvin Price) are not taken by name: "J. C.
+Carter" is not Jimmy Carter, "Andrew Young" not John A. Young. The seat takes those: the winner of the surname whom
+the roster seats from the race at the Congress's opening is the person, whatever the returns make of his given names
+(Tip O'Neill, Mo Udall, Pete McCloskey); so is the incumbent of the surname the roster seated at the last opening,
+where his first name agrees. For the 86th Congress, which has no roster: the Senator of the class at the 87th's
+opening; the Representative the seat's 1960 race names as incumbent by the same name. A race the seat gives is
+confirmed and refused only by his death or an executive office. Otherwise a race is
+refused only on certain grounds: the race is after his death; the rosters seat another man of the name
+from it, or seated one as its incumbent (by his written or full given names: J. Glenn Beall, 1964, is James G., not
+John G. Jr.); the Directory's winner (`bd_winner`: its member of the name who sat for the
 State and was elected to that Congress) is another man; the Directory's full given names disagree with the returns'
 (George B. Murphy is not George Lloyd); he won while in executive office when the Congress met (Art. I, § 6). Nothing
 is refused by State or party. A race nothing confirms (a roster seat from it, his own Directory entry as its winner
