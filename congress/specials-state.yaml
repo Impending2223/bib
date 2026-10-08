@@ -17,6 +17,25 @@
 #     with access from sources/states.yaml (bot-check, borrow, search only, paper)
 # ./bib check fails on a key not in specials.yaml, a round whose votes do not add to its printed total (with or
 # without the scattering), or a winner missing from the last round.
+1960-06-28-s-ND-1:
+  cite: 'N.D. *Official Abstract*, June 28, 1960, p. 3'
+  source: North Dakota, State Board of Canvassers, Statement of the Finding and Official Abstract of Consolidated Ballot
+    Votes Cast at the Special State Wide Election Held June 28, 1960
+  where: p. 3 (one page; the Secretary of State's PDF)
+  url: https://www.sos.nd.gov/sites/default/files/documents/elections/election-results-pdfs/1960-06-28-special.pdf
+  rounds:
+  - date: '1960-06-28'
+    label: special election
+    cands:
+    - [Quentin Burdick, D, 104593]
+    - [John E. Davis, R, 103475]
+    - [Eugene Van Der Hoeven, Individual, 1337]
+    - [Clarence Haggard, Individual, 944]
+  checked: 'The Statement of the Finding and the abstract''s Total row agree (103,475; 104,593; 944; 1,337); page image
+    read Oct. 8, 2026. Total Votes Cast, 218,745, counts ballots, not votes for Senator (the four sum to 210,349).'
+  remarks: 'For the residue of William Langer''s term, to Jan. 3, 1965. The Statement prints the late Senator''s name
+    "William Danger" (a misprint).'
+  verified: true
 1963-01-22-h-CA-1:
   cite: 'Cal. *Statement of Vote*, Nov. 3, 1964, p. 28'
   source: California, Secretary of State, Statement of Vote, General Election, November 3, 1964, 'Special Elections in 1963 and 1964'

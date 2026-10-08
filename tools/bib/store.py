@@ -37,7 +37,49 @@ class DataError(SystemExit):
     pass
 
 
+_PARSED = {}                             # path -> (mtime, size, pickled data): each file parsed once a run
+CACHE_DIR = os.path.join(ROOT, ".cache", "yaml")   # and kept between runs, by path, mtime and size (git-ignored)
+
+
 def load_yaml(path):
+    """A YAML file's data, parsed once: the parse is kept in memory for the run and on disk (.cache/yaml) for later
+    runs, keyed by the file's path, modification time and size. Each caller gets its own copy (callers change
+    what they load)."""
+    import pickle
+    try:
+        st = os.stat(path)
+    except OSError:
+        st = None
+    if st is not None:
+        sig = (st.st_mtime_ns, st.st_size)
+        hit = _PARSED.get(path)
+        if hit and hit[0] == sig:
+            return pickle.loads(hit[1])
+        disk = os.path.join(CACHE_DIR, hashlib.sha1(os.path.abspath(path).encode()).hexdigest() + ".pickle")
+        try:
+            with open(disk, "rb") as f:
+                dsig, blob = pickle.load(f)
+            if dsig == sig:
+                _PARSED[path] = (sig, blob)
+                return pickle.loads(blob)
+        except (OSError, EOFError, pickle.UnpicklingError, ValueError):
+            pass
+    data = _parse_yaml(path)
+    if st is not None:
+        blob = pickle.dumps(data, protocol=pickle.HIGHEST_PROTOCOL)
+        _PARSED[path] = (sig, blob)
+        try:
+            os.makedirs(CACHE_DIR, exist_ok=True)
+            tmp = disk + f".{os.getpid()}.tmp"
+            with open(tmp, "wb") as f:
+                pickle.dump((sig, blob), f, protocol=pickle.HIGHEST_PROTOCOL)
+            os.replace(tmp, disk)
+        except OSError:
+            pass
+    return data
+
+
+def _parse_yaml(path):
     with open(path, encoding="utf-8") as f:
         text = f.read()
     if "\n<<<<<<< " in "\n" + text:

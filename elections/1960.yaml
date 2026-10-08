@@ -4051,6 +4051,17 @@ races:
 - ch: h
   st: OH
   seat: 6
+  special: true
+  cands:
+  - {n: Gladys E. Davis, party: Democrat, p: D, v: 61713, w: false}
+  - {n: Ward Miller, party: Republican, p: R, v: 76520, w: true}
+  how: read by eye
+  inc:
+  - {n: James G. Polk, p: D, result: 'Incumbent died April 28, 1959. New member <!--elected-->elected November 8, 1960. Republican gain. Winner was not a candidate the same day to the next term; see below.'}
+  seats: 1
+- ch: h
+  st: OH
+  seat: 6
   special: false
   cands:
   - {n: Bill Harsha, party: Republican, p: R, v: 80124, w: true}
@@ -4510,7 +4521,7 @@ races:
   seat: 9
   special: false
   cands:
-  - {n: Howard W. Halsey, party: Democrat, p: D, v: 64659, w: false}
+  - {n: Howard H. Halsey, party: Democrat, p: D, v: 64659, w: false}
   - {n: Paul B. Dague, party: Republican, p: R, v: 128917, w: true}
   how: read by eye
   inc:
@@ -4867,9 +4878,9 @@ races:
   seat: 6
   special: false
   cands:
-  - {n: John L. McMillan, party: Democrat, p: D, v: 49785, w: true}
-  how: sum to the total
-  page: 42
+  - {n: John L. McMillan, party: Democrat, p: D, v: 49780, w: true}
+  scat: 5
+  how: read by eye
   inc:
   - {n: John L. McMillan, p: D, result: Incumbent re-elected.}
   seats: 1
@@ -5484,6 +5495,17 @@ races:
   page: 47
   inc:
   - {n: Jack Westland, p: R, result: Incumbent re-elected.}
+  seats: 1
+- ch: h
+  st: WA
+  seat: 3
+  special: true
+  cands:
+  - {n: Julia Butler Hansen, party: Democrat, p: D, v: 71416, w: true}
+  - {n: Dale M. Nordquist, party: Republican, p: R, v: 63058, w: false}
+  how: read by eye
+  inc:
+  - {n: Russell V. Mack, p: R, result: 'Incumbent died March 28, 1960. New member elected November 8, 1960. Democratic gain. Winner was also elected to the full term; see below.'}
   seats: 1
 - ch: h
   st: WA

@@ -551,11 +551,18 @@ def term_index(day):
     return None
 
 
-SECTIONS = [(0, None), (30, "The executive departments"), (500, "Independent establishments and agencies")]
+SECTIONS = [(0, None), (30, "Executive departments"), (500, "Agencies and commissions")]
+SECTIONS_PRESIDENT = "President and Executive Office"
+SHORT_SECTION = {"president": "President", "departments": "Departments", "agencies": "Agencies"}
+
+
+def short_unit(name):
+    """A unit's name for the scroll tool: 'Department of the Treasury' → 'Treasury'."""
+    return re.sub(r"^Department of (the )?", "", name)
 
 
 def section_of(u, units):
-    """The top-level unit's place: the President and his Office; the departments; the independent agencies."""
+    """The top-level unit's place: the President and his Office; the departments; the agencies and commissions."""
     while u.get("under") and u["under"] != "president" and u["under"] in units:
         u = units[u["under"]]
     if u["unit"] == "president":
@@ -738,7 +745,13 @@ def block(i, units, ptr, href, rid, here=False):
         if not rows and not ulaw:
             continue
         sec = section_of(u, units)
-        if sec != section and sec:
+        tid = f"t{day[:4]}{day[5:7]}"
+        if here and (sec != section or not parts):
+            # on the Executive page, headings the outline and the scroll tool stop at: the three parts, each top unit
+            sid = {None: "president", SECTIONS[1][1]: "departments"}.get(sec, "agencies")
+            parts.append(f'<h3 id="{tid}-{sid}" class="exsech" data-short="{esc(SHORT_SECTION[sid])}">'
+                         f'{esc(sec or SECTIONS_PRESIDENT)}</h3>')
+        elif sec != section and sec:
             parts.append(f'<p class="exsec">{esc(sec)}</p>')
         section = sec
         unote = f'<p class="cgn exun">{office_refs(to_html(u["n"]), units, i, a, rid)}</p>' if u.get("n") else ""
@@ -747,7 +760,9 @@ def block(i, units, ptr, href, rid, here=False):
         who = f' <span class="cgsm">{esc(", ".join(dict.fromkeys(heads)))}</span>' if heads and u["unit"] != "president" else ""
         path = "".join(f'<span class="cgsm">{esc(name_at(p, a))} › </span>' for p in path_of(u, units))
         parts.append(f'<details class="cgr exu" id="{rid(i, u["unit"], "")}">'
-                     f'<summary>{path}{esc(name_at(u, a))}{who}</summary>'
+                     + (f'<summary><h4 id="{rid(i, u["unit"], "")}-h" class="exuh" data-short="{esc(short_unit(name_at(u, a)))}">'
+                        f'{esc(name_at(u, a))}</h4>{who}</summary>' if here and depth <= 1 and sec != SECTIONS[2][1] else
+                        f'<summary>{path}{esc(name_at(u, a))}{who}</summary>')
                      + ('<ul class="exlaw exul">' + "".join(f"<li>{x}</li>" for x in ulaw) + "</ul>" if ulaw else "") + unote
                      + ('<table><colgroup><col class="exc1"><col class="exc2"><col class="exc3"></colgroup>'
                         '<thead><tr><th>Office</th><th>Holders during the term</th><th>In the series</th></tr></thead>'
@@ -769,6 +784,9 @@ def block(i, units, ptr, href, rid, here=False):
 
 CSS = """<style>
 /* The Executive Branch roster (tools/bib/executive.py). The shared block and table rules: templates/roster.css. */
+.ex h3.exsech{border-top:0;margin:1.4rem 0 .2rem;padding-top:.6rem;text-align:center;font-size:.86rem;font-weight:600;
+  font-variant-caps:all-small-caps;letter-spacing:.06em}
+.ex summary h4.exuh{display:inline;font:inherit;color:inherit;margin:0;padding:0;border:0}
 .ex .exsec{font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:1rem 0 .2rem}
 details.exu table{font-size:.82rem;margin:.2rem 0 .8rem}
 details.exu col.exc1{width:28%}details.exu col.exc2{width:auto}details.exu col.exc3{width:19%}
@@ -877,12 +895,12 @@ def page(series, linker, template):
     main = ["<h1>The Executive Branch, 1953–1974</h1>",
             '<p class="lede">Every office of the Executive Branch held in the period, from the President and his staff '
             'through the departments, their principal and inferior officers, the military chiefs and commanders, the '
-            'independent agencies, and the chiefs of mission abroad; the law that establishes each; and everyone who '
+            'agencies and commissions, and the chiefs of mission abroad; the law that establishes each; and everyone who '
             f'held it, Jan. 20, 1953, to Aug. 31, 1974. {n_off} offices, {n_h} tenures.</p>',
             '<p class="logic">A roster at each inauguration, and at the successions of Nov. 22, 1963, and Aug. 9, 1974, '
             'with every change during the term. Units in the order of the Congressional Directory: the President, the '
-            'Vice President, the Executive Office, the departments in the order of their creation, the independent '
-            'agencies. Within a unit, each office under the one it reports to.</p>',
+            'Vice President, the Executive Office, the departments in the order of their creation, the agencies '
+            'and commissions. Within a unit, each office under the one it reports to.</p>',
             '<p class="logic">Rank, in the terms of Article II, § 2, cl. 2: heads of departments; principal officers, '
             'appointed by the President with the advice and consent of the Senate (PAS); inferior officers, whose '
             'appointment Congress has vested in the President alone (PA) or the heads of departments (HD); employees, '
@@ -899,7 +917,7 @@ def page(series, linker, template):
             'verify.</p>',
             '<p class="logic">Pointers: the list and section where the holder appears in Part III or as the subject of a '
             'memoir or biography, and the calendar entries that name the holder.</p>',
-            '<nav class="toc" aria-label="Contents">\n<h3 id="contents" style="border-top:0;margin-top:1.5rem" data-short="Contents">Contents</h3>\n<ol id="tocList"></ol>\n</nav>']
+            '<nav class="toc" aria-label="Contents">\n<h3 id="contents" style="border-top:0;margin-top:1.5rem" data-short="Contents">Contents</h3>\n<ol id="tocList" data-depth="3"></ol>\n</nav>']
     rid = rid_for()
     for i, (day, pres, label) in enumerate(TERMS):
         a, b = term_span(i)

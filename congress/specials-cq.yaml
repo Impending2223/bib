@@ -4,7 +4,8 @@
 # the page. The State's returns stay the source to check ("pending" in specials-state.yaml).
 #
 # <key in specials.yaml>:
-#   cite, source, where: as in specials-state.yaml (the page)
+#   cite: 'CQ Guide 6th (2010) 1266' (the page; the full title is given with the block's sources)
+#   source, where: as in specials-state.yaml (the page)
 #   rounds: [{date, label (as CQ heads it), cands [[name, party, votes, share]]}]: names, party letters and shares
 #     as printed; CQ's shares count the votes of candidates it does not print, so they are shown as printed.
 #     A round's date as 'YYYY' where CQ gives only the year.
@@ -14,8 +15,145 @@
 # ./bib check fails on a key not in specials.yaml, a winner missing from the last round, or a round whose votes and
 # shares cannot come from one total.
 
+1957-11-05-h-NJ-2:
+  cite: CQ Guide 6th (2010) 1256
+  source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
+  where: p. 1256 (1957, New Jersey, special election)
+  rounds:
+  - date: '1957-11-05'
+    label: special election
+    cands:
+    - [Milton W. Glenn, R, 58129, 54.8]
+    - [Joseph G. Hancock, D, 47647, 44.9]
+1957-12-31-h-IL-7:
+  cite: CQ Guide 6th (2010) 1256
+  source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
+  where: p. 1256 (1957, Illinois, special election)
+  rounds:
+  - date: '1957-12-31'
+    label: special election
+    cands:
+    - [Roland V. Libonati, D, 32221, 88.1]
+    - [Anthony C. Catena, R, 4353, 11.9]
+1958-01-08-h-GA-7:
+  cite: CQ Guide 6th (2010) 1257
+  source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
+  where: p. 1257 (1958, Georgia, special election)
+  rounds:
+  - date: '1958-01-08'
+    label: special election
+    cands:
+    - [Harlan Erwin Mitchell, D, 16426, 95.5]
+  remarks: CQ prints the winner only; Wikipedia gives two Republicans (2.66, 1.06). The date is Wikipedia's.
+1958-01-14-h-NY-37:
+  cite: CQ Guide 6th (2010) 1259
+  source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
+  where: p. 1259 (1958, New York, special election)
+  rounds:
+  - date: '1958-01-14'
+    label: special election
+    cands:
+    - [Howard W. Robison, R, 45920, 59.8]
+    - ['Francis P. Hogan', 'D, L', 30891, 40.2]
+  remarks: The date is Wikipedia's.
+1958-02-18-h-MN-1:
+  cite: CQ Guide 6th (2010) 1258
+  source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
+  where: p. 1258 (1958, Minnesota, special election)
+  rounds:
+  - date: '1958-02-18'
+    label: special election
+    cands:
+    - [Albert H. Quie, R, 44276, 50.3]
+    - [Eugene P. Foley, DFL, 43674, 49.7]
+  remarks: The date is Wikipedia's.
+1959-05-26-h-NY-43:
+  cite: CQ Guide 6th (2010) 1261
+  source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
+  where: p. 1261 (1959, New York, special election)
+  rounds:
+  - date: '1959-05-26'
+    label: special election
+    cands:
+    - [Charles E. Goodell, R, 27454, 65.0]
+    - [Robert E. McCaffery, D, 14250, 33.8]
+  remarks: The date is Wikipedia's. Wikipedia adds John R. Steinbroner (Liberal, 1.2).
+1959-07-28-h-HI-0:
+  cite: CQ Guide 6th (2010) 1261
+  source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
+  where: p. 1261 (1959, Hawaii, "Became a state Aug. 21, 1959")
+  rounds:
+  - date: '1959-07-28'
+    label: election
+    cands:
+    - [Daniel K. Inouye, D, 111727, 68.2]
+    - [Charles H. Silva, R, 51058, 31.2]
+  remarks: CQ gives no date. Wikipedia's shares (68.64, 31.37) are not CQ's.
+1959-12-15-h-IA-4:
+  cite: CQ Guide 6th (2010) 1261
+  source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
+  where: p. 1261 (1959, Iowa, special election)
+  rounds:
+  - date: '1959-12-15'
+    label: special election
+    cands:
+    - [John Henry Kyl, R, 28326, 52.3]
+    - [C. Edwin Gilmour, D, 25809, 47.7]
+  remarks: Kyl marked #. The date is Wikipedia's.
+1960-03-08-h-NY-23:
+  cite: CQ Guide 6th (2010) 1264
+  source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
+  where: p. 1264 (1960, New York, after the 43d district)
+  rounds:
+  - date: '1960-03-08'
+    label: special election
+    cands:
+    - [Jacob H. Gilbert, D, 4594, 82.3]
+    - [Simon M. Koenig, R, 574, 10.3]
+    - [Hector Mathew, L, 411, 7.4]
+  remarks: 'Printed after the regular races, under no heading of its own: the special of Mar. 8, 1960 by its figures (Wikipedia: 82.4, 10.3, 7.4).'
+1960-06-25-h-NC-12:
+  cite: CQ Guide 6th (2010) 1264
+  source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
+  where: p. 1264 (1960, North Carolina, special election)
+  rounds:
+  - date: '1960-06-25'
+    label: special election
+    cands:
+    - [Roy A. Taylor, D, 28744, 98.6]
+  remarks: CQ prints the winner only; Wikipedia gives Heinz Rollman (R) 1.4. The date is Wikipedia's.
+1960-11-08-h-OH-6:
+  cite: CQ Guide 6th (2010) 1265
+  source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
+  where: p. 1265 (1960, Ohio, special election)
+  rounds:
+  - date: '1960-11-08'
+    label: special election
+    cands:
+    - [Ward M. Miller, R, 76520, 55.4]
+    - [Gladys E. Davis, D, 61713, 44.6]
+1960-11-08-h-PA-18:
+  cite: CQ Guide 6th (2010) 1265
+  source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
+  where: p. 1265 (1960, Pennsylvania, special election)
+  rounds:
+  - date: '1960-11-08'
+    label: special election
+    cands:
+    - [J. Irving Whalley, R, 86527, 62.3]
+    - [Robert M. Meyers, D, 52324, 37.7]
+1960-11-08-h-WA-3:
+  cite: CQ Guide 6th (2010) 1266
+  source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
+  where: p. 1266 (1960, Washington, special election)
+  rounds:
+  - date: '1960-11-08'
+    label: special election
+    cands:
+    - [Julia Butler Hansen, D, 71416, 53.1]
+    - [Dale M. Nordquist, R, 63058, 46.9]
 1961-04-18-h-AR-6:
-  cite: CQ, *Guide to U.S. Elections*, 6th ed. (2010), p. 1266
+  cite: CQ Guide 6th (2010) 1266
   source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
   where: p. 1266
   rounds:
@@ -28,7 +166,7 @@
     - [James F. Cross, D, 1727, 7.3]
   remarks: 'All four marked #.'
 1961-05-16-h-TN-1:
-  cite: CQ, *Guide to U.S. Elections*, 6th ed. (2010), p. 1266
+  cite: CQ Guide 6th (2010) 1266
   source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
   where: p. 1266
   rounds:
@@ -39,7 +177,7 @@
     - [William W. Faw, D, 15718, 33.2]
   remarks: 'Both marked #.'
 1961-11-04-h-TX-20:
-  cite: CQ, *Guide to U.S. Elections*, 6th ed. (2010), p. 1266
+  cite: CQ Guide 6th (2010) 1266
   source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
   where: p. 1266
   rounds:
@@ -50,7 +188,7 @@
     - [John Goode, R, 42511, 44.0]
   remarks: CQ prints no party for Goode; R is Wikipedia's.
 1961-11-07-h-MI-1:
-  cite: CQ, *Guide to U.S. Elections*, 6th ed. (2010), p. 1266
+  cite: CQ Guide 6th (2010) 1266
   source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
   where: p. 1266
   rounds:
@@ -61,7 +199,7 @@
     - [Walter Czarnecki, R, 5729, 14.5]
   remarks: 'Both marked #.'
 1961-12-19-h-LA-4:
-  cite: CQ, *Guide to U.S. Elections*, 6th ed. (2010), p. 1266
+  cite: CQ Guide 6th (2010) 1266
   source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
   where: p. 1266
   rounds:
@@ -71,7 +209,7 @@
     - [Joe D. Waggonner Jr., D, 33892, 54.5]
     - [Charlton H. Lyons, R, 28250, 45.5]
 1962-01-27-h-TX-13:
-  cite: CQ, *Guide to U.S. Elections*, 6th ed. (2010), pp. 1266, 1270
+  cite: CQ Guide 6th (2010) 1266, 1270
   source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
   where: p. 1266 (1961, special election); p. 1270 (1962, special runoff)
   rounds:
@@ -90,7 +228,7 @@
     - [Joe Meissner, R, 14098, 37.1]
   note: 'Check: the first round''s date (CQ files it under 1961).'
 1962-01-30-h-TX-4:
-  cite: CQ, *Guide to U.S. Elections*, 6th ed. (2010), pp. 1266, 1270
+  cite: CQ Guide 6th (2010) 1266, 1270
   source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
   where: p. 1266 (1961, special election); p. 1270 (1962, special runoff)
   rounds:
@@ -107,9 +245,10 @@
     cands:
     - [Ray Roberts, D, 16109, 54.3]
     - [R. C. Slagle Jr., D, 13572, 45.7]
-  note: 'Check: the first round''s date (CQ files it under 1961). Wikipedia''s runoff shares (54.3, 46.7) add to 101.'
+  note: 'Check: the first round''s date (CQ files it under 1961).'
+  remarks: 'Wikipedia''s runoff shares (54.3, 46.7) add to 101.'
 1962-02-13-h-MI-14:
-  cite: CQ, *Guide to U.S. Elections*, 6th ed. (2010), p. 1268
+  cite: CQ Guide 6th (2010) 1268
   source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
   where: p. 1268
   rounds:
@@ -120,7 +259,7 @@
     - [Robert E. Waldron, R, 29600, 49.2]
   remarks: 'Both figures marked #.'
 1962-02-20-h-NY-6:
-  cite: CQ, *Guide to U.S. Elections*, 6th ed. (2010), p. 1269
+  cite: CQ Guide 6th (2010) 1269
   source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
   where: p. 1269
   rounds:
@@ -132,7 +271,7 @@
     - [Emil Levin, I, 4245, 11.7]
   remarks: 'All marked #. Rosenthal''s figure is his Democratic and Liberal lines together.'
 1962-04-10-h-SC-2:
-  cite: CQ, *Guide to U.S. Elections*, 6th ed. (2010), p. 1270
+  cite: CQ Guide 6th (2010) 1270
   source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
   where: p. 1270
   rounds:
@@ -142,7 +281,7 @@
     - [Corinne B. Riley, D, 3626, 100.0]
   remarks: 'Marked #.'
 1963-07-30-h-PA-15:
-  cite: CQ, *Guide to U.S. Elections*, 6th ed. (2010), p. 1271
+  cite: CQ Guide 6th (2010) 1271
   source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
   where: p. 1271
   rounds:
@@ -153,7 +292,7 @@
     - [Robert G. Bartlett, R, 42374, 46.5]
   remarks: 'Both marked #.'
 1963-11-05-h-PA-23:
-  cite: CQ, *Guide to U.S. Elections*, 6th ed. (2010), p. 1271
+  cite: CQ Guide 6th (2010) 1271
   source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
   where: p. 1271
   rounds:
@@ -164,7 +303,7 @@
     - [William T. Hagerty, D, 45677, 41.6]
   remarks: 'Both marked #.'
 1963-12-21-h-TX-10:
-  cite: CQ, *Guide to U.S. Elections*, 6th ed. (2010), p. 1271
+  cite: CQ Guide 6th (2010) 1271
   source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
   where: p. 1271
   rounds:
@@ -182,7 +321,7 @@
   note: 'Check: the first round''s date (CQ gives the year only).'
   remarks: 'All marked #.'
 1964-03-10-h-TN-2:
-  cite: CQ, *Guide to U.S. Elections*, 6th ed. (2010), p. 1275
+  cite: CQ Guide 6th (2010) 1275
   source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
   where: p. 1275
   rounds:
@@ -193,7 +332,7 @@
     - [Willard V. Yarbrough, D, 31763, 43.3]
   remarks: 'Both marked #.'
 1964-04-28-h-PA-5:
-  cite: CQ, *Guide to U.S. Elections*, 6th ed. (2010), p. 1275
+  cite: CQ Guide 6th (2010) 1275
   source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
   where: p. 1275
   rounds:
@@ -203,8 +342,38 @@
     - [William J. Green III, D, 30904, 58.6]
     - [Edward H. Rovner, R, 21832, 41.4]
   remarks: 'Both marked #.'
+1964-11-03-h-MO-9:
+  cite: CQ Guide 6th (2010) 1274
+  source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
+  where: p. 1274 (1964, Missouri, special election)
+  rounds:
+  - date: '1964-11-03'
+    label: special election
+    cands:
+    - [William L. Hungate, D, 102422, 62.5]
+    - [Anthony C. Schroeder, R, 61439, 37.5]
+1964-11-03-h-OR-1:
+  cite: CQ Guide 6th (2010) 1275
+  source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
+  where: p. 1275 (1964, Oregon, special election)
+  rounds:
+  - date: '1964-11-03'
+    label: special election
+    cands:
+    - [Wendell Wyatt, R, 125473, 52.8]
+    - [R. Blaine Whipple, D, 112112, 47.2]
+1964-11-03-h-SC-5:
+  cite: CQ Guide 6th (2010) 1275
+  source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
+  where: p. 1275 (1964, South Carolina, special election)
+  rounds:
+  - date: '1964-11-03'
+    label: special election
+    cands:
+    - [Tom S. Gettys, D, 44241, 66.8]
+    - [Robert M. Doster, R, 22031, 33.2]
 1965-06-15-h-SC-2:
-  cite: CQ, *Guide to U.S. Elections*, 6th ed. (2010), p. 1276
+  cite: CQ Guide 6th (2010) 1276
   source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
   where: p. 1276
   rounds:
@@ -213,16 +382,15 @@
     cands:
     - [Albert W. Watson, R, 55977, 69.3]
     - [Preston H. Callison, D, 24761, 30.7]
-  note: 'Check: Wikipedia gives 59.1 to 40.9.'
-  remarks: 'Both marked #.'
+  remarks: 'Both marked #. Wikipedia gives 59.1 to 40.9; CQ''s figures stand.'
 1965-10-02-h-LA-7:
-  cite: CQ, *Guide to U.S. Elections*, 6th ed. (2010), p. 1276
+  cite: CQ Guide 6th (2010) 1276
   source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
   where: p. 1276
   unopposed: [Edwin W. Edwards, D]
-  note: 'Check: Wikipedia''s shares (Edwards 53.8, Gary Tyler, D, 46.2) may be the Democratic primary''s.'
+  remarks: 'Wikipedia''s shares (Edwards 53.8, Gary Tyler, D, 46.2) may be the Democratic primary''s; CQ prints him unopposed.'
 1965-11-02-h-OH-7:
-  cite: CQ, *Guide to U.S. Elections*, 6th ed. (2010), p. 1276
+  cite: CQ Guide 6th (2010) 1276
   source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
   where: p. 1276
   rounds:
@@ -232,7 +400,7 @@
     - [Clarence J. Brown Jr., R, 70573, 59.6]
     - [James A. Berry, D, 47830, 40.4]
 1966-02-08-h-NY-17:
-  cite: CQ, *Guide to U.S. Elections*, 6th ed. (2010), p. 1279
+  cite: CQ Guide 6th (2010) 1279
   source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
   where: p. 1279
   rounds:
@@ -243,7 +411,7 @@
     - [Orin Lehman, D, 43206, 45.4]
     - [Jeffrey St. John, C, 7796, 8.2]
 1966-03-26-h-TX-8:
-  cite: CQ, *Guide to U.S. Elections*, 6th ed. (2010), p. 1281
+  cite: CQ Guide 6th (2010) 1281
   source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
   where: p. 1281
   rounds:
@@ -253,8 +421,30 @@
     - [Lera M. Thomas, D, 6120, 74.0]
     - [Louis Leman, R, 2147, 26.0]
   remarks: 'Both marked #.'
+1966-11-08-h-AR-4:
+  cite: CQ Guide 6th (2010) 1277
+  source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
+  where: p. 1277 (1966, Arkansas, special election)
+  rounds:
+  - date: '1966-11-08'
+    label: special election
+    cands:
+    - [David Pryor, D, 85125]
+    - [Lynn Lowe, R, 46764]
+  remarks: 'CQ prints Lowe''s share as 35.0, the regular race''s (46,804 of 133,691, just above); 46,764 of 131,889 is
+    35.5. The printed shares (Pryor 64.5) left out: the shares shown are the votes''.'
+1966-11-08-h-MI-9:
+  cite: CQ Guide 6th (2010) 1278
+  source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
+  where: p. 1278 (1966, Michigan, special election)
+  rounds:
+  - date: '1966-11-08'
+    label: special election
+    cands:
+    - [Guy Vander Jagt, R, 91056, 66.6]
+    - [Henry J. Dongvillo, D, 45699, 33.4]
 1967-03-28-h-RI-2:
-  cite: CQ, *Guide to U.S. Elections*, 6th ed. (2010), p. 1281
+  cite: CQ Guide 6th (2010) 1281
   source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
   where: p. 1281
   rounds:
@@ -265,7 +455,7 @@
     - [James DiPrete, R, 55748, 48.5]
   remarks: 'Both marked #.'
 1967-04-11-h-NY-18:
-  cite: CQ, *Guide to U.S. Elections*, 6th ed. (2010), p. 1281
+  cite: CQ Guide 6th (2010) 1281
   source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
   where: p. 1281
   rounds:
@@ -276,7 +466,7 @@
     - [Lucille P. Williams, R, 3999, 12.3]
   remarks: 'Both marked #.'
 1968-02-20-h-NY-13:
-  cite: CQ, *Guide to U.S. Elections*, 6th ed. (2010), p. 1284
+  cite: CQ Guide 6th (2010) 1284
   source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
   where: p. 1284
   rounds:
@@ -289,7 +479,7 @@
     - [Michael V. Ajello, C, 3806, 5.2]
   remarks: 'All marked #.'
 1968-03-12-h-MS-3:
-  cite: CQ, *Guide to U.S. Elections*, 6th ed. (2010), pp. 1284, 1286 n. 1 (the first round from the Mississippi secretary of state)
+  cite: CQ Guide 6th (2010) 1284, 1286 n.1 (the first round from the Mississippi secretary of state)
   source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
   where: p. 1284 (special runoff); p. 1286, note 1 (the first special election, "Source - Mississippi secretary of state")
   rounds:
@@ -310,7 +500,7 @@
   note: 'All candidates in one race, regardless of party, a majority to win (Mississippi law, CQ''s note). Check: the first round''s date (the note gives none).'
   remarks: 'Runoff figures marked #.'
 1968-08-24-h-TX-3:
-  cite: CQ, *Guide to U.S. Elections*, 6th ed. (2010), p. 1286
+  cite: CQ Guide 6th (2010) 1286
   source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
   where: p. 1286
   rounds:
@@ -321,7 +511,7 @@
     - [Mrs. Joe Pool, D, 9209]
   remarks: 'Both marked #. CQ prints no shares.'
 1969-03-25-h-TN-8:
-  cite: CQ, *Guide to U.S. Elections*, 6th ed. (2010), p. 1286
+  cite: CQ Guide 6th (2010) 1286
   source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
   where: p. 1286
   rounds:
@@ -333,7 +523,7 @@
     - [Leonard Dunavant, R, 15773, 22.7]
   remarks: 'All marked #.'
 1969-04-01-h-WI-7:
-  cite: CQ, *Guide to U.S. Elections*, 6th ed. (2010), p. 1286
+  cite: CQ Guide 6th (2010) 1286
   source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
   where: p. 1286
   rounds:
@@ -343,7 +533,7 @@
     - [David R. Obey, D, 63567, 51.6]
     - [Walter J. Chilsen, R, 59512, 48.4]
 1969-06-24-h-MT-2:
-  cite: CQ, *Guide to U.S. Elections*, 6th ed. (2010), p. 1286
+  cite: CQ Guide 6th (2010) 1286
   source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
   where: p. 1286
   rounds:
@@ -353,8 +543,58 @@
     - [John Melcher, D, 45473, 50.8]
     - [W. S. Mather, R, 43441, 48.6]
   remarks: 'Both marked #.'
+1970-11-03-h-CT-2:
+  cite: CQ Guide 6th (2010) 1287
+  source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
+  where: p. 1287 (1970, Connecticut, special election)
+  rounds:
+  - date: '1970-11-03'
+    label: special election
+    cands:
+    - [Robert H. Steele, R, 92816, 53.3]
+    - [John F. Pickett, D, 81333, 46.7]
+1970-11-03-h-IL-6:
+  cite: CQ Guide 6th (2010) 1288
+  source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
+  where: p. 1288 (1970, Illinois, special election)
+  rounds:
+  - date: '1970-11-03'
+    label: special election
+    cands:
+    - [George W. Collins, D, 68949, 55.7]
+    - [Alex J. Zabrosky, R, 54746, 44.3]
+1970-11-03-h-NJ-6:
+  cite: CQ Guide 6th (2010) 1289
+  source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
+  where: p. 1289 (1970, New Jersey, special election)
+  rounds:
+  - date: '1970-11-03'
+    label: special election
+    cands:
+    - [Edwin B. Forsythe, R, 89565, 54.8]
+    - [Charles B. Yates, D, 73821, 45.2]
+1970-11-03-h-OH-19:
+  cite: CQ Guide 6th (2010) 1290
+  source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
+  where: p. 1290 (1970, Ohio, special election)
+  rounds:
+  - date: '1970-11-03'
+    label: special election
+    cands:
+    - [Charles J. Carney, D, 70161, 58.4]
+    - [Margaret Dennison, R, 50005, 41.6]
+1970-11-03-h-PA-9:
+  cite: CQ Guide 6th (2010) 1290
+  source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
+  where: p. 1290 (1970, Pennsylvania, special election)
+  rounds:
+  - date: '1970-11-03'
+    label: special election
+    cands:
+    - [John H. Ware III, R, 44077, 57.0]
+    - [Louis F. Waldman, D, 31353, 40.5]
 1971-11-02-h-PA-18:
-  cite: CQ, *Guide to U.S. Elections*, 6th ed. (2010), p. 1291
+  cite: CQ Guide 6th (2010) 1291
   source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
   where: p. 1291
   rounds:
@@ -364,7 +604,7 @@
     - [H. John Heinz III, R, 103543, 66.6]
     - [John E. Connelly, D, 49269, 31.7]
 1971-12-04-h-KY-6:
-  cite: CQ, *Guide to U.S. Elections*, 6th ed. (2010), p. 1291
+  cite: CQ Guide 6th (2010) 1291
   source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
   where: p. 1291
   rounds:
@@ -375,28 +615,8 @@
     - [Raymond Nutter, R, 21584, 38.1]
     - [Edgar A. Wallace, I, 4070, 7.2]
   remarks: 'All marked #. CQ prints no party for Wallace; I is Wikipedia''s (Independent).'
-1973-03-20-h-LA-2:
-  cite: CQ, *Guide to U.S. Elections*, 6th ed. (2010), p. 1296
-  source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
-  where: p. 1296
-  rounds:
-  - date: '1973-03-20'
-    label: special election
-    cands:
-    - [Corinne (Lindy) Boggs, D, 42583, 80.4]
-    - [Robert E. Lee, R, 10352, 19.6]
-1973-06-05-h-IL-7:
-  cite: CQ, *Guide to U.S. Elections*, 6th ed. (2010), p. 1296
-  source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
-  where: p. 1296
-  rounds:
-  - date: '1973-06-05'
-    label: special election
-    cands:
-    - [Cardiss Collins, D, 33875, 92.5]
-  remarks: 'Marked #. CQ prints the winner only.'
 1972-01-07-s-VT-1:
-  cite: CQ, *Guide to U.S. Elections*, 6th ed. (2010), p. 1467
+  cite: CQ Guide 6th (2010) 1467
   source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
   where: p. 1467 (Senate, Vermont, special election)
   rounds:
@@ -407,69 +627,12 @@
     - [Randolph T. Major, D, 23842, 33.4]
   remarks: 'Both marked #.'
 1972-04-04-h-AL-3:
-  cite: CQ, *Guide to U.S. Elections*, 6th ed. (2010), p. 1292
+  cite: CQ Guide 6th (2010) 1292
   source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
   where: p. 1292
   unopposed: [Elizabeth Andrews, D]
-1972-09-30-h-LA-7:
-  cite: CQ, *Guide to U.S. Elections*, 6th ed. (2010), p. 1293
-  source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
-  where: p. 1293
-  unopposed: [John B. Breaux, D]
-1972-11-07-s-GA-2:
-  cite: CQ, *Guide to U.S. Elections*, 6th ed. (2010), p. 1441
-  source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
-  where: p. 1441 (Senate, Georgia, special election; the regular race above it, Nunn 635,970, Thompson 542,331, as the Clerk's)
-  rounds:
-  - date: '1972-11-07'
-    label: special election
-    cands:
-    - [Sam Nunn, D, 404890, 52.0]
-    - [Fletcher Thompson, R, 362501, 46.5]
-  note: Held with the regular election for the next term, which Nunn also won; the Clerk prints the regular race only.
-1974-02-05-h-PA-12:
-  cite: CQ, *Guide to U.S. Elections*, 6th ed. (2010), p. 1300
-  source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
-  where: p. 1300
-  rounds:
-  - date: '1974-02-05'
-    label: special election
-    cands:
-    - [John P. Murtha, D, 60538, 49.9]
-    - [Harry M. Fox, R, 60416, 49.8]
-1974-02-18-h-MI-5:
-  cite: CQ, *Guide to U.S. Elections*, 6th ed. (2010), p. 1299
-  source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
-  where: p. 1299
-  rounds:
-  - date: '1974-02-18'
-    label: special election
-    cands:
-    - [Richard F. Vander Veen, D, 53083, 50.9]
-    - [Robert Vander Laan, R, 46160, 44.3]
-1974-03-05-h-OH-1:
-  cite: CQ, *Guide to U.S. Elections*, 6th ed. (2010), p. 1300
-  source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
-  where: p. 1300
-  rounds:
-  - date: '1974-03-05'
-    label: special election
-    cands:
-    - [Thomas A. Luken, D, 55134, 51.9]
-    - [Willis D. Gradison Jr., R, 51063, 48.1]
-1974-04-16-h-MI-8:
-  cite: CQ, *Guide to U.S. Elections*, 6th ed. (2010), p. 1299
-  source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
-  where: p. 1299
-  rounds:
-  - date: '1974-04-16'
-    label: special election
-    cands:
-    - [Bob Traxler, D, 59993, 51.5]
-    - [James M. Sparling Jr., R, 56548, 48.5]
-  remarks: The copy sent shows a line through Traxler's row, likely a mark on the copy; the figures read clearly.
 1972-04-25-h-PA-27:
-  cite: CQ, *Guide to U.S. Elections*, 6th ed. (2010), p. 1295
+  cite: CQ Guide 6th (2010) 1295
   source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
   where: p. 1295; p. 1296, note 1
   rounds:
@@ -480,3 +643,91 @@
     - [Douglas Walgren, D, 25956, 46.3]
   note: For the term to Jan. 3, 1973; the district then ceased to exist, Pennsylvania losing two seats (CQ's note).
   remarks: 'Both marked #.'
+1972-09-30-h-LA-7:
+  cite: CQ Guide 6th (2010) 1293
+  source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
+  where: p. 1293
+  unopposed: [John B. Breaux, D]
+1972-11-07-s-GA-2:
+  cite: CQ Guide 6th (2010) 1441
+  source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
+  where: p. 1441 (Senate, Georgia, special election; the regular race above it, Nunn 635,970, Thompson 542,331, as the Clerk's)
+  rounds:
+  - date: '1972-11-07'
+    label: special election
+    cands:
+    - [Sam Nunn, D, 404890, 52.0]
+    - [Fletcher Thompson, R, 362501, 46.5]
+  note: Held with the regular election for the next term, which Nunn also won; the Clerk prints the regular race only.
+1972-11-07-h-VA-6:
+  cite: CQ Guide 6th (2010) 1296
+  source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
+  where: p. 1296 (1972, Virginia, special election)
+  rounds:
+  - date: '1972-11-07'
+    label: special election
+    cands:
+    - [M. Caldwell Butler, R, 61898, 51.8]
+    - [Willis M. Anderson, D, 47588, 39.8]
+    - [Roy R. White, I, 10098, 8.4]
+1973-03-20-h-LA-2:
+  cite: CQ Guide 6th (2010) 1296
+  source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
+  where: p. 1296
+  rounds:
+  - date: '1973-03-20'
+    label: special election
+    cands:
+    - [Corinne (Lindy) Boggs, D, 42583, 80.4]
+    - [Robert E. Lee, R, 10352, 19.6]
+1973-06-05-h-IL-7:
+  cite: CQ Guide 6th (2010) 1296
+  source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
+  where: p. 1296
+  rounds:
+  - date: '1973-06-05'
+    label: special election
+    cands:
+    - [Cardiss Collins, D, 33875, 92.5]
+  remarks: 'Marked #. CQ prints the winner only.'
+1974-02-05-h-PA-12:
+  cite: CQ Guide 6th (2010) 1300
+  source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
+  where: p. 1300
+  rounds:
+  - date: '1974-02-05'
+    label: special election
+    cands:
+    - [John P. Murtha, D, 60538, 49.9]
+    - [Harry M. Fox, R, 60416, 49.8]
+1974-02-18-h-MI-5:
+  cite: CQ Guide 6th (2010) 1299
+  source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
+  where: p. 1299
+  rounds:
+  - date: '1974-02-18'
+    label: special election
+    cands:
+    - [Richard F. Vander Veen, D, 53083, 50.9]
+    - [Robert Vander Laan, R, 46160, 44.3]
+1974-03-05-h-OH-1:
+  cite: CQ Guide 6th (2010) 1300
+  source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
+  where: p. 1300
+  rounds:
+  - date: '1974-03-05'
+    label: special election
+    cands:
+    - [Thomas A. Luken, D, 55134, 51.9]
+    - [Willis D. Gradison Jr., R, 51063, 48.1]
+1974-04-16-h-MI-8:
+  cite: CQ Guide 6th (2010) 1299
+  source: Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)
+  where: p. 1299
+  rounds:
+  - date: '1974-04-16'
+    label: special election
+    cands:
+    - [Bob Traxler, D, 59993, 51.5]
+    - [James M. Sparling Jr., R, 56548, 48.5]
+  remarks: The copy sent shows a line through Traxler's row, likely a mark on the copy; the figures read clearly.

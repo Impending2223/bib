@@ -12,7 +12,10 @@ These replace the OCR in make_elections.py. Each file:
         - [Name as printed, Party as printed, 123456]
         - [Name, 'Democrat, Liberal', 141323, [[Democrat, 47371], [Liberal, 9965]]]   # fusion: total, then lines
         - [Scattering, null, 12]     # also 'Write-in', 'Others', 'Miscellaneous': counted as scattering
-        note: >-                     a ruling: why this figure and not another
+        note: >-                     a ruling: why this figure and not another (kept here, not shown)
+        printed: >-                  where the Clerk's own figures disagree (the race page and the recapitulation, a
+                                     bracketed total and its lines, a party printed one way and counted another):
+                                     which is used; shown in the race's note (also under president: ST)
         source: >-                   where the figures are not the Clerk's: the short cite shown with the race
                                      ('CQ, *Guide to U.S. Elections*, 6th ed. (2010), p. 1275'), where the Clerk prints
                                      none; or the State's canvass, which overrides the Clerk ('Fla., *Tabulation of
@@ -34,7 +37,7 @@ These replace the OCR in make_elections.py. Each file:
 Rules for a reading (the review tools in tools/elections/review/ apply them):
   - Every figure from the page image, digit by digit; checked against the State's recapitulation.
   - Where the race page and the recapitulation differ, the figure the Clerk's own totals add up with
-    is used, and the race's note says so.
+    is used, and the race's `printed` note says so.
   - Names and parties as printed; make_elections.py gives Wikipedia's name where the surname matches.
 
 Exposed as before: READ[year][(ch, st, seat)] = [(name, party, votes[, lines])]; UNTABULATED, WON,

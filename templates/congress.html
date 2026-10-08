@@ -95,18 +95,20 @@
 .cgmap circle.dc{stroke:var(--stb);stroke-width:1;vector-effect:non-scaling-stroke}
 /* Tables: rosters, then race returns */
 /* The member rosters (details.cgm); the shared table rules are in templates/roster.css */
-details.cgm col.c1{width:3.5rem}details.cgm col.c2{width:40%}details.cgm col.c3{width:2.7rem}
+details.cgm col.c1{width:2.4rem}details.cgm col.c2{width:40%}details.cgm col.c3{width:2.7rem}
 details.cgm td:nth-child(4){overflow-wrap:anywhere}
 details.cgm td:first-child{color:var(--muted)}
 details.cgm td:nth-child(3){font-weight:700}
 .pDt{color:var(--pD)}.pRt{color:var(--pR)}.pCt,.pIt,.pIDt{color:var(--pO)}
 .pDit{color:var(--pD)}.pRit{color:var(--pR)}
 details.cgr.er table{font-size:.8rem}
-details.cgr.er col.c1{width:3.4rem}details.cgr.er col.c2{width:auto}details.cgr.er col.c3{width:4.6rem}details.cgr.er col.c4{width:22%}
+details.cgr.er col.c1{width:2.4rem}details.cgr.er.esp col.c1{width:3.4rem}details.cgr.er.epr col.c1{width:4.6rem}
+@media (max-width:520px){details.cgr.er .ec{grid-template-columns:1fr 4.9em;grid-template-rows:auto 1fr}details.cgr.er .ec>:first-child{grid-row:span 2}
+  details.cgr.er .ec .ev,details.cgr.er .ec .es{grid-column:2}}details.cgr.er col.c2{width:auto}details.cgr.er col.c3{width:4.6rem}details.cgr.er col.c4{width:22%}
 details.cgr.er td.ecs{padding-right:.6rem}
 details.cgr.er .ec{display:grid;grid-template-columns:1fr 4.9em 3.4em;column-gap:.35rem;padding:.05rem 0}
 details.cgr.er .ec .w .en{font-weight:700}
-details.cgr.er .ep{color:var(--muted);font-size:.72rem;white-space:nowrap}
+details.cgr.er .ep{color:var(--muted);font-size:.72rem}
 details.cgr.er .eln{display:block;color:var(--muted);font-size:.75rem}
 details.cgr.er .ev,details.cgr.er .es{text-align:right;font-variant-numeric:tabular-nums}
 details.cgr.er .es{color:var(--muted)}

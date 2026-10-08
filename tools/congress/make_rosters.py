@@ -64,6 +64,7 @@ VACANT = {  # seats empty at the opening: (c, chamber, st, district/class) -> no
     (93, 'h', 'LA', 2): 'Vacant. Hale Boggs (D) lost in Alaska Oct. 16, 1972, reelected; Lindy Boggs (D) elected Mar. 20, 1973.',
     (93, 'h', 'AK', 0): 'Vacant. Nick Begich (D) lost with Boggs Oct. 16, 1972, reelected; Don Young (R) elected Mar. 6, 1973.',
     (93, 'h', 'IL', 7): 'Vacant. George W. Collins (D) died Dec. 8, 1972; Cardiss Collins (D) elected June 5, 1973.',
+    (92, 'h', 'SC', 1): 'Vacant. L. Mendel Rivers (D) died Dec. 28, 1970, reelected; Mendel J. Davis (D) elected Apr. 27, 1971.',
     (92, 's', 'GA', 2): 'Vacant. Richard B. Russell (D) died Jan. 21, 1971, hours before the 92nd convened; David H. Gambrell (D) appointed Feb. 1.',
 }
 ADD = {  # terms missing from the dataset

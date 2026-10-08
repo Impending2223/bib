@@ -1463,7 +1463,7 @@
       checked_in: '1968 report (93 PDF pages, two printed pages each), page images: pp. 16-19 and contents'
     online:
     - {host: SC State Election Commission, url: 'https://scvotes.gov/wp-content/uploads/2022/08/Election_Report_1968.pdf', years: '1968', access: open, checked: '2026-10-06', pattern: 'https://scvotes.gov/wp-content/uploads/2022/08/Election_Report_<years>.pdf; answers for 1968, 1969-1973, 1974-1975, 1976-1977; 404 for 1956-1967 singly and 1966-1968 (tested). Old scvotes.org/files/ElectionReports/ URL is 404'}
-    - {host: SC State Library Digital Collections (DSpace), url: 'https://dc.statelibrary.sc.gov/server/api/core/bitstreams/2da33853-5d08-4ad9-9ac0-cd9925b149f8/content', years: 'Secretary of State supplemental reports (1962, 1966 cited in search results); exact list unverified', access: other, checked: '2026-10-06', note: 'HTTP 403 Forbidden from the server itself (Apache), every path incl. the home page; not a proxy refusal and not a challenge page'}
+    - {host: SC State Library Digital Collections (DSpace), url: 'https://dc.statelibrary.sc.gov/server/api/core/bitstreams/2da33853-5d08-4ad9-9ac0-cd9925b149f8/content', years: 'Secretary of State supplemental reports (1962, 1966 cited in search results); exact list unverified', access: open, checked: '2026-10-08', note: 'answered 403 on 2026-10-06; opens 2026-10-08 (DSpace API: /server/api/discover/search/objects, items, bundles). No supplemental report for 1964 found by search. The Legislative Manual of 1965 (item 7c74e654-f261-421d-9811-8d6010484c23, PDF and OCR text) prints no 1964 returns, only members'' sketches with rounded majorities'}
   - title: Report of the South Carolina [State] Election Commission (for the period ending June 30, ...)
     publisher: State Election Commission (from 1969)
     kind: report
@@ -1486,7 +1486,7 @@
     source: Supplemental Report of the Secretary of State, Election November 5, 1968, pp. 16 and 18 (page images; Republican is p. 17 'REPUBLICAN / NIXON-AGNEW')
     verified: true
   best_for_specials: '1971 SC-1: Election Commission report 1969-73, printed p. 14 (PDF p. 18), Board of Canvassers minutes of May 6, 1971 (totals, no parties); read 2026-10-06. 1962 and 1965 SC-2: not found. The SC State Library''s digital collection opens from here (2026-10-06) but holds only the 1968 Secretary of State supplemental report; the 1963, 1966 and 1967 Legislative Manuals there print the special Democratic primary of Feb. 13, 1962 (Riley 10,277, Fitzgerald 4,607) but not the Apr. 10, 1962 election, and nothing for June 15, 1965. The 1964 SC-5 special was held with the general.'
-  gaps: 'Secretary of State reports before 1968 (1956-66) not reachable: State Library DSpace answers 403; archive.org has only 19th-century Reports and Resolutions. SC Archives holds the series.'
+  gaps: 'Secretary of State reports before 1968 (1956-66) not online: the State Library''s collection (open since 2026-10-08) holds the 1968 report only; archive.org has only 19th-century Reports and Resolutions. SC Archives holds the series. The 1964 House returns (Clerk and CQ differ on SC-1: Rivers 56,152 and 64,804) wait on it.'
 - st: SD
   name: South Dakota
   sources:

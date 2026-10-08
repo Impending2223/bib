@@ -2,7 +2,8 @@
 # elections/<year>.yaml (kept by hand; not read by the build). The Clerk stands (tools/elections/read.py): where CQ
 # differs, the Clerk's page was read again, and the figures here are as printed there. Pages are the Guide's.
 # CQ's figures fill a race only where the Clerk prints none (readings: source); the specials are
-# congress/specials-cq.yaml.
+# congress/specials-cq.yaml. `shown` (read by the build): CQ's figures where they differ from those shown, by race,
+# printed in the race's note ("CQ Guide 6th (2010) 1275: Rivers 64,804."); check fails on a race or name it lacks.
 
 president:
   1960:
@@ -42,4 +43,38 @@ races:
   # others
   1964 h NY 1-10: 'CQ, p. 1274: every figure it prints agrees; it prints the two leading candidates only.'
   1964 h PA 6: 'CQ, p. 1275: Rhodes 144,697, Bamford 88,495 (marked #); the Clerk prints no vote. Used (readings, source).'
+  1958 h AK 0: 'CQ, p. 1257: Rivers 27,945 (Clerk 27,948); Benson 20,699 as the Clerk. The Clerk stands.'
   1958 s NM 1, 1964 s NM 1, 1970 s NM 1, 1972 s GA 2: 'CQ, pp. 1456, 1441: as the Clerk.'
+  # the House pages compared Oct. 8, 2026: 570 figures, the two leading candidates (CQ prints no minor ones). Six
+  # races were the OCR's errors, now read by eye from the Clerk's page (readings): 1958 OR 1 (Norblad 95,423), SC 2
+  # (Riley 13,677), TN 3 (Frazier 31,267); 1960 SC 6 (McMillan 49,780, scattering 5 apart); 1968 TN 8 (Everett
+  # 70,644, write-ins 10 apart), TX 12 (Wright 86,069). Now 555 agree. The other 15 figures, in 12 races, are CQ's;
+  # the Clerk's page was read again for each, and it stands.
+  compared:
+    1956: 'p. 1254: New Mexico.'
+    1958: 'pp. 1259-60: New Mexico; Ohio 14-23, Oklahoma, Oregon, Pennsylvania, Rhode Island 2, South Carolina, South Dakota, Tennessee, Texas 1-3.'
+    1960: 'pp. 1263-65: Missouri 1-6; New York, North Carolina (but 6), North Dakota, Ohio, Oklahoma, Oregon, Pennsylvania, Rhode Island, South Carolina, South Dakota.'
+    1964: 'pp. 1274-75: Missouri, Oregon, South Carolina.'
+    1966: 'p. 1277: Arkansas 3-4.'
+    1968: 'p. 1285: Oklahoma, Oregon, Pennsylvania, Rhode Island, South Carolina, South Dakota, Tennessee (but 1), Texas 1-13.'
+
+shown:
+  # races: '<year> <ch> <st> <seat>' as the readings key them; president: '<year> president <st>'. {page, votes: {surname
+  # as the returns print it: CQ's figure}}. The Clerk's page was read again for each, and it stands.
+  1958 h AK 0: {page: 1257, votes: {Rivers: 27945}}
+  1958 h OH 22: {page: 1260, votes: {Bolton: 71139}}
+  1958 h OR 1: {page: 1260, votes: {Norblad: 95420}}
+  1958 h OR 2: {page: 1260, votes: {Ullman: 50166, Weatherford: 31987}}
+  1958 h SD 1: {page: 1260, votes: {McGovern: 107202, Foss: 93388}}
+  1958 h SD 2: {page: 1260, votes: {Berry: 31908, McCullen: 25491}}
+  1960 h OH 13: {page: 1265, votes: {Mosher: 73110}}
+  1960 h OH 22: {page: 1265, votes: {Paterson: 68930}}
+  1960 h OK 6: {page: 1265, votes: {Wheeler: 67116}}
+  1964 h MO 5: {page: 1274, votes: {Bolling: 91721}}
+  1964 h MO 7: {page: 1274, votes: {Hall: 102926}}
+  1964 h SC 1: {page: 1275, votes: {Rivers: 64804}}
+  1968 h SC 1: {page: 1285, votes: {Rivers: 95428}}
+  1960 president TX: {page: 789, votes: {Kennedy: 1167567, Nixon: 1121310}}
+  1968 president AR: {page: 791, votes: {Nixon: 190759, Humphrey: 188228, Wallace: 240982}}
+  1972 president AL: {page: 792, votes: {Schmitz: 11928}}
+  1972 president AR: {page: 792, votes: {Nixon: 448541, McGovern: 199892, Schmitz: 2887}}

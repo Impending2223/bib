@@ -73,6 +73,8 @@ elections/readings/<YYYY>.yaml  figures read by eye from the Clerk's pages, with
 elections/pres-margins.csv  every contested race for presidential electors, 1824–2024, by constituency (generated)
 elections/facts.yaml      hand-kept facts: caucus labels, faithless electors, 1960 slates, the Alabama reckonings
 elections/cq.yaml         CQ's *Guide to U.S. Elections* compared with the Clerk's figures, by page (kept by hand)
+elections/renominations.yaml  renominations lost by primary, where a source says so (kept by hand)
+elections/primaries.yaml  Senate primaries from CQ's *Guide*, by race (kept by hand; CQ prints no House primaries)
 congress/changes.yaml     departures and successors during each Congress (generated)
 congress/specials.yaml    special elections during each Congress, 87th–93rd, with candidates (generated)
 congress/switches.yaml    members who changed party in office (kept by hand)
@@ -183,8 +185,13 @@ are chronological by publication unless their intro says "Alphabetical".
 ```
 ./bib new-id cal 1961-10-27 berlin-and-vienna   # an unused id
 ./bib check            # must end "0 errors"; deal with new warnings
-./bib build            # build/<key>.html and build/series.html
+./bib build            # build/<key>.html and build/series.html (a page alone: ./bib build congress | names | cal ...)
+./bib links            # links between the built pages whose anchors are missing
 ```
+
+Every YAML file is parsed once a run, and the parse kept in `.cache/yaml` (git-ignored) by path, modification time and
+size, so a later run parses only what changed: `check` takes about 8 s, a full build about 35 s, a page 15-20 s.
+A link to another page's anchor that a later build lost lands on the page's top; `./bib links` lists them.
 
 **By patch**: when another session or a person will merge your work, or you
 cannot touch the repo. Write `inbox/<date>-<name>.yaml` and run
@@ -336,8 +343,13 @@ notes/executive-brief.md      the brief for whoever adds to the roster, person o
   one; before the term, an acting officer who held the office last follows him, marked "(acting)" (not where he is
   the term's own first holder). An office many hold at once (`many: true`) links the term tables before and after
   without naming anyone ("Before: Exec. 1957."). A link only to a table that holds the office.
+- On `executive.html` each term (h2) has three parts (h3, all small caps, centered: President and Executive Office,
+  Executive departments, Agencies and commissions), and the President's and departments' top units carry an h4 in
+  their summary, styled as the summary, so the Outline drawer and the scroll tool stop at them; the agencies and
+  commissions do not. The contents at the top list terms and parts only (`data-depth` on `tocList`). The
+  calendar's copy of a term keeps plain summaries.
 - Units nest by `under:` (the President at the top; the EOP; the departments in their order of creation;
-  the independent agencies), offices within a unit by `under:` (Rusk, and the men under Rusk). Ranks in the
+  the agencies and commissions), offices within a unit by `under:` (Rusk, and the men under Rusk). Ranks in the
   terms of Art. II, § 2, cl. 2: heads of departments, principal officers (PAS), inferior officers (PA, HD),
   employees, military officers (`rank`, `appt`).
 - Holders: `from` (taking office) is required; `nominated`, `confirmed`, `recess`, `appointed` (the
@@ -399,14 +411,38 @@ the middle name he went by (Thad Cochran, Brooks Hays); anyone not in the roster
 of his offices or Part III roles ("Governor of Arkansas"; the Presidency by "President of the United States"). Of
 several, the one whose service spans the person's first seat, then the fullest agreement of given names.
 
-Races (`election_sentences`): a candidate whose name agrees (a short form of the first name counts: Dick Clark) is
-taken, and refused only on certain grounds: the race is after his death; the rosters seat another man of the name
-from it, or seated one as its incumbent; the Directory's winner (`bd_winner`: its member of the name who sat for the
+Races (`election_sentences`): a candidate whose name agrees is taken. The surname may run to several words (Van Pelt,
+St Germain, du Pont / DuPont). The first given name agrees as written, as a short form (Dick Clark; `SHORT` in
+`tools/bib/congress.py`), as the rosters' own short form ("Daniel, Wilbur C. (Dan)": Dan Daniel), as the name the
+series writes him by after an initial ("Sanders, H. Barefoot": Barefoot Sanders), or as the first initial with a
+further given name spelled out where his full given names spell it (H. Carl Andersen: Herman Carl; J. Glenn Beall).
+Initials alone (O. C. Fisher) and a further name alone (Dale Alford, Melvin Price) are not taken by name: "J. C.
+Carter" is not Jimmy Carter, "Andrew Young" not John A. Young. The seat takes those: the winner of the surname whom
+the roster seats from the race at the Congress's opening is the person, whatever the returns make of his given names
+(Tip O'Neill, Mo Udall, Pete McCloskey); so is the incumbent of the surname the roster seated at the last opening,
+where his first name agrees. For the 86th Congress, which has no roster: the Senator of the class at the 87th's
+opening; the Representative the seat's 1960 race names as incumbent by the same name. A race the seat gives is
+confirmed and refused only by his death or an executive office. Otherwise a race is
+refused only on certain grounds: the race is after his death; the rosters seat another man of the name
+from it, or seated one as its incumbent (by his written or full given names: J. Glenn Beall, 1964, is James G., not
+John G. Jr.); the Directory's winner (`bd_winner`: its member of the name who sat for the
 State and was elected to that Congress) is another man; the Directory's full given names disagree with the returns'
 (George B. Murphy is not George Lloyd); he won while in executive office when the Congress met (Art. I, § 6). Nothing
 is refused by State or party. A race nothing confirms (a roster seat from it, his own Directory entry as its winner
 or naming his candidacy that year) shows "Check: matched by name only". `sources/race-matches.yaml` refuses or
 confirms a race by hand, with the reason; `check` fails on a person or race there that does not answer.
+
+The specials between Novembers (`congress/specials.yaml`, the States' and CQ's figures laid over) are taken by the same
+rules, the seat being the roster's at the next opening ("June 28, 1960 (special)"). An incumbent who lost renomination
+(the race's fates, from Wikipedia's race tables) has a row of his own, "Lost renomination", with the November
+nominees, where the roster seated him from the State at the last opening; "in the Democratic primary" only where a
+source says so (`elections/renominations.yaml`, kept by hand: 35 races, from the incumbents' Wikipedia articles), never
+from a State's nominating law. Where `elections/primaries.yaml` holds the race's primaries (CQ's figures and printed
+shares, by page), the row shows the rounds that name the person, each under its label, before the November vote
+("General election"), and cites CQ, a little space above each label after the first; a lost renomination shows its
+rounds alone, without the November vote, and gives the round he lost in the sentence ("in the Democratic
+runoff": Jordan, 1972). `check` fails on a key there that names no race. The record table sets each candidate in three columns, the count and the
+share right-aligned (under 520px the share goes under the count).
 
 Each entry: the Directory's description (or the Part III role), the pointers into the series, then the life as
 running text, with the date in each sentence; then Publications; FRUS documents sent; Oral histories given, papers,
@@ -448,7 +484,11 @@ Rerun `frus_names.py --all` and `app_names.py` after adding people; the build ne
 ## Special elections
 
 Specials held between general elections are not in the Clerk's biennial *Statistics*, which print
-only the November election (specials held that day are there, and in the election blocks). After
+only the November election. Of the specials held with a November election, the Clerk prints the Senate's
+and, of the House's, only Ohio-6 and Washington-3 in 1960 (as unexpired terms, under the district): those are in the
+election blocks; the other thirteen House specials held with November (1960-72) are `not_in_volume` in the readings
+and show with the Congress's specials (`specials.between`). `make_elections.py` takes Wikipedia's House specials
+dated on the general election (it once dropped every House special, so none reached the Clerk matching). After
 each Congress at its opening, `build/congress.html` gives that Congress's specials: a summary, House
 and Senate maps of the seats filled (large dots; the other districts drawn in the base map's gray; Result, Margin, Swing from the general election that chose
 the Congress, same district), and a table of the races. A calendar entry tagged `special:<key>`
@@ -486,7 +526,31 @@ tools/bib/specials.py             renders the blocks, the calendar's race tables
   carries a "Check"; so do shares that do not add to 100.
 - `check` fails on a duplicate key, a `special:` tag with no race, a switch not at its seat, or a reading
   whose votes do not add to its printed total or whose last round lacks the winner.
-- The 85th and 86th Congresses (1957–60) have no rosters and no specials.
+- Hawaii's first elections (July 28, 1959: two Senators, one Representative) are new seats, not vacancies (`new: true`
+  in `SENATE_HAND`): "New seat." in the note, counted apart in the summary, "(first election)" in the roster lines.
+- The 85th Congress (1957–59) has its specials only, ten House races from Wikipedia (CQ's figures for three), shown
+  in a section of their own before the 86th.
+- The 85th and 86th Congresses (1957–60) have no rosters. The 86th's specials (seven House races from Wikipedia;
+  North Dakota's Senate race of June 28, 1960, Burdick's, from the State's canvass, `SENATE_HAND`) and its changes in
+  membership (`changes.yaml`) are in, and follow the 1958 election on `congress.html`. The scripts now run 86th-93rd;
+  Wikipedia's pages for later Congresses have since changed (the 91st's changes, the 1973 specials), so a rerun
+  should be merged by Congress, not taken whole.
+- Notes shown with a race are for the reader: CQ's shares that count unprinted candidates, and Wikipedia's dates or
+  shares that a State's or CQ's figures settle, stay in the files (`remarks`) and are not shown; open Checks are.
+  A race's `note` starts a new line ("Party primaries ..."). Months as the series writes them (Feb. 15, 1961). CQ is
+  cited "CQ Guide 6th (2010) 1266", the full title with each block's sources and in the Names' list of sources.
+- The margin column gives swing as "8.3 to D" ("No swing"); the headings "Date / Seat" and "Margin / Swing".
+
+## Rosters and elections, linked
+
+`tools/bib/seatlinks.py`. Under each member at an opening, a muted line: the election that seated him ("Elected Nov. 8,
+1960"; "Seat filled Nov. 4, 1958 (Kennedy)" where he did not win the seat's last election, as an appointed Senator;
+1956 unlinked, having no block) and the seat's next ("Next: Nov. 6, 1962"; a special first, where one filled the
+seat; for the House, his own race that November where one race in his State names him, else the same number's).
+Under each race and special, "Roster: 87th Cong.", the seat's row at the next opening that has a roster. Under the
+presidential vote, "Took office", the President and Vice President in the Executive roster at the next inauguration.
+Tables write an at-large seat "AL" and leave the district column unheaded; a fusion candidacy's parties abbreviated ("D, R");
+a whole vote "100%".
 
 ## Elections
 
@@ -520,20 +584,27 @@ tools/bib/elections.py              renders the blocks and checks the data (STYL
   State's recapitulation total and Wikipedia's percentages (`reconcile.py`); a race that
   does not settle is read by eye into `elections/readings/<year>.yaml`. Where a race page
   and its recapitulation differ, the figure the Clerk's totals add up with is used, and the
-  race's `note` says so. Where the Clerk and Wikipedia disagree after a reading, the Clerk
+  reading's `printed` note says so: shown in the race's note, as is any other disagreement among the Clerk's own
+  figures (a misprinted total, transposed figures, a party printed one way and counted another). A reading's `note`
+  (other rulings) is kept in the file and not shown. Where the Clerk and Wikipedia disagree after a reading, the Clerk
   stands (`wikipedia_differs`), names included, unless the State's own canvass, read off its page, says otherwise:
   then the State's figure stands, the reading carrying `source` (the State's cite) and `clerk` (the Clerk's figures),
   both shown in the race's note (Md. 1958, Colo. 1960, Fla. and Mo. 1962; President: Wyo. 1960, Cal., Colo., Ga.
   1968, Cal. 1972). A later State compilation is not a canvass. CQ's *Guide to U.S. Elections* (6th ed., 2010) is
-  compared in `elections/cq.yaml`; it fills a race only where the Clerk prints no vote (`source` without `clerk`:
+  compared in `elections/cq.yaml`; where it differs from the figures shown, its figures are printed in the race's note
+  ("CQ Guide 6th (2010) 1275: Rivers 64,804."; `shown` there, read by the build); it fills a race only where the Clerk prints no vote (`source` without `clerk`:
   Pa.-6, 1964).
 - Reading keys: `h NY 9` (district; 0 at large), `s MD 1` (Senate class), `h NM 0-1` (an
   at-large position), `s OR 2 special` (a special held with a regular race for the same seat).
   A special Wikipedia lists that the Clerk's November volume does not print goes under
   `not_in_volume` with the reason. `check` fails on a malformed or stale key.
-- Candidates, incumbents, and their fates: Wikipedia's race tables; names as Wikipedia
-  gives them where the surname matches. New York's fusion candidates carry their party
-  lines and the Clerk's total.
+- Candidates, incumbents, and their fates: Wikipedia's race tables. Names: the OCR's are for matching only (it
+  garbles names), so a race takes Wikipedia's name where the surname matches; in a race read by eye, only where
+  Wikipedia's given names agree with the printed ones (`wiki_names`): a nickname is no disagreement (Bob and Robert;
+  '"Pete"' as printed), nor a first name or initial one drops; a first name nothing matches (Russell and Thomas S.
+  Kleppe, N.D. 1970) or initials that differ (Gladys E. and Gladys L. Davis, Ohio-6, 1960; CQ prints E. too) is,
+  and the printed name stands. Wikipedia's also mends the Clerk's surname misprints ('Zelenki'). New York's fusion
+  candidates carry their party lines and the Clerk's total.
 - President: each slate's vote (its highest elector), assigned to a candidate by
   Wikipedia's results by State; electoral votes from the same table, with `CAST`.
 - Margins are ordinary: the leader's votes less the runner-up's, over all the votes. The

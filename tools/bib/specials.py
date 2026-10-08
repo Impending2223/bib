@@ -95,8 +95,11 @@ def load():
             x["source"] = r.get("cite") or (f"{r['source']}, {r['where']}" if r.get("where") else r["source"])
             x["state"] = True
             x["url"] = r.get("url")
-            if x.get("check"):   # Wikipedia's shares no longer stand
+            if x.get("check"):   # Wikipedia's shares no longer stand; nor its dates, where these date the race
                 x["check"] = re.sub(r"\s*The shares in the source add to [\d.]+%\.", "", x["check"]).strip() or None
+            if x.get("check") and re.fullmatch(r"\d{4}-\d\d-\d\d", str(r["rounds"][-1]["date"])):
+                x["check"] = re.sub(r"\s*Wikipedia's list of House specials gives [^;]*; its \d{4} table, [^.]*\.", "",
+                                    x["check"]).strip() or None
             if r.get("note"):
                 x["note"] = r["note"]
     return data
@@ -109,8 +112,16 @@ def switches():
 
 def between(c, data=None):
     """The specials held between general elections during Congress c, and those held with one whose race the Clerk's
-    volume does not print (Georgia's Senate special, 1972: not_in_clerk)."""
-    return [x for x in (data or load()).get(c, []) if not x.get("with_general") or x.get("not_in_clerk")]
+    volume does not print (most House specials held with November; Georgia's Senate special, 1972: not_in_clerk)."""
+    return [x for x in (data or load()).get(c, []) if not x.get("with_general") or x.get("not_in_clerk") or not in_clerk(x)]
+
+
+def in_clerk(x):
+    """Is a special held with the November election among the Clerk's races (elections/<year>.yaml, special)?"""
+    from . import elections
+    E = elections.load().get(int(x["date"][:4])) or {}
+    return any(r.get("special") and r["ch"] == x["ch"] and r["st"] == x["st"] and r["seat"] == x["seat"]
+               for r in E.get("races") or [])
 
 
 def rid(x):
@@ -202,7 +213,7 @@ def general_dshare(c, x, edata):
 def record(c, x, edata):
     rows = final(x)
     p = x["party"] if x["party"] in ("D", "R") else "O"
-    rec = {"p": p, "n": surname(x["winner"]), "id": rid(x), "k": "pickup" if x.get("flip") else "held"}
+    rec = {"p": p, "n": surname(x["winner"]), "id": rid(x), "k": "new" if x.get("new") else "pickup" if x.get("flip") else "held"}
     rec["d" if x["ch"] == "h" else "cl"] = x["seat"]
     w = next((r for r in rows if r[4]), None)
     if w and w[3] is not None:
@@ -225,7 +236,18 @@ def swing(c, x, edata):
 
 
 def swing_words(v):
-    return "no swing" if abs(v) < 0.05 else f"swing {abs(v):.1f} to {'D' if v > 0 else 'R'}"
+    """'8.3 to D' (the column's heading says swing); 'No swing'."""
+    return "No swing" if abs(v) < 0.05 else f"{abs(v):.1f} to {'D' if v > 0 else 'R'}"
+
+
+MONTH_ABBR = {"January": "Jan.", "February": "Feb.", "March": "Mar.", "April": "Apr.", "May": "May", "June": "June",
+              "July": "July", "August": "Aug.", "September": "Sept.", "October": "Oct.", "November": "Nov.",
+              "December": "Dec."}
+
+
+def months(t):
+    """'February 15, 1961' -> 'Feb. 15, 1961': the series' months."""
+    return re.sub(r"\b(" + "|".join(MONTH_ABBR) + r")(?= \d)", lambda m: MONTH_ABBR[m.group(1)], t)
 
 
 # ---------------------------------------------------------------- the block
@@ -233,7 +255,11 @@ def swing_words(v):
 def summary(c, sp):
     out = []
     for ch, label in (("h", "House"), ("s", "Senate")):
-        xs = [x for x in sp if x["ch"] == ch]
+        new = [x for x in sp if x["ch"] == ch and x.get("new")]      # a new State's first elections
+        xs = [x for x in sp if x["ch"] == ch and not x.get("new")]
+        if new:
+            out.append(f"{label}, {len(new)} new seat{'s' if len(new) > 1 else ''}: " + "; ".join(
+                f"{NAME.get(p, p)} {n}" for p, n in sorted(Counter(x["party"] for x in new).items())) + ".")
         if not xs:
             continue
         held = Counter(x["party"] for x in xs if not x.get("flip"))
@@ -254,7 +280,8 @@ def cand_cell(rows, votes, st=None):
     for name, party, v, share, won in rows:
         cls = ' class="w"' if won else ""
         vv = f"{v:,}" if votes and v is not None else ""
-        ss = f"{share:.1f}%" if share is not None else "Unopposed"
+        from .elections import pct_text
+        ss = pct_text(share) if share is not None else "Unopposed"
         out.append(f'<span class="ec"><span{cls}><span class="en">{member_link(name, st) if st else esc(name)}</span> <span class="ep">{esc(party)}</span></span>'
                    f'<span class="ev">{vv}</span><span class="es">{ss}</span></span>')
     return "".join(out)
@@ -281,29 +308,32 @@ def member_link(name, st, inner=None):
 
 
 def note_cell(x):
-    bits = [f"{member_link(x['out'], x['st'])} ({esc(x['out_party'])}): {esc(x['why'].rstrip('.'))}."]
+    bits = [f"{member_link(x['out'], x['st'])} ({esc(x['out_party'])}): {esc(months(x['why']).rstrip('.'))}." if x.get("out")
+            else f"New seat. {esc(months(x['why']).rstrip('.'))}."]
     if x.get("flip"):
         same = surname(x["out"]) == surname(x["winner"])
         bits.append(f"{NAME.get(x['party'], x['party'])} pickup" + (", the same member under another party." if same else "."))
     if x.get("note"):
-        bits.append(esc(x["note"]))
+        bits.append("<br>" + esc(months(x["note"])))     # on its own line ('Party primaries ...')
     if x.get("state"):
+        # (CQ's shares count candidates it does not print: kept in the data for the checks, not shown)
         bits.append(f"Votes: {cite_html(x['source'], x.get('url'))}.")
-        left = unprinted(x["rounds"][-1]) if x.get("rounds") else 0
-        if left >= 0.5:
-            bits.append(f"Its shares count {left:.1f} points for candidates it does not print.")
     for c in x.get("pending") or []:
         bits.append(f"Check: {cite_html(c['cite'], c.get('url'), c.get('access'))}.")
     if x.get("check"):
-        bits.append(f"Check: {esc(x['check'])}")
+        bits.append(f"Check: {esc(months(x['check']))}")
+    from . import seatlinks
+    ro = seatlinks.roster_after(x["date"], x["ch"], x["st"], x["seat"])
+    if ro:
+        bits.append(f'<span class="elro">{ro}</span>')
     return " ".join(bits)
 
 
 def table(c, sp, edata, open_=False):
     from .congress import STATE
-    out = [f'<details class="cgr er"{" open" if open_ else ""}><summary>Races, {len(sp)}, by date</summary><table>'
+    out = [f'<details class="cgr er esp"{" open" if open_ else ""}><summary>Races, {len(sp)}, by date</summary><table>'
            '<colgroup><col class="c1"><col class="c2"><col class="c3"><col class="c4"></colgroup>'
-           '<thead><tr><th>Date, seat</th><th>Candidates, votes, share</th><th>Margin</th><th>Vacancy; note</th></tr></thead><tbody>']
+           '<thead><tr><th>Date<br>Seat</th><th>Candidates, votes, share</th><th>Margin<br>Swing</th><th>Vacancy; note</th></tr></thead><tbody>']
     out += [row(x, STATE, swing(c, x, edata)) for x in sp]
     out.append("</tbody></table></details>")
     return "\n".join(out)
@@ -374,10 +404,12 @@ def block(c, edata=None):
     out.append(legend(has_sw))
     out.append(table(c, sp, edata))
     out.append('<p class="elsrc">Specials held between general elections; those held with the November election are in its '
-               'block, from the Clerk. Returns: Wikipedia\'s tables of each year\'s House specials, which give shares, not votes; '
-               'Texas, 1961: votes from Bartley and Graham, <i>Southern Elections</i>. The official returns are the States\' '
-               'canvasses: the Clerk\'s biennial <i>Statistics</i> print only the November elections. Swing: from the general '
-               'election that chose the Congress, in the same district.</p>')
+               'block, from the Clerk. Returns: the States\' canvasses where read, cited by publication and page; then CQ Guide 6th '
+               '(2010), Congressional Quarterly, <i>Guide to U.S. Elections</i>, 6th ed. (2010), by page; otherwise '
+               'Wikipedia\'s tables of each year\'s House specials, which give shares, not votes; Texas, 1961: votes from '
+               'Bartley and Graham, <i>Southern Elections</i>. The official returns are the States\' canvasses: the Clerk\'s '
+               'biennial <i>Statistics</i> print only the November elections. Swing: from the general election that chose '
+               'the Congress, in the same district.</p>')
     out.append("</div>")
     return "\n".join(out)
 
@@ -391,10 +423,10 @@ def race_block(key, edata=None):
         for x in xs:
             if x["key"] == key:
                 src = re.sub(r"[*]([^*]+)[*]", r"<i>\1</i>", esc(x.get("source", "")))   # *Title* in italics
-                return ('<div class="cg sprace"><details class="cgr er" open><summary>The special election, '
+                return ('<div class="cg sprace"><details class="cgr er esp" open><summary>The special election, '
                         f'{esc(fmt_date(x["date"]))}</summary><table>'
                         '<colgroup><col class="c1"><col class="c2"><col class="c3"><col class="c4"></colgroup>'
-                        '<thead><tr><th>Date, seat</th><th>Candidates, votes, share</th><th>Margin</th><th>Vacancy; note</th></tr></thead><tbody>'
+                        '<thead><tr><th>Date<br>Seat</th><th>Candidates, votes, share</th><th>Margin<br>Swing</th><th>Vacancy; note</th></tr></thead><tbody>'
                         + row(x, STATE, swing(c, x, edata)) + '</tbody></table></details>'
                         f'<p class="elsrc">{src}. <a href="congress.html#{rid(x)}">All the specials of the '
                         f'{ordinal(c)} Congress</a>.</p></div>')

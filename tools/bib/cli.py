@@ -187,6 +187,43 @@ def cmd_show(series, a):
         print()
 
 
+def cmd_links(series, a):
+    """Every link between the built pages whose anchor is missing (a page built before its target changed)."""
+    import collections
+    import glob
+    import html as H
+    pages = {os.path.basename(p): p for p in glob.glob(os.path.join(OUT_DIR(), "*.html"))}
+    ids = {}
+
+    def ids_of(name):
+        if name not in ids:
+            text = open(pages[name], encoding="utf-8").read() if name in pages else ""
+            ids[name] = set(re.findall(r'\sid="([^"]+)"', text)) | set(re.findall(r"\sname=\"([^\"]+)\"", text))
+        return ids[name]
+    bad = collections.Counter()
+    shown = collections.defaultdict(list)
+    for name, path in sorted(pages.items()):
+        if name.startswith("lives"):
+            continue                      # the old addresses, forwarding to the names
+        text = open(path, encoding="utf-8").read()
+        for href in re.findall(r'href="([^"#:]*\.html)?#([^"]+)"', text):
+            target, frag = href[0] or name, H.unescape(href[1])
+            if target not in pages or frag in ids_of(target) or "'" in frag:    # (a script's template, not a link)
+                continue
+            bad[(name, target)] += 1
+            if len(shown[(name, target)]) < 3:
+                shown[(name, target)].append(frag)
+    for (src, dst), n in sorted(bad.items()):
+        print(f"{src} -> {dst}: {n} missing, e.g. {', '.join(shown[(src, dst)])}")
+    print(f"{sum(bad.values())} links to missing anchors")
+    return 1 if bad else 0
+
+
+def OUT_DIR():
+    from .build import OUT
+    return OUT
+
+
 def cmd_check(series, a):
     from . import check
     probs = check.run(series, only=a.list)
@@ -472,6 +509,7 @@ def main(argv=None):
     x.add_argument("--ids", action="store_true", help="print ids only")
     x = sub.add_parser("show", help="full YAML of entries, with rev, tags, and backlinks")
     x.add_argument("ids", nargs="+")
+    sub.add_parser("links", help="links between the built pages whose anchors are missing")
     x = sub.add_parser("check", help="lint the store; exit 1 on errors")
     x.add_argument("--list", "-l")
     x.add_argument("--quiet", "-q", action="store_true", help="errors only")

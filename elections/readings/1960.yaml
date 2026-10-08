@@ -511,6 +511,24 @@ races:
     cands:
     - [Maurine B. Neuberger, Democrat, 412757]
     - [Elmo Smith, Republican, 343009]
+  h OH 6 special:
+    cands:
+    - [Gladys E. Davis, Democrat, 61713]
+    - [Ward Miller, Republican, 76520]
+    note: >-
+      The special election for the rest of Polk's term, held with the regular one, printed under the district as
+      "Unexpired term, Eighty-sixth Congress" (p. 36); the regular race is h OH 6. CQ, p. 1265, agrees.
+  h SC 6:
+    cands:
+    - [John L. McMillan, Democrat, 49780]
+    - [Scattering, null, 5]
+  h WA 3 special:
+    cands:
+    - [Julia B. Hansen, Democrat, 71416]
+    - [Dale M. Nordquist, Republican, 63058]
+    note: >-
+      The special election for the rest of Mack's term, held with the regular one, printed under the district as
+      "Unexpired term, 86th Cong." (p. 47); the regular race is h WA 3. CQ, p. 1266, agrees.
   s OR 2 special:
     cands:
     - [Maurine B. Neuberger, Democrat, 422024]
@@ -665,8 +683,10 @@ races:
     - [George W. King, Republican, 67070]
 untabulated: [h AR 1, h AR 3, h AR 4, h AR 6]
 wikipedia_differs: [s CO 2]
-not_in_volume: {s ND 1 special: 'The special election of June 28, 1960 (Burdick), before the volume''s November
-    returns.'}
+not_in_volume:
+  s ND 1 special: The special election of June 28, 1960 (Burdick), before the volume's November returns.
+  h PA 18 special: >-
+    The special election for the rest of Elliott's term, held with the regular one; the Clerk prints the regular race only (p. 40 read).
 president:
   AL:
     slates:
@@ -722,7 +742,7 @@ president:
     - [Republican, 3446419]
     - [Socialist Worker, 14319]
     - [Scattering, 256]
-    note: The recapitulation's total counts 88,996 blank and void ballots; they are left out here.
+    printed: The recapitulation's total counts 88,996 blank and void ballots; they are left out here.
   WY:
     slates:
     - [Democratic, 63331]

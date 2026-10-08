@@ -34,12 +34,12 @@ BLUEBOOK = dict(AL="Ala.", AK="Alaska", AZ="Ariz.", AR="Ark.", CA="Cal.", CO="Co
                 MT="Mont.", NE="Neb.", NV="Nev.", NH="N.H.", NJ="N.J.", NM="N.M.", NY="N.Y.", NC="N.C.", ND="N.D.",
                 OH="Ohio", OK="Okla.", OR="Or.", PA="Pa.", RI="R.I.", SC="S.C.", SD="S.D.", TN="Tenn.", TX="Tex.",
                 UT="Utah", VT="Vt.", VA="Va.", WA="Wash.", WV="W. Va.", WI="Wis.", WY="Wyo.")
-SHORT = {"samuel": ["sam"], "william": ["bill", "will"], "robert": ["bob"], "thomas": ["tom"], "edward": ["ted", "ed"],
-         "james": ["jim"], "michael": ["mike"], "charles": ["charlie"], "richard": ["dick"], "joseph": ["joe"],
+SHORT = {"samuel": ["sam"], "william": ["bill", "will", "wm"], "robert": ["bob"], "thomas": ["tom"], "edward": ["ted", "ed"],
+         "james": ["jim", "jimmy"], "michael": ["mike"], "charles": ["charlie"], "richard": ["dick"], "joseph": ["joe"],
          "john": ["jack"], "daniel": ["dan"], "eugene": ["gene"], "frederick": ["fred"], "albert": ["al"],
          "hubert": ["hubert"], "lawrence": ["larry"], "kenneth": ["ken"], "theodore": ["ted"], "henry": ["harry"],
-         "everett": ["everett"], "clifford": ["cliff"], "gerald": ["jerry"], "abraham": ["abe"], "barry": ["barry"]}
-YEARS = {c: f"{1961 + 2 * (c - 87)}–{str(1963 + 2 * (c - 87))[2:]}" for c in range(86, 95)}
+         "everett": ["everett"], "clifford": ["cliff"], "gerald": ["jerry"], "abraham": ["abe"], "barry": ["barry"], "nicholas": ["nick"], "cornelius": ["neil"], "clement": ["clem"], "david": ["dave"]}
+YEARS = {c: f"{1961 + 2 * (c - 87)}–{str(1963 + 2 * (c - 87))[2:]}" for c in range(85, 95)}
 
 
 def ordinal(n):
@@ -347,7 +347,7 @@ def block(c, data, geo, ptr, href, rid, here=False):
     for ch, rows, label in (("h", house, "House"), ("s", senate, "Senate")):
         out.append(f'<details class="cgr cgm"><summary>{label} members, {len(rows)}, by state</summary><table>'
                    '<colgroup><col class="c1"><col class="c2"><col class="c3"><col class="c4"></colgroup>')
-        out.append(f'<thead><tr><th>{"District" if ch == "h" else "Class"}</th><th>Member</th><th>Party</th><th>In the series</th></tr></thead><tbody>')
+        out.append(f'<thead><tr><th>{"" if ch == "h" else "Class"}</th><th>Member</th><th>Party</th><th>In the series</th></tr></thead><tbody>')
         bystate = defaultdict(list)
         for r in rows:
             bystate[r["st"]].append(r)
@@ -355,7 +355,7 @@ def block(c, data, geo, ptr, href, rid, here=False):
             out.append(f'<tr class="st"><th colspan="4">{STATE[st]}</th></tr>')
             for r in bystate[st]:
                 seat = r["d"] if ch == "h" else r["cl"]
-                lab = ("At large" if seat == 0 else str(seat)) if ch == "h" else ("I", "II", "III")[seat - 1]
+                lab = ("AL" if seat == 0 else str(seat)) if ch == "h" else ("I", "II", "III")[seat - 1]
                 if r.get("vacant"):
                     who, party, pts = "<i>Vacant</i>", "", []
                 else:
@@ -373,6 +373,9 @@ def block(c, data, geo, ptr, href, rid, here=False):
                     note += f'<span class="cgn cgc">{change_note(x, specials.for_change(c, x), here)}</span>'
                 for s_ in sws:
                     note += f'<span class="cgn cgc">{esc(specials.switch_note(s_))}</span>'
+                from . import seatlinks
+                note += seatlinks.member_line(c, str(data["opened"]), ch, r["st"], seat,
+                                              "" if r.get("vacant") else r["name"], here)
                 out.append(f'<tr id="{rid(c, ch, r["st"], seat)}"><td>{lab}</td><td>{who}{note}</td>'
                            f'<td class="p{(caucused(r) or r.get("party") or "V") if not r.get("vacant") else "V"}t">{party}</td><td>{"; ".join(pts)}</td></tr>')
         out.append("</tbody></table></details>")
@@ -495,7 +498,7 @@ def page(series, linker, template):
     from . import elections
     edata = elections.load()
     etag = elections.tagged(series)
-    shown = sorted(set(data) | {87 + (y - 1960) // 2 for y in edata if y >= 1958})
+    shown = sorted(set(data) | {87 + (y - 1960) // 2 for y in edata if y >= 1958} | {c for c in specials.load() if c >= 85})
     for c in shown:
         main.append(f'<h2 id="c{c}" data-short="{ordinal(c)}">{ordinal(c)} Congress, {YEARS[c]}</h2>')
         y = 1960 + 2 * (c - 87)
@@ -506,7 +509,11 @@ def page(series, linker, template):
             main.append(elections.block(y, edata))
             if c in data:
                 main.append(f'<h3 id="o{c}" data-short="Opening">At the opening</h3>')
-        if c not in data:
+        if c not in data:                # no roster (the 86th): its specials still follow its election
+            sp = specials.block(c, edata)
+            if sp:
+                main.append(f'<h3 id="sp{c}" data-short="Specials">Special elections during the {ordinal(c)} Congress</h3>')
+                main.append(sp)
             continue
         if c in tagged:
             main.append(f'<p class="logic">In the calendar: <a href="cal.html#{tagged[c]["id"]}">{esc(tagged[c]["when"])}, {tagged[c]["date"][:4]}</a>.</p>')

@@ -388,7 +388,17 @@ def summary(year, data):
 
 ABBR = {"Democrat": "D", "Republican": "R", "Democrat, Liberal": "D, L", "Democrat-Farmer-Labor": "DFL", "Liberal": "L",
         "Conservative": "C", "Independent": "I", "Independent Democrat": "Ind. D", "Socialist Labor": "Soc. Lab.",
-        "Socialist Workers": "Soc. Wkrs.", "Prohibition": "Proh."}
+        "Socialist Workers": "Soc. Wkrs.", "Prohibition": "Proh.", "Democratic": "D"}
+
+
+def pct_text(x):
+    """'54.9%'; a whole vote, '100%' (it fits the column)."""
+    return "100%" if x >= 99.95 else f"{x:.1f}%"
+
+
+def party_abbr(p):
+    """'Democrat, Republican' -> 'D, R': each line of a fusion candidacy abbreviated where it can be."""
+    return ABBR.get(p) or ", ".join(ABBR.get(x.strip(), x.strip()) for x in p.split(","))
 
 
 SERIES = None    # set by the pages that draw the blocks (congress.py): the series, for the candidates' name entries
@@ -406,8 +416,8 @@ def cand_link(year, r, c):
 
 
 def cand_html(c, m, link=None):
-    share = f"{100 * c['v'] / m['total']:.1f}%" if c.get("v") is not None and m["total"] else "—"
-    party = esc(ABBR.get(c["party"], c["party"]))
+    share = pct_text(100 * c['v'] / m['total']) if c.get("v") is not None and m["total"] else "—"
+    party = esc(party_abbr(c["party"]))
     lines = ""
     if c.get("lines"):
         lines = '<span class="eln">' + "; ".join(f"{esc(ABBR.get(p, p))} {num(v)}" for p, v in c["lines"]) + "</span>"
@@ -422,6 +432,8 @@ def fate(i):
     t = (i.get("result") or "").split(". ")[0].rstrip(".")
     t = re.sub(r"^Incumbent\s+", "", t)
     who = f"{short(i['n'])} ({i['p']})"
+    from .specials import months
+    t = months(t)
     if not t or t.lower().startswith(("re-elected", "new seat")):
         return ""
     return f"{who} {t}."
@@ -436,6 +448,55 @@ def src_note(r):
     if r.get("clerk"):
         return [f"Votes: {src}; the Clerk prints {esc(r['clerk'])}."]
     return [f"The Clerk prints no vote; votes: {src}."]
+
+
+def cq_shown():
+    """elections/cq.yaml shown: CQ's figures where they differ from those shown, {key: {page, votes}}."""
+    if "cq" not in _cache:
+        p = os.path.join(DIR, "cq.yaml")
+        _cache["cq"] = ((store.load_yaml(p) or {}).get("shown") or {}) if os.path.exists(p) else {}
+    return _cache["cq"]
+
+
+def race_key(year, r):
+    """'1964 h SC 1', as the readings key a race, with the year ('1962 h NM 0-1', '1960 s OR 2 special')."""
+    pos = f"-{r['position']}" if r.get("position") else ""
+    return f"{year} {r['ch']} {r['st']} {r['seat']}{pos}" + (" special" if r.get("special") else "")
+
+
+def printed_notes():
+    """{(year, readings key): text}: the readings' `printed` notes, where the Clerk's own figures disagree (the race
+    page and the recapitulation, a bracketed total and its lines); shown in the race's note. President: 'president ST'."""
+    if "printed" not in _cache:
+        out = {}
+        rd = os.path.join(DIR, "readings")
+        for f in sorted(os.listdir(rd)) if os.path.isdir(rd) else []:
+            m = re.match(r"^(\d{4})\.yaml$", f)
+            if not m:
+                continue
+            R = store.load_yaml(os.path.join(rd, f)) or {}
+            for k, v in (R.get("races") or {}).items():
+                if (v or {}).get("printed"):
+                    out[(int(m.group(1)), k)] = " ".join(str(v["printed"]).split())
+            for st, v in (R.get("president") or {}).items():
+                if (v or {}).get("printed"):
+                    out[(int(m.group(1)), f"president {st}")] = " ".join(str(v["printed"]).split())
+        _cache["printed"] = out
+    return _cache["printed"]
+
+
+def printed_note(year, key):
+    """The reading's `printed` note, its *italics* set: HTML or ''."""
+    t = printed_notes().get((int(year), key))
+    return re.sub(r"[*]([^*]+)[*]", r"<i>\1</i>", esc(t)) if t else ""
+
+
+def cq_note(key):
+    """'CQ Guide 6th (2010) 1275: Rivers 64,804.', where CQ's figures differ from those shown; else ''."""
+    x = cq_shown().get(key)
+    if not x:
+        return ""
+    return f"CQ Guide 6th (2010) {x['page']}: " + ", ".join(f"{esc(n)} {v:,}" for n, v in x["votes"].items()) + "."
 
 
 def note_html(r, winners):
@@ -462,7 +523,7 @@ def table(year, ch, races):
     rs = [r for r in races if r["ch"] == ch]
     out = [f'<details class="cgr er"><summary>{label} races, {len(rs)}, by state</summary><table>'
            '<colgroup><col class="c1"><col class="c2"><col class="c3"><col class="c4"></colgroup>'
-           f'<thead><tr><th>{"District" if ch == "h" else "Class"}</th><th>Candidates, votes, share</th>'
+           f'<thead><tr><th>{"" if ch == "h" else "Class"}</th><th>Candidates, votes, share</th>'
            '<th>Margin</th><th>Note</th></tr></thead><tbody>']
     by = defaultdict(list)
     for r in rs:
@@ -475,11 +536,13 @@ def table(year, ch, races):
             ks = {kind(r, w) for w in winners}
             cls = "pk" if "pickup" in ks else "mc" if ks & {"change", "new"} else ""
             if ch == "h":
-                seat = "At large" if r["seat"] == 0 else str(r["seat"])
+                seat = "AL" if r["seat"] == 0 else str(r["seat"])
                 if r.get("position"):
                     seat += f", position {r['position']}"
                 if r.get("seats", 1) > 1:
                     seat += f" ({r['seats']} seats)"
+                if r.get("special"):
+                    seat += ", unexpired term"
             else:
                 seat = ("I", "II", "III")[r["seat"] - 1] + (", unexpired term" if r.get("special") else "")
             cands = "".join(f'<span class="ec">{cand_html(c, m, cand_link(year, r, c))}</span>'
@@ -491,8 +554,13 @@ def table(year, ch, races):
             else:
                 margin = "Unopposed"
             wp = party_of(winners[0]) if winners else ""
+            from . import seatlinks
+            ro = seatlinks.roster_after(load()[year]["date"], r["ch"], r["st"], r["seat"])
+            note = " ".join(x for x in (note_html(r, winners), printed_note(year, race_key(year, r)[5:]),
+                                        cq_note(race_key(year, r)),
+                                        f'<span class="elro">{ro}</span>' if ro else "") if x)
             out.append(f'<tr id="{rid(year, r)}" class="{cls} w{wp}"><td>{esc(seat)}</td><td class="ecs">{cands}</td>'
-                       f'<td class="em">{margin}</td><td class="eno">{note_html(r, winners)}</td></tr>')
+                       f'<td class="em">{margin}</td><td class="eno">{note}</td></tr>')
     out.append("</tbody></table></details>")
     return "\n".join(out)
 
@@ -509,7 +577,9 @@ def block(year, data, view="r"):
     if pres:
         seats["p"] = pres_rows(year, data)
         line, note = pres_summary(year, data)
-        out.append(f'<p class="elsum">{esc(line)}</p>')
+        from . import seatlinks
+        ex = seatlinks.exec_after(year)
+        out.append(f'<p class="elsum">{esc(line)}' + (f" {ex}." if ex else "") + '</p>')
         has_sw = has_sw or any("sw" in x for x in seats["p"].values())
     for line in summary(year, data):
         out.append(f'<p class="elsum">{esc(line)}</p>')
@@ -535,7 +605,9 @@ def block(year, data, view="r"):
     src = E.get("source", {})
     out.append(f'<p class="elsrc">Returns: <a href="{esc(src.get("url", ""))}">{esc(src.get("label", ""))}</a>, '
                'read by OCR and checked against its recapitulation totals and Wikipedia\'s percentages, or read by eye. '
-               'Incumbents and their fates: Wikipedia\'s race tables. Margin: votes, and points of all the votes cast in the race.</p>')
+               'Incumbents and their fates: Wikipedia\'s race tables. Margin: votes, and points of all the votes cast in the race.'
+               + (' CQ Guide 6th (2010): Congressional Quarterly, <i>Guide to U.S. Elections</i>, 6th ed. (2010), by page.'
+                  if any((r.get("src") or "").startswith("CQ Guide") for r in E["races"]) else "") + '</p>')
     out.append("</div>")
     return "\n".join(out)
 
@@ -668,7 +740,7 @@ def pres_table(year, data):
     pm = {r["st"]: pmetrics(r) for r in prev["states"]} if prev else {}
     PC = pcands(data[year - 4]) if prev else {}
     rows = sorted(E["president"]["states"], key=lambda r: STATE.get(r["st"], r["st"]))
-    out = [f'<details class="cgr er"><summary>President, {len(rows)} States{" and the District" if any(r["st"] == "DC" for r in rows) else ""}</summary><table>'
+    out = [f'<details class="cgr er epr"><summary>President, {len(rows)} States{" and the District" if any(r["st"] == "DC" for r in rows) else ""}</summary><table>'
            '<colgroup><col class="c1"><col class="c2"><col class="c3"><col class="c4"></colgroup>'
            '<thead><tr><th>State, electors</th><th>Slates, votes, share</th><th>Margin</th><th>Note</th></tr></thead><tbody>']
     for r in rows:
@@ -677,7 +749,7 @@ def pres_table(year, data):
         for s in sorted(r["slates"], key=lambda s: -(s.get("v") or 0)):
             who = C[s["k"]]["n"] if s["k"] in C else ""
             wl = cand_link(year, None, {"n": who}) if who else None
-            share = f"{100 * s['v'] / m['total']:.1f}%" if s.get("v") is not None and m["total"] else "—"
+            share = pct_text(100 * s['v'] / m['total']) if s.get("v") is not None and m["total"] else "—"
             w = ' class="w"' if s["k"] == m["win"] else ""
             cs += (f'<span class="ec"><span{w}><span class="en">{esc(s["party"])}</span>'
                    + (f' <span class="ep">{f"""<a class="nm" href="{esc(wl)}">{esc(who)}</a>""" if wl else esc(who)}</span>' if who else "") +
@@ -698,7 +770,9 @@ def pres_table(year, data):
         cls = "pk" if q and pcls(q["win"], PC) != p else ""
         out.append(f'<tr id="e{year}-p-{r["st"]}" class="{cls} w{p}"><td>{esc(STATE.get(r["st"], r["st"]))}<br>'
                    f'<span class="es">{r["ev"]}</span></td><td class="ecs">{cs}</td><td class="em">{margin}</td>'
-                   f'<td class="eno">{" ".join([esc(" ".join(note))] + (src_note(r) if r.get("clerk") else []))}</td></tr>')
+                   f'<td class="eno">{" ".join([esc(" ".join(note))] + (src_note(r) if r.get("clerk") else [])
+                                               + [printed_note(year, f"president {r['st']}"),
+                                                  cq_note(f"{year} president {r['st']}")])}</td></tr>')
     out.append("</tbody></table></details>")
     return "\n".join(out)
 
@@ -759,6 +833,18 @@ def problems():
                 if not r.get("vacant") and r.get("party") not in ("D", "R") and not third(r["name"].split(",")[0].strip().lower()):
                     out.append((f"congress/{c}.yaml", f"{r['name']} ({r['party']}): add the party caucused with to "
                                                       "elections/facts.yaml caucus:"))
+    keys = {}
+    for y, E in load().items():
+        for r in E.get("races", []):
+            keys[race_key(y, r)] = {surname(c["n"]).lower() for c in r["cands"]}
+        for s in ((E.get("president") or {}).get("states") or []):
+            keys[f"{y} president {s['st']}"] = None
+    for k, x in cq_shown().items():
+        if k not in keys:
+            out.append(("elections/cq.yaml", f"shown: {k}: no such race"))
+        elif keys[k] is not None:
+            out += [("elections/cq.yaml", f"shown: {k}: no candidate {n}") for n in (x or {}).get("votes") or {}
+                    if n.lower() not in keys[k]]
     rd = os.path.join(DIR, "readings")
     for y, E in load().items():
         for r in E.get("races", []):

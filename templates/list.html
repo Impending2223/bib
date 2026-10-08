@@ -139,9 +139,10 @@ ol.e>li:last-child{border-bottom:0}
   // build nested outline (contents + drawer)
   function buildTree(ol){
     if(!ol) return;                  // a page without a contents list (the Names)
-    var stack=[{level:1,el:ol}];
+    var stack=[{level:1,el:ol}], maxL=+ol.getAttribute('data-depth')||9;   // data-depth: the deepest heading listed
     heads.forEach(function(h){
       var L=lvl(h);
+      if(L>maxL) return;
       while(stack.length>1 && stack[stack.length-1].level>=L) stack.pop();
       var parent=stack[stack.length-1];
       var li=document.createElement('li');
