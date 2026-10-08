@@ -432,6 +432,8 @@ def fate(i):
     t = (i.get("result") or "").split(". ")[0].rstrip(".")
     t = re.sub(r"^Incumbent\s+", "", t)
     who = f"{short(i['n'])} ({i['p']})"
+    from .specials import months
+    t = months(t)
     if not t or t.lower().startswith(("re-elected", "new seat")):
         return ""
     return f"{who} {t}."
@@ -490,6 +492,8 @@ def table(year, ch, races):
                     seat += f", position {r['position']}"
                 if r.get("seats", 1) > 1:
                     seat += f" ({r['seats']} seats)"
+                if r.get("special"):
+                    seat += ", unexpired term"
             else:
                 seat = ("I", "II", "III")[r["seat"] - 1] + (", unexpired term" if r.get("special") else "")
             cands = "".join(f'<span class="ec">{cand_html(c, m, cand_link(year, r, c))}</span>'

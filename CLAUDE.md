@@ -73,6 +73,7 @@ elections/readings/<YYYY>.yaml  figures read by eye from the Clerk's pages, with
 elections/pres-margins.csv  every contested race for presidential electors, 1824–2024, by constituency (generated)
 elections/facts.yaml      hand-kept facts: caucus labels, faithless electors, 1960 slates, the Alabama reckonings
 elections/cq.yaml         CQ's *Guide to U.S. Elections* compared with the Clerk's figures, by page (kept by hand)
+elections/renominations.yaml  renominations lost by primary, where a source says so (kept by hand)
 congress/changes.yaml     departures and successors during each Congress (generated)
 congress/specials.yaml    special elections during each Congress, 87th–93rd, with candidates (generated)
 congress/switches.yaml    members who changed party in office (kept by hand)
@@ -428,8 +429,9 @@ confirms a race by hand, with the reason; `check` fails on a person or race ther
 The specials between Novembers (`congress/specials.yaml`, the States' and CQ's figures laid over) are taken by the same
 rules, the seat being the roster's at the next opening ("June 28, 1960 (special)"). An incumbent who lost renomination
 (the race's fates, from Wikipedia's race tables) has a row of his own, "Lost renomination", with the November
-nominees, where the roster seated him from the State at the last opening; the fates do not say whether by primary or
-convention, and the row does not either. The record table sets each candidate in three columns, the count and the
+nominees, where the roster seated him from the State at the last opening; "in the Democratic primary" only where a
+source says so (`elections/renominations.yaml`, kept by hand: 35 races, from the incumbents' Wikipedia articles), never
+from a State's nominating law. The record table sets each candidate in three columns, the count and the
 share right-aligned (under 520px the share goes under the count).
 
 Each entry: the Directory's description (or the Part III role), the pointers into the series, then the life as
@@ -472,7 +474,11 @@ Rerun `frus_names.py --all` and `app_names.py` after adding people; the build ne
 ## Special elections
 
 Specials held between general elections are not in the Clerk's biennial *Statistics*, which print
-only the November election (specials held that day are there, and in the election blocks). After
+only the November election. Of the specials held with a November election, the Clerk prints the Senate's
+and, of the House's, only Ohio-6 and Washington-3 in 1960 (as unexpired terms, under the district): those are in the
+election blocks; the other thirteen House specials held with November (1960-72) are `not_in_volume` in the readings
+and show with the Congress's specials (`specials.between`). `make_elections.py` takes Wikipedia's House specials
+dated on the general election (it once dropped every House special, so none reached the Clerk matching). After
 each Congress at its opening, `build/congress.html` gives that Congress's specials: a summary, House
 and Senate maps of the seats filled (large dots; the other districts drawn in the base map's gray; Result, Margin, Swing from the general election that chose
 the Congress, same district), and a table of the races. A calendar entry tagged `special:<key>`
@@ -510,6 +516,10 @@ tools/bib/specials.py             renders the blocks, the calendar's race tables
   carries a "Check"; so do shares that do not add to 100.
 - `check` fails on a duplicate key, a `special:` tag with no race, a switch not at its seat, or a reading
   whose votes do not add to its printed total or whose last round lacks the winner.
+- Hawaii's first elections (July 28, 1959: two Senators, one Representative) are new seats, not vacancies (`new: true`
+  in `SENATE_HAND`): "New seat." in the note, counted apart in the summary, "(first election)" in the roster lines.
+- The 85th Congress (1957–59) has its specials only, ten House races from Wikipedia (CQ's figures for three), shown
+  in a section of their own before the 86th.
 - The 85th and 86th Congresses (1957–60) have no rosters. The 86th's specials (seven House races from Wikipedia;
   North Dakota's Senate race of June 28, 1960, Burdick's, from the State's canvass, `SENATE_HAND`) and its changes in
   membership (`changes.yaml`) are in, and follow the 1958 election on `congress.html`. The scripts now run 86th-93rd;

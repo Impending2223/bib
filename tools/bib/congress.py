@@ -39,7 +39,7 @@ SHORT = {"samuel": ["sam"], "william": ["bill", "will"], "robert": ["bob"], "tho
          "john": ["jack"], "daniel": ["dan"], "eugene": ["gene"], "frederick": ["fred"], "albert": ["al"],
          "hubert": ["hubert"], "lawrence": ["larry"], "kenneth": ["ken"], "theodore": ["ted"], "henry": ["harry"],
          "everett": ["everett"], "clifford": ["cliff"], "gerald": ["jerry"], "abraham": ["abe"], "barry": ["barry"], "nicholas": ["nick"], "cornelius": ["neil"], "clement": ["clem"]}
-YEARS = {c: f"{1961 + 2 * (c - 87)}–{str(1963 + 2 * (c - 87))[2:]}" for c in range(86, 95)}
+YEARS = {c: f"{1961 + 2 * (c - 87)}–{str(1963 + 2 * (c - 87))[2:]}" for c in range(85, 95)}
 
 
 def ordinal(n):
@@ -498,7 +498,7 @@ def page(series, linker, template):
     from . import elections
     edata = elections.load()
     etag = elections.tagged(series)
-    shown = sorted(set(data) | {87 + (y - 1960) // 2 for y in edata if y >= 1958})
+    shown = sorted(set(data) | {87 + (y - 1960) // 2 for y in edata if y >= 1958} | {c for c in specials.load() if c >= 85})
     for c in shown:
         main.append(f'<h2 id="c{c}" data-short="{ordinal(c)}">{ordinal(c)} Congress, {YEARS[c]}</h2>')
         y = 1960 + 2 * (c - 87)

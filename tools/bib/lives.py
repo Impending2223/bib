@@ -690,6 +690,15 @@ def race_key(y, r):
     return f"{y} {r['ch']} {r['st']} {r.get('seat') or 0}{pos}" + (" special" if r.get("special") else "")
 
 
+def renominations_by():
+    """elections/renominations.yaml: {'<race key> | <incumbent>': {party, source}}, the renominations lost by primary
+    where a source says so (kept by hand)."""
+    def make():
+        p = os.path.join(store.ROOT, "elections", "renominations.yaml")
+        return {re.sub(r"\s*\|\s*", " | ", k): v for k, v in ((store.load_yaml(p) or {}).items() if os.path.exists(p) else [])}
+    return cached("renominations", make)
+
+
 def race_matches():
     """sources/race-matches.yaml: {person: {refuse: {race: why}, confirm: {race: why}}}, kept by hand."""
     def make():
@@ -923,10 +932,16 @@ def election_sentences(sur, given, sfx="", strict=False, givens=(), held=(), sea
             check = not (sat or key in hand.get("confirm", {}))
             what = re.sub(r"^Incumbent\s+", "", fate.split(". ")[0].split(";")[0]).strip().rstrip(".")
             what = what[:1].upper() + what[1:]
+            by = renominations_by().get(f"{key} | {i.get('n')}")   # by primary, where a source says so
+            if by and what == "Lost renomination":
+                what += f" in the {by['party']} primary"
             where = STATE.get(r["st"], r["st"])
             seat_ = "Senate, " + where if r["ch"] == "s" else f"House, {r['st']}-{r['seat'] or 'AL'}"
             wiki = f"https://en.wikipedia.org/wiki/{y}_United_States_{'Senate' if r['ch'] == 's' else 'House_of_Representatives'}_elections"
             src = a(wiki, f"Wikipedia, {y} {'Senate' if r['ch'] == 's' else 'House'} elections")
+            if by and by.get("source", "").startswith("Wikipedia: "):
+                art = by["source"][len("Wikipedia: "):]
+                src += "; " + a("https://en.wikipedia.org/wiki/" + art.replace(" ", "_"), f"Wikipedia, {esc(art)}")
             cs = r.get("cands") or []
             tot = sum(c.get("v") or 0 for c in cs) + (r.get("scat") or 0)
             res_.append(sent(d["date"], f"{what}: {seat_}, {y}.", [src],
@@ -991,7 +1006,7 @@ def election_sentences(sur, given, sfx="", strict=False, givens=(), held=(), sea
                 others = ", ".join(f"{esc(r_[0])} ({r_[1]}) " + (f"{r_[2]:,}" if r_[2] else f"{r_[3]:.1f}%" if r_[3] is not None else "")
                                    for r_ in rows if r_ is not me and r_[0] != "Scattering")
                 t = (f"{'Elected' if won else 'Defeated'} {'to' if won else 'for'} the {seat_}"
-                     f"{', ' + where if x['ch'] == 's' else ''} in a special election, {fmt(x['date'])}{votes}"
+                     f"{', ' + where if x['ch'] == 's' else ''} in {'the State' + chr(39) + 's first election' if x.get('new') else 'a special election'}, {fmt(x['date'])}{votes}"
                      + (f"; {others}" if others else "") + ".")
                 from .congress import ordinal as ord_
                 cite = re.sub(r"[*]([^*]+)[*]", r"<i>\1</i>", esc(x.get("source") or ""))
@@ -1000,7 +1015,7 @@ def election_sentences(sur, given, sfx="", strict=False, givens=(), held=(), sea
                 res.append(sent(x["date"], t, [src] if src else [], [there], para=True, kind="election", dates={x["date"]}))
                 res[-1]["row"] = {
                     "cong": c_, "ch": x["ch"], "st": x["st"], "date": x["date"],
-                    "election": ptr(f"{SITE}congress.html#{SP.rid(x)}", fmt(x["date"]) + " (special)"),
+                    "election": ptr(f"{SITE}congress.html#{SP.rid(x)}", fmt(x["date"]) + (" (first election)" if x.get("new") else " (special)")),
                     "seat": f"Senate, {BLUEBOOK.get(x['st'], x['st'])}" if x["ch"] == "s" else
                             f"{BLUEBOOK.get(x['st'], x['st'])}-{x['seat'] or 'AL'}",
                     "result": "",

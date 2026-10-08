@@ -57,7 +57,8 @@ def events():
         for x in specials.between(c, sp):
             names = [row[0] for row in specials.final(x)]
             out[(x["ch"], x["st"], x["seat"])].append(
-                (x["date"], f"congress.html#{specials.rid(x)}", specials.fmt_date(x["date"]) + " (special)",
+                (x["date"], f"congress.html#{specials.rid(x)}",
+                 specials.fmt_date(x["date"]) + (" (first election)" if x.get("new") else " (special)"),
                  [x["winner"]], names, None))
     for k in out:
         out[k].sort(key=lambda e: e[0])

@@ -112,8 +112,16 @@ def switches():
 
 def between(c, data=None):
     """The specials held between general elections during Congress c, and those held with one whose race the Clerk's
-    volume does not print (Georgia's Senate special, 1972: not_in_clerk)."""
-    return [x for x in (data or load()).get(c, []) if not x.get("with_general") or x.get("not_in_clerk")]
+    volume does not print (most House specials held with November; Georgia's Senate special, 1972: not_in_clerk)."""
+    return [x for x in (data or load()).get(c, []) if not x.get("with_general") or x.get("not_in_clerk") or not in_clerk(x)]
+
+
+def in_clerk(x):
+    """Is a special held with the November election among the Clerk's races (elections/<year>.yaml, special)?"""
+    from . import elections
+    E = elections.load().get(int(x["date"][:4])) or {}
+    return any(r.get("special") and r["ch"] == x["ch"] and r["st"] == x["st"] and r["seat"] == x["seat"]
+               for r in E.get("races") or [])
 
 
 def rid(x):
@@ -205,7 +213,7 @@ def general_dshare(c, x, edata):
 def record(c, x, edata):
     rows = final(x)
     p = x["party"] if x["party"] in ("D", "R") else "O"
-    rec = {"p": p, "n": surname(x["winner"]), "id": rid(x), "k": "pickup" if x.get("flip") else "held"}
+    rec = {"p": p, "n": surname(x["winner"]), "id": rid(x), "k": "new" if x.get("new") else "pickup" if x.get("flip") else "held"}
     rec["d" if x["ch"] == "h" else "cl"] = x["seat"]
     w = next((r for r in rows if r[4]), None)
     if w and w[3] is not None:
@@ -247,7 +255,11 @@ def months(t):
 def summary(c, sp):
     out = []
     for ch, label in (("h", "House"), ("s", "Senate")):
-        xs = [x for x in sp if x["ch"] == ch]
+        new = [x for x in sp if x["ch"] == ch and x.get("new")]      # a new State's first elections
+        xs = [x for x in sp if x["ch"] == ch and not x.get("new")]
+        if new:
+            out.append(f"{label}, {len(new)} new seat{'s' if len(new) > 1 else ''}: " + "; ".join(
+                f"{NAME.get(p, p)} {n}" for p, n in sorted(Counter(x["party"] for x in new).items())) + ".")
         if not xs:
             continue
         held = Counter(x["party"] for x in xs if not x.get("flip"))
@@ -296,7 +308,8 @@ def member_link(name, st, inner=None):
 
 
 def note_cell(x):
-    bits = [f"{member_link(x['out'], x['st'])} ({esc(x['out_party'])}): {esc(months(x['why']).rstrip('.'))}."]
+    bits = [f"{member_link(x['out'], x['st'])} ({esc(x['out_party'])}): {esc(months(x['why']).rstrip('.'))}." if x.get("out")
+            else f"New seat. {esc(months(x['why']).rstrip('.'))}."]
     if x.get("flip"):
         same = surname(x["out"]) == surname(x["winner"])
         bits.append(f"{NAME.get(x['party'], x['party'])} pickup" + (", the same member under another party." if same else "."))

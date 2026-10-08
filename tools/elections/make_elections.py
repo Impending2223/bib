@@ -14,6 +14,7 @@
 #   candidates it lists and the Clerk's (OCR) for the others.
 """
 import concurrent.futures
+import datetime
 import glob
 import os
 import re
@@ -128,7 +129,14 @@ def wiki_page(t, cache):
 def wiki_races(y, cache):
     def page(t):
         return wiki_page(t, cache)
-    H = [r for r in wiki.house(page(f'{y}_United_States_House_of_Representatives_elections')) if not r['special']]
+    # the House: the regular races, and the specials held with them (Wikipedia's 'New member elected November 8, 1960'),
+    # which the Clerk prints under the district as an unexpired term where he prints them at all (Ohio-6, 1960);
+    # the specials of other days are not in his November volume (congress/specials.yaml has them)
+    day = datetime.date.fromisoformat(DATE[y])
+    words = f"{day.strftime('%B')} {day.day}, {day.year}"
+    H = [r for r in wiki.house(page(f'{y}_United_States_House_of_Representatives_elections'))
+         if not r['special'] or any(re.search(r'elected\s+' + re.escape(words), re.sub(r'<!--.*?-->', '', i.get('result') or ''))
+                                    for i in r['incumbents'])]
     S = wiki.senate(page(f'{y}_United_States_Senate_elections'), CLASS[y])
     return H, S
 
@@ -250,7 +258,11 @@ def year(y, cache, write=True):
             else:
                 merged.append(r)
         races = merged
-        match.align(races, lines)
+        # a House special held with November has the regular race's candidates, often; one read by eye or not in the
+        # volume stays out of the line matching, which would give it the regular race's lines
+        aside = [r for r in races if r.get('special') and r['chamber'] == 'h'
+                 and any((r['chamber'], st, seat_key(r), 'special') in t.get(y, ()) for t in (read.READ, read.NOT_IN_VOLUME))]
+        match.align([r for r in races if not any(r is a for a in aside)], lines)
         for r in races:
             key = (r['chamber'], st, seat_key(r))
             rec = race_record(y, st, r, lines, key, dg, recap)

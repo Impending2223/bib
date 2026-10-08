@@ -112,7 +112,7 @@ def house_list(cache):
     out = {}
     for blk in fetch(HOUSE_LIST, cache).split('\n|-'):
         m = re.search(r'USCongressOrdinal\|(\d+)', blk)
-        if not m or not 86 <= int(m.group(1)) <= 93:
+        if not m or not 85 <= int(m.group(1)) <= 93:
             continue
         u = re.search(r'\{\{[Uu]shr\|([^|}]+)\|([^|}]+)', blk)
         cells = [c.strip() for c in re.split(r'\n\|', blk)]
@@ -201,7 +201,7 @@ def senate(cache):
                        '*Southern Elections: County and Precinct Data, 1950–1972*, 1978)'}]
 
 
-# Senate specials the Wikipedia pages above do not give with figures: the facts from congress/changes.yaml; the
+# Senate specials the Wikipedia pages above do not give with figures, and Hawaii's first elections (new seats): the facts from congress/changes.yaml; the
 # votes are CQ's (congress/specials-cq.yaml). Georgia's was held with the November election, but the Clerk's volume
 # prints the regular race only (elections/readings/1972.yaml, not_in_volume): not_in_clerk shows it with the
 # specials between elections.
@@ -209,6 +209,21 @@ SENATE_HAND = [
     {'cong': 86, 'ch': 's', 'st': 'ND', 'seat': 1, 'date': '1960-06-28', 'out': 'Clarence Norman Brunsdale', 'out_party': 'R',
      'why': "Appointed November 19, 1959, on William Langer's death (November 8, 1959).",
      'winner': 'Quentin Burdick', 'party': 'D', 'source': 'N.D. State Board of Canvassers, Statement of the Finding, July 18, 1960'},
+    # Hawaii's first elections, as a State (admitted Aug. 21, 1959): new seats, not vacancies (new: True)
+    {'cong': 86, 'ch': 's', 'st': 'HI', 'seat': 1, 'date': '1959-07-28', 'out': '', 'out_party': '', 'new': True,
+     'why': 'Hawaii admitted Aug. 21, 1959; its first Senators.', 'winner': 'Hiram Fong', 'party': 'R',
+     'rounds': [{'date': '1959-07-28', 'label': 'election', 'cands': [['Hiram Fong', 'R', 87161], ['Frank Fasi', 'D', 77647]]}],
+     'source': 'Wikipedia, "1959 United States Senate elections in Hawaii" (OurCampaigns)'},
+    {'cong': 86, 'ch': 's', 'st': 'HI', 'seat': 3, 'date': '1959-07-28', 'out': '', 'out_party': '', 'new': True,
+     'why': 'Hawaii admitted Aug. 21, 1959; its first Senators.', 'winner': 'Oren Long', 'party': 'D',
+     'rounds': [{'date': '1959-07-28', 'label': 'election', 'cands': [['Oren Long', 'D', 83700], ['Wilfred Tsukiyama', 'R', 79123],
+                                                                      ['Eugene G. Ressencourt', 'Commonwealth', 1052]]}],
+     'source': 'Wikipedia, "1959 United States Senate elections in Hawaii" (OurCampaigns)'},
+    {'cong': 86, 'ch': 'h', 'st': 'HI', 'seat': 0, 'date': '1959-07-28', 'out': '', 'out_party': '', 'new': True,
+     'why': 'Hawaii admitted Aug. 21, 1959; its first Representative.', 'winner': 'Daniel Inouye', 'party': 'D',
+     'cands': [['Daniel Inouye', 'D', 68.64, 'won'], ['Charles H. Silva', 'R', 31.37]],
+     'check': "Wikipedia's House table gives Aug. 21, 1959 (statehood, when he took his seat); the Senate races were July 28.",
+     'source': 'Wikipedia, "1959 United States House of Representatives elections" (OurCampaigns)'},
     {'cong': 92, 'ch': 's', 'st': 'VT', 'seat': 1, 'date': '1972-01-07', 'out': 'Robert Stafford', 'out_party': 'R',
      'why': "Appointed September 16, 1971, on Winston L. Prouty's death (September 10, 1971); won the special election.",
      'winner': 'Robert Stafford', 'party': 'R', 'source': 'Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)'},
@@ -225,7 +240,7 @@ def main():
     cache = sys.argv[sys.argv.index('--cache') + 1] if '--cache' in sys.argv else tempfile.gettempdir()
     listed = house_list(cache)
     tables = {}
-    for y in range(1959, 1975):
+    for y in range(1957, 1975):
         for st, seat, dates, cands, text, first in year_rows(y, cache):
             for d in dates or ['']:
                 tables[(st, seat, d)] = (dates, cands, text, y, first)
@@ -272,7 +287,8 @@ def main():
         out.setdefault(cong, []).append(rec)
     for rec in senate(cache) + [dict(r) for r in SENATE_HAND]:
         cong = rec.pop('cong')
-        rec = {'key': f"{rec['date']}-s-{rec['st']}-{rec['seat']}", **rec, 'flip': rec['party'] != rec['out_party']}
+        rec = {'key': f"{rec['date']}-{rec['ch']}-{rec['st']}-{rec['seat']}", **rec,
+               'flip': bool(rec['out_party']) and rec['party'] != rec['out_party']}
         if rec['date'] in GENERAL:
             rec['with_general'] = True
         out.setdefault(cong, []).insert(0, rec)
