@@ -337,8 +337,9 @@ notes/executive-brief.md      the brief for whoever adds to the roster, person o
 ./bib executive sources [all]         holder sources the line cannot link, by form ([all]: by holder)
 ```
 
-- Each office shows, muted (smaller, gray, not italic), the holder before the term ("Before: Rusk, Dean left
-  Jan. 20, 1969") and after it ("After: … took office …"), as precisely as known (`seen`/`last` say "in office by",
+- Each office shows, muted (smaller, gray, not italic), in a full-width row under the holders (over the office's law),
+  at the left the holder before the term ("Before: Rusk, Dean left
+  Jan. 20, 1969") and at the right the holder after it ("After: … took office …"), as precisely as known (`seen`/`last` say "in office by",
   "last listed"), each linked to the term table that holds him (Exec. 1965). The appointed holder over an acting
   one; before the term, an acting officer who held the office last follows him, marked "(acting)" (not where he is
   the term's own first holder). An office many hold at once (`many: true`) links the term tables before and after
@@ -383,6 +384,7 @@ notes/executive-brief.md      the brief for whoever adds to the roster, person o
 entry for each person in Part III, the Executive roster, and the Congresses at their openings (`people` in
 `tools/bib/lives.py`: one entry a person). `./bib names` builds those pages alone; `./bib names 'Humphrey, Hubert H.'
 [--site URL] [--out FILE]` one page. The old `lives*.html` addresses forward to the new ones (`./bib lives` still works).
+The scroll wheel and the Outline drawer give each entry's full name; the top bar its surname (`data-crumb`).
 A Part III entry for two people writes them apart with ";" (`s: Evans, Rowland, Jr.; Novak, Robert D.`), never "&".
 
 Names link to their entries throughout (`tools/bib/namelinks.py`), muted: class `nm`, the text's own color and
@@ -442,12 +444,15 @@ shares, by page), the row shows the rounds that name the person, each under its 
 ("General election"), and cites CQ, a little space above each label after the first; a lost renomination shows its
 rounds alone, without the November vote, and gives the round he lost in the sentence ("in the Democratic
 runoff": Jordan, 1972). `check` fails on a key there that names no race. The record table sets each candidate in three columns, the count and the
-share right-aligned (under 520px the share goes under the count).
+share right-aligned (under 520px the share goes under the count); a race for several seats (an at-large delegation:
+Ala. 1962, N.M., N.D., Hawaii) has a dashed rule after the last winner, who is also the Xth name for X seats.
 
 Each entry: the Directory's description (or the Part III role), the pointers into the series, then the life as
 running text, with the date in each sentence; then Publications; FRUS documents sent; Oral histories given, papers,
 and other primary sources; Secondary sources; and, folded, the FRUS and presidential documents that name the
-person. Empty sections are left out. Rules (the STYLE notes in `tools/bib/lives.py`):
+person. Empty sections are left out, the Life too. The FRUS and presidential lists are bulleted, a little space between items
+(`lvnb`) and between the presidential documents under each year (`lvad`), and no more between years. "In the series"
+leaves out the pointer the role line already gives (and is left out where that was its only one). Rules (the STYLE notes in `tools/bib/lives.py`):
 
 - Each fact cites its ground source, linked: BD (the 2005 printed Biographical Directory, by page), the roster
   holder's own sources (CDir., CR, FR, DSB, GOM, POCOM, APP …), the Clerk's *Election Statistics* by page, a calendar
@@ -549,7 +554,8 @@ tools/bib/specials.py             renders the blocks, the calendar's race tables
 seat; for the House, his own race that November where one race in his State names him, else the same number's).
 Under each race and special, "Roster: 87th Cong.", the seat's row at the next opening that has a roster. Under the
 presidential vote, "Took office", the President and Vice President in the Executive roster at the next inauguration.
-Tables write an at-large seat "AL" and leave the district column unheaded; a fusion candidacy's parties abbreviated ("D, R");
+A row highlighted as a link's target (any roster or election table) goes plain when the reader clicks outside it
+(`JS` in `tools/bib/roster.py`; `.unhl`). Tables write an at-large seat "AL" and leave the district column unheaded; a fusion candidacy's parties abbreviated ("D, R");
 a whole vote "100%".
 
 ## Elections

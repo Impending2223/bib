@@ -200,6 +200,7 @@ var META={{meta}}, ORDER={{order}};
   var active=null, heads=[], tops=[], lastIdx=-2, depth=0, pos={};
   function hdrH(){return hdr.offsetHeight;}
   function label(h){return h.getAttribute('data-short')||h.textContent;}
+  function crumbLabel(h){return h.getAttribute('data-crumb')||label(h);}   // the top bar's shorter form (a surname)
   function lvl(h){return +h.tagName.charAt(1);}
   function store(k,v){try{localStorage.setItem(k,v);}catch(e){}}
   function load(k){try{return localStorage.getItem(k);}catch(e){return null;}}
@@ -307,7 +308,7 @@ var META={{meta}}, ORDER={{order}};
     var ab='<span class="ab">'+esc(META[active].abbr)+'</span>';
     if(i<0){crumb.innerHTML=ab+'<b>'+esc(META[active].title)+'</b>';return;}
     var parts=[],need=5;
-    for(var k=i;k>=0;k--){var L=lvl(heads[k]);if(L<need){parts.unshift(label(heads[k]));need=L;}if(L===2)break;}
+    for(var k=i;k>=0;k--){var L=lvl(heads[k]);if(L<need){parts.unshift(crumbLabel(heads[k]));need=L;}if(L===2)break;}
     crumb.innerHTML=ab+parts.map(function(p,j){return j===parts.length-1?'<b>'+esc(p)+'</b>':esc(p);}).join(' / ');
   }
   var rail=$('#rail'),thumb=$('#thumb'),peek=$('#peek'),peekList=$('#peekList'),hideT=null,dragging=false;

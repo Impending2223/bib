@@ -1169,12 +1169,14 @@ def election_sentences(sur, given, sfx="", strict=False, givens=(), held=(), sea
                         f"{BLUEBOOK.get(r['st'], r['st'])}-{r['seat'] or 'AL'}",
                 "result": "",
                 # every candidate by the final tally, the person among them in bold
-                "cands": [cand(c["n"], c.get("p"), (f"{c['v']:,}" + (f" ({pct(c['v'], tot)})" if tot else "")) if c.get("v")
-                               else ("unopposed; no vote printed" if len(cs) == 1 else ""), c is me)
-                          for c in sorted((c for c in cs if c is me or c.get("v")), key=lambda c: -(c.get("v") or 0))],
+                "cands": cut([cand(c["n"], c.get("p"), (f"{c['v']:,}" + (f" ({pct(c['v'], tot)})" if tot else "")) if c.get("v")
+                                   else ("unopposed; no vote printed" if len(cs) == 1 else ""), c is me)
+                              for c in sorted((c for c in cs if c is me or c.get("v")), key=lambda c: -(c.get("v") or 0))],
+                             r, sorted((c for c in cs if c is me or c.get("v")), key=lambda c: -(c.get("v") or 0))),
                 # the same candidates' names as the returns print them, for linking the others to their entries
-                "cnames": [None if c is me else c["n"]
-                           for c in sorted((c for c in cs if c is me or c.get("v")), key=lambda c: -(c.get("v") or 0))],
+                "cnames": cut([None if c is me else c["n"]
+                               for c in sorted((c for c in cs if c is me or c.get("v")), key=lambda c: -(c.get("v") or 0))],
+                              r, sorted((c for c in cs if c is me or c.get("v")), key=lambda c: -(c.get("v") or 0)), None),
                 "src": (re.sub(r"[*]([^*]+)[*]", r"<i>\1</i>", esc(r["src"])) if r.get("src") else   # the Clerk prints none
                         a(url + (f"#page={r['page']}" if r.get("page") else ""),
                           f"Clerk {y}" + (f", p. {r['page']}" if r.get("page") else "")))
@@ -1334,6 +1336,15 @@ def cand(name, party, votes, me=False):
     v = "<br>".join(f'<span class="lvpv">{x}</span>' if x.endswith(" PV") else x for x in parts)
     two = len(parts) > 1 and parts[-1].endswith(" PV")     # the share is the popular vote's: on its line
     return f'<span class="lvn">{n}</span><span class="lvv">{v}</span><span class="lvs{" lvs2" if two else ""}">{s_}</span>'
+
+
+def cut(items, r, ordered, mark='<span class="lvcut"></span>'):
+    """A race for several seats (an at-large delegation): a dashed rule between the last winner and the first loser,
+    the candidates being in order of votes. Where the winners are not the top of the tally, no rule."""
+    n = sum(1 for c in ordered if c.get("w"))
+    if (r.get("seats") or 1) < 2 or not 0 < n < len(ordered) or not all(c.get("w") for c in ordered[:n]):
+        return items
+    return items[:n] + [mark] + items[n:]
 
 
 def pct(v, tot):
@@ -1623,7 +1634,7 @@ def app_list(name, sur):
         by_year.setdefault(d[:4], []).append(
             f'{esc(r["title"].rstrip("."))} ({who + ", " if who else ""}{fmt(d)}), '
             + f'<span class="lvc">{a(r["url"], "APP")}</span>.')
-    return [f'<b>{y}</b><br>' + "<br>".join(v) for y, v in by_year.items()]
+    return [f'<b>{y}</b>' + "".join(f'<span class="lvad">{x}</span>' for x in v) for y, v in by_year.items()]
 
 
 # ---------------------------------------------------------------- the entry
@@ -1776,7 +1787,7 @@ def entry(series, linker, ptrs, p):
     works = series_works(series, linker, ptrs, name, subs, strict)
     sent_, named = frus_lists(name)
     ppp = app_list(name, sur)
-    out = [f'<section class="lv" id="{key_of(name)}"><h2 id="{key_of(name)}-h" data-short="{esc(sur)}">{esc(name)}</h2>']
+    out = [f'<section class="lv" id="{key_of(name)}"><h2 id="{key_of(name)}-h" data-crumb="{esc(sur)}">{esc(name)}</h2>']
     if e:
         head = re.split(r";\s+", e["text"])[0]
         # from the description's article: the name's 'Jr.' and its '(brother of …)' left out
@@ -1784,16 +1795,19 @@ def entry(series, linker, ptrs, p):
         desc = (m.group(1) if m else (head.split("), ", 1)[-1] if "), " in head else head.split(", ", 2)[-1])).strip(" .")
         desc = re.sub(r" and (?:an?) ", " and ", re.sub(r"^(?:an?) ", "", desc))   # 'Senator from Minnesota and Vice President' 
         out.append(f'<p class="lvd">{esc(desc[0].upper() + desc[1:])}. <span class="lvc">{bd_cite(e)}.</span></p>')
-    else:
+    shown = None                         # the pointer the role line already gives, not repeated below it
+    if not e:
         roles = [(l, s_, x) for l, s_, x in subs if (s_.code or "").startswith("III") and x.get("r")]
         if roles:
             l, s_, x = roles[0]
-            out.append(f'<p class="lvd">{to_html(x["r"])}. <span class="lvq">'
-                       f'{ptr(f"{SITE}{l.key}.html#{x["id"]}", f"{esc(l.abbr)} {esc(s_.code)}")}</span></p>')
-    pts = series_lines(subs, cal)
+            shown = ptr(f"{SITE}{l.key}.html#{x['id']}", f"{esc(l.abbr)} {esc(s_.code)}")
+            out.append(f'<p class="lvd">{to_html(x["r"])}. <span class="lvq">{shown}</span></p>')
+    pts = [p_ for p_ in series_lines(subs, cal) if p_ != shown]
     if pts:
         out.append('<p class="lvs">In the series: ' + "; ".join(pts) + ".</p>")
-    out.append("<h3>Life</h3>" + life_html(life))
+    lh = life_html(life)
+    if re.sub(r"<[^>]+>|\s", "", lh):         # no heading over an empty life
+        out.append("<h3>Life</h3>" + lh)
     out.append(record_html(record, rp))
 
     def section(title, items, empty="None in the series.", cls="lvb", fold=None):
@@ -1812,12 +1826,12 @@ def entry(series, linker, ptrs, p):
     g_own, g_prim, g_about = every[:n1], every[n1:n2], every[n2:]
     section("Publications", by_date(g_own + bown))
     ns = sum(x.count('class="lvg"') for x in sent_)
-    section("FRUS documents sent", sent_, "None found.", fold=f"{ns:,}" if len(sent_) > 20 else None)
+    section("FRUS documents sent", sent_, "None found.", "lvb lvnb", fold=f"{ns:,}" if len(sent_) > 20 else None)
     section("Oral histories given, papers, and other primary sources", by_date(g_prim))
     nf = sum(x.count(" ") + 1 for x in re.findall(r'class="lvf" data-v="[^"]*">([^<]*)<', "".join(named)))
-    section("FRUS documents that name", named, "None found.", "lvb lvf",
+    section("FRUS documents that name", named, "None found.", "lvb lvf lvnb",
             fold=f"{nf:,} in {len(named)} {'volume' if len(named) == 1 else 'volumes'}")
-    na = sum(x.count("<br>") for x in ppp)
+    na = sum(x.count('class="lvad"') for x in ppp)
     section("Presidential documents that name", ppp, "None found.", "lvb lvf lvy", fold=f"{na:,}")
     section("Secondary sources", by_date(g_about + babout))
     out.append("</section>")
@@ -1829,7 +1843,9 @@ CSS = """<style>
 .lv h2{margin-top:2rem}
 .lv h3{font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:1.4rem 0 .4rem}
 .lvd{font-size:.95rem}
+p.lvd{margin:.6rem 0 .2rem}
 .lvs{font-size:.82rem;color:var(--muted)}
+p.lvs{margin:.2rem 0 .9rem}
 p.lvl{margin:.5rem 0;line-height:1.55}
 ul.lvx{list-style:none;margin:.3rem 0 1rem;padding:0;columns:2;column-gap:1.5rem;font-size:.92rem;line-height:1.5}
 ul.lvx li{break-inside:avoid;padding-left:1em;text-indent:-1em}
@@ -1854,6 +1870,7 @@ table.lvt .lvs2{padding-top:1.35em}
 table.lvt .lvpl{grid-column:1/-1;font-family:var(--sans);font-size:.72em;letter-spacing:.04em;text-transform:uppercase;
   color:var(--muted);padding-top:.75em}
 table.lvt .lvpl:first-child{padding-top:0}
+table.lvt .lvcut{grid-column:1/-1;border-top:1px dashed var(--muted);opacity:.6;margin:.2em 0}
 table.lvt .lvts{display:block}
 table.lvt .lvts,table.lvt .lvts a{color:var(--muted);font-size:.92em}
 table.lvt td a.lvp{font-size:.9em}
@@ -1868,10 +1885,13 @@ ul.lvb{margin:.2rem 0 .6rem;padding-left:1.1rem;font-size:.9rem;line-height:1.45
 ul.lvb li{margin:.25rem 0}
 ul.lvf{font-size:.84rem}
 ul.lvy{list-style:none;padding-left:0}
-ul.lvy li{margin:.6rem 0}
+ul.lvy li{margin:.35rem 0}
+ul.lvy .lvad{display:list-item;list-style:disc;margin:.35rem 0 0 1.1rem}
+ul.lvy b+.lvad{margin-top:0}
+ul.lvnb li{margin:.35rem 0}
 .lvn{font-size:.85rem;color:var(--muted)}
-details.lvz>summary{cursor:pointer;list-style:none}
-details.lvz>summary h3{display:inline}
+details.lvz>summary{cursor:pointer;list-style:none;border-top:1px solid var(--rule);margin-top:1.4rem;padding-top:.6rem}
+details.lvz>summary h3{display:inline;border-top:0;margin:0;padding-top:0}
 details.lvz>summary::before{content:"▸ ";color:var(--muted)}
 details.lvz[open]>summary::before{content:"▾ "}
 </style>

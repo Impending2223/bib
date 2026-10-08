@@ -709,8 +709,6 @@ def block(i, units, ptr, href, rid, here=False):
                 + [(lo(g[0]), 0, g) for g in gaps]
             prev = many_html(o, u, i, rid, here, True) if o.get("many") \
                 else neighbor_html(o, u, i, a, b, ptr, rid, here, True)
-            if prev:
-                cells.append((prev, []))
             for _, kind, x in sorted(items, key=lambda t: (t[0], t[1])):
                 if kind == 0:
                     when = span(x[0], term_end(x[1]) if x[1] == b else x[1])
@@ -721,11 +719,9 @@ def block(i, units, ptr, href, rid, here=False):
                 cells.append((f'<span class="exh{" exac" if x.get("acting") else ""}">{who} {line}</span>', pts))
             nxt = many_html(o, u, i, rid, here, False) if o.get("many") \
                 else neighbor_html(o, u, i, a, b, ptr, rid, here, False)
-            if nxt:
-                cells.append((nxt, []))
             rows_total += 1
             held += bool(hs)
-            full = laws or onote
+            full = laws or onote or prev or nxt          # a full-width row follows the holders
             n = len(cells)
             for k, (cell, pts) in enumerate(cells):
                 last = k == n - 1
@@ -737,7 +733,13 @@ def block(i, units, ptr, href, rid, here=False):
                                 for p_ in pts)
                 rid_ = f' id="{rid(i, u["unit"], o["id"])}"' if k == 0 else ""
                 rows.append(f'<tr{rid_} class="{cls}">{head}<td>{cell}</td><td class="expc">{pcell}</td></tr>')
-            if full:
+            if prev or nxt:
+                # the holders before and after the term, under the holders and over the law: before at the left,
+                # after at the right
+                rows.append(f'<tr class="exnr{" exnrm" if laws or onote else ""}"><td colspan="3"><div class="exnbw">'
+                            + (f'<span class="exnbl">{prev}</span>' if prev else "")
+                            + (f'<span class="exnbr">{nxt}</span>' if nxt else "") + "</div></td></tr>")
+            if laws or onote:
                 rows.append('<tr class="exlr"><td colspan="3">' + onote
                             + ('<ul class="exlaw">' + "".join(f"<li>{x}</li>" for x in laws) + "</ul>" if laws else "")
                             + "</td></tr>")
@@ -798,6 +800,11 @@ details.exu tr.exhl td.exof,details.exu td.exof.exnb{border-bottom:0}
 .ex .exp{display:block;margin-bottom:.15rem}
 .ex .exp a,.ex .exnw{white-space:nowrap}
 details.exu tr.exlr td{padding-top:0}
+details.exu tr.exnr td{padding-top:.15rem}
+details.exu tr.exnr.exnrm td{border-bottom:0;padding-bottom:.35rem}
+.ex .exnbw{display:flex;flex-wrap:wrap;justify-content:space-between;column-gap:1.5rem;row-gap:.1rem}
+.ex .exnbw .exnbr{margin-left:auto;text-align:right}
+.ex .exnbw .exh{margin-bottom:0}
 .ex .ext{font-weight:600}
 .ex .exm{display:block;font-size:.72rem;color:var(--muted)}
 .ex .exh{display:block;margin-bottom:.3rem}
