@@ -350,7 +350,7 @@ notes/executive-brief.md      the brief for whoever adds to the roster, person o
   `cite` (Statutes at Large: the page the act begins on, then the pin), `usc` (sections with the edition:
   '3 U.S.C. § 19 (1958)'), `does`. A term shows only the law in force during it, in a full-width row under
   the office. The law of the whole unit goes on the unit; an office carries only its own.
-- Vacancies are computed from the appointed holders; an acting officer shows under the vacancy he served in.
+- Vacancies are computed from the appointed holders; an acting officer shows under the vacancy he served in, not indented, in the muted gray (`exac`).
 - Statute links: govinfo files the Statutes by act, named by the first page (STATUTE-61-Pg495), with a
   suffix where several begin on a page (STATUTE-69-Pg9-2); a wrong name answers 200 with an empty body.
   `resolve_statutes.py` matches each cite by its chapter or public law and reports cites that point nowhere.

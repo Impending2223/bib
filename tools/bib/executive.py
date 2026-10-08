@@ -704,17 +704,14 @@ def block(i, units, ptr, href, rid, here=False):
                 else neighbor_html(o, u, i, a, b, ptr, rid, here, True)
             if prev:
                 cells.append((prev, []))
-            gap = None
             for _, kind, x in sorted(items, key=lambda t: (t[0], t[1])):
                 if kind == 0:
-                    gap = x
                     when = span(x[0], term_end(x[1]) if x[1] == b else x[1])
                     gap_label = '<b>Vacant</b>' if x[2] else '<i>No holder recorded</i>'
                     cells.append((f'<span class="exh">{gap_label} <span class="exd">{when}.</span></span>', []))
                     continue
                 who, line, pts = holder_html(x, a, b, ptr, href, o)
-                inside = x.get("acting") and gap and lo(gap[0]) <= max(lo(x["from"]), lo(a)) < lo(gap[1])
-                cells.append((f'<span class="exh{" exin" if inside else ""}">{who} {line}</span>', pts))
+                cells.append((f'<span class="exh{" exac" if x.get("acting") else ""}">{who} {line}</span>', pts))
             nxt = many_html(o, u, i, rid, here, False) if o.get("many") \
                 else neighbor_html(o, u, i, a, b, ptr, rid, here, False)
             if nxt:
@@ -787,7 +784,7 @@ details.exu tr.exlr td{padding-top:0}
 .ex .exm{display:block;font-size:.72rem;color:var(--muted)}
 .ex .exh{display:block;margin-bottom:.3rem}
 .ex .exh>b{font-weight:600}
-.ex .exh.exin{margin-left:1rem}
+.ex .exh.exac{color:var(--muted)}
 .ex .exh.exnb2{font-size:.74rem;color:var(--muted)}
 .ex .exh.exnb2 a:not(.nm){color:inherit;text-decoration-color:var(--rule)}
 .ex .exnl{font-size:.66rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
