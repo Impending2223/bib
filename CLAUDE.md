@@ -115,7 +115,7 @@ tools/executive/          the one-time script that seeded executive/ from POCOM
 | kja  | K–J Adm.  | Kennedy and Johnson administrations, 1961–69 |
 | kjc  | K–J Cong. | Congress, the nation, and the states, 1961–69 |
 | opp  | Opp.      | The Republican opposition, 1961–69           |
-| cal  | Cal.      | Calendar, Jan. 1961–Jan. 7, 1964 (87th Congress; 88th, first session) |
+| cal  | Cal.      | Calendar, Jan. 1961–Jan. 7, 1964 (87th Congress; 88th, first session); the primaries, 1960–76 |
 | l68  | 1968      | The 1968 campaign ("the 1968 list")          |
 | adm  | Adm.      | Nixon and his administration, 1969–74        |
 | cong | Cong.     | Congress, the nation, and the states, 1969–74 |
@@ -124,9 +124,10 @@ tools/executive/          the one-time script that seeded executive/ from POCOM
 
 Parts: I portrayals, II sources, III names. A reference like "K–J Adm. II.D"
 is `lists/kja/II.D.yaml`. The calendar's files are named by month: `apr.yaml`
-for 1961, `apr62.yaml` for 1962, `apr63.yaml` for 1963 (`dec62.yaml` runs to Jan. 3, 1963; the last, `dec63.yaml`, to Jan. 7, 1964),
-plus `th.yaml` (threads) and `pro.yaml` (prologue). Its sections are numbered
-straight through, I to XXXVIII.
+for 1961, `apr62.yaml` for 1962, `apr63.yaml` for 1963 (`dec62.yaml` runs to Jan. 3, 1963; `dec63.yaml`, to Jan. 7, 1964),
+plus `th.yaml` (threads) and `pro.yaml` (prologue); the primary seasons, `mar60.yaml`–`jul60.yaml` before the prologue
+and `mar64.yaml`–`aug76.yaml` after Jan. 1964, hold only the primaries and the conventions' openings for now. Its
+sections are numbered straight through, I to LXVIII, in date order.
 
 ## Finding things (start here)
 
@@ -631,6 +632,26 @@ tools/bib/specials.py             renders the blocks, the calendar's race tables
   A race's `note` starts a new line ("Party primaries ..."). Months as the series writes them (Feb. 15, 1961). CQ is
   cited "CQ Guide 6th (2010) 1266", the full title with each block's sources and in the Names' list of sources.
 - The margin column gives swing as "8.3 to D" ("No swing"); the headings "Date / Seat" and "Margin / Swing".
+
+## Presidential primaries
+
+`elections/pres-primaries.yaml`, kept by hand from CQ's *Guide to U.S. Elections*, 6th ed. (2010), ch. 11, pp. 404–422:
+every presidential primary of 1960, 1964, 1968, 1972 and 1976, both parties, as CQ prints it (names, votes, shares,
+its numbered notes; header there). Read off the pages with pdfplumber, the superscript note numbers apart; every
+party's races add to CQ's printed total for the year, and `check` fails where they do not, or on a note number the
+year does not print. `tools/bib/primaries.py` renders them (STYLE notes there):
+
+- A calendar entry tagged `primary:<YYYY-MM-DD>` carries that day's returns, both parties, one row a State and party:
+  candidates with votes and CQ's share (write-ins marked), the margin, CQ's notes; a printed share more than 0.1 point
+  off its votes is noted ("CQ prints 4.8 for Others; the votes give 4.4"). One entry a primary day, thread
+  `elections-<year>`; its `c` names the winners (a single State: the first two with shares).
+- An entry tagged `primaries:<YYYY>-<R|D>` (the opening of the party's convention) carries the party's year: a
+  summary (primaries, States won, votes), a map of the States by winner (Result: a color a candidate, `--q1`–`--q9`
+  in `templates/congress.html`, in order of States won; unpledged slates `--qU`) and by margin (Margin: the winner's
+  color by the election maps' quantile rule), and the table of races, each dated and linked to its day's entry.
+  `drawQ` in `templates/congress.html` draws it.
+- A bare surname in CQ's tables is the person CQ names in full under it earlier that year (Kennedy, 1968: Robert F.;
+  after June 6, CQ prints Edward M.); `NAMES` in the module settles the rest (Brown, 1976).
 
 ## Rosters and elections, linked
 

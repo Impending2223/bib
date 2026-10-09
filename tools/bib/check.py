@@ -175,6 +175,10 @@ def run(series, only=None):
     from . import specials
     for where, msg in specials.problems(series):
         add(ERROR, where, msg, "specials")
+    # presidential primaries (elections/pres-primaries.yaml)
+    from . import primaries
+    for where, msg in primaries.problems(series):
+        add(ERROR, where, msg, "primaries")
     # races settled by hand for the lives (sources/race-matches.yaml)
     from . import lives
     for where, msg in lives.problems(series):
