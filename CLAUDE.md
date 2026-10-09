@@ -166,6 +166,8 @@ the entry under its first day):
   date: '1961-04-15'                   # sort and range key; '1961-02' for month-only entries
   thread: cuba                         # primary thread (slug of a cal.thread.* entry)
   also: [space]                        # other threads it belongs to
+  short: State of the Union            # an address that sets several threads going: its name, and the threads,
+  to: [economy, {health: cal.1963-02-05.program}]   # each resolving to its next entry, or the entry named
   c: What happened.
   n: Sources. See [[cal.1961-02-20.school-aid]].
 ```
@@ -794,7 +796,8 @@ series reader alike: the month's undated entries, then every day from the sectio
 to its last. A day shows its date, "*New York Times*" under it (a TimesMachine link by
 date only; "No *New York Times* (strike)" from Dec. 8, 1962 to Mar. 31, 1963), the entries that begin
 that day, each under its thread as a rubric (a line of muted small capitals above the entry;
-the date added for a range or a month-only entry), under each entry a line a thread linking the entries before and
+the date added for a range or a month-only entry), under an address that sets several threads going (`to:`, `short:`) a "To:" line naming each thread
+and the entry it leads to, and under each such entry a "From:" line back to the address (`program_links`), then a line a thread linking the entries before and
 after it in the thread ("‹ Apr. 24 · Testing · June 10 ›", its `also` threads too; `thread_nav` in
 `tools/bib/build.py`), a "Continuing" pointer under the date on each later
 day of a ranged entry, and the day's documents, closed by default, with "Expand all" and
