@@ -171,7 +171,7 @@ the entry under its first day):
   to: [economy, {health: cal.1963-02-05.program}]   # each resolving to its next entry, or the entry named
   c: What happened.
   n: Sources. See [[cal.1961-02-20.school-aid]].
-  gloss: [A paragraph., Another.]       # a note on the entry, not an entry: set under it, apart, headed "Gloss"
+  gloss: [A paragraph., Another.]       # a note on the entry, not an entry: under it, in a smaller size; no heading
 ```
 
 A `gloss` is for what the entry rests on and does not say: the record behind a name or a date, laid out in the

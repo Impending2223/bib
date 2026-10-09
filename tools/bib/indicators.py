@@ -13,7 +13,7 @@ concepts and sources", goes before the Prologue; each series name in a table lin
 
 STYLE (settled; keep it, and fix anything that drifts from it):
  1. Columns: Indicator | As first reported | Released | Revised, today. Gallup's approval (kind: poll) in a table
-    of its own under it, set off by a double gray rule (the month headings' rule is solid and black; the indicators' last row has none)
+    of its own under it, set off by a short double gray rule, centered, dinkus-wide (the indicators' last row has no rule)
     and its own caption ("Presidential approval, Gallup"; the first table's
     "Economic indicators"), on the same plan: Reading (with the field dates) | As published | Released | Today. "Released" is the date the
     first-reported figure was published (or the Economic Report transmitted); its source shows on
@@ -402,7 +402,8 @@ div.ind .kv{display:inline-grid;grid-template-columns:minmax(3.5em,7.5em) auto;c
 div.ind .kv .v{text-align:right}
 div.ind .ind-cap{margin:0 0 .15rem;font-family:var(--sans);font-size:.72rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
 div.ind:not(.ind-op) tbody tr:last-child td{border-bottom:0}
-div.ind.ind-op{margin-top:1.2rem;padding-top:.5rem;border-top:3px double var(--muted)}
+div.ind.ind-op{margin-top:1.1rem}
+div.ind.ind-op::before{content:"";display:block;width:3.5rem;margin:0 auto .7rem;border-top:3px double var(--muted)}
 div.ind.ind-op td.rel,div.ind.ind-op .per{white-space:nowrap}
 div.ind-defs{font-family:var(--sans);font-size:.85rem;line-height:1.45;margin:1rem 0 1.5rem}
 div.ind-defs dt{font-weight:600;margin-top:.6rem}
