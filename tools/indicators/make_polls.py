@@ -1,30 +1,23 @@
-"""Opinion polls for the calendar's monthly tables: Gallup's presidential approval, Gallup's preference among
-Republicans for the 1964 nomination, and the trial heats for 1964.
+"""Gallup's presidential approval for the calendar's monthly tables: each reading as released, beside the series today.
 # Usage: python3 tools/indicators/make_polls.py
-#   Rewrites indicators/approval.yaml, indicators/gop-preference.yaml and indicators/trial-heats.yaml for the
-#   calendar's span (FROM..TO). Needs the network; the build does not.
+#   Rewrites indicators/approval.yaml for the calendar's span (FROM..TO). Needs the network; the build does not.
 #
-#   Approval: the American Presidency Project's tables of each President's job approval, "adapted from the Gallup
-#   Poll and compiled by Gerhard Peters": field dates, approve, disapprove, no opinion, and approval among
-#   Democrats, independents and Republicans. Filed by the month the fieldwork ended.
-#   Republican preference: Wikipedia's table (1964 Republican Party presidential primaries, "National polling"),
-#   Gallup's figures as OurCampaigns gives them (its pages are bot-checked here), by month of publication;
-#   each row "check": to be read against The Gallup Poll: Public Opinion, 1935-1971, III (1972).
-#   Trial heats: Wikipedia's table (1964 United States presidential election, "Polling"), with the page of the
-#   Gallup volume it cites, or the newspaper that printed a Harris poll; "check" likewise.
+#   As released ("first", with "published" and "page"): sources/gallup-approval.yaml, read by hand from The Gallup
+#   Poll: Public Opinion, 1935-1971, III (1972): field dates, approve, disapprove, no opinion, and approval among
+#   Democrats, independents and Republicans where the release gives it.
+#   Today ("today"): the American Presidency Project's tables of each President's job approval, "adapted from the
+#   Gallup Poll and compiled by Gerhard Peters". A reading is matched by its field dates; where the two end the
+#   fieldwork a day apart, one reading, the release's dates kept ("today_to": the series' last day). Readings the
+#   series holds and Gallup did not release at the time have no "first". Filed by the month the fieldwork ended.
+#   The race for 1964 and the issue polls are calendar entries (thread opinion), not rows here.
 """
-import html, os, re, urllib.request
+import datetime, html, os, re, urllib.request
 import yaml
 
 FROM, TO = '1961-01-20', '1964-01-07'
 OUT = os.path.join(os.path.dirname(__file__), '..', '..', 'indicators')
 UA = {'User-Agent': 'bib-calendar/1.0 (research; github.com/impending2223/bib)'}
 APP = 'https://www.presidency.ucsb.edu/statistics/data/'
-WIKI = 'https://en.wikipedia.org/w/index.php?title={}&action=raw'
-MON = {m: i for i, m in enumerate(['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'July', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'], 1)}
-MONTHS = {'January': 1, 'February': 2, 'March': 3, 'April': 4, 'May': 5, 'June': 6, 'July': 7, 'August': 8,
-          'September': 9, 'October': 10, 'November': 11, 'December': 12}
-CHECK = 'The Gallup Poll: Public Opinion, 1935–1971, III (1972)'
 
 
 def get(url):
@@ -52,105 +45,34 @@ def approval():
             rows.append({'p': b[:7], 'from': a, 'to': b, 'president': who, 'approve': n(c[2]), 'disapprove': n(c[3]),
                          'unsure': n(c[4]), 'dem': n(c[6]), 'ind': n(c[7]), 'rep': n(c[8])})
     rows.sort(key=lambda r: r['to'])
+    # the readings as Gallup published them (sources/gallup-approval.yaml, kept by hand from the printed volume),
+    # beside the series as compiled today: one row a reading, matched by field dates
+    book = yaml.safe_load(open(os.path.join(OUT, '..', 'sources', 'gallup-approval.yaml'), encoding='utf-8')) or []
+    keys = ('approve', 'disapprove', 'unsure', 'dem', 'ind', 'rep')
+    merged = {}
+    for r in rows:
+        merged[(r['from'], r['to'])] = {'p': r['p'], 'from': r['from'], 'to': r['to'], 'president': r['president'],
+                                        'today': {k: r[k] for k in keys if r.get(k) is not None}}
+    for b in book:
+        k = (str(b['from']), str(b['to']))
+        near = [x for x in merged if x[0] == k[0] and 'first' not in merged[x] and abs(
+            (datetime.date.fromisoformat(x[1]) - datetime.date.fromisoformat(k[1])).days) <= 1]
+        if k not in merged and near:      # the series today ends the fieldwork a day apart: one reading
+            m = merged.pop(near[0])
+            m.update({'p': k[1][:7], 'to': k[1], 'today_to': near[0][1]})
+            merged[k] = m
+        m = merged.setdefault(k, {'p': k[1][:7], 'from': k[0], 'to': k[1], 'president': b['president']})
+        m.update({'published': str(b['published']), 'page': b['page'],
+                  'first': {x: b.get(y) for x, y in (('approve', 'approve'), ('disapprove', 'disapprove'),
+                            ('unsure', 'no_opinion'), ('dem', 'dem'), ('ind', 'ind'), ('rep', 'rep')) if b.get(y) is not None}})
+        if b.get('note'):
+            m['note'] = b['note']
+    rows = sorted(merged.values(), key=lambda r: r['to'])
     return {'id': 'approval', 'name': 'Approval', 'kind': 'poll', 'freq': 'poll',
             'then': {'label': 'Gallup: "Do you approve or disapprove of the way [the President] is handling his job as President?"',
-                     'source': 'American Presidency Project, Presidential Job Approval (Gallup, compiled by Gerhard Peters)',
-                     'url': APP + 'presidential-job-approval'},
-            'rows': rows}
-
-
-def wiki_rows(table):
-    out = []
-    for row in table.split('\n|-')[1:]:
-        cells = [c.strip() for c in re.split(r'\n[|!]|\|\|', '\n' + row.strip())[1:]]
-        out.append(cells)
-    return out
-
-
-def clean(c):
-    c = re.sub(r'<ref[^>]*/>|<ref.*?</ref>|\{\{efn[^}]*\}\}', '', c, flags=re.S)
-    c = re.sub(r'\{\{party shading/[^}]*\}\}|align="center"|rowspan=\d+', '', c)
-    return re.sub(r"'''|\s*\|\s*", ' ', c).strip()
-
-
-def pct(c):
-    m = re.search(r'(\d+(?:\.\d+)?)%?', clean(c))
-    return float(m.group(1)) if m and '–' not in clean(c)[:1] else None
-
-
-def preference():
-    t = get(WIKI.format('1964_Republican_Party_presidential_primaries'))
-    sec = t[t.index('=== National polling ==='):]
-    sec = sec[:sec.index('|}')]
-    names = re.findall(r'vert header\|stp=1\|([^}]+)\}\}', sec)
-    rows = []
-    for cells in wiki_rows(sec):
-        cells = [x for x in cells if x]
-        if len(cells) < 2 + len(names) or not cells[0].startswith('Gallup'):
-            continue
-        m = re.match(r'([A-Z][a-z]+)\.? (\d{4})', clean(cells[1]))
-        if not m:
-            continue
-        p = f'{int(m.group(2)):04d}-{MON[m.group(1)[:4] if m.group(1).startswith("June") or m.group(1).startswith("July") else m.group(1)[:3]]:02d}'
-        if not (FROM[:7] <= p <= TO[:7]):
-            continue
-        shares = {}
-        for name, c in zip(names, cells[2:2 + len(names)]):
-            v = pct(c)
-            if v is not None:
-                shares[re.sub(r' (Jr\.|II)$', '', name).split()[-1]] = int(v) if v == int(v) else v
-        rows.append({'p': p, 'published': clean(cells[1]), 'shares': shares})
-    return {'id': 'gop-preference', 'name': 'Republican preference', 'kind': 'poll', 'freq': 'poll',
-            'then': {'label': 'Gallup: the choice of Republicans for the 1964 Republican nomination, by month of publication',
-                     'source': 'Gallup, as OurCampaigns gives it, by Wikipedia, 1964 Republican Party presidential primaries, "National polling"',
-                     'url': 'https://en.wikipedia.org/wiki/1964_Republican_Party_presidential_primaries#National_polling',
-                     'check': CHECK},
-            'rows': rows}
-
-
-def trial_heats():
-    t = get(WIKI.format('1964_United_States_presidential_election'))
-    sec = t[t.index('===Polling==='):]
-    sec = sec[:sec.index('\n|}')]
-    rows = []
-    for cells in wiki_rows(sec):
-        if len(cells) < 6 or 'Election Results' in cells[0]:
-            continue
-        src = cells[0]
-        who = clean(re.sub(r'<ref.*', '', src)).strip()
-        page = re.search(r'cite book[^}]*\|page=(\d+)', src)
-        paper = re.search(r'\|date=([^|]+?) \|title=([^|]+?) \|page=(\d+) \|work=([^|]+?) \|', src)
-        when = clean(cells[1])
-        m = re.match(r'([A-Z][a-z]+) (\d{1,2})(?:–(\d{1,2}))?, (\d{4})', when)
-        if not m:
-            continue
-        y, mo = int(m.group(4)), MONTHS[m.group(1)]
-        a = f'{y:04d}-{mo:02d}-{int(m.group(2)):02d}'
-        b = f'{y:04d}-{mo:02d}-{int(m.group(3) or m.group(2)):02d}'
-        if not (FROM <= b <= TO):
-            continue
-        row = {'p': b[:7], 'pollster': who, 'pair': [['Johnson', pct(cells[2])], ['Goldwater', pct(cells[3])]],
-               'undecided': pct(cells[5])}
-        if 'publication date is used' in src + cells[1] or who == 'Harris':
-            row['published'] = b
-        else:
-            row.update({'from': a, 'to': b})
-        if page:
-            row['cite'] = f'{CHECK.replace(" (1972)", "")}, {page.group(1)}'
-        elif paper:
-            row['cite'] = f'*{paper.group(4).strip()}*, {paper.group(1).strip()}, {paper.group(3)}'
-        rows.append(row)
-    rows.sort(key=lambda r: r.get('to') or r.get('published'))
-    for r in rows:
-        for k, v in list(r.items()):
-            if isinstance(v, float) and v == int(v):
-                r[k] = int(v)
-        r['pair'] = [[n, int(v) if v == int(v) else v] for n, v in r['pair']]
-    return {'id': 'trial-heats', 'name': 'Trial heat', 'kind': 'poll', 'freq': 'poll',
-            'then': {'label': 'The 1964 race, two names put to the national sample',
-                     'source': 'Wikipedia, 1964 United States presidential election, "Polling": Gallup by the page of its volume, Harris by the newspaper that printed it',
-                     'url': 'https://en.wikipedia.org/wiki/1964_United_States_presidential_election#Polling',
-                     'check': CHECK},
+                     'source': 'The Gallup Poll: Public Opinion, 1935–1971, vol. III (1972), by page (sources/gallup-approval.yaml)'},
+            'now': {'label': 'Gallup\'s series as compiled today', 'source': 'American Presidency Project, Presidential Job Approval (Gallup, compiled by Gerhard Peters)',
+                    'url': APP + 'presidential-job-approval'},
             'rows': rows}
 
 
@@ -163,5 +85,4 @@ def write(d):
 
 
 if __name__ == '__main__':
-    for f in (approval, preference, trial_heats):
-        write(f())
+    write(approval())                    # the race and the issues are calendar entries (thread opinion), not rows

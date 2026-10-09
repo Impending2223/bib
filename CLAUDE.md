@@ -761,10 +761,11 @@ first reported, its release date, and the figure as revised today.
 indicators/<id>.yaml          one series; rows {p, first, released, chg, unit, now, chg_now, source, est, q, note}
 tools/indicators/make_indicators.py   writes them: FRED_API_KEY=... python3 tools/indicators/make_indicators.py
                               (without a key, from ALFRED's and FRED's public CSV downloads; the same figures)
-tools/indicators/make_polls.py   the Opinion group (kind: poll): Gallup approval by reading (the American
-                              Presidency Project's tables), Gallup's Republican preference and the 1964 trial
-                              heats (Wikipedia's tables of Gallup and Harris; each marked Check against *The Gallup
-                              Poll, 1935–1971*, vol. III). In a table of its own under the indicators: Poll | Field dates | Result | Published.
+tools/indicators/make_polls.py   Gallup's approval (kind: poll), a reading a row: as released (sources/gallup-approval.yaml,
+                              read by hand from *The Gallup Poll, 1935–1971*, vol. III, by page) beside Gallup's series
+                              today (the American Presidency Project's tables). In a table of its own under the
+                              indicators: Gallup (field dates) | As published | Released | Today. The race for 1964,
+                              the issues, and every other poll are calendar entries in the thread Opinion.
 tools/bib/indicators.py       renders them (ORDER, GROUP) and checks them
 ```
 
