@@ -226,10 +226,7 @@ STYLE = """<style>
 .tn .tnl{display:block}
 .tn a{color:var(--muted)}
 .tn.tp{font-style:italic}.tn.tp .tpv{font-style:normal}
-.gl{display:block;margin:.6rem 0 .15rem 1.1rem;padding:.1rem 0 .1rem .75rem;border-left:2px solid var(--rule);
-  font-size:.84rem;line-height:1.45;color:var(--note)}
-.gl .glh{display:block;font-family:var(--sans);font-size:.66rem;font-weight:600;letter-spacing:.08em;
-  text-transform:uppercase;color:var(--muted);margin-bottom:.15rem}
+.gl{display:block;margin-top:.45rem;font-size:.84rem;line-height:1.45;color:var(--note)}
 .gl .glp{display:block}.gl .glp+.glp{margin-top:.3rem}
 .day .rw.same{display:none}
 #pv .rw.same{display:inline}
