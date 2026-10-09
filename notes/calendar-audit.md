@@ -3,7 +3,7 @@
 Written by `./bib audit-cal` (`tools/bib/calaudit.py`): the dated entries checked against the brief in
 CLAUDE.md ("The calendar"). A review list: a hit is a place to look, not an error. Rerun after editing.
 
-546 dated entries.
+547 dated entries.
 
 | Check | Entries |
 |---|---|
@@ -23,9 +23,9 @@ the person; several mean the surname is shared). "?" marks a surname that is als
 - `cal.1961-04-17.court` (Apr. 17, VI apr.yaml): *Burton v. Wilmington Parking Authority*, [365 U.S. 715](https://tile.loc.gov/storage-services/service/ll/usre
   - Burton: Burton, Phillip (Cong. III.E)
 - `cal.1961-04-19.court` (Apr. 19–20, VI apr.yaml): *Baker v. Carr* argued.
-  - ? Baker: Baker, Ella (K–J Cong. III.H); Baker, Howard H., Jr. (Cong. III.C, Wg. III.F)
+  - ? Baker: Baker, Ella (K–J Cong. III.H); Baker, Robert G. (K–J Cong. III.K); Baker, Howard H., Jr. (Cong. III.C, Wg. III.F)
 - `cal.1961-05-01.court` (May 1, VII may.yaml): *Baker v. Carr* restored to the calendar for reargument.
-  - ? Baker: Baker, Ella (K–J Cong. III.H); Baker, Howard H., Jr. (Cong. III.C, Wg. III.F)
+  - ? Baker: Baker, Ella (K–J Cong. III.H); Baker, Robert G. (K–J Cong. III.K); Baker, Howard H., Jr. (Cong. III.C, Wg. III.F)
 - `cal.1961-05-14.freedom-rides` (May 14, VII may.yaml): Mother's Day. The Greyhound bus burned outside Anniston; the Trailways riders beaten at the Birmingham termina
   - ? Day: Day, J. Edward (K–J Adm. III.G)
 - `cal.1961-05-21.freedom-rides` (May 21, VII may.yaml): Mob besieges King, Abernathy, and the riders in the First Baptist Church; marshals hold it until Patterson sen
@@ -45,13 +45,13 @@ the person; several mean the surname is shared). "?" marks a surname that is als
 - `cal.1961-09-25.testing` (Sept. 25, XI sep.yaml): Address to the UN General Assembly a week after Hammarskjöld's death. Against the troika; for disarmament; the
   - Hammarskjöld: Hammarskjöld, Dag (K–J Adm. III.J)
 - `cal.1961-10-09.court` (Oct. 9, XII oct.yaml): *Baker v. Carr* reargued. Cox for the United States as amicus.
-  - ? Baker: Baker, Ella (K–J Cong. III.H); Baker, Howard H., Jr. (Cong. III.C, Wg. III.F)
+  - ? Baker: Baker, Ella (K–J Cong. III.H); Baker, Robert G. (K–J Cong. III.K); Baker, Howard H., Jr. (Cong. III.C, Wg. III.F)
 - `cal.1961-10-16.right-and-the-military` (Oct. 16, XII oct.yaml): Schwarz's Christian Anti-Communism Crusade fills the Hollywood Bowl, televised.
   - ? Christian: Christian, George (K–J Adm. III.C, 1968 III.A)
 - `cal.1961-11-04.specials` (Nov. 4, XIII nov.yaml): Texas 20th, special. Henry B. González (D) over Goode (R), 54.6 to 44.0, for Kilday's seat. The first Mexican 
   - González: González, Virgilio R. (Wg. III.C)
 - `cal.1962-03-26.court` (Mar. 26, XVII mar62.yaml): *Baker v. Carr*, [369 U.S. 186](https://tile.loc.gov/storage-services/service/ll/usrep/usrep369/usrep369186/us
-  - ? Baker: Baker, Ella (K–J Cong. III.H); Baker, Howard H., Jr. (Cong. III.C, Wg. III.F)
+  - ? Baker: Baker, Ella (K–J Cong. III.H); Baker, Robert G. (K–J Cong. III.K); Baker, Howard H., Jr. (Cong. III.C, Wg. III.F)
 - `cal.1962-04-10.specials` (Apr. 10, XVIII apr62.yaml): South Carolina 2d, special. Corinne Boyd Riley (D), unopposed, to her husband's seat. No swing: Riley unoppose
   - Boyd: Boyd, Alan S. (K–J Adm. III.G)
 - `cal.1962-04-29.press-and-broadcasting` (Apr. 29, XVIII apr62.yaml): Dinner for the Nobel laureates. "With the possible exception of when Thomas Jefferson dined alone."
@@ -252,44 +252,44 @@ The brief: what the thread is, and its stations, in one or two clipped sentences
 | Alabama | Alabama under Wallace, 1963: Birmingham and the schools. Wallace's inaugural; the Birmingham campaign, April–May; the schoolhouse door; the schools in September; the Sixteenth Street church. |
 | Albany | SNCC and King against segregation in Albany, Georgia, Nov. 1961–Aug. 1962. The station test; the Albany Movement; King jailed, December and July; Elliott's injunction; King leaves. |
 | Assassination | Kennedy killed at Dallas, and the inquiry. Nov. 22; Oswald killed; the funeral; the Warren Commission. |
-| Berlin and Vienna | The second Berlin crisis, from the Vienna ultimatum to the wall and after. Vienna; the July buildup; Aug. 13; Clay in Berlin; Checkpoint Charlie; Powers for Abel; Fechter. |
-| Bobby Baker | The Senate majority's secretary and the Rules Committee's inquiry. Resignation, Oct. 7; the hearings. |
-| Civil rights bill | The civil rights bill from Kennedy's address to the discharge petition. June 11; the message of June 19; the subcommittee bill; the October compromise; Rules. |
-| Civil rights: the executive | What the President did for civil rights by appointment and order. Weaver; the equal employment committee; the new judgeships, Cox and Marshall; the housing order. |
+| Berlin and Vienna | The second Berlin crisis, from the Vienna ultimatum to the wall and after. Vienna; the July buildup; Aug. 13; Clay in Berlin; Checkpoint Charlie; Powers for Abel; Fechter; Kennedy in Berlin. |
+| Bobby Baker | The Senate majority's secretary and the Rules Committee's inquiry. Resignation, Oct. 7; Reynolds before the committee's staff. |
+| Civil rights bill | The civil rights bill from Kennedy's address to the discharge petition. June 11; the message of June 19; the leaders at the White House; the Senate hearings; Judiciary's bill, Oct. 29; Johnson's joint session; the petition. |
+| Civil rights: the executive | What the President did for civil rights by appointment and order. Weaver; the equal employment committee; the new judgeships, Cox and Marshall; the housing order; the Commission's century report; Baldwin; the apprenticeship order; Cambridge; the Gesell committee and McNamara's directive. |
 | Congo | The Congo's civil war and the UN's war in Katanga. Lumumba's death; Rumpunch; Hammarskjöld's death; U Thant; Kitona; Elisabethville and the end of secession. |
-| Congress | The 87th Congress as an institution: its leaders and sessions. Rayburn's death; McCormack Speaker; the second session's end; Jan. 3, 1963. |
-| Court | The Supreme Court's October 1960 and 1961 Terms, and its new Justices. *Mapp*; *Baker v. Carr*, argued, reargued, decided; *Engel v. Vitale*; White and Goldberg for Whittaker and Frankfurter. |
+| Congress | Congress as an institution: its leaders and sessions. Rayburn's death; McCormack Speaker; the 87th's end, Jan. 3, 1963; the 88th's opening; Clark's Senate establishment; the first session's end, Dec. 30, 1963. |
+| Court | The Supreme Court's October 1960, 1961 and 1962 Terms, and its new Justices. *Mapp*; *Baker v. Carr*, argued, reargued, decided; *Engel v. Vitale*; White and Goldberg for Whittaker and Frankfurter; *Gideon*; *Gray v. Sanders*; the sit-in cases; *Schempp*. |
 | Crime and hijacking | Robert Kennedy's crime bills and the first hijackings to Cuba. Three hijackings, May–Aug. 1961; aircraft piracy a federal crime; the Wire and Travel Acts. |
-| Cuba | Cuba short of the missile crisis. The Bay of Pigs and its inquiry; Mongoose; Punta del Este; the embargo; Northwoods; the prisoners' ransom; the Orange Bowl. |
-| Defense | Strategy and the defense budget under McNamara. No missile gap; the March budget; the Berlin increase; civil defense to the Pentagon; Gilpatric at Hot Springs; the RS-70; counterforce at Ann Arbor. |
-| Economy | The recession of 1960–61, the recovery, and the Council's case for a tax cut. The task force; the trough; the Fed's long rates; the gap; the debt limit; the 1962 Report; the May slide; depreciation; the investment credit; the Economic Club. |
+| Cuba | Cuba short of the missile crisis, and after. The Bay of Pigs and its inquiry; Mongoose; Punta del Este; the embargo; Northwoods; the prisoners' ransom; the Orange Bowl; NSAM 213; the exile raids; the sabotage program; Attwood and Lechuga. |
+| Defense | Strategy and the defense budget under McNamara. No missile gap; the March budget; the Berlin increase; civil defense to the Pentagon; Gilpatric at Hot Springs; the RS-70; counterforce at Ann Arbor; the TFX hearings; the draft extended; *Thresher*; Anderson and Korth out. |
+| Economy | The recession of 1960–61, the recovery, and the tax cut. The task force; the trough; the Fed's long rates; the gap; the debt limit; the 1962 Report; the May slide; depreciation; the investment credit; the Economic Club; the tax message; the House's 271–155; the interest equalization tax; Johnson's budget. |
 | Elections of 1962 | The primaries and midterms of 1962. Connally and Wallace; Nixon in California; Edward Kennedy against McCormack; Nov. 6; Nixon's last press conference. |
 | Elections of 1964 | The race for the 1964 nominations in its first year. Rockefeller; the Goldwater draft; Goldwater announces. |
-| Europe and the alliance | Britain, Europe, and the alliance's nuclear arms. Bermuda; the Declaration of Interdependence; Skybolt cancelled; Nassau. |
-| Foreign aid | The aid program remade. The March message; AID created, long-term borrowing denied; the 1962 act and the Hickenlooper amendment. |
+| Europe and the alliance | Britain, Europe, and the alliance's nuclear arms. Bermuda; the Declaration of Interdependence; Skybolt cancelled; Nassau; de Gaulle's veto; the Élysée treaty; the MLF; Kennedy in Europe; Erhard at the Ranch. |
+| Foreign aid | The aid program remade, and cut. The March message; AID created, long-term borrowing denied; the 1962 act and the Hickenlooper amendment; the Clay report; the 1963 cuts; the Christmas Eve vote. |
 | Freedom Rides | CORE's rides to test *Boynton*, May 1961, and the ICC order that came of them. Anniston; Montgomery; Jackson and Parchman; the petition; the order, in force Nov. 1. |
 | India and China | India's wars, and American arms for India. Goa; the Chinese attack of October 1962; Nehru's request; Harriman's mission. |
-| Laos | The Laos crisis, from Eisenhower's warning to the Geneva accords. The March maps; the cease-fire; the conference; Nam Tha; troops to Thailand; the coalition; the neutrality declaration. |
-| Latin America | The Alliance for Progress and the hemisphere's governments. The Alliance proposed; Trujillo killed, his family out; Punta del Este, 1961 and 1962; Goulart; coups in Argentina and Peru; Kennedy in Caracas, Bogotá, Mexico City; Bosch elected. |
+| Laos | The Laos crisis, from Eisenhower's warning to the Geneva accords and after. The March maps; the cease-fire; the conference; Nam Tha; troops to Thailand; the coalition; the neutrality declaration; the Plain of Jars, April 1963; Harriman in Moscow. |
+| Latin America | The Alliance for Progress and the hemisphere's governments. The Alliance proposed; Trujillo killed, his family out; Punta del Este, 1961 and 1962; Goulart; coups in Argentina and Peru; Kennedy in Caracas, Bogotá, Mexico City; Bosch elected; San José; Chamizal; Bosch ousted; the Honduran coup. |
 | March on Washington | The March on Washington for Jobs and Freedom, Aug. 28, 1963. |
-| Medicare | Hospital insurance for the aged through Social Security. The 1961 bill; the 1962 message; the Garden rally; the Senate's 52–48. |
-| Missile crisis | The Soviet missiles in Cuba, from the decision to the aftermath. The Presidium's plan; the summer warnings; the U-2's find; the ExComm; the quarantine; the letters; the withdrawal; the IL-28s; the Stevenson story. |
-| Mississippi | The movement in Mississippi, and Meredith's admission. McComb; Herbert Lee; the Fifth Circuit's order; Barnett's refusals; the calls; Oxford. |
-| Opinion | The public's view, by Gallup. Approval from the first reading through the missile crisis; the Bay of Pigs high; the Freedom Riders. |
+| Medicare | Hospital insurance for the aged through Social Security. The 1961 bill; the 1962 message; the Garden rally; the Senate's 52–48; the 1963 message. |
+| Missile crisis | The Soviet missiles in Cuba, from the decision to the aftermath. The Presidium's plan; the summer warnings; the U-2's find; the ExComm; the quarantine; the letters; the withdrawal; the IL-28s; the Stevenson story; the joint letter to U Thant; McNamara's photographs; the Soviet troops. |
+| Mississippi | The movement in Mississippi, Meredith's admission, and Evers. McComb; Herbert Lee; the Fifth Circuit's order; Barnett's refusals; the calls; Oxford; Greenwood; the Commission's report; Jackson; Evers killed. |
+| Opinion | The public's view, by Gallup. Approval from the first reading through the missile crisis; the Bay of Pigs high; the Freedom Riders; the low of September 1963. |
 | Peace Corps | The Peace Corps, from order to statute. The executive order; Ghana; the act; the Ibadan postcard. |
-| Press and broadcasting | The President and the press, and broadcasting's regulators. The live press conference; the publishers' speech; Minow's wasteland; the White House tour; the *Herald Tribune* cancelled; Sylvester's right to lie; the newspaper strike; "After Two Years." |
-| Program | The domestic program in Congress, bill by bill. The recession bills; minimum wage; area redevelopment; housing; the Status of Women commission; federal unions; Urban Affairs refused; manpower training; the farm bill; thalidomide and the drug amendments; welfare; public works. |
+| Press and broadcasting | The President and the press, and broadcasting's regulators. The live press conference; the publishers' speech; Minow's wasteland; the White House tour; the *Herald Tribune* cancelled; Sylvester's right to lie; the newspaper strike and its end; "After Two Years." |
+| Program | The domestic program in Congress, bill by bill. The recession bills; minimum wage; area redevelopment; housing; the Status of Women commission; federal unions; Urban Affairs refused; manpower training; the farm bill; thalidomide and the drug amendments; welfare; public works; mental illness and retardation; the Equal Pay Act; immigration; *American Women*; clean air. |
 | Railroad work rules | The railroad work-rules dispute: firemen on diesels. The Presidential Railroad Commission; the strike deadlines; arbitration by statute. |
-| Right and the military | The radical right and the officers who spoke for it. The Birch Society; Walker relieved, admonished, resigned; Fulbright's memorandum; the crusades; the Seattle and Los Angeles speeches; the muzzling hearings; Walker at Oxford. |
-| Rules | Majority rule in each chamber. The Rules Committee enlarged; Rule XXII kept; Rayburn's absence; cloture refused on the literacy test, invoked on the satellite bill. |
-| School aid | Federal aid to education, the first great defeat. The 1961 message; the Rules Committee's 8–7; Calendar Wednesday refused; the college bill recommitted. |
-| Space | The space race and the moon program. Gagarin; the Space Council; Shepard; the moon message; Grissom, Titov, Glenn, Carpenter, Schirra; Houston; Telstar; Rice Stadium; the moon first; Mariner 2. |
-| Special elections | The special elections that filled seats in the 87th Congress. Johnson's Senate seat to Tower; twelve House seats, three to widows. |
-| States and cities | State and city politics. The Twenty-Third Amendment; Tower; Yorty; Atlanta's schools; Wagner against Tammany; Michigan's convention and Romney; the elections of 1961. |
-| Steel | Steel prices and the guideposts. The letter of September 1961; the early settlement; the April price rise and its rescission. |
+| Right and the military | The radical right and the officers who spoke for it. The Birch Society; Walker relieved, admonished, resigned; Fulbright's memorandum; the crusades; the Seattle and Los Angeles speeches; the muzzling hearings; Walker at Oxford; Stevenson in Dallas. |
+| Rules | Majority rule in each chamber. The Rules Committee enlarged, then kept at fifteen; Rule XXII kept; Rayburn's absence; cloture refused on the literacy test, invoked on the satellite bill; the three-fifths rule refused, 1963. |
+| School aid | Federal aid to education, from the first great defeat to the acts of 1963. The 1961 message; the Rules Committee's 8–7; Calendar Wednesday refused; the college bill recommitted; the omnibus bill; the college facilities and vocational acts. |
+| Space | The space race and the moon program. Gagarin; the Space Council; Shepard; the moon message; Grissom, Titov, Glenn, Carpenter, Schirra; Houston; Telstar; Rice Stadium; the moon first; Mariner 2; Cooper; the joint expedition offered; Cape Kennedy. |
+| Special elections | The special elections that filled seats in the 87th and 88th Congresses. Johnson's Senate seat to Tower; twelve House seats, three to widows; six House seats in 1963. |
+| States and cities | State and city politics. The Twenty-Third Amendment; Tower; Yorty; Atlanta's schools; Wagner against Tammany; Michigan's convention and Romney; the elections of 1961; Gantt at Clemson; the elections of 1963. |
+| Steel | Steel prices and the guideposts. The letter of September 1961; the early settlement; the April price rise and its rescission; the selective increases of 1963. |
 | Succession | Johnson's first weeks. The oath; the joint session; the Kennedy program; the budget. |
-| Testing | Nuclear testing and arms control. The Soviet resumption; American tests underground; ACDA; the fifty megatons; atmospheric tests resumed; Geneva; Starfish Prime; Khrushchev's inspection offer. |
-| Trade | The Trade Expansion Act, from message to signature. The House and Senate votes; Herter named. |
-| Transition and staff | The administration's people and organization. The cabinet; the NSC remade; the back injury; Taylor at the White House; McCone for Dulles; the Thanksgiving reshuffle; Joseph Kennedy's stroke; Hoover's lunch; Taylor to the Joint Chiefs. |
-| Vietnam | The deepening commitment in Vietnam. The counterinsurgency plan; Johnson's trip; NSAM 52; Staley; Taylor–Rostow; NSAM 111; helicopters and the first dead; MACV; strategic hamlets; Galbraith's dissent; McNamara's visits; Mansfield's report; Ap Bac. |
-| Voting rights | Voting rights in Congress and the field. The poll tax amendment; the Voter Education Project; the literacy-test filibuster. |
+| Testing | Nuclear testing and arms control. The Soviet resumption; American tests underground; ACDA; the fifty megatons; atmospheric tests resumed; Geneva; Starfish Prime; Khrushchev's inspection offer; American University; the hot line; Moscow; the treaty and the Senate's consent. |
+| Trade | Trade, from the Trade Expansion Act to the wheat sale. The House and Senate votes; Herter named; the new tariff schedules; Canada's wheat sale; the American sale and Mundt's bill. |
+| Transition and staff | The administration's people and organization. The cabinet; the NSC remade; the back injury; Taylor at the White House; McCone for Dulles; the Thanksgiving reshuffle; Joseph Kennedy's stroke; Hoover's lunch; Taylor to the Joint Chiefs; Gronouski for Day. |
+| Vietnam | The deepening commitment in Vietnam. The counterinsurgency plan; Johnson's trip; NSAM 52; Staley; Taylor–Rostow; NSAM 111; helicopters and the first dead; MACV; strategic hamlets; Galbraith's dissent; McNamara's visits; Mansfield's report; Ap Bac; the Buddhist crisis; Lodge; cable 243; McNamara–Taylor; the coup; NSAM 273. |
+| Voting rights | Voting rights in Congress and the field. The poll tax amendment and its ratification; the Voter Education Project; the literacy-test filibuster; the referees asked. |

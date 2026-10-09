@@ -332,7 +332,7 @@ Biographical Directory where it matters), and a change of party in office, with 
 `./bib build` writes `build/executive.html`: the Executive Branch at each inauguration (1953, 1957, 1961,
 1965, 1969, 1973) and at the successions of Nov. 22, 1963, and Aug. 9, 1974, with every change during each
 term, through Aug. 31, 1974. A calendar entry tagged `executive:<YYYY-MM-DD>` (a term's first day) carries
-that term's block in `cal.html` and the reader; now Jan. 20, 1961.
+that term's block in `cal.html` and the reader; now Jan. 20, 1961, and Nov. 22, 1963.
 
 ```
 executive/<unit>.yaml         one unit (department, agency, office of the President): its offices, in order,
@@ -565,7 +565,7 @@ dated on the general election (it once dropped every House special, so none reac
 each Congress at its opening, `build/congress.html` gives that Congress's specials: a summary, House
 and Senate maps of the seats filled (large dots; the other districts drawn in the base map's gray; Result, Margin, Swing from the general election that chose
 the Congress, same district), and a table of the races. A calendar entry tagged `special:<key>`
-carries its race's table (the 87th's thirteen, thread "Special elections"). Definitions: the STYLE
+carries its race's table (the 87th's thirteen and the 88th's six of 1963, thread "Special elections"). Definitions: the STYLE
 notes in `tools/bib/specials.py`.
 
 ```
