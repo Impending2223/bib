@@ -1705,6 +1705,31 @@ def same_post(a, b):
     return len(A & B) / min(len(A), len(B)) >= 0.8 and len(A & B) / max(len(A), len(B)) >= 0.7
 
 
+def frus_keys():
+    """Every person key the FRUS index holds."""
+    def make():
+        ks = set()
+        for L_ in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
+            ks |= set(letter_json("frus-names", L_))
+        return ks
+    return cached("frus-keys", make)
+
+
+RUN_ON = re.compile(r"(?=\b[A-Za-z][a-z]*\.? ([A-ZÇ][\w’'-]{2,}), ((?:Sir |Dr\. )?[A-Z][a-z]+(?: [A-Z][a-z]+| [A-Z]\.)*), )")
+
+
+def run_on(desc, own):
+    """A description a list runs on into the next person's entry ('... British Foreign Office Caglayangil, Ihsan
+    Sabri, Turkish Foreign Minister'; '... Prime Minister of Tunisia Nyerere, Julius, President of Tanzania'): cut
+    where that person's name begins, the name being one a FRUS list gives (its key, or a key it begins)."""
+    keys = frus_keys()
+    for m in RUN_ON.finditer(desc):
+        k = key_of(m.group(1) + ", " + re.sub(r"^(?:Sir|Dr\.) ", "", m.group(2)))
+        if k != own and (k in keys or any(x.startswith(k) for x in keys if x[:4] == k[:4])):
+            return desc[:m.start(1)].strip(" ,.;:—–-")
+    return desc
+
+
 def frus_roles(name):
     """The descriptions FRUS's lists of persons give the person, each once, with the volumes that give it, in the
     volumes' order ('French Ambassador to the United States. FRUS 1961–63, I; FRUS 1961–63, XXIV.')."""
@@ -1712,7 +1737,7 @@ def frus_roles(name):
     d = letter_json("frus-names", key_of(name)[:1].upper()).get(key_of(name), {})
     by = {}
     for vol in sorted(d, key=vol_order):
-        r = (d[vol].get("role") or "").strip()
+        r = run_on((d[vol].get("role") or "").strip(), key_of(name))
         if r:
             by.setdefault(r[0].upper() + r[1:], []).append(vol)
     # one post worded volume by volume ('French Ambassador to the United States', 'Ambassador to the United States',

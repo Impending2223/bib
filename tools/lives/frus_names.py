@@ -251,7 +251,11 @@ def words(t):
     """The telling words of a description or an office: four letters or more, the common ones of offices left out."""
     from bib.lives import STOP
     from bib.store import fold
-    return set(re.findall(r'[a-z]{4,}', fold(t).lower())) - STOP - EXTRA_STOP
+    t = fold(t).lower()
+    for x, y in (('chairman of the council of ministers', 'premier'), ('prime minister', 'premier'),
+                 ('u s s r', 'soviet'), ('ussr', 'soviet'), ('soviet union', 'soviet')):
+        t = t.replace(x, y)                  # one office in other words: 'Soviet Premier', 'Chairman of the U.S.S.R. ...'
+    return set(re.findall(r'[a-z]{4,}', t)) - STOP - EXTRA_STOP
 
 
 def join(found, targets, offices=None):
@@ -263,7 +267,8 @@ def join(found, targets, offices=None):
     series holds (held_alike; in his own order, nat_alike), where the lists' descriptions of him share a telling word
     with that person's offices (offices: {key: their text}; or that person has none to compare), is that person: his
     documents go to him (Ron Ziegler; Earl G. Wheeler). Alike several so, he is left out; alike one only by name
-    (Lester B. and Harold L. Pearson), he has an entry of his own. The name shown is the fullest form."""
+    (Lester B. and Harold L. Pearson), he has an entry of his own. The name shown is the fullest form, and of forms
+    as full, the one most volumes print."""
     from bib.lives import key_of
     from itertools import combinations
     held = {}                                # surname -> [(given words, suffix, strict, key)]
@@ -314,7 +319,12 @@ def join(found, targets, offices=None):
         said = words(' '.join(r for nk in members for r in found[nk]['roles']))
         offices = offices or {}
         fits_office = lambda tk: not words(offices.get(tk, '')) or bool(said & words(offices.get(tk, '')))
-        name = max(names, key=lambda n: (len(re.findall(r'\w+', n)), len(n), n))
+        count = {}
+        for nk in members:
+            for n, c in found[nk].get('count', {}).items():
+                count[n] = count.get(n, 0) + c
+        # the fullest form, and of forms as full, the one most volumes print ('Sabri', not the misprint 'Sabriv')
+        name = max(names, key=lambda n: (len(re.findall(r'\w+', n)), count.get(n, 0), len(n), n))
         k = key_of(name)
         hits = set()
         for nk in members:
@@ -403,8 +413,9 @@ def scan(git, targets, heirs=None, naturals=None, found=None):
                 bare = not P[i][1]
                 if nk[0] and (not bare or ',' not in pn_text.get(i, '')) and not re.search(r'\d', shown(P[i])) \
                         and not (bare and ' ' not in nk[0] and (skey(P[i][0]) in held_words or nk[0] in NOT_NAMES)):
-                    f = found.setdefault(nk, {'names': set(), 'roles': set()})
+                    f = found.setdefault(nk, {'names': set(), 'roles': set(), 'count': {}})
                     f['names'].add(shown(p))
+                    f['count'][shown(p)] = f['count'].get(shown(p), 0) + 1
                     if desc.get(i):
                         f['roles'].add(desc[i])
                     ids[i] = nk

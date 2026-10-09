@@ -418,7 +418,9 @@ alike with the same first letters ("Ngo Quang Troung"; not "Tran Van Chuong" and
 alike one person the series holds (also by the name he went by, "Thomas Hale" and "Hale", or a misprint with the same
 middle initial, "Herbert H." Humphrey), where the lists' descriptions share a telling word with that person's offices,
 is that person: his documents go to him (Ron Ziegler, Earl G. Wheeler, Robert J. Dole). Alike only by name, he has his
-own entry (Lester B. Pearson is not Harold L.; Mohammed Ali of Pakistan not the boxer). Where a list's persName holds
+own entry (Lester B. Pearson is not Harold L.; Mohammed Ali of Pakistan not the boxer). A description a list runs on into the next person's
+entry is cut where that person's name begins, the name being one a FRUS list gives (`run_on` in `tools/bib/lives.py`:
+"... British Foreign Office Caglayangil, Ihsan Sabri, Turkish Foreign Minister"). Where a list's persName holds
 the surname alone, the given names come from the text after it; a title, office, service or nationality after the
 given names is dropped (`recover`: "Jose A., Uruguayan"; "Cushman, Jr., Lieutenant General Robert E."); a name with a
 digit (OCR) gets no entry.
