@@ -28,6 +28,10 @@ rows:
     source: Economic Report of the President, Jan. 1962, Table B-55, p. 272
   now: {receipts: 99676.0, expenditures: 106821.0, balance: -7146.0}
 - p: FY1963
+  first: {receipts: 86376, expenditures: 92642, balance: -6266}
+  released: '1964-01-20'
+  source: Economic Report of the President, Jan. 1964, Table C-56, p. 274
+  unit: millions of dollars
   est:
   - value: {receipts: 93000, expenditures: 92537, balance: 463}
     as_of: '1962-01-22'
@@ -35,4 +39,16 @@ rows:
   - value: {receipts: 85500, expenditures: 94311, balance: -8811}
     as_of: '1963-01-21'
     source: Economic Report of the President, Jan. 1963, Table C-56, p. 238
+  now: {receipts: 106560.0, expenditures: 111316.0, balance: -4756.0}
+- p: FY1964
+  est:
+  - value: {receipts: 88400, expenditures: 98405, balance: -10005}
+    as_of: '1964-01-20'
+    source: Economic Report of the President, Jan. 1964, Table C-56, p. 274
+  now: {receipts: null, expenditures: null, balance: null}
+- p: FY1965
+  est:
+  - value: {receipts: 93000, expenditures: 97900, balance: -4900}
+    as_of: '1964-01-20'
+    source: Economic Report of the President, Jan. 1964, Table C-56, p. 274
   now: {receipts: null, expenditures: null, balance: null}
