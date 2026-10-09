@@ -198,7 +198,10 @@ The thread index (Part I of the calendar) is generated from `thread` and
 
 Short declarative sentences. A calendar note points back ("See [[id]]"), not forward; where an earlier entry
 must name a later one, it says what it is ("Reply: [[id]]", "The order: [[id]]", "Bibliography: [[id]]" where a
-thread's first entry is excepted, `ok:thread-first`). Books already in a list are cited by short title
+thread's first entry is excepted, `ok:thread-first`). A law the entry reports enacted is cited in `c` after its name, linked, as a case's
+U.S. Reports cite is ("Equal Pay Act signed, [Pub. L. No. 88-38, 77 Stat. 56](…)"), and the note keeps the list's
+pointer ("Statute (K–J Cong. II.J.2)", as "Opinion (K–J Cong. II.J.1)"); a treaty by its U.N.T.S. volume and page,
+linked (U.S.T. too where known), at its signing, the Senate's consent, and ratification. Books already in a list are cited by short title
 with list and section; works found only here are cited in full. "Check" marks
 a detail to verify. In the calendar the first entry of each event carries its
 bibliography and later ones point back with `See [[id]]`; a thread's first entry is its first event's. Bibliography sections
