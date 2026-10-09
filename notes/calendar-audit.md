@@ -3,16 +3,16 @@
 Written by `./bib audit-cal` (`tools/bib/calaudit.py`): the dated entries checked against the brief in
 CLAUDE.md ("The calendar"). A review list: a hit is a place to look, not an error. Rerun after editing.
 
-809 dated entries.
+1062 dated entries.
 
 | Check | Entries |
 |---|---|
-| A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 243 |
-| (of which only a President's surname: Eisenhower, Kennedy, Johnson) | 0 |
-| Neither a bibliography of its own nor a `See [[id]]` back | 7 |
-| No primary record linked or named | 355 |
+| A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 307 |
+| (of which only a President's surname: Eisenhower, Kennedy, Johnson) | 1 |
+| Neither a bibliography of its own nor a `See [[id]]` back | 8 |
+| No primary record linked or named | 425 |
 | A primary record named but not linked | 0 |
-| Threads (statements listed for review) | 59 |
+| Threads (statements listed for review) | 61 |
 
 ## Names
 
@@ -20,8 +20,6 @@ Each person found in `c` by a surname that has a Part III entry, and the entries
 the person; several mean the surname is shared). "?" marks a surname that is also a place or a thing
 (White, Byrd, Lodge as a word): look before adding.
 
-- `cal.1960-04-12.elections-1960` (Apr. 12, III apr60.yaml): Illinois primary. Republican: Nixon 99.9 percent, others (write-in) 0.1. Democratic: Kennedy (write-in) 64.6 p
-  - Stevenson: Stevenson, Adlai E. (K–J Adm. III.E); Stevenson, Adlai E., III (Cong. III.B)
 - `cal.1961-01-08.opinion` (Jan. 8, VII pro.yaml): Gallup, Dec. 8–13, 1960: for the new President and Congress to act on, holding down prices, 63 percent; medica
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1961-01-22.opinion` (Jan. 22, VIII jan.yaml): Gallup, Dec. 8–13, 1960: which country first to send a man into space. Russia 40 percent, the United States 35
@@ -49,11 +47,11 @@ the person; several mean the surname is shared). "?" marks a surname that is als
 - `cal.1961-04-17.court` (Apr. 17, XI apr.yaml): *Burton v. Wilmington Parking Authority*, [365 U.S. 715](https://tile.loc.gov/storage-services/service/ll/usre
   - Burton: Burton, Phillip (Cong. III.E)
 - `cal.1961-04-19.court` (Apr. 19–20, XI apr.yaml): *Baker v. Carr* argued.
-  - ? Baker: Baker, Ella (K–J Cong. III.H); Baker, Robert G. (K–J Cong. III.K); Baker, Howard H., Jr. (Cong. III.C, Wg. III.F)
+  - ? Baker: Baker, Ella (K–J Cong. III.H); Baker, Irene Bailey (K–J Cong. III.K); Baker, Robert G. (K–J Cong. III.K); Baker, Howard H., Jr. (Cong. III.C, Wg. III.F)
 - `cal.1961-04-21.opinion` (Apr. 21, XI apr.yaml): Gallup, Apr. 6–11: 37 percent have heard or read of the John Birch Society.
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1961-05-01.court` (May 1, XII may.yaml): *Baker v. Carr* restored to the calendar for reargument.
-  - ? Baker: Baker, Ella (K–J Cong. III.H); Baker, Robert G. (K–J Cong. III.K); Baker, Howard H., Jr. (Cong. III.C, Wg. III.F)
+  - ? Baker: Baker, Ella (K–J Cong. III.H); Baker, Irene Bailey (K–J Cong. III.K); Baker, Robert G. (K–J Cong. III.K); Baker, Howard H., Jr. (Cong. III.C, Wg. III.F)
 - `cal.1961-05-05.opinion` (May 5, XII may.yaml): Gallup, Apr. 28–May 3: Kennedy's handling of Cuba, 61 percent approve, 15 disapprove. 44 percent follow the ne
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1961-05-10.opinion` (May 10, XII may.yaml): Gallup, Apr. 28–May 3: would Castro win a free election? 14 percent yes, 71 no. Cuba policy to be decided with
@@ -138,7 +136,7 @@ the person; several mean the surname is shared). "?" marks a surname that is als
 - `cal.1961-10-04.opinion-5` (Oct. 4, XVII oct.yaml): Gallup, Aug. 24–29: Kennedy 62, Nixon 38.
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1961-10-09.court` (Oct. 9, XVII oct.yaml): *Baker v. Carr* reargued. Cox for the United States as amicus.
-  - ? Baker: Baker, Ella (K–J Cong. III.H); Baker, Robert G. (K–J Cong. III.K); Baker, Howard H., Jr. (Cong. III.C, Wg. III.F)
+  - ? Baker: Baker, Ella (K–J Cong. III.H); Baker, Irene Bailey (K–J Cong. III.K); Baker, Robert G. (K–J Cong. III.K); Baker, Howard H., Jr. (Cong. III.C, Wg. III.F)
 - `cal.1961-10-15.opinion` (Oct. 15, XVII oct.yaml): Gallup, Sept. 21–26: fight the way into Berlin if access is closed, 70 percent; not, 18. Satisfied with the go
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1961-10-16.right-and-the-military` (Oct. 16, XVII oct.yaml): Schwarz's Christian Anti-Communism Crusade fills the Hollywood Bowl, televised.
@@ -148,6 +146,7 @@ the person; several mean the surname is shared). "?" marks a surname that is als
 - `cal.1961-11-01.opinion` (Nov. 1, XVIII nov.yaml): Gallup, Oct. 19–24: if Berlin is settled peacefully, a long peace, 12 percent; the Russians soon stirring up s
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1961-11-04.specials` (Nov. 4, XVIII nov.yaml): Texas 20th, special. Henry B. González (D) over Goode (R), 54.6 to 44.0, for Kilday's seat. The first Mexican 
+  - Henry: Henry, Aaron (K–J Cong. III.K)
   - González: González, Virgilio R. (Wg. III.C)
 - `cal.1961-11-05.opinion-5` (Nov. 5, XVIII nov.yaml): Gallup, Oct. 19–24: Republicans, Goldwater or Rockefeller: Rockefeller 51, Goldwater 33, undecided 16.
   - Gallup: Gallup, George H. (K–J Cong. III.J)
@@ -182,7 +181,7 @@ the person; several mean the surname is shared). "?" marks a surname that is als
 - `cal.1962-03-09.opinion-5` (Mar. 9, XXII mar62.yaml): Gallup, Feb. 8–13: Goldwater or Rockefeller: Rockefeller 45, Goldwater 44, undecided 11.
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1962-03-26.court` (Mar. 26, XXII mar62.yaml): *Baker v. Carr*, [369 U.S. 186](https://tile.loc.gov/storage-services/service/ll/usrep/usrep369/usrep369186/us
-  - ? Baker: Baker, Ella (K–J Cong. III.H); Baker, Robert G. (K–J Cong. III.K); Baker, Howard H., Jr. (Cong. III.C, Wg. III.F)
+  - ? Baker: Baker, Ella (K–J Cong. III.H); Baker, Irene Bailey (K–J Cong. III.K); Baker, Robert G. (K–J Cong. III.K); Baker, Howard H., Jr. (Cong. III.C, Wg. III.F)
 - `cal.1962-03-28.opinion` (Mar. 28, XXII mar62.yaml): Gallup, Mar. 8–13: the United States to resume testing in the atmosphere, 66 percent; not, 25. Men 73 for, wom
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1962-04-01.opinion` (Apr. 1, XXIII apr62.yaml): Gallup, Mar. 8–13: hospital care for the aged through Social Security, paid by a higher Social Security tax, 5
@@ -328,7 +327,7 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Kennedy: Kennedy, Jacqueline (K–J Adm. III.A); Kennedy, Joseph P. (K–J Adm. III.A); Kennedy, Robert F. (K–J Adm. III.A, K–J Cong. III.B, 1968 III.K); Kennedy, Edward M. (K–J Cong. III.B, 1968 III.K, 1968 III.P, Cong. III.A); Kennedy, John F. (Viet. III.A)
   - Macmillan: Macmillan, Harold (K–J Adm. III.J)
 - `cal.1963-05-11.alabama` (May 11–13, XXXVI may63.yaml): Bombs at the house of King's brother and at the Gaston Motel, the night of the 11th. Rioting till morning. May
-  - ? King: King, Marion (K–J Cong. III.H); King, Martin Luther, Jr. (K–J Cong. III.H, Viet. III.E); King, Coretta Scott (K–J Cong. III.K)
+  - ? King: King, Marion (K–J Cong. III.H); King, Martin Luther, Jr. (K–J Cong. III.H, Viet. III.E); King, Coretta Scott (K–J Cong. III.K); King, Edwin (K–J Cong. III.K)
 - `cal.1963-05-20.court` (May 20, XXXVI may63.yaml): The sit-in cases. *Peterson v. City of Greenville*, [373 U.S. 244](https://tile.loc.gov/storage-services/servi
   - Peterson: Peterson, Esther (K–J Adm. III.G)
 - `cal.1963-05-24.opinion` (May 24, XXXVI may63.yaml): Gallup, May 2–7: the administration's handling of Cuba in recent weeks, 45 percent satisfied, 35 dissatisfied.
@@ -503,34 +502,168 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1964-01-07.opinion-5` (Jan. 7, XLIII dec63.yaml): Gallup, Jan. 2–7, released Jan. 22, 1964: Johnson 75, Goldwater 18; Johnson 68, Lodge 25; Johnson 71, Nixon 24
   - Gallup: Gallup, George H. (K–J Cong. III.J)
-- `cal.1964-03-10.elections-1964` (Mar. 10, XLIV mar64.yaml): New Hampshire primary. Republican: Lodge (write-in) 35.5 percent, Goldwater 22.3. Democratic: Johnson (write-i
-  - Goldwater: Goldwater, Barry M. (Opp. III.B, Cong. III.C, Wg. III.I)
-- `cal.1964-04-07.elections-1964` (Apr. 7, XLV apr64.yaml): Wisconsin primary. Republican: Byrnes 99.7 percent, unpledged delegates 0.3. Democratic: Reynolds 66.2 percent
+- `cal.1964-01-17.opinion` (Jan. 17, XLIV jan64.yaml): Gallup, Jan. 2–7: what Congress should do when it meets. Tax reduction first; civil rights second; medical car
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-01-19.opinion` (Jan. 19, XLIV jan64.yaml): Gallup, Jan. 2–7: Democrats' choice for Vice President: Robert Kennedy 34, Stevenson 26, Humphrey 14, Shriver 
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-01-31.opinion` (Jan. 31, XLIV jan64.yaml): Gallup, Jan. 2–7: 53 percent have followed the discussion of presidential succession. Of them, the Secretary o
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-02-02.opinion` (Feb. 2, XLV feb64.yaml): Gallup, Jan. 2–7: a law giving all persons, Negro and white, the right to be served in hotels, restaurants, th
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-02-10.medicare` (Feb. 10, XLV feb64.yaml): Health message. Hospital insurance for everyone 65 and over through Social Security: a quarter of one percent 
+  - ? Hill: Hill, Lister (K–J Cong. III.B)
+  - Burton: Burton, Phillip (Cong. III.E)
+- `cal.1964-02-12.opinion` (Feb. 12, XLV feb64.yaml): Gallup, Jan. 31–Feb. 5: 64 percent have followed the dispute with Panama over the Canal Zone. Of them: a firm 
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-02-16.opinion` (Feb. 16, XLV feb64.yaml): Gallup, Jan. 30–Feb. 5: Republicans' choice for 1964: Nixon 31, Goldwater 20, Rockefeller 16, Lodge 12, Scrant
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-02-19.opinion` (Feb. 19, XLV feb64.yaml): Gallup, Jan. 30–Feb. 5: the convention's choice between Goldwater and Rockefeller: Rockefeller 49, Goldwater 3
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-02-23.opinion` (Feb. 23, XLV feb64.yaml): Gallup, Jan. 30–Feb. 2: Johnson's handling of problems at home, 70 percent approve, 12 disapprove; of foreign 
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-02-26.opinion` (Feb. 26, XLV feb64.yaml): Gallup, Jan. 30–Feb. 2: the Johnson administration pushing integration too fast, 30 percent; not fast enough, 
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-03-04.opinion` (Mar. 4, XLVI mar64.yaml): Gallup, Jan. 30–Feb. 4: the party to keep the country prosperous: Democratic 48 percent, Republican 20, no dif
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-03-09.court` (Mar. 9, XLVI mar64.yaml): *New York Times Co. v. Sullivan*, [376 U.S. 254](https://tile.loc.gov/storage-services/service/ll/usrep/usrep3
+  - Sullivan: Sullivan, William C. (K–J Adm. III.I, Adm. III.H); Sullivan, Neil V. (K–J Cong. III.K)
+- `cal.1964-03-22.opinion` (Mar. 22, XLVI mar64.yaml): Gallup, Feb. 28–Mar. 5: more often to blame if a person is poor: lack of effort 33 percent, circumstances 29, 
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-03-25.opinion` (Mar. 25, XLVI mar64.yaml): Gallup, Feb. 28–Mar. 5: 54 percent can say what a filibuster is. Of them, a simple majority to end debate in p
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-03-29.opinion` (Mar. 29, XLVI mar64.yaml): Gallup, special survey of Republican county chairmen, their own choice for the nomination: Goldwater 878, Nixo
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-04-05.opinion` (Apr. 5, XLVII apr64.yaml): Gallup, Mar. 13–17: Republicans' choice for 1964: Lodge 42, Nixon 26, Goldwater 14, Rockefeller 6, Scranton 4,
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-04-07.elections-1964` (Apr. 7, XLVII apr64.yaml): Wisconsin primary. Republican: Byrnes 99.7 percent, unpledged delegates 0.3. Democratic: Reynolds 66.2 percent
   - Reynolds: Reynolds, Don B. (K–J Cong. III.K)
-- `cal.1964-04-14.elections-1964` (Apr. 14, XLV apr64.yaml): Illinois primary. Republican: Goldwater 62.0 percent, Smith 25.3. Democratic: Johnson (write-in) 91.6 percent,
+- `cal.1964-04-10.opinion` (Apr. 10, XLVII apr64.yaml): Gallup, special survey of 1,935 Republican county chairmen, the strongest argument against the Democrats: a we
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-04-12.opinion` (Apr. 12, XLVII apr64.yaml): Gallup, Mar. 27–Apr. 1, Democrats' choice for Vice President: Robert Kennedy 47, Stevenson 18, Humphrey 10, Sh
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-04-17.mississippi` (Apr. 17, XLVII apr64.yaml): Jackson. The second all-white jury in Beckwith's trial for Evers's murder cannot agree; mistrial. Beckwith out
+  - ? Jackson: Jackson, Henry M. (K–J Cong. III.B, Cong. III.B)
+- `cal.1964-04-29.opinion` (Apr. 29, XLVII apr64.yaml): Gallup, Mar. 27–Apr. 1, Negro voters: Johnson 87, Lodge 7, undecided 6.
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-05-02.elections-1964` (May 2, XLVIII may64.yaml): Texas primary. Republican: Goldwater 74.7 percent, Lodge (write-in) 8.8.
   - Goldwater: Goldwater, Barry M. (Opp. III.B, Cong. III.C, Wg. III.I)
-- `cal.1964-04-21.elections-1964` (Apr. 21, XLV apr64.yaml): New Jersey primary. Republican: Lodge (write-in) 41.7 percent, Goldwater (write-in) 28.0. Democratic: Johnson 
-  - Goldwater: Goldwater, Barry M. (Opp. III.B, Cong. III.C, Wg. III.I)
-- `cal.1964-05-02.elections-1964` (May 2, XLVI may64.yaml): Texas primary. Republican: Goldwater 74.7 percent, Lodge (write-in) 8.8.
-  - Goldwater: Goldwater, Barry M. (Opp. III.B, Cong. III.C, Wg. III.I)
-- `cal.1964-05-05.elections-1964` (May 5, XLVI may64.yaml): Primaries in the District of Columbia, Indiana and Ohio. Republican: Goldwater in Indiana; Rhodes in Ohio. Dem
+- `cal.1964-05-04.trade` (May 4, XLVIII may64.yaml): The Kennedy Round opens at Geneva, the GATT's Trade Negotiations Committee meeting at ministerial level in the
+  - Kennedy: Kennedy, Jacqueline (K–J Adm. III.A); Kennedy, Joseph P. (K–J Adm. III.A); Kennedy, Robert F. (K–J Adm. III.A, K–J Cong. III.B, 1968 III.K); Kennedy, Edward M. (K–J Cong. III.B, 1968 III.K, 1968 III.P, Cong. III.A); Kennedy, John F. (Viet. III.A)
+- `cal.1964-05-05.elections-1964` (May 5, XLVIII may64.yaml): Primaries in the District of Columbia, Indiana and Ohio. Republican: Goldwater in Indiana; Rhodes in Ohio. Dem
   - Goldwater: Goldwater, Barry M. (Opp. III.B, Cong. III.C, Wg. III.I)
   - Porter: Porter, Carley V. (K–J Cong. III.K)
-- `cal.1964-05-12.elections-1964` (May 12, XLVI may64.yaml): Primaries in Nebraska and West Virginia. Republican: Goldwater in Nebraska; Rockefeller in West Virginia. Demo
+- `cal.1964-05-12.elections-1964` (May 12, XLVIII may64.yaml): Primaries in Nebraska and West Virginia. Republican: Goldwater in Nebraska; Rockefeller in West Virginia. Demo
   - Goldwater: Goldwater, Barry M. (Opp. III.B, Cong. III.C, Wg. III.I)
-- `cal.1964-05-26.elections-1964` (May 26, XLVI may64.yaml): Florida primary. Republican: unpledged delegates 57.8 percent, Goldwater 42.2. Democratic: Johnson, unopposed.
+- `cal.1964-05-13.opinion` (May 13, XLVIII may64.yaml): Gallup, Apr. 24–29: the Democratic convention's choice between Johnson and Wallace: Johnson 84, Wallace 9, und
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-05-20.opinion` (May 20, XLVIII may64.yaml): Gallup, Apr. 24–29: the most important problem: racial 41 percent; international, Russia, the threat of war, 4
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-05-24.opinion` (May 24, XLVIII may64.yaml): Gallup, Apr. 24–29: Johnson's handling of civil rights, 57 percent approve, 21 disapprove. Southern whites 36 
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-05-25.court` (May 25, XLVIII may64.yaml): *Griffin v. County School Board of Prince Edward County*, [377 U.S. 218](https://tile.loc.gov/storage-services
+  - Griffin: Griffin, Robert P. (Opp. III.B, Cong. III.A)
+- `cal.1964-05-26.elections-1964` (May 26, XLVIII may64.yaml): Florida primary. Republican: unpledged delegates 57.8 percent, Goldwater 42.2. Democratic: Johnson, unopposed.
   - Goldwater: Goldwater, Barry M. (Opp. III.B, Cong. III.C, Wg. III.I)
-- `cal.1964-06-02.elections-1964` (June 2, XLVII jun64.yaml): Primaries in California and South Dakota. Republican: Goldwater in California; unpledged delegates in South Da
+- `cal.1964-05-27.opinion` (May 27, XLVIII may64.yaml): Gallup, Apr. 24–29: 37 percent have given attention to South Vietnam. Of them, the United States handling it a
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-05-31.opinion` (May 31, XLVIII may64.yaml): Gallup, Apr. 24–29: Democrats' choice for Vice President: Robert Kennedy 41, Stevenson 26, Humphrey 11, Brown 
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-06-02.elections-1964` (June 2, XLIX jun64.yaml): Primaries in California and South Dakota. Republican: Goldwater in California; unpledged delegates in South Da
   - Goldwater: Goldwater, Barry M. (Opp. III.B, Cong. III.C, Wg. III.I)
-- `cal.1968-05-07.elections-1968` (May 7, LII may68.yaml): Primaries in the District of Columbia, Indiana and Ohio. Republican: Nixon-Rockefeller in the District; Nixon 
+- `cal.1964-06-07.opinion` (June 7, XLIX jun64.yaml): Gallup, May 22–27: mass demonstrations by Negroes will hurt the cause of racial equality, 74 percent; help it,
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-06-10.opinion` (June 10, XLIX jun64.yaml): Gallup, May 22–27: of two candidates of one's own party, alike but for civil rights, the one for civil rights,
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-06-15.court` (June 15, XLIX jun64.yaml): *Reynolds v. Sims*, [377 U.S. 533](https://tile.loc.gov/storage-services/service/ll/usrep/usrep377/usrep377533
+  - Reynolds: Reynolds, Don B. (K–J Cong. III.K)
+- `cal.1964-06-19.congress` (June 19, XLIX jun64.yaml): Edward Kennedy's chartered plane, taking him and Bayh from the vote to the Massachusetts Democratic convention
+  - ? Moss: Moss, John E. (K–J Cong. III.D)
+- `cal.1964-06-21.opinion` (June 21, XLIX jun64.yaml): Gallup, June 4–9: Republicans' choice for 1964: Lodge 26, Nixon 25, Goldwater 21, Rockefeller 10, Scranton 9, 
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-06-22.court` (June 22, XLIX jun64.yaml): The Term's last day. *Bell v. Maryland*, [378 U.S. 226](https://tile.loc.gov/storage-services/service/ll/usrep
+  - ? Bell: Bell, David E. (K–J Adm. III.H)
+- `cal.1964-06-24.opinion` (June 24, XLIX jun64.yaml): Gallup, special survey of 1,671 Democratic county chairmen, their choice for Vice President: Humphrey 484, Rob
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-06-28.opinion` (June 28, XLIX jun64.yaml): Gallup, June 11–16: the convention's choice between Goldwater and Scranton. Republicans: Scranton 55, Goldwate
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-07-01.opinion` (July 1, L jul64.yaml): Gallup, June 11–16: Johnson 77, Goldwater 18; Johnson 70, Nixon 27; Johnson 69, Scranton 26. Undecided 5, 3, 5
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-07-10.mississippi` (July 10, L jul64.yaml): Hoover in Jackson to reopen the FBI's field office there, closed since 1946. He calls on Governor Paul Johnson
+  - ? Jackson: Jackson, Henry M. (K–J Cong. III.B, Cong. III.B)
+- `cal.1964-07-13.opinion` (July 13, L jul64.yaml): Gallup, June 25–30: Johnson 77, Goldwater 20, undecided 3; the South, Johnson 63, Goldwater 32. With Wallace t
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-07-14.opinion` (July 14, L jul64.yaml): Gallup, June 25–30: Republicans' choice for 1964: Goldwater 22, Nixon 22, Lodge 21, Scranton 20, Rockefeller 6
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-07-29.medicare` (July 29, L jul64.yaml): House passes the Social Security amendments under a closed rule, [388–8](https://voteview.com/rollcall/RH08801
+  - Means: Means, Russell (Cong. III.K)
+- `cal.1964-08-02.vietnam` (Aug. 2–3, LI aug64.yaml): Gulf of Tonkin. The destroyer Maddox, on a DeSoto patrol off North Vietnam, attacked by three torpedo boats in
+  - Maddox: Maddox, Lester (K–J Cong. III.F)
+- `cal.1964-08-04.vietnam` (Aug. 4, LI aug64.yaml): A second attack reported, at night, on the Maddox and the C. Turner Joy. By early afternoon in Washington, Her
+  - Maddox: Maddox, Lester (K–J Cong. III.F)
+- `cal.1964-08-05.opinion` (Aug. 5, LI aug64.yaml): Gallup, July 23–28: 68 percent have heard of the John Birch Society. Of them, favorable 8, unfavorable 59, no 
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-08-09.opinion` (Aug. 9, LI aug64.yaml): Gallup, July 23–28: Johnson 59, Goldwater 31, undecided 10; the undecided allocated, Johnson 61, Goldwater 36.
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-08-12.opinion` (Aug. 12, LI aug64.yaml): Gallup, July 23–28: a UN army to deal with Southeast Asia and Vietnam, 58 percent approve, 19 disapprove. The 
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-08-14.opinion` (Aug. 14, LI aug64.yaml): Gallup, July 23–28: young men of 16 to 22 out of work required to join a youth conservation corps, 73 percent 
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-08-19.opinion` (Aug. 19, LI aug64.yaml): Gallup, July 23–28: the Supreme Court's ruling that both houses of every State legislature be in proportion to
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-08-23.opinion` (Aug. 23, LI aug64.yaml): Gallup, Aug. 6–11: Johnson 65, Goldwater 29, undecided 6. Republicans: Goldwater 62, Johnson 27. Independents:
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-08-26.opinion` (Aug. 26, LI aug64.yaml): Gallup, Aug. 6–11: the United States handling South Vietnam as well as could be expected, 71 percent; badly, 1
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-09-04.latin-america` (Sept. 4, LII sep64.yaml): Chile. Frei, the Christian Democrat, elected President with 56 percent; Allende, of the Popular Action Front, 
+  - ? Christian: Christian, George (K–J Adm. III.C, 1968 III.A)
+- `cal.1964-09-04.opinion` (Sept. 4, LII sep64.yaml): Gallup, Aug. 27–Sept. 1: the party more likely to keep the country out of World War III: Democratic 44 percent
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-09-07.elections-1964` (Sept. 7, LII sep64.yaml): Labor Day. Johnson opens his campaign in Cadillac Square, Detroit: "There is no such thing as a conventional n
+  - ? Day: Day, J. Edward (K–J Adm. III.G)
+- `cal.1964-09-18.vietnam` (Sept. 18–19, LII sep64.yaml): Gulf of Tonkin, night of Sept. 18. The destroyers Morton and Richard S. Edwards, on patrol, fire on radar cont
+  - Morton: Morton, Thruston B. (Opp. III.B)
+- `cal.1964-09-18.opinion` (Sept. 18, LII sep64.yaml): Gallup, Aug. 27–Sept. 1, by region: East, Johnson 73, Goldwater 21; Midwest, Johnson 69, Goldwater 25; South, 
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-09-25.opinion` (Sept. 25, LII sep64.yaml): Gallup, Aug. 27–Sept. 1, the words to describe each. Johnson: well-qualified 63 percent, experienced 62, intel
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-10-11.opinion` (Oct. 11, LIII oct64.yaml): Gallup, Sept. 18–23: the most important problem: international, the cold war, 46 percent; racial 35; cost of l
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-10-15.soviet-union` (Oct. 15, LIII oct64.yaml): Khrushchev removed, "for reasons of age and health." Called back to Moscow from his Black Sea vacation, Oct. 1
+  - ? Black: Black, Hugo L. (K–J Cong. III.G)
+- `cal.1964-11-02.opinion` (Nov. 2, LIV nov64.yaml): Gallup, final poll, Oct. 25–30: Johnson 64, Goldwater 29, undecided 7.
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-11-11.opinion` (Nov. 11, LIV nov64.yaml): Gallup, Oct. 16–21: with one party for liberals and one for conservatives, liberal 37 percent, conservative 34
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-11-13.opinion` (Nov. 13, LIV nov64.yaml): Gallup, Oct. 8–13: the Civil Rights Act enforced strictly from the beginning, 23 percent; a gradual, persuasiv
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-11-18.opinion` (Nov. 18, LIV nov64.yaml): Gallup, Nov. 6–11: the problem Johnson should deal with now that he has won, in order of mention: the internat
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-11-23.assassination` (Nov. 23, LIV nov64.yaml): The Warren Commission's hearings and exhibits published, 26 volumes: the testimony of some 550 witnesses.
+  - Warren: Warren, Earl (K–J Cong. III.G, Cong. III.J)
+- `cal.1964-11-29.opinion` (Nov. 29, LIV nov64.yaml): Gallup, Nov. 6–11: the United States handling South Vietnam as well as could be expected, 35 percent; badly, 5
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-12-06.opinion` (Dec. 6, LV dec64.yaml): Gallup, Nov. 6–11: the policy Johnson should follow: more to the left, with labor and liberal groups, 23 perce
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-12-07.europe-and-the-alliance` (Dec. 7–9, LV dec64.yaml): Wilson in Washington, with Gordon Walker and Healey. The British propose an Atlantic Nuclear Force in place of
+  - Walker: Walker, Edwin A. (K–J Adm. III.F)
+- `cal.1964-12-14.court` (Dec. 14, LV dec64.yaml): *Heart of Atlanta Motel v. United States*, [379 U.S. 241](https://tile.loc.gov/storage-services/service/ll/usr
+  - Katzenbach: Katzenbach, Nicholas deB. (K–J Adm. III.I); Katzenbach, Nicholas (1968 III.F)
+  - ? Hill: Hill, Lister (K–J Cong. III.B)
+- `cal.1964-12-16.opinion` (Dec. 16, LV dec64.yaml): Gallup, Nov. 20–25: more often to blame if a person is poor: lack of effort 30 percent, circumstances 31, both
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-01-02.voting-rights` (Jan. 2, LVI jan65.yaml): Selma. King at Brown Chapel, against a State court's injunction on meetings. The campaign to register Dallas C
+  - ? Brown: Brown, Edmund G. (K–J Cong. III.F); Brown, Sam (Cong. III.K)
+  - ? Black: Black, Hugo L. (K–J Cong. III.G)
+- `cal.1968-05-07.elections-1968` (May 7, LIX may68.yaml): Primaries in the District of Columbia, Indiana and Ohio. Republican: Nixon-Rockefeller in the District; Nixon 
   - Rockefeller: Rockefeller, Margaretta Fitler (K–J Cong. III.K); Rockefeller, Nelson A. (Opp. III.H, Cong. III.H); Rockefeller, Winthrop (Opp. III.H); Rockefeller, Nelson (1968 III.M)
 
 ## Event
 
 No work of its own and no `See [[id]]` back to the event's first entry.
 
+- `cal.1961-01-12.program` (Jan. 12, VII pro.yaml): Eisenhower's last State of the Union, in writing, read in the House. The eight years reviewed.
 - `cal.1961-01-17.congo` (Jan. 17, VII pro.yaml): Lumumba killed in Katanga. Not announced until Feb. 13. Eisenhower's farewell address the same day.
-- `cal.1961-01-30.program` (Jan. 30, VIII jan.yaml): First State of the Union. The tide running against the United States in every area of crisis; the economy in r
+- `cal.1961-01-30.program` (Jan. 30, VIII jan.yaml): The Address to the Joint Session. The tide running against the United States in every area of crisis; the econ
 - `cal.1961-04-04.cuba` (Apr. 4, XI apr.yaml): State Department meeting on the invasion plan. Fulbright, invited, argues against it. The plan goes ahead.
 - `cal.1961-04-27.press-and-broadcasting` (Apr. 27, XI apr.yaml): Address to the newspaper publishers in New York: a call for self-restraint in a cold war. The press reads it a
 - `cal.1961-05-01.crime-and-hijacking` (May 1, XII may.yaml): First U.S. airliner hijacked to Cuba, a National Airlines flight bound for Key West.
@@ -845,60 +978,130 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1964-01-05.opinion-5` (Jan. 5, XLIII dec63.yaml): Gallup, Nov. 22–27: Republicans' choice for 1964: Nixon 29, Goldwater 23, Lodge 19, Rockefeller 12, Romney 8, 
 - `cal.1964-01-07.elections-1964` (Jan. 7, XLIII dec63.yaml): Gallup, Jan. 2–7, released Jan. 19, 1964: Democrats' choice for Vice President, 1964: Robert Kennedy 34, Steve
 - `cal.1964-01-07.opinion-5` (Jan. 7, XLIII dec63.yaml): Gallup, Jan. 2–7, released Jan. 22, 1964: Johnson 75, Goldwater 18; Johnson 68, Lodge 25; Johnson 71, Nixon 24
-- `cal.1964-03-10.elections-1964` (Mar. 10, XLIV mar64.yaml): New Hampshire primary. Republican: Lodge (write-in) 35.5 percent, Goldwater 22.3. Democratic: Johnson (write-i
-- `cal.1964-04-07.elections-1964` (Apr. 7, XLV apr64.yaml): Wisconsin primary. Republican: Byrnes 99.7 percent, unpledged delegates 0.3. Democratic: Reynolds 66.2 percent
-- `cal.1964-04-14.elections-1964` (Apr. 14, XLV apr64.yaml): Illinois primary. Republican: Goldwater 62.0 percent, Smith 25.3. Democratic: Johnson (write-in) 91.6 percent,
-- `cal.1964-04-21.elections-1964` (Apr. 21, XLV apr64.yaml): New Jersey primary. Republican: Lodge (write-in) 41.7 percent, Goldwater (write-in) 28.0. Democratic: Johnson 
-- `cal.1964-04-28.elections-1964` (Apr. 28, XLV apr64.yaml): Primaries in Massachusetts and Pennsylvania. Republican: Lodge (write-in) in Massachusetts; Scranton (write-in
-- `cal.1964-05-02.elections-1964` (May 2, XLVI may64.yaml): Texas primary. Republican: Goldwater 74.7 percent, Lodge (write-in) 8.8.
-- `cal.1964-05-05.elections-1964` (May 5, XLVI may64.yaml): Primaries in the District of Columbia, Indiana and Ohio. Republican: Goldwater in Indiana; Rhodes in Ohio. Dem
-- `cal.1964-05-12.elections-1964` (May 12, XLVI may64.yaml): Primaries in Nebraska and West Virginia. Republican: Goldwater in Nebraska; Rockefeller in West Virginia. Demo
-- `cal.1964-05-15.elections-1964` (May 15, XLVI may64.yaml): Oregon primary. Republican: Rockefeller 33.0 percent, Lodge 27.7. Democratic: Johnson 99.5 percent, Wallace (w
-- `cal.1964-05-19.elections-1964` (May 19, XLVI may64.yaml): Maryland primary. Republican: unpledged delegates 58.2 percent, others 41.8. Democratic: Brewster 53.1 percent
-- `cal.1964-05-26.elections-1964` (May 26, XLVI may64.yaml): Florida primary. Republican: unpledged delegates 57.8 percent, Goldwater 42.2. Democratic: Johnson, unopposed.
-- `cal.1964-06-02.elections-1964` (June 2, XLVII jun64.yaml): Primaries in California and South Dakota. Republican: Goldwater in California; unpledged delegates in South Da
-- `cal.1964-07-13.elections-1964` (July 13, XLVIII jul64.yaml): Republican National Convention opens, the Cow Palace, outside San Francisco. The party's primaries: map and re
-- `cal.1964-08-24.elections-1964` (Aug. 24, XLIX aug64.yaml): Democratic National Convention opens, Atlantic City, at Convention Hall. The party's primaries: map and return
-- `cal.1968-03-12.elections-1968` (Mar. 12, L mar68.yaml): New Hampshire primary. Republican: Nixon 77.6 percent, Rockefeller (write-in) 10.8. Democratic: Johnson (write
-- `cal.1968-04-02.elections-1968` (Apr. 2, LI apr68.yaml): Wisconsin primary. Republican: Nixon 79.7 percent, Reagan 10.4. Democratic: McCarthy 56.2 percent, Johnson 34.
-- `cal.1968-04-23.elections-1968` (Apr. 23, LI apr68.yaml): Pennsylvania primary. Republican: Nixon (write-in) 59.7 percent, Rockefeller (write-in) 18.4. Democratic: McCa
-- `cal.1968-04-30.elections-1968` (Apr. 30, LI apr68.yaml): Massachusetts primary. Republican: Rockefeller (write-in) 30.0 percent, Volpe 29.5. Democratic: McCarthy 49.3 
-- `cal.1968-05-07.elections-1968` (May 7, LII may68.yaml): Primaries in the District of Columbia, Indiana and Ohio. Republican: Nixon-Rockefeller in the District; Nixon 
-- `cal.1968-05-14.elections-1968` (May 14, LII may68.yaml): Primaries in Nebraska and West Virginia. Republican: Nixon in Nebraska; unpledged delegates in West Virginia. 
-- `cal.1968-05-28.elections-1968` (May 28, LII may68.yaml): Primaries in Florida and Oregon. Republican: unpledged delegates in Florida; Nixon in Oregon. Democratic: Smat
-- `cal.1968-06-04.elections-1968` (June 4, LIII jun68.yaml): Primaries in California, New Jersey and South Dakota. Republican: Reagan in California; Nixon (write-in) in Ne
-- `cal.1968-06-11.elections-1968` (June 11, LIII jun68.yaml): Illinois primary. Republican: Nixon (write-in) 78.1 percent, Rockefeller (write-in) 9.7. Democratic: McCarthy 
-- `cal.1968-08-05.elections-1968` (Aug. 5, LV aug68.yaml): Republican National Convention opens, Miami Beach, at Convention Hall. The party's primaries: map and returns 
-- `cal.1968-08-26.elections-1968` (Aug. 26, LV aug68.yaml): Democratic National Convention opens, Chicago, at the International Amphitheatre. The party's primaries: map a
-- `cal.1972-03-07.elections-1972` (Mar. 7, LVI mar72.yaml): New Hampshire primary. Republican: Nixon 67.6 percent, McCloskey 19.8. Democratic: Muskie 46.4 percent, McGove
-- `cal.1972-03-14.elections-1972` (Mar. 14, LVI mar72.yaml): Florida primary. Republican: Nixon 87.0 percent, Ashbrook 8.8. Democratic: Wallace 41.6 percent, Humphrey 18.6
-- `cal.1972-03-21.elections-1972` (Mar. 21, LVI mar72.yaml): Illinois primary. Republican: Nixon (write-in) 97.0 percent, others (write-in) 2.4. Democratic: Muskie 62.6 pe
-- `cal.1972-04-04.elections-1972` (Apr. 4, LVII apr72.yaml): Wisconsin primary. Republican: Nixon 96.9 percent, McCloskey 1.3. Democratic: McGovern 29.6 percent, Wallace 2
-- `cal.1972-04-25.elections-1972` (Apr. 25, LVII apr72.yaml): Primaries in Massachusetts and Pennsylvania. Republican: Nixon in Massachusetts; Nixon (write-in) in Pennsylva
-- `cal.1972-05-02.elections-1972` (May 2, LVIII may72.yaml): Primaries in the District of Columbia, Indiana and Ohio. Republican: Nixon in Indiana and Ohio. Democratic: Fa
-- `cal.1972-05-04.elections-1972` (May 4, LVIII may72.yaml): Tennessee primary. Republican: Nixon 95.8 percent, Ashbrook 2.1. Democratic: Wallace 68.2 percent, Humphrey 15
-- `cal.1972-05-06.elections-1972` (May 6, LVIII may72.yaml): North Carolina primary. Republican: Nixon 94.8 percent, McCloskey 5.2. Democratic: Wallace 50.3 percent, Sanfo
-- `cal.1972-05-09.elections-1972` (May 9, LVIII may72.yaml): Primaries in Nebraska and West Virginia. Republican: Nixon in Nebraska; unpledged delegates in West Virginia. 
-- `cal.1972-05-16.elections-1972` (May 16, LVIII may72.yaml): Primaries in Maryland and Michigan. Republican: Nixon in Maryland and Michigan. Democratic: Wallace in Marylan
-- `cal.1972-05-23.elections-1972` (May 23, LVIII may72.yaml): Primaries in Oregon and Rhode Island. Republican: Nixon in Oregon and Rhode Island. Democratic: McGovern in Or
-- `cal.1972-06-06.elections-1972` (June 6, LIX jun72.yaml): Primaries in California, New Jersey, New Mexico and South Dakota. Republican: Nixon in California, New Mexico 
-- `cal.1972-07-10.elections-1972` (July 10, LX jul72.yaml): Democratic National Convention opens, Miami Beach, at Convention Hall. The party's primaries: map and returns 
-- `cal.1972-08-21.elections-1972` (Aug. 21, LXI aug72.yaml): Republican National Convention opens, Miami Beach, at Convention Hall. The party's primaries: map and returns 
-- `cal.1976-02-24.elections-1976` (Feb. 24, LXII feb76.yaml): New Hampshire primary. Republican: Ford 49.4 percent, Reagan 48.0. Democratic: Carter 28.4 percent, Udall 22.7
-- `cal.1976-03-02.elections-1976` (Mar. 2, LXIII mar76.yaml): Primaries in Massachusetts and Vermont. Republican: Ford in Massachusetts and Vermont. Democratic: Jackson in 
-- `cal.1976-03-09.elections-1976` (Mar. 9, LXIII mar76.yaml): Florida primary. Republican: Ford 52.8 percent, Reagan 47.2. Democratic: Carter 34.5 percent, Wallace 30.5.
-- `cal.1976-03-16.elections-1976` (Mar. 16, LXIII mar76.yaml): Illinois primary. Republican: Ford 58.9 percent, Reagan 40.1. Democratic: Carter 48.1 percent, Wallace 27.6.
-- `cal.1976-03-23.elections-1976` (Mar. 23, LXIII mar76.yaml): North Carolina primary. Republican: Reagan 52.4 percent, Ford 45.9. Democratic: Carter 53.6 percent, Wallace 3
-- `cal.1976-04-06.elections-1976` (Apr. 6, LXIV apr76.yaml): Wisconsin primary. Republican: Ford 55.2 percent, Reagan 44.3. Democratic: Carter 36.6 percent, Udall 35.6.
-- `cal.1976-04-27.elections-1976` (Apr. 27, LXIV apr76.yaml): Pennsylvania primary. Republican: Ford 92.1 percent, Reagan (write-in) 5.1. Democratic: Carter 37.0 percent, J
-- `cal.1976-05-04.elections-1976` (May 4, LXV may76.yaml): Primaries in the District of Columbia, Georgia and Indiana. Republican: Reagan in Georgia and Indiana. Democra
-- `cal.1976-05-11.elections-1976` (May 11, LXV may76.yaml): Primaries in Nebraska and West Virginia. Republican: Reagan in Nebraska; Ford in West Virginia. Democratic: Ch
-- `cal.1976-05-18.elections-1976` (May 18, LXV may76.yaml): Primaries in Maryland and Michigan. Republican: Ford in Maryland and Michigan. Democratic: Brown in Maryland; 
-- `cal.1976-05-25.elections-1976` (May 25, LXV may76.yaml): Primaries in Arkansas, Idaho, Kentucky, Nevada, Oregon and Tennessee. Republican: Reagan in Arkansas, Idaho an
-- `cal.1976-06-01.elections-1976` (June 1, LXVI jun76.yaml): Primaries in Montana, Rhode Island and South Dakota. Republican: Reagan in Montana and South Dakota; Ford in R
-- `cal.1976-06-08.elections-1976` (June 8, LXVI jun76.yaml): Primaries in California, New Jersey and Ohio. Republican: Reagan in California; Ford in New Jersey and Ohio. D
-- `cal.1976-07-12.elections-1976` (July 12, LXVII jul76.yaml): Democratic National Convention opens, New York, at Madison Square Garden. The party's primaries: map and retur
-- `cal.1976-08-16.elections-1976` (Aug. 16, LXVIII aug76.yaml): Republican National Convention opens, Kansas City, at Kemper Arena. The party's primaries: map and returns bel
+- `cal.1964-01-11.health` (Jan. 11, XLIV jan64.yaml): The Surgeon General's advisory committee reports, *Smoking and Health*: cigarette smoking causally related to 
+- `cal.1964-01-17.opinion` (Jan. 17, XLIV jan64.yaml): Gallup, Jan. 2–7: what Congress should do when it meets. Tax reduction first; civil rights second; medical car
+- `cal.1964-01-19.opinion` (Jan. 19, XLIV jan64.yaml): Gallup, Jan. 2–7: Democrats' choice for Vice President: Robert Kennedy 34, Stevenson 26, Humphrey 14, Shriver 
+- `cal.1964-01-27.elections-1964` (Jan. 27, XLIV jan64.yaml): Margaret Chase Smith announces for the Republican nomination, at the Women's National Press Club: "I have few 
+- `cal.1964-01-31.opinion` (Jan. 31, XLIV jan64.yaml): Gallup, Jan. 2–7: 53 percent have followed the discussion of presidential succession. Of them, the Secretary o
+- `cal.1964-02-02.opinion` (Feb. 2, XLV feb64.yaml): Gallup, Jan. 2–7: a law giving all persons, Negro and white, the right to be served in hotels, restaurants, th
+- `cal.1964-02-03.desegregation-schools` (Feb. 3, XLV feb64.yaml): New York. A one-day boycott of the city's schools against their segregation, called by Galamison's Citywide Co
+- `cal.1964-02-12.opinion` (Feb. 12, XLV feb64.yaml): Gallup, Jan. 31–Feb. 5: 64 percent have followed the dispute with Panama over the Canal Zone. Of them: a firm 
+- `cal.1964-02-16.opinion` (Feb. 16, XLV feb64.yaml): Gallup, Jan. 30–Feb. 5: Republicans' choice for 1964: Nixon 31, Goldwater 20, Rockefeller 16, Lodge 12, Scrant
+- `cal.1964-02-18.specials` (Feb. 18, XLV feb64.yaml): California 5th, special. Phillip Burton (D) takes Shelley's seat, 53.6 percent, over Verreos (R), 25.6; six ot
+- `cal.1964-02-19.opinion` (Feb. 19, XLV feb64.yaml): Gallup, Jan. 30–Feb. 5: the convention's choice between Goldwater and Rockefeller: Rockefeller 49, Goldwater 3
+- `cal.1964-02-23.opinion` (Feb. 23, XLV feb64.yaml): Gallup, Jan. 30–Feb. 2: Johnson's handling of problems at home, 70 percent approve, 12 disapprove; of foreign 
+- `cal.1964-02-26.opinion` (Feb. 26, XLV feb64.yaml): Gallup, Jan. 30–Feb. 2: the Johnson administration pushing integration too fast, 30 percent; not fast enough, 
+- `cal.1964-03-04.opinion` (Mar. 4, XLVI mar64.yaml): Gallup, Jan. 30–Feb. 4: the party to keep the country prosperous: Democratic 48 percent, Republican 20, no dif
+- `cal.1964-03-10.elections-1964` (Mar. 10, XLVI mar64.yaml): New Hampshire primary. Republican: Lodge (write-in) 35.5 percent, Goldwater 22.3. Democratic: Johnson (write-i
+- `cal.1964-03-22.opinion` (Mar. 22, XLVI mar64.yaml): Gallup, Feb. 28–Mar. 5: more often to blame if a person is poor: lack of effort 33 percent, circumstances 29, 
+- `cal.1964-03-25.opinion` (Mar. 25, XLVI mar64.yaml): Gallup, Feb. 28–Mar. 5: 54 percent can say what a filibuster is. Of them, a simple majority to end debate in p
+- `cal.1964-03-29.opinion` (Mar. 29, XLVI mar64.yaml): Gallup, special survey of Republican county chairmen, their own choice for the nomination: Goldwater 878, Nixo
+- `cal.1964-04-05.opinion` (Apr. 5, XLVII apr64.yaml): Gallup, Mar. 13–17: Republicans' choice for 1964: Lodge 42, Nixon 26, Goldwater 14, Rockefeller 6, Scranton 4,
+- `cal.1964-04-07.elections-1964` (Apr. 7, XLVII apr64.yaml): Wisconsin primary. Republican: Byrnes 99.7 percent, unpledged delegates 0.3. Democratic: Reynolds 66.2 percent
+- `cal.1964-04-10.opinion` (Apr. 10, XLVII apr64.yaml): Gallup, special survey of 1,935 Republican county chairmen, the strongest argument against the Democrats: a we
+- `cal.1964-04-12.opinion` (Apr. 12, XLVII apr64.yaml): Gallup, Mar. 27–Apr. 1, Democrats' choice for Vice President: Robert Kennedy 47, Stevenson 18, Humphrey 10, Sh
+- `cal.1964-04-14.elections-1964` (Apr. 14, XLVII apr64.yaml): Illinois primary. Republican: Goldwater 62.0 percent, Smith 25.3. Democratic: Johnson (write-in) 91.6 percent,
+- `cal.1964-04-21.elections-1964` (Apr. 21, XLVII apr64.yaml): New Jersey primary. Republican: Lodge (write-in) 41.7 percent, Goldwater (write-in) 28.0. Democratic: Johnson 
+- `cal.1964-04-28.elections-1964` (Apr. 28, XLVII apr64.yaml): Primaries in Massachusetts and Pennsylvania. Republican: Lodge (write-in) in Massachusetts; Scranton (write-in
+- `cal.1964-04-28.specials` (Apr. 28, XLVII apr64.yaml): Pennsylvania 5th, special. William J. Green III (D), 25, holds his father's seat, 58.6 to 41.4 over the Republ
+- `cal.1964-04-29.opinion` (Apr. 29, XLVII apr64.yaml): Gallup, Mar. 27–Apr. 1, Negro voters: Johnson 87, Lodge 7, undecided 6.
+- `cal.1964-05-02.elections-1964` (May 2, XLVIII may64.yaml): Texas primary. Republican: Goldwater 74.7 percent, Lodge (write-in) 8.8.
+- `cal.1964-05-05.elections-1964` (May 5, XLVIII may64.yaml): Primaries in the District of Columbia, Indiana and Ohio. Republican: Goldwater in Indiana; Rhodes in Ohio. Dem
+- `cal.1964-05-12.elections-1964` (May 12, XLVIII may64.yaml): Primaries in Nebraska and West Virginia. Republican: Goldwater in Nebraska; Rockefeller in West Virginia. Demo
+- `cal.1964-05-13.opinion` (May 13, XLVIII may64.yaml): Gallup, Apr. 24–29: the Democratic convention's choice between Johnson and Wallace: Johnson 84, Wallace 9, und
+- `cal.1964-05-15.elections-1964` (May 15, XLVIII may64.yaml): Oregon primary. Republican: Rockefeller 33.0 percent, Lodge 27.7. Democratic: Johnson 99.5 percent, Wallace (w
+- `cal.1964-05-19.elections-1964` (May 19, XLVIII may64.yaml): Maryland primary. Republican: unpledged delegates 58.2 percent, others 41.8. Democratic: Brewster 53.1 percent
+- `cal.1964-05-20.opinion` (May 20, XLVIII may64.yaml): Gallup, Apr. 24–29: the most important problem: racial 41 percent; international, Russia, the threat of war, 4
+- `cal.1964-05-24.opinion` (May 24, XLVIII may64.yaml): Gallup, Apr. 24–29: Johnson's handling of civil rights, 57 percent approve, 21 disapprove. Southern whites 36 
+- `cal.1964-05-26.elections-1964` (May 26, XLVIII may64.yaml): Florida primary. Republican: unpledged delegates 57.8 percent, Goldwater 42.2. Democratic: Johnson, unopposed.
+- `cal.1964-05-27.opinion` (May 27, XLVIII may64.yaml): Gallup, Apr. 24–29: 37 percent have given attention to South Vietnam. Of them, the United States handling it a
+- `cal.1964-05-31.opinion` (May 31, XLVIII may64.yaml): Gallup, Apr. 24–29: Democrats' choice for Vice President: Robert Kennedy 41, Stevenson 26, Humphrey 11, Brown 
+- `cal.1964-06-02.elections-1964` (June 2, XLIX jun64.yaml): Primaries in California and South Dakota. Republican: Goldwater in California; unpledged delegates in South Da
+- `cal.1964-06-07.opinion` (June 7, XLIX jun64.yaml): Gallup, May 22–27: mass demonstrations by Negroes will hurt the cause of racial equality, 74 percent; help it,
+- `cal.1964-06-10.opinion` (June 10, XLIX jun64.yaml): Gallup, May 22–27: of two candidates of one's own party, alike but for civil rights, the one for civil rights,
+- `cal.1964-06-12.elections-1964` (June 12, XLIX jun64.yaml): Scranton announces for the Republican nomination, at the Maryland Republican convention in Baltimore. Rockefel
+- `cal.1964-06-14.mississippi` (June 14–27, XLIX jun64.yaml): Freedom Summer. Volunteers for the Mississippi Summer Project, most of them white Northern students, trained i
+- `cal.1964-06-19.congress` (June 19, XLIX jun64.yaml): Edward Kennedy's chartered plane, taking him and Bayh from the vote to the Massachusetts Democratic convention
+- `cal.1964-06-21.opinion` (June 21, XLIX jun64.yaml): Gallup, June 4–9: Republicans' choice for 1964: Lodge 26, Nixon 25, Goldwater 21, Rockefeller 10, Scranton 9, 
+- `cal.1964-06-24.opinion` (June 24, XLIX jun64.yaml): Gallup, special survey of 1,671 Democratic county chairmen, their choice for Vice President: Humphrey 484, Rob
+- `cal.1964-06-28.opinion` (June 28, XLIX jun64.yaml): Gallup, June 11–16: the convention's choice between Goldwater and Scranton. Republicans: Scranton 55, Goldwate
+- `cal.1964-07-01.opinion` (July 1, L jul64.yaml): Gallup, June 11–16: Johnson 77, Goldwater 18; Johnson 70, Nixon 27; Johnson 69, Scranton 26. Undecided 5, 3, 5
+- `cal.1964-07-10.mississippi` (July 10, L jul64.yaml): Hoover in Jackson to reopen the FBI's field office there, closed since 1946. He calls on Governor Paul Johnson
+- `cal.1964-07-12.elections-1964` (July 12, L jul64.yaml): Scranton's letter to Goldwater, the day before the convention: "Goldwaterism" has come to stand for "a whole c
+- `cal.1964-07-13.opinion` (July 13, L jul64.yaml): Gallup, June 25–30: Johnson 77, Goldwater 20, undecided 3; the South, Johnson 63, Goldwater 32. With Wallace t
+- `cal.1964-07-14.opinion` (July 14, L jul64.yaml): Gallup, June 25–30: Republicans' choice for 1964: Goldwater 22, Nixon 22, Lodge 21, Scranton 20, Rockefeller 6
+- `cal.1964-07-24.states-and-cities` (July 24–26, L jul64.yaml): Rochester. An arrest at a block party on Joseph Avenue; three nights of rioting. Rockefeller calls out the Nat
+- `cal.1964-08-05.opinion` (Aug. 5, LI aug64.yaml): Gallup, July 23–28: 68 percent have heard of the John Birch Society. Of them, favorable 8, unfavorable 59, no 
+- `cal.1964-08-09.opinion` (Aug. 9, LI aug64.yaml): Gallup, July 23–28: Johnson 59, Goldwater 31, undecided 10; the undecided allocated, Johnson 61, Goldwater 36.
+- `cal.1964-08-12.elections-1964` (Aug. 12, LI aug64.yaml): Hershey, Pennsylvania. Goldwater meets Eisenhower, Nixon, Scranton, Rockefeller, Romney, and the party's gover
+- `cal.1964-08-12.opinion` (Aug. 12, LI aug64.yaml): Gallup, July 23–28: a UN army to deal with Southeast Asia and Vietnam, 58 percent approve, 19 disapprove. The 
+- `cal.1964-08-14.opinion` (Aug. 14, LI aug64.yaml): Gallup, July 23–28: young men of 16 to 22 out of work required to join a youth conservation corps, 73 percent 
+- `cal.1964-08-19.opinion` (Aug. 19, LI aug64.yaml): Gallup, July 23–28: the Supreme Court's ruling that both houses of every State legislature be in proportion to
+- `cal.1964-08-23.opinion` (Aug. 23, LI aug64.yaml): Gallup, Aug. 6–11: Johnson 65, Goldwater 29, undecided 6. Republicans: Goldwater 62, Johnson 27. Independents:
+- `cal.1964-08-25.mississippi` (Aug. 25, LI aug64.yaml): The Credentials Committee's compromise, Mondale's subcommittee: the regulars seated if they pledge to support 
+- `cal.1964-08-25.elections-1964` (Aug. 25, LI aug64.yaml): Robert Kennedy, at Gracie Mansion with Wagner, will seek the Democratic nomination for Senator from New York a
+- `cal.1964-08-26.opinion` (Aug. 26, LI aug64.yaml): Gallup, Aug. 6–11: the United States handling South Vietnam as well as could be expected, 71 percent; badly, 1
+- `cal.1964-09-04.opinion` (Sept. 4, LII sep64.yaml): Gallup, Aug. 27–Sept. 1: the party more likely to keep the country out of World War III: Democratic 44 percent
+- `cal.1964-09-18.opinion` (Sept. 18, LII sep64.yaml): Gallup, Aug. 27–Sept. 1, by region: East, Johnson 73, Goldwater 21; Midwest, Johnson 69, Goldwater 25; South, 
+- `cal.1964-09-25.opinion` (Sept. 25, LII sep64.yaml): Gallup, Aug. 27–Sept. 1, the words to describe each. Johnson: well-qualified 63 percent, experienced 62, intel
+- `cal.1964-10-11.opinion` (Oct. 11, LIII oct64.yaml): Gallup, Sept. 18–23: the most important problem: international, the cold war, 46 percent; racial 35; cost of l
+- `cal.1964-11-02.opinion` (Nov. 2, LIV nov64.yaml): Gallup, final poll, Oct. 25–30: Johnson 64, Goldwater 29, undecided 7.
+- `cal.1964-11-03.cities-and-housing` (Nov. 3, LIV nov64.yaml): California. Proposition 14 carries, 4,526,460 to 2,395,747, 65.4 percent: a constitutional amendment securing 
+- `cal.1964-11-03.specials` (Nov. 3, LIV nov64.yaml): Missouri 9th, special. Hungate (D) holds Clarence Cannon's seat, 62.5 to 37.5 over Schroeder (R); the same day
+- `cal.1964-11-03.specials-2` (Nov. 3, LIV nov64.yaml): Oregon 1st, special. Wyatt (R) holds Norblad's seat, 52.8 to 47.2 over Whipple (D); the same day, the full ter
+- `cal.1964-11-03.specials-3` (Nov. 3, LIV nov64.yaml): South Carolina 5th, special. Gettys (D) holds the seat Hemphill left for the federal bench, 66.8 to 33.2 over 
+- `cal.1964-11-11.opinion` (Nov. 11, LIV nov64.yaml): Gallup, Oct. 16–21: with one party for liberals and one for conservatives, liberal 37 percent, conservative 34
+- `cal.1964-11-13.opinion` (Nov. 13, LIV nov64.yaml): Gallup, Oct. 8–13: the Civil Rights Act enforced strictly from the beginning, 23 percent; a gradual, persuasiv
+- `cal.1964-11-18.civil-rights-the-executive` (Nov. 18, LIV nov64.yaml): Hoover, to a group of women reporters, calls King "the most notorious liar in the country." Nov. 21, the FBI m
+- `cal.1964-11-18.opinion` (Nov. 18, LIV nov64.yaml): Gallup, Nov. 6–11: the problem Johnson should deal with now that he has won, in order of mention: the internat
+- `cal.1964-11-29.opinion` (Nov. 29, LIV nov64.yaml): Gallup, Nov. 6–11: the United States handling South Vietnam as well as could be expected, 35 percent; badly, 5
+- `cal.1964-12-02.states-and-cities` (Dec. 2–8, LV dec64.yaml): Berkeley. Savio on the steps of Sproul Hall; the Free Speech Movement occupies the building. On Brown's order 
+- `cal.1964-12-06.opinion` (Dec. 6, LV dec64.yaml): Gallup, Nov. 6–11: the policy Johnson should follow: more to the left, with labor and liberal groups, 23 perce
+- `cal.1964-12-10.voting-rights` (Dec. 10–18, LV dec64.yaml): King receives the Nobel Peace Prize at Oslo. Dec. 18, at the White House, he asks Johnson for a voting rights 
+- `cal.1964-12-16.opinion` (Dec. 16, LV dec64.yaml): Gallup, Nov. 20–25: more often to blame if a person is poor: lack of effort 30 percent, circumstances 31, both
+- `cal.1965-01-02.voting-rights` (Jan. 2, LVI jan65.yaml): Selma. King at Brown Chapel, against a State court's injunction on meetings. The campaign to register Dallas C
+- `cal.1965-01-04.congress-2` (Jan. 4, LVI jan65.yaml): House Republicans, in conference, choose Ford over Halleck for minority leader, 73–67.
+- `cal.1965-01-12.elections-1964` (Jan. 12, LVI jan65.yaml): Burch to leave the Republican national chairmanship Apr. 1, after meeting Goldwater in Phoenix; Bliss, the Ohi
+- `cal.1968-03-12.elections-1968` (Mar. 12, LVII mar68.yaml): New Hampshire primary. Republican: Nixon 77.6 percent, Rockefeller (write-in) 10.8. Democratic: Johnson (write
+- `cal.1968-04-02.elections-1968` (Apr. 2, LVIII apr68.yaml): Wisconsin primary. Republican: Nixon 79.7 percent, Reagan 10.4. Democratic: McCarthy 56.2 percent, Johnson 34.
+- `cal.1968-04-23.elections-1968` (Apr. 23, LVIII apr68.yaml): Pennsylvania primary. Republican: Nixon (write-in) 59.7 percent, Rockefeller (write-in) 18.4. Democratic: McCa
+- `cal.1968-04-30.elections-1968` (Apr. 30, LVIII apr68.yaml): Massachusetts primary. Republican: Rockefeller (write-in) 30.0 percent, Volpe 29.5. Democratic: McCarthy 49.3 
+- `cal.1968-05-07.elections-1968` (May 7, LIX may68.yaml): Primaries in the District of Columbia, Indiana and Ohio. Republican: Nixon-Rockefeller in the District; Nixon 
+- `cal.1968-05-14.elections-1968` (May 14, LIX may68.yaml): Primaries in Nebraska and West Virginia. Republican: Nixon in Nebraska; unpledged delegates in West Virginia. 
+- `cal.1968-05-28.elections-1968` (May 28, LIX may68.yaml): Primaries in Florida and Oregon. Republican: unpledged delegates in Florida; Nixon in Oregon. Democratic: Smat
+- `cal.1968-06-04.elections-1968` (June 4, LX jun68.yaml): Primaries in California, New Jersey and South Dakota. Republican: Reagan in California; Nixon (write-in) in Ne
+- `cal.1968-06-11.elections-1968` (June 11, LX jun68.yaml): Illinois primary. Republican: Nixon (write-in) 78.1 percent, Rockefeller (write-in) 9.7. Democratic: McCarthy 
+- `cal.1968-08-05.elections-1968` (Aug. 5, LXII aug68.yaml): Republican National Convention opens, Miami Beach, at Convention Hall. The party's primaries: map and returns 
+- `cal.1968-08-26.elections-1968` (Aug. 26, LXII aug68.yaml): Democratic National Convention opens, Chicago, at the International Amphitheatre. The party's primaries: map a
+- `cal.1972-03-07.elections-1972` (Mar. 7, LXIII mar72.yaml): New Hampshire primary. Republican: Nixon 67.6 percent, McCloskey 19.8. Democratic: Muskie 46.4 percent, McGove
+- `cal.1972-03-14.elections-1972` (Mar. 14, LXIII mar72.yaml): Florida primary. Republican: Nixon 87.0 percent, Ashbrook 8.8. Democratic: Wallace 41.6 percent, Humphrey 18.6
+- `cal.1972-03-21.elections-1972` (Mar. 21, LXIII mar72.yaml): Illinois primary. Republican: Nixon (write-in) 97.0 percent, others (write-in) 2.4. Democratic: Muskie 62.6 pe
+- `cal.1972-04-04.elections-1972` (Apr. 4, LXIV apr72.yaml): Wisconsin primary. Republican: Nixon 96.9 percent, McCloskey 1.3. Democratic: McGovern 29.6 percent, Wallace 2
+- `cal.1972-04-25.elections-1972` (Apr. 25, LXIV apr72.yaml): Primaries in Massachusetts and Pennsylvania. Republican: Nixon in Massachusetts; Nixon (write-in) in Pennsylva
+- `cal.1972-05-02.elections-1972` (May 2, LXV may72.yaml): Primaries in the District of Columbia, Indiana and Ohio. Republican: Nixon in Indiana and Ohio. Democratic: Fa
+- `cal.1972-05-04.elections-1972` (May 4, LXV may72.yaml): Tennessee primary. Republican: Nixon 95.8 percent, Ashbrook 2.1. Democratic: Wallace 68.2 percent, Humphrey 15
+- `cal.1972-05-06.elections-1972` (May 6, LXV may72.yaml): North Carolina primary. Republican: Nixon 94.8 percent, McCloskey 5.2. Democratic: Wallace 50.3 percent, Sanfo
+- `cal.1972-05-09.elections-1972` (May 9, LXV may72.yaml): Primaries in Nebraska and West Virginia. Republican: Nixon in Nebraska; unpledged delegates in West Virginia. 
+- `cal.1972-05-16.elections-1972` (May 16, LXV may72.yaml): Primaries in Maryland and Michigan. Republican: Nixon in Maryland and Michigan. Democratic: Wallace in Marylan
+- `cal.1972-05-23.elections-1972` (May 23, LXV may72.yaml): Primaries in Oregon and Rhode Island. Republican: Nixon in Oregon and Rhode Island. Democratic: McGovern in Or
+- `cal.1972-06-06.elections-1972` (June 6, LXVI jun72.yaml): Primaries in California, New Jersey, New Mexico and South Dakota. Republican: Nixon in California, New Mexico 
+- `cal.1972-07-10.elections-1972` (July 10, LXVII jul72.yaml): Democratic National Convention opens, Miami Beach, at Convention Hall. The party's primaries: map and returns 
+- `cal.1972-08-21.elections-1972` (Aug. 21, LXVIII aug72.yaml): Republican National Convention opens, Miami Beach, at Convention Hall. The party's primaries: map and returns 
+- `cal.1976-02-24.elections-1976` (Feb. 24, LXIX feb76.yaml): New Hampshire primary. Republican: Ford 49.4 percent, Reagan 48.0. Democratic: Carter 28.4 percent, Udall 22.7
+- `cal.1976-03-02.elections-1976` (Mar. 2, LXX mar76.yaml): Primaries in Massachusetts and Vermont. Republican: Ford in Massachusetts and Vermont. Democratic: Jackson in 
+- `cal.1976-03-09.elections-1976` (Mar. 9, LXX mar76.yaml): Florida primary. Republican: Ford 52.8 percent, Reagan 47.2. Democratic: Carter 34.5 percent, Wallace 30.5.
+- `cal.1976-03-16.elections-1976` (Mar. 16, LXX mar76.yaml): Illinois primary. Republican: Ford 58.9 percent, Reagan 40.1. Democratic: Carter 48.1 percent, Wallace 27.6.
+- `cal.1976-03-23.elections-1976` (Mar. 23, LXX mar76.yaml): North Carolina primary. Republican: Reagan 52.4 percent, Ford 45.9. Democratic: Carter 53.6 percent, Wallace 3
+- `cal.1976-04-06.elections-1976` (Apr. 6, LXXI apr76.yaml): Wisconsin primary. Republican: Ford 55.2 percent, Reagan 44.3. Democratic: Carter 36.6 percent, Udall 35.6.
+- `cal.1976-04-27.elections-1976` (Apr. 27, LXXI apr76.yaml): Pennsylvania primary. Republican: Ford 92.1 percent, Reagan (write-in) 5.1. Democratic: Carter 37.0 percent, J
+- `cal.1976-05-04.elections-1976` (May 4, LXXII may76.yaml): Primaries in the District of Columbia, Georgia and Indiana. Republican: Reagan in Georgia and Indiana. Democra
+- `cal.1976-05-11.elections-1976` (May 11, LXXII may76.yaml): Primaries in Nebraska and West Virginia. Republican: Reagan in Nebraska; Ford in West Virginia. Democratic: Ch
+- `cal.1976-05-18.elections-1976` (May 18, LXXII may76.yaml): Primaries in Maryland and Michigan. Republican: Ford in Maryland and Michigan. Democratic: Brown in Maryland; 
+- `cal.1976-05-25.elections-1976` (May 25, LXXII may76.yaml): Primaries in Arkansas, Idaho, Kentucky, Nevada, Oregon and Tennessee. Republican: Reagan in Arkansas, Idaho an
+- `cal.1976-06-01.elections-1976` (June 1, LXXIII jun76.yaml): Primaries in Montana, Rhode Island and South Dakota. Republican: Reagan in Montana and South Dakota; Ford in R
+- `cal.1976-06-08.elections-1976` (June 8, LXXIII jun76.yaml): Primaries in California, New Jersey and Ohio. Republican: Reagan in California; Ford in New Jersey and Ohio. D
+- `cal.1976-07-12.elections-1976` (July 12, LXXIV jul76.yaml): Democratic National Convention opens, New York, at Madison Square Garden. The party's primaries: map and retur
+- `cal.1976-08-16.elections-1976` (Aug. 16, LXXV aug76.yaml): Republican National Convention opens, Kansas City, at Kemper Arena. The party's primaries: map and returns bel
 
 ### Named, not linked
 
@@ -956,6 +1159,7 @@ The brief: what the thread is, and its stations, in one or two clipped sentences
 | Right and the military | The radical right and the officers who spoke for it. The Birch Society; Walker relieved, admonished, resigned; Fulbright's memorandum; the crusades; the Seattle and Los Angeles speeches; the muzzling hearings; Walker at Oxford; Stevenson in Dallas. |
 | Rules | Majority rule in each chamber. The Rules Committee enlarged, then kept at fifteen; Rule XXII kept; Rayburn's absence; cloture refused on the literacy test, invoked on the satellite bill; the three-fifths rule refused, 1963. |
 | School aid | Federal aid to education, from the first great defeat to the acts of 1963. The 1961 message; the Rules Committee's 8–7; Calendar Wednesday refused; the college bill recommitted; the omnibus bill; the college facilities and vocational acts. |
+| Soviet Union | The Soviet Union as Washington met it apart from Berlin, Cuba and testing: Khrushchev's last year; his removal, Oct. 1964; Brezhnev and Kosygin. |
 | Space | The space race and the moon program. Gagarin; the Space Council; Shepard; the moon message; Grissom, Titov, Glenn, Carpenter, Schirra; Houston; Telstar; Rice Stadium; the moon first; Mariner 2; Cooper; the joint expedition offered; Cape Kennedy. |
 | Special elections | The special elections that filled seats in the 87th and 88th Congresses. Johnson's Senate seat to Tower; twelve House seats, three to widows; six House seats in 1963. |
 | States and cities | State and city politics. The Twenty-Third Amendment; Tower; Yorty; Atlanta's schools; Wagner against Tammany; Michigan's convention and Romney; the elections of 1961; Gantt at Clemson; the elections of 1963. |
@@ -966,5 +1170,6 @@ The brief: what the thread is, and its stations, in one or two clipped sentences
 | Transition and staff | The administration's people and organization. The cabinet; the NSC remade; the back injury; Taylor at the White House; McCone for Dulles; the Thanksgiving reshuffle; Joseph Kennedy's stroke; Hoover's lunch; Taylor to the Joint Chiefs; Gronouski for Day. |
 | Vietnam | The deepening commitment in Vietnam. The counterinsurgency plan; Johnson's trip; NSAM 52; Staley; Taylor–Rostow; NSAM 111; helicopters and the first dead; MACV; strategic hamlets; Galbraith's dissent; McNamara's visits; Mansfield's report; Ap Bac; the Buddhist crisis; Lodge; cable 243; McNamara–Taylor; the coup; NSAM 273. |
 | Voting rights | Voting rights in Congress and the field. The poll tax amendment and its ratification; the Voter Education Project; the literacy-test filibuster; the referees asked. |
+| War on poverty | The war on poverty, from the State of the Union of Jan. 8, 1964: Shriver's task force; the poverty message; the Economic Opportunity Act; the Office of Economic Opportunity. |
 | Welfare | Public assistance and Social Security. Aid to children of the unemployed; the Social Security Amendments of 1961; the Public Welfare Amendments of 1962. |
 | Women | The status of women in law and policy. The President's Commission; *The Feminine Mystique*; the Equal Pay Act; *American Women*. |
