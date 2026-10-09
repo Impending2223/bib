@@ -33,7 +33,7 @@ relevant material elsewhere in the bibliography. Names, events."
 So every calendar entry has:
 - `c`: what happened, in one to three clipped sentences. Who, what, the number.
 - `n`: the pointers, in this order:
-  - the primary record, linked: the statute (Statutes at Large on govinfo), the Federal Register, the
+  - the primary record, linked: the statute (Statutes at Large on govinfo, "77 Stat. 56"), the Federal Register, the
     Congressional Record, the Public Papers (APP), the presidential library's file, the FRUS document, the case.
     The owner asked for these (Oct. 2, 2026); where the record is found and the event's bibliography lacks it, add
     it there too.
@@ -199,7 +199,7 @@ The thread index (Part I of the calendar) is generated from `thread` and
 Short declarative sentences. A calendar note points back ("See [[id]]"), not forward; where an earlier entry
 must name a later one, it says what it is ("Reply: [[id]]", "The order: [[id]]", "Bibliography: [[id]]" where a
 thread's first entry is excepted, `ok:thread-first`). A law the entry reports enacted is cited in `c` after its name, linked, as a case's
-U.S. Reports cite is ("Equal Pay Act signed, [Pub. L. No. 88-38, 77 Stat. 56](…)"), and the note keeps the list's
+U.S. Reports cite is ("Equal Pay Act signed, [77 Stat. 56](…)": the volume and page, linked; no Public Law number), and the note keeps the list's
 pointer ("Statute (K–J Cong. II.J.2)", as "Opinion (K–J Cong. II.J.1)"); a treaty by its U.S.T. volume and page, linked to the Library of
 Congress's scan (its collection's table gives the TIAS number's volume and page), and its U.N.T.S. cite, linked to the UN's copy, at its signing, the Senate's consent, and ratification. Books already in a list are cited by short title
 with list and section; works found only here are cited in full. "Check" marks
