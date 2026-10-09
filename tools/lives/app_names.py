@@ -115,13 +115,82 @@ STATES = ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", 
           "Utah", "Vermont", "Virginia", "Washington", "West Virginia", "Wisconsin", "Wyoming"]
 
 
+ABBR = {"Ala": "Alabama", "Ariz": "Arizona", "Ark": "Arkansas", "Calif": "California", "Cal": "California",
+        "Colo": "Colorado", "Conn": "Connecticut", "Del": "Delaware", "Fla": "Florida", "Ga": "Georgia",
+        "Ill": "Illinois", "Ind": "Indiana", "Kans": "Kansas", "Kan": "Kansas", "Ky": "Kentucky", "La": "Louisiana",
+        "Md": "Maryland", "Mass": "Massachusetts", "Mich": "Michigan", "Minn": "Minnesota", "Miss": "Mississippi",
+        "Mo": "Missouri", "Mont": "Montana", "Nebr": "Nebraska", "Neb": "Nebraska", "Nev": "Nevada",
+        "N.H": "New Hampshire", "N.J": "New Jersey", "N. Mex": "New Mexico", "N.M": "New Mexico", "N.Y": "New York",
+        "N.C": "North Carolina", "N. Dak": "North Dakota", "N.D": "North Dakota", "Okla": "Oklahoma", "Oreg": "Oregon",
+        "Ore": "Oregon", "Pa": "Pennsylvania", "R.I": "Rhode Island", "S.C": "South Carolina", "S. Dak": "South Dakota",
+        "S.D": "South Dakota", "Tenn": "Tennessee", "Tex": "Texas", "Vt": "Vermont", "Va": "Virginia",
+        "Wash": "Washington", "W. Va": "West Virginia", "Wis": "Wisconsin", "Wisc": "Wisconsin", "Wyo": "Wyoming"}
+POSTAL = {"AL": "Alabama", "AK": "Alaska", "AZ": "Arizona", "AR": "Arkansas", "CA": "California", "CO": "Colorado",
+          "CT": "Connecticut", "DE": "Delaware", "FL": "Florida", "GA": "Georgia", "HI": "Hawaii", "ID": "Idaho",
+          "IL": "Illinois", "IN": "Indiana", "IA": "Iowa", "KS": "Kansas", "KY": "Kentucky", "LA": "Louisiana",
+          "ME": "Maine", "MD": "Maryland", "MA": "Massachusetts", "MI": "Michigan", "MN": "Minnesota", "MS": "Mississippi",
+          "MO": "Missouri", "MT": "Montana", "NE": "Nebraska", "NV": "Nevada", "NH": "New Hampshire", "NJ": "New Jersey",
+          "NM": "New Mexico", "NY": "New York", "NC": "North Carolina", "ND": "North Dakota", "OH": "Ohio",
+          "OK": "Oklahoma", "OR": "Oregon", "PA": "Pennsylvania", "RI": "Rhode Island", "SC": "South Carolina",
+          "SD": "South Dakota", "TN": "Tennessee", "TX": "Texas", "UT": "Utah", "VT": "Vermont", "VA": "Virginia",
+          "WV": "West Virginia", "WI": "Wisconsin", "WY": "Wyoming"}
+NAMED = ("Times|Post|City|Herald|Daily|Tribune|Journal|World|Mirror|News|Star|Register|Sun|Telegram|Evening|Avenue|"
+         "Street|Turnpike|Central|Trail|Railroad|Railway|Power|Light|Gas|Bar|Life")
+PLACES = {}                              # place -> its State, learned from the corpus (places)
+
+
+def places(texts):
+    """{place: State}: the towns the documents write with their State ('Atlantic City, N.J.', 'Glassboro, New
+    Jersey', 'Des Moines, Iowa'), where they so write it at least twice, nearly always with the one State (nine
+    times in ten), and not mostly without it (a place word the documents use alone thirty times for each time with
+    a State, 'Washington', 'Lincoln', is no mark of a State); not a name of an organization, a newspaper, a building.
+    A newspaper's or a reporter's 'New York' (followed by 'Times') or 'Washington' (the city) is no State."""
+    import collections
+    full = "|".join(re.escape(x) for x in sorted(STATES, key=len, reverse=True) if x != "Washington")
+    abbr = "|".join(re.escape(a).replace(r"\.", r"\.\s?") + r"\." for a in sorted(ABBR, key=len, reverse=True) if a != "Wash")
+    place = r"((?:[A-Z][a-z]+\.? ){0,2}[A-Z][a-z]+)"
+    # a State in full, not where it names a newspaper or a city ('New York Times', 'Kansas City', 'Des Moines Register'
+    # is not 'Des Moines, Iowa'); an abbreviation, or APP's postal code ('Atlantic City, NJ'). 'Washington' is the city
+    # ('National Press Club, Washington'), not the State.
+    postal = "|".join(sorted(POSTAL, key=len, reverse=True))
+    rx = re.compile(rf"\b{place}, (?:({full})(?![a-z])(?!\s+(?:{NAMED})\b)|({abbr})|({postal})(?![A-Za-z]))")
+    org = re.compile(r"\b(Committee|Party|Press|Conference|Meeting|Association|Division|Company|Co|Workers|Editors|Bill|"
+                     r"Club|Unit|Campaign|Railway|Railroad|Department|Council|Union|Hotel|Building|Office|Board|"
+                     r"Resources|Steps|Plaza|Square|Coliseum|Auditorium|Times|Herald|News|Post|Tribune|Journal|Rally|Mrs|"
+                     r"Disagreements|Recession|God|Agency|Counties|Center)\b")
+    norm = {re.sub(r"\s", "", a + "."): st for a, st in ABBR.items()}
+    pairs = collections.Counter()
+    for t in texts:
+        for m in rx.finditer(t):
+            st = m.group(2) or norm.get(re.sub(r"\s", "", m.group(3) or "")) or POSTAL.get(m.group(4) or "")
+            if st and m.group(1) not in STATES and not org.search(m.group(1)):
+                pairs[(m.group(1), st)] += 1
+    by = collections.defaultdict(collections.Counter)
+    for (pl, st), n in pairs.items():
+        by[pl][st] += n
+    cand = {}
+    for pl, c in by.items():
+        st, n = c.most_common(1)[0]
+        if n >= 2 and n >= 0.9 * sum(c.values()):
+            cand[pl] = (st, sum(c.values()))
+    if not cand:
+        return {}
+    every = collections.Counter()        # each candidate's uses, with a State or without, in one pass
+    big = re.compile(r"\b(" + "|".join(re.escape(x) for x in sorted(cand, key=len, reverse=True)) + r")\b")
+    for t in texts:
+        every.update(m.group(1) for m in big.finditer(t))
+    return {pl: st for pl, (st, n) in cand.items() if every[pl] <= 30 * n}
+
+
 def marks(p, mine, others):
     """What in a document marks the person apart from others of the surname and title: his name in full (his forms),
-    and the States his offices name that none of theirs does ('Iowa' for Harold E. Hughes)."""
+    the States his offices name that none of theirs does ('Iowa' for Harold E. Hughes), and the places in those
+    States (PLACES: 'Des Moines'; 'Atlantic City', 'Glassboro', 'Princeton' for Richard J. Hughes)."""
     sts = [st for st in STATES if re.search(rf"\b{st.lower()}\b", mine)
            and not any(re.search(rf"\b{st.lower()}\b", o) for o in others)
            and not (st == "Virginia" and "west virginia" in mine)]
-    alts = [x for x in [forms(p)] + [rf"\b{re.escape(st)}\b" for st in sts] if x]
+    pls = [pl for pl, st in PLACES.items() if st in sts]
+    alts = [x for x in [forms(p)] + [rf"\b{re.escape(x)}\b" for x in sts + sorted(pls, key=len, reverse=True)] if x]
     return re.compile("|".join(alts)) if alts else None
 
 
@@ -182,6 +251,9 @@ def main():
         # the words, a possessive's 's dropped ('Roth's' is Roth)
         for w in {re.sub(r"['’]s$", "", x) for x in re.findall(r"[A-Z][a-zA-Z'’\-]+", t)} & surnames:
             docs_by_sur.setdefault(w, []).append(i)
+    global PLACES
+    PLACES = places([r["title"] + " " + t for r, t in zip(rows, texts)])
+    print(len(PLACES), "places with their States", file=sys.stderr)
     year = lambda i: (re.findall(r"\d{4}", rows[i]["date"]) or ["0"])[-1]
     names_of = {p["name"]: p for p in everyone}
     out = {}

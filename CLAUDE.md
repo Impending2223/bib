@@ -424,8 +424,10 @@ given names is dropped (`recover`: "Jose A., Uruguayan"; "Cushman, Jr., Lieutena
 digit (OCR) gets no entry.
 
 APP: a title two persons of the surname share ("Governor Hughes": Harold E. of Iowa, Richard J. of New Jersey) gives a
-document to one where its title or text names his State or his name in full, and nothing of the other's (`marks` in
-`tools/lives/app_names.py`). `./bib names` builds those pages alone; `./bib names 'Humphrey, Hubert H.'
+document to one where its title or text names his State, a place in it, or his name in full, and nothing of the other's
+(`marks` in `tools/lives/app_names.py`). The places are learned from the corpus (`places`): a town the documents write
+with its State ("Atlantic City, N.J.", "Glassboro, New Jersey", APP's "Des Moines, IA") at least twice, nearly always
+the one State, and not used alone thirty times for each time with it ("Washington", "Springfield" are no marks). `./bib names` builds those pages alone; `./bib names 'Humphrey, Hubert H.'
 [--site URL] [--out FILE]` one page. The old `lives*.html` addresses forward to the new ones (`./bib lives` still works).
 The scroll wheel and the Outline drawer give each entry's full name; the top bar its surname (`data-crumb`).
 A Part III entry for two people writes them apart with ";" (`s: Evans, Rowland, Jr.; Novak, Robert D.`), never "&".
