@@ -7,7 +7,7 @@ CLAUDE.md ("The calendar"). A review list: a hit is a place to look, not an erro
 
 | Check | Entries |
 |---|---|
-| A person in `c` with a Part III entry missing from `Names:` | 114 |
+| A person in `c` with a Part III entry missing from `Names:` | 113 |
 | (of which only a President's surname: Eisenhower, Kennedy, Johnson) | 46 |
 | Neither a bibliography of its own nor a `See [[id]]` back | 9 |
 | No primary record linked or named | 78 |
@@ -107,8 +107,6 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Johnson: Johnson, Lady Bird (K–J Adm. III.A, 1968 III.Q); Johnson, Lynda Bird (K–J Adm. III.A); Johnson, Luci Baines (K–J Adm. III.A); Johnson, Lyndon B. (K–J Adm. III.D, Viet. III.A); Johnson, Paul B., Jr. (K–J Cong. III.F); Johnson, Frank M., Jr. (K–J Cong. III.G); Johnson, Tom (1968 III.A); Johnson, U. Alexis (Viet. III.C)
 - `cal.1961-05-14.freedom-rides` (May 14, VII may.yaml): Mother's Day. The Greyhound bus burned outside Anniston; the Trailways riders beaten at the Birmingham termina
   - ? Day: Day, J. Edward (K–J Adm. III.G)
-- `cal.1961-05-16.laos` (May 16, VII may.yaml): The Geneva conference on Laos opens. Harriman leads the delegation.
-  - Harriman: Harriman, W. Averell (K–J Adm. III.E, 1968 III.F, Viet. III.A)
 - `cal.1961-05-16.transition-and-staff` (May 16, VII may.yaml): Ottawa. Kennedy injures his back at a tree planting; the pain and its treatment follow him to Vienna.
   - Kennedy: Kennedy, Jacqueline (K–J Adm. III.A); Kennedy, Joseph P. (K–J Adm. III.A); Kennedy, Robert F. (K–J Adm. III.A, K–J Cong. III.B, 1968 III.K); Kennedy, Edward M. (K–J Cong. III.B, 1968 III.K, 1968 III.P, Cong. III.A); Kennedy, John F. (Viet. III.A)
 - `cal.1961-05-19.civil-rights-the-executive` (May 19, VII may.yaml): Omnibus judgeship act signed: seventy-three new federal judgeships for Kennedy to fill, many in the South.
