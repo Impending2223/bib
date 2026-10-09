@@ -7,7 +7,7 @@ those, check, build.
 
 ## The brief (read before adding anything)
 
-The owner's standing instructions.
+The owner's standing instructions; the messages they come from, verbatim, are in `notes/owner-brief.md`.
 
 **Prose.** "Compact. Plain. Compressed. Springs and Autumns, but without the
 subtle words." Record what happened, not what it meant. No praise, blame,
@@ -32,19 +32,35 @@ relevant material elsewhere in the bibliography. Names, events."
 
 So every calendar entry has:
 - `c`: what happened, in one to three clipped sentences. Who, what, the number.
-- `n`: the pointers. The source for this event (message, case, statute, FRUS
-  volume, a book by short title with list and section); `See [[id]]` back to
-  the thread's first entry, which carries the full bibliography; and
-  `Names: …` with the list and Part III section of every person in `c`.
+- `n`: the pointers, in this order:
+  - the primary record, linked: the statute (Statutes at Large on govinfo), the Federal Register, the
+    Congressional Record, the Public Papers (APP), the presidential library's file, the FRUS document, the case.
+    The owner asked for these (Oct. 2, 2026); where the record is found and the event's bibliography lacks it, add
+    it there too.
+  - the event's bibliography. An event is not a thread: the Bay of Pigs and Mongoose are two events in the Cuba
+    thread; the Vienna Summit and the Berlin wall two in Berlin and Vienna. The event's first entry carries its
+    full bibliography (works by short title with list and section); later entries of the same event point back to
+    it with `See [[id]]`. An entry that opens a new event within a thread carries its own.
+  - the event elsewhere in the series: the list sections that treat it ("K–J Adm. II.D"), where the bibliography
+    has not already given them.
+  - `Names: …`, the list and Part III section of every person in `c` who has a Part III entry ("Names, events").
 
-Thread scopes in `th.yaml` are a list of the thread's stations, not a summary.
+Each thread in `th.yaml` has a brief statement (`c`), as the owner asked: what the thread is, and its stations, in
+one or two clipped sentences.
+
+`./bib audit-cal` checks the dated entries against these rules and writes `notes/calendar-audit.md`: persons in `c`
+missing from `Names:`, entries with neither a bibliography nor a `See`, entries with no primary record or with one
+named but not linked, and the thread statements.
 
 **Bibliography notes.** One or two fragments: what the book is, whose voice,
 what to read it for. "Interviews with nearly everyone, Bissell included."
 "Read the Washington chapters." Not reviews. Most entries need no note: when
 the title does the work, leave it bare. No awards, no "start here," no side
 labels ("defense," "revisionist," "from the left"); state a thesis or a
-source's provenance the same way whichever side it is on.
+source's provenance the same way whichever side it is on. (This came of the owner's objection, Oct. 2, 2026, to
+Viet. notes "unduly credulous of NVA/NLF/dovish material", which gave the critics "the unmarked default position"
+and marked their opponents "the defense". The owner also asked where the Vietnamese-language works were: Viet. II.E
+should hold them.)
 
 Before and after:
 
@@ -174,8 +190,8 @@ The thread index (Part I of the calendar) is generated from `thread` and
 
 Short declarative sentences. Books already in a list are cited by short title
 with list and section; works found only here are cited in full. "Check" marks
-a detail to verify. In the calendar the first entry of each thread carries its
-bibliography and later ones point back with `See [[id]]`. Bibliography sections
+a detail to verify. In the calendar the first entry of each event carries its
+bibliography and later ones point back with `See [[id]]`; a thread's first entry is its first event's. Bibliography sections
 are chronological by publication unless their intro says "Alphabetical".
 
 ## Changing things
@@ -477,7 +493,13 @@ tools/lives/make_pocom.py     sources/pocom.json: POCOM's years of birth and dea
                               notes/pocom-matches.md, the matches made by name, with the evidence, and those refused
 sources/pocom-matches.yaml    kept by hand: overrides to the name matches (Name: pocom-id, or Name: null)
 sources/race-matches.yaml     kept by hand: races refused or confirmed for a person, each with its reason
+sources/app-matches.yaml      kept by hand: a bare name two persons share, given to one for some years; a son known
+                              only by his suffix (strict: Roosevelt, Hoover, Clay, MacArthur, Taft, Stevenson III)
 ```
+
+Namesakes in the FRUS and APP indexes: a further given name or initial tells two apart ('John W.' is not 'John G.';
+FRUS's list gives the suffix apart, and it decides between a father and a son); a misprinted list is corrected in
+`ERRATA` (`tools/lives/frus_names.py`: FRUS 1961-63, VII and XVI print Stevenson III for his father).
 
 POCOM in a life: the years of birth and death where the Directory gives none; "Career Foreign Service officer" or
 "Non-career appointee", with the home State; and the State posts the roster does not hold (ended before Jan. 20,

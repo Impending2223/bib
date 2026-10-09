@@ -10,7 +10,13 @@ sources/app-index.jsonl.
 #   where the person held such an office (the Executive roster, the Congresses, Part III's role, the Directory) and
 #   no other person of the surname did ('Vice President Humphrey' is Hubert; 'Secretary Humphrey', George M.).
 #   Two persons sharing a first name and surname, a father and a son with a suffix: a document dated in or before
-#   the father's death (the Directory's year, or POCOM's) names the father, a later one the son. Any other shared
+#   the father's death (the Directory's year, or POCOM's) names the father, a later one the son. Namesakes whose
+#   further given names differ (John W. Dean III and John G. Dean): a document names one where it gives his further
+#   name or initial or his suffix ('John W. Dean III'); the bare name ('John Dean') only where
+#   sources/app-matches.yaml gives it to one of them, for the years it gives, with the reason. A son the file marks
+#   strict, whose father of the same name is better known (Franklin D. Roosevelt, Jr.), only by his suffix, an office
+#   title only he held, or the file's years; his father, where the series holds him, by the bare name in every year
+#   (not where the son's suffix follows). Any other shared
 #   first name and surname is left out: the text cannot tell them apart. A document does not name its own author.
 #   APP's 'Event Timeline' pages (its chronology of each presidency) are not documents and are left out.
 """
@@ -19,11 +25,12 @@ import gzip, hashlib, json, os, re, sys
 HERE = os.path.dirname(__file__)
 sys.path.insert(0, os.path.join(HERE, ".."))
 from bib import store  # noqa: E402
-from bib.lives import people, key_of, split_name  # noqa: E402
+from bib.lives import people, key_of, split_name, same_person  # noqa: E402
 
 OUT = os.path.join(HERE, "..", "..", "sources")
-def forms(p):
-    """The regex for a person's names."""
+def forms(p, strict=False, sfx="", mids_ok=True):
+    """The regex for a person's names. strict: only the forms that give a further given name or initial after the
+    first name, or the suffix after the surname ('John W. Dean', 'John Wesley Dean', 'John Dean III')."""
     firsts, mids = set(), set()
     for n in p["names"]:
         sur, given = split_name(n)
@@ -34,8 +41,9 @@ def forms(p):
             firsts.add(g[0].rstrip("."))
             if len(g) > 1 and len(g[0].rstrip(".")) == 1 and len(g[1].rstrip(".")) > 1:
                 firsts.add(g[1])         # the middle name he went by: 'M. Caldwell Butler', 'Caldwell Butler'
-            for w in g[1:]:
-                mids.add(re.escape(w) if w.endswith(".") else re.escape(w) + r"|" + re.escape(w[0]) + r"\.")
+            for w in g[1:]:              # for namesakes (strict) an initial also stands for its name ('M.', 'Matson')
+                mids.add(re.escape(w) + r"|" + re.escape(w[0]) + r"[a-z]{2,}" if strict and w.endswith(".") and len(w) == 2
+                         else re.escape(w) if w.endswith(".") else re.escape(w) + r"|" + re.escape(w[0]) + r"\.")
         firsts.update(nick)
     for n in p["names"]:
         g = [w for w in re.sub(r"\([^)]*\)", "", split_name(n)[1]).replace(",", " ").split()
@@ -52,6 +60,14 @@ def forms(p):
         return rf"\b(?:{'|'.join(inits)}{'|' + first if first else ''})\s+{re.escape(p['sur'])}\b"
     if not first:
         return None
+    if strict:
+        alts = []
+        if mids and mids_ok:
+            alts.append(rf"\b(?:{first})(?:\s+(?:" + "|".join(sorted(mids)) + rf"))+\s+{re.escape(p['sur'])}\b")
+        if sfx:                          # the suffix, with or without the further names ('Franklin D. Roosevelt, Jr.')
+            any_mid = r"(?:\s+(?:" + "|".join(sorted(mids) + [r"[A-Z]\."]) + r"))*"
+            alts.append(rf"\b(?:{first}){any_mid}\s+{re.escape(p['sur'])},?\s+{re.escape(sfx)}(?![a-z])")
+        return "|".join(alts) or None
     mid = r"(?:\s+(?:" + "|".join(sorted(mids)) + r"))*" if mids else ""
     return rf"\b(?:{first}){mid}\s+{re.escape(p['sur'])}\b"
 
@@ -114,6 +130,9 @@ def main():
                 for n in re.split(r";\s*", e["s"]):
                     n = re.sub(r"\s*\(.*?\)\s*$", "", n).strip()
                     ROLES[n] = ROLES.get(n, "") + " " + (e.get("r") or "")
+    global MATCHES
+    mp = os.path.join(OUT, "app-matches.yaml")
+    MATCHES = (store.load_yaml(mp) or {}) if os.path.exists(mp) else {}
     pp = os.path.join(OUT, "pocom.json")
     POCOM = json.load(open(pp, encoding="utf-8")) if os.path.exists(pp) else {}
     from bib.lives import person_suffix
@@ -137,7 +156,8 @@ def main():
         texts.append(t)
         if r["title"].endswith("Event Timeline"):   # APP's own chronology of a presidency, not a document
             continue
-        for w in set(re.findall(r"[A-Z][a-zA-Z'’\-]+", t)) & surnames:
+        # the words, a possessive's 's dropped ('Roth's' is Roth)
+        for w in {re.sub(r"['’]s$", "", x) for x in re.findall(r"[A-Z][a-zA-Z'’\-]+", t)} & surnames:
             docs_by_sur.setdefault(w, []).append(i)
     year = lambda i: (re.findall(r"\d{4}", rows[i]["date"]) or ["0"])[-1]
     names_of = {p["name"]: p for p in everyone}
@@ -148,30 +168,54 @@ def main():
             continue
         group = set().union(*[v for (s, g), v in seen.items() if s == p["sur"] and p["name"] in v]) or {p["name"]}
         span = None                      # (from, to) years, for a father and a son of one name
+        apart = False                    # namesakes whose further given names differ: John W. and John G. Dean
+        strict = bool((MATCHES.get(p["name"]) or {}).get("strict"))   # a son known by his suffix (app-matches)
+        tail = ""                        # a father whose son is strict: not where the son's suffix follows
+        if strict:
+            apart, group = True, {p["name"]}
         if len(group) > 1:
-            if len(group) != 2:
+            others = [names_of[n] for n in group if n != p["name"]]
+            if all(not same_person(p["sur"], p["given"], q["sur"], q["given"]) for q in others):
+                apart = True
+            elif len(group) != 2:
                 continue
+        if len(group) > 1 and not apart:
             other = names_of[next(n for n in group if n != p["name"])]
             mine_s, other_s = person_suffix(series, p)[0], person_suffix(series, other)[0]
             if bool(mine_s) == bool(other_s):
                 continue                 # neither is the son by his suffix: the text cannot tell them apart
             elder = other if mine_s else p
-            died = death_year(series, elder)
-            if not died:
-                continue
-            span = ("0", died) if elder is p else (str(int(died) + 1), "9999")
-            cand = [i for i in cand if span[0] <= year(i) <= span[1]]
-        pats = [forms(p)]
+            if elder is p and (MATCHES.get(other["name"]) or {}).get("strict"):
+                tail = rf"(?!,?\s+{re.escape(other_s)}\b)"   # the son goes by his suffix: every year is the father's
+            else:
+                died = death_year(series, elder)
+                if not died:
+                    continue
+                span = ("0", died) if elder is p else (str(int(died) + 1), "9999")
+                cand = [i for i in cand if span[0] <= year(i) <= span[1]]
+        hand = (MATCHES.get(p["name"]) or {}).get("bare")
+        if apart:
+            # only the forms that tell him from his namesake: a further given name or initial, or his suffix; the
+            # bare name where sources/app-matches.yaml gives it to him, for the years it gives
+            pats = [forms(p, strict=True, sfx=person_suffix(series, p)[0], mids_ok=not strict)]
+            if hand:
+                lo_, hi_ = (str(x) for x in hand)
+                also = [re.escape(x) for x in (MATCHES.get(p["name"]) or {}).get("forms") or []]
+                bare = "|".join(x for x in [forms(p)] + [rf"\b{a}\b" for a in also] if x)
+                bare_hits = {i for i in cand if lo_ <= year(i) <= hi_ and bare and re.search(bare, texts[i])}
+        else:
+            pats = [forms(p) and forms(p) + tail]
         rivals = [q for q in by_sur[p["sur"]] if q is not p]
         mine_t = [t for t, w in TITLE_WORDS if re.search(w, office[p["name"]])
                   and not any(re.search(w, office[q["name"]]) for q in rivals)]
-        if mine_t:
+        if mine_t and not strict:        # a strict son's titles were his father's too ('General Clay', 'Senator Taft')
             pats.append(rf"\b(?:{'|'.join(mine_t)})\s+{re.escape(p['sur'])}\b")
         if not any(pats):
             continue                     # nothing to look for: an empty pattern would match every document
         rx = re.compile("|".join(x for x in pats if x))
         own = {store.fold(f"{split_name(n)[1].split()[0]} {p['sur']}") for n in p["names"] if split_name(n)[1]}
-        hits = [i for i in cand if rx.search(texts[i]) and not any(o and o in store.fold(rows[i]["who"]) for o in own)]
+        hits = [i for i in cand if (rx.search(texts[i]) or (apart and hand and i in bare_hits))
+                and not any(o and o in store.fold(rows[i]["who"]) for o in own)]
         if hits:
             out[key_of(p["name"])] = hits
     letters = {}

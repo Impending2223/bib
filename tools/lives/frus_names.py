@@ -36,6 +36,30 @@ def sfx_of(given):
     return m.group(1) if m else ''
 
 
+# Misprints in a volume's list of persons, by volume and xml:id: the name as it should read. FRUS 1961-63, VII and XVI
+# print 'Stevenson, Adlai E., III' for the Permanent Representative to the United Nations, 1961-65: the father (VII's
+# own xml:id, 'p_SAEII1', says II); the son, the Senator, is III in the 1969-76 volumes.
+ERRATA = {('frus1961-63v07', 'p_SAEII1'): ('Stevenson', 'Adlai E.', ''),
+          ('frus1961-63v16', 'p_SAEIII1'): ('Stevenson', 'Adlai E.', '')}
+
+
+def fits(given, listed):
+    """A target's given names and a list's agree: the first name alike (compatible, the same first word), and where
+    both give further names or initials after it, each of the fewer among the other's by its initial, in order
+    ('John W.' is not 'John G.'; 'John G.' is 'John Gunther'). The suffix is judged apart."""
+    if not (compatible(given, listed) and M.first_word(listed) == M.first_word(given)):
+        return False
+    def rest(g):
+        ws = [w.strip('.,') for w in re.sub(r'\s*\([^)]*\)', '', g).split()]
+        ws = [w for w in ws if w and not re.fullmatch(r'(Jr|Sr|II|III|IV)', w)]
+        f = M.first_word(g)
+        return [w[0].lower() for w in ws[ws.index(f) + 1:]] if f in ws else []
+    a, b = rest(given), rest(listed)
+    short, long_ = (a, b) if len(a) <= len(b) else (b, a)
+    it = iter(long_)
+    return all(x in it for x in short)
+
+
 def scan(git, targets, heirs=None):
     """targets: {key: (surname, given, suffix, strict)}. One pass over every volume. A list's 'Byrd, Harry F., Jr.'
     is the person whose suffix is Jr.; a bare 'Byrd, Harry F.' is not, where his father, written bare, has his own
@@ -55,14 +79,22 @@ def scan(git, targets, heirs=None):
             print('unreadable', vol, file=sys.stderr)
             continue
         P, roles = M.persons(root)
+        P.update({i: ERRATA[(vol, i)] for i in P if (vol, i) in ERRATA})
         ids = {}                                   # xml:id -> person key
         for i, p in P.items():
             hits = []
             for k, given, sfx, strict in by_sur.get(M.clean(p[0]).lower(), []):
-                if p[1] and compatible(given, p[1]) and M.first_word(p[1]) == M.first_word(given):
+                # the first names alike, and the further names and initials too where both give them ('John W.' is
+                # not 'John G.')
+                if p[1] and fits(given, p[1]):
                     ps = sfx_of(p[1])
+                    if strict and not ps and len(p) > 2:
+                        ps = (p[2] or '').rstrip('.')       # the list keeps a suffix apart: 'Dean, John W., III'
                     if (ps == sfx) if (ps or strict) else True:
                         hits.append(k)
+            listed = (p[2] or '').rstrip('.') if len(p) > 2 else ''
+            if len(hits) > 1 and listed:     # a father and a son: the list's suffix tells them apart
+                hits = [k for k in hits if targets[k][2] == listed] or hits
             if len(hits) == 1:               # two persons the list's name fits: the documents cannot tell them apart
                 ids[i] = hits[0]
         if not ids:

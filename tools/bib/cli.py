@@ -224,6 +224,14 @@ def OUT_DIR():
     return OUT
 
 
+def cmd_audit_cal(series, a):
+    from . import calaudit
+    path, total, names, event, none, unlinked, threads = calaudit.report(series)
+    print(f"{os.path.relpath(path)}: {total} dated entries; names missing in {names}; no bibliography or See in "
+          f"{event}; no primary record in {none}; one named, not linked, in {unlinked}; {threads} threads")
+    return 0
+
+
 def cmd_check(series, a):
     from . import check
     probs = check.run(series, only=a.list)
@@ -510,6 +518,7 @@ def main(argv=None):
     x = sub.add_parser("show", help="full YAML of entries, with rev, tags, and backlinks")
     x.add_argument("ids", nargs="+")
     sub.add_parser("links", help="links between the built pages whose anchors are missing")
+    sub.add_parser("audit-cal", help="the calendar's entries against the brief: writes notes/calendar-audit.md")
     x = sub.add_parser("check", help="lint the store; exit 1 on errors")
     x.add_argument("--list", "-l")
     x.add_argument("--quiet", "-q", action="store_true", help="errors only")
