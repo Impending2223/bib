@@ -281,6 +281,10 @@ class Linker:
         return None
 
     def find_person(self, token, key, codes):
+        def expand(c):                   # 'III.C–D': III.C and III.D
+            m = re.match(r"^([IVX]+)\.([A-Z])–([A-Z])$", c)
+            return [f"{m.group(1)}.{chr(x)}" for x in range(ord(m.group(2)), ord(m.group(3)) + 1)] if m else [c]
+
         lst = self.series.lists.get(key)
         if not lst:
             return None
@@ -289,19 +293,55 @@ class Linker:
             return None
         sur = store.fold(words[-1])
         given = store.fold(words[0]) if len(words) > 1 else None
+        codes = [x for c in codes for x in expand(c)]
         secs = [self.refs.section_for(key, c) for c in codes] or [None]
         cands = []
+        from . import lives as L
+        tok = store.fold(re.sub(r"\s*\([^)]*\)", "", token)).strip()
+        natural, named = [], []          # names in their own order: by their last word; by a form that gives the word
         for s, e in lst.entries():
             if secs != [None] and s not in secs:
                 continue
-            if not e.get("s") or "," not in e["s"]:
+            if not e.get("s"):
                 continue
-            esur, egiven = plain(e["s"]).split(",", 1)
-            if store.fold(esur).split()[-1:] == [sur] or store.fold(esur) == sur:
-                if given and not store.fold(egiven).startswith(given):
+            if "," not in e["s"]:        # a name in its own order ('Ngo Dinh Diem'): the whole, or the word it goes by
+                if "group" in (e.get("tags") or []):
                     continue
-                cands.append(e)
-        return cands[0] if cands else None
+                for n in re.split(r";\s*", plain(e["s"])):
+                    n0 = re.sub(r"\s*\([^)]*\)", "", n).strip()
+                    n = store.fold(n0)
+                    if tok == n:
+                        return e
+                    if len(words) != 1:
+                        continue
+                    # the word it goes by: a form filed under it ('Diem, Ngo Dinh'; 'Ikeda, Hayato') or a title and it
+                    # ('President Diem'); else the last word, where no other name of the section ends in it (Bui Diem)
+                    forms = [store.fold(f) for f in L.name_forms(n0)[1:]]
+                    own = set(n.split())
+                    if tok in own and any("," in f and f.split(",")[0].strip() == tok
+                                          and set(f.split(",", 1)[1].split()) <= own
+                                          or f.split()[1:] == [tok] and len(f.split()) == 2 for f in forms):
+                        named.append(e)
+                    elif n.split()[-1:] == [sur]:
+                        natural.append(e)
+                continue
+            for one in re.split(r";\s*", plain(e["s"])):     # 'Huntley, Chet; Brinkley, David': each
+                if "," not in one:
+                    continue
+                esur, egiven = one.split(",", 1)
+                if store.fold(esur).strip() == tok:  # the whole surname, of several words ('de Gaulle', 'Van Pelt')
+                    cands.append(e)
+                    break
+                if store.fold(esur).split()[-1:] == [sur] or store.fold(esur) == sur:
+                    if given and not store.fold(egiven).strip().startswith(given):
+                        continue
+                    cands.append(e)
+                    break
+        if cands:
+            return cands[0]
+        if len(named) == 1:
+            return named[0]
+        return natural[0] if len(natural) == 1 and not named else None
 
     def names_markup(self, chunk, key, internal=True):
         """A calendar note's 'Names: Heller, Tobin (K–J Adm. III.H)': each name marked to link to the person's name
@@ -312,7 +352,7 @@ class Linker:
             return chunk
         head, body = chunk[:m.start(1)], m.group(1)
         groups = []
-        for g in re.split(r"(;\s*)", body):
+        for g in re.split(r"(;\s*)(?![^()]*\))", body):     # not at a ';' within the parentheses
             gm = re.match(r"^([^()]+?)\s*\(([^)]*)\)(.*)$", g)
             if not gm:
                 groups.append(g)
@@ -340,7 +380,7 @@ class Linker:
         matches, where it names several), or None."""
         from . import namelinks
         names = [re.sub(r"\s*\([^)]*\)\s*$", "", n).strip() for n in re.split(r";\s*", plain(x.get("s") or ""))]
-        names = [n for n in names if "," in n]
+        names = [n for n in names if n]  # 'Rusk, Dean'; a name in its own order too ('Ngo Dinh Diem')
         if not names:
             return None
         if tok:

@@ -368,7 +368,7 @@ def shown_title(u, o, h):
 
 def office_sentences(sur, given, names=None):
     """Each office held, with the ex officio offices held by virtue of it after it."""
-    from . import executive as X, executive_sources as S
+    from . import executive as X, executive_sources as S, votes as V
 
     held = [(u, o, h) for u, o, h in holders_of(sur)
             if (h["name"] in names if names else same_person(*split_name(h["name"]), sur, given))]
@@ -402,8 +402,11 @@ def office_sentences(sur, given, names=None):
     for u, o, h in sorted(hosts, key=lambda x: str(x[2]["from"])):
         title = h.get("title") or X.title_at(o, h["from"])
         pairs = [(k, h[k]) for k in ("nominated", "confirmed") if h.get(k)]
+        if h.get("confirmed"):
+            pairs[-1] = ("confirmed", h["confirmed"], V.confirmed_suffix(h, o.get("_key")))
         if h.get("recess"):
             pairs.insert(0, ("recess appointment", h["recess"]))
+        pairs += V.later_pairs(h, o.get("_key"))
         extra = "; " + X.dates_run(pairs) if pairs else ""
         out_ = " " + to_html(h["out"]).rstrip(".") + "." if h.get("out") else ""
         shown, prefix = shown_title(u, o, h)
@@ -426,6 +429,15 @@ def office_sentences(sur, given, names=None):
             out.append(sent(xh["from"], f"{esc(shown_title(xu, xo_, xh)[0])}, ex officio, {when(xh)}.", ext, intl,
                             kind="office"))
     return out
+
+
+def vote_sentences(names):
+    """The Senate's roll calls on a nomination to a post the roster does not hold (a judge; an ambassador who did
+    not serve), by sources/vote-matches.yaml: "Confirmed Associate Justice of the Supreme Court, Aug. 30, 1967
+    (69–11)." Each its own sentence block, cited to Voteview."""
+    from . import votes as V
+    return [sent(d, t, [src], para=True, kind="office", dates={d}) for n in sorted(names) for d, t, src in
+            V.person_sentences(n)]
 
 
 POCOM_URL = "https://history.state.gov/departmenthistory/people/"
@@ -1957,7 +1969,7 @@ def entry(series, linker, ptrs, p):
         structured = calendar_sentences(ptrs, cal)
     else:
         rp, e, races = person_races(series, p)
-        structured = (office_sentences(sur, given, names) + races
+        structured = (office_sentences(sur, given, names) + vote_sentences(p["names"]) + races
                       + calendar_sentences(ptrs, cal) + pocom_sentences(p, bool(e)))
     record = [s_["row"] for s_ in structured if s_.get("row")]
     structured = [s_ for s_ in structured if s_["kind"] != "election"]

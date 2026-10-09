@@ -82,7 +82,7 @@ import os
 import re
 from collections import defaultdict
 
-from . import store, executive_sources, namelinks
+from . import store, executive_sources, namelinks, votes
 from .markup import to_html, plain
 
 DIR = os.path.join(store.ROOT, "executive")
@@ -194,6 +194,7 @@ def _load():
             if isinstance(d, dict) and d.get("unit"):
                 d["_file"] = f
                 for o in d.get("offices") or []:
+                    o["_key"] = f"{d['unit']}.{o.get('id')}"
                     for h in o.get("holders") or []:
                         if h.get("last") and not h.get("to"):     # the end not known: count to the last day seen
                             h["to"], h["_last"] = h["last"], True
@@ -225,13 +226,15 @@ def fmt(d, year=True):
 
 
 def dates_run(pairs):
-    """[(label, date)] -> 'nominated Jan. 20, confirmed Jan. 20, took office Jan. 21, 1961': the year once per run."""
+    """[(label, date[, after])] -> 'nominated Jan. 20, confirmed Jan. 20 (63–17), took office Jan. 21, 1961': the
+    year once per run; after (HTML), a vote, follows its date."""
     out = []
-    for i, (lab, d) in enumerate(pairs):
+    for i, p in enumerate(pairs):
+        lab, d = p[0], p[1]
         y = str(d)[:4]
         last = i == len(pairs) - 1 or str(pairs[i + 1][1])[:4] != y or len(str(d)) < 10
         txt = fmt(d, year=last) if len(str(d)) == 10 else fmt(d)
-        out.append(f"{lab} {txt}" if lab else txt)
+        out.append((f"{lab} {txt}" if lab else txt) + (p[2] if len(p) > 2 else ""))
     return ", ".join(out)
 
 
@@ -432,12 +435,13 @@ def holder_line(h, a, b, o=None):
         if h.get("nominated"):
             pairs.append(("nominated", h["nominated"]))
         if h.get("confirmed"):
-            pairs.append(("confirmed", h["confirmed"]))
+            pairs.append(("confirmed", h["confirmed"], votes.confirmed_suffix(h, (o or {}).get("_key"))))
         if h.get("appointed") and h.get("appointed") != h.get("recess"):
             com = h.get("confirmed") or h.get("recess") or (o or {}).get("appt") in ("PAS", "MIL")
             pairs.append(("commissioned" if com else "appointed", h["appointed"]))
         if not h.get("_seen"):
             pairs.append(("took office", h["from"]))
+        pairs += votes.later_pairs(h, (o or {}).get("_key"))
         t = dates_run(pairs) if pairs else ""
         t = (t[0].upper() + t[1:] + ". ") if t else ""
         if h.get("_seen"):
@@ -979,7 +983,7 @@ def problems(series=None):
             if oid in ids:
                 out.append((w, "duplicate office id"))
             ids.add(oid)
-            bad = set(o) - OFFICE_KEYS
+            bad = {k for k in set(o) - OFFICE_KEYS if not k.startswith("_")}
             if bad:
                 out.append((w, f"unknown office fields: {', '.join(sorted(bad))}"))
             if not o.get("title"):
