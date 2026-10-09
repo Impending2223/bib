@@ -23,7 +23,7 @@ STYLE:
     Statistics, by year and page; pointers: Exec. (the roster at a term), Cong. (a Congress at its opening),
     Election, Cal.
  6. Each run of sentences sharing their sources and pointers is a sentence block; its source block follows it,
-    the cites first, then the pointers.
+    the cites first, then the pointers; each sentence block is a paragraph.
  5. FRUS headings with 'from' in lower case; works from the Directory's bibliography in the series' form.
 """
 import datetime
@@ -87,6 +87,24 @@ def split_name(name):
     bare = re.sub(r"\s*\([^)]*\)", "", name)
     p = [x.strip() for x in bare.split(",")]
     return p[0], (p[1] if len(p) > 1 else "")
+
+
+def natural(name):
+    """A name written in its own order, family name first or a single name, without a comma: 'Mao Zedong', 'Ngo Dinh
+    Diem', 'Souphanouvong', 'Malcolm X'. The whole name stands as the surname; its other forms (romanizations, the
+    form a source lists or a text uses: 'Mao Tse-tung', 'Diem, Ngo Dinh', 'President Diem') are in
+    sources/name-forms.yaml."""
+    return "," not in re.sub(r"\s*\([^)]*\)", "", name)
+
+
+def name_forms(name):
+    """The forms of a natural-order name: the name as written (its own script dropped), then those of
+    sources/name-forms.yaml."""
+    def make():
+        return store.load_yaml(os.path.join(store.ROOT, "sources", "name-forms.yaml")) or {}
+    bare = re.sub(r"\s*\([^)]*\)", "", name).strip()
+    latin = re.sub(r"\s*[^\x00-\u024f\u1e00-\u1eff]+$", "", bare).strip()
+    return list(dict.fromkeys([latin] + list(cached("name-forms", make).get(latin) or [])))
 
 
 SUFFIX = {"jr", "sr", "ii", "iii", "iv"}
@@ -1507,31 +1525,29 @@ def record_html(rows, rosters):
 
 
 def life_html(sents):
-    """Running text, in paragraphs at each office and election. Each run of sentences with the same sources and the
-    same pointers is one sentence block; its source block follows it: the cites, then the pointers."""
+    """Running text. Each run of sentences with the same sources and the same pointers is one sentence block, its
+    source block after it (the cites, then the pointers), and each sentence block is a paragraph; a new paragraph
+    also at each office and election, and at each calendar entry, where the sources run on."""
     paras, cur, block = [], [], None
 
     def close():
-        nonlocal block
+        nonlocal block, cur
         if block:
             ext, intl = block
             if ext:
                 cur.append(f'<span class="lvc">{"; ".join(x.rstrip(".") for x in ext)}.</span>')
             if intl:
                 cur.append('<span class="lvq">' + pointers(list(intl)) + "</span>")
-        block = None
+        if cur:
+            paras.append(" ".join(cur))
+        cur, block = [], None
     for s in sents:
         key = (tuple(dict.fromkeys(s["ext"])), tuple(dict.fromkeys(s["int"])))
         if block is not None and (key != block or s["para"]):
             close()
-        if s["para"] and cur:
-            paras.append(" ".join(cur))
-            cur = []
         cur.append(s["text"])
         block = key
     close()
-    if cur:
-        paras.append(" ".join(cur))
     return "".join(f'<p class="lvl">{p}</p>' for p in paras)
 
 
@@ -2228,10 +2244,12 @@ def people(series):
     words = lambda t: set(re.findall(r"[a-z]{4,}", fold(t))) - STOP
     for l in series.lists.values():
         for s, e in l.entries():
-            if (s.code or "").startswith("III") and e.get("s") and "," in e["s"]:
+            # a name in its own order, without a comma, is a person too ('Mao Zedong', 'Ngo Dinh Diem', 'Malcolm X'),
+            # but not a group ('Wise Men', tagged 'group')
+            if (s.code or "").startswith("III") and e.get("s") and "group" not in (e.get("tags") or []):
                 for n in re.split(r";\s*", e["s"]):          # 'Dirksen, Everett M.; Kuchel, Thomas H.': two
                     n = re.sub(r"\s*\(.*?\)\s*$", "", n).strip()
-                    if "," in n:
+                    if n:
                         cands.append((n, 0))
                         role[n] = role.get(n, "") + " " + (e.get("r") or "") + " " + " ".join(x.title for x in chain(s))
     for u in X.load().values():
@@ -2249,6 +2267,10 @@ def people(series):
                     cands.append((r["name"], 2))
                     if r.get("given"):
                         full.setdefault(r["name"], r["given"])
+    mp = os.path.join(store.ROOT, "sources", "app-matches.yaml")
+    strict_sons = {n for n, v in ((store.load_yaml(mp) or {}) if os.path.exists(mp) else {}).items()
+                   if isinstance(v, dict) and v.get("strict")}
+
     def one(a, ra, b, rb):
         """Names a and b (from sources ra, rb) are one person: compatible with each other (every name the person
         has, so 'J. Skelly' and 'Jim' do not join through 'James'), and their suffixes agree. 'Jr.' and none may
@@ -2304,6 +2326,10 @@ def people(series):
         real = lambda x: x not in ("", "Sr")
         if real(sa) and real(sb) and sa != sb:
             return False
+        # a son known by his suffix (sources/app-matches.yaml, strict) is not his father written bare ('Clay,
+        # Lucius D.', the General; 'Clay, Lucius D., Jr.', his son)
+        if (a in strict_sons and not real(sb)) or (b in strict_sons and not real(sa)):
+            return False
         if ra != rb:
             return True
         # within one source. The Congress rosters write each member one way: two names are two members (Charles
@@ -2324,7 +2350,7 @@ def people(series):
         exact.setdefault(name, set()).add(rank)
     for name, ranks in sorted(exact.items(), key=lambda x: (min(x[1]), suffix(x[0]) in ("", "Sr"), x[0])):
         sur, given = split_name(name)
-        if not given:
+        if not given and not (natural(name) and 0 in ranks):
             continue
         mine = {(name, r) for r in ranks}
         group = by_sur.setdefault(fold(sur), [])

@@ -408,6 +408,12 @@ entry for each person in Part III, the Executive roster, and the Congresses at t
 [--site URL] [--out FILE]` one page. The old `lives*.html` addresses forward to the new ones (`./bib lives` still works).
 The scroll wheel and the Outline drawer give each entry's full name; the top bar its surname (`data-crumb`).
 A Part III entry for two people writes them apart with ";" (`s: Evans, Rowland, Jr.; Novak, Robert D.`), never "&".
+A name written in its own order, without a comma (Mao Zedong, Ngo Dinh Diem, Souphanouvong, U Thant, Malcolm X), is a
+person too (`natural`): the whole name stands as the surname, and its other forms (romanizations, the forms FRUS lists
+and the Public Papers use: Mao Tse-tung, "Diem, Ngo Dinh", President Diem) are in `sources/name-forms.yaml`, kept by
+hand; FRUS and APP find the person by those. A Part III entry for a group (Wise Men, Chicago defendants) is tagged
+`group` and has no name entry. A person the calendar names who fits no other Part III section goes in K–J Cong. III.K,
+"Others named in the calendar".
 
 Names link to their entries throughout (`tools/bib/namelinks.py`), muted: class `nm`, the text's own color and
 a faint underline. Linked: the calendar's "Names:" (by the Part III section given), Part III subjects, the
@@ -425,7 +431,8 @@ not a suffix; the Executive roster may drop a suffix but not an initial (its bar
 B. Anderson). A bare name joins a fuller one from another source only with support: Part III's role shares a word
 with the roster's office, or Part III's man sat in Congress, or the member's Directory entry gives Part III's role.
 A short form ("Bob") joins only through the roster's "(Bob)", agreeing middle initials, or a role in Congress. A
-father written bare and a son with "Jr." stay two (Harry F. Byrd; Barry M. Goldwater); the son's pointers, returns,
+father written bare and a son with "Jr." stay two (Harry F. Byrd; Barry M. Goldwater; a son `strict` in
+`sources/app-matches.yaml` is never his father written bare: Lucius D. Clay and Lucius D. Clay, Jr.); the son's pointers, returns,
 and FRUS documents go by his suffix, and a FRUS document naming the father bare after his death (the Directory's
 year) is the son's. To keep two roster spellings of one man together, write them alike.
 
@@ -481,7 +488,8 @@ leaves out the pointer the role line already gives (and is left out where that w
   entry's own sources. The series' pages are pointers, not sources: Exec. 1965, 87th, 88th Cong., Election 1960,
   Cal. Jan. 3, 1961, list sections — in the headings' sans serif, not underlined.
 - A run of sentences with the same sources and pointers is a sentence block; its source block follows it: the
-  cites, then the pointers. A new paragraph at each office and election, and at each calendar entry.
+  cites, then the pointers. Each sentence block is a paragraph; a new one also at each office and election, and at
+  each calendar entry, where the sources run on.
 - An office is followed by the offices held ex officio by virtue of it, with their dates only where they differ.
 - The Directory's color is cut (`CUT`); its bibliography is put in the series' form ("Timothy N. Thurber, *The
   Politics of Equality* (1999)"). FRUS headings with "from" in lower case.
@@ -501,6 +509,7 @@ sources/pocom-matches.yaml    kept by hand: overrides to the name matches (Name:
 sources/race-matches.yaml     kept by hand: races refused or confirmed for a person, each with its reason
 sources/app-matches.yaml      kept by hand: a bare name two persons share, given to one for some years; a son known
                               only by his suffix (strict: Roosevelt, Hoover, Clay, MacArthur, Taft, Stevenson III)
+sources/name-forms.yaml       kept by hand: the other forms of each name Part III writes in its own order (Mao Tse-tung)
 ```
 
 Namesakes in the FRUS and APP indexes: a further given name or initial tells two apart ('John W.' is not 'John G.';

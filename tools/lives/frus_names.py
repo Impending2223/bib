@@ -60,7 +60,29 @@ def fits(given, listed):
     return all(x in it for x in short)
 
 
-def scan(git, targets, heirs=None):
+def flat(t):
+    """A name for comparing forms: its parentheses dropped, folded, lower case, hyphens as spaces."""
+    from bib.store import fold
+    t = re.sub(r'\s*\([^)]*\)', '', M.clean(t))
+    return re.sub(r'[\s-]+', ' ', fold(t).lower()).strip(' ,')
+
+
+def natural_hit(p, role, naturals):
+    """A natural-order name (tools/bib/lives.py, natural) in a list: its whole name, or the name before a title,
+    is one of the person's forms ('Mao Tse-tung', 'Souvanna Phouma, Prince'), or the name and what follows the
+    comma is ('Diem, Ngo Dinh'). Not a wife listed under her husband's name ('Ngo Dinh Nhu, Madame')."""
+    n0 = len(re.sub(r'\s*\([^)]*\)', '', M.clean(p[0])))
+    head = re.sub(r'\s*\([^)]*\)', '', role)[n0:n0 + 12]
+    wife = re.match(r'\s*,?\s*(Madame|Mme\.?|Mrs\.)', head)
+    if wife:                          # 'Ngo Dinh Nhu, Madame (Tran Le Xuan)': her forms only
+        return naturals.get(flat(p[0] + ', Madame'))
+    for f in (flat(p[0] + (', ' + p[1] if p[1] else '')), flat(p[0])):
+        if f in naturals:
+            return naturals[f]
+    return None
+
+
+def scan(git, targets, heirs=None, naturals=None):
     """targets: {key: (surname, given, suffix, strict)}. One pass over every volume. A list's 'Byrd, Harry F., Jr.'
     is the person whose suffix is Jr.; a bare 'Byrd, Harry F.' is not, where his father, written bare, has his own
     entry (strict). heirs: {father's key: (year he died, son's key)}: a document after the father's death that names
@@ -92,6 +114,10 @@ def scan(git, targets, heirs=None):
                         ps = (p[2] or '').rstrip('.')       # the list keeps a suffix apart: 'Dean, John W., III'
                     if (ps == sfx) if (ps or strict) else True:
                         hits.append(k)
+            if naturals and not hits:
+                k = natural_hit(p, roles.get(i, ''), naturals)
+                if k:
+                    hits.append(k)
             listed = (p[2] or '').rstrip('.') if len(p) > 2 else ''
             if len(hits) > 1 and listed:     # a father and a son: the list's suffix tells them apart
                 hits = [k for k in hits if targets[k][2] == listed] or hits
@@ -163,11 +189,13 @@ def main():
         everyone = people(S)
         targets = {key_of(p['name']): (p['sur'], p['given'], *person_suffix(S, p)) for p in everyone}
         heirs = heirs_of(everyone, targets)
+        from bib.lives import natural, name_forms
+        naturals = {flat(f): key_of(p['name']) for p in everyone if natural(p['name']) for f in name_forms(p['name'])}
     else:
         targets = {key(t): (*[x.strip() for x in t.split(',', 1)], sfx_of(t), False) for t in sys.argv[2:]}
-        heirs = {}
+        heirs, naturals = {}, {}
     os.makedirs(OUT, exist_ok=True)
-    out, titles = scan(git, targets, heirs)
+    out, titles = scan(git, targets, heirs, naturals)
     letters = {}
     for k, v in out.items():
         letters.setdefault(k[0].upper(), {})[k] = v
