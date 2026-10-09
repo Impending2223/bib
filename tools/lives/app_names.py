@@ -19,12 +19,15 @@ sources/app-index.jsonl.
 #   (not where the son's suffix follows). Any other shared
 #   first name and surname is left out: the text cannot tell them apart. A document does not name its own author.
 #   A title two persons of the surname hold ('Governor Hughes': Harold E. of Iowa, Richard J. of New Jersey): a document
-#   is one's where its title or text names his State or his name in full, and nothing of the other's (marks).
+#   is one's where its title or text names his State, a place in it, or his name in full, and nothing of the other's
+#   (marks); where the text does not settle it, his where he alone held the title that day (holds: `tenure` in
+#   sources/app-matches.yaml, else his offices' years); else, for a pair whose tenure that file gives, each of
+#   theirs, recorded in sources/app-names-checks.json and shown "Check" on the Names pages.
 #   A name Part III writes in its own order ('Ngo Dinh Diem'): the name, and its forms in sources/name-forms.yaml
 #   ('President Diem', 'Mao Tse-tung'), as phrases.
 #   APP's 'Event Timeline' pages (its chronology of each presidency) are not documents and are left out.
 """
-import gzip, hashlib, json, os, re, sys
+import datetime, gzip, hashlib, json, os, re, sys
 
 HERE = os.path.dirname(__file__)
 sys.path.insert(0, os.path.join(HERE, ".."))
@@ -189,9 +192,33 @@ def marks(p, mine, others):
     sts = [st for st in STATES if re.search(rf"\b{st.lower()}\b", mine)
            and not any(re.search(rf"\b{st.lower()}\b", o) for o in others)
            and not (st == "Virginia" and "west virginia" in mine)]
-    pls = [pl for pl, st in PLACES.items() if st in sts]
+    pls = [pl for pl, st in PLACES.items() if (st if isinstance(st, list) else [st]) and set(st if isinstance(st, list) else [st]) & set(sts)]
     alts = [x for x in [forms(p)] + [rf"\b{re.escape(x)}\b" for x in sts + sorted(pls, key=len, reverse=True)] if x]
     return re.compile("|".join(alts)) if alts else None
+
+
+def holds(p, title, day, office_text):
+    """Whether the person held the title on the day (ISO): True, False, or None where nothing says. His `tenure` in
+    sources/app-matches.yaml ({title: [from, to]}) where given; else the years his offices give after the title's word
+    ('governor of iowa 1963 69'), True only for a year strictly inside them, False for a year outside."""
+    ten = ((MATCHES.get(p["name"]) or {}).get("tenure") or {}).get(title)
+    if ten:
+        return str(ten[0]) <= day <= str(ten[1])
+    w = dict(TITLE_WORDS).get(title)
+    spans = []
+    for m in re.finditer(rf"(?:{w})[^0-9;]{{0,40}}?\b(1[89]\d\d)\b(?:\s*[-–]?\s*(\d{{2,4}})\b)?", office_text):
+        a = int(m.group(1))
+        b = m.group(2)
+        b = int(b) if b and len(b) == 4 else (a // 100 * 100 + int(b) if b else a)
+        spans.append((a, b))
+    if not spans:
+        return None
+    y = int(day[:4])
+    if any(a < y < b for a, b in spans):
+        return True
+    if all(y < a or y > b for a, b in spans):
+        return False
+    return None
 
 
 def death_year(series, p):
@@ -253,10 +280,12 @@ def main():
             docs_by_sur.setdefault(w, []).append(i)
     global PLACES
     PLACES = places([r["title"] + " " + t for r, t in zip(rows, texts)])
+    hp = os.path.join(OUT, "app-places.yaml")      # kept by hand: a place in two States ('Delaware Water Gap')
+    PLACES.update({k: list(v) for k, v in ((store.load_yaml(hp) or {}) if os.path.exists(hp) else {}).items()})
     print(len(PLACES), "places with their States", file=sys.stderr)
     year = lambda i: (re.findall(r"\d{4}", rows[i]["date"]) or ["0"])[-1]
     names_of = {p["name"]: p for p in everyone}
-    out = {}
+    out, checks = {}, {}                 # checks: {key: {document line: [title, [the others it may be]]}}
     for p in everyone:
         if natural(p["name"]):
             # a name in its own order: its forms as phrases ('Ngo Dinh Diem', 'President Diem', 'Mao Tse-tung'), not
@@ -334,18 +363,32 @@ def main():
             others = [q for q in rivals if re.search(w, office[q["name"]])]
             mine = marks(p, office[p["name"]], [office[q["name"]] for q in others])
             theirs = [marks(q, office[q["name"]], [office[p["name"]]]) for q in others]
-            if not mine:
-                continue
             trx = re.compile(rf"\b(?:{t})\s+{re.escape(p['sur'])}\b")
             for i in cand:
                 if i in hits or not trx.search(texts[i]):
                     continue
                 tx = rows[i]["title"] + " " + texts[i]     # the title names the place too ('Bergen, New Jersey')
-                if mine.search(tx) and not any(m and m.search(tx) for m in theirs):
+                me_, them = bool(mine and mine.search(tx)), [bool(m and m.search(tx)) for m in theirs]
+                if me_ and not any(them):
                     hits.append(i)
+                    continue
+                if any(them) and not me_:
+                    continue
+                # the text does not settle it: who held the title that day (tenure); else all of them, with a Check
+                day = datetime.datetime.strptime(rows[i]["date"], "%b %d, %Y").date().isoformat()
+                held = holds(p, t, day, office[p["name"]])
+                theirs_held = [holds(q, t, day, office[q["name"]]) for q in others]
+                if held is True and all(h is False for h in theirs_held):
+                    hits.append(i)           # he alone held it that day
+                elif held is not False and ((MATCHES.get(p["name"]) or {}).get("tenure") or {}).get(t):
+                    # a pair kept by hand (app-matches.yaml, tenure): each of them, with a Check
+                    hits.append(i)
+                    checks.setdefault(key_of(p["name"]), {})[str(i)] = [t, [q["name"] for q in others]]
         hits.sort()
         if hits:
             out[key_of(p["name"])] = hits
+    with open(os.path.join(OUT, "app-names-checks.json"), "w", encoding="utf-8") as f:
+        json.dump(checks, f, separators=(",", ":"))
     letters = {}
     for k, v in out.items():
         letters.setdefault(k[0].upper(), {})[k] = v

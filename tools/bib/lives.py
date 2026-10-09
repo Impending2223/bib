@@ -1751,10 +1751,18 @@ def app_list(name, sur):
         return []
     rows = cached("app-index", lambda: [json.loads(l) for l in open(os.path.join(store.ROOT, "sources", "app-index.jsonl"),
                                                                     encoding="utf-8")])
+    # documents a shared title gives him and another alike, which nothing in them settles (app_names.py, holds)
+    cp = os.path.join(store.ROOT, "sources", "app-names-checks.json")
+    checks = cached("app-checks", lambda: json.load(open(cp, encoding="utf-8")) if os.path.exists(cp) else {})
+    mine_checks = checks.get(key_of(name), {})
     keep = []
     for i in hits:
-        r = rows[i]
+        r = dict(rows[i])
         d = datetime.datetime.strptime(r["date"], "%b %d, %Y").date().isoformat()
+        if str(i) in mine_checks:
+            t, others = mine_checks[str(i)]
+            r["check"] = (f'Check: “{t} {sur}” may be '
+                          + " or ".join(f"{split_name(o)[1]} {split_name(o)[0]}".strip() for o in others) + ".")
         keep.append((d, r))
     keep.sort(key=lambda t: t[0])
     by_year = {}
@@ -1774,7 +1782,8 @@ def app_list(name, sur):
         # the title, then who and when, as the speeches are cited: 'Address on Mississippi (Sept. 30, 1962), APP.'
         by_year.setdefault(d[:4], []).append(
             f'{esc(r["title"].rstrip("."))} ({who + ", " if who else ""}{fmt(d)}), '
-            + f'<span class="lvc">{a(r["url"], "APP")}</span>.')
+            + f'<span class="lvc">{a(r["url"], "APP")}</span>.'
+            + (f' <span class="lvc">{esc(r["check"])}</span>' if r.get("check") else ""))
     return [f'<b>{y}</b>' + "".join(f'<span class="lvad">{x}</span>' for x in v) for y, v in by_year.items()]
 
 

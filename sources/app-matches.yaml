@@ -2,7 +2,8 @@
 # them (tools/lives/app_names.py). Name as the series writes it: {bare: [first year, last year], forms: [other exact
 # forms, as 'Ambassador Roth'], why: the reason}. In those years the bare first name and surname, and each form,
 # name him. Without an entry here, a name two persons share names neither, unless the text gives what tells them
-# apart (a further given name or initial, a suffix).
+# apart (a further given name or initial, a suffix). tenure: {title: [from, to]}, the days he held a title another of
+# the surname held too ('Governor Hughes'), to settle a document its text does not.
 
 'Dean, John W., III':
   bare: [1969, 1974]
@@ -61,3 +62,17 @@
     "Adlai Stevenson" after 1965 is the father remembered: the tributes, the bust of Feb. 5, 1968, "talked sense to
     the American people". The son by "III": the Chicago dinner of May 17, 1966 ("Adlai Stevenson III for State
     Treasurer").
+
+# Two Governors Hughes, 1963-69: a document that names neither's State, a place in it, nor his name in full goes to the
+# one in office that day; one of 1963-68 that nothing settles goes to both, with a Check.
+
+'Hughes, Harold E.':
+  tenure: {Governor: [1963-01-17, 1969-01-01]}
+  why: >-
+    Governor of Iowa, Jan. 17, 1963, to Jan. 1, 1969, when he resigned to take his Senate seat. Check the days against
+    the Directory and the Iowa Official Register.
+
+'Hughes, Richard J.':
+  tenure: {Governor: [1962-01-16, 1970-01-20]}
+  why: >-
+    Governor of New Jersey, Jan. 16, 1962, to Jan. 20, 1970. Check the days against the New Jersey Legislative Manual.

@@ -427,7 +427,12 @@ APP: a title two persons of the surname share ("Governor Hughes": Harold E. of I
 document to one where its title or text names his State, a place in it, or his name in full, and nothing of the other's
 (`marks` in `tools/lives/app_names.py`). The places are learned from the corpus (`places`): a town the documents write
 with its State ("Atlantic City, N.J.", "Glassboro, New Jersey", APP's "Des Moines, IA") at least twice, nearly always
-the one State, and not used alone thirty times for each time with it ("Washington", "Springfield" are no marks). `./bib names` builds those pages alone; `./bib names 'Humphrey, Hubert H.'
+the one State, and not used alone thirty times for each time with it ("Washington", "Springfield" are no marks); a
+place in two States is kept by hand in `sources/app-places.yaml` (the Delaware Water Gap: New Jersey, Pennsylvania).
+Where the text does not settle it, the document is his who alone held the title that day (`holds`: `tenure` in
+`sources/app-matches.yaml`, else the years his offices give); and for a pair whose tenure that file gives (the two
+Governors Hughes, 1963-68), each of theirs, with "Check: “Governor Hughes” may be …" on the Names page
+(`sources/app-names-checks.json`). `./bib names` builds those pages alone; `./bib names 'Humphrey, Hubert H.'
 [--site URL] [--out FILE]` one page. The old `lives*.html` addresses forward to the new ones (`./bib lives` still works).
 The scroll wheel and the Outline drawer give each entry's full name; the top bar its surname (`data-crumb`).
 A Part III entry for two people writes them apart with ";" (`s: Evans, Rowland, Jr.; Novak, Robert D.`), never "&".
@@ -533,6 +538,7 @@ sources/race-matches.yaml     kept by hand: races refused or confirmed for a per
 sources/app-matches.yaml      kept by hand: a bare name two persons share, given to one for some years; a son known
                               only by his suffix (strict: Roosevelt, Hoover, Clay, MacArthur, Taft, Stevenson III)
 sources/name-forms.yaml       kept by hand: the other forms of each name Part III writes in its own order (Mao Tse-tung)
+sources/app-places.yaml       kept by hand: places in more than one State, for telling two of a shared title apart
 ```
 
 Namesakes in the FRUS and APP indexes: a further given name or initial tells two apart ('John W.' is not 'John G.';
