@@ -12,7 +12,8 @@ before the first dated section go to it (the Prologue). A block of definitions, 
 concepts and sources", goes before the Prologue; each series name in a table links to its entry.
 
 STYLE (settled; keep it, and fix anything that drifts from it):
- 1. Columns: Indicator | As first reported | Released | Revised, today. "Released" is the date the
+ 1. Columns: Indicator | As first reported | Released | Revised, today. Polls (kind: poll) in a table of their
+    own under it: Poll | Field dates | Result | Published; a reading is not revised. "Released" is the date the
     first-reported figure was published (or the Economic Report transmitted); its source shows on
     hover.
  2. Periods: "Mar. 1961", "Q1 1961", "FY1962" (July 1961-June 1962), "1961".
@@ -312,22 +313,23 @@ def poll_row(sid, s, r, year):
         return f"{MON[da.month - 1]} {da.day}–{MON[db.month - 1]} {db.day}"
     chk = grey(" Check.") if then.get("check") else ""
     if sid == "approval":
-        name = f"Approval, {r['president']}"
+        name = f"Gallup, approval of {r['president']}"
         per = dates(r["from"], r["to"])
         first = (f"{r['approve']}% approve, {r['disapprove']}% disapprove"
                  + " " + grey(f"(Dem. {r['dem']}, Ind. {r['ind']}, Rep. {r['rep']})"))
         title = then.get("source", "")
     elif sid == "gop-preference":
-        name, per = "Republican preference", period_label(r["p"])
+        name, per = "Gallup, Republican preference", "—"
         first = ", ".join(f"{k} {v}%" for k, v in sorted(r["shares"].items(), key=lambda x: -x[1])) + chk
         title = then.get("source", "") + (f"; check against {then['check']}" if then.get("check") else "")
     else:
         (a, va), (b, vb) = r["pair"]
-        name = f"{a} v. {b}, {r['pollster']}"
-        per = dates(r["from"], r["to"]) if r.get("from") else period_label(r["p"])
+        name = f"{r['pollster']}, {a} v. {b}"
+        per = dates(r["from"], r["to"]) if r.get("from") else "—"
         first = f"{a} {va}%, {b} {vb}%" + (" " + grey(f"({r['undecided']}% undecided)") if r.get("undecided") is not None else "") + chk
         title = r.get("cite") or then.get("source", "")
-    rel = esc(date_label(r["published"], year)) if r.get("published") and len(str(r["published"])) == 10 else "—"
+    pub = str(r.get("published") or "")
+    rel = (esc(date_label(pub, year)) if len(pub) == 10 else esc(pub.replace("Sep.", "Sept.")) if pub else "—")
     return name, per, f'<span title="{esc(title)}">{first}</span>', rel
 
 
@@ -336,17 +338,19 @@ def block(data, sec_from, sec_to, first_section, year):
     rows = rows_for(data, lo, hi, first_section)
     if not rows:
         return ""
-    trs, shown = [], set()
+    trs, shown, polls = [], set(), []
     for sid, s, r in rows:
         g = GROUP.get(sid)
+        if s.get("kind") == "poll":
+            g = None
         if g and g not in shown:
             shown.add(g)
             unit_note = " $bn" if g in ("Federal finance", "International") else ""
             trs.append(f'<tr class="g"><th colspan="4">{esc(g)}{grey(unit_note)}</th></tr>')
         if s.get("kind") == "poll":
             pname, per, first, rel = poll_row(sid, s, r, year)
-            name = f'<a href="#ind-def-{esc(sid)}">{esc(pname)}</a> <span class="per">{esc(per)}</span>'
-            trs.append(f'<tr><td class="iname">{name}</td><td>{first}</td><td class="rel">{rel}</td><td>—</td></tr>')
+            polls.append(f'<tr><td class="iname"><a href="#ind-def-{esc(sid)}">{esc(pname)}</a></td>'
+                         f'<td class="rel">{esc(per)}</td><td>{first}</td><td class="rel">{rel}</td></tr>')
             continue
         then, now = s.get("then") or {}, s.get("now") or {}
         name = f'<a href="#ind-def-{esc(sid)}">{esc(s["name"])}</a> <span class="per">{esc(period_label(r["p"]))}</span>'
@@ -361,9 +365,15 @@ def block(data, sec_from, sec_to, first_section, year):
         if nowv != "—" and now.get("source"):
             nowv = f'<span title="{esc(now["source"] + (": " + exact(r["now"], now.get("unit")) if r.get("now") is not None else ""))}">{nowv}</span>'
         trs.append(f'<tr><td class="iname">{name}</td><td>{first}</td><td class="rel">{rel}</td><td>{nowv}</td></tr>')
-    return ('<div class="ind"><table><thead><tr><th>Indicator</th><th>As first reported</th>'
-            '<th>Released</th><th>Revised, today</th></tr></thead><tbody>'
-            + "".join(trs) + "</tbody></table></div>")
+    out = ""
+    if trs:
+        out += ('<div class="ind"><table><thead><tr><th>Indicator</th><th>As first reported</th>'
+                '<th>Released</th><th>Revised, today</th></tr></thead><tbody>'
+                + "".join(trs) + "</tbody></table></div>")
+    if polls:                            # opinion apart: a reading has its field dates and no revision
+        out += ('<div class="ind ind-op"><table><thead><tr><th>Poll</th><th>Field dates</th><th>Result</th>'
+                '<th>Published</th></tr></thead><tbody>' + "".join(polls) + "</tbody></table></div>")
+    return out
 
 
 def defs_block(data):
@@ -395,6 +405,8 @@ div.ind .per,div.ind .u,div.ind td.rel{color:var(--muted)}
 div.ind td.iname a{color:inherit;text-decoration-color:var(--rule)}
 div.ind .kv{display:inline-grid;grid-template-columns:minmax(3.5em,7.5em) auto;column-gap:.4rem}
 div.ind .kv .v{text-align:right}
+div.ind.ind-op{margin-top:-.4rem}
+div.ind.ind-op td.rel{white-space:nowrap}
 div.ind-defs{font-family:var(--sans);font-size:.85rem;line-height:1.45;margin:1rem 0 1.5rem}
 div.ind-defs dt{font-weight:600;margin-top:.6rem}
 div.ind-defs dd{margin:.1rem 0 0 0;color:var(--ink)}

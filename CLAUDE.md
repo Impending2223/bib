@@ -764,7 +764,7 @@ tools/indicators/make_indicators.py   writes them: FRED_API_KEY=... python3 tool
 tools/indicators/make_polls.py   the Opinion group (kind: poll): Gallup approval by reading (the American
                               Presidency Project's tables), Gallup's Republican preference and the 1964 trial
                               heats (Wikipedia's tables of Gallup and Harris; each marked Check against *The Gallup
-                              Poll, 1935–1971*, vol. III). Field dates as the period; no revised column.
+                              Poll, 1935–1971*, vol. III). In a table of its own under the indicators: Poll | Field dates | Result | Published.
 tools/bib/indicators.py       renders them (ORDER, GROUP) and checks them
 ```
 
