@@ -90,8 +90,11 @@ def descriptions(root):
     """{xml:id: the description the volume's list of persons gives after the name} ('Ambassador to Laos')."""
     out = {}
     for item in root.iter(M.T + 'item'):
+        pns = [pn for pn in item.iter(M.T + 'persName') if pn.get(M.XID)]
+        if len(pns) != 1:                    # a list within the item, or no one: the inner items give theirs
+            continue
         full = M.clean(''.join(item.itertext()))
-        for pn in item.iter(M.T + 'persName'):
+        for pn in pns:
             if pn.get(M.XID) and pn.get(M.XID) not in out:
                 raw = M.clean(''.join(pn.itertext()))
                 d = full[len(raw):] if full.startswith(raw) else full.replace(raw, '', 1)
@@ -101,7 +104,7 @@ def descriptions(root):
 
 TITLES = re.compile(r'^(?:(?:' + M.RANK + r'|Cmdr\.?|Cdr|Brig|Gen|Lt|Col|Capt|Adm|Maj|Mme\.?|Madame|Mlle\.?|'
                     r'Sen\.|Rep\.|Gov\.|Amb\.|Hon\.|The Honorable|Count|Countess|Baron|Marquis|Duke|King|Queen|'
-                    r'President|Premier|Chairman|Minister|Viscount|Earl|Tiao|Chao)\.?(?:\s+|$))+')
+                    r'President|Premier|Chairman|Minister|Viscount|Tiao)\.?(?:\s+|$))+')
 OFFICE = set('''deputy commanding general director secretary minister ambassador chief assistant counselor counsellor
 officer representative commander head member chairman president vice prime foreign under special acting consul
 delegate adviser advisor attache attaché administrator governor senator staff executive embassy department office

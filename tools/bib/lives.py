@@ -1674,7 +1674,14 @@ def frus_roles(name):
         r = (d[vol].get("role") or "").strip()
         if r:
             by.setdefault(r[0].upper() + r[1:], []).append(vol)
-    return [f'<p class="lvd">{esc(r.rstrip("."))}. <span class="lvc">{"; ".join(esc(frus_label(v)) for v in vols)}.</span></p>'
+    def cites(vols):                     # 'FRUS 1958–60, I, II; 1961–63, XXIV'
+        subs = {}
+        for v in vols:
+            sub, _, rest = frus_label(v).partition(", ")
+            subs.setdefault(sub, []).append(rest.replace(", pt.", " pt.").replace(", microfiche", " microfiche"))
+        return "; ".join((sub if i == 0 else sub.replace("FRUS ", "")) + (", " + ", ".join(r for r in rs if r) if any(rs) else "")
+                         for i, (sub, rs) in enumerate(subs.items()))
+    return [f'<p class="lvd">{esc(r.rstrip("."))}. <span class="lvc">{esc(cites(vols))}.</span></p>'
             for r, vols in by.items()]
 
 
