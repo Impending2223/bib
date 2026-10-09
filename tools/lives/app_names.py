@@ -124,7 +124,8 @@ def main():
             f.write(json.dumps({k: r[k] for k in ("url", "date", "who", "title")}, ensure_ascii=False) + "\n")
     global ROLES, POCOM
     series = store.Series()
-    everyone = people(series)
+    from bib.lives import everyone as all_people
+    everyone = all_people(series)        # the persons FRUS's lists alone give too (sources/frus-names/persons.json)
     ROLES = {}
     for l in series.lists.values():
         for sec, e in l.entries():
@@ -138,7 +139,7 @@ def main():
     pp = os.path.join(OUT, "pocom.json")
     POCOM = json.load(open(pp, encoding="utf-8")) if os.path.exists(pp) else {}
     from bib.lives import person_suffix
-    office = {p["name"]: offices_text(series, p) for p in everyone}
+    office = {p["name"]: "" if p.get("frus") else offices_text(series, p) for p in everyone}
     by_sur = {}
     for p in everyone:
         by_sur.setdefault(p["sur"], []).append(p)

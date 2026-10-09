@@ -404,7 +404,14 @@ notes/executive-brief.md      the brief for whoever adds to the roster, person o
 
 `./bib build` writes `build/names.html` (the index) and `build/names-a.html` … `names-z.html`: a name
 entry for each person in Part III, the Executive roster, and the Congresses at their openings (`people` in
-`tools/bib/lives.py`: one entry a person). `./bib names` builds those pages alone; `./bib names 'Humphrey, Hubert H.'
+`tools/bib/lives.py`: one entry a person), and for each person FRUS's lists of persons (1952–76) give whom none of
+those holds (`everyone`; `sources/frus-names/persons.json`, written by `frus_names.py --all`). Such an entry shows
+each description the lists give, with its volumes, then the documents; it takes no races, roster or Directory, and
+the matching of races, namesakes and authors goes by `people` alone. The lists' persons join across volumes by name
+(`join`: the same name; initials for names; either order, "Thanat Khoman" and "Khoman, Thanat"); a listed person who
+may be someone the series holds (the same surname, the first name alike by initial, short form, or a misprint with
+the same middle initial: `loose`) gets no entry of his own. Where a list's persName holds the surname alone, the
+given names come from the text after it (`recover`). `./bib names` builds those pages alone; `./bib names 'Humphrey, Hubert H.'
 [--site URL] [--out FILE]` one page. The old `lives*.html` addresses forward to the new ones (`./bib lives` still works).
 The scroll wheel and the Outline drawer give each entry's full name; the top bar its surname (`data-crumb`).
 A Part III entry for two people writes them apart with ";" (`s: Evans, Rowland, Jr.; Novak, Robert D.`), never "&".

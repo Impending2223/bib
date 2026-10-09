@@ -89,6 +89,25 @@ def split_name(name):
     return p[0], (p[1] if len(p) > 1 else "")
 
 
+def everyone(series):
+    """people(), and every person FRUS's lists of persons give whom no name entry holds (sources/frus-names/
+    persons.json, written by tools/lives/frus_names.py --all): an entry of his own, with each volume's description.
+    Kept apart from the matching of races, namesakes and authors, which go by people() alone."""
+    def make():
+        ps = list(cached("people", lambda: people(series)))
+        keys = {key_of(p["name"]) for p in ps}
+        path = os.path.join(store.ROOT, "sources", "frus-names", "persons.json")
+        extra = json.load(open(path, encoding="utf-8")) if os.path.exists(path) else {}
+        for k, v in extra.items():
+            if k in keys:
+                continue
+            sur, given = split_name(v["name"])
+            ps.append({"name": v["name"], "sur": sur, "given": given, "names": set(v["names"]) | {v["name"]},
+                       "ranks": {(v["name"], 3)}, "frus": True})
+        return sorted(ps, key=lambda p: (fold(p["sur"]), fold(p["given"])))
+    return cached("everyone", make)
+
+
 def natural(name):
     """A name written in its own order, family name first or a single name, without a comma: 'Mao Zedong', 'Ngo Dinh
     Diem', 'Souphanouvong', 'Malcolm X'. The whole name stands as the surname; its other forms (romanizations, the
@@ -803,7 +822,7 @@ def problems(series):
             for c in rd.get("cands") or []:
                 if len(c) != 4 or (c[2] is not None and not isinstance(c[2], int)):
                     yield "elections/primaries.yaml", f"{k}, {rd.get('label')}: {c}: [name, party, votes, share]"
-    pkeys = {key_of(p["name"]) for p in cached("people", lambda: people(series))}
+    pkeys = {key_of(p["name"]) for p in everyone(series)}
     for k, es in calendar_tagged(series).items():  # the calendar's hidden name tags: each a person's entry
         if k not in pkeys:
             for e in es:
@@ -1634,6 +1653,8 @@ def frus_lists(name):
                              + (f" ({fmt(d)})" if d else "") for n, d in docs)
             sent_.append((first, f'{esc(title)}. <span class="lvc">{esc(lab)}, {"doc." if len(docs) == 1 else "docs."} '
                                  f'{nums}</span>'))
+        if not v["named"]:                   # a volume that lists the person and no document of it names him
+            continue
         # the numbers only; the page links each to its document (the script below), to keep the pages light
         docs = " ".join(esc(n) for n, _ in v["named"])
         k = len(v["named"])
@@ -1641,6 +1662,20 @@ def frus_lists(name):
                            f'{"doc." if k == 1 else "docs."} <span class="lvf" data-v="{esc(vol)}">{docs}</span>.'))
     sent_.sort()
     return [x for _, x in sent_], [x for _, x in sorted(named, key=lambda t: vol_order(t[0]))]
+
+
+def frus_roles(name):
+    """The descriptions FRUS's lists of persons give the person, each once, with the volumes that give it, in the
+    volumes' order ('French Ambassador to the United States. FRUS 1961–63, I; FRUS 1961–63, XXIV.')."""
+    from .executive_sources import frus_label
+    d = letter_json("frus-names", key_of(name)[:1].upper()).get(key_of(name), {})
+    by = {}
+    for vol in sorted(d, key=vol_order):
+        r = (d[vol].get("role") or "").strip()
+        if r:
+            by.setdefault(r[0].upper() + r[1:], []).append(vol)
+    return [f'<p class="lvd">{esc(r.rstrip("."))}. <span class="lvc">{"; ".join(esc(frus_label(v)) for v in vols)}.</span></p>'
+            for r, vols in by.items()]
 
 
 def vol_order(vol):
@@ -1687,9 +1722,9 @@ def app_list(name, sur):
 def person_for(series, name):
     """The person (people()) a name given on the command line is: the one holding it as written, else one whose
     names it agrees with."""
-    everyone = cached("people", lambda: people(series))
-    return (next((p for p in everyone if name in p["names"]), None)
-            or next((p for p in everyone if same_person(p["sur"], p["given"], *split_name(name))), None)
+    allp = everyone(series)
+    return (next((p for p in allp if name in p["names"]), None)
+            or next((p for p in allp if same_person(p["sur"], p["given"], *split_name(name))), None)
             or {"name": name, "sur": split_name(name)[0], "given": split_name(name)[1], "names": {name}})
 
 
@@ -1817,9 +1852,13 @@ def entry(series, linker, ptrs, p):
         return es == sfx if es not in ("", "Sr") else not strict
     subs = subjects(ptrs, name, ok)
     cal = calendar_of(ptrs, [x for x in subs if (x[1].code or "").startswith("III")], key_of(name), series)
-    rp, e, races = person_races(series, p)
-    structured = (office_sentences(sur, given, names) + races
-                  + calendar_sentences(ptrs, cal) + pocom_sentences(p, bool(e)))
+    if p.get("frus"):                    # a person FRUS's lists alone give: no roster, races or Directory
+        rp, e, races = [], None, []
+        structured = calendar_sentences(ptrs, cal)
+    else:
+        rp, e, races = person_races(series, p)
+        structured = (office_sentences(sur, given, names) + races
+                      + calendar_sentences(ptrs, cal) + pocom_sentences(p, bool(e)))
     record = [s_["row"] for s_ in structured if s_.get("row")]
     structured = [s_ for s_ in structured if s_["kind"] != "election"]
     life = merge(structured, bd_sentences(e) if e else [], [])
@@ -1841,6 +1880,8 @@ def entry(series, linker, ptrs, p):
         desc = re.sub(r" and (?:an?) ", " and ", re.sub(r"^(?:an?) ", "", desc))   # 'Senator from Minnesota and Vice President' 
         out.append(f'<p class="lvd">{esc(desc[0].upper() + desc[1:])}. <span class="lvc">{bd_cite(e)}.</span></p>')
     shown = None                         # the pointer the role line already gives, not repeated below it
+    if p.get("frus"):
+        out += frus_roles(name)
     if not e:
         roles = [(l, s_, x) for l, s_, x in subs if (s_.code or "").startswith("III") and x.get("r")]
         if roles:
@@ -1969,8 +2010,9 @@ document.addEventListener("DOMContentLoaded", function () {
 </script>"""
 
 
-INTRO = ['<p class="lede">A name entry for each person in the series, the Executive roster, and the Congresses at '
-         "their openings: the life, each fact with its source; then the person's publications and papers, the FRUS "
+INTRO = ['<p class="lede">A name entry for each person in the series, the Executive roster, the Congresses at '
+         "their openings, and the lists of persons of FRUS, 1952–76 (there, the list's description of the person, "
+         "volume by volume): the life, each fact with its source; then the person's publications and papers, the FRUS "
          "documents the person sent, the works on the person, and the FRUS and presidential documents that name the "
          "person.</p>",
          '<p class="logic">Sources: BD, the ' + to_html(BD_CITE) + ", by page; CDir., the *Congressional "
@@ -2013,12 +2055,12 @@ def pages(series, linker, template):
     global SITE, SERIES_FOR_LINKS
     SERIES_FOR_LINKS = series
     ptrs = Pointers(series, linker)
-    everyone = cached("people", lambda: people(series))
+    allp = everyone(series)
     by_letter = {}
-    for p in everyone:
+    for p in allp:
         by_letter.setdefault(letter_of(p), []).append(p)
     out = {}
-    index = ["<h1>Names</h1>"] + INTRO + [f'<p class="logic">{len(everyone):,} persons.</p>']
+    index = ["<h1>Names</h1>"] + INTRO + [f'<p class="logic">{len(allp):,} persons.</p>']
     nav = " ".join(f'<a class="lvp" href="names-{L}.html">{L.upper()}</a>' for L in sorted(by_letter))
     index.append(f'<p class="lvs">{nav}</p>')
     for L in sorted(by_letter):
