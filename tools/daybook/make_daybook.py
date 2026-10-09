@@ -18,7 +18,7 @@ import datetime, difflib, html, os, re, sys, tempfile, time, urllib.parse, urlli
 import xml.etree.ElementTree as ET
 import yaml
 
-FROM, TO = '1961-01-01', '1964-01-07'
+FROM, TO = '1961-01-01', '1965-01-20'
 OUT = os.path.join(os.path.dirname(__file__), '..', '..', 'daybook')
 UA = {'User-Agent': 'Mozilla/5.0 (bibliography daybook)'}
 APP = 'https://www.presidency.ucsb.edu'
@@ -275,6 +275,11 @@ def display(p, names):
     return names.full(sur, given, suf)
 
 
+# Names the lists misprint: the 1961-68 volumes give Ambassador Stevenson (d. July 14, 1965) as "III", his son's
+# suffix, as often as "II" (as tools/lives/frus_names.py's ERRATA); the son held no office FRUS records before 1969.
+ERRATA = {('Stevenson', 'Adlai E.', 'III'): ('Stevenson', 'Adlai E.', 'II')}
+
+
 def persons(root):
     """The volume's list: {xml:id: (surname, given, suffix)}, and {xml:id: the office it gives}."""
     P, roles = {}, {}
@@ -282,10 +287,12 @@ def persons(root):
         for pn in item.iter(T + 'persName'):
             if pn.get(XID):
                 P[pn.get(XID)] = parse_name(''.join(pn.itertext()))
+                P[pn.get(XID)] = ERRATA.get(P[pn.get(XID)], P[pn.get(XID)])
                 roles[pn.get(XID)] = clean(''.join(item.itertext()))
     for pn in root.iter(T + 'persName'):
         if pn.get(XID) and pn.get(XID) not in P:
             P[pn.get(XID)] = parse_name(''.join(pn.itertext()))
+            P[pn.get(XID)] = ERRATA.get(P[pn.get(XID)], P[pn.get(XID)])
     return P, roles
 
 

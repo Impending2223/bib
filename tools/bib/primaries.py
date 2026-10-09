@@ -23,9 +23,9 @@ STYLE
     closer, by the election maps' quantile rule. A State without a primary, or whose party printed none, is
     blank. The District of Columbia is a dot.
  5. Names in full, as the election tables give them: a bare surname by STYLE 3, the State CQ adds in parentheses
-    left out; linked to the name entry where one person with an entry fits (namelinks.written). Each race's note
-    opens with its pinpoint cite, the page or pages it runs over ("CQ Guide 6th (2010) 404–405."); CQ's notes
-    by the page they are printed on and their number ("CQ Guide 6th (2010) 411 n.2").
+    left out; linked to the name entry where one person with an entry fits (namelinks.written). The figures are
+    cited once, under the table, by the pages the races run over ("CQ Guide 6th (2010) 404–405"), not in each race's
+    note; CQ's notes, in the note, by the page they are printed on and their number ("CQ Guide 6th (2010) 411 n.2").
  6. The Names entries: every primary in which CQ prints the person, a row in his record (person_rows): the party's
     primary in the State, the date linked to the calendar's entry for the day, every candidate with votes and
     CQ's share, the person in bold, and the pinpoint cite.
@@ -172,7 +172,7 @@ def notes(y, r, p):
                 bits.append(f"{at}: “{quote(t)}”")
     for name, printed, calc in misprints(r, p):
         bits.append(f"CQ prints {esc(printed)} for {esc(bare(name))}; the votes give {calc:.1f}.")
-    return " ".join([f"{cite(r)}."] + bits)
+    return " ".join(bits)
 
 
 def pages(r):
