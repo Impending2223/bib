@@ -3,14 +3,14 @@
 Written by `./bib audit-cal` (`tools/bib/calaudit.py`): the dated entries checked against the brief in
 CLAUDE.md ("The calendar"). A review list: a hit is a place to look, not an error. Rerun after editing.
 
-499 dated entries.
+546 dated entries.
 
 | Check | Entries |
 |---|---|
-| A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 44 |
-| (of which only a President's surname: Eisenhower, Kennedy, Johnson) | 1 |
+| A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 45 |
+| (of which only a President's surname: Eisenhower, Kennedy, Johnson) | 0 |
 | Neither a bibliography of its own nor a `See [[id]]` back | 9 |
-| No primary record linked or named | 97 |
+| No primary record linked or named | 104 |
 | A primary record named but not linked | 1 |
 | Threads (statements listed for review) | 44 |
 
@@ -106,10 +106,12 @@ the person; several mean the surname is shared). "?" marks a surname that is als
 - `cal.1963-09-15.alabama` (Sept. 15, XXXV sep63.yaml): Sunday morning. Dynamite at the Sixteenth Street Baptist Church, Birmingham. Four girls killed: Addie Mae Coll
   - ? Church: Church, Frank (K–J Cong. III.B, Cong. III.B, Viet. III.E)
   - ? Black: Black, Hugo L. (K–J Cong. III.G)
-- `cal.1963-09-16.trade` (Sept. 16, XXXV sep63.yaml): Canada sells the Soviet Union wheat worth about $500 million. Soviet buyers ask after American wheat. Kennedy'
-  - Kennedy: Kennedy, Jacqueline (K–J Adm. III.A); Kennedy, Joseph P. (K–J Adm. III.A); Kennedy, Robert F. (K–J Adm. III.A, K–J Cong. III.B, 1968 III.K); Kennedy, Edward M. (K–J Cong. III.B, 1968 III.K, 1968 III.P, Cong. III.A); Kennedy, John F. (Viet. III.A)
 - `cal.1963-09-19.alabama` (Sept. 19–23, XXXV sep63.yaml): Kennedy sees Birmingham's Black leaders, King among them, Sept. 19; names Royall and Blaik to represent him in
   - ? Black: Black, Hugo L. (K–J Cong. III.G)
+- `cal.1963-10-24.right-and-the-military` (Oct. 24, XXXVI oct63.yaml): Stevenson in Dallas for UN Day. Heckled, spat on, struck on the head with a placard. Walker's "U.S. Day" rally
+  - ? Day: Day, J. Edward (K–J Adm. III.G)
+- `cal.1963-11-05.specials` (Nov. 5, XXXVII nov63.yaml): Pennsylvania 23rd, special. Albert Johnson (R) holds Gavin's seat, 58.4 to 41.6 over Hagerty (D). Swing 0.7 to
+  - Albert: Albert, Carl (K–J Cong. III.C, Cong. III.D)
 
 ## Event
 
@@ -229,6 +231,13 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1963-07-23.civil-rights-the-executive` (July 23, XXXIII jul63.yaml): Cambridge, Maryland, under the Guard since June. At Justice, Robert Kennedy brings Gloria Richardson and the c
 - `cal.1963-07-26.civil-rights-the-executive` (July 26, XXXIII jul63.yaml): McNamara's directive on the Gesell Committee's report: commanders to oppose discrimination against their men o
 - `cal.1963-07-30.specials` (July 30, XXXIII jul63.yaml): Pennsylvania 15th, special. Fred B. Rooney (D) holds the seat of Francis E. Walter (D), who died May 31; 53.5 
+- `cal.1963-10-22.specials` (Oct. 22, XXXVI oct63.yaml): North Dakota 1st, special. Mark Andrews (R) holds Nygaard's seat, 49.1 percent, over Hove (Democratic-NPL), 44
+- `cal.1963-10-24.right-and-the-military` (Oct. 24, XXXVI oct63.yaml): Stevenson in Dallas for UN Day. Heckled, spat on, struck on the head with a placard. Walker's "U.S. Day" rally
+- `cal.1963-11-05.specials` (Nov. 5, XXXVII nov63.yaml): Pennsylvania 23rd, special. Albert Johnson (R) holds Gavin's seat, 58.4 to 41.6 over Hagerty (D). Swing 0.7 to
+- `cal.1963-11-07.elections-1964` (Nov. 7, XXXVII nov63.yaml): Rockefeller announces for the Republican nomination, at Albany.
+- `cal.1963-11-22.baker` (Nov. 22, XXXVII nov63.yaml): Don Reynolds, a Maryland insurance agent, before the Rules Committee's staff in closed session: a stereo set f
+- `cal.1963-11-24.assassination` (Nov. 24, XXXVII nov63.yaml): Ruby, a Dallas nightclub owner, shoots Oswald in the basement of police headquarters, 11:21 a.m., before live 
+- `cal.1963-12-05.assassination` (Dec. 5, XXXVIII dec63.yaml): The Warren Commission's first meeting, at the National Archives. The FBI's summary report to it, Dec. 9. Ranki
 
 ### Named, not linked
 
