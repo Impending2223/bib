@@ -18,6 +18,8 @@ sources/app-index.jsonl.
 #   title only he held, or the file's years; his father, where the series holds him, by the bare name in every year
 #   (not where the son's suffix follows). Any other shared
 #   first name and surname is left out: the text cannot tell them apart. A document does not name its own author.
+#   A title two persons of the surname hold ('Governor Hughes': Harold E. of Iowa, Richard J. of New Jersey): a document
+#   is one's where its title or text names his State or his name in full, and nothing of the other's (marks).
 #   A name Part III writes in its own order ('Ngo Dinh Diem'): the name, and its forms in sources/name-forms.yaml
 #   ('President Diem', 'Mao Tse-tung'), as phrases.
 #   APP's 'Event Timeline' pages (its chronology of each presidency) are not documents and are left out.
@@ -103,6 +105,24 @@ def offices_text(series, p):
     if e and L.roster_pointers(p["sur"], p["given"], p["names"]):
         t.append(re.split(r";", e["text"])[0])
     return store.fold(" ".join(t))
+
+
+STATES = ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware", "Florida",
+          "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", "Maine",
+          "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska",
+          "Nevada", "New Hampshire", "New Jersey", "New Mexico", "New York", "North Carolina", "North Dakota", "Ohio",
+          "Oklahoma", "Oregon", "Pennsylvania", "Rhode Island", "South Carolina", "South Dakota", "Tennessee", "Texas",
+          "Utah", "Vermont", "Virginia", "Washington", "West Virginia", "Wisconsin", "Wyoming"]
+
+
+def marks(p, mine, others):
+    """What in a document marks the person apart from others of the surname and title: his name in full (his forms),
+    and the States his offices name that none of theirs does ('Iowa' for Harold E. Hughes)."""
+    sts = [st for st in STATES if re.search(rf"\b{st.lower()}\b", mine)
+           and not any(re.search(rf"\b{st.lower()}\b", o) for o in others)
+           and not (st == "Virginia" and "west virginia" in mine)]
+    alts = [x for x in [forms(p)] + [rf"\b{re.escape(st)}\b" for st in sts] if x]
+    return re.compile("|".join(alts)) if alts else None
 
 
 def death_year(series, p):
@@ -233,6 +253,25 @@ def main():
         own = {store.fold(f"{split_name(n)[1].split()[0]} {p['sur']}") for n in p["names"] if split_name(n)[1]}
         hits = [i for i in cand if (rx.search(texts[i]) or (apart and hand and i in bare_hits))
                 and not any(o and o in store.fold(rows[i]["who"]) for o in own)]
+        # a title he shares with another of the surname ('Governor Hughes': Harold E. of Iowa, Richard J. of New
+        # Jersey): the document is his where it also names his State or gives his name in full, and nothing of the
+        # other's
+        shared_t = [(t, w) for t, w in TITLE_WORDS if re.search(w, office[p["name"]])
+                    and any(re.search(w, office[q["name"]]) for q in rivals)] if not strict and not p.get("frus") else []
+        for t, w in shared_t:
+            others = [q for q in rivals if re.search(w, office[q["name"]])]
+            mine = marks(p, office[p["name"]], [office[q["name"]] for q in others])
+            theirs = [marks(q, office[q["name"]], [office[p["name"]]]) for q in others]
+            if not mine:
+                continue
+            trx = re.compile(rf"\b(?:{t})\s+{re.escape(p['sur'])}\b")
+            for i in cand:
+                if i in hits or not trx.search(texts[i]):
+                    continue
+                tx = rows[i]["title"] + " " + texts[i]     # the title names the place too ('Bergen, New Jersey')
+                if mine.search(tx) and not any(m and m.search(tx) for m in theirs):
+                    hits.append(i)
+        hits.sort()
         if hits:
             out[key_of(p["name"])] = hits
     letters = {}

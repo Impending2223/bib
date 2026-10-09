@@ -408,10 +408,22 @@ entry for each person in Part III, the Executive roster, and the Congresses at t
 those holds (`everyone`; `sources/frus-names/persons.json`, written by `frus_names.py --all`). Such an entry shows
 each description the lists give, with its volumes, then the documents; it takes no races, roster or Directory, and
 the matching of races, namesakes and authors goes by `people` alone. The lists' persons join across volumes by name
-(`join`: the same name; initials for names; either order, "Thanat Khoman" and "Khoman, Thanat"); a listed person who
-may be someone the series holds (the same surname, the first name alike by initial, short form, or a misprint with
-the same middle initial: `loose`) gets no entry of his own. Where a list's persName holds the surname alone, the
-given names come from the text after it (`recover`). `./bib names` builds those pages alone; `./bib names 'Humphrey, Hubert H.'
+(`join`): the surname and suffix the same, the given names alike name by name (an initial for its name, a short form,
+one spelling of another: Malik, Yakov Alexsandrovich, Aleksandrovich, Alexandrovich), every form that fits joined only
+where those it fits fit one another ("John" does not join "John A." and "John B."); or the same words in either order
+("Thanat Khoman", "Khoman, Thanat"); or, written in their own order, the same first word and the others spelled
+alike with the same first letters ("Ngo Quang Troung"; not "Tran Van Chuong" and "Tran Van Huong"). A listed person
+alike one person the series holds (also by the name he went by, "Thomas Hale" and "Hale", or a misprint with the same
+middle initial, "Herbert H." Humphrey), where the lists' descriptions share a telling word with that person's offices,
+is that person: his documents go to him (Ron Ziegler, Earl G. Wheeler, Robert J. Dole). Alike only by name, he has his
+own entry (Lester B. Pearson is not Harold L.; Mohammed Ali of Pakistan not the boxer). Where a list's persName holds
+the surname alone, the given names come from the text after it; a title, office, service or nationality after the
+given names is dropped (`recover`: "Jose A., Uruguayan"; "Cushman, Jr., Lieutenant General Robert E."); a name with a
+digit (OCR) gets no entry.
+
+APP: a title two persons of the surname share ("Governor Hughes": Harold E. of Iowa, Richard J. of New Jersey) gives a
+document to one where its title or text names his State or his name in full, and nothing of the other's (`marks` in
+`tools/lives/app_names.py`). `./bib names` builds those pages alone; `./bib names 'Humphrey, Hubert H.'
 [--site URL] [--out FILE]` one page. The old `lives*.html` addresses forward to the new ones (`./bib lives` still works).
 The scroll wheel and the Outline drawer give each entry's full name; the top bar its surname (`data-crumb`).
 A Part III entry for two people writes them apart with ";" (`s: Evans, Rowland, Jr.; Novak, Robert D.`), never "&".
