@@ -7,14 +7,16 @@
 #   Democrats, independents and Republicans where the release gives it.
 #   Today ("today"): the American Presidency Project's tables of each President's job approval, "adapted from the
 #   Gallup Poll and compiled by Gerhard Peters". A reading is matched by its field dates; where the two end the
-#   fieldwork a day apart, one reading, the release's dates kept ("today_to": the series' last day). Readings the
+#   fieldwork a day apart, one reading, the release's dates kept ("today_to": the series' last day); where the release
+#   prints other field dates for the same survey, the book's entry names the series' own ("series_from", "series_to")
+#   and the two are one reading, the release's dates kept ("today_from", "today_to"). Readings the
 #   series holds and Gallup did not release at the time have no "first". Filed by the month the fieldwork ended.
 #   The race for 1964 and the issue polls are calendar entries (thread opinion), not rows here.
 """
 import datetime, html, os, re, urllib.request
 import yaml
 
-FROM, TO = '1961-01-20', '1964-01-07'
+FROM, TO = '1961-01-20', '1965-01-20'
 OUT = os.path.join(os.path.dirname(__file__), '..', '..', 'indicators')
 UA = {'User-Agent': 'bib-calendar/1.0 (research; github.com/impending2223/bib)'}
 APP = 'https://www.presidency.ucsb.edu/statistics/data/'
@@ -25,8 +27,12 @@ def get(url):
         return r.read().decode('utf-8', 'replace')
 
 
+# the series' misprints, as the table prints them: the correction
+FIX = {'020/5/1964': '02/05/1964'}       # 684-K, Jan. 30-Feb. 5, 1964
+
+
 def iso(d):
-    m, dd, y = d.split('/')
+    m, dd, y = FIX.get(d, d).split('/')
     return f'{int(y):04d}-{int(m):02d}-{int(dd):02d}'
 
 
@@ -55,6 +61,11 @@ def approval():
                                         'today': {k: r[k] for k in keys if r.get(k) is not None}}
     for b in book:
         k = (str(b['from']), str(b['to']))
+        sk = (str(b['series_from']), str(b['series_to'])) if b.get('series_from') else None
+        if sk and sk in merged and k not in merged:   # the same survey, the release printing other field dates
+            m = merged.pop(sk)
+            m.update({'p': k[1][:7], 'from': k[0], 'to': k[1], 'today_from': sk[0], 'today_to': sk[1]})
+            merged[k] = m
         near = [x for x in merged if x[0] == k[0] and 'first' not in merged[x] and abs(
             (datetime.date.fromisoformat(x[1]) - datetime.date.fromisoformat(k[1])).days) <= 1]
         if k not in merged and near:      # the series today ends the fieldwork a day apart: one reading
