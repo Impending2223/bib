@@ -186,6 +186,8 @@ def main():
         apart = False                    # namesakes whose further given names differ: John W. and John G. Dean
         strict = bool((MATCHES.get(p["name"]) or {}).get("strict"))   # a son known by his suffix (app-matches)
         tail = ""                        # a father whose son is strict: not where the son's suffix follows
+        if p.get("frus"):                # one FRUS's lists alone give: not where another name follows ('John
+            tail = r"(?!\s+(?!Jr\b|Sr\b|I+\b)[A-Z][a-z])"   # Fitzgerald Kennedy' is not John F. Fitzgerald)
         if strict:
             apart, group = True, {p["name"]}
         if len(group) > 1:

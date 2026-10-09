@@ -80,10 +80,19 @@ def natural_hit(p, role, naturals):
     wife = re.match(r'\s*,?\s*(Madame|Mme\.?|Mrs\.)', head)
     if wife:                          # 'Ngo Dinh Nhu, Madame (Tran Le Xuan)': her forms only
         return naturals.get(flat(p[0] + ', Madame'))
-    for f in (flat(p[0] + (', ' + p[1] if p[1] else '')), flat(p[0])):
+    for f in (flat(p[0] + (', ' + p[1] if p[1] else '')), flat(p[0]), flat(p[1] + ' ' + p[0]) if p[1] else ''):
         if f in naturals:
             return naturals[f]
     return None
+
+
+def skey(sur):
+    """A surname for looking up: diacritics folded, one apostrophe, lower case ('O’Neill', 'Iklé')."""
+    from bib.store import fold
+    return fold(re.sub(r'\s*\([^)]*\)', '', M.clean(sur))).replace('’', "'").lower().strip()
+
+
+NOT_NAMES = {'pacific', 'atlantic', 'europe', 'tunku', 'tengku'}
 
 
 def descriptions(root):
@@ -104,7 +113,8 @@ def descriptions(root):
 
 TITLES = re.compile(r'^(?:(?:' + M.RANK + r'|Cmdr\.?|Cdr|Brig|Gen|Lt|Col|Capt|Adm|Maj|Mme\.?|Madame|Mlle\.?|'
                     r'Sen\.|Rep\.|Gov\.|Amb\.|Hon\.|The Honorable|Count|Countess|Baron|Marquis|Duke|King|Queen|'
-                    r'President|Premier|Chairman|Minister|Viscount|Tiao)\.?(?:\s+|$))+')
+                    r'President|Premier|Chairman|Minister|Viscount|Tiao|Representative|Governor|Mayor|Congressman|'
+                    r'Pandit|Brigadier|Lieut|Lt\. Gen|[Oo]f [Tt]he (?:Army|Air Force|Navy))\.?(?:\s+|$))+')
 OFFICE = set('''deputy commanding general director secretary minister ambassador chief assistant counselor counsellor
 officer representative commander head member chairman president vice prime foreign under special acting consul
 delegate adviser advisor attache attaché administrator governor senator staff executive embassy department office
@@ -122,7 +132,7 @@ SERVICE = re.compile(r'\b(?:USA|USAF|USN|USMC|USCG|RN|RAF|ret\.?)\b,?')
 def loose(given, others):
     """A listed given name another person of the surname may answer to: the first names alike, by initial or short
     form ('J. Kenneth' and 'John Kenneth'; 'Michael' and 'Mike'), or the listed first name among the other's names
-    ('Stuart' and 'W. Stuart', 'William S.'), or the first letters and the middle initials alike (a misprint: 'Herbert H.'
+    ('Stuart' and 'W. Stuart', 'William S.'), or the other's first name among the listed ('Thomas Hale' and 'Hale'), or the first letters and the middle initials alike (a misprint: 'Herbert H.'
     for 'Hubert H.'). There the list's person is not given an entry of his own: he may be that person."""
     from bib.lives import gtoks, nick
     A = gtoks(given)
@@ -131,7 +141,8 @@ def loose(given, others):
     for g in others:
         B = gtoks(g)
         if B and (A[0] == B[0] or (len(A[0]) == 1 and B[0].startswith(A[0])) or (len(B[0]) == 1 and A[0].startswith(B[0]))
-                  or nick(A[0], B[0]) or A[0] in B[1:] or any(len(x) == 1 and A[0].startswith(x) for x in B[1:])
+                  or nick(A[0], B[0]) or A[0] in B[1:] or (len(B[0]) > 1 and B[0] in A[1:])
+                  or any(len(x) == 1 and A[0].startswith(x) for x in B[1:])
                   or (A[0][0] == B[0][0] and len(A) > 1 and len(B) > 1 and A[1][0] == B[1][0])):
             return True
     return False
@@ -147,8 +158,12 @@ def recover(p, d):
     if head and not TITLES.sub('', head).strip():      # 'Gen., Deputy Commanding General': the rank dropped
         d = d.split(',', 1)[1].strip() if ',' in d else ''
     if p[1]:
-        g = SERVICE.sub('', TITLES.sub('', p[1])).strip(' ,')
-        return ((p[0], g) + tuple(p[2:]) if g else (p[0], '') + tuple(p[2:])), d
+        g, sfx = p[1], (p[2] if len(p) > 2 else '')
+        m = re.match(r'(Jr|Sr|II|III|IV)\.?,\s*', g)       # 'Cushman, Jr., Lieutenant General Robert E.'
+        if m:
+            g, sfx = g[m.end():], m.group(1) + ('.' if m.group(1) in ('Jr', 'Sr') else '')
+        g = SERVICE.sub('', TITLES.sub('', g)).strip(' ,')
+        return (p[0], g, sfx), d
     if not d or ',' in p[0]:
         return p, d
     head, _, rest = d.partition(',')
@@ -235,7 +250,9 @@ def scan(git, targets, heirs=None, naturals=None, found=None):
     heirs = heirs or {}
     by_sur = {}
     for k, (sur, given, sfx, strict) in targets.items():
-        by_sur.setdefault(M.clean(sur).lower(), []).append((k, given, sfx, strict))
+        by_sur.setdefault(skey(sur), []).append((k, given, sfx, strict))
+    # a single word the lists give alone that names someone held ('Rayburn'; 'Diem', 'Nhu'): no entry of its own
+    held_words = set(by_sur) | {skey(sur.split()[-1]) for sur, g, _, _ in targets.values() if not g and ' ' in sur}
     out, titles = {}, {}
     for path in volumes(git):
         vol = os.path.basename(path)[:-4]
@@ -254,7 +271,7 @@ def scan(git, targets, heirs=None, naturals=None, found=None):
             P[i], desc[i] = recover(P[i], desc.get(i, ''))
         for i, p in P.items():
             hits = []
-            for k, given, sfx, strict in by_sur.get(M.clean(p[0]).lower(), []):
+            for k, given, sfx, strict in by_sur.get(skey(p[0]), []):
                 # the first names alike, and the further names and initials too where both give them ('John W.' is
                 # not 'John G.')
                 if p[1] and fits(given, p[1]):
@@ -275,9 +292,10 @@ def scan(git, targets, heirs=None, naturals=None, found=None):
             elif not hits and found is not None and desc.get(i) and not re.match(r'(see|pseudonym)\b', desc[i], re.I):
                 # a person the list gives whom no name entry holds: his own entry (join, after every volume)
                 nk = norm(P[i])
-                kin = [g for _, g, _, _ in by_sur.get(M.clean(P[i][0]).lower(), [])]
-                if nk[0] and (P[i][1] or ',' not in pn_text.get(i, '')) \
-                        and not loose(P[i][1], kin):
+                kin = [g for _, g, _, _ in by_sur.get(skey(P[i][0]), [])]
+                bare = not P[i][1]
+                if nk[0] and (not bare or ',' not in pn_text.get(i, '')) and not loose(P[i][1], kin) \
+                        and not (bare and ' ' not in nk[0] and (skey(P[i][0]) in held_words or nk[0] in NOT_NAMES)):
                     found.setdefault(nk, set()).add(shown(p))
                     ids[i] = nk
         if not ids:
