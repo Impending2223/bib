@@ -189,8 +189,10 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
             parts.append(nav)
     if e.get("gloss"):
         # a gloss: a note on the entry, not an entry; under it, in a smaller size (.gl in daybook.py's style)
-        paras = "".join(f'<span class="glp">{text_html(year_qualified(series, g, year), "n")}</span>'
-                        for g in store.as_list(e["gloss"]))
+        gl = e["gloss"] if isinstance(e["gloss"], dict) else {"text": e["gloss"]}
+        lead = f'<i class="glt">{text_html(gl["title"], "n")}.</i> ' if gl.get("title") else ""   # run in
+        paras = "".join(f'<span class="glp">{lead if k == 0 else ""}{text_html(year_qualified(series, g, year), "n")}</span>'
+                        for k, g in enumerate(store.as_list(gl.get("text"))))
         parts.append(f'<span class="gl">{paras}</span>')
     if e.get("conflict"):
         parts.append('<span class="n"><b>Unresolved merge conflict.</b></span>')
