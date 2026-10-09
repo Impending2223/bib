@@ -29,9 +29,9 @@ class Refs:
         alts = "|".join(re.escape(a) for a in words)
         dalts = "|".join(re.escape(a) for a in digits) or "(?!x)x"
         # an abbreviation, optionally followed by a section code; or a bare code.
-        # "87th Cong." is a Congress, not the list.
+        # "87th Cong." is a Congress, not the list; "Viet Cong." the Viet Cong.
         self.rx = re.compile(
-            rf"(?P<abbr>(?<![\w])(?<!\dth )(?<!\dst )(?<!\dnd )(?<!\drd )(?:{alts}))(?:\s+(?P<code>{RANGE}))?(?![\w])"
+            rf"(?P<abbr>(?<![\w])(?<!\dth )(?<!\dst )(?<!\dnd )(?<!\drd )(?<!Viet )(?<!Viet-)(?:{alts}))(?:\s+(?P<code>{RANGE}))?(?![\w])"
             rf"|(?P<dabbr>(?<![\w(])(?:{dalts}))\s+(?P<dcode>{RANGE})(?![\w])"
             rf"|(?<![\w.–])(?P<bare>{BARE}(?:–(?:{CODE}|[A-Z](?:\.\d+)?))?)(?![\w])(?!\.\s*[A-Z][a-z])"  # not "I.M. Destler"
         )

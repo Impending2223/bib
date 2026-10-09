@@ -172,6 +172,9 @@ def run(series, only=None):
     from . import executive
     for where, msg in executive.problems(series):
         add(ERROR, where, msg, "executive")
+    from . import votes                  # the Senate's roll calls on nominations (sources/vote-matches.yaml)
+    for where, msg in votes.problems(series):
+        add(ERROR, where, msg, "votes")
     from . import executive_sources
     un = executive_sources.unlinked(executive.load())
     if un:

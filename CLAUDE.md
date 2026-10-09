@@ -350,6 +350,10 @@ sources/executive-sources.yaml  the register of named works a `src` may cite: pa
 tools/executive/make_source_links.py  sources/executive-links.json: the Senate's day in the bound Record for each
                               date, each year's Index, POCOM person ids, FRUS volumes by person (scratch inputs; once)
 notes/executive-brief.md      the brief for whoever adds to the roster, person or agent
+tools/executive/make_votes.py sources/senate-nomination-votes.json: the Senate's roll calls on nominations, 1953–74,
+                              from Voteview (needs the network; the build does not)
+tools/bib/votes.py            matches them to the roster's holders and the series' persons (STYLE notes at the top)
+sources/vote-matches.yaml     kept by hand: what the rules cannot settle (a misspelling, a reconfirmation, a judge)
 ```
 
 ```
@@ -385,6 +389,13 @@ notes/executive-brief.md      the brief for whoever adds to the roster, person o
   `cite` (Statutes at Large: the page the act begins on, then the pin), `usc` (sections with the edition:
   '3 U.S.C. § 19 (1958)'), `does`. A term shows only the law in force during it, in a full-width row under
   the office. The law of the whole unit goes on the unit; an office carries only its own.
+- Roll calls: a confirmation by recorded vote shows the count after the date, linked to the roll call on Voteview
+  ("confirmed Sept. 21, 1973 (78–7)"), with any procedural vote on the nomination ("(64–19; recommittal refused,
+  20–63)"); a rejection is a date of its own ("rejected June 19, 1959 (46–49)"); a reconfirmation for a further term
+  too. A holder's roll calls name his surname, on his confirmation day or between nomination and confirmation; a
+  holder never confirmed, the vote that refused him. A judge's or other post the roster does not hold shows in the
+  person's Names entry by `persons` in `sources/vote-matches.yaml`. The calendar's thread "Confirmations" holds the
+  contested ones of 1961–63.
 - Vacancies are computed from the appointed holders; an acting officer shows under the vacancy he served in, not indented, its name in regular weight (`exac`).
 - Statute links: govinfo files the Statutes by act, named by the first page (STATUTE-61-Pg495), with a
   suffix where several begin on a page (STATUTE-69-Pg9-2); a wrong name answers 200 with an empty body.
