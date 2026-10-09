@@ -13,7 +13,8 @@ concepts and sources", goes before the Prologue; each series name in a table lin
 
 STYLE (settled; keep it, and fix anything that drifts from it):
  1. Columns: Indicator | As first reported | Released | Revised, today. Gallup's approval (kind: poll) in a table
-    of its own under it, on the same plan: Gallup (with the field dates) | As published | Released | Today. "Released" is the date the
+    of its own under it, set off by a rule and its own caption ("Presidential approval, Gallup"; the first table's
+    "Economic indicators"), on the same plan: Reading (with the field dates) | As published | Released | Today. "Released" is the date the
     first-reported figure was published (or the Economic Report transmitted); its source shows on
     hover.
  2. Periods: "Mar. 1961", "Q1 1961", "FY1962" (July 1961-June 1962), "1961".
@@ -360,11 +361,11 @@ def block(data, sec_from, sec_to, first_section, year):
         trs.append(f'<tr><td class="iname">{name}</td><td>{first}</td><td class="rel">{rel}</td><td>{nowv}</td></tr>')
     out = ""
     if trs:
-        out += ('<div class="ind"><table><thead><tr><th>Indicator</th><th>As first reported</th>'
+        out += ('<div class="ind"><p class="ind-cap">Economic indicators</p><table><thead><tr><th>Indicator</th><th>As first reported</th>'
                 '<th>Released</th><th>Revised, today</th></tr></thead><tbody>'
                 + "".join(trs) + "</tbody></table></div>")
     if polls:                            # opinion apart: a reading has its field dates and no revision
-        out += ('<div class="ind ind-op"><table><thead><tr><th>Gallup</th><th>As published</th>'
+        out += ('<div class="ind ind-op"><p class="ind-cap">Presidential approval, Gallup</p><table><thead><tr><th>Reading</th><th>As published</th>'
                 '<th>Released</th><th>Today</th></tr></thead><tbody>' + "".join(polls) + "</tbody></table></div>")
     return out
 
@@ -398,7 +399,8 @@ div.ind .per,div.ind .u,div.ind td.rel{color:var(--muted)}
 div.ind td.iname a{color:inherit;text-decoration-color:var(--rule)}
 div.ind .kv{display:inline-grid;grid-template-columns:minmax(3.5em,7.5em) auto;column-gap:.4rem}
 div.ind .kv .v{text-align:right}
-div.ind.ind-op{margin-top:-.4rem}
+div.ind .ind-cap{margin:0 0 .15rem;font-family:var(--sans);font-size:.72rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+div.ind.ind-op{margin-top:1.2rem;padding-top:.45rem;border-top:2px solid var(--ink)}
 div.ind.ind-op td.rel,div.ind.ind-op .per{white-space:nowrap}
 div.ind-defs{font-family:var(--sans);font-size:.85rem;line-height:1.45;margin:1rem 0 1.5rem}
 div.ind-defs dt{font-weight:600;margin-top:.6rem}

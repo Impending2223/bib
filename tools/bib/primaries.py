@@ -8,8 +8,10 @@ summary, a map of the States by winner (Result) and by the winner's margin (Marg
 STYLE
  1. Returns as CQ prints them: its names (the State in parentheses at a name's first appearance), votes, and
     printed shares ("—" for less than 0.05). A write-in (CQ's note 1) is marked "write-in". CQ's other notes on a
-    race or a figure are given in the race's note, as printed, but for the one it repeats under a dozen races
-    ("Figures from Scammon's office, not in *America Votes*."). Where a printed share does not fit the votes (more
+    race or a figure are quoted in the race's note, with the note's number ('CQ, note 5: “In addition to ...”'), but
+    the one it repeats under a dozen races, which is paraphrased ("CQ, note 2: figures from Scammon's office; not in
+    *America Votes*."). CQ's note on the year's heading is quoted in the block's sources. Nothing of CQ's is given
+    in its words without quotation marks. Where a printed share does not fit the votes (more
     than 0.1 point off), the note gives both: "CQ prints 4.8 for Others; the votes give 4.4."
  2. The winner: the candidate or slate with the most votes, "Others" and "None of the names shown" aside. Margin:
     points of all the votes between the first two; the unopposed, and a race with one entry, "Unopposed".
@@ -156,13 +158,19 @@ def notes(y, r, p):
         if n not in seen and n in fn:
             seen.add(n)
             t = fn[n]
-            if "Scammon did not record vote totals" in t:     # the note CQ repeats under a dozen races
-                t = re.sub(r"In America Votes,? Scammon did not record.*$", "not in *America Votes*.", t).replace(
-                    "Figures obtained from Scammon’s office.", "Figures from Scammon’s office,")
-            bits.append(re.sub(r"[*]([^*]+)[*]", r"<i>\1</i>", esc(t)))
+            if "Scammon did not record vote totals" in t:     # the note CQ repeats under a dozen races: paraphrased
+                bits.append(f"CQ, note {n}: figures from Scammon’s office; not in <i>America Votes</i>.")
+            else:                                              # CQ's words, quoted
+                bits.append(f"CQ, note {n}: “{quote(t)}”")
     for name, printed, calc in misprints(r, p):
         bits.append(f"CQ prints {esc(printed)} for {esc(bare(name))}; the votes give {calc:.1f}.")
     return " ".join(bits)
+
+
+def quote(t):
+    """CQ's words inside quotation marks: its own double quotes turned single; America Votes in italics."""
+    t = esc(t).replace("“", "‘").replace("”", "’").replace("&quot;", "’")
+    return re.sub(r"America Votes", "<i>America Votes</i>", t)
 
 
 def cands(y, r, p):
@@ -296,7 +304,7 @@ def block(y, p, day_links=None):
     star = load()[y].get("star")
     src = (f'{CQ} {load()[y]["pages"]}: Congressional Quarterly, <i>Guide to U.S. Elections</i>, 6th ed. (2010), ch. 11, '
            '"Presidential Primary Returns, 1912–2008." Votes and shares as CQ prints them; its notes in the races\' notes. '
-           + (esc(star) + " " if star else "")
+           + (f"CQ on the year: “{quote(star)}” " if star else "")
            + (f"CQ's total, {printed:,}, is the sum of the races." if printed == total else
               f"CQ prints a total of {printed:,}; the races add to {total:,}." if printed else ""))
     seats = json.dumps({"q": q}, ensure_ascii=False, separators=(",", ":"))
