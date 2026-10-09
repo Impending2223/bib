@@ -137,10 +137,13 @@ def first_releases_keyless(sid):
     import datetime
     last = (datetime.date.fromisoformat(TO) + datetime.timedelta(days=200)).isoformat()
     vs = vintages(sid, FROM, last)
+    obs = {o for d in vs for o in vs[d]}
+    quarterly = obs and all(o[5:7] in ('01', '04', '07', '10') for o in obs)
+    lo = max((o for o in obs if o <= FROM), default=FROM) if quarterly else FROM   # the period holding FROM, as the API gives it
     out = {}
     for d in sorted(vs):
         for o, v in vs[d].items():
-            if FROM <= o <= TO and o not in out:
+            if lo <= o <= TO and o not in out:
                 out[o] = (o, v, d)
     return [out[o] for o in sorted(out)]
 
