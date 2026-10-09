@@ -115,7 +115,7 @@ tools/executive/          the one-time script that seeded executive/ from POCOM
 | kja  | K–J Adm.  | Kennedy and Johnson administrations, 1961–69 |
 | kjc  | K–J Cong. | Congress, the nation, and the states, 1961–69 |
 | opp  | Opp.      | The Republican opposition, 1961–69           |
-| cal  | Cal.      | Calendar, Jan. 1961–Jan. 7, 1964 (87th Congress; 88th, first session); the primaries, 1960–76 |
+| cal  | Cal.      | Calendar, Jan. 1961–Jan. 20, 1965 (87th and 88th Congresses); the primaries, 1960–76 |
 | l68  | 1968      | The 1968 campaign ("the 1968 list")          |
 | adm  | Adm.      | Nixon and his administration, 1969–74        |
 | cong | Cong.     | Congress, the nation, and the states, 1969–74 |
@@ -124,10 +124,11 @@ tools/executive/          the one-time script that seeded executive/ from POCOM
 
 Parts: I portrayals, II sources, III names. A reference like "K–J Adm. II.D"
 is `lists/kja/II.D.yaml`. The calendar's files are named by month: `apr.yaml`
-for 1961, `apr62.yaml` for 1962, `apr63.yaml` for 1963 (`dec62.yaml` runs to Jan. 3, 1963; `dec63.yaml`, to Jan. 7, 1964),
-plus `th.yaml` (threads) and `pro.yaml` (prologue); the primary seasons, `mar60.yaml`–`jul60.yaml` before the prologue
-and `mar64.yaml`–`aug76.yaml` after Jan. 1964, hold only the primaries and the conventions' openings for now. Its
-sections are numbered straight through, I to LXVIII, in date order.
+for 1961, `apr62.yaml` for 1962, `apr63.yaml` for 1963, `apr64.yaml` for 1964 (`dec62.yaml` runs to Jan. 3, 1963;
+`dec63.yaml`, to Jan. 7, 1964; `jan64.yaml` from Jan. 8; `jan65.yaml` is Jan. 1–20, 1965), plus `th.yaml` (threads) and
+`pro.yaml` (prologue); the primary seasons, `mar60.yaml`–`jul60.yaml` before the prologue and `mar68.yaml`–`aug76.yaml`
+after Jan. 1965, hold only the primaries and the conventions' openings for now. Its sections are numbered straight
+through, I to LXXV, in date order.
 
 ## Finding things (start here)
 

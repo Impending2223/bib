@@ -275,6 +275,11 @@ def display(p, names):
     return names.full(sur, given, suf)
 
 
+# Names the lists misprint: the 1961-68 volumes give Ambassador Stevenson (d. July 14, 1965) as "III", his son's
+# suffix, as often as "II" (as tools/lives/frus_names.py's ERRATA); the son held no office FRUS records before 1969.
+ERRATA = {('Stevenson', 'Adlai E.', 'III'): ('Stevenson', 'Adlai E.', 'II')}
+
+
 def persons(root):
     """The volume's list: {xml:id: (surname, given, suffix)}, and {xml:id: the office it gives}."""
     P, roles = {}, {}
@@ -282,10 +287,12 @@ def persons(root):
         for pn in item.iter(T + 'persName'):
             if pn.get(XID):
                 P[pn.get(XID)] = parse_name(''.join(pn.itertext()))
+                P[pn.get(XID)] = ERRATA.get(P[pn.get(XID)], P[pn.get(XID)])
                 roles[pn.get(XID)] = clean(''.join(item.itertext()))
     for pn in root.iter(T + 'persName'):
         if pn.get(XID) and pn.get(XID) not in P:
             P[pn.get(XID)] = parse_name(''.join(pn.itertext()))
+            P[pn.get(XID)] = ERRATA.get(P[pn.get(XID)], P[pn.get(XID)])
     return P, roles
 
 
