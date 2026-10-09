@@ -340,9 +340,6 @@ executive/<unit>.yaml         one unit (department, agency, office of the Presid
 tools/bib/executive.py        renders the blocks and the page, checks the files (STYLE notes at the top)
 tools/bib/executive_names.py  who in the series is not yet in the roster
 tools/executive/make_state.py seeded state.yaml and missions.yaml from POCOM, once; don't rerun
-tools/executive/place_frus.py placed the Department's and the missions' career officers FRUS's lists of persons give
-                              (posts, groups, dates: its docstring); rerun after the FRUS index grows: it adds only
-                              persons not yet in the roster (--write; without it, a report)
 tools/executive/resolve_statutes.py   sources/statute-links.json: the govinfo file (and pin page) for every
                               Statutes at Large cite; rerun after adding law (needs the network; the build does not)
 tools/executive/make_uscode_index.py  sources/uscode-loc.json: the Library of Congress's chapter scans of the
@@ -399,10 +396,6 @@ notes/executive-brief.md      the brief for whoever adds to the roster, person o
   `BD 1415` (the printed Biographical Directory of Congress, by page: a member's later offices), a URL,
   or a work in `sources/executive-sources.yaml` (add it there first). Quote an item holding a comma: a flow list
   splits it.
-- The career officers of the Department and the missions (the "Officers of the Bureau of …" and "Officers of the
-  embassies …" groups) include every person FRUS's lists give in such a post (`place_frus.py`): his post as the list
-  words it, from and to where the list dates it, otherwise "in office by" and "last listed" the first and last FRUS
-  documents that name him, with "Check"; the lists cited by volume. Other departments and agencies are not yet placed.
 - State and the chiefs of mission come from POCOM (the Office of the Historian): commission, credentials,
   end of mission. Others from the Congressional Directory (each session), the Senate's records, department
   histories, and Wikipedia's lists for nominations. "Check" in a note marks a detail still to verify.

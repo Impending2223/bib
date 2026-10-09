@@ -352,8 +352,6 @@ def shown_title(u, o, h):
     ('Commissioner, Federal Trade Commission')."""
     from . import executive as X
     raw = h.get("title") or X.title_at(o, h["from"])
-    if u["unit"] == "missions" and o.get("many") and h.get("title"):
-        return raw, True                 # an officer of the embassies: his post as the list gives it
     if u["unit"] == "missions":
         place = X.title_at(o, h["from"])
         org = (o.get("group") or "") == "International organizations"
@@ -392,9 +390,7 @@ def office_sentences(sur, given, names=None):
             return ""
         a_ = (f"in office by {fmt(f)}" if h.get("_seen") else f"from {fmt(f)}") if not host or str(f) != str(host["from"]) else ""
         b_ = (f"last listed {fmt(t)}" if h.get("_last") else f"to {fmt(t)}") if t and (not host or str(t) != str(host.get("to"))) else ""
-        if h.get("_seen") and h.get("_last") and t and str(f) == str(t):
-            return f"listed {fmt(f)}"
-        return ("; " if b_.startswith("last") and a_ else " ").join(x for x in (a_, b_) if x)
+        return " ".join(x for x in (a_, b_) if x)
 
     xo = [(u, o, h) for u, o, h in held if o.get("appt") == "XO"]
     hosts = [(u, o, h) for u, o, h in held if o.get("appt") != "XO"]
@@ -1701,8 +1697,7 @@ def same_post(a, b):
         months = r"(?!(?:January|February|March|April|May|June|July|August|September|October|November|December)\b)"
         return {re.sub(r"^(?:britain|france|the)\s+", "", fold(x).lower().strip()) for x in
                 re.findall(rf"\b(?:to|in|at|for|of)\s+(?:the\s+)?((?:{months}[A-Z][\w’'-]*\.?\s?)+)", t)}
-    generic = {"office", "bureau", "department", "division", "embassy", "staff", "section", "branch", "mission"}
-    Pa, Pb = at(a) - generic, at(b) - generic
+    Pa, Pb = at(a), at(b)
     if Pa - Pb and Pb - Pa:              # each names a place the other does not
         return False
     if (A ^ B) & POST_RANK:
