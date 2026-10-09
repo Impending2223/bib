@@ -225,7 +225,7 @@ STYLE = """<style>
 .tn{display:block;font-family:var(--sans);font-size:.72rem;line-height:1.35;color:var(--muted);margin-top:.15rem}
 .tn .tnl{display:block}
 .tn a{color:var(--muted)}
-.tn.tp{font-style:italic}
+.tn.tp{font-style:italic}.tn.tp .tpv{font-style:normal}
 .day .rw.same{display:none}
 #pv .rw.same{display:inline}
 p.cont{font-family:var(--sans);font-size:.78rem;line-height:1.3;color:var(--muted);margin:.05rem 0 .2rem}

@@ -785,7 +785,7 @@ tools/indicators/make_indicators.py   writes them: FRED_API_KEY=... python3 tool
 tools/indicators/make_polls.py   Gallup's approval (kind: poll), a reading a row: as released (sources/gallup-approval.yaml,
                               read by hand from *The Gallup Poll, 1935–1971*, vol. III, by page) beside Gallup's series
                               today (the American Presidency Project's tables). In a table of its own under the
-                              indicators: Gallup (field dates) | As published | Released | Today. The race for 1964,
+                              indicators, under a rule and its caption: Reading (field dates) | As published | Released | Today. The race for 1964,
                               the issues, and every other poll are calendar entries in the thread Opinion.
 tools/bib/indicators.py       renders them (ORDER, GROUP) and checks them
 ```

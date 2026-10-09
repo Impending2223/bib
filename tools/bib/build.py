@@ -82,7 +82,7 @@ def thread_nav(series, lst, e, year, text_html):
 def program_links(lst):
     """The calendar's To/From links: an entry that sets several threads going (a State of the Union, an address to
     Congress) names them in `to:` (a thread slug, which resolves to the thread's next entry after it, or
-    {slug: entry id}); `short:` names it for the other end. -> ({initiator id: [(slug, target id)]},
+    {slug: entry id}; an entry of the thread's own before one it holds through `also`); `short:` names it for the other end. -> ({initiator id: [(slug, target id)]},
     {target id: [initiator id]}). Unresolved items are left out (check reports them)."""
     key = ("to", id(lst))
     if key in _NAV:
@@ -92,9 +92,10 @@ def program_links(lst):
     for sec, e in lst.entries():
         for item in e.get("to") or []:
             slug, tid = (next(iter(item.items())) if isinstance(item, dict) else (item, None))
-            if tid is None:
-                tid = next((m["id"] for m in members.get(slug, []) if str(m.get("date", "")) > str(e.get("date", ""))
-                            and m["id"] != e["id"]), None)
+            if tid is None:          # the thread's next entry of its own, before one it holds through `also` (a poll)
+                later = [m for m in members.get(slug, []) if str(m.get("date", "")) > str(e.get("date", ""))
+                         and m["id"] != e["id"]]
+                tid = next((m["id"] for m in later if m["thread"] == slug), next((m["id"] for m in later), None))
             if tid:
                 fwd.setdefault(e["id"], []).append((slug, tid))
                 back.setdefault(tid, []).append(e["id"])
@@ -109,14 +110,16 @@ def program_html(series, lst, e, year, text_html):
     out = []
     if e["id"] in fwd:
         items = sorted(fwd[e["id"]], key=lambda x: str((series.get(x[1]) or (0, 0, {}))[2].get("date", "")))
-        out.append("To: " + " · ".join(f"{thread_name(lst, slug)}, [[{tid}]]" for slug, tid in items))
+        out.append(("To:", " · ".join(f"{thread_name(lst, slug)}, [[{tid}]]" for slug, tid in items)))
     if e["id"] in back:
         names = []
         for iid in back[e["id"]]:
             ie = series.get(iid)[2]
             names.append(f"[[{iid}|{ie.get('short') or thread_name(lst, ie['thread'])}, {date_label(ie, year)}]]")
-        out.append("From: " + "; ".join(names))
-    return "".join(f'<span class="tnl">{text_html(year_qualified(series, t, year), "tn")}</span>' for t in out)
+        out.append(("From:", "; ".join(names)))
+    # the label in the line's italic, what follows it upright (.tn.tp .tpv)
+    return "".join(f'<span class="tnl">{lab} <span class="tpv">{text_html(year_qualified(series, t, year), "tn")}</span></span>'
+                   for lab, t in out)
 
 
 def date_label(e, year=None):
