@@ -40,14 +40,27 @@ rows:
     source: Economic Report of the President, Jan. 1963, Table C-58, p. 240
   now: {receipts: 106560.0, payments: 111316.0, balance: -4756.0}
 - p: FY1964
+  first: {receipts: 115.5, payments: 120.3, balance: -4.8}
+  released: '1965-01-28'
+  source: Economic Report of the President, Jan. 1965, Table B-60, p. 261
+  unit: billions of dollars
   est:
   - value: {receipts: 114.4, payments: 122.7, balance: -8.3}
     as_of: '1964-01-20'
     source: Economic Report of the President, Jan. 1964, Table C-58, p. 276
-  now: {receipts: null, payments: null, balance: null}
+  now: {receipts: 112613.0, payments: 118528.0, balance: -5915.0}
 - p: FY1965
   est:
   - value: {receipts: 119.7, payments: 122.7, balance: -2.9}
     as_of: '1964-01-20'
     source: Economic Report of the President, Jan. 1964, Table C-58, p. 276
+  - value: {receipts: 117.4, payments: 121.4, balance: -4.0}
+    as_of: '1965-01-28'
+    source: Economic Report of the President, Jan. 1965, Table B-60, p. 261
+  now: {receipts: null, payments: null, balance: null}
+- p: FY1966
+  est:
+  - value: {receipts: 123.5, payments: 127.4, balance: -3.9}
+    as_of: '1965-01-28'
+    source: Economic Report of the President, Jan. 1965, Table B-60, p. 261
   now: {receipts: null, payments: null, balance: null}
