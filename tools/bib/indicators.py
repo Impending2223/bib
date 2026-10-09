@@ -268,7 +268,9 @@ def exact(v, unit):
 
 # ---------------------------------------------------------------- the table
 
-def rows_for(data, lo, hi, first_section):
+def rows_for(data, lo, hi, first_section, next_from=None):
+    """The rows a section files: periods ending within it (and before it, in the first). A month the section ends
+    within (Jan. 1965, the calendar ending Jan. 20) is filed there too, where no later section begins in it."""
     out = []
     for sid in ORDER + [k for k in data if k not in ORDER]:
         s = data.get(sid)
@@ -276,7 +278,9 @@ def rows_for(data, lo, hi, first_section):
             continue
         for r in s.get("rows", []):
             end = period_end(r["p"])
-            if lo <= end <= hi or (first_section and end < lo):
+            part = (re.match(r"^\d{4}-\d{2}", str(r["p"])) and end.replace(day=1) <= hi < end
+                    and (next_from is None or end < next_from))
+            if lo <= end <= hi or (first_section and end < lo) or part:
                 out.append((sid, s, r))
     return out
 
@@ -331,9 +335,9 @@ def poll_row(sid, s, r, year):
     return name, dates(r["from"], r["to"]), first, rel, now
 
 
-def block(data, sec_from, sec_to, first_section, year):
+def block(data, sec_from, sec_to, first_section, year, next_from=None):
     lo, hi = datetime.date.fromisoformat(sec_from), datetime.date.fromisoformat(sec_to)
-    rows = rows_for(data, lo, hi, first_section)
+    rows = rows_for(data, lo, hi, first_section, next_from and datetime.date.fromisoformat(next_from))
     if not rows:
         return ""
     trs, shown, polls = [], set(), []
@@ -430,7 +434,8 @@ def inject(page, series, mode):
             if i == 0:
                 pat0 = re.compile(r'(<h\d id="' + re.escape(hid) + r'")')
                 page, n0 = pat0.subn(lambda m: defs_block(data) + "\n" + m.group(1), page, count=1)
-            blk = block(data, str(sec.extra["from"]), str(sec.extra["to"]), i == 0, year)
+            nxt = str(dated[i + 1].extra["from"]) if i + 1 < len(dated) else None
+            blk = block(data, str(sec.extra["from"]), str(sec.extra["to"]), i == 0, year, nxt)
             if not blk:
                 continue
             pat = re.compile(r'(<h\d id="' + re.escape(hid) + r'"[^>]*>.*?</h\d>(?:\s*<p class="logic">.*?</p>)*)', re.S)
