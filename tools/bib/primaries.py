@@ -10,7 +10,7 @@ STYLE
     printed shares ("—" for less than 0.05). A write-in (CQ's note 1) is marked "write-in". CQ's other notes on a
     race or a figure are quoted in the race's note, with their page and number ('CQ Guide 6th (2010) 405 n.5: “In
     addition to ...”'), but the one it repeats under a dozen races, which is paraphrased and cited ("Figures from
-    Scammon's office; not in *America Votes* (CQ Guide 6th (2010) 411 n.4)."). CQ's note on the year's heading is quoted in the block's sources. Nothing of CQ's is given
+    Scammon's office; not in *America Votes*. CQ Guide 6th (2010) 411 n.4."). CQ's note on the year's heading is quoted in the block's sources. Nothing of CQ's is given
     in its words without quotation marks. Where a printed share does not fit the votes (more
     than 0.1 point off), the note gives both: "CQ prints 4.8 for Others; the votes give 4.4."
  2. The winner: the candidate or slate with the most votes, "Others" and "None of the names shown" aside. Margin:
@@ -167,7 +167,7 @@ def notes(y, r, p):
             t = fn[n]
             at = f"{CQ} {load()[y].get('notes_page')} n.{n}"
             if "Scammon did not record vote totals" in t:     # the note CQ repeats under a dozen races: paraphrased
-                bits.append(f"Figures from Scammon’s office; not in <i>America Votes</i> ({at}).")
+                bits.append(f"Figures from Scammon’s office; not in <i>America Votes</i>. {at}.")
             else:                                              # CQ's words, quoted
                 bits.append(f"{at}: “{quote(t)}”")
     for name, printed, calc in misprints(r, p):
