@@ -187,6 +187,11 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
         nav = thread_nav(series, lst, e, year, text_html)
         if nav:
             parts.append(nav)
+    if e.get("gloss"):
+        # a gloss: a note on the entry, not an entry; set under it, apart (calendar: .gl in daybook.py's style)
+        paras = "".join(f'<span class="glp">{text_html(year_qualified(series, g, year), "n")}</span>'
+                        for g in store.as_list(e["gloss"]))
+        parts.append(f'<span class="gl"><span class="glh">Gloss</span>{paras}</span>')
     if e.get("conflict"):
         parts.append('<span class="n"><b>Unresolved merge conflict.</b></span>')
     return f'<li id="{attr(e["id"])}"{extra_attrs}>' + "".join(parts) + extra_spans + "</li>"
