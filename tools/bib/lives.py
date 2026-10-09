@@ -32,6 +32,7 @@ import json
 import sys
 import os
 import re
+from collections import defaultdict
 
 from . import store
 from .markup import to_html, plain, lower_from
@@ -784,6 +785,11 @@ def problems(series):
             for c in rd.get("cands") or []:
                 if len(c) != 4 or (c[2] is not None and not isinstance(c[2], int)):
                     yield "elections/primaries.yaml", f"{k}, {rd.get('label')}: {c}: [name, party, votes, share]"
+    pkeys = {key_of(p["name"]) for p in cached("people", lambda: people(series))}
+    for k, es in calendar_tagged(series).items():  # the calendar's hidden name tags: each a person's entry
+        if k not in pkeys:
+            for e in es:
+                yield "lists/cal", f"{e['id']}: tag name:{k} names no person (the key of a name entry: name:mcnamara-robert-s)"
     for n, v in race_matches().items():
         if n not in names:
             yield where, f"{n}: no person of that name"
@@ -1237,15 +1243,36 @@ def subjects(ptrs, name, ok):
     return out
 
 
-def calendar_of(ptrs, subs):
-    """The calendar entries whose 'Names:' line names one of the person's Part III entries, by date."""
+def calendar_tagged(series):
+    """{person key: [calendar entries]}: the hidden tags 'name:<key>' on calendar entries, the key that of the
+    person's name entry (key_of: 'name:mcnamara-robert-s'). Kept by hand; not shown."""
+    def make():
+        out = defaultdict(list)
+        for l in series.lists.values():
+            if l.kind != "calendar":
+                continue
+            for s, e in l.entries():
+                for tg in e.get("tags") or []:
+                    if str(tg).startswith("name:"):
+                        out[str(tg)[5:]].append(e)
+        return out
+    return cached("calendar-tagged", make)
+
+
+def calendar_of(ptrs, subs, key=None, series=None):
+    """The calendar entries of a person, by date: those whose 'Names:' line names one of his Part III entries, and
+    those tagged 'name:<his key>' (every person the entry's statement names, President included)."""
     out, seen = [], set()
     for l, s, x in subs:
         for e in ptrs.calx.get(x["id"], []):
             if e["id"] not in seen:
                 seen.add(e["id"])
                 out.append(e)
-    return sorted(out, key=lambda e: e["date"])
+    for e in (calendar_tagged(series).get(key, []) if key and series is not None else []):
+        if e.get("date") and e["id"] not in seen:
+            seen.add(e["id"])
+            out.append(e)
+    return sorted(out, key=lambda e: str(e["date"]))
 
 
 def series_lines(subs, cal):
@@ -1267,8 +1294,10 @@ def calendar_sentences(ptrs, cal):
         if True:
             c = series_html(ptrs, store.as_list(e.get("c"))[0] if e.get("c") else "", "cal", e)
             n = series_html(ptrs, re.sub(r"\s*Names:.*$", "", e.get("n") or "").strip(), "cal", e) if e.get("n") else ""
+            # each calendar entry a paragraph of its own, its sources and pointer after it
             out.append(sent(e["date"], f"{esc(e['when'])}, {e['date'][:4]}: {c}", [n] if n else [],
-                            [ptr(f"{SITE}cal.html#{e['id']}", f"Cal. {esc(e['when'])}, {e['date'][:4]}")], kind="cal"))
+                            [ptr(f"{SITE}cal.html#{e['id']}", f"Cal. {esc(e['when'])}, {e['date'][:4]}")], para=True,
+                            kind="cal"))
     return out
 
 
@@ -1771,7 +1800,7 @@ def entry(series, linker, ptrs, p):
         es = suffix(re.sub(r"\s*\([^)]*\)\s*$", "", plain(s_)))
         return es == sfx if es not in ("", "Sr") else not strict
     subs = subjects(ptrs, name, ok)
-    cal = calendar_of(ptrs, [x for x in subs if (x[1].code or "").startswith("III")])
+    cal = calendar_of(ptrs, [x for x in subs if (x[1].code or "").startswith("III")], key_of(name), series)
     rp, e, races = person_races(series, p)
     structured = (office_sentences(sur, given, names) + races
                   + calendar_sentences(ptrs, cal) + pocom_sentences(p, bool(e)))

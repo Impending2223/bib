@@ -44,12 +44,18 @@ So every calendar entry has:
   - the event elsewhere in the series: the list sections that treat it ("K–J Adm. II.D"), where the bibliography
     has not already given them.
   - `Names: …`, the list and Part III section of every person in `c` who has a Part III entry ("Names, events").
+- `tags`: a hidden `name:<key>` (the name entry's anchor: `name:mcnamara-robert-s`) for every person the entry
+  names or whose act it records and who has a name entry, the President included where the entry is his message,
+  address, press conference, signature, order, proclamation, NSAM, meeting, or a poll of his approval. Tags are not
+  shown; they put the entry in the person's life (Names), as do the persons of `Names:`. A namesake is not tagged
+  (Edward McCormack is not the Speaker; Lucius Clay of Berlin is not his son), nor a name in a case's title.
+  `check` fails on a key that names no person.
 
 Each thread in `th.yaml` has a brief statement (`c`), as the owner asked: what the thread is, and its stations, in
 one or two clipped sentences.
 
 `./bib audit-cal` checks the dated entries against these rules and writes `notes/calendar-audit.md`: persons in `c`
-missing from `Names:`, entries with neither a bibliography nor a `See`, entries with no primary record or with one
+in neither `Names:` nor a `name:` tag, entries with neither a bibliography nor a `See`, entries with no primary record or with one
 named but not linked, and the thread statements.
 
 **Bibliography notes.** One or two fragments: what the book is, whose voice,
@@ -475,7 +481,7 @@ leaves out the pointer the role line already gives (and is left out where that w
   entry's own sources. The series' pages are pointers, not sources: Exec. 1965, 87th, 88th Cong., Election 1960,
   Cal. Jan. 3, 1961, list sections — in the headings' sans serif, not underlined.
 - A run of sentences with the same sources and pointers is a sentence block; its source block follows it: the
-  cites, then the pointers. A new paragraph at each office and election.
+  cites, then the pointers. A new paragraph at each office and election, and at each calendar entry.
 - An office is followed by the offices held ex officio by virtue of it, with their dates only where they differ.
 - The Directory's color is cut (`CUT`); its bibliography is put in the series' form ("Timothy N. Thurber, *The
   Politics of Equality* (1999)"). FRUS headings with "from" in lower case.
