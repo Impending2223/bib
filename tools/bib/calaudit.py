@@ -22,10 +22,10 @@ OUT = os.path.join(store.ROOT, "notes", "calendar-audit.md")
 PRIMARY_HOSTS = ("govinfo.gov", "presidency.ucsb.edu", "history.state.gov", "federalregister.gov", "archives.gov",
                  "congress.gov", "jfklibrary.org", "lbjlibrary", "eisenhowerlibrary.gov", "trumanlibrary", "loc.gov",
                  "justia.com", "law.cornell.edu", "senate.gov", "house.gov", "supremecourt.gov", "oyez.org",
-                 "uscode.house.gov", "cia.gov", "nsarchive", "fraser.stlouisfed.org", "bls.gov", "voteview.com")
+                 "uscode.house.gov", "cia.gov", "nsarchive", "fraser.stlouisfed.org", "bls.gov", "voteview.com", "static.case.law", "federalreserve.gov", "clerk.house.gov", "nasa.gov")
 PRIMARY_NAMES = re.compile(r"\bStat\.|Fed\. Reg\.|Cong\. Rec\.|\bFRUS\b|Public Papers|\bAPP\b|\d+ U\.S\. \d+|"
                            r"Exec\. Order|Executive Order|Proclamation|Pub\. L\.|H\.R\. \d|S\. \d|Reorganization Plan|"
-                           r"\bNSAM\b|Weekly Compilation")
+                           r"\bNSAM\b|Weekly Compilation|Department of State Bulletin|Election Statistics|Statistics of the Congressional")
 LISTREF = re.compile(r"\b(?:K–J Adm\.|K–J Cong\.|Opp\.|1968|Adm\.|Cong\.|Wg\.|Viet\.)\s+II\b")
 # words that are surnames in Part III but also places or things; a hit on one is marked "?"
 AMBIG = {"White", "Black", "Brown", "Green", "Long", "King", "Young", "Little", "Rich", "Washington", "Jackson",
@@ -84,8 +84,10 @@ def run(series):
         see = "See [[" in n or re.search(r"see \[\[", n)
         if not own and not see:
             event.append((sec, e))
-        links = re.findall(r"\]\((https?://[^)]+)\)", c + " " + n)    # a record may be linked in either field
-        linked = any(any(h in u for h in PRIMARY_HOSTS) for u in links)
+        # a record may be linked in either field; a link counts by its host, or by its text naming a record (a
+        # State Bulletin or a State's returns on archive.org)
+        links = re.findall(r"\[((?:[^\[\]]|\[[^\]]*\])*)\]\((https?://[^)]+)\)", c + " " + n)
+        linked = any(any(h in u for h in PRIMARY_HOSTS) or PRIMARY_NAMES.search(txt) for txt, u in links)
         named = PRIMARY_NAMES.search(n)
         if not linked and not named:
             prim_none.append((sec, e))
