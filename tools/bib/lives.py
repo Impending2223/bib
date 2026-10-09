@@ -1664,6 +1664,36 @@ def frus_lists(name):
     return [x for _, x in sent_], [x for _, x in sorted(named, key=lambda t: vol_order(t[0]))]
 
 
+POST_SMALL = {"the", "of", "to", "in", "at", "on", "for", "and", "a", "an", "until", "from", "after", "since", "thereafter",
+              "then", "also", "as", "with", "by", "january", "february", "march", "april", "may", "june", "july",
+              "august", "september", "october", "november", "december"}
+POST_RANK = {"deputy", "assistant", "acting", "alternate", "vice", "under", "principal", "chief", "first", "second",
+             "third", "special", "executive", "associate", "former", "designate", "minister", "counselor", "secretary",
+             "consul", "attache", "commander", "chairman", "director", "president", "ambassador",
+             "representative", "delegate", "head", "member", "adviser", "advisor", "officer"}
+
+
+def same_post(a, b):
+    """Two descriptions of one post in other words: nearly all the telling words of the shorter in the longer (dates,
+    articles, prepositions aside) and most of the longer's, and no word of rank or office in one that the other lacks ('Permanent
+    Representative of France at the United Nations' and 'French Representative at the United Nations'; not 'Deputy
+    Representative' and 'Permanent Representative')."""
+    def w(t):
+        t = fold(re.sub(r"\([^)]*\)|;\s*also\b.*", " ", t.lower()))   # '(Premier)'; '; also Member of the Politburo'
+        for x, y in (("union of soviet socialist republics", "soviet"), ("united soviet socialist republics", "soviet"),
+                     ("soviet union", "soviet"), ("u.s.s.r.", "soviet"), ("ussr", "soviet"), ("french", "france"),
+                     ("british", "britain"), ("u.s.", "united states"), ("secretary-general", "secretary general")):
+            t = t.replace(x, y)
+        t = re.sub(r"\b([a-z]{5,})(of|to|in|at)\b", r"\1 \2", t)     # a space dropped: 'Representativeof'
+        return {x for x in re.findall(r"[a-z]+", t) if x not in POST_SMALL and len(x) > 1}
+    A, B = w(a), w(b)
+    if not A or not B:
+        return False
+    if (A ^ B) & POST_RANK:
+        return False
+    return len(A & B) / min(len(A), len(B)) >= 0.8 and len(A & B) / max(len(A), len(B)) >= 0.7
+
+
 def frus_roles(name):
     """The descriptions FRUS's lists of persons give the person, each once, with the volumes that give it, in the
     volumes' order ('French Ambassador to the United States. FRUS 1961–63, I; FRUS 1961–63, XXIV.')."""
@@ -1674,6 +1704,19 @@ def frus_roles(name):
         r = (d[vol].get("role") or "").strip()
         if r:
             by.setdefault(r[0].upper() + r[1:], []).append(vol)
+    # one post worded volume by volume ('French Ambassador to the United States', 'Ambassador to the United States',
+    # 'French Ambassador in the United States'): one line, in the wording most volumes use, citing them all
+    groups = []                          # [[(description, volumes)]]
+    for r, vols in by.items():
+        g = next((g for g in groups if any(same_post(r, x) for x, _ in g)), None)
+        if g is None:
+            groups.append([(r, vols)])
+        else:
+            g.append((r, vols))
+    by = {}
+    for g in groups:
+        r = max(g, key=lambda t: (len(t[1]), len(t[0])))[0]
+        by[r] = sorted({v for _, vs in g for v in vs}, key=vol_order)
     def cites(vols):                     # 'FRUS 1958–60, I, II; 1961–63, XXIV'
         subs = {}
         for v in vols:
@@ -1686,8 +1729,8 @@ def frus_roles(name):
 
 
 def vol_order(vol):
-    m = re.match(r"frus(\d{4})-\d+v(e?)(\d+)", vol)
-    return (m.group(1), m.group(2), int(m.group(3))) if m else (vol, "", 0)
+    m = re.match(r"frus(\d{4})-\d+v(e?)(\d+)(.*)", vol)
+    return (m.group(1), m.group(2), int(m.group(3)), m.group(4)) if m else (vol, "", 0, "")
 
 
 def app_list(name, sur):

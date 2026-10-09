@@ -406,7 +406,9 @@ notes/executive-brief.md      the brief for whoever adds to the roster, person o
 entry for each person in Part III, the Executive roster, and the Congresses at their openings (`people` in
 `tools/bib/lives.py`: one entry a person), and for each person FRUS's lists of persons (1952–76) give whom none of
 those holds (`everyone`; `sources/frus-names/persons.json`, written by `frus_names.py --all`). Such an entry shows
-each description the lists give, with its volumes, then the documents; it takes no races, roster or Directory, and
+each description the lists give, with its volumes (one post worded volume by volume is one line, in the wording most
+volumes use: `same_post`, the telling words alike, dates, parentheses and "also …" clauses aside, no word of rank in one
+that the other lacks), then the documents; it takes no races, roster or Directory, and
 the matching of races, namesakes and authors goes by `people` alone. The lists' persons join across volumes by name
 (`join`): the surname and suffix the same, the given names alike name by name (an initial for its name, a short form,
 one spelling of another: Malik, Yakov Alexsandrovich, Aleksandrovich, Alexandrovich), every form that fits joined only

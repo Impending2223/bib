@@ -107,6 +107,12 @@ def descriptions(root):
             if pn.get(M.XID) and pn.get(M.XID) not in out:
                 raw = M.clean(''.join(pn.itertext()))
                 d = full[len(raw):] if full.startswith(raw) else full.replace(raw, '', 1)
+                # an entry the list runs on into the next, whose name carries no xml:id ('... British Foreign Office
+                # Caglayangil, Ihsan Sabri, Turkish Foreign Minister'): cut at that name, written as a list writes one
+                for other in item.iter(M.T + 'persName'):
+                    t = M.clean(''.join(other.itertext()))
+                    if other is not pn and ',' in t and t in d:
+                        d = d[:d.index(t)]
                 out[pn.get(M.XID)] = d.strip(' ,.;:—–-')
     return out
 
