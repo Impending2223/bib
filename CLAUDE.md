@@ -443,7 +443,16 @@ alike with the same first letters ("Ngo Quang Troung"; not "Tran Van Chuong" and
 alike one person the series holds (also by the name he went by, "Thomas Hale" and "Hale", or a misprint with the same
 middle initial, "Herbert H." Humphrey), where the lists' descriptions share a telling word with that person's offices,
 is that person: his documents go to him (Ron Ziegler, Earl G. Wheeler, Robert J. Dole). Alike only by name, he has his
-own entry (Lester B. Pearson is not Harold L.; Mohammed Ali of Pakistan not the boxer). A description a list runs on into the next person's
+own entry (Lester B. Pearson is not Harold L.; Mohammed Ali of Pakistan not the boxer). The build joins further the persons
+the lists alone give (`frus_groups` in `tools/bib/lives.py`, their documents, descriptions and APP lists united, the
+other keys kept as anchors): forms alike but for the marks of transliteration and print (apostrophes and primes,
+bracketed letters, the Arabic article, bin and ibn, Abdul and Abd al-, Al Sa’ud, a surname's spacing: Fahmi[y],
+Fitz Gerald), the suffix the same; and, only where the lists' descriptions share a telling word or a word of office
+and a country, given names agreeing by the series' rule, a Spanish or Portuguese surname's paternal part alone (Franco,
+Franco y Bahamonde), or a word misspelled by a letter (Vaughan, Vaughn). A form joins a person the series holds only so, or as a form
+`sources/name-forms.yaml` gives (Chou Enlai); forms joined through a third, only where every two are alike. What the rule cannot settle (a misprinted initial, a
+romanization, Lin Piao and Lin Biao) is joined, or kept apart, in `sources/frus-joins.yaml`, each with its reason.
+A description a list runs on into the next person's
 entry is cut where that person's name begins, the name being one a FRUS list gives (`run_on` in `tools/bib/lives.py`:
 "... British Foreign Office Caglayangil, Ihsan Sabri, Turkish Foreign Minister"). Where a list's persName holds
 the surname alone, the given names come from the text after it; a title, office, service or nationality after the
@@ -565,6 +574,8 @@ sources/race-matches.yaml     kept by hand: races refused or confirmed for a per
 sources/app-matches.yaml      kept by hand: a bare name two persons share, given to one for some years; a son known
                               only by his suffix (strict: Roosevelt, Hoover, Clay, MacArthur, Taft, Stevenson III)
 sources/name-forms.yaml       kept by hand: the other forms of each name Part III writes in its own order (Mao Tse-tung)
+sources/frus-joins.yaml       kept by hand: persons FRUS's lists alone give who are one (Faisal's five forms) or two
+                              (`apart`), by key, each with its reason; `check` fails on a key that names no one
 sources/app-places.yaml       kept by hand: places in more than one State, for telling two of a shared title apart
 ```
 

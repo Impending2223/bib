@@ -103,10 +103,12 @@ def frus_sender(series, key):
     if not m:
         return None
     pks = L.cached("frus-senders", make).get((m.group(1), m.group(2))) or set()
-    if len(pks) != 1:
-        return None
     by_key = L.cached("name-keys", lambda: {L.key_of(p["name"]): p["name"] for p in L.everyone(series)})
-    who = by_key.get(next(iter(pks)))
+    alias = L._CACHE.get("frus-alias", {})       # forms joined in one entry (lives.frus_groups): one sender
+    whos = {by_key.get(alias.get(k, k)) for k in pks}
+    if len(whos) != 1:
+        return None
+    who = next(iter(whos))
     return url(series, who) if who else None
 
 
