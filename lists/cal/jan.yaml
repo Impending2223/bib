@@ -10,6 +10,13 @@ entries:
     c: 'Inauguration. The cabinet confirmed and sworn in over two days: Rusk, Dillon, McNamara, Robert Kennedy, Day, Udall, Freeman, Hodges, Goldberg, Ribicoff. Stevenson to the UN. McGovern to Food for Peace.'
     n: '[Inaugural Address](https://www.presidency.ucsb.edu/documents/inaugural-address-2). [Cong. Rec., Senate, Jan. 21, 1961](https://www.govinfo.gov/content/pkg/GPO-CRECB-1961-pt1/pdf/GPO-CRECB-1961-pt1-14-1.pdf). [Remarks at the Swearing-In Ceremonies for the Members of the Cabinet](https://www.presidency.ucsb.edu/documents/remarks-the-swearing-ceremonies-for-the-members-the-cabinet) (Jan. 21, 1961). Thurston Clarke, *Ask Not: The Inauguration of John F. Kennedy and the Speech That Changed America* (2004). *Preparing to Be President: The Memos of Richard E. Neustadt* (Charles O. Jones ed., 2000). Sorensen, *Kennedy*, and Schlesinger, *A Thousand Days* (K–J Adm. II.G.2). Reeves, *President Kennedy* (K–J Adm. II.A), begins here and runs day by day. Recording: inaugural (K–J Adm. II.I). Names: K–J Adm. III.B, III.E–III.I.'
     tags: [executive:1961-01-20, name:kennedy-john-f, name:johnson-lyndon-b, name:rusk-dean, name:dillon-c-douglas, name:mcnamara-robert-s, name:kennedy-robert-f, name:day-j-edward, name:udall-stewart-l, name:freeman-orville-l, name:hodges-luther-h, name:goldberg-arthur-j, name:ribicoff-abraham, name:stevenson-adlai-e, name:mcgovern-george]
+  - id: cal.1961-01-22.opinion
+    when: Jan. 22
+    date: '1961-01-22'
+    thread: opinion
+    also: [space]
+    c: 'Gallup, Dec. 8–13, 1960: which country first to send a man into space. Russia 40 percent, the United States 35.'
+    n: '*The Gallup Poll*, III, 1702 (K–J Cong. II.E).'
   - id: cal.1961-01-23.court
     when: Jan. 23
     date: '1961-01-23'
@@ -23,6 +30,14 @@ entries:
     c: First presidential press conference carried live, from the State Department auditorium. Announces the Soviet release of the two surviving RB-47 fliers.
     n: '[News Conference](https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-196). *Kennedy and the Press: The News Conferences* (Harold W. Chase & Allen H. Lerman eds., 1965). The film is at the JFK Library (K–J Adm. II.K). Mary Ann Watson, *The Expanding Vista: American Television in the Kennedy Years* (1990).'
     tags: [name:kennedy-john-f]
+  - id: cal.1961-01-27.opinion
+    when: Jan. 27
+    date: '1961-01-27'
+    thread: opinion
+    also: [berlin-and-vienna]
+    c: 'Gallup, Jan. 12–17: a Kennedy–Khrushchev summit this year. 54 percent for, 30 against.'
+    n: '*The Gallup Poll*, III, 1703 (K–J Cong. II.E). Names: Khrushchev (K–J Adm. III.J).'
+    tags: [name:kennedy-john-f, name:khrushchev-nikita-s]
   - id: cal.1961-01-28.vietnam
     when: Jan. 28
     date: '1961-01-28'
@@ -41,11 +56,19 @@ entries:
     when: Jan. 30
     date: '1961-01-30'
     thread: program
-    short: State of the Union
-    to: [economy, jobs-and-wages, cities-and-housing, school-aid, medicare, foreign-aid, latin-america, peace-corps]
     c: First State of the Union. The tide running against the United States in every area of crisis; the economy in recession.
     n: '[Annual Message to the Congress on the State of the Union](https://www.presidency.ucsb.edu/documents/annual-message-the-congress-the-state-the-union-5) (Jan. 30, 1961).'
     tags: [name:kennedy-john-f]
+    short: State of the Union
+    to:
+      - economy
+      - jobs-and-wages
+      - cities-and-housing
+      - school-aid
+      - medicare
+      - foreign-aid
+      - latin-america
+      - peace-corps
   - id: cal.1961-01-31.rules
     when: Jan. 31
     date: '1961-01-31'
