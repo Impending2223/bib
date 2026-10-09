@@ -1,0 +1,878 @@
+patch: primaries
+by: main session
+ops:
+- add:
+    entry:
+      id: cal.thread.elections-1960
+      s: Elections of 1960
+      c: 'The 1960 nominations: the primaries, Mar. 8 to June 7 (CQ''s returns), and the conventions, Los Angeles, July 11, and Chicago, July 25. The rest of the year not yet written.'
+    section: th
+    after: cal.thread.elections-1962
+- add:
+    entry:
+      id: cal.thread.elections-1968
+      s: Elections of 1968
+      c: 'The 1968 nominations: the primaries, Mar. 12 to June 11 (CQ''s returns), and the conventions, Miami Beach, Aug. 5, and Chicago, Aug. 26. The rest of the year not yet written.'
+    section: th
+    after: cal.thread.elections-1964
+- add:
+    entry:
+      id: cal.thread.elections-1972
+      s: Elections of 1972
+      c: 'The 1972 nominations: the primaries, Mar. 7 to June 6 (CQ''s returns), and the conventions, both at Miami Beach, July 10 and Aug. 21. The rest of the year not yet written.'
+    section: th
+    after: cal.thread.elections-1968
+- add:
+    entry:
+      id: cal.thread.elections-1976
+      s: Elections of 1976
+      c: 'The 1976 nominations: the primaries, Feb. 24 to June 8 (CQ''s returns), and the conventions, New York, July 12, and Kansas City, Aug. 16. The rest of the year not yet written.'
+    section: th
+    after: cal.thread.elections-1972
+- edit:
+    id: cal.thread.elections-1964
+    base: 6432417c
+    set:
+      c: The race for the 1964 nominations. Rockefeller; the Goldwater draft; Goldwater announces; Gallup's trial heats; the primaries, Mar. 10 to June 2 (CQ's returns); San Francisco, July 13, and Atlantic City, Aug. 24.
+- add:
+    entry:
+      id: cal.1960-03-08.elections-1960
+      when: Mar. 8
+      date: '1960-03-08'
+      thread: elections-1960
+      c: 'New Hampshire primary. Republican: Nixon 89.3 percent, others 4.0. Democratic: Kennedy 85.2 percent, others 14.8.'
+      n: 'CQ Guide 6th (2010) 404. White, *The Making of the President 1960* (K–J Cong. II.E). Names: Kennedy (Viet. III.A); Nixon (Opp. III.E).'
+      tags:
+      - primary:1960-03-08
+      - name:kennedy-john-f
+      - name:nixon-richard-m
+- add:
+    entry:
+      id: cal.1960-04-05.elections-1960
+      when: Apr. 5
+      date: '1960-04-05'
+      thread: elections-1960
+      c: 'Wisconsin primary. Republican: Nixon, unopposed. Democratic: Kennedy 56.5 percent, Humphrey 43.5.'
+      n: 'CQ Guide 6th (2010) 404. See [[cal.1960-03-08.elections-1960]]. Names: Humphrey (K–J Adm. III.D); Kennedy (Viet. III.A); Nixon (Opp. III.E).'
+      tags:
+      - primary:1960-04-05
+      - name:humphrey-hubert-h
+      - name:kennedy-john-f
+      - name:nixon-richard-m
+- add:
+    entry:
+      id: cal.1960-04-12.elections-1960
+      when: Apr. 12
+      date: '1960-04-12'
+      thread: elections-1960
+      c: 'Illinois primary. Republican: Nixon 99.9 percent, others (write-in) 0.1. Democratic: Kennedy (write-in) 64.6 percent, Stevenson (write-in) 15.1.'
+      n: 'CQ Guide 6th (2010) 404. See [[cal.1960-03-08.elections-1960]]. Names: Kennedy (Viet. III.A); Nixon (Opp. III.E).'
+      tags:
+      - primary:1960-04-12
+      - name:kennedy-john-f
+      - name:nixon-richard-m
+- add:
+    entry:
+      id: cal.1960-04-19.elections-1960
+      when: Apr. 19
+      date: '1960-04-19'
+      thread: elections-1960
+      c: 'New Jersey primary. Republican: unpledged delegates, unopposed. Democratic: unpledged delegates, unopposed.'
+      n: CQ Guide 6th (2010) 404. See [[cal.1960-03-08.elections-1960]].
+      tags:
+      - primary:1960-04-19
+- add:
+    entry:
+      id: cal.1960-04-26.elections-1960
+      when: Apr. 26
+      date: '1960-04-26'
+      thread: elections-1960
+      c: 'Primaries in Massachusetts and Pennsylvania. Republican: Nixon (write-in) in Massachusetts; Nixon in Pennsylvania. Democratic: Kennedy (write-in) in Massachusetts and Pennsylvania.'
+      n: 'CQ Guide 6th (2010) 404. See [[cal.1960-03-08.elections-1960]]. Names: Kennedy (Viet. III.A); Nixon (Opp. III.E).'
+      tags:
+      - primary:1960-04-26
+      - name:kennedy-john-f
+      - name:nixon-richard-m
+- add:
+    entry:
+      id: cal.1960-05-03.elections-1960
+      when: May 3
+      date: '1960-05-03'
+      thread: elections-1960
+      c: 'Primaries in the District of Columbia, Indiana and Ohio. Republican: unpledged delegates in the District; Nixon in Indiana and Ohio. Democratic: Humphrey in the District; Kennedy in Indiana; DiSalle in Ohio.'
+      n: 'CQ Guide 6th (2010) 404. See [[cal.1960-03-08.elections-1960]]. Names: Humphrey (K–J Adm. III.D); Kennedy (Viet. III.A); Nixon (Opp. III.E).'
+      tags:
+      - primary:1960-05-03
+      - name:humphrey-hubert-h
+      - name:kennedy-john-f
+      - name:nixon-richard-m
+- add:
+    entry:
+      id: cal.1960-05-10.elections-1960
+      when: May 10
+      date: '1960-05-10'
+      thread: elections-1960
+      c: 'Primaries in Nebraska and West Virginia. Republican: Nixon in Nebraska; unpledged delegates in West Virginia. Democratic: Kennedy in Nebraska and West Virginia.'
+      n: 'CQ Guide 6th (2010) 404–405. See [[cal.1960-03-08.elections-1960]]. Names: Kennedy (Viet. III.A); Nixon (Opp. III.E).'
+      tags:
+      - primary:1960-05-10
+      - name:kennedy-john-f
+      - name:nixon-richard-m
+- add:
+    entry:
+      id: cal.1960-05-17.elections-1960
+      when: May 17
+      date: '1960-05-17'
+      thread: elections-1960
+      c: 'Maryland primary. Republican: no primary. Democratic: Kennedy 70.3 percent, Morse 17.2.'
+      n: 'CQ Guide 6th (2010) 405. See [[cal.1960-03-08.elections-1960]]. Names: Kennedy (Viet. III.A); Morse (K–J Cong. III.B).'
+      tags:
+      - primary:1960-05-17
+      - name:kennedy-john-f
+      - name:morse-wayne
+- add:
+    entry:
+      id: cal.1960-05-20.elections-1960
+      when: May 20
+      date: '1960-05-20'
+      thread: elections-1960
+      c: 'Oregon primary. Republican: Nixon 93.1 percent, Rockefeller (write-in) 4.1. Democratic: Kennedy 51.0 percent, Morse 31.9.'
+      n: 'CQ Guide 6th (2010) 405. See [[cal.1960-03-08.elections-1960]]. Names: Kennedy (Viet. III.A); Rockefeller (1968 III.M); Nixon (Opp. III.E); Morse (K–J Cong. III.B).'
+      tags:
+      - primary:1960-05-20
+      - name:kennedy-john-f
+      - name:rockefeller-nelson
+      - name:nixon-richard-m
+      - name:morse-wayne
+- add:
+    entry:
+      id: cal.1960-05-24.elections-1960
+      when: May 24
+      date: '1960-05-24'
+      thread: elections-1960
+      c: 'Florida primary. Republican: Nixon, unopposed. Democratic: Smathers, unopposed.'
+      n: 'CQ Guide 6th (2010) 405. See [[cal.1960-03-08.elections-1960]]. Names: Smathers (K–J Cong. III.A); Nixon (Opp. III.E).'
+      tags:
+      - primary:1960-05-24
+      - name:smathers-george-a
+      - name:nixon-richard-m
+- add:
+    entry:
+      id: cal.1960-06-07.elections-1960
+      when: June 7
+      date: '1960-06-07'
+      thread: elections-1960
+      c: 'Primaries in California and South Dakota. Republican: Nixon in California; unpledged delegates in South Dakota. Democratic: Brown in California; Humphrey in South Dakota.'
+      n: 'CQ Guide 6th (2010) 405. See [[cal.1960-03-08.elections-1960]]. Names: Humphrey (K–J Adm. III.D); Nixon (Opp. III.E).'
+      tags:
+      - primary:1960-06-07
+      - name:brown-edmund-g
+      - name:humphrey-hubert-h
+      - name:nixon-richard-m
+- add:
+    entry:
+      id: cal.1960-07-11.elections-1960
+      when: July 11
+      date: '1960-07-11'
+      thread: elections-1960
+      c: 'Democratic National Convention opens, Los Angeles, at the Memorial Sports Arena. The party''s primaries: map and returns below.'
+      n: CQ Guide 6th (2010) 404–405. See [[cal.1960-03-08.elections-1960]].
+      tags:
+      - primaries:1960-D
+- add:
+    entry:
+      id: cal.1960-07-25.elections-1960
+      when: July 25
+      date: '1960-07-25'
+      thread: elections-1960
+      c: 'Republican National Convention opens, Chicago, at the International Amphitheatre. The party''s primaries: map and returns below.'
+      n: CQ Guide 6th (2010) 404–405. See [[cal.1960-03-08.elections-1960]].
+      tags:
+      - primaries:1960-R
+- add:
+    entry:
+      id: cal.1964-03-10.elections-1964
+      when: Mar. 10
+      date: '1964-03-10'
+      thread: elections-1964
+      c: 'New Hampshire primary. Republican: Lodge (write-in) 35.5 percent, Goldwater 22.3. Democratic: Johnson (write-in) 95.3 percent, Kennedy (write-in) 1.6.'
+      n: 'CQ Guide 6th (2010) 406. White, *The Making of the President 1964* (Opp. II.E). Perlstein, *Before the Storm* (Opp. II.B). Names: Lodge (K–J Adm. III.E); Johnson (K–J Adm. III.D); Kennedy (K–J Adm. III.A).'
+      tags:
+      - primary:1964-03-10
+      - name:lodge-henry-cabot
+      - name:johnson-lyndon-b
+      - name:kennedy-robert-f
+- add:
+    entry:
+      id: cal.1964-04-07.elections-1964
+      when: Apr. 7
+      date: '1964-04-07'
+      thread: elections-1964
+      c: 'Wisconsin primary. Republican: Byrnes 99.7 percent, unpledged delegates 0.3. Democratic: Reynolds 66.2 percent, Wallace 33.8.'
+      n: 'CQ Guide 6th (2010) 406. See [[cal.1964-03-10.elections-1964]]. Names: Wallace (K–J Cong. III.F); Byrnes (Opp. III.C).'
+      tags:
+      - primary:1964-04-07
+      - name:wallace-george-c
+      - name:byrnes-john-w
+- add:
+    entry:
+      id: cal.1964-04-14.elections-1964
+      when: Apr. 14
+      date: '1964-04-14'
+      thread: elections-1964
+      c: 'Illinois primary. Republican: Goldwater 62.0 percent, Smith 25.3. Democratic: Johnson (write-in) 91.6 percent, Wallace (write-in) 4.2.'
+      n: 'CQ Guide 6th (2010) 406. See [[cal.1964-03-10.elections-1964]]. Names: Wallace (K–J Cong. III.F); Johnson (K–J Adm. III.D); Smith (Opp. III.A).'
+      tags:
+      - primary:1964-04-14
+      - name:wallace-george-c
+      - name:johnson-lyndon-b
+      - name:smith-margaret-chase
+- add:
+    entry:
+      id: cal.1964-04-21.elections-1964
+      when: Apr. 21
+      date: '1964-04-21'
+      thread: elections-1964
+      c: 'New Jersey primary. Republican: Lodge (write-in) 41.7 percent, Goldwater (write-in) 28.0. Democratic: Johnson (write-in) 82.3 percent, Wallace (write-in) 8.3.'
+      n: 'CQ Guide 6th (2010) 406. See [[cal.1964-03-10.elections-1964]]. Names: Wallace (K–J Cong. III.F); Lodge (K–J Adm. III.E); Johnson (K–J Adm. III.D).'
+      tags:
+      - primary:1964-04-21
+      - name:wallace-george-c
+      - name:lodge-henry-cabot
+      - name:johnson-lyndon-b
+- add:
+    entry:
+      id: cal.1964-04-28.elections-1964
+      when: Apr. 28
+      date: '1964-04-28'
+      thread: elections-1964
+      c: 'Primaries in Massachusetts and Pennsylvania. Republican: Lodge (write-in) in Massachusetts; Scranton (write-in) in Pennsylvania. Democratic: Johnson (write-in) in Massachusetts and Pennsylvania.'
+      n: 'CQ Guide 6th (2010) 406. See [[cal.1964-03-10.elections-1964]]. Names: Lodge (K–J Adm. III.E); Johnson (K–J Adm. III.D); Scranton (Opp. III.H).'
+      tags:
+      - primary:1964-04-28
+      - name:lodge-henry-cabot
+      - name:johnson-lyndon-b
+      - name:scranton-william-w
+- add:
+    entry:
+      id: cal.1964-05-02.elections-1964
+      when: May 2
+      date: '1964-05-02'
+      thread: elections-1964
+      c: 'Texas primary. Republican: Goldwater 74.7 percent, Lodge (write-in) 8.8.'
+      n: 'CQ Guide 6th (2010) 407. See [[cal.1964-03-10.elections-1964]]. Names: Lodge (K–J Adm. III.E).'
+      tags:
+      - primary:1964-05-02
+      - name:lodge-henry-cabot
+- add:
+    entry:
+      id: cal.1964-05-05.elections-1964
+      when: May 5
+      date: '1964-05-05'
+      thread: elections-1964
+      c: 'Primaries in the District of Columbia, Indiana and Ohio. Republican: Goldwater in Indiana; Rhodes in Ohio. Democratic: unpledged delegates in the District; Welsh in Indiana; Porter in Ohio.'
+      n: 'CQ Guide 6th (2010) 407. See [[cal.1964-03-10.elections-1964]]. Names: Rhodes (Opp. III.H).'
+      tags:
+      - primary:1964-05-05
+      - name:rhodes-james-a
+- add:
+    entry:
+      id: cal.1964-05-12.elections-1964
+      when: May 12
+      date: '1964-05-12'
+      thread: elections-1964
+      c: 'Primaries in Nebraska and West Virginia. Republican: Goldwater in Nebraska; Rockefeller in West Virginia. Democratic: Johnson (write-in) in Nebraska; unpledged delegates in West Virginia.'
+      n: 'CQ Guide 6th (2010) 407. See [[cal.1964-03-10.elections-1964]]. Names: Johnson (K–J Adm. III.D); Rockefeller (1968 III.M).'
+      tags:
+      - primary:1964-05-12
+      - name:johnson-lyndon-b
+      - name:rockefeller-nelson
+- add:
+    entry:
+      id: cal.1964-05-15.elections-1964
+      when: May 15
+      date: '1964-05-15'
+      thread: elections-1964
+      c: 'Oregon primary. Republican: Rockefeller 33.0 percent, Lodge 27.7. Democratic: Johnson 99.5 percent, Wallace (write-in) 0.5.'
+      n: 'CQ Guide 6th (2010) 407. See [[cal.1964-03-10.elections-1964]]. Names: Wallace (K–J Cong. III.F); Lodge (K–J Adm. III.E); Johnson (K–J Adm. III.D); Rockefeller (1968 III.M).'
+      tags:
+      - primary:1964-05-15
+      - name:wallace-george-c
+      - name:lodge-henry-cabot
+      - name:johnson-lyndon-b
+      - name:rockefeller-nelson
+- add:
+    entry:
+      id: cal.1964-05-19.elections-1964
+      when: May 19
+      date: '1964-05-19'
+      thread: elections-1964
+      c: 'Maryland primary. Republican: unpledged delegates 58.2 percent, others 41.8. Democratic: Brewster 53.1 percent, Wallace 42.7.'
+      n: 'CQ Guide 6th (2010) 407. See [[cal.1964-03-10.elections-1964]]. Names: Wallace (K–J Cong. III.F).'
+      tags:
+      - primary:1964-05-19
+      - name:brewster-daniel-b
+      - name:wallace-george-c
+- add:
+    entry:
+      id: cal.1964-05-26.elections-1964
+      when: May 26
+      date: '1964-05-26'
+      thread: elections-1964
+      c: 'Florida primary. Republican: unpledged delegates 57.8 percent, Goldwater 42.2. Democratic: Johnson, unopposed.'
+      n: 'CQ Guide 6th (2010) 407. See [[cal.1964-03-10.elections-1964]]. Names: Johnson (K–J Adm. III.D).'
+      tags:
+      - primary:1964-05-26
+      - name:johnson-lyndon-b
+- add:
+    entry:
+      id: cal.1964-06-02.elections-1964
+      when: June 2
+      date: '1964-06-02'
+      thread: elections-1964
+      c: 'Primaries in California and South Dakota. Republican: Goldwater in California; unpledged delegates in South Dakota. Democratic: unpledged delegates in California and South Dakota.'
+      n: CQ Guide 6th (2010) 407–408. See [[cal.1964-03-10.elections-1964]].
+      tags:
+      - primary:1964-06-02
+- add:
+    entry:
+      id: cal.1964-07-13.elections-1964
+      when: July 13
+      date: '1964-07-13'
+      thread: elections-1964
+      c: 'Republican National Convention opens, the Cow Palace, outside San Francisco. The party''s primaries: map and returns below.'
+      n: CQ Guide 6th (2010) 406–408. See [[cal.1964-03-10.elections-1964]].
+      tags:
+      - primaries:1964-R
+- add:
+    entry:
+      id: cal.1964-08-24.elections-1964
+      when: Aug. 24
+      date: '1964-08-24'
+      thread: elections-1964
+      c: 'Democratic National Convention opens, Atlantic City, at Convention Hall. The party''s primaries: map and returns below.'
+      n: CQ Guide 6th (2010) 406–408. See [[cal.1964-03-10.elections-1964]].
+      tags:
+      - primaries:1964-D
+- add:
+    entry:
+      id: cal.1968-03-12.elections-1968
+      when: Mar. 12
+      date: '1968-03-12'
+      thread: elections-1968
+      c: 'New Hampshire primary. Republican: Nixon 77.6 percent, Rockefeller (write-in) 10.8. Democratic: Johnson (write-in) 49.6 percent, McCarthy 41.9.'
+      n: 'CQ Guide 6th (2010) 409. Chester, Hodgson & Page, *An American Melodrama* (1968 II.A). White, *The Making of the President 1968* (Opp. II.E). Names: McCarthy (K–J Cong. III.B); Johnson (K–J Adm. III.D); Rockefeller (1968 III.M); Nixon (Opp. III.E).'
+      tags:
+      - primary:1968-03-12
+      - name:mccarthy-eugene-j
+      - name:johnson-lyndon-b
+      - name:rockefeller-nelson
+      - name:nixon-richard-m
+- add:
+    entry:
+      id: cal.1968-04-02.elections-1968
+      when: Apr. 2
+      date: '1968-04-02'
+      thread: elections-1968
+      c: 'Wisconsin primary. Republican: Nixon 79.7 percent, Reagan 10.4. Democratic: McCarthy 56.2 percent, Johnson 34.6.'
+      n: 'CQ Guide 6th (2010) 409. See [[cal.1968-03-12.elections-1968]]. Names: McCarthy (K–J Cong. III.B); Johnson (K–J Adm. III.D); Nixon (Opp. III.E); Reagan (Opp. III.F).'
+      tags:
+      - primary:1968-04-02
+      - name:mccarthy-eugene-j
+      - name:johnson-lyndon-b
+      - name:nixon-richard-m
+      - name:reagan-ronald
+- add:
+    entry:
+      id: cal.1968-04-23.elections-1968
+      when: Apr. 23
+      date: '1968-04-23'
+      thread: elections-1968
+      c: 'Pennsylvania primary. Republican: Nixon (write-in) 59.7 percent, Rockefeller (write-in) 18.4. Democratic: McCarthy 71.7 percent, Kennedy (write-in) 11.0.'
+      n: 'CQ Guide 6th (2010) 409. See [[cal.1968-03-12.elections-1968]]. Names: McCarthy (K–J Cong. III.B); Rockefeller (1968 III.M); Nixon (Opp. III.E); Kennedy (K–J Adm. III.A).'
+      tags:
+      - primary:1968-04-23
+      - name:mccarthy-eugene-j
+      - name:rockefeller-nelson
+      - name:nixon-richard-m
+      - name:kennedy-robert-f
+- add:
+    entry:
+      id: cal.1968-04-30.elections-1968
+      when: Apr. 30
+      date: '1968-04-30'
+      thread: elections-1968
+      c: 'Massachusetts primary. Republican: Rockefeller (write-in) 30.0 percent, Volpe 29.5. Democratic: McCarthy 49.3 percent, Kennedy (write-in) 27.6.'
+      n: 'CQ Guide 6th (2010) 409. See [[cal.1968-03-12.elections-1968]]. Names: McCarthy (K–J Cong. III.B); Volpe (Opp. III.H); Rockefeller (1968 III.M); Kennedy (K–J Adm. III.A).'
+      tags:
+      - primary:1968-04-30
+      - name:mccarthy-eugene-j
+      - name:volpe-john-a
+      - name:rockefeller-nelson
+      - name:kennedy-robert-f
+- add:
+    entry:
+      id: cal.1968-05-07.elections-1968
+      when: May 7
+      date: '1968-05-07'
+      thread: elections-1968
+      c: 'Primaries in the District of Columbia, Indiana and Ohio. Republican: Nixon-Rockefeller in the District; Nixon in Indiana; Rhodes in Ohio. Democratic: Kennedy in the District and Indiana; Young in Ohio.'
+      n: 'CQ Guide 6th (2010) 409. See [[cal.1968-03-12.elections-1968]]. Names: Rhodes (Opp. III.H); Nixon (Opp. III.E); Kennedy (K–J Adm. III.A).'
+      tags:
+      - primary:1968-05-07
+      - name:rhodes-james-a
+      - name:nixon-richard-m
+      - name:kennedy-robert-f
+      - name:young-stephen-m
+- add:
+    entry:
+      id: cal.1968-05-14.elections-1968
+      when: May 14
+      date: '1968-05-14'
+      thread: elections-1968
+      c: 'Primaries in Nebraska and West Virginia. Republican: Nixon in Nebraska; unpledged delegates in West Virginia. Democratic: Kennedy in Nebraska; unpledged delegates in West Virginia.'
+      n: 'CQ Guide 6th (2010) 410. See [[cal.1968-03-12.elections-1968]]. Names: Nixon (Opp. III.E); Kennedy (K–J Adm. III.A).'
+      tags:
+      - primary:1968-05-14
+      - name:nixon-richard-m
+      - name:kennedy-robert-f
+- add:
+    entry:
+      id: cal.1968-05-28.elections-1968
+      when: May 28
+      date: '1968-05-28'
+      thread: elections-1968
+      c: 'Primaries in Florida and Oregon. Republican: unpledged delegates in Florida; Nixon in Oregon. Democratic: Smathers in Florida; McCarthy in Oregon.'
+      n: 'CQ Guide 6th (2010) 410. See [[cal.1968-03-12.elections-1968]]. Names: McCarthy (K–J Cong. III.B); Smathers (K–J Cong. III.A); Nixon (Opp. III.E).'
+      tags:
+      - primary:1968-05-28
+      - name:mccarthy-eugene-j
+      - name:smathers-george-a
+      - name:nixon-richard-m
+- add:
+    entry:
+      id: cal.1968-06-04.elections-1968
+      when: June 4
+      date: '1968-06-04'
+      thread: elections-1968
+      c: 'Primaries in California, New Jersey and South Dakota. Republican: Reagan in California; Nixon (write-in) in New Jersey; Nixon in South Dakota. Democratic: Kennedy in California and South Dakota; McCarthy (write-in) in New Jersey.'
+      n: 'CQ Guide 6th (2010) 410. See [[cal.1968-03-12.elections-1968]]. Names: McCarthy (K–J Cong. III.B); Nixon (Opp. III.E); Kennedy (K–J Adm. III.A); Reagan (Opp. III.F).'
+      tags:
+      - primary:1968-06-04
+      - name:mccarthy-eugene-j
+      - name:nixon-richard-m
+      - name:kennedy-robert-f
+      - name:reagan-ronald
+- add:
+    entry:
+      id: cal.1968-06-11.elections-1968
+      when: June 11
+      date: '1968-06-11'
+      thread: elections-1968
+      c: 'Illinois primary. Republican: Nixon (write-in) 78.1 percent, Rockefeller (write-in) 9.7. Democratic: McCarthy (write-in) 38.6 percent, Kennedy (write-in) 33.7.'
+      n: 'CQ Guide 6th (2010) 410. See [[cal.1968-03-12.elections-1968]]. Names: Kennedy, McCarthy (K–J Cong. III.B); Rockefeller (1968 III.M); Nixon (Opp. III.E).'
+      tags:
+      - primary:1968-06-11
+      - name:kennedy-edward-m
+      - name:mccarthy-eugene-j
+      - name:rockefeller-nelson
+      - name:nixon-richard-m
+- add:
+    entry:
+      id: cal.1968-08-05.elections-1968
+      when: Aug. 5
+      date: '1968-08-05'
+      thread: elections-1968
+      c: 'Republican National Convention opens, Miami Beach, at Convention Hall. The party''s primaries: map and returns below.'
+      n: CQ Guide 6th (2010) 409–411. See [[cal.1968-03-12.elections-1968]].
+      tags:
+      - primaries:1968-R
+- add:
+    entry:
+      id: cal.1968-08-26.elections-1968
+      when: Aug. 26
+      date: '1968-08-26'
+      thread: elections-1968
+      c: 'Democratic National Convention opens, Chicago, at the International Amphitheatre. The party''s primaries: map and returns below.'
+      n: CQ Guide 6th (2010) 409–411. See [[cal.1968-03-12.elections-1968]].
+      tags:
+      - primaries:1968-D
+- add:
+    entry:
+      id: cal.1972-03-07.elections-1972
+      when: Mar. 7
+      date: '1972-03-07'
+      thread: elections-1972
+      c: 'New Hampshire primary. Republican: Nixon 67.6 percent, McCloskey 19.8. Democratic: Muskie 46.4 percent, McGovern 37.1.'
+      n: 'CQ Guide 6th (2010) 412. White, *The Making of the President 1972*; Crouse, *The Boys on the Bus* (Cong. II.D). Shafer, *Quiet Revolution* (Cong. II.A). Names: Muskie, McGovern (K–J Cong. III.B); McCloskey (Cong. III.F); Nixon (Opp. III.E).'
+      tags:
+      - primary:1972-03-07
+      - name:muskie-edmund-s
+      - name:mcgovern-george
+      - name:mccloskey-paul-n-jr
+      - name:nixon-richard-m
+- add:
+    entry:
+      id: cal.1972-03-14.elections-1972
+      when: Mar. 14
+      date: '1972-03-14'
+      thread: elections-1972
+      c: 'Florida primary. Republican: Nixon 87.0 percent, Ashbrook 8.8. Democratic: Wallace 41.6 percent, Humphrey 18.6.'
+      n: 'CQ Guide 6th (2010) 412. See [[cal.1972-03-07.elections-1972]]. Names: Wallace (K–J Cong. III.F); Humphrey (K–J Adm. III.D); Ashbrook (Opp. III.D); Nixon (Opp. III.E).'
+      tags:
+      - primary:1972-03-14
+      - name:wallace-george-c
+      - name:humphrey-hubert-h
+      - name:ashbrook-john-m
+      - name:nixon-richard-m
+- add:
+    entry:
+      id: cal.1972-03-21.elections-1972
+      when: Mar. 21
+      date: '1972-03-21'
+      thread: elections-1972
+      c: 'Illinois primary. Republican: Nixon (write-in) 97.0 percent, others (write-in) 2.4. Democratic: Muskie 62.6 percent, McCarthy 36.3.'
+      n: 'CQ Guide 6th (2010) 412. See [[cal.1972-03-07.elections-1972]]. Names: Muskie, McCarthy (K–J Cong. III.B); Nixon (Opp. III.E).'
+      tags:
+      - primary:1972-03-21
+      - name:muskie-edmund-s
+      - name:mccarthy-eugene-j
+      - name:nixon-richard-m
+- add:
+    entry:
+      id: cal.1972-04-04.elections-1972
+      when: Apr. 4
+      date: '1972-04-04'
+      thread: elections-1972
+      c: 'Wisconsin primary. Republican: Nixon 96.9 percent, McCloskey 1.3. Democratic: McGovern 29.6 percent, Wallace 22.0.'
+      n: 'CQ Guide 6th (2010) 412. See [[cal.1972-03-07.elections-1972]]. Names: Wallace (K–J Cong. III.F); McGovern (K–J Cong. III.B); McCloskey (Cong. III.F); Nixon (Opp. III.E).'
+      tags:
+      - primary:1972-04-04
+      - name:wallace-george-c
+      - name:mcgovern-george
+      - name:mccloskey-paul-n-jr
+      - name:nixon-richard-m
+- add:
+    entry:
+      id: cal.1972-04-25.elections-1972
+      when: Apr. 25
+      date: '1972-04-25'
+      thread: elections-1972
+      c: 'Primaries in Massachusetts and Pennsylvania. Republican: Nixon in Massachusetts; Nixon (write-in) in Pennsylvania. Democratic: McGovern in Massachusetts; Humphrey in Pennsylvania.'
+      n: 'CQ Guide 6th (2010) 413. See [[cal.1972-03-07.elections-1972]]. Names: McGovern (K–J Cong. III.B); Humphrey (K–J Adm. III.D); Nixon (Opp. III.E).'
+      tags:
+      - primary:1972-04-25
+      - name:mcgovern-george
+      - name:humphrey-hubert-h
+      - name:nixon-richard-m
+- add:
+    entry:
+      id: cal.1972-05-02.elections-1972
+      when: May 2
+      date: '1972-05-02'
+      thread: elections-1972
+      c: 'Primaries in the District of Columbia, Indiana and Ohio. Republican: Nixon in Indiana and Ohio. Democratic: Fauntroy in the District; Humphrey in Indiana and Ohio.'
+      n: 'CQ Guide 6th (2010) 413. See [[cal.1972-03-07.elections-1972]]. Names: Humphrey (K–J Adm. III.D); Nixon (Opp. III.E).'
+      tags:
+      - primary:1972-05-02
+      - name:humphrey-hubert-h
+      - name:nixon-richard-m
+- add:
+    entry:
+      id: cal.1972-05-04.elections-1972
+      when: May 4
+      date: '1972-05-04'
+      thread: elections-1972
+      c: 'Tennessee primary. Republican: Nixon 95.8 percent, Ashbrook 2.1. Democratic: Wallace 68.2 percent, Humphrey 15.9.'
+      n: 'CQ Guide 6th (2010) 413. See [[cal.1972-03-07.elections-1972]]. Names: Wallace (K–J Cong. III.F); Humphrey (K–J Adm. III.D); Ashbrook (Opp. III.D); Nixon (Opp. III.E).'
+      tags:
+      - primary:1972-05-04
+      - name:wallace-george-c
+      - name:humphrey-hubert-h
+      - name:ashbrook-john-m
+      - name:nixon-richard-m
+- add:
+    entry:
+      id: cal.1972-05-06.elections-1972
+      when: May 6
+      date: '1972-05-06'
+      thread: elections-1972
+      c: 'North Carolina primary. Republican: Nixon 94.8 percent, McCloskey 5.2. Democratic: Wallace 50.3 percent, Sanford 37.3.'
+      n: 'CQ Guide 6th (2010) 414. See [[cal.1972-03-07.elections-1972]]. Names: Wallace, Sanford (K–J Cong. III.F); McCloskey (Cong. III.F); Nixon (Opp. III.E).'
+      tags:
+      - primary:1972-05-06
+      - name:wallace-george-c
+      - name:mccloskey-paul-n-jr
+      - name:nixon-richard-m
+      - name:sanford-terry
+- add:
+    entry:
+      id: cal.1972-05-09.elections-1972
+      when: May 9
+      date: '1972-05-09'
+      thread: elections-1972
+      c: 'Primaries in Nebraska and West Virginia. Republican: Nixon in Nebraska; unpledged delegates in West Virginia. Democratic: McGovern in Nebraska; Humphrey in West Virginia.'
+      n: 'CQ Guide 6th (2010) 414. See [[cal.1972-03-07.elections-1972]]. Names: McGovern (K–J Cong. III.B); Humphrey (K–J Adm. III.D); Nixon (Opp. III.E).'
+      tags:
+      - primary:1972-05-09
+      - name:mcgovern-george
+      - name:humphrey-hubert-h
+      - name:nixon-richard-m
+- add:
+    entry:
+      id: cal.1972-05-16.elections-1972
+      when: May 16
+      date: '1972-05-16'
+      thread: elections-1972
+      c: 'Primaries in Maryland and Michigan. Republican: Nixon in Maryland and Michigan. Democratic: Wallace in Maryland and Michigan.'
+      n: 'CQ Guide 6th (2010) 414. See [[cal.1972-03-07.elections-1972]]. Names: Wallace (K–J Cong. III.F); Nixon (Opp. III.E).'
+      tags:
+      - primary:1972-05-16
+      - name:wallace-george-c
+      - name:nixon-richard-m
+- add:
+    entry:
+      id: cal.1972-05-23.elections-1972
+      when: May 23
+      date: '1972-05-23'
+      thread: elections-1972
+      c: 'Primaries in Oregon and Rhode Island. Republican: Nixon in Oregon and Rhode Island. Democratic: McGovern in Oregon and Rhode Island.'
+      n: 'CQ Guide 6th (2010) 414–415. See [[cal.1972-03-07.elections-1972]]. Names: McGovern (K–J Cong. III.B); Nixon (Opp. III.E).'
+      tags:
+      - primary:1972-05-23
+      - name:mcgovern-george
+      - name:nixon-richard-m
+- add:
+    entry:
+      id: cal.1972-06-06.elections-1972
+      when: June 6
+      date: '1972-06-06'
+      thread: elections-1972
+      c: 'Primaries in California, New Jersey, New Mexico and South Dakota. Republican: Nixon in California, New Mexico and South Dakota; unpledged delegates in New Jersey. Democratic: McGovern in California, New Mexico and South Dakota; Chisholm in New
+        Jersey.'
+      n: 'CQ Guide 6th (2010) 415. See [[cal.1972-03-07.elections-1972]]. Names: McGovern (K–J Cong. III.B); Nixon (Opp. III.E); Chisholm (Cong. III.E).'
+      tags:
+      - primary:1972-06-06
+      - name:mcgovern-george
+      - name:nixon-richard-m
+      - name:chisholm-shirley
+- add:
+    entry:
+      id: cal.1972-07-10.elections-1972
+      when: July 10
+      date: '1972-07-10'
+      thread: elections-1972
+      c: 'Democratic National Convention opens, Miami Beach, at Convention Hall. The party''s primaries: map and returns below.'
+      n: CQ Guide 6th (2010) 412–416. See [[cal.1972-03-07.elections-1972]].
+      tags:
+      - primaries:1972-D
+- add:
+    entry:
+      id: cal.1972-08-21.elections-1972
+      when: Aug. 21
+      date: '1972-08-21'
+      thread: elections-1972
+      c: 'Republican National Convention opens, Miami Beach, at Convention Hall. The party''s primaries: map and returns below.'
+      n: CQ Guide 6th (2010) 412–416. See [[cal.1972-03-07.elections-1972]].
+      tags:
+      - primaries:1972-R
+- add:
+    entry:
+      id: cal.1976-02-24.elections-1976
+      when: Feb. 24
+      date: '1976-02-24'
+      thread: elections-1976
+      c: 'New Hampshire primary. Republican: Ford 49.4 percent, Reagan 48.0. Democratic: Carter 28.4 percent, Udall 22.7.'
+      n: 'CQ Guide 6th (2010) 417. Jules Witcover, *Marathon: The Pursuit of the Presidency, 1972–1976* (1977). Names: Ford (K–J Cong. III.C); Carter (Cong. III.H); Udall (K–J Cong. III.D); Reagan (Opp. III.F).'
+      tags:
+      - primary:1976-02-24
+      - name:ford-gerald-r
+      - name:carter-jimmy
+      - name:udall-morris-k
+      - name:reagan-ronald
+- add:
+    entry:
+      id: cal.1976-03-02.elections-1976
+      when: Mar. 2
+      date: '1976-03-02'
+      thread: elections-1976
+      c: 'Primaries in Massachusetts and Vermont. Republican: Ford in Massachusetts and Vermont. Democratic: Jackson in Massachusetts; Carter in Vermont.'
+      n: 'CQ Guide 6th (2010) 417. See [[cal.1976-02-24.elections-1976]]. Names: Ford (K–J Cong. III.C); Jackson (K–J Cong. III.B); Carter (Cong. III.H).'
+      tags:
+      - primary:1976-03-02
+      - name:ford-gerald-r
+      - name:jackson-henry-m
+      - name:carter-jimmy
+- add:
+    entry:
+      id: cal.1976-03-09.elections-1976
+      when: Mar. 9
+      date: '1976-03-09'
+      thread: elections-1976
+      c: 'Florida primary. Republican: Ford 52.8 percent, Reagan 47.2. Democratic: Carter 34.5 percent, Wallace 30.5.'
+      n: 'CQ Guide 6th (2010) 417. See [[cal.1976-02-24.elections-1976]]. Names: Wallace (K–J Cong. III.F); Ford (K–J Cong. III.C); Carter (Cong. III.H); Reagan (Opp. III.F).'
+      tags:
+      - primary:1976-03-09
+      - name:wallace-george-c
+      - name:ford-gerald-r
+      - name:carter-jimmy
+      - name:reagan-ronald
+- add:
+    entry:
+      id: cal.1976-03-16.elections-1976
+      when: Mar. 16
+      date: '1976-03-16'
+      thread: elections-1976
+      c: 'Illinois primary. Republican: Ford 58.9 percent, Reagan 40.1. Democratic: Carter 48.1 percent, Wallace 27.6.'
+      n: 'CQ Guide 6th (2010) 417. See [[cal.1976-02-24.elections-1976]]. Names: Wallace (K–J Cong. III.F); Ford (K–J Cong. III.C); Carter (Cong. III.H); Reagan (Opp. III.F).'
+      tags:
+      - primary:1976-03-16
+      - name:wallace-george-c
+      - name:ford-gerald-r
+      - name:carter-jimmy
+      - name:reagan-ronald
+- add:
+    entry:
+      id: cal.1976-03-23.elections-1976
+      when: Mar. 23
+      date: '1976-03-23'
+      thread: elections-1976
+      c: 'North Carolina primary. Republican: Reagan 52.4 percent, Ford 45.9. Democratic: Carter 53.6 percent, Wallace 34.7.'
+      n: 'CQ Guide 6th (2010) 418. See [[cal.1976-02-24.elections-1976]]. Names: Wallace (K–J Cong. III.F); Ford (K–J Cong. III.C); Carter (Cong. III.H); Reagan (Opp. III.F).'
+      tags:
+      - primary:1976-03-23
+      - name:wallace-george-c
+      - name:ford-gerald-r
+      - name:carter-jimmy
+      - name:reagan-ronald
+- add:
+    entry:
+      id: cal.1976-04-06.elections-1976
+      when: Apr. 6
+      date: '1976-04-06'
+      thread: elections-1976
+      c: 'Wisconsin primary. Republican: Ford 55.2 percent, Reagan 44.3. Democratic: Carter 36.6 percent, Udall 35.6.'
+      n: 'CQ Guide 6th (2010) 418. See [[cal.1976-02-24.elections-1976]]. Names: Ford (K–J Cong. III.C); Carter (Cong. III.H); Udall (K–J Cong. III.D); Reagan (Opp. III.F).'
+      tags:
+      - primary:1976-04-06
+      - name:ford-gerald-r
+      - name:carter-jimmy
+      - name:udall-morris-k
+      - name:reagan-ronald
+- add:
+    entry:
+      id: cal.1976-04-27.elections-1976
+      when: Apr. 27
+      date: '1976-04-27'
+      thread: elections-1976
+      c: 'Pennsylvania primary. Republican: Ford 92.1 percent, Reagan (write-in) 5.1. Democratic: Carter 37.0 percent, Jackson 24.6.'
+      n: 'CQ Guide 6th (2010) 418. See [[cal.1976-02-24.elections-1976]]. Names: Ford (K–J Cong. III.C); Jackson (K–J Cong. III.B); Carter (Cong. III.H); Reagan (Opp. III.F).'
+      tags:
+      - primary:1976-04-27
+      - name:ford-gerald-r
+      - name:jackson-henry-m
+      - name:carter-jimmy
+      - name:reagan-ronald
+- add:
+    entry:
+      id: cal.1976-05-04.elections-1976
+      when: May 4
+      date: '1976-05-04'
+      thread: elections-1976
+      c: 'Primaries in the District of Columbia, Georgia and Indiana. Republican: Reagan in Georgia and Indiana. Democratic: Carter in the District, Georgia and Indiana.'
+      n: 'CQ Guide 6th (2010) 418–419. See [[cal.1976-02-24.elections-1976]]. Names: Carter (Cong. III.H); Reagan (Opp. III.F).'
+      tags:
+      - primary:1976-05-04
+      - name:carter-jimmy
+      - name:reagan-ronald
+- add:
+    entry:
+      id: cal.1976-05-11.elections-1976
+      when: May 11
+      date: '1976-05-11'
+      thread: elections-1976
+      c: 'Primaries in Nebraska and West Virginia. Republican: Reagan in Nebraska; Ford in West Virginia. Democratic: Church in Nebraska; Byrd in West Virginia.'
+      n: 'CQ Guide 6th (2010) 419. See [[cal.1976-02-24.elections-1976]]. Names: Church (K–J Cong. III.B); Ford (K–J Cong. III.C); Byrd (Cong. III.A); Reagan (Opp. III.F).'
+      tags:
+      - primary:1976-05-11
+      - name:church-frank
+      - name:ford-gerald-r
+      - name:byrd-robert-c
+      - name:reagan-ronald
+- add:
+    entry:
+      id: cal.1976-05-18.elections-1976
+      when: May 18
+      date: '1976-05-18'
+      thread: elections-1976
+      c: 'Primaries in Maryland and Michigan. Republican: Ford in Maryland and Michigan. Democratic: Brown in Maryland; Carter in Michigan.'
+      n: 'CQ Guide 6th (2010) 419. See [[cal.1976-02-24.elections-1976]]. Names: Ford (K–J Cong. III.C); Carter (Cong. III.H).'
+      tags:
+      - primary:1976-05-18
+      - name:brown-edmund-g
+      - name:ford-gerald-r
+      - name:carter-jimmy
+- add:
+    entry:
+      id: cal.1976-05-25.elections-1976
+      when: May 25
+      date: '1976-05-25'
+      thread: elections-1976
+      c: 'Primaries in Arkansas, Idaho, Kentucky, Nevada, Oregon and Tennessee. Republican: Reagan in Arkansas, Idaho and Nevada; Ford in Kentucky, Oregon and Tennessee. Democratic: Carter in Arkansas, Kentucky and Tennessee; Church in Idaho and Oregon;
+        Brown in Nevada.'
+      n: 'CQ Guide 6th (2010) 419–420. See [[cal.1976-02-24.elections-1976]]. Names: Church (K–J Cong. III.B); Ford (K–J Cong. III.C); Carter (Cong. III.H); Reagan (Opp. III.F).'
+      tags:
+      - primary:1976-05-25
+      - name:brown-edmund-g
+      - name:church-frank
+      - name:ford-gerald-r
+      - name:carter-jimmy
+      - name:reagan-ronald
+- add:
+    entry:
+      id: cal.1976-06-01.elections-1976
+      when: June 1
+      date: '1976-06-01'
+      thread: elections-1976
+      c: 'Primaries in Montana, Rhode Island and South Dakota. Republican: Reagan in Montana and South Dakota; Ford in Rhode Island. Democratic: Church in Montana; unpledged delegates in Rhode Island; Carter in South Dakota.'
+      n: 'CQ Guide 6th (2010) 421. See [[cal.1976-02-24.elections-1976]]. Names: Church (K–J Cong. III.B); Ford (K–J Cong. III.C); Carter (Cong. III.H); Reagan (Opp. III.F).'
+      tags:
+      - primary:1976-06-01
+      - name:church-frank
+      - name:ford-gerald-r
+      - name:carter-jimmy
+      - name:reagan-ronald
+- add:
+    entry:
+      id: cal.1976-06-08.elections-1976
+      when: June 8
+      date: '1976-06-08'
+      thread: elections-1976
+      c: 'Primaries in California, New Jersey and Ohio. Republican: Reagan in California; Ford in New Jersey and Ohio. Democratic: Brown in California; Carter in New Jersey and Ohio.'
+      n: 'CQ Guide 6th (2010) 421–422. See [[cal.1976-02-24.elections-1976]]. Names: Ford (K–J Cong. III.C); Carter (Cong. III.H); Reagan (Opp. III.F).'
+      tags:
+      - primary:1976-06-08
+      - name:brown-edmund-g
+      - name:ford-gerald-r
+      - name:carter-jimmy
+      - name:reagan-ronald
+- add:
+    entry:
+      id: cal.1976-07-12.elections-1976
+      when: July 12
+      date: '1976-07-12'
+      thread: elections-1976
+      c: 'Democratic National Convention opens, New York, at Madison Square Garden. The party''s primaries: map and returns below.'
+      n: CQ Guide 6th (2010) 417–422. See [[cal.1976-02-24.elections-1976]].
+      tags:
+      - primaries:1976-D
+- add:
+    entry:
+      id: cal.1976-08-16.elections-1976
+      when: Aug. 16
+      date: '1976-08-16'
+      thread: elections-1976
+      c: 'Republican National Convention opens, Kansas City, at Kemper Arena. The party''s primaries: map and returns below.'
+      n: CQ Guide 6th (2010) 417–422. See [[cal.1976-02-24.elections-1976]].
+      tags:
+      - primaries:1976-R

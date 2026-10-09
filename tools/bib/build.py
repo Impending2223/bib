@@ -11,7 +11,7 @@ import json
 import os
 import re
 
-from . import daybook, specials, store
+from . import daybook, primaries, specials, store
 from .markup import to_html, plain, italics, ITAL_RE, REF_RE
 from .refs import Refs, split_protected
 
@@ -710,6 +710,7 @@ def run(series, which=None):
             page = congress.inject(page, series, linker, "list")
             page = executive.inject(page, series, linker, "list")
             page = specials.inject(page, series)
+            page = primaries.inject(page, series)
             page = indicators.inject(page, series, "list")
             page = daybook.inject(page)
         with open(path, "w", encoding="utf-8") as f:
@@ -720,6 +721,7 @@ def run(series, which=None):
         page = congress.inject(page, series, linker, "series")
         page = executive.inject(page, series, linker, "series")
         page = specials.inject(page, series)
+        page = primaries.inject(page, series)
         page = indicators.inject(page, series, "series")
         page = daybook.inject(page)
         path = os.path.join(OUT, "series.html")

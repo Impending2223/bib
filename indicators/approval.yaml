@@ -3,49 +3,327 @@ id: approval
 name: Approval
 kind: poll
 freq: poll
-then: {label: 'Gallup: "Do you approve or disapprove of the way [the President] is handling his job as President?"', source: 'American Presidency Project, Presidential Job Approval (Gallup, compiled by
-    Gerhard Peters)', url: 'https://www.presidency.ucsb.edu/statistics/data/presidential-job-approval'}
+then: {label: 'Gallup: "Do you approve or disapprove of the way [the President] is handling his job as President?"', source: 'The Gallup Poll: Public Opinion, 1935–1971, vol. III (1972), by page (sources/gallup-approval.yaml)'}
+now: {label: Gallup's series as compiled today, source: 'American Presidency Project, Presidential Job Approval (Gallup, compiled by Gerhard Peters)', url: 'https://www.presidency.ucsb.edu/statistics/data/presidential-job-approval'}
 rows:
-- {p: 1961-02, from: '1961-02-10', to: '1961-02-15', president: Kennedy, approve: 72, disapprove: 6, unsure: 22, dem: 85, ind: 67, rep: 52}
-- {p: 1961-03, from: '1961-03-10', to: '1961-03-15', president: Kennedy, approve: 73, disapprove: 7, unsure: 20, dem: 85, ind: 69, rep: 60}
-- {p: 1961-04, from: '1961-04-06', to: '1961-04-11', president: Kennedy, approve: 78, disapprove: 6, unsure: 16, dem: 89, ind: 75, rep: 63}
-- {p: 1961-05, from: '1961-04-28', to: '1961-05-03', president: Kennedy, approve: 83, disapprove: 5, unsure: 12, dem: 89, ind: 75, rep: 62}
-- {p: 1961-05, from: '1961-05-04', to: '1961-05-09', president: Kennedy, approve: 77, disapprove: 9, unsure: 14, dem: 89, ind: 75, rep: 60}
-- {p: 1961-05, from: '1961-05-17', to: '1961-05-22', president: Kennedy, approve: 75, disapprove: 10, unsure: 15, dem: 86, ind: 68, rep: 57}
-- {p: 1961-06, from: '1961-05-28', to: '1961-06-02', president: Kennedy, approve: 74, disapprove: 11, unsure: 15, dem: 87, ind: 68, rep: 55}
-- {p: 1961-06, from: '1961-06-23', to: '1961-06-28', president: Kennedy, approve: 72, disapprove: 14, unsure: 14, dem: 84, ind: 64, rep: 56}
-- {p: 1961-08, from: '1961-07-27', to: '1961-08-02', president: Kennedy, approve: 75, disapprove: 12, unsure: 13, dem: 86, ind: 70, rep: 60}
-- {p: 1961-08, from: '1961-08-24', to: '1961-08-29', president: Kennedy, approve: 76, disapprove: 12, unsure: 12, dem: 88, ind: 70, rep: 59}
-- {p: 1961-09, from: '1961-09-21', to: '1961-09-26', president: Kennedy, approve: 79, disapprove: 10, unsure: 11, dem: 87, ind: 78, rep: 61}
-- {p: 1961-10, from: '1961-10-19', to: '1961-10-24', president: Kennedy, approve: 77, disapprove: 12, unsure: 11, dem: 90, ind: 75, rep: 57}
-- {p: 1961-11, from: '1961-11-17', to: '1961-11-22', president: Kennedy, approve: 79, disapprove: 9, unsure: 12, dem: 89, ind: 73, rep: 64}
-- {p: 1961-12, from: '1961-12-07', to: '1961-12-12', president: Kennedy, approve: 77, disapprove: 11, unsure: 12, dem: 84, ind: 80, rep: 55}
-- {p: 1962-01, from: '1962-01-11', to: '1962-01-16', president: Kennedy, approve: 79, disapprove: 10, unsure: 11, dem: 91, ind: 74, rep: 59}
-- {p: 1962-02, from: '1962-02-08', to: '1962-02-13', president: Kennedy, approve: 78, disapprove: 11, unsure: 11, dem: 89, ind: 72, rep: 62}
-- {p: 1962-03, from: '1962-03-08', to: '1962-03-13', president: Kennedy, approve: 79, disapprove: 12, unsure: 9, dem: 89, ind: 78, rep: 67}
-- {p: 1962-04, from: '1962-04-06', to: '1962-04-11', president: Kennedy, approve: 77, disapprove: 13, unsure: 10, dem: 90, ind: 73, rep: 57}
-- {p: 1962-05, from: '1962-05-03', to: '1962-05-08', president: Kennedy, approve: 74, disapprove: 16, unsure: 10, dem: 86, ind: 73, rep: 53}
-- {p: 1962-06, from: '1962-05-31', to: '1962-06-05', president: Kennedy, approve: 71, disapprove: 19, unsure: 10, dem: 85, ind: 73, rep: 44}
-- {p: 1962-07, from: '1962-06-28', to: '1962-07-03', president: Kennedy, approve: 69, disapprove: 19, unsure: 12, dem: 84, ind: 64, rep: 44}
-- {p: 1962-07, from: '1962-07-26', to: '1962-07-31', president: Kennedy, approve: 66, disapprove: 23, unsure: 11, dem: 82, ind: 66, rep: 39}
-- {p: 1962-08, from: '1962-08-23', to: '1962-08-28', president: Kennedy, approve: 67, disapprove: 20, unsure: 13, dem: 84, ind: 60, rep: 42}
-- {p: 1962-09, from: '1962-09-20', to: '1962-09-25', president: Kennedy, approve: 63, disapprove: 22, unsure: 15, dem: 79, ind: 62, rep: 37}
-- {p: 1962-10, from: '1962-10-19', to: '1962-10-24', president: Kennedy, approve: 61, disapprove: 25, unsure: 14, dem: 78, ind: 61, rep: 35}
-- {p: 1962-11, from: '1962-11-16', to: '1962-11-21', president: Kennedy, approve: 74, disapprove: 14, unsure: 12, dem: 91, ind: 70, rep: 48}
-- {p: 1962-12, from: '1962-12-13', to: '1962-12-18', president: Kennedy, approve: 76, disapprove: 13, unsure: 11, dem: 92, ind: 71, rep: 55}
-- {p: 1963-01, from: '1963-01-11', to: '1963-01-16', president: Kennedy, approve: 74, disapprove: 14, unsure: 12, dem: 86, ind: 72, rep: 53}
-- {p: 1963-02, from: '1963-02-07', to: '1963-02-12', president: Kennedy, approve: 70, disapprove: 18, unsure: 12, dem: 85, ind: 67, rep: 47}
-- {p: 1963-03, from: '1963-03-08', to: '1963-03-12', president: Kennedy, approve: 67, disapprove: 20, unsure: 13, dem: 82, ind: 64, rep: 43}
-- {p: 1963-04, from: '1963-04-04', to: '1963-04-09', president: Kennedy, approve: 66, disapprove: 21, unsure: 13, dem: 84, ind: 57, rep: 41}
-- {p: 1963-05, from: '1963-05-02', to: '1963-05-07', president: Kennedy, approve: 64, disapprove: 25, unsure: 11, dem: 80, ind: 62, rep: 36}
-- {p: 1963-05, from: '1963-05-08', to: '1963-05-13', president: Kennedy, approve: 65, disapprove: 23, unsure: 12, dem: 81, ind: 65, rep: 39}
-- {p: 1963-05, from: '1963-05-23', to: '1963-05-28', president: Kennedy, approve: 64, disapprove: 24, unsure: 12, dem: 79, ind: 56, rep: 45}
-- {p: 1963-06, from: '1963-06-21', to: '1963-06-26', president: Kennedy, approve: 61, disapprove: 26, unsure: 13, dem: 74, ind: 56, rep: 41}
-- {p: 1963-07, from: '1963-07-18', to: '1963-07-23', president: Kennedy, approve: 61, disapprove: 27, unsure: 12, dem: 77, ind: 56, rep: 34}
-- {p: 1963-08, from: '1963-08-15', to: '1963-08-20', president: Kennedy, approve: 62, disapprove: 26, unsure: 12, dem: 76, ind: 54, rep: 45}
-- {p: 1963-09, from: '1963-09-12', to: '1963-09-17', president: Kennedy, approve: 56, disapprove: 29, unsure: 15, dem: 71, ind: 53, rep: 37}
-- {p: 1963-10, from: '1963-10-11', to: '1963-10-16', president: Kennedy, approve: 58, disapprove: 29, unsure: 13, dem: 77, ind: 58, rep: 30}
-- {p: 1963-11, from: '1963-11-08', to: '1963-11-13', president: Kennedy, approve: 58, disapprove: 30, unsure: 12, dem: 80, ind: 52, rep: 31}
-- {p: 1963-12, from: '1963-12-05', to: '1963-12-10', president: Johnson, approve: 78, disapprove: 2, unsure: 20, dem: 82, ind: 71, rep: 78}
-- {p: 1963-12, from: '1963-12-12', to: '1963-12-17', president: Johnson, approve: 74, disapprove: 4, unsure: 22, dem: 77, ind: 71, rep: 67}
-- {p: 1964-01, from: '1964-01-02', to: '1964-01-07', president: Johnson, approve: 77, disapprove: 5, unsure: 18, dem: 82, ind: 70, rep: 73}
+- p: 1961-02
+  from: '1961-02-10'
+  to: '1961-02-15'
+  president: Kennedy
+  today: {approve: 72, disapprove: 6, unsure: 22, dem: 85, ind: 67, rep: 52}
+  published: '1961-03-01'
+  page: 1707
+  first: {approve: 72, disapprove: 6, unsure: 22, dem: 84, ind: 65, rep: 55}
+  note: Party figures on p. 1708. Same national figures as the Mar. 26 release (642-K); the party figures differ, so two readings.
+- p: 1961-03
+  from: '1961-03-10'
+  to: '1961-03-15'
+  president: Kennedy
+  today: {approve: 73, disapprove: 7, unsure: 20, dem: 85, ind: 69, rep: 60}
+  published: '1961-03-26'
+  page: 1712
+  first: {approve: 72, disapprove: 6, unsure: 22, dem: 86, ind: 67, rep: 60}
+  note: Same national figures as the Mar. 1 release (641-K).
+- p: 1961-04
+  from: '1961-04-06'
+  to: '1961-04-11'
+  president: Kennedy
+  today: {approve: 78, disapprove: 6, unsure: 16, dem: 89, ind: 75, rep: 63}
+- p: 1961-05
+  from: '1961-04-28'
+  to: '1961-05-03'
+  president: Kennedy
+  today: {approve: 83, disapprove: 5, unsure: 12, dem: 89, ind: 75, rep: 62}
+  published: '1961-05-05'
+  page: 1717
+  first: {approve: 83, disapprove: 5, unsure: 12}
+  note: Survey printed 643-A, not -K.
+- p: 1961-05
+  from: '1961-05-04'
+  to: '1961-05-09'
+  president: Kennedy
+  today: {approve: 77, disapprove: 9, unsure: 14, dem: 89, ind: 75, rep: 60}
+- p: 1961-05
+  from: '1961-05-17'
+  to: '1961-05-22'
+  president: Kennedy
+  today: {approve: 75, disapprove: 10, unsure: 15, dem: 86, ind: 68, rep: 57}
+- p: 1961-06
+  from: '1961-05-28'
+  to: '1961-06-02'
+  president: Kennedy
+  today: {approve: 74, disapprove: 11, unsure: 15, dem: 87, ind: 68, rep: 55}
+  published: '1961-06-16'
+  page: 1722
+  first: {approve: 74, disapprove: 11, unsure: 15}
+  note: 'South only: 63/16/21.'
+- p: 1961-06
+  from: '1961-06-23'
+  to: '1961-06-28'
+  president: Kennedy
+  today: {approve: 72, disapprove: 14, unsure: 14, dem: 84, ind: 64, rep: 56}
+  published: '1961-07-16'
+  page: 1727
+  first: {approve: 71, disapprove: 14, unsure: 15}
+  note: Figures at top of right column; by age only.
+- p: 1961-08
+  from: '1961-07-27'
+  to: '1961-08-01'
+  president: Kennedy
+  today: {approve: 75, disapprove: 12, unsure: 13, dem: 86, ind: 70, rep: 60}
+  today_to: '1961-08-02'
+  published: '1961-08-25'
+  page: 1732
+  first: {approve: 73, disapprove: 13, unsure: 14, dem: 85, ind: 67, rep: 58}
+  note: Independents on p. 1733.
+- p: 1961-08
+  from: '1961-08-24'
+  to: '1961-08-29'
+  president: Kennedy
+  today: {approve: 76, disapprove: 12, unsure: 12, dem: 88, ind: 70, rep: 59}
+- p: 1961-09
+  from: '1961-09-21'
+  to: '1961-09-26'
+  president: Kennedy
+  today: {approve: 79, disapprove: 10, unsure: 11, dem: 87, ind: 78, rep: 61}
+  published: '1961-10-11'
+  page: 1738
+  first: {approve: 76, disapprove: 12, unsure: 12}
+- p: 1961-10
+  from: '1961-10-19'
+  to: '1961-10-24'
+  president: Kennedy
+  today: {approve: 77, disapprove: 12, unsure: 11, dem: 90, ind: 75, rep: 57}
+  published: '1961-11-12'
+  page: 1742
+  first: {approve: 77, disapprove: 12, unsure: 11}
+- p: 1961-11
+  from: '1961-11-17'
+  to: '1961-11-22'
+  president: Kennedy
+  today: {approve: 79, disapprove: 9, unsure: 12, dem: 89, ind: 73, rep: 64}
+- p: 1961-12
+  from: '1961-12-07'
+  to: '1961-12-12'
+  president: Kennedy
+  today: {approve: 77, disapprove: 11, unsure: 12, dem: 84, ind: 80, rep: 55}
+- p: 1962-01
+  from: '1962-01-11'
+  to: '1962-01-16'
+  president: Kennedy
+  today: {approve: 79, disapprove: 10, unsure: 11, dem: 91, ind: 74, rep: 59}
+  published: '1962-01-21'
+  page: 1751
+  first: {approve: 77, disapprove: 11, unsure: 12, dem: 87, ind: 75, rep: 58}
+- p: 1962-02
+  from: '1962-02-08'
+  to: '1962-02-13'
+  president: Kennedy
+  today: {approve: 78, disapprove: 11, unsure: 11, dem: 89, ind: 72, rep: 62}
+  published: '1962-02-28'
+  page: 1756
+  first: {approve: 78, disapprove: 11, unsure: 11}
+  note: Heading and question on p. 1756, figures on p. 1757.
+- p: 1962-03
+  from: '1962-03-08'
+  to: '1962-03-13'
+  president: Kennedy
+  today: {approve: 79, disapprove: 12, unsure: 9, dem: 89, ind: 78, rep: 67}
+  published: '1962-03-30'
+  page: 1759
+  first: {approve: 79, disapprove: 12, unsure: 9}
+- p: 1962-04
+  from: '1962-04-06'
+  to: '1962-04-11'
+  president: Kennedy
+  today: {approve: 77, disapprove: 13, unsure: 10, dem: 90, ind: 73, rep: 57}
+- p: 1962-05
+  from: '1962-05-03'
+  to: '1962-05-08'
+  president: Kennedy
+  today: {approve: 74, disapprove: 16, unsure: 10, dem: 86, ind: 73, rep: 53}
+  published: '1962-05-23'
+  page: 1768
+  first: {approve: 73, disapprove: 17, unsure: 10}
+  note: By occupation only.
+- p: 1962-06
+  from: '1962-05-31'
+  to: '1962-06-05'
+  president: Kennedy
+  today: {approve: 71, disapprove: 19, unsure: 10, dem: 85, ind: 73, rep: 44}
+  published: '1962-06-22'
+  page: 1772
+  first: {approve: 71, disapprove: 19, unsure: 10}
+  note: Printed 659-K; the other questions of this fieldwork are printed 659-T.
+- p: 1962-07
+  from: '1962-06-28'
+  to: '1962-07-03'
+  president: Kennedy
+  today: {approve: 69, disapprove: 19, unsure: 12, dem: 84, ind: 64, rep: 44}
+- p: 1962-07
+  from: '1962-07-26'
+  to: '1962-07-31'
+  president: Kennedy
+  today: {approve: 66, disapprove: 23, unsure: 11, dem: 82, ind: 66, rep: 39}
+  published: '1962-08-19'
+  page: 1780
+  first: {approve: 66, disapprove: 23, unsure: 11}
+- p: 1962-08
+  from: '1962-08-23'
+  to: '1962-08-28'
+  president: Kennedy
+  today: {approve: 67, disapprove: 20, unsure: 13, dem: 84, ind: 60, rep: 42}
+  published: '1962-09-21'
+  page: 1784
+  first: {approve: 67, disapprove: 20, unsure: 13}
+  note: Heading and question on p. 1784, figures on p. 1785.
+- p: 1962-09
+  from: '1962-09-20'
+  to: '1962-09-25'
+  president: Kennedy
+  today: {approve: 63, disapprove: 22, unsure: 15, dem: 79, ind: 62, rep: 37}
+  published: '1962-10-10'
+  page: 1786
+  first: {approve: 62, disapprove: 22, unsure: 16}
+  note: Outside South 66/21/13; South 52/24/24.
+- p: 1962-10
+  from: '1962-10-19'
+  to: '1962-10-24'
+  president: Kennedy
+  today: {approve: 61, disapprove: 25, unsure: 14, dem: 78, ind: 61, rep: 35}
+- p: 1962-11
+  from: '1962-11-16'
+  to: '1962-11-21'
+  president: Kennedy
+  today: {approve: 74, disapprove: 14, unsure: 12, dem: 91, ind: 70, rep: 48}
+  published: '1962-12-05'
+  page: 1793
+  first: {approve: 74, disapprove: 15, unsure: 11}
+  note: 'Text: South 65% approve.'
+- p: 1962-12
+  from: '1962-12-13'
+  to: '1962-12-18'
+  president: Kennedy
+  today: {approve: 76, disapprove: 13, unsure: 11, dem: 92, ind: 71, rep: 55}
+- p: 1963-01
+  from: '1963-01-11'
+  to: '1963-01-16'
+  president: Kennedy
+  today: {approve: 74, disapprove: 14, unsure: 12, dem: 86, ind: 72, rep: 53}
+  published: '1963-01-20'
+  page: 1800
+  first: {approve: 76, disapprove: 13, unsure: 11, dem: 93, ind: 72, rep: 53}
+  note: Party, region, religion as approving only.
+- p: 1963-02
+  from: '1963-02-07'
+  to: '1963-02-12'
+  president: Kennedy
+  today: {approve: 70, disapprove: 18, unsure: 12, dem: 85, ind: 67, rep: 47}
+  published: '1963-03-01'
+  page: 1807
+  first: {approve: 70, disapprove: 18, unsure: 12, dem: 87, ind: 75, rep: 58}
+  note: 'Breakdowns do not fit the national 70: regions 80/79/70/77 (none below 70) and parties 58/87/75 imply about 75-76.'
+- p: 1963-03
+  from: '1963-03-08'
+  to: '1963-03-13'
+  president: Kennedy
+  today: {approve: 67, disapprove: 20, unsure: 13, dem: 82, ind: 64, rep: 43}
+  today_to: '1963-03-12'
+  published: '1963-03-27'
+  page: 1811
+  first: {approve: 66, disapprove: 22, unsure: 12, dem: 83, ind: 64, rep: 42}
+- p: 1963-04
+  from: '1963-04-04'
+  to: '1963-04-09'
+  president: Kennedy
+  today: {approve: 66, disapprove: 21, unsure: 13, dem: 84, ind: 57, rep: 41}
+  published: '1963-04-24'
+  page: 1815
+  first: {approve: 66, disapprove: 21, unsure: 13}
+- p: 1963-05
+  from: '1963-05-02'
+  to: '1963-05-07'
+  president: Kennedy
+  today: {approve: 64, disapprove: 25, unsure: 11, dem: 80, ind: 62, rep: 36}
+- p: 1963-05
+  from: '1963-05-08'
+  to: '1963-05-13'
+  president: Kennedy
+  today: {approve: 65, disapprove: 23, unsure: 12, dem: 81, ind: 65, rep: 39}
+  published: '1963-05-19'
+  page: 1818
+  first: {approve: 64, disapprove: 24, unsure: 12, dem: 81, ind: 63, rep: 36}
+  note: Party figures (approving) at top of right column.
+- p: 1963-05
+  from: '1963-05-23'
+  to: '1963-05-28'
+  president: Kennedy
+  today: {approve: 64, disapprove: 24, unsure: 12, dem: 79, ind: 56, rep: 45}
+- p: 1963-06
+  from: '1963-06-21'
+  to: '1963-06-26'
+  president: Kennedy
+  today: {approve: 61, disapprove: 26, unsure: 13, dem: 74, ind: 56, rep: 41}
+  published: '1963-07-07'
+  page: 1827
+  first: {approve: 61, disapprove: 26, unsure: 13}
+  note: Figures on p. 1827 right column; South 33, outside South 71 approving.
+- p: 1963-07
+  from: '1963-07-18'
+  to: '1963-07-23'
+  president: Kennedy
+  today: {approve: 61, disapprove: 27, unsure: 12, dem: 77, ind: 56, rep: 34}
+- p: 1963-08
+  from: '1963-08-15'
+  to: '1963-08-20'
+  president: Kennedy
+  today: {approve: 62, disapprove: 26, unsure: 12, dem: 76, ind: 54, rep: 45}
+  published: '1963-08-25'
+  page: 1835
+  first: {approve: 61, disapprove: 27, unsure: 12}
+  note: Same release prints Negro subsample of the same question (Sept. 8, p. 1838).
+- p: 1963-09
+  from: '1963-09-12'
+  to: '1963-09-17'
+  president: Kennedy
+  today: {approve: 56, disapprove: 29, unsure: 15, dem: 71, ind: 53, rep: 37}
+  published: '1963-09-20'
+  page: 1840
+  first: {approve: 62, disapprove: 26, unsure: 12, dem: 76, ind: 54, rep: 45}
+  note: Outside South 69, South 44 approving.
+- p: 1963-10
+  from: '1963-10-11'
+  to: '1963-10-16'
+  president: Kennedy
+  today: {approve: 58, disapprove: 29, unsure: 13, dem: 77, ind: 58, rep: 30}
+  published: '1963-11-10'
+  page: 1850
+  first: {approve: 59, disapprove: 28, unsure: 13, dem: 76, ind: 56, rep: 36}
+  note: Full breakdowns (sex, age, region, party, religion, education, race) on pp. 1850-51.
+- p: 1963-11
+  from: '1963-11-08'
+  to: '1963-11-13'
+  president: Kennedy
+  today: {approve: 58, disapprove: 30, unsure: 12, dem: 80, ind: 52, rep: 31}
+- p: 1963-12
+  from: '1963-12-05'
+  to: '1963-12-10'
+  president: Johnson
+  today: {approve: 78, disapprove: 2, unsure: 20, dem: 82, ind: 71, rep: 78}
+- p: 1963-12
+  from: '1963-12-12'
+  to: '1963-12-17'
+  president: Johnson
+  today: {approve: 74, disapprove: 4, unsure: 22, dem: 77, ind: 71, rep: 67}
+  published: '1963-12-22'
+  page: 1855
+  first: {approve: 79, disapprove: 3, unsure: 18}
+- p: 1964-01
+  from: '1964-01-02'
+  to: '1964-01-07'
+  president: Johnson
+  today: {approve: 77, disapprove: 5, unsure: 18, dem: 82, ind: 70, rep: 73}
+  published: '1964-01-15'
+  page: 1859
+  first: {approve: 80, disapprove: 5, unsure: 15, dem: 85, ind: 75, rep: 74}
+  note: Region 80/82/79/76.
