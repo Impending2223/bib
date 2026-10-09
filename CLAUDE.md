@@ -33,7 +33,7 @@ relevant material elsewhere in the bibliography. Names, events."
 So every calendar entry has:
 - `c`: what happened, in one to three clipped sentences. Who, what, the number.
 - `n`: the pointers, in this order:
-  - the primary record, linked: the statute (Statutes at Large on govinfo), the Federal Register, the
+  - the primary record, linked: the statute (Statutes at Large on govinfo, "77 Stat. 56"), the Federal Register, the
     Congressional Record, the Public Papers (APP), the presidential library's file, the FRUS document, the case.
     The owner asked for these (Oct. 2, 2026); where the record is found and the event's bibliography lacks it, add
     it there too.
@@ -166,6 +166,8 @@ the entry under its first day):
   date: '1961-04-15'                   # sort and range key; '1961-02' for month-only entries
   thread: cuba                         # primary thread (slug of a cal.thread.* entry)
   also: [space]                        # other threads it belongs to
+  short: State of the Union            # an address that sets several threads going: its name, and the threads,
+  to: [economy, {health: cal.1963-02-05.program}]   # each resolving to its next entry, or the entry named
   c: What happened.
   n: Sources. See [[cal.1961-02-20.school-aid]].
 ```
@@ -194,7 +196,12 @@ The thread index (Part I of the calendar) is generated from `thread` and
 
 ### House style (keep it)
 
-Short declarative sentences. Books already in a list are cited by short title
+Short declarative sentences. A calendar note points back ("See [[id]]"), not forward; where an earlier entry
+must name a later one, it says what it is ("Reply: [[id]]", "The order: [[id]]", "Bibliography: [[id]]" where a
+thread's first entry is excepted, `ok:thread-first`). A law the entry reports enacted is cited in `c` after its name, linked, as a case's
+U.S. Reports cite is ("Equal Pay Act signed, [77 Stat. 56](…)": the volume and page, linked; no Public Law number), and the note keeps the list's
+pointer ("Statute (K–J Cong. II.J.2)", as "Opinion (K–J Cong. II.J.1)"); a treaty by its U.S.T. volume and page, linked to the Library of
+Congress's scan (its collection's table gives the TIAS number's volume and page), and its U.N.T.S. cite, linked to the UN's copy, at its signing, the Senate's consent, and ratification. Books already in a list are cited by short title
 with list and section; works found only here are cited in full. "Check" marks
 a detail to verify. In the calendar the first entry of each event carries its
 bibliography and later ones point back with `See [[id]]`; a thread's first entry is its first event's. Bibliography sections
@@ -753,6 +760,11 @@ first reported, its release date, and the figure as revised today.
 ```
 indicators/<id>.yaml          one series; rows {p, first, released, chg, unit, now, chg_now, source, est, q, note}
 tools/indicators/make_indicators.py   writes them: FRED_API_KEY=... python3 tools/indicators/make_indicators.py
+                              (without a key, from ALFRED's and FRED's public CSV downloads; the same figures)
+tools/indicators/make_polls.py   the Opinion group (kind: poll): Gallup approval by reading (the American
+                              Presidency Project's tables), Gallup's Republican preference and the 1964 trial
+                              heats (Wikipedia's tables of Gallup and Harris; each marked Check against *The Gallup
+                              Poll, 1935–1971*, vol. III). Field dates as the period; no revised column.
 tools/bib/indicators.py       renders them (ORDER, GROUP) and checks them
 ```
 
@@ -792,7 +804,10 @@ series reader alike: the month's undated entries, then every day from the sectio
 to its last. A day shows its date, "*New York Times*" under it (a TimesMachine link by
 date only; "No *New York Times* (strike)" from Dec. 8, 1962 to Mar. 31, 1963), the entries that begin
 that day, each under its thread as a rubric (a line of muted small capitals above the entry;
-the date added for a range or a month-only entry), a "Continuing" pointer under the date on each later
+the date added for a range or a month-only entry), under an address that sets several threads going (`to:`, `short:`) a "To:" line naming each thread
+and the entry it leads to, and under each such entry a "From:" line back to the address (`program_links`), then a line a thread linking the entries before and
+after it in the thread ("‹ Apr. 24 · Testing · June 10 ›", its `also` threads too; `thread_nav` in
+`tools/bib/build.py`), a "Continuing" pointer under the date on each later
 day of a ranged entry, and the day's documents, closed by default, with "Expand all" and
 "Collapse all" under each month heading.
 

@@ -56,6 +56,69 @@ def thread_members(lst):
     return out
 
 
+_NAV = {}
+
+
+def thread_nav(series, lst, e, year, text_html):
+    """Under a calendar entry, for each of its threads, the entries before and after it in the thread:
+    "‹ Apr. 24 · Testing · June 10 ›" (the year added where it differs). A thread's first entry has no ‹, its
+    last no ›."""
+    key = id(lst)
+    if key not in _NAV:
+        _NAV[key] = {t: [m["id"] for m in ms] for t, ms in thread_members(lst).items()}
+    out = []
+    for t in [e["thread"]] + e.get("also", []):
+        ids = _NAV[key].get(t, [])
+        if e["id"] not in ids or len(ids) < 2:
+            continue
+        i = ids.index(e["id"])
+        prev = f"‹ [[{ids[i - 1]}]] · " if i > 0 else ""
+        nxt = f" · [[{ids[i + 1]}]] ›" if i + 1 < len(ids) else ""
+        line = year_qualified(series, f"{prev}{thread_name(lst, t)}{nxt}", year)
+        out.append(f'<span class="tnl">{text_html(line, "tn")}</span>')
+    return f'<span class="tn">{"".join(out)}</span>' if out else ""
+
+
+def program_links(lst):
+    """The calendar's To/From links: an entry that sets several threads going (a State of the Union, an address to
+    Congress) names them in `to:` (a thread slug, which resolves to the thread's next entry after it, or
+    {slug: entry id}); `short:` names it for the other end. -> ({initiator id: [(slug, target id)]},
+    {target id: [initiator id]}). Unresolved items are left out (check reports them)."""
+    key = ("to", id(lst))
+    if key in _NAV:
+        return _NAV[key]
+    members = thread_members(lst)
+    fwd, back = {}, {}
+    for sec, e in lst.entries():
+        for item in e.get("to") or []:
+            slug, tid = (next(iter(item.items())) if isinstance(item, dict) else (item, None))
+            if tid is None:
+                tid = next((m["id"] for m in members.get(slug, []) if str(m.get("date", "")) > str(e.get("date", ""))
+                            and m["id"] != e["id"]), None)
+            if tid:
+                fwd.setdefault(e["id"], []).append((slug, tid))
+                back.setdefault(tid, []).append(e["id"])
+    _NAV[key] = (fwd, back)
+    return _NAV[key]
+
+
+def program_html(series, lst, e, year, text_html):
+    """'To: Taxes, Jan. 24 · Health, Feb. 5' under an initiating entry; 'From: State of the Union, Jan. 14' under each
+    entry it reaches."""
+    fwd, back = program_links(lst)
+    out = []
+    if e["id"] in fwd:
+        items = sorted(fwd[e["id"]], key=lambda x: str((series.get(x[1]) or (0, 0, {}))[2].get("date", "")))
+        out.append("To: " + " · ".join(f"{thread_name(lst, slug)}, [[{tid}]]" for slug, tid in items))
+    if e["id"] in back:
+        names = []
+        for iid in back[e["id"]]:
+            ie = series.get(iid)[2]
+            names.append(f"[[{iid}|{ie.get('short') or thread_name(lst, ie['thread'])}, {date_label(ie, year)}]]")
+        out.append("From: " + "; ".join(names))
+    return "".join(f'<span class="tnl">{text_html(year_qualified(series, t, year), "tn")}</span>' for t in out)
+
+
 def date_label(e, year=None):
     """A calendar entry's label: its "when", with the year added when it is not `year`."""
     y = (e.get("date") or "")[:4]
@@ -114,6 +177,13 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
             n += "."
     if n:
         parts.append(f'<span class="n">{text_html(n, "n")}</span>')
+    if rubric is not None and lst.kind == "calendar" and e.get("thread"):
+        prog = program_html(series, lst, e, year, text_html)
+        if prog:
+            parts.append(f'<span class="tn tp">{prog}</span>')
+        nav = thread_nav(series, lst, e, year, text_html)
+        if nav:
+            parts.append(nav)
     if e.get("conflict"):
         parts.append('<span class="n"><b>Unresolved merge conflict.</b></span>')
     return f'<li id="{attr(e["id"])}"{extra_attrs}>' + "".join(parts) + extra_spans + "</li>"

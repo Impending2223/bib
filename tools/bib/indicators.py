@@ -58,14 +58,15 @@ from .markup import to_html
 DIR = os.path.join(store.ROOT, "indicators")
 ORDER = ["cpi", "wpi", "deflator", "unemployment", "payrolls", "industrial-production", "gnp", "real-gnp",
          "gap-cea", "gap-cbo", "administrative-budget", "cash-budget", "federal-national-accounts",
-         "balance-of-payments", "gold-stock"]
+         "balance-of-payments", "gold-stock", "approval", "gop-preference", "trial-heats"]
 GROUP = {"cpi": "Prices", "wpi": "Prices", "deflator": "Prices",
          "unemployment": "Employment", "payrolls": "Employment",
          "industrial-production": "Output", "gnp": "Output", "real-gnp": "Output",
          "gap-cea": "Output", "gap-cbo": "Output",
          "administrative-budget": "Federal finance", "cash-budget": "Federal finance",
          "federal-national-accounts": "Federal finance",
-         "balance-of-payments": "International", "gold-stock": "International"}
+         "balance-of-payments": "International", "gold-stock": "International",
+         "approval": "Opinion", "gop-preference": "Opinion", "trial-heats": "Opinion"}
 FIELD_LABEL = {"receipts": "Receipts", "expenditures": "Expenditures", "payments": "Payments", "balance": "Balance"}
 MON = ["Jan.", "Feb.", "Mar.", "Apr.", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."]
 
@@ -74,7 +75,11 @@ ERP63 = "https://www.govinfo.gov/app/details/SERIALSET-12600_00_00-002-0028-0000
 ERP64 = "https://www.govinfo.gov/app/details/SERIALSET-12658_00_00-002-0278-0000"
 F = "https://fred.stlouisfed.org/series/"
 A = "https://alfred.stlouisfed.org/series?seid="
+APPROVAL = "https://www.presidency.ucsb.edu/statistics/data/presidential-job-approval"
 DEFS = {
+    "approval": f"Gallup: \"Do you approve or disapprove of the way [the President] is handling his job as President?\" Each reading, filed by the month its fieldwork ended, with the field dates; approval among Democrats, independents, and Republicans in grey. Not revised. [American Presidency Project]({APPROVAL}), adapted from the Gallup Poll and compiled by Gerhard Peters.",
+    "gop-preference": "Gallup: Republicans' choice for the 1964 Republican nomination, by month of publication; a name the poll did not offer is left out. As OurCampaigns gives Gallup's figures, by [Wikipedia](https://en.wikipedia.org/wiki/1964_Republican_Party_presidential_primaries#National_polling); to be checked against *The Gallup Poll: Public Opinion, 1935–1971*, vol. III (1972).",
+    "trial-heats": "Two names put to the national sample for 1964: \"If the election were held today\". Gallup's by the page of *The Gallup Poll: Public Opinion, 1935–1971*, vol. III (1972); Harris's by the newspaper that printed it; both as [Wikipedia](https://en.wikipedia.org/wiki/1964_United_States_presidential_election#Polling) gives them. Kennedy's trial heats of 1963 against Goldwater and Rockefeller are not yet in: they want the printed volume or the Roper Center's archive.",
     "cpi": f"BLS. Retail prices of a fixed basket bought by city wage-earner and clerical-worker families; 1947–49=100 through Dec. 1961, 1957–59=100 from Jan. 1962. Today: CPI for all urban consumers, 1982–84=100. Neither seasonally adjusted. First releases: [ALFRED]({A}CPIAUCNS); today: [FRED]({F}CPIAUCNS).",
     "wpi": f"BLS. Primary-market prices of all commodities; 1947–49=100 through 1961, 1957–59=100 from 1962. Today the producer price index, all commodities, 1982=100 ([FRED]({F}PPIACO)). First reported here means as tabled in the next January's *Economic Report* ([1962]({ERP62}), Table B-40; [1963]({ERP63}), Table C-41; [1964]({ERP64}), Table C-41).",
     "deflator": f"Commerce, Office of Business Economics. GNP in current dollars over GNP in 1954 dollars, times 100, computed from the release that first carried the quarter ([ALFRED]({A}GNP)). Today BEA's GNP deflator, chained, 2017=100 ([FRED]({F}GNPDEF)).",
@@ -297,6 +302,35 @@ def cell_now(sid, s, r):
     return single(sid, v, unit, kind, r.get("chg_now"), yoy=r.get("yoy_now"))
 
 
+def poll_row(sid, s, r, year):
+    """(name, first, released) for a poll: the reading in 'As first reported'; no revision."""
+    then = s.get("then") or {}
+    def dates(a, b):
+        da, db = datetime.date.fromisoformat(a), datetime.date.fromisoformat(b)
+        if (da.year, da.month) == (db.year, db.month):
+            return f"{MON[da.month - 1]} {da.day}–{db.day}"
+        return f"{MON[da.month - 1]} {da.day}–{MON[db.month - 1]} {db.day}"
+    chk = grey(" Check.") if then.get("check") else ""
+    if sid == "approval":
+        name = f"Approval, {r['president']}"
+        per = dates(r["from"], r["to"])
+        first = (f"{r['approve']}% approve, {r['disapprove']}% disapprove"
+                 + " " + grey(f"(Dem. {r['dem']}, Ind. {r['ind']}, Rep. {r['rep']})"))
+        title = then.get("source", "")
+    elif sid == "gop-preference":
+        name, per = "Republican preference", period_label(r["p"])
+        first = ", ".join(f"{k} {v}%" for k, v in sorted(r["shares"].items(), key=lambda x: -x[1])) + chk
+        title = then.get("source", "") + (f"; check against {then['check']}" if then.get("check") else "")
+    else:
+        (a, va), (b, vb) = r["pair"]
+        name = f"{a} v. {b}, {r['pollster']}"
+        per = dates(r["from"], r["to"]) if r.get("from") else period_label(r["p"])
+        first = f"{a} {va}%, {b} {vb}%" + (" " + grey(f"({r['undecided']}% undecided)") if r.get("undecided") is not None else "") + chk
+        title = r.get("cite") or then.get("source", "")
+    rel = esc(date_label(r["published"], year)) if r.get("published") and len(str(r["published"])) == 10 else "—"
+    return name, per, f'<span title="{esc(title)}">{first}</span>', rel
+
+
 def block(data, sec_from, sec_to, first_section, year):
     lo, hi = datetime.date.fromisoformat(sec_from), datetime.date.fromisoformat(sec_to)
     rows = rows_for(data, lo, hi, first_section)
@@ -309,6 +343,11 @@ def block(data, sec_from, sec_to, first_section, year):
             shown.add(g)
             unit_note = " $bn" if g in ("Federal finance", "International") else ""
             trs.append(f'<tr class="g"><th colspan="4">{esc(g)}{grey(unit_note)}</th></tr>')
+        if s.get("kind") == "poll":
+            pname, per, first, rel = poll_row(sid, s, r, year)
+            name = f'<a href="#ind-def-{esc(sid)}">{esc(pname)}</a> <span class="per">{esc(per)}</span>'
+            trs.append(f'<tr><td class="iname">{name}</td><td>{first}</td><td class="rel">{rel}</td><td>—</td></tr>')
+            continue
         then, now = s.get("then") or {}, s.get("now") or {}
         name = f'<a href="#ind-def-{esc(sid)}">{esc(s["name"])}</a> <span class="per">{esc(period_label(r["p"]))}</span>'
         first = cell_first(sid, s, r, year)

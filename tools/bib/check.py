@@ -89,6 +89,20 @@ def run(series, only=None):
                 for t in e.get("also", []):
                     if t not in threads:
                         add(ERROR, eid, f"unknown thread {t!r} in 'also'")
+                # to: the threads an address sets going (build.py, program_links), each resolving to a later entry
+                for item in e.get("to") or []:
+                    slug, tid = (next(iter(item.items())) if isinstance(item, dict) else (item, None))
+                    if slug not in threads:
+                        add(ERROR, eid, f"unknown thread {slug!r} in 'to'")
+                    elif tid is not None:
+                        hit = series.get(tid)
+                        te = hit[2] if hit else None
+                        if not te or slug not in [te.get("thread")] + te.get("also", []):
+                            add(ERROR, eid, f"to: {tid} is not an entry of thread {slug!r}")
+                        elif str(te.get("date", "")) <= str(e.get("date", "")):
+                            add(ERROR, eid, f"to: {tid} is not after this entry")
+                if e.get("to") and not e.get("short"):
+                    add(ERROR, eid, "an entry with 'to' needs 'short', its name for the From line ('State of the Union')")
                 if e.get("when") and e.get("date") and not when_matches_date(e["when"], e["date"]):
                     add(ERROR, eid, f"when {e['when']!r} and date {e['date']!r} disagree")
                 lo, hi = sec.extra.get("from"), sec.extra.get("to")
