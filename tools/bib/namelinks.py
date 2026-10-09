@@ -18,7 +18,7 @@ def index(series):
     """{name as written: (url, the person's name)} for everyone with a name entry."""
     def make():
         out = {}
-        for p in L.cached("people", lambda: L.people(series)):
+        for p in L.everyone(series):
             url = f"names-{L.letter_of(p)}.html#{L.key_of(p['name'])}"
             for n in p["names"] | {p["name"]}:
                 out.setdefault(n, (url, p["name"]))
@@ -105,8 +105,7 @@ def frus_sender(series, key):
     pks = L.cached("frus-senders", make).get((m.group(1), m.group(2))) or set()
     if len(pks) != 1:
         return None
-    by_key = L.cached("name-keys", lambda: {L.key_of(p["name"]): p["name"]
-                                             for p in L.cached("people", lambda: L.people(series))})
+    by_key = L.cached("name-keys", lambda: {L.key_of(p["name"]): p["name"] for p in L.everyone(series)})
     who = by_key.get(next(iter(pks)))
     return url(series, who) if who else None
 

@@ -1,8 +1,9 @@
 """The calendar's dated entries against the brief (CLAUDE.md, "The calendar"): ./bib audit-cal writes
 notes/calendar-audit.md. A review list, not a check: it reports, and changes nothing.
 
-  Names      persons in `c` with a Part III entry whom `Names:` leaves out (by surname; a surname shared by
-             several Part III persons lists them all, and a word that is also a place or a thing is marked "?")
+  Names      persons in `c` with a Part III entry whom neither `Names:` nor a hidden `name:` tag gives (by surname; a
+             surname shared by several Part III persons lists them all, and a word that is also a place or a thing is
+             marked "?")
   Event      entries with neither a bibliography of their own (a work in *italics*, or a list's Part II section)
              nor a `See [[id]]` back to an earlier entry
   Primary    entries whose note neither links nor names a primary record (statute, Federal Register,
@@ -69,8 +70,10 @@ def run(series):
         given = n.split("Names:", 1)[1] if "Names:" in n else ""
         c_plain = re.sub(r"White House|Brown v\.|Little Rock|Ford Foundation|Lincoln Memorial|Washington, D\.C\.", "", c)
         missing = []
+        tagged = {str(t)[5:] for t in e.get("tags") or [] if str(t).startswith("name:")}
         for sur in dict.fromkeys(sur_rx.findall(c_plain)):
-            if sur in given:
+            slug = re.sub(r"[^a-z0-9]+", "-", sur.lower()).strip("-") + "-"
+            if sur in given or any(k.startswith(slug) for k in tagged):
                 continue
             per = defaultdict(list)          # each person once, with all his sections
             for n_, where in p3[sur]:
@@ -108,7 +111,7 @@ def report(series):
            "CLAUDE.md (\"The calendar\"). A review list: a hit is a place to look, not an error. Rerun after editing.", "",
            f"{total} dated entries.", "",
            "| Check | Entries |", "|---|---|",
-           f"| A person in `c` with a Part III entry missing from `Names:` | {len(names)} |",
+           f"| A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | {len(names)} |",
            f"| (of which only a President's surname: Eisenhower, Kennedy, Johnson) | "
            f"{sum(1 for _, _, m in names if {s for s, _ in m} <= PRESIDENTS)} |",
            f"| Neither a bibliography of its own nor a `See [[id]]` back | {len(event)} |",

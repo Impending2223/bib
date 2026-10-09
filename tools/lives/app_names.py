@@ -18,6 +18,8 @@ sources/app-index.jsonl.
 #   title only he held, or the file's years; his father, where the series holds him, by the bare name in every year
 #   (not where the son's suffix follows). Any other shared
 #   first name and surname is left out: the text cannot tell them apart. A document does not name its own author.
+#   A name Part III writes in its own order ('Ngo Dinh Diem'): the name, and its forms in sources/name-forms.yaml
+#   ('President Diem', 'Mao Tse-tung'), as phrases.
 #   APP's 'Event Timeline' pages (its chronology of each presidency) are not documents and are left out.
 """
 import gzip, hashlib, json, os, re, sys
@@ -25,7 +27,7 @@ import gzip, hashlib, json, os, re, sys
 HERE = os.path.dirname(__file__)
 sys.path.insert(0, os.path.join(HERE, ".."))
 from bib import store  # noqa: E402
-from bib.lives import people, key_of, split_name, same_person  # noqa: E402
+from bib.lives import people, key_of, split_name, same_person, natural, name_forms  # noqa: E402
 
 OUT = os.path.join(HERE, "..", "..", "sources")
 def forms(p, strict=False, sfx="", mids_ok=True):
@@ -122,7 +124,8 @@ def main():
             f.write(json.dumps({k: r[k] for k in ("url", "date", "who", "title")}, ensure_ascii=False) + "\n")
     global ROLES, POCOM
     series = store.Series()
-    everyone = people(series)
+    from bib.lives import everyone as all_people
+    everyone = all_people(series)        # the persons FRUS's lists alone give too (sources/frus-names/persons.json)
     ROLES = {}
     for l in series.lists.values():
         for sec, e in l.entries():
@@ -136,7 +139,7 @@ def main():
     pp = os.path.join(OUT, "pocom.json")
     POCOM = json.load(open(pp, encoding="utf-8")) if os.path.exists(pp) else {}
     from bib.lives import person_suffix
-    office = {p["name"]: offices_text(series, p) for p in everyone}
+    office = {p["name"]: "" if p.get("frus") else offices_text(series, p) for p in everyone}
     by_sur = {}
     for p in everyone:
         by_sur.setdefault(p["sur"], []).append(p)
@@ -163,6 +166,18 @@ def main():
     names_of = {p["name"]: p for p in everyone}
     out = {}
     for p in everyone:
+        if natural(p["name"]):
+            # a name in its own order: its forms as phrases ('Ngo Dinh Diem', 'President Diem', 'Mao Tse-tung'), not
+            # the comma forms a list writes; 'Ho Chi Minh' not in 'the Ho Chi Minh Trail' or 'Ho Chi Minh City'
+            fs = [f for f in name_forms(p["name"]) if "," not in f]
+            words = {f.split()[-1] for f in fs}
+            rx = re.compile(r"\b(?:" + "|".join(re.escape(f).replace(r"\ ", r"\s+") for f in fs) + r")\b"
+                            r"(?!\s+(?:Trail|trail|City|city))")
+            hits = [i for i, t in enumerate(texts) if not rows[i]["title"].endswith("Event Timeline")
+                    and any(w in t for w in words) and rx.search(t)]
+            if hits:
+                out[key_of(p["name"])] = hits
+            continue
         cand = docs_by_sur.get(p["sur"], [])
         if not cand:
             continue
@@ -171,6 +186,8 @@ def main():
         apart = False                    # namesakes whose further given names differ: John W. and John G. Dean
         strict = bool((MATCHES.get(p["name"]) or {}).get("strict"))   # a son known by his suffix (app-matches)
         tail = ""                        # a father whose son is strict: not where the son's suffix follows
+        if p.get("frus"):                # one FRUS's lists alone give: not where another name follows ('John
+            tail = r"(?!\s+(?!Jr\b|Sr\b|I+\b)[A-Z][a-z])"   # Fitzgerald Kennedy' is not John F. Fitzgerald)
         if strict:
             apart, group = True, {p["name"]}
         if len(group) > 1:

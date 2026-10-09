@@ -23,7 +23,7 @@ STYLE:
     Statistics, by year and page; pointers: Exec. (the roster at a term), Cong. (a Congress at its opening),
     Election, Cal.
  6. Each run of sentences sharing their sources and pointers is a sentence block; its source block follows it,
-    the cites first, then the pointers.
+    the cites first, then the pointers; each sentence block is a paragraph.
  5. FRUS headings with 'from' in lower case; works from the Directory's bibliography in the series' form.
 """
 import datetime
@@ -32,6 +32,7 @@ import json
 import sys
 import os
 import re
+from collections import defaultdict
 
 from . import store
 from .markup import to_html, plain, lower_from
@@ -86,6 +87,43 @@ def split_name(name):
     bare = re.sub(r"\s*\([^)]*\)", "", name)
     p = [x.strip() for x in bare.split(",")]
     return p[0], (p[1] if len(p) > 1 else "")
+
+
+def everyone(series):
+    """people(), and every person FRUS's lists of persons give whom no name entry holds (sources/frus-names/
+    persons.json, written by tools/lives/frus_names.py --all): an entry of his own, with each volume's description.
+    Kept apart from the matching of races, namesakes and authors, which go by people() alone."""
+    def make():
+        ps = list(cached("people", lambda: people(series)))
+        keys = {key_of(p["name"]) for p in ps}
+        path = os.path.join(store.ROOT, "sources", "frus-names", "persons.json")
+        extra = json.load(open(path, encoding="utf-8")) if os.path.exists(path) else {}
+        for k, v in extra.items():
+            if k in keys:
+                continue
+            sur, given = split_name(v["name"])
+            ps.append({"name": v["name"], "sur": sur, "given": given, "names": set(v["names"]) | {v["name"]},
+                       "ranks": {(v["name"], 3)}, "frus": True})
+        return sorted(ps, key=lambda p: (fold(p["sur"]), fold(p["given"])))
+    return cached("everyone", make)
+
+
+def natural(name):
+    """A name written in its own order, family name first or a single name, without a comma: 'Mao Zedong', 'Ngo Dinh
+    Diem', 'Souphanouvong', 'Malcolm X'. The whole name stands as the surname; its other forms (romanizations, the
+    form a source lists or a text uses: 'Mao Tse-tung', 'Diem, Ngo Dinh', 'President Diem') are in
+    sources/name-forms.yaml."""
+    return "," not in re.sub(r"\s*\([^)]*\)", "", name)
+
+
+def name_forms(name):
+    """The forms of a natural-order name: the name as written (its own script dropped), then those of
+    sources/name-forms.yaml."""
+    def make():
+        return store.load_yaml(os.path.join(store.ROOT, "sources", "name-forms.yaml")) or {}
+    bare = re.sub(r"\s*\([^)]*\)", "", name).strip()
+    latin = re.sub(r"\s*[^\x00-\u024f\u1e00-\u1eff]+$", "", bare).strip()
+    return list(dict.fromkeys([latin] + list(cached("name-forms", make).get(latin) or [])))
 
 
 SUFFIX = {"jr", "sr", "ii", "iii", "iv"}
@@ -784,6 +822,11 @@ def problems(series):
             for c in rd.get("cands") or []:
                 if len(c) != 4 or (c[2] is not None and not isinstance(c[2], int)):
                     yield "elections/primaries.yaml", f"{k}, {rd.get('label')}: {c}: [name, party, votes, share]"
+    pkeys = {key_of(p["name"]) for p in everyone(series)}
+    for k, es in calendar_tagged(series).items():  # the calendar's hidden name tags: each a person's entry
+        if k not in pkeys:
+            for e in es:
+                yield "lists/cal", f"{e['id']}: tag name:{k} names no person (the key of a name entry: name:mcnamara-robert-s)"
     for n, v in race_matches().items():
         if n not in names:
             yield where, f"{n}: no person of that name"
@@ -1237,15 +1280,36 @@ def subjects(ptrs, name, ok):
     return out
 
 
-def calendar_of(ptrs, subs):
-    """The calendar entries whose 'Names:' line names one of the person's Part III entries, by date."""
+def calendar_tagged(series):
+    """{person key: [calendar entries]}: the hidden tags 'name:<key>' on calendar entries, the key that of the
+    person's name entry (key_of: 'name:mcnamara-robert-s'). Kept by hand; not shown."""
+    def make():
+        out = defaultdict(list)
+        for l in series.lists.values():
+            if l.kind != "calendar":
+                continue
+            for s, e in l.entries():
+                for tg in e.get("tags") or []:
+                    if str(tg).startswith("name:"):
+                        out[str(tg)[5:]].append(e)
+        return out
+    return cached("calendar-tagged", make)
+
+
+def calendar_of(ptrs, subs, key=None, series=None):
+    """The calendar entries of a person, by date: those whose 'Names:' line names one of his Part III entries, and
+    those tagged 'name:<his key>' (every person the entry's statement names, President included)."""
     out, seen = [], set()
     for l, s, x in subs:
         for e in ptrs.calx.get(x["id"], []):
             if e["id"] not in seen:
                 seen.add(e["id"])
                 out.append(e)
-    return sorted(out, key=lambda e: e["date"])
+    for e in (calendar_tagged(series).get(key, []) if key and series is not None else []):
+        if e.get("date") and e["id"] not in seen:
+            seen.add(e["id"])
+            out.append(e)
+    return sorted(out, key=lambda e: str(e["date"]))
 
 
 def series_lines(subs, cal):
@@ -1267,8 +1331,10 @@ def calendar_sentences(ptrs, cal):
         if True:
             c = series_html(ptrs, store.as_list(e.get("c"))[0] if e.get("c") else "", "cal", e)
             n = series_html(ptrs, re.sub(r"\s*Names:.*$", "", e.get("n") or "").strip(), "cal", e) if e.get("n") else ""
+            # each calendar entry a paragraph of its own, its sources and pointer after it
             out.append(sent(e["date"], f"{esc(e['when'])}, {e['date'][:4]}: {c}", [n] if n else [],
-                            [ptr(f"{SITE}cal.html#{e['id']}", f"Cal. {esc(e['when'])}, {e['date'][:4]}")], kind="cal"))
+                            [ptr(f"{SITE}cal.html#{e['id']}", f"Cal. {esc(e['when'])}, {e['date'][:4]}")], para=True,
+                            kind="cal"))
     return out
 
 
@@ -1478,31 +1544,29 @@ def record_html(rows, rosters):
 
 
 def life_html(sents):
-    """Running text, in paragraphs at each office and election. Each run of sentences with the same sources and the
-    same pointers is one sentence block; its source block follows it: the cites, then the pointers."""
+    """Running text. Each run of sentences with the same sources and the same pointers is one sentence block, its
+    source block after it (the cites, then the pointers), and each sentence block is a paragraph; a new paragraph
+    also at each office and election, and at each calendar entry, where the sources run on."""
     paras, cur, block = [], [], None
 
     def close():
-        nonlocal block
+        nonlocal block, cur
         if block:
             ext, intl = block
             if ext:
                 cur.append(f'<span class="lvc">{"; ".join(x.rstrip(".") for x in ext)}.</span>')
             if intl:
                 cur.append('<span class="lvq">' + pointers(list(intl)) + "</span>")
-        block = None
+        if cur:
+            paras.append(" ".join(cur))
+        cur, block = [], None
     for s in sents:
         key = (tuple(dict.fromkeys(s["ext"])), tuple(dict.fromkeys(s["int"])))
         if block is not None and (key != block or s["para"]):
             close()
-        if s["para"] and cur:
-            paras.append(" ".join(cur))
-            cur = []
         cur.append(s["text"])
         block = key
     close()
-    if cur:
-        paras.append(" ".join(cur))
     return "".join(f'<p class="lvl">{p}</p>' for p in paras)
 
 
@@ -1589,6 +1653,8 @@ def frus_lists(name):
                              + (f" ({fmt(d)})" if d else "") for n, d in docs)
             sent_.append((first, f'{esc(title)}. <span class="lvc">{esc(lab)}, {"doc." if len(docs) == 1 else "docs."} '
                                  f'{nums}</span>'))
+        if not v["named"]:                   # a volume that lists the person and no document of it names him
+            continue
         # the numbers only; the page links each to its document (the script below), to keep the pages light
         docs = " ".join(esc(n) for n, _ in v["named"])
         k = len(v["named"])
@@ -1596,6 +1662,27 @@ def frus_lists(name):
                            f'{"doc." if k == 1 else "docs."} <span class="lvf" data-v="{esc(vol)}">{docs}</span>.'))
     sent_.sort()
     return [x for _, x in sent_], [x for _, x in sorted(named, key=lambda t: vol_order(t[0]))]
+
+
+def frus_roles(name):
+    """The descriptions FRUS's lists of persons give the person, each once, with the volumes that give it, in the
+    volumes' order ('French Ambassador to the United States. FRUS 1961–63, I; FRUS 1961–63, XXIV.')."""
+    from .executive_sources import frus_label
+    d = letter_json("frus-names", key_of(name)[:1].upper()).get(key_of(name), {})
+    by = {}
+    for vol in sorted(d, key=vol_order):
+        r = (d[vol].get("role") or "").strip()
+        if r:
+            by.setdefault(r[0].upper() + r[1:], []).append(vol)
+    def cites(vols):                     # 'FRUS 1958–60, I, II; 1961–63, XXIV'
+        subs = {}
+        for v in vols:
+            sub, _, rest = frus_label(v).partition(", ")
+            subs.setdefault(sub, []).append(rest.replace(", pt.", " pt.").replace(", microfiche", " microfiche"))
+        return "; ".join((sub if i == 0 else sub.replace("FRUS ", "")) + (", " + ", ".join(r for r in rs if r) if any(rs) else "")
+                         for i, (sub, rs) in enumerate(subs.items()))
+    return [f'<p class="lvd">{esc(r.rstrip("."))}. <span class="lvc">{esc(cites(vols))}.</span></p>'
+            for r, vols in by.items()]
 
 
 def vol_order(vol):
@@ -1642,9 +1729,9 @@ def app_list(name, sur):
 def person_for(series, name):
     """The person (people()) a name given on the command line is: the one holding it as written, else one whose
     names it agrees with."""
-    everyone = cached("people", lambda: people(series))
-    return (next((p for p in everyone if name in p["names"]), None)
-            or next((p for p in everyone if same_person(p["sur"], p["given"], *split_name(name))), None)
+    allp = everyone(series)
+    return (next((p for p in allp if name in p["names"]), None)
+            or next((p for p in allp if same_person(p["sur"], p["given"], *split_name(name))), None)
             or {"name": name, "sur": split_name(name)[0], "given": split_name(name)[1], "names": {name}})
 
 
@@ -1771,10 +1858,14 @@ def entry(series, linker, ptrs, p):
         es = suffix(re.sub(r"\s*\([^)]*\)\s*$", "", plain(s_)))
         return es == sfx if es not in ("", "Sr") else not strict
     subs = subjects(ptrs, name, ok)
-    cal = calendar_of(ptrs, [x for x in subs if (x[1].code or "").startswith("III")])
-    rp, e, races = person_races(series, p)
-    structured = (office_sentences(sur, given, names) + races
-                  + calendar_sentences(ptrs, cal) + pocom_sentences(p, bool(e)))
+    cal = calendar_of(ptrs, [x for x in subs if (x[1].code or "").startswith("III")], key_of(name), series)
+    if p.get("frus"):                    # a person FRUS's lists alone give: no roster, races or Directory
+        rp, e, races = [], None, []
+        structured = calendar_sentences(ptrs, cal)
+    else:
+        rp, e, races = person_races(series, p)
+        structured = (office_sentences(sur, given, names) + races
+                      + calendar_sentences(ptrs, cal) + pocom_sentences(p, bool(e)))
     record = [s_["row"] for s_ in structured if s_.get("row")]
     structured = [s_ for s_ in structured if s_["kind"] != "election"]
     life = merge(structured, bd_sentences(e) if e else [], [])
@@ -1796,6 +1887,8 @@ def entry(series, linker, ptrs, p):
         desc = re.sub(r" and (?:an?) ", " and ", re.sub(r"^(?:an?) ", "", desc))   # 'Senator from Minnesota and Vice President' 
         out.append(f'<p class="lvd">{esc(desc[0].upper() + desc[1:])}. <span class="lvc">{bd_cite(e)}.</span></p>')
     shown = None                         # the pointer the role line already gives, not repeated below it
+    if p.get("frus"):
+        out += frus_roles(name)
     if not e:
         roles = [(l, s_, x) for l, s_, x in subs if (s_.code or "").startswith("III") and x.get("r")]
         if roles:
@@ -1924,8 +2017,9 @@ document.addEventListener("DOMContentLoaded", function () {
 </script>"""
 
 
-INTRO = ['<p class="lede">A name entry for each person in the series, the Executive roster, and the Congresses at '
-         "their openings: the life, each fact with its source; then the person's publications and papers, the FRUS "
+INTRO = ['<p class="lede">A name entry for each person in the series, the Executive roster, the Congresses at '
+         "their openings, and the lists of persons of FRUS, 1952–76 (there, the list's description of the person, "
+         "volume by volume): the life, each fact with its source; then the person's publications and papers, the FRUS "
          "documents the person sent, the works on the person, and the FRUS and presidential documents that name the "
          "person.</p>",
          '<p class="logic">Sources: BD, the ' + to_html(BD_CITE) + ", by page; CDir., the *Congressional "
@@ -1968,12 +2062,12 @@ def pages(series, linker, template):
     global SITE, SERIES_FOR_LINKS
     SERIES_FOR_LINKS = series
     ptrs = Pointers(series, linker)
-    everyone = cached("people", lambda: people(series))
+    allp = everyone(series)
     by_letter = {}
-    for p in everyone:
+    for p in allp:
         by_letter.setdefault(letter_of(p), []).append(p)
     out = {}
-    index = ["<h1>Names</h1>"] + INTRO + [f'<p class="logic">{len(everyone):,} persons.</p>']
+    index = ["<h1>Names</h1>"] + INTRO + [f'<p class="logic">{len(allp):,} persons.</p>']
     nav = " ".join(f'<a class="lvp" href="names-{L}.html">{L.upper()}</a>' for L in sorted(by_letter))
     index.append(f'<p class="lvs">{nav}</p>')
     for L in sorted(by_letter):
@@ -2199,10 +2293,12 @@ def people(series):
     words = lambda t: set(re.findall(r"[a-z]{4,}", fold(t))) - STOP
     for l in series.lists.values():
         for s, e in l.entries():
-            if (s.code or "").startswith("III") and e.get("s") and "," in e["s"]:
+            # a name in its own order, without a comma, is a person too ('Mao Zedong', 'Ngo Dinh Diem', 'Malcolm X'),
+            # but not a group ('Wise Men', tagged 'group')
+            if (s.code or "").startswith("III") and e.get("s") and "group" not in (e.get("tags") or []):
                 for n in re.split(r";\s*", e["s"]):          # 'Dirksen, Everett M.; Kuchel, Thomas H.': two
                     n = re.sub(r"\s*\(.*?\)\s*$", "", n).strip()
-                    if "," in n:
+                    if n:
                         cands.append((n, 0))
                         role[n] = role.get(n, "") + " " + (e.get("r") or "") + " " + " ".join(x.title for x in chain(s))
     for u in X.load().values():
@@ -2220,6 +2316,10 @@ def people(series):
                     cands.append((r["name"], 2))
                     if r.get("given"):
                         full.setdefault(r["name"], r["given"])
+    mp = os.path.join(store.ROOT, "sources", "app-matches.yaml")
+    strict_sons = {n for n, v in ((store.load_yaml(mp) or {}) if os.path.exists(mp) else {}).items()
+                   if isinstance(v, dict) and v.get("strict")}
+
     def one(a, ra, b, rb):
         """Names a and b (from sources ra, rb) are one person: compatible with each other (every name the person
         has, so 'J. Skelly' and 'Jim' do not join through 'James'), and their suffixes agree. 'Jr.' and none may
@@ -2275,6 +2375,10 @@ def people(series):
         real = lambda x: x not in ("", "Sr")
         if real(sa) and real(sb) and sa != sb:
             return False
+        # a son known by his suffix (sources/app-matches.yaml, strict) is not his father written bare ('Clay,
+        # Lucius D.', the General; 'Clay, Lucius D., Jr.', his son)
+        if (a in strict_sons and not real(sb)) or (b in strict_sons and not real(sa)):
+            return False
         if ra != rb:
             return True
         # within one source. The Congress rosters write each member one way: two names are two members (Charles
@@ -2295,7 +2399,7 @@ def people(series):
         exact.setdefault(name, set()).add(rank)
     for name, ranks in sorted(exact.items(), key=lambda x: (min(x[1]), suffix(x[0]) in ("", "Sr"), x[0])):
         sur, given = split_name(name)
-        if not given:
+        if not given and not (natural(name) and 0 in ranks):
             continue
         mine = {(name, r) for r in ranks}
         group = by_sur.setdefault(fold(sur), [])

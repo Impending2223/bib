@@ -135,6 +135,8 @@ class Pointers:
         suffix = " ".join(parts[2:])
         g = store.fold(given).split()
         ks = []
+        if "," not in bare:              # a name in its own order ('Ngo Dinh Diem'): the whole name, as refs keys it
+            ks.append(store.fold(bare))
         if g:
             ks.append(f"{store.fold(sur)} {g[0]}")
         if nick:

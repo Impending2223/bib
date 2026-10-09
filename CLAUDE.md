@@ -44,12 +44,18 @@ So every calendar entry has:
   - the event elsewhere in the series: the list sections that treat it ("K–J Adm. II.D"), where the bibliography
     has not already given them.
   - `Names: …`, the list and Part III section of every person in `c` who has a Part III entry ("Names, events").
+- `tags`: a hidden `name:<key>` (the name entry's anchor: `name:mcnamara-robert-s`) for every person the entry
+  names or whose act it records and who has a name entry, the President included where the entry is his message,
+  address, press conference, signature, order, proclamation, NSAM, meeting, or a poll of his approval. Tags are not
+  shown; they put the entry in the person's life (Names), as do the persons of `Names:`. A namesake is not tagged
+  (Edward McCormack is not the Speaker; Lucius Clay of Berlin is not his son), nor a name in a case's title.
+  `check` fails on a key that names no person.
 
 Each thread in `th.yaml` has a brief statement (`c`), as the owner asked: what the thread is, and its stations, in
 one or two clipped sentences.
 
 `./bib audit-cal` checks the dated entries against these rules and writes `notes/calendar-audit.md`: persons in `c`
-missing from `Names:`, entries with neither a bibliography nor a `See`, entries with no primary record or with one
+in neither `Names:` nor a `name:` tag, entries with neither a bibliography nor a `See`, entries with no primary record or with one
 named but not linked, and the thread statements.
 
 **Bibliography notes.** One or two fragments: what the book is, whose voice,
@@ -398,10 +404,23 @@ notes/executive-brief.md      the brief for whoever adds to the roster, person o
 
 `./bib build` writes `build/names.html` (the index) and `build/names-a.html` … `names-z.html`: a name
 entry for each person in Part III, the Executive roster, and the Congresses at their openings (`people` in
-`tools/bib/lives.py`: one entry a person). `./bib names` builds those pages alone; `./bib names 'Humphrey, Hubert H.'
+`tools/bib/lives.py`: one entry a person), and for each person FRUS's lists of persons (1952–76) give whom none of
+those holds (`everyone`; `sources/frus-names/persons.json`, written by `frus_names.py --all`). Such an entry shows
+each description the lists give, with its volumes, then the documents; it takes no races, roster or Directory, and
+the matching of races, namesakes and authors goes by `people` alone. The lists' persons join across volumes by name
+(`join`: the same name; initials for names; either order, "Thanat Khoman" and "Khoman, Thanat"); a listed person who
+may be someone the series holds (the same surname, the first name alike by initial, short form, or a misprint with
+the same middle initial: `loose`) gets no entry of his own. Where a list's persName holds the surname alone, the
+given names come from the text after it (`recover`). `./bib names` builds those pages alone; `./bib names 'Humphrey, Hubert H.'
 [--site URL] [--out FILE]` one page. The old `lives*.html` addresses forward to the new ones (`./bib lives` still works).
 The scroll wheel and the Outline drawer give each entry's full name; the top bar its surname (`data-crumb`).
 A Part III entry for two people writes them apart with ";" (`s: Evans, Rowland, Jr.; Novak, Robert D.`), never "&".
+A name written in its own order, without a comma (Mao Zedong, Ngo Dinh Diem, Souphanouvong, U Thant, Malcolm X), is a
+person too (`natural`): the whole name stands as the surname, and its other forms (romanizations, the forms FRUS lists
+and the Public Papers use: Mao Tse-tung, "Diem, Ngo Dinh", President Diem) are in `sources/name-forms.yaml`, kept by
+hand; FRUS and APP find the person by those. A Part III entry for a group (Wise Men, Chicago defendants) is tagged
+`group` and has no name entry. A person the calendar names who fits no other Part III section goes in K–J Cong. III.K,
+"Others named in the calendar".
 
 Names link to their entries throughout (`tools/bib/namelinks.py`), muted: class `nm`, the text's own color and
 a faint underline. Linked: the calendar's "Names:" (by the Part III section given), Part III subjects, the
@@ -419,7 +438,8 @@ not a suffix; the Executive roster may drop a suffix but not an initial (its bar
 B. Anderson). A bare name joins a fuller one from another source only with support: Part III's role shares a word
 with the roster's office, or Part III's man sat in Congress, or the member's Directory entry gives Part III's role.
 A short form ("Bob") joins only through the roster's "(Bob)", agreeing middle initials, or a role in Congress. A
-father written bare and a son with "Jr." stay two (Harry F. Byrd; Barry M. Goldwater); the son's pointers, returns,
+father written bare and a son with "Jr." stay two (Harry F. Byrd; Barry M. Goldwater; a son `strict` in
+`sources/app-matches.yaml` is never his father written bare: Lucius D. Clay and Lucius D. Clay, Jr.); the son's pointers, returns,
 and FRUS documents go by his suffix, and a FRUS document naming the father bare after his death (the Directory's
 year) is the son's. To keep two roster spellings of one man together, write them alike.
 
@@ -475,7 +495,8 @@ leaves out the pointer the role line already gives (and is left out where that w
   entry's own sources. The series' pages are pointers, not sources: Exec. 1965, 87th, 88th Cong., Election 1960,
   Cal. Jan. 3, 1961, list sections — in the headings' sans serif, not underlined.
 - A run of sentences with the same sources and pointers is a sentence block; its source block follows it: the
-  cites, then the pointers. A new paragraph at each office and election.
+  cites, then the pointers. Each sentence block is a paragraph; a new one also at each office and election, and at
+  each calendar entry, where the sources run on.
 - An office is followed by the offices held ex officio by virtue of it, with their dates only where they differ.
 - The Directory's color is cut (`CUT`); its bibliography is put in the series' form ("Timothy N. Thurber, *The
   Politics of Equality* (1999)"). FRUS headings with "from" in lower case.
@@ -495,6 +516,7 @@ sources/pocom-matches.yaml    kept by hand: overrides to the name matches (Name:
 sources/race-matches.yaml     kept by hand: races refused or confirmed for a person, each with its reason
 sources/app-matches.yaml      kept by hand: a bare name two persons share, given to one for some years; a son known
                               only by his suffix (strict: Roosevelt, Hoover, Clay, MacArthur, Taft, Stevenson III)
+sources/name-forms.yaml       kept by hand: the other forms of each name Part III writes in its own order (Mao Tse-tung)
 ```
 
 Namesakes in the FRUS and APP indexes: a further given name or initial tells two apart ('John W.' is not 'John G.';
