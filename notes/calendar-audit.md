@@ -3,15 +3,15 @@
 Written by `./bib audit-cal` (`tools/bib/calaudit.py`): the dated entries checked against the brief in
 CLAUDE.md ("The calendar"). A review list: a hit is a place to look, not an error. Rerun after editing.
 
-448 dated entries.
+499 dated entries.
 
 | Check | Entries |
 |---|---|
-| A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 36 |
-| (of which only a President's surname: Eisenhower, Kennedy, Johnson) | 0 |
+| A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 44 |
+| (of which only a President's surname: Eisenhower, Kennedy, Johnson) | 1 |
 | Neither a bibliography of its own nor a `See [[id]]` back | 9 |
-| No primary record linked or named | 92 |
-| A primary record named but not linked | 0 |
+| No primary record linked or named | 97 |
+| A primary record named but not linked | 1 |
 | Threads (statements listed for review) | 44 |
 
 ## Names
@@ -59,7 +59,7 @@ the person; several mean the surname is shared). "?" marks a surname that is als
 - `cal.1962-06-25.mississippi` (June 25, XX jun62.yaml): Fifth Circuit, Wisdom writing: Meredith refused for his race; admit him. Cameron's stays follow.
   - Meredith: Meredith, James H. (K–J Cong. III.H)
 - `cal.1962-08-27.elections-1962` (Aug. 27, XXII aug62.yaml): Edward Kennedy and McCormack debate in South Boston. "If his name was Edward Moore, with his qualifications . 
-  - Moore: Moore, Harold G. (Viet. III.D)
+  - Moore: Moore, William L. (K–J Cong. III.K); Moore, Harold G. (Viet. III.D)
 - `cal.1962-09-20.mississippi` (Sept. 20–26, XXIII sep62.yaml): Barnett, as special registrar, refuses Meredith at Oxford. Again at Jackson, Sept. 25. Lieutenant Governor Joh
   - ? Jackson: Jackson, Henry M. (K–J Cong. III.B, Cong. III.B)
 - `cal.1962-10-27.missile-crisis` (Oct. 27, XXIV oct62.yaml): Black Saturday. Second letter, broadcast: the Jupiters in Turkey added. Anderson's U-2 shot down over Cuba; an
@@ -69,6 +69,8 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - ? Black: Black, Hugo L. (K–J Cong. III.G)
 - `cal.1963-02-06.economy` (Feb. 6, XXVIII feb63.yaml): Ways and Means opens hearings on the tax message, Dillon first. They run to Mar. 27.
   - Means: Means, Russell (Cong. III.K)
+- `cal.1963-02-12.civil-rights-the-executive` (Feb. 12, XXVIII feb63.yaml): Lincoln's Birthday. The Civil Rights Commission presents *Freedom to the Free*, its report on the century sinc
+  - ? Lincoln: Lincoln, Evelyn (K–J Adm. III.B)
 - `cal.1963-02-25.court` (Feb. 25, XXVIII feb63.yaml): *Edwards v. South Carolina*, [372 U.S. 229](https://tile.loc.gov/storage-services/service/ll/usrep/usrep372/us
   - ? Black: Black, Hugo L. (K–J Cong. III.G)
 - `cal.1963-03-18.court` (Mar. 18, XXIX mar63.yaml): *Gideon v. Wainwright*, [372 U.S. 335](https://tile.loc.gov/storage-services/service/ll/usrep/usrep372/usrep37
@@ -79,8 +81,8 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - ? Black: Black, Hugo L. (K–J Cong. III.G)
 - `cal.1963-05-04.elections-1964` (May 4, XXXI may63.yaml): Rockefeller, divorced in 1962, marries Margaretta Fitler Murphy, divorced a month before.
   - Murphy: Murphy, George (Opp. III.B); Murphy, Charles S. (1968 III.A)
-- `cal.1963-05-11.alabama` (May 11–13, XXXI may63.yaml): Bombs at A. D. King's house and the Gaston Motel, the night of the 11th. Rioting till morning. May 12, on tele
-  - ? King: King, Marion (K–J Cong. III.H); King, Martin Luther, Jr. (K–J Cong. III.H, Viet. III.E)
+- `cal.1963-05-11.alabama` (May 11–13, XXXI may63.yaml): Bombs at the house of King's brother and at the Gaston Motel, the night of the 11th. Rioting till morning. May
+  - ? King: King, Marion (K–J Cong. III.H); King, Martin Luther, Jr. (K–J Cong. III.H, Viet. III.E); King, Coretta Scott (K–J Cong. III.K)
 - `cal.1963-05-20.court` (May 20, XXXI may63.yaml): The sit-in cases. *Peterson v. City of Greenville*, [373 U.S. 244](https://tile.loc.gov/storage-services/servi
   - Peterson: Peterson, Esther (K–J Adm. III.G)
 - `cal.1963-05-27.court` (May 27, XXXI may63.yaml): *Watson v. City of Memphis*, [373 U.S. 526](https://tile.loc.gov/storage-services/service/ll/usrep/usrep373/us
@@ -93,6 +95,21 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - ? Jackson: Jackson, Henry M. (K–J Cong. III.B, Cong. III.B)
 - `cal.1963-06-17.court` (June 17, XXXII jun63.yaml): *Abington School District v. Schempp*, [374 U.S. 203](https://tile.loc.gov/storage-services/service/ll/usrep/u
   - Lord: Lord, Winston (Adm. III.D, Viet. III.B)
+- `cal.1963-07-14.elections-1964` (July 14, XXXIII jul63.yaml): Rockefeller's statement against the "radical right": the Young Republicans' convention at San Francisco in Jun
+  - ? Young: Young, Whitney M., Jr. (K–J Cong. III.H); Young, David R. (Wg. III.A)
+- `cal.1963-09-02.alabama` (Sept. 2–6, XXXV sep63.yaml): Alabama's schools open under court orders. Sept. 2: Wallace's troopers close Tuskegee High. Sept. 4: two Black
+  - ? Black: Black, Hugo L. (K–J Cong. III.G)
+- `cal.1963-09-09.alabama` (Sept. 9–10, XXXV sep63.yaml): Alabama's federal district judges, all of them, enjoin Wallace from blocking the schools, Sept. 9; he sends th
+  - ? Black: Black, Hugo L. (K–J Cong. III.G)
+- `cal.1963-09-12.opinion` (Sept. 12–17, XXXV sep63.yaml): Gallup: 56 percent approve, 29 disapprove, the low of the presidency. From 61 in late July and 62 in mid-Augus
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1963-09-15.alabama` (Sept. 15, XXXV sep63.yaml): Sunday morning. Dynamite at the Sixteenth Street Baptist Church, Birmingham. Four girls killed: Addie Mae Coll
+  - ? Church: Church, Frank (K–J Cong. III.B, Cong. III.B, Viet. III.E)
+  - ? Black: Black, Hugo L. (K–J Cong. III.G)
+- `cal.1963-09-16.trade` (Sept. 16, XXXV sep63.yaml): Canada sells the Soviet Union wheat worth about $500 million. Soviet buyers ask after American wheat. Kennedy'
+  - Kennedy: Kennedy, Jacqueline (K–J Adm. III.A); Kennedy, Joseph P. (K–J Adm. III.A); Kennedy, Robert F. (K–J Adm. III.A, K–J Cong. III.B, 1968 III.K); Kennedy, Edward M. (K–J Cong. III.B, 1968 III.K, 1968 III.P, Cong. III.A); Kennedy, John F. (Viet. III.A)
+- `cal.1963-09-19.alabama` (Sept. 19–23, XXXV sep63.yaml): Kennedy sees Birmingham's Black leaders, King among them, Sept. 19; names Royall and Blaik to represent him in
+  - ? Black: Black, Hugo L. (K–J Cong. III.G)
 
 ## Event
 
@@ -195,21 +212,27 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1962-12-20.latin-america` (Dec. 20, XXVI dec62.yaml): Bosch elected president of the Dominican Republic.
 - `cal.1963-01-14.alabama` (Jan. 14, XXVII jan63.yaml): Wallace inaugurated at Montgomery. "Segregation now, segregation tomorrow, segregation forever."
 - `cal.1963-02-06.economy` (Feb. 6, XXVIII feb63.yaml): Ways and Means opens hearings on the tax message, Dillon first. They run to Mar. 27.
+- `cal.1963-02-19.program` (Feb. 19, XXVIII feb63.yaml): Friedan's *The Feminine Mystique* published.
 - `cal.1963-02-28.mississippi` (Feb. 28, XXVIII feb63.yaml): Jimmy Travis of SNCC shot on the highway outside Greenwood; Moses beside him unhurt. SNCC and COFO bring their
 - `cal.1963-03-27.mississippi` (Mar. 27–30, XXIX mar63.yaml): Greenwood police set a dog on Black citizens walking home from the registrar; a minister bitten. SNCC workers 
 - `cal.1963-03-31.press-and-broadcasting` (Mar. 31, XXIX mar63.yaml): New York newspaper strike ends after 114 days. The papers back Apr. 1.
 - `cal.1963-04-08.elections-1964` (Apr. 8, XXX apr63.yaml): National Draft Goldwater Committee announced. O'Donnell, the Texas Republican chairman, at its head; White its
 - `cal.1963-04-23.alabama` (Apr. 23, XXX apr63.yaml): William Moore, a Baltimore postman walking alone to Mississippi with a letter for Barnett, shot dead on the hi
-- `cal.1963-05-02.alabama` (May 2–7, XXXI may63.yaml): Birmingham. The children's march: hundreds of schoolchildren arrested, May 2. May 3: Connor turns fire hoses a
 - `cal.1963-05-04.elections-1964` (May 4, XXXI may63.yaml): Rockefeller, divorced in 1962, marries Margaretta Fitler Murphy, divorced a month before.
 - `cal.1963-05-24.civil-rights-the-executive` (May 24, XXXI may63.yaml): Robert Kennedy meets James Baldwin and a dozen others Baldwin brought, at the Kennedy apartment in New York. T
 - `cal.1963-05-28.mississippi` (May 28, XXXI may63.yaml): Jackson. Tougaloo students sit in at Woolworth's lunch counter; a crowd beats them for three hours, police out
 - `cal.1963-05-30.civil-rights-the-executive` (May 30, XXXI may63.yaml): Johnson at Gettysburg, Memorial Day: "The Negro today asks justice." Emancipation a proclamation, not a fact, 
 - `cal.1963-06-11.specials` (June 11, XXXII jun63.yaml): California 23d, special. Del Clawson (R) takes Clyde Doyle's seat, 53.2 to 35.4 over Carley Porter (D), four o
 - `cal.1963-06-22.civil-rights-bill` (June 22, XXXII jun63.yaml): Kennedy meets some thirty civil rights leaders, King, Randolph, Wilkins, Young, Farmer, and Lewis among them. 
+- `cal.1963-07-04.elections-1964` (July 4, XXXIII jul63.yaml): Draft Goldwater rally, National Guard Armory, Washington. Police count over 7,000. Tower the speaker; O'Donnel
+- `cal.1963-07-14.elections-1964` (July 14, XXXIII jul63.yaml): Rockefeller's statement against the "radical right": the Young Republicans' convention at San Francisco in Jun
+- `cal.1963-07-23.civil-rights-the-executive` (July 23, XXXIII jul63.yaml): Cambridge, Maryland, under the Guard since June. At Justice, Robert Kennedy brings Gloria Richardson and the c
+- `cal.1963-07-26.civil-rights-the-executive` (July 26, XXXIII jul63.yaml): McNamara's directive on the Gesell Committee's report: commanders to oppose discrimination against their men o
+- `cal.1963-07-30.specials` (July 30, XXXIII jul63.yaml): Pennsylvania 15th, special. Fred B. Rooney (D) holds the seat of Francis E. Walter (D), who died May 31; 53.5 
 
 ### Named, not linked
 
+- `cal.1963-08-30.testing` (Aug. 30, XXXIV aug63.yaml): The hot line in operation. Teletype, Washington to Moscow by way of London, Copenhagen, Stockholm, and Helsink — names "S. 1"
 
 ## Threads
 
