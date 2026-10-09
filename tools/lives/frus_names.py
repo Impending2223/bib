@@ -209,6 +209,10 @@ def same_word(x, y, prefix=True):
         return True
     if prefix and min(len(x), len(y)) >= 3 and (x.startswith(y) or y.startswith(x)):
         return True
+    tr = lambda w: w.replace('ks', 'x').replace('iy', 'y').replace('ij', 'y').replace('ii', 'i').replace('kh', 'h')
+    x, y = tr(x), tr(y)                  # one transliteration of another ('Aleksei', 'Alexei'; 'Anatoliy', 'Anatoly')
+    if x == y:
+        return True
     return min(len(x), len(y)) >= 4 and x[0] == y[0] and SequenceMatcher(None, x, y).ratio() >= 0.8
 
 
@@ -360,6 +364,14 @@ def scan(git, targets, heirs=None, naturals=None, found=None):
             continue
         P, roles = M.persons(root)
         desc = descriptions(root)
+        # a description that runs on into another person the list gives ('... British Foreign Office Caglayangil,
+        # Ihsan Sabri, Turkish Foreign Minister'): cut where that person's name begins
+        listed = {M.clean(''.join(pn.itertext())) for pn in root.iter(M.T + 'persName') if pn.get(M.XID)}
+        listed = [x for x in listed if ',' in x and len(x) > 6]
+        for i, d in desc.items():
+            cuts = [d.find(x) for x in listed if x in d]
+            if cuts:
+                desc[i] = d[:min(cuts)].strip(' ,.;:—–-')
         pn_text = {pn.get(M.XID): M.clean(''.join(pn.itertext())) for pn in root.iter(M.T + 'persName') if pn.get(M.XID)}
         P.update({i: ERRATA[(vol, i)] for i in P if (vol, i) in ERRATA})
         ids = {}                                   # xml:id -> person key

@@ -1677,7 +1677,9 @@ def same_post(a, b):
     """Two descriptions of one post in other words: nearly all the telling words of the shorter in the longer (dates,
     articles, prepositions aside) and most of the longer's, and no word of rank or office in one that the other lacks ('Permanent
     Representative of France at the United Nations' and 'French Representative at the United Nations'; not 'Deputy
-    Representative' and 'Permanent Representative')."""
+    Representative' and 'Permanent Representative'); and not where each names a place the other does not ('British
+    Ambassador in Austria; Deputy Under Secretary in the British Foreign Office' is not 'Deputy Under Secretary of the
+    British Foreign Office; Ambassador to the United States')."""
     def w(t):
         t = fold(re.sub(r"\([^)]*\)|;\s*also\b.*", " ", t.lower()))   # '(Premier)'; '; also Member of the Politburo'
         for x, y in (("union of soviet socialist republics", "soviet"), ("united soviet socialist republics", "soviet"),
@@ -1688,6 +1690,15 @@ def same_post(a, b):
         return {x for x in re.findall(r"[a-z]+", t) if x not in POST_SMALL and len(x) > 1}
     A, B = w(a), w(b)
     if not A or not B:
+        return False
+    # the places the posts are in, where both give them: 'in Austria' is not 'to the United States'
+    def at(t):
+        t = re.sub(r"\([^)]*\)", " ", t).replace("French", "France").replace("British", "Britain")
+        months = r"(?!(?:January|February|March|April|May|June|July|August|September|October|November|December)\b)"
+        return {re.sub(r"^(?:britain|france|the)\s+", "", fold(x).lower().strip()) for x in
+                re.findall(rf"\b(?:to|in|at|for|of)\s+(?:the\s+)?((?:{months}[A-Z][\w’'-]*\.?\s?)+)", t)}
+    Pa, Pb = at(a), at(b)
+    if Pa - Pb and Pb - Pa:              # each names a place the other does not
         return False
     if (A ^ B) & POST_RANK:
         return False
