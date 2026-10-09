@@ -2,4 +2,91 @@
 # Entries in display order. See CLAUDE.md for the fields. Run ./bib check after editing.
 list: cal
 section: jan65
-entries: []
+entries:
+  - id: cal.1965-01-02.congress
+    when: Jan. 2
+    date: '1965-01-02'
+    thread: congress
+    c: House Democratic caucus. McCormack renominated for Speaker. Watson of South Carolina and Williams of Mississippi, who backed Goldwater, stripped of their seniority.
+    n: '[111 Cong. Rec., House, Jan. 4, 1965](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt1/pdf/GPO-CRECB-1965-pt1-1-2.pdf) (McCormack: "on Saturday last"). Peabody, *Leadership in Congress* (Opp. II.D). Zelizer, *On Capitol Hill* (K–J Cong. II.A). See [[cal.1964-11-03.elections-1964]]. Names: McCormack (K–J Cong. III.C); Goldwater (Opp. III.B).'
+    tags: [name:mccormack-john-w, name:watson-albert-w, name:williams-john-b, name:goldwater-barry-m]
+  - id: cal.1965-01-02.voting-rights
+    when: Jan. 2
+    date: '1965-01-02'
+    thread: voting-rights
+    also: [alabama]
+    c: Selma. King at Brown Chapel, against a State court's injunction on meetings. The campaign to register Dallas County's Black citizens begins.
+    n: 'Garrow, *Protest at Selma*; Lawson, *Black Ballots*; May, *Bending Toward Justice* (K–J Cong. II.C). Branch, *Pillar of Fire*; Kotz, *Judgment Days* (K–J Adm. II.C). Lewis, *Walking with the Wind* (K–J Cong. II.I.4). See [[cal.1964-12-10.voting-rights]]. Names: King (K–J Cong. III.H).'
+    tags: [name:king-martin-luther-jr]
+  - id: cal.1965-01-04.congress-2
+    when: Jan. 4
+    date: '1965-01-04'
+    thread: congress
+    also: [elections-1964]
+    c: House Republicans, in conference, choose Ford over Halleck for minority leader, 73–67.
+    n: 'Peabody, *The Ford-Halleck Minority Leadership Contest, 1965*; Peabody, *Leadership in Congress*; Jones, *The Minority Party in Congress* (Opp. II.D). Ford, *A Time to Heal*; Scheele, *Charlie Halleck* (Opp. II.G.2). See [[cal.1963-01-09.congress]]. Names: Ford, Halleck (K–J Cong. III.C; Opp. III.C).'
+    tags: [name:ford-gerald-r, name:halleck-charles-a]
+  - id: cal.1965-01-04.congress
+    when: Jan. 4
+    date: '1965-01-04'
+    thread: congress
+    also: [rules]
+    c: '89th Congress convenes. Senate 68 D–32 R; House 295 D–140 R. McCormack Speaker over Ford, [289–139](https://voteview.com/rollcall/RH0890001). The five Mississippians seated over the Freedom Democrats'' challenge, Ryan objecting: the previous question, [276–149](https://voteview.com/rollcall/RH0890002). New rules, [224–202](https://voteview.com/rollcall/RH0890003) on the previous question: the 21-day rule restored; a bill sent to conference by majority vote.'
+    n: 'H.R. Res. 1, H.R. Res. 8, 89th Cong. [111 Cong. Rec., House, Jan. 4, 1965](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt1/pdf/GPO-CRECB-1965-pt1-1-2.pdf); [111 Cong. Rec., Senate, Jan. 4, 1965](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt1/pdf/GPO-CRECB-1965-pt1-1-1.pdf). Robinson, *The House Rules Committee*; MacNeil, *Forge of Democracy*; Bolling, *House Out of Order*; Zelizer, *On Capitol Hill* (K–J Cong. II.A). Zelizer, *The Fierce Urgency of Now* (K–J Cong. II.B). Dittmer, *Local People* (K–J Cong. II.F). CQ Almanac 1965; *Congress and the Nation*, vol. 2 (K–J Cong. II.L). See [[cal.1963-01-09.congress]]; [[cal.1963-01-09.rules]]. Names: McCormack, Ford (K–J Cong. III.C).'
+    tags: [congress:89, name:mccormack-john-w, name:ford-gerald-r, name:ryan-william-f]
+  - id: cal.1965-01-04.program
+    when: Jan. 4
+    date: '1965-01-04'
+    thread: program
+    c: 'State of the Union: "the Great Society." Education, $1.5 billion the first year; hospital care under Social Security; the war on poverty doubled; "every remaining obstacle" to the vote removed; immigration by a man''s work, not his birthplace; a Department of Housing and Urban Development; excise taxes cut. Vietnam: "We will not break it now."'
+    n: '[Annual Message to the Congress on the State of the Union](https://www.presidency.ucsb.edu/documents/annual-message-the-congress-the-state-the-union-26) (Jan. 4, 1965). [111 Cong. Rec., House, Jan. 4, 1965](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt1/pdf/GPO-CRECB-1965-pt1-1-2.pdf). Zelizer, *The Fierce Urgency of Now*; Sundquist, *Politics and Policy* (K–J Cong. II.B). Dallek, *Flawed Giant* (K–J Adm. II.A). Johnson, *The Vantage Point* (K–J Adm. II.G.3). See [[cal.1964-01-08.program]]; [[cal.1964-05-22.program]].'
+    tags: [name:johnson-lyndon-b]
+    short: State of the Union
+    to:
+      - medicare: cal.1965-01-07.medicare
+      - health: cal.1965-01-07.medicare
+      - school-aid: cal.1965-01-12.school-aid
+      - immigration: cal.1965-01-13.immigration
+  - id: cal.1965-01-07.medicare
+    when: Jan. 7
+    date: '1965-01-07'
+    thread: medicare
+    also: [health]
+    c: 'Health message. Hospital insurance for those over 65 under Social Security: hospital and post-hospital care, home nursing, outpatient diagnosis; for those outside Social Security, from the administrative budget. Regional centers against heart disease, cancer, and stroke. The King–Anderson bill: H.R. 1, Jan. 4; S. 1, Jan. 6.'
+    n: '[Special Message to the Congress: "Advancing the Nation''s Health"](https://www.presidency.ucsb.edu/documents/special-message-the-congress-advancing-the-nations-health) (Jan. 7, 1965). [111 Cong. Rec., House, Jan. 4, 1965](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt1/pdf/GPO-CRECB-1965-pt1-1-2.pdf); [111 Cong. Rec., Senate, Jan. 6, 1965](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt1/pdf/GPO-CRECB-1965-pt1-3-2.pdf). See [[cal.1961-02-09.medicare]]; [[cal.1964-12-09.health]]. Names: Anderson (K–J Cong. III.B).'
+    tags: [name:johnson-lyndon-b, name:king-cecil-r, name:anderson-clinton-p]
+  - id: cal.1965-01-12.school-aid
+    when: Jan. 12
+    date: '1965-01-12'
+    thread: school-aid
+    c: 'Education message. $1 billion to schools serving children of low-income families, paid through the States by the census count of such families in each district; books for children in public and private schools; supplementary centers; regional laboratories; college scholarships and loans. H.R. 2362 (Perkins) and S. 370 (Morse) introduced the same day.'
+    n: '[Special Message to the Congress: "Toward Full Educational Opportunity"](https://www.presidency.ucsb.edu/documents/special-message-the-congress-toward-full-educational-opportunity) (Jan. 12, 1965). [111 Cong. Rec., House, Jan. 12, 1965](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt1/pdf/GPO-CRECB-1965-pt1-7-2.pdf); [111 Cong. Rec., Senate, Jan. 12, 1965](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt1/pdf/GPO-CRECB-1965-pt1-7-1.pdf). Eidenberg & Morey, *An Act of Congress*; Bailey & Mosher, *ESEA* (K–J Cong. II.B). Graham, *The Uncertain Triumph* (K–J Adm. II.B). See [[cal.1961-02-20.school-aid]]. Names: Perkins (K–J Cong. III.D); Morse (K–J Cong. III.B).'
+    tags: [name:johnson-lyndon-b, name:perkins-carl-d, name:morse-wayne]
+  - id: cal.1965-01-12.elections-1964
+    when: Jan. 12
+    date: '1965-01-12'
+    thread: elections-1964
+    c: Burch to leave the Republican national chairmanship Apr. 1, after meeting Goldwater in Phoenix; Bliss, the Ohio chairman, to succeed him. Check the date.
+    n: 'Kabaservice, *Rule and Ruin*; Rae, *The Decline and Fall of the Liberal Republicans* (Opp. II.A). See [[cal.1964-11-04.elections-1964]]. Names: Burch, Bliss (Opp. III.E); Goldwater (Opp. III.B).'
+    tags: [name:burch-dean, name:bliss-ray-c, name:goldwater-barry-m]
+  - id: cal.1965-01-13.immigration
+    when: Jan. 13
+    date: '1965-01-13'
+    thread: immigration
+    c: 'Immigration message. The national-origins quotas ended over five years; preference by skill and by kinship to citizens and resident aliens; no country more than 10 percent of the numbers; the Asia-Pacific Triangle abolished.'
+    n: '[Special Message to the Congress on Immigration](https://www.presidency.ucsb.edu/documents/special-message-the-congress-immigration-0) (Jan. 13, 1965). Tichenor, *Dividing Lines*; Zolberg, *A Nation by Design*; Reimers, *Still the Golden Door* (K–J Cong. II.B). Yang, *One Mighty and Irresistible Tide* (K–J Adm. II.B). See [[cal.1963-07-23.program]].'
+    tags: [name:johnson-lyndon-b]
+  - id: cal.1965-01-16.trade
+    when: Jan. 16
+    date: '1965-01-16'
+    thread: trade
+    c: 'Johnson and Pearson sign the automotive products agreement at the LBJ Ranch, [17 U.S.T. 1372](https://tile.loc.gov/storage-services/service/ll/lltreaties//lltreaties-17-1/lltreaties-17-1.pdf#page=1384): new cars and original parts free of duty between the two countries, for the manufacturers. In force provisionally that day. U.N.T.S. cite: check.'
+    n: '[Remarks With Prime Minister Pearson Upon Signing U.S.-Canadian Trade Agreement on Automotive Products](https://www.presidency.ucsb.edu/documents/remarks-with-prime-minister-pearson-upon-signing-us-canadian-trade-agreement-automotive) (Jan. 16, 1965). T.I.A.S. No. 6093. See [[cal.1963-10-09.trade]]. Names: Johnson (K–J Adm. III.D).'
+    tags: [name:johnson-lyndon-b, name:pearson-lester-b]
+  - id: cal.1965-01-20.transition-and-staff
+    when: Jan. 20
+    date: '1965-01-20'
+    thread: transition-and-staff
+    c: 'Inauguration. Johnson sworn by Warren, Humphrey by McCormack. The address: a covenant "conceived in justice, written in liberty, bound in union"; the Great Society "the excitement of becoming." The cabinet: Rusk, Dillon, McNamara, Katzenbach acting at Justice, Gronouski, Udall, Freeman, Connor, Wirtz, Celebrezze.'
+    n: '[The President''s Inaugural Address](https://www.presidency.ucsb.edu/documents/the-presidents-inaugural-address) (Jan. 20, 1965). [111 Cong. Rec., Senate, Jan. 20, 1965](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt1/pdf/GPO-CRECB-1965-pt1-13-2.pdf). Dallek, *Flawed Giant* (K–J Adm. II.A). Lady Bird Johnson, *A White House Diary* (K–J Adm. II.G.3). See [[cal.1961-01-20.transition-and-staff]]. Names: Johnson, Humphrey (K–J Adm. III.D); Warren (K–J Cong. III.G); McCormack (K–J Cong. III.C); Rusk (K–J Adm. III.E); Dillon (K–J Adm. III.H); McNamara (K–J Adm. III.F); Katzenbach (K–J Adm. III.I); Gronouski, Udall, Freeman, Connor, Wirtz, Celebrezze (K–J Adm. III.G).'
+    tags: [executive:1965-01-20, name:johnson-lyndon-b, name:humphrey-hubert-h, name:warren-earl, name:mccormack-john-w, name:rusk-dean, name:dillon-c-douglas, name:mcnamara-robert-s, name:katzenbach-nicholas, name:gronouski-john-a, name:udall-stewart-l, name:freeman-orville-l, name:connor-john-t, name:wirtz-w-willard, name:celebrezze-anthony-j]
