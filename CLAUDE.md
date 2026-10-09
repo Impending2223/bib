@@ -176,7 +176,7 @@ the entry under its first day):
 
 A `gloss` is for what the entry rests on and does not say: the record behind a name or a date, laid out in the
 calendar's voice, quotations marked and cited, and what each piece of the record is and is not, stated plainly and
-without a side (Jan. 30, 1961: the Address to the Joint Session, its *Style*). Rare.
+without a side (Jan. 30, 1961: the State of the Union, its *Style*). Rare.
 
 The thread index (Part I of the calendar) is generated from `thread` and
 `also`; never write dates into `th.yaml`. A new thread is a new entry in
