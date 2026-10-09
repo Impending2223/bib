@@ -171,12 +171,12 @@ the entry under its first day):
   to: [economy, {health: cal.1963-02-05.program}]   # each resolving to its next entry, or the entry named
   c: What happened.
   n: Sources. See [[cal.1961-02-20.school-aid]].
-  gloss: [A paragraph., Another.]       # a note on the entry, not an entry: under it, in a smaller size; no heading
+  gloss: {title: Style, text: [A paragraph., Another.]}   # a note on the entry, not an entry: under it, smaller; the title run in
 ```
 
 A `gloss` is for what the entry rests on and does not say: the record behind a name or a date, laid out in the
-calendar's voice, quotations marked and cited (Jan. 30, 1961: the Address, and what the Record and the Public
-Papers call it). Rare.
+calendar's voice, quotations marked and cited, and what each piece of the record is and is not, stated plainly and
+without a side (Jan. 30, 1961: the Address to the Joint Session, its *Style*). Rare.
 
 The thread index (Part I of the calendar) is generated from `thread` and
 `also`; never write dates into `th.yaml`. A new thread is a new entry in
