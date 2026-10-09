@@ -192,6 +192,8 @@ def index_link(year):
 def frus_volume(sub, vol):
     """('1961–63', 'VII–IX', supp) -> 'frus1961-63v07-09mSupp'; ('1969–76', 'E-1') -> 'frus1969-76ve01'."""
     sub = sub.replace("–", "-")
+    if vol == "Guatemala":               # the retrospective volume, 1952–54
+        return f"frus{sub}Guat"
     vols = set(links().get("volumes") or [])
     m = re.match(r"E[-–](\d+)$", vol)
     if m:
@@ -208,6 +210,8 @@ def frus_volume(sub, vol):
 
 
 def frus_label(vid):
+    if vid.endswith("Guat"):
+        return f"FRUS {vid[4:8]}–{vid[9:11]}, Guatemala"
     m = re.match(r"frus(\d{4})-(\d{2})v(e?)(\d{2})(?:-(\d{2}))?(.*)$", vid)
     if not m:
         return vid
