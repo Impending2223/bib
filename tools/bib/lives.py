@@ -1664,6 +1664,72 @@ def frus_lists(name):
     return [x for _, x in sent_], [x for _, x in sorted(named, key=lambda t: vol_order(t[0]))]
 
 
+POST_SMALL = {"the", "of", "to", "in", "at", "on", "for", "and", "a", "an", "until", "from", "after", "since", "thereafter",
+              "then", "also", "as", "with", "by", "january", "february", "march", "april", "may", "june", "july",
+              "august", "september", "october", "november", "december"}
+POST_RANK = {"deputy", "assistant", "acting", "alternate", "vice", "under", "principal", "chief", "first", "second",
+             "third", "special", "executive", "associate", "former", "designate", "minister", "counselor", "secretary",
+             "consul", "attache", "commander", "chairman", "director", "president", "ambassador",
+             "representative", "delegate", "head", "member", "adviser", "advisor", "officer"}
+
+
+def same_post(a, b):
+    """Two descriptions of one post in other words: nearly all the telling words of the shorter in the longer (dates,
+    articles, prepositions aside) and most of the longer's, and no word of rank or office in one that the other lacks ('Permanent
+    Representative of France at the United Nations' and 'French Representative at the United Nations'; not 'Deputy
+    Representative' and 'Permanent Representative'); and not where each names a place the other does not ('British
+    Ambassador in Austria; Deputy Under Secretary in the British Foreign Office' is not 'Deputy Under Secretary of the
+    British Foreign Office; Ambassador to the United States')."""
+    def w(t):
+        t = fold(re.sub(r"\([^)]*\)|;\s*also\b.*", " ", t.lower()))   # '(Premier)'; '; also Member of the Politburo'
+        for x, y in (("union of soviet socialist republics", "soviet"), ("united soviet socialist republics", "soviet"),
+                     ("soviet union", "soviet"), ("u.s.s.r.", "soviet"), ("ussr", "soviet"), ("french", "france"),
+                     ("british", "britain"), ("u.s.", "united states"), ("secretary-general", "secretary general")):
+            t = t.replace(x, y)
+        t = re.sub(r"\b([a-z]{5,})(of|to|in|at)\b", r"\1 \2", t)     # a space dropped: 'Representativeof'
+        return {x for x in re.findall(r"[a-z]+", t) if x not in POST_SMALL and len(x) > 1}
+    A, B = w(a), w(b)
+    if not A or not B:
+        return False
+    # the places the posts are in, where both give them: 'in Austria' is not 'to the United States'
+    def at(t):
+        t = re.sub(r"\([^)]*\)", " ", t).replace("French", "France").replace("British", "Britain")
+        months = r"(?!(?:January|February|March|April|May|June|July|August|September|October|November|December)\b)"
+        return {re.sub(r"^(?:britain|france|the)\s+", "", fold(x).lower().strip()) for x in
+                re.findall(rf"\b(?:to|in|at|for|of)\s+(?:the\s+)?((?:{months}[A-Z][\w’'-]*\.?\s?)+)", t)}
+    Pa, Pb = at(a), at(b)
+    if Pa - Pb and Pb - Pa:              # each names a place the other does not
+        return False
+    if (A ^ B) & POST_RANK:
+        return False
+    return len(A & B) / min(len(A), len(B)) >= 0.8 and len(A & B) / max(len(A), len(B)) >= 0.7
+
+
+def frus_keys():
+    """Every person key the FRUS index holds."""
+    def make():
+        ks = set()
+        for L_ in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
+            ks |= set(letter_json("frus-names", L_))
+        return ks
+    return cached("frus-keys", make)
+
+
+RUN_ON = re.compile(r"(?=\b[A-Za-z][a-z]*\.? ([A-ZÇ][\w’'-]{2,}), ((?:Sir |Dr\. )?[A-Z][a-z]+(?: [A-Z][a-z]+| [A-Z]\.)*), )")
+
+
+def run_on(desc, own):
+    """A description a list runs on into the next person's entry ('... British Foreign Office Caglayangil, Ihsan
+    Sabri, Turkish Foreign Minister'; '... Prime Minister of Tunisia Nyerere, Julius, President of Tanzania'): cut
+    where that person's name begins, the name being one a FRUS list gives (its key, or a key it begins)."""
+    keys = frus_keys()
+    for m in RUN_ON.finditer(desc):
+        k = key_of(m.group(1) + ", " + re.sub(r"^(?:Sir|Dr\.) ", "", m.group(2)))
+        if k != own and (k in keys or any(x.startswith(k) for x in keys if x[:4] == k[:4])):
+            return desc[:m.start(1)].strip(" ,.;:—–-")
+    return desc
+
+
 def frus_roles(name):
     """The descriptions FRUS's lists of persons give the person, each once, with the volumes that give it, in the
     volumes' order ('French Ambassador to the United States. FRUS 1961–63, I; FRUS 1961–63, XXIV.')."""
@@ -1671,9 +1737,22 @@ def frus_roles(name):
     d = letter_json("frus-names", key_of(name)[:1].upper()).get(key_of(name), {})
     by = {}
     for vol in sorted(d, key=vol_order):
-        r = (d[vol].get("role") or "").strip()
+        r = run_on((d[vol].get("role") or "").strip(), key_of(name))
         if r:
             by.setdefault(r[0].upper() + r[1:], []).append(vol)
+    # one post worded volume by volume ('French Ambassador to the United States', 'Ambassador to the United States',
+    # 'French Ambassador in the United States'): one line, in the wording most volumes use, citing them all
+    groups = []                          # [[(description, volumes)]]
+    for r, vols in by.items():
+        g = next((g for g in groups if any(same_post(r, x) for x, _ in g)), None)
+        if g is None:
+            groups.append([(r, vols)])
+        else:
+            g.append((r, vols))
+    by = {}
+    for g in groups:
+        r = max(g, key=lambda t: (len(t[1]), len(t[0])))[0]
+        by[r] = sorted({v for _, vs in g for v in vs}, key=vol_order)
     def cites(vols):                     # 'FRUS 1958–60, I, II; 1961–63, XXIV'
         subs = {}
         for v in vols:
@@ -1686,8 +1765,8 @@ def frus_roles(name):
 
 
 def vol_order(vol):
-    m = re.match(r"frus(\d{4})-\d+v(e?)(\d+)", vol)
-    return (m.group(1), m.group(2), int(m.group(3))) if m else (vol, "", 0)
+    m = re.match(r"frus(\d{4})-\d+v(e?)(\d+)(.*)", vol)
+    return (m.group(1), m.group(2), int(m.group(3)), m.group(4)) if m else (vol, "", 0, "")
 
 
 def app_list(name, sur):
@@ -1697,10 +1776,18 @@ def app_list(name, sur):
         return []
     rows = cached("app-index", lambda: [json.loads(l) for l in open(os.path.join(store.ROOT, "sources", "app-index.jsonl"),
                                                                     encoding="utf-8")])
+    # documents a shared title gives him and another alike, which nothing in them settles (app_names.py, holds)
+    cp = os.path.join(store.ROOT, "sources", "app-names-checks.json")
+    checks = cached("app-checks", lambda: json.load(open(cp, encoding="utf-8")) if os.path.exists(cp) else {})
+    mine_checks = checks.get(key_of(name), {})
     keep = []
     for i in hits:
-        r = rows[i]
+        r = dict(rows[i])
         d = datetime.datetime.strptime(r["date"], "%b %d, %Y").date().isoformat()
+        if str(i) in mine_checks:
+            t, others = mine_checks[str(i)]
+            r["check"] = (f'Check: “{t} {sur}” may be '
+                          + " or ".join(f"{split_name(o)[1]} {split_name(o)[0]}".strip() for o in others) + ".")
         keep.append((d, r))
     keep.sort(key=lambda t: t[0])
     by_year = {}
@@ -1720,7 +1807,8 @@ def app_list(name, sur):
         # the title, then who and when, as the speeches are cited: 'Address on Mississippi (Sept. 30, 1962), APP.'
         by_year.setdefault(d[:4], []).append(
             f'{esc(r["title"].rstrip("."))} ({who + ", " if who else ""}{fmt(d)}), '
-            + f'<span class="lvc">{a(r["url"], "APP")}</span>.')
+            + f'<span class="lvc">{a(r["url"], "APP")}</span>.'
+            + (f' <span class="lvc">{esc(r["check"])}</span>' if r.get("check") else ""))
     return [f'<b>{y}</b>' + "".join(f'<span class="lvad">{x}</span>' for x in v) for y, v in by_year.items()]
 
 

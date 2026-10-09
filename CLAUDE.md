@@ -406,12 +406,35 @@ notes/executive-brief.md      the brief for whoever adds to the roster, person o
 entry for each person in Part III, the Executive roster, and the Congresses at their openings (`people` in
 `tools/bib/lives.py`: one entry a person), and for each person FRUS's lists of persons (1952–76) give whom none of
 those holds (`everyone`; `sources/frus-names/persons.json`, written by `frus_names.py --all`). Such an entry shows
-each description the lists give, with its volumes, then the documents; it takes no races, roster or Directory, and
+each description the lists give, with its volumes (one post worded volume by volume is one line, in the wording most
+volumes use: `same_post`, the telling words alike, dates, parentheses and "also …" clauses aside, no word of rank in one
+that the other lacks), then the documents; it takes no races, roster or Directory, and
 the matching of races, namesakes and authors goes by `people` alone. The lists' persons join across volumes by name
-(`join`: the same name; initials for names; either order, "Thanat Khoman" and "Khoman, Thanat"); a listed person who
-may be someone the series holds (the same surname, the first name alike by initial, short form, or a misprint with
-the same middle initial: `loose`) gets no entry of his own. Where a list's persName holds the surname alone, the
-given names come from the text after it (`recover`). `./bib names` builds those pages alone; `./bib names 'Humphrey, Hubert H.'
+(`join`): the surname and suffix the same, the given names alike name by name (an initial for its name, a short form,
+one spelling of another: Malik, Yakov Alexsandrovich, Aleksandrovich, Alexandrovich), every form that fits joined only
+where those it fits fit one another ("John" does not join "John A." and "John B."); or the same words in either order
+("Thanat Khoman", "Khoman, Thanat"); or, written in their own order, the same first word and the others spelled
+alike with the same first letters ("Ngo Quang Troung"; not "Tran Van Chuong" and "Tran Van Huong"). A listed person
+alike one person the series holds (also by the name he went by, "Thomas Hale" and "Hale", or a misprint with the same
+middle initial, "Herbert H." Humphrey), where the lists' descriptions share a telling word with that person's offices,
+is that person: his documents go to him (Ron Ziegler, Earl G. Wheeler, Robert J. Dole). Alike only by name, he has his
+own entry (Lester B. Pearson is not Harold L.; Mohammed Ali of Pakistan not the boxer). A description a list runs on into the next person's
+entry is cut where that person's name begins, the name being one a FRUS list gives (`run_on` in `tools/bib/lives.py`:
+"... British Foreign Office Caglayangil, Ihsan Sabri, Turkish Foreign Minister"). Where a list's persName holds
+the surname alone, the given names come from the text after it; a title, office, service or nationality after the
+given names is dropped (`recover`: "Jose A., Uruguayan"; "Cushman, Jr., Lieutenant General Robert E."); a name with a
+digit (OCR) gets no entry.
+
+APP: a title two persons of the surname share ("Governor Hughes": Harold E. of Iowa, Richard J. of New Jersey) gives a
+document to one where its title or text names his State, a place in it, or his name in full, and nothing of the other's
+(`marks` in `tools/lives/app_names.py`). The places are learned from the corpus (`places`): a town the documents write
+with its State ("Atlantic City, N.J.", "Glassboro, New Jersey", APP's "Des Moines, IA") at least twice, nearly always
+the one State, and not used alone thirty times for each time with it ("Washington", "Springfield" are no marks); a
+place in two States is kept by hand in `sources/app-places.yaml` (the Delaware Water Gap: New Jersey, Pennsylvania).
+Where the text does not settle it, the document is his who alone held the title that day (`holds`: `tenure` in
+`sources/app-matches.yaml`, else the years his offices give); and for a pair whose tenure that file gives (the two
+Governors Hughes, 1963-68), each of theirs, with "Check: “Governor Hughes” may be …" on the Names page
+(`sources/app-names-checks.json`). `./bib names` builds those pages alone; `./bib names 'Humphrey, Hubert H.'
 [--site URL] [--out FILE]` one page. The old `lives*.html` addresses forward to the new ones (`./bib lives` still works).
 The scroll wheel and the Outline drawer give each entry's full name; the top bar its surname (`data-crumb`).
 A Part III entry for two people writes them apart with ";" (`s: Evans, Rowland, Jr.; Novak, Robert D.`), never "&".
@@ -517,6 +540,7 @@ sources/race-matches.yaml     kept by hand: races refused or confirmed for a per
 sources/app-matches.yaml      kept by hand: a bare name two persons share, given to one for some years; a son known
                               only by his suffix (strict: Roosevelt, Hoover, Clay, MacArthur, Taft, Stevenson III)
 sources/name-forms.yaml       kept by hand: the other forms of each name Part III writes in its own order (Mao Tse-tung)
+sources/app-places.yaml       kept by hand: places in more than one State, for telling two of a shared title apart
 ```
 
 Namesakes in the FRUS and APP indexes: a further given name or initial tells two apart ('John W.' is not 'John G.';

@@ -18,11 +18,16 @@ sources/app-index.jsonl.
 #   title only he held, or the file's years; his father, where the series holds him, by the bare name in every year
 #   (not where the son's suffix follows). Any other shared
 #   first name and surname is left out: the text cannot tell them apart. A document does not name its own author.
+#   A title two persons of the surname hold ('Governor Hughes': Harold E. of Iowa, Richard J. of New Jersey): a document
+#   is one's where its title or text names his State, a place in it, or his name in full, and nothing of the other's
+#   (marks); where the text does not settle it, his where he alone held the title that day (holds: `tenure` in
+#   sources/app-matches.yaml, else his offices' years); else, for a pair whose tenure that file gives, each of
+#   theirs, recorded in sources/app-names-checks.json and shown "Check" on the Names pages.
 #   A name Part III writes in its own order ('Ngo Dinh Diem'): the name, and its forms in sources/name-forms.yaml
 #   ('President Diem', 'Mao Tse-tung'), as phrases.
 #   APP's 'Event Timeline' pages (its chronology of each presidency) are not documents and are left out.
 """
-import gzip, hashlib, json, os, re, sys
+import datetime, gzip, hashlib, json, os, re, sys
 
 HERE = os.path.dirname(__file__)
 sys.path.insert(0, os.path.join(HERE, ".."))
@@ -105,6 +110,117 @@ def offices_text(series, p):
     return store.fold(" ".join(t))
 
 
+STATES = ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware", "Florida",
+          "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", "Maine",
+          "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska",
+          "Nevada", "New Hampshire", "New Jersey", "New Mexico", "New York", "North Carolina", "North Dakota", "Ohio",
+          "Oklahoma", "Oregon", "Pennsylvania", "Rhode Island", "South Carolina", "South Dakota", "Tennessee", "Texas",
+          "Utah", "Vermont", "Virginia", "Washington", "West Virginia", "Wisconsin", "Wyoming"]
+
+
+ABBR = {"Ala": "Alabama", "Ariz": "Arizona", "Ark": "Arkansas", "Calif": "California", "Cal": "California",
+        "Colo": "Colorado", "Conn": "Connecticut", "Del": "Delaware", "Fla": "Florida", "Ga": "Georgia",
+        "Ill": "Illinois", "Ind": "Indiana", "Kans": "Kansas", "Kan": "Kansas", "Ky": "Kentucky", "La": "Louisiana",
+        "Md": "Maryland", "Mass": "Massachusetts", "Mich": "Michigan", "Minn": "Minnesota", "Miss": "Mississippi",
+        "Mo": "Missouri", "Mont": "Montana", "Nebr": "Nebraska", "Neb": "Nebraska", "Nev": "Nevada",
+        "N.H": "New Hampshire", "N.J": "New Jersey", "N. Mex": "New Mexico", "N.M": "New Mexico", "N.Y": "New York",
+        "N.C": "North Carolina", "N. Dak": "North Dakota", "N.D": "North Dakota", "Okla": "Oklahoma", "Oreg": "Oregon",
+        "Ore": "Oregon", "Pa": "Pennsylvania", "R.I": "Rhode Island", "S.C": "South Carolina", "S. Dak": "South Dakota",
+        "S.D": "South Dakota", "Tenn": "Tennessee", "Tex": "Texas", "Vt": "Vermont", "Va": "Virginia",
+        "Wash": "Washington", "W. Va": "West Virginia", "Wis": "Wisconsin", "Wisc": "Wisconsin", "Wyo": "Wyoming"}
+POSTAL = {"AL": "Alabama", "AK": "Alaska", "AZ": "Arizona", "AR": "Arkansas", "CA": "California", "CO": "Colorado",
+          "CT": "Connecticut", "DE": "Delaware", "FL": "Florida", "GA": "Georgia", "HI": "Hawaii", "ID": "Idaho",
+          "IL": "Illinois", "IN": "Indiana", "IA": "Iowa", "KS": "Kansas", "KY": "Kentucky", "LA": "Louisiana",
+          "ME": "Maine", "MD": "Maryland", "MA": "Massachusetts", "MI": "Michigan", "MN": "Minnesota", "MS": "Mississippi",
+          "MO": "Missouri", "MT": "Montana", "NE": "Nebraska", "NV": "Nevada", "NH": "New Hampshire", "NJ": "New Jersey",
+          "NM": "New Mexico", "NY": "New York", "NC": "North Carolina", "ND": "North Dakota", "OH": "Ohio",
+          "OK": "Oklahoma", "OR": "Oregon", "PA": "Pennsylvania", "RI": "Rhode Island", "SC": "South Carolina",
+          "SD": "South Dakota", "TN": "Tennessee", "TX": "Texas", "UT": "Utah", "VT": "Vermont", "VA": "Virginia",
+          "WV": "West Virginia", "WI": "Wisconsin", "WY": "Wyoming"}
+NAMED = ("Times|Post|City|Herald|Daily|Tribune|Journal|World|Mirror|News|Star|Register|Sun|Telegram|Evening|Avenue|"
+         "Street|Turnpike|Central|Trail|Railroad|Railway|Power|Light|Gas|Bar|Life")
+PLACES = {}                              # place -> its State, learned from the corpus (places)
+
+
+def places(texts):
+    """{place: State}: the towns the documents write with their State ('Atlantic City, N.J.', 'Glassboro, New
+    Jersey', 'Des Moines, Iowa'), where they so write it at least twice, nearly always with the one State (nine
+    times in ten), and not mostly without it (a place word the documents use alone thirty times for each time with
+    a State, 'Washington', 'Lincoln', is no mark of a State); not a name of an organization, a newspaper, a building.
+    A newspaper's or a reporter's 'New York' (followed by 'Times') or 'Washington' (the city) is no State."""
+    import collections
+    full = "|".join(re.escape(x) for x in sorted(STATES, key=len, reverse=True) if x != "Washington")
+    abbr = "|".join(re.escape(a).replace(r"\.", r"\.\s?") + r"\." for a in sorted(ABBR, key=len, reverse=True) if a != "Wash")
+    place = r"((?:[A-Z][a-z]+\.? ){0,2}[A-Z][a-z]+)"
+    # a State in full, not where it names a newspaper or a city ('New York Times', 'Kansas City', 'Des Moines Register'
+    # is not 'Des Moines, Iowa'); an abbreviation, or APP's postal code ('Atlantic City, NJ'). 'Washington' is the city
+    # ('National Press Club, Washington'), not the State.
+    postal = "|".join(sorted(POSTAL, key=len, reverse=True))
+    rx = re.compile(rf"\b{place}, (?:({full})(?![a-z])(?!\s+(?:{NAMED})\b)|({abbr})|({postal})(?![A-Za-z]))")
+    org = re.compile(r"\b(Committee|Party|Press|Conference|Meeting|Association|Division|Company|Co|Workers|Editors|Bill|"
+                     r"Club|Unit|Campaign|Railway|Railroad|Department|Council|Union|Hotel|Building|Office|Board|"
+                     r"Resources|Steps|Plaza|Square|Coliseum|Auditorium|Times|Herald|News|Post|Tribune|Journal|Rally|Mrs|"
+                     r"Disagreements|Recession|God|Agency|Counties|Center)\b")
+    norm = {re.sub(r"\s", "", a + "."): st for a, st in ABBR.items()}
+    pairs = collections.Counter()
+    for t in texts:
+        for m in rx.finditer(t):
+            st = m.group(2) or norm.get(re.sub(r"\s", "", m.group(3) or "")) or POSTAL.get(m.group(4) or "")
+            if st and m.group(1) not in STATES and not org.search(m.group(1)):
+                pairs[(m.group(1), st)] += 1
+    by = collections.defaultdict(collections.Counter)
+    for (pl, st), n in pairs.items():
+        by[pl][st] += n
+    cand = {}
+    for pl, c in by.items():
+        st, n = c.most_common(1)[0]
+        if n >= 2 and n >= 0.9 * sum(c.values()):
+            cand[pl] = (st, sum(c.values()))
+    if not cand:
+        return {}
+    every = collections.Counter()        # each candidate's uses, with a State or without, in one pass
+    big = re.compile(r"\b(" + "|".join(re.escape(x) for x in sorted(cand, key=len, reverse=True)) + r")\b")
+    for t in texts:
+        every.update(m.group(1) for m in big.finditer(t))
+    return {pl: st for pl, (st, n) in cand.items() if every[pl] <= 30 * n}
+
+
+def marks(p, mine, others):
+    """What in a document marks the person apart from others of the surname and title: his name in full (his forms),
+    the States his offices name that none of theirs does ('Iowa' for Harold E. Hughes), and the places in those
+    States (PLACES: 'Des Moines'; 'Atlantic City', 'Glassboro', 'Princeton' for Richard J. Hughes)."""
+    sts = [st for st in STATES if re.search(rf"\b{st.lower()}\b", mine)
+           and not any(re.search(rf"\b{st.lower()}\b", o) for o in others)
+           and not (st == "Virginia" and "west virginia" in mine)]
+    pls = [pl for pl, st in PLACES.items() if (st if isinstance(st, list) else [st]) and set(st if isinstance(st, list) else [st]) & set(sts)]
+    alts = [x for x in [forms(p)] + [rf"\b{re.escape(x)}\b" for x in sts + sorted(pls, key=len, reverse=True)] if x]
+    return re.compile("|".join(alts)) if alts else None
+
+
+def holds(p, title, day, office_text):
+    """Whether the person held the title on the day (ISO): True, False, or None where nothing says. His `tenure` in
+    sources/app-matches.yaml ({title: [from, to]}) where given; else the years his offices give after the title's word
+    ('governor of iowa 1963 69'), True only for a year strictly inside them, False for a year outside."""
+    ten = ((MATCHES.get(p["name"]) or {}).get("tenure") or {}).get(title)
+    if ten:
+        return str(ten[0]) <= day <= str(ten[1])
+    w = dict(TITLE_WORDS).get(title)
+    spans = []
+    for m in re.finditer(rf"(?:{w})[^0-9;]{{0,40}}?\b(1[89]\d\d)\b(?:\s*[-–]?\s*(\d{{2,4}})\b)?", office_text):
+        a = int(m.group(1))
+        b = m.group(2)
+        b = int(b) if b and len(b) == 4 else (a // 100 * 100 + int(b) if b else a)
+        spans.append((a, b))
+    if not spans:
+        return None
+    y = int(day[:4])
+    if any(a < y < b for a, b in spans):
+        return True
+    if all(y < a or y > b for a, b in spans):
+        return False
+    return None
+
+
 def death_year(series, p):
     from bib import lives as L
     e = L.bd_entry(p["sur"], p["given"], True, (), L.person_suffix(series, p)[0])
@@ -162,9 +278,14 @@ def main():
         # the words, a possessive's 's dropped ('Roth's' is Roth)
         for w in {re.sub(r"['’]s$", "", x) for x in re.findall(r"[A-Z][a-zA-Z'’\-]+", t)} & surnames:
             docs_by_sur.setdefault(w, []).append(i)
+    global PLACES
+    PLACES = places([r["title"] + " " + t for r, t in zip(rows, texts)])
+    hp = os.path.join(OUT, "app-places.yaml")      # kept by hand: a place in two States ('Delaware Water Gap')
+    PLACES.update({k: list(v) for k, v in ((store.load_yaml(hp) or {}) if os.path.exists(hp) else {}).items()})
+    print(len(PLACES), "places with their States", file=sys.stderr)
     year = lambda i: (re.findall(r"\d{4}", rows[i]["date"]) or ["0"])[-1]
     names_of = {p["name"]: p for p in everyone}
-    out = {}
+    out, checks = {}, {}                 # checks: {key: {document line: [title, [the others it may be]]}}
     for p in everyone:
         if natural(p["name"]):
             # a name in its own order: its forms as phrases ('Ngo Dinh Diem', 'President Diem', 'Mao Tse-tung'), not
@@ -233,8 +354,41 @@ def main():
         own = {store.fold(f"{split_name(n)[1].split()[0]} {p['sur']}") for n in p["names"] if split_name(n)[1]}
         hits = [i for i in cand if (rx.search(texts[i]) or (apart and hand and i in bare_hits))
                 and not any(o and o in store.fold(rows[i]["who"]) for o in own)]
+        # a title he shares with another of the surname ('Governor Hughes': Harold E. of Iowa, Richard J. of New
+        # Jersey): the document is his where it also names his State or gives his name in full, and nothing of the
+        # other's
+        shared_t = [(t, w) for t, w in TITLE_WORDS if re.search(w, office[p["name"]])
+                    and any(re.search(w, office[q["name"]]) for q in rivals)] if not strict and not p.get("frus") else []
+        for t, w in shared_t:
+            others = [q for q in rivals if re.search(w, office[q["name"]])]
+            mine = marks(p, office[p["name"]], [office[q["name"]] for q in others])
+            theirs = [marks(q, office[q["name"]], [office[p["name"]]]) for q in others]
+            trx = re.compile(rf"\b(?:{t})\s+{re.escape(p['sur'])}\b")
+            for i in cand:
+                if i in hits or not trx.search(texts[i]):
+                    continue
+                tx = rows[i]["title"] + " " + texts[i]     # the title names the place too ('Bergen, New Jersey')
+                me_, them = bool(mine and mine.search(tx)), [bool(m and m.search(tx)) for m in theirs]
+                if me_ and not any(them):
+                    hits.append(i)
+                    continue
+                if any(them) and not me_:
+                    continue
+                # the text does not settle it: who held the title that day (tenure); else all of them, with a Check
+                day = datetime.datetime.strptime(rows[i]["date"], "%b %d, %Y").date().isoformat()
+                held = holds(p, t, day, office[p["name"]])
+                theirs_held = [holds(q, t, day, office[q["name"]]) for q in others]
+                if held is True and all(h is False for h in theirs_held):
+                    hits.append(i)           # he alone held it that day
+                elif held is not False and ((MATCHES.get(p["name"]) or {}).get("tenure") or {}).get(t):
+                    # a pair kept by hand (app-matches.yaml, tenure): each of them, with a Check
+                    hits.append(i)
+                    checks.setdefault(key_of(p["name"]), {})[str(i)] = [t, [q["name"] for q in others]]
+        hits.sort()
         if hits:
             out[key_of(p["name"])] = hits
+    with open(os.path.join(OUT, "app-names-checks.json"), "w", encoding="utf-8") as f:
+        json.dump(checks, f, separators=(",", ":"))
     letters = {}
     for k, v in out.items():
         letters.setdefault(k[0].upper(), {})[k] = v

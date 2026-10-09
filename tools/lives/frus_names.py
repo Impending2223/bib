@@ -107,6 +107,12 @@ def descriptions(root):
             if pn.get(M.XID) and pn.get(M.XID) not in out:
                 raw = M.clean(''.join(pn.itertext()))
                 d = full[len(raw):] if full.startswith(raw) else full.replace(raw, '', 1)
+                # an entry the list runs on into the next, whose name carries no xml:id ('... British Foreign Office
+                # Caglayangil, Ihsan Sabri, Turkish Foreign Minister'): cut at that name, written as a list writes one
+                for other in item.iter(M.T + 'persName'):
+                    t = M.clean(''.join(other.itertext()))
+                    if other is not pn and ',' in t and t in d:
+                        d = d[:d.index(t)]
                 out[pn.get(M.XID)] = d.strip(' ,.;:—–-')
     return out
 
@@ -125,27 +131,9 @@ vietnamese lao laotian thai cambodian burmese indonesian pakistani iranian turki
 brazilian mexican cuban argentine chilean dutch belgian norwegian swedish danish polish czech hungarian
 yugoslav romanian bulgarian arab saudi jordanian syrian iraqi lebanese libyan moroccan algerian tunisian
 nigerian ghanaian congolese kenyan ethiopian south north east west republic kingdom united nations un nato
-oas seato cento cia usia aid fbi nsc jcs director-general secretary-general undersecretary'''.split())
+oas seato cento cia usia aid fbi nsc jcs director-general secretary-general undersecretary senior specialist
+commander-in-chief roka rok arvn marshal command'''.split())
 SERVICE = re.compile(r'\b(?:USA|USAF|USN|USMC|USCG|RN|RAF|ret\.?)\b,?')
-
-
-def loose(given, others):
-    """A listed given name another person of the surname may answer to: the first names alike, by initial or short
-    form ('J. Kenneth' and 'John Kenneth'; 'Michael' and 'Mike'), or the listed first name among the other's names
-    ('Stuart' and 'W. Stuart', 'William S.'), or the other's first name among the listed ('Thomas Hale' and 'Hale'), or the first letters and the middle initials alike (a misprint: 'Herbert H.'
-    for 'Hubert H.'). There the list's person is not given an entry of his own: he may be that person."""
-    from bib.lives import gtoks, nick
-    A = gtoks(given)
-    if not A:
-        return False
-    for g in others:
-        B = gtoks(g)
-        if B and (A[0] == B[0] or (len(A[0]) == 1 and B[0].startswith(A[0])) or (len(B[0]) == 1 and A[0].startswith(B[0]))
-                  or nick(A[0], B[0]) or A[0] in B[1:] or (len(B[0]) > 1 and B[0] in A[1:])
-                  or any(len(x) == 1 and A[0].startswith(x) for x in B[1:])
-                  or (A[0][0] == B[0][0] and len(A) > 1 and len(B) > 1 and A[1][0] == B[1][0])):
-            return True
-    return False
 
 
 def recover(p, d):
@@ -157,12 +145,23 @@ def recover(p, d):
     head = d.split(',', 1)[0].strip()
     if head and not TITLES.sub('', head).strip():      # 'Gen., Deputy Commanding General': the rank dropped
         d = d.split(',', 1)[1].strip() if ',' in d else ''
+    if not p[1] and ',' not in p[0]:
+        m = re.match(r'^([A-Z][\w’\'-]+)\. ([A-Z].*)$', p[0])       # 'Raynor. Hayden': the comma misprinted
+        n = re.match(r'^([A-Z][\w’\'-]+) ((?:[A-Z][a-z]+ )*[A-Z]\.)$', p[0])  # 'Bolshakov Georgi N.': the comma left out
+        if m or n:
+            p = (m or n).group(1), (m or n).group(2), (p[2] if len(p) > 2 else '')
     if p[1]:
         g, sfx = p[1], (p[2] if len(p) > 2 else '')
         m = re.match(r'(Jr|Sr|II|III|IV)\.?,\s*', g)       # 'Cushman, Jr., Lieutenant General Robert E.'
         if m:
             g, sfx = g[m.end():], m.group(1) + ('.' if m.group(1) in ('Jr', 'Sr') else '')
         g = SERVICE.sub('', TITLES.sub('', g)).strip(' ,')
+        # given names hold no comma: what follows one is a title, an office, a nationality ('Jose A., Uruguayan'); and a
+        # field that is an office, not a name, is no given name ('Senior Specialist', 'ROKA')
+        g = g.split(',')[0].strip()
+        ws = g.split()
+        if OFFICE & {w.strip('.').lower() for w in ws} or any(re.fullmatch(r'[A-Z]{3,}', w) for w in ws):
+            g = ''
         return (p[0], g, sfx), d
     if not d or ',' in p[0]:
         return p, d
@@ -194,50 +193,161 @@ def shown(p):
     return sur + (', ' + p[1] if p[1] else '') + (', ' + sfx if sfx and p[1] else '')
 
 
-def join(found, taken):
-    """The persons listed in FRUS whom no name entry holds, one a person: {key: {name, names}}. The same listed
-    name in every volume is one person; two forms join where the surname and suffix agree and the given names agree
-    name by name, each the same or one the other's initial ('J. Graham' and 'John Graham'), and only one form so
-    fits. The name shown is the fullest form. A key a name entry holds already is left out."""
+def toks(t):
+    """Name words for comparing: folded, lower case, hyphens and apostrophes dropped, suffixes left out."""
+    from bib.store import fold
+    t = fold(re.sub(r'\([^)]*\)', ' ', t)).lower().replace('’', '').replace("'", '').replace('-', ' ')
+    return [w for w in re.split(r'[\s.,“”"]+', t) if w and w not in ('jr', 'sr', 'ii', 'iii', 'iv')]
+
+
+def same_word(x, y, prefix=True):
+    """Two given names alike: the same; an initial and its name; a short form (Mike, Michael); one the other's start
+    ('Ron', 'Ronald'; 'Phil', 'Philip'); or one spelling of the other ('Anatoliy', 'Anatoly'; 'Abbot', 'Abbott')."""
+    from difflib import SequenceMatcher
+    from bib.lives import nick
+    if x == y or (len(x) == 1 and y.startswith(x)) or (len(y) == 1 and x.startswith(y)) or nick(x, y):
+        return True
+    if prefix and min(len(x), len(y)) >= 3 and (x.startswith(y) or y.startswith(x)):
+        return True
+    tr = lambda w: w.replace('ks', 'x').replace('iy', 'y').replace('ij', 'y').replace('ii', 'i').replace('kh', 'h')
+    x, y = tr(x), tr(y)                  # one transliteration of another ('Aleksei', 'Alexei'; 'Anatoliy', 'Anatoly')
+    if x == y:
+        return True
+    return min(len(x), len(y)) >= 4 and x[0] == y[0] and SequenceMatcher(None, x, y).ratio() >= 0.8
+
+
+def alike(A, B):
+    """Given names alike, name by name, as far as both go ('Nikolai T.' and 'Nikolai Trofimovich'; 'John' and
+    'John A.')."""
+    return bool(A and B) and same_word(A[0], B[0]) and all(same_word(u, v) for u, v in zip(A[1:], B[1:]))
+
+
+def held_alike(A, B):
+    """A listed name and one the series holds alike: as alike(), or by the name he went by ('Thomas Hale' and 'Hale';
+    a bare 'Stuart' and 'William S.'), or by a misprint with the same first letter and middle initial ('Herbert H.',
+    'Hubert H.')."""
+    if not (A and B):
+        return False
+    return (alike(A, B) or (len(B[0]) > 1 and B[0] in A[1:]) or (len(A[0]) > 1 and A[0] in B[1:])
+            or (len(A) == 1 and any(len(x) == 1 and A[0].startswith(x) for x in B[1:]))
+            or (len(B) == 1 and any(len(x) == 1 and B[0].startswith(x) for x in A[1:]))
+            or (A[0][0] == B[0][0] and len(A) > 1 and len(B) > 1 and A[1][0] == B[1][0]))
+
+
+def nat_alike(a, b):
+    """Two names in their own order alike: the same number of words, the first the same, each other word alike in
+    spelling, the first letters the same ('Ngo Quang Troung', 'Ngo Quang Truong'; 'Vang Phao', 'Vang Pao'; not 'Tran Van
+    Chuong', 'Tran Van Huong')."""
+    from difflib import SequenceMatcher
+    return (len(a) == len(b) and len(a) > 1 and a[0] == b[0]
+            and all(x == y or (x[0] == y[0] and SequenceMatcher(None, x, y).ratio() >= 0.75) for x, y in zip(a[1:], b[1:])))
+
+
+EXTRA_STOP = {'international', 'development', 'government', 'foreign', 'relations', 'also', 'then', 'that', 'this',
+              'member', 'staff', 'senior', 'officer', 'adviser', 'advisor', 'representative', 'minister', 'ministry'}
+
+
+def words(t):
+    """The telling words of a description or an office: four letters or more, the common ones of offices left out."""
+    from bib.lives import STOP
+    from bib.store import fold
+    t = fold(t).lower()
+    for x, y in (('chairman of the council of ministers', 'premier'), ('prime minister', 'premier'),
+                 ('u s s r', 'soviet'), ('ussr', 'soviet'), ('soviet union', 'soviet')):
+        t = t.replace(x, y)                  # one office in other words: 'Soviet Premier', 'Chairman of the U.S.S.R. ...'
+    return set(re.findall(r'[a-z]{4,}', t)) - STOP - EXTRA_STOP
+
+
+def join(found, targets, offices=None):
+    """The persons listed in FRUS whom no name entry holds, one a person: ({key: {name, names}}, {listed name: key}).
+    Listed names join where the surname and suffix agree and the given names are alike (alike), all the forms that
+    fit one another together (Malik, Yakov Alexsandrovich, Aleksandrovich, Alexandrovich) and a form that fits
+    several that do not fit one another (John; John A.; John B.) with none; and one name in either order ('Thanat
+    Khoman', 'Khoman, Thanat'; 'Park Chung Hee', 'Park, Chung-hee'). A person so joined who is alike one person the
+    series holds (held_alike; in his own order, nat_alike), where the lists' descriptions of him share a telling word
+    with that person's offices (offices: {key: their text}; or that person has none to compare), is that person: his
+    documents go to him (Ron Ziegler; Earl G. Wheeler). Alike several so, he is left out; alike one only by name
+    (Lester B. and Harold L. Pearson), he has an entry of his own. The name shown is the fullest form, and of forms
+    as full, the one most volumes print."""
     from bib.lives import key_of
-    groups = {}
-    for nk in found:
-        groups.setdefault((nk[0], nk[2]), []).append(nk)
-    parent = {nk: nk for nk in found}
+    from itertools import combinations
+    held = {}                                # surname -> [(given words, suffix, strict, key)]
+    nat_held = []                            # [(words, key)] for names held in their own order
+    for k, (sur, given, sfx, strict) in targets.items():
+        if given:
+            held.setdefault(' '.join(toks(sur)), []).append((toks(given), sfx, strict, k))
+        else:
+            nat_held.append((toks(sur), k))
+    nks = list(found)
+    parent = {nk: nk for nk in nks}
     def root_of(x):
         while parent[x] != x:
             x = parent[x]
         return x
-    agree = lambda a, b: len(a) == len(b) and a and all(x == y or (len(x) == 1 and y.startswith(x))
-                                                        or (len(y) == 1 and x.startswith(y)) for x, y in zip(a, b))
-    for g in groups.values():
-        for nk in g:
-            fit = [o for o in g if o != nk and agree(nk[1], o[1])]
-            if len(fit) == 1:
-                parent[root_of(nk)] = root_of(fit[0])
-    # one name in either order ('Thanat Khoman' and 'Khoman, Thanat'; 'U Nu' and 'Nu, U'): the same words, in full
-    words = {}
-    for nk in found:
-        w = tuple(sorted(nk[0].split() + list(nk[1])))
+    def union(a, b):
+        a, b = root_of(a), root_of(b)
+        if a != b:
+            parent[a] = b
+    sur_of = lambda nk: ' '.join(toks(nk[0]))
+    groups = {}
+    for nk in nks:                           # names in their own order by their first word, so spellings meet
+        head = sur_of(nk) if nk[1] else (sur_of(nk).split() or [''])[0]
+        groups.setdefault((head, nk[2], bool(nk[1])), []).append(nk)
+    for (head, sfx, has_given), g in groups.items():
+        fit = (lambda a, b: alike(list(a[1]), list(b[1]))) if has_given else \
+              (lambda a, b: nat_alike(toks(a[0]), toks(b[0])))
+        fits = {nk: [o for o in g if o != nk and fit(nk, o)] for nk in g}
+        for nk, f in fits.items():
+            if f and all(fit(a, b) for a, b in combinations(f, 2)):
+                for o in f:
+                    if all(fit(a, b) for a, b in combinations(fits[o] + [o], 2)):
+                        union(nk, o)
+    orders = {}
+    for nk in nks:
+        w = tuple(sorted(toks(nk[0]) + [x for t in nk[1] for x in toks(t)]))
         if all(len(x) > 1 for x in nk[1]):
-            words.setdefault((w, nk[2]), []).append(nk)
-    for nks in words.values():
-        for nk in nks[1:]:
-            a, b = root_of(nk), root_of(nks[0])
-            if a != b:
-                parent[a] = b
+            orders.setdefault((w, nk[2]), []).append(nk)
+    for same in orders.values():
+        for nk in same[1:]:
+            union(nk, same[0])
     sets = {}
-    for nk in found:
+    for nk in nks:
         sets.setdefault(root_of(nk), []).append(nk)
     out, keymap = {}, {}
-    for r, nks in sets.items():
-        names = sorted({n for nk in nks for n in found[nk]})
-        name = max(names, key=lambda n: (len(re.findall(r'\w+', n)), len(n), n))
+    for r, members in sets.items():
+        names = sorted({n for nk in members for n in found[nk]['names']})
+        said = words(' '.join(r for nk in members for r in found[nk]['roles']))
+        offices = offices or {}
+        fits_office = lambda tk: not words(offices.get(tk, '')) or bool(said & words(offices.get(tk, '')))
+        count = {}
+        for nk in members:
+            for n, c in found[nk].get('count', {}).items():
+                count[n] = count.get(n, 0) + c
+        # the fullest form, and of forms as full, the one most volumes print ('Sabri', not the misprint 'Sabriv')
+        name = max(names, key=lambda n: (len(re.findall(r'\w+', n)), count.get(n, 0), len(n), n))
         k = key_of(name)
-        if not k or k in taken or k in out:
+        hits = set()
+        for nk in members:
+            if nk[1]:
+                for G, tsfx, strict, tk in held.get(sur_of(nk), []):
+                    sfx_ok = nk[2] == tsfx or (not nk[2] and not strict) or (not tsfx)
+                    if sfx_ok and held_alike(list(nk[1]), G) and fits_office(tk):
+                        hits.add(tk)
+            else:
+                hits |= {tk for W, tk in nat_held if (nat_alike(toks(nk[0]), W) or toks(nk[0]) == W) and fits_office(tk)}
+        if k in targets and fits_office(k):
+            hits = {k}
+        if not hits and k in targets:        # his name is another's: shown by a fuller or other form of it
+            k = next((key_of(n) for n in sorted(names, key=len, reverse=True) if key_of(n) not in targets), '')
+            name = next((n for n in names if key_of(n) == k), name)
+        if len(hits) == 1:                   # someone the series holds: his documents go to him
+            for nk in members:
+                keymap[nk] = next(iter(hits))
+            continue
+        if hits or not k or k in out:        # alike several held: no one can tell which
             continue
         out[k] = {'name': name, 'names': names}
-        for nk in nks:
+        for nk in members:
             keymap[nk] = k
     return out, keymap
 
@@ -264,6 +374,14 @@ def scan(git, targets, heirs=None, naturals=None, found=None):
             continue
         P, roles = M.persons(root)
         desc = descriptions(root)
+        # a description that runs on into another person the list gives ('... British Foreign Office Caglayangil,
+        # Ihsan Sabri, Turkish Foreign Minister'): cut where that person's name begins
+        listed = {M.clean(''.join(pn.itertext())) for pn in root.iter(M.T + 'persName') if pn.get(M.XID)}
+        listed = [x for x in listed if ',' in x and len(x) > 6]
+        for i, d in desc.items():
+            cuts = [d.find(x) for x in listed if x in d]
+            if cuts:
+                desc[i] = d[:min(cuts)].strip(' ,.;:—–-')
         pn_text = {pn.get(M.XID): M.clean(''.join(pn.itertext())) for pn in root.iter(M.T + 'persName') if pn.get(M.XID)}
         P.update({i: ERRATA[(vol, i)] for i in P if (vol, i) in ERRATA})
         ids = {}                                   # xml:id -> person key
@@ -292,11 +410,14 @@ def scan(git, targets, heirs=None, naturals=None, found=None):
             elif not hits and found is not None and desc.get(i) and not re.match(r'(see|pseudonym)\b', desc[i], re.I):
                 # a person the list gives whom no name entry holds: his own entry (join, after every volume)
                 nk = norm(P[i])
-                kin = [g for _, g, _, _ in by_sur.get(skey(P[i][0]), [])]
                 bare = not P[i][1]
-                if nk[0] and (not bare or ',' not in pn_text.get(i, '')) and not loose(P[i][1], kin) \
+                if nk[0] and (not bare or ',' not in pn_text.get(i, '')) and not re.search(r'\d', shown(P[i])) \
                         and not (bare and ' ' not in nk[0] and (skey(P[i][0]) in held_words or nk[0] in NOT_NAMES)):
-                    found.setdefault(nk, set()).add(shown(p))
+                    f = found.setdefault(nk, {'names': set(), 'roles': set(), 'count': {}})
+                    f['names'].add(shown(p))
+                    f['count'][shown(p)] = f['count'].get(shown(p), 0) + 1
+                    if desc.get(i):
+                        f['roles'].add(desc[i])
                     ids[i] = nk
         if not ids:
             continue
@@ -376,7 +497,17 @@ def main():
     found = {} if '--all' in sys.argv else None
     out, titles = scan(git, targets, heirs, naturals, found)
     if found is not None:
-        persons, keymap = join(found, set(targets))
+        import app_names as AN            # each held person's offices, to compare with the lists' descriptions
+        AN.ROLES = {}
+        for l in S.lists.values():
+            for sec, e in l.entries():
+                if (sec.code or '').startswith('III') and e.get('s'):
+                    for n in re.split(r';\s*', e['s']):
+                        n = re.sub(r'\s*\(.*?\)\s*$', '', n).strip()
+                        AN.ROLES[n] = AN.ROLES.get(n, '') + ' ' + (e.get('r') or '')
+        AN.POCOM = {}
+        offices = {key_of(p['name']): AN.offices_text(S, p) for p in everyone}
+        persons, keymap = join(found, targets, offices)
         for nk in [k for k in out if isinstance(k, tuple)]:
             v = out.pop(nk)
             if nk in keymap:
