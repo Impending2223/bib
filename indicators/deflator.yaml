@@ -9,6 +9,7 @@ change: pct_ar
 then: {label: 'Commerce, Office of Business Economics; GNP in current dollars over GNP in constant dollars, same release', source: 'ALFRED GNP and GNPC96, initial release', url: 'https://alfred.stlouisfed.org/series?seid=GNP'}
 now: {label: 'BEA, GNP implicit price deflator', unit: 2017=100, source: FRED GNPDEF, url: 'https://fred.stlouisfed.org/series/GNPDEF'}
 rows:
+- {p: 1960Q4, first: 115.2, released: '1961-02-19', chg: 0.9, unit: 1954=100, now: 15.532, chg_now: 1.2}
 - {p: 1961Q1, first: 115.6, released: '1961-05-18', chg: 1.3, unit: 1954=100, now: 15.566, chg_now: 0.9}
 - {p: 1961Q2, first: 115.8, released: '1961-08-18', chg: 0.7, unit: 1954=100, now: 15.602, chg_now: 0.9}
 - {p: 1961Q3, first: 116.4, released: '1961-11-21', chg: 1.9, unit: 1954=100, now: 15.643, chg_now: 1.1}
