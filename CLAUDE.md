@@ -194,7 +194,9 @@ The thread index (Part I of the calendar) is generated from `thread` and
 
 ### House style (keep it)
 
-Short declarative sentences. Books already in a list are cited by short title
+Short declarative sentences. A calendar note points back ("See [[id]]"), not forward; where an earlier entry
+must name a later one, it says what it is ("Reply: [[id]]", "The order: [[id]]", "Bibliography: [[id]]" where a
+thread's first entry is excepted, `ok:thread-first`). Books already in a list are cited by short title
 with list and section; works found only here are cited in full. "Check" marks
 a detail to verify. In the calendar the first entry of each event carries its
 bibliography and later ones point back with `See [[id]]`; a thread's first entry is its first event's. Bibliography sections
@@ -792,7 +794,9 @@ series reader alike: the month's undated entries, then every day from the sectio
 to its last. A day shows its date, "*New York Times*" under it (a TimesMachine link by
 date only; "No *New York Times* (strike)" from Dec. 8, 1962 to Mar. 31, 1963), the entries that begin
 that day, each under its thread as a rubric (a line of muted small capitals above the entry;
-the date added for a range or a month-only entry), a "Continuing" pointer under the date on each later
+the date added for a range or a month-only entry), under each entry a line a thread linking the entries before and
+after it in the thread ("‹ Apr. 24 · Testing · June 10 ›", its `also` threads too; `thread_nav` in
+`tools/bib/build.py`), a "Continuing" pointer under the date on each later
 day of a ranged entry, and the day's documents, closed by default, with "Expand all" and
 "Collapse all" under each month heading.
 

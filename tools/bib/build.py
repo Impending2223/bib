@@ -56,6 +56,29 @@ def thread_members(lst):
     return out
 
 
+_NAV = {}
+
+
+def thread_nav(series, lst, e, year, text_html):
+    """Under a calendar entry, for each of its threads, the entries before and after it in the thread:
+    "‹ Apr. 24 · Testing · June 10 ›" (the year added where it differs). A thread's first entry has no ‹, its
+    last no ›."""
+    key = id(lst)
+    if key not in _NAV:
+        _NAV[key] = {t: [m["id"] for m in ms] for t, ms in thread_members(lst).items()}
+    out = []
+    for t in [e["thread"]] + e.get("also", []):
+        ids = _NAV[key].get(t, [])
+        if e["id"] not in ids or len(ids) < 2:
+            continue
+        i = ids.index(e["id"])
+        prev = f"‹ [[{ids[i - 1]}]] · " if i > 0 else ""
+        nxt = f" · [[{ids[i + 1]}]] ›" if i + 1 < len(ids) else ""
+        line = year_qualified(series, f"{prev}{thread_name(lst, t)}{nxt}", year)
+        out.append(f'<span class="tnl">{text_html(line, "tn")}</span>')
+    return f'<span class="tn">{"".join(out)}</span>' if out else ""
+
+
 def date_label(e, year=None):
     """A calendar entry's label: its "when", with the year added when it is not `year`."""
     y = (e.get("date") or "")[:4]
@@ -114,6 +137,10 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
             n += "."
     if n:
         parts.append(f'<span class="n">{text_html(n, "n")}</span>')
+    if rubric is not None and lst.kind == "calendar" and e.get("thread"):
+        nav = thread_nav(series, lst, e, year, text_html)
+        if nav:
+            parts.append(nav)
     if e.get("conflict"):
         parts.append('<span class="n"><b>Unresolved merge conflict.</b></span>')
     return f'<li id="{attr(e["id"])}"{extra_attrs}>' + "".join(parts) + extra_spans + "</li>"
