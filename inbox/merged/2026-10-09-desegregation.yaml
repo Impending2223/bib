@@ -1,0 +1,244 @@
+patch: desegregation-threads
+by: main session
+ops:
+- add:
+    entry:
+      id: cal.thread.desegregation-public-places
+      s: 'Desegregation: public places'
+      c: Segregation in travel, at lunch counters, in parks and other public places, short of the schools; each event in its own thread. Burton; the Freedom Rides and the ICC order; Albany; Garner; Birmingham; the sit-in cases; Watson; Jackson; the public
+        accommodations title. Gallup on the Freedom Riders and on integration.
+    section: th
+    after: cal.thread.defense
+- add:
+    entry:
+      id: cal.thread.desegregation-schools
+      s: 'Desegregation: schools'
+      c: Schools and universities opened under federal court orders, each event in its own thread. Georgia; Atlanta; Meredith at Oxford; Gantt at Clemson; Goss; the schoolhouse door; Alabama's schools in September; Prince Edward's Free Schools. Gallup
+        on school integration.
+    section: th
+    after: cal.thread.desegregation-public-places
+- add:
+    entry:
+      id: kjc.trillin-education-in-georgia
+      c: 'Calvin Trillin, *An Education in Georgia: The Integration of Charlayne Hunter and Hamilton Holmes* (1964)'
+      n: The New Yorker's reporting, and the two students at their graduation.
+    section: II.H
+- add:
+    entry:
+      id: kjc.smith-they-closed-their
+      c: 'Bob Smith, *They Closed Their Schools: Prince Edward County, Virginia, 1951–1964* (1965)'
+      n: A Virginia newspaperman's account.
+    section: II.H
+- add:
+    entry:
+      id: kjc.sullivan-bound-for-freedom
+      c: 'Neil V. Sullivan, *Bound for Freedom: An Educator''s Adventures in Prince Edward County, Virginia* (1965)'
+      n: The Free Schools' superintendent.
+    section: II.H
+- add:
+    entry:
+      id: kjc.hunter-gault-in-my-place
+      c: Charlayne Hunter-Gault, *In My Place* (1992)
+      n: Her memoir.
+    section: II.H
+- add:
+    entry:
+      id: kjc.pratt-we-shall-not
+      c: 'Robert A. Pratt, *We Shall Not Be Moved: The Desegregation of the University of Georgia* (2002)'
+    section: II.H
+- add:
+    entry:
+      id: kjc.titus-browns-battleground
+      c: 'Jill Ogline Titus, *Brown''s Battleground: Students, Segregationists, and the Struggle for Justice in Prince Edward County, Virginia* (2011)'
+    section: II.H
+- add:
+    entry:
+      id: kjc.who.bootle-william-a
+      s: Bootle, William A.
+      r: District judge, Middle District of Georgia; *Holmes v. Danner*
+    section: III.G
+- add:
+    entry:
+      id: kjc.who.holmes-hamilton-e
+      s: Holmes, Hamilton E.
+      r: With Hunter, the first Black students at the University of Georgia, Jan. 1961
+    section: III.K
+- add:
+    entry:
+      id: kjc.who.hunter-charlayne
+      s: Hunter, Charlayne
+      r: With Holmes, the first Black students at the University of Georgia, Jan. 1961; later Hunter-Gault
+    section: III.K
+- add:
+    entry:
+      id: kjc.who.sullivan-neil-v
+      s: Sullivan, Neil V.
+      r: Superintendent of the Prince Edward Free Schools, 1963–64
+    section: III.K
+- add:
+    entry:
+      id: kjc.who.vanden-heuvel-william-j
+      s: vanden Heuvel, William J.
+      r: Special assistant to the Attorney General; the Prince Edward Free Schools, 1963
+    section: III.K
+- add:
+    entry:
+      id: cal.1961-01-06.desegregation-schools
+      when: Jan. 6–16
+      date: '1961-01-06'
+      thread: desegregation-schools
+      c: Judge Bootle orders the University of Georgia to admit Charlayne Hunter and Hamilton Holmes. They register Jan. 9. A riot at Hunter's dormitory the night of the 11th; both suspended and driven to Atlanta. Bootle orders them readmitted, Jan. 13;
+        in class again Jan. 16.
+      n: '*Holmes v. Danner*, [191 F. Supp. 394](https://static.case.law/f-supp/191/html/0394-01.html) (M.D. Ga. 1961). Trillin, *An Education in Georgia*; Hunter-Gault, *In My Place*; Pratt, *We Shall Not Be Moved* (K–J Cong. II.H). Bass, *Unlikely Heroes*
+        (K–J Cong. II.H), on Tuttle and the stay. Names: Bootle (K–J Cong. III.G); Hunter, Holmes (K–J Cong. III.K).'
+- add:
+    entry:
+      id: cal.1963-09-16.desegregation-schools
+      when: Sept. 16
+      date: '1963-09-16'
+      thread: desegregation-schools
+      c: Prince Edward County, Virginia, its public schools closed since 1959 rather than desegregated. The Free Schools open for its Black children in four of the closed buildings, privately funded, organized at the administration's urging. Superintendent
+        Neil V. Sullivan, recruited by William vanden Heuvel of Justice. Over 1,500 enrolled by the month's end.
+      n: '*Southern School News* (Oct. 1963). Smith, *They Closed Their Schools*; Sullivan, *Bound for Freedom*; Titus, *Brown''s Battleground* (K–J Cong. II.H). Names: Sullivan, vanden Heuvel (K–J Cong. III.K).'
+- edit:
+    id: cal.1961-08-30.states-and-cities
+    base: df4a80b5
+    set:
+      also:
+      - testing
+      - desegregation-schools
+- edit:
+    id: cal.1962-06-25.mississippi
+    base: e1f75e94
+    set:
+      also:
+      - desegregation-schools
+- edit:
+    id: cal.1962-10-01.mississippi
+    base: 218829d2
+    set:
+      also:
+      - right-and-the-military
+      - desegregation-schools
+- edit:
+    id: cal.1963-01-28.states-and-cities
+    base: 3b5b1cad
+    set:
+      also:
+      - desegregation-schools
+- edit:
+    id: cal.1963-06-03.court
+    base: 9ea57e59
+    set:
+      also:
+      - desegregation-schools
+- edit:
+    id: cal.1963-06-11.alabama
+    base: 8516052c
+    set:
+      also:
+      - desegregation-schools
+- edit:
+    id: cal.1963-06-19.civil-rights-bill
+    base: 74da63ba
+    set:
+      also:
+      - desegregation-schools
+      - desegregation-public-places
+- edit:
+    id: cal.1963-09-02.alabama
+    base: 5890ffed
+    set:
+      also:
+      - desegregation-schools
+- edit:
+    id: cal.1963-09-09.alabama
+    base: 3ed2f462
+    set:
+      also:
+      - desegregation-schools
+- edit:
+    id: cal.1961-04-17.court
+    base: 8cda4136
+    set:
+      also:
+      - desegregation-public-places
+- edit:
+    id: cal.1961-05-04.freedom-rides
+    base: 9379bc3b
+    set:
+      also:
+      - desegregation-public-places
+- edit:
+    id: cal.1961-05-28.opinion
+    base: 9d64b5de
+    set:
+      also:
+      - desegregation-public-places
+- edit:
+    id: cal.1961-09-22.freedom-rides
+    base: 3556ec14
+    set:
+      also:
+      - desegregation-public-places
+- edit:
+    id: cal.1961-11-01.freedom-rides
+    base: 7fb05bb1
+    set:
+      also:
+      - albany
+      - desegregation-public-places
+- edit:
+    id: cal.1961-11-17.albany
+    base: acf33c70
+    set:
+      also:
+      - desegregation-public-places
+- edit:
+    id: cal.1961-12-11.court
+    base: d550312c
+    set:
+      also:
+      - desegregation-public-places
+- edit:
+    id: cal.1962-08-10.albany
+    base: 0874c26c
+    set:
+      also:
+      - desegregation-public-places
+- edit:
+    id: cal.1963-04-03.alabama
+    base: 1119f343
+    set:
+      also:
+      - desegregation-public-places
+- edit:
+    id: cal.1963-05-10.alabama
+    base: 8f3af365
+    set:
+      also:
+      - desegregation-public-places
+- edit:
+    id: cal.1963-05-20.court
+    base: 3045da2e
+    set:
+      also:
+      - desegregation-public-places
+- edit:
+    id: cal.1963-05-27.court
+    base: eb7dae44
+    set:
+      also:
+      - desegregation-public-places
+- edit:
+    id: cal.1963-05-28.mississippi
+    base: 3076f633
+    set:
+      also:
+      - desegregation-public-places
+- edit:
+    id: cal.1963-07-01.civil-rights-bill
+    base: 6df5dc8c
+    set:
+      also:
+      - desegregation-public-places

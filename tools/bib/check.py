@@ -123,8 +123,9 @@ def run(series, only=None):
             for t, e in first.items():
                 if (e.get("n") or "").startswith("See "):
                     add(WARN, e["id"], f"first entry of thread {t!r} only points elsewhere; it should carry the bibliography", "thread-first")
+            members = {t for sec, e in lst.entries() if "thread" in e for t in [e["thread"]] + e.get("also", [])}
             for t in threads:
-                if t not in first:
+                if t not in members:
                     add(WARN, f"{lst.key}.thread.{t}", "thread has no entries", "thread-empty")
 
     # section references that point nowhere, and works cited under the wrong section
