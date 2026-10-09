@@ -7,7 +7,7 @@
 #   Public Papers: the American Presidency Project's listing of every presidential document by date
 #   (Public Papers items, executive orders, proclamations). Author: the President.
 #   FRUS: the Office of the Historian's TEI files (github.com/HistoryAtState/frus), every volume of
-#   the 1958-60 and 1961-63 subseries, microfiche supplements included. Date: the document's
+#   the 1958-60, 1961-63 and 1964-68 subseries, microfiche supplements included. Date: the document's
 #   frus:doc-dateTime-min. Editorial notes carry only their volume's span, so each is filed under
 #   the date of the document before it in its volume. Author: a person where the sources give one
 #   (see "authors as persons" below: the heading's sender, else the signer, else the drafter, read
@@ -18,25 +18,27 @@ import datetime, difflib, html, os, re, sys, tempfile, time, urllib.parse, urlli
 import xml.etree.ElementTree as ET
 import yaml
 
-FROM, TO = '1961-01-01', '1963-01-03'
+FROM, TO = '1961-01-01', '1964-01-07'
 OUT = os.path.join(os.path.dirname(__file__), '..', '..', 'daybook')
 UA = {'User-Agent': 'Mozilla/5.0 (bibliography daybook)'}
 APP = 'https://www.presidency.ucsb.edu'
 RAW = 'https://raw.githubusercontent.com/HistoryAtState/frus/master/volumes/'
 HSG = 'https://history.state.gov/historicaldocuments/'
-# The volumes, from history.state.gov's lists for the Eisenhower and Kennedy administrations.
+# The volumes, from history.state.gov's lists for the Eisenhower, Kennedy and Johnson administrations.
 VOLS = (['frus1958-60v%02d' % i for i in (1, 2, 3, 4, 5, 6, 8, 9, 11, 12, 13, 14, 15, 16, 17, 18, 19)]
         + ['frus1958-60v07p1', 'frus1958-60v07p2', 'frus1958-60v10p1', 'frus1958-60v10p2',
            'frus1958-60v03mSupp', 'frus1958-60v05mSupp', 'frus1958-60v11mSupp', 'frus1958-60v15-16mSupp1',
            'frus1958-60v15-16mSupp2', 'frus1958-60v17-18mSupp', 'frus1958-60v19mSupp']
         + ['frus1961-63v%02d' % i for i in range(1, 26)]
         + ['frus1961-63v07-09mSupp', 'frus1961-63v10-12mSupp', 'frus1961-63v13-15mSupp',
-           'frus1961-63v17-21mSupp', 'frus1961-63v22-24mSupp'])
+           'frus1961-63v17-21mSupp', 'frus1961-63v22-24mSupp']
+        + ['frus1964-68v%02d' % i for i in range(1, 35) if i != 29] + ['frus1964-68v29p1', 'frus1964-68v29p2'])
 T = '{http://www.tei-c.org/ns/1.0}'
 F = '{http://history.state.gov/frus/ns/1.0}'
 XID = '{http://www.w3.org/XML/1998/namespace}id'
 ROMAN = ['', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII', 'XIII', 'XIV', 'XV',
-         'XVI', 'XVII', 'XVIII', 'XIX', 'XX', 'XXI', 'XXII', 'XXIII', 'XXIV', 'XXV']
+         'XVI', 'XVII', 'XVIII', 'XIX', 'XX', 'XXI', 'XXII', 'XXIII', 'XXIV', 'XXV', 'XXVI', 'XXVII', 'XXVIII',
+         'XXIX', 'XXX', 'XXXI', 'XXXII', 'XXXIII', 'XXXIV']
 
 
 def fetch(url, tries=5):

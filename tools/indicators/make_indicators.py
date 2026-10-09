@@ -7,13 +7,15 @@
 #   from the prior period in that same release; 'now' and 'chg_now' are the current FRED value and
 #   its change, on the same basis (CHANGE below). 'yoy' and 'yoy_now': percent change from the
 #   same month a year earlier, in that release and today (YOY below).
-#   The key is read from the environment and never written out.
+#   The key is read from the environment and never written out. Without a key, the same figures come
+#   from ALFRED's and FRED's public CSV downloads (KEYLESS below): every day's vintage, so the first
+#   release is the first day an observation appears.
 """
 import json, os, sys, time, urllib.parse, urllib.request
 import yaml
 
-KEY = os.environ.get('FRED_API_KEY') or sys.exit('set FRED_API_KEY')
-FROM, TO = (sys.argv[1], sys.argv[2]) if len(sys.argv) > 2 else ('1960-12-01', '1962-12-31')
+KEY = os.environ.get('FRED_API_KEY')     # without it, the public CSV downloads (KEYLESS below)
+FROM, TO = (sys.argv[1], sys.argv[2]) if len(sys.argv) > 2 else ('1960-12-01', '1963-12-31')
 OUT = os.path.join(os.path.dirname(__file__), '..', '..', 'indicators')
 FRED = 'https://fred.stlouisfed.org/series/'
 ALFRED = 'https://alfred.stlouisfed.org/series?seid='
@@ -50,6 +52,11 @@ BASE = {'CPIAUCNS': [('1900-01-01', '1947–49=100'), ('1962-02-01', '1957–59=
 
 
 def get(path, **q):
+    if not KEY:
+        if path == 'series/observations' and set(q) <= {'series_id', 'observation_start', 'observation_end'}:
+            return {'observations': [{'date': d, 'value': '.' if v is None else str(v)}
+                                     for d, v in current_from(q['series_id'], q.get('observation_start', '1959-01-01')).items()]}
+        raise SystemExit('this call needs FRED_API_KEY: ' + path)
     q.update(api_key=KEY, file_type='json')
     url = 'https://api.stlouisfed.org/fred/' + path + '?' + urllib.parse.urlencode(q)
     for i in range(5):
@@ -65,13 +72,90 @@ def num(v):
     return None if v in ('.', '', None) else float(v)
 
 
+# ---------------------------------------------------------------- KEYLESS: the public CSV downloads
+
+ALFRED_CSV = 'https://alfred.stlouisfed.org/graph/alfredgraph.csv?'
+FRED_CSV = 'https://fred.stlouisfed.org/graph/fredgraph.csv?'
+_VIN = {}
+
+
+def csv_get(url):
+    for i in range(5):
+        try:
+            with urllib.request.urlopen(url, timeout=120) as r:
+                rows = r.read().decode().strip().split('\n')
+            head = rows[0].split(',')
+            return head, [x.split(',') for x in rows[1:]]
+        except Exception:
+            time.sleep(2 * (i + 1))
+    raise SystemExit('CSV download failed: ' + url)
+
+
+def days(a, b):
+    import datetime
+    d, e = datetime.date.fromisoformat(a), datetime.date.fromisoformat(b)
+    while d <= e:
+        yield d.isoformat()
+        d += datetime.timedelta(days=1)
+
+
+def vintages(sid, first, last):
+    """Every day's vintage from first to last: {day: {observation date: value}}, twelve days a request (ALFRED
+    returns no more than twelve series at once), each column read by its header (SID_YYYYMMDD)."""
+    want = [d for d in days(first, last) if (sid, d) not in _VIN]
+    for i in range(0, len(want), 12):
+        chunk = want[i:i + 12]
+        q = {'id': ','.join([sid] * len(chunk)), 'vintage_date': ','.join(chunk),
+             'cosd': ','.join(['1959-01-01'] * len(chunk)), 'coed': ','.join([TO] * len(chunk))}
+        head, rows = csv_get(ALFRED_CSV + urllib.parse.urlencode(q, safe=','))
+        col = {h.rsplit('_', 1)[-1]: j for j, h in enumerate(head) if j}
+        for d in chunk:
+            j = col.get(d.replace('-', ''))
+            if j is None:
+                raise SystemExit(f'ALFRED returned no column for {sid} {d}')
+            _VIN[(sid, d)] = {r[0]: num(r[j]) for r in rows if len(r) > j and num(r[j]) is not None}
+    return {d: _VIN[(sid, d)] for d in days(first, last)}
+
+
+def latest_vintage(sid):
+    """The day the series last changed: back from today, the first day whose vintage differs from today's."""
+    import datetime
+    today = datetime.date.today()
+    now = vintages(sid, today.isoformat(), today.isoformat())[today.isoformat()]
+    end = today
+    while end.year > today.year - 3:
+        start = end - datetime.timedelta(days=39)
+        vs = vintages(sid, start.isoformat(), end.isoformat())
+        for d in sorted(vs, reverse=True):
+            if vs[d] != now:
+                return (datetime.date.fromisoformat(d) + datetime.timedelta(days=1)).isoformat()
+        end = start - datetime.timedelta(days=1)
+    raise SystemExit('no vintage found: ' + sid)
+
+
+def first_releases_keyless(sid):
+    import datetime
+    last = (datetime.date.fromisoformat(TO) + datetime.timedelta(days=200)).isoformat()
+    vs = vintages(sid, FROM, last)
+    out = {}
+    for d in sorted(vs):
+        for o, v in vs[d].items():
+            if FROM <= o <= TO and o not in out:
+                out[o] = (o, v, d)
+    return [out[o] for o in sorted(out)]
+
+
 def first_releases(sid):
+    if not KEY:
+        return first_releases_keyless(sid)
     d = get('series/observations', series_id=sid, output_type=4, realtime_start='1776-07-04',
             realtime_end='9999-12-31', observation_start=FROM, observation_end=TO)
     return [(o['date'], num(o['value']), o['realtime_start']) for o in d['observations'] if num(o['value']) is not None]
 
 
 def vintage(sid, date):
+    if not KEY:
+        return vintages(sid, date, date)[date]
     d = get('series/observations', series_id=sid, realtime_start=date, realtime_end=date,
             observation_start='1959-01-01', observation_end=TO)
     return {o['date']: num(o['value']) for o in d['observations']}
@@ -82,6 +166,9 @@ def current(sid):
 
 
 def current_from(sid, start):
+    if not KEY:
+        head, rows = csv_get(FRED_CSV + urllib.parse.urlencode({'id': sid, 'cosd': start, 'coed': TO}))
+        return {r[0]: num(r[1]) for r in rows}
     d = get('series/observations', series_id=sid, observation_start=start, observation_end=TO)
     return {o['date']: num(o['value']) for o in d['observations']}
 
@@ -389,7 +476,8 @@ def manual():
 def gap_cbo():
     """Retrospective output gap: CBO potential GDP against BEA real GDP, as published today."""
     pot, act = current_from('GDPPOT', '1960-01-01'), current_from('GDPC1', '1960-01-01')
-    vin = get('series/vintagedates', series_id='GDPPOT', sort_order='desc', limit=1)['vintage_dates'][0]
+    vin = (get('series/vintagedates', series_id='GDPPOT', sort_order='desc', limit=1)['vintage_dates'][0] if KEY
+           else latest_vintage('GDPPOT'))
     rows, years = [], {}
     for d in sorted(pot):
         if d in act and pot[d]:
@@ -398,7 +486,7 @@ def gap_cbo():
             years.setdefault(p[:4], []).append(g)
             if d >= '1960-10-01':
                 rows.append({'p': p, 'now': g})
-    for y in ('1960', '1961', '1962'):
+    for y in ('1960', '1961', '1962', '1963'):
         if len(years.get(y, [])) == 4:
             rows.append({'p': y, 'now': round(sum(years[y]) / 4, 1)})
     write('gap-cbo', {'id': 'gap-cbo', 'name': 'Output gap, CBO (retrospective)', 'freq': 'Q', 'then': None,
