@@ -1548,7 +1548,7 @@ def record_html(rows, rosters):
         out.append((c, day, p, "", where, "", "Continuing", ""))
     if not out:
         return ""
-    out.sort(key=lambda x: (x[1][:4], x[0]))
+    out.sort(key=lambda x: (x[1][:4], x[0], x[1]))
     head = "<tr><th>Election<br>Congress</th><th>Seat</th><th>Candidates<br>Source</th></tr>"
     two = lambda a_, b_: f"{a_}<br>{b_}" if a_ and b_ else (a_ or b_)
     body = "".join(
@@ -1934,7 +1934,51 @@ def _person_races(series, p):
                  alive_day(rp, names))
     races = election_sentences(sur, given, sfx, strict, [split_name(n)[1] for n in names] + full_givens(names),
                                held_spans(names), {(c, ch, st) for _, c, ch, st, *_ in rp}, names, e, last_day(rp, names))
-    return rp, e, races
+    return rp, e, races + primary_rows(series, name)
+
+
+def primary_rows(series, name):
+    """The presidential primaries in which CQ prints the person (elections/pres-primaries.yaml; primaries.py, STYLE 6):
+    a row each in the record, by date: the party's primary in the State, the date linked to the calendar's entry for
+    the day, every candidate with votes and CQ's share, the person in bold, the pinpoint cite. Not in the running
+    text."""
+    from . import primaries as Q, namelinks
+    from .congress import BLUEBOOK
+    from .elections import pct_text
+
+    def index():
+        Q.SERIES = series
+        out = defaultdict(list)
+        for y, Y in sorted(Q.load().items()):
+            for r in Y["races"]:
+                for p_ in "RD":
+                    for x in Q.rows_of(r, p_):
+                        who = Q.person_of(y, x["n"])
+                        if who and (y, r["date"], r["st"], p_) not in [(a_[0], a_[1]["date"], a_[1]["st"], a_[2]) for a_ in out[who]]:
+                            out[who].append((y, r, p_, x))
+        return out
+    days = cached("primary-days", lambda: {d: eid for (k, d), eid in Q.tagged(series).items() if k == "day"})
+    res = []
+    for y, r, p_, me in cached("primary-index", index).get(name, []):
+        cs = []
+        for x in sorted(Q.ranked(y, r, p_), key=lambda x: x["i"]):
+            sh = Q.share(x)
+            if x is me or x["n"] == me["n"]:
+                nm = f"<b>{esc(Q.who(y, x['n']))}</b>"
+            else:
+                nm = Q.name_html(y, x)
+            wi = ' <span class="lvpa">write-in</span>' if x["wi"] else ""
+            cs.append(f'<span class="lvn">{nm}{wi}</span><span class="lvv">{x["v"]:,}</span>'
+                      f'<span class="lvs">{pct_text(sh) if sh is not None else "—"}</span>')
+        eid = days.get(r["date"])
+        el = ptr(f"{SITE}cal.html#{eid}", fmt(r["date"])) if eid else esc(fmt(r["date"]))
+        src = esc(Q.cite(r))
+        res.append(sent(r["date"], f"{Q.PARTY[p_]} presidential primary, {fmt(r['date'])}.", [src], [],
+                        para=True, kind="election", dates={r["date"]}))
+        res[-1]["row"] = {"cong": None, "ch": "q", "st": r["st"], "date": r["date"], "election": el,
+                          "seat": f"{Q.PARTY[p_]} presidential primary, {BLUEBOOK.get(r['st'], r['st'])}", "result": "",
+                          "cands": cs, "src": src}
+    return res
 
 
 def race_people(series):

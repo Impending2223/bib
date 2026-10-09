@@ -8,9 +8,9 @@ summary, a map of the States by winner (Result) and by the winner's margin (Marg
 STYLE
  1. Returns as CQ prints them: its names (the State in parentheses at a name's first appearance), votes, and
     printed shares ("—" for less than 0.05). A write-in (CQ's note 1) is marked "write-in". CQ's other notes on a
-    race or a figure are quoted in the race's note, with the note's number ('CQ, note 5: “In addition to ...”'), but
-    the one it repeats under a dozen races, which is paraphrased ("CQ, note 2: figures from Scammon's office; not in
-    *America Votes*."). CQ's note on the year's heading is quoted in the block's sources. Nothing of CQ's is given
+    race or a figure are quoted in the race's note, with their page and number ('CQ Guide 6th (2010) 405 n.5: “In
+    addition to ...”'), but the one it repeats under a dozen races, which is paraphrased and cited ("Figures from
+    Scammon's office; not in *America Votes* (CQ Guide 6th (2010) 411 n.4)."). CQ's note on the year's heading is quoted in the block's sources. Nothing of CQ's is given
     in its words without quotation marks. Where a printed share does not fit the votes (more
     than 0.1 point off), the note gives both: "CQ prints 4.8 for Others; the votes give 4.4."
  2. The winner: the candidate or slate with the most votes, "Others" and "None of the names shown" aside. Margin:
@@ -22,6 +22,13 @@ STYLE
     of States won, then votes; unpledged slates gray) or, in Margin, the winner's color paler as the race was
     closer, by the election maps' quantile rule. A State without a primary, or whose party printed none, is
     blank. The District of Columbia is a dot.
+ 5. Names in full, as the election tables give them: a bare surname by STYLE 3, the State CQ adds in parentheses
+    left out; linked to the name entry where one person with an entry fits (namelinks.written). Each race's note
+    opens with its pinpoint cite, the page or pages it runs over ("CQ Guide 6th (2010) 404–405."); CQ's notes
+    by the page they are printed on and their number ("CQ Guide 6th (2010) 411 n.2").
+ 6. The Names entries: every primary in which CQ prints the person, a row in his record (person_rows): the party's
+    primary in the State, the date linked to the calendar's entry for the day, every candidate with votes and
+    CQ's share, the person in bold, and the pinpoint cite.
 """
 import json
 import os
@@ -158,13 +165,47 @@ def notes(y, r, p):
         if n not in seen and n in fn:
             seen.add(n)
             t = fn[n]
+            at = f"{CQ} {load()[y].get('notes_page')} n.{n}"
             if "Scammon did not record vote totals" in t:     # the note CQ repeats under a dozen races: paraphrased
-                bits.append(f"CQ, note {n}: figures from Scammon’s office; not in <i>America Votes</i>.")
+                bits.append(f"Figures from Scammon’s office; not in <i>America Votes</i> ({at}).")
             else:                                              # CQ's words, quoted
-                bits.append(f"CQ, note {n}: “{quote(t)}”")
+                bits.append(f"{at}: “{quote(t)}”")
     for name, printed, calc in misprints(r, p):
         bits.append(f"CQ prints {esc(printed)} for {esc(bare(name))}; the votes give {calc:.1f}.")
-    return " ".join(bits)
+    return " ".join([f"{cite(r)}."] + bits)
+
+
+def pages(r):
+    """'404' or '404–405': the pages the race runs over."""
+    return f"{r['page']}" + (f"–{r['page_to']}" if r.get("page_to") else "")
+
+
+def cite(r):
+    return f"{CQ} {pages(r)}"
+
+
+SERIES = None    # set by inject: the series, for the candidates' name entries
+
+
+def person_of(y, n):
+    """The name entry a printed name stands for, where one person with an entry fits its full form; else None."""
+    w = who(y, n)
+    if SERIES is None or w in NOT_A_PERSON or w == "Unpledged delegates" or " " not in w or "(" in w:
+        return None
+    from . import namelinks
+    hit = namelinks.written(SERIES, w)
+    sfx = lambda n: (re.search(r"\b(Jr|Sr|II|III|IV)\.?$", n.strip()) or [None, ""])[1]
+    return hit if hit and sfx(w) == sfx(hit) else None    # a son is not his father (Edmund G. Brown Jr.)
+
+
+def name_html(y, x):
+    """The candidate's full name (STYLE 5), linked to the name entry where one person fits."""
+    w = who(y, x["n"])
+    p = person_of(y, x["n"])
+    if not p:
+        return esc(w)
+    from . import namelinks
+    return f'<a class="nm" href="{esc(namelinks.url(SERIES, p))}">{esc(w)}</a>'
 
 
 def quote(t):
@@ -183,7 +224,7 @@ def cands(y, r, p):
         ss = pct_text(s) if s is not None else "—"
         cls = ' class="w"' if w is not None and x is not None and x["i"] == w["i"] else ""
         wi = ' <span class="ep">write-in</span>' if x["wi"] else ""
-        out.append(f'<span class="ec"><span{cls}><span class="en">{esc(x["n"])}</span>{wi}</span>'
+        out.append(f'<span class="ec"><span{cls}><span class="en">{name_html(y, x)}</span>{wi}</span>'
                    f'<span class="ev">{x["v"]:,}</span><span class="es">{ss}</span></span>')
     return "".join(out)
 
@@ -218,14 +259,14 @@ def day_block(date, links=None):
         for r in races:
             if p in r:
                 rows.append(race_row(y, r, p, f'<span title="{PARTY[p]}">{p}</span>'))
-    pages = sorted({r["page"] for r in races})
+    pgs = sorted({p_ for r in races for p_ in (r["page"], r.get("page_to") or r["page"])})
     more = ""
     if links:
         more = " The year's primaries by party: " + ", ".join(
             f'<a href="{esc(h)}">{PARTY[p]}</a>' for p, h in links) + "."
     return ('<div class="cg sprace pq"><details class="cgr er esp" open><summary>The primaries, '
             f'{esc(fmt_date(date))}</summary>' + TABLE_HEAD.format(h="Party<br>State") + "".join(rows) +
-            f'</tbody></table></details><p class="elsrc">{CQ} {"–".join(str(x) for x in pages[:1] + pages[1:][-1:])}.{more}</p></div>')
+            f'</tbody></table></details><p class="elsrc">{CQ} {"–".join(str(x) for x in pgs[:1] + pgs[1:][-1:])}.{more}</p></div>')
 
 
 def year_races(y, p):
@@ -260,7 +301,7 @@ def record(y, r, p, fills):
         return None
     rs = ranked(y, r, p)
     tot = sum(x["v"] for x in rs)
-    top = ", ".join(f'{bare(x["n"])} {x["p"]}%' + (" (write-in)" if x["wi"] else "") for x in rs[:3] if x["v"])
+    top = ", ".join(f'{who(y, x["n"])} {x["p"]}%' + (" (write-in)" if x["wi"] else "") for x in rs[:3] if x["v"])
     m = margin(y, r, p)
     t = f'{r["st"]}, {fmt_date(r["date"], False)}: {top}' + (f"; by {m:.1f} pts" if m is not None else "; unopposed")
     return {"id": rid(y, r, p), "f": fills.get(w["who"], "pO"), "mg": 100 if m is None else m, "t": t, "v": tot}
@@ -339,6 +380,8 @@ def tagged(series):
 
 def inject(page, series):
     """Put the tagged entries' returns and maps into a built page (after congress.inject, whose assets the maps use)."""
+    global SERIES
+    SERIES = series
     tags = tagged(series)
     if not tags:
         return page

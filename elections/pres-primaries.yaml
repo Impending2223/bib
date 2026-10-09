@@ -5,9 +5,11 @@
 # <year>:
 #   pages: the pages read
 #   star: CQ's note on the year's heading (delegate-selection primaries without a preference vote)
+#   notes_page: the page CQ prints the year's notes on
 #   footnotes: CQ's notes, by number, as printed
 #   races: by date as CQ orders them
-#     - {date, st (postal code), page (the page the race begins on), fn (notes on the State's heading)}
+#     - {date, st (postal code), page (the page the race begins on), page_to (where it runs onto the next), fn (notes
+#       on the State's heading)}
 #       R, D: the party's returns, in CQ's order: {n: name as printed, v: votes, p: share as printed ('—' for
 #             less than 0.05), nfn: notes on the name (1 = write-in), vfn: notes on the votes}; a party with no
 #             returns: {fn: [the note printed in their place]}
@@ -15,6 +17,7 @@
 
 1960:
   pages: '404–405'
+  notes_page: 405
   footnotes:
     1: Write-in.
     2: 'Figures obtained from Scammon’s office. In America Votes, Scammon did not record vote totals if a candidate was unopposed or if the primary was strictly for delegate selection.'
@@ -129,6 +132,7 @@
     - date: '1960-05-10'
       st: NE
       page: 404
+      page_to: 405
       R:
         - {n: Nixon, v: 74356, p: '93.8'}
         - {n: Rockefeller, v: 2028, p: '2.6', nfn: [1]}
@@ -202,6 +206,7 @@
     D: 5687742
 1964:
   pages: '406–408'
+  notes_page: 408
   footnotes:
     1: Write-in.
     2: No primary authorized.
@@ -433,6 +438,7 @@
     D: 6247435
 1968:
   pages: '409–411'
+  notes_page: 411
   star: 'Delegate selection primaries were held in Alabama and New York. In America Votes, Scammon did not record vote totals if the primary was strictly for delegate selection and there was no presidential preference voting.'
   footnotes:
     1: Write-in.
@@ -651,6 +657,7 @@
     D: 7535069
 1972:
   pages: '412–416'
+  notes_page: 416
   star: 'Delegate selection primaries were held in Alabama and New York. In America Votes, Scammon did not record vote totals if the primary was strictly for delegate selection and there was no presidential preference voting.'
   footnotes:
     1: Write-in.
@@ -908,6 +915,7 @@
     - date: '1972-05-23'
       st: OR
       page: 414
+      page_to: 415
       R:
         - {n: Nixon, v: 231151, p: '82.0'}
         - {n: McCloskey, v: 29365, p: '10.4'}
@@ -997,6 +1005,7 @@
     D: 15993965
 1976:
   pages: '417–422'
+  notes_page: 422
   star: 'Delegate selection primaries were held in Alabama, New York, and Texas. In America Votes, Scammon did not record vote totals if the primary was strictly for delegate selection and there was no presidential preference voting.'
   footnotes:
     1: Write-in.
@@ -1081,6 +1090,7 @@
     - date: '1976-03-16'
       st: IL
       page: 417
+      page_to: 418
       R:
         - {n: Ford, v: 456750, p: '58.9'}
         - {n: Reagan, v: 311295, p: '40.1'}
@@ -1149,6 +1159,7 @@
     - date: '1976-05-04'
       st: DC
       page: 418
+      page_to: 419
       R: {fn: [2]}
       D:
         - {n: Carter, v: 10521, p: '31.6'}

@@ -651,7 +651,15 @@ year does not print. `tools/bib/primaries.py` renders them (STYLE notes there):
   color by the election maps' quantile rule), and the table of races, each dated and linked to its day's entry.
   `drawQ` in `templates/congress.html` draws it.
 - A bare surname in CQ's tables is the person CQ names in full under it earlier that year (Kennedy, 1968: Robert F.;
-  after June 6, CQ prints Edward M.); `NAMES` in the module settles the rest (Brown, 1976).
+  after June 6, CQ prints Edward M.); `NAMES` in the module settles the rest (Brown, 1976). The tables give every
+  candidate's full name, linked to the name entry where one person fits (a suffix must agree: Edmund G. Brown Jr. is
+  not his father).
+- Cites: each race's note opens with its pinpoint page or pages (`page`, `page_to`: "CQ Guide 6th (2010) 404–405.");
+  CQ's notes are quoted with their page and number ("CQ Guide 6th (2010) 411 n.2: “…”", `notes_page`), and the
+  one it repeats under a dozen races is paraphrased with the same cite. Nothing of CQ's goes out in its words unquoted.
+- Names: every primary in which CQ prints a person is a row in his entry's record ("Elections and Congresses"):
+  the party's primary in the State, the date linked to the calendar's day, the candidates (the person in bold), the
+  pinpoint cite (`primary_rows` in `tools/bib/lives.py`).
 
 ## Rosters and elections, linked
 
