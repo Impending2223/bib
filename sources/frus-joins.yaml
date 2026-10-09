@@ -1,0 +1,189 @@
+# Kept by hand. Persons FRUS's lists of persons give whom no name entry holds (sources/frus-names/persons.json, written
+# by tools/lives/frus_names.py --all) that are one person under several forms of his name, and pairs kept apart.
+#
+# The build joins forms by rule (tools/bib/lives.py, frus_groups): alike but for the marks of transliteration and print
+# (apostrophes and primes, bracketed letters, the Arabic article, bin and ibn, Abdul and Abd al-, Al Sa'ud, the spacing
+# of a surname); or, where the lists' descriptions agree (a telling word, or a word of office and a country), the given
+# names agreeing by the series' rule, a Spanish or Portuguese surname's paternal part alone, or a word misspelled by a
+# letter. This file holds what the rule cannot settle: a misprinted initial, a romanization (Lin Piao, Lin Biao), forms
+# joined only through a third that does not fit every other, descriptions that share no telling word.
+#
+#   join:   - keys: [persons.json keys]      one person; a key of a person the series holds (key_of his name) among
+#             name: the name shown           them makes the others his. name: optional, else the form in most volumes
+#             why: the roles and dates that make him one
+#   apart:  - keys: [two keys]               the rule would join them; they are two
+#             why: ...
+#
+# The entry is filed under the key of the name shown; the other keys stay anchors on it (names-<letter>.html#<key>).
+# `check` fails on a key here that names no one.
+
+join:
+  - keys: [faisal-ibn-abd-al-aziz-al-saud, faisal-ibn-abd-al-aziz, faisal-ibn-abdul-aziz-al-saud,
+           faisal-ibn-al-aziz-ibn-abd-al-rahman-al-faisal-al-saud, faisal-ibn-al-aziz-ibn-abd-al-rahmanal-faisal-al-saud]
+    name: Faisal ibn Abd al-Aziz Al Saud
+    why: King Faisal. Saudi Foreign Minister, brother of King Saud (1955–57); Crown Prince, Prime Minister and Foreign Minister; King from Nov. 1964 until Mar. 25, 1975.
+  - keys: [fahd-ibn-abd-al-aziz-al-saud, fahd-bin-abdul-aziz, fahd-bin-abdul-aziz-al-saud]
+    name: Fahd ibn Abd al-Aziz Al Saud
+    why: Minister of the Interior and Second Deputy Prime Minister (1964–75); Crown Prince from 1975. Not Fahad ibn Saud, Minister of Defense from Jan. 3, 1957, King Saud's son.
+  - keys: [khalid-ibn-abd-al-aziz-al-saud, khalid-bin-abdul-aziz, khalid-ibn-abdul-aziz]
+    name: Khalid ibn Abd al-Aziz Al Saud
+    why: Deputy Prime Minister; Crown Prince; King from Mar. 25, 1975.
+  - keys: [sultan-ibn-abd-al-aziz-al-saud, sultan-bin-abdul-aziz-al-saud, sultan-ibn-abdul-aziz]
+    name: Sultan ibn Abd al-Aziz Al Saud
+    why: Saudi Minister of Defense and Aviation in each.
+  - keys: [saud-ibn-abd-al-aziz, saud-ibn-abd-al-aziz-al-faisal-al-saud, saud-ibn-abdul-aziz-al-feisal]
+    name: Saud ibn Abd al-Aziz Al Saud
+    why: King Saud. Crown Prince until Nov. 9, 1953, then King. Not Ibn Saud, Abdul Aziz, his father, King until Nov. 1953.
+  - keys: [saud-ibn-faisal-ibn-abd-al-aziz-al-saud, saud-faisal-ibn-abd-al-aziz-al-saud]
+    name: Saud ibn Faisal ibn Abd al-Aziz Al Saud
+    why: Saud al-Faisal, King Faisal's son. Minister of State for Foreign Affairs from 1975, then Foreign Minister, in both.
+  - keys: [hussein-ibn-talal, hussein-bin-talal, hussein-i, hussein-i-bin-talal, hussein-i-ibn-talal, hussein-ii]
+    name: Hussein ibn Talal
+    why: King of Jordan from Aug. 11, 1952, in each. There was no Hussein II; the list misprints the numeral.
+  - keys: [qadhafi-muammar, qadhafi-muammar-al, al-qadhafi-mu-ammar, al-qadafi-muammar, qaddafi-muammar, qaddhafi-muammar,
+           qadhafi-muammar-quadhaffi, qadhafi]
+    name: Qadhafi, Mu’ammar
+    why: Chairman of the Libyan Revolutionary Command Council in each. Not Wanis al-Qadhafi, Prime Minister under King Idris.
+  - keys: [franco-y-bahamonde-francisco, franco-bahamonde-francisco, franco-francisco]
+    why: Spanish Chief of State in each, 1936–75. Not Tulio Franco y Franco of the Dominican Republic.
+  - keys: [boegner-jean-marc, boegner-jean-marie]
+    name: Boegner, Jean-Marc
+    why: French Foreign Ministry; Diplomatic Adviser to de Gaulle, 1958–59. Jean-Marc Boegner; one list prints Jean-Marie.
+  - keys: [burrows-bernard-a-b, burrows-bernard-b-a]
+    why: Counselor of the British Embassy in the United States, Jan. 1950–July 1953, in both; the initials transposed.
+  - keys: [couve-de-murville-maurice, couve-de-murville-maurice-c, couve-de-murville-maurice-j]
+    why: French Ambassador to the United States to Sept. 1956, Foreign Minister from June 1958. One man, initials misprinted.
+  - keys: [grewe-wilhelm, grewe-wilhelm-c, grewe-wilhelm-g-k]
+    why: West German Ambassador to the United States, 1958–62, then Permanent Representative to NATO. Wilhelm Georg Grewe.
+  - keys: [pineau-christian, pineau-christian-p, pineau-christian-r]
+    why: French Foreign Minister from Feb. 1, 1956, in each; the initials misprinted.
+  - keys: [mcclurkin-robert-j-g, mcclurkin-robert-j, mcclurkin-robert-j-c]
+    why: Deputy Director, then Director, of the Office of Northeast Asian Affairs in each.
+  - keys: [zarubin-georgiy-nikolaeyevich, zaroubin-georgi-n]
+    why: Soviet Ambassador to the United States, 1952–58, in both.
+  - keys: [roijen-jean-herman-van, roijen-jan-h-van, roijen-j-h-van]
+    why: Netherlands Ambassador to the United States in each.
+  - keys: [mora-otero-jose-antonio, mora-jose-a, mora-otera-jose-a, more-otera-jose-antonio]
+    why: Uruguayan Ambassador to the United States from 1951; Secretary General of the OAS, 1956–68.
+  - keys: [nehru-braj-kumar, nehru-b-k, nehru-brij-k]
+    why: Indian Financial Counselor in Washington, then Ambassador to the United States, 1961–67. Braj Kumar Nehru.
+  - keys: [nouira-hedi-amira, nouira-hadi]
+    why: Tunisian Prime Minister from Nov. 1970 in both.
+  - keys: [karamanlis-constantine-g, karamanlis-konstantine]
+    why: Greek Prime Minister from Oct. 1955 in both.
+  - keys: [urguplu-ali-suat-havri, urgulplu-ali-suat-havri, urgupulu-ali-suat-fuat-hayri]
+    why: Turkish Ambassador to the United States, Sept. 1957–Dec. 1960, in each.
+  - keys: [douglas-home-alec, home-alexander-frederick-douglas]
+    why: British Foreign Secretary from June 1970 in both; the second's forms include Douglas-Home, Alexander.
+  - keys: [macapagal-diosdado, macapagal-diosado, macapagal-dosado, macapagal-disodado, macapagal-diosadado]
+    why: Vice President, then President of the Philippines, 1961–65, in each.
+  - keys: [von-hassel-kai-uwe, hassell-kai-uwe-von]
+    why: West German Minister of Defense, 1962–66, in both.
+  - keys: [balewa-abubakar-tafawa, balewa-abubakar, balewa-abubakar-balewa, balewa-alhaji-sir-abubakar-tatawa]
+    why: Prime Minister of Nigeria, 1960–66, in each.
+  - keys: [park-chung-hee, park-chung-hee-pak-chong-hui-pak-chung-hui, pak-chong-hui, pak-chung-hui]
+    name: Park Chung Hee
+    why: Deputy Chairman of the Supreme Council for National Reconstruction (1961), then President of the Republic of Korea; the lists give Pak Chong-hui and Pak Chung-hui as his other forms.
+  - keys: [podgorny-nikolai-v, podgorny-nikolai, podgorny-nicolai-v, podgorny-nikolay-viktorovich]
+    why: Chairman of the Presidium of the Supreme Soviet from 1965 in each.
+  - keys: [vorontsov-yuli-m, vorontsov-yuly-m, vorontsev-yuly-m, vorontsov-yuri]
+    why: Counselor, then Minister-Counselor, of the Soviet Embassy in Washington, 1966–77, in each.
+  - keys: [arafat-yasser, arafat-yasir, arafat-yassir]
+    why: Fatah; Chairman of the PLO Executive Committee, in each.
+  - keys: [kuznetsov-vasily-v, kuznetsov-v-v, kuznetsov-vasili-vasilievich, kuznetsov-vasiliy-v, kuznetsov-vassily-v,
+           kuznetzov-vasili-v]
+    why: Soviet First Deputy Minister of Foreign Affairs in each; Ambassador to China, 1953–55.
+  - keys: [dean-patrick, dean-patrick-dean, dean-patrick-henry]
+    why: Sir Patrick Henry Dean. Assistant Under Secretary in the Foreign Office; British Ambassador to the United States from Apr. 1965.
+  - keys: [yassin-yusuf, yasin-yusuf-sheikh, yassim-yusuf, yassin-yussef]
+    why: Saudi Deputy Foreign Minister and Royal Counselor, adviser to King Saud, in each.
+  - keys: [barwick-garfield, barwick-garfield-e-g, barwick-garfield-e-j]
+    why: Australian Minister of External Affairs, Dec. 1961–Apr. 1964, in each. Garfield Edward John Barwick.
+  - keys: [bouteflika-abdel-aziz, bouteflicka-abdelaziz]
+    why: Algerian Foreign Minister in both.
+  - keys: [jallud-abdul-salam, jalluud-abd-al-sallam, jalud-abd-al-salam]
+    why: Libyan Deputy Prime Minister from 1970, Prime Minister 1972–77, in each.
+  - keys: [patricio-rui-despiney, patricio-rui, patricio-rui-manuel]
+    why: Portuguese Foreign Minister, 1970–74, in each. Rui Manuel de Medeiros d’Espiney Patrício.
+  - keys: [rifai-abdul-monem, al-rifai-abdul-monem, rifa-i-abdul-mun-em, rifai-abdul-munem, rifai-abdul-moneim-el,
+           rifai-abdul-munim]
+    why: Jordanian Ambassador to the United States, 1953–57; Representative to the United Nations; Foreign Minister from 1968; Prime Minister, 1969.
+  - keys: [barzani-mullah-mustafa, al-barzani-mullah-mustafa, barzani-mustafa, al-barzani-mustafa]
+    why: Leader of the Iraqi Kurds and of the Kurdish Democratic Party in each. Not Masoud or Idris, his sons.
+  - keys: [saqqaf-omar, al-saqqaf-omar, saqqaf-sayyid-omar, al-saqqaf-sayyid-umar]
+    why: Saudi Deputy Foreign Minister from 1962, Minister of State for Foreign Affairs until his death, Nov. 1974, in each.
+  - keys: [zafrullah-khan-chaudhri-sir-muhammad, zafrullah-khan-chaudhri-muhammad, zafrulla-khan-mohammed,
+           zafrullah-khan-mohammed]
+    why: Pakistani Minister of Foreign Affairs and Commonwealth Relations, 1947–54, in each.
+  - keys: [arif-abdul-salam-muhammad, arif-abd-al-salim-muhammad]
+    why: Iraqi Deputy Prime Minister (1958); President of Iraq, Feb. 1963–Apr. 1966.
+  - keys: [pachachi-adnan-m, pachachi-adnan-al]
+    why: Iraqi Permanent Representative to the United Nations; Foreign Minister, 1965–67.
+  - keys: [el-baghdadi-abdel-latif-mahmoud, baghdadi-abdel-latif]
+    why: Member of the Egyptian Revolutionary Command Council; Vice President of the United Arab Republic.
+  - keys: [lin-piao, lin-biao]
+    why: Minister of Defense of the People's Republic of China, 1959–71, in both; Wade-Giles and pinyin.
+  - keys: [huang-chen, huang-zhen]
+    why: PRC Ambassador to France; Chief of the PRC Liaison Office in Washington from 1973; Wade-Giles and pinyin.
+  - keys: [chen-i, chen-yi]
+    why: Foreign Minister of the People's Republic of China in both.
+  - keys: [chi-peng-fei, chi-peng-tei]
+    why: Vice Minister, then Foreign Minister, of the People's Republic of China.
+  - keys: [chung-il-kwon, chung-ii-kwan]
+    why: Korean Army Chief of Staff; Ambassador to the United States; Prime Minister of the ROK until Dec. 1970.
+  - keys: [cho-chung-hwan, cho-chung-whan, cho-chong-hwan, cho-chung-hwan-cho]
+    why: Vice Minister, then Minister, of Foreign Affairs of the Republic of Korea.
+  - keys: [le-nguyen-khang, le-nguyen-thang]
+    why: Commander of the Vietnamese Marine Corps and of III Corps, 1966–68.
+  - keys: [nguyen-duy-trinh, nguyen-dinh-trinh]
+    why: Deputy Prime Minister and Foreign Minister of the Democratic Republic of Vietnam in both.
+  - keys: [phan-huy-quat, pham-huy-quat, pham-hut-quat]
+    why: Foreign Minister, Feb. 4–Nov. 4, 1964; Premier, Feb. 16–June 11, 1965.
+  - keys: [kim-jong-pil, kim-chong-pil]
+    why: Director of the KCIA; Prime Minister of the Republic of Korea from June 3, 1971.
+  - keys: [yu-ta-wei, yu-ta-wai]
+    why: Minister of Defense of the Republic of China in both.
+  - keys: [paik-too-jin, paik-doo-jin, paik-tu-chin]
+    why: Prime Minister of the Republic of Korea from Dec. 19, 1970.
+  - keys: [zimmermann-warren, zimmerman-warren]
+    why: Policy Planning Staff; political officer, Embassy in the Soviet Union. Warren Zimmermann.
+  - keys: [moffat-jay-p, moffatt-jay-p]
+    why: Officer in Charge of Belgian and Luxembourg Affairs, later Deputy Executive Secretary. Jay Pierrepont Moffat.
+  - keys: [fearey-robert-a, feary-robert-appelton]
+    why: Office of East Asian Affairs; Special Assistant to the Secretary for combating terrorism. Robert Appleton Fearey.
+  - keys: [proctor-carolyn, procter-carolyn-j]
+    why: Secretary to Secretary of State Dulles, then Personal Assistant to Rusk.
+  - keys: [kvitsinsky-yuli-a, kvitinsky-yuli-a]
+    why: Soviet Embassy in West Germany; Soviet Foreign Ministry, Third European Department.
+  - keys: [troyanovsky-oleg-a, troyanovski-oleg-antonovich]
+    why: Soviet interpreter; Ambassador to Japan from 1967.
+  - keys: [taher-abdel-hadi, tahir-abd-al-hadi]
+    why: Governor of Petromin, the Saudi General Petroleum and Mineral Organization, in both.
+  - keys: [camps-miriam, camp-miriam]
+    why: Office of European Regional Affairs, economic organization; later Policy Planning. Miriam Camps.
+  - keys: [jorgensen-gordon-l, jorgenson-gordon-l]
+    why: Embassy in Vientiane; Chief of the CIA Station in Saigon.
+  - keys: [sacksteder-frederick-h-jr, sackstedter-frederick-h-jr]
+    why: Office of Western European Affairs; Mission to the United Nations.
+  - keys: [leuam-insisiengmay, leum-insisiengmay]
+    why: Royal Lao Government delegate at Geneva; Lao Deputy Prime Minister.
+  - keys: [seydoux-de-clausonne-francois-fornier, seydoux-de-claussonne-francois-fornier, seydoux-de-claussone-francois,
+           seydoux-fornier-de-claussone-francois, seydoux-francois]
+    why: Director of European Affairs at the Quai d'Orsay; French Ambassador to West Germany, 1958–62 and 1965–70; Permanent Representative to NATO until 1965.
+  - keys: [seydoux-de-clausonne-roger, seydoux-de-claussonne-roger, seydoux-roger]
+    why: Counselor of the French Embassy in Washington to 1952; Permanent Representative to the United Nations; Ambassador to the Soviet Union. François's brother.
+  - keys: [bandaranaike-solomon-w-r-d, bandaranaike-s-w-r-d]
+    why: Prime Minister of Ceylon, Minister of Defense and External Affairs, 1956–59, in both. Not Sirimavo, his widow.
+  # persons the series holds
+  - keys: [beckett-john-a, beckett-j-angus]
+    why: John Angus Beckett, of the British Ministry of Fuel and Power, its Petroleum Division, and its petroleum attaché in Washington.
+  - keys: [sternfeld-reuben, sternfeld-ray]
+    why: Reuben (Ray) Sternfeld, Council on International Economic Policy.
+  - keys: [barall-milton, barral-milton, barrall-milton]
+    why: Deputy Assistant Secretary of State for Inter-American Affairs; Deputy Chief of Mission in Buenos Aires from 1969.
+  - keys: [connally-john, connelly-john, connolly-john-b-jr]
+    why: John B. Connally, Jr. Secretary of the Navy, 1961; Governor of Texas; Secretary of the Treasury, Feb. 1971–May 1972.
+
+apart:
+  - keys: [elliot-william, elliott-william-y]
+    why: Air Chief Marshal Sir William Elliot, of the British Joint Services Mission, is not William Y. Elliott of Harvard and the ODM.

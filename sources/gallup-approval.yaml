@@ -1,8 +1,10 @@
 # Kept by hand: Gallup's presidential job approval as published, read off the page images of
 # The Gallup Poll: Public Opinion, 1935-1971, vol. III (1972) (K-J Cong. II.E): the release date, page, field dates,
 # survey and question, the national figures, and approval by party where the book prints it. Fieldwork ending
-# Jan. 20, 1961 - Jan. 7, 1964. tools/indicators/make_polls.py sets these beside the American Presidency Project's
-# series (Gallup's figures as compiled today), which differ in places.
+# Jan. 20, 1961 - Dec. 16, 1964; releases through Jan. 20, 1965 (none in Jan. 1965 read: the pages after p. 1914 are
+# not in hand). tools/indicators/make_polls.py sets these beside the American Presidency Project's
+# series (Gallup's figures as compiled today), which differ in places. series_from, series_to: the series' field dates
+# where the release prints others for the same survey.
 
 - published: '1961-03-01'
   page: 1707
@@ -337,4 +339,79 @@
   rep: 74
   ind: 75
   note: 'Region 80/82/79/76.'
-
+- published: '1964-02-21'
+  page: 1865
+  from: '1964-02-01'
+  to: '1964-02-06'
+  survey: 684-K
+  question: '1'
+  president: Johnson
+  approve: 75
+  disapprove: 8
+  no_opinion: 17
+  dem: 82
+  rep: 65
+  ind: 73
+  series_from: '1964-01-30'
+  series_to: '1964-02-05'
+  note: 'Independents on p. 1866. Region 78/78/71/74. Field dates as printed; other releases from 684-K print 1/30-2/2, 2/4 or 2/5/64, and the series today 1/30-2/5.'
+- published: '1964-03-11'
+  page: 1869
+  from: '1964-02-28'
+  to: '1964-03-04'
+  survey: 686-K
+  question: '1'
+  president: Johnson
+  approve: 73
+  disapprove: 9
+  no_opinion: 18
+- published: '1964-04-08'
+  page: 1874
+  from: '1964-03-27'
+  to: '1964-04-02'
+  survey: 688-K
+  question: '1'
+  president: Johnson
+  approve: 77
+  disapprove: 9
+  no_opinion: 14
+  note: 'Region 81/77/75/76.'
+- published: '1964-05-15'
+  page: 1880
+  from: '1964-05-06'
+  to: '1964-05-11'
+  survey: 690-K
+  question: '1'
+  president: Johnson
+  approve: 75
+  disapprove: 11
+  no_opinion: 14
+  dem: 82
+  rep: 67
+  ind: 69
+  note: 'Region 81/76/66/74.'
+- published: '1964-06-12'
+  page: 1885
+  from: '1964-06-04'
+  to: '1964-06-09'
+  survey: 692-KA
+  question: '1'
+  president: Johnson
+  approve: 74
+  disapprove: 13
+  no_opinion: 13
+  dem: 82
+  rep: 62
+  ind: 68
+  note: 'Party figures and full breakdowns on p. 1886. Region 80/77/65/71; whites 72, non-whites 82.'
+- published: '1964-12-18'
+  page: 1911
+  from: '1964-12-11'
+  to: '1964-12-16'
+  survey: 703-K
+  question: '6'
+  president: Johnson
+  approve: 69
+  disapprove: 18
+  no_opinion: 13
+  note: 'No approval reading released between June 12 and Dec. 18, 1964.'

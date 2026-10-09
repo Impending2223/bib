@@ -61,14 +61,15 @@ from .markup import to_html
 DIR = os.path.join(store.ROOT, "indicators")
 ORDER = ["cpi", "wpi", "deflator", "unemployment", "payrolls", "industrial-production", "gnp", "real-gnp",
          "gap-cea", "gap-cbo", "administrative-budget", "cash-budget", "federal-national-accounts",
-         "balance-of-payments", "gold-stock", "approval"]
+         "balance-of-payments", "balance-of-payments-regular", "gold-stock", "approval"]
 GROUP = {"cpi": "Prices", "wpi": "Prices", "deflator": "Prices",
          "unemployment": "Employment", "payrolls": "Employment",
          "industrial-production": "Output", "gnp": "Output", "real-gnp": "Output",
          "gap-cea": "Output", "gap-cbo": "Output",
          "administrative-budget": "Federal finance", "cash-budget": "Federal finance",
          "federal-national-accounts": "Federal finance",
-         "balance-of-payments": "International", "gold-stock": "International",
+         "balance-of-payments": "International", "balance-of-payments-regular": "International",
+         "gold-stock": "International",
          "approval": "Opinion"}
 FIELD_LABEL = {"receipts": "Receipts", "expenditures": "Expenditures", "payments": "Payments", "balance": "Balance"}
 MON = ["Jan.", "Feb.", "Mar.", "Apr.", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."]
@@ -76,25 +77,27 @@ MON = ["Jan.", "Feb.", "Mar.", "Apr.", "May", "June", "July", "Aug.", "Sept.", "
 ERP62 = "https://www.govinfo.gov/app/details/SERIALSET-12497_00_00-002-0278-0000"
 ERP63 = "https://www.govinfo.gov/app/details/SERIALSET-12600_00_00-002-0028-0000"
 ERP64 = "https://www.govinfo.gov/app/details/SERIALSET-12658_00_00-002-0278-0000"
+ERP65 = "https://www.govinfo.gov/app/details/SERIALSET-12702_00_00-002-0028-0000"
 F = "https://fred.stlouisfed.org/series/"
 A = "https://alfred.stlouisfed.org/series?seid="
 APPROVAL = "https://www.presidency.ucsb.edu/statistics/data/presidential-job-approval"
 DEFS = {
     "approval": f"Gallup: \"Do you approve or disapprove of the way [the President] is handling his job as President?\" Each reading, filed by the month its fieldwork ended. As published: the release, in *The Gallup Poll: Public Opinion, 1935–1971*, vol. III (1972), by page (K–J Cong. II.E); approval among Democrats, independents, and Republicans in grey where the release gives it; \"—\" for a reading Gallup did not release at the time. Today: Gallup's series as the [American Presidency Project]({APPROVAL}) compiles it (Gerhard Peters), which differs from the releases in places: Sept. 12–17, 1963, released at 62 percent approving, is 56 in the series today. The race for 1964 and the issues are calendar entries in the thread Opinion.",
     "cpi": f"BLS. Retail prices of a fixed basket bought by city wage-earner and clerical-worker families; 1947–49=100 through Dec. 1961, 1957–59=100 from Jan. 1962. Today: CPI for all urban consumers, 1982–84=100. Neither seasonally adjusted. First releases: [ALFRED]({A}CPIAUCNS); today: [FRED]({F}CPIAUCNS).",
-    "wpi": f"BLS. Primary-market prices of all commodities; 1947–49=100 through 1961, 1957–59=100 from 1962. Today the producer price index, all commodities, 1982=100 ([FRED]({F}PPIACO)). First reported here means as tabled in the next January's *Economic Report* ([1962]({ERP62}), Table B-40; [1963]({ERP63}), Table C-41; [1964]({ERP64}), Table C-41).",
+    "wpi": f"BLS. Primary-market prices of all commodities; 1947–49=100 through 1961, 1957–59=100 from 1962. Today the producer price index, all commodities, 1982=100 ([FRED]({F}PPIACO)). First reported here means as tabled in the next January's *Economic Report* ([1962]({ERP62}), Table B-40; [1963]({ERP63}), Table C-41; [1964]({ERP64}), Table C-41; [1965]({ERP65}), Table B-43).",
     "deflator": f"Commerce, Office of Business Economics. GNP in current dollars over GNP in 1954 dollars, times 100, computed from the release that first carried the quarter ([ALFRED]({A}GNP)). Today BEA's GNP deflator, chained, 2017=100 ([FRED]({F}GNPDEF)).",
     "unemployment": f"Unemployed as a percent of the civilian labor force, seasonally adjusted, from the Current Population Survey (household survey), collected by Census, published by BLS. Then ages 14 and over; today's series ages 16 and over ([ALFRED]({A}UNRATE); [FRED]({F}UNRATE)).",
     "payrolls": f"BLS establishment survey: wage and salary workers in nonagricultural establishments, seasonally adjusted. Today's figures are benchmarked to later counts of insured employment ([ALFRED]({A}PAYEMS); [FRED]({F}PAYEMS)).",
     "industrial-production": f"Federal Reserve Board. Physical output of manufacturing, mining, and utilities; 1957=100 then, 2017=100 today ([ALFRED]({A}INDPRO); [FRED]({F}INDPRO)).",
     "gnp": f"Commerce, Office of Business Economics. Output of the nation's residents at market prices, seasonally adjusted annual rates. Today's BEA figures carry later definitions and benchmarks ([ALFRED]({A}GNP); [FRED]({F}GNP)).",
     "real-gnp": f"GNP in 1954 prices then; in chained 2017 dollars today (chain weighting from 1996) ([ALFRED]({A}GNPC96); [FRED]({F}GNPC96)).",
-    "gap-cea": f"Council of Economic Advisers. Potential GNP: a 3½ percent trend line through actual GNP in mid-1955, taken as full use of resources; full employment taken as 4 percent unemployment, an interim target. Gap: potential less actual, in 1961 prices (Jan. 1962), 1962 prices (Jan. 1963), or 1963 prices (Jan. 1964). Each point of unemployment above 4 percent put at about 3 percent of output (Okun's relation). [*Economic Report*, Jan. 1962]({ERP62}), \"Full Production,\" p. 49; [Jan. 1963]({ERP63}), Chart 5; [Jan. 1964]({ERP64}), \"Unemployment and Unused Potential Output,\" p. 37. Arthur M. Okun, \"Potential GNP: Its Measurement and Significance,\" *Proceedings of the Business and Economic Statistics Section*, American Statistical Association (1962).",
+    "gap-cea": f"Council of Economic Advisers. Potential GNP: a 3½ percent trend line through actual GNP in mid-1955, taken as full use of resources; full employment taken as 4 percent unemployment, an interim target. From Jan. 1965 the trend rises 3¾ percent a year after 1962. Gap: potential less actual, in 1961 prices (Jan. 1962), 1962 prices (Jan. 1963), 1963 prices (Jan. 1964), or 1964 prices (Jan. 1965). Each point of unemployment above 4 percent put at about 3 percent of output (Okun's relation). [*Economic Report*, Jan. 1962]({ERP62}), \"Full Production,\" p. 49; [Jan. 1963]({ERP63}), Chart 5; [Jan. 1964]({ERP64}), \"Unemployment and Unused Potential Output,\" p. 37; [Jan. 1965]({ERP65}), \"Problems Unsolved,\" p. 39, and \"The Gap Between Actual and Potential GNP,\" pp. 81–83. Arthur M. Okun, \"Potential GNP: Its Measurement and Significance,\" *Proceedings of the Business and Economic Statistics Section*, American Statistical Association (1962).",
     "gap-cbo": f"Congressional Budget Office, estimated decades later. Potential GDP: output at CBO's noncyclical rate of unemployment (about 5.5 percent for 1961) and trend productivity, from a model revised with each budget outlook. Gap: real GDP over potential, less 1, in percent; negative is output below potential. Not comparable with the CEA's figures: GDP not GNP, chained 2017 dollars, a later concept of full employment, a different benchmark. [FRED GDPPOT]({F}GDPPOT), [GDPC1]({F}GDPC1), [NROU]({F}NROU); CBO, *CBO's Method for Estimating Potential Output: An Update* (2001).",
     "administrative-budget": f"Three federal budgets were reported. The administrative budget: receipts and expenditures of federal funds only, the deficit of the headlines; fiscal years ending June 30. [*Economic Report*, Jan. 1962]({ERP62}), Table 7, p. 78, compares the three. Today: OMB's unified budget receipts, outlays, and deficit, recast back from the unified budget adopted for fiscal 1969 on the President's Commission on Budget Concepts (*Report*, 1967) ([FRED]({F}FYFSD)).",
     "cash-budget": f"The consolidated cash statement: federal receipts from and payments to the public, including the trust funds (Social Security, highways). Today: the unified budget, as above ([FRED]({F}FYONET)).",
     "federal-national-accounts": f"Commerce: federal receipts and expenditures in the national income accounts, seasonally adjusted annual rates; accrual basis, excluding loans and purchases of land and existing assets. Today: BEA's federal current receipts and current expenditures, a narrower and later definition; their balance is not the old surplus or deficit ([FRED]({F}FGRECPT); [FGEXPND]({F}FGEXPND)).",
-    "balance-of-payments": f"Commerce: the over-all balance, measured by the change in U.S. gold, convertible currencies, and liquid liabilities to foreigners; seasonally adjusted annual rates. The figure behind the gold and dollar measures of 1961–63. No longer published; no figure today. [*Economic Report*, Jan. 1963]({ERP63}), Table C-78; [Jan. 1964]({ERP64}), Table C-77.",
+    "balance-of-payments": f"Commerce: the over-all balance, measured by the change in U.S. gold, convertible currencies, and liquid liabilities to foreigners; seasonally adjusted annual rates. The figure behind the gold and dollar measures of 1961–63. No longer published; no figure today. [*Economic Report*, Jan. 1963]({ERP63}), Table C-78; [Jan. 1964]({ERP64}), Table C-77. From Jan. 1965, the balance on regular transactions, below.",
+    "balance-of-payments-regular": f"Commerce: the balance on regular transactions, which the *Economic Report* of Jan. 1965 prints in place of the over-all balance. Before special government transactions: debt prepayments, advances on military exports, and sales of nonmarketable bonds and notes, convertible and not. Seasonally adjusted annual rates. Not comparable with the over-all balance above: for 1962, −$3.6bn on regular transactions, −$2.2bn with all special transactions (Table 7). No longer published; no figure today. [*Economic Report*, Jan. 1965]({ERP65}), Table B-79, p. 283; Table 7, p. 72.",
     "gold-stock": f"Treasury monetary gold stock, end of month, as compiled by NBER from the *Federal Reserve Bulletin* ([FRED]({F}M1476CUSM144NNBR)). Not a revised series; one column.",
 }
 
@@ -265,7 +268,9 @@ def exact(v, unit):
 
 # ---------------------------------------------------------------- the table
 
-def rows_for(data, lo, hi, first_section):
+def rows_for(data, lo, hi, first_section, next_from=None):
+    """The rows a section files: periods ending within it (and before it, in the first). A month the section ends
+    within (Jan. 1965, the calendar ending Jan. 20) is filed there too, where no later section begins in it."""
     out = []
     for sid in ORDER + [k for k in data if k not in ORDER]:
         s = data.get(sid)
@@ -273,7 +278,9 @@ def rows_for(data, lo, hi, first_section):
             continue
         for r in s.get("rows", []):
             end = period_end(r["p"])
-            if lo <= end <= hi or (first_section and end < lo):
+            part = (re.match(r"^\d{4}-\d{2}", str(r["p"])) and end.replace(day=1) <= hi < end
+                    and (next_from is None or end < next_from))
+            if lo <= end <= hi or (first_section and end < lo) or part:
                 out.append((sid, s, r))
     return out
 
@@ -328,9 +335,9 @@ def poll_row(sid, s, r, year):
     return name, dates(r["from"], r["to"]), first, rel, now
 
 
-def block(data, sec_from, sec_to, first_section, year):
+def block(data, sec_from, sec_to, first_section, year, next_from=None):
     lo, hi = datetime.date.fromisoformat(sec_from), datetime.date.fromisoformat(sec_to)
-    rows = rows_for(data, lo, hi, first_section)
+    rows = rows_for(data, lo, hi, first_section, next_from and datetime.date.fromisoformat(next_from))
     if not rows:
         return ""
     trs, shown, polls = [], set(), []
@@ -427,7 +434,8 @@ def inject(page, series, mode):
             if i == 0:
                 pat0 = re.compile(r'(<h\d id="' + re.escape(hid) + r'")')
                 page, n0 = pat0.subn(lambda m: defs_block(data) + "\n" + m.group(1), page, count=1)
-            blk = block(data, str(sec.extra["from"]), str(sec.extra["to"]), i == 0, year)
+            nxt = str(dated[i + 1].extra["from"]) if i + 1 < len(dated) else None
+            blk = block(data, str(sec.extra["from"]), str(sec.extra["to"]), i == 0, year, nxt)
             if not blk:
                 continue
             pat = re.compile(r'(<h\d id="' + re.escape(hid) + r'"[^>]*>.*?</h\d>(?:\s*<p class="logic">.*?</p>)*)', re.S)

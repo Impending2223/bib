@@ -1,6 +1,6 @@
 """Monthly and quarterly indicators for the calendar, as first reported and as revised today.
 # Usage: FRED_API_KEY=... python3 tools/indicators/make_indicators.py [FROM TO]
-#   FROM, TO are reporting periods, default 1960-12-01 1962-12-31.
+#   FROM, TO are reporting periods, default 1960-12-01 1964-12-31.
 #   Rewrites indicators/<id>.yaml for the series in API below. Series entered by hand from the
 #   Economic Reports and budget documents (manual: true in their files) are left alone.
 #   'first' is the initial release in ALFRED, with the date it was released; 'chg' is the change
@@ -15,7 +15,7 @@ import json, os, sys, time, urllib.parse, urllib.request
 import yaml
 
 KEY = os.environ.get('FRED_API_KEY')     # without it, the public CSV downloads (KEYLESS below)
-FROM, TO = (sys.argv[1], sys.argv[2]) if len(sys.argv) > 2 else ('1960-12-01', '1963-12-31')
+FROM, TO = (sys.argv[1], sys.argv[2]) if len(sys.argv) > 2 else ('1960-12-01', '1964-12-31')
 OUT = os.path.join(os.path.dirname(__file__), '..', '..', 'indicators')
 FRED = 'https://fred.stlouisfed.org/series/'
 ALFRED = 'https://alfred.stlouisfed.org/series?seid='
@@ -293,9 +293,10 @@ def main():
 
 # ---------------------------------------------------------------- series transcribed from the Economic Reports
 # Values read from the page images of the Economic Report of the President, January 1962 (transmitted
-# Jan. 22, 1962), January 1963 (Jan. 21, 1963) and January 1964 (Jan. 20, 1964; H. Doc. 88-278), U.S.
-# Congressional Serial Set on govinfo (1964 read off FRASER's scan of the same printing, checked against
-# govinfo's). For these series 'first' is the figure as it stood in the next January's Report, not the first release.
+# Jan. 22, 1962), January 1963 (Jan. 21, 1963), January 1964 (Jan. 20, 1964; H. Doc. 88-278) and January 1965
+# (Jan. 28, 1965; H. Doc. 89-28, Serial Set 12702), U.S. Congressional Serial Set on govinfo (1964 and 1965 read off
+# FRASER's scans of the same printings, checked against govinfo's). For these series 'first' is the figure as it
+# stood in the next January's Report, not the first release.
 ERP = {
     1962: ('1962-01-22', 'Economic Report of the President, Jan. 1962',
            'https://www.govinfo.gov/app/details/SERIALSET-12497_00_00-002-0278-0000'),
@@ -303,17 +304,20 @@ ERP = {
            'https://www.govinfo.gov/app/details/SERIALSET-12600_00_00-002-0028-0000'),
     1964: ('1964-01-20', 'Economic Report of the President, Jan. 1964',
            'https://www.govinfo.gov/app/details/SERIALSET-12658_00_00-002-0278-0000'),
+    1965: ('1965-01-28', 'Economic Report of the President, Jan. 1965',
+           'https://www.govinfo.gov/app/details/SERIALSET-12702_00_00-002-0028-0000'),
 }
-MONTHS = [f'{y}-{m:02d}' for y, m in [(1960, 12)] + [(y, m) for y in (1961, 1962, 1963) for m in range(1, 13)]]
+MONTHS = [f'{y}-{m:02d}' for y, m in [(1960, 12)] + [(y, m) for y in (1961, 1962, 1963, 1964) for m in range(1, 13)]]
 MANUAL = {
     'wpi': dict(
         name='Wholesale price index', freq='M', change='pct',
         then='BLS, wholesale price index, all commodities', now_label='BLS, producer price index, all commodities',
         now_unit='1982=100', now_fred='PPIACO',
         tables={1962: 'Table B-40, p. 254 (1947–49=100)', 1963: 'Table C-41, p. 220 (1957–59=100)',
-                1964: 'Table C-41, p. 256 (1957–59=100)'},
+                1964: 'Table C-41, p. 256 (1957–59=100)', 1965: 'Table B-43, p. 240 (1957–59=100)'},
         prior={'1962-01': (100.4, 1963),    # Dec. 1961 on the 1957-59 base, Table C-41
-               '1963-01': (100.4, 1964)},   # Dec. 1962, Table C-41 of 1964 (as the 1963 Report printed it)
+               '1963-01': (100.4, 1964),    # Dec. 1962, Table C-41 of 1964 (as the 1963 Report printed it)
+               '1964-01': (100.3, 1965)},   # Dec. 1963, Table B-43 of 1965 (as the 1964 Report printed it)
         # A year earlier, on the same base and from the same table, for the 12-month change.
         # Table B-40 gives 1959 as a year only, so Dec. 1960 has none.
         year_ago={1962: dict(zip(MONTHS[1:13], [119.3, 119.3, 120.0, 120.0, 119.7, 119.5,
@@ -321,48 +325,64 @@ MANUAL = {
                   1963: dict(zip(MONTHS[13:25], [101.0, 101.0, 101.0, 100.5, 100.0, 99.5,
                                                  99.9, 100.1, 100.0, 100.0, 100.0, 100.4])),   # 1961
                   1964: dict(zip(MONTHS[25:37], [100.8, 100.7, 100.7, 100.4, 100.2, 100.0,
-                                                 100.4, 100.5, 101.2, 100.6, 100.7, 100.4]))},   # 1962
+                                                 100.4, 100.5, 101.2, 100.6, 100.7, 100.4])),   # 1962
+                  1965: dict(zip(MONTHS[37:49], [100.5, 100.2, 99.9, 99.7, 100.0, 100.3,
+                                                 100.6, 100.4, 100.3, 100.5, 100.7, 100.3]))},   # 1963
         rows={**{p: (v, 1962, '1947–49=100') for p, v in zip(MONTHS[:13], [
             119.5, 119.9, 120.0, 119.9, 119.4, 118.7, 118.2, 118.6, 118.9, 118.8, 118.7, 118.8, 119.2])},
               **{p: (v, 1963, '1957–59=100') for p, v in zip(MONTHS[13:25], [
             100.8, 100.7, 100.7, 100.4, 100.2, 100.0, 100.4, 100.5, 101.2, 100.6, 100.7, 100.4])},
               **{p: (v, 1964, '1957–59=100') for p, v in zip(MONTHS[25:37], [
-            100.5, 100.2, 99.9, 99.7, 100.0, 100.3, 100.6, 100.4, 100.3, 100.5, 100.7, 100.3])}}),
+            100.5, 100.2, 99.9, 99.7, 100.0, 100.3, 100.6, 100.4, 100.3, 100.5, 100.7, 100.3])},
+              # Dec. 1964 preliminary in the Report (its note 2).
+              **{p: (v, 1965, '1957–59=100') for p, v in zip(MONTHS[37:49], [
+            101.0, 100.5, 100.4, 100.3, 100.1, 100.0, 100.4, 100.3, 100.7, 100.8, 100.7, 100.8])}}),
     'administrative-budget': dict(
         name='Federal budget (administrative)', freq='FY', fields=('receipts', 'expenditures', 'balance'),
         then='Treasury and Bureau of the Budget, net budget receipts and budget expenditures (the administrative budget), fiscal years ending June 30, millions of dollars',
         now_label='OMB, unified budget receipts, outlays, and surplus or deficit (a later concept, from fiscal 1969)',
         now_unit='millions of dollars', now_fred=('FYFR', 'FYONET', 'FYFSD'),
-        tables={1962: 'Table B-55, p. 272', 1963: 'Table C-56, p. 238', 1964: 'Table C-56, p. 274'},
+        tables={1962: 'Table B-55, p. 272', 1963: 'Table C-56, p. 238', 1964: 'Table C-56, p. 274',
+                1965: 'Table B-59, p. 260'},
         rows={'FY1961': ((77659, 81515, -3856), 1962, 'millions of dollars'),
               'FY1962': ((81409, 87787, -6378), 1963, 'millions of dollars'),
-              'FY1963': ((86376, 92642, -6266), 1964, 'millions of dollars')},
+              'FY1963': ((86376, 92642, -6266), 1964, 'millions of dollars'),
+              'FY1964': ((89459, 97684, -8226), 1965, 'millions of dollars')},   # the deficit as printed (the difference is 8,225)
         est={'FY1962': [((82100, 89075, -6975), 1962)], 'FY1963': [((93000, 92537, 463), 1962), ((85500, 94311, -8811), 1963)],
-             'FY1964': [((88400, 98405, -10005), 1964)], 'FY1965': [((93000, 97900, -4900), 1964)]}),
+             'FY1964': [((88400, 98405, -10005), 1964)], 'FY1965': [((93000, 97900, -4900), 1964), ((91200, 97481, -6281), 1965)],
+             'FY1966': [((94400, 99687, -5287), 1965)]}),
     'cash-budget': dict(
         name='Federal cash receipts from and payments to the public', freq='FY', fields=('receipts', 'payments', 'balance'),
         then='Treasury, Bureau of the Budget, and CEA, the consolidated cash statement, federal, fiscal years, billions of dollars',
         now_label='OMB, unified budget receipts, outlays, and surplus or deficit (a later concept, from fiscal 1969)',
         now_unit='millions of dollars', now_fred=('FYFR', 'FYONET', 'FYFSD'),
-        tables={1962: 'Table B-57, p. 274', 1963: 'Table C-58, p. 240', 1964: 'Table C-58, p. 276'},
+        tables={1962: 'Table B-57, p. 274', 1963: 'Table C-58, p. 240', 1964: 'Table C-58, p. 276',
+                1965: 'Table B-60, p. 261'},
         rows={'FY1961': ((97.2, 99.5, -2.3), 1962, 'billions of dollars'),
               'FY1962': ((101.9, 107.7, -5.8), 1963, 'billions of dollars'),
-              'FY1963': ((109.7, 113.8, -4.0), 1964, 'billions of dollars')},
+              'FY1963': ((109.7, 113.8, -4.0), 1964, 'billions of dollars'),
+              'FY1964': ((115.5, 120.3, -4.8), 1965, 'billions of dollars')},
         est={'FY1962': [((102.6, 111.1, -8.5), 1962)], 'FY1963': [((116.6, 114.8, 1.8), 1962), ((108.4, 116.8, -8.3), 1963)],
-             'FY1964': [((114.4, 122.7, -8.3), 1964)], 'FY1965': [((119.7, 122.7, -2.9), 1964)]}),
+             'FY1964': [((114.4, 122.7, -8.3), 1964)], 'FY1965': [((119.7, 122.7, -2.9), 1964), ((117.4, 121.4, -4.0), 1965)],
+             'FY1966': [((123.5, 127.4, -3.9), 1965)]}),
     'federal-national-accounts': dict(
         name='Federal receipts and expenditures, national income accounts', freq='Q', fields=('receipts', 'expenditures', 'balance'),
         then='Commerce and Bureau of the Budget, federal government receipts and expenditures in the national income accounts, seasonally adjusted annual rates, billions of dollars',
         now_label='BEA, federal government current receipts and current expenditures, SAAR (balance computed)',
         now_unit='billions of dollars, SAAR', now_fred=('FGRECPT', 'FGEXPND', None),
-        tables={1962: 'Table B-59, p. 276', 1963: 'Table C-60, p. 242', 1964: 'Table C-60, p. 278'},
+        tables={1962: 'Table B-59, p. 276', 1963: 'Table C-60, p. 242', 1964: 'Table C-60, p. 278',
+                1965: 'Table B-62, p. 263'},
         rows={'1960Q4': ((94.6, 94.2, 0.4), 1962, 'billions of dollars, annual rate'), '1961Q1': ((92.5, 98.0, -5.5), 1962, 'billions of dollars, annual rate'),
               '1961Q2': ((96.8, 101.1, -4.3), 1962, 'billions of dollars, annual rate'), '1961Q3': ((99.3, 102.4, -3.1), 1962, 'billions of dollars, annual rate'),
               '1961Q4': ((103.8, 105.1, -1.3), 1963, 'billions of dollars, annual rate'), '1962Q1': ((105.9, 108.3, -2.4), 1963, 'billions of dollars, annual rate'),
               '1962Q2': ((108.4, 109.0, -0.7), 1963, 'billions of dollars, annual rate'), '1962Q3': ((108.9, 109.8, -0.9), 1963, 'billions of dollars, annual rate'),
               '1962Q4': ((None, 112.5, None), 1963, 'billions of dollars, annual rate'),
               '1963Q1': ((110.0, 114.5, -4.6), 1964, 'billions of dollars, annual rate'), '1963Q2': ((112.3, 115.3, -3.0), 1964, 'billions of dollars, annual rate'),
-              '1963Q3': ((114.3, 116.1, -1.8), 1964, 'billions of dollars, annual rate'), '1963Q4': ((None, 118.4, None), 1964, 'billions of dollars, annual rate')}),
+              '1963Q3': ((114.3, 116.1, -1.8), 1964, 'billions of dollars, annual rate'),
+              # Q4 1963 from the 1965 Report, which completes it (the 1964 Report: receipts n.a., expenditures 118.4).
+              '1963Q4': ((117.2, 116.6, 0.6), 1965, 'billions of dollars, annual rate'),
+              '1964Q1': ((114.8, 117.2, -2.4), 1965, 'billions of dollars, annual rate'), '1964Q2': ((112.3, 120.2, -7.8), 1965, 'billions of dollars, annual rate'),
+              '1964Q3': ((114.0, 119.2, -5.2), 1965, 'billions of dollars, annual rate'), '1964Q4': ((None, 120.3, None), 1965, 'billions of dollars, annual rate')}),
     'balance-of-payments': dict(
         name='Balance of payments, over-all surplus or deficit', freq='Q', fields=('balance',),
         then='Commerce, over-all balance (changes in U.S. gold stock, convertible currencies, and liquid liabilities to foreigners), seasonally adjusted annual rates, millions of dollars',
@@ -377,17 +397,34 @@ MANUAL = {
               '1960': ((-3925,), 1963, 'millions of dollars, year'), '1961': ((-2461,), 1963, 'millions of dollars, year'),
               '1962': ((-1916,), 1963, 'millions of dollars, annual rate, first three quarters'),
               '1963': ((-3147,), 1964, 'millions of dollars, annual rate, first three quarters')}),
+    # The Jan. 1965 Report prints the balance on regular transactions in place of the over-all balance: before
+    # special government transactions (debt prepayments, advances on military exports, nonmarketable bonds and
+    # notes). Another concept, so another series (STYLE 8 in tools/bib/indicators.py).
+    'balance-of-payments-regular': dict(
+        name='Balance of payments, balance on regular transactions', freq='Q', fields=('balance',),
+        then='Commerce, balance on regular transactions (before special government transactions), seasonally adjusted annual rates, millions of dollars',
+        now_label='No longer published', now_unit=None, now_fred=None,
+        tables={1965: 'Table B-79, p. 283'},
+        rows={'1963Q4': ((-1592,), 1965, 'millions of dollars, annual rate'), '1964Q1': ((-968,), 1965, 'millions of dollars, annual rate'),
+              '1964Q2': ((-2764,), 1965, 'millions of dollars, annual rate'), '1964Q3': ((-2264,), 1965, 'millions of dollars, annual rate'),
+              '1963': ((-3261,), 1965, 'millions of dollars, year'),
+              '1964': ((-1998,), 1965, 'millions of dollars, annual rate, first three quarters')}),
     'gap-cea': dict(
         name='Output gap, CEA (contemporary)', freq='Q',
-        then='Council of Economic Advisers: potential GNP (a 3½ percent trend through actual GNP in mid-1955, at 4 percent unemployment) less actual GNP',
+        then='Council of Economic Advisers: potential GNP (a 3½ percent trend through actual GNP in mid-1955; from Jan. 1965, 3¾ percent after 1962; at 4 percent unemployment) less actual GNP',
         now_label=None, now_unit=None, now_fred=None,
         tables={1962: 'ch. 1, "Full Production," p. 49', 1963: "President's message, p. xiii",
-                1964: 'ch. 1, "Unemployment and Unused Potential Output," p. 37'},
+                1964: 'ch. 1, "Unemployment and Unused Potential Output," p. 37',
+                1965: 'ch. 1, "Problems Unsolved," p. 39'},
+        # A figure from another page of the same Report than its table entry.
+        src={'1964': 'ch. 2, "The Gap Between Actual and Potential GNP," p. 83'},
         rows={'1961Q1': (51, 1962, 'billions of 1961 dollars, annual rate'),
               '1961Q4': (28, 1962, 'billions of 1961 dollars, annual rate'),
               '1961': (40, 1962, 'billions of 1961 dollars, year'),
               '1962Q4': ('30–40', 1963, 'billions of dollars, annual rate'),
-              '1963Q4': (30, 1964, 'billions of 1963 dollars, annual rate')}),
+              '1963Q4': (30, 1964, 'billions of 1963 dollars, annual rate'),
+              '1964Q4': ('25–30', 1965, 'billions of dollars, annual rate'),
+              '1964': (27, 1965, 'billions of 1964 dollars, year')}),
     'gold-stock': dict(
         name='Monetary gold stock', freq='M', change='diff',
         then=None, now_label='Treasury monetary gold stock, end of month, as compiled by NBER from the Federal Reserve Bulletin',
@@ -425,7 +462,8 @@ def prev_p(p):
 # Qualifiers the source puts on a figure ("about $28 billion"; "some $30-40 billion").
 QUAL = {('gap-cea', '1961Q4'): 'about', ('gap-cea', '1962Q4'): 'some', ('gap-cea', '1963Q4'): 'close to'}
 # Notes the source attaches to a single figure, shown after it.
-NOTE = {('balance-of-payments', '1962'): 'Q1–Q3, annual rate', ('balance-of-payments', '1963'): 'Q1–Q3, annual rate'}
+NOTE = {('balance-of-payments', '1962'): 'Q1–Q3, annual rate', ('balance-of-payments', '1963'): 'Q1–Q3, annual rate',
+        ('balance-of-payments-regular', '1964'): 'Q1–Q3, annual rate'}
 
 
 def manual():
@@ -451,7 +489,7 @@ def manual():
             if v is not None:
                 row['first'] = dict(zip(m['fields'], v)) if m.get('fields') else v
                 row['released'] = ERP[erp][0]
-                row['source'] = f'{ERP[erp][1]}, {m["tables"][erp]}'
+                row['source'] = f'{ERP[erp][1]}, {m.get("src", {}).get(p) or m["tables"][erp]}'
                 if unit:
                     row['unit'] = unit
                 base_v = prev if prev and prev[1] == erp else m.get('prior', {}).get(p)
@@ -509,7 +547,7 @@ def gap_cbo():
             years.setdefault(p[:4], []).append(g)
             if d >= '1960-10-01':
                 rows.append({'p': p, 'now': g})
-    for y in ('1960', '1961', '1962', '1963'):
+    for y in ('1960', '1961', '1962', '1963', '1964'):
         if len(years.get(y, [])) == 4:
             rows.append({'p': y, 'now': round(sum(years[y]) / 4, 1)})
     write('gap-cbo', {'id': 'gap-cbo', 'name': 'Output gap, CBO (retrospective)', 'freq': 'Q', 'then': None,

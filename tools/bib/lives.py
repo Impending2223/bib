@@ -92,20 +92,410 @@ def split_name(name):
 def everyone(series):
     """people(), and every person FRUS's lists of persons give whom no name entry holds (sources/frus-names/
     persons.json, written by tools/lives/frus_names.py --all): an entry of his own, with each volume's description.
-    Kept apart from the matching of races, namesakes and authors, which go by people() alone."""
+    Kept apart from the matching of races, namesakes and authors, which go by people() alone. Persons the lists
+    give under several forms of one name are one entry (frus_groups); a form that is a person the series holds
+    (sources/name-forms.yaml, sources/frus-joins.yaml) is his."""
     def make():
         ps = list(cached("people", lambda: people(series)))
-        keys = {key_of(p["name"]) for p in ps}
+        keys = {key_of(p["name"]): p for p in ps}
         path = os.path.join(store.ROOT, "sources", "frus-names", "persons.json")
         extra = json.load(open(path, encoding="utf-8")) if os.path.exists(path) else {}
+        extra = {k: v for k, v in extra.items() if k not in keys}
+        groups, held = frus_groups(ps, extra)
+        alias, union = {}, {}
+        for k, sk in held.items():               # a person the series holds: his documents go to him
+            if sk not in union:                  # his entry a copy: people() itself is left as it is
+                i = ps.index(keys[sk])
+                ps[i] = keys[sk] = dict(keys[sk])
+            union.setdefault(sk, [sk]).append(k)
+            alias[k] = sk
+            keys[sk]["names"] = set(keys[sk]["names"]) | set(extra[k]["names"]) | {extra[k]["name"]}
+        done = set(held)
+        for g in groups:
+            g = [k for k in g if k not in done]
+            if not g:
+                continue
+            done |= set(g)
+            name = frus_name(g, extra)
+            pk = key_of(name)
+            if (pk in keys or pk in extra) and pk not in g:     # a name shown that is another's: the form's own
+                name = extra[g[0]]["name"]
+                pk = g[0]
+            sur, given = split_name(name)
+            ps.append({"name": name, "sur": sur, "given": given, "ranks": {(name, 3)}, "frus": True,
+                       "names": {n for k in g for n in set(extra[k]["names"]) | {extra[k]["name"]}} | {name}})
+            if len(g) > 1 or pk != g[0]:
+                union[pk] = sorted(g, key=lambda k: k != pk)
+                alias.update({k: pk for k in g if k != pk})
         for k, v in extra.items():
-            if k in keys:
+            if k in done:
                 continue
             sur, given = split_name(v["name"])
             ps.append({"name": v["name"], "sur": sur, "given": given, "names": set(v["names"]) | {v["name"]},
                        "ranks": {(v["name"], 3)}, "frus": True})
+        _CACHE["frus-alias"], _CACHE["frus-union"] = alias, union
         return sorted(ps, key=lambda p: (fold(p["sur"]), fold(p["given"])))
     return cached("everyone", make)
+
+
+# ---------------------------------------------------------------- one person under several forms in FRUS's lists
+
+FRUS_JOINS = os.path.join(store.ROOT, "sources", "frus-joins.yaml")
+APOS = re.compile(r"[’'ʼ′‘`´ʻʹ]")
+# the words a description shares with another that tell nothing of the post: a nationality or country, the commonest
+# words of offices
+NATIONS = set("""american british french soviet german italian spanish portuguese egyptian saudi arabian arabia iraqi
+iranian syrian jordanian lebanese israeli turkish greek indian pakistani chinese japanese korean vietnamese thai
+laotian cambodian burmese indonesian philippine australian canadian mexican brazilian argentine chilean cuban
+dominican venezuelan colombian peruvian bolivian ecuadorian uruguayan paraguayan panamanian nicaraguan guatemalan
+honduran salvadoran belgian dutch norwegian swedish danish finnish polish czech czechoslovak hungarian yugoslav
+romanian bulgarian albanian austrian swiss irish libyan moroccan algerian tunisian sudanese ethiopian kenyan
+nigerian ghanaian congolese yemeni kuwaiti afghan nepalese ceylonese egypt saudi iraq iran syria jordan lebanon israel
+turkey greece india pakistan china japan korea vietnam thailand laos cambodia burma indonesia philippines australia
+canada mexico brazil argentina chile cuba venezuela colombia peru bolivia ecuador uruguay paraguay panama nicaragua
+guatemala honduras salvador belgium netherlands norway sweden denmark finland poland czechoslovakia hungary
+yugoslavia romania rumania bulgaria albania austria switzerland ireland libya morocco algeria tunisia sudan ethiopia
+kenya nigeria ghana congo yemen kuwait afghanistan nepal ceylon spain portugal france germany italy britain england
+union soviet ussr kingdom republic""".split())
+ROLE_STOP = NATIONS | {"minister", "ministry", "foreign", "member", "staff", "senior", "officer", "adviser",
+                              "advisor", "representative", "government", "international", "also", "then", "that",
+                              "this", "thereafter", "since", "subsequently", "later", "former", "first", "second",
+                              "third", "deputy", "embassy", "mission", "head", "state", "relations"}
+PARTICLE = re.compile(r"(?:^|\s)(?:de|da|do|dos|das|del|della|di|du|des|la|le|van|von|der|den|ter|ten|st|san|santa|"
+                      r"mac|bin|ibn|abu|abd|al|el|[dl][’'ʼ′])(?:\s|$)|\b[dDlL][’'ʼ′]", re.I)
+
+
+def frus_joins_file():
+    """sources/frus-joins.yaml: {join: [{keys, name?, why}], apart: [{keys, why}]}."""
+    return cached("frus-joins-file",
+                  lambda: (store.load_yaml(FRUS_JOINS) or {}) if os.path.exists(FRUS_JOINS) else {})
+
+
+def bracket_forms(s):
+    """'Fahmi[y]' -> Fahmi, Fahmiy, Fahmy; 'Arif [Aref]' -> Arif, Aref: a list's bracketed letters or word, each way."""
+    m = re.search(r"\s*\[([^\]]*)\]", s)
+    if not m:
+        return [s]
+    alt, pre, post = m.group(1), s[:m.start()], s[m.end():]
+    if m.group(0).startswith((" ", "\t")) or len(alt) > 2:          # a word for the word before: 'Arif [Aref]'
+        w = re.search(r"(\S+)$", pre)
+        outs = [pre + post] + ([pre[:w.start()] + alt + post] if w else [])
+    else:                                                           # letters: 'Fahmi[y]'
+        outs = [pre + post, pre + alt + post, pre[:-1] + alt + post]
+    return [v for o in outs for v in bracket_forms(o)]
+
+
+def mark_toks(t, keep_first=False):
+    """Name words with the marks of transliteration and print folded: diacritics; apostrophes, primes and ʻayns
+    ('Sa’ud', 'DʼOrlandi', 'd′Estaing'); hyphens and dashes as spaces; bin as ibn, Abdul and Abdel as Abd; the Arabic
+    article (al-, el-, al, Al) left out, but for a name's first word (keep_first: 'Al' as a given name)."""
+    t = APOS.sub("", t)
+    t = re.sub(r"\b([A-Z]{2,3})\.", lambda m: ". ".join(m.group(1)) + ".", t)       # 'Eric CM.': C. M.
+    ws = [w for w in re.split(r"[\s.,;]+", fold(t).lower()) if w]
+    out = []
+    for i, w in enumerate(ws):
+        w = {"bin": "ibn", "abdul": "abd", "abdel": "abd", "abdal": "abd", "abdul-": "abd"}.get(w, w)
+        if w in ("al", "el") and not (keep_first and i == 0):
+            continue
+        out.append(w)
+    return tuple(out)
+
+
+def frus_forms(name):
+    """The comparison forms of a listed name: [{sur, given, sfx, paternal}] (given None for a name in its own order),
+    one a reading of its bracketed letters. A Spanish or Portuguese surname, paternal and maternal ('Franco
+    Bahamonde', 'Franco y Bahamonde', 'Castelo Branco'), also gives the paternal alone (paternal)."""
+    out = []
+    bare = re.sub(r"\s*\([^)]*\)|\s*\([^)]*$|\s*[“\"][^”\"]*[”\"]", "", name).strip()
+    sfx = suffix(bare)
+    if sfx:
+        bare = re.sub(r",\s*(Jr|Sr|II|III|IV)\b\.?\s*$", "", bare)
+    for v in bracket_forms(bare):
+        if "," not in v:
+            v = re.sub(r"\s+al[\s-]+sa[’'ʼ]?ud$", "", v, flags=re.I)      # the house: 'Fahd ibn Abd al-Aziz Al Sa’ud'
+            out.append({"sur": mark_toks(v, True), "given": None, "sfx": sfx, "paternal": None})
+            continue
+        sur, given = [x.strip() for x in v.split(",", 1)]
+        st = mark_toks(re.sub(r"(?<=\S) [ye] (?=[A-ZÁÉÍÓÚ])", " ", sur))       # 'Franco y Bahamonde'
+        pat = st[:1] if (len(st) == 2 and re.fullmatch(r"[A-ZÁÉÍÓÚÑ][^\s]+(?: [ye])? [A-ZÁÉÍÓÚÑ][^\s]+", sur)
+                         and not PARTICLE.search(sur)) else None
+        g = tuple(w for i, w in enumerate(mark_toks(given, True))
+                  if w not in ("jr", "sr", "ii", "iii", "iv", "de", "da", "do", "dos", "von", "van", "zu", "und")
+                  and not (i and w in ("al", "el")))
+        out.append({"sur": st, "given": g, "sfx": sfx, "paternal": pat})
+    return out
+
+
+def one_edit(x, y, most=1):
+    """The two words differ by at most `most` letters dropped, added or changed (Vaughan, Vaughn; Ismael, Ismail)."""
+    if abs(len(x) - len(y)) > most:
+        return False
+    prev = list(range(len(y) + 1))
+    for i, a_ in enumerate(x, 1):
+        cur = [i]
+        for j, b_ in enumerate(y, 1):
+            cur.append(min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (a_ != b_)))
+        prev = cur
+    return prev[-1] <= most
+
+
+def spelled_alike(x, y):
+    """Two given names at one place alike: the same, an initial or an abbreviation of the other ('Ya.',
+    'Yakovlevich'), a short form, or one spelling of the other with the same first letter ('Josef', 'Joseph';
+    'Yuli', 'Yuly')."""
+    from difflib import SequenceMatcher
+    if x == y or x.startswith(y) and len(y) <= 3 or y.startswith(x) and len(x) <= 3 or nick(x, y):
+        return True
+    tr = lambda w: w.replace("ph", "f").replace("ks", "x").replace("iy", "y").replace("kh", "h").replace("ou", "u")
+    x, y = tr(x), tr(y)
+    return x == y or one_edit(x, y) or (x[0] == y[0] and min(len(x), len(y)) >= 4
+                                         and SequenceMatcher(None, x, y).ratio() >= 0.8)
+
+
+def misprint(A, B, loose=False):
+    """Word lists alike but one word misspelled by a letter (by two, loose, for words of seven letters or more)."""
+    if len(A) != len(B):
+        return False
+    diff = [(x, y) for x, y in zip(A, B) if x != y]
+    if loose:
+        return all(min(len(x), len(y)) >= 4 and one_edit(x, y, 2 if min(len(x), len(y)) >= 7 else 1) for x, y in diff)
+    return len(diff) == 1 and min(len(diff[0][0]), len(diff[0][1])) >= 4 and one_edit(*diff[0])
+
+
+def form_tier(a, b, loose=False):
+    """How two forms of a name agree: 1, alike but for the marks of transliteration and print (mark_toks), the
+    spacing of a surname ('Fitz Gerald', 'FitzGerald'), a 'y' between a Spanish surname's two parts; 2, the given
+    names agreeing by same_person's rule but not word for word ('Nikolai', 'Nikolai V.'), or one form in its own
+    order a part of the other, or a Spanish surname's paternal part alone ('Franco', 'Franco Bahamonde'); 3, a word
+    misspelled by a letter ('Vaughan', 'Vaughn'); None, not alike. The suffix must agree."""
+    if a["sfx"] != b["sfx"]:
+        return None
+    if (a["given"] is None) != (b["given"] is None):
+        return None
+    if a["given"] is None:
+        A, B = a["sur"], b["sur"]
+        if A == B:
+            return 1
+        short, long_ = (A, B) if len(A) < len(B) else (B, A)
+        if len(short) >= 3 and long_[:len(short)] == short:
+            return 2
+        # in a name in its own order, each word with its first letter: 'Tran Van Chuong' is not 'Tran Van Huong'
+        return 3 if misprint(A, B, loose) and all(x[0] == y[0] for x, y in zip(A, B)) else None
+    sa, sb = "".join(a["sur"]), "".join(b["sur"])
+    if sa == sb:
+        st = 1
+    elif (a["paternal"] and a["paternal"] == b["sur"]) or (b["paternal"] and b["paternal"] == a["sur"]):
+        st = 2
+    elif len(a["sur"]) == len(b["sur"]) and misprint(a["sur"], b["sur"], loose):
+        st = 3
+    else:
+        return None
+    G, H = a["given"], b["given"]
+    if G == H:
+        gt = 1
+    elif given_fit(list(G), list(H)) and all(spelled_alike(x, y) for x, y in zip(G, H)):
+        gt = 2
+    elif misprint(G, H, loose):
+        gt = 3
+    else:
+        return None
+    if st == 3 and gt == 3 and not loose:
+        return None
+    return max(st, gt)
+
+
+def name_tier(n, m, loose=False):
+    """The best agreement (form_tier) of any of the two names' forms."""
+    ts = [t for a in frus_forms(n) for b in frus_forms(m) for t in [form_tier(a, b, loose)] if t]
+    return min(ts) if ts else None
+
+
+def frus_data(key):
+    """The person's FRUS documents and descriptions by volume: those of every key joined in his entry
+    (frus_groups), the volumes' documents united, a volume's description the first given."""
+    keys = _CACHE.get("frus-union", {}).get(key, [key])
+    if len(keys) == 1:
+        return letter_json("frus-names", keys[0][:1].upper()).get(keys[0], {})
+    out = {}
+    for k in keys:
+        for vol, v in letter_json("frus-names", k[:1].upper()).get(k, {}).items():
+            y = out.setdefault(vol, {"named": [], "sent": [], "role": ""})
+            y["named"] += [d for d in v.get("named") or [] if d not in y["named"]]
+            y["sent"] += [d for d in v.get("sent") or [] if d not in y["sent"]]
+            if v.get("role") and not y["role"]:
+                y["role"] = v["role"]
+    for y in out.values():
+        y["named"].sort(key=lambda d: (str(d[1] or ""), str(d[0])))
+    return out
+
+
+def frus_keys_of(key):
+    """Every key whose FRUS lists the person's entry holds (his own first)."""
+    return _CACHE.get("frus-union", {}).get(key, [key])
+
+
+def role_words(key):
+    """The telling words of the descriptions the lists give a key: an office, a post, a place (ROLE_STOP and STOP
+    aside)."""
+    t = " ".join((v.get("role") or "") for v in letter_json("frus-names", key[:1].upper()).get(key, {}).values())
+    return set(re.findall(r"[a-z]{4,}", fold(t))) - ROLE_STOP - STOP
+
+
+def frus_name(keys, extra):
+    """The name a joined person is shown by: the hand file's, else of the forms the lists print, one free of
+    misprinted marks (a bracket, a doubled period, a run-together article, the modifier apostrophe or the prime) and
+    not led by the Arabic article, in the most volumes, then the most documents, then the fullest; its marks put right where every form has them."""
+    for j in frus_joins_file().get("join") or []:
+        if j.get("name") and set(keys) & set(j.get("keys") or []):
+            return j["name"]
+    def score(k):
+        n = extra[k]["name"]
+        d = letter_json("frus-names", k[:1].upper()).get(k, {})
+        odd = bool(re.search(r"[\[\]ʼ′–]|\.\.|[a-z]al-|\(|“", n))
+        article = bool(re.match(r"(?:al|el)\b[- ]?", n, re.I))         # 'Sadat, Anwar', not 'al-Sadat, Anwar'
+        return (not odd, not article, len(d), sum(len(v.get("named") or []) + len(v.get("sent") or []) for v in d.values()), len(n))
+    n = extra[max(keys, key=score)]["name"]
+    return re.sub(r"\s*\([^)]*$", "", re.sub(r"\.\.", ".", re.sub(r"[ʼ′]", "’", n))).strip()
+
+
+def frus_groups(ps, extra):
+    """([[key]] of persons from the lists alone that are one person, {key: the key of a person the series holds}).
+
+    By rule (form_tier): two forms of a name are one person where they are alike but for the marks of
+    transliteration and print (tier 1); where they agree by same_person's rule, or a Spanish or Portuguese surname's
+    paternal part stands alone, or a word is misspelled by a letter, only where the lists' descriptions share a
+    telling word, an office, a post or a place, or a word of office and a country (tiers 2 and 3; roles_agree), and
+    do not name only other countries (nations). A person the series holds takes a form of his name only so, at any tier. Forms that join only
+    through a third are one person only where every two of them are alike (loosely: a misspelling of two letters in
+    a long word) and no two are persons the series holds; else none joins. By hand, sources/frus-joins.yaml: `join`
+    groups (a key of a person the series holds among them makes the others his), `apart` pairs the rule would
+    join. A form sources/name-forms.yaml gives a natural-order person the series holds is his."""
+    from itertools import combinations
+    hand = frus_joins_file()
+    apart = {frozenset(x.get("keys") or []) for x in hand.get("apart") or []}
+    held_keys = {key_of(p["name"]): p for p in ps}
+    held = {}
+    # natural-order names the series holds, by their forms (sources/name-forms.yaml)
+    forms = {}
+    for p in ps:
+        if natural(p["name"]):
+            for f in name_forms(p["name"]):
+                if "," in f:
+                    f = f.split(",", 1)[1].strip() + " " + f.split(",", 1)[0].strip()
+                forms[mark_toks(f, True)] = key_of(p["name"])
+    for k, v in extra.items():
+        for n in set(v["names"]) | {v["name"]}:
+            hit = forms.get(mark_toks(n if "," not in n else n.split(",", 1)[1] + " " + n.split(",", 1)[0], True))
+            if hit:
+                held[k] = hit
+    # each by every form of his name; but forms joined through a third are alike by the names they are shown by (the
+    # forms frus_names.py joined are not all sound: 'Ibn Saud, Abdul Aziz' holds 'Saud ibn Abdul-Aziz', his son)
+    names = {k: sorted(set(v["names"]) | {v["name"]}, key=lambda n: n != v["name"]) for k, v in extra.items()}
+    names.update({k: sorted(p["names"] | {p["name"]}) for k, p in held_keys.items()})
+    parent = {k: k for k in names}
+    def root(x):
+        while parent[x] != x:
+            x = parent[x]
+        return x
+    by = {}
+    for k, ns in names.items():
+        for n in ns[:6]:
+            for f in frus_forms(n):
+                h = {"".join(f["sur"])[:3]} if f["given"] is not None else {(f["sur"][:1] or ("",))[0][:3]}
+                if f["paternal"]:
+                    h.add(f["paternal"][0][:3])
+                for x in h:
+                    by.setdefault(x, set()).add(k)
+    tier = {}
+    def tier_of(x, y, loose=False):
+        if (x, y, loose) not in tier:
+            ts = [t for n in names[x][:1 if loose and x in extra else 6] for m in names[y][:1 if loose and y in extra else 6]
+                  for t in [name_tier(n, m, loose)] if t]
+            tier[(x, y, loose)] = min(ts) if ts else None
+        return tier[(x, y, loose)]
+    edges = []
+    for h, ks in by.items():
+        if not any(k in extra for k in ks):
+            continue
+        for x, y in combinations(sorted(ks), 2):
+            if (x in held_keys and y in held_keys) or frozenset((x, y)) in apart:
+                continue
+            t = tier_of(x, y)
+            if t is None:
+                continue
+            if t > 1 and not roles_agree(x, y):
+                continue
+            if t == 1 and (x in held_keys or y in held_keys) and not roles_agree(x, y) and not (
+                    nations(x) & nations(y)):
+                continue
+            edges.append((x, y))
+    for x, y in edges:
+        a_, b_ = root(x), root(y)
+        if a_ != b_:
+            parent[a_] = b_
+    comps = {}
+    for k in names:
+        comps.setdefault(root(k), []).append(k)
+    groups, refused = [], []
+    for g in comps.values():
+        if len(g) > 1 and sum(k in held_keys for k in g) <= 1 and all(
+                tier_of(x, y, True) and frozenset((x, y)) not in apart for x, y in combinations(g, 2)):
+            groups.append(sorted(g))
+        elif len(g) > 1:
+            refused.append(sorted(g))
+    _CACHE["frus-refused"] = refused      # for review: joined only through a third, or two the series holds
+    # by hand: groups joined whole, with the rule's groups they touch
+    for j in hand.get("join") or []:
+        ks = [k for k in j.get("keys") or [] if k in names]
+        touched = [g for g in groups if set(g) & set(ks)]
+        groups = [g for g in groups if g not in touched] + [sorted(set(ks).union(*map(set, touched)))]
+    # a group holding a person the series holds, or a form of one (name-forms.yaml), is his
+    out = []
+    for g in groups:
+        hs = {k for k in g if k in held_keys} | {held[k] for k in g if k in held}
+        if len(hs) == 1:
+            held.update({k: next(iter(hs)) for k in g if k not in held_keys})
+        elif not hs:
+            out.append(g)
+    return out, held
+
+
+NATION_OF = {"spanish": "spain", "british": "britain", "english": "britain", "french": "france", "dutch": "netherlands",
+             "swiss": "switzerland", "soviet": "ussr", "russian": "ussr", "union": "ussr", "danish": "denmark",
+             "swedish": "sweden", "finnish": "finland", "polish": "poland", "turkish": "turkey", "greek": "greece",
+             "philippine": "philippines", "irish": "ireland", "afghan": "afghanistan", "argentine": "argentina",
+             "laotian": "laos", "thai": "thailand", "burmese": "burma", "ceylonese": "ceylon", "yemeni": "yemen",
+             "kuwaiti": "kuwait", "rumania": "romania", "czech": "czechoslovakia", "czechoslovak": "czechoslovakia"}
+
+
+def nations(key):
+    """The countries the lists' descriptions of a key name, by their first four letters ('egyp', 'saud')."""
+    t = " ".join((v.get("role") or "") for v in letter_json("frus-names", key[:1].upper()).get(key, {}).values())
+    ws = set(re.findall(r"[a-z]+", fold(t))) & NATIONS - {"union", "republic", "kingdom", "american"}
+    return {NATION_OF.get(w, w)[:4] for w in ws}
+
+
+HEAD_OFFICE = {"president", "premier", "prime", "king", "queen", "prince", "emperor", "shah", "minister", "foreign",
+               "ambassador", "chief", "head", "state", "secretary", "chairman", "director", "deputy", "representative",
+               "governor", "commander", "general", "counselor", "consul", "delegate"}
+
+
+def office_words(key):
+    """The words of office the lists' descriptions of a key use ('president', 'minister'), HEAD_OFFICE's."""
+    t = " ".join((v.get("role") or "") for v in letter_json("frus-names", key[:1].upper()).get(key, {}).values())
+    return set(re.findall(r"[a-z]+", fold(t))) & HEAD_OFFICE
+
+
+def roles_agree(x, y, words=True):
+    """The lists' descriptions of two keys agree: they share a telling word (role_words), or a word of office and a
+    country ('President of Venezuela', 'Venezuelan President'); and where both name countries, they share one.
+    words=False: the countries alone."""
+    a_, b_ = nations(x), nations(y)
+    if a_ and b_ and not a_ & b_:
+        return False
+    if not words:
+        return True
+    return bool(role_words(x) & role_words(y)) or bool(a_ & b_ and office_words(x) & office_words(y))
 
 
 def natural(name):
@@ -152,7 +542,11 @@ def same_person(sur, given, other_sur, other_given):
     given name or initial, those agree."""
     if fold(sur) != fold(other_sur):
         return False
-    A, B = gtoks(given), gtoks(other_given)
+    return given_fit(gtoks(given), gtoks(other_given))
+
+
+def given_fit(A, B):
+    """same_person's rule for the given names, as tokens ('hubert', 'h')."""
     if not A or not B:
         return False
     a, b = A[0], B[0]
@@ -838,11 +1232,32 @@ def problems(series):
             for c in rd.get("cands") or []:
                 if len(c) != 4 or (c[2] is not None and not isinstance(c[2], int)):
                     yield "elections/primaries.yaml", f"{k}, {rd.get('label')}: {c}: [name, party, votes, share]"
-    pkeys = {key_of(p["name"]) for p in everyone(series)}
+    pkeys = {key_of(p["name"]) for p in everyone(series)} | set(_CACHE.get("frus-alias", {}))
     for k, es in calendar_tagged(series).items():  # the calendar's hidden name tags: each a person's entry
         if k not in pkeys:
             for e in es:
                 yield "lists/cal", f"{e['id']}: tag name:{k} names no person (the key of a name entry: name:mcnamara-robert-s)"
+    # sources/frus-joins.yaml: each key a person FRUS's lists give, or one the series holds
+    fj = "sources/frus-joins.yaml"
+    pp = os.path.join(store.ROOT, "sources", "frus-names", "persons.json")
+    listed = set(json.load(open(pp, encoding="utf-8"))) if os.path.exists(pp) else set()
+    held = {key_of(p["name"]) for p in cached("people", lambda: people(series))}
+    hand = frus_joins_file()
+    if set(hand) - {"join", "apart"}:
+        yield fj, "only join: and apart: lists"
+    for part in ("join", "apart"):
+        for j in hand.get(part) or []:
+            ks = j.get("keys") if isinstance(j, dict) else None
+            if not isinstance(ks, list) or len(ks) < 2 or (part == "apart" and len(ks) != 2):
+                yield fj, f"{part}: {j}: keys: a list of {'two' if part == 'apart' else 'two or more'} keys"
+                continue
+            if not j.get("why"):
+                yield fj, f"{part}: {ks[0]}: no why:"
+            for k in ks:
+                if k not in listed and k not in held:
+                    yield fj, f"{part}: {k}: names no one (a key of sources/frus-names/persons.json or of a name entry)"
+            if part == "join" and len([k for k in ks if k in held]) > 1:
+                yield fj, f"join: {ks[0]}: two persons the series holds"
     for n, v in race_matches().items():
         if n not in names:
             yield where, f"{n}: no person of that name"
@@ -1321,7 +1736,9 @@ def calendar_of(ptrs, subs, key=None, series=None):
             if e["id"] not in seen:
                 seen.add(e["id"])
                 out.append(e)
-    for e in (calendar_tagged(series).get(key, []) if key and series is not None else []):
+    tagged = [e for k in (frus_keys_of(key) if key else []) for e in calendar_tagged(series).get(k, [])] \
+        if series is not None else []
+    for e in tagged:
         if e.get("date") and e["id"] not in seen:
             seen.add(e["id"])
             out.append(e)
@@ -1650,7 +2067,7 @@ def bd_bib(e, sur, lines):
 
 
 def frus_lists(name):
-    d = letter_json("frus-names", key_of(name)[:1].upper()).get(key_of(name), {})
+    d = frus_data(key_of(name))
     titles = cached("frus-volumes", lambda: json.load(open(os.path.join(store.ROOT, "sources", "frus-names", "volumes.json"),
                                                          encoding="utf-8")) if os.path.exists(os.path.join(
                                                          store.ROOT, "sources", "frus-names", "volumes.json")) else {})
@@ -1738,11 +2155,13 @@ RUN_ON = re.compile(r"(?=\b[A-Za-z][a-z]*\.? ([A-ZÇ][\w’'-]{2,}), ((?:Sir |Dr
 def run_on(desc, own):
     """A description a list runs on into the next person's entry ('... British Foreign Office Caglayangil, Ihsan
     Sabri, Turkish Foreign Minister'; '... Prime Minister of Tunisia Nyerere, Julius, President of Tanzania'): cut
-    where that person's name begins, the name being one a FRUS list gives (its key, or a key it begins)."""
+    where that person's name begins, the name being one a FRUS list gives (its key, or a key it begins). own: the
+    person's own keys."""
+    own = {own} if isinstance(own, str) else set(own)
     keys = frus_keys()
     for m in RUN_ON.finditer(desc):
         k = key_of(m.group(1) + ", " + re.sub(r"^(?:Sir|Dr\.) ", "", m.group(2)))
-        if k != own and (k in keys or any(x.startswith(k) for x in keys if x[:4] == k[:4])):
+        if k not in own and (k in keys or any(x.startswith(k) for x in keys if x[:4] == k[:4])):
             return desc[:m.start(1)].strip(" ,.;:—–-")
     return desc
 
@@ -1751,10 +2170,10 @@ def frus_roles(name):
     """The descriptions FRUS's lists of persons give the person, each once, with the volumes that give it, in the
     volumes' order ('French Ambassador to the United States. FRUS 1961–63, I; FRUS 1961–63, XXIV.')."""
     from .executive_sources import frus_label
-    d = letter_json("frus-names", key_of(name)[:1].upper()).get(key_of(name), {})
+    d = frus_data(key_of(name))
     by = {}
     for vol in sorted(d, key=vol_order):
-        r = run_on((d[vol].get("role") or "").strip(), key_of(name))
+        r = run_on((d[vol].get("role") or "").strip(), set(frus_keys_of(key_of(name))))
         if r:
             by.setdefault(r[0].upper() + r[1:], []).append(vol)
     # one post worded volume by volume ('French Ambassador to the United States', 'Ambassador to the United States',
@@ -1788,7 +2207,9 @@ def vol_order(vol):
 
 def app_list(name, sur):
     """The presidential documents that name the person (sources/app-names: indexes into sources/app-index.jsonl)."""
-    hits = letter_json("app-names", key_of(name)[:1].upper()).get(key_of(name), [])
+    # those of every key joined in his entry (frus_groups), each once
+    hits = list(dict.fromkeys(h for k in frus_keys_of(key_of(name))
+                              for h in letter_json("app-names", k[:1].upper()).get(k, [])))
     if not hits:
         return []
     rows = cached("app-index", lambda: [json.loads(l) for l in open(os.path.join(store.ROOT, "sources", "app-index.jsonl"),
@@ -2028,6 +2449,8 @@ def entry(series, linker, ptrs, p):
     sent_, named = frus_lists(name)
     ppp = app_list(name, sur)
     out = [f'<section class="lv" id="{key_of(name)}"><h2 id="{key_of(name)}-h" data-crumb="{esc(sur)}">{esc(name)}</h2>']
+    # the keys of the forms joined in this entry (frus_groups) stay anchors on it
+    out[0] += "".join(f'<span id="{esc(k)}"></span>' for k in frus_keys_of(key_of(name)) if k != key_of(name))
     if e:
         head = re.split(r";\s+", e["text"])[0]
         # from the description's article: the name's 'Jr.' and its '(brother of …)' left out
@@ -2215,6 +2638,7 @@ def pages(series, linker, template):
     by_letter = {}
     for p in allp:
         by_letter.setdefault(letter_of(p), []).append(p)
+    filed = {key_of(p["name"]): letter_of(p) for p in allp}
     out = {}
     index = ["<h1>Names</h1>"] + INTRO + [f'<p class="logic">{len(allp):,} persons.</p>']
     nav = " ".join(f'<a class="lvp" href="names-{L}.html">{L.upper()}</a>' for L in sorted(by_letter))
@@ -2230,6 +2654,12 @@ def pages(series, linker, template):
             except Exception as ex:          # one entry's fault names the person and does not stop the page
                 import traceback
                 print(f"names: {p['name']}: {ex!r}", traceback.format_exc().splitlines()[-3], file=sys.stderr)
+        # an anchor of a form joined in an entry filed under another letter, sent on to it ('names-e.html#el-baghdadi-…')
+        away = {k: f"names-{filed[pk]}.html#{pk}" for k, pk in _CACHE.get("frus-alias", {}).items()
+                if k[:1] == L and filed.get(pk, L) != L}
+        if away:
+            main.append("<script>(function(){var m=" + json.dumps(away) + ";var t=m[location.hash.slice(1)];"
+                        "if(t)location.replace(t);})();</script>")
         out[f"names-{L}.html"] = wrap(template, f"Names: {L.upper()}", main)
         out[f"lives-{L}.html"] = moved(f"names-{L}.html")
     out["names.html"] = wrap(template, "Names", index)
