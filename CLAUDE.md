@@ -115,7 +115,7 @@ tools/executive/          the one-time script that seeded executive/ from POCOM
 | kja  | K–J Adm.  | Kennedy and Johnson administrations, 1961–69 |
 | kjc  | K–J Cong. | Congress, the nation, and the states, 1961–69 |
 | opp  | Opp.      | The Republican opposition, 1961–69           |
-| cal  | Cal.      | Calendar, Jan. 1961–Jan. 3, 1963 (87th Congress) |
+| cal  | Cal.      | Calendar, Jan. 1961–Jan. 7, 1964 (87th Congress; 88th, first session) |
 | l68  | 1968      | The 1968 campaign ("the 1968 list")          |
 | adm  | Adm.      | Nixon and his administration, 1969–74        |
 | cong | Cong.     | Congress, the nation, and the states, 1969–74 |
@@ -124,9 +124,9 @@ tools/executive/          the one-time script that seeded executive/ from POCOM
 
 Parts: I portrayals, II sources, III names. A reference like "K–J Adm. II.D"
 is `lists/kja/II.D.yaml`. The calendar's files are named by month: `apr.yaml`
-for 1961, `apr62.yaml` for 1962 (the last, `dec62.yaml`, runs to Jan. 3, 1963),
+for 1961, `apr62.yaml` for 1962, `apr63.yaml` for 1963 (`dec62.yaml` runs to Jan. 3, 1963; the last, `dec63.yaml`, to Jan. 7, 1964),
 plus `th.yaml` (threads) and `pro.yaml` (prologue). Its sections are numbered
-straight through, I to XXVI.
+straight through, I to XXXVIII.
 
 ## Finding things (start here)
 
@@ -332,7 +332,7 @@ Biographical Directory where it matters), and a change of party in office, with 
 `./bib build` writes `build/executive.html`: the Executive Branch at each inauguration (1953, 1957, 1961,
 1965, 1969, 1973) and at the successions of Nov. 22, 1963, and Aug. 9, 1974, with every change during each
 term, through Aug. 31, 1974. A calendar entry tagged `executive:<YYYY-MM-DD>` (a term's first day) carries
-that term's block in `cal.html` and the reader; now Jan. 20, 1961.
+that term's block in `cal.html` and the reader; now Jan. 20, 1961, and Nov. 22, 1963.
 
 ```
 executive/<unit>.yaml         one unit (department, agency, office of the President): its offices, in order,
@@ -565,7 +565,7 @@ dated on the general election (it once dropped every House special, so none reac
 each Congress at its opening, `build/congress.html` gives that Congress's specials: a summary, House
 and Senate maps of the seats filled (large dots; the other districts drawn in the base map's gray; Result, Margin, Swing from the general election that chose
 the Congress, same district), and a table of the races. A calendar entry tagged `special:<key>`
-carries its race's table (the 87th's thirteen, thread "Special elections"). Definitions: the STYLE
+carries its race's table (the 87th's thirteen and the 88th's six of 1963, thread "Special elections"). Definitions: the STYLE
 notes in `tools/bib/specials.py`.
 
 ```
@@ -792,7 +792,7 @@ tools/bib/daybook.py            lays the calendar out by day (STYLE notes at the
 
 - The President: APP's documents by date (Public Papers items, executive orders,
   proclamations), in APP's order.
-- FRUS: every volume of the 1958–60 and 1961–63 subseries, microfiche supplements
+- FRUS: every volume of the 1958–60, 1961–63 and 1964–68 subseries (the last for Nov. 1963 on), microfiche supplements
   included, from the TEI files at github.com/HistoryAtState/frus; dated by
   `frus:doc-dateTime-min`. Editorial notes carry only their volume's span, so each is
   filed under the document before it in its volume. Within a day, by volume and number.

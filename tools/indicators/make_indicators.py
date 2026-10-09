@@ -7,13 +7,15 @@
 #   from the prior period in that same release; 'now' and 'chg_now' are the current FRED value and
 #   its change, on the same basis (CHANGE below). 'yoy' and 'yoy_now': percent change from the
 #   same month a year earlier, in that release and today (YOY below).
-#   The key is read from the environment and never written out.
+#   The key is read from the environment and never written out. Without a key, the same figures come
+#   from ALFRED's and FRED's public CSV downloads (KEYLESS below): every day's vintage, so the first
+#   release is the first day an observation appears.
 """
 import json, os, sys, time, urllib.parse, urllib.request
 import yaml
 
-KEY = os.environ.get('FRED_API_KEY') or sys.exit('set FRED_API_KEY')
-FROM, TO = (sys.argv[1], sys.argv[2]) if len(sys.argv) > 2 else ('1960-12-01', '1962-12-31')
+KEY = os.environ.get('FRED_API_KEY')     # without it, the public CSV downloads (KEYLESS below)
+FROM, TO = (sys.argv[1], sys.argv[2]) if len(sys.argv) > 2 else ('1960-12-01', '1963-12-31')
 OUT = os.path.join(os.path.dirname(__file__), '..', '..', 'indicators')
 FRED = 'https://fred.stlouisfed.org/series/'
 ALFRED = 'https://alfred.stlouisfed.org/series?seid='
@@ -50,6 +52,11 @@ BASE = {'CPIAUCNS': [('1900-01-01', '1947–49=100'), ('1962-02-01', '1957–59=
 
 
 def get(path, **q):
+    if not KEY:
+        if path == 'series/observations' and set(q) <= {'series_id', 'observation_start', 'observation_end'}:
+            return {'observations': [{'date': d, 'value': '.' if v is None else str(v)}
+                                     for d, v in current_from(q['series_id'], q.get('observation_start', '1959-01-01')).items()]}
+        raise SystemExit('this call needs FRED_API_KEY: ' + path)
     q.update(api_key=KEY, file_type='json')
     url = 'https://api.stlouisfed.org/fred/' + path + '?' + urllib.parse.urlencode(q)
     for i in range(5):
@@ -65,13 +72,93 @@ def num(v):
     return None if v in ('.', '', None) else float(v)
 
 
+# ---------------------------------------------------------------- KEYLESS: the public CSV downloads
+
+ALFRED_CSV = 'https://alfred.stlouisfed.org/graph/alfredgraph.csv?'
+FRED_CSV = 'https://fred.stlouisfed.org/graph/fredgraph.csv?'
+_VIN = {}
+
+
+def csv_get(url):
+    for i in range(5):
+        try:
+            with urllib.request.urlopen(url, timeout=120) as r:
+                rows = r.read().decode().strip().split('\n')
+            head = rows[0].split(',')
+            return head, [x.split(',') for x in rows[1:]]
+        except Exception:
+            time.sleep(2 * (i + 1))
+    raise SystemExit('CSV download failed: ' + url)
+
+
+def days(a, b):
+    import datetime
+    d, e = datetime.date.fromisoformat(a), datetime.date.fromisoformat(b)
+    while d <= e:
+        yield d.isoformat()
+        d += datetime.timedelta(days=1)
+
+
+def vintages(sid, first, last):
+    """Every day's vintage from first to last: {day: {observation date: value}}, twelve days a request (ALFRED
+    returns no more than twelve series at once), each column read by its header (SID_YYYYMMDD)."""
+    want = [d for d in days(first, last) if (sid, d) not in _VIN]
+    for i in range(0, len(want), 12):
+        chunk = want[i:i + 12]
+        q = {'id': ','.join([sid] * len(chunk)), 'vintage_date': ','.join(chunk),
+             'cosd': ','.join(['1959-01-01'] * len(chunk)), 'coed': ','.join([TO] * len(chunk))}
+        head, rows = csv_get(ALFRED_CSV + urllib.parse.urlencode(q, safe=','))
+        col = {h.rsplit('_', 1)[-1]: j for j, h in enumerate(head) if j}
+        for d in chunk:
+            j = col.get(d.replace('-', ''))
+            if j is None:
+                raise SystemExit(f'ALFRED returned no column for {sid} {d}')
+            _VIN[(sid, d)] = {r[0]: num(r[j]) for r in rows if len(r) > j and num(r[j]) is not None}
+    return {d: _VIN[(sid, d)] for d in days(first, last)}
+
+
+def latest_vintage(sid):
+    """The day the series last changed: back from today, the first day whose vintage differs from today's."""
+    import datetime
+    today = datetime.date.today()
+    now = vintages(sid, today.isoformat(), today.isoformat())[today.isoformat()]
+    end = today
+    while end.year > today.year - 3:
+        start = end - datetime.timedelta(days=39)
+        vs = vintages(sid, start.isoformat(), end.isoformat())
+        for d in sorted(vs, reverse=True):
+            if vs[d] != now:
+                return (datetime.date.fromisoformat(d) + datetime.timedelta(days=1)).isoformat()
+        end = start - datetime.timedelta(days=1)
+    raise SystemExit('no vintage found: ' + sid)
+
+
+def first_releases_keyless(sid):
+    import datetime
+    last = (datetime.date.fromisoformat(TO) + datetime.timedelta(days=200)).isoformat()
+    vs = vintages(sid, FROM, last)
+    obs = {o for d in vs for o in vs[d]}
+    quarterly = obs and all(o[5:7] in ('01', '04', '07', '10') for o in obs)
+    lo = max((o for o in obs if o <= FROM), default=FROM) if quarterly else FROM   # the period holding FROM, as the API gives it
+    out = {}
+    for d in sorted(vs):
+        for o, v in vs[d].items():
+            if lo <= o <= TO and o not in out:
+                out[o] = (o, v, d)
+    return [out[o] for o in sorted(out)]
+
+
 def first_releases(sid):
+    if not KEY:
+        return first_releases_keyless(sid)
     d = get('series/observations', series_id=sid, output_type=4, realtime_start='1776-07-04',
             realtime_end='9999-12-31', observation_start=FROM, observation_end=TO)
     return [(o['date'], num(o['value']), o['realtime_start']) for o in d['observations'] if num(o['value']) is not None]
 
 
 def vintage(sid, date):
+    if not KEY:
+        return vintages(sid, date, date)[date]
     d = get('series/observations', series_id=sid, realtime_start=date, realtime_end=date,
             observation_start='1959-01-01', observation_end=TO)
     return {o['date']: num(o['value']) for o in d['observations']}
@@ -82,6 +169,9 @@ def current(sid):
 
 
 def current_from(sid, start):
+    if not KEY:
+        head, rows = csv_get(FRED_CSV + urllib.parse.urlencode({'id': sid, 'cosd': start, 'coed': TO}))
+        return {r[0]: num(r[1]) for r in rows}
     d = get('series/observations', series_id=sid, observation_start=start, observation_end=TO)
     return {o['date']: num(o['value']) for o in d['observations']}
 
@@ -203,81 +293,101 @@ def main():
 
 # ---------------------------------------------------------------- series transcribed from the Economic Reports
 # Values read from the page images of the Economic Report of the President, January 1962 (transmitted
-# Jan. 22, 1962) and January 1963 (Jan. 21, 1963), U.S. Congressional Serial Set on govinfo. For these
-# series 'first' is the figure as it stood in the next January's Report, not the first release.
+# Jan. 22, 1962), January 1963 (Jan. 21, 1963) and January 1964 (Jan. 20, 1964; H. Doc. 88-278), U.S.
+# Congressional Serial Set on govinfo (1964 read off FRASER's scan of the same printing, checked against
+# govinfo's). For these series 'first' is the figure as it stood in the next January's Report, not the first release.
 ERP = {
     1962: ('1962-01-22', 'Economic Report of the President, Jan. 1962',
            'https://www.govinfo.gov/app/details/SERIALSET-12497_00_00-002-0278-0000'),
     1963: ('1963-01-21', 'Economic Report of the President, Jan. 1963',
            'https://www.govinfo.gov/app/details/SERIALSET-12600_00_00-002-0028-0000'),
+    1964: ('1964-01-20', 'Economic Report of the President, Jan. 1964',
+           'https://www.govinfo.gov/app/details/SERIALSET-12658_00_00-002-0278-0000'),
 }
-MONTHS = [f'{y}-{m:02d}' for y, m in [(1960, 12)] + [(y, m) for y in (1961, 1962) for m in range(1, 13)]]
+MONTHS = [f'{y}-{m:02d}' for y, m in [(1960, 12)] + [(y, m) for y in (1961, 1962, 1963) for m in range(1, 13)]]
 MANUAL = {
     'wpi': dict(
         name='Wholesale price index', freq='M', change='pct',
         then='BLS, wholesale price index, all commodities', now_label='BLS, producer price index, all commodities',
         now_unit='1982=100', now_fred='PPIACO',
-        tables={1962: 'Table B-40, p. 254 (1947–49=100)', 1963: 'Table C-41, p. 220 (1957–59=100)'},
-        prior={'1962-01': (100.4, 1963)},   # Dec. 1961 on the 1957-59 base, Table C-41
+        tables={1962: 'Table B-40, p. 254 (1947–49=100)', 1963: 'Table C-41, p. 220 (1957–59=100)',
+                1964: 'Table C-41, p. 256 (1957–59=100)'},
+        prior={'1962-01': (100.4, 1963),    # Dec. 1961 on the 1957-59 base, Table C-41
+               '1963-01': (100.4, 1964)},   # Dec. 1962, Table C-41 of 1964 (as the 1963 Report printed it)
         # A year earlier, on the same base and from the same table, for the 12-month change.
         # Table B-40 gives 1959 as a year only, so Dec. 1960 has none.
         year_ago={1962: dict(zip(MONTHS[1:13], [119.3, 119.3, 120.0, 120.0, 119.7, 119.5,
                                                  119.7, 119.2, 119.2, 119.6, 119.6, 119.5])),   # 1960
-                  1963: dict(zip(MONTHS[13:], [101.0, 101.0, 101.0, 100.5, 100.0, 99.5,
-                                               99.9, 100.1, 100.0, 100.0, 100.0, 100.4]))},   # 1961
+                  1963: dict(zip(MONTHS[13:25], [101.0, 101.0, 101.0, 100.5, 100.0, 99.5,
+                                                 99.9, 100.1, 100.0, 100.0, 100.0, 100.4])),   # 1961
+                  1964: dict(zip(MONTHS[25:37], [100.8, 100.7, 100.7, 100.4, 100.2, 100.0,
+                                                 100.4, 100.5, 101.2, 100.6, 100.7, 100.4]))},   # 1962
         rows={**{p: (v, 1962, '1947–49=100') for p, v in zip(MONTHS[:13], [
             119.5, 119.9, 120.0, 119.9, 119.4, 118.7, 118.2, 118.6, 118.9, 118.8, 118.7, 118.8, 119.2])},
-              **{p: (v, 1963, '1957–59=100') for p, v in zip(MONTHS[13:], [
-            100.8, 100.7, 100.7, 100.4, 100.2, 100.0, 100.4, 100.5, 101.2, 100.6, 100.7, 100.4])}}),
+              **{p: (v, 1963, '1957–59=100') for p, v in zip(MONTHS[13:25], [
+            100.8, 100.7, 100.7, 100.4, 100.2, 100.0, 100.4, 100.5, 101.2, 100.6, 100.7, 100.4])},
+              **{p: (v, 1964, '1957–59=100') for p, v in zip(MONTHS[25:37], [
+            100.5, 100.2, 99.9, 99.7, 100.0, 100.3, 100.6, 100.4, 100.3, 100.5, 100.7, 100.3])}}),
     'administrative-budget': dict(
         name='Federal budget (administrative)', freq='FY', fields=('receipts', 'expenditures', 'balance'),
         then='Treasury and Bureau of the Budget, net budget receipts and budget expenditures (the administrative budget), fiscal years ending June 30, millions of dollars',
         now_label='OMB, unified budget receipts, outlays, and surplus or deficit (a later concept, from fiscal 1969)',
         now_unit='millions of dollars', now_fred=('FYFR', 'FYONET', 'FYFSD'),
-        tables={1962: 'Table B-55, p. 272', 1963: 'Table C-56, p. 238'},
+        tables={1962: 'Table B-55, p. 272', 1963: 'Table C-56, p. 238', 1964: 'Table C-56, p. 274'},
         rows={'FY1961': ((77659, 81515, -3856), 1962, 'millions of dollars'),
-              'FY1962': ((81409, 87787, -6378), 1963, 'millions of dollars')},
-        est={'FY1962': [((82100, 89075, -6975), 1962)], 'FY1963': [((93000, 92537, 463), 1962), ((85500, 94311, -8811), 1963)]}),
+              'FY1962': ((81409, 87787, -6378), 1963, 'millions of dollars'),
+              'FY1963': ((86376, 92642, -6266), 1964, 'millions of dollars')},
+        est={'FY1962': [((82100, 89075, -6975), 1962)], 'FY1963': [((93000, 92537, 463), 1962), ((85500, 94311, -8811), 1963)],
+             'FY1964': [((88400, 98405, -10005), 1964)], 'FY1965': [((93000, 97900, -4900), 1964)]}),
     'cash-budget': dict(
         name='Federal cash receipts from and payments to the public', freq='FY', fields=('receipts', 'payments', 'balance'),
         then='Treasury, Bureau of the Budget, and CEA, the consolidated cash statement, federal, fiscal years, billions of dollars',
         now_label='OMB, unified budget receipts, outlays, and surplus or deficit (a later concept, from fiscal 1969)',
         now_unit='millions of dollars', now_fred=('FYFR', 'FYONET', 'FYFSD'),
-        tables={1962: 'Table B-57, p. 274', 1963: 'Table C-58, p. 240'},
+        tables={1962: 'Table B-57, p. 274', 1963: 'Table C-58, p. 240', 1964: 'Table C-58, p. 276'},
         rows={'FY1961': ((97.2, 99.5, -2.3), 1962, 'billions of dollars'),
-              'FY1962': ((101.9, 107.7, -5.8), 1963, 'billions of dollars')},
-        est={'FY1962': [((102.6, 111.1, -8.5), 1962)], 'FY1963': [((116.6, 114.8, 1.8), 1962), ((108.4, 116.8, -8.3), 1963)]}),
+              'FY1962': ((101.9, 107.7, -5.8), 1963, 'billions of dollars'),
+              'FY1963': ((109.7, 113.8, -4.0), 1964, 'billions of dollars')},
+        est={'FY1962': [((102.6, 111.1, -8.5), 1962)], 'FY1963': [((116.6, 114.8, 1.8), 1962), ((108.4, 116.8, -8.3), 1963)],
+             'FY1964': [((114.4, 122.7, -8.3), 1964)], 'FY1965': [((119.7, 122.7, -2.9), 1964)]}),
     'federal-national-accounts': dict(
         name='Federal receipts and expenditures, national income accounts', freq='Q', fields=('receipts', 'expenditures', 'balance'),
         then='Commerce and Bureau of the Budget, federal government receipts and expenditures in the national income accounts, seasonally adjusted annual rates, billions of dollars',
         now_label='BEA, federal government current receipts and current expenditures, SAAR (balance computed)',
         now_unit='billions of dollars, SAAR', now_fred=('FGRECPT', 'FGEXPND', None),
-        tables={1962: 'Table B-59, p. 276', 1963: 'Table C-60, p. 242'},
+        tables={1962: 'Table B-59, p. 276', 1963: 'Table C-60, p. 242', 1964: 'Table C-60, p. 278'},
         rows={'1960Q4': ((94.6, 94.2, 0.4), 1962, 'billions of dollars, annual rate'), '1961Q1': ((92.5, 98.0, -5.5), 1962, 'billions of dollars, annual rate'),
               '1961Q2': ((96.8, 101.1, -4.3), 1962, 'billions of dollars, annual rate'), '1961Q3': ((99.3, 102.4, -3.1), 1962, 'billions of dollars, annual rate'),
               '1961Q4': ((103.8, 105.1, -1.3), 1963, 'billions of dollars, annual rate'), '1962Q1': ((105.9, 108.3, -2.4), 1963, 'billions of dollars, annual rate'),
               '1962Q2': ((108.4, 109.0, -0.7), 1963, 'billions of dollars, annual rate'), '1962Q3': ((108.9, 109.8, -0.9), 1963, 'billions of dollars, annual rate'),
-              '1962Q4': ((None, 112.5, None), 1963, 'billions of dollars, annual rate')}),
+              '1962Q4': ((None, 112.5, None), 1963, 'billions of dollars, annual rate'),
+              '1963Q1': ((110.0, 114.5, -4.6), 1964, 'billions of dollars, annual rate'), '1963Q2': ((112.3, 115.3, -3.0), 1964, 'billions of dollars, annual rate'),
+              '1963Q3': ((114.3, 116.1, -1.8), 1964, 'billions of dollars, annual rate'), '1963Q4': ((None, 118.4, None), 1964, 'billions of dollars, annual rate')}),
     'balance-of-payments': dict(
         name='Balance of payments, over-all surplus or deficit', freq='Q', fields=('balance',),
         then='Commerce, over-all balance (changes in U.S. gold stock, convertible currencies, and liquid liabilities to foreigners), seasonally adjusted annual rates, millions of dollars',
         now_label='No longer published: the over-all (liquidity) balance was dropped from the official accounts',
         now_unit=None, now_fred=None,
-        tables={1963: 'Table C-78, p. 263'},
+        tables={1963: 'Table C-78, p. 263', 1964: 'Table C-77, p. 298'},
         rows={'1960Q4': ((-5252,), 1963, 'millions of dollars, annual rate'), '1961Q1': ((-1276,), 1963, 'millions of dollars, annual rate'), '1961Q2': ((704,), 1963, 'millions of dollars, annual rate'),
               '1961Q3': ((-3640,), 1963, 'millions of dollars, annual rate'), '1961Q4': ((-5632,), 1963, 'millions of dollars, annual rate'), '1962Q1': ((-1968,), 1963, 'millions of dollars, annual rate'),
               '1962Q2': ((-904,), 1963, 'millions of dollars, annual rate'), '1962Q3': ((-2876,), 1963, 'millions of dollars, annual rate'),
+              '1962Q4': ((-3172,), 1964, 'millions of dollars, annual rate'), '1963Q1': ((-3460,), 1964, 'millions of dollars, annual rate'),
+              '1963Q2': ((-4956,), 1964, 'millions of dollars, annual rate'), '1963Q3': ((-1024,), 1964, 'millions of dollars, annual rate'),
               '1960': ((-3925,), 1963, 'millions of dollars, year'), '1961': ((-2461,), 1963, 'millions of dollars, year'),
-              '1962': ((-1916,), 1963, 'millions of dollars, annual rate, first three quarters')}),
+              '1962': ((-1916,), 1963, 'millions of dollars, annual rate, first three quarters'),
+              '1963': ((-3147,), 1964, 'millions of dollars, annual rate, first three quarters')}),
     'gap-cea': dict(
         name='Output gap, CEA (contemporary)', freq='Q',
         then='Council of Economic Advisers: potential GNP (a 3½ percent trend through actual GNP in mid-1955, at 4 percent unemployment) less actual GNP',
         now_label=None, now_unit=None, now_fred=None,
-        tables={1962: 'ch. 1, "Full Production," p. 49', 1963: "President's message, p. xiii"},
+        tables={1962: 'ch. 1, "Full Production," p. 49', 1963: "President's message, p. xiii",
+                1964: 'ch. 1, "Unemployment and Unused Potential Output," p. 37'},
         rows={'1961Q1': (51, 1962, 'billions of 1961 dollars, annual rate'),
               '1961Q4': (28, 1962, 'billions of 1961 dollars, annual rate'),
               '1961': (40, 1962, 'billions of 1961 dollars, year'),
-              '1962Q4': ('30–40', 1963, 'billions of dollars, annual rate')}),
+              '1962Q4': ('30–40', 1963, 'billions of dollars, annual rate'),
+              '1963Q4': (30, 1964, 'billions of 1963 dollars, annual rate')}),
     'gold-stock': dict(
         name='Monetary gold stock', freq='M', change='diff',
         then=None, now_label='Treasury monetary gold stock, end of month, as compiled by NBER from the Federal Reserve Bulletin',
@@ -313,9 +423,9 @@ def prev_p(p):
 
 
 # Qualifiers the source puts on a figure ("about $28 billion"; "some $30-40 billion").
-QUAL = {('gap-cea', '1961Q4'): 'about', ('gap-cea', '1962Q4'): 'some'}
+QUAL = {('gap-cea', '1961Q4'): 'about', ('gap-cea', '1962Q4'): 'some', ('gap-cea', '1963Q4'): 'close to'}
 # Notes the source attaches to a single figure, shown after it.
-NOTE = {('balance-of-payments', '1962'): 'Q1–Q3, annual rate'}
+NOTE = {('balance-of-payments', '1962'): 'Q1–Q3, annual rate', ('balance-of-payments', '1963'): 'Q1–Q3, annual rate'}
 
 
 def manual():
@@ -389,7 +499,8 @@ def manual():
 def gap_cbo():
     """Retrospective output gap: CBO potential GDP against BEA real GDP, as published today."""
     pot, act = current_from('GDPPOT', '1960-01-01'), current_from('GDPC1', '1960-01-01')
-    vin = get('series/vintagedates', series_id='GDPPOT', sort_order='desc', limit=1)['vintage_dates'][0]
+    vin = (get('series/vintagedates', series_id='GDPPOT', sort_order='desc', limit=1)['vintage_dates'][0] if KEY
+           else latest_vintage('GDPPOT'))
     rows, years = [], {}
     for d in sorted(pot):
         if d in act and pot[d]:
@@ -398,7 +509,7 @@ def gap_cbo():
             years.setdefault(p[:4], []).append(g)
             if d >= '1960-10-01':
                 rows.append({'p': p, 'now': g})
-    for y in ('1960', '1961', '1962'):
+    for y in ('1960', '1961', '1962', '1963'):
         if len(years.get(y, [])) == 4:
             rows.append({'p': y, 'now': round(sum(years[y]) / 4, 1)})
     write('gap-cbo', {'id': 'gap-cbo', 'name': 'Output gap, CBO (retrospective)', 'freq': 'Q', 'then': None,

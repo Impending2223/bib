@@ -1,10 +1,10 @@
 # Cal.: page text and outline. Entries live in the files named by 'file'.
-page_title: Calendar, January 1961–January 1963
-h1: 'Calendar of the Kennedy and Johnson years: the 87th Congress, January 3, 1961, to January 3, 1963'
-lede: 'Executive, legislative, judicial, and state events from the inauguration to the end of the 87th Congress: the first session (Jan. 3–Sept. 27, 1961), the second (Jan. 10–Oct. 13, 1962), and the first two years of the Kennedy administration.'
+page_title: Calendar, January 1961–January 1964
+h1: 'Calendar of the Kennedy and Johnson years: the 87th Congress and the first session of the 88th, January 3, 1961, to January 7, 1964'
+lede: 'Executive, legislative, judicial, and state events from the inauguration to the second session of the 88th Congress: the 87th''s first session (Jan. 3–Sept. 27, 1961) and second (Jan. 10–Oct. 13, 1962); the 88th''s first (Jan. 9–Dec. 30, 1963); the Kennedy administration and the first weeks of Johnson''s.'
 logic:
   - Seventh list in the series. This one is Cal. It points into K–J Adm. and K–J Cong., into Viet. for the war, and into the earlier lists where they hold the record.
-  - 'How to read it. Laid out by day. Each day gives its date, the *New York Times* for that date, the entries for events that began that day, each under its thread in small capitals, and the day''s documents, closed until opened: the President''s (American Presidency Project) and FRUS, every document dated that day. A later day of an event that ran several days points back to it. The line says what happened. The note gives sources: the first entry of each thread carries its bibliography, and later entries point back by date ("See Apr. 15"). Books already in a list are cited by short title with the list and section; works found only here are cited in full. Names point to Part III of the lists. Presidential messages, speeches, and press conferences are cited by title and date; all are in the *Public Papers* for 1961 and 1962 and on the American Presidency Project (K–J Adm. II.K). FRUS means *Foreign Relations of the United States, 1961–1963*, by volume. Votes link to Voteview where the roll call is identified. "Check" marks a detail to verify.'
+  - 'How to read it. Laid out by day. Each day gives its date, the *New York Times* for that date, the entries for events that began that day, each under its thread in small capitals, and the day''s documents, closed until opened: the President''s (American Presidency Project) and FRUS, every document dated that day. A later day of an event that ran several days points back to it. The line says what happened. The note gives sources: the first entry of each thread carries its bibliography, and later entries point back by date ("See Apr. 15"). Books already in a list are cited by short title with the list and section; works found only here are cited in full. Names point to Part III of the lists. Presidential messages, speeches, and press conferences are cited by title and date; all are in the *Public Papers* for 1961, 1962 and 1963 (Johnson''s from Nov. 22, 1963, in his 1963–64 volume) and on the American Presidency Project (K–J Adm. II.K). FRUS means *Foreign Relations of the United States, 1961–1963*, by volume, and, for Johnson''s weeks, *1964–1968*. Votes link to Voteview where the roll call is identified. "Check" marks a detail to verify.'
   - 'Indicators. Each month opens with a table of the figures that report on it, filed by the period they cover, not the date they were issued: months in their month, quarters in the quarter''s last month, fiscal years (July–June) in June, calendar years in December; December 1960 in the Prologue. Two values: as first reported, with its release date, and as revised today. First releases are from ALFRED (CPI, unemployment, payrolls, industrial production, GNP, real GNP; the deflator is GNP over real GNP in the same release). Wholesale prices, the budgets, the federal sector of the national accounts, and the balance of payments are from the next January''s *Economic Report*; for those, first reported means as reported then. Three budgets: the administrative budget (federal funds; the deficit of the headlines), the consolidated cash statement (with the trust funds), and the federal sector of the national income accounts. The unified budget came with fiscal 1969; today''s budget figures are on that basis. The over-all balance of payments is no longer published. The output gap: the CEA''s estimates then and the CBO''s now, in separate rows, since the concepts differ. Monthly changes are from the prior month, not annualized; CPI, wholesale prices, and industrial production add the change from a year earlier (y/y). Quarterly changes are at annual rates in both columns. Definitions and pointers: Indicators, concepts and sources, before the Prologue. A figure''s source shows on hover. Data: indicators/ in the repository.'
   - 'Three parts: the threads, a short prologue, then the months.'
 kind: calendar
@@ -171,3 +171,79 @@ sections:
     from: '1962-12-01'
     to: '1963-01-03'
     file: dec62.yaml
+  - id: jan63
+    num: XXVII.
+    title: January 4–31, 1963
+    logic:
+      - The 88th Congress meets Jan. 9.
+    from: '1963-01-04'
+    to: '1963-01-31'
+    file: jan63.yaml
+  - id: feb63
+    num: XXVIII.
+    title: February 1963
+    from: '1963-02-01'
+    to: '1963-02-28'
+    file: feb63.yaml
+  - id: mar63
+    num: XXIX.
+    title: March 1963
+    from: '1963-03-01'
+    to: '1963-03-31'
+    file: mar63.yaml
+  - id: apr63
+    num: XXX.
+    title: April 1963
+    from: '1963-04-01'
+    to: '1963-04-30'
+    file: apr63.yaml
+  - id: may63
+    num: XXXI.
+    title: May 1963
+    from: '1963-05-01'
+    to: '1963-05-31'
+    file: may63.yaml
+  - id: jun63
+    num: XXXII.
+    title: June 1963
+    from: '1963-06-01'
+    to: '1963-06-30'
+    file: jun63.yaml
+  - id: jul63
+    num: XXXIII.
+    title: July 1963
+    from: '1963-07-01'
+    to: '1963-07-31'
+    file: jul63.yaml
+  - id: aug63
+    num: XXXIV.
+    title: August 1963
+    from: '1963-08-01'
+    to: '1963-08-31'
+    file: aug63.yaml
+  - id: sep63
+    num: XXXV.
+    title: September 1963
+    from: '1963-09-01'
+    to: '1963-09-30'
+    file: sep63.yaml
+  - id: oct63
+    num: XXXVI.
+    title: October 1963
+    from: '1963-10-01'
+    to: '1963-10-31'
+    file: oct63.yaml
+  - id: nov63
+    num: XXXVII.
+    title: November 1963
+    from: '1963-11-01'
+    to: '1963-11-30'
+    file: nov63.yaml
+  - id: dec63
+    num: XXXVIII.
+    title: December 1963–January 7, 1964
+    logic:
+      - The first session of the 88th adjourns Dec. 30; the second meets Jan. 7, 1964.
+    from: '1963-12-01'
+    to: '1964-01-07'
+    file: dec63.yaml

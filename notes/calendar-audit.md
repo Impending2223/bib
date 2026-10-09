@@ -3,16 +3,16 @@
 Written by `./bib audit-cal` (`tools/bib/calaudit.py`): the dated entries checked against the brief in
 CLAUDE.md ("The calendar"). A review list: a hit is a place to look, not an error. Rerun after editing.
 
-349 dated entries.
+547 dated entries.
 
 | Check | Entries |
 |---|---|
-| A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 28 |
+| A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 45 |
 | (of which only a President's surname: Eisenhower, Kennedy, Johnson) | 0 |
 | Neither a bibliography of its own nor a `See [[id]]` back | 9 |
-| No primary record linked or named | 78 |
-| A primary record named but not linked | 0 |
-| Threads (statements listed for review) | 36 |
+| No primary record linked or named | 104 |
+| A primary record named but not linked | 1 |
+| Threads (statements listed for review) | 44 |
 
 ## Names
 
@@ -20,16 +20,12 @@ Each person found in `c` by a surname that has a Part III entry, and the entries
 the person; several mean the surname is shared). "?" marks a surname that is also a place or a thing
 (White, Byrd, Lodge as a word): look before adding.
 
-- `cal.1961-01-03.rules` (Jan. 3, II pro.yaml): 87th Congress convenes. Senate 65 D–35 R, Hickey (D) appointed in Wyoming for Keith Thomson (R), elected and d
-  - Thomson: Thomson, James C., Jr. (Viet. III.A)
-- `cal.1961-02-09.medicare` (Feb. 9, IV feb.yaml): Health message: hospital insurance for the aged through Social Security. King–Anderson bill introduced soon af
-  - ? King: King, Martin Luther, Jr. (K–J Cong. III.H, Viet. III.E)
 - `cal.1961-04-17.court` (Apr. 17, VI apr.yaml): *Burton v. Wilmington Parking Authority*, [365 U.S. 715](https://tile.loc.gov/storage-services/service/ll/usre
   - Burton: Burton, Phillip (Cong. III.E)
 - `cal.1961-04-19.court` (Apr. 19–20, VI apr.yaml): *Baker v. Carr* argued.
-  - ? Baker: Baker, Ella (K–J Cong. III.H); Baker, Howard H., Jr. (Cong. III.C, Wg. III.F)
+  - ? Baker: Baker, Ella (K–J Cong. III.H); Baker, Robert G. (K–J Cong. III.K); Baker, Howard H., Jr. (Cong. III.C, Wg. III.F)
 - `cal.1961-05-01.court` (May 1, VII may.yaml): *Baker v. Carr* restored to the calendar for reargument.
-  - ? Baker: Baker, Ella (K–J Cong. III.H); Baker, Howard H., Jr. (Cong. III.C, Wg. III.F)
+  - ? Baker: Baker, Ella (K–J Cong. III.H); Baker, Robert G. (K–J Cong. III.K); Baker, Howard H., Jr. (Cong. III.C, Wg. III.F)
 - `cal.1961-05-14.freedom-rides` (May 14, VII may.yaml): Mother's Day. The Greyhound bus burned outside Anniston; the Trailways riders beaten at the Birmingham termina
   - ? Day: Day, J. Edward (K–J Adm. III.G)
 - `cal.1961-05-21.freedom-rides` (May 21, VII may.yaml): Mob besieges King, Abernathy, and the riders in the First Baptist Church; marshals hold it until Patterson sen
@@ -42,41 +38,80 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Smith: Smith, Stephen E. (K–J Adm. III.A); Smith, Howard W. (K–J Cong. III.D); Smith, Margaret Chase (Opp. III.A, Cong. III.A); Smith, Gerard C. (Adm. III.D)
 - `cal.1961-08-30.states-and-cities` (Aug. 30, X aug.yaml): Atlanta desegregates four high schools with nine Black students, peacefully. Kennedy praises the city at that 
   - ? Black: Black, Hugo L. (K–J Cong. III.G)
+- `cal.1961-09-18.congo` (Sept. 18, XI sep.yaml): Hammarskjöld killed in a crash near Ndola on his way to meet Tshombe.
+  - Hammarskjöld: Hammarskjöld, Dag (K–J Adm. III.J)
 - `cal.1961-09-19.space` (Sept. 19, XI sep.yaml): NASA names Houston for the Manned Spacecraft Center. Albert Thomas held NASA's appropriations.
   - Albert: Albert, Carl (K–J Cong. III.C, Cong. III.D)
-- `cal.1961-09-25.mississippi` (Sept. 25, XI sep.yaml): Herbert Lee, a farmer working with Moses, shot dead at the Liberty cotton gin by state representative E.H. Hur
-  - Lee: Lee, Richard C. (K–J Cong. III.F)
+- `cal.1961-09-25.testing` (Sept. 25, XI sep.yaml): Address to the UN General Assembly a week after Hammarskjöld's death. Against the troika; for disarmament; the
+  - Hammarskjöld: Hammarskjöld, Dag (K–J Adm. III.J)
 - `cal.1961-10-09.court` (Oct. 9, XII oct.yaml): *Baker v. Carr* reargued. Cox for the United States as amicus.
-  - ? Baker: Baker, Ella (K–J Cong. III.H); Baker, Howard H., Jr. (Cong. III.C, Wg. III.F)
+  - ? Baker: Baker, Ella (K–J Cong. III.H); Baker, Robert G. (K–J Cong. III.K); Baker, Howard H., Jr. (Cong. III.C, Wg. III.F)
 - `cal.1961-10-16.right-and-the-military` (Oct. 16, XII oct.yaml): Schwarz's Christian Anti-Communism Crusade fills the Hollywood Bowl, televised.
   - ? Christian: Christian, George (K–J Adm. III.C, 1968 III.A)
 - `cal.1961-11-04.specials` (Nov. 4, XIII nov.yaml): Texas 20th, special. Henry B. González (D) over Goode (R), 54.6 to 44.0, for Kilday's seat. The first Mexican 
   - González: González, Virgilio R. (Wg. III.C)
-- `cal.1961-11-07.states-and-cities` (Nov. 7, XIII nov.yaml): Wagner reelected mayor of New York. In New Jersey Hughes (D) beats Mitchell, Eisenhower's Labor Secretary, for
-  - Hughes: Hughes, Harold E. (K–J Cong. III.F, Cong. III.B); Hughes, Emmet John (Opp. III.G)
-- `cal.1961-11-17.albany` (Nov. 17, XIII nov.yaml): Albany Movement formed: SNCC, the NAACP, the ministers. William G. Anderson president.
-  - Anderson: Anderson, George W., Jr. (K–J Adm. III.F); Anderson, Clinton P. (K–J Cong. III.B); Anderson, John B. (Opp. III.D, Cong. III.D); Anderson, Jack (Cong. III.M, Wg. III.H)
-- `cal.1962-02-10.berlin-and-vienna` (Feb. 10, XVI feb62.yaml): Powers exchanged for Abel on the Glienicke Bridge; Pryor freed at Checkpoint Charlie. Donovan negotiated.
-  - Powers: Powers, David F. (K–J Adm. III.B)
 - `cal.1962-03-26.court` (Mar. 26, XVII mar62.yaml): *Baker v. Carr*, [369 U.S. 186](https://tile.loc.gov/storage-services/service/ll/usrep/usrep369/usrep369186/us
-  - ? Baker: Baker, Ella (K–J Cong. III.H); Baker, Howard H., Jr. (Cong. III.C, Wg. III.F)
+  - ? Baker: Baker, Ella (K–J Cong. III.H); Baker, Robert G. (K–J Cong. III.K); Baker, Howard H., Jr. (Cong. III.C, Wg. III.F)
 - `cal.1962-04-10.specials` (Apr. 10, XVIII apr62.yaml): South Carolina 2d, special. Corinne Boyd Riley (D), unopposed, to her husband's seat. No swing: Riley unoppose
   - Boyd: Boyd, Alan S. (K–J Adm. III.G)
 - `cal.1962-04-29.press-and-broadcasting` (Apr. 29, XVIII apr62.yaml): Dinner for the Nobel laureates. "With the possible exception of when Thomas Jefferson dined alone."
   - Thomas: Thomas, Albert (K–J Cong. III.D)
-- `cal.1962-05-24.space` (May 24, XIX may62.yaml): Carpenter's *Aurora 7* lands 250 miles off target.
-  - ? Carpenter: Carpenter, Liz (1968 III.A)
-- `cal.1962-07.missile-crisis` (July, XXI jul62.yaml): Raúl Castro in Moscow. Defense agreement initialed. Soviet shipping to Cuba begins. Check the initialing.
-  - Castro: Castro, Fidel (K–J Adm. III.J)
+- `cal.1962-06-25.mississippi` (June 25, XX jun62.yaml): Fifth Circuit, Wisdom writing: Meredith refused for his race; admit him. Cameron's stays follow.
+  - Meredith: Meredith, James H. (K–J Cong. III.H)
 - `cal.1962-08-27.elections-1962` (Aug. 27, XXII aug62.yaml): Edward Kennedy and McCormack debate in South Boston. "If his name was Edward Moore, with his qualifications . 
-  - Moore: Moore, Harold G. (Viet. III.D)
-- `cal.1962-09-18.elections-1962` (Sept. 18, XXIII sep62.yaml): Massachusetts primary. Edward Kennedy over McCormack, better than two to one. George Cabot Lodge the Republica
-  - McCormack: McCormack, John W. (K–J Cong. III.C, Cong. III.D)
+  - Moore: Moore, William L. (K–J Cong. III.K); Moore, Harold G. (Viet. III.D)
 - `cal.1962-09-20.mississippi` (Sept. 20–26, XXIII sep62.yaml): Barnett, as special registrar, refuses Meredith at Oxford. Again at Jackson, Sept. 25. Lieutenant Governor Joh
   - ? Jackson: Jackson, Henry M. (K–J Cong. III.B, Cong. III.B)
 - `cal.1962-10-27.missile-crisis` (Oct. 27, XXIV oct62.yaml): Black Saturday. Second letter, broadcast: the Jupiters in Turkey added. Anderson's U-2 shot down over Cuba; an
   - ? Black: Black, Hugo L. (K–J Cong. III.G)
-  - Anderson: Anderson, George W., Jr. (K–J Adm. III.F); Anderson, Clinton P. (K–J Cong. III.B); Anderson, John B. (Opp. III.D, Cong. III.D); Anderson, Jack (Cong. III.M, Wg. III.H)
+- `cal.1963-01-28.states-and-cities` (Jan. 28, XXVII jan63.yaml): Harvey Gantt registers at Clemson, the first Black student, on the Fourth Circuit's order of Jan. 16. No disor
+  - Harvey: Harvey, William K. (K–J Adm. III.I)
+  - ? Black: Black, Hugo L. (K–J Cong. III.G)
+- `cal.1963-02-06.economy` (Feb. 6, XXVIII feb63.yaml): Ways and Means opens hearings on the tax message, Dillon first. They run to Mar. 27.
+  - Means: Means, Russell (Cong. III.K)
+- `cal.1963-02-12.civil-rights-the-executive` (Feb. 12, XXVIII feb63.yaml): Lincoln's Birthday. The Civil Rights Commission presents *Freedom to the Free*, its report on the century sinc
+  - ? Lincoln: Lincoln, Evelyn (K–J Adm. III.B)
+- `cal.1963-02-25.court` (Feb. 25, XXVIII feb63.yaml): *Edwards v. South Carolina*, [372 U.S. 229](https://tile.loc.gov/storage-services/service/ll/usrep/usrep372/us
+  - ? Black: Black, Hugo L. (K–J Cong. III.G)
+- `cal.1963-03-18.court` (Mar. 18, XXIX mar63.yaml): *Gideon v. Wainwright*, [372 U.S. 335](https://tile.loc.gov/storage-services/service/ll/usrep/usrep372/usrep37
+  - Douglas: Douglas, Paul H. (K–J Cong. III.B); Douglas, William O. (K–J Cong. III.G, Cong. III.J)
+- `cal.1963-03-18.court-2` (Mar. 18, XXIX mar63.yaml): *Gray v. Sanders*, [372 U.S. 368](https://tile.loc.gov/storage-services/service/ll/usrep/usrep372/usrep372368/
+  - Gray: Gray, L. Patrick, III (Adm. III.H, Wg. III.I)
+- `cal.1963-03-27.mississippi` (Mar. 27–30, XXIX mar63.yaml): Greenwood police set a dog on Black citizens walking home from the registrar; a minister bitten. SNCC workers 
+  - ? Black: Black, Hugo L. (K–J Cong. III.G)
+- `cal.1963-05-04.elections-1964` (May 4, XXXI may63.yaml): Rockefeller, divorced in 1962, marries Margaretta Fitler Murphy, divorced a month before.
+  - Murphy: Murphy, George (Opp. III.B); Murphy, Charles S. (1968 III.A)
+- `cal.1963-05-11.alabama` (May 11–13, XXXI may63.yaml): Bombs at the house of King's brother and at the Gaston Motel, the night of the 11th. Rioting till morning. May
+  - ? King: King, Marion (K–J Cong. III.H); King, Martin Luther, Jr. (K–J Cong. III.H, Viet. III.E); King, Coretta Scott (K–J Cong. III.K)
+- `cal.1963-05-20.court` (May 20, XXXI may63.yaml): The sit-in cases. *Peterson v. City of Greenville*, [373 U.S. 244](https://tile.loc.gov/storage-services/servi
+  - Peterson: Peterson, Esther (K–J Adm. III.G)
+- `cal.1963-05-27.court` (May 27, XXXI may63.yaml): *Watson v. City of Memphis*, [373 U.S. 526](https://tile.loc.gov/storage-services/service/ll/usrep/usrep373/us
+  - Watson: Watson, W. Marvin (K–J Adm. III.C, 1968 III.B)
+- `cal.1963-05-28.mississippi` (May 28, XXXI may63.yaml): Jackson. Tougaloo students sit in at Woolworth's lunch counter; a crowd beats them for three hours, police out
+  - ? Jackson: Jackson, Henry M. (K–J Cong. III.B, Cong. III.B)
+- `cal.1963-05-30.civil-rights-the-executive` (May 30, XXXI may63.yaml): Johnson at Gettysburg, Memorial Day: "The Negro today asks justice." Emancipation a proclamation, not a fact, 
+  - ? Day: Day, J. Edward (K–J Adm. III.G)
+- `cal.1963-06-12.mississippi` (June 12, XXXII jun63.yaml): Evers shot in his driveway in Jackson, after midnight; dies within the hour. Byron De La Beckwith, of Greenwoo
+  - ? Jackson: Jackson, Henry M. (K–J Cong. III.B, Cong. III.B)
+- `cal.1963-06-17.court` (June 17, XXXII jun63.yaml): *Abington School District v. Schempp*, [374 U.S. 203](https://tile.loc.gov/storage-services/service/ll/usrep/u
+  - Lord: Lord, Winston (Adm. III.D, Viet. III.B)
+- `cal.1963-07-14.elections-1964` (July 14, XXXIII jul63.yaml): Rockefeller's statement against the "radical right": the Young Republicans' convention at San Francisco in Jun
+  - ? Young: Young, Whitney M., Jr. (K–J Cong. III.H); Young, David R. (Wg. III.A)
+- `cal.1963-09-02.alabama` (Sept. 2–6, XXXV sep63.yaml): Alabama's schools open under court orders. Sept. 2: Wallace's troopers close Tuskegee High. Sept. 4: two Black
+  - ? Black: Black, Hugo L. (K–J Cong. III.G)
+- `cal.1963-09-09.alabama` (Sept. 9–10, XXXV sep63.yaml): Alabama's federal district judges, all of them, enjoin Wallace from blocking the schools, Sept. 9; he sends th
+  - ? Black: Black, Hugo L. (K–J Cong. III.G)
+- `cal.1963-09-12.opinion` (Sept. 12–17, XXXV sep63.yaml): Gallup: 56 percent approve, 29 disapprove, the low of the presidency. From 61 in late July and 62 in mid-Augus
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1963-09-15.alabama` (Sept. 15, XXXV sep63.yaml): Sunday morning. Dynamite at the Sixteenth Street Baptist Church, Birmingham. Four girls killed: Addie Mae Coll
+  - ? Church: Church, Frank (K–J Cong. III.B, Cong. III.B, Viet. III.E)
+  - ? Black: Black, Hugo L. (K–J Cong. III.G)
+- `cal.1963-09-19.alabama` (Sept. 19–23, XXXV sep63.yaml): Kennedy sees Birmingham's Black leaders, King among them, Sept. 19; names Royall and Blaik to represent him in
+  - ? Black: Black, Hugo L. (K–J Cong. III.G)
+- `cal.1963-10-24.right-and-the-military` (Oct. 24, XXXVI oct63.yaml): Stevenson in Dallas for UN Day. Heckled, spat on, struck on the head with a placard. Walker's "U.S. Day" rally
+  - ? Day: Day, J. Edward (K–J Adm. III.G)
+- `cal.1963-11-05.specials` (Nov. 5, XXXVII nov63.yaml): Pennsylvania 23rd, special. Albert Johnson (R) holds Gavin's seat, 58.4 to 41.6 over Hagerty (D). Swing 0.7 to
+  - Albert: Albert, Carl (K–J Cong. III.C, Cong. III.D)
 
 ## Event
 
@@ -177,9 +212,36 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1962-12-08.press-and-broadcasting` (Dec. 8, XXVI dec62.yaml): New York newspaper strike begins. 114 days.
 - `cal.1962-12-14.space` (Dec. 14, XXVI dec62.yaml): Mariner 2 passes Venus. First planetary flyby.
 - `cal.1962-12-20.latin-america` (Dec. 20, XXVI dec62.yaml): Bosch elected president of the Dominican Republic.
+- `cal.1963-01-14.alabama` (Jan. 14, XXVII jan63.yaml): Wallace inaugurated at Montgomery. "Segregation now, segregation tomorrow, segregation forever."
+- `cal.1963-02-06.economy` (Feb. 6, XXVIII feb63.yaml): Ways and Means opens hearings on the tax message, Dillon first. They run to Mar. 27.
+- `cal.1963-02-19.program` (Feb. 19, XXVIII feb63.yaml): Friedan's *The Feminine Mystique* published.
+- `cal.1963-02-28.mississippi` (Feb. 28, XXVIII feb63.yaml): Jimmy Travis of SNCC shot on the highway outside Greenwood; Moses beside him unhurt. SNCC and COFO bring their
+- `cal.1963-03-27.mississippi` (Mar. 27–30, XXIX mar63.yaml): Greenwood police set a dog on Black citizens walking home from the registrar; a minister bitten. SNCC workers 
+- `cal.1963-03-31.press-and-broadcasting` (Mar. 31, XXIX mar63.yaml): New York newspaper strike ends after 114 days. The papers back Apr. 1.
+- `cal.1963-04-08.elections-1964` (Apr. 8, XXX apr63.yaml): National Draft Goldwater Committee announced. O'Donnell, the Texas Republican chairman, at its head; White its
+- `cal.1963-04-23.alabama` (Apr. 23, XXX apr63.yaml): William Moore, a Baltimore postman walking alone to Mississippi with a letter for Barnett, shot dead on the hi
+- `cal.1963-05-04.elections-1964` (May 4, XXXI may63.yaml): Rockefeller, divorced in 1962, marries Margaretta Fitler Murphy, divorced a month before.
+- `cal.1963-05-24.civil-rights-the-executive` (May 24, XXXI may63.yaml): Robert Kennedy meets James Baldwin and a dozen others Baldwin brought, at the Kennedy apartment in New York. T
+- `cal.1963-05-28.mississippi` (May 28, XXXI may63.yaml): Jackson. Tougaloo students sit in at Woolworth's lunch counter; a crowd beats them for three hours, police out
+- `cal.1963-05-30.civil-rights-the-executive` (May 30, XXXI may63.yaml): Johnson at Gettysburg, Memorial Day: "The Negro today asks justice." Emancipation a proclamation, not a fact, 
+- `cal.1963-06-11.specials` (June 11, XXXII jun63.yaml): California 23d, special. Del Clawson (R) takes Clyde Doyle's seat, 53.2 to 35.4 over Carley Porter (D), four o
+- `cal.1963-06-22.civil-rights-bill` (June 22, XXXII jun63.yaml): Kennedy meets some thirty civil rights leaders, King, Randolph, Wilkins, Young, Farmer, and Lewis among them. 
+- `cal.1963-07-04.elections-1964` (July 4, XXXIII jul63.yaml): Draft Goldwater rally, National Guard Armory, Washington. Police count over 7,000. Tower the speaker; O'Donnel
+- `cal.1963-07-14.elections-1964` (July 14, XXXIII jul63.yaml): Rockefeller's statement against the "radical right": the Young Republicans' convention at San Francisco in Jun
+- `cal.1963-07-23.civil-rights-the-executive` (July 23, XXXIII jul63.yaml): Cambridge, Maryland, under the Guard since June. At Justice, Robert Kennedy brings Gloria Richardson and the c
+- `cal.1963-07-26.civil-rights-the-executive` (July 26, XXXIII jul63.yaml): McNamara's directive on the Gesell Committee's report: commanders to oppose discrimination against their men o
+- `cal.1963-07-30.specials` (July 30, XXXIII jul63.yaml): Pennsylvania 15th, special. Fred B. Rooney (D) holds the seat of Francis E. Walter (D), who died May 31; 53.5 
+- `cal.1963-10-22.specials` (Oct. 22, XXXVI oct63.yaml): North Dakota 1st, special. Mark Andrews (R) holds Nygaard's seat, 49.1 percent, over Hove (Democratic-NPL), 44
+- `cal.1963-10-24.right-and-the-military` (Oct. 24, XXXVI oct63.yaml): Stevenson in Dallas for UN Day. Heckled, spat on, struck on the head with a placard. Walker's "U.S. Day" rally
+- `cal.1963-11-05.specials` (Nov. 5, XXXVII nov63.yaml): Pennsylvania 23rd, special. Albert Johnson (R) holds Gavin's seat, 58.4 to 41.6 over Hagerty (D). Swing 0.7 to
+- `cal.1963-11-07.elections-1964` (Nov. 7, XXXVII nov63.yaml): Rockefeller announces for the Republican nomination, at Albany.
+- `cal.1963-11-22.baker` (Nov. 22, XXXVII nov63.yaml): Don Reynolds, a Maryland insurance agent, before the Rules Committee's staff in closed session: a stereo set f
+- `cal.1963-11-24.assassination` (Nov. 24, XXXVII nov63.yaml): Ruby, a Dallas nightclub owner, shoots Oswald in the basement of police headquarters, 11:21 a.m., before live 
+- `cal.1963-12-05.assassination` (Dec. 5, XXXVIII dec63.yaml): The Warren Commission's first meeting, at the National Archives. The FBI's summary report to it, Dec. 9. Ranki
 
 ### Named, not linked
 
+- `cal.1963-08-30.testing` (Aug. 30, XXXIV aug63.yaml): The hot line in operation. Teletype, Washington to Moscow by way of London, Copenhagen, Stockholm, and Helsink — names "S. 1"
 
 ## Threads
 
@@ -187,39 +249,47 @@ The brief: what the thread is, and its stations, in one or two clipped sentences
 
 | Thread | Statement |
 |---|---|
+| Alabama | Alabama under Wallace, 1963: Birmingham and the schools. Wallace's inaugural; the Birmingham campaign, April–May; the schoolhouse door; the schools in September; the Sixteenth Street church. |
 | Albany | SNCC and King against segregation in Albany, Georgia, Nov. 1961–Aug. 1962. The station test; the Albany Movement; King jailed, December and July; Elliott's injunction; King leaves. |
-| Berlin and Vienna | The second Berlin crisis, from the Vienna ultimatum to the wall and after. Vienna; the July buildup; Aug. 13; Clay in Berlin; Checkpoint Charlie; Powers for Abel; Fechter. |
-| Civil rights: the executive | What the President did for civil rights by appointment and order. Weaver; the equal employment committee; the new judgeships, Cox and Marshall; the housing order. |
+| Assassination | Kennedy killed at Dallas, and the inquiry. Nov. 22; Oswald killed; the funeral; the Warren Commission. |
+| Berlin and Vienna | The second Berlin crisis, from the Vienna ultimatum to the wall and after. Vienna; the July buildup; Aug. 13; Clay in Berlin; Checkpoint Charlie; Powers for Abel; Fechter; Kennedy in Berlin. |
+| Bobby Baker | The Senate majority's secretary and the Rules Committee's inquiry. Resignation, Oct. 7; Reynolds before the committee's staff. |
+| Civil rights bill | The civil rights bill from Kennedy's address to the discharge petition. June 11; the message of June 19; the leaders at the White House; the Senate hearings; Judiciary's bill, Oct. 29; Johnson's joint session; the petition. |
+| Civil rights: the executive | What the President did for civil rights by appointment and order. Weaver; the equal employment committee; the new judgeships, Cox and Marshall; the housing order; the Commission's century report; Baldwin; the apprenticeship order; Cambridge; the Gesell committee and McNamara's directive. |
 | Congo | The Congo's civil war and the UN's war in Katanga. Lumumba's death; Rumpunch; Hammarskjöld's death; U Thant; Kitona; Elisabethville and the end of secession. |
-| Congress | The 87th Congress as an institution: its leaders and sessions. Rayburn's death; McCormack Speaker; the second session's end; Jan. 3, 1963. |
-| Court | The Supreme Court's October 1960 and 1961 Terms, and its new Justices. *Mapp*; *Baker v. Carr*, argued, reargued, decided; *Engel v. Vitale*; White and Goldberg for Whittaker and Frankfurter. |
+| Congress | Congress as an institution: its leaders and sessions. Rayburn's death; McCormack Speaker; the 87th's end, Jan. 3, 1963; the 88th's opening; Clark's Senate establishment; the first session's end, Dec. 30, 1963. |
+| Court | The Supreme Court's October 1960, 1961 and 1962 Terms, and its new Justices. *Mapp*; *Baker v. Carr*, argued, reargued, decided; *Engel v. Vitale*; White and Goldberg for Whittaker and Frankfurter; *Gideon*; *Gray v. Sanders*; the sit-in cases; *Schempp*. |
 | Crime and hijacking | Robert Kennedy's crime bills and the first hijackings to Cuba. Three hijackings, May–Aug. 1961; aircraft piracy a federal crime; the Wire and Travel Acts. |
-| Cuba | Cuba short of the missile crisis. The Bay of Pigs and its inquiry; Mongoose; Punta del Este; the embargo; Northwoods; the prisoners' ransom; the Orange Bowl. |
-| Defense | Strategy and the defense budget under McNamara. No missile gap; the March budget; the Berlin increase; civil defense to the Pentagon; Gilpatric at Hot Springs; the RS-70; counterforce at Ann Arbor. |
-| Economy | The recession of 1960–61, the recovery, and the Council's case for a tax cut. The task force; the trough; the Fed's long rates; the gap; the debt limit; the 1962 Report; the May slide; depreciation; the investment credit; the Economic Club. |
+| Cuba | Cuba short of the missile crisis, and after. The Bay of Pigs and its inquiry; Mongoose; Punta del Este; the embargo; Northwoods; the prisoners' ransom; the Orange Bowl; NSAM 213; the exile raids; the sabotage program; Attwood and Lechuga. |
+| Defense | Strategy and the defense budget under McNamara. No missile gap; the March budget; the Berlin increase; civil defense to the Pentagon; Gilpatric at Hot Springs; the RS-70; counterforce at Ann Arbor; the TFX hearings; the draft extended; *Thresher*; Anderson and Korth out. |
+| Economy | The recession of 1960–61, the recovery, and the tax cut. The task force; the trough; the Fed's long rates; the gap; the debt limit; the 1962 Report; the May slide; depreciation; the investment credit; the Economic Club; the tax message; the House's 271–155; the interest equalization tax; Johnson's budget. |
 | Elections of 1962 | The primaries and midterms of 1962. Connally and Wallace; Nixon in California; Edward Kennedy against McCormack; Nov. 6; Nixon's last press conference. |
-| Europe and the alliance | Britain, Europe, and the alliance's nuclear arms. Bermuda; the Declaration of Interdependence; Skybolt cancelled; Nassau. |
-| Foreign aid | The aid program remade. The March message; AID created, long-term borrowing denied; the 1962 act and the Hickenlooper amendment. |
+| Elections of 1964 | The race for the 1964 nominations in its first year. Rockefeller; the Goldwater draft; Goldwater announces. |
+| Europe and the alliance | Britain, Europe, and the alliance's nuclear arms. Bermuda; the Declaration of Interdependence; Skybolt cancelled; Nassau; de Gaulle's veto; the Élysée treaty; the MLF; Kennedy in Europe; Erhard at the Ranch. |
+| Foreign aid | The aid program remade, and cut. The March message; AID created, long-term borrowing denied; the 1962 act and the Hickenlooper amendment; the Clay report; the 1963 cuts; the Christmas Eve vote. |
 | Freedom Rides | CORE's rides to test *Boynton*, May 1961, and the ICC order that came of them. Anniston; Montgomery; Jackson and Parchman; the petition; the order, in force Nov. 1. |
 | India and China | India's wars, and American arms for India. Goa; the Chinese attack of October 1962; Nehru's request; Harriman's mission. |
-| Laos | The Laos crisis, from Eisenhower's warning to the Geneva accords. The March maps; the cease-fire; the conference; Nam Tha; troops to Thailand; the coalition; the neutrality declaration. |
-| Latin America | The Alliance for Progress and the hemisphere's governments. The Alliance proposed; Trujillo killed, his family out; Punta del Este, 1961 and 1962; Goulart; coups in Argentina and Peru; Kennedy in Caracas, Bogotá, Mexico City; Bosch elected. |
-| Medicare | Hospital insurance for the aged through Social Security. The 1961 bill; the 1962 message; the Garden rally; the Senate's 52–48. |
-| Missile crisis | The Soviet missiles in Cuba, from the decision to the aftermath. The Presidium's plan; the summer warnings; the U-2's find; the ExComm; the quarantine; the letters; the withdrawal; the IL-28s; the Stevenson story. |
-| Mississippi | The movement in Mississippi, and Meredith's admission. McComb; Herbert Lee; the Fifth Circuit's order; Barnett's refusals; the calls; Oxford. |
-| Opinion | The public's view, by Gallup. Approval from the first reading through the missile crisis; the Bay of Pigs high; the Freedom Riders. |
+| Laos | The Laos crisis, from Eisenhower's warning to the Geneva accords and after. The March maps; the cease-fire; the conference; Nam Tha; troops to Thailand; the coalition; the neutrality declaration; the Plain of Jars, April 1963; Harriman in Moscow. |
+| Latin America | The Alliance for Progress and the hemisphere's governments. The Alliance proposed; Trujillo killed, his family out; Punta del Este, 1961 and 1962; Goulart; coups in Argentina and Peru; Kennedy in Caracas, Bogotá, Mexico City; Bosch elected; San José; Chamizal; Bosch ousted; the Honduran coup. |
+| March on Washington | The March on Washington for Jobs and Freedom, Aug. 28, 1963. |
+| Medicare | Hospital insurance for the aged through Social Security. The 1961 bill; the 1962 message; the Garden rally; the Senate's 52–48; the 1963 message. |
+| Missile crisis | The Soviet missiles in Cuba, from the decision to the aftermath. The Presidium's plan; the summer warnings; the U-2's find; the ExComm; the quarantine; the letters; the withdrawal; the IL-28s; the Stevenson story; the joint letter to U Thant; McNamara's photographs; the Soviet troops. |
+| Mississippi | The movement in Mississippi, Meredith's admission, and Evers. McComb; Herbert Lee; the Fifth Circuit's order; Barnett's refusals; the calls; Oxford; Greenwood; the Commission's report; Jackson; Evers killed. |
+| Opinion | The public's view, by Gallup. Approval from the first reading through the missile crisis; the Bay of Pigs high; the Freedom Riders; the low of September 1963. |
 | Peace Corps | The Peace Corps, from order to statute. The executive order; Ghana; the act; the Ibadan postcard. |
-| Press and broadcasting | The President and the press, and broadcasting's regulators. The live press conference; the publishers' speech; Minow's wasteland; the White House tour; the *Herald Tribune* cancelled; Sylvester's right to lie; the newspaper strike; "After Two Years." |
-| Program | The domestic program in Congress, bill by bill. The recession bills; minimum wage; area redevelopment; housing; the Status of Women commission; federal unions; Urban Affairs refused; manpower training; the farm bill; thalidomide and the drug amendments; welfare; public works. |
-| Right and the military | The radical right and the officers who spoke for it. The Birch Society; Walker relieved, admonished, resigned; Fulbright's memorandum; the crusades; the Seattle and Los Angeles speeches; the muzzling hearings; Walker at Oxford. |
-| Rules | Majority rule in each chamber. The Rules Committee enlarged; Rule XXII kept; Rayburn's absence; cloture refused on the literacy test, invoked on the satellite bill. |
-| School aid | Federal aid to education, the first great defeat. The 1961 message; the Rules Committee's 8–7; Calendar Wednesday refused; the college bill recommitted. |
-| Space | The space race and the moon program. Gagarin; the Space Council; Shepard; the moon message; Grissom, Titov, Glenn, Carpenter, Schirra; Houston; Telstar; Rice Stadium; the moon first; Mariner 2. |
-| Special elections | The special elections that filled seats in the 87th Congress. Johnson's Senate seat to Tower; twelve House seats, three to widows. |
-| States and cities | State and city politics. The Twenty-Third Amendment; Tower; Yorty; Atlanta's schools; Wagner against Tammany; Michigan's convention and Romney; the elections of 1961. |
-| Steel | Steel prices and the guideposts. The letter of September 1961; the early settlement; the April price rise and its rescission. |
-| Testing | Nuclear testing and arms control. The Soviet resumption; American tests underground; ACDA; the fifty megatons; atmospheric tests resumed; Geneva; Starfish Prime; Khrushchev's inspection offer. |
-| Trade | The Trade Expansion Act, from message to signature. The House and Senate votes; Herter named. |
-| Transition and staff | The administration's people and organization. The cabinet; the NSC remade; the back injury; Taylor at the White House; McCone for Dulles; the Thanksgiving reshuffle; Joseph Kennedy's stroke; Hoover's lunch; Taylor to the Joint Chiefs. |
-| Vietnam | The deepening commitment in Vietnam. The counterinsurgency plan; Johnson's trip; NSAM 52; Staley; Taylor–Rostow; NSAM 111; helicopters and the first dead; MACV; strategic hamlets; Galbraith's dissent; McNamara's visits; Mansfield's report; Ap Bac. |
-| Voting rights | Voting rights in Congress and the field. The poll tax amendment; the Voter Education Project; the literacy-test filibuster. |
+| Press and broadcasting | The President and the press, and broadcasting's regulators. The live press conference; the publishers' speech; Minow's wasteland; the White House tour; the *Herald Tribune* cancelled; Sylvester's right to lie; the newspaper strike and its end; "After Two Years." |
+| Program | The domestic program in Congress, bill by bill. The recession bills; minimum wage; area redevelopment; housing; the Status of Women commission; federal unions; Urban Affairs refused; manpower training; the farm bill; thalidomide and the drug amendments; welfare; public works; mental illness and retardation; the Equal Pay Act; immigration; *American Women*; clean air. |
+| Railroad work rules | The railroad work-rules dispute: firemen on diesels. The Presidential Railroad Commission; the strike deadlines; arbitration by statute. |
+| Right and the military | The radical right and the officers who spoke for it. The Birch Society; Walker relieved, admonished, resigned; Fulbright's memorandum; the crusades; the Seattle and Los Angeles speeches; the muzzling hearings; Walker at Oxford; Stevenson in Dallas. |
+| Rules | Majority rule in each chamber. The Rules Committee enlarged, then kept at fifteen; Rule XXII kept; Rayburn's absence; cloture refused on the literacy test, invoked on the satellite bill; the three-fifths rule refused, 1963. |
+| School aid | Federal aid to education, from the first great defeat to the acts of 1963. The 1961 message; the Rules Committee's 8–7; Calendar Wednesday refused; the college bill recommitted; the omnibus bill; the college facilities and vocational acts. |
+| Space | The space race and the moon program. Gagarin; the Space Council; Shepard; the moon message; Grissom, Titov, Glenn, Carpenter, Schirra; Houston; Telstar; Rice Stadium; the moon first; Mariner 2; Cooper; the joint expedition offered; Cape Kennedy. |
+| Special elections | The special elections that filled seats in the 87th and 88th Congresses. Johnson's Senate seat to Tower; twelve House seats, three to widows; six House seats in 1963. |
+| States and cities | State and city politics. The Twenty-Third Amendment; Tower; Yorty; Atlanta's schools; Wagner against Tammany; Michigan's convention and Romney; the elections of 1961; Gantt at Clemson; the elections of 1963. |
+| Steel | Steel prices and the guideposts. The letter of September 1961; the early settlement; the April price rise and its rescission; the selective increases of 1963. |
+| Succession | Johnson's first weeks. The oath; the joint session; the Kennedy program; the budget. |
+| Testing | Nuclear testing and arms control. The Soviet resumption; American tests underground; ACDA; the fifty megatons; atmospheric tests resumed; Geneva; Starfish Prime; Khrushchev's inspection offer; American University; the hot line; Moscow; the treaty and the Senate's consent. |
+| Trade | Trade, from the Trade Expansion Act to the wheat sale. The House and Senate votes; Herter named; the new tariff schedules; Canada's wheat sale; the American sale and Mundt's bill. |
+| Transition and staff | The administration's people and organization. The cabinet; the NSC remade; the back injury; Taylor at the White House; McCone for Dulles; the Thanksgiving reshuffle; Joseph Kennedy's stroke; Hoover's lunch; Taylor to the Joint Chiefs; Gronouski for Day. |
+| Vietnam | The deepening commitment in Vietnam. The counterinsurgency plan; Johnson's trip; NSAM 52; Staley; Taylor–Rostow; NSAM 111; helicopters and the first dead; MACV; strategic hamlets; Galbraith's dissent; McNamara's visits; Mansfield's report; Ap Bac; the Buddhist crisis; Lodge; cable 243; McNamara–Taylor; the coup; NSAM 273. |
+| Voting rights | Voting rights in Congress and the field. The poll tax amendment and its ratification; the Voter Education Project; the literacy-test filibuster; the referees asked. |
