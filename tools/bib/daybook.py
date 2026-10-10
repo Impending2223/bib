@@ -155,8 +155,10 @@ def rubric(lst, e, thread_name):
     single = len(d) == 10 and end_of(e) == datetime.date.fromisoformat(d)
     when = (f'<span class="rw same">, {esc(e["when"])}</span>' if single
             else f'<span class="rw">, {esc(e["when"])}</span>')
+    from . import calsplit
     slugs = [e["thread"]] + e.get("also", [])
-    linked = [f'<a class="rt" href="#cal.thread.{esc(s)}">{esc(n)}</a>' for s, n in zip(slugs, names)]
+    half = calsplit.half_of_date(lst, e.get("date", "")) if calsplit.cfg(lst) else 1
+    linked = [f'<a class="rt" href="#{esc(calsplit.thread_anchor(lst, s, half))}">{esc(n)}</a>' for s, n in zip(slugs, names)]
     return f'<span class="s rub">{" · ".join(linked)}{when}</span>'
 
 

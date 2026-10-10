@@ -17,7 +17,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)
 LISTS = os.path.join(ROOT, "lists")
 
 # Field order inside an entry. Anything else is kept, after these.
-ENTRY_FIELDS = ["id", "when", "date", "thread", "also", "s", "c", "r", "n", "gloss", "tags", "aliases", "conflict"]
+ENTRY_FIELDS = ["id", "when", "date", "thread", "also", "s", "c", "c2", "r", "n", "gloss", "tags", "aliases", "conflict"]
 
 
 # ---------------------------------------------------------------- yaml i/o
