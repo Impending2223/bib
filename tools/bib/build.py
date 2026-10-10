@@ -12,6 +12,7 @@ import os
 import re
 
 from . import daybook, primaries, specials, store
+from . import smart
 from .markup import to_html, plain, italics, ITAL_RE, REF_RE
 from .refs import Refs, split_protected
 
@@ -723,8 +724,7 @@ def run(series, which=None):
             page = primaries.inject(page, series)
             page = indicators.inject(page, series, "list")
             page = daybook.inject(page)
-        with open(path, "w", encoding="utf-8") as f:
-            f.write(page)
+        smart.write(path, page)
         written.append(path)
     if which in (None, "series"):
         page, linker = build_series(series)
@@ -735,31 +735,27 @@ def run(series, which=None):
         page = indicators.inject(page, series, "series")
         page = daybook.inject(page)
         path = os.path.join(OUT, "series.html")
-        with open(path, "w", encoding="utf-8") as f:
-            f.write(page)
+        smart.write(path, page)
         written.append(path)
     if which in (None, "congress"):
         linker = linker or Linker(series)
         page = congress.page(series, linker, os.path.join(TEMPLATES, "list.html"))
         if page:
             path = os.path.join(OUT, "congress.html")
-            with open(path, "w", encoding="utf-8") as f:
-                f.write(page)
+            smart.write(path, page)
             written.append(path)
     if which in (None, "executive"):
         linker = linker or Linker(series)
         page = executive.page(series, linker, os.path.join(TEMPLATES, "list.html"))
         if page:
             path = os.path.join(OUT, "executive.html")
-            with open(path, "w", encoding="utf-8") as f:
-                f.write(page)
+            smart.write(path, page)
             written.append(path)
     if which in (None, "names", "lives"):
         from . import lives
         linker = linker or Linker(series)
         for name, page in lives.pages(series, linker, os.path.join(TEMPLATES, "list.html")).items():
             path = os.path.join(OUT, name)
-            with open(path, "w", encoding="utf-8") as f:
-                f.write(page)
+            smart.write(path, page)
             written.append(path)
     return written

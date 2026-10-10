@@ -41,7 +41,7 @@ PATH = os.path.join(store.ROOT, "elections", "pres-primaries.yaml")
 NAMES = {(1976, "Brown"): "Edmund G. Brown Jr."}     # a bare surname the year's tables give in full nowhere
 PARTY = {"R": "Republican", "D": "Democratic"}
 MONTHS = ["Jan.", "Feb.", "Mar.", "Apr.", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."]
-NOT_A_PERSON = ("Others", "“None of the names shown”")
+NOT_A_PERSON = ("Others", '"None of the names shown"')
 FILLS = 9                                             # candidate colors, q1-q9 (templates/congress.html)
 CQ = "CQ Guide 6th (2010)"
 _C = {}
@@ -209,8 +209,9 @@ def name_html(y, x):
 
 
 def quote(t):
-    """CQ's words inside quotation marks: its own double quotes turned single; America Votes in italics."""
-    t = esc(t).replace("“", "‘").replace("”", "’").replace("&quot;", "’")
+    """CQ's words inside quotation marks: its own double quotes turned single (the build curls them); America Votes in
+    italics."""
+    t = esc(t).replace("“", "'").replace("”", "'").replace("&quot;", "'")     # curled at the build (smart.py)
     return re.sub(r"America Votes", "<i>America Votes</i>", t)
 
 
@@ -310,7 +311,8 @@ def record(y, r, p, fills):
     top = ", ".join(f'{who(y, x["n"])} {x["p"]}%' + (" (write-in)" if x["wi"] else "") for x in rs[:3] if x["v"])
     m = margin(y, r, p)
     t = f'{r["st"]}, {fmt_date(r["date"], False)}: {top}' + (f"; by {m:.1f} pts" if m is not None else "; unopposed")
-    return {"id": rid(y, r, p), "f": fills.get(w["who"], "pO"), "mg": 100 if m is None else m, "t": t, "v": tot}
+    from .smart import smarten                  # map data is not page text: curled here
+    return {"id": rid(y, r, p), "f": fills.get(w["who"], "pO"), "mg": 100 if m is None else m, "t": smarten(t), "v": tot}
 
 
 def block(y, p, day_links=None):

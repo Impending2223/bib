@@ -203,6 +203,32 @@ def run(series, only=None):
     from . import daybook
     for where, msg in daybook.problems():
         add(ERROR, "daybook/", f"{where}: {msg}", "daybook")
+    # the hand-kept files keep the keyboard's quotation marks; the build curls them (smart.py)
+    for path, n in curly_files():
+        add(WARN, path, f"{n} curly quotation mark{'s' if n > 1 else ''}; write ' and \" (the build curls them)",
+            "straight-quotes")
+    return out
+
+
+HAND = ["lists/**/*.yaml", "executive/*.yaml", "daybook/abstracts.yaml", "elections/facts.yaml",
+        "elections/pres-primaries.yaml", "elections/renominations.yaml", "elections/primaries.yaml", "elections/cq.yaml",
+        "elections/readings/*.yaml", "congress/specials-state.yaml", "congress/specials-cq.yaml",
+        "congress/switches.yaml", "sources/gallup-approval.yaml", "sources/states.yaml",
+        "sources/executive-sources.yaml"]
+
+
+def curly_files():
+    """The hand-kept files that hold a curly quotation mark (‘ ’ “ ”), with the count. Matching files (name-forms,
+    frus-joins, app-matches and the like) keep the forms the sources print and are not among them."""
+    import glob
+    import os
+    out = []
+    for pat in HAND:
+        for p in sorted(glob.glob(os.path.join(store.ROOT, pat), recursive=True)):
+            t = open(p, encoding="utf-8").read()
+            n = sum(t.count(c) for c in "\u2018\u2019\u201c\u201d")
+            if n:
+                out.append((os.path.relpath(p, store.ROOT), n))
     return out
 
 

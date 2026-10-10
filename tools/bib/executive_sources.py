@@ -238,7 +238,8 @@ def frus_html(s, h):
     if m.group(2):
         vids = [frus_volume(m.group(1), v.strip()) for v in re.split(r",| and ", m.group(2)) if v.strip()]
     else:
-        vids = links().get("frus", {}).get(h["name"], [])
+        fr = links().get("frus", {})            # keyed by the name as the roster once wrote it, apostrophes either way
+        vids = fr.get(h["name"]) or fr.get(h["name"].replace("'", "\u2019")) or []
         if m.group(1):
             want = "frus" + m.group(1).replace("–", "-")
             vids = [v for v in vids if v.startswith(want)] or vids
@@ -357,7 +358,8 @@ def one(s, h, ctx=None):
         ls = [index_link(y) or f"CR Index, {y}" for y in years]
         return None, "; ".join(ls) if ls else a(CRECB_COLL, "CR Index")
     if s == "POCOM":
-        pid = links().get("pocom", {}).get(h["name"])
+        pc = links().get("pocom", {})           # keyed by the name as the roster once wrote it, apostrophes either way
+        pid = pc.get(h["name"]) or pc.get(h["name"].replace("'", "\u2019"))
         url = f"https://history.state.gov/departmenthistory/people/{pid}" if pid else \
             "https://history.state.gov/departmenthistory/people/principals-chiefs"
         return None, a(url, "POCOM")
