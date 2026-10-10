@@ -15,6 +15,8 @@ Scopes taken out of the statements, kept here:
 - King: Martin Luther King, Jr., and Washington: the President, the Attorney General, the Bureau (the statement
   keeps "The President, the Attorney General, the Bureau").
 - Black nationalism: Black nationalism as Washington met it (the statement opens "Malcolm X and the Nation of Islam").
+- Civil rights organizations: their campaigns (Albany, Birmingham, the Freedom Rides, Freedom Summer, Selma, the March) are in
+  the place and law threads; King has his own; Malcolm X and the Nation of Islam are in Black nationalism.
 - Students: college and university students in politics: their organizations, demonstrations, and manifestos (the
   statement keeps the first clause).
 
