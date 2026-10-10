@@ -10,12 +10,17 @@
 #   The key is read from the environment and never written out. Without a key, the same figures come
 #   from ALFRED's and FRED's public CSV downloads (KEYLESS below): every day's vintage, so the first
 #   release is the first day an observation appears.
+#   Money and credit (RATES, DISCOUNT below): interest rates, which are not revised. FRED's monthly averages
+#   go in 'now' with their change in points; the New York Reserve Bank's discount rate, kept by hand from
+#   the Board's announcements, goes in 'first'. --only rates writes these alone (no ALFRED calls).
 """
 import json, os, sys, time, urllib.parse, urllib.request
 import yaml
 
 KEY = os.environ.get('FRED_API_KEY')     # without it, the public CSV downloads (KEYLESS below)
-FROM, TO = (sys.argv[1], sys.argv[2]) if len(sys.argv) > 2 else ('1960-12-01', '1964-12-31')
+ONLY = sys.argv[sys.argv.index('--only') + 1].split(',') if '--only' in sys.argv else None
+ARGS = [a for i, a in enumerate(sys.argv[1:], 1) if a != '--only' and sys.argv[i - 1] != '--only']
+FROM, TO = (ARGS[0], ARGS[1]) if len(ARGS) > 1 else ('1960-12-01', '1964-12-31')
 OUT = os.path.join(os.path.dirname(__file__), '..', '..', 'indicators')
 FRED = 'https://fred.stlouisfed.org/series/'
 ALFRED = 'https://alfred.stlouisfed.org/series?seid='
@@ -556,7 +561,90 @@ def gap_cbo():
                               'url': FRED + 'GDPPOT', 'vintage': vin}}, rows)
 
 
+# ---------------------------------------------------------------- money and credit: interest rates
+# Not revised: FRED's monthly averages are the figures the Federal Reserve Bulletin printed at the time (Feb. 1965,
+# p. 286: the federal funds rate and the 3-month bill's market yield for 1964, month by month, as FRED has them).
+# So one column, today's (STYLE 7 in tools/bib/indicators.py), with the change from the prior month in points.
+# id: (FRED series, name, label)
+RATES = {
+    'federal-funds': ('FEDFUNDS', 'Federal funds rate',
+                      'Board of Governors, H.15: effective federal funds rate, monthly average of daily figures'),
+    'prime-rate': ('MPRIME', 'Prime rate',
+                   'Board of Governors, H.15: bank prime loan rate, monthly average of daily figures'),
+    'treasury-bill': ('TB3MS', 'Treasury bill rate, 3-month',
+                      'Board of Governors, H.15: 3-month Treasury bill, secondary market, discount basis, monthly average of business days'),
+    'treasury-10-year': ('GS10', 'Treasury yield, 10-year',
+                         'Board of Governors, H.15: 10-year Treasury constant maturity, monthly average of business days'),
+}
+# Administered rates show a change only in a month the rate changed (the prime stood at 4½ percent throughout).
+ADMIN = {'prime-rate'}
+
+# The discount rate of the Federal Reserve Bank of New York, by hand: each change, its effective date, the day the
+# Board announced it, the new rate, and where it is printed (Federal Reserve Bulletin and the Board's press
+# releases, on FRASER). The two 1960 changes set the rate standing in Dec. 1960.
+FRASER = 'https://fraser.stlouisfed.org/title/'
+DISCOUNT = [
+    ('1960-06-10', None, 3.5, 'Federal Reserve Bulletin, July 1960, p. 756 (from 4 percent)'),
+    ('1960-08-12', None, 3.0, 'Federal Reserve Bulletin, Sept. 1960, p. 1014'),
+    ('1963-07-17', '1963-07-16', 3.5, 'Board of Governors, press release, July 16, 1963; Federal Reserve Bulletin, Sept. 1963, p. 1264'),
+    ('1964-11-24', '1964-11-23', 4.0, 'Board of Governors, press release, Nov. 23, 1964; Federal Reserve Bulletin, Dec. 1964, pp. 1530–31, and Feb. 1965, p. 267'),
+]
+
+
+def month_end(p):
+    import calendar
+    y, m = int(p[:4]), int(p[5:7])
+    return f'{p}-{calendar.monthrange(y, m)[1]:02d}'
+
+
+def label_day(iso):
+    mon = ['Jan.', 'Feb.', 'Mar.', 'Apr.', 'May', 'June', 'July', 'Aug.', 'Sept.', 'Oct.', 'Nov.', 'Dec.']
+    return f'{mon[int(iso[5:7]) - 1]} {int(iso[8:])}'
+
+
+def rates():
+    meta = lambda key, sid, name, label: {
+        'id': key, 'name': name, 'freq': 'M', 'kind': 'rate', 'change': 'pts', 'then': None,
+        'now': {'label': label, 'unit': 'percent', 'source': f'FRED {sid}', 'url': FRED + sid}}
+    for key, (sid, name, label) in RATES.items():
+        cur = current_from(sid, '1960-11-01')
+        rows = []
+        for p in MONTHS:
+            d = f'{p}-01'
+            row = {'p': p, 'now': cur.get(d)}
+            c = None if cur.get(d) is None or cur.get(prior(d, 'M')) is None else round(cur[d] - cur[prior(d, 'M')], 2)
+            if c is not None and not (key in ADMIN and c == 0):
+                row['chg_now'] = c
+            rows.append(row)
+        write(key, meta(key, sid, name, label), rows)
+    rows = []
+    for p in MONTHS:
+        lo, hi = f'{p}-01', month_end(p)
+        standing = [x for x in DISCOUNT if x[0] <= hi]
+        eff, ann, v, src = standing[-1]
+        row = {'p': p, 'first': v}
+        if lo <= eff:                      # a change this month
+            row['chg'] = round(v - standing[-2][2], 2)
+            row['released'] = ann
+            row['note'] = f'effective {label_day(eff)}'
+        else:
+            row['since'] = eff
+        row['unit'] = 'percent'
+        row['source'] = src
+        rows.append(row)
+    write('discount-rate', {'id': 'discount-rate', 'name': 'Discount rate, New York Reserve Bank', 'freq': 'M',
+                            'manual': True, 'kind': 'rate', 'change': 'pts',
+                            'then': {'label': 'Federal Reserve Bank of New York, rate on discounts for and advances to member banks (Secs. 13 and 13a), in effect at the end of the month',
+                                     'source': 'Board of Governors, announcements and Federal Reserve Bulletin'},
+                            'now': None}, rows)
+
+
 if __name__ == '__main__':
-    main()
-    manual()
-    gap_cbo()
+    if ONLY is None or 'alfred' in ONLY:
+        main()
+    if ONLY is None or 'manual' in ONLY:
+        manual()
+    if ONLY is None or 'gap' in ONLY:
+        gap_cbo()
+    if ONLY is None or 'rates' in ONLY:
+        rates()
