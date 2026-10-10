@@ -2,7 +2,8 @@
 with ‘ ’ “ ” in its text.
 
 STYLE
- 1. Only text is touched: not tags or their attributes (URLs, ids, titles on hover keep their characters), and not
+ 1. Only text is touched: not tags or their attributes (URLs, ids, titles on hover keep their characters; a '>' inside a
+    quoted attribute value does not end the tag), and not
     the contents of <script>, <style>, <pre>, <code> or <textarea>. Entities that stand for a quotation mark in text
     (&quot; &#34; &#39; &#x27; &apos;) are curled as the characters are.
  2. A double quotation mark opens at the start of the text or after a space, an opening bracket, a dash, or an
@@ -19,7 +20,10 @@ SKIP = ("script", "style", "pre", "code", "textarea")
 OPENERS = set(" \t\n\r ([{—–-/“‘")
 ELISIONS = re.compile(r"(?:\d\d(?:s|\b)|n'|em\b|tis\b|twas\b|til\b|cause\b)", re.I)
 ENT = re.compile(r"&(?:quot|#34|#x22|#39|#x27|apos);", re.I)
-TOKEN = re.compile(r"<!--.*?-->|<(/?)([a-zA-Z][a-zA-Z0-9]*)\b[^>]*>|[^<]+|<", re.S)
+# a tag runs to the first '>' outside a quoted attribute value (onclick="...forEach(d=>d.open=true)")
+TAG = r"<(/?)([a-zA-Z][a-zA-Z0-9]*)\b(?:[^>\"']|\"[^\"]*\"|'[^']*')*>"
+TOKEN = re.compile(r"<!--.*?-->|" + TAG + r"|[^<]+|<", re.S)
+TAGS = re.compile(r"<!--.*?-->|" + TAG, re.S)
 
 
 def _curl(text, prev):
@@ -67,6 +71,11 @@ def smarten(page):
 
 
 def write(path, page):
-    """Write a built page, its quotation marks curled."""
+    """Write a built page, its quotation marks curled; its tags must come out as they went in (STYLE 1)."""
+    out = smarten(page)
+    if TAGS.findall(out) != TAGS.findall(page):
+        a, b = TAGS.findall(page), TAGS.findall(out)
+        i = next((k for k, (x, y) in enumerate(zip(a, b)) if x != y), min(len(a), len(b)))
+        raise ValueError(f"smart.py changed a tag in {path}: {a[i] if i < len(a) else ''!r}")
     with open(path, "w", encoding="utf-8") as f:
-        f.write(smarten(page))
+        f.write(out)
