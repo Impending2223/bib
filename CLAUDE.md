@@ -961,7 +961,7 @@ tools/bib/daybook.py            lays the calendar out by day (STYLE notes at the
   subscription) and the Miller Center's Secret White House Tapes (free: a page and the audio for each; the LBJ
   Library's tape and citation number), written by `tools/daybook/make_millercenter.py` from the site's public JSON:API.
   A PRDE row shows PRDE's title linked to the free page, the time, the tape cite ("Conversation WH6407-11-4288") and
-  "PRDE" linked to the Edition's page; a recording only the Miller Center gives, its title in title case. The same
+  "PRDE" linked to the Edition's page ("PRDE (PRDE only)" where the Miller Center has no copy); a recording only the Miller Center gives, its title in title case. The same
   recording (`free` in `tools/bib/daybook.py`, STYLE 8): Johnson's by citation number; else the day, the time within
   twenty minutes and a name in both titles; else the day and the same title (Kennedy's); else Kennedy's tape and item.
   93 percent of PRDE's rows match; machine noise and PRDE's daily introductions are left out. The catalogue only: the transcripts and the editors'
@@ -969,7 +969,7 @@ tools/bib/daybook.py            lays the calendar out by day (STYLE notes at the
   from published transcripts (Beschloss, *Taking Charge*, *Reaching for Glory*) and the studies. As a calendar entry's
   primary record, the free page: `[Johnson and Robert Kennedy, 12:25 p.m.](https://millercenter.org/the-presidency/
   secret-white-house-tapes/…), Conversation WH6407-11-4288 (Miller Center)`; PRDE's page only where the Miller Center
-  has no copy.
+  has no copy, cited "(PRDE only)".
 - Abstracts go in `daybook/abstracts.yaml` (`key: sentence`), never in the generated
   files, so a rerun keeps them. Keys: `app:<slug>`, `frus:<volume>/<dN>`. `check` fails
   on an abstract whose key is not in the daybook.

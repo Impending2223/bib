@@ -2419,7 +2419,7 @@ def recordings_list(series, name):
         title = a(x["free"]["url"], esc(x["title"])) if x.get("free") else esc(x["title"])
         by_year.setdefault(x["date"][:4], []).append(
             f'{title} ({when}), <span class="lvc">' + (f'{esc(x["tape"])}, ' if x.get("tape") else "")
-            + f'{a(x["url"], "PRDE")}</span>.')
+            + f'{a(x["url"], "PRDE")}' + ("" if x.get("free") else " (PRDE only)") + "</span>.")
     return [f'<b>{y}</b>' + "".join(f'<span class="lvad">{x}</span>' for x in v) for y, v in by_year.items()]
 
 

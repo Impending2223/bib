@@ -38,7 +38,8 @@ STYLE:
     program's network and source on hover; a Check in italics where the TV listings name another guest.
  7. Recordings, a third list after APP and FRUS: PRDE's title, linked to the recording's free page and audio at the
     Miller Center; the time in grey, then the tape cite ("Conversation WH6407-11-4288") and "PRDE", linked to the
-    Edition's page (its transcripts need a subscription). A recording PRDE does not catalogue shows by the Miller
+    Edition's page (its transcripts need a subscription), "PRDE (PRDE only)" where the Miller Center has no copy. A
+    recording PRDE does not catalogue shows by the Miller
     Center's title, its capitals put in title case ("Conversation with George Smathers"); one PRDE catalogues and the
     Miller Center does not give, PRDE's link alone. Machine noise and blank tape are left out. No transcript or
     editorial summary is shown: they are the Edition's text.
@@ -347,7 +348,7 @@ def doc_html(x, ab):
             bits.append(f'<span class="src">{esc(cite)}</span>')
         if x["src"] == "prde":
             bits.append(f'<a class="src" href="{esc(x["url"])}" title="Presidential Recordings Digital Edition '
-                        f'(subscription)">PRDE</a>')
+                        f'(subscription)">PRDE</a>' + ("" if x.get("free") else '<span class="src">(PRDE only)</span>'))
     if x.get("until"):
         u = datetime.date.fromisoformat(x["until"])
         bits.append(f'<span class="src">through {esc(day_label(u, u.year != int(x["date"][:4])))}</span>')
