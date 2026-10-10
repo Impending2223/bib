@@ -11,7 +11,7 @@ import json
 import os
 import re
 
-from . import daybook, primaries, specials, store
+from . import calsplit, daybook, primaries, specials, store
 from . import smart
 from .markup import to_html, plain, italics, ITAL_RE, REF_RE
 from .refs import Refs, split_protected
@@ -161,25 +161,28 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
     subj = None if rubric is not None else entry_subject(lst, e)
     if subj:
         parts.append(f'<span class="s">{text_html(subj, "s")}</span>')
-    for i, c in enumerate(store.as_list(e.get("c"))):
+    is_thread = lst.kind == "calendar" and e["id"].startswith(f"{lst.key}.thread.")
+    statement = e.get("c")
+    anchor = e["id"]
+    if is_thread:                       # a thread's entry: its statement and dates in the half being built
+        slug = e["id"].split(".", 2)[2]
+        members = thread_members(lst).get(slug, [])
+        half = calsplit.CUR["half"]
+        has_first = any(calsplit.half_of_date(lst, m["date"]) == 1 for m in members)
+        if half and calsplit.cfg(lst):
+            statement = calsplit.statement(lst, e, half, has_first)
+            anchor = calsplit.thread_anchor(lst, slug, half)
+    for i, c in enumerate(store.as_list(statement)):
         lead = rubric if (rubric and i == 0) else ""
         parts.append(f'<span class="c">{lead}{text_html(year_qualified(series, c, year), "c")}</span>')
     if e.get("r"):
         parts.append(f'<span class="r">{text_html(e["r"], "r")}</span>')
     n = year_qualified(series, e.get("n"), year)
-    if lst.kind == "calendar" and e["id"].startswith(f"{lst.key}.thread."):
-        slug = e["id"].split(".", 2)[2]
-        members = thread_members(lst).get(slug, [])
-        # the year on the first date of each year
-        shown, prev = [], None
-        for m in members:
-            y = m["date"][:4]
-            shown.append(f"[[{m['id']}|{date_label(m, prev)}]]" if y != prev else f"[[{m['id']}]]")
-            prev = y
-        n = "; ".join(shown)
-        if members and not members[-1]["when"].endswith("."):
-            n += "."
-    if n:
+    if is_thread:                       # the dates by year, and across the divide (tools/bib/calsplit.py)
+        dates = calsplit.thread_dates_html(lst, slug, members, esc)
+        if dates:
+            parts.append(f'<span class="n">{dates}</span>')
+    elif n:
         parts.append(f'<span class="n">{text_html(n, "n")}</span>')
     if rubric is not None and lst.kind == "calendar" and e.get("thread"):
         prog = program_html(series, lst, e, year, text_html)
@@ -197,7 +200,7 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
         parts.append(f'<span class="gl">{paras}</span>')
     if e.get("conflict"):
         parts.append('<span class="n"><b>Unresolved merge conflict.</b></span>')
-    return f'<li id="{attr(e["id"])}"{extra_attrs}>' + "".join(parts) + extra_spans + "</li>"
+    return f'<li id="{attr(anchor)}"{extra_attrs}>' + "".join(parts) + extra_spans + "</li>"
 
 
 def headings(lst, sec, idfmt):
@@ -219,7 +222,8 @@ def section_body(series, lst, sec, idfmt, text_html, li_extra=None):
         def li(e, rub):
             a, s = li_extra(sec, e) if li_extra else ("", "")
             return entry_html(series, lst, sec, e, text_html, a, s, rub)
-        out.extend(daybook.section_days(lst, sec, li, thread_name))
+        before, after = calsplit.seam(lst, sec)
+        out.extend([before] + daybook.section_days(lst, sec, li, thread_name) + [after])
     elif sec.entries:
         out.append('<ol class="e">')
         for e in sec.entries:
@@ -233,7 +237,37 @@ def section_body(series, lst, sec, idfmt, text_html, li_extra=None):
 
 # ---------------------------------------------------------------- one list, standalone
 
-def build_list(series, key, linker=None):
+def half_sections(lst, half):
+    """The top sections a half of the calendar shows: its own, and the threads section holding only the threads with
+    entries in the half (in the second, under its own id, so both can stand in the reader)."""
+    import copy
+    if not half or not calsplit.cfg(lst):
+        return lst.sections
+    out = []
+    members = thread_members(lst)
+    for s in calsplit.sections(lst, half):
+        if calsplit.half_of_section(lst, s) is None:
+            c = copy.copy(s)
+            c.entries = [e for e in s.entries if not e["id"].startswith(f"{lst.key}.thread.")
+                         or any(calsplit.half_of_date(lst, m["date"]) == half
+                                for m in members.get(e["id"].split(".", 2)[2], []))]
+            if half == 2:
+                c.id = f"{s.id}2"
+            out.append(c)
+        else:
+            out.append(s)
+    return out
+
+
+def page_text(lst, half):
+    """The page's own fields (title, heading, lede, logic): the list's, or for the second half the split's."""
+    d = dict(lst.data)
+    if half == 2 and calsplit.cfg(lst):
+        d.update({k: v for k, v in calsplit.cfg(lst).items() if k in ("page_title", "h1", "lede", "logic")})
+    return d
+
+
+def build_list(series, key, linker=None, half=None):
     lst = series.lists[key]
     from . import namelinks
 
@@ -261,19 +295,20 @@ def build_list(series, key, linker=None):
             t = linker.names_markup(t, key, internal=False)
         return to_html(t, resolve)
 
-    main = [f"<h1>{esc(lst.data['h1'])}</h1>"]
-    if lst.data.get("lede"):
-        main.append(f'<p class="lede">{text_html(lst.data["lede"], "lede")}</p>')
-    for p in store.as_list(lst.data.get("logic")):
+    data = page_text(lst, half)
+    main = [f"<h1>{esc(data['h1'])}</h1>"]
+    if data.get("lede"):
+        main.append(f'<p class="lede">{text_html(data["lede"], "lede")}</p>')
+    for p in store.as_list(data.get("logic")):
         main.append(f'<p class="logic">{text_html(p, "logic")}</p>')
     main.append('<p class="logic">To navigate, use the Outline button, the contents below, or the handle on the right edge, which you can drag to see nearby headings. '
                 'All the lists in one reader: <a href="series.html">the series</a>. Each Congress at its opening: <a href="congress.html">Congress</a>. '
                 'The Executive Branch at each inauguration: <a href="executive.html">Executive</a>.</p>')
     main.append('<nav class="toc" aria-label="Contents">\n<h3 id="contents" style="border-top:0;margin-top:1.5rem" data-short="Contents">Contents</h3>\n<ol id="tocList"></ol>\n</nav>')
-    for s in lst.sections:
+    for s in half_sections(lst, half):
         main.extend(section_body(series, lst, s, lambda sec: attr(sec.id), text_html))
     page = open(os.path.join(TEMPLATES, "list.html"), encoding="utf-8").read()
-    page = page.replace("{{page_title}}", esc(lst.data["page_title"])).replace("{{main}}", "\n".join(main))
+    page = page.replace("{{page_title}}", esc(data["page_title"])).replace("{{main}}", "\n".join(main))
     return page.replace("<head>", "<head>\n" + source_note(series, f"lists/{key}/"), 1)
 
 
@@ -620,28 +655,36 @@ def build_series(series):
     linker = Linker(series)
     body = []
     meta, order = {}, ["home"]
+    calsplit.CUR["mode"] = "series"
     for lst in series.lists.values():
         m = lst.meta
-        meta[lst.key] = {"abbr": m["abbr"], "title": m["title"], "span": m.get("span", ""), "group": m.get("group", "")}
-        order.append(lst.key)
-        idfmt = linker.sec_id
-        out = [f'<section class="list" id="L-{lst.key}" data-key="{lst.key}" hidden><h1 id="{lst.key}--top">{esc(lst.data["h1"])}</h1>']
-        prose = linker.text_html(lst, None, None)
-        if lst.data.get("lede"):
-            out.append(f'<p class="lede">{prose(lst.data["lede"], "lede")}</p>')
-        for p in store.as_list(lst.data.get("logic")):
-            out.append(f'<p class="logic">{prose(p, "logic")}</p>')
+        split = calsplit.cfg(lst) if lst.kind == "calendar" else None
+        for half in ((1, 2) if split else (None,)):
+            key = lst.key if half != 2 else split["page"]
+            data = page_text(lst, half)
+            if half == 2:
+                meta[key] = {"abbr": split.get("abbr", m["abbr"]), "title": split.get("title", m["title"]),
+                             "span": split.get("span", ""), "group": m.get("group", "")}
+            else:
+                meta[key] = {"abbr": (split or {}).get("abbr1", m["abbr"]), "title": (split or {}).get("title1", m["title"]),
+                             "span": (split or {}).get("span1", m.get("span", "")), "group": m.get("group", "")}
+            order.append(key)
+            calsplit.CUR["half"] = half
+            out = [f'<section class="list" id="L-{key}" data-key="{key}" hidden><h1 id="{key}--top">{esc(data["h1"])}</h1>']
+            prose = linker.text_html(lst, None, None)
+            if data.get("lede"):
+                out.append(f'<p class="lede">{prose(data["lede"], "lede")}</p>')
+            for p in store.as_list(data.get("logic")):
+                out.append(f'<p class="logic">{prose(p, "logic")}</p>')
 
-        def text_html_for(sec):
-            return linker.text_html(lst, sec, None)
+            def li_extra(sec, e):
+                return f' data-sec="{linker.sec_id(sec)}"', linker.elsewhere(lst, sec, e)
 
-        def li_extra(sec, e):
-            return f' data-sec="{idfmt(sec)}"', linker.elsewhere(lst, sec, e)
-
-        for s in lst.sections:
-            out.extend(_section_series(series, lst, s, linker, li_extra))
-        out.append("</section>")
-        body.append("\n".join(out))
+            for s in half_sections(lst, half):
+                out.extend(_section_series(series, lst, s, linker, li_extra))
+            out.append("</section>")
+            body.append("\n".join(out))
+    calsplit.CUR.update(half=None, mode="list")
     meta["home"] = {"abbr": "Series", "title": series.data["title"], "span": "", "group": ""}
     meta["nx"] = {"abbr": "Names", "title": series.data["names_index"]["title"], "span": "", "group": ""}
     order.append("nx")
@@ -659,10 +702,17 @@ def build_series(series):
         groups.setdefault(lst.meta.get("group", ""), []).append(lst)
     for g, lsts in groups.items():
         gid = "home--" + (g.split("–")[0] if g else "other")
-        home.append(f'<h2 id="{gid}" data-short="{attr(g)}">{esc(g)}</h2><ol class="e lists">' + "".join(
-            f'<li><a class="lk" href="#{l.key}--top"><span class="ab">{esc(l.abbr)}</span>'
-            f'<span class="tt">{esc(l.meta["title"])}, {esc(l.meta.get("span", ""))}</span></a>'
-            f'<span class="r">{sum(1 for _ in l.entries())} entries</span></li>' for l in lsts) + "</ol>")
+        lines = []
+        for l in lsts:
+            halves = (1, 2) if l.kind == "calendar" and calsplit.cfg(l) else (None,)
+            for half in halves:
+                k = l.key if half != 2 else calsplit.cfg(l)["page"]
+                n = sum(1 for s, e in l.entries() if half is None or calsplit.half_of_entry(l, s, e) == half
+                        and not e["id"].startswith(f"{l.key}.thread."))
+                lines.append(f'<li><a class="lk" href="#{k}--top"><span class="ab">{esc(meta[k]["abbr"])}</span>'
+                             f'<span class="tt">{esc(meta[k]["title"])}, {esc(meta[k].get("span", ""))}</span></a>'
+                             f'<span class="r">{n} entries</span></li>')
+        home.append(f'<h2 id="{gid}" data-short="{attr(g)}">{esc(g)}</h2><ol class="e lists">' + "".join(lines) + "</ol>")
     home.append('<h2 id="home--nx" data-short="Names">Names</h2><ol class="e lists"><li><a class="lk" href="#nx--top">'
                 f'<span class="ab">Names</span><span class="tt">Every person across the {NUMBERS.get(len(series.lists), len(series.lists))} lists, merged</span></a>'
                 f'<span class="r">{n_people} names</span></li></ol>')
@@ -692,7 +742,8 @@ def _section_series(series, lst, sec, linker, li_extra):
         def li(e, rub):
             a, s = li_extra(sec, e)
             return entry_html(series, lst, sec, e, linker.text_html(lst, sec, e), a, s, rub)
-        out.extend(daybook.section_days(lst, sec, li, thread_name))
+        before, after = calsplit.seam(lst, sec)
+        out.extend([before] + daybook.section_days(lst, sec, li, thread_name) + [after])
     elif sec.entries:
         out.append('<ol class="e">')
         for e in sec.entries:
@@ -708,24 +759,41 @@ def run(series, which=None):
     os.makedirs(OUT, exist_ok=True)
     written = []
     PAGES = ("series", "congress", "executive", "names", "lives")
+    for l in series.lists.values():       # the calendar's second half is built with its first
+        if which and l.kind == "calendar" and calsplit.cfg(l) and which == calsplit.cfg(l)["page"]:
+            which = l.key
     keys = [which] if which and which not in PAGES else ([] if which in PAGES else list(series.lists))
     from . import congress, executive, indicators
     daybook.SERIES = series                  # the FRUS senders' name entries
     linker = None
+    cal = next((l for l in series.lists.values() if l.kind == "calendar"), None)
+
+    def routed(page, own=None):          # links into the calendar's other half (tools/bib/calsplit.py)
+        return calsplit.route(page, cal, own) if cal is not None else page
     for k in keys:
-        path = os.path.join(OUT, f"{k}.html")
-        linker = linker or Linker(series)
-        page = build_list(series, k, linker)
-        if series.lists[k].kind == "calendar":
+        lst = series.lists[k]
+        halves = (1, 2) if lst.kind == "calendar" and calsplit.cfg(lst) else (None,)
+        for half in halves:
+            name = k if half != 2 else calsplit.cfg(lst)["page"]
+            path = os.path.join(OUT, f"{name}.html")
             linker = linker or Linker(series)
-            page = congress.inject(page, series, linker, "list")
-            page = executive.inject(page, series, linker, "list")
-            page = specials.inject(page, series)
-            page = primaries.inject(page, series)
-            page = indicators.inject(page, series, "list")
-            page = daybook.inject(page)
-        smart.write(path, page)
-        written.append(path)
+            calsplit.CUR.update(half=half, mode="list")
+            page = build_list(series, k, linker, half)
+            if lst.kind == "calendar":
+                page = congress.inject(page, series, linker, "list")
+                page = executive.inject(page, series, linker, "list")
+                page = specials.inject(page, series)
+                page = primaries.inject(page, series)
+                page = indicators.inject(page, series, "list")
+                page = daybook.inject(page)
+                if half:
+                    page = page.replace("</head>", calsplit.STYLE + "\n</head>", 1)
+                    page = routed(page, half)
+            else:
+                page = routed(page)
+            calsplit.CUR.update(half=None)
+            smart.write(path, page)
+            written.append(path)
     if which in (None, "series"):
         page, linker = build_series(series)
         page = congress.inject(page, series, linker, "series")
@@ -734,6 +802,7 @@ def run(series, which=None):
         page = primaries.inject(page, series)
         page = indicators.inject(page, series, "series")
         page = daybook.inject(page)
+        page = page.replace("</head>", calsplit.STYLE + "\n</head>", 1)
         path = os.path.join(OUT, "series.html")
         smart.write(path, page)
         written.append(path)
@@ -742,20 +811,20 @@ def run(series, which=None):
         page = congress.page(series, linker, os.path.join(TEMPLATES, "list.html"))
         if page:
             path = os.path.join(OUT, "congress.html")
-            smart.write(path, page)
+            smart.write(path, routed(page))
             written.append(path)
     if which in (None, "executive"):
         linker = linker or Linker(series)
         page = executive.page(series, linker, os.path.join(TEMPLATES, "list.html"))
         if page:
             path = os.path.join(OUT, "executive.html")
-            smart.write(path, page)
+            smart.write(path, routed(page))
             written.append(path)
     if which in (None, "names", "lives"):
         from . import lives
         linker = linker or Linker(series)
         for name, page in lives.pages(series, linker, os.path.join(TEMPLATES, "list.html")).items():
             path = os.path.join(OUT, name)
-            smart.write(path, page)
+            smart.write(path, routed(page))
             written.append(path)
     return written

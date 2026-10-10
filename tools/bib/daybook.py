@@ -32,7 +32,7 @@ STYLE:
  5. An abstract, where there is one, on its own line under the title: one sentence, the brief's
     register (what the document is and says; no judgment).
  6. The Sunday interview programs, one muted line under the date and the Times: "Face the Nation (CBS): John F.
-    Kennedy. Meet the Press (NBC): Hubert H. Humphrey.", Face the Nation first, each guest linked to his name entry; each
+    Kennedy; Meet the Press (NBC): Hubert H. Humphrey", no closing stop, Face the Nation first, each guest linked to his name entry; each
     program's source on hover; a Check in italics where the TV listings name another guest.
  7. Recordings, a third list after APP and FRUS: PRDE's title (linked to its page; reading it needs the Edition's
     subscription), the time in grey, then "PRDE" and the tape cite in grey ("Conversation WH6407-11-4288"). No
@@ -116,10 +116,10 @@ def program_html(r):
     if r.get("note"):
         who = f'{esc(r["note"])}: {who}'
     src = (f'Library of Congress, Prints and Photographs, Spivak visual materials, LOT {r["lot"]}' if r.get("lot")
-           else "Face the Nation: The Collected Transcripts, Index (1972)" if r.get("src") == "FTN index"
+           else "Face the Nation, 1954–1970: Index (1972)" if r.get("src") == "FTN index"
            else "TV listings")
     check = f' <span class="tvc">{esc(r["check"])}</span>' if r.get("check") else ""
-    return f'<span title="{esc(src)}"><i>{esc(r["show"])}</i> ({esc(r["network"])}): {who}.</span>{check}'
+    return f'<span title="{esc(src)}"><i>{esc(r["show"])}</i> ({esc(r["network"])}): {who}</span>{check}'
 
 
 def day_label(d, year=True):
@@ -155,8 +155,10 @@ def rubric(lst, e, thread_name):
     single = len(d) == 10 and end_of(e) == datetime.date.fromisoformat(d)
     when = (f'<span class="rw same">, {esc(e["when"])}</span>' if single
             else f'<span class="rw">, {esc(e["when"])}</span>')
+    from . import calsplit
     slugs = [e["thread"]] + e.get("also", [])
-    linked = [f'<a class="rt" href="#cal.thread.{esc(s)}">{esc(n)}</a>' for s, n in zip(slugs, names)]
+    half = calsplit.half_of_date(lst, e.get("date", "")) if calsplit.cfg(lst) else 1
+    linked = [f'<a class="rt" href="#{esc(calsplit.thread_anchor(lst, s, half))}">{esc(n)}</a>' for s, n in zip(slugs, names)]
     return f'<span class="s rub">{" · ".join(linked)}{when}</span>'
 
 
@@ -261,7 +263,7 @@ def section_days(lst, sec, entry_li, thread_name):
             h.append(f'<a class="tm" href="{TM.format(y=d.year, m=d.month, d=d.day)}"><i>New York Times</i></a>')
         tv = sorted(programs().get(iso, []), key=lambda r: r["show"] != "Face the Nation")
         if tv:                               # the day's programs on one line, Face the Nation first
-            h.append('<span class="tv">' + " ".join(program_html(r) for r in tv) + "</span>")
+            h.append('<span class="tv">' + "; ".join(program_html(r) for r in tv) + "</span>")
         h.append("</div>")
         if d in running:
             h.append('<p class="cont">Continuing: ' + "; ".join(

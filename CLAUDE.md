@@ -57,7 +57,9 @@ So every calendar entry has:
 Each thread in `th.yaml` has a brief statement (`c`), as the owner asked: what the thread is, and its stations, in
 one or two clipped sentences. Every thread is its matter as Washington met it, but the statements don't say so; that framing, and the scopes
 taken out of the statements, are in `notes/threads.md`. `th.yaml` keeps the threads in alphabetical order of their
-names (War on poverty under "poverty"; `check` warns otherwise).
+names (War on poverty under "poverty"; `check` warns otherwise). The calendar is built in two halves (below, "The
+calendar in two halves"): a thread with entries in both carries `c2`, its statement for the second, and `c` speaks to
+the first alone; the scope stays the same in both, the stations each half's own.
 
 `./bib audit-cal` checks the dated entries against these rules and writes `notes/calendar-audit.md`: persons in `c`
 in neither `Names:` nor a `name:` tag, entries with neither a bibliography nor a `See`, entries with no primary record or with one
@@ -123,7 +125,7 @@ tools/executive/          the one-time script that seeded executive/ from POCOM
 | kja  | K–J Adm.  | Kennedy and Johnson administrations, 1961–69 |
 | kjc  | K–J Cong. | Congress, the nation, and the states, 1961–69 |
 | opp  | Opp.      | The Republican opposition, 1961–69           |
-| cal  | Cal.      | Calendar, Jan. 1961–Jan. 10, 1966 (87th and 88th Congresses; the 89th's first session); the primaries, 1960–76 |
+| cal  | Cal.      | Calendar, Jan. 1961–Jan. 10, 1966 (87th and 88th Congresses; the 89th's first session); the primaries, 1960–76; built as two pages, Cal. I (`cal.html`, to Jan. 2, 1963) and Cal. II (`cal63.html`) |
 | l68  | 1968      | The 1968 campaign ("the 1968 list")          |
 | adm  | Adm.      | Nixon and his administration, 1969–74        |
 | cong | Cong.     | Congress, the nation, and the states, 1969–74 |
@@ -133,7 +135,7 @@ tools/executive/          the one-time script that seeded executive/ from POCOM
 Parts: I portrayals, II sources, III names. A reference like "K–J Adm. II.D"
 is `lists/kja/II.D.yaml`. The calendar's files are named by month: `apr.yaml`
 for 1961, `apr62.yaml` for 1962, `apr63.yaml` for 1963, `apr64.yaml` for 1964, `apr65.yaml` for 1965 (`dec62.yaml` runs to
-Jan. 3, 1963; `dec63.yaml`, to Jan. 7, 1964; `jan64.yaml` from Jan. 8; `jan66.yaml` is Jan. 1–10, 1966), plus `th.yaml` (threads) and
+Jan. 2, 1963, `jan63.yaml` from Jan. 3; `dec63.yaml`, to Jan. 7, 1964; `jan64.yaml` from Jan. 8; `jan66.yaml` is Jan. 1–10, 1966), plus `th.yaml` (threads) and
 `pro.yaml` (prologue); the primary seasons, `mar60.yaml`–`jul60.yaml` before the prologue and `mar68.yaml`–`aug76.yaml`
 after Jan. 1966, hold only the primaries and the conventions' openings for now. Its sections are numbered straight
 through, I to LXXXVII, in date order.
@@ -323,7 +325,7 @@ entry (the rule name is printed in brackets), e.g. `ok:thread-first`.
 two-thirds lines), a House map by district, a Senate map by state, and rosters
 by state with pointers to Part III and the calendar entries that name each
 member. All seven are on `build/congress.html`. A calendar entry tagged
-`congress:<NN>` carries that Congress's block in `cal.html` and the reader;
+`congress:<NN>` carries that Congress's block in the calendar's pages and the reader;
 now the Jan. 3, 1961 and Jan. 3, 1963 entries.
 
 The rosters come from unitedstates/congress-legislators by
@@ -366,7 +368,7 @@ Biographical Directory where it matters), and a change of party in office, with 
 `./bib build` writes `build/executive.html`: the Executive Branch at each inauguration (1953, 1957, 1961,
 1965, 1969, 1973) and at the successions of Nov. 22, 1963, and Aug. 9, 1974, with every change during each
 term, through Aug. 31, 1974. A calendar entry tagged `executive:<YYYY-MM-DD>` (a term's first day) carries
-that term's block in `cal.html` and the reader; now Jan. 20, 1961, and Nov. 22, 1963.
+that term's block in the calendar's pages and the reader; now Jan. 20, 1961, and Nov. 22, 1963.
 
 ```
 executive/<unit>.yaml         one unit (department, agency, office of the President): its offices, in order,
@@ -877,9 +879,29 @@ tools/bib/indicators.py       renders them (ORDER, GROUP) and checks them
 - `check` fails on a bad period, a first-reported figure without a release
   date, or a transcribed figure without a source.
 
+## The calendar in two halves
+
+One list in the data (`lists/cal/`), two pages in the build, parted at the 88th Congress's opening: `cal.html` (Cal. I,
+the prologue and primaries of 1960 to Jan. 2, 1963) and `cal63.html` (Cal. II, Jan. 3, 1963 on); in the reader, two
+blocks. `split:` in `lists/cal/list.yaml` gives the date the second begins (`from`), its page, and its own page_title,
+h1, lede, logic, abbr and title (`abbr1`, `title1`, `span1` for the first). A dated section goes to the half its first
+day falls in; the threads section is in both. `tools/bib/calsplit.py` (STYLE notes at the top):
+
+- Each half's thread index lists the threads with entries in it, with that half's statement (`c`; `c2` in the
+  second where the thread is in both) and its dates by year: the year unlinked, in the sans, a little heavier
+  ("**1961** Jan. 23, Feb. 20; **1962** …"). Across the divide, muted: in the first, after its dates, the year and date
+  of the thread's next entry in the second ("; 1963 Jan. 14."), the year linked to the thread in the second's index,
+  the date to the entry; in the second, before its dates, the last entry in the first, linked the same way.
+- The second half's thread entries are anchored `cal63.thread.<slug>`; a rubric links to its own half's index.
+- At the seam, muted: "‹ Jan. 2, 1963, in the first calendar" at the head of Jan. 3; "Jan. 3, 1963, in the second
+  calendar ›" at the foot of Jan. 2.
+- Links: write `[[id]]` as ever. The build routes a link whose anchor is in the other half to that page, on the
+  calendar's pages and on every other page (`cal.html#X` → `cal63.html#X`); `./bib links` checks both.
+- `./bib build cal` (or `cal63`) builds both halves.
+
 ## The calendar by day
 
-Each dated section of the calendar (a month) is laid out by day, in `cal.html` and the
+Each dated section of the calendar (a month) is laid out by day, in both calendar pages and the
 series reader alike: the month's undated entries, then every day from the section's first
 to its last. A day shows its date, "*New York Times*" under it (a TimesMachine link by
 date only; "No *New York Times* (strike)" from Dec. 8, 1962 to Mar. 31, 1963), the entries that begin
@@ -927,8 +949,11 @@ tools/bib/daybook.py            lays the calendar out by day (STYLE notes at the
   the line carries "Listings: … Check." *Face the Nation* (CBS), Nov. 1959–1970: the index volume of *Face the Nation:
   The Collected Transcripts* (Holt, 1972), its chronological list: the date and the guests' names only (its topics and
   offices are CBS's text); the copy read is the owner's, not kept in the repo. *Issues and Answers* (ABC) is not yet in.
-  A day's programs share one line, Face the Nation first ("*Face the Nation* (CBS): John F. Kennedy. *Meet the Press*
-  (NBC): Hubert H. Humphrey."). Each name entry lists the person's programs ("Television interviews"). Guests and recording speakers are matched to persons by `person_named`
+  A day's programs share one line, Face the Nation first, a semicolon between, no closing stop ("*Face the Nation* (CBS):
+  John F. Kennedy; *Meet the Press* (NBC): Hubert H. Humphrey"). Each name entry lists the person's programs
+  ("Television interviews"), and under the list one line a program for its source ("*Face the Nation* interviews from
+  *Face the Nation, 1954–1970: Index* (1972)."), not a cite on each item. An office the index gives a guest goes into
+  the Life only where asked (`FTN_ROLES` in `make_sunday.py`: Percy, 1960), cited to the index by page. Guests and recording speakers are matched to persons by `person_named`
   in `tools/bib/lives.py`.
 - Recordings: the White House tapes the Miller Center's Presidential Recordings Digital Edition (PRDE) catalogues,
   Kennedy's from July 1962 and Johnson's, a third list after APP and FRUS: PRDE's title, linked to its page, the time,
