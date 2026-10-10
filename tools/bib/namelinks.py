@@ -26,15 +26,32 @@ def index(series):
     return L.cached("name-links", make)
 
 
+def folded(series):
+    """{name folded (no accents, case or punctuation): (url, the person's name)}, where the fold is one person's: a
+    name a source writes without its diacritics ('Trinh Minh The') and another with them ('Trình Minh Thế')."""
+    def make():
+        out = {}
+        for n, hit in index(series).items():
+            out.setdefault(L.fold(n), set()).add(hit)
+        return {k: next(iter(v)) for k, v in out.items() if len(v) == 1}
+    return L.cached("name-links-folded", make)
+
+
+def _hit(series, name):
+    bare = re.sub(r"\s*\([^)]*\)\s*$", "", name).strip()
+    return (index(series).get(bare) or index(series).get(name) or folded(series).get(L.fold(bare))
+            or folded(series).get(L.fold(name)))
+
+
 def url(series, name):
     """The name entry's address for a name as Part III or the rosters write it, or None."""
-    hit = index(series).get(re.sub(r"\s*\([^)]*\)\s*$", "", name).strip()) or index(series).get(name)
+    hit = _hit(series, name)
     return (L.SITE + hit[0]) if hit else None
 
 
 def person(series, name):
     """The name the person's entry is filed under, or None."""
-    hit = index(series).get(re.sub(r"\s*\([^)]*\)\s*$", "", name).strip()) or index(series).get(name)
+    hit = _hit(series, name)
     return hit[1] if hit else None
 
 

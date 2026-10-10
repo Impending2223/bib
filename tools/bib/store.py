@@ -149,7 +149,7 @@ def dump_yaml(obj, path, header=None):
 # ---------------------------------------------------------------- ids and keys
 
 def slug(text, maxwords=6):
-    t = unicodedata.normalize("NFKD", text)
+    t = unicodedata.normalize("NFKD", text.replace("Đ", "D").replace("đ", "d"))   # Đ has no decomposition
     t = "".join(ch for ch in t if not unicodedata.combining(ch))
     t = t.lower().replace("&", " and ").replace("'", "").replace("’", "")
     words = re.findall(r"[a-z0-9]+", t)

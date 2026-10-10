@@ -212,6 +212,9 @@ def run(series, only=None):
         if keys != sorted(keys):
             bad = next(n for n, k, w in zip(names, keys, sorted(keys)) if k != w)
             add(WARN, f"lists/{lst.key}/th.yaml", f"threads out of alphabetical order at {bad!r}", "thread-order")
+    # Vietnamese names with their diacritics, but where a quotation, a title or a byline prints none
+    for where, bare in plain_vietnamese(series):
+        add(WARN, where, f"{bare!r} without its diacritics (sources/name-forms.yaml, VIET_PLACES)", "diacritics")
     # the hand-kept files keep the keyboard's quotation marks; the build curls them (smart.py)
     for path, n in curly_files():
         add(WARN, path, f"{n} curly quotation mark{'s' if n > 1 else ''}; write ' and \" (the build curls them)",
@@ -226,6 +229,59 @@ HAND = ["lists/**/*.yaml", "executive/*.yaml", "daybook/abstracts.yaml", "electi
         "elections/readings/*.yaml", "congress/specials-state.yaml", "congress/specials-cq.yaml",
         "congress/switches.yaml", "sources/gallup-approval.yaml", "sources/states.yaml",
         "sources/executive-sources.yaml"]
+
+
+# Places in Vietnam the series writes with their diacritics; the English names stay (Saigon, Hanoi, Haiphong, Cholon,
+# Dalat, Vietnam, Tonkin, the Mekong, the Ho Chi Minh Trail). Persons: the keys of sources/name-forms.yaml.
+VIET_PLACES = ["Ấp Bắc", "Bến Cát", "Biên Hòa", "Bình Dương", "Bình Giã", "Cẩm Nê", "Chánh Hòa", "Chấp Lễ", "Đà Nẵng",
+               "Đồng Hới", "Hòn Mê", "Hòn Ngư", "Huế", "Qui Nhơn", "An Khê", "Quảng Khê", "Vạn Tường", "Vũng Tàu",
+               "Xóm Bàng", "Điện Biên Phủ", "Mỹ Lai", "Bến Tre", "Nam Định", "Định Tường", "Trảng Bàng", "An Hòa",
+               "Tây Ninh", "Đồng Xoài", "Bình Định", "Quảng Ngãi", "Quảng Trị", "Kon Tum", "Ban Mê Thuột"]
+VIET = set("ăâđêôơưĂÂĐÊÔƠƯạảấầẩẫậắằẳẵặẹẻẽếềểễệỉịọỏốồổỗộớờởỡợụủứừửữựỳỵỷỹ")
+
+
+def plain_vietnamese(series):
+    """(id, plain form) for each Vietnamese name the calendar or a Part III entry writes without its diacritics, outside
+    a quotation, an italic title, a link, and the byline of a work whose title has none (Ky, *Twenty Years*)."""
+    import os
+    forms = store.load_yaml(os.path.join(store.ROOT, "sources", "name-forms.yaml")) or {}
+    marked = [k for k in forms if any(c in VIET for c in k)] + VIET_PLACES
+    plain = {}
+    for k in marked:
+        p = store.fold(k)
+        plain.setdefault(p, k)
+        w, pw = k.split()[-1], p.split()[-1]
+        titled = [f for f in forms.get(k) or [] if "," not in f and store.fold(f).split()[-1:] == [pw]
+                  and not set(store.fold(f).split()[:-1]) & set(p.split())]
+        if store.fold(w) != w.lower() and titled:
+            plain.setdefault(pw, w)                 # the name he went by, as a title form gives it: President Diem
+    rx = re.compile(r"(?<![\w-])(" + "|".join(sorted((re.escape(" ".join(w.capitalize() for w in p.split()))
+                                                       for p in plain), key=len, reverse=True)) + r")(?![\w-])")
+    prot = re.compile(r"\*[^*]+\*|\"[^\"]*\"|\[[^\]]*\]\([^)]*\)|https?://\S+")
+    byline = re.compile(r"(?:\s*(?:&|and)\s*[^,;*()\[\]]{2,60}?)?(?: et al\.)?, \*([^*]+)\*")
+    out = []
+    for lst in series.lists.values():
+        for sec, e in lst.entries():
+            people = (sec.code or "").startswith("III")
+            if lst.kind != "calendar" and not people:
+                continue
+            for f in ("c", "n", "r", "s") if lst.kind == "calendar" or people else ():
+                if f == "c" and lst.kind != "calendar":
+                    continue
+                for text in store.as_list(e.get(f)):
+                    if not isinstance(text, str):
+                        continue
+                    spans = [m.span() for m in prot.finditer(text)]
+                    for m in rx.finditer(text):
+                        if any(a <= m.start() < b for a, b in spans):
+                            continue
+                        if m.group(1) == "Ky" and text[m.end():m.end() + 1] == ".":
+                            continue                # Kentucky
+                        b = byline.match(text, m.end())
+                        if b and not any(c in VIET for c in b.group(1)):
+                            continue
+                        out.append((e["id"], m.group(1)))
+    return out
 
 
 def curly_files():

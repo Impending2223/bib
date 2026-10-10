@@ -220,6 +220,14 @@ a detail to verify. In the calendar the first entry of each event carries its
 bibliography and later ones point back with `See [[id]]`; a thread's first entry is its first event's. Bibliography sections
 are chronological by publication unless their intro says "Alphabetical".
 
+Vietnamese names and places carry their diacritics (Ngô Đình Diệm; Diệm, Khánh, Kỳ; Huế, Đà Nẵng), except where the
+verbatim prints none: a quotation, a title, the byline of a work printed without them (Ky, *Twenty Years and Twenty
+Days*; a Vietnamese-language work's byline has them), a writer who publishes without them (Lien-Hang T. Nguyen), the
+FRUS and APP forms. English names stay: Saigon, Hanoi, Haiphong, Cholon, Dalat, Vietnam, Tonkin, the Mekong, Tet, Viet
+Cong, Viet Minh, the Ho Chi Minh Trail. A person's entry in `sources/name-forms.yaml` lists the plain form first, for the
+sources that print it; `check` warns on a plain form in the calendar or Part III ([diacritics]; places: `VIET_PLACES` in
+`tools/bib/check.py`). Keys and anchors fold the marks, Đ to d (`ngo-dinh-diem`).
+
 ## Changing things
 
 **Directly** (you are working in this repo): edit the section file, then
