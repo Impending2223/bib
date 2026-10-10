@@ -16,7 +16,8 @@ that open that day, and the day's documents in a list that opens and closes ("Ex
 STYLE:
  1. Day: "Monday, Apr. 17", bold sans; "New York Times" under it, muted, linked to that day's paper
     (by date only); during the newspaper strike, "No New York Times (strike)".
- 2. Entry: the thread as a rubric on its own line above the first line, muted small capitals in sans;
+ 2. Entry: the thread as a rubric on its own line above the first line, muted small capitals in sans, each thread's
+    name linked to its entry in the thread index at the top, in the rubric's own color, unmarked but on hover;
     other threads after a middle dot; a range or a month-only date after a comma ("Cuba, Apr.
     15–19"). The day's own date is not repeated (it shows in link previews and search).
  3. A ranged entry is filed under its first day; each later day of the range carries a muted
@@ -30,10 +31,9 @@ STYLE:
     filed by its place in the volume says so.
  5. An abstract, where there is one, on its own line under the title: one sentence, the brief's
     register (what the document is and says; no judgment).
- 6. A Sunday interview program, a muted line under the date and the Times: "Meet the Press (NBC): Hubert H. Humphrey
-    and Thruston B. Morton", "Face the Nation (CBS): Debate: Barry M. Goldwater and Eugene J. McCarthy", each guest
-    linked to his name entry; the source on hover; a Check in italics where the TV listings name another guest. A day
-    with two programs has a line for each, Meet the Press first.
+ 6. The Sunday interview programs, one muted line under the date and the Times: "Face the Nation (CBS): John F.
+    Kennedy. Meet the Press (NBC): Hubert H. Humphrey.", Face the Nation first, each guest linked to his name entry; each
+    program's source on hover; a Check in italics where the TV listings name another guest.
  7. Recordings, a third list after APP and FRUS: PRDE's title (linked to its page; reading it needs the Edition's
     subscription), the time in grey, then "PRDE" and the tape cite in grey ("Conversation WH6407-11-4288"). No
     transcript or editorial summary is shown: they are the Edition's text.
@@ -119,7 +119,7 @@ def program_html(r):
            else "Face the Nation: The Collected Transcripts, Index (1972)" if r.get("src") == "FTN index"
            else "TV listings")
     check = f' <span class="tvc">{esc(r["check"])}</span>' if r.get("check") else ""
-    return f'<span class="tv" title="{esc(src)}"><i>{esc(r["show"])}</i> ({esc(r["network"])}): {who}{check}</span>'
+    return f'<span title="{esc(src)}"><i>{esc(r["show"])}</i> ({esc(r["network"])}): {who}.</span>{check}'
 
 
 def day_label(d, year=True):
@@ -155,7 +155,9 @@ def rubric(lst, e, thread_name):
     single = len(d) == 10 and end_of(e) == datetime.date.fromisoformat(d)
     when = (f'<span class="rw same">, {esc(e["when"])}</span>' if single
             else f'<span class="rw">, {esc(e["when"])}</span>')
-    return f'<span class="s rub">{" · ".join(esc(n) for n in names)}{when}</span>'
+    slugs = [e["thread"]] + e.get("also", [])
+    linked = [f'<a class="rt" href="#cal.thread.{esc(s)}">{esc(n)}</a>' for s, n in zip(slugs, names)]
+    return f'<span class="s rub">{" · ".join(linked)}{when}</span>'
 
 
 # ---------------------------------------------------------------- documents
@@ -257,8 +259,9 @@ def section_days(lst, sec, entry_li, thread_name):
             h.append('<span class="tm">No <i>New York Times</i> (strike)</span>')
         else:
             h.append(f'<a class="tm" href="{TM.format(y=d.year, m=d.month, d=d.day)}"><i>New York Times</i></a>')
-        for r in programs().get(iso, []):
-            h.append(program_html(r))
+        tv = sorted(programs().get(iso, []), key=lambda r: r["show"] != "Face the Nation")
+        if tv:                               # the day's programs on one line, Face the Nation first
+            h.append('<span class="tv">' + " ".join(program_html(r) for r in tv) + "</span>")
         h.append("</div>")
         if d in running:
             h.append('<p class="cont">Continuing: ' + "; ".join(
@@ -286,6 +289,8 @@ STYLE = """<style>
 .s.rub{display:block;font-family:var(--sans);font-size:.7rem;font-weight:600;letter-spacing:.06em;
   text-transform:uppercase;color:var(--muted);line-height:1.2;margin:0}
 .s.rub .rw{letter-spacing:.02em}
+.s.rub a.rt{color:inherit;text-decoration:none}
+.s.rub a.rt:hover{text-decoration:underline;text-decoration-color:var(--rule)}
 .tn{display:block;font-family:var(--sans);font-size:.72rem;line-height:1.35;color:var(--muted);margin-top:.15rem}
 .tn .tnl{display:block}
 .tn a{color:var(--muted)}
