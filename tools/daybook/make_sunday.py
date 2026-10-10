@@ -211,15 +211,15 @@ def ftn_headers(text):
 
 def ftn_guests(head):
     """'Debate between SEN. BARRY M. GOLDWATER (R-AZ) and SEN. EUGENE J. McCARTHY (D-MN)' ->
-    (['Goldwater, Barry M.', 'McCarthy, Eugene J.'], 'Debate'). A name is a run of words in capitals (one lower-case
+    (['Goldwater, Barry M.', 'McCarthy, Eugene J.'], None): the index's debates are programs with two guests. A name is a run of words in capitals (one lower-case
     letter allowed: McNAMARA, DeB.), a title before it set aside, a suffix after a comma kept; a run of one word (CORE,
     AFL-CIO) is an office unless it is the whole header (SUKARNO); a name in its own order (NGUYEN-CAO KY) stays so."""
     for a, b in FTN_FIX.items():
         head = head.replace(a, b)
     note = None
-    m = re.match(r"^(Debate)(?: between|:)?\s+", head)
+    m = re.match(r"^Debate(?: between|:)?\s+", head)          # the debates of 1961: two guests, like any other
     if m:
-        note, head = "Debate", head[m.end():]
+        head = head[m.end():]
     if head[:1] in "“\"":
         return [], head.strip("“”\", ")
     head = re.sub(r"[“\"][^”\"]*[”\"]\s*", "", head)                 # a nickname: ERNESTO “CHE” GUEVARA
