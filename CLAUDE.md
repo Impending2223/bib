@@ -804,7 +804,7 @@ years in December, December 1960 in the Prologue). Each row has the figure as
 first reported, its release date, and the figure as revised today.
 
 ```
-indicators/<id>.yaml          one series; rows {p, first, released, chg, unit, now, chg_now, source, est, q, note}
+indicators/<id>.yaml          one series; rows {p, first, released, chg, unit, now, chg_now, source, est, q, note, since}
 tools/indicators/make_indicators.py   writes them: FRED_API_KEY=... python3 tools/indicators/make_indicators.py
                               (without a key, from ALFRED's and FRED's public CSV downloads; the same figures)
 tools/indicators/make_polls.py   Gallup's approval (kind: poll), a reading a row: as released (sources/gallup-approval.yaml,
@@ -827,6 +827,12 @@ tools/bib/indicators.py       renders them (ORDER, GROUP) and checks them
 - Output gap: the CEA's estimates then (from the Reports) and the CBO's now
   (FRED GDPPOT against GDPC1, with its vintage), in separate rows: the concepts
   are not comparable, so each row leaves the other's column "—".
+- Money and credit (between Output and Federal finance; `kind: rate`; RATES and DISCOUNT in the script,
+  `--only rates` to write them alone): the federal funds rate, the prime, the 3-month bill and the 10-year
+  Treasury from FRED, unrevised, so one figure, in "Revised, today", with its change in points; the New York
+  Reserve Bank's discount rate kept by hand from the Board's press releases and the *Bulletin* (FRASER, by page),
+  in "As first reported": in a month it changed, "Released" is the Board's announcement and the effective date
+  follows in grey; otherwise `since` (the date it took effect, on hover). STYLE 13 in `tools/bib/indicators.py`.
 - Changes use one basis in both value columns (CHANGE in the script): monthly
   percent, not annualized; quarterly percent at an annual rate; points; persons.
   CPI, WPI and industrial production also carry the change from a year earlier

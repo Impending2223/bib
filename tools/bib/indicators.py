@@ -49,6 +49,13 @@ STYLE (settled; keep it, and fix anything that drifts from it):
     figure (NOTE in the script) shows after it in grey: "(Q1–Q3, annual rate)".
 12. Definitions (DEFS): what the figure was then, what it is today, and pointers, in the brief's
     register: compact, plain, no judgment of the figures.
+13. Money and credit: interest rates in percent to two decimals, as the Bulletin and H.15 print them, "3.85%";
+    changes in points, "+0.33 pt". Market rates are not revised: one figure, in "Revised, today" (FRED), the
+    other columns "—" (7). The discount rate is set, not measured: its figure in "As first reported", the
+    rate in effect at the month's end; in a month it changed, the change, the Board's announcement in
+    "Released", and the effective date in grey, "4.00%, +0.50 pt (effective Nov. 24)"; in other months
+    "Released" is "—" and the date it took effect shows on hover. An administered rate (discount, prime)
+    shows a change only in a month it changed.
 """
 import calendar
 import datetime
@@ -60,12 +67,15 @@ from .markup import to_html
 
 DIR = os.path.join(store.ROOT, "indicators")
 ORDER = ["cpi", "wpi", "deflator", "unemployment", "payrolls", "industrial-production", "gnp", "real-gnp",
-         "gap-cea", "gap-cbo", "administrative-budget", "cash-budget", "federal-national-accounts",
+         "gap-cea", "gap-cbo", "discount-rate", "federal-funds", "prime-rate", "treasury-bill", "treasury-10-year",
+         "administrative-budget", "cash-budget", "federal-national-accounts",
          "balance-of-payments", "balance-of-payments-regular", "gold-stock", "approval"]
 GROUP = {"cpi": "Prices", "wpi": "Prices", "deflator": "Prices",
          "unemployment": "Employment", "payrolls": "Employment",
          "industrial-production": "Output", "gnp": "Output", "real-gnp": "Output",
          "gap-cea": "Output", "gap-cbo": "Output",
+         "discount-rate": "Money and credit", "federal-funds": "Money and credit", "prime-rate": "Money and credit",
+         "treasury-bill": "Money and credit", "treasury-10-year": "Money and credit",
          "administrative-budget": "Federal finance", "cash-budget": "Federal finance",
          "federal-national-accounts": "Federal finance",
          "balance-of-payments": "International", "balance-of-payments-regular": "International",
@@ -79,6 +89,10 @@ ERP63 = "https://www.govinfo.gov/app/details/SERIALSET-12600_00_00-002-0028-0000
 ERP64 = "https://www.govinfo.gov/app/details/SERIALSET-12658_00_00-002-0278-0000"
 ERP65 = "https://www.govinfo.gov/app/details/SERIALSET-12702_00_00-002-0028-0000"
 F = "https://fred.stlouisfed.org/series/"
+FRB = "https://fraser.stlouisfed.org/title/federal-reserve-bulletin-62/"
+PR = "https://fraser.stlouisfed.org/title/9237/item/"
+FOMC = "https://www.federalreserve.gov/monetarypolicy/files/fomchistmin"
+RATES = {"discount-rate", "federal-funds", "prime-rate", "treasury-bill", "treasury-10-year"}
 A = "https://alfred.stlouisfed.org/series?seid="
 APPROVAL = "https://www.presidency.ucsb.edu/statistics/data/presidential-job-approval"
 DEFS = {
@@ -98,6 +112,11 @@ DEFS = {
     "federal-national-accounts": f"Commerce: federal receipts and expenditures in the national income accounts, seasonally adjusted annual rates; accrual basis, excluding loans and purchases of land and existing assets. Today: BEA's federal current receipts and current expenditures, a narrower and later definition; their balance is not the old surplus or deficit ([FRED]({F}FGRECPT); [FGEXPND]({F}FGEXPND)).",
     "balance-of-payments": f"Commerce: the over-all balance, measured by the change in U.S. gold, convertible currencies, and liquid liabilities to foreigners; seasonally adjusted annual rates. The figure behind the gold and dollar measures of 1961–63. No longer published; no figure today. [*Economic Report*, Jan. 1963]({ERP63}), Table C-78; [Jan. 1964]({ERP64}), Table C-77. From Jan. 1965, the balance on regular transactions, below.",
     "balance-of-payments-regular": f"Commerce: the balance on regular transactions, which the *Economic Report* of Jan. 1965 prints in place of the over-all balance. Before special government transactions: debt prepayments, advances on military exports, and sales of nonmarketable bonds and notes, convertible and not. Seasonally adjusted annual rates. Not comparable with the over-all balance above: for 1962, −$3.6bn on regular transactions, −$2.2bn with all special transactions (Table 7). No longer published; no figure today. [*Economic Report*, Jan. 1965]({ERP65}), Table B-79, p. 283; Table 7, p. 72.",
+    "discount-rate": f"Federal Reserve Bank of New York: the rate on discounts for and advances to member banks (Secs. 13 and 13a), set by the Bank's directors with the Board of Governors' approval; the rate in effect at the month's end. The other eleven Banks' effective dates differ: July 17–26, 1963; Nov. 24–30, 1964. 3 percent from Aug. 12, 1960, after 3½ from June 10 ([*Federal Reserve Bulletin*, July 1960]({FRB}july-1960-21307), p. 756; [Sept. 1960]({FRB}september-1960-21309), p. 1014). 3½ from July 17, 1963, announced July 16 ([Board press release]({PR}697242); [*Bulletin*, Sept. 1963]({FRB}september-1963-21345), p. 1264). 4 from Nov. 24, 1964, announced Nov. 23 ([press release]({PR}697328); [*Bulletin*, Dec. 1964]({FRB}december-1964-21360), pp. 1530–31; [Feb. 1965]({FRB}february-1965-21362), p. 267). Kept by hand; not a revised series.",
+    "federal-funds": f"The effective rate on overnight loans of reserve balances between banks, monthly average of daily figures ([FRED]({F}FEDFUNDS), from the Board's H.15). Then estimated daily by the Federal Reserve Bank of New York from its contacts with banks and brokers in New York City ([*Federal Reserve Bulletin*, Aug. 1964]({FRB}august-1964-21356), p. 953). FRED's figures for 1964 are those the *Bulletin* printed month by month ([Feb. 1965]({FRB}february-1965-21362), p. 286). The Open Market Committee's directives were worded in money market conditions: \"continuing the present degree of firmness in the money market\" ([July 9, 1963]({FOMC}19630709.pdf), p. 77); \"maintaining about the same conditions in the money market as currently prevail\" ([Dec. 15, 1964]({FOMC}19641215.pdf), p. 97).",
+    "prime-rate": f"A base rate the large banks posted for short-term business loans, monthly average of daily figures ([FRED]({F}MPRIME), from the Board's H.15). 4.50 percent each month from Sept. 1960 through Nov. 1965.",
+    "treasury-bill": f"Three-month Treasury bills, secondary market, discount basis, monthly average of business days ([FRED]({F}TB3MS), from the Board's H.15). FRED's figures for 1964 are the market yields the *Federal Reserve Bulletin* printed month by month ([Feb. 1965]({FRB}february-1965-21362), p. 286).",
+    "treasury-10-year": f"Yields on Treasury issues adjusted to a constant maturity of ten years, monthly average of business days ([FRED]({F}GS10), from the Board's H.15). The *Federal Reserve Bulletin* then printed the average yield of Treasury bonds maturing or callable in ten years or more ([Feb. 1965]({FRB}february-1965-21362), p. 286): another measure.",
     "gold-stock": f"Treasury monetary gold stock, end of month, as compiled by NBER from the *Federal Reserve Bulletin* ([FRED]({F}M1476CUSM144NNBR)). Not a revised series; one column.",
 }
 
@@ -238,6 +257,8 @@ def single(sid, v, unit, kind, c, q=None, yoy=None):
         return out + chg_text(kind, c)
     if sid == "gap-cbo":
         return f"{num(v)}% {grey('of potential')}"
+    if sid in RATES:
+        return f"{num(v, 2)}%" + (f", {signed(c, 2)} pt" if c is not None else "")
     b = base_of(unit)
     out = f"{qual}{num(v)}" + (" " + grey(f"({b})") if b else "") + chg_text(kind, c)
     if yoy is not None and c is None:
@@ -268,9 +289,10 @@ def exact(v, unit):
 
 # ---------------------------------------------------------------- the table
 
-def rows_for(data, lo, hi, first_section, next_from=None):
-    """The rows a section files: periods ending within it (and before it, in the first). A month the section ends
-    within (Jan. 1965, the calendar ending Jan. 20) is filed there too, where no later section begins in it."""
+def rows_for(data, lo, hi, prev_to=None, next_from=None):
+    """The rows a section files: periods ending within it, and those ending in the gap since the last dated section
+    (all before it, in the first): Dec. 1960 in the Prologue, after the primary season of 1960. A month the section
+    ends within (Jan. 1965, the calendar ending Jan. 20) is filed there too, where no later section begins in it."""
     out = []
     for sid in ORDER + [k for k in data if k not in ORDER]:
         s = data.get(sid)
@@ -280,7 +302,7 @@ def rows_for(data, lo, hi, first_section, next_from=None):
             end = period_end(r["p"])
             part = (re.match(r"^\d{4}-\d{2}", str(r["p"])) and end.replace(day=1) <= hi < end
                     and (next_from is None or end < next_from))
-            if lo <= end <= hi or (first_section and end < lo) or part:
+            if lo <= end <= hi or (end < lo and (prev_to is None or end > prev_to)) or part:
                 out.append((sid, s, r))
     return out
 
@@ -335,9 +357,10 @@ def poll_row(sid, s, r, year):
     return name, dates(r["from"], r["to"]), first, rel, now
 
 
-def block(data, sec_from, sec_to, first_section, year, next_from=None):
+def block(data, sec_from, sec_to, prev_to, year, next_from=None):
     lo, hi = datetime.date.fromisoformat(sec_from), datetime.date.fromisoformat(sec_to)
-    rows = rows_for(data, lo, hi, first_section, next_from and datetime.date.fromisoformat(next_from))
+    rows = rows_for(data, lo, hi, prev_to and datetime.date.fromisoformat(prev_to),
+                    next_from and datetime.date.fromisoformat(next_from))
     if not rows:
         return ""
     trs, shown, polls = [], set(), []
@@ -358,7 +381,10 @@ def block(data, sec_from, sec_to, first_section, year, next_from=None):
         name = f'<a href="#ind-def-{esc(sid)}">{esc(s["name"])}</a> <span class="per">{esc(period_label(r["p"]))}</span>'
         first = cell_first(sid, s, r, year)
         if "first" in r:
-            first = f'<span title="{esc(exact(r["first"], r.get("unit")))}">{first}</span>'
+            tip = exact(r["first"], r.get("unit"))
+            if r.get("since"):          # a standing rate (STYLE 13): when it took effect, and where it is printed
+                tip += f'; in effect from {date_label(r["since"])}; {r.get("source", "")}'
+            first = f'<span title="{esc(tip)}">{first}</span>'
         rel = "—"
         if r.get("released"):
             src = r.get("source") or (then.get("source") and f'{then["source"]}, released {r["released"]}')
@@ -388,7 +414,7 @@ def defs_block(data):
             '<p class="logic">Under each month: the figures for that month, its quarter, fiscal year, or year, '
             'as first reported and as revised today. Monthly changes from the prior month; quarterly changes '
             'from the prior quarter at an annual rate (ar). "—": no figure in that column; "n.a.": not available in the source. '
-            'Figures in $bn throughout federal finance and international; the source figure shows on hover. '
+            'Figures in $bn throughout federal finance and international; interest rates in percent, their changes in points (pt); the source figure shows on hover. '
             'Data and transcriptions: indicators/ in the repository.</p><dl>'
             + "".join(items) + "</dl></div>")
 
@@ -423,7 +449,7 @@ def inject(page, series, mode):
     data = load()
     if not data:
         return page
-    done = False
+    done = defs_done = False
     for lst in series.lists.values():
         if lst.kind != "calendar":
             continue
@@ -431,13 +457,15 @@ def inject(page, series, mode):
         for i, sec in enumerate(dated):
             year = int(str(sec.extra["to"])[:4])
             hid = f"{lst.key}--{sec.id}" if mode == "series" else sec.id
-            if i == 0:
-                pat0 = re.compile(r'(<h\d id="' + re.escape(hid) + r'")')
-                page, n0 = pat0.subn(lambda m: defs_block(data) + "\n" + m.group(1), page, count=1)
             nxt = str(dated[i + 1].extra["from"]) if i + 1 < len(dated) else None
-            blk = block(data, str(sec.extra["from"]), str(sec.extra["to"]), i == 0, year, nxt)
+            prv = str(dated[i - 1].extra["to"]) if i else None
+            blk = block(data, str(sec.extra["from"]), str(sec.extra["to"]), prv, year, nxt)
             if not blk:
                 continue
+            if not defs_done:                      # the definitions before the first section with figures
+                pat0 = re.compile(r'(<h\d id="' + re.escape(hid) + r'")')
+                page, n0 = pat0.subn(lambda m: defs_block(data) + "\n" + m.group(1), page, count=1)
+                defs_done = bool(n0)
             pat = re.compile(r'(<h\d id="' + re.escape(hid) + r'"[^>]*>.*?</h\d>(?:\s*<p class="logic">.*?</p>)*)', re.S)
             page, n = pat.subn(lambda m: m.group(1) + "\n" + blk, page, count=1)
             done = done or bool(n)
@@ -459,7 +487,7 @@ def problems():
                 period_end(r["p"])
             except Exception:
                 out.append((sid, f"bad period {r.get('p')!r}"))
-            if "first" in r and not r.get("released" if s.get("kind") != "poll" else "published"):
+            if "first" in r and not r.get("released" if s.get("kind") != "poll" else "published") and not r.get("since"):
                 out.append((sid, f"{r['p']}: first-reported figure without a release date"))
             if "first" in r and s.get("manual") and not r.get("source"):
                 out.append((sid, f"{r['p']}: transcribed figure without a source"))
