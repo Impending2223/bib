@@ -31,8 +31,9 @@ STYLE:
  5. An abstract, where there is one, on its own line under the title: one sentence, the brief's
     register (what the document is and says; no judgment).
  6. A Sunday interview program, a muted line under the date and the Times: "Meet the Press (NBC): Hubert H. Humphrey
-    and Thruston B. Morton", each guest linked to his name entry; the source on hover; a Check in italics where the
-    TV listings name another guest.
+    and Thruston B. Morton", "Face the Nation (CBS): Debate: Barry M. Goldwater and Eugene J. McCarthy", each guest
+    linked to his name entry; the source on hover; a Check in italics where the TV listings name another guest. A day
+    with two programs has a line for each, Meet the Press first.
  7. Recordings, a third list after APP and FRUS: PRDE's title (linked to its page; reading it needs the Edition's
     subscription), the time in grey, then "PRDE" and the tape cite in grey ("Conversation WH6407-11-4288"). No
     transcript or editorial summary is shown: they are the Edition's text.
@@ -115,6 +116,7 @@ def program_html(r):
     if r.get("note"):
         who = f'{esc(r["note"])}: {who}'
     src = (f'Library of Congress, Prints and Photographs, Spivak visual materials, LOT {r["lot"]}' if r.get("lot")
+           else "Face the Nation: The Collected Transcripts, Index (1972)" if r.get("src") == "FTN index"
            else "TV listings")
     check = f' <span class="tvc">{esc(r["check"])}</span>' if r.get("check") else ""
     return f'<span class="tv" title="{esc(src)}"><i>{esc(r["show"])}</i> ({esc(r["network"])}): {who}{check}</span>'
