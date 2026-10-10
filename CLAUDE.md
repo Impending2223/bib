@@ -109,8 +109,8 @@ sources/states.yaml       each State's own official election publications, where
 daybook/<YYYY-MM>.yaml    every Public Papers (APP) and FRUS document by date (generated)
 daybook/abstracts.yaml    one-sentence abstracts, keyed by document (kept by hand or agent)
 daybook/recordings/<YYYY-MM>.yaml  every White House recording PRDE catalogues, July 1962–Jan. 10, 1966 (generated)
-daybook/sunday.yaml       the Sunday interview programs and their guests, 1961–Jan. 9, 1966 (generated; Meet the Press so far)
-sources/loc/              the Library of Congress finding-aid pages make_sunday.py reads (Spivak visual materials, pp020019)
+daybook/sunday.yaml       the Sunday interview programs and their guests: Meet the Press, 1945–80; Face the Nation, 1959–70 (generated)
+sources/loc/              the Library of Congress finding aid make_sunday.py reads (Spivak visual materials, pp020019, pp. 1–136)
 executive/<unit>.yaml     the Executive Branch, 1953–74: each department or agency, its offices, their law and holders (kept by hand)
 build/                    generated pages (git-ignored)
 tools/bib/                the code behind ./bib
@@ -894,7 +894,8 @@ day of a ranged entry, and the day's documents, closed by default, with "Expand 
 ```
 tools/daybook/make_daybook.py   writes daybook/<YYYY-MM>.yaml (needs the network; the build does not)
 tools/daybook/make_recordings.py  writes daybook/recordings/<YYYY-MM>.yaml from PRDE's catalogue (needs the network)
-tools/daybook/make_sunday.py      writes daybook/sunday.yaml from the Library's inventory and the TV listings
+tools/daybook/make_sunday.py      writes daybook/sunday.yaml from the Library's inventory, the TV listings, and the
+                                  Face the Nation index (--ftn PATH; without it, its rows already written are kept)
 tools/bib/daybook.py            lays the calendar out by day (STYLE notes at the top) and checks the data
 ```
 
@@ -920,11 +921,12 @@ tools/bib/daybook.py            lays the calendar out by day (STYLE notes at the
 - Sunday programs: a muted line under a Sunday's date, "*Meet the Press* (NBC): Hubert H. Humphrey", each guest linked to
   his name entry, the source on hover. The record: the Library of Congress's inventory of Spivak's photographs of each
   Meet the Press television program (Prints and Photographs, pp020019, LOT 13025), by show date, its guests written as
-  Part III writes names; the pages for Aug. 1959–Jan. 1966 are in `sources/loc/`. The Classic TV Archive's episode
-  guide (from the TV listings, to Aug. 25, 1963) fills a Sunday the inventory lacks; where it names another person, the
-  line carries "Listings: … Check." *Face the Nation* and *Issues and Answers* are not yet in: no list of them could be
-  read here (the printed *Face the Nation* transcripts, Holt, 1972–76, have an index volume). Each name entry lists the
-  person's programs ("Television interviews"). Guests and recording speakers are matched to persons by `person_named`
+  Part III writes names, 1945–80 (radio to 1950); the finding aid is in `sources/loc/`. The Classic TV Archive's episode
+  guides (from the TV listings, 1947–Aug. 25, 1963) fill a Sunday the inventory lacks; where they name another person,
+  the line carries "Listings: … Check." *Face the Nation* (CBS), Nov. 1959–1970: the index volume of *Face the Nation:
+  The Collected Transcripts* (Holt, 1972), its chronological list: the date and the guests' names only (its topics and
+  offices are CBS's text); the copy read is the owner's, not kept in the repo. *Issues and Answers* (ABC) is not yet in.
+  A day with two programs has a line for each. Each name entry lists the person's programs ("Television interviews"). Guests and recording speakers are matched to persons by `person_named`
   in `tools/bib/lives.py`.
 - Recordings: the White House tapes the Miller Center's Presidential Recordings Digital Edition (PRDE) catalogues,
   Kennedy's from July 1962 and Johnson's, a third list after APP and FRUS: PRDE's title, linked to its page, the time,

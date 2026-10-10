@@ -13,7 +13,8 @@ Each entry: the name as Part III writes it, the Directory's description, the poi
   Secondary sources    works on the person: the series' entries, the Directory's bibliography, works citing the name
   Named                FRUS documents that name the person, by volume; presidential documents (APP: the Public
                        Papers and the campaign documents), one a line, by year
-  Television           the Sunday interview programs he was a guest on (daybook/sunday.yaml), by date
+  Television           the Sunday interview programs he was a guest on (daybook/sunday.yaml: Meet the Press, 1945–80;
+                       Face the Nation, 1959–70), by date
   Recordings           the White House recordings PRDE lists the person as a speaker on, one a line, by year
                        (recording_speakers: who is whom)
 
@@ -2366,7 +2367,8 @@ def tv_list(series, name):
         return out
     out = []
     for r in cached("tv-guests", make).get(name, []):
-        src = (f'LOC P&amp;P, Spivak visual materials, LOT {esc(r["lot"])}' if r.get("lot") else "TV listings")
+        src = (f'LOC P&amp;P, Spivak visual materials, LOT {esc(r["lot"])}' if r.get("lot")
+               else "<i>Face the Nation</i>, Index (1972)" if r.get("src") == "FTN index" else "TV listings")
         check = f' {esc(r["check"])}' if r.get("check") else ""
         out.append(f'<i>{esc(r["show"])}</i> ({esc(r["network"])}), {fmt(r["date"])}. '
                    f'<span class="lvc">{a("https://hdl.loc.gov/loc.pnp/eadpnp.pp020019", src) if r.get("lot") else src}'
