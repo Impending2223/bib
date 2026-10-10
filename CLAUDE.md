@@ -942,16 +942,16 @@ tools/bib/daybook.py            lays the calendar out by day (STYLE notes at the
   "authors as persons" in `tools/daybook/make_daybook.py`. Titles are the sources' own;
   nothing is read or summarized by the generator.
 - FRUS citations carry the volume's title: "FRUS 1961–63, XXIV: Laos Crisis, doc. 4".
-- Sunday programs: a muted line under a Sunday's date, "*Meet the Press* (NBC): Hubert H. Humphrey", each guest linked to
-  his name entry, the source on hover. The record: the Library of Congress's inventory of Spivak's photographs of each
+- Sunday programs: a muted line under a Sunday's date, "*Meet the Press*: Hubert H. Humphrey", each guest linked to
+  his name entry, the network and the source on hover. The record: the Library of Congress's inventory of Spivak's photographs of each
   Meet the Press television program (Prints and Photographs, pp020019, LOT 13025), by show date, its guests written as
   Part III writes names, 1945–80 (radio to 1950); the finding aid is in `sources/loc/`. The Classic TV Archive's episode
   guides (from the TV listings, 1947–Aug. 25, 1963) fill a Sunday the inventory lacks; where they name another person,
   the line carries "Listings: … Check." *Face the Nation* (CBS), Nov. 1959–1970: the index volume of *Face the Nation:
   The Collected Transcripts* (Holt, 1972), its chronological list: the date and the guests' names only (its topics and
   offices are CBS's text); the copy read is the owner's, not kept in the repo. *Issues and Answers* (ABC) is not yet in.
-  A day's programs share one line, Face the Nation first, a semicolon between, no closing stop ("*Face the Nation* (CBS):
-  John F. Kennedy; *Meet the Press* (NBC): Hubert H. Humphrey"). Each name entry lists the person's programs
+  A day's programs share one line, Face the Nation first, a semicolon between, no closing stop ("*Face the Nation*:
+  John F. Kennedy; *Meet the Press*: Hubert H. Humphrey"). Each name entry lists the person's programs
   ("Television interviews"), and under the list, on one line, a sentence a program for its source ("*Face the Nation* interviews from
   *Face the Nation, 1954–1970: Index* (1972)."), not a cite on each item. An office the index gives a guest goes into
   the Life only where asked (`FTN_ROLES` in `make_sunday.py`: Percy, 1960), cited to the index by page. Guests and recording speakers are matched to persons by `person_named`

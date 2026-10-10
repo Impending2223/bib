@@ -33,9 +33,9 @@ STYLE:
     filed by its place in the volume says so.
  5. An abstract, where there is one, on its own line under the title: one sentence, the brief's
     register (what the document is and says; no judgment).
- 6. The Sunday interview programs, one muted line under the date and the Times: "Face the Nation (CBS): John F.
-    Kennedy; Meet the Press (NBC): Hubert H. Humphrey", no closing stop, Face the Nation first, each guest linked to his name entry; each
-    program's source on hover; a Check in italics where the TV listings name another guest.
+ 6. The Sunday interview programs, one muted line under the date and the Times: "Face the Nation: John F. Kennedy;
+    Meet the Press: Hubert H. Humphrey", no closing stop, Face the Nation first, each guest linked to his name entry; each
+    program's network and source on hover; a Check in italics where the TV listings name another guest.
  7. Recordings, a third list after APP and FRUS: PRDE's title, linked to the recording's free page and audio at the
     Miller Center; the time in grey, then the tape cite ("Conversation WH6407-11-4288") and "PRDE", linked to the
     Edition's page (its transcripts need a subscription). A recording PRDE does not catalogue shows by the Miller
@@ -134,7 +134,8 @@ def program_html(r):
            else "Face the Nation, 1954–1970: Index (1972)" if r.get("src") == "FTN index"
            else "TV listings")
     check = f' <span class="tvc">{esc(r["check"])}</span>' if r.get("check") else ""
-    return f'<span title="{esc(src)}"><i>{esc(r["show"])}</i> ({esc(r["network"])}): {who}</span>{check}'
+    hover = f'{r["network"]}. {src}' if r.get("network") else src      # the network on hover, not in the line
+    return f'<span title="{esc(hover)}"><i>{esc(r["show"])}</i>: {who}</span>{check}'
 
 
 def day_label(d, year=True):
@@ -264,6 +265,8 @@ def free(docs):
             ys = ys if len(ys) == 1 else [y for y in ys if y.get("tape") == k[0]]
             if len(ys) == 1:
                 take(x, ys[0])
+                for k2 in prde_keys(x):     # the row's other citations ("4291, 4292") are in it: not shown apart
+                    used.update(y["key"] for y in cites.get(k2[1], []) if len(k2) == 2)
                 break
     for x in prde:                      # 2. the day, the time (within twenty minutes), a name in both titles
         if x.get("free") or not x.get("time"):
