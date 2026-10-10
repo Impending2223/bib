@@ -3,14 +3,14 @@
 Written by `./bib audit-cal` (`tools/bib/calaudit.py`): the dated entries checked against the brief in
 CLAUDE.md ("The calendar"). A review list: a hit is a place to look, not an error. Rerun after editing.
 
-1300 dated entries.
+1355 dated entries.
 
 | Check | Entries |
 |---|---|
-| A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 327 |
+| A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 382 |
 | (of which only a President's surname: Eisenhower, Kennedy, Johnson) | 2 |
 | Neither a bibliography of its own nor a `See [[id]]` back | 9 |
-| No primary record linked or named | 456 |
+| No primary record linked or named | 511 |
 | A primary record named but not linked | 0 |
 | Threads (statements listed for review) | 64 |
 
@@ -664,38 +664,149 @@ the person; several mean the surname is shared). "?" marks a surname that is als
 - `cal.1965-01-02.voting-rights` (Jan. 2, LVI jan65.yaml): Selma. King at Brown Chapel, against a State court's injunction on meetings. The campaign to register Dallas C
   - ? Brown: Brown, Edmund G. (K–J Cong. III.F); Brown, Sam (Cong. III.K)
   - ? Black: Black, Hugo L. (K–J Cong. III.G)
+- `cal.1965-01-03.opinion` (Jan. 3, LVI jan65.yaml): Gallup, Dec. 11–16, 1964: a compulsory program of hospital and nursing home insurance for the elderly, paid fo
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-01-10.opinion` (Jan. 10, LVI jan65.yaml): Gallup, Dec. 11–16, 1964: Republicans' first choice to lead the party: Nixon 27, Lodge 18, Goldwater 15, Romne
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-01-15.opinion` (Jan. 15, LVI jan65.yaml): Gallup, special mail survey of 1,395 Republican county chairmen: Burch to stay as national chairman, 46 percen
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-01-17.opinion` (Jan. 17, LVI jan65.yaml): Gallup, the same county chairmen, their own first choice to lead the party: Nixon 29, Goldwater 28, Scranton 1
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1965-01-22.voting-rights` (Jan. 22–25, LVI jan65.yaml): Selma. Jan. 22, Black schoolteachers, some hundred, march on the Dallas County courthouse to register; Sheriff
   - ? Black: Black, Hugo L. (K–J Cong. III.G)
+- `cal.1965-01-31.opinion` (Jan. 31, LVI jan65.yaml): Gallup, Jan. 7–12: the United States should have become involved with its military forces in Southeast Asia, 5
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1965-02-04.farm` (Feb. 4, LVII feb65.yaml): Agriculture message. Price and income supports kept; a commission to examine the whole of farm policy; a long-
   - ? Price: Price, Cecil R. (K–J Cong. III.K); Price, Raymond K., Jr. (Adm. III.B)
+- `cal.1965-02-07.opinion` (Feb. 7, LVII feb65.yaml): Gallup, Jan. 7–12: a police permit required to buy a gun: favor 73 percent, oppose 23. A gun in the home: 48.
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-02-16.opinion` (Feb. 16, LVII feb65.yaml): Gallup, special survey, no field dates printed: have heard of the recent developments in Vietnam, 91 percent. 
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-02-17.opinion` (Feb. 17, LVII feb65.yaml): Gallup, special survey: Vietnam likely to lead to a bigger war, 45 percent; not, 44. The United States handlin
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1965-02-18.voting-rights` (Feb. 18, LVII feb65.yaml): Marion, Perry County. A night march of some 500 from Zion Methodist Church toward the jail, where an SCLC work
   - ? Church: Church, Frank (K–J Cong. III.B, Cong. III.B, Viet. III.E)
   - Lee: Lee, Richard C. (K–J Cong. III.F); Lee, Herbert (K–J Cong. III.H)
 - `cal.1965-02-21.states-and-cities` (Feb. 21, LVII feb65.yaml): Malcolm X shot dead at the Audubon Ballroom, Washington Heights, as he begins to address his Organization of A
   - Talmadge: Talmadge, Herman E. (Wg. III.F)
+- `cal.1965-02-21.opinion` (Feb. 21, LVII feb65.yaml): Gallup, Jan. 28–Feb. 2: liked best about Johnson: personality, character, 17 percent; experience, ability, 17;
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+  - Kennedy: Kennedy, Jacqueline (K–J Adm. III.A); Kennedy, Joseph P. (K–J Adm. III.A); Kennedy, Robert F. (K–J Adm. III.A, K–J Cong. III.B, 1968 III.K); Kennedy, Edward M. (K–J Cong. III.B, 1968 III.K, 1968 III.P, Cong. III.A); Kennedy, John F. (Viet. III.A)
 - `cal.1965-03-03.economy` (Mar. 3, LVIII mar65.yaml): Act ending the gold reserve against Federal Reserve deposits signed, [79 Stat. 5](https://www.govinfo.gov/cont
   - ? Banks: Banks, Dennis (Cong. III.K)
+- `cal.1965-03-05.opinion` (Mar. 5, LVIII mar65.yaml): Gallup, Jan. 28–Feb. 2: pay in the Neighborhood Youth Corps set by each community, 54 percent; the federal min
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1965-03-07.voting-rights` (Mar. 7, LVIII mar65.yaml): Selma. Some 650 set out from Brown Chapel to walk to Montgomery, Hosea Williams and John Lewis at the head. Be
   - ? Brown: Brown, Edmund G. (K–J Cong. III.F); Brown, Sam (Cong. III.K)
+- `cal.1965-03-07.opinion` (Mar. 7, LVIII mar65.yaml): Gallup, Jan. 28–Feb. 2: the Federal Government to pay more of the public schools' costs, 49 percent; the State
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1965-03-08.crime-and-hijacking` (Mar. 8, LVIII mar65.yaml): Message on crime: "a malignant enemy in America's midst." A President's Commission on Law Enforcement and Admi
   - Lee: Lee, Richard C. (K–J Cong. III.F); Lee, Herbert (K–J Cong. III.H)
+- `cal.1965-03-12.opinion` (Mar. 12, LVIII mar65.yaml): Gallup, Feb. 19–24: continue present efforts in South Vietnam, 66 percent; pull out, 19. A bigger war: likely 
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1965-03-23.medicare` (Mar. 23, LVIII mar65.yaml): Ways and Means votes out Mills's bill, H.R. 6675: hospital insurance under Social Security, up to 60 days an i
   - Means: Means, Russell (Cong. III.K)
   - Kerr: Kerr, Robert S. (K–J Cong. III.B); Kerr, Clark (K–J Cong. III.K)
+- `cal.1965-03-24.opinion` (Mar. 24, LVIII mar65.yaml): Gallup, Feb. 19–24: Republicans' choice to lead the party: Nixon 36, Lodge 16, Romney 14, Goldwater 11, Scrant
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-04-02.opinion` (Apr. 2, LIX apr65.yaml): Gallup, Feb. 19–24: foreign aid in general: for 57 percent, against 33. Johnson's $3.4 billion for aid: decrea
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-04-07.opinion` (Apr. 7, LIX apr65.yaml): Gallup, Mar. 11–16: start peace negotiations with the Communist leaders now, 41 percent; send more troops and 
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-04-11.opinion` (Apr. 11, LIX apr65.yaml): Gallup, Mar. 18–23: the Johnson Administration pushing integration too fast, 34 percent; not fast enough, 17; 
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-04-14.opinion` (Apr. 14, LIX apr65.yaml): Gallup, Mar. 18–23: a law to send federal officials to register voters where turnout was low: favor 76 percent
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-04-16.opinion` (Apr. 16, LIX apr65.yaml): Gallup, Mar. 18–23: the most important problem: civil rights 52 percent; foreign affairs 39; immorality, crime
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-04-23.opinion` (Apr. 23, LIX apr65.yaml): Gallup, Apr. 2–7: what to do next in Vietnam: withdraw completely 17 percent; negotiate, stop fighting 12; con
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1965-05-03.court` (May 3, LX may65.yaml): *Zemel v. Rusk*, [381 U.S. 1](https://tile.loc.gov/storage-services/service/ll/usrep/usrep381/usrep381001/usre
   - Rusk: Rusk, Dean (K–J Adm. III.E, 1968 III.E, Viet. III.A)
+- `cal.1965-05-07.opinion` (May 7, LX may65.yaml): Gallup, special survey of students at 97 four-year colleges: continue the draft, or depend on volunteers. Men:
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-05-09.opinion` (May 9, LX may65.yaml): Gallup, Apr. 2–7: the domestic problems the Government should attend to most, three chosen from ten: public ed
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-05-12.opinion` (May 12, LX may65.yaml): Gallup, Apr. 2–7: the Johnson Administration pushing integration too fast, 45 percent; not fast enough, 14; ab
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-05-16.opinion` (May 16, LX may65.yaml): Gallup, Apr. 23–28: what to do next in Vietnam: withdraw 13 percent; negotiate 12; continue 13; step up 8; go 
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1965-05-21.students` (May 21–22, LX may65.yaml): Vietnam Day, Berkeley: some 35 hours of speeches against the war on the campus. The Vietnam Day Committee form
   - ? Day: Day, J. Edward (K–J Adm. III.G)
+- `cal.1965-05-23.opinion` (May 23, LX may65.yaml): Gallup, Apr. 23–28: white parents who would object to a school where a few of the children are colored: outsid
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-06-02.opinion` (June 2, LXI jun65.yaml): Gallup, May 13–18: Johnson's sending troops into the Dominican Republic: approve 76 percent, disapprove 17. Th
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-06-11.opinion` (June 11, LXI jun65.yaml): Gallup, May 13–18: the most important problem: Vietnam 23 percent; civil rights 23; threat of war 16; prestige
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-06-13.opinion` (June 13, LXI jun65.yaml): Gallup, May 13–18: a worker in a unionized plant required to join the union: should 43 percent, should not 49;
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-06-27.opinion` (June 27, LXI jun65.yaml): Gallup, June 4–9: Republicans' best candidate for 1968: Nixon 25, Lodge 14, Goldwater 13, Romney 11, Dirksen 7
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-07-18.opinion` (July 18, LXII jul65.yaml): Gallup, June 24–29: those approving the Administration's handling of Vietnam: Johnson knows the situation 40 p
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-07-25.opinion` (July 25, LXII jul65.yaml): Gallup, June 24–29: in admitting immigrants, very important: occupational skills 71 percent; relatives who are
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-08-06.opinion` (Aug. 6, LXIII aug65.yaml): Gallup, July 16–21: the Johnson Administration pushing integration too fast, 40 percent; not fast enough, 13; 
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-08-22.opinion` (Aug. 22, LXIII aug65.yaml): Gallup, July 16–21: would vote for a well-qualified man of one's party for President who was a Jew, 80 percent
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1965-08-25.space` (Aug. 25, LXIII aug65.yaml): News conference. The Defense Department to build a Manned Orbiting Laboratory, $1.5 billion: Douglas Aircraft 
   - Douglas: Douglas, Paul H. (K–J Cong. III.B); Douglas, William O. (K–J Cong. III.G, Cong. III.J)
+- `cal.1965-08-25.opinion` (Aug. 25, LXIII aug65.yaml): Gallup, July 16–21: persons of 18, 19 and 20 permitted to vote: yes 57 percent, no 39.
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-08-29.opinion` (Aug. 29, LXIII aug65.yaml): Gallup, Aug. 5–10: the move to ask the UN to work out its own formula for peace in Vietnam: approve 74 percent
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-09-12.opinion` (Sept. 12, LXIV sep65.yaml): Gallup, Aug. 27–Sept. 1, South only: Johnson 44 percent, Nixon 47. The Johnson Administration pushing integrat
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1965-09-17.mississippi` (Sept. 17, LXIV sep65.yaml): House dismisses the Freedom Democrats' contests of Mississippi's five seats, Hamer, Annie Devine, and Victoria
   - Gray: Gray, L. Patrick, III (Adm. III.H, Wg. III.I)
+- `cal.1965-09-17.opinion` (Sept. 17, LXIV sep65.yaml): Gallup, Aug. 27–Sept. 1, whites: advice to Negroes seeking better jobs and respect: more education 44 percent;
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-09-22.opinion` (Sept. 22, LXIV sep65.yaml): Gallup, Aug. 27–Sept. 1: a candidate for Congress for sending a great many more men to Vietnam: more inclined 
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-09-26.opinion` (Sept. 26, LXIV sep65.yaml): Gallup, Aug. 27–Sept. 1: Republicans' first choice for 1968: Nixon 28, Romney 15, Lodge 12, Goldwater 9, Scran
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-09-29.opinion` (Sept. 29, LXIV sep65.yaml): Gallup, Aug. 27–Sept. 1: the $1.25 minimum wage: increase 55 percent, leave as is 39. Of those for an increase
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-10-08.opinion` (Oct. 8, LXV oct65.yaml): Gallup, Sept. 16–21: a guaranteed minimum annual income for every family in place of relief and welfare: favor
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-10-10.opinion` (Oct. 10, LXV oct65.yaml): Gallup, Sept. 16–21: a worker in a unionized plant required to join the union: should 44 percent, should not 4
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-10-13.opinion` (Oct. 13, LXV oct65.yaml): Gallup, Sept. 16–21: the most important problem: civil rights 27 percent; Vietnam 19; threat of general war 17
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1965-10-15.students` (Oct. 15–18, LXV oct65.yaml): International Days of Protest against the war, planned by Berkeley's Vietnam Day Committee and the National Co
   - ? Day: Day, J. Edward (K–J Adm. III.G)
 - `cal.1965-10-20.foreign-aid` (Oct. 20, LXV oct65.yaml): Foreign aid appropriation for fiscal 1966 signed, [79 Stat. 1002](https://www.govinfo.gov/content/pkg/STATUTE-
   - ? Marshall: Marshall, Burke (K–J Adm. III.I); Marshall, Thurgood (K–J Cong. III.G); Marshall, Edward M. (K–J Cong. III.K)
+- `cal.1965-10-22.opinion` (Oct. 22, LXV oct65.yaml): Gallup, Sept. 16–21: the Johnson Administration's handling of Vietnam: approve 58 percent, disapprove 22.
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-10-27.opinion` (Oct. 27, LXV oct65.yaml): Gallup, Sept. 16–21: Humphrey 43 percent, Romney 43; Johnson 59, Romney 33. Independents: Romney 50, Humphrey 
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-11-19.opinion` (Nov. 19, LXVI nov65.yaml): Gallup, Oct. 29–Nov. 2: Communists involved in the demonstrations over Vietnam: a lot 58 percent, some 20, min
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-11-21.opinion` (Nov. 21, LXVI nov65.yaml): Gallup, Oct. 29–Nov. 2: a candidate for Congress for sending many more men to Vietnam: more inclined 46 percen
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-11-24.opinion` (Nov. 24, LXVI nov65.yaml): Gallup, Oct. 29–Nov. 2: the 1968 convention's choice between Romney and Nixon. Republicans: Nixon 55, Romney 3
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-11-28.opinion` (Nov. 28, LXVI nov65.yaml): Gallup, Oct. 29–Nov. 2: Senator Robert Kennedy as capable as his brother was as a Senator: yes 38 percent, no 
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-12-01.opinion` (Dec. 1, LXVII dec65.yaml): Gallup, Oct. 29–Nov. 2: the most important problem: Vietnam 37 percent; civil rights 17; threat of war 12; wor
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1965-12-05.economy` (Dec. 5–6, LXVII dec65.yaml): The Federal Reserve announces, Sunday, Dec. 5: the discount rate at New York and Chicago from 4 to 4½ percent,
   - ? Banks: Banks, Dennis (Cong. III.K)
+- `cal.1965-12-05.opinion` (Dec. 5, LXVII dec65.yaml): Gallup, Nov. 18–23: Republicans' best candidate for 1968: Nixon 34, Goldwater 13, Lodge 12, Romney 11, Scranto
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-12-12.opinion` (Dec. 12, LXVII dec65.yaml): Gallup, Nov. 18–23: Vice President Humphrey wants to be President, 72 percent. Will win the nomination: yes 26
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-12-15.opinion` (Dec. 15, LXVII dec65.yaml): Gallup, Nov. 18–23: the Supreme Court's ruling that Communists cannot be required to register: approve 27 perc
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-12-17.opinion` (Dec. 17, LXVII dec65.yaml): Gallup, Nov. 18–23: sending troops into Santo Domingo the right thing, 52 percent; wrong, 21. Our relations wi
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1966-01-07.opinion` (Jan. 7, LXVIII jan66.yaml): Gallup, Dec. 11–16, 1965: Communist China admitted to the UN: should 22 percent, should not 67. College-educat
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1966-01-09.opinion` (Jan. 9, LXVIII jan66.yaml): Gallup, Dec. 11–16, 1965: Johnson's handling of Vietnam: approve 56 percent, disapprove 26. How long the fight
+  - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1968-05-07.elections-1968` (May 7, LXXI may68.yaml): Primaries in the District of Columbia, Indiana and Ohio. Republican: Nixon-Rockefeller in the District; Nixon 
   - Rockefeller: Rockefeller, Margaretta Fitler (K–J Cong. III.K); Rockefeller, Nelson A. (Opp. III.H, Cong. III.H); Rockefeller, Winthrop (Opp. III.H); Rockefeller, Nelson (1968 III.M)
 
@@ -1111,31 +1222,86 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1964-12-10.voting-rights` (Dec. 10–18, LV dec64.yaml): King receives the Nobel Peace Prize at Oslo, from Gunnar Jahn, the committee's chairman. Dec. 18, at the White
 - `cal.1964-12-16.opinion` (Dec. 16, LV dec64.yaml): Gallup, Nov. 20–25: more often to blame if a person is poor: lack of effort 30 percent, circumstances 31, both
 - `cal.1965-01-02.voting-rights` (Jan. 2, LVI jan65.yaml): Selma. King at Brown Chapel, against a State court's injunction on meetings. The campaign to register Dallas C
+- `cal.1965-01-03.opinion` (Jan. 3, LVI jan65.yaml): Gallup, Dec. 11–16, 1964: a compulsory program of hospital and nursing home insurance for the elderly, paid fo
 - `cal.1965-01-04.congress-2` (Jan. 4, LVI jan65.yaml): House Republicans, in conference, choose Ford over Halleck for minority leader, 73–67.
+- `cal.1965-01-10.opinion` (Jan. 10, LVI jan65.yaml): Gallup, Dec. 11–16, 1964: Republicans' first choice to lead the party: Nixon 27, Lodge 18, Goldwater 15, Romne
 - `cal.1965-01-12.elections-1964` (Jan. 12, LVI jan65.yaml): Burch to leave the Republican national chairmanship Apr. 1, after meeting Goldwater in Phoenix; Bliss, the Ohi
+- `cal.1965-01-15.opinion` (Jan. 15, LVI jan65.yaml): Gallup, special mail survey of 1,395 Republican county chairmen: Burch to stay as national chairman, 46 percen
+- `cal.1965-01-17.opinion` (Jan. 17, LVI jan65.yaml): Gallup, the same county chairmen, their own first choice to lead the party: Nixon 29, Goldwater 28, Scranton 1
 - `cal.1965-01-22.voting-rights` (Jan. 22–25, LVI jan65.yaml): Selma. Jan. 22, Black schoolteachers, some hundred, march on the Dallas County courthouse to register; Sheriff
+- `cal.1965-01-31.opinion` (Jan. 31, LVI jan65.yaml): Gallup, Jan. 7–12: the United States should have become involved with its military forces in Southeast Asia, 5
+- `cal.1965-02-07.opinion` (Feb. 7, LVII feb65.yaml): Gallup, Jan. 7–12: a police permit required to buy a gun: favor 73 percent, oppose 23. A gun in the home: 48.
+- `cal.1965-02-16.opinion` (Feb. 16, LVII feb65.yaml): Gallup, special survey, no field dates printed: have heard of the recent developments in Vietnam, 91 percent. 
+- `cal.1965-02-17.opinion` (Feb. 17, LVII feb65.yaml): Gallup, special survey: Vietnam likely to lead to a bigger war, 45 percent; not, 44. The United States handlin
 - `cal.1965-02-18.voting-rights` (Feb. 18, LVII feb65.yaml): Marion, Perry County. A night march of some 500 from Zion Methodist Church toward the jail, where an SCLC work
 - `cal.1965-02-21.states-and-cities` (Feb. 21, LVII feb65.yaml): Malcolm X shot dead at the Audubon Ballroom, Washington Heights, as he begins to address his Organization of A
+- `cal.1965-02-21.opinion` (Feb. 21, LVII feb65.yaml): Gallup, Jan. 28–Feb. 2: liked best about Johnson: personality, character, 17 percent; experience, ability, 17;
+- `cal.1965-03-05.opinion` (Mar. 5, LVIII mar65.yaml): Gallup, Jan. 28–Feb. 2: pay in the Neighborhood Youth Corps set by each community, 54 percent; the federal min
+- `cal.1965-03-07.opinion` (Mar. 7, LVIII mar65.yaml): Gallup, Jan. 28–Feb. 2: the Federal Government to pay more of the public schools' costs, 49 percent; the State
+- `cal.1965-03-12.opinion` (Mar. 12, LVIII mar65.yaml): Gallup, Feb. 19–24: continue present efforts in South Vietnam, 66 percent; pull out, 19. A bigger war: likely 
 - `cal.1965-03-24.students` (Mar. 24–25, LVIII mar65.yaml): Ann Arbor. The first teach-in on the war, at the University of Michigan: faculty and students, some 3,000, in 
+- `cal.1965-03-24.opinion` (Mar. 24, LVIII mar65.yaml): Gallup, Feb. 19–24: Republicans' choice to lead the party: Nixon 36, Lodge 16, Romney 14, Goldwater 11, Scrant
+- `cal.1965-04-02.opinion` (Apr. 2, LIX apr65.yaml): Gallup, Feb. 19–24: foreign aid in general: for 57 percent, against 33. Johnson's $3.4 billion for aid: decrea
+- `cal.1965-04-07.opinion` (Apr. 7, LIX apr65.yaml): Gallup, Mar. 11–16: start peace negotiations with the Communist leaders now, 41 percent; send more troops and 
+- `cal.1965-04-11.opinion` (Apr. 11, LIX apr65.yaml): Gallup, Mar. 18–23: the Johnson Administration pushing integration too fast, 34 percent; not fast enough, 17; 
+- `cal.1965-04-14.opinion` (Apr. 14, LIX apr65.yaml): Gallup, Mar. 18–23: a law to send federal officials to register voters where turnout was low: favor 76 percent
+- `cal.1965-04-16.opinion` (Apr. 16, LIX apr65.yaml): Gallup, Mar. 18–23: the most important problem: civil rights 52 percent; foreign affairs 39; immorality, crime
 - `cal.1965-04-17.students` (Apr. 17, LIX apr65.yaml): Washington. SDS's march against the war, with Women Strike for Peace: some 15,000 to 25,000 picket the White H
+- `cal.1965-04-23.opinion` (Apr. 23, LIX apr65.yaml): Gallup, Apr. 2–7: what to do next in Vietnam: withdraw completely 17 percent; negotiate, stop fighting 12; con
 - `cal.1965-05-07.alabama` (May 7, LX may65.yaml): Hayneville, Lowndes County. Wilkins, Klansman, tried for the murder of Viola Liuzzo; the FBI's informer in the
+- `cal.1965-05-07.opinion` (May 7, LX may65.yaml): Gallup, special survey of students at 97 four-year colleges: continue the draft, or depend on volunteers. Men:
+- `cal.1965-05-09.opinion` (May 9, LX may65.yaml): Gallup, Apr. 2–7: the domestic problems the Government should attend to most, three chosen from ten: public ed
+- `cal.1965-05-12.opinion` (May 12, LX may65.yaml): Gallup, Apr. 2–7: the Johnson Administration pushing integration too fast, 45 percent; not fast enough, 14; ab
 - `cal.1965-05-15.students` (May 15, LX may65.yaml): The National Teach-In on Vietnam, Sheraton-Park Hotel, Washington, by the Inter-University Committee for Debat
+- `cal.1965-05-16.opinion` (May 16, LX may65.yaml): Gallup, Apr. 23–28: what to do next in Vietnam: withdraw 13 percent; negotiate 12; continue 13; step up 8; go 
 - `cal.1965-05-21.students` (May 21–22, LX may65.yaml): Vietnam Day, Berkeley: some 35 hours of speeches against the war on the campus. The Vietnam Day Committee form
+- `cal.1965-05-23.opinion` (May 23, LX may65.yaml): Gallup, Apr. 23–28: white parents who would object to a school where a few of the children are colored: outsid
+- `cal.1965-06-02.opinion` (June 2, LXI jun65.yaml): Gallup, May 13–18: Johnson's sending troops into the Dominican Republic: approve 76 percent, disapprove 17. Th
 - `cal.1965-06-10.states-and-cities` (June 10, LXI jun65.yaml): Wagner will not seek a fourth term as mayor of New York. Lindsay, Republican of the 17th District, already a c
+- `cal.1965-06-11.opinion` (June 11, LXI jun65.yaml): Gallup, May 13–18: the most important problem: Vietnam 23 percent; civil rights 23; threat of war 16; prestige
+- `cal.1965-06-13.opinion` (June 13, LXI jun65.yaml): Gallup, May 13–18: a worker in a unionized plant required to join the union: should 43 percent, should not 49;
 - `cal.1965-06-15.specials` (June 15, LXI jun65.yaml): South Carolina 2nd, special. Watson, who resigned the seat Feb. 1 after the House Democratic caucus took his s
+- `cal.1965-06-27.opinion` (June 27, LXI jun65.yaml): Gallup, June 4–9: Republicans' best candidate for 1968: Nixon 25, Lodge 14, Goldwater 13, Romney 11, Dirksen 7
+- `cal.1965-07-18.opinion` (July 18, LXII jul65.yaml): Gallup, June 24–29: those approving the Administration's handling of Vietnam: Johnson knows the situation 40 p
+- `cal.1965-07-25.opinion` (July 25, LXII jul65.yaml): Gallup, June 24–29: in admitting immigrants, very important: occupational skills 71 percent; relatives who are
+- `cal.1965-08-06.opinion` (Aug. 6, LXIII aug65.yaml): Gallup, July 16–21: the Johnson Administration pushing integration too fast, 40 percent; not fast enough, 13; 
+- `cal.1965-08-22.opinion` (Aug. 22, LXIII aug65.yaml): Gallup, July 16–21: would vote for a well-qualified man of one's party for President who was a Jew, 80 percent
+- `cal.1965-08-25.opinion` (Aug. 25, LXIII aug65.yaml): Gallup, July 16–21: persons of 18, 19 and 20 permitted to vote: yes 57 percent, no 39.
+- `cal.1965-08-29.opinion` (Aug. 29, LXIII aug65.yaml): Gallup, Aug. 5–10: the move to ask the UN to work out its own formula for peace in Vietnam: approve 74 percent
+- `cal.1965-09-12.opinion` (Sept. 12, LXIV sep65.yaml): Gallup, Aug. 27–Sept. 1, South only: Johnson 44 percent, Nixon 47. The Johnson Administration pushing integrat
+- `cal.1965-09-17.opinion` (Sept. 17, LXIV sep65.yaml): Gallup, Aug. 27–Sept. 1, whites: advice to Negroes seeking better jobs and respect: more education 44 percent;
+- `cal.1965-09-22.opinion` (Sept. 22, LXIV sep65.yaml): Gallup, Aug. 27–Sept. 1: a candidate for Congress for sending a great many more men to Vietnam: more inclined 
+- `cal.1965-09-26.opinion` (Sept. 26, LXIV sep65.yaml): Gallup, Aug. 27–Sept. 1: Republicans' first choice for 1968: Nixon 28, Romney 15, Lodge 12, Goldwater 9, Scran
+- `cal.1965-09-29.opinion` (Sept. 29, LXIV sep65.yaml): Gallup, Aug. 27–Sept. 1: the $1.25 minimum wage: increase 55 percent, leave as is 39. Of those for an increase
 - `cal.1965-09-30.alabama` (Sept. 30, LXIV sep65.yaml): Hayneville. An all-white jury acquits Coleman of manslaughter in the killing of Jonathan Daniels, after 63 min
 - `cal.1965-10-02.specials` (Oct. 2, LXV oct65.yaml): Louisiana 7th, special. Edwards (D), a State senator, holds T. Ashton Thompson's seat, unopposed; Thompson kil
 - `cal.1965-10-04.vietnam` (Oct. 4, LXV oct65.yaml): Paul VI in New York for the day, the first Pope in the United States. He and Johnson meet at the Waldorf Tower
+- `cal.1965-10-08.opinion` (Oct. 8, LXV oct65.yaml): Gallup, Sept. 16–21: a guaranteed minimum annual income for every family in place of relief and welfare: favor
+- `cal.1965-10-10.opinion` (Oct. 10, LXV oct65.yaml): Gallup, Sept. 16–21: a worker in a unionized plant required to join the union: should 44 percent, should not 4
+- `cal.1965-10-13.opinion` (Oct. 13, LXV oct65.yaml): Gallup, Sept. 16–21: the most important problem: civil rights 27 percent; Vietnam 19; threat of general war 17
 - `cal.1965-10-15.students` (Oct. 15–18, LXV oct65.yaml): International Days of Protest against the war, planned by Berkeley's Vietnam Day Committee and the National Co
 - `cal.1965-10-19.vietnam` (Oct. 19–27, LXV oct65.yaml): Plei Me. North Vietnamese regiments attack the Special Forces camp south of Pleiku the night of Oct. 19: twelv
 - `cal.1965-10-19.alabama` (Oct. 19–20, LXV oct65.yaml): The House Un-American Activities Committee on the Klan, Willis presiding. Shelton, Imperial Wizard of the Unit
 - `cal.1965-10-22.alabama` (Oct. 22, LXV oct65.yaml): Hayneville. An all-white jury acquits Wilkins at his second trial for the murder of Viola Liuzzo, after an hou
+- `cal.1965-10-22.opinion` (Oct. 22, LXV oct65.yaml): Gallup, Sept. 16–21: the Johnson Administration's handling of Vietnam: approve 58 percent, disapprove 22.
+- `cal.1965-10-27.opinion` (Oct. 27, LXV oct65.yaml): Gallup, Sept. 16–21: Humphrey 43 percent, Romney 43; Johnson 59, Romney 33. Independents: Romney 50, Humphrey 
 - `cal.1965-11-02.states-and-cities` (Nov. 2, LXVI nov65.yaml): New York City. Lindsay, Republican and Liberal, elected mayor: 1,149,106 votes; Beame, Democrat, 1,046,699; Bu
 - `cal.1965-11-02.states-and-cities-2` (Nov. 2, LXVI nov65.yaml): Governors. Virginia: Godwin (D), the lieutenant governor, 269,526; Holton (R), 212,207; Story, of a new Conser
 - `cal.1965-11-02.students` (Nov. 2, LXVI nov65.yaml): Norman Morrison, a Quaker, 31, burns himself to death at the Pentagon, below McNamara's office, his year-old d
+- `cal.1965-11-19.opinion` (Nov. 19, LXVI nov65.yaml): Gallup, Oct. 29–Nov. 2: Communists involved in the demonstrations over Vietnam: a lot 58 percent, some 20, min
+- `cal.1965-11-21.opinion` (Nov. 21, LXVI nov65.yaml): Gallup, Oct. 29–Nov. 2: a candidate for Congress for sending many more men to Vietnam: more inclined 46 percen
+- `cal.1965-11-24.opinion` (Nov. 24, LXVI nov65.yaml): Gallup, Oct. 29–Nov. 2: the 1968 convention's choice between Romney and Nixon. Republicans: Nixon 55, Romney 3
 - `cal.1965-11-27.students` (Nov. 27, LXVI nov65.yaml): March on Washington for Peace in Vietnam, called by SANE: pickets around the White House, then a rally at the 
+- `cal.1965-11-28.opinion` (Nov. 28, LXVI nov65.yaml): Gallup, Oct. 29–Nov. 2: Senator Robert Kennedy as capable as his brother was as a Senator: yes 38 percent, no 
+- `cal.1965-12-01.opinion` (Dec. 1, LXVII dec65.yaml): Gallup, Oct. 29–Nov. 2: the most important problem: Vietnam 37 percent; civil rights 17; threat of war 12; wor
+- `cal.1965-12-05.opinion` (Dec. 5, LXVII dec65.yaml): Gallup, Nov. 18–23: Republicans' best candidate for 1968: Nixon 34, Goldwater 13, Lodge 12, Romney 11, Scranto
+- `cal.1965-12-12.opinion` (Dec. 12, LXVII dec65.yaml): Gallup, Nov. 18–23: Vice President Humphrey wants to be President, 72 percent. Will win the nomination: yes 26
+- `cal.1965-12-15.opinion` (Dec. 15, LXVII dec65.yaml): Gallup, Nov. 18–23: the Supreme Court's ruling that Communists cannot be required to register: approve 27 perc
+- `cal.1965-12-17.opinion` (Dec. 17, LXVII dec65.yaml): Gallup, Nov. 18–23: sending troops into Santo Domingo the right thing, 52 percent; wrong, 21. Our relations wi
 - `cal.1966-01-01.jobs-and-wages` (Jan. 1–13, LXVIII jan66.yaml): New York. Lindsay sworn as mayor; the Transport Workers Union strikes the subways and buses the same morning. 
 - `cal.1966-01-04.states-and-cities` (Jan. 4, LXVIII jan66.yaml): Reagan announces for governor of California, on television. Check the date.
+- `cal.1966-01-07.opinion` (Jan. 7, LXVIII jan66.yaml): Gallup, Dec. 11–16, 1965: Communist China admitted to the UN: should 22 percent, should not 67. College-educat
+- `cal.1966-01-09.opinion` (Jan. 9, LXVIII jan66.yaml): Gallup, Dec. 11–16, 1965: Johnson's handling of Vietnam: approve 56 percent, disapprove 26. How long the fight
 - `cal.1968-03-12.elections-1968` (Mar. 12, LXIX mar68.yaml): New Hampshire primary. Republican: Nixon 77.6 percent, Rockefeller (write-in) 10.8. Democratic: Johnson (write
 - `cal.1968-04-02.elections-1968` (Apr. 2, LXX apr68.yaml): Wisconsin primary. Republican: Nixon 79.7 percent, Reagan 10.4. Democratic: McCarthy 56.2 percent, Johnson 34.
 - `cal.1968-04-23.elections-1968` (Apr. 23, LXX apr68.yaml): Pennsylvania primary. Republican: Nixon (write-in) 59.7 percent, Rockefeller (write-in) 18.4. Democratic: McCa
