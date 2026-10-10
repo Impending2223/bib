@@ -927,8 +927,11 @@ tools/bib/daybook.py            lays the calendar out by day (STYLE notes at the
   the line carries "Listings: … Check." *Face the Nation* (CBS), Nov. 1959–1970: the index volume of *Face the Nation:
   The Collected Transcripts* (Holt, 1972), its chronological list: the date and the guests' names only (its topics and
   offices are CBS's text); the copy read is the owner's, not kept in the repo. *Issues and Answers* (ABC) is not yet in.
-  A day's programs share one line, Face the Nation first ("*Face the Nation* (CBS): John F. Kennedy. *Meet the Press*
-  (NBC): Hubert H. Humphrey."). Each name entry lists the person's programs ("Television interviews"). Guests and recording speakers are matched to persons by `person_named`
+  A day's programs share one line, Face the Nation first, a semicolon between, no closing stop ("*Face the Nation* (CBS):
+  John F. Kennedy; *Meet the Press* (NBC): Hubert H. Humphrey"). Each name entry lists the person's programs
+  ("Television interviews"), and under the list one line a program for its source ("*Face the Nation* interviews from
+  *Face the Nation, 1954–1970: Index* (1972)."), not a cite on each item. An office the index gives a guest goes into
+  the Life only where asked (`FTN_ROLES` in `make_sunday.py`: Percy, 1960), cited to the index by page. Guests and recording speakers are matched to persons by `person_named`
   in `tools/bib/lives.py`.
 - Recordings: the White House tapes the Miller Center's Presidential Recordings Digital Edition (PRDE) catalogues,
   Kennedy's from July 1962 and Johnson's, a third list after APP and FRUS: PRDE's title, linked to its page, the time,

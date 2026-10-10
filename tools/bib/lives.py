@@ -2352,9 +2352,15 @@ def recording_speakers(series):
     return cached("recording-speakers", make)
 
 
-def tv_list(series, name):
-    """The Sunday interview programs the person was a guest on (daybook/sunday.yaml), by date: the program, network and
-    day, the source (the Library of Congress's inventory of Spivak's photographs by call number, or the TV listings)."""
+FTN_BOOK = "<i>Face the Nation, 1954–1970: Index</i> (1972)"
+SPIVAK = ('Library of Congress, Prints and Photographs Division, <i>Visual Materials from the Lawrence E. Spivak '
+          'Papers</i>, LOT 13025')
+SPIVAK_URL = "https://hdl.loc.gov/loc.pnp/eadpnp.pp020019"
+
+
+def tv_programs(series, name):
+    """The Sunday interview programs the person was a guest on (daybook/sunday.yaml), by date, each guest matched by
+    person_named."""
     def make():
         from . import daybook
         out = {}
@@ -2363,16 +2369,40 @@ def tv_list(series, name):
                 for g in r.get("guests", []):
                     who = person_named(series, g)
                     if who:
-                        out.setdefault(who, []).append(r)
+                        out.setdefault(who, []).append((r, g))
         return out
-    out = []
-    for r in cached("tv-guests", make).get(name, []):
-        src = (f'LOC P&amp;P, Spivak visual materials, LOT {esc(r["lot"])}' if r.get("lot")
-               else "<i>Face the Nation</i>, Index (1972)" if r.get("src") == "FTN index" else "TV listings")
+    return cached("tv-guests", make).get(name, [])
+
+
+def tv_list(series, name):
+    """(items, sources): one item a program, 'Face the Nation (CBS), June 5, 1960.', with a Check where the TV listings
+    name another guest; under the list, one line a program naming its source, not a cite on each item."""
+    items, shows, listed = [], set(), False
+    for r, g in tv_programs(series, name):
+        shows.add(r["show"])
+        listed |= r.get("src") == "listings"
+        mark = " From the TV listings." if r.get("src") == "listings" else ""
         check = f' {esc(r["check"])}' if r.get("check") else ""
-        out.append(f'<i>{esc(r["show"])}</i> ({esc(r["network"])}), {fmt(r["date"])}. '
-                   f'<span class="lvc">{a("https://hdl.loc.gov/loc.pnp/eadpnp.pp020019", src) if r.get("lot") else src}'
-                   f'.{check}</span>')
+        items.append(f'<i>{esc(r["show"])}</i> ({esc(r["network"])}), {fmt(r["date"])}.'
+                     + (f'<span class="lvc">{mark}{check}</span>' if mark or check else ""))
+    src = []
+    if "Face the Nation" in shows:
+        src.append(f"<i>Face the Nation</i> interviews from {FTN_BOOK}.")
+    if "Meet the Press" in shows:
+        src.append(f"<i>Meet the Press</i> interviews from {a(SPIVAK_URL, SPIVAK)}"
+                   + ("; one from the TV listings." if listed else "."))
+    return items, src
+
+
+def tv_sentences(series, name):
+    """An office the Face the Nation index gives the person where the owner asked for it (FTN_ROLES in
+    tools/daybook/make_sunday.py), as a sentence of the Life cited to the index by page."""
+    out = []
+    for r, g in tv_programs(series, name):
+        role = (r.get("roles") or {}).get(g)
+        if role:
+            out.append(sent(r["date"], f'{esc(role["as"])}, {fmt(r["date"])}.', [f'{FTN_BOOK} {role["page"]}'],
+                            kind="tv", dates={r["date"]}))
     return out
 
 
@@ -2577,7 +2607,7 @@ def entry(series, linker, ptrs, p):
     else:
         rp, e, races = person_races(series, p)
         structured = (office_sentences(sur, given, names) + vote_sentences(p["names"]) + races
-                      + calendar_sentences(ptrs, cal) + pocom_sentences(p, bool(e)))
+                      + calendar_sentences(ptrs, cal) + pocom_sentences(p, bool(e)) + tv_sentences(series, name))
     record = [s_["row"] for s_ in structured if s_.get("row")]
     structured = [s_ for s_ in structured if s_["kind"] != "election"]
     life = merge(structured, bd_sentences(e) if e else [], [])
@@ -2591,7 +2621,7 @@ def entry(series, linker, ptrs, p):
     sent_, named = frus_lists(name)
     ppp = app_list(name, sur)
     rec = recordings_list(series, name)
-    tv = tv_list(series, name)
+    tv, tv_src = tv_list(series, name)
     out = [f'<section class="lv" id="{key_of(name)}"><h2 id="{key_of(name)}-h" data-crumb="{esc(sur)}">{esc(name)}</h2>']
     # the keys of the forms joined in this entry (frus_groups) stay anchors on it
     out[0] += "".join(f'<span id="{esc(k)}"></span>' for k in frus_keys_of(key_of(name)) if k != key_of(name))
@@ -2619,10 +2649,11 @@ def entry(series, linker, ptrs, p):
         out.append("<h3>Life</h3>" + lh)
     out.append(record_html(record, rp))
 
-    def section(title, items, empty="None in the series.", cls="lvb", fold=None):
+    def section(title, items, empty="None in the series.", cls="lvb", fold=None, foot=()):
         if not items:                    # an empty section is left out
             return
         body = f'<ul class="{cls}">' + "".join(f"<li>{x}</li>" for x in items) + "</ul>"
+        body += "".join(f'<p class="lvc lvf2">{x}</p>' for x in foot)   # the sources of the whole list
         if fold:                         # the long lists closed until opened
             out.append(f'<details class="lvz"><summary><h3>{title}</h3> <span class="lvc">{fold}</span></summary>{body}</details>')
         else:
@@ -2642,7 +2673,8 @@ def entry(series, linker, ptrs, p):
             fold=f"{nf:,} in {len(named)} {'volume' if len(named) == 1 else 'volumes'}")
     na = sum(x.count('class="lvad"') for x in ppp)
     section("Presidential documents that name", ppp, "None found.", "lvb lvf lvy", fold=f"{na:,}")
-    section("Television interviews", tv, "None found.", "lvb lvnb", fold=f"{len(tv):,}" if len(tv) > 12 else None)
+    section("Television interviews", tv, "None found.", "lvb lvnb", fold=f"{len(tv):,}" if len(tv) > 12 else None,
+            foot=tv_src)
     nr = sum(x.count('class="lvad"') for x in rec)
     section("White House recordings", rec, "None found.", "lvb lvf lvy", fold=f"{nr:,}")
     section("Secondary sources", by_date(g_about + babout))
@@ -2655,6 +2687,7 @@ CSS = """<style>
 .lv h2{margin-top:2rem}
 .lv h3{font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:1.4rem 0 .4rem}
 .lvd{font-size:.95rem}
+.lv p.lvf2{margin:.3rem 0 0;font-size:.8rem}
 p.lvd{margin:.6rem 0 .2rem}
 .lvs{font-size:.82rem;color:var(--muted)}
 p.lvs{margin:.2rem 0 .9rem}

@@ -15,7 +15,8 @@ Meet the Press (NBC):
 Face the Nation (CBS), Nov. 1959–1970: the index volume of *Face the Nation: The Collected Transcripts from the CBS
   Radio and Television Broadcasts* (Holt Information Systems, 1972), its annotated chronological index, each program
   numbered within its year, with its guests (in capitals, a title before and an office after), the date, and a line of
-  topics. Taken: the date and the guests' names. Not taken: the topics and the offices, CBS's text. The copy read was
+  topics. Taken: the date and the guests' names, and an office the owner asked for (FTN_ROLES: Percy's, 1960, with
+  the page). Not taken: the topics and the other offices, CBS's text. The copy read was
   the owner's and is not kept in the repo: run with --ftn PATH (the index's pages as PDF or as pdftotext's text); run
   without it, the rows already written are kept.
 Issues and Answers (ABC): not yet; no list of it has been found.
@@ -161,6 +162,8 @@ def listings():
 
 TITLES = r"(?:RIGHT|SEN|REP|GOV|REV|GEN|COL|ADM|MSGR|PROF|DR|CAPT|AMB|MRS|MR|LT|MAJ|JUDGE|MAYOR|LORD|SIR|ARCHBISHOP|BISHOP|RABBI)\.?"
 FTN_FIX = {"ADLAi": "ADLAI", "D-CO)": "D-CT)"}
+# an office the index gives a guest, taken where the owner asked: {(date, guest): (office as printed, page)}
+FTN_ROLES = {("1960-06-05", "Percy, Charles H."): ("Chairman, Committee on Resolutions, GOP National Convention", 154)}
 # surnames of more than one word, as the series writes them
 FTN_NAMES = {"Ahmed Ben Bella": "Ben Bella, Ahmed", "Maurice Couve De Murville": "Couve de Murville, Maurice",
              "Francisco Caamano Deno": "Caamaño Deñó, Francisco"}
@@ -304,6 +307,9 @@ def face_the_nation(path):
         r = {"date": d, "show": "Face the Nation", "network": "CBS", "guests": guests}
         if note:
             r["note"] = note
+        roles = {g: {"as": FTN_ROLES[(d, g)][0], "page": FTN_ROLES[(d, g)][1]} for g in guests if (d, g) in FTN_ROLES}
+        if roles:
+            r["roles"] = roles
         r["src"] = "FTN index"
         rows.append(r)
     return rows
