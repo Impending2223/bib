@@ -9,12 +9,12 @@ with its statement for that half (`c` in the first; in the second `c2`, or `c` w
 alone) and its dates there. Everything else goes by date: a dated section to the half its first day falls in.
 
 STYLE:
- 1. A thread's dates by year: the year in the headings' sans serif, a little heavier, unlinked ("1961 Jan. 23, Feb. 20;
-    1962 ..."), each date linked to its entry.
+ 1. A thread's dates by year: the year in the headings' sans serif, a little heavier, unlinked, a full stop after each year's dates
+    ("1961 Jan. 23, Feb. 20. 1962 ..."), each date linked to its entry.
  2. Across the divide, muted, linked: in the first half, after its dates, the year of the thread's next entry in the
     second, linked to the thread's entry in the second half's index, and that entry's date, linked to the entry
-    ("; 1963 Jan. 14."); in the second, before its dates, the year and date of the thread's last entry in the first,
-    linked the same way ("1962 Dec. 11; 1963 ...").
+    (". 1963 Jan. 14."); the year not underlined; in the second, before its dates, the year and date of the thread's last entry in the first,
+    linked the same way ("1962 Dec. 11. 1963 ...").
  3. The second half's thread entries take the anchor cal63.thread.<slug>, so that both indexes can stand in the
     reader's one page; a rubric links to its own half's index.
  4. At the seam, muted, in sans: at the head of the second half's first day, "‹ Jan. 2, 1963, in the first calendar";
@@ -189,11 +189,9 @@ def thread_dates_html(lst, slug, members, esc):
         parts.insert(0, cross(before))
     if after:
         parts.append(cross(after))
-    out = "; ".join(parts)
-    last = after or (mine[-1] if mine else None)
-    if last and not str(last["when"]).endswith("."):
-        out += "."
-    return out
+    # a full stop after each year's dates; none added after a date that ends in one ("Dec.")
+    stop = lambda t: t if re.sub(r"<[^>]+>", "", t).endswith(".") else t + "."
+    return " ".join(stop(t) for t in parts)
 
 
 def seam(lst, sec):
@@ -220,6 +218,8 @@ STYLE = """<style>
 /* the thread index's years and the links across the calendar's halves (tools/bib/calsplit.py) */
 .ty{font-family:var(--sans);font-weight:600;font-size:.92em}
 a.tx{color:var(--muted);text-decoration-color:var(--rule)}
+a.tx.ty{text-decoration:none}
+a.tx.ty:hover{text-decoration:underline;text-decoration-color:var(--rule)}
 p.seam{font-family:var(--sans);font-size:.8rem;margin:1rem 0}
 p.seam a{color:var(--muted);text-decoration-color:var(--rule)}
 </style>"""
