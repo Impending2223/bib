@@ -276,8 +276,10 @@ def display(p, names):
 
 
 # Names the lists misprint: the 1961-68 volumes give Ambassador Stevenson (d. July 14, 1965) as "III", his son's
-# suffix, as often as "II" (as tools/lives/frus_names.py's ERRATA); the son held no office FRUS records before 1969.
-ERRATA = {('Stevenson', 'Adlai E.', 'III'): ('Stevenson', 'Adlai E.', 'II')}
+# suffix, or "Jr." (1964-68, XII), as often as "II" (as tools/lives/frus_names.py's ERRATA); the son held no office
+# FRUS records before 1969.
+ERRATA = {('Stevenson', 'Adlai E.', 'III'): ('Stevenson', 'Adlai E.', 'II'),
+          ('Stevenson', 'Adlai E.', 'Jr.'): ('Stevenson', 'Adlai E.', 'II')}
 
 
 def persons(root):
