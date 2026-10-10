@@ -827,12 +827,13 @@ tools/bib/indicators.py       renders them (ORDER, GROUP) and checks them
 - Output gap: the CEA's estimates then (from the Reports) and the CBO's now
   (FRED GDPPOT against GDPC1, with its vintage), in separate rows: the concepts
   are not comparable, so each row leaves the other's column "—".
-- Money and credit (between Output and Federal finance; `kind: rate`; RATES and DISCOUNT in the script,
-  `--only rates` to write them alone): the federal funds rate, the prime, the 3-month bill and the 10-year
-  Treasury from FRED, unrevised, so one figure, in "Revised, today", with its change in points; the New York
-  Reserve Bank's discount rate kept by hand from the Board's press releases and the *Bulletin* (FRASER, by page),
-  in "As first reported": in a month it changed, "Released" is the Board's announcement and the effective date
-  follows in grey; otherwise `since` (the date it took effect, on hover). STYLE 13 in `tools/bib/indicators.py`.
+- Money and credit (`kind: rate`; RATES and DISCOUNT in the script, `--only rates` to write them alone): a table
+  of its own between the indicators and the approval table, under the same rule, two columns (Rate | Percent):
+  rates are not revised, so one figure each, with its change in points. The federal funds rate, the prime, the
+  3-month bill and the 10-year Treasury from FRED; the New York Reserve Bank's discount rate kept by hand from the
+  Board's press releases and the *Bulletin* (FRASER, by page): in a month it changed, the Board's announcement and
+  the day it took effect in grey; otherwise `since` (the date it took effect, on hover). STYLE 13 in
+  `tools/bib/indicators.py`.
 - Changes use one basis in both value columns (CHANGE in the script): monthly
   percent, not annualized; quarterly percent at an annual rate; points; persons.
   CPI, WPI and industrial production also carry the change from a year earlier
