@@ -13,7 +13,7 @@ concepts and sources", goes before the Prologue; each series name in a table lin
 
 STYLE (settled; keep it, and fix anything that drifts from it):
  1. Columns: Indicator | As first reported | Released | Revised, today. Gallup's approval (kind: poll) in a table
-    of its own under it, set off by a short double gray rule, centered, dinkus-wide (the indicators' last row has no rule)
+    of its own under it, set off by a double gray rule, centered, three-quarters of the table's width (the indicators' last row has no rule)
     and its own caption ("Presidential approval, Gallup"; the first table's
     "Economic indicators"), on the same plan: Reading (with the field dates) | As published | Released | Today. "Released" is the date the
     first-reported figure was published (or the Economic Report transmitted); its source shows on

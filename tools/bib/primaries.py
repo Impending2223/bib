@@ -229,7 +229,7 @@ def cands(y, r, p):
     return "".join(out)
 
 
-def race_row(y, r, p, head):
+def race_row(y, r, p, head, note_col=True):
     from .congress import STATE
     st = "District of Columbia" if r["st"] == "DC" else STATE.get(r["st"], r["st"])
     if not rows_of(r, p):
@@ -239,11 +239,19 @@ def race_row(y, r, p, head):
         m = margin(y, r, p)
         mg = f"{m:.1f} pts" if m is not None else "Unopposed"
     return (f'<tr id="{rid(y, r, p)}"><td>{head}<br><span title="{esc(st)}">{esc(r["st"])}</span></td>'
-            f'<td class="ecs">{body}</td><td class="em">{mg}</td><td class="eno">{notes(y, r, p)}</td></tr>')
+            f'<td class="ecs">{body}</td><td class="em">{mg}</td>'
+            + (f'<td class="eno">{notes(y, r, p)}</td>' if note_col else "") + '</tr>')
 
 
-TABLE_HEAD = ('<table><colgroup><col class="c1"><col class="c2"><col class="c3"><col class="c4"></colgroup>'
-              '<thead><tr><th>{h}</th><th>Candidates, votes, share</th><th>Margin</th><th>Note</th></tr></thead><tbody>')
+def table_head(h, note_col=True):
+    """The race table's head; the Note column only where a race in the table has a note."""
+    return ('<table><colgroup><col class="c1"><col class="c2"><col class="c3">' + ('<col class="c4">' if note_col else "")
+            + f'</colgroup><thead><tr><th>{h}</th><th>Candidates, votes, share</th><th>Margin</th>'
+            + ("<th>Note</th>" if note_col else "") + '</tr></thead><tbody>')
+
+
+def has_notes(y, pairs):
+    return any(notes(y, r, p) for r, p in pairs)
 
 
 def day_block(date, links=None):
@@ -254,18 +262,16 @@ def day_block(date, links=None):
     races = [r for r in load()[y]["races"] if r["date"] == date]
     if not races:
         return ""
-    rows = []
-    for p in "RD":
-        for r in races:
-            if p in r:
-                rows.append(race_row(y, r, p, f'<span title="{PARTY[p]}">{p}</span>'))
+    pairs = [(r, p) for p in "RD" for r in races if p in r]
+    nc = has_notes(y, pairs)
+    rows = [race_row(y, r, p, f'<span title="{PARTY[p]}">{p}</span>', nc) for r, p in pairs]
     pgs = sorted({p_ for r in races for p_ in (r["page"], r.get("page_to") or r["page"])})
     more = ""
     if links:
         more = " The year's primaries by party: " + ", ".join(
             f'<a href="{esc(h)}">{PARTY[p]}</a>' for p, h in links) + "."
     return ('<div class="cg sprace pq"><details class="cgr er esp" open><summary>The primaries, '
-            f'{esc(fmt_date(date))}</summary>' + TABLE_HEAD.format(h="Party<br>State") + "".join(rows) +
+            f'{esc(fmt_date(date))}</summary>' + table_head("Party<br>State", nc) + "".join(rows) +
             f'</tbody></table></details><p class="elsrc">{CQ} {"–".join(str(x) for x in pgs[:1] + pgs[1:][-1:])}.{more}</p></div>')
 
 
@@ -331,17 +337,19 @@ def block(y, p, day_links=None):
     lead = [f"{n} {v:,} ({v / total * 100:.1f}%)" for n, k, v in sorted(stand, key=lambda x: -x[2])
             if v and n not in NOT_A_PERSON][:6]
     summary.append("Votes: " + "; ".join(lead) + ".")
-    key = " ".join(f'<span class="sw {fills[n]}"></span>{esc(n)}' for n, k, v in stand if k and n in fills)
-    key = (f'<p class="cgkey elkey"><span class="lk lk-r lk-s">{key} <span class="sw eNone"></span>No primary, or none '
-           f'printed. </span><span class="lk lk-s">The winner\'s color, lightest at a tie and darker as the margin '
+    key = " ".join(f'<span class="pqi"><span class="sw {fills[n]}"></span>{esc(n)}</span>' for n, k, v in stand
+                   if k and n in fills)
+    key = (f'<p class="cgkey elkey"><span class="lk lk-r lk-s">{key} <span class="pqi"><span class="sw eNone"></span>No primary, or none '
+           f'printed.</span> </span><span class="lk lk-s">The winner\'s color, lightest at a tie and darker as the margin '
            f'grows, by the election maps\' quantile rule: 5 points a fifth of the way, 14 half, 41 nine-tenths; '
            f'the unopposed darkest.</span></p>')
     rows = []
+    nc = has_notes(y, [(r, p) for r in races])
     for r in races:
         head = fmt_date(r["date"], False)
         if day_links and r["date"] in day_links:
             head = f'<a href="{esc(day_links[r["date"]])}">{esc(head)}</a>'
-        rows.append(race_row(y, r, p, head))
+        rows.append(race_row(y, r, p, head, nc))
     star = load()[y].get("star")
     src = (f'{CQ} {load()[y]["pages"]}: Congressional Quarterly, <i>Guide to U.S. Elections</i>, 6th ed. (2010), ch. 11, '
            '"Presidential Primary Returns, 1912–2008." Votes and shares as CQ prints them; its notes in the races\' notes. '
@@ -357,7 +365,7 @@ def block(y, p, day_links=None):
             f'by State</figcaption><div class="cgv" style="aspect-ratio:960/660"></div></figure></div>'
             f'<span data-views="r s"></span>{key}'
             f'<details class="cgr er esp"><summary>Primaries, {len(races)}, by date</summary>'
-            + TABLE_HEAD.format(h="Date<br>State") + "".join(rows) + "</tbody></table></details>"
+            + table_head("Date<br>State", nc) + "".join(rows) + "</tbody></table></details>"
             f'<p class="elsrc">{src}</p></div>')
 
 
