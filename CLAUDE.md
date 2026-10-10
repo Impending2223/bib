@@ -109,6 +109,8 @@ sources/states.yaml       each State's own official election publications, where
 daybook/<YYYY-MM>.yaml    every Public Papers (APP) and FRUS document by date (generated)
 daybook/abstracts.yaml    one-sentence abstracts, keyed by document (kept by hand or agent)
 daybook/recordings/<YYYY-MM>.yaml  every White House recording PRDE catalogues, July 1962–Jan. 10, 1966 (generated)
+daybook/sunday.yaml       the Sunday interview programs and their guests, 1961–Jan. 9, 1966 (generated; Meet the Press so far)
+sources/loc/              the Library of Congress finding-aid pages make_sunday.py reads (Spivak visual materials, pp020019)
 executive/<unit>.yaml     the Executive Branch, 1953–74: each department or agency, its offices, their law and holders (kept by hand)
 build/                    generated pages (git-ignored)
 tools/bib/                the code behind ./bib
@@ -892,6 +894,7 @@ day of a ranged entry, and the day's documents, closed by default, with "Expand 
 ```
 tools/daybook/make_daybook.py   writes daybook/<YYYY-MM>.yaml (needs the network; the build does not)
 tools/daybook/make_recordings.py  writes daybook/recordings/<YYYY-MM>.yaml from PRDE's catalogue (needs the network)
+tools/daybook/make_sunday.py      writes daybook/sunday.yaml from the Library's inventory and the TV listings
 tools/bib/daybook.py            lays the calendar out by day (STYLE notes at the top) and checks the data
 ```
 
@@ -914,6 +917,15 @@ tools/bib/daybook.py            lays the calendar out by day (STYLE notes at the
   "authors as persons" in `tools/daybook/make_daybook.py`. Titles are the sources' own;
   nothing is read or summarized by the generator.
 - FRUS citations carry the volume's title: "FRUS 1961–63, XXIV: Laos Crisis, doc. 4".
+- Sunday programs: a muted line under a Sunday's date, "*Meet the Press* (NBC): Hubert H. Humphrey", each guest linked to
+  his name entry, the source on hover. The record: the Library of Congress's inventory of Spivak's photographs of each
+  Meet the Press television program (Prints and Photographs, pp020019, LOT 13025), by show date, its guests written as
+  Part III writes names; the pages for Aug. 1959–Jan. 1966 are in `sources/loc/`. The Classic TV Archive's episode
+  guide (from the TV listings, to Aug. 25, 1963) fills a Sunday the inventory lacks; where it names another person, the
+  line carries "Listings: … Check." *Face the Nation* and *Issues and Answers* are not yet in: no list of them could be
+  read here (the printed *Face the Nation* transcripts, Holt, 1972–76, have an index volume). Each name entry lists the
+  person's programs ("Television interviews"). Guests and recording speakers are matched to persons by `person_named`
+  in `tools/bib/lives.py`.
 - Recordings: the White House tapes the Miller Center's Presidential Recordings Digital Edition (PRDE) catalogues,
   Kennedy's from July 1962 and Johnson's, a third list after APP and FRUS: PRDE's title, linked to its page, the time,
   "PRDE" and the tape cite ("Conversation WH6407-11-4288"). The catalogue only: the transcripts and the editors'

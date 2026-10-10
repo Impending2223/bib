@@ -3,6 +3,7 @@
     daybook/<YYYY-MM>.yaml   every Public Papers (APP) and FRUS document dated that month, in order;
                              made by tools/daybook/make_daybook.py, which see
     daybook/abstracts.yaml   {key: one-sentence abstract}, kept apart so the generator never touches it
+    daybook/sunday.yaml      the Sunday interview programs and their guests (tools/daybook/make_sunday.py)
     daybook/recordings/<YYYY-MM>.yaml   the White House recordings of the month, from the catalogue of the
                              Presidential Recordings Digital Edition (PRDE); made by tools/daybook/make_recordings.py
 
@@ -29,7 +30,10 @@ STYLE:
     filed by its place in the volume says so.
  5. An abstract, where there is one, on its own line under the title: one sentence, the brief's
     register (what the document is and says; no judgment).
- 6. Recordings, a third list after APP and FRUS: PRDE's title (linked to its page; reading it needs the Edition's
+ 6. A Sunday interview program, a muted line under the date and the Times: "Meet the Press (NBC): Hubert H. Humphrey
+    and Thruston B. Morton", each guest linked to his name entry; the source on hover; a Check in italics where the
+    TV listings name another guest.
+ 7. Recordings, a third list after APP and FRUS: PRDE's title (linked to its page; reading it needs the Edition's
     subscription), the time in grey, then "PRDE" and the tape cite in grey ("Conversation WH6407-11-4288"). No
     transcript or editorial summary is shown: they are the Edition's text.
 """
@@ -74,6 +78,46 @@ def load():
             by_day.setdefault(x["date"], []).append(x)
         _cache.update(docs=docs, ab=ab, by_day=by_day)
     return _cache["docs"], _cache["ab"]
+
+
+def programs():
+    """{date: [program]} from daybook/sunday.yaml (tools/daybook/make_sunday.py): the Sunday interview programs."""
+    if "tv" not in _cache:
+        p = os.path.join(DIR, "sunday.yaml")
+        rows = (yaml.safe_load(open(p, encoding="utf-8")) or {}).get("programs", []) if os.path.exists(p) else []
+        by = {}
+        for r in rows:
+            by.setdefault(r["date"], []).append(r)
+        _cache["tv"] = by
+    return _cache["tv"]
+
+
+def running_name(n):
+    """'King, Martin Luther, Jr.' -> 'Martin Luther King, Jr.'; 'Kennedy, Robert F.' -> 'Robert F. Kennedy'."""
+    parts = [x.strip() for x in n.split(",")]
+    if len(parts) < 2:
+        return n
+    return f"{parts[1]} {parts[0]}" + (f", {parts[2]}" if len(parts) > 2 else "")
+
+
+def program_html(r):
+    """'Meet the Press: Hubert H. Humphrey and Thruston B. Morton' under the day's date, each guest linked to his name
+    entry; the Library's call number on hover; a Check where the listings name another."""
+    names = []
+    for g in r.get("guests", []):
+        shown = esc(running_name(g))
+        if SERIES is not None:
+            from . import lives, namelinks
+            who = lives.person_named(SERIES, g)
+            shown = namelinks.a(SERIES, who, shown) if who else shown
+        names.append(shown)
+    who = names[0] if len(names) == 1 else ", ".join(names[:-1]) + (" and " if len(names) == 2 else ", and ") + names[-1]
+    if r.get("note"):
+        who = f'{esc(r["note"])}: {who}'
+    src = (f'Library of Congress, Prints and Photographs, Spivak visual materials, LOT {r["lot"]}' if r.get("lot")
+           else "TV listings")
+    check = f' <span class="tvc">{esc(r["check"])}</span>' if r.get("check") else ""
+    return f'<span class="tv" title="{esc(src)}"><i>{esc(r["show"])}</i> ({esc(r["network"])}): {who}{check}</span>'
 
 
 def day_label(d, year=True):
@@ -211,6 +255,8 @@ def section_days(lst, sec, entry_li, thread_name):
             h.append('<span class="tm">No <i>New York Times</i> (strike)</span>')
         else:
             h.append(f'<a class="tm" href="{TM.format(y=d.year, m=d.month, d=d.day)}"><i>New York Times</i></a>')
+        for r in programs().get(iso, []):
+            h.append(program_html(r))
         h.append("</div>")
         if d in running:
             h.append('<p class="cont">Continuing: ' + "; ".join(
@@ -231,6 +277,8 @@ STYLE = """<style>
 .day .dn{font-weight:700;font-size:.92rem}
 .day .tm{font-size:.78rem;color:var(--muted);margin-top:.05rem}
 .day a.tm{color:var(--muted);text-decoration-color:var(--rule)}
+.day .tv{display:block;font-size:.78rem;color:var(--muted);margin-top:.05rem}
+.day .tv .tvc{font-style:italic}
 .day ol.e>li{padding:.8rem 0 .45rem;border-bottom:0}
 .day ol.e>li+li{border-top:1px dotted var(--rule)}
 .s.rub{display:block;font-family:var(--sans);font-size:.7rem;font-weight:600;letter-spacing:.06em;
