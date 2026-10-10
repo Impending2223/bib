@@ -58,6 +58,11 @@ import yaml
 
 from . import store
 
+
+def fold(t):
+    import unicodedata
+    return "".join(c for c in unicodedata.normalize("NFKD", str(t)) if not unicodedata.combining(c)).replace("“", "").replace("”", "")
+
 DIR = os.path.join(store.ROOT, "daybook")
 MON = ["Jan.", "Feb.", "Mar.", "Apr.", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."]
 MON_RE = {m.rstrip("."): i + 1 for i, m in enumerate(MON)}
@@ -209,47 +214,80 @@ def prde_keys(x):
     return []
 
 
+def _words(t):
+    return {w for w in re.findall(r"[a-z]{3,}", fold(t).lower())} - {"conversation", "with", "and", "office", "meeting",
+                                                                      "lyndon", "johnson", "john", "kennedy", "the"}
+
+
+def _gap(a, b):
+    """Minutes between two times of day, a.m. and p.m. confused allowed (twelve hours apart counts as none)."""
+    d = abs(int(a[:2]) * 60 + int(a[3:5]) - int(b[:2]) * 60 - int(b[3:5])) % 720
+    return min(d, 720 - d)
+
+
+def _near(a, b):
+    """Two times of day within twenty minutes (_gap)."""
+    return bool(a and b) and _gap(a, b) <= 20
+
+
+def _norm(t):
+    return re.sub(r"\W+", " ", fold(t).lower()).strip()
+
+
 def free(docs):
     """Give each PRDE row the Miller Center's row for the same recording (x["free"]), and add the Miller Center's
-    recordings PRDE does not catalogue (src 'mc')."""
+    recordings PRDE does not catalogue (src 'mc'). PRDE's daily introductions (essays) go (STYLE 7-8)."""
+    docs[:] = [x for x in docs if not (x.get("src") == "prde" and re.search(r": Introduction$", x.get("title") or ""))]
     p = os.path.join(DIR, "recordings", "millercenter.yaml")
     if not os.path.exists(p):
         return
     mc = [x for x in (yaml.safe_load(open(p, encoding="utf-8")) or {}).get("docs", []) if not NOISE.match(x["title"])]
-    by_cite, by_item, jfk = {}, {}, {}
+    cites = {}
     for y in mc:
         if y.get("cite"):
-            by_cite[(y["tape"], str(int(y["cite"])))] = y
-        elif y["president"] == "J":
-            by_item[(y["tape"], _item(y["audio"]))] = y
-        else:
-            jfk.setdefault((y["date"], y["tape"]), []).append(y)
+            cites.setdefault(str(int(y["cite"])), []).append(y)
+    by_day = {}
+    for y in mc:
+        by_day.setdefault(y["date"], []).append(y)
     used = set()
-    prde_jfk = {}
-    for x in docs:
-        if x.get("src") != "prde":
+    prde = [x for x in docs if x.get("src") == "prde"]
+
+    def take(x, y):
+        x["free"] = y
+        used.add(y["key"])
+
+    for x in prde:                      # 1. Johnson's: the citation number (unique; else the tape too)
+        for k in prde_keys(x):
+            if k[0] in ("JFK",) or k[1] == "item":
+                continue
+            ys = cites.get(k[1], [])     # one citation may hold two of PRDE's rows (the operator, then the call)
+            ys = ys if len(ys) == 1 else [y for y in ys if y.get("tape") == k[0]]
+            if len(ys) == 1:
+                take(x, ys[0])
+                break
+    for x in prde:                      # 2. the day, the time (within twenty minutes), a name in both titles
+        if x.get("free") or not x.get("time"):
+            continue
+        ys = [y for y in by_day.get(x["date"], []) if y["key"] not in used and _near(y.get("time"), x["time"])
+              and _words(y["title"]) & _words(x["title"])]
+        ys.sort(key=lambda y: _gap(y["time"], x["time"]))
+        if len(ys) == 1 or (ys and _gap(ys[0]["time"], x["time"]) < _gap(ys[1]["time"], x["time"])):
+            take(x, ys[0])
+    for x in prde:                      # 3. the day and the same title (Kennedy's: the two give his titles alike)
+        if x.get("free"):
+            continue
+        ys = [y for y in by_day.get(x["date"], []) if y["key"] not in used and _norm(y["title"]) == _norm(x["title"])]
+        if ys:
+            take(x, ys[0])
+    for x in prde:                      # 4. Kennedy's: the day, the tape and the item ("Tape 36.3": MC's 36_3)
+        if x.get("free"):
             continue
         for k in prde_keys(x):
             if k[0] == "JFK":
-                prde_jfk.setdefault((x["date"], k[1]), []).append((x, k[2]))
-                break
-            y = by_item.get((k[0], k[2])) if k[1] == "item" else by_cite.get(k)
-            if y:
-                x["free"] = y
-                used.add(y["key"])
-                break
-    for (date, tape), xs in prde_jfk.items():
-        ys = sorted(jfk.get((date, tape), []), key=lambda y: _item(y["audio"]) or 0)
-        if all(n is not None for _, n in xs):
-            for x, n in xs:
-                y = next((y for y in ys if _item(y["audio"]) == n), None)
-                if y:
-                    x["free"] = y
-                    used.add(y["key"])
-        elif len(xs) == len(ys):
-            for (x, _), y in zip(sorted(xs, key=lambda p: p[0].get("time") or "99"), ys):
-                x["free"] = y
-                used.add(y["key"])
+                want = f"{k[1]}_{k[2]}" if k[2] else k[1]
+                ys = [y for y in by_day.get(x["date"], []) if y["key"] not in used and y.get("tape") == want]
+                if len(ys) == 1:
+                    take(x, ys[0])
     for y in mc:
         if y["key"] not in used:
             docs.append(dict(y, src="mc", title=mc_title(y["title"])))

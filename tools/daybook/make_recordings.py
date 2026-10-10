@@ -55,7 +55,7 @@ def row(r):
                 m.setdefault(k.split("}")[-1], []).append(v)
     one = lambda k: (m.get(k) or [None])[0]
     title = (one("displayTitle") or "").strip()
-    if not title or re.match(r"^(Daily Introduction|Introduction to)", title, re.I):
+    if not title or re.match(r"^(Daily Introduction|Introduction to)", title, re.I) or re.search(r": Introduction$", title):
         return None
     date = one("date")
     if not date or not (FROM <= date <= TO):
