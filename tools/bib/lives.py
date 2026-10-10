@@ -2376,7 +2376,7 @@ def tv_programs(series, name):
 
 def tv_list(series, name):
     """(items, sources): one item a program, 'Face the Nation (CBS), June 5, 1960.', with a Check where the TV listings
-    name another guest; under the list, one line a program naming its source, not a cite on each item."""
+    name another guest; under the list, on one line, a sentence a program naming its source, not a cite on each item."""
     items, shows, listed = [], set(), False
     for r, g in tv_programs(series, name):
         shows.add(r["show"])
@@ -2653,7 +2653,7 @@ def entry(series, linker, ptrs, p):
         if not items:                    # an empty section is left out
             return
         body = f'<ul class="{cls}">' + "".join(f"<li>{x}</li>" for x in items) + "</ul>"
-        body += "".join(f'<p class="lvc lvf2">{x}</p>' for x in foot)   # the sources of the whole list
+        body += f'<p class="lvc lvf2">{" ".join(foot)}</p>' if foot else ""   # the sources of the whole list, one line
         if fold:                         # the long lists closed until opened
             out.append(f'<details class="lvz"><summary><h3>{title}</h3> <span class="lvc">{fold}</span></summary>{body}</details>')
         else:

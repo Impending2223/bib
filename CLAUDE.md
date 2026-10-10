@@ -138,7 +138,7 @@ for 1961, `apr62.yaml` for 1962, `apr63.yaml` for 1963, `apr64.yaml` for 1964, `
 Jan. 2, 1963, `jan63.yaml` from Jan. 3; `dec63.yaml`, to Jan. 7, 1964; `jan64.yaml` from Jan. 8; `jan66.yaml` is Jan. 1–10, 1966), plus `th.yaml` (threads) and
 `pro.yaml` (prologue); the primary seasons, `mar60.yaml`–`jul60.yaml` before the prologue and `mar68.yaml`–`aug76.yaml`
 after Jan. 1966, hold only the primaries and the conventions' openings for now. Its sections are numbered straight
-through, I to LXXXVII, in date order.
+through, I to LXXXVII, in date order, in the data (`num`); the headings show the dates alone.
 
 ## Finding things (start here)
 
@@ -951,7 +951,7 @@ tools/bib/daybook.py            lays the calendar out by day (STYLE notes at the
   offices are CBS's text); the copy read is the owner's, not kept in the repo. *Issues and Answers* (ABC) is not yet in.
   A day's programs share one line, Face the Nation first, a semicolon between, no closing stop ("*Face the Nation* (CBS):
   John F. Kennedy; *Meet the Press* (NBC): Hubert H. Humphrey"). Each name entry lists the person's programs
-  ("Television interviews"), and under the list one line a program for its source ("*Face the Nation* interviews from
+  ("Television interviews"), and under the list, on one line, a sentence a program for its source ("*Face the Nation* interviews from
   *Face the Nation, 1954–1970: Index* (1972)."), not a cite on each item. An office the index gives a guest goes into
   the Life only where asked (`FTN_ROLES` in `make_sunday.py`: Percy, 1960), cited to the index by page. Guests and recording speakers are matched to persons by `person_named`
   in `tools/bib/lives.py`.
