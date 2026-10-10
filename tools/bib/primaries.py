@@ -337,9 +337,10 @@ def block(y, p, day_links=None):
     lead = [f"{n} {v:,} ({v / total * 100:.1f}%)" for n, k, v in sorted(stand, key=lambda x: -x[2])
             if v and n not in NOT_A_PERSON][:6]
     summary.append("Votes: " + "; ".join(lead) + ".")
-    key = " ".join(f'<span class="sw {fills[n]}"></span>{esc(n)}' for n, k, v in stand if k and n in fills)
-    key = (f'<p class="cgkey elkey"><span class="lk lk-r lk-s">{key} <span class="sw eNone"></span>No primary, or none '
-           f'printed. </span><span class="lk lk-s">The winner\'s color, lightest at a tie and darker as the margin '
+    key = " ".join(f'<span class="pqi"><span class="sw {fills[n]}"></span>{esc(n)}</span>' for n, k, v in stand
+                   if k and n in fills)
+    key = (f'<p class="cgkey elkey"><span class="lk lk-r lk-s">{key} <span class="pqi"><span class="sw eNone"></span>No primary, or none '
+           f'printed.</span> </span><span class="lk lk-s">The winner\'s color, lightest at a tie and darker as the margin '
            f'grows, by the election maps\' quantile rule: 5 points a fifth of the way, 14 half, 41 nine-tenths; '
            f'the unopposed darkest.</span></p>')
     rows = []
