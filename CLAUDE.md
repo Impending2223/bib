@@ -111,6 +111,7 @@ sources/states.yaml       each State's own official election publications, where
 daybook/<YYYY-MM>.yaml    every Public Papers (APP) and FRUS document by date (generated)
 daybook/abstracts.yaml    one-sentence abstracts, keyed by document (kept by hand or agent)
 daybook/recordings/<YYYY-MM>.yaml  every White House recording PRDE catalogues, July 1962–Jan. 10, 1966 (generated)
+daybook/recordings/millercenter.yaml  the same span's recordings the Miller Center gives free, page and audio (generated)
 daybook/sunday.yaml       the Sunday interview programs and their guests: Meet the Press, 1945–80; Face the Nation, 1959–70 (generated)
 sources/loc/              the Library of Congress finding aid make_sunday.py reads (Spivak visual materials, pp020019, pp. 1–136)
 executive/<unit>.yaml     the Executive Branch, 1953–74: each department or agency, its offices, their law and holders (kept by hand)
@@ -941,27 +942,34 @@ tools/bib/daybook.py            lays the calendar out by day (STYLE notes at the
   "authors as persons" in `tools/daybook/make_daybook.py`. Titles are the sources' own;
   nothing is read or summarized by the generator.
 - FRUS citations carry the volume's title: "FRUS 1961–63, XXIV: Laos Crisis, doc. 4".
-- Sunday programs: a muted line under a Sunday's date, "*Meet the Press* (NBC): Hubert H. Humphrey", each guest linked to
-  his name entry, the source on hover. The record: the Library of Congress's inventory of Spivak's photographs of each
+- Sunday programs: a muted line under a Sunday's date, "*Meet the Press*: Hubert H. Humphrey", each guest linked to
+  his name entry, the network and the source on hover. The record: the Library of Congress's inventory of Spivak's photographs of each
   Meet the Press television program (Prints and Photographs, pp020019, LOT 13025), by show date, its guests written as
   Part III writes names, 1945–80 (radio to 1950); the finding aid is in `sources/loc/`. The Classic TV Archive's episode
   guides (from the TV listings, 1947–Aug. 25, 1963) fill a Sunday the inventory lacks; where they name another person,
   the line carries "Listings: … Check." *Face the Nation* (CBS), Nov. 1959–1970: the index volume of *Face the Nation:
   The Collected Transcripts* (Holt, 1972), its chronological list: the date and the guests' names only (its topics and
   offices are CBS's text); the copy read is the owner's, not kept in the repo. *Issues and Answers* (ABC) is not yet in.
-  A day's programs share one line, Face the Nation first, a semicolon between, no closing stop ("*Face the Nation* (CBS):
-  John F. Kennedy; *Meet the Press* (NBC): Hubert H. Humphrey"). Each name entry lists the person's programs
+  A day's programs share one line, Face the Nation first, a semicolon between, no closing stop ("*Face the Nation*:
+  John F. Kennedy; *Meet the Press*: Hubert H. Humphrey"). Each name entry lists the person's programs
   ("Television interviews"), and under the list, on one line, a sentence a program for its source ("*Face the Nation* interviews from
   *Face the Nation, 1954–1970: Index* (1972)."), not a cite on each item. An office the index gives a guest goes into
   the Life only where asked (`FTN_ROLES` in `make_sunday.py`: Percy, 1960), cited to the index by page. Guests and recording speakers are matched to persons by `person_named`
   in `tools/bib/lives.py`.
-- Recordings: the White House tapes the Miller Center's Presidential Recordings Digital Edition (PRDE) catalogues,
-  Kennedy's from July 1962 and Johnson's, a third list after APP and FRUS: PRDE's title, linked to its page, the time,
-  "PRDE" and the tape cite ("Conversation WH6407-11-4288"). The catalogue only: the transcripts and the editors'
+- Recordings: the White House tapes, Kennedy's from July 1962 and Johnson's, a third list after APP and FRUS. Two
+  catalogues: the Presidential Recordings Digital Edition's (PRDE: titles and speakers; its transcripts by
+  subscription) and the Miller Center's Secret White House Tapes (free: a page and the audio for each; the LBJ
+  Library's tape and citation number), written by `tools/daybook/make_millercenter.py` from the site's public JSON:API.
+  A PRDE row shows PRDE's title linked to the free page, the time, the tape cite ("Conversation WH6407-11-4288") and
+  "PRDE" linked to the Edition's page; a recording only the Miller Center gives, its title in title case. The same
+  recording (`free` in `tools/bib/daybook.py`, STYLE 8): Johnson's by citation number; else the day, the time within
+  twenty minutes and a name in both titles; else the day and the same title (Kennedy's); else Kennedy's tape and item.
+  93 percent of PRDE's rows match; machine noise and PRDE's daily introductions are left out. The catalogue only: the transcripts and the editors'
   introductions are the Edition's text, behind its subscription, and are not taken or paraphrased; what was said comes
   from published transcripts (Beschloss, *Taking Charge*, *Reaching for Glory*) and the studies. As a calendar entry's
-  primary record: `[Johnson and Robert Kennedy, 12:25 p.m.](https://prde.upress.virginia.edu/conversations/4000560),
-  Conversation WH6407-11-4288 (PRDE)`.
+  primary record, the free page: `[Johnson and Robert Kennedy, 12:25 p.m.](https://millercenter.org/the-presidency/
+  secret-white-house-tapes/…), Conversation WH6407-11-4288 (Miller Center)`; PRDE's page only where the Miller Center
+  has no copy.
 - Abstracts go in `daybook/abstracts.yaml` (`key: sentence`), never in the generated
   files, so a rerun keeps them. Keys: `app:<slug>`, `frus:<volume>/<dN>`. `check` fails
   on an abstract whose key is not in the daybook.

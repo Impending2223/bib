@@ -6,6 +6,8 @@
     daybook/sunday.yaml      the Sunday interview programs and their guests (tools/daybook/make_sunday.py)
     daybook/recordings/<YYYY-MM>.yaml   the White House recordings of the month, from the catalogue of the
                              Presidential Recordings Digital Edition (PRDE); made by tools/daybook/make_recordings.py
+    daybook/recordings/millercenter.yaml   the same recordings' free pages and audio at the Miller Center (Secret White
+                             House Tapes); made by tools/daybook/make_millercenter.py; matched to PRDE's by `free`
 
 Each dated section of the calendar is laid out by day (section_days): the month's undated entries
 first, then every day from the section's first to its last, each with its date, a link to that
@@ -31,12 +33,19 @@ STYLE:
     filed by its place in the volume says so.
  5. An abstract, where there is one, on its own line under the title: one sentence, the brief's
     register (what the document is and says; no judgment).
- 6. The Sunday interview programs, one muted line under the date and the Times: "Face the Nation (CBS): John F.
-    Kennedy; Meet the Press (NBC): Hubert H. Humphrey", no closing stop, Face the Nation first, each guest linked to his name entry; each
-    program's source on hover; a Check in italics where the TV listings name another guest.
- 7. Recordings, a third list after APP and FRUS: PRDE's title (linked to its page; reading it needs the Edition's
-    subscription), the time in grey, then "PRDE" and the tape cite in grey ("Conversation WH6407-11-4288"). No
-    transcript or editorial summary is shown: they are the Edition's text.
+ 6. The Sunday interview programs, one muted line under the date and the Times: "Face the Nation: John F. Kennedy;
+    Meet the Press: Hubert H. Humphrey", no closing stop, Face the Nation first, each guest linked to his name entry; each
+    program's network and source on hover; a Check in italics where the TV listings name another guest.
+ 7. Recordings, a third list after APP and FRUS: PRDE's title, linked to the recording's free page and audio at the
+    Miller Center; the time in grey, then the tape cite ("Conversation WH6407-11-4288") and "PRDE", linked to the
+    Edition's page (its transcripts need a subscription). A recording PRDE does not catalogue shows by the Miller
+    Center's title, its capitals put in title case ("Conversation with George Smathers"); one PRDE catalogues and the
+    Miller Center does not give, PRDE's link alone. Machine noise and blank tape are left out. No transcript or
+    editorial summary is shown: they are the Edition's text.
+ 8. The same recording (free): Johnson's by tape and citation number ("WH6407-11-4288": tape WH6407.11, citation
+    4288; "Tape WH6407.11, Citations #4288 and #4289": either), his first tapes by tape and item ("Tape K6311.01A,
+    PNO 3": the audio's item 3); Kennedy's by the day and the tape ("Tape 28.2", or "Tape 28", item 2), and where PRDE
+    gives no item, the day's recordings on that tape in order, only where the two count alike.
 """
 import calendar
 import datetime
@@ -48,6 +57,11 @@ import re
 import yaml
 
 from . import store
+
+
+def fold(t):
+    import unicodedata
+    return "".join(c for c in unicodedata.normalize("NFKD", str(t)) if not unicodedata.combining(c)).replace("“", "").replace("”", "")
 
 DIR = os.path.join(store.ROOT, "daybook")
 MON = ["Jan.", "Feb.", "Mar.", "Apr.", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."]
@@ -74,6 +88,7 @@ def load():
         p = os.path.join(DIR, "abstracts.yaml")
         if os.path.exists(p):
             ab = yaml.safe_load(open(p, encoding="utf-8")) or {}
+        free(docs)
         by_day = {}
         for x in docs:
             by_day.setdefault(x["date"], []).append(x)
@@ -119,7 +134,8 @@ def program_html(r):
            else "Face the Nation, 1954–1970: Index (1972)" if r.get("src") == "FTN index"
            else "TV listings")
     check = f' <span class="tvc">{esc(r["check"])}</span>' if r.get("check") else ""
-    return f'<span title="{esc(src)}"><i>{esc(r["show"])}</i> ({esc(r["network"])}): {who}</span>{check}'
+    hover = f'{r["network"]}. {src}' if r.get("network") else src      # the network on hover, not in the line
+    return f'<span title="{esc(hover)}"><i>{esc(r["show"])}</i>: {who}</span>{check}'
 
 
 def day_label(d, year=True):
@@ -170,12 +186,146 @@ def frus_cite(x):
     return f'{vol}: {x["vol"]}, doc. {doc}' if x.get("vol") and vol else x["cite"]
 
 
+# ---------------------------------------------------------------- the recordings, free (STYLE 7-8)
+
+NOISE = re.compile(r"^(MACHINE NOISE|BLANK|NO CONVERSATION|SILENCE|TAPE (?:ENDS|BLANK)|UNKNOWN)\b", re.I)
+
+
+def _item(audio):
+    m = re.search(r"_(\d+)\.mp3$", audio or "")
+    return int(m.group(1)) if m else None
+
+
+def prde_keys(x):
+    """The (tape, number) pairs a PRDE row's tape cite names, Johnson's; or ('K', tape, item) for Kennedy's."""
+    t = x.get("tape") or ""
+    m = re.match(r"Conversation (WH\d{4})-(\d+)-([\d-]+)(?:, ([\d, ]+))?$", t)
+    if m:
+        nums = m.group(3).split("-") + re.findall(r"\d+", m.group(4) or "")
+        return [(f"{m.group(1)}.{m.group(2)}", str(int(n))) for n in nums]
+    m = re.match(r"Tape (WH\d{4}\.\d+[A-Z]?), Citations? (.*)$", t)
+    if m:
+        return [(m.group(1), str(int(n))) for n in re.findall(r"#(\d+)", m.group(2))]
+    m = re.match(r"Tape (K\d{4}\.\d+[A-Z]?), PNO (\d+)$", t)
+    if m:
+        return [(m.group(1), "item", int(m.group(2)))]
+    m = re.match(r"Tape (\d+[A-Z]?)(?:\.(\d+))?$", t)
+    if m:
+        return [("JFK", m.group(1), int(m.group(2)) if m.group(2) else None)]
+    return []
+
+
+def _words(t):
+    return {w for w in re.findall(r"[a-z]{3,}", fold(t).lower())} - {"conversation", "with", "and", "office", "meeting",
+                                                                      "lyndon", "johnson", "john", "kennedy", "the"}
+
+
+def _gap(a, b):
+    """Minutes between two times of day, a.m. and p.m. confused allowed (twelve hours apart counts as none)."""
+    d = abs(int(a[:2]) * 60 + int(a[3:5]) - int(b[:2]) * 60 - int(b[3:5])) % 720
+    return min(d, 720 - d)
+
+
+def _near(a, b):
+    """Two times of day within twenty minutes (_gap)."""
+    return bool(a and b) and _gap(a, b) <= 20
+
+
+def _norm(t):
+    return re.sub(r"\W+", " ", fold(t).lower()).strip()
+
+
+def free(docs):
+    """Give each PRDE row the Miller Center's row for the same recording (x["free"]), and add the Miller Center's
+    recordings PRDE does not catalogue (src 'mc'). PRDE's daily introductions (essays) go (STYLE 7-8)."""
+    docs[:] = [x for x in docs if not (x.get("src") == "prde" and re.search(r": Introduction$", x.get("title") or ""))]
+    p = os.path.join(DIR, "recordings", "millercenter.yaml")
+    if not os.path.exists(p):
+        return
+    mc = [x for x in (yaml.safe_load(open(p, encoding="utf-8")) or {}).get("docs", []) if not NOISE.match(x["title"])]
+    cites = {}
+    for y in mc:
+        if y.get("cite"):
+            cites.setdefault(str(int(y["cite"])), []).append(y)
+    by_day = {}
+    for y in mc:
+        by_day.setdefault(y["date"], []).append(y)
+    used = set()
+    prde = [x for x in docs if x.get("src") == "prde"]
+
+    def take(x, y):
+        x["free"] = y
+        used.add(y["key"])
+
+    for x in prde:                      # 1. Johnson's: the citation number (unique; else the tape too)
+        for k in prde_keys(x):
+            if k[0] in ("JFK",) or k[1] == "item":
+                continue
+            ys = cites.get(k[1], [])     # one citation may hold two of PRDE's rows (the operator, then the call)
+            ys = ys if len(ys) == 1 else [y for y in ys if y.get("tape") == k[0]]
+            if len(ys) == 1:
+                take(x, ys[0])
+                for k2 in prde_keys(x):     # the row's other citations ("4291, 4292") are in it: not shown apart
+                    used.update(y["key"] for y in cites.get(k2[1], []) if len(k2) == 2)
+                break
+    for x in prde:                      # 2. the day, the time (within twenty minutes), a name in both titles
+        if x.get("free") or not x.get("time"):
+            continue
+        ys = [y for y in by_day.get(x["date"], []) if y["key"] not in used and _near(y.get("time"), x["time"])
+              and _words(y["title"]) & _words(x["title"])]
+        ys.sort(key=lambda y: _gap(y["time"], x["time"]))
+        if len(ys) == 1 or (ys and _gap(ys[0]["time"], x["time"]) < _gap(ys[1]["time"], x["time"])):
+            take(x, ys[0])
+    for x in prde:                      # 3. the day and the same title (Kennedy's: the two give his titles alike)
+        if x.get("free"):
+            continue
+        ys = [y for y in by_day.get(x["date"], []) if y["key"] not in used and _norm(y["title"]) == _norm(x["title"])]
+        if ys:
+            take(x, ys[0])
+    for x in prde:                      # 4. Kennedy's: the day, the tape and the item ("Tape 36.3": MC's 36_3)
+        if x.get("free"):
+            continue
+        for k in prde_keys(x):
+            if k[0] == "JFK":
+                want = f"{k[1]}_{k[2]}" if k[2] else k[1]
+                ys = [y for y in by_day.get(x["date"], []) if y["key"] not in used and y.get("tape") == want]
+                if len(ys) == 1:
+                    take(x, ys[0])
+    for y in mc:
+        if y["key"] not in used:
+            docs.append(dict(y, src="mc", title=mc_title(y["title"])))
+
+
+def mc_title(t):
+    """The Miller Center's title, its capitals (the names, as the LBJ Library's log writes them) in title case."""
+    def word(m):
+        w = m.group(0)
+        out = w.capitalize()
+        out = re.sub(r"^(Mc|Mac)([a-z])", lambda n: n.group(1) + n.group(2).upper(), out) if len(w) > 4 else out
+        out = re.sub(r"(['’-])([a-z])", lambda n: n.group(1) + n.group(2).upper(), out)
+        return out
+    return re.sub(r"\b[A-Z][A-Z'’.-]+\b", lambda m: m.group(0) if len(m.group(0)) <= 2 and m.group(0).endswith(".")
+                  else word(m), t)
+
+
+def mc_cite(y):
+    """The tape cite of a Miller Center row, in PRDE's forms."""
+    t = y.get("tape") or ""
+    if y.get("cite") and re.match(r"WH\d{4}\.\d+$", t):
+        return f"Conversation {t.replace('.', '-')}-{y['cite']}"
+    if y["president"] == "J" and _item(y["audio"]):
+        return f"Tape {t}, PNO {_item(y['audio'])}"
+    return f"Tape {t}" if t else ""
+
+
 SERIES = None    # set by the build (build.py, run): the series, for the FRUS senders' name entries
 
 
 def doc_html(x, ab):
     from .markup import lower_from
-    title = f'<a href="{esc(x["url"])}">{esc(lower_from(x["title"]) if x["src"] == "frus" else x["title"])}</a>'
+    url = x["free"]["url"] if x.get("free") else x["url"]
+    hint = ' title="Miller Center: the recording, free"' if x.get("free") or x["src"] == "mc" else ""
+    title = f'<a href="{esc(url)}"{hint}>{esc(lower_from(x["title"]) if x["src"] == "frus" else x["title"])}</a>'
     au = esc(x["author"]) if x.get("author") else ""
     if au and x["src"] == "frus" and SERIES is not None:
         from . import namelinks              # the sender's name entry, where the index names one person
@@ -184,14 +334,20 @@ def doc_html(x, ab):
     au = f'<span class="au">{au}</span> ' if au else ""
     if x["src"] == "ppp":
         src, hover = "APP", "American Presidency Project"
-    elif x["src"] == "prde":
-        src = "PRDE" + (f', {x["tape"]}' if x.get("tape") else "")
-        hover = "Presidential Recordings Digital Edition"
+    elif x["src"] in ("prde", "mc"):
+        src, hover = None, None
     else:
         src, hover = frus_cite(x), "Foreign Relations of the United States"
-    bits = [f'<span class="src" title="{esc(hover)}">{esc(src)}</span>']
+    bits = [f'<span class="src" title="{esc(hover)}">{esc(src)}</span>'] if src else []
     if x.get("time"):
         bits.append(f'<span class="src">{esc(x["time"])}</span>')
+    if x["src"] in ("prde", "mc"):             # the tape cite, and PRDE's page (STYLE 7)
+        cite = x.get("tape") if x["src"] == "prde" else mc_cite(x)
+        if cite:
+            bits.append(f'<span class="src">{esc(cite)}</span>')
+        if x["src"] == "prde":
+            bits.append(f'<a class="src" href="{esc(x["url"])}" title="Presidential Recordings Digital Edition '
+                        f'(subscription)">PRDE</a>')
     if x.get("until"):
         u = datetime.date.fromisoformat(x["until"])
         bits.append(f'<span class="src">through {esc(day_label(u, u.year != int(x["date"][:4])))}</span>')
@@ -207,7 +363,7 @@ def docs_html(docs, ab):
         return ""
     ppp = [x for x in docs if x["src"] == "ppp"]
     frus = [x for x in docs if x["src"] == "frus"]
-    rec = [x for x in docs if x["src"] == "prde"]
+    rec = sorted([x for x in docs if x["src"] in ("prde", "mc")], key=lambda x: x.get("time") or "99")
     counts = []
     if ppp:
         counts.append(f"PPP {len(ppp)}")
@@ -311,6 +467,7 @@ ol.dd li{padding:.18rem 0;border-bottom:1px solid var(--rule)}
 ol.dd.fr{margin-top:.4rem}
 ol.dd .au{font-weight:600}
 ol.dd .src{color:var(--muted);margin-left:.3rem}
+ol.dd a.src{color:var(--muted);text-decoration-color:var(--rule)}
 ol.dd .ab{display:block;font-family:var(--serif);font-size:.95rem;color:var(--note);margin-top:.1rem}
 p.dtog{font-family:var(--sans);font-size:.78rem;color:var(--muted);margin:.4rem 0 .6rem}
 p.dtog button{font:inherit;font-weight:600;border:1px solid var(--rule);background:var(--panel);color:var(--ink);
