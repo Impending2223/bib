@@ -1,12 +1,12 @@
 # Cal.: page text and outline. Entries live in the files named by 'file'.
-page_title: Calendar, January 1961–January 1965; the primaries, 1960–1976
-h1: 'Calendar of the Kennedy and Johnson years: the 87th and 88th Congresses, January 3, 1961, to January 20, 1965; with the presidential primaries and conventions of 1960, 1964, 1968, 1972 and 1976'
-lede: 'Executive, legislative, judicial, and state events from Kennedy''s inauguration to Johnson''s: the 87th Congress''s first session (Jan. 3–Sept. 27, 1961) and second (Jan. 10–Oct. 13, 1962); the 88th''s first (Jan. 9–Dec. 30, 1963) and second (Jan. 7–Oct. 3, 1964); the 89th''s first weeks; the Kennedy administration and Johnson''s first term.'
+page_title: Calendar, January 1961–January 1966; the primaries, 1960–1976
+h1: 'Calendar of the Kennedy and Johnson years: the 87th and 88th Congresses and the 89th''s first session, January 3, 1961, to January 10, 1966; with the presidential primaries and conventions of 1960, 1964, 1968, 1972 and 1976'
+lede: 'Executive, legislative, judicial, and state events from Kennedy''s inauguration to Johnson''s: the 87th Congress''s first session (Jan. 3–Sept. 27, 1961) and second (Jan. 10–Oct. 13, 1962); the 88th''s first (Jan. 9–Dec. 30, 1963) and second (Jan. 7–Oct. 3, 1964); the 89th''s first (Jan. 4–Oct. 23, 1965); the Kennedy administration, Johnson''s first term, and the first year of his second.'
 logic:
   - Seventh list in the series. This one is Cal. It points into K–J Adm. and K–J Cong., into Viet. for the war, and into the earlier lists where they hold the record.
-  - 'How to read it. Laid out by day. Each day gives its date, the *New York Times* for that date, the entries for events that began that day, each under its thread in small capitals, and the day''s documents, closed until opened: the President''s (American Presidency Project) and FRUS, every document dated that day. A later day of an event that ran several days points back to it. The line says what happened. The note gives sources: the first entry of each thread carries its bibliography, and later entries point back by date ("See Apr. 15"). Books already in a list are cited by short title with the list and section; works found only here are cited in full. Names point to Part III of the lists. Presidential messages, speeches, and press conferences are cited by title and date; all are in the *Public Papers* for 1961, 1962 and 1963 (Johnson''s from Nov. 22, 1963, in his 1963–64 volume) and on the American Presidency Project (K–J Adm. II.K). FRUS means *Foreign Relations of the United States, 1961–1963*, by volume, and, for Johnson''s weeks, *1964–1968*. Votes link to Voteview where the roll call is identified. "Check" marks a detail to verify.'
+  - 'How to read it. Laid out by day. Each day gives its date, the *New York Times* for that date, the entries for events that began that day, each under its thread in small capitals, and the day''s documents, closed until opened: the President''s (American Presidency Project) and FRUS, every document dated that day. A later day of an event that ran several days points back to it. The line says what happened. The note gives sources: the first entry of each thread carries its bibliography, and later entries point back by date ("See Apr. 15"). Books already in a list are cited by short title with the list and section; works found only here are cited in full. Names point to Part III of the lists. Presidential messages, speeches, and press conferences are cited by title and date; all are in the *Public Papers* for 1961, 1962 and 1963 (Johnson''s from Nov. 22, 1963, in his 1963–64 and 1965 volumes) and on the American Presidency Project (K–J Adm. II.K). FRUS means *Foreign Relations of the United States, 1961–1963*, by volume, and, for Johnson''s weeks, *1964–1968*. Votes link to Voteview where the roll call is identified. "Check" marks a detail to verify.'
   - 'Indicators. Each month opens with a table of the figures that report on it, filed by the period they cover, not the date they were issued: months in their month, quarters in the quarter''s last month, fiscal years (July–June) in June, calendar years in December; December 1960 in the Prologue. Two values: as first reported, with its release date, and as revised today. First releases are from ALFRED (CPI, unemployment, payrolls, industrial production, GNP, real GNP; the deflator is GNP over real GNP in the same release). Wholesale prices, the budgets, the federal sector of the national accounts, and the balance of payments are from the next January''s *Economic Report*; for those, first reported means as reported then. Three budgets: the administrative budget (federal funds; the deficit of the headlines), the consolidated cash statement (with the trust funds), and the federal sector of the national income accounts. The unified budget came with fiscal 1969; today''s budget figures are on that basis. The over-all balance of payments is no longer published. The output gap: the CEA''s estimates then and the CBO''s now, in separate rows, since the concepts differ. Monthly changes are from the prior month, not annualized; CPI, wholesale prices, and industrial production add the change from a year earlier (y/y). Quarterly changes are at annual rates in both columns. Definitions and pointers: Indicators, concepts and sources, before the Prologue. A figure''s source shows on hover. Data: indicators/ in the repository.'
-  - 'Parts: the threads; the primaries and conventions of 1960; a short prologue; the months, January 1961 to January 20, 1965; then the primaries and conventions of 1968, 1972 and 1976. Those seasons hold only CQ''s returns, one entry a primary day with its table, and at each convention''s opening a map of the party''s primaries; the rest of those years is not yet written.'
+  - 'Parts: the threads; the primaries and conventions of 1960; a short prologue; the months, January 1961 to January 10, 1966; then the primaries and conventions of 1968, 1972 and 1976. Those seasons hold only CQ''s returns, one entry a primary day with its table, and at each convention''s opening a map of the party''s primaries; the rest of those years is not yet written.'
 kind: calendar
 year: 1961
 threads_section: th
@@ -355,14 +355,88 @@ sections:
     file: dec64.yaml
   - id: jan65
     num: LVI.
-    title: January 1–20, 1965
+    title: January 1965
     logic:
     - 'The 89th Congress meets Jan. 4; Johnson inaugurated Jan. 20.'
     from: '1965-01-01'
-    to: '1965-01-20'
+    to: '1965-01-31'
     file: jan65.yaml
-  - id: mar68
+  - id: feb65
     num: LVII.
+    title: February 1965
+    from: '1965-02-01'
+    to: '1965-02-28'
+    file: feb65.yaml
+  - id: mar65
+    num: LVIII.
+    title: March 1965
+    from: '1965-03-01'
+    to: '1965-03-31'
+    file: mar65.yaml
+  - id: apr65
+    num: LIX.
+    title: April 1965
+    from: '1965-04-01'
+    to: '1965-04-30'
+    file: apr65.yaml
+  - id: may65
+    num: LX.
+    title: May 1965
+    from: '1965-05-01'
+    to: '1965-05-31'
+    file: may65.yaml
+  - id: jun65
+    num: LXI.
+    title: June 1965
+    from: '1965-06-01'
+    to: '1965-06-30'
+    file: jun65.yaml
+  - id: jul65
+    num: LXII.
+    title: July 1965
+    from: '1965-07-01'
+    to: '1965-07-31'
+    file: jul65.yaml
+  - id: aug65
+    num: LXIII.
+    title: August 1965
+    from: '1965-08-01'
+    to: '1965-08-31'
+    file: aug65.yaml
+  - id: sep65
+    num: LXIV.
+    title: September 1965
+    from: '1965-09-01'
+    to: '1965-09-30'
+    file: sep65.yaml
+  - id: oct65
+    num: LXV.
+    title: October 1965
+    from: '1965-10-01'
+    to: '1965-10-31'
+    file: oct65.yaml
+  - id: nov65
+    num: LXVI.
+    title: November 1965
+    from: '1965-11-01'
+    to: '1965-11-30'
+    file: nov65.yaml
+  - id: dec65
+    num: LXVII.
+    title: December 1965
+    from: '1965-12-01'
+    to: '1965-12-31'
+    file: dec65.yaml
+  - id: jan66
+    num: LXVIII.
+    title: January 1–10, 1966
+    logic:
+    - 'The 89th Congress''s second session meets Jan. 10.'
+    from: '1966-01-01'
+    to: '1966-01-10'
+    file: jan66.yaml
+  - id: mar68
+    num: LXIX.
     title: March 1968
     logic:
     - 'The 1968 presidential primaries and the openings of the conventions only, for now: CQ''s returns, a map of each party''s primaries at its convention.'
@@ -370,37 +444,37 @@ sections:
     to: '1968-03-31'
     file: mar68.yaml
   - id: apr68
-    num: LVIII.
+    num: LXX.
     title: April 1968
     from: '1968-04-01'
     to: '1968-04-30'
     file: apr68.yaml
   - id: may68
-    num: LIX.
+    num: LXXI.
     title: May 1968
     from: '1968-05-01'
     to: '1968-05-31'
     file: may68.yaml
   - id: jun68
-    num: LX.
+    num: LXXII.
     title: June 1968
     from: '1968-06-01'
     to: '1968-06-30'
     file: jun68.yaml
   - id: jul68
-    num: LXI.
+    num: LXXIII.
     title: July 1968
     from: '1968-07-01'
     to: '1968-07-31'
     file: jul68.yaml
   - id: aug68
-    num: LXII.
+    num: LXXIV.
     title: August 1968
     from: '1968-08-01'
     to: '1968-08-31'
     file: aug68.yaml
   - id: mar72
-    num: LXIII.
+    num: LXXV.
     title: March 1972
     logic:
     - 'The 1972 presidential primaries and the openings of the conventions only, for now: CQ''s returns, a map of each party''s primaries at its convention.'
@@ -408,37 +482,37 @@ sections:
     to: '1972-03-31'
     file: mar72.yaml
   - id: apr72
-    num: LXIV.
+    num: LXXVI.
     title: April 1972
     from: '1972-04-01'
     to: '1972-04-30'
     file: apr72.yaml
   - id: may72
-    num: LXV.
+    num: LXXVII.
     title: May 1972
     from: '1972-05-01'
     to: '1972-05-31'
     file: may72.yaml
   - id: jun72
-    num: LXVI.
+    num: LXXVIII.
     title: June 1972
     from: '1972-06-01'
     to: '1972-06-30'
     file: jun72.yaml
   - id: jul72
-    num: LXVII.
+    num: LXXIX.
     title: July 1972
     from: '1972-07-01'
     to: '1972-07-31'
     file: jul72.yaml
   - id: aug72
-    num: LXVIII.
+    num: LXXX.
     title: August 1972
     from: '1972-08-01'
     to: '1972-08-31'
     file: aug72.yaml
   - id: feb76
-    num: LXIX.
+    num: LXXXI.
     title: February 1976
     logic:
     - 'The 1976 presidential primaries and the openings of the conventions only, for now: CQ''s returns, a map of each party''s primaries at its convention.'
@@ -446,37 +520,37 @@ sections:
     to: '1976-02-29'
     file: feb76.yaml
   - id: mar76
-    num: LXX.
+    num: LXXXII.
     title: March 1976
     from: '1976-03-01'
     to: '1976-03-31'
     file: mar76.yaml
   - id: apr76
-    num: LXXI.
+    num: LXXXIII.
     title: April 1976
     from: '1976-04-01'
     to: '1976-04-30'
     file: apr76.yaml
   - id: may76
-    num: LXXII.
+    num: LXXXIV.
     title: May 1976
     from: '1976-05-01'
     to: '1976-05-31'
     file: may76.yaml
   - id: jun76
-    num: LXXIII.
+    num: LXXXV.
     title: June 1976
     from: '1976-06-01'
     to: '1976-06-30'
     file: jun76.yaml
   - id: jul76
-    num: LXXIV.
+    num: LXXXVI.
     title: July 1976
     from: '1976-07-01'
     to: '1976-07-31'
     file: jul76.yaml
   - id: aug76
-    num: LXXV.
+    num: LXXXVII.
     title: August 1976
     from: '1976-08-01'
     to: '1976-08-31'
