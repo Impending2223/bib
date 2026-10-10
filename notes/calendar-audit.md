@@ -3,16 +3,16 @@
 Written by `./bib audit-cal` (`tools/bib/calaudit.py`): the dated entries checked against the brief in
 CLAUDE.md ("The calendar"). A review list: a hit is a place to look, not an error. Rerun after editing.
 
-1367 dated entries.
+1403 dated entries.
 
 | Check | Entries |
 |---|---|
-| A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 383 |
+| A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 386 |
 | (of which only a President's surname: Eisenhower, Kennedy, Johnson) | 2 |
 | Neither a bibliography of its own nor a `See [[id]]` back | 9 |
-| No primary record linked or named | 523 |
+| No primary record linked or named | 536 |
 | A primary record named but not linked | 0 |
-| Threads (statements listed for review) | 65 |
+| Threads (statements listed for review) | 67 |
 
 ## Names
 
@@ -54,6 +54,8 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - ? Baker: Baker, Ella (K–J Cong. III.H); Baker, Irene Bailey (K–J Cong. III.K); Baker, Robert G. (K–J Cong. III.K); Baker, Howard H., Jr. (Cong. III.C, Wg. III.F)
 - `cal.1961-05-05.opinion` (May 5, XII may.yaml): Gallup, Apr. 28–May 3: Kennedy's handling of Cuba, 61 percent approve, 15 disapprove. 44 percent follow the ne
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1961-05-06.robert-kennedy` (May 6, XII may.yaml): Robert Kennedy at the University of Georgia Law School's Law Day exercises, Athens. On Prince Edward County, w
+  - ? Day: Day, J. Edward (K–J Adm. III.G)
 - `cal.1961-05-10.opinion` (May 10, XII may.yaml): Gallup, Apr. 28–May 3: would Castro win a free election? 14 percent yes, 71 no. Cuba policy to be decided with
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1961-05-14.freedom-rides` (May 14, XII may.yaml): Mother's Day. The Greyhound bus burned outside Anniston; the Trailways riders beaten at the Birmingham termina
@@ -126,6 +128,7 @@ the person; several mean the surname is shared). "?" marks a surname that is als
 - `cal.1961-09-18.congo` (Sept. 18, XVI sep.yaml): Hammarskjöld killed in a crash near Ndola on his way to meet Tshombe.
   - Hammarskjöld: Hammarskjöld, Dag (K–J Adm. III.J)
 - `cal.1961-09-19.space` (Sept. 19, XVI sep.yaml): NASA names Houston for the Manned Spacecraft Center. Albert Thomas held NASA's appropriations.
+  - ? Houston: Houston, Lawrence (K–J Cong. III.K)
   - Albert: Albert, Carl (K–J Cong. III.C, Cong. III.D)
 - `cal.1961-09-24.opinion` (Sept. 24, XVI sep.yaml): Gallup, Aug. 24–29: would vote for a well-qualified Catholic nominated for President by their party, 82 percen
   - Gallup: Gallup, George H. (K–J Cong. III.J)
@@ -135,6 +138,8 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1961-10-04.opinion-5` (Oct. 4, XVII oct.yaml): Gallup, Aug. 24–29: Kennedy 62, Nixon 38.
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1961-10-08.goldwater` (Oct. 8, XVII oct.yaml): Chicago, a motel. F. Clifton White and some two dozen conservative Republicans, most from the Young Republican
+  - ? Young: Young, Whitney M., Jr. (K–J Cong. III.H); Young, John W. (K–J Cong. III.K); Young, David R. (Wg. III.A)
 - `cal.1961-10-09.court` (Oct. 9, XVII oct.yaml): *Baker v. Carr* reargued. Cox for the United States as amicus.
   - ? Baker: Baker, Ella (K–J Cong. III.H); Baker, Irene Bailey (K–J Cong. III.K); Baker, Robert G. (K–J Cong. III.K); Baker, Howard H., Jr. (Cong. III.C, Wg. III.F)
 - `cal.1961-10-15.opinion` (Oct. 15, XVII oct.yaml): Gallup, Sept. 21–26: fight the way into Berlin if access is closed, 70 percent; not, 18. Satisfied with the go
@@ -178,6 +183,8 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1962-03-07.opinion-5` (Mar. 7, XXII mar62.yaml): Gallup, Feb. 8–13: Independents' choice for 1964: Rockefeller 28, Goldwater 17, Romney 15, Milton Eisenhower 5
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1962-03-07.goldwater` (Mar. 7, XXII mar62.yaml): Madison Square Garden, the Young Americans for Freedom's rally: some 18,000, a full house. Thurmond and Tower 
+  - ? Young: Young, Whitney M., Jr. (K–J Cong. III.H); Young, John W. (K–J Cong. III.K); Young, David R. (Wg. III.A)
 - `cal.1962-03-09.opinion-5` (Mar. 9, XXII mar62.yaml): Gallup, Feb. 8–13: Goldwater or Rockefeller: Rockefeller 45, Goldwater 44, undecided 11.
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1962-03-26.court` (Mar. 26, XXII mar62.yaml): *Baker v. Carr*, [369 U.S. 186](https://tile.loc.gov/storage-services/service/ll/usrep/usrep369/usrep369186/us
@@ -204,6 +211,8 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1962-05-06.opinion` (May 6, XXIV may62.yaml): Gallup, Apr. 6–11: nearly three adults in four have seen or heard one of Kennedy's press conferences in six mo
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1962-05-07.robert-kennedy` (May 7, XXIV may62.yaml): Robert Kennedy, at his request, briefed by Lawrence Houston, the CIA's General Counsel, and Sheffield Edwards,
+  - Lawrence: Lawrence, David L. (K–J Cong. III.F)
 - `cal.1962-05-13.opinion-5` (May 13, XXIV may62.yaml): Gallup, Apr. 6–11: choice for 1964, Nixon not on the list: Rockefeller 33, Goldwater 23, Milton Eisenhower 14,
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1962-05-18.opinion` (May 18, XXIV may62.yaml): Gallup, Apr. 6–11: Presidents to stop naming federal and Supreme Court judges from their own party, 44 percent
@@ -527,6 +536,10 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1964-02-26.opinion` (Feb. 26, XLV feb64.yaml): Gallup, Jan. 30–Feb. 2: the Johnson administration pushing integration too fast, 30 percent; not fast enough, 
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-02-29.robert-kennedy` (Feb. 29–May 14, XLV feb64.yaml): Robert Kennedy recorded for the Kennedy Library's oral history by John Bartlow Martin: Feb. 29 and Mar. 1, Apr
+  - Martin: Martin, William McChesney, Jr. (K–J Adm. III.H); Martin, James D. (Opp. III.I); Martin, Graham A. (Viet. III.C)
+  - Lewis: Lewis, John (K–J Cong. III.H)
+  - Burke: Burke, Arleigh A. (K–J Adm. III.F)
 - `cal.1964-03-04.opinion` (Mar. 4, XLVI mar64.yaml): Gallup, Jan. 30–Feb. 4: the party to keep the country prosperous: Democratic 48 percent, Republican 20, no dif
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1964-03-08.black-nationalism` (Mar. 8–12, XLVI mar64.yaml): Malcolm X leaves the Nation of Islam. Mar. 12, at the Park Sheraton: his own Muslim Mosque, Inc., in Harlem; r
@@ -555,15 +568,10 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - ? Jackson: Jackson, Henry M. (K–J Cong. III.B, Cong. III.B); Jackson, Jimmie Lee (K–J Cong. III.K)
 - `cal.1964-04-29.opinion` (Apr. 29, XLVII apr64.yaml): Gallup, Mar. 27–Apr. 1, Negro voters: Johnson 87, Lodge 7, undecided 6.
   - Gallup: Gallup, George H. (K–J Cong. III.J)
-- `cal.1964-05-02.elections-1964` (May 2, XLVIII may64.yaml): Texas primary. Republican: Goldwater 74.7 percent, Lodge (write-in) 8.8.
-  - Goldwater: Goldwater, Barry M. (Opp. III.B, Cong. III.C, Wg. III.I)
 - `cal.1964-05-04.trade` (May 4, XLVIII may64.yaml): The Kennedy Round opens at Geneva, the GATT's Trade Negotiations Committee meeting at ministerial level in the
   - Kennedy: Kennedy, Jacqueline (K–J Adm. III.A); Kennedy, Joseph P. (K–J Adm. III.A); Kennedy, Robert F. (K–J Adm. III.A, K–J Cong. III.B, 1968 III.K); Kennedy, Edward M. (K–J Cong. III.B, 1968 III.K, 1968 III.P, Cong. III.A); Kennedy, John F. (Viet. III.A)
 - `cal.1964-05-05.elections-1964` (May 5, XLVIII may64.yaml): Primaries in the District of Columbia, Indiana and Ohio. Republican: Goldwater in Indiana; Rhodes in Ohio. Dem
-  - Goldwater: Goldwater, Barry M. (Opp. III.B, Cong. III.C, Wg. III.I)
   - Porter: Porter, Carley V. (K–J Cong. III.K)
-- `cal.1964-05-12.elections-1964` (May 12, XLVIII may64.yaml): Primaries in Nebraska and West Virginia. Republican: Goldwater in Nebraska; Rockefeller in West Virginia. Demo
-  - Goldwater: Goldwater, Barry M. (Opp. III.B, Cong. III.C, Wg. III.I)
 - `cal.1964-05-13.opinion` (May 13, XLVIII may64.yaml): Gallup, Apr. 24–29: the Democratic convention's choice between Johnson and Wallace: Johnson 84, Wallace 9, und
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1964-05-20.opinion` (May 20, XLVIII may64.yaml): Gallup, Apr. 24–29: the most important problem: racial 41 percent; international, Russia, the threat of war, 4
@@ -572,14 +580,10 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1964-05-25.court` (May 25, XLVIII may64.yaml): *Griffin v. County School Board of Prince Edward County*, [377 U.S. 218](https://tile.loc.gov/storage-services
   - Griffin: Griffin, Robert P. (Opp. III.B, Cong. III.A)
-- `cal.1964-05-26.elections-1964` (May 26, XLVIII may64.yaml): Florida primary. Republican: unpledged delegates 57.8 percent, Goldwater 42.2. Democratic: Johnson, unopposed.
-  - Goldwater: Goldwater, Barry M. (Opp. III.B, Cong. III.C, Wg. III.I)
 - `cal.1964-05-27.opinion` (May 27, XLVIII may64.yaml): Gallup, Apr. 24–29: 37 percent have given attention to South Vietnam. Of them, the United States handling it a
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1964-05-31.opinion` (May 31, XLVIII may64.yaml): Gallup, Apr. 24–29: Democrats' choice for Vice President: Robert Kennedy 41, Stevenson 26, Humphrey 11, Brown 
   - Gallup: Gallup, George H. (K–J Cong. III.J)
-- `cal.1964-06-02.elections-1964` (June 2, XLIX jun64.yaml): Primaries in California and South Dakota. Republican: Goldwater in California; unpledged delegates in South Da
-  - Goldwater: Goldwater, Barry M. (Opp. III.B, Cong. III.C, Wg. III.I)
 - `cal.1964-06-07.opinion` (June 7, XLIX jun64.yaml): Gallup, May 22–27: mass demonstrations by Negroes will hurt the cause of racial equality, 74 percent; help it,
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1964-06-10.opinion` (June 10, XLIX jun64.yaml): Gallup, May 22–27: of two candidates of one's own party, alike but for civil rights, the one for civil rights,
@@ -640,6 +644,8 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1964-10-15.soviet-union` (Oct. 15, LIII oct64.yaml): Khrushchev removed, "for reasons of age and health." Called back to Moscow from his Black Sea vacation, Oct. 1
   - ? Black: Black, Hugo L. (K–J Cong. III.G)
+- `cal.1964-10-20.goldwater` (Oct. 20–22, LIII oct64.yaml): "Choice," a half-hour film for Mothers for Moral America, a unit of Citizens for Goldwater-Miller: riots, prot
+  - Miller: Miller, David J. (K–J Cong. III.K); Miller, William E. (Opp. III.E)
 - `cal.1964-11-02.opinion` (Nov. 2, LIV nov64.yaml): Gallup, final poll, Oct. 25–30: Johnson 64, Goldwater 29, undecided 7.
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1964-11-11.opinion` (Nov. 11, LIV nov64.yaml): Gallup, Oct. 16–21: with one party for liberals and one for conservatives, liberal 37 percent, conservative 34
@@ -739,6 +745,8 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1965-06-02.opinion` (June 2, LXI jun65.yaml): Gallup, May 13–18: Johnson's sending troops into the Dominican Republic: approve 76 percent, disapprove 17. Th
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-06-03.space` (June 3–7, LXI jun65.yaml): Gemini 4: McDivitt and White, four days in orbit. June 3, White outside the capsule on a tether some 23 minute
+  - ? Houston: Houston, Lawrence (K–J Cong. III.K)
 - `cal.1965-06-11.opinion` (June 11, LXI jun65.yaml): Gallup, May 13–18: the most important problem: Vietnam 23 percent; civil rights 23; threat of war 16; prestige
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1965-06-13.opinion` (June 13, LXI jun65.yaml): Gallup, May 13–18: a worker in a unionized plant required to join the union: should 43 percent, should not 49;
@@ -874,6 +882,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1961-05-02.specials` (May 2, XII may.yaml): Arizona 2d, special. Morris Udall holds his brother's seat, 51.0 to 49.0 over Matheson (R). Swing 4.7 to R.
 - `cal.1961-05-04.freedom-rides` (May 4, XII may.yaml): Thirteen CORE riders leave Washington on two buses to test *Boynton v. Virginia* (1960).
 - `cal.1961-05-05.opinion` (May 5, XII may.yaml): Gallup, Apr. 28–May 3: Kennedy's handling of Cuba, 61 percent approve, 15 disapprove. 44 percent follow the ne
+- `cal.1961-05-06.robert-kennedy` (May 6, XII may.yaml): Robert Kennedy at the University of Georgia Law School's Law Day exercises, Athens. On Prince Edward County, w
 - `cal.1961-05-09.berlin-and-vienna` (May 9, XII may.yaml): Robert Kennedy's first meeting with Georgi Bolshakov. The back channel to Khrushchev opens.
 - `cal.1961-05-10.opinion` (May 10, XII may.yaml): Gallup, Apr. 28–May 3: would Castro win a free election? 14 percent yes, 71 no. Cuba policy to be decided with
 - `cal.1961-05-14.freedom-rides` (May 14, XII may.yaml): Mother's Day. The Greyhound bus burned outside Anniston; the Trailways riders beaten at the Birmingham termina
@@ -928,6 +937,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1961-10-01.civil-rights-organizations` (Oct. 1, XVII oct.yaml): Whitney Young takes office as executive director of the National Urban League, the board's unanimous choice to
 - `cal.1961-10-03.states-and-cities` (Oct. 3, XVII oct.yaml): Michigan's constitutional convention opens at Lansing. Romney a vice president.
 - `cal.1961-10-04.opinion-5` (Oct. 4, XVII oct.yaml): Gallup, Aug. 24–29: Kennedy 62, Nixon 38.
+- `cal.1961-10-08.goldwater` (Oct. 8, XVII oct.yaml): Chicago, a motel. F. Clifton White and some two dozen conservative Republicans, most from the Young Republican
 - `cal.1961-10-13.peace-corps` (Oct. 13, XVII oct.yaml): A volunteer's postcard from Ibadan, describing squalor, found and published. Protests at the university; she g
 - `cal.1961-10-15.opinion` (Oct. 15, XVII oct.yaml): Gallup, Sept. 21–26: fight the way into Berlin if access is closed, 70 percent; not, 18. Satisfied with the go
 - `cal.1961-10-16.right-and-the-military` (Oct. 16, XVII oct.yaml): Schwarz's Christian Anti-Communism Crusade fills the Hollywood Bowl, televised.
@@ -941,6 +951,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1961-11-07.specials` (Nov. 7, XVIII nov.yaml): Michigan 1st, special. Nedzi (D) holds Machrowicz's seat, 85.5 percent. Swing 3.2 to R.
 - `cal.1961-11-10.opinion` (Nov. 10, XVIII nov.yaml): Gallup, Oct. 19–24: fight the way into Berlin if access is closed, 62 percent; not, 20 (Canadians, 47 to 33). 
 - `cal.1961-11-17.albany` (Nov. 17, XVIII nov.yaml): Albany Movement formed: SNCC, the NAACP, the ministers. William G. Anderson president.
+- `cal.1961-11-18.goldwater` (Nov. 18, XVIII nov.yaml): Atlanta, to Southern Republicans. Asked whether he writes off the Negro vote in the South: "We're not going to
 - `cal.1961-11-26.opinion` (Nov. 26, XVIII nov.yaml): Gallup, Nov. 17–22: the United States to start testing in the atmosphere, 44 percent; not, 45.
 - `cal.1961-11-29.opinion` (Nov. 29, XVIII nov.yaml): Gallup, Nov. 17–22: Khrushchev's offer to ban H-bomb tests within total disarmament. Bluffing, 79 percent; sin
 - `cal.1961-12-02.cuba` (Dec. 2, XIX dec.yaml): Castro declares himself a Marxist-Leninist.
@@ -960,12 +971,14 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1962-01-23.right-and-the-military` (Jan. 23, XX jan62.yaml): Stennis subcommittee hearings on the "muzzling" of officers open. Thurmond's doing.
 - `cal.1962-01-28.opinion` (Jan. 28, XX jan62.yaml): Gallup, Jan. 11–16: the United States to resume testing in the atmosphere, 46 percent; not, 43. Men 53 for, wo
 - `cal.1962-02.civil-rights-organizations` (Feb., XXI feb62.yaml): Clarksdale, Mississippi. SNCC and CORE workers and the State NAACP's leaders revive the Council of Federated O
+- `cal.1962-02-06.robert-kennedy` (Feb. 6–24, XXI feb62.yaml): Robert Kennedy abroad. Tokyo, Nihon University, Feb. 6; Djakarta, the University of Indonesia, Feb. 14, and Jo
 - `cal.1962-02-14.press-and-broadcasting` (Feb. 14, XXI feb62.yaml): Jacqueline Kennedy's tour of the White House, CBS and NBC. About fifty million viewers.
 - `cal.1962-02-16.opinion` (Feb. 16, XXI feb62.yaml): Gallup, Jan. 11–16: 53 percent have heard of the John Birch Society. Of them, 8 favorable, 43 unfavorable, 49 
 - `cal.1962-02-16.students` (Feb. 16–17, XXI feb62.yaml): Students picket the White House in snow for an end to nuclear testing and for disarmament, some thousands, the
 - `cal.1962-02-23.opinion` (Feb. 23, XXI feb62.yaml): Gallup, Feb. 8–13: officers' speeches on foreign policy to be reviewed, 59 percent; officers to say what they 
 - `cal.1962-03-04.opinion-5` (Mar. 4, XXII mar62.yaml): Gallup, Feb. 8–13: Republicans' choice for 1964: Nixon 46, Rockefeller 17, Goldwater 13, Romney 9, Dirksen 5, 
 - `cal.1962-03-07.opinion-5` (Mar. 7, XXII mar62.yaml): Gallup, Feb. 8–13: Independents' choice for 1964: Rockefeller 28, Goldwater 17, Romney 15, Milton Eisenhower 5
+- `cal.1962-03-07.goldwater` (Mar. 7, XXII mar62.yaml): Madison Square Garden, the Young Americans for Freedom's rally: some 18,000, a full house. Thurmond and Tower 
 - `cal.1962-03-09.opinion-5` (Mar. 9, XXII mar62.yaml): Gallup, Feb. 8–13: Goldwater or Rockefeller: Rockefeller 45, Goldwater 44, undecided 11.
 - `cal.1962-03-13.cuba` (Mar. 13, XXII mar62.yaml): The Joint Chiefs send McNamara Operation Northwoods: pretexts for invasion, staged attacks among them. Lemnitz
 - `cal.1962-03-22.transition-and-staff` (Mar. 22, XXII mar62.yaml): Hoover lunches with Kennedy. The Bureau knows of Judith Campbell and Giancana. Her calls to the White House en
@@ -1021,6 +1034,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1962-11-14.opinion` (Nov. 14, XXX nov62.yaml): Gallup, Oct. 19–24: the Kennedy administration pushing integration too fast, 42 percent; not fast enough, 12; 
 - `cal.1962-11.opinion` (Nov., XXX nov62.yaml): After the missile crisis, approval in the mid-seventies.
 - `cal.1962-11-21.opinion` (Nov. 21, XXX nov62.yaml): Gallup, Oct. 19–24: 71 percent have heard of the Peace Corps; of them, 74 approve its work, 9 disapprove. A Pe
+- `cal.1962-12-02.goldwater` (Dec. 2, XXXI dec62.yaml): Chicago, a motel. White's draft group meets in secret, some forty by the UPI's count, many from the South: a G
 - `cal.1962-12-06.press-and-broadcasting` (Dec. 6, XXXI dec62.yaml): Sylvester, Pentagon spokesman: the government's right to lie to save itself in a nuclear crisis. "Managed news
 - `cal.1962-12-08.press-and-broadcasting` (Dec. 8, XXXI dec62.yaml): New York newspaper strike begins. 114 days.
 - `cal.1962-12-09.opinion-5` (Dec. 9, XXXI dec62.yaml): Gallup, Nov. 16–21: choice for 1964: Rockefeller 41, Nixon 21, Romney 15, Goldwater 11, Dirksen 4, Scranton 3;
@@ -1062,7 +1076,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1963-05-27.opinion-5` (May 27, XXXVI may63.yaml): Gallup, May 8–13: Kennedy 60, Goldwater 36, undecided 4; Kennedy 60, Romney 35, undecided 5.
 - `cal.1963-05-28.mississippi` (May 28, XXXVI may63.yaml): Jackson. Tougaloo students sit in at Woolworth's lunch counter; a crowd beats them for three hours, police out
 - `cal.1963-05-28.opinion-5` (May 28, XXXVI may63.yaml): Gallup, May 8–13: Kennedy 63, Rockefeller 32, undecided 5.
-- `cal.1963-05-30.civil-rights-the-executive` (May 30, XXXVI may63.yaml): Johnson at Gettysburg, Memorial Day: "The Negro today asks justice." Emancipation a proclamation, not a fact, 
 - `cal.1963-06.civil-rights-organizations` (June, XXXVII jun63.yaml): McDew resigns as SNCC's chairman, for his health. An emergency meeting of the coordinating committee elects Le
 - `cal.1963-06-11.specials` (June 11, XXXVII jun63.yaml): California 23d, special. Del Clawson (R) takes Clyde Doyle's seat, 53.2 to 35.4 over Carley Porter (D), four o
 - `cal.1963-06-16.opinion` (June 16, XXXVII jun63.yaml): Gallup, May 23–28: the Kennedy administration pushing integration too fast, 36 percent; not fast enough, 18; a
@@ -1107,6 +1120,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1963-09-15.opinion-5` (Sept. 15, XL sep63.yaml): Gallup, Aug. 15–20: Goldwater or Rockefeller: Goldwater 50, Rockefeller 50. Republicans: Goldwater 59, Rockefe
 - `cal.1963-09-16.desegregation-schools` (Sept. 16, XL sep63.yaml): Prince Edward County, Virginia, its public schools closed since 1959 rather than desegregated. The Free School
 - `cal.1963-09-25.opinion-5` (Sept. 25, XL sep63.yaml): Gallup, Aug. 15–20: Kennedy 57, Goldwater 37, undecided, others 6.
+- `cal.1963-09-25.robert-kennedy` (Sept. 25, XL sep63.yaml): Robert Kennedy opens McClellan's hearings on organized crime. Valachi "for the first time an insider" to break
 - `cal.1963-09-27.opinion-5` (Sept. 27, XL sep63.yaml): Gallup, Aug. 15–20: Kennedy 58, Nixon 37, undecided, others 5.
 - `cal.1963-09-29.opinion` (Sept. 29, XL sep63.yaml): Gallup, Sept. 12–17: 52 percent have heard of Kennedy's tax cut. Of those informed enough to weigh it, 60 for 
 - `cal.1963-10-02.opinion` (Oct. 2, XLI oct63.yaml): Gallup, Sept. 12–17: the most important problem, racial problems, 52 percent; international problems, 25; unem
@@ -1129,6 +1143,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1963-11-15.opinion` (Nov. 15, XLII nov63.yaml): Gallup, Oct. 11–16: would vote for a qualified woman nominated for President by their party, 55 percent; would
 - `cal.1963-11-20.opinion` (Nov. 20, XLII nov63.yaml): Gallup, Oct. 11–16: the Kennedy administration pushing integration too fast, 46 percent; not fast enough, 12; 
 - `cal.1963-11-22.baker` (Nov. 22, XLII nov63.yaml): Don Reynolds, a Maryland insurance agent, before the Rules Committee's staff in closed session: a stereo set f
+- `cal.1963-11-22.goldwater` (Nov. 22–25, XLII nov63.yaml): Goldwater in Muncie, Indiana, with his wife, at her mother's funeral. He and Kennedy had talked of campaigning
 - `cal.1963-11-24.assassination` (Nov. 24, XLII nov63.yaml): Ruby, a Dallas nightclub owner, shoots Oswald in the basement of police headquarters, 11:21 a.m., before live 
 - `cal.1963-12-01.black-nationalism` (Dec. 1–4, XLIII dec63.yaml): Malcolm X, speaking for Elijah Muhammad at the Manhattan Center, asked about Kennedy's murder: "chickens comin
 - `cal.1963-12-05.assassination` (Dec. 5, XLIII dec63.yaml): The Warren Commission's first meeting, at the National Archives. The FBI's summary report to it, Dec. 9. Ranki
@@ -1144,6 +1159,8 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1964-01-05.opinion-5` (Jan. 5, XLIII dec63.yaml): Gallup, Nov. 22–27: Republicans' choice for 1964: Nixon 29, Goldwater 23, Lodge 19, Rockefeller 12, Romney 8, 
 - `cal.1964-01-07.elections-1964` (Jan. 7, XLIII dec63.yaml): Gallup, Jan. 2–7, released Jan. 19, 1964: Democrats' choice for Vice President, 1964: Robert Kennedy 34, Steve
 - `cal.1964-01-07.opinion-5` (Jan. 7, XLIII dec63.yaml): Gallup, Jan. 2–7, released Jan. 22, 1964: Johnson 75, Goldwater 18; Johnson 68, Lodge 25; Johnson 71, Nixon 24
+- `cal.1964-01-07.goldwater` (Jan. 7, XLIII dec63.yaml): Concord, New Hampshire, the campaign's first week: "I would like to suggest one change, that social security b
+- `cal.1963-12.robert-kennedy` (Dec., XLIII dec63.yaml): William Walton, painter and friend of the Kennedys, in Moscow on a cultural visit put off by the assassination
 - `cal.1964-01-11.health` (Jan. 11, XLIV jan64.yaml): The Surgeon General's advisory committee reports, *Smoking and Health*: cigarette smoking causally related to 
 - `cal.1964-01-17.opinion` (Jan. 17, XLIV jan64.yaml): Gallup, Jan. 2–7: what Congress should do when it meets. Tax reduction first; civil rights second; medical car
 - `cal.1964-01-19.opinion` (Jan. 19, XLIV jan64.yaml): Gallup, Jan. 2–7: Democrats' choice for Vice President: Robert Kennedy 34, Stevenson 26, Humphrey 14, Shriver 
@@ -1182,6 +1199,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1964-05-19.elections-1964` (May 19, XLVIII may64.yaml): Maryland primary. Republican: unpledged delegates 58.2 percent, others 41.8. Democratic: Brewster 53.1 percent
 - `cal.1964-05-20.opinion` (May 20, XLVIII may64.yaml): Gallup, Apr. 24–29: the most important problem: racial 41 percent; international, Russia, the threat of war, 4
 - `cal.1964-05-24.opinion` (May 24, XLVIII may64.yaml): Gallup, Apr. 24–29: Johnson's handling of civil rights, 57 percent approve, 21 disapprove. Southern whites 36 
+- `cal.1964-05-24.goldwater` (May 24, XLVIII may64.yaml): ABC's *Issues and Answers*, recorded. Goldwater on the Viet Cong's supply lines: "defoliation of the forests b
 - `cal.1964-05-26.elections-1964` (May 26, XLVIII may64.yaml): Florida primary. Republican: unpledged delegates 57.8 percent, Goldwater 42.2. Democratic: Johnson, unopposed.
 - `cal.1964-05-27.opinion` (May 27, XLVIII may64.yaml): Gallup, Apr. 24–29: 37 percent have given attention to South Vietnam. Of them, the United States handling it a
 - `cal.1964-05-31.opinion` (May 31, XLVIII may64.yaml): Gallup, Apr. 24–29: Democrats' choice for Vice President: Robert Kennedy 41, Stevenson 26, Humphrey 11, Brown 
@@ -1210,14 +1228,16 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1964-08-19.opinion` (Aug. 19, LI aug64.yaml): Gallup, July 23–28: the Supreme Court's ruling that both houses of every State legislature be in proportion to
 - `cal.1964-08-23.opinion` (Aug. 23, LI aug64.yaml): Gallup, Aug. 6–11: Johnson 65, Goldwater 29, undecided 6. Republicans: Goldwater 62, Johnson 27. Independents:
 - `cal.1964-08-25.mississippi` (Aug. 25, LI aug64.yaml): The Credentials Committee's compromise, Mondale's subcommittee: the regulars seated if they pledge to support 
-- `cal.1964-08-25.elections-1964` (Aug. 25, LI aug64.yaml): Robert Kennedy, at Gracie Mansion with Wagner, will seek the Democratic nomination for Senator from New York a
 - `cal.1964-08-26.opinion` (Aug. 26, LI aug64.yaml): Gallup, Aug. 6–11: the United States handling South Vietnam as well as could be expected, 71 percent; badly, 1
+- `cal.1964-09-03.goldwater` (Sept. 3, LII sep64.yaml): Prescott, Arizona. Goldwater opens his campaign from the north steps of the Yavapai County Courthouse, where h
 - `cal.1964-09-04.opinion` (Sept. 4, LII sep64.yaml): Gallup, Aug. 27–Sept. 1: the party more likely to keep the country out of World War III: Democratic 44 percent
 - `cal.1964-09-18.opinion` (Sept. 18, LII sep64.yaml): Gallup, Aug. 27–Sept. 1, by region: East, Johnson 73, Goldwater 21; Midwest, Johnson 69, Goldwater 25; South, 
 - `cal.1964-09-25.opinion` (Sept. 25, LII sep64.yaml): Gallup, Aug. 27–Sept. 1, the words to describe each. Johnson: well-qualified 63 percent, experienced 62, intel
 - `cal.1964-10-01.students` (Oct. 1–2, LIII oct64.yaml): Berkeley. Weinberg, a former student, arrested at a CORE table on Sproul Plaza, the University enforcing its b
 - `cal.1964-10-11.opinion` (Oct. 11, LIII oct64.yaml): Gallup, Sept. 18–23: the most important problem: international, the cold war, 46 percent; racial 35; cost of l
 - `cal.1964-10-14.king` (Oct. 14, LIII oct64.yaml): The Norwegian Nobel Committee awards the 1964 Peace Prize to King, 35, in St. Joseph's Hospital, Atlanta, for 
+- `cal.1964-10-19.goldwater` (Oct. 19, LIII oct64.yaml): Jenkins. Goldwater, once his commanding officer in an Air Force Reserve unit, questioned by FBI agents, asks H
+- `cal.1964-10-20.goldwater` (Oct. 20–22, LIII oct64.yaml): "Choice," a half-hour film for Mothers for Moral America, a unit of Citizens for Goldwater-Miller: riots, prot
 - `cal.1964-11-02.opinion` (Nov. 2, LIV nov64.yaml): Gallup, final poll, Oct. 25–30: Johnson 64, Goldwater 29, undecided 7.
 - `cal.1964-11-03.cities-and-housing` (Nov. 3, LIV nov64.yaml): California. Proposition 14 carries, 4,526,460 to 2,395,747, 65.4 percent: a constitutional amendment securing 
 - `cal.1964-11-03.specials` (Nov. 3, LIV nov64.yaml): Missouri 9th, special. Hungate (D) holds Clarence Cannon's seat, 62.5 to 37.5 over Schroeder (R); the same day
@@ -1273,6 +1293,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1965-06-11.opinion` (June 11, LXI jun65.yaml): Gallup, May 13–18: the most important problem: Vietnam 23 percent; civil rights 23; threat of war 16; prestige
 - `cal.1965-06-13.opinion` (June 13, LXI jun65.yaml): Gallup, May 13–18: a worker in a unionized plant required to join the union: should 43 percent, should not 49;
 - `cal.1965-06-15.specials` (June 15, LXI jun65.yaml): South Carolina 2nd, special. Watson, who resigned the seat Feb. 1 after the House Democratic caucus took his s
+- `cal.1965-06-17.goldwater` (June 17, LXI jun65.yaml): Washington. Goldwater announces the Free Society Association, a movement of conservative political education. 
 - `cal.1965-06-27.opinion` (June 27, LXI jun65.yaml): Gallup, June 4–9: Republicans' best candidate for 1968: Nixon 25, Lodge 14, Goldwater 13, Romney 11, Dirksen 7
 - `cal.1965-07-01.civil-rights-organizations` (July 1–5, LXII jul65.yaml): CORE's convention, Durham: "The Negro Ghetto—An Awakening Giant." McKissick in the chair. A resolution against
 - `cal.1965-07-18.opinion` (July 18, LXII jul65.yaml): Gallup, June 24–29: those approving the Administration's handling of Vietnam: Johnson knows the situation 40 p
@@ -1397,6 +1418,7 @@ The brief: what the thread is, and its stations, in one or two clipped sentences
 | Farm | Price supports and production controls. The emergency feed grain program; the farm bill's defeat and the 1962 act; the wheat referendum; the Feed Grain Act of 1963; the Agricultural Act of 1964; the Food Stamp Act; the Food and Agriculture Act of 1965. |
 | Foreign aid | The aid program remade, and cut. The March message; AID created, long-term borrowing denied; the 1962 act and the Hickenlooper amendment; the Clay report; the 1963 cuts; the Christmas Eve vote; the 1964 message; the IDA bill; the Foreign Assistance Act of 1964; Food for Peace extended; the UAR ban; the Foreign Assistance Act of 1965. |
 | Freedom Rides | CORE's rides to test *Boynton*, May 1961, and the ICC order that came of them. Anniston; Montgomery; Jackson and Parchman; the petition; the order, in force Nov. 1. |
+| Goldwater | Barry M. Goldwater. The Senate and the Republican right; the draft, from the Chicago meeting of 1961 to the National Draft Goldwater Committee; Kennedy, Johnson, and the campaign of 1964; the primaries, San Francisco, the defeat; the party after it. |
 | Health | Health policy other than Medicare: drugs, mental health, the health professions. Thalidomide and Kelsey; the Drug Amendments; the mental health and retardation message and acts; maternal and child health; health professions; *Smoking and Health*; the DeBakey commission; the cigarette labeling act; heart disease, cancer, and stroke. |
 | Immigration | The national-origins quotas and their repeal. The 1963 message; the 1965 message; the House, the Senate, and the act signed at Liberty Island, Oct. 3, 1965. |
 | India and China | India's wars, American arms for India, and South Asia and Indonesia. Goa; the Chinese attack of October 1962; Nehru's request; Harriman's mission; Nehru's death; the Rann of Kutch; the Indo-Pakistani war and the cease-fire; Indonesia's coup; Ayub Khan in Washington; Tashkent. |
@@ -1414,6 +1436,7 @@ The brief: what the thread is, and its stations, in one or two clipped sentences
 | Program | The President's program as a whole: the State of the Union messages and the agenda they set; what falls under no field's thread. Fulbright–Hays; the State of the Union, 1964; the consumer message; the Great Society, Ann Arbor; the State of the Union, 1965; the arts and humanities foundation. |
 | Railroad work rules | The railroad work-rules dispute: firemen on diesels. The Presidential Railroad Commission; the strike deadlines; arbitration by statute; the moratorium; the settlement, Apr. 22, 1964. |
 | Right and the military | The radical right and the officers who spoke for it. The Birch Society; Walker relieved, admonished, resigned; Fulbright's memorandum; the crusades; the Seattle and Los Angeles speeches; the muzzling hearings; Walker at Oxford; Stevenson in Dallas. |
+| Robert Kennedy | Robert F. Kennedy. Attorney General: the Cuba Study Group and Mongoose; the back channel through Bolshakov; the Freedom Rides, Oxford, Birmingham; organized crime and Hoffa; the King wiretaps; the missile crisis. Johnson: the vice presidency refused him; Senator from New York. |
 | Rules | Majority rule in each chamber. The Rules Committee enlarged, then kept at fifteen; Rule XXII kept; Rayburn's absence; cloture refused on the literacy test, invoked on the satellite bill; the three-fifths rule refused, 1963; Pastore's germaneness rule. |
 | School aid | Federal aid to education, from the first great defeat to the acts of 1963 and 1965. The 1961 message; the Rules Committee's 8–7; Calendar Wednesday refused; the college bill recommitted; the omnibus bill; the college facilities and vocational acts; the Library Services and Construction Act; the NDEA amendments; the 1965 message; the Elementary and Secondary Education Act; the Higher Education Act. |
 | Soviet Union | The Soviet Union apart from Berlin, Cuba and testing: Khrushchev's last year; his removal, Oct. 1964; Brezhnev and Kosygin. |

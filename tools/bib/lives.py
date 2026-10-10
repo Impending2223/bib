@@ -13,6 +13,9 @@ Each entry: the name as Part III writes it, the Directory's description, the poi
   Secondary sources    works on the person: the series' entries, the Directory's bibliography, works citing the name
   Named                FRUS documents that name the person, by volume; presidential documents (APP: the Public
                        Papers and the campaign documents), one a line, by year
+  Television           the Sunday interview programs he was a guest on (daybook/sunday.yaml), by date
+  Recordings           the White House recordings PRDE lists the person as a speaker on, one a line, by year
+                       (recording_speakers: who is whom)
 
 STYLE:
  1. Telegraphic: the Directory's clauses as printed, the first letter raised; nicknames and honors of color cut.
@@ -2250,6 +2253,143 @@ def app_list(name, sur):
     return [f'<b>{y}</b>' + "".join(f'<span class="lvad">{x}</span>' for x in v) for y, v in by_year.items()]
 
 
+
+def person_named(series, s):
+    """The name entry (the name it is filed under) of a person a source writes 'Surname, Given[ Suffix]' ('Kennedy,
+    Robert F.', 'Boggs, T. Hale Sr.', 'Connally, John B.'): the one with a written form (any of his `names`) whose
+    surname is the same, whose given names agree by the series' rule (is_person), and whose suffix agrees. 'Sr.' and
+    'II' are the name written bare, as Part III writes a father; 'Jr.' takes a bare form only where no form of the name
+    carries 'Jr.' and the son is not one sources/app-matches.yaml keeps strict (Humphrey, Russell: Part III writes
+    them bare); a bare name takes a 'Jr.' form only where no bare form of the name fits (Connally). A source may drop
+    a first initial the series writes (Sargent Shriver), or, where nothing else fits, give the middle name he went by
+    where the series writes it as an initial (Vance Hartke: 'Hartke, Rupert V.'); the rosters' go-by name in parentheses is a form ('Symington,
+    William S. (Stuart)'). A name in its own order (no comma) is
+    looked up as written. Of several
+    persons, the one a form of whose given names is the same; else None. The White House recordings' speakers and the Sunday
+    programs' guests are matched so."""
+    def make():
+        sfx = re.compile(r"(?:,\s*|\s+)(Jr\.|Sr\.|II|III|IV)$")
+
+        def parts(n):                    # 'Boggs, Thomas H., Sr.' -> ('Boggs', 'Thomas H.', 'Sr.')
+            n = re.sub(r"\s*[“\"][^”\"]*[”\"]|\s*\([^)]*\)", "", n).strip()
+            if "," not in n:
+                return None
+            sur, given = [x.strip() for x in n.split(",", 1)]
+            suf = None
+            m = sfx.search(given)
+            if m:
+                suf, given = m.group(1), given[:m.start()].strip().rstrip(",")
+            m = sfx.search(sur)
+            if m:
+                suf, sur = m.group(1), sur[:m.start()].strip()
+            return (sur, given, suf) if sur and given else None
+        bare = lambda s_: None if s_ in (None, "Sr.", "II") else s_
+        strict = {n for n, v in (store.load_yaml(os.path.join(store.ROOT, "sources", "app-matches.yaml")) or {}).items()
+                  if isinstance(v, dict) and v.get("strict")}
+        forms = {}                       # folded surname: [(person, given, suffix)]
+        for p in everyone(series):
+            for n in dict.fromkeys(list(p.get("names") or []) + [p["name"]]):
+                x = parts(n)
+                if x:
+                    forms.setdefault(fold(x[0]), []).append((p, x[1], bare(x[2])))
+                    m = re.search(r"\(([A-Z][\w'’.\- ]+)\)", n)   # the roster's go-by name: 'William S. (Stuart)'
+                    if m:
+                        forms[fold(x[0])].append((p, m.group(1), bare(x[2])))
+        memo = {}
+
+        def who(s_):
+            if s_ in memo:
+                return memo[s_]
+            x = parts(s_)
+            res = None
+            if not x and s_.strip():             # a name in its own order ('Trần Lệ Xuân'): as written, or folded
+                from . import namelinks
+                res = namelinks.person(series, s_)
+            if x:
+                sur, given, suf = x
+                # the given names agree; or the source drops a first initial the series writes ('Sargent' for
+                # 'R. Sargent', 'Stuart' for 'W. Stuart')
+                fits = [(p, g, sf) for p, g, sf in forms.get(fold(sur), [])
+                        if is_person(f"{given} {sur}", sur, g)
+                        or re.match(r"^[A-Z]\.\s+\S", g) and is_person(f"{given} {sur}", sur, re.sub(r"^[A-Z]\.\s+", "", g))]
+                if not fits and re.fullmatch(r"[A-Z][a-z]+", given):
+                    # only then, the middle name he went by, the series writing it as an initial ('Vance' for 'Rupert V.')
+                    fits = [(p, g, sf) for p, g, sf in forms.get(fold(sur), [])
+                            if re.fullmatch(rf"[A-Z][a-z]+ {given[0]}\.", g)]
+                want = bare(suf)
+                cands = {id(p): p for p, g, sf in fits if sf == want}
+                if not cands and want == "Jr." and not any(sf == "Jr." for _, _, sf in fits):
+                    cands = {id(p): p for p, g, sf in fits if sf is None and p["name"] not in strict}
+                if not cands and want is None and not any(sf is None for _, _, sf in fits):
+                    cands = {id(p): p for p, g, sf in fits if sf == "Jr." and p["name"] not in strict}
+                if len(cands) > 1:                   # of several, the one a form of whose names is the same
+                    same = {id(p) for p, g, sf in fits if fold(g) == fold(given) and id(p) in cands}
+                    cands = {k: v for k, v in cands.items() if k in same}
+                cands = list(cands.values())
+                res = cands[0]["name"] if len(cands) == 1 else None
+            memo[s_] = res
+            return res
+        return who
+    return cached("person-named", make)(s)
+
+
+def recording_speakers(series):
+    """{the name an entry is filed under: [recording]} for the White House recordings PRDE catalogues
+    (daybook/recordings, tools/daybook/make_recordings.py), each speaker matched by person_named."""
+    def make():
+        import glob
+        import yaml
+        out, names = {}, {}
+        for f in sorted(glob.glob(os.path.join(store.ROOT, "daybook", "recordings", "*.yaml"))):
+            for x in (yaml.safe_load(open(f, encoding="utf-8")) or {}).get("docs", []):
+                for s in x.get("speakers", []):
+                    if s not in names:
+                        names[s] = person_named(series, s)
+                    if names[s]:
+                        out.setdefault(names[s], []).append(x)
+        return out
+    return cached("recording-speakers", make)
+
+
+def tv_list(series, name):
+    """The Sunday interview programs the person was a guest on (daybook/sunday.yaml), by date: the program, network and
+    day, the source (the Library of Congress's inventory of Spivak's photographs by call number, or the TV listings)."""
+    def make():
+        from . import daybook
+        out = {}
+        for d, rows in sorted(daybook.programs().items()):
+            for r in rows:
+                for g in r.get("guests", []):
+                    who = person_named(series, g)
+                    if who:
+                        out.setdefault(who, []).append(r)
+        return out
+    out = []
+    for r in cached("tv-guests", make).get(name, []):
+        src = (f'LOC P&amp;P, Spivak visual materials, LOT {esc(r["lot"])}' if r.get("lot") else "TV listings")
+        check = f' {esc(r["check"])}' if r.get("check") else ""
+        out.append(f'<i>{esc(r["show"])}</i> ({esc(r["network"])}), {fmt(r["date"])}. '
+                   f'<span class="lvc">{a("https://hdl.loc.gov/loc.pnp/eadpnp.pp020019", src) if r.get("lot") else src}'
+                   f'.{check}</span>')
+    return out
+
+
+def recordings_list(series, name):
+    """The White House recordings the person speaks on, by year: PRDE's title, the day and time, the tape, linked.
+    Not in a President's own entry: the recordings are his, and the calendar's days list them."""
+    sur, given = split_name(name)[:2]
+    if any(fold(n.split()[-1]) == fold(sur) and fold(n.split()[0]) == fold((given.split() or [""])[0])
+           for n, _, _ in PRESIDENTS):
+        return []
+    by_year = {}
+    for x in recording_speakers(series).get(name, []):
+        when = fmt(x["date"]) + (f', {x["time"]}' if x.get("time") else "")
+        by_year.setdefault(x["date"][:4], []).append(
+            f'{esc(x["title"])} ({when}), <span class="lvc">{a(x["url"], "PRDE")}'
+            + (f', {esc(x["tape"])}' if x.get("tape") else "") + "</span>.")
+    return [f'<b>{y}</b>' + "".join(f'<span class="lvad">{x}</span>' for x in v) for y, v in by_year.items()]
+
+
 # ---------------------------------------------------------------- the entry
 
 def person_for(series, name):
@@ -2448,6 +2588,8 @@ def entry(series, linker, ptrs, p):
     works = series_works(series, linker, ptrs, name, subs, strict)
     sent_, named = frus_lists(name)
     ppp = app_list(name, sur)
+    rec = recordings_list(series, name)
+    tv = tv_list(series, name)
     out = [f'<section class="lv" id="{key_of(name)}"><h2 id="{key_of(name)}-h" data-crumb="{esc(sur)}">{esc(name)}</h2>']
     # the keys of the forms joined in this entry (frus_groups) stay anchors on it
     out[0] += "".join(f'<span id="{esc(k)}"></span>' for k in frus_keys_of(key_of(name)) if k != key_of(name))
@@ -2498,6 +2640,9 @@ def entry(series, linker, ptrs, p):
             fold=f"{nf:,} in {len(named)} {'volume' if len(named) == 1 else 'volumes'}")
     na = sum(x.count('class="lvad"') for x in ppp)
     section("Presidential documents that name", ppp, "None found.", "lvb lvf lvy", fold=f"{na:,}")
+    section("Television interviews", tv, "None found.", "lvb lvnb", fold=f"{len(tv):,}" if len(tv) > 12 else None)
+    nr = sum(x.count('class="lvad"') for x in rec)
+    section("White House recordings", rec, "None found.", "lvb lvf lvy", fold=f"{nr:,}")
     section("Secondary sources", by_date(g_about + babout))
     out.append("</section>")
     return "\n".join(out)

@@ -43,6 +43,9 @@ So every calendar entry has:
     it with `See [[id]]`. An entry that opens a new event within a thread carries its own.
   - the event elsewhere in the series: the list sections that treat it ("K–J Adm. II.D"), where the bibliography
     has not already given them.
+  - for an event done in private and documented in records nobody saw at the time (a recording, a memorandum, an FBI
+    file), where and when it became public: "Made public: Drew Pearson's column, May 24, 1968." The brief's "left a
+    trace, or should have left a trace": such events belong in the calendar, dated by the record.
   - `Names: …`, the list and Part III section of every person in `c` who has a Part III entry ("Names, events").
 - `tags`: a hidden `name:<key>` (the name entry's anchor: `name:mcnamara-robert-s`) for every person the entry
   names or whose act it records and who has a name entry, the President included where the entry is his message,
@@ -105,6 +108,9 @@ congress/switches.yaml    members who changed party in office (kept by hand)
 sources/states.yaml       each State's own official election publications, where to read them, what they print (kept by hand)
 daybook/<YYYY-MM>.yaml    every Public Papers (APP) and FRUS document by date (generated)
 daybook/abstracts.yaml    one-sentence abstracts, keyed by document (kept by hand or agent)
+daybook/recordings/<YYYY-MM>.yaml  every White House recording PRDE catalogues, July 1962–Jan. 10, 1966 (generated)
+daybook/sunday.yaml       the Sunday interview programs and their guests, 1961–Jan. 9, 1966 (generated; Meet the Press so far)
+sources/loc/              the Library of Congress finding-aid pages make_sunday.py reads (Spivak visual materials, pp020019)
 executive/<unit>.yaml     the Executive Branch, 1953–74: each department or agency, its offices, their law and holders (kept by hand)
 build/                    generated pages (git-ignored)
 tools/bib/                the code behind ./bib
@@ -557,7 +563,9 @@ Ala. 1962, N.M., N.D., Hawaii) has a dashed rule after the last winner, who is a
 Each entry: the Directory's description (or the Part III role), the pointers into the series, then the life as
 running text, with the date in each sentence; then Publications; FRUS documents sent; Oral histories given, papers,
 and other primary sources; Secondary sources; and, folded, the FRUS and presidential documents that name the
-person. Empty sections are left out, the Life too. The FRUS and presidential lists are bulleted, a little space between items
+person, and the White House recordings PRDE lists him speaking on (`recording_speakers`: PRDE's "Sr." and "II" are the
+bare name; its "Jr." takes a bare form only where none carries "Jr." and the son is not `strict`; not in a President's
+own entry). Empty sections are left out, the Life too. The FRUS and presidential lists are bulleted, a little space between items
 (`lvnb`) and between the presidential documents under each year (`lvad`), and no more between years. "In the series"
 leaves out the pointer the role line already gives (and is left out where that was its only one). Rules (the STYLE notes in `tools/bib/lives.py`):
 
@@ -885,6 +893,8 @@ day of a ranged entry, and the day's documents, closed by default, with "Expand 
 
 ```
 tools/daybook/make_daybook.py   writes daybook/<YYYY-MM>.yaml (needs the network; the build does not)
+tools/daybook/make_recordings.py  writes daybook/recordings/<YYYY-MM>.yaml from PRDE's catalogue (needs the network)
+tools/daybook/make_sunday.py      writes daybook/sunday.yaml from the Library's inventory and the TV listings
 tools/bib/daybook.py            lays the calendar out by day (STYLE notes at the top) and checks the data
 ```
 
@@ -907,6 +917,22 @@ tools/bib/daybook.py            lays the calendar out by day (STYLE notes at the
   "authors as persons" in `tools/daybook/make_daybook.py`. Titles are the sources' own;
   nothing is read or summarized by the generator.
 - FRUS citations carry the volume's title: "FRUS 1961–63, XXIV: Laos Crisis, doc. 4".
+- Sunday programs: a muted line under a Sunday's date, "*Meet the Press* (NBC): Hubert H. Humphrey", each guest linked to
+  his name entry, the source on hover. The record: the Library of Congress's inventory of Spivak's photographs of each
+  Meet the Press television program (Prints and Photographs, pp020019, LOT 13025), by show date, its guests written as
+  Part III writes names; the pages for Aug. 1959–Jan. 1966 are in `sources/loc/`. The Classic TV Archive's episode
+  guide (from the TV listings, to Aug. 25, 1963) fills a Sunday the inventory lacks; where it names another person, the
+  line carries "Listings: … Check." *Face the Nation* and *Issues and Answers* are not yet in: no list of them could be
+  read here (the printed *Face the Nation* transcripts, Holt, 1972–76, have an index volume). Each name entry lists the
+  person's programs ("Television interviews"). Guests and recording speakers are matched to persons by `person_named`
+  in `tools/bib/lives.py`.
+- Recordings: the White House tapes the Miller Center's Presidential Recordings Digital Edition (PRDE) catalogues,
+  Kennedy's from July 1962 and Johnson's, a third list after APP and FRUS: PRDE's title, linked to its page, the time,
+  "PRDE" and the tape cite ("Conversation WH6407-11-4288"). The catalogue only: the transcripts and the editors'
+  introductions are the Edition's text, behind its subscription, and are not taken or paraphrased; what was said comes
+  from published transcripts (Beschloss, *Taking Charge*, *Reaching for Glory*) and the studies. As a calendar entry's
+  primary record: `[Johnson and Robert Kennedy, 12:25 p.m.](https://prde.upress.virginia.edu/conversations/4000560),
+  Conversation WH6407-11-4288 (PRDE)`.
 - Abstracts go in `daybook/abstracts.yaml` (`key: sentence`), never in the generated
   files, so a rerun keeps them. Keys: `app:<slug>`, `frus:<volume>/<dN>`. `check` fails
   on an abstract whose key is not in the daybook.
