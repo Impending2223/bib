@@ -233,6 +233,10 @@ SENATE_HAND = [
      'source': 'Congressional Quarterly, Guide to U.S. Elections, 6th ed. (2010)'},
 ]
 
+# Why a seat fell vacant, where Wikipedia's tables are wrong, with the source.
+WHY = {'1965-12-15-h-CA-26': 'Resigned September 30, 1965, to become United States Representative to the UN Economic and '
+                            'Social Council (Biographical Directory, 2005, p. 1835).'}
+
 
 # ---------------------------------------------------------------- all
 
@@ -281,6 +285,8 @@ def main():
         if fix:
             rec.update(fix)
             rec['key'] = f"{rec['date']}-h-{st}-{seat}"
+        if rec['key'] in WHY:
+            rec['why'] = WHY[rec['key']]
         rec['flip'] = bool(rec['party'] and rec['out_party'] and rec['party'] != rec['out_party'])
         if rec['date'] in GENERAL:
             rec['with_general'] = True
