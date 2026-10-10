@@ -18,7 +18,7 @@ import datetime, difflib, html, os, re, sys, tempfile, time, urllib.parse, urlli
 import xml.etree.ElementTree as ET
 import yaml
 
-FROM, TO = '1961-01-01', '1965-01-20'
+FROM, TO = '1961-01-01', '1966-01-10'
 OUT = os.path.join(os.path.dirname(__file__), '..', '..', 'daybook')
 UA = {'User-Agent': 'Mozilla/5.0 (bibliography daybook)'}
 APP = 'https://www.presidency.ucsb.edu'
@@ -276,8 +276,10 @@ def display(p, names):
 
 
 # Names the lists misprint: the 1961-68 volumes give Ambassador Stevenson (d. July 14, 1965) as "III", his son's
-# suffix, as often as "II" (as tools/lives/frus_names.py's ERRATA); the son held no office FRUS records before 1969.
-ERRATA = {('Stevenson', 'Adlai E.', 'III'): ('Stevenson', 'Adlai E.', 'II')}
+# suffix, or "Jr." (1964-68, XII), as often as "II" (as tools/lives/frus_names.py's ERRATA); the son held no office
+# FRUS records before 1969.
+ERRATA = {('Stevenson', 'Adlai E.', 'III'): ('Stevenson', 'Adlai E.', 'II'),
+          ('Stevenson', 'Adlai E.', 'Jr.'): ('Stevenson', 'Adlai E.', 'II')}
 
 
 def persons(root):

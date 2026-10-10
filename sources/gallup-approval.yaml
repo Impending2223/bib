@@ -1,8 +1,8 @@
 # Kept by hand: Gallup's presidential job approval as published, read off the page images of
 # The Gallup Poll: Public Opinion, 1935-1971, vol. III (1972) (K-J Cong. II.E): the release date, page, field dates,
 # survey and question, the national figures, and approval by party where the book prints it. Fieldwork ending
-# Jan. 20, 1961 - Dec. 16, 1964; releases through Jan. 20, 1965 (none in Jan. 1965 read: the pages after p. 1914 are
-# not in hand). tools/indicators/make_polls.py sets these beside the American Presidency Project's
+# Jan. 20, 1961 - Dec. 16, 1965; releases through Jan. 10, 1966 (pp. 1707-1983; none released Dec. 23, 1965 -
+# Jan. 10, 1966). tools/indicators/make_polls.py sets these beside the American Presidency Project's
 # series (Gallup's figures as compiled today), which differ in places. series_from, series_to: the series' field dates
 # where the release prints others for the same survey.
 
@@ -415,3 +415,133 @@
   disapprove: 18
   no_opinion: 13
   note: 'No approval reading released between June 12 and Dec. 18, 1964.'
+- published: '1965-02-03'
+  page: 1922
+  from: '1965-01-07'
+  to: '1965-01-12'
+  survey: 704-K
+  question: '1'
+  president: Johnson
+  approve: 71
+  disapprove: 15
+  no_opinion: 14
+  note: 'Region 76/74/64/68. No approval reading released in Jan. 1965.'
+- published: '1965-03-26'
+  page: 1931
+  from: '1965-02-19'
+  to: '1965-02-24'
+  survey: 706-K
+  question: null
+  president: Johnson
+  approve: 68
+  disapprove: 18
+  no_opinion: 14
+  note: 'In the text of the release "President Johnson" (unfair treatment of groups), no question number; no table. None released for 705-K (Jan. 28-Feb. 2), which the series today gives (70/15/15).'
+- published: '1965-05-02'
+  page: 1936
+  from: '1965-04-23'
+  to: '1965-04-28'
+  survey: 710-KB
+  question: '1'
+  president: Johnson
+  approve: 67
+  disapprove: 22
+  no_opinion: 11
+  dem: 77
+  rep: 51
+  ind: 62
+  note: 'Party figures and full breakdowns on pp. 1937-38. Region 79/70/52/63; Southern whites 47, whites outside the South 71. The series today gives these figures (party within a point) to Apr. 2-7 (709-K), which the book prints no approval reading for, and 64/22/14 to Apr. 23-28: the book''s May 13-18 figures.'
+- published: '1965-05-30'
+  page: 1942
+  from: '1965-05-13'
+  to: '1965-05-18'
+  survey: 711-K
+  question: '2a'
+  president: Johnson
+  approve: 64
+  disapprove: 22
+  no_opinion: 14
+  dem: 79
+  rep: 47
+  ind: 55
+  note: 'The series today gives 70/18/12 to May 13-18: the book''s June 4-9 figures.'
+- published: '1965-06-18'
+  page: 1945
+  from: '1965-06-04'
+  to: '1965-06-09'
+  survey: 712-K
+  question: '2'
+  president: Johnson
+  approve: 70
+  disapprove: 18
+  no_opinion: 12
+  note: 'The series today gives 69/19/12 to June 4-9: the book''s June 24-29 figures.'
+- published: '1965-07-11'
+  page: 1949
+  from: '1965-06-24'
+  to: '1965-06-29'
+  survey: 713-K
+  question: '2a'
+  president: Johnson
+  approve: 69
+  disapprove: 19
+  no_opinion: 12
+  note: 'Foreign policy 60/25/15, domestic problems 63/27/10 (Q. 2b, 2c). The series today gives 65/21/14 to June 24-29.'
+- published: '1965-08-04'
+  page: 1955
+  from: '1965-07-16'
+  to: '1965-07-21'
+  survey: 714-K
+  question: '2a'
+  president: Johnson
+  approve: 65
+  disapprove: 20
+  no_opinion: 15
+  note: 'None released for 715-K (Aug. 5-10), which the series today gives (65/22/13). The Sept. 5 release (p. 1960; 716-K, Aug. 27-Sept. 1, Q. 2a) prints Negroes 88/4/8 and Southern whites 46/36/18 only, no national figure; the series today gives 64/25/11.'
+- published: '1965-10-03'
+  page: 1964
+  from: '1965-09-16'
+  to: '1965-09-21'
+  survey: 717-KC
+  question: '2'
+  president: Johnson
+  approve: 63
+  disapprove: 24
+  no_opinion: 13
+  note: 'Approving: region 77/65/47/63; white 60, non-white 90. Foreign policy 55/26/19, domestic problems 60/28/12 (p. 1965). None released for 718-K (Oct. 8-13), which the series today gives (66/21/13).'
+- published: '1965-11-05'
+  page: 1968
+  from: '1965-10-29'
+  to: '1965-11-02'
+  survey: 719-K
+  question: '2'
+  president: Johnson
+  approve: 66
+  disapprove: 21
+  no_opinion: 13
+  note: 'Figures on p. 1969, with what is liked best: Medicare, civil rights legislation, the anti-poverty program, Vietnam, Social Security benefits. The series today gives 65/22/13 to Oct. 29-Nov. 2, and the book''s figures to Oct. 8-13.'
+- published: '1965-11-26'
+  page: 1972
+  from: '1965-11-18'
+  to: '1965-11-23'
+  survey: 720-K
+  question: '2'
+  president: Johnson
+  approve: 64
+  disapprove: 22
+  no_opinion: 14
+  note: 'The series today gives 62/22/16 to Nov. 18-23: the book''s Dec. 11-16 figures.'
+- published: '1965-12-22'
+  page: 1977
+  from: '1965-12-11'
+  to: '1965-12-16'
+  survey: 721-K
+  question: '4'
+  president: Johnson
+  approve: 62
+  disapprove: 22
+  no_opinion: 16
+  dem: 74
+  rep: 46
+  ind: 58
+  note: 'Democrats, independents and the other breakdowns on p. 1978. Region 72/61/54/62. The series today gives 63/26/11 to Dec. 11-16. No approval reading released Dec. 23, 1965-Jan. 10, 1966.'

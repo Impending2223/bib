@@ -115,7 +115,7 @@ tools/executive/          the one-time script that seeded executive/ from POCOM
 | kja  | K–J Adm.  | Kennedy and Johnson administrations, 1961–69 |
 | kjc  | K–J Cong. | Congress, the nation, and the states, 1961–69 |
 | opp  | Opp.      | The Republican opposition, 1961–69           |
-| cal  | Cal.      | Calendar, Jan. 1961–Jan. 20, 1965 (87th and 88th Congresses); the primaries, 1960–76 |
+| cal  | Cal.      | Calendar, Jan. 1961–Jan. 10, 1966 (87th and 88th Congresses; the 89th's first session); the primaries, 1960–76 |
 | l68  | 1968      | The 1968 campaign ("the 1968 list")          |
 | adm  | Adm.      | Nixon and his administration, 1969–74        |
 | cong | Cong.     | Congress, the nation, and the states, 1969–74 |
@@ -124,11 +124,11 @@ tools/executive/          the one-time script that seeded executive/ from POCOM
 
 Parts: I portrayals, II sources, III names. A reference like "K–J Adm. II.D"
 is `lists/kja/II.D.yaml`. The calendar's files are named by month: `apr.yaml`
-for 1961, `apr62.yaml` for 1962, `apr63.yaml` for 1963, `apr64.yaml` for 1964 (`dec62.yaml` runs to Jan. 3, 1963;
-`dec63.yaml`, to Jan. 7, 1964; `jan64.yaml` from Jan. 8; `jan65.yaml` is Jan. 1–20, 1965), plus `th.yaml` (threads) and
+for 1961, `apr62.yaml` for 1962, `apr63.yaml` for 1963, `apr64.yaml` for 1964, `apr65.yaml` for 1965 (`dec62.yaml` runs to
+Jan. 3, 1963; `dec63.yaml`, to Jan. 7, 1964; `jan64.yaml` from Jan. 8; `jan66.yaml` is Jan. 1–10, 1966), plus `th.yaml` (threads) and
 `pro.yaml` (prologue); the primary seasons, `mar60.yaml`–`jul60.yaml` before the prologue and `mar68.yaml`–`aug76.yaml`
-after Jan. 1965, hold only the primaries and the conventions' openings for now. Its sections are numbered straight
-through, I to LXXV, in date order.
+after Jan. 1966, hold only the primaries and the conventions' openings for now. Its sections are numbered straight
+through, I to LXXXVII, in date order.
 
 ## Finding things (start here)
 
@@ -827,6 +827,10 @@ tools/bib/indicators.py       renders them (ORDER, GROUP) and checks them
 - Output gap: the CEA's estimates then (from the Reports) and the CBO's now
   (FRED GDPPOT against GDPC1, with its vintage), in separate rows: the concepts
   are not comparable, so each row leaves the other's column "—".
+- The balance of payments changes concept as the Reports did: the over-all balance (1961–63), the balance on regular
+  transactions (the January 1965 Report: 1963–64), then the liquidity balance and the official reserve transactions
+  balance (January 1966: 1964–65), each its own series, never one row (STYLE 8). Real GNP and the deflator move to 1958
+  prices with the benchmark revision of Aug. 19, 1965 (`BASE` in the script).
 - Money and credit (`kind: rate`; RATES and DISCOUNT in the script, `--only rates` to write them alone): a table
   of its own between the indicators and the approval table, under the same rule, two columns (Rate | Percent):
   rates are not revised, so one figure each, with its change in points. The federal funds rate, the prime, the
