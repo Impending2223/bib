@@ -827,6 +827,10 @@ tools/bib/indicators.py       renders them (ORDER, GROUP) and checks them
 - Output gap: the CEA's estimates then (from the Reports) and the CBO's now
   (FRED GDPPOT against GDPC1, with its vintage), in separate rows: the concepts
   are not comparable, so each row leaves the other's column "—".
+- The balance of payments changes concept as the Reports did: the over-all balance (1961–63), the balance on regular
+  transactions (the January 1965 Report: 1963–64), then the liquidity balance and the official reserve transactions
+  balance (January 1966: 1964–65), each its own series, never one row (STYLE 8). Real GNP and the deflator move to 1958
+  prices with the benchmark revision of Aug. 19, 1965 (`BASE` in the script).
 - Money and credit (`kind: rate`; RATES and DISCOUNT in the script, `--only rates` to write them alone): a table
   of its own between the indicators and the approval table, under the same rule, two columns (Rate | Percent):
   rates are not revised, so one figure each, with its change in points. The federal funds rate, the prime, the

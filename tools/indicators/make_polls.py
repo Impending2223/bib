@@ -16,7 +16,7 @@
 import datetime, html, os, re, urllib.request
 import yaml
 
-FROM, TO = '1961-01-20', '1965-01-20'
+FROM, TO = '1961-01-20', '1966-01-10'
 OUT = os.path.join(os.path.dirname(__file__), '..', '..', 'indicators')
 UA = {'User-Agent': 'bib-calendar/1.0 (research; github.com/impending2223/bib)'}
 APP = 'https://www.presidency.ucsb.edu/statistics/data/'
