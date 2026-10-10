@@ -397,7 +397,7 @@ class Linker:
                         continue
                     # the word it goes by: a form filed under it ('Diem, Ngo Dinh'; 'Ikeda, Hayato') or a title and it
                     # ('President Diem'); else the last word, where no other name of the section ends in it (Bui Diem)
-                    forms = [store.fold(f) for f in L.name_forms(n0)[1:]]
+                    forms = [f for f in (store.fold(f) for f in L.name_forms(n0)[1:]) if f != n]   # not its plain form
                     own = set(n.split())
                     if tok in own and any("," in f and f.split(",")[0].strip() == tok
                                           and set(f.split(",", 1)[1].split()) <= own

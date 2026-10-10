@@ -3,16 +3,16 @@
 Written by `./bib audit-cal` (`tools/bib/calaudit.py`): the dated entries checked against the brief in
 CLAUDE.md ("The calendar"). A review list: a hit is a place to look, not an error. Rerun after editing.
 
-1355 dated entries.
+1367 dated entries.
 
 | Check | Entries |
 |---|---|
-| A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 382 |
+| A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 383 |
 | (of which only a President's surname: Eisenhower, Kennedy, Johnson) | 2 |
 | Neither a bibliography of its own nor a `See [[id]]` back | 9 |
-| No primary record linked or named | 511 |
+| No primary record linked or named | 523 |
 | A primary record named but not linked | 0 |
-| Threads (statements listed for review) | 64 |
+| Threads (statements listed for review) | 65 |
 
 ## Names
 
@@ -551,6 +551,8 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1964-04-17.mississippi` (Apr. 17, XLVII apr64.yaml): Jackson. The second all-white jury in Beckwith's trial for Evers's murder cannot agree; mistrial. Beckwith out
   - ? Jackson: Jackson, Henry M. (K–J Cong. III.B, Cong. III.B); Jackson, Jimmie Lee (K–J Cong. III.K)
+- `cal.1964-04-26.civil-rights-organizations` (Apr. 26, XLVII apr64.yaml): Jackson. A COFO meeting founds the Mississippi Freedom Democratic Party, open to all, and elects a temporary S
+  - ? Jackson: Jackson, Henry M. (K–J Cong. III.B, Cong. III.B); Jackson, Jimmie Lee (K–J Cong. III.K)
 - `cal.1964-04-29.opinion` (Apr. 29, XLVII apr64.yaml): Gallup, Mar. 27–Apr. 1, Negro voters: Johnson 87, Lodge 7, undecided 6.
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1964-05-02.elections-1964` (May 2, XLVIII may64.yaml): Texas primary. Republican: Goldwater 74.7 percent, Lodge (write-in) 8.8.
@@ -849,6 +851,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1961-01-22.opinion` (Jan. 22, VIII jan.yaml): Gallup, Dec. 8–13, 1960: which country first to send a man into space. Russia 40 percent, the United States 35
 - `cal.1961-01-27.opinion` (Jan. 27, VIII jan.yaml): Gallup, Jan. 12–17: a Kennedy–Khrushchev summit this year. 54 percent for, 30 against.
 - `cal.1961-02-01.opinion` (Feb. 1, IX feb.yaml): Gallup, Jan. 12–17: a program sending young men abroad at government expense to give technical help, 71 percen
+- `cal.1961-02-01.civil-rights-organizations` (Feb. 1, IX feb.yaml): Farmer takes office as national director of CORE, from the NAACP's staff.
 - `cal.1961-02-10.opinion` (Feb. 10–15, IX feb.yaml): Gallup's first reading: 72 percent approve, 6 disapprove, 22 no opinion.
 - `cal.1961-02-10.opinion-2` (Feb. 10, IX feb.yaml): Gallup, Jan. 12–17: which country ahead in long-range missiles. The United States 49 percent, Russia 30.
 - `cal.1961-02-12.opinion` (Feb. 12, IX feb.yaml): Gallup, Jan. 12–17, in the South: will whites and Negroes one day share the same schools, restaurants, and pub
@@ -902,6 +905,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1961-07-30.opinion` (July 30, XIV jul.yaml): Gallup, June 23–28: of the 76 percent who had followed the Berlin dispute, 82 percent would keep American forc
 - `cal.1961-07-31.opinion` (July 31, XIV jul.yaml): Gallup, July 13–18: if Russia insists on controlling Berlin, war, 60 percent; no war, 31. Chances Russia gives
 - `cal.1961-08.mississippi` (Aug., XV aug.yaml): Bob Moses opens SNCC's voter registration school in McComb; registration attempts in Amite and Walthall Counti
+- `cal.1961-08.civil-rights-organizations` (Aug., XV aug.yaml): SNCC at the Highlander Folk School, Tennessee, mid-month: direct action or voter registration, the administrat
 - `cal.1961-08-02.opinion` (Aug. 2, XV aug.yaml): Gallup, July 13–18: back the Berliners' right to a free election, East Berlin included, even at the cost of wa
 - `cal.1961-08-20.opinion` (Aug. 20, XV aug.yaml): Gallup, July 27–Aug. 1: 5 percent have changed their homes against a nuclear attack; 20 have stored food.
 - `cal.1961-08-23.opinion` (Aug. 23, XV aug.yaml): Gallup, July 27–Aug. 1: federal youth camps like the CCC, good idea 80 percent, poor 13. Idle young men to be 
@@ -919,7 +923,9 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1961-09-24.opinion` (Sept. 24, XVI sep.yaml): Gallup, Aug. 24–29: would vote for a well-qualified Catholic nominated for President by their party, 82 percen
 - `cal.1961-09-25.mississippi` (Sept. 25, XVI sep.yaml): Herbert Lee, a farmer working with Moses, shot dead at the Liberty cotton gin by state representative E.H. Hur
 - `cal.1961-09-27.opinion` (Sept. 27, XVI sep.yaml): Gallup, Aug. 24–29: would vote for a well-qualified Jew nominated by their party, 68 percent; not, 23. For a N
+- `cal.1961-10.civil-rights-organizations` (Oct., XVII oct.yaml): Greenberg director-counsel of the NAACP Legal Defense and Educational Fund, succeeding Marshall, recess-appoin
 - `cal.1961-10-01.steel` (Oct. 1, XVII oct.yaml): The steelworkers' October wage step. Prices hold.
+- `cal.1961-10-01.civil-rights-organizations` (Oct. 1, XVII oct.yaml): Whitney Young takes office as executive director of the National Urban League, the board's unanimous choice to
 - `cal.1961-10-03.states-and-cities` (Oct. 3, XVII oct.yaml): Michigan's constitutional convention opens at Lansing. Romney a vice president.
 - `cal.1961-10-04.opinion-5` (Oct. 4, XVII oct.yaml): Gallup, Aug. 24–29: Kennedy 62, Nixon 38.
 - `cal.1961-10-13.peace-corps` (Oct. 13, XVII oct.yaml): A volunteer's postcard from Ibadan, describing squalor, found and published. Protests at the university; she g
@@ -953,6 +959,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1962-01-12.vietnam` (Jan. 12, XX jan62.yaml): Operation Chopper. American H-21s lift about a thousand ARVN paratroopers into action near Saigon.
 - `cal.1962-01-23.right-and-the-military` (Jan. 23, XX jan62.yaml): Stennis subcommittee hearings on the "muzzling" of officers open. Thurmond's doing.
 - `cal.1962-01-28.opinion` (Jan. 28, XX jan62.yaml): Gallup, Jan. 11–16: the United States to resume testing in the atmosphere, 46 percent; not, 43. Men 53 for, wo
+- `cal.1962-02.civil-rights-organizations` (Feb., XXI feb62.yaml): Clarksdale, Mississippi. SNCC and CORE workers and the State NAACP's leaders revive the Council of Federated O
 - `cal.1962-02-14.press-and-broadcasting` (Feb. 14, XXI feb62.yaml): Jacqueline Kennedy's tour of the White House, CBS and NBC. About fifty million viewers.
 - `cal.1962-02-16.opinion` (Feb. 16, XXI feb62.yaml): Gallup, Jan. 11–16: 53 percent have heard of the John Birch Society. Of them, 8 favorable, 43 unfavorable, 49 
 - `cal.1962-02-16.students` (Feb. 16–17, XXI feb62.yaml): Students picket the White House in snow for an end to nuclear testing and for disarmament, some thousands, the
@@ -1056,9 +1063,11 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1963-05-28.mississippi` (May 28, XXXVI may63.yaml): Jackson. Tougaloo students sit in at Woolworth's lunch counter; a crowd beats them for three hours, police out
 - `cal.1963-05-28.opinion-5` (May 28, XXXVI may63.yaml): Gallup, May 8–13: Kennedy 63, Rockefeller 32, undecided 5.
 - `cal.1963-05-30.civil-rights-the-executive` (May 30, XXXVI may63.yaml): Johnson at Gettysburg, Memorial Day: "The Negro today asks justice." Emancipation a proclamation, not a fact, 
+- `cal.1963-06.civil-rights-organizations` (June, XXXVII jun63.yaml): McDew resigns as SNCC's chairman, for his health. An emergency meeting of the coordinating committee elects Le
 - `cal.1963-06-11.specials` (June 11, XXXVII jun63.yaml): California 23d, special. Del Clawson (R) takes Clyde Doyle's seat, 53.2 to 35.4 over Carley Porter (D), four o
 - `cal.1963-06-16.opinion` (June 16, XXXVII jun63.yaml): Gallup, May 23–28: the Kennedy administration pushing integration too fast, 36 percent; not fast enough, 18; a
 - `cal.1963-06-19.opinion` (June 19, XXXVII jun63.yaml): Gallup, May 23–28: serious racial trouble here in the next two or three years, likely 22 percent, not likely 6
+- `cal.1963-06-19.civil-rights-organizations` (June 19, XXXVII jun63.yaml): New York, the Carlyle. Currier, of the Taconic Foundation, gives the leaders a breakfast for corporations and 
 - `cal.1963-06-21.opinion` (June 21, XXXVII jun63.yaml): Gallup, May 23–28: white parents who would object to a school where a few of the children are Negro, 10 percen
 - `cal.1963-06-22.civil-rights-bill` (June 22, XXXVII jun63.yaml): Kennedy meets some thirty civil rights leaders, King, Randolph, Wilkins, Young, Farmer, and Lewis among them. 
 - `cal.1963-06-23.opinion` (June 23, XXXVII jun63.yaml): Gallup, May 23–28, whites: would move if Negroes came to live next door, definitely 20 percent, might 25, woul
@@ -1161,6 +1170,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1964-04-12.opinion` (Apr. 12, XLVII apr64.yaml): Gallup, Mar. 27–Apr. 1, Democrats' choice for Vice President: Robert Kennedy 47, Stevenson 18, Humphrey 10, Sh
 - `cal.1964-04-14.elections-1964` (Apr. 14, XLVII apr64.yaml): Illinois primary. Republican: Goldwater 62.0 percent, Smith 25.3. Democratic: Johnson (write-in) 91.6 percent,
 - `cal.1964-04-21.elections-1964` (Apr. 21, XLVII apr64.yaml): New Jersey primary. Republican: Lodge (write-in) 41.7 percent, Goldwater (write-in) 28.0. Democratic: Johnson 
+- `cal.1964-04-26.civil-rights-organizations` (Apr. 26, XLVII apr64.yaml): Jackson. A COFO meeting founds the Mississippi Freedom Democratic Party, open to all, and elects a temporary S
 - `cal.1964-04-28.elections-1964` (Apr. 28, XLVII apr64.yaml): Primaries in Massachusetts and Pennsylvania. Republican: Lodge (write-in) in Massachusetts; Scranton (write-in
 - `cal.1964-04-28.specials` (Apr. 28, XLVII apr64.yaml): Pennsylvania 5th, special. William J. Green III (D), 25, holds his father's seat, 58.6 to 41.4 over the Republ
 - `cal.1964-04-29.opinion` (Apr. 29, XLVII apr64.yaml): Gallup, Mar. 27–Apr. 1, Negro voters: Johnson 87, Lodge 7, undecided 6.
@@ -1191,6 +1201,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1964-07-13.opinion` (July 13, L jul64.yaml): Gallup, June 25–30: Johnson 77, Goldwater 20, undecided 3; the South, Johnson 63, Goldwater 32. With Wallace t
 - `cal.1964-07-14.opinion` (July 14, L jul64.yaml): Gallup, June 25–30: Republicans' choice for 1964: Goldwater 22, Nixon 22, Lodge 21, Scranton 20, Rockefeller 6
 - `cal.1964-07-24.states-and-cities` (July 24–26, L jul64.yaml): Rochester. An arrest at a block party on Joseph Avenue; three nights of rioting. Rockefeller calls out the Nat
+- `cal.1964-07-29.civil-rights-organizations` (July 29, L jul64.yaml): New York, the NAACP's offices. After Harlem, Wilkins, King, Young and Randolph ask their members to suspend ma
 - `cal.1964-08-05.opinion` (Aug. 5, LI aug64.yaml): Gallup, July 23–28: 68 percent have heard of the John Birch Society. Of them, favorable 8, unfavorable 59, no 
 - `cal.1964-08-09.opinion` (Aug. 9, LI aug64.yaml): Gallup, July 23–28: Johnson 59, Goldwater 31, undecided 10; the undecided allocated, Johnson 61, Goldwater 36.
 - `cal.1964-08-12.elections-1964` (Aug. 12, LI aug64.yaml): Hershey, Pennsylvania. Goldwater meets Eisenhower, Nixon, Scranton, Rockefeller, Romney, and the party's gover
@@ -1212,6 +1223,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1964-11-03.specials` (Nov. 3, LIV nov64.yaml): Missouri 9th, special. Hungate (D) holds Clarence Cannon's seat, 62.5 to 37.5 over Schroeder (R); the same day
 - `cal.1964-11-03.specials-2` (Nov. 3, LIV nov64.yaml): Oregon 1st, special. Wyatt (R) holds Norblad's seat, 52.8 to 47.2 over Whipple (D); the same day, the full ter
 - `cal.1964-11-03.specials-3` (Nov. 3, LIV nov64.yaml): South Carolina 5th, special. Gettys (D) holds the seat Hemphill left for the federal bench, 66.8 to 33.2 over 
+- `cal.1964-11-06.civil-rights-organizations` (Nov. 6–12, LIV nov64.yaml): Waveland, Mississippi. SNCC's staff retreat after Atlantic City: some forty position papers on its program and
 - `cal.1964-11-11.opinion` (Nov. 11, LIV nov64.yaml): Gallup, Oct. 16–21: with one party for liberals and one for conservatives, liberal 37 percent, conservative 34
 - `cal.1964-11-13.opinion` (Nov. 13, LIV nov64.yaml): Gallup, Oct. 8–13: the Civil Rights Act enforced strictly from the beginning, 23 percent; a gradual, persuasiv
 - `cal.1964-11-18.civil-rights-the-executive` (Nov. 18, LIV nov64.yaml): Hoover, to a group of women reporters, calls King "the most notorious liar in the country." Nov. 21, the FBI m
@@ -1262,6 +1274,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1965-06-13.opinion` (June 13, LXI jun65.yaml): Gallup, May 13–18: a worker in a unionized plant required to join the union: should 43 percent, should not 49;
 - `cal.1965-06-15.specials` (June 15, LXI jun65.yaml): South Carolina 2nd, special. Watson, who resigned the seat Feb. 1 after the House Democratic caucus took his s
 - `cal.1965-06-27.opinion` (June 27, LXI jun65.yaml): Gallup, June 4–9: Republicans' best candidate for 1968: Nixon 25, Lodge 14, Goldwater 13, Romney 11, Dirksen 7
+- `cal.1965-07-01.civil-rights-organizations` (July 1–5, LXII jul65.yaml): CORE's convention, Durham: "The Negro Ghetto—An Awakening Giant." McKissick in the chair. A resolution against
 - `cal.1965-07-18.opinion` (July 18, LXII jul65.yaml): Gallup, June 24–29: those approving the Administration's handling of Vietnam: Johnson knows the situation 40 p
 - `cal.1965-07-25.opinion` (July 25, LXII jul65.yaml): Gallup, June 24–29: in admitting immigrants, very important: occupational skills 71 percent; relatives who are
 - `cal.1965-08-06.opinion` (Aug. 6, LXIII aug65.yaml): Gallup, July 16–21: the Johnson Administration pushing integration too fast, 40 percent; not fast enough, 13; 
@@ -1299,6 +1312,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1965-12-15.opinion` (Dec. 15, LXVII dec65.yaml): Gallup, Nov. 18–23: the Supreme Court's ruling that Communists cannot be required to register: approve 27 perc
 - `cal.1965-12-17.opinion` (Dec. 17, LXVII dec65.yaml): Gallup, Nov. 18–23: sending troops into Santo Domingo the right thing, 52 percent; wrong, 21. Our relations wi
 - `cal.1966-01-01.jobs-and-wages` (Jan. 1–13, LXVIII jan66.yaml): New York. Lindsay sworn as mayor; the Transport Workers Union strikes the subways and buses the same morning. 
+- `cal.1966-01-03.civil-rights-organizations` (Jan. 3, LXVIII jan66.yaml): CORE names McKissick national director, to succeed Farmer, who goes to a national literacy program. McKissick 
 - `cal.1966-01-04.states-and-cities` (Jan. 4, LXVIII jan66.yaml): Reagan announces for governor of California, on television. Check the date.
 - `cal.1966-01-07.opinion` (Jan. 7, LXVIII jan66.yaml): Gallup, Dec. 11–16, 1965: Communist China admitted to the UN: should 22 percent, should not 67. College-educat
 - `cal.1966-01-09.opinion` (Jan. 9, LXVIII jan66.yaml): Gallup, Dec. 11–16, 1965: Johnson's handling of Vietnam: approve 56 percent, disapprove 26. How long the fight
@@ -1356,10 +1370,11 @@ The brief: what the thread is, and its stations, in one or two clipped sentences
 | Albany | SNCC and King against segregation in Albany, Georgia, Nov. 1961–Aug. 1962. The station test; the Albany Movement; King jailed, December and July; Elliott's injunction; King leaves. |
 | Assassination | Kennedy killed at Dallas, and the inquiry. Nov. 22; Oswald killed; the funeral; the Warren Commission; the first witness; Ruby convicted; the Report; the hearings published. |
 | Berlin and Vienna | The second Berlin crisis, from the Vienna ultimatum to the wall and after. Vienna; the July buildup; Aug. 13; Clay in Berlin; Checkpoint Charlie; Powers for Abel; Fechter; Kennedy in Berlin. |
-| Black nationalism | Black nationalism as Washington met it: Malcolm X and the Nation of Islam. The "chickens" remark and the suspension; the break; "The Ballot or the Bullet"; the Organization of Afro-American Unity; the assassination. |
+| Black nationalism | Malcolm X and the Nation of Islam. The "chickens" remark and the suspension; the break; "The Ballot or the Bullet"; the Organization of Afro-American Unity; the assassination. |
 | Bobby Baker | The Senate majority's secretary and the Rules Committee's inquiry. Resignation, Oct. 7; Reynolds before the committee's staff; Johnson's statement; the Williams resolution tabled; the Select Committee on Standards and Conduct; the inquiry reopened. |
 | Cities and housing | Housing, the cities, and urban transit. The Housing Act of 1961; the Urban Affairs department refused, by Rules and by the House; Weaver; mass transit; the 1964 message; the Urban Mass Transportation Act; the Housing Act of 1964; Proposition 14; the 1965 message; HUD through the House; the Housing and Urban Development Act of 1965; the Department created; rent supplements. |
 | Civil rights bill | The civil rights bill from Kennedy's address to the Act and its first year. June 11; the message of June 19; the leaders at the White House; the Senate hearings; Judiciary's bill, Oct. 29; Johnson's joint session; the petition; Smith's hearings; the House, 290–130; the Senate takes it up; the filibuster; the Dirksen–Mansfield substitute; cloture, 71–29; the Senate, 73–27; the Act, July 2; Title II tested; the Community Relations Service; Title VI's regulations. |
+| Civil rights organizations | The organizations of the movement as organizations: the NAACP and its Legal Defense Fund, the Urban League, CORE, SCLC, SNCC, COFO, the Freedom Democrats, and their councils; their leaders, foundings, splits and statements. Farmer to CORE; Highlander; Greenberg and Young; the Albany Movement; COFO revived; the Voter Education Project; Lewis SNCC's chairman; the Council for United Civil Rights Leadership; the leaders at the White House; the Freedom Democratic Party; the moratorium; the compromise refused; Waveland; CORE at Durham; McKissick; SNCC against the war. |
 | Civil rights: the executive | What the President did for civil rights by appointment and order. Weaver; the equal employment committee; the new judgeships, Cox and Marshall; the housing order; the Commission's century report; Baldwin; the apprenticeship order; Cambridge; the Gesell committee and McNamara's directive; Hoover on King; the Council on Equal Opportunity; the Klan arrests; Howard University; Executive Order 11246; "To Fulfill These Rights". |
 | Confirmations | Nominations the Senate divided on by roll call. Meriwether; Holmes; the Power Commission; Robinson; McCone; McCloskey; Marshall to the Second Circuit; the satellite incorporators. |
 | Congo | The Congo's civil war and the UN's war in Katanga. Lumumba's death; Rumpunch; Hammarskjöld's death; U Thant; Kitona; Elisabethville and the end of secession; the UN's departure; Tshombe prime minister; Stanleyville taken; Dragon Rouge. |
@@ -1384,9 +1399,9 @@ The brief: what the thread is, and its stations, in one or two clipped sentences
 | Freedom Rides | CORE's rides to test *Boynton*, May 1961, and the ICC order that came of them. Anniston; Montgomery; Jackson and Parchman; the petition; the order, in force Nov. 1. |
 | Health | Health policy other than Medicare: drugs, mental health, the health professions. Thalidomide and Kelsey; the Drug Amendments; the mental health and retardation message and acts; maternal and child health; health professions; *Smoking and Health*; the DeBakey commission; the cigarette labeling act; heart disease, cancer, and stroke. |
 | Immigration | The national-origins quotas and their repeal. The 1963 message; the 1965 message; the House, the Senate, and the act signed at Liberty Island, Oct. 3, 1965. |
-| India and China | India's wars, American arms for India, and South Asia and Indonesia as Washington met them. Goa; the Chinese attack of October 1962; Nehru's request; Harriman's mission; Nehru's death; the Rann of Kutch; the Indo-Pakistani war and the cease-fire; Indonesia's coup; Ayub Khan in Washington; Tashkent. |
+| India and China | India's wars, American arms for India, and South Asia and Indonesia. Goa; the Chinese attack of October 1962; Nehru's request; Harriman's mission; Nehru's death; the Rann of Kutch; the Indo-Pakistani war and the cease-fire; Indonesia's coup; Ayub Khan in Washington; Tashkent. |
 | Jobs and wages | Unemployment, depressed areas, and wages. The recovery message; the minimum wage; area redevelopment and its 1963 defeat; manpower training; public works acceleration; youth employment; federal employees' unions; the 1964 Manpower Report; the Appalachian bill in the Senate; the Appalachian act; the longshoremen; the area-development message; 14(b) refused cloture; the public works act; New York's transit strike. |
-| King | Martin Luther King, Jr., and Washington: the President, the Attorney General, the Bureau. Montgomery's church besieged; Albany; Birmingham and the jail; the leaders at the White House; the March; the wiretaps; *Sullivan*; Hoover's "most notorious liar"; the Nobel Prize; Selma; Selma. |
+| King | Martin Luther King, Jr. The President, the Attorney General, the Bureau. Montgomery's church besieged; Albany; Birmingham and the jail; the leaders at the White House; the March; the wiretaps; *Sullivan*; Hoover's "most notorious liar"; the Nobel Prize; Selma and the march to Montgomery. |
 | Laos | The Laos crisis, from Eisenhower's warning to the Geneva accords and after. The March maps; the cease-fire; the conference; Nam Tha; troops to Thailand; the coalition; the neutrality declaration; the Plain of Jars, April 1963; Harriman in Moscow; the April coup; the Plain of Jars and the reconnaissance flights; the planes shot down. |
 | Latin America | The Alliance for Progress and the hemisphere's governments. The Alliance proposed; Trujillo killed, his family out; Punta del Este, 1961 and 1962; Goulart; coups in Argentina and Peru; Kennedy in Caracas, Bogotá, Mexico City; Bosch elected; San José; Chamizal; Bosch ousted; the Honduran coup; Panama's riots and the break, the joint declaration, the canal studies; Fulbright's "Old Myths"; Brazil's coup; the OAS sanctions on Cuba; Frei; the Chamizal; the Dominican Republic: the revolt, the Marines, the OAS force, Bundy's mission, the provisional government; Fulbright's speech; Panama. |
 | March on Washington | The March on Washington for Jobs and Freedom, Aug. 28, 1963. |
@@ -1401,17 +1416,17 @@ The brief: what the thread is, and its stations, in one or two clipped sentences
 | Right and the military | The radical right and the officers who spoke for it. The Birch Society; Walker relieved, admonished, resigned; Fulbright's memorandum; the crusades; the Seattle and Los Angeles speeches; the muzzling hearings; Walker at Oxford; Stevenson in Dallas. |
 | Rules | Majority rule in each chamber. The Rules Committee enlarged, then kept at fifteen; Rule XXII kept; Rayburn's absence; cloture refused on the literacy test, invoked on the satellite bill; the three-fifths rule refused, 1963; Pastore's germaneness rule. |
 | School aid | Federal aid to education, from the first great defeat to the acts of 1963 and 1965. The 1961 message; the Rules Committee's 8–7; Calendar Wednesday refused; the college bill recommitted; the omnibus bill; the college facilities and vocational acts; the Library Services and Construction Act; the NDEA amendments; the 1965 message; the Elementary and Secondary Education Act; the Higher Education Act. |
-| Soviet Union | The Soviet Union as Washington met it apart from Berlin, Cuba and testing: Khrushchev's last year; his removal, Oct. 1964; Brezhnev and Kosygin. |
+| Soviet Union | The Soviet Union apart from Berlin, Cuba and testing: Khrushchev's last year; his removal, Oct. 1964; Brezhnev and Kosygin. |
 | Space | The space race and the moon program. Gagarin; the Space Council; Shepard; the moon message; Grissom, Titov, Glenn, Carpenter, Schirra; Houston; Telstar; Rice Stadium; the moon first; Mariner 2; Cooper; the joint expedition offered; Cape Kennedy; Saturn I; Ranger 7; Gemini 3 to 7; the Manned Orbiting Laboratory. |
 | Special elections | The special elections that filled seats in the 87th, 88th and 89th Congresses. Johnson's Senate seat to Tower; twelve House seats, three to widows; six House seats in 1963; three House seats in the spring of 1964, three with the November election; four House seats in 1965, Watson's among them. |
 | States and cities | State and city politics. The Twenty-Third Amendment; Tower; Yorty; Atlanta's schools; Wagner against Tammany; Michigan's convention and Romney; the elections of 1961; Gantt at Clemson; the elections of 1963; the Alaska earthquake; Harlem and Rochester; Hoover's riot report; Berkeley; District home rule; Watts; Lindsay elected; the Northeast blackout; Reagan announces. |
 | Steel | Steel prices and the guideposts. The letter of September 1961; the early settlement; the April price rise and its rescission; the selective increases of 1963; the 1965 settlement; Bethlehem's price rise. |
-| Students | College and university students in politics: their organizations, demonstrations, and manifestos. The peace pickets at the White House; Port Huron; Tougaloo's sit-in; Freedom Summer's volunteers; Berkeley, the police car and Sproul Hall; the teach-ins; SDS's march; Vietnam Day; the draft-card law; the Days of Protest; Morrison; SANE's march; SNCC against the war. |
+| Students | College and university students in politics. The peace pickets at the White House; Port Huron; Tougaloo's sit-in; Freedom Summer's volunteers; Berkeley, the police car and Sproul Hall; the teach-ins; SDS's march; Vietnam Day; the draft-card law; the Days of Protest; Morrison; SANE's march; SNCC against the war. |
 | Succession | Johnson's first weeks, and the succession amended. The oath; the joint session; the Kennedy program; the budget; the disability amendment in the Senate; the disability message; the Twenty-fifth Amendment through Congress; Johnson's surgery. |
 | Testing | Nuclear testing and arms control. The Soviet resumption; American tests underground; ACDA; the fifty megatons; atmospheric tests resumed; Geneva; Starfish Prime; Khrushchev's inspection offer; American University; the hot line; Moscow; the treaty and the Senate's consent; the Geneva proposals; the cut in fissionable material; China's test. |
 | Trade | Trade, from the Trade Expansion Act to the wheat sale. The House and Senate votes; Herter named; the new tariff schedules; Canada's wheat sale; the American sale and Mundt's bill; the longshoremen's boycott; the Kennedy Round opens; the automotive agreement. |
 | Transition and staff | The administration's people and organization. The cabinet; the NSC remade; the back injury; Taylor at the White House; McCone for Dulles; the Thanksgiving reshuffle; Joseph Kennedy's stroke; Hoover's lunch; Taylor to the Joint Chiefs; Gronouski for Day; Sorensen leaves; Shriver; Hoover kept past seventy; Robert Kennedy resigns; Heller and Hodges go; the inauguration, Jan. 20, 1965; Katzenbach; Fowler for Dillon; Raborn for McCone; Stevenson's death; O'Brien and Gronouski. |
-| Vietnam | The deepening commitment in Vietnam. The counterinsurgency plan; Johnson's trip; NSAM 52; Staley; Taylor–Rostow; NSAM 111; helicopters and the first dead; MACV; strategic hamlets; Galbraith's dissent; McNamara's visits; Mansfield's report; Ap Bac; the Buddhist crisis; Lodge; cable 243; McNamara–Taylor; the coup; NSAM 273; Khanh's coup; NSAM 280; McNamara–Taylor and NSAM 288; Honolulu; Seaborn; Taylor for Lodge; the Gulf of Tonkin, Aug. 2 and 4; Pierce Arrow; the resolution; Vung Tau; NSAM 314; Akron; the High National Council; Bien Hoa; Bundy's working group; the December decisions; the Brink Hotel; Bundy's report; Pleiku and Flaming Dart; Rolling Thunder; Da Nang; NSAM 328; Johns Hopkins; the 173d; the May pause; Westmoreland's request; the B-52s; July 28; Starlite; Ia Drang; the pause and the peace offensive. |
+| Vietnam | The deepening commitment in Vietnam. The counterinsurgency plan; Johnson's trip; NSAM 52; Staley; Taylor–Rostow; NSAM 111; helicopters and the first dead; MACV; strategic hamlets; Galbraith's dissent; McNamara's visits; Mansfield's report; Ấp Bắc; the Buddhist crisis; Lodge; cable 243; McNamara–Taylor; the coup; NSAM 273; Khánh's coup; NSAM 280; McNamara–Taylor and NSAM 288; Honolulu; Seaborn; Taylor for Lodge; the Gulf of Tonkin, Aug. 2 and 4; Pierce Arrow; the resolution; Vũng Tàu; NSAM 314; Akron; the High National Council; Biên Hòa; Bundy's working group; the December decisions; the Brink Hotel; Bundy's report; Pleiku and Flaming Dart; Rolling Thunder; Đà Nẵng; NSAM 328; Johns Hopkins; the 173d; the May pause; Westmoreland's request; the B-52s; July 28; Starlite; Ia Drang; the pause and the peace offensive. |
 | Voting rights | Voting rights in Congress and the field. The poll tax amendment and its ratification; the Voter Education Project; the literacy-test filibuster; the referees asked; the Twenty-fourth Amendment ratified; King's Nobel; Selma; Selma, Marion, Bloody Sunday; "The American Promise"; the bill through the Senate and the House; the Voting Rights Act, Aug. 6, 1965; its first examiners. |
 | War on poverty | The war on poverty, from the State of the Union of Jan. 8, 1964: Shriver's task force; the poverty message; the Economic Opportunity Act; the Office of Economic Opportunity; the 1965 letter; Head Start; the Economic Opportunity Amendments. |
 | Welfare | Public assistance and Social Security. Aid to children of the unemployed; the Social Security Amendments of 1961; the Public Welfare Amendments of 1962; the Older Americans Act. |
