@@ -1,0 +1,271 @@
+patch: south-1964-four
+by: south-1964 drafter (Georgia, Louisiana, Mississippi, South Carolina)
+ops:
+  # Part III: persons the new entries name who have no name entry
+  - add:
+      entry: {id: kjc.who.allen-louis, s: 'Allen, Louis', r: 'Logger of Amite County, Mississippi; witness to Herbert Lee''s killing, 1961; shot dead Jan. 31, 1964'}
+      section: III.K
+  - add:
+      entry: {id: kjc.who.brown-john-r, s: 'Brown, John R.', r: 'Fifth Circuit, from 1955; Chief Judge, 1967–79'}
+      section: III.K
+  - add:
+      entry: {id: kjc.who.devine-annie, s: 'Devine, Annie', r: 'Freedom Democrat; contestant of Mississippi''s 4th District seat, 1964–65'}
+      section: III.K
+  - add:
+      entry: {id: kjc.who.gray-victoria-jackson, s: 'Gray, Victoria Jackson', r: 'Freedom Democrat of Hattiesburg; against Stennis in the Democratic primary, June 2, 1964; contestant of Mississippi''s 5th District seat, 1964–65'}
+      section: III.K
+  - add:
+      entry: {id: kjc.who.mckeithen-john-j, s: 'McKeithen, John J.', r: 'Governor of Louisiana, 1964–72'}
+      section: III.K
+  - add:
+      entry: {id: kjc.who.mize-sidney-c, s: 'Mize, Sidney C.', r: 'District judge, Southern District of Mississippi'}
+      section: III.K
+  - add:
+      entry: {id: kjc.who.myers-cecil-william, s: 'Myers, Cecil William', r: 'Of Athens, Georgia; acquitted of Penn''s murder, Sept. 4, 1964; convicted of conspiracy in federal court, 1966'}
+      section: III.K
+  - add:
+      entry: {id: kjc.who.penn-lemuel-a, s: 'Penn, Lemuel A.', r: 'Assistant superintendent of the District of Columbia''s schools, lieutenant colonel in the Army Reserve; shot dead in Madison County, Georgia, July 11, 1964'}
+      section: III.K
+  - add:
+      entry: {id: kjc.who.quin-aylene, s: 'Quin, Aylene', r: 'Of McComb, Mississippi; her house bombed Sept. 20, 1964; at the White House, Sept. 24'}
+      section: III.K
+  - add:
+      entry: {id: kjc.who.sanders-carl-e, s: 'Sanders, Carl E.', r: 'Governor of Georgia, 1963–67'}
+      section: III.K
+  - add:
+      entry: {id: kjc.who.sims-joseph-howard, s: 'Sims, Joseph Howard', r: 'Of Athens, Georgia; acquitted of Penn''s murder, Sept. 4, 1964; convicted of conspiracy in federal court, 1966'}
+      section: III.K
+  - add:
+      entry: {id: kjc.who.west-e-gordon, s: 'West, E. Gordon', r: 'District judge, Eastern District of Louisiana, from 1961'}
+      section: III.K
+
+  # Works cited in several new entries
+  - add:
+      entry: {id: kjc.shipp-murder-at-broad-river, c: 'Bill Shipp, *Murder at Broad River Bridge* (1981)', n: 'Penn''s killing and the trials, by an *Atlanta Constitution* reporter.'}
+      section: II.H
+      after: kjc.bass-unlikely-heroes
+  - add:
+      entry: {id: kjc.fairclough-race-and-democracy, c: 'Adam Fairclough, *Race and Democracy: The Civil Rights Struggle in Louisiana, 1915–1972* (1995)'}
+      section: II.H
+      after: kjc.carter-politics-of-rage
+
+  # The calendar, 1964
+  - add:
+      entry:
+        id: cal.1964-01-31.mississippi
+        when: Jan. 31
+        date: '1964-01-31'
+        thread: mississippi
+        c: 'Liberty, Amite County. Louis Allen, who saw Hurst kill Herbert Lee in 1961 and testified to self-defense, then told SNCC, the FBI and the Civil Rights Commission otherwise, shot dead at his gate the night before he was to leave the State. The FBI had referred his reports of threats to the Highway Patrol. Its inquiry closed in May: no voting work, so no federal jurisdiction.'
+        n: 'Civil Rights Division, [Notice to Close File, Louis Allen](https://www.justice.gov/crt/case-document/file/1194136/dl) (May 19, 2015). Dittmer, *Local People*; Payne, *I''ve Got the Light of Freedom* (K–J Cong. II.F). See [[cal.1961-09-25.mississippi]]. Made public: the Civil Rights Division''s notice closing the file, May 19, 2015, from the FBI''s memoranda of 1961–64. Names: Allen, Hurst (K–J Cong. III.K); Lee (K–J Cong. III.H).'
+        tags: [name:allen-louis, name:hurst-e-h, name:lee-herbert]
+  - add:
+      entry:
+        id: cal.1964-02-20.court
+        when: Feb. 20
+        date: '1964-02-20'
+        thread: court
+        also: [states-and-cities]
+        c: 'New Orleans. A three-judge court, Ellis writing with West, Wisdom dissenting, dismisses the Southern Conference Educational Fund''s suit to enjoin its prosecution under Louisiana''s Subversive Activities and Communist Control Law and Communist Propaganda Control Law. State police had seized its papers under search warrants, Oct. 4, 1963; the legislature''s Joint Committee on Un-American Activities named it a "communist front," Nov. 8.'
+        n: '*Dombrowski v. Pfister*, [227 F. Supp. 556](https://static.case.law/f-supp/227/html/0556-01.html) (E.D. La. 1964). Reversed: [[cal.1965-04-26.court]]. Fairclough, *Race and Democracy* (K–J Cong. II.H). Powe, *The Warren Court and American Politics* (K–J Cong. II.G). Names: Wisdom (K–J Cong. III.G); West (K–J Cong. III.K).'
+        tags: [name:ellis-frank-b, name:west-e-gordon, name:wisdom-john-minor]
+  - add:
+      entry:
+        id: cal.1964-03-06.voting-rights
+        when: Mar. 6
+        date: '1964-03-06'
+        thread: voting-rights
+        also: [mississippi, court]
+        c: 'Jackson. A three-judge court dismisses the Government''s suit against Mississippi''s registration laws: the test of 1955, that an applicant read, write and interpret any section of the State constitution; the "good moral character" requirement of 1960; the statutes of 1962. The State not a proper defendant; the laws valid on their face. Cameron writing, with Cox; Brown dissents, Mar. 23.'
+        n: '*United States v. Mississippi*, [229 F. Supp. 925](https://static.case.law/f-supp/229/html/0925-01.html) (S.D. Miss. 1964). Reversed: [[cal.1965-03-08.court]]. Lawson, *Black Ballots* (K–J Cong. II.C). Landsberg, *Enforcing Civil Rights* (K–J Adm. II.C). Bass, *Unlikely Heroes* (K–J Cong. II.H). Dittmer, *Local People* (K–J Cong. II.F). Names: Cameron, Cox (K–J Cong. III.G); Brown (K–J Cong. III.K).'
+        tags: [name:cameron-ben-f, name:cox-w-harold, name:brown-john-r]
+  - add:
+      entry:
+        id: cal.1964-04-06.mississippi
+        when: Apr. 6
+        date: '1964-04-06'
+        thread: mississippi
+        also: [court]
+        c: '*United States v. Barnett*, [376 U.S. 681](https://tile.loc.gov/storage-services/service/ll/usrep/usrep376/usrep376681/usrep376681.pdf). Barnett and Paul Johnson, charged with criminal contempt of the Fifth Circuit''s orders for Meredith''s admission, Sept. 1962, have no right to a jury, 5–4. Clark for the Court; a note: some members think punishment without a jury limited to that for petty offenses. Black, Douglas, Goldberg and Warren dissent.'
+        n: '*United States v. Barnett* (K–J Adm. II.H.1). Doyle, *An American Insurrection* (K–J Adm. II.C). See [[cal.1962-09-20.mississippi]]. Names: Barnett, Johnson (K–J Cong. III.F); Meredith (K–J Cong. III.H); Clark, Black, Douglas, Goldberg, Warren (K–J Cong. III.G).'
+        tags: [name:barnett-ross-r, name:johnson-paul-b-jr, name:meredith-james-h, name:clark-tom-c, name:black-hugo-l, name:douglas-william-o, name:goldberg-arthur-j, name:warren-earl]
+  - add:
+      entry:
+        id: cal.1964-06-23.mississippi
+        when: June 23–24
+        date: '1964-06-23'
+        thread: mississippi
+        c: 'Johnson and Eastland, 3:59 p.m., on the missing three: Eastland takes it for a publicity stunt; should the President call Paul Johnson? 4:25: Eastland, having called the governor, reports his doubts too and asks that an impartial observer be sent; Johnson tells him the burned car has been found. 8:21 p.m., Johnson and Paul Johnson. June 24, to Stennis: Dulles to go as an observer.'
+        n: '[Johnson and Eastland, 3:59 p.m.](https://prde.upress.virginia.edu/conversations/9080015), Tape WH6406.14, Citation #3836 (PRDE); [4:25 p.m.](https://prde.upress.virginia.edu/conversations/9080021), Tape WH6406.14, Citation #3845 (PRDE); [Johnson and Paul Johnson, 8:21 p.m.](https://prde.upress.virginia.edu/conversations/9080046), Tape WH6406.16, Citation #3878 (PRDE); [Johnson and Stennis, June 24, 5:32 p.m.](https://prde.upress.virginia.edu/conversations/9080056), Tape WH6406.16, Citation #3892 (PRDE). The catalogue''s words: "Eastland''s view of situation as publicity stunt." *Taking Charge* (K–J Adm. II.J). See [[cal.1964-06-21.mississippi]]. Made public: the recordings, opened by the LBJ Library. Check the year. Names: Johnson (K–J Adm. III.D); Eastland, Stennis (K–J Cong. III.B); Paul Johnson (K–J Cong. III.F); Dulles (K–J Adm. III.I).'
+        tags: [name:johnson-lyndon-b, name:eastland-james-o, name:johnson-paul-b-jr, name:stennis-john-c, name:dulles-allen-w]
+  - add:
+      entry:
+        id: cal.1964-06-30.states-and-cities
+        when: June 30
+        date: '1964-06-30'
+        thread: states-and-cities
+        also: [court]
+        c: 'Atlanta. A three-judge court holds the Georgia House malapportioned. The November elections to go on as they are; a House apportioned by population to sit by January 1966; the 1965 House held to its regular 45-day session, reapportionment aside; the new State constitution the legislature has proposed kept off the ballot until then. Black refuses a stay, July 6. The constitution lapses unsubmitted.'
+        n: '*Fortson v. Toombs*, [379 U.S. 621](https://tile.loc.gov/storage-services/service/ll/usrep/usrep379/usrep379621/usrep379621.pdf) (1965): the order of June 30 at App. A. *Toombs v. Fortson*, [205 F. Supp. 248](https://static.case.law/f-supp/205/html/0248-01.html) (N.D. Ga. 1962). Ansolabehere & Snyder, *The End of Inequality*; Smith, *On Democracy''s Doorstep* (K–J Cong. II.H). See [[cal.1964-06-15.court]]. Names: Black (K–J Cong. III.G).'
+        tags: [name:black-hugo-l]
+  - add:
+      entry:
+        id: cal.1964-07-06.desegregation-schools
+        when: July 6
+        date: '1964-07-06'
+        thread: desegregation-schools
+        also: [mississippi]
+        c: 'Jackson. Mize, in the city''s school case, finds that differences between Negro and white pupils justify separate schools; bound by the Fifth Circuit''s Savannah opinion, he makes his injunction permanent, the first grade open to all this fall, his order "contrary to the facts and the law," and asks that *Brown* be reconsidered. The first-named plaintiff, Darrell Kenyatta Evers, Medgar Evers''s son. Biloxi and Leake County under like orders. Biloxi''s first grades open so Aug. 31, the first public schools desegregated in Mississippi; Leake County and Jackson that week. Check the dates.'
+        n: '*Evers v. Jackson Municipal Separate School District*, [232 F. Supp. 241](https://static.case.law/f-supp/232/html/0241-01.html) (S.D. Miss. 1964); *Evers v. Jackson Municipal Separate School District*, [328 F.2d 408](https://static.case.law/f2d/328/html/0408-01.html) (5th Cir. 1964), with the Biloxi and Leake County cases. Dittmer, *Local People* (K–J Cong. II.F). Bass, *Unlikely Heroes* (K–J Cong. II.H). See [[cal.1964-06-18.desegregation-schools]]. Names: Mize (K–J Cong. III.K); Evers (K–J Cong. III.H).'
+        tags: [name:mize-sidney-c, name:evers-medgar]
+  - add:
+      entry:
+        id: cal.1964-07-09.civil-rights-bill
+        when: July 9
+        date: '1964-07-09'
+        thread: civil-rights-bill
+        also: [confirmations]
+        c: 'Commerce Committee, on Collins''s nomination to the Community Relations Service. Thurmond, at the door to keep late Senators from making a quorum, wrestles Yarborough to the floor; Magnuson parts them. The committee reports the nomination, 16–1.'
+        n: 'Senate Historical Office, ["Pinned"](https://www.senate.gov/artandhistory/history/minute/pinned.htm). Wagy, *Governor LeRoy Collins of Florida* (K–J Cong. II.I.3). Crespino, *Strom Thurmond''s America* (Opp. II.F). See [[cal.1964-07-02.civil-rights-bill]]. Names: Thurmond, Yarborough, Magnuson (K–J Cong. III.B); Collins (K–J Cong. III.F).'
+        tags: [name:thurmond-strom, name:yarborough-ralph, name:magnuson-warren-g, name:collins-leroy]
+  - add:
+      entry:
+        id: cal.1964-07-11.civil-rights-the-executive
+        when: July 11
+        date: '1964-07-11'
+        thread: civil-rights-the-executive
+        also: [states-and-cities]
+        c: 'Madison County, Georgia, in the early morning. Lemuel Penn, 48, a lieutenant colonel of the Army Reserve and assistant superintendent of the District of Columbia''s schools, driving home from training at Fort Benning with two other Negro reserve officers, shot dead from a passing car on the Broad River bridge near Colbert. 12:27 p.m., Sanders to Johnson: the State''s inquiry; a federal one perhaps needed. The FBI takes the case. Sanders: "ashamed."'
+        n: '[Johnson and Sanders, 12:27 p.m.](https://prde.upress.virginia.edu/conversations/4000554), Conversation WH6407-07-4216 (PRDE). *New Georgia Encyclopedia*, ["Lemuel Penn Murder"](https://www.georgiaencyclopedia.org/articles/history-archaeology/lemuel-penn-murder/). Shipp, *Murder at Broad River Bridge* (K–J Cong. II.H). *United States v. Guest*, [383 U.S. 745](https://tile.loc.gov/storage-services/service/ll/usrep/usrep383/usrep383745/usrep383745.pdf) (1966) (K–J Adm. II.H.1). Made public: the recording, opened by the LBJ Library. Check the year. Names: Penn, Sanders (K–J Cong. III.K); Johnson (K–J Adm. III.D).'
+        tags: [name:penn-lemuel-a, name:sanders-carl-e, name:johnson-lyndon-b]
+  - add:
+      entry:
+        id: cal.1964-07-29.desegregation-schools
+        when: July 29–Aug. 12
+        date: '1964-07-29'
+        thread: desegregation-schools
+        c: 'South Carolina. On the Government''s suit of July 2, Hemphill enjoins Sumter County School District No. 2 from turning away the some 970 children of Shaw Air Force Base, its schools built with $910,465 of federal aid on its assurance they would be open to them; the district had told the base, May 11, it would take them no longer. Aug. 8, on the suit of thirteen Negro children, Hemphill orders the district''s schools open to them this fall and to all by choice from 1965–66. Aug. 12, the same court orders the like for Orangeburg.'
+        n: '*United States v. Sumter County School District No. 2*, [232 F. Supp. 945](https://static.case.law/f-supp/232/html/0945-01.html) (E.D.S.C. 1964); *Randall v. Sumter School District No. 2*, [232 F. Supp. 786](https://static.case.law/f-supp/232/html/0786-01.html) (E.D.S.C. 1964); *Adams v. School District No. 5, Orangeburg County*, [232 F. Supp. 692](https://static.case.law/f-supp/232/html/0692-01.html) (E.D.S.C. 1964). Landsberg, *Enforcing Civil Rights* (K–J Adm. II.C). See [[cal.1964-06-18.desegregation-schools]].'
+        tags: [name:hemphill-robert-w]
+  - add:
+      entry:
+        id: cal.1964-08-06.mississippi
+        when: Aug. 6
+        date: '1964-08-06'
+        thread: mississippi
+        also: [civil-rights-organizations, elections-1964]
+        c: 'Jackson, the Masonic Temple. The Freedom Democrats'' State convention, nearly 2,500 present; Ella Baker the keynote. A delegation of 68 chosen to contest the regulars'' seats at Atlantic City.'
+        n: 'SNCC Digital Gateway, [MFDP holds state convention](https://snccdigital.org/events/mfdp-holds-state-convention/) (K–J Cong. II.L). Dittmer, *Local People*; McAdam, *Freedom Summer*; Carson, *In Struggle* (K–J Cong. II.F). See [[cal.1964-04-26.civil-rights-organizations]]. Names: Baker (K–J Cong. III.H).'
+        tags: [name:baker-ella]
+  - add:
+      entry:
+        id: cal.1964-08-07.desegregation-schools
+        when: Aug. 7–15
+        date: '1964-08-07'
+        thread: desegregation-schools
+        c: 'St. Helena Parish, Louisiana. July 9, the Fifth Circuit, Tuttle writing, had ordered West by mandamus to require a desegregation plan, in a suit begun eleven years before: a "really extraordinary case." West orders the plan, with a reply to the court. Aug. 7, Robert Kennedy, then Lee White with Katzenbach''s advice to make a record of efforts to avoid federal force, urge a call: Johnson asks McKeithen''s assurance that the State will keep order and the schools desegregate without federal forces. Schools open Aug. 12. Aug. 15, Johnson asks Boggs, then McKeithen, about reports that he threatened federal force.'
+        n: '*Hall v. West*, [335 F.2d 481](https://static.case.law/f2d/335/html/0481-01.html) (5th Cir. 1964); *Hall v. St. Helena Parish School Board*, [233 F. Supp. 136](https://static.case.law/f-supp/233/html/0136-01.html) (E.D. La. 1964). [Johnson and Robert Kennedy, 12:00 p.m.](https://prde.upress.virginia.edu/conversations/4000593), Conversation WH6408-10-4793 (PRDE); [Johnson and Lee White, 1:30 p.m.](https://prde.upress.virginia.edu/conversations/4000595), Conversation WH6408-10-4798 (PRDE); [1:47 p.m.](https://prde.upress.virginia.edu/conversations/4000596), Conversation WH6408-10-4800 (PRDE); [4:15 p.m.](https://prde.upress.virginia.edu/conversations/4002763), Conversation WH6408-11-4811 (PRDE); [Johnson and McKeithen, 4:50 p.m.](https://prde.upress.virginia.edu/conversations/4002764), Conversation WH6408-11-4814 (PRDE); [Johnson and Boggs, Aug. 15, 2:25 p.m.](https://prde.upress.virginia.edu/conversations/4000602), Conversation WH6408-22-4954, 4955 (PRDE); [Johnson and McKeithen, Aug. 15, 3:15 p.m.](https://prde.upress.virginia.edu/conversations/4000603), Conversation WH6408-23-4965, 4966, 4967, 4968 (PRDE). NAACP Legal Defense Fund, ["Three Negroes Integrate Rural Louisiana School"](https://ldfrecollection.org/archives/archives-search/archives-item/9149cacc-8f91-42ca-b6e8-5364cf033de0/three-negroes-integrate-rural-louisiana-school) (Aug. 21, 1964). Fairclough, *Race and Democracy*; Bass, *Unlikely Heroes* (K–J Cong. II.H). See [[cal.1964-07-06.desegregation-schools]]. Made public: the recordings, opened by the LBJ Library. Check the year. Names: Tuttle (K–J Cong. III.G); West, McKeithen (K–J Cong. III.K); Robert Kennedy (K–J Adm. III.A); White (K–J Adm. III.B); Katzenbach (K–J Adm. III.I); Johnson (K–J Adm. III.D); Boggs (K–J Cong. III.C).'
+        tags: [name:tuttle-elbert-p, name:west-e-gordon, name:kennedy-robert-f, name:white-lee-c, name:katzenbach-nicholas, name:johnson-lyndon-b, name:mckeithen-john-j, name:boggs-hale]
+  - add:
+      entry:
+        id: cal.1964-08-22.elections-1964
+        when: Aug. 22–23
+        date: '1964-08-22'
+        thread: elections-1964
+        also: [mississippi]
+        c: 'Johnson and Eastland, seven calls, on the Mississippi regulars at Atlantic City: the settlement proposed for seating the Mississippi and Alabama delegations; a pledge to support the nominee; the party''s rules hereafter on Negroes'' part in choosing delegates. Eastland reports his talks with Paul Johnson and the State convention''s near endorsement of Goldwater; the President reads him a statement for the regulars, of their intent to support the nominee. Aug. 23: the governor has told the regulars they may vote as they want, without reprisal.'
+        n: '[Johnson and Eastland, 11:00 a.m.](https://prde.upress.virginia.edu/conversations/4002815), Conversation WH6408-32-5117 (PRDE); [12:02 p.m.](https://prde.upress.virginia.edu/conversations/4002816), Conversation WH6408-33-5121, 5122 (PRDE); [6:21 p.m.](https://prde.upress.virginia.edu/conversations/4002817), Conversation WH6408-33-5130 (PRDE); [7:10 p.m.](https://prde.upress.virginia.edu/conversations/4002818), Conversation WH6408-33-5131 (PRDE); [Aug. 23, 3:35 p.m.](https://prde.upress.virginia.edu/conversations/4002819), Conversation WH6408-33-5133 (PRDE); [3:55 p.m.](https://prde.upress.virginia.edu/conversations/4002820), Conversation WH6408-33-5134 (PRDE); [4:56 p.m.](https://prde.upress.virginia.edu/conversations/4002832), Conversation WH6408-34-5138 (PRDE). The catalogue gives the governor as "unnamed person (Gov. Paul Johnson?)" in three of them. See [[cal.1964-08-22.mississippi]]. Made public: the recordings, opened by the LBJ Library. Check the year. Names: Johnson (K–J Adm. III.D); Eastland (K–J Cong. III.B); Paul Johnson (K–J Cong. III.F); Goldwater (Opp. III.B).'
+        tags: [name:johnson-lyndon-b, name:eastland-james-o, name:johnson-paul-b-jr, name:goldwater-barry-m]
+  - add:
+      entry:
+        id: cal.1964-08-24.mississippi
+        when: Aug. 24
+        date: '1964-08-24'
+        thread: mississippi
+        also: [elections-1964, voting-rights]
+        c: 'Greenville. A three-judge court upholds Mississippi''s unpledged-elector law of 1963 against the suit of Victoria Gray and other Freedom Democrats: a State convention may name a slate pledged to the national nominee and one unpledged, a September primary between them to decide which goes on the November ballot as the party''s. No constitutional right to vote for electors pledged to a national party''s nominee.'
+        n: '*Gray v. Mississippi*, [233 F. Supp. 139](https://static.case.law/f-supp/233/html/0139-01.html) (N.D. Miss. 1964). Dittmer, *Local People* (K–J Cong. II.F). See [[cal.1964-08-06.mississippi]]. Names: Gray (K–J Cong. III.K).'
+        tags: [name:gray-victoria-jackson, name:cox-w-harold]
+  - add:
+      entry:
+        id: cal.1964-09-04.civil-rights-the-executive
+        when: Sept. 4
+        date: '1964-09-04'
+        thread: civil-rights-the-executive
+        c: 'Danielsville. An all-white Madison County jury acquits Sims and Myers, Klansmen of Athens, of Penn''s murder.'
+        n: '*New Georgia Encyclopedia*, ["Lemuel Penn Murder"](https://www.georgiaencyclopedia.org/articles/history-archaeology/lemuel-penn-murder/). See [[cal.1964-07-11.civil-rights-the-executive]]. Names: Sims, Myers, Penn (K–J Cong. III.K).'
+        tags: [name:sims-joseph-howard, name:myers-cecil-william, name:penn-lemuel-a]
+  - add:
+      entry:
+        id: cal.1964-09-24.mississippi
+        when: Sept. 24
+        date: '1964-09-24'
+        thread: mississippi
+        c: 'Oval Office, 1:10 p.m. Johnson, with Lee White, sees three Negro women of McComb whose houses had been bombed, Aylene Quin''s Sept. 20 with her two children asleep: the sheriff''s claim that the victims set the bombs; Negroes afraid to report; a branch office of the FBI. Oct. 23, nine white men plead guilty to the bombings in the county court, are sentenced to five years and freed on probation, the judge finding them "unduly provoked."'
+        n: '[Johnson, Ora Bryant, Mattie Dillon, Aylene Quin, and Lee White, 1:10 p.m.](https://prde.upress.virginia.edu/conversations/4002913), Conversation WH6409-14-5666, 5667 (PRDE); [Johnson and Lee White, 5:50 p.m.](https://prde.upress.virginia.edu/conversations/4002908), Conversation WH6409-15-5681 (PRDE). [Affidavit of Aylene Quin](https://www.crmvet.org/nars/aff/640920_sncc_mcc_quin_affidavit.pdf) (SNCC, Sept. 1964). *The Student Voice*, [Nov. 25, 1964](https://www.crmvet.org/docs/sv/sv641125.pdf). Dittmer, *Local People*; Payne, *I''ve Got the Light of Freedom* (K–J Cong. II.F). See [[cal.1964-06-14.mississippi]]. Made public: the recordings, opened by the LBJ Library. Check the year. Names: Johnson (K–J Adm. III.D); White (K–J Adm. III.B); Quin (K–J Cong. III.K).'
+        tags: [name:johnson-lyndon-b, name:white-lee-c, name:quin-aylene]
+  - add:
+      entry:
+        id: cal.1964-10-20.voting-rights
+        when: Oct. 20
+        date: '1964-10-20'
+        thread: voting-rights
+        also: [mississippi]
+        c: 'Jackson. A three-judge court strikes down Mississippi''s act of Apr. 23: a voter exempt from the poll tax by the Twenty-fourth Amendment to show, in federal elections, receipts issued without payment and obtained by Feb. 1. A heavier procedure than for voters the State itself exempts; void under the Amendment. On the suit of Victoria Gray, beaten in the Senate primary June 2, and a Forrest County voter.'
+        n: '*Gray v. Johnson*, [234 F. Supp. 743](https://static.case.law/f-supp/234/html/0743-01.html) (S.D. Miss. 1964). Lawson, *Black Ballots* (K–J Cong. II.C). See [[cal.1964-01-23.voting-rights]]. Names: Gray (K–J Cong. III.K).'
+        tags: [name:gray-victoria-jackson, name:cox-w-harold]
+  - add:
+      entry:
+        id: cal.1964-10-26.elections-1964
+        when: Oct. 26
+        date: '1964-10-26'
+        thread: elections-1964
+        c: 'Johnson in Georgia and South Carolina. Macon, City Hall, with Sanders, Talmadge and Vinson, Russell absent: "The new South is here in America." A rally at Augusta. Columbia, the State Capitol steps, at night, with Senator Olin Johnston.'
+        n: '[Remarks at City Hall, Macon, Georgia](https://www.presidency.ucsb.edu/documents/remarks-city-hall-macon-georgia); [Remarks at a Rally in Augusta, Georgia](https://www.presidency.ucsb.edu/documents/remarks-rally-augusta-georgia); [Remarks on the Steps of the State Capitol, Columbia, South Carolina](https://www.presidency.ucsb.edu/documents/remarks-the-steps-the-state-capitol-columbia-south-carolina) (Oct. 26, 1964). White, *The Making of the President 1964*; Cosman, *Five States for Goldwater* (Opp. II.E). See [[cal.1964-10-06.elections-1964]]. Names: Johnson (K–J Adm. III.D); Sanders (K–J Cong. III.K); Talmadge (Wg. III.F); Vinson (K–J Cong. III.D); Russell (K–J Cong. III.B).'
+        tags: [name:johnson-lyndon-b, name:sanders-carl-e, name:talmadge-herman-e, name:vinson-carl, name:russell-richard-b, name:johnston-olin-d]
+  - add:
+      entry:
+        id: cal.1964-11-03.elections-1964-3
+        when: Nov. 3
+        date: '1964-11-03'
+        thread: elections-1964
+        c: 'The House in Georgia and Mississippi. Georgia 3d: Callaway (R) over Garland Byrd, 45,145 to 33,733, for Forrester''s open seat, the State''s first Republican Representative since Reconstruction. Mississippi 4th: Prentiss Walker (R) over Winstead, 35,277 to 28,057, the State''s first of the century. In Louisiana, Boggs holds New Orleans over Treen (R), 77,009 to 62,881.'
+        n: '[*Statistics of the Presidential and Congressional Election of November 3, 1964*](https://clerk.house.gov/member_info/electionInfo/1964election.pdf) (Clerk of the House, 1965). Cosman, *Five States for Goldwater* (Opp. II.E). Bartley & Graham, *Southern Politics and the Second Reconstruction*; Lamis, *The Two-Party South*; Black & Black, *The Rise of Southern Republicans* (Opp. II.F). See [[cal.1964-11-03.elections-1964]]; Alabama''s five, [[cal.1964-11-03.alabama]]. Names: Callaway (Opp. III.D); Boggs (K–J Cong. III.C).'
+        tags: [name:callaway-howard-h, name:forrester-elijah-l, name:walker-prentiss-l, name:winstead-william-a, name:boggs-hale, name:treen-david-c]
+  - add:
+      entry:
+        id: cal.1964-12-04.congress
+        when: Dec. 4
+        date: '1964-12-04'
+        thread: congress
+        also: [mississippi]
+        c: 'The Freedom Democrats'' contests, under the contested-elections statute: Hamer serves notice on Whitten (2d), Annie Devine on Prentiss Walker (4th), Victoria Gray on Colmer (5th). Their grounds: Negroes kept from the vote and from the ballot. A resolution to come Jan. 4, that none of the five Mississippians be sworn until the contests are decided.'
+        n: 'SNCC, [Fact Sheet on the Congressional Challenge](https://www.crmvet.org/docs/641200_sncc_congchall_fact.pdf) (Dec. 1964). 2 U.S.C. §§ 201–226 (1964). Dittmer, *Local People*; Payne, *I''ve Got the Light of Freedom* (K–J Cong. II.F). Mills, *This Little Light of Mine* (K–J Cong. II.I.4). See [[cal.1964-08-25.mississippi]]. Names: Hamer (K–J Cong. III.H); Devine, Gray (K–J Cong. III.K); Colmer (K–J Cong. III.D).'
+        tags: [name:hamer-fannie-lou, name:whitten-jamie-l, name:devine-annie, name:walker-prentiss-l, name:gray-victoria-jackson, name:colmer-william-m]
+  - add:
+      entry:
+        id: cal.1964-12-29.civil-rights-the-executive
+        when: Dec. 29
+        date: '1964-12-29'
+        thread: civil-rights-the-executive
+        also: [court]
+        c: 'Athens. Bootle dismisses the federal indictment of Oct. 16 against six white men, Sims and Myers among them, for conspiring from Jan. 1 to deprive Negro citizens near Athens of public accommodations under the new Act, public facilities, the highways, and travel, by shooting, beating and killing: no offense under federal law.'
+        n: '*United States v. Guest*, [246 F. Supp. 475](https://static.case.law/f-supp/246/html/0475-01.html) (M.D. Ga. 1964). Reversed in part: *United States v. Guest*, [383 U.S. 745](https://tile.loc.gov/storage-services/service/ll/usrep/usrep383/usrep383745/usrep383745.pdf) (1966) (K–J Adm. II.H.1). Shipp, *Murder at Broad River Bridge* (K–J Cong. II.H). See [[cal.1964-09-04.civil-rights-the-executive]]. Names: Bootle (K–J Cong. III.G); Sims, Myers (K–J Cong. III.K).'
+        tags: [name:bootle-william-a, name:sims-joseph-howard, name:myers-cecil-william]
+
+  # Existing entries
+  - edit:
+      id: cal.1964-06-18.desegregation-schools
+      base: 730fd13c
+      set:
+        c: 'Fifth Circuit, on the Birmingham and Mobile school plans: desegregation to proceed "at a swifter pace," ten years after *Brown*. Birmingham, its 12th grade begun in 1963, to add the 10th, 11th and 1st grades in September 1964, then a grade a year at each level; Mobile to file a plan meeting the same minimum. Savannah and Brunswick, Bell writing: the finding below that Negro and white pupils'' differing test scores warrant separate schools reversed; Negro pupils who overlap white pupils in aptitude are segregated for the averages, "Therein is the discrimination." A grade a year over twelve years "no longer satisfactory." Savannah had opened its 12th grade, Sept. 1963.'
+        n: '*Armstrong v. Board of Education of the City of Birmingham*, [333 F.2d 47](https://static.case.law/f2d/333/html/0047-01.html) (5th Cir. 1964); *Davis v. Board of School Commissioners of Mobile County*, [333 F.2d 53](https://static.case.law/f2d/333/html/0053-01.html) (5th Cir. 1964); *Stell v. Savannah-Chatham County Board of Education*, [333 F.2d 55](https://static.case.law/f2d/333/html/0055-01.html) (5th Cir. 1964). Bass, *Unlikely Heroes* (K–J Cong. II.H). See [[cal.1963-09-09.alabama]].'
+  - edit:
+      id: cal.1965-03-08.court
+      base: 598f807e
+      set: {n: 'Powe, *The Warren Court and American Politics* (K–J Cong. II.G). Landsberg, *Enforcing Civil Rights* (K–J Adm. II.C). See [[cal.1964-12-14.court]]; [[cal.1964-03-06.voting-rights]]. Names: Black, White (K–J Cong. III.G).'}
+  - edit:
+      id: cal.1965-04-26.court
+      base: df308f46
+      set: {n: 'Powe, *The Warren Court and American Politics* (K–J Cong. II.G). See [[cal.1965-03-08.court]]; [[cal.1964-02-20.court]]. Names: Brennan (K–J Cong. III.G).'}
+  - tag: {id: cal.1965-09-17.mississippi, add: [name:devine-annie, name:gray-victoria-jackson]}
