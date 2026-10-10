@@ -3,6 +3,8 @@
     daybook/<YYYY-MM>.yaml   every Public Papers (APP) and FRUS document dated that month, in order;
                              made by tools/daybook/make_daybook.py, which see
     daybook/abstracts.yaml   {key: one-sentence abstract}, kept apart so the generator never touches it
+    daybook/recordings/<YYYY-MM>.yaml   the White House recordings of the month, from the catalogue of the
+                             Presidential Recordings Digital Edition (PRDE); made by tools/daybook/make_recordings.py
 
 Each dated section of the calendar is laid out by day (section_days): the month's undated entries
 first, then every day from the section's first to its last, each with its date, a link to that
@@ -27,6 +29,9 @@ STYLE:
     filed by its place in the volume says so.
  5. An abstract, where there is one, on its own line under the title: one sentence, the brief's
     register (what the document is and says; no judgment).
+ 6. Recordings, a third list after APP and FRUS: PRDE's title (linked to its page; reading it needs the Edition's
+    subscription), the time in grey, then "PRDE" and the tape cite in grey ("Conversation WH6407-11-4288"). No
+    transcript or editorial summary is shown: they are the Edition's text.
 """
 import calendar
 import datetime
@@ -57,7 +62,8 @@ def esc(t):
 def load():
     if "docs" not in _cache:
         docs = []
-        for f in sorted(glob.glob(os.path.join(DIR, "[0-9][0-9][0-9][0-9]-[0-9][0-9].yaml"))):
+        for f in sorted(glob.glob(os.path.join(DIR, "[0-9][0-9][0-9][0-9]-[0-9][0-9].yaml"))
+                        + glob.glob(os.path.join(DIR, "recordings", "[0-9][0-9][0-9][0-9]-[0-9][0-9].yaml"))):
             docs += (yaml.safe_load(open(f, encoding="utf-8")) or {}).get("docs", [])
         ab = {}
         p = os.path.join(DIR, "abstracts.yaml")
@@ -128,6 +134,9 @@ def doc_html(x, ab):
     au = f'<span class="au">{au}</span> ' if au else ""
     if x["src"] == "ppp":
         src, hover = "APP", "American Presidency Project"
+    elif x["src"] == "prde":
+        src = "PRDE" + (f', {x["tape"]}' if x.get("tape") else "")
+        hover = "Presidential Recordings Digital Edition"
     else:
         src, hover = frus_cite(x), "Foreign Relations of the United States"
     bits = [f'<span class="src" title="{esc(hover)}">{esc(src)}</span>']
@@ -148,16 +157,21 @@ def docs_html(docs, ab):
         return ""
     ppp = [x for x in docs if x["src"] == "ppp"]
     frus = [x for x in docs if x["src"] == "frus"]
+    rec = [x for x in docs if x["src"] == "prde"]
     counts = []
     if ppp:
         counts.append(f"PPP {len(ppp)}")
     if frus:
         counts.append(f"FRUS {len(frus)}")
+    if rec:
+        counts.append(f"Recordings {len(rec)}")
     body = []
     if ppp:
         body.append('<ol class="dd">' + "".join(doc_html(x, ab) for x in ppp) + "</ol>")
     if frus:
         body.append('<ol class="dd fr">' + "".join(doc_html(x, ab) for x in frus) + "</ol>")
+    if rec:
+        body.append('<ol class="dd fr">' + "".join(doc_html(x, ab) for x in rec) + "</ol>")
     return (f'<details class="docs"><summary>Documents: {", ".join(counts)}</summary>'
             + "".join(body) + "</details>")
 

@@ -21,4 +21,4 @@ Scopes taken out of the statements, kept here:
   statement keeps the first clause).
 
 Order: th.yaml in alphabetical order of the threads' names, as shown; War on poverty under "poverty", Bobby Baker under
-"Baker" (`THREAD_SORT_AS` in tools/bib/check.py; `check` warns otherwise [thread-order]).
+"Baker", Robert Kennedy under "Kennedy" (`THREAD_SORT_AS` in tools/bib/check.py; `check` warns otherwise [thread-order]).

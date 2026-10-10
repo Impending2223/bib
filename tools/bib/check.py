@@ -222,7 +222,7 @@ def run(series, only=None):
     return out
 
 
-THREAD_SORT_AS = {"War on poverty": "poverty", "Bobby Baker": "Baker"}
+THREAD_SORT_AS = {"War on poverty": "poverty", "Bobby Baker": "Baker", "Robert Kennedy": "Kennedy"}
 
 HAND = ["lists/**/*.yaml", "executive/*.yaml", "daybook/abstracts.yaml", "elections/facts.yaml",
         "elections/pres-primaries.yaml", "elections/renominations.yaml", "elections/primaries.yaml", "elections/cq.yaml",
