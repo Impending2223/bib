@@ -241,7 +241,8 @@ VIET = set("ăâđêôơưĂÂĐÊÔƠƯạảấầẩẫậắằẳẵặẹ�
 
 
 def plain_vietnamese(series):
-    """(id, plain form) for each Vietnamese name the calendar or a Part III entry writes without its diacritics, outside
+    """(id, plain form) for each Vietnamese name the series' own prose writes without its diacritics (the calendar, the
+    notes and roles of every list, the subject lines of persons), outside
     a quotation, an italic title, a link, and the byline of a work whose title has none (Ky, *Twenty Years*)."""
     import os
     forms = store.load_yaml(os.path.join(store.ROOT, "sources", "name-forms.yaml")) or {}
@@ -262,12 +263,10 @@ def plain_vietnamese(series):
     out = []
     for lst in series.lists.values():
         for sec, e in lst.entries():
-            people = (sec.code or "").startswith("III")
-            if lst.kind != "calendar" and not people:
-                continue
-            for f in ("c", "n", "r", "s") if lst.kind == "calendar" or people else ():
-                if f == "c" and lst.kind != "calendar":
-                    continue
+            people = refs_people(sec)
+            for f in ("c", "n", "r", "s"):
+                if f == "c" and lst.kind != "calendar" or f == "s" and not people:
+                    continue                # a citation: its bylines and titles as printed
                 for text in store.as_list(e.get(f)):
                     if not isinstance(text, str):
                         continue
@@ -282,6 +281,12 @@ def plain_vietnamese(series):
                             continue
                         out.append((e["id"], m.group(1)))
     return out
+
+
+def refs_people(sec):
+    """Part III, or a section of memoirs and biographies, whose subject lines are persons."""
+    from .refs import Refs
+    return Refs.is_people_section(sec)
 
 
 def curly_files():

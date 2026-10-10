@@ -499,8 +499,8 @@ def roles_agree(x, y, words=True):
 
 
 def natural(name):
-    """A name written in its own order, family name first or a single name, without a comma: 'Mao Zedong', 'Ngo Dinh
-    Diem', 'Souphanouvong', 'Malcolm X'. The whole name stands as the surname; its other forms (romanizations, the
+    """A name written in its own order, family name first or a single name, without a comma: 'Mao Zedong', 'Ngô Đình
+    Diệm', 'Souphanouvong', 'Malcolm X'. The whole name stands as the surname; its other forms (romanizations, the
     form a source lists or a text uses: 'Mao Tse-tung', 'Diem, Ngo Dinh', 'President Diem') are in
     sources/name-forms.yaml."""
     return "," not in re.sub(r"\s*\([^)]*\)", "", name)
@@ -2872,7 +2872,7 @@ def people(series):
     words = lambda t: set(re.findall(r"[a-z]{4,}", fold(t))) - STOP
     for l in series.lists.values():
         for s, e in l.entries():
-            # a name in its own order, without a comma, is a person too ('Mao Zedong', 'Ngo Dinh Diem', 'Malcolm X'),
+            # a name in its own order, without a comma, is a person too ('Mao Zedong', 'Ngô Đình Diệm', 'Malcolm X'),
             # but not a group ('Wise Men', tagged 'group')
             if (s.code or "").startswith("III") and e.get("s") and "group" not in (e.get("tags") or []):
                 for n in re.split(r";\s*", e["s"]):          # 'Dirksen, Everett M.; Kuchel, Thomas H.': two

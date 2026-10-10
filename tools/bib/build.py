@@ -385,7 +385,7 @@ class Linker:
                 continue
             if not e.get("s"):
                 continue
-            if "," not in e["s"]:        # a name in its own order ('Ngo Dinh Diem'): the whole, or the word it goes by
+            if "," not in e["s"]:        # a name in its own order ('Ngô Đình Diệm'): the whole, or the word it goes by
                 if "group" in (e.get("tags") or []):
                     continue
                 for n in re.split(r";\s*", plain(e["s"])):
@@ -461,7 +461,7 @@ class Linker:
         matches, where it names several), or None."""
         from . import namelinks
         names = [re.sub(r"\s*\([^)]*\)\s*$", "", n).strip() for n in re.split(r";\s*", plain(x.get("s") or ""))]
-        names = [n for n in names if n]  # 'Rusk, Dean'; a name in its own order too ('Ngo Dinh Diem')
+        names = [n for n in names if n]  # 'Rusk, Dean'; a name in its own order too ('Ngô Đình Diệm')
         if not names:
             return None
         if tok:
