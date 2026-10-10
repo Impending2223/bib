@@ -21,6 +21,7 @@ STYLE:
     at the foot of the first half's last, "Jan. 3, 1963, in the second calendar ›" (seam).
  5. On the standalone pages a link to an anchor that lives in the other half goes to that page; on every other page,
     a link to cal.html#X where X is in the second half goes to cal63.html#X (route).
+ 6. Each half's lede names the other ("The second calendar takes up at ..."); the words linked to its page's top.
 """
 import datetime
 import re
@@ -210,6 +211,19 @@ def seam(lst, sec):
         after = (f'<p class="seam"><a href="{href(lst, 2, "d" + b.isoformat())}">{lab(b)}, in the second calendar ›'
                  f'</a></p>')
     return before, after
+
+
+def other_link(lst, html):
+    """In a half's lede, "the second calendar" (or "the first") linked to the top of the other half's page, or of its
+    block in the reader (STYLE 6)."""
+    half = CUR["half"]
+    if not cfg(lst) or half not in (1, 2):
+        return html
+    other = 2 if half == 1 else 1
+    word = "second" if other == 2 else "first"
+    key = page_key(lst, other)
+    u = f"#{key}--top" if CUR["mode"] == "series" else f"{key}.html"
+    return html.replace(f"{word} calendar", f'<a href="{u}">{word} calendar</a>', 1)
 
 
 MON = ["Jan.", "Feb.", "Mar.", "Apr.", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."]

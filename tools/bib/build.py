@@ -228,8 +228,10 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
 
 def headings(lst, sec, idfmt):
     tag = f"h{min(sec.level, 4)}"
-    num = f'<span class="num">{esc(sec.num)}</span>' if sec.num else ""
-    return f'<{tag} id="{idfmt(sec)}" data-short="{attr(sec.label)}">{num}{to_html(sec.title)}</{tag}>'
+    cal = lst.kind == "calendar"          # the calendar's headings without their numerals: the dates do the work
+    num = f'<span class="num">{esc(sec.num)}</span>' if sec.num and not cal else ""
+    short = plain(sec.title) if cal else sec.label
+    return f'<{tag} id="{idfmt(sec)}" data-short="{attr(short)}">{num}{to_html(sec.title)}</{tag}>'
 
 
 def by_day(lst, sec):
@@ -321,7 +323,7 @@ def build_list(series, key, linker=None, half=None):
     data = page_text(lst, half)
     main = [f"<h1>{esc(data['h1'])}</h1>"]
     if data.get("lede"):
-        main.append(f'<p class="lede">{text_html(data["lede"], "lede")}</p>')
+        main.append(f'<p class="lede">{calsplit.other_link(lst, text_html(data["lede"], "lede"))}</p>')
     for p in store.as_list(data.get("logic")):
         main.append(f'<p class="logic">{text_html(p, "logic")}</p>')
     main.append('<p class="logic">To navigate, use the Outline button, the contents below, or the handle on the right edge, which you can drag to see nearby headings. '
@@ -696,7 +698,7 @@ def build_series(series):
             out = [f'<section class="list" id="L-{key}" data-key="{key}" hidden><h1 id="{key}--top">{esc(data["h1"])}</h1>']
             prose = linker.text_html(lst, None, None)
             if data.get("lede"):
-                out.append(f'<p class="lede">{prose(data["lede"], "lede")}</p>')
+                out.append(f'<p class="lede">{calsplit.other_link(lst, prose(data["lede"], "lede"))}</p>')
             for p in store.as_list(data.get("logic")):
                 out.append(f'<p class="logic">{prose(p, "logic")}</p>')
 
