@@ -2338,11 +2338,10 @@ def recording_speakers(series):
     """{the name an entry is filed under: [recording]} for the White House recordings PRDE catalogues
     (daybook/recordings, tools/daybook/make_recordings.py), each speaker matched by person_named."""
     def make():
-        import glob
-        import yaml
+        from . import daybook
         out, names = {}, {}
-        for f in sorted(glob.glob(os.path.join(store.ROOT, "daybook", "recordings", "*.yaml"))):
-            for x in (yaml.safe_load(open(f, encoding="utf-8")) or {}).get("docs", []):
+        for x in daybook.load()[0]:
+            if x.get("src") == "prde":
                 for s in x.get("speakers", []):
                     if s not in names:
                         names[s] = person_named(series, s)
@@ -2407,7 +2406,8 @@ def tv_sentences(series, name):
 
 
 def recordings_list(series, name):
-    """The White House recordings the person speaks on, by year: PRDE's title, the day and time, the tape, linked.
+    """The White House recordings the person speaks on, by year: PRDE's title, linked to the free page at the Miller
+    Center where there is one (tools/bib/daybook.py, free), the day and time, the tape, and PRDE's page.
     Not in a President's own entry: the recordings are his, and the calendar's days list them."""
     sur, given = split_name(name)[:2]
     if any(fold(n.split()[-1]) == fold(sur) and fold(n.split()[0]) == fold((given.split() or [""])[0])
@@ -2416,9 +2416,10 @@ def recordings_list(series, name):
     by_year = {}
     for x in recording_speakers(series).get(name, []):
         when = fmt(x["date"]) + (f', {x["time"]}' if x.get("time") else "")
+        title = a(x["free"]["url"], esc(x["title"])) if x.get("free") else esc(x["title"])
         by_year.setdefault(x["date"][:4], []).append(
-            f'{esc(x["title"])} ({when}), <span class="lvc">{a(x["url"], "PRDE")}'
-            + (f', {esc(x["tape"])}' if x.get("tape") else "") + "</span>.")
+            f'{title} ({when}), <span class="lvc">' + (f'{esc(x["tape"])}, ' if x.get("tape") else "")
+            + f'{a(x["url"], "PRDE")}</span>.')
     return [f'<b>{y}</b>' + "".join(f'<span class="lvad">{x}</span>' for x in v) for y, v in by_year.items()]
 
 
