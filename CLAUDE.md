@@ -883,7 +883,8 @@ Each dated section of the calendar (a month) is laid out by day, in `cal.html` a
 series reader alike: the month's undated entries, then every day from the section's first
 to its last. A day shows its date, "*New York Times*" under it (a TimesMachine link by
 date only; "No *New York Times* (strike)" from Dec. 8, 1962 to Mar. 31, 1963), the entries that begin
-that day, each under its thread as a rubric (a line of muted small capitals above the entry;
+that day, each under its thread as a rubric (a line of muted small capitals above the entry, each thread's name
+linked, in the rubric's own color, to its entry in the thread index at the top;
 the date added for a range or a month-only entry), under an address that sets several threads going (`to:`, `short:`) a "To:" line naming each thread
 and the entry it leads to, and under each such entry a "From:" line back to the address (`program_links`), then a line a thread linking the entries before and
 after it in the thread ("‹ Apr. 24 · Testing · June 10 ›", its `also` threads too; `thread_nav` in
@@ -926,7 +927,8 @@ tools/bib/daybook.py            lays the calendar out by day (STYLE notes at the
   the line carries "Listings: … Check." *Face the Nation* (CBS), Nov. 1959–1970: the index volume of *Face the Nation:
   The Collected Transcripts* (Holt, 1972), its chronological list: the date and the guests' names only (its topics and
   offices are CBS's text); the copy read is the owner's, not kept in the repo. *Issues and Answers* (ABC) is not yet in.
-  A day with two programs has a line for each. Each name entry lists the person's programs ("Television interviews"). Guests and recording speakers are matched to persons by `person_named`
+  A day's programs share one line, Face the Nation first ("*Face the Nation* (CBS): John F. Kennedy. *Meet the Press*
+  (NBC): Hubert H. Humphrey."). Each name entry lists the person's programs ("Television interviews"). Guests and recording speakers are matched to persons by `person_named`
   in `tools/bib/lives.py`.
 - Recordings: the White House tapes the Miller Center's Presidential Recordings Digital Edition (PRDE) catalogues,
   Kennedy's from July 1962 and Johnson's, a third list after APP and FRUS: PRDE's title, linked to its page, the time,
