@@ -200,6 +200,10 @@ The thread index (Part I of the calendar) is generated from `thread` and
   mapping.
 - "87th Cong." and the like are Congresses, not the list: the reference reader
   skips an abbreviation that follows an ordinal number.
+- Quotation marks and apostrophes: type the keyboard's `'` and `"` in every hand-kept file (lists, executive/,
+  the hand-kept sources); the build curls them in the pages' text, not in tags, URLs or scripts (`tools/bib/smart.py`,
+  its STYLE notes), so a search or a match in the YAML needs only the one form. An inch is a prime (″), not a quotation
+  mark. `check` warns on a curly mark in those files [straight-quotes]. Generated files keep what their sources print.
 
 ### House style (keep it)
 

@@ -6,6 +6,7 @@ import re
 import sys
 
 from . import store
+from . import smart
 from .markup import plain
 
 HERE = store.ROOT
@@ -297,14 +298,12 @@ def cmd_names(series, a):
     os.makedirs(OUT, exist_ok=True)
     if not a.names:                      # everyone: build/names.html and a page a letter
         for name, page in lives.pages(series, Linker(series), os.path.join(TEMPLATES, "list.html")).items():
-            with open(os.path.join(OUT, name), "w", encoding="utf-8") as f:
-                f.write(page)
+            smart.write(os.path.join(OUT, name), page)
             print(name, f"{len(page.encode()) // 1024} KB")
         return 0
     page = lives.page(series, Linker(series), os.path.join(TEMPLATES, "list.html"), a.names)
     path = a.out or os.path.join(OUT, "names.html")
-    with open(path, "w", encoding="utf-8") as f:
-        f.write(page)
+    smart.write(path, page)
     print(os.path.relpath(path, HERE), f"{os.path.getsize(path) // 1024} KB")
     return 0
 
