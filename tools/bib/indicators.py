@@ -410,7 +410,7 @@ div.ind .kv .v{text-align:right}
 div.ind .ind-cap{margin:0 0 .15rem;font-family:var(--sans);font-size:.72rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
 div.ind:not(.ind-op) tbody tr:last-child td{border-bottom:0}
 div.ind.ind-op{margin-top:1.1rem}
-div.ind.ind-op::before{content:"";display:block;width:7rem;margin:0 auto .7rem;border-top:3px double var(--muted)}
+div.ind.ind-op::before{content:"";display:block;width:75%;margin:0 auto .7rem;border-top:3px double var(--muted)}
 div.ind.ind-op td.rel,div.ind.ind-op .per{white-space:nowrap}
 div.ind-defs{font-family:var(--sans);font-size:.85rem;line-height:1.45;margin:1rem 0 1.5rem}
 div.ind-defs dt{font-weight:600;margin-top:.6rem}
