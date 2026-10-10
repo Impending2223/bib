@@ -203,12 +203,23 @@ def run(series, only=None):
     from . import daybook
     for where, msg in daybook.problems():
         add(ERROR, "daybook/", f"{where}: {msg}", "daybook")
+    # the calendar's threads in alphabetical order of their names (THREAD_SORT_AS: a name sorted under another word)
+    for lst in series.lists.values():
+        if lst.kind != "calendar":
+            continue
+        names = [t.get("s", "") for t in lst.threads().values()]
+        keys = [THREAD_SORT_AS.get(n, n).lower() for n in names]
+        if keys != sorted(keys):
+            bad = next(n for n, k, w in zip(names, keys, sorted(keys)) if k != w)
+            add(WARN, f"lists/{lst.key}/th.yaml", f"threads out of alphabetical order at {bad!r}", "thread-order")
     # the hand-kept files keep the keyboard's quotation marks; the build curls them (smart.py)
     for path, n in curly_files():
         add(WARN, path, f"{n} curly quotation mark{'s' if n > 1 else ''}; write ' and \" (the build curls them)",
             "straight-quotes")
     return out
 
+
+THREAD_SORT_AS = {"War on poverty": "poverty", "Bobby Baker": "Baker"}
 
 HAND = ["lists/**/*.yaml", "executive/*.yaml", "daybook/abstracts.yaml", "elections/facts.yaml",
         "elections/pres-primaries.yaml", "elections/renominations.yaml", "elections/primaries.yaml", "elections/cq.yaml",

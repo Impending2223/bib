@@ -52,7 +52,9 @@ So every calendar entry has:
   `check` fails on a key that names no person.
 
 Each thread in `th.yaml` has a brief statement (`c`), as the owner asked: what the thread is, and its stations, in
-one or two clipped sentences.
+one or two clipped sentences. Every thread is its matter as Washington met it, but the statements don't say so; that framing, and the scopes
+taken out of the statements, are in `notes/threads.md`. `th.yaml` keeps the threads in alphabetical order of their
+names (War on poverty under "poverty"; `check` warns otherwise).
 
 `./bib audit-cal` checks the dated entries against these rules and writes `notes/calendar-audit.md`: persons in `c`
 in neither `Names:` nor a `name:` tag, entries with neither a bibliography nor a `See`, entries with no primary record or with one
