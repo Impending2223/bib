@@ -225,7 +225,7 @@ verbatim prints none: a quotation, a title, the byline of a work printed without
 Days*; a Vietnamese-language work's byline has them), a writer who publishes without them (Lien-Hang T. Nguyen), the
 FRUS and APP forms. English names stay: Saigon, Hanoi, Haiphong, Cholon, Dalat, Vietnam, Tonkin, the Mekong, Tet, Viet
 Cong, Viet Minh, the Ho Chi Minh Trail. A person's entry in `sources/name-forms.yaml` lists the plain form first, for the
-sources that print it; `check` warns on a plain form in the calendar or Part III ([diacritics]; places: `VIET_PLACES` in
+sources that print it; `check` warns on a plain form in the series' own prose (the calendar, every list's notes and roles, persons' subject lines; [diacritics]; places: `VIET_PLACES` in
 `tools/bib/check.py`). Keys and anchors fold the marks, Đ to d (`ngo-dinh-diem`).
 
 ## Changing things
@@ -486,7 +486,7 @@ Governors Hughes, 1963-68), each of theirs, with "Check: “Governor Hughes” m
 [--site URL] [--out FILE]` one page. The old `lives*.html` addresses forward to the new ones (`./bib lives` still works).
 The scroll wheel and the Outline drawer give each entry's full name; the top bar its surname (`data-crumb`).
 A Part III entry for two people writes them apart with ";" (`s: Evans, Rowland, Jr.; Novak, Robert D.`), never "&".
-A name written in its own order, without a comma (Mao Zedong, Ngo Dinh Diem, Souphanouvong, U Thant, Malcolm X), is a
+A name written in its own order, without a comma (Mao Zedong, Ngô Đình Diệm, Souphanouvong, U Thant, Malcolm X), is a
 person too (`natural`): the whole name stands as the surname, and its other forms (romanizations, the forms FRUS lists
 and the Public Papers use: Mao Tse-tung, "Diem, Ngo Dinh", President Diem) are in `sources/name-forms.yaml`, kept by
 hand; FRUS and APP find the person by those. A Part III entry for a group (Wise Men, Chicago defendants) is tagged
