@@ -154,6 +154,26 @@ def label_of(series, eid):
 
 # ---------------------------------------------------------------- entry markup
 
+def thread_person(series, html):
+    """A thread statement that opens with a person's name in running order, up to a comma or a full stop ("Robert F.
+    Kennedy, Attorney General: ..."; "Martin Luther King, Jr. ..."; "Barry M. Goldwater. ..."): the name linked to his
+    name entry. The longest opening that names one person."""
+    from . import lives, namelinks
+    if html.startswith('<a class="nm"'):        # linked already (a name in its own order): the suffix into the link
+        return re.sub(r"^(<a [^>]*>[^<]*)</a>(, (?:Jr|Sr)\.)", r"\1\2</a>", html)
+    for m in sorted(re.finditer(r"(?=([.,]))", html[:80]), key=lambda m: -m.start()):
+        name = html[:m.start()]
+        sfx = re.match(r"(.+), (Jr\.|Sr\.)$", name + ".")
+        words = (sfx.group(1) if sfx else name).split()
+        if len(words) < 2 or not all(re.match(r"[A-Z][\w'’-]*\.?$", w) for w in words):
+            continue
+        who = lives.person_named(series, f"{words[-1]}, {' '.join(words[:-1])}" + (f" {sfx.group(2)}" if sfx else ""))
+        if who:
+            end = m.start() + (1 if sfx else 0)
+            return namelinks.a(series, who, html[:end]) + html[end:]
+    return html
+
+
 def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", rubric=None):
     """rubric: for a calendar entry laid out by day, the thread line that opens its first sentence."""
     parts = []
@@ -174,7 +194,10 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
             anchor = calsplit.thread_anchor(lst, slug, half)
     for i, c in enumerate(store.as_list(statement)):
         lead = rubric if (rubric and i == 0) else ""
-        parts.append(f'<span class="c">{lead}{text_html(year_qualified(series, c, year), "c")}</span>')
+        body = text_html(year_qualified(series, c, year), "c")
+        if is_thread and i == 0:
+            body = thread_person(series, body)
+        parts.append(f'<span class="c">{lead}{body}</span>')
     if e.get("r"):
         parts.append(f'<span class="r">{text_html(e["r"], "r")}</span>')
     n = year_qualified(series, e.get("n"), year)
