@@ -889,8 +889,8 @@ day falls in; the threads section is in both. `tools/bib/calsplit.py` (STYLE not
 
 - Each half's thread index lists the threads with entries in it, with that half's statement (`c`; `c2` in the
   second where the thread is in both) and its dates by year: the year unlinked, in the sans, a little heavier
-  ("**1961** Jan. 23, Feb. 20; **1962** …"). Across the divide, muted: in the first, after its dates, the year and date
-  of the thread's next entry in the second ("; 1963 Jan. 14."), the year linked to the thread in the second's index,
+  ("**1961** Jan. 23, Feb. 20. **1962** …"). Across the divide, muted: in the first, after its dates, the year and date
+  of the thread's next entry in the second (". 1963 Jan. 14."), the year linked, not underlined, to the thread in the second's index,
   the date to the entry; in the second, before its dates, the last entry in the first, linked the same way.
 - The second half's thread entries are anchored `cal63.thread.<slug>`; a rubric links to its own half's index.
 - At the seam, muted: "‹ Jan. 2, 1963, in the first calendar" at the head of Jan. 3; "Jan. 3, 1963, in the second
