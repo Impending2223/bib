@@ -13,7 +13,7 @@ concepts and sources", goes before the Prologue; each series name in a table lin
 
 STYLE (settled; keep it, and fix anything that drifts from it):
  1. Columns: Indicator | As first reported | Released | Revised, today. Gallup's approval (kind: poll) in a table
-    of its own under it, set off by a double gray rule, centered, three-quarters of the table's width (the indicators' last row has no rule)
+    of its own under it (and under Money and credit, 13), set off by a double gray rule, centered, three-quarters of the table's width (the last row above a rule has none)
     and its own caption ("Presidential approval, Gallup"; the first table's
     "Economic indicators"), on the same plan: Reading (with the field dates) | As published | Released | Today. "Released" is the date the
     first-reported figure was published (or the Economic Report transmitted); its source shows on
@@ -49,13 +49,14 @@ STYLE (settled; keep it, and fix anything that drifts from it):
     figure (NOTE in the script) shows after it in grey: "(Q1–Q3, annual rate)".
 12. Definitions (DEFS): what the figure was then, what it is today, and pointers, in the brief's
     register: compact, plain, no judgment of the figures.
-13. Money and credit: interest rates in percent to two decimals, as the Bulletin and H.15 print them, "3.85%";
-    changes in points, "+0.33 pt". Market rates are not revised: one figure, in "Revised, today" (FRED), the
-    other columns "—" (7). The discount rate is set, not measured: its figure in "As first reported", the
-    rate in effect at the month's end; in a month it changed, the change, the Board's announcement in
-    "Released", and the effective date in grey, "4.00%, +0.50 pt (effective Nov. 24)"; in other months
-    "Released" is "—" and the date it took effect shows on hover. An administered rate (discount, prime)
-    shows a change only in a month it changed.
+13. Money and credit: a table of its own, between the indicators and the approval table, set off by the same
+    rule, with its own caption and two columns, Rate | Percent: rates are not revised, so each has one figure.
+    Interest rates in percent to two decimals, as the Bulletin and H.15 print them, "3.85%"; changes in
+    points, "+0.33 pt". Market rates as FRED gives them (the source on hover). The discount rate is set, not
+    measured: the rate in effect at the month's end; in a month it changed, the change and, in grey, the
+    Board's announcement and the day it took effect, "4.00%, +0.50 pt (announced Nov. 23; effective Nov. 24)";
+    in other months the day it took effect on hover. An administered rate (discount, prime) shows a change
+    only in a month it changed.
 """
 import calendar
 import datetime
@@ -67,9 +68,9 @@ from .markup import to_html
 
 DIR = os.path.join(store.ROOT, "indicators")
 ORDER = ["cpi", "wpi", "deflator", "unemployment", "payrolls", "industrial-production", "gnp", "real-gnp",
-         "gap-cea", "gap-cbo", "discount-rate", "federal-funds", "prime-rate", "treasury-bill", "treasury-10-year",
-         "administrative-budget", "cash-budget", "federal-national-accounts",
-         "balance-of-payments", "balance-of-payments-regular", "gold-stock", "approval"]
+         "gap-cea", "gap-cbo", "administrative-budget", "cash-budget", "federal-national-accounts",
+         "balance-of-payments", "balance-of-payments-regular", "gold-stock", "discount-rate", "federal-funds",
+         "prime-rate", "treasury-bill", "treasury-10-year", "approval"]
 GROUP = {"cpi": "Prices", "wpi": "Prices", "deflator": "Prices",
          "unemployment": "Employment", "payrolls": "Employment",
          "industrial-production": "Output", "gnp": "Output", "real-gnp": "Output",
@@ -357,16 +358,37 @@ def poll_row(sid, s, r, year):
     return name, dates(r["from"], r["to"]), first, rel, now
 
 
+def rate_row(sid, s, r, year):
+    """A rate (STYLE 13): its name and month, then the one figure: the discount rate as the Board set it (its change,
+    the day announced and the day it took effect, in a month it changed), a market rate as FRED gives it today."""
+    name = f'<a href="#ind-def-{esc(sid)}">{esc(s["name"])}</a> <span class="per">{esc(period_label(r["p"]))}</span>'
+    if "first" in r:
+        rr = dict(r)
+        if r.get("released"):            # "(announced Nov. 23; effective Nov. 24)"
+            ann = f"announced {date_label(r['released'], year)}"
+            rr["note"] = f"{ann}; {r['note']}" if r.get("note") else ann
+        val = cell_first(sid, s, rr, year)
+        tip = exact(r["first"], r.get("unit"))
+        if r.get("since"):
+            tip += f"; in effect from {date_label(r['since'])}"
+        tip += f"; {r.get('source', '')}" if r.get("source") else ""
+    else:
+        val = cell_now(sid, s, r)
+        now = s.get("now") or {}
+        tip = now.get("source", "") + (": " + exact(r["now"], now.get("unit")) if r.get("now") is not None else "")
+    return f'<tr><td class="iname">{name}</td><td><span title="{esc(tip)}">{val}</span></td></tr>'
+
+
 def block(data, sec_from, sec_to, prev_to, year, next_from=None):
     lo, hi = datetime.date.fromisoformat(sec_from), datetime.date.fromisoformat(sec_to)
     rows = rows_for(data, lo, hi, prev_to and datetime.date.fromisoformat(prev_to),
                     next_from and datetime.date.fromisoformat(next_from))
     if not rows:
         return ""
-    trs, shown, polls = [], set(), []
+    trs, shown, polls, rates = [], set(), [], []
     for sid, s, r in rows:
         g = GROUP.get(sid)
-        if s.get("kind") == "poll":
+        if s.get("kind") in ("poll", "rate"):
             g = None
         if g and g not in shown:
             shown.add(g)
@@ -376,6 +398,9 @@ def block(data, sec_from, sec_to, prev_to, year, next_from=None):
             pname, per, first, rel, now = poll_row(sid, s, r, year)
             polls.append(f'<tr><td class="iname"><a href="#ind-def-{esc(sid)}">{esc(pname)}</a> '
                          f'<span class="per">{esc(per)}</span></td><td>{first}</td><td class="rel">{rel}</td><td>{now}</td></tr>')
+            continue
+        if s.get("kind") == "rate":
+            rates.append(rate_row(sid, s, r, year))
             continue
         then, now = s.get("then") or {}, s.get("now") or {}
         name = f'<a href="#ind-def-{esc(sid)}">{esc(s["name"])}</a> <span class="per">{esc(period_label(r["p"]))}</span>'
@@ -398,8 +423,11 @@ def block(data, sec_from, sec_to, prev_to, year, next_from=None):
         out += ('<div class="ind"><p class="ind-cap">Economic indicators</p><table><thead><tr><th>Indicator</th><th>As first reported</th>'
                 '<th>Released</th><th>Revised, today</th></tr></thead><tbody>'
                 + "".join(trs) + "</tbody></table></div>")
+    if rates:                            # rates apart: not revised, so one figure (STYLE 13)
+        out += ('<div class="ind ind-sep ind-rt"><p class="ind-cap">Money and credit</p><table><thead><tr><th>Rate</th>'
+                '<th>Percent</th></tr></thead><tbody>' + "".join(rates) + "</tbody></table></div>")
     if polls:                            # opinion apart: a reading has its field dates and no revision
-        out += ('<div class="ind ind-op"><p class="ind-cap">Presidential approval, Gallup</p><table><thead><tr><th>Reading</th><th>As published</th>'
+        out += ('<div class="ind ind-sep ind-op"><p class="ind-cap">Presidential approval, Gallup</p><table><thead><tr><th>Reading</th><th>As published</th>'
                 '<th>Released</th><th>Today</th></tr></thead><tbody>' + "".join(polls) + "</tbody></table></div>")
     return out
 
@@ -434,9 +462,10 @@ div.ind td.iname a{color:inherit;text-decoration-color:var(--rule)}
 div.ind .kv{display:inline-grid;grid-template-columns:minmax(3.5em,7.5em) auto;column-gap:.4rem}
 div.ind .kv .v{text-align:right}
 div.ind .ind-cap{margin:0 0 .15rem;font-family:var(--sans);font-size:.72rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
-div.ind:not(.ind-op) tbody tr:last-child td{border-bottom:0}
-div.ind.ind-op{margin-top:1.1rem}
-div.ind.ind-op::before{content:"";display:block;width:75%;margin:0 auto .7rem;border-top:3px double var(--muted)}
+div.ind:has(+ div.ind) tbody tr:last-child td{border-bottom:0}
+div.ind.ind-sep{margin-top:1.1rem}
+div.ind.ind-sep::before{content:"";display:block;width:75%;margin:0 auto .7rem;border-top:3px double var(--muted)}
+div.ind.ind-rt td.iname{width:42%}
 div.ind.ind-op td.rel,div.ind.ind-op .per{white-space:nowrap}
 div.ind-defs{font-family:var(--sans);font-size:.85rem;line-height:1.45;margin:1rem 0 1.5rem}
 div.ind-defs dt{font-weight:600;margin-top:.6rem}
