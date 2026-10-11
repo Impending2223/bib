@@ -23,7 +23,9 @@ STYLE:
     a link to cal.html#X where X is in the second half goes to cal63.html#X (route).
  7. A thread highlighted: a tap on a thread's entry in the index, or on a thread's line under a calendar entry ("‹ Apr.
     24 · Testing · June 10 ›"), anywhere but on a link, sets that thread's entries, and its entry in the index, on
-    white (in the dark theme, a lighter panel); the same tap again clears it, a tap on another thread moves it. The
+    white (in the dark theme, a lighter panel): the entry's own box, square, from its rule to the next and as wide as
+    the rules, a fill and nothing else, so nothing moves and no edge crosses text. A day's first entry, which has no rule above
+    it, and its last, none below, take one while lit, drawn inside the box; the same tap again clears it, a tap on another thread moves it. The
     links (the dates, ‹ and ›) go where they go and leave the highlight as it is. It holds across the two halves and
     the reader for the session (sessionStorage), and is the reader's alone: nothing in the address.
  6. Each half's lede names the other ("The second calendar takes up at ..."); the words linked to its page's top.
@@ -242,9 +244,9 @@ a.tx.ty:hover{text-decoration:underline;text-decoration-color:var(--rule)}
 p.seam{font-family:var(--sans);font-size:.8rem;margin:1rem 0}
 p.seam a{color:var(--muted);text-decoration-color:var(--rule)}
 /* a thread highlighted (STYLE 7) */
-:root{--hl:#FFFFFF;--hlrule:#DCE1E8}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--hl:#22262E;--hlrule:#3A414C}}
-:root[data-theme="dark"]{--hl:#22262E;--hlrule:#3A414C}
+:root{--hl:#FFFFFF}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--hl:#22262E}}
+:root[data-theme="dark"]{--hl:#22262E}
 li[data-thread],.tnl[data-t]{cursor:pointer}
 </style>"""
 
@@ -255,7 +257,10 @@ SCRIPT = """<script>
   function set(t){
     try{ t?sessionStorage.setItem(KEY,t):sessionStorage.removeItem(KEY); }catch(e){}
     st.textContent = !t ? '' :
-      'li[data-threads~="'+t+'"],li[data-thread="'+t+'"]{background:var(--hl);box-shadow:0 0 0 .55rem var(--hl),0 0 0 calc(.55rem + 1px) var(--hlrule);border-radius:1px}'+
+      'li[data-threads~="'+t+'"],li[data-thread="'+t+'"]{background:var(--hl)}'+
+      '.day ol.e>li[data-threads~="'+t+'"]:first-child{box-shadow:inset 0 1px 0 var(--rule)}'+
+      '.day ol.e>li[data-threads~="'+t+'"]:last-child{box-shadow:inset 0 -1px 0 var(--rule)}'+
+      '.day ol.e>li[data-threads~="'+t+'"]:only-child{box-shadow:inset 0 1px 0 var(--rule),inset 0 -1px 0 var(--rule)}'+
       '.tnl[data-t="'+t+'"]{color:var(--ink)}';
     document.documentElement.dataset.hl = t || '';
   }
