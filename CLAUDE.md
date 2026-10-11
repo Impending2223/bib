@@ -494,7 +494,7 @@ Governors Hughes, 1963-68), each of theirs, with "Check: “Governor Hughes” m
 (`sources/app-names-checks.json`). `./bib names` builds those pages alone; `./bib names 'Humphrey, Hubert H.'
 [--site URL] [--out FILE]` one page. The old `lives*.html` addresses forward to the new ones (`./bib lives` still works).
 The scroll wheel and the Outline drawer give each entry's full name; the top bar its surname (`data-crumb`). The index
-and each letter's page carry the A–Z bar, the letters spread across the column as large as fit on one line (STYLE 7 in
+and each letter's page carry the A–Z bar, the letters at 1rem, 0.36em apart (STYLE 7 in
 `tools/bib/lives.py`); each letter's page opens with the index's list for its letter, linked to the entries below.
 A Part III entry for two people writes them apart with ";" (`s: Evans, Rowland, Jr.; Novak, Robert D.`), never "&".
 A name written in its own order, without a comma (Mao Zedong, Ngô Đình Diệm, Souphanouvong, U Thant, Malcolm X), is a
