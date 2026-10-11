@@ -21,6 +21,11 @@ STYLE:
     at the foot of the first half's last, "Jan. 3, 1963, in the second calendar ›" (seam).
  5. On the standalone pages a link to an anchor that lives in the other half goes to that page; on every other page,
     a link to cal.html#X where X is in the second half goes to cal63.html#X (route).
+ 7. A thread highlighted: a tap on a thread's entry in the index, or on a thread's line under a calendar entry ("‹ Apr.
+    24 · Testing · June 10 ›"), anywhere but on a link, sets that thread's entries, and its entry in the index, on
+    white (in the dark theme, a lighter panel); the same tap again clears it, a tap on another thread moves it. The
+    links (the dates, ‹ and ›) go where they go and leave the highlight as it is. It holds across the two halves and
+    the reader for the session (sessionStorage), and is the reader's alone: nothing in the address.
  6. Each half's lede names the other ("The second calendar takes up at ..."); the words linked to its page's top.
 """
 import datetime
@@ -236,4 +241,31 @@ a.tx.ty{text-decoration:none}
 a.tx.ty:hover{text-decoration:underline;text-decoration-color:var(--rule)}
 p.seam{font-family:var(--sans);font-size:.8rem;margin:1rem 0}
 p.seam a{color:var(--muted);text-decoration-color:var(--rule)}
+/* a thread highlighted (STYLE 7) */
+:root{--hl:#FFFFFF;--hlrule:#DCE1E8}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--hl:#22262E;--hlrule:#3A414C}}
+:root[data-theme="dark"]{--hl:#22262E;--hlrule:#3A414C}
+li[data-thread],.tnl[data-t]{cursor:pointer}
 </style>"""
+
+SCRIPT = """<script>
+/* a thread highlighted: a tap on a thread's entry in the index or on its line under an entry, not on a link (STYLE 7) */
+(function(){
+  var KEY='bib-thread-hl', st=document.createElement('style'); document.head.appendChild(st);
+  function set(t){
+    try{ t?sessionStorage.setItem(KEY,t):sessionStorage.removeItem(KEY); }catch(e){}
+    st.textContent = !t ? '' :
+      'li[data-threads~="'+t+'"],li[data-thread="'+t+'"]{background:var(--hl);box-shadow:0 0 0 .55rem var(--hl),0 0 0 calc(.55rem + 1px) var(--hlrule);border-radius:1px}'+
+      '.tnl[data-t="'+t+'"]{color:var(--ink)}';
+    document.documentElement.dataset.hl = t || '';
+  }
+  var now=''; try{ now=sessionStorage.getItem(KEY)||''; }catch(e){}
+  if(/^[a-z0-9-]+$/.test(now)) set(now); else now='';
+  document.addEventListener('click', function(ev){
+    if(ev.target.closest('a,button,summary,input')) return;
+    var el=ev.target.closest('li[data-thread],.tnl[data-t]'); if(!el) return;
+    var t=el.dataset.thread||el.dataset.t; if(!/^[a-z0-9-]+$/.test(t)) return;
+    now = (now===t) ? '' : t; set(now);
+  });
+})();
+</script>"""

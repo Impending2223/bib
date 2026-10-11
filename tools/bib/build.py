@@ -76,7 +76,7 @@ def thread_nav(series, lst, e, year, text_html):
         prev = f"‹ [[{ids[i - 1]}]] · " if i > 0 else ""
         nxt = f" · [[{ids[i + 1]}]] ›" if i + 1 < len(ids) else ""
         line = year_qualified(series, f"{prev}{thread_name(lst, t)}{nxt}", year)
-        out.append(f'<span class="tnl">{text_html(line, "tn")}</span>')
+        out.append(f'<span class="tnl" data-t="{attr(t)}">{text_html(line, "tn")}</span>')
     return f'<span class="tn">{"".join(out)}</span>' if out else ""
 
 
@@ -223,6 +223,11 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
         parts.append(f'<span class="gl">{paras}</span>')
     if e.get("conflict"):
         parts.append('<span class="n"><b>Unresolved merge conflict.</b></span>')
+    if lst.kind == "calendar":           # its threads, for the highlight a reader turns on (calsplit.py, STYLE 7)
+        if is_thread:
+            extra_attrs += f' data-thread="{attr(slug)}"'
+        elif e.get("thread"):
+            extra_attrs += f' data-threads="{attr(" ".join([e["thread"]] + list(e.get("also") or [])))}"'
     return f'<li id="{attr(anchor)}"{extra_attrs}>' + "".join(parts) + extra_spans + "</li>"
 
 
@@ -813,6 +818,7 @@ def run(series, which=None):
                 page = daybook.inject(page)
                 if half:
                     page = page.replace("</head>", calsplit.STYLE + "\n</head>", 1)
+                    page = page.replace("</body>", calsplit.SCRIPT + "\n</body>", 1)
                     page = routed(page, half)
             else:
                 page = routed(page)
@@ -828,6 +834,7 @@ def run(series, which=None):
         page = indicators.inject(page, series, "series")
         page = daybook.inject(page)
         page = page.replace("</head>", calsplit.STYLE + "\n</head>", 1)
+        page = page.replace("</body>", calsplit.SCRIPT + "\n</body>", 1)
         path = os.path.join(OUT, "series.html")
         smart.write(path, page)
         written.append(path)
