@@ -11,6 +11,9 @@ STYLE
     and is followed by a letter; an elision written with an apostrophe first stays ’ ('60s, '64, 'n', 'em, 'tis,
     'twas, 'til, 'cause).
  3. Tags are transparent: the character before a mark may lie in the text before an <i> or <a> (“<i>Title</i>”).
+    But a mark that begins an element's text, right after its opening tag, and is followed by a letter or a digit,
+    opens, unless the text before the tag ended in a letter or a digit (it<a>’s</a>): a link's text that begins with
+    a title in quotation marks (<a>“Robert Kennedy Assures Vietnam,”</a>), a paragraph that begins with a quotation.
  4. Marks already curled in the text are left as they are. An inch or a minute is written as a prime (″ ′) in the
     sources, not as a quotation mark.
 """
@@ -26,12 +29,15 @@ TOKEN = re.compile(r"<!--.*?-->|" + TAG + r"|[^<]+|<", re.S)
 TAGS = re.compile(r"<!--.*?-->|" + TAG, re.S)
 
 
-def _curl(text, prev):
-    """Curl the marks in one run of text; prev is the character before it (across tags). Returns (text, last)."""
+def _curl(text, prev, fresh=False):
+    """Curl the marks in one run of text; prev is the character before it (across tags); fresh where the run begins
+    an element's text, right after an opening tag (STYLE 3). Returns (text, last)."""
     text = ENT.sub(lambda m: '"' if m.group(0).lower() in ("&quot;", "&#34;", "&#x22;") else "'", text)
     out = []
     for i, ch in enumerate(text):
         before = out[-1] if out else prev
+        if i == 0 and fresh and ch in "\"'" and text[1:2].isalnum() and not (prev or " ").isalnum():
+            before = ""
         if ch == '"':
             ch = "“" if before in OPENERS or before == "" else "”"
         elif ch == "'":
@@ -47,7 +53,7 @@ def _curl(text, prev):
 
 def smarten(page):
     """The page with its text's quotation marks curled (STYLE 1-4)."""
-    out, skip, prev = [], None, ""
+    out, skip, prev, fresh = [], None, "", False
     for m in TOKEN.finditer(page):
         tok = m.group(0)
         if tok.startswith("<") and len(tok) > 1:
@@ -57,15 +63,17 @@ def smarten(page):
                     skip = None
             elif name in SKIP and not m.group(1) and not tok.endswith("/>"):
                 skip = name
+            fresh = not m.group(1) and not tok.startswith("<!--") and not tok.endswith("/>") and name not in ("br",)
             out.append(tok)
             continue
         if skip:
             out.append(tok)
             continue
         if "'" in tok or '"' in tok or "&" in tok:
-            tok, prev = _curl(tok, prev)
+            tok, prev = _curl(tok, prev, fresh)
         elif tok:
             prev = tok[-1]
+        fresh = False
         out.append(tok)
     return "".join(out)
 
