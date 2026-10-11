@@ -31,7 +31,8 @@ STYLE:
  5. FRUS headings with 'from' in lower case; works from the Directory's bibliography in the series' form.
  7. The A-Z bar: on the index and on each letter's page, the letters at 1rem, 0.36em apart, the page's own letter
     unlinked and in ink. Each letter's
-    page opens with the index's list for that letter, linked to the entries below.
+    page opens with the index's opening paragraphs, the count of its persons ("1,024 persons."), the bar,
+    and the index's list for that letter, linked to the entries below.
 """
 import datetime
 import functools
@@ -2846,8 +2847,9 @@ def pages(series, linker, template):
     for L in sorted(by_letter):
         ps = by_letter[L]
         index.append(f'<h2 id="{L}" data-short="{L.upper()}">{L.upper()}</h2>' + names_list(L, False))
-        main = [f"<h1>Names: {L.upper()}</h1>", nav(L), '<p class="lvs"><a class="lvp" href="names.html">Index</a></p>',
-                names_list(L, True)]
+        main = [f"<h1>Names: {L.upper()}</h1>"] + INTRO + [
+                f'<p class="logic">{len(ps):,} {"person" if len(ps) == 1 else "persons"}.</p>',
+                nav(L), '<p class="lvs"><a class="lvp" href="names.html">Index</a></p>', names_list(L, True)]
         for p in ps:
             try:
                 main.append(entry(series, linker, ptrs, p))
