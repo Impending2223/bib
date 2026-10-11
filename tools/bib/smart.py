@@ -13,8 +13,8 @@ STYLE
  3. Tags are transparent: the character before a mark may lie in the text before an <i> or <a> (“<i>Title</i>”).
     But a double mark right after a tag and followed by a letter or a digit opens: a link's text that begins with a
     title in quotation marks (<a>“Robert Kennedy Assures Vietnam,”</a>), a paragraph that begins with a quotation, a
-    calendar line after its rubric ("…, Dec. 17</span>“After Two Years”"). A single mark so placed opens only where the
-    text before the tag did not end in a letter or a digit (it<a>’s</a>; <i>Times</i>’s).
+    calendar line after its rubric ("…, Dec. 17</span>“After Two Years”"). A single mark so placed opens only after an
+    opening tag, where the text before it did not end in a letter or a digit (it<a>’s</a>; <i>Times</i>’s; Viet.</a>’s).
  4. Marks already curled in the text are left as they are. An inch or a minute is written as a prime (″ ′) in the
     sources, not as a quotation mark.
 """
@@ -37,7 +37,7 @@ def _curl(text, prev, fresh=False):
     out = []
     for i, ch in enumerate(text):
         before = out[-1] if out else prev
-        if i == 0 and fresh and text[1:2].isalnum() and (ch == '"' or not (prev or " ").isalnum()):
+        if i == 0 and fresh and text[1:2].isalnum() and (ch == '"' or fresh == "open" and not (prev or " ").isalnum()):
             before = ""
         if ch == '"':
             ch = "“" if before in OPENERS or before == "" else "”"
@@ -64,7 +64,7 @@ def smarten(page):
                     skip = None
             elif name in SKIP and not m.group(1) and not tok.endswith("/>"):
                 skip = name
-            fresh = not tok.startswith("<!--")     # a run right after a tag (STYLE 3)
+            fresh = False if tok.startswith("<!--") else ("close" if m.group(1) else "open")   # STYLE 3
             out.append(tok)
             continue
         if skip:
