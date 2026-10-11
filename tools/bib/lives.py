@@ -29,8 +29,8 @@ STYLE:
  6. Each run of sentences sharing their sources and pointers is a sentence block; its source block follows it,
     the cites first, then the pointers; each sentence block is a paragraph.
  5. FRUS headings with 'from' in lower case; works from the Directory's bibliography in the series' form.
- 7. The A-Z bar: on the index and on each letter's page, the letters spread across the column, as large as fit on
-    one line (1.6rem in the full column, less in a narrower), the page's own letter unlinked and in ink. Each letter's
+ 7. The A-Z bar: on the index and on each letter's page, the letters at 1rem, 0.36em apart, the page's own letter
+    unlinked and in ink. Each letter's
     page opens with the index's list for that letter, linked to the entries below.
 """
 import datetime
@@ -2695,11 +2695,10 @@ CSS = """<style>
 p.lvd{margin:.6rem 0 .2rem}
 .lvs{font-size:.82rem;color:var(--muted)}
 p.lvs{margin:.2rem 0 .9rem}
-/* the A-Z bar: the letters spread across the column, as large as fit on one line (26 capitals set to 18.2 em; with
-   a gap of a quarter em, 24.5 em: 1.6rem in the 632px column, less where the column is narrower) */
-div.azw{container-type:inline-size;margin:.4rem 0 .8rem}
-p.az{display:flex;justify-content:space-between;margin:0;font-family:var(--sans);font-weight:600;
-  font-size:min(1.6rem,4cqi);line-height:1.2}
+/* the A-Z bar: 1rem, the letters set apart by 0.36em, a third more than the gap they had spread across the column at
+   1.6rem (0.27em) */
+div.azw{margin:.4rem 0 .8rem}
+p.az{display:flex;flex-wrap:wrap;gap:0 .36em;margin:0;font-family:var(--sans);font-weight:600;font-size:1rem;line-height:1.4}
 p.az a{color:var(--muted);text-decoration:none}
 p.az a:hover{color:var(--ink);text-decoration:underline;text-decoration-thickness:1px}
 p.az span{color:var(--ink)}
