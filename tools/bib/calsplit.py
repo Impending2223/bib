@@ -247,6 +247,7 @@ p.seam a{color:var(--muted);text-decoration-color:var(--rule)}
 :root{--hl:#FFFFFF}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--hl:#22262E}}
 :root[data-theme="dark"]{--hl:#22262E}
+ol.e>li[data-thread]{padding-left:.515em;padding-right:.515em;margin:0 -.515em}
 li[data-thread],.tnl[data-t]{cursor:pointer}
 </style>"""
 
