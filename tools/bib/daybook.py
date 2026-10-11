@@ -18,9 +18,6 @@ that open that day, and the day's documents in a list that opens and closes ("Ex
 STYLE:
  1. Day: "Monday, Apr. 17", bold sans; "New York Times" under it, muted, linked to that day's paper
     (by date only); during the newspaper strike, "No New York Times (strike)".
-    The rules (the day's, solid; between its entries, dotted) run an en dash (.515em of the serif) past the text
-    into the margin on either side; the text does not move (negative margin, equal padding). The thread index's rules
-    the same (calsplit.STYLE).
  2. Entry: the thread as a rubric on its own line above the first line, muted small capitals in sans, each thread's
     name linked to its entry in the thread index at the top, in the rubric's own color, unmarked but on hover;
     other threads after a middle dot; a range or a month-only date after a comma ("Cuba, Apr.
@@ -439,14 +436,14 @@ def section_days(lst, sec, entry_li, thread_name):
 
 
 STYLE = """<style>
-.day{padding:.55rem .515em .35rem;margin:0 -.515em;border-top:1px solid var(--rule)}
+.day{padding:.55rem 0 .35rem;border-top:1px solid var(--rule)}
 .day .dh{display:flex;flex-direction:column;font-family:var(--sans);line-height:1.3}
 .day .dn{font-weight:700;font-size:.92rem}
 .day .tm{font-size:.78rem;color:var(--muted);margin-top:.05rem}
 .day a.tm{color:var(--muted);text-decoration-color:var(--rule)}
 .day .tv{display:block;font-size:.78rem;color:var(--muted);margin-top:.05rem}
 .day .tv .tvc{font-style:italic}
-.day ol.e>li{padding:.8rem .515em .45rem;margin:0 -.515em;border-bottom:0}
+.day ol.e>li{padding:.8rem 0 .45rem;border-bottom:0}
 .day ol.e>li+li{border-top:1px dotted var(--rule)}
 .s.rub{display:block;font-family:var(--sans);font-size:.7rem;font-weight:600;letter-spacing:.06em;
   text-transform:uppercase;color:var(--muted);line-height:1.2;margin:0}

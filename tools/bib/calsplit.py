@@ -23,8 +23,9 @@ STYLE:
     a link to cal.html#X where X is in the second half goes to cal63.html#X (route).
  7. A thread highlighted: a tap on a thread's entry in the index, or on a thread's line under a calendar entry ("‹ Apr.
     24 · Testing · June 10 ›"), anywhere but on a link, sets that thread's entries, and its entry in the index, on
-    white (in the dark theme, a lighter panel): the entry's own box, square, from its rule to the next and as wide as
-    the rules, a fill and nothing else, so nothing moves and no edge crosses text. A day's first entry, which has no rule above
+    white (in the dark theme, a lighter panel): the entry's own box, square, from its rule to the next, and an en dash (.515em of the serif)
+    past the rules' ends on either side, into the margin (side shadows of the fill); nothing moves and no edge crosses
+    text. A day's first entry, which has no rule above
     it, and its last, none below, take one while lit, drawn inside the box; the same tap again clears it, a tap on another thread moves it. The
     links (the dates, ‹ and ›) go where they go and leave the highlight as it is. It holds across the two halves and
     the reader for the session (sessionStorage), and is the reader's alone: nothing in the address.
@@ -247,21 +248,20 @@ p.seam a{color:var(--muted);text-decoration-color:var(--rule)}
 :root{--hl:#FFFFFF}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--hl:#22262E}}
 :root[data-theme="dark"]{--hl:#22262E}
-ol.e>li[data-thread]{padding-left:.515em;padding-right:.515em;margin:0 -.515em}
 li[data-thread],.tnl[data-t]{cursor:pointer}
 </style>"""
 
 SCRIPT = """<script>
 /* a thread highlighted: a tap on a thread's entry in the index or on its line under an entry, not on a link (STYLE 7) */
 (function(){
-  var KEY='bib-thread-hl', st=document.createElement('style'); document.head.appendChild(st);
+  var W='-.515em 0 0 var(--hl),.515em 0 0 var(--hl)', KEY='bib-thread-hl', st=document.createElement('style'); document.head.appendChild(st);
   function set(t){
     try{ t?sessionStorage.setItem(KEY,t):sessionStorage.removeItem(KEY); }catch(e){}
     st.textContent = !t ? '' :
-      'li[data-threads~="'+t+'"],li[data-thread="'+t+'"]{background:var(--hl)}'+
-      '.day ol.e>li[data-threads~="'+t+'"]:first-child{box-shadow:inset 0 1px 0 var(--rule)}'+
-      '.day ol.e>li[data-threads~="'+t+'"]:last-child{box-shadow:inset 0 -1px 0 var(--rule)}'+
-      '.day ol.e>li[data-threads~="'+t+'"]:only-child{box-shadow:inset 0 1px 0 var(--rule),inset 0 -1px 0 var(--rule)}'+
+      'li[data-threads~="'+t+'"],li[data-thread="'+t+'"]{background:var(--hl);box-shadow:'+W+'}'+
+      '.day ol.e>li[data-threads~="'+t+'"]:first-child{box-shadow:inset 0 1px 0 var(--rule),'+W+'}'+
+      '.day ol.e>li[data-threads~="'+t+'"]:last-child{box-shadow:inset 0 -1px 0 var(--rule),'+W+'}'+
+      '.day ol.e>li[data-threads~="'+t+'"]:only-child{box-shadow:inset 0 1px 0 var(--rule),inset 0 -1px 0 var(--rule),'+W+'}'+
       '.tnl[data-t="'+t+'"]{color:var(--ink)}';
     document.documentElement.dataset.hl = t || '';
   }

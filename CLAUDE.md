@@ -902,6 +902,11 @@ day falls in; the threads section is in both. `tools/bib/calsplit.py` (STYLE not
 - Links: write `[[id]]` as ever. The build routes a link whose anchor is in the other half to that page, on the
   calendar's pages and on every other page (`cal.html#X` → `cal63.html#X`); `./bib links` checks both.
 - `./bib build cal` (or `cal63`) builds both halves.
+- A tap on a thread's entry in the index, or on its line under an entry (not on a link), lights the thread: its
+  entries and its index entry on white (a lighter panel in the dark theme), each entry's own box from its rule to the
+  next and an en dash past the rules' ends on either side, the rules as they were; a day's first or last entry takes a
+  rule while lit where it has none. Tapped again, cleared; kept for the tab (sessionStorage). Nothing moves (STYLE 7,
+  `SCRIPT` in `tools/bib/calsplit.py`; `data-threads`, `data-thread`, `data-t` in `tools/bib/build.py`).
 
 ## The calendar by day
 
