@@ -297,10 +297,16 @@ SCRIPT = """<script>
     box.width=Math.round(28*dpr); box.height=Math.round(rr.height*dpr);
     var els=document.querySelectorAll('li[data-threads~="'+now+'"],li[data-thread="'+now+'"]');
     for(i=0;i<els.length;i++){ r=els[i].getBoundingClientRect(); if(r.height) ys.push(r.top+window.scrollY, r.height); }
-    var g=box.getContext('2d'); g.fillStyle=getComputedStyle(document.documentElement).getPropertyValue('--hl').trim()||'#fff';
-    for(i=0;i<ys.length;i+=2){           // the entry's share of the page, as its share of the thumb's travel; a device pixel at least
-      var y0=(th/2+ys[i]*k)*dpr, y1=y0+ys[i+1]*k*dpr, a=Math.floor(y0);
-      g.fillRect(0,a,box.width,Math.max(1,Math.round(y1)-a));
+    var cs=getComputedStyle(document.documentElement), g=box.getContext('2d'),
+        least=Math.max(1,Math.round((parseFloat(cs.getPropertyValue('--hlmin'))||0)*dpr));   // the least height, device pixels
+    var ink=cs.getPropertyValue('--hlmark').trim()||cs.getPropertyValue('--hl').trim()||'#fff',
+        halo=cs.getPropertyValue('--hlhalo').trim(), hp=Math.round((parseFloat(cs.getPropertyValue('--hlhalow'))||0)*dpr);
+    g.fillStyle=ink;
+    for(i=0;i<ys.length;i+=2){           // the entry's share of the page, as its share of the thumb's travel; at least `least`
+      var y0=(th/2+ys[i]*k)*dpr, y1=y0+ys[i+1]*k*dpr, a=Math.floor(y0), h=Math.round(y1)-a;
+      if(h<least){ a=Math.round((y0+y1)/2-least/2); h=least; }      // fattened about the entry's middle
+      if(halo){ g.fillStyle=halo; g.fillRect(0,a-hp,box.width,h+2*hp); g.fillStyle=ink; }
+      g.fillRect(0,a,box.width,h);
     }
   }
   new MutationObserver(function(){ box.classList.toggle('on',!!now&&peek.classList.contains('on')); marks(); })
