@@ -936,7 +936,9 @@ day falls in; the threads section is in both. `tools/bib/calsplit.py` (STYLE not
   rule while lit where it has none. Tapped again, cleared; kept for the tab (sessionStorage). While it is lit, a mark a
   lit entry in the thumb's column, its place and height the entry's share of the page (3px at least), no bar behind:
   amber while the scroll wheel's headings show (they stay 1.5 s after it is let go, `LINGER` in the templates), white
-  after; a click on a mark brings its entry to the top (STYLE 8). Nothing moves (STYLE 7,
+  after; a click on a mark brings its entry to the top (STYLE 8). On every page the scroll wheel is hidden until the reader
+  scrolls (the wheel, a finger, the keys, the page's scroll bar; not a link followed or a jump: `HAND` in
+  `templates/list.html` and `series.html`), and goes 1.2 s after the scrolling stops. Nothing moves (STYLE 7,
   `SCRIPT` in `tools/bib/calsplit.py`; `data-threads`, `data-thread`, `data-t` in `tools/bib/build.py`).
 
 ## The calendar by day
