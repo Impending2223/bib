@@ -809,7 +809,8 @@ def block(i, units, ptr, href, rid, here=False):
 #     named office of its own, by its name alone, linked, with nothing under it, where it stands beside a named entity
 #     under the same department (cal_entity: the ICA beside the Peace Corps and the missions, under State; the
 #     services, the unified and specified commands and the defense agencies beside the Joint Chiefs, under Defense).
-#     The Executive Office has no head of its own, so an entity in it stands only by a named officer of its own.
+#     So too in the Executive Office (the Board of Consultants on Foreign Intelligence Activities, the Office of Civil
+#     and Defense Mobilization, the Space Council, beside the Budget Bureau, the CEA and the NSC).
 #     Candidates are the offices of the Executive Office and those one and two steps beneath a full office elsewhere
 #     (cal_parent: an office's `under`, else its unit's head, else the head of the unit above; a unit in
 #     CAL_COLLECTIONS has no head of its own). Not the President's own subordinates outside the Executive Office: the
@@ -876,9 +877,9 @@ def cal_beside(o, u, units, a, b):
 
 def cal_entity(u, units, a, b):
     """True where an entity with no named office stands, by its name alone, beside a named entity under the same
-    department (CAL STYLE 2)."""
+    department or in the Executive Office (CAL STYLE 2)."""
     pu = units.get(u.get("under") or "")
-    if pu is None or pu["unit"] == "president" or cal_head(pu) is None or cal_named(u, a, b):
+    if pu is None or pu["unit"] == "president" or cal_named(u, a, b):
         return False                                     # the President's own entities: by their part, or one link
     return any(v.get("under") == pu["unit"] and exists(v, a, b) and cal_named(v, a, b) for v in units.values())
 
