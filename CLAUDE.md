@@ -393,11 +393,11 @@ Federal Reserve, the Chairman of the Joint Chiefs, the Director of the FBI, and 
 Secretary to the President, Military Representative, Personal Secretary, CEA Chairman and Special Assistant for National
 Security Affairs, and the Director of Central Intelligence, the Budget Director, the science adviser, the trade
 representative, the Directors of the USIA and the Peace Corps (`CAL_FULL`), each holder's pointers under his line, no
-column of them; by title alone, linked to executive.html, an office that stands beside a named one, never beneath it
-(`cal_beside`): an office beside the others of its unit answering to the same officer (Staff Secretary beside the
-Appointments Secretary), an entity by its head beside the entities under the same department (the ICA beside the Peace
-Corps and the missions; the services, commands and defense agencies beside the Joint Chiefs); an entity of the Executive
-Office, which has no head, only by a named officer of its own. Every row flush. Not shown: the White House's special
+column of them; by title alone, linked to executive.html, an office beside a named office of its own unit, answering to
+the same officer (`cal_beside`: Staff Secretary beside the Appointments Secretary), never one beneath a named office; an
+entity with no named office, by its name alone, beside a named entity under the same department (`cal_entity`: the ICA
+beside the Peace Corps and the missions; the services, commands and defense agencies beside the Joint Chiefs); an entity
+of the Executive Office, which has no head, only by a named officer of its own. Every row flush. Not shown: the White House's special
 assistants (`CAL_OUT`). The Agencies and commissions one link, the Federal Reserve, the CIA, the USIA under it; the parts
 in centered small capitals; the units open, not collapsible. Each office's rows are a `tbody`
 carrying its anchor, on both pages, so a link lights the holders and the Before/After row, not the law or the note.

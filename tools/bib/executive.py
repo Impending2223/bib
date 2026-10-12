@@ -804,15 +804,16 @@ def block(i, units, ptr, href, rid, here=False):
 #     (CAL_FULL). Not the White House's special assistants, employees (CAL_OUT), nor the UN deputies. Each holder's
 #     pointers into the series under his line, after a break; no column of them.
 #  2. By title alone, one line spanning the table, linked to the office on executive.html: an office that stands
-#     beside a named one, never beneath it (cal_beside). An office stands beside the others of its unit that answer
-#     to the same officer (Staff Secretary beside the Appointments Secretary, both answering to the President); an
-#     entity, by its head (a collection, by its offices that answer to no other), beside the entities under the same
-#     department (the ICA beside the Peace Corps and the missions, under State; the services, the unified and
-#     specified commands and the defense agencies beside the Joint Chiefs, under Defense). The Executive Office has
-#     no head of its own, so an entity in it stands only by a named officer of its own. Candidates are the offices of
-#     the Executive Office and those one and two steps beneath a full office elsewhere (cal_parent: an office's
-#     `under`, else its unit's head, else the head of the unit above; a unit in CAL_COLLECTIONS has no head of its own).
-#     Not the President's own subordinates outside the Executive Office: the agencies and commissions are one link.
+#     beside a named office of its own unit, answering to the same officer (cal_beside: Staff Secretary beside the
+#     Appointments Secretary, both answering to the President); never one beneath a named office. An entity with no
+#     named office of its own, by its name alone, linked, with nothing under it, where it stands beside a named entity
+#     under the same department (cal_entity: the ICA beside the Peace Corps and the missions, under State; the
+#     services, the unified and specified commands and the defense agencies beside the Joint Chiefs, under Defense).
+#     The Executive Office has no head of its own, so an entity in it stands only by a named officer of its own.
+#     Candidates are the offices of the Executive Office and those one and two steps beneath a full office elsewhere
+#     (cal_parent: an office's `under`, else its unit's head, else the head of the unit above; a unit in
+#     CAL_COLLECTIONS has no head of its own). Not the President's own subordinates outside the Executive Office: the
+#     agencies and commissions are one link.
 #  3. Parts as on executive.html, in centered small capitals; the units open, not collapsible; the Agencies and
 #     commissions a link to that part of the term on executive.html, with the full offices of that part under it.
 #  4. Every row flush: none stands beneath another.
@@ -862,25 +863,24 @@ def in_eop(u, units):
     return False
 
 
-def cal_rep(o, u, units):
-    """True where the office stands for its unit: a unit's head; in a collection, an office that answers to no other."""
-    return o is cal_head(u) if cal_head(u) is not None else not o.get("under")
-
-
 def cal_named(v, a, b):
     return any((v["unit"], x["id"]) in CAL_FULL and exists(x, a, b) for x in v.get("offices") or [])
 
 
 def cal_beside(o, u, units, a, b):
-    """True where a title row stands beside a named office, not beneath one (CAL STYLE 2)."""
-    if cal_rep(o, u, units):
-        pu = units.get(u.get("under") or "")
-        if pu is None or cal_head(pu) is None:          # under the Executive Office: by a named officer of its own
-            return cal_named(u, a, b)
-        return any(v.get("under") == pu["unit"] and exists(v, a, b) and cal_named(v, a, b) for v in units.values())
+    """True where a title row stands beside a named office of its own unit, answering to the same officer (CAL STYLE 2)."""
     p = cal_parent(o, u, units)
     return any((u["unit"], x["id"]) in CAL_FULL and exists(x, a, b) and cal_parent(x, u, units) == p
                for x in u.get("offices") or [] if x is not o)
+
+
+def cal_entity(u, units, a, b):
+    """True where an entity with no named office stands, by its name alone, beside a named entity under the same
+    department (CAL STYLE 2)."""
+    pu = units.get(u.get("under") or "")
+    if pu is None or pu["unit"] == "president" or cal_head(pu) is None or cal_named(u, a, b):
+        return False                                     # the President's own entities: by their part, or one link
+    return any(v.get("under") == pu["unit"] and exists(v, a, b) and cal_named(v, a, b) for v in units.values())
 
 
 def cal_kind(o, u, units, a=None, b=None):
@@ -976,9 +976,14 @@ def cal_block(i, units, ptr, href, rid):
             else:
                 parts.append(f'<p class="exsech">{esc(sec or SECTIONS_PRESIDENT)}</p>')
             section = sec
-        if not rows:
+        alone = not rows and cal_entity(u, units, a, b)      # an entity beside a named one: its name alone
+        if not rows and not alone:
             continue
         path = "".join(f'<span class="cgsm">{esc(name_at(p, a))} › </span>' for p in path_of(u, units))
+        if alone:
+            parts.append(f'<div class="cgr exu excal exal" id="{rid(i, u["unit"], "")}">'
+                         f'<p class="exuh">{path}<a href="{ex(u["unit"])}">{esc(name_at(u, a))}</a></p></div>')
+            continue
         parts.append(f'<div class="cgr exu excal" id="{rid(i, u["unit"], "")}">'
                      f'<p class="exuh">{path}<a href="{ex(u["unit"])}">{esc(name_at(u, a))}</a></p>'
                      '<table><colgroup><col class="exc1"><col class="exc2"></colgroup>'
@@ -1044,6 +1049,7 @@ details.exu tr.exlr .cgn{margin:.1rem 0 .15rem}
 .ex p.exsech a{color:inherit;text-decoration-color:var(--rule)}
 div.excal{margin:.5rem 0;font-size:.85rem}
 div.excal p.exuh{font-weight:600;margin:.3rem 0 .1rem}
+div.excal.exal{margin:.2rem 0 .6rem}
 div.excal p.exuh a{color:inherit;text-decoration-color:var(--rule)}
 div.excal table{font-size:.82rem;margin:.2rem 0 .8rem}
 div.excal col.exc1{width:30%}div.excal col.exc2{width:auto}
