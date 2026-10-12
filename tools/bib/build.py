@@ -79,7 +79,8 @@ def thread_nav(series, lst, e, year, text_html):
         for mark, j in (("⟨⟨", i - 1), ("⟩⟩", i + 1)):       # the date on hover
             if 0 <= j < len(ids) and series.get(ids[j]):
                 h = re.sub(r"<a ([^>]*)>" + mark + "</a>", lambda m, d=date_label(series.get(ids[j])[2], year):
-                           f'<a {m.group(1)} class="tnb" title="{attr(d)}">{mark}</a>', h, count=1)
+                           "<a " + (re.sub(r'class="', 'class="tnb ', m.group(1), count=1) if 'class="' in m.group(1)
+                                    else m.group(1) + ' class="tnb"') + f' title="{attr(d)}">{mark}</a>', h, count=1)
         out.append(f'<span class="tnl" data-t="{attr(t)}">{h}</span>')
     return f'<span class="tn">{"".join(out)}</span>' if out else ""
 
