@@ -907,8 +907,7 @@ day falls in; the threads section is in both. `tools/bib/calsplit.py` (STYLE not
   next and an en dash past the rules' ends on either side, the rules as they were; a day's first or last entry takes a
   rule while lit where it has none. Tapped again, cleared; kept for the tab (sessionStorage). While it is lit and the
   scroll wheel is held, a mark a lit entry in the thumb's column, its place and height the entry's share of the page
-  (a device pixel at least), over a second, darker gradient rising on a logistic curve to its peak just left of
-  the marks; shown and gone with the headings (STYLE 8). Nothing moves (STYLE 7,
+  (a device pixel at least), on a darker bar of their width; shown and gone with the headings (STYLE 8). Nothing moves (STYLE 7,
   `SCRIPT` in `tools/bib/calsplit.py`; `data-threads`, `data-thread`, `data-t` in `tools/bib/build.py`).
 
 ## The calendar by day
