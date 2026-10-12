@@ -918,7 +918,7 @@ that day, each under its thread as a rubric (a line of muted small capitals abov
 linked, in the rubric's own color, to its entry in the thread index at the top;
 the date added for a range or a month-only entry), under an address that sets several threads going (`to:`, `short:`) a "To:" line naming each thread
 and the entry it leads to, and under each such entry a "From:" line back to the address (`program_links`), then a line a thread linking the entries before and
-after it in the thread ("‹ Apr. 24 · Testing · June 10 ›", its `also` threads too; `thread_nav` in
+after it in the thread ("⟨⟨ Testing ⟩⟩", the brackets the links, not underlined, the date on hover; its `also` threads too; `thread_nav` in
 `tools/bib/build.py`), a "Continuing" pointer under the date on each later
 day of a ranged entry, and the day's documents, closed by default, with "Expand all" and
 "Collapse all" under each month heading.

@@ -62,8 +62,8 @@ _NAV = {}
 
 def thread_nav(series, lst, e, year, text_html):
     """Under a calendar entry, for each of its threads, the entries before and after it in the thread:
-    "‹ Apr. 24 · Testing · June 10 ›" (the year added where it differs). A thread's first entry has no ‹, its
-    last no ›."""
+    "⟨⟨ Testing ⟩⟩", the brackets the links (not underlined: .tnb), the date on hover (the year added where it differs). A thread's first
+    entry has no ⟨⟨, its last no ⟩⟩."""
     key = id(lst)
     if key not in _NAV:
         _NAV[key] = {t: [m["id"] for m in ms] for t, ms in thread_members(lst).items()}
@@ -73,10 +73,14 @@ def thread_nav(series, lst, e, year, text_html):
         if e["id"] not in ids or len(ids) < 2:
             continue
         i = ids.index(e["id"])
-        prev = f"‹ [[{ids[i - 1]}]] · " if i > 0 else ""
-        nxt = f" · [[{ids[i + 1]}]] ›" if i + 1 < len(ids) else ""
-        line = year_qualified(series, f"{prev}{thread_name(lst, t)}{nxt}", year)
-        out.append(f'<span class="tnl" data-t="{attr(t)}">{text_html(line, "tn")}</span>')
+        prev = f"[[{ids[i - 1]}|⟨⟨]] " if i > 0 else ""
+        nxt = f" [[{ids[i + 1]}|⟩⟩]]" if i + 1 < len(ids) else ""
+        h = text_html(f"{prev}{thread_name(lst, t)}{nxt}", "tn")
+        for mark, j in (("⟨⟨", i - 1), ("⟩⟩", i + 1)):       # the date on hover
+            if 0 <= j < len(ids) and series.get(ids[j]):
+                h = re.sub(r"<a ([^>]*)>" + mark + "</a>", lambda m, d=date_label(series.get(ids[j])[2], year):
+                           f'<a {m.group(1)} class="tnb" title="{attr(d)}">{mark}</a>', h, count=1)
+        out.append(f'<span class="tnl" data-t="{attr(t)}">{h}</span>')
     return f'<span class="tn">{"".join(out)}</span>' if out else ""
 
 

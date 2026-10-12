@@ -451,6 +451,7 @@ STYLE = """<style>
 .s.rub a.rt{color:inherit;text-decoration:none}
 .s.rub a.rt:hover{text-decoration:underline;text-decoration-color:var(--rule)}
 .tn{display:block;font-family:var(--sans);font-size:.72rem;line-height:1.35;color:var(--muted);margin-top:.15rem}
+.tn a.tnb{text-decoration:none}
 .tn .tnl{display:block}
 .tn a{color:var(--muted)}
 .tn.tp{font-style:italic}.tn.tp .tpv{font-style:normal}
