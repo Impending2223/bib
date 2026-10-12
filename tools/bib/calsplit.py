@@ -21,13 +21,13 @@ STYLE:
     at the foot of the first half's last, "Jan. 3, 1963, in the second calendar ›" (seam).
  5. On the standalone pages a link to an anchor that lives in the other half goes to that page; on every other page,
     a link to cal.html#X where X is in the second half goes to cal63.html#X (route).
- 7. A thread highlighted: a tap on a thread's entry in the index, or on a thread's line under a calendar entry ("‹ Apr.
-    24 · Testing · June 10 ›"), anywhere but on a link, sets that thread's entries, and its entry in the index, on
+ 7. A thread highlighted: a tap on a thread's entry in the index, or on a thread's line under a calendar entry ("⟨⟨ Testing
+    ⟩⟩"), anywhere but on a link, sets that thread's entries, and its entry in the index, on
     white (in the dark theme, a lighter panel): the entry's own box, square, from its rule to the next, and an en dash (.515em of the serif)
     past the rules' ends on either side, into the margin (side shadows of the fill); nothing moves and no edge crosses
     text. A day's first entry, which has no rule above
     it, and its last, none below, take one while lit, drawn inside the box; the same tap again clears it, a tap on another thread moves it. The
-    links (the dates, ‹ and ›) go where they go and leave the highlight as it is. It holds across the two halves and
+    links (⟨⟨ and ⟩⟩) go where they go and leave the highlight as it is. It holds across the two halves and
     the reader for the session (sessionStorage), and is the reader's alone: nothing in the address.
  6. Each half's lede names the other ("The second calendar takes up at ..."); the words linked to its page's top.
 """
