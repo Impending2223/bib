@@ -35,8 +35,9 @@ STYLE:
     of the headings. The thumb's travel stands for the page: a mark's place and height are the entry's place and
     height as shares of the page (at least one device pixel), so the thumb's centre on a mark brings the entry to the
     top, and the marks hold still while the page scrolls under the drag. One canvas, drawn once a drag (#hlmarks,
-    SCRIPT). The headings' veil deepens a shade while a thread is lit (--hlveil), for the marks' contrast. Shown and
-    gone with the headings.
+    SCRIPT). Behind them, while a thread is lit, a second, darker gradient over the headings' veil, under their names:
+    rising along a logistic curve from nothing to its peak just left of the marks, and at the peak under them, for the
+    marks' contrast (#hlshade, in #peek; --hlsh, --hla). Shown and gone with the headings.
 """
 import datetime
 import re
@@ -252,10 +253,11 @@ a.tx.ty:hover{text-decoration:underline;text-decoration-color:var(--rule)}
 p.seam{font-family:var(--sans);font-size:.8rem;margin:1rem 0}
 p.seam a{color:var(--muted);text-decoration-color:var(--rule)}
 /* a thread highlighted (STYLE 7) */
-:root{--hl:#FFFFFF;--hlveil:rgba(222,227,234,.93)}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--hl:#22262E;--hlveil:rgba(0,0,0,.94)}}
-:root[data-theme="dark"]{--hl:#22262E;--hlveil:rgba(0,0,0,.94)}
-:root[data-hl]:not([data-hl=""]) #peek{--veil:var(--hlveil)}
+:root{--hl:#FFFFFF;--hlsh:120,132,150;--hla:.72}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--hl:#22262E;--hlsh:0,0,0;--hla:.85}}
+:root[data-theme="dark"]{--hl:#22262E;--hlsh:0,0,0;--hla:.85}
+#hlshade{display:none;position:absolute;top:0;bottom:0;right:0;width:112px;background:linear-gradient(to right,rgba(var(--hlsh),calc(var(--hla)*0.000)) 0.0%,rgba(var(--hlsh),calc(var(--hla)*0.011)) 6.8%,rgba(var(--hlsh),calc(var(--hla)*0.041)) 13.6%,rgba(var(--hlsh),calc(var(--hla)*0.114)) 20.4%,rgba(var(--hlsh),calc(var(--hla)*0.266)) 27.1%,rgba(var(--hlsh),calc(var(--hla)*0.500)) 33.9%,rgba(var(--hlsh),calc(var(--hla)*0.734)) 40.7%,rgba(var(--hlsh),calc(var(--hla)*0.886)) 47.5%,rgba(var(--hlsh),calc(var(--hla)*0.959)) 54.3%,rgba(var(--hlsh),calc(var(--hla)*0.989)) 61.1%,rgba(var(--hlsh),calc(var(--hla)*1.000)) 67.9%,rgba(var(--hlsh),var(--hla)) 100%)}
+:root[data-hl]:not([data-hl=""]) #hlshade{display:block}
 li[data-thread],.tnl[data-t]{cursor:pointer}
 #hlmarks{position:fixed;z-index:27;right:6px;width:28px;pointer-events:none;opacity:0;transition:opacity .18s}
 #hlmarks.on{opacity:1}
@@ -288,6 +290,7 @@ SCRIPT = """<script>
      thumb's place that brings the entry to the top (STYLE 8) */
   var peek=document.getElementById('peek'), rail=document.getElementById('rail'), thumb=document.getElementById('thumb');
   if(!peek||!rail||!thumb) return;
+  var shade=document.createElement('div'); shade.id='hlshade'; peek.insertBefore(shade,peek.firstChild);   // under the headings
   var box=document.createElement('canvas'); box.id='hlmarks'; box.setAttribute('aria-hidden','true'); document.body.appendChild(box);
   function marks(){
     if(!now||!peek.classList.contains('on')) return;
