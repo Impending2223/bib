@@ -82,9 +82,14 @@ ol.e>li:last-child{border-bottom:0}
 /* scrubber */
 #rail{position:fixed;z-index:25;right:0;width:40px;top:calc(env(safe-area-inset-top,0px) + var(--hdr) + 10px);bottom:calc(env(safe-area-inset-bottom,0px) + 14px);touch-action:none}
 #thumb{position:absolute;right:6px;width:28px;height:48px;border-radius:14px;background:var(--thumb);border:1px solid var(--thumb-edge);
-  box-shadow:0 1px 4px rgba(0,0,0,.18);display:flex;align-items:center;justify-content:center;cursor:grab;opacity:.5;transition:opacity .25s;touch-action:none}
+  box-shadow:0 1px 4px rgba(0,0,0,.18);display:flex;align-items:center;justify-content:center;cursor:grab;opacity:0;transition:opacity .25s;touch-action:none}
 #thumb svg{width:14px;height:22px;stroke:var(--muted);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
 #rail.on #thumb{opacity:1}
+/* the wheel is hidden until the reader scrolls (HAND in the script); hidden, it takes no touch or click, but for a lit
+   thread's marks in its column (tools/bib/calsplit.py) */
+#rail{pointer-events:none}
+#rail.on,html[data-hl]:not([data-hl=""]) #rail{pointer-events:auto}
+#rail:not(.on) #thumb{pointer-events:none}
 #peek{position:fixed;z-index:26;top:0;bottom:0;right:0;width:min(82vw,30rem);pointer-events:none;opacity:0;transition:opacity .18s;
   background:linear-gradient(to left, var(--veil) 0%, var(--veil) 45%, transparent 100%)}
 #peek.on{opacity:1}
@@ -214,7 +219,16 @@ ol.e>li:last-child{border-bottom:0}
     if(!dragging) hideT=setTimeout(hide,peek.classList.contains('on')?LINGER:1200);
   }
   function hide(){ if(dragging) return; rail.classList.remove('on'); }
-  window.addEventListener('scroll',function(){ place(); show(); },{passive:true});
+  // HAND: the wheel shows only for a scroll the reader made: the wheel, a finger, the keys, the page's own scroll bar,
+  // and the run of scroll events that follows (a fling's glide); not a link followed, nor a jump the page makes
+  var handT=0, HAND=600;
+  function byHand(){ handT=Date.now(); }
+  window.addEventListener('wheel',byHand,{passive:true});
+  window.addEventListener('touchmove',byHand,{passive:true});
+  window.addEventListener('keydown',function(e){ if(/^(ArrowUp|ArrowDown|PageUp|PageDown|Home|End| )$/.test(e.key)&&!(e.target.closest&&e.target.closest('input,textarea,select,button,a,[contenteditable]'))) byHand(); });
+  document.addEventListener('pointerdown',function(e){ if(e.target===document.documentElement) byHand(); });   // the scroll bar
+  function handScroll(){ if(Date.now()-handT<HAND){ handT=Date.now(); return true; } return false; }
+  window.addEventListener('scroll',function(){ place(); if(handScroll()) show(); },{passive:true});
 
   function scrollFromY(clientY){
     var r=rail.getBoundingClientRect();
