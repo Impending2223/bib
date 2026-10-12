@@ -229,15 +229,18 @@ a detail to verify. In the calendar the first entry of each event carries its
 bibliography and later ones point back with `See [[id]]`; a thread's first entry is its first event's. Bibliography sections
 are chronological by publication unless their intro says "Alphabetical".
 
-Places in the calendar's entries (`c`): a place in the South, Texas, Virginia and Maryland aside (Alabama, Arkansas,
-Florida, Georgia, Louisiana, Mississippi, the Carolinas, Tennessee, Kentucky, West Virginia, Oklahoma, Delaware), takes
+Places in the calendar's entries (`c`): a place in the South, Texas, Virginia, Maryland and Florida aside (Alabama,
+Arkansas, Georgia, Louisiana, Mississippi, the Carolinas, Tennessee, Kentucky, West Virginia, Oklahoma, Delaware), takes
 its State by the Bluebook's abbreviation at its first mention in each thread, in each calendar (an entry in several
-threads takes it where it is the first in any): "Anniston, Ala.", "Neshoba County, Miss.", "Fort Benning, Ga.". Not the
-capitals, nor the largest city of 1960 (Birmingham, Miami, Atlanta, New Orleans, Jackson, Charlotte, Memphis,
-Louisville, Charleston, W. Va., Oklahoma City, Wilmington). Two places of one name take their States wherever either
-is meant, inside the South or out ("Philadelphia, Miss.", "Philadelphia, Pa."; Oxford, Albany, Athens; "Hot Springs,
-Va."; "Cambridge, Md."). Columbia is not the District. No State for a place elsewhere; "Concord, N.H." keeps its own.
-A neighborhood of a city named goes without (Harlem, Watts, South Boston). Not the thread statements, not the notes.
+threads takes it where it is the first in any): "Anniston, Ala.", "Neshoba County, Miss.". Not the capitals, nor the
+largest city of 1960 (Birmingham, Atlanta, New Orleans, Jackson, Charlotte, Memphis, Louisville, Charleston, W. Va.,
+Oklahoma City, Wilmington). So too, anywhere, a named military base, a cape, and Liberty Island ("Fort Benning, Ga.",
+"Camp David, Md.", "At Andrews, Md.", "Bethesda Naval Hospital, Md.", "West Point, N.Y.", "Homestead, Fla.", "Cape Cod,
+Mass.", "Cape Canaveral, Fla."); and, by the owner's choice, "Port Huron, Mich.", "Hershey, Pa.". Two places of one name
+take their States wherever either is meant ("Philadelphia, Miss.", "Philadelphia, Pa."; Oxford, Albany, Athens; "Hot
+Springs, Va."; "Cambridge, Md."). Columbia is not the District. No State for a place elsewhere; "Concord, N.H." keeps
+its own. A neighborhood of a city named goes without (Harlem, Watts, South Boston). Not the thread statements, not the
+notes.
 
 Vietnamese names and places carry their diacritics (Ngô Đình Diệm; Diệm, Khánh, Kỳ; Huế, Đà Nẵng), except where the
 verbatim prints none: a quotation, a title, the byline of a work printed without them (Ky, *Twenty Years and Twenty
