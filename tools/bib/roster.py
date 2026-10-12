@@ -12,14 +12,14 @@ CSS = os.path.join(store.ROOT, "templates", "roster.css")
 JS = """<script id="roster-js">
 document.addEventListener('click',function(e){
   var a=e.target.closest&&e.target.closest('a[href*="#"]');
-  document.querySelectorAll('.cgr tr:target,.cgr tr.hit').forEach(function(r){
+  document.querySelectorAll('.cgr tr:target,.cgr tr.hit,.cgr tbody:target').forEach(function(r){
     if(r.contains(e.target))return;
     if(a&&a.hash==='#'+r.id){r.classList.remove('unhl');return;}   // the link to this row again: keep it
     r.classList.add('unhl');r.classList.remove('hit');
   });
 });
 window.addEventListener('hashchange',function(){
-  document.querySelectorAll('.cgr tr.unhl').forEach(function(r){r.classList.remove('unhl');});
+  document.querySelectorAll('.cgr tr.unhl,.cgr tbody.unhl').forEach(function(r){r.classList.remove('unhl');});
 });
 </script>
 """

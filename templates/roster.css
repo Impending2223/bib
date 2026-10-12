@@ -17,7 +17,9 @@ details.cgr>summary .cgsm{font-weight:400;color:var(--muted)}
 :root{--tgt:#FFFFFF}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--tgt:#22262E}}
 :root[data-theme="dark"]{--tgt:#22262E}
-.cgr tr:target:not(.unhl) td,.cgr tr.hit td{background:var(--tgt)}
+.cgr tr:target:not(.unhl) td,.cgr tr.hit td,.cgr tbody:target:not(.unhl) td{background:var(--tgt)}
+/* an office's anchor is its tbody (tools/bib/executive.py): its holders and those before and after lit, its law and note not */
+.cgr tbody:target:not(.unhl) tr.exlr td{background:none}
 .cgn{display:block;font-family:var(--serif);font-size:.85rem;color:var(--note)}
 .cgn.cgc{font-family:var(--sans);font-size:.78rem;color:var(--muted)}
 .cg button.cgb{font:600 .72rem/1 var(--sans);padding:.35rem .5rem;border:1px solid var(--rule);border-radius:5px;background:var(--panel);color:var(--muted);cursor:pointer}

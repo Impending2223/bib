@@ -391,9 +391,13 @@ slimmer (`cal_block`, CAL STYLE in `tools/bib/executive.py`): in full, with ever
 President, the Cabinet (the Vice President, the department heads, the Representative to the UN), the Chairman of the
 Federal Reserve, the Chairman of the Joint Chiefs, the Director of the FBI, and the Special Counsel, Press Secretary,
 Secretary to the President, Military Representative, Personal Secretary, CEA Chairman and Special Assistant for National
-Security Affairs (`CAL_FULL`); by title alone, linked to executive.html, every other office of the Executive Office and
-the offices one and two steps beneath a full office (`cal_parent`); the Agencies and commissions one link, the Federal
-Reserve under it; the parts in centered small capitals; the units open, not collapsible.
+Security Affairs, and the Director of Central Intelligence, the Budget Director, the Special Assistants to the President,
+the science adviser, the trade representative, the Directors of the USIA and the Peace Corps (`CAL_FULL`), each holder's
+pointers under his line, no column of them; by title alone, linked to executive.html, every other office of the
+Executive Office and the offices one and two steps beneath a full office (`cal_parent`), stood in a step for each office
+between it and its full office (`cal_indent`); the Agencies and commissions one link, the Federal Reserve, the CIA, the
+USIA under it; the parts in centered small capitals; the units open, not collapsible. Each office's rows are a `tbody`
+carrying its anchor, on both pages, so a link lights the holders and the Before/After row, not the law or the note.
 
 ```
 executive/<unit>.yaml         one unit (department, agency, office of the President): its offices, in order,
