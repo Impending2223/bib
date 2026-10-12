@@ -186,7 +186,7 @@ ol.e>li:last-child{border-bottom:0}
 
   // scrubber
   var rail=document.getElementById('rail'), thumb=document.getElementById('thumb'), peek=document.getElementById('peek'), peekList=document.getElementById('peekList');
-  var hideT=null, dragging=false, lastIdx=-2;
+  var hideT=null, peekT=null, dragging=false, lastIdx=-2, LINGER=1500;   // the headings stay 1.5 s after release
   function maxScroll(){return Math.max(1,document.documentElement.scrollHeight-window.innerHeight);}
   function trackH(){return rail.clientHeight-thumb.offsetHeight;}
   function place(){
@@ -211,7 +211,7 @@ ol.e>li:last-child{border-bottom:0}
   function show(){
     rail.classList.add('on');
     clearTimeout(hideT);
-    if(!dragging) hideT=setTimeout(hide,1200);
+    if(!dragging) hideT=setTimeout(hide,peek.classList.contains('on')?LINGER:1200);
   }
   function hide(){ if(dragging) return; rail.classList.remove('on'); }
   window.addEventListener('scroll',function(){ place(); show(); },{passive:true});
@@ -223,10 +223,11 @@ ol.e>li:last-child{border-bottom:0}
     window.scrollTo(0,p*maxScroll());
   }
   thumb.addEventListener('pointerdown',function(e){
-    dragging=true; thumb.setPointerCapture(e.pointerId); thumb.style.cursor='grabbing'; show(); renderPeek(curIndex()); peek.classList.add('on'); e.preventDefault();
+    dragging=true; clearTimeout(peekT); thumb.setPointerCapture(e.pointerId); thumb.style.cursor='grabbing'; show(); renderPeek(curIndex()); peek.classList.add('on'); e.preventDefault();
   });
   thumb.addEventListener('pointermove',function(e){ if(dragging){ scrollFromY(e.clientY); } });
-  function endDrag(){ if(!dragging) return; dragging=false; thumb.style.cursor='grab'; peek.classList.remove('on'); show(); }
+  function endDrag(){ if(!dragging) return; dragging=false; thumb.style.cursor='grab'; show();
+    clearTimeout(peekT); peekT=setTimeout(function(){ peek.classList.remove('on'); },LINGER); }
   thumb.addEventListener('pointerup',endDrag);
   thumb.addEventListener('pointercancel',endDrag);
 

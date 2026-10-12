@@ -30,13 +30,16 @@ STYLE:
     links (⟨⟨ and ⟩⟩) go where they go and leave the highlight as it is. It holds across the two halves and
     the reader for the session (sessionStorage), and is the reader's alone: nothing in the address.
  6. Each half's lede names the other ("The second calendar takes up at ..."); the words linked to its page's top.
- 8. While a thread is lit and the scroll wheel is held (the headings showing), a mark for each of its lit entries, as a
-    find-on-page bar marks its hits: amber (--hlmark, as Chrome marks its finds; white does not show on the page),
-    no edge, no bar behind, the thumb's width, in the thumb's column, right of the headings. The thumb's travel
-    stands for the page: a mark's place and height are the entry's place and height as shares of the page, and at
-    least 3px (--hlmin), fattened about the entry's middle, so the thumb's centre on a mark brings the entry to the
-    top, and the marks hold still while the page scrolls under the drag. One canvas, drawn once a drag (#hlmarks,
-    SCRIPT; --hlhalo, --hlhalow, a band behind each mark, unset). Shown and gone with the headings.
+ 8. While a thread is lit, a mark for each of its lit entries, as a find-on-page bar marks its hits: no edge, no bar
+    behind, the thumb's width, in the thumb's column, right of the headings. Amber (--hlmark, as Chrome marks its finds)
+    while the scroll wheel is held and its headings show, and for the 1.5 s they stay after it is let go (LINGER in the
+    templates); then white (--hl, the lit entries' own fill), until the thread is cleared. The thumb's travel stands for
+    the page: a mark's place and height are the entry's place and height as shares of the page, and at least 3px
+    (--hlmin), fattened about the entry's middle, so the thumb's centre on a mark brings the entry to the top, and the
+    marks hold still while the page scrolls. A click on a mark (or within 6px of it), not on the thumb, brings its
+    entry to the top. Two canvases, the amber over the white, faded in and out with the headings; drawn when the
+    thread or the headings change or the page changes size, never on scroll (canvas.hlm, SCRIPT; --hlhalo, --hlhalow,
+    a band behind each mark, unset).
 """
 import datetime
 import re
@@ -257,9 +260,9 @@ p.seam a{color:var(--muted);text-decoration-color:var(--rule)}
 :root[data-theme="dark"]{--hl:#22262E}
 
 li[data-thread],.tnl[data-t]{cursor:pointer}
-#hlmarks{position:fixed;z-index:27;right:6px;width:28px;pointer-events:none;opacity:0;transition:opacity .18s}
-#hlmarks.on{opacity:1}
-@media (prefers-reduced-motion: reduce){#hlmarks{transition:none}}
+canvas.hlm{position:fixed;z-index:27;right:6px;width:28px;pointer-events:none;opacity:0;transition:opacity .18s}
+canvas.hlm.on{opacity:1}
+@media (prefers-reduced-motion: reduce){canvas.hlm{transition:none}}
 </style>"""
 
 SCRIPT = """<script>
@@ -284,32 +287,51 @@ SCRIPT = """<script>
     var t=el.dataset.thread||el.dataset.t; if(!/^[a-z0-9-]+$/.test(t)) return;
     now = (now===t) ? '' : t; set(now);
   });
-  /* while the scroll wheel is held, a mark for each lit entry, fixed at the right, right of the headings: at the
-     thumb's place that brings the entry to the top (STYLE 8) */
+  /* a mark for each lit entry, fixed at the right in the thumb's column, at the thumb's place that brings the entry to
+     the top: while a thread is lit; amber while the headings show, white once they go; a click on one goes to its entry
+     (STYLE 8) */
   var peek=document.getElementById('peek'), rail=document.getElementById('rail'), thumb=document.getElementById('thumb');
   if(!peek||!rail||!thumb) return;
-  var box=document.createElement('canvas'); box.id='hlmarks'; box.setAttribute('aria-hidden','true'); document.body.appendChild(box);
+  function canvas(id){ var c=document.createElement('canvas'); c.id=id; c.className='hlm'; c.setAttribute('aria-hidden','true'); document.body.appendChild(c); return c; }
+  var lo=canvas('hlmarks'), hi=canvas('hlmarks-a'), hits=[], queued=false;   // lo white, hi amber over it
   function marks(){
-    if(!now||!peek.classList.contains('on')) return;
+    queued=false; hits=[];
+    lo.classList.toggle('on',!!now); hi.classList.toggle('on',!!now&&peek.classList.contains('on'));
+    if(!now) return;
     var rr=rail.getBoundingClientRect(), th=thumb.offsetHeight, track=rail.clientHeight-th, dpr=window.devicePixelRatio||1,
-        sh=document.documentElement.scrollHeight, k=track/sh, ys=[], i, r;
-    box.style.top=rr.top+'px'; box.style.height=rr.height+'px';
-    box.width=Math.round(28*dpr); box.height=Math.round(rr.height*dpr);
-    var els=document.querySelectorAll('li[data-threads~="'+now+'"],li[data-thread="'+now+'"]');
-    for(i=0;i<els.length;i++){ r=els[i].getBoundingClientRect(); if(r.height) ys.push(r.top+window.scrollY, r.height); }
-    var cs=getComputedStyle(document.documentElement), g=box.getContext('2d'),
-        least=Math.max(1,Math.round((parseFloat(cs.getPropertyValue('--hlmin'))||0)*dpr));   // the least height, device pixels
-    var ink=cs.getPropertyValue('--hlmark').trim()||cs.getPropertyValue('--hl').trim()||'#fff',
+        sh=document.documentElement.scrollHeight, k=track/sh, i, r;
+    var els=document.querySelectorAll('li[data-threads~="'+now+'"],li[data-thread="'+now+'"]'), ys=[];
+    for(i=0;i<els.length;i++){ r=els[i].getBoundingClientRect(); if(r.height) ys.push([r.top+window.scrollY,r.height,els[i]]); }   // one layout read
+    var cs=getComputedStyle(document.documentElement),
+        least=Math.max(1,Math.round((parseFloat(cs.getPropertyValue('--hlmin'))||0)*dpr)),   // the least height, device pixels
         halo=cs.getPropertyValue('--hlhalo').trim(), hp=Math.round((parseFloat(cs.getPropertyValue('--hlhalow'))||0)*dpr);
-    g.fillStyle=ink;
-    for(i=0;i<ys.length;i+=2){           // the entry's share of the page, as its share of the thumb's travel; at least `least`
-      var y0=(th/2+ys[i]*k)*dpr, y1=y0+ys[i+1]*k*dpr, a=Math.floor(y0), h=Math.round(y1)-a;
-      if(h<least){ a=Math.round((y0+y1)/2-least/2); h=least; }      // fattened about the entry's middle
-      if(halo){ g.fillStyle=halo; g.fillRect(0,a-hp,box.width,h+2*hp); g.fillStyle=ink; }
-      g.fillRect(0,a,box.width,h);
-    }
+    [[lo,cs.getPropertyValue('--hl').trim()||'#fff'],[hi,cs.getPropertyValue('--hlmark').trim()||'#F29F05']].forEach(function(p){
+      var c=p[0]; c.style.top=rr.top+'px'; c.style.height=rr.height+'px';
+      c.width=Math.round(28*dpr); c.height=Math.round(rr.height*dpr);
+      var g=c.getContext('2d'); g.fillStyle=p[1];
+      for(i=0;i<ys.length;i++){          // the entry's share of the page, as its share of the thumb's travel; at least `least`
+        var y0=(th/2+ys[i][0]*k)*dpr, y1=y0+ys[i][1]*k*dpr, a=Math.floor(y0), h=Math.round(y1)-a;
+        if(h<least){ a=Math.round((y0+y1)/2-least/2); h=least; }      // fattened about the entry's middle
+        if(halo){ g.fillStyle=halo; g.fillRect(0,a-hp,c.width,h+2*hp); g.fillStyle=p[1]; }
+        g.fillRect(0,a,c.width,h);
+        if(c===lo) hits.push([a/dpr,(a+h)/dpr,ys[i][2]]);
+      }
+    });
   }
-  new MutationObserver(function(){ box.classList.toggle('on',!!now&&peek.classList.contains('on')); marks(); })
-    .observe(peek,{attributes:true,attributeFilter:['class']});
+  function later(){ if(!queued){ queued=true; requestAnimationFrame(marks); } }
+  var set0=set; set=function(t){ set0(t); later(); };
+  new MutationObserver(later).observe(peek,{attributes:true,attributeFilter:['class']});
+  window.addEventListener('resize',later);
+  if(window.ResizeObserver) new ResizeObserver(later).observe(document.body);   // the page grows or shrinks: the marks move
+  later();
+  /* the mark under the pointer, within 6px (a finger's reach for a 3px mark): the nearest */
+  function hit(ev){
+    if(!now||ev.target.closest('#thumb')) return null;
+    var y=ev.clientY-rail.getBoundingClientRect().top, best=null, d=7, i, m, e;
+    for(i=0;i<hits.length;i++){ m=hits[i]; e=y<m[0]?m[0]-y:y>m[1]?y-m[1]:0; if(e<d){ d=e; best=m[2]; } }
+    return best;
+  }
+  rail.addEventListener('click',function(ev){ var el=hit(ev); if(el) el.scrollIntoView({block:'start'}); });
+  rail.addEventListener('pointermove',function(ev){ rail.style.cursor=hit(ev)?'pointer':''; });
 })();
 </script>"""
