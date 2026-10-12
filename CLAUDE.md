@@ -933,7 +933,7 @@ day falls in; the threads section is in both. `tools/bib/calsplit.py` (STYLE not
 - A tap on a thread's entry in the index, or on its line under an entry (not on a link), lights the thread: its
   entries and its index entry on white (a lighter panel in the dark theme), each entry's own box from its rule to the
   next and an en dash past the rules' ends on either side, the rules as they were; a day's first or last entry takes a
-  rule while lit where it has none. Tapped again, cleared; kept for the tab (sessionStorage). While it is lit, a mark a
+  rule while lit where it has none. A rubric's thread name, followed to the index, lights it too, never clears it. Tapped again, cleared; kept for the tab (sessionStorage). While it is lit, a mark a
   lit entry in the thumb's column, its place and height the entry's share of the page (3px at least), no bar behind:
   amber while the scroll wheel's headings show (they stay 1.5 s after it is let go, `LINGER` in the templates), white
   after; a click on a mark brings its entry to the top (STYLE 8). On every page the scroll wheel is hidden until the reader

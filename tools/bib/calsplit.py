@@ -27,7 +27,8 @@ STYLE:
     past the rules' ends on either side, into the margin (side shadows of the fill); nothing moves and no edge crosses
     text. A day's first entry, which has no rule above
     it, and its last, none below, take one while lit, drawn inside the box; the same tap again clears it, a tap on another thread moves it. The
-    links (⟨⟨ and ⟩⟩) go where they go and leave the highlight as it is. It holds across the two halves and
+    links (⟨⟨ and ⟩⟩) go where they go and leave the highlight as it is. A rubric's thread name, a link to the thread's
+    entry in the index, goes there and lights the thread too; it never clears it. It holds across the two halves and
     the reader for the session (sessionStorage), and is the reader's alone: nothing in the address.
  6. Each half's lede names the other ("The second calendar takes up at ..."); the words linked to its page's top.
  8. While a thread is lit, a mark for each of its lit entries, as a find-on-page bar marks its hits: no edge, no bar
@@ -282,6 +283,8 @@ SCRIPT = """<script>
   var now=''; try{ now=sessionStorage.getItem(KEY)||''; }catch(e){}
   if(/^[a-z0-9-]+$/.test(now)) set(now); else now='';
   document.addEventListener('click', function(ev){
+    var rt=ev.target.closest('a.rt'), m=rt&&/thread\.([a-z0-9-]+)$/.exec(rt.getAttribute('href')||'');
+    if(m){ if(now!==m[1]){ now=m[1]; set(now); } return; }   // a rubric's thread: lit (never cleared), and the link goes on
     if(ev.target.closest('a,button,summary,input')) return;
     var el=ev.target.closest('li[data-thread],.tnl[data-t]'); if(!el) return;
     var t=el.dataset.thread||el.dataset.t; if(!/^[a-z0-9-]+$/.test(t)) return;
