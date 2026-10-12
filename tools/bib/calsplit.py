@@ -252,9 +252,9 @@ a.tx.ty:hover{text-decoration:underline;text-decoration-color:var(--rule)}
 p.seam{font-family:var(--sans);font-size:.8rem;margin:1rem 0}
 p.seam a{color:var(--muted);text-decoration-color:var(--rule)}
 /* a thread highlighted (STYLE 7) */
-:root{--hl:#FFFFFF;--hlsh:120,132,150;--hla:.6}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--hl:#22262E;--hlsh:0,0,0;--hla:.6}}
-:root[data-theme="dark"]{--hl:#22262E;--hlsh:0,0,0;--hla:.6}
+:root{--hl:#FFFFFF;--hlsh:120,132,150;--hla:.4}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--hl:#22262E;--hlsh:0,0,0;--hla:.4}}
+:root[data-theme="dark"]{--hl:#22262E;--hlsh:0,0,0;--hla:.4}
 
 li[data-thread],.tnl[data-t]{cursor:pointer}
 #hlmarks{position:fixed;z-index:27;right:6px;width:28px;pointer-events:none;opacity:0;transition:opacity .18s;background:rgba(var(--hlsh),var(--hla))}
