@@ -238,7 +238,7 @@ City, Wilmington), Huntsville excepted: it takes "Ala.". So too, anywhere, a nam
 Island ("Fort Benning, Ga.", "Camp David, Md.", "At Andrews, Md.", "Bethesda Naval Hospital, Md.", "West Point, N.Y.",
 "Homestead, Fla.", "Cape Cod, Mass.", "Cape Canaveral, Fla."; not a hospital, Bethesda Naval Hospital, nor the Oakland
 Army Terminal); and, by the owner's choice, "Port Huron, Mich.",
-"Hershey, Pa.", "Muncie, Ind.", "Milford, Pa.", "Hye, Tex.", "Cumberland, Md.". Two places of one name take their States
+"Hershey, Pa.", "Muncie, Ind.", "Milford, Pa.", "Hye, Tex.", "Cumberland, Md.", "Prince Edward County, Va.". Two places of one name take their States
 ("Oxford, Miss.", "Oxford, Ohio"; Albany, Athens; "Hot Springs, Va."; "Cambridge, Md."), but Philadelphia is
 Philadelphia (only the Mississippi town takes its State). Columbia is not the District. No State for a place
 elsewhere; "Concord, N.H." keeps its own. A neighborhood of a city named goes without (Harlem, Watts, South Boston).
