@@ -229,6 +229,11 @@ a detail to verify. In the calendar the first entry of each event carries its
 bibliography and later ones point back with `See [[id]]`; a thread's first entry is its first event's. Bibliography sections
 are chronological by publication unless their intro says "Alphabetical".
 
+A run of calendar dates, wherever the series prints one (the thread index, the pointers under each member and holder in
+the Congress and Executive rosters, the Names' "In the series"), is written by year: "Cal. **1961** Jan. 20, May 16.
+**1962** Jan. 22–31.", the year in the sans, a little heavier, unlinked, a full stop after each year's dates. One
+function writes them all (`tools/bib/datelist.py`, its STYLE notes); a new list of dates calls it.
+
 Places in the calendar's entries (`c`): a city or town of the United States under 75,000 people at both the 1960 and
 the 2020 census takes its State by the Bluebook's abbreviation at its first mention in each thread, in each calendar
 (an entry in several threads takes it where it is the first in any): "Anniston, Ala.", "Muncie, Ind.", "Concord, N.H.".

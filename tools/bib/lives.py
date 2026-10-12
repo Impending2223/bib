@@ -42,7 +42,7 @@ import os
 import re
 from collections import defaultdict
 
-from . import store
+from . import datelist, store
 from .markup import to_html, plain, lower_from
 
 fold = functools.lru_cache(maxsize=None)(store.fold)     # the same names are folded many thousand times
@@ -1756,13 +1756,8 @@ def calendar_of(ptrs, subs, key=None, series=None):
 def series_lines(subs, cal):
     """The 'In the series' pointers: each entry by list and section, then the calendar's dates."""
     out = [ptr(f"{SITE}{l.key}.html#{e['id']}", f"{esc(l.abbr)} {esc(s.code)}") for l, s, e in subs]
-    dates, prev = [], None
-    for e in cal:
-        y = e["date"][:4]
-        dates.append(ptr(f"{SITE}cal.html#{e['id']}", esc(e["when"] + (f", {y}" if y != prev else ""))))
-        prev = y
-    if dates:
-        out.append("Cal. " + ", ".join(dates))
+    if cal:                                                      # by year (datelist STYLE)
+        out.append("Cal. " + datelist.run([(e["date"], ptr(f"{SITE}cal.html#{e['id']}", esc(e["when"]))) for e in cal]))
     return out
 
 
