@@ -30,6 +30,13 @@ STYLE:
     links (⟨⟨ and ⟩⟩) go where they go and leave the highlight as it is. It holds across the two halves and
     the reader for the session (sessionStorage), and is the reader's alone: nothing in the address.
  6. Each half's lede names the other ("The second calendar takes up at ..."); the words linked to its page's top.
+ 8. While a thread is lit and the scroll wheel is held (the headings showing), a mark for each of its lit entries, as a
+    find-on-page bar marks its hits: amber (--hlmark, as Chrome marks its finds; white does not show on the page),
+    no edge, no bar behind, the thumb's width, in the thumb's column, right of the headings. The thumb's travel
+    stands for the page: a mark's place and height are the entry's place and height as shares of the page, and at
+    least 3px (--hlmin), fattened about the entry's middle, so the thumb's centre on a mark brings the entry to the
+    top, and the marks hold still while the page scrolls under the drag. One canvas, drawn once a drag (#hlmarks,
+    SCRIPT; --hlhalo, --hlhalow, a band behind each mark, unset). Shown and gone with the headings.
 """
 import datetime
 import re
@@ -245,10 +252,14 @@ a.tx.ty:hover{text-decoration:underline;text-decoration-color:var(--rule)}
 p.seam{font-family:var(--sans);font-size:.8rem;margin:1rem 0}
 p.seam a{color:var(--muted);text-decoration-color:var(--rule)}
 /* a thread highlighted (STYLE 7) */
-:root{--hl:#FFFFFF}
+:root{--hl:#FFFFFF;--hlmark:#F29F05;--hlmin:3px}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--hl:#22262E}}
 :root[data-theme="dark"]{--hl:#22262E}
+
 li[data-thread],.tnl[data-t]{cursor:pointer}
+#hlmarks{position:fixed;z-index:27;right:6px;width:28px;pointer-events:none;opacity:0;transition:opacity .18s}
+#hlmarks.on{opacity:1}
+@media (prefers-reduced-motion: reduce){#hlmarks{transition:none}}
 </style>"""
 
 SCRIPT = """<script>
@@ -273,5 +284,32 @@ SCRIPT = """<script>
     var t=el.dataset.thread||el.dataset.t; if(!/^[a-z0-9-]+$/.test(t)) return;
     now = (now===t) ? '' : t; set(now);
   });
+  /* while the scroll wheel is held, a mark for each lit entry, fixed at the right, right of the headings: at the
+     thumb's place that brings the entry to the top (STYLE 8) */
+  var peek=document.getElementById('peek'), rail=document.getElementById('rail'), thumb=document.getElementById('thumb');
+  if(!peek||!rail||!thumb) return;
+  var box=document.createElement('canvas'); box.id='hlmarks'; box.setAttribute('aria-hidden','true'); document.body.appendChild(box);
+  function marks(){
+    if(!now||!peek.classList.contains('on')) return;
+    var rr=rail.getBoundingClientRect(), th=thumb.offsetHeight, track=rail.clientHeight-th, dpr=window.devicePixelRatio||1,
+        sh=document.documentElement.scrollHeight, k=track/sh, ys=[], i, r;
+    box.style.top=rr.top+'px'; box.style.height=rr.height+'px';
+    box.width=Math.round(28*dpr); box.height=Math.round(rr.height*dpr);
+    var els=document.querySelectorAll('li[data-threads~="'+now+'"],li[data-thread="'+now+'"]');
+    for(i=0;i<els.length;i++){ r=els[i].getBoundingClientRect(); if(r.height) ys.push(r.top+window.scrollY, r.height); }
+    var cs=getComputedStyle(document.documentElement), g=box.getContext('2d'),
+        least=Math.max(1,Math.round((parseFloat(cs.getPropertyValue('--hlmin'))||0)*dpr));   // the least height, device pixels
+    var ink=cs.getPropertyValue('--hlmark').trim()||cs.getPropertyValue('--hl').trim()||'#fff',
+        halo=cs.getPropertyValue('--hlhalo').trim(), hp=Math.round((parseFloat(cs.getPropertyValue('--hlhalow'))||0)*dpr);
+    g.fillStyle=ink;
+    for(i=0;i<ys.length;i+=2){           // the entry's share of the page, as its share of the thumb's travel; at least `least`
+      var y0=(th/2+ys[i]*k)*dpr, y1=y0+ys[i+1]*k*dpr, a=Math.floor(y0), h=Math.round(y1)-a;
+      if(h<least){ a=Math.round((y0+y1)/2-least/2); h=least; }      // fattened about the entry's middle
+      if(halo){ g.fillStyle=halo; g.fillRect(0,a-hp,box.width,h+2*hp); g.fillStyle=ink; }
+      g.fillRect(0,a,box.width,h);
+    }
+  }
+  new MutationObserver(function(){ box.classList.toggle('on',!!now&&peek.classList.contains('on')); marks(); })
+    .observe(peek,{attributes:true,attributeFilter:['class']});
 })();
 </script>"""

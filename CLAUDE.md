@@ -229,6 +229,23 @@ a detail to verify. In the calendar the first entry of each event carries its
 bibliography and later ones point back with `See [[id]]`; a thread's first entry is its first event's. Bibliography sections
 are chronological by publication unless their intro says "Alphabetical".
 
+Places in the calendar's entries (`c`): a city or town of the United States under 75,000 people at both the 1960 and
+the 2020 census takes its State by the Bluebook's abbreviation at its first mention in each thread, in each calendar
+(an entry in several threads takes it where it is the first in any): "Anniston, Ala.", "Muncie, Ind.", "Concord, N.H.".
+Not Gettysburg, Atlantic City, Key West or Palm Beach; Huntington, W. Va. (83,627 in 1960) takes it all the same. An
+unincorporated place takes it too ("Parchman, Miss.", "Longdale, Miss.", "Hye, Tex."), Hyannis Port excepted. So too,
+anywhere, a named military base, a cape, and Liberty Island ("Fort Benning, Ga.", "Camp David, Md.", "At Andrews, Md.",
+"West Point, N.Y.", "Homestead, Fla.", "Cape Cod, Mass.", "Cape Canaveral, Fla."); not a hospital (Bethesda Naval
+Hospital), nor the Oakland Army Terminal. Two places of one name take their States wherever either is meant ("Oxford,
+Miss.", "Oxford, Ohio"; "Albany, Ga.", "Albany, N.Y."; Athens; "Hot Springs, Va."; "Cambridge, Md."), but Philadelphia is
+Philadelphia (only the Mississippi town takes its State). Columbia is not the District. A county is left to the
+writer's judgment (those tagged so far: the Deep South's, and "Prince Edward County, Va."). A neighborhood of a city
+named goes without (Harlem, Watts, South Boston, Hollywood). An entry in one State's thread (Alabama, Georgia,
+Mississippi, South Carolina) whose places all lie in that State names no State at all: the rubric does it. Washington
+(the White House, the Oval Office) is no place elsewhere. Not the thread statements, not the notes, not a quotation ("in
+Selma, Alabama"). The census figures: Wikipedia's tables of each place's censuses, read Oct. 12, 2026 (Muncie 68,603
+and 65,194; Albany, Ga. 55,890 and 69,647; Rock Hill 29,404 and 74,372; Homestead 9,152 and 80,737).
+
 Vietnamese names and places carry their diacritics (Ngô Đình Diệm; Diệm, Khánh, Kỳ; Huế, Đà Nẵng), except where the
 verbatim prints none: a quotation, a title, the byline of a work printed without them (Ky, *Twenty Years and Twenty
 Days*; a Vietnamese-language work's byline has them), a writer who publishes without them (Lien-Hang T. Nguyen), the
@@ -905,7 +922,9 @@ day falls in; the threads section is in both. `tools/bib/calsplit.py` (STYLE not
 - A tap on a thread's entry in the index, or on its line under an entry (not on a link), lights the thread: its
   entries and its index entry on white (a lighter panel in the dark theme), each entry's own box from its rule to the
   next and an en dash past the rules' ends on either side, the rules as they were; a day's first or last entry takes a
-  rule while lit where it has none. Tapped again, cleared; kept for the tab (sessionStorage). Nothing moves (STYLE 7,
+  rule while lit where it has none. Tapped again, cleared; kept for the tab (sessionStorage). While it is lit and the
+  scroll wheel is held, an amber mark a lit entry in the thumb's column, its place and height the entry's share of
+  the page (3px at least), no bar behind; shown and gone with the headings (STYLE 8). Nothing moves (STYLE 7,
   `SCRIPT` in `tools/bib/calsplit.py`; `data-threads`, `data-thread`, `data-t` in `tools/bib/build.py`).
 
 ## The calendar by day
