@@ -242,8 +242,8 @@ Army Terminal); and, by the owner's choice, "Port Huron, Mich.",
 ("Oxford, Miss.", "Oxford, Ohio"; Albany, Athens; "Hot Springs, Va."; "Cambridge, Md."), but Philadelphia is
 Philadelphia (only the Mississippi town takes its State). Columbia is not the District. No State for a place
 elsewhere; "Concord, N.H." keeps its own. A neighborhood of a city named goes without (Harlem, Watts, South Boston).
-But an entry in one State's thread (Alabama, Mississippi) whose places all lie in that State names no State at all:
-the rubric does it. Not the thread statements, not the notes, not a quotation ("in Selma, Alabama").
+But an entry in one State's thread (Alabama, Georgia, Mississippi, South Carolina) whose places all lie in that State
+names no State at all: the rubric does it. Washington (the White House, the Oval Office) is no place elsewhere. Not the thread statements, not the notes, not a quotation ("in Selma, Alabama").
 
 Vietnamese names and places carry their diacritics (Ngô Đình Diệm; Diệm, Khánh, Kỳ; Huế, Đà Nẵng), except where the
 verbatim prints none: a quotation, a title, the byline of a work printed without them (Ky, *Twenty Years and Twenty
