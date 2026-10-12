@@ -386,7 +386,14 @@ Biographical Directory where it matters), and a change of party in office, with 
 `./bib build` writes `build/executive.html`: the Executive Branch at each inauguration (1953, 1957, 1961,
 1965, 1969, 1973) and at the successions of Nov. 22, 1963, and Aug. 9, 1974, with every change during each
 term, through Aug. 31, 1974. A calendar entry tagged `executive:<YYYY-MM-DD>` (a term's first day) carries
-that term's block in the calendar's pages and the reader; now Jan. 20, 1961, and Nov. 22, 1963.
+that term's block in the calendar's pages and the reader; now Jan. 20, 1961, and Nov. 22, 1963. The calendar's copy is
+slimmer (`cal_block`, CAL STYLE in `tools/bib/executive.py`): in full, with every holder but no law and no notes, the
+President, the Cabinet (the Vice President, the department heads, the Representative to the UN), the Chairman of the
+Federal Reserve, the Chairman of the Joint Chiefs, the Director of the FBI, and the Special Counsel, Press Secretary,
+Secretary to the President, Military Representative, Personal Secretary, CEA Chairman and Special Assistant for National
+Security Affairs (`CAL_FULL`); by title alone, linked to executive.html, every other office of the Executive Office and
+the offices one and two steps beneath a full office (`cal_parent`); the Agencies and commissions one link, the Federal
+Reserve under it; the parts in centered small capitals; the units open, not collapsible.
 
 ```
 executive/<unit>.yaml         one unit (department, agency, office of the President): its offices, in order,
@@ -731,8 +738,8 @@ year does not print. `tools/bib/primaries.py` renders them (STYLE notes there):
 seat; for the House, his own race that November where one race in his State names him, else the same number's).
 Under each race and special, "Roster: 87th Cong.", the seat's row at the next opening that has a roster. Under the
 presidential vote, "Took office", the President and Vice President in the Executive roster at the next inauguration.
-A row highlighted as a link's target (any roster or election table) goes plain when the reader clicks outside it
-(`JS` in `tools/bib/roster.py`; `.unhl`). Tables write an at-large seat "AL" and leave the district column unheaded; a fusion candidacy's parties abbreviated ("D, R");
+A row highlighted as a link's target (any roster or election table) is white, as a lit thread is (`--tgt` in
+`templates/roster.css`), and goes plain when the reader clicks outside it (`JS` in `tools/bib/roster.py`; `.unhl`). Tables write an at-large seat "AL" and leave the district column unheaded; a fusion candidacy's parties abbreviated ("D, R");
 a whole vote "100%".
 
 ## Elections

@@ -788,6 +788,174 @@ def block(i, units, ptr, href, rid, here=False):
     return "\n".join(out)
 
 
+
+# ---------------------------------------------------------------- the calendar's copy (CAL STYLE)
+# CAL STYLE (the block a calendar entry tagged executive:<date> carries; executive.html keeps the whole roster):
+#  1. Shown in full, every holder during the term, without the law or any note: the President, the Cabinet (the
+#     Vice President, the heads of the departments, the Representative to the United Nations, who held Cabinet
+#     rank), the Chairman of the Federal Reserve, the Chairman of the Joint Chiefs, the Director of the FBI, and in
+#     the Executive Office the Special Counsel, the Press Secretary, the Secretary to the President (appointments),
+#     the Military Representative, the Personal Secretary, the Chairman of the Council of Economic Advisers, and the
+#     Special Assistant for National Security Affairs (CAL_FULL).
+#  2. By title alone, one line spanning the table, linked to the office on executive.html: every other office of the
+#     Executive Office, and the offices one and two steps beneath a full office elsewhere (cal_parent: an office's
+#     `under`, else its unit's head, else the head of the unit above; a unit in CAL_COLLECTIONS has no head of its own).
+#     Not the President's own subordinates outside the Executive Office: the agencies and commissions are one link.
+#  3. Parts as on executive.html, in centered small capitals; the units open, not collapsible; the Agencies and
+#     commissions a link to that part of the term on executive.html, with the Federal Reserve under it.
+CAL_FULL = {("president", "president"), ("vp", "vice-president"), ("state", "secretary"), ("treasury", "secretary"),
+            ("defense", "secretary"), ("justice", "attorney-general"), ("post-office", "postmaster-general"),
+            ("interior", "secretary"), ("agriculture", "secretary"), ("commerce", "secretary"), ("labor", "secretary"),
+            ("hew", "secretary"), ("hud", "secretary"), ("transportation", "secretary"), ("missions", "un"),
+            ("frb", "chairman"), ("jcs", "chairman"), ("fbi", "director"),
+            ("wh", "counsel"), ("wh", "press-secretary"), ("wh", "secretary"), ("wh", "military-representative"),
+            ("wh", "personal-secretary"), ("cea", "chairman"), ("nsc", "special-assistant")}
+CAL_COLLECTIONS = {"eop", "wh", "missions", "commands", "defense-agencies"}
+CAL_LISTED = {"missions": {"un", "un-deputies"}}      # a collection too long to list: these offices of it only
+
+
+def cal_head(u):
+    return None if u["unit"] in CAL_COLLECTIONS else ((u.get("offices") or [None])[0])
+
+
+def cal_parent(o, u, units):
+    """(unit, office) the office reports to, or None at the top."""
+    sup = o.get("under")
+    if sup:
+        uid, oid = sup.split(".", 1) if "." in sup else (u["unit"], sup)
+        pu = units.get(uid)
+        po = next((x for x in (pu or {}).get("offices") or [] if x["id"] == oid), None)
+        if po:
+            return pu, po
+    head = cal_head(u)
+    if head is not None and head is not o:
+        return u, head
+    pu = units.get(u.get("under") or "")
+    while pu is not None and cal_head(pu) is None:
+        pu = units.get(pu.get("under") or "")
+    if pu is None:
+        return None
+    return pu, cal_head(pu)
+
+
+def in_eop(u, units):
+    while u is not None:
+        if u["unit"] == "eop":
+            return True
+        u = units.get(u.get("under") or "")
+    return False
+
+
+def cal_kind(o, u, units):
+    """'full', 'bare', or None (not shown)."""
+    if (u["unit"], o["id"]) in CAL_FULL:
+        return "full"
+    if u["unit"] in CAL_LISTED and o["id"] not in CAL_LISTED[u["unit"]]:
+        return None
+    if in_eop(u, units):
+        return "bare"
+    x, y = u, o
+    for _ in range(2):
+        p = cal_parent(y, x, units)
+        if p is None:
+            return None
+        x, y = p
+        if (x["unit"], y["id"]) in CAL_FULL and (x["unit"], y["id"]) != ("president", "president"):
+            return "bare"
+    return None
+
+
+def cal_block(i, units, ptr, href, rid):
+    """The calendar's copy of a term (CAL STYLE): the principal offices in full, the offices beneath by title."""
+    a, b = term_span(i)
+    day, pres, label = TERMS[i]
+    tid = f"t{day[:4]}{day[5:7]}"
+    ex = lambda unit, office="": f'executive.html#{rid(i, unit, office)}'
+    parts, section, nfull, nbare = [], "start", 0, 0
+    agencies_done = False
+    for depth, u in tree(units):
+        if not exists(u, a, b):
+            continue
+        sec = section_of(u, units)
+        rows = []
+        for od, o in offices_in_order(u):
+            if not exists(o, a, b):
+                continue
+            kind = cal_kind(o, u, units)
+            if kind == "bare":
+                nbare += 1
+                rows.append(f'<tr class="exbare"><td colspan="3"><a href="{ex(u["unit"], o["id"])}">'
+                            f'{esc(title_at(o, a))}</a></td></tr>')
+                continue
+            if kind != "full":
+                continue
+            nfull += 1
+            hs = sorted((h for h in o.get("holders") or [] if in_term(h, a, b)), key=lambda h: lo(h["from"]))
+            meta = [esc(RANK[o["rank"]])] if o.get("rank") in RANK else []
+            if o.get("appt"):
+                meta.append(f'<abbr title="{esc(APPT.get(o["appt"], o["appt"]))}">{esc(o["appt"])}</abbr>')
+            cells = []
+            gaps = [] if o.get("many") else vacancies(o, a, b)
+            if not hs and not gaps:
+                cells.append(('<span class="exh"><i>No holder recorded.</i></span>', []))
+            items = [(max(lo(h["from"]), lo(a)) if h.get("acting") else lo(h["from"]), 1, h) for h in hs] \
+                + [(lo(g[0]), 0, g) for g in gaps]
+            for _, k_, x in sorted(items, key=lambda t: (t[0], t[1])):
+                if k_ == 0:
+                    when = span(x[0], term_end(x[1]) if x[1] == b else x[1])
+                    gap_label = '<b>Vacant</b>' if x[2] else '<i>No holder recorded</i>'
+                    cells.append((f'<span class="exh">{gap_label} <span class="exd">{when}.</span></span>', []))
+                    continue
+                x = {k: v for k, v in x.items() if k != "n"}          # no notes in the calendar's copy
+                who, line, pts = holder_html(x, a, b, ptr, href, o)
+                cells.append((f'<span class="exh{" exac" if x.get("acting") else ""}">{who} {line}</span>', pts))
+            prev = None if o.get("many") else neighbor_html(o, u, i, a, b, ptr, rid, False, True)
+            nxt = None if o.get("many") else neighbor_html(o, u, i, a, b, ptr, rid, False, False)
+            n = len(cells)
+            for k, (cell, pts) in enumerate(cells):
+                last = k == n - 1
+                cls = "exo" + ("" if last else " exmid") + (" exhl" if (prev or nxt) and last else "")
+                head = (f'<td rowspan="{n}" class="exof{" exnb" if prev or nxt else ""}">'
+                        f'<a class="ext" href="{ex(u["unit"], o["id"])}">{esc(title_at(o, a))}</a>'
+                        f'<span class="exm">{" · ".join(meta)}</span></td>') if k == 0 else ""
+                pcell = "".join(f'<span class="exp">{re.sub(r"(<a [^>]*>[^<]*</a>,)", r'<span class="exnw">\1</span>', p_)}</span>'
+                                for p_ in pts)
+                rid_ = f' id="{rid(i, u["unit"], o["id"])}"' if k == 0 else ""
+                rows.append(f'<tr{rid_} class="{cls}">{head}<td>{cell}</td><td class="expc">{pcell}</td></tr>')
+            if prev or nxt:
+                rows.append('<tr class="exnr"><td colspan="3"><div class="exnbw">'
+                            + (f'<span class="exnbl">{prev}</span>' if prev else "")
+                            + (f'<span class="exnbr">{nxt}</span>' if nxt else "") + "</div></td></tr>")
+        if sec != section:
+            if sec == SECTIONS[2][1]:
+                parts.append(f'<p class="exsech"><a href="executive.html#{tid}-agencies">{esc(sec)}</a></p>')
+                agencies_done = True
+            else:
+                parts.append(f'<p class="exsech">{esc(sec or SECTIONS_PRESIDENT)}</p>')
+            section = sec
+        if not rows:
+            continue
+        path = "".join(f'<span class="cgsm">{esc(name_at(p, a))} › </span>' for p in path_of(u, units))
+        full = any('class="exo' in r for r in rows)
+        parts.append(f'<div class="cgr exu excal" id="{rid(i, u["unit"], "")}">'
+                     f'<p class="exuh">{path}<a href="{ex(u["unit"])}">{esc(name_at(u, a))}</a></p>'
+                     '<table><colgroup><col class="exc1"><col class="exc2"><col class="exc3"></colgroup>'
+                     + ('<thead><tr><th>Office</th><th>Holders during the term</th><th>In the series</th></tr></thead>'
+                        if full else "")
+                     + f'<tbody>{"".join(rows)}</tbody></table></div>')
+    if not agencies_done:
+        parts.append(f'<p class="exsech"><a href="executive.html#{tid}-agencies">{esc(SECTIONS[2][1])}</a></p>')
+    out = [f'<div class="cg ex excalb" data-term="{a}">',
+           f'<p class="cgh">The Executive Branch, {esc(label)}: {esc(fmt(a))} to {esc(fmt(term_end(b)))}</p>',
+           f'<p class="cgs">The President, the Cabinet, and the principal officers of the White House and the Executive '
+           f'Office, with every holder during the term; beneath them, {nbare} offices by title. Each title links to the '
+           f'office in the full roster, <a href="executive.html#{tid}">Exec. {esc(day[:4])}</a>, with its law and notes.</p>',
+           f'<p class="cgs exkey">{esc(KEY)} Hover over a code for its meaning.</p>']
+    out += parts
+    out.append("</div>")
+    return "\n".join(out)
+
+
 CSS = """<style>
 /* The Executive Branch roster (tools/bib/executive.py). The shared block and table rules: templates/roster.css. */
 .ex h3.exsech{border-top:0;margin:1.4rem 0 .2rem;padding-top:.6rem;text-align:center;font-size:.86rem;font-weight:600;
@@ -830,6 +998,23 @@ details.exu tr.exlr .cgn{margin:.1rem 0 .15rem}
 .ex .exw{white-space:nowrap}
 .ex .exun{margin:.2rem 0 .4rem}
 .ex abbr{text-decoration:none;cursor:help}
+.ex p.exsech{text-align:center;font-size:.86rem;font-weight:600;font-variant-caps:all-small-caps;letter-spacing:.06em;
+  margin:1.4rem 0 .2rem;padding-top:.6rem}
+.ex p.exsech a{color:inherit;text-decoration-color:var(--rule)}
+div.excal{margin:.5rem 0;font-size:.85rem}
+div.excal p.exuh{font-weight:600;margin:.3rem 0 .1rem}
+div.excal p.exuh a{color:inherit;text-decoration-color:var(--rule)}
+div.excal table{font-size:.82rem;margin:.2rem 0 .8rem}
+div.excal col.exc1{width:28%}div.excal col.exc2{width:auto}div.excal col.exc3{width:19%}
+div.excal td.expc{font-size:.76rem;overflow-wrap:anywhere}
+div.excal tr.exhl td{border-bottom:0}
+div.excal tr.exmid td:not(.exof){border-bottom:0;padding-bottom:0}
+div.excal td.exof{border-bottom:1px solid var(--rule)}
+div.excal tr.exhl td.exof,div.excal td.exof.exnb{border-bottom:0}
+div.excal tr.exnr td{padding-top:.15rem}
+div.excal a.ext{color:inherit;text-decoration-color:var(--rule)}
+div.excal tr.exbare td{padding:.2rem 0}
+div.excal tr.exbare a{color:inherit;text-decoration-color:var(--rule)}
 ol.exauth li{font-size:.85rem;margin:.3rem 0}
 ol.exauth .exd{display:block;font-size:.76rem;color:var(--muted)}
 </style>"""
@@ -868,7 +1053,7 @@ def inject(page, series, linker, mode):
         if i is None:
             continue
         ptr = ptr or Pointers(series, linker)
-        blk = block(i, units, ptr, href, rid_for())
+        blk = cal_block(i, units, ptr, href, rid_for())
         pat = re.compile(r'(<li id="' + re.escape(e["id"]) + r'"[^>]*>.*?)(</li>)', re.S)
         page, n = pat.subn(lambda mm: mm.group(1) + blk + mm.group(2), page, count=1)
         used = used or bool(n)

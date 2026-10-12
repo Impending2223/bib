@@ -9,11 +9,15 @@
 details.cgr{margin:.5rem 0;font-size:.85rem}
 details.cgr>summary{cursor:pointer;font-weight:600;padding:.3rem 0}
 details.cgr>summary .cgsm{font-weight:400;color:var(--muted)}
-details.cgr table{width:100%;border-collapse:collapse;table-layout:fixed}
-details.cgr th,details.cgr td{text-align:left;vertical-align:top;padding:.25rem .3rem .25rem 0;border-bottom:1px solid var(--rule)}
-details.cgr thead th{font-size:.75rem;color:var(--muted)}
-details.cgr tr.st th{padding-top:.8rem;font-size:.85rem;border-bottom:1px solid var(--ink)}
-details.cgr tr:target:not(.unhl) td,details.cgr tr.hit td{background:var(--hl-bg);color:var(--hl-ink)}
+.cgr table{width:100%;border-collapse:collapse;table-layout:fixed}
+.cgr th,.cgr td{text-align:left;vertical-align:top;padding:.25rem .3rem .25rem 0;border-bottom:1px solid var(--rule)}
+.cgr thead th{font-size:.75rem;color:var(--muted)}
+.cgr tr.st th{padding-top:.8rem;font-size:.85rem;border-bottom:1px solid var(--ink)}
+/* a row a link has led to (or a search has found): white, as a lit thread is (tools/bib/calsplit.py) */
+:root{--tgt:#FFFFFF}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--tgt:#22262E}}
+:root[data-theme="dark"]{--tgt:#22262E}
+.cgr tr:target:not(.unhl) td,.cgr tr.hit td{background:var(--tgt)}
 .cgn{display:block;font-family:var(--serif);font-size:.85rem;color:var(--note)}
 .cgn.cgc{font-family:var(--sans);font-size:.78rem;color:var(--muted)}
 .cg button.cgb{font:600 .72rem/1 var(--sans);padding:.35rem .5rem;border:1px solid var(--rule);border-radius:5px;background:var(--panel);color:var(--muted);cursor:pointer}
