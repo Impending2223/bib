@@ -311,7 +311,7 @@ var META={{meta}}, ORDER={{order}};
     for(var k=i;k>=0;k--){var L=lvl(heads[k]);if(L<need){parts.unshift(crumbLabel(heads[k]));need=L;}if(L===2)break;}
     crumb.innerHTML=ab+parts.map(function(p,j){return j===parts.length-1?'<b>'+esc(p)+'</b>':esc(p);}).join(' / ');
   }
-  var rail=$('#rail'),thumb=$('#thumb'),peek=$('#peek'),peekList=$('#peekList'),hideT=null,dragging=false;
+  var rail=$('#rail'),thumb=$('#thumb'),peek=$('#peek'),peekList=$('#peekList'),hideT=null,peekT=null,dragging=false,LINGER=1500;   // the headings stay 1.5 s after release
   function maxScroll(){return Math.max(1,document.documentElement.scrollHeight-window.innerHeight);}
   function trackH(){return rail.clientHeight-thumb.offsetHeight;}
   function place(force){
@@ -327,15 +327,15 @@ var META={{meta}}, ORDER={{order}};
       var li=document.createElement('li'); li.textContent=label(heads[k]); li.className='l'+lvl(heads[k])+(k===i?' cur':''); li.style.top=y+'px'; peekList.appendChild(li);
     }
   }
-  function show(){rail.classList.add('on');clearTimeout(hideT);if(!dragging)hideT=setTimeout(function(){if(!dragging)rail.classList.remove('on');},1200);}
+  function show(){rail.classList.add('on');clearTimeout(hideT);if(!dragging)hideT=setTimeout(function(){if(!dragging)rail.classList.remove('on');},peek.classList.contains('on')?LINGER:1200);}
   var saveT=null;
   window.addEventListener('scroll',function(){place();show();clearTimeout(saveT);saveT=setTimeout(function(){store('series.pos',JSON.stringify({k:active,y:window.scrollY}));},400);},{passive:true});
   window.addEventListener('resize',function(){measure();place(true);});
   if(document.fonts&&document.fonts.ready) document.fonts.ready.then(function(){measure();place(true);});
   function scrollFromY(cy){var r=rail.getBoundingClientRect(),t=cy-r.top-thumb.offsetHeight/2,p=Math.min(1,Math.max(0,t/trackH()));window.scrollTo(0,p*maxScroll());}
-  thumb.addEventListener('pointerdown',function(e){dragging=true;thumb.setPointerCapture(e.pointerId);thumb.style.cursor='grabbing';show();renderPeek(curIndex());peek.classList.add('on');e.preventDefault();});
+  thumb.addEventListener('pointerdown',function(e){dragging=true;clearTimeout(peekT);thumb.setPointerCapture(e.pointerId);thumb.style.cursor='grabbing';show();renderPeek(curIndex());peek.classList.add('on');e.preventDefault();});
   thumb.addEventListener('pointermove',function(e){if(dragging)scrollFromY(e.clientY);});
-  function endDrag(){if(!dragging)return;dragging=false;thumb.style.cursor='grab';peek.classList.remove('on');show();}
+  function endDrag(){if(!dragging)return;dragging=false;thumb.style.cursor='grab';show();clearTimeout(peekT);peekT=setTimeout(function(){peek.classList.remove('on');},LINGER);}
   thumb.addEventListener('pointerup',endDrag); thumb.addEventListener('pointercancel',endDrag);
 
   // ---------- drawer

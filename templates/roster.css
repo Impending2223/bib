@@ -17,9 +17,16 @@ details.cgr>summary .cgsm{font-weight:400;color:var(--muted)}
 :root{--tgt:#FFFFFF}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--tgt:#22262E}}
 :root[data-theme="dark"]{--tgt:#22262E}
+/* and an en dash (.515em of the body's serif, --dash) past the table on either side, into the margin, as a lit thread
+   goes past its rules: side shadows of the row's outer cells, which move nothing and leave the rules as they were */
+@property --dash{syntax:'<length>';inherits:true;initial-value:9px}
+body{--dash:.515em}
 .cgr tr:target:not(.unhl) td,.cgr tr.hit td,.cgr tbody:target:not(.unhl) td{background:var(--tgt)}
+.cgr tr:target:not(.unhl) td:first-child,.cgr tr.hit td:first-child,.cgr tbody:target:not(.unhl) td:first-child{box-shadow:calc(-1*var(--dash)) 0 0 var(--tgt)}
+.cgr tr:target:not(.unhl) td:last-child,.cgr tr.hit td:last-child,.cgr tbody:target:not(.unhl) td:last-child{box-shadow:var(--dash) 0 0 var(--tgt)}
+.cgr tr:target:not(.unhl) td:only-child,.cgr tr.hit td:only-child,.cgr tbody:target:not(.unhl) td:only-child{box-shadow:calc(-1*var(--dash)) 0 0 var(--tgt),var(--dash) 0 0 var(--tgt)}
 /* an office's anchor is its tbody (tools/bib/executive.py): its holders and those before and after lit, its law and note not */
-.cgr tbody:target:not(.unhl) tr.exlr td{background:none}
+.cgr tbody:target:not(.unhl) tr.exlr td{background:none;box-shadow:none}
 .cgn{display:block;font-family:var(--serif);font-size:.85rem;color:var(--note)}
 .cgn.cgc{font-family:var(--sans);font-size:.78rem;color:var(--muted)}
 .cg button.cgb{font:600 .72rem/1 var(--sans);padding:.35rem .5rem;border:1px solid var(--rule);border-radius:5px;background:var(--panel);color:var(--muted);cursor:pointer}

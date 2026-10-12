@@ -743,7 +743,7 @@ seat; for the House, his own race that November where one race in his State name
 Under each race and special, "Roster: 87th Cong.", the seat's row at the next opening that has a roster. Under the
 presidential vote, "Took office", the President and Vice President in the Executive roster at the next inauguration.
 A row highlighted as a link's target (any roster or election table) is white, as a lit thread is (`--tgt` in
-`templates/roster.css`), and goes plain when the reader clicks outside it (`JS` in `tools/bib/roster.py`; `.unhl`). Tables write an at-large seat "AL" and leave the district column unheaded; a fusion candidacy's parties abbreviated ("D, R");
+`templates/roster.css`), an en dash past the table on either side (side shadows of the outer cells, `--dash`), and goes plain when the reader clicks outside it (`JS` in `tools/bib/roster.py`; `.unhl`). Tables write an at-large seat "AL" and leave the district column unheaded; a fusion candidacy's parties abbreviated ("D, R");
 a whole vote "100%".
 
 ## Elections
@@ -933,9 +933,10 @@ day falls in; the threads section is in both. `tools/bib/calsplit.py` (STYLE not
 - A tap on a thread's entry in the index, or on its line under an entry (not on a link), lights the thread: its
   entries and its index entry on white (a lighter panel in the dark theme), each entry's own box from its rule to the
   next and an en dash past the rules' ends on either side, the rules as they were; a day's first or last entry takes a
-  rule while lit where it has none. Tapped again, cleared; kept for the tab (sessionStorage). While it is lit and the
-  scroll wheel is held, an amber mark a lit entry in the thumb's column, its place and height the entry's share of
-  the page (3px at least), no bar behind; shown and gone with the headings (STYLE 8). Nothing moves (STYLE 7,
+  rule while lit where it has none. Tapped again, cleared; kept for the tab (sessionStorage). While it is lit, a mark a
+  lit entry in the thumb's column, its place and height the entry's share of the page (3px at least), no bar behind:
+  amber while the scroll wheel's headings show (they stay 1.5 s after it is let go, `LINGER` in the templates), white
+  after; a click on a mark brings its entry to the top (STYLE 8). Nothing moves (STYLE 7,
   `SCRIPT` in `tools/bib/calsplit.py`; `data-threads`, `data-thread`, `data-t` in `tools/bib/build.py`).
 
 ## The calendar by day
