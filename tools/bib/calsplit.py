@@ -31,9 +31,12 @@ STYLE:
     the reader for the session (sessionStorage), and is the reader's alone: nothing in the address.
  6. Each half's lede names the other ("The second calendar takes up at ..."); the words linked to its page's top.
  8. While a thread is lit and the scroll wheel is held (the headings showing), a mark for each of its lit entries, as a
-    find-on-page bar marks its hits: in the highlight's color, edged in the thumb's, 3px high and the thumb's width,
-    in the thumb's column, right of the headings; each at the thumb's place that brings the entry to the top of the
-    page, so fixed while the page scrolls under the drag. Shown and gone with the headings (#hlmarks, SCRIPT).
+    find-on-page bar marks its hits: in the highlight's color, no edge, the thumb's width, in the thumb's column, right
+    of the headings. The thumb's travel stands for the page: a mark's place and height are the entry's place and
+    height as shares of the page (at least one device pixel), so the thumb's centre on a mark brings the entry to the
+    top, and the marks hold still while the page scrolls under the drag. One canvas, drawn once a drag (#hlmarks,
+    SCRIPT). The headings' veil deepens a shade while a thread is lit (--hlveil), for the marks' contrast. Shown and
+    gone with the headings.
 """
 import datetime
 import re
@@ -249,13 +252,13 @@ a.tx.ty:hover{text-decoration:underline;text-decoration-color:var(--rule)}
 p.seam{font-family:var(--sans);font-size:.8rem;margin:1rem 0}
 p.seam a{color:var(--muted);text-decoration-color:var(--rule)}
 /* a thread highlighted (STYLE 7) */
-:root{--hl:#FFFFFF}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--hl:#22262E}}
-:root[data-theme="dark"]{--hl:#22262E}
+:root{--hl:#FFFFFF;--hlveil:rgba(222,227,234,.93)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--hl:#22262E;--hlveil:rgba(0,0,0,.94)}}
+:root[data-theme="dark"]{--hl:#22262E;--hlveil:rgba(0,0,0,.94)}
+:root[data-hl]:not([data-hl=""]) #peek{--veil:var(--hlveil)}
 li[data-thread],.tnl[data-t]{cursor:pointer}
-#hlmarks{position:fixed;z-index:27;top:0;bottom:0;right:0;width:40px;pointer-events:none;opacity:0;transition:opacity .18s}
+#hlmarks{position:fixed;z-index:27;right:6px;width:28px;pointer-events:none;opacity:0;transition:opacity .18s}
 #hlmarks.on{opacity:1}
-#hlmarks i{position:absolute;right:6px;width:28px;height:3px;margin-top:-1.5px;background:var(--hl);box-shadow:0 0 0 1px var(--thumb-edge)}
 @media (prefers-reduced-motion: reduce){#hlmarks{transition:none}}
 </style>"""
 
@@ -285,20 +288,20 @@ SCRIPT = """<script>
      thumb's place that brings the entry to the top (STYLE 8) */
   var peek=document.getElementById('peek'), rail=document.getElementById('rail'), thumb=document.getElementById('thumb');
   if(!peek||!rail||!thumb) return;
-  var box=document.createElement('div'); box.id='hlmarks'; box.setAttribute('aria-hidden','true'); document.body.appendChild(box);
+  var box=document.createElement('canvas'); box.id='hlmarks'; box.setAttribute('aria-hidden','true'); document.body.appendChild(box);
   function marks(){
-    box.innerHTML='';
     if(!now||!peek.classList.contains('on')) return;
-    var rr=rail.getBoundingClientRect(), th=thumb.offsetHeight, track=rail.clientHeight-th,
-        max=Math.max(1,document.documentElement.scrollHeight-window.innerHeight), top=rr.top-10, last=-9, html='';
+    var rr=rail.getBoundingClientRect(), th=thumb.offsetHeight, track=rail.clientHeight-th, dpr=window.devicePixelRatio||1,
+        sh=document.documentElement.scrollHeight, k=track/sh, ys=[], i, r;
+    box.style.top=rr.top+'px'; box.style.height=rr.height+'px';
+    box.width=Math.round(28*dpr); box.height=Math.round(rr.height*dpr);
     var els=document.querySelectorAll('li[data-threads~="'+now+'"],li[data-thread="'+now+'"]');
-    for(var i=0;i<els.length;i++){
-      var r=els[i].getBoundingClientRect(); if(!r.height) continue;          // a list not shown (the reader)
-      var y=Math.round(rr.top+th/2+Math.min(1,Math.max(0,(r.top+window.scrollY-top)/max))*track);
-      if(y-last<2) continue; last=y;
-      html+='<i style="top:'+y+'px"></i>';
+    for(i=0;i<els.length;i++){ r=els[i].getBoundingClientRect(); if(r.height) ys.push(r.top+window.scrollY, r.height); }
+    var g=box.getContext('2d'); g.fillStyle=getComputedStyle(document.documentElement).getPropertyValue('--hl').trim()||'#fff';
+    for(i=0;i<ys.length;i+=2){           // the entry's share of the page, as its share of the thumb's travel; a device pixel at least
+      var y0=(th/2+ys[i]*k)*dpr, y1=y0+ys[i+1]*k*dpr, a=Math.floor(y0);
+      g.fillRect(0,a,box.width,Math.max(1,Math.round(y1)-a));
     }
-    box.innerHTML=html;
   }
   new MutationObserver(function(){ box.classList.toggle('on',!!now&&peek.classList.contains('on')); marks(); })
     .observe(peek,{attributes:true,attributeFilter:['class']});
