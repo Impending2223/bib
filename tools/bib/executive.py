@@ -986,7 +986,7 @@ def cal_block(i, units, ptr, href, rid):
 
 CSS = """<style>
 /* The Executive Branch roster (tools/bib/executive.py). The shared block and table rules: templates/roster.css. */
-.ex h3.exsech{border-top:0;margin:1.4rem 0 .2rem;padding-top:.6rem;text-align:center;font-size:.86rem;font-weight:600;
+.ex h3.exsech{border-top:0;margin:1.4rem 0 .2rem;padding-top:.6rem;text-align:center;font-size:1rem;font-weight:600;
   font-variant-caps:all-small-caps;letter-spacing:.06em}
 .ex summary h4.exuh{display:inline;font:inherit;color:inherit;margin:0;padding:0;border:0}
 .ex .exsec{font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:1rem 0 .2rem}
@@ -1026,7 +1026,7 @@ details.exu tr.exlr .cgn{margin:.1rem 0 .15rem}
 .ex .exw{white-space:nowrap}
 .ex .exun{margin:.2rem 0 .4rem}
 .ex abbr{text-decoration:none;cursor:help}
-.ex p.exsech{text-align:center;font-size:.86rem;font-weight:600;font-variant-caps:all-small-caps;letter-spacing:.06em;
+.ex p.exsech{text-align:center;font-size:1rem;font-weight:600;font-variant-caps:all-small-caps;letter-spacing:.06em;
   margin:1.4rem 0 .2rem;padding-top:.6rem}
 .ex p.exsech a{color:inherit;text-decoration-color:var(--rule)}
 div.excal{margin:.5rem 0;font-size:.85rem}
