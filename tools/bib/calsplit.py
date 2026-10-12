@@ -31,12 +31,12 @@ STYLE:
     the reader for the session (sessionStorage), and is the reader's alone: nothing in the address.
  6. Each half's lede names the other ("The second calendar takes up at ..."); the words linked to its page's top.
  8. While a thread is lit and the scroll wheel is held (the headings showing), a mark for each of its lit entries, as a
-    find-on-page bar marks its hits: in the highlight's color, no edge, the thumb's width, in the thumb's column, right
-    of the headings. The thumb's travel stands for the page: a mark's place and height are the entry's place and
-    height as shares of the page (at least one device pixel), so the thumb's centre on a mark brings the entry to the
+    find-on-page bar marks its hits: amber (--hlmark, as Chrome marks its finds; white does not show on the page),
+    no edge, no bar behind, the thumb's width, in the thumb's column, right of the headings. The thumb's travel
+    stands for the page: a mark's place and height are the entry's place and height as shares of the page, and at
+    least 3px (--hlmin), fattened about the entry's middle, so the thumb's centre on a mark brings the entry to the
     top, and the marks hold still while the page scrolls under the drag. One canvas, drawn once a drag (#hlmarks,
-    SCRIPT), on a bar of their width the length of the thumb's travel, in a darker color (the canvas's background;
-    --hlsh, --hla). Shown and gone with the headings.
+    SCRIPT; --hlhalo, --hlhalow, a band behind each mark, unset). Shown and gone with the headings.
 """
 import datetime
 import re
@@ -252,12 +252,12 @@ a.tx.ty:hover{text-decoration:underline;text-decoration-color:var(--rule)}
 p.seam{font-family:var(--sans);font-size:.8rem;margin:1rem 0}
 p.seam a{color:var(--muted);text-decoration-color:var(--rule)}
 /* a thread highlighted (STYLE 7) */
-:root{--hl:#FFFFFF;--hlsh:120,132,150;--hla:.4}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--hl:#22262E;--hlsh:0,0,0;--hla:.4}}
-:root[data-theme="dark"]{--hl:#22262E;--hlsh:0,0,0;--hla:.4}
+:root{--hl:#FFFFFF;--hlmark:#F29F05;--hlmin:3px}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--hl:#22262E}}
+:root[data-theme="dark"]{--hl:#22262E}
 
 li[data-thread],.tnl[data-t]{cursor:pointer}
-#hlmarks{position:fixed;z-index:27;right:6px;width:28px;pointer-events:none;opacity:0;transition:opacity .18s;background:rgba(var(--hlsh),var(--hla))}
+#hlmarks{position:fixed;z-index:27;right:6px;width:28px;pointer-events:none;opacity:0;transition:opacity .18s}
 #hlmarks.on{opacity:1}
 @media (prefers-reduced-motion: reduce){#hlmarks{transition:none}}
 </style>"""
