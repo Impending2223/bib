@@ -391,12 +391,15 @@ slimmer (`cal_block`, CAL STYLE in `tools/bib/executive.py`): in full, with ever
 President, the Cabinet (the Vice President, the department heads, the Representative to the UN), the Chairman of the
 Federal Reserve, the Chairman of the Joint Chiefs, the Director of the FBI, and the Special Counsel, Press Secretary,
 Secretary to the President, Military Representative, Personal Secretary, CEA Chairman and Special Assistant for National
-Security Affairs, and the Director of Central Intelligence, the Budget Director, the Special Assistants to the President,
-the science adviser, the trade representative, the Directors of the USIA and the Peace Corps (`CAL_FULL`), each holder's
-pointers under his line, no column of them; by title alone, linked to executive.html, every other office of the
-Executive Office and the offices one and two steps beneath a full office (`cal_parent`), stood in a step for each office
-between it and its full office (`cal_indent`); the Agencies and commissions one link, the Federal Reserve, the CIA, the
-USIA under it; the parts in centered small capitals; the units open, not collapsible. Each office's rows are a `tbody`
+Security Affairs, and the Director of Central Intelligence, the Budget Director, the science adviser, the trade
+representative, the Directors of the USIA and the Peace Corps (`CAL_FULL`), each holder's pointers under his line, no
+column of them; by title alone, linked to executive.html, an office beside a named office of its own unit, answering to
+the same officer (`cal_beside`: Staff Secretary beside the Appointments Secretary), never one beneath a named office; an
+entity with no named office, by its name alone, beside a named entity under the same department (`cal_entity`: the ICA
+beside the Peace Corps and the missions; the services, commands and defense agencies beside the Joint Chiefs), or in the
+Executive Office (the foreign intelligence board, Civil and Defense Mobilization, the Space Council). Every row flush. Not shown: the White House's special
+assistants (`CAL_OUT`). The Agencies and commissions one link, the Federal Reserve, the CIA, the USIA under it; the parts
+in centered small capitals; the units open, not collapsible. Each office's rows are a `tbody`
 carrying its anchor, on both pages, so a link lights the holders and the Before/After row, not the law or the note.
 
 ```
@@ -933,7 +936,7 @@ day falls in; the threads section is in both. `tools/bib/calsplit.py` (STYLE not
 - A tap on a thread's entry in the index, or on its line under an entry (not on a link), lights the thread: its
   entries and its index entry on white (a lighter panel in the dark theme), each entry's own box from its rule to the
   next and an en dash past the rules' ends on either side, the rules as they were; a day's first or last entry takes a
-  rule while lit where it has none. Tapped again, cleared; kept for the tab (sessionStorage). While it is lit, a mark a
+  rule while lit where it has none. A rubric's thread name, followed to the index, lights it too, never clears it. Tapped again, cleared; kept for the tab (sessionStorage). While it is lit, a mark a
   lit entry in the thumb's column, its place and height the entry's share of the page (3px at least), no bar behind:
   amber while the scroll wheel's headings show (they stay 1.5 s after it is let go, `LINGER` in the templates), white
   after; a click on a mark brings its entry to the top (STYLE 8). On every page the scroll wheel is hidden until the reader
