@@ -9,7 +9,7 @@ with its statement for that half (`c` in the first; in the second `c2`, or `c` w
 alone) and its dates there. Everything else goes by date: a dated section to the half its first day falls in.
 
 STYLE:
- 1. A thread's dates by year: the year in the headings' sans serif, a little heavier, unlinked, a full stop after each year's dates
+ 1. A thread's dates by year, as every list of calendar dates is written (tools/bib/datelist.py, its STYLE):
     ("1961 Jan. 23, Feb. 20. 1962 ..."), each date linked to its entry.
  2. Across the divide, muted, linked: in the first half, after its dates, the year of the thread's next entry in the
     second, linked to the thread's entry in the second half's index, and that entry's date, linked to the entry
@@ -45,7 +45,7 @@ STYLE:
 import datetime
 import re
 
-from . import store
+from . import datelist, store
 
 # the half being built and the page kind, set by the build around each half
 CUR = {"half": None, "mode": "list"}
@@ -195,23 +195,14 @@ def thread_dates_html(lst, slug, members, esc):
         y = str(m["date"])[:4]
         return (f'<a class="tx ty" href="{href(lst, other, thread_anchor(lst, slug, other))}">{y}</a> '
                 f'<a class="tx" href="{href(lst, other, m["id"])}">{esc(m["when"])}</a>')
-    groups, prev = [], None
-    for m in mine:
-        y = str(m["date"])[:4]
-        link = f'<a href="{href(lst, half or 1, m["id"])}">{esc(m["when"])}</a>'
-        if y != prev:
-            groups.append([f'<b class="ty">{y}</b>', [link]])
-            prev = y
-        else:
-            groups[-1][1].append(link)
-    parts = [f"{y} " + ", ".join(ls) for y, ls in groups]
+    # the dates by year (datelist STYLE), the links across the divide before or after them
+    parts = [datelist.part(y, ls) for y, ls in
+             datelist.groups([(m["date"], f'<a href="{href(lst, half or 1, m["id"])}">{esc(m["when"])}</a>') for m in mine])]
     if before:
         parts.insert(0, cross(before))
     if after:
         parts.append(cross(after))
-    # a full stop after each year's dates; none added after a date that ends in one ("Dec.")
-    stop = lambda t: t if re.sub(r"<[^>]+>", "", t).endswith(".") else t + "."
-    return " ".join(stop(t) for t in parts)
+    return " ".join(datelist.stop(t) for t in parts)
 
 
 def seam(lst, sec):
@@ -249,7 +240,6 @@ MON = ["Jan.", "Feb.", "Mar.", "Apr.", "May", "June", "July", "Aug.", "Sept.", "
 
 STYLE = """<style>
 /* the thread index's years and the links across the calendar's halves (tools/bib/calsplit.py) */
-.ty{font-family:var(--sans);font-weight:600;font-size:.92em}
 a.tx{color:var(--muted);text-decoration-color:var(--rule)}
 a.tx.ty{text-decoration:none}
 a.tx.ty:hover{text-decoration:underline;text-decoration-color:var(--rule)}

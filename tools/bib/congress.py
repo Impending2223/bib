@@ -13,7 +13,7 @@ import os
 import re
 from collections import Counter, defaultdict
 
-from . import namelinks, specials, store
+from . import datelist, namelinks, specials, store
 from .markup import to_html, plain
 
 DIR = os.path.join(store.ROOT, "congress")
@@ -169,13 +169,8 @@ class Pointers:
                     cal.append(e)
         if cal:
             cal.sort(key=lambda e: e["date"])
-            dates, prev = [], None
-            for e in cal:
-                y = e["date"][:4]
-                lab = e["when"] + (f", {y}" if y != prev else "")
-                prev = y
-                dates.append(f'<a href="{href("cal", e["id"])}">{esc(lab)}</a>')
-            out.append("Cal. " + ", ".join(dates))
+            out.append("Cal. " + datelist.run([(e["date"], f'<a href="{href("cal", e["id"])}">{esc(e["when"])}</a>')
+                                               for e in cal]))     # by year (datelist STYLE)
         return out
 
 
