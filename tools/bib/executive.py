@@ -800,17 +800,22 @@ def block(i, units, ptr, href, rid, here=False):
 #     the Executive Office the Special Counsel, the Press Secretary, the Secretary to the President (appointments),
 #     the Military Representative, the Personal Secretary, the Chairman of the Council of Economic Advisers, and the
 #     Special Assistant for National Security Affairs; and the Director of Central Intelligence, the Budget Director,
-#     the Special Assistants to the President (O'Brien, Schlesinger, Goodwin and the rest), the science adviser, the
-#     trade representative, the Director of the USIA and the Director of the Peace Corps (CAL_FULL). Each holder's
+#     the science adviser, the trade representative, the Director of the USIA and the Director of the Peace Corps
+#     (CAL_FULL). Not the White House's special assistants, employees (CAL_OUT), nor the UN deputies. Each holder's
 #     pointers into the series under his line, after a break; no column of them.
-#  2. By title alone, one line spanning the table, linked to the office on executive.html: every other office of the
-#     Executive Office, and the offices one and two steps beneath a full office elsewhere (cal_parent: an office's
+#  2. By title alone, one line spanning the table, linked to the office on executive.html: an office that stands
+#     beside a named one, never beneath it (cal_beside). An office stands beside the others of its unit that answer
+#     to the same officer (Staff Secretary beside the Appointments Secretary, both answering to the President); an
+#     entity, by its head (a collection, by its offices that answer to no other), beside the entities under the same
+#     department (the ICA beside the Peace Corps and the missions, under State; the services, the unified and
+#     specified commands and the defense agencies beside the Joint Chiefs, under Defense). The Executive Office has
+#     no head of its own, so an entity in it stands only by a named officer of its own. Candidates are the offices of
+#     the Executive Office and those one and two steps beneath a full office elsewhere (cal_parent: an office's
 #     `under`, else its unit's head, else the head of the unit above; a unit in CAL_COLLECTIONS has no head of its own).
 #     Not the President's own subordinates outside the Executive Office: the agencies and commissions are one link.
 #  3. Parts as on executive.html, in centered small capitals; the units open, not collapsible; the Agencies and
 #     commissions a link to that part of the term on executive.html, with the full offices of that part under it.
-#  4. A title row stands in a step (1.25em) for each office between it and the full office it answers to
-#     (cal_indent); a full office never stands in.
+#  4. Every row flush: none stands beneath another.
 CAL_FULL = {("president", "president"), ("vp", "vice-president"), ("state", "secretary"), ("treasury", "secretary"),
             ("defense", "secretary"), ("justice", "attorney-general"), ("post-office", "postmaster-general"),
             ("interior", "secretary"), ("agriculture", "secretary"), ("commerce", "secretary"), ("labor", "secretary"),
@@ -818,10 +823,11 @@ CAL_FULL = {("president", "president"), ("vp", "vice-president"), ("state", "sec
             ("frb", "chairman"), ("jcs", "chairman"), ("fbi", "director"),
             ("wh", "counsel"), ("wh", "press-secretary"), ("wh", "secretary"), ("wh", "military-representative"),
             ("wh", "personal-secretary"), ("cea", "chairman"), ("nsc", "special-assistant"),
-            ("cia", "director"), ("bob", "director"), ("wh", "special-assistants"), ("ost", "special-assistant"),
+            ("cia", "director"), ("bob", "director"), ("ost", "special-assistant"),
             ("str", "special-representative"), ("usia", "director"), ("peace-corps", "director")}
 CAL_COLLECTIONS = {"eop", "wh", "missions", "commands", "defense-agencies"}
-CAL_LISTED = {"missions": {"un", "un-deputies"}}      # a collection too long to list: these offices of it only
+CAL_LISTED = {"missions": {"un"}}      # a collection too long to list: these offices of it only
+CAL_OUT = {("wh", "special-assistants")}   # not shown at all: the White House's special assistants, employees
 
 
 def cal_head(u):
@@ -856,10 +862,35 @@ def in_eop(u, units):
     return False
 
 
-def cal_kind(o, u, units):
+def cal_rep(o, u, units):
+    """True where the office stands for its unit: a unit's head; in a collection, an office that answers to no other."""
+    return o is cal_head(u) if cal_head(u) is not None else not o.get("under")
+
+
+def cal_named(v, a, b):
+    return any((v["unit"], x["id"]) in CAL_FULL and exists(x, a, b) for x in v.get("offices") or [])
+
+
+def cal_beside(o, u, units, a, b):
+    """True where a title row stands beside a named office, not beneath one (CAL STYLE 2)."""
+    if cal_rep(o, u, units):
+        pu = units.get(u.get("under") or "")
+        if pu is None or cal_head(pu) is None:          # under the Executive Office: by a named officer of its own
+            return cal_named(u, a, b)
+        return any(v.get("under") == pu["unit"] and exists(v, a, b) and cal_named(v, a, b) for v in units.values())
+    p = cal_parent(o, u, units)
+    return any((u["unit"], x["id"]) in CAL_FULL and exists(x, a, b) and cal_parent(x, u, units) == p
+               for x in u.get("offices") or [] if x is not o)
+
+
+def cal_kind(o, u, units, a=None, b=None):
     """'full', 'bare', or None (not shown)."""
     if (u["unit"], o["id"]) in CAL_FULL:
         return "full"
+    if (u["unit"], o["id"]) in CAL_OUT:
+        return None
+    if a is not None and not cal_beside(o, u, units, a, b):
+        return None
     if u["unit"] in CAL_LISTED and o["id"] not in CAL_LISTED[u["unit"]]:
         return None
     if in_eop(u, units):
@@ -873,22 +904,6 @@ def cal_kind(o, u, units):
         if (x["unit"], y["id"]) in CAL_FULL and (x["unit"], y["id"]) != ("president", "president"):
             return "bare"
     return None
-
-
-def cal_indent(o, u, units):
-    """How far a title row stands in: the steps up to the nearest full office (one or two); where the President is
-    reached first, a step less, so the offices beside a full one stand with it."""
-    x, y = u, o
-    for k in range(1, 4):
-        p = cal_parent(y, x, units)
-        if p is None:
-            return k - 1
-        x, y = p
-        if (x["unit"], y["id"]) == ("president", "president"):
-            return k - 1
-        if (x["unit"], y["id"]) in CAL_FULL:
-            return k
-    return 3
 
 
 def cal_block(i, units, ptr, href, rid):
@@ -907,12 +922,11 @@ def cal_block(i, units, ptr, href, rid):
         for od, o in offices_in_order(u):
             if not exists(o, a, b):
                 continue
-            kind = cal_kind(o, u, units)
+            kind = cal_kind(o, u, units, a, b)
             if kind == "bare":
                 nbare += 1
-                ind = cal_indent(o, u, units)
                 rows.append(f'<tbody id="{rid(i, u["unit"], o["id"])}" class="exob"><tr class="exbare">'
-                            f'<td colspan="2"{f" class=exi{ind}" if ind else ""}><a href="{ex(u["unit"], o["id"])}">'
+                            f'<td colspan="2"><a href="{ex(u["unit"], o["id"])}">'
                             f'{esc(title_at(o, a))}</a></td></tr></tbody>')
                 continue
             if kind != "full":
@@ -975,8 +989,7 @@ def cal_block(i, units, ptr, href, rid):
     out = [f'<div class="cg ex excalb" data-term="{a}">',
            f'<p class="cgh">The Executive Branch, {esc(label)}: {esc(fmt(a))} to {esc(fmt(term_end(b)))}</p>',
            f'<p class="cgs">The President, the Cabinet, and the principal officers of the White House, the Executive '
-           f'Office and the agencies, with every holder during the term; beneath them, {nbare} offices by title, each '
-           f'set in a step for each office between it and the one it answers to. Each title links to the office in the '
+           f'Office and the agencies, with every holder during the term; beside them, {nbare} offices by title. Each title links to the office in the '
            f'full roster, <a href="executive.html#{tid}">Exec. {esc(day[:4])}</a>, with its law and notes.</p>',
            f'<p class="cgs exkey">{esc(KEY)} Hover over a code for its meaning.</p>']
     out += parts
@@ -1035,7 +1048,6 @@ div.excal p.exuh a{color:inherit;text-decoration-color:var(--rule)}
 div.excal table{font-size:.82rem;margin:.2rem 0 .8rem}
 div.excal col.exc1{width:30%}div.excal col.exc2{width:auto}
 .ex .expt{display:block;font-size:.76rem;margin-top:.15rem}
-div.excal tr.exbare td.exi1{padding-left:1.25em}div.excal tr.exbare td.exi2{padding-left:2.5em}div.excal tr.exbare td.exi3{padding-left:3.75em}
 div.excal tr.exhl td{border-bottom:0}
 div.excal tr.exmid td:not(.exof){border-bottom:0;padding-bottom:0}
 div.excal td.exof{border-bottom:1px solid var(--rule)}
