@@ -99,7 +99,8 @@ yes: c: Gilpatric to the Business Council at Hot Springs. The American second
 series.yaml               the lists: key, abbreviation, old artifact URL
 lists/<key>/list.yaml     a list's title, intro paragraphs, and outline (sections → files)
 lists/<key>/<file>.yaml   one section's entries, in display order (II.D.yaml, apr.yaml)
-works/<letter>.yaml       the works catalogue: one card a work, by the first letter of its id (w.beschloss-crisis-years)
+works/<letter>.yaml       the works catalogue: one card a work, by the first letter of its id (w.beschloss-crisis-years);
+                          shown A to Z on build/works.html
 inbox/                    patch files waiting to be merged
 congress/<NN>.yaml        each Congress at its opening (87–93): House by state and
                           district (0 = at large), Senate by state and class
@@ -279,7 +280,7 @@ sources that print it; `check` warns on a plain form in the series' own prose (t
 ```
 ./bib new-id cal 1961-10-27 berlin-and-vienna   # an unused id
 ./bib check            # must end "0 errors"; deal with new warnings
-./bib build            # build/<key>.html and build/series.html (a page alone: ./bib build congress | names | cal ...)
+./bib build            # build/<key>.html and build/series.html (a page alone: ./bib build congress | names | works | cal ...)
 ./bib links            # links between the built pages whose anchors are missing
 ```
 
@@ -392,10 +393,16 @@ yet render it; author, title and year read from it for sorting and search).
   chapters and their volumes (34 chapters, 28 volumes); don't rerun either.
 - Not yet in the catalogue: primary documents (cases, laws, orders, hearings, speeches) and the calendar's citations,
   which still write works by short title with list and section until they are converted to pointers.
-- Coming: one A–Z bibliography of every card in place of the themed lists' Parts I–II (Part III stays). Sorted by the
-  first-listed author's surname; a film under its director's; an organization only where the card names it as the
-  author (cards are not edited to add one); otherwise the short title, its leading article dropped (edited volumes
-  included); then the year; then the short title.
+- The A–Z bibliography, `build/works.html` (`./bib build works`; `tools/bib/bibliography.py`, its STYLE notes): every
+  card, A to Z, built beside the themed lists, which stay until it replaces their Parts I–II (Part III stays). Filed
+  by the first-listed author's surname; a film under its director's; an organization only where the card names it as
+  the author (cards are not edited to add one); otherwise the short title, its leading article dropped (edited volumes
+  included); then the year; then the short title (FILING in `tools/bib/works.py`; `./bib works list` sorts the same
+  way). An author's works under the name, inverted ("Beschloss, Michael R."; a particle with the surname, "De Palma,
+  Brian"; a Vietnamese, Chinese or Japanese name in its own order, as written; `OWN_ORDER`, `RUNNING`, `SURNAME` for
+  what the rules cannot tell), linked to the name entry where one person fits. Under each work, muted: the list
+  sections holding it, linked to the listing, and the calendar entries citing it by short title and list, by year.
+  The anchor is the card's id (`works.html#w.beschloss-crisis-years`).
 
 ## Congress at each opening
 

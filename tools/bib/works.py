@@ -650,7 +650,9 @@ def sort_key(series, how):
         who = store.fold(surname(f["author"][0])) if f.get("author") else ""
         t = re.sub(r"^(the|a|an) ", "", store.fold(plain(f.get("title") or "")))
         y = str(f.get("year") or "")
-        return {"year": (y, who, t), "title": (t, y), "id": (cid,)}.get(how, (who or t, t, y))
+        if how in ("year", "title", "id"):
+            return {"year": (y, who, t), "title": (t, y), "id": (cid,)}[how]
+        return filing(series, cid)[1]          # the A–Z bibliography's order (FILING)
     return k
 
 
@@ -663,6 +665,106 @@ def line(series, cid):
     if parts:
         out += f"\n    holds: {', '.join(sorted(parts))}"
     return out + (f"\n    listed: {', '.join(ws)}" if ws else "" if parts else "\n    listed: nowhere")
+
+
+# ---------------------------------------------------------------- filing (the A–Z bibliography)
+#
+# FILING (the owner's rules, Oct. 13, 2026):
+#  1. A work files under its first-listed author's surname; a film under its director's ("Lee, Spike"), the Bluebook
+#     notwithstanding; then by year, then by short title.
+#  2. A corporate author files under the organization's name only where the card names it as author ("U.S.
+#     Commission on Civil Rights"); nothing is added to a card to make one.
+#  3. A work with no author (an edited volume, a series, a film with no director named) files under its short title,
+#     the leading article dropped ("Cambridge History of the Vietnam War").
+#  4. Headings invert a name written in running order ("Beschloss, Michael R."; a particle stays with the surname: "De
+#     Palma, Brian", "de Gaulle, Charles"); a name written in its own order, family name first (Vietnamese, Chinese,
+#     Japanese: "Võ Nguyên Giáp", "Zhou Enlai 周恩来"), a single name, or an organization stands as written.
+
+ORG = re.compile(r"\b(?:Commission|Council|Committee|Department|Institute|Office|Conference|Force|Friends|Students|"
+                 r"Veterans|Society|Association|Foundation|Bureau|Agency|Board|Center|League|Union|University|Press|"
+                 r"Bundesbank|Đảng|Viện|Ban|Bộ)\b|\b(?:Comm|Dept|Inst|Off)\.|^\[")
+NOT_AUTHOR = re.compile(r"^(?:Comment|Note|Memorandum|Speech|Điện Biên Phủ)\b")   # read as an author, and not one
+VIET = re.compile(r"[ăâđêôơưĂÂĐÊÔƠƯ\u1ea0-\u1ef9]")
+CJK = re.compile(r"[\u3000-\u9fff]")
+VN_FAMILY = {"lam", "nguyen", "tran", "le", "pham", "hoang", "huynh", "phan", "vu", "vo", "dang", "bui", "do", "ho", "ngo",
+             "duong", "ly", "cao", "ton", "trinh", "dinh", "doan", "luu", "ha", "ta", "chu", "truong", "dong"}
+# names the rules above cannot tell, as the cards write them: in their own order, or the surname where it is not the
+# last word
+OWN_ORDER = {"Hoang Van Chi", "Ngo Van Chieu", "Pham Van Luu", "Pham Van Minh", "Pham Van Son", "Tran Van Don",
+             "Tran Van Tra", "Van Tien Dung", "Hoai Thanh", "Cao Minh", "Nguyen Huu Nguyen", "Xuân Phuong",
+             "Vinh-Loc", "Cincinnatus [Cecil B. Currey]"}
+SURNAME = {"Aurélie Basha i Novosejt": "Basha i Novosejt", "Nicholas deB. Katzenbach": "Katzenbach"}
+RUNNING = {"Le Ly Hayslip", "Duong Van Mai Elliott"}
+PARTICLE = {"de", "De", "Del", "van", "Van", "von", "Von", "du", "Du", "la", "La", "le", "Le", "del", "der", "da", "di",
+            "St.", "St"}
+NETWORK = re.compile(r"^(?:CBS|NBC|ABC|HBO|PBS|FX|TNT|CNN|BBC|Starz|Netflix|Discovery|Apple|Sky|WGBH|Library|"
+                     r"Mothers|David L\. Wolper|Henry Hampton)\b")
+
+
+def filed_name(cid, cat):
+    """The name a card files under (FILING 1-2), as written, or None: the director of a film, else the first author."""
+    f = cat.fields(cid) or {}
+    if f.get("director"):
+        return f["director"][0]
+    p = f.get("paren") or ""
+    m = re.match(r"^(.+?)(?: dirs?\.,?)?(?: (?:PBS|HBO|ABC|CBS|NBC))? (?:19|20)\d\d", p)
+    if m and not f.get("author") and not NETWORK.match(p) and "ed." not in p and "vols." not in p:
+        names = split_names(m.group(1))
+        if names and all(is_person(n) and len(n.split()) > 1 for n in names):
+            return names[0]                  # a film whose card prints its director without "dir." ("Robert Rossen 1949")
+    a = f.get("author") or []
+    if not a:
+        return None
+    n = a[0]
+    if NOT_AUTHOR.match(n):
+        return None
+    if len(n.split()) == 1 and len(a) > 1 and is_person(a[1]):     # "Jim and Sybil Stockdale"
+        return n + " " + surname(a[1])
+    return n
+
+
+def heading(name):
+    """(the heading, its sort form) for a name a card files under (FILING 4)."""
+    bare = re.sub(r"\s+et al\.\??$|\?$", "", name).strip()
+    own = (bare in OWN_ORDER or CJK.search(bare) or ORG.search(bare) or len(bare.split()) == 1
+           or not is_person(re.sub(r"\s*\[[^\]]*\]|\s*\([^)]*\)", "", bare)))
+    words = [store.fold(w) for w in bare.split()]
+    if bare in SURNAME:
+        own = False
+    elif not own and "." not in bare:        # a Vietnamese name: family name first, unless the card turns it round
+        if VIET.search(bare) or words[0] in VN_FAMILY and re.search(r"[À-ÿ]", bare):
+            own = not (words[-1] in VN_FAMILY and words[0] not in VN_FAMILY)      # "Hữu An Nguyễn"
+        else:
+            own = words[0] in VN_FAMILY and words[-1] not in VN_FAMILY and "-" not in bare and bare not in RUNNING
+    if own:
+        return bare, store.fold(re.sub(r"^(?:The|A|An) ", "", bare))
+    words = bare.split()
+    suffix = [w for w in words if w.strip(",") in SUFFIX]
+    words = [w.strip(",") for w in words if w.strip(",") not in SUFFIX]
+    sur = SURNAME.get(bare)
+    if sur:
+        given = bare[:bare.index(sur)].strip()
+    else:
+        i = len(words) - 1
+        while i > 1 and words[i - 1] in PARTICLE:
+            i -= 1
+        sur, given = " ".join(words[i:]), " ".join(words[:i])
+    shown = f"{sur}, {given}" + "".join(", " + s for s in suffix)
+    return shown, store.fold(f"{sur} {given} {' '.join(suffix)}")
+
+
+def filing(series, cid):
+    """(heading or None, sort key) for a card in the A–Z bibliography (FILING): a work with an author or director
+    files under the heading, then year, then short title; one without, under its short title, then year."""
+    cat = series.works
+    f = cat.fields(cid) or {}
+    t = re.sub(r"^(?:the|a|an) ", "", store.fold(short_title(plain(f.get("title") or f.get("c") or ""))))
+    y = str(f.get("year") or "")
+    who = filed_name(cid, cat)
+    if who:
+        h, k = heading(who)
+        return h, (k, y, t)
+    return None, (t, y, t)
 
 
 # ---------------------------------------------------------------- check

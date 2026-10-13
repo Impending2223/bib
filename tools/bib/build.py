@@ -751,6 +751,9 @@ def build_series(series):
     home.append('<h2 id="home--nx" data-short="Names">Names</h2><ol class="e lists"><li><a class="lk" href="#nx--top">'
                 f'<span class="ab">Names</span><span class="tt">Every person across the {NUMBERS.get(len(series.lists), len(series.lists))} lists, merged</span></a>'
                 f'<span class="r">{n_people} names</span></li></ol>')
+    home.append('<h2 id="home--wk" data-short="Works">Works</h2><ol class="e lists"><li><a class="lk" href="works.html">'
+                '<span class="ab">Works</span><span class="tt">Every work the series cites, A to Z, with where it is cited</span></a>'
+                f'<span class="r">{len(series.works.cards):,} works</span></li></ol>')
     home.append('<h2 id="home--cg" data-short="Congress">Congress</h2><ol class="e lists"><li><a class="lk" href="congress.html">'
                 '<span class="ab">Congress</span><span class="tt">Each Congress at its opening, 1961–1973: party bars, House and Senate maps, every member</span></a>'
                 '<span class="r">87th–93rd</span></li></ol>')
@@ -793,7 +796,7 @@ def _section_series(series, lst, sec, linker, li_extra):
 def run(series, which=None):
     os.makedirs(OUT, exist_ok=True)
     written = []
-    PAGES = ("series", "congress", "executive", "names", "lives")
+    PAGES = ("series", "congress", "executive", "names", "lives", "works")
     for l in series.lists.values():       # the calendar's second half is built with its first
         if which and l.kind == "calendar" and calsplit.cfg(l) and which == calsplit.cfg(l)["page"]:
             which = l.key
@@ -857,6 +860,12 @@ def run(series, which=None):
             path = os.path.join(OUT, "executive.html")
             smart.write(path, routed(page))
             written.append(path)
+    if which in (None, "works"):          # the A–Z bibliography (tools/bib/bibliography.py)
+        from . import bibliography
+        linker = linker or Linker(series)
+        path = os.path.join(OUT, "works.html")
+        smart.write(path, routed(bibliography.page(series, linker, os.path.join(TEMPLATES, "list.html"))))
+        written.append(path)
     if which in (None, "names", "lives"):
         from . import lives
         linker = linker or Linker(series)
