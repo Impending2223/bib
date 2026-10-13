@@ -268,8 +268,8 @@ the 2020 census takes its State by the Bluebook's abbreviation at its first ment
 (an entry in several threads takes it where it is the first in any): "Anniston, Ala.", "Muncie, Ind.", "Concord, N.H.".
 Not Gettysburg, Atlantic City, Key West or Palm Beach; Huntington, W. Va. (83,627 in 1960) takes it all the same. An
 unincorporated place takes it too ("Parchman, Miss.", "Longdale, Miss.", "Hye, Tex."), Hyannis Port excepted. So too,
-anywhere, a named military base, a cape, and Liberty Island ("Fort Benning, Ga.", "Camp David, Md.", "At Andrews, Md.",
-"West Point, N.Y.", "Homestead, Fla.", "Cape Cod, Mass.", "Cape Canaveral, Fla."); not a hospital (Bethesda Naval
+anywhere, a named military base, a cape, and Liberty Island ("Fort Benning, Ga.", "At Andrews, Md.", "West Point, N.Y.",
+"Homestead, Fla.", "Cape Cod, Mass.", "Cape Canaveral, Fla."), Camp David excepted; not a hospital (Bethesda Naval
 Hospital), nor the Oakland Army Terminal. Two places of one name take their States wherever either is meant ("Oxford,
 Miss.", "Oxford, Ohio"; "Albany, Ga.", "Albany, N.Y."; Athens; "Hot Springs, Va."; "Cambridge, Md."), but Philadelphia is
 Philadelphia (only the Mississippi town takes its State). Columbia is not the District. A county is left to the
