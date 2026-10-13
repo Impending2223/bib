@@ -15,10 +15,10 @@ STYLE:
     the card's id (works.html#w.beschloss-crisis-years).
  4. A work followed to (its anchor) is lit as a row of the rosters is: white (a lighter panel in the dark theme), an en
     dash past it on either side, plain again when the reader clicks outside it (templates/roster.css, tools/bib/roster.py).
- 5. Bluebook's typefaces for law reviews (works.render, caps=True): a book's author and title, a film's or an edited
-    collection's title, in large and small caps; an article's or a chapter's author in roman, its title in italics,
-    its journal or collection in large and small caps; a thesis or manuscript as a paper. A title heading takes its
-    citation's face. Here only; the themed lists keep their italics.
+ 5. The typefaces (the owner's, Oct. 13, 2026, after Bluebook's large and small caps were tried and set aside): a
+    book's author and title, a film's or an edited collection's title, in plain roman; an article's or a chapter's
+    title in italics, its journal or collection in roman. works.render(..., caps=True) marks the roman parts (class
+    "sc"). A title heading takes its citation's face. Here only; the themed lists keep their italics.
  6. The type of the series' entries (the template's 18px, line height 1.55), the pointers .8rem; a heading in the
     same size, heavier.
  7. A letter a heading (h2, for the scroll wheel and the Outline drawer). The A–Z bar under the lede, as on the Names
@@ -48,7 +48,7 @@ p.az a:hover{color:var(--ink);text-decoration:underline;text-decoration-thicknes
 .wz .wh{margin:.9rem 0 .15rem;font-weight:600}
 .wz .wh a.nm{font-weight:600}
 .wz .wk{margin:.15rem 0 .3rem;scroll-margin-top:3.5rem}
-.wz .sc{font-variant-caps:small-caps;letter-spacing:.02em}
+.wz .sc{font-style:normal}
 .wz .wk:target:not(.unhl){background:var(--tgt);box-shadow:calc(-1*var(--dash)) 0 0 var(--tgt),var(--dash) 0 0 var(--tgt)}
 .wz .wp{font-size:.8rem;color:var(--muted)}
 .wz .wp a{color:var(--muted)}
@@ -137,7 +137,8 @@ def page(series, linker, template):
         who = works.filed_name(cid, cat)
         t = works.short_title(plain(f.get("title") or "")) or plain(cat.render(cid))[:60]
         t = re.sub(r"^(?:The|A|An) ", "", t)
-        return (works.surname(who) + ", " if who else "") + f"<i>{esc(t)}</i>"
+        book = cat.render(cid, caps=True).startswith(works.SC)        # a book's title roman, a paper's italic
+        return (works.surname(who) + ", " if who else "") + (esc(t) if book else f"<i>{esc(t)}</i>")
 
     def pointers(cid):
         out = []
