@@ -30,7 +30,8 @@ STYLE:
     the card's note (the card note) is shown first, then the listing note. A listing may replace the card note
     (`card_note: replace`) or leave it out (`card_note: omit`).
  2. Under a person's subject line (a memoir, a biography section) the author named by the subject line is not
-    repeated: the citation starts at the title, as the lists have always printed it.
+    repeated: the citation starts at the title, as the lists have always printed it (`byline` keeps it). A listing of
+    several works by one author names the author at the first only (`ditto: true`).
  3. Editions, translations and chapters are cards of their own; a chapter or a volume points to its container
     (`in`), and takes from it what it lacks. A multi-volume work's short form is Bluebook's: "Logevall, Title,
     2 CHVW 123".
@@ -174,7 +175,9 @@ def subject_name(s):
 
 def render(f, omit_author=False):
     """The full citation, as the lists print it."""
-    if f.get("c"):
+    if f.get("c"):              # verbatim; one printed from the title on carries its author as a field
+        if f.get("author") and f["c"].lstrip().startswith("*") and not omit_author:
+            return join_names(f["author"]) + ", " + f["c"]
         return f["c"]
     out = ""
     if f.get("author") and not omit_author:
@@ -412,3 +415,223 @@ def inventory(series):
 def code_ok(ref, tail):
     """A reference that belongs to this title: none of another title's marks or a clause's end between them."""
     return not re.search(r"\*|;|[a-z]\.\s", tail[:ref[0]])
+
+
+# ---------------------------------------------------------------- the interface: the catalogue and its questions
+
+CARD_FIELDS = ["id", "kind", "author", "editor", "translator", "director", "title", "journal", "vol", "page", "link",
+               "paren", "year", "online", "c", "in", "edition_of", "translates", "short", "n", "tags", "aliases"]
+
+
+def letter(cid):
+    ch = cid[2:3]
+    return ch if ch.isalpha() else "0"
+
+
+class Catalogue:
+    """The cards, by id. Nothing outside this module reads works/ (STYLE: the interface)."""
+
+    def __init__(self, root=store.ROOT):
+        self.root = root
+        self.dir = os.path.join(root, "works")
+        self.cards = {}          # id -> the card as stored
+        self.alias = {}
+        self.file_of = {}
+        if os.path.isdir(self.dir):
+            for fn in sorted(os.listdir(self.dir)):
+                if not fn.endswith(".yaml"):
+                    continue
+                doc = store.load_yaml(os.path.join(self.dir, fn)) or {}
+                for c in doc.get("cards") or []:
+                    self.cards[c["id"]] = c
+                    self.file_of[c["id"]] = fn
+                    for a in store.as_list(c.get("aliases")):
+                        self.alias[a] = c["id"]
+        self._fields = {}
+
+    def get(self, cid):
+        return self.cards.get(self.alias.get(cid, cid))
+
+    def fields(self, cid):
+        """The card's fields for sorting, short forms and queries: a verbatim card's read from its citation."""
+        if cid not in self._fields:
+            c = self.get(cid)
+            if c is None:
+                return None
+            f = dict(loose(c["c"]) or {}) if c.get("c") else {}
+            f.update(c)
+            self._fields[cid] = f
+        return self._fields[cid]
+
+    def chain(self, cid):
+        """The card and every card it is `in`, nearest first."""
+        out, seen = [], set()
+        while cid and cid not in seen:
+            c = self.get(cid)
+            if c is None:
+                break
+            seen.add(cid)
+            out.append(c)
+            cid = c.get("in")
+        return out
+
+    def tags(self, cid):
+        """Its own tags and every container's (STYLE 4)."""
+        return [t for c in self.chain(cid) for t in store.as_list(c.get("tags"))]
+
+    def render(self, cid, omit_author=False):
+        return render(self.get(cid), omit_author)
+
+    def save(self, cid=None):
+        """Write the card files (all, or the one holding `cid`)."""
+        groups = {}
+        for c in self.cards.values():
+            groups.setdefault(self.file_of.get(c["id"]) or f"{letter(c['id'])}.yaml", []).append(c)
+        os.makedirs(self.dir, exist_ok=True)
+        for fn, cs in groups.items():
+            if cid and fn != self.file_of.get(cid):
+                continue
+            cs.sort(key=lambda c: c["id"])
+            for c in cs:
+                self.file_of[c["id"]] = fn
+            store.dump_yaml({"cards": [order(c) for c in cs]}, os.path.join(self.dir, fn),
+                            header=[f"The works catalogue: cards whose id begins w.{fn[:-5]}. "
+                                    "The fields: tools/bib/works.py. Run ./bib check after editing."])
+
+
+def order(c):
+    out = {k: c[k] for k in CARD_FIELDS if k in c and c[k] not in (None, [], "")}
+    out.update({k: v for k, v in c.items() if k not in out and not k.startswith("_")})
+    return out
+
+
+def omit_author(e, sec, card, prev=None):
+    """Under a person's subject line the author it names is not repeated (STYLE 2), unless the listing says
+    `byline: true` (or names the cards that print it: `byline: [w.…]`). In a listing of several works marked
+    `ditto: true`, a work by the same authors as the one before it does not repeat them."""
+    from .refs import Refs
+    if e.get("ditto") and prev is not None and card.get("author") and card.get("author") == prev.get("author"):
+        return True              # a listing of one author's works names the author once, at the first
+    b = e.get("byline")
+    if b is True or card["id"] in store.as_list(b) or not e.get("s") or not card.get("author") or \
+            not Refs.is_people_section(sec):
+        return False
+    return store.fold(card["author"][0]) == store.fold(subject_name(e["s"]))
+
+
+def listing_note(e, cards):
+    """The note a listing shows: the card note, then its own (STYLE 1). A listing citing several works shows its own
+    note alone."""
+    own = e.get("n")
+    if len(cards) != 1 or e.get("card_note") in ("replace", "omit"):
+        return own
+    cn = cards[0].get("n")
+    return " ".join(x for x in (cn, own) if x) or None
+
+
+def resolve(series):
+    """Give each listing that points to cards its citation and notes, in memory (store.stored_form takes them off)."""
+    cat = series.works
+    for lst in series.lists.values():
+        for sec, e in lst.entries():
+            if not e.get("work"):
+                continue
+            ids = store.as_list(e["work"])
+            cards = [cat.get(i) for i in ids]
+            if any(c is None for c in cards):
+                e["_missing"] = [i for i, c in zip(ids, cards) if c is None]
+                continue
+            cs = [render(c, omit_author(e, sec, c, cards[i - 1] if i else None)) for i, c in enumerate(cards)]
+            shown_c = cs if isinstance(e["work"], list) else cs[0]
+            shown_n = listing_note(e, cards)
+            e["_derived"] = {"c": (shown_c, None), "n": (shown_n, e.get("n"))}
+            e["c"] = shown_c
+            if shown_n is None:
+                e.pop("n", None)
+            else:
+                e["n"] = shown_n
+
+
+# ---------------------------------------------------------------- where, and queries
+
+def where(series):
+    """card id -> [(list, section, entry)]: every listing that points to it (the reverse index; built once a run)."""
+    if getattr(series, "_where", None) is None:
+        out = {}
+        for lst in series.lists.values():
+            for sec, e in lst.entries():
+                for cid in store.as_list(e.get("work")):
+                    out.setdefault(series.works.alias.get(cid, cid), []).append((lst, sec, e))
+        series._where = out
+    return series._where
+
+
+def attributes(series, cid):
+    """What a card answers to in a query: its tags and its containers' (STYLE 4); and, worked out, kind:, year:,
+    pub:1990s, author:<surname>, in:<list>, section:<list>.<code>, form:structured|verbatim."""
+    cat = series.works
+    f = cat.fields(cid) or {}
+    out = set(cat.tags(cid))
+    out.add("kind:" + (f.get("kind") or "book"))
+    out.add("form:" + ("verbatim" if f.get("c") else "structured"))
+    y = re.match(r"\d{4}", str(f.get("year") or ""))
+    if y:
+        out.add("year:" + y.group(0))
+        out.add("pub:" + y.group(0)[:3] + "0s")
+    for a in f.get("author") or []:
+        out.add("author:" + store.slug(surname(a), 3))
+    for lst, sec, _ in where(series).get(cid, []):
+        out.add("in:" + lst.key)
+        out.add(f"section:{lst.key}.{sec.code}")
+    return out
+
+
+def index(series):
+    """attribute -> set of card ids (built once a run; a query is set arithmetic on it)."""
+    if getattr(series, "_windex", None) is None:
+        idx = {}
+        for cid in series.works.cards:
+            for a in attributes(series, cid):
+                idx.setdefault(a, set()).add(cid)
+        series._windex = idx
+    return series._windex
+
+
+def query(series, all_of=(), any_of=(), none_of=()):
+    """The cards answering every one of all_of, at least one of any_of (where given), and none of none_of. An
+    attribute ending in ':' matches any value ('in:' is any list); a prefix ending in '*' matches by prefix
+    ('section:vn.II.C*')."""
+    idx = index(series)
+
+    def ids(a):
+        if a.endswith("*") or a.endswith(":"):
+            p = a.rstrip("*")
+            return set().union(*(v for k, v in idx.items() if k.startswith(p))) if any(k.startswith(p) for k in idx) else set()
+        return idx.get(a, set())
+    out = set(series.works.cards)
+    for a in all_of:
+        out &= ids(a)
+    if any_of:
+        out &= set().union(*(ids(a) for a in any_of))
+    for a in none_of:
+        out -= ids(a)
+    return out
+
+
+def sort_key(series, how):
+    cat = series.works
+
+    def k(cid):
+        f = cat.fields(cid) or {}
+        who = store.fold(surname(f["author"][0])) if f.get("author") else ""
+        t = re.sub(r"^(the|a|an) ", "", store.fold(plain(f.get("title") or "")))
+        y = str(f.get("year") or "")
+        return {"year": (y, who, t), "title": (t, y), "id": (cid,)}.get(how, (who or t, t, y))
+    return k
+
+
+def line(series, cid):
+    """One line for a listing of cards: the id, the citation, where it is listed."""
+    cat = series.works
+    ws = sorted({f"{l.abbr} {s.code}" for l, s, _ in where(series).get(cid, [])})
+    return f"{cid}\n    {plain(cat.render(cid))}" + (f"\n    listed: {', '.join(ws)}" if ws else "\n    listed: nowhere")

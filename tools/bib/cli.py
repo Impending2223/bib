@@ -184,7 +184,12 @@ def cmd_show(series, a):
         bl = backlinks(series, e["id"])
         if bl:
             print(f"# linked from: {' '.join(bl)}")
-        print(store._emit([e], 0))
+        for cid in store.as_list(e.get("work")):
+            card = series.works.get(cid)
+            print(f"# {cid}: {plain(series.works.render(cid)) if card else 'NO SUCH CARD'}")
+            if card and card.get("n"):
+                print(f"#   card note: {plain(card['n'])}")
+        print(store._emit([store.stored_form(e)], 0))
         print()
 
 
@@ -402,7 +407,108 @@ def cmd_tags(series, a):
             print(f"  {t}  {n}")
 
 
+WORKS_HELP = """The works catalogue (works/*.yaml; tools/bib/works.py).
+
+  ./bib works list [-t ATTR]... [--any ATTR]... [--not ATTR]... [--sort author|year|title|id] [--limit N]
+        the cards answering every -t, at least one --any, and no --not. ATTR is a stored tag (topic:berlin) or a
+        worked-out one: in:kja, section:vn.II.C.1, author:logevall, year:1991, pub:1990s, kind:film,
+        form:verbatim; 'in:' alone is any list, 'section:vn.II.C*' a prefix. Tags pass down from containers.
+  ./bib works show ID...         a card, its citation, and every place it is listed
+  ./bib works where ID           the places only
+  ./bib works tag ID... +TAG -TAG
+  ./bib works set ID FIELD=VALUE ...   change a card's field (title=..., year=..., n=...; FIELD= to remove it)
+  ./bib works attrs              the attributes in use, with counts
+  ./bib works inventory          rewrite notes/works-inventory.md
+  ./bib works WORDS              every entry whose title or person matches, the old search
+"""
+
+
 def cmd_works(series, a):
+    from . import works
+    args = list(a.args)
+    if not args:
+        raise SystemExit(WORKS_HELP)
+    cmd, rest = args[0], args[1:]
+    cat = series.works
+    if cmd == "list":
+        opts = {"-t": [], "--any": [], "--not": []}
+        sort, limit, i = "author", None, 0
+        while i < len(rest):
+            k = rest[i]
+            if k in opts:
+                opts[k].append(rest[i + 1]); i += 2
+            elif k == "--sort":
+                sort = rest[i + 1]; i += 2
+            elif k == "--limit":
+                limit = int(rest[i + 1]); i += 2
+            else:
+                raise SystemExit(f"works list: unknown option {k}")
+        hits = sorted(works.query(series, opts["-t"], opts["--any"], opts["--not"]), key=works.sort_key(series, sort))
+        for cid in hits[:limit]:
+            print(works.line(series, cid))
+        print(f"{len(hits)} cards")
+        return
+    if cmd in ("show", "where"):
+        for cid in rest:
+            card = cat.get(cid)
+            if card is None:
+                print(f"# {cid}: no such card")
+                continue
+            if cmd == "show":
+                print(f"# {cat.file_of.get(card['id'])}   {plain(cat.render(card['id']))}")
+                print(store._emit([works.order(card)], 0))
+            for l, s, e in works.where(series).get(card["id"], []):
+                print(f"  {l.abbr} {s.code}  {e['id']}   {line_of(l, s, e['id'])}")
+            print()
+        return
+    if cmd == "tag":
+        ids = [x for x in rest if x[:1] not in "+-"]
+        adds = [x[1:] for x in rest if x.startswith("+")]
+        rems = [x[1:] for x in rest if x.startswith("-")]
+        for cid in ids:
+            card = cat.get(cid)
+            if card is None:
+                raise SystemExit(f"{cid}: no such card")
+            tags = [t for t in store.as_list(card.get("tags")) if t not in rems]
+            tags += [t for t in adds if t not in tags]
+            if tags:
+                card["tags"] = tags
+            else:
+                card.pop("tags", None)
+            cat.save(card["id"])
+            print(f"{card['id']}: {' '.join(tags) or 'no tags'}")
+        return
+    if cmd == "set":
+        card = cat.get(rest[0]) if rest else None
+        if card is None:
+            raise SystemExit("works set ID FIELD=VALUE ...")
+        for kv in rest[1:]:
+            k, _, v = kv.partition("=")
+            if k in ("author", "editor", "translator", "director", "tags", "aliases"):
+                v = [x.strip() for x in v.split(";") if x.strip()] if v else None
+            if v in (None, "", []):
+                card.pop(k, None)
+            else:
+                card[k] = v
+        cat.save(card["id"])
+        print(f"{card['id']}: {plain(works.render(card))}")
+        return
+    if cmd == "attrs":
+        from collections import Counter
+        n = Counter({k: len(v) for k, v in works.index(series).items()})
+        for k, v in sorted(n.items()):
+            print(f"  {k}  {v}")
+        return
+    if cmd == "inventory":
+        path = os.path.join(store.ROOT, "notes", "works-inventory.md")
+        open(path, "w", encoding="utf-8").write(works.inventory(series))
+        print(f"wrote {path}")
+        return
+    a.query = args
+    return cmd_works_find(series, a)
+
+
+def cmd_works_find(series, a):
     """Where a title or a person appears across the series."""
     from .build import Linker
     linker = Linker(series)
@@ -550,8 +656,9 @@ def main(argv=None):
     x = sub.add_parser("tags", help="the tag vocabulary in use")
     x.add_argument("--list", "-l")
     x.add_argument("--derived", action="store_true")
-    x = sub.add_parser("works", help="where a title or person appears across the series")
-    x.add_argument("query", nargs="+")
+    x = sub.add_parser("works", help="the works catalogue: list | show | where | tag | set | attrs | inventory | WORDS",
+                       description=WORKS_HELP, formatter_class=argparse.RawDescriptionHelpFormatter)
+    x.add_argument("args", nargs=argparse.REMAINDER)
     x = sub.add_parser("new-id", help="suggest an unused id: ./bib new-id cal 1961-10-27 berlin-and-vienna")
     x.add_argument("list")
     x.add_argument("words", nargs="+")
