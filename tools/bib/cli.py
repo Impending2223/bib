@@ -430,6 +430,8 @@ WORKS_HELP = """The works catalogue (works/*.yaml; tools/bib/works.py).
   ./bib works set ID FIELD=VALUE ...   change a card's field (title=..., year=..., n=...; FIELD= to remove it)
   ./bib works attrs              the attributes in use, with counts
   ./bib works adopt ID... | --all   an entry citing works as text (c): make the cards (or find them), point to them
+  ./bib works combine KEEP DROP  one work on two cards: fold DROP into KEEP (DROP stays an alias; listings, notes,
+                                 [[w.…]] links and containers follow)
   ./bib works inventory          rewrite notes/works-inventory.md
   ./bib works WORDS              every entry whose title or person matches, the old search
 """
@@ -525,6 +527,14 @@ def cmd_works(series, a):
         for eid, ids, new in done:
             print(f"{eid}: {' '.join(ids)}" + (f"   (new: {' '.join(new)})" if new else ""))
         print(f"{len(done)} entries adopted")
+        return
+    if cmd == "combine":
+        if len(rest) != 2:
+            raise SystemExit("works combine KEEP DROP")
+        for s_ in works.combine(series, rest[0], rest[1]):
+            series.save_section(s_)
+        cat.save()
+        print(f"{rest[1]} -> {rest[0]}: {plain(cat.render(rest[0]))}")
         return
     if cmd == "inventory":
         path = os.path.join(store.ROOT, "notes", "works-inventory.md")

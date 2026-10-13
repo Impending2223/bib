@@ -803,7 +803,7 @@ def heading(name):
 #
 # SHORT FORM (the calendar's citations; the owner's ruling, Oct. 13, 2026): "Surname, *Main Title*", the main title
 # the title to its colon, the leading article dropped ("Beschloss, *Crisis Years*"); two authors "Fursenko & Naftali",
-# three or more "Bundy et al." (the surname alone though two authors share it: the title tells them apart); a name in
+# three or more "Bundy et al."; a writer the work was written "with" kept ("Goldwater with Casserly") (the surname alone though two authors share it: the title tells them apart); a name in
 # its own order whole ("Lưu Văn Lợi"); a work without an author its title alone. A card's
 # `short` (markup, as the short form is to print) overrides.
 
@@ -844,6 +844,11 @@ def short_form(cid, cat):
         who = surs[0] + " et al."
     else:
         who = " & ".join(surs)
+    # a writer "with" whom the work was written keeps his place: "Goldwater with Casserly"
+    byline = c["c"].split(", *")[0] if c.get("c") and not c["c"].startswith("*") else ", ".join(c.get("author") or [])
+    m = re.search(r",? with (.+)$", byline)
+    if m:
+        who += " with " + " & ".join(name_parts(x)[1] for x in re.split(r"\s*(?:&|\band\b)\s*", m.group(1)) if x.strip())
     return f"{who}, *{t}*"
 
 
@@ -1037,3 +1042,69 @@ def adopt(series, entries):
             e["byline"] = True if len(byline) == len(ids) else byline
         done.append((e["id"], ids, new))
     return done
+
+
+# ---------------------------------------------------------------- combining two cards of one work
+
+def merged_note(a, b):
+    """Two cards' notes as one: each said once; a note that only points to another list ("Also Opp.", "See I.C.")
+    gives way, the lists holding one card now (STYLE 1)."""
+    pointer = re.compile(r"^(?:Also|See)\b[^.]*(?:\.[^.]*)?\.?$")
+    notes = [x.strip() for x in (a, b) if x and x.strip()]
+    real = [x for x in notes if not pointer.match(x)] or notes[:1]
+    out = []
+    for x in real:
+        if not any(store.fold(x) in store.fold(y) for y in out):
+            out = [y for y in out if store.fold(y) not in store.fold(x)] + [x]
+    return " ".join(out) or None
+
+
+def combine(series, keep, drop):
+    """Fold card `drop` into `keep`: its id becomes an alias of keep's (old pointers still resolve); the notes, tags
+    and aliases are joined; every listing, every [[w.…]] in the text, and every card `in`, `edition_of` or
+    `translates` it is pointed at keep. Returns the sections changed (to save); the catalogue is saved by the caller."""
+    cat = series.works
+    k, d = cat.get(keep), cat.get(drop)
+    if k is None or d is None or k is d:
+        raise ValueError(f"combine {keep} {drop}: no such card, or the same one")
+    keep, drop = k["id"], d["id"]
+    n = merged_note(k.get("n"), d.get("n"))
+    if n:
+        k["n"] = n
+    else:
+        k.pop("n", None)
+    tags = store.as_list(k.get("tags")) + [t for t in store.as_list(d.get("tags")) if t not in store.as_list(k.get("tags"))]
+    if tags:
+        k["tags"] = tags
+    k["aliases"] = [a for a in store.as_list(k.get("aliases")) + [drop] + store.as_list(d.get("aliases")) if a != keep]
+    for c in cat.cards.values():
+        for fld in ("in", "edition_of", "translates"):
+            if c.get(fld) == drop:
+                c[fld] = keep
+    del cat.cards[drop]
+    for a in k["aliases"]:
+        cat.alias[a] = keep
+    cat._fields.pop(keep, None)
+    cat._fields.pop(drop, None)
+    rx = re.compile(r"\[\[" + re.escape(drop) + r"(\|[^\]]*)?\]\]")
+    touched = {}
+    for lst in series.lists.values():
+        for sec, e in lst.entries():
+            hit = False
+            ws = store.as_list(e.get("work"))
+            if drop in ws:
+                ws = list(dict.fromkeys(keep if w == drop else w for w in ws))
+                e["work"] = ws if isinstance(e["work"], list) and len(ws) > 1 else ws[0]
+                if isinstance(e.get("byline"), list):
+                    e["byline"] = list(dict.fromkeys(keep if w == drop else w for w in e["byline"]))
+                hit = True
+            for fld in ("n", "c", "r", "c2"):
+                v = e.get(fld)
+                if isinstance(v, str) and rx.search(v) and not (e.get("_derived") and fld in e["_derived"]):
+                    e[fld] = rx.sub(lambda m: f"[[{keep}{m.group(1) or ''}]]", v)
+                    hit = True
+            if hit:
+                touched[id(sec)] = sec
+    series._where = None
+    series._windex = None
+    return list(touched.values())
