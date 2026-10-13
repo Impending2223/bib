@@ -270,7 +270,7 @@ def surname(name):
 
 
 def short_title(title):
-    return re.split(r"(?<=\w)[:?!]\s|\s—", title)[0]
+    return re.split(r"(?<=[\w\"”’')])[:?!]\s|\s—", title)[0]
 
 
 PRIMARY = re.compile(r"Stat\.|Exec\. Order|Fed\. Reg\.|Proclamation|Pub\. L\.|Hearings? Before|Cong\. Rec\.|"
@@ -729,7 +729,7 @@ VN_FAMILY = {"lam", "nguyen", "tran", "le", "pham", "hoang", "huynh", "phan", "v
 # last word
 OWN_ORDER = {"Hoang Van Chi", "Ngo Van Chieu", "Pham Van Luu", "Pham Van Minh", "Pham Van Son", "Tran Van Don",
              "Tran Van Tra", "Van Tien Dung", "Hoai Thanh", "Cao Minh", "Nguyen Huu Nguyen", "Xuân Phuong",
-             "Vinh-Loc", "Li Danhui", "Cincinnatus [Cecil B. Currey]"}
+             "Vinh-Loc", "Li Danhui", "Malcolm X", "Cincinnatus [Cecil B. Currey]"}
 SURNAME = {"Aurélie Basha i Novosejt": "Basha i Novosejt", "Nicholas deB. Katzenbach": "Katzenbach"}
 RUNNING = {"Le Ly Hayslip", "Duong Van Mai Elliott"}
 PARTICLE = {"de", "De", "Del", "van", "Van", "von", "Von", "du", "Du", "la", "La", "le", "Le", "del", "der", "da", "di",
@@ -760,8 +760,9 @@ def filed_name(cid, cat):
     return n
 
 
-def heading(name):
-    """(the heading, its sort form) for a name a card files under (FILING 4)."""
+def name_parts(name):
+    """A name a card writes, read for filing (FILING 4): (in its own order?, surname, given names, suffixes, the name
+    without "et al."). A name in its own order (or an organization) is all surname."""
     bare = re.sub(r"\s+et al\.\??$|\?$", "", name).strip()
     own = (bare in OWN_ORDER or CJK.search(bare) or ORG.search(bare) or len(bare.split()) == 1
            or not is_person(re.sub(r"\s*\[[^\]]*\]|\s*\([^)]*\)", "", bare)))
@@ -774,7 +775,7 @@ def heading(name):
         else:
             own = words[0] in VN_FAMILY and words[-1] not in VN_FAMILY and "-" not in bare and bare not in RUNNING
     if own:
-        return bare, store.fold(re.sub(r"^(?:The|A|An) ", "", bare))
+        return True, bare, "", [], bare
     words = bare.split()
     suffix = [w for w in words if w.strip(",") in SUFFIX]
     words = [w.strip(",") for w in words if w.strip(",") not in SUFFIX]
@@ -786,8 +787,69 @@ def heading(name):
         while i > 1 and words[i - 1] in PARTICLE:
             i -= 1
         sur, given = " ".join(words[i:]), " ".join(words[:i])
+    return False, sur, given, suffix, bare
+
+
+def heading(name):
+    """(the heading, its sort form) for a name a card files under (FILING 4)."""
+    own, sur, given, suffix, bare = name_parts(name)
+    if own:
+        return bare, store.fold(re.sub(r"^(?:The|A|An) ", "", bare))
     shown = f"{sur}, {given}" + "".join(", " + s for s in suffix)
     return shown, store.fold(f"{sur} {given} {' '.join(suffix)}")
+
+
+# ---------------------------------------------------------------- the short form
+#
+# SHORT FORM (the calendar's citations; the owner's ruling, Oct. 13, 2026): "Surname, *Main Title*", the main title
+# the title to its colon, the leading article dropped ("Beschloss, *Crisis Years*"); two authors "Fursenko & Naftali",
+# three or more "Bundy et al."; a writer the work was written "with" kept ("Goldwater with Casserly") (the surname alone though two authors share it: the title tells them apart); a name in
+# its own order whole ("Lưu Văn Lợi"); a work without an author its title alone. A card's
+# `short` (markup, as the short form is to print) overrides.
+
+# a series whose volumes are titled "Series: Volume" ("The United States Army in Vietnam: Advice and Support: The Early
+# Years"): the short form takes the volume's title ("Spector, *Advice and Support*")
+SERIES = {"The United States Army in Vietnam", "U.S. Marines in Vietnam", "The United States Air Force in Southeast Asia",
+          "The Years of Lyndon Johnson", "Combat Operations"}
+
+
+def short_form(cid, cat):
+    c = cat.get(cid)
+    if c is None:
+        return cid
+    if c.get("short"):
+        return c["short"]
+    f = cat.fields(cid) or {}
+    title = f.get("title") or ""
+    t = short_title(title)
+    while t in SERIES and len(title) > len(t) + 2:         # a volume of a series: its own title
+        title = title[len(t) + 2:]
+        t = short_title(title)
+    t = re.sub(r"^(?:The|A|An) (?=\S)", "", t)
+    if t and t[0].islower():
+        t = t[0].upper() + t[1:]
+    names = [n for n in f.get("author") or [] if not NOT_AUTHOR.match(n) and not n.startswith("with ")]
+    if not names:
+        return f"*{t}*"
+    surs = []
+    for i, n in enumerate(names):
+        own, sur, given, suffix, bare = name_parts(n)
+        if own and CJK.search(sur):                        # the name without its own script
+            sur = CJK.sub("", sur).strip()
+        if len(n.split()) == 1 and i + 1 < len(names):     # "Jim and Sybil Stockdale": one surname
+            continue
+        if sur not in surs:
+            surs.append(sur)
+    if len(names) == 1 and re.search(r"\bet al\.", names[0]) or len(surs) > 2:
+        who = surs[0] + " et al."
+    else:
+        who = " & ".join(surs)
+    # a writer "with" whom the work was written keeps his place: "Goldwater with Casserly"
+    byline = c["c"].split(", *")[0] if c.get("c") and not c["c"].startswith("*") else ", ".join(c.get("author") or [])
+    m = re.search(r",? with (.+)$", byline)
+    if m:
+        who += " with " + " & ".join(name_parts(x)[1] for x in re.split(r"\s*(?:&|\band\b)\s*", m.group(1)) if x.strip())
+    return f"{who}, *{t}*"
 
 
 ONES = ("zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen "
@@ -889,7 +951,13 @@ def problems(series):
     if loose_:
         out.append(("warn", "lists/", f"{len(loose_)} entries cite works as text; ./bib works adopt "
                     f"{' '.join(loose_[:3])}{' …' if len(loose_) > 3 else ''} (or --all) makes them cards"))
-    unused = [cid for cid in cat.cards if cid not in w]
+    cited = set()                       # the cards the text points to ([[w.…]]: the calendar's citations)
+    for lst in series.lists.values():
+        for sec, e in lst.entries():
+            for fld in ("n", "c", "r", "c2"):
+                for m in re.finditer(r"\[\[(w\.[^\]|]+)", e.get(fld) if isinstance(e.get(fld), str) else ""):
+                    cited.add(cat.alias.get(m.group(1).strip(), m.group(1).strip()))
+    unused = [cid for cid in cat.cards if cid not in w and cid not in cited]
     if unused:
         out.append(("warn", "works/", f"{len(unused)} cards nothing points to: {', '.join(sorted(unused)[:5])}"
                     + (" …" if len(unused) > 5 else "")))
@@ -980,3 +1048,119 @@ def adopt(series, entries):
             e["byline"] = True if len(byline) == len(ids) else byline
         done.append((e["id"], ids, new))
     return done
+
+
+# ---------------------------------------------------------------- combining two cards of one work
+
+def merged_note(a, b):
+    """Two cards' notes as one: each said once; a note that only points to another list ("Also Opp.", "See I.C.")
+    gives way, the lists holding one card now (STYLE 1)."""
+    pointer = re.compile(r"^(?:Also|See)\b[^.]*(?:\.[^.]*)?\.?$")
+    notes = [x.strip() for x in (a, b) if x and x.strip()]
+    real = [x for x in notes if not pointer.match(x)] or notes[:1]
+    out = []
+    for x in real:
+        if not any(store.fold(x) in store.fold(y) for y in out):
+            out = [y for y in out if store.fold(y) not in store.fold(x)] + [x]
+    return " ".join(out) or None
+
+
+def combine(series, keep, drop):
+    """Fold card `drop` into `keep`: its id becomes an alias of keep's (old pointers still resolve); the notes, tags
+    and aliases are joined; every listing, every [[w.…]] in the text, and every card `in`, `edition_of` or
+    `translates` it is pointed at keep. Returns the sections changed (to save); the catalogue is saved by the caller."""
+    cat = series.works
+    k, d = cat.get(keep), cat.get(drop)
+    if k is None or d is None or k is d:
+        raise ValueError(f"combine {keep} {drop}: no such card, or the same one")
+    keep, drop = k["id"], d["id"]
+    n = merged_note(k.get("n"), d.get("n"))
+    if n:
+        k["n"] = n
+    else:
+        k.pop("n", None)
+    tags = store.as_list(k.get("tags")) + [t for t in store.as_list(d.get("tags")) if t not in store.as_list(k.get("tags"))]
+    if tags:
+        k["tags"] = tags
+    k["aliases"] = [a for a in store.as_list(k.get("aliases")) + [drop] + store.as_list(d.get("aliases")) if a != keep]
+    for c in cat.cards.values():
+        for fld in ("in", "edition_of", "translates"):
+            if c.get(fld) == drop:
+                c[fld] = keep
+    del cat.cards[drop]
+    for a in k["aliases"]:
+        cat.alias[a] = keep
+    cat._fields.pop(keep, None)
+    cat._fields.pop(drop, None)
+    rx = re.compile(r"\[\[" + re.escape(drop) + r"(\|[^\]]*)?\]\]")
+    touched = {}
+    for lst in series.lists.values():
+        for sec, e in lst.entries():
+            hit = False
+            ws = store.as_list(e.get("work"))
+            if drop in ws:
+                ws = list(dict.fromkeys(keep if w == drop else w for w in ws))
+                e["work"] = ws if isinstance(e["work"], list) and len(ws) > 1 else ws[0]
+                if isinstance(e.get("byline"), list):
+                    e["byline"] = list(dict.fromkeys(keep if w == drop else w for w in e["byline"]))
+                hit = True
+            for fld in ("n", "c", "r", "c2"):
+                v = e.get(fld)
+                if isinstance(v, str) and rx.search(v) and not (e.get("_derived") and fld in e["_derived"]):
+                    e[fld] = rx.sub(lambda m: f"[[{keep}{m.group(1) or ''}]]", v)
+                    hit = True
+            if hit:
+                touched[id(sec)] = sec
+    series._where = None
+    series._windex = None
+    return list(touched.values())
+
+
+# ---------------------------------------------------------------- first citations
+#
+# FIRST CITE (the owner's request, Oct. 13, 2026: "the full citation for every bibliographic item on its first
+# appearance"): in each half of the calendar, the first entry that points to a card ([[w.…]]) prints its full
+# citation, linked to the A–Z bibliography; the entries after it, its short form. [[w.…|full]] prints it in full
+# wherever it stands.
+
+FULL = "\x01full"
+
+
+def first_cites(series):
+    """{(entry id, card id)}: each card's first citation in each half of the calendar, in the order the pages show
+    the entries (section by section; a month's undated entries first, then by date)."""
+    if getattr(series, "_first_cites", None) is None:
+        from . import calsplit
+        cat, out = series.works, set()
+        for lst in series.lists.values():
+            if lst.kind != "calendar":
+                continue
+            rows = []
+            for k, sec in enumerate(lst.walk()):
+                for i, e in enumerate(sec.entries):
+                    if e["id"].startswith(f"{lst.key}.thread."):
+                        continue
+                    d = str(e.get("date") or "")
+                    rows.append(((calsplit.half_of_section(lst, sec) or 1), k, 0 if len(d) <= 7 else 1, d, i, e))
+            seen = set()
+            for h, _, _, _, _, e in sorted(rows, key=lambda r: r[:5]):
+                for m in re.finditer(r"\[\[(w\.[^\]|]+)(\|[^\]]*)?\]\]", e.get("n") or ""):
+                    cid = cat.alias.get(m.group(1).strip(), m.group(1).strip())
+                    if (h, cid) not in seen:
+                        seen.add((h, cid))
+                        out.add((e["id"], cid))
+        series._first_cites = out
+    return series._first_cites
+
+
+def with_first_cites(series, e, text):
+    """The entry's note with its first citations marked to print in full (FIRST CITE)."""
+    first, cat, done = first_cites(series), series.works, set()
+
+    def sub(m):
+        cid = cat.alias.get(m.group(1).strip(), m.group(1).strip())
+        if m.group(2) or (e["id"], cid) not in first or cid in done:
+            return m.group(0)
+        done.add(cid)
+        return f"[[{m.group(1)}|{FULL}]]"
+    return re.sub(r"\[\[(w\.[^\]|]+)(\|[^\]]*)?\]\]", sub, text or "")

@@ -43,8 +43,11 @@ So every calendar entry has:
     its entry in the A–Z bibliography; no list or section); later entries of the same event point back to it with
     `See [[id]]`. An entry that opens a new event within a thread carries its own. This is how the calendar points
     "to the relevant material elsewhere in the bibliography" (the owner's words); it no longer names the themed lists'
-    sections that treat the event (the owner's ruling, Oct. 13, 2026, with the move to one A–Z list). Until the
-    calendar's citations are converted, those already written keep their "(K–J Adm. II.D)".
+    sections that treat the event (the owner's ruling, Oct. 13, 2026, with the move to one A–Z list). Write a work as
+    its card, `[[w.beschloss-crisis-years]]` (a pinpoint after it: `[[w.gallup-poll]], III, 1862`): the build prints
+    the full citation at the work's first appearance in each half of the calendar, the short form after (the owner's
+    request, Oct. 13, 2026; FIRST CITE in `tools/bib/works.py`). A work with no card yet: make one first (`works/`, or
+    `./bib works adopt`).
   - for an event done in private and documented in records nobody saw at the time (a recording, a memorandum, an FBI
     file), where and when it became public: "Made public: Drew Pearson's column, May 24, 1968." The brief's "left a
     trace, or should have left a trace": such events belong in the calendar, dated by the record.
@@ -89,8 +92,9 @@ no:  c: Gilpatric at Hot Springs, Virginia, to the Business Council. The America
         gap reversed, in public, for Moscow's benefit.
 yes: c: Gilpatric to the Business Council at Hot Springs. The American second
         strike at least equal to any Soviet first strike. The missile gap reversed.
-     n: Ball, *Politics and Force Levels*; Kaplan, *Wizards of Armageddon*. See
-        [[cal.1961-02-06.defense]]. Names: Gilpatric (K–J Adm. III.F).
+     n: '[[w.ball-politics-and-force-levels]]; [[w.kaplan-wizards-of-armageddon]]. See
+        [[cal.1961-02-06.defense]]. Names: Gilpatric (K–J Adm. III.F).'
+        (shown: Ball, *Politics and Force Levels*; Kaplan, *Wizards of Armageddon*. See Feb. 6. …)
 ```
 
 ## Layout
@@ -210,7 +214,17 @@ The thread index (Part I of the calendar) is generated from `thread` and
 
 ### Markup inside text
 
-- `*Title*`: italics. `[text](https://…)`: an outside link.
+- `*Title*`: italics. `[text](https://…)`: an outside link. A link out of the site (a DOI, a record, a newspaper) shows
+  in the accent blue; a link within it (an entry, a work's A–Z entry, a list's section, a date) as a name link does,
+  the text's own color with a faint underline (`:where(main) a` in `templates/list.html` and `series.html`; a link a
+  class styles keeps its own). A work's first citation in full links its author and title to the A–Z entry without an
+  underline (`a.xf`). An article's link spans the volume, the journal and the first page: `[27 J. Latin Am.
+  Stud. 1](https://…)`.
+- `[[w.id]]`: a work of the catalogue, linked to its entry on `works.html`: in the calendar, its full citation at its
+  first appearance in each half (FIRST CITE), its short form after ("Beschloss, *Crisis Years*"; SHORT FORM in
+  `tools/bib/works.py`; a card's `short` overrides); elsewhere the short form. `[[w.id|full]]` the full citation
+  wherever it stands; `[[w.id|text]]` shows "text". A merged card's old id still answers. `check` fails on a card that
+  does not exist.
 - `[[id]]`: a link to another entry, shown as its label (a calendar date).
   `[[id|text]]` shows "text". Use these for "See …" in calendar notes, so a
   corrected date updates every reference. The build adds the year when the
@@ -237,8 +251,8 @@ must name a later one, it says what it is ("Reply: [[id]]", "The order: [[id]]",
 thread's first entry is excepted, `ok:thread-first`). A law the entry reports enacted is cited in `c` after its name, linked, as a case's
 U.S. Reports cite is ("Equal Pay Act signed, [77 Stat. 56](…)": the volume and page, linked; no Public Law number), and the note keeps the list's
 pointer ("Statute (K–J Cong. II.J.2)", as "Opinion (K–J Cong. II.J.1)"); a treaty by its U.S.T. volume and page, linked to the Library of
-Congress's scan (its collection's table gives the TIAS number's volume and page), and its U.N.T.S. cite, linked to the UN's copy, at its signing, the Senate's consent, and ratification. Books already in the catalogue are cited by short form, linked
-to the A–Z bibliography (no list or section); works found only here are cited in full. "Check" marks
+Congress's scan (its collection's table gives the TIAS number's volume and page), and its U.N.T.S. cite, linked to the UN's copy, at its signing, the Senate's consent, and ratification. Books already in the catalogue are cited by their cards (`[[w.id]]`),
+shown by short form and linked to the A–Z bibliography (no list or section); works found only here are cited in full. "Check" marks
 a detail to verify. In the calendar the first entry of each event carries its
 bibliography and later ones point back with `See [[id]]`; a thread's first entry is its first event's. Bibliography sections
 are chronological by publication unless their intro says "Alphabetical".
@@ -391,8 +405,15 @@ yet render it; author, title and year read from it for sorting and search).
   editions, the works listed in several places with differing notes, the calendar's citations, suspected errors.
   `tools/works/make_cards.py` made the catalogue from the lists, once (Oct. 13, 2026), and `make_chapters.py` the
   chapters and their volumes (34 chapters, 28 volumes); don't rerun either.
-- Not yet in the catalogue: primary documents (cases, laws, orders, hearings, speeches) and the calendar's citations,
-  which still write works by short title with list and section until they are converted to pointers.
+- Not yet in the catalogue: primary documents (cases, laws, orders, hearings, speeches), periodicals as such
+  (newspapers, the *Pa. Manual*), and a few works the calendar names in passing ("translated as *The Feast of the
+  Goat*"). One-time scripts, Oct. 13, 2026 (don't rerun): `tools/works/convert_calendar.py` turned the calendar's
+  short citations into pointers (2,287, with a second pass for several titles under one author, "and", a bare
+  surname, a chapter); `adopt_calendar.py` made cards of the 85 works the calendar cited in full and found nowhere
+  else, and pointed those citations (and their "see [[…]]" short forms) at them; `merge_duplicates.py` folded 80
+  cards into the work they repeat (one first author, main title and year).
+- A work on two cards: `./bib works combine KEEP DROP` (works.combine): DROP's id stays an alias, listings and
+  `[[w.…]]` links follow, the notes are joined (a bare "Also …" pointer to a list now holding the card gives way).
 - The A–Z bibliography, `build/works.html` (`./bib build works`; `tools/bib/bibliography.py`, its STYLE notes): every
   card, A to Z, built beside the themed lists, which stay until it replaces their Parts I–II (Part III stays). Filed
   by the first-listed author's surname; a film under its director's; an organization only where the card names it as
@@ -407,8 +428,8 @@ yet render it; author, title and year read from it for sorting and search).
   plain roman, an article's or a chapter's title in italics, its journal or collection in roman (Bluebook's small caps
   tried and set aside), here only; the type of the series' entries (18px, line height
   1.55). After it, on its
-  line, muted, no closing stop: the list sections holding it, linked to the listing, and the calendar entries citing
-  it by short title and list, by year. The anchor is the card's id (`works.html#w.beschloss-crisis-years`), lit as a
+  line, muted, no closing stop: the list sections holding it, linked to the listing, and the calendar entries pointing
+  to it (`[[w.…]]`, or a short title and list not yet converted), by year. The anchor is the card's id (`works.html#w.beschloss-crisis-years`), lit as a
   roster row is: white, an en dash past it on either side, plain again at a click outside.
 
 ## Congress at each opening
