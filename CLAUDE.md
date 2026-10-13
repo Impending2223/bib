@@ -386,7 +386,8 @@ yet render it; author, title and year read from it for sorting and search).
   warns on a card nothing points to and on a work cited as text (`./bib works adopt`).
 - `notes/works-inventory.md` (`./bib works inventory`): the works written differently that are probably one, the
   editions, the works listed in several places with differing notes, the calendar's citations, suspected errors.
-  `tools/works/make_cards.py` made the catalogue from the lists, once (Oct. 13, 2026); don't rerun.
+  `tools/works/make_cards.py` made the catalogue from the lists, once (Oct. 13, 2026), and `make_chapters.py` the
+  chapters and their volumes (34 chapters, 28 volumes); don't rerun either.
 - Not yet in the catalogue: primary documents (cases, laws, orders, hearings, speeches) and the calendar's citations,
   which still write works by short title with list and section.
 

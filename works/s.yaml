@@ -77,7 +77,12 @@ cards:
   - id: w.sander-invasion-of-laos-1971
     c: 'Robert D. Sander, *Invasion of Laos, 1971: Lam Sơn* 719 (2014)'
   - id: w.sandstrum-three-companies-at-dak
-    c: Allan W. Sandstrum, *Three Companies at Dak To, 6 November 1967*, *in* *Seven Firefights in Vietnam* 85 (John A. Cash et al. eds., 1970) ([online](https://history.army.mil/portals/143/Images/Publications/catalog/70-4-1.pdf))
+    kind: chapter
+    author:
+      - Allan W. Sandstrum
+    title: Three Companies at Dak To, 6 November 1967
+    page: '85'
+    in: w.seven-firefights-in-vietnam
   - id: w.sansom-economics-of-insurgency-in
     author:
       - Robert L. Sansom
@@ -414,6 +419,12 @@ cards:
     title: Selma
     year: '2014'
     n: Johnson as obstacle. Califano and others disputed the portrait.
+  - id: w.selverstone-companion-to-john-f
+    kind: volume
+    editor:
+      - Marc J. Selverstone
+    title: A Companion to John F. Kennedy
+    year: '2014'
   - id: w.selverstone-its-a-date
     kind: article
     author:
@@ -456,6 +467,12 @@ cards:
     paren: John Frankenheimer 1964
     year: '1964'
     n: Script by Rod Serling. Better than the book.
+  - id: w.seven-firefights-in-vietnam
+    kind: volume
+    title: Seven Firefights in Vietnam
+    paren: John A. Cash et al. eds., 1970
+    year: '1970'
+    online: https://history.army.mil/portals/143/Images/Publications/catalog/70-4-1.pdf
   - id: w.shaara-killer-angels
     author:
       - Michael Shaara
@@ -660,6 +677,13 @@ cards:
     page: '93'
     link: https://doi.org/10.1179/072924798791201363
     year: '1998'
+  - id: w.shrader-proceedings-of-the-1982
+    kind: volume
+    editor:
+      - Charles R. Shrader
+    title: Proceedings of the 1982 International Military History Symposium
+    year: '1984'
+    online: https://books.google.com/books?id=sWkueshlG4MC&pg=PA296
   - id: w.shteir-betty-friedan
     author:
       - Rachel Shteir
@@ -1173,6 +1197,10 @@ cards:
     title: None Dare Call It Treason
     year: '1964'
     n: The other paperback of the campaign.
+  - id: w.storms-over-the-mekong
+    kind: volume
+    title: 'Storms Over the Mekong: Major Battles of the Vietnam War'
+    year: '2020'
   - id: w.stossel-sarge
     author:
       - Scott Stossel
@@ -1223,7 +1251,12 @@ cards:
     year: '1982'
     n: Hanoi's main force the threat, met as insurgency. Army War College.
   - id: w.summers-united-states-army-institutional
-    c: Harry G. Summers, *The United States Army Institutional Response to Vietnam*, *in* *Proceedings of the 1982 International Military History Symposium* 296 (Charles R. Shrader ed., 1984) ([online](https://books.google.com/books?id=sWkueshlG4MC&pg=PA296))
+    kind: chapter
+    author:
+      - Harry G. Summers
+    title: The United States Army Institutional Response to Vietnam
+    page: '296'
+    in: w.shrader-proceedings-of-the-1982
   - id: w.sundquist-decline-and-resurgence-of
     author:
       - James L. Sundquist

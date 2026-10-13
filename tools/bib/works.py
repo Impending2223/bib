@@ -173,8 +173,11 @@ def subject_name(s):
 
 # ---------------------------------------------------------------- rendering a card
 
-def render(f, omit_author=False):
-    """The full citation, as the lists print it."""
+def render(f, omit_author=False, cat=None):
+    """The full citation, as the lists print it. A card `in` another (a chapter in a volume) needs the catalogue
+    (`cat`) to find it."""
+    if f.get("in") and not f.get("c"):
+        return render_part(f, omit_author, cat)
     if f.get("c"):              # verbatim; one printed from the title on carries its author as a field
         if f.get("author") and f["c"].lstrip().startswith("*") and not omit_author:
             return join_names(f["author"]) + ", " + f["c"]
@@ -198,6 +201,35 @@ def render(f, omit_author=False):
     return out
 
 
+def render_part(f, omit_author, cat):
+    """A chapter in its volume, Bluebook's way: 'Author, *Chapter*, *in* *Volume* 127 (Editor ed., 2006)'; ', at 223'
+    where the volume's title ends in a number; in a volume of a set, the set's title after the volume's number
+    ('*in* 2 *The Cambridge History of the Vietnam War* 123'). The volume's parenthetical and link close it."""
+    vol = cat.get(f["in"]) if cat else None
+    if vol is None:
+        return f"{join_names(f['author'])}, *{f['title']}*" if f.get("author") else f"*{f['title']}*"
+    out = "" if omit_author or not f.get("author") else join_names(f["author"]) + ", "
+    out += f"*{f['title']}*, *in* "
+    vt = vol.get("title")
+    if vol.get("in") and vol.get("vol"):                 # a volume of a set
+        st = cat.get(vol["in"]) or {}
+        out += f"{vol['vol']} *{st.get('title', '')}*"
+        vt = st.get("title", "")
+    else:
+        out += f"*{vt}*"
+    if f.get("page"):
+        out += (", at " if re.search(r"\d$", vt or "") else " ") + str(f["page"])
+    shell = {k: v for k, v in vol.items() if k in ("editor", "translator", "paren", "year")}
+    if "year" not in shell and vol.get("in"):
+        shell.setdefault("year", (cat.get(vol["in"]) or {}).get("year"))
+    roles = [f"{join_names(shell[r])} {lab}" for r, lab in (("editor", "eds." if len(shell.get("editor") or []) > 1 else "ed."),
+                                                           ("translator", "trans.")) if shell.get(r)]
+    out += f" ({shell['paren']})" if shell.get("paren") else " (" + ", ".join(roles + [str(shell.get("year") or "")]) + ")"
+    if vol.get("online"):
+        out += f" ([online]({vol['online']}))"
+    return out
+
+
 def surname(name):
     words = [w for w in name.replace(".", ". ").split() if w not in ("Jr.", "Sr.", "II", "III", "IV")]
     return words[-1] if words else name
@@ -205,14 +237,6 @@ def surname(name):
 
 def short_title(title):
     return re.split(r"(?<=\w)[:?!]\s|\s—", title)[0]
-
-
-def key_of(f):
-    """Identity within the catalogue: (first author's surname, main title, the parenthetical as printed). Two
-    printings of one work with the same parenthetical are one card; another edition or year is another card."""
-    who = store.fold(surname(f["author"][0])) if f.get("author") else ""
-    t = re.sub(r"^(the|a|an) ", "", store.fold(short_title(f["title"])))
-    return (who, t, store.fold(render({**f, "author": None, "online": None, "link": None}) if not f.get("c") else f["c"]))
 
 
 PRIMARY = re.compile(r"Stat\.|Exec\. Order|Fed\. Reg\.|Proclamation|Pub\. L\.|Hearings? Before|Cong\. Rec\.|"
@@ -480,7 +504,7 @@ class Catalogue:
         return [t for c in self.chain(cid) for t in store.as_list(c.get("tags"))]
 
     def render(self, cid, omit_author=False):
-        return render(self.get(cid), omit_author)
+        return render(self.get(cid), omit_author, self)
 
     def save(self, cid=None):
         """Write the card files (all, or the one holding `cid`)."""
@@ -541,7 +565,7 @@ def resolve(series):
             if any(c is None for c in cards):
                 e["_missing"] = [i for i, c in zip(ids, cards) if c is None]
                 continue
-            cs = [render(c, omit_author(e, sec, c, cards[i - 1] if i else None)) for i, c in enumerate(cards)]
+            cs = [render(c, omit_author(e, sec, c, cards[i - 1] if i else None), cat) for i, c in enumerate(cards)]
             shown_c = cs if isinstance(e["work"], list) else cs[0]
             shown_n = listing_note(e, cards)
             e["_derived"] = {"c": (shown_c, None), "n": (shown_n, e.get("n"))}
@@ -634,7 +658,11 @@ def line(series, cid):
     """One line for a listing of cards: the id, the citation, where it is listed."""
     cat = series.works
     ws = sorted({f"{l.abbr} {s.code}" for l, s, _ in where(series).get(cid, [])})
-    return f"{cid}\n    {plain(cat.render(cid))}" + (f"\n    listed: {', '.join(ws)}" if ws else "\n    listed: nowhere")
+    parts = [k for k, c in cat.cards.items() if c.get("in") == cid]
+    out = f"{cid}\n    {plain(cat.render(cid))}"
+    if parts:
+        out += f"\n    holds: {', '.join(sorted(parts))}"
+    return out + (f"\n    listed: {', '.join(ws)}" if ws else "" if parts else "\n    listed: nowhere")
 
 
 # ---------------------------------------------------------------- check
@@ -652,7 +680,7 @@ def problems(series):
             out.append(("error", where, f"{cid}: a card needs a title (structured) or c (verbatim)"))
         if c.get("c") and c.get("title"):
             out.append(("error", where, f"{cid}: a card is structured (title) or verbatim (c), not both"))
-        if not c.get("c") and not c.get("year") and not c.get("paren"):
+        if not c.get("c") and not c.get("year") and not c.get("paren") and not c.get("in"):
             out.append(("error", where, f"{cid}: a structured card needs a year"))
         for k in ("in", "edition_of", "translates"):
             if c.get(k) and cat.get(c[k]) is None:
@@ -741,7 +769,7 @@ def adopt(series, entries):
     """Make each entry's works cards (or find the card already holding the same citation), and point the entry at
     them; the note stays the listing's. Returns [(entry id, [card ids], [new card ids])]."""
     cat = series.works
-    by_full = {render(c): cid for cid, c in cat.cards.items()}
+    by_full = {render(c, cat=cat): cid for cid, c in cat.cards.items()}
     taken = set(cat.cards) | set(cat.alias)
     done = []
     for lst, sec, e in entries:
@@ -755,7 +783,7 @@ def adopt(series, entries):
                 card = {"c": c, "author": f["author"]} if f.get("_subject") or f.get("_ditto") else {"c": c}
             else:
                 card = {k: v for k, v in f.items() if not k.startswith("_")}
-            full = render(card)
+            full = render(card, cat=cat)
             cid = by_full.get(full)
             if cid is None:
                 cid = new_id(f, taken)

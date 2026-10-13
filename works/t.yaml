@@ -1,7 +1,12 @@
 # The works catalogue: cards whose id begins w.t. The fields: tools/bib/works.py. Run ./bib check after editing.
 cards:
   - id: w.t-nnesson-franklin-roosevelt-trusteeship-and
-    c: 'Stein Tønnesson, *Franklin Roosevelt, Trusteeship, and Indochina: A Reassessment*, *in* *The First Vietnam War: Colonial Conflict and Cold War Crisis* 56 (Mark Atwood Lawrence & Fredrik Logevall eds., 2007)'
+    kind: chapter
+    author:
+      - Stein Tønnesson
+    title: 'Franklin Roosevelt, Trusteeship, and Indochina: A Reassessment'
+    page: '56'
+    in: w.lawrence-first-vietnam-war
   - id: w.t-nnesson-vietnam-1946
     author:
       - Stein Tønnesson
@@ -374,6 +379,13 @@ cards:
       - Jill Ogline Titus
     title: 'Brown''s Battleground: Students, Segregationists, and the Struggle for Justice in Prince Edward County, Virginia'
     year: '2011'
+  - id: w.titus-home-front-and-war
+    kind: volume
+    editor:
+      - James Titus
+    title: 'The Home Front and War in the Twentieth Century: The American Experience in Comparative Perspective'
+    year: '1984'
+    online: https://books.google.com/books?id=aFkQc1Be0ckC&pg=PR1
   - id: w.toan-su-doan
     c: Nguyễn Huy Toàn & Phạm Quang Định, *Sư đoàn* 304 [304th Division], Tập II, at 20 (1990)
   - id: w.tobin-national-economic-policy
@@ -430,7 +442,11 @@ cards:
     title: 'Defiant: The POWs Who Endured Vietnam''s Most Infamous Prison, the Women Who Fought for Them, and the One Who Never Returned'
     year: '2014'
   - id: w.tra-tet
-    c: 'Trần Văn Trà, *Tet: The 1968 General Offensive and General Uprising*, *in* *The Vietnam War: Vietnamese and American Perspectives* (Jayne S. Werner & Luu Doan Huynh eds., 1993)'
+    kind: chapter
+    author:
+      - Trần Văn Trà
+    title: 'Tet: The 1968 General Offensive and General Uprising'
+    in: w.werner-vietnam-war
   - id: w.tra-vietnam
     author:
       - Tran Van Tra
@@ -541,6 +557,12 @@ cards:
     title: 'The Second Indochina War: A Short Political and Military History, 1954–1975'
     year: '1986'
     n: Revised 2009.
+  - id: w.turley-vietnamese-communism-in-comparative
+    kind: volume
+    editor:
+      - William S. Turley
+    title: Vietnamese Communism in Comparative Perspective
+    year: '1980'
   - id: w.turner-even-the-women-must
     c: 'Karen Gottschang Turner with Phan Thanh Hao, *Even the Women Must Fight: Memories of War from North Vietnam* (1998)'
   - id: w.turner-lyndon-johnsons-dual-war
