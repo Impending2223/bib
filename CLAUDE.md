@@ -138,7 +138,7 @@ tools/executive/          the one-time script that seeded executive/ from POCOM
 | kja  | K–J Adm.  | Kennedy and Johnson administrations, 1961–69 |
 | kjc  | K–J Cong. | Congress, the nation, and the states, 1961–69 |
 | opp  | Opp.      | The Republican opposition, 1961–69           |
-| cal  | Cal.      | Calendar, Jan. 1961–Jan. 10, 1966 (87th and 88th Congresses; the 89th's first session); the primaries, 1960–76; built as two pages, Cal. I (`cal.html`, to Jan. 2, 1963) and Cal. II (`cal63.html`) |
+| cal  | Cal.      | Calendar, Jan. 6, 1960–Jan. 10, 1966 (the 86th Congress's second session; the 87th and 88th; the 89th's first session); the primaries, 1960–76; built as two pages, Cal. I (`cal.html`, 1960–62) and Cal. II (`cal63.html`, from Jan. 1963) |
 | l68  | 1968      | The 1968 campaign ("the 1968 list")          |
 | adm  | Adm.      | Nixon and his administration, 1969–74        |
 | cong | Cong.     | Congress, the nation, and the states, 1969–74 |
@@ -147,11 +147,11 @@ tools/executive/          the one-time script that seeded executive/ from POCOM
 
 Parts: I portrayals, II sources, III names. A reference like "K–J Adm. II.D"
 is `lists/kja/II.D.yaml`. The calendar's files are named by month: `apr.yaml`
-for 1961, `apr62.yaml` for 1962, `apr63.yaml` for 1963, `apr64.yaml` for 1964, `apr65.yaml` for 1965 (`dec62.yaml` runs to
-Jan. 2, 1963, `jan63.yaml` from Jan. 3; `dec63.yaml`, to Jan. 7, 1964; `jan64.yaml` from Jan. 8; `jan66.yaml` is Jan. 1–10, 1966), plus `th.yaml` (threads) and
-`pro.yaml` (prologue); the primary seasons, `mar60.yaml`–`jul60.yaml` before the prologue and `mar68.yaml`–`aug76.yaml`
-after Jan. 1966, hold only the primaries and the conventions' openings for now. Its sections are numbered straight
-through, I to LXXXVII, in date order, in the data (`num`); the headings show the dates alone.
+for 1961, `apr60.yaml` for 1960, `apr62.yaml` for 1962, `apr63.yaml` for 1963, `apr64.yaml` for 1964, `apr65.yaml` for 1965;
+every section a calendar month (`jan60.yaml` from Jan. 6, 1960, the calendar's first day; `jan66.yaml` to Jan. 10, 1966, its
+last), plus `th.yaml` (threads); the primary seasons after Jan. 1966, `mar68.yaml`–`aug76.yaml`, hold only the primaries
+and the conventions' openings for now. Its sections are numbered straight
+through, I to XCIII, in date order, in the data (`num`); the headings show the dates alone.
 
 ## Finding things (start here)
 
@@ -955,7 +955,7 @@ register, an access outside the legend, or an online copy without a url or a che
 `./bib build` puts a table at the head of each calendar month: the figures that
 report on that month, filed by the period they cover, not the date they were
 issued (quarters in the quarter's last month, fiscal years in June, calendar
-years in December, December 1960 in the Prologue). Each row has the figure as
+years in December). Each row has the figure as
 first reported, its release date, and the figure as revised today.
 
 ```
@@ -1012,8 +1012,8 @@ tools/bib/indicators.py       renders them (ORDER, GROUP) and checks them
 
 ## The calendar in two halves
 
-One list in the data (`lists/cal/`), two pages in the build, parted at the 88th Congress's opening: `cal.html` (Cal. I,
-the prologue and primaries of 1960 to Jan. 2, 1963) and `cal63.html` (Cal. II, Jan. 3, 1963 on); in the reader, two
+One list in the data (`lists/cal/`), two pages in the build, parted at the 88th Congress's opening, by the month: `cal.html`
+(Cal. I, Jan. 6, 1960, to Dec. 31, 1962) and `cal63.html` (Cal. II, from Jan. 1, 1963); in the reader, two
 blocks. `split:` in `lists/cal/list.yaml` gives the date the second begins (`from`), its page, and its own page_title,
 h1, lede, logic, abbr and title (`abbr1`, `title1`, `span1` for the first). A dated section goes to the half its first
 day falls in; the threads section is in both. `tools/bib/calsplit.py` (STYLE notes at the top):
@@ -1024,8 +1024,8 @@ day falls in; the threads section is in both. `tools/bib/calsplit.py` (STYLE not
   of the thread's next entry in the second (". 1963 Jan. 14."), the year linked, not underlined, to the thread in the second's index,
   the date to the entry; in the second, before its dates, the last entry in the first, linked the same way.
 - The second half's thread entries are anchored `cal63.thread.<slug>`; a rubric links to its own half's index.
-- At the seam, muted: "‹ Jan. 2, 1963, in the first calendar" at the head of Jan. 3; "Jan. 3, 1963, in the second
-  calendar ›" at the foot of Jan. 2.
+- At the seam, muted: "‹ Dec. 31, 1962, in the first calendar" at the head of Jan. 1, 1963; "Jan. 1, 1963, in the
+  second calendar ›" at the foot of Dec. 31.
 - Links: write `[[id]]` as ever. The build routes a link whose anchor is in the other half to that page, on the
   calendar's pages and on every other page (`cal.html#X` → `cal63.html#X`); `./bib links` checks both.
 - `./bib build cal` (or `cal63`) builds both halves.

@@ -6,7 +6,7 @@ The 1968 series: a calendar, a bibliography and a set of reference tables for Am
 
 | page | what it holds |
 |------|---------------|
-| [Calendar I](https://impending2223.github.io/bib/cal.html), [Calendar II](https://impending2223.github.io/bib/cal63.html) | The executive and legislative record, day by day, Jan. 1961–Jan. 10, 1966 (I to Jan. 2, 1963; II from the 88th Congress's opening), with the presidential primaries of 1960–76.<br>Each entry: what happened, the primary record linked, the event's bibliography, the persons named. Each day: the Public Papers, FRUS and White House recordings of that date, the Sunday interview programs. Each month: the economic indicators as first reported and as revised, money rates, Gallup's approval. 1,442 entries in 69 threads. |
+| [Calendar I](https://impending2223.github.io/bib/cal.html), [Calendar II](https://impending2223.github.io/bib/cal63.html) | The executive and legislative record, day by day, Jan. 6, 1960–Jan. 10, 1966 (I, 1960–62; II from January 1963, the 88th Congress's opening), with the presidential primaries of 1960–76.<br>Each entry: what happened, the primary record linked, the event's bibliography, the persons named. Each day: the Public Papers, FRUS and White House recordings of that date, the Sunday interview programs. Each month: the economic indicators as first reported and as revised, money rates, Gallup's approval. 1,442 entries in 69 threads. |
 | [Names](https://impending2223.github.io/bib/names.html) | An entry for each person (12,633): offices and elections with their sources, publications and papers, and the FRUS documents, presidential documents and recordings that name the person. |
 | [Congress](https://impending2223.github.io/bib/congress.html) | Each Congress at its opening, 87th–93rd: party bars, House and Senate maps, every member; every general election, 1958–74, race by race; the special elections, 85th–93rd. |
 | [Executive](https://impending2223.github.io/bib/executive.html) | The Executive Branch at each inauguration and succession, 1953–74: every office, the law that governs it, every holder. |
@@ -34,7 +34,7 @@ The claude.ai artifacts named in `series.yaml` are frozen copies of Oct. 1, 2026
 
 | path | holds |
 |------|-------|
-| `lists/cal/` | the calendar: a file a month (`apr63.yaml`), the threads (`th.yaml`), the prologue and the primary seasons |
+| `lists/cal/` | the calendar: a file a month (`apr63.yaml`), the threads (`th.yaml`), the primary seasons after 1966 |
 | `works/` | the works catalogue: a card a work; every list and calendar entry points to its card |
 | `lists/<key>/` | the themed lists, a file a section (`lists/kja/II.D.yaml`); Part III is the series' persons |
 | `congress/` | each Congress at its opening, its changes in membership and special elections, and the district shapes |
