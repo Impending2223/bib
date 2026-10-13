@@ -8,8 +8,8 @@
 Filing. Each calendar month section whose dates hold the last day of a period carries that
 period's figures in a table under its heading: months in their month, quarters in the quarter's
 last month, fiscal years (ending June 30) in June, calendar years in December. Periods that end
-before the first dated section go to it (the Prologue). A block of definitions, "Indicators:
-concepts and sources", goes before the Prologue; each series name in a table links to its entry.
+before the first dated section go to it. A block of definitions, "Indicators:
+concepts and sources", goes before the first month; each series name in a table links to its entry.
 
 STYLE (settled; keep it, and fix anything that drifts from it):
  1. Columns: Indicator | As first reported | Released | Revised, today. Gallup's approval (kind: poll) in a table
@@ -297,7 +297,7 @@ def exact(v, unit):
 
 def rows_for(data, lo, hi, prev_to=None, next_from=None):
     """The rows a section files: periods ending within it, and those ending in the gap since the last dated section
-    (all before it, in the first): Dec. 1960 in the Prologue, after the primary season of 1960. A month the section
+    (all before it, in the first). A month the section
     ends within (Jan. 1965, the calendar ending Jan. 20) is filed there too, where no later section begins in it."""
     out = []
     for sid in ORDER + [k for k in data if k not in ORDER]:
@@ -479,7 +479,7 @@ div.ind-defs dd{margin:.1rem 0 0 0;color:var(--ink)}
 
 
 def inject(page, series, mode):
-    """Put each calendar month's indicators under its heading, and the definitions before the Prologue."""
+    """Put each calendar month's indicators under its heading, and the definitions before the first month."""
     data = load()
     if not data:
         return page

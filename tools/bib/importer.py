@@ -389,7 +389,7 @@ FULL_MONTHS = ["January", "February", "March", "April", "May", "June", "July", "
 
 def _calendar_ranges(tops, year):
     """Give each month section the dates it holds, from its title:
-    'February' -> whole month; 'January 20–31'; 'Prologue, January 3–19'."""
+    'February' -> whole month; 'January 20–31'."""
     import calendar
     for n in tops:
         m = re.search(r"(" + "|".join(FULL_MONTHS) + r")(?:\s+(\d+)–(\d+))?", n["title"])
@@ -398,7 +398,5 @@ def _calendar_ranges(tops, year):
         mo = FULL_MONTHS.index(m.group(1)) + 1
         d1 = int(m.group(2) or 1)
         d2 = int(m.group(3) or calendar.monthrange(year, mo)[1])
-        if n["id"] == "pro":
-            d1 = 1
         n["from"] = f"{year}-{mo:02d}-{d1:02d}"
         n["to"] = f"{year}-{mo:02d}-{d2:02d}"

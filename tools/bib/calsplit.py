@@ -1,5 +1,6 @@
 """The calendar in two halves: one list in the data (lists/cal/), two pages in the build, parted at the 88th Congress's
-opening (Jan. 3, 1963), as the first opens at the 87th's (Jan. 3, 1961).
+opening (January 1963; the sections are calendar months, so the second begins Jan. 1), as the first opens at the 86th's
+second session (Jan. 6, 1960).
 
     lists/cal/list.yaml, `split:`   the date the second half begins (`from`), its page (`page`: cal63), and its own
                                     page_title, h1, lede, logic, abbr and title; the list's own fields are the first's
@@ -17,8 +18,8 @@ STYLE:
     linked the same way ("1962 Dec. 11. 1963 ...").
  3. The second half's thread entries take the anchor cal63.thread.<slug>, so that both indexes can stand in the
     reader's one page; a rubric links to its own half's index.
- 4. At the seam, muted, in sans: at the head of the second half's first day, "‹ Jan. 2, 1963, in the first calendar";
-    at the foot of the first half's last, "Jan. 3, 1963, in the second calendar ›" (seam).
+ 4. At the seam, muted, in sans: at the head of the second half's first day, "‹ Dec. 31, 1962, in the first calendar";
+    at the foot of the first half's last, "Jan. 1, 1963, in the second calendar ›" (seam).
  5. On the standalone pages a link to an anchor that lives in the other half goes to that page; on every other page,
     a link to cal.html#X where X is in the second half goes to cal63.html#X (route).
  7. A thread highlighted: a tap on a thread's entry in the index, or on a thread's line under a calendar entry ("⟨⟨ Testing
@@ -207,7 +208,7 @@ def thread_dates_html(lst, slug, members, esc):
 
 def seam(lst, sec):
     """(before, after): the links across the divide at the head of the second half's first day and the foot of the
-    first half's last ("‹ Jan. 2, 1963, in the first calendar"; "Jan. 3, 1963, in the second calendar ›")."""
+    first half's last ("‹ Dec. 31, 1962, in the first calendar"; "Jan. 1, 1963, in the second calendar ›")."""
     if not cfg(lst) or not sec.extra.get("from"):
         return "", ""
     b = datetime.date.fromisoformat(boundary(lst))

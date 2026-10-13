@@ -9,6 +9,15 @@ change: pts
 then: {label: 'BLS, from the Census Current Population Survey, seasonally adjusted', source: 'ALFRED UNRATE, initial release', url: 'https://alfred.stlouisfed.org/series?seid=UNRATE'}
 now: {label: 'BLS, Current Population Survey, seasonally adjusted, ages 16 and over', unit: percent, source: FRED UNRATE, url: 'https://fred.stlouisfed.org/series/UNRATE'}
 rows:
+- {p: 1960-03, first: 5.4, released: '1960-04-12', chg: 0.6, unit: percent of civilian labor force, now: 5.4, chg_now: 0.6}
+- {p: 1960-04, first: 5.0, released: '1960-05-11', chg: -0.4, unit: percent of civilian labor force, now: 5.2, chg_now: -0.2}
+- {p: 1960-05, first: 4.9, released: '1960-06-13', chg: -0.1, unit: percent of civilian labor force, now: 5.1, chg_now: -0.1}
+- {p: 1960-06, first: 5.5, released: '1960-07-12', chg: 0.6, unit: percent of civilian labor force, now: 5.4, chg_now: 0.3}
+- {p: 1960-07, first: 5.4, released: '1960-08-10', chg: -0.1, unit: percent of civilian labor force, now: 5.5, chg_now: 0.1}
+- {p: 1960-08, first: 5.9, released: '1960-09-09', chg: 0.5, unit: percent of civilian labor force, now: 5.6, chg_now: 0.1}
+- {p: 1960-09, first: 5.7, released: '1960-10-10', chg: -0.2, unit: percent of civilian labor force, now: 5.5, chg_now: -0.1}
+- {p: 1960-10, first: 6.4, released: '1960-11-10', chg: 0.7, unit: percent of civilian labor force, now: 6.1, chg_now: 0.6}
+- {p: 1960-11, first: 6.3, released: '1960-12-12', chg: -0.1, unit: percent of civilian labor force, now: 6.1, chg_now: 0.0}
 - {p: 1960-12, first: 6.8, released: '1961-01-13', chg: 0.5, unit: percent of civilian labor force, now: 6.6, chg_now: 0.5}
 - {p: 1961-01, first: 6.6, released: '1961-02-09', chg: -0.2, unit: percent of civilian labor force, now: 6.6, chg_now: 0.0}
 - {p: 1961-02, first: 6.8, released: '1961-03-07', chg: 0.2, unit: percent of civilian labor force, now: 6.9, chg_now: 0.3}

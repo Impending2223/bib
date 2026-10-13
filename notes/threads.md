@@ -17,6 +17,10 @@ Scopes taken out of the statements, kept here:
 - Black nationalism: Black nationalism as Washington met it (the statement opens "Malcolm X and the Nation of Islam").
 - Civil rights organizations: their campaigns (Albany, Birmingham, the Freedom Rides, Freedom Summer, Selma, the March) are in
   the place and law threads; King has his own; Malcolm X and the Nation of Islam are in Black nationalism.
+- Africa: Africa as Washington met it, apart from the Congo (its own thread): South Africa, decolonization at the UN.
+- Sit-ins: the student sit-ins of 1960 at lunch counters, an event of their own; other segregation in public places is
+  in Desegregation: public places, the Freedom Rides in their own thread.
+- Japan and Korea: the alliances as Washington met them: the treaties, the governments, the visits.
 - Students: college and university students in politics: their organizations, demonstrations, and manifestos (the
   statement keeps the first clause).
 
