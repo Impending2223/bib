@@ -6,11 +6,11 @@ The 1968 series: a calendar, a bibliography and a set of reference tables for Am
 
 | page | what it holds |
 |------|---------------|
-| [Calendar I](https://impending2223.github.io/bib/cal.html), [Calendar II](https://impending2223.github.io/bib/cal63.html) | The executive and legislative record, day by day, Jan. 1961–Jan. 10, 1966 (I to Jan. 2, 1963; II from the 88th Congress's opening), with the presidential primaries of 1960–76: 1,442 entries in 69 threads.<br>Each entry: what happened, the primary record linked, the event's bibliography, the persons named. Each day: the Public Papers, FRUS and White House recordings of that date, the Sunday interview programs. Each month: the economic indicators as first reported and as revised, money rates, Gallup's approval. |
+| [Calendar I](https://impending2223.github.io/bib/cal.html), [Calendar II](https://impending2223.github.io/bib/cal63.html) | The executive and legislative record, day by day, Jan. 1961–Jan. 10, 1966 (I to Jan. 2, 1963; II from the 88th Congress's opening), with the presidential primaries of 1960–76.<br>Each entry: what happened, the primary record linked, the event's bibliography, the persons named. Each day: the Public Papers, FRUS and White House recordings of that date, the Sunday interview programs. Each month: the economic indicators as first reported and as revised, money rates, Gallup's approval. 1,442 entries in 69 threads. |
 | [Names](https://impending2223.github.io/bib/names.html) | An entry for each person (12,633): offices and elections with their sources, publications and papers, and the FRUS documents, presidential documents and recordings that name the person. |
-| [Works](https://impending2223.github.io/bib/works.html) | The bibliography, A to Z: every work the series cites, one entry a work (2,636), with where each is cited. |
 | [Congress](https://impending2223.github.io/bib/congress.html) | Each Congress at its opening, 87th–93rd: party bars, House and Senate maps, every member; every general election, 1958–74, race by race; the special elections, 85th–93rd. |
 | [Executive](https://impending2223.github.io/bib/executive.html) | The Executive Branch at each inauguration and succession, 1953–74: every office, the law that governs it, every holder. |
+| [Works](https://impending2223.github.io/bib/works.html) | The bibliography, A to Z: every work the series cites, one entry a work (2,636), with where each is cited. |
 | [The reader](https://impending2223.github.io/bib/) | All of it on one page, cross-referenced. |
 
 ### The themed lists
