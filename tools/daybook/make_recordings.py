@@ -28,7 +28,7 @@ import yaml
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 OUT = os.path.join(ROOT, "daybook", "recordings")
-FROM, TO = "1961-01-20", "1966-01-10"
+FROM, TO = "1961-01-20", "1967-01-03"
 API = "https://prde.upress.virginia.edu/v1/search?"
 PAGE = "https://prde.upress.virginia.edu/conversations/"
 NOT_SPEAKERS = re.compile(r"^(Unidentified|Speaker, Unidentified|White House Operator|Operator|Secretary|"

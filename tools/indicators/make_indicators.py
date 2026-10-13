@@ -1,6 +1,6 @@
 """Monthly and quarterly indicators for the calendar, as first reported and as revised today.
 # Usage: FRED_API_KEY=... python3 tools/indicators/make_indicators.py [FROM TO]
-#   FROM, TO are reporting periods, default 1960-01-01 1965-12-31.
+#   FROM, TO are reporting periods, default 1960-01-01 1966-12-31.
 #   Rewrites indicators/<id>.yaml for the series in API below. Series entered by hand from the
 #   Economic Reports and budget documents (manual: true in their files) are left alone.
 #   'first' is the initial release in ALFRED, with the date it was released; 'chg' is the change
@@ -20,7 +20,7 @@ import yaml
 KEY = os.environ.get('FRED_API_KEY')     # without it, the public CSV downloads (KEYLESS below)
 ONLY = sys.argv[sys.argv.index('--only') + 1].split(',') if '--only' in sys.argv else None
 ARGS = [a for i, a in enumerate(sys.argv[1:], 1) if a != '--only' and sys.argv[i - 1] != '--only']
-FROM, TO = (ARGS[0], ARGS[1]) if len(ARGS) > 1 else ('1960-01-01', '1965-12-31')
+FROM, TO = (ARGS[0], ARGS[1]) if len(ARGS) > 1 else ('1960-01-01', '1966-12-31')
 OUT = os.path.join(os.path.dirname(__file__), '..', '..', 'indicators')
 FRED = 'https://fred.stlouisfed.org/series/'
 ALFRED = 'https://alfred.stlouisfed.org/series?seid='
@@ -317,6 +317,7 @@ ERP = {
            'https://www.govinfo.gov/app/details/SERIALSET-12742_00_00-002-0348-0000'),
 }
 MONTHS = [f'{y}-{m:02d}' for y, m in [(1960, 12)] + [(y, m) for y in (1961, 1962, 1963, 1964, 1965) for m in range(1, 13)]]
+RATE_MONTHS = [f'{y}-{m:02d}' for y in range(1960, 1967) for m in range(1, 13)]   # the money-rate tables' span
 MANUAL = {
     'wpi': dict(
         name='Wholesale price index', freq='M', change='pct',
@@ -660,9 +661,9 @@ def rates():
         'id': key, 'name': name, 'freq': 'M', 'kind': 'rate', 'change': 'pts', 'then': None,
         'now': {'label': label, 'unit': 'percent', 'source': f'FRED {sid}', 'url': FRED + sid}}
     for key, (sid, name, label) in RATES.items():
-        cur = current_from(sid, '1960-11-01')
+        cur = current_from(sid, '1959-12-01')
         rows = []
-        for p in MONTHS:
+        for p in RATE_MONTHS:
             d = f'{p}-01'
             row = {'p': p, 'now': cur.get(d)}
             c = None if cur.get(d) is None or cur.get(prior(d, 'M')) is None else round(cur[d] - cur[prior(d, 'M')], 2)
@@ -671,15 +672,18 @@ def rates():
             rows.append(row)
         write(key, meta(key, sid, name, label), rows)
     rows = []
-    for p in MONTHS:
+    for p in RATE_MONTHS:
         lo, hi = f'{p}-01', month_end(p)
         standing = [x for x in DISCOUNT if x[0] <= hi]
+        if not standing:                   # before the first change kept here (June 1960)
+            continue
         eff, ann, v, src = standing[-1]
         row = {'p': p, 'first': v}
         if lo <= eff:                      # a change this month
-            row['chg'] = round(v - standing[-2][2], 2)
-            row['released'] = ann
-            row['note'] = f'effective {label_day(eff)}'
+            if len(standing) > 1:
+                row['chg'] = round(v - standing[-2][2], 2)
+            row['released'] = ann or eff
+            row['note'] = f'effective {label_day(eff)}' + ('' if ann else '; the announcement\'s date not kept here (Check)')
         else:
             row['since'] = eff
         row['unit'] = 'percent'
