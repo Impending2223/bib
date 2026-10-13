@@ -36,6 +36,10 @@ STYLE:
     (`in`), and takes from it what it lacks. A multi-volume work's short form is Bluebook's: "Logevall, Title,
     2 CHVW 123".
  4. Tags pass down: a card answers a tag query for its own tags and those of every card it is `in`.
+ 5. No publisher: a book's parenthetical gives its editors, edition and year, as Bluebook's does ("(2d ed. 1999)"), not
+    its press ("University of North Carolina Press, 2007" is "2007"). Excepted: a publisher's edition named as such
+    ("Random House ed. 1966"), a printing before 1900 (its place and printer), and a film's or a program's network.
+    `check` warns on a press in `paren` [publisher].
 """
 import os
 import re
@@ -905,6 +909,10 @@ def filing(series, cid):
 
 # ---------------------------------------------------------------- check
 
+PUBLISHER = re.compile(r"\b(?:Press|Books|Publish\w*|Verlag|Éditions|Library of America|Morrow|Norton|Knopf|Doubleday|"
+                       r"Macmillan|Harper|Random House|Houghton|Viking|Scribner|Putnam|Wiley|Routledge|Praeger|"
+                       r"Little, Brown|Schuster|Co\.|Inc\.)")
+
 def problems(series):
     """(level, where, message): errors fail `check`; warnings are shown."""
     cat = series.works
@@ -930,6 +938,9 @@ def problems(series):
                 break
             steps.add(x)
             x = (cat.get(x) or {}).get("in")
+        if PUBLISHER.search(c.get("paren") or "") and not re.search(r"\bed\.", c.get("paren")) \
+                and "ok:publisher" not in store.as_list(c.get("tags")):
+            out.append(("warn", where, f"{cid}: no publisher in the parenthetical: {c['paren']} [publisher]"))
         if cat.file_of.get(cid) != f"{letter(cid)}.yaml":
             out.append(("warn", where, f"{cid}: belongs in works/{letter(cid)}.yaml"))
         for a in [cid] + store.as_list(c.get("aliases")):
