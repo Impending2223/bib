@@ -71,7 +71,10 @@ def run(series, only=None):
             texts = [e.get("s"), e.get("r"), e.get("n")] + store.as_list(e.get("c")) + store.as_list(e.get("c2"))
             for t in texts:
                 for r in markup_refs(t or ""):
-                    if r not in idx:
+                    if r.startswith("w."):
+                        if series.works.get(r) is None:
+                            add(ERROR, eid, f"[[{r}]] points to no card in works/")
+                    elif r not in idx:
                         add(ERROR, eid, f"[[{r}]] points to no entry")
                 if t and t.count("*") % 2:
                     add(WARN, eid, "odd number of '*': an italic span is not closed", "italics")

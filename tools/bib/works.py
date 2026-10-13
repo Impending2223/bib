@@ -270,7 +270,7 @@ def surname(name):
 
 
 def short_title(title):
-    return re.split(r"(?<=\w)[:?!]\s|\s—", title)[0]
+    return re.split(r"(?<=[\w\"”’')])[:?!]\s|\s—", title)[0]
 
 
 PRIMARY = re.compile(r"Stat\.|Exec\. Order|Fed\. Reg\.|Proclamation|Pub\. L\.|Hearings? Before|Cong\. Rec\.|"
@@ -729,7 +729,7 @@ VN_FAMILY = {"lam", "nguyen", "tran", "le", "pham", "hoang", "huynh", "phan", "v
 # last word
 OWN_ORDER = {"Hoang Van Chi", "Ngo Van Chieu", "Pham Van Luu", "Pham Van Minh", "Pham Van Son", "Tran Van Don",
              "Tran Van Tra", "Van Tien Dung", "Hoai Thanh", "Cao Minh", "Nguyen Huu Nguyen", "Xuân Phuong",
-             "Vinh-Loc", "Li Danhui", "Cincinnatus [Cecil B. Currey]"}
+             "Vinh-Loc", "Li Danhui", "Malcolm X", "Cincinnatus [Cecil B. Currey]"}
 SURNAME = {"Aurélie Basha i Novosejt": "Basha i Novosejt", "Nicholas deB. Katzenbach": "Katzenbach"}
 RUNNING = {"Le Ly Hayslip", "Duong Van Mai Elliott"}
 PARTICLE = {"de", "De", "Del", "van", "Van", "von", "Von", "du", "Du", "la", "La", "le", "Le", "del", "der", "da", "di",
@@ -760,8 +760,9 @@ def filed_name(cid, cat):
     return n
 
 
-def heading(name):
-    """(the heading, its sort form) for a name a card files under (FILING 4)."""
+def name_parts(name):
+    """A name a card writes, read for filing (FILING 4): (in its own order?, surname, given names, suffixes, the name
+    without "et al."). A name in its own order (or an organization) is all surname."""
     bare = re.sub(r"\s+et al\.\??$|\?$", "", name).strip()
     own = (bare in OWN_ORDER or CJK.search(bare) or ORG.search(bare) or len(bare.split()) == 1
            or not is_person(re.sub(r"\s*\[[^\]]*\]|\s*\([^)]*\)", "", bare)))
@@ -774,7 +775,7 @@ def heading(name):
         else:
             own = words[0] in VN_FAMILY and words[-1] not in VN_FAMILY and "-" not in bare and bare not in RUNNING
     if own:
-        return bare, store.fold(re.sub(r"^(?:The|A|An) ", "", bare))
+        return True, bare, "", [], bare
     words = bare.split()
     suffix = [w for w in words if w.strip(",") in SUFFIX]
     words = [w.strip(",") for w in words if w.strip(",") not in SUFFIX]
@@ -786,8 +787,64 @@ def heading(name):
         while i > 1 and words[i - 1] in PARTICLE:
             i -= 1
         sur, given = " ".join(words[i:]), " ".join(words[:i])
+    return False, sur, given, suffix, bare
+
+
+def heading(name):
+    """(the heading, its sort form) for a name a card files under (FILING 4)."""
+    own, sur, given, suffix, bare = name_parts(name)
+    if own:
+        return bare, store.fold(re.sub(r"^(?:The|A|An) ", "", bare))
     shown = f"{sur}, {given}" + "".join(", " + s for s in suffix)
     return shown, store.fold(f"{sur} {given} {' '.join(suffix)}")
+
+
+# ---------------------------------------------------------------- the short form
+#
+# SHORT FORM (the calendar's citations; the owner's ruling, Oct. 13, 2026): "Surname, *Main Title*", the main title
+# the title to its colon, the leading article dropped ("Beschloss, *Crisis Years*"); two authors "Fursenko & Naftali",
+# three or more "Bundy et al." (the surname alone though two authors share it: the title tells them apart); a name in
+# its own order whole ("Lưu Văn Lợi"); a work without an author its title alone. A card's
+# `short` (markup, as the short form is to print) overrides.
+
+# a series whose volumes are titled "Series: Volume" ("The United States Army in Vietnam: Advice and Support: The Early
+# Years"): the short form takes the volume's title ("Spector, *Advice and Support*")
+SERIES = {"The United States Army in Vietnam", "U.S. Marines in Vietnam", "The United States Air Force in Southeast Asia",
+          "The Years of Lyndon Johnson", "Combat Operations"}
+
+
+def short_form(cid, cat):
+    c = cat.get(cid)
+    if c is None:
+        return cid
+    if c.get("short"):
+        return c["short"]
+    f = cat.fields(cid) or {}
+    title = f.get("title") or ""
+    t = short_title(title)
+    while t in SERIES and len(title) > len(t) + 2:         # a volume of a series: its own title
+        title = title[len(t) + 2:]
+        t = short_title(title)
+    t = re.sub(r"^(?:The|A|An) (?=\S)", "", t)
+    if t and t[0].islower():
+        t = t[0].upper() + t[1:]
+    names = [n for n in f.get("author") or [] if not NOT_AUTHOR.match(n) and not n.startswith("with ")]
+    if not names:
+        return f"*{t}*"
+    surs = []
+    for i, n in enumerate(names):
+        own, sur, given, suffix, bare = name_parts(n)
+        if own and CJK.search(sur):                        # the name without its own script
+            sur = CJK.sub("", sur).strip()
+        if len(n.split()) == 1 and i + 1 < len(names):     # "Jim and Sybil Stockdale": one surname
+            continue
+        if sur not in surs:
+            surs.append(sur)
+    if len(names) == 1 and re.search(r"\bet al\.", names[0]) or len(surs) > 2:
+        who = surs[0] + " et al."
+    else:
+        who = " & ".join(surs)
+    return f"{who}, *{t}*"
 
 
 ONES = ("zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen "

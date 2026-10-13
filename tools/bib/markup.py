@@ -21,6 +21,16 @@ def refs(text):
     return [m.group(1) for m in REF_RE.finditer(text or "")]
 
 
+# A card of the works catalogue linked from the text ([[w.beschloss-crisis-years]]): shown by its short form, linked to
+# its entry in the A–Z bibliography (tools/bib/works.py, SHORT FORM). store.Series sets WORKS: card id -> short form.
+WORKS = None
+WORKS_PAGE = "works.html"
+
+
+def work_label(eid):
+    return WORKS(eid) if WORKS and eid.startswith("w.") else None
+
+
 def to_html(text, resolve=None):
     """resolve(id, shown_text) -> html for an internal reference, or None if unknown."""
     if text is None:
@@ -33,6 +43,9 @@ def to_html(text, resolve=None):
 
     def ref(m):
         eid, shown = m.group(1).strip(), m.group(2)
+        sf = work_label(eid)
+        if sf is not None:
+            return hold(f'<a class="x xw" href="{WORKS_PAGE}#{html.escape(eid)}">{_inline(shown or sf)}</a>')
         out = resolve(eid, shown) if resolve else None
         if out is None:
             out = html.escape(shown or eid, quote=False)
@@ -53,7 +66,7 @@ def plain(text, label=None):
     """Text with the markup removed. label(id) gives the shown text of [[id]]."""
     if text is None:
         return ""
-    t = REF_RE.sub(lambda m: m.group(2) or (label(m.group(1)) if label else m.group(1)), text)
+    t = REF_RE.sub(lambda m: m.group(2) or work_label(m.group(1).strip()) or (label(m.group(1)) if label else m.group(1)), text)
     t = LINK_RE.sub(r"\1", t)
     return ITAL_RE.sub(r"\1", t)
 

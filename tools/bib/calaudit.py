@@ -4,7 +4,8 @@ notes/calendar-audit.md. A review list, not a check: it reports, and changes not
   Names      persons in `c` with a Part III entry whom neither `Names:` nor a hidden `name:` tag gives (by surname; a
              surname shared by several Part III persons lists them all, and a word that is also a place or a thing is
              marked "?")
-  Event      entries with neither a bibliography of their own (a work in *italics*, or a list's Part II section)
+  Event      entries with neither a bibliography of their own (a work's card, [[w.…]]; a work in *italics*; or a list's
+             Part II section)
              nor a `See [[id]]` back to an earlier entry
   Primary    entries whose note neither links nor names a primary record (statute, Federal Register,
              Congressional Record, Public Papers, a presidential library's file, FRUS, a case); and entries that
@@ -84,7 +85,7 @@ def run(series):
             missing.append((sur, ("? " if sur in AMBIG else "") + f"{sur}: {who}"))
         if missing:
             names.append((sec, e, missing))
-        own = bool(re.search(r"\*[^*]+\*", n) or LISTREF.search(n))
+        own = bool(re.search(r"\*[^*]+\*|\[\[w\.", n) or LISTREF.search(n))
         see = "See [[" in n or re.search(r"see \[\[", n)
         if not own and not see:
             event.append((sec, e))

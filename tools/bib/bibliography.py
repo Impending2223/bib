@@ -10,9 +10,9 @@ STYLE:
     Nothing indented, first line or hanging: the headings' weight sets the works apart.
  3. No notes here (the card notes show in the lists). After each citation, on its line, muted and with no closing
     stop: the list sections that hold it, each linked to its listing ("K–J Adm. II.D, Viet. II.C.1"); the calendar
-    entries whose notes cite it by short title and list, by year (tools/bib/datelist.py, its last stop dropped); the
-    chapters a volume holds, the volume a chapter is in, an edition's original; a semicolon between. The anchor is
-    the card's id (works.html#w.beschloss-crisis-years).
+    entries whose notes point to it ([[w.…]]; or cite it by short title and list, not yet converted), by year
+    (tools/bib/datelist.py, its last stop dropped); the chapters a volume holds, the volume a chapter is in, an
+    edition's original; a semicolon between. The anchor is the card's id (works.html#w.beschloss-crisis-years).
  4. A work followed to (its anchor) is lit as a row of the rosters is: white (a lighter panel in the dark theme), an en
     dash past it on either side, plain again when the reader clicks outside it (templates/roster.css, tools/bib/roster.py).
  5. The typefaces (the owner's, Oct. 13, 2026, after Bluebook's large and small caps were tried and set aside): a
@@ -29,7 +29,7 @@ import html
 import re
 
 from . import datelist, store, works
-from .markup import ITAL_RE, plain, to_html
+from .markup import ITAL_RE, REF_RE, plain, to_html
 
 esc = html.escape
 
@@ -89,8 +89,9 @@ def letter_of(key):
 
 
 def calendar_cites(series, linker):
-    """card id -> [calendar entry]: the calendar's notes that cite a work by its short title and a list and section
-    ("Kaplan, *Wizards of Armageddon* (K–J Adm. II.D)"), each title of a run before one reference taken to it."""
+    """card id -> [calendar entry]: the calendar's notes that point to the card ([[w.…]]), or cite it by its short title
+    and a list and section ("Kaplan, *Wizards of Armageddon* (K–J Adm. II.D)"), each title of a run before one
+    reference taken to it."""
     cat, refs = series.works, linker.refs
     out = {}
     for lst in series.lists.values():
@@ -98,7 +99,11 @@ def calendar_cites(series, linker):
             continue
         for _, e in lst.entries():
             n = e.get("n") or ""
-            for m in ITAL_RE.finditer(n):
+            for m in REF_RE.finditer(n):          # the pointers: [[w.…]]
+                cid = cat.alias.get(m.group(1).strip(), m.group(1).strip())
+                if cid in cat.cards and e not in out.setdefault(cid, []):
+                    out[cid].append(e)
+            for m in ITAL_RE.finditer(n):         # a short title and a list, not yet a pointer
                 tail = n[m.end():m.end() + 300]
                 hit = next(((a, key, code) for a, b, key, code in refs.scan(tail, lst.key) if code), None)
                 if not hit or re.search(r"[a-z)]\.\s+[A-Z]", tail[:hit[0]]):

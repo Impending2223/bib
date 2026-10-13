@@ -326,6 +326,8 @@ class Series:
         from . import works            # each listing that points to a card: its citation and notes, in memory
         self.works = works.Catalogue(root)
         works.resolve(self)
+        from . import markup           # [[w.…]] in any text: the card's short form, linked to the A–Z bibliography
+        markup.WORKS = lambda cid, cat=self.works: works.short_form(cat.alias.get(cid, cid), cat) if cat.get(cid) else None
 
     # lookups
     def index(self):
