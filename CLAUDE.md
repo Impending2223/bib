@@ -405,8 +405,8 @@ yet render it; author, title and year read from it for sorting and search).
   beginning with a number under the number spelled out ("The 30-Year War" under T). Each work's full citation, its
   author in running order, nothing indented; no notes on this page; in Bluebook's typefaces for law reviews (a book's
   author and title, a film's or an edited collection's title, in large and small caps; an article's or a chapter's
-  title in italics, its journal or collection in caps), here only; the type of the Names' lists of works (.9rem, line
-  height 1.45). After it, on its
+  title in italics, its journal or collection in caps), here only; the type of the series' entries (18px, line height
+  1.55). After it, on its
   line, muted, no closing stop: the list sections holding it, linked to the listing, and the calendar entries citing
   it by short title and list, by year. The anchor is the card's id (`works.html#w.beschloss-crisis-years`), lit as a
   roster row is: white, an en dash past it on either side, plain again at a click outside.

@@ -19,8 +19,8 @@ STYLE:
     collection's title, in large and small caps; an article's or a chapter's author in roman, its title in italics,
     its journal or collection in large and small caps; a thesis or manuscript as a paper. A title heading takes its
     citation's face. Here only; the themed lists keep their italics.
- 6. The type of the Names' lists of works: .9rem, line height 1.45, the pointers .82rem; a heading in the same size,
-    heavier.
+ 6. The type of the series' entries (the template's 18px, line height 1.55), the pointers .8rem; a heading in the
+    same size, heavier.
  7. A letter a heading (h2, for the scroll wheel and the Outline drawer). The A–Z bar under the lede, as on the Names
     pages (lives.py STYLE 7), the letters at 1rem, 0.36em apart. A title beginning with a number files under the
     number spelled out (FILING 5 in tools/bib/works.py).
@@ -44,13 +44,13 @@ p.az{display:flex;flex-wrap:wrap;gap:0 .36em;margin:0;font-family:var(--sans);fo
 p.az a{color:var(--muted);text-decoration:none}
 p.az a:hover{color:var(--ink);text-decoration:underline;text-decoration-thickness:1px}
 .wz h2{margin-top:2rem}
-.wz p{margin:0;padding:0;text-indent:0;font-size:.9rem;line-height:1.45}
+.wz p{margin:0;padding:0;text-indent:0}
 .wz .wh{margin:.9rem 0 .15rem;font-weight:600}
 .wz .wh a.nm{font-weight:600}
 .wz .wk{margin:.15rem 0 .3rem;scroll-margin-top:3.5rem}
 .wz .sc{font-variant-caps:small-caps;letter-spacing:.02em}
 .wz .wk:target:not(.unhl){background:var(--tgt);box-shadow:calc(-1*var(--dash)) 0 0 var(--tgt),var(--dash) 0 0 var(--tgt)}
-.wz .wp{font-size:.82rem;color:var(--muted)}
+.wz .wp{font-size:.8rem;color:var(--muted)}
 .wz .wp a{color:var(--muted)}
 </style>
 <script>
