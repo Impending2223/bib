@@ -482,7 +482,7 @@ Biographical Directory where it matters), and a change of party in office, with 
 `./bib build` writes `build/executive.html`: the Executive Branch at each inauguration (1953, 1957, 1961,
 1965, 1969, 1973) and at the successions of Nov. 22, 1963, and Aug. 9, 1974, with every change during each
 term, through Aug. 31, 1974. A calendar entry tagged `executive:<YYYY-MM-DD>` (a term's first day) carries
-that term's block in the calendar's pages and the reader; now Jan. 20, 1961, and Nov. 22, 1963. The calendar's copy is
+that term's block in the calendar's pages and the reader; now Jan. 6, 1960 (the 1957 term, at the calendar's opening), Jan. 20, 1961, and Nov. 22, 1963. The calendar's copy is
 slimmer (`cal_block`, CAL STYLE in `tools/bib/executive.py`): in full, with every holder but no law and no notes, the
 President, the Cabinet (the Vice President, the department heads, the Representative to the UN), the Chairman of the
 Federal Reserve, the Chairman of the Joint Chiefs, the Director of the FBI, and the Special Counsel, Press Secretary,
@@ -756,7 +756,7 @@ dated on the general election (it once dropped every House special, so none reac
 each Congress at its opening, `build/congress.html` gives that Congress's specials: a summary, House
 and Senate maps of the seats filled (large dots; the other districts drawn in the base map's gray; Result, Margin, Swing from the general election that chose
 the Congress, same district), and a table of the races. A calendar entry tagged `special:<key>`
-carries its race's table (the 87th's thirteen and the 88th's six of 1963, thread "Special elections"). Definitions: the STYLE
+carries its race's table (the 86th's six of 1960, the 87th's thirteen and the 88th's six of 1963, thread "Special elections"). Definitions: the STYLE
 notes in `tools/bib/specials.py`.
 
 ```
@@ -851,7 +851,7 @@ Every general election from 1956 to 1974, in `elections/<year>.yaml`: the House 
 race, and in presidential years the vote for President by State with the electoral votes as cast.
 1956 is a base for swing and is not shown. `build/congress.html` puts each election from 1958 to
 1974 before the Congress it chose (the 86th and 94th have no rosters); a calendar entry tagged
-`election:<year>` carries its block too (now Nov. 6, 1962). A block: the electoral and popular vote
+`election:<year>` carries its block too (now Nov. 8, 1960, and Nov. 6, 1962). A block: the electoral and popular vote
 first, then by chamber the seats won, the net change from the close of the last Congress, pickups,
 and new members; one view switch for every map (Result; Margin, the winner's lead over the runner-up in points of all the votes, by the quantile rule; Swing, continuous); the
 President's map above the House and Senate, with a States | Flips | Electors switch (Flips: in Result, the
