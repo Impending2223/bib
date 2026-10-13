@@ -122,7 +122,7 @@ congress/switches.yaml    members who changed party in office (kept by hand)
 sources/states.yaml       each State's own official election publications, where to read them, what they print (kept by hand)
 daybook/<YYYY-MM>.yaml    every Public Papers (APP) and FRUS document by date (generated)
 daybook/abstracts.yaml    one-sentence abstracts, keyed by document (kept by hand or agent)
-daybook/recordings/<YYYY-MM>.yaml  every White House recording PRDE catalogues, July 1962–Jan. 10, 1966 (generated)
+daybook/recordings/<YYYY-MM>.yaml  every White House recording PRDE catalogues, July 1962–Jan. 3, 1967 (generated)
 daybook/recordings/millercenter.yaml  the same span's recordings the Miller Center gives free, page and audio (generated)
 daybook/sunday.yaml       the Sunday interview programs and their guests: Meet the Press, 1945–80; Face the Nation, 1959–70 (generated)
 sources/loc/              the Library of Congress finding aid make_sunday.py reads (Spivak visual materials, pp020019, pp. 1–136)
@@ -138,7 +138,7 @@ tools/executive/          the one-time script that seeded executive/ from POCOM
 | kja  | K–J Adm.  | Kennedy and Johnson administrations, 1961–69 |
 | kjc  | K–J Cong. | Congress, the nation, and the states, 1961–69 |
 | opp  | Opp.      | The Republican opposition, 1961–69           |
-| cal  | Cal.      | Calendar, Jan. 6, 1960–Jan. 10, 1966 (the 86th Congress's second session; the 87th and 88th; the 89th's first session); the primaries, 1960–76; built as two pages, Cal. I (`cal.html`, 1960–62) and Cal. II (`cal63.html`, from Jan. 1963) |
+| cal  | Cal.      | Calendar, Jan. 6, 1960–Jan. 3, 1967 (the 86th Congress's second session; the 87th, 88th and 89th); the primaries, 1960–76; built as two pages, Cal. I (`cal.html`, 1960–62) and Cal. II (`cal63.html`, from Jan. 1963) |
 | l68  | 1968      | The 1968 campaign ("the 1968 list")          |
 | adm  | Adm.      | Nixon and his administration, 1969–74        |
 | cong | Cong.     | Congress, the nation, and the states, 1969–74 |
@@ -148,10 +148,10 @@ tools/executive/          the one-time script that seeded executive/ from POCOM
 Parts: I portrayals, II sources, III names. A reference like "K–J Adm. II.D"
 is `lists/kja/II.D.yaml`. The calendar's files are named by month: `apr.yaml`
 for 1961, `apr60.yaml` for 1960, `apr62.yaml` for 1962, `apr63.yaml` for 1963, `apr64.yaml` for 1964, `apr65.yaml` for 1965;
-every section a calendar month (`jan60.yaml` from Jan. 6, 1960, the calendar's first day; `jan66.yaml` to Jan. 10, 1966, its
-last), plus `th.yaml` (threads); the primary seasons after Jan. 1966, `mar68.yaml`–`aug76.yaml`, hold only the primaries
+every section a calendar month (`jan60.yaml` from Jan. 6, 1960, the calendar's first day; `jan67.yaml` to Jan. 3, 1967, its
+last), plus `th.yaml` (threads); the primary seasons after Jan. 1967, `mar68.yaml`–`aug76.yaml`, hold only the primaries
 and the conventions' openings for now. Its sections are numbered straight
-through, I to XCIII, in date order, in the data (`num`); the headings show the dates alone.
+through, I to CV, in date order, in the data (`num`); the headings show the dates alone.
 
 ## Finding things (start here)
 
