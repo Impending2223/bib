@@ -1,8 +1,10 @@
 # Kept by hand: Gallup's presidential job approval as published, read off the page images of
 # The Gallup Poll: Public Opinion, 1935-1971, vol. III (1972) (K-J Cong. II.E): the release date, page, field dates,
 # survey and question, the national figures, and approval by party where the book prints it. Fieldwork ending
-# Jan. 20, 1961 - Dec. 16, 1965; releases through Jan. 10, 1966 (pp. 1707-1983; none released Dec. 23, 1965 -
-# Jan. 10, 1966). tools/indicators/make_polls.py sets these beside the American Presidency Project's
+# Jan. 20, 1961 - Nov. 15, 1966; releases through Dec. 31, 1966 (pp. 1707-2041; none released Dec. 23, 1965 -
+# Jan. 10, 1966, or Dec. 5-31, 1966; the 1967 pages, for Jan. 1-3, 1967, not yet read). Where a release prints no
+# field dates (a special survey), or a second release from one survey prints other figures, the note of the
+# reading it belongs with gives it. tools/indicators/make_polls.py sets these beside the American Presidency Project's
 # series (Gallup's figures as compiled today), which differ in places. series_from, series_to: the series' field dates
 # where the release prints others for the same survey.
 
@@ -545,3 +547,121 @@
   rep: 46
   ind: 58
   note: 'Democrats, independents and the other breakdowns on p. 1978. Region 72/61/54/62. The series today gives 63/26/11 to Dec. 11-16. No approval reading released Dec. 23, 1965-Jan. 10, 1966.'
+- published: '1966-02-02'
+  page: 1986
+  from: '1966-01-21'
+  to: '1966-01-26'
+  survey: 723-K
+  question: '3'
+  president: Johnson
+  approve: 59
+  disapprove: 24
+  no_opinion: 17
+  note: 'Region 72/59/42/66 (pp. 1986-87). The series today gives these figures to Dec. 31, 1965-Jan. 5, 1966 (722-K), and 61/27/12 to Jan. 21-26: the book''s Feb. 10-15 figures.'
+- published: '1966-03-02'
+  page: 1992
+  from: '1966-02-10'
+  to: '1966-02-15'
+  survey: 724-K
+  question: '3a'
+  president: Johnson
+  approve: 61
+  disapprove: 27
+  no_opinion: 12
+  dem: 74
+  rep: 44
+  ind: 55
+  note: 'The series today gives these figures, the party figures too, to Jan. 21-26, and 56/34/10 to Feb. 10-15. The Mar. 9 release (p. 1993) prints 56/34/10 from a special survey, no field dates; its Vietnam question is dated Feb. 10-15 (724-K).'
+- published: '1966-03-30'
+  page: 1998
+  from: '1966-03-03'
+  to: '1966-03-08'
+  survey: 725-K
+  question: '2a'
+  president: Johnson
+  approve: 58
+  disapprove: 28
+  no_opinion: 14
+  note: 'Region 63/61/46/60.'
+- published: '1966-04-20'
+  page: 2001
+  from: '1966-03-24'
+  to: '1966-03-29'
+  survey: 726-K
+  question: '10a'
+  president: Johnson
+  approve: 57
+  disapprove: 28
+  no_opinion: 15
+  note: 'None released for 727-K (Apr. 14-19), to which the series today gives the May 20 release''s figures (54/33/13).'
+- published: '1966-05-20'
+  page: 2006
+  from: '1966-05-05'
+  to: '1966-05-10'
+  survey: 728-K
+  question: '4'
+  president: Johnson
+  approve: 54
+  disapprove: 33
+  no_opinion: 13
+  rep: 35
+  ind: 47
+  note: 'Democrats printed as seven in ten. The series today gives these figures to Apr. 14-19 (727-K; independents 48), and 46/34/20 to May 5-10: the June 5 release''s figures.'
+- published: '1966-06-05'
+  page: 2011
+  from: '1966-05-19'
+  to: '1966-05-24'
+  survey: 729-K
+  question: '1'
+  president: Johnson
+  approve: 46
+  disapprove: 34
+  no_opinion: 20
+  note: 'The June 22 release (p. 2014; 729-K, Q. 1a, the same field dates) prints 50/33/17, and college students 55/38/7: the series today''s figures for May 19-24. None released for 730-K (June 16-21), which the series today gives (48/39/13).'
+- published: '1966-07-24'
+  page: 2021
+  from: '1966-07-08'
+  to: '1966-07-13'
+  survey: 731-K
+  question: '1a'
+  president: Johnson
+  approve: 56
+  disapprove: 30
+  no_opinion: 14
+  dem: 70
+  rep: 38
+  ind: 45
+  note: 'Region 67/56/46/51; Protestants 51, Catholics 71.'
+- published: '1966-08-19'
+  page: 2023
+  from: '1966-07-29'
+  to: '1966-08-03'
+  survey: 732-K
+  question: '1'
+  president: Johnson
+  approve: 51
+  disapprove: 38
+  no_opinion: 11
+  note: 'None released for 733-K (Aug. 18-23), which the series today gives (47/39/14).'
+- published: '1966-09-18'
+  page: 2027
+  from: '1966-09-08'
+  to: '1966-09-13'
+  survey: 734-K
+  question: '2a'
+  president: Johnson
+  approve: 48
+  disapprove: 38
+  no_opinion: 14
+  note: 'The series today gives 46/39/15 to Sept. 8-13. None released for 735-K (Oct. 1-6) or 736-K (Oct. 21-26), which the series today gives (44/42/14, 44/41/15).'
+- published: '1966-12-04'
+  page: 2038
+  from: '1966-11-10'
+  to: '1966-11-15'
+  survey: 737-K
+  question: '1a'
+  president: Johnson
+  approve: 48
+  disapprove: 37
+  no_opinion: 15
+  note: 'The series today gives 49/35/16 to Nov. 10-15. None released for 738-K (Dec. 8-13), which the series today gives (44/47/9). No approval reading released Dec. 5-31, 1966.'
