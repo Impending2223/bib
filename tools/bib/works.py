@@ -173,21 +173,54 @@ def subject_name(s):
 
 # ---------------------------------------------------------------- rendering a card
 
-def render(f, omit_author=False, cat=None):
+# Bluebook's typefaces for law reviews (render(..., caps=True); the A–Z bibliography): a book's author and title, and
+# a film's or an edited collection's title, in large and small caps; an article's or a chapter's author in roman, its
+# title in italics, the journal or the collection it is in in large and small caps; an unpublished work (a thesis, a
+# manuscript) as a paper. The caps are marked SC ... SC_END in the markup; the page turns them into its own element.
+SC, SC_END = "\ue000", "\ue001"
+PAPER = re.compile(r"dissertation|thesis|unpublished|manuscript|Ph\.D\.|M\.A\.", re.I)
+
+
+def sc(t):
+    return SC + t + SC_END
+
+
+def caps_verbatim(c):
+    """A verbatim citation in Bluebook's typefaces, read as well as its form allows: 'Author, *Title* ...' a book unless
+    what follows the title is a journal or magazine, an *in*, or a paper's parenthetical."""
+    if re.search(r"\*in\*|\*reprinted in\*|\*revised in\*", c):
+        return re.sub(r"(\*(?:in|reprinted in|revised in)\* (?:\d+ )?)\*([^*]+)\*", lambda m: m.group(1) + sc(m.group(2)), c)
+    m = re.match(r"^(?:(?P<a>[^*]+?), )?\*(?P<t>[^*]+)\*(?P<rest>.*)$", c)
+    if not m or PAPER.search(m.group("rest")):
+        return c
+    rest = m.group("rest")
+    if re.match(r"^[^,(*]*,\s*\[?\d+ (?!vols?\.)\[?[A-Z]|^, \[?[A-Z][\w.&' ]+\.?\]?(?:\([^)]*\))?,? (?:[A-Z][a-z]{2,4}\.? )?(?:\d|\[\d)", rest):
+        # an article: the journal or magazine in caps ('45 Diplomatic Hist. 330', 'Foreign Affs., Oct. 1967')
+        j = re.match(r"^([^,(*]*,\s*\[?\d+ \[?)([A-Z][^\[\]()\d]*?)(?=\]\(| \d)", rest) or \
+            re.match(r"^(, \[?)([A-Z][\w.&' ]+\.)(?=\]?,)", rest)
+        if j:
+            rest = j.group(1) + sc(j.group(2)) + rest[j.end():]
+        return (m.group("a") + ", " if m.group("a") else "") + f"*{m.group('t')}*" + rest
+    return (sc(m.group("a")) + ", " if m.group("a") else "") + sc(m.group("t")) + rest
+
+
+def render(f, omit_author=False, cat=None, caps=False):
     """The full citation, as the lists print it. A card `in` another (a chapter in a volume) needs the catalogue
-    (`cat`) to find it."""
+    (`cat`) to find it. caps: in Bluebook's typefaces (above)."""
     if f.get("in") and not f.get("c"):
-        return render_part(f, omit_author, cat)
+        return render_part(f, omit_author, cat, caps)
     if f.get("c"):              # verbatim; one printed from the title on carries its author as a field
-        if f.get("author") and f["c"].lstrip().startswith("*") and not omit_author:
-            return join_names(f["author"]) + ", " + f["c"]
-        return f["c"]
+        c = f["c"]
+        if f.get("author") and c.lstrip().startswith("*") and not omit_author:
+            c = join_names(f["author"]) + ", " + c
+        return caps_verbatim(c) if caps else c
+    book = caps and not f.get("journal") and not PAPER.search(f.get("paren") or "") and f.get("kind") not in ("thesis", "article")
     out = ""
     if f.get("author") and not omit_author:
-        out = join_names(f["author"]) + ", "
-    out += f"*{f['title']}*"
+        out = (sc(join_names(f["author"])) if book else join_names(f["author"])) + ", "
+    out += sc(f["title"]) if book else f"*{f['title']}*"
     if f.get("journal"):
-        cite = f"{f['vol']} {f['journal']} {f['page']}"
+        cite = f"{f['vol']} {sc(f['journal']) if caps else f['journal']} {f['page']}"
         out += ", " + (f"[{cite}]({f['link']})" if f.get("link") else cite)
     if f.get("paren"):
         out += f" ({f['paren']})"
@@ -201,22 +234,23 @@ def render(f, omit_author=False, cat=None):
     return out
 
 
-def render_part(f, omit_author, cat):
+def render_part(f, omit_author, cat, caps=False):
     """A chapter in its volume, Bluebook's way: 'Author, *Chapter*, *in* *Volume* 127 (Editor ed., 2006)'; ', at 223'
     where the volume's title ends in a number; in a volume of a set, the set's title after the volume's number
     ('*in* 2 *The Cambridge History of the Vietnam War* 123'). The volume's parenthetical and link close it."""
     vol = cat.get(f["in"]) if cat else None
     if vol is None:
         return f"{join_names(f['author'])}, *{f['title']}*" if f.get("author") else f"*{f['title']}*"
+    ital = (lambda t: sc(t)) if caps else (lambda t: f"*{t}*")
     out = "" if omit_author or not f.get("author") else join_names(f["author"]) + ", "
     out += f"*{f['title']}*, *in* "
     vt = vol.get("title")
     if vol.get("in") and vol.get("vol"):                 # a volume of a set
         st = cat.get(vol["in"]) or {}
-        out += f"{vol['vol']} *{st.get('title', '')}*"
+        out += f"{vol['vol']} {ital(st.get('title', ''))}"
         vt = st.get("title", "")
     else:
-        out += f"*{vt}*"
+        out += ital(vt)
     if f.get("page"):
         out += (", at " if re.search(r"\d$", vt or "") else " ") + str(f["page"])
     shell = {k: v for k, v in vol.items() if k in ("editor", "translator", "paren", "year")}
@@ -503,8 +537,8 @@ class Catalogue:
         """Its own tags and every container's (STYLE 4)."""
         return [t for c in self.chain(cid) for t in store.as_list(c.get("tags"))]
 
-    def render(self, cid, omit_author=False):
-        return render(self.get(cid), omit_author, self)
+    def render(self, cid, omit_author=False, caps=False):
+        return render(self.get(cid), omit_author, self, caps)
 
     def save(self, cid=None):
         """Write the card files (all, or the one holding `cid`)."""
@@ -675,7 +709,8 @@ def line(series, cid):
 #  2. A corporate author files under the organization's name only where the card names it as author ("U.S.
 #     Commission on Civil Rights"); nothing is added to a card to make one.
 #  3. A work with no author (an edited volume, a series, a film with no director named) files under its short title,
-#     the leading article dropped ("Cambridge History of the Vietnam War").
+#     the leading article dropped ("Cambridge History of the Vietnam War"), another language's definite article too
+#     (*La Guerre du Vietnam* under G; not the name Lê: *Le Duc Tho–Kissinger Negotiations* under L).
 #  4. Headings invert a name written in running order ("Beschloss, Michael R."; a particle stays with the surname: "De
 #     Palma, Brian", "de Gaulle, Charles"); a name written in its own order, family name first (Vietnamese, Chinese,
 #     Japanese: "Võ Nguyên Giáp", "Zhou Enlai 周恩来"), a single name, or an organization stands as written.
@@ -788,12 +823,16 @@ def words_for_numbers(key):
     return w + key[m.end():]
 
 
+# a leading article, English or another language's definite article (FILING 3): not the Vietnamese name Lê
+ARTICLE = re.compile(r"^(?:(?:The|A|An|La|Le|Les|El|Los|Las|Lo|Il|Gli|Der|Die|Das) (?!Duc |Duan |Ly |Van )|L['’](?=\w))")
+
+
 def filing(series, cid):
     """(heading or None, sort key) for a card in the A–Z bibliography (FILING): a work with an author or director
     files under the heading, then year, then short title; one without, under its short title, then year."""
     cat = series.works
     f = cat.fields(cid) or {}
-    t = words_for_numbers(re.sub(r"^(?:the|a|an) ", "", store.fold(short_title(plain(f.get("title") or f.get("c") or "")))))
+    t = words_for_numbers(store.fold(ARTICLE.sub("", short_title(plain(f.get("title") or f.get("c") or "")))))
     y = str(f.get("year") or "")
     who = filed_name(cid, cat)
     if who:

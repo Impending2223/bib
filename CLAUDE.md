@@ -401,8 +401,12 @@ yet render it; author, title and year read from it for sorting and search).
   way). An author's works under the name, inverted ("Beschloss, Michael R."; a particle with the surname, "De Palma,
   Brian"; a Vietnamese, Chinese or Japanese name in its own order, as written; `OWN_ORDER`, `RUNNING`, `SURNAME` for
   what the rules cannot tell), linked to the name entry where one person fits; a work without an author under its
-  title as the heading; a title beginning with a number under the number spelled out ("The 30-Year War" under T).
-  Each work's full citation, its author in running order, nothing indented; no notes on this page. After it, on its
+  title as the heading; a leading article dropped, another language's too (*La Guerre du Vietnam* under G); a title
+  beginning with a number under the number spelled out ("The 30-Year War" under T). Each work's full citation, its
+  author in running order, nothing indented; no notes on this page; in Bluebook's typefaces for law reviews (a book's
+  author and title, a film's or an edited collection's title, in large and small caps; an article's or a chapter's
+  title in italics, its journal or collection in caps), here only; the type of the Names' lists of works (.9rem, line
+  height 1.45). After it, on its
   line, muted, no closing stop: the list sections holding it, linked to the listing, and the calendar entries citing
   it by short title and list, by year. The anchor is the card's id (`works.html#w.beschloss-crisis-years`), lit as a
   roster row is: white, an en dash past it on either side, plain again at a click outside.
