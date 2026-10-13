@@ -75,6 +75,10 @@ Viet. notes "unduly credulous of NVA/NLF/dovish material", which gave the critic
 and marked their opponents "the defense". The owner also asked where the Vietnamese-language works were: Viet. II.E
 should hold them.)
 
+A work's note is either the card's (the card note: true of the book wherever it is listed: "Interviews with nearly
+everyone, Bissell included") or the listing's (why it is in this list: "Read the Washington chapters"). The card note
+shows first, then the listing's; a listing may write `card_note: replace` or `omit`.
+
 Before and after:
 
 ```
@@ -93,6 +97,7 @@ yes: c: Gilpatric to the Business Council at Hot Springs. The American second
 series.yaml               the lists: key, abbreviation, old artifact URL
 lists/<key>/list.yaml     a list's title, intro paragraphs, and outline (sections → files)
 lists/<key>/<file>.yaml   one section's entries, in display order (II.D.yaml, apr.yaml)
+works/<letter>.yaml       the works catalogue: one card a work, by the first letter of its id (w.beschloss-crisis-years)
 inbox/                    patch files waiting to be merged
 congress/<NN>.yaml        each Congress at its opening (87–93): House by state and
                           district (0 = at large), Senate by state and class
@@ -153,6 +158,8 @@ through, I to LXXXVII, in date order, in the data (`num`); the headings show the
 ./bib find -t person -t in:cal -l kja tags combine (AND)
 ./bib show ID [ID...]                 full entry + rev + tags + what links to it
 ./bib works Parting the Waters        every list that holds or cites a title or person
+./bib works list -t in:kja -t pub:1990s --sort year   the cards answering a query (below, "The works catalogue")
+./bib works show w.beschloss-crisis-years             a card and every place it is listed
 ```
 
 `find` prints `id`, then `file:line` and a one-line summary. Open the file
@@ -169,6 +176,10 @@ at that line to edit, reading only that section.
   tags: [topic:berlin, todo]           # optional, stored tags
   aliases: [kja.old-id]                # ids folded into this one by ./bib combine
 ```
+
+A list entry for a work points to its card instead of writing the citation (`work: w.beschloss-crisis-years`, or a
+list for several) and keeps its own note; "The works catalogue" below. A new entry may still be written with `c`:
+`./bib merge` and `./bib works adopt` make the card.
 
 Calendar entries have no `s` (the build makes the rubric, "Cuba, Apr. 15–19", and files
 the entry under its first day):
@@ -341,6 +352,43 @@ is also in that list.
 
 A deliberate exception to a `check` warning is tagged `ok:<rule>` on the
 entry (the rule name is printed in brackets), e.g. `ok:thread-first`.
+
+## The works catalogue
+
+Every work the lists cite is a card in `works/`, once; the lists point to it (`work:`), so a correction to the card
+changes every listing, short form and page. `tools/bib/works.py` is the only code that reads the cards; everything
+else asks it (its docstring has the fields and the STYLE notes). A card is structured (author, title, year, and the
+rest as fields; the citation is rendered from them) or verbatim (`c`, the citation as written, where the fields cannot
+yet render it; author, title and year read from it for sorting and search).
+
+```yaml
+- id: w.beschloss-crisis-years          # permanent; w. and the first author's surname and the title's words
+  author: [Michael R. Beschloss]         # running order; editor, translator, director the same
+  title: 'The Crisis Years: Kennedy and Khrushchev, 1960–1963'
+  year: '1991'
+  n: Interviews with nearly everyone.    # the card note
+  tags: [topic:berlin]
+```
+
+- Editions, translations and chapters are cards of their own. A chapter or a volume points to its container (`in:`)
+  and takes from it what it lacks; a correction to the container changes every chapter. The short form of a
+  multi-volume work is Bluebook's ("Logevall, Title, 2 CHVW 123"). `edition_of:` and `translates:` join an edition or a
+  translation to its original.
+- Under a person's subject line the author it names is not repeated (the citation starts at the title); `byline:
+  true` (or `byline: [w.…]`, some of several) keeps it. A listing of several works naming their author at the first
+  only writes `ditto: true`.
+- Queries (`./bib works list`): `-t` every one of, `--any` at least one of, `--not` none of. Stored tags pass down from
+  a container to what is in it. Worked out for every card: `in:kja`, `section:vn.II.C.1`, `author:logevall`,
+  `year:1991`, `pub:1990s`, `kind:film`, `form:verbatim`; `in:` alone is any list, `section:vn.II.C*` a prefix.
+- Change a card with `./bib works set ID FIELD=VALUE` or by hand; tag it with `./bib works tag ID +TAG`. To fix a
+  citation, fix the card, not the listing: a listing's `c` written over cuts its pointer.
+- `check` fails on a pointer to no card, a card neither structured nor verbatim, an `in` that comes round to itself;
+  warns on a card nothing points to and on a work cited as text (`./bib works adopt`).
+- `notes/works-inventory.md` (`./bib works inventory`): the works written differently that are probably one, the
+  editions, the works listed in several places with differing notes, the calendar's citations, suspected errors.
+  `tools/works/make_cards.py` made the catalogue from the lists, once (Oct. 13, 2026); don't rerun.
+- Not yet in the catalogue: primary documents (cases, laws, orders, hearings, speeches) and the calendar's citations,
+  which still write works by short title with list and section.
 
 ## Congress at each opening
 

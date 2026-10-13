@@ -328,6 +328,17 @@ def cmd_merge(series, a):
         print("\n".join("  " + l for l in rep.lines))
         if rep.conflicts:
             print(f"  {rep.conflicts} conflicts recorded in the entries: ./bib conflicts")
+        if not a.dry_run:                # works the patch cited as text become cards (works.adopt)
+            from . import works
+            series = store.Series()
+            targets = [(l, s_, e) for l in series.lists.values() for s_, e in l.entries()
+                       if works.adoptable(series, l, s_, e)]
+            done = works.adopt(series, targets)
+            if done:
+                for s_ in {id(s_): s_ for l, s_, e in targets if any(d[0] == e["id"] for d in done)}.values():
+                    series.save_section(s_)
+                series.works.save()
+                print(f"  {len(done)} entries' works made cards: " + ", ".join(d[0] for d in done))
         if not a.dry_run and a.archive:
             done = os.path.join(HERE, "inbox", "merged")
             os.makedirs(done, exist_ok=True)
@@ -418,6 +429,7 @@ WORKS_HELP = """The works catalogue (works/*.yaml; tools/bib/works.py).
   ./bib works tag ID... +TAG -TAG
   ./bib works set ID FIELD=VALUE ...   change a card's field (title=..., year=..., n=...; FIELD= to remove it)
   ./bib works attrs              the attributes in use, with counts
+  ./bib works adopt ID... | --all   an entry citing works as text (c): make the cards (or find them), point to them
   ./bib works inventory          rewrite notes/works-inventory.md
   ./bib works WORDS              every entry whose title or person matches, the old search
 """
@@ -498,6 +510,21 @@ def cmd_works(series, a):
         n = Counter({k: len(v) for k, v in works.index(series).items()})
         for k, v in sorted(n.items()):
             print(f"  {k}  {v}")
+        return
+    if cmd == "adopt":
+        targets = []
+        for l in series.lists.values():
+            for s_, e in l.entries():
+                if "--all" in rest or e["id"] in rest:
+                    targets.append((l, s_, e))
+        done = works.adopt(series, targets)
+        secs = {id(s_): s_ for l, s_, e in targets if any(d[0] == e["id"] for d in done)}
+        for s_ in secs.values():
+            series.save_section(s_)
+        cat.save()
+        for eid, ids, new in done:
+            print(f"{eid}: {' '.join(ids)}" + (f"   (new: {' '.join(new)})" if new else ""))
+        print(f"{len(done)} entries adopted")
         return
     if cmd == "inventory":
         path = os.path.join(store.ROOT, "notes", "works-inventory.md")

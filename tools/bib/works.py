@@ -635,3 +635,144 @@ def line(series, cid):
     cat = series.works
     ws = sorted({f"{l.abbr} {s.code}" for l, s, _ in where(series).get(cid, [])})
     return f"{cid}\n    {plain(cat.render(cid))}" + (f"\n    listed: {', '.join(ws)}" if ws else "\n    listed: nowhere")
+
+
+# ---------------------------------------------------------------- check
+
+def problems(series):
+    """(level, where, message): errors fail `check`; warnings are shown."""
+    cat = series.works
+    out = []
+    seen = {}
+    for cid, c in cat.cards.items():
+        where = f"works/{cat.file_of.get(cid)}"
+        if not re.match(r"^w\.[a-z0-9][a-z0-9-]*$", cid):
+            out.append(("error", where, f"{cid}: a card id is w. and lowercase words joined by hyphens"))
+        if not c.get("c") and not c.get("title"):
+            out.append(("error", where, f"{cid}: a card needs a title (structured) or c (verbatim)"))
+        if c.get("c") and c.get("title"):
+            out.append(("error", where, f"{cid}: a card is structured (title) or verbatim (c), not both"))
+        if not c.get("c") and not c.get("year") and not c.get("paren"):
+            out.append(("error", where, f"{cid}: a structured card needs a year"))
+        for k in ("in", "edition_of", "translates"):
+            if c.get(k) and cat.get(c[k]) is None:
+                out.append(("error", where, f"{cid}: {k}: {c[k]} is no card"))
+        x, steps = c.get("in"), set()
+        while x and x not in steps:
+            if x == cid:
+                out.append(("error", where, f"{cid}: its `in` comes round to itself"))
+                break
+            steps.add(x)
+            x = (cat.get(x) or {}).get("in")
+        if cat.file_of.get(cid) != f"{letter(cid)}.yaml":
+            out.append(("warn", where, f"{cid}: belongs in works/{letter(cid)}.yaml"))
+        for a in [cid] + store.as_list(c.get("aliases")):
+            if a in seen and seen[a] != cid:
+                out.append(("error", where, f"{a}: two cards claim this id"))
+            seen[a] = cid
+    w = where_all(series)
+    for lst in series.lists.values():
+        for sec, e in lst.entries():
+            for cid in e.get("_missing") or []:
+                out.append(("error", e["id"], f"work: {cid} is no card"))
+            if e.get("work"):
+                b = e.get("byline")
+                if isinstance(b, list) and not set(b) <= set(store.as_list(e["work"])):
+                    out.append(("error", e["id"], "byline names a card the entry does not point to"))
+                if e.get("card_note") not in (None, "replace", "omit"):
+                    out.append(("error", e["id"], "card_note is replace or omit"))
+    loose_ = [e["id"] for lst in series.lists.values() for sec, e in lst.entries() if adoptable(series, lst, sec, e)]
+    if loose_:
+        out.append(("warn", "lists/", f"{len(loose_)} entries cite works as text; ./bib works adopt "
+                    f"{' '.join(loose_[:3])}{' …' if len(loose_) > 3 else ''} (or --all) makes them cards"))
+    unused = [cid for cid in cat.cards if cid not in w]
+    if unused:
+        out.append(("warn", "works/", f"{len(unused)} cards nothing points to: {', '.join(sorted(unused)[:5])}"
+                    + (" …" if len(unused) > 5 else "")))
+    return out
+
+
+def where_all(series):
+    """Every card something points to: a listing, or another card (`in`, `edition_of`, `translates`)."""
+    used = set(where(series))
+    for c in series.works.cards.values():
+        used |= {c[k] for k in ("in", "edition_of", "translates") if c.get(k)}
+    return used
+
+
+# ---------------------------------------------------------------- adopting a citation written as text
+
+def new_id(f, taken):
+    who = store.slug(surname(f["author"][0]), 3) if f.get("author") else ""
+    t = re.sub(r"^(the|a|an)-", "", store.slug(short_title(plain(f["title"])), 6))
+    t = "-".join(t.split("-")[:4])
+    base = "w." + "-".join(x for x in (who, t) if x)
+    cid = base
+    if cid in taken and f.get("year"):
+        cid = f"{base}-{store.slug(str(f['year']), 2)}"
+    n = 2
+    while cid in taken:
+        cid, n = f"{base}-{n}", n + 1
+    return cid
+
+
+def adoptable(series, lst, sec, e):
+    """The fields of each citation line of an entry that cites works as text, or None (no `c`, a pointer already,
+    the calendar, a person in Part III, or a line that is no work: a case, a law, a speech)."""
+    from .refs import Refs
+    if lst.kind == "calendar" or e.get("work") or not e.get("c"):
+        return None
+    if Refs.is_people_section(sec) and (sec.code or "").startswith("III"):
+        return None
+    subj = e.get("s") if Refs.is_people_section(sec) and e.get("s") else None
+    cs = store.as_list(e["c"])
+    fs = [fields_of(c, subj) for c in cs]
+    if any(f is None for f in fs):
+        return None
+    for i in range(1, len(fs)):          # one author named once for several works (ditto)
+        if not fs[i].get("author") and fs[i - 1].get("author") and cs[i].lstrip().startswith("*") \
+                and not fs[i].get("editor") and not fs[i - 1].get("_subject"):
+            fs[i]["author"] = list(fs[i - 1]["author"])
+            fs[i]["_ditto"] = True
+    return list(zip(cs, fs))
+
+
+def adopt(series, entries):
+    """Make each entry's works cards (or find the card already holding the same citation), and point the entry at
+    them; the note stays the listing's. Returns [(entry id, [card ids], [new card ids])]."""
+    cat = series.works
+    by_full = {render(c): cid for cid, c in cat.cards.items()}
+    taken = set(cat.cards) | set(cat.alias)
+    done = []
+    for lst, sec, e in entries:
+        pairs = adoptable(series, lst, sec, e)
+        if not pairs:
+            continue
+        ids, new, byline = [], [], []
+        subj = e.get("s")
+        for c, f in pairs:
+            if f.get("c"):
+                card = {"c": c, "author": f["author"]} if f.get("_subject") or f.get("_ditto") else {"c": c}
+            else:
+                card = {k: v for k, v in f.items() if not k.startswith("_")}
+            full = render(card)
+            cid = by_full.get(full)
+            if cid is None:
+                cid = new_id(f, taken)
+                taken.add(cid)
+                cat.cards[cid] = {"id": cid, **card}
+                cat.file_of[cid] = f"{letter(cid)}.yaml"
+                by_full[full] = cid
+                new.append(cid)
+            ids.append(cid)
+            if subj and not f.get("_subject") and card.get("author") and \
+                    store.fold(card["author"][0]) == store.fold(subject_name(subj)):
+                byline.append(cid)
+        e["work"] = ids if isinstance(e["c"], list) else ids[0]
+        del e["c"]
+        if any(f.get("_ditto") for _, f in pairs):
+            e["ditto"] = True
+        if byline:
+            e["byline"] = True if len(byline) == len(ids) else byline
+        done.append((e["id"], ids, new))
+    return done
