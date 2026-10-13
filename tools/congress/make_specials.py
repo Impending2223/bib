@@ -237,6 +237,10 @@ SENATE_HAND = [
 WHY = {'1965-12-15-h-CA-26': 'Resigned September 30, 1965, to become United States Representative to the UN Economic and '
                             'Social Council (Biographical Directory, 2005, p. 1835).'}
 
+# The departing member's party where Wikipedia's list gives his later one (Lindsay, a Republican in the House, a Democrat
+# from 1971), with the source.
+OUT_PARTY = {'1966-02-08-h-NY-17': 'R'}   # Biographical Directory, 2005, p. 1451: elected as a Republican
+
 
 # ---------------------------------------------------------------- all
 
@@ -287,6 +291,8 @@ def main():
             rec['key'] = f"{rec['date']}-h-{st}-{seat}"
         if rec['key'] in WHY:
             rec['why'] = WHY[rec['key']]
+        if rec['key'] in OUT_PARTY:
+            rec['out_party'] = OUT_PARTY[rec['key']]
         rec['flip'] = bool(rec['party'] and rec['out_party'] and rec['party'] != rec['out_party'])
         if rec['date'] in GENERAL:
             rec['with_general'] = True
