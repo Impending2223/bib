@@ -63,6 +63,8 @@ a.nm:hover{text-decoration-color:var(--accent,currentColor)}
    :where() keeps the rule weak, so a link a class styles (a rubric, the thread's brackets, the A–Z bar) keeps its own. */
 :where(main) a:where(:not([href^="http"]):not([href^="mailto"])){color:inherit;text-decoration:underline;text-decoration-color:color-mix(in srgb,var(--muted) 40%,transparent);text-decoration-thickness:1px;text-underline-offset:.2em}
 :where(main) a:where(:not([href^="http"]):not([href^="mailto"])):hover{text-decoration-color:var(--accent,currentColor)}
+/* a work's first citation, in full: a link to its A–Z entry, not underlined (tools/bib/works.py, FIRST CITE) */
+a.xf,a.xf:hover{color:inherit;text-decoration:none}
 p.logic{font-family:var(--sans);font-size:.88rem;line-height:1.45;color:var(--muted);margin:.25rem 0 1rem}
 p.lede{margin:.4rem 0 1rem}
 

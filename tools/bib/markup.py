@@ -54,7 +54,7 @@ def to_html(text, resolve=None):
             m2 = re.match(r"^[^*\[]*\*[^*]+\*", full)
             if not m2:
                 return hold(to_html(full))
-            return hold(f'<a class="x xw" href="{WORKS_PAGE}#{html.escape(eid)}">{_inline(m2.group(0))}</a>'
+            return hold(f'<a class="x xw xf" href="{WORKS_PAGE}#{html.escape(eid)}">{_inline(m2.group(0))}</a>'
                         + to_html(full[m2.end():]))
         if sf is not None:
             return hold(f'<a class="x xw" href="{WORKS_PAGE}#{html.escape(eid)}">{_inline(shown or sf)}</a>')
