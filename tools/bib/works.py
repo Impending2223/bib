@@ -679,10 +679,12 @@ def line(series, cid):
 #  4. Headings invert a name written in running order ("Beschloss, Michael R."; a particle stays with the surname: "De
 #     Palma, Brian", "de Gaulle, Charles"); a name written in its own order, family name first (Vietnamese, Chinese,
 #     Japanese: "Võ Nguyên Giáp", "Zhou Enlai 周恩来"), a single name, or an organization stands as written.
+#  5. A title beginning with a number files under the number spelled out ("The 30-Year War" under Thirty, "77
+#     Conversations" under Seventy-seven, "1876" under Eighteen seventy-six).
 
 ORG = re.compile(r"\b(?:Commission|Council|Committee|Department|Institute|Office|Conference|Force|Friends|Students|"
                  r"Veterans|Society|Association|Foundation|Bureau|Agency|Board|Center|League|Union|University|Press|"
-                 r"Bundesbank|Đảng|Viện|Ban|Bộ)\b|\b(?:Comm|Dept|Inst|Off)\.|^\[")
+                 r"Bundesbank|Đảng|Viện|Ban|Bộ)\b|\b(?:Comm|Dept|Inst|Off|Serv)\.|^\[")
 NOT_AUTHOR = re.compile(r"^(?:Comment|Note|Memorandum|Speech|Điện Biên Phủ)\b")   # read as an author, and not one
 VIET = re.compile(r"[ăâđêôơưĂÂĐÊÔƠƯ\u1ea0-\u1ef9]")
 CJK = re.compile(r"[\u3000-\u9fff]")
@@ -692,7 +694,7 @@ VN_FAMILY = {"lam", "nguyen", "tran", "le", "pham", "hoang", "huynh", "phan", "v
 # last word
 OWN_ORDER = {"Hoang Van Chi", "Ngo Van Chieu", "Pham Van Luu", "Pham Van Minh", "Pham Van Son", "Tran Van Don",
              "Tran Van Tra", "Van Tien Dung", "Hoai Thanh", "Cao Minh", "Nguyen Huu Nguyen", "Xuân Phuong",
-             "Vinh-Loc", "Cincinnatus [Cecil B. Currey]"}
+             "Vinh-Loc", "Li Danhui", "Cincinnatus [Cecil B. Currey]"}
 SURNAME = {"Aurélie Basha i Novosejt": "Basha i Novosejt", "Nicholas deB. Katzenbach": "Katzenbach"}
 RUNNING = {"Le Ly Hayslip", "Duong Van Mai Elliott"}
 PARTICLE = {"de", "De", "Del", "van", "Van", "von", "Von", "du", "Du", "la", "La", "le", "Le", "del", "der", "da", "di",
@@ -753,12 +755,45 @@ def heading(name):
     return shown, store.fold(f"{sur} {given} {' '.join(suffix)}")
 
 
+ONES = ("zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen "
+        "seventeen eighteen nineteen").split()
+TENS = "_ _ twenty thirty forty fifty sixty seventy eighty ninety".split()
+ORDINAL = {"one": "first", "two": "second", "three": "third", "five": "fifth", "eight": "eighth", "nine": "ninth",
+           "twelve": "twelfth"}
+
+
+def spelled(n):
+    """A number as it is said: 77 'seventy seven', 480 'four hundred eighty', a year 'nineteen sixty three'."""
+    if n < 20:
+        return ONES[n]
+    if n < 100:
+        return TENS[n // 10] + (" " + ONES[n % 10] if n % 10 else "")
+    if 1100 <= n < 2000 and n % 100:
+        return spelled(n // 100) + " " + spelled(n % 100)
+    if n < 1000:
+        return ONES[n // 100] + " hundred" + (" " + spelled(n % 100) if n % 100 else "")
+    return spelled(n // 1000) + " thousand" + (" " + spelled(n % 1000) if n % 1000 else "")
+
+
+def words_for_numbers(key):
+    """A folded sort key with its leading number spelled out (FILING 5): '30 year war' 'thirty year war', '7th
+    infantry' 'seventh infantry'."""
+    m = re.match(r"(\d+)(st|nd|rd|th)?\b", key)
+    if not m:
+        return key
+    w = spelled(int(m.group(1)))
+    if m.group(2):
+        last = w.split()[-1]
+        w = w[:-len(last)] + ORDINAL.get(last, (last[:-1] + "ie" if last.endswith("y") else last) + "th")
+    return w + key[m.end():]
+
+
 def filing(series, cid):
     """(heading or None, sort key) for a card in the A–Z bibliography (FILING): a work with an author or director
     files under the heading, then year, then short title; one without, under its short title, then year."""
     cat = series.works
     f = cat.fields(cid) or {}
-    t = re.sub(r"^(?:the|a|an) ", "", store.fold(short_title(plain(f.get("title") or f.get("c") or ""))))
+    t = words_for_numbers(re.sub(r"^(?:the|a|an) ", "", store.fold(short_title(plain(f.get("title") or f.get("c") or "")))))
     y = str(f.get("year") or "")
     who = filed_name(cid, cat)
     if who:

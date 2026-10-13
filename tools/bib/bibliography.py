@@ -4,15 +4,20 @@ STYLE:
  1. One list, A to Z, filed by the owner's rules (FILING in tools/bib/works.py): a work under its first-listed author's
     surname, a film under its director's, an organization only where the card names it as author; a work without one
     under its short title, the leading article dropped; then year, then short title.
- 2. An author's works stand under the author's name as a heading, inverted ("Beschloss, Michael R."; a name in its
-    own order as written), linked to the name entry where one person fits; each work then starts at its title. A
-    work of several authors keeps them all; a work filed under its title is printed whole.
- 3. Each work: the full citation (the card's, as every list prints it), the card note, and, muted, where the series
-    cites it: the list sections that hold it, each linked to its listing ("K–J Adm. II.D"); the calendar entries
-    whose notes cite it by short title and list, by year (tools/bib/datelist.py); the chapters a volume holds, the
-    volume a chapter is in, an edition's original. The anchor is the card's id: works.html#w.beschloss-crisis-years.
- 4. A letter a heading (h2, for the scroll wheel and the Outline drawer); "0–9" before A. The A–Z bar under the
-    lede, as on the Names pages (lives.py STYLE 7), the letters at 1rem, 0.36em apart.
+ 2. Every work under a heading in the heavier weight: an author's name, inverted ("Beschloss, Michael R."; a name in
+    its own order as written), linked to the name entry where one person fits; a work filed under its title, the
+    title. Under it, each work's full citation, the author named in running order ("Jean Lacouture, *Vietnam* ...").
+    Nothing indented, first line or hanging: the headings' weight sets the works apart.
+ 3. No notes here (the card notes show in the lists). After each citation, on its line, muted and with no closing
+    stop: the list sections that hold it, each linked to its listing ("K–J Adm. II.D, Viet. II.C.1"); the calendar
+    entries whose notes cite it by short title and list, by year (tools/bib/datelist.py, its last stop dropped); the
+    chapters a volume holds, the volume a chapter is in, an edition's original; a semicolon between. The anchor is
+    the card's id (works.html#w.beschloss-crisis-years).
+ 4. A work followed to (its anchor) is lit as a row of the rosters is: white (a lighter panel in the dark theme), an en
+    dash past it on either side, plain again when the reader clicks outside it (templates/roster.css, tools/bib/roster.py).
+ 5. A letter a heading (h2, for the scroll wheel and the Outline drawer). The A–Z bar under the lede, as on the Names
+    pages (lives.py STYLE 7), the letters at 1rem, 0.36em apart. A title beginning with a number files under the
+    number spelled out (FILING 5 in tools/bib/works.py).
 """
 import html
 import re
@@ -24,26 +29,46 @@ esc = html.escape
 
 CSS = """<style>
 /* the A–Z bibliography (tools/bib/bibliography.py) */
+:root{--tgt:#FFFFFF}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--tgt:#22262E}}
+:root[data-theme="dark"]{--tgt:#22262E}
+body{--dash:.515em}
 div.azw{margin:.4rem 0 .8rem}
 p.az{display:flex;flex-wrap:wrap;gap:0 .36em;margin:0;font-family:var(--sans);font-weight:600;font-size:1rem;line-height:1.4}
 p.az a{color:var(--muted);text-decoration:none}
 p.az a:hover{color:var(--ink);text-decoration:underline;text-decoration-thickness:1px}
 .wz h2{margin-top:2rem}
-.wz p{margin:0}
-.wz .wh{margin:.9rem 0 .15rem;font-weight:600}
+.wz p{margin:0;padding:0;text-indent:0}
+.wz .wh{margin:1.1rem 0 .2rem;font-weight:600}
 .wz .wh a.nm{font-weight:600}
-.wz .wk{margin:.35rem 0 .5rem;padding-left:1em;text-indent:-1em;scroll-margin-top:3.5rem}
-.wz .wa .wk{margin-left:1em}
-.wz .wk:target{background:var(--tgt,#fff)}
-.wz .wn{display:block;text-indent:0;font-size:.92rem;margin-top:.1rem}
-.wz .wp{display:block;text-indent:0;font-size:.8rem;color:var(--muted);margin-top:.1rem}
+.wz .wk{margin:.25rem 0 .4rem;scroll-margin-top:3.5rem}
+.wz .wk:target:not(.unhl){background:var(--tgt);box-shadow:calc(-1*var(--dash)) 0 0 var(--tgt),var(--dash) 0 0 var(--tgt)}
+.wz .wp{font-size:.8rem;color:var(--muted)}
 .wz .wp a{color:var(--muted)}
-</style>"""
+</style>
+<script>
+document.addEventListener('click',function(e){
+  var a=e.target.closest&&e.target.closest('a[href*="#"]');
+  document.querySelectorAll('.wz .wk:target').forEach(function(r){
+    if(r.contains(e.target))return;
+    if(a&&a.hash==='#'+r.id){r.classList.remove('unhl');return;}
+    r.classList.add('unhl');
+  });
+});
+window.addEventListener('hashchange',function(){
+  document.querySelectorAll('.wz .wk.unhl').forEach(function(r){r.classList.remove('unhl');});
+});
+</script>"""
 
 LEDE = ['<p class="lede">Every work the series cites, one entry a work, A to Z: by the first-listed author\'s surname '
         '(a film by its director\'s), then year, then title; a work without an author (an edited volume, a series) by '
-        'its title, the leading article dropped. Under each, where the series cites it: the lists that hold it and the '
-        'calendar entries whose notes name it.</p>']
+        'its title, the leading article dropped; a number as it is said. After each, where the series cites it: the '
+        'lists that hold it and the calendar entries whose notes name it.</p>']
+
+
+def nostop(t):
+    """A run of dates without its closing stop (STYLE 3)."""
+    return t[:-1] if t.endswith(".") else t
 
 
 def letter_of(key):
@@ -110,41 +135,38 @@ def page(series, linker, template):
             if lab not in [x for x, _ in seen]:
                 seen.append((lab, f'<a href="{lst.key}.html#{esc(e["id"])}">{esc(lab)}</a>'))
         if seen:
-            out.append(", ".join(h for _, h in seen) + ".")
+            out.append(", ".join(h for _, h in seen))
         es = sorted(cal.get(cid, []), key=lambda e: str(e.get("date") or ""))
         if es:
-            out.append("Cal. " + datelist.run((e.get("date"), f'<a href="cal.html#{esc(e["id"])}">{esc(e.get("when") or "")}</a>')
-                                              for e in es))
+            out.append("Cal. " + nostop(datelist.run((e.get("date"), f'<a href="cal.html#{esc(e["id"])}">{esc(e.get("when") or "")}</a>')
+                                              for e in es)))
         c = cat.get(cid)
         if c.get("in") and cat.get(c["in"]):
-            out.append(f'In: <a href="#{esc(c["in"])}">{short(c["in"])}</a>.')
+            out.append(f'In: <a href="#{esc(c["in"])}">{short(c["in"])}</a>')
         if holds.get(cid):
-            out.append("Holds: " + "; ".join(f'<a href="#{esc(x)}">{short(x)}</a>' for x in sorted(holds[cid])) + ".")
+            out.append("Holds: " + "; ".join(f'<a href="#{esc(x)}">{short(x)}</a>' for x in sorted(holds[cid])))
         for fld, lab in (("edition_of", "Edition of"), ("translates", "Translation of")):
             if c.get(fld) and cat.get(c[fld]):
-                out.append(f'{lab}: <a href="#{esc(c[fld])}">{short(c[fld])}</a>.')
-        return " ".join(out)
+                out.append(f'{lab}: <a href="#{esc(c[fld])}">{short(c[fld])}</a>')
+        return "; ".join(out)
 
-    def item(cid, under):
-        c = cat.get(cid)
-        f = cat.fields(cid) or {}
-        omit = bool(under) and len(f.get("author") or []) == 1 and not f.get("director")
-        cite = works.render(c, omit, cat)
-        if omit and not cite.startswith("*") and f.get("author") and cite.startswith(f["author"][0] + ", "):
-            cite = cite[len(f["author"][0]) + 2:]      # a verbatim card that prints its author
-        h = f'<p class="wk" id="{esc(cid)}">{to_html(cite, resolve)}'
-        if c.get("n"):
-            h += f'<span class="wn">{to_html(c["n"], resolve)}</span>'
+    def item(cid):
+        h = f'<p class="wk" id="{esc(cid)}">{to_html(cat.render(cid), resolve)}'
         p = pointers(cid)
         if p:
-            h += f'<span class="wp">{p}</span>'
+            h += f' <span class="wp">{p}</span>'
         return h + "</p>"
 
     # file every card: an author's works under the heading; a work without, by itself
     groups = {}
     for cid in cat.cards:
         hd, key = works.filing(series, cid)
-        g = groups.setdefault(("h", hd) if hd else ("t", cid), {"key": key[0], "hd": hd, "items": []})
+        if not hd:                       # filed under its title: the title is the heading
+            title = (cat.fields(cid) or {}).get("title") or works.short_title(plain(cat.render(cid)))
+            g = groups.setdefault(("t", store.fold(title)), {"key": key[0], "hd": None, "title": title, "items": []})
+            g["items"].append((key[1:], cid))
+            continue
+        g = groups.setdefault(("h", hd), {"key": key[0], "hd": hd, "items": []})
         g["items"].append((key[1:], cid))
     blocks = sorted(groups.values(), key=lambda g: (g["key"], g["hd"] or "", g["items"][0][0]))
 
@@ -169,11 +191,8 @@ def page(series, linker, template):
         main.append(f'<h2 id="az-{L}" data-short="{lab[L]}">{lab[L]}</h2>')
         for g in by_letter[L]:
             items = sorted(g["items"])
-            if g["hd"]:
-                main.append('<div class="wa">' + head(g["hd"], items) + "".join(item(cid, True) for _, cid in items)
-                            + "</div>")
-            else:
-                main.extend(item(cid, False) for _, cid in items)
+            hh = head(g["hd"], items) if g["hd"] else f'<p class="wh">{to_html("*" + g["title"] + "*")}</p>'
+            main.append('<div class="wa">' + hh + "".join(item(cid) for _, cid in items) + "</div>")
     main.append("</div>")
     pg = open(template, encoding="utf-8").read()
     pg = pg.replace("{{page_title}}", "Works").replace("{{main}}", "\n".join(main))
