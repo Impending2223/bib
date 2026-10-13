@@ -39,10 +39,12 @@ So every calendar entry has:
     it there too.
   - the event's bibliography. An event is not a thread: the Bay of Pigs and Mongoose are two events in the Cuba
     thread; the Vienna Summit and the Berlin wall two in Berlin and Vienna. The event's first entry carries its
-    full bibliography (works by short title with list and section); later entries of the same event point back to
-    it with `See [[id]]`. An entry that opens a new event within a thread carries its own.
-  - the event elsewhere in the series: the list sections that treat it ("K–J Adm. II.D"), where the bibliography
-    has not already given them.
+    full bibliography (each work by its short form, "Surname, *Main Title*", the leading article dropped, linked to
+    its entry in the A–Z bibliography; no list or section); later entries of the same event point back to it with
+    `See [[id]]`. An entry that opens a new event within a thread carries its own. This is how the calendar points
+    "to the relevant material elsewhere in the bibliography" (the owner's words); it no longer names the themed lists'
+    sections that treat the event (the owner's ruling, Oct. 13, 2026, with the move to one A–Z list). Until the
+    calendar's citations are converted, those already written keep their "(K–J Adm. II.D)".
   - for an event done in private and documented in records nobody saw at the time (a recording, a memorandum, an FBI
     file), where and when it became public: "Made public: Drew Pearson's column, May 24, 1968." The brief's "left a
     trace, or should have left a trace": such events belong in the calendar, dated by the record.
@@ -87,8 +89,8 @@ no:  c: Gilpatric at Hot Springs, Virginia, to the Business Council. The America
         gap reversed, in public, for Moscow's benefit.
 yes: c: Gilpatric to the Business Council at Hot Springs. The American second
         strike at least equal to any Soviet first strike. The missile gap reversed.
-     n: Ball, *Politics and Force Levels*; Kaplan, *Wizards of Armageddon* (K–J Adm.
-        II.D). See [[cal.1961-02-06.defense]]. Names: Gilpatric (K–J Adm. III.F).
+     n: Ball, *Politics and Force Levels*; Kaplan, *Wizards of Armageddon*. See
+        [[cal.1961-02-06.defense]]. Names: Gilpatric (K–J Adm. III.F).
 ```
 
 ## Layout
@@ -234,8 +236,8 @@ must name a later one, it says what it is ("Reply: [[id]]", "The order: [[id]]",
 thread's first entry is excepted, `ok:thread-first`). A law the entry reports enacted is cited in `c` after its name, linked, as a case's
 U.S. Reports cite is ("Equal Pay Act signed, [77 Stat. 56](…)": the volume and page, linked; no Public Law number), and the note keeps the list's
 pointer ("Statute (K–J Cong. II.J.2)", as "Opinion (K–J Cong. II.J.1)"); a treaty by its U.S.T. volume and page, linked to the Library of
-Congress's scan (its collection's table gives the TIAS number's volume and page), and its U.N.T.S. cite, linked to the UN's copy, at its signing, the Senate's consent, and ratification. Books already in a list are cited by short title
-with list and section; works found only here are cited in full. "Check" marks
+Congress's scan (its collection's table gives the TIAS number's volume and page), and its U.N.T.S. cite, linked to the UN's copy, at its signing, the Senate's consent, and ratification. Books already in the catalogue are cited by short form, linked
+to the A–Z bibliography (no list or section); works found only here are cited in full. "Check" marks
 a detail to verify. In the calendar the first entry of each event carries its
 bibliography and later ones point back with `See [[id]]`; a thread's first entry is its first event's. Bibliography sections
 are chronological by publication unless their intro says "Alphabetical".
@@ -389,7 +391,11 @@ yet render it; author, title and year read from it for sorting and search).
   `tools/works/make_cards.py` made the catalogue from the lists, once (Oct. 13, 2026), and `make_chapters.py` the
   chapters and their volumes (34 chapters, 28 volumes); don't rerun either.
 - Not yet in the catalogue: primary documents (cases, laws, orders, hearings, speeches) and the calendar's citations,
-  which still write works by short title with list and section.
+  which still write works by short title with list and section until they are converted to pointers.
+- Coming: one A–Z bibliography of every card in place of the themed lists' Parts I–II (Part III stays). Sorted by the
+  first-listed author's surname; a film under its director's; an organization only where the card names it as the
+  author (cards are not edited to add one); otherwise the short title, its leading article dropped (edited volumes
+  included); then the year; then the short title.
 
 ## Congress at each opening
 
