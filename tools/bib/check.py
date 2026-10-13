@@ -163,6 +163,10 @@ def run(series, only=None):
                             add(WARN, e["id"], f"*{m.group(1)}* cited as {plain(tail)[a:b]} but found in {', '.join(where[:3])}", "cited-section")
                         break
 
+    # the works catalogue (works/*.yaml)
+    from . import works
+    for level, where, msg in works.problems(series):
+        add(ERROR if level == "error" else WARN, where, msg, "works")
     # economic indicators (indicators/*.yaml)
     from . import indicators
     for where, msg in indicators.problems():

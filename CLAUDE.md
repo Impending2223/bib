@@ -39,10 +39,12 @@ So every calendar entry has:
     it there too.
   - the event's bibliography. An event is not a thread: the Bay of Pigs and Mongoose are two events in the Cuba
     thread; the Vienna Summit and the Berlin wall two in Berlin and Vienna. The event's first entry carries its
-    full bibliography (works by short title with list and section); later entries of the same event point back to
-    it with `See [[id]]`. An entry that opens a new event within a thread carries its own.
-  - the event elsewhere in the series: the list sections that treat it ("K–J Adm. II.D"), where the bibliography
-    has not already given them.
+    full bibliography (each work by its short form, "Surname, *Main Title*", the leading article dropped, linked to
+    its entry in the A–Z bibliography; no list or section); later entries of the same event point back to it with
+    `See [[id]]`. An entry that opens a new event within a thread carries its own. This is how the calendar points
+    "to the relevant material elsewhere in the bibliography" (the owner's words); it no longer names the themed lists'
+    sections that treat the event (the owner's ruling, Oct. 13, 2026, with the move to one A–Z list). Until the
+    calendar's citations are converted, those already written keep their "(K–J Adm. II.D)".
   - for an event done in private and documented in records nobody saw at the time (a recording, a memorandum, an FBI
     file), where and when it became public: "Made public: Drew Pearson's column, May 24, 1968." The brief's "left a
     trace, or should have left a trace": such events belong in the calendar, dated by the record.
@@ -75,6 +77,10 @@ Viet. notes "unduly credulous of NVA/NLF/dovish material", which gave the critic
 and marked their opponents "the defense". The owner also asked where the Vietnamese-language works were: Viet. II.E
 should hold them.)
 
+A work's note is either the card's (the card note: true of the book wherever it is listed: "Interviews with nearly
+everyone, Bissell included") or the listing's (why it is in this list: "Read the Washington chapters"). The card note
+shows first, then the listing's; a listing may write `card_note: replace` or `omit`.
+
 Before and after:
 
 ```
@@ -83,8 +89,8 @@ no:  c: Gilpatric at Hot Springs, Virginia, to the Business Council. The America
         gap reversed, in public, for Moscow's benefit.
 yes: c: Gilpatric to the Business Council at Hot Springs. The American second
         strike at least equal to any Soviet first strike. The missile gap reversed.
-     n: Ball, *Politics and Force Levels*; Kaplan, *Wizards of Armageddon* (K–J Adm.
-        II.D). See [[cal.1961-02-06.defense]]. Names: Gilpatric (K–J Adm. III.F).
+     n: Ball, *Politics and Force Levels*; Kaplan, *Wizards of Armageddon*. See
+        [[cal.1961-02-06.defense]]. Names: Gilpatric (K–J Adm. III.F).
 ```
 
 ## Layout
@@ -93,6 +99,8 @@ yes: c: Gilpatric to the Business Council at Hot Springs. The American second
 series.yaml               the lists: key, abbreviation, old artifact URL
 lists/<key>/list.yaml     a list's title, intro paragraphs, and outline (sections → files)
 lists/<key>/<file>.yaml   one section's entries, in display order (II.D.yaml, apr.yaml)
+works/<letter>.yaml       the works catalogue: one card a work, by the first letter of its id (w.beschloss-crisis-years);
+                          shown A to Z on build/works.html
 inbox/                    patch files waiting to be merged
 congress/<NN>.yaml        each Congress at its opening (87–93): House by state and
                           district (0 = at large), Senate by state and class
@@ -153,6 +161,8 @@ through, I to LXXXVII, in date order, in the data (`num`); the headings show the
 ./bib find -t person -t in:cal -l kja tags combine (AND)
 ./bib show ID [ID...]                 full entry + rev + tags + what links to it
 ./bib works Parting the Waters        every list that holds or cites a title or person
+./bib works list -t in:kja -t pub:1990s --sort year   the cards answering a query (below, "The works catalogue")
+./bib works show w.beschloss-crisis-years             a card and every place it is listed
 ```
 
 `find` prints `id`, then `file:line` and a one-line summary. Open the file
@@ -169,6 +179,10 @@ at that line to edit, reading only that section.
   tags: [topic:berlin, todo]           # optional, stored tags
   aliases: [kja.old-id]                # ids folded into this one by ./bib combine
 ```
+
+A list entry for a work points to its card instead of writing the citation (`work: w.beschloss-crisis-years`, or a
+list for several) and keeps its own note; "The works catalogue" below. A new entry may still be written with `c`:
+`./bib merge` and `./bib works adopt` make the card.
 
 Calendar entries have no `s` (the build makes the rubric, "Cuba, Apr. 15–19", and files
 the entry under its first day):
@@ -223,8 +237,8 @@ must name a later one, it says what it is ("Reply: [[id]]", "The order: [[id]]",
 thread's first entry is excepted, `ok:thread-first`). A law the entry reports enacted is cited in `c` after its name, linked, as a case's
 U.S. Reports cite is ("Equal Pay Act signed, [77 Stat. 56](…)": the volume and page, linked; no Public Law number), and the note keeps the list's
 pointer ("Statute (K–J Cong. II.J.2)", as "Opinion (K–J Cong. II.J.1)"); a treaty by its U.S.T. volume and page, linked to the Library of
-Congress's scan (its collection's table gives the TIAS number's volume and page), and its U.N.T.S. cite, linked to the UN's copy, at its signing, the Senate's consent, and ratification. Books already in a list are cited by short title
-with list and section; works found only here are cited in full. "Check" marks
+Congress's scan (its collection's table gives the TIAS number's volume and page), and its U.N.T.S. cite, linked to the UN's copy, at its signing, the Senate's consent, and ratification. Books already in the catalogue are cited by short form, linked
+to the A–Z bibliography (no list or section); works found only here are cited in full. "Check" marks
 a detail to verify. In the calendar the first entry of each event carries its
 bibliography and later ones point back with `See [[id]]`; a thread's first entry is its first event's. Bibliography sections
 are chronological by publication unless their intro says "Alphabetical".
@@ -266,7 +280,7 @@ sources that print it; `check` warns on a plain form in the series' own prose (t
 ```
 ./bib new-id cal 1961-10-27 berlin-and-vienna   # an unused id
 ./bib check            # must end "0 errors"; deal with new warnings
-./bib build            # build/<key>.html and build/series.html (a page alone: ./bib build congress | names | cal ...)
+./bib build            # build/<key>.html and build/series.html (a page alone: ./bib build congress | names | works | cal ...)
 ./bib links            # links between the built pages whose anchors are missing
 ```
 
@@ -341,6 +355,61 @@ is also in that list.
 
 A deliberate exception to a `check` warning is tagged `ok:<rule>` on the
 entry (the rule name is printed in brackets), e.g. `ok:thread-first`.
+
+## The works catalogue
+
+Every work the lists cite is a card in `works/`, once; the lists point to it (`work:`), so a correction to the card
+changes every listing, short form and page. `tools/bib/works.py` is the only code that reads the cards; everything
+else asks it (its docstring has the fields and the STYLE notes). A card is structured (author, title, year, and the
+rest as fields; the citation is rendered from them) or verbatim (`c`, the citation as written, where the fields cannot
+yet render it; author, title and year read from it for sorting and search).
+
+```yaml
+- id: w.beschloss-crisis-years          # permanent; w. and the first author's surname and the title's words
+  author: [Michael R. Beschloss]         # running order; editor, translator, director the same
+  title: 'The Crisis Years: Kennedy and Khrushchev, 1960–1963'
+  year: '1991'
+  n: Interviews with nearly everyone.    # the card note
+  tags: [topic:berlin]
+```
+
+- Editions, translations and chapters are cards of their own. A chapter or a volume points to its container (`in:`)
+  and takes from it what it lacks; a correction to the container changes every chapter. The short form of a
+  multi-volume work is Bluebook's ("Logevall, Title, 2 CHVW 123"). `edition_of:` and `translates:` join an edition or a
+  translation to its original.
+- Under a person's subject line the author it names is not repeated (the citation starts at the title); `byline:
+  true` (or `byline: [w.…]`, some of several) keeps it. A listing of several works naming their author at the first
+  only writes `ditto: true`.
+- Queries (`./bib works list`): `-t` every one of, `--any` at least one of, `--not` none of. Stored tags pass down from
+  a container to what is in it. Worked out for every card: `in:kja`, `section:vn.II.C.1`, `author:logevall`,
+  `year:1991`, `pub:1990s`, `kind:film`, `form:verbatim`; `in:` alone is any list, `section:vn.II.C*` a prefix.
+- Change a card with `./bib works set ID FIELD=VALUE` or by hand; tag it with `./bib works tag ID +TAG`. To fix a
+  citation, fix the card, not the listing: a listing's `c` written over cuts its pointer.
+- `check` fails on a pointer to no card, a card neither structured nor verbatim, an `in` that comes round to itself;
+  warns on a card nothing points to and on a work cited as text (`./bib works adopt`).
+- `notes/works-inventory.md` (`./bib works inventory`): the works written differently that are probably one, the
+  editions, the works listed in several places with differing notes, the calendar's citations, suspected errors.
+  `tools/works/make_cards.py` made the catalogue from the lists, once (Oct. 13, 2026), and `make_chapters.py` the
+  chapters and their volumes (34 chapters, 28 volumes); don't rerun either.
+- Not yet in the catalogue: primary documents (cases, laws, orders, hearings, speeches) and the calendar's citations,
+  which still write works by short title with list and section until they are converted to pointers.
+- The A–Z bibliography, `build/works.html` (`./bib build works`; `tools/bib/bibliography.py`, its STYLE notes): every
+  card, A to Z, built beside the themed lists, which stay until it replaces their Parts I–II (Part III stays). Filed
+  by the first-listed author's surname; a film under its director's; an organization only where the card names it as
+  the author (cards are not edited to add one); otherwise the short title, its leading article dropped (edited volumes
+  included); then the year; then the short title (FILING in `tools/bib/works.py`; `./bib works list` sorts the same
+  way). An author's works under the name, inverted ("Beschloss, Michael R."; a particle with the surname, "De Palma,
+  Brian"; a Vietnamese, Chinese or Japanese name in its own order, as written; `OWN_ORDER`, `RUNNING`, `SURNAME` for
+  what the rules cannot tell), linked to the name entry where one person fits; a work without an author under its
+  title as the heading; a leading article dropped, another language's too (*La Guerre du Vietnam* under G); a title
+  beginning with a number under the number spelled out ("The 30-Year War" under T). Each work's full citation, its
+  author in running order, nothing indented; no notes on this page; in Bluebook's typefaces for law reviews (a book's
+  author and title, a film's or an edited collection's title, in large and small caps; an article's or a chapter's
+  title in italics, its journal or collection in caps), here only; the type of the series' entries (18px, line height
+  1.55). After it, on its
+  line, muted, no closing stop: the list sections holding it, linked to the listing, and the calendar entries citing
+  it by short title and list, by year. The anchor is the card's id (`works.html#w.beschloss-crisis-years`), lit as a
+  roster row is: white, an en dash past it on either side, plain again at a click outside.
 
 ## Congress at each opening
 

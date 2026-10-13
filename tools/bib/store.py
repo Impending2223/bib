@@ -17,7 +17,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)
 LISTS = os.path.join(ROOT, "lists")
 
 # Field order inside an entry. Anything else is kept, after these.
-ENTRY_FIELDS = ["id", "when", "date", "thread", "also", "s", "c", "c2", "r", "n", "gloss", "tags", "aliases", "conflict"]
+ENTRY_FIELDS = ["id", "when", "date", "thread", "also", "s", "work", "card_note", "byline", "ditto", "c", "c2", "r", "n", "gloss", "tags",
+                "aliases", "conflict"]
 
 
 # ---------------------------------------------------------------- yaml i/o
@@ -161,9 +162,29 @@ def fold(text):
     return " ".join(slug(text, 999).split("-"))
 
 
+def stored_form(entry):
+    """The entry as its file holds it. A listing that points to works (`work:`) is given its citation and the cards'
+    notes in memory when the series loads (works.resolve); here they come off again. A field changed since then is
+    the writer's: a new note is the listing's note; a new citation cuts the pointer (the entry cites as written)."""
+    d = entry.get("_derived")
+    out = {k: v for k, v in entry.items() if not k.startswith("_")}
+    if not d:
+        return out
+    for k, (shown, stored) in d.items():
+        if out.get(k) != shown:
+            if k == "c":
+                out.pop("work", None)
+            continue
+        if stored is None:
+            out.pop(k, None)
+        else:
+            out[k] = stored
+    return out
+
+
 def canonical(entry):
     """The entry without bookkeeping fields, as a stable string."""
-    core = {k: v for k, v in entry.items() if k not in ("conflict",)}
+    core = {k: v for k, v in stored_form(entry).items() if k not in ("conflict",)}
     return json.dumps(core, ensure_ascii=False, sort_keys=True)
 
 
@@ -187,8 +208,9 @@ def normalize_entry(e):
             e[k] = [str(x) for x in as_list(e[k])]
             if not e[k]:
                 del e[k]
-    if isinstance(e.get("c"), list) and len(e["c"]) == 1:
-        e["c"] = e["c"][0]
+    for k in ("c", "work"):
+        if isinstance(e.get(k), list) and len(e[k]) == 1:
+            e[k] = e[k][0]
     ordered = {k: e[k] for k in ENTRY_FIELDS if k in e}
     ordered.update({k: v for k, v in e.items() if k not in ordered})
     return ordered
@@ -301,6 +323,9 @@ class Series:
                     s.entries = [normalize_entry(e) for e in (doc.get("entries") or [])]
             self.lists[key] = lst
         self._index = None
+        from . import works            # each listing that points to a card: its citation and notes, in memory
+        self.works = works.Catalogue(root)
+        works.resolve(self)
 
     # lookups
     def index(self):
@@ -333,7 +358,7 @@ class Series:
         head = [f"{lst.abbr} {sec.code or ''} {sec.title}".replace("  ", " ").strip(),
                 "Entries in display order. See CLAUDE.md for the fields. Run ./bib check after editing."]
         dump_yaml({"list": lst.key, "section": sec.code or sec.id,
-                   "entries": [normalize_entry(e) for e in sec.entries]}, path, header=head)
+                   "entries": [normalize_entry(stored_form(e)) for e in sec.entries]}, path, header=head)
 
     def save_list_meta(self, lst):
         d = dict(lst.data)

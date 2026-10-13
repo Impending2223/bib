@@ -527,16 +527,19 @@ def git_merge_driver(base_path, ours_path, theirs_path, name=""):
         except Exception:
             return None
     O, A, B = load(base_path), load(ours_path), load(theirs_path)
-    if not all(isinstance(x, dict) and "entries" in x for x in (A, B)) or O is None:
+    key = "cards" if isinstance(A, dict) and "cards" in A else "entries"      # a works/ file, or a list's section
+    if not all(isinstance(x, dict) and key in x for x in (A, B)) or O is None:
         r = subprocess.run(["git", "merge-file", "-L", "ours", "-L", "base", "-L", "theirs",
                             ours_path, base_path, theirs_path])
         return 1 if r.returncode else 0
-    base = [store.normalize_entry(e) for e in (O.get("entries") or [])]
-    ours = [store.normalize_entry(e) for e in (A.get("entries") or [])]
-    theirs = [store.normalize_entry(e) for e in (B.get("entries") or [])]
+    from . import works
+    norm = works.order if key == "cards" else store.normalize_entry
+    base = [norm(e) for e in (O.get(key) or [])]
+    ours = [norm(e) for e in (A.get(key) or [])]
+    theirs = [norm(e) for e in (B.get(key) or [])]
     merged = merge_entry_lists(base, ours, theirs, f"git merge {name}".strip())
     doc = dict(A)
-    doc["entries"] = merged
+    doc[key] = merged
     header = []
     with open(ours_path, encoding="utf-8") as f:
         for line in f:
