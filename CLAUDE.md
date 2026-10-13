@@ -218,7 +218,8 @@ The thread index (Part I of the calendar) is generated from `thread` and
   in the accent blue; a link within it (an entry, a work's A–Z entry, a list's section, a date) as a name link does,
   the text's own color with a faint underline (`:where(main) a` in `templates/list.html` and `series.html`; a link a
   class styles keeps its own). A work's first citation in full links its author and title to the A–Z entry without an
-  underline (`a.xf`). An article's link spans the volume, the journal and the first page: `[27 J. Latin Am.
+  underline (`a.xf`), the faint underline shown only under the pointer, while pressed (`:active`; on a phone, the touch
+  before it lifts: the templates listen for touches so iOS Safari shows it), or at keyboard focus. An article's link spans the volume, the journal and the first page: `[27 J. Latin Am.
   Stud. 1](https://…)`.
 - `[[w.id]]`: a work of the catalogue, linked to its entry on `works.html`: in the calendar, its full citation at its
   first appearance in each half (FIRST CITE), its short form after ("Beschloss, *Crisis Years*"; SHORT FORM in
