@@ -169,7 +169,8 @@ def page(series, linker, template):
         return "; ".join(out)
 
     def item(cid):
-        h = f'<p class="wk" id="{esc(cid)}">{caps(to_html(cat.render(cid, caps=True), resolve))}'
+        h = f'<p class="wk" id="{esc(cid)}">' + "".join(f'<span id="{esc(a)}"></span>' for a in store.as_list(cat.get(cid).get("aliases"))) \
+            + caps(to_html(cat.render(cid, caps=True), resolve))
         p = pointers(cid)
         if p:
             h += f' <span class="wp">{p}</span>'

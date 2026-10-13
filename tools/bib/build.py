@@ -206,6 +206,9 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
     if e.get("r"):
         parts.append(f'<span class="r">{text_html(e["r"], "r")}</span>')
     n = year_qualified(series, e.get("n"), year)
+    if n and lst.kind == "calendar":    # a work's first citation in full (tools/bib/works.py, FIRST CITE)
+        from . import works
+        n = works.with_first_cites(series, e, n)
     if is_thread:                       # the dates by year, and across the divide (tools/bib/calsplit.py)
         dates = calsplit.thread_dates_html(lst, slug, members, esc)
         if dates:

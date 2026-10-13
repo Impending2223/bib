@@ -328,6 +328,8 @@ class Series:
         works.resolve(self)
         from . import markup           # [[w.…]] in any text: the card's short form, linked to the A–Z bibliography
         markup.WORKS = lambda cid, cat=self.works: works.short_form(cat.alias.get(cid, cid), cat) if cat.get(cid) else None
+        markup.WORKS_FULL = lambda cid, cat=self.works: works.render(cat.get(cid), cat=cat)
+        markup.WORKS_ID = lambda cid, cat=self.works: cat.alias.get(cid, cid)
 
     # lookups
     def index(self):

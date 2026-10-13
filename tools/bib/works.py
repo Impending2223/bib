@@ -951,7 +951,13 @@ def problems(series):
     if loose_:
         out.append(("warn", "lists/", f"{len(loose_)} entries cite works as text; ./bib works adopt "
                     f"{' '.join(loose_[:3])}{' …' if len(loose_) > 3 else ''} (or --all) makes them cards"))
-    unused = [cid for cid in cat.cards if cid not in w]
+    cited = set()                       # the cards the text points to ([[w.…]]: the calendar's citations)
+    for lst in series.lists.values():
+        for sec, e in lst.entries():
+            for fld in ("n", "c", "r", "c2"):
+                for m in re.finditer(r"\[\[(w\.[^\]|]+)", e.get(fld) if isinstance(e.get(fld), str) else ""):
+                    cited.add(cat.alias.get(m.group(1).strip(), m.group(1).strip()))
+    unused = [cid for cid in cat.cards if cid not in w and cid not in cited]
     if unused:
         out.append(("warn", "works/", f"{len(unused)} cards nothing points to: {', '.join(sorted(unused)[:5])}"
                     + (" …" if len(unused) > 5 else "")))
@@ -1108,3 +1114,53 @@ def combine(series, keep, drop):
     series._where = None
     series._windex = None
     return list(touched.values())
+
+
+# ---------------------------------------------------------------- first citations
+#
+# FIRST CITE (the owner's request, Oct. 13, 2026: "the full citation for every bibliographic item on its first
+# appearance"): in each half of the calendar, the first entry that points to a card ([[w.…]]) prints its full
+# citation, linked to the A–Z bibliography; the entries after it, its short form. [[w.…|full]] prints it in full
+# wherever it stands.
+
+FULL = "\x01full"
+
+
+def first_cites(series):
+    """{(entry id, card id)}: each card's first citation in each half of the calendar, in the order the pages show
+    the entries (section by section; a month's undated entries first, then by date)."""
+    if getattr(series, "_first_cites", None) is None:
+        from . import calsplit
+        cat, out = series.works, set()
+        for lst in series.lists.values():
+            if lst.kind != "calendar":
+                continue
+            rows = []
+            for k, sec in enumerate(lst.walk()):
+                for i, e in enumerate(sec.entries):
+                    if e["id"].startswith(f"{lst.key}.thread."):
+                        continue
+                    d = str(e.get("date") or "")
+                    rows.append(((calsplit.half_of_section(lst, sec) or 1), k, 0 if len(d) <= 7 else 1, d, i, e))
+            seen = set()
+            for h, _, _, _, _, e in sorted(rows, key=lambda r: r[:5]):
+                for m in re.finditer(r"\[\[(w\.[^\]|]+)(\|[^\]]*)?\]\]", e.get("n") or ""):
+                    cid = cat.alias.get(m.group(1).strip(), m.group(1).strip())
+                    if (h, cid) not in seen:
+                        seen.add((h, cid))
+                        out.add((e["id"], cid))
+        series._first_cites = out
+    return series._first_cites
+
+
+def with_first_cites(series, e, text):
+    """The entry's note with its first citations marked to print in full (FIRST CITE)."""
+    first, cat, done = first_cites(series), series.works, set()
+
+    def sub(m):
+        cid = cat.alias.get(m.group(1).strip(), m.group(1).strip())
+        if m.group(2) or (e["id"], cid) not in first or cid in done:
+            return m.group(0)
+        done.add(cid)
+        return f"[[{m.group(1)}|{FULL}]]"
+    return re.sub(r"\[\[(w\.[^\]|]+)(\|[^\]]*)?\]\]", sub, text or "")

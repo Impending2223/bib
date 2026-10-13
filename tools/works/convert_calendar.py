@@ -106,6 +106,47 @@ class Resolver:
                 return None
         return None
 
+    def item(self, it, rs):
+        """One item of a run as pointers ("[[w.a]]", "[[w.a]]; [[w.b]]"), or None where it is no work the cards hold.
+        Second pass (Oct. 13, 2026): several titles under one author ("Branch, *Parting the Waters*, *Pillar of
+        Fire*"), items joined by "and", a bare surname the section holds one work by ("Meltzer"), a chapter "in" its
+        volume."""
+        if re.fullmatch(r"(?:[^*\[\]]*:\s+)?\[\[w\.[^\]]+\]\][^;*\[]*", it):
+            return it                                       # a pointer already
+        mm = ITEM.match(it)
+        lab = (mm.group("lab") or "") if mm else ""
+        if it[len(lab):] in MANUAL:
+            return lab + f"[[{MANUAL[it[len(lab):]]}]]"
+        a = mm.group("a").strip() if mm else ""
+        ok = mm and (not a or NAMES.match(a) or store.fold(a) in self.authors)      # names, or a body as written
+        cid = self.card(mm.group("t"), mm.group("a"), rs) if ok else None
+        if cid:
+            return lab + f"[[{cid}]]" + mm.group("tail").rstrip()
+        lab_rx = r"(?P<lab>[^*:\[\]]*:\s+|(?:Also|Check|Cf\.|Compare|See also)\s+)?"
+        m = re.fullmatch(lab_rx + r"(?P<a>[^*\[\]]+?),\s+(?P<ts>\*[^*]+\*(?:(?:,\s+|\s+and\s+|,\s+and\s+)\*[^*]+\*)+)", it)
+        if m and NAMES.match(m.group("a").strip()):
+            ids = [self.card(t, m.group("a"), rs) for t in re.findall(r"\*([^*]+)\*", m.group("ts"))]
+            if all(ids):
+                return (m.group("lab") or "") + "; ".join(f"[[{c}]]" for c in ids)
+        parts = re.split(r",? and (?=[A-Z][^*,]*, \*)", it)
+        if len(parts) > 1:
+            got = [self.item(x, rs) for x in parts]
+            if all(got):
+                return "; ".join(got)
+        m = re.fullmatch(lab_rx + r"(?P<a>[A-Z][\w'’-]+(?: & [A-Z][\w'’-]+)?)", it)
+        if m:
+            sur = store.fold(m.group("a").split(" & ")[0])
+            pool = set().union(*[self.by_sec.get((k, c), set()) for k, c in rs if c]) if rs else set()
+            hits = [c for c in pool if self.surnames(c)[:1] == [sur]]
+            if len(hits) == 1:
+                return (m.group("lab") or "") + f"[[{hits[0]}]]"
+        m = re.fullmatch(lab_rx + r"(?P<a>[^*\[\]]+?),\s+\*(?P<t>[^*]+)\*,\s+in\s+\*(?P<v>[^*]+)\*(?P<tail>[^*\[\]]*)", it)
+        if m and NAMES.match(m.group("a").strip()):
+            c = self.card(m.group("t"), m.group("a"), rs)
+            if c and (self.cat.get(c) or {}).get("in"):
+                return (m.group("lab") or "") + f"[[{c}]]" + m.group("tail").rstrip()
+        return None
+
     def convert(self, n):
         """(the note with its runs converted, items converted, items left)"""
         edits, done, left = [], 0, 0
@@ -119,22 +160,14 @@ class Resolver:
             seg = before[b:].rstrip()
             items, out, all_done = re.split(r";\s+", seg), [], True
             for it in items:
-                mm = ITEM.match(it)
-                lab = (mm.group("lab") or "") if mm else ""
-                if it[len(lab):] in MANUAL:
-                    out.append(lab + f"[[{MANUAL[it[len(lab):]]}]]")
-                    done += 1
-                    continue
-                a = mm.group("a").strip() if mm else ""
-                ok = mm and (not a or NAMES.match(a) or store.fold(a) in self.authors)      # names, or a body as written
-                cid = self.card(mm.group("t"), mm.group("a"), rs) if ok else None
-                if cid:
-                    out.append((mm.group("lab") or "") + f"[[{cid}]]" + mm.group("tail").rstrip())
-                    done += 1
-                else:
+                got = self.item(it, rs)
+                if got is None:
                     out.append(it)
                     all_done = False
-                    left += 1 if mm else 0
+                    left += 1 if "*" in it else 0
+                else:
+                    out.append(got)
+                    done += 0 if got == it else got.count("[[w.")
             if out == items:
                 continue
             new = "; ".join(out) + ("" if all_done else " " + m.group(0))

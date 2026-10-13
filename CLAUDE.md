@@ -44,8 +44,10 @@ So every calendar entry has:
     `See [[id]]`. An entry that opens a new event within a thread carries its own. This is how the calendar points
     "to the relevant material elsewhere in the bibliography" (the owner's words); it no longer names the themed lists'
     sections that treat the event (the owner's ruling, Oct. 13, 2026, with the move to one A–Z list). Write a work as
-    its card, `[[w.beschloss-crisis-years]]` (a pinpoint after it: `[[w.gallup-poll]], III, 1862`), and the build
-    prints the short form; a work with no card yet, in full, or `./bib works adopt` it first.
+    its card, `[[w.beschloss-crisis-years]]` (a pinpoint after it: `[[w.gallup-poll]], III, 1862`): the build prints
+    the full citation at the work's first appearance in each half of the calendar, the short form after (the owner's
+    request, Oct. 13, 2026; FIRST CITE in `tools/bib/works.py`). A work with no card yet: make one first (`works/`, or
+    `./bib works adopt`).
   - for an event done in private and documented in records nobody saw at the time (a recording, a memorandum, an FBI
     file), where and when it became public: "Made public: Drew Pearson's column, May 24, 1968." The brief's "left a
     trace, or should have left a trace": such events belong in the calendar, dated by the record.
@@ -213,9 +215,11 @@ The thread index (Part I of the calendar) is generated from `thread` and
 ### Markup inside text
 
 - `*Title*`: italics. `[text](https://…)`: an outside link.
-- `[[w.id]]`: a work of the catalogue, shown by its short form ("Beschloss, *Crisis Years*"; SHORT FORM in
-  `tools/bib/works.py`; a card's `short` overrides), linked to its entry on `works.html`; `[[w.id|text]]` shows
-  "text". `check` fails on a card that does not exist.
+- `[[w.id]]`: a work of the catalogue, linked to its entry on `works.html`: in the calendar, its full citation at its
+  first appearance in each half (FIRST CITE), its short form after ("Beschloss, *Crisis Years*"; SHORT FORM in
+  `tools/bib/works.py`; a card's `short` overrides); elsewhere the short form. `[[w.id|full]]` the full citation
+  wherever it stands; `[[w.id|text]]` shows "text". A merged card's old id still answers. `check` fails on a card that
+  does not exist.
 - `[[id]]`: a link to another entry, shown as its label (a calendar date).
   `[[id|text]]` shows "text". Use these for "See …" in calendar notes, so a
   corrected date updates every reference. The build adds the year when the
@@ -396,10 +400,15 @@ yet render it; author, title and year read from it for sorting and search).
   editions, the works listed in several places with differing notes, the calendar's citations, suspected errors.
   `tools/works/make_cards.py` made the catalogue from the lists, once (Oct. 13, 2026), and `make_chapters.py` the
   chapters and their volumes (34 chapters, 28 volumes); don't rerun either.
-- Not yet in the catalogue: primary documents (cases, laws, orders, hearings, speeches), and the works the calendar
-  cites in full (found only there). `tools/works/convert_calendar.py` turned the calendar's short citations into
-  pointers, once (Oct. 13, 2026: 2,240 of them; 14 left as written: hearings, a work with no card, a run
-  muddled with quoted text); don't rerun it.
+- Not yet in the catalogue: primary documents (cases, laws, orders, hearings, speeches), periodicals as such
+  (newspapers, the *Pa. Manual*), and a few works the calendar names in passing ("translated as *The Feast of the
+  Goat*"). One-time scripts, Oct. 13, 2026 (don't rerun): `tools/works/convert_calendar.py` turned the calendar's
+  short citations into pointers (2,287, with a second pass for several titles under one author, "and", a bare
+  surname, a chapter); `adopt_calendar.py` made cards of the 85 works the calendar cited in full and found nowhere
+  else, and pointed those citations (and their "see [[…]]" short forms) at them; `merge_duplicates.py` folded 80
+  cards into the work they repeat (one first author, main title and year).
+- A work on two cards: `./bib works combine KEEP DROP` (works.combine): DROP's id stays an alias, listings and
+  `[[w.…]]` links follow, the notes are joined (a bare "Also …" pointer to a list now holding the card gives way).
 - The A–Z bibliography, `build/works.html` (`./bib build works`; `tools/bib/bibliography.py`, its STYLE notes): every
   card, A to Z, built beside the themed lists, which stay until it replaces their Parts I–II (Part III stays). Filed
   by the first-listed author's surname; a film under its director's; an organization only where the card names it as
