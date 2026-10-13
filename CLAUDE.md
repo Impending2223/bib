@@ -214,7 +214,11 @@ The thread index (Part I of the calendar) is generated from `thread` and
 
 ### Markup inside text
 
-- `*Title*`: italics. `[text](https://…)`: an outside link.
+- `*Title*`: italics. `[text](https://…)`: an outside link. A link out of the site (a DOI, a record, a newspaper) shows
+  in the accent blue; a link within it (an entry, a work's A–Z entry, a list's section, a date) as a name link does,
+  the text's own color with a faint underline (`:where(main) a` in `templates/list.html` and `series.html`; a link a
+  class styles keeps its own). An article's link spans the volume, the journal and the first page: `[27 J. Latin Am.
+  Stud. 1](https://…)`.
 - `[[w.id]]`: a work of the catalogue, linked to its entry on `works.html`: in the calendar, its full citation at its
   first appearance in each half (FIRST CITE), its short form after ("Beschloss, *Crisis Years*"; SHORT FORM in
   `tools/bib/works.py`; a card's `short` overrides); elsewhere the short form. `[[w.id|full]]` the full citation

@@ -58,6 +58,11 @@ a.nm{color:inherit;text-decoration:underline;text-decoration-color:color-mix(in 
 /* a year in a run of calendar dates (tools/bib/datelist.py) */
 .ty{font-family:var(--sans);font-weight:600;font-size:.92em}
 a.nm:hover{text-decoration-color:var(--accent,currentColor)}
+/* a link within the site (another entry, a work in the A–Z bibliography, a list's section, a date) as a name link is:
+   the text's own color, a faint underline; a link out of the site (a DOI, a record, a newspaper) keeps the accent.
+   :where() keeps the rule weak, so a link a class styles (a rubric, the thread's brackets, the A–Z bar) keeps its own. */
+:where(main) a:where(:not([href^="http"]):not([href^="mailto"])){color:inherit;text-decoration:underline;text-decoration-color:color-mix(in srgb,var(--muted) 40%,transparent);text-decoration-thickness:1px;text-underline-offset:.2em}
+:where(main) a:where(:not([href^="http"]):not([href^="mailto"])):hover{text-decoration-color:var(--accent,currentColor)}
 p.logic{font-family:var(--sans);font-size:.88rem;line-height:1.45;color:var(--muted);margin:.25rem 0 1rem}
 p.lede{margin:.4rem 0 1rem}
 
