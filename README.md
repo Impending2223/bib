@@ -1,25 +1,21 @@
 # bib
 
-The 1968 series: a calendar, a bibliography and a set of reference tables for American politics and policy, 1961–74,
-and the war in Vietnam, 1945–75. Kept here as data; built and published to https://impending2223.github.io/bib/ on
-every push to `main`.
+The 1968 series: a calendar, a bibliography and a set of reference tables for American politics and policy, 1961–74, and the war in Vietnam, 1945–75. Kept here as data; built and published to https://impending2223.github.io/bib/ on every push to `main`.
 
 ## The site
 
 | page | what it holds |
 |------|---------------|
-| [Calendar I](https://impending2223.github.io/bib/cal.html), [Calendar II](https://impending2223.github.io/bib/cal63.html) | The executive and legislative record, day by day, Jan. 1961–Jan. 10, 1966 (I to Jan. 2, 1963; II from the 88th Congress's opening), with the presidential primaries of 1960–76. Each entry: what happened, the primary record linked, the event's bibliography, the persons named. Each day: the Public Papers, FRUS and White House recordings of that date, the Sunday interview programs. Each month: the economic indicators as first reported and as revised, money rates, Gallup's approval. 1,442 entries in 69 threads. |
-| [Works](https://impending2223.github.io/bib/works.html) | The bibliography, A to Z: every work the series cites, one entry a work (2,636), with where each is cited. |
+| [Calendar I](https://impending2223.github.io/bib/cal.html), [Calendar II](https://impending2223.github.io/bib/cal63.html) | The executive and legislative record, day by day, Jan. 1961–Jan. 10, 1966 (I to Jan. 2, 1963; II from the 88th Congress's opening), with the presidential primaries of 1960–76: 1,442 entries in 69 threads.<br>Each entry: what happened, the primary record linked, the event's bibliography, the persons named. Each day: the Public Papers, FRUS and White House recordings of that date, the Sunday interview programs. Each month: the economic indicators as first reported and as revised, money rates, Gallup's approval. |
 | [Names](https://impending2223.github.io/bib/names.html) | An entry for each person (12,633): offices and elections with their sources, publications and papers, and the FRUS documents, presidential documents and recordings that name the person. |
+| [Works](https://impending2223.github.io/bib/works.html) | The bibliography, A to Z: every work the series cites, one entry a work (2,636), with where each is cited. |
 | [Congress](https://impending2223.github.io/bib/congress.html) | Each Congress at its opening, 87th–93rd: party bars, House and Senate maps, every member; every general election, 1958–74, race by race; the special elections, 85th–93rd. |
 | [Executive](https://impending2223.github.io/bib/executive.html) | The Executive Branch at each inauguration and succession, 1953–74: every office, the law that governs it, every holder. |
 | [The reader](https://impending2223.github.io/bib/) | All of it on one page, cross-referenced. |
 
-### The themed lists (being retired)
+### The themed lists
 
-Eight earlier lists, each in three parts: portrayals (I), sources (II), names (III). Their works are now in Works,
-where the calendar's citations point; Parts I and II are to give way to the A–Z list. Part III stays, as the source of
-the Names entries.
+Eight earlier lists, each in three parts: portrayals (I), sources (II), names (III). Their works are in Works, where the calendar's citations point; their Part III is the source of the Names entries.
 
 | list | cited as |
 |------|----------|
@@ -68,12 +64,8 @@ Every entry is a small YAML record with a permanent id. Find what you need, edit
 ./bib links                          links between pages whose anchors are missing
 ```
 
-Changes from several hands merge entry by entry: patch files (`./bib merge inbox/<file>`) and git branches (run
-`./bib setup` once) both merge field by field; a disagreement is recorded in the entry as a conflict to settle, never
-lost. A work cited twice over is folded with `./bib works combine KEEP DROP`, an entry with `./bib combine`.
+Changes from several hands merge entry by entry: patch files (`./bib merge inbox/<file>`) and git branches (run `./bib setup` once) both merge field by field; a disagreement is recorded in the entry as a conflict to settle, never lost. A work cited twice over is folded with `./bib works combine KEEP DROP`, an entry with `./bib combine`.
 
-A push to `main` runs `./bib check` and `./bib build` (`.github/workflows/pages.yml`) and publishes the result; if the
-check fails, the site stays as it was.
+A push to `main` runs `./bib check` and `./bib build` (`.github/workflows/pages.yml`) and publishes the result; if the check fails, the site stays as it was.
 
-Requires Python 3 and PyYAML. `CLAUDE.md` is the working manual: the owner's brief, the house style, and the rules of
-every page.
+Requires Python 3 and PyYAML. `CLAUDE.md` is the working manual: the owner's brief, the house style, and the rules of every page.
