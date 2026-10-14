@@ -450,6 +450,10 @@ class Linker:
         words = token.strip().split()
         if not words:
             return None
+        suffix = None                    # 'Harry F. Byrd Jr.': the son, where the father is in the section too
+        if len(words) > 1 and re.fullmatch(r"Jr\.?|Sr\.?|II|III|IV", words[-1]):
+            suffix = store.fold(words.pop().rstrip("."))
+            token = " ".join(words)
         sur = store.fold(words[-1])
         given = store.fold(words[0]) if len(words) > 1 else None
         codes = [x for c in codes for x in expand(c)]
@@ -493,6 +497,9 @@ class Linker:
                     break
                 if store.fold(esur).split()[-1:] == [sur] or store.fold(esur) == sur:
                     if given and not store.fold(egiven).strip().startswith(given):
+                        continue
+                    esuf = re.search(r"\b(jr|sr|ii|iii|iv)\s*$", store.fold(egiven))
+                    if suffix and (esuf.group(1) if esuf else None) != suffix:
                         continue
                     cands.append(e)
                     break
