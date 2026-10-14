@@ -398,6 +398,10 @@ yet render it; author, title and year read from it for sorting and search).
 - Queries (`./bib works list`): `-t` every one of, `--any` at least one of, `--not` none of. Stored tags pass down from
   a container to what is in it. Worked out for every card: `in:kja`, `section:vn.II.C.1`, `author:logevall`,
   `year:1991`, `pub:1990s`, `kind:film`, `form:verbatim`; `in:` alone is any list, `section:vn.II.C*` a prefix.
+- No publisher in a citation, as Bluebook's: "(2007)", not "(University of North Carolina Press, 2007)"; a work
+  published before 1900 keeps its place of publication and its publisher ("(Venice, Vitale Mascardi 1665)"); a
+  publisher's edition named as such ("Random House ed. 1966") and a film's network stay. A count of volumes after the
+  title: "*Reporting Vietnam*, 2 vols. (1998)". STYLE 5 and 6 in `tools/bib/works.py`; `check` warns [publisher].
 - Change a card with `./bib works set ID FIELD=VALUE` or by hand; tag it with `./bib works tag ID +TAG`. To fix a
   citation, fix the card, not the listing: a listing's `c` written over cuts its pointer.
 - `check` fails on a pointer to no card, a card neither structured nor verbatim, an `in` that comes round to itself;
