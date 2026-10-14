@@ -181,6 +181,8 @@ def thread_person(series, html):
 
 def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", rubric=None):
     """rubric: for a calendar entry laid out by day, the thread line that opens its first sentence."""
+    if hasattr(text_html, "entry"):      # the page's renderer reads the entry's name: tags (a Names line's 'King')
+        text_html.entry = e
     parts = []
     year = (e.get("date") or "")[:4] if lst.kind == "calendar" else None
     subj = None if rubric is not None else entry_subject(lst, e)
@@ -330,8 +332,11 @@ def build_list(series, key, linker=None, half=None):
             lead, rest = namelinks.author_split(series, t)
             return (lead or "") + to_html(rest, resolve)
         if field == "n" and linker and "Names:" in t:
-            t = linker.names_markup(t, key, internal=False)
+            e = text_html.entry or {}
+            tags = {str(x)[5:] for x in e.get("tags") or [] if str(x).startswith("name:")}
+            t = linker.names_markup(t, key, internal=False, tags=tags)
         return to_html(t, resolve)
+    text_html.entry = None
 
     data = page_text(lst, half)
     main = [f"<h1>{esc(data['h1'])}</h1>"]
@@ -434,7 +439,7 @@ class Linker:
                         return x
         return None
 
-    def find_person(self, token, key, codes):
+    def find_person(self, token, key, codes, tags=None):
         def expand(c):                   # 'III.C–D': III.C and III.D
             m = re.match(r"^([IVX]+)\.([A-Z])–([A-Z])$", c)
             return [f"{m.group(1)}.{chr(x)}" for x in range(ord(m.group(2)), ord(m.group(3)) + 1)] if m else [c]
@@ -491,13 +496,18 @@ class Linker:
                         continue
                     cands.append(e)
                     break
+        if len(cands) > 1 and tags:      # a surname two of the section share ('King'): the one the entry tags
+            for c in cands:
+                u = self.name_url(c, token)
+                if u and u.rsplit("#", 1)[-1] in tags:
+                    return c
         if cands:
             return cands[0]
         if len(named) == 1:
             return named[0]
         return natural[0] if len(natural) == 1 and not named else None
 
-    def names_markup(self, chunk, key, internal=True):
+    def names_markup(self, chunk, key, internal=True, tags=None):
         """A calendar note's 'Names: Heller, Tobin (K–J Adm. III.H)': each name marked to link to the person's name
         entry (or, failing one and where internal, to the Part III entry in the reader)."""
         refs = self.refs
@@ -523,7 +533,7 @@ class Linker:
                 if re.match(r"^,\s*$", tok) or not tok.strip():
                     linked.append(tok)
                     continue
-                x = self.find_person(tok, lkey, codes)
+                x = self.find_person(tok, lkey, codes, tags)
                 u = self.name_url(x, tok) if x else None
                 linked.append(f"[[§nmx:{u}|{tok}]]" if u else f"[[§nm:{x['id']}|{tok}]]" if x and internal else tok)
             groups.append("".join(linked) + f" ({ref_part})" + rest)
@@ -602,8 +612,10 @@ class Linker:
                 return m.group(0)
             return ITAL_RE.sub(sub, chunk)
 
+        tags = {str(t)[5:] for t in (e or {}).get("tags") or [] if str(t).startswith("name:")}
+
         def link_names(chunk):
-            return self.names_markup(chunk, lst.key)
+            return self.names_markup(chunk, lst.key, tags=tags)
 
         def render(t, field):
             if field in ("s",):
