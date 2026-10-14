@@ -36,6 +36,12 @@ STYLE:
     (`in`), and takes from it what it lacks. A multi-volume work's short form is Bluebook's: "Logevall, Title,
     2 CHVW 123".
  4. Tags pass down: a card answers a tag query for its own tags and those of every card it is `in`.
+ 5. No publisher: a book's parenthetical gives its editors, edition and year, as Bluebook's does ("(2d ed. 1999)"), not
+    its press ("University of North Carolina Press, 2007" is "2007"). Excepted: a work published before 1900 keeps its
+    place of publication (the city) and its publisher ("Venice, Vitale Mascardi 1665"); a publisher's edition named as
+    such ("Random House ed. 1966"); a film's or a program's network. `check` warns on a press in `paren` [publisher].
+ 6. A count of volumes stands after the title, before the parenthetical: "*Reporting Vietnam*, 2 vols. (1998)". A card
+    writes it at the head of `paren` ("2 vols., 1998"), and `render` puts it outside (`paren`).
 """
 import os
 import re
@@ -204,6 +210,17 @@ def caps_verbatim(c):
     return (sc(m.group("a")) + ", " if m.group("a") else "") + sc(m.group("t")) + rest
 
 
+VOLS = re.compile(r"^(\d+ vols\.),?\s*")
+
+
+def paren(p):
+    """The parenthetical; a count of volumes stands before it, Bluebook's way: '*Title*, 2 vols. (1998)'."""
+    m = VOLS.match(p)
+    if m:
+        return f", {m.group(1)}" + (f" ({p[m.end():]})" if p[m.end():] else "")
+    return f" ({p})"
+
+
 def render(f, omit_author=False, cat=None, caps=False):
     """The full citation, as the lists print it. A card `in` another (a chapter in a volume) needs the catalogue
     (`cat`) to find it. caps: in Bluebook's typefaces (above)."""
@@ -223,7 +240,7 @@ def render(f, omit_author=False, cat=None, caps=False):
         cite = f"{f['vol']} {sc(f['journal']) if caps else f['journal']} {f['page']}"
         out += ", " + (f"[{cite}]({f['link']})" if f.get("link") else cite)
     if f.get("paren"):
-        out += f" ({f['paren']})"
+        out += paren(f["paren"])
     else:
         roles = [f"{join_names(f[r])} {lab}" for r, lab in (("editor", "eds." if len(f.get("editor") or []) > 1 else "ed."),
                                                            ("translator", "trans."), ("director", "dir."))
@@ -258,7 +275,7 @@ def render_part(f, omit_author, cat, caps=False):
         shell.setdefault("year", (cat.get(vol["in"]) or {}).get("year"))
     roles = [f"{join_names(shell[r])} {lab}" for r, lab in (("editor", "eds." if len(shell.get("editor") or []) > 1 else "ed."),
                                                            ("translator", "trans.")) if shell.get(r)]
-    out += f" ({shell['paren']})" if shell.get("paren") else " (" + ", ".join(roles + [str(shell.get("year") or "")]) + ")"
+    out += paren(shell["paren"]) if shell.get("paren") else " (" + ", ".join(roles + [str(shell.get("year") or "")]) + ")"
     if vol.get("online"):
         out += f" ([online]({vol['online']}))"
     return out
@@ -905,6 +922,10 @@ def filing(series, cid):
 
 # ---------------------------------------------------------------- check
 
+PUBLISHER = re.compile(r"\b(?:Press|Books|Publish\w*|Verlag|Éditions|Library of America|Morrow|Norton|Knopf|Doubleday|"
+                       r"Macmillan|Harper|Random House|Houghton|Viking|Scribner|Putnam|Wiley|Routledge|Praeger|"
+                       r"Little, Brown|Schuster|Co\.|Inc\.)")
+
 def problems(series):
     """(level, where, message): errors fail `check`; warnings are shown."""
     cat = series.works
@@ -930,6 +951,9 @@ def problems(series):
                 break
             steps.add(x)
             x = (cat.get(x) or {}).get("in")
+        if PUBLISHER.search(c.get("paren") or "") and not re.search(r"\bed\.", c.get("paren")) \
+                and "ok:publisher" not in store.as_list(c.get("tags")):
+            out.append(("warn", where, f"{cid}: no publisher in the parenthetical: {c['paren']} [publisher]"))
         if cat.file_of.get(cid) != f"{letter(cid)}.yaml":
             out.append(("warn", where, f"{cid}: belongs in works/{letter(cid)}.yaml"))
         for a in [cid] + store.as_list(c.get("aliases")):

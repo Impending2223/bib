@@ -199,7 +199,7 @@ entries:
     also: [specials]
     c: Tower beats Blakley in the runoff by about ten thousand votes. The first Republican senator elected from the former Confederacy since Reconstruction. Swing 9.1 to R from Johnson's 1960 race.
     n: 'See [[cal.1961-04-04.states-and-cities]]. Names: Tower (Opp. III.B); Blakley (K–J Cong. III.B).'
-    tags: [special:1961-05-27-s-TX-2, name:tower-john-g, name:blakley-william-a, name:johnson-lyndon-b]
+    tags: [special:1961-05-27-s-TX-2, name:tower-john-g, name:blakley-william-a, name:johnson-lyndon-b, state:tx]
   - id: cal.1961-05-28.opinion
     when: May 28–June 2
     date: '1961-05-28'
@@ -213,6 +213,7 @@ entries:
     thread: court
     c: '*McGowan v. Maryland*, [366 U.S. 420](https://tile.loc.gov/storage-services/service/ll/usrep/usrep366/usrep366420/usrep366420.pdf). Sunday laws upheld.'
     n: See [[cal.1961-01-23.court]].
+    tags: [state:md]
   - id: cal.1961-05-29.freedom-rides
     when: May 29
     date: '1961-05-29'
@@ -231,10 +232,11 @@ entries:
   - id: cal.1961-05-31.states-and-cities
     when: May 31
     date: '1961-05-31'
-    thread: states-and-cities
-    c: Sam Yorty unseats Mayor Norris Poulson in Los Angeles.
-    n: '[[w.bollens-yorty]]. Names: Yorty (K–J Cong. III.F).'
-    tags: [name:yorty-sam, name:poulson-norris]
+    thread: mayors
+    also: [elections-1961]
+    c: Los Angeles runoff. Sam Yorty unseats Mayor Norris Poulson, 275,249 to 259,760, 51.5 percent.
+    n: 'Votes: [Wikipedia, "1961 Los Angeles mayoral election"](https://en.wikipedia.org/wiki/1961_Los_Angeles_mayoral_election); Check: the City Clerk''s canvass. [[w.bollens-yorty]]. See [[cal.1961-04-04.mayors-los-angeles]]. Names: Yorty (K–J Cong. III.F).'
+    tags: [name:yorty-sam, name:poulson-norris, state:ca, city:los-angeles]
   - id: cal.1961-05-31.berlin-and-vienna
     when: May 31–June 2
     date: '1961-05-31'
@@ -255,3 +257,19 @@ entries:
     also: [space]
     c: 'Gallup, May 17–22: $40 billion, about $225 a person, to send a man to the moon. 33 percent for, 58 against.'
     n: '[[w.gallup-poll]], III, 1720.'
+  - id: cal.1961-05.antisubversion-ca
+    when: May
+    date: 1961-05
+    thread: antisubversion
+    also: [students]
+    c: 'California. The Senate''s Fact-Finding Subcommittee on Un-American Activities, Burns chairman, its eleventh report, to the Legislature: the Communist Party "has steadily been gaining strength"; the student riots at the HUAC hearings in San Francisco, May 1960; SLATE and the student groups at Berkeley; the University of California. Check the month: the report cites events to Apr. 26.'
+    n: '[*Un-American Activities in California, 1961: Report of the Senate Fact-Finding Subcommittee on Un-American Activities*](https://archive.org/details/1961ReportOfCaliforniaSenateFactfindingSubcommitteeOnUnAmericanActivities) (1961). [[w.heale-mccarthys-americans]]; [[w.rorabaugh-berkeley-at-war]]. See [[cal.1960-05-12.students]]. Names: Burns (K–J Cong. III.K).'
+    tags: [state:ca, city:berkeley, city:san-francisco, name:burns-hugh-m]
+  - id: cal.1961-05.mayors-omaha
+    when: May
+    date: 1961-05
+    thread: mayors
+    also: [elections-1961]
+    c: Omaha elects Dworak (D), a city councilman, mayor, by 342 votes over an Omaha attorney; the mayor not running.
+    n: '[Wikipedia, "James Dworak"](https://en.wikipedia.org/wiki/James_Dworak); [Wikipedia, "List of mayors of Omaha, Nebraska"](https://en.wikipedia.org/wiki/List_of_mayors_of_Omaha,_Nebraska) (Check: the day and the vote, from the Douglas County Election Commissioner). [[w.peirce-great-plains-states-of]]. Names: Dworak (K–J Cong. III.F).'
+    tags: [state:ne, city:omaha, name:dworak-james-j]

@@ -17,6 +17,14 @@ entries:
     also: [berlin-and-vienna]
     c: 'Gallup, Oct. 19–24: if Berlin is settled peacefully, a long peace, 12 percent; the Russians soon stirring up strife again, 78.'
     n: '[[w.gallup-poll]], III, 1741.'
+  - id: cal.1961-11-01.health-ct
+    when: Nov. 1–10
+    date: '1961-11-01'
+    thread: health
+    also: [court]
+    c: 'New Haven. The Planned Parenthood League of Connecticut opens a center under Griswold, its executive director, and Buxton, of the Yale medical school, its medical director: advice and contraceptives for married persons, in defiance of the law of 1879. Arrested Nov. 10, as accessories.'
+    n: '*Griswold v. Connecticut*, [381 U.S. 479](https://tile.loc.gov/storage-services/service/ll/usrep/usrep381/usrep381479/usrep381479.pdf), 480 (1965). [[w.garrow-liberty-and-sexuality]]. See [[cal.1961-06-19.court]]. Names: Griswold, Buxton (K–J Cong. III.K).'
+    tags: [state:ct, city:new-haven, name:griswold-estelle, name:buxton-c-lee]
   - id: cal.1961-11-02.right-and-the-military
     when: Nov. 2
     date: '1961-11-02'
@@ -63,10 +71,11 @@ entries:
   - id: cal.1961-11-07.states-and-cities
     when: Nov. 7
     date: '1961-11-07'
-    thread: states-and-cities
-    c: Wagner reelected mayor of New York. In New Jersey Hughes (D) beats Mitchell, Eisenhower's Labor Secretary, for governor.
-    n: 'See [[cal.1961-09-07.states-and-cities]]. Names: Wagner (K–J Cong. III.F).'
-    tags: [name:wagner-robert-f-jr, name:mitchell-james-p, name:eisenhower-dwight-d, name:hughes-richard-j]
+    thread: elections-1961
+    also: [mayors, governors]
+    c: 'Off-year elections. New York: Wagner re-elected mayor, 1,237,421 votes, 51.0 percent; Lefkowitz (R) 835,691; Gerosa, independent, 321,604. New Jersey: Hughes (D) governor over Mitchell, Eisenhower''s Labor Secretary.'
+    n: 'Votes: [Wikipedia, "1961 New York City mayoral election"](https://en.wikipedia.org/wiki/1961_New_York_City_mayoral_election); Check: the Board of Elections'' canvass. See [[cal.1961-09-07.states-and-cities]]. Names: Wagner (K–J Cong. III.F).'
+    tags: [name:wagner-robert-f-jr, name:mitchell-james-p, name:eisenhower-dwight-d, name:hughes-richard-j, state:ny, city:nyc, state:nj]
   - id: cal.1961-11-07.specials
     when: Nov. 7
     date: '1961-11-07'
@@ -74,6 +83,78 @@ entries:
     c: Michigan 1st, special. Nedzi (D) holds Machrowicz's seat, 85.5 percent. Swing 3.2 to R.
     n: 'Shares: Wikipedia. See [[cal.1961-04-04.states-and-cities]].'
     tags: [special:1961-11-07-h-MI-1, name:nedzi-lucien-n, name:machrowicz-thaddeus-m]
+  - id: cal.1961-11-07.mayors-ny
+    when: Nov. 7
+    date: '1961-11-07'
+    thread: mayors
+    also: [elections-1961]
+    c: 'New York''s cities upstate. Buffalo: Kowal (R), the city comptroller, elected mayor; Sedita (D), mayor since 1958, out (Check: beaten in the primary or in November). Syracuse: Walsh (R), Onondaga County''s welfare commissioner, elected mayor. Albany, N.Y.: Corning (D), mayor since 1942, elected to a sixth term.'
+    n: '[Wikipedia, "List of mayors of Buffalo, New York"](https://en.wikipedia.org/wiki/List_of_mayors_of_Buffalo,_New_York); ["William F. Walsh"](https://en.wikipedia.org/wiki/William_F._Walsh); ["Erastus Corning 2nd"](https://en.wikipedia.org/wiki/Erastus_Corning_2nd). Check: the county boards of elections'' canvasses. [[w.goldman-high-hopes]]; [[w.grondahl-mayor-corning]]. See [[cal.1961-11-07.states-and-cities]]. Names: Kowal, Sedita, Corning (K–J Cong. III.F).'
+    tags: [state:ny, city:buffalo, city:syracuse, city:albany, name:kowal-chester, name:sedita-frank-a, name:walsh-william-f, name:corning-erastus]
+  - id: cal.1961-11-07.state-constitutions-nyc
+    when: Nov. 7
+    date: '1961-11-07'
+    thread: state-constitutions
+    also: [elections-1961]
+    c: 'New York City''s voters approve a new charter, in force Jan. 1, 1963: the mayor''s powers over the budget and the city''s departments enlarged, the borough presidents'' public works moved to city departments; the City Council to have two members at large from each borough, one seat each for the minority. Check the vote.'
+    n: '[The charter as revised, 1963](https://archive.org/details/newyorkcitychart00newy_0). [Wikipedia, "New York City Charter"](https://en.wikipedia.org/wiki/New_York_City_Charter). Check: *New York Times*, Nov. 8, 1961. [[w.sayre-governing-new-york-city]]; [[w.morris-cost-of-good-intentions]]. See [[cal.1961-11-07.states-and-cities]].'
+    tags: [state:ny, city:nyc]
+  - id: cal.1961-11-07.mayors-detroit
+    when: Nov. 7
+    date: '1961-11-07'
+    thread: mayors
+    also: [elections-1961]
+    c: Detroit. Cavanagh, a lawyer of 33 in his first race, over Mayor Miriani in the nonpartisan election, 200,413 to 158,778, 55.8 percent, by the unofficial count; second to Miriani in the primary of September. Negro voters largely for Cavanagh.
+    n: '*Pontiac Press*, [Nov. 8, 1961](https://our.oakland.edu/items/ffc24d06-2a3b-4d7c-b5dd-dc440fd8e6a4), p. 1 (Check: the city clerk''s canvass). [[w.fine-violence-in-the-model]]; [[w.sugrue-origins-of-the-urban]]; [[w.thompson-whose-detroit]]. Names: Cavanagh, Miriani (K–J Cong. III.F).'
+    tags: [state:mi, city:detroit, name:cavanagh-jerome-p, name:miriani-louis-c]
+  - id: cal.1961-11-07.mayors-cleveland
+    when: Nov. 7
+    date: '1961-11-07'
+    thread: mayors
+    also: [elections-1961]
+    c: Cleveland. Celebrezze (D) a fifth term, 145,972 to 53,302, 73.3 percent, over Albina Cermak (R), the first woman to run for mayor of the city.
+    n: 'Votes: [Wikipedia, "1961 Cleveland mayoral election"](https://en.wikipedia.org/wiki/1961_Cleveland_mayoral_election), from Our Campaigns (Check: the Cuyahoga County Board of Elections). [[w.peirce-great-lakes-states-of]]. Names: Celebrezze (K–J Adm. III.G); Cermak (K–J Cong. III.F).'
+    tags: [state:oh, city:cleveland, name:celebrezze-anthony-j, name:cermak-albina]
+  - id: cal.1961-11-07.governors-nj
+    when: Nov. 7
+    date: '1961-11-07'
+    thread: governors
+    also: [elections-1961]
+    c: New Jersey. Hughes (D) governor over Mitchell (R), 1,084,194 to 1,049,274, 50.4 percent.
+    n: '[*Results of the General Election Held November 7, 1961*](https://www.nj.gov/state/elections/assets/pdf/election-results/1920-1970/1961-general-election.pdf) (Secretary of State); figures here from [Wikipedia, "1961 New Jersey gubernatorial election"](https://en.wikipedia.org/wiki/1961_New_Jersey_gubernatorial_election); check against the Results. See [[cal.1961-04-18.governors-nj]]. Names: Hughes (K–J Cong. III.F).'
+    tags: [state:nj, name:hughes-richard-j, name:mitchell-james-p]
+  - id: cal.1961-11-07.mayors-pittsburgh
+    when: Nov. 7
+    date: '1961-11-07'
+    thread: mayors
+    also: [elections-1961]
+    c: Pittsburgh. Barr (D), mayor since 1959, elected to a full term over the Republican, an insurance agent, 124,082 to 60,522, 67.2 percent.
+    n: '[Wikipedia, "1961 Pittsburgh mayoral election"](https://en.wikipedia.org/wiki/1961_Pittsburgh_mayoral_election), from the *Pittsburgh Post-Gazette*; check against the Allegheny County returns. [[w.beers-pennsylvania-politics-today-and]]; [[w.peirce-mid-atlantic-states-of]]. Names: Barr (K–J Cong. III.F).'
+    tags: [state:pa, city:pittsburgh, name:barr-joseph-m]
+  - id: cal.1961-11-07.governors-va
+    when: Nov. 7
+    date: '1961-11-07'
+    thread: governors
+    also: [elections-1961]
+    c: 'Virginia: Harrison (D) elected governor over Pearson (R), a former delegate, 251,861 to 142,567, 63.8 percent. Godwin lieutenant governor.'
+    n: 'Votes: Wikipedia, ["1961 Virginia gubernatorial election"](https://en.wikipedia.org/wiki/1961_Virginia_gubernatorial_election), from Our Campaigns. Check: State Board of Elections, *Votes Cast for Governor, Lieutenant Governor and Attorney General ... General Election, November 7, 1961*. See [[cal.1961-07-11.governors-va]]. Names: Harrison (K–J Cong. III.F); Pearson, Godwin (K–J Cong. III.K).'
+    tags: [state:va, name:harrison-albertis-s-jr, name:pearson-h-clyde, name:godwin-mills-e-jr]
+  - id: cal.1961-11-07.mayors-louisville
+    when: Nov. 7
+    date: '1961-11-07'
+    thread: mayors
+    also: [elections-1961]
+    c: 'Louisville: Cowger (R) elected mayor, succeeding Hoblitzell (D); Schmied (R) to the board of aldermen, its president (Check: the opponent and the vote).'
+    n: 'Check: the Jefferson County returns; the *Courier-Journal*, Nov. 8, 1961. [[w.kmeyer-civil-rights-in-the]]. See [[cal.1961-11-07.states-and-cities]].'
+    tags: [state:ky, city:louisville, name:cowger-william-o]
+  - id: cal.1961-11-07.mayors-springfield
+    when: Nov. 7
+    date: '1961-11-07'
+    thread: mayors
+    also: [elections-1961]
+    c: Springfield, Mass., the city's first nonpartisan election for mayor. Ryan over O'Connor, mayor since 1958 and the Democrats' nominee against Saltonstall in 1960, 28,999 to 26,471, 52.3 percent. O'Connor had led the primary of Oct. 10, 34.5 percent.
+    n: '[Wikipedia, "Mayoral elections in Springfield, Massachusetts"](https://en.wikipedia.org/wiki/Mayoral_elections_in_Springfield,_Massachusetts). Check against the city''s returns. [[w.peirce-new-england-states]]. Names: Ryan, O''Connor (K–J Cong. III.F).'
+    tags: [state:ma, city:springfield, name:ryan-charles-v, name:oconnor-thomas-j-jr, name:saltonstall-leverett]
   - id: cal.1961-11-08.vietnam
     when: Nov. 8–11
     date: '1961-11-08'
@@ -81,6 +162,14 @@ entries:
     c: 'McNamara, Gilpatric, and the Chiefs advise a commitment, with troops; up to six divisions. Nov. 11: McNamara and Rusk advise deferring troops.'
     n: '[FRUS vol. 1](https://history.state.gov/historicaldocuments/frus1961-63v01). [[w.kaiser-american-tragedy]]. See [[cal.1961-01-28.vietnam]]. Names: McNamara, Rusk (Viet. III.A).'
     tags: [name:mcnamara-robert-s, name:gilpatric-roswell-l, name:rusk-dean]
+  - id: cal.1961-11-09.legislatures-ny
+    when: Nov. 9–10
+    date: '1961-11-09'
+    thread: legislatures
+    also: [defense]
+    c: Special session at Albany, N.Y., called by Rockefeller. New congressional districts on the 1960 census, the State's seats down from 43 to 41, the city's delegation by three. State aid for fallout shelters in schools and colleges (Check the sums).
+    n: '[*New York Times*, Oct. 22, 1961](https://www.nytimes.com/1961/10/22/archives/albany-session-set-on-shelters-and-districting-governor-calls.html); [*New York Times*, Nov. 11, 1961](https://www.nytimes.com/1961/11/11/archives/voting-is-close-city-house-delegation-cut-by-three-bill-bitterly.html); [Wikipedia, "173rd New York State Legislature"](https://en.wikipedia.org/wiki/173rd_New_York_State_Legislature). Check: *Laws of New York*, 1961, Extraordinary Session. [[w.connery-rockefeller-of-new-york]]; [[w.persico-imperial-rockefeller]]. See [[cal.1961-07-25.berlin-and-vienna]]. Names: Rockefeller (Opp. III.H).'
+    tags: [state:ny, name:rockefeller-nelson]
   - id: cal.1961-11-10.opinion
     when: Nov. 10
     date: '1961-11-10'
@@ -158,6 +247,14 @@ entries:
     also: [testing]
     c: 'Gallup, Nov. 17–22: the United States to start testing in the atmosphere, 44 percent; not, 45.'
     n: '[[w.gallup-poll]], III, 1743.'
+  - id: cal.1961-11-26.states-and-cities-nh
+    when: Nov. 26–Dec. 7
+    date: '1961-11-26'
+    thread: states-and-cities
+    also: [congress]
+    c: Styles Bridges, Senator from New Hampshire since 1937, dies, Nov. 26. Powell names Murphy, 34, his attorney general since Nov. 4 and once his administrative assistant, to the seat until the election of 1962, Dec. 7.
+    n: '[Wikipedia, "Maurice J. Murphy Jr."](https://en.wikipedia.org/wiki/Maurice_J._Murphy_Jr.). Check Murphy''s age. [[w.peirce-new-england-states]]. Names: Powell (K–J Cong. III.F); Murphy (K–J Cong. III.K).'
+    tags: [state:nh, name:bridges-henry-s, name:powell-wesley, name:murphy-maurice-j-jr]
   - id: cal.1961-11-28.transition-and-staff
     when: Nov. 28
     date: '1961-11-28'
