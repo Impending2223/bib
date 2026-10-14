@@ -123,6 +123,7 @@ congress/changes.yaml     departures and successors during each Congress (genera
 congress/specials.yaml    special elections during each Congress, 87th–93rd, with candidates (generated)
 congress/switches.yaml    members who changed party in office (kept by hand)
 elections/governors.yaml  every general election for governor, 1960–66 (generated from Wikipedia; never edit)
+elections/legislatures.yaml  each State legislature's parties by session, 1959–67 (generated from Klarner; never edit)
 sources/states.yaml       each State's own official election publications, where to read them, what they print (kept by hand)
 daybook/<YYYY-MM>.yaml    every Public Papers (APP) and FRUS document by date (generated)
 daybook/abstracts.yaml    one-sentence abstracts, keyed by document (kept by hand or agent)
@@ -740,6 +741,8 @@ sources/name-forms.yaml       kept by hand: the other forms of each name Part II
 sources/frus-joins.yaml       kept by hand: persons FRUS's lists alone give who are one (Faisal's five forms) or two
                               (`apart`), by key, each with its reason; `check` fails on a key that names no one
 sources/app-places.yaml       kept by hand: places in more than one State, for telling two of a shared title apart
+sources/people-apart.yaml     kept by hand: two names the rules would join that are two persons (Robert Moses the builder,
+                              Robert P. Moses of SNCC), each pair with its reason; `check` fails on a name no source writes
 ```
 
 Namesakes in the FRUS and APP indexes: a further given name or initial tells two apart ('John W.' is not 'John G.';
@@ -860,6 +863,23 @@ the script (Georgia, 1966: the legislature elected Maddox; Minnesota, 1962: the 
   day's table.
 - The primaries for governor are calendar entries (thread "Governors"), their figures cited in each entry.
 
+## Legislatures
+
+`elections/legislatures.yaml`, written by `tools/elections/make_legislatures.py` from Carl Klarner's State Partisan
+Balance Data (Harvard Dataverse; the seats compiled from the *Book of the States* and the States' manuals; never edit):
+each State's Senate and House by session, 1959–67, as in session (Democrats, Republicans, others, vacancies), the
+proportion needed to override the governor's veto (the 1956 provisions) and the governor's party. `HAND` in the script
+for what the data cannot say (North Carolina's governor had no veto; Minnesota's and Nebraska's nonpartisan
+legislatures); `HAND_YEAR` a Check (Kansas, 1967). `tools/bib/legislatures.py` renders them (STYLE notes there):
+
+- A calendar entry tagged `legislatures:<YYYY>` (the year the session met: 1961 for the legislatures chosen in Nov.
+  1960) carries the session's map and table: a party's color where it holds both chambers, light for a majority,
+  middle for the State's override proportion where that lies between a majority and two-thirds, dark for two-thirds
+  of both (the Presentment Clause's and Article V's proportion); divided gray; Nebraska the vacant fill. Now the
+  four "legislatures-us" entries of Nov. 1960, 1962, 1964 and 1966.
+- Article V's analogue is drawn at the federal two-thirds for every State: each State's own rule for proposing an
+  amendment (the vote, the sessions) is not yet in the data; the *Book of the States*, 1960–67, prints it.
+
 ## Rosters and elections, linked
 
 `tools/bib/seatlinks.py`. Under each member at an opening, a muted line: the election that seated him ("Elected Nov. 8,
@@ -881,8 +901,8 @@ race, and in presidential years the vote for President by State with the elector
 `election:<year>` carries its block too (now Nov. 8, 1960, Nov. 6, 1962, and Nov. 8, 1966). A block: the electoral and popular vote
 first, then by chamber the seats won, the net change from the close of the last Congress, pickups,
 and new members; one view switch for every map (Result; Margin, the winner's lead over the runner-up in points of all the votes, by the quantile rule; Swing, continuous); the
-President's map above the House and Senate, with a States | Flips | Electors switch (Flips: in Result, the
-States that flipped dark, the others light; Electors: a dot an elector, as voted); the Senate map with a Senators toggle (a dot a seat, larger than the House's: `PB`, `RB`); and every race in tables:
+President's map above the House and Senate, with a States | Pickups | Electors switch (Pickups: in Result, the
+States that changed party dark, the others light; Electors: a dot an elector, as voted); the Senate map with a Senators toggle (a dot a seat, larger than the House's: `PB`, `RB`); and every race in tables:
 candidates with party, votes and share, the margin in votes and in points of all the votes cast, and
 a note. Pickups are shaded in the winner's color, other member changes in gray. Members of neither
 major party count with the party they caucused with, and are labeled so ("Conservative, caucusing
@@ -942,7 +962,7 @@ tools/bib/elections.py              renders the blocks and checks the data (STYL
   `review/READER.md`; `review.py verify`, then `merge`; rerun `make_elections.py` (it should
   leave nothing); `review.py audit YEAR`; `./bib check`; then tag the calendar entry.
 - Colors are tokens at the top of `templates/congress.html` (its CSS is in commented
-  sections). Result and Flips: four steps a side (`--eR1`–`--eR4`, `--eB1`–`--eB4`).
+  sections). Result and Pickups: four steps a side (`--eR1`–`--eR4`, `--eB1`–`--eB4`).
   Margin: a straight line in OKLab from `--rW` (near white) at a tie to `--rR`/`--rB`, the darkest steps, by the
   quantile rule: a margin's position is the share of the 2,291 contested races for presidential electors,
   1824–2024, decided by less (`elections/pres-margins.csv`, written by `tools/elections/pres_margins.py`; the

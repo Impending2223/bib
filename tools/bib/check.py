@@ -190,6 +190,10 @@ def run(series, only=None):
     from . import governors
     for where, msg in governors.problems(series):
         add(ERROR, where, msg, "governors")
+    # the State legislatures by session (elections/legislatures.yaml)
+    from . import legislatures
+    for where, msg in legislatures.problems(series):
+        add(ERROR, where, msg, "legislatures")
     # races settled by hand for the lives (sources/race-matches.yaml)
     from . import lives
     for where, msg in lives.problems(series):

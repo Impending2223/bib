@@ -1,6 +1,6 @@
 <style>
 /* Colors, light and dark. p: the parties (pDs Southern Democrats; pT a third ticket). e: the election scales.
-   Result and Flips: four steps a side, eR1-eR4 and eB1-eB4 (held 2, the President's winner 3, a pickup or flip
+   Result and Pickups: four steps a side, eR1-eR4 and eB1-eB4 (held 2, the President's winner 3, a pickup
    4). Margin: a straight line in OKLab from rW (near white; a dark gray in dark mode) at a tie out to rR or rB,
    the step-4 colors (rA, amber, a third ticket), placed by the quantile rule (QM in the script). Swing: from eN,
    gray, at none to eR4 or eB4 at SWING points. eN also the gray of other member changes in the tables; eNone no
@@ -213,13 +213,13 @@ details.cgr.er td:nth-child(3){font-weight:400}
     return [x0,y0,x1,y1];}
   // ---- the President: States (result, winner's margin, swing) or Electors (a dot an elector, as voted)
   var OFFE=[['VT',1],['NH',2],['MA',5],['RI',2],['CT',3],['NJ',5],['DE',3],['MD',4],['DC',3]];
-  // Result: the winner's color; in Flips, the Congress maps' scheme (held light, flipped dark)
-  function pFill(m,mode,flips){var h=HUE[m.p]; if(!h) return 'pO';
+  // Result: the winner's color; in Pickups, the Congress maps' scheme (held light, picked up dark)
+  function pFill(m,mode,pickups){var h=HUE[m.p]; if(!h) return 'pO';
     if(mode==='s') return win(m);
     if(mode==='w') return swung(m);
-    return 'e'+h+(flips?(m.k==='flip'?'4':'2'):'3');}
+    return 'e'+h+(pickups?(m.k==='pickup'?'4':'2'):'3');}
   function pText(st,m){var t=st+': '+m.n+(m.sh!=null?' '+m.sh.toFixed(1)+'%':'')+(m.mg!=null?', by '+m.mg.toFixed(1)+' pts':'');
-    if(m.k==='flip') t+='; flipped'; else if(m.k==='new') t+='; first vote';
+    if(m.k==='pickup') t+='; a pickup'; else if(m.k==='new') t+='; first vote';
     if(m.sw!=null) t+='; '+swingText(m);
     return t+'; electors: '+m.cast.map(function(c){return c[1]+' '+c[2];}).join(', ');}
   function drawP(fig,ps){
@@ -231,8 +231,8 @@ details.cgr.er td:nth-child(3){font-weight:400}
       lod.forEach(function(e){e.setAttribute('d',geo(e._ref,fine));});},120);}
     var g=el('g'), base=el('g',{'class':'lb'}), sts=el('g',{'class':'ld'}), lines=el('g'), blocks=el('g',{'class':'lk'});
     g.appendChild(base); g.appendChild(sts); g.appendChild(lines); g.appendChild(blocks); svg.appendChild(g);
-    var painted=[], flips=Object.keys(ps).filter(function(st){return ps[st].k==='flip';}).length;
-    function pf(m){return pFill(m,mode(),fig.classList.contains('flips'));}
+    var painted=[], pickups=Object.keys(ps).filter(function(st){return ps[st].k==='pickup';}).length;
+    function pf(m){return pFill(m,mode(),fig.classList.contains('pickups'));}
     Object.keys(G.states).forEach(function(st){var m=ps[st];
       var e=shp('s:'+st,{}); paint(e,'d',m?pf(m):'eNone');
       if(m){link(m.id,e,pText(st,m),'s:'+st,m.p,m); painted.push(e);} else {var t=el('title'); t.textContent=st+': no vote'; e.appendChild(t);}
@@ -274,13 +274,13 @@ details.cgr.er td:nth-child(3){font-weight:400}
     var z=zoom(svg,g,onScale,function(e){var t=e.target.closest&&e.target.closest('[data-row]'); if(!t){z.reset(); return true;} return false;});
     bar.addEventListener('click',function(e){var b=e.target.closest('button'); if(!b) return; var f=+b.dataset.z; if(!f) z.reset(); else z.by(f);});
     function say(t){info.innerHTML=''; info.appendChild(document.createTextNode(t.getAttribute('data-who')+' '));
-      var a=document.createElement('a'); a.href='#'+t.getAttribute('data-row'); a.textContent='Returns \u2193'; info.appendChild(a);}
+      var a=document.createElement('a'); a.href='#'+t.getAttribute('data-row'); a.textContent=fig.dataset.rows||'Returns \u2193'; info.appendChild(a);}
     svg.addEventListener('click',function(e){if(z.moved()) return; var t=e.target.closest('[data-row]'); if(t) say(t);});
     blocks.addEventListener('mouseover',function(e){var t=e.target.closest('.dot'); if(t) say(t);});
-    // States | Flips | Electors; Flips is the States in the Congress maps' scheme, Result view only
+    // States | Pickups | Electors; Pickups is the States in the Congress maps' scheme, Result view only
     var tog=document.createElement('div'); tog.className='cgt';
     tog.innerHTML='<button type="button" data-v="s" aria-pressed="true">States</button>'
-      +(flips?'<button type="button" data-v="f" aria-pressed="false" title="The States that went to another party than at the last election dark, the others light (Result view)">Flips</button>':'')
+      +(pickups?'<button type="button" data-v="f" aria-pressed="false" title="The States that went to another party than at the last election dark, the others light (Result view)">Pickups</button>':'')
       +'<button type="button" data-v="e" aria-pressed="false">Electors</button>';
     foot.insertBefore(tog,foot.firstChild);
     var fx=tog.querySelector('[data-v="f"]');
@@ -289,7 +289,7 @@ details.cgr.er td:nth-child(3){font-weight:400}
       painted.forEach(function(e){paint(e,e._dc?'dc':'d',pf(e._m));});};
     function setView(v){
       [].forEach.call(tog.children,function(x){x.setAttribute('aria-pressed',x.dataset.v===v?'true':'false');});
-      fig.classList.toggle('dots',v==='e'); fig.classList.toggle('flips',v==='f'); blk.dataset.pv=v;
+      fig.classList.toggle('dots',v==='e'); fig.classList.toggle('pickups',v==='f'); blk.dataset.pv=v;
       var was=svg._vb[2]; svg._vb=(v==='e'?VBD:VB).slice(); svg.setAttribute('viewBox',svg._vb.join(' '));
       frame.style.aspectRatio=svg._vb[2]+'/'+svg._vb[3]; if(was!==svg._vb[2]) z.reset();
       info.textContent=v==='e'?EHINT:HINT;
@@ -324,13 +324,13 @@ details.cgr.er td:nth-child(3){font-weight:400}
     bar.innerHTML='<button type="button" data-z="1.8" aria-label="Zoom in">+</button><button type="button" data-z="0.55" aria-label="Zoom out">&minus;</button><button type="button" data-z="0" aria-label="Reset">&#8634;</button>';
     fig.appendChild(bar);
     var foot=document.createElement('div'); foot.className='cgf';
-    var info=document.createElement('p'); info.className='cgi'; info.textContent='Click a State for its returns.'; foot.appendChild(info);
+    var info=document.createElement('p'); info.className='cgi'; info.textContent=fig.dataset.info||'Click a State for its returns.'; foot.appendChild(info);
     fig.appendChild(foot);
     var z=zoom(svg,g,onScale,function(e){var t=e.target.closest&&e.target.closest('[data-row]'); if(!t){z.reset(); return true;} return false;});
     bar.addEventListener('click',function(e){var b=e.target.closest('button'); if(!b) return; var f=+b.dataset.z; if(!f) z.reset(); else z.by(f);});
     svg.addEventListener('click',function(e){if(z.moved()) return; var t=e.target.closest('[data-row]'); if(!t) return;
       info.innerHTML=''; info.appendChild(document.createTextNode(t.getAttribute('data-who')+' '));
-      var a=document.createElement('a'); a.href='#'+t.getAttribute('data-row'); a.textContent='Returns \u2193'; info.appendChild(a);});
+      var a=document.createElement('a'); a.href='#'+t.getAttribute('data-row'); a.textContent=fig.dataset.rows||'Returns \u2193'; info.appendChild(a);});
     fig._recolor=function(){painted.forEach(function(e){paint(e,e._dc?'dc':'d',qf(e._m));});};
   }
   function draw(fig,c,seats){
@@ -519,11 +519,12 @@ details.cgr.er td:nth-child(3){font-weight:400}
               tx=V[0]+V[2]/2-s*(bb[0]+bb[2])/2; ty=V[1]+V[3]/2-s*(bb[1]+bb[3])/2; apply();}};
   }
   function open(id){var r=document.getElementById(id);if(r){var d=r.closest('details');if(d)d.open=true;r.classList.add('hit');setTimeout(function(){r.classList.remove('hit');},2000);}}
-  document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href^="#cg"],a[href^="#e1"],a[href^="#pq"]');if(a)open(a.getAttribute('href').slice(1));},true);
-  if(/^#(cg|e1|pq)/.test(location.hash))open(location.hash.slice(1));
+  document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href^="#cg"],a[href^="#e1"],a[href^="#pq"],a[href^="#gv"],a[href^="#lg"]');if(a)open(a.getAttribute('href').slice(1));},true);
+  if(/^#(cg|e1|pq|gv|lg)/.test(location.hash))open(location.hash.slice(1));
   // election blocks: one view switch for both maps and the key
   [].forEach.call(document.querySelectorAll('.cg.el'),function(b){
     var vs=(b.querySelector('[data-views]')||{dataset:{views:'r s'}}).dataset.views.split(' ');
+    if(vs.length<2){b.dataset.view='r'; return;}          // one view: no switch (the legislatures)
     var names={r:'Result',s:'Margin',w:'Swing'};
     var bar=document.createElement('div'); bar.className='cgt elt';
     bar.innerHTML=vs.map(function(v){return '<button type="button" data-v="'+v+'" aria-pressed="'+(v==='r')+'">'+names[v]+'</button>';}).join('');

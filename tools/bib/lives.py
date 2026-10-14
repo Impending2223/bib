@@ -1228,6 +1228,11 @@ def problems(series):
     from .elections import load
     where = "sources/race-matches.yaml"
     names = {n for p in cached("people", lambda: people(series)) for n in p["names"]}
+    ap = os.path.join(store.ROOT, "sources", "people-apart.yaml")
+    for x in ((store.load_yaml(ap) or []) if os.path.exists(ap) else []):
+        for n in x.get("names") or []:
+            if n not in names:
+                yield "sources/people-apart.yaml", f"{n}: no source writes this name"
     keys = {}
     for y, d in sorted(load().items()):
         for r in (d or {}).get("races") or []:
@@ -3140,13 +3145,19 @@ def people(series):
     strict_sons = {n for n, v in ((store.load_yaml(mp) or {}) if os.path.exists(mp) else {}).items()
                    if isinstance(v, dict) and v.get("strict")}
 
+    ap = os.path.join(store.ROOT, "sources", "people-apart.yaml")
+    apart = {frozenset(x["names"]) for x in ((store.load_yaml(ap) or []) if os.path.exists(ap) else [])}
+
     def one(a, ra, b, rb):
         """Names a and b (from sources ra, rb) are one person: compatible with each other (every name the person
         has, so 'J. Skelly' and 'Jim' do not join through 'James'), and their suffixes agree. 'Jr.' and none may
         join across sources (Part III writes 'Humphrey, Hubert H.'; the rosters, 'Humphrey, Hubert H., Jr.'); two
-        suffixes that differ never join (James L. Holloway, Jr., and III)."""
+        suffixes that differ never join (James L. Holloway, Jr., and III). A pair kept apart by hand
+        (sources/people-apart.yaml: Robert Moses the builder, Robert P. Moses of SNCC) never joins."""
         if a == b:
             return True
+        if frozenset((a, b)) in apart:
+            return False
         # a member Part III names by the name he went by: 'Patman, Wright' is 'Patman, John W.' (John William
         # Wright); 'Thurmond, Strom' is 'Thurmond, J. Strom'; 'Gravel, Mike' is 'Gravel, Maurice R. (Mike)'
         for (n0, r0), (n1, r1) in (((a, ra), (b, rb)), ((b, rb), (a, ra))):
