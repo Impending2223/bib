@@ -902,7 +902,8 @@ race, and in presidential years the vote for President by State with the elector
 first, then by chamber the seats won, the net change from the close of the last Congress, pickups,
 and new members; one view switch for every map (Result; Margin, the winner's lead over the runner-up in points of all the votes, by the quantile rule; Swing, continuous); the
 President's map above the House and Senate, with a States | Pickups | Electors switch (Pickups: in Result, the
-States that changed party dark, the others light; Electors: a dot an elector, as voted); the Senate map with a Senators toggle (a dot a seat, larger than the House's: `PB`, `RB`); and every race in tables:
+States that changed party dark, the others light; Electors: a dot an elector, as voted); the Senate map with a Senators toggle (a dot a seat, larger than the House's: `PB`, `RB`); and every race in tables (the candidate first, in bold where he won, his party under or after him; under 520px the share
+under the count and the note on a line of its own):
 candidates with party, votes and share, the margin in votes and in points of all the votes cast, and
 a note. Pickups are shaded in the winner's color, other member changes in gray. Members of neither
 major party count with the party they caucused with, and are labeled so ("Conservative, caucusing
@@ -920,7 +921,7 @@ tools/bib/elections.py              renders the blocks and checks the data (STYL
 ```
 
 - Votes: the Clerk's *Statistics of the Presidential and Congressional Election*
-  (clerk.house.gov), OCR'd. Each figure is read three times and settled against the
+  (clerk.house.gov), OCR'd; the OCR's misread party labels and names put right by `tools/elections/labels.py`. Each figure is read three times and settled against the
   State's recapitulation total and Wikipedia's percentages (`reconcile.py`); a race that
   does not settle is read by eye into `elections/readings/<year>.yaml`. Where a race page
   and its recapitulation differ, the figure the Clerk's totals add up with is used, and the

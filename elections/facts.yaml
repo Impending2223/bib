@@ -52,6 +52,136 @@ president:
   # A slate's candidate where Wikipedia's figures would assign it otherwise: year, State, party as printed.
   slates:
     1960: {AL: {Democratic: D}}                          # five Kennedy electors and six unpledged: counted with Kennedy
+    1968: {AL: {Alabama Independent: A}}                 # Wallace's second slate (the State article's elector table)
+    1972: {SC: {United Citizens: D}}                     # McGovern's fusion line
+
+
+  # The candidate each other slate was pledged to (the Clerk prints the party only), by year, State and the label as
+  # printed: from Wikipedia's article on the election in the State, matched by party and vote (read Oct. 14, 2026;
+  # the national article's form of the name). Write-in lines and slates no source names are left out.
+  slate_names:
+    1956:
+      CA: {'Prohibition': 'Enoch A. Holtwick', 'Socialist': 'Darlington Hoopes', 'Socialist Workers': 'Farrell Dobbs', 'Christian Nationalist': 'Gerald L. K. Smith'}
+      CO: {'Socialist': 'Darlington Hoopes'}
+      DE: {'Prohibition': 'Enoch A. Holtwick'}
+      IA: {'Socialist': 'Darlington Hoopes'}
+      IN: {'Prohibition': 'Enoch A. Holtwick'}
+      KS: {'Prohibition': 'Enoch A. Holtwick'}
+      KY: {'Prohibition': 'Enoch A. Holtwick', 'States Rights': 'Harry F. Byrd'}
+      MA: {'Prohibition': 'Enoch A. Holtwick'}
+      MI: {'Prohibition': 'Enoch A. Holtwick'}
+      MN: {'Socialist Workers': 'Farrell Dobbs'}
+      NJ: {'Prohibition': 'Enoch A. Holtwick', 'Socialist Workers': 'Farrell Dobbs', 'American Third Party': 'Henry B. Krajewski'}
+      NM: {'Prohibition': 'Enoch A. Holtwick'}
+      PA: {'Militant Workers': 'Farrell Dobbs'}
+      TN: {'Prohibition': 'Enoch A. Holtwick'}
+      VA: {'Virginia Social-Democratic': 'Darlington Hoopes'}
+      WI: {'Darlington Hoopes (Independent)': 'Darlington Hoopes', 'Farrell Dobbs (Independent)': 'Farrell Dobbs'}
+    1960:
+      AL: {'National States Rights': 'Orval Faubus', 'Independent Afro-American': 'Clennon Washington King Jr.'}
+      AR: {'National States Rights': 'Orval Faubus'}
+      CA: {'Prohibition': 'Rutherford Decker'}
+      CO: {'Socialist Workers': 'Farrell Dobbs'}
+      IN: {'Prohibition': 'Rutherford Decker'}
+      KS: {'Prohibition': 'Rutherford Decker'}
+      MA: {'Prohibition': 'Rutherford Decker'}
+      MI: {'Socialist Workers': 'Farrell Dobbs', 'Prohibition': 'Rutherford Decker', 'Tax Cut': 'Lar Daly'}
+      MN: {'Socialist Workers': 'Farrell Dobbs'}
+      MT: {'Prohibition': 'Rutherford Decker', 'Socialist Workers': 'Farrell Dobbs'}
+      ND: {'Socialist Workers': 'Farrell Dobbs'}
+      NJ: {'Socialist Workers': 'Farrell Dobbs', 'Conservative': 'J. Bracken Lee'}
+      NM: {'Prohibition': 'Rutherford Decker'}
+      NY: {'Socialist Worker': 'Farrell Dobbs'}
+      PA: {'Socialist Workers': 'Farrell Dobbs'}
+      TN: {'States Rights': 'Orval Faubus', 'Prohibition': 'Rutherford Decker'}
+      TX: {'Constitution': 'Charles L. Sullivan', 'Prohibition': 'Rutherford Decker'}
+      UT: {'Socialist workers': 'Farrell Dobbs'}
+      VA: {'Conservative': 'C. Benton Coiner'}
+      WA: {'Constitution': 'Merritt Curtis', 'Socialist Workers': 'Farrell Dobbs'}
+      WI: {'Socialist Workers': 'Farrell Dobbs'}
+    1964:
+      AR: {'National States Rights': 'John Kasper'}
+      AZ: {'Socialist Labor': 'Eric Hass'}
+      CA: {'Socialist Labor': 'Eric Hass', 'Socialist Workers': 'Clifton DeBerry', 'Prohibition': 'E. Harold Munn', 'Universal': 'Kirby J. Hensley'}
+      CO: {'Socialist Workers': 'Clifton DeBerry', 'Socialist Labor': 'Eric Hass', 'Prohibition': 'E. Harold Munn'}
+      DE: {'Prohibition': 'E. Harold Munn', 'Socialist Labor': 'Eric Hass'}
+      IA: {'Prohibition': 'E. Harold Munn', 'Socialist Workers': 'Clifton DeBerry', 'Socialist Labor': 'Eric Hass'}
+      IN: {'Socialist Labor': 'Eric Hass', 'Prohibition': 'E. Harold Munn'}
+      KS: {'Prohibition': 'E. Harold Munn', 'Socialist Labor': 'Eric Hass'}
+      KY: {'National States Rights': 'John Kasper'}
+      MA: {'Socialist Labor': 'Eric Hass', 'Prohibition': 'E. Harold Munn'}
+      MI: {'Socialist Workers': 'Clifton DeBerry', 'Socialist Labor': 'Eric Hass', 'Prohibition': 'E. Harold Munn'}
+      MN: {'Industrial Government': 'Eric Hass', 'Socialist Workers': 'Clifton DeBerry'}
+      MT: {'Socialist Workers': 'Clifton DeBerry', 'Prohibition': 'E. Harold Munn', 'National States Rights': 'John Kasper'}
+      ND: {'Socialist Workers': 'Clifton DeBerry', 'Prohibition': 'E. Harold Munn'}
+      NJ: {'Socialist Labor': 'Eric Hass', 'Socialist Workers': 'Clifton DeBerry'}
+      NM: {'Socialist Labor': 'Eric Hass', 'Prohibition': 'E. Harold Munn'}
+      NY: {'Socialist Labor': 'Eric Hass', 'Socialist Workers': 'Clifton DeBerry'}
+      PA: {'Socialist Labor': 'Eric Hass', 'Militant Workers': 'Clifton DeBerry'}
+      TX: {'Constitution': 'Joseph B. Lightburn'}
+      VA: {'Socialist Labor': 'Eric Hass'}
+      WA: {'Socialist Labor': 'Eric Hass', 'Socialist Workers': 'Clifton DeBerry'}
+      WI: {'Socialist Workers': 'Clifton DeBerry', 'Socialist Labor': 'Eric Hass'}
+    1968:
+      AL: {'Prohibition': 'E. Harold Munn', 'Alabama Independent': 'George Wallace'}
+      AZ: {'New Party': 'Eugene McCarthy', 'Peace and Freedom': 'Eldridge Cleaver', 'Socialist Labor': 'Henning A. Blomen', 'Socialist Workers': 'Fred Halstead'}
+      CA: {'Peace and Freedom': 'Eldridge Cleaver'}
+      CO: {'Socialist Labor': 'Henning A. Blomen', 'New Party': 'Dick Gregory', 'Socialist Workers': 'Fred Halstead', 'Prohibition': 'E. Harold Munn'}
+      IA: {'Nomination by petition': 'Fred Halstead', 'Prohibition': 'E. Harold Munn', 'Socialist Labor': 'Henning A. Blomen', 'Peace and Freedom': 'Eldridge Cleaver', 'Universal': 'Kirby J. Hensley'}
+      IL: {'Socialist Labor': 'Henning A. Blomen'}
+      IN: {'Prohibition': 'E. Harold Munn', 'Socialist Workers': 'Fred Halstead'}
+      KS: {'Prohibition': 'E. Harold Munn'}
+      KY: {'Socialist Workers': 'Fred Halstead'}
+      MA: {'Socialist Labor': 'Henning A. Blomen', 'Prohibition': 'E. Harold Munn'}
+      MI: {'Socialist Workers': 'Fred Halstead', 'Socialist Labor': 'Henning A. Blomen', 'New Politics': 'Eldridge Cleaver', 'Prohibition': 'E. Harold Munn'}
+      MN: {'Socialist Workers': 'Fred Halstead', 'Industrial Government': 'Henning A. Blomen', 'Communist': 'Charlene Mitchell', 'Peace and Freedom': 'Eldridge Cleaver'}
+      MT: {'Socialist Workers': 'Fred Halstead', 'Prohibition': 'E. Harold Munn', 'New Reform': 'Unpledged electors'}
+      ND: {'Socialist Workers': 'Fred Halstead', 'Prohibition': 'E. Harold Munn'}
+      NH: {'Socialist Workers': 'Fred Halstead', 'New Party': 'Unpledged electors'}
+      NJ: {'Socialist Workers': 'Fred Halstead', 'Peace and Freedom': 'Dick Gregory', 'Socialist Labor': 'Henning A. Blomen'}
+      NM: {'Socialist Workers': 'Fred Halstead', 'People''s Constitutional': 'Ventura Chavez'}
+      NY: {'Socialist Workers': 'Fred Halstead', 'Socialist Labor': 'Henning A. Blomen', 'Peace and Freedom': 'Dick Gregory'}
+      OH: {'Socialist Labor': 'Henning A. Blomen', 'Socialist Workers': 'Fred Halstead', 'Communist': 'Charlene Mitchell', 'Prohibition': 'E. Harold Munn', 'Peace and Freedom': 'Dick Gregory'}
+      PA: {'Socialist Workers': 'Fred Halstead', 'Socialist Labor': 'Henning A. Blomen', 'Peace and Freedom': 'Dick Gregory'}
+      RI: {'Socialist Workers': 'Fred Halstead'}
+      UT: {'Peace and Freedom': 'Eldridge Cleaver', 'Socialist Workers': 'Fred Halstead'}
+      VA: {'Socialist Labor': 'Henning A. Blomen', 'Prohibition': 'E. Harold Munn', 'Peace and Freedom': 'Dick Gregory'}
+      VT: {'New Party': 'Eugene McCarthy', 'Socialist Workers': 'Fred Halstead'}
+      WA: {'Socialist Labor': 'Henning A. Blomen', 'Peace and Freedom': 'Eldridge Cleaver', 'Socialist Workers': 'Fred Halstead', 'Free Ballot': 'Charlene Mitchell'}
+      WI: {'Socialist Labor': 'Henning A. Blomen', 'Socialist Workers': 'Fred Halstead'}
+    1972:
+      AL: {'Prohibition': 'E. Harold Munn'}
+      AZ: {'Socialist Workers': 'Linda Jenness'}
+      CA: {'Peace and Freedom': 'Benjamin Spock'}
+      CO: {'Socialist Labor': 'Louis Fisher', 'Socialist Workers': 'Linda Jenness', 'Peace and Freedom': 'Benjamin Spock', 'Communist': 'Gus Hall', 'Prohibition': 'E. Harold Munn'}
+      DC: {'Socialist Workers': 'Linda Jenness', 'Communist': 'Gus Hall'}
+      DE: {'Prohibition': 'E. Harold Munn'}
+      IA: {'Socialist Workers': 'Linda Jenness', 'Socialist Labor': 'Louis Fisher', 'Communist': 'Gus Hall', 'Universal': 'Gabriel Green'}
+      ID: {'Peace and Freedom': 'Benjamin Spock', 'Socialist Workers': 'Linda Jenness'}
+      IL: {'Socialist Labor': 'Louis Fisher', 'Communist': 'Gus Hall'}
+      IN: {'Socialist Workers': 'Clifton DeBerry', 'Socialist Labor': 'Louis Fisher', 'Peace and Freedom': 'Benjamin Spock'}
+      KS: {'Prohibition': 'E. Harold Munn'}
+      KY: {'Socialist Workers': 'Linda Jenness', 'People''s': 'Benjamin Spock', 'Communist': 'Gus Hall'}
+      LA: {'Socialist Workers': 'Linda Jenness'}
+      MA: {'Socialist Labor': 'Louis Fisher', 'Socialist Workers': 'Linda Jenness', 'Peace and Freedom': 'Benjamin Spock', 'Communist': 'Gus Hall'}
+      MI: {'Socialist Workers': 'Linda Jenness', 'Socialist Labor': 'Louis Fisher', 'Communist': 'Gus Hall'}
+      MN: {'Socialist Workers': 'Linda Jenness', 'Industrial Government': 'Louis Fisher', 'Communist': 'Gus Hall', 'People''s': 'Benjamin Spock'}
+      MS: {'Socialist Workers': 'Linda Jenness'}
+      ND: {'Socialist Workers': 'Linda Jenness', 'Communist': 'Gus Hall'}
+      NH: {'Socialist Workers': 'Linda Jenness'}
+      NJ: {'Socialist Workers': 'Linda Jenness', 'Socialist Labor': 'Louis Fisher', 'People''s': 'Benjamin Spock', 'America First': 'John Mahalchik', 'Communist': 'Gus Hall'}
+      NM: {'Socialist Workers': 'Linda Jenness'}
+      NY: {'Socialist Workers': 'Evelyn Reed', 'Socialist Labor': 'Louis Fisher', 'Communist': 'Gus Hall'}
+      OH: {'Socialist Labor': 'Louis Fisher', 'Communist': 'Gus Hall'}
+      PA: {'Socialist Workers': 'Linda Jenness', 'Communist': 'Gus Hall'}
+      RI: {'Socialist Workers': 'Linda Jenness'}
+      SC: {'United Citizens': 'George McGovern'}
+      SD: {'Socialist Workers': 'Linda Jenness'}
+      TX: {'Socialist Workers': 'Linda Jenness'}
+      VA: {'Socialist Labor': 'Louis Fisher'}
+      VT: {'Liberty Union': 'Benjamin Spock', 'Socialist Workers': 'Linda Jenness'}
+      WA: {'Socialist Labor': 'Louis Fisher', 'Socialist Workers': 'Linda Jenness', 'People''s': 'Benjamin Spock', 'Communist': 'Gus Hall'}
+      WI: {'Socialist Labor': 'Louis Fisher', 'Peace and Freedom': 'Benjamin Spock', 'Independent': 'Evelyn Reed', 'Communist': 'Gus Hall'}
 
   # A note for the State's row in the table.
   notes:

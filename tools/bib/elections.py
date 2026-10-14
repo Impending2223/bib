@@ -742,17 +742,19 @@ def pres_table(year, data):
     rows = sorted(E["president"]["states"], key=lambda r: STATE.get(r["st"], r["st"]))
     out = [f'<details class="cgr er epr"><summary>President, {len(rows)} States{" and the District" if any(r["st"] == "DC" for r in rows) else ""}</summary><table>'
            '<colgroup><col class="c1"><col class="c2"><col class="c3"><col class="c4"></colgroup>'
-           '<thead><tr><th>State, electors</th><th>Slates, votes, share</th><th>Margin</th><th>Note</th></tr></thead><tbody>']
+           '<thead><tr><th>State, electors</th><th>Candidates, votes, share</th><th>Margin</th><th>Note</th></tr></thead><tbody>']
     for r in rows:
         m = pmetrics(r)
         cs = ""
         for s in sorted(r["slates"], key=lambda s: -(s.get("v") or 0)):
-            who = C[s["k"]]["n"] if s["k"] in C else ""
+            who = s.get("n") or (C[s["k"]]["n"] if s["k"] in C else "")   # the slate's own candidate, else its key's
             wl = cand_link(year, None, {"n": who}) if who else None
             share = pct_text(100 * s['v'] / m['total']) if s.get("v") is not None and m["total"] else "—"
             w = ' class="w"' if s["k"] == m["win"] else ""
-            cs += (f'<span class="ec"><span{w}><span class="en">{esc(s["party"])}</span>'
-                   + (f' <span class="ep">{f"""<a class="nm" href="{esc(wl)}">{esc(who)}</a>""" if wl else esc(who)}</span>' if who else "") +
+            name = f'<a class="nm" href="{esc(wl)}">{esc(who)}</a>' if wl else esc(who)
+            cs += (f'<span class="ec"><span{w}>'
+                   + (f'<span class="en">{name}</span> <span class="ep">{esc(s["party"])}</span>' if who
+                      else f'<span class="en">{esc(s["party"])}</span>') +
                    f'</span><span class="ev">{num(s.get("v"))}</span><span class="es">{share}</span></span>')
         if r.get("scat"):
             cs += f'<span class="ec"><span><span class="en">Scattering</span></span><span class="ev">{num(r["scat"])}</span><span class="es"></span></span>'
