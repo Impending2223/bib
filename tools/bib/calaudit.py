@@ -8,8 +8,9 @@ notes/calendar-audit.md. A review list, not a check: it reports, and changes not
              Part II section)
              nor a `See [[id]]` back to an earlier entry
   Primary    entries whose note neither links nor names a primary record (statute, Federal Register,
-             Congressional Record, Public Papers, a presidential library's file, FRUS, a case); and entries that
-             name one without linking it
+             Congressional Record, Public Papers, a presidential library's file, FRUS, a case; a State's or a city's
+             own record: its returns, register, manual, session laws, journals, ballot pamphlet, charter, minutes, a
+             State court's report; any government site, .gov); and entries that name one without linking it
   Threads    each thread's statement in th.yaml, for review: the brief asks for one or two clipped sentences
              saying what the thread is, with its stations
 """
@@ -28,14 +29,25 @@ PRIMARY_HOSTS = ("govinfo.gov", "presidency.ucsb.edu", "history.state.gov", "fed
                  "prde.upress.virginia.edu", "millercenter.org")
 PRIMARY_NAMES = re.compile(r"\bStat\.|Fed\. Reg\.|Cong\. Rec\.|\bFRUS\b|Public Papers|\bAPP\b|\d+ U\.S\. \d+|"
                            r"Exec\. Order|Executive Order|Proclamation|Pub\. L\.|H\.R\. \d|S\. \d|Reorganization Plan|"
-                           r"\bNSAM\b|Weekly Compilation|Department of State Bulletin|Election Statistics|Statistics of the Congressional|\(PRDE(?: only)?\)|\(Miller Center\)")
+                           r"\bNSAM\b|Weekly Compilation|Department of State Bulletin|Election Statistics|Statistics of the Congressional|\(PRDE(?: only)?\)|\(Miller Center\)|"
+                           # the States' and the cities' own records: returns, registers and manuals, session laws,
+                           # journals, ballot pamphlets, charters, minutes; State and lower federal courts' reports
+                           r"Official (?:Vote|Returns|Canvass|Report|and Statistical)|Canvass|Abstract of (?:the )?(?:Votes?|Returns)|"
+                           r"Statement of (?:the )?Vote|Statistical Register|Election Returns|Blue Book|Legislative Manual|"
+                           r"\bManual\b|Red Book|Political History of Nevada|(?:Acts|Laws|Session Laws|Statutes) of |"
+                           r"\b(?:House|Senate) Journal|Journal of the (?:House|Senate)|Ballot (?:Pamphlet|Proposition)|"
+                           r"\bProposition \d|State Question|Charter|Minutes|Ordinance|"
+                           r"\d+ (?:So\.(?: 2d)?|S\.W\.(?:2d)?|S\.E\.(?:2d)?|N\.E\.(?:2d)?|N\.W\.(?:2d)?|A\.(?:2d)?|P\.(?:2d)?|"
+                           r"F\. ?Supp\.|F\.(?:2d)?|Cal\.(?: ?2d)?|N\.Y\.(?: ?2d)?|Misc\.(?: 2d)?|A\.D\.(?: ?2d)?|Ill\.(?: ?2d)?|"
+                           r"Mich\.|Ohio St\.(?: ?2d)?|Wash\.(?: ?2d)?|Ga\.|Ala\.|Miss\.|La\.|Tex\.|Okla\.) \d+")
 LISTREF = re.compile(r"\b(?:K–J Adm\.|K–J Cong\.|Opp\.|1968|Adm\.|Cong\.|Wg\.|Viet\.)\s+II\b")
 # words that are surnames in Part III but also places or things; a hit on one is marked "?"
 AMBIG = {"White", "Black", "Brown", "Green", "Long", "King", "Young", "Little", "Rich", "Washington", "Jackson",
          "Lincoln", "Houston", "Marshall", "Ford", "Hall", "Rock", "Church", "Bell", "Price", "Day", "May", "March",
          "Rivers", "Moss", "Wood", "Woods", "Lodge", "Byrd", "Gates", "Bowles", "Love", "Hope", "Christian", "Banks",
          "Stone", "Field", "Fields", "Hand", "Pierce", "Monroe", "Madison", "Rogers", "Hill", "Mills", "Barnes",
-         "English", "Burns", "Rose", "Cotton", "Ball", "Bridges", "Grant", "Chase", "Cooper", "Carpenter", "Baker"}
+         "English", "Burns", "Rose", "Cotton", "Ball", "Bridges", "Grant", "Chase", "Cooper", "Carpenter", "Baker",
+         "Clark", "Jack", "Franklin", "Hill", "Lake", "Gary", "Mason", "Day", "Love", "Hall", "Moore", "Cox"}
 
 
 PRESIDENTS = {"Eisenhower", "Kennedy", "Johnson"}
@@ -92,7 +104,8 @@ def run(series):
         # a record may be linked in either field; a link counts by its host, or by its text naming a record (a
         # State Bulletin or a State's returns on archive.org)
         links = re.findall(r"\[((?:[^\[\]]|\[[^\]]*\])*)\]\((https?://[^)]+)\)", c + " " + n)
-        linked = any(any(h in u for h in PRIMARY_HOSTS) or PRIMARY_NAMES.search(txt) for txt, u in links)
+        linked = any(any(h in u for h in PRIMARY_HOSTS) or re.search(r"^https?://[^/]*\.(?:gov|us)(?:/|$)", u)
+                     or PRIMARY_NAMES.search(txt) for txt, u in links)
         named = PRIMARY_NAMES.search(n)
         if not linked and not named:
             prim_none.append((sec, e))
