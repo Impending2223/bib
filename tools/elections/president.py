@@ -30,6 +30,7 @@ CAST = FACTS['cast']                                                   # year ->
 SLATE = {(y, st, p): k for y, v in FACTS['slates'].items() for st, m in v.items() for p, k in m.items()}
 NOTES = {(y, st): n for y, v in FACTS['notes'].items() for st, n in v.items()}
 NAMES = FACTS['names']
+SLATE_NAMES = FACTS.get('slate_names') or {}                         # year -> State -> {label: candidate}
 ELECTEES = {k: (v['name'], v['like']) for k, v in FACTS['electees'].items()}
 
 
@@ -227,11 +228,13 @@ def races(y, C, d, T, dg):
             slates = [{'party': p, 'v': v} for p, v in zip(parties, got[0])]
             how = got[2]
             rec['page'] = sl[0]['page']
+        for s in slates:
+            s['party'] = labels.clean(s['party'])
+            if s['party'] in (SLATE_NAMES.get(y) or {}).get(st, {}):
+                s['n'] = SLATE_NAMES[y][st][s['party']]
         keys = assign(st, [s['party'] for s in slates], [s['v'] for s in slates], W, cands)
         for s, k in zip(slates, keys):
             s['k'] = k
-        for s in slates:
-            s['party'] = labels.clean(s['party'])
         rec['slates'] = slates
         if scat is not None:
             rec['scat'] = scat

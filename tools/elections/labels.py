@@ -61,7 +61,7 @@ def clean(p):
     -> 'Republican'; 'Demoeratic' -> 'Democratic')."""
     if not p:
         return p
-    s = JUNK.sub("", p.strip())
+    s = JUNK.sub("", p.strip().replace("’", "'").replace("‘", "'"))
     s = re.sub(r"^[\W_]+(?=\w)", "", s).strip(" .,;:-—")
     s = re.sub(r"(\w)[’',]\s+(Workers|Labor)\b", r"\1 \2", s)
     return " ".join(word(w) for w in s.split())
