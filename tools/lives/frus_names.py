@@ -2,7 +2,7 @@
 # Usage: python3 tools/lives/frus_names.py FRUS_GIT [--all | 'Surname, Given' ...]
 #   --all: everyone with a Lives entry (tools/bib/lives.py, people)
 #   FRUS_GIT  a clone of github.com/HistoryAtState/frus (blobs present or fetchable)
-#   Reads every volume 1952-54 to 1969-76: the volume's list of persons gives the person's xml:id; a document
+#   Reads every volume 1950 to 1969-76 (the 1950 annual volumes print no list of persons, so give nothing): the volume's list of persons gives the person's xml:id; a document
 #   names the person where its text links a persName to that id (corresp); the person sent it where the
 #   daybook's rules for authors (tools/daybook/make_daybook.py, "authors as persons") give the person.
 #   Writes, by the first letter of the surname, {person key: {volume: {"named": [[doc number, date]], "sent":
@@ -22,7 +22,7 @@ import make_daybook as M  # noqa: E402
 from bib.executive_names import compatible  # noqa: E402
 
 OUT = os.path.join(HERE, '..', '..', 'sources', 'frus-names')
-SUBS = ('frus1952-54', 'frus1955-57', 'frus1958-60', 'frus1961-63', 'frus1964-68', 'frus1969-76')
+SUBS = ('frus1950', 'frus1951', 'frus1952-54', 'frus1955-57', 'frus1958-60', 'frus1961-63', 'frus1964-68', 'frus1969-76')
 
 
 def volumes(git):
