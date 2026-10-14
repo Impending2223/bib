@@ -16,6 +16,7 @@ import re
 
 import yaml
 
+import labels
 import read
 import reconcile
 from wiki import st_of, unlink
@@ -229,6 +230,8 @@ def races(y, C, d, T, dg):
         keys = assign(st, [s['party'] for s in slates], [s['v'] for s in slates], W, cands)
         for s, k in zip(slates, keys):
             s['k'] = k
+        for s in slates:
+            s['party'] = labels.clean(s['party'])
         rec['slates'] = slates
         if scat is not None:
             rec['scat'] = scat

@@ -28,6 +28,7 @@ import yaml
 
 sys.path.insert(0, os.path.dirname(__file__))
 import clerk      # noqa: E402
+import labels     # noqa: E402
 import match      # noqa: E402
 import president  # noqa: E402
 import read       # noqa: E402
@@ -144,7 +145,7 @@ def wiki_races(y, cache):
 def canon(p):
     """The party as printed, with the OCR's near misses put right ('D mocrat', 'Nemoerat', 'Farmer-Labor')."""
     import difflib
-    p = (p or '').strip(' .,')
+    p = labels.clean((p or '').strip(' .,'))
     if p in CODE or not p:
         return p
     if re.match(r'(Dem|Rep)\.?/', p):    # Wikipedia's 'Dem./Write-in'
@@ -345,11 +346,13 @@ def race_record(y, st, r, lines, key, dg, recap):
             l0 = lines[e['lines'][0]]
             a = match.totals(c)
             readings.append((a, None, None) if e.get('fusion') else (a, dg(st, l0['sec'], l0['k'], 'dg'), dg(st, l0['sec'], l0['k'], 'dg2')))
-            cands.append({'n': c['name'], 'party': ', '.join(canon(x) for x in e['parties']), 'p': code(e['parties'][0]), 'v': a})
+            cands.append({'n': labels.name(c['name']), 'party': ', '.join(canon(x) for x in e['parties']), 'p': code(e['parties'][0]), 'v': a})
         for m_ in r.get('minor', []):
+            if labels.not_a_name(m_['name']):
+                continue
             l0 = lines[m_['lines'][0]]
             readings.append((m_['votes'], dg(st, l0['sec'], l0['k'], 'dg'), dg(st, l0['sec'], l0['k'], 'dg2')))
-            cands.append({'n': m_['name'], 'party': canon(m_['parties'][0]), 'p': code(m_['parties'][0]), 'v': m_['votes']})
+            cands.append({'n': labels.name(m_['name']), 'party': canon(m_['parties'][0]), 'p': code(m_['parties'][0]), 'v': m_['votes']})
         scat = r.get('scattering')
         nW = len(r['candidates'])
 
