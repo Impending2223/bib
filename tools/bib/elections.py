@@ -38,8 +38,8 @@ Definitions (STYLE, settled):
     State's House vote. Senate: the seat's last regular election, six years before (1952 and 1954 from
     Wikipedia's percentages, later years from the returns). No swing where either election was unopposed,
     or where the winner ran on neither major party's line.
- 8. Colors: in the result view, four steps a side, held seats light and pickups dark (with Flips, held
-    and flipped; the President's winner a middle step); the margin view, a straight line in OKLab from near
+ 8. Colors: in the result view, four steps a side, held seats light and pickups dark (with Pickups, held
+    and picked up; the President's winner a middle step); the margin view, a straight line in OKLab from near
     white at a tie to the darkest step, by the quantile rule (note 3); the swing view, gray at no swing to
     the darkest step at 15 points or more (SWING in the template). The keys draw the scales as gradient
     bars. Every map value is also in the tables and on hover.
@@ -52,7 +52,7 @@ Definitions (STYLE, settled):
     reckonings. Alabama, 1964: Johnson had no slate; the Democratic slate was unpledged. The electoral
     votes are as cast (tools/elections/president.py CAST).
 11. The presidential map. Result: the winner's color, a third ticket (unpledged electors, Byrd,
-    Wallace) amber, one flat shade. "Flips", a toggle under the map between States and Electors, applies the Congress maps'
+    Wallace) amber, one flat shade. "Pickups", a toggle under the map between States and Electors, applies the Congress maps'
     scheme in the result view: the States that went to another party than at the last election dark, the
     others light. The outlines stay the standard ones. Margin and swing as for the House and Senate; no swing where
     either party had no slate. Electors: a dot an elector, colored by the elector's vote, faithless
@@ -70,7 +70,7 @@ Map records (the JSON in each block's script.cgseats, read by templates/congress
     mg  the margin, points of all votes        sw swing, points toward the Democrats; swb its basis
     x   a winner of neither major party        ho a seat not at stake (the Senate, from the roster)
   seats.p[ST] (pres_rows): {p (D, R, T a third ticket, O), n, id, ev, cast [[class, electors, name]],
-    sh, mg, k (held | flip | new), sw}
+    sh, mg, k (held | pickup | new), sw}
 """
 import json
 import os
@@ -672,7 +672,7 @@ def pcands(E):
 
 
 def pres_rows(year, data):
-    """Each State's map record: winner class, share, flip, swing, and its electors as they voted."""
+    """Each State's map record: winner class, share, pickup, swing, and its electors as they voted."""
     E = data[year]
     C = pcands(E)
     prev = (data.get(year - 4) or {}).get("president")
@@ -690,7 +690,7 @@ def pres_rows(year, data):
             rec["mg"] = m["margin_pts"]
         q = pm.get(r["st"])
         if prev:
-            rec["k"] = "new" if q is None else "held" if pcls(q["win"], PC) == p else "flip"
+            rec["k"] = "new" if q is None else "held" if pcls(q["win"], PC) == p else "pickup"
         if q and "dsh" in m and "dsh" in q:
             rec["sw"] = round(m["dsh"] - q["dsh"], 1)
         out[r["st"]] = rec
@@ -780,7 +780,7 @@ def pres_table(year, data):
 def pres_legend(has_prev, has_sw):
     sw = lambda k: f'<span class="sw e{k}"></span>'
     res = (f'<span class="lk lk-r">{sw("B3")}Democratic {sw("R3")}Republican {sw("A3")}Third ticket (unpledged electors, Byrd, Wallace)'
-           + ('; Flips, under the map: the States that went to another party than at the last election dark, the others light' if has_prev else '') + '</span>')
+           + ('; Pickups, under the map: the States that went to another party than at the last election dark, the others light' if has_prev else '') + '</span>')
     share = f'<span class="lk lk-s">The winner\'s margin over the runner-up, points of all the votes: {margin_scale(third=True)}</span>'
     swing = (f'<span class="lk lk-w">Swing from the last presidential election, points: {swing_scale()} '
              '<span class="lt">none where a party had no slate</span> ' + sw("NA") + 'None</span>') if has_sw else ""

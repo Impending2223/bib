@@ -901,8 +901,8 @@ race, and in presidential years the vote for President by State with the elector
 `election:<year>` carries its block too (now Nov. 8, 1960, Nov. 6, 1962, and Nov. 8, 1966). A block: the electoral and popular vote
 first, then by chamber the seats won, the net change from the close of the last Congress, pickups,
 and new members; one view switch for every map (Result; Margin, the winner's lead over the runner-up in points of all the votes, by the quantile rule; Swing, continuous); the
-President's map above the House and Senate, with a States | Flips | Electors switch (Flips: in Result, the
-States that flipped dark, the others light; Electors: a dot an elector, as voted); the Senate map with a Senators toggle (a dot a seat, larger than the House's: `PB`, `RB`); and every race in tables:
+President's map above the House and Senate, with a States | Pickups | Electors switch (Pickups: in Result, the
+States that changed party dark, the others light; Electors: a dot an elector, as voted); the Senate map with a Senators toggle (a dot a seat, larger than the House's: `PB`, `RB`); and every race in tables:
 candidates with party, votes and share, the margin in votes and in points of all the votes cast, and
 a note. Pickups are shaded in the winner's color, other member changes in gray. Members of neither
 major party count with the party they caucused with, and are labeled so ("Conservative, caucusing
@@ -962,7 +962,7 @@ tools/bib/elections.py              renders the blocks and checks the data (STYL
   `review/READER.md`; `review.py verify`, then `merge`; rerun `make_elections.py` (it should
   leave nothing); `review.py audit YEAR`; `./bib check`; then tag the calendar entry.
 - Colors are tokens at the top of `templates/congress.html` (its CSS is in commented
-  sections). Result and Flips: four steps a side (`--eR1`–`--eR4`, `--eB1`–`--eB4`).
+  sections). Result and Pickups: four steps a side (`--eR1`–`--eR4`, `--eB1`–`--eB4`).
   Margin: a straight line in OKLab from `--rW` (near white) at a tie to `--rR`/`--rB`, the darkest steps, by the
   quantile rule: a margin's position is the share of the 2,291 contested races for presidential electors,
   1824–2024, decided by less (`elections/pres-margins.csv`, written by `tools/elections/pres_margins.py`; the
