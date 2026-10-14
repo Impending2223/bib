@@ -186,6 +186,10 @@ def run(series, only=None):
     from . import primaries
     for where, msg in primaries.problems(series):
         add(ERROR, where, msg, "primaries")
+    # the general elections for governor (elections/governors.yaml)
+    from . import governors
+    for where, msg in governors.problems(series):
+        add(ERROR, where, msg, "governors")
     # races settled by hand for the lives (sources/race-matches.yaml)
     from . import lives
     for where, msg in lives.problems(series):

@@ -122,6 +122,8 @@ details.cgr.er .ev,details.cgr.er .es{text-align:right;font-variant-numeric:tabu
 details.cgr.er .es{color:var(--muted)}
 details.cgr.er td.em{text-align:right;font-variant-numeric:tabular-nums}
 details.cgr.er td.eno{font-size:.8rem;color:var(--note)}
+/* the governors' races (tools/bib/governors.py): each race a tbody, its note a line of its own under it */
+details.cgr.er tr.gvr td{border-bottom:0;padding-bottom:.1rem}details.cgr.er tr.gvn td{padding-top:0}
 details.cgr.er tr.pk.wD td{background:color-mix(in srgb,var(--eB1) 85%,transparent)}
 details.cgr.er tr.pk.wR td{background:color-mix(in srgb,var(--eR1) 85%,transparent)}
 details.cgr.er tr.pk.wT td{background:color-mix(in srgb,var(--eA1) 85%,transparent)}
@@ -309,10 +311,10 @@ details.cgr.er td:nth-child(3){font-weight:400}
     var g=el('g'), base=el('g',{'class':'lb'}), sts=el('g',{'class':'ld'}), lines=el('g');
     g.appendChild(base); g.appendChild(sts); g.appendChild(lines); svg.appendChild(g);
     var painted=[];
-    function qf(m){return mode()==='s'?mix('rW',m.f,rank(m.mg)):m.f;}
+    function qf(m){return mode()==='s'?mix('rW',m.mf||m.f,rank(m.mg)):m.f;}
     Object.keys(G.states).forEach(function(st){var m=qs[st];
       var e=shp('s:'+st,{}); paint(e,'d',m?qf(m):'eNone');
-      if(m){link(m.id,e,m.t,'s:'+st,null,m); painted.push(e);} else {var t=el('title'); t.textContent=st+': no primary, or none printed'; e.appendChild(t);}
+      if(m){link(m.id,e,m.t,'s:'+st,null,m); painted.push(e);} else {var t=el('title'); t.textContent=st+': '+(fig.dataset.none||'no primary, or none printed'); e.appendChild(t);}
       sts.appendChild(e); lines.appendChild(shp('s:'+st,{'class':'s'})); base.appendChild(shp('s:'+st,{'class':'b'}));});
     if(qs.DC&&G.centers.DC){var c=G.centers.DC, m=qs.DC;
       var e=link(m.id,el('circle',{cx:c[0]+16,cy:c[1]+10,r:5.5}),m.t,null,null,m); paint(e,'dc',qf(m)); e._dc=1; painted.push(e); sts.appendChild(e);
