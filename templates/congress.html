@@ -274,7 +274,7 @@ details.cgr.er td:nth-child(3){font-weight:400}
     var z=zoom(svg,g,onScale,function(e){var t=e.target.closest&&e.target.closest('[data-row]'); if(!t){z.reset(); return true;} return false;});
     bar.addEventListener('click',function(e){var b=e.target.closest('button'); if(!b) return; var f=+b.dataset.z; if(!f) z.reset(); else z.by(f);});
     function say(t){info.innerHTML=''; info.appendChild(document.createTextNode(t.getAttribute('data-who')+' '));
-      var a=document.createElement('a'); a.href='#'+t.getAttribute('data-row'); a.textContent='Returns \u2193'; info.appendChild(a);}
+      var a=document.createElement('a'); a.href='#'+t.getAttribute('data-row'); a.textContent=fig.dataset.rows||'Returns \u2193'; info.appendChild(a);}
     svg.addEventListener('click',function(e){if(z.moved()) return; var t=e.target.closest('[data-row]'); if(t) say(t);});
     blocks.addEventListener('mouseover',function(e){var t=e.target.closest('.dot'); if(t) say(t);});
     // States | Flips | Electors; Flips is the States in the Congress maps' scheme, Result view only
@@ -324,13 +324,13 @@ details.cgr.er td:nth-child(3){font-weight:400}
     bar.innerHTML='<button type="button" data-z="1.8" aria-label="Zoom in">+</button><button type="button" data-z="0.55" aria-label="Zoom out">&minus;</button><button type="button" data-z="0" aria-label="Reset">&#8634;</button>';
     fig.appendChild(bar);
     var foot=document.createElement('div'); foot.className='cgf';
-    var info=document.createElement('p'); info.className='cgi'; info.textContent='Click a State for its returns.'; foot.appendChild(info);
+    var info=document.createElement('p'); info.className='cgi'; info.textContent=fig.dataset.info||'Click a State for its returns.'; foot.appendChild(info);
     fig.appendChild(foot);
     var z=zoom(svg,g,onScale,function(e){var t=e.target.closest&&e.target.closest('[data-row]'); if(!t){z.reset(); return true;} return false;});
     bar.addEventListener('click',function(e){var b=e.target.closest('button'); if(!b) return; var f=+b.dataset.z; if(!f) z.reset(); else z.by(f);});
     svg.addEventListener('click',function(e){if(z.moved()) return; var t=e.target.closest('[data-row]'); if(!t) return;
       info.innerHTML=''; info.appendChild(document.createTextNode(t.getAttribute('data-who')+' '));
-      var a=document.createElement('a'); a.href='#'+t.getAttribute('data-row'); a.textContent='Returns \u2193'; info.appendChild(a);});
+      var a=document.createElement('a'); a.href='#'+t.getAttribute('data-row'); a.textContent=fig.dataset.rows||'Returns \u2193'; info.appendChild(a);});
     fig._recolor=function(){painted.forEach(function(e){paint(e,e._dc?'dc':'d',qf(e._m));});};
   }
   function draw(fig,c,seats){
@@ -519,11 +519,12 @@ details.cgr.er td:nth-child(3){font-weight:400}
               tx=V[0]+V[2]/2-s*(bb[0]+bb[2])/2; ty=V[1]+V[3]/2-s*(bb[1]+bb[3])/2; apply();}};
   }
   function open(id){var r=document.getElementById(id);if(r){var d=r.closest('details');if(d)d.open=true;r.classList.add('hit');setTimeout(function(){r.classList.remove('hit');},2000);}}
-  document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href^="#cg"],a[href^="#e1"],a[href^="#pq"]');if(a)open(a.getAttribute('href').slice(1));},true);
-  if(/^#(cg|e1|pq)/.test(location.hash))open(location.hash.slice(1));
+  document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href^="#cg"],a[href^="#e1"],a[href^="#pq"],a[href^="#gv"],a[href^="#lg"]');if(a)open(a.getAttribute('href').slice(1));},true);
+  if(/^#(cg|e1|pq|gv|lg)/.test(location.hash))open(location.hash.slice(1));
   // election blocks: one view switch for both maps and the key
   [].forEach.call(document.querySelectorAll('.cg.el'),function(b){
     var vs=(b.querySelector('[data-views]')||{dataset:{views:'r s'}}).dataset.views.split(' ');
+    if(vs.length<2){b.dataset.view='r'; return;}          // one view: no switch (the legislatures)
     var names={r:'Result',s:'Margin',w:'Swing'};
     var bar=document.createElement('div'); bar.className='cgt elt';
     bar.innerHTML=vs.map(function(v){return '<button type="button" data-v="'+v+'" aria-pressed="'+(v==='r')+'">'+names[v]+'</button>';}).join('');

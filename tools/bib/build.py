@@ -11,7 +11,7 @@ import json
 import os
 import re
 
-from . import calsplit, daybook, governors, primaries, specials, store
+from . import calsplit, daybook, governors, legislatures, primaries, specials, store
 from . import smart
 from .markup import to_html, plain, italics, ITAL_RE, REF_RE
 from .refs import Refs, split_protected
@@ -826,6 +826,7 @@ def run(series, which=None):
                 page = specials.inject(page, series)
                 page = primaries.inject(page, series)
                 page = governors.inject(page, series)
+                page = legislatures.inject(page, series)
                 page = indicators.inject(page, series, "list")
                 page = daybook.inject(page)
                 if half:
@@ -844,6 +845,7 @@ def run(series, which=None):
         page = specials.inject(page, series)
         page = primaries.inject(page, series)
         page = governors.inject(page, series)
+        page = legislatures.inject(page, series)
         page = indicators.inject(page, series, "series")
         page = daybook.inject(page)
         page = page.replace("</head>", calsplit.STYLE + "\n</head>", 1)
