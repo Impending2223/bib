@@ -23,6 +23,16 @@ Scopes taken out of the statements, kept here:
 - Japan and Korea: the alliances as Washington met them: the treaties, the governments, the visits.
 - Students: college and university students in politics: their organizations, demonstrations, and manifestos (the
   statement keeps the first clause).
+- The States and the cities (Oct. 14, 2026, at the owner's request for State and local elections and politics): each
+  event takes the narrowest thread. A race for governor: Governors, also the year's elections thread (Elections of
+  1961, 1963, 1965 for the off years). A race for mayor, or for the body that governs a city: Mayors, likewise. A
+  legislature's elections, control, apportionment and districting: Legislatures. A State constitution, its amendments,
+  conventions, referenda and initiatives: State constitutions and referenda, also the topic's thread. Taxes, budgets,
+  borrowing: State and city finance. Committees, laws, oaths and speaker bans against subversion: Antisubversion. Open
+  housing, welfare, the schools and the rest: the topic's thread. What none of these holds: States and cities. An event
+  of Alabama, Georgia, Mississippi or South Carolina alone takes that State's thread first. Each entry carries hidden
+  tags for the States and cities it concerns (`state:ny`, `city:nyc`), for State threads or lists later; none yet beyond
+  the four.
 
 Order: th.yaml in alphabetical order of the threads' names, as shown; War on poverty under "poverty", Bobby Baker under
 "Baker", Robert Kennedy under "Kennedy" (`THREAD_SORT_AS` in tools/bib/check.py; `check` warns otherwise [thread-order]).

@@ -59,6 +59,9 @@ So every calendar entry has:
   (Edward McCormack is not the Speaker; Lucius Clay of Berlin is not his son), nor a name in a case's title.
   `check` fails on a key that names no person.
 
+Calendar entries on the States and the cities take hidden `state:<postal code>` and `city:<slug>` tags (`state:ny`,
+`city:nyc`) and the threads in `notes/threads.md` ("The States and the cities").
+
 Each thread in `th.yaml` has a brief statement (`c`), as the owner asked: what the thread is, and its stations, in
 one or two clipped sentences. Every thread is its matter as Washington met it, but the statements don't say so; that framing, and the scopes
 taken out of the statements, are in `notes/threads.md`. `th.yaml` keeps the threads in alphabetical order of their
