@@ -119,6 +119,7 @@ elections/primaries.yaml  Senate primaries from CQ's *Guide*, by race (kept by h
 congress/changes.yaml     departures and successors during each Congress (generated)
 congress/specials.yaml    special elections during each Congress, 87th–93rd, with candidates (generated)
 congress/switches.yaml    members who changed party in office (kept by hand)
+elections/governors.yaml  every general election for governor, 1960–66 (generated from Wikipedia; never edit)
 sources/states.yaml       each State's own official election publications, where to read them, what they print (kept by hand)
 daybook/<YYYY-MM>.yaml    every Public Papers (APP) and FRUS document by date (generated)
 daybook/abstracts.yaml    one-sentence abstracts, keyed by document (kept by hand or agent)
@@ -836,6 +837,25 @@ year does not print. `tools/bib/primaries.py` renders them (STYLE notes there):
 - Names: every primary in which CQ prints a person is a row in his entry's record ("Elections and Congresses"):
   the party's primary in the State, the date linked to the calendar's day, the candidates (the person in bold), the
   pinpoint cite (`primary_rows` in `tools/bib/lives.py`).
+
+## Governors
+
+`elections/governors.yaml`, written by `tools/elections/make_governors.py` from Wikipedia (needs the network; the build
+does not): every general election for governor, 1960–66, odd years included (New Jersey and Virginia, 1961 and 1965;
+Kentucky and Mississippi, 1963; Louisiana, Mar. 3, 1964). The races and incumbents from Wikipedia's tables of each
+year; the figures from each race's article, its election box, with the source the article gives for them (most the
+State's canvass or *America Votes*; Our Campaigns, or none, marks Check). What the articles cannot settle is `HAND` in
+the script (Georgia, 1966: the legislature elected Maddox; Minnesota, 1962: the recount). Never edit the file by hand.
+`tools/bib/governors.py` renders them (STYLE notes there):
+
+- A calendar entry tagged `governors:<YYYY-MM-DD>` carries the day's races: a summary (races, wins, each party's
+  gains, the governorships after), a map (Result: the winner's party, dark where it took the office; Margin: the
+  election maps' quantile rule), and the table, one race a `tbody`: the candidates with votes and shares, the margin,
+  and under them the note (the incumbent and his fate, the hold or gain, the source). Now Nov. 8, 1960, Nov. 6, 1962,
+  Nov. 3, 1964 and Nov. 8, 1966 (thread "Governors"); the odd years' races are entries of their own.
+- Names: each race a row in the candidate's record (`governor_rows` in `tools/bib/lives.py`), the date linked to the
+  day's table.
+- The primaries for governor are calendar entries (thread "Governors"), their figures cited in each entry.
 
 ## Rosters and elections, linked
 
