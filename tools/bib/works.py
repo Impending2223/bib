@@ -747,7 +747,8 @@ VN_FAMILY = {"lam", "nguyen", "tran", "le", "pham", "hoang", "huynh", "phan", "v
 OWN_ORDER = {"Hoang Van Chi", "Ngo Van Chieu", "Pham Van Luu", "Pham Van Minh", "Pham Van Son", "Tran Van Don",
              "Tran Van Tra", "Van Tien Dung", "Hoai Thanh", "Cao Minh", "Nguyen Huu Nguyen", "Xuân Phuong",
              "Vinh-Loc", "Li Danhui", "Malcolm X", "Cincinnatus [Cecil B. Currey]"}
-SURNAME = {"Aurélie Basha i Novosejt": "Basha i Novosejt", "Nicholas deB. Katzenbach": "Katzenbach"}
+SURNAME = {"Aurélie Basha i Novosejt": "Basha i Novosejt", "Nicholas deB. Katzenbach": "Katzenbach",
+           "Carl J. Bon Tempo": "Bon Tempo"}
 RUNNING = {"Le Ly Hayslip", "Duong Van Mai Elliott"}
 PARTICLE = {"de", "De", "Del", "van", "Van", "von", "Von", "du", "Du", "la", "La", "le", "Le", "del", "der", "da", "di",
             "St.", "St"}
