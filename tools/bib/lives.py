@@ -2527,7 +2527,51 @@ def _person_races(series, p):
                  alive_day(rp, names))
     races = election_sentences(sur, given, sfx, strict, [split_name(n)[1] for n in names] + full_givens(names),
                                held_spans(names), {(c, ch, st) for _, c, ch, st, *_ in rp}, names, e, last_day(rp, names))
-    return rp, e, races + primary_rows(series, name)
+    return rp, e, races + primary_rows(series, name) + governor_rows(series, name)
+
+
+def governor_rows(series, name):
+    """The general elections for governor whose returns name the person (elections/governors.yaml; governors.py):
+    a row each in the record, by date: the race, the date linked to the calendar's entry for the day, every candidate
+    with votes and share, the person in bold, the source the race's article gives. One sentence each in the Life."""
+    from . import governors as G, namelinks
+    from .congress import BLUEBOOK
+    from .elections import pct_text
+
+    def index():
+        G.SERIES = series
+        out = defaultdict(list)
+        for r in G.load().get("races") or []:
+            for x in G.candidates(r):
+                if G.OTHERS.match(x["name"]):
+                    continue
+                who = namelinks.written(series, x["name"])
+                sfx = lambda n: (re.search(r"\b(Jr|Sr|II|III|IV)\.?$", n.strip()) or [None, ""])[1]
+                if who and sfx(who) == sfx(x["name"]):
+                    out[who].append((r, x["name"]))
+        return out
+    days = cached("governor-days", lambda: G.tagged(series))
+    res = []
+    for r, me in cached("governor-index", index).get(name, []):
+        cl = G.candidates(r)
+        cs = []
+        for x in cl:
+            nm = f"<b>{esc(x['name'])}</b>" if x["name"] == me else G.name_html(x["name"])
+            pa = f' <span class="lvpa">{esc(", ".join(x["parties"]))}</span>' if x["parties"] else ""
+            v = f'{x["votes"]:,}' if x["votes"] is not None else ""
+            cs.append(f'<span class="lvn">{nm}{pa}</span><span class="lvv">{v}</span>'
+                      f'<span class="lvs">{pct_text(x["pct"]) if x["pct"] is not None else "—"}</span>')
+        mine = next(x for x in cl if x["name"] == me)
+        eid = days.get(r["date"])
+        el = ptr(f"{SITE}cal.html#{eid}", fmt(r["date"])) if eid else esc(fmt(r["date"]))
+        src = G.source_html(r) or "Wikipedia"
+        state = BLUEBOOK.get(r["st"], r["st"])
+        what = "elected" if mine["won"] else "not elected"
+        res.append(sent(r["date"], f"Candidate for governor of {r['state']}, {fmt(r['date'])}: {what}.", [src], [],
+                        para=True, kind="election", dates={r["date"]}))
+        res[-1]["row"] = {"cong": None, "ch": "g", "st": r["st"], "date": r["date"], "election": el,
+                          "seat": f"Governor, {state}", "result": "", "cands": cs, "src": src}
+    return res
 
 
 def primary_rows(series, name):
