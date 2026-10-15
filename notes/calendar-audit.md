@@ -10,8 +10,8 @@ CLAUDE.md ("The calendar"). A review list: a hit is a place to look, not an erro
 | A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 806 |
 | (of which only a President's surname: Eisenhower, Kennedy, Johnson) | 13 |
 | Neither a bibliography of its own nor a `See [[id]]` back | 0 |
-| No primary record linked or named | 444 |
-| A primary record named but not linked | 112 |
+| No primary record linked or named | 418 |
+| A primary record named but not linked | 79 |
 | Threads (statements listed for review) | 86 |
 
 ## Names
@@ -1881,7 +1881,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1960-05-10.sit-ins` (May 10, VI may60.yaml): Nashville. Six downtown stores serve Negroes at their lunch counters, by agreement with the merchants. Three m
 - `cal.1960-06-08.elections-1960` (June 8, VII jun60.yaml): Rockefeller, in a statement: those taking control of the Republican Party have not made clear where it is head
 - `cal.1960-06-22.school-aid` (June 22, VII jun60.yaml): Rules, Smith's committee, refuses 7–5 to send the school bill to conference: the four Republicans and three So
-- `cal.1960-06-24.latin-america` (June 24, VII jun60.yaml): Caracas. A car bomb burns Betancourt and kills the head of his military household. Venezuela charges Trujillo'
 - `cal.1960-07-11.elections-1960` (July 11, VIII jul60.yaml): Democratic National Convention opens, Los Angeles, at the Memorial Sports Arena. The party's primaries: map an
 - `cal.1960-07-13.elections-1960` (July 13, VIII jul60.yaml): Kennedy nominated on the first ballot, Wyoming's votes putting him over: Kennedy 806, Johnson 409, Symington 8
 - `cal.1960-07-14.elections-1960` (July 14, VIII jul60.yaml): Kennedy offers Johnson second place; Robert Kennedy to Johnson's suite that afternoon; the accounts of what he
@@ -1927,18 +1926,13 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1961-05-31.states-and-cities` (May 31, XVIII may.yaml): Los Angeles runoff. Sam Yorty unseats Mayor Norris Poulson, 275,249 to 259,760, 51.5 percent.
 - `cal.1961-05.antisubversion-ca` (May, XVIII may.yaml): California. The Senate's Fact-Finding Subcommittee on Un-American Activities, Burns chairman, its eleventh rep
 - `cal.1961-05.mayors-omaha` (May, XVIII may.yaml): Omaha elects Dworak (D), a city councilman, mayor, by 342 votes over an Omaha attorney; the mayor not running.
-- `cal.1961-06-12.right-and-the-military` (June 12, XIX jun.yaml): Walker admonished; his program found improper. He resigns [[cal.1961-11-02.right-and-the-military]].
 - `cal.1961-06-13.mayors-minneapolis` (June 13, XIX jun.yaml): Minneapolis. Naftalin (DFL), a political scientist and Freeman's commissioner of administration, over Mayor Pe
 - `cal.1961-06-15.state-and-city-finance-nc` (June 15, XIX jun.yaml): North Carolina. The General Assembly ratifies Sanford's revenue bill for his Quality Education Program: exempt
 - `cal.1961-06-19.welfare-ny` (June 19, XIX jun.yaml): Newburgh, N.Y. The City Council, four ayes, adopts City Manager Mitchell's thirteen points on relief, in force
 - `cal.1961-06-25.states-and-cities-us` (June 25–28, XIX jun.yaml): Governors' Conference at Honolulu. Johnson, June 27: "Testing Our Will." June 28: for federal grants to the St
-- `cal.1961-07-30.berlin-and-vienna` (July 30, XX jul.yaml): Fulbright on television: the East Germans have the right to close their border, and he does not know why they 
 - `cal.1961-08.mississippi` (Aug., XXI aug.yaml): Bob Moses opens SNCC's voter registration school in McComb; registration attempts in Amite and Walthall Counti
-- `cal.1961-08-31.rules` (Aug. 31, XXI aug.yaml): Rayburn leaves Washington for Bonham, ill. He does not return. McCormack presides. Check the date.
 - `cal.1961-09-07.states-and-cities` (Sept. 7, XXII sep.yaml): New York primary. Mayor Wagner, running against Tammany, beats Levitt, 456,016 to 292,726, 60.9 percent; DeSap
 - `cal.1961-09-13.georgia-atlanta` (Sept. 13, XXII sep.yaml): Atlanta's primary for mayor, Hartsfield retiring. Allen, lately president of the Chamber of Commerce, 37,398; 
-- `cal.1961-09-15.testing` (Sept. 15, XXII sep.yaml): First U.S. underground test of the series in Nevada.
-- `cal.1961-09-19.space` (Sept. 19, XXII sep.yaml): NASA names Houston for the Manned Spacecraft Center. Albert Thomas held NASA's appropriations.
 - `cal.1961-09-19.berlin-and-vienna` (Sept. 19, XXII sep.yaml): Clay arrives in Berlin.
 - `cal.1961-09-22.georgia-atlanta` (Sept. 22, XXII sep.yaml): Atlanta's runoff for mayor: Allen 64,313, Maddox 36,091; Allen 64.1 percent.
 - `cal.1961-09-25.mississippi` (Sept. 25, XXII sep.yaml): Herbert Lee, a farmer working with Moses, shot dead at the Liberty cotton gin by state representative E.H. Hur
@@ -1962,9 +1956,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1961-11-07.mayors-springfield` (Nov. 7, XXIV nov.yaml): Springfield, Mass., the city's first nonpartisan election for mayor. Ryan over O'Connor, mayor since 1958 and 
 - `cal.1961-11-17.albany` (Nov. 17, XXIV nov.yaml): Albany Movement formed: SNCC, the NAACP, the ministers. William G. Anderson president.
 - `cal.1961-11-18.goldwater` (Nov. 18, XXIV nov.yaml): Atlanta, to Southern Republicans. Asked whether he writes off the Negro vote in the South: "We're not going to
-- `cal.1961-12-02.cuba` (Dec. 2, XXV dec.yaml): Castro declares himself a Marxist-Leninist.
 - `cal.1961-12-10.albany` (Dec. 10–13, XXV dec.yaml): Freedom riders from Atlanta arrested at the Albany station. Marches; hundreds jailed.
-- `cal.1961-12-11.vietnam` (Dec. 11, XXV dec.yaml): USNS *Core* docks at Saigon with two Army helicopter companies.
 - `cal.1961-12-15.albany` (Dec. 15–18, XXV dec.yaml): King in Albany. Arrested Dec. 16; refuses bail. Dec. 18: a truce; King out.
 - `cal.1961-12-19.transition-and-staff` (Dec. 19, XXV dec.yaml): Joseph P. Kennedy's stroke at Palm Beach. Speechless thereafter.
 - `cal.1961-12-19.specials` (Dec. 19, XXV dec.yaml): Louisiana 4th, special. Waggonner (D) over Lyons (R), 54.5 to 45.5, for Overton Brooks's seat. Swing 20.3 to R
@@ -1980,11 +1972,9 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1962-02.states-and-cities-ny` (Feb., XXVII feb62.yaml): The Conservative Party of New York State organized. O'Doherty its first chairman; Mahoney from July. July 13, 
 - `cal.1962-03-03.mayors-new-orleans` (Mar. 3, XXVIII mar62.yaml): New Orleans, Democratic runoff for mayor: Schiro 94,157, Duplantier 73,057; Schiro 56.3 percent (Check the dat
 - `cal.1962-03-07.goldwater` (Mar. 7, XXVIII mar62.yaml): Madison Square Garden, the Young Americans for Freedom's rally: some 18,000, a full house. Thurmond and Tower 
-- `cal.1962-03-13.cuba` (Mar. 13, XXVIII mar62.yaml): The Joint Chiefs send McNamara Operation Northwoods: pretexts for invasion, staged attacks among them. Lemnitz
 - `cal.1962-04-01.voting-rights` (Apr. 1, XXIX apr62.yaml): Voter Education Project begins: the Southern Regional Council, foundation money, the Justice Department's bles
 - `cal.1962-04-06.state-and-city-finance-detroit` (Apr. 6, XXIX apr62.yaml): Detroit. Cavanagh proposes a city income tax of 1 percent, on residents and on what nonresidents earn in the c
 - `cal.1962-04-16.desegregation-schools-la` (Apr. 16, XXIX apr62.yaml): Archbishop Rummel of New Orleans excommunicates Leander Perez, the Plaquemines Parish leader, and two others w
-- `cal.1962-04-25.testing` (Apr. 25, XXIX apr62.yaml): U.S. atmospheric testing resumes near Christmas Island.
 - `cal.1962-05-05.elections-1962` (May 5, XXX may62.yaml): Texas primaries for governor. Democratic: Connally 29.8 percent, Don Yarborough 22.0, Governor Daniel 17.2, At
 - `cal.1962-05-08.mayors-newark` (May 8, XXX may62.yaml): Newark, nonpartisan election. Addonizio, U.S. Representative from the 11th District since 1949, defeats Mayor 
 - `cal.1962-05.press-and-broadcasting` (May, XXX may62.yaml): The White House cancels its *New York Herald Tribune* subscriptions. Check the month.
@@ -1993,7 +1983,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1962-06-05.governors-id` (June 5, XXXI jun62.yaml): Idaho's primary. Republican, for governor: Smylie, seeking a third term, 37,761, 57.2 percent; Lindquist 16,56
 - `cal.1962-06-18.governors-me` (June 18, XXXI jun62.yaml): Maine's Democratic primary for governor. Dolloff 18,234, 50.3 percent; Dubord 18,007.
 - `cal.1962-06-28.states-and-cities-nashville` (June 28, XXXI jun62.yaml): Nashville. Davidson County's voters approve the charter of a Metropolitan Government of Nashville and Davidson
-- `cal.1962-07-09.testing` (July 9, XXXII jul62.yaml): Starfish Prime: 1.4 megatons, 250 miles over Johnston Island. Artificial aurora; satellites damaged; streetlig
 - `cal.1962-07-15.program` (July 15, XXXII jul62.yaml): *Washington Post* (Mintz): Kelsey of the FDA kept thalidomide off the market. Kefauver's drug bill revives.
 - `cal.1962-08-10.albany` (Aug. 10, XXXIII aug62.yaml): King leaves Albany. Parks and library closed rather than integrated. King later: the mistake was attacking seg
 - `cal.1962-08-27.elections-1962` (Aug. 27, XXXIII aug62.yaml): Edward Kennedy and McCormack debate in South Boston. "If his name was Edward Moore, with his qualifications . 
@@ -2002,8 +1991,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1962-09-27.georgia-ga` (Sept. 27–Oct. 23, XXXIV sep62.yaml): Special session, on *Toombs v. Fortson*. The General Assembly reapportions the Senate's 54 seats, many to the 
 - `cal.1962-10-02.mayors-cleveland` (Oct. 2, XXXV oct62.yaml): Cleveland, Democratic primary for the rest of Celebrezze's term. Locher over Mark McElroy, the attorney genera
 - `cal.1962-10-03.european-community` (Oct. 3, XXXV oct62.yaml): Brighton, the Labour Party conference. Gaitskell against entry on the terms in sight: a federal Europe "the en
-- `cal.1962-10-20.india-and-china` (Oct. 20, XXXV oct62.yaml): China attacks in Ladakh and the North-East Frontier Agency.
-- `cal.1962-10-25.missile-crisis` (Oct. 25, XXXV oct62.yaml): Stevenson and Zorin at the Security Council. "Until hell freezes over." The photographs shown.
 - `cal.1962-11-06.governors` (Nov. 6, XXXVI nov62.yaml): Thirty-five governors elected: Democrats 21, Republicans 14; each party took seven States from the other. Brow
 - `cal.1962-11-06.georgia-ga` (Nov. 6, XXXVI nov62.yaml): Georgia Senate, the first election under the new apportionment. Leroy Johnson (D), an Atlanta lawyer, elected 
 - `cal.1962-11-06.mayors-cleveland` (Nov. 6, XXXVI nov62.yaml): Cleveland. Locher elected for the rest of Celebrezze's term, some three to one.
@@ -2015,8 +2002,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1962-11-26.open-housing-detroit` (Nov. 26, XXXVI nov62.yaml): Detroit. Cavanagh signs an ordinance forbidding real estate agents to solicit sales or rentals by saying that 
 - `cal.1962-11-30.governors-nm` (Nov. 30, XXXVI nov62.yaml): New Mexico. Mechem resigns the governorship; Bolack, the lieutenant governor, succeeds and appoints him to the
 - `cal.1962-12-02.goldwater` (Dec. 2, XXXVII dec62.yaml): Chicago, a motel. White's draft group meets in secret, some forty by the UPI's count, many from the South: a G
-- `cal.1962-12-06.press-and-broadcasting` (Dec. 6, XXXVII dec62.yaml): Sylvester, Pentagon spokesman: the government's right to lie to save itself in a nuclear crisis. "Managed news
-- `cal.1962-12-08.press-and-broadcasting` (Dec. 8, XXXVII dec62.yaml): New York newspaper strike begins. 114 days.
 - `cal.1962-12-13.legislatures-us` (Dec. 13, XXXVII dec62.yaml): Advisory Commission on Intergovernmental Relations, *Apportionment of State Legislatures*, adopted: both house
 - `cal.1962-12-14.space` (Dec. 14, XXXVII dec62.yaml): Mariner 2 passes Venus. First planetary flyby.
 - `cal.1962-12-17.georgia-atlanta` (Dec. 17–18, XXXVII dec62.yaml): Atlanta. A Negro having bought a house in Peyton Forest, white homeowners ask for barricades across Peyton and
@@ -2025,7 +2010,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1962-12.states-and-cities-us` (Dec., XXXVII dec62.yaml): The Council of State Governments' General Assembly of the States, at Chicago, recommends three amendments to t
 - `cal.1963-02-19.program` (Feb. 19, XXXIX feb63.yaml): Friedan's *The Feminine Mystique* published.
 - `cal.1963-03-05.mayors-baltimore` (Mar. 5, XL mar63.yaml): Baltimore primaries for mayor. Democratic: Goodman, mayor since December, 49.5 percent of 143,418, the nearest
-- `cal.1963-03-31.press-and-broadcasting` (Mar. 31, XL mar63.yaml): New York newspaper strike ends after 114 days. The papers back Apr. 1.
 - `cal.1963-03.mayors-kansas-city` (Mar., XL mar63.yaml): Kansas City, Mo., elects Davis mayor, the Citizens Association's candidate, over Brookfield, by 1,810 votes of
 - `cal.1963-04-02.mayors-chicago` (Apr. 2, XLI apr63.yaml): Chicago. Daley (D) re-elected to a third term over Adamowski (R), Cook County's State's Attorney 1957–60, 679,
 - `cal.1963-04-02.states-and-cities-tx` (Apr. 2, XLI apr63.yaml): Crystal City, Tex. Five Mexican American candidates, backed by PASO and the Teamsters at the Del Monte cannery
@@ -2049,7 +2033,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1963-06-26.desegregation-public-places-ky` (June 26, XLIII jun63.yaml): Kentucky. Combs's executive order, the Fair Services Code: no discrimination by race in the State's public acc
 - `cal.1963-07-04.elections-1964` (July 4, XLIV jul63.yaml): Draft Goldwater rally, National Guard Armory, Washington. Police count over 7,000. Tower the speaker; O'Donnel
 - `cal.1963-07-14.elections-1964` (July 14, XLIV jul63.yaml): Rockefeller's statement against the "radical right": the Young Republicans' convention at San Francisco in Jun
-- `cal.1963-07-18.poverty-nc` (July 18, XLIV jul63.yaml): The North Carolina Fund incorporated by Sanford and others: a private nonprofit corporation, for five years, f
 - `cal.1963-07-21.states-and-cities-us` (July 21–24, XLIV jul63.yaml): Governors' Conference at Miami Beach. July 22: Hatfield's appeal against a five-minute limit on the civil righ
 - `cal.1963-07-23.civil-rights-the-executive` (July 23, XLIV jul63.yaml): Cambridge, Md., under the Guard since June. At Justice, Robert Kennedy brings Gloria Richardson and the city's
 - `cal.1963-07-23.alabama-birmingham` (July 23, XLIV jul63.yaml): Birmingham's council repeals the city's segregation ordinances, unanimously (Check).
@@ -2172,7 +2155,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1965-10-01.desegregation-schools-chicago` (Oct. 1–6, LXXI oct65.yaml): Chicago. Keppel, after the Office of Education's inquiry into the Coordinating Council's complaint against the
 - `cal.1965-10-15.students` (Oct. 15–18, LXXI oct65.yaml): International Days of Protest against the war, planned by Berkeley's Vietnam Day Committee and the National Co
 - `cal.1965-10-18.desegregation-schools-milwaukee` (Oct. 18, LXXI oct65.yaml): Milwaukee. The second boycott of the schools by the Integration Committee, of several days; thousands of child
-- `cal.1965-10-19.vietnam` (Oct. 19–27, LXXI oct65.yaml): Plei Me. North Vietnamese regiments attack the Special Forces camp south of Pleiku the night of Oct. 19: twelv
 - `cal.1965-10-22.alabama` (Oct. 22, LXXI oct65.yaml): Hayneville. An all-white jury acquits Wilkins at his second trial for the murder of Viola Liuzzo, after an hou
 - `cal.1965-11-02.states-and-cities` (Nov. 2, LXXII nov65.yaml): New York City. Lindsay, Republican and Liberal, elected mayor: 1,149,106 votes; Beame, Democrat, 1,046,699; Bu
 - `cal.1965-11-02.students` (Nov. 2, LXXII nov65.yaml): Norman Morrison, a Quaker, 31, burns himself to death at the Pentagon, below McNamara's office, his year-old d
@@ -2189,25 +2171,19 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1966-01-03.civil-rights-organizations` (Jan. 3, LXXIV jan66.yaml): CORE names McKissick national director, to succeed Farmer, who goes to a national literacy program. McKissick 
 - `cal.1966-01-04.states-and-cities` (Jan. 4, LXXIV jan66.yaml): Reagan announces for governor of California, on television. Check the date.
 - `cal.1966-01-10.mississippi` (Jan. 10, LXXIV jan66.yaml): Hattiesburg. Before dawn, Klansmen fire on and firebomb the house and store of Vernon Dahmer, president of the
-- `cal.1966-01-24.vietnam` (Jan. 24–Mar. 6, LXXIV jan66.yaml): Operation Masher, renamed White Wing: the 1st Cavalry Division, with ARVN and Korean troops, in Bình Định prov
 - `cal.1966-01-24.states-and-cities-dc` (Jan. 24, LXXIV jan66.yaml): Washington. A one-day boycott of D.C. Transit's buses against a fare rise from 20 cents to 25, called by Barry
 - `cal.1966-01-26.open-housing` (Jan. 26, LXXIV jan66.yaml): King moves into a flat on South Hamlin Avenue in Lawndale, on Chicago's West Side: the Chicago Freedom Movemen
 - `cal.1966-01.legislatures-us` (Jan., LXXIV jan66.yaml): Reapportionment at the end of 1965, as the *State Legislatures Progress Reporter* counts it: suits against the
 - `cal.1966-02-24.elections-1966` (Feb. 24, LXXV feb66.yaml): Lurleen Wallace announces for governor of Alabama. George Wallace, barred by the State constitution from a sec
-- `cal.1966-02-28.space` (Feb. 28, LXXV feb66.yaml): St. Louis. Elliot M. See Jr. and Charles A. Bassett II, named to fly Gemini 9, killed landing their T-38 in ba
 - `cal.1966-03-16.jobs-and-wages-ca` (Mar. 16–Apr. 10, LXXVI mar66.yaml): The Senate's Subcommittee on Migratory Labor at Delano, Cal., Mar. 16; Robert Kennedy questions the Kern Count
 - `cal.1966-03-25.students` (Mar. 25–26, LXXVI mar66.yaml): The second International Days of Protest against the war, called by the National Coordinating Committee to End
 - `cal.1966-03-26.specials` (Mar. 26, LXXVI mar66.yaml): Texas 8th, special. Lera Thomas (D) holds her husband's seat, 6,120 to 2,147 over Leman (R), 74.0 percent; Alb
 - `cal.1966-03-31.desegregation-schools-seattle` (Mar. 31–Apr. 1, LXXVI mar66.yaml): Seattle. School boycott against the segregation of the Central Area's schools, called by the Central Area Civi
-- `cal.1966-04-12.vietnam` (Apr. 12, LXXVII apr66.yaml): B-52s from Guam bomb North Vietnam for the first time: the Mụ Giạ Pass, on the road into Laos (Check the numbe
-- `cal.1966-04-21.vietnam` (Apr. 21, LXXVII apr66.yaml): Fulbright at the Johns Hopkins School of Advanced International Studies, the first of three Christian A. Herte
 - `cal.1966-04-27.state-and-city-finance-nj` (Apr. 27, LXXVII apr66.yaml): New Jersey's first sales tax. Hughes signs the Sales and Use Tax Act, A. 700: 3 percent on retail sales and on
 - `cal.1966-04.jobs-and-wages-oakland` (Apr., LXXVII apr66.yaml): Oakland. Foley's Economic Development Administration announces some $23 million for the city: public works at 
 - `cal.1966-04.desegregation-schools-boston` (Apr., LXXVII apr66.yaml): Massachusetts. The State Board of Education finds the Boston School Committee's plan of December under the Rac
 - `cal.1966-05-07.governors-tx` (May 7, LXXVIII may66.yaml): Texas Democratic primary. Governor Connally renominated for a third term, 74.3 percent, over Stanley Woods, 23
 - `cal.1966-05-14.students` (May 14, LXXVIII may66.yaml): The Selective Service College Qualification Test, first of three sittings (May 21, June 3): local boards to we
-- `cal.1966-05-18.defense` (May 18, LXXVIII may66.yaml): McNamara to the American Society of Newspaper Editors at Montreal: in the modernizing nations "security is dev
-- `cal.1966-06-03.space` (June 3–6, LXXIX jun66.yaml): Gemini 9: Stafford and Cernan, up June 3. Their Agena target lost May 17, when its Atlas failed; the substitut
 - `cal.1966-06-14.south-carolina-sc` (June 14, LXXIX jun66.yaml): South Carolina's Democratic primary. Senate, for Johnston's unexpired term: Hollings 60.8 percent, U.S. Senato
 - `cal.1966-06-14.mayors-newark` (June 14, LXXIX jun66.yaml): Newark runoff. Addonizio re-elected over Carlin, his predecessor. First round May 10: Kenneth Gibson, engineer
 - `cal.1966-06-16.mississippi` (June 16, LXXIX jun66.yaml): Greenwood. Carmichael, arrested for pitching the marchers' tents on a Negro school's grounds and released, at 
@@ -2221,13 +2197,11 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1966-07-11.crime-and-hijacking-nyc` (July 11, LXXX jul66.yaml): New York. Lindsay's civilian review board named: four civilians chosen by Lindsay, three police officers by Le
 - `cal.1966-07-16.states-and-cities-los-angeles` (July 16, LXXX jul66.yaml): Los Angeles. Parker, chief of police since 1950, dies.
 - `cal.1966-07-18.states-and-cities` (July 18–23, LXXX jul66.yaml): Cleveland. Rioting in Hough, July 18–23, begun at a bar at East 79th Street and Hough Avenue. Four dead, some 
-- `cal.1966-07-18.space` (July 18–21, LXXX jul66.yaml): Gemini 10: Young and Collins. Docked with their Agena target, they fire its engine and climb to some 475 miles
 - `cal.1966-07-26.elections-1966` (July 26–Aug. 9, LXXX jul66.yaml): Arkansas, governor; Faubus not running. Democratic primary, July 26: Jim Johnson first, Holt second. Runoff, A
 - `cal.1966-07.state-and-city-finance-nyc` (July, LXXX jul66.yaml): Albany, N.Y. The legislature, before it adjourns July 6, lets New York City tax its residents' incomes, and co
 - `cal.1966-08-02.governors-id` (Aug. 2, LXXXI aug66.yaml): Idaho's primary. Republican, for governor: Samuelson, a State senator, 52,891, 61.0 percent, over Smylie, gove
 - `cal.1966-08-04.elections-1966` (Aug. 4, LXXXI aug66.yaml): Tennessee, Democratic Senate primary: Clement, the governor, defeats Bass, 384,322 to 366,079; Bass had won th
 - `cal.1966-08-05.open-housing` (Aug. 5, LXXXI aug66.yaml): Chicago. The marches into the white neighborhoods of the Southwest Side, from late July. Aug. 5, Marquette Par
-- `cal.1966-08-10.space` (Aug. 10–23, LXXXI aug66.yaml): Lunar Orbiter 1 launched, Aug. 10; in orbit about the moon Aug. 14, the first American craft there. Photograph
 - `cal.1966-08-26.open-housing` (Aug. 26, LXXXI aug66.yaml): Chicago. The summit, from Aug. 17: Daley and the city, the Real Estate Board, the Housing Authority, churches,
 - `cal.1966-08.desegregation-public-places-milwaukee` (Aug., LXXXI aug66.yaml): Milwaukee. Groppi and the NAACP Youth Council picket the Fraternal Order of Eagles, which admits only whites, 
 - `cal.1966-09-01.states-and-cities-dayton` (Sept. 1, LXXXII sep66.yaml): Dayton. Lester Mitchell, a Negro, shot dead from a passing car while sweeping the walk before his bar on West 
@@ -2303,21 +2277,15 @@ the order, the APP document, the FRUS document, the case.
 ### Named, not linked
 
 - `cal.1960-01-09.governors-la` (Jan. 9, II jan60.yaml): Louisiana's Democratic runoff for governor: Davis, governor 1944–48, 54.1 percent; Morrison, mayor of New Orle — names "Election Returns"
-- `cal.1960-02-16.alabama-al` (Feb. 16, III feb60.yaml): Constitutional amendment election, nineteen amendments, most of them county taxes and fees. Amendment No. 1: $ — names "Official and Statistical"
-- `cal.1960-02-19.crime-and-hijacking-ca` (Feb. 19–Mar. 10, III feb60.yaml): Brown gives Chessman, under sentence of death since 1948, a sixty-day reprieve hours before his execution at S — names "Journal of the Senate"
 - `cal.1960-03-08.elections-1960` (Mar. 8, IV mar60.yaml): New Hampshire primary. Republican: Nixon 89.3 percent, others 4.0. Democratic: Kennedy 85.2 percent, others 14 — names "Manual"
 - `cal.1960-04-19.governors-la` (Apr. 19, V apr60.yaml): Louisiana, general election for governor: Davis (D) over Grevemberg (R), a former superintendent of State poli — names "Election Returns"
 - `cal.1960-04-26.elections-1960` (Apr. 26, V apr60.yaml): Primaries in Massachusetts and Pennsylvania. Republican: Nixon (write-in) in Massachusetts; Nixon in Pennsylva — names "Election Statistics"
 - `cal.1960-04-26.specials` (Apr. 26, V apr60.yaml): Pennsylvania 17th, special. Herman T. Schneebeli (R) holds the seat, 52.5 to 47.5. — names "Manual"
 - `cal.1960-04-26.specials-2` (Apr. 26, V apr60.yaml): Pennsylvania 18th, special. Douglas Elliott (R) holds the seat, 61.2 to 38.8. — names "Manual"
-- `cal.1960-05-03.alabama-al` (May 3, VI may60.yaml): Alabama's Democratic primary for presidential electors, eleven places, the electors to go on the November ball — names "Official and Statistical"
-- `cal.1960-05-03.governors-fl` (May 3, VI may60.yaml): Florida's Democratic primary for governor. Bryant, a former State representative, 20.7 percent; Carlton, a Sta — names "Tabulation of Official Vote"
 - `cal.1960-05-10.governors-nm` (May 10, VI may60.yaml): New Mexico's primary, for governor. Democratic: Governor Burroughs 66,541, 53.8 percent; Bursey 48,841, 39.5.  — names "Election Returns"
 - `cal.1960-05-12.students` (May 12–14, VI may60.yaml): Un-American Activities subcommittee hearings at San Francisco City Hall, Willis presiding. Students, most from — names "Hearings"
 - `cal.1960-05-23.soviet-union` (May 23–26, VI may60.yaml): Security Council on the Soviet complaint against the flights, Gromyko for the Soviet Union. Lodge shows the ca — names "Official Record"
 - `cal.1960-05-24.elections-1960` (May 24, VI may60.yaml): Florida primary. Republican: Nixon, unopposed. Democratic: Smathers, unopposed. — names "Tabulation of Official Vote"
-- `cal.1960-05-24.governors-fl` (May 24, VI may60.yaml): Florida's Democratic runoff for governor: Bryant 55.2 percent, Carlton 44.8. — names "Tabulation of Official Vote"
-- `cal.1960-05-31.alabama-al` (May 31, VI may60.yaml): Alabama's Democratic runoff for presidential electors. Six unpledged electors nominated in all, and five loyal — names "Official and Statistical"
 - `cal.1960-08-02.governors-ks` (Aug. 2, IX aug60.yaml): Kansas, governor. Republican primary: Anderson, the attorney general, 48.7 percent, Boyd 44.4, one other 6.9.  — names "Election Statistics"
 - `cal.1960-09-13.governors-wa` (Sept. 13, X sep60.yaml): Washington's blanket primary, for governor: Andrews (R), the lieutenant governor, 263,897, 37.4 percent; Gover — names "Official Abstract"
 - `cal.1960-09-13.governors-ut` (Sept. 13, X sep60.yaml): Utah's primary, for governor. Republican: Governor Clyde 50,592, 57.8 percent, over Gunderson, 37,002. Democra — names "Abstract of the Returns"
@@ -2325,48 +2293,31 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1960-11-08.governors-nm` (Nov. 8, XII nov60.yaml): New Mexico. Mechem (R) governor over Burroughs (D), 153,765 to 151,777, by 1,988 votes; Bolack (R) lieutenant  — names "Canvass"
 - `cal.1960-11-08.governors-ks` (Nov. 8, XII nov60.yaml): Kansas. Anderson (R) over Governor Docking (D), 511,534 to 402,261, 55.4 percent. — names "Election Statistics"
 - `cal.1960-12-28.elections-1960` (Dec. 28–30, XIII dec60.yaml): Hawaii's recount, ordered by Judge Jamieson, ends: Kennedy by 115 votes, where the first count gave Nixon 141. — names "Result of Votes"
-- `cal.1961-07-11.governors-va` (July 11, XX jul.yaml): Virginia, Democratic primary for governor: Harrison, the attorney general, the Byrd organization's candidate,  — names "Statement of the Vote"
-- `cal.1961-08-18.welfare-ny` (Aug. 18, XXI aug.yaml): Newburgh. The State Supreme Court for Orange County, on the State Board of Social Welfare's suit, enjoins twel — names "28 Misc. 2d 539"
 - `cal.1961-08-21.states-and-cities-nyc` (Aug. 21, XXI aug.yaml): Special session at Albany, N.Y., called by Rockefeller: six hours, a law to reform New York City's schools. Th — names "Laws of "
-- `cal.1961-09-29.open-housing-wa` (Sept. 29, XXII sep.yaml): *O'Meara v. Washington State Board Against Discrimination*, 58 Wash. 2d 793: the Washington Supreme Court hold — names "58 Wash. 2d 793"
 - `cal.1961-11-09.legislatures-ny` (Nov. 9–10, XXIV nov.yaml): Special session at Albany, N.Y., called by Rockefeller. New congressional districts on the 1960 census, the St — names "Laws of "
-- `cal.1961-12-05.alabama-al` (Dec. 5, XXV dec.yaml): Constitutional amendment election, forty-five amendments, most of them county taxes and powers to court indust — names "Official and Statistical"
-- `cal.1962-05-01.alabama-al` (May 1, XXX may62.yaml): Alabama's Democratic primary for governor: Wallace 32.5 percent, DeGraffenried 25.2, Folsom 25.1, Attorney Gen — names "Official and Statistical"
 - `cal.1962-05-15.governors-pa` (May 15, XXX may62.yaml): Pennsylvania primaries for governor. Republican: Scranton, U.S. Representative from the 10th District, 78.1 pe — names "Manual"
-- `cal.1962-05-29.elections-1962` (May 29, XXX may62.yaml): Alabama's runoff. Governor: Wallace 340,730, DeGraffenried 269,122; Wallace 55.9 percent. The State down from  — names "Official and Statistical"
 - `cal.1962-05.governors-nm` (May, XXX may62.yaml): New Mexico's primary. Democratic, for governor: Campbell, a State representative, 47,873, 38.7 percent; Mead 4 — names "Election Returns"
-- `cal.1962-07-18.legislatures-mi` (July 18, XXXII jul62.yaml): Michigan Supreme Court, *Scholle v. Secretary of State*, on remand after *Baker v. Carr*: the State Senate's d — names "367 Mich. 176"
 - `cal.1962-08-02.governors-tn` (Aug. 2, XXXIII aug62.yaml): Tennessee, Democratic primary for governor: Clement, governor 1953–59, 309,333, 42.5 percent; Olgiati, mayor o — names "Blue Book"
 - `cal.1962-08-07.governors-ks` (Aug. 7, XXXIII aug62.yaml): Kansas, governor. Democratic primary: Saffels 59.7 percent, one other 40.3. Republican: Governor Anderson 84.1 — names "Election Statistics"
 - `cal.1962-08.governors-wy` (Aug., XXXIII aug62.yaml): Wyoming's primary, for governor. Democratic: Governor Gage, the secretary of state who succeeded Hickey on his — names "Election Returns"
 - `cal.1962-09-11.governors-wi` (Sept. 11, XXXIV sep62.yaml): Wisconsin, governor. Republican primary: Kuehn 53.9 percent, Renk 42.9, one other 3.2. Reynolds, the attorney  — names "Blue Book"
-- `cal.1962-09-12.georgia-ga` (Sept. 12, XXXIV sep62.yaml): Georgia's Democratic primary for governor, the first without the county unit: Sanders, of Augusta, president p — names "Official and Statistical"
 - `cal.1962-11-06.governors-wy` (Nov. 6, XXXVI nov62.yaml): Wyoming. Hansen (R) governor over Gage (D), 64,970 to 54,298, 54.5 percent. — names "Election Returns"
 - `cal.1962-11-06.governors-nm` (Nov. 6, XXXVI nov62.yaml): New Mexico. Campbell (D) governor over Mechem (R), 130,933 to 116,174, 53.0 percent. — names "Canvass"
 - `cal.1962-11-06.governors-pa` (Nov. 6, XXXVI nov62.yaml): Pennsylvania. Scranton (R) governor over Dilworth (D), 2,424,918 to 1,938,627, 55.4 percent; 62 of the 67 coun — names "Manual"
-- `cal.1962-12-17.open-housing-co` (Dec. 17, XXXVII dec62.yaml): *Colorado Anti-Discrimination Commission v. Case*, 151 Colo. 235: the Colorado Supreme Court sustains the Stat — names "380 P.2d 34"
 - `cal.1963-02-06.economy` (Feb. 6, XXXIX feb63.yaml): Ways and Means opens hearings on the tax message, Dillon first. They run to Mar. 27. — names "Hearings"
 - `cal.1963-03-12.state-and-city-finance-in` (Mar. 12, XL mar63.yaml): Indiana. Welsh calls the General Assembly into special session on his "2-2-2" plan: the State's first sales ta — names "Laws of "
-- `cal.1963-03-15.governors-mn` (Mar. 15–25, XL mar63.yaml): Minnesota. The three judges find Rolvaag ahead by 91 votes, 619,842 to 619,751, Mar. 15, and order him declare — names "Canvass"
 - `cal.1963-04-01.state-constitutions-mi` (Apr. 1, XLI apr63.yaml): Michigan's new constitution ratified, 810,860 to 803,436, 50.2 percent. In force Jan. 1, 1964: the Civil Right — names "Canvass"
 - `cal.1963-07-01.legislatures-il` (July 1, XLIV jul63.yaml): Illinois. Kerner vetoes the Republican legislature's map of the House's districts, "unfair." Under the amendme — names "Blue Book"
 - `cal.1963-07-30.specials` (July 30, XLIV jul63.yaml): Pennsylvania 15th, special. Fred B. Rooney (D) holds the seat of Francis E. Walter (D), who died May 31; 53.5  — names "Manual"
 - `cal.1963-08-06.mississippi-ms` (Aug. 6, XLV aug63.yaml): Mississippi's Democratic primary for governor: Lieutenant Governor Paul Johnson 38.5 percent, former Governor  — names "Official and Statistical"
 - `cal.1963-08-27.mississippi-ms` (Aug. 27, XLV aug63.yaml): Mississippi's Democratic runoff for governor: Paul Johnson 261,493, Coleman 194,958; 57.3 percent. Johnson ran — names "Official and Statistical"
-- `cal.1963-10.alabama-al` (Oct., XLVII oct63.yaml): Alabama's State Sovereignty Commission, seven members, $50,000, its records closed to the public; members name — names "Acts of "
 - `cal.1963-11-05.mississippi-ms` (Nov. 5, XLVIII nov63.yaml): Mississippi. Paul Johnson (D) elected governor over Rubel Phillips (R), 225,456 to 138,515, 61.9 percent. The  — names "Official and Statistical"
 - `cal.1963-12-07.governors-la` (Dec. 7, XLIX dec63.yaml): Louisiana's Democratic primary for governor. Morrison, lately Ambassador to the OAS, 33.1 percent; McKeithen,  — names "Election Returns"
-- `cal.1963-12-10.alabama-al` (Dec. 10, XLIX dec63.yaml): Constitutional amendment election. The voter qualification amendment refused, 30,819 to 81,693: an applicant o — names "Official and Statistical"
 - `cal.1963-12.states-and-cities-us` (Dec., XLIX dec63.yaml): The year's applications to Congress for the Council of State Governments' amendments. Apportionment: twelve le — names "Cong. Rec."
 - `cal.1964-03-03.governors-la` (Mar. 3, LII mar64.yaml): Louisiana, general election for governor: McKeithen (D) over Lyons (R), a Shreveport oilman, 60.7 percent to 3 — names "Election Returns"
 - `cal.1964-03-10.elections-1964` (Mar. 10, LII mar64.yaml): New Hampshire primary. Republican: Lodge (write-in) 35.5 percent, Goldwater 22.3. Democratic: Johnson (write-i — names "Manual"
 - `cal.1964-04-28.elections-1964` (Apr. 28, LIII apr64.yaml): Primaries in Massachusetts and Pennsylvania. Republican: Lodge (write-in) in Massachusetts; Scranton (write-in — names "Election Statistics"
 - `cal.1964-04-28.specials` (Apr. 28, LIII apr64.yaml): Pennsylvania 5th, special. William J. Green III (D), 25, holds his father's seat, 58.6 to 41.4 over the Republ — names "Manual"
-- `cal.1964-05-05.alabama` (May 5, LIV may64.yaml): Alabama's Democratic primary. Ten unpledged electors nominated over a slate pledged to the national ticket: Pl — names "Official and Statistical"
-- `cal.1964-05-05.governors-fl` (May 5, LIV may64.yaml): Florida's Democratic primary for governor. Burns, mayor of Jacksonville, 27.5 percent; High, mayor of Miami, 1 — names "Tabulation of Official Vote"
-- `cal.1964-05-26.governors-fl` (May 26, LIV may64.yaml): Florida's Democratic runoff for governor: Burns 58.2 percent, High 41.8. The term two years: governors to be e — names "Tabulation of Official Vote"
-- `cal.1964-06-02.alabama` (June 2, LV jun64.yaml): Alabama's second primary. The nine Democratic nominees for Representative on one statewide ballot, the eight h — names "Official and Statistical"
-- `cal.1964-06-22.legislatures-mi` (June 22, LV jun64.yaml): Michigan Supreme Court, after *Reynolds v. Sims*: the Austin–Kleiner plan, the Democratic commissioners' distr — names "372 Mich. 418"
 - `cal.1964-08-04.governors-ks` (Aug. 4, LVII aug64.yaml): Kansas, governor; Governor Anderson not running. Republican primary: U.S. Representative Avery 30.4 percent, B — names "Election Statistics"
 - `cal.1964-09-08.governors-wi` (Sept. 8, LVIII sep64.yaml): Wisconsin, governor. Democratic primary: Governor Reynolds 70.3 percent, Frinzi 29.7. Republican: Knowles, a f — names "Blue Book"
 - `cal.1964-09-15.governors-wa` (Sept. 15, LVIII sep64.yaml): Washington's blanket primary, for governor: Evans (R), a State representative, 323,152, 39.1 percent; Governor — names "Official Abstract"
@@ -2377,37 +2328,27 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1964-11-03.governors-wi` (Nov. 3, LX nov64.yaml): Wisconsin. Knowles (R) over Governor Reynolds (D), 856,779 to 837,901, 50.6 percent. — names "Blue Book"
 - `cal.1964-12-15.legislatures-ny` (Dec. 15–30, LXI dec64.yaml): New York. The Republican legislature, in a special session called by Rockefeller before the Democrats take ove — names "Laws of "
 - `cal.1965-01-21.states-and-cities-ok` (Jan. 21, LXII jan65.yaml): Oklahoma City. State Representative G. T. Blankenship reads to the House a summary of the sworn statement of N — names "House Journal"
-- `cal.1965-04-14.legislatures-ny` (Apr. 14, LXV apr65.yaml): The New York Court of Appeals voids the plans of December: the State constitution fixes the Assembly at 150, a — names "15 N.Y.2d 339"
 - `cal.1965-06.crime-and-hijacking-ny` (June, LXVII jun65.yaml): New York. Rockefeller signs the bill ending the death penalty but for the murder of a peace officer on duty an — names "Laws of "
 - `cal.1965-07-13.transportation` (July 13, LXVIII jul65.yaml): Ribicoff's Subcommittee on Executive Reorganization, on the federal role in traffic safety: Donner, chairman,  — names "Hearings"
 - `cal.1965-08-01.state-and-city-finance-ny` (Aug. 1, LXIX aug65.yaml): New York's first general State sales tax, 2 percent, in force, enacted in the spring at Rockefeller's request. — names "Laws of "
-- `cal.1965-08-02.state-and-city-finance-us` (Aug. 2, LXIX aug65.yaml): Johnson to *Newsweek*, its issue of Aug. 2, on revenue sharing: "What do they call it—the Heller plan?" "Georg — names "Cong. Rec."
-- `cal.1965-09-30.alabama-al` (Sept. 30–Oct. 22, LXX sep65.yaml): Wallace's special session on succession: an amendment to let the governor serve a second term in a row. House  — names "Senate Journal"
 - `cal.1965-10-01.states-and-cities-jacksonville` (Oct. 1, LXXI oct65.yaml): Jacksonville. The Local Government Study Commission of Duval County, created by the 1965 legislature, establis — names "Laws of "
 - `cal.1965-10-02.specials` (Oct. 2, LXXI oct65.yaml): Louisiana 7th, special. Edwards (D), a State senator, holds T. Ashton Thompson's seat, unopposed; Thompson kil — names "Election Returns"
 - `cal.1965-11-02.legislatures-ny` (Nov. 2, LXXII nov65.yaml): New York. The legislature elected again, under the plan of December 1964, for one year, the only legislative e — names "Legislative Manual"
 - `cal.1965-11-02.state-constitutions-ny` (Nov. 2, LXXII nov65.yaml): New York's voters call a constitutional convention for 1967, and approve a bond issue of $1 billion for sewage — names "Legislative Manual"
-- `cal.1965-11-30.alabama-al` (Nov. 30, LXXII nov65.yaml): Constitutional amendment election, thirty-seven amendments. Section 181, the qualifications of 1951 (good char — names "Official and Statistical"
 - `cal.1966-01-15.state-and-city-finance-va` (Jan. 15–Mar., LXXIV jan66.yaml): Virginia. Godwin inaugurated governor, Jan. 15. The General Assembly enacts the Virginia Retail Sales and Use  — names "Acts of "
 - `cal.1966-02-08.specials` (Feb. 8, LXXV feb66.yaml): New York 17th, special. Kupferman (R), of the City Council, holds Lindsay's seat: 44,125; Orin Lehman (D) 43,2 — names "Legislative Manual"
 - `cal.1966-03-08.india-and-china` (Mar. 8–30, LXXVI mar66.yaml): The Senate Foreign Relations Committee, Fulbright presiding, hears scholars on policy toward mainland China. M — names "Hearings"
-- `cal.1966-03-22.legislatures-ny` (Mar. 22, LXXVI mar66.yaml): New York. The Court of Appeals adopts the districts drawn by its commission of five, Marden of the American Ba — names "17 N.Y.2d 107"
 - `cal.1966-04-27.women-ny` (Apr. 27, LXXVII apr66.yaml): New York. Rockefeller signs the Divorce Reform Law, the first change in the grounds since adultery alone was m — names "Laws of "
 - `cal.1966-04.health-ny` (Apr., LXXVII apr66.yaml): New York's Medicaid law, under Title XIX of the Social Security Amendments of 1965: medical care for those on  — names "Laws of "
-- `cal.1966-05-03.elections-1966` (May 3, LXXVIII may66.yaml): Alabama's Democratic primary, the first since the Voting Rights Act. Lurleen Wallace, standing for her husband — names "Official and Statistical"
-- `cal.1966-05-03.governors-fl` (May 3, LXXVIII may66.yaml): Florida's Democratic primary for governor. Governor Burns, elected in 1964 to a two-year term, 35.4 percent; H — names "Tabulation of Official Vote"
 - `cal.1966-05-03.governors-nm` (May 3, LXXVIII may66.yaml): New Mexico's primary, for governor. Democratic: Lusk, once a State senator, 85,211, 59.9 percent, over Burroug — names "Election Returns"
 - `cal.1966-05-17.governors-pa` (May 17, LXXVIII may66.yaml): Pennsylvania primaries for governor. Democratic: Shapp, an electronics manufacturer spending his own money, 48 — names "Manual"
 - `cal.1966-05-24.elections-1966` (May 24, LXXVIII may66.yaml): Oregon's primary, for Maurine Neuberger's Senate seat. Democratic: U.S. Representative Robert Duncan, for the  — names "Official Abstract"
-- `cal.1966-05-24.governors-fl` (May 24, LXXVIII may66.yaml): Florida's Democratic runoff for governor: High 53.9 percent, Governor Burns 46.1. Burns does not endorse him. — names "Tabulation of Official Vote"
 - `cal.1966-08-02.elections-1966` (Aug. 2, LXXXI aug66.yaml): Michigan, Democratic Senate primary: Williams, governor 1949–61, lately Assistant Secretary of State for Afric — names "Manual"
 - `cal.1966-08-02.governors-ks` (Aug. 2, LXXXI aug66.yaml): Kansas, governor. Democratic primary: Robert Docking, the late governor's son, 85.5 percent, one other 14.5. R — names "Election Statistics"
 - `cal.1966-08-04.governors-tn` (Aug. 4, LXXXI aug66.yaml): Tennessee, Democratic primary for governor: Ellington, governor 1959–63, 413,950, 53.5 percent; John Jay Hooke — names "Blue Book"
 - `cal.1966-08-16.students` (Aug. 16–19, LXXXI aug66.yaml): House Un-American Activities Committee, hearings on Pool's bill, H.R. 12047, and others: aid to an enemy in an — names "Hearings"
 - `cal.1966-08.governors-wy` (Aug., LXXXI aug66.yaml): Wyoming's primary, for governor, Hansen running for the Senate. Republican: Hathaway 26,110, 55.2 percent; Joe — names "Election Returns"
-- `cal.1966-09-02.alabama-al` (Sept. 2, LXXXII sep66.yaml): At Wallace's call, the legislature, in special session, declares void every agreement of a local school board  — names "Acts of "
 - `cal.1966-09-13.governors-wi` (Sept. 13, LXXXII sep66.yaml): Wisconsin, governor. Democratic primary: Lucey 45.2 percent, Carley 33.8, Frinzi 15.6, one other 5.4. Governor — names "Blue Book"
-- `cal.1966-09-14.elections-1966` (Sept. 14–28, LXXXII sep66.yaml): Georgia's Democratic primary for governor. Arnall, governor 1943–47, first, 231,480; Maddox, who closed his At — names "Official and Statistical"
 - `cal.1966-11-08.governors-ny` (Nov. 8, LXXXIV nov66.yaml): New York. Rockefeller (R) elected to a third term, 2,690,626, 44.6 percent; O'Connor (D) 2,298,363, 38.1; Adam — names "Legislative Manual"
 - `cal.1966-11-08.state-constitutions-mi` (Nov. 8, LXXXIV nov66.yaml): Michigan. Proposal 1, an amendment lowering the voting age from 21 to 18, rejected, 703,076 to 1,267,872, 35.7 — names "Manual"
 - `cal.1966-11-08.governors-nm` (Nov. 8, LXXXIV nov66.yaml): New Mexico. Cargo (R) governor over Lusk (D), 134,625 to 125,587, 51.7 percent. — names "Canvass"
