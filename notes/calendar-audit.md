@@ -10,7 +10,7 @@ CLAUDE.md ("The calendar"). A review list: a hit is a place to look, not an erro
 | A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 806 |
 | (of which only a President's surname: Eisenhower, Kennedy, Johnson) | 13 |
 | Neither a bibliography of its own nor a `See [[id]]` back | 0 |
-| No primary record linked or named | 418 |
+| No primary record linked or named | 393 |
 | A primary record named but not linked | 79 |
 | Threads (statements listed for review) | 86 |
 
@@ -2197,7 +2197,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1966-07-11.crime-and-hijacking-nyc` (July 11, LXXX jul66.yaml): New York. Lindsay's civilian review board named: four civilians chosen by Lindsay, three police officers by Le
 - `cal.1966-07-16.states-and-cities-los-angeles` (July 16, LXXX jul66.yaml): Los Angeles. Parker, chief of police since 1950, dies.
 - `cal.1966-07-18.states-and-cities` (July 18–23, LXXX jul66.yaml): Cleveland. Rioting in Hough, July 18–23, begun at a bar at East 79th Street and Hough Avenue. Four dead, some 
-- `cal.1966-07-26.elections-1966` (July 26–Aug. 9, LXXX jul66.yaml): Arkansas, governor; Faubus not running. Democratic primary, July 26: Jim Johnson first, Holt second. Runoff, A
 - `cal.1966-07.state-and-city-finance-nyc` (July, LXXX jul66.yaml): Albany, N.Y. The legislature, before it adjourns July 6, lets New York City tax its residents' incomes, and co
 - `cal.1966-08-02.governors-id` (Aug. 2, LXXXI aug66.yaml): Idaho's primary. Republican, for governor: Samuelson, a State senator, 52,891, 61.0 percent, over Smylie, gove
 - `cal.1966-08-04.elections-1966` (Aug. 4, LXXXI aug66.yaml): Tennessee, Democratic Senate primary: Clement, the governor, defeats Bass, 384,322 to 366,079; Bass had won th
@@ -2214,7 +2213,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1966-09.desegregation-schools-nyc` (Sept., LXXXII sep66.yaml): New York. Intermediate School 201, in East Harlem, new and windowless, its pupils Negro and Puerto Rican: pare
 - `cal.1966-09.governors-id` (Sept., LXXXII sep66.yaml): Idaho. Herndon, the Democratic nominee for governor, killed with two others in the crash of a private plane in
 - `cal.1966-10-15.black-nationalism` (Oct. 15, LXXXIII oct66.yaml): Oakland. Huey P. Newton and Bobby Seale found the Black Panther Party for Self-Defense. Its ten-point program,
-- `cal.1966-11-08.specials` (Nov. 8, LXXXIV nov66.yaml): Arkansas 4th, special. Pryor (D) holds the seat Oren Harris left Feb. 2 for the federal bench, 64.5 to 35.5 ov
 - `cal.1966-11-08.specials-2` (Nov. 8, LXXXIV nov66.yaml): Michigan 9th, special. Vander Jagt (R) holds Griffin's seat, 66.6 to 33.4 over Dongvillo (D); the same day, th
 - `cal.1966-11-08.governors` (Nov. 8, LXXXIV nov66.yaml): Thirty-five governors elected: Republicans 23, Democrats 12. Republicans took ten States, Democrats two. Reaga
 - `cal.1966-11-08.state-constitutions-ny` (Nov. 8, LXXXIV nov66.yaml): New York. Delegates to the constitutional convention of 1967 elected, fifteen at large from party lists and th
@@ -2224,7 +2222,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1966-11-08.legislatures-az` (Nov. 8, LXXXIV nov66.yaml): Arizona's legislature, elected in new districts after *Reynolds v. Sims*. The Senate, two members for each of 
 - `cal.1966-11-08.states-and-cities-memphis` (Nov. 8, LXXXIV nov66.yaml): Memphis's voters approve a new charter: a mayor and a council of 13, six elected at large and seven by distric
 - `cal.1966-11-08.legislatures-us` (Nov. 8, LXXXIV nov66.yaml): The State legislatures. Republicans gain some 420 lower-house seats and 160 senate seats; Democrats lose some 
-- `cal.1966-11-08.governors-fl` (Nov. 8, LXXXIV nov66.yaml): Florida. Kirk (R) over Mayor High of Miami (D), 821,190 to 668,233, 55.1 percent; the first Republican governo
 - `cal.1966-11-08.governors-me` (Nov. 8, LXXXIV nov66.yaml): Maine. Curtis (D) over Reed (R), the governor, 172,036 to 151,802, 53.1 percent.
 - `cal.1966-12.civil-rights-organizations` (Dec., LXXXV dec66.yaml): SNCC's staff meets at Peg Leg Bates's resort, Kerhonkson, N.Y. A vote to exclude whites from membership carrie
 - `cal.1966-12-09.poverty-nyc` (Dec. 9, LXXXV dec66.yaml): Brooklyn, P.S. 305. Robert Kennedy, with Lindsay and Javits, announces a program for Bedford-Stuyvesant: commu
@@ -2233,44 +2230,22 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1966-12-16.state-and-city-finance-us` (Dec. 16–17, LXXXV dec66.yaml): National Governors' Conference, special interim meeting at White Sulphur Springs, W. Va., the first between an
 - `cal.1966-12.health-us` (Dec., LXXXV dec66.yaml): Medicaid at the year's end: 29 States have begun programs. A State without one by 1970 to lose federal matchin
 - `cal.1967-01-02.states-and-cities` (Jan. 2, LXXXVI jan67.yaml): Sacramento. Reagan sworn as governor of California in the Capitol just after midnight, Finch as lieutenant gov
-- `cal.1968-03-12.elections-1968` (Mar. 12, LXXXVII mar68.yaml): New Hampshire primary. Republican: Nixon 77.6 percent, Rockefeller (write-in) 10.8. Democratic: Johnson (write
 - `cal.1968-04-02.elections-1968` (Apr. 2, LXXXVIII apr68.yaml): Wisconsin primary. Republican: Nixon 79.7 percent, Reagan 10.4. Democratic: McCarthy 56.2 percent, Johnson 34.
 - `cal.1968-04-23.elections-1968` (Apr. 23, LXXXVIII apr68.yaml): Pennsylvania primary. Republican: Nixon (write-in) 59.7 percent, Rockefeller (write-in) 18.4. Democratic: McCa
-- `cal.1968-04-30.elections-1968` (Apr. 30, LXXXVIII apr68.yaml): Massachusetts primary. Republican: Rockefeller (write-in) 30.0 percent, Volpe 29.5. Democratic: McCarthy 49.3 
 - `cal.1968-05-07.elections-1968` (May 7, LXXXIX may68.yaml): Primaries in the District of Columbia, Indiana and Ohio. Republican: Nixon-Rockefeller in the District; Nixon 
-- `cal.1968-05-14.elections-1968` (May 14, LXXXIX may68.yaml): Primaries in Nebraska and West Virginia. Republican: Nixon in Nebraska; unpledged delegates in West Virginia. 
-- `cal.1968-05-28.elections-1968` (May 28, LXXXIX may68.yaml): Primaries in Florida and Oregon. Republican: unpledged delegates in Florida; Nixon in Oregon. Democratic: Smat
-- `cal.1968-06-04.elections-1968` (June 4, XC jun68.yaml): Primaries in California, New Jersey and South Dakota. Republican: Reagan in California; Nixon (write-in) in Ne
-- `cal.1968-06-11.elections-1968` (June 11, XC jun68.yaml): Illinois primary. Republican: Nixon (write-in) 78.1 percent, Rockefeller (write-in) 9.7. Democratic: McCarthy 
 - `cal.1968-08-05.elections-1968` (Aug. 5, XCII aug68.yaml): Republican National Convention opens, Miami Beach, at Convention Hall. The party's primaries: map and returns 
 - `cal.1968-08-26.elections-1968` (Aug. 26, XCII aug68.yaml): Democratic National Convention opens, Chicago, at the International Amphitheatre. The party's primaries: map a
-- `cal.1972-03-07.elections-1972` (Mar. 7, XCIII mar72.yaml): New Hampshire primary. Republican: Nixon 67.6 percent, McCloskey 19.8. Democratic: Muskie 46.4 percent, McGove
 - `cal.1972-03-14.elections-1972` (Mar. 14, XCIII mar72.yaml): Florida primary. Republican: Nixon 87.0 percent, Ashbrook 8.8. Democratic: Wallace 41.6 percent, Humphrey 18.6
-- `cal.1972-03-21.elections-1972` (Mar. 21, XCIII mar72.yaml): Illinois primary. Republican: Nixon (write-in) 97.0 percent, others (write-in) 2.4. Democratic: Muskie 62.6 pe
 - `cal.1972-04-04.elections-1972` (Apr. 4, XCIV apr72.yaml): Wisconsin primary. Republican: Nixon 96.9 percent, McCloskey 1.3. Democratic: McGovern 29.6 percent, Wallace 2
-- `cal.1972-04-25.elections-1972` (Apr. 25, XCIV apr72.yaml): Primaries in Massachusetts and Pennsylvania. Republican: Nixon in Massachusetts; Nixon (write-in) in Pennsylva
 - `cal.1972-05-02.elections-1972` (May 2, XCV may72.yaml): Primaries in the District of Columbia, Indiana and Ohio. Republican: Nixon in Indiana and Ohio. Democratic: Fa
 - `cal.1972-05-04.elections-1972` (May 4, XCV may72.yaml): Tennessee primary. Republican: Nixon 95.8 percent, Ashbrook 2.1. Democratic: Wallace 68.2 percent, Humphrey 15
-- `cal.1972-05-06.elections-1972` (May 6, XCV may72.yaml): North Carolina primary. Republican: Nixon 94.8 percent, McCloskey 5.2. Democratic: Wallace 50.3 percent, Sanfo
-- `cal.1972-05-09.elections-1972` (May 9, XCV may72.yaml): Primaries in Nebraska and West Virginia. Republican: Nixon in Nebraska; unpledged delegates in West Virginia. 
-- `cal.1972-05-16.elections-1972` (May 16, XCV may72.yaml): Primaries in Maryland and Michigan. Republican: Nixon in Maryland and Michigan. Democratic: Wallace in Marylan
-- `cal.1972-05-23.elections-1972` (May 23, XCV may72.yaml): Primaries in Oregon and Rhode Island. Republican: Nixon in Oregon and Rhode Island. Democratic: McGovern in Or
-- `cal.1972-06-06.elections-1972` (June 6, XCVI jun72.yaml): Primaries in California, New Jersey, New Mexico and South Dakota. Republican: Nixon in California, New Mexico 
 - `cal.1972-07-10.elections-1972` (July 10, XCVII jul72.yaml): Democratic National Convention opens, Miami Beach, at Convention Hall. The party's primaries: map and returns 
 - `cal.1972-08-21.elections-1972` (Aug. 21, XCVIII aug72.yaml): Republican National Convention opens, Miami Beach, at Convention Hall. The party's primaries: map and returns 
-- `cal.1976-02-24.elections-1976` (Feb. 24, XCIX feb76.yaml): New Hampshire primary. Republican: Ford 49.4 percent, Reagan 48.0. Democratic: Carter 28.4 percent, Udall 22.7
-- `cal.1976-03-02.elections-1976` (Mar. 2, C mar76.yaml): Primaries in Massachusetts and Vermont. Republican: Ford in Massachusetts and Vermont. Democratic: Jackson in 
 - `cal.1976-03-09.elections-1976` (Mar. 9, C mar76.yaml): Florida primary. Republican: Ford 52.8 percent, Reagan 47.2. Democratic: Carter 34.5 percent, Wallace 30.5.
-- `cal.1976-03-16.elections-1976` (Mar. 16, C mar76.yaml): Illinois primary. Republican: Ford 58.9 percent, Reagan 40.1. Democratic: Carter 48.1 percent, Wallace 27.6.
-- `cal.1976-03-23.elections-1976` (Mar. 23, C mar76.yaml): North Carolina primary. Republican: Reagan 52.4 percent, Ford 45.9. Democratic: Carter 53.6 percent, Wallace 3
 - `cal.1976-04-06.elections-1976` (Apr. 6, CI apr76.yaml): Wisconsin primary. Republican: Ford 55.2 percent, Reagan 44.3. Democratic: Carter 36.6 percent, Udall 35.6.
 - `cal.1976-04-27.elections-1976` (Apr. 27, CI apr76.yaml): Pennsylvania primary. Republican: Ford 92.1 percent, Reagan (write-in) 5.1. Democratic: Carter 37.0 percent, J
 - `cal.1976-05-04.elections-1976` (May 4, CII may76.yaml): Primaries in the District of Columbia, Georgia and Indiana. Republican: Reagan in Georgia and Indiana. Democra
-- `cal.1976-05-11.elections-1976` (May 11, CII may76.yaml): Primaries in Nebraska and West Virginia. Republican: Reagan in Nebraska; Ford in West Virginia. Democratic: Ch
 - `cal.1976-05-18.elections-1976` (May 18, CII may76.yaml): Primaries in Maryland and Michigan. Republican: Ford in Maryland and Michigan. Democratic: Brown in Maryland; 
-- `cal.1976-05-25.elections-1976` (May 25, CII may76.yaml): Primaries in Arkansas, Idaho, Kentucky, Nevada, Oregon and Tennessee. Republican: Reagan in Arkansas, Idaho an
-- `cal.1976-06-01.elections-1976` (June 1, CIII jun76.yaml): Primaries in Montana, Rhode Island and South Dakota. Republican: Reagan in Montana and South Dakota; Ford in R
-- `cal.1976-06-08.elections-1976` (June 8, CIII jun76.yaml): Primaries in California, New Jersey and Ohio. Republican: Reagan in California; Ford in New Jersey and Ohio. D
 - `cal.1976-07-12.elections-1976` (July 12, CIV jul76.yaml): Democratic National Convention opens, New York, at Madison Square Garden. The party's primaries: map and retur
 - `cal.1976-08-16.elections-1976` (Aug. 16, CV aug76.yaml): Republican National Convention opens, Kansas City, at Kemper Arena. The party's primaries: map and returns bel
 
