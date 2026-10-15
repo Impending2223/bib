@@ -3,13 +3,13 @@
 Written by `./bib audit-cal` (`tools/bib/calaudit.py`): the dated entries checked against the brief in
 CLAUDE.md ("The calendar"). A review list: a hit is a place to look, not an error. Rerun after editing.
 
-2897 dated entries.
+2899 dated entries.
 
 | Check | Entries |
 |---|---|
 | A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 806 |
 | (of which only a President's surname: Eisenhower, Kennedy, Johnson) | 13 |
-| Neither a bibliography of its own nor a `See [[id]]` back | 8 |
+| Neither a bibliography of its own nor a `See [[id]]` back | 0 |
 | No primary record linked or named | 942 |
 | A primary record named but not linked | 100 |
 | Threads (statements listed for review) | 86 |
@@ -1847,14 +1847,6 @@ the person; several mean the surname is shared). "?" marks a surname that is als
 
 No work of its own and no `See [[id]]` back to the event's first entry.
 
-- `cal.1960-03-08.specials` (Mar. 8, IV mar60.yaml): New York 23d, special, in the Bronx. Jacob H. Gilbert (D) holds the seat, 82.4 percent.
-- `cal.1961-01-30.program` (Jan. 30, XIV jan.yaml): The Address to the Joint Session. The tide running against the United States in every area of crisis; the econ
-- `cal.1961-04-04.cuba` (Apr. 4, XVII apr.yaml): State Department meeting on the invasion plan. Fulbright, invited, argues against it. The plan goes ahead.
-- `cal.1961-04-27.press-and-broadcasting` (Apr. 27, XVII apr.yaml): Address to the newspaper publishers in New York: a call for self-restraint in a cold war. The press reads it a
-- `cal.1961-05-01.crime-and-hijacking` (May 1, XVIII may.yaml): First U.S. airliner hijacked to Cuba, a National Airlines flight bound for Key West.
-- `cal.1961-06-06.berlin-and-vienna` (June 6, XIX jun.yaml): Report to the nation on Vienna. "A very sober two days."
-- `cal.1961-08-01.berlin-and-vienna` (Aug. 1, XXI aug.yaml): Congress authorizes the call-up of up to 250,000 reservists for a year, [75 Stat. 242](https://www.govinfo.gov
-- `cal.1965-12-30.congress` (Dec. 30, LXXIII dec65.yaml): Saltonstall, Republican of Massachusetts, in the Senate since 1945, will not run again in 1966. Johnson's tele
 
 ## Primary record
 
@@ -2995,7 +2987,7 @@ The brief: what the thread is, and its stations, in one or two clipped sentences
 | Testing | Nuclear testing and arms control. The threshold proposal; France's first test; the Ten-Nation Committee; the moratorium declaration; the Antarctic Treaty; the Soviet resumption; American tests underground; ACDA; the fifty megatons; atmospheric tests resumed; Geneva; Starfish Prime; Khrushchev's inspection offer. |
 | Trade | Trade, from the Trade Expansion Act to the wheat sale. The OECD convention; the House and Senate votes; Herter named. |
 | Transition and staff | The administration's people and organization. The first appointments; Key Biscayne; the cabinet named; the NSC remade; the back injury; Taylor at the White House; McCone for Dulles; the Thanksgiving reshuffle; Joseph Kennedy's stroke; Hoover's lunch; Taylor to the Joint Chiefs. |
-| Transportation | Transportation and its safety. New York: the Lower Manhattan Expressway set aside. |
+| Transportation | Transportation and its safety. The message on freight rates, user charges and mass transit; New York: the Lower Manhattan Expressway set aside. |
 | Vietnam | The deepening commitment in Vietnam. Tây Ninh; the Caravelle petition; the Party's Third Congress; Durbrow's démarche; the paratroop coup; the National Liberation Front; the counterinsurgency plan; Johnson's trip; NSAM 52; Staley; Taylor–Rostow; NSAM 111; helicopters and the first dead; MACV; strategic hamlets; Galbraith's dissent; McNamara's visits; Mansfield's report; Ấp Bắc. |
 | Voting rights | Voting rights in Congress and the field. The referee plan, the filibuster, cloture refused, the Civil Rights Act of 1960; *Raines*; *Gomillion*; the poll tax amendment through Congress; the Voter Education Project; the literacy-test filibuster. |
 | War on poverty | The war on poverty, from the State of the Union of Jan. 8, 1964: Shriver's task force; the poverty message; the Economic Opportunity Act; the Office of Economic Opportunity; the 1965 letter; Head Start; the Economic Opportunity Amendments; the 1966 amendments. |

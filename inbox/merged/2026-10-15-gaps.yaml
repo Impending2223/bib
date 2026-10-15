@@ -1,0 +1,51 @@
+patch: calendar-gaps
+by: Claude
+ops:
+  - add:
+      entry:
+        id: cal.1961-02-22.berlin-and-vienna
+        when: Feb. 22
+        date: '1961-02-22'
+        thread: berlin-and-vienna
+        also: [soviet-union]
+        c: 'Kennedy to Khrushchev, by letter, drafted at the White House the day before with Rusk, Thompson, Harriman, Bohlen, Kohler and Bundy: more use of diplomatic channels, "not in the sense of negotiations"; a meeting "before too long" for "an informal exchange of views." Thompson to discuss it. Mar. 9, outside Novosibirsk, Thompson gives Khrushchev the letter: early May, Vienna or Stockholm. Khrushchev inclined to agree; Vienna preferred.'
+        n: 'FRUS 1961–63, VI, doc. [7](https://history.state.gov/historicaldocuments/frus1961-63v06/d7); V, docs. [41](https://history.state.gov/historicaldocuments/frus1961-63v05/d41), [42](https://history.state.gov/historicaldocuments/frus1961-63v05/d42) (Thompson, Mar. 10). [[w.beschloss-crisis-years]]; [[w.fursenko-khrushchevs-cold-war]]; [[w.thompson-kremlinologist]]. Made public: in part, Claflin''s collection of Kennedy''s memoranda, pp. 50–51 (FRUS''s note); in full, FRUS 1961–63, VI. Check: the years of both. Names: Khrushchev, Rusk, Thompson, Harriman, Bohlen, Kohler, Bundy.'
+        tags: [name:kennedy-john-f, name:khrushchev-nikita-s, name:rusk-dean, name:thompson-llewellyn-e, name:harriman-w-averell, name:bohlen-charles-e, name:kohler-foy-d, name:bundy-mcgeorge]
+  - add:
+      entry:
+        id: cal.1962-04-05.transportation
+        when: Apr. 5
+        date: '1962-04-05'
+        thread: transportation
+        also: [cities-and-housing]
+        c: 'Special message on transportation. Minimum-rate regulation lifted from all carriage of bulk and farm commodities, as now for water carriers; inter-city passenger fares in time under maximum rates only. User charges: 2 cents a gallon on jet fuel and on fuel used on the inland waterways; 5 percent on airline tickets and waybills. Mass transit grants through the HHFA: $500 million over three years, $100 million in fiscal 1963.'
+        n: '[Special Message to the Congress on Transportation](https://www.presidency.ucsb.edu/documents/special-message-the-congress-transportation) (Apr. 5, 1962). [[w.friedlaender-dilemma-of-freight-transport]]; [[w.smerk-urban-transportation]].'
+        tags: [name:kennedy-john-f]
+  - edit:
+      id: cal.1963-03-05.transportation
+      base: 3ac2dd38
+      set: {n: '[Letter to the President of the Senate and to the Speaker of the House on Transportation Policy](https://www.presidency.ucsb.edu/documents/letter-the-president-the-senate-and-the-speaker-the-house-transportation-policy) (Mar. 5, 1963). [[w.friedlaender-dilemma-of-freight-transport]]. See [[cal.1962-04-05.transportation]].'}
+  - edit:
+      id: cal.1961-01-30.program
+      base: a4b924ac
+      set: {n: '[Annual Message to the Congress on the State of the Union](https://www.presidency.ucsb.edu/documents/annual-message-the-congress-the-state-the-union-5) (Jan. 30, 1961). H. Doc. No. 73, 87th Cong.: [107 Cong. Rec. 1427](https://www.govinfo.gov/content/pkg/GPO-CRECB-1961-pt2/pdf/GPO-CRECB-1961-pt2-1-2.pdf#page=2). [[w.sorensen-kennedy]]; [[w.schlesinger-thousand-days-1965]]; [[w.bernstein-promises-kept]].'}
+  - edit:
+      id: cal.1961-04-27.press-and-broadcasting
+      base: d17f1b4f
+      set: {n: '[Address "The President and the Press" Before the American Newspaper Publishers Association](https://www.presidency.ucsb.edu/documents/address-the-president-and-the-press-before-the-american-newspaper-publishers-association) (Apr. 27, 1961). [[w.salinger-with-kennedy]]; [[w.kennedy-and-the-press]].'}
+  - edit:
+      id: cal.1961-05-01.crime-and-hijacking
+      base: 8f8978ad
+      set: {n: '[[w.koerner-skies-belong-to-us]]. The statute: [[cal.1961-09-05.crime-and-hijacking]].'}
+  - edit:
+      id: cal.1961-06-06.berlin-and-vienna
+      base: bb7a2437
+      set: {n: '[Radio and Television Report to the American People on Returning from Europe](https://www.presidency.ucsb.edu/documents/radio-and-television-report-the-american-people-returning-from-europe) (June 6, 1961). See [[cal.1961-06-03.berlin-and-vienna]].'}
+  - edit:
+      id: cal.1961-08-01.berlin-and-vienna
+      base: 8063ca45
+      set: {n: 'CQ Almanac 1961. See [[cal.1961-07-25.berlin-and-vienna]].'}
+  - edit:
+      id: cal.1965-12-30.congress
+      base: 1cd19744
+      set: {n: '[Telegram to Senator Saltonstall Following His Announcement That He Would Not Seek Reelection](https://www.presidency.ucsb.edu/documents/telegram-senator-saltonstall-following-his-announcement-that-he-would-not-seek-reelection) (Dec. 30, 1965). BD 1858. [[w.saltonstall-salty]]. Names: Saltonstall, Johnson.'}

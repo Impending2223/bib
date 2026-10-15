@@ -105,7 +105,7 @@ def run(series):
         if missing:
             names.append((sec, e, missing))
         own = bool(re.search(r"\*[^*]+\*|\[\[w\.", n) or LISTREF.search(n))
-        see = "See [[" in n or re.search(r"see \[\[", n)
+        see = "See [[" in n or "Bibliography: [[" in n or re.search(r"see \[\[", n)
         if not own and not see:
             event.append((sec, e))
         # a record may be linked in either field; a link counts by its host, or by its text naming a record (a
