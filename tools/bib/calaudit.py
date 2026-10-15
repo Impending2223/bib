@@ -26,14 +26,17 @@ PRIMARY_HOSTS = ("govinfo.gov", "eur-lex.europa.eu", "undocs.org", "docs.un.org"
                  "congress.gov", "jfklibrary.org", "lbjlibrary", "eisenhowerlibrary.gov", "trumanlibrary", "loc.gov",
                  "justia.com", "law.cornell.edu", "senate.gov", "house.gov", "supremecourt.gov", "oyez.org",
                  "uscode.house.gov", "cia.gov", "nsarchive", "fraser.stlouisfed.org", "bls.gov", "voteview.com", "static.case.law", "federalreserve.gov", "clerk.house.gov", "nasa.gov",
-                 "prde.upress.virginia.edu", "millercenter.org")
+                 "prde.upress.virginia.edu", "millercenter.org",
+                 # the courts' and the movement's own documents, the States' digital libraries
+                 "courtlistener.com", "crmvet.org", "okra.stanford.edu", "kinginstitute.stanford.edu", "dlg.usg.edu",
+                 "archives.lib.state.ma.us", "mdh.contentdm.oclc.org", "snccdigital.org")
 PRIMARY_NAMES = re.compile(r"\bStat\.|Fed\. Reg\.|Cong\. Rec\.|\bFRUS\b|Public Papers|\bAPP\b|\d+ U\.S\. \d+|"
                            r"Exec\. Order|Executive Order|Proclamation|Pub\. L\.|H\.R\. \d|S\. \d|Reorganization Plan|"
                            r"\bNSAM\b|Weekly Compilation|Department of State Bulletin|Election Statistics|Statistics of the Congressional|\(PRDE(?: only)?\)|\(Miller Center\)|"
                            # the States' and the cities' own records: returns, registers and manuals, session laws,
                            # journals, ballot pamphlets, charters, minutes; State and lower federal courts' reports
                            r"Official (?:Vote|Returns|Canvass|Report|and Statistical)|Canvass|Abstract of (?:the )?(?:Votes?|Returns)|"
-                           r"Statement of (?:the )?Vote|Statistical Register|Election Returns|Blue Book|Legislative Manual|"
+                           r"Statement of (?:the )?Vote|Official Record|Journal of Proceedings|\bHearings?\b|Official (?:Abstract|Report)|Result of Votes|Tabulation of Official Vote|Results of the (?:Primary|General) Election|Report of the President's Commission|S\. Rep\. No\.|H\.R\. Rep\. No\.|Statistical Register|Election Returns|Blue Book|Legislative Manual|"
                            r"\bManual\b|Red Book|Political History of Nevada|(?:Acts|Laws|Session Laws|Statutes) of |"
                            r"\b(?:House|Senate) Journal|Journal of the (?:House|Senate)|Ballot (?:Pamphlet|Proposition)|"
                            r"\bProposition \d|State Question|Charter|Minutes|Ordinance|"
