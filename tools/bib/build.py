@@ -545,7 +545,8 @@ class Linker:
                 u = self.name_url(x, tok) if x else None
                 linked.append(f"[[§nmx:{u}|{tok}]]" if u else f"[[§nm:{x['id']}|{tok}]]" if x and internal else tok)
             groups.append("".join(linked) + rest)
-        return head + "".join(groups)
+        # the sections gone, one run of names: the groups' semicolons become commas ('Names: King, Kennedy, Wofford')
+        return head + "".join(", " if re.fullmatch(r";\s*", g) else g for g in groups)
 
     def name_url(self, x, tok=None):
         """The name entry of the person a Part III entry names (the name of its subject line that tok's surname
