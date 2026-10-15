@@ -40,7 +40,8 @@ So every calendar entry has:
   - the event's bibliography. An event is not a thread: the Bay of Pigs and Mongoose are two events in the Cuba
     thread; the Vienna Summit and the Berlin wall two in Berlin and Vienna. The event's first entry carries its
     full bibliography (each work by its short form, "Surname, *Main Title*", the leading article dropped, linked to
-    its entry in the A–Z bibliography; no list or section); later entries of the same event point back to it with
+    its entry in the A–Z bibliography; no list or section; a run of works printed in order of publication, then by
+    the first author's surname or the short title, then the short title: `ordered` in `tools/bib/works.py`, at build); later entries of the same event point back to it with
     `See [[id]]`. An entry that opens a new event within a thread carries its own. This is how the calendar points
     "to the relevant material elsewhere in the bibliography" (the owner's words); it no longer names the themed lists'
     sections that treat the event (the owner's ruling, Oct. 13, 2026, with the move to one A–Z list). Write a work as
@@ -51,7 +52,12 @@ So every calendar entry has:
   - for an event done in private and documented in records nobody saw at the time (a recording, a memorandum, an FBI
     file), where and when it became public: "Made public: Drew Pearson's column, May 24, 1968." The brief's "left a
     trace, or should have left a trace": such events belong in the calendar, dated by the record.
-  - `Names: …`, the list and Part III section of every person in `c` who has a Part III entry ("Names, events").
+  - `Names: …`, the list and Part III section of every person in `c` who has a Part III entry ("Names, events"). The
+    list and section find the person and are not shown (the owner's ruling, Oct. 14, 2026): the page prints "Names: Heller,
+    Tobin", each linked to the name entry. Where a section holds two persons of a surname, write the given name
+    ("Martin Luther King"); a son or father with his suffix ("Harry F. Byrd Jr.", "Martin Luther King Sr."); where it is
+    still ambiguous, the entry's `name:` tags decide. A justice is named only where the entry quotes his opinion or is
+    about him, not for writing or joining one.
 - `tags`: a hidden `name:<key>` (the name entry's anchor: `name:mcnamara-robert-s`) for every person the entry
   names or whose act it records and who has a name entry, the President included where the entry is his message,
   address, press conference, signature, order, proclamation, NSAM, meeting, or a poll of his approval. Tags are not
@@ -109,7 +115,7 @@ lists/<key>/<file>.yaml   one section's entries, in display order (II.D.yaml, ap
 works/<letter>.yaml       the works catalogue: one card a work, by the first letter of its id (w.beschloss-crisis-years);
                           shown A to Z on build/works.html
 inbox/                    patch files waiting to be merged
-congress/<NN>.yaml        each Congress at its opening (87–93): House by state and
+congress/<NN>.yaml        each Congress at its opening (87–93), on build/congress.html ("Elections"): House by state and
                           district (0 = at large), Senate by state and class
 congress/geo.json         district and state shapes, projected and simplified
 elections/<YYYY>.yaml     President, House and Senate returns, 1956–74 (generated; never edit)
@@ -444,6 +450,13 @@ yet render it; author, title and year read from it for sorting and search).
 
 ## Congress at each opening
 
+`build/congress.html` is the Elections page (the top bar's "Elections"; the file keeps its name so old links work):
+every election, 1958–74, by the Congress it chose, each with the States' elections of the same span placed by date
+(the governors chosen that day and the legislatures the election chose, `state_blocks` in `tools/bib/congress.py`; the
+odd years' governors after the Congress's roster), then the Congress at its opening and its specials. The Senate
+summary of each election ends with the Senate at the opening (`senate_opening` in `tools/bib/elections.py`: the roster,
+or for the 86th and 94th `senate_opening` in `elections/facts.yaml`).
+
 `./bib build` also draws each Congress at its opening: party bars (majority and
 two-thirds lines), a House map by district, a Senate map by state, and rosters
 by state with pointers to Part III and the calendar entries that name each
@@ -719,6 +732,10 @@ leaves out the pointer the role line already gives (and is left out where that w
   cites, then the pointers. Each sentence block is a paragraph; a new one also at each office and election, and at
   each calendar entry, where the sources run on.
 - An office is followed by the offices held ex officio by virtue of it, with their dates only where they differ.
+- The Directory's text in the series' forms (`bd_style`): the States as the Bluebook abbreviates them (T12.1 of the
+  Indigo Book, https://law.resource.org/pub/us/code/blue/IndigoBook.html: N.D., S.D., Cal., Kan., Neb., Or., N.M., W.
+  Va., Wis.), spans with an en dash ("January 3, 1971–present"). A short form of a first name ("Sam" for "Samuel
+  William") takes the Directory's entry of a man the rosters lack only where two words of his offices agree with it.
 - The Directory's color is cut (`CUT`); its bibliography is put in the series' form ("Timothy N. Thurber, *The
   Politics of Equality* (1999)"). FRUS headings with "from" in lower case.
 
@@ -901,8 +918,7 @@ race, and in presidential years the vote for President by State with the elector
 `election:<year>` carries its block too (now Nov. 8, 1960, Nov. 6, 1962, and Nov. 8, 1966). A block: the electoral and popular vote
 first, then by chamber the seats won, the net change from the close of the last Congress, pickups,
 and new members; one view switch for every map (Result; Margin, the winner's lead over the runner-up in points of all the votes, by the quantile rule; Swing, continuous); the
-President's map above the House and Senate, with a States | Pickups | Electors switch (Pickups: in Result, the
-States that changed party dark, the others light; Electors: a dot an elector, as voted); the Senate map with a Senators toggle (a dot a seat, larger than the House's: `PB`, `RB`); and every race in tables (the candidate first, in bold where he won, his party under or after him; under 520px the share
+President's map above the House and Senate, with a States | Electors switch (Electors: a dot an elector, as voted); the Senate map with a Senators toggle (a dot a seat, larger than the House's: `PB`, `RB`); and every race in tables (the candidate first, in bold where he won, his party under or after him; under 520px the share
 under the count and the note on a line of its own):
 candidates with party, votes and share, the margin in votes and in points of all the votes cast, and
 a note. Pickups are shaded in the winner's color, other member changes in gray. Members of neither
@@ -963,7 +979,7 @@ tools/bib/elections.py              renders the blocks and checks the data (STYL
   `review/READER.md`; `review.py verify`, then `merge`; rerun `make_elections.py` (it should
   leave nothing); `review.py audit YEAR`; `./bib check`; then tag the calendar entry.
 - Colors are tokens at the top of `templates/congress.html` (its CSS is in commented
-  sections). Result and Pickups: four steps a side (`--eR1`–`--eR4`, `--eB1`–`--eB4`).
+  sections). Result: four steps a side (`--eR1`–`--eR4`, `--eB1`–`--eB4`).
   Margin: a straight line in OKLab from `--rW` (near white) at a tie to `--rR`/`--rB`, the darkest steps, by the
   quantile rule: a margin's position is the share of the 2,291 contested races for presidential electors,
   1824–2024, decided by less (`elections/pres-margins.csv`, written by `tools/elections/pres_margins.py`; the
@@ -1083,7 +1099,7 @@ day falls in; the threads section is in both. `tools/bib/calsplit.py` (STYLE not
   rule while lit where it has none. A rubric's thread name, followed to the index, lights it too, never clears it. Tapped again, cleared; kept for the tab (sessionStorage). While it is lit, a mark a
   lit entry in the thumb's column, its place and height the entry's share of the page (3px at least), no bar behind:
   amber while the scroll wheel's headings show (they stay 1.5 s after it is let go, `LINGER` in the templates), white
-  after; a click on a mark brings its entry to the top (STYLE 8). On every page the scroll wheel is hidden until the reader
+  after; a click on a mark brings its entry to the top (STYLE 8). The headings the scroll wheel shows are links while they show: a click goes there. On every page the scroll wheel is hidden until the reader
   scrolls (the wheel, a finger, the keys, the page's scroll bar; not a link followed or a jump: `HAND` in
   `templates/list.html` and `series.html`), and goes 1.2 s after the scrolling stops. Nothing moves (STYLE 7,
   `SCRIPT` in `tools/bib/calsplit.py`; `data-threads`, `data-thread`, `data-t` in `tools/bib/build.py`).

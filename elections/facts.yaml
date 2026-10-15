@@ -207,3 +207,10 @@ alabama_1960:
   check: >-
     Check: Kennedy's leading elector, 318,303, against Alabama's official canvass; where Congressional Quarterly gave
     the five-elevenths reckoning (not the Guide's table); Mississippi's unpledged slate against the State's canvass.
+
+# The Senate at the opening of a Congress that has no roster in congress/ (the 86th, 94th): the party division the
+# Senate Historical Office gives (senate.gov, "Party Division"), at the opening, before later admissions and
+# vacancies filled. Shown in the election's Senate summary (tools/bib/elections.py, senate_opening).
+senate_opening:
+  86: {D: 64, R: 34}                  # Jan. 7, 1959; Hawaii's two Senators (Aug. 1959) not yet seated
+  94: {D: 60, R: 37, others: ['1 Independent, caucusing with the Democrats (Byrd)', '1 Conservative, caucusing with the Republicans (Buckley)', '1 vacant (New Hampshire, contested)']}

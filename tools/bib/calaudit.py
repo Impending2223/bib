@@ -53,6 +53,10 @@ AMBIG = {"White", "Black", "Brown", "Green", "Long", "King", "Young", "Little", 
 PRESIDENTS = {"Eisenhower", "Kennedy", "Johnson"}
 
 
+OPINION = re.compile(r"\b(?:opinion|dissent\w*|concurr\w*|for the (?:Court|court|majority)|joined|writing|"
+                     r"per curiam|holds?|rules?)\b")
+
+
 def part3(series):
     """{surname: [(name as written, 'List III.X')]} from every list's Part III."""
     out = defaultdict(list)
@@ -88,6 +92,9 @@ def run(series):
         for sur in dict.fromkeys(sur_rx.findall(c_plain)):
             slug = re.sub(r"[^a-z0-9]+", "-", sur.lower()).strip("-") + "-"
             if sur in given or any(k.startswith(slug) for k in tagged):
+                continue
+            # a judge named only for an opinion he wrote or joined goes unnamed (the owner's ruling, Oct. 14, 2026)
+            if p3[sur] and all("III.G" in w for _, w in p3[sur]) and OPINION.search(c):
                 continue
             per = defaultdict(list)          # each person once, with all his sections
             for n_, where in p3[sur]:

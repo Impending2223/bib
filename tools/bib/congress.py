@@ -479,11 +479,12 @@ def page(series, linker, template):
                 for t in e.get("tags", []):
                     if t.startswith("congress:"):
                         tagged[int(t.split(":")[1])] = e
-    main = ["<h1>Congress at each opening, 1961–1973, and the elections, 1958–1974</h1>",
-            '<p class="lede">The House and Senate on the day each Congress convened, from the 87th to the 93rd: '
-            'the party division, the districts and states, and every member, with pointers to the lists and the calendar. '
-            'Before each, the election that chose it, from 1958 (the 86th) to 1974 (the 94th): '
-            'every House and Senate race, and in presidential years the vote for President and the Electors\' ballots.</p>',
+    main = ["<h1>Elections, 1958–1974, and Congress at each opening, 1961–1973</h1>",
+            '<p class="lede">Every general election from 1958 (the 86th Congress) to 1974 (the 94th): every House and Senate '
+            'race, and in presidential years the vote for President and the Electors\' ballots; with them, the States\' '
+            'elections for governor, 1960–66, and the legislatures they chose, 1959–67. After each, the House and Senate on '
+            'the day the Congress convened, from the 87th to the 93rd: the party division, the districts and states, and every '
+            'member, with pointers to the lists and the calendar; then the special elections during the Congress.</p>',
             '<p class="logic">Members from <a href="https://github.com/unitedstates/congress-legislators">unitedstates/congress-legislators</a>, '
             'corrected by hand where noted in the rosters (terms missing from the source, seats vacant at the opening). '
             'District shapes from Jeffrey B. Lewis et al., <a href="https://cdmaps.polisci.ucla.edu">United States Congressional District Shapefiles</a>, '
@@ -492,9 +493,27 @@ def page(series, linker, template):
             'biography, matched on surname and first given name; and the calendar entries that name the member. '
             'The calendar runs January 1961 to January 1963.</p>',
             '<nav class="toc" aria-label="Contents">\n<h3 id="contents" style="border-top:0;margin-top:1.5rem" data-short="Contents">Contents</h3>\n<ol id="tocList"></ol>\n</nav>']
-    from . import elections
+    from . import elections, governors, legislatures
+    governors.SERIES = series
     edata = elections.load()
     etag = elections.tagged(series)
+    gdates = sorted({r["date"] for r in governors.load().get("races") or []})
+    sessions = legislatures.sessions()
+
+    def state_blocks(c, y, after_election):
+        """The States' elections in the Congress's span: with the federal election (after_election), the governors
+        chosen that day and the legislatures it chose; else the governors chosen between (the odd years)."""
+        out = []
+        day = str(edata[y]["date"]) if y in edata else f"{y}-11-99"
+        nxt = str(edata[y + 2]["date"]) if y + 2 in edata else f"{y + 2}-11-99"
+        for d in gdates:
+            if (d == day) if after_election else (day < d < nxt):
+                out.append(f'<h3 id="gv{d}" data-short="Governors, {d[:4]}">Governors, {esc(governors.fmt_date(d))}</h3>')
+                out.append(governors.block(d))
+        if after_election and y + 1 in sessions:
+            out.append(f'<h3 id="lg{y + 1}h" data-short="Legislatures, {y + 1}">The State legislatures in session, {y + 1}</h3>')
+            out.append(legislatures.block(y + 1))
+        return out
     shown = sorted(set(data) | {87 + (y - 1960) // 2 for y in edata if y >= 1958} | {c for c in specials.load() if c >= 85})
     for c in shown:
         main.append(f'<h2 id="c{c}" data-short="{ordinal(c)}">{ordinal(c)} Congress, {YEARS[c]}</h2>')
@@ -504,9 +523,11 @@ def page(series, linker, template):
             if y in etag:
                 main.append(f'<p class="logic">In the calendar: <a href="cal.html#{etag[y]["id"]}">{esc(etag[y]["when"])}, {y}</a>.</p>')
             main.append(elections.block(y, edata))
+            main += state_blocks(c, y, True)
             if c in data:
                 main.append(f'<h3 id="o{c}" data-short="Opening">At the opening</h3>')
         if c not in data:                # no roster (the 86th): its specials still follow its election
+            main += state_blocks(c, y, False)
             sp = specials.block(c, edata)
             if sp:
                 main.append(f'<h3 id="sp{c}" data-short="Specials">Special elections during the {ordinal(c)} Congress</h3>')
@@ -515,11 +536,12 @@ def page(series, linker, template):
         if c in tagged:
             main.append(f'<p class="logic">In the calendar: <a href="cal.html#{tagged[c]["id"]}">{esc(tagged[c]["when"])}, {tagged[c]["date"][:4]}</a>.</p>')
         main.append(block(c, data[c], geo, ptr, href, rid, here=True))
+        main += state_blocks(c, y, False)
         sp = specials.block(c, edata)
         if sp:
             main.append(f'<h3 id="sp{c}" data-short="Specials">Special elections during the {ordinal(c)} Congress</h3>')
             main.append(sp)
     pg = open(template, encoding="utf-8").read()
-    pg = pg.replace("{{page_title}}", "Congress at each opening and the elections").replace("{{main}}", "\n".join(main))
+    pg = pg.replace("{{page_title}}", "Elections and Congress").replace("{{main}}", "\n".join(main))
     from . import roster
     return roster.ensure(pg.replace("</body>", assets(geo) + "\n</body>", 1))

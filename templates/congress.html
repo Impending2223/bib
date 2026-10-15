@@ -1,6 +1,6 @@
 <style>
 /* Colors, light and dark. p: the parties (pDs Southern Democrats; pT a third ticket). e: the election scales.
-   Result and Pickups: four steps a side, eR1-eR4 and eB1-eB4 (held 2, the President's winner 3, a pickup
+   Result: four steps a side, eR1-eR4 and eB1-eB4 (held 2, the President's winner 3, a pickup
    4). Margin: a straight line in OKLab from rW (near white; a dark gray in dark mode) at a tie out to rR or rB,
    the step-4 colors (rA, amber, a third ticket), placed by the quantile rule (QM in the script). Swing: from eN,
    gray, at none to eR4 or eB4 at SWING points. eN also the gray of other member changes in the tables; eNone no
@@ -296,10 +296,9 @@ details.cgr.er td:nth-child(3){font-weight:400}
       var a=document.createElement('a'); a.href='#'+t.getAttribute('data-row'); a.textContent=fig.dataset.rows||'Returns \u2193'; info.appendChild(a);}
     svg.addEventListener('click',function(e){if(z.moved()) return; var t=e.target.closest('[data-row]'); if(t) say(t);});
     blocks.addEventListener('mouseover',function(e){var t=e.target.closest('.dot'); if(t) say(t);});
-    // States | Pickups | Electors; Pickups is the States in the Congress maps' scheme, Result view only
+    // States | Electors
     var tog=document.createElement('div'); tog.className='cgt';
     tog.innerHTML='<button type="button" data-v="s" aria-pressed="true">States</button>'
-      +(pickups?'<button type="button" data-v="f" aria-pressed="false" title="The States that went to another party than at the last election dark, the others light (Result view)">Pickups</button>':'')
       +'<button type="button" data-v="e" aria-pressed="false">Electors</button>';
     foot.insertBefore(tog,foot.firstChild);
     var fx=tog.querySelector('[data-v="f"]');

@@ -1178,6 +1178,31 @@ def first_cites(series):
     return series._first_cites
 
 
+WORK_ITEM = r"\[\[w\.[^\]]+\]\](?:,[^;.\[\]]*(?:\.[^;\s][^;.\[\]]*)*)?"
+WORK_RUN = re.compile(WORK_ITEM + r"(?:;\s+" + WORK_ITEM + r")+")
+
+
+def ordered(series, text):
+    """A calendar note's works in order (the owner's rule, Oct. 14, 2026): a run of works cited one after another
+    ('[[w.a]]; [[w.b]], 290; [[w.c]]') by the year of publication, then the first author's surname (or the short
+    title, for a work without an author), then the short title. Each keeps its pinpoint; the rest of the note is
+    left as written."""
+    cat = series.works
+
+    def key(item):
+        cid = re.match(r"\[\[(w\.[^\]|]+)", item).group(1).strip()
+        cid = cat.alias.get(cid, cid)
+        f = cat.fields(cid) or {}
+        y = str(f.get("year") or "9999")[:4]
+        _, k = filing(series, cid)
+        return (y, k[0], k[-1])
+
+    def sub(m):
+        items = re.findall(WORK_ITEM, m.group(0))
+        return "; ".join(sorted(items, key=key))
+    return WORK_RUN.sub(sub, text or "")
+
+
 def with_first_cites(series, e, text):
     """The entry's note with its first citations marked to print in full (FIRST CITE)."""
     first, cat, done = first_cites(series), series.works, set()

@@ -93,6 +93,9 @@ ol.e>li:last-child{border-bottom:0}
   padding:.4rem .65rem;text-align:right;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--ink);border-radius:6px}
 #peek li.l4{font-weight:600}
 #peek li.cur{background:var(--hl-bg);color:var(--hl-ink);font-weight:800}
+/* a heading the wheel shows is a link: a click goes there (the owner's request, Oct. 14, 2026) */
+#peek.on li{pointer-events:auto;cursor:pointer}
+#peek.on li:hover{text-decoration:underline;text-underline-offset:3px}
 
 /* outline drawer */
 #drawer{position:fixed;inset:0;z-index:40;display:none}
@@ -256,7 +259,7 @@ var META={{meta}}, ORDER={{order}};
     // pages outside the reader
     var gp=document.createElement('li'); gp.className='gl'; gp.textContent='Pages'; lsts.appendChild(gp);
     var lp=document.createElement('li'), ap=document.createElement('a');
-    ap.href='congress.html'; ap.innerHTML='<b>Congress</b><span>Each Congress at its opening, 1961\u20131973: bars, maps, members</span>';
+    ap.href='congress.html'; ap.innerHTML='<b>Elections</b><span>The elections, 1958\u20131974, federal and State; each Congress at its opening, 1961\u20131973</span>';
     lp.appendChild(ap); lsts.appendChild(lp);
     var lx=document.createElement('li'), ax=document.createElement('a');
     ax.href='executive.html'; ax.innerHTML='<b>Executive</b><span>The Executive Branch at each inauguration, 1953\u20131974: offices, law, holders</span>';
@@ -338,7 +341,7 @@ var META={{meta}}, ORDER={{order}};
     peekList.innerHTML='';
     for(var k=Math.max(0,c-20);k<=Math.min(heads.length-1,c+20);k++){
       var y=cy+(k-c)*rowH; if(y<minY||y>maxY) continue;
-      var li=document.createElement('li'); li.textContent=label(heads[k]); li.className='l'+lvl(heads[k])+(k===i?' cur':''); li.style.top=y+'px'; peekList.appendChild(li);
+      var li=document.createElement('li'); li.textContent=label(heads[k]); li.className='l'+lvl(heads[k])+(k===i?' cur':''); li.style.top=y+'px'; li.dataset.k=k; peekList.appendChild(li);
     }
   }
   function show(){rail.classList.add('on');clearTimeout(hideT);if(!dragging)hideT=setTimeout(function(){if(!dragging)rail.classList.remove('on');},peek.classList.contains('on')?LINGER:1200);}
@@ -359,6 +362,13 @@ var META={{meta}}, ORDER={{order}};
   thumb.addEventListener('pointerdown',function(e){dragging=true;clearTimeout(peekT);thumb.setPointerCapture(e.pointerId);thumb.style.cursor='grabbing';show();renderPeek(curIndex());peek.classList.add('on');e.preventDefault();});
   thumb.addEventListener('pointermove',function(e){if(dragging)scrollFromY(e.clientY);});
   function endDrag(){if(!dragging)return;dragging=false;thumb.style.cursor='grab';show();clearTimeout(peekT);peekT=setTimeout(function(){peek.classList.remove('on');},LINGER);}
+  peekList.addEventListener('click',function(e){   // a heading clicked: go there
+    var li=e.target.closest('li'); if(!li||li.dataset.k===undefined) return;
+    var h=heads[+li.dataset.k]; if(!h) return;
+    clearTimeout(peekT); peek.classList.remove('on'); clearTimeout(hideT); rail.classList.remove('on');
+    if(h.id){ history.pushState(null,'','#'+h.id); }
+    h.scrollIntoView(); window.scrollBy(0,-(hdrH()+8));
+  });
   thumb.addEventListener('pointerup',endDrag); thumb.addEventListener('pointercancel',endDrag);
 
   // ---------- drawer

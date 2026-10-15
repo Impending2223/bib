@@ -210,7 +210,7 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
     n = year_qualified(series, e.get("n"), year)
     if n and lst.kind == "calendar":    # a work's first citation in full (tools/bib/works.py, FIRST CITE)
         from . import works
-        n = works.with_first_cites(series, e, n)
+        n = works.with_first_cites(series, e, works.ordered(series, n))
     if is_thread:                       # the dates by year, and across the divide (tools/bib/calsplit.py)
         dates = calsplit.thread_dates_html(lst, slug, members, esc)
         if dates:
@@ -345,7 +345,7 @@ def build_list(series, key, linker=None, half=None):
     for p in store.as_list(data.get("logic")):
         main.append(f'<p class="logic">{text_html(p, "logic")}</p>')
     main.append('<p class="logic">To navigate, use the Outline button, the contents below, or the handle on the right edge, which you can drag to see nearby headings. '
-                'All the lists in one reader: <a href="series.html">the series</a>. Each Congress at its opening: <a href="congress.html">Congress</a>. '
+                'All the lists in one reader: <a href="series.html">the series</a>. The elections and each Congress at its opening: <a href="congress.html">Elections</a>. '
                 'The Executive Branch at each inauguration: <a href="executive.html">Executive</a>.</p>')
     main.append('<nav class="toc" aria-label="Contents">\n<h3 id="contents" style="border-top:0;margin-top:1.5rem" data-short="Contents">Contents</h3>\n<ol id="tocList"></ol>\n</nav>')
     for s in half_sections(lst, half):
@@ -516,7 +516,8 @@ class Linker:
 
     def names_markup(self, chunk, key, internal=True, tags=None):
         """A calendar note's 'Names: Heller, Tobin (K–J Adm. III.H)': each name marked to link to the person's name
-        entry (or, failing one and where internal, to the Part III entry in the reader)."""
+        entry (or, failing one and where internal, to the Part III entry in the reader). The list and section in the
+        parentheses find the person; they are not shown ('Names: Heller, Tobin'), the owner's ruling of Oct. 14, 2026."""
         refs = self.refs
         m = re.search(r"Names: (.*)$", chunk)
         if not m:
@@ -543,7 +544,7 @@ class Linker:
                 x = self.find_person(tok, lkey, codes, tags)
                 u = self.name_url(x, tok) if x else None
                 linked.append(f"[[§nmx:{u}|{tok}]]" if u else f"[[§nm:{x['id']}|{tok}]]" if x and internal else tok)
-            groups.append("".join(linked) + f" ({ref_part})" + rest)
+            groups.append("".join(linked) + rest)
         return head + "".join(groups)
 
     def name_url(self, x, tok=None):
@@ -776,8 +777,8 @@ def build_series(series):
     home.append('<h2 id="home--wk" data-short="Works">Works</h2><ol class="e lists"><li><a class="lk" href="works.html">'
                 '<span class="ab">Works</span><span class="tt">Every work the series cites, A to Z, with where it is cited</span></a>'
                 f'<span class="r">{len(series.works.cards):,} works</span></li></ol>')
-    home.append('<h2 id="home--cg" data-short="Congress">Congress</h2><ol class="e lists"><li><a class="lk" href="congress.html">'
-                '<span class="ab">Congress</span><span class="tt">Each Congress at its opening, 1961–1973: party bars, House and Senate maps, every member</span></a>'
+    home.append('<h2 id="home--cg" data-short="Elections">Elections</h2><ol class="e lists"><li><a class="lk" href="congress.html">'
+                '<span class="ab">Elections</span><span class="tt">The elections, 1958–1974: President, House, Senate, governors, legislatures; each Congress at its opening, 1961–1973</span></a>'
                 '<span class="r">87th–93rd</span></li></ol>')
     home.append('<h2 id="home--ex" data-short="Executive">The Executive Branch</h2><ol class="e lists"><li><a class="lk" href="executive.html">'
                 '<span class="ab">Executive</span><span class="tt">The Executive Branch at each inauguration, 1953–1974: every office, its authority, its holders</span></a>'
