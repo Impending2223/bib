@@ -125,6 +125,7 @@ elections/facts.yaml      hand-kept facts: caucus labels, faithless electors, 19
 elections/cq.yaml         CQ's *Guide to U.S. Elections* compared with the Clerk's figures, by page (kept by hand)
 elections/renominations.yaml  renominations lost by primary, where a source says so (kept by hand)
 elections/primaries.yaml  Senate primaries from CQ's *Guide*, by race (kept by hand; CQ prints no House primaries)
+notes/leads.md            leads to check later: events, figures and sources the drafting agents could not place
 congress/changes.yaml     departures and successors during each Congress (generated)
 congress/specials.yaml    special elections during each Congress, 87th–93rd, with candidates (generated)
 congress/switches.yaml    members who changed party in office (kept by hand)
