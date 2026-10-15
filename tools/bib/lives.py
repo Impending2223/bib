@@ -615,7 +615,8 @@ def bd_entry(sur, given, member=True, words=(), sfx="", alive=None):
     then the one whose given names agree most fully ('Albert W.' is Albert Walter Johnson, not Washington's Albert
     Johnson). A member of Congress at an opening may match by a
     middle name he went by ('Thad Cochran', 'William Thad'); anyone else only where the entry also names one of
-    his offices (a word of its title: 'Ambassador to India')."""
+    his offices (a word of its title: 'Ambassador to India'); by a short form of his first name ('Sam', 'Samuel
+    William') only where two words of his offices agree ('Mayor of Los Angeles')."""
     best = None
     for e in letter_json("bd", fold(sur)[:1].upper()):
         m = re.match(r"([^,(]+), ([^(]+?)(?:,? \(|$)", e["name"]) or re.match(r"([^,]+), (.+)", e["name"])
@@ -631,18 +632,22 @@ def bd_entry(sur, given, member=True, words=(), sfx="", alive=None):
         if sfx not in ("", "Sr") and (sm.group(1) if sm else "") != sfx:
             continue
         ok = same_person(sur, given, sur, g)
+        short = False        # a short form ('Sam' for 'Samuel William'): taken only where two of his words agree
         if ok and not member:
             # anyone else gives his initials in full in the Directory ('William P.' is not 'Will')
-            ok = len(gtoks(g)) >= len(gtoks(given)) and not nick(gtoks(given)[0], gtoks(g)[0])
-        if not ok:
+            full = len(gtoks(g)) >= len(gtoks(given))
+            short = full and nick(gtoks(given)[0], gtoks(g)[0])
+            ok = full and not short
+        if not ok and not short:
             # the middle name he went by ('Brooks Hays', 'Lawrence Brooks'); anyone else needs the words too (below)
             A, B = gtoks(given), gtoks(g)
             ok = len(A) == 1 and any(A[0] == b or nick(A[0], b) for b in B[1:])
-        if ok and not member:
+        if (ok or short) and not member:
             bw = set(re.findall(r"[a-z]{4,}", fold(e["text"])))
             if re.search(r"\bPresident of the United States\b", re.split(r";\s*born\b", e["text"], 1)[0]):
                 bw.add("@president")
-            ok = bool(set(words) & bw)
+            ok = len(set(words) & bw) >= (2 if short else 1)    # Sam Yorty: 'mayor', 'angeles'
+            short = False
         d = death_day(e)
         if ok and d and d < max("1953-01-01", alive or ""):
             ok = False
@@ -708,6 +713,20 @@ def bd_cite(e):
     return a(BD_URL.format(part=e["part"], pdf=e["pdf"]), f"BD {e['page']}")
 
 
+BLUEBOOK_ST = {"N.Dak.": "N.D.", "N. Dak.": "N.D.", "S.Dak.": "S.D.", "S. Dak.": "S.D.", "Calif.": "Cal.",
+               "Kans.": "Kan.", "Nebr.": "Neb.", "Oreg.": "Or.", "N.Mex.": "N.M.", "N. Mex.": "N.M.",
+               "W.Va.": "W. Va.", "Wisc.": "Wis."}
+BLUEBOOK_RE = re.compile("|".join(re.escape(k) for k in sorted(BLUEBOOK_ST, key=len, reverse=True)))
+
+
+def bd_style(t):
+    """The Directory's text in the series' forms: the States abbreviated as the Bluebook does (T12.1 of the Indigo
+    Book: N.D., S.D., Cal., Kan., Neb., Or., N.M., W. Va., Wis.), a span of years or dates with an en dash ('1960–1970',
+    'January 3, 1971–present')."""
+    t = BLUEBOOK_RE.sub(lambda m: BLUEBOOK_ST[m.group(0)], t)
+    return re.sub(r"(\d)-(?=\d|present\b)", r"\1–", t)
+
+
 def bd_sentences(e):
     text = e["text"].replace("‘‘", "“").replace("’’", "”")
     text = re.sub(r"(?<=[a-z])(?=(?:1[789]|20)\d\d\b)", " ", text)        # 'State senate1915-1925': a space lost
@@ -723,7 +742,7 @@ def bd_sentences(e):
         t = re.sub(r"\b(January|February|March|April|May|June|July|August|September|October|November|December)\b",
                    lambda m: MONTHS[FULL[m.group(1)] - 1], t)
         t = t[0].upper() + t[1:]
-        t = re.sub(r"(\d)-(\d)", r"\1–\2", t)
+        t = bd_style(t)
         out.append(sent(k, esc(t.rstrip(".")) + ".", [bd_cite(e)], kind="bd", dates=ds))
     return out
 
@@ -1677,8 +1696,9 @@ def election_sentences(sur, given, sfx="", strict=False, givens=(), held=(), sea
 
 
 def series_html(ptrs, text, home, e=None):
-    """Text with the series' own markup made pointers: '[[id]]' (a calendar date, the year added where it differs)
-    and the references to lists and sections ('K–J Adm. II.D')."""
+    """Text with the series' own markup made pointers: '[[id]]' (a calendar date, the year added where it differs),
+    '[[w.id]]' (a work, its short form linked to works.html), and the references to lists and sections ('K–J Adm.
+    II.D')."""
     from .build import label_of
     series, linker = ptrs.series, ptrs.linker
     toks = []
@@ -1689,6 +1709,8 @@ def series_html(ptrs, text, home, e=None):
 
     def link(m):
         eid, shown = m.group(1), m.group(2)
+        if eid.strip().startswith("w."):     # a work: its short form, linked to the A–Z list, by to_html below
+            return m.group(0)
         hit = series.get(eid)
         if not hit:
             return shown or eid
@@ -2680,6 +2702,7 @@ def entry(series, linker, ptrs, p):
         m = re.search(r", ((?:an?|the) [A-Z0-9].*)", re.sub(r"\([^)]*\)|\[[^]]*\]", "", head))
         desc = (m.group(1) if m else (head.split("), ", 1)[-1] if "), " in head else head.split(", ", 2)[-1])).strip(" .")
         desc = re.sub(r" and (?:an?) ", " and ", re.sub(r"^(?:an?) ", "", desc))   # 'Senator from Minnesota and Vice President' 
+        desc = bd_style(desc)
         out.append(f'<p class="lvd">{esc(desc[0].upper() + desc[1:])}. <span class="lvc">{bd_cite(e)}.</span></p>')
     shown = None                         # the pointer the role line already gives, not repeated below it
     if p.get("frus"):

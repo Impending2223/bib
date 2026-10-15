@@ -110,6 +110,9 @@ ol.e>li:last-child{border-bottom:0}
   padding:.4rem .65rem;text-align:right;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--ink);border-radius:6px}
 #peek li.l4{font-weight:600}
 #peek li.cur{background:var(--hl-bg);color:var(--hl-ink);font-weight:800}
+/* a heading the wheel shows is a link: a click goes there (the owner's request, Oct. 14, 2026) */
+#peek.on li{pointer-events:auto;cursor:pointer}
+#peek.on li:hover{text-decoration:underline;text-underline-offset:3px}
 
 /* outline drawer */
 #drawer{position:fixed;inset:0;z-index:40;display:none}
@@ -128,7 +131,7 @@ ol.e>li:last-child{border-bottom:0}
 
 <header id="hdr"><div class="in">
   <div id="crumb"><b>{{page_title}}</b></div>
-  <nav class="pg" aria-label="Pages"><a href="series.html">Series</a><a href="congress.html">Congress</a><a href="executive.html">Executive</a><a href="names.html">Names</a><a href="works.html">Works</a></nav>
+  <nav class="pg" aria-label="Pages"><a href="series.html">Series</a><a href="congress.html">Elections</a><a href="executive.html">Executive</a><a href="names.html">Names</a><a href="works.html">Works</a></nav>
   <button id="olbtn" aria-controls="drawer" aria-expanded="false">Outline</button>
 </div></header>
 
@@ -221,7 +224,7 @@ ol.e>li:last-child{border-bottom:0}
       var y=cy+(k-c)*rowH;
       if(y<minY||y>maxY) continue;
       var li=document.createElement('li'); li.textContent=label(heads[k]);
-      li.className='l'+lvl(heads[k])+(k===i?' cur':''); li.style.top=y+'px';
+      li.className='l'+lvl(heads[k])+(k===i?' cur':''); li.style.top=y+'px'; li.dataset.k=k;
       peekList.appendChild(li);
     }
   }
@@ -254,6 +257,13 @@ ol.e>li:last-child{border-bottom:0}
   thumb.addEventListener('pointermove',function(e){ if(dragging){ scrollFromY(e.clientY); } });
   function endDrag(){ if(!dragging) return; dragging=false; thumb.style.cursor='grab'; show();
     clearTimeout(peekT); peekT=setTimeout(function(){ peek.classList.remove('on'); },LINGER); }
+  peekList.addEventListener('click',function(e){   // a heading clicked: go there
+    var li=e.target.closest('li'); if(!li||li.dataset.k===undefined) return;
+    var h=heads[+li.dataset.k]; if(!h) return;
+    clearTimeout(peekT); peek.classList.remove('on'); hide();
+    if(h.id){ history.pushState(null,'','#'+h.id); }
+    h.scrollIntoView(); window.scrollBy(0,-(hdrH()+8));
+  });
   thumb.addEventListener('pointerup',endDrag);
   thumb.addEventListener('pointercancel',endDrag);
 

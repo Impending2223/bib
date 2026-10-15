@@ -22,18 +22,21 @@ from . import store
 
 OUT = os.path.join(store.ROOT, "notes", "calendar-audit.md")
 
-PRIMARY_HOSTS = ("govinfo.gov", "presidency.ucsb.edu", "history.state.gov", "federalregister.gov", "archives.gov",
+PRIMARY_HOSTS = ("govinfo.gov", "eur-lex.europa.eu", "undocs.org", "docs.un.org", "presidency.ucsb.edu", "history.state.gov", "federalregister.gov", "archives.gov",
                  "congress.gov", "jfklibrary.org", "lbjlibrary", "eisenhowerlibrary.gov", "trumanlibrary", "loc.gov",
                  "justia.com", "law.cornell.edu", "senate.gov", "house.gov", "supremecourt.gov", "oyez.org",
                  "uscode.house.gov", "cia.gov", "nsarchive", "fraser.stlouisfed.org", "bls.gov", "voteview.com", "static.case.law", "federalreserve.gov", "clerk.house.gov", "nasa.gov",
-                 "prde.upress.virginia.edu", "millercenter.org")
+                 "prde.upress.virginia.edu", "millercenter.org",
+                 # the courts' and the movement's own documents, the States' digital libraries
+                 "courtlistener.com", "crmvet.org", "okra.stanford.edu", "kinginstitute.stanford.edu", "dlg.usg.edu",
+                 "archives.lib.state.ma.us", "mdh.contentdm.oclc.org", "snccdigital.org")
 PRIMARY_NAMES = re.compile(r"\bStat\.|Fed\. Reg\.|Cong\. Rec\.|\bFRUS\b|Public Papers|\bAPP\b|\d+ U\.S\. \d+|"
                            r"Exec\. Order|Executive Order|Proclamation|Pub\. L\.|H\.R\. \d|S\. \d|Reorganization Plan|"
                            r"\bNSAM\b|Weekly Compilation|Department of State Bulletin|Election Statistics|Statistics of the Congressional|\(PRDE(?: only)?\)|\(Miller Center\)|"
                            # the States' and the cities' own records: returns, registers and manuals, session laws,
                            # journals, ballot pamphlets, charters, minutes; State and lower federal courts' reports
                            r"Official (?:Vote|Returns|Canvass|Report|and Statistical)|Canvass|Abstract of (?:the )?(?:Votes?|Returns)|"
-                           r"Statement of (?:the )?Vote|Statistical Register|Election Returns|Blue Book|Legislative Manual|"
+                           r"Statement of (?:the )?Vote|Official Record|Journal of Proceedings|\bHearings?\b|Official (?:Abstract|Report)|Result of Votes|Tabulation of Official Vote|Results of the (?:Primary|General) Election|Report of the President's Commission|S\. Rep\. No\.|H\.R\. Rep\. No\.|Statistical Register|Election Returns|Blue Book|Legislative Manual|"
                            r"\bManual\b|Red Book|Political History of Nevada|(?:Acts|Laws|Session Laws|Statutes) of |"
                            r"\b(?:House|Senate) Journal|Journal of the (?:House|Senate)|Ballot (?:Pamphlet|Proposition)|"
                            r"\bProposition \d|State Question|Charter|Minutes|Ordinance|"
@@ -51,6 +54,10 @@ AMBIG = {"White", "Black", "Brown", "Green", "Long", "King", "Young", "Little", 
 
 
 PRESIDENTS = {"Eisenhower", "Kennedy", "Johnson"}
+
+
+OPINION = re.compile(r"\b(?:opinion|dissent\w*|concurr\w*|for the (?:Court|court|majority)|joined|writing|"
+                     r"per curiam|holds?|rules?)\b")
 
 
 def part3(series):
@@ -89,6 +96,9 @@ def run(series):
             slug = re.sub(r"[^a-z0-9]+", "-", sur.lower()).strip("-") + "-"
             if sur in given or any(k.startswith(slug) for k in tagged):
                 continue
+            # a judge named only for an opinion he wrote or joined goes unnamed (the owner's ruling, Oct. 14, 2026)
+            if p3[sur] and all("III.G" in w for _, w in p3[sur]) and OPINION.search(c):
+                continue
             per = defaultdict(list)          # each person once, with all his sections
             for n_, where in p3[sur]:
                 if where not in per[n_]:
@@ -98,7 +108,7 @@ def run(series):
         if missing:
             names.append((sec, e, missing))
         own = bool(re.search(r"\*[^*]+\*|\[\[w\.", n) or LISTREF.search(n))
-        see = "See [[" in n or re.search(r"see \[\[", n)
+        see = "See [[" in n or "Bibliography: [[" in n or re.search(r"see \[\[", n)
         if not own and not see:
             event.append((sec, e))
         # a record may be linked in either field; a link counts by its host, or by its text naming a record (a
@@ -106,6 +116,8 @@ def run(series):
         links = re.findall(r"\[((?:[^\[\]]|\[[^\]]*\])*)\]\((https?://[^)]+)\)", c + " " + n)
         linked = any(any(h in u for h in PRIMARY_HOSTS) or re.search(r"^https?://[^/]*\.(?:gov|us)(?:/|$)", u)
                      or PRIMARY_NAMES.search(txt) for txt, u in links)
+        # a poll's record is its release, which *The Gallup Poll* prints by page ([[w.gallup-poll]], III, 1868)
+        linked = linked or bool(re.search(r"\[\[w\.gallup-poll\]\],? [IVX]+, \d", n))
         named = PRIMARY_NAMES.search(n)
         if not linked and not named:
             prim_none.append((sec, e))

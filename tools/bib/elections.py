@@ -38,8 +38,8 @@ Definitions (STYLE, settled):
     State's House vote. Senate: the seat's last regular election, six years before (1952 and 1954 from
     Wikipedia's percentages, later years from the returns). No swing where either election was unopposed,
     or where the winner ran on neither major party's line.
- 8. Colors: in the result view, four steps a side, held seats light and pickups dark (with Pickups, held
-    and picked up; the President's winner a middle step); the margin view, a straight line in OKLab from near
+ 8. Colors: in the result view, four steps a side, held seats light and pickups dark (the President's
+    winner a middle step); the margin view, a straight line in OKLab from near
     white at a tie to the darkest step, by the quantile rule (note 3); the swing view, gray at no swing to
     the darkest step at 15 points or more (SWING in the template). The keys draw the scales as gradient
     bars. Every map value is also in the tables and on hover.
@@ -52,9 +52,8 @@ Definitions (STYLE, settled):
     reckonings. Alabama, 1964: Johnson had no slate; the Democratic slate was unpledged. The electoral
     votes are as cast (tools/elections/president.py CAST).
 11. The presidential map. Result: the winner's color, a third ticket (unpledged electors, Byrd,
-    Wallace) amber, one flat shade. "Pickups", a toggle under the map between States and Electors, applies the Congress maps'
-    scheme in the result view: the States that went to another party than at the last election dark, the
-    others light. The outlines stay the standard ones. Margin and swing as for the House and Senate; no swing where
+    Wallace) amber, one flat shade. A toggle under the map, States | Electors (the owner dropped a third,
+    Pickups, Oct. 14, 2026). The outlines stay the standard ones. Margin and swing as for the House and Senate; no swing where
     either party had no slate. Electors: a dot an elector, colored by the elector's vote, faithless
     electors included.
 
@@ -382,8 +381,37 @@ def summary(year, data):
             line += f" New members of same party: {ch_}."
         if new:
             line += f" New seats: {new}."
+        if ch == "s":
+            line += senate_opening(E["congress"])
         out.append(line)
     return out
+
+
+PLURAL = {"D": "Democrats", "R": "Republicans"}
+
+
+def senate_opening(c):
+    """' The Senate at the 87th Congress's opening: 64 Democrats, 36 Republicans.': the whole Senate the election
+    left, from the roster at the opening (congress/<NN>.yaml), a member of neither party with the party he caucused
+    with; for the 86th and 94th, which have no roster, the Senate Historical Office's party division at the opening
+    (elections/facts.yaml, senate_opening)."""
+    from . import congress as CG
+    data, _ = CG.load()
+    rows = (data.get(c) or {}).get("senate")
+    if rows:
+        cnt = Counter("V" if r.get("vacant") else "T" if CG.caucused(r) else r["party"] for r in rows)
+        parts = [f"{cnt[p]} {PLURAL[p]}" for p in ("D", "R") if cnt.get(p)]
+        thirds = [f"1 {CG.third_name(r)}" for r in rows if not r.get("vacant") and CG.caucused(r)]
+        if cnt.get("V"):
+            thirds.append(f"{cnt['V']} vacant")
+    else:
+        f = (facts().get("senate_opening") or {}).get(c)
+        if not f:
+            return ""
+        parts = [f"{f[p]} {PLURAL[p]}" for p in ("D", "R") if f.get(p)]
+        thirds = list(f.get("others") or [])
+    body = ", ".join(parts) + ("; " + "; ".join(thirds) if thirds else "")
+    return f" The Senate at the {CG.ordinal(c)} Congress's opening: {body}."
 
 
 ABBR = {"Democrat": "D", "Republican": "R", "Democrat, Liberal": "D, L", "Democrat-Farmer-Labor": "DFL", "Liberal": "L",
@@ -782,7 +810,7 @@ def pres_table(year, data):
 def pres_legend(has_prev, has_sw):
     sw = lambda k: f'<span class="sw e{k}"></span>'
     res = (f'<span class="lk lk-r">{sw("B3")}Democratic {sw("R3")}Republican {sw("A3")}Third ticket (unpledged electors, Byrd, Wallace)'
-           + ('; Pickups, under the map: the States that went to another party than at the last election dark, the others light' if has_prev else '') + '</span>')
+           + '</span>')
     share = f'<span class="lk lk-s">The winner\'s margin over the runner-up, points of all the votes: {margin_scale(third=True)}</span>'
     swing = (f'<span class="lk lk-w">Swing from the last presidential election, points: {swing_scale()} '
              '<span class="lt">none where a party had no slate</span> ' + sw("NA") + 'None</span>') if has_sw else ""

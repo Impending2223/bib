@@ -1,5 +1,5 @@
 """Reading the conventions the prose already uses: section references
-("K–J Adm. II.D", "(II.C, II.E)"), "Also Opp.", "Names: Heller, Tobin (K–J Adm. III.H)",
+("K–J Adm. II.D", "(II.C, II.E)"), "Also Opp.",
 and the keys that say two entries are the same work or the same person.
 
 Nothing here changes the data. The build uses it to make links; `check` uses it

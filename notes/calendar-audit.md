@@ -3,16 +3,16 @@
 Written by `./bib audit-cal` (`tools/bib/calaudit.py`): the dated entries checked against the brief in
 CLAUDE.md ("The calendar"). A review list: a hit is a place to look, not an error. Rerun after editing.
 
-2017 dated entries.
+2899 dated entries.
 
 | Check | Entries |
 |---|---|
-| A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 614 |
+| A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 806 |
 | (of which only a President's surname: Eisenhower, Kennedy, Johnson) | 13 |
-| Neither a bibliography of its own nor a `See [[id]]` back | 8 |
-| No primary record linked or named | 740 |
-| A primary record named but not linked | 1 |
-| Threads (statements listed for review) | 75 |
+| Neither a bibliography of its own nor a `See [[id]]` back | 0 |
+| No primary record linked or named | 418 |
+| A primary record named but not linked | 79 |
+| Threads (statements listed for review) | 86 |
 
 ## Names
 
@@ -21,54 +21,91 @@ the person; several mean the surname is shared). "?" marks a surname that is als
 (White, Byrd, Lodge as a word): look before adding.
 
 - `cal.1960-02-01.sit-ins` (Feb. 1–13, III feb60.yaml): Four freshmen of North Carolina A&T sit at the Woolworth's lunch counter in Greensboro and are not served. The
+  - Winston: Winston, Ellen (K–J Adm. III.G)
   - ? Hill: Hill, Lister (K–J Cong. III.B)
 - `cal.1960-02-04.elections-1960` (Feb. 4, III feb60.yaml): Kennedy to enter the West Virginia primary against Humphrey.
   - West: West, Ben (K–J Cong. III.K); West, E. Gordon (K–J Cong. III.K)
 - `cal.1960-02-27.sit-ins` (Feb. 27, III feb60.yaml): Nashville. White youths beat sit-in students at the downtown counters; police arrest 81 of the students, none 
-  - ? White: White, Lee C. (K–J Adm. III.B); White, Byron R. (K–J Adm. III.I, K–J Cong. III.G); White, Edward H., II (K–J Cong. III.K); White, F. Clifton (Opp. III.F); White, Theodore H. (Opp. III.J, 1968 III.O)
+  - ? White: White, Lee C. (K–J Adm. III.B); White, Lincoln P. (K–J Adm. III.E); White, Byron R. (K–J Adm. III.I, K–J Cong. III.G); White, Edward H., II (K–J Cong. III.K); White, F. Clifton (Opp. III.F); White, Theodore H. (Opp. III.J, 1968 III.O)
 - `cal.1960-02-29.court` (Feb. 29, III feb60.yaml): *United States v. Raines*, [362 U.S. 17](https://tile.loc.gov/storage-services/service/ll/usrep/usrep362/usrep
-  - Thomas: Thomas, Albert (K–J Cong. III.D); Thomas, Daniel H. (K–J Cong. III.K)
+  - Thomas: Thomas, Albert (K–J Cong. III.D); Thomas, Daniel H. (K–J Cong. III.K); Thomas, Lera M. (K–J Cong. III.K)
+- `cal.1960-03-10.middle-east` (Mar. 10, IV mar60.yaml): Ben Gurion in Washington, Mar. 9–13; with Eisenhower, Mar. 10. He asks for anti-aircraft missiles and early-wa
+  - West: West, Ben (K–J Cong. III.K); West, E. Gordon (K–J Cong. III.K)
 - `cal.1960-03-15.berlin-and-vienna` (Mar. 15, IV mar60.yaml): Adenauer at the White House, with Brentano, before the summit. Joint statement. West Berliners' freedom and se
   - West: West, Ben (K–J Cong. III.K); West, E. Gordon (K–J Cong. III.K)
-- `cal.1960-03-21.africa` (Mar. 21–Apr. 1, IV mar60.yaml): Sharpeville, South Africa: police fire on a crowd protesting the pass laws; 69 killed. Lincoln White for the S
-  - ? Lincoln: Lincoln, Evelyn (K–J Adm. III.B)
+- `cal.1960-03-15.testing` (Mar. 15–19, IV mar60.yaml): Ten-Nation Disarmament Committee opens at Geneva: five NATO, five Warsaw Pact. Eaton for the United States. Ma
+  - Nation: Nation, Bill (K–J Cong. III.K)
 - `cal.1960-03-21.court` (Mar. 21, IV mar60.yaml): *Thompson v. City of Louisville*, [362 U.S. 199](https://tile.loc.gov/storage-services/service/ll/usrep/usrep3
-  - Thompson: Thompson, Llewellyn E. (K–J Adm. III.E); Thompson, Fred D. (Wg. III.F); Thompson, Hugh, Jr. (Viet. III.D); Thompson, Robert (Viet. III.I)
-- `cal.1960-03-29.king` (Mar. 29, IV mar60.yaml): *New York Times*, a full page: "Heed Their Rising Voices," from the Committee to Defend Martin Luther King and
-  - Martin: Martin, William McChesney, Jr. (K–J Adm. III.H); Martin, James D. (Opp. III.I); Martin, Graham A. (Viet. III.C)
+  - Thompson: Thompson, Llewellyn E. (K–J Adm. III.E); Thompson, Theo A. (K–J Cong. III.D); Thompson, Fred D. (Wg. III.F); Thompson, Hugh, Jr. (Viet. III.D); Thompson, Robert (Viet. III.I)
+- `cal.1960-03-28.testing` (Mar. 28–30, IV mar60.yaml): Macmillan at Camp David. Joint declaration, Mar. 29: once a treaty is signed and a joint research program arra
+  - Camp: Camp, John N. (K–J Cong. III.K)
 - `cal.1960-03-31.medicare` (Mar. 31, IV mar60.yaml): Mills's Ways and Means Committee sets the Forand bill aside, 17–8: hospital, nursing-home and surgical benefit
   - Means: Means, Russell (Cong. III.K)
 - `cal.1960-04.elections-1960` (Apr., V apr60.yaml): West Virginia, after Wisconsin; its primary May 10. Kennedy's own poll there, 70–30 for him in December, now 6
   - West: West, Ben (K–J Cong. III.K); West, E. Gordon (K–J Cong. III.K)
+  - ? Franklin: Franklin, C. L. (K–J Cong. III.K)
+- `cal.1960-04-12.governors-il` (Apr. 12, V apr60.yaml): Illinois, primaries for governor. Democratic: Kerner, a Cook County judge, slated by Daley's organization, 649
+  - Hayes: Hayes, Thomas L. (K–J Cong. III.F)
+- `cal.1960-04-19.sit-ins` (Apr. 19, V apr60.yaml): Nashville. Z. Alexander Looby's house bombed before dawn; he and his wife unhurt. Some thousands march in sile
+  - Alexander: Alexander, Clifford L., Jr. (K–J Adm. III.C); Alexander, Fred D. (K–J Cong. III.K); Alexander, Kelly M., Sr. (K–J Cong. III.K)
+  - ? Hall: Hall, Dave (K–J Cong. III.F); Hall, David (K–J Cong. III.F)
+- `cal.1960-04-22.europe-and-the-alliance` (Apr. 22–26, V apr60.yaml): De Gaulle's state visit. At Camp David, Apr. 24: the summit's procedure agreed, disarmament its main subject; 
+  - Camp: Camp, John N. (K–J Cong. III.K)
+- `cal.1960-04-24.mississippi-biloxi` (Apr. 24, V apr60.yaml): Biloxi. Some 125 Negro men, women and children, led by Dr. Gilbert R. Mason, wade in at the city's beach, buil
+  - Gilbert: Gilbert, Jacob H. (K–J Cong. III.D)
 - `cal.1960-04-26.specials-2` (Apr. 26, V apr60.yaml): Pennsylvania 18th, special. Douglas Elliott (R) holds the seat, 61.2 to 38.8.
   - Douglas: Douglas, Paul H. (K–J Cong. III.B); Douglas, William O. (K–J Cong. III.G, Cong. III.J)
 - `cal.1960-05-01.soviet-union` (May 1–3, VI may60.yaml): Powers's U-2, out of Peshawar for Bodø, Norway, shot down near Sverdlovsk, 1,200 miles inside the Soviet Union
-  - Lake: Lake, Anthony (Adm. III.D)
+  - ? Lake: Lake, I. Beverly (K–J Cong. III.K); Lake, Anthony (Adm. III.D)
+- `cal.1960-05-07.governors-tx` (May 7, VI may60.yaml): Texas Democratic primary. Governor Daniel renominated for a third term over Jack Cox, a former State represent
+  - ? Jack: Jack, William M. (K–J Cong. III.K)
 - `cal.1960-05-10.elections-1960` (May 10, VI may60.yaml): Primaries in Nebraska and West Virginia. Republican: Nixon in Nebraska; unpledged delegates in West Virginia. 
   - West: West, Ben (K–J Cong. III.K); West, E. Gordon (K–J Cong. III.K)
 - `cal.1960-05-10.elections-1960-2` (May 10, VI may60.yaml): Humphrey, beaten by Kennedy in West Virginia, withdraws that night, at Charleston.
   - West: West, Ben (K–J Cong. III.K); West, E. Gordon (K–J Cong. III.K)
 - `cal.1960-05-10.sit-ins` (May 10, VI may60.yaml): Nashville. Six downtown stores serve Negroes at their lunch counters, by agreement with the merchants. Three m
   - Looby: Looby, Z. Alexander (K–J Cong. III.K)
+  - ? Hall: Hall, Dave (K–J Cong. III.F); Hall, David (K–J Cong. III.F)
+- `cal.1960-05-10.governors-wv` (May 10, VI may60.yaml): West Virginia primaries for governor. Democratic: Barron, the attorney general, 51.0 percent; Hulett Smith 38.
+  - West: West, Ben (K–J Cong. III.K); West, E. Gordon (K–J Cong. III.K)
+- `cal.1960-05-12.students` (May 12–14, VI may60.yaml): Un-American Activities subcommittee hearings at San Francisco City Hall, Willis presiding. Students, most from
+  - ? Hall: Hall, Dave (K–J Cong. III.F); Hall, David (K–J Cong. III.F)
 - `cal.1960-06-02.economy` (June 2–9, VII jun60.yaml): The Federal Reserve eases. June 2: the discount rate cut from 4 to 3½ percent at Philadelphia and San Francisc
   - ? Banks: Banks, Dennis (Cong. III.K)
+- `cal.1960-06-20.court` (June 20, VII jun60.yaml): *Hannah v. Larche*, [363 U.S. 420](https://tile.loc.gov/storage-services/service/ll/usrep/usrep363/usrep363420
+  - Hannah: Hannah, John A. (K–J Adm. III.G)
+  - Flemming: Flemming, Arthur S. (Opp. III.E)
+- `cal.1960-06-25.specials` (June 25, VII jun60.yaml): North Carolina 12th, special. Roy A. Taylor (D) to Hall's seat, 98.6 percent.
+  - ? Hall: Hall, Dave (K–J Cong. III.F); Hall, David (K–J Cong. III.F)
+- `cal.1960-06-27.testing` (June 27, VII jun60.yaml): Geneva. The five Communist delegations walk out of the Ten-Nation Disarmament Committee before the American pl
+  - Nation: Nation, Bill (K–J Cong. III.K)
 - `cal.1960-06-29.cuba` (June 29, VII jun60.yaml): Cuba seizes Texaco's refinery at Santiago. It would not refine Soviet crude; nor would Esso's or Shell's, on W
   - Shell: Shell, Joseph C. (K–J Cong. III.K)
 - `cal.1960-06-30.congo` (June 30, VII jun60.yaml): The Congo independent, at Léopoldville. Kasavubu President, Lumumba Prime Minister. King Baudouin praises the 
-  - ? King: King, Marion (K–J Cong. III.H); King, Martin Luther, Jr. (K–J Cong. III.H, Viet. III.E); King, Coretta Scott (K–J Cong. III.K); King, Edwin (K–J Cong. III.K)
+  - ? King: King, Cecil R. (K–J Cong. III.D); King, John W. (K–J Cong. III.F); King, Marion (K–J Cong. III.H); King, Martin Luther, Jr. (K–J Cong. III.H, Viet. III.E); King, Coretta Scott (K–J Cong. III.K); King, Edwin (K–J Cong. III.K); King, Martin Luther, Sr. (K–J Cong. III.K); King, Tom (K–J Cong. III.K)
+- `cal.1960-07-26.governors-ar` (July 26, VIII jul60.yaml): Arkansas, Democratic primary for governor: Faubus, for a fourth term, 238,997, 58.7 percent; Joe Hardin 66,499
+  - Bruce: Bruce, David K. E. (K–J Adm. III.E)
+- `cal.1960-08-03.desegregation-schools-houston` (Aug. 3, IX aug60.yaml): Houston. Judge Ben C. Connally finds the school board's plan "a subterfuge designed only to accomplish further
+  - ? Houston: Houston, Lawrence (K–J Cong. III.K)
 - `cal.1960-08-09.laos` (Aug. 9–16, IX aug60.yaml): Kong Le's paratroop battalion takes Vientiane, the night of Aug. 8–9, the cabinet away at Luang Prabang. The A
-  - ? King: King, Marion (K–J Cong. III.H); King, Martin Luther, Jr. (K–J Cong. III.H, Viet. III.E); King, Coretta Scott (K–J Cong. III.K); King, Edwin (K–J Cong. III.K)
+  - ? King: King, Cecil R. (K–J Cong. III.D); King, John W. (K–J Cong. III.F); King, Marion (K–J Cong. III.H); King, Martin Luther, Jr. (K–J Cong. III.H, Viet. III.E); King, Coretta Scott (K–J Cong. III.K); King, Edwin (K–J Cong. III.K); King, Martin Luther, Sr. (K–J Cong. III.K); King, Tom (K–J Cong. III.K)
 - `cal.1960-08-27.sit-ins` (Aug. 27, IX aug60.yaml): Jacksonville. White men with ax handles and baseball bats attack Negro youths of the NAACP's Youth Council aft
-  - ? White: White, Lee C. (K–J Adm. III.B); White, Byron R. (K–J Adm. III.I, K–J Cong. III.G); White, Edward H., II (K–J Cong. III.K); White, F. Clifton (Opp. III.F); White, Theodore H. (Opp. III.J, 1968 III.O)
+  - ? White: White, Lee C. (K–J Adm. III.B); White, Lincoln P. (K–J Adm. III.E); White, Byron R. (K–J Adm. III.I, K–J Cong. III.G); White, Edward H., II (K–J Cong. III.K); White, F. Clifton (Opp. III.F); White, Theodore H. (Opp. III.J, 1968 III.O)
+- `cal.1960-08-29.elections-1960` (Aug. 29, IX aug60.yaml): Nixon into Walter Reed, the knee he struck on a car door at Greensboro, Aug. 17, infected. In the hospital to 
+  - Walter: Walter, Francis E. (K–J Cong. III.D)
+  - Reed: Reed, Carlton Day, Jr. (K–J Cong. III.F); Reed, John H. (Opp. III.H)
 - `cal.1960-09-01.congress` (Sept. 1, X sep60.yaml): 86th Congress adjourns sine die, ending the session Johnson and Rayburn reconvened Aug. 8, after the conventio
   - Kerr: Kerr, Robert S. (K–J Cong. III.B); Kerr, Clark (K–J Cong. III.K)
   - ? Mills: Mills, Wilbur D. (K–J Cong. III.D, Cong. III.E)
 - `cal.1960-09-08.space` (Sept. 8, X sep60.yaml): Eisenhower dedicates the George C. Marshall Space Flight Center at Huntsville, NASA's from July 1; von Braun's
-  - ? Marshall: Marshall, Burke (K–J Adm. III.I); Marshall, Thurgood (K–J Cong. III.G); Marshall, Edward M. (K–J Cong. III.K)
+  - ? Marshall: Marshall, Burke (K–J Adm. III.I); Marshall, Thurgood (K–J Cong. III.G); Marshall, Edward G. (K–J Cong. III.K); Marshall, Edward M. (K–J Cong. III.K)
 - `cal.1960-09-08.berlin-and-vienna` (Sept. 8–30, X sep60.yaml): East Germany requires West Germans to obtain permits to enter East Berlin, Sept. 8, and stops honoring West Ge
   - West: West, Ben (K–J Cong. III.K); West, E. Gordon (K–J Cong. III.K)
 - `cal.1960-09-12.elections-1960` (Sept. 12, X sep60.yaml): Houston. Kennedy to the Greater Houston Ministerial Association at the Rice Hotel, and its questions: "I belie
   - ? Houston: Houston, Lawrence (K–J Cong. III.K)
+- `cal.1960-09-12.elections-1960-2` (Sept. 12, X sep60.yaml): Nixon, out of Walter Reed Sept. 9 after twelve days with an infected knee, opens his campaign with Eisenhower 
+  - Walter: Walter, Francis E. (K–J Cong. III.D)
+  - Reed: Reed, Carlton Day, Jr. (K–J Cong. III.F); Reed, John H. (Opp. III.H)
 - `cal.1960-09-19.congo` (Sept. 19–Oct. 5, X sep60.yaml): Eisenhower to Lord Home, Sept. 19: he wishes Lumumba "would fall into a river full of crocodiles." Same day Tw
   - Lord: Lord, Winston (Adm. III.D, Viet. III.B)
 - `cal.1960-09-23.soviet-union` (Sept. 23–Oct. 3, X sep60.yaml): Khrushchev to the Assembly, Sept. 23: abolish the Secretary-General for a three-man executive, West, East and 
@@ -76,29 +113,42 @@ the person; several mean the surname is shared). "?" marks a surname that is als
 - `cal.1960-10-03.court` (Oct. 3–19, XI oct60.yaml): The Court's October Term 1960 opens. Argued: *Boynton v. Virginia*, Oct. 12, Marshall for a Negro law student 
   - Boynton: Boynton, Amelia Platts (K–J Cong. III.K)
 - `cal.1960-10-08.laos` (Oct. 8–17, XI oct60.yaml): Washington's course: work with Souvanna Phouma as "the legal facade of legitimate government" while supplying 
-  - ? King: King, Marion (K–J Cong. III.H); King, Martin Luther, Jr. (K–J Cong. III.H, Viet. III.E); King, Coretta Scott (K–J Cong. III.K); King, Edwin (K–J Cong. III.K)
-- `cal.1960-10-21.elections-1960` (Oct. 21, XI oct60.yaml): Fourth debate, New York, ABC; Quincy Howe moderating; foreign policy only. Nixon calls Kennedy's proposals on 
-  - Castro: Castro, Fidel (K–J Adm. III.J); Castro, Raúl (K–J Adm. III.J)
+  - ? King: King, Cecil R. (K–J Cong. III.D); King, John W. (K–J Cong. III.F); King, Marion (K–J Cong. III.H); King, Martin Luther, Jr. (K–J Cong. III.H, Viet. III.E); King, Coretta Scott (K–J Cong. III.K); King, Edwin (K–J Cong. III.K); King, Martin Luther, Sr. (K–J Cong. III.K); King, Tom (K–J Cong. III.K)
+- `cal.1960-10-20.cities-and-housing-boston` (Oct. 20, XI oct60.yaml): Boston. Logue, New Haven's development administrator under Lee since 1954, takes charge of the Boston Redevelo
+  - West: West, Ben (K–J Cong. III.K); West, E. Gordon (K–J Cong. III.K)
+- `cal.1960-11-04.desegregation-schools-la` (Nov. 4, XII nov60.yaml): Louisiana's legislature meets in extraordinary session, called by Davis ten days before New Orleans's schools 
+  - ? Brown: Brown, Winthrop G. (K–J Adm. III.E); Brown, Edmund G. (K–J Cong. III.F); Brown, John R. (K–J Cong. III.K); Brown, Clarence J. (Opp. III.D); Brown, Clarence J., Jr. (Opp. III.D); Brown, Sam (Cong. III.K)
 - `cal.1960-11-08.specials` (Nov. 8, XII nov60.yaml): Pennsylvania 18th, special. Whalley (R) holds the late Douglas Elliott's seat, 62.3 to 37.7 over Meyers (D); t
   - Douglas: Douglas, Paul H. (K–J Cong. III.B); Douglas, William O. (K–J Cong. III.G, Cong. III.J)
+- `cal.1960-11-08.state-constitutions-ca` (Nov. 8, XII nov60.yaml): California. Proposition 1, the Water Resources Development Bond Act of 1959 (Burns–Porter), carries: $1.75 bil
+  - Bond: Bond, Julian (K–J Cong. III.K)
+  - ? Burns: Burns, John A. (K–J Cong. III.F); Burns, W. Haydon (K–J Cong. III.F); Burns, Hugh M. (K–J Cong. III.K); Burns, Arthur F. (Adm. III.G)
+  - Porter: Porter, Carley V. (K–J Cong. III.K); Porter, Albert S. (K–J Cong. III.K); Porter, William J. (Viet. III.C)
+- `cal.1960-11-08.governors-ma` (Nov. 8, XII nov60.yaml): Massachusetts. Volpe (R), once Eisenhower's Federal Highway Administrator, governor over Ward (D), 1,269,295 t
+  - Eisenhower: Eisenhower, Dwight D. (Opp. III.E); Eisenhower, Milton S. (Opp. III.E); Eisenhower, David (Adm. III.A); Eisenhower, Julie Nixon (Adm. III.A, Wg. III.A)
 - `cal.1960-11-09.transition-and-staff` (Nov. 9–10, XII nov60.yaml): The President-elect's first appointments, from Hyannis Port: Allen Dulles kept at the CIA and Hoover at the FB
-  - Allen: Allen, Ivan, Jr. (K–J Cong. III.F); Allen, Louis (K–J Cong. III.K)
+  - Allen: Allen, Ivan, Jr. (K–J Cong. III.F); Allen, James B. (K–J Cong. III.F); Allen, Louis (K–J Cong. III.K)
 - `cal.1960-11-09.soviet-union` (Nov. 9–10, XII nov60.yaml): Khrushchev congratulates the President-elect: relations to go back to the line of Roosevelt's time; ready to g
-  - Roosevelt: Roosevelt, Eleanor (K–J Cong. III.H)
+  - Roosevelt: Roosevelt, Franklin D., Jr. (K–J Adm. III.G); Roosevelt, James (K–J Cong. III.D); Roosevelt, Eleanor (K–J Cong. III.H)
 - `cal.1960-11-14.desegregation-schools` (Nov. 14–16, XII nov60.yaml): New Orleans, under Judge Wright's order. Four Black first-graders enter two white schools with federal marshal
-  - ? Black: Black, Hugo L. (K–J Cong. III.G)
+  - ? Black: Black, Eugene R. (K–J Adm. III.E); Black, Hugo L. (K–J Cong. III.G)
   - Ruby: Ruby, Jack (K–J Cong. III.K)
-  - ? White: White, Lee C. (K–J Adm. III.B); White, Byron R. (K–J Adm. III.I, K–J Cong. III.G); White, Edward H., II (K–J Cong. III.K); White, F. Clifton (Opp. III.F); White, Theodore H. (Opp. III.J, 1968 III.O)
+  - ? White: White, Lee C. (K–J Adm. III.B); White, Lincoln P. (K–J Adm. III.E); White, Byron R. (K–J Adm. III.I, K–J Cong. III.G); White, Edward H., II (K–J Cong. III.K); White, F. Clifton (Opp. III.F); White, Theodore H. (Opp. III.J, 1968 III.O)
 - `cal.1960-11-14.court` (Nov. 14, XII nov60.yaml): *Gomillion v. Lightfoot*, [364 U.S. 339](https://tile.loc.gov/storage-services/service/ll/usrep/usrep364/usrep
-  - ? Black: Black, Hugo L. (K–J Cong. III.G)
+  - ? Black: Black, Eugene R. (K–J Adm. III.E); Black, Hugo L. (K–J Cong. III.G)
 - `cal.1960-11-30.desegregation-schools` (Nov. 30, XII nov60.yaml): A three-judge court voids Louisiana's acts against the New Orleans order: "interposition is not a constitution
-  - ? Cooper: Cooper, L. Gordon, Jr. (K–J Cong. III.K); Cooper, R. Conrad (K–J Cong. III.K); Cooper, John Sherman (Opp. III.B, Cong. III.C); Cooper, Chester L. (Viet. III.A)
+  - ? Cooper: Cooper, John R., Sr. (K–J Cong. III.K); Cooper, L. Gordon, Jr. (K–J Cong. III.K); Cooper, R. Conrad (K–J Cong. III.K); Cooper, John Sherman (Opp. III.B, Cong. III.C); Cooper, Chester L. (Viet. III.A)
 - `cal.1960-12-05.desegregation-public-places` (Dec. 5, XIII dec60.yaml): *Boynton v. Virginia*, [364 U.S. 454](https://tile.loc.gov/storage-services/service/ll/usrep/usrep364/usrep364
   - Boynton: Boynton, Amelia Platts (K–J Cong. III.K)
+  - ? Black: Black, Eugene R. (K–J Adm. III.E); Black, Hugo L. (K–J Cong. III.G)
+  - ? Clark: Clark, Ramsey (K–J Adm. III.I); Clark, Joseph S. (K–J Cong. III.B); Clark, Tom C. (K–J Cong. III.G); Clark, James G., Jr. (K–J Cong. III.K); Clark, Newman H. (K–J Cong. III.K)
 - `cal.1960-12-08.laos` (Dec. 8–16, XIII dec60.yaml): Kouprasith's coup in Vientiane, Dec. 8; Souvanna Phouma to Phnom Penh, Dec. 9. Soviet aircraft bring Kong Le h
-  - ? King: King, Marion (K–J Cong. III.H); King, Martin Luther, Jr. (K–J Cong. III.H, Viet. III.E); King, Coretta Scott (K–J Cong. III.K); King, Edwin (K–J Cong. III.K)
+  - ? King: King, Cecil R. (K–J Cong. III.D); King, John W. (K–J Cong. III.F); King, Marion (K–J Cong. III.H); King, Martin Luther, Jr. (K–J Cong. III.H, Viet. III.E); King, Coretta Scott (K–J Cong. III.K); King, Edwin (K–J Cong. III.K); King, Martin Luther, Sr. (K–J Cong. III.K); King, Tom (K–J Cong. III.K)
 - `cal.1960-12-12.court` (Dec. 12, XIII dec60.yaml): *Shelton v. Tucker*, [364 U.S. 479](https://tile.loc.gov/storage-services/service/ll/usrep/usrep364/usrep36447
   - Shelton: Shelton, Robert M. (K–J Cong. III.K)
+  - Tucker: Tucker, Raymond R. (K–J Cong. III.F)
+- `cal.1961-01-03.rules` (Jan. 3, XIV jan.yaml): 87th Congress convenes. Senate 65 D–35 R, Hickey (D) appointed in Wyoming for Keith Thomson (R), elected and d
+  - Keith: Keith, Alexander M. (K–J Cong. III.K)
 - `cal.1961-01-08.opinion` (Jan. 8, XIV jan.yaml): Gallup, Dec. 8–13, 1960: for the new President and Congress to act on, holding down prices, 63 percent; medica
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1961-01-22.opinion` (Jan. 22, XIV jan.yaml): Gallup, Dec. 8–13, 1960: which country first to send a man into space. Russia 40 percent, the United States 35
@@ -111,6 +161,10 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1961-02-12.opinion` (Feb. 12, XV feb.yaml): Gallup, Jan. 12–17, in the South: will whites and Negroes one day share the same schools, restaurants, and pub
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1961-02-14.state-and-city-finance-wv` (Feb. 14, XV feb.yaml): West Virginia's personal income tax. Barron signs S. 106, passed Feb. 10: a tax of 6 percent of the taxpayer's
+  - West: West, Ben (K–J Cong. III.K); West, E. Gordon (K–J Cong. III.K)
+- `cal.1961-02-21.africa` (Feb. 21–26, XV feb.yaml): Yost gives Mohamed V Kennedy's letter on Morocco's acceptance of Soviet jet fighters, Feb. 21; the King: nothi
+  - ? King: King, Cecil R. (K–J Cong. III.D); King, John W. (K–J Cong. III.F); King, Marion (K–J Cong. III.H); King, Martin Luther, Jr. (K–J Cong. III.H, Viet. III.E); King, Coretta Scott (K–J Cong. III.K); King, Edwin (K–J Cong. III.K); King, Martin Luther, Sr. (K–J Cong. III.K); King, Tom (K–J Cong. III.K)
 - `cal.1961-02-26.opinion` (Feb. 26, XV feb.yaml): Gallup, Feb. 10–15, on "ask what you can do for your country": 63 percent can think of something they could do
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1961-03-12.opinion` (Mar. 12, XVI mar.yaml): Gallup, Feb. 10–15: raising the $1.00 minimum wage, 76 percent for, 18 against. Republicans 63 for.
@@ -125,28 +179,35 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1961-04-17.court` (Apr. 17, XVII apr.yaml): *Burton v. Wilmington Parking Authority*, [365 U.S. 715](https://tile.loc.gov/storage-services/service/ll/usre
   - Burton: Burton, Phillip (Cong. III.E)
+- `cal.1961-04-18.governors-nj` (Apr. 18, XVII apr.yaml): New Jersey primaries for governor. Democratic: Hughes, the county leaders' choice since Feb. 13, 84.2 percent.
+  - Walter: Walter, Francis E. (K–J Cong. III.D)
 - `cal.1961-04-19.court` (Apr. 19–20, XVII apr.yaml): *Baker v. Carr* argued.
-  - ? Baker: Baker, Ella (K–J Cong. III.H); Baker, Irene Bailey (K–J Cong. III.K); Baker, Robert G. (K–J Cong. III.K); Baker, Howard H., Jr. (Cong. III.C, Wg. III.F)
+  - ? Baker: Baker, Ella (K–J Cong. III.H); Baker, Irene Bailey (K–J Cong. III.K); Baker, Robert G. (K–J Cong. III.K); Baker, Wilson (K–J Cong. III.K); Baker, Howard H. (K–J Cong. III.K); Baker, Howard H., Jr. (Cong. III.C, Wg. III.F)
 - `cal.1961-04-21.opinion` (Apr. 21, XVII apr.yaml): Gallup, Apr. 6–11: 37 percent have heard or read of the John Birch Society.
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1961-04-22.cuba` (Apr. 22, XVII apr.yaml): Kennedy meets Eisenhower at Camp David. The Cuba Study Group formed: Taylor, Robert Kennedy, Dulles, Burke.
+  - Camp: Camp, John N. (K–J Cong. III.K)
 - `cal.1961-05-01.crime-and-hijacking` (May 1, XVIII may.yaml): First U.S. airliner hijacked to Cuba, a National Airlines flight bound for Key West.
   - West: West, Ben (K–J Cong. III.K); West, E. Gordon (K–J Cong. III.K)
 - `cal.1961-05-01.court` (May 1, XVIII may.yaml): *Baker v. Carr* restored to the calendar for reargument.
-  - ? Baker: Baker, Ella (K–J Cong. III.H); Baker, Irene Bailey (K–J Cong. III.K); Baker, Robert G. (K–J Cong. III.K); Baker, Howard H., Jr. (Cong. III.C, Wg. III.F)
+  - ? Baker: Baker, Ella (K–J Cong. III.H); Baker, Irene Bailey (K–J Cong. III.K); Baker, Robert G. (K–J Cong. III.K); Baker, Wilson (K–J Cong. III.K); Baker, Howard H. (K–J Cong. III.K); Baker, Howard H., Jr. (Cong. III.C, Wg. III.F)
 - `cal.1961-05-04.freedom-rides` (May 4, XVIII may.yaml): Thirteen CORE riders leave Washington on two buses to test *Boynton v. Virginia* (1960).
   - Boynton: Boynton, Amelia Platts (K–J Cong. III.K)
 - `cal.1961-05-05.opinion` (May 5, XVIII may.yaml): Gallup, Apr. 28–May 3: Kennedy's handling of Cuba, 61 percent approve, 15 disapprove. 44 percent follow the ne
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1961-05-06.robert-kennedy` (May 6, XVIII may.yaml): Robert Kennedy at the University of Georgia Law School's Law Day exercises, Athens, Ga. On Prince Edward Count
-  - ? Day: Day, J. Edward (K–J Adm. III.G)
+  - ? Day: Day, J. Edward (K–J Adm. III.G); Day, William S. (K–J Cong. III.K)
+- `cal.1961-05-09.vietnam` (May 9–24, XVIII may.yaml): Johnson's trip to Saigon, Manila, Taipei, Bangkok, New Delhi, Karachi. In Saigon he calls Diệm the Churchill o
+  - Churchill: Churchill, Winston S. (K–J Adm. III.J)
 - `cal.1961-05-10.opinion` (May 10, XVIII may.yaml): Gallup, Apr. 28–May 3: would Castro win a free election? 14 percent yes, 71 no. Cuba policy to be decided with
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1961-05-11.middle-east` (May 11, XVIII may.yaml): Kennedy to Nasser, Chehab, Hussein, Qassim, the King of Saudi Arabia and the Imam of Yemen: the United States 
+  - ? King: King, Cecil R. (K–J Cong. III.D); King, John W. (K–J Cong. III.F); King, Marion (K–J Cong. III.H); King, Martin Luther, Jr. (K–J Cong. III.H, Viet. III.E); King, Coretta Scott (K–J Cong. III.K); King, Edwin (K–J Cong. III.K); King, Martin Luther, Sr. (K–J Cong. III.K); King, Tom (K–J Cong. III.K)
+  - Jordan: Jordan, Barbara (Cong. III.E, Wg. III.G)
 - `cal.1961-05-14.freedom-rides` (May 14, XVIII may.yaml): Mother's Day. The Greyhound bus burned outside Anniston; the Trailways riders beaten at the Birmingham termina
-  - ? Day: Day, J. Edward (K–J Adm. III.G)
+  - ? Day: Day, J. Edward (K–J Adm. III.G); Day, William S. (K–J Cong. III.K)
 - `cal.1961-05-21.freedom-rides` (May 21, XVIII may.yaml): Mob besieges King, Abernathy, and the riders in the First Baptist Church; marshals hold it until Patterson sen
   - ? Church: Church, Frank (K–J Cong. III.B, Cong. III.B, Viet. III.E)
-- `cal.1961-05-22.robert-kennedy` (May 22, XVIII may.yaml): Hoover to Robert Kennedy on the wiretap found in a Las Vegas hotel room Oct. 31, 1960, placed for Maheu. Maheu
-  - Castro: Castro, Fidel (K–J Adm. III.J); Castro, Raúl (K–J Adm. III.J)
 - `cal.1961-05-24.freedom-rides` (May 24, XVIII may.yaml): Riders go on to Jackson under Guard escort and are arrested on arrival; many to Parchman, Miss. Robert Kennedy
   - ? Jackson: Jackson, Henry M. (K–J Cong. III.B, Cong. III.B); Jackson, Jimmie Lee (K–J Cong. III.K)
 - `cal.1961-05-28.opinion` (May 28–June 2, XVIII may.yaml): Gallup in the field on the Freedom Riders, released June 21 and 28. Of the 63 percent who had heard of the rid
@@ -158,17 +219,22 @@ the person; several mean the surname is shared). "?" marks a surname that is als
 - `cal.1961-06-04.opinion` (June 4, XIX jun.yaml): Gallup, May 17–22: ahead in space research, Russia 38 percent, the United States 38. First to the moon, Russia
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1961-06-05.court` (June 5, XIX jun.yaml): *Communist Party v. SACB*, [367 U.S. 1](https://tile.loc.gov/storage-services/service/ll/usrep/usrep367/usrep3
-  - Smith: Smith, Stephen E. (K–J Adm. III.A); Smith, Howard W. (K–J Cong. III.D); Smith, Howard K. (K–J Cong. III.K); Smith, Margaret Chase (Opp. III.A, Cong. III.A); Smith, Gerard C. (Adm. III.D)
+  - Smith: Smith, Stephen E. (K–J Adm. III.A); Smith, Ian Douglas (K–J Adm. III.J); Smith, Benjamin A., II (K–J Cong. III.B); Smith, Howard W. (K–J Cong. III.D); Smith, Hulett C. (K–J Cong. III.F); Smith, Frank E. (K–J Cong. III.K); Smith, Howard K. (K–J Cong. III.K); Smith, Vernon K. (K–J Cong. III.K); Smith, Margaret Chase (Opp. III.A, Cong. III.A); Smith, Gerard C. (Adm. III.D)
 - `cal.1961-06-07.opinion` (June 7, XIX jun.yaml): Gallup, May 17–22: ahead in long-range missiles, the United States 54 percent, Russia 20.
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1961-06-07.opinion-2` (June 7, XIX jun.yaml): Gallup, Apr. 28–May 3: no trade with Cuba while Castro holds power, 63 percent agree, 23 disagree. Aid to the 
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1961-06-09.opinion` (June 9, XIX jun.yaml): Gallup, May 17–22: a higher Social Security tax to pay for medical insurance for the aged, 67 percent for, 26 
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1961-06-13.confirmations` (June 13, XIX jun.yaml): Howard Morgan confirmed to the Federal Power Commission, [57–27](https://voteview.com/rollcall/RS0870076).
+  - Howard: Howard, Lisa (K–J Cong. III.J)
+  - Power: Power, Thomas S. (K–J Adm. III.F)
 - `cal.1961-06-14.opinion` (June 14, XIX jun.yaml): Gallup, May 17–22: greater curbs on what newspapers print, 31 percent approve, 55 disapprove. On television an
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1961-06-18.opinion` (June 18, XIX jun.yaml): Gallup, May 28–June 2: Kennedy right to send marshals to Montgomery, 70 percent; wrong, 13. In the South, 50 r
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1961-06-19.court` (June 19, XIX jun.yaml): *Mapp v. Ohio*, [367 U.S. 643](https://tile.loc.gov/storage-services/service/ll/usrep/usrep367/usrep367643/usr
+  - Watkins: Watkins, Bruce R. (K–J Cong. III.K)
 - `cal.1961-06-21.opinion` (June 21, XIX jun.yaml): Gallup, May 28–June 2: the Supreme Court's ruling against segregation on trains, buses, and in waiting rooms, 
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1961-06-23.opinion` (June 23, XIX jun.yaml): Gallup, May 28–June 2: the Supreme Court's school desegregation decision, 62 percent approve, 33 disapprove. I
@@ -185,6 +251,8 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1961-07-12.opinion` (July 12, XX jul.yaml): Gallup, June 23–28: the United States to resume nuclear tests now, 55 percent; not, 26.
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1961-07-27.confirmations` (July 27, XX jul.yaml): Spottswood W. Robinson III, dean of Howard's law school, confirmed to the Civil Rights Commission, [73–17](htt
+  - Howard: Howard, Lisa (K–J Cong. III.J)
 - `cal.1961-07-30.opinion` (July 30, XX jul.yaml): Gallup, June 23–28: of the 76 percent who had followed the Berlin dispute, 82 percent would keep American forc
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1961-07-31.opinion` (July 31, XX jul.yaml): Gallup, July 13–18: if Russia insists on controlling Berlin, war, 60 percent; no war, 31. Chances Russia gives
@@ -193,40 +261,38 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1961-08-09.confirmations` (Aug. 9, XXI aug.yaml): Lawrence J. O'Connor Jr. confirmed to the Federal Power Commission, [83–12](https://voteview.com/rollcall/RS08
   - Lawrence: Lawrence, David L. (K–J Cong. III.F)
-  - Connor: Connor, John T. (K–J Adm. III.G); Connor, Eugene (K–J Cong. III.K)
+  - Power: Power, Thomas S. (K–J Adm. III.F)
 - `cal.1961-08-20.opinion` (Aug. 20, XXI aug.yaml): Gallup, July 27–Aug. 1: 5 percent have changed their homes against a nuclear attack; 20 have stored food.
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1961-08-23.opinion` (Aug. 23, XXI aug.yaml): Gallup, July 27–Aug. 1: federal youth camps like the CCC, good idea 80 percent, poor 13. Idle young men to be 
   - Gallup: Gallup, George H. (K–J Cong. III.J)
-- `cal.1961-08-24.confirmations` (Aug. 24, XXI aug.yaml): Maj. Gene Hal Williams to brigadier general, Army National Guard of the United States. Seven of Armed Services
-  - Williams: Williams, Hosea (K–J Cong. III.K); Williams, John J. (Opp. III.B)
 - `cal.1961-08-27.opinion-5` (Aug. 27, XXI aug.yaml): Gallup, July 27–Aug. 1: Republicans' choice for 1964, of three: Nixon 60, Rockefeller 18, Goldwater 17; no opi
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1961-08-30.states-and-cities` (Aug. 30, XXI aug.yaml): Atlanta desegregates four high schools with nine Black students, peacefully. Kennedy praises the city at that 
-  - ? Black: Black, Hugo L. (K–J Cong. III.G)
+  - ? Black: Black, Eugene R. (K–J Adm. III.E); Black, Hugo L. (K–J Cong. III.G)
 - `cal.1961-09-06.opinion` (Sept. 6, XXII sep.yaml): Gallup, Aug. 24–29: 90 percent have heard of the Berlin situation. Satisfied with the government's handling, 6
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1961-09-06.desegregation-schools-dallas` (Sept. 6, XXII sep.yaml): Dallas. Eighteen Black children enter first grade in formerly white schools, under the school board's stair-st
+  - ? Black: Black, Eugene R. (K–J Adm. III.E); Black, Hugo L. (K–J Cong. III.G)
+- `cal.1961-09-12.africa` (Sept. 12–13, XXII sep.yaml): Keita of Mali and Sukarno at Andrews, Md., with the Belgrade conference's message to Kennedy and Khrushchev. K
+  - Andrews: Andrews, Lloyd J. (K–J Cong. III.K); Andrews, Mark (K–J Cong. III.K); Andrews, Arthur G. (Opp. III.D)
 - `cal.1961-09-13.opinion` (Sept. 13, XXII sep.yaml): Gallup, Aug. 24–29: own chances of living through an all-out nuclear war, very good 9 percent, even 40, poor 4
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1961-09-15.opinion` (Sept. 15, XXII sep.yaml): Gallup, Aug. 24–29: if East Germany closes the roads and air access to Berlin, fight the way in, 64 percent; n
   - Gallup: Gallup, George H. (K–J Cong. III.J)
-- `cal.1961-09-18.congo` (Sept. 18, XXII sep.yaml): Hammarskjöld killed in a crash near Ndola on his way to meet Tshombe.
-  - Hammarskjöld: Hammarskjöld, Dag (K–J Adm. III.J)
 - `cal.1961-09-19.space` (Sept. 19, XXII sep.yaml): NASA names Houston for the Manned Spacecraft Center. Albert Thomas held NASA's appropriations.
   - ? Houston: Houston, Lawrence (K–J Cong. III.K)
   - Albert: Albert, Carl (K–J Cong. III.C, Cong. III.D)
 - `cal.1961-09-24.opinion` (Sept. 24, XXII sep.yaml): Gallup, Aug. 24–29: would vote for a well-qualified Catholic nominated for President by their party, 82 percen
   - Gallup: Gallup, George H. (K–J Cong. III.J)
-- `cal.1961-09-25.testing` (Sept. 25, XXII sep.yaml): Address to the UN General Assembly a week after Hammarskjöld's death. Against the troika; for disarmament; the
-  - Hammarskjöld: Hammarskjöld, Dag (K–J Adm. III.J)
 - `cal.1961-09-27.opinion` (Sept. 27, XXII sep.yaml): Gallup, Aug. 24–29: would vote for a well-qualified Jew nominated by their party, 68 percent; not, 23. For a N
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1961-10-04.opinion-5` (Oct. 4, XXIII oct.yaml): Gallup, Aug. 24–29: Kennedy 62, Nixon 38.
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1961-10-08.goldwater` (Oct. 8, XXIII oct.yaml): Chicago, a motel. F. Clifton White and some two dozen conservative Republicans, most from the Young Republican
-  - ? Young: Young, Whitney M., Jr. (K–J Cong. III.H); Young, John W. (K–J Cong. III.K); Young, David R. (Wg. III.A)
+  - ? Young: Young, Stephen M. (K–J Cong. III.B); Young, Whitney M., Jr. (K–J Cong. III.H); Young, John W. (K–J Cong. III.K); Young, Andrew J., Jr. (Cong. III.E); Young, David R. (Wg. III.A)
 - `cal.1961-10-09.court` (Oct. 9, XXIII oct.yaml): *Baker v. Carr* reargued. Cox for the United States as amicus.
-  - ? Baker: Baker, Ella (K–J Cong. III.H); Baker, Irene Bailey (K–J Cong. III.K); Baker, Robert G. (K–J Cong. III.K); Baker, Howard H., Jr. (Cong. III.C, Wg. III.F)
+  - ? Baker: Baker, Ella (K–J Cong. III.H); Baker, Irene Bailey (K–J Cong. III.K); Baker, Robert G. (K–J Cong. III.K); Baker, Wilson (K–J Cong. III.K); Baker, Howard H. (K–J Cong. III.K); Baker, Howard H., Jr. (Cong. III.C, Wg. III.F)
 - `cal.1961-10-15.opinion` (Oct. 15, XXIII oct.yaml): Gallup, Sept. 21–26: fight the way into Berlin if access is closed, 70 percent; not, 18. Satisfied with the go
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1961-10-16.right-and-the-military` (Oct. 16, XXIII oct.yaml): Schwarz's Christian Anti-Communism Crusade fills the Hollywood Bowl, televised.
@@ -237,7 +303,6 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1961-11-04.specials` (Nov. 4, XXIV nov.yaml): Texas 20th, special. Henry B. González (D) over Goode (R), 54.6 to 44.0, for Kilday's seat. The first Mexican 
   - Henry: Henry, Aaron (K–J Cong. III.K)
-  - González: González, Virgilio R. (Wg. III.C)
 - `cal.1961-11-05.opinion-5` (Nov. 5, XXIV nov.yaml): Gallup, Oct. 19–24: Republicans, Goldwater or Rockefeller: Rockefeller 51, Goldwater 33, undecided 16.
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1961-11-10.opinion` (Nov. 10, XXIV nov.yaml): Gallup, Oct. 19–24: fight the way into Berlin if access is closed, 62 percent; not, 20 (Canadians, 47 to 33). 
@@ -262,61 +327,77 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1962-02-06.robert-kennedy` (Feb. 6–24, XXVII feb62.yaml): Robert Kennedy abroad. Tokyo, Nihon University, Feb. 6; Djakarta, the University of Indonesia, Feb. 14, and Jo
   - West: West, Ben (K–J Cong. III.K); West, E. Gordon (K–J Cong. III.K)
-- `cal.1962-02-07.crime-and-hijacking` (Feb. 7, XXVII feb62.yaml): The Las Vegas wiretap case. At the Criminal Division's request (Miller, Jan. 31), the FBI sees Edwards again. 
-  - Miller: Miller, David J. (K–J Cong. III.K); Miller, William E. (Opp. III.E)
+  - ? Hall: Hall, Dave (K–J Cong. III.F); Hall, David (K–J Cong. III.F)
 - `cal.1962-02-16.opinion` (Feb. 16, XXVII feb62.yaml): Gallup, Jan. 11–16: 53 percent have heard of the John Birch Society. Of them, 8 favorable, 43 unfavorable, 49 
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1962-02-23.opinion` (Feb. 23, XXVII feb62.yaml): Gallup, Feb. 8–13: officers' speeches on foreign policy to be reviewed, 59 percent; officers to say what they 
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1962-03-01.conservation` (Mar. 1, XXVIII mar62.yaml): Special message on conservation. As the Outdoor Recreation Resources Review Commission had recommended, a Bure
+  - ? Hill: Hill, Lister (K–J Cong. III.B)
 - `cal.1962-03-04.opinion-5` (Mar. 4, XXVIII mar62.yaml): Gallup, Feb. 8–13: Republicans' choice for 1964: Nixon 46, Rockefeller 17, Goldwater 13, Romney 9, Dirksen 5, 
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1962-03-07.opinion-5` (Mar. 7, XXVIII mar62.yaml): Gallup, Feb. 8–13: Independents' choice for 1964: Rockefeller 28, Goldwater 17, Romney 15, Milton Eisenhower 5
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1962-03-07.goldwater` (Mar. 7, XXVIII mar62.yaml): Madison Square Garden, the Young Americans for Freedom's rally: some 18,000, a full house. Thurmond and Tower 
-  - ? Young: Young, Whitney M., Jr. (K–J Cong. III.H); Young, John W. (K–J Cong. III.K); Young, David R. (Wg. III.A)
+  - ? Young: Young, Stephen M. (K–J Cong. III.B); Young, Whitney M., Jr. (K–J Cong. III.H); Young, John W. (K–J Cong. III.K); Young, Andrew J., Jr. (Cong. III.E); Young, David R. (Wg. III.A)
 - `cal.1962-03-09.opinion-5` (Mar. 9, XXVIII mar62.yaml): Gallup, Feb. 8–13: Goldwater or Rockefeller: Rockefeller 45, Goldwater 44, undecided 11.
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1962-03-14.testing` (Mar. 14, XXVIII mar62.yaml): Eighteen-Nation Disarmament Committee opens at Geneva. Rusk and Gromyko on Berlin there.
+  - Nation: Nation, Bill (K–J Cong. III.K)
+- `cal.1962-03-19.european-community` (Mar. 19, XXVIII mar62.yaml): Proclamations 3454 and 3455: escape-clause duties raised on machine-woven carpets and on sheet glass, put off 
+  - Dillon: Dillon, C. Douglas (K–J Adm. III.H)
 - `cal.1962-03-26.court` (Mar. 26, XXVIII mar62.yaml): *Baker v. Carr*, [369 U.S. 186](https://tile.loc.gov/storage-services/service/ll/usrep/usrep369/usrep369186/us
-  - ? Baker: Baker, Ella (K–J Cong. III.H); Baker, Irene Bailey (K–J Cong. III.K); Baker, Robert G. (K–J Cong. III.K); Baker, Howard H., Jr. (Cong. III.C, Wg. III.F)
+  - ? Baker: Baker, Ella (K–J Cong. III.H); Baker, Irene Bailey (K–J Cong. III.K); Baker, Robert G. (K–J Cong. III.K); Baker, Wilson (K–J Cong. III.K); Baker, Howard H. (K–J Cong. III.K); Baker, Howard H., Jr. (Cong. III.C, Wg. III.F)
+  - Brennan: Brennan, William J., Jr. (K–J Cong. III.G); Brennan, Peter J. (Adm. III.F)
 - `cal.1962-03-28.opinion` (Mar. 28, XXVIII mar62.yaml): Gallup, Mar. 8–13: the United States to resume testing in the atmosphere, 66 percent; not, 25. Men 73 for, wom
   - Gallup: Gallup, George H. (K–J Cong. III.J)
-- `cal.1962-03-28.crime-and-hijacking` (Mar. 28–Apr. 20, XXVIII mar62.yaml): The CIA asks the Justice Department not to prosecute in the Las Vegas wiretap case. Edwards to the FBI's liais
-  - Miller: Miller, David J. (K–J Cong. III.K); Miller, William E. (Opp. III.E)
 - `cal.1962-04-01.opinion` (Apr. 1, XXIX apr62.yaml): Gallup, Mar. 8–13: hospital care for the aged through Social Security, paid by a higher Social Security tax, 5
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1962-04-06.opinion` (Apr. 6, XXIX apr62.yaml): Gallup, Mar. 15–20, on Edward Kennedy's candidacy for the Senate: no figures printed. Opinion by party; Democr
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1962-04-08.opinion` (Apr. 8, XXIX apr62.yaml): Gallup, Mar. 8–13: more trade with other countries important, 65 percent. 46 have heard of the administration'
   - Gallup: Gallup, George H. (K–J Cong. III.J)
-- `cal.1962-04-10.specials` (Apr. 10, XXIX apr62.yaml): South Carolina 2d, special. Corinne Boyd Riley (D), unopposed, to her husband's seat. No swing: Riley unoppose
-  - Boyd: Boyd, Alan S. (K–J Adm. III.G)
+- `cal.1962-04-09.middle-east` (Apr. 9, XXIX apr62.yaml): Security Council, Resolution 171, on Israel's raid of Mar. 16–17 on Syrian gun positions above Lake Tiberias: 
+  - ? Lake: Lake, I. Beverly (K–J Cong. III.K); Lake, Anthony (Adm. III.D)
+- `cal.1962-04-13.steel` (Apr. 13, XXIX apr62.yaml): Inland and Kaiser hold. Bethlehem rescinds; U.S. Steel follows.
+  - Kaiser: Kaiser, Leland (K–J Cong. III.K)
 - `cal.1962-04-13.opinion` (Apr. 13, XXIX apr62.yaml): Gallup, Mar. 8–13: federal youth camps like the CCC, good idea 79 percent, poor 16.
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1962-04-20.opinion` (Apr. 20, XXIX apr62.yaml): Gallup, Mar. 8–13: a law against unions requiring more workers than a job needs, 55 percent for, 23 against.
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1962-04-27.opinion` (Apr. 27, XXIX apr62.yaml): Gallup, Apr. 6–11: a department of urban affairs, 50 percent for, 30 against. Republicans 37 for, 42 against.
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1962-04-28.georgia-ga` (Apr. 28, XXIX apr62.yaml): *Sanders v. Gray*, Atlanta. A three-judge court, Tuttle sitting, enjoins the county unit system in any primary
+  - Sanders: Sanders, Carl E. (K–J Cong. III.K)
+  - Gray: Gray, Fred D. (K–J Cong. III.K); Gray, Victoria Jackson (K–J Cong. III.K); Gray, Gordon (Opp. III.E); Gray, L. Patrick, III (Adm. III.H, Wg. III.I)
 - `cal.1962-04-29.press-and-broadcasting` (Apr. 29, XXIX apr62.yaml): Dinner for the Nobel laureates. "With the possible exception of when Thomas Jefferson dined alone."
-  - Thomas: Thomas, Albert (K–J Cong. III.D); Thomas, Daniel H. (K–J Cong. III.K)
+  - Thomas: Thomas, Albert (K–J Cong. III.D); Thomas, Daniel H. (K–J Cong. III.K); Thomas, Lera M. (K–J Cong. III.K)
 - `cal.1962-04-29.opinion` (Apr. 29, XXIX apr62.yaml): Gallup, Apr. 6–11: the most important problem, war, peace, and international tension, 63 percent; cost of livi
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1962-05-01.governors-ok` (May 1, XXX may62.yaml): Oklahoma primaries for governor. Democratic: Raymond Gary, governor 1955–59, 33.0 percent; W. P. Bill Atkinson
+  - Henry: Henry, Aaron (K–J Cong. III.K)
+- `cal.1962-05-05.elections-1962` (May 5, XXX may62.yaml): Texas primaries for governor. Democratic: Connally 29.8 percent, Don Yarborough 22.0, Governor Daniel 17.2, At
+  - ? Marshall: Marshall, Burke (K–J Adm. III.I); Marshall, Thurgood (K–J Cong. III.G); Marshall, Edward G. (K–J Cong. III.K); Marshall, Edward M. (K–J Cong. III.K)
+  - ? Jack: Jack, William M. (K–J Cong. III.K)
 - `cal.1962-05-06.opinion` (May 6, XXX may62.yaml): Gallup, Apr. 6–11: nearly three adults in four have seen or heard one of Kennedy's press conferences in six mo
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1962-05-07.robert-kennedy` (May 7, XXX may62.yaml): Robert Kennedy, at his request, briefed by Lawrence Houston, the CIA's General Counsel, and Sheffield Edwards,
   - Lawrence: Lawrence, David L. (K–J Cong. III.F)
-  - Rosselli: Rosselli, John (K–J Cong. III.K)
-  - Maheu: Maheu, Robert A. (K–J Cong. III.K)
 - `cal.1962-05-13.opinion-5` (May 13, XXX may62.yaml): Gallup, Apr. 6–11: choice for 1964, Nixon not on the list: Rockefeller 33, Goldwater 23, Milton Eisenhower 14,
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1962-05-15.governors-pa` (May 15, XXX may62.yaml): Pennsylvania primaries for governor. Republican: Scranton, U.S. Representative from the 10th District, 78.1 pe
+  - Collins: Collins, LeRoy (K–J Cong. III.F); Collins, Addie Mae (K–J Cong. III.K); Collins, John F. (K–J Cong. III.K); Collins, Michael (K–J Cong. III.K)
 - `cal.1962-05-18.opinion` (May 18, XXX may62.yaml): Gallup, Apr. 6–11: Presidents to stop naming federal and Supreme Court judges from their own party, 44 percent
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1962-05-20.opinion` (May 20, XXX may62.yaml): Gallup, May 3–8: 70 percent know of Kennedy's moves against the steel price increase. Of them, 58 favorable, 2
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1962-05-25.opinion` (May 25, XXX may62.yaml): Gallup, May 3–8: 75 percent have heard of the White Citizens Councils' plan to send unemployed Negroes North f
   - Gallup: Gallup, George H. (K–J Cong. III.J)
-  - ? White: White, Lee C. (K–J Adm. III.B); White, Byron R. (K–J Adm. III.I, K–J Cong. III.G); White, Edward H., II (K–J Cong. III.K); White, F. Clifton (Opp. III.F); White, Theodore H. (Opp. III.J, 1968 III.O)
+  - ? White: White, Lee C. (K–J Adm. III.B); White, Lincoln P. (K–J Adm. III.E); White, Byron R. (K–J Adm. III.I, K–J Cong. III.G); White, Edward H., II (K–J Cong. III.K); White, F. Clifton (Opp. III.F); White, Theodore H. (Opp. III.J, 1968 III.O)
 - `cal.1962-05-27.opinion` (May 27, XXX may62.yaml): Gallup, May 3–8: where Negroes live happier, Southern whites say the South 45 percent, the North 25. Negroes w
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1962-05-29.legislatures-tn` (May 29–June 22, XXX may62.yaml): Tennessee. Called by Ellington after *Baker v. Carr*, the General Assembly meets in extraordinary session May 
+  - ? Baker: Baker, Ella (K–J Cong. III.H); Baker, Irene Bailey (K–J Cong. III.K); Baker, Robert G. (K–J Cong. III.K); Baker, Wilson (K–J Cong. III.K); Baker, Howard H. (K–J Cong. III.K); Baker, Howard H., Jr. (Cong. III.C, Wg. III.F)
 - `cal.1962-05-30.opinion` (May 30, XXX may62.yaml): Gallup, May 3–8: the Kennedy administration pushing integration too fast, 32 percent; not fast enough, 11; abo
   - Gallup: Gallup, George H. (K–J Cong. III.J)
   - Kennedy: Kennedy, Jacqueline (K–J Adm. III.A); Kennedy, Joseph P. (K–J Adm. III.A); Kennedy, Robert F. (K–J Adm. III.A, K–J Cong. III.B, 1968 III.K); Kennedy, Edward M. (K–J Cong. III.B, 1968 III.K, 1968 III.P, Cong. III.A); Kennedy, John F. (Viet. III.A)
@@ -334,53 +415,101 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1962-06-17.opinion` (June 17, XXXI jun62.yaml): Gallup, May 31–June 5: 85 percent have heard of the stock market decline. Of them, 20 blame Kennedy's action i
   - Gallup: Gallup, George H. (K–J Cong. III.J)
-- `cal.1962-06-25.mississippi` (June 25, XXXI jun62.yaml): Fifth Circuit, Wisdom writing: Meredith refused for his race; admit him. Cameron's stays follow.
-  - Meredith: Meredith, James H. (K–J Cong. III.H)
+- `cal.1962-06-28.immigration` (June 28, XXXI jun62.yaml): Migration and Refugee Assistance Act signed, [76 Stat. 121](https://www.govinfo.gov/content/pkg/STATUTE-76/pdf
+  - High: High, Robert King (K–J Cong. III.F)
 - `cal.1962-07-01.opinion` (July 1, XXXII jul62.yaml): Gallup, May 31–June 5: hospital care for the aged through Social Security, 48 percent; voluntary private insur
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1962-07-03.states-and-cities-us` (July 3, XXXII jul62.yaml): Governors' Conference at Hershey, Pa. The Resolutions Committee's civil rights resolution, reaffirming that of
+  - ? Hall: Hall, Dave (K–J Cong. III.F); Hall, David (K–J Cong. III.F)
+- `cal.1962-07-04.europe-and-the-alliance` (July 4, XXXII jul62.yaml): Independence Hall. A "Declaration of Interdependence" with a uniting Europe.
+  - ? Hall: Hall, Dave (K–J Cong. III.F); Hall, David (K–J Cong. III.F)
+- `cal.1962-07-09.testing` (July 9, XXXII jul62.yaml): Starfish Prime: 1.4 megatons, 250 miles over Johnston Island. Artificial aurora; satellites damaged; streetlig
+  - Johnston: Johnston, Olin D. (K–J Cong. III.B)
+- `cal.1962-07-12.alabama-al` (July 12, XXXII jul62.yaml): The legislature, in extraordinary session, four days before the federal court's hearing in *Sims v. Frink*: th
+  - Sims: Sims, Joseph Howard (K–J Cong. III.K)
+  - Webb: Webb, James E. (K–J Adm. III.G)
 - `cal.1962-07-15.opinion-5` (July 15, XXXII jul62.yaml): Gallup, May 31–June 5: Republicans' choice for 1964: Nixon 45, other 55. Nixon's supporters' second choices re
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1962-07-18.legislatures-mi` (July 18, XXXII jul62.yaml): Michigan Supreme Court, *Scholle v. Secretary of State*, on remand after *Baker v. Carr*: the State Senate's d
+  - ? Baker: Baker, Ella (K–J Cong. III.H); Baker, Irene Bailey (K–J Cong. III.K); Baker, Robert G. (K–J Cong. III.K); Baker, Wilson (K–J Cong. III.K); Baker, Howard H. (K–J Cong. III.K); Baker, Howard H., Jr. (Cong. III.C, Wg. III.F)
+- `cal.1962-07-21.alabama-al` (July 21, XXXII jul62.yaml): *Sims v. Frink*. A three-judge court, Judge Johnson sitting: neither the 67-Senator Amendment nor the Crawford
+  - Sims: Sims, Joseph Howard (K–J Cong. III.K)
+  - Johnson: Johnson, Lady Bird (K–J Adm. III.A, 1968 III.Q); Johnson, Lynda Bird (K–J Adm. III.A); Johnson, Luci Baines (K–J Adm. III.A); Johnson, Lyndon B. (K–J Adm. III.D, Viet. III.A); Johnson, Harold K. (K–J Adm. III.F); Johnson, Paul B., Jr. (K–J Cong. III.F); Johnson, Frank M., Jr. (K–J Cong. III.G); Johnson, Albert W. (K–J Cong. III.K); Johnson, James D. (K–J Cong. III.K); Johnson, Leroy R. (K–J Cong. III.K); Johnson, Matthew (K–J Cong. III.K); Johnson, N. B. (K–J Cong. III.K); Johnson, Robert H. (K–J Cong. III.K); Johnson, Tom (1968 III.A); Johnson, U. Alexis (Viet. III.C)
+  - Webb: Webb, James E. (K–J Adm. III.G)
+- `cal.1962-07-23.legislatures-fl` (July 23, XXXII jul62.yaml): *Sobel v. Adams*, Miami. A three-judge court holds Florida's apportionment invidiously discriminatory: each of
+  - Adams: Adams, Paul L. (K–J Cong. III.K); Adams, Thomas Boylston (K–J Cong. III.K); Adams, Eddie (Viet. III.F)
+- `cal.1962-07-27.albany` (July 27, XXXII jul62.yaml): King arrested at a City Hall prayer vigil.
+  - ? Hall: Hall, Dave (K–J Cong. III.F); Hall, David (K–J Cong. III.F)
 - `cal.1962-08-01.opinion` (Aug. 1, XXXIII aug62.yaml): Gallup, June 28–July 3: an income tax cut now, if it means more debt, 19 percent for, 72 against. Of those who
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1962-08-03.opinion` (Aug. 3, XXXIII aug62.yaml): Gallup, June 28–July 3: the government to act to improve business, 52 percent; not, 45. If it acts, a tax cut 
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1962-08-15.middle-east` (Aug. 15–27, XXXIII aug62.yaml): The Hawk. Kennedy writes Ben Gurion, Aug. 15, and Nasser, Aug. 16. Aug. 19, Feldman to Ben Gurion and Meir: th
+  - Johnson: Johnson, Lady Bird (K–J Adm. III.A, 1968 III.Q); Johnson, Lynda Bird (K–J Adm. III.A); Johnson, Luci Baines (K–J Adm. III.A); Johnson, Lyndon B. (K–J Adm. III.D, Viet. III.A); Johnson, Harold K. (K–J Adm. III.F); Johnson, Paul B., Jr. (K–J Cong. III.F); Johnson, Frank M., Jr. (K–J Cong. III.G); Johnson, Albert W. (K–J Cong. III.K); Johnson, James D. (K–J Cong. III.K); Johnson, Leroy R. (K–J Cong. III.K); Johnson, Matthew (K–J Cong. III.K); Johnson, N. B. (K–J Cong. III.K); Johnson, Robert H. (K–J Cong. III.K); Johnson, Tom (1968 III.A); Johnson, U. Alexis (Viet. III.C)
 - `cal.1962-08-17.berlin-and-vienna` (Aug. 17, XXXIII aug62.yaml): Peter Fechter, eighteen, shot at the wall. Dies unaided in sight of the West. Riots in West Berlin.
   - West: West, Ben (K–J Cong. III.K); West, E. Gordon (K–J Cong. III.K)
 - `cal.1962-08-22.opinion` (Aug. 22, XXXIII aug62.yaml): Gallup, July 26–31: 81 percent have heard of Kennedy's Medicare plan; of them, half know it is paid through So
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1962-08-27.elections-1962` (Aug. 27, XXXIII aug62.yaml): Edward Kennedy and McCormack debate in South Boston. "If his name was Edward Moore, with his qualifications . 
-  - Moore: Moore, William L. (K–J Cong. III.K); Moore, Harold G. (Viet. III.D)
+  - ? Moore: Moore, Dan K. (K–J Cong. III.F); Moore, Preston J. (K–J Cong. III.F); Moore, Cecil B. (K–J Cong. III.K); Moore, William L. (K–J Cong. III.K); Moore, Harold G. (Viet. III.D)
+- `cal.1962-09-16.middle-east` (Sept. 16–Oct. 4, XXXIV sep62.yaml): The Johnson Plan. Israel's cabinet, Sept. 16: the worst of all the plans for the refugees. Syria's Prime Minis
+  - Johnson: Johnson, Lady Bird (K–J Adm. III.A, 1968 III.Q); Johnson, Lynda Bird (K–J Adm. III.A); Johnson, Luci Baines (K–J Adm. III.A); Johnson, Lyndon B. (K–J Adm. III.D, Viet. III.A); Johnson, Harold K. (K–J Adm. III.F); Johnson, Paul B., Jr. (K–J Cong. III.F); Johnson, Frank M., Jr. (K–J Cong. III.G); Johnson, Albert W. (K–J Cong. III.K); Johnson, James D. (K–J Cong. III.K); Johnson, Leroy R. (K–J Cong. III.K); Johnson, Matthew (K–J Cong. III.K); Johnson, N. B. (K–J Cong. III.K); Johnson, Robert H. (K–J Cong. III.K); Johnson, Tom (1968 III.A); Johnson, U. Alexis (Viet. III.C)
 - `cal.1962-09-19.opinion` (Sept. 19, XXXIV sep62.yaml): Gallup, Aug. 23–28: the Arizona woman who took thalidomide and had an abortion in Sweden did right, 52 percent
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1962-09-20.mississippi` (Sept. 20–26, XXXIV sep62.yaml): Barnett, as special registrar, refuses Meredith at Oxford. Again at Jackson, Sept. 25. Lieutenant Governor Joh
   - ? Jackson: Jackson, Henry M. (K–J Cong. III.B, Cong. III.B); Jackson, Jimmie Lee (K–J Cong. III.K)
+- `cal.1962-09-26.middle-east` (Sept. 26–27, XXXIV sep62.yaml): Sanaa. Army officers under Sallal shell the palace and proclaim the Yemen Arab Republic. Badr, Imam since his 
+  - Jordan: Jordan, Barbara (Cong. III.E, Wg. III.G)
 - `cal.1962-10-05.opinion` (Oct. 5, XXXV oct62.yaml): Gallup, Aug. 23–28: Negro children here have the same chance at a good education as white children, say 86 per
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1962-10-14.opinion` (Oct. 14, XXXV oct62.yaml): Gallup, Sept. 20–25: on Cuba, bomb or invade, 10 percent; an embargo, 13; something short of war, 26; hands of
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1962-10-16.africa-2` (Oct. 16–17, XXXV oct62.yaml): Hasan al-Rida, Crown Prince of Libya and heir to King Idris, at the White House; in the United States to Oct. 
+  - ? King: King, Cecil R. (K–J Cong. III.D); King, John W. (K–J Cong. III.F); King, Marion (K–J Cong. III.H); King, Martin Luther, Jr. (K–J Cong. III.H, Viet. III.E); King, Coretta Scott (K–J Cong. III.K); King, Edwin (K–J Cong. III.K); King, Martin Luther, Sr. (K–J Cong. III.K); King, Tom (K–J Cong. III.K)
 - `cal.1962-10-17.opinion` (Oct. 17, XXXV oct62.yaml): Gallup, Sept. 20–25: troops sent to overthrow Castro likely to bring all-out war with Russia, 51 percent; not,
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1962-10-22.robert-kennedy` (Oct. 22–Dec. 23, XXXV oct62.yaml): Nashville. Hoffa on trial under the Taft-Hartley Act, the Test Fleet case. Edward Partin, a Teamsters official
+  - Taft: Taft, Alexander M. (K–J Cong. III.F); Taft, Robert, Jr. (Opp. III.D)
+  - Walter: Walter, Francis E. (K–J Cong. III.D)
 - `cal.1962-10-27.missile-crisis` (Oct. 27, XXXV oct62.yaml): Black Saturday. Second letter, broadcast: the Jupiters in Turkey added. Anderson's U-2 shot down over Cuba; an
-  - ? Black: Black, Hugo L. (K–J Cong. III.G)
+  - ? Black: Black, Eugene R. (K–J Adm. III.E); Black, Hugo L. (K–J Cong. III.G)
+- `cal.1962-11-06.governors-tx` (Nov. 6, XXXVI nov62.yaml): Texas. Connally (D) elected governor over Jack Cox (R), 847,035 to 714,995. No Republican for governor had pol
+  - ? Jack: Jack, William M. (K–J Cong. III.K)
+- `cal.1962-11-06.governors-ok` (Nov. 6, XXXVI nov62.yaml): Oklahoma. Henry Bellmon (R) elected governor over Atkinson (D), 392,316 to 315,357, 55.2 percent: the State's 
+  - Henry: Henry, Aaron (K–J Cong. III.K)
+- `cal.1962-11-06.legislatures-us` (Nov. 6, XXXVI nov62.yaml): The State legislatures. Republicans gain some 130 lower-house seats and 48 senate seats. They take both houses
+  - ? Baker: Baker, Ella (K–J Cong. III.H); Baker, Irene Bailey (K–J Cong. III.K); Baker, Robert G. (K–J Cong. III.K); Baker, Wilson (K–J Cong. III.K); Baker, Howard H. (K–J Cong. III.K); Baker, Howard H., Jr. (Cong. III.C, Wg. III.F)
 - `cal.1962-11-14.opinion` (Nov. 14, XXXVI nov62.yaml): Gallup, Oct. 19–24: the Kennedy administration pushing integration too fast, 42 percent; not fast enough, 12; 
   - Gallup: Gallup, George H. (K–J Cong. III.J)
   - Kennedy: Kennedy, Jacqueline (K–J Adm. III.A); Kennedy, Joseph P. (K–J Adm. III.A); Kennedy, Robert F. (K–J Adm. III.A, K–J Cong. III.B, 1968 III.K); Kennedy, Edward M. (K–J Cong. III.B, 1968 III.K, 1968 III.P, Cong. III.A); Kennedy, John F. (Viet. III.A)
 - `cal.1962-11-21.opinion` (Nov. 21, XXXVI nov62.yaml): Gallup, Oct. 19–24: 71 percent have heard of the Peace Corps; of them, 74 approve its work, 9 disapprove. A Pe
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1962-11-28.legislatures-va` (Nov. 28, XXXVI nov62.yaml): *Mann v. Davis*: the three-judge court, one judge dissenting, holds the apportionment of Virginia's General As
+  - Mann: Mann, Thomas C. (K–J Adm. III.E)
+  - Davis: Davis, James T. (K–J Adm. III.F); Davis, Ilus W. (K–J Cong. III.F); Davis, Jimmie H. (K–J Cong. III.F); Davis, John E. (Opp. III.H)
 - `cal.1962-12-09.opinion-5` (Dec. 9, XXXVII dec62.yaml): Gallup, Nov. 16–21: choice for 1964: Rockefeller 41, Nixon 21, Romney 15, Goldwater 11, Dirksen 4, Scranton 3;
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1962-12-12.opinion-5` (Dec. 12, XXXVII dec62.yaml): Gallup, Nov. 16–21: the four, by region: Rockefeller 50 in the East, 44 in the Midwest, 42 in the South, 55 in
   - Gallup: Gallup, George H. (K–J Cong. III.J)
   - West: West, Ben (K–J Cong. III.K); West, E. Gordon (K–J Cong. III.K)
+- `cal.1962-12-17.open-housing-co` (Dec. 17, XXXVII dec62.yaml): *Colorado Anti-Discrimination Commission v. Case*, 151 Colo. 235: the Colorado Supreme Court sustains the Stat
+  - Case: Case, Clifford P. (Opp. III.B); Case, Francis H. (Opp. III.B)
+- `cal.1962-12.cities-and-housing-nyc` (Dec., XXXVII dec62.yaml): New York. The Board of Estimate, after a hearing of six hours, sets aside Moses's Lower Manhattan Expressway, 
+  - Holland: Holland, Spessard L. (K–J Cong. III.B)
 - `cal.1963-01-06.opinion` (Jan. 6, XXXVIII jan63.yaml): Gallup, Dec. 13–18, 1962: Stevenson's handling of his job at the UN, 64 percent approve, 11 disapprove.
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1963-01-13.opinion-5` (Jan. 13, XXXVIII jan63.yaml): Gallup, Dec. 13–18: Republicans' choice for 1964: Rockefeller 46, Goldwater 26, Romney 15, Scranton 5, Hatfiel
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1963-01-14.court` (Jan. 14, XXXVIII jan63.yaml): *NAACP v. Button*, [371 U.S. 415](https://tile.loc.gov/storage-services/service/ll/usrep/usrep371/usrep371415/
+  - Brennan: Brennan, William J., Jr. (K–J Cong. III.G); Brennan, Peter J. (Adm. III.F)
+  - ? Clark: Clark, Ramsey (K–J Adm. III.I); Clark, Joseph S. (K–J Cong. III.B); Clark, Tom C. (K–J Cong. III.G); Clark, James G., Jr. (K–J Cong. III.K); Clark, Newman H. (K–J Cong. III.K)
+- `cal.1963-01-26.middle-east` (Jan. 26–31, XXXVIII jan63.yaml): Iran. The referendum on the Shah's six points, the White Revolution: land reform, the forests nationalized, st
+  - ? White: White, Lee C. (K–J Adm. III.B); White, Lincoln P. (K–J Adm. III.E); White, Byron R. (K–J Adm. III.I, K–J Cong. III.G); White, Edward H., II (K–J Cong. III.K); White, F. Clifton (Opp. III.F); White, Theodore H. (Opp. III.J, 1968 III.O)
 - `cal.1963-01-27.opinion` (Jan. 27, XXXVIII jan63.yaml): Gallup, Jan. 11–16: strikes in newspapers, telephones, radio, and television to be forbidden by law, 40 percen
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1963-01-28.states-and-cities` (Jan. 28, XXXVIII jan63.yaml): Harvey Gantt registers at Clemson, the first Black student, on the Fourth Circuit's order of Jan. 16. No disor
   - Harvey: Harvey, William K. (K–J Adm. III.I)
-  - ? Black: Black, Hugo L. (K–J Cong. III.G)
+  - ? Black: Black, Eugene R. (K–J Adm. III.E); Black, Hugo L. (K–J Cong. III.G)
 - `cal.1963-02-01.opinion` (Feb. 1, XXXIX feb63.yaml): Gallup, Jan. 11–16: race relations in the South in the coming year, better 44 percent, worse 32. In the South,
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1963-02-03.opinion` (Feb. 3, XXXIX feb63.yaml): Gallup, Jan. 11–16: foreign aid, 58 percent for, 30 against.
@@ -400,7 +529,9 @@ the person; several mean the surname is shared). "?" marks a surname that is als
 - `cal.1963-02-24.opinion` (Feb. 24, XXXIX feb63.yaml): Gallup, Feb. 7–12: the administration's handling of Cuba in recent weeks, 56 percent satisfied, 28 dissatisfie
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1963-02-25.court` (Feb. 25, XXXIX feb63.yaml): *Edwards v. South Carolina*, [372 U.S. 229](https://tile.loc.gov/storage-services/service/ll/usrep/usrep372/us
-  - ? Black: Black, Hugo L. (K–J Cong. III.G)
+  - Edwards: Edwards, Sheffield (K–J Adm. III.I); Edwards, Edwin W. (K–J Cong. III.D); Edwards, William J. (Opp. III.D)
+  - ? Black: Black, Eugene R. (K–J Adm. III.E); Black, Hugo L. (K–J Cong. III.G)
+  - ? Clark: Clark, Ramsey (K–J Adm. III.I); Clark, Joseph S. (K–J Cong. III.B); Clark, Tom C. (K–J Cong. III.G); Clark, James G., Jr. (K–J Cong. III.K); Clark, Newman H. (K–J Cong. III.K)
 - `cal.1963-02-27.opinion` (Feb. 27, XXXIX feb63.yaml): Gallup, Feb. 7–12: American forces into Cuba to overthrow Castro, 20 percent agree, 64 disagree. Cuba a seriou
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1963-03-10.opinion` (Mar. 10, XL mar63.yaml): Gallup, Feb. 7–12: France a dependable ally, 32 percent; not, 35; no opinion, 33. The college-educated, 36 and
@@ -411,16 +542,20 @@ the person; several mean the surname is shared). "?" marks a surname that is als
 - `cal.1963-03-17.opinion-5` (Mar. 17, XL mar63.yaml): Gallup, Feb. 7–12: Kennedy 63, Rockefeller 32, undecided 5. Independents: Kennedy 56, Rockefeller 37.
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1963-03-18.court` (Mar. 18, XL mar63.yaml): *Gideon v. Wainwright*, [372 U.S. 335](https://tile.loc.gov/storage-services/service/ll/usrep/usrep372/usrep37
+  - ? Black: Black, Eugene R. (K–J Adm. III.E); Black, Hugo L. (K–J Cong. III.G)
   - Douglas: Douglas, Paul H. (K–J Cong. III.B); Douglas, William O. (K–J Cong. III.G, Cong. III.J)
 - `cal.1963-03-18.court-2` (Mar. 18, XL mar63.yaml): *Gray v. Sanders*, [372 U.S. 368](https://tile.loc.gov/storage-services/service/ll/usrep/usrep372/usrep372368/
-  - Gray: Gray, Fred D. (K–J Cong. III.K); Gray, Victoria Jackson (K–J Cong. III.K); Gray, L. Patrick, III (Adm. III.H, Wg. III.I)
+  - Gray: Gray, Fred D. (K–J Cong. III.K); Gray, Victoria Jackson (K–J Cong. III.K); Gray, Gordon (Opp. III.E); Gray, L. Patrick, III (Adm. III.H, Wg. III.I)
   - Sanders: Sanders, Carl E. (K–J Cong. III.K)
 - `cal.1963-03-20.opinion-5` (Mar. 20, XL mar63.yaml): Gallup, Feb. 7–12: Kennedy 67, Goldwater 27, undecided 6.
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1963-03-22.opinion` (Mar. 22, XL mar63.yaml): Gallup, Mar. 8–13: the administration's handling of Cuba in recent weeks, 52 percent satisfied, 33 dissatisfie
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1963-03-25.court` (Mar. 25, XL mar63.yaml): *Gibson v. Florida Legislative Investigation Committee*, [372 U.S. 539](https://tile.loc.gov/storage-services/
+  - Gibson: Gibson, Kenneth A. (K–J Cong. III.K)
+  - Goldberg: Goldberg, Arthur J. (K–J Adm. III.E, K–J Adm. III.G, K–J Cong. III.G)
 - `cal.1963-03-27.mississippi` (Mar. 27–30, XL mar63.yaml): Greenwood police set a dog on Black citizens walking home from the registrar; a minister bitten. SNCC workers 
-  - ? Black: Black, Hugo L. (K–J Cong. III.G)
+  - ? Black: Black, Eugene R. (K–J Adm. III.E); Black, Hugo L. (K–J Cong. III.G)
 - `cal.1963-03-31.opinion-5` (Mar. 31, XL mar63.yaml): Gallup, Mar. 8–13: Republicans' choice for 1964: Rockefeller 44, Goldwater 21, Romney 14, Scranton 9, Hatfield
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1963-04-03.opinion` (Apr. 3, XLI apr63.yaml): Gallup, Mar. 8–13: the most important problem, Cuba and Castro, 24 percent; other international problems, 39; 
@@ -428,25 +563,35 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Castro: Castro, Fidel (K–J Adm. III.J); Castro, Raúl (K–J Adm. III.J)
 - `cal.1963-04-24.testing` (Apr. 24, XLI apr63.yaml): Kohler and Trevelyan give Khrushchev the Kennedy–Macmillan letter of Apr. 15: the West down from some twenty i
   - West: West, Ben (K–J Cong. III.K); West, E. Gordon (K–J Cong. III.K)
+- `cal.1963-04-27.middle-east` (Apr. 27, XLI apr63.yaml): Jordan, after the Cairo charter of Apr. 17 for a federation of Egypt, Syria and Iraq. Kennedy with Ball, McNam
+  - Jordan: Jordan, Barbara (Cong. III.E, Wg. III.G)
+  - West: West, Ben (K–J Cong. III.K); West, E. Gordon (K–J Cong. III.K)
 - `cal.1963-04-28.opinion-5` (Apr. 28, XLI apr63.yaml): Gallup, Apr. 4–9: Republicans' choice for 1964: Rockefeller 43, Goldwater 26, Romney 13, Scranton 7, Hatfield 
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1963-05-01.opinion` (May 1, XLII may63.yaml): Gallup, Apr. 4–9: the administration's handling of Cuba in recent weeks, 49 percent satisfied, 29 dissatisfied
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1963-05-02.alabama` (May 2–7, XLII may63.yaml): Birmingham. The children's march: hundreds of schoolchildren arrested, May 2. May 3: Connor turns fire hoses a
+  - Kelly: Kelly, Francis E. (K–J Cong. III.K); Kelly, Scott (K–J Cong. III.K)
 - `cal.1963-05-04.elections-1964` (May 4, XLII may63.yaml): Rockefeller, divorced in 1962, marries Margaretta Fitler Murphy, divorced a month before.
-  - Murphy: Murphy, George (Opp. III.B); Murphy, Charles S. (1968 III.A)
-- `cal.1963-05-08.testing` (May 8, XLII may63.yaml): Khrushchev's reply to the Kennedy–Macmillan letter: the seismic "black boxes" enough, inspection a cover for s
-  - Kennedy: Kennedy, Jacqueline (K–J Adm. III.A); Kennedy, Joseph P. (K–J Adm. III.A); Kennedy, Robert F. (K–J Adm. III.A, K–J Cong. III.B, 1968 III.K); Kennedy, Edward M. (K–J Cong. III.B, 1968 III.K, 1968 III.P, Cong. III.A); Kennedy, John F. (Viet. III.A)
-  - Macmillan: Macmillan, Harold (K–J Adm. III.J)
+  - Murphy: Murphy, Leo T. (K–J Cong. III.K); Murphy, Maurice J., Jr. (K–J Cong. III.K); Murphy, George (Opp. III.B); Murphy, Robert D. (Opp. III.E); Murphy, Charles S. (1968 III.A)
+- `cal.1963-05-08.middle-east` (May 8, XLII may63.yaml): Kennedy, at his press conference, on the arms balance and the security of Israel and Jordan: the United States
+  - Jordan: Jordan, Barbara (Cong. III.E, Wg. III.G)
 - `cal.1963-05-11.alabama` (May 11–13, XLII may63.yaml): Bombs at the house of King's brother and at the Gaston Motel, the night of the 11th. Rioting till morning. May
-  - ? King: King, Marion (K–J Cong. III.H); King, Martin Luther, Jr. (K–J Cong. III.H, Viet. III.E); King, Coretta Scott (K–J Cong. III.K); King, Edwin (K–J Cong. III.K)
+  - ? King: King, Cecil R. (K–J Cong. III.D); King, John W. (K–J Cong. III.F); King, Marion (K–J Cong. III.H); King, Martin Luther, Jr. (K–J Cong. III.H, Viet. III.E); King, Coretta Scott (K–J Cong. III.K); King, Edwin (K–J Cong. III.K); King, Martin Luther, Sr. (K–J Cong. III.K); King, Tom (K–J Cong. III.K)
 - `cal.1963-05-20.court` (May 20, XLII may63.yaml): The sit-in cases. *Peterson v. City of Greenville*, [373 U.S. 244](https://tile.loc.gov/storage-services/servi
-  - Peterson: Peterson, Esther (K–J Adm. III.G)
+  - Peterson: Peterson, Esther (K–J Adm. III.G); Peterson, P. Kenneth (K–J Cong. III.F); Peterson, Val (Opp. III.E)
+  - Warren: Warren, Earl (K–J Cong. III.G, Cong. III.J)
+- `cal.1963-05-21.mayors-philadelphia` (May 21, XLII may63.yaml): Philadelphia primaries for mayor. Democratic: Tate, the City Committee's candidate, 128,840; Walter M. Phillip
+  - Walter: Walter, Francis E. (K–J Cong. III.D)
+- `cal.1963-05-23.alabama-birmingham` (May 23, XLII may63.yaml): The State Supreme Court, Goodwyn writing: Boutwell and the council took office lawfully Apr. 15; the act of 19
+  - ? Hall: Hall, Dave (K–J Cong. III.F); Hall, David (K–J Cong. III.F)
 - `cal.1963-05-24.opinion` (May 24, XLII may63.yaml): Gallup, May 2–7: the administration's handling of Cuba in recent weeks, 45 percent satisfied, 35 dissatisfied.
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1963-05-26.opinion-5` (May 26, XLII may63.yaml): Gallup, May 8–13: Republicans' choice for 1964: Goldwater 35, Rockefeller 30, Romney 22; others, no preference
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1963-05-27.court` (May 27, XLII may63.yaml): *Watson v. City of Memphis*, [373 U.S. 526](https://tile.loc.gov/storage-services/service/ll/usrep/usrep373/us
-  - Watson: Watson, W. Marvin (K–J Adm. III.C, 1968 III.B)
+  - Watson: Watson, W. Marvin (K–J Adm. III.C, 1968 III.B); Watson, Albert W. (K–J Cong. III.K)
+  - Goldberg: Goldberg, Arthur J. (K–J Adm. III.E, K–J Adm. III.G, K–J Cong. III.G)
 - `cal.1963-05-27.opinion-5` (May 27, XLII may63.yaml): Gallup, May 8–13: Kennedy 60, Goldwater 36, undecided 4; Kennedy 60, Romney 35, undecided 5.
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1963-05-28.mississippi` (May 28, XLII may63.yaml): Jackson. Tougaloo students sit in at Woolworth's lunch counter; a crowd beats them for three hours, police out
@@ -454,7 +599,14 @@ the person; several mean the surname is shared). "?" marks a surname that is als
 - `cal.1963-05-28.opinion-5` (May 28, XLII may63.yaml): Gallup, May 8–13: Kennedy 63, Rockefeller 32, undecided 5.
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1963-05-30.civil-rights-the-executive` (May 30, XLII may63.yaml): Johnson at Gettysburg, Memorial Day: "The Negro today asks justice." Emancipation a proclamation, not a fact, 
-  - ? Day: Day, J. Edward (K–J Adm. III.G)
+  - ? Day: Day, J. Edward (K–J Adm. III.G); Day, William S. (K–J Cong. III.K)
+- `cal.1963-06-03.court` (June 3, XLIII jun63.yaml): *Goss v. Board of Education*, [373 U.S. 683](https://tile.loc.gov/storage-services/service/ll/usrep/usrep373/u
+  - ? Clark: Clark, Ramsey (K–J Adm. III.I); Clark, Joseph S. (K–J Cong. III.B); Clark, Tom C. (K–J Cong. III.G); Clark, James G., Jr. (K–J Cong. III.K); Clark, Newman H. (K–J Cong. III.K)
+- `cal.1963-06-11.alabama` (June 11, XLIII jun63.yaml): The schoolhouse door. Wallace bars Katzenbach at Foster Auditorium, Tuscaloosa. The Alabama Guard federalized;
+  - Foster: Foster, William C. (K–J Adm. III.E)
+- `cal.1963-06-11.specials` (June 11, XLIII jun63.yaml): California 23d, special. Del Clawson (R) takes Clyde Doyle's seat, 53.2 to 35.4 over Carley Porter (D), four o
+  - Clyde: Clyde, George D. (K–J Cong. III.F)
+  - Carley: Carley, David (K–J Cong. III.K)
 - `cal.1963-06-12.mississippi` (June 12, XLIII jun63.yaml): Evers shot in his driveway in Jackson, after midnight; dies within the hour. Byron De La Beckwith, of Greenwoo
   - ? Jackson: Jackson, Henry M. (K–J Cong. III.B, Cong. III.B); Jackson, Jimmie Lee (K–J Cong. III.K)
 - `cal.1963-06-16.opinion` (June 16, XLIII jun63.yaml): Gallup, May 23–28: the Kennedy administration pushing integration too fast, 36 percent; not fast enough, 18; a
@@ -462,12 +614,19 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Kennedy: Kennedy, Jacqueline (K–J Adm. III.A); Kennedy, Joseph P. (K–J Adm. III.A); Kennedy, Robert F. (K–J Adm. III.A, K–J Cong. III.B, 1968 III.K); Kennedy, Edward M. (K–J Cong. III.B, 1968 III.K, 1968 III.P, Cong. III.A); Kennedy, John F. (Viet. III.A)
 - `cal.1963-06-17.court` (June 17, XLIII jun63.yaml): *Abington School District v. Schempp*, [374 U.S. 203](https://tile.loc.gov/storage-services/service/ll/usrep/u
   - Lord: Lord, Winston (Adm. III.D, Viet. III.B)
+  - ? Clark: Clark, Ramsey (K–J Adm. III.I); Clark, Joseph S. (K–J Cong. III.B); Clark, Tom C. (K–J Cong. III.G); Clark, James G., Jr. (K–J Cong. III.K); Clark, Newman H. (K–J Cong. III.K)
+  - Brennan: Brennan, William J., Jr. (K–J Cong. III.G); Brennan, Peter J. (Adm. III.F)
+  - ? White: White, Lee C. (K–J Adm. III.B); White, Lincoln P. (K–J Adm. III.E); White, Byron R. (K–J Adm. III.I, K–J Cong. III.G); White, Edward H., II (K–J Cong. III.K); White, F. Clifton (Opp. III.F); White, Theodore H. (Opp. III.J, 1968 III.O)
 - `cal.1963-06-19.opinion` (June 19, XLIII jun63.yaml): Gallup, May 23–28: serious racial trouble here in the next two or three years, likely 22 percent, not likely 6
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1963-06-21.opinion` (June 21, XLIII jun63.yaml): Gallup, May 23–28: white parents who would object to a school where a few of the children are Negro, 10 percen
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1963-06-23.opinion` (June 23, XLIII jun63.yaml): Gallup, May 23–28, whites: would move if Negroes came to live next door, definitely 20 percent, might 25, woul
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1963-06-23.king-detroit` (June 23, XLIII jun63.yaml): Detroit. The Walk to Freedom, called by the Detroit Council for Human Rights of the Reverends C. L. Franklin a
+  - Albert: Albert, Carl (K–J Cong. III.C, Cong. III.D)
+  - Woodward: Woodward, Bob (Wg. III.H)
+  - ? Hall: Hall, Dave (K–J Cong. III.F); Hall, David (K–J Cong. III.F)
 - `cal.1963-06-26.berlin-and-vienna` (June 26, XLIII jun63.yaml): Kennedy in West Berlin, with Brandt and Adenauer. The wall seen from a platform. Rudolph Wilde Platz: "Ich bin
   - West: West, Ben (K–J Cong. III.K); West, E. Gordon (K–J Cong. III.K)
 - `cal.1963-06-26.opinion` (June 26, XLIII jun63.yaml): Gallup, May 23–28: some group treated unfairly by the Kennedy administration, 20 percent; the Negroes named by
@@ -479,8 +638,10 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1963-07-10.opinion` (July 10, XLIV jul63.yaml): Gallup, June 21–26: a law giving Negroes the right to be served in hotels, restaurants, theaters, and the like
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1963-07-11.desegregation-schools-okc` (July 11, XLIV jul63.yaml): Oklahoma City. Judge Bohanon finds Robert Dowell's transfer to Northeast High School refused because of his ra
+  - High: High, Robert King (K–J Cong. III.F)
 - `cal.1963-07-14.elections-1964` (July 14, XLIV jul63.yaml): Rockefeller's statement against the "radical right": the Young Republicans' convention at San Francisco in Jun
-  - ? Young: Young, Whitney M., Jr. (K–J Cong. III.H); Young, John W. (K–J Cong. III.K); Young, David R. (Wg. III.A)
+  - ? Young: Young, Stephen M. (K–J Cong. III.B); Young, Whitney M., Jr. (K–J Cong. III.H); Young, John W. (K–J Cong. III.K); Young, Andrew J., Jr. (Cong. III.E); Young, David R. (Wg. III.A)
 - `cal.1963-07-14.opinion` (July 14, XLIV jul63.yaml): Gallup, June 21–26: the Kennedy administration pushing integration too fast, 41 percent; not fast enough, 14; 
   - Gallup: Gallup, George H. (K–J Cong. III.J)
   - Kennedy: Kennedy, Jacqueline (K–J Adm. III.A); Kennedy, Joseph P. (K–J Adm. III.A); Kennedy, Robert F. (K–J Adm. III.A, K–J Cong. III.B, 1968 III.K); Kennedy, Edward M. (K–J Cong. III.B, 1968 III.K, 1968 III.P, Cong. III.A); Kennedy, John F. (Viet. III.A)
@@ -527,13 +688,14 @@ the person; several mean the surname is shared). "?" marks a surname that is als
 - `cal.1963-09-01.opinion` (Sept. 1, XLVI sep63.yaml): Gallup, Aug. 15–20: 60 percent have heard of the partial test ban. Of them, Senate approval, 63 for, 17 agains
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1963-09-02.alabama` (Sept. 2–6, XLVI sep63.yaml): Alabama's schools open under court orders. Sept. 2: Wallace's troopers close Tuskegee High. Sept. 4: two Black
-  - ? Black: Black, Hugo L. (K–J Cong. III.G)
+  - High: High, Robert King (K–J Cong. III.F)
+  - ? Black: Black, Eugene R. (K–J Adm. III.E); Black, Hugo L. (K–J Cong. III.G)
 - `cal.1963-09-04.opinion` (Sept. 4, XLVI sep63.yaml): Gallup, Aug. 15–20: a law giving Negroes the right to be served in hotels, restaurants, theaters, and the like
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1963-09-06.opinion` (Sept. 6, XLVI sep63.yaml): Gallup, Aug. 15–20: federal youth camps like the CCC, good idea 89 percent, poor 6.
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1963-09-09.alabama` (Sept. 9–10, XLVI sep63.yaml): Alabama's federal district judges, all of them, enjoin Wallace from blocking the schools, Sept. 9; he sends th
-  - ? Black: Black, Hugo L. (K–J Cong. III.G)
+  - ? Black: Black, Eugene R. (K–J Adm. III.E); Black, Hugo L. (K–J Cong. III.G)
 - `cal.1963-09-11.opinion` (Sept. 11, XLVI sep63.yaml): Gallup, Aug. 15–20: the Kennedy administration pushing integration too fast, 50 percent; not fast enough, 10. 
   - Gallup: Gallup, George H. (K–J Cong. III.J)
   - Kennedy: Kennedy, Jacqueline (K–J Adm. III.A); Kennedy, Joseph P. (K–J Adm. III.A); Kennedy, Robert F. (K–J Adm. III.A, K–J Cong. III.B, 1968 III.K); Kennedy, Edward M. (K–J Cong. III.B, 1968 III.K, 1968 III.P, Cong. III.A); Kennedy, John F. (Viet. III.A)
@@ -543,13 +705,13 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1963-09-15.alabama` (Sept. 15, XLVI sep63.yaml): Sunday morning. Dynamite at the Sixteenth Street Baptist Church, Birmingham. Four girls killed: Addie Mae Coll
   - ? Church: Church, Frank (K–J Cong. III.B, Cong. III.B, Viet. III.E)
-  - ? Black: Black, Hugo L. (K–J Cong. III.G)
+  - ? Black: Black, Eugene R. (K–J Adm. III.E); Black, Hugo L. (K–J Cong. III.G)
 - `cal.1963-09-15.opinion-5` (Sept. 15, XLVI sep63.yaml): Gallup, Aug. 15–20: Goldwater or Rockefeller: Goldwater 50, Rockefeller 50. Republicans: Goldwater 59, Rockefe
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1963-09-16.desegregation-schools` (Sept. 16, XLVI sep63.yaml): Prince Edward County, Va., its public schools closed since 1959 rather than desegregated. The Free Schools ope
-  - ? Black: Black, Hugo L. (K–J Cong. III.G)
+  - ? Black: Black, Eugene R. (K–J Adm. III.E); Black, Hugo L. (K–J Cong. III.G)
 - `cal.1963-09-19.alabama` (Sept. 19–23, XLVI sep63.yaml): Kennedy sees Birmingham's Black leaders, King among them, Sept. 19; names Royall and Blaik to represent him in
-  - ? Black: Black, Hugo L. (K–J Cong. III.G)
+  - ? Black: Black, Eugene R. (K–J Adm. III.E); Black, Hugo L. (K–J Cong. III.G)
 - `cal.1963-09-25.opinion-5` (Sept. 25, XLVI sep63.yaml): Gallup, Aug. 15–20: Kennedy 57, Goldwater 37, undecided, others 6.
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1963-09-27.opinion-5` (Sept. 27, XLVI sep63.yaml): Gallup, Aug. 15–20: Kennedy 58, Nixon 37, undecided, others 5.
@@ -569,10 +731,12 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Kennedy: Kennedy, Jacqueline (K–J Adm. III.A); Kennedy, Joseph P. (K–J Adm. III.A); Kennedy, Robert F. (K–J Adm. III.A, K–J Cong. III.B, 1968 III.K); Kennedy, Edward M. (K–J Cong. III.B, 1968 III.K, 1968 III.P, Cong. III.A); Kennedy, John F. (Viet. III.A)
 - `cal.1963-10-16.opinion-5` (Oct. 16, XLVII oct63.yaml): Gallup, Sept. 12–17: Kennedy 55, Goldwater 39, undecided, others 6.
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1963-10-22.desegregation-schools-chicago` (Oct. 22, XLVII oct63.yaml): Chicago. "Freedom Day": the Coordinating Council of Community Organizations' boycott of the public schools aga
+  - ? Day: Day, J. Edward (K–J Adm. III.G); Day, William S. (K–J Cong. III.K)
 - `cal.1963-10-23.opinion` (Oct. 23, XLVII oct63.yaml): Gallup, Aug. 15–20: would vote for a well-qualified Jew nominated by their party, 77 percent; for a Negro, 47,
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1963-10-24.right-and-the-military` (Oct. 24, XLVII oct63.yaml): Stevenson in Dallas for UN Day. Heckled, spat on, struck on the head with a placard. Walker's "U.S. Day" rally
-  - ? Day: Day, J. Edward (K–J Adm. III.G)
+  - ? Day: Day, J. Edward (K–J Adm. III.G); Day, William S. (K–J Cong. III.K)
 - `cal.1963-10-25.opinion` (Oct. 25, XLVII oct63.yaml): Gallup, Oct. 11–16: selling surplus wheat to Russia, 60 percent approve, 31 disapprove; Republicans 51 and 42.
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1963-10-27.opinion-5` (Oct. 27, XLVII oct63.yaml): Gallup, Oct. 11–16: Kennedy 55, Goldwater 39, undecided, others 6. South, undecided excluded: Goldwater 55, Ke
@@ -581,10 +745,16 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1963-11-01.opinion-5` (Nov. 1, XLVIII nov63.yaml): Gallup, Oct. 11–16: Republicans' choice for 1964: Goldwater 45, Rockefeller 23, Romney 16, Scranton 5; others,
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1963-11-02.mississippi-ms` (Nov. 2–4, XLVIII nov63.yaml): The Freedom Vote. COFO's mock election for governor, open to Negroes kept off the rolls: Aaron Henry for gover
+  - ? White: White, Lee C. (K–J Adm. III.B); White, Lincoln P. (K–J Adm. III.E); White, Byron R. (K–J Adm. III.I, K–J Cong. III.G); White, Edward H., II (K–J Cong. III.K); White, F. Clifton (Opp. III.F); White, Theodore H. (Opp. III.J, 1968 III.O)
 - `cal.1963-11-03.opinion-5` (Nov. 3, XLVIII nov63.yaml): Gallup, Oct. 11–16: Republicans, Goldwater or Nixon: Nixon 52, Goldwater 48, the 8 undecided excluded. Indepen
   - Gallup: Gallup, George H. (K–J Cong. III.J)
-- `cal.1963-11-05.specials` (Nov. 5, XLVIII nov63.yaml): Pennsylvania 23rd, special. Albert Johnson (R) holds Gavin's seat, 58.4 to 41.6 over Hagerty (D). Swing 0.7 to
-  - Albert: Albert, Carl (K–J Cong. III.C, Cong. III.D)
+- `cal.1963-11-05.mayors-indianapolis` (Nov. 5, XLVIII nov63.yaml): Indianapolis. John J. Barton (D) mayor over Clarence Drayer (R), 68,316 to 63,091, 48.1 percent; an independen
+  - ? Gary: Gary, Raymond (K–J Cong. III.F)
+  - Martin: Martin, John Bartlow (K–J Adm. III.E); Martin, William McChesney, Jr. (K–J Adm. III.H); Martin, James D. (Opp. III.I); Martin, Graham A. (Viet. III.C)
+- `cal.1963-11-10.black-nationalism-detroit` (Nov. 10, XLVIII nov63.yaml): Detroit. Malcolm X, "Message to the Grass Roots," at the Northern Negro Grass Roots Leadership Conference, Kin
+  - ? King: King, Cecil R. (K–J Cong. III.D); King, John W. (K–J Cong. III.F); King, Marion (K–J Cong. III.H); King, Martin Luther, Jr. (K–J Cong. III.H, Viet. III.E); King, Coretta Scott (K–J Cong. III.K); King, Edwin (K–J Cong. III.K); King, Martin Luther, Sr. (K–J Cong. III.K); King, Tom (K–J Cong. III.K)
+  - ? Church: Church, Frank (K–J Cong. III.B, Cong. III.B, Viet. III.E)
 - `cal.1963-11-13.opinion` (Nov. 13, XLVIII nov63.yaml): Gallup, Oct. 11–16: each State to decide for itself about integration, 43 percent; not, 48. The South, 64 for 
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1963-11-15.opinion` (Nov. 15, XLVIII nov63.yaml): Gallup, Oct. 11–16: would vote for a qualified woman nominated for President by their party, 55 percent; would
@@ -592,8 +762,15 @@ the person; several mean the surname is shared). "?" marks a surname that is als
 - `cal.1963-11-20.opinion` (Nov. 20, XLVIII nov63.yaml): Gallup, Oct. 11–16: the Kennedy administration pushing integration too fast, 46 percent; not fast enough, 12; 
   - Gallup: Gallup, George H. (K–J Cong. III.J)
   - Kennedy: Kennedy, Jacqueline (K–J Adm. III.A); Kennedy, Joseph P. (K–J Adm. III.A); Kennedy, Robert F. (K–J Adm. III.A, K–J Cong. III.B, 1968 III.K); Kennedy, Edward M. (K–J Cong. III.B, 1968 III.K, 1968 III.P, Cong. III.A); Kennedy, John F. (Viet. III.A)
-- `cal.1963-12-01.black-nationalism` (Dec. 1–4, XLIX dec63.yaml): Malcolm X, speaking for Elijah Muhammad at the Manhattan Center, asked about Kennedy's murder: "chickens comin
-  - Kennedy: Kennedy, Jacqueline (K–J Adm. III.A); Kennedy, Joseph P. (K–J Adm. III.A); Kennedy, Robert F. (K–J Adm. III.A, K–J Cong. III.B, 1968 III.K); Kennedy, Edward M. (K–J Cong. III.B, 1968 III.K, 1968 III.P, Cong. III.A); Kennedy, John F. (Viet. III.A)
+- `cal.1963-11-22.succession` (Nov. 22, XLVIII nov63.yaml): Johnson sworn in aboard Air Force One at Love Field, 2:38 p.m., by Judge Sarah Hughes, Mrs. Kennedy beside him
+  - ? Love: Love, John A. (Opp. III.H)
+  - Andrews: Andrews, Lloyd J. (K–J Cong. III.K); Andrews, Mark (K–J Cong. III.K); Andrews, Arthur G. (Opp. III.D)
+- `cal.1963-11.mayors-houston` (Nov., XLVIII nov63.yaml): Houston. Mayor Cutrer third in the election for mayor, after a rise in water rates; Louie Welch, a former coun
+  - ? Houston: Houston, Lawrence (K–J Cong. III.K)
+- `cal.1963-12-03.legislatures-ia` (Dec. 3, XLIX dec63.yaml): Iowa rejects the Shaff plan, 272,382 to 190,424, at a special election: a Senate of 58 by population, a House 
+  - McManus: McManus, Edward J. (K–J Cong. III.K)
+- `cal.1963-12-05.legislatures-ks` (Dec. 5, XLIX dec63.yaml): Kansas Supreme Court, *Harris v. Shanahan*: the Senate apportionment of 1963 (Senate Bill 440) and the House's
+  - Harris: Harris, Oren (K–J Cong. III.D); Harris, Louis (K–J Cong. III.J); Harris, Fred R. (1968 III.I)
 - `cal.1963-12-06.opinion` (Dec. 6, XLIX dec63.yaml): Gallup, Nov. 22–27: the man who shot Kennedy acted on his own, 29 percent; some group or element also responsi
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1963-12-08.opinion` (Dec. 8, XLIX dec63.yaml): Gallup, Oct. 11–16: the Kennedy administration's record on spending, of those with an opinion, 35 percent favo
@@ -611,6 +788,8 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1963-12-20.opinion-5` (Dec. 20, XLIX dec63.yaml): Gallup, Dec. 12–17, Catholics: Johnson 91, Goldwater 6, undecided, others 3.
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1963-12-21.europe-and-the-alliance` (Dec. 21–28, XLIX dec63.yaml): Cyprus. Greek Cypriot police and Turkish Cypriots clash in Nicosia, Dec. 21; five dead, the fighting spreads. 
+  - High: High, Robert King (K–J Cong. III.F)
 - `cal.1964-01-01.opinion-5` (Jan. 1, L jan64.yaml): Gallup, Dec. 12–17: Johnson 75, Goldwater 20, undecided, other 5; Johnson 69, Nixon 24, undecided, other 7.
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1964-01-05.opinion-5` (Jan. 5, L jan64.yaml): Gallup, Nov. 22–27: Republicans' choice for 1964: Nixon 29, Goldwater 23, Lodge 19, Rockefeller 12, Romney 8, 
@@ -619,10 +798,23 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1964-01-07.opinion-5` (Jan. 7, L jan64.yaml): Gallup, Jan. 2–7, released Jan. 22, 1964: Johnson 75, Goldwater 18; Johnson 68, Lodge 25; Johnson 71, Nixon 24
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-01-09.latin-america` (Jan. 9–16, L jan64.yaml): Panama. Jan. 9, Panamanian students carry their flag to Balboa High School in the Canal Zone, where Zone stude
+  - High: High, Robert King (K–J Cong. III.F)
+- `cal.1964-01-13.middle-east` (Jan. 13–17, L jan64.yaml): The Arab kings and presidents at Cairo, at Nasser's call. To divert the Jordan's sources in Syria and Lebanon 
+  - Jordan: Jordan, Barbara (Cong. III.E, Wg. III.G)
 - `cal.1964-01-17.opinion` (Jan. 17, L jan64.yaml): Gallup, Jan. 2–7: what Congress should do when it meets. Tax reduction first; civil rights second; medical car
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1964-01-19.opinion` (Jan. 19, L jan64.yaml): Gallup, Jan. 2–7: Democrats' choice for Vice President: Robert Kennedy 34, Stevenson 26, Humphrey 14, Shriver 
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-01-21.testing` (Jan. 21, L jan64.yaml): Geneva. The Eighteen-Nation Disarmament Committee resumes; Foster reads Johnson's message. Five proposals: no 
+  - Nation: Nation, Bill (K–J Cong. III.K)
+- `cal.1964-01-21.mississippi-ms` (Jan. 21, L jan64.yaml): Paul Johnson inaugurated at Jackson: "Hate, or prejudice, or ignorance, will not lead Mississippi while I sit 
+  - ? Jackson: Jackson, Henry M. (K–J Cong. III.B, Cong. III.B); Jackson, Jimmie Lee (K–J Cong. III.K)
+- `cal.1964-01-22.mississippi-hattiesburg` (Jan. 22, L jan64.yaml): Hattiesburg. Freedom Day: Negro applicants line up at the Forrest County courthouse to register before the cir
+  - ? Day: Day, J. Edward (K–J Adm. III.G); Day, William S. (K–J Cong. III.K)
+- `cal.1964-01-30.desegregation-schools-cleveland` (Jan. 30, L jan64.yaml): Cleveland. The United Freedom Movement, some sixty Negro organizations formed in June 1963, against the school
+  - Murray: Murray, William G. (K–J Cong. III.K)
+  - ? Hill: Hill, Lister (K–J Cong. III.B)
 - `cal.1964-01-31.opinion` (Jan. 31, L jan64.yaml): Gallup, Jan. 2–7: 53 percent have followed the discussion of presidential succession. Of them, the Secretary o
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1964-02-02.cuba` (Feb. 2–7, LI feb64.yaml): Guantanamo. Feb. 2, the Coast Guard takes four Cuban fishing boats inside American waters off the Dry Tortugas
@@ -630,7 +822,8 @@ the person; several mean the surname is shared). "?" marks a surname that is als
 - `cal.1964-02-02.opinion` (Feb. 2, LI feb64.yaml): Gallup, Jan. 2–7: a law giving all persons, Negro and white, the right to be served in hotels, restaurants, th
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1964-02-03.alabama` (Feb. 3–18, LI feb64.yaml): Tuskegee. On the State Board of Education's order, Wallace its president ex officio, Tuskegee High closed abov
-  - ? Black: Black, Hugo L. (K–J Cong. III.G)
+  - High: High, Robert King (K–J Cong. III.F)
+  - ? Black: Black, Eugene R. (K–J Adm. III.E); Black, Hugo L. (K–J Cong. III.G)
 - `cal.1964-02-10.medicare` (Feb. 10, LI feb64.yaml): Health message. Hospital insurance for everyone 65 and over through Social Security: a quarter of one percent 
   - ? Hill: Hill, Lister (K–J Cong. III.B)
   - Burton: Burton, Phillip (Cong. III.E)
@@ -640,83 +833,168 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1964-02-17.court` (Feb. 17, LI feb64.yaml): *Wesberry v. Sanders*, [376 U.S. 1](https://tile.loc.gov/storage-services/service/ll/usrep/usrep376/usrep37600
   - Sanders: Sanders, Carl E. (K–J Cong. III.K)
+  - ? Clark: Clark, Ramsey (K–J Adm. III.I); Clark, Joseph S. (K–J Cong. III.B); Clark, Tom C. (K–J Cong. III.G); Clark, James G., Jr. (K–J Cong. III.K); Clark, Newman H. (K–J Cong. III.K)
+- `cal.1964-02-17.legislatures-ny` (Feb. 17, LI feb64.yaml): *Wright v. Rockefeller*, [376 U.S. 52](https://tile.loc.gov/storage-services/service/ll/usrep/usrep376/usrep37
+  - Wright: Wright, Jim (K–J Cong. III.D); Wright, J. Skelly (K–J Cong. III.G); Wright, Charles Alan (Wg. III.D)
+  - Rockefeller: Rockefeller, Laurance S. (K–J Cong. III.K); Rockefeller, Margaretta Fitler (K–J Cong. III.K); Rockefeller, Nelson A. (Opp. III.H, Cong. III.H); Rockefeller, Winthrop (Opp. III.H); Rockefeller, Nelson (1968 III.M)
+  - ? Black: Black, Eugene R. (K–J Adm. III.E); Black, Hugo L. (K–J Cong. III.G)
+  - Douglas: Douglas, Paul H. (K–J Cong. III.B); Douglas, William O. (K–J Cong. III.G, Cong. III.J)
+  - Goldberg: Goldberg, Arthur J. (K–J Adm. III.E, K–J Adm. III.G, K–J Cong. III.G)
 - `cal.1964-02-19.opinion` (Feb. 19, LI feb64.yaml): Gallup, Jan. 30–Feb. 5: the convention's choice between Goldwater and Rockefeller: Rockefeller 49, Goldwater 3
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-02-20.court` (Feb. 20, LI feb64.yaml): New Orleans. A three-judge court, Ellis writing with West, Wisdom dissenting, dismisses the Southern Conferenc
+  - West: West, Ben (K–J Cong. III.K); West, E. Gordon (K–J Cong. III.K)
 - `cal.1964-02-23.opinion` (Feb. 23, LI feb64.yaml): Gallup, Jan. 30–Feb. 2: Johnson's handling of problems at home, 70 percent approve, 12 disapprove; of foreign 
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1964-02-26.opinion` (Feb. 26, LI feb64.yaml): Gallup, Jan. 30–Feb. 2: the Johnson administration pushing integration too fast, 30 percent; not fast enough, 
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-02-26.desegregation-schools-boston` (Feb. 26, LI feb64.yaml): Boston. The second Freedom Stay-Out: nearly 20,000 pupils absent, over 10,000 at some forty Freedom Schools, b
+  - ? Hall: Hall, Dave (K–J Cong. III.F); Hall, David (K–J Cong. III.F)
 - `cal.1964-02-29.robert-kennedy` (Feb. 29–May 14, LI feb64.yaml): Robert Kennedy recorded for the Kennedy Library's oral history by John Bartlow Martin: Feb. 29 and Mar. 1, Apr
-  - Martin: Martin, William McChesney, Jr. (K–J Adm. III.H); Martin, James D. (Opp. III.I); Martin, Graham A. (Viet. III.C)
-  - Lewis: Lewis, John (K–J Cong. III.H)
-  - Burke: Burke, Arleigh A. (K–J Adm. III.F)
+  - Burke: Burke, Arleigh A. (K–J Adm. III.F); Burke, Joe (K–J Cong. III.K)
+- `cal.1964-03-02.legislatures-tx` (Mar. 2, LII mar64.yaml): *Martin v. Bush*, [376 U.S. 222](https://tile.loc.gov/storage-services/service/ll/usrep/usrep376/usrep376222/u
+  - Martin: Martin, John Bartlow (K–J Adm. III.E); Martin, William McChesney, Jr. (K–J Adm. III.H); Martin, James D. (Opp. III.I); Martin, Graham A. (Viet. III.C)
 - `cal.1964-03-04.opinion` (Mar. 4, LII mar64.yaml): Gallup, Jan. 30–Feb. 4: the party to keep the country prosperous: Democratic 48 percent, Republican 20, no dif
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1964-03-06.voting-rights` (Mar. 6, LII mar64.yaml): Jackson. A three-judge court dismisses the Government's suit against Mississippi's registration laws: the test
   - ? Jackson: Jackson, Henry M. (K–J Cong. III.B, Cong. III.B); Jackson, Jimmie Lee (K–J Cong. III.K)
+  - ? Cox: Cox, Jack (K–J Cong. III.F); Cox, Archibald (K–J Cong. III.G, Wg. III.E); Cox, W. Harold (K–J Cong. III.G); Cox, Tricia Nixon (Adm. III.A)
+  - ? Brown: Brown, Winthrop G. (K–J Adm. III.E); Brown, Edmund G. (K–J Cong. III.F); Brown, John R. (K–J Cong. III.K); Brown, Clarence J. (Opp. III.D); Brown, Clarence J., Jr. (Opp. III.D); Brown, Sam (Cong. III.K)
 - `cal.1964-03-08.black-nationalism` (Mar. 8–12, LII mar64.yaml): Malcolm X leaves the Nation of Islam. Mar. 12, at the Park Sheraton: his own Muslim Mosque, Inc., in Harlem; r
-  - ? Black: Black, Hugo L. (K–J Cong. III.G)
+  - Nation: Nation, Bill (K–J Cong. III.K)
+  - ? Black: Black, Eugene R. (K–J Adm. III.E); Black, Hugo L. (K–J Cong. III.G)
 - `cal.1964-03-09.court` (Mar. 9, LII mar64.yaml): *New York Times Co. v. Sullivan*, [376 U.S. 254](https://tile.loc.gov/storage-services/service/ll/usrep/usrep3
-  - Sullivan: Sullivan, William C. (K–J Adm. III.I, Adm. III.H); Sullivan, Neil V. (K–J Cong. III.K)
+  - Sullivan: Sullivan, William C. (K–J Adm. III.I, Adm. III.H); Sullivan, Charles L. (K–J Cong. III.K); Sullivan, Neil V. (K–J Cong. III.K); Sullivan, Raymond F. (K–J Cong. III.K); Sullivan, William H. (Viet. III.A)
+  - ? Black: Black, Eugene R. (K–J Adm. III.E); Black, Hugo L. (K–J Cong. III.G)
+  - Douglas: Douglas, Paul H. (K–J Cong. III.B); Douglas, William O. (K–J Cong. III.G, Cong. III.J)
+  - Goldberg: Goldberg, Arthur J. (K–J Adm. III.E, K–J Adm. III.G, K–J Cong. III.G)
+- `cal.1964-03-14.states-and-cities-san-francisco` (Mar. 14–Apr. 17, LII mar64.yaml): San Francisco, Auto Row on Van Ness Avenue: 107 arrested at the Cadillac agency, Mar. 14; 226 in the sit-ins o
+  - ? Lincoln: Lincoln, Evelyn (K–J Adm. III.B)
 - `cal.1964-03-22.opinion` (Mar. 22, LII mar64.yaml): Gallup, Feb. 28–Mar. 5: more often to blame if a person is poor: lack of effort 33 percent, circumstances 29, 
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1964-03-25.opinion` (Mar. 25, LII mar64.yaml): Gallup, Feb. 28–Mar. 5: 54 percent can say what a filibuster is. Of them, a simple majority to end debate in p
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1964-03-29.opinion` (Mar. 29, LII mar64.yaml): Gallup, special survey of Republican county chairmen, their own choice for the nomination: Goldwater 878, Nixo
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-03-31.desegregation-public-places-fl` (Mar. 31, LII mar64.yaml): St. Augustine, Fla. Mrs. Malcolm Peabody, 72, mother of Governor Peabody of Massachusetts, arrested with an in
+  - ? Lodge: Lodge, Henry Cabot (K–J Adm. III.E, Viet. III.C); Lodge, George C. (K–J Cong. III.K)
 - `cal.1964-04-03.black-nationalism` (Apr. 3–12, LIII apr64.yaml): "The Ballot or the Bullet," Malcolm X at Cory Methodist Church, Cleveland, under CORE's auspices: register and
   - ? Church: Church, Frank (K–J Cong. III.B, Cong. III.B, Viet. III.E)
 - `cal.1964-04-05.opinion` (Apr. 5, LIII apr64.yaml): Gallup, Mar. 13–17: Republicans' choice for 1964: Lodge 42, Nixon 26, Goldwater 14, Rockefeller 6, Scranton 4,
   - Gallup: Gallup, George H. (K–J Cong. III.J)
-- `cal.1964-04-07.elections-1964` (Apr. 7, LIII apr64.yaml): Wisconsin primary. Republican: Byrnes 99.7 percent, unpledged delegates 0.3. Democratic: Reynolds 66.2 percent
-  - Reynolds: Reynolds, Don B. (K–J Cong. III.K)
+- `cal.1964-04-06.mississippi` (Apr. 6, LIII apr64.yaml): *United States v. Barnett*, [376 U.S. 681](https://tile.loc.gov/storage-services/service/ll/usrep/usrep376/usr
+  - ? Clark: Clark, Ramsey (K–J Adm. III.I); Clark, Joseph S. (K–J Cong. III.B); Clark, Tom C. (K–J Cong. III.G); Clark, James G., Jr. (K–J Cong. III.K); Clark, Newman H. (K–J Cong. III.K)
+  - ? Black: Black, Eugene R. (K–J Adm. III.E); Black, Hugo L. (K–J Cong. III.G)
+  - Douglas: Douglas, Paul H. (K–J Cong. III.B); Douglas, William O. (K–J Cong. III.G, Cong. III.J)
+  - Goldberg: Goldberg, Arthur J. (K–J Adm. III.E, K–J Adm. III.G, K–J Cong. III.G)
+  - Warren: Warren, Earl (K–J Cong. III.G, Cong. III.J)
+- `cal.1964-04-07.desegregation-schools-cleveland` (Apr. 7–20, LIII apr64.yaml): Cleveland. The Reverend Bruce Klunder, of the United Freedom Movement and CORE, crushed by a backing bulldozer
+  - Bruce: Bruce, David K. E. (K–J Adm. III.E)
 - `cal.1964-04-10.opinion` (Apr. 10, LIII apr64.yaml): Gallup, special survey of 1,935 Republican county chairmen, the strongest argument against the Democrats: a we
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1964-04-12.opinion` (Apr. 12, LIII apr64.yaml): Gallup, Mar. 27–Apr. 1, Democrats' choice for Vice President: Robert Kennedy 47, Stevenson 18, Humphrey 10, Sh
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-04-14.governors-il` (Apr. 14, LIII apr64.yaml): Illinois, Republican primary for governor. Percy, president of Bell & Howell, 626,111, 60.3 percent; William J
+  - ? Bell: Bell, David E. (K–J Adm. III.H); Bell, Griffin B. (K–J Cong. III.G)
+- `cal.1964-04-14.middle-east` (Apr. 14–15, LIII apr64.yaml): Hussein at the White House. To Rusk: will the United States sell Jordan arms, paid for by the new Arab command
+  - Jordan: Jordan, Barbara (Cong. III.E, Wg. III.G)
 - `cal.1964-04-17.mississippi` (Apr. 17, LIII apr64.yaml): Jackson. The second all-white jury in Beckwith's trial for Evers's murder cannot agree; mistrial. Beckwith out
   - ? Jackson: Jackson, Henry M. (K–J Cong. III.B, Cong. III.B); Jackson, Jimmie Lee (K–J Cong. III.K)
+- `cal.1964-04-24.africa` (Apr. 24, LIII apr64.yaml): NSAM 295, on South Africa: its carrying out of the Odendaal report in South West Africa to be delayed, if poss
+  - West: West, Ben (K–J Cong. III.K); West, E. Gordon (K–J Cong. III.K)
 - `cal.1964-04-26.civil-rights-organizations` (Apr. 26, LIII apr64.yaml): Jackson. A COFO meeting founds the Mississippi Freedom Democratic Party, open to all, and elects a temporary S
   - ? Jackson: Jackson, Henry M. (K–J Cong. III.B, Cong. III.B); Jackson, Jimmie Lee (K–J Cong. III.K)
 - `cal.1964-04-29.opinion` (Apr. 29, LIII apr64.yaml): Gallup, Mar. 27–Apr. 1, Negro voters: Johnson 87, Lodge 7, undecided 6.
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-05-02.governors-tx` (May 2, LIV may64.yaml): Texas primaries. Democratic, for governor: Connally 69.1 percent, Don Yarborough 28.9. For Senator: U.S. Senat
+  - Gordon: Gordon, Lincoln (K–J Adm. III.E); Gordon, Kermit (K–J Adm. III.H)
+  - ? Jack: Jack, William M. (K–J Cong. III.K)
 - `cal.1964-05-04.trade` (May 4, LIV may64.yaml): The Kennedy Round opens at Geneva, the GATT's Trade Negotiations Committee meeting at ministerial level in the
   - Kennedy: Kennedy, Jacqueline (K–J Adm. III.A); Kennedy, Joseph P. (K–J Adm. III.A); Kennedy, Robert F. (K–J Adm. III.A, K–J Cong. III.B, 1968 III.K); Kennedy, Edward M. (K–J Cong. III.B, 1968 III.K, 1968 III.P, Cong. III.A); Kennedy, John F. (Viet. III.A)
-- `cal.1964-05-05.elections-1964` (May 5, LIV may64.yaml): Primaries in the District of Columbia, Indiana and Ohio. Republican: Goldwater in Indiana; Rhodes in Ohio. Dem
-  - Porter: Porter, Carley V. (K–J Cong. III.K)
+- `cal.1964-05-05.elections-1964-ok` (May 5, LIV may64.yaml): Oklahoma primaries for the rest of Kerr's term. Democratic: U.S. Senator Edmondson 36.4 percent, State Senator
+  - Kerr: Kerr, Robert S. (K–J Cong. III.B); Kerr, Clark (K–J Cong. III.K)
 - `cal.1964-05-12.elections-1964` (May 12, LIV may64.yaml): Primaries in Nebraska and West Virginia. Republican: Goldwater in Nebraska; Rockefeller in West Virginia. Demo
+  - West: West, Ben (K–J Cong. III.K); West, E. Gordon (K–J Cong. III.K)
+- `cal.1964-05-12.governors-wv` (May 12, LIV may64.yaml): West Virginia primaries for governor. Democratic: Hulett Smith, the former State chairman, 53.3 percent over t
   - West: West, Ben (K–J Cong. III.K); West, E. Gordon (K–J Cong. III.K)
 - `cal.1964-05-13.opinion` (May 13, LIV may64.yaml): Gallup, Apr. 24–29: the Democratic convention's choice between Johnson and Wallace: Johnson 84, Wallace 9, und
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-05-16.peace-corps` (May 16, LIV may64.yaml): Johnson to a group of volunteers at the White House, Shriver with them. Twenty-three nations want Peace Corps 
+  - West: West, Ben (K–J Cong. III.K); West, E. Gordon (K–J Cong. III.K)
 - `cal.1964-05-20.opinion` (May 20, LIV may64.yaml): Gallup, Apr. 24–29: the most important problem: racial 41 percent; international, Russia, the threat of war, 4
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1964-05-24.opinion` (May 24, LIV may64.yaml): Gallup, Apr. 24–29: Johnson's handling of civil rights, 57 percent approve, 21 disapprove. Southern whites 36 
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1964-05-25.court` (May 25, LIV may64.yaml): *Griffin v. County School Board of Prince Edward County*, [377 U.S. 218](https://tile.loc.gov/storage-services
-  - Griffin: Griffin, Robert P. (Opp. III.B, Cong. III.A)
+  - Griffin: Griffin, Marvin (K–J Cong. III.F); Griffin, Robert P. (Opp. III.B, Cong. III.A)
+  - ? Clark: Clark, Ramsey (K–J Adm. III.I); Clark, Joseph S. (K–J Cong. III.B); Clark, Tom C. (K–J Cong. III.G); Clark, James G., Jr. (K–J Cong. III.K); Clark, Newman H. (K–J Cong. III.K)
 - `cal.1964-05-27.opinion` (May 27, LIV may64.yaml): Gallup, Apr. 24–29: 37 percent have given attention to South Vietnam. Of them, the United States handling it a
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1964-05-31.opinion` (May 31, LIV may64.yaml): Gallup, Apr. 24–29: Democrats' choice for Vice President: Robert Kennedy 41, Stevenson 26, Humphrey 11, Brown 
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1964-06-01.court` (June 1, LV jun64.yaml): *NAACP v. Alabama ex rel. Flowers*, [377 U.S. 288](https://tile.loc.gov/storage-services/service/ll/usrep/usre
-  - Flowers: Flowers, Walter (Wg. III.G)
+  - Flowers: Flowers, Richmond M. (K–J Cong. III.K); Flowers, Walter (Wg. III.G)
+- `cal.1964-06-01.antisubversion-wa` (June 1, LV jun64.yaml): *Baggett v. Bullitt*, [377 U.S. 360](https://tile.loc.gov/storage-services/service/ll/usrep/usrep377/usrep3773
+  - ? White: White, Lee C. (K–J Adm. III.B); White, Lincoln P. (K–J Adm. III.E); White, Byron R. (K–J Adm. III.I, K–J Cong. III.G); White, Edward H., II (K–J Cong. III.K); White, F. Clifton (Opp. III.F); White, Theodore H. (Opp. III.J, 1968 III.O)
+  - ? Clark: Clark, Ramsey (K–J Adm. III.I); Clark, Joseph S. (K–J Cong. III.B); Clark, Tom C. (K–J Cong. III.G); Clark, James G., Jr. (K–J Cong. III.K); Clark, Newman H. (K–J Cong. III.K)
+- `cal.1964-06-06.elections-1964-tx` (June 6, LV jun64.yaml): Texas Republican runoff for Senator: George Bush 49,751, 62.1 percent; Jack Cox 30,333.
+  - ? Jack: Jack, William M. (K–J Cong. III.K)
 - `cal.1964-06-07.opinion` (June 7, LV jun64.yaml): Gallup, May 22–27: mass demonstrations by Negroes will hurt the cause of racial equality, 74 percent; help it,
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-06-09.governors-in` (June 9–12, LV jun64.yaml): Indiana's conventions name the candidates for governor. Republican, June 9: Lieutenant Governor Ristine, who b
+  - ? Marshall: Marshall, Burke (K–J Adm. III.I); Marshall, Thurgood (K–J Cong. III.G); Marshall, Edward G. (K–J Cong. III.K); Marshall, Edward M. (K–J Cong. III.K)
 - `cal.1964-06-10.opinion` (June 10, LV jun64.yaml): Gallup, May 22–27: of two candidates of one's own party, alike but for civil rights, the one for civil rights,
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-06-11.robert-kennedy` (June 11, LV jun64.yaml): Robert Kennedy to Johnson: "if you wished me to go to Viet Nam in any capacity I would be glad to do so." John
+  - Terry: Terry, Luther L. (K–J Adm. III.G)
+- `cal.1964-06-11.desegregation-public-places-fl` (June 11–18, LV jun64.yaml): St. Augustine. King arrested on the steps of the Monson Motor Lodge's restaurant, June 11. June 18: seventeen 
+  - ? Lodge: Lodge, Henry Cabot (K–J Adm. III.E, Viet. III.C); Lodge, George C. (K–J Cong. III.K)
+- `cal.1964-06-12.europe-and-the-alliance` (June 12, LV jun64.yaml): Erhard in Washington, with Schröder. Joint statement: the multilateral force "a significant addition" to the a
+  - Kennedy: Kennedy, Jacqueline (K–J Adm. III.A); Kennedy, Joseph P. (K–J Adm. III.A); Kennedy, Robert F. (K–J Adm. III.A, K–J Cong. III.B, 1968 III.K); Kennedy, Edward M. (K–J Cong. III.B, 1968 III.K, 1968 III.P, Cong. III.A); Kennedy, John F. (Viet. III.A)
 - `cal.1964-06-15.court` (June 15, LV jun64.yaml): *Reynolds v. Sims*, [377 U.S. 533](https://tile.loc.gov/storage-services/service/ll/usrep/usrep377/usrep377533
-  - Reynolds: Reynolds, Don B. (K–J Cong. III.K)
+  - Reynolds: Reynolds, John W., Jr. (K–J Cong. III.F); Reynolds, Walter H. (K–J Cong. III.F); Reynolds, Don B. (K–J Cong. III.K)
   - Sims: Sims, Joseph Howard (K–J Cong. III.K)
+  - ? Clark: Clark, Ramsey (K–J Adm. III.I); Clark, Joseph S. (K–J Cong. III.B); Clark, Tom C. (K–J Cong. III.G); Clark, James G., Jr. (K–J Cong. III.K); Clark, Newman H. (K–J Cong. III.K)
 - `cal.1964-06-18.desegregation-schools` (June 18, LV jun64.yaml): Fifth Circuit, on the Birmingham and Mobile school plans: desegregation to proceed "at a swifter pace," ten ye
-  - ? Brown: Brown, Edmund G. (K–J Cong. III.F); Brown, John R. (K–J Cong. III.K); Brown, Sam (Cong. III.K)
-  - ? Bell: Bell, David E. (K–J Adm. III.H)
+  - ? Brown: Brown, Winthrop G. (K–J Adm. III.E); Brown, Edmund G. (K–J Cong. III.F); Brown, John R. (K–J Cong. III.K); Brown, Clarence J. (Opp. III.D); Brown, Clarence J., Jr. (Opp. III.D); Brown, Sam (Cong. III.K)
 - `cal.1964-06-19.congress` (June 19, LV jun64.yaml): Edward Kennedy's chartered plane, taking him and Bayh from the vote to the Massachusetts Democratic convention
   - West: West, Ben (K–J Cong. III.K); West, E. Gordon (K–J Cong. III.K)
   - ? Moss: Moss, John E. (K–J Cong. III.D)
 - `cal.1964-06-21.opinion` (June 21, LV jun64.yaml): Gallup, June 4–9: Republicans' choice for 1964: Lodge 26, Nixon 25, Goldwater 21, Rockefeller 10, Scranton 9, 
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1964-06-22.court` (June 22, LV jun64.yaml): The Term's last day. *Bell v. Maryland*, [378 U.S. 226](https://tile.loc.gov/storage-services/service/ll/usrep
-  - ? Bell: Bell, David E. (K–J Adm. III.H)
+  - ? Bell: Bell, David E. (K–J Adm. III.H); Bell, Griffin B. (K–J Cong. III.G)
+  - Brennan: Brennan, William J., Jr. (K–J Cong. III.G); Brennan, Peter J. (Adm. III.F)
+  - ? Black: Black, Eugene R. (K–J Adm. III.E); Black, Hugo L. (K–J Cong. III.G)
+  - ? White: White, Lee C. (K–J Adm. III.B); White, Lincoln P. (K–J Adm. III.E); White, Byron R. (K–J Adm. III.I, K–J Cong. III.G); White, Edward H., II (K–J Cong. III.K); White, F. Clifton (Opp. III.F); White, Theodore H. (Opp. III.J, 1968 III.O)
+  - Douglas: Douglas, Paul H. (K–J Cong. III.B); Douglas, William O. (K–J Cong. III.G, Cong. III.J)
+  - Goldberg: Goldberg, Arthur J. (K–J Adm. III.E, K–J Adm. III.G, K–J Cong. III.G)
+  - Warren: Warren, Earl (K–J Cong. III.G, Cong. III.J)
+- `cal.1964-06-22.legislatures-fl` (June 22, LV jun64.yaml): *Swann v. Adams*, [378 U.S. 553](https://tile.loc.gov/storage-services/service/ll/usrep/usrep378/usrep378553/u
+  - Adams: Adams, Paul L. (K–J Cong. III.K); Adams, Thomas Boylston (K–J Cong. III.K); Adams, Eddie (Viet. III.F)
+  - Reynolds: Reynolds, John W., Jr. (K–J Cong. III.F); Reynolds, Walter H. (K–J Cong. III.F); Reynolds, Don B. (K–J Cong. III.K)
+  - Sims: Sims, Joseph Howard (K–J Cong. III.K)
+- `cal.1964-06-22.legislatures-il` (June 22, LV jun64.yaml): *Germano v. Kerner*, [378 U.S. 560](https://tile.loc.gov/storage-services/service/ll/usrep/usrep378/usrep37856
+  - Reynolds: Reynolds, John W., Jr. (K–J Cong. III.F); Reynolds, Walter H. (K–J Cong. III.F); Reynolds, Don B. (K–J Cong. III.K)
+  - Sims: Sims, Joseph Howard (K–J Cong. III.K)
+- `cal.1964-06-22.legislatures-mi` (June 22, LV jun64.yaml): Michigan Supreme Court, after *Reynolds v. Sims*: the Austin–Kleiner plan, the Democratic commissioners' distr
+  - Reynolds: Reynolds, John W., Jr. (K–J Cong. III.F); Reynolds, Walter H. (K–J Cong. III.F); Reynolds, Don B. (K–J Cong. III.K)
+  - Sims: Sims, Joseph Howard (K–J Cong. III.K)
+  - Hannah: Hannah, John A. (K–J Adm. III.G)
+- `cal.1964-06-22.legislatures-oh` (June 22, LV jun64.yaml): *Nolan v. Rhodes*, [378 U.S. 556](https://tile.loc.gov/storage-services/service/ll/usrep/usrep378/usrep378556/
+  - Reynolds: Reynolds, John W., Jr. (K–J Cong. III.F); Reynolds, Walter H. (K–J Cong. III.F); Reynolds, Don B. (K–J Cong. III.K)
+  - Sims: Sims, Joseph Howard (K–J Cong. III.K)
+- `cal.1964-06-22.legislatures-ok` (June 22, LV jun64.yaml): *Williams v. Moss*, [378 U.S. 558](https://tile.loc.gov/storage-services/service/ll/usrep/usrep378/usrep378558
+  - Williams: Williams, G. Mennen (K–J Adm. III.E); Williams, John B. (K–J Cong. III.D); Williams, Jack (K–J Cong. III.F); Williams, Gene Hal (K–J Cong. III.K); Williams, Hosea (K–J Cong. III.K); Williams, John J. (Opp. III.B)
+  - ? Moss: Moss, John E. (K–J Cong. III.D)
+  - Reynolds: Reynolds, John W., Jr. (K–J Cong. III.F); Reynolds, Walter H. (K–J Cong. III.F); Reynolds, Don B. (K–J Cong. III.K)
+  - Sims: Sims, Joseph Howard (K–J Cong. III.K)
+- `cal.1964-06-22.legislatures-wa` (June 22, LV jun64.yaml): *Meyers v. Thigpen*, [378 U.S. 554](https://tile.loc.gov/storage-services/service/ll/usrep/usrep378/usrep37855
+  - Reynolds: Reynolds, John W., Jr. (K–J Cong. III.F); Reynolds, Walter H. (K–J Cong. III.F); Reynolds, Don B. (K–J Cong. III.K)
+  - Sims: Sims, Joseph Howard (K–J Cong. III.K)
+- `cal.1964-06-22.legislatures-ct` (June 22, LV jun64.yaml): *Pinney v. Butterworth*, [378 U.S. 564](https://tile.loc.gov/storage-services/service/ll/usrep/usrep378/usrep3
+  - Reynolds: Reynolds, John W., Jr. (K–J Cong. III.F); Reynolds, Walter H. (K–J Cong. III.F); Reynolds, Don B. (K–J Cong. III.K)
+  - Sims: Sims, Joseph Howard (K–J Cong. III.K)
 - `cal.1964-06-24.opinion` (June 24, LV jun64.yaml): Gallup, special survey of 1,671 Democratic county chairmen, their choice for Vice President: Humphrey 484, Rob
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1964-06-26.robert-kennedy` (June 26–July 1, LV jun64.yaml): Robert Kennedy in West Berlin: the President John F. Kennedy Lecture at the Free University; a plaque unveiled
@@ -725,23 +1003,28 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1964-07-01.opinion` (July 1, LVI jul64.yaml): Gallup, June 11–16: Johnson 77, Goldwater 18; Johnson 70, Nixon 27; Johnson 69, Scranton 26. Undecided 5, 3, 5
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-07-03.civil-rights-bill` (July 3, LVI jul64.yaml): Title II tested in Atlanta. Maddox, pistol in hand, turns three Negro divinity students away from his Pickrick
+  - Tuttle: Tuttle, Elbert P. (K–J Cong. III.G)
 - `cal.1964-07-04.alabama` (July 4–9, LVI jul64.yaml): Selma tests the Civil Rights Act. July 4, four students arrested at the Thirsty Boy drive-in, Sheriff Clark us
-  - ? Black: Black, Hugo L. (K–J Cong. III.G)
+  - ? Black: Black, Eugene R. (K–J Adm. III.E); Black, Hugo L. (K–J Cong. III.G)
 - `cal.1964-07-06.desegregation-schools` (July 6, LVI jul64.yaml): Jackson. Mize, in the city's school case, finds that differences between Negro and white pupils justify separa
   - ? Jackson: Jackson, Henry M. (K–J Cong. III.B, Cong. III.B); Jackson, Jimmie Lee (K–J Cong. III.K)
-  - ? Brown: Brown, Edmund G. (K–J Cong. III.F); Brown, John R. (K–J Cong. III.K); Brown, Sam (Cong. III.K)
+  - ? Brown: Brown, Winthrop G. (K–J Adm. III.E); Brown, Edmund G. (K–J Cong. III.F); Brown, John R. (K–J Cong. III.K); Brown, Clarence J. (Opp. III.D); Brown, Clarence J., Jr. (Opp. III.D); Brown, Sam (Cong. III.K)
 - `cal.1964-07-10.mississippi` (July 10, LVI jul64.yaml): Hoover in Jackson to reopen the FBI's field office there, closed since 1946. He calls on Governor Paul Johnson
   - ? Jackson: Jackson, Henry M. (K–J Cong. III.B, Cong. III.B); Jackson, Jimmie Lee (K–J Cong. III.K)
 - `cal.1964-07-13.opinion` (July 13, LVI jul64.yaml): Gallup, June 25–30: Johnson 77, Goldwater 20, undecided 3; the South, Johnson 63, Goldwater 32. With Wallace t
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1964-07-13.alabama` (July 13, LVI jul64.yaml): *Lee v. Macon County Board of Education*. A three-judge court, Judge Johnson sitting, enjoins Wallace as presi
   - Lee: Lee, Richard C. (K–J Cong. III.F); Lee, Herbert (K–J Cong. III.H)
+  - Johnson: Johnson, Lady Bird (K–J Adm. III.A, 1968 III.Q); Johnson, Lynda Bird (K–J Adm. III.A); Johnson, Luci Baines (K–J Adm. III.A); Johnson, Lyndon B. (K–J Adm. III.D, Viet. III.A); Johnson, Harold K. (K–J Adm. III.F); Johnson, Paul B., Jr. (K–J Cong. III.F); Johnson, Frank M., Jr. (K–J Cong. III.G); Johnson, Albert W. (K–J Cong. III.K); Johnson, James D. (K–J Cong. III.K); Johnson, Leroy R. (K–J Cong. III.K); Johnson, Matthew (K–J Cong. III.K); Johnson, N. B. (K–J Cong. III.K); Johnson, Robert H. (K–J Cong. III.K); Johnson, Tom (1968 III.A); Johnson, U. Alexis (Viet. III.C)
 - `cal.1964-07-14.opinion` (July 14, LVI jul64.yaml): Gallup, June 25–30: Republicans' choice for 1964: Goldwater 22, Nixon 22, Lodge 21, Scranton 20, Rockefeller 6
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-07-19.elections-1964` (July 19, LVI jul64.yaml): Wallace, on CBS's *Face the Nation*, withdraws as a candidate for President, four days after Goldwater's nomin
+  - Nation: Nation, Bill (K–J Cong. III.K)
 - `cal.1964-07-29.medicare` (July 29, LVI jul64.yaml): House passes the Social Security amendments under a closed rule, [388–8](https://voteview.com/rollcall/RH08801
   - Means: Means, Russell (Cong. III.K)
 - `cal.1964-07-31.desegregation-schools` (July 31, LVI jul64.yaml): Judge Johnson orders Montgomery County's schools desegregated from September: the 1st, 10th, 11th and 12th gra
-  - Harris: Harris, Louis (K–J Cong. III.J); Harris, Fred R. (1968 III.I)
+  - Harris: Harris, Oren (K–J Cong. III.D); Harris, Louis (K–J Cong. III.J); Harris, Fred R. (1968 III.I)
 - `cal.1964-08-02.vietnam` (Aug. 2–3, LVII aug64.yaml): Gulf of Tonkin. The destroyer Maddox, on a DeSoto patrol off North Vietnam, attacked by three torpedo boats in
   - Maddox: Maddox, Lester (K–J Cong. III.F)
 - `cal.1964-08-04.vietnam` (Aug. 4, LVII aug64.yaml): A second attack reported, at night, on the Maddox and the C. Turner Joy. By early afternoon in Washington, Her
@@ -761,8 +1044,12 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1964-08-19.opinion` (Aug. 19, LVII aug64.yaml): Gallup, July 23–28: the Supreme Court's ruling that both houses of every State legislature be in proportion to
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-08-20.europe-and-the-alliance` (Aug. 20–Sept. 8, LVII aug64.yaml): Cyprus. Acheson's second proposal, Aug. 20: a fifty-year lease of the Karpas peninsula's tip in place of a sov
+  - ? King: King, Cecil R. (K–J Cong. III.D); King, John W. (K–J Cong. III.F); King, Marion (K–J Cong. III.H); King, Martin Luther, Jr. (K–J Cong. III.H, Viet. III.E); King, Coretta Scott (K–J Cong. III.K); King, Edwin (K–J Cong. III.K); King, Martin Luther, Sr. (K–J Cong. III.K); King, Tom (K–J Cong. III.K)
 - `cal.1964-08-23.opinion` (Aug. 23, LVII aug64.yaml): Gallup, Aug. 6–11: Johnson 65, Goldwater 29, undecided 6. Republicans: Goldwater 62, Johnson 27. Independents:
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-08-24.elections-1964` (Aug. 24, LVII aug64.yaml): Democratic National Convention opens, Atlantic City, at Convention Hall. The party's primaries: map and return
+  - ? Hall: Hall, Dave (K–J Cong. III.F); Hall, David (K–J Cong. III.F)
 - `cal.1964-08-26.opinion` (Aug. 26, LVII aug64.yaml): Gallup, Aug. 6–11: the United States handling South Vietnam as well as could be expected, 71 percent; badly, 1
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1964-09-04.latin-america` (Sept. 4, LVIII sep64.yaml): Chile. Frei, the Christian Democrat, elected President with 56 percent; Allende, of the Popular Action Front, 
@@ -770,30 +1057,48 @@ the person; several mean the surname is shared). "?" marks a surname that is als
 - `cal.1964-09-04.opinion` (Sept. 4, LVIII sep64.yaml): Gallup, Aug. 27–Sept. 1: the party more likely to keep the country out of World War III: Democratic 44 percent
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1964-09-07.elections-1964` (Sept. 7, LVIII sep64.yaml): Labor Day. Johnson opens his campaign in Cadillac Square, Detroit: "There is no such thing as a conventional n
-  - ? Day: Day, J. Edward (K–J Adm. III.G)
+  - ? Day: Day, J. Edward (K–J Adm. III.G); Day, William S. (K–J Cong. III.K)
 - `cal.1964-09-18.vietnam` (Sept. 18–19, LVIII sep64.yaml): Gulf of Tonkin, night of Sept. 18. The destroyers Morton and Richard S. Edwards, on patrol, fire on radar cont
   - Morton: Morton, Thruston B. (Opp. III.B)
+  - Edwards: Edwards, Sheffield (K–J Adm. III.I); Edwards, Edwin W. (K–J Cong. III.D); Edwards, William J. (Opp. III.D)
 - `cal.1964-09-18.opinion` (Sept. 18, LVIII sep64.yaml): Gallup, Aug. 27–Sept. 1, by region: East, Johnson 73, Goldwater 21; Midwest, Johnson 69, Goldwater 25; South, 
   - Gallup: Gallup, George H. (K–J Cong. III.J)
   - West: West, Ben (K–J Cong. III.K); West, E. Gordon (K–J Cong. III.K)
+- `cal.1964-09-18.legislatures-va` (Sept. 18, LVIII sep64.yaml): Virginia. On the mandate in *Davis v. Mann*, the three-judge court reaffirms its order of 1962: the terms of t
+  - Davis: Davis, James T. (K–J Adm. III.F); Davis, Ilus W. (K–J Cong. III.F); Davis, Jimmie H. (K–J Cong. III.F); Davis, John E. (Opp. III.H)
+  - Mann: Mann, Thomas C. (K–J Adm. III.E)
 - `cal.1964-09-24.mississippi` (Sept. 24, LVIII sep64.yaml): Oval Office, 1:10 p.m. Johnson, with Lee White, sees three Negro women of McComb whose houses had been bombed,
   - Lee: Lee, Richard C. (K–J Cong. III.F); Lee, Herbert (K–J Cong. III.H)
 - `cal.1964-09-25.opinion` (Sept. 25, LVIII sep64.yaml): Gallup, Aug. 27–Sept. 1, the words to describe each. Johnson: well-qualified 63 percent, experienced 62, intel
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-09.goldwater` (Sept., LVIII sep64.yaml): *Fact*, September–October issue: "The Unconscious of a Conservative: A Special Issue on the Mind of Barry Gold
+  - Barry: Barry, James J. (K–J Cong. III.F); Barry, Marion S., Jr. (K–J Cong. III.K)
 - `cal.1964-10-11.opinion` (Oct. 11, LIX oct64.yaml): Gallup, Sept. 18–23: the most important problem: international, the cold war, 46 percent; racial 35; cost of l
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1964-10-15.soviet-union` (Oct. 15, LIX oct64.yaml): Khrushchev removed, "for reasons of age and health." Called back to Moscow from his Black Sea vacation, Oct. 1
-  - ? Black: Black, Hugo L. (K–J Cong. III.G)
+  - ? Black: Black, Eugene R. (K–J Adm. III.E); Black, Hugo L. (K–J Cong. III.G)
 - `cal.1964-10-20.goldwater` (Oct. 20–22, LIX oct64.yaml): "Choice," a half-hour film for Mothers for Moral America, a unit of Citizens for Goldwater-Miller: riots, prot
-  - Miller: Miller, David J. (K–J Cong. III.K); Miller, William E. (Opp. III.E)
+  - Miller: Miller, Herbert J., Jr. (K–J Adm. III.I); Miller, Clement W. (K–J Cong. III.K); Miller, David J. (K–J Cong. III.K); Miller, Jack R. (Opp. III.B); Miller, William E. (Opp. III.E)
 - `cal.1964-10-20.voting-rights` (Oct. 20, LIX oct64.yaml): Jackson. A three-judge court strikes down Mississippi's act of Apr. 23: a voter exempt from the poll tax by th
   - ? Jackson: Jackson, Henry M. (K–J Cong. III.B, Cong. III.B); Jackson, Jimmie Lee (K–J Cong. III.K)
+- `cal.1964-10-24.vietnam` (Oct. 24, LIX oct64.yaml): Saigon. The High National Council, set up to give the South a civilian government, names Phan Khắc Sửu Chief o
+  - High: High, Robert King (K–J Cong. III.F)
+- `cal.1964-10-26.elections-1964` (Oct. 26, LIX oct64.yaml): Johnson in Georgia and South Carolina. Macon, City Hall, with Sanders, Talmadge and Vinson, Russell absent: "T
+  - ? Hall: Hall, Dave (K–J Cong. III.F); Hall, David (K–J Cong. III.F)
 - `cal.1964-11-02.opinion` (Nov. 2, LX nov64.yaml): Gallup, final poll, Oct. 25–30: Johnson 64, Goldwater 29, undecided 7.
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-11-02.middle-east` (Nov. 2, LX nov64.yaml): Saud deposed; Faisal, Prime Minister, proclaimed King.
+  - ? King: King, Cecil R. (K–J Cong. III.D); King, John W. (K–J Cong. III.F); King, Marion (K–J Cong. III.H); King, Martin Luther, Jr. (K–J Cong. III.H, Viet. III.E); King, Coretta Scott (K–J Cong. III.K); King, Edwin (K–J Cong. III.K); King, Martin Luther, Sr. (K–J Cong. III.K); King, Tom (K–J Cong. III.K)
+- `cal.1964-11-03.cities-and-housing` (Nov. 3, LX nov64.yaml): California. Proposition 14 carries, 4,526,460 to 2,395,747, 65.4 percent: a constitutional amendment securing 
+  - Rumford: Rumford, William Byron (K–J Cong. III.K)
 - `cal.1964-11-03.alabama` (Nov. 3, LX nov64.yaml): Alabama. Goldwater 479,085, the unpledged Democratic electors 210,732; no electors for Johnson on the ballot. 
   - Glenn: Glenn, John H., Jr. (K–J Adm. III.F)
-- `cal.1964-11-03.elections-1964-3` (Nov. 3, LX nov64.yaml): The House in Georgia and Mississippi. Georgia 3d: Callaway (R) over Garland Byrd, 45,145 to 33,733, for Forres
-  - ? Byrd: Byrd, Harry F. (K–J Cong. III.B); Byrd, Robert C. (Cong. III.A)
+- `cal.1964-11-03.governors-wa` (Nov. 3, LX nov64.yaml): Washington. Evans (R) governor over Rosellini (D), 697,256 to 548,692, 55.8 percent, as Johnson carries the St
+  - Johnson: Johnson, Lady Bird (K–J Adm. III.A, 1968 III.Q); Johnson, Lynda Bird (K–J Adm. III.A); Johnson, Luci Baines (K–J Adm. III.A); Johnson, Lyndon B. (K–J Adm. III.D, Viet. III.A); Johnson, Harold K. (K–J Adm. III.F); Johnson, Paul B., Jr. (K–J Cong. III.F); Johnson, Frank M., Jr. (K–J Cong. III.G); Johnson, Albert W. (K–J Cong. III.K); Johnson, James D. (K–J Cong. III.K); Johnson, Leroy R. (K–J Cong. III.K); Johnson, Matthew (K–J Cong. III.K); Johnson, N. B. (K–J Cong. III.K); Johnson, Robert H. (K–J Cong. III.K); Johnson, Tom (1968 III.A); Johnson, U. Alexis (Viet. III.C)
+- `cal.1964-11-03.state-constitutions-ca` (Nov. 3, LX nov64.yaml): California. Proposition 15, the "Free Television Act," an initiative against pay television: a charge for prog
+  - Rumford: Rumford, William Byron (K–J Cong. III.K)
+- `cal.1964-11-03.governors-ma` (Nov. 3, LX nov64.yaml): Massachusetts. Volpe (R) back as governor over Bellotti (D), 1,176,462 to 1,153,416, 50.3 percent; Richardson 
+  - Johnson: Johnson, Lady Bird (K–J Adm. III.A, 1968 III.Q); Johnson, Lynda Bird (K–J Adm. III.A); Johnson, Luci Baines (K–J Adm. III.A); Johnson, Lyndon B. (K–J Adm. III.D, Viet. III.A); Johnson, Harold K. (K–J Adm. III.F); Johnson, Paul B., Jr. (K–J Cong. III.F); Johnson, Frank M., Jr. (K–J Cong. III.G); Johnson, Albert W. (K–J Cong. III.K); Johnson, James D. (K–J Cong. III.K); Johnson, Leroy R. (K–J Cong. III.K); Johnson, Matthew (K–J Cong. III.K); Johnson, N. B. (K–J Cong. III.K); Johnson, Robert H. (K–J Cong. III.K); Johnson, Tom (1968 III.A); Johnson, U. Alexis (Viet. III.C)
 - `cal.1964-11-11.opinion` (Nov. 11, LX nov64.yaml): Gallup, Oct. 16–21: with one party for liberals and one for conservatives, liberal 37 percent, conservative 34
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1964-11-13.opinion` (Nov. 13, LX nov64.yaml): Gallup, Oct. 8–13: the Civil Rights Act enforced strictly from the beginning, 23 percent; a gradual, persuasiv
@@ -804,20 +1109,27 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Warren: Warren, Earl (K–J Cong. III.G, Cong. III.J)
 - `cal.1964-11-23.economy` (Nov. 23–25, LX nov64.yaml): Sterling crisis: the Bank of England's rate from 5 to 7 percent. The same day the Board (Martin) approves the 
   - ? Banks: Banks, Dennis (Cong. III.K)
+- `cal.1964-11-26.middle-east` (Nov. 26, LX nov64.yaml): Cairo, Thanksgiving Day. Several hundred African students attack the embassy, after the American and Belgian r
+  - ? Day: Day, J. Edward (K–J Adm. III.G); Day, William S. (K–J Cong. III.K)
 - `cal.1964-11-29.opinion` (Nov. 29, LX nov64.yaml): Gallup, Nov. 6–11: the United States handling South Vietnam as well as could be expected, 35 percent; badly, 5
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-12-02.states-and-cities` (Dec. 2–8, LXI dec64.yaml): Berkeley. Savio on the steps of Sproul Hall; the Free Speech Movement occupies the building. On Brown's order 
+  - ? Hall: Hall, Dave (K–J Cong. III.F); Hall, David (K–J Cong. III.F)
+- `cal.1964-12-04.legislatures-mn` (Dec. 4, LXI dec64.yaml): Minnesota. A three-judge federal court, Circuit Judge Blackmun writing, holds the legislative districts of 195
+  - Blackmun: Blackmun, Harry A. (Cong. III.J)
 - `cal.1964-12-06.opinion` (Dec. 6, LXI dec64.yaml): Gallup, Nov. 6–11: the policy Johnson should follow: more to the left, with labor and liberal groups, 23 perce
   - Gallup: Gallup, George H. (K–J Cong. III.J)
-- `cal.1964-12-07.europe-and-the-alliance` (Dec. 7–9, LXI dec64.yaml): Wilson in Washington, with Gordon Walker and Healey. The British propose an Atlantic Nuclear Force in place of
-  - Walker: Walker, Edwin A. (K–J Adm. III.F)
 - `cal.1964-12-14.court` (Dec. 14, LXI dec64.yaml): *Heart of Atlanta Motel v. United States*, [379 U.S. 241](https://tile.loc.gov/storage-services/service/ll/usr
   - Katzenbach: Katzenbach, Nicholas deB. (K–J Adm. III.I); Katzenbach, Nicholas (1968 III.F)
+  - ? Clark: Clark, Ramsey (K–J Adm. III.I); Clark, Joseph S. (K–J Cong. III.B); Clark, Tom C. (K–J Cong. III.G); Clark, James G., Jr. (K–J Cong. III.K); Clark, Newman H. (K–J Cong. III.K)
   - ? Hill: Hill, Lister (K–J Cong. III.B)
 - `cal.1964-12-16.opinion` (Dec. 16, LXI dec64.yaml): Gallup, Nov. 20–25: more often to blame if a person is poor: lack of effort 30 percent, circumstances 31, both
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1964-12-20.vietnam` (Dec. 20–25, LXI dec64.yaml): Saigon. Khánh and the young generals, Kỳ and Thiệu among them, dissolve the High National Council and arrest s
+  - High: High, Robert King (K–J Cong. III.F)
 - `cal.1965-01-02.voting-rights` (Jan. 2, LXII jan65.yaml): Selma. King at Brown Chapel, against a State court's injunction on meetings. The campaign to register Dallas C
-  - ? Brown: Brown, Edmund G. (K–J Cong. III.F); Brown, John R. (K–J Cong. III.K); Brown, Sam (Cong. III.K)
-  - ? Black: Black, Hugo L. (K–J Cong. III.G)
+  - ? Brown: Brown, Winthrop G. (K–J Adm. III.E); Brown, Edmund G. (K–J Cong. III.F); Brown, John R. (K–J Cong. III.K); Brown, Clarence J. (Opp. III.D); Brown, Clarence J., Jr. (Opp. III.D); Brown, Sam (Cong. III.K)
+  - ? Black: Black, Eugene R. (K–J Adm. III.E); Black, Hugo L. (K–J Cong. III.G)
 - `cal.1965-01-03.opinion` (Jan. 3, LXII jan65.yaml): Gallup, Dec. 11–16, 1964: a compulsory program of hospital and nursing home insurance for the elderly, paid fo
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1965-01-10.opinion` (Jan. 10, LXII jan65.yaml): Gallup, Dec. 11–16, 1964: Republicans' first choice to lead the party: Nixon 27, Lodge 18, Goldwater 15, Romne
@@ -828,11 +1140,16 @@ the person; several mean the surname is shared). "?" marks a surname that is als
 - `cal.1965-01-17.opinion` (Jan. 17, LXII jan65.yaml): Gallup, the same county chairmen, their own first choice to lead the party: Nixon 29, Goldwater 28, Scranton 1
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1965-01-22.voting-rights` (Jan. 22–25, LXII jan65.yaml): Selma. Jan. 22, Black schoolteachers, some hundred, march on the Dallas County courthouse to register; Sheriff
-  - ? Black: Black, Hugo L. (K–J Cong. III.G)
+  - ? Black: Black, Eugene R. (K–J Adm. III.E); Black, Hugo L. (K–J Cong. III.G)
+- `cal.1965-01-28.legislatures-ar` (Jan. 28–Feb. 3, LXII jan65.yaml): Arkansas. *Yancey v. Faubus*: the three-judge court holds the apportionment of both houses invalid under *Reyn
+  - Reynolds: Reynolds, John W., Jr. (K–J Cong. III.F); Reynolds, Walter H. (K–J Cong. III.F); Reynolds, Don B. (K–J Cong. III.K)
+  - Sims: Sims, Joseph Howard (K–J Cong. III.K)
 - `cal.1965-01-31.opinion` (Jan. 31, LXII jan65.yaml): Gallup, Jan. 7–12: the United States should have become involved with its military forces in Southeast Asia, 5
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1965-02-04.farm` (Feb. 4, LXIII feb65.yaml): Agriculture message. Price and income supports kept; a commission to examine the whole of farm policy; a long-
   - ? Price: Price, Cecil R. (K–J Cong. III.K); Price, Raymond K., Jr. (Adm. III.B)
+- `cal.1965-02-07.vietnam` (Feb. 7–8, LXIII feb65.yaml): Pleiku. Before dawn the Viet Cong attack the American advisers' compound and the Camp Holloway airfield: 7 Ame
+  - Camp: Camp, John N. (K–J Cong. III.K)
 - `cal.1965-02-07.opinion` (Feb. 7, LXIII feb65.yaml): Gallup, Jan. 7–12: a police permit required to buy a gun: favor 73 percent, oppose 23. A gun in the home: 48.
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1965-02-10.jobs-and-wages` (Feb. 10–12, LXIII feb65.yaml): The longshoremen's strike. The ILA has struck every Atlantic and Gulf port since Jan. 11. Johnson: the strike 
@@ -846,21 +1163,39 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Lee: Lee, Richard C. (K–J Cong. III.F); Lee, Herbert (K–J Cong. III.H)
 - `cal.1965-02-21.states-and-cities` (Feb. 21, LXIII feb65.yaml): Malcolm X shot dead at the Audubon Ballroom, Washington Heights, as he begins to address his Organization of A
   - Talmadge: Talmadge, Herman E. (Wg. III.F)
+  - Nation: Nation, Bill (K–J Cong. III.K)
 - `cal.1965-02-21.opinion` (Feb. 21, LXIII feb65.yaml): Gallup, Jan. 28–Feb. 2: liked best about Johnson: personality, character, 17 percent; experience, ability, 17;
   - Gallup: Gallup, George H. (K–J Cong. III.J)
   - Kennedy: Kennedy, Jacqueline (K–J Adm. III.A); Kennedy, Joseph P. (K–J Adm. III.A); Kennedy, Robert F. (K–J Adm. III.A, K–J Cong. III.B, 1968 III.K); Kennedy, Edward M. (K–J Cong. III.B, 1968 III.K, 1968 III.P, Cong. III.A); Kennedy, John F. (Viet. III.A)
+- `cal.1965-02-23.states-and-cities-nyc` (Feb. 23, LXIII feb65.yaml): New York. Constance Baker Motley, of the NAACP Legal Defense Fund, a State Senator since Feb. 4, 1964, chosen 
+  - ? Baker: Baker, Ella (K–J Cong. III.H); Baker, Irene Bailey (K–J Cong. III.K); Baker, Robert G. (K–J Cong. III.K); Baker, Wilson (K–J Cong. III.K); Baker, Howard H. (K–J Cong. III.K); Baker, Howard H., Jr. (Cong. III.C, Wg. III.F)
+- `cal.1965-02-25.middle-east` (Feb. 25–Mar. 10, LXIII feb65.yaml): Harriman and Komer in Israel, sent by Johnson, on arms for Jordan. Memorandum of understanding, signed Mar. 10
+  - Jordan: Jordan, Barbara (Cong. III.E, Wg. III.G)
+- `cal.1965-03-01.legislatures-ks` (Mar. 1, LXIV mar65.yaml): Kansas Supreme Court, *Harris v. Anderson*: the House's apportionment, one member to every county under the St
+  - Harris: Harris, Oren (K–J Cong. III.D); Harris, Louis (K–J Cong. III.J); Harris, Fred R. (1968 III.I)
+  - Anderson: Anderson, Rudolf, Jr. (K–J Adm. III.F); Anderson, George W., Jr. (K–J Adm. III.F); Anderson, Clinton P. (K–J Cong. III.B); Anderson, John, Jr. (K–J Cong. III.F); Anderson, Sigurd (K–J Cong. III.F); Anderson, William G. (K–J Cong. III.H); Anderson, Glenn M. (K–J Cong. III.K); Anderson, John B. (Opp. III.D, Cong. III.D); Anderson, Robert B. (Opp. III.E); Anderson, Jack (Cong. III.M, Wg. III.H)
+  - Reynolds: Reynolds, John W., Jr. (K–J Cong. III.F); Reynolds, Walter H. (K–J Cong. III.F); Reynolds, Don B. (K–J Cong. III.K)
+  - Sims: Sims, Joseph Howard (K–J Cong. III.K)
 - `cal.1965-03-03.economy` (Mar. 3, LXIV mar65.yaml): Act ending the gold reserve against Federal Reserve deposits signed, [79 Stat. 5](https://www.govinfo.gov/cont
   - ? Banks: Banks, Dennis (Cong. III.K)
+- `cal.1965-03-04.transportation` (Mar. 4, LXIV mar65.yaml): High-speed ground transportation bill sent to Congress: research and demonstrations by Commerce, rail above al
+  - High: High, Robert King (K–J Cong. III.F)
 - `cal.1965-03-05.opinion` (Mar. 5, LXIV mar65.yaml): Gallup, Jan. 28–Feb. 2: pay in the Neighborhood Youth Corps set by each community, 54 percent; the federal min
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1965-03-07.voting-rights` (Mar. 7, LXIV mar65.yaml): Selma. Some 650 set out from Brown Chapel to walk to Montgomery, Hosea Williams and John Lewis at the head. Be
-  - ? Brown: Brown, Edmund G. (K–J Cong. III.F); Brown, John R. (K–J Cong. III.K); Brown, Sam (Cong. III.K)
+  - ? Brown: Brown, Winthrop G. (K–J Adm. III.E); Brown, Edmund G. (K–J Cong. III.F); Brown, John R. (K–J Cong. III.K); Brown, Clarence J. (Opp. III.D); Brown, Clarence J., Jr. (Opp. III.D); Brown, Sam (Cong. III.K)
 - `cal.1965-03-07.opinion` (Mar. 7, LXIV mar65.yaml): Gallup, Jan. 28–Feb. 2: the Federal Government to pay more of the public schools' costs, 49 percent; the State
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-03-08.court` (Mar. 8, LXIV mar65.yaml): *Louisiana v. United States*, [380 U.S. 145](https://tile.loc.gov/storage-services/service/ll/usrep/usrep380/u
+  - ? Black: Black, Eugene R. (K–J Adm. III.E); Black, Hugo L. (K–J Cong. III.G)
 - `cal.1965-03-08.crime-and-hijacking` (Mar. 8, LXIV mar65.yaml): Message on crime: "a malignant enemy in America's midst." A President's Commission on Law Enforcement and Admi
   - Lee: Lee, Richard C. (K–J Cong. III.F); Lee, Herbert (K–J Cong. III.H)
 - `cal.1965-03-12.opinion` (Mar. 12, LXIV mar65.yaml): Gallup, Feb. 19–24: continue present efforts in South Vietnam, 66 percent; pull out, 19. A bigger war: likely 
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-03-18.crime-and-hijacking-wv` (Mar. 18, LXIV mar65.yaml): West Virginia abolishes capital punishment. Smith approves H.B. 517, passed Mar. 12: no one convicted, before 
+  - West: West, Ben (K–J Cong. III.K); West, E. Gordon (K–J Cong. III.K)
+- `cal.1965-03-18.european-community` (Mar. 18, LXIV mar65.yaml): Hallstein at the White House. Joint statement: Johnson for European unity; congratulations on the Six's decisi
+  - Kennedy: Kennedy, Jacqueline (K–J Adm. III.A); Kennedy, Joseph P. (K–J Adm. III.A); Kennedy, Robert F. (K–J Adm. III.A, K–J Cong. III.B, 1968 III.K); Kennedy, Edward M. (K–J Cong. III.B, 1968 III.K, 1968 III.P, Cong. III.A); Kennedy, John F. (Viet. III.A)
 - `cal.1965-03-23.medicare` (Mar. 23, LXIV mar65.yaml): Ways and Means votes out Mills's bill, H.R. 6675: hospital insurance under Social Security, up to 60 days an i
   - Means: Means, Russell (Cong. III.K)
   - Kerr: Kerr, Robert S. (K–J Cong. III.B); Kerr, Clark (K–J Cong. III.K)
@@ -870,6 +1205,9 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1965-04-07.opinion` (Apr. 7, LXV apr65.yaml): Gallup, Mar. 11–16: start peace negotiations with the Communist leaders now, 41 percent; send more troops and 
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-04-09.legislatures-va` (Apr. 9, LXV apr65.yaml): *Mann v. Davis*: Virginia's reapportionment of 1964 upheld against Henrico County, which asked delegates of it
+  - Mann: Mann, Thomas C. (K–J Adm. III.E)
+  - Davis: Davis, James T. (K–J Adm. III.F); Davis, Ilus W. (K–J Cong. III.F); Davis, Jimmie H. (K–J Cong. III.F); Davis, John E. (Opp. III.H)
 - `cal.1965-04-11.opinion` (Apr. 11, LXV apr65.yaml): Gallup, Mar. 18–23: the Johnson Administration pushing integration too fast, 34 percent; not fast enough, 17; 
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1965-04-14.opinion` (Apr. 14, LXV apr65.yaml): Gallup, Mar. 18–23: a law to send federal officials to register voters where turnout was low: favor 76 percent
@@ -878,8 +1216,18 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1965-04-23.opinion` (Apr. 23, LXV apr65.yaml): Gallup, Apr. 2–7: what to do next in Vietnam: withdraw completely 17 percent; negotiate, stop fighting 12; con
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-04-26.court` (Apr. 26, LXV apr65.yaml): *Dombrowski v. Pfister*, [380 U.S. 479](https://tile.loc.gov/storage-services/service/ll/usrep/usrep380/usrep3
+  - Dombrowski: Dombrowski, James A. (K–J Cong. III.K)
+  - Brennan: Brennan, William J., Jr. (K–J Cong. III.G); Brennan, Peter J. (Adm. III.F)
+- `cal.1965-04-27.voting-rights` (Apr. 27, LXV apr65.yaml): *Harman v. Forssenius*, [380 U.S. 528](https://tile.loc.gov/storage-services/service/ll/usrep/usrep380/usrep38
+  - Harman: Harman, Avraham (K–J Adm. III.J)
+  - Warren: Warren, Earl (K–J Cong. III.G, Cong. III.J)
 - `cal.1965-05-03.court` (May 3, LXVI may65.yaml): *Zemel v. Rusk*, [381 U.S. 1](https://tile.loc.gov/storage-services/service/ll/usrep/usrep381/usrep381001/usre
   - Rusk: Rusk, Dean (K–J Adm. III.E, 1968 III.E, Viet. III.A)
+  - Warren: Warren, Earl (K–J Cong. III.G, Cong. III.J)
+  - ? Black: Black, Eugene R. (K–J Adm. III.E); Black, Hugo L. (K–J Cong. III.G)
+  - Douglas: Douglas, Paul H. (K–J Cong. III.B); Douglas, William O. (K–J Cong. III.G, Cong. III.J)
+  - Goldberg: Goldberg, Arthur J. (K–J Adm. III.E, K–J Adm. III.G, K–J Cong. III.G)
 - `cal.1965-05-07.opinion` (May 7, LXVI may65.yaml): Gallup, special survey of students at 97 four-year colleges: continue the draft, or depend on volunteers. Men:
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1965-05-09.opinion` (May 9, LXVI may65.yaml): Gallup, Apr. 2–7: the domestic problems the Government should attend to most, three chosen from ten: public ed
@@ -888,26 +1236,52 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1965-05-16.opinion` (May 16, LXVI may65.yaml): Gallup, Apr. 23–28: what to do next in Vietnam: withdraw 13 percent; negotiate 12; continue 13; step up 8; go 
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-05-18.jobs-and-wages` (May 18, LXVI may65.yaml): Labor message. Repeal of Section 14(b) of the Taft–Hartley Act, which lets States ban the union shop. Minimum 
+  - Taft: Taft, Alexander M. (K–J Cong. III.F); Taft, Robert, Jr. (Opp. III.D)
 - `cal.1965-05-21.students` (May 21–22, LXVI may65.yaml): Vietnam Day, Berkeley: some 35 hours of speeches against the war on the campus. The Vietnam Day Committee form
-  - ? Day: Day, J. Edward (K–J Adm. III.G)
+  - ? Day: Day, J. Edward (K–J Adm. III.G); Day, William S. (K–J Cong. III.K)
 - `cal.1965-05-23.opinion` (May 23, LXVI may65.yaml): Gallup, Apr. 23–28: white parents who would object to a school where a few of the children are colored: outsid
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-05-24.court` (May 24, LXVI may65.yaml): *Lamont v. Postmaster General*, [381 U.S. 301](https://tile.loc.gov/storage-services/service/ll/usrep/usrep381
+  - Douglas: Douglas, Paul H. (K–J Cong. III.B); Douglas, William O. (K–J Cong. III.G, Cong. III.J)
+  - ? White: White, Lee C. (K–J Adm. III.B); White, Lincoln P. (K–J Adm. III.E); White, Byron R. (K–J Adm. III.I, K–J Cong. III.G); White, Edward H., II (K–J Cong. III.K); White, F. Clifton (Opp. III.F); White, Theodore H. (Opp. III.J, 1968 III.O)
 - `cal.1965-06-02.opinion` (June 2, LXVII jun65.yaml): Gallup, May 13–18: Johnson's sending troops into the Dominican Republic: approve 76 percent, disapprove 17. Th
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1965-06-03.space` (June 3–7, LXVII jun65.yaml): Gemini 4: McDivitt and White, four days in orbit. June 3, White outside the capsule on a tether some 23 minute
   - ? Houston: Houston, Lawrence (K–J Cong. III.K)
+- `cal.1965-06-04.civil-rights-the-executive` (June 4, LXVII jun65.yaml): Howard University commencement, "To Fulfill These Rights." "Freedom is not enough." "Not just equality as a ri
+  - Howard: Howard, Lisa (K–J Cong. III.J)
+- `cal.1965-06-07.court` (June 7, LXVII jun65.yaml): *Griswold v. Connecticut*, [381 U.S. 479](https://tile.loc.gov/storage-services/service/ll/usrep/usrep381/usre
+  - Griswold: Griswold, Estelle (K–J Cong. III.K)
+  - Goldberg: Goldberg, Arthur J. (K–J Adm. III.E, K–J Adm. III.G, K–J Cong. III.G)
+  - Warren: Warren, Earl (K–J Cong. III.G, Cong. III.J)
+  - Brennan: Brennan, William J., Jr. (K–J Cong. III.G); Brennan, Peter J. (Adm. III.F)
+  - ? White: White, Lee C. (K–J Adm. III.B); White, Lincoln P. (K–J Adm. III.E); White, Byron R. (K–J Adm. III.I, K–J Cong. III.G); White, Edward H., II (K–J Cong. III.K); White, F. Clifton (Opp. III.F); White, Theodore H. (Opp. III.J, 1968 III.O)
+  - ? Black: Black, Eugene R. (K–J Adm. III.E); Black, Hugo L. (K–J Cong. III.G)
 - `cal.1965-06-11.opinion` (June 11, LXVII jun65.yaml): Gallup, May 13–18: the most important problem: Vietnam 23 percent; civil rights 23; threat of war 16; prestige
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1965-06-13.opinion` (June 13, LXVII jun65.yaml): Gallup, May 13–18: a worker in a unionized plant required to join the union: should 43 percent, should not 49;
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-06-23.robert-kennedy` (June 23, LXVII jun65.yaml): Robert Kennedy in the Senate on the spread of nuclear weapons, "the most vital issue now facing this Nation an
+  - Nation: Nation, Bill (K–J Cong. III.K)
 - `cal.1965-06-27.opinion` (June 27, LXVII jun65.yaml): Gallup, June 4–9: Republicans' best candidate for 1968: Nixon 25, Lodge 14, Goldwater 13, Romney 11, Dirksen 7
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-06.crime-and-hijacking-ny` (June, LXVII jun65.yaml): New York. Rockefeller signs the bill ending the death penalty but for the murder of a peace officer on duty an
+  - Lee: Lee, Richard C. (K–J Cong. III.F); Lee, Herbert (K–J Cong. III.H)
 - `cal.1965-07-18.opinion` (July 18, LXVIII jul65.yaml): Gallup, June 24–29: those approving the Administration's handling of Vietnam: Johnson knows the situation 40 p
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-07-21.vietnam` (July 21–27, LXVIII jul65.yaml): Johnson's week of meetings on the McNamara report. July 21, the principals, Ball arguing for a compromise; Jul
+  - Camp: Camp, John N. (K–J Cong. III.K)
 - `cal.1965-07-25.opinion` (July 25, LXVIII jul65.yaml): Gallup, June 24–29: in admitting immigrants, very important: occupational skills 71 percent; relatives who are
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-07-28.jobs-and-wages` (July 28, LXVIII jul65.yaml): House passes H.R. 77, repealing section 14(b) of the Taft-Hartley Act, the States' right-to-work laws, [221–20
+  - Taft: Taft, Alexander M. (K–J Cong. III.F); Taft, Robert, Jr. (Opp. III.D)
 - `cal.1965-08-06.opinion` (Aug. 6, LXIX aug65.yaml): Gallup, July 16–21: the Johnson Administration pushing integration too fast, 40 percent; not fast enough, 13; 
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-08-10.legislatures-nd` (Aug. 10, LXIX aug65.yaml): North Dakota. The federal court holds House Bill 566, the 1965 Assembly's apportionment, invalid, and devises 
+  - Smith: Smith, Stephen E. (K–J Adm. III.A); Smith, Ian Douglas (K–J Adm. III.J); Smith, Benjamin A., II (K–J Cong. III.B); Smith, Howard W. (K–J Cong. III.D); Smith, Hulett C. (K–J Cong. III.F); Smith, Frank E. (K–J Cong. III.K); Smith, Howard K. (K–J Cong. III.K); Smith, Vernon K. (K–J Cong. III.K); Smith, Margaret Chase (Opp. III.A, Cong. III.A); Smith, Gerard C. (Adm. III.D)
+- `cal.1965-08-11.middle-east` (Aug. 11–24, LXIX aug65.yaml): Aug. 11, Faisal, through Sultan, asks for an American fighter squadron, a destroyer visit hastened and more ne
+  - Johnson: Johnson, Lady Bird (K–J Adm. III.A, 1968 III.Q); Johnson, Lynda Bird (K–J Adm. III.A); Johnson, Luci Baines (K–J Adm. III.A); Johnson, Lyndon B. (K–J Adm. III.D, Viet. III.A); Johnson, Harold K. (K–J Adm. III.F); Johnson, Paul B., Jr. (K–J Cong. III.F); Johnson, Frank M., Jr. (K–J Cong. III.G); Johnson, Albert W. (K–J Cong. III.K); Johnson, James D. (K–J Cong. III.K); Johnson, Leroy R. (K–J Cong. III.K); Johnson, Matthew (K–J Cong. III.K); Johnson, N. B. (K–J Cong. III.K); Johnson, Robert H. (K–J Cong. III.K); Johnson, Tom (1968 III.A); Johnson, U. Alexis (Viet. III.C)
 - `cal.1965-08-22.opinion` (Aug. 22, LXIX aug65.yaml): Gallup, July 16–21: would vote for a well-qualified man of one's party for President who was a Jew, 80 percent
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1965-08-25.space` (Aug. 25, LXIX aug65.yaml): News conference. The Defense Department to build a Manned Orbiting Laboratory, $1.5 billion: Douglas Aircraft 
@@ -916,6 +1290,8 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1965-08-29.opinion` (Aug. 29, LXIX aug65.yaml): Gallup, Aug. 5–10: the move to ask the UN to work out its own formula for peace in Vietnam: approve 74 percent
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-09-01.legislatures-ca` (Sept. 1, LXX sep65.yaml): *Silver v. Brown*, 63 Cal. 2d 270: the California Supreme Court, without dissent, finds both houses malapporti
+  - ? Brown: Brown, Winthrop G. (K–J Adm. III.E); Brown, Edmund G. (K–J Cong. III.F); Brown, John R. (K–J Cong. III.K); Brown, Clarence J. (Opp. III.D); Brown, Clarence J., Jr. (Opp. III.D); Brown, Sam (Cong. III.K)
 - `cal.1965-09-12.opinion` (Sept. 12, LXX sep65.yaml): Gallup, Aug. 27–Sept. 1, South only: Johnson 44 percent, Nixon 47. The Johnson Administration pushing integrat
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1965-09-17.opinion` (Sept. 17, LXX sep65.yaml): Gallup, Aug. 27–Sept. 1, whites: advice to Negroes seeking better jobs and respect: more education 44 percent;
@@ -926,6 +1302,12 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1965-09-29.opinion` (Sept. 29, LXX sep65.yaml): Gallup, Aug. 27–Sept. 1: the $1.25 minimum wage: increase 55 percent, leave as is 39. Of those for an increase
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-09-30.transportation` (Sept. 30, LXX sep65.yaml): High-Speed Ground Transportation Act signed, [79 Stat. 893](https://www.govinfo.gov/content/pkg/STATUTE-79/pdf
+  - High: High, Robert King (K–J Cong. III.F)
+- `cal.1965-10-02.alabama-al` (Oct. 2, LXXI oct65.yaml): *Sims v. Baggett*. The three-judge court on the legislature's plans of Sept. 24: the Senate act upheld; the Ho
+  - Sims: Sims, Joseph Howard (K–J Cong. III.K)
+- `cal.1965-10-03.cuba` (Oct. 3, LXXI oct65.yaml): Castro, Sept. 28: Cubans who wish may go to the United States; exiles may fetch their relatives by boat at Cam
+  - Small: Small, Frank, Jr. (K–J Cong. III.K)
 - `cal.1965-10-08.opinion` (Oct. 8, LXXI oct65.yaml): Gallup, Sept. 16–21: a guaranteed minimum annual income for every family in place of relief and welfare: favor
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1965-10-10.opinion` (Oct. 10, LXXI oct65.yaml): Gallup, Sept. 16–21: a worker in a unionized plant required to join the union: should 44 percent, should not 4
@@ -933,13 +1315,27 @@ the person; several mean the surname is shared). "?" marks a surname that is als
 - `cal.1965-10-13.opinion` (Oct. 13, LXXI oct65.yaml): Gallup, Sept. 16–21: the most important problem: civil rights 27 percent; Vietnam 19; threat of general war 17
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1965-10-15.students` (Oct. 15–18, LXXI oct65.yaml): International Days of Protest against the war, planned by Berkeley's Vietnam Day Committee and the National Co
-  - ? Day: Day, J. Edward (K–J Adm. III.G)
+  - ? Day: Day, J. Edward (K–J Adm. III.G); Day, William S. (K–J Cong. III.K)
 - `cal.1965-10-20.foreign-aid` (Oct. 20, LXXI oct65.yaml): Foreign aid appropriation for fiscal 1966 signed, [79 Stat. 1002](https://www.govinfo.gov/content/pkg/STATUTE-
-  - ? Marshall: Marshall, Burke (K–J Adm. III.I); Marshall, Thurgood (K–J Cong. III.G); Marshall, Edward M. (K–J Cong. III.K)
+  - ? Marshall: Marshall, Burke (K–J Adm. III.I); Marshall, Thurgood (K–J Cong. III.G); Marshall, Edward G. (K–J Cong. III.K); Marshall, Edward M. (K–J Cong. III.K)
 - `cal.1965-10-22.opinion` (Oct. 22, LXXI oct65.yaml): Gallup, Sept. 16–21: the Johnson Administration's handling of Vietnam: approve 58 percent, disapprove 22.
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-10-23.congress` (Oct. 23, LXXI oct65.yaml): The 89th Congress's first session adjourns sine die after midnight, the Senate at 12:51 a.m., the House at 12:
+  - Nation: Nation, Bill (K–J Cong. III.K)
+- `cal.1965-10-25.legislatures-nv` (Oct. 25–Nov. 13, LXXI oct65.yaml): Nevada's legislature in special session, called by Sawyer at the order of the federal district court in *Dunga
+  - ? Clark: Clark, Ramsey (K–J Adm. III.I); Clark, Joseph S. (K–J Cong. III.B); Clark, Tom C. (K–J Cong. III.G); Clark, James G., Jr. (K–J Cong. III.K); Clark, Newman H. (K–J Cong. III.K)
 - `cal.1965-10-27.opinion` (Oct. 27, LXXI oct65.yaml): Gallup, Sept. 16–21: Humphrey 43 percent, Romney 43; Johnson 59, Romney 33. Independents: Romney 50, Humphrey 
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-11-02.mayors-detroit` (Nov. 2, LXXII nov65.yaml): Detroit. Cavanagh re-elected over Walter Shamie, 295,409 to 144,852, 67.1 percent, by the unofficial count. A 
+  - Walter: Walter, Francis E. (K–J Cong. III.D)
+- `cal.1965-11-08.school-aid` (Nov. 8, LXXII nov65.yaml): Higher Education Act signed at Southwest Texas State College, San Marcos, his own, [79 Stat. 1219](https://www
+  - Marcos: Marcos, Ferdinand E. (K–J Adm. III.J)
+- `cal.1965-11-09.states-and-cities` (Nov. 9, LXXII nov65.yaml): The Northeast blackout. 5:16 p.m.: a relay on a line from the Sir Adam Beck station, Queenston, Ontario, trips
+  - Beck: Beck, Robert K. (K–J Cong. III.K)
+  - Power: Power, Thomas S. (K–J Adm. III.F)
+- `cal.1965-11-15.court` (Nov. 15, LXXII nov65.yaml): *Albertson v. Subversive Activities Control Board*, [382 U.S. 70](https://tile.loc.gov/storage-services/servic
+  - Brennan: Brennan, William J., Jr. (K–J Cong. III.G); Brennan, Peter J. (Adm. III.F)
+  - ? White: White, Lee C. (K–J Adm. III.B); White, Lincoln P. (K–J Adm. III.E); White, Byron R. (K–J Adm. III.I, K–J Cong. III.G); White, Edward H., II (K–J Cong. III.K); White, F. Clifton (Opp. III.F); White, Theodore H. (Opp. III.J, 1968 III.O)
 - `cal.1965-11-19.opinion` (Nov. 19, LXXII nov65.yaml): Gallup, Oct. 29–Nov. 2: Communists involved in the demonstrations over Vietnam: a lot 58 percent, some 20, min
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1965-11-21.opinion` (Nov. 21, LXXII nov65.yaml): Gallup, Oct. 29–Nov. 2: a candidate for Congress for sending many more men to Vietnam: more inclined 46 percen
@@ -948,6 +1344,8 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1965-11-28.opinion` (Nov. 28, LXXII nov65.yaml): Gallup, Oct. 29–Nov. 2: Senator Robert Kennedy as capable as his brother was as a Senator: yes 38 percent, no 
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-11-30.legislatures-nc` (Nov. 30, LXXII nov65.yaml): *Drum v. Seawell*: the three-judge court holds void North Carolina's apportionment of both houses, the constit
+  - Seawell: Seawell, Malcolm B. (K–J Cong. III.K)
 - `cal.1965-12-01.opinion` (Dec. 1, LXXIII dec65.yaml): Gallup, Oct. 29–Nov. 2: the most important problem: Vietnam 37 percent; civil rights 17; threat of war 12; wor
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1965-12-05.economy` (Dec. 5–6, LXXIII dec65.yaml): The Federal Reserve announces, Sunday, Dec. 5: the discount rate at New York and Chicago from 4 to 4½ percent,
@@ -960,10 +1358,18 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1965-12-17.opinion` (Dec. 17, LXXIII dec65.yaml): Gallup, Nov. 18–23: sending troops into Santo Domingo the right thing, 52 percent; wrong, 21. Our relations wi
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1965-12-20.europe-and-the-alliance` (Dec. 20–21, LXXIII dec65.yaml): Erhard in Washington, with Schroeder and von Hassel. Joint statement, Dec. 21: the Federal Republic and other 
+  - Schroeder: Schroeder, Anthony C. (K–J Cong. III.K); Schroeder, Jack (K–J Cong. III.K)
+- `cal.1965-12-20.japan-and-korea` (Dec. 20, LXXIII dec65.yaml): Executive Order 11263: the Ryukyus' Chief Executive, appointed till now by the High Commissioner, to be electe
+  - High: High, Robert King (K–J Cong. III.F)
 - `cal.1966-01-07.opinion` (Jan. 7, LXXIV jan66.yaml): Gallup, Dec. 11–16, 1965: Communist China admitted to the UN: should 22 percent, should not 67. College-educat
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1966-01-09.opinion` (Jan. 9, LXXIV jan66.yaml): Gallup, Dec. 11–16, 1965: Johnson's handling of Vietnam: approve 56 percent, disapprove 26. How long the fight
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1966-01-10.mississippi` (Jan. 10, LXXIV jan66.yaml): Hattiesburg. Before dawn, Klansmen fire on and firebomb the house and store of Vernon Dahmer, president of the
+  - Kelly: Kelly, Francis E. (K–J Cong. III.K); Kelly, Scott (K–J Cong. III.K)
+- `cal.1966-01-11.legislatures-ca` (Jan. 11, LXXIV jan66.yaml): *Silver v. Brown*, 63 Cal. 2d 841: the California Supreme Court upholds the Legislature's reapportionment, its
+  - ? Brown: Brown, Winthrop G. (K–J Adm. III.E); Brown, Edmund G. (K–J Cong. III.F); Brown, John R. (K–J Cong. III.K); Brown, Clarence J. (Opp. III.D); Brown, Clarence J., Jr. (Opp. III.D); Brown, Sam (Cong. III.K)
 - `cal.1966-01-12.opinion` (Jan. 12, LXXIV jan66.yaml): Gallup, Dec. 11–16, 1965: the policy Johnson should follow: more to the right, with business and conservative 
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1966-01-14.opinion` (Jan. 14, LXXIV jan66.yaml): Gallup, Dec. 11–16, 1965: a four-year term for members of the House in place of two: favor 61 percent, oppose 
@@ -972,25 +1378,35 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1966-01-17.court` (Jan. 17, LXXIV jan66.yaml): *Evans v. Newton*, [382 U.S. 296](https://tile.loc.gov/storage-services/service/ll/usrep/usrep382/usrep382296/
   - Evans: Evans, Daniel J. (Opp. III.H, Cong. III.H); Evans, Rowland, Jr. (Opp. III.J)
+  - Newton: Newton, Huey P. (K–J Cong. III.K)
+  - Douglas: Douglas, Paul H. (K–J Cong. III.B); Douglas, William O. (K–J Cong. III.G, Cong. III.J)
+  - ? White: White, Lee C. (K–J Adm. III.B); White, Lincoln P. (K–J Adm. III.E); White, Byron R. (K–J Adm. III.I, K–J Cong. III.G); White, Edward H., II (K–J Cong. III.K); White, F. Clifton (Opp. III.F); White, Theodore H. (Opp. III.J, 1968 III.O)
+  - ? Black: Black, Eugene R. (K–J Adm. III.E); Black, Hugo L. (K–J Cong. III.G)
 - `cal.1966-01-17.defense` (Jan. 17, LXXIV jan66.yaml): Palomares, Spain. A B-52 of the 68th Bomb Squadron, from Seymour Johnson Air Force Base, N.C., on airborne ale
-  - Johnson: Johnson, Lady Bird (K–J Adm. III.A, 1968 III.Q); Johnson, Lynda Bird (K–J Adm. III.A); Johnson, Luci Baines (K–J Adm. III.A); Johnson, Lyndon B. (K–J Adm. III.D, Viet. III.A); Johnson, Paul B., Jr. (K–J Cong. III.F); Johnson, Frank M., Jr. (K–J Cong. III.G); Johnson, Tom (1968 III.A); Johnson, U. Alexis (Viet. III.C)
+  - Johnson: Johnson, Lady Bird (K–J Adm. III.A, 1968 III.Q); Johnson, Lynda Bird (K–J Adm. III.A); Johnson, Luci Baines (K–J Adm. III.A); Johnson, Lyndon B. (K–J Adm. III.D, Viet. III.A); Johnson, Harold K. (K–J Adm. III.F); Johnson, Paul B., Jr. (K–J Cong. III.F); Johnson, Frank M., Jr. (K–J Cong. III.G); Johnson, Albert W. (K–J Cong. III.K); Johnson, James D. (K–J Cong. III.K); Johnson, Leroy R. (K–J Cong. III.K); Johnson, Matthew (K–J Cong. III.K); Johnson, N. B. (K–J Cong. III.K); Johnson, Robert H. (K–J Cong. III.K); Johnson, Tom (1968 III.A); Johnson, U. Alexis (Viet. III.C)
 - `cal.1966-01-23.opinion` (Jan. 23, LXXIV jan66.yaml): Gallup, Dec. 31, 1965–Jan. 5, 1966: the party one would like to see win the congressional district, by region:
   - Gallup: Gallup, George H. (K–J Cong. III.J)
   - West: West, Ben (K–J Cong. III.K); West, E. Gordon (K–J Cong. III.K)
 - `cal.1966-01-24.vietnam` (Jan. 24–Mar. 6, LXXIV jan66.yaml): Operation Masher, renamed White Wing: the 1st Cavalry Division, with ARVN and Korean troops, in Bình Định prov
-  - ? White: White, Lee C. (K–J Adm. III.B); White, Byron R. (K–J Adm. III.I, K–J Cong. III.G); White, Edward H., II (K–J Cong. III.K); White, F. Clifton (Opp. III.F); White, Theodore H. (Opp. III.J, 1968 III.O)
+  - ? White: White, Lee C. (K–J Adm. III.B); White, Lincoln P. (K–J Adm. III.E); White, Byron R. (K–J Adm. III.I, K–J Cong. III.G); White, Edward H., II (K–J Cong. III.K); White, F. Clifton (Opp. III.F); White, Theodore H. (Opp. III.J, 1968 III.O)
 - `cal.1966-01-26.open-housing` (Jan. 26, LXXIV jan66.yaml): King moves into a flat on South Hamlin Avenue in Lawndale, on Chicago's West Side: the Chicago Freedom Movemen
   - West: West, Ben (K–J Cong. III.K); West, E. Gordon (K–J Cong. III.K)
 - `cal.1966-01-26.opinion` (Jan. 26, LXXIV jan66.yaml): Gallup, Dec. 31, 1965–Jan. 5, 1966: Senators limited to two six-year terms: favor 50 percent, oppose 38.
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1966-01-30.opinion` (Jan. 30, LXXIV jan66.yaml): Gallup, Dec. 31, 1965–Jan. 5, 1966: the $1.25 minimum wage: increase 66 percent, leave as is 33. The work week
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1966-01.desegregation-public-places-ky` (Jan., LXXIV jan66.yaml): Kentucky Civil Rights Act, passed by the General Assembly and signed by Breathitt: discrimination by race forb
+  - ? Day: Day, J. Edward (K–J Adm. III.G); Day, William S. (K–J Cong. III.K)
 - `cal.1966-02-04.opinion` (Feb. 4, LXXV feb66.yaml): Gallup, Dec. 31, 1965–Jan. 5, 1966: prices and wages frozen for as long as the war in Vietnam lasts: a good id
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1966-02-05.specials` (Feb. 5, LXXV feb66.yaml): North Carolina 1st, special. Walter B. Jones (D), a State senator, holds Bonner's seat, 21,773 to 14,308 for E
+  - Walter: Walter, Francis E. (K–J Cong. III.D)
 - `cal.1966-02-06.opinion` (Feb. 6, LXXV feb66.yaml): Gallup, Dec. 31, 1965–Jan. 5, 1966: Republicans' best candidate for 1968: Nixon 33, Lodge 15, Goldwater 11, Ro
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1966-02-09.opinion` (Feb. 9, LXXV feb66.yaml): Gallup, Jan. 21–26: the move to ask the UN to work out its own formula for peace in Vietnam: approve 74 percen
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1966-02-09.voting-rights-tx` (Feb. 9, LXXV feb66.yaml): Austin. A three-judge court holds the Texas poll tax, $1.75, void as a condition of voting under the due proce
+  - Thornberry: Thornberry, William H. (K–J Cong. III.K)
 - `cal.1966-02-11.opinion` (Feb. 11, LXXV feb66.yaml): Gallup, Dec. 11–16, 1965: Supreme Court Justices and other federal judges required to retire at 72: a good ide
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1966-02-13.opinion` (Feb. 13, LXXV feb66.yaml): Gallup, Dec. 31, 1965–Jan. 5, 1966: Humphrey 47 percent, Nixon 45, undecided 8. Independents: Nixon 53, Humphr
@@ -999,46 +1415,65 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1966-02-18.opinion` (Feb. 18, LXXV feb66.yaml): Gallup, Dec. 31, 1965–Jan. 5, 1966: can identify McNamara, 58 percent; college-educated 88, grade school 34. O
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1966-02-22.middle-east` (Feb. 22, LXXV feb66.yaml): London. Healey's Defence Review, the White Paper: Britain to keep no base in Aden after South Arabia's indepen
+  - ? White: White, Lee C. (K–J Adm. III.B); White, Lincoln P. (K–J Adm. III.E); White, Byron R. (K–J Adm. III.I, K–J Cong. III.G); White, Edward H., II (K–J Cong. III.K); White, F. Clifton (Opp. III.F); White, Theodore H. (Opp. III.J, 1968 III.O)
+- `cal.1966-02-23.court` (Feb. 23, LXXV feb66.yaml): *Brown v. Louisiana*, [383 U.S. 131](https://tile.loc.gov/storage-services/service/ll/usrep/usrep383/usrep3831
+  - Fortas: Fortas, Abe (K–J Cong. III.G, 1968 III.B, Cong. III.J)
+  - Warren: Warren, Earl (K–J Cong. III.G, Cong. III.J)
+  - Douglas: Douglas, Paul H. (K–J Cong. III.B); Douglas, William O. (K–J Cong. III.G, Cong. III.J)
+  - Brennan: Brennan, William J., Jr. (K–J Cong. III.G); Brennan, Peter J. (Adm. III.F)
+  - ? White: White, Lee C. (K–J Adm. III.B); White, Lincoln P. (K–J Adm. III.E); White, Byron R. (K–J Adm. III.I, K–J Cong. III.G); White, Edward H., II (K–J Cong. III.K); White, F. Clifton (Opp. III.F); White, Theodore H. (Opp. III.J, 1968 III.O)
+  - ? Black: Black, Eugene R. (K–J Adm. III.E); Black, Hugo L. (K–J Cong. III.G)
+  - ? Clark: Clark, Ramsey (K–J Adm. III.I); Clark, Joseph S. (K–J Cong. III.B); Clark, Tom C. (K–J Cong. III.G); Clark, James G., Jr. (K–J Cong. III.K); Clark, Newman H. (K–J Cong. III.K)
 - `cal.1966-02-23.conservation` (Feb. 23–28, LXXV feb66.yaml): Natural heritage message, Feb. 23: a Clean Rivers Demonstration Program, whole river basins cleaned from sourc
   - ? Rivers: Rivers, L. Mendel (K–J Cong. III.D)
+- `cal.1966-02-25.legislatures-fl` (Feb. 25, LXXV feb66.yaml): *Swann v. Adams*, [383 U.S. 210](https://tile.loc.gov/storage-services/service/ll/usrep/usrep383/usrep383210/u
+  - Adams: Adams, Paul L. (K–J Cong. III.K); Adams, Thomas Boylston (K–J Cong. III.K); Adams, Eddie (Viet. III.F)
 - `cal.1966-02-27.opinion` (Feb. 27, LXXV feb66.yaml): Gallup, Jan. 21–26: can identify Romney, 43 percent; Republicans 56, independents 55, Democrats 33. Of all ask
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1966-02-28.south-carolina-sc` (Feb. 28, LXXV feb66.yaml): *O'Shields v. McNair*. A three-judge court, Haynsworth writing, upholds the House, 124 members apportioned amo
+  - Haynsworth: Haynsworth, Clement F., Jr. (Cong. III.J)
 - `cal.1966-03-02.transportation` (Mar. 2, LXXVI mar66.yaml): Message on transportation. A Cabinet Department of Transportation: the Federal Aviation Agency whole; the Coas
   - Lawrence: Lawrence, David L. (K–J Cong. III.F)
+- `cal.1966-03-02.press-and-broadcasting-ca` (Mar. 2, LXXVI mar66.yaml): *Weaver v. Jordan*, 64 Cal. 2d 235: the California Supreme Court holds the "Free Television Act," Proposition 
+  - Jordan: Jordan, Barbara (Cong. III.E, Wg. III.G)
+  - Mosk: Mosk, Stanley (K–J Cong. III.K)
 - `cal.1966-03-04.opinion` (Mar. 4, LXXVI mar66.yaml): Gallup, Jan. 21–26: a worker in a unionized plant required to join the union: should 42 percent, should not 49
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1966-03-06.opinion` (Mar. 6, LXXVI mar66.yaml): Gallup, Feb. 10–15: bombing industrial plants and factories in North Vietnam: favor 61 percent, oppose 26. Bom
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1966-03-07.court` (Mar. 7, LXXVI mar66.yaml): *South Carolina v. Katzenbach*, [383 U.S. 301](https://tile.loc.gov/storage-services/service/ll/usrep/usrep383
   - Katzenbach: Katzenbach, Nicholas deB. (K–J Adm. III.I); Katzenbach, Nicholas (1968 III.F)
-- `cal.1966-03-08.india-and-china` (Mar. 8–30, LXXVI mar66.yaml): The Senate Foreign Relations Committee, Fulbright presiding, hears scholars on policy toward mainland China. M
-  - Barnett: Barnett, Ross R. (K–J Cong. III.F)
+  - Warren: Warren, Earl (K–J Cong. III.G, Cong. III.J)
+  - ? Black: Black, Eugene R. (K–J Adm. III.E); Black, Hugo L. (K–J Cong. III.G)
 - `cal.1966-03-09.opinion` (Mar. 9, LXXVI mar66.yaml): Gallup, Feb. 10–15: Johnson's handling of Vietnam: approve 50 percent, disapprove 33.
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1966-03-10.vietnam` (Mar. 10–31, LXXVI mar66.yaml): The Directorate relieves Thi of the I Corps command; Kỳ had told Lodge Mar. 9 of Thi's insubordination, Lodge 
   - ? Church: Church, Frank (K–J Cong. III.B, Cong. III.B, Viet. III.E)
-- `cal.1966-03-11.india-and-china` (Mar. 11–18, LXXVI mar66.yaml): Djakarta. Sukarno, after weeks of student demonstrations and with army units about the capital, signs an order
-  - Johnson: Johnson, Lady Bird (K–J Adm. III.A, 1968 III.Q); Johnson, Lynda Bird (K–J Adm. III.A); Johnson, Luci Baines (K–J Adm. III.A); Johnson, Lyndon B. (K–J Adm. III.D, Viet. III.A); Johnson, Paul B., Jr. (K–J Cong. III.F); Johnson, Frank M., Jr. (K–J Cong. III.G); Johnson, Tom (1968 III.A); Johnson, U. Alexis (Viet. III.C)
 - `cal.1966-03-11.opinion` (Mar. 11, LXXVI mar66.yaml): Gallup, Feb. 10–15: Robert Kennedy 54 percent, Nixon 41, undecided 5. Independents: Nixon 52, Kennedy 39. Sout
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1966-03-13.opinion` (Mar. 13, LXXVI mar66.yaml): Gallup, Feb. 10–15: foreign aid in general: for 53 percent, against 35. The kinds favored: training teachers a
   - Gallup: Gallup, George H. (K–J Cong. III.J)
-- `cal.1966-03-16.space` (Mar. 16, LXXVI mar66.yaml): Gemini 8: Armstrong and Scott dock with an Agena target some six and a half hours after launch, the first dock
-  - Armstrong: Armstrong, Scott (Wg. III.F)
-  - Scott: Scott, Hugh D., Jr. (Opp. III.B, Cong. III.A, Wg. III.I)
+- `cal.1966-03-17.middle-east` (Mar. 17–31, LXXVI mar66.yaml): Aircraft for Israel and Jordan. Harman's letter, Mar. 17: Israel to buy 48 A-4 Skyhawks, and its policy not to
+  - Jordan: Jordan, Barbara (Cong. III.E, Wg. III.G)
 - `cal.1966-03-20.opinion` (Mar. 20, LXXVI mar66.yaml): Gallup, Mar. 3–8: the party one would like to see win the congressional district, by region: South, Democratic
   - Gallup: Gallup, George H. (K–J Cong. III.J)
   - West: West, Ben (K–J Cong. III.K); West, E. Gordon (K–J Cong. III.K)
 - `cal.1966-03-21.court` (Mar. 21, LXXVI mar66.yaml): Obscenity. *Memoirs v. Massachusetts*, [383 U.S. 413](https://tile.loc.gov/storage-services/service/ll/usrep/u
   - ? Hill: Hill, Lister (K–J Cong. III.B)
-- `cal.1966-03-22.transportation` (Mar. 22–29, LXXVI mar66.yaml): Ribicoff's Subcommittee on Executive Reorganization. Roche, president of General Motors: GM, through its lawye
-  - Roche: Roche, John P. (1968 III.A)
+  - ? Clark: Clark, Ramsey (K–J Adm. III.I); Clark, Joseph S. (K–J Cong. III.B); Clark, Tom C. (K–J Cong. III.G); Clark, James G., Jr. (K–J Cong. III.K); Clark, Newman H. (K–J Cong. III.K)
+  - ? White: White, Lee C. (K–J Adm. III.B); White, Lincoln P. (K–J Adm. III.E); White, Byron R. (K–J Adm. III.I, K–J Cong. III.G); White, Edward H., II (K–J Cong. III.K); White, F. Clifton (Opp. III.F); White, Theodore H. (Opp. III.J, 1968 III.O)
+  - ? Black: Black, Eugene R. (K–J Adm. III.E); Black, Hugo L. (K–J Cong. III.G)
+  - Douglas: Douglas, Paul H. (K–J Cong. III.B); Douglas, William O. (K–J Cong. III.G, Cong. III.J)
+- `cal.1966-03-24.court` (Mar. 24, LXXVI mar66.yaml): *Harper v. Virginia State Board of Elections*, [383 U.S. 663](https://tile.loc.gov/storage-services/service/ll
+  - ? Black: Black, Eugene R. (K–J Adm. III.E); Black, Hugo L. (K–J Cong. III.G)
+- `cal.1966-03-24.jobs-and-wages-il` (Mar. 24, LXXVI mar66.yaml): Illinois Supreme Court, *Motorola, Inc. v. Illinois Fair Employment Practices Commission*: the Commission's or
+  - ? Franklin: Franklin, C. L. (K–J Cong. III.K)
 - `cal.1966-03-25.opinion` (Mar. 25, LXXVI mar66.yaml): Gallup, Mar. 3–8: can identify Rusk, 65 percent; college-educated nine in ten, grade school 39. Of them, his g
   - Gallup: Gallup, George H. (K–J Cong. III.J)
-- `cal.1966-03-26.specials` (Mar. 26, LXXVI mar66.yaml): Texas 8th, special. Lera Thomas (D) holds her husband's seat, 6,120 to 2,147 over Leman (R), 74.0 percent; Alb
-  - Albert: Albert, Carl (K–J Cong. III.C, Cong. III.D)
 - `cal.1966-03-28.court` (Mar. 28, LXXVI mar66.yaml): Two cases from the South. *United States v. Price*, [383 U.S. 787](https://tile.loc.gov/storage-services/servi
   - ? Price: Price, Cecil R. (K–J Cong. III.K); Price, Raymond K., Jr. (Adm. III.B)
+  - Fortas: Fortas, Abe (K–J Cong. III.G, 1968 III.B, Cong. III.J)
 - `cal.1966-04-01.opinion` (Apr. 1, LXXVII apr66.yaml): Gallup, Mar. 3–8: a candidate for Congress who says we should try harder for a compromise peace in Vietnam: mo
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1966-04-03.opinion` (Apr. 3, LXXVII apr66.yaml): Gallup, Mar. 3–8: overall feelings about Vietnam: a necessary evil 43 percent; the United States should get ou
@@ -1047,30 +1482,43 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1966-04-10.opinion` (Apr. 10, LXXVII apr66.yaml): Gallup, Mar. 24–29: Republicans' best candidate for 1968: Nixon 27, Romney 14, Goldwater 13, Lodge 12, Dirksen
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1966-04-12.legislatures-ne` (Apr. 12, LXXVII apr66.yaml): Nebraska. The federal court sustains L.B. 925, the unicameral's apportionment of 1965, against voters of Dougl
+  - Douglas: Douglas, Paul H. (K–J Cong. III.B); Douglas, William O. (K–J Cong. III.G, Cong. III.J)
+  - ? Hall: Hall, Dave (K–J Cong. III.F); Hall, David (K–J Cong. III.F)
 - `cal.1966-04-15.opinion` (Apr. 15, LXXVII apr66.yaml): Gallup, Feb. 10–15: one's own federal income tax: too high 52 percent, about right 39, too low under 1.
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1966-04-17.opinion` (Apr. 17, LXXVII apr66.yaml): Gallup, Mar. 24–29, a peace plan: the UN to hold elections in North and South Vietnam on their governments and
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1966-04-18.court` (Apr. 18, LXXVII apr66.yaml): *Elfbrandt v. Russell*, [384 U.S. 11](https://tile.loc.gov/storage-services/service/ll/usrep/usrep384/usrep384
-  - Russell: Russell, Richard B. (K–J Cong. III.B, Viet. III.E)
+  - Russell: Russell, Richard B. (K–J Cong. III.B, Viet. III.E); Russell, Donald S. (K–J Cong. III.F)
+  - Douglas: Douglas, Paul H. (K–J Cong. III.B); Douglas, William O. (K–J Cong. III.G, Cong. III.J)
+  - ? White: White, Lee C. (K–J Adm. III.B); White, Lincoln P. (K–J Adm. III.E); White, Byron R. (K–J Adm. III.I, K–J Cong. III.G); White, Edward H., II (K–J Cong. III.K); White, F. Clifton (Opp. III.F); White, Theodore H. (Opp. III.J, 1968 III.O)
+  - ? Clark: Clark, Ramsey (K–J Adm. III.I); Clark, Joseph S. (K–J Cong. III.B); Clark, Tom C. (K–J Cong. III.G); Clark, James G., Jr. (K–J Cong. III.K); Clark, Newman H. (K–J Cong. III.K)
 - `cal.1966-04-20.opinion` (Apr. 20, LXXVII apr66.yaml): Gallup, Mar. 24–29: Johnson's handling of Vietnam: approve 54 percent, disapprove 31.
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1966-04-21.vietnam` (Apr. 21, LXXVII apr66.yaml): Fulbright at the Johns Hopkins School of Advanced International Studies, the first of three Christian A. Herte
+  - Johns: Johns, Charley E. (K–J Cong. III.K)
   - ? Christian: Christian, George (K–J Adm. III.C, 1968 III.A)
+  - Herter: Herter, Christian A. (Opp. III.E)
+  - Power: Power, Thomas S. (K–J Adm. III.F)
 - `cal.1966-04-22.opinion` (Apr. 22, LXXVII apr66.yaml): Gallup, Mar. 24–29: Communist China admitted to the UN: should 25 percent, should not 55. If the UN votes to a
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1966-04-25.legislatures-hi` (Apr. 25, LXXVII apr66.yaml): *Burns v. Richardson*, [384 U.S. 73](https://tile.loc.gov/storage-services/service/ll/usrep/usrep384/usrep3840
+  - Richardson: Richardson, Gloria (K–J Cong. III.K); Richardson, Elliot L. (Adm. III.F, Wg. III.E); Richardson, John H. (Viet. III.C)
+  - Brennan: Brennan, William J., Jr. (K–J Cong. III.G); Brennan, Peter J. (Adm. III.F)
 - `cal.1966-04-27.opinion` (Apr. 27, LXXVII apr66.yaml): Gallup, Mar. 24–29, Republicans: the best reasons Republican candidates for Congress can give this fall, by fr
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1966-04-29.opinion` (Apr. 29, LXXVII apr66.yaml): Gallup, Mar. 24–29, Democrats: the best reasons Democratic candidates for Congress can give this fall, by freq
   - Gallup: Gallup, George H. (K–J Cong. III.J)
-- `cal.1966-05-03.elections-1966` (May 3, LXXVIII may66.yaml): Alabama's Democratic primary, the first since the Voting Rights Act. Lurleen Wallace, standing for her husband
-  - Flowers: Flowers, Walter (Wg. III.G)
-  - Wilson: Wilson, Henry Hall (K–J Adm. III.C); Wilson, Harold (K–J Adm. III.J); Wilson, Bob (Opp. III.C)
-  - ? Baker: Baker, Ella (K–J Cong. III.H); Baker, Irene Bailey (K–J Cong. III.K); Baker, Robert G. (K–J Cong. III.K); Baker, Howard H., Jr. (Cong. III.C, Wg. III.F)
 - `cal.1966-05-06.opinion` (May 6, LXXVIII may66.yaml): Gallup, Mar. 24–29: have heard or read of the antipoverty program, 80 percent. Of them, a program in their are
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1966-05-10.open-housing-ca` (May 10, LXXVIII may66.yaml): *Mulkey v. Reitman*, 64 Cal. 2d 529: the California Supreme Court holds Proposition 14, Art. I, § 26 of the St
+  - Unruh: Unruh, Jesse M. (Cong. III.I)
+  - Peek: Peek, Paul (K–J Cong. III.K)
+  - ? White: White, Lee C. (K–J Adm. III.B); White, Lincoln P. (K–J Adm. III.E); White, Byron R. (K–J Adm. III.I, K–J Cong. III.G); White, Edward H., II (K–J Cong. III.K); White, F. Clifton (Opp. III.F); White, Theodore H. (Opp. III.J, 1968 III.O)
+  - Mosk: Mosk, Stanley (K–J Cong. III.K)
 - `cal.1966-05-11.vietnam` (May 11–17, LXXVIII may66.yaml): Johnson on the war's critics. At the Woodrow Wilson School, Princeton, N.J., May 11: "The exercise of power in
-  - Wilson: Wilson, Henry Hall (K–J Adm. III.C); Wilson, Harold (K–J Adm. III.J); Wilson, Bob (Opp. III.C)
+  - Wilson: Wilson, Henry Hall (K–J Adm. III.C); Wilson, Harold (K–J Adm. III.J); Wilson, Will R. (K–J Cong. III.K); Wilson, Bob (Opp. III.C)
 - `cal.1966-05-11.opinion` (May 11, LXXVIII may66.yaml): Gallup, Apr. 14–19: have heard of the suggestion from Washington of higher income taxes, 68 percent. Of them, 
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1966-05-11.opinion-2` (May 11, LXXVIII may66.yaml): Gallup, Apr. 14–19: prices and wages frozen for as long as the war in Vietnam lasts: a good idea 42 percent, a
@@ -1080,15 +1528,19 @@ the person; several mean the surname is shared). "?" marks a surname that is als
 - `cal.1966-05-15.opinion` (May 15, LXXVIII may66.yaml): Gallup, Apr. 14–19: the chief reason for auto accidents: careless drivers 60 percent; speeding 31; drinking 21
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1966-05-16.civil-rights-organizations` (May 16, LXXVIII may66.yaml): SNCC's staff, meeting at Kingston Springs, Tenn., re-elects Lewis chairman, then, after Worth Long challenges 
-  - ? Long: Long, Russell B. (K–J Cong. III.A)
   - Ruby: Ruby, Jack (K–J Cong. III.K)
-  - Smith: Smith, Stephen E. (K–J Adm. III.A); Smith, Howard W. (K–J Cong. III.D); Smith, Howard K. (K–J Cong. III.K); Smith, Margaret Chase (Opp. III.A, Cong. III.A); Smith, Gerard C. (Adm. III.D)
+  - Smith: Smith, Stephen E. (K–J Adm. III.A); Smith, Ian Douglas (K–J Adm. III.J); Smith, Benjamin A., II (K–J Cong. III.B); Smith, Howard W. (K–J Cong. III.D); Smith, Hulett C. (K–J Cong. III.F); Smith, Frank E. (K–J Cong. III.K); Smith, Howard K. (K–J Cong. III.K); Smith, Vernon K. (K–J Cong. III.K); Smith, Margaret Chase (Opp. III.A, Cong. III.A); Smith, Gerard C. (Adm. III.D)
 - `cal.1966-05-18.opinion` (May 18, LXXVIII may66.yaml): Gallup, Jan. 21–26: a constitutional amendment to abolish the Electoral College and elect the President by the
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1966-05-20.opinion` (May 20, LXXVIII may66.yaml): Gallup, May 5–10: Johnson's handling of Vietnam: approve 47 percent, disapprove 35. Democrats 57 approve; inde
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1966-05-21.mississippi-ms` (May 21, LXXVIII may66.yaml): Paul Johnson signs the Local Option Alcoholic Beverage Control Law: statewide prohibition ends; each county to
+  - ? Jackson: Jackson, Henry M. (K–J Cong. III.B, Cong. III.B); Jackson, Jimmie Lee (K–J Cong. III.K)
 - `cal.1966-05-22.opinion` (May 22, LXXVIII may66.yaml): Gallup, Apr. 14–19: if the South Vietnamese start fighting among themselves on a big scale: continue to help t
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1966-05-24.elections-1966` (May 24, LXXVIII may66.yaml): Oregon's primary, for Maurine Neuberger's Senate seat. Democratic: U.S. Representative Robert Duncan, for the 
+  - Howard: Howard, Lisa (K–J Cong. III.J)
+  - Power: Power, Thomas S. (K–J Adm. III.F)
 - `cal.1966-05-25.opinion` (May 25, LXXVIII may66.yaml): Gallup, Apr. 14–19: Johnson 54 percent, Nixon 36, undecided 10.
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1966-05-27.opinion` (May 27, LXXVIII may66.yaml): Gallup, May 5–10: the most important problem: Vietnam 45 percent; the cost of living 16; civil rights 9; threa
@@ -1102,60 +1554,88 @@ the person; several mean the surname is shared). "?" marks a surname that is als
 - `cal.1966-06-03.opinion` (June 3, LXXIX jun66.yaml): Gallup, May 5–10: the United States made a mistake sending troops to fight in Vietnam: yes 36 percent, no 49. 
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1966-06-04.africa` (June 4–9, LXXIX jun66.yaml): Robert Kennedy in South Africa, invited by the National Union of South African Students, whose president, Ian 
-  - Robertson: Robertson, Carole (K–J Cong. III.K)
-  - ? Day: Day, J. Edward (K–J Adm. III.G)
+  - ? Day: Day, J. Edward (K–J Adm. III.G); Day, William S. (K–J Cong. III.K)
 - `cal.1966-06-06.mississippi` (June 6–9, LXXIX jun66.yaml): Meredith, walking alone from Memphis to Jackson since June 5 "against fear," shot from the roadside south of H
   - ? Jackson: Jackson, Henry M. (K–J Cong. III.B, Cong. III.B); Jackson, Jimmie Lee (K–J Cong. III.K)
-- `cal.1966-06-06.india-and-china` (June 6, LXXIX jun66.yaml): India devalues the rupee, from 4.76 to 7.50 to the dollar, the first step of the program Asoka Mehta worked ou
-  - Johnson: Johnson, Lady Bird (K–J Adm. III.A, 1968 III.Q); Johnson, Lynda Bird (K–J Adm. III.A); Johnson, Luci Baines (K–J Adm. III.A); Johnson, Lyndon B. (K–J Adm. III.D, Viet. III.A); Johnson, Paul B., Jr. (K–J Cong. III.F); Johnson, Frank M., Jr. (K–J Cong. III.G); Johnson, Tom (1968 III.A); Johnson, U. Alexis (Viet. III.C)
+- `cal.1966-06-06.court` (June 6, LXXIX jun66.yaml): *Sheppard v. Maxwell*, [384 U.S. 333](https://tile.loc.gov/storage-services/service/ll/usrep/usrep384/usrep384
+  - ? Clark: Clark, Ramsey (K–J Adm. III.I); Clark, Joseph S. (K–J Cong. III.B); Clark, Tom C. (K–J Cong. III.G); Clark, James G., Jr. (K–J Cong. III.K); Clark, Newman H. (K–J Cong. III.K)
+  - ? Black: Black, Eugene R. (K–J Adm. III.E); Black, Hugo L. (K–J Cong. III.G)
 - `cal.1966-06-07.specials` (June 7, LXXIX jun66.yaml): California 14th, special, held with the primary. Waldie (D), majority leader of the State Assembly, takes the 
   - Richardson: Richardson, Gloria (K–J Cong. III.K); Richardson, Elliot L. (Adm. III.F, Wg. III.E); Richardson, John H. (Viet. III.C)
 - `cal.1966-06-08.opinion` (June 8, LXXIX jun66.yaml): Gallup, May 19–24: Johnson's handling of Vietnam: approve 41 percent, disapprove 37. Democrats 49 approve; Rep
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1966-06-12.opinion` (June 12, LXXIX jun66.yaml): Gallup, special survey of 1,597 Republican county chairmen, their own choice for 1968 from a list of thirteen:
   - Gallup: Gallup, George H. (K–J Cong. III.J)
-  - Morton: Morton, Thruston B. (Opp. III.B)
+- `cal.1966-06-13.court` (June 13, LXXIX jun66.yaml): *Miranda v. Arizona*, [384 U.S. 436](https://tile.loc.gov/storage-services/service/ll/usrep/usrep384/usrep3844
+  - Warren: Warren, Earl (K–J Cong. III.G, Cong. III.J)
+  - ? Clark: Clark, Ramsey (K–J Adm. III.I); Clark, Joseph S. (K–J Cong. III.B); Clark, Tom C. (K–J Cong. III.G); Clark, James G., Jr. (K–J Cong. III.K); Clark, Newman H. (K–J Cong. III.K)
+  - ? White: White, Lee C. (K–J Adm. III.B); White, Lincoln P. (K–J Adm. III.E); White, Byron R. (K–J Adm. III.I, K–J Cong. III.G); White, Edward H., II (K–J Cong. III.K); White, F. Clifton (Opp. III.F); White, Theodore H. (Opp. III.J, 1968 III.O)
 - `cal.1966-06-13.court-2` (June 13, LXXIX jun66.yaml): *Katzenbach v. Morgan*, [384 U.S. 641](https://tile.loc.gov/storage-services/service/ll/usrep/usrep384/usrep38
   - Katzenbach: Katzenbach, Nicholas deB. (K–J Adm. III.I); Katzenbach, Nicholas (1968 III.F)
+  - Morgan: Morgan, Thomas E. (K–J Cong. III.D); Morgan, Howard (K–J Cong. III.K)
+  - Brennan: Brennan, William J., Jr. (K–J Cong. III.G); Brennan, Peter J. (Adm. III.F)
 - `cal.1966-06-13.opinion` (June 13, LXXIX jun66.yaml): Gallup, the same county chairmen: Nixon able to beat Johnson in 1968: yes 59 percent, no 30. East 45 and 44; M
   - Gallup: Gallup, George H. (K–J Cong. III.J)
   - West: West, Ben (K–J Cong. III.K); West, E. Gordon (K–J Cong. III.K)
 - `cal.1966-06-14.opinion` (June 14, LXXIX jun66.yaml): Gallup, the same county chairmen: the best reasons Republican candidates for Congress can give this year: Viet
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1966-06-14.south-carolina-sc` (June 14, LXXIX jun66.yaml): South Carolina's Democratic primary. Senate, for Johnston's unexpired term: Hollings 60.8 percent, U.S. Senato
+  - Johnston: Johnston, Olin D. (K–J Cong. III.B)
 - `cal.1966-06-15.opinion` (June 15, LXXIX jun66.yaml): Gallup, the same county chairmen, their feelings about the war: go all-out to win 29 percent; go all-out or ge
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1966-06-16.mississippi` (June 16, LXXIX jun66.yaml): Greenwood. Carmichael, arrested for pitching the marchers' tents on a Negro school's grounds and released, at 
-  - ? Black: Black, Hugo L. (K–J Cong. III.G)
+  - ? Black: Black, Eugene R. (K–J Adm. III.E); Black, Hugo L. (K–J Cong. III.G)
+  - Power: Power, Thomas S. (K–J Adm. III.F)
 - `cal.1966-06-19.opinion` (June 19, LXXIX jun66.yaml): Gallup, May 19–24: a vote on the war in the next few months: continue it 48 percent, withdraw the troops 35. T
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1966-06-20.court` (June 20, LXXIX jun66.yaml): *Schmerber v. California*, [384 U.S. 757](https://tile.loc.gov/storage-services/service/ll/usrep/usrep384/usre
-  - Johnson: Johnson, Lady Bird (K–J Adm. III.A, 1968 III.Q); Johnson, Lynda Bird (K–J Adm. III.A); Johnson, Luci Baines (K–J Adm. III.A); Johnson, Lyndon B. (K–J Adm. III.D, Viet. III.A); Johnson, Paul B., Jr. (K–J Cong. III.F); Johnson, Frank M., Jr. (K–J Cong. III.G); Johnson, Tom (1968 III.A); Johnson, U. Alexis (Viet. III.C)
+  - Brennan: Brennan, William J., Jr. (K–J Cong. III.G); Brennan, Peter J. (Adm. III.F)
+  - Warren: Warren, Earl (K–J Cong. III.G, Cong. III.J)
+  - ? Black: Black, Eugene R. (K–J Adm. III.E); Black, Hugo L. (K–J Cong. III.G)
+  - Douglas: Douglas, Paul H. (K–J Cong. III.B); Douglas, William O. (K–J Cong. III.G, Cong. III.J)
+  - Fortas: Fortas, Abe (K–J Cong. III.G, 1968 III.B, Cong. III.J)
+  - Johnson: Johnson, Lady Bird (K–J Adm. III.A, 1968 III.Q); Johnson, Lynda Bird (K–J Adm. III.A); Johnson, Luci Baines (K–J Adm. III.A); Johnson, Lyndon B. (K–J Adm. III.D, Viet. III.A); Johnson, Harold K. (K–J Adm. III.F); Johnson, Paul B., Jr. (K–J Cong. III.F); Johnson, Frank M., Jr. (K–J Cong. III.G); Johnson, Albert W. (K–J Cong. III.K); Johnson, James D. (K–J Cong. III.K); Johnson, Leroy R. (K–J Cong. III.K); Johnson, Matthew (K–J Cong. III.K); Johnson, N. B. (K–J Cong. III.K); Johnson, Robert H. (K–J Cong. III.K); Johnson, Tom (1968 III.A); Johnson, U. Alexis (Viet. III.C)
+- `cal.1966-06-20.court-2` (June 20, LXXIX jun66.yaml): Removal of civil rights prosecutions to federal court, 28 U.S.C. § 1443. *Georgia v. Rachel*, [384 U.S. 780](h
+  - Douglas: Douglas, Paul H. (K–J Cong. III.B); Douglas, William O. (K–J Cong. III.G, Cong. III.J)
+  - Warren: Warren, Earl (K–J Cong. III.G, Cong. III.J)
+  - Brennan: Brennan, William J., Jr. (K–J Cong. III.G); Brennan, Peter J. (Adm. III.F)
+  - Fortas: Fortas, Abe (K–J Cong. III.G, 1968 III.B, Cong. III.J)
 - `cal.1966-06-21.mississippi` (June 21–26, LXXIX jun66.yaml): Philadelphia. King leads a memorial march for Chaney, Goodman and Schwerner, June 21; whites attack the marche
   - ? Jackson: Jackson, Henry M. (K–J Cong. III.B, Cong. III.B); Jackson, Jimmie Lee (K–J Cong. III.K)
+- `cal.1966-06-21.middle-east` (June 21–23, LXXIX jun66.yaml): King Faisal at the White House, June 21–22; over an hour alone with Johnson. Development, Saudi integrity, Sou
+  - ? King: King, Cecil R. (K–J Cong. III.D); King, John W. (K–J Cong. III.F); King, Marion (K–J Cong. III.H); King, Martin Luther, Jr. (K–J Cong. III.H, Viet. III.E); King, Coretta Scott (K–J Cong. III.K); King, Edwin (K–J Cong. III.K); King, Martin Luther, Sr. (K–J Cong. III.K); King, Tom (K–J Cong. III.K)
 - `cal.1966-06-24.opinion` (June 24, LXXIX jun66.yaml): Gallup, special survey of college students: Johnson's handling of Vietnam: approve 47 percent, disapprove 47. 
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1966-06-27.economy` (June 27, LXXIX jun66.yaml): The Federal Reserve Board raises member banks' reserve requirement on time deposits other than savings, on eac
   - ? Banks: Banks, Dennis (Cong. III.K)
-- `cal.1966-06-28.latin-america` (June 28–29, LXXIX jun66.yaml): Argentina. The army under Pistarini deposes Illia before dawn, June 28; the commanders in chief name Onganía, 
-  - Johnson: Johnson, Lady Bird (K–J Adm. III.A, 1968 III.Q); Johnson, Lynda Bird (K–J Adm. III.A); Johnson, Luci Baines (K–J Adm. III.A); Johnson, Lyndon B. (K–J Adm. III.D, Viet. III.A); Johnson, Paul B., Jr. (K–J Cong. III.F); Johnson, Frank M., Jr. (K–J Cong. III.G); Johnson, Tom (1968 III.A); Johnson, U. Alexis (Viet. III.C)
 - `cal.1966-07-01.opinion` (July 1, LXXX jul66.yaml): Gallup, May 19–24: the death penalty for persons convicted of murder: for 42 percent, against 47. Men 47 for; 
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1966-07-02.defense` (July 2, LXXX jul66.yaml): Executive order: a National Advisory Commission on Selective Service, twenty members, Burke Marshall chairman;
-  - Burke: Burke, Arleigh A. (K–J Adm. III.F)
+  - Burke: Burke, Arleigh A. (K–J Adm. III.F); Burke, Joe (K–J Cong. III.K)
+- `cal.1966-07-02.states-and-cities-omaha` (July 2–7, LXXX jul66.yaml): Omaha. Negro youths at the Safeway and Skaggs lot at 24th and Lake, the night of July 2; rocks at a police car
+  - ? Lake: Lake, I. Beverly (K–J Cong. III.K); Lake, Anthony (Adm. III.D)
 - `cal.1966-07-03.opinion` (July 3, LXXX jul66.yaml): Gallup, June 16–21: all young men to give two years' service, in the armed forces or in nonmilitary work here 
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1966-07-04.jobs-and-wages-tx` (July 4–Sept. 5, LXXX jul66.yaml): Texas farm workers' march. Melon pickers on strike in Starr County since June 1, for $1.25 an hour, march from
+  - ? Day: Day, J. Edward (K–J Adm. III.G); Day, William S. (K–J Cong. III.K)
 - `cal.1966-07-06.opinion` (July 6, LXXX jul66.yaml): Gallup, special survey of male college students: students deferred from the draft: yes 82 percent, no 14. If s
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1966-07-08.opinion` (July 8, LXXX jul66.yaml): Gallup, June 16–21: France a dependable ally of the United States: yes 16 percent, no 56. College-educated 66 
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1966-07-10.open-housing` (July 10–11, LXXX jul66.yaml): Chicago. "Freedom Sunday": King at Soldier Field, some 35,000 by UPI's count (Check), then a march to City Hal
+  - ? Hall: Hall, Dave (K–J Cong. III.F); Hall, David (K–J Cong. III.F)
 - `cal.1966-07-10.opinion` (July 10, LXXX jul66.yaml): Gallup, June 16–21: the convention's choice between Romney and Nixon: Romney 45 percent, Nixon 43. Republicans
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1966-07-12.open-housing` (July 12–15, LXXX jul66.yaml): Rioting on Chicago's West Side, July 12–15, begun when police shut off a fire hydrant opened against the heat 
   - West: West, Ben (K–J Cong. III.K); West, E. Gordon (K–J Cong. III.K)
 - `cal.1966-07-12.india-and-china` (July 12, LXXX jul66.yaml): Johnson to the American Alumni Council, from the White House theater, his flight to White Sulphur Springs, W. 
-  - ? White: White, Lee C. (K–J Adm. III.B); White, Byron R. (K–J Adm. III.I, K–J Cong. III.G); White, Edward H., II (K–J Cong. III.K); White, F. Clifton (Opp. III.F); White, Theodore H. (Opp. III.J, 1968 III.O)
+  - ? White: White, Lee C. (K–J Adm. III.B); White, Lincoln P. (K–J Adm. III.E); White, Byron R. (K–J Adm. III.I, K–J Cong. III.G); White, Edward H., II (K–J Cong. III.K); White, F. Clifton (Opp. III.F); White, Theodore H. (Opp. III.J, 1968 III.O)
+- `cal.1966-07-12.elections-1966` (July 12, LXXX jul66.yaml): Virginia's Democratic primaries. Spong, a State senator, defeats Robertson, a Senator since 1946, 216,885 to 2
+  - Howard: Howard, Lisa (K–J Cong. III.J)
 - `cal.1966-07-13.opinion` (July 13, LXXX jul66.yaml): Gallup, June 16–21: the party more likely to keep the country out of World War III: Republican 30 percent, Dem
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1966-07-14.africa` (July 14–18, LXXX jul66.yaml): South West Africa. The NSC, July 14: Ball expects the World Court to rule against South Africa; avoid economic
+  - West: West, Ben (K–J Cong. III.K); West, E. Gordon (K–J Cong. III.K)
 - `cal.1966-07-17.opinion` (July 17, LXXX jul66.yaml): Gallup, June 16–21: Johnson 48 percent, Romney 44; Johnson 51, Nixon 40. Midwest: Romney 51, Johnson 40; Nixon
   - Gallup: Gallup, George H. (K–J Cong. III.J)
   - West: West, Ben (K–J Cong. III.K); West, E. Gordon (K–J Cong. III.K)
@@ -1163,22 +1643,25 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1966-07-22.opinion` (July 22, LXXX jul66.yaml): Gallup, special survey of students at 60 colleges and universities: the Republican with the greatest appeal: R
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1966-07-22.mississippi-ms` (July 22, LXXX jul66.yaml): *Connor v. Johnson*. A three-judge court, Coleman and Cox among the three, on a suit of Negro voters and the F
+  - Connor: Connor, John T. (K–J Adm. III.G); Connor, Eugene (K–J Cong. III.K)
+  - Johnson: Johnson, Lady Bird (K–J Adm. III.A, 1968 III.Q); Johnson, Lynda Bird (K–J Adm. III.A); Johnson, Luci Baines (K–J Adm. III.A); Johnson, Lyndon B. (K–J Adm. III.D, Viet. III.A); Johnson, Harold K. (K–J Adm. III.F); Johnson, Paul B., Jr. (K–J Cong. III.F); Johnson, Frank M., Jr. (K–J Cong. III.G); Johnson, Albert W. (K–J Cong. III.K); Johnson, James D. (K–J Cong. III.K); Johnson, Leroy R. (K–J Cong. III.K); Johnson, Matthew (K–J Cong. III.K); Johnson, N. B. (K–J Cong. III.K); Johnson, Robert H. (K–J Cong. III.K); Johnson, Tom (1968 III.A); Johnson, U. Alexis (Viet. III.C)
+  - Coleman: Coleman, Kevin K. (K–J Cong. III.F); Coleman, J. P. (K–J Cong. III.K); Coleman, Thomas L. (K–J Cong. III.K); Coleman, William T., Jr. (K–J Cong. III.K)
+  - ? Cox: Cox, Jack (K–J Cong. III.F); Cox, Archibald (K–J Cong. III.G, Wg. III.E); Cox, W. Harold (K–J Cong. III.G); Cox, Tricia Nixon (Adm. III.A)
 - `cal.1966-07-24.opinion` (July 24, LXXX jul66.yaml): Gallup, July 8–13: Johnson's handling of Vietnam: approve 49 percent, disapprove 35.
   - Gallup: Gallup, George H. (K–J Cong. III.J)
-- `cal.1966-07-26.elections-1966` (July 26–Aug. 9, LXXX jul66.yaml): Arkansas, governor; Faubus not running. Democratic primary, July 26: Jim Johnson first, Holt second. Runoff, A
-  - Johnson: Johnson, Lady Bird (K–J Adm. III.A, 1968 III.Q); Johnson, Lynda Bird (K–J Adm. III.A); Johnson, Luci Baines (K–J Adm. III.A); Johnson, Lyndon B. (K–J Adm. III.D, Viet. III.A); Johnson, Paul B., Jr. (K–J Cong. III.F); Johnson, Frank M., Jr. (K–J Cong. III.G); Johnson, Tom (1968 III.A); Johnson, U. Alexis (Viet. III.C)
 - `cal.1966-07-27.opinion` (July 27, LXXX jul66.yaml): Gallup, July 8–13, of those who had followed it, about four in ten: the Supreme Court's ruling that a suspect 
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1966-07-29.opinion` (July 29, LXXX jul66.yaml): Gallup, June 16–21, whites: would move if colored people came to live next door: yes, definitely 13 percent; m
   - Gallup: Gallup, George H. (K–J Cong. III.J)
-- `cal.1966-08-08.india-and-china` (Aug. 8–18, LXXXI aug66.yaml): Peking. The Central Committee's plenum, Aug. 1–12, adopts the Sixteen Points on the Great Proletarian Cultural
-  - Johnson: Johnson, Lady Bird (K–J Adm. III.A, 1968 III.Q); Johnson, Lynda Bird (K–J Adm. III.A); Johnson, Luci Baines (K–J Adm. III.A); Johnson, Lyndon B. (K–J Adm. III.D, Viet. III.A); Johnson, Paul B., Jr. (K–J Cong. III.F); Johnson, Frank M., Jr. (K–J Cong. III.G); Johnson, Tom (1968 III.A); Johnson, U. Alexis (Viet. III.C)
+- `cal.1966-08-04.elections-1966` (Aug. 4, LXXXI aug66.yaml): Tennessee, Democratic Senate primary: Clement, the governor, defeats Bass, 384,322 to 366,079; Bass had won th
+  - Howard: Howard, Lisa (K–J Cong. III.J)
 - `cal.1966-08-12.opinion` (Aug. 12, LXXXI aug66.yaml): Gallup, July 29–Aug. 3: Johnson too friendly to labor unions, 25 percent; not friendly enough, 10; about right
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1966-08-14.opinion` (Aug. 14, LXXXI aug66.yaml): Gallup, July 29–Aug. 3: the party one would like to see win the congressional district: Democratic 54 percent,
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1966-08-16.students` (Aug. 16–19, LXXXI aug66.yaml): House Un-American Activities Committee, hearings on Pool's bill, H.R. 12047, and others: aid to an enemy in an
-  - ? Day: Day, J. Edward (K–J Adm. III.G)
+  - ? Day: Day, J. Edward (K–J Adm. III.G); Day, William S. (K–J Cong. III.K)
 - `cal.1966-08-17.opinion` (Aug. 17, LXXXI aug66.yaml): Gallup, July 29–Aug. 3: Negro families in the smaller towns and cities of the North have a better life than th
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1966-08-21.opinion` (Aug. 21, LXXXI aug66.yaml): Gallup, July 29–Aug. 4: Robert Kennedy 55 percent, Romney 39. Democrats' choice for 1968: Kennedy 40, Johnson 
@@ -1187,41 +1670,46 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1966-08-25.civil-rights-the-executive` (Aug. 25, LXXXI aug66.yaml): Randolph and Heineman bring the report of the White House Conference "To Fulfill These Rights," held June 1–2,
   - Clifford: Clifford, Clark (1968 III.E); Clifford, Clark M. (Viet. III.A)
+- `cal.1966-08-26.open-housing` (Aug. 26, LXXXI aug66.yaml): Chicago. The summit, from Aug. 17: Daley and the city, the Real Estate Board, the Housing Authority, churches,
+  - Palmer: Palmer, Bruce, Jr. (K–J Adm. III.F)
 - `cal.1966-08-26.opinion` (Aug. 26, LXXXI aug66.yaml): Gallup, July 29–Aug. 3: can name their Congressman, 46 percent. Men 54; women 40. Republicans 61; independents
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1966-08-28.opinion` (Aug. 28, LXXXI aug66.yaml): Gallup, July 29–Aug. 3: no strike to last more than seven days, a committee appointed by the Government then t
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1966-08-31.opinion` (Aug. 31, LXXXI aug66.yaml): Gallup, special survey in Britain: the United States to continue its efforts in South Vietnam, 37 percent; pul
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1966-09-01.states-and-cities-dayton` (Sept. 1, LXXXII sep66.yaml): Dayton. Lester Mitchell, a Negro, shot dead from a passing car while sweeping the walk before his bar on West 
+  - West: West, Ben (K–J Cong. III.K); West, E. Gordon (K–J Cong. III.K)
 - `cal.1966-09-04.open-housing` (Sept. 4, LXXXII sep66.yaml): Cicero. Robert Lucas of Chicago CORE leads some 250 marchers (Check) into the town, the march King gave up und
-  - ? White: White, Lee C. (K–J Adm. III.B); White, Byron R. (K–J Adm. III.I, K–J Cong. III.G); White, Edward H., II (K–J Cong. III.K); White, F. Clifton (Opp. III.F); White, Theodore H. (Opp. III.J, 1968 III.O)
+  - ? White: White, Lee C. (K–J Adm. III.B); White, Lincoln P. (K–J Adm. III.E); White, Byron R. (K–J Adm. III.I, K–J Cong. III.G); White, Edward H., II (K–J Cong. III.K); White, F. Clifton (Opp. III.F); White, Theodore H. (Opp. III.J, 1968 III.O)
 - `cal.1966-09-04.opinion` (Sept. 4, LXXXII sep66.yaml): Gallup, special survey of persons drawn from *Who's Who in America*, 1966: what they would do about Vietnam if
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1966-09-07.opinion` (Sept. 7, LXXXII sep66.yaml): Gallup, Aug. 18–23: Communist China to send many troops if the North Vietnamese show signs of giving in: will 
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1966-09-07.governors-ny` (Sept. 7–8, LXXXII sep66.yaml): New York's conventions. Democrats at Buffalo, Sept. 7: O'Connor, president of the City Council, nominated for 
+  - ? Franklin: Franklin, C. L. (K–J Cong. III.K)
 - `cal.1966-09-09.transportation` (Sept. 9, LXXXII sep66.yaml): National Traffic and Motor Vehicle Safety Act, [80 Stat. 718](https://www.govinfo.gov/content/pkg/STATUTE-80/p
-  - ? Day: Day, J. Edward (K–J Adm. III.G)
+  - ? Day: Day, J. Edward (K–J Adm. III.G); Day, William S. (K–J Cong. III.K)
 - `cal.1966-09-09.opinion` (Sept. 9, LXXXII sep66.yaml): Gallup, Aug. 18–23: the United States to begin letting South Vietnam take on more of the fighting: yes 62 perc
   - Gallup: Gallup, George H. (K–J Cong. III.J)
-- `cal.1966-09-11.vietnam` (Sept. 11, LXXXII sep66.yaml): South Vietnam elects a Constituent Assembly: 117 seats, 532 candidates. Some four-fifths of the 5,288,512 regi
-  - Johnson: Johnson, Lady Bird (K–J Adm. III.A, 1968 III.Q); Johnson, Lynda Bird (K–J Adm. III.A); Johnson, Luci Baines (K–J Adm. III.A); Johnson, Lyndon B. (K–J Adm. III.D, Viet. III.A); Johnson, Paul B., Jr. (K–J Cong. III.F); Johnson, Frank M., Jr. (K–J Cong. III.G); Johnson, Tom (1968 III.A); Johnson, U. Alexis (Viet. III.C)
 - `cal.1966-09-11.opinion` (Sept. 11, LXXXII sep66.yaml): Gallup, Aug. 18–23: the most important problem: Vietnam 56 percent; racial problems 24; inflation 16. The part
   - Gallup: Gallup, George H. (K–J Cong. III.J)
-- `cal.1966-09-13.elections-1966` (Sept. 13, LXXXII sep66.yaml): Primaries. Maryland: Mahoney, a Baltimore paving contractor, on "Your home is your castle—protect it," wins th
-  - Thomas: Thomas, Albert (K–J Cong. III.D); Thomas, Daniel H. (K–J Cong. III.K)
-  - Adams: Adams, Eddie (Viet. III.F)
-- `cal.1966-09-14.elections-1966` (Sept. 14–28, LXXXII sep66.yaml): Georgias Democratic primary for governor. Arnall, governor 1943–47, first, 231,480; Maddox, who closed his Atl
-  - Gray: Gray, Fred D. (K–J Cong. III.K); Gray, Victoria Jackson (K–J Cong. III.K); Gray, L. Patrick, III (Adm. III.H, Wg. III.I)
+- `cal.1966-09-13.states-and-cities-nyc` (Sept. 13, LXXXII sep66.yaml): New York. Percy Sutton, Assemblyman from Harlem, chosen Manhattan's borough president in Motley's place, she h
+  - Percy: Percy, Charles H. (Opp. III.B, Cong. III.C)
+- `cal.1966-09-13.governors-az` (Sept. 13, LXXXII sep66.yaml): Arizona's primary, for governor. Democratic: Governor Goddard 63,180, 44.9 percent; Green 53,921, 38.3. Republ
+  - ? Jack: Jack, William M. (K–J Cong. III.K)
+- `cal.1966-09-13.governors-ma` (Sept. 13, LXXXII sep66.yaml): Massachusetts primary. McCormack, once attorney general, Democratic nominee for governor over O'Donnell, Kenne
+  - Kennedy: Kennedy, Jacqueline (K–J Adm. III.A); Kennedy, Joseph P. (K–J Adm. III.A); Kennedy, Robert F. (K–J Adm. III.A, K–J Cong. III.B, 1968 III.K); Kennedy, Edward M. (K–J Cong. III.B, 1968 III.K, 1968 III.P, Cong. III.A); Kennedy, John F. (Viet. III.A)
+- `cal.1966-09-14.elections-1966` (Sept. 14–28, LXXXII sep66.yaml): Georgia's Democratic primary for governor. Arnall, governor 1943–47, first, 231,480; Maddox, who closed his At
+  - Gray: Gray, Fred D. (K–J Cong. III.K); Gray, Victoria Jackson (K–J Cong. III.K); Gray, Gordon (Opp. III.E); Gray, L. Patrick, III (Adm. III.H, Wg. III.I)
 - `cal.1966-09-14.opinion` (Sept. 14, LXXXII sep66.yaml): Gallup, Aug. 18–23: a police permit required to buy a gun: favor 68 percent, oppose 29; gun owners 56 and 41. 
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1966-09-16.opinion` (Sept. 16, LXXXII sep66.yaml): Gallup, Aug. 18–23: how the war will end: an American victory 21 percent; a stalemate or negotiations 27, Kore
   - Gallup: Gallup, George H. (K–J Cong. III.J)
-- `cal.1966-09-21.court` (Sept. 21, LXXXII sep66.yaml): Dirksens amendment to permit voluntary prayer in the public schools fails in the Senate, [49–37]({VS(451)}), n
-  - ? Day: Day, J. Edward (K–J Adm. III.G)
+- `cal.1966-09-21.court` (Sept. 21, LXXXII sep66.yaml): Dirksen's amendment to permit voluntary prayer in the public schools fails in the Senate, [49–37](https://vote
+  - ? Day: Day, J. Edward (K–J Adm. III.G); Day, William S. (K–J Cong. III.K)
 - `cal.1966-09-21.opinion` (Sept. 21, LXXXII sep66.yaml): Gallup, Sept. 8–13: Johnson's handling of Vietnam: approve 43 percent, disapprove 40. Democrats 53 approve, 30
   - Gallup: Gallup, George H. (K–J Cong. III.J)
-- `cal.1966-09-22.vietnam` (Sept. 22, LXXXII sep66.yaml): Goldberg to the General Assembly at the opening of its 21st session: the United States "prepared to order a ce
-  - Johnson: Johnson, Lady Bird (K–J Adm. III.A, 1968 III.Q); Johnson, Lynda Bird (K–J Adm. III.A); Johnson, Luci Baines (K–J Adm. III.A); Johnson, Lyndon B. (K–J Adm. III.D, Viet. III.A); Johnson, Paul B., Jr. (K–J Cong. III.F); Johnson, Frank M., Jr. (K–J Cong. III.G); Johnson, Tom (1968 III.A); Johnson, U. Alexis (Viet. III.C)
 - `cal.1966-09-23.opinion` (Sept. 23, LXXXII sep66.yaml): Gallup, special survey of persons drawn from *Who's Who in America*, 1966: Republicans four in ten of them; of
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1966-09-25.opinion` (Sept. 25, LXXXII sep66.yaml): Gallup, Aug. 18–23, and like surveys in Britain and Canada: the United States should begin to withdraw its tro
@@ -1243,31 +1731,53 @@ the person; several mean the surname is shared). "?" marks a surname that is als
 - `cal.1966-10-14.opinion` (Oct. 14, LXXXIII oct66.yaml): Gallup, Sept. 30–Oct. 6: the American offer of a step-by-step withdrawal of its troops under UN supervision if
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1966-10-15.black-nationalism` (Oct. 15, LXXXIII oct66.yaml): Oakland. Huey P. Newton and Bobby Seale found the Black Panther Party for Self-Defense. Its ten-point program,
-  - ? Black: Black, Hugo L. (K–J Cong. III.G)
+  - ? Black: Black, Eugene R. (K–J Adm. III.E); Black, Hugo L. (K–J Cong. III.G)
 - `cal.1966-10-16.opinion` (Oct. 16, LXXXIII oct66.yaml): Gallup, Oct. 1–6: the party one would like to see win the congressional district. Union members: Democratic 66
   - Gallup: Gallup, George H. (K–J Cong. III.J)
-- `cal.1966-10-18.court` (Oct. 18–19, LXXXIII oct66.yaml): *Time, Inc. v. Hill* reargued. Richard M. Nixon for James Hill, whose familys night as hostages of escaped con
+- `cal.1966-10-18.court` (Oct. 18–19, LXXXIII oct66.yaml): *Time, Inc. v. Hill* reargued. Richard M. Nixon for James Hill, whose family's night as hostages of escaped co
   - ? Hill: Hill, Lister (K–J Cong. III.B)
 - `cal.1966-10-19.opinion` (Oct. 19, LXXXIII oct66.yaml): Gallup, Oct. 1–6: the most important problem, in order of mention: the war in Vietnam; civil rights and racial
   - Gallup: Gallup, George H. (K–J Cong. III.J)
-- `cal.1966-10-27.africa` (Oct. 27, LXXXIII oct66.yaml): The General Assembly ends South Africas mandate over South West Africa, Resolution 2145 (XXI), 114–2, Portugal
+- `cal.1966-10-27.africa` (Oct. 27, LXXXIII oct66.yaml): The General Assembly ends South Africa's mandate over South West Africa, Resolution 2145 (XXI), 114–2, Portuga
   - West: West, Ben (K–J Cong. III.K); West, E. Gordon (K–J Cong. III.K)
 - `cal.1966-10-30.opinion` (Oct. 30, LXXXIII oct66.yaml): Gallup, Sept. 30–Oct. 6: Johnson 51 percent, Nixon 34, Wallace as a third party's candidate 7, undecided 8. So
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1966-11-01.vietnam` (Nov. 1–2, LXXXIV nov66.yaml): Seoul, from Oct. 31. Johnson and Park, Nov. 1; Johnson to the National Assembly, and their joint statement, No
   - Fish: Fish, Hamilton, Jr. (Wg. III.G)
   - Dulles: Dulles, Allen W. (K–J Adm. III.I)
+- `cal.1966-11-03.conservation` (Nov. 3, LXXXIV nov66.yaml): Clean Water Restoration Act signed, [80 Stat. 1246](https://www.govinfo.gov/content/pkg/STATUTE-80/pdf/STATUTE
+  - Nation: Nation, Bill (K–J Cong. III.K)
 - `cal.1966-11-04.opinion` (Nov. 4, LXXXIV nov66.yaml): Gallup, special survey, a secret ballot for the candidate or party one would like to see win: Democratic 52 pe
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1966-11-05.conservation` (Nov. 5, LXXXIV nov66.yaml): Indiana Dunes National Lakeshore Act signed, [80 Stat. 1309](https://www.govinfo.gov/content/pkg/STATUTE-80/pd
-  - Lake: Lake, Anthony (Adm. III.D)
+  - ? Lake: Lake, I. Beverly (K–J Cong. III.K); Lake, Anthony (Adm. III.D)
 - `cal.1966-11-07.opinion` (Nov. 7, LXXXIV nov66.yaml): Gallup, final poll, Oct. 31–Nov. 5: the party one would like to see win the congressional district: Democratic
   - Gallup: Gallup, George H. (K–J Cong. III.J)
-- `cal.1966-11-08.elections-1966` (Nov. 8, LXXXIV nov66.yaml): Midterms. House 248 D–187 R, from 295–140 at the 89th's opening: Republicans up 47. Senate 64 D–36 R, three se
-  - Wallace: Wallace, George C. (K–J Cong. III.F, 1968 III.L, Cong. III.G, Cong. III.H)
+- `cal.1966-11-08.governors-ny` (Nov. 8, LXXXIV nov66.yaml): New York. Rockefeller (R) elected to a third term, 2,690,626, 44.6 percent; O'Connor (D) 2,298,363, 38.1; Adam
+  - ? Franklin: Franklin, C. L. (K–J Cong. III.K)
+- `cal.1966-11-08.south-carolina-sc` (Nov. 8, LXXXIV nov66.yaml): South Carolina. Governor: McNair (D) over Rogers (R), 58.2 percent, the first Republican to oppose a Democrat 
+  - Johnston: Johnston, Olin D. (K–J Cong. III.B)
+- `cal.1966-11-08.legislatures-tx` (Nov. 8, LXXXIV nov66.yaml): Texas. Barbara Jordan (D) elected to the State Senate from Houston's new 11th district, drawn after *Kilgarlin
+  - ? Houston: Houston, Lawrence (K–J Cong. III.K)
+  - Kilgarlin: Kilgarlin, William W. (K–J Cong. III.K)
+  - Curtis: Curtis, Kenneth M. (K–J Cong. III.F); Curtis, Thomas B. (Opp. III.D)
+  - ? Black: Black, Eugene R. (K–J Adm. III.E); Black, Hugo L. (K–J Cong. III.G)
+- `cal.1966-11-08.governors-az` (Nov. 8, LXXXIV nov66.yaml): Arizona. Jack Williams (R) governor over Goddard (D), 203,438 to 174,904, 53.8 percent.
+  - ? Jack: Jack, William M. (K–J Cong. III.K)
+- `cal.1966-11-08.legislatures-az` (Nov. 8, LXXXIV nov66.yaml): Arizona's legislature, elected in new districts after *Reynolds v. Sims*. The Senate, two members for each of 
+  - Reynolds: Reynolds, John W., Jr. (K–J Cong. III.F); Reynolds, Walter H. (K–J Cong. III.F); Reynolds, Don B. (K–J Cong. III.K)
+  - Sims: Sims, Joseph Howard (K–J Cong. III.K)
+- `cal.1966-11-10.india-and-china` (Nov. 10–Dec. 22, LXXXIV nov66.yaml): Grain for India, after a second failed monsoon. Nov. 10, Johnson to Freeman, by telephone, on his recommendati
+  - ? Jack: Jack, William M. (K–J Cong. III.K)
 - `cal.1966-11-13.opinion` (Nov. 13, LXXXIV nov66.yaml): Gallup's affiliates in three countries: the United States should begin to withdraw its troops, carry on at its
   - Gallup: Gallup, George H. (K–J Cong. III.J)
   - West: West, Ben (K–J Cong. III.K); West, E. Gordon (K–J Cong. III.K)
+- `cal.1966-11-14.court` (Nov. 14, LXXXIV nov66.yaml): *Adderley v. Florida*, [385 U.S. 39](https://tile.loc.gov/storage-services/service/ll/usrep/usrep385/usrep3850
+  - ? Black: Black, Eugene R. (K–J Adm. III.E); Black, Hugo L. (K–J Cong. III.G)
+  - Douglas: Douglas, Paul H. (K–J Cong. III.B); Douglas, William O. (K–J Cong. III.G, Cong. III.J)
+  - Warren: Warren, Earl (K–J Cong. III.G, Cong. III.J)
+  - Brennan: Brennan, William J., Jr. (K–J Cong. III.G); Brennan, Peter J. (Adm. III.F)
+  - Fortas: Fortas, Abe (K–J Cong. III.G, 1968 III.B, Cong. III.J)
 - `cal.1966-11-16.opinion` (Nov. 16, LXXXIV nov66.yaml): Gallup, Oct. 21–26: can identify Reagan, 75 percent; college-educated 94, grade school 50; West 84, South 63. 
   - Gallup: Gallup, George H. (K–J Cong. III.J)
   - West: West, Ben (K–J Cong. III.K); West, E. Gordon (K–J Cong. III.K)
@@ -1277,6 +1787,8 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1966-11-23.opinion` (Nov. 23, LXXXIV nov66.yaml): Gallup, Oct. 21–26: an income tax increase to help pay for the war in Vietnam: favor 19 percent, oppose 73; Re
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1966-11-25.middle-east` (Nov. 25, LXXXIV nov66.yaml): Security Council, Resolution 228: censures Israel for the "large-scale and carefully planned military action" 
+  - Jordan: Jordan, Barbara (Cong. III.E, Wg. III.G)
 - `cal.1966-11-27.opinion` (Nov. 27, LXXXIV nov66.yaml): Gallup, Nov. 10–15: Republicans' choice for 1968: Romney 39, Nixon 31, Reagan 8, Rockefeller 5, Percy 5, Hatfi
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1966-11-30.opinion` (Nov. 30, LXXXIV nov66.yaml): Gallup, Nov. 10–15: the convention's choice between Romney and Nixon. Republicans: Romney 51, Nixon 42. Indepe
@@ -1285,24 +1797,49 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Salisbury: Salisbury, Harrison E. (Viet. III.F)
 - `cal.1966-12-04.opinion` (Dec. 4, LXXXV dec66.yaml): Gallup, Nov. 10–15: Johnson's handling of Vietnam: approve 43 percent, disapprove 40. The Johnson Administrati
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1966-12-05.georgia` (Dec. 5, LXXXV dec66.yaml): *Bond v. Floyd*, [385 U.S. 116](https://tile.loc.gov/storage-services/service/ll/usrep/usrep385/usrep385116/us
+  - Warren: Warren, Earl (K–J Cong. III.G, Cong. III.J)
 - `cal.1966-12-07.opinion` (Dec. 7, LXXXV dec66.yaml): Gallup, Nov. 10–15, women: a basket of food costing $10 today to cost $12 in a year, $15 in five (medians). Mo
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1966-12-11.opinion` (Dec. 11, LXXXV dec66.yaml): Gallup, Nov. 10–15, a plan: the United States to train the 1 to 1½ million South Vietnamese in the army or of 
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1966-12-12.georgia` (Dec. 12, LXXXV dec66.yaml): *Fortson v. Morris*, [385 U.S. 231](https://tile.loc.gov/storage-services/service/ll/usrep/usrep385/usrep38523
+  - ? Black: Black, Eugene R. (K–J Adm. III.E); Black, Hugo L. (K–J Cong. III.G)
+  - Douglas: Douglas, Paul H. (K–J Cong. III.B); Douglas, William O. (K–J Cong. III.G, Cong. III.J)
+  - Warren: Warren, Earl (K–J Cong. III.G, Cong. III.J)
+  - Brennan: Brennan, William J., Jr. (K–J Cong. III.G); Brennan, Peter J. (Adm. III.F)
+  - Fortas: Fortas, Abe (K–J Cong. III.G, 1968 III.B, Cong. III.J)
+- `cal.1966-12-12.crime-and-hijacking` (Dec. 12, LXXXV dec66.yaml): *Hoffa v. United States*, [385 U.S. 293](https://tile.loc.gov/storage-services/service/ll/usrep/usrep385/usrep
+  - Warren: Warren, Earl (K–J Cong. III.G, Cong. III.J)
+  - ? Clark: Clark, Ramsey (K–J Adm. III.I); Clark, Joseph S. (K–J Cong. III.B); Clark, Tom C. (K–J Cong. III.G); Clark, James G., Jr. (K–J Cong. III.K); Clark, Newman H. (K–J Cong. III.K)
+  - Douglas: Douglas, Paul H. (K–J Cong. III.B); Douglas, William O. (K–J Cong. III.G, Cong. III.J)
+  - ? White: White, Lee C. (K–J Adm. III.B); White, Lincoln P. (K–J Adm. III.E); White, Byron R. (K–J Adm. III.I, K–J Cong. III.G); White, Edward H., II (K–J Cong. III.K); White, F. Clifton (Opp. III.F); White, Theodore H. (Opp. III.J, 1968 III.O)
+  - Fortas: Fortas, Abe (K–J Cong. III.G, 1968 III.B, Cong. III.J)
 - `cal.1966-12-16.elections-1966` (Dec. 16–21, LXXXV dec66.yaml): Eighteen of the twenty-four Democratic governors at White Sulphur Springs, W. Va., Dec. 16–17, after the midte
-  - ? White: White, Lee C. (K–J Adm. III.B); White, Byron R. (K–J Adm. III.I, K–J Cong. III.G); White, Edward H., II (K–J Cong. III.K); White, F. Clifton (Opp. III.F); White, Theodore H. (Opp. III.J, 1968 III.O)
+  - ? White: White, Lee C. (K–J Adm. III.B); White, Lincoln P. (K–J Adm. III.E); White, Byron R. (K–J Adm. III.I, K–J Cong. III.G); White, Edward H., II (K–J Cong. III.K); White, F. Clifton (Opp. III.F); White, Theodore H. (Opp. III.J, 1968 III.O)
+- `cal.1966-12-16.state-and-city-finance-us` (Dec. 16–17, LXXXV dec66.yaml): National Governors' Conference, special interim meeting at White Sulphur Springs, W. Va., the first between an
+  - ? White: White, Lee C. (K–J Adm. III.B); White, Lincoln P. (K–J Adm. III.E); White, Byron R. (K–J Adm. III.I, K–J Cong. III.G); White, Edward H., II (K–J Cong. III.K); White, F. Clifton (Opp. III.F); White, Theodore H. (Opp. III.J, 1968 III.O)
 - `cal.1966-12-18.opinion` (Dec. 18, LXXXV dec66.yaml): Gallup, Oct. 21–26: after a peace and the withdrawal of American troops, a South Vietnamese government strong 
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1966-12-21.opinion` (Dec. 21, LXXXV dec66.yaml): Gallup, Dec. 8–13: in politics, Republican 29 percent, Democrat 44, independent 27.
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1966-12-30.trade` (Dec. 30, LXXXV dec66.yaml): Herter dies in Washington, 71: Special Representative for Trade Negotiations since 1962, leading the Kennedy R
   - Kennedy: Kennedy, Jacqueline (K–J Adm. III.A); Kennedy, Joseph P. (K–J Adm. III.A); Kennedy, Robert F. (K–J Adm. III.A, K–J Cong. III.B, 1968 III.K); Kennedy, Edward M. (K–J Cong. III.B, 1968 III.K, 1968 III.P, Cong. III.A); Kennedy, John F. (Viet. III.A)
+- `cal.1966-12.health-us` (Dec., LXXXV dec66.yaml): Medicaid at the year's end: 29 States have begun programs. A State without one by 1970 to lose federal matchin
+  - Kerr: Kerr, Robert S. (K–J Cong. III.B); Kerr, Clark (K–J Cong. III.K)
+  - ? Mills: Mills, Wilbur D. (K–J Cong. III.D, Cong. III.E)
 - `cal.1968-05-07.elections-1968` (May 7, LXXXIX may68.yaml): Primaries in the District of Columbia, Indiana and Ohio. Republican: Nixon-Rockefeller in the District; Nixon 
-  - Rockefeller: Rockefeller, Margaretta Fitler (K–J Cong. III.K); Rockefeller, Nelson A. (Opp. III.H, Cong. III.H); Rockefeller, Winthrop (Opp. III.H); Rockefeller, Nelson (1968 III.M)
+  - Rockefeller: Rockefeller, Laurance S. (K–J Cong. III.K); Rockefeller, Margaretta Fitler (K–J Cong. III.K); Rockefeller, Nelson A. (Opp. III.H, Cong. III.H); Rockefeller, Winthrop (Opp. III.H); Rockefeller, Nelson (1968 III.M)
 - `cal.1968-05-14.elections-1968` (May 14, LXXXIX may68.yaml): Primaries in Nebraska and West Virginia. Republican: Nixon in Nebraska; unpledged delegates in West Virginia. 
   - West: West, Ben (K–J Cong. III.K); West, E. Gordon (K–J Cong. III.K)
+- `cal.1968-08-05.elections-1968` (Aug. 5, XCII aug68.yaml): Republican National Convention opens, Miami Beach, at Convention Hall. The party's primaries: map and returns 
+  - ? Hall: Hall, Dave (K–J Cong. III.F); Hall, David (K–J Cong. III.F)
 - `cal.1972-05-09.elections-1972` (May 9, XCV may72.yaml): Primaries in Nebraska and West Virginia. Republican: Nixon in Nebraska; unpledged delegates in West Virginia. 
   - West: West, Ben (K–J Cong. III.K); West, E. Gordon (K–J Cong. III.K)
+- `cal.1972-07-10.elections-1972` (July 10, XCVII jul72.yaml): Democratic National Convention opens, Miami Beach, at Convention Hall. The party's primaries: map and returns 
+  - ? Hall: Hall, Dave (K–J Cong. III.F); Hall, David (K–J Cong. III.F)
+- `cal.1972-08-21.elections-1972` (Aug. 21, XCVIII aug72.yaml): Republican National Convention opens, Miami Beach, at Convention Hall. The party's primaries: map and returns 
+  - ? Hall: Hall, Dave (K–J Cong. III.F); Hall, David (K–J Cong. III.F)
 - `cal.1976-05-11.elections-1976` (May 11, CII may76.yaml): Primaries in Nebraska and West Virginia. Republican: Reagan in Nebraska; Ford in West Virginia. Democratic: Ch
   - West: West, Ben (K–J Cong. III.K); West, E. Gordon (K–J Cong. III.K)
 
@@ -1310,14 +1847,6 @@ the person; several mean the surname is shared). "?" marks a surname that is als
 
 No work of its own and no `See [[id]]` back to the event's first entry.
 
-- `cal.1960-03-08.specials` (Mar. 8, IV mar60.yaml): New York 23d, special, in the Bronx. Jacob H. Gilbert (D) holds the seat, 82.4 percent.
-- `cal.1961-01-30.program` (Jan. 30, XIV jan.yaml): The Address to the Joint Session. The tide running against the United States in every area of crisis; the econ
-- `cal.1961-04-04.cuba` (Apr. 4, XVII apr.yaml): State Department meeting on the invasion plan. Fulbright, invited, argues against it. The plan goes ahead.
-- `cal.1961-04-27.press-and-broadcasting` (Apr. 27, XVII apr.yaml): Address to the newspaper publishers in New York: a call for self-restraint in a cold war. The press reads it a
-- `cal.1961-05-01.crime-and-hijacking` (May 1, XVIII may.yaml): First U.S. airliner hijacked to Cuba, a National Airlines flight bound for Key West.
-- `cal.1961-06-06.berlin-and-vienna` (June 6, XIX jun.yaml): Report to the nation on Vienna. "A very sober two days."
-- `cal.1961-08-01.berlin-and-vienna` (Aug. 1, XXI aug.yaml): Congress authorizes the call-up of up to 250,000 reservists for a year, [75 Stat. 242](https://www.govinfo.gov
-- `cal.1965-12-30.congress` (Dec. 30, LXXIII dec65.yaml): Saltonstall, Republican of Massachusetts, in the Senate since 1945, will not run again in 1966. Johnson's tele
 
 ## Primary record
 
@@ -1328,704 +1857,382 @@ the order, the APP document, the FRUS document, the case.
 
 - `cal.1960-01-09.elections-1960` (Jan. 9, II jan60.yaml): Nixon, on his forty-seventh birthday, announces for the Republican nomination; his name to go on the New Hamps
 - `cal.1960-02-01.sit-ins` (Feb. 1–13, III feb60.yaml): Four freshmen of North Carolina A&T sit at the Woolworth's lunch counter in Greensboro and are not served. The
-- `cal.1960-02-13.testing` (Feb. 13, III feb60.yaml): France's first atomic test, at Reggane in the Algerian Sahara. About 70 kilotons. De Gaulle's message, "Hurrah
 - `cal.1960-02-17.king` (Feb. 17, III feb60.yaml): An Alabama grand jury in Montgomery indicts King for perjury on his Alabama income tax returns for 1956 and 19
-- `cal.1960-02-25.sit-ins` (Feb. 25, III feb60.yaml): Alabama State College students sit at the snack bar of the Montgomery County courthouse. Patterson calls on th
+- `cal.1960-02-17.georgia-ga` (Feb. 17, III feb60.yaml): The General Assembly Committee on Schools, created by the legislature this month, holds its first meeting at t
 - `cal.1960-02-27.sit-ins` (Feb. 27, III feb60.yaml): Nashville. White youths beat sit-in students at the downtown counters; police arrest 81 of the students, none 
 - `cal.1960-03.economy` (Mar., IV mar60.yaml): Arthur F. Burns warns Nixon of a dip before the election, its low in October, unless credit is eased and defen
 - `cal.1960-03.elections-1960` (Mar., IV mar60.yaml): The Wisconsin campaign. Kennedy and Humphrey across the State to Apr. 5; Kennedy's family and staff in every d
-- `cal.1960-03-08.elections-1960` (Mar. 8, IV mar60.yaml): New Hampshire primary. Republican: Nixon 89.3 percent, others 4.0. Democratic: Kennedy 85.2 percent, others 14
 - `cal.1960-03-08.specials` (Mar. 8, IV mar60.yaml): New York 23d, special, in the Bronx. Jacob H. Gilbert (D) holds the seat, 82.4 percent.
-- `cal.1960-03-09.sit-ins` (Mar. 9–15, IV mar60.yaml): Atlanta's college students publish "An Appeal for Human Rights" in the city's papers, Mar. 9; sit-ins at publi
+- `cal.1960-03-20.sit-ins-fl` (Mar. 20, IV mar60.yaml): Collins, governor of Florida, on statewide radio and television, after sit-ins at Tallahassee and elsewhere: a
 - `cal.1960-03-24.elections-1960` (Mar. 24, IV mar60.yaml): Symington announces for the Democratic nomination. He enters no primaries.
+- `cal.1960-03-26.desegregation-public-places-las-vegas` (Mar. 26, IV mar60.yaml): Las Vegas. With a march on the Strip threatened against the casinos' exclusion of Negroes, Governor Sawyer bri
 - `cal.1960-04.economy` (Apr., V apr60.yaml): The business cycle's peak, as the National Bureau later dated it. The recession of 1960–61 begins.
 - `cal.1960-04.elections-1960` (Apr., V apr60.yaml): West Virginia, after Wisconsin; its primary May 10. Kennedy's own poll there, 70–30 for him in December, now 6
 - `cal.1960-04-05.elections-1960` (Apr. 5, V apr60.yaml): Wisconsin primary. Republican: Nixon, unopposed. Democratic: Kennedy 56.5 percent, Humphrey 43.5.
-- `cal.1960-04-12.elections-1960` (Apr. 12, V apr60.yaml): Illinois primary. Republican: Nixon 99.9 percent, others (write-in) 0.1. Democratic: Kennedy (write-in) 64.6 p
+- `cal.1960-04-05.mayors-milwaukee` (Apr. 5, V apr60.yaml): Milwaukee elects Maier mayor over U.S. Representative Reuss, about 58 percent; the mayor not running.
 - `cal.1960-04-15.civil-rights-organizations` (Apr. 15–17, V apr60.yaml): Easter weekend at Shaw University, Raleigh. The sit-ins' student leaders, called by Ella Baker of SCLC with SC
-- `cal.1960-04-19.elections-1960` (Apr. 19, V apr60.yaml): New Jersey primary. Republican: unpledged delegates, unopposed. Democratic: unpledged delegates, unopposed.
 - `cal.1960-04-19.sit-ins` (Apr. 19, V apr60.yaml): Nashville. Z. Alexander Looby's house bombed before dawn; he and his wife unhurt. Some thousands march in sile
 - `cal.1960-04-21.elections-1960` (Apr. 21, V apr60.yaml): Kennedy to the American Society of Newspaper Editors, Washington, on the religious issue: "I am not the Cathol
-- `cal.1960-04-26.elections-1960` (Apr. 26, V apr60.yaml): Primaries in Massachusetts and Pennsylvania. Republican: Nixon (write-in) in Massachusetts; Nixon in Pennsylva
-- `cal.1960-04-26.specials` (Apr. 26, V apr60.yaml): Pennsylvania 17th, special. Herman T. Schneebeli (R) holds the seat, 52.5 to 47.5.
-- `cal.1960-04-26.specials-2` (Apr. 26, V apr60.yaml): Pennsylvania 18th, special. Douglas Elliott (R) holds the seat, 61.2 to 38.8.
+- `cal.1960-04-28.georgia-ga` (Apr. 28, V apr60.yaml): Sibley presents the committee's reports to the General Assembly. The majority, eleven: two constitutional amen
+- `cal.1960-05-02.crime-and-hijacking-ca` (May 2, VI may60.yaml): Chessman executed in the gas chamber at San Quentin, his appeals refused.
 - `cal.1960-05-03.elections-1960` (May 3, VI may60.yaml): Primaries in the District of Columbia, Indiana and Ohio. Republican: unpledged delegates in the District; Nixo
-- `cal.1960-05-10.elections-1960` (May 10, VI may60.yaml): Primaries in Nebraska and West Virginia. Republican: Nixon in Nebraska; unpledged delegates in West Virginia. 
+- `cal.1960-05-07.governors-tx` (May 7, VI may60.yaml): Texas Democratic primary. Governor Daniel renominated for a third term over Jack Cox, a former State represent
 - `cal.1960-05-10.elections-1960-2` (May 10, VI may60.yaml): Humphrey, beaten by Kennedy in West Virginia, withdraws that night, at Charleston.
 - `cal.1960-05-10.sit-ins` (May 10, VI may60.yaml): Nashville. Six downtown stores serve Negroes at their lunch counters, by agreement with the merchants. Three m
-- `cal.1960-05-12.students` (May 12–14, VI may60.yaml): Un-American Activities subcommittee hearings at San Francisco City Hall, Willis presiding. Students, most from
-- `cal.1960-05-17.elections-1960` (May 17, VI may60.yaml): Maryland primary. Republican: no primary. Democratic: Kennedy 70.3 percent, Morse 17.2.
-- `cal.1960-05-20.elections-1960` (May 20, VI may60.yaml): Oregon primary. Republican: Nixon 93.1 percent, Rockefeller (write-in) 4.1. Democratic: Kennedy 51.0 percent, 
-- `cal.1960-05-23.soviet-union` (May 23–26, VI may60.yaml): Security Council on the Soviet complaint against the flights, Gromyko for the Soviet Union. Lodge shows the ca
-- `cal.1960-05-24.elections-1960` (May 24, VI may60.yaml): Florida primary. Republican: Nixon, unopposed. Democratic: Smathers, unopposed.
-- `cal.1960-05-28.king` (May 28, VI may60.yaml): Montgomery. An all-white jury acquits King of perjury on his Alabama income tax returns.
-- `cal.1960-06-07.elections-1960` (June 7, VII jun60.yaml): Primaries in California and South Dakota. Republican: Nixon in California; unpledged delegates in South Dakota
 - `cal.1960-06-08.elections-1960` (June 8, VII jun60.yaml): Rockefeller, in a statement: those taking control of the Republican Party have not made clear where it is head
 - `cal.1960-06-22.school-aid` (June 22, VII jun60.yaml): Rules, Smith's committee, refuses 7–5 to send the school bill to conference: the four Republicans and three So
-- `cal.1960-06-24.latin-america` (June 24, VII jun60.yaml): Caracas. A car bomb burns Betancourt and kills the head of his military household. Venezuela charges Trujillo'
-- `cal.1960-06-25.specials` (June 25, VII jun60.yaml): North Carolina 12th, special. Roy A. Taylor (D) to Hall's seat, 98.6 percent.
-- `cal.1960-06-28.specials` (June 28, VII jun60.yaml): North Dakota, Senate, special, for Langer's seat. Burdick (D) over Governor John E. Davis (R), 104,593 to 103,
 - `cal.1960-07-11.elections-1960` (July 11, VIII jul60.yaml): Democratic National Convention opens, Los Angeles, at the Memorial Sports Arena. The party's primaries: map an
 - `cal.1960-07-13.elections-1960` (July 13, VIII jul60.yaml): Kennedy nominated on the first ballot, Wyoming's votes putting him over: Kennedy 806, Johnson 409, Symington 8
 - `cal.1960-07-14.elections-1960` (July 14, VIII jul60.yaml): Kennedy offers Johnson second place; Robert Kennedy to Johnson's suite that afternoon; the accounts of what he
 - `cal.1960-07-22.elections-1960` (July 22–23, VIII jul60.yaml): Nixon flies to New York to see Rockefeller at his Fifth Avenue apartment, the night of July 22. Their statemen
 - `cal.1960-07-25.elections-1960` (July 25, VIII jul60.yaml): Republican National Convention opens, Chicago, at the International Amphitheatre. The party's primaries: map a
 - `cal.1960-07-25.sit-ins` (July 25, VIII jul60.yaml): Greensboro's Woolworth's serves Negroes at its lunch counter, its own Negro employees the first.
-- `cal.1960-08-17.soviet-union` (Aug. 17–19, IX aug60.yaml): Powers tried in Moscow before the Military Collegium of the Supreme Court. Pleads guilty. Ten years, three of 
 - `cal.1960-08-27.sit-ins` (Aug. 27, IX aug60.yaml): Jacksonville. White men with ax handles and baseball bats attack Negro youths of the NAACP's Youth Council aft
+- `cal.1960-09-13.governors-vt` (Sept. 13, X sep60.yaml): Vermont's Republican primary for governor, Stafford not running. Keyser, Speaker of the Vermont House, 17,491,
 - `cal.1960-10-10.elections-1960` (Oct. 10–13, XI oct60.yaml): Johnson's whistle-stop train, the "LBJ Victory Special," from Culpeper, Va., through the South to New Orleans.
 - `cal.1960-10-12.elections-1960` (Oct. 12, XI oct60.yaml): Lodge, in East Harlem, promises a Negro in a Nixon cabinet. Nixon says he will appoint the best man, whatever 
 - `cal.1960-10-19.king` (Oct. 19–22, XI oct60.yaml): Atlanta's students resume their sit-ins. King arrested with them in the Magnolia Room of Rich's department sto
-- `cal.1960-11-08.specials` (Nov. 8, XII nov60.yaml): Pennsylvania 18th, special. Whalley (R) holds the late Douglas Elliott's seat, 62.3 to 37.7 over Meyers (D); t
+- `cal.1960-10-20.cities-and-housing-boston` (Oct. 20, XI oct60.yaml): Boston. Logue, New Haven's development administrator under Lee since 1954, takes charge of the Boston Redevelo
+- `cal.1960-11-08.governors` (Nov. 8, XII nov60.yaml): Twenty-seven governors elected: Democrats 15, Republicans 12. Each party took six or seven States from the oth
+- `cal.1960-11-08.state-constitutions-ky` (Nov. 8, XII nov60.yaml): Kentucky's voters refuse a convention to revise the constitution of 1891, called for by Combs and approved by 
+- `cal.1960-11-08.legislatures-us` (Nov. 8, XII nov60.yaml): The State legislatures. Republicans gain some 270 lower-house seats and 14 senate seats. They take the lower h
+- `cal.1960-11-08.governors-me` (Nov. 8, XII nov60.yaml): Maine, a special election for the two years left of Clauson's term. Reed (R), president of the Maine Senate, g
 - `cal.1960-11-09.transition-and-staff` (Nov. 9–10, XII nov60.yaml): The President-elect's first appointments, from Hyannis Port: Allen Dulles kept at the CIA and Hoover at the FB
 - `cal.1960-11-14.transition-and-staff` (Nov. 14, XII nov60.yaml): Kennedy flies from Palm Beach to see Nixon at Key Biscayne, Fla.; they talk alone. In Washington, Clifford and
 - `cal.1960-12-01.transition-and-staff` (Dec. 1–17, XIII dec60.yaml): The cabinet named. Ribicoff to HEW, Dec. 1; Hodges to Commerce; Udall to Interior; Rusk to State, Dec. 12, Ste
+- `cal.1960-12-09.elections-1960-chicago` (Dec. 9, XIII dec60.yaml): Chicago. The recount of the State's Attorney's race, which Adamowski asked and the Republicans meant as a test
 - `cal.1960-12-16.robert-kennedy` (Dec. 16, XIII dec60.yaml): The President-elect names his brother Attorney General, with Dillon to the Treasury. White to be Deputy Attorn
 - `cal.1960-12-20.vietnam` (Dec. 20, XIII dec60.yaml): The National Front for the Liberation of South Vietnam founded at a congress in Tây Ninh province, as the Lao 
-- `cal.1960-12-22.congress` (Dec. 22–27, XIII dec60.yaml): Kennedy resigns his Senate seat. Governor Furcolo appoints Benjamin A. Smith II, Kennedy's college roommate, D
-- `cal.1960-12-28.elections-1960` (Dec. 28–30, XIII dec60.yaml): Hawaii's recount, ordered by Judge Jamieson, ends: Kennedy by 115 votes, where the first count gave Nixon 141.
 - `cal.1961-01-05.economy` (Jan. 5, XIV jan.yaml): Samuelson's task force reports to the President-elect: a recession under way and a weak recovery ahead. Spend 
-- `cal.1961-01-08.opinion` (Jan. 8, XIV jan.yaml): Gallup, Dec. 8–13, 1960: for the new President and Congress to act on, holding down prices, 63 percent; medica
-- `cal.1961-01-22.opinion` (Jan. 22, XIV jan.yaml): Gallup, Dec. 8–13, 1960: which country first to send a man into space. Russia 40 percent, the United States 35
-- `cal.1961-01-27.opinion` (Jan. 27, XIV jan.yaml): Gallup, Jan. 12–17: a Kennedy–Khrushchev summit this year. 54 percent for, 30 against.
-- `cal.1961-02-01.opinion` (Feb. 1, XV feb.yaml): Gallup, Jan. 12–17: a program sending young men abroad at government expense to give technical help, 71 percen
+- `cal.1961-01-16.welfare-la` (Jan. 16, XIV jan.yaml): Flemming, Secretary of Health, Education, and Welfare, rules that a State may not deny Aid to Dependent Childr
+- `cal.1961-01.states-and-cities-nyc` (Jan.–Feb., XIV jan.yaml): New York. Manhattan's borough president removed on his conviction; the borough's six members of the City Counc
 - `cal.1961-02-01.civil-rights-organizations` (Feb. 1, XV feb.yaml): Farmer takes office as national director of CORE, from the NAACP's staff.
 - `cal.1961-02-10.opinion` (Feb. 10–15, XV feb.yaml): Gallup's first reading: 72 percent approve, 6 disapprove, 22 no opinion.
-- `cal.1961-02-10.opinion-2` (Feb. 10, XV feb.yaml): Gallup, Jan. 12–17: which country ahead in long-range missiles. The United States 49 percent, Russia 30.
-- `cal.1961-02-12.opinion` (Feb. 12, XV feb.yaml): Gallup, Jan. 12–17, in the South: will whites and Negroes one day share the same schools, restaurants, and pub
 - `cal.1961-02.economy` (Feb., XV feb.yaml): The recession's trough, as the National Bureau later dated it. Unemployment 6.9 percent in the revised series;
-- `cal.1961-02-26.opinion` (Feb. 26, XV feb.yaml): Gallup, Feb. 10–15, on "ask what you can do for your country": 63 percent can think of something they could do
 - `cal.1961-03.right-and-the-military` (Mar., XVI mar.yaml): The John Birch Society reaches the national press: the *Los Angeles Times* series and the newsmagazines. Check
-- `cal.1961-03-12.opinion` (Mar. 12, XVI mar.yaml): Gallup, Feb. 10–15: raising the $1.00 minimum wage, 76 percent for, 18 against. Republicans 63 for.
 - `cal.1961-03-17.economy` (Mar. 17, XVI mar.yaml): Heller to the President: even if the whole program passes, output at year's end will be some $40 billion below
-- `cal.1961-03-29.opinion` (Mar. 29, XVI mar.yaml): Gallup, Mar. 10–15: federal school aid to public schools only, 57 percent; to Catholic and other private schoo
-- `cal.1961-03-31.opinion` (Mar. 31, XVI mar.yaml): Gallup, Mar. 10–15: long-term, low-interest loans to Catholic schools for buildings. 42 percent approve, 46 di
-- `cal.1961-04-02.opinion` (Apr. 2, XVII apr.yaml): Gallup, Mar. 10–15: federal school aid to all public schools, 68 percent; withheld from schools that fail to i
 - `cal.1961-04-03.states-and-cities` (Apr. 3, XVII apr.yaml): Michigan voters approve a constitutional convention. Romney leads Citizens for Michigan.
 - `cal.1961-04-04.states-and-cities` (Apr. 4, XVII apr.yaml): Texas special election for Johnson's seat. Seventy-one candidates; Tower first, Blakley second. Runoff set.
-- `cal.1961-04-05.opinion` (Apr. 5, XVII apr.yaml): Gallup, Mar. 10–15: under the school bill, more important here, new buildings 38 percent, teachers' salaries 2
+- `cal.1961-04-04.mayors-los-angeles` (Apr. 4, XVII apr.yaml): Los Angeles, nonpartisan primary for mayor: Poulson, mayor since 1953, 39.7 percent; Yorty, once a U.S. Repres
 - `cal.1961-04-06.opinion` (Apr. 6–11, XVII apr.yaml): Approval 78 percent, disapproval 6, in the series today; not released at the time. In the field the week befor
 - `cal.1961-04-18.specials` (Apr. 18, XVII apr.yaml): Arkansas 6th, special. Catherine Dorris Norrell to her husband's seat, 43.1 percent of five Democrats. No swin
-- `cal.1961-04-21.opinion` (Apr. 21, XVII apr.yaml): Gallup, Apr. 6–11: 37 percent have heard or read of the John Birch Society.
 - `cal.1961-04-28.opinion` (Apr. 28–May 3, XVII apr.yaml): After the Bay of Pigs: 83 percent approve, the high of the presidency; 61 percent approve his handling of Cuba
 - `cal.1961-05-01.crime-and-hijacking` (May 1, XVIII may.yaml): First U.S. airliner hijacked to Cuba, a National Airlines flight bound for Key West.
 - `cal.1961-05-02.specials` (May 2, XVIII may.yaml): Arizona 2d, special. Morris Udall holds his brother's seat, 51.0 to 49.0 over Matheson (R). Swing 4.7 to R.
-- `cal.1961-05-04.freedom-rides` (May 4, XVIII may.yaml): Thirteen CORE riders leave Washington on two buses to test *Boynton v. Virginia* (1960).
-- `cal.1961-05-05.opinion` (May 5, XVIII may.yaml): Gallup, Apr. 28–May 3: Kennedy's handling of Cuba, 61 percent approve, 15 disapprove. 44 percent follow the ne
-- `cal.1961-05-06.robert-kennedy` (May 6, XVIII may.yaml): Robert Kennedy at the University of Georgia Law School's Law Day exercises, Athens, Ga. On Prince Edward Count
 - `cal.1961-05-09.berlin-and-vienna` (May 9, XVIII may.yaml): Robert Kennedy's first meeting with Georgi Bolshakov. The back channel to Khrushchev opens.
-- `cal.1961-05-10.opinion` (May 10, XVIII may.yaml): Gallup, Apr. 28–May 3: would Castro win a free election? 14 percent yes, 71 no. Cuba policy to be decided with
-- `cal.1961-05-14.freedom-rides` (May 14, XVIII may.yaml): Mother's Day. The Greyhound bus burned outside Anniston; the Trailways riders beaten at the Birmingham termina
-- `cal.1961-05-16.specials` (May 16, XVIII may.yaml): Pennsylvania 16th, special. Kunkel (R) holds Mumma's seat, 65.6 percent. Swing 3.1 to R.
 - `cal.1961-05-16.specials-2` (May 16, XVIII may.yaml): Tennessee 1st, special. Louise Goff Reece (R) to her husband's seat, 62.9 percent. Swing 9.9 to D.
-- `cal.1961-05-21.freedom-rides` (May 21, XVIII may.yaml): Mob besieges King, Abernathy, and the riders in the First Baptist Church; marshals hold it until Patterson sen
 - `cal.1961-05-24.freedom-rides` (May 24, XVIII may.yaml): Riders go on to Jackson under Guard escort and are arrested on arrival; many to Parchman, Miss. Robert Kennedy
 - `cal.1961-05-27.states-and-cities` (May 27, XVIII may.yaml): Tower beats Blakley in the runoff by about ten thousand votes. The first Republican senator elected from the f
-- `cal.1961-05-28.opinion` (May 28–June 2, XVIII may.yaml): Gallup in the field on the Freedom Riders, released June 21 and 28. Of the 63 percent who had heard of the rid
-- `cal.1961-05-31.states-and-cities` (May 31, XVIII may.yaml): Sam Yorty unseats Mayor Norris Poulson in Los Angeles.
-- `cal.1961-05-31.opinion` (May 31, XVIII may.yaml): Gallup, May 17–22: $40 billion, about $225 a person, to send a man to the moon. 33 percent for, 58 against.
-- `cal.1961-06-02.opinion` (June 2, XIX jun.yaml): Gallup, May 17–22: men on the moon within five years, 21 percent; in five to ten years, 31; never, 9.
-- `cal.1961-06-04.opinion` (June 4, XIX jun.yaml): Gallup, May 17–22: ahead in space research, Russia 38 percent, the United States 38. First to the moon, Russia
-- `cal.1961-06-07.opinion` (June 7, XIX jun.yaml): Gallup, May 17–22: ahead in long-range missiles, the United States 54 percent, Russia 20.
-- `cal.1961-06-07.opinion-2` (June 7, XIX jun.yaml): Gallup, Apr. 28–May 3: no trade with Cuba while Castro holds power, 63 percent agree, 23 disagree. Aid to the 
-- `cal.1961-06-09.opinion` (June 9, XIX jun.yaml): Gallup, May 17–22: a higher Social Security tax to pay for medical insurance for the aged, 67 percent for, 26 
-- `cal.1961-06-12.right-and-the-military` (June 12, XIX jun.yaml): Walker admonished; his program found improper. He resigns [[cal.1961-11-02.right-and-the-military]].
-- `cal.1961-06-14.opinion` (June 14, XIX jun.yaml): Gallup, May 17–22: greater curbs on what newspapers print, 31 percent approve, 55 disapprove. On television an
-- `cal.1961-06-18.opinion` (June 18, XIX jun.yaml): Gallup, May 28–June 2: Kennedy right to send marshals to Montgomery, 70 percent; wrong, 13. In the South, 50 r
-- `cal.1961-06-21.opinion` (June 21, XIX jun.yaml): Gallup, May 28–June 2: the Supreme Court's ruling against segregation on trains, buses, and in waiting rooms, 
-- `cal.1961-06-23.opinion` (June 23, XIX jun.yaml): Gallup, May 28–June 2: the Supreme Court's school desegregation decision, 62 percent approve, 33 disapprove. I
-- `cal.1961-06-25.opinion` (June 25, XIX jun.yaml): Gallup, May 28–June 2: race relations in the South in the coming year, better 29 percent, worse 53. In the Sou
-- `cal.1961-06-28.opinion` (June 28, XIX jun.yaml): Gallup, May 28–June 2: integration gradually, 61 percent; by every means in the near future, 23; never, 7. Sit
-- `cal.1961-07-02.opinion` (July 2, XX jul.yaml): Gallup, May 28–June 2: of the programs Kennedy asked sacrifices for, would pay higher taxes for retraining the
-- `cal.1961-07-05.opinion` (July 5, XX jul.yaml): Gallup, May 4–9: local civil defense handled well, 22 percent; poorly, 19; little or no knowledge of it, 59.
-- `cal.1961-07-07.opinion` (July 7, XX jul.yaml): Gallup, June 23–28: tractors for the prisoners of the Cuban invasion, 20 percent for, 67 against.
-- `cal.1961-07-12.opinion` (July 12, XX jul.yaml): Gallup, June 23–28: the United States to resume nuclear tests now, 55 percent; not, 26.
-- `cal.1961-07-30.berlin-and-vienna` (July 30, XX jul.yaml): Fulbright on television: the East Germans have the right to close their border, and he does not know why they 
-- `cal.1961-07-30.opinion` (July 30, XX jul.yaml): Gallup, June 23–28: of the 76 percent who had followed the Berlin dispute, 82 percent would keep American forc
-- `cal.1961-07-31.opinion` (July 31, XX jul.yaml): Gallup, July 13–18: if Russia insists on controlling Berlin, war, 60 percent; no war, 31. Chances Russia gives
+- `cal.1961-05-31.states-and-cities` (May 31, XVIII may.yaml): Los Angeles runoff. Sam Yorty unseats Mayor Norris Poulson, 275,249 to 259,760, 51.5 percent.
+- `cal.1961-05.antisubversion-ca` (May, XVIII may.yaml): California. The Senate's Fact-Finding Subcommittee on Un-American Activities, Burns chairman, its eleventh rep
+- `cal.1961-05.mayors-omaha` (May, XVIII may.yaml): Omaha elects Dworak (D), a city councilman, mayor, by 342 votes over an Omaha attorney; the mayor not running.
+- `cal.1961-06-13.mayors-minneapolis` (June 13, XIX jun.yaml): Minneapolis. Naftalin (DFL), a political scientist and Freeman's commissioner of administration, over Mayor Pe
+- `cal.1961-06-15.state-and-city-finance-nc` (June 15, XIX jun.yaml): North Carolina. The General Assembly ratifies Sanford's revenue bill for his Quality Education Program: exempt
+- `cal.1961-06-19.welfare-ny` (June 19, XIX jun.yaml): Newburgh, N.Y. The City Council, four ayes, adopts City Manager Mitchell's thirteen points on relief, in force
+- `cal.1961-06-25.states-and-cities-us` (June 25–28, XIX jun.yaml): Governors' Conference at Honolulu. Johnson, June 27: "Testing Our Will." June 28: for federal grants to the St
 - `cal.1961-08.mississippi` (Aug., XXI aug.yaml): Bob Moses opens SNCC's voter registration school in McComb; registration attempts in Amite and Walthall Counti
-- `cal.1961-08.civil-rights-organizations` (Aug., XXI aug.yaml): SNCC at the Highlander Folk School, Tenn., mid-month: direct action or voter registration, the administration 
-- `cal.1961-08-02.opinion` (Aug. 2, XXI aug.yaml): Gallup, July 13–18: back the Berliners' right to a free election, East Berlin included, even at the cost of wa
-- `cal.1961-08-20.opinion` (Aug. 20, XXI aug.yaml): Gallup, July 27–Aug. 1: 5 percent have changed their homes against a nuclear attack; 20 have stored food.
-- `cal.1961-08-23.opinion` (Aug. 23, XXI aug.yaml): Gallup, July 27–Aug. 1: federal youth camps like the CCC, good idea 80 percent, poor 13. Idle young men to be 
-- `cal.1961-08-27.opinion-5` (Aug. 27, XXI aug.yaml): Gallup, July 27–Aug. 1: Republicans' choice for 1964, of three: Nixon 60, Rockefeller 18, Goldwater 17; no opi
-- `cal.1961-08-31.rules` (Aug. 31, XXI aug.yaml): Rayburn leaves Washington for Bonham, ill. He does not return. McCormack presides. Check the date.
-- `cal.1961-08.opinion` (Aug., XXI aug.yaml): Approval about three-quarters through the Berlin summer: 73 percent, July 27–Aug. 1, released Aug. 25 (75 in t
-- `cal.1961-09-06.opinion` (Sept. 6, XXII sep.yaml): Gallup, Aug. 24–29: 90 percent have heard of the Berlin situation. Satisfied with the government's handling, 6
-- `cal.1961-09-07.states-and-cities` (Sept. 7, XXII sep.yaml): New York primary. Mayor Wagner, running against Tammany, beats Levitt; DeSapio loses his own district leadersh
-- `cal.1961-09-12.states-and-cities` (Sept. 12, XXII sep.yaml): Michigan elects its convention delegates. Romney among them.
-- `cal.1961-09-13.opinion` (Sept. 13, XXII sep.yaml): Gallup, Aug. 24–29: own chances of living through an all-out nuclear war, very good 9 percent, even 40, poor 4
-- `cal.1961-09-15.testing` (Sept. 15, XXII sep.yaml): First U.S. underground test of the series in Nevada.
-- `cal.1961-09-15.opinion` (Sept. 15, XXII sep.yaml): Gallup, Aug. 24–29: if East Germany closes the roads and air access to Berlin, fight the way in, 64 percent; n
-- `cal.1961-09-19.space` (Sept. 19, XXII sep.yaml): NASA names Houston for the Manned Spacecraft Center. Albert Thomas held NASA's appropriations.
+- `cal.1961-09-07.states-and-cities` (Sept. 7, XXII sep.yaml): New York primary. Mayor Wagner, running against Tammany, beats Levitt, 456,016 to 292,726, 60.9 percent; DeSap
+- `cal.1961-09-13.georgia-atlanta` (Sept. 13, XXII sep.yaml): Atlanta's primary for mayor, Hartsfield retiring. Allen, lately president of the Chamber of Commerce, 37,398; 
 - `cal.1961-09-19.berlin-and-vienna` (Sept. 19, XXII sep.yaml): Clay arrives in Berlin.
-- `cal.1961-09-24.opinion` (Sept. 24, XXII sep.yaml): Gallup, Aug. 24–29: would vote for a well-qualified Catholic nominated for President by their party, 82 percen
+- `cal.1961-09-22.georgia-atlanta` (Sept. 22, XXII sep.yaml): Atlanta's runoff for mayor: Allen 64,313, Maddox 36,091; Allen 64.1 percent.
 - `cal.1961-09-25.mississippi` (Sept. 25, XXII sep.yaml): Herbert Lee, a farmer working with Moses, shot dead at the Liberty cotton gin by state representative E.H. Hur
-- `cal.1961-09-27.opinion` (Sept. 27, XXII sep.yaml): Gallup, Aug. 24–29: would vote for a well-qualified Jew nominated by their party, 68 percent; not, 23. For a N
+- `cal.1961-09.legislatures-ca` (Sept., XXII sep.yaml): California. Unruh, Assemblyman from Los Angeles County, elected Speaker of the Assembly. Check the day.
 - `cal.1961-10.civil-rights-organizations` (Oct., XXIII oct.yaml): Greenberg director-counsel of the NAACP Legal Defense and Educational Fund, succeeding Marshall, recess-appoin
 - `cal.1961-10-01.steel` (Oct. 1, XXIII oct.yaml): The steelworkers' October wage step. Prices hold.
 - `cal.1961-10-01.civil-rights-organizations` (Oct. 1, XXIII oct.yaml): Whitney Young takes office as executive director of the National Urban League, the board's unanimous choice to
-- `cal.1961-10-03.states-and-cities` (Oct. 3, XXIII oct.yaml): Michigan's constitutional convention opens at Lansing. Romney a vice president.
-- `cal.1961-10-04.opinion-5` (Oct. 4, XXIII oct.yaml): Gallup, Aug. 24–29: Kennedy 62, Nixon 38.
 - `cal.1961-10-08.goldwater` (Oct. 8, XXIII oct.yaml): Chicago, a motel. F. Clifton White and some two dozen conservative Republicans, most from the Young Republican
 - `cal.1961-10-13.peace-corps` (Oct. 13, XXIII oct.yaml): A volunteer's postcard from Ibadan, describing squalor, found and published. Protests at the university; she g
-- `cal.1961-10-15.opinion` (Oct. 15, XXIII oct.yaml): Gallup, Sept. 21–26: fight the way into Berlin if access is closed, 70 percent; not, 18. Satisfied with the go
 - `cal.1961-10-16.right-and-the-military` (Oct. 16, XXIII oct.yaml): Schwarz's Christian Anti-Communism Crusade fills the Hollywood Bowl, televised.
 - `cal.1961-10-21.defense` (Oct. 21, XXIII oct.yaml): Gilpatric to the Business Council at Hot Springs, Va. The American second strike at least equal to any Soviet 
-- `cal.1961-10-29.opinion` (Oct. 29, XXIII oct.yaml): Gallup, Sept. 21–26: 7 percent have made plans or given serious thought to preparing their homes against a nuc
-- `cal.1961-11-01.opinion` (Nov. 1, XXIV nov.yaml): Gallup, Oct. 19–24: if Berlin is settled peacefully, a long peace, 12 percent; the Russians soon stirring up s
 - `cal.1961-11-02.right-and-the-military` (Nov. 2, XXIV nov.yaml): Walker resigns from the Army.
 - `cal.1961-11-04.specials` (Nov. 4, XXIV nov.yaml): Texas 20th, special. Henry B. González (D) over Goode (R), 54.6 to 44.0, for Kilday's seat. The first Mexican 
-- `cal.1961-11-05.opinion-5` (Nov. 5, XXIV nov.yaml): Gallup, Oct. 19–24: Republicans, Goldwater or Rockefeller: Rockefeller 51, Goldwater 33, undecided 16.
-- `cal.1961-11-07.states-and-cities` (Nov. 7, XXIV nov.yaml): Wagner reelected mayor of New York. In New Jersey Hughes (D) beats Mitchell, Eisenhower's Labor Secretary, for
 - `cal.1961-11-07.specials` (Nov. 7, XXIV nov.yaml): Michigan 1st, special. Nedzi (D) holds Machrowicz's seat, 85.5 percent. Swing 3.2 to R.
-- `cal.1961-11-10.opinion` (Nov. 10, XXIV nov.yaml): Gallup, Oct. 19–24: fight the way into Berlin if access is closed, 62 percent; not, 20 (Canadians, 47 to 33). 
+- `cal.1961-11-07.mayors-ny` (Nov. 7, XXIV nov.yaml): New York's cities upstate. Buffalo: Kowal (R), the city comptroller, elected mayor; Sedita (D), mayor since 19
+- `cal.1961-11-07.mayors-detroit` (Nov. 7, XXIV nov.yaml): Detroit. Cavanagh, a lawyer of 33 in his first race, over Mayor Miriani in the nonpartisan election, 200,413 t
+- `cal.1961-11-07.mayors-cleveland` (Nov. 7, XXIV nov.yaml): Cleveland. Celebrezze (D) a fifth term, 145,972 to 53,302, 73.3 percent, over Albina Cermak (R), the first wom
+- `cal.1961-11-07.mayors-pittsburgh` (Nov. 7, XXIV nov.yaml): Pittsburgh. Barr (D), mayor since 1959, elected to a full term over the Republican, an insurance agent, 124,08
+- `cal.1961-11-07.governors-va` (Nov. 7, XXIV nov.yaml): Virginia: Harrison (D) elected governor over Pearson (R), a former delegate, 251,861 to 142,567, 63.8 percent.
+- `cal.1961-11-07.mayors-louisville` (Nov. 7, XXIV nov.yaml): Louisville: Cowger (R) elected mayor, succeeding Hoblitzell (D); Schmied (R) to the board of aldermen, its pre
+- `cal.1961-11-07.mayors-springfield` (Nov. 7, XXIV nov.yaml): Springfield, Mass., the city's first nonpartisan election for mayor. Ryan over O'Connor, mayor since 1958 and 
 - `cal.1961-11-17.albany` (Nov. 17, XXIV nov.yaml): Albany Movement formed: SNCC, the NAACP, the ministers. William G. Anderson president.
 - `cal.1961-11-18.goldwater` (Nov. 18, XXIV nov.yaml): Atlanta, to Southern Republicans. Asked whether he writes off the Negro vote in the South: "We're not going to
-- `cal.1961-11-26.opinion` (Nov. 26, XXIV nov.yaml): Gallup, Nov. 17–22: the United States to start testing in the atmosphere, 44 percent; not, 45.
-- `cal.1961-11-29.opinion` (Nov. 29, XXIV nov.yaml): Gallup, Nov. 17–22: Khrushchev's offer to ban H-bomb tests within total disarmament. Bluffing, 79 percent; sin
-- `cal.1961-12-02.cuba` (Dec. 2, XXV dec.yaml): Castro declares himself a Marxist-Leninist.
-- `cal.1961-12-08.opinion` (Dec. 8, XXV dec.yaml): Gallup, Nov. 17–22: enough fallout in the air now to endanger people, 21 percent; not, 61.
 - `cal.1961-12-10.albany` (Dec. 10–13, XXV dec.yaml): Freedom riders from Atlanta arrested at the Albany station. Marches; hundreds jailed.
-- `cal.1961-12-10.opinion` (Dec. 10, XXV dec.yaml): Gallup, Nov. 17–22: would work a day or two to build a community fallout shelter, 62 percent; give a day's pay
-- `cal.1961-12-11.vietnam` (Dec. 11, XXV dec.yaml): USNS *Core* docks at Saigon with two Army helicopter companies.
-- `cal.1961-12-13.opinion` (Dec. 13, XXV dec.yaml): Gallup, Nov. 17–22: 60 percent have thought about living in a fallout shelter; 12 plan changes in their homes 
 - `cal.1961-12-15.albany` (Dec. 15–18, XXV dec.yaml): King in Albany. Arrested Dec. 16; refuses bail. Dec. 18: a truce; King out.
-- `cal.1961-12-17.opinion` (Dec. 17, XXV dec.yaml): Gallup, Nov. 17–22: 22 percent have heard of the European Common Market; 13 can tell its purposes.
 - `cal.1961-12-19.transition-and-staff` (Dec. 19, XXV dec.yaml): Joseph P. Kennedy's stroke at Palm Beach. Speechless thereafter.
 - `cal.1961-12-19.specials` (Dec. 19, XXV dec.yaml): Louisiana 4th, special. Waggonner (D) over Lyons (R), 54.5 to 45.5, for Overton Brooks's seat. Swing 20.3 to R
 - `cal.1961-12-22.vietnam` (Dec. 22, XXV dec.yaml): Specialist James T. Davis killed in an ambush west of Saigon. Later counted the first American battle death.
-- `cal.1961-12-31.opinion-5` (Dec. 31, XXV dec.yaml): Gallup, Dec. 7–12: Republicans, Goldwater or Rockefeller: Rockefeller 49, Goldwater 37, undecided 14.
-- `cal.1962-01-10.opinion` (Jan. 10, XXVI jan62.yaml): Gallup, Dec. 7–12, 1961: 52 percent have followed the tariff debate. Of them, lower tariffs 40, higher 31, the
 - `cal.1962-01-12.vietnam` (Jan. 12, XXVI jan62.yaml): Operation Chopper. American H-21s lift about a thousand ARVN paratroopers into action near Saigon.
 - `cal.1962-01-23.right-and-the-military` (Jan. 23, XXVI jan62.yaml): Stennis subcommittee hearings on the "muzzling" of officers open. Thurmond's doing.
-- `cal.1962-01-28.opinion` (Jan. 28, XXVI jan62.yaml): Gallup, Jan. 11–16: the United States to resume testing in the atmosphere, 46 percent; not, 43. Men 53 for, wo
-- `cal.1962-02.civil-rights-organizations` (Feb., XXVII feb62.yaml): Clarksdale. SNCC and CORE workers and the State NAACP's leaders revive the Council of Federated Organizations,
-- `cal.1962-02-06.robert-kennedy` (Feb. 6–24, XXVII feb62.yaml): Robert Kennedy abroad. Tokyo, Nihon University, Feb. 6; Djakarta, the University of Indonesia, Feb. 14, and Jo
+- `cal.1962-01-25.governors-mt` (Jan. 25, XXVI jan62.yaml): Montana. Governor Nutter killed with five others when a National Guard C-47, flying him to Cut Bank, Mont., lo
+- `cal.1962-01-27.mayors-new-orleans` (Jan. 27, XXVI jan62.yaml): New Orleans, Democratic primary for mayor. Duplantier, Morrison's choice, 57,001; Mayor Schiro 52,685; two oth
+- `cal.1962-02-10.governors-mi` (Feb. 10, XXVII feb62.yaml): Michigan. Romney declares for governor; two days later leaves the presidency of American Motors. To talk of hi
+- `cal.1962-02-12.mayors-philadelphia` (Feb. 12, XXVII feb62.yaml): Philadelphia. Dilworth resigns as mayor to run for governor. Tate, president of the City Council, mayor.
 - `cal.1962-02-14.press-and-broadcasting` (Feb. 14, XXVII feb62.yaml): Jacqueline Kennedy's tour of the White House, CBS and NBC. About fifty million viewers.
-- `cal.1962-02-16.opinion` (Feb. 16, XXVII feb62.yaml): Gallup, Jan. 11–16: 53 percent have heard of the John Birch Society. Of them, 8 favorable, 43 unfavorable, 49 
 - `cal.1962-02-16.students` (Feb. 16–17, XXVII feb62.yaml): Students picket the White House in snow for an end to nuclear testing and for disarmament, some thousands, the
-- `cal.1962-02-23.opinion` (Feb. 23, XXVII feb62.yaml): Gallup, Feb. 8–13: officers' speeches on foreign policy to be reviewed, 59 percent; officers to say what they 
-- `cal.1962-03-04.opinion-5` (Mar. 4, XXVIII mar62.yaml): Gallup, Feb. 8–13: Republicans' choice for 1964: Nixon 46, Rockefeller 17, Goldwater 13, Romney 9, Dirksen 5, 
-- `cal.1962-03-07.opinion-5` (Mar. 7, XXVIII mar62.yaml): Gallup, Feb. 8–13: Independents' choice for 1964: Rockefeller 28, Goldwater 17, Romney 15, Milton Eisenhower 5
+- `cal.1962-02.states-and-cities-ny` (Feb., XXVII feb62.yaml): The Conservative Party of New York State organized. O'Doherty its first chairman; Mahoney from July. July 13, 
+- `cal.1962-03-03.mayors-new-orleans` (Mar. 3, XXVIII mar62.yaml): New Orleans, Democratic runoff for mayor: Schiro 94,157, Duplantier 73,057; Schiro 56.3 percent (Check the dat
 - `cal.1962-03-07.goldwater` (Mar. 7, XXVIII mar62.yaml): Madison Square Garden, the Young Americans for Freedom's rally: some 18,000, a full house. Thurmond and Tower 
-- `cal.1962-03-09.opinion-5` (Mar. 9, XXVIII mar62.yaml): Gallup, Feb. 8–13: Goldwater or Rockefeller: Rockefeller 45, Goldwater 44, undecided 11.
-- `cal.1962-03-13.cuba` (Mar. 13, XXVIII mar62.yaml): The Joint Chiefs send McNamara Operation Northwoods: pretexts for invasion, staged attacks among them. Lemnitz
-- `cal.1962-03-28.opinion` (Mar. 28, XXVIII mar62.yaml): Gallup, Mar. 8–13: the United States to resume testing in the atmosphere, 66 percent; not, 25. Men 73 for, wom
 - `cal.1962-04-01.voting-rights` (Apr. 1, XXIX apr62.yaml): Voter Education Project begins: the Southern Regional Council, foundation money, the Justice Department's bles
-- `cal.1962-04-01.opinion` (Apr. 1, XXIX apr62.yaml): Gallup, Mar. 8–13: hospital care for the aged through Social Security, paid by a higher Social Security tax, 5
-- `cal.1962-04-06.opinion` (Apr. 6, XXIX apr62.yaml): Gallup, Mar. 15–20, on Edward Kennedy's candidacy for the Senate: no figures printed. Opinion by party; Democr
-- `cal.1962-04-08.opinion` (Apr. 8, XXIX apr62.yaml): Gallup, Mar. 8–13: more trade with other countries important, 65 percent. 46 have heard of the administration'
-- `cal.1962-04-13.opinion` (Apr. 13, XXIX apr62.yaml): Gallup, Mar. 8–13: federal youth camps like the CCC, good idea 79 percent, poor 16.
-- `cal.1962-04-20.opinion` (Apr. 20, XXIX apr62.yaml): Gallup, Mar. 8–13: a law against unions requiring more workers than a job needs, 55 percent for, 23 against.
-- `cal.1962-04-25.testing` (Apr. 25, XXIX apr62.yaml): U.S. atmospheric testing resumes near Christmas Island.
-- `cal.1962-04-27.opinion` (Apr. 27, XXIX apr62.yaml): Gallup, Apr. 6–11: a department of urban affairs, 50 percent for, 30 against. Republicans 37 for, 42 against.
-- `cal.1962-04-29.opinion` (Apr. 29, XXIX apr62.yaml): Gallup, Apr. 6–11: the most important problem, war, peace, and international tension, 63 percent; cost of livi
-- `cal.1962-05-05.elections-1962` (May 5, XXX may62.yaml): Texas Democratic primary. Connally leads for governor; Walker last of six.
-- `cal.1962-05-06.opinion` (May 6, XXX may62.yaml): Gallup, Apr. 6–11: nearly three adults in four have seen or heard one of Kennedy's press conferences in six mo
-- `cal.1962-05-13.opinion-5` (May 13, XXX may62.yaml): Gallup, Apr. 6–11: choice for 1964, Nixon not on the list: Rockefeller 33, Goldwater 23, Milton Eisenhower 14,
-- `cal.1962-05-18.opinion` (May 18, XXX may62.yaml): Gallup, Apr. 6–11: Presidents to stop naming federal and Supreme Court judges from their own party, 44 percent
-- `cal.1962-05-20.opinion` (May 20, XXX may62.yaml): Gallup, May 3–8: 70 percent know of Kennedy's moves against the steel price increase. Of them, 58 favorable, 2
-- `cal.1962-05-25.opinion` (May 25, XXX may62.yaml): Gallup, May 3–8: 75 percent have heard of the White Citizens Councils' plan to send unemployed Negroes North f
-- `cal.1962-05-27.opinion` (May 27, XXX may62.yaml): Gallup, May 3–8: where Negroes live happier, Southern whites say the South 45 percent, the North 25. Negroes w
-- `cal.1962-05-29.elections-1962` (May 29, XXX may62.yaml): Wallace wins the Alabama runoff for governor over DeGraffenried.
+- `cal.1962-04-06.state-and-city-finance-detroit` (Apr. 6, XXIX apr62.yaml): Detroit. Cavanagh proposes a city income tax of 1 percent, on residents and on what nonresidents earn in the c
+- `cal.1962-04-16.desegregation-schools-la` (Apr. 16, XXIX apr62.yaml): Archbishop Rummel of New Orleans excommunicates Leander Perez, the Plaquemines Parish leader, and two others w
+- `cal.1962-05-05.elections-1962` (May 5, XXX may62.yaml): Texas primaries for governor. Democratic: Connally 29.8 percent, Don Yarborough 22.0, Governor Daniel 17.2, At
+- `cal.1962-05-08.mayors-newark` (May 8, XXX may62.yaml): Newark, nonpartisan election. Addonizio, U.S. Representative from the 11th District since 1949, defeats Mayor 
 - `cal.1962-05.press-and-broadcasting` (May, XXX may62.yaml): The White House cancels its *New York Herald Tribune* subscriptions. Check the month.
-- `cal.1962-05-30.opinion` (May 30, XXX may62.yaml): Gallup, May 3–8: the Kennedy administration pushing integration too fast, 32 percent; not fast enough, 11; abo
-- `cal.1962-06-05.elections-1962` (June 5, XXXI jun62.yaml): California primary. Nixon beats Shell for the Republican nomination for governor.
-- `cal.1962-06-06.opinion` (June 6, XXXI jun62.yaml): Gallup, May 3–8: a basis in the Bible for segregation? About a third of Southern whites say yes, a third no; o
-- `cal.1962-06-10.opinion-5` (June 10, XXXI jun62.yaml): Gallup, May 3–8: Republicans' choice for 1964: Nixon 42. His supporters' second choices redistributed: Rockefe
-- `cal.1962-06-11.students` (June 11–15, XXXI jun62.yaml): Students for a Democratic Society in convention at Port Huron, Mich.: some sixty. The Port Huron Statement ado
-- `cal.1962-06-12.opinion-5` (June 12, XXXI jun62.yaml): Gallup, May 3–8: Independents' choice for 1964, Nixon not on the list: Rockefeller 33, Goldwater 17, Romney 10
-- `cal.1962-06-13.opinion-5` (June 13, XXXI jun62.yaml): Gallup, May 3–8: Goldwater or Rockefeller: Rockefeller 51, Goldwater 35, undecided 14.
-- `cal.1962-06-15.opinion-5` (June 15, XXXI jun62.yaml): Gallup, May 3–8: Kennedy 65, Nixon 35. Republicans: Nixon 78, Kennedy 22. Independents: Kennedy 60, Nixon 40.
-- `cal.1962-06-17.opinion` (June 17, XXXI jun62.yaml): Gallup, May 31–June 5: 85 percent have heard of the stock market decline. Of them, 20 blame Kennedy's action i
-- `cal.1962-07-01.opinion` (July 1, XXXII jul62.yaml): Gallup, May 31–June 5: hospital care for the aged through Social Security, 48 percent; voluntary private insur
-- `cal.1962-07-09.testing` (July 9, XXXII jul62.yaml): Starfish Prime: 1.4 megatons, 250 miles over Johnston Island. Artificial aurora; satellites damaged; streetlig
-- `cal.1962-07-10.albany` (July 10–12, XXXII jul62.yaml): King and Abernathy choose jail over fines. Out July 12, the fines paid by an unnamed hand.
+- `cal.1962-06-02.governors-tx` (June 2, XXXI jun62.yaml): Texas Democratic runoff for governor: Connally 565,174, 51.2 percent; Don Yarborough 538,924.
+- `cal.1962-06-05.mississippi-ms` (June 5, XXXI jun62.yaml): Mississippi, down from six Representatives to five, two incumbents put in one district: Whitten beats Frank E.
+- `cal.1962-06-05.governors-id` (June 5, XXXI jun62.yaml): Idaho's primary. Republican, for governor: Smylie, seeking a third term, 37,761, 57.2 percent; Lindquist 16,56
+- `cal.1962-06-18.governors-me` (June 18, XXXI jun62.yaml): Maine's Democratic primary for governor. Dolloff 18,234, 50.3 percent; Dubord 18,007.
+- `cal.1962-06-28.states-and-cities-nashville` (June 28, XXXI jun62.yaml): Nashville. Davidson County's voters approve the charter of a Metropolitan Government of Nashville and Davidson
 - `cal.1962-07-15.program` (July 15, XXXII jul62.yaml): *Washington Post* (Mintz): Kelsey of the FDA kept thalidomide off the market. Kefauver's drug bill revives.
-- `cal.1962-07-15.opinion-5` (July 15, XXXII jul62.yaml): Gallup, May 31–June 5: Republicans' choice for 1964: Nixon 45, other 55. Nixon's supporters' second choices re
-- `cal.1962-07-20.albany` (July 20–24, XXXII jul62.yaml): Elliott enjoins the marches; Tuttle vacates the order. Marion King beaten at the Camilla jail. July 24: rocks 
-- `cal.1962-07-27.albany` (July 27, XXXII jul62.yaml): King arrested at a City Hall prayer vigil.
-- `cal.1962-08-01.opinion` (Aug. 1, XXXIII aug62.yaml): Gallup, June 28–July 3: an income tax cut now, if it means more debt, 19 percent for, 72 against. Of those who
-- `cal.1962-08-03.opinion` (Aug. 3, XXXIII aug62.yaml): Gallup, June 28–July 3: the government to act to improve business, 52 percent; not, 45. If it acts, a tax cut 
 - `cal.1962-08-10.albany` (Aug. 10, XXXIII aug62.yaml): King leaves Albany. Parks and library closed rather than integrated. King later: the mistake was attacking seg
-- `cal.1962-08-22.opinion` (Aug. 22, XXXIII aug62.yaml): Gallup, July 26–31: 81 percent have heard of Kennedy's Medicare plan; of them, half know it is paid through So
 - `cal.1962-08-27.elections-1962` (Aug. 27, XXXIII aug62.yaml): Edward Kennedy and McCormack debate in South Boston. "If his name was Edward Moore, with his qualifications . 
 - `cal.1962-09-10.mississippi` (Sept. 10–13, XXXIV sep62.yaml): Black, as circuit justice, vacates Cameron's stays. Sept. 13: Barnett proclaims interposition.
-- `cal.1962-09-19.opinion` (Sept. 19, XXXIV sep62.yaml): Gallup, Aug. 23–28: the Arizona woman who took thalidomide and had an abortion in Sweden did right, 52 percent
-- `cal.1962-10-01.mississippi` (Oct. 1, XXXV oct62.yaml): Meredith registers. Troops in Oxford. Walker arrested for insurrection; sent for psychiatric examination.
-- `cal.1962-10-05.opinion` (Oct. 5, XXXV oct62.yaml): Gallup, Aug. 23–28: Negro children here have the same chance at a good education as white children, say 86 per
-- `cal.1962-10-14.opinion` (Oct. 14, XXXV oct62.yaml): Gallup, Sept. 20–25: on Cuba, bomb or invade, 10 percent; an embargo, 13; something short of war, 26; hands of
-- `cal.1962-10-17.opinion` (Oct. 17, XXXV oct62.yaml): Gallup, Sept. 20–25: troops sent to overthrow Castro likely to bring all-out war with Russia, 51 percent; not,
-- `cal.1962-10-20.india-and-china` (Oct. 20, XXXV oct62.yaml): China attacks in Ladakh and the North-East Frontier Agency.
-- `cal.1962-10-25.missile-crisis` (Oct. 25, XXXV oct62.yaml): Stevenson and Zorin at the Security Council. "Until hell freezes over." The photographs shown.
+- `cal.1962-09-17.governors-ny` (Sept. 17–19, XXXIV sep62.yaml): New York's conventions. Democrats at Syracuse, Sept. 17: Morgenthau, United States Attorney in Manhattan, nomi
+- `cal.1962-09-27.georgia-ga` (Sept. 27–Oct. 23, XXXIV sep62.yaml): Special session, on *Toombs v. Fortson*. The General Assembly reapportions the Senate's 54 seats, many to the 
+- `cal.1962-10-02.mayors-cleveland` (Oct. 2, XXXV oct62.yaml): Cleveland, Democratic primary for the rest of Celebrezze's term. Locher over Mark McElroy, the attorney genera
+- `cal.1962-10-03.european-community` (Oct. 3, XXXV oct62.yaml): Brighton, the Labour Party conference. Gaitskell against entry on the terms in sight: a federal Europe "the en
+- `cal.1962-11-06.governors` (Nov. 6, XXXVI nov62.yaml): Thirty-five governors elected: Democrats 21, Republicans 14; each party took seven States from the other. Brow
+- `cal.1962-11-06.georgia-ga` (Nov. 6, XXXVI nov62.yaml): Georgia Senate, the first election under the new apportionment. Leroy Johnson (D), an Atlanta lawyer, elected 
+- `cal.1962-11-06.mayors-cleveland` (Nov. 6, XXXVI nov62.yaml): Cleveland. Locher elected for the rest of Celebrezze's term, some three to one.
+- `cal.1962-11-06.legislatures-us` (Nov. 6, XXXVI nov62.yaml): The State legislatures. Republicans gain some 130 lower-house seats and 48 senate seats. They take both houses
+- `cal.1962-11-06.governors-vt` (Nov. 6, XXXVI nov62.yaml): Vermont. Hoff (D) over Keyser (R), the governor, 61,350 to 60,035, 50.5 percent, his Democratic line 56,196 an
+- `cal.1962-11-06.governors-me` (Nov. 6, XXXVI nov62.yaml): Maine. Reed (R), the governor, over Dolloff (D), 146,604 to 146,121: a margin of 483.
 - `cal.1962-11-07.elections-1962` (Nov. 7, XXXVI nov62.yaml): Nixon at the Beverly Hilton: "You won't have Nixon to kick around anymore."
-- `cal.1962-11-14.opinion` (Nov. 14, XXXVI nov62.yaml): Gallup, Oct. 19–24: the Kennedy administration pushing integration too fast, 42 percent; not fast enough, 12; 
 - `cal.1962-11.opinion` (Nov., XXXVI nov62.yaml): After the missile crisis, approval in the mid-seventies.
-- `cal.1962-11-21.opinion` (Nov. 21, XXXVI nov62.yaml): Gallup, Oct. 19–24: 71 percent have heard of the Peace Corps; of them, 74 approve its work, 9 disapprove. A Pe
+- `cal.1962-11-26.open-housing-detroit` (Nov. 26, XXXVI nov62.yaml): Detroit. Cavanagh signs an ordinance forbidding real estate agents to solicit sales or rentals by saying that 
+- `cal.1962-11-30.governors-nm` (Nov. 30, XXXVI nov62.yaml): New Mexico. Mechem resigns the governorship; Bolack, the lieutenant governor, succeeds and appoints him to the
 - `cal.1962-12-02.goldwater` (Dec. 2, XXXVII dec62.yaml): Chicago, a motel. White's draft group meets in secret, some forty by the UPI's count, many from the South: a G
-- `cal.1962-12-06.press-and-broadcasting` (Dec. 6, XXXVII dec62.yaml): Sylvester, Pentagon spokesman: the government's right to lie to save itself in a nuclear crisis. "Managed news
-- `cal.1962-12-08.press-and-broadcasting` (Dec. 8, XXXVII dec62.yaml): New York newspaper strike begins. 114 days.
-- `cal.1962-12-09.opinion-5` (Dec. 9, XXXVII dec62.yaml): Gallup, Nov. 16–21: choice for 1964: Rockefeller 41, Nixon 21, Romney 15, Goldwater 11, Dirksen 4, Scranton 3;
-- `cal.1962-12-12.opinion-5` (Dec. 12, XXXVII dec62.yaml): Gallup, Nov. 16–21: the four, by region: Rockefeller 50 in the East, 44 in the Midwest, 42 in the South, 55 in
+- `cal.1962-12-13.legislatures-us` (Dec. 13, XXXVII dec62.yaml): Advisory Commission on Intergovernmental Relations, *Apportionment of State Legislatures*, adopted: both house
 - `cal.1962-12-14.space` (Dec. 14, XXXVII dec62.yaml): Mariner 2 passes Venus. First planetary flyby.
+- `cal.1962-12-17.georgia-atlanta` (Dec. 17–18, XXXVII dec62.yaml): Atlanta. A Negro having bought a house in Peyton Forest, white homeowners ask for barricades across Peyton and
 - `cal.1962-12-20.latin-america` (Dec. 20, XXXVII dec62.yaml): Bosch elected president of the Dominican Republic.
-- `cal.1963-01-06.opinion` (Jan. 6, XXXVIII jan63.yaml): Gallup, Dec. 13–18, 1962: Stevenson's handling of his job at the UN, 64 percent approve, 11 disapprove.
-- `cal.1963-01-13.opinion-5` (Jan. 13, XXXVIII jan63.yaml): Gallup, Dec. 13–18: Republicans' choice for 1964: Rockefeller 46, Goldwater 26, Romney 15, Scranton 5, Hatfiel
-- `cal.1963-01-14.alabama` (Jan. 14, XXXVIII jan63.yaml): Wallace inaugurated at Montgomery. "Segregation now, segregation tomorrow, segregation forever."
-- `cal.1963-01-27.opinion` (Jan. 27, XXXVIII jan63.yaml): Gallup, Jan. 11–16: strikes in newspapers, telephones, radio, and television to be forbidden by law, 40 percen
-- `cal.1963-02-01.opinion` (Feb. 1, XXXIX feb63.yaml): Gallup, Jan. 11–16: race relations in the South in the coming year, better 44 percent, worse 32. In the South,
-- `cal.1963-02-03.opinion` (Feb. 3, XXXIX feb63.yaml): Gallup, Jan. 11–16: foreign aid, 58 percent for, 30 against.
-- `cal.1963-02-06.economy` (Feb. 6, XXXIX feb63.yaml): Ways and Means opens hearings on the tax message, Dillon first. They run to Mar. 27.
-- `cal.1963-02-08.opinion` (Feb. 8, XXXIX feb63.yaml): Gallup's French and Dutch affiliates, after the veto, no field dates given. In France, de Gaulle's policy towa
-- `cal.1963-02-10.opinion` (Feb. 10, XXXIX feb63.yaml): Gallup, Jan. 11–16: federal school aid to public schools only, 44 percent; to Catholic and other private schoo
-- `cal.1963-02-13.opinion` (Feb. 13, XXXIX feb63.yaml): Gallup, Jan. 11–16: federal school aid to all public schools, 72 percent; withheld from schools that fail to i
-- `cal.1963-02-15.opinion-5` (Feb. 15, XXXIX feb63.yaml): Gallup, Feb. 7–12: Republicans' choice for 1964: Rockefeller 49, Goldwater 17, Romney 13, Scranton 8, Hatfield
+- `cal.1962-12.cities-and-housing-nyc` (Dec., XXXVII dec62.yaml): New York. The Board of Estimate, after a hearing of six hours, sets aside Moses's Lower Manhattan Expressway, 
+- `cal.1962-12.states-and-cities-us` (Dec., XXXVII dec62.yaml): The Council of State Governments' General Assembly of the States, at Chicago, recommends three amendments to t
 - `cal.1963-02-19.program` (Feb. 19, XXXIX feb63.yaml): Friedan's *The Feminine Mystique* published.
-- `cal.1963-02-24.opinion` (Feb. 24, XXXIX feb63.yaml): Gallup, Feb. 7–12: the administration's handling of Cuba in recent weeks, 56 percent satisfied, 28 dissatisfie
-- `cal.1963-02-27.opinion` (Feb. 27, XXXIX feb63.yaml): Gallup, Feb. 7–12: American forces into Cuba to overthrow Castro, 20 percent agree, 64 disagree. Cuba a seriou
-- `cal.1963-02-28.mississippi` (Feb. 28, XXXIX feb63.yaml): Jimmy Travis of SNCC shot on the highway outside Greenwood; Moses beside him unhurt. SNCC and COFO bring their
-- `cal.1963-03-10.opinion` (Mar. 10, XL mar63.yaml): Gallup, Feb. 7–12: France a dependable ally, 32 percent; not, 35; no opinion, 33. The college-educated, 36 and
-- `cal.1963-03-13.opinion` (Mar. 13, XL mar63.yaml): Gallup, Feb. 7–12: Britain a dependable ally, 63 percent; not, 12. West Germany, 58 and 13.
-- `cal.1963-03-17.opinion-5` (Mar. 17, XL mar63.yaml): Gallup, Feb. 7–12: Kennedy 63, Rockefeller 32, undecided 5. Independents: Kennedy 56, Rockefeller 37.
-- `cal.1963-03-20.opinion-5` (Mar. 20, XL mar63.yaml): Gallup, Feb. 7–12: Kennedy 67, Goldwater 27, undecided 6.
-- `cal.1963-03-22.opinion` (Mar. 22, XL mar63.yaml): Gallup, Mar. 8–13: the administration's handling of Cuba in recent weeks, 52 percent satisfied, 33 dissatisfie
-- `cal.1963-03-27.mississippi` (Mar. 27–30, XL mar63.yaml): Greenwood police set a dog on Black citizens walking home from the registrar; a minister bitten. SNCC workers 
-- `cal.1963-03-31.press-and-broadcasting` (Mar. 31, XL mar63.yaml): New York newspaper strike ends after 114 days. The papers back Apr. 1.
-- `cal.1963-03-31.opinion-5` (Mar. 31, XL mar63.yaml): Gallup, Mar. 8–13: Republicans' choice for 1964: Rockefeller 44, Goldwater 21, Romney 14, Scranton 9, Hatfield
-- `cal.1963-04-03.opinion` (Apr. 3, XLI apr63.yaml): Gallup, Mar. 8–13: the most important problem, Cuba and Castro, 24 percent; other international problems, 39; 
+- `cal.1963-03-05.mayors-baltimore` (Mar. 5, XL mar63.yaml): Baltimore primaries for mayor. Democratic: Goodman, mayor since December, 49.5 percent of 143,418, the nearest
+- `cal.1963-03.mayors-kansas-city` (Mar., XL mar63.yaml): Kansas City, Mo., elects Davis mayor, the Citizens Association's candidate, over Brookfield, by 1,810 votes of
+- `cal.1963-04-02.mayors-chicago` (Apr. 2, XLI apr63.yaml): Chicago. Daley (D) re-elected to a third term over Adamowski (R), Cook County's State's Attorney 1957–60, 679,
+- `cal.1963-04-02.states-and-cities-tx` (Apr. 2, XLI apr63.yaml): Crystal City, Tex. Five Mexican American candidates, backed by PASO and the Teamsters at the Del Monte cannery
+- `cal.1963-04-02.mayors-los-angeles` (Apr. 2, XLI apr63.yaml): Los Angeles City Council, 10th district: Bradley over the appointed incumbent, two elections, for the unexpire
+- `cal.1963-04-02.open-housing-berkeley` (Apr. 2, XLI apr63.yaml): Berkeley. The city's fair housing ordinance, passed by the council, repealed by the voters at referendum. Chec
 - `cal.1963-04-08.elections-1964` (Apr. 8, XLI apr63.yaml): National Draft Goldwater Committee announced. O'Donnell, the Texas Republican chairman, at its head; White its
-- `cal.1963-04-23.alabama` (Apr. 23, XLI apr63.yaml): William Moore, a Baltimore postman walking alone to Mississippi with a letter for Barnett, shot dead on the hi
-- `cal.1963-04-28.opinion-5` (Apr. 28, XLI apr63.yaml): Gallup, Apr. 4–9: Republicans' choice for 1964: Rockefeller 43, Goldwater 26, Romney 13, Scranton 7, Hatfield 
-- `cal.1963-05-01.opinion` (May 1, XLII may63.yaml): Gallup, Apr. 4–9: the administration's handling of Cuba in recent weeks, 49 percent satisfied, 29 dissatisfied
 - `cal.1963-05-04.elections-1964` (May 4, XLII may63.yaml): Rockefeller, divorced in 1962, marries Margaretta Fitler Murphy, divorced a month before.
+- `cal.1963-05-07.mayors-baltimore` (May 7, XLII may63.yaml): Baltimore. McKeldin (R) elected mayor over Goodman (D), 108,427 to 103,761, 51.1 percent.
+- `cal.1963-05-10.states-and-cities-ma` (May 10, XLII may63.yaml): Massachusetts. Crimmins, of the Governor's Council, with the chairman of the State Housing Board and the head 
+- `cal.1963-05-14.desegregation-public-places-louisville` (May 14, XLII may63.yaml): Louisville's Board of Aldermen passes an ordinance forbidding discrimination by race in places of public accom
+- `cal.1963-05-21.mayors-philadelphia` (May 21, XLII may63.yaml): Philadelphia primaries for mayor. Democratic: Tate, the City Committee's candidate, 128,840; Walter M. Phillip
 - `cal.1963-05-24.civil-rights-the-executive` (May 24, XLII may63.yaml): Robert Kennedy meets James Baldwin and a dozen others Baldwin brought, at the Kennedy apartment in New York. T
-- `cal.1963-05-24.opinion` (May 24, XLII may63.yaml): Gallup, May 2–7: the administration's handling of Cuba in recent weeks, 45 percent satisfied, 35 dissatisfied.
-- `cal.1963-05-26.opinion-5` (May 26, XLII may63.yaml): Gallup, May 8–13: Republicans' choice for 1964: Goldwater 35, Rockefeller 30, Romney 22; others, no preference
-- `cal.1963-05-27.opinion-5` (May 27, XLII may63.yaml): Gallup, May 8–13: Kennedy 60, Goldwater 36, undecided 4; Kennedy 60, Romney 35, undecided 5.
 - `cal.1963-05-28.mississippi` (May 28, XLII may63.yaml): Jackson. Tougaloo students sit in at Woolworth's lunch counter; a crowd beats them for three hours, police out
-- `cal.1963-05-28.opinion-5` (May 28, XLII may63.yaml): Gallup, May 8–13: Kennedy 63, Rockefeller 32, undecided 5.
-- `cal.1963-06.civil-rights-organizations` (June, XLIII jun63.yaml): McDew resigns as SNCC's chairman, for his health. An emergency meeting of the coordinating committee elects Le
-- `cal.1963-06-11.specials` (June 11, XLIII jun63.yaml): California 23d, special. Del Clawson (R) takes Clyde Doyle's seat, 53.2 to 35.4 over Carley Porter (D), four o
-- `cal.1963-06-16.opinion` (June 16, XLIII jun63.yaml): Gallup, May 23–28: the Kennedy administration pushing integration too fast, 36 percent; not fast enough, 18; a
-- `cal.1963-06-19.opinion` (June 19, XLIII jun63.yaml): Gallup, May 23–28: serious racial trouble here in the next two or three years, likely 22 percent, not likely 6
+- `cal.1963-05.desegregation-public-places-greensboro` (May–June, XLII may63.yaml): Greensboro. Demonstrations, the largest in the State's history, led by students of A&T, for the desegregation 
+- `cal.1963-06-11.mayors-minneapolis` (June 11, XLIII jun63.yaml): Minneapolis re-elects Naftalin (DFL) over Peterson (R), mayor before him.
+- `cal.1963-06-18.desegregation-schools-boston` (June 18, XLIII jun63.yaml): Boston. The Stay Out for Freedom. In June the School Committee, Hicks its chairman, had met the NAACP's demand
 - `cal.1963-06-19.civil-rights-organizations` (June 19, XLIII jun63.yaml): New York, the Carlyle. Currier, of the Taconic Foundation, gives the leaders a breakfast for corporations and 
-- `cal.1963-06-21.opinion` (June 21, XLIII jun63.yaml): Gallup, May 23–28: white parents who would object to a school where a few of the children are Negro, 10 percen
+- `cal.1963-06-21.open-housing-ca` (June 21, XLIII jun63.yaml): California. The Rumford Fair Housing Act, Rumford's A.B. 1240, passes the Senate in the session's last hours a
 - `cal.1963-06-22.civil-rights-bill` (June 22, XLIII jun63.yaml): Kennedy meets some thirty civil rights leaders, King, Randolph, Wilkins, Young, Farmer, and Lewis among them. 
-- `cal.1963-06-23.opinion` (June 23, XLIII jun63.yaml): Gallup, May 23–28, whites: would move if Negroes came to live next door, definitely 20 percent, might 25, woul
-- `cal.1963-06-26.opinion` (June 26, XLIII jun63.yaml): Gallup, May 23–28: some group treated unfairly by the Kennedy administration, 20 percent; the Negroes named by
-- `cal.1963-06-28.opinion-5` (June 28, XLIII jun63.yaml): Gallup, May 23–28: Republicans' choice for 1964: Goldwater 38, Rockefeller 28, Romney 16; others, no preferenc
-- `cal.1963-06-30.opinion-5` (June 30, XLIII jun63.yaml): Gallup, May 23–28, the tickets: Kennedy–Johnson 56, Rockefeller–Goldwater 38, undecided 6. South: Rockefeller–
+- `cal.1963-06-26.antisubversion-nc` (June 26, XLIII jun63.yaml): North Carolina. In the session's last hours, without hearings, the General Assembly passes the Act to Regulate
+- `cal.1963-06-26.desegregation-public-places-ky` (June 26, XLIII jun63.yaml): Kentucky. Combs's executive order, the Fair Services Code: no discrimination by race in the State's public acc
 - `cal.1963-07-04.elections-1964` (July 4, XLIV jul63.yaml): Draft Goldwater rally, National Guard Armory, Washington. Police count over 7,000. Tower the speaker; O'Donnel
-- `cal.1963-07-10.opinion` (July 10, XLIV jul63.yaml): Gallup, June 21–26: a law giving Negroes the right to be served in hotels, restaurants, theaters, and the like
 - `cal.1963-07-14.elections-1964` (July 14, XLIV jul63.yaml): Rockefeller's statement against the "radical right": the Young Republicans' convention at San Francisco in Jun
-- `cal.1963-07-14.opinion` (July 14, XLIV jul63.yaml): Gallup, June 21–26: the Kennedy administration pushing integration too fast, 41 percent; not fast enough, 14; 
-- `cal.1963-07-17.opinion` (July 17, XLIV jul63.yaml): Gallup, June 21–26: mass demonstrations by Negroes will hurt their cause, 60 percent; help it, 27. Race relati
-- `cal.1963-07-19.opinion` (July 19, XLIV jul63.yaml): Gallup, June 21–26, in the South: whites and Negroes will one day share schools, restaurants, and public accom
-- `cal.1963-07-21.opinion` (July 21, XLIV jul63.yaml): Gallup, June 21–26: Negroes here have as good a chance as whites at any job they are qualified for, 43 percent
+- `cal.1963-07-21.states-and-cities-us` (July 21–24, XLIV jul63.yaml): Governors' Conference at Miami Beach. July 22: Hatfield's appeal against a five-minute limit on the civil righ
 - `cal.1963-07-23.civil-rights-the-executive` (July 23, XLIV jul63.yaml): Cambridge, Md., under the Guard since June. At Justice, Robert Kennedy brings Gloria Richardson and the city's
-- `cal.1963-07-24.opinion-5` (July 24, XLIV jul63.yaml): Gallup, June 21–26: Kennedy 60, Goldwater 34, undecided 6; Kennedy 63, Rockefeller 30, undecided 7; Kennedy 59
+- `cal.1963-07-23.alabama-birmingham` (July 23, XLIV jul63.yaml): Birmingham's council repeals the city's segregation ordinances, unanimously (Check).
 - `cal.1963-07-26.civil-rights-the-executive` (July 26, XLIV jul63.yaml): McNamara's directive on the Gesell Committee's report: commanders to oppose discrimination against their men o
-- `cal.1963-07-26.opinion` (July 26, XLIV jul63.yaml): Gallup, May 23–28: 14 percent have heard of the proposed Court of the Union, the fifty State chief justices wi
-- `cal.1963-07-28.opinion-5` (July 28, XLIV jul63.yaml): Gallup, June 21–26: Republicans' choice for 1964: Goldwater 39, Rockefeller 27, Romney 14; others, no preferen
-- `cal.1963-07-30.specials` (July 30, XLIV jul63.yaml): Pennsylvania 15th, special. Fred B. Rooney (D) holds the seat of Francis E. Walter (D), who died May 31; 53.5 
-- `cal.1963-07-31.opinion-5` (July 31, XLIV jul63.yaml): Gallup, July 18–23: Independents' choice for 1964: Goldwater 31, Rockefeller 27, Romney 15, Stassen 6, Scranto
-- `cal.1963-08-04.opinion-5` (Aug. 4, XLV aug63.yaml): Gallup, July 18–23, Catholics: Kennedy 80, Goldwater 20; Kennedy 83, Romney 17; Kennedy 85, Rockefeller 15.
-- `cal.1963-08-07.opinion` (Aug. 7, XLV aug63.yaml): Gallup, July 18–23: 71 percent have heard of the railroad dispute. Of them, 40 side with the railroads, 28 wit
-- `cal.1963-08-09.opinion` (Aug. 9, XLV aug63.yaml): Gallup, July 18–23: a law against unions requiring more workers than a job needs, 52 percent for, 25 against; 
-- `cal.1963-08-11.opinion` (Aug. 11, XLV aug63.yaml): Gallup, July 18–23: the Kennedy administration pushing integration too fast, 48 percent; not fast enough, 11. 
-- `cal.1963-08-14.opinion-5` (Aug. 14, XLV aug63.yaml): Gallup, July 18–23: Republicans' choice for 1964: Goldwater 39, Rockefeller 22, Romney 21, Stassen 5, Scranton
-- `cal.1963-08-16.opinion` (Aug. 16, XLV aug63.yaml): Gallup, July 18–23: Negroes here treated the same as whites, 56 percent; not very well, 21; badly, 3. Better t
-- `cal.1963-08-18.opinion-5` (Aug. 18, XLV aug63.yaml): Gallup, July 18–23, the South: Goldwater 54, Kennedy 38; Romney 47, Kennedy 40; Kennedy 44, Rockefeller 39. Un
-- `cal.1963-08-21.opinion-5` (Aug. 21, XLV aug63.yaml): Gallup, July 18–23, the East: Kennedy 70, Goldwater 26; Kennedy 73, Rockefeller 23; Kennedy 67, Romney 24. Und
-- `cal.1963-08-25.opinion-5` (Aug. 25, XLV aug63.yaml): Gallup, July 18–23: Kennedy 59, Goldwater 35; Kennedy 61, Rockefeller 30; Kennedy 57, Romney 34. Undecided, ot
-- `cal.1963-08-27.opinion` (Aug. 27, XLV aug63.yaml): Gallup, Aug. 15–20: 69 percent have heard of the planned March on Washington. Of them, 22 favorable, 63 unfavo
-- `cal.1963-08-30.opinion` (Aug. 30, XLV aug63.yaml): Gallup, June 21–26: the Supreme Court's ruling against required Bible reading and the Lord's Prayer in public 
-- `cal.1963-09-01.opinion` (Sept. 1, XLVI sep63.yaml): Gallup, Aug. 15–20: 60 percent have heard of the partial test ban. Of them, Senate approval, 63 for, 17 agains
-- `cal.1963-09-04.opinion` (Sept. 4, XLVI sep63.yaml): Gallup, Aug. 15–20: a law giving Negroes the right to be served in hotels, restaurants, theaters, and the like
-- `cal.1963-09-06.opinion` (Sept. 6, XLVI sep63.yaml): Gallup, Aug. 15–20: federal youth camps like the CCC, good idea 89 percent, poor 6.
-- `cal.1963-09-11.opinion` (Sept. 11, XLVI sep63.yaml): Gallup, Aug. 15–20: the Kennedy administration pushing integration too fast, 50 percent; not fast enough, 10. 
-- `cal.1963-09-13.opinion-5` (Sept. 13, XLVI sep63.yaml): Gallup, Aug. 15–20: Republicans' choice for 1964: Goldwater 38, Rockefeller 29, Romney 15, Stassen 5, Scranton
-- `cal.1963-09-15.opinion-5` (Sept. 15, XLVI sep63.yaml): Gallup, Aug. 15–20: Goldwater or Rockefeller: Goldwater 50, Rockefeller 50. Republicans: Goldwater 59, Rockefe
+- `cal.1963-07-30.legislatures-ca` (July 30–31, XLIV jul63.yaml): California. Unruh keeps the Assembly's Republicans locked in the chamber overnight until they vote on the budg
+- `cal.1963-09-11.state-and-city-finance-mi` (Sept. 11–Nov. 14, XLVI sep63.yaml): Michigan. The legislature in special session on Romney's fiscal reform, a flat-rate income tax its center. Nov
 - `cal.1963-09-16.desegregation-schools` (Sept. 16, XLVI sep63.yaml): Prince Edward County, Va., its public schools closed since 1959 rather than desegregated. The Free Schools ope
-- `cal.1963-09-25.opinion-5` (Sept. 25, XLVI sep63.yaml): Gallup, Aug. 15–20: Kennedy 57, Goldwater 37, undecided, others 6.
-- `cal.1963-09-25.robert-kennedy` (Sept. 25, XLVI sep63.yaml): Robert Kennedy opens McClellan's hearings on organized crime. Valachi "for the first time an insider" to break
-- `cal.1963-09-27.opinion-5` (Sept. 27, XLVI sep63.yaml): Gallup, Aug. 15–20: Kennedy 58, Nixon 37, undecided, others 5.
-- `cal.1963-09-29.opinion` (Sept. 29, XLVI sep63.yaml): Gallup, Sept. 12–17: 52 percent have heard of Kennedy's tax cut. Of those informed enough to weigh it, 60 for 
-- `cal.1963-10-02.opinion` (Oct. 2, XLVII oct63.yaml): Gallup, Sept. 12–17: the most important problem, racial problems, 52 percent; international problems, 25; unem
-- `cal.1963-10-04.opinion` (Oct. 4, XLVII oct63.yaml): Gallup, Aug. 15–20: would vote for a well-qualified Catholic nominated for President by their party, 84 percen
-- `cal.1963-10-06.opinion-5` (Oct. 6, XLVII oct63.yaml): Gallup, Sept. 12–17: Republicans' choice for 1964: Goldwater 42, Rockefeller 26, Romney 15, Scranton 4; others
-- `cal.1963-10-11.opinion` (Oct. 11, XLVII oct63.yaml): Gallup, July 18–23: satisfied with family income, whites 68 percent, nonwhites 38; with housing, 76 and 43; wi
-- `cal.1963-10-13.opinion` (Oct. 13, XLVII oct63.yaml): Gallup, Sept. 12–17: the Kennedy administration pushing integration too fast, 50 percent; not fast enough, 11;
-- `cal.1963-10-16.opinion-5` (Oct. 16, XLVII oct63.yaml): Gallup, Sept. 12–17: Kennedy 55, Goldwater 39, undecided, others 6.
-- `cal.1963-10-22.specials` (Oct. 22, XLVII oct63.yaml): North Dakota 1st, special. Mark Andrews (R) holds Nygaard's seat, 49.1 percent, over Hove (Democratic-NPL), 44
-- `cal.1963-10-23.opinion` (Oct. 23, XLVII oct63.yaml): Gallup, Aug. 15–20: would vote for a well-qualified Jew nominated by their party, 77 percent; for a Negro, 47,
+- `cal.1963-09-17.mayors-san-diego` (Sept. 17, XLVI sep63.yaml): San Diego, nonpartisan primary for mayor, Dail not running: Councilman Curran 22.4 percent, Goodrich 21.0, two
+- `cal.1963-09-24.mayors-boston` (Sept. 24, XLVI sep63.yaml): Boston, the preliminary election for mayor. Collins 56,989, 46.0 percent; Piemonte, of the City Council, 27,49
+- `cal.1963-10-22.desegregation-schools-chicago` (Oct. 22, XLVII oct63.yaml): Chicago. "Freedom Day": the Coordinating Council of Community Organizations' boycott of the public schools aga
 - `cal.1963-10-24.right-and-the-military` (Oct. 24, XLVII oct63.yaml): Stevenson in Dallas for UN Day. Heckled, spat on, struck on the head with a placard. Walker's "U.S. Day" rally
-- `cal.1963-10-25.opinion` (Oct. 25, XLVII oct63.yaml): Gallup, Oct. 11–16: selling surplus wheat to Russia, 60 percent approve, 31 disapprove; Republicans 51 and 42.
-- `cal.1963-10-27.opinion-5` (Oct. 27, XLVII oct63.yaml): Gallup, Oct. 11–16: Kennedy 55, Goldwater 39, undecided, others 6. South, undecided excluded: Goldwater 55, Ke
-- `cal.1963-10-30.opinion` (Oct. 30, XLVII oct63.yaml): Gallup, Aug. 15–20: would vote for a well-qualified divorced man nominated by their party, 78 percent; would n
-- `cal.1963-11-01.opinion-5` (Nov. 1, XLVIII nov63.yaml): Gallup, Oct. 11–16: Republicans' choice for 1964: Goldwater 45, Rockefeller 23, Romney 16, Scranton 5; others,
-- `cal.1963-11-03.opinion-5` (Nov. 3, XLVIII nov63.yaml): Gallup, Oct. 11–16: Republicans, Goldwater or Nixon: Nixon 52, Goldwater 48, the 8 undecided excluded. Indepen
+- `cal.1963-10-28.cities-and-housing-nyc` (Oct. 28, XLVII oct63.yaml): New York. The Pennsylvania Railroad begins to pull down Pennsylvania Station's building above the tracks, for 
 - `cal.1963-11-05.specials` (Nov. 5, XLVIII nov63.yaml): Pennsylvania 23rd, special. Albert Johnson (R) holds Gavin's seat, 58.4 to 41.6 over Hagerty (D). Swing 0.7 to
+- `cal.1963-11-05.mayors-cleveland` (Nov. 5, XLVIII nov63.yaml): Cleveland. Locher re-elected without opposition, 154,257 votes.
+- `cal.1963-11-05.mayors-indianapolis` (Nov. 5, XLVIII nov63.yaml): Indianapolis. John J. Barton (D) mayor over Clarence Drayer (R), 68,316 to 63,091, 48.1 percent; an independen
+- `cal.1963-11-05.mayors-philadelphia` (Nov. 5, XLVIII nov63.yaml): Philadelphia. Tate (D) elected mayor over McDermott (R), 401,714 to 333,446. Republicans take the two Northeas
+- `cal.1963-11-05.mayors-san-diego` (Nov. 5, XLVIII nov63.yaml): San Diego. Curran elected mayor over Goodrich, 96,898 to 55,520, 63.6 percent.
+- `cal.1963-11-05.mayors-san-francisco` (Nov. 5, XLVIII nov63.yaml): San Francisco. Shelley, U.S. Representative since 1949, elected mayor, 120,560 of 240,768, 50.1 percent; Super
+- `cal.1963-11-05.mayors-boston` (Nov. 5, XLVIII nov63.yaml): Boston. Collins re-elected over Piemonte, 108,624 to 73,067, 59.8 percent.
 - `cal.1963-11-07.elections-1964` (Nov. 7, XLVIII nov63.yaml): Rockefeller announces for the Republican nomination, at Albany, N.Y.
-- `cal.1963-11-13.opinion` (Nov. 13, XLVIII nov63.yaml): Gallup, Oct. 11–16: each State to decide for itself about integration, 43 percent; not, 48. The South, 64 for 
-- `cal.1963-11-15.opinion` (Nov. 15, XLVIII nov63.yaml): Gallup, Oct. 11–16: would vote for a qualified woman nominated for President by their party, 55 percent; would
-- `cal.1963-11-20.opinion` (Nov. 20, XLVIII nov63.yaml): Gallup, Oct. 11–16: the Kennedy administration pushing integration too fast, 46 percent; not fast enough, 12; 
+- `cal.1963-11-10.black-nationalism-detroit` (Nov. 10, XLVIII nov63.yaml): Detroit. Malcolm X, "Message to the Grass Roots," at the Northern Negro Grass Roots Leadership Conference, Kin
+- `cal.1963-11-13.mayors-jersey-city` (Nov. 13, XLVIII nov63.yaml): Jersey City. Gangemi, mayor since 1961, out of office, found never to have been naturalized; Whelan mayor. Che
 - `cal.1963-11-22.baker` (Nov. 22, XLVIII nov63.yaml): Don Reynolds, a Maryland insurance agent, before the Rules Committee's staff in closed session: a stereo set f
 - `cal.1963-11-22.goldwater` (Nov. 22–25, XLVIII nov63.yaml): Goldwater in Muncie, Ind., with his wife, at her mother's funeral. He and Kennedy had talked of campaigning to
-- `cal.1963-11-24.assassination` (Nov. 24, XLVIII nov63.yaml): Ruby, a Dallas nightclub owner, shoots Oswald in the basement of police headquarters, 11:21 a.m., before live 
 - `cal.1963-12-01.black-nationalism` (Dec. 1–4, XLIX dec63.yaml): Malcolm X, speaking for Elijah Muhammad at the Manhattan Center, asked about Kennedy's murder: "chickens comin
 - `cal.1963-12-05.assassination` (Dec. 5, XLIX dec63.yaml): The Warren Commission's first meeting, at the National Archives. The FBI's summary report to it, Dec. 9. Ranki
-- `cal.1963-12-06.opinion` (Dec. 6, XLIX dec63.yaml): Gallup, Nov. 22–27: the man who shot Kennedy acted on his own, 29 percent; some group or element also responsi
-- `cal.1963-12-08.opinion` (Dec. 8, XLIX dec63.yaml): Gallup, Oct. 11–16: the Kennedy administration's record on spending, of those with an opinion, 35 percent favo
-- `cal.1963-12-11.opinion` (Dec. 11, XLIX dec63.yaml): Gallup, Nov. 22–27: under the new President, integration pushed faster, 16 percent; not so fast, 29; about the
-- `cal.1963-12-13.opinion-5` (Dec. 13, XLIX dec63.yaml): Gallup, Dec. 5–10: Democrats' choice for 1964: Johnson 68, Robert Kennedy 16, Stevenson 5, Humphrey 2, Brown 2
-- `cal.1963-12-15.opinion-5` (Dec. 15, XLIX dec63.yaml): Gallup, Dec. 5–10: Republicans' choice for 1964: Nixon 29, Goldwater 27, Lodge 16, Rockefeller 13, Romney 7, S
-- `cal.1963-12-17.opinion-5` (Dec. 17, XLIX dec63.yaml): Gallup, Dec. 12–17, released Jan. 10, 1964: Johnson 66, Lodge 23, undecided and other 11; Johnson 74, Rockefel
-- `cal.1963-12-18.opinion-5` (Dec. 18, XLIX dec63.yaml): Gallup, Nov. 22–27, the South: Johnson 78, Goldwater 19, undecided, others 3.
-- `cal.1963-12-20.opinion-5` (Dec. 20, XLIX dec63.yaml): Gallup, Dec. 12–17, Catholics: Johnson 91, Goldwater 6, undecided, others 3.
 - `cal.1963-12.robert-kennedy` (Dec., XLIX dec63.yaml): William Walton, painter and friend of the Kennedys, in Moscow on a cultural visit put off by the assassination
-- `cal.1964-01-01.opinion-5` (Jan. 1, L jan64.yaml): Gallup, Dec. 12–17: Johnson 75, Goldwater 20, undecided, other 5; Johnson 69, Nixon 24, undecided, other 7.
-- `cal.1964-01-05.opinion-5` (Jan. 5, L jan64.yaml): Gallup, Nov. 22–27: Republicans' choice for 1964: Nixon 29, Goldwater 23, Lodge 19, Rockefeller 12, Romney 8, 
-- `cal.1964-01-07.elections-1964` (Jan. 7, L jan64.yaml): Gallup, Jan. 2–7, released Jan. 19, 1964: Democrats' choice for Vice President, 1964: Robert Kennedy 34, Steve
-- `cal.1964-01-07.opinion-5` (Jan. 7, L jan64.yaml): Gallup, Jan. 2–7, released Jan. 22, 1964: Johnson 75, Goldwater 18; Johnson 68, Lodge 25; Johnson 71, Nixon 24
 - `cal.1964-01-07.goldwater` (Jan. 7, L jan64.yaml): Concord, N.H., the campaign's first week: "I would like to suggest one change, that social security be made vo
-- `cal.1964-01-11.health` (Jan. 11, L jan64.yaml): The Surgeon General's advisory committee reports, *Smoking and Health*: cigarette smoking causally related to 
-- `cal.1964-01-17.opinion` (Jan. 17, L jan64.yaml): Gallup, Jan. 2–7: what Congress should do when it meets. Tax reduction first; civil rights second; medical car
-- `cal.1964-01-19.opinion` (Jan. 19, L jan64.yaml): Gallup, Jan. 2–7: Democrats' choice for Vice President: Robert Kennedy 34, Stevenson 26, Humphrey 14, Shriver 
+- `cal.1964-01-11.governors-la` (Jan. 11, L jan64.yaml): Louisiana's Democratic runoff for governor: McKeithen 52.2 percent, Morrison 47.8. McKeithen carries every Nor
 - `cal.1964-01-27.elections-1964` (Jan. 27, L jan64.yaml): Margaret Chase Smith announces for the Republican nomination, at the Women's National Press Club: "I have few 
-- `cal.1964-01-31.opinion` (Jan. 31, L jan64.yaml): Gallup, Jan. 2–7: 53 percent have followed the discussion of presidential succession. Of them, the Secretary o
-- `cal.1964-01-31.mississippi` (Jan. 31, L jan64.yaml): Liberty, Amite County. Louis Allen, who saw Hurst kill Herbert Lee in 1961 and testified to self-defense, then
-- `cal.1964-02-02.opinion` (Feb. 2, LI feb64.yaml): Gallup, Jan. 2–7: a law giving all persons, Negro and white, the right to be served in hotels, restaurants, th
+- `cal.1964-01-30.desegregation-schools-cleveland` (Jan. 30, L jan64.yaml): Cleveland. The United Freedom Movement, some sixty Negro organizations formed in June 1963, against the school
+- `cal.1964-01.antisubversion-fl` (Jan., L jan64.yaml): The Florida Legislative Investigation Committee, the Johns Committee, publishes *Homosexuality and Citizenship
 - `cal.1964-02-03.desegregation-schools` (Feb. 3, LI feb64.yaml): New York. A one-day boycott of the city's schools against their segregation, called by Galamison's Citywide Co
-- `cal.1964-02-12.opinion` (Feb. 12, LI feb64.yaml): Gallup, Jan. 31–Feb. 5: 64 percent have followed the dispute with Panama over the Canal Zone. Of them: a firm 
-- `cal.1964-02-16.opinion` (Feb. 16, LI feb64.yaml): Gallup, Jan. 30–Feb. 5: Republicans' choice for 1964: Nixon 31, Goldwater 20, Rockefeller 16, Lodge 12, Scrant
-- `cal.1964-02-18.specials` (Feb. 18, LI feb64.yaml): California 5th, special. Phillip Burton (D) takes Shelley's seat, 53.6 percent, over Verreos (R), 25.6; six ot
-- `cal.1964-02-19.opinion` (Feb. 19, LI feb64.yaml): Gallup, Jan. 30–Feb. 5: the convention's choice between Goldwater and Rockefeller: Rockefeller 49, Goldwater 3
-- `cal.1964-02-23.opinion` (Feb. 23, LI feb64.yaml): Gallup, Jan. 30–Feb. 2: Johnson's handling of problems at home, 70 percent approve, 12 disapprove; of foreign 
-- `cal.1964-02-26.opinion` (Feb. 26, LI feb64.yaml): Gallup, Jan. 30–Feb. 2: the Johnson administration pushing integration too fast, 30 percent; not fast enough, 
-- `cal.1964-03-04.opinion` (Mar. 4, LII mar64.yaml): Gallup, Jan. 30–Feb. 4: the party to keep the country prosperous: Democratic 48 percent, Republican 20, no dif
+- `cal.1964-02-03.mayors-dallas` (Feb. 3, LI feb64.yaml): Dallas. Mayor Cabell resigns to run for Congress against Representative Alger (R). Erik Jonsson, chairman of T
+- `cal.1964-02-25.desegregation-schools-chicago` (Feb. 25, LI feb64.yaml): Chicago. The Coordinating Council's second boycott of the schools, against Willis. Fewer out than Oct. 22 (Che
+- `cal.1964-02-26.desegregation-schools-boston` (Feb. 26, LI feb64.yaml): Boston. The second Freedom Stay-Out: nearly 20,000 pupils absent, over 10,000 at some forty Freedom Schools, b
+- `cal.1964-03-05.desegregation-public-places-ky` (Mar. 5, LII mar64.yaml): Frankfort, Ky. Some 10,000 march on the Capitol for a State public accommodations bill; King, Abernathy and Ja
 - `cal.1964-03-06.elections-1964` (Mar. 6, LII mar64.yaml): Wallace at Madison: he files in Wisconsin's Democratic presidential primary, his slate of sixty delegates agai
+- `cal.1964-03-06.states-and-cities-san-francisco` (Mar. 6–7, LII mar64.yaml): San Francisco. The Ad Hoc Committee to End Discrimination pickets the Sheraton-Palace Hotel over the hotels' h
 - `cal.1964-03-08.black-nationalism` (Mar. 8–12, LII mar64.yaml): Malcolm X leaves the Nation of Islam. Mar. 12, at the Park Sheraton: his own Muslim Mosque, Inc., in Harlem; r
-- `cal.1964-03-10.elections-1964` (Mar. 10, LII mar64.yaml): New Hampshire primary. Republican: Lodge (write-in) 35.5 percent, Goldwater 22.3. Democratic: Johnson (write-i
-- `cal.1964-03-22.opinion` (Mar. 22, LII mar64.yaml): Gallup, Feb. 28–Mar. 5: more often to blame if a person is poor: lack of effort 33 percent, circumstances 29, 
-- `cal.1964-03-25.opinion` (Mar. 25, LII mar64.yaml): Gallup, Feb. 28–Mar. 5: 54 percent can say what a filibuster is. Of them, a simple majority to end debate in p
-- `cal.1964-03-29.opinion` (Mar. 29, LII mar64.yaml): Gallup, special survey of Republican county chairmen, their own choice for the nomination: Goldwater 878, Nixo
+- `cal.1964-03-10.mayors-seattle` (Mar. 10, LII mar64.yaml): Seattle. Braman, a city councilman and an opponent of the open housing ordinance, elected mayor over Lieutenan
+- `cal.1964-03-14.states-and-cities-san-francisco` (Mar. 14–Apr. 17, LII mar64.yaml): San Francisco, Auto Row on Van Ness Avenue: 107 arrested at the Cadillac agency, Mar. 14; 226 in the sit-ins o
+- `cal.1964-03-16.desegregation-schools-nyc` (Mar. 16, LII mar64.yaml): New York. A second one-day boycott of the city's schools, called by Galamison's committee without the NAACP (C
+- `cal.1964-03-31.desegregation-public-places-fl` (Mar. 31, LII mar64.yaml): St. Augustine, Fla. Mrs. Malcolm Peabody, 72, mother of Governor Peabody of Massachusetts, arrested with an in
 - `cal.1964-04-03.black-nationalism` (Apr. 3–12, LIII apr64.yaml): "The Ballot or the Bullet," Malcolm X at Cory Methodist Church, Cleveland, under CORE's auspices: register and
-- `cal.1964-04-05.opinion` (Apr. 5, LIII apr64.yaml): Gallup, Mar. 13–17: Republicans' choice for 1964: Lodge 42, Nixon 26, Goldwater 14, Rockefeller 6, Scranton 4,
 - `cal.1964-04-07.elections-1964` (Apr. 7, LIII apr64.yaml): Wisconsin primary. Republican: Byrnes 99.7 percent, unpledged delegates 0.3. Democratic: Reynolds 66.2 percent
-- `cal.1964-04-10.opinion` (Apr. 10, LIII apr64.yaml): Gallup, special survey of 1,935 Republican county chairmen, the strongest argument against the Democrats: a we
-- `cal.1964-04-12.opinion` (Apr. 12, LIII apr64.yaml): Gallup, Mar. 27–Apr. 1, Democrats' choice for Vice President: Robert Kennedy 47, Stevenson 18, Humphrey 10, Sh
-- `cal.1964-04-14.elections-1964` (Apr. 14, LIII apr64.yaml): Illinois primary. Republican: Goldwater 62.0 percent, Smith 25.3. Democratic: Johnson (write-in) 91.6 percent,
-- `cal.1964-04-21.elections-1964` (Apr. 21, LIII apr64.yaml): New Jersey primary. Republican: Lodge (write-in) 41.7 percent, Goldwater (write-in) 28.0. Democratic: Johnson 
-- `cal.1964-04-26.civil-rights-organizations` (Apr. 26, LIII apr64.yaml): Jackson. A COFO meeting founds the Mississippi Freedom Democratic Party, open to all, and elects a temporary S
-- `cal.1964-04-28.elections-1964` (Apr. 28, LIII apr64.yaml): Primaries in Massachusetts and Pennsylvania. Republican: Lodge (write-in) in Massachusetts; Scranton (write-in
-- `cal.1964-04-28.specials` (Apr. 28, LIII apr64.yaml): Pennsylvania 5th, special. William J. Green III (D), 25, holds his father's seat, 58.6 to 41.4 over the Republ
-- `cal.1964-04-29.opinion` (Apr. 29, LIII apr64.yaml): Gallup, Mar. 27–Apr. 1, Negro voters: Johnson 87, Lodge 7, undecided 6.
+- `cal.1964-04-07.desegregation-schools-cleveland` (Apr. 7–20, LIII apr64.yaml): Cleveland. The Reverend Bruce Klunder, of the United Freedom Movement and CORE, crushed by a backing bulldozer
+- `cal.1964-04-07.mayors-milwaukee` (Apr. 7, LIII apr64.yaml): Milwaukee re-elects Maier mayor, a second term.
+- `cal.1964-04-07.state-constitutions-kansas-city` (Apr. 7, LIII apr64.yaml): Kansas City, Mo., at a referendum, keeps its public accommodations ordinance, No. 29153, Councilman Watkins's,
+- `cal.1964-04-26.africa` (Apr. 26, LIII apr64.yaml): Tanganyika and Zanzibar united, Nyerere President, Karume First Vice President (Check).
 - `cal.1964-05-02.elections-1964` (May 2, LIV may64.yaml): Texas primary. Republican: Goldwater 74.7 percent, Lodge (write-in) 8.8.
+- `cal.1964-05-02.governors-tx` (May 2, LIV may64.yaml): Texas primaries. Democratic, for governor: Connally 69.1 percent, Don Yarborough 28.9. For Senator: U.S. Senat
 - `cal.1964-05-05.elections-1964` (May 5, LIV may64.yaml): Primaries in the District of Columbia, Indiana and Ohio. Republican: Goldwater in Indiana; Rhodes in Ohio. Dem
-- `cal.1964-05-05.alabama` (May 5, LIV may64.yaml): Alabama's Democratic primary. Ten unpledged electors nominated over a slate pledged to the national ticket: Pl
-- `cal.1964-05-12.elections-1964` (May 12, LIV may64.yaml): Primaries in Nebraska and West Virginia. Republican: Goldwater in Nebraska; Rockefeller in West Virginia. Demo
-- `cal.1964-05-13.opinion` (May 13, LIV may64.yaml): Gallup, Apr. 24–29: the Democratic convention's choice between Johnson and Wallace: Johnson 84, Wallace 9, und
-- `cal.1964-05-15.elections-1964` (May 15, LIV may64.yaml): Oregon primary. Republican: Rockefeller 33.0 percent, Lodge 27.7. Democratic: Johnson 99.5 percent, Wallace (w
-- `cal.1964-05-19.elections-1964` (May 19, LIV may64.yaml): Maryland primary. Republican: unpledged delegates 58.2 percent, others 41.8. Democratic: Brewster 53.1 percent
-- `cal.1964-05-20.opinion` (May 20, LIV may64.yaml): Gallup, Apr. 24–29: the most important problem: racial 41 percent; international, Russia, the threat of war, 4
-- `cal.1964-05-24.opinion` (May 24, LIV may64.yaml): Gallup, Apr. 24–29: Johnson's handling of civil rights, 57 percent approve, 21 disapprove. Southern whites 36 
+- `cal.1964-05-18.desegregation-schools-milwaukee` (May 18, LIV may64.yaml): Milwaukee. The Milwaukee United School Integration Committee, Barbee its chairman, keeps about 11,000 Negro ch
 - `cal.1964-05-24.goldwater` (May 24, LIV may64.yaml): ABC's *Issues and Answers*, recorded. Goldwater on the Viet Cong's supply lines: "defoliation of the forests b
-- `cal.1964-05-26.elections-1964` (May 26, LIV may64.yaml): Florida primary. Republican: unpledged delegates 57.8 percent, Goldwater 42.2. Democratic: Johnson, unopposed.
-- `cal.1964-05-27.opinion` (May 27, LIV may64.yaml): Gallup, Apr. 24–29: 37 percent have given attention to South Vietnam. Of them, the United States handling it a
-- `cal.1964-05-31.opinion` (May 31, LIV may64.yaml): Gallup, Apr. 24–29: Democrats' choice for Vice President: Robert Kennedy 41, Stevenson 26, Humphrey 11, Brown 
-- `cal.1964-06-02.elections-1964` (June 2, LV jun64.yaml): Primaries in California and South Dakota. Republican: Goldwater in California; unpledged delegates in South Da
-- `cal.1964-06-02.alabama` (June 2, LV jun64.yaml): Alabama's second primary. The nine Democratic nominees for Representative on one statewide ballot, the eight h
-- `cal.1964-06-07.opinion` (June 7, LV jun64.yaml): Gallup, May 22–27: mass demonstrations by Negroes will hurt the cause of racial equality, 74 percent; help it,
-- `cal.1964-06-10.opinion` (June 10, LV jun64.yaml): Gallup, May 22–27: of two candidates of one's own party, alike but for civil rights, the one for civil rights,
+- `cal.1964-06-06.elections-1964-tx` (June 6, LV jun64.yaml): Texas Republican runoff for Senator: George Bush 49,751, 62.1 percent; Jack Cox 30,333.
+- `cal.1964-06-07.states-and-cities-us` (June 7–10, LV jun64.yaml): Governors' Conference at Cleveland. Eisenhower speaks, June 8. June 9: civil rights in three workshops, on edu
+- `cal.1964-06-09.governors-in` (June 9–12, LV jun64.yaml): Indiana's conventions name the candidates for governor. Republican, June 9: Lieutenant Governor Ristine, who b
 - `cal.1964-06-12.elections-1964` (June 12, LV jun64.yaml): Scranton announces for the Republican nomination, at the Maryland Republican convention in Baltimore. Rockefel
-- `cal.1964-06-14.mississippi` (June 14–27, LV jun64.yaml): Freedom Summer. Volunteers for the Mississippi Summer Project, most of them white Northern students, trained i
 - `cal.1964-06-19.congress` (June 19, LV jun64.yaml): Edward Kennedy's chartered plane, taking him and Bayh from the vote to the Massachusetts Democratic convention
-- `cal.1964-06-21.opinion` (June 21, LV jun64.yaml): Gallup, June 4–9: Republicans' choice for 1964: Lodge 26, Nixon 25, Goldwater 21, Rockefeller 10, Scranton 9, 
-- `cal.1964-06-24.opinion` (June 24, LV jun64.yaml): Gallup, special survey of 1,671 Democratic county chairmen, their choice for Vice President: Humphrey 484, Rob
 - `cal.1964-06-28.black-nationalism` (June 28, LV jun64.yaml): Malcolm X founds the Organization of Afro-American Unity at the Audubon Ballroom, Washington Heights, on the m
-- `cal.1964-06-28.opinion` (June 28, LV jun64.yaml): Gallup, June 11–16: the convention's choice between Goldwater and Scranton. Republicans: Scranton 55, Goldwate
-- `cal.1964-07-01.opinion` (July 1, LVI jul64.yaml): Gallup, June 11–16: Johnson 77, Goldwater 18; Johnson 70, Nixon 27; Johnson 69, Scranton 26. Undecided 5, 3, 5
-- `cal.1964-07-10.mississippi` (July 10, LVI jul64.yaml): Hoover in Jackson to reopen the FBI's field office there, closed since 1946. He calls on Governor Paul Johnson
 - `cal.1964-07-12.elections-1964` (July 12, LVI jul64.yaml): Scranton's letter to Goldwater, the day before the convention: "Goldwaterism" has come to stand for "a whole c
-- `cal.1964-07-13.opinion` (July 13, LVI jul64.yaml): Gallup, June 25–30: Johnson 77, Goldwater 20, undecided 3; the South, Johnson 63, Goldwater 32. With Wallace t
-- `cal.1964-07-14.opinion` (July 14, LVI jul64.yaml): Gallup, June 25–30: Republicans' choice for 1964: Goldwater 22, Nixon 22, Lodge 21, Scranton 20, Rockefeller 6
 - `cal.1964-07-19.elections-1964` (July 19, LVI jul64.yaml): Wallace, on CBS's *Face the Nation*, withdraws as a candidate for President, four days after Goldwater's nomin
 - `cal.1964-07-24.states-and-cities` (July 24–26, LVI jul64.yaml): Rochester. An arrest at a block party on Joseph Avenue; three nights of rioting. Rockefeller calls out the Nat
 - `cal.1964-07-29.civil-rights-organizations` (July 29, LVI jul64.yaml): New York, the NAACP's offices. After Harlem, Wilkins, King, Young and Randolph ask their members to suspend ma
-- `cal.1964-08-05.opinion` (Aug. 5, LVII aug64.yaml): Gallup, July 23–28: 68 percent have heard of the John Birch Society. Of them, favorable 8, unfavorable 59, no 
-- `cal.1964-08-06.mississippi` (Aug. 6, LVII aug64.yaml): Jackson, the Masonic Temple. The Freedom Democrats' State convention, nearly 2,500 present; Ella Baker the key
-- `cal.1964-08-09.opinion` (Aug. 9, LVII aug64.yaml): Gallup, July 23–28: Johnson 59, Goldwater 31, undecided 10; the undecided allocated, Johnson 61, Goldwater 36.
+- `cal.1964-08-02.states-and-cities-jersey-city` (Aug. 2–4, LVII aug64.yaml): Jersey City. A woman's arrest in the Lafayette section, Aug. 2; three nights of rock-throwing, window-breaking
 - `cal.1964-08-12.elections-1964` (Aug. 12, LVII aug64.yaml): Hershey, Pa. Goldwater meets Eisenhower, Nixon, Scranton, Rockefeller, Romney, and the party's governors and l
-- `cal.1964-08-12.opinion` (Aug. 12, LVII aug64.yaml): Gallup, July 23–28: a UN army to deal with Southeast Asia and Vietnam, 58 percent approve, 19 disapprove. The 
-- `cal.1964-08-14.opinion` (Aug. 14, LVII aug64.yaml): Gallup, July 23–28: young men of 16 to 22 out of work required to join a youth conservation corps, 73 percent 
-- `cal.1964-08-19.opinion` (Aug. 19, LVII aug64.yaml): Gallup, July 23–28: the Supreme Court's ruling that both houses of every State legislature be in proportion to
-- `cal.1964-08-23.opinion` (Aug. 23, LVII aug64.yaml): Gallup, Aug. 6–11: Johnson 65, Goldwater 29, undecided 6. Republicans: Goldwater 62, Johnson 27. Independents:
 - `cal.1964-08-25.mississippi` (Aug. 25, LVII aug64.yaml): The Credentials Committee's compromise, Mondale's subcommittee: the regulars seated if they pledge to support 
-- `cal.1964-08-26.opinion` (Aug. 26, LVII aug64.yaml): Gallup, Aug. 6–11: the United States handling South Vietnam as well as could be expected, 71 percent; badly, 1
+- `cal.1964-08-28.states-and-cities-philadelphia` (Aug. 28–30, LVII aug64.yaml): Philadelphia. A quarrel over a car stopped at 23rd Street and Columbia Avenue, two policemen, a crowd; a rumor
+- `cal.1964-09-01.open-housing-detroit` (Sept. 1, LVIII sep64.yaml): Detroit. The "Homeowners' Rights Ordinance," an initiative securing an owner's choice of buyer, tenant and age
 - `cal.1964-09-03.goldwater` (Sept. 3, LVIII sep64.yaml): Prescott, Ariz. Goldwater opens his campaign from the north steps of the Yavapai County Courthouse, where he h
-- `cal.1964-09-04.opinion` (Sept. 4, LVIII sep64.yaml): Gallup, Aug. 27–Sept. 1: the party more likely to keep the country out of World War III: Democratic 44 percent
 - `cal.1964-09-04.civil-rights-the-executive` (Sept. 4, LVIII sep64.yaml): Danielsville. An all-white Madison County jury acquits Sims and Myers, Klansmen of Athens, of Penn's murder.
-- `cal.1964-09-18.opinion` (Sept. 18, LVIII sep64.yaml): Gallup, Aug. 27–Sept. 1, by region: East, Johnson 73, Goldwater 21; Midwest, Johnson 69, Goldwater 25; South, 
-- `cal.1964-09-25.opinion` (Sept. 25, LVIII sep64.yaml): Gallup, Aug. 27–Sept. 1, the words to describe each. Johnson: well-qualified 63 percent, experienced 62, intel
+- `cal.1964-09-08.governors-vt` (Sept. 8, LVIII sep64.yaml): Vermont's Republican primary for governor. Foote, the lieutenant governor, 19,121, 42.8 percent; Babcock 36.3;
+- `cal.1964-09-14.desegregation-schools-nyc` (Sept. 14, LVIII sep64.yaml): New York. Parents and Taxpayers, white parents' groups of Queens and Brooklyn, keep their children home agains
 - `cal.1964-10-01.students` (Oct. 1–2, LIX oct64.yaml): Berkeley. Weinberg, a former student, arrested at a CORE table on Sproul Plaza, the University enforcing its b
-- `cal.1964-10-11.opinion` (Oct. 11, LIX oct64.yaml): Gallup, Sept. 18–23: the most important problem: international, the cold war, 46 percent; racial 35; cost of l
+- `cal.1964-10-04.alabama-selma` (Oct. 4, LIX oct64.yaml): Selma. Joseph T. Smitherman takes office as mayor, having beaten the mayor by some 500 votes (Check). Wilson B
 - `cal.1964-10-14.king` (Oct. 14, LIX oct64.yaml): The Norwegian Nobel Committee awards the 1964 Peace Prize to King, 35, in St. Joseph's Hospital, Atlanta, for 
 - `cal.1964-10-19.goldwater` (Oct. 19, LIX oct64.yaml): Jenkins. Goldwater, once his commanding officer in an Air Force Reserve unit, questioned by FBI agents, asks H
 - `cal.1964-10-20.goldwater` (Oct. 20–22, LIX oct64.yaml): "Choice," a half-hour film for Mothers for Moral America, a unit of Citizens for Goldwater-Miller: riots, prot
-- `cal.1964-11-02.opinion` (Nov. 2, LX nov64.yaml): Gallup, final poll, Oct. 25–30: Johnson 64, Goldwater 29, undecided 7.
-- `cal.1964-11-03.cities-and-housing` (Nov. 3, LX nov64.yaml): California. Proposition 14 carries, 4,526,460 to 2,395,747, 65.4 percent: a constitutional amendment securing 
-- `cal.1964-11-03.specials` (Nov. 3, LX nov64.yaml): Missouri 9th, special. Hungate (D) holds Clarence Cannon's seat, 62.5 to 37.5 over Schroeder (R); the same day
-- `cal.1964-11-03.specials-2` (Nov. 3, LX nov64.yaml): Oregon 1st, special. Wyatt (R) holds Norblad's seat, 52.8 to 47.2 over Whipple (D); the same day, the full ter
 - `cal.1964-11-03.specials-3` (Nov. 3, LX nov64.yaml): South Carolina 5th, special. Gettys (D) holds the seat Hemphill left for the federal bench, 66.8 to 33.2 over 
-- `cal.1964-11-06.civil-rights-organizations` (Nov. 6–12, LX nov64.yaml): Waveland, Miss. SNCC's staff retreat after Atlantic City: some forty position papers on its program and struct
-- `cal.1964-11-11.opinion` (Nov. 11, LX nov64.yaml): Gallup, Oct. 16–21: with one party for liberals and one for conservatives, liberal 37 percent, conservative 34
-- `cal.1964-11-13.opinion` (Nov. 13, LX nov64.yaml): Gallup, Oct. 8–13: the Civil Rights Act enforced strictly from the beginning, 23 percent; a gradual, persuasiv
-- `cal.1964-11-18.civil-rights-the-executive` (Nov. 18, LX nov64.yaml): Hoover, to a group of women reporters, calls King "the most notorious liar in the country." Nov. 21, the FBI m
-- `cal.1964-11-18.opinion` (Nov. 18, LX nov64.yaml): Gallup, Nov. 6–11: the problem Johnson should deal with now that he has won, in order of mention: the internat
-- `cal.1964-11-29.opinion` (Nov. 29, LX nov64.yaml): Gallup, Nov. 6–11: the United States handling South Vietnam as well as could be expected, 35 percent; badly, 5
+- `cal.1964-11-03.governors` (Nov. 3, LX nov64.yaml): Twenty-five governors elected: Democrats 17, Republicans 8. Republicans took Massachusetts (Volpe), Washington
+- `cal.1964-11-03.legislatures-mi` (Nov. 3, LX nov64.yaml): Michigan. The Democrats, on the Austin–Kleiner districts and Johnson's vote, take both houses of the legislatu
+- `cal.1964-11-03.legislatures-us` (Nov. 3, LX nov64.yaml): The State legislatures. Democrats gain some 470 lower-house seats and 116 senate seats. They take both houses 
 - `cal.1964-12-02.states-and-cities` (Dec. 2–8, LXI dec64.yaml): Berkeley. Savio on the steps of Sproul Hall; the Free Speech Movement occupies the building. On Brown's order 
-- `cal.1964-12-04.congress` (Dec. 4, LXI dec64.yaml): The Freedom Democrats' contests, under the contested-elections statute: Hamer serves notice on Whitten (2d), A
-- `cal.1964-12-06.opinion` (Dec. 6, LXI dec64.yaml): Gallup, Nov. 6–11: the policy Johnson should follow: more to the left, with labor and liberal groups, 23 perce
+- `cal.1964-12-03.states-and-cities-nyc` (Dec. 3, LXI dec64.yaml): New York. J. Raymond Jones, a Harlem district leader, elected leader of the New York County Democrats, Tammany
+- `cal.1964-12-04.elections-1964-us` (Dec. 4–5, LXI dec64.yaml): Republican governors and governors-elect at Denver. A statement on the party's leadership; Rockefeller, Romney
 - `cal.1964-12-10.voting-rights` (Dec. 10–18, LXI dec64.yaml): King receives the Nobel Peace Prize at Oslo, from Gunnar Jahn, the committee's chairman. Dec. 18, at the White
-- `cal.1964-12-16.opinion` (Dec. 16, LXI dec64.yaml): Gallup, Nov. 20–25: more often to blame if a person is poor: lack of effort 30 percent, circumstances 31, both
 - `cal.1965-01-02.voting-rights` (Jan. 2, LXII jan65.yaml): Selma. King at Brown Chapel, against a State court's injunction on meetings. The campaign to register Dallas C
-- `cal.1965-01-03.opinion` (Jan. 3, LXII jan65.yaml): Gallup, Dec. 11–16, 1964: a compulsory program of hospital and nursing home insurance for the elderly, paid fo
-- `cal.1965-01-04.congress-2` (Jan. 4, LXII jan65.yaml): House Republicans, in conference, choose Ford over Halleck for minority leader, 73–67.
-- `cal.1965-01-10.opinion` (Jan. 10, LXII jan65.yaml): Gallup, Dec. 11–16, 1964: Republicans' first choice to lead the party: Nixon 27, Lodge 18, Goldwater 15, Romne
+- `cal.1965-01-04.mayors-providence` (Jan. 4, LXII jan65.yaml): Providence. Doorley, 34, of the City Council, sworn as mayor, the youngest in the city's history. McGarry, the
+- `cal.1965-01-06.legislatures-ny` (Jan. 6–Feb. 4, LXII jan65.yaml): Albany, N.Y. The Democratic majorities split, Wagner's men against those of Robert Kennedy and the Brooklyn le
 - `cal.1965-01-12.elections-1964` (Jan. 12, LXII jan65.yaml): Burch to leave the Republican national chairmanship Apr. 1, after meeting Goldwater in Phoenix; Bliss, the Ohi
-- `cal.1965-01-15.opinion` (Jan. 15, LXII jan65.yaml): Gallup, special mail survey of 1,395 Republican county chairmen: Burch to stay as national chairman, 46 percen
-- `cal.1965-01-17.opinion` (Jan. 17, LXII jan65.yaml): Gallup, the same county chairmen, their own first choice to lead the party: Nixon 29, Goldwater 28, Scranton 1
 - `cal.1965-01-22.voting-rights` (Jan. 22–25, LXII jan65.yaml): Selma. Jan. 22, Black schoolteachers, some hundred, march on the Dallas County courthouse to register; Sheriff
-- `cal.1965-01-31.opinion` (Jan. 31, LXII jan65.yaml): Gallup, Jan. 7–12: the United States should have become involved with its military forces in Southeast Asia, 5
-- `cal.1965-02-07.opinion` (Feb. 7, LXIII feb65.yaml): Gallup, Jan. 7–12: a police permit required to buy a gun: favor 73 percent, oppose 23. A gun in the home: 48.
-- `cal.1965-02-16.opinion` (Feb. 16, LXIII feb65.yaml): Gallup, special survey, no field dates printed: have heard of the recent developments in Vietnam, 91 percent. 
-- `cal.1965-02-17.opinion` (Feb. 17, LXIII feb65.yaml): Gallup, special survey: Vietnam likely to lead to a bigger war, 45 percent; not, 44. The United States handlin
 - `cal.1965-02-18.voting-rights` (Feb. 18, LXIII feb65.yaml): Marion, Perry County. A night march of some 500 from Zion Methodist Church toward the jail, where an SCLC work
 - `cal.1965-02-21.states-and-cities` (Feb. 21, LXIII feb65.yaml): Malcolm X shot dead at the Audubon Ballroom, Washington Heights, as he begins to address his Organization of A
-- `cal.1965-02-21.opinion` (Feb. 21, LXIII feb65.yaml): Gallup, Jan. 28–Feb. 2: liked best about Johnson: personality, character, 17 percent; experience, ability, 17;
-- `cal.1965-03-05.opinion` (Mar. 5, LXIV mar65.yaml): Gallup, Jan. 28–Feb. 2: pay in the Neighborhood Youth Corps set by each community, 54 percent; the federal min
-- `cal.1965-03-07.opinion` (Mar. 7, LXIV mar65.yaml): Gallup, Jan. 28–Feb. 2: the Federal Government to pay more of the public schools' costs, 49 percent; the State
-- `cal.1965-03-12.opinion` (Mar. 12, LXIV mar65.yaml): Gallup, Feb. 19–24: continue present efforts in South Vietnam, 66 percent; pull out, 19. A bigger war: likely 
+- `cal.1965-02-23.states-and-cities-nyc` (Feb. 23, LXIII feb65.yaml): New York. Constance Baker Motley, of the NAACP Legal Defense Fund, a State Senator since Feb. 4, 1964, chosen 
 - `cal.1965-03-24.students` (Mar. 24–25, LXIV mar65.yaml): Ann Arbor. The first teach-in on the war, at the University of Michigan: faculty and students, some 3,000, in 
-- `cal.1965-03-24.opinion` (Mar. 24, LXIV mar65.yaml): Gallup, Feb. 19–24: Republicans' choice to lead the party: Nixon 36, Lodge 16, Romney 14, Goldwater 11, Scrant
-- `cal.1965-04-02.opinion` (Apr. 2, LXV apr65.yaml): Gallup, Feb. 19–24: foreign aid in general: for 57 percent, against 33. Johnson's $3.4 billion for aid: decrea
-- `cal.1965-04-07.opinion` (Apr. 7, LXV apr65.yaml): Gallup, Mar. 11–16: start peace negotiations with the Communist leaders now, 41 percent; send more troops and 
-- `cal.1965-04-11.opinion` (Apr. 11, LXV apr65.yaml): Gallup, Mar. 18–23: the Johnson Administration pushing integration too fast, 34 percent; not fast enough, 17; 
-- `cal.1965-04-14.opinion` (Apr. 14, LXV apr65.yaml): Gallup, Mar. 18–23: a law to send federal officials to register voters where turnout was low: favor 76 percent
-- `cal.1965-04-16.opinion` (Apr. 16, LXV apr65.yaml): Gallup, Mar. 18–23: the most important problem: civil rights 52 percent; foreign affairs 39; immorality, crime
+- `cal.1965-04-01.desegregation-schools-ma` (Apr. 1, LXV apr65.yaml): Massachusetts. The final report of the advisory committee on racial imbalance named by Kiernan, Commissioner o
+- `cal.1965-04-06.mayors-los-angeles` (Apr. 6, LXV apr65.yaml): Los Angeles. Yorty re-elected mayor in the primary, 392,775 of 677,969, 57.9 percent; James Roosevelt, who lef
+- `cal.1965-04-06.mayors-st-louis` (Apr. 6, LXV apr65.yaml): St. Louis elects Cervantes (D) mayor over Zumwalt (R), 102,961 to 47,510.
 - `cal.1965-04-17.students` (Apr. 17, LXV apr65.yaml): Washington. SDS's march against the war, with Women Strike for Peace: some 15,000 to 25,000 picket the White H
-- `cal.1965-04-23.opinion` (Apr. 23, LXV apr65.yaml): Gallup, Apr. 2–7: what to do next in Vietnam: withdraw completely 17 percent; negotiate, stop fighting 12; con
+- `cal.1965-04-19.cities-and-housing-nyc` (Apr. 19, LXV apr65.yaml): New York's Landmarks Law, signed by Wagner (Check the day): the Landmarks Preservation Commission, his creatio
+- `cal.1965-04-22.king-boston` (Apr. 22–23, LXV apr65.yaml): King in Boston. Meets Volpe and addresses the General Court in joint session, Apr. 22; leads a march from Roxb
+- `cal.1965-04-23.students-nj` (Apr. 23, LXV apr65.yaml): Teach-in at Rutgers, New Brunswick, N.J. Genovese, of its history department: "I do not fear or regret the imp
+- `cal.1965-05-01.desegregation-schools-philadelphia` (May 1–Dec. 17, LXVI may65.yaml): Philadelphia. Moore and the NAACP picket the wall of Girard College, open by Stephen Girard's will to "poor wh
 - `cal.1965-05-07.alabama` (May 7, LXVI may65.yaml): Hayneville, Lowndes County. Wilkins, Klansman, tried for the murder of Viola Liuzzo; the FBI's informer in the
-- `cal.1965-05-07.opinion` (May 7, LXVI may65.yaml): Gallup, special survey of students at 97 four-year colleges: continue the draft, or depend on volunteers. Men:
-- `cal.1965-05-09.opinion` (May 9, LXVI may65.yaml): Gallup, Apr. 2–7: the domestic problems the Government should attend to most, three chosen from ten: public ed
-- `cal.1965-05-12.opinion` (May 12, LXVI may65.yaml): Gallup, Apr. 2–7: the Johnson Administration pushing integration too fast, 45 percent; not fast enough, 14; ab
 - `cal.1965-05-15.students` (May 15, LXVI may65.yaml): The National Teach-In on Vietnam, Sheraton-Park Hotel, Washington, by the Inter-University Committee for Debat
-- `cal.1965-05-16.opinion` (May 16, LXVI may65.yaml): Gallup, Apr. 23–28: what to do next in Vietnam: withdraw 13 percent; negotiate 12; continue 13; step up 8; go 
 - `cal.1965-05-21.students` (May 21–22, LXVI may65.yaml): Vietnam Day, Berkeley: some 35 hours of speeches against the war on the campus. The Vietnam Day Committee form
-- `cal.1965-05-23.opinion` (May 23, LXVI may65.yaml): Gallup, Apr. 23–28: white parents who would object to a school where a few of the children are colored: outsid
-- `cal.1965-06-02.opinion` (June 2, LXVII jun65.yaml): Gallup, May 13–18: Johnson's sending troops into the Dominican Republic: approve 76 percent, disapprove 17. Th
+- `cal.1965-05.mayors-omaha` (May, LXVI may65.yaml): Omaha elects Sorensen (R) mayor over Mayor Dworak, indicted during the campaign for bribery: taped asking a de
 - `cal.1965-06-10.states-and-cities` (June 10, LXVII jun65.yaml): Wagner will not seek a fourth term as mayor of New York. Lindsay, Republican of the 17th District, already a c
-- `cal.1965-06-11.opinion` (June 11, LXVII jun65.yaml): Gallup, May 13–18: the most important problem: Vietnam 23 percent; civil rights 23; threat of war 16; prestige
-- `cal.1965-06-13.opinion` (June 13, LXVII jun65.yaml): Gallup, May 13–18: a worker in a unionized plant required to join the union: should 43 percent, should not 49;
 - `cal.1965-06-15.specials` (June 15, LXVII jun65.yaml): South Carolina 2nd, special. Watson, who resigned the seat Feb. 1 after the House Democratic caucus took his s
 - `cal.1965-06-17.goldwater` (June 17, LXVII jun65.yaml): Washington. Goldwater announces the Free Society Association, a movement of conservative political education. 
-- `cal.1965-06-27.opinion` (June 27, LXVII jun65.yaml): Gallup, June 4–9: Republicans' best candidate for 1968: Nixon 25, Lodge 14, Goldwater 13, Romney 11, Dirksen 7
-- `cal.1965-07-01.civil-rights-organizations` (July 1–5, LXVIII jul65.yaml): CORE's convention, Durham: "The Negro Ghetto—An Awakening Giant." McKissick in the chair. A resolution against
-- `cal.1965-07-18.opinion` (July 18, LXVIII jul65.yaml): Gallup, June 24–29: those approving the Administration's handling of Vietnam: Johnson knows the situation 40 p
-- `cal.1965-07-25.opinion` (July 25, LXVIII jul65.yaml): Gallup, June 24–29: in admitting immigrants, very important: occupational skills 71 percent; relatives who are
-- `cal.1965-08-06.opinion` (Aug. 6, LXIX aug65.yaml): Gallup, July 16–21: the Johnson Administration pushing integration too fast, 40 percent; not fast enough, 13; 
-- `cal.1965-08-22.opinion` (Aug. 22, LXIX aug65.yaml): Gallup, July 16–21: would vote for a well-qualified man of one's party for President who was a Jew, 80 percent
-- `cal.1965-08-25.opinion` (Aug. 25, LXIX aug65.yaml): Gallup, July 16–21: persons of 18, 19 and 20 permitted to vote: yes 57 percent, no 39.
-- `cal.1965-08-29.opinion` (Aug. 29, LXIX aug65.yaml): Gallup, Aug. 5–10: the move to ask the UN to work out its own formula for peace in Vietnam: approve 74 percent
-- `cal.1965-09-12.opinion` (Sept. 12, LXX sep65.yaml): Gallup, Aug. 27–Sept. 1, South only: Johnson 44 percent, Nixon 47. The Johnson Administration pushing integrat
-- `cal.1965-09-17.opinion` (Sept. 17, LXX sep65.yaml): Gallup, Aug. 27–Sept. 1, whites: advice to Negroes seeking better jobs and respect: more education 44 percent;
-- `cal.1965-09-22.opinion` (Sept. 22, LXX sep65.yaml): Gallup, Aug. 27–Sept. 1: a candidate for Congress for sending a great many more men to Vietnam: more inclined 
-- `cal.1965-09-26.opinion` (Sept. 26, LXX sep65.yaml): Gallup, Aug. 27–Sept. 1: Republicans' first choice for 1968: Nixon 28, Romney 15, Lodge 12, Goldwater 9, Scran
-- `cal.1965-09-29.opinion` (Sept. 29, LXX sep65.yaml): Gallup, Aug. 27–Sept. 1: the $1.25 minimum wage: increase 55 percent, leave as is 39. Of those for an increase
-- `cal.1965-09-30.alabama` (Sept. 30, LXX sep65.yaml): Hayneville. An all-white jury acquits Coleman of manslaughter in the killing of Jonathan Daniels, after 63 min
-- `cal.1965-10-02.specials` (Oct. 2, LXXI oct65.yaml): Louisiana 7th, special. Edwards (D), a State senator, holds T. Ashton Thompson's seat, unopposed; Thompson kil
-- `cal.1965-10-04.vietnam` (Oct. 4, LXXI oct65.yaml): Paul VI in New York for the day, the first Pope in the United States. He and Johnson meet at the Waldorf Tower
-- `cal.1965-10-08.opinion` (Oct. 8, LXXI oct65.yaml): Gallup, Sept. 16–21: a guaranteed minimum annual income for every family in place of relief and welfare: favor
-- `cal.1965-10-10.opinion` (Oct. 10, LXXI oct65.yaml): Gallup, Sept. 16–21: a worker in a unionized plant required to join the union: should 44 percent, should not 4
-- `cal.1965-10-13.opinion` (Oct. 13, LXXI oct65.yaml): Gallup, Sept. 16–21: the most important problem: civil rights 27 percent; Vietnam 19; threat of general war 17
+- `cal.1965-06-23.state-and-city-finance-nyc` (June 23, LXVII jun65.yaml): Albany, N.Y. The Assembly passes Wagner's fiscal bills for the city's budget of 1965–66, among them leave to b
+- `cal.1965-06-24.mayors-nyc` (June 24, LXVII jun65.yaml): Buckley announces for mayor of New York, the Conservative Party's candidate, against Lindsay. Check the date.
+- `cal.1965-06.mayors-minneapolis` (June, LXVII jun65.yaml): Minneapolis re-elects Naftalin (DFL) mayor, a third term.
+- `cal.1965-07-01.antisubversion-fl` (July 1, LXVIII jul65.yaml): The Florida Legislative Investigation Committee, refused further funds by the 1965 session, goes out of existe
+- `cal.1965-07-27.state-and-city-finance-us` (July 27, LXVIII jul65.yaml): National Governors' Conference at Minneapolis, July 25–29. July 27, on Sanders's motion: for study of returnin
+- `cal.1965-09-08.jobs-and-wages-ca` (Sept. 8–16, LXX sep65.yaml): Delano, Cal. Filipino grape pickers of the AFL-CIO's Agricultural Workers Organizing Committee strike the tabl
+- `cal.1965-09-14.mayors-nyc` (Sept. 14, LXX sep65.yaml): New York's Democratic primary for mayor. Beame, the city comptroller, 336,345, 44.8 percent; Screvane, preside
+- `cal.1965-09-17.conservation-ca` (Sept. 17, LXX sep65.yaml): The McAteer–Petris Act in force: a San Francisco Bay Conservation and Development Commission to plan for the b
+- `cal.1965-10-01.desegregation-schools-chicago` (Oct. 1–6, LXXI oct65.yaml): Chicago. Keppel, after the Office of Education's inquiry into the Coordinating Council's complaint against the
 - `cal.1965-10-15.students` (Oct. 15–18, LXXI oct65.yaml): International Days of Protest against the war, planned by Berkeley's Vietnam Day Committee and the National Co
-- `cal.1965-10-19.vietnam` (Oct. 19–27, LXXI oct65.yaml): Plei Me. North Vietnamese regiments attack the Special Forces camp south of Pleiku the night of Oct. 19: twelv
-- `cal.1965-10-19.alabama` (Oct. 19–20, LXXI oct65.yaml): The House Un-American Activities Committee on the Klan, Willis presiding. Shelton, Imperial Wizard of the Unit
+- `cal.1965-10-18.desegregation-schools-milwaukee` (Oct. 18, LXXI oct65.yaml): Milwaukee. The second boycott of the schools by the Integration Committee, of several days; thousands of child
 - `cal.1965-10-22.alabama` (Oct. 22, LXXI oct65.yaml): Hayneville. An all-white jury acquits Wilkins at his second trial for the murder of Viola Liuzzo, after an hou
-- `cal.1965-10-22.opinion` (Oct. 22, LXXI oct65.yaml): Gallup, Sept. 16–21: the Johnson Administration's handling of Vietnam: approve 58 percent, disapprove 22.
-- `cal.1965-10-27.opinion` (Oct. 27, LXXI oct65.yaml): Gallup, Sept. 16–21: Humphrey 43 percent, Romney 43; Johnson 59, Romney 33. Independents: Romney 50, Humphrey 
 - `cal.1965-11-02.states-and-cities` (Nov. 2, LXXII nov65.yaml): New York City. Lindsay, Republican and Liberal, elected mayor: 1,149,106 votes; Beame, Democrat, 1,046,699; Bu
-- `cal.1965-11-02.states-and-cities-2` (Nov. 2, LXXII nov65.yaml): Governors. Virginia: Godwin (D), the lieutenant governor, 269,526; Holton (R), 212,207; Story, of a new Conser
 - `cal.1965-11-02.students` (Nov. 2, LXXII nov65.yaml): Norman Morrison, a Quaker, 31, burns himself to death at the Pentagon, below McNamara's office, his year-old d
-- `cal.1965-11-19.opinion` (Nov. 19, LXXII nov65.yaml): Gallup, Oct. 29–Nov. 2: Communists involved in the demonstrations over Vietnam: a lot 58 percent, some 20, min
-- `cal.1965-11-21.opinion` (Nov. 21, LXXII nov65.yaml): Gallup, Oct. 29–Nov. 2: a candidate for Congress for sending many more men to Vietnam: more inclined 46 percen
-- `cal.1965-11-24.opinion` (Nov. 24, LXXII nov65.yaml): Gallup, Oct. 29–Nov. 2: the 1968 convention's choice between Romney and Nixon. Republicans: Nixon 55, Romney 3
+- `cal.1965-11-02.mayors-ny` (Nov. 2, LXXII nov65.yaml): New York's cities upstate. Buffalo: Sedita (D) elected mayor again. Syracuse: Walsh (R) reelected. Albany, N.Y
+- `cal.1965-11-02.mayors-detroit` (Nov. 2, LXXII nov65.yaml): Detroit. Cavanagh re-elected over Walter Shamie, 295,409 to 144,852, 67.1 percent, by the unofficial count. A 
+- `cal.1965-11-02.mayors-cleveland` (Nov. 2, LXXII nov65.yaml): Cleveland. Locher (D) re-elected over Carl Stokes, a Negro State representative running as an independent: Loc
+- `cal.1965-11-02.mayors-pittsburgh` (Nov. 2, LXXII nov65.yaml): Pittsburgh. Barr (D) re-elected over the Republican, an attorney, 109,947 to 65,969, 62.5 percent.
+- `cal.1965-11-06.mayors-new-orleans` (Nov. 6, LXXII nov65.yaml): New Orleans, Democratic primary for mayor: Schiro 81,973, 50.1 percent; Fitzmorris, a councilman, 78,654, 48.1
+- `cal.1965-11-17.antisubversion-nc` (Nov. 17, LXXII nov65.yaml): North Carolina. The General Assembly, in extra session, amends the Speaker Ban Law: the trustees of each State
+- `cal.1965-11-22.civil-rights-organizations-charlotte` (Nov. 22, LXXII nov65.yaml): Charlotte. Bombs at the homes of four Negro leaders: Julius Chambers, counsel in the suit against the city's a
 - `cal.1965-11-27.students` (Nov. 27, LXXII nov65.yaml): March on Washington for Peace in Vietnam, called by SANE: pickets around the White House, then a rally at the 
-- `cal.1965-11-28.opinion` (Nov. 28, LXXII nov65.yaml): Gallup, Oct. 29–Nov. 2: Senator Robert Kennedy as capable as his brother was as a Senator: yes 38 percent, no 
-- `cal.1965-12-01.opinion` (Dec. 1, LXXIII dec65.yaml): Gallup, Oct. 29–Nov. 2: the most important problem: Vietnam 37 percent; civil rights 17; threat of war 12; wor
-- `cal.1965-12-05.opinion` (Dec. 5, LXXIII dec65.yaml): Gallup, Nov. 18–23: Republicans' best candidate for 1968: Nixon 34, Goldwater 13, Lodge 12, Romney 11, Scranto
-- `cal.1965-12-12.opinion` (Dec. 12, LXXIII dec65.yaml): Gallup, Nov. 18–23: Vice President Humphrey wants to be President, 72 percent. Will win the nomination: yes 26
-- `cal.1965-12-15.opinion` (Dec. 15, LXXIII dec65.yaml): Gallup, Nov. 18–23: the Supreme Court's ruling that Communists cannot be required to register: approve 27 perc
-- `cal.1965-12-17.opinion` (Dec. 17, LXXIII dec65.yaml): Gallup, Nov. 18–23: sending troops into Santo Domingo the right thing, 52 percent; wrong, 21. Our relations wi
-- `cal.1966-01-01.jobs-and-wages` (Jan. 1–13, LXXIV jan66.yaml): New York. Lindsay sworn as mayor; the Transport Workers Union strikes the subways and buses the same morning. 
+- `cal.1965-11-30.transportation` (Nov. 30, LXXII nov65.yaml): Nader's *Unsafe at Any Speed* published (Check the day). Its first chapter, the Corvair.
+- `cal.1965-12-02.states-and-cities-los-angeles` (Dec. 2, LXXIII dec65.yaml): The Governor's Commission on the Los Angeles Riots, McCone chairman, reports: *Violence in the City—An End or 
 - `cal.1966-01-03.civil-rights-organizations` (Jan. 3, LXXIV jan66.yaml): CORE names McKissick national director, to succeed Farmer, who goes to a national literacy program. McKissick 
 - `cal.1966-01-04.states-and-cities` (Jan. 4, LXXIV jan66.yaml): Reagan announces for governor of California, on television. Check the date.
-- `cal.1966-01-07.opinion` (Jan. 7, LXXIV jan66.yaml): Gallup, Dec. 11–16, 1965: Communist China admitted to the UN: should 22 percent, should not 67. College-educat
-- `cal.1966-01-09.opinion` (Jan. 9, LXXIV jan66.yaml): Gallup, Dec. 11–16, 1965: Johnson's handling of Vietnam: approve 56 percent, disapprove 26. How long the fight
 - `cal.1966-01-10.mississippi` (Jan. 10, LXXIV jan66.yaml): Hattiesburg. Before dawn, Klansmen fire on and firebomb the house and store of Vernon Dahmer, president of the
-- `cal.1966-01-12.opinion` (Jan. 12, LXXIV jan66.yaml): Gallup, Dec. 11–16, 1965: the policy Johnson should follow: more to the right, with business and conservative 
-- `cal.1966-01-14.opinion` (Jan. 14, LXXIV jan66.yaml): Gallup, Dec. 11–16, 1965: a four-year term for members of the House in place of two: favor 61 percent, oppose 
-- `cal.1966-01-16.opinion` (Jan. 16, LXXIV jan66.yaml): Gallup, Dec. 11–16, 1965: liked best about Nixon: his honesty 12 percent; sincerity 8; personality 8; experien
-- `cal.1966-01-23.opinion` (Jan. 23, LXXIV jan66.yaml): Gallup, Dec. 31, 1965–Jan. 5, 1966: the party one would like to see win the congressional district, by region:
-- `cal.1966-01-24.vietnam` (Jan. 24–Mar. 6, LXXIV jan66.yaml): Operation Masher, renamed White Wing: the 1st Cavalry Division, with ARVN and Korean troops, in Bình Định prov
+- `cal.1966-01-24.states-and-cities-dc` (Jan. 24, LXXIV jan66.yaml): Washington. A one-day boycott of D.C. Transit's buses against a fare rise from 20 cents to 25, called by Barry
 - `cal.1966-01-26.open-housing` (Jan. 26, LXXIV jan66.yaml): King moves into a flat on South Hamlin Avenue in Lawndale, on Chicago's West Side: the Chicago Freedom Movemen
-- `cal.1966-01-26.opinion` (Jan. 26, LXXIV jan66.yaml): Gallup, Dec. 31, 1965–Jan. 5, 1966: Senators limited to two six-year terms: favor 50 percent, oppose 38.
-- `cal.1966-01-30.opinion` (Jan. 30, LXXIV jan66.yaml): Gallup, Dec. 31, 1965–Jan. 5, 1966: the $1.25 minimum wage: increase 66 percent, leave as is 33. The work week
-- `cal.1966-01-31.mississippi` (Jan. 31–Feb. 1, LXXIV jan66.yaml): Greenville Air Force Base. Some seventy Delta people (Check), plantation workers out of work and evicted, of t
-- `cal.1966-02-04.opinion` (Feb. 4, LXXV feb66.yaml): Gallup, Dec. 31, 1965–Jan. 5, 1966: prices and wages frozen for as long as the war in Vietnam lasts: a good id
-- `cal.1966-02-05.specials` (Feb. 5, LXXV feb66.yaml): North Carolina 1st, special. Walter B. Jones (D), a State senator, holds Bonner's seat, 21,773 to 14,308 for E
-- `cal.1966-02-06.opinion` (Feb. 6, LXXV feb66.yaml): Gallup, Dec. 31, 1965–Jan. 5, 1966: Republicans' best candidate for 1968: Nixon 33, Lodge 15, Goldwater 11, Ro
-- `cal.1966-02-08.specials` (Feb. 8, LXXV feb66.yaml): New York 17th, special. Kupferman (R), of the City Council, holds Lindsay's seat: 44,125; Orin Lehman (D) 43,2
-- `cal.1966-02-09.opinion` (Feb. 9, LXXV feb66.yaml): Gallup, Jan. 21–26: the move to ask the UN to work out its own formula for peace in Vietnam: approve 74 percen
-- `cal.1966-02-11.opinion` (Feb. 11, LXXV feb66.yaml): Gallup, Dec. 11–16, 1965: Supreme Court Justices and other federal judges required to retire at 72: a good ide
-- `cal.1966-02-13.opinion` (Feb. 13, LXXV feb66.yaml): Gallup, Dec. 31, 1965–Jan. 5, 1966: Humphrey 47 percent, Nixon 45, undecided 8. Independents: Nixon 53, Humphr
-- `cal.1966-02-16.opinion` (Feb. 16, LXXV feb66.yaml): Gallup, Dec. 31, 1965–Jan. 5, 1966: the party more likely to keep the country out of World War III: Democratic
-- `cal.1966-02-18.opinion` (Feb. 18, LXXV feb66.yaml): Gallup, Dec. 31, 1965–Jan. 5, 1966: can identify McNamara, 58 percent; college-educated 88, grade school 34. O
+- `cal.1966-01.legislatures-us` (Jan., LXXIV jan66.yaml): Reapportionment at the end of 1965, as the *State Legislatures Progress Reporter* counts it: suits against the
 - `cal.1966-02-24.elections-1966` (Feb. 24, LXXV feb66.yaml): Lurleen Wallace announces for governor of Alabama. George Wallace, barred by the State constitution from a sec
-- `cal.1966-02-27.opinion` (Feb. 27, LXXV feb66.yaml): Gallup, Jan. 21–26: can identify Romney, 43 percent; Republicans 56, independents 55, Democrats 33. Of all ask
-- `cal.1966-02-28.space` (Feb. 28, LXXV feb66.yaml): St. Louis. Elliot M. See Jr. and Charles A. Bassett II, named to fly Gemini 9, killed landing their T-38 in ba
-- `cal.1966-03-04.opinion` (Mar. 4, LXXVI mar66.yaml): Gallup, Jan. 21–26: a worker in a unionized plant required to join the union: should 42 percent, should not 49
-- `cal.1966-03-06.opinion` (Mar. 6, LXXVI mar66.yaml): Gallup, Feb. 10–15: bombing industrial plants and factories in North Vietnam: favor 61 percent, oppose 26. Bom
-- `cal.1966-03-08.india-and-china` (Mar. 8–30, LXXVI mar66.yaml): The Senate Foreign Relations Committee, Fulbright presiding, hears scholars on policy toward mainland China. M
-- `cal.1966-03-09.opinion` (Mar. 9, LXXVI mar66.yaml): Gallup, Feb. 10–15: Johnson's handling of Vietnam: approve 50 percent, disapprove 33.
-- `cal.1966-03-11.opinion` (Mar. 11, LXXVI mar66.yaml): Gallup, Feb. 10–15: Robert Kennedy 54 percent, Nixon 41, undecided 5. Independents: Nixon 52, Kennedy 39. Sout
-- `cal.1966-03-13.opinion` (Mar. 13, LXXVI mar66.yaml): Gallup, Feb. 10–15: foreign aid in general: for 53 percent, against 35. The kinds favored: training teachers a
-- `cal.1966-03-20.opinion` (Mar. 20, LXXVI mar66.yaml): Gallup, Mar. 3–8: the party one would like to see win the congressional district, by region: South, Democratic
+- `cal.1966-03-16.jobs-and-wages-ca` (Mar. 16–Apr. 10, LXXVI mar66.yaml): The Senate's Subcommittee on Migratory Labor at Delano, Cal., Mar. 16; Robert Kennedy questions the Kern Count
 - `cal.1966-03-25.students` (Mar. 25–26, LXXVI mar66.yaml): The second International Days of Protest against the war, called by the National Coordinating Committee to End
-- `cal.1966-03-25.opinion` (Mar. 25, LXXVI mar66.yaml): Gallup, Mar. 3–8: can identify Rusk, 65 percent; college-educated nine in ten, grade school 39. Of them, his g
 - `cal.1966-03-26.specials` (Mar. 26, LXXVI mar66.yaml): Texas 8th, special. Lera Thomas (D) holds her husband's seat, 6,120 to 2,147 over Leman (R), 74.0 percent; Alb
-- `cal.1966-04-01.opinion` (Apr. 1, LXXVII apr66.yaml): Gallup, Mar. 3–8: a candidate for Congress who says we should try harder for a compromise peace in Vietnam: mo
-- `cal.1966-04-03.opinion` (Apr. 3, LXXVII apr66.yaml): Gallup, Mar. 3–8: overall feelings about Vietnam: a necessary evil 43 percent; the United States should get ou
-- `cal.1966-04-06.opinion` (Apr. 6, LXXVII apr66.yaml): Gallup, Jan. 21–26: Supreme Court Justices and other federal judges chosen by the President from a list of can
-- `cal.1966-04-10.opinion` (Apr. 10, LXXVII apr66.yaml): Gallup, Mar. 24–29: Republicans' best candidate for 1968: Nixon 27, Romney 14, Goldwater 13, Lodge 12, Dirksen
-- `cal.1966-04-12.vietnam` (Apr. 12, LXXVII apr66.yaml): B-52s from Guam bomb North Vietnam for the first time: the Mụ Giạ Pass, on the road into Laos (Check the numbe
-- `cal.1966-04-15.opinion` (Apr. 15, LXXVII apr66.yaml): Gallup, Feb. 10–15: one's own federal income tax: too high 52 percent, about right 39, too low under 1.
-- `cal.1966-04-17.opinion` (Apr. 17, LXXVII apr66.yaml): Gallup, Mar. 24–29, a peace plan: the UN to hold elections in North and South Vietnam on their governments and
-- `cal.1966-04-20.opinion` (Apr. 20, LXXVII apr66.yaml): Gallup, Mar. 24–29: Johnson's handling of Vietnam: approve 54 percent, disapprove 31.
-- `cal.1966-04-21.vietnam` (Apr. 21, LXXVII apr66.yaml): Fulbright at the Johns Hopkins School of Advanced International Studies, the first of three Christian A. Herte
-- `cal.1966-04-22.opinion` (Apr. 22, LXXVII apr66.yaml): Gallup, Mar. 24–29: Communist China admitted to the UN: should 25 percent, should not 55. If the UN votes to a
-- `cal.1966-04-27.opinion` (Apr. 27, LXXVII apr66.yaml): Gallup, Mar. 24–29, Republicans: the best reasons Republican candidates for Congress can give this fall, by fr
-- `cal.1966-04-29.opinion` (Apr. 29, LXXVII apr66.yaml): Gallup, Mar. 24–29, Democrats: the best reasons Democratic candidates for Congress can give this fall, by freq
-- `cal.1966-05-03.elections-1966` (May 3, LXXVIII may66.yaml): Alabama's Democratic primary, the first since the Voting Rights Act. Lurleen Wallace, standing for her husband
-- `cal.1966-05-06.opinion` (May 6, LXXVIII may66.yaml): Gallup, Mar. 24–29: have heard or read of the antipoverty program, 80 percent. Of them, a program in their are
-- `cal.1966-05-11.opinion` (May 11, LXXVIII may66.yaml): Gallup, Apr. 14–19: have heard of the suggestion from Washington of higher income taxes, 68 percent. Of them, 
-- `cal.1966-05-11.opinion-2` (May 11, LXXVIII may66.yaml): Gallup, Apr. 14–19: prices and wages frozen for as long as the war in Vietnam lasts: a good idea 42 percent, a
-- `cal.1966-05-13.opinion` (May 13, LXXVIII may66.yaml): Gallup, Mar. 3–8: prices in the next six months: up 81 percent, down 3, the same 13. The party more likely to 
+- `cal.1966-03-31.desegregation-schools-seattle` (Mar. 31–Apr. 1, LXXVI mar66.yaml): Seattle. School boycott against the segregation of the Central Area's schools, called by the Central Area Civi
+- `cal.1966-04-27.state-and-city-finance-nj` (Apr. 27, LXXVII apr66.yaml): New Jersey's first sales tax. Hughes signs the Sales and Use Tax Act, A. 700: 3 percent on retail sales and on
+- `cal.1966-04.jobs-and-wages-oakland` (Apr., LXXVII apr66.yaml): Oakland. Foley's Economic Development Administration announces some $23 million for the city: public works at 
+- `cal.1966-04.desegregation-schools-boston` (Apr., LXXVII apr66.yaml): Massachusetts. The State Board of Education finds the Boston School Committee's plan of December under the Rac
+- `cal.1966-05-07.governors-tx` (May 7, LXXVIII may66.yaml): Texas Democratic primary. Governor Connally renominated for a third term, 74.3 percent, over Stanley Woods, 23
 - `cal.1966-05-14.students` (May 14, LXXVIII may66.yaml): The Selective Service College Qualification Test, first of three sittings (May 21, June 3): local boards to we
-- `cal.1966-05-15.opinion` (May 15, LXXVIII may66.yaml): Gallup, Apr. 14–19: the chief reason for auto accidents: careless drivers 60 percent; speeding 31; drinking 21
-- `cal.1966-05-16.civil-rights-organizations` (May 16, LXXVIII may66.yaml): SNCC's staff, meeting at Kingston Springs, Tenn., re-elects Lewis chairman, then, after Worth Long challenges 
-- `cal.1966-05-18.defense` (May 18, LXXVIII may66.yaml): McNamara to the American Society of Newspaper Editors at Montreal: in the modernizing nations "security is dev
-- `cal.1966-05-18.opinion` (May 18, LXXVIII may66.yaml): Gallup, Jan. 21–26: a constitutional amendment to abolish the Electoral College and elect the President by the
-- `cal.1966-05-20.opinion` (May 20, LXXVIII may66.yaml): Gallup, May 5–10: Johnson's handling of Vietnam: approve 47 percent, disapprove 35. Democrats 57 approve; inde
-- `cal.1966-05-22.opinion` (May 22, LXXVIII may66.yaml): Gallup, Apr. 14–19: if the South Vietnamese start fighting among themselves on a big scale: continue to help t
-- `cal.1966-05-24.elections-1966` (May 24, LXXVIII may66.yaml): Oregon's primary, for Maurine Neuberger's Senate seat. Democratic: Representative Robert Duncan, for the war, 
-- `cal.1966-05-25.opinion` (May 25, LXXVIII may66.yaml): Gallup, Apr. 14–19: Johnson 54 percent, Nixon 36, undecided 10.
-- `cal.1966-05-27.opinion` (May 27, LXXVIII may66.yaml): Gallup, May 5–10: the most important problem: Vietnam 45 percent; the cost of living 16; civil rights 9; threa
-- `cal.1966-05-29.opinion` (May 29, LXXVIII may66.yaml): Gallup, May 19–24: the party one would like to see win the congressional district: Democratic 53 percent, Repu
-- `cal.1966-06-01.opinion` (June 1, LXXIX jun66.yaml): Gallup, May 5–10: white parents who would object to a school where a few of the children are colored: outside 
-- `cal.1966-06-03.space` (June 3–6, LXXIX jun66.yaml): Gemini 9: Stafford and Cernan, up June 3. Their Agena target lost May 17, when its Atlas failed; the substitut
-- `cal.1966-06-03.opinion` (June 3, LXXIX jun66.yaml): Gallup, May 5–10: the United States made a mistake sending troops to fight in Vietnam: yes 36 percent, no 49. 
-- `cal.1966-06-04.africa` (June 4–9, LXXIX jun66.yaml): Robert Kennedy in South Africa, invited by the National Union of South African Students, whose president, Ian 
-- `cal.1966-06-06.mississippi` (June 6–9, LXXIX jun66.yaml): Meredith, walking alone from Memphis to Jackson since June 5 "against fear," shot from the roadside south of H
-- `cal.1966-06-07.elections-1966` (June 7, LXXIX jun66.yaml): California's primary. Republican: Reagan 1,417,623, 64.8 percent; Christopher, once mayor of San Francisco, 67
-- `cal.1966-06-07.specials` (June 7, LXXIX jun66.yaml): California 14th, special, held with the primary. Waldie (D), majority leader of the State Assembly, takes the 
-- `cal.1966-06-08.opinion` (June 8, LXXIX jun66.yaml): Gallup, May 19–24: Johnson's handling of Vietnam: approve 41 percent, disapprove 37. Democrats 49 approve; Rep
-- `cal.1966-06-12.opinion` (June 12, LXXIX jun66.yaml): Gallup, special survey of 1,597 Republican county chairmen, their own choice for 1968 from a list of thirteen:
-- `cal.1966-06-13.opinion` (June 13, LXXIX jun66.yaml): Gallup, the same county chairmen: Nixon able to beat Johnson in 1968: yes 59 percent, no 30. East 45 and 44; M
-- `cal.1966-06-14.opinion` (June 14, LXXIX jun66.yaml): Gallup, the same county chairmen: the best reasons Republican candidates for Congress can give this year: Viet
-- `cal.1966-06-15.opinion` (June 15, LXXIX jun66.yaml): Gallup, the same county chairmen, their feelings about the war: go all-out to win 29 percent; go all-out or ge
+- `cal.1966-06-14.south-carolina-sc` (June 14, LXXIX jun66.yaml): South Carolina's Democratic primary. Senate, for Johnston's unexpired term: Hollings 60.8 percent, U.S. Senato
+- `cal.1966-06-14.mayors-newark` (June 14, LXXIX jun66.yaml): Newark runoff. Addonizio re-elected over Carlin, his predecessor. First round May 10: Kenneth Gibson, engineer
 - `cal.1966-06-16.mississippi` (June 16, LXXIX jun66.yaml): Greenwood. Carmichael, arrested for pitching the marchers' tents on a Negro school's grounds and released, at 
-- `cal.1966-06-19.opinion` (June 19, LXXIX jun66.yaml): Gallup, May 19–24: a vote on the war in the next few months: continue it 48 percent, withdraw the troops 35. T
+- `cal.1966-06-19.governors-mn` (June 19, LXXIX jun66.yaml): Minnesota. The DFL state convention endorses Lieutenant Governor Keith for governor over Governor Rolvaag, on 
+- `cal.1966-06-20.governors-me` (June 20, LXXIX jun66.yaml): Maine's primaries for governor. Republican: Reed, the governor, 55,924, 59.7 percent; Erwin 37,765. Democratic
 - `cal.1966-06-21.mississippi` (June 21–26, LXXIX jun66.yaml): Philadelphia. King leads a memorial march for Chaney, Goodman and Schwerner, June 21; whites attack the marche
-- `cal.1966-06-24.opinion` (June 24, LXXIX jun66.yaml): Gallup, special survey of college students: Johnson's handling of Vietnam: approve 47 percent, disapprove 47. 
-- `cal.1966-07-01.opinion` (July 1, LXXX jul66.yaml): Gallup, May 19–24: the death penalty for persons convicted of murder: for 42 percent, against 47. Men 47 for; 
-- `cal.1966-07-03.opinion` (July 3, LXXX jul66.yaml): Gallup, June 16–21: all young men to give two years' service, in the armed forces or in nonmilitary work here 
-- `cal.1966-07-06.opinion` (July 6, LXXX jul66.yaml): Gallup, special survey of male college students: students deferred from the draft: yes 82 percent, no 14. If s
-- `cal.1966-07-08.opinion` (July 8, LXXX jul66.yaml): Gallup, June 16–21: France a dependable ally of the United States: yes 16 percent, no 56. College-educated 66 
-- `cal.1966-07-10.open-housing` (July 10–11, LXXX jul66.yaml): Chicago. "Freedom Sunday": King at Soldier Field, some 35,000 by UPI's count (Check), then a march to City Hal
-- `cal.1966-07-10.opinion` (July 10, LXXX jul66.yaml): Gallup, June 16–21: the convention's choice between Romney and Nixon: Romney 45 percent, Nixon 43. Republicans
-- `cal.1966-07-13.opinion` (July 13, LXXX jul66.yaml): Gallup, June 16–21: the party more likely to keep the country out of World War III: Republican 30 percent, Dem
-- `cal.1966-07-17.opinion` (July 17, LXXX jul66.yaml): Gallup, June 16–21: Johnson 48 percent, Romney 44; Johnson 51, Nixon 40. Midwest: Romney 51, Johnson 40; Nixon
+- `cal.1966-06-28.states-and-cities-nyc` (June 28, LXXIX jun66.yaml): Manhattan's Democratic primary for Surrogate. Silverman, a Supreme Court justice, backed by Robert Kennedy, th
+- `cal.1966-07-02.states-and-cities-omaha` (July 2–7, LXXX jul66.yaml): Omaha. Negro youths at the Safeway and Skaggs lot at 24th and Lake, the night of July 2; rocks at a police car
+- `cal.1966-07-04.jobs-and-wages-tx` (July 4–Sept. 5, LXXX jul66.yaml): Texas farm workers' march. Melon pickers on strike in Starr County since June 1, for $1.25 an hour, march from
+- `cal.1966-07-07.vietnam-us` (July 7, LXXX jul66.yaml): National Governors' Conference at Los Angeles, July 4–7; Humphrey speaks July 6. July 7: Sawyer's resolution, 
+- `cal.1966-07-11.crime-and-hijacking-nyc` (July 11, LXXX jul66.yaml): New York. Lindsay's civilian review board named: four civilians chosen by Lindsay, three police officers by Le
+- `cal.1966-07-16.states-and-cities-los-angeles` (July 16, LXXX jul66.yaml): Los Angeles. Parker, chief of police since 1950, dies.
 - `cal.1966-07-18.states-and-cities` (July 18–23, LXXX jul66.yaml): Cleveland. Rioting in Hough, July 18–23, begun at a bar at East 79th Street and Hough Avenue. Four dead, some 
-- `cal.1966-07-18.space` (July 18–21, LXXX jul66.yaml): Gemini 10: Young and Collins. Docked with their Agena target, they fire its engine and climb to some 475 miles
-- `cal.1966-07-20.opinion` (July 20, LXXX jul66.yaml): Gallup, June 16–21: the Administration pushing integration too fast, 46 percent; not fast enough, 7; about rig
-- `cal.1966-07-22.opinion` (July 22, LXXX jul66.yaml): Gallup, special survey of students at 60 colleges and universities: the Republican with the greatest appeal: R
-- `cal.1966-07-24.opinion` (July 24, LXXX jul66.yaml): Gallup, July 8–13: Johnson's handling of Vietnam: approve 49 percent, disapprove 35.
 - `cal.1966-07-26.elections-1966` (July 26–Aug. 9, LXXX jul66.yaml): Arkansas, governor; Faubus not running. Democratic primary, July 26: Jim Johnson first, Holt second. Runoff, A
-- `cal.1966-07-27.opinion` (July 27, LXXX jul66.yaml): Gallup, July 8–13, of those who had followed it, about four in ten: the Supreme Court's ruling that a suspect 
-- `cal.1966-07-29.opinion` (July 29, LXXX jul66.yaml): Gallup, June 16–21, whites: would move if colored people came to live next door: yes, definitely 13 percent; m
-- `cal.1966-08-02.elections-1966` (Aug. 2, LXXXI aug66.yaml): Michigan, Democratic Senate primary: Williams, governor 1949–61, lately Assistant Secretary of State for Afric
+- `cal.1966-07.state-and-city-finance-nyc` (July, LXXX jul66.yaml): Albany, N.Y. The legislature, before it adjourns July 6, lets New York City tax its residents' incomes, and co
+- `cal.1966-08-02.governors-id` (Aug. 2, LXXXI aug66.yaml): Idaho's primary. Republican, for governor: Samuelson, a State senator, 52,891, 61.0 percent, over Smylie, gove
 - `cal.1966-08-04.elections-1966` (Aug. 4, LXXXI aug66.yaml): Tennessee, Democratic Senate primary: Clement, the governor, defeats Bass, 384,322 to 366,079; Bass had won th
 - `cal.1966-08-05.open-housing` (Aug. 5, LXXXI aug66.yaml): Chicago. The marches into the white neighborhoods of the Southwest Side, from late July. Aug. 5, Marquette Par
-- `cal.1966-08-10.space` (Aug. 10–23, LXXXI aug66.yaml): Lunar Orbiter 1 launched, Aug. 10; in orbit about the moon Aug. 14, the first American craft there. Photograph
-- `cal.1966-08-12.opinion` (Aug. 12, LXXXI aug66.yaml): Gallup, July 29–Aug. 3: Johnson too friendly to labor unions, 25 percent; not friendly enough, 10; about right
-- `cal.1966-08-14.opinion` (Aug. 14, LXXXI aug66.yaml): Gallup, July 29–Aug. 3: the party one would like to see win the congressional district: Democratic 54 percent,
-- `cal.1966-08-16.students` (Aug. 16–19, LXXXI aug66.yaml): House Un-American Activities Committee, hearings on Pool's bill, H.R. 12047, and others: aid to an enemy in an
-- `cal.1966-08-17.opinion` (Aug. 17, LXXXI aug66.yaml): Gallup, July 29–Aug. 3: Negro families in the smaller towns and cities of the North have a better life than th
-- `cal.1966-08-21.opinion` (Aug. 21, LXXXI aug66.yaml): Gallup, July 29–Aug. 4: Robert Kennedy 55 percent, Romney 39. Democrats' choice for 1968: Kennedy 40, Johnson 
-- `cal.1966-08-24.opinion` (Aug. 24, LXXXI aug66.yaml): Gallup, Aug. 18–23: Johnson's handling of Vietnam: approve 43 percent, disapprove 39.
 - `cal.1966-08-26.open-housing` (Aug. 26, LXXXI aug66.yaml): Chicago. The summit, from Aug. 17: Daley and the city, the Real Estate Board, the Housing Authority, churches,
-- `cal.1966-08-26.opinion` (Aug. 26, LXXXI aug66.yaml): Gallup, July 29–Aug. 3: can name their Congressman, 46 percent. Men 54; women 40. Republicans 61; independents
-- `cal.1966-08-28.opinion` (Aug. 28, LXXXI aug66.yaml): Gallup, July 29–Aug. 3: no strike to last more than seven days, a committee appointed by the Government then t
-- `cal.1966-08-31.opinion` (Aug. 31, LXXXI aug66.yaml): Gallup, special survey in Britain: the United States to continue its efforts in South Vietnam, 37 percent; pul
+- `cal.1966-08.desegregation-public-places-milwaukee` (Aug., LXXXI aug66.yaml): Milwaukee. Groppi and the NAACP Youth Council picket the Fraternal Order of Eagles, which admits only whites, 
+- `cal.1966-09-01.states-and-cities-dayton` (Sept. 1, LXXXII sep66.yaml): Dayton. Lester Mitchell, a Negro, shot dead from a passing car while sweeping the walk before his bar on West 
 - `cal.1966-09-04.open-housing` (Sept. 4, LXXXII sep66.yaml): Cicero. Robert Lucas of Chicago CORE leads some 250 marchers (Check) into the town, the march King gave up und
-- `cal.1966-09-04.opinion` (Sept. 4, LXXXII sep66.yaml): Gallup, special survey of persons drawn from *Who's Who in America*, 1966: what they would do about Vietnam if
-- `cal.1966-09-06.georgia` (Sept. 6–8, LXXXII sep66.yaml): Atlanta, Summerhill. A white policeman shoots Harold Prather, a Negro suspect running from arrest; a crowd gat
-- `cal.1966-09-07.opinion` (Sept. 7, LXXXII sep66.yaml): Gallup, Aug. 18–23: Communist China to send many troops if the North Vietnamese show signs of giving in: will 
-- `cal.1966-09-09.opinion` (Sept. 9, LXXXII sep66.yaml): Gallup, Aug. 18–23: the United States to begin letting South Vietnam take on more of the fighting: yes 62 perc
-- `cal.1966-09-11.opinion` (Sept. 11, LXXXII sep66.yaml): Gallup, Aug. 18–23: the most important problem: Vietnam 56 percent; racial problems 24; inflation 16. The part
+- `cal.1966-09-07.governors-ny` (Sept. 7–8, LXXXII sep66.yaml): New York's conventions. Democrats at Buffalo, Sept. 7: O'Connor, president of the City Council, nominated for 
 - `cal.1966-09-12.mississippi` (Sept. 12–17, LXXXII sep66.yaml): Grenada. About 250 Negro children, of 450 enrolled under a federal court order in the white schools, go to cla
-- `cal.1966-09-14.elections-1966` (Sept. 14–28, LXXXII sep66.yaml): Georgias Democratic primary for governor. Arnall, governor 1943–47, first, 231,480; Maddox, who closed his Atl
-- `cal.1966-09-14.opinion` (Sept. 14, LXXXII sep66.yaml): Gallup, Aug. 18–23: a police permit required to buy a gun: favor 68 percent, oppose 29; gun owners 56 and 41. 
-- `cal.1966-09-16.opinion` (Sept. 16, LXXXII sep66.yaml): Gallup, Aug. 18–23: how the war will end: an American victory 21 percent; a stalemate or negotiations 27, Kore
-- `cal.1966-09-21.opinion` (Sept. 21, LXXXII sep66.yaml): Gallup, Sept. 8–13: Johnson's handling of Vietnam: approve 43 percent, disapprove 40. Democrats 53 approve, 30
-- `cal.1966-09-23.opinion` (Sept. 23, LXXXII sep66.yaml): Gallup, special survey of persons drawn from *Who's Who in America*, 1966: Republicans four in ten of them; of
-- `cal.1966-09-25.opinion` (Sept. 25, LXXXII sep66.yaml): Gallup, Aug. 18–23, and like surveys in Britain and Canada: the United States should begin to withdraw its tro
-- `cal.1966-09-28.opinion` (Sept. 28, LXXXII sep66.yaml): Gallup, Sept. 8–13: the Johnson Administration pushing integration too fast, 52 percent; about right, 29; not 
-- `cal.1966-09-30.opinion` (Sept. 30, LXXXII sep66.yaml): Gallup, Sept. 8–13: the United States made a mistake sending troops to fight in Vietnam: yes 35 percent, no 49
-- `cal.1966-10-02.opinion` (Oct. 2, LXXXIII oct66.yaml): Gallup, Sept. 8–13: every able-bodied man of 18 required to serve a year in the armed forces: yes 69 percent, 
-- `cal.1966-10-05.opinion` (Oct. 5, LXXXIII oct66.yaml): Gallup, Aug. 18–23, on a scale from plus 5 to minus 5: highly favorable, plus 4 or 5, Nixon 22 percent, Romney
-- `cal.1966-10-07.opinion` (Oct. 7, LXXXIII oct66.yaml): Gallup, Sept. 8–13: the party more likely to keep the country out of World War III: Republican 27 percent, Dem
-- `cal.1966-10-09.opinion` (Oct. 9, LXXXIII oct66.yaml): Gallup, Sept. 8–13: Communist China admitted to the UN: should 25 percent, should not 56; persons in *Who's Wh
-- `cal.1966-10-12.opinion` (Oct. 12, LXXXIII oct66.yaml): Gallup, Oct. 2–7: the party to do the best job of keeping the country prosperous: Democratic 41 percent, Repub
-- `cal.1966-10-14.opinion` (Oct. 14, LXXXIII oct66.yaml): Gallup, Sept. 30–Oct. 6: the American offer of a step-by-step withdrawal of its troops under UN supervision if
+- `cal.1966-09-13.states-and-cities-nyc` (Sept. 13, LXXXII sep66.yaml): New York. Percy Sutton, Assemblyman from Harlem, chosen Manhattan's borough president in Motley's place, she h
+- `cal.1966-09-13.governors-vt` (Sept. 13, LXXXII sep66.yaml): Vermont's Republican primary for governor. Snelling 22,069, 59.0 percent; Hayes 15,286. Hoff re-elected in Nov
+- `cal.1966-09-27.states-and-cities-san-francisco` (Sept. 27–Oct. 2, LXXXII sep66.yaml): San Francisco. A policeman shoots Matthew Johnson, 16, running from a stolen car at Hunters Point, Sept. 27; r
+- `cal.1966-09.desegregation-schools-nyc` (Sept., LXXXII sep66.yaml): New York. Intermediate School 201, in East Harlem, new and windowless, its pupils Negro and Puerto Rican: pare
+- `cal.1966-09.governors-id` (Sept., LXXXII sep66.yaml): Idaho. Herndon, the Democratic nominee for governor, killed with two others in the crash of a private plane in
 - `cal.1966-10-15.black-nationalism` (Oct. 15, LXXXIII oct66.yaml): Oakland. Huey P. Newton and Bobby Seale found the Black Panther Party for Self-Defense. Its ten-point program,
-- `cal.1966-10-16.opinion` (Oct. 16, LXXXIII oct66.yaml): Gallup, Oct. 1–6: the party one would like to see win the congressional district. Union members: Democratic 66
-- `cal.1966-10-19.opinion` (Oct. 19, LXXXIII oct66.yaml): Gallup, Oct. 1–6: the most important problem, in order of mention: the war in Vietnam; civil rights and racial
-- `cal.1966-10-27.africa` (Oct. 27, LXXXIII oct66.yaml): The General Assembly ends South Africas mandate over South West Africa, Resolution 2145 (XXI), 114–2, Portugal
-- `cal.1966-10-30.opinion` (Oct. 30, LXXXIII oct66.yaml): Gallup, Sept. 30–Oct. 6: Johnson 51 percent, Nixon 34, Wallace as a third party's candidate 7, undecided 8. So
-- `cal.1966-11-04.opinion` (Nov. 4, LXXXIV nov66.yaml): Gallup, special survey, a secret ballot for the candidate or party one would like to see win: Democratic 52 pe
-- `cal.1966-11-07.opinion` (Nov. 7, LXXXIV nov66.yaml): Gallup, final poll, Oct. 31–Nov. 5: the party one would like to see win the congressional district: Democratic
 - `cal.1966-11-08.specials` (Nov. 8, LXXXIV nov66.yaml): Arkansas 4th, special. Pryor (D) holds the seat Oren Harris left Feb. 2 for the federal bench, 64.5 to 35.5 ov
 - `cal.1966-11-08.specials-2` (Nov. 8, LXXXIV nov66.yaml): Michigan 9th, special. Vander Jagt (R) holds Griffin's seat, 66.6 to 33.4 over Dongvillo (D); the same day, th
-- `cal.1966-11-13.opinion` (Nov. 13, LXXXIV nov66.yaml): Gallup's affiliates in three countries: the United States should begin to withdraw its troops, carry on at its
-- `cal.1966-11-16.opinion` (Nov. 16, LXXXIV nov66.yaml): Gallup, Oct. 21–26: can identify Reagan, 75 percent; college-educated 94, grade school 50; West 84, South 63. 
-- `cal.1966-11-18.opinion` (Nov. 18, LXXXIV nov66.yaml): Gallup, Aug. 18–23, in the thirteen Southern States: the South better off with two parties of about equal stre
-- `cal.1966-11-20.opinion` (Nov. 20, LXXXIV nov66.yaml): Gallup, Oct. 1–6, by race: satisfied with their housing, whites 77 percent, Negroes 51; with their family inco
-- `cal.1966-11-23.opinion` (Nov. 23, LXXXIV nov66.yaml): Gallup, Oct. 21–26: an income tax increase to help pay for the war in Vietnam: favor 19 percent, oppose 73; Re
-- `cal.1966-11-27.opinion` (Nov. 27, LXXXIV nov66.yaml): Gallup, Nov. 10–15: Republicans' choice for 1968: Romney 39, Nixon 31, Reagan 8, Rockefeller 5, Percy 5, Hatfi
-- `cal.1966-11-30.opinion` (Nov. 30, LXXXIV nov66.yaml): Gallup, Nov. 10–15: the convention's choice between Romney and Nixon. Republicans: Romney 51, Nixon 42. Indepe
+- `cal.1966-11-08.governors` (Nov. 8, LXXXIV nov66.yaml): Thirty-five governors elected: Republicans 23, Democrats 12. Republicans took ten States, Democrats two. Reaga
+- `cal.1966-11-08.state-constitutions-ny` (Nov. 8, LXXXIV nov66.yaml): New York. Delegates to the constitutional convention of 1967 elected, fifteen at large from party lists and th
+- `cal.1966-11-08.states-and-cities-nyc` (Nov. 8, LXXXIV nov66.yaml): New York City. The Patrolmen's Benevolent Association's amendment to the charter carries, nearly two to one (C
+- `cal.1966-11-08.state-constitutions-la` (Nov. 8, LXXXIV nov66.yaml): Louisiana's voters approve a domed stadium for New Orleans, the Louisiana Stadium and Exposition District and 
+- `cal.1966-11-08.legislatures-tx` (Nov. 8, LXXXIV nov66.yaml): Texas. Barbara Jordan (D) elected to the State Senate from Houston's new 11th district, drawn after *Kilgarlin
+- `cal.1966-11-08.legislatures-az` (Nov. 8, LXXXIV nov66.yaml): Arizona's legislature, elected in new districts after *Reynolds v. Sims*. The Senate, two members for each of 
+- `cal.1966-11-08.states-and-cities-memphis` (Nov. 8, LXXXIV nov66.yaml): Memphis's voters approve a new charter: a mayor and a council of 13, six elected at large and seven by distric
+- `cal.1966-11-08.legislatures-us` (Nov. 8, LXXXIV nov66.yaml): The State legislatures. Republicans gain some 420 lower-house seats and 160 senate seats; Democrats lose some 
+- `cal.1966-11-08.governors-fl` (Nov. 8, LXXXIV nov66.yaml): Florida. Kirk (R) over Mayor High of Miami (D), 821,190 to 668,233, 55.1 percent; the first Republican governo
+- `cal.1966-11-08.governors-me` (Nov. 8, LXXXIV nov66.yaml): Maine. Curtis (D) over Reed (R), the governor, 172,036 to 151,802, 53.1 percent.
 - `cal.1966-12.civil-rights-organizations` (Dec., LXXXV dec66.yaml): SNCC's staff meets at Peg Leg Bates's resort, Kerhonkson, N.Y. A vote to exclude whites from membership carrie
-- `cal.1966-12-04.opinion` (Dec. 4, LXXXV dec66.yaml): Gallup, Nov. 10–15: Johnson's handling of Vietnam: approve 43 percent, disapprove 40. The Johnson Administrati
-- `cal.1966-12-07.opinion` (Dec. 7, LXXXV dec66.yaml): Gallup, Nov. 10–15, women: a basket of food costing $10 today to cost $12 in a year, $15 in five (medians). Mo
-- `cal.1966-12-11.opinion` (Dec. 11, LXXXV dec66.yaml): Gallup, Nov. 10–15, a plan: the United States to train the 1 to 1½ million South Vietnamese in the army or of 
+- `cal.1966-12-09.poverty-nyc` (Dec. 9, LXXXV dec66.yaml): Brooklyn, P.S. 305. Robert Kennedy, with Lindsay and Javits, announces a program for Bedford-Stuyvesant: commu
+- `cal.1966-12-09.elections-1968-us` (Dec. 9–10, LXXXV dec66.yaml): Republican governors and governors-elect at the Broadmoor, Colorado Springs. Love chairman of their associatio
 - `cal.1966-12-16.assassination` (Dec. 16, LXXXV dec66.yaml): Jacqueline Kennedy sues William Manchester, Harper & Row and *Look* in the New York courts to stop publication
-- `cal.1966-12-18.opinion` (Dec. 18, LXXXV dec66.yaml): Gallup, Oct. 21–26: after a peace and the withdrawal of American troops, a South Vietnamese government strong 
-- `cal.1966-12-21.opinion` (Dec. 21, LXXXV dec66.yaml): Gallup, Dec. 8–13: in politics, Republican 29 percent, Democrat 44, independent 27.
+- `cal.1966-12-16.state-and-city-finance-us` (Dec. 16–17, LXXXV dec66.yaml): National Governors' Conference, special interim meeting at White Sulphur Springs, W. Va., the first between an
+- `cal.1966-12.health-us` (Dec., LXXXV dec66.yaml): Medicaid at the year's end: 29 States have begun programs. A State without one by 1970 to lose federal matchin
 - `cal.1967-01-02.states-and-cities` (Jan. 2, LXXXVI jan67.yaml): Sacramento. Reagan sworn as governor of California in the Capitol just after midnight, Finch as lieutenant gov
-- `cal.1967-01-03.assassination` (Jan. 3, LXXXVI jan67.yaml): Ruby dies at Parkland Hospital, Dallas, of a pulmonary embolism; cancer found in December. The Texas Court of 
 - `cal.1968-03-12.elections-1968` (Mar. 12, LXXXVII mar68.yaml): New Hampshire primary. Republican: Nixon 77.6 percent, Rockefeller (write-in) 10.8. Democratic: Johnson (write
 - `cal.1968-04-02.elections-1968` (Apr. 2, LXXXVIII apr68.yaml): Wisconsin primary. Republican: Nixon 79.7 percent, Reagan 10.4. Democratic: McCarthy 56.2 percent, Johnson 34.
 - `cal.1968-04-23.elections-1968` (Apr. 23, LXXXVIII apr68.yaml): Pennsylvania primary. Republican: Nixon (write-in) 59.7 percent, Rockefeller (write-in) 18.4. Democratic: McCa
@@ -2069,7 +2276,85 @@ the order, the APP document, the FRUS document, the case.
 
 ### Named, not linked
 
-- `cal.1966-09-21.transition-and-staff` (Sept. 21, LXXXII sep66.yaml): News conference. Ball, Under Secretary of State, has resigned, by letter of Sept. 17; Katzenbach to leave the  — names "APP"
+- `cal.1960-01-09.governors-la` (Jan. 9, II jan60.yaml): Louisiana's Democratic runoff for governor: Davis, governor 1944–48, 54.1 percent; Morrison, mayor of New Orle — names "Election Returns"
+- `cal.1960-03-08.elections-1960` (Mar. 8, IV mar60.yaml): New Hampshire primary. Republican: Nixon 89.3 percent, others 4.0. Democratic: Kennedy 85.2 percent, others 14 — names "Manual"
+- `cal.1960-04-19.governors-la` (Apr. 19, V apr60.yaml): Louisiana, general election for governor: Davis (D) over Grevemberg (R), a former superintendent of State poli — names "Election Returns"
+- `cal.1960-04-26.elections-1960` (Apr. 26, V apr60.yaml): Primaries in Massachusetts and Pennsylvania. Republican: Nixon (write-in) in Massachusetts; Nixon in Pennsylva — names "Election Statistics"
+- `cal.1960-04-26.specials` (Apr. 26, V apr60.yaml): Pennsylvania 17th, special. Herman T. Schneebeli (R) holds the seat, 52.5 to 47.5. — names "Manual"
+- `cal.1960-04-26.specials-2` (Apr. 26, V apr60.yaml): Pennsylvania 18th, special. Douglas Elliott (R) holds the seat, 61.2 to 38.8. — names "Manual"
+- `cal.1960-05-10.governors-nm` (May 10, VI may60.yaml): New Mexico's primary, for governor. Democratic: Governor Burroughs 66,541, 53.8 percent; Bursey 48,841, 39.5.  — names "Election Returns"
+- `cal.1960-05-12.students` (May 12–14, VI may60.yaml): Un-American Activities subcommittee hearings at San Francisco City Hall, Willis presiding. Students, most from — names "Hearings"
+- `cal.1960-05-23.soviet-union` (May 23–26, VI may60.yaml): Security Council on the Soviet complaint against the flights, Gromyko for the Soviet Union. Lodge shows the ca — names "Official Record"
+- `cal.1960-05-24.elections-1960` (May 24, VI may60.yaml): Florida primary. Republican: Nixon, unopposed. Democratic: Smathers, unopposed. — names "Tabulation of Official Vote"
+- `cal.1960-08-02.governors-ks` (Aug. 2, IX aug60.yaml): Kansas, governor. Republican primary: Anderson, the attorney general, 48.7 percent, Boyd 44.4, one other 6.9.  — names "Election Statistics"
+- `cal.1960-09-13.governors-wa` (Sept. 13, X sep60.yaml): Washington's blanket primary, for governor: Andrews (R), the lieutenant governor, 263,897, 37.4 percent; Gover — names "Official Abstract"
+- `cal.1960-09-13.governors-ut` (Sept. 13, X sep60.yaml): Utah's primary, for governor. Republican: Governor Clyde 50,592, 57.8 percent, over Gunderson, 37,002. Democra — names "Abstract of the Returns"
+- `cal.1960-11-08.state-constitutions-mi` (Nov. 8, XII nov60.yaml): Michigan. Proposal 3, an amendment changing the way a constitutional convention is called, adopted, 1,312,215  — names "Manual"
+- `cal.1960-11-08.governors-nm` (Nov. 8, XII nov60.yaml): New Mexico. Mechem (R) governor over Burroughs (D), 153,765 to 151,777, by 1,988 votes; Bolack (R) lieutenant  — names "Canvass"
+- `cal.1960-11-08.governors-ks` (Nov. 8, XII nov60.yaml): Kansas. Anderson (R) over Governor Docking (D), 511,534 to 402,261, 55.4 percent. — names "Election Statistics"
+- `cal.1960-12-28.elections-1960` (Dec. 28–30, XIII dec60.yaml): Hawaii's recount, ordered by Judge Jamieson, ends: Kennedy by 115 votes, where the first count gave Nixon 141. — names "Result of Votes"
+- `cal.1961-08-21.states-and-cities-nyc` (Aug. 21, XXI aug.yaml): Special session at Albany, N.Y., called by Rockefeller: six hours, a law to reform New York City's schools. Th — names "Laws of "
+- `cal.1961-11-09.legislatures-ny` (Nov. 9–10, XXIV nov.yaml): Special session at Albany, N.Y., called by Rockefeller. New congressional districts on the 1960 census, the St — names "Laws of "
+- `cal.1962-05-15.governors-pa` (May 15, XXX may62.yaml): Pennsylvania primaries for governor. Republican: Scranton, U.S. Representative from the 10th District, 78.1 pe — names "Manual"
+- `cal.1962-05.governors-nm` (May, XXX may62.yaml): New Mexico's primary. Democratic, for governor: Campbell, a State representative, 47,873, 38.7 percent; Mead 4 — names "Election Returns"
+- `cal.1962-08-02.governors-tn` (Aug. 2, XXXIII aug62.yaml): Tennessee, Democratic primary for governor: Clement, governor 1953–59, 309,333, 42.5 percent; Olgiati, mayor o — names "Blue Book"
+- `cal.1962-08-07.governors-ks` (Aug. 7, XXXIII aug62.yaml): Kansas, governor. Democratic primary: Saffels 59.7 percent, one other 40.3. Republican: Governor Anderson 84.1 — names "Election Statistics"
+- `cal.1962-08.governors-wy` (Aug., XXXIII aug62.yaml): Wyoming's primary, for governor. Democratic: Governor Gage, the secretary of state who succeeded Hickey on his — names "Election Returns"
+- `cal.1962-09-11.governors-wi` (Sept. 11, XXXIV sep62.yaml): Wisconsin, governor. Republican primary: Kuehn 53.9 percent, Renk 42.9, one other 3.2. Reynolds, the attorney  — names "Blue Book"
+- `cal.1962-11-06.governors-wy` (Nov. 6, XXXVI nov62.yaml): Wyoming. Hansen (R) governor over Gage (D), 64,970 to 54,298, 54.5 percent. — names "Election Returns"
+- `cal.1962-11-06.governors-nm` (Nov. 6, XXXVI nov62.yaml): New Mexico. Campbell (D) governor over Mechem (R), 130,933 to 116,174, 53.0 percent. — names "Canvass"
+- `cal.1962-11-06.governors-pa` (Nov. 6, XXXVI nov62.yaml): Pennsylvania. Scranton (R) governor over Dilworth (D), 2,424,918 to 1,938,627, 55.4 percent; 62 of the 67 coun — names "Manual"
+- `cal.1963-02-06.economy` (Feb. 6, XXXIX feb63.yaml): Ways and Means opens hearings on the tax message, Dillon first. They run to Mar. 27. — names "Hearings"
+- `cal.1963-03-12.state-and-city-finance-in` (Mar. 12, XL mar63.yaml): Indiana. Welsh calls the General Assembly into special session on his "2-2-2" plan: the State's first sales ta — names "Laws of "
+- `cal.1963-04-01.state-constitutions-mi` (Apr. 1, XLI apr63.yaml): Michigan's new constitution ratified, 810,860 to 803,436, 50.2 percent. In force Jan. 1, 1964: the Civil Right — names "Canvass"
+- `cal.1963-07-01.legislatures-il` (July 1, XLIV jul63.yaml): Illinois. Kerner vetoes the Republican legislature's map of the House's districts, "unfair." Under the amendme — names "Blue Book"
+- `cal.1963-07-30.specials` (July 30, XLIV jul63.yaml): Pennsylvania 15th, special. Fred B. Rooney (D) holds the seat of Francis E. Walter (D), who died May 31; 53.5  — names "Manual"
+- `cal.1963-08-06.mississippi-ms` (Aug. 6, XLV aug63.yaml): Mississippi's Democratic primary for governor: Lieutenant Governor Paul Johnson 38.5 percent, former Governor  — names "Official and Statistical"
+- `cal.1963-08-27.mississippi-ms` (Aug. 27, XLV aug63.yaml): Mississippi's Democratic runoff for governor: Paul Johnson 261,493, Coleman 194,958; 57.3 percent. Johnson ran — names "Official and Statistical"
+- `cal.1963-11-05.mississippi-ms` (Nov. 5, XLVIII nov63.yaml): Mississippi. Paul Johnson (D) elected governor over Rubel Phillips (R), 225,456 to 138,515, 61.9 percent. The  — names "Official and Statistical"
+- `cal.1963-12-07.governors-la` (Dec. 7, XLIX dec63.yaml): Louisiana's Democratic primary for governor. Morrison, lately Ambassador to the OAS, 33.1 percent; McKeithen,  — names "Election Returns"
+- `cal.1963-12.states-and-cities-us` (Dec., XLIX dec63.yaml): The year's applications to Congress for the Council of State Governments' amendments. Apportionment: twelve le — names "Cong. Rec."
+- `cal.1964-03-03.governors-la` (Mar. 3, LII mar64.yaml): Louisiana, general election for governor: McKeithen (D) over Lyons (R), a Shreveport oilman, 60.7 percent to 3 — names "Election Returns"
+- `cal.1964-03-10.elections-1964` (Mar. 10, LII mar64.yaml): New Hampshire primary. Republican: Lodge (write-in) 35.5 percent, Goldwater 22.3. Democratic: Johnson (write-i — names "Manual"
+- `cal.1964-04-28.elections-1964` (Apr. 28, LIII apr64.yaml): Primaries in Massachusetts and Pennsylvania. Republican: Lodge (write-in) in Massachusetts; Scranton (write-in — names "Election Statistics"
+- `cal.1964-04-28.specials` (Apr. 28, LIII apr64.yaml): Pennsylvania 5th, special. William J. Green III (D), 25, holds his father's seat, 58.6 to 41.4 over the Republ — names "Manual"
+- `cal.1964-08-04.governors-ks` (Aug. 4, LVII aug64.yaml): Kansas, governor; Governor Anderson not running. Republican primary: U.S. Representative Avery 30.4 percent, B — names "Election Statistics"
+- `cal.1964-09-08.governors-wi` (Sept. 8, LVIII sep64.yaml): Wisconsin, governor. Democratic primary: Governor Reynolds 70.3 percent, Frinzi 29.7. Republican: Knowles, a f — names "Blue Book"
+- `cal.1964-09-15.governors-wa` (Sept. 15, LVIII sep64.yaml): Washington's blanket primary, for governor: Evans (R), a State representative, 323,152, 39.1 percent; Governor — names "Official Abstract"
+- `cal.1964-11-03.legislatures-ny` (Nov. 3, LX nov64.yaml): New York. Democrats take both houses of the legislature, the first time since 1935 (Check): the Senate 33 to 2 — names "Legislative Manual"
+- `cal.1964-11-03.legislatures-il` (Nov. 3, LX nov64.yaml): Illinois. The House elected at large on the orange "bedsheet" ballot, 33 inches long: 236 candidates for 177 s — names "Blue Book"
+- `cal.1964-11-03.state-constitutions-mi` (Nov. 3, LX nov64.yaml): Michigan. Proposal C, a referendum on the legislature's law against straight-ticket voting, the law rejected,  — names "Manual"
+- `cal.1964-11-03.governors-wa` (Nov. 3, LX nov64.yaml): Washington. Evans (R) governor over Rosellini (D), 697,256 to 548,692, 55.8 percent, as Johnson carries the St — names "Abstract of Votes"
+- `cal.1964-11-03.governors-wi` (Nov. 3, LX nov64.yaml): Wisconsin. Knowles (R) over Governor Reynolds (D), 856,779 to 837,901, 50.6 percent. — names "Blue Book"
+- `cal.1964-12-15.legislatures-ny` (Dec. 15–30, LXI dec64.yaml): New York. The Republican legislature, in a special session called by Rockefeller before the Democrats take ove — names "Laws of "
+- `cal.1965-01-21.states-and-cities-ok` (Jan. 21, LXII jan65.yaml): Oklahoma City. State Representative G. T. Blankenship reads to the House a summary of the sworn statement of N — names "House Journal"
+- `cal.1965-06.crime-and-hijacking-ny` (June, LXVII jun65.yaml): New York. Rockefeller signs the bill ending the death penalty but for the murder of a peace officer on duty an — names "Laws of "
+- `cal.1965-07-13.transportation` (July 13, LXVIII jul65.yaml): Ribicoff's Subcommittee on Executive Reorganization, on the federal role in traffic safety: Donner, chairman,  — names "Hearings"
+- `cal.1965-08-01.state-and-city-finance-ny` (Aug. 1, LXIX aug65.yaml): New York's first general State sales tax, 2 percent, in force, enacted in the spring at Rockefeller's request. — names "Laws of "
+- `cal.1965-10-01.states-and-cities-jacksonville` (Oct. 1, LXXI oct65.yaml): Jacksonville. The Local Government Study Commission of Duval County, created by the 1965 legislature, establis — names "Laws of "
+- `cal.1965-10-02.specials` (Oct. 2, LXXI oct65.yaml): Louisiana 7th, special. Edwards (D), a State senator, holds T. Ashton Thompson's seat, unopposed; Thompson kil — names "Election Returns"
+- `cal.1965-11-02.legislatures-ny` (Nov. 2, LXXII nov65.yaml): New York. The legislature elected again, under the plan of December 1964, for one year, the only legislative e — names "Legislative Manual"
+- `cal.1965-11-02.state-constitutions-ny` (Nov. 2, LXXII nov65.yaml): New York's voters call a constitutional convention for 1967, and approve a bond issue of $1 billion for sewage — names "Legislative Manual"
+- `cal.1966-01-15.state-and-city-finance-va` (Jan. 15–Mar., LXXIV jan66.yaml): Virginia. Godwin inaugurated governor, Jan. 15. The General Assembly enacts the Virginia Retail Sales and Use  — names "Acts of "
+- `cal.1966-02-08.specials` (Feb. 8, LXXV feb66.yaml): New York 17th, special. Kupferman (R), of the City Council, holds Lindsay's seat: 44,125; Orin Lehman (D) 43,2 — names "Legislative Manual"
+- `cal.1966-03-08.india-and-china` (Mar. 8–30, LXXVI mar66.yaml): The Senate Foreign Relations Committee, Fulbright presiding, hears scholars on policy toward mainland China. M — names "Hearings"
+- `cal.1966-04-27.women-ny` (Apr. 27, LXXVII apr66.yaml): New York. Rockefeller signs the Divorce Reform Law, the first change in the grounds since adultery alone was m — names "Laws of "
+- `cal.1966-04.health-ny` (Apr., LXXVII apr66.yaml): New York's Medicaid law, under Title XIX of the Social Security Amendments of 1965: medical care for those on  — names "Laws of "
+- `cal.1966-05-03.governors-nm` (May 3, LXXVIII may66.yaml): New Mexico's primary, for governor. Democratic: Lusk, once a State senator, 85,211, 59.9 percent, over Burroug — names "Election Returns"
+- `cal.1966-05-17.governors-pa` (May 17, LXXVIII may66.yaml): Pennsylvania primaries for governor. Democratic: Shapp, an electronics manufacturer spending his own money, 48 — names "Manual"
+- `cal.1966-05-24.elections-1966` (May 24, LXXVIII may66.yaml): Oregon's primary, for Maurine Neuberger's Senate seat. Democratic: U.S. Representative Robert Duncan, for the  — names "Official Abstract"
+- `cal.1966-08-02.elections-1966` (Aug. 2, LXXXI aug66.yaml): Michigan, Democratic Senate primary: Williams, governor 1949–61, lately Assistant Secretary of State for Afric — names "Manual"
+- `cal.1966-08-02.governors-ks` (Aug. 2, LXXXI aug66.yaml): Kansas, governor. Democratic primary: Robert Docking, the late governor's son, 85.5 percent, one other 14.5. R — names "Election Statistics"
+- `cal.1966-08-04.governors-tn` (Aug. 4, LXXXI aug66.yaml): Tennessee, Democratic primary for governor: Ellington, governor 1959–63, 413,950, 53.5 percent; John Jay Hooke — names "Blue Book"
+- `cal.1966-08-16.students` (Aug. 16–19, LXXXI aug66.yaml): House Un-American Activities Committee, hearings on Pool's bill, H.R. 12047, and others: aid to an enemy in an — names "Hearings"
+- `cal.1966-08.governors-wy` (Aug., LXXXI aug66.yaml): Wyoming's primary, for governor, Hansen running for the Senate. Republican: Hathaway 26,110, 55.2 percent; Joe — names "Election Returns"
+- `cal.1966-09-13.governors-wi` (Sept. 13, LXXXII sep66.yaml): Wisconsin, governor. Democratic primary: Lucey 45.2 percent, Carley 33.8, Frinzi 15.6, one other 5.4. Governor — names "Blue Book"
+- `cal.1966-11-08.governors-ny` (Nov. 8, LXXXIV nov66.yaml): New York. Rockefeller (R) elected to a third term, 2,690,626, 44.6 percent; O'Connor (D) 2,298,363, 38.1; Adam — names "Legislative Manual"
+- `cal.1966-11-08.state-constitutions-mi` (Nov. 8, LXXXIV nov66.yaml): Michigan. Proposal 1, an amendment lowering the voting age from 21 to 18, rejected, 703,076 to 1,267,872, 35.7 — names "Manual"
+- `cal.1966-11-08.governors-nm` (Nov. 8, LXXXIV nov66.yaml): New Mexico. Cargo (R) governor over Lusk (D), 134,625 to 125,587, 51.7 percent. — names "Canvass"
+- `cal.1966-11-08.governors-pa` (Nov. 8, LXXXIV nov66.yaml): Pennsylvania. Shafer (R) governor over Shapp (D), 2,110,349 to 1,868,719, 52.1 percent. — names "Manual"
+- `cal.1966-11-08.governors-ks` (Nov. 8, LXXXIV nov66.yaml): Kansas. Robert Docking (D) over Governor Avery (R), 380,030 to 304,325, 54.8 percent. Docking ran against Aver — names "Election Statistics"
+- `cal.1966-12.court-us` (Dec., LXXXV dec66.yaml): Dirksen's drive for a convention on apportionment, at the year's end: applications from 28 legislatures since  — names "Cong. Rec."
 
 ## Threads
 
@@ -2077,11 +2362,12 @@ The brief: what the thread is, and its stations, in one or two clipped sentences
 
 | Thread | Statement |
 |---|---|
-| Africa | Africa apart from the Congo. Sharpeville and the Security Council; the colonial declaration at the UN. |
+| Africa | Africa apart from the Congo. Sharpeville and the Security Council; the colonial declaration; Williams's "Africa for the Africans"; Angola at the UN; Mohamed V dies; Nkrumah and the Volta dam; Bizerte; the Moroccan bases; Algeria independent, Ben Bella at the White House and in Havana; the General Assembly's sanctions on South Africa. |
 | Alabama | Alabama, 1960–65: the students, the Freedom Rides, Wallace, Birmingham, the schools, Selma. The Montgomery students; King acquitted; Meriwether confirmed; Anniston and the Birmingham terminal; Montgomery, the marshals, the church besieged; the riders on to Jackson; Wallace nominated. |
-| Assassination | Kennedy killed at Dallas, and the inquiry. Nov. 22; Oswald killed; the funeral; the Warren Commission; the first witness; Ruby convicted; the Report; the hearings published. |
+| Antisubversion | The States' committees, laws and oaths against subversion. Mississippi's Sovereignty Commission and the Citizens' Council; the Burns committee's report; Proposition 24 refused. |
+| Assassination | Kennedy killed at Dallas, and the inquiry. Nov. 22; Oswald killed; the funeral; the Warren Commission; the first witness; Ruby convicted; the Report; the hearings published; the Manchester suit; Ruby's death. |
 | Berlin and Vienna | The second Berlin crisis, from Khrushchev's demands to the wall and after. Adenauer at the White House; the East German permits; Vienna; the July buildup; Aug. 13; Clay in Berlin; Checkpoint Charlie; Powers for Abel; Fechter. |
-| Black nationalism | Malcolm X and the Nation of Islam. The "chickens" remark and the suspension; the break; "The Ballot or the Bullet"; the Organization of Afro-American Unity; the assassination. |
+| Black nationalism | Malcolm X and the Nation of Islam, and Black Power. The "chickens" remark and the suspension; the break; "The Ballot or the Bullet"; the Organization of Afro-American Unity; the assassination; CORE's "black power"; the Black Panther Party. |
 | Bobby Baker | The Senate majority's secretary and the Rules Committee's inquiry. Resignation, Oct. 7; Reynolds before the committee's staff; Johnson's statement; the Williams resolution tabled; the Select Committee on Standards and Conduct; the inquiry reopened. |
 | Cities and housing | Housing, the cities, and urban transit. The Housing Act of 1961; the Urban Affairs department refused, by Rules and by the House; Weaver. |
 | Civil rights bill | The civil rights bill from Kennedy's address to the Act and its first year. The Senators' pledge of 1960. |
@@ -2090,7 +2376,7 @@ The brief: what the thread is, and its stations, in one or two clipped sentences
 | Confirmations | Nominations the Senate divided on by roll call. Meriwether; Holmes; the Power Commission; Robinson; McCone; McCloskey; Marshall to the Second Circuit. |
 | Congo | The Congo's civil war and the UN's war in Katanga. Independence; Katanga's secession and the UN force; Lumumba in Washington; the plot against him; his dismissal, Mobutu, his capture; his death; Rumpunch; Hammarskjöld's death; U Thant; Kitona; Elisabethville. |
 | Congress | Congress as an institution: its leaders and sessions. The 86th's second session and its August return; Kennedy's seat resigned; Rayburn's death; McCormack Speaker; the second session's end, Oct. 13, 1962. |
-| Conservation | Public lands, wilderness, and pollution. The water-pollution veto. |
+| Conservation | Public lands, wilderness, and pollution. The water-pollution veto; the natural resources message; Cape Cod; the wilderness bill through the Senate; the Delaware compact; the conservation message and the Bureau of Outdoor Recreation; the White House conference; the western dams; *Silent Spring*; Point Reyes and Padre Island. |
 | Court | The Supreme Court's October 1959 to October 1965 Terms, its new Justices, and Congress's answers. *Raines*; *Elkins*; *Gomillion*; *Boynton*; *Mapp*; *Baker v. Carr*, argued, reargued, decided; *Engel v. Vitale*; White and Goldberg for Whittaker and Frankfurter. |
 | Crime and hijacking | Robert Kennedy's crime bills, the first hijackings to Cuba, and Johnson's crime program. Three hijackings, May–Aug. 1961; aircraft piracy a federal crime; the Wire and Travel Acts. |
 | Cuba | Cuba short of the missile crisis, and after. Mikoyan in Havana; the covert program; the sugar quota and the nationalizations; the embargo; the break; the Bay of Pigs and its inquiry; Mongoose; Punta del Este; Northwoods; the prisoners' ransom; the Orange Bowl. |
@@ -2099,32 +2385,40 @@ The brief: what the thread is, and its stations, in one or two clipped sentences
 | Desegregation: schools | Schools and universities opened under federal court orders, each event in its own thread. New Orleans; Georgia; Atlanta; Meredith at Oxford. Gallup on school integration. |
 | Economy | The recession of 1960–61, the recovery, and the tax cut. The peak; the London gold price; the balance-of-payments directive; the task force; the trough; the Fed's long rates; the gap; the debt limit; the 1962 Report; the May slide; depreciation; the investment credit; the Economic Club. |
 | Elections of 1960 | The 1960 election, from the announcements to the count. The primaries, Mar. 8 to June 7 (CQ's returns); Wisconsin and West Virginia; Los Angeles and Chicago; the Treaty of Fifth Avenue; Houston; the four debates; King's arrest; Nov. 8; Hawaii's recount; the electors; the count, Jan. 6. |
+| Elections of 1961 | The off-year elections of 1961. Governors: Hughes in New Jersey, Harrison in Virginia. Mayors: Yorty over Poulson; Wagner against Tammany, then re-elected; Allen over Maddox in Atlanta; Cavanagh over Miriani in Detroit; Cowger in Louisville. |
 | Elections of 1962 | The primaries and midterms of 1962. Connally and Wallace; Nixon in California; Edward Kennedy against McCormack; Nov. 6; Nixon's last press conference. |
+| Elections of 1963 | The off-year elections of 1963. Mayors: Boutwell over Connor in Birmingham; Daley over Adamowski; McKeldin in Baltimore; Tate, Shelley, Collins. Governors: Breathitt in Kentucky; Paul Johnson in Mississippi, beside the Freedom Vote; McKeithen in Louisiana. |
 | Elections of 1964 | The elections of 1964, from the race for the nominations to the result. The Goldwater draft, its Chicago meetings. |
 | Elections of 1964: polls | Gallup on 1964, the Republicans' choice and Kennedy against each. Nixon first; Rockefeller over Goldwater; Kennedy 65, Nixon 35; Rockefeller ahead, Nov. 1962. |
-| Elections of 1966 | The primaries and midterms of 1966. Reagan; Maddox; Brooke; Nov. 8. |
-| Elections of 1968 | The 1968 nominations: the primaries, Mar. 12 to June 11 (CQ's returns), and the conventions, Miami Beach, Aug. 5, and Chicago, Aug. 26. The rest of the year not yet written. |
+| Elections of 1965 | The off-year elections of 1965. Lindsay over Beame and Buckley in New York; Hughes re-elected and Godwin elected governors; Yorty, Cavanagh and Barr re-elected; Locher over Stokes; Cervantes in St. Louis; Bond to the Georgia House. |
+| Elections of 1966 | The primaries and midterms of 1966. Lurleen Wallace; Reagan; the Virginia, Tennessee and Michigan primaries; Maddox; Brooke; Nov. 8; the Georgia governorship to the legislature. |
+| Elections of 1968 | The 1968 nominations: Gallup's trial heats and the parties' choices from 1966; the primaries, Mar. 12 to June 11 (CQ's returns), and the conventions, Miami Beach, Aug. 5, and Chicago, Aug. 26. The rest of the year not yet written. |
 | Elections of 1972 | The 1972 nominations: the primaries, Mar. 7 to June 6 (CQ's returns), and the conventions, both at Miami Beach, July 10 and Aug. 21. The rest of the year not yet written. |
 | Elections of 1976 | The 1976 nominations: the primaries, Feb. 24 to June 8 (CQ's returns), and the conventions, New York, July 12, and Kansas City, Aug. 16. The rest of the year not yet written. |
-| Europe and the alliance | Britain, Europe, and the alliance's nuclear arms. Macmillan at Camp David; de Gaulle's visit; the OECD; Herter's NATO force; Bermuda; the Declaration of Interdependence; Skybolt cancelled; Nassau. |
+| Europe and the alliance | Britain, Germany, France, Turkey, and the alliance's nuclear arms. Macmillan at Camp David; de Gaulle's visit; Herter's NATO force; the Turkish coup; Cyprus independent; the Acheson directive; the Ottawa pledge; the Jupiters kept; Menderes hanged; Bermuda; Athens; Makarios at the White House; the Declaration of Interdependence; the Jupiters to go; Skybolt cancelled; Nassau. |
+| European Community | The Six and the Seven, and Britain's first application. The OEEC remade; the EFTA in force and the Six speeded; Macmillan applies; Heath at Paris; Hallstein at the White House; the farm policy; carpets and glass; the Fouchet plan fails; the Grand Design; Brighton. |
 | Farm | Price supports and production controls. Eisenhower's wheat message; the emergency feed grain program; the farm bill's defeat and the 1962 act. |
 | Foreign aid | The aid program remade, and cut. The Mutual Security Act of 1960; the March message; AID created, long-term borrowing denied; the 1962 act and the Hickenlooper amendment. |
 | Freedom Rides | CORE's rides to test *Boynton*, May 1961, and the ICC order that came of them. Anniston; Montgomery; Jackson and Parchman; the petition; the order, in force Nov. 1. |
 | Georgia | Georgia, 1960–66: the university, Albany, the county unit, Penn's murder. King at Rich's and Reidsville; Holmes and Hunter admitted at Athens; Robert Kennedy's Law Day there; Atlanta's high schools; the station test at Albany; the Albany Movement; King jailed, December and July; Elliott's injunction; King leaves Albany. |
 | Goldwater | Barry M. Goldwater. The Republican right, Chicago, Atlanta and the Garden; the draft, its Chicago meetings of 1961 and 1962. |
+| Governors | The races for governor, primaries and generals, and the governors' acts beside them. Davis over Morrison; Sanford over Lake; Kerner, Volpe, Andersen; Wallace's primary and runoff; Connally over Don Yarborough; Brown over Nixon; Romney, Scranton, Rhodes; Bellmon, Oklahoma's first Republican; Hoff and King in New England; Minnesota to a recount. |
 | Health | Health policy other than Medicare: drugs, mental health, the health professions. Thalidomide and Kelsey; the Drug Amendments. |
-| Immigration | The national-origins quotas and their repeal. The 1960 message; the refugee resolution. |
+| Immigration | The national-origins quotas and their repeal. The 1960 message; the refugee resolution; the Cuban refugee program; the 1961 amendments; the braceros extended; the Hong Kong parole; the refugee assistance act; the waiting lists cleared. |
 | India and China | India's wars, American arms for India, and South Asia and Indonesia. Goa; the Chinese attack of October 1962; Nehru's request; Harriman's mission. |
-| Japan and Korea | The alliances with Japan and South Korea. The security treaty signed; Rhee's fall; the Diet's vote and the riots; Hagerty mobbed and the visit cancelled; the Senate's consent; Kishi out, Ikeda in; Chang Myon's government. |
+| Japan and Korea | The alliances with Japan and South Korea. The security treaty signed; Rhee's fall; the Diet's vote and the riots; Hagerty mobbed and the visit cancelled; the Senate's consent; Kishi out, Ikeda in; Chang Myon's government; Reischauer to Tokyo; Park's coup; Ikeda in Washington; the Ryukyus task force; Hakone; Park in Washington; the Ryukyus order. |
 | Jobs and wages | Unemployment, depressed areas, and wages. The area redevelopment veto; the minimum wage held over; the recovery message; the minimum wage; area redevelopment; federal employees' unions; manpower training; public works acceleration. |
 | King | Martin Luther King, Jr. The President, the Attorney General, the Bureau. The perjury trial; Rich's and Reidsville; Montgomery's church besieged; Albany. |
 | Laos | The Laos crisis, from Kong Le's coup to the Geneva accords and after. The Assembly election; Kong Le; Savannakhet; the battle of Vientiane; Eisenhower's warning; the March maps; the cease-fire; the conference; Nam Tha; troops to Thailand; the coalition; the neutrality declaration. |
 | Latin America | The hemisphere's governments and the Alliance for Progress. Eisenhower in South America; Betancourt attacked; San José; the Act of Bogotá; the Alliance proposed; Trujillo killed, his family out; Punta del Este, 1961 and 1962; Goulart; coups in Argentina and Peru; Kennedy in Caracas, Bogotá, Mexico City; Bosch elected. |
+| Legislatures | The State legislatures: their elections, their control, their apportionment. Reapportionment refused at the polls in California and Oklahoma; Unruh Speaker; after *Baker v. Carr*, special sessions in Tennessee, Alabama, Georgia and Maryland, and the courts in Michigan, Oklahoma, Florida and Virginia; the commission's report; each November's count of chambers. |
 | March on Washington | The March on Washington for Jobs and Freedom, Aug. 28, 1963. |
+| Mayors | The races for mayor in the large cities, primaries and generals. Maier in Milwaukee; Yorty over Poulson; Wagner against Tammany; Allen over Maddox; Cavanagh over Miriani; Addonizio in Newark; Schiro in New Orleans; Locher after Celebrezze. |
 | Medicare | Hospital insurance for the aged through Social Security. The Forand bill set aside; Anderson–Kennedy refused; Kerr–Mills; the 1961 bill; the 1962 message; the Garden rally; the Senate's 52–48. |
+| Middle East | Iran and CENTO, the Arab East and Israel, the peninsula and the Gulf, the oil. Ben Gurion at the White House; the Tehran council; OPEC at Baghdad; Eisenhower and Nasser at the Waldorf; Dimona disclosed; Amini and the Iran task force; Kuwait independent, the British landing; Syria leaves the UAR; Saud and the Shah at the White House; Barzani's Kurds; the Hawks for Israel; Johnson at Tehran; the Yemen revolution and the Egyptian army; the Yemen republic recognized. |
 | Missile crisis | The Soviet missiles in Cuba, from the decision to the aftermath. The Presidium's plan; the summer warnings; the U-2's find; the ExComm; the quarantine; the letters; the withdrawal; the IL-28s; the Stevenson story. |
 | Mississippi | The movement in Mississippi, Meredith's admission, Evers, and Freedom Summer. The riders jailed at Jackson; McComb; Herbert Lee; the Fifth Circuit's order; Barnett's refusals; the calls; Oxford. |
-| Open housing | Open housing in the North, in Congress and in the streets. The civil rights bill of 1966 and its defeat; Chicago, its marches and its summit agreement. |
+| Open housing | Open housing in the States and cities. Pennsylvania's fair housing law; Washington's court voids its law on publicly assisted housing; Detroit's ordinance against blockbusting; Atlanta's barricades; Colorado's court upholds its law. |
 | Opinion | The public's view, by Gallup's releases. Approval (each month's table gives every reading); the race for 1964, Nixon, Rockefeller, Goldwater; integration and the Freedom Riders; the most important problem; Cuba, Berlin, testing, fallout shelters, the Court; Medicare, school aid, the tax cut; prejudice in politics. |
 | Peace Corps | The Peace Corps, from the campaign to statute. Ann Arbor; the Cow Palace; the executive order; Ghana; the act; the Ibadan postcard. |
 | Press and broadcasting | The President and the press, and broadcasting's regulators. Section 315 suspended; the live press conference; the publishers' speech; Minow's wasteland; the White House tour; the *Herald Tribune* cancelled; Sylvester's right to lie; the newspaper strike; "After Two Years." |
@@ -2136,19 +2430,21 @@ The brief: what the thread is, and its stations, in one or two clipped sentences
 | School aid | Federal aid to education, from the defeats of 1960 and 1961 to the acts of 1963 and 1965. The 1960 bill passed by both Houses and held in Rules; the 1961 message; the Rules Committee's 8–7; Calendar Wednesday refused; the college bill recommitted. |
 | Sit-ins | The student sit-ins at lunch counters, from Greensboro. Greensboro; Montgomery; Nashville; SNCC; the counters opened; Jacksonville; Rich's. |
 | South Carolina | South Carolina, 1962–65: Clemson and the schools; Thurmond's and Watson's breaks with their party. Corinne Riley to her husband's seat. |
-| Soviet Union | The Soviet Union apart from Berlin, Cuba and testing. Khrushchev's troop cut; the U-2 and the Paris summit; the RB-47; Powers tried; Khrushchev at the UN; the President-elect congratulated. |
+| Soviet Union | The Soviet Union apart from Berlin, Cuba and testing. Khrushchev's troop cut; the U-2 and the Paris summit; the RB-47; Powers tried; Khrushchev at the UN; the President-elect congratulated; the RB-47 fliers freed; the private letters; the Twenty-Second Congress; Adzhubei; space cooperation; the exchanges agreement; Dobrynin; Salinger, Udall and Frost with Khrushchev. |
 | Space | The space race and the moon program. Huntsville to NASA; Tiros; Echo; Corona; Gagarin; the Space Council; Shepard; the moon message; Grissom, Titov, Glenn, Carpenter, Schirra; Houston; Telstar; Rice Stadium; the moon first; Mariner 2. |
 | Special elections | The special elections that filled seats in the 86th, 87th, 88th and 89th Congresses. Burdick for Langer; Johnson's Senate seat to Tower; twelve House seats, three to widows. |
-| States and cities | State and city politics. The Twenty-third Amendment; Tower; Yorty; Atlanta's schools; Wagner against Tammany; Michigan's convention and Romney; the elections of 1961. |
+| State and city finance | Taxes, budgets and borrowing in the States and cities. California's water bonds; West Virginia's income tax; Sanford's food tax; Texas's first sales tax; Detroit's income tax. |
+| State constitutions and referenda | The States' constitutions: conventions, revisions and amendments; the referenda and initiatives. Alabama's amendment elections; Mississippi's right-to-work and "good moral character" amendments; Kentucky refuses a convention; Michigan's convention called, elected, adjourned; the apportionment initiatives in the West; Illinois's Judicial Article; Propositions 23 and 24. |
+| States and cities | State and city politics where no narrower thread holds them. The Twenty-third Amendment; Chessman; the Governors' Conferences; Tower; Newburgh; Atlanta's schools; New York's Conservative Party; Nashville's Metro charter; Brooke attorney general; the Council of State Governments' amendments. |
 | Steel | Steel prices and the guideposts. The 1959 strike settled; the letter of September 1961; the early settlement; the April price rise and its rescission. |
 | Students | College and university students in politics. The HUAC hearings at San Francisco; the peace pickets at the White House; Port Huron. |
-| Succession | Johnson's first weeks, and the succession amended. The oath; the joint session; the Kennedy program; the budget; the disability amendment in the Senate; the disability message; the Twenty-fifth Amendment through Congress; Johnson's surgery. |
+| Succession | Johnson's first weeks, and the succession amended. The oath; the joint session; the Kennedy program; the budget; the disability amendment in the Senate; the disability message; the Twenty-fifth Amendment through Congress; Johnson's surgery, 1965 and 1966. |
 | Testing | Nuclear testing and arms control. The threshold proposal; France's first test; the Ten-Nation Committee; the moratorium declaration; the Antarctic Treaty; the Soviet resumption; American tests underground; ACDA; the fifty megatons; atmospheric tests resumed; Geneva; Starfish Prime; Khrushchev's inspection offer. |
 | Trade | Trade, from the Trade Expansion Act to the wheat sale. The OECD convention; the House and Senate votes; Herter named. |
 | Transition and staff | The administration's people and organization. The first appointments; Key Biscayne; the cabinet named; the NSC remade; the back injury; Taylor at the White House; McCone for Dulles; the Thanksgiving reshuffle; Joseph Kennedy's stroke; Hoover's lunch; Taylor to the Joint Chiefs. |
-| Transportation | Transportation and its safety. The department proposed and created; the auto and highway safety acts. |
+| Transportation | Transportation and its safety. The message on freight rates, user charges and mass transit; New York: the Lower Manhattan Expressway set aside. |
 | Vietnam | The deepening commitment in Vietnam. Tây Ninh; the Caravelle petition; the Party's Third Congress; Durbrow's démarche; the paratroop coup; the National Liberation Front; the counterinsurgency plan; Johnson's trip; NSAM 52; Staley; Taylor–Rostow; NSAM 111; helicopters and the first dead; MACV; strategic hamlets; Galbraith's dissent; McNamara's visits; Mansfield's report; Ấp Bắc. |
 | Voting rights | Voting rights in Congress and the field. The referee plan, the filibuster, cloture refused, the Civil Rights Act of 1960; *Raines*; *Gomillion*; the poll tax amendment through Congress; the Voter Education Project; the literacy-test filibuster. |
-| War on poverty | The war on poverty, from the State of the Union of Jan. 8, 1964: Shriver's task force; the poverty message; the Economic Opportunity Act; the Office of Economic Opportunity; the 1965 letter; Head Start; the Economic Opportunity Amendments. |
+| War on poverty | The war on poverty, from the State of the Union of Jan. 8, 1964: Shriver's task force; the poverty message; the Economic Opportunity Act; the Office of Economic Opportunity; the 1965 letter; Head Start; the Economic Opportunity Amendments; the 1966 amendments. |
 | Welfare | Public assistance and Social Security. Kerr–Mills; aid to children of the unemployed; the Social Security Amendments of 1961; the Public Welfare Amendments of 1962. |
 | Women | The status of women in law and policy. The President's Commission. |
