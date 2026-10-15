@@ -364,6 +364,32 @@ def source_note(series, path):
 
 # ---------------------------------------------------------------- the compiled reader
 
+def names_line(text):
+    """A note's 'Names:' line parted: (where its names begin, the names, what follows them: the closing stop, or a
+    sentence after the line, 'Check: the hotel.'), or None."""
+    m = re.search(r"Names: (.*)$", text, re.S)
+    if not m:
+        return None
+    body = m.group(1)
+    cut = re.search(r"\.\s+(?=(?:Check|See|Made public|Also)\b)", body)
+    if not cut:
+        cut = re.search(r"[.\s']*$", body)
+    return m.start(1), body[:cut.start()], body[cut.start():]
+
+
+def names_tokens(body):
+    """A 'Names:' line's names, each with the list and section written after its group, if any (the old form):
+    'Heller, Tobin (K–J Adm. III.H); Dirksen' -> [('Heller', 'K–J Adm. III.H'), ('Tobin', ...), ('Dirksen', None)]."""
+    out = []
+    for g in re.split(r";\s*(?![^()]*\))", body):
+        gm = re.match(r"^([^()]*?)\s*\(([^)]*)\)\s*$", g)
+        names, ref = (gm.group(1), gm.group(2)) if gm else (g, None)
+        for tok in re.split(r",\s*|\s+and\s+", names):
+            if tok.strip():
+                out.append((tok.strip(), ref))
+    return out
+
+
 class Linker:
     """Turns the prose conventions into links for the compiled reader."""
 
@@ -514,39 +540,128 @@ class Linker:
             return named[0]
         return natural[0] if len(natural) == 1 and not named else None
 
+    def _named_index(self):
+        """{folded surname, or a name in its own order whole and by its first and last words: [(entry, name as
+        written)]} for every person entry in the series (Part III, and the subjects of Part II)."""
+        if getattr(self, "_nidx", None) is None:
+            idx = {}
+            for lst in self.series.lists.values():
+                for sec, e in lst.entries():
+                    if not e.get("s") or "group" in (e.get("tags") or []) or not self.refs.is_person(lst, sec, e):
+                        continue
+                    for one in re.split(r";\s*", plain(e["s"])):
+                        one = re.sub(r"\s*\([^)]*\)\s*$", "", one).strip()
+                        if not one:
+                            continue
+                        if "," in one:
+                            idx.setdefault(store.fold(one.split(",")[0]).strip(), []).append((e, one))
+                        else:
+                            f = store.fold(one).strip()
+                            for k in {f, f.split()[0], f.split()[-1]}:
+                                idx.setdefault(k, []).append((e, one))
+            self._nidx = idx
+        return self._nidx
+
+    def _named_hits(self, token):
+        """{name entry's address: entry} for every person the token's words can name: a name in its own order whole
+        ('Ngô Đình Diệm', 'Makarios III'), by its first or last word ('Satō', 'Diệm'); else a surname of one or more
+        words ('de Gaulle', 'Couve de Murville') with any given names and suffix before and after it agreeing."""
+        from . import namelinks
+        tok = re.sub(r"\s*\([^)]*\)", "", token).strip()
+        words = tok.split()
+        if not words:
+            return {}
+        idx = self._named_index()
+        whole = store.fold(tok).strip()
+        cands = [(e, n) for e, n in idx.get(whole, []) if "," not in n and store.fold(n).strip() == whole]
+        if not cands and len(words) > 1:             # 'Haile Selassie' for 'Haile Selassie I'; 'Chang Myon'
+            first = store.fold(words[0]).strip()
+            rest = store.fold(" ".join(words[1:])).strip()
+            cands = [(e, n) for e, n in idx.get(first, [])
+                     if ("," not in n and store.fold(n).strip().startswith(whole + " "))
+                     or ("," in n and store.fold(n.split(",")[0]).strip() == first
+                         and store.fold(n.split(",", 1)[1]).strip() == rest)]
+        if not cands:
+            if len(words) == 1:
+                cands = [(e, n) for e, n in idx.get(whole, []) if "," not in n]
+            suffix = None
+            if len(words) > 1 and re.fullmatch(r"Jr\.?|Sr\.?|II|III|IV", words[-1]):
+                suffix = store.fold(words.pop().rstrip("."))
+            for k in range(1, len(words) + 1):
+                sur = store.fold(" ".join(words[-k:])).strip()
+                gw = store.fold(" ".join(words[:-k])).split()
+                for e, n in idx.get(sur, []):
+                    if "," not in n:
+                        continue
+                    esur, eg = n.split(",", 1)
+                    if store.fold(esur).strip() != sur:
+                        continue
+                    g = store.fold(eg).strip()
+                    esuf = re.search(r"\b(jr|sr|ii|iii|iv)\s*$", g)
+                    if suffix and (esuf.group(1) if esuf else None) != suffix:
+                        continue
+                    if gw and not any(x.startswith(gw[0][:1]) and (len(gw[0].rstrip(".")) == 1 or x.startswith(gw[0])
+                                                                   or gw[0].startswith(x)) for x in g.split()[:1]):
+                        continue
+                    cands.append((e, n))
+        hits = {}
+        def rank(e):                                 # a Part III entry of the one person first
+            return (".who." not in e["id"], ";" in (e.get("s") or ""))
+        for e, n in cands:
+            u = namelinks.url(self.series, n)
+            if u and (u not in hits or rank(e) < rank(hits[u])):
+                hits[u] = e
+        return hits
+
+    def who_named(self, token, tags=(), taken=()):
+        """The person a 'Names:' token means, as (entry, name entry's address), or None: of the persons the token can
+        name (_named_hits), those the entry tags ('name:<key>'), less those another token of the line names
+        ('taken'); else the one all the fits are."""
+        hits = self._named_hits(token)
+        if not hits:
+            return None
+        tags = set(tags or ())
+        bare = not re.search(r"\b(Jr\.?|Sr\.?|II|III|IV)\s*$", token.strip())
+        for pool in ([u for u in hits if u.rsplit("#", 1)[-1] in tags],
+                     [u for u in hits if u.rsplit("#", 1)[-1] in tags and u not in taken],
+                     list(hits), [u for u in hits if u not in taken]):
+            if len(pool) == 1:
+                return hits[pool[0]], pool[0]
+            plain_ = [u for u in pool if not re.search(r"-(jr|sr|ii|iii|iv)$", u)]
+            if bare and len(pool) > 1 and len(plain_) == 1 and all(u.rsplit("#", 1)[-1] in tags for u in pool):
+                return hits[plain_[0]], plain_[0]      # a father written bare, his son by the suffix
+        return None
+
+    def names_resolved(self, tokens, tags=()):
+        """who_named for each token of a 'Names:' line, a token settled only once the line's other tokens are
+        ('Johnson' beside 'Lady Bird Johnson', both tagged, is the President)."""
+        out = [self.who_named(t, tags) for t in tokens]
+        for _ in range(2):
+            taken = {h[1] for h in out if h}
+            out = [h or self.who_named(t, tags, taken) for t, h in zip(tokens, out)]
+        return out
+
     def names_markup(self, chunk, key, internal=True, tags=None):
-        """A calendar note's 'Names: Heller, Tobin (K–J Adm. III.H)': each name marked to link to the person's name
-        entry (or, failing one and where internal, to the Part III entry in the reader). The list and section in the
-        parentheses find the person; they are not shown ('Names: Heller, Tobin'), the owner's ruling of Oct. 14, 2026."""
-        refs = self.refs
-        m = re.search(r"Names: (.*)$", chunk)
-        if not m:
+        """A calendar note's 'Names: Heller, Tobin': each name linked to the person's name entry (or, failing one and
+        where internal, to his Part III entry in the reader). The person is found by who_named: the entry's name: tags
+        and the name index (the owner's ruling of Oct. 14, 2026, that the list and section not be written). A line still
+        written the old way ('Heller, Tobin (K–J Adm. III.H)') shows without the parentheses, and its section helps
+        where the tags do not settle a name."""
+        parts = names_line(chunk)
+        if not parts:
             return chunk
-        head, body = chunk[:m.start(1)], m.group(1)
-        groups = []
-        for g in re.split(r"(;\s*)(?![^()]*\))", body):     # not at a ';' within the parentheses
-            gm = re.match(r"^([^()]+?)\s*\(([^)]*)\)(.*)$", g)
-            if not gm:
-                groups.append(g)
-                continue
-            names_part, ref_part, rest = gm.groups()
-            scanned = list(refs.scan(ref_part, key))
-            if not scanned or "," in names_part and not re.search(r"[A-Za-z]", names_part):
-                groups.append(g)
-                continue
-            lkey = scanned[0][2]
-            codes = [c for _, _, k, c in scanned if c]
-            linked = []
-            for tok in re.split(r"(,\s*)", names_part):
-                if re.match(r"^,\s*$", tok) or not tok.strip():
-                    linked.append(tok)
-                    continue
-                x = self.find_person(tok, lkey, codes, tags)
-                u = self.name_url(x, tok) if x else None
-                linked.append(f"[[§nmx:{u}|{tok}]]" if u else f"[[§nm:{x['id']}|{tok}]]" if x and internal else tok)
-            groups.append("".join(linked) + rest)
-        # the sections gone, one run of names: the groups' semicolons become commas ('Names: King, Kennedy, Wofford')
-        return head + "".join(", " if re.fullmatch(r";\s*", g) else g for g in groups)
+        head, body, tail = chunk[:parts[0]], parts[1], parts[2]
+        toks = names_tokens(body)
+        out = []
+        for (tok, ref_part), hit in zip(toks, self.names_resolved([t for t, _ in toks], tags or ())):
+            u, x = (hit[1], hit[0]) if hit else (None, None)
+            if not hit and ref_part:                 # the old form: its section as a hint
+                scanned = list(self.refs.scan(ref_part, key))
+                if scanned:
+                    x = self.find_person(tok, scanned[0][2], [c for _, _, k, c in scanned if c], tags)
+                    u = self.name_url(x, tok) if x else None
+            out.append(f"[[§nmx:{u}|{tok}]]" if u else f"[[§nm:{x['id']}|{tok}]]" if x and internal else tok)
+        return head + ", ".join(out) + tail
 
     def name_url(self, x, tok=None):
         """The name entry of the person a Part III entry names (the name of its subject line that tok's surname

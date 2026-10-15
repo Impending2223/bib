@@ -132,8 +132,28 @@ def run(series, only=None):
                     add(WARN, f"{lst.key}.thread.{t}", "thread has no entries", "thread-empty")
 
     # section references that point nowhere, and works cited under the wrong section
-    from .build import Linker
+    from .build import Linker, names_line, names_tokens
     linker = Linker(series)
+
+    # the calendar's 'Names:' lines: names alone, each settled by the entry's name: tags and the name index
+    for lst in series.lists.values():
+        if lst.kind != "calendar" or only and lst.key != only:
+            continue
+        for sec, e in lst.entries():
+            parts = names_line(plain(e.get("n") or ""))
+            if not parts:
+                continue
+            body = parts[1]
+            if "(" in body:
+                add(WARN, e["id"], "a 'Names:' line writes no list or section: the name alone", "names-section")
+            ntags = {str(t)[5:] for t in e.get("tags") or [] if str(t).startswith("name:")}
+            toks = [t for t, _ in names_tokens(body)]
+            for t, h in zip(toks, linker.names_resolved(toks, ntags)):
+                if not h and linker._named_hits(t):
+                    add(WARN, e["id"], f"'Names: {t}' fits several persons: tag the one meant (name:<key>)",
+                        "names-ambiguous")
+                elif not h:
+                    add(WARN, e["id"], f"'Names: {t}' fits no person with a name entry", "names-unknown")
     for lst in series.lists.values():
         if only and lst.key != only:
             continue

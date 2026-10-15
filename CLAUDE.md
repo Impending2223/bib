@@ -52,14 +52,17 @@ So every calendar entry has:
   - for an event done in private and documented in records nobody saw at the time (a recording, a memorandum, an FBI
     file), where and when it became public: "Made public: Drew Pearson's column, May 24, 1968." The brief's "left a
     trace, or should have left a trace": such events belong in the calendar, dated by the record.
-  - `Names: …`, the list and Part III section of every person in `c` who has a Part III entry ("Names, events"). The
-    list and section find the person and are not shown (the owner's ruling, Oct. 14, 2026): the page prints "Names: Heller,
-    Tobin", each linked to the name entry. Where a section holds two persons of a surname, write the given name
-    ("Martin Luther King"); a son or father with his suffix ("Harry F. Byrd Jr.", "Martin Luther King Sr."); where it is
-    still ambiguous, the entry's `name:` tags decide. A justice is named only where the entry quotes his opinion or is
-    about him, not for writing or joining one.
+  - `Names: …`, every person in `c` who has a name entry ("Names, events"), by surname, commas between: "Names: Heller,
+    Tobin." No list or section after the names (the owner's ruling, Oct. 14, 2026; taken out of the data Oct. 15). Each
+    name is found by its `name:` tag and the name index (`who_named` in `tools/bib/build.py`) and linked to the name
+    entry. Where the tagged persons share a surname, write the given name ("Martin Luther King", "Frank Johnson"); a son
+    or father with his suffix ("Harry F. Byrd Jr.", "Martin Luther King Sr."); a name in its own order as it stands
+    ("Ngô Đình Diệm", "Satō", "Haile Selassie"). Nothing after the names but a sentence of its own ("Check: …").
+    `check` warns on a list or section written in the line [names-section], a name no person fits [names-unknown], and
+    one several fit that the tags do not settle [names-ambiguous]. A justice is named only where the entry quotes his
+    opinion or is about him, not for writing or joining one.
 - `tags`: a hidden `name:<key>` (the name entry's anchor: `name:mcnamara-robert-s`) for every person the entry
-  names or whose act it records and who has a name entry, the President included where the entry is his message,
+  names (every name of `Names:` among them) or whose act it records and who has a name entry, the President included where the entry is his message,
   address, press conference, signature, order, proclamation, NSAM, meeting, or a poll of his approval. Tags are not
   shown; they put the entry in the person's life (Names), as do the persons of `Names:`. A namesake is not tagged
   (Edward McCormack is not the Speaker; Lucius Clay of Berlin is not his son), nor a name in a case's title.
@@ -102,7 +105,8 @@ no:  c: Gilpatric at Hot Springs, Virginia, to the Business Council. The America
 yes: c: Gilpatric to the Business Council at Hot Springs. The American second
         strike at least equal to any Soviet first strike. The missile gap reversed.
      n: '[[w.ball-politics-and-force-levels]]; [[w.kaplan-wizards-of-armageddon]]. See
-        [[cal.1961-02-06.defense]]. Names: Gilpatric (K–J Adm. III.F).'
+        [[cal.1961-02-06.defense]]. Names: Gilpatric.'
+     tags: [name:gilpatric-roswell-l]
         (shown: Ball, *Politics and Force Levels*; Kaplan, *Wizards of Armageddon*. See Feb. 6. …)
 ```
 
@@ -243,8 +247,7 @@ The thread index (Part I of the calendar) is generated from `thread` and
   corrected date updates every reference. The build adds the year when the
   date linked to falls in a different year from the entry linking to it
   ("Dec. 21–22, 1961"); don't write the year in.
-- Cross-list references stay plain prose ("(K–J Adm. II.D)", "Also Opp.",
-  "Names: Heller, Tobin (K–J Adm. III.H)"). The build links them and `check`
+- Cross-list references stay plain prose ("(K–J Adm. II.D)", "Also Opp."). The build links them and `check`
   verifies the sections exist and that a cited title is in the cited section.
 - YAML: quote a value in single quotes when it holds `: ` or ` #` or starts with
   `*`, `[`, `'` or `"`; double an apostrophe inside: `'Kennedy''s'`. This goes
@@ -656,7 +659,7 @@ hand; FRUS and APP find the person by those. A Part III entry for a group (Wise 
 "Others named in the calendar".
 
 Names link to their entries throughout (`tools/bib/namelinks.py`), muted: class `nm`, the text's own color and
-a faint underline. Linked: the calendar's "Names:" (by the Part III section given), Part III subjects, the
+a faint underline. Linked: the calendar's "Names:" (by the entry's `name:` tags and the name index), Part III subjects, the
 Congress rosters, the Executive holders, election candidates (only a race matched without "Check"; a ticket by
 its running name), special-election candidates (only a name with a roster seat in the State), FRUS senders in the
 daybook (the index of documents sent, `sources/frus-names`, where one person fits), and a work's authors where

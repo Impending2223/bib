@@ -91,39 +91,25 @@ class Pointers:
                             self.cal[k].append(e)
 
     def named(self, lst, e):
-        """Part III entries named in a calendar entry's 'Names:' line: by surname
-        ("Heller, Tobin (K–J Adm. III.H)"), or, where the line gives only sections
-        ("Names: K–J Cong. III.A, III.C"), the people of those sections whose
-        surnames appear in the entry."""
+        """The person entries a calendar entry's 'Names:' line names ("Names: Heller, Tobin"), each found by
+        Linker.who_named from the entry's name: tags and the name index; a line still written with its list and
+        section ("Heller, Tobin (K–J Adm. III.H)") takes the section as a hint where those do not settle a name."""
         n = plain(e.get("n") or "")
         m = re.search(r"Names: (.*)$", n)
         if not m:
             return []
+        tags = {str(t)[5:] for t in (e.get("tags") or []) if str(t).startswith("name:")}
+        from .build import names_line, names_tokens
         out = []
-        for g in re.split(r";\s*", m.group(1)):
-            gm = re.match(r"^([^()]+?)\s*\(([^)]*)\)", g)
-            if gm:
-                scanned = list(self.linker.refs.scan(gm.group(2), lst.key))
-                if not scanned:
-                    continue
-                key, codes = scanned[0][2], [c for _, _, k, c in scanned if c]
-                for tok in re.split(r",\s*|\s+and\s+", gm.group(1)):
-                    if tok.strip():
-                        x = self.linker.find_person(tok, key, codes)
-                        if x and x not in out:
-                            out.append(x)
-                continue
-            text = plain(e.get("c") or "") + " " + n[:m.start()]
-            for _, _, key, code in self.linker.refs.scan(g, lst.key):
-                sec = self.linker.refs.section_for(key, code) if code else None
-                if not sec:
-                    continue
-                for x in sec.entries:
-                    if not x.get("s") or "," not in x["s"]:
-                        continue
-                    sur = plain(x["s"]).split(",")[0].strip()
-                    if re.search(r"\b" + re.escape(sur) + r"\b", text) and x not in out:
-                        out.append(x)
+        toks = names_tokens(names_line(n)[1])
+        for (tok, ref_part), hit in zip(toks, self.linker.names_resolved([t for t, _ in toks], tags)):
+            x = hit[0] if hit else None
+            if not x and ref_part:
+                scanned = list(self.linker.refs.scan(ref_part, lst.key))
+                if scanned:
+                    x = self.linker.find_person(tok, scanned[0][2], [c for _, _, k, c in scanned if c], tags)
+            if x and x not in out:
+                out.append(x)
         return out
 
     def keys(self, name):
