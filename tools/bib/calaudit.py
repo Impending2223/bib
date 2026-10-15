@@ -113,6 +113,8 @@ def run(series):
         links = re.findall(r"\[((?:[^\[\]]|\[[^\]]*\])*)\]\((https?://[^)]+)\)", c + " " + n)
         linked = any(any(h in u for h in PRIMARY_HOSTS) or re.search(r"^https?://[^/]*\.(?:gov|us)(?:/|$)", u)
                      or PRIMARY_NAMES.search(txt) for txt, u in links)
+        # a poll's record is its release, which *The Gallup Poll* prints by page ([[w.gallup-poll]], III, 1868)
+        linked = linked or bool(re.search(r"\[\[w\.gallup-poll\]\],? [IVX]+, \d", n))
         named = PRIMARY_NAMES.search(n)
         if not linked and not named:
             prim_none.append((sec, e))
