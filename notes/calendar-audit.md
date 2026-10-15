@@ -10,7 +10,7 @@ CLAUDE.md ("The calendar"). A review list: a hit is a place to look, not an erro
 | A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 806 |
 | (of which only a President's surname: Eisenhower, Kennedy, Johnson) | 13 |
 | Neither a bibliography of its own nor a `See [[id]]` back | 0 |
-| No primary record linked or named | 393 |
+| No primary record linked or named | 385 |
 | A primary record named but not linked | 79 |
 | Threads (statements listed for review) | 86 |
 
@@ -1870,7 +1870,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1960-04.elections-1960` (Apr., V apr60.yaml): West Virginia, after Wisconsin; its primary May 10. Kennedy's own poll there, 70–30 for him in December, now 6
 - `cal.1960-04-05.elections-1960` (Apr. 5, V apr60.yaml): Wisconsin primary. Republican: Nixon, unopposed. Democratic: Kennedy 56.5 percent, Humphrey 43.5.
 - `cal.1960-04-05.mayors-milwaukee` (Apr. 5, V apr60.yaml): Milwaukee elects Maier mayor over U.S. Representative Reuss, about 58 percent; the mayor not running.
-- `cal.1960-04-15.civil-rights-organizations` (Apr. 15–17, V apr60.yaml): Easter weekend at Shaw University, Raleigh. The sit-ins' student leaders, called by Ella Baker of SCLC with SC
 - `cal.1960-04-19.sit-ins` (Apr. 19, V apr60.yaml): Nashville. Z. Alexander Looby's house bombed before dawn; he and his wife unhurt. Some thousands march in sile
 - `cal.1960-04-21.elections-1960` (Apr. 21, V apr60.yaml): Kennedy to the American Society of Newspaper Editors, Washington, on the religious issue: "I am not the Cathol
 - `cal.1960-04-28.georgia-ga` (Apr. 28, V apr60.yaml): Sibley presents the committee's reports to the General Assembly. The majority, eleven: two constitutional amen
@@ -2019,7 +2018,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1963-05-04.elections-1964` (May 4, XLII may63.yaml): Rockefeller, divorced in 1962, marries Margaretta Fitler Murphy, divorced a month before.
 - `cal.1963-05-07.mayors-baltimore` (May 7, XLII may63.yaml): Baltimore. McKeldin (R) elected mayor over Goodman (D), 108,427 to 103,761, 51.1 percent.
 - `cal.1963-05-10.states-and-cities-ma` (May 10, XLII may63.yaml): Massachusetts. Crimmins, of the Governor's Council, with the chairman of the State Housing Board and the head 
-- `cal.1963-05-14.desegregation-public-places-louisville` (May 14, XLII may63.yaml): Louisville's Board of Aldermen passes an ordinance forbidding discrimination by race in places of public accom
 - `cal.1963-05-21.mayors-philadelphia` (May 21, XLII may63.yaml): Philadelphia primaries for mayor. Democratic: Tate, the City Committee's candidate, 128,840; Walter M. Phillip
 - `cal.1963-05-24.civil-rights-the-executive` (May 24, XLII may63.yaml): Robert Kennedy meets James Baldwin and a dozen others Baldwin brought, at the Kennedy apartment in New York. T
 - `cal.1963-05-28.mississippi` (May 28, XLII may63.yaml): Jackson. Tougaloo students sit in at Woolworth's lunch counter; a crowd beats them for three hours, police out
@@ -2100,7 +2098,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1964-07-29.civil-rights-organizations` (July 29, LVI jul64.yaml): New York, the NAACP's offices. After Harlem, Wilkins, King, Young and Randolph ask their members to suspend ma
 - `cal.1964-08-02.states-and-cities-jersey-city` (Aug. 2–4, LVII aug64.yaml): Jersey City. A woman's arrest in the Lafayette section, Aug. 2; three nights of rock-throwing, window-breaking
 - `cal.1964-08-12.elections-1964` (Aug. 12, LVII aug64.yaml): Hershey, Pa. Goldwater meets Eisenhower, Nixon, Scranton, Rockefeller, Romney, and the party's governors and l
-- `cal.1964-08-25.mississippi` (Aug. 25, LVII aug64.yaml): The Credentials Committee's compromise, Mondale's subcommittee: the regulars seated if they pledge to support 
 - `cal.1964-08-28.states-and-cities-philadelphia` (Aug. 28–30, LVII aug64.yaml): Philadelphia. A quarrel over a car stopped at 23rd Street and Columbia Avenue, two policemen, a crowd; a rumor
 - `cal.1964-09-01.open-housing-detroit` (Sept. 1, LVIII sep64.yaml): Detroit. The "Homeowners' Rights Ordinance," an initiative securing an owner's choice of buyer, tenant and age
 - `cal.1964-09-03.goldwater` (Sept. 3, LVIII sep64.yaml): Prescott, Ariz. Goldwater opens his campaign from the north steps of the Yavapai County Courthouse, where he h
@@ -2109,7 +2106,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1964-09-14.desegregation-schools-nyc` (Sept. 14, LVIII sep64.yaml): New York. Parents and Taxpayers, white parents' groups of Queens and Brooklyn, keep their children home agains
 - `cal.1964-10-01.students` (Oct. 1–2, LIX oct64.yaml): Berkeley. Weinberg, a former student, arrested at a CORE table on Sproul Plaza, the University enforcing its b
 - `cal.1964-10-04.alabama-selma` (Oct. 4, LIX oct64.yaml): Selma. Joseph T. Smitherman takes office as mayor, having beaten the mayor by some 500 votes (Check). Wilson B
-- `cal.1964-10-14.king` (Oct. 14, LIX oct64.yaml): The Norwegian Nobel Committee awards the 1964 Peace Prize to King, 35, in St. Joseph's Hospital, Atlanta, for 
 - `cal.1964-10-19.goldwater` (Oct. 19, LIX oct64.yaml): Jenkins. Goldwater, once his commanding officer in an Air Force Reserve unit, questioned by FBI agents, asks H
 - `cal.1964-10-20.goldwater` (Oct. 20–22, LIX oct64.yaml): "Choice," a half-hour film for Mothers for Moral America, a unit of Citizens for Goldwater-Miller: riots, prot
 - `cal.1964-11-03.specials-3` (Nov. 3, LX nov64.yaml): South Carolina 5th, special. Gettys (D) holds the seat Hemphill left for the federal bench, 66.8 to 33.2 over 
@@ -2153,7 +2149,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1965-09-14.mayors-nyc` (Sept. 14, LXX sep65.yaml): New York's Democratic primary for mayor. Beame, the city comptroller, 336,345, 44.8 percent; Screvane, preside
 - `cal.1965-09-17.conservation-ca` (Sept. 17, LXX sep65.yaml): The McAteer–Petris Act in force: a San Francisco Bay Conservation and Development Commission to plan for the b
 - `cal.1965-10-01.desegregation-schools-chicago` (Oct. 1–6, LXXI oct65.yaml): Chicago. Keppel, after the Office of Education's inquiry into the Coordinating Council's complaint against the
-- `cal.1965-10-15.students` (Oct. 15–18, LXXI oct65.yaml): International Days of Protest against the war, planned by Berkeley's Vietnam Day Committee and the National Co
 - `cal.1965-10-18.desegregation-schools-milwaukee` (Oct. 18, LXXI oct65.yaml): Milwaukee. The second boycott of the schools by the Integration Committee, of several days; thousands of child
 - `cal.1965-10-22.alabama` (Oct. 22, LXXI oct65.yaml): Hayneville. An all-white jury acquits Wilkins at his second trial for the murder of Viola Liuzzo, after an hou
 - `cal.1965-11-02.states-and-cities` (Nov. 2, LXXII nov65.yaml): New York City. Lindsay, Republican and Liberal, elected mayor: 1,149,106 votes; Beame, Democrat, 1,046,699; Bu
@@ -2165,7 +2160,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1965-11-06.mayors-new-orleans` (Nov. 6, LXXII nov65.yaml): New Orleans, Democratic primary for mayor: Schiro 81,973, 50.1 percent; Fitzmorris, a councilman, 78,654, 48.1
 - `cal.1965-11-17.antisubversion-nc` (Nov. 17, LXXII nov65.yaml): North Carolina. The General Assembly, in extra session, amends the Speaker Ban Law: the trustees of each State
 - `cal.1965-11-22.civil-rights-organizations-charlotte` (Nov. 22, LXXII nov65.yaml): Charlotte. Bombs at the homes of four Negro leaders: Julius Chambers, counsel in the suit against the city's a
-- `cal.1965-11-27.students` (Nov. 27, LXXII nov65.yaml): March on Washington for Peace in Vietnam, called by SANE: pickets around the White House, then a rally at the 
 - `cal.1965-11-30.transportation` (Nov. 30, LXXII nov65.yaml): Nader's *Unsafe at Any Speed* published (Check the day). Its first chapter, the Corvair.
 - `cal.1965-12-02.states-and-cities-los-angeles` (Dec. 2, LXXIII dec65.yaml): The Governor's Commission on the Los Angeles Riots, McCone chairman, reports: *Violence in the City—An End or 
 - `cal.1966-01-03.civil-rights-organizations` (Jan. 3, LXXIV jan66.yaml): CORE names McKissick national director, to succeed Farmer, who goes to a national literacy program. McKissick 
@@ -2181,7 +2175,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1966-03-31.desegregation-schools-seattle` (Mar. 31–Apr. 1, LXXVI mar66.yaml): Seattle. School boycott against the segregation of the Central Area's schools, called by the Central Area Civi
 - `cal.1966-04-27.state-and-city-finance-nj` (Apr. 27, LXXVII apr66.yaml): New Jersey's first sales tax. Hughes signs the Sales and Use Tax Act, A. 700: 3 percent on retail sales and on
 - `cal.1966-04.jobs-and-wages-oakland` (Apr., LXXVII apr66.yaml): Oakland. Foley's Economic Development Administration announces some $23 million for the city: public works at 
-- `cal.1966-04.desegregation-schools-boston` (Apr., LXXVII apr66.yaml): Massachusetts. The State Board of Education finds the Boston School Committee's plan of December under the Rac
 - `cal.1966-05-07.governors-tx` (May 7, LXXVIII may66.yaml): Texas Democratic primary. Governor Connally renominated for a third term, 74.3 percent, over Stanley Woods, 23
 - `cal.1966-05-14.students` (May 14, LXXVIII may66.yaml): The Selective Service College Qualification Test, first of three sittings (May 21, June 3): local boards to we
 - `cal.1966-06-14.south-carolina-sc` (June 14, LXXIX jun66.yaml): South Carolina's Democratic primary. Senate, for Johnston's unexpired term: Hollings 60.8 percent, U.S. Senato
@@ -2201,7 +2194,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1966-08-02.governors-id` (Aug. 2, LXXXI aug66.yaml): Idaho's primary. Republican, for governor: Samuelson, a State senator, 52,891, 61.0 percent, over Smylie, gove
 - `cal.1966-08-04.elections-1966` (Aug. 4, LXXXI aug66.yaml): Tennessee, Democratic Senate primary: Clement, the governor, defeats Bass, 384,322 to 366,079; Bass had won th
 - `cal.1966-08-05.open-housing` (Aug. 5, LXXXI aug66.yaml): Chicago. The marches into the white neighborhoods of the Southwest Side, from late July. Aug. 5, Marquette Par
-- `cal.1966-08-26.open-housing` (Aug. 26, LXXXI aug66.yaml): Chicago. The summit, from Aug. 17: Daley and the city, the Real Estate Board, the Housing Authority, churches,
 - `cal.1966-08.desegregation-public-places-milwaukee` (Aug., LXXXI aug66.yaml): Milwaukee. Groppi and the NAACP Youth Council picket the Fraternal Order of Eagles, which admits only whites, 
 - `cal.1966-09-01.states-and-cities-dayton` (Sept. 1, LXXXII sep66.yaml): Dayton. Lester Mitchell, a Negro, shot dead from a passing car while sweeping the walk before his bar on West 
 - `cal.1966-09-04.open-housing` (Sept. 4, LXXXII sep66.yaml): Cicero. Robert Lucas of Chicago CORE leads some 250 marchers (Check) into the town, the march King gave up und
