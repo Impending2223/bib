@@ -55,7 +55,8 @@ So every calendar entry has:
   - `Names: …`, every person in `c` who has a name entry ("Names, events"), by surname, commas between: "Names: Heller,
     Tobin." No list or section after the names (the owner's ruling, Oct. 14, 2026; taken out of the data Oct. 15). Each
     name is found by its `name:` tag and the name index (`who_named` in `tools/bib/build.py`) and linked to the name
-    entry. Where the tagged persons share a surname, write the given name ("Martin Luther King", "Frank Johnson"); a son
+    entry; a person with a name entry but no Part III entry (from the rosters or FRUS's lists) by his tag alone
+    (`tagged_named`). Where the tagged persons share a surname, write the given name ("Martin Luther King", "Frank Johnson"); a son
     or father with his suffix ("Harry F. Byrd Jr.", "Martin Luther King Sr."); a name in its own order as it stands
     ("Ngô Đình Diệm", "Satō", "Haile Selassie"). Nothing after the names but a sentence of its own ("Check: …").
     `check` warns on a list or section written in the line [names-section], a name no person fits [names-unknown], and

@@ -613,14 +613,65 @@ class Linker:
                 hits[u] = e
         return hits
 
+    def _tag_names(self):
+        """{name entry's key: (its address, [the names it is written by])} for everyone with a name entry (Part III,
+        the rosters, FRUS's lists: lives.everyone)."""
+        if getattr(self, "_tnames", None) is None:
+            from . import lives as L
+            out = {}
+            for p in L.everyone(self.series):
+                out[L.key_of(p["name"])] = (f"{L.SITE}names-{L.letter_of(p)}.html#{L.key_of(p['name'])}",
+                                            sorted(p["names"] | {p["name"]}))
+            self._tnames = out
+        return self._tnames
+
+    @staticmethod
+    def _token_fits(token, name):
+        """Whether a 'Names:' token can name a person written `name`: a name in its own order whole or by its first or
+        last word; else the token's last words the surname, any given names before them agreeing (an initial for a
+        name) and any suffix the same."""
+        tok = re.sub(r"\s*\([^)]*\)", "", token).strip()
+        words = [store.fold(w).strip(".") for w in tok.split()]
+        if not words:
+            return False
+        if "," not in name:
+            f = store.fold(name).split()
+            return words == f or (len(words) == 1 and words[0] in (f[0], f[-1])) or f[:len(words)] == words
+        sur, _, given = name.partition(",")
+        sw = store.fold(sur).split()
+        gw = [w.strip(".") for w in store.fold(given).split()]
+        suf = [w for w in gw if w in ("jr", "sr", "ii", "iii", "iv")]
+        gw = [w for w in gw if w not in suf]
+        if words and words[-1] in ("jr", "sr", "ii", "iii", "iv"):
+            if [words[-1]] != suf:
+                return False
+            words = words[:-1]
+        if words[-len(sw):] != sw:
+            return False
+        lead = words[:-len(sw)]
+        return all(i < len(gw) and (a == gw[i] or (len(a) == 1 and gw[i].startswith(a)) or (len(gw[i]) == 1 and a.startswith(gw[i])))
+                   for i, a in enumerate(lead))
+
+    def tagged_named(self, token, tags=()):
+        """The person a 'Names:' token means among those the entry tags, found through every name entry, not Part
+        III alone: (None, address), or None where no tagged person or several fit."""
+        tn = self._tag_names()
+        fits = [k for k in (tags or ()) if k in tn and any(self._token_fits(token, n) for n in tn[k][1])]
+        return (None, tn[fits[0]][0]) if len(fits) == 1 else None
+
     def who_named(self, token, tags=(), taken=()):
         """The person a 'Names:' token means, as (entry, name entry's address), or None: of the persons the token can
         name (_named_hits), those the entry tags ('name:<key>'), less those another token of the line names
-        ('taken'); else the one all the fits are."""
+        ('taken'); else a person the entry tags who has a name entry but no Part III entry (tagged_named: then the
+        entry is None); else the one all the fits are."""
+        tags = set(tags or ())
         hits = self._named_hits(token)
+        if not hits or not any(u.rsplit("#", 1)[-1] in tags for u in hits):
+            th = self.tagged_named(token, tags)
+            if th and th[1] not in hits:
+                return th
         if not hits:
             return None
-        tags = set(tags or ())
         bare = not re.search(r"\b(Jr\.?|Sr\.?|II|III|IV)\s*$", token.strip())
         for pool in ([u for u in hits if u.rsplit("#", 1)[-1] in tags],
                      [u for u in hits if u.rsplit("#", 1)[-1] in tags and u not in taken],
