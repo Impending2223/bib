@@ -756,8 +756,11 @@ def line(series, cid):
 #  6. A compilation of one writer's texts (his papers, letters, speeches, diaries, an autobiography put together by
 #     others) files under the writer, though he is not its author in the bibliographic sense (the owner's ruling, Oct.
 #     15, 2026): `files_under` on the card ("Agrarian Reform as Unfinished Business: The Selected Papers of Wolf
-#     Ladejinsky (Louis J. Walinsky ed., 1977)" under Ladejinsky; the Public Papers under each President). A book of
-#     many speakers (the White House tapes, a documentary reader, letters home) stays under its title or editor.
+#     Ladejinsky (Louis J. Walinsky ed., 1977)" under Ladejinsky; the Public Papers under each President). The White
+#     House tapes, edited, under the President who recorded them (*Taking Charge* under Johnson; *Kennedy, Johnson, and
+#     the Quest for Justice* under Kennedy, and Johnson as a ghost; the owner's ruling, Oct. 16, 2026); not a study
+#     that draws on them (Hughes, *Chasing Shadows*), nor the Abrams tapes. A book of many writers (a documentary
+#     reader, letters home) stays under its title or editor.
 #  7. A work is entered again (a ghost: the citation, and "Filed under" its place) under each of its other names: a
 #     second or later author, the writer it was written "with", an editor, a translator, and a name the card gives in
 #     `also_under` (the writer behind a pseudonym: Cincinnatus [Cecil B. Currey] under Currey).

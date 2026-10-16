@@ -442,7 +442,8 @@ yet render it; author, title and year read from it for sorting and search).
   card, A to Z, built beside the themed lists, which stay until it replaces their Parts I–II (Part III stays). Filed
   by the first-listed author's surname; a film under its director's; an organization only where the card names it as
   the author (cards are not edited to add one); a compilation of one writer's texts under the writer (`files_under`:
-  Ladejinsky's *Selected Papers*, Walinsky ed.; the Public Papers under each President); otherwise the short title,
+  Ladejinsky's *Selected Papers*, Walinsky ed.; the Public Papers and the edited White House tapes under each
+  President); otherwise the short title,
   its leading article and subtitle dropped (edited volumes included), the heading in italics; then the year; then the
   short title (FILING in `tools/bib/works.py`; `./bib works list` sorts the same way). A work is entered again, a ghost
   ("Filed under …"), under its other authors, the writer it was written "with", its editors and translators, and any
