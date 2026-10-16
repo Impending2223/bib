@@ -413,6 +413,10 @@ yet render it; author, title and year read from it for sorting and search).
 - Queries (`./bib works list`): `-t` every one of, `--any` at least one of, `--not` none of. Stored tags pass down from
   a container to what is in it. Worked out for every card: `in:kja`, `section:vn.II.C.1`, `author:logevall`,
   `year:1991`, `pub:1990s`, `kind:film`, `form:verbatim`; `in:` alone is any list, `section:vn.II.C*` a prefix.
+- Periodicals by the Bluebook's abbreviations, the 21st edition's where the Indigo Book differs ("Int'l Sec." for
+  *International Security*: the Bluebook abbreviates "Security" and "Securities" both "Sec."). A dissertation's or
+  thesis's title in roman, as any unpublished work's (`kind: thesis`, verbatim, no italics). STYLE 7 and 8 in
+  `tools/bib/works.py`.
 - No publisher in a citation, as Bluebook's: "(2007)", not "(University of North Carolina Press, 2007)"; a work
   published before 1900 keeps its place of publication and its publisher ("(Venice, Vitale Mascardi 1665)"); a
   publisher's edition named as such ("Random House ed. 1966") and a film's network stay. A count of volumes after the
@@ -437,9 +441,14 @@ yet render it; author, title and year read from it for sorting and search).
 - The A–Z bibliography, `build/works.html` (`./bib build works`; `tools/bib/bibliography.py`, its STYLE notes): every
   card, A to Z, built beside the themed lists, which stay until it replaces their Parts I–II (Part III stays). Filed
   by the first-listed author's surname; a film under its director's; an organization only where the card names it as
-  the author (cards are not edited to add one); otherwise the short title, its leading article dropped (edited volumes
-  included); then the year; then the short title (FILING in `tools/bib/works.py`; `./bib works list` sorts the same
-  way). An author's works under the name, inverted ("Beschloss, Michael R."; a particle with the surname, "De Palma,
+  the author (cards are not edited to add one); a compilation of one writer's texts under the writer (`files_under`:
+  Ladejinsky's *Selected Papers*, Walinsky ed.; the Public Papers under each President); otherwise the short title,
+  its leading article and subtitle dropped (edited volumes included), the heading in italics; then the year; then the
+  short title (FILING in `tools/bib/works.py`; `./bib works list` sorts the same way). A work is entered again, a ghost
+  ("Filed under …"), under its other authors, the writer it was written "with", its editors and translators, and any
+  name in `also_under` (Cincinnatus [Cecil B. Currey] under Currey). One person written two ways is one heading: by
+  the marks alone (Andrade, Andradé) under the marked form; otherwise by `SAME` (William Colby, William E. Colby); each
+  citation keeps its card's form. An author's works under the name, inverted ("Beschloss, Michael R."; a particle with the surname, "De Palma,
   Brian"; a Vietnamese, Chinese or Japanese name in its own order, as written; `OWN_ORDER`, `RUNNING`, `SURNAME` for
   what the rules cannot tell), linked to the name entry where one person fits; a work without an author under its
   title as the heading; a leading article dropped, another language's too (*La Guerre du Vietnam* under G); a title
@@ -674,7 +683,8 @@ not a suffix; the Executive roster may drop a suffix but not an initial (its bar
 B. Anderson). A bare name joins a fuller one from another source only with support: Part III's role shares a word
 with the roster's office, or Part III's man sat in Congress, or the member's Directory entry gives Part III's role.
 A short form ("Bob") joins only through the roster's "(Bob)", agreeing middle initials, or a role in Congress. A
-father written bare and a son with "Jr." stay two (Harry F. Byrd; Barry M. Goldwater; a son `strict` in
+father written bare and a son with "Jr." stay two (a work's author written with "Jr." is never linked to, or listed
+under, a man without it: James Lawton Collins, Jr. is not J. Lawton Collins; Harry F. Byrd; Barry M. Goldwater; a son `strict` in
 `sources/app-matches.yaml` is never his father written bare: Lucius D. Clay and Lucius D. Clay, Jr.); the son's pointers, returns,
 and FRUS documents go by his suffix, and a FRUS document naming the father bare after his death (the Directory's
 year) is the son's. To keep two roster spellings of one man together, write them alike.

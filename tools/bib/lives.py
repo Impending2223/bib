@@ -3004,8 +3004,9 @@ def series_works(series, linker, ptrs, name, subs=None, strict=False):
             if author is None and i:
                 author = prev
             prev = author if author is not None else prev
-            kind = work_kind(c, author, sur, bool(subject), sec, given)
-            if kind != "own" and not any(x in fold(plain(c)) for x in q) and not (subject and kind) \
+            kind = work_kind(c, author, sur, bool(subject), sec, given, name)
+            body = plain(c)[len(author) + 2:] if author and plain(c).startswith(author) else plain(c)
+            if kind != "own" and not any(x in fold(body) for x in q) and not (subject and kind) \
                     and not (bare and bare.search(c)):
                 continue           # another work in the same entry
             if not kind:
@@ -3051,13 +3052,20 @@ def author_of(c):
     return m.group(1) if m and len(m.group(1).split()) <= 8 else None
 
 
-def work_kind(c, author, sur, subject, sec, given=""):
+def same_suffix(a, name):
+    """A son written with his suffix is not his father written without it (the Names' rule): 'James Lawton Collins,
+    Jr.' is not 'Collins, J. Lawton'."""
+    m = re.search(r",?\s+(Jr|Sr|II|III|IV)\.?$", a.strip())
+    return not m or not name or bool(re.search(r"\b" + m.group(1) + r"\b", name))
+
+
+def work_kind(c, author, sur, subject, sec, given="", name=None):
     """'own', 'primary', 'about', or '' (not about the person). The person's own: a citation he is the author of, or
     one with no author in his own subject entry. A collection someone else edited ('Beschloss ed.') is not his: his
     tapes, papers and the like are primary sources; essays and remembrances are about him."""
     edited = re.search(r"\(([^()]*?) eds?\.,", plain(c)) if c.lstrip().startswith("*") else None
     if author is not None:
-        if any(is_person(a, sur, given) for a in re.split(r" & | and |, ", author)):
+        if any(is_person(a, sur, given) and same_suffix(a, name) for a in re.split(r" & | and |, (?!(?:Jr|Sr)\.)", author)):
             return "primary" if PRIMARY.search(sec) or not re.search(r"\*", c) else "own"
         # a recording, a document, an archive that names him is his record, whoever heads it (the CBS tour of the
         # White House, in which Kennedy appears; the Kennedy Library)
