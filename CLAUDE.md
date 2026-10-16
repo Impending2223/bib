@@ -444,8 +444,8 @@ yet render it; author, title and year read from it for sorting and search).
   the author (cards are not edited to add one); a compilation of one writer's texts under the writer (`files_under`:
   Ladejinsky's *Selected Papers*, Walinsky ed.; the Public Papers and the edited White House tapes under each
   President, though many speak in them); recordings and records of talks under the one or few named persons they
-  record (the Abrams tapes under Abrams, *The Kissinger Transcripts* under Kissinger, a film cut from Lady Bird
-  Johnson's diaries under her, its director a ghost), not a study that draws on them; otherwise the short title,
+  record (the Abrams tapes under Abrams, *The Kissinger Transcripts* under Kissinger), not a study that draws on
+  them, nor a film cut from them (a film files as a film: *The Lady Bird Diaries* under Porter); otherwise the short title,
   its leading article and subtitle dropped (edited volumes included), the heading in italics; then the year; then the
   short title (FILING in `tools/bib/works.py`; `./bib works list` sorts the same way). A work is entered again, a ghost
   ("Filed under …"), under its other authors, the writer it was written "with", its editors and translators, and any
