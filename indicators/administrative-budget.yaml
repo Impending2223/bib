@@ -64,6 +64,10 @@ rows:
     source: Economic Report of the President, Jan. 1965, Table B-59, p. 260
   now: {receipts: 116817.0, expenditures: 118228.0, balance: -1411.0}
 - p: FY1966
+  first: {receipts: 104727, expenditures: 106978, balance: -2251}
+  released: '1967-01-26'
+  source: Economic Report of the President, Jan. 1967, Table B-60, p. 284
+  unit: millions of dollars
   est:
   - value: {receipts: 94400, expenditures: 99687, balance: -5287}
     as_of: '1965-01-28'
@@ -73,8 +77,32 @@ rows:
     source: Economic Report of the President, Jan. 1966, Table C-58, p. 278
   now: {receipts: 130835.0, expenditures: 134532.0, balance: -3698.0}
 - p: FY1967
+  first: {receipts: 115849, expenditures: 125718, balance: -9869}
+  released: '1968-02-01'
+  source: Economic Report of the President, Feb. 1968, Table B-63, p. 284
+  unit: millions of dollars
   est:
   - value: {receipts: 111000, expenditures: 112847, balance: -1847}
     as_of: '1966-01-27'
     source: Economic Report of the President, Jan. 1966, Table C-58, p. 278
+  - value: {receipts: 116995, expenditures: 126729, balance: -9734}
+    as_of: '1967-01-26'
+    source: Economic Report of the President, Jan. 1967, Table B-60, p. 284
+  now: {receipts: 148822.0, expenditures: 157464.0, balance: -8643.0}
+- p: FY1968
+  est:
+  - value: {receipts: 126937, expenditures: 135033, balance: -8096}
+    as_of: '1967-01-26'
+    source: Economic Report of the President, Jan. 1967, Table B-60, p. 284
+  - value: {receipts: 118575, expenditures: 137182, balance: -18607}
+    as_of: '1968-02-01'
+    source: Economic Report of the President, Feb. 1968, Table B-63, p. 284
+  unit: millions of dollars
+  now: {receipts: null, expenditures: null, balance: null}
+- p: FY1969
+  est:
+  - value: {receipts: 135587, expenditures: 147363, balance: -11776}
+    as_of: '1968-02-01'
+    source: Economic Report of the President, Feb. 1968, Table B-63, p. 284
+  unit: millions of dollars
   now: {receipts: null, expenditures: null, balance: null}

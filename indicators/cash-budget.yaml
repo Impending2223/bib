@@ -63,6 +63,10 @@ rows:
     source: Economic Report of the President, Jan. 1965, Table B-60, p. 261
   now: {receipts: 116817.0, payments: 118228.0, balance: -1411.0}
 - p: FY1966
+  first: {receipts: 134.5, payments: 137.8, balance: -3.3}
+  released: '1967-01-26'
+  source: Economic Report of the President, Jan. 1967, Table B-61, p. 285
+  unit: billions of dollars
   est:
   - value: {receipts: 123.5, payments: 127.4, balance: -3.9}
     as_of: '1965-01-28'
@@ -72,8 +76,35 @@ rows:
     source: Economic Report of the President, Jan. 1966, Table C-59, p. 279
   now: {receipts: 130835.0, payments: 134532.0, balance: -3698.0}
 - p: FY1967
+  first: {receipts: 153596, payments: 155142, balance: -1546}
+  released: '1968-02-01'
+  source: Economic Report of the President, Feb. 1968, Table B-63, p. 284
+  unit: millions of dollars
   est:
-  - value: {receipts: 145.5, payments: 145.0, balance: 0.5}
+  - value: {receipts: 145500, payments: 145000, balance: 500}
+    printed: receipts 145.5; payments 145.0; balance 0.5 (billions of dollars)
     as_of: '1966-01-27'
     source: Economic Report of the President, Jan. 1966, Table C-59, p. 279
+  - value: {receipts: 154700, payments: 160900, balance: -6200}
+    printed: receipts 154.7; payments 160.9; balance -6.2 (billions of dollars)
+    as_of: '1967-01-26'
+    source: Economic Report of the President, Jan. 1967, Table B-61, p. 285
+  now: {receipts: 148822.0, payments: 157464.0, balance: -8643.0}
+- p: FY1968
+  est:
+  - value: {receipts: 168100, payments: 172400, balance: -4300}
+    printed: receipts 168.1; payments 172.4; balance -4.3 (billions of dollars)
+    as_of: '1967-01-26'
+    source: Economic Report of the President, Jan. 1967, Table B-61, p. 285
+  - value: {receipts: 158823, payments: 175981, balance: -17157}
+    as_of: '1968-02-01'
+    source: Economic Report of the President, Feb. 1968, Table B-63, p. 284
+  unit: millions of dollars
+  now: {receipts: null, payments: null, balance: null}
+- p: FY1969
+  est:
+  - value: {receipts: 181146, payments: 188725, balance: -7579}
+    as_of: '1968-02-01'
+    source: Economic Report of the President, Feb. 1968, Table B-63, p. 284
+  unit: millions of dollars
   now: {receipts: null, payments: null, balance: null}
