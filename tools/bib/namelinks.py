@@ -82,6 +82,9 @@ def written(series, name):
     if not last or len(name.split()) < 2:
         return None
     hits = [p for p in by_surname(series).get(L.fold(last), []) if L.is_person(name, p["sur"], p["given"])]
+    suf = re.search(r",?\s+(Jr\.?|Sr\.?|II|III|IV)$", name)       # a son with his suffix is never the man without it
+    if suf:
+        hits = [p for p in hits if re.search(r"\b" + re.escape(suf.group(1).rstrip(".")) + r"\b\.?", p["name"])]
     return hits[0]["name"] if len(hits) == 1 else None
 
 

@@ -5,8 +5,10 @@ STYLE:
     surname, a film under its director's, an organization only where the card names it as author; a work without one
     under its short title, the leading article dropped; then year, then short title.
  2. Every work under a heading in the heavier weight: an author's name, inverted ("Beschloss, Michael R."; a name in
-    its own order as written), linked to the name entry where one person fits; a work filed under its title, the
-    title. Under it, each work's full citation, the author named in running order ("Jean Lacouture, *Vietnam* ...").
+    its own order as written), linked to the name entry where one person fits; a work filed under its title, its
+    short title in italics, the article and subtitle dropped (FILING 9). A compilation under the writer it collects
+    (FILING 6); one person written two ways under one heading (FILING 8). A work entered again under its other
+    authors, its editors and translators (FILING 7), the citation and "Filed under" the heading that holds it. Under it, each work's full citation, the author named in running order ("Jean Lacouture, *Vietnam* ...").
     Nothing indented, first line or hanging: the headings' weight sets the works apart.
  3. No notes here (the card notes show in the lists). After each citation, on its line, muted and with no closing
     stop: the list sections that hold it, each linked to its listing ("K–J Adm. II.D, Viet. II.C.1"); the calendar
@@ -168,7 +170,12 @@ def page(series, linker, template):
                 out.append(f'{lab}: <a href="#{esc(c[fld])}">{short(c[fld])}</a>')
         return "; ".join(out)
 
-    def item(cid):
+    def item(cid, ghost=False):
+        if ghost:                        # entered again under another name: the citation, and where it is filed
+            hd, _ = works.filing(series, cid)
+            where_ = esc(hd) if hd else short(cid)
+            return (f'<p class="wk wg">' + caps(to_html(cat.render(cid, caps=True), resolve))
+                    + f' <span class="wp">Filed under <a href="#{esc(cid)}">{where_}</a></span></p>')
         h = f'<p class="wk" id="{esc(cid)}">' + "".join(f'<span id="{esc(a)}"></span>' for a in store.as_list(cat.get(cid).get("aliases"))) \
             + caps(to_html(cat.render(cid, caps=True), resolve))
         p = pointers(cid)
@@ -176,22 +183,37 @@ def page(series, linker, template):
             h += f' <span class="wp">{p}</span>'
         return h + "</p>"
 
-    # file every card: an author's works under the heading; a work without, by itself
+    # file every card: an author's works under the heading; a work without, by itself (its short title the heading)
     groups = {}
+
+    def into(hd, key, cid, ghost=False, raw=None):
+        if not hd:
+            title = (cat.fields(cid) or {}).get("title") or works.short_title(plain(cat.render(cid)))
+            t = works.ARTICLE.sub("", works.short_title(plain(title))).strip()
+            t = t[:1].upper() + t[1:]
+            g = groups.setdefault(("t", store.fold(t)), {"key": key[0], "hd": None, "title": t, "items": []})
+        else:
+            g = groups.setdefault(("h", store.fold(hd)), {"key": key[0], "hd": hd, "items": [], "raw": raw})
+            if not ghost and g.get("ghosted", True):
+                g["raw"], g["ghosted"] = raw, False          # the name as a work filed here writes it
+            if marks(hd) > marks(g["hd"]):           # one name written with and without its marks: the marks
+                g["hd"] = hd
+        g["items"].append((key[1:], ghost, cid))
+
+    def marks(h):
+        return sum(1 for ch in h or "" if ord(ch) > 127)
+
     for cid in cat.cards:
         hd, key = works.filing(series, cid)
-        if not hd:                       # filed under its title: the title is the heading
-            title = (cat.fields(cid) or {}).get("title") or works.short_title(plain(cat.render(cid)))
-            g = groups.setdefault(("t", store.fold(title)), {"key": key[0], "hd": None, "title": title, "items": []})
-            g["items"].append((key[1:], cid))
-            continue
-        g = groups.setdefault(("h", hd), {"key": key[0], "hd": hd, "items": []})
-        g["items"].append((key[1:], cid))
+        into(hd, key, cid, raw=works.filed_name(cid, cat))
+        f = cat.fields(cid) or {}
+        for n in works.ghost_names(cid, cat):    # the same work, entered again under its other names (FILING 7)
+            gh, gk = works.heading(n)
+            into(gh, (gk, str(f.get("year") or ""), key[-1]), cid, True, n)
     blocks = sorted(groups.values(), key=lambda g: (g["key"], g["hd"] or "", g["items"][0][0]))
 
-    def head(hd, items):
-        f = cat.fields(items[0][1]) or {}
-        name = works.filed_name(items[0][1], cat) or hd
+    def head(hd, raw):
+        name = works.SAME.get(raw or hd, raw or hd)
         who = namelinks.written(series, re.sub(r"\s+et al\.\??$", "", name)) or namelinks.person(series, hd)
         u = namelinks.url(series, who) if who else None
         inner = esc(hd)
@@ -203,7 +225,7 @@ def page(series, linker, template):
     letters = sorted(by_letter, key=lambda L: (L != "0", L))
     lab = {L: ("0–9" if L == "0" else L.upper()) for L in letters}
     bar = '<div class="azw"><p class="az">' + "".join(f'<a href="#az-{L}">{lab[L]}</a>' for L in letters) + "</p></div>"
-    n_auth = sum(1 for g in blocks if g["hd"])
+    n_auth = sum(1 for g in blocks if g["hd"] and any(not gh for _, gh, _ in g["items"]))
     main = ["<h1>Works</h1>"] + LEDE + [
         f'<p class="logic">{len(cat.cards):,} works; {n_auth:,} authors and directors.</p>', bar, '<div class="wz">']
     for L in letters:
@@ -211,11 +233,10 @@ def page(series, linker, template):
         for g in by_letter[L]:
             items = sorted(g["items"])
             if g["hd"]:
-                hh = head(g["hd"], items)
-            else:                          # the title, in the face its citation gives it
-                book = cat.render(items[0][1], caps=True).startswith(works.SC)
-                hh = f'<p class="wh">{caps(to_html(works.sc(g["title"]) if book else "*" + g["title"] + "*"))}</p>'
-            main.append('<div class="wa">' + hh + "".join(item(cid) for _, cid in items) + "</div>")
+                hh = head(g["hd"], g.get("raw"))
+            else:                          # the short title, in italics (the owner's ruling, Oct. 15, 2026)
+                hh = f'<p class="wh"><i>{esc(g["title"])}</i></p>'
+            main.append('<div class="wa">' + hh + "".join(item(cid, gh) for _, gh, cid in items) + "</div>")
     main.append("</div>")
     pg = open(template, encoding="utf-8").read()
     pg = pg.replace("{{page_title}}", "Works").replace("{{main}}", "\n".join(main))

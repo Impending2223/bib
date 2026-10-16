@@ -24,6 +24,10 @@ short forms and queries. Fields of a structured card:
     in                                      the card this one is part of (a chapter in a volume, a volume in a set);
                                             its fields fill what this card lacks
     kind                                    book, article, chapter, volume, set, film, thesis (where not plain)
+    files_under                             the writer whose texts a compilation collects, its heading on the A–Z
+                                            page ('Wolf Ladejinsky' for his Selected Papers, Walinsky ed.)
+    also_under                              names the work is also entered under on the A–Z page beyond those its
+                                            fields give (a pseudonym's writer)
 
 STYLE:
  1. A list entry points to its card (`work: w.…`, or a list for several) and keeps its own note (the listing note);
@@ -42,6 +46,12 @@ STYLE:
     such ("Random House ed. 1966"); a film's or a program's network. `check` warns on a press in `paren` [publisher].
  6. A count of volumes stands after the title, before the parenthetical: "*Reporting Vietnam*, 2 vols. (1998)". A card
     writes it at the head of `paren` ("2 vols., 1998"), and `render` puts it outside (`paren`).
+ 7. Periodicals by the Bluebook's abbreviations (T13 and T6), the 21st edition's where the Indigo Book (T12–T13)
+    differs: "Int'l Sec." for *International Security* (the Bluebook abbreviates both "Security" and "Securities"
+    "Sec."; the Indigo Book does not). The States by the Indigo Book's T12.1, which agrees with the Bluebook ("N.D.").
+ 8. A dissertation or thesis, like any unpublished work, prints its title in roman (Bluebook R17): "James H. Embrey,
+    Reorienting Pacification: ... (1997) (Ph.D. dissertation, University of Kentucky)". Its card is verbatim, with no
+    italics, `kind: thesis`; `thesis` reads its author, title and year.
 """
 import os
 import re
@@ -290,7 +300,7 @@ def short_title(title):
     return re.split(r"(?<=[\w\"”’')])[:?!]\s|\s—", title)[0]
 
 
-PRIMARY = re.compile(r"Stat\.|Exec\. Order|Fed\. Reg\.|Proclamation|Pub\. L\.|Hearings? Before|Cong\. Rec\.|"
+PRIMARY = re.compile(r"\d Stat\.|Exec\. Order|Fed\. Reg\.|Proclamation|Pub\. L\.|Hearings? Before|Cong\. Rec\.|"
                      r"H\.R\. Rep|S\. Rep|H\.R\. Doc|S\. Doc|Cong\.(?:,| \()|U\.S\. Const")
 
 
@@ -318,6 +328,15 @@ def loose(c, subject=None):
     if y:
         f["year"] = y[-1]
     return f
+
+
+def thesis(c):
+    """A dissertation or thesis, its title in roman as Bluebook prints an unpublished work ('James H. Embrey,
+    Reorienting Pacification: ... (1997) (Ph.D. dissertation, University of Kentucky)'): its author, title and year."""
+    m = re.match(r"^(?P<auth>[^,]+(?:, (?:Jr|Sr)\.)?), (?P<title>.+?) \((?P<year>\d{4})\) \((?:Ph\.D\. dissertation|M\.A\. thesis)", c)
+    if not m:
+        return None
+    return {"c": c, "author": [m.group("auth")], "title": m.group("title"), "year": m.group("year")}
 
 
 def fields_of(c, subject=None):
@@ -495,7 +514,8 @@ def code_ok(ref, tail):
 # ---------------------------------------------------------------- the interface: the catalogue and its questions
 
 CARD_FIELDS = ["id", "kind", "author", "editor", "translator", "director", "title", "journal", "vol", "page", "link",
-               "paren", "year", "online", "c", "in", "edition_of", "translates", "short", "n", "tags", "aliases"]
+               "paren", "year", "online", "c", "in", "edition_of", "translates", "short", "files_under", "also_under", "n",
+               "tags", "aliases"]
 
 
 def letter(cid):
@@ -533,7 +553,7 @@ class Catalogue:
             c = self.get(cid)
             if c is None:
                 return None
-            f = dict(loose(c["c"]) or {}) if c.get("c") else {}
+            f = dict(loose(c["c"]) or thesis(c["c"]) or {}) if c.get("c") else {}
             f.update(c)
             self._fields[cid] = f
         return self._fields[cid]
@@ -733,6 +753,22 @@ def line(series, cid):
 #     Japanese: "Võ Nguyên Giáp", "Zhou Enlai 周恩来"), a single name, or an organization stands as written.
 #  5. A title beginning with a number files under the number spelled out ("The 30-Year War" under Thirty, "77
 #     Conversations" under Seventy-seven, "1876" under Eighteen seventy-six).
+#  6. A compilation of one writer's texts (his papers, letters, speeches, diaries, an autobiography put together by
+#     others) files under the writer, though he is not its author in the bibliographic sense (the owner's ruling, Oct.
+#     15, 2026): `files_under` on the card ("Agrarian Reform as Unfinished Business: The Selected Papers of Wolf
+#     Ladejinsky (Louis J. Walinsky ed., 1977)" under Ladejinsky; the Public Papers under each President). The White
+#     House tapes, edited, under the President who recorded them (*Taking Charge* under Johnson; *Kennedy, Johnson, and
+#     the Quest for Justice* under Kennedy, and Johnson as a ghost; the owner's ruling, Oct. 16, 2026); not a study
+#     that draws on them (Hughes, *Chasing Shadows*), nor the Abrams tapes. A book of many writers (a documentary
+#     reader, letters home) stays under its title or editor.
+#  7. A work is entered again (a ghost: the citation, and "Filed under" its place) under each of its other names: a
+#     second or later author, the writer it was written "with", an editor, a translator, and a name the card gives in
+#     `also_under` (the writer behind a pseudonym: Cincinnatus [Cecil B. Currey] under Currey).
+#  8. One person written two ways files under one heading: names that differ only in their marks (Andrade,
+#     Andradé; Moise, Moïse; Bui Tin, Bùi Tín) under the form with the marks; others by SAME (William Colby under
+#     William E. Colby). Each citation keeps the name as its card writes it.
+#  9. A heading for a work filed by its title is its short title, the article and subtitle dropped, in italics
+#     ("*Cambridge History of the Vietnam War*"); the citation under it keeps its own face.
 
 ORG = re.compile(r"\b(?:Commission|Council|Committee|Department|Institute|Office|Conference|Force|Friends|Students|"
                  r"Veterans|Society|Association|Foundation|Bureau|Agency|Board|Center|League|Union|University|Press|"
@@ -746,7 +782,7 @@ VN_FAMILY = {"lam", "nguyen", "tran", "le", "pham", "hoang", "huynh", "phan", "v
 # last word
 OWN_ORDER = {"Hoang Van Chi", "Ngo Van Chieu", "Pham Van Luu", "Pham Van Minh", "Pham Van Son", "Tran Van Don",
              "Tran Van Tra", "Van Tien Dung", "Hoai Thanh", "Cao Minh", "Nguyen Huu Nguyen", "Xuân Phuong",
-             "Vinh-Loc", "Li Danhui", "Malcolm X", "Cincinnatus [Cecil B. Currey]"}
+             "Vinh-Loc", "Li Danhui", "Malcolm X", "Cincinnatus [Cecil B. Currey]", "Nhã Ca"}
 SURNAME = {"Aurélie Basha i Novosejt": "Basha i Novosejt", "Nicholas deB. Katzenbach": "Katzenbach",
            "Carl J. Bon Tempo": "Bon Tempo"}
 RUNNING = {"Le Ly Hayslip", "Duong Van Mai Elliott"}
@@ -756,9 +792,24 @@ NETWORK = re.compile(r"^(?:CBS|NBC|ABC|HBO|PBS|FX|TNT|CNN|BBC|Starz|Netflix|Disc
                      r"Mothers|David L\. Wolper|Henry Hampton)\b")
 
 
+# one person written two ways in the cards (the owner's merges, Oct. 15, 2026): the heading's form. Each citation keeps the
+# name as its card writes it; a name written two ways only by its marks (Andrade, Andradé) joins without an entry here
+# (the A–Z page takes the form with the marks).
+SAME = {"William Colby": "William E. Colby", "John W. Dean": "John W. Dean III",
+        "Everett McKinley Dirksen": "Everett M. Dirksen", "John Ehrlichman": "John D. Ehrlichman",
+        "Mai Elliott": "Duong Van Mai Elliott", "Mai V. Elliott": "Duong Van Mai Elliott",
+        "Bernard Fall": "Bernard B. Fall", "Cecil Currey": "Cecil B. Currey", "Edwin Moïse": "Edwin E. Moïse",
+        "Arthur Schlesinger": "Arthur M. Schlesinger Jr.", "Arthur M. Schlesinger, Jr.": "Arthur M. Schlesinger Jr.",
+        "Thomas L. Ahern": "Thomas L. Ahern, Jr."}
+
+
 def filed_name(cid, cat):
-    """The name a card files under (FILING 1-2), as written, or None: the director of a film, else the first author."""
+    """The name a card files under (FILING 1-2), as written, or None: the writer whose texts a compilation collects
+    (`files_under`: 'Agrarian Reform as Unfinished Business: The Selected Papers of Wolf Ladejinsky' under Ladejinsky,
+    its editor's name a ghost; FILING 6), the director of a film, else the first author."""
     f = cat.fields(cid) or {}
+    if f.get("files_under"):
+        return f["files_under"]
     if f.get("director"):
         return f["director"][0]
     p = f.get("paren") or ""
@@ -809,7 +860,9 @@ def name_parts(name):
 
 
 def heading(name):
-    """(the heading, its sort form) for a name a card files under (FILING 4)."""
+    """(the heading, its sort form) for a name a card files under (FILING 4); a name written two ways under its one
+    form (SAME)."""
+    name = SAME.get(name, name)
     own, sur, given, suffix, bare = name_parts(name)
     if own:
         return bare, store.fold(re.sub(r"^(?:The|A|An) ", "", bare))
@@ -919,6 +972,32 @@ def filing(series, cid):
         h, k = heading(who)
         return h, (k, y, t)
     return None, (t, y, t)
+
+
+def ghost_names(cid, cat):
+    """The names a work is also entered under on the A–Z page (FILING 7, the owner's request, Oct. 15, 2026): its other
+    authors, the writer it was written "with", its editors and translators, and a name the card gives in `also_under`
+    (a pseudonym's writer: Cincinnatus [Cecil B. Currey] also under Currey); not the name it files under."""
+    f = cat.fields(cid) or {}
+    c = cat.get(cid) or {}
+    names = list((f.get("author") or [])[1:]) if not f.get("files_under") else list(f.get("author") or [])
+    byline = c["c"].split(", *")[0] if c.get("c") and not c["c"].startswith("*") else ""
+    m = re.search(r",? with (.+)$", byline)
+    if m:
+        names += [x.strip() for x in re.split(r"\s*(?:&|\band\b)\s*", m.group(1)) if x.strip()]
+    for role in ("editor", "translator"):
+        names += f.get(role) or []
+    names += store.as_list(c.get("also_under"))
+    own = filed_name(cid, cat)
+    out = []
+    for n in names:
+        n = re.sub(r"^with ", "", n).strip()
+        if not n or NOT_AUTHOR.match(n) or not is_person(re.sub(r"\s*\[[^\]]*\]", "", n)) and not ORG.search(n):
+            continue
+        if own and heading(n)[0] == heading(own)[0] or n in out:
+            continue
+        out.append(n)
+    return out
 
 
 # ---------------------------------------------------------------- check
