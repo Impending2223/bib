@@ -54,6 +54,7 @@ import glob
 import html
 import os
 import re
+from html.parser import HTMLParser
 
 import yaml
 
@@ -474,9 +475,67 @@ ol.dd .ab{display:block;font-family:var(--serif);font-size:.95rem;color:var(--no
 p.dtog{font-family:var(--sans);font-size:.78rem;color:var(--muted);margin:.4rem 0 .6rem}
 p.dtog button{font:inherit;font-weight:600;border:1px solid var(--rule);background:var(--panel);color:var(--ink);
   border-radius:6px;padding:.2rem .55rem;margin-right:.35rem;cursor:pointer}
+.day[data-h]{content-visibility:auto;contain-intrinsic-height:auto 240px}
 </style>"""
 
 SCRIPT = """<script>
+/* SIZE: a day off the screen is not laid out (content-visibility, in STYLE) and holds the place of its estimated
+   height, until it has been drawn once: from then on, its height as drawn. The estimate: the day's pieces (data-h,
+   written by heights() in daybook.py), each kind's line height, character width and margins measured once on a probe
+   at the column's width, the lines of each piece its characters over the characters a line holds (SLACK for the
+   words that do not fit), rounded up. Measured again when the width changes or the fonts arrive. */
+(function(){
+  var days=[].slice.call(document.querySelectorAll('.day[data-h]'));
+  if(!days.length||!('contentVisibility' in document.documentElement.style)) return;
+  var SLACK=0.985, SAMPLE='The Senate, 63 to 31, confirms the nominee; Johnson at the ranch with Rusk and McNamara. ';
+  var SEL={h:'.dn',m:'.tm',r:'.rub',c:'.c2',n:'.n',t:'.tnl',g:'.glp',D:'summary'}, K={}, F={}, lastW=-1;
+  function px(cs,a){var t=0; a.forEach(function(k){t+=parseFloat(cs[k])||0;}); return t;}
+  function probe(){
+    var first=null; for(var i=0;i<days.length&&!first;i++) if(days[i].offsetParent) first=days[i];
+    if(!first) return 0;
+    var host=first.parentNode, pr=document.createElement('div');
+    pr.className='day'; pr.setAttribute('aria-hidden','true');
+    pr.innerHTML='<div class="dh"><span class="dn">x</span><a class="tm">x</a></div><p class="cont">x</p>'+
+      '<ol class="e"><li><span class="c c2">x</span><span class="n">x</span><span class="tn"><span class="tnl">x</span></span>'+
+      '<span class="gl"><span class="glp">x</span></span></li><li><span class="c"><span class="s rub">x</span></span></li></ol>'+
+      '<details class="docs"><summary>x</summary></details>';
+    var wrap=document.createElement('div'); wrap.style.cssText='height:0;overflow:hidden;visibility:hidden';
+    wrap.appendChild(pr); host.insertBefore(wrap,first);
+    var W=pr.querySelector('ol.e').getBoundingClientRect().width;
+    Object.keys(SEL).forEach(function(k){
+      var e=pr.querySelector(SEL[k]), cs=getComputedStyle(e), r=e.getBoundingClientRect(), lh=r.height, w=r.width;
+      e.textContent=SAMPLE+SAMPLE; e.style.whiteSpace='nowrap';
+      var g=document.createRange(); g.selectNodeContents(e); var tw=g.getBoundingClientRect().width;
+      K[k]={lh:lh, cw:tw/(SAMPLE.length*2), w:k==='D'?w-16:w, mt:px(cs,['marginTop','marginBottom'])};
+    });
+    var li=pr.querySelectorAll('ol.e>li'), dc=getComputedStyle(first), lc=getComputedStyle(li[0]);
+    F={day:px(dc,['paddingTop','paddingBottom','borderTopWidth','borderBottomWidth']),
+       li:px(lc,['paddingTop','paddingBottom']), sep:px(getComputedStyle(li[1]),['borderTopWidth']),
+       T:px(getComputedStyle(pr.querySelector('.tn')),['marginTop']), G:px(getComputedStyle(pr.querySelector('.gl')),['marginTop']),
+       D:px(getComputedStyle(pr.querySelector('details.docs')),['marginTop','marginBottom'])};
+    host.removeChild(wrap);
+    return W;
+  }
+  function est(code){
+    var h=F.day, nli=0, toks=code.split(' ');
+    for(var i=0;i<toks.length;i++){
+      var k=toks[i].charAt(0), n=+toks[i].slice(1)||0, q;
+      if(k==='L'){ h+=F.li+(nli++?F.sep:0); continue; }
+      if(k==='T'||k==='G'){ h+=F[k]; continue; }
+      if(!(q=K[k])||!n) continue;
+      h+=Math.max(1,Math.ceil(n*q.cw/(q.w*SLACK)))*q.lh+q.mt+(k==='D'?F.D:0);
+    }
+    return Math.round(h-F.day);   // the placeholder is the content box: the day's padding and rule go round it
+  }
+  function size(){
+    var W=probe(); if(!W||Math.abs(W-lastW)<1) return; lastW=W;   // !W: the list is hidden (the reader); again when shown
+    for(var i=0;i<days.length;i++) days[i].style.containIntrinsicHeight='auto '+est(days[i].dataset.h)+'px';
+  }
+  size();
+  window.__daySize=function(){lastW=-1; size();};
+  var rt=0; window.addEventListener('resize',function(){clearTimeout(rt); rt=setTimeout(size,150);});
+  if(document.fonts&&document.fonts.ready) document.fonts.ready.then(function(){lastW=-1; size();});
+})();
 document.addEventListener('click',function(ev){
   var b=ev.target.closest&&ev.target.closest('p.dtog button');
   if(!b) return;
@@ -493,10 +552,86 @@ document.addEventListener('toggle',function(ev){
 </script>"""
 
 
+# ---------------------------------------------------------------- a day's height, unlaid
+
+# The days are drawn only near the screen (content-visibility, the owner's ruling, Oct. 16, 2026); a day off it holds
+# the place of its estimated height. The build writes what the estimate needs (data-h on each day): each line-starting
+# piece of the day by kind and its length in characters; the page measures each kind's line height and character
+# width once, at its column's width, and adds them up (SIZE in SCRIPT). A day holding a block (a map, a table, a
+# roster: .cg) is not estimated and is drawn as before.
+KINDS = {"dn": "h", "tm": "m", "tv": "m", "cont": "m", "rub": "r", "c": "c", "n": "n", "tnl": "t", "tp": "t",
+         "glp": "g"}
+_DIV = re.compile(r"<div\b|</div>")
+_DOCS = re.compile(r'<details class="docs"><summary>(.*?)</summary>.*?</details>', re.S)
+
+
+class _Pieces(HTMLParser):
+    """A day's pieces: [kind, characters], in order; 'L' an entry, 'D' the documents' summary, 'T' a block of thread
+    lines, 'G' a gloss."""
+
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.out, self.stack = [], []
+
+    def handle_starttag(self, tag, attrs):
+        if tag in ("br", "img", "wbr", "col", "meta"):
+            return
+        c = (dict(attrs).get("class") or "").split()
+        k = next((KINDS[x] for x in c if x in KINDS), None)
+        if tag == "li":
+            self.out.append(["L", 0])
+        elif "tn" in c:
+            self.out.append(["T", 0])
+        elif "gl" in c:
+            self.out.append(["G", 0])
+        piece = None
+        if k:
+            piece = [k, 0]
+            self.out.append(piece)
+        elif tag == "summary":
+            piece = ["D", 0]
+            self.out.append(piece)
+        self.stack.append(piece)
+
+    def handle_endtag(self, tag):
+        if self.stack:
+            self.stack.pop()
+
+    def handle_data(self, data):
+        for p in reversed(self.stack):
+            if p is not None:
+                p[1] += len(data)
+                return
+
+
+def heights(page):
+    """data-h on each day without a block: its pieces, 'c210 n380 …' (a kind alone where it has no text)."""
+    out, last = [], 0
+    for m in re.finditer(r'<div class="day[^"]*"', page):
+        depth, end = 0, None
+        for k in _DIV.finditer(page, m.start()):
+            depth += 1 if k.group() == "<div" else -1
+            if depth == 0:
+                end = k.end()
+                break
+        day = page[m.start():end]
+        if '<div class="cg' in day:
+            continue
+        p = _Pieces()
+        p.feed(_DOCS.sub(lambda d: "<summary>" + d.group(1) + "</summary>", day))
+        code = " ".join(k + (str(n) if n else "") for k, n in p.out)
+        out.append(page[last:m.end()])
+        out.append(f' data-h="{code}"')
+        last = m.end()
+    out.append(page[last:])
+    return "".join(out)
+
+
 def inject(page):
     """The styles and the expand/collapse script, where the page has days."""
     if 'class="day' not in page:
         return page
+    page = heights(page)
     page = page.replace("</head>", STYLE + "\n</head>", 1)
     return page.replace("</body>", SCRIPT + "\n</body>", 1)
 

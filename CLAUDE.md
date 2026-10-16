@@ -488,8 +488,12 @@ from Lewis et al.'s district files by `tools/congress/make_geo.py` (needs
 shapely and pyproj; the build does not), for the 85th to the 94th Congress (the
 elections need the districts before and after), simplified twice: at 0.01 map units,
 fine enough for a single Manhattan district, and at 0.12 for the full map; 12 MB
-together, with a point for the District of Columbia. The pages draw the coarse shapes and swap in the fine past 3× zoom
-(`FINE` in `templates/congress.html`). Each map is drawn when it nears the
+together, with a point for the District of Columbia. The shapes are not in the pages (the owner's ruling, Oct. 16, 2026):
+the build writes them beside the pages, `build/geo/base-<hash>.json` (the coarse shapes, the State outlines, each
+Congress's districts; 2.6 MB) and `fine-<hash>.json` (9.8 MB), shared by every page with a map (`geo_files` in
+`tools/bib/congress.py`); a page fetches the coarse when its first map nears the screen and the fine when a map is first
+zoomed past 3× (`FINE` in `templates/congress.html`). Fetched, not read from disk: open the pages through a server
+(`python3 -m http.server` in `build/`), not as files. Each map is drawn when it nears the
 screen, the House districts when first shown, and maps off the screen are not
 painted (`content-visibility`). Pointers match members to Part III by
 surname and first given name (with common short forms: Sam, Bill, Mike).
@@ -1135,6 +1139,15 @@ after it in the thread ("⟨⟨ Testing ⟩⟩", the brackets the links, not und
 `tools/bib/build.py`), a "Continuing" pointer under the date on each later
 day of a ranged entry, and the day's documents, closed by default, with "Expand all" and
 "Collapse all" under each month heading.
+
+A day off the screen is not laid out (`content-visibility: auto`; the owner's ruling, Oct. 16, 2026) and holds the
+place of its estimated height until it has been drawn, then of its height as drawn. The build writes each day's pieces
+(`data-h`: kind and characters, `heights()` in `tools/bib/daybook.py`); the page measures each kind's line height and
+character width once, on a probe at the column's width, and adds up the lines (SIZE in its SCRIPT; `SLACK` fitted
+against Chromium at 390 and 1280 px, Oct. 16, 2026: median error per day 0.4–0.5%, 90th percentile 4%, the page's
+height within 1%). A day holding a block (a map, a table, a roster: `.cg`) is not estimated and is laid out as before.
+Nothing that reads a position may lay out every day: the thread marks take a day not yet drawn as the entry's place
+(`checkVisibility`), and the scroll wheel measures its headings again when the page's height changes.
 
 ```
 tools/daybook/make_daybook.py   writes daybook/<YYYY-MM>.yaml (needs the network; the build does not)

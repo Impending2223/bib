@@ -402,10 +402,43 @@ def margin_quantiles(step=2.5):
     return out
 
 
-def assets(geo):
-    """CSS and JS for the blocks, with the geometry they need."""
+GEO_OUT = os.path.join(store.ROOT, "build", "geo")
+_geo_src = None
+
+
+def geo_files():
+    """The shapes as files of their own beside the pages, shared by every page with a map (the owner's ruling, Oct. 16,
+    2026: the shapes out of the pages): build/geo/base-<hash>.json, the coarse shapes, the State outlines, their
+    centers and each Congress's districts, fetched when the first map nears the screen; fine-<hash>.json, the detailed
+    shapes, fetched when a map is first zoomed past FINE. The hash in the name lets a browser keep them until they
+    change. Returns {base, fine}: their paths from a page in build/."""
+    global _geo_src
+    if _geo_src:
+        return _geo_src
+    import hashlib
+    _, geo = load()
+    parts = {"base": {k: geo[k] for k in ("coarse", "statesC", "centers", "congress")},
+             "fine": {k: geo[k] for k in ("shapes", "states")}}
+    os.makedirs(GEO_OUT, exist_ok=True)
+    out = {}
+    for k, d in parts.items():
+        txt = json.dumps(d, separators=(",", ":"))
+        name = f"{k}-{hashlib.sha1(txt.encode()).hexdigest()[:10]}.json"
+        path = os.path.join(GEO_OUT, name)
+        if not os.path.exists(path):
+            for old in os.listdir(GEO_OUT):
+                if old.startswith(k + "-"):
+                    os.remove(os.path.join(GEO_OUT, old))
+            open(path, "w", encoding="utf-8").write(txt)
+        out[k] = "geo/" + name
+    _geo_src = out
+    return out
+
+
+def assets(geo=None):
+    """CSS and JS for the blocks, with the paths of the shapes they fetch (geo_files)."""
     t = open(ASSETS, encoding="utf-8").read()
-    return t.replace("{{geo}}", json.dumps(geo, separators=(",", ":"))).replace("{{qm}}", json.dumps(margin_quantiles()))
+    return t.replace("{{geo}}", json.dumps(geo_files())).replace("{{qm}}", json.dumps(margin_quantiles()))
 
 
 def inject(page, series, linker, mode):
