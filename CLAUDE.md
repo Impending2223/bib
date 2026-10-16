@@ -133,7 +133,7 @@ notes/leads.md            leads to check later: events, figures and sources the 
 congress/changes.yaml     departures and successors during each Congress (generated)
 congress/specials.yaml    special elections during each Congress, 87th–93rd, with candidates (generated)
 congress/switches.yaml    members who changed party in office (kept by hand)
-elections/governors.yaml  every general election for governor, 1960–66 (generated from Wikipedia; never edit)
+elections/governors.yaml  every general election for governor, 1960–67 (generated from Wikipedia; never edit)
 elections/legislatures.yaml  each State legislature's parties by session, 1959–67 (generated from Klarner; never edit)
 sources/states.yaml       each State's own official election publications, where to read them, what they print (kept by hand)
 daybook/<YYYY-MM>.yaml    every Public Papers (APP) and FRUS document by date (generated)
@@ -885,8 +885,8 @@ year does not print. `tools/bib/primaries.py` renders them (STYLE notes there):
 ## Governors
 
 `elections/governors.yaml`, written by `tools/elections/make_governors.py` from Wikipedia (needs the network; the build
-does not): every general election for governor, 1960–66, odd years included (New Jersey and Virginia, 1961 and 1965;
-Kentucky and Mississippi, 1963; Louisiana, Mar. 3, 1964). The races and incumbents from Wikipedia's tables of each
+does not): every general election for governor, 1960–67, odd years included (New Jersey and Virginia, 1961 and 1965;
+Kentucky and Mississippi, 1963 and 1967; Louisiana, Mar. 3, 1964; not Louisiana's of Feb. 6, 1968, past the calendar's end). The races and incumbents from Wikipedia's tables of each
 year; the figures from each race's article, its election box, with the source the article gives for them (most the
 State's canvass or *America Votes*; Our Campaigns, or none, marks Check). What the articles cannot settle is `HAND` in
 the script (Georgia, 1966: the legislature elected Maddox; Minnesota, 1962: the recount). Never edit the file by hand.
@@ -896,7 +896,7 @@ the script (Georgia, 1966: the legislature elected Maddox; Minnesota, 1962: the 
   gains, the governorships after), a map (Result: the winner's party, dark where it took the office; Margin: the
   election maps' quantile rule), and the table, one race a `tbody`: the candidates with votes and shares, the margin,
   and under them the note (the incumbent and his fate, the hold or gain, the source). Now Nov. 8, 1960, Nov. 6, 1962,
-  Nov. 3, 1964 and Nov. 8, 1966 (thread "Governors"); the odd years' races are entries of their own.
+  Nov. 3, 1964, Nov. 8, 1966 and Nov. 7, 1967 (thread "Governors"); the other odd years' races are entries of their own.
 - Names: each race a row in the candidate's record (`governor_rows` in `tools/bib/lives.py`), the date linked to the
   day's table.
 - The primaries for governor are calendar entries (thread "Governors"), their figures cited in each entry.

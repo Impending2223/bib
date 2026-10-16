@@ -1,6 +1,6 @@
 """Monthly and quarterly indicators for the calendar, as first reported and as revised today.
 # Usage: FRED_API_KEY=... python3 tools/indicators/make_indicators.py [FROM TO]
-#   FROM, TO are reporting periods, default 1960-01-01 1966-12-31.
+#   FROM, TO are reporting periods, default 1960-01-01 1967-12-31.
 #   Rewrites indicators/<id>.yaml for the series in API below. Series entered by hand from the
 #   Economic Reports and budget documents (manual: true in their files) are left alone.
 #   'first' is the initial release in ALFRED, with the date it was released; 'chg' is the change
@@ -20,7 +20,7 @@ import yaml
 KEY = os.environ.get('FRED_API_KEY')     # without it, the public CSV downloads (KEYLESS below)
 ONLY = sys.argv[sys.argv.index('--only') + 1].split(',') if '--only' in sys.argv else None
 ARGS = [a for i, a in enumerate(sys.argv[1:], 1) if a != '--only' and sys.argv[i - 1] != '--only']
-FROM, TO = (ARGS[0], ARGS[1]) if len(ARGS) > 1 else ('1960-01-01', '1966-12-31')
+FROM, TO = (ARGS[0], ARGS[1]) if len(ARGS) > 1 else ('1960-01-01', '1967-12-31')
 OUT = os.path.join(os.path.dirname(__file__), '..', '..', 'indicators')
 FRED = 'https://fred.stlouisfed.org/series/'
 ALFRED = 'https://alfred.stlouisfed.org/series?seid='
@@ -328,8 +328,8 @@ ERP = {
     1967: ('1967-01-26', 'Economic Report of the President, Jan. 1967',
            'https://fraser.stlouisfed.org/title/economic-report-president-45/1967-8138'),
 }
-MONTHS = [f'{y}-{m:02d}' for y, m in [(1960, 12)] + [(y, m) for y in (1961, 1962, 1963, 1964, 1965, 1966) for m in range(1, 13)]]
-RATE_MONTHS = [f'{y}-{m:02d}' for y in range(1960, 1967) for m in range(1, 13)]   # the money-rate tables' span
+MONTHS = [f'{y}-{m:02d}' for y, m in [(1960, 12)] + [(y, m) for y in (1961, 1962, 1963, 1964, 1965, 1966, 1967) for m in range(1, 13)]]
+RATE_MONTHS = [f'{y}-{m:02d}' for y in range(1960, 1968) for m in range(1, 13)]   # the money-rate tables' span
 MANUAL = {
     'wpi': dict(
         name='Wholesale price index', freq='M', change='pct',
@@ -643,7 +643,7 @@ def gap_cbo():
             years.setdefault(p[:4], []).append(g)
             if d >= '1960-10-01':
                 rows.append({'p': p, 'now': g})
-    for y in ('1960', '1961', '1962', '1963', '1964', '1965', '1966'):
+    for y in ('1960', '1961', '1962', '1963', '1964', '1965', '1966', '1967'):
         if len(years.get(y, [])) == 4:
             rows.append({'p': y, 'now': round(sum(years[y]) / 4, 1)})
     write('gap-cbo', {'id': 'gap-cbo', 'name': 'Output gap, CBO (retrospective)', 'freq': 'Q', 'then': None,
