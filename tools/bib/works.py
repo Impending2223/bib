@@ -758,9 +758,13 @@ def line(series, cid):
 #     15, 2026): `files_under` on the card ("Agrarian Reform as Unfinished Business: The Selected Papers of Wolf
 #     Ladejinsky (Louis J. Walinsky ed., 1977)" under Ladejinsky; the Public Papers under each President). The White
 #     House tapes, edited, under the President who recorded them (*Taking Charge* under Johnson; *Kennedy, Johnson, and
-#     the Quest for Justice* under Kennedy, and Johnson as a ghost; the owner's ruling, Oct. 16, 2026); not a study
-#     that draws on them (Hughes, *Chasing Shadows*), nor the Abrams tapes. A book of many writers (a documentary
-#     reader, letters home) stays under its title or editor.
+#     the Quest for Justice* under Kennedy, and Johnson as a ghost; the owner's ruling, Oct. 16, 2026), though many
+#     speak in them. Other recordings, and records of talks, files under the one or few named persons they record or
+#     are attributable to (the owner's ruling, Oct. 16, 2026): *Vietnam Chronicles: The Abrams Tapes* under Abrams;
+#     *Changing an Army*, DePuy's oral history, under DePuy; *The Kissinger Transcripts* under Kissinger; a film cut
+#     from one person's recordings under the person, its director a ghost (*The Lady Bird Diaries*, *Nixon by Nixon*).
+#     Not a study that draws on them (Hughes, *Chasing Shadows*). A book of many writers or speakers (a documentary
+#     reader, letters home, an oral history of many) stays under its title or editor.
 #  7. A work is entered again (a ghost: the citation, and "Filed under" its place) under each of its other names: a
 #     second or later author, the writer it was written "with", an editor, a translator, and a name the card gives in
 #     `also_under` (the writer behind a pseudonym: Cincinnatus [Cecil B. Currey] under Currey).
