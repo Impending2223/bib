@@ -7,11 +7,11 @@ CLAUDE.md ("The calendar"). A review list: a hit is a place to look, not an erro
 
 | Check | Entries |
 |---|---|
-| A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 986 |
-| (of which only a President's surname: Eisenhower, Kennedy, Johnson) | 13 |
+| A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 985 |
+| (of which only a President's surname: Eisenhower, Kennedy, Johnson) | 14 |
 | Neither a bibliography of its own nor a `See [[id]]` back | 0 |
-| No primary record linked or named | 470 |
-| A primary record named but not linked | 89 |
+| No primary record linked or named | 458 |
+| A primary record named but not linked | 86 |
 | Threads (statements listed for review) | 92 |
 
 ## Names
@@ -40,7 +40,7 @@ the person; several mean the surname is shared). "?" marks a surname that is als
 - `cal.1960-03-17.cuba` (Mar. 17, IV mar60.yaml): Eisenhower approves "A Program of Covert Action Against the Castro Regime," from the 5412 Committee. An exile 
   - Swan: Swan, Jimmy (K–J Cong. III.K)
 - `cal.1960-03-21.court` (Mar. 21, IV mar60.yaml): *Thompson v. City of Louisville*, [362 U.S. 199](https://tile.loc.gov/storage-services/service/ll/usrep/usrep3
-  - Thompson: Thompson, Llewellyn E. (K–J Adm. III.E); Thompson, Theo A. (K–J Cong. III.D); Thompson, Fred D. (Wg. III.F); Thompson, Hugh, Jr. (Viet. III.D); Thompson, Robert (Viet. III.I)
+  - Thompson: Thompson, Llewellyn E. (K–J Adm. III.E); Thompson, Theo A. (K–J Cong. III.D); Thompson, Floyd L. (K–J Cong. III.K); Thompson, Fred D. (Wg. III.F); Thompson, Hugh, Jr. (Viet. III.D); Thompson, Robert (Viet. III.I)
 - `cal.1960-03-28.testing` (Mar. 28–30, IV mar60.yaml): Macmillan at Camp David. Joint declaration, Mar. 29: once a treaty is signed and a joint research program arra
   - Camp: Camp, John N. (K–J Cong. III.K)
 - `cal.1960-03-31.medicare` (Mar. 31, IV mar60.yaml): Mills's Ways and Means Committee sets the Forand bill aside, 17–8: hospital, nursing-home and surgical benefit
@@ -2071,7 +2071,6 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - ? Washington: Washington, Walter E. (K–J Cong. III.F)
 - `cal.1967-01-27.space-2` (Jan. 27, LXXXVI jan67.yaml): Cape Kennedy, Launch Complex 34, 6:31 p.m.: fire in the Apollo command module, on the pad in a test, its cabin
   - Kennedy: Kennedy, Jacqueline (K–J Adm. III.A); Kennedy, Joseph P. (K–J Adm. III.A); Kennedy, Robert F. (K–J Adm. III.A, K–J Cong. III.B, 1968 III.K); Kennedy, Edward M. (K–J Cong. III.B, 1968 III.K, 1968 III.P, Cong. III.A); Kennedy, John F. (Viet. III.A)
-  - Thompson: Thompson, Llewellyn E. (K–J Adm. III.E); Thompson, Theo A. (K–J Cong. III.D); Thompson, Fred D. (Wg. III.F); Thompson, Hugh, Jr. (Viet. III.D); Thompson, Robert (Viet. III.I)
 - `cal.1967-01-29.baker` (Jan. 29, LXXXVI jan67.yaml): Baker convicted in federal court in Washington on seven of nine counts: income tax evasion, larceny and inters
   - ? Washington: Washington, Walter E. (K–J Cong. III.F)
 - `cal.1967-02-06.vietnam` (Feb. 6–13, LXXXVII feb67.yaml): Sunflower Plus. Kosygin in London, Feb. 6–13. Wilson presses on him the "Phase A–Phase B" formula, given the B
@@ -2207,7 +2206,7 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - ? Washington: Washington, Walter E. (K–J Cong. III.F)
 - `cal.1967-08-24.testing` (Aug. 24, XCIII aug67.yaml): Geneva. The United States and the Soviet Union, co-chairmen of the Eighteen-Nation Disarmament Committee, tabl
   - Nation: Nation, Bill (K–J Cong. III.K)
-- `cal.1967-08-25.black-nationalism` (Aug. 25, XCIII aug67.yaml): Hoover's FBI opens a counterintelligence program against "black nationalist, hate-type organizations": to "exp
+- `cal.1967-08-25.black-nationalism` (Aug. 25, XCIII aug67.yaml): Hoover's FBI opens a counterintelligence program against "black nationalist, hate-type organizations": a lette
   - Nation: Nation, Bill (K–J Cong. III.K)
 - `cal.1967-09-11.states-and-cities-nyc` (Sept. 11–28, XCIV sep67.yaml): New York City. The United Federation of Teachers strikes the schools as they open, Shanker its president: pay,
   - Taylor: Taylor, Maxwell D. (K–J Adm. III.F, Viet. III.A); Taylor, Roy A. (K–J Cong. III.D); Taylor, George W. (K–J Cong. III.K); Taylor, Maxwell (1968 III.F)
@@ -2248,7 +2247,7 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - ? Washington: Washington, Walter E. (K–J Cong. III.F)
 - `cal.1967-11-18.economy` (Nov. 18–26, XCVI nov67.yaml): Sterling devalued, from $2.80 to $2.40, 14.3 percent; Bank rate to 8 percent; credits for Britain, an IMF stan
   - ? Banks: Banks, Dennis (Cong. III.K)
-- `cal.1967-11-20.health-ca` (Nov. 20, XCVI nov67.yaml): *Morris v. Williams*, 67 Cal. 2d 733: the Supreme Court of California holds unlawful the Health and Welfare Ag
+- `cal.1967-11-20.health-ca` (Nov. 20, XCVI nov67.yaml): *Morris v. Williams*, [67 Cal. 2d 733](https://static.case.law/cal-2d/67/html/0733-01.html): the Supreme Court
   - Williams: Williams, G. Mennen (K–J Adm. III.E); Williams, John B. (K–J Cong. III.D); Williams, Jack (K–J Cong. III.F); Williams, Gene Hal (K–J Cong. III.K); Williams, Hosea (K–J Cong. III.K); Williams, John J. (Opp. III.B)
 - `cal.1967-11-27.trade` (Nov. 27–Dec. 16, XCVI nov67.yaml): The Kennedy Round. Johnson sends Congress the agreement signed at Geneva June 30, as the Trade Expansion Act r
   - Kennedy: Kennedy, Jacqueline (K–J Adm. III.A); Kennedy, Joseph P. (K–J Adm. III.A); Kennedy, Robert F. (K–J Adm. III.A, K–J Cong. III.B, 1968 III.K); Kennedy, Edward M. (K–J Cong. III.B, 1968 III.K, 1968 III.P, Cong. III.A); Kennedy, John F. (Viet. III.A)
@@ -2261,8 +2260,6 @@ the person; several mean the surname is shared). "?" marks a surname that is als
 - `cal.1967-12-04.king` (Dec. 4, XCVII dec67.yaml): Atlanta, Ebenezer Baptist Church. King announces the Poor People's Campaign: the poor, black and white, to Was
   - ? Church: Church, Frank (K–J Cong. III.B, Cong. III.B, Viet. III.E)
   - ? Washington: Washington, Walter E. (K–J Cong. III.F)
-- `cal.1967-12-12.europe-and-the-alliance` (Dec. 12–14, XCVII dec67.yaml): Brussels, the North Atlantic Council's first ministerial meeting at its new seat. The Harmel report, "The Futu
-  - Harmel: Harmel, Pierre C. J. M. (K–J Adm. III.J)
 - `cal.1967-12-13.europe-and-the-alliance` (Dec. 13–14, XCVII dec67.yaml): Greece. Constantine moves against the junta: tells Talbot at Tatoi, Dec. 13, he will fly north to Kavala, take
   - ? King: King, Cecil R. (K–J Cong. III.D); King, John W. (K–J Cong. III.F); King, Marion (K–J Cong. III.H); King, Martin Luther, Jr. (K–J Cong. III.H, Viet. III.E); King, Coretta Scott (K–J Cong. III.K); King, Edwin (K–J Cong. III.K); King, Martin Luther, Sr. (K–J Cong. III.K); King, Tom (K–J Cong. III.K)
 - `cal.1967-12-18.court` (Dec. 18, XCVII dec67.yaml): *Katz v. United States*, [389 U.S. 347](https://tile.loc.gov/storage-services/service/ll/usrep/usrep389/usrep3
@@ -2682,7 +2679,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1967-04-08.civil-disorders` (Apr. 8–10, LXXXIX apr67.yaml): Nashville. Carmichael speaks at Fisk, Apr. 6, at Tennessee A&I, Apr. 7, at Vanderbilt, Apr. 8. The night of Ap
 - `cal.1967-04-10.poverty` (Apr. 10–11, LXXXIX apr67.yaml): Jackson. The Senate's Subcommittee on Employment, Manpower and Poverty, Joseph Clark chairman, Robert Kennedy,
 - `cal.1967-04-11.open-housing-louisville` (Apr. 11, LXXXIX apr67.yaml): Louisville. The Board of Aldermen, Republican, defeats an open housing ordinance, 9–3, over Mayor Schmied's ap
-- `cal.1967-04-12.crime-and-hijacking-ca` (Apr. 12, LXXXIX apr67.yaml): San Quentin, Cal. Aaron Mitchell, convicted of killing a Sacramento policeman in 1963, executed in the gas cha
 - `cal.1967-04-15.war-opposition` (Apr. 15, LXXXIX apr67.yaml): The Spring Mobilization to End the War in Vietnam. New York: from Central Park to the United Nations; King, Sp
 - `cal.1967-04-25.health-co` (Apr. 25, LXXXIX apr67.yaml): Colorado. Love signs Lamm's abortion bill, the first State law to widen the grounds: in a hospital, on the app
 - `cal.1967-05-02.mayors-gary` (May 2, XC may67.yaml): Gary, Democratic primary for mayor. Richard Hatcher, a Negro member of the city council, 18,227, 39.3 percent;
@@ -2691,20 +2687,17 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1967-05-17.states-and-cities-tn` (May 13–17, XC may67.yaml): Tennessee repeals the Butler Act of 1925, which forbade teaching that man descended from a lower order of anim
 - `cal.1967-05-15.robert-kennedy` (May 15, XC may67.yaml): CBS, *Town Meeting of the World*: Robert Kennedy and Reagan on the war, answering students in Europe by satell
 - `cal.1967-05-16.mayors-philadelphia` (May 16, XC may67.yaml): Philadelphia primaries for mayor. Democratic: Mayor Tate 152,949, 63.8 percent, over Hemphill, the city contro
-- `cal.1967-06-02.crime-and-hijacking-co` (June 2, XCI jun67.yaml): Cañon City, Colo. Luis José Monge, convicted of killing his wife and three of their children, executed in the 
 - `cal.1967-06-05.states-and-cities-nm` (June 5, XCI jun67.yaml): Tierra Amarilla, N.M. Tijerina's Alianza raids the Rio Arriba County courthouse to free members arrested June 
 - `cal.1967-06-11.civil-disorders` (June 11–15, XCI jun67.yaml): Tampa. Martin Chambers, 19, a suspect in a burglary, shot in the back by a policeman as he runs, June 11; he d
 - `cal.1967-06-12.civil-disorders` (June 12–15, XCI jun67.yaml): Cincinnati, Avondale. A man protesting the conviction of his cousin, Posteal Laskey, as the "Cincinnati Strang
 - `cal.1967-06-17.testing` (June 17, XCI jun67.yaml): China explodes its first hydrogen bomb over Lop Nur, Sinkiang, dropped from an aircraft, some 3 megatons; 32 m
 - `cal.1967-06-17.civil-disorders` (June 17–20, XCI jun67.yaml): Atlanta, Dixie Hills. A fight at a shopping center, June 17; June 18, Carmichael speaks to a crowd of some 1,0
-- `cal.1967-06-20.draft` (June 20, XCI jun67.yaml): Houston. Muhammad Ali convicted in federal court of refusing induction, after a jury's brief deliberation; Jud
 - `cal.1967-06-26.civil-disorders` (June 26–July 1, XCI jun67.yaml): Buffalo, the East Side, William Street and Jefferson Avenue. Windows broken June 27; some 200 police with riot
 - `cal.1967-07-06.conservation-or` (July 6, XCII jul67.yaml): Oregon. McCall signs the Beach Bill (H.B. 1601): the wet sand to sixteen feet above low tide the State's; a pu
 - `cal.1967-07-14.civil-disorders` (July 14–19, XCII jul67.yaml): Plainfield, N.J., from the night of July 14. July 16, a white patrolman beaten and shot to death by a crowd af
 - `cal.1967-07-20.black-nationalism` (July 20–23, XCII jul67.yaml): Newark, three days after the Guard's withdrawal: the National Conference on Black Power, more than a thousand 
 - `cal.1967-07-30.civil-disorders` (July 30–Aug. 3, XCII jul67.yaml): Milwaukee. Shooting, looting and fires on the North Side from the night of July 30. Maier declares an emergenc
 - `cal.1967-07.states-and-cities-nyc` (July–Sept., XCII jul67.yaml): New York City. Three demonstration districts for community control of the schools, with Ford Foundation money:
-- `cal.1967-08-25.black-nationalism` (Aug. 25, XCIII aug67.yaml): Hoover's FBI opens a counterintelligence program against "black nationalist, hate-type organizations": to "exp
 - `cal.1967-08-28.open-housing-milwaukee` (Aug. 28, XCIII aug67.yaml): Milwaukee. The NAACP Youth Council, Groppi its adviser, close to 200, marches across the 16th Street Viaduct t
 - `cal.1967-08-29.mississippi-ms` (Aug. 29, XCIII aug67.yaml): Mississippi's Democratic runoff for governor: Williams 371,815, 54.5 percent; Winter 310,527.
 - `cal.1967-08-30.mayors-miami` (Aug. 30–31, XCIII aug67.yaml): Miami. Mayor High, in office since 1957, the Democratic nominee for governor in 1966, dies at 43. Aug. 31, Com
@@ -2712,12 +2705,9 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1967-09-11.states-and-cities-nyc` (Sept. 11–28, XCIV sep67.yaml): New York City. The United Federation of Teachers strikes the schools as they open, Shanker its president: pay,
 - `cal.1967-09-26.state-constitutions-ny` (Sept. 26, XCIV sep67.yaml): New York's constitutional convention adjourns. Its constitution to go to the voters as one question, as Travia
 - `cal.1967-09-26.mayors-boston` (Sept. 26, XCIV sep67.yaml): Boston's preliminary election for mayor, Collins not running. Hicks, of the School Committee, 43,722, 28.2 per
-- `cal.1967-10.elections-1968` (Oct., XCV oct67.yaml): Nixon, "Asia After Viet Nam," in *Foreign Affairs*, October: "we simply cannot afford to leave China forever o
 - `cal.1967-10-03.mayors-cleveland` (Oct. 3, XCV oct67.yaml): Cleveland's Democratic primary for mayor. Carl Stokes, a State representative, 110,769, 53.7 percent, over May
 - `cal.1967-10-16.states-and-cities-us` (Oct. 16–24, XCV oct67.yaml): The National Governors' Conference, its 59th meeting, aboard the *Independence*, New York to the Virgin Island
 - `cal.1967-10-18.students` (Oct. 18, XCV oct67.yaml): Madison. Students sit in at the University of Wisconsin's Commerce Building against the recruiters of Dow Chem
-- `cal.1967-10-20.mississippi` (Oct. 20, XCV oct67.yaml): Meridian. *United States v. Price*: the jury convicts seven of conspiring against the rights of Chaney, Goodma
-- `cal.1967-10-28.black-nationalism-oakland` (Oct. 28, XCV oct67.yaml): Oakland. Before dawn, a traffic stop: one policeman killed, another wounded; Newton wounded, charged with murd
 - `cal.1967-10.open-housing-mi` (Oct.–Dec., XCV oct67.yaml): Michigan. Romney asks the legislature, in special session, for a State open occupancy law against discriminati
 - `cal.1967-11-02.mayors-memphis` (Nov. 2, XCVI nov67.yaml): Memphis, under the charter of 1966: Loeb, mayor 1960–63, elected mayor over Mayor Ingram in the runoff, Ingram
 - `cal.1967-11-03.vietnam` (Nov. 3–23, XCVI nov67.yaml): Đắk Tô, in the Central Highlands near the Laotian and Cambodian borders: the 4th Infantry Division and the 173
@@ -2732,7 +2722,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1967-11-11.war-opposition` (Nov. 11, XCVI nov67.yaml): Phnom Penh. The NLF releases three American prisoners, Army sergeants, to Hayden; they return to the United St
 - `cal.1967-11-17.students-philadelphia` (Nov. 17, XCVI nov67.yaml): Philadelphia. Some 3,500 Negro high school students walk out to the Board of Education for courses in Negro hi
 - `cal.1967-11-18.elections-1968` (Nov. 18, XCVI nov67.yaml): Detroit, the Veterans Memorial Building. Romney announces for the Republican nomination; to campaign first in 
-- `cal.1967-11-20.health-ca` (Nov. 20, XCVI nov67.yaml): *Morris v. Williams*, 67 Cal. 2d 733: the Supreme Court of California holds unlawful the Health and Welfare Ag
 - `cal.1967-11-27.european-community` (Nov. 27–Dec. 19, XCVI nov67.yaml): De Gaulle's press conference, Nov. 27: Britain, after the devaluation, not ready to enter the Common Market; i
 - `cal.1967-11-30.elections-1968` (Nov. 30, XCVI nov67.yaml): Washington. McCarthy announces he will enter Democratic primaries against Johnson: Wisconsin, Oregon, Californ
 - `cal.1967-11.mayors-baltimore` (Nov., XCVI nov67.yaml): Baltimore. Thomas D'Alesandro III, president of the City Council, son of the mayor of 1947–59, elected mayor o
@@ -2741,12 +2730,8 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1967-12-04.war-opposition` (Dec. 4–8, XCVII dec67.yaml): Stop the Draft Week, New York. Dec. 5, at the Whitehall Street induction center before dawn: 264 arrested, Spo
 - `cal.1967-12-09.draft` (Dec. 9–13, XCVII dec67.yaml): Hershey and Clark's joint statement, Dec. 9, after Hershey's letter of Oct. 26 to local boards: Justice to giv
 - `cal.1967-12-12.open-housing-milwaukee` (Dec. 12, XCVII dec67.yaml): Milwaukee. The Common Council passes an alderman's compromise open housing ordinance, modeled on the State's l
-- `cal.1967-12-15.congress` (Dec. 15, XCVII dec67.yaml): The 90th Congress's first session ends, Jan. 10–Dec. 15. No tax increase. The second session to open Jan. 15.
-- `cal.1967-12-21.antisubversion-ca` (Dec. 21, XCVII dec67.yaml): *Vogel v. County of Los Angeles*, 68 Cal. 2d 18: the Supreme Court of California strikes the second paragraph 
 - `cal.1967-12-26.crime-and-hijacking-miami` (Dec. 26, XCVII dec67.yaml): Miami. Police Chief Headley announces patrols of shotguns and dogs in the Negro districts against "young hoodl
 - `cal.1968-01-03.elections-1968` (Jan. 3, XCVIII jan68.yaml): Concord, N.H. McCarthy will enter the New Hampshire primary, Mar. 12 (Check the place).
-- `cal.1968-01-05.war-opposition` (Jan. 5, XCVIII jan68.yaml): Boston. A federal grand jury indicts Spock, Coffin, Goodman, Ferber and Raskin: conspiracy to counsel, aid and
-- `cal.1968-01-15.congress` (Jan. 15, XCVIII jan68.yaml): The 90th Congress's second session opens. The State of the Union set for Jan. 17.
 - `cal.1968-01-15.war-opposition` (Jan. 15, XCVIII jan68.yaml): The Jeannette Rankin Brigade: some 5,000 women march from Union Station toward the Capitol on the session's op
 - `cal.1968-04-02.elections-1968` (Apr. 2, C apr68.yaml): Wisconsin primary. Republican: Nixon 79.7 percent, Reagan 10.4. Democratic: McCarthy 56.2 percent, Johnson 34.
 - `cal.1968-04-23.elections-1968` (Apr. 23, C apr68.yaml): Pennsylvania primary. Republican: Nixon (write-in) 59.7 percent, Rockefeller (write-in) 18.4. Democratic: McCa
@@ -2855,9 +2840,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1967-08-09.vietnam` (Aug. 9–31, XCIII aug67.yaml): The Preparedness Investigating Subcommittee of Senate Armed Services, Stennis chairman, on the air war against — names "Hearings"
 - `cal.1967-11-04.governors-la` (Nov. 4, XCVI nov67.yaml): Louisiana's Democratic primary. McKeithen, the first governor the constitution lets succeed himself (the amend — names "Election Returns"
 - `cal.1967-11-07.state-constitutions-ny` (Nov. 7, XCVI nov67.yaml): New York's voters reject the convention's constitution, 1,327,999 to 3,487,513, 27.6 percent for. They approve — names "Legislative Manual"
-- `cal.1967-11-07.state-constitutions-san-francisco` (Nov. 7, XCVI nov67.yaml): San Francisco's voters reject Proposition P, a declaration of policy for a cease-fire and the withdrawal of Am — names "67 Cal. 2d 325"
-- `cal.1967-12-13.open-housing-louisville` (Dec. 13, XCVII dec67.yaml): Louisville. The Board of Aldermen, Democrats elected Nov. 7 on a promise to pass it, adopts an open housing or — names "Ordinance"
-- `cal.1967-12.court-us` (Dec., XCVII dec67.yaml): Dirksen's drive for a convention on apportionment, at the year's end: 32 legislatures have applied since 1963, — names "Cong. Rec."
 
 ## Threads
 
@@ -2867,13 +2849,13 @@ The brief: what the thread is, and its stations, in one or two clipped sentences
 |---|---|
 | Africa | Africa apart from the Congo. Sharpeville and the Security Council; the colonial declaration; Williams's "Africa for the Africans"; Angola at the UN; Mohamed V dies; Nkrumah and the Volta dam; Bizerte; the Moroccan bases; Algeria independent, Ben Bella at the White House and in Havana; the General Assembly's sanctions on South Africa. |
 | Alabama | Alabama, 1960–65: the students, the Freedom Rides, Wallace, Birmingham, the schools, Selma. The Montgomery students; King acquitted; Meriwether confirmed; Anniston and the Birmingham terminal; Montgomery, the marshals, the church besieged; the riders on to Jackson; Wallace nominated. |
-| Antisubversion | The States' committees, laws and oaths against subversion. Mississippi's Sovereignty Commission and the Citizens' Council; the Burns committee's report; Proposition 24 refused. |
-| Assassination | Kennedy killed at Dallas, and the inquiry. Nov. 22; Oswald killed; the funeral; the Warren Commission; the first witness; Ruby convicted; the Report; the hearings published; the Manchester suit; Ruby's death. |
+| Antisubversion | The States' committees, laws and oaths against subversion, and the Subversive Activities Control Board. Mississippi's Sovereignty Commission and the Citizens' Council; the Burns committee's report; Proposition 24 refused. |
+| Assassination | Kennedy killed at Dallas, and the inquiry. Nov. 22; Oswald killed; the funeral; the Warren Commission; the first witness; Ruby convicted; the Report; the hearings published; the Manchester suit and its settlement; Ruby's death; Garrison's inquiry at New Orleans, Ferrie's death, Shaw's arrest. |
 | Berlin and Vienna | The second Berlin crisis, from Khrushchev's demands to the wall and after. Adenauer at the White House; the East German permits; Vienna; the July buildup; Aug. 13; Clay in Berlin; Checkpoint Charlie; Powers for Abel; Fechter. |
-| Black nationalism | Malcolm X and the Nation of Islam, and Black Power. The "chickens" remark and the suspension; the break; "The Ballot or the Bullet"; the Organization of Afro-American Unity; the assassination; CORE's "black power"; the Black Panther Party. |
-| Bobby Baker | The Senate majority's secretary and the Rules Committee's inquiry. Resignation, Oct. 7; Reynolds before the committee's staff; Johnson's statement; the Williams resolution tabled; the Select Committee on Standards and Conduct; the inquiry reopened. |
+| Black nationalism | Malcolm X and the Nation of Islam, and Black Power. The "chickens" remark and the suspension; the break; "The Ballot or the Bullet"; the Organization of Afro-American Unity; the assassination; CORE's "black power"; the Black Panther Party; the Panthers at Sacramento; the Black Power conference at Newark; the FBI's counterintelligence program; Newton's arrest. |
+| Bobby Baker | The Senate majority's secretary and the Rules Committee's inquiry. Resignation, Oct. 7; Reynolds before the committee's staff; Johnson's statement; the Williams resolution tabled; the Select Committee on Standards and Conduct; the inquiry reopened; Baker convicted. |
 | Cities and housing | Housing, the cities, and urban transit. The Housing Act of 1961; the Urban Affairs department refused, by Rules and by the House; Weaver. |
-| Civil disorders | The riots in the cities and what was done about them: Newark, Detroit, the troops, the Kerner Commission, the riot bills. |
+| Civil disorders | Riots in the cities, and the inquiries and bills that followed. Nashville; Tampa, Cincinnati, Atlanta, Buffalo; Newark and Plainfield; Cramer's anti-riot bill through the House; Detroit, the Guard and the paratroopers; H. Rap Brown at Cambridge; the address of July 27 and the Kerner Commission; Milwaukee; the Senate's inquiry; the Miami chief's patrols. |
 | Civil rights bill | The civil rights bill from Kennedy's address to the Act and its first year. The Senators' pledge of 1960. |
 | Civil rights organizations | The organizations of the movement as organizations: the NAACP and its Legal Defense Fund, the Urban League, CORE, SCLC, SNCC, COFO, the Freedom Democrats, and their councils; their leaders, foundings, splits and statements. *Bates*; SNCC founded at Raleigh; Farmer to CORE; Highlander; Greenberg and Young; the Albany Movement; COFO revived; the Voter Education Project. |
 | Civil rights: the executive | What the President did for civil rights by appointment and order. The Senators' pledge and the stroke of a pen; Lodge's promise; Weaver; the equal employment committee; the new judgeships, Cox and Marshall; the housing order. |
@@ -2881,14 +2863,14 @@ The brief: what the thread is, and its stations, in one or two clipped sentences
 | Congo | The Congo's civil war and the UN's war in Katanga. Independence; Katanga's secession and the UN force; Lumumba in Washington; the plot against him; his dismissal, Mobutu, his capture; his death; Rumpunch; Hammarskjöld's death; U Thant; Kitona; Elisabethville. |
 | Congress | Congress as an institution: its leaders and sessions. The 86th's second session and its August return; Kennedy's seat resigned; Rayburn's death; McCormack Speaker; the second session's end, Oct. 13, 1962. |
 | Conservation | Public lands, wilderness, and pollution. The water-pollution veto; the natural resources message; Cape Cod; the wilderness bill through the Senate; the Delaware compact; the conservation message and the Bureau of Outdoor Recreation; the White House conference; the western dams; *Silent Spring*; Point Reyes and Padre Island. |
-| Consumer protection | Consumer protection: the messages, truth in lending, meat and poultry inspection, flammable fabrics, product safety. |
+| Consumer protection | Consumer protection: credit, meat, fabrics, products. The message of Feb. 16, 1967; Betty Furness; truth in lending through the Senate; meat inspection and the Wholesome Meat Act; the Product Safety Commission; the Flammable Fabrics amendments. |
 | Court | The Supreme Court's October 1959 to October 1965 Terms, its new Justices, and Congress's answers. *Raines*; *Elkins*; *Gomillion*; *Boynton*; *Mapp*; *Baker v. Carr*, argued, reargued, decided; *Engel v. Vitale*; White and Goldberg for Whittaker and Frankfurter. |
 | Crime and hijacking | Robert Kennedy's crime bills, the first hijackings to Cuba, and Johnson's crime program. Three hijackings, May–Aug. 1961; aircraft piracy a federal crime; the Wire and Travel Acts. |
 | Cuba | Cuba short of the missile crisis, and after. Mikoyan in Havana; the covert program; the sugar quota and the nationalizations; the embargo; the break; the Bay of Pigs and its inquiry; Mongoose; Punta del Este; Northwoods; the prisoners' ransom; the Orange Bowl. |
 | Defense | Strategy and the defense budget. The missile gap in the hearings; Polaris at sea; the SIOP; the farewell address; McNamara's no missile gap; the March budget; the Berlin increase; civil defense to the Pentagon; Gilpatric at Hot Springs; the RS-70; counterforce at Ann Arbor. |
 | Desegregation: public places | Segregation in travel, at lunch counters, in parks and other public places, short of the schools; each event in its own thread. *Boynton*; Burton; the Freedom Rides and the ICC order; Albany; Garner. Gallup on the Freedom Riders and on integration. |
 | Desegregation: schools | Schools and universities opened under federal court orders, each event in its own thread. New Orleans; Georgia; Atlanta; Meredith at Oxford. Gallup on school integration. |
-| Draft | Selective Service: the Marshall Commission, the act of 1967, deferments, the lottery proposed. |
+| Draft | Selective Service. The message and the Marshall Commission's lottery; Muhammad Ali's refusal and conviction; the Military Selective Service Act; Stop the Draft Week; Hershey's letter to the boards and his statement with Ramsey Clark; the Boston indictments. |
 | Economy | The recession of 1960–61, the recovery, and the tax cut. The peak; the London gold price; the balance-of-payments directive; the task force; the trough; the Fed's long rates; the gap; the debt limit; the 1962 Report; the May slide; depreciation; the investment credit; the Economic Club. |
 | Elections of 1960 | The 1960 election, from the announcements to the count. The primaries, Mar. 8 to June 7 (CQ's returns); Wisconsin and West Virginia; Los Angeles and Chicago; the Treaty of Fifth Avenue; Houston; the four debates; King's arrest; Nov. 8; Hawaii's recount; the electors; the count, Jan. 6. |
 | Elections of 1961 | The off-year elections of 1961. Governors: Hughes in New Jersey, Harrison in Virginia. Mayors: Yorty over Poulson; Wagner against Tammany, then re-elected; Allen over Maddox in Atlanta; Cavanagh over Miriani in Detroit; Cowger in Louisville. |
@@ -2897,9 +2879,9 @@ The brief: what the thread is, and its stations, in one or two clipped sentences
 | Elections of 1964 | The elections of 1964, from the race for the nominations to the result. The Goldwater draft, its Chicago meetings. |
 | Elections of 1964: polls | Gallup on 1964, the Republicans' choice and Kennedy against each. Nixon first; Rockefeller over Goldwater; Kennedy 65, Nixon 35; Rockefeller ahead, Nov. 1962. |
 | Elections of 1965 | The off-year elections of 1965. Lindsay over Beame and Buckley in New York; Hughes re-elected and Godwin elected governors; Yorty, Cavanagh and Barr re-elected; Locher over Stokes; Cervantes in St. Louis; Bond to the Georgia House. |
-| Elections of 1966 | The primaries and midterms of 1966. Lurleen Wallace; Reagan; the Virginia, Tennessee and Michigan primaries; Maddox; Brooke; Nov. 8; the Georgia governorship to the legislature. |
-| Elections of 1967 | The off-year elections of 1967: the governors of Kentucky and Mississippi, the mayors of Cleveland, Gary, Boston and Philadelphia, the State constitutions on the ballot. |
-| Elections of 1968 | The 1968 nominations: Gallup's trial heats and the parties' choices from 1966; the primaries, Mar. 12 to June 11 (CQ's returns), and the conventions, Miami Beach, Aug. 5, and Chicago, Aug. 26. The rest of the year not yet written. |
+| Elections of 1966 | The primaries and midterms of 1966. Lurleen Wallace; Reagan; the Virginia, Tennessee and Michigan primaries; Maddox; Brooke; Nov. 8; the Georgia governorship to the legislature, Maddox chosen; Reagan sworn. |
+| Elections of 1967 | The off-year elections of 1967. Mayors: Daley's fourth term; Hatcher at Gary, Stokes at Cleveland; Tate over Specter; White over Hicks; Alioto, Lugar, D'Alesandro, Loeb. Governors: McKeithen renominated; Nunn in Kentucky; Williams in Mississippi. New Jersey's Senate Republican; Reid to Virginia's House of Delegates; New York's constitution refused. |
+| Elections of 1968 | The 1968 nominations: Gallup's trial heats and the parties' choices from 1966; Nixon's preparations; Romney's "brainwashing" and his announcement; McCarthy against Johnson; the primaries, Mar. 12 to June 11 (CQ's returns), and the conventions, Miami Beach, Aug. 5, and Chicago, Aug. 26. The rest of the year not yet written. |
 | Elections of 1972 | The 1972 nominations: the primaries, Mar. 7 to June 6 (CQ's returns), and the conventions, both at Miami Beach, July 10 and Aug. 21. The rest of the year not yet written. |
 | Elections of 1976 | The 1976 nominations: the primaries, Feb. 24 to June 8 (CQ's returns), and the conventions, New York, July 12, and Kansas City, Aug. 16. The rest of the year not yet written. |
 | Europe and the alliance | Britain, Germany, France, Turkey, and the alliance's nuclear arms. Macmillan at Camp David; de Gaulle's visit; Herter's NATO force; the Turkish coup; Cyprus independent; the Acheson directive; the Ottawa pledge; the Jupiters kept; Menderes hanged; Bermuda; Athens; Makarios at the White House; the Declaration of Interdependence; the Jupiters to go; Skybolt cancelled; Nassau. |
@@ -2913,7 +2895,7 @@ The brief: what the thread is, and its stations, in one or two clipped sentences
 | Health | Health policy other than Medicare: drugs, mental health, the health professions. Thalidomide and Kelsey; the Drug Amendments. |
 | Immigration | The national-origins quotas and their repeal. The 1960 message; the refugee resolution; the Cuban refugee program; the 1961 amendments; the braceros extended; the Hong Kong parole; the refugee assistance act; the waiting lists cleared. |
 | India and China | India's wars, American arms for India, and South Asia and Indonesia. Goa; the Chinese attack of October 1962; Nehru's request; Harriman's mission. |
-| Intelligence | The CIA at home: the covert subsidies to the National Student Association and private bodies made public, the Katzenbach committee. |
+| Intelligence | The CIA at home. Its money for the National Student Association made public; the Katzenbach committee's rule against covert support of private bodies. |
 | Japan and Korea | The alliances with Japan and South Korea. The security treaty signed; Rhee's fall; the Diet's vote and the riots; Hagerty mobbed and the visit cancelled; the Senate's consent; Kishi out, Ikeda in; Chang Myon's government; Reischauer to Tokyo; Park's coup; Ikeda in Washington; the Ryukyus task force; Hakone; Park in Washington; the Ryukyus order. |
 | Jobs and wages | Unemployment, depressed areas, and wages. The area redevelopment veto; the minimum wage held over; the recovery message; the minimum wage; area redevelopment; federal employees' unions; manpower training; public works acceleration. |
 | King | Martin Luther King, Jr. The President, the Attorney General, the Bureau. The perjury trial; Rich's and Reidsville; Montgomery's church besieged; Albany. |
@@ -2928,7 +2910,7 @@ The brief: what the thread is, and its stations, in one or two clipped sentences
 | Mississippi | The movement in Mississippi, Meredith's admission, Evers, and Freedom Summer. The riders jailed at Jackson; McComb; Herbert Lee; the Fifth Circuit's order; Barnett's refusals; the calls; Oxford. |
 | Open housing | Open housing in the States and cities. Pennsylvania's fair housing law; Washington's court voids its law on publicly assisted housing; Detroit's ordinance against blockbusting; Atlanta's barricades; Colorado's court upholds its law. |
 | Opinion | The public's view, by Gallup's releases. Approval (each month's table gives every reading); the race for 1964, Nixon, Rockefeller, Goldwater; integration and the Freedom Riders; the most important problem; Cuba, Berlin, testing, fallout shelters, the Court; Medicare, school aid, the tax cut; prejudice in politics. |
-| Opposition to the war | Opposition to the war outside the government: the Spring Mobilization, King at Riverside Church, Vietnam Summer, Stop the Draft Week, the March on the Pentagon. |
+| Opposition to the war | Opposition to the war outside the government. Ashmore and Baggs in Hanoi; King at Beverly Hills, Chicago and Riverside Church; the Spring Mobilization; the flag-burning bill; Century City; Stop the Draft Week; the March on the Pentagon; Proposition P; Hayden and the three prisoners; the Boston indictments; the Jeannette Rankin Brigade. |
 | Peace Corps | The Peace Corps, from the campaign to statute. Ann Arbor; the Cow Palace; the executive order; Ghana; the act; the Ibadan postcard. |
 | Press and broadcasting | The President and the press, and broadcasting's regulators. Section 315 suspended; the live press conference; the publishers' speech; Minow's wasteland; the White House tour; the *Herald Tribune* cancelled; Sylvester's right to lie; the newspaper strike; "After Two Years." |
 | Program | The President's program as a whole: the State of the Union messages and the agenda they set; what falls under no field's thread. Eisenhower's last two; the national goals commission; the Address to the Joint Session; Fulbright–Hays. |
@@ -2947,13 +2929,13 @@ The brief: what the thread is, and its stations, in one or two clipped sentences
 | States and cities | State and city politics where no narrower thread holds them. The Twenty-third Amendment; Chessman; the Governors' Conferences; Tower; Newburgh; Atlanta's schools; New York's Conservative Party; Nashville's Metro charter; Brooke attorney general; the Council of State Governments' amendments. |
 | Steel | Steel prices and the guideposts. The 1959 strike settled; the letter of September 1961; the early settlement; the April price rise and its rescission. |
 | Students | College and university students in politics. The HUAC hearings at San Francisco; the peace pickets at the White House; Port Huron. |
-| Succession | Johnson's first weeks, and the succession amended. The oath; the joint session; the Kennedy program; the budget; the disability amendment in the Senate; the disability message; the Twenty-fifth Amendment through Congress; Johnson's surgery, 1965 and 1966. |
+| Succession | Johnson's first weeks, and the succession amended. The oath; the joint session; the Kennedy program; the budget; the disability amendment in the Senate; the disability message; the Twenty-fifth Amendment through Congress; Johnson's surgery, 1965 and 1966; the Amendment ratified. |
 | Testing | Nuclear testing and arms control. The threshold proposal; France's first test; the Ten-Nation Committee; the moratorium declaration; the Antarctic Treaty; the Soviet resumption; American tests underground; ACDA; the fifty megatons; atmospheric tests resumed; Geneva; Starfish Prime; Khrushchev's inspection offer. |
 | Trade | Trade, from the Trade Expansion Act to the wheat sale. The OECD convention; the House and Senate votes; Herter named. |
 | Transition and staff | The administration's people and organization. The first appointments; Key Biscayne; the cabinet named; the NSC remade; the back injury; Taylor at the White House; McCone for Dulles; the Thanksgiving reshuffle; Joseph Kennedy's stroke; Hoover's lunch; Taylor to the Joint Chiefs. |
 | Transportation | Transportation and its safety. The message on freight rates, user charges and mass transit; New York: the Lower Manhattan Expressway set aside. |
 | Vietnam | The deepening commitment in Vietnam. Tây Ninh; the Caravelle petition; the Party's Third Congress; Durbrow's démarche; the paratroop coup; the National Liberation Front; the counterinsurgency plan; Johnson's trip; NSAM 52; Staley; Taylor–Rostow; NSAM 111; helicopters and the first dead; MACV; strategic hamlets; Galbraith's dissent; McNamara's visits; Mansfield's report; Ấp Bắc. |
 | Voting rights | Voting rights in Congress and the field. The referee plan, the filibuster, cloture refused, the Civil Rights Act of 1960; *Raines*; *Gomillion*; the poll tax amendment through Congress; the Voter Education Project; the literacy-test filibuster. |
-| War on poverty | The war on poverty, from the State of the Union of Jan. 8, 1964: Shriver's task force; the poverty message; the Economic Opportunity Act; the Office of Economic Opportunity; the 1965 letter; Head Start; the Economic Opportunity Amendments; the 1966 amendments. |
+| War on poverty | The war on poverty, from the State of the Union of Jan. 8, 1964: Shriver's task force; the poverty message; the Economic Opportunity Act; the Office of Economic Opportunity; the 1965 letter; Head Start; the Economic Opportunity Amendments; the 1966 amendments; the children and youth message; "America's Unfinished Business"; the hunger hearings at Jackson; the 1967 amendments and Green's amendment. |
 | Welfare | Public assistance and Social Security. Kerr–Mills; aid to children of the unemployed; the Social Security Amendments of 1961; the Public Welfare Amendments of 1962. |
 | Women | The status of women in law and policy. The President's Commission. |
