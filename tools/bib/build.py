@@ -631,7 +631,7 @@ class Linker:
         last word; else the token's last words the surname, any given names before them agreeing (an initial for a
         name) and any suffix the same."""
         tok = re.sub(r"\s*\([^)]*\)", "", token).strip()
-        words = [store.fold(w).strip(".") for w in tok.split()]
+        words = [w.strip(".") for w in store.fold(tok).split()]
         if not words:
             return False
         if "," not in name:
@@ -647,7 +647,7 @@ class Linker:
                 return False
             words = words[:-1]
         if words[-len(sw):] != sw:
-            return False
+            return len(sw) > 1 and sw[:len(words)] == words    # a compound surname's first part ('Arosemena', 'Ayub')
         lead = words[:-len(sw)]
         return all(i < len(gw) and (a == gw[i] or (len(a) == 1 and gw[i].startswith(a)) or (len(gw[i]) == 1 and a.startswith(gw[i])))
                    for i, a in enumerate(lead))

@@ -107,6 +107,11 @@ def state_of(s):
 
 # ---------------------------------------------------------------- the House
 
+# the list's reasons that the record corrects
+WHY = {'Excluded from the 90th Congress on February 28, 1967.':
+       'Excluded from the 90th Congress on March 1, 1967.'}   # H. Res. 278, adopted Mar. 1, 1967 (Powell v. McCormack, 395 U.S. 486, 493)
+
+
 def house_list(cache):
     """{(Congress, st, seat, date): row} from the list of House specials."""
     out = {}
@@ -119,6 +124,7 @@ def house_list(cache):
         people = re.findall(r'\|\s*\[\[(?:[^|\]]*\|)?([^\]]+)\]\]\s*\((\w+)\)', blk)
         d = re.findall(r'([A-Z][a-z]+ \d{1,2}, \d{4})\]\]', blk) or re.findall(r'nowrap \| ([A-Z][a-z]+ \d{1,2}, \d{4})', blk)
         why = next((plain(c) for c in cells if re.match(r'(Died|Resigned|Expelled|Excluded|Seat|Election|Vacant|Lost|Retired)', plain(c))), '')
+        why = WHY.get(why, why)
         if not (u and people and d):
             continue
         row = {'cong': int(m.group(1)), 'ch': 'h', 'st': state_of(u.group(1)), 'seat': seat_of(u.group(2)),

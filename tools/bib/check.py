@@ -285,6 +285,8 @@ def plain_vietnamese(series):
     plain = {}
     for k in marked:
         p = store.fold(k)
+        if p == k.lower():                          # a name with no marks to lose (Kon Tum)
+            continue
         plain.setdefault(p, k)
         w, pw = k.split()[-1], p.split()[-1]
         titled = [f for f in forms.get(k) or [] if "," not in f and store.fold(f).split()[-1:] == [pw]

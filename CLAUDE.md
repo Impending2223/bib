@@ -1058,7 +1058,7 @@ tools/bib/indicators.py       renders them (ORDER, GROUP) and checks them
 
 - ALFRED initial releases: CPI, unemployment, payrolls, industrial production,
   GNP, real GNP; the deflator is GNP over real GNP in the same release.
-- Transcribed from the *Economic Report* of the next January (page images on
+- Transcribed from the next *Economic Report*, of January (February in 1968) (page images on
   govinfo; values and table/page in MANUAL in the script): wholesale prices,
   the administrative and cash budgets, the federal sector of the national
   accounts, the balance of payments. For these "first" means as reported then.
