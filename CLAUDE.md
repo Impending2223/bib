@@ -55,7 +55,8 @@ So every calendar entry has:
   - `Names: …`, every person in `c` who has a name entry ("Names, events"), by surname, commas between: "Names: Heller,
     Tobin." No list or section after the names (the owner's ruling, Oct. 14, 2026; taken out of the data Oct. 15). Each
     name is found by its `name:` tag and the name index (`who_named` in `tools/bib/build.py`) and linked to the name
-    entry. Where the tagged persons share a surname, write the given name ("Martin Luther King", "Frank Johnson"); a son
+    entry; a person with a name entry but no Part III entry (from the rosters or FRUS's lists) by his tag alone
+    (`tagged_named`). Where the tagged persons share a surname, write the given name ("Martin Luther King", "Frank Johnson"); a son
     or father with his suffix ("Harry F. Byrd Jr.", "Martin Luther King Sr."); a name in its own order as it stands
     ("Ngô Đình Diệm", "Satō", "Haile Selassie"). Nothing after the names but a sentence of its own ("Check: …").
     `check` warns on a list or section written in the line [names-section], a name no person fits [names-unknown], and
@@ -133,12 +134,12 @@ notes/leads.md            leads to check later: events, figures and sources the 
 congress/changes.yaml     departures and successors during each Congress (generated)
 congress/specials.yaml    special elections during each Congress, 87th–93rd, with candidates (generated)
 congress/switches.yaml    members who changed party in office (kept by hand)
-elections/governors.yaml  every general election for governor, 1960–66 (generated from Wikipedia; never edit)
+elections/governors.yaml  every general election for governor, 1960–67 (generated from Wikipedia; never edit)
 elections/legislatures.yaml  each State legislature's parties by session, 1959–67 (generated from Klarner; never edit)
 sources/states.yaml       each State's own official election publications, where to read them, what they print (kept by hand)
 daybook/<YYYY-MM>.yaml    every Public Papers (APP) and FRUS document by date (generated)
 daybook/abstracts.yaml    one-sentence abstracts, keyed by document (kept by hand or agent)
-daybook/recordings/<YYYY-MM>.yaml  every White House recording PRDE catalogues, July 1962–Jan. 3, 1967 (generated)
+daybook/recordings/<YYYY-MM>.yaml  every White House recording PRDE catalogues, July 1962–Jan. 15, 1968 (generated)
 daybook/recordings/millercenter.yaml  the same span's recordings the Miller Center gives free, page and audio (generated)
 daybook/sunday.yaml       the Sunday interview programs and their guests: Meet the Press, 1945–80; Face the Nation, 1959–70 (generated)
 sources/loc/              the Library of Congress finding aid make_sunday.py reads (Spivak visual materials, pp020019, pp. 1–136)
@@ -154,7 +155,7 @@ tools/executive/          the one-time script that seeded executive/ from POCOM
 | kja  | K–J Adm.  | Kennedy and Johnson administrations, 1961–69 |
 | kjc  | K–J Cong. | Congress, the nation, and the states, 1961–69 |
 | opp  | Opp.      | The Republican opposition, 1961–69           |
-| cal  | Cal.      | Calendar, Jan. 6, 1960–Jan. 3, 1967 (the 86th Congress's second session; the 87th, 88th and 89th); the primaries, 1960–76; built as two pages, Cal. I (`cal.html`, 1960–62) and Cal. II (`cal63.html`, from Jan. 1963) |
+| cal  | Cal.      | Calendar, Jan. 6, 1960–Jan. 15, 1968 (the 86th Congress's second session; the 87th, 88th and 89th; the 90th's first session); the primaries, 1960–76; built as two pages, Cal. I (`cal.html`, 1960–62) and Cal. II (`cal63.html`, from Jan. 1963) |
 | l68  | 1968      | The 1968 campaign ("the 1968 list")          |
 | adm  | Adm.      | Nixon and his administration, 1969–74        |
 | cong | Cong.     | Congress, the nation, and the states, 1969–74 |
@@ -163,11 +164,11 @@ tools/executive/          the one-time script that seeded executive/ from POCOM
 
 Parts: I portrayals, II sources, III names. A reference like "K–J Adm. II.D"
 is `lists/kja/II.D.yaml`. The calendar's files are named by month: `apr.yaml`
-for 1961, `apr60.yaml` for 1960, `apr62.yaml` for 1962, `apr63.yaml` for 1963, `apr64.yaml` for 1964, `apr65.yaml` for 1965;
-every section a calendar month (`jan60.yaml` from Jan. 6, 1960, the calendar's first day; `jan67.yaml` to Jan. 3, 1967, its
-last), plus `th.yaml` (threads); the primary seasons after Jan. 1967, `mar68.yaml`–`aug76.yaml`, hold only the primaries
+for 1961, `apr60.yaml` for 1960, `apr62.yaml` for 1962, `apr63.yaml` and so on for 1963–67;
+every section a calendar month (`jan60.yaml` from Jan. 6, 1960, the calendar's first day; `jan68.yaml` to Jan. 15, 1968, its
+last), plus `th.yaml` (threads); the primary seasons after Jan. 1968, `mar68.yaml`–`aug76.yaml`, hold only the primaries
 and the conventions' openings for now. Its sections are numbered straight
-through, I to CV, in date order, in the data (`num`); the headings show the dates alone.
+through, I to CXVII, in date order, in the data (`num`); the headings show the dates alone.
 
 ## Finding things (start here)
 
@@ -885,8 +886,8 @@ year does not print. `tools/bib/primaries.py` renders them (STYLE notes there):
 ## Governors
 
 `elections/governors.yaml`, written by `tools/elections/make_governors.py` from Wikipedia (needs the network; the build
-does not): every general election for governor, 1960–66, odd years included (New Jersey and Virginia, 1961 and 1965;
-Kentucky and Mississippi, 1963; Louisiana, Mar. 3, 1964). The races and incumbents from Wikipedia's tables of each
+does not): every general election for governor, 1960–67, odd years included (New Jersey and Virginia, 1961 and 1965;
+Kentucky and Mississippi, 1963 and 1967; Louisiana, Mar. 3, 1964; not Louisiana's of Feb. 6, 1968, past the calendar's end). The races and incumbents from Wikipedia's tables of each
 year; the figures from each race's article, its election box, with the source the article gives for them (most the
 State's canvass or *America Votes*; Our Campaigns, or none, marks Check). What the articles cannot settle is `HAND` in
 the script (Georgia, 1966: the legislature elected Maddox; Minnesota, 1962: the recount). Never edit the file by hand.
@@ -896,7 +897,7 @@ the script (Georgia, 1966: the legislature elected Maddox; Minnesota, 1962: the 
   gains, the governorships after), a map (Result: the winner's party, dark where it took the office; Margin: the
   election maps' quantile rule), and the table, one race a `tbody`: the candidates with votes and shares, the margin,
   and under them the note (the incumbent and his fate, the hold or gain, the source). Now Nov. 8, 1960, Nov. 6, 1962,
-  Nov. 3, 1964 and Nov. 8, 1966 (thread "Governors"); the odd years' races are entries of their own.
+  Nov. 3, 1964, Nov. 8, 1966 and Nov. 7, 1967 (thread "Governors"); the other odd years' races are entries of their own.
 - Names: each race a row in the candidate's record (`governor_rows` in `tools/bib/lives.py`), the date linked to the
   day's table.
 - The primaries for governor are calendar entries (thread "Governors"), their figures cited in each entry.
@@ -1057,7 +1058,7 @@ tools/bib/indicators.py       renders them (ORDER, GROUP) and checks them
 
 - ALFRED initial releases: CPI, unemployment, payrolls, industrial production,
   GNP, real GNP; the deflator is GNP over real GNP in the same release.
-- Transcribed from the *Economic Report* of the next January (page images on
+- Transcribed from the next *Economic Report*, of January (February in 1968) (page images on
   govinfo; values and table/page in MANUAL in the script): wholesale prices,
   the administrative and cash budgets, the federal sector of the national
   accounts, the balance of payments. For these "first" means as reported then.

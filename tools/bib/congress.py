@@ -104,6 +104,8 @@ class Pointers:
         toks = names_tokens(names_line(n)[1])
         for (tok, ref_part), hit in zip(toks, self.linker.names_resolved([t for t, _ in toks], tags)):
             x = hit[0] if hit else None
+            if hit and not x:                # a name entry with no Part III entry: nothing to point to here
+                continue
             if not x and ref_part:
                 scanned = list(self.linker.refs.scan(ref_part, lst.key))
                 if scanned:

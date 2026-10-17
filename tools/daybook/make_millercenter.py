@@ -26,7 +26,7 @@ import yaml
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 OUT = os.path.join(ROOT, "daybook", "recordings", "millercenter.yaml")
-FROM, TO = "1961-01-20", "1967-01-03"
+FROM, TO = "1961-01-20", "1968-01-15"
 API = "https://millercenter.org/jsonapi/node/presidential_recording"
 SITE = "https://millercenter.org"
 FIELDS = ("drupal_internal__nid,title,path,field_date,field_time,field_tape,field_citation_number,field_audio_url,field_audio_valid,"
