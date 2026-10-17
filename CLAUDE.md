@@ -134,12 +134,12 @@ notes/leads.md            leads to check later: events, figures and sources the 
 congress/changes.yaml     departures and successors during each Congress (generated)
 congress/specials.yaml    special elections during each Congress, 87th–93rd, with candidates (generated)
 congress/switches.yaml    members who changed party in office (kept by hand)
-elections/governors.yaml  every general election for governor, 1960–67 (generated from Wikipedia; never edit)
-elections/legislatures.yaml  each State legislature's parties by session, 1959–67 (generated from Klarner; never edit)
+elections/governors.yaml  every general election for governor, 1960–68 (generated from Wikipedia; never edit)
+elections/legislatures.yaml  each State legislature's parties by session, 1959–69 (generated from Klarner; never edit)
 sources/states.yaml       each State's own official election publications, where to read them, what they print (kept by hand)
 daybook/<YYYY-MM>.yaml    every Public Papers (APP) and FRUS document by date (generated)
 daybook/abstracts.yaml    one-sentence abstracts, keyed by document (kept by hand or agent)
-daybook/recordings/<YYYY-MM>.yaml  every White House recording PRDE catalogues, July 1962–Jan. 15, 1968 (generated)
+daybook/recordings/<YYYY-MM>.yaml  every White House recording PRDE catalogues, July 1962–Jan. 20, 1969 (generated)
 daybook/recordings/millercenter.yaml  the same span's recordings the Miller Center gives free, page and audio (generated)
 daybook/sunday.yaml       the Sunday interview programs and their guests: Meet the Press, 1945–80; Face the Nation, 1959–70 (generated)
 sources/loc/              the Library of Congress finding aid make_sunday.py reads (Spivak visual materials, pp020019, pp. 1–136)
@@ -480,7 +480,7 @@ two-thirds lines), a House map by district, a Senate map by state, and rosters
 by state with pointers to Part III and the calendar entries that name each
 member. All seven are on `build/congress.html`. A calendar entry tagged
 `congress:<NN>` carries that Congress's block in the calendar's pages and the reader;
-now the Jan. 3, 1961 and Jan. 3, 1963 entries.
+now the openings of the 87th to the 91st (Jan. 3, 1961, to Jan. 3, 1969).
 
 The rosters come from unitedstates/congress-legislators by
 `tools/congress/make_rosters.py`, which holds the hand corrections (seats vacant
@@ -526,7 +526,7 @@ Biographical Directory where it matters), and a change of party in office, with 
 `./bib build` writes `build/executive.html`: the Executive Branch at each inauguration (1953, 1957, 1961,
 1965, 1969, 1973) and at the successions of Nov. 22, 1963, and Aug. 9, 1974, with every change during each
 term, through Aug. 31, 1974. A calendar entry tagged `executive:<YYYY-MM-DD>` (a term's first day) carries
-that term's block in the calendar's pages and the reader; now Jan. 6, 1960 (the 1957 term, at the calendar's opening), Jan. 20, 1961, and Nov. 22, 1963. The calendar's copy is
+that term's block in the calendar's pages and the reader; now Jan. 6, 1960 (the 1957 term, at the calendar's opening), Jan. 20, 1961, Nov. 22, 1963, Jan. 20, 1965, and Jan. 20, 1969. The calendar's copy is
 slimmer (`cal_block`, CAL STYLE in `tools/bib/executive.py`): in full, with every holder but no law and no notes, the
 President, the Cabinet (the Vice President, the department heads, the Representative to the UN), the Chairman of the
 Federal Reserve, the Chairman of the Joint Chiefs, the Director of the FBI, and the Special Counsel, Press Secretary,
@@ -807,7 +807,7 @@ dated on the general election (it once dropped every House special, so none reac
 each Congress at its opening, `build/congress.html` gives that Congress's specials: a summary, House
 and Senate maps of the seats filled (large dots; the other districts drawn in the base map's gray; Result, Margin, Swing from the general election that chose
 the Congress, same district), and a table of the races. A calendar entry tagged `special:<key>`
-carries its race's table (the 86th's six of 1960, the 87th's thirteen, the 88th's six of 1963, and the 89th's of 1965–66, thread "Special elections"). Definitions: the STYLE
+carries its race's table (the 86th's six of 1960, the 87th's thirteen, the 88th's of 1963–64, the 89th's of 1965–66, and the 90th's of 1967–68, thread "Special elections"). Definitions: the STYLE
 notes in `tools/bib/specials.py`.
 
 ```
@@ -887,8 +887,8 @@ year does not print. `tools/bib/primaries.py` renders them (STYLE notes there):
 ## Governors
 
 `elections/governors.yaml`, written by `tools/elections/make_governors.py` from Wikipedia (needs the network; the build
-does not): every general election for governor, 1960–67, odd years included (New Jersey and Virginia, 1961 and 1965;
-Kentucky and Mississippi, 1963 and 1967; Louisiana, Mar. 3, 1964; not Louisiana's of Feb. 6, 1968, past the calendar's end). The races and incumbents from Wikipedia's tables of each
+does not): every general election for governor, 1960–68, odd years included (New Jersey and Virginia, 1961 and 1965;
+Kentucky and Mississippi, 1963 and 1967; Louisiana, Mar. 3, 1964, and Feb. 6, 1968). The races and incumbents from Wikipedia's tables of each
 year; the figures from each race's article, its election box, with the source the article gives for them (most the
 State's canvass or *America Votes*; Our Campaigns, or none, marks Check). What the articles cannot settle is `HAND` in
 the script (Georgia, 1966: the legislature elected Maddox; Minnesota, 1962: the recount). Never edit the file by hand.
@@ -898,7 +898,7 @@ the script (Georgia, 1966: the legislature elected Maddox; Minnesota, 1962: the 
   gains, the governorships after), a map (Result: the winner's party, dark where it took the office; Margin: the
   election maps' quantile rule), and the table, one race a `tbody`: the candidates with votes and shares, the margin,
   and under them the note (the incumbent and his fate, the hold or gain, the source). Now Nov. 8, 1960, Nov. 6, 1962,
-  Nov. 3, 1964, Nov. 8, 1966 and Nov. 7, 1967 (thread "Governors"); the other odd years' races are entries of their own.
+  Nov. 3, 1964, Nov. 8, 1966, Nov. 7, 1967, Feb. 6, 1968 (Louisiana) and Nov. 5, 1968 (thread "Governors"); the other odd years' races are entries of their own.
 - Names: each race a row in the candidate's record (`governor_rows` in `tools/bib/lives.py`), the date linked to the
   day's table.
 - The primaries for governor are calendar entries (thread "Governors"), their figures cited in each entry.
@@ -907,7 +907,7 @@ the script (Georgia, 1966: the legislature elected Maddox; Minnesota, 1962: the 
 
 `elections/legislatures.yaml`, written by `tools/elections/make_legislatures.py` from Carl Klarner's State Partisan
 Balance Data (Harvard Dataverse; the seats compiled from the *Book of the States* and the States' manuals; never edit):
-each State's Senate and House by session, 1959–67, as in session (Democrats, Republicans, others, vacancies), the
+each State's Senate and House by session, 1959–69, as in session (Democrats, Republicans, others, vacancies), the
 proportion needed to override the governor's veto (the 1956 provisions) and the governor's party. `HAND` in the script
 for what the data cannot say (North Carolina's governor had no veto; Minnesota's and Nebraska's nonpartisan
 legislatures); `HAND_YEAR` a Check (Kansas, 1967). `tools/bib/legislatures.py` renders them (STYLE notes there):
@@ -916,7 +916,7 @@ legislatures); `HAND_YEAR` a Check (Kansas, 1967). `tools/bib/legislatures.py` r
   1960) carries the session's map and table: a party's color where it holds both chambers, light for a majority,
   middle for the State's override proportion where that lies between a majority and two-thirds, dark for two-thirds
   of both (the Presentment Clause's and Article V's proportion); divided gray; Nebraska the vacant fill. Now the
-  four "legislatures-us" entries of Nov. 1960, 1962, 1964 and 1966.
+  five "legislatures-us" entries of Nov. 1960, 1962, 1964, 1966 and 1968.
 - Article V's analogue is drawn at the federal two-thirds for every State: each State's own rule for proposing an
   amendment (the vote, the sessions) is not yet in the data; the *Book of the States*, 1960–67, prints it.
 
@@ -938,7 +938,7 @@ Every general election from 1956 to 1974, in `elections/<year>.yaml`: the House 
 race, and in presidential years the vote for President by State with the electoral votes as cast.
 1956 is a base for swing and is not shown. `build/congress.html` puts each election from 1958 to
 1974 before the Congress it chose (the 86th and 94th have no rosters); a calendar entry tagged
-`election:<year>` carries its block too (now Nov. 8, 1960, Nov. 6, 1962, and Nov. 8, 1966). A block: the electoral and popular vote
+`election:<year>` carries its block too (now every November election, 1960–68). A block: the electoral and popular vote
 first, then by chamber the seats won, the net change from the close of the last Congress, pickups,
 and new members; one view switch for every map (Result; Margin, the winner's lead over the runner-up in points of all the votes, by the quantile rule; Swing, continuous); the
 President's map above the House and Senate, with a States | Electors switch (Electors: a dot an elector, as voted); the Senate map with a Senators toggle (a dot a seat, larger than the House's: `PB`, `RB`); and every race in tables (the candidate first, in bold where he won, his party under or after him; under 520px the share
