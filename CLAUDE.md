@@ -46,7 +46,7 @@ So every calendar entry has:
     "to the relevant material elsewhere in the bibliography" (the owner's words); it no longer names the themed lists'
     sections that treat the event (the owner's ruling, Oct. 13, 2026, with the move to one A–Z list). Write a work as
     its card, `[[w.beschloss-crisis-years]]` (a pinpoint after it: `[[w.gallup-poll]], III, 1862`): the build prints
-    the full citation at the work's first appearance in each half of the calendar, the short form after (the owner's
+    the full citation at the work's first appearance in each part of the calendar, the short form after (the owner's
     request, Oct. 13, 2026; FIRST CITE in `tools/bib/works.py`). A work with no card yet: make one first (`works/`, or
     `./bib works adopt`).
   - for an event done in private and documented in records nobody saw at the time (a recording, a memorandum, an FBI
@@ -75,9 +75,9 @@ Calendar entries on the States and the cities take hidden `state:<postal code>` 
 Each thread in `th.yaml` has a brief statement (`c`), as the owner asked: what the thread is, and its stations, in
 one or two clipped sentences. Every thread is its matter as Washington met it, but the statements don't say so; that framing, and the scopes
 taken out of the statements, are in `notes/threads.md`. `th.yaml` keeps the threads in alphabetical order of their
-names (War on poverty under "poverty"; `check` warns otherwise). The calendar is built in two halves (below, "The
-calendar in two halves"): a thread with entries in both carries `c2`, its statement for the second, and `c` speaks to
-the first alone; the scope stays the same in both, the stations each half's own.
+names (War on poverty under "poverty"; `check` warns otherwise). The calendar is built in three parts (below, "The
+calendar in three parts"): a thread's `c` speaks to the first part it has entries in, and `c2`, `c3` to the second and
+third where it has entries in an earlier one too; the scope stays the same in all, the stations each part's own.
 
 `./bib audit-cal` checks the dated entries against these rules and writes `notes/calendar-audit.md`: persons in `c`
 in neither `Names:` nor a `name:` tag, entries with neither a bibliography nor a `See`, entries with no primary record or with one
@@ -155,7 +155,7 @@ tools/executive/          the one-time script that seeded executive/ from POCOM
 | kja  | K–J Adm.  | Kennedy and Johnson administrations, 1961–69 |
 | kjc  | K–J Cong. | Congress, the nation, and the states, 1961–69 |
 | opp  | Opp.      | The Republican opposition, 1961–69           |
-| cal  | Cal.      | Calendar, Jan. 6, 1960–Jan. 15, 1968 (the 86th Congress's second session; the 87th, 88th and 89th; the 90th's first session); the primaries, 1960–76; built as two pages, Cal. I (`cal.html`, 1960–62) and Cal. II (`cal63.html`, from Jan. 1963) |
+| cal  | Cal.      | Calendar, Jan. 6, 1960–Jan. 20, 1969 (the 86th Congress's second session; the 87th through the 90th; the 91st's opening); the primaries, 1960–76; built as three pages, Cal. I (`cal.html`, 1960–62), Cal. II (`cal63.html`, Jan. 1963–Jan. 9, 1966) and Cal. III (`cal66.html`, from Jan. 10, 1966) |
 | l68  | 1968      | The 1968 campaign ("the 1968 list")          |
 | adm  | Adm.      | Nixon and his administration, 1969–74        |
 | cong | Cong.     | Congress, the nation, and the states, 1969–74 |
@@ -164,11 +164,12 @@ tools/executive/          the one-time script that seeded executive/ from POCOM
 
 Parts: I portrayals, II sources, III names. A reference like "K–J Adm. II.D"
 is `lists/kja/II.D.yaml`. The calendar's files are named by month: `apr.yaml`
-for 1961, `apr60.yaml` for 1960, `apr62.yaml` for 1962, `apr63.yaml` and so on for 1963–67;
-every section a calendar month (`jan60.yaml` from Jan. 6, 1960, the calendar's first day; `jan68.yaml` to Jan. 15, 1968, its
-last), plus `th.yaml` (threads); the primary seasons after Jan. 1968, `mar68.yaml`–`aug76.yaml`, hold only the primaries
-and the conventions' openings for now. Its sections are numbered straight
-through, I to CXVII, in date order, in the data (`num`); the headings show the dates alone.
+for 1961, `apr60.yaml` for 1960, `apr62.yaml` for 1962, `apr63.yaml` and so on for 1963–68;
+every section a calendar month (`jan60.yaml` from Jan. 6, 1960, the calendar's first day; `jan69.yaml` to Jan. 20, 1969, its
+last; January 1966 two, `jan66.yaml` and `jan66b.yaml`, at the third part's opening), plus `th.yaml` (threads); the
+primary seasons after Jan. 1969, `mar72.yaml`–`aug76.yaml`, hold only the primaries and the conventions' openings for
+now. Its sections are numbered straight through, I to CXXIV, in date order, in the data (`num`); the headings show the
+dates alone.
 
 ## Finding things (start here)
 
@@ -239,7 +240,7 @@ The thread index (Part I of the calendar) is generated from `thread` and
   before it lifts: the templates listen for touches so iOS Safari shows it), or at keyboard focus. An article's link spans the volume, the journal and the first page: `[27 J. Latin Am.
   Stud. 1](https://…)`.
 - `[[w.id]]`: a work of the catalogue, linked to its entry on `works.html`: in the calendar, its full citation at its
-  first appearance in each half (FIRST CITE), its short form after ("Beschloss, *Crisis Years*"; SHORT FORM in
+  first appearance in each part (FIRST CITE), its short form after ("Beschloss, *Crisis Years*"; SHORT FORM in
   `tools/bib/works.py`; a card's `short` overrides); elsewhere the short form. `[[w.id|full]]` the full citation
   wherever it stands; `[[w.id|text]]` shows "text". A merged card's old id still answers. `check` fails on a card that
   does not exist.
@@ -1096,25 +1097,30 @@ tools/bib/indicators.py       renders them (ORDER, GROUP) and checks them
 - `check` fails on a bad period, a first-reported figure without a release
   date, or a transcribed figure without a source.
 
-## The calendar in two halves
+## The calendar in three parts
 
-One list in the data (`lists/cal/`), two pages in the build, parted at the 88th Congress's opening, by the month: `cal.html`
-(Cal. I, Jan. 6, 1960, to Dec. 31, 1962) and `cal63.html` (Cal. II, from Jan. 1, 1963); in the reader, two
-blocks. `split:` in `lists/cal/list.yaml` gives the date the second begins (`from`), its page, and its own page_title,
-h1, lede, logic, abbr and title (`abbr1`, `title1`, `span1` for the first). A dated section goes to the half its first
-day falls in; the threads section is in both. `tools/bib/calsplit.py` (STYLE notes at the top):
+One list in the data (`lists/cal/`), three pages in the build, parted at the 88th Congress's opening (by the month) and at
+the 89th's second session (the owner's ruling, Oct. 17, 2026): `cal.html` (Cal. I, Jan. 6, 1960, to Dec. 31, 1962),
+`cal63.html` (Cal. II, Jan. 1, 1963, to Jan. 9, 1966) and `cal66.html` (Cal. III, from Jan. 10, 1966); in the reader,
+three blocks. January 1966 is two sections, `jan66` (Jan. 1–9) and `jan66b` (Jan. 10–31). `split:` in
+`lists/cal/list.yaml` is a list: the first item the first part's labels (abbr, title, span; its page texts are the
+list's own), each later item a part with the date it begins (`from`), its page, and its own page_title, h1, lede,
+logic, abbr, title and span. A dated section goes to the part its first day falls in; the threads section is in all.
+`tools/bib/calsplit.py` (STYLE notes at the top):
 
-- Each half's thread index lists the threads with entries in it, with that half's statement (`c`; `c2` in the
-  second where the thread is in both) and its dates by year: the year unlinked, in the sans, a little heavier
-  ("**1961** Jan. 23, Feb. 20. **1962** …"). Across the divide, muted: in the first, after its dates, the year and date
-  of the thread's next entry in the second (". 1963 Jan. 14."), the year linked, not underlined, to the thread in the second's index,
-  the date to the entry; in the second, before its dates, the last entry in the first, linked the same way.
-- The second half's thread entries are anchored `cal63.thread.<slug>`; a rubric links to its own half's index.
-- At the seam, muted: "‹ Dec. 31, 1962, in the first calendar" at the head of Jan. 1, 1963; "Jan. 1, 1963, in the
-  second calendar ›" at the foot of Dec. 31.
-- Links: write `[[id]]` as ever. The build routes a link whose anchor is in the other half to that page, on the
-  calendar's pages and on every other page (`cal.html#X` → `cal63.html#X`); `./bib links` checks both.
-- `./bib build cal` (or `cal63`) builds both halves.
+- Each part's thread index lists the threads with entries in it, with that part's statement (`c` in the first part the
+  thread has entries in; `c2`, `c3` in the second and third where it has entries earlier, else the latest before) and
+  its dates by year: the year unlinked, in the sans, a little heavier ("**1961** Jan. 23, Feb. 20. **1962** …").
+  Across the divides, muted: after its dates, the year and date of the thread's next entry in a later part (". 1963
+  Jan. 14."), the year linked, not underlined, to the thread in that part's index, the date to the entry; before its
+  dates, its last entry in an earlier part, linked the same way.
+- The later parts' thread entries are anchored `cal63.thread.<slug>`, `cal66.thread.<slug>`; a rubric links to its
+  own part's index.
+- At each seam, muted: "‹ Dec. 31, 1962, in the first calendar" at the head of a part's first day; "Jan. 1, 1963, in
+  the second calendar ›" at the foot of the part before's last.
+- Links: write `[[id]]` as ever. The build routes a link whose anchor is in another part to that page, on the
+  calendar's pages and on every other page (`cal.html#X` → `cal63.html#X`); `./bib links` checks them all.
+- `./bib build cal` (or `cal63`, `cal66`) builds all three.
 - A tap on a thread's entry in the index, or on its line under an entry (not on a link), lights the thread: its
   entries and its index entry on white (a lighter panel in the dark theme), each entry's own box from its rule to the
   next and an en dash past the rules' ends on either side, the rules as they were; a day's first or last entry takes a

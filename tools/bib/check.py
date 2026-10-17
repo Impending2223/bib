@@ -68,7 +68,7 @@ def run(series, only=None):
             eid = e.get("id", "?")
             if e.get("conflict"):
                 add(ERROR, eid, "unresolved merge conflict (./bib conflicts)")
-            texts = [e.get("s"), e.get("r"), e.get("n")] + store.as_list(e.get("c")) + store.as_list(e.get("c2"))
+            texts = [e.get("s"), e.get("r"), e.get("n")] + store.as_list(e.get("c")) + store.as_list(e.get("c2")) + store.as_list(e.get("c3"))
             for t in texts:
                 for r in markup_refs(t or ""):
                     if r.startswith("w."):
@@ -158,7 +158,7 @@ def run(series, only=None):
         if only and lst.key != only:
             continue
         for sec, e in lst.entries():
-            for t in [e.get("n")] + store.as_list(e.get("c")) + store.as_list(e.get("c2")):
+            for t in [e.get("n")] + store.as_list(e.get("c")) + store.as_list(e.get("c2")) + store.as_list(e.get("c3")):
                 if not t:
                     continue
                 txt = plain(t)
@@ -301,8 +301,8 @@ def plain_vietnamese(series):
     for lst in series.lists.values():
         for sec, e in lst.entries():
             people = refs_people(sec)
-            for f in ("c", "c2", "n", "r", "s"):
-                if f in ("c", "c2") and lst.kind != "calendar" or f == "s" and not people:
+            for f in ("c", "c2", "c3", "n", "r", "s"):
+                if f in ("c", "c2", "c3") and lst.kind != "calendar" or f == "s" and not people:
                     continue                # a citation: its bylines and titles as printed
                 for text in store.as_list(e.get(f)):
                     if not isinstance(text, str):

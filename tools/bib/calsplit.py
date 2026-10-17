@@ -52,29 +52,38 @@ from . import datelist, store
 CUR = {"half": None, "mode": "list"}
 
 
-def cfg(lst):
+def parts(lst):
+    """The calendar's parts, in order: [{page, from, abbr, title, span, page_title, h1, lede, logic}]; the first's page
+    is the list's own and its page texts the list's (list.yaml `split:`: the first item the first part's labels, each
+    later item a part with its `from` and `page`). One part where the list has no split."""
     s = (lst.data or {}).get("split") if lst is not None else None
-    return s or None
+    if not s:
+        return [{"page": lst.key if lst is not None else None, "from": None}]
+    first = dict(s[0], page=lst.key, **{"from": None})
+    return [first] + [dict(x) for x in s[1:]]
 
 
-def boundary(lst):
-    s = cfg(lst)
-    return str(s["from"]) if s else None
+def cfg(lst):
+    """The parts where the calendar has more than one, else None."""
+    p = parts(lst) if lst is not None else None
+    return p if p and len(p) > 1 else None
 
 
 def page_key(lst, half):
-    return lst.key if half == 1 else cfg(lst)["page"]
+    return parts(lst)[half - 1]["page"]
 
 
 def half_of_date(lst, d):
-    b = boundary(lst)
-    if not b:
-        return 1
-    return 2 if str(d)[:10] >= b else 1
+    """The part a date falls in (1, 2, 3 ...): the last whose first day is on or before it."""
+    n = 1
+    for i, p in enumerate(parts(lst)[1:], start=2):
+        if str(d)[:10] >= str(p["from"]):
+            n = i
+    return n
 
 
 def half_of_section(lst, sec):
-    """1 or 2; None for the threads section, which is in both."""
+    """The part a top section falls in by its first day; None for the threads section, which is in every part."""
     if sec.id == lst.data.get("threads_section", "th"):
         return None
     top = sec
@@ -87,7 +96,7 @@ def half_of_section(lst, sec):
 
 
 def sections(lst, half):
-    """The list's top sections in the half, the threads section first."""
+    """The list's top sections in the part, the threads section first."""
     return [s for s in lst.sections if half_of_section(lst, s) in (None, half)]
 
 
@@ -99,20 +108,22 @@ def half_of_entry(lst, sec, e):
 
 
 def thread_anchor(lst, slug, half):
-    return f"{lst.key}.thread.{slug}" if half != 2 else f"{cfg(lst)['page']}.thread.{slug}"
+    return f"{lst.key}.thread.{slug}" if (half or 1) == 1 else f"{page_key(lst, half)}.thread.{slug}"
 
 
 def href(lst, half, anchor):
-    """A link to an anchor in a half: in the page itself, or the other page; in the reader always in the page."""
+    """A link to an anchor in a part: in the page itself, or the other page; in the reader always in the page."""
     if CUR["mode"] == "series" or half == CUR["half"]:
         return f"#{anchor}"
     return f"{page_key(lst, half)}.html#{anchor}"
 
 
-def statement(lst, e, half, has_first):
-    """The thread's statement in a half: the second half's own (c2) where the thread is in both."""
-    if half == 2 and has_first and e.get("c2"):
-        return e["c2"]
+def statement(lst, e, half, first):
+    """The thread's statement in a part (STYLE 9): its own (c2, c3 ...) where the thread begins in an earlier part;
+    else the latest before it; c in the part the thread begins in."""
+    for n in range(half, (first or 1), -1):
+        if e.get(f"c{n}"):
+            return e[f"c{n}"]
     return e.get("c")
 
 
@@ -122,16 +133,16 @@ _ANCHORS = {}
 
 
 def anchors(lst):
-    """(first, second): the anchors each half's page holds of the list's own: entries, days, sections."""
+    """[set per part]: the anchors each part's page holds of the list's own: entries, days, sections."""
     key = id(lst)
     if key in _ANCHORS:
         return _ANCHORS[key]
-    first, second = set(), set()
+    bags = [set() for _ in parts(lst)]
     for sec in lst.sections:
         h = half_of_section(lst, sec)
         if h is None:
             continue
-        bag = first if h == 1 else second
+        bag = bags[h - 1]
 
         def walk(s):
             bag.add(s.id)
@@ -149,31 +160,37 @@ def anchors(lst):
             for c in s.children:
                 walk(c)
         walk(sec)
-    _ANCHORS[key] = (first, second)
-    return first, second
+    _ANCHORS[key] = bags
+    return bags
 
 
 HREF = re.compile(r'href="([^"#]*)#([^"]+)"')
 
 
 def route(page, lst, own):
-    """Links to anchors that live on the other half's page: own is 1 or 2 for the calendar's pages (a bare '#X' whose X
-    lives in the other half), None for any other page ('cal.html#X' whose X lives in the second half)."""
+    """Links to anchors that live on another part's page: own is the part (1, 2, 3 ...) for the calendar's pages (a bare
+    '#X' whose X lives in another part), None for any other page ('cal.html#X' whose X lives in another part)."""
     if not cfg(lst):
         return page
-    first, second = anchors(lst)
-    p1, p2 = f"{lst.key}.html", f"{cfg(lst)['page']}.html"
+    bags = anchors(lst)
+    files = [f"{p['page']}.html" for p in parts(lst)]
+
+    def home(anchor):
+        hs = [i for i, b in enumerate(bags) if anchor in b]
+        return hs[0] if len(hs) == 1 else None
 
     def sub(m):
         path, anchor = m.group(1), m.group(2)
-        if own in (1, 2) and path == "":
-            if own == 1 and anchor in second and anchor not in first:
-                return f'href="{p2}#{anchor}"'
-            if own == 2 and anchor in first and anchor not in second:
-                return f'href="{p1}#{anchor}"'
+        if own and path == "":
+            h = home(anchor)
+            if h is not None and h != own - 1:
+                return f'href="{files[h]}#{anchor}"'
             return m.group(0)
-        if path.endswith(p1) and anchor in second and anchor not in first:
-            return f'href="{path[:-len(p1)]}{p2}#{anchor}"'
+        for i, f in enumerate(files):
+            if path.endswith(f) and (path == f or path.endswith("/" + f)):
+                h = home(anchor)
+                if h is not None and h != i:
+                    return f'href="{path[:-len(f)]}{files[h]}#{anchor}"'
         return m.group(0)
     return HREF.sub(sub, page)
 
@@ -181,60 +198,68 @@ def route(page, lst, own):
 # ---------------------------------------------------------------- a thread's dates
 
 def thread_dates_html(lst, slug, members, esc):
-    """The thread's dates in the half being built, by year, with the muted links across the divide (STYLE 1-2)."""
+    """The thread's dates in the part being built, by year, with the muted links across the divides (STYLE 1-2)."""
     half = CUR["half"]
     if half is None or not cfg(lst):
         mine, before, after = members, None, None
     else:
         mine = [m for m in members if half_of_date(lst, m["date"]) == half]
-        others = [m for m in members if half_of_date(lst, m["date"]) != half]
-        before = others[-1] if half == 2 and others else None
-        after = others[0] if half == 1 and others else None
-    other = 2 if half == 1 else 1
+        earlier = [m for m in members if half_of_date(lst, m["date"]) < half]
+        later = [m for m in members if half_of_date(lst, m["date"]) > half]
+        before = earlier[-1] if earlier else None
+        after = later[0] if later else None
 
     def cross(m):
+        other = half_of_date(lst, m["date"])
         y = str(m["date"])[:4]
         return (f'<a class="tx ty" href="{href(lst, other, thread_anchor(lst, slug, other))}">{y}</a> '
                 f'<a class="tx" href="{href(lst, other, m["id"])}">{esc(m["when"])}</a>')
-    # the dates by year (datelist STYLE), the links across the divide before or after them
-    parts = [datelist.part(y, ls) for y, ls in
-             datelist.groups([(m["date"], f'<a href="{href(lst, half or 1, m["id"])}">{esc(m["when"])}</a>') for m in mine])]
+    # the dates by year (datelist STYLE), the links across the divides before or after them
+    parts_ = [datelist.part(y, ls) for y, ls in
+              datelist.groups([(m["date"], f'<a href="{href(lst, half or 1, m["id"])}">{esc(m["when"])}</a>') for m in mine])]
     if before:
-        parts.insert(0, cross(before))
+        parts_.insert(0, cross(before))
     if after:
-        parts.append(cross(after))
-    return " ".join(datelist.stop(t) for t in parts)
+        parts_.append(cross(after))
+    return " ".join(datelist.stop(t) for t in parts_)
+
+
+ORDINAL = ["first", "second", "third", "fourth", "fifth"]
 
 
 def seam(lst, sec):
-    """(before, after): the links across the divide at the head of the second half's first day and the foot of the
-    first half's last ("‹ Dec. 31, 1962, in the first calendar"; "Jan. 1, 1963, in the second calendar ›")."""
+    """(before, after): the links across a divide at the head of a part's first day and the foot of the part before's
+    last ("‹ Dec. 31, 1962, in the first calendar"; "Jan. 1, 1963, in the second calendar ›")."""
     if not cfg(lst) or not sec.extra.get("from"):
         return "", ""
-    b = datetime.date.fromisoformat(boundary(lst))
-    last = (b - datetime.timedelta(days=1)).isoformat()
     lab = lambda d: f"{MON[d.month - 1]} {d.day}, {d.year}"
     before = after = ""
-    if str(sec.extra["from"]) == b.isoformat():
-        before = (f'<p class="seam"><a href="{href(lst, 1, "d" + last)}">‹ {lab(b - datetime.timedelta(days=1))}, '
-                  f'in the first calendar</a></p>')
-    if str(sec.extra.get("to")) == last:
-        after = (f'<p class="seam"><a href="{href(lst, 2, "d" + b.isoformat())}">{lab(b)}, in the second calendar ›'
-                 f'</a></p>')
+    for n, p in enumerate(parts(lst)[1:], start=2):
+        b = datetime.date.fromisoformat(str(p["from"]))
+        last = (b - datetime.timedelta(days=1)).isoformat()
+        if str(sec.extra["from"]) == b.isoformat():
+            before = (f'<p class="seam"><a href="{href(lst, n - 1, "d" + last)}">‹ {lab(b - datetime.timedelta(days=1))}, '
+                      f'in the {ORDINAL[n - 2]} calendar</a></p>')
+        if str(sec.extra.get("to")) == last:
+            after = (f'<p class="seam"><a href="{href(lst, n, "d" + b.isoformat())}">{lab(b)}, in the {ORDINAL[n - 1]} '
+                     f'calendar ›</a></p>')
     return before, after
 
 
 def other_link(lst, html):
-    """In a half's lede, "the second calendar" (or "the first") linked to the top of the other half's page, or of its
-    block in the reader (STYLE 6)."""
+    """In a part's lede, each other part's name ("the second calendar") linked to the top of its page, or of its block
+    in the reader (STYLE 6)."""
     half = CUR["half"]
-    if not cfg(lst) or half not in (1, 2):
+    if not cfg(lst) or not half:
         return html
-    other = 2 if half == 1 else 1
-    word = "second" if other == 2 else "first"
-    key = page_key(lst, other)
-    u = f"#{key}--top" if CUR["mode"] == "series" else f"{key}.html"
-    return html.replace(f"{word} calendar", f'<a href="{u}">{word} calendar</a>', 1)
+    for n in range(1, len(parts(lst)) + 1):
+        if n == half:
+            continue
+        word = ORDINAL[n - 1]
+        key = page_key(lst, n)
+        u = f"#{key}--top" if CUR["mode"] == "series" else f"{key}.html"
+        html = html.replace(f"{word} calendar", f'<a href="{u}">{word} calendar</a>', 1)
+    return html
 
 
 MON = ["Jan.", "Feb.", "Mar.", "Apr.", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."]
