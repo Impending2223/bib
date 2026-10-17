@@ -1141,15 +1141,6 @@ after it in the thread ("⟨⟨ Testing ⟩⟩", the brackets the links, not und
 day of a ranged entry, and the day's documents, closed by default, with "Expand all" and
 "Collapse all" under each month heading.
 
-A day off the screen is not laid out (`content-visibility: auto`; the owner's ruling, Oct. 16, 2026) and holds the
-place of its estimated height until it has been drawn, then of its height as drawn. The build writes each day's pieces
-(`data-h`: kind and characters, `heights()` in `tools/bib/daybook.py`); the page measures each kind's line height and
-character width once, on a probe at the column's width, and adds up the lines (SIZE in its SCRIPT; `SLACK` fitted
-against Chromium at 390 and 1280 px, Oct. 16, 2026: median error per day 0.4–0.5%, 90th percentile 4%, the page's
-height within 1%). A day holding a block (a map, a table, a roster: `.cg`) is not estimated and is laid out as before.
-Nothing that reads a position may lay out every day: the thread marks take a day not yet drawn as the entry's place
-(`checkVisibility`), and the scroll wheel measures its headings again when the page's height changes.
-
 ```
 tools/daybook/make_daybook.py   writes daybook/<YYYY-MM>.yaml (needs the network; the build does not)
 tools/daybook/make_recordings.py  writes daybook/recordings/<YYYY-MM>.yaml from PRDE's catalogue (needs the network)

@@ -229,7 +229,6 @@ var META={{meta}}, ORDER={{order}};
     for(var x in secs) secs[x].hidden=(x!==k);
     active=k;
     heads=$$('h2[id],h3[id],h4[id]',secs[k]);
-    if(window.__daySize) window.__daySize();   // the calendar's days: their estimated heights, now that it shows
     measure(); lastIdx=-2; buildDrawer();
   }
   function measure(){tops=heads.map(function(h){return h.getBoundingClientRect().top+window.scrollY;});}
@@ -491,7 +490,6 @@ var META={{meta}}, ORDER={{order}};
   else jump('home--top',null,false);
   window.addEventListener('load',function(){ if(!start&&saved&&secs[saved.k]) window.scrollTo(0,saved.y||0); });
   window.addEventListener('load',function(){measure();place(true);});
-  if(window.ResizeObserver){ var mq=0; new ResizeObserver(function(){ if(!mq) mq=requestAnimationFrame(function(){mq=0;measure();place(true);}); }).observe(document.body); }   // a day drawn for the first time: the headings below move
 })();
 
 </script>

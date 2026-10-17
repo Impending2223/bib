@@ -187,7 +187,6 @@ ol.e>li:last-child{border-bottom:0}
   window.addEventListener('resize',function(){measure();place();});
   document.addEventListener('toggle',function(){measure();place();},true);   // a folded list opened or closed
   window.addEventListener('load',function(){measure();place();});
-  if(window.ResizeObserver){ var mq=0; new ResizeObserver(function(){ if(!mq) mq=requestAnimationFrame(function(){mq=0;measure();place();}); }).observe(document.body); }   // a day drawn for the first time: the headings below move
   if(document.fonts&&document.fonts.ready) document.fonts.ready.then(function(){measure();place();});
 
   function curIndex(){

@@ -295,9 +295,7 @@ SCRIPT = """<script>
     var rr=rail.getBoundingClientRect(), th=thumb.offsetHeight, track=rail.clientHeight-th, dpr=window.devicePixelRatio||1,
         sh=document.documentElement.scrollHeight, k=track/sh, i, r;
     var els=document.querySelectorAll('li[data-threads~="'+now+'"],li[data-thread="'+now+'"]'), ys=[];
-    for(i=0;i<els.length;i++){ var e=els[i], d=e.closest('.day[data-h]');   // an entry in a day not yet drawn: the day's place
-      if(d&&e.checkVisibility&&!e.checkVisibility({contentVisibilityAuto:true})) e=d;
-      r=e.getBoundingClientRect(); if(r.height) ys.push([r.top+window.scrollY,r.height,els[i]]); }   // one layout read
+    for(i=0;i<els.length;i++){ r=els[i].getBoundingClientRect(); if(r.height) ys.push([r.top+window.scrollY,r.height,els[i]]); }   // one layout read
     var cs=getComputedStyle(document.documentElement),
         least=Math.max(1,Math.round((parseFloat(cs.getPropertyValue('--hlmin'))||0)*dpr)),   // the least height, device pixels
         halo=cs.getPropertyValue('--hlhalo').trim(), hp=Math.round((parseFloat(cs.getPropertyValue('--hlhalow'))||0)*dpr);
