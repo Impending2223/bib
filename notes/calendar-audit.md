@@ -7,11 +7,11 @@ CLAUDE.md ("The calendar"). A review list: a hit is a place to look, not an erro
 
 | Check | Entries |
 |---|---|
-| A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 1285 |
-| (of which only a President's surname: Eisenhower, Kennedy, Johnson) | 22 |
+| A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 1280 |
+| (of which only a President's surname: Eisenhower, Kennedy, Johnson) | 18 |
 | Neither a bibliography of its own nor a `See [[id]]` back | 0 |
-| No primary record linked or named | 553 |
-| A primary record named but not linked | 114 |
+| No primary record linked or named | 548 |
+| A primary record named but not linked | 109 |
 | Threads (statements listed for review) | 92 |
 
 ## Names
@@ -2656,7 +2656,6 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1968-04-26.testing-nv` (Apr. 26, CII apr68.yaml): Nevada Test Site, Pahute Mesa. Boxcar, an underground test of 1.3 megatons. Howard Hughes, in the Desert Inn, 
   - Howard: Howard, Lisa (K–J Cong. III.J)
-  - Johnson: Johnson, Lady Bird (K–J Adm. III.A, 1968 III.Q); Johnson, Lynda Bird (K–J Adm. III.A); Johnson, Luci Baines (K–J Adm. III.A); Johnson, Lyndon B. (K–J Adm. III.D, Viet. III.A); Johnson, Harold K. (K–J Adm. III.F); Johnson, Paul B., Jr. (K–J Cong. III.F); Johnson, Frank M., Jr. (K–J Cong. III.G); Johnson, Albert W. (K–J Cong. III.K); Johnson, James D. (K–J Cong. III.K); Johnson, Leroy R. (K–J Cong. III.K); Johnson, Matthew (K–J Cong. III.K); Johnson, N. B. (K–J Cong. III.K); Johnson, Robert H. (K–J Cong. III.K); Johnson, Virginia (K–J Cong. III.K); Johnson, Tom (1968 III.A); Johnson, U. Alexis (Viet. III.C)
 - `cal.1968-04-27.elections-1968` (Apr. 27, CII apr68.yaml): Washington, the Shoreham Hotel. Humphrey announces for the Democratic nomination, Harris and Mondale the co-ch
   - ? Washington: Washington, Walter E. (K–J Cong. III.F)
 - `cal.1968-04-28.opinion` (Apr. 28, CII apr68.yaml): Gallup, Apr. 4–9, the Democratic convention's choice among three (the release names no group asked): McCarthy 
@@ -2669,8 +2668,6 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1968-05-04.governors-tx` (May 4, CIII may68.yaml): Texas Democratic primary for governor, Connally not running: ten candidates. Don Yarborough, a Houston lawyer,
   - ? Houston: Houston, Lawrence (K–J Cong. III.K)
-- `cal.1968-05-07.elections-1968` (May 7, CIII may68.yaml): Primaries in the District of Columbia, Indiana and Ohio. Republican: Nixon-Rockefeller in the District; Nixon 
-  - Rockefeller: Rockefeller, John D., IV (K–J Cong. III.K); Rockefeller, Laurance S. (K–J Cong. III.K); Rockefeller, Margaretta Fitler (K–J Cong. III.K); Rockefeller, Nelson A. (Opp. III.H, Cong. III.H); Rockefeller, Winthrop (Opp. III.H); Rockefeller, Nelson (1968 III.M)
 - `cal.1968-05-07.alabama-al` (May 7, CIII may68.yaml): Montgomery. Lurleen Wallace dies of cancer, 41, sixteen months in office. Lieutenant Governor Albert Brewer, 3
   - Albert: Albert, Carl (K–J Cong. III.C, Cong. III.D)
 - `cal.1968-05-09.states-and-cities-nyc` (May 9–15, CIII may68.yaml): New York City. Ocean Hill–Brownsville's governing board, on its personnel committee's recommendation, ends the
@@ -2718,7 +2715,6 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - ? Washington: Washington, Walter E. (K–J Cong. III.F)
 - `cal.1968-06-08.king` (June 8, CIV jun68.yaml): London Airport. Scotland Yard arrests Ray, traveling on a Canadian passport as Ramon George Sneyd, on his way 
   - ? Washington: Washington, Walter E. (K–J Cong. III.F)
-  - Kennedy: Kennedy, Jacqueline (K–J Adm. III.A); Kennedy, Joseph P. (K–J Adm. III.A); Kennedy, Robert F. (K–J Adm. III.A, K–J Cong. III.B, 1968 III.K); Kennedy, Edward M. (K–J Cong. III.B, 1968 III.K, 1968 III.P, Cong. III.A); Kennedy, John F. (Viet. III.A)
 - `cal.1968-06-09.opinion` (June 9, CIV jun68.yaml): Gallup, special survey: the causes of violent behavior in this nation, those blamed chiefly: a complex society
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1968-06-10.crime-and-hijacking` (June 10, CIV jun68.yaml): *Terry v. Ohio*, [392 U.S. 1](https://tile.loc.gov/storage-services/service/ll/usrep/usrep392/usrep392001/usre
@@ -2751,15 +2747,10 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - ? Washington: Washington, Walter E. (K–J Cong. III.F)
 - `cal.1968-07-03.opinion` (July 3, CV jul68.yaml): Gallup, June 13–18: some call this country a "sick society": agree 36 percent, disagree 58. Whites 35 and 60; 
   - Gallup: Gallup, George H. (K–J Cong. III.J)
-  - Wallace: Wallace, George C. (K–J Cong. III.F, 1968 III.L, Cong. III.G, Cong. III.H); Wallace, Lurleen B. (K–J Cong. III.K)
-  - Nixon: Nixon, Richard M. (Opp. III.E, 1968 III.M, Wg. III.A, Viet. III.B); Nixon, Pat (Adm. III.A)
-  - Humphrey: Humphrey, Hubert H. (K–J Adm. III.D, K–J Cong. III.A, 1968 III.I, 1968 III.P, Cong. III.B)
 - `cal.1968-07-07.opinion` (July 7, CV jul68.yaml): Gallup, June 13–18, the party one would like to see win this congressional district, the undecided left out: D
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1968-07-09.testing` (July 9, CV jul68.yaml): The nonproliferation treaty sent to the Senate: "the most important international agreement limiting nuclear a
   - ? Washington: Washington, Walter E. (K–J Cong. III.F)
-- `cal.1968-07-11.court` (July 11–23, CV jul68.yaml): The Senate Judiciary Committee, Eastland chairman, hears the nominations of Fortas as Chief Justice and Thornb
-  - Johnson: Johnson, Lady Bird (K–J Adm. III.A, 1968 III.Q); Johnson, Lynda Bird (K–J Adm. III.A); Johnson, Luci Baines (K–J Adm. III.A); Johnson, Lyndon B. (K–J Adm. III.D, Viet. III.A); Johnson, Harold K. (K–J Adm. III.F); Johnson, Paul B., Jr. (K–J Cong. III.F); Johnson, Frank M., Jr. (K–J Cong. III.G); Johnson, Albert W. (K–J Cong. III.K); Johnson, James D. (K–J Cong. III.K); Johnson, Leroy R. (K–J Cong. III.K); Johnson, Matthew (K–J Cong. III.K); Johnson, N. B. (K–J Cong. III.K); Johnson, Robert H. (K–J Cong. III.K); Johnson, Virginia (K–J Cong. III.K); Johnson, Tom (1968 III.A); Johnson, U. Alexis (Viet. III.C)
 - `cal.1968-07-11.opinion` (July 11, CV jul68.yaml): Gallup, June 26–July 1, with Wallace as a third party's candidate: Humphrey 40 percent, Nixon 35, Wallace 16, 
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1968-07-12.opinion` (July 12, CV jul68.yaml): Gallup, June 26–July 1, with Wallace as a third party's candidate: McCarthy 39 percent, Nixon 36, Wallace 18, 
@@ -2775,8 +2766,6 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - ? Black: Black, Eugene R. (K–J Adm. III.E); Black, Hugo L. (K–J Cong. III.G)
 - `cal.1968-07-23.economy` (July 23, CV jul68.yaml): At Austin. Johnson underlines the Cabinet Committee on Price Stability's call for restraint in wages and price
   - ? Price: Price, Cecil R. (K–J Cong. III.K); Price, Raymond K., Jr. (Adm. III.B)
-- `cal.1968-07-24.crime-and-hijacking` (July 24, CV jul68.yaml): The House passes the gun bill, H.R. 17735, [305–118](https://voteview.com/rollcall/RH0900398): the mail-order 
-  - Johnson: Johnson, Lady Bird (K–J Adm. III.A, 1968 III.Q); Johnson, Lynda Bird (K–J Adm. III.A); Johnson, Luci Baines (K–J Adm. III.A); Johnson, Lyndon B. (K–J Adm. III.D, Viet. III.A); Johnson, Harold K. (K–J Adm. III.F); Johnson, Paul B., Jr. (K–J Cong. III.F); Johnson, Frank M., Jr. (K–J Cong. III.G); Johnson, Albert W. (K–J Cong. III.K); Johnson, James D. (K–J Cong. III.K); Johnson, Leroy R. (K–J Cong. III.K); Johnson, Matthew (K–J Cong. III.K); Johnson, N. B. (K–J Cong. III.K); Johnson, Robert H. (K–J Cong. III.K); Johnson, Virginia (K–J Cong. III.K); Johnson, Tom (1968 III.A); Johnson, U. Alexis (Viet. III.C)
 - `cal.1968-07-24.opinion` (July 24, CV jul68.yaml): Gallup, June 26–July 1: the main cause of trouble between Israelis and Arabs: ancient enmity 22 percent, terri
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1968-07-28.opinion` (July 28, CV jul68.yaml): Gallup, July 18–23: Republicans' choice for 1968: Nixon 60 percent, Rockefeller 23, Reagan 7, Lindsay 4, Percy
@@ -2796,16 +2785,10 @@ the person; several mean the surname is shared). "?" marks a surname that is als
 - `cal.1968-08-07.opinion` (Aug. 7, CVI aug68.yaml): Gallup, July 18–23, Democrats, the convention's choice between Humphrey and McCarthy: Humphrey 53 percent, McC
   - Gallup: Gallup, George H. (K–J Cong. III.J)
   - West: West, Ben (K–J Cong. III.K); West, E. Gordon (K–J Cong. III.K)
-- `cal.1968-08-10.elections-1968-2` (Aug. 10, CVI aug68.yaml): McGovern announces his candidacy for the Democratic nomination, for Robert Kennedy's delegates and against the
-  - Kennedy: Kennedy, Jacqueline (K–J Adm. III.A); Kennedy, Joseph P. (K–J Adm. III.A); Kennedy, Robert F. (K–J Adm. III.A, K–J Cong. III.B, 1968 III.K); Kennedy, Edward M. (K–J Cong. III.B, 1968 III.K, 1968 III.P, Cong. III.A); Kennedy, John F. (Viet. III.A)
 - `cal.1968-08-11.opinion` (Aug. 11, CVI aug68.yaml): Gallup, July 18–23: a candidate who said more of the fighting should be turned over to the South Vietnamese, a
   - Gallup: Gallup, George H. (K–J Cong. III.J)
-  - McCarthy: McCarthy, Eugene J. (K–J Cong. III.B, 1968 III.J, Viet. III.E)
-  - Humphrey: Humphrey, Hubert H. (K–J Adm. III.D, K–J Cong. III.A, 1968 III.I, 1968 III.P, Cong. III.B)
-  - Nixon: Nixon, Richard M. (Opp. III.E, 1968 III.M, Wg. III.A, Viet. III.B); Nixon, Pat (Adm. III.A)
 - `cal.1968-08-16.defense` (Aug. 16, CVI aug68.yaml): Multiple independently targetable reentry vehicles flight-tested for the first time: the Minuteman III from Ca
   - Kennedy: Kennedy, Jacqueline (K–J Adm. III.A); Kennedy, Joseph P. (K–J Adm. III.A); Kennedy, Robert F. (K–J Adm. III.A, K–J Cong. III.B, 1968 III.K); Kennedy, Edward M. (K–J Cong. III.B, 1968 III.K, 1968 III.P, Cong. III.A); Kennedy, John F. (Viet. III.A)
-  - Johnson: Johnson, Lady Bird (K–J Adm. III.A, 1968 III.Q); Johnson, Lynda Bird (K–J Adm. III.A); Johnson, Luci Baines (K–J Adm. III.A); Johnson, Lyndon B. (K–J Adm. III.D, Viet. III.A); Johnson, Harold K. (K–J Adm. III.F); Johnson, Paul B., Jr. (K–J Cong. III.F); Johnson, Frank M., Jr. (K–J Cong. III.G); Johnson, Albert W. (K–J Cong. III.K); Johnson, James D. (K–J Cong. III.K); Johnson, Leroy R. (K–J Cong. III.K); Johnson, Matthew (K–J Cong. III.K); Johnson, N. B. (K–J Cong. III.K); Johnson, Robert H. (K–J Cong. III.K); Johnson, Virginia (K–J Cong. III.K); Johnson, Tom (1968 III.A); Johnson, U. Alexis (Viet. III.C)
 - `cal.1968-08-18.vietnam` (Aug. 18–19, CVI aug68.yaml): Johnson by telephone from the ranch, Aug. 18, to Nixon and then Humphrey: Hanoi waiting on the conventions. To
   - Nation: Nation, Bill (K–J Cong. III.K)
 - `cal.1968-08-18.opinion` (Aug. 18, CVI aug68.yaml): Gallup, July 18–23: the biggest threat to the country in the future: big government 46 percent, big labor 26, 
@@ -2816,7 +2799,6 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - ? Lincoln: Lincoln, Evelyn (K–J Adm. III.B)
   - ? Grant: Grant, George M. (K–J Cong. III.D)
   - Conrad: Conrad, Charles, Jr. (K–J Cong. III.K); Conrad, Robert B. (K–J Cong. III.K)
-  - Walker: Walker, Edwin A. (K–J Adm. III.F); Walker, Daniel (K–J Cong. III.K); Walker, Prentiss L. (Opp. III.D)
 - `cal.1968-08-25.opinion` (Aug. 25, CVI aug68.yaml): Gallup, Aug. 7–12: the party more likely to keep the United States out of World War III: Republican 41 percent
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1968-08-28.opinion` (Aug. 28, CVI aug68.yaml): Gallup, Aug. 7–12: registered to vote where they live: yes 75 percent, no 25. Not registered: those 21 to 29, 
@@ -2865,7 +2847,6 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - ? Lake: Lake, I. Beverly (K–J Cong. III.K); Lake, Anthony (Adm. III.D)
 - `cal.1968-09-30.jobs-and-wages` (Sept. 30, CVII sep68.yaml): Executive Order 11431, under the Taft-Hartley Act: a Board of Inquiry, David Cole its chairman, into the dispu
   - Taft: Taft, Alexander M. (K–J Cong. III.F); Taft, Seth C. (K–J Cong. III.K); Taft, Robert, Jr. (Opp. III.D)
-  - ? Ball: Ball, George W. (K–J Adm. III.E, Viet. III.A)
 - `cal.1968-09-30.conservation` (Sept. 30, CVII sep68.yaml): Colorado River Basin Project Act signed, [82 Stat. 885](https://www.govinfo.gov/content/pkg/STATUTE-82/pdf/STA
   - Hoover: Hoover, J. Edgar (K–J Adm. III.I, 1968 III.H, Adm. III.H)
 - `cal.1968-10-02.conservation` (Oct. 2, CVIII oct68.yaml): Four bills signed: Redwood National Park, [82 Stat. 931](https://www.govinfo.gov/content/pkg/STATUTE-82/pdf/ST
@@ -2884,8 +2865,6 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1968-10-11.space` (Oct. 11–22, CVIII oct68.yaml): Apollo 7, the first manned Apollo flight, from Cape Kennedy, Fla., on a Saturn IB: Schirra, Eisele and Cunning
   - Kennedy: Kennedy, Jacqueline (K–J Adm. III.A); Kennedy, Joseph P. (K–J Adm. III.A); Kennedy, Robert F. (K–J Adm. III.A, K–J Cong. III.B, 1968 III.K); Kennedy, Edward M. (K–J Cong. III.B, 1968 III.K, 1968 III.P, Cong. III.A); Kennedy, John F. (Viet. III.A)
-- `cal.1968-10-12.vietnam` (Oct. 12, CVIII oct68.yaml): Greencastle, Ind., at DePauw University: McGeorge Bundy, Johnson's Special Assistant until 1966, for an uncond
-  - Johnson: Johnson, Lady Bird (K–J Adm. III.A, 1968 III.Q); Johnson, Lynda Bird (K–J Adm. III.A); Johnson, Luci Baines (K–J Adm. III.A); Johnson, Lyndon B. (K–J Adm. III.D, Viet. III.A); Johnson, Harold K. (K–J Adm. III.F); Johnson, Paul B., Jr. (K–J Cong. III.F); Johnson, Frank M., Jr. (K–J Cong. III.G); Johnson, Albert W. (K–J Cong. III.K); Johnson, James D. (K–J Cong. III.K); Johnson, Leroy R. (K–J Cong. III.K); Johnson, Matthew (K–J Cong. III.K); Johnson, N. B. (K–J Cong. III.K); Johnson, Robert H. (K–J Cong. III.K); Johnson, Virginia (K–J Cong. III.K); Johnson, Tom (1968 III.A); Johnson, U. Alexis (Viet. III.C)
 - `cal.1968-10-13.opinion` (Oct. 13, CVIII oct68.yaml): Gallup, Sept. 1–6, Sept. 19–24 and Sept. 26–Oct. 1 together, a profile of Wallace's support. The North: Nixon 
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1968-10-14.states-and-cities-nyc` (Oct. 14–Nov. 17, CVIII oct68.yaml): New York City. The teachers' third strike, Oct. 14, the union's teachers kept from Ocean Hill's classrooms. En
@@ -2899,7 +2878,7 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1968-10-31.vietnam` (Oct. 31, CVIII oct68.yaml): Address to the nation, 8 p.m.: "all air, naval, and artillery bombardment of North Vietnam" to cease at 8 a.m.
   - ? Washington: Washington, Walter E. (K–J Cong. III.F)
-- `cal.1968-11-02.elections-1968` (Nov. 2–4, CIX nov68.yaml): Nov. 2, 9:18 p.m., Johnson telephones Dirksen, on Cliffords advice: Nixons people have told Saigon to hold out
+- `cal.1968-11-02.elections-1968` (Nov. 2–4, CIX nov68.yaml): Nov. 2, 9:18 p.m., Johnson telephones Dirksen, on Clifford's advice: Nixon's people have told Saigon to hold o
   - ? Christian: Christian, George (K–J Adm. III.C, 1968 III.A)
 - `cal.1968-11-03.elections-1968` (Nov. 3, CIX nov68.yaml): Houston, the Astrodome. Johnson with Humphrey at a Democratic rally, two days before the election. That night,
   - ? Houston: Houston, Lawrence (K–J Cong. III.K)
@@ -2919,7 +2898,7 @@ the person; several mean the surname is shared). "?" marks a surname that is als
 - `cal.1968-11-06.students` (Nov. 6–Dec. 2, CIX nov68.yaml): San Francisco State College. The Black Students Union and the Third World Liberation Front strike on fifteen d
   - ? Black: Black, Eugene R. (K–J Adm. III.E); Black, Hugo L. (K–J Cong. III.G)
   - Murray: Murray, William G. (K–J Cong. III.K)
-- `cal.1968-11-08.elections-1968` (Nov. 8–13, CIX nov68.yaml): Nov. 8, Dirksen to Johnson: he has told Nixon that "they send some of the boys out to stiffen Thieus spine"; N
+- `cal.1968-11-08.elections-1968` (Nov. 8–13, CIX nov68.yaml): Nov. 8, Dirksen to Johnson: he has told Nixon that "they send some of the boys out to stiffen Thiệu's spine"; 
   - ? Washington: Washington, Walter E. (K–J Cong. III.F)
 - `cal.1968-11-12.court` (Nov. 12, CIX nov68.yaml): *Epperson v. Arkansas*, [393 U.S. 97](https://tile.loc.gov/storage-services/service/ll/usrep/usrep393/usrep393
   - ? Black: Black, Eugene R. (K–J Adm. III.E); Black, Hugo L. (K–J Cong. III.G)
@@ -2931,11 +2910,9 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1968-12-15.opinion` (Dec. 15, CX dec68.yaml): Gallup, Dec. 5–10: the kind of President Nixon will make: great 6 percent, good 51, fair 34, poor 6. Nixon's s
   - Gallup: Gallup, George H. (K–J Cong. III.J)
-  - Humphrey: Humphrey, Hubert H. (K–J Adm. III.D, K–J Cong. III.A, 1968 III.I, 1968 III.P, Cong. III.B)
-  - Wallace: Wallace, George C. (K–J Cong. III.F, 1968 III.L, Cong. III.G, Cong. III.H); Wallace, Lurleen B. (K–J Cong. III.K)
 - `cal.1968-12-18.opinion` (Dec. 18, CX dec68.yaml): Gallup, Dec. 5–10: military supplies kept going to South Vietnam, and the South Vietnamese left to take over t
   - Gallup: Gallup, George H. (K–J Cong. III.J)
-- `cal.1968-12-20.jobs-and-wages` (Dec. 20, CX dec68.yaml): The International Longshoremens Association strikes every East and Gulf Coast port: the 80-day cooling-off per
+- `cal.1968-12-20.jobs-and-wages` (Dec. 20, CX dec68.yaml): The International Longshoremen's Association strikes every East and Gulf Coast port: the 80-day cooling-off pe
   - Taft: Taft, Alexander M. (K–J Cong. III.F); Taft, Seth C. (K–J Cong. III.K); Taft, Robert, Jr. (Opp. III.D)
 - `cal.1968-12-21.space` (Dec. 21–27, CX dec68.yaml): Apollo 8, the first Saturn V with a crew: Borman, Lovell and Anders, launched from Cape Kennedy, Fla. Dec. 24,
   - Kennedy: Kennedy, Jacqueline (K–J Adm. III.A); Kennedy, Joseph P. (K–J Adm. III.A); Kennedy, Robert F. (K–J Adm. III.A, K–J Cong. III.B, 1968 III.K); Kennedy, Edward M. (K–J Cong. III.B, 1968 III.K, 1968 III.P, Cong. III.A); Kennedy, John F. (Viet. III.A)
@@ -3413,7 +3390,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1968-01-30.robert-kennedy` (Jan. 30, XCIX jan68.yaml): Washington, a breakfast with reporters at the National Press Club: Robert Kennedy will not oppose Johnson for 
 - `cal.1968-02-01.vietnam` (Feb. 1, C feb68.yaml): Saigon. General Nguyễn Ngọc Loan, the national police chief, shoots a bound Viet Cong prisoner in the street; 
 - `cal.1968-02-01.elections-1968` (Feb. 1–2, C feb68.yaml): Nixon announces for the Republican nomination in a letter to New Hampshire's voters, Feb. 1; at Manchester, Fe
-- `cal.1968-02-07.vietnam` (Feb. 7, C feb68.yaml): Lang Vei, the Special Forces camp west of Khe Sanh, overrun before dawn by North Vietnamese infantry with PT-7
 - `cal.1968-02-07.press-and-broadcasting` (Feb. 7, C feb68.yaml): Bến Tre, a province capital in the Mekong Delta, retaken after Tet by American and South Vietnamese troops wit
 - `cal.1968-02-08.south-carolina` (Feb. 8, C feb68.yaml): Orangeburg, the night of Feb. 8. Highway patrolmen fire on Negro students on the campus of South Carolina Stat
 - `cal.1968-02-08.elections-1968` (Feb. 8, C feb68.yaml): Washington. Wallace announces for President, outside the two parties; in California the American Independent P
@@ -3421,7 +3397,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1968-02-12.king` (Feb. 12–23, C feb68.yaml): Memphis. The city's sanitation workers, some 1,300, nearly all Negroes, strike for recognition of their union,
 - `cal.1968-02-13.state-and-city-finance-seattle` (Feb. 13, C feb68.yaml): Seattle and King County vote on Forward Thrust's twelve bond propositions, each needing 60 percent. Seven carr
 - `cal.1968-02-16.draft` (Feb. 16, C feb68.yaml): The National Security Council's advice to Hershey, Director of Selective Service: no more deferments for gradu
-- `cal.1968-02-24.vietnam` (Feb. 24–25, C feb68.yaml): Huế retaken. South Vietnamese troops of Trưởng's 1st Division raise the Republic's flag over the Citadel, Feb.
 - `cal.1968-02-27.press-and-broadcasting` (Feb. 27, C feb68.yaml): CBS, *Report from Vietnam: Who, What, When, Where, Why?* Cronkite, back from Saigon and Huế: "it seems now mor
 - `cal.1968-02-28.elections-1968` (Feb. 28, C feb68.yaml): Washington. Romney withdraws from the race for the Republican nomination, two weeks before the New Hampshire p
 - `cal.1968-02-29.civil-disorders` (Feb. 29, C feb68.yaml): The National Advisory Commission on Civil Disorders, Kerner its chairman, Lindsay vice chairman, reports: "Our
@@ -3447,7 +3422,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1968-04-23.elections-1968` (Apr. 23, CII apr68.yaml): Pennsylvania primary. Republican: Nixon (write-in) 59.7 percent, Rockefeller (write-in) 18.4. Democratic: McCa
 - `cal.1968-04-23.students` (Apr. 23–30, CII apr68.yaml): New York. Columbia. Apr. 23, SDS, Rudd its chapter's chairman, and the Students' Afro-American Society rally a
 - `cal.1968-04-26.war-opposition` (Apr. 26–27, CII apr68.yaml): Apr. 26, a student strike against the war and the draft, called by the Student Mobilization Committee (Check t
-- `cal.1968-04-26.testing-nv` (Apr. 26, CII apr68.yaml): Nevada Test Site, Pahute Mesa. Boxcar, an underground test of 1.3 megatons. Howard Hughes, in the Desert Inn, 
 - `cal.1968-04-29.king` (Apr. 29–May 1, CII apr68.yaml): Washington. Abernathy and the Poor People's Campaign's "Committee of 100" put their demands to members of the 
 - `cal.1968-04-30.elections-1968-2` (Apr. 30, CII apr68.yaml): Rockefeller announces he will seek the Republican nomination. The same day, Massachusetts's Republican primary
 - `cal.1968-04-30.open-housing-milwaukee` (Apr. 30, CII apr68.yaml): Milwaukee. The Common Council refuses Phillips's ordinance covering all housing, 12–7, then passes one drafted
@@ -3488,7 +3462,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1968-09-16.elections-1968` (Sept. 16, CVII sep68.yaml): NBC, *Rowan & Martin's Laugh-In*: Nixon, on tape, a few seconds: "Sock it to *me*?"
 - `cal.1968-09-20.students-ca` (Sept. 20, CVII sep68.yaml): Berkeley. The Regents of the University of California limit a lecturer without faculty appointment to one appe
 - `cal.1968-10-02.students-los-angeles` (Oct. 2, CVIII oct68.yaml): Los Angeles. Thirty-five arrested at the Board of Education after an eight-day sit-in for Castro's return to h
-- `cal.1968-10-14.congress` (Oct. 14, CVIII oct68.yaml): The 90th Congress's second session ends, adjourned sine die (Check the hour). The last roll calls, Oct. 10 in 
 - `cal.1968-10-14.states-and-cities-nyc` (Oct. 14–Nov. 17, CVIII oct68.yaml): New York City. The teachers' third strike, Oct. 14, the union's teachers kept from Ocean Hill's classrooms. En
 - `cal.1968-10-22.elections-1968` (Oct. 22, CVIII oct68.yaml): Haldeman's notes of Nixon's instructions, by telephone (Check): "Keep Anna Chennault working on SVN"; and "Any
 - `cal.1968-10-29.elections-1968` (Oct. 29, CVIII oct68.yaml): McCarthy will vote for Humphrey; he will not run for the Senate as a Democrat in 1970, nor for the presidentia
@@ -3507,7 +3480,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1969-01-03.congress-2` (Jan. 3, CXI jan69.yaml): The Senate Democrats: Edward Kennedy majority whip over Russell Long, 31–26; Mansfield re-elected leader. The 
 - `cal.1969-01-05.vietnam` (Jan. 5, CXI jan69.yaml): Nixon names Lodge to succeed Harriman at the head of the delegation to Paris, Walsh his deputy (Check the day)
 - `cal.1969-01-06.students-san-francisco` (Jan. 6, CXI jan69.yaml): San Francisco State. The American Federation of Teachers' local strikes, sanctioned by the San Francisco Labor
-- `cal.1969-01-16.rules` (Jan. 16, CXI jan69.yaml): Senate, Rule XXII. Cloture on Harts motion to take up S. Res. 11, cloture by three-fifths: [51–47]({VV("S",4)}
 - `cal.1969-01.state-constitutions-va` (Jan., CXI jan69.yaml): Virginia. The Commission on Constitutional Revision, appointed by Godwin in 1968, Albertis Harrison, governor 
 - `cal.1972-03-14.elections-1972` (Mar. 14, CXII mar72.yaml): Florida primary. Republican: Nixon 87.0 percent, Ashbrook 8.8. Democratic: Wallace 41.6 percent, Humphrey 18.6
 - `cal.1972-04-04.elections-1972` (Apr. 4, CXIII apr72.yaml): Wisconsin primary. Republican: Nixon 96.9 percent, McCloskey 1.3. Democratic: McGovern 29.6 percent, Wallace 2
@@ -3620,12 +3592,9 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1968-04-23.state-constitutions-pa` (Apr. 23, CII apr68.yaml): Pennsylvania's voters, at the primary, approve the convention's proposals (Check the votes on each): the Senat — names "Manual"
 - `cal.1968-05-07.alabama-al` (May 7, CIII may68.yaml): Montgomery. Lurleen Wallace dies of cancer, 41, sixteen months in office. Lieutenant Governor Albert Brewer, 3 — names "Official and Statistical"
 - `cal.1968-05-14.governors-wv` (May 14, CIII may68.yaml): West Virginia's primaries for governor, Hulett Smith barred from a second term. Democratic: James Sprouse, a l — names "Official Returns"
-- `cal.1968-05-21.governors-il` (May 20–21, CIII may68.yaml): Illinois. Kerner, named by Johnson to the Seventh Circuit (nominated Mar. 11, confirmed Apr. 11), resigns as g — names "Blue Book"
 - `cal.1968-06-24.state-constitutions-fl` (June 24–July 3, CIV jun68.yaml): Florida. The legislature, in special session, proposes a revised constitution in three joint resolutions: the  — names "Journal of the House"
 - `cal.1968-07.states-and-cities-nyc` (July, CV jul68.yaml): New York City. Lindsay names Galamison, of the school boycott of 1964, to the Board of Education, enlarged by  — names "Laws of "
 - `cal.1968-08-06.governors-ks` (Aug. 6, CVI aug68.yaml): Kansas, Republican primary for governor: Harman, a businessman, 133,454, 48.9 percent; Crutcher, the lieutenan — names "Election Statistics"
-- `cal.1968-09-10.governors-ny` (Sept. 10, CVII sep68.yaml): New York. Rockefeller appoints Goodell, Representative from the 38th District since 1959, to Robert Kennedy's  — names "Cong. Rec."
-- `cal.1968-09-17.governors-wa` (Sept. 17, CVII sep68.yaml): Washington's blanket primary, for governor. Governor Evans (R) 305,897, 43.4 percent; O'Connell (D), the attor — names "Official Abstract"
 - `cal.1968-10-01.antisubversion` (Oct. 1–4, CVIII oct68.yaml): House Un-American Activities Committee, a subcommittee under Ichord: hearings on subversive involvement in the — names "Hearings"
 - `cal.1968-10-01.states-and-cities-jacksonville` (Oct. 1, CVIII oct68.yaml): Jacksonville and Duval County one government, by the charter Duval's voters approved Aug. 8, 1967, 54,493 to 2 — names "Laws of "
 - `cal.1968-11-05.legislatures-ny` (Nov. 5, CIX nov68.yaml): New York. Republicans take the Assembly, 78 seats to the Democrats' 72, and keep the Senate, 33 to 24. Duryea, — names "Legislative Manual"
@@ -3635,8 +3604,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1968-11-05.governors-nm` (Nov. 5, CIX nov68.yaml): New Mexico. Cargo (R) re-elected over Chavez (D), once a State senator, 160,140 to 157,230, 50.2 percent; the  — names "Election Returns"
 - `cal.1968-11-05.legislatures-ca` (Nov. 5, CIX nov68.yaml): California. Republicans take both houses: the Assembly 41 R–39 D, from 38–42; the Senate 21–19, from 20–20. Mo — names "Statement of Vote"
 - `cal.1968-11-05.legislatures-ak` (Nov. 5, CIX nov68.yaml): Alaska. Democrats take the House, 22–18, from 15 D–25 R; the Senate stays Republican, 11–9. — names "Official Returns"
-- `cal.1968-11-05.legislatures-nv` (Nov. 5, CIX nov68.yaml): Nevada. Republicans take the Assembly, 22–18, from 19 R–21 D; the Senate stays Democratic, 11–9. — names "Political History of Nevada"
-- `cal.1968-11-05.governors-mo` (Nov. 5, CIX nov68.yaml): Missouri. Hearnes (D) re-elected governor over Lawrence Roos (R), supervisor of St. Louis County, 1,072,805 to — names "Manual"
 - `cal.1968-11-05.legislatures-tn` (Nov. 5, CIX nov68.yaml): Tennessee's House elected 49 Republicans, 49 Democrats and an independent. Jan. 1969, the Republicans' William — names "Blue Book"
 - `cal.1969-01-07.governors-md` (Jan. 7, CXI jan69.yaml): Annapolis, Md. Agnew resigns as governor. The General Assembly, in joint session, elects Marvin Mandel, Speake — names "Journal of Proceedings"
 
@@ -3649,10 +3616,10 @@ The brief: what the thread is, and its stations, in one or two clipped sentences
 | Africa | Africa apart from the Congo. Sharpeville and the Security Council; the colonial declaration; Williams's "Africa for the Africans"; Angola at the UN; Mohamed V dies; Nkrumah and the Volta dam; Bizerte; the Moroccan bases; Algeria independent, Ben Bella at the White House and in Havana; the General Assembly's sanctions on South Africa. |
 | Alabama | Alabama, 1960–65: the students, the Freedom Rides, Wallace, Birmingham, the schools, Selma. The Montgomery students; King acquitted; Meriwether confirmed; Anniston and the Birmingham terminal; Montgomery, the marshals, the church besieged; the riders on to Jackson; Wallace nominated. |
 | Antisubversion | The States' committees, laws and oaths against subversion, and the Subversive Activities Control Board. Mississippi's Sovereignty Commission and the Citizens' Council; the Burns committee's report; Proposition 24 refused. |
-| Assassination | Kennedy killed at Dallas, and the inquiry. Nov. 22; Oswald killed; the funeral; the Warren Commission; the first witness; Ruby convicted; the Report; the hearings published; the Manchester suit and its settlement; Ruby's death; Garrison's inquiry at New Orleans, Ferrie's death, Shaw's arrest. |
+| Assassination | Kennedy killed at Dallas, and the inquiry. Dealey Plaza; Oswald killed; the funeral; the Warren Commission; its first meeting; the first witness; Ruby convicted; the Report; the hearings published. |
 | Berlin and Vienna | The second Berlin crisis, from Khrushchev's demands to the wall and after. Adenauer at the White House; the East German permits; Vienna; the July buildup; Aug. 13; Clay in Berlin; Checkpoint Charlie; Powers for Abel; Fechter. |
-| Black nationalism | Malcolm X and the Nation of Islam, and Black Power. The "chickens" remark and the suspension; the break; "The Ballot or the Bullet"; the Organization of Afro-American Unity; the assassination; CORE's "black power"; the Black Panther Party; the Panthers at Sacramento; the Black Power conference at Newark; the FBI's counterintelligence program; Newton's arrest. |
-| Bobby Baker | The Senate majority's secretary and the Rules Committee's inquiry. Resignation, Oct. 7; Reynolds before the committee's staff; Johnson's statement; the Williams resolution tabled; the Select Committee on Standards and Conduct; the inquiry reopened; Baker convicted. |
+| Black nationalism | Malcolm X and the Nation of Islam, and Black Power. "Message to the Grass Roots"; the "chickens" remark and the suspension; the break; "The Ballot or the Bullet"; the Organization of Afro-American Unity; the assassination. |
+| Bobby Baker | The Senate majority's secretary and the Rules Committee's inquiry. The resignation; Reynolds before the committee's staff; Johnson's statement; the Williams resolution tabled; the Select Committee on Standards and Conduct; the inquiry reopened. |
 | Cities and housing | Housing, the cities, and urban transit. The Housing Act of 1961; the Urban Affairs department refused, by Rules and by the House; Weaver. |
 | Civil disorders | Riots in the cities, and the inquiries and bills that followed. Nashville; Tampa, Cincinnati, Atlanta, Buffalo; Newark and Plainfield; Cramer's anti-riot bill through the House; Detroit, the Guard and the paratroopers; H. Rap Brown at Cambridge; the address of July 27 and the Kerner Commission; Milwaukee; the Senate's inquiry; the Miami chief's patrols. |
 | Civil rights bill | The civil rights bill from Kennedy's address to the Act and its first year. The Senators' pledge of 1960. |
@@ -3670,7 +3637,7 @@ The brief: what the thread is, and its stations, in one or two clipped sentences
 | Desegregation: public places | Segregation in travel, at lunch counters, in parks and other public places, short of the schools; each event in its own thread. *Boynton*; Burton; the Freedom Rides and the ICC order; Albany; Garner. Gallup on the Freedom Riders and on integration. |
 | Desegregation: schools | Schools and universities opened under federal court orders, each event in its own thread. New Orleans; Georgia; Atlanta; Meredith at Oxford. Gallup on school integration. |
 | Draft | Selective Service. The message and the Marshall Commission's lottery; Muhammad Ali's refusal and conviction; the Military Selective Service Act; Stop the Draft Week; Hershey's letter to the boards and his statement with Ramsey Clark; the Boston indictments. |
-| Economy | The recession of 1960–61, the recovery, and the tax cut. The peak; the London gold price; the balance-of-payments directive; the task force; the trough; the Fed's long rates; the gap; the debt limit; the 1962 Report; the May slide; depreciation; the investment credit; the Economic Club. |
+| Economy | Fiscal and monetary policy, the dollar and gold. The peak; the London gold price; the balance-of-payments directive; the task force; the trough; the Fed's long rates; the gap; the debt limit; the 1962 Report; the May slide; depreciation; the investment credit; the Economic Club. |
 | Elections of 1960 | The 1960 election, from the announcements to the count. The primaries, Mar. 8 to June 7 (CQ's returns); Wisconsin and West Virginia; Los Angeles and Chicago; the Treaty of Fifth Avenue; Houston; the four debates; King's arrest; Nov. 8; Hawaii's recount; the electors; the count, Jan. 6. |
 | Elections of 1961 | The off-year elections of 1961. Governors: Hughes in New Jersey, Harrison in Virginia. Mayors: Yorty over Poulson; Wagner against Tammany, then re-elected; Allen over Maddox in Atlanta; Cavanagh over Miriani in Detroit; Cowger in Louisville. |
 | Elections of 1962 | The primaries and midterms of 1962. Connally and Wallace; Nixon in California; Edward Kennedy against McCormack; Nov. 6; Nixon's last press conference. |
@@ -3680,7 +3647,7 @@ The brief: what the thread is, and its stations, in one or two clipped sentences
 | Elections of 1965 | The off-year elections of 1965. Lindsay over Beame and Buckley in New York; Hughes re-elected and Godwin elected governors; Yorty, Cavanagh and Barr re-elected; Locher over Stokes; Cervantes in St. Louis; Bond to the Georgia House. |
 | Elections of 1966 | The primaries and midterms of 1966. Lurleen Wallace; Reagan; the Virginia, Tennessee and Michigan primaries; Maddox; Brooke; Nov. 8; the Georgia governorship to the legislature, Maddox chosen; Reagan sworn. |
 | Elections of 1967 | The off-year elections of 1967. Mayors: Daley's fourth term; Hatcher at Gary, Stokes at Cleveland; Tate over Specter; White over Hicks; Alioto, Lugar, D'Alesandro, Loeb. Governors: McKeithen renominated; Nunn in Kentucky; Williams in Mississippi. New Jersey's Senate Republican; Reid to Virginia's House of Delegates; New York's constitution refused. |
-| Elections of 1968 | The 1968 nominations: Gallup's trial heats and the parties' choices from 1966; Nixon's preparations; Romney's "brainwashing" and his announcement; McCarthy against Johnson; the primaries, Mar. 12 to June 11 (CQ's returns), and the conventions, Miami Beach, Aug. 5, and Chicago, Aug. 26. The rest of the year not yet written. |
+| Elections of 1968 | The 1968 election, from the race for the nominations to the count. Gallup's first trial heats and the Republicans' choice, Nixon first; Romney against Humphrey and Johnson; Robert Kennedy and Humphrey as candidates. |
 | Elections of 1972 | The 1972 nominations: the primaries, Mar. 7 to June 6 (CQ's returns), and the conventions, both at Miami Beach, July 10 and Aug. 21. The rest of the year not yet written. |
 | Elections of 1976 | The 1976 nominations: the primaries, Feb. 24 to June 8 (CQ's returns), and the conventions, New York, July 12, and Kansas City, Aug. 16. The rest of the year not yet written. |
 | Europe and the alliance | Britain, Germany, France, Turkey, and the alliance's nuclear arms. Macmillan at Camp David; de Gaulle's visit; Herter's NATO force; the Turkish coup; Cyprus independent; the Acheson directive; the Ottawa pledge; the Jupiters kept; Menderes hanged; Bermuda; Athens; Makarios at the White House; the Declaration of Interdependence; the Jupiters to go; Skybolt cancelled; Nassau. |
@@ -3728,13 +3695,13 @@ The brief: what the thread is, and its stations, in one or two clipped sentences
 | States and cities | State and city politics where no narrower thread holds them. The Twenty-third Amendment; Chessman; the Governors' Conferences; Tower; Newburgh; Atlanta's schools; New York's Conservative Party; Nashville's Metro charter; Brooke attorney general; the Council of State Governments' amendments. |
 | Steel | Steel prices and the guideposts. The 1959 strike settled; the letter of September 1961; the early settlement; the April price rise and its rescission. |
 | Students | College and university students in politics. The HUAC hearings at San Francisco; the peace pickets at the White House; Port Huron. |
-| Succession | Johnson's first weeks, and the succession amended. The oath; the joint session; the Kennedy program; the budget; the disability amendment in the Senate; the disability message; the Twenty-fifth Amendment through Congress; Johnson's surgery, 1965 and 1966; the Amendment ratified. |
+| Succession | Johnson's first weeks, and the succession amended. The oath; the first meeting on Vietnam; NSAM 273; the joint session; the Kennedy program; the first news conference; the budget; the disability amendment in the Senate; the disability message; the Twenty-fifth Amendment through Congress; Johnson's surgery. |
 | Testing | Nuclear testing and arms control. The threshold proposal; France's first test; the Ten-Nation Committee; the moratorium declaration; the Antarctic Treaty; the Soviet resumption; American tests underground; ACDA; the fifty megatons; atmospheric tests resumed; Geneva; Starfish Prime; Khrushchev's inspection offer. |
-| Trade | Trade, from the Trade Expansion Act to the wheat sale. The OECD convention; the House and Senate votes; Herter named. |
+| Trade | Trade and the tariff, from the Trade Expansion Act through the Kennedy Round. The OECD convention; the House and Senate votes; Herter named. |
 | Transition and staff | The administration's people and organization. The first appointments; Key Biscayne; the cabinet named; the NSC remade; the back injury; Taylor at the White House; McCone for Dulles; the Thanksgiving reshuffle; Joseph Kennedy's stroke; Hoover's lunch; Taylor to the Joint Chiefs. |
 | Transportation | Transportation and its safety. The message on freight rates, user charges and mass transit; New York: the Lower Manhattan Expressway set aside. |
 | Vietnam | The deepening commitment in Vietnam. Tây Ninh; the Caravelle petition; the Party's Third Congress; Durbrow's démarche; the paratroop coup; the National Liberation Front; the counterinsurgency plan; Johnson's trip; NSAM 52; Staley; Taylor–Rostow; NSAM 111; helicopters and the first dead; MACV; strategic hamlets; Galbraith's dissent; McNamara's visits; Mansfield's report; Ấp Bắc. |
 | Voting rights | Voting rights in Congress and the field. The referee plan, the filibuster, cloture refused, the Civil Rights Act of 1960; *Raines*; *Gomillion*; the poll tax amendment through Congress; the Voter Education Project; the literacy-test filibuster. |
-| War on poverty | The war on poverty, from the State of the Union of Jan. 8, 1964: Shriver's task force; the poverty message; the Economic Opportunity Act; the Office of Economic Opportunity; the 1965 letter; Head Start; the Economic Opportunity Amendments; the 1966 amendments; the children and youth message; "America's Unfinished Business"; the hunger hearings at Jackson; the 1967 amendments and Green's amendment. |
+| War on poverty | The war on poverty: the Economic Opportunity Act and its programs. The North Carolina Fund; Shriver's task force; the poverty message; the poverty tours; the Economic Opportunity Act; the Office of Economic Opportunity; VISTA; the Appalachian act; the 1965 letter; Head Start; the Economic Opportunity Amendments. |
 | Welfare | Public assistance and Social Security. Kerr–Mills; aid to children of the unemployed; the Social Security Amendments of 1961; the Public Welfare Amendments of 1962. |
 | Women | The status of women in law and policy. The President's Commission. |
