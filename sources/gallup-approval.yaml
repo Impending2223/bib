@@ -1,8 +1,9 @@
 # Kept by hand: Gallup's presidential job approval as published, read off the page images of
 # The Gallup Poll: Public Opinion, 1935-1971, vol. III (1972) (K-J Cong. II.E): the release date, page, field dates,
 # survey and question, the national figures, and approval by party where the book prints it. Fieldwork ending
-# Jan. 20, 1961 - Dec. 12, 1967; releases through Jan. 15, 1968 (pp. 1707-2101; none released Dec. 23, 1965 -
-# Jan. 10, 1966, Dec. 5, 1966 - Feb. 18, 1967, or Jan. 1-15, 1968). Where a release prints no
+# Jan. 20, 1961 - Nov. 14, 1968; releases through Dec. 31, 1968 (pp. 1707-2171; none released Dec. 23, 1965 -
+# Jan. 10, 1966, Dec. 5, 1966 - Feb. 18, 1967, Jan. 1-15, 1968, or Nov. 28 - Dec. 31, 1968). Releases of Jan. 1-20,
+# 1969 (the 1969 pages) are not yet read. Where a release prints no
 # field dates (a special survey), or a second release from one survey prints other figures, the note of the
 # reading it belongs with gives it. tools/indicators/make_polls.py sets these beside the American Presidency Project's
 # series (Gallup's figures as compiled today), which differ in places. series_from, series_to: the series' field dates
@@ -776,3 +777,91 @@
   rep: 30
   ind: 40
   note: 'Region 52/45/35/57. No approval reading released Jan. 1-15, 1968.'
+- published: '1968-01-28'
+  page: 2103
+  from: '1968-01-04'
+  to: '1968-01-09'
+  survey: '756'
+  question: '17'
+  president: Johnson
+  approve: 48
+  disapprove: 39
+  no_opinion: 13
+  dem: 65
+  rep: 28
+  ind: 38
+  note: 'Region 53/46/44/52. The series today gives Democrats 66.'
+- published: '1968-02-18'
+  page: 2106
+  from: '1968-02-01'
+  to: '1968-02-06'
+  survey: '757'
+  question: '12'
+  president: Johnson
+  approve: 41
+  disapprove: 47
+  no_opinion: 12
+  series_from: '1968-02-02'
+  series_to: '1968-02-07'
+  note: 'The series today gives these figures to Feb. 2-7. None released for 758 (Feb. 22-27; the series today 41/48/11).'
+- published: '1968-03-31'
+  page: 2113
+  from: '1968-03-15'
+  to: '1968-03-20'
+  survey: 759-K
+  question: '13a'
+  president: Johnson
+  approve: 36
+  disapprove: 52
+  no_opinion: 12
+  dem: 52
+  rep: 25
+  ind: 21
+  series_from: '1968-03-10'
+  series_to: '1968-03-15'
+  note: 'Region 40/31/34/40 (p. 2114). The series today gives these figures, party figures included, to Mar. 10-15.'
+- published: '1968-04-17'
+  page: 2121
+  from: '1968-04-04'
+  to: '1968-04-09'
+  survey: 760-A
+  question: '11'
+  president: Johnson
+  approve: 49
+  disapprove: 40
+  no_opinion: 11
+  note: 'The series today gives 50/38/12 (Democrats 65, independents 39, Republicans 39) to Apr. 4-9. None released for 761-K (May 2-7; the series 46/43/11), 762-A (May 23-28; 41/45/14), 763 (June 13-18; 42/45/13), 764 (June 26-July 1; 40/47/13) or 765-A (July 18-23; 40/47/13).'
+- published: '1968-09-04'
+  page: 2158
+  from: '1968-08-07'
+  to: '1968-08-12'
+  survey: '766'
+  question: '1'
+  president: Johnson
+  approve: 35
+  disapprove: 52
+  no_opinion: 13
+- published: '1968-10-22'
+  page: 2166
+  from: '1968-09-26'
+  to: '1968-10-01'
+  survey: 769-K
+  question: '14'
+  president: Johnson
+  approve: 42
+  disapprove: 51
+  no_opinion: 7
+  series_from: '1968-09-19'
+  series_to: '1968-09-24'
+  note: 'Figures on p. 2167. The series today gives these figures to Sept. 19-24, the field dates of 768-C.'
+- published: '1968-11-27'
+  page: 2171
+  from: '1968-11-09'
+  to: '1968-11-14'
+  survey: '771'
+  question: '1'
+  president: Johnson
+  approve: 43
+  disapprove: 44
+  no_opinion: 13
+  note: 'None released for 772-K (Dec. 5-10; the series today 44/43/13).'

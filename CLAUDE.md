@@ -46,7 +46,7 @@ So every calendar entry has:
     "to the relevant material elsewhere in the bibliography" (the owner's words); it no longer names the themed lists'
     sections that treat the event (the owner's ruling, Oct. 13, 2026, with the move to one A–Z list). Write a work as
     its card, `[[w.beschloss-crisis-years]]` (a pinpoint after it: `[[w.gallup-poll]], III, 1862`): the build prints
-    the full citation at the work's first appearance in each half of the calendar, the short form after (the owner's
+    the full citation at the work's first appearance in each part of the calendar, the short form after (the owner's
     request, Oct. 13, 2026; FIRST CITE in `tools/bib/works.py`). A work with no card yet: make one first (`works/`, or
     `./bib works adopt`).
   - for an event done in private and documented in records nobody saw at the time (a recording, a memorandum, an FBI
@@ -75,9 +75,9 @@ Calendar entries on the States and the cities take hidden `state:<postal code>` 
 Each thread in `th.yaml` has a brief statement (`c`), as the owner asked: what the thread is, and its stations, in
 one or two clipped sentences. Every thread is its matter as Washington met it, but the statements don't say so; that framing, and the scopes
 taken out of the statements, are in `notes/threads.md`. `th.yaml` keeps the threads in alphabetical order of their
-names (War on poverty under "poverty"; `check` warns otherwise). The calendar is built in two halves (below, "The
-calendar in two halves"): a thread with entries in both carries `c2`, its statement for the second, and `c` speaks to
-the first alone; the scope stays the same in both, the stations each half's own.
+names (War on poverty under "poverty"; `check` warns otherwise). The calendar is built in three parts (below, "The
+calendar in three parts"): a thread's `c` speaks to the first part it has entries in, and `c2`, `c3` to the second and
+third where it has entries in an earlier one too; the scope stays the same in all, the stations each part's own.
 
 `./bib audit-cal` checks the dated entries against these rules and writes `notes/calendar-audit.md`: persons in `c`
 in neither `Names:` nor a `name:` tag, entries with neither a bibliography nor a `See`, entries with no primary record or with one
@@ -134,12 +134,12 @@ notes/leads.md            leads to check later: events, figures and sources the 
 congress/changes.yaml     departures and successors during each Congress (generated)
 congress/specials.yaml    special elections during each Congress, 87th–93rd, with candidates (generated)
 congress/switches.yaml    members who changed party in office (kept by hand)
-elections/governors.yaml  every general election for governor, 1960–67 (generated from Wikipedia; never edit)
-elections/legislatures.yaml  each State legislature's parties by session, 1959–67 (generated from Klarner; never edit)
+elections/governors.yaml  every general election for governor, 1960–68 (generated from Wikipedia; never edit)
+elections/legislatures.yaml  each State legislature's parties by session, 1959–69 (generated from Klarner; never edit)
 sources/states.yaml       each State's own official election publications, where to read them, what they print (kept by hand)
 daybook/<YYYY-MM>.yaml    every Public Papers (APP) and FRUS document by date (generated)
 daybook/abstracts.yaml    one-sentence abstracts, keyed by document (kept by hand or agent)
-daybook/recordings/<YYYY-MM>.yaml  every White House recording PRDE catalogues, July 1962–Jan. 15, 1968 (generated)
+daybook/recordings/<YYYY-MM>.yaml  every White House recording PRDE catalogues, July 1962–Jan. 20, 1969 (generated)
 daybook/recordings/millercenter.yaml  the same span's recordings the Miller Center gives free, page and audio (generated)
 daybook/sunday.yaml       the Sunday interview programs and their guests: Meet the Press, 1945–80; Face the Nation, 1959–70 (generated)
 sources/loc/              the Library of Congress finding aid make_sunday.py reads (Spivak visual materials, pp020019, pp. 1–136)
@@ -155,7 +155,7 @@ tools/executive/          the one-time script that seeded executive/ from POCOM
 | kja  | K–J Adm.  | Kennedy and Johnson administrations, 1961–69 |
 | kjc  | K–J Cong. | Congress, the nation, and the states, 1961–69 |
 | opp  | Opp.      | The Republican opposition, 1961–69           |
-| cal  | Cal.      | Calendar, Jan. 6, 1960–Jan. 15, 1968 (the 86th Congress's second session; the 87th, 88th and 89th; the 90th's first session); the primaries, 1960–76; built as two pages, Cal. I (`cal.html`, 1960–62) and Cal. II (`cal63.html`, from Jan. 1963) |
+| cal  | Cal.      | Calendar, Jan. 6, 1960–Jan. 20, 1969 (the 86th Congress's second session; the 87th through the 90th; the 91st's opening); the primaries, 1960–76; built as three pages, Cal. I (`cal.html`, 1960–62), Cal. II (`cal63.html`, Jan. 1963–Jan. 9, 1966) and Cal. III (`cal66.html`, from Jan. 10, 1966) |
 | l68  | 1968      | The 1968 campaign ("the 1968 list")          |
 | adm  | Adm.      | Nixon and his administration, 1969–74        |
 | cong | Cong.     | Congress, the nation, and the states, 1969–74 |
@@ -164,11 +164,12 @@ tools/executive/          the one-time script that seeded executive/ from POCOM
 
 Parts: I portrayals, II sources, III names. A reference like "K–J Adm. II.D"
 is `lists/kja/II.D.yaml`. The calendar's files are named by month: `apr.yaml`
-for 1961, `apr60.yaml` for 1960, `apr62.yaml` for 1962, `apr63.yaml` and so on for 1963–67;
-every section a calendar month (`jan60.yaml` from Jan. 6, 1960, the calendar's first day; `jan68.yaml` to Jan. 15, 1968, its
-last), plus `th.yaml` (threads); the primary seasons after Jan. 1968, `mar68.yaml`–`aug76.yaml`, hold only the primaries
-and the conventions' openings for now. Its sections are numbered straight
-through, I to CXVII, in date order, in the data (`num`); the headings show the dates alone.
+for 1961, `apr60.yaml` for 1960, `apr62.yaml` for 1962, `apr63.yaml` and so on for 1963–68;
+every section a calendar month (`jan60.yaml` from Jan. 6, 1960, the calendar's first day; `jan69.yaml` to Jan. 20, 1969, its
+last; January 1966 two, `jan66.yaml` and `jan66b.yaml`, at the third part's opening), plus `th.yaml` (threads); the
+primary seasons after Jan. 1969, `mar72.yaml`–`aug76.yaml`, hold only the primaries and the conventions' openings for
+now. Its sections are numbered straight through, I to CXXIV, in date order, in the data (`num`); the headings show the
+dates alone.
 
 ## Finding things (start here)
 
@@ -239,7 +240,7 @@ The thread index (Part I of the calendar) is generated from `thread` and
   before it lifts: the templates listen for touches so iOS Safari shows it), or at keyboard focus. An article's link spans the volume, the journal and the first page: `[27 J. Latin Am.
   Stud. 1](https://…)`.
 - `[[w.id]]`: a work of the catalogue, linked to its entry on `works.html`: in the calendar, its full citation at its
-  first appearance in each half (FIRST CITE), its short form after ("Beschloss, *Crisis Years*"; SHORT FORM in
+  first appearance in each part (FIRST CITE), its short form after ("Beschloss, *Crisis Years*"; SHORT FORM in
   `tools/bib/works.py`; a card's `short` overrides); elsewhere the short form. `[[w.id|full]]` the full citation
   wherever it stands; `[[w.id|text]]` shows "text". A merged card's old id still answers. `check` fails on a card that
   does not exist.
@@ -479,7 +480,7 @@ two-thirds lines), a House map by district, a Senate map by state, and rosters
 by state with pointers to Part III and the calendar entries that name each
 member. All seven are on `build/congress.html`. A calendar entry tagged
 `congress:<NN>` carries that Congress's block in the calendar's pages and the reader;
-now the Jan. 3, 1961 and Jan. 3, 1963 entries.
+now the openings of the 87th to the 91st (Jan. 3, 1961, to Jan. 3, 1969).
 
 The rosters come from unitedstates/congress-legislators by
 `tools/congress/make_rosters.py`, which holds the hand corrections (seats vacant
@@ -525,7 +526,7 @@ Biographical Directory where it matters), and a change of party in office, with 
 `./bib build` writes `build/executive.html`: the Executive Branch at each inauguration (1953, 1957, 1961,
 1965, 1969, 1973) and at the successions of Nov. 22, 1963, and Aug. 9, 1974, with every change during each
 term, through Aug. 31, 1974. A calendar entry tagged `executive:<YYYY-MM-DD>` (a term's first day) carries
-that term's block in the calendar's pages and the reader; now Jan. 6, 1960 (the 1957 term, at the calendar's opening), Jan. 20, 1961, and Nov. 22, 1963. The calendar's copy is
+that term's block in the calendar's pages and the reader; now Jan. 6, 1960 (the 1957 term, at the calendar's opening), Jan. 20, 1961, Nov. 22, 1963, Jan. 20, 1965, and Jan. 20, 1969. The calendar's copy is
 slimmer (`cal_block`, CAL STYLE in `tools/bib/executive.py`): in full, with every holder but no law and no notes, the
 President, the Cabinet (the Vice President, the department heads, the Representative to the UN), the Chairman of the
 Federal Reserve, the Chairman of the Joint Chiefs, the Director of the FBI, and the Special Counsel, Press Secretary,
@@ -806,7 +807,7 @@ dated on the general election (it once dropped every House special, so none reac
 each Congress at its opening, `build/congress.html` gives that Congress's specials: a summary, House
 and Senate maps of the seats filled (large dots; the other districts drawn in the base map's gray; Result, Margin, Swing from the general election that chose
 the Congress, same district), and a table of the races. A calendar entry tagged `special:<key>`
-carries its race's table (the 86th's six of 1960, the 87th's thirteen, the 88th's six of 1963, and the 89th's of 1965–66, thread "Special elections"). Definitions: the STYLE
+carries its race's table (the 86th's six of 1960, the 87th's thirteen, the 88th's of 1963–64, the 89th's of 1965–66, and the 90th's of 1967–68, thread "Special elections"). Definitions: the STYLE
 notes in `tools/bib/specials.py`.
 
 ```
@@ -886,8 +887,8 @@ year does not print. `tools/bib/primaries.py` renders them (STYLE notes there):
 ## Governors
 
 `elections/governors.yaml`, written by `tools/elections/make_governors.py` from Wikipedia (needs the network; the build
-does not): every general election for governor, 1960–67, odd years included (New Jersey and Virginia, 1961 and 1965;
-Kentucky and Mississippi, 1963 and 1967; Louisiana, Mar. 3, 1964; not Louisiana's of Feb. 6, 1968, past the calendar's end). The races and incumbents from Wikipedia's tables of each
+does not): every general election for governor, 1960–68, odd years included (New Jersey and Virginia, 1961 and 1965;
+Kentucky and Mississippi, 1963 and 1967; Louisiana, Mar. 3, 1964, and Feb. 6, 1968). The races and incumbents from Wikipedia's tables of each
 year; the figures from each race's article, its election box, with the source the article gives for them (most the
 State's canvass or *America Votes*; Our Campaigns, or none, marks Check). What the articles cannot settle is `HAND` in
 the script (Georgia, 1966: the legislature elected Maddox; Minnesota, 1962: the recount). Never edit the file by hand.
@@ -897,7 +898,7 @@ the script (Georgia, 1966: the legislature elected Maddox; Minnesota, 1962: the 
   gains, the governorships after), a map (Result: the winner's party, dark where it took the office; Margin: the
   election maps' quantile rule), and the table, one race a `tbody`: the candidates with votes and shares, the margin,
   and under them the note (the incumbent and his fate, the hold or gain, the source). Now Nov. 8, 1960, Nov. 6, 1962,
-  Nov. 3, 1964, Nov. 8, 1966 and Nov. 7, 1967 (thread "Governors"); the other odd years' races are entries of their own.
+  Nov. 3, 1964, Nov. 8, 1966, Nov. 7, 1967, Feb. 6, 1968 (Louisiana) and Nov. 5, 1968 (thread "Governors"); the other odd years' races are entries of their own.
 - Names: each race a row in the candidate's record (`governor_rows` in `tools/bib/lives.py`), the date linked to the
   day's table.
 - The primaries for governor are calendar entries (thread "Governors"), their figures cited in each entry.
@@ -906,7 +907,7 @@ the script (Georgia, 1966: the legislature elected Maddox; Minnesota, 1962: the 
 
 `elections/legislatures.yaml`, written by `tools/elections/make_legislatures.py` from Carl Klarner's State Partisan
 Balance Data (Harvard Dataverse; the seats compiled from the *Book of the States* and the States' manuals; never edit):
-each State's Senate and House by session, 1959–67, as in session (Democrats, Republicans, others, vacancies), the
+each State's Senate and House by session, 1959–69, as in session (Democrats, Republicans, others, vacancies), the
 proportion needed to override the governor's veto (the 1956 provisions) and the governor's party. `HAND` in the script
 for what the data cannot say (North Carolina's governor had no veto; Minnesota's and Nebraska's nonpartisan
 legislatures); `HAND_YEAR` a Check (Kansas, 1967). `tools/bib/legislatures.py` renders them (STYLE notes there):
@@ -915,7 +916,7 @@ legislatures); `HAND_YEAR` a Check (Kansas, 1967). `tools/bib/legislatures.py` r
   1960) carries the session's map and table: a party's color where it holds both chambers, light for a majority,
   middle for the State's override proportion where that lies between a majority and two-thirds, dark for two-thirds
   of both (the Presentment Clause's and Article V's proportion); divided gray; Nebraska the vacant fill. Now the
-  four "legislatures-us" entries of Nov. 1960, 1962, 1964 and 1966.
+  five "legislatures-us" entries of Nov. 1960, 1962, 1964, 1966 and 1968.
 - Article V's analogue is drawn at the federal two-thirds for every State: each State's own rule for proposing an
   amendment (the vote, the sessions) is not yet in the data; the *Book of the States*, 1960–67, prints it.
 
@@ -937,7 +938,7 @@ Every general election from 1956 to 1974, in `elections/<year>.yaml`: the House 
 race, and in presidential years the vote for President by State with the electoral votes as cast.
 1956 is a base for swing and is not shown. `build/congress.html` puts each election from 1958 to
 1974 before the Congress it chose (the 86th and 94th have no rosters); a calendar entry tagged
-`election:<year>` carries its block too (now Nov. 8, 1960, Nov. 6, 1962, and Nov. 8, 1966). A block: the electoral and popular vote
+`election:<year>` carries its block too (now every November election, 1960–68). A block: the electoral and popular vote
 first, then by chamber the seats won, the net change from the close of the last Congress, pickups,
 and new members; one view switch for every map (Result; Margin, the winner's lead over the runner-up in points of all the votes, by the quantile rule; Swing, continuous); the
 President's map above the House and Senate, with a States | Electors switch (Electors: a dot an elector, as voted); the Senate map with a Senators toggle (a dot a seat, larger than the House's: `PB`, `RB`); and every race in tables (the candidate first, in bold where he won, his party under or after him; under 520px the share
@@ -1058,9 +1059,10 @@ tools/bib/indicators.py       renders them (ORDER, GROUP) and checks them
 
 - ALFRED initial releases: CPI, unemployment, payrolls, industrial production,
   GNP, real GNP; the deflator is GNP over real GNP in the same release.
-- Transcribed from the next *Economic Report*, of January (February in 1968) (page images on
-  govinfo; values and table/page in MANUAL in the script): wholesale prices,
-  the administrative and cash budgets, the federal sector of the national
+- Transcribed from the next *Economic Report*, of January (February in 1968), the Reports of Jan. 1962 to Jan. 1969
+  (page images on govinfo and FRASER; values and table/page in MANUAL in the script): wholesale prices,
+  the administrative and cash budgets (actual through fiscal 1967; the Jan. 1969 Report prints the unified budget
+  alone), the unified budget (fiscal 1968 on, its own series), the federal sector of the national
   accounts, the balance of payments. For these "first" means as reported then.
 - Today's values: FRED. Budget figures today are on the unified basis (fiscal
   1969 on), not the old concepts; the over-all balance of payments is no longer
@@ -1096,25 +1098,30 @@ tools/bib/indicators.py       renders them (ORDER, GROUP) and checks them
 - `check` fails on a bad period, a first-reported figure without a release
   date, or a transcribed figure without a source.
 
-## The calendar in two halves
+## The calendar in three parts
 
-One list in the data (`lists/cal/`), two pages in the build, parted at the 88th Congress's opening, by the month: `cal.html`
-(Cal. I, Jan. 6, 1960, to Dec. 31, 1962) and `cal63.html` (Cal. II, from Jan. 1, 1963); in the reader, two
-blocks. `split:` in `lists/cal/list.yaml` gives the date the second begins (`from`), its page, and its own page_title,
-h1, lede, logic, abbr and title (`abbr1`, `title1`, `span1` for the first). A dated section goes to the half its first
-day falls in; the threads section is in both. `tools/bib/calsplit.py` (STYLE notes at the top):
+One list in the data (`lists/cal/`), three pages in the build, parted at the 88th Congress's opening (by the month) and at
+the 89th's second session (the owner's ruling, Oct. 17, 2026): `cal.html` (Cal. I, Jan. 6, 1960, to Dec. 31, 1962),
+`cal63.html` (Cal. II, Jan. 1, 1963, to Jan. 9, 1966) and `cal66.html` (Cal. III, from Jan. 10, 1966); in the reader,
+three blocks. January 1966 is two sections, `jan66` (Jan. 1–9) and `jan66b` (Jan. 10–31). `split:` in
+`lists/cal/list.yaml` is a list: the first item the first part's labels (abbr, title, span; its page texts are the
+list's own), each later item a part with the date it begins (`from`), its page, and its own page_title, h1, lede,
+logic, abbr, title and span. A dated section goes to the part its first day falls in; the threads section is in all.
+`tools/bib/calsplit.py` (STYLE notes at the top):
 
-- Each half's thread index lists the threads with entries in it, with that half's statement (`c`; `c2` in the
-  second where the thread is in both) and its dates by year: the year unlinked, in the sans, a little heavier
-  ("**1961** Jan. 23, Feb. 20. **1962** …"). Across the divide, muted: in the first, after its dates, the year and date
-  of the thread's next entry in the second (". 1963 Jan. 14."), the year linked, not underlined, to the thread in the second's index,
-  the date to the entry; in the second, before its dates, the last entry in the first, linked the same way.
-- The second half's thread entries are anchored `cal63.thread.<slug>`; a rubric links to its own half's index.
-- At the seam, muted: "‹ Dec. 31, 1962, in the first calendar" at the head of Jan. 1, 1963; "Jan. 1, 1963, in the
-  second calendar ›" at the foot of Dec. 31.
-- Links: write `[[id]]` as ever. The build routes a link whose anchor is in the other half to that page, on the
-  calendar's pages and on every other page (`cal.html#X` → `cal63.html#X`); `./bib links` checks both.
-- `./bib build cal` (or `cal63`) builds both halves.
+- Each part's thread index lists the threads with entries in it, with that part's statement (`c` in the first part the
+  thread has entries in; `c2`, `c3` in the second and third where it has entries earlier, else the latest before) and
+  its dates by year: the year unlinked, in the sans, a little heavier ("**1961** Jan. 23, Feb. 20. **1962** …").
+  Across the divides, muted: after its dates, the year and date of the thread's next entry in a later part (". 1963
+  Jan. 14."), the year linked, not underlined, to the thread in that part's index, the date to the entry; before its
+  dates, its last entry in an earlier part, linked the same way.
+- The later parts' thread entries are anchored `cal63.thread.<slug>`, `cal66.thread.<slug>`; a rubric links to its
+  own part's index.
+- At each seam, muted: "‹ Dec. 31, 1962, in the first calendar" at the head of a part's first day; "Jan. 1, 1963, in
+  the second calendar ›" at the foot of the part before's last.
+- Links: write `[[id]]` as ever. The build routes a link whose anchor is in another part to that page, on the
+  calendar's pages and on every other page (`cal.html#X` → `cal63.html#X`); `./bib links` checks them all.
+- `./bib build cal` (or `cal63`, `cal66`) builds all three.
 - A tap on a thread's entry in the index, or on its line under an entry (not on a link), lights the thread: its
   entries and its index entry on white (a lighter panel in the dark theme), each entry's own box from its rule to the
   next and an en dash past the rules' ends on either side, the rules as they were; a day's first or last entry takes a
@@ -1140,15 +1147,6 @@ after it in the thread ("⟨⟨ Testing ⟩⟩", the brackets the links, not und
 `tools/bib/build.py`), a "Continuing" pointer under the date on each later
 day of a ranged entry, and the day's documents, closed by default, with "Expand all" and
 "Collapse all" under each month heading.
-
-A day off the screen is not laid out (`content-visibility: auto`; the owner's ruling, Oct. 16, 2026) and holds the
-place of its estimated height until it has been drawn, then of its height as drawn. The build writes each day's pieces
-(`data-h`: kind and characters, `heights()` in `tools/bib/daybook.py`); the page measures each kind's line height and
-character width once, on a probe at the column's width, and adds up the lines (SIZE in its SCRIPT; `SLACK` fitted
-against Chromium at 390 and 1280 px, Oct. 16, 2026: median error per day 0.4–0.5%, 90th percentile 4%, the page's
-height within 1%). A day holding a block (a map, a table, a roster: `.cg`) is not estimated and is laid out as before.
-Nothing that reads a position may lay out every day: the thread marks take a day not yet drawn as the entry's place
-(`checkVisibility`), and the scroll wheel measures its headings again when the page's height changes.
 
 ```
 tools/daybook/make_daybook.py   writes daybook/<YYYY-MM>.yaml (needs the network; the build does not)

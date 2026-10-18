@@ -195,9 +195,9 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
         slug = e["id"].split(".", 2)[2]
         members = thread_members(lst).get(slug, [])
         half = calsplit.CUR["half"]
-        has_first = any(calsplit.half_of_date(lst, m["date"]) == 1 for m in members)
+        first = min((calsplit.half_of_date(lst, m["date"]) for m in members), default=1)
         if half and calsplit.cfg(lst):
-            statement = calsplit.statement(lst, e, half, has_first)
+            statement = calsplit.statement(lst, e, half, first)
             anchor = calsplit.thread_anchor(lst, slug, half)
     for i, c in enumerate(store.as_list(statement)):
         lead = rubric if (rubric and i == 0) else ""
@@ -291,8 +291,8 @@ def half_sections(lst, half):
             c.entries = [e for e in s.entries if not e["id"].startswith(f"{lst.key}.thread.")
                          or any(calsplit.half_of_date(lst, m["date"]) == half
                                 for m in members.get(e["id"].split(".", 2)[2], []))]
-            if half == 2:
-                c.id = f"{s.id}2"
+            if half > 1:
+                c.id = f"{s.id}{half}"
             out.append(c)
         else:
             out.append(s)
@@ -300,10 +300,10 @@ def half_sections(lst, half):
 
 
 def page_text(lst, half):
-    """The page's own fields (title, heading, lede, logic): the list's, or for the second half the split's."""
+    """The page's own fields (title, heading, lede, logic): the list's, or for a later part of the calendar the part's."""
     d = dict(lst.data)
-    if half == 2 and calsplit.cfg(lst):
-        d.update({k: v for k, v in calsplit.cfg(lst).items() if k in ("page_title", "h1", "lede", "logic")})
+    if half and half > 1 and calsplit.cfg(lst):
+        d.update({k: v for k, v in calsplit.cfg(lst)[half - 1].items() if k in ("page_title", "h1", "lede", "logic")})
     return d
 
 
@@ -884,15 +884,12 @@ def build_series(series):
     for lst in series.lists.values():
         m = lst.meta
         split = calsplit.cfg(lst) if lst.kind == "calendar" else None
-        for half in ((1, 2) if split else (None,)):
-            key = lst.key if half != 2 else split["page"]
+        for half in (range(1, len(split) + 1) if split else (None,)):
+            key = split[half - 1]["page"] if split else lst.key
             data = page_text(lst, half)
-            if half == 2:
-                meta[key] = {"abbr": split.get("abbr", m["abbr"]), "title": split.get("title", m["title"]),
-                             "span": split.get("span", ""), "group": m.get("group", "")}
-            else:
-                meta[key] = {"abbr": (split or {}).get("abbr1", m["abbr"]), "title": (split or {}).get("title1", m["title"]),
-                             "span": (split or {}).get("span1", m.get("span", "")), "group": m.get("group", "")}
+            p = split[half - 1] if split else {}
+            meta[key] = {"abbr": p.get("abbr", m["abbr"]), "title": p.get("title", m["title"]),
+                         "span": p.get("span", m.get("span", "")), "group": m.get("group", "")}
             order.append(key)
             calsplit.CUR["half"] = half
             out = [f'<section class="list" id="L-{key}" data-key="{key}" hidden><h1 id="{key}--top">{esc(data["h1"])}</h1>']
@@ -929,9 +926,9 @@ def build_series(series):
         gid = "home--" + (g.split("–")[0] if g else "other")
         lines = []
         for l in lsts:
-            halves = (1, 2) if l.kind == "calendar" and calsplit.cfg(l) else (None,)
+            halves = range(1, len(calsplit.cfg(l)) + 1) if l.kind == "calendar" and calsplit.cfg(l) else (None,)
             for half in halves:
-                k = l.key if half != 2 else calsplit.cfg(l)["page"]
+                k = calsplit.page_key(l, half) if half else l.key
                 n = sum(1 for s, e in l.entries() if half is None or calsplit.half_of_entry(l, s, e) == half
                         and not e["id"].startswith(f"{l.key}.thread."))
                 lines.append(f'<li><a class="lk" href="#{k}--top"><span class="ab">{esc(meta[k]["abbr"])}</span>'
@@ -987,8 +984,8 @@ def run(series, which=None):
     os.makedirs(OUT, exist_ok=True)
     written = []
     PAGES = ("series", "congress", "executive", "names", "lives", "works")
-    for l in series.lists.values():       # the calendar's second half is built with its first
-        if which and l.kind == "calendar" and calsplit.cfg(l) and which == calsplit.cfg(l)["page"]:
+    for l in series.lists.values():       # the calendar's later parts are built with its first
+        if which and l.kind == "calendar" and calsplit.cfg(l) and which in [p["page"] for p in calsplit.cfg(l)]:
             which = l.key
     keys = [which] if which and which not in PAGES else ([] if which in PAGES else list(series.lists))
     from . import congress, executive, indicators
@@ -1000,9 +997,9 @@ def run(series, which=None):
         return calsplit.route(page, cal, own) if cal is not None else page
     for k in keys:
         lst = series.lists[k]
-        halves = (1, 2) if lst.kind == "calendar" and calsplit.cfg(lst) else (None,)
+        halves = range(1, len(calsplit.cfg(lst)) + 1) if lst.kind == "calendar" and calsplit.cfg(lst) else (None,)
         for half in halves:
-            name = k if half != 2 else calsplit.cfg(lst)["page"]
+            name = calsplit.page_key(lst, half) if half else k
             path = os.path.join(OUT, f"{name}.html")
             linker = linker or Linker(series)
             calsplit.CUR.update(half=half, mode="list")

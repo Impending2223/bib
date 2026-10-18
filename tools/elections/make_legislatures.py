@@ -1,4 +1,4 @@
-"""elections/legislatures.yaml: the party make-up of every State legislature in each session, 1959–1967, from Carl Klarner's
+"""elections/legislatures.yaml: the party make-up of every State legislature in each session, 1959–1969, from Carl Klarner's
 State Partisan Balance Data, 1937–2011 (Harvard Dataverse, doi:10.7910/DVN/LZHMG3; the seat counts compiled from the
 Council of State Governments' *Book of the States* and the States' manuals). Needs the network; the build does not.
 
@@ -26,7 +26,7 @@ import yaml
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 OUT = os.path.join(ROOT, "elections", "legislatures.yaml")
 URL = "https://dataverse.harvard.edu/api/access/datafile/2432030"     # Partisan_Balance_For_Use2011_06_09b.xlsx
-YEARS = range(1959, 1968)
+YEARS = range(1959, 1970)
 ST = {"Alabama": "AL", "Alaska": "AK", "Arizona": "AZ", "Arkansas": "AR", "California": "CA", "Colorado": "CO",
       "Connecticut": "CT", "Delaware": "DE", "Florida": "FL", "Georgia": "GA", "Hawaii": "HI", "Idaho": "ID",
       "Illinois": "IL", "Indiana": "IN", "Iowa": "IA", "Kansas": "KS", "Kentucky": "KY", "Louisiana": "LA",
@@ -44,6 +44,7 @@ HAND = {
 }
 HAND_YEAR = {
     ("KS", 1967): {"check": "Klarner's House counts, 48 D and 78 R, add to 126 of the 125 seats; the Kansas directory."},
+    ("KS", 1968): {"check": "Klarner's House counts, 48 D and 78 R, add to 126 of the 125 seats; the Kansas directory."},
 }
 
 

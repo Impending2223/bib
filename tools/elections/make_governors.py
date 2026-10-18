@@ -1,4 +1,4 @@
-"""elections/governors.yaml: every general election for governor, 1960 to 1967, from Wikipedia (needs the network; the
+"""elections/governors.yaml: every general election for governor, 1960 to 1968, from Wikipedia (needs the network; the
 build does not).
 
     python3 tools/elections/make_governors.py [--cache DIR]
@@ -17,8 +17,7 @@ STYLE (the file):
     won}], `total`, `source` ({title, url} of the box's reference), `wiki` (the article), `check` (what is open).
  2. Parties by letter: D, R; others by their own name (Prohibition, Socialist Labor, Independent ...).
  3. Odd years: New Jersey and Virginia (1961, 1965), Kentucky and Mississippi (1963, 1967), Louisiana's general of
-    Mar. 3, 1964 (its year table is 1963's). Louisiana's general of Feb. 6, 1968 (in 1967's year table) is past the
-    calendar's end (Jan. 15, 1968) and left out.
+    Mar. 3, 1964 (its year table is 1963's), and of Feb. 6, 1968 (1967's).
  4. Never edit the file by hand: fix the script (HAND) and rerun.
 """
 import argparse
@@ -37,9 +36,10 @@ OUT = os.path.join(ROOT, "elections", "governors.yaml")
 UA = "bib-research/1.0 (calendar of the 1960s; contact through the repository)"
 
 YEARS = {1960: "1960-11-08", 1961: "1961-11-07", 1962: "1962-11-06", 1963: "1963-11-05", 1964: "1964-11-03",
-         1965: "1965-11-02", 1966: "1966-11-08", 1967: "1967-11-07"}
-DATE_BY_STATE = {("Louisiana", 1963): "1964-03-03"}
-SKIP = {("Louisiana", 1967)}   # its general, Feb. 6, 1968, is past the calendar's end
+         1965: "1965-11-02", 1966: "1966-11-08", 1967: "1967-11-07",
+         1968: "1968-11-05"}
+DATE_BY_STATE = {("Louisiana", 1963): "1964-03-03", ("Louisiana", 1967): "1968-02-06"}
+SKIP = set()
 
 STATES = {"Alabama": "AL", "Alaska": "AK", "Arizona": "AZ", "Arkansas": "AR", "California": "CA", "Colorado": "CO",
           "Connecticut": "CT", "Delaware": "DE", "Florida": "FL", "Georgia": "GA", "Hawaii": "HI", "Idaho": "ID",
@@ -58,6 +58,10 @@ PARTY = {"democratic": "D", "republican": "R"}
 HAND = {
     (1962, "Minnesota"): {"note": "Andersen led the first count; the recount gave Rolvaag 91 votes more, and the court "
                                   "declared him elected, Mar. 21, 1963."},
+    (1967, "Louisiana"): {"winner": "John McKeithen",
+                          "candidates": [{"name": "John McKeithen (incumbent)", "party": "D", "votes": None, "pct": 100.0,
+                                          "won": True}],
+                          "note": "McKeithen, renominated in the Democratic primary of Nov. 4, 1967, was unopposed in the general election."},
     (1966, "Georgia"): {"winner": "Lester Maddox",
                         "note": "No candidate had a majority; the General Assembly elected Maddox, Jan. 10, 1967."},
 }

@@ -1063,7 +1063,7 @@ def problems(series):
     cited = set()                       # the cards the text points to ([[w.…]]: the calendar's citations)
     for lst in series.lists.values():
         for sec, e in lst.entries():
-            for fld in ("n", "c", "r", "c2"):
+            for fld in ("n", "c", "r", "c2", "c3"):
                 for m in re.finditer(r"\[\[(w\.[^\]|]+)", e.get(fld) if isinstance(e.get(fld), str) else ""):
                     cited.add(cat.alias.get(m.group(1).strip(), m.group(1).strip()))
     unused = [cid for cid in cat.cards if cid not in w and cid not in cited]
@@ -1213,7 +1213,7 @@ def combine(series, keep, drop):
                 if isinstance(e.get("byline"), list):
                     e["byline"] = list(dict.fromkeys(keep if w == drop else w for w in e["byline"]))
                 hit = True
-            for fld in ("n", "c", "r", "c2"):
+            for fld in ("n", "c", "r", "c2", "c3"):
                 v = e.get(fld)
                 if isinstance(v, str) and rx.search(v) and not (e.get("_derived") and fld in e["_derived"]):
                     e[fld] = rx.sub(lambda m: f"[[{keep}{m.group(1) or ''}]]", v)

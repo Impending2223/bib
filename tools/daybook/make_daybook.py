@@ -18,7 +18,7 @@ import datetime, difflib, html, os, re, sys, tempfile, time, urllib.parse, urlli
 import xml.etree.ElementTree as ET
 import yaml
 
-FROM, TO = '1960-01-01', '1968-01-15'
+FROM, TO = '1960-01-01', '1969-01-20'
 OUT = os.path.join(os.path.dirname(__file__), '..', '..', 'daybook')
 UA = {'User-Agent': 'Mozilla/5.0 (bibliography daybook)'}
 APP = 'https://www.presidency.ucsb.edu'
