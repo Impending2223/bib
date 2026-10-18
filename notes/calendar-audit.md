@@ -3,15 +3,15 @@
 Written by `./bib audit-cal` (`tools/bib/calaudit.py`): the dated entries checked against the brief in
 CLAUDE.md ("The calendar"). A review list: a hit is a place to look, not an error. Rerun after editing.
 
-3886 dated entries.
+3899 dated entries.
 
 | Check | Entries |
 |---|---|
-| A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 1283 |
+| A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 1286 |
 | (of which only a President's surname: Eisenhower, Kennedy, Johnson) | 18 |
 | Neither a bibliography of its own nor a `See [[id]]` back | 0 |
 | No primary record linked or named | 548 |
-| A primary record named but not linked | 110 |
+| A primary record named but not linked | 112 |
 | Threads (statements listed for review) | 94 |
 
 ## Names
@@ -295,6 +295,8 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1961-07-12.opinion` (July 12, XX jul.yaml): Gallup, June 23–28: the United States to resume nuclear tests now, 55 percent; not, 26.
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1961-07-13.electoral-college` (July 13, XX jul.yaml): Henry D. Irwin of Bartlesville, Okla., the Republican elector who voted for Byrd and Goldwater, before Kefauve
+  - Henry: Henry, Aaron (K–J Cong. III.K)
 - `cal.1961-07-27.confirmations` (July 27, XX jul.yaml): Spottswood W. Robinson III, dean of Howard's law school, confirmed to the Civil Rights Commission, [73–17](htt
   - Howard: Howard, Lisa (K–J Cong. III.J)
 - `cal.1961-07-30.opinion` (July 30, XX jul.yaml): Gallup, June 23–28: of the 76 percent who had followed the Berlin dispute, 82 percent would keep American forc
@@ -1035,6 +1037,8 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - ? Jackson: Jackson, Henry M. (K–J Cong. III.B, Cong. III.B); Jackson, Maynard (K–J Cong. III.F); Jackson, Jimmie Lee (K–J Cong. III.K)
 - `cal.1964-04-19.laos` (Apr. 19, LIII apr64.yaml): Laos. Before dawn, Generals Kouprasith and Siho seize Vientiane and hold Souvanna and the neutralists, the day
   - ? Washington: Washington, Walter E. (K–J Cong. III.F)
+- `cal.1964-04-22.amendments` (Apr. 22, LIII apr64.yaml): House Judiciary Committee, Celler's, opens hearings on the school prayer amendments, before the full committee
+  - Nation: Nation, Bill (K–J Cong. III.K)
 - `cal.1964-04-24.africa` (Apr. 24, LIII apr64.yaml): NSAM 295, on South Africa: its carrying out of the Odendaal report in South West Africa to be delayed, if poss
   - West: West, Ben (K–J Cong. III.K); West, E. Gordon (K–J Cong. III.K)
 - `cal.1964-04-26.civil-rights-organizations` (Apr. 26, LIII apr64.yaml): Jackson. A COFO meeting founds the Mississippi Freedom Democratic Party, open to all, and elects a temporary S
@@ -1167,6 +1171,9 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - James: James, Ted (K–J Cong. III.K)
 - `cal.1964-07-19.elections-1964` (July 19, LVI jul64.yaml): Wallace, on CBS's *Face the Nation*, withdraws as a candidate for President, four days after Goldwater's nomin
   - Nation: Nation, Bill (K–J Cong. III.K)
+- `cal.1964-07-22.amendments` (July 22, LVI jul64.yaml): House Judiciary's Subcommittee No. 5, Celler's, opens hearings on amendments to let one house of a State legis
+  - Reynolds: Reynolds, John W., Jr. (K–J Cong. III.F); Reynolds, Walter H. (K–J Cong. III.F); Reynolds, Don B. (K–J Cong. III.K)
+  - Sims: Sims, Joseph Howard (K–J Cong. III.K)
 - `cal.1964-07-26.latin-america` (July 26, LVI jul64.yaml): OAS foreign ministers, Washington, on Venezuela's complaint of Cuban arms: subversion is aggression. Members t
   - ? Washington: Washington, Walter E. (K–J Cong. III.F)
 - `cal.1964-07-27.vietnam` (July 27, LVI jul64.yaml): More advisers. Taylor, July 17, recommends some 4,200 more military men, to nearly 22,000; the increase announ
@@ -3558,10 +3565,12 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1965-06.crime-and-hijacking-ny` (June, LXVII jun65.yaml): New York. Rockefeller signs the bill ending the death penalty but for the murder of a peace officer on duty an — names "Laws of "
 - `cal.1965-07-13.transportation` (July 13, LXVIII jul65.yaml): Ribicoff's Subcommittee on Executive Reorganization, on the federal role in traffic safety: Donner, chairman,  — names "Hearings"
 - `cal.1965-08-01.state-and-city-finance-ny` (Aug. 1, LXIX aug65.yaml): New York's first general State sales tax, 2 percent, in force, enacted in the spring at Rockefeller's request. — names "Laws of "
+- `cal.1965-08-18.amendments` (Aug. 18, LXIX aug65.yaml): House Judiciary Committee and its Subcommittee No. 5, Celler's, open hearings on a four-year term for Represen — names "Hearings"
 - `cal.1965-10-01.states-and-cities-jacksonville` (Oct. 1, LXXI oct65.yaml): Jacksonville. The Local Government Study Commission of Duval County, created by the 1965 legislature, establis — names "Laws of "
 - `cal.1965-10-02.specials` (Oct. 2, LXXI oct65.yaml): Louisiana 7th, special. Edwards (D), a State senator, holds T. Ashton Thompson's seat, unopposed; Thompson kil — names "Election Returns"
 - `cal.1965-11-02.legislatures-ny` (Nov. 2, LXXII nov65.yaml): New York. The legislature elected again, under the plan of December 1964, for one year, the only legislative e — names "Legislative Manual"
 - `cal.1965-11-02.state-constitutions-ny` (Nov. 2, LXXII nov65.yaml): New York's voters call a constitutional convention for 1967, and approve a bond issue of $1 billion for sewage — names "Legislative Manual"
+- `cal.1965-12.amendments` (Dec., LXXIII dec65.yaml): The year's applications to Congress for a convention on the apportionment of State legislatures: twenty-three  — names "Cong. Rec."
 - `cal.1966-01-15.state-and-city-finance-va` (Jan. 15–Mar., LXXV jan66b.yaml): Virginia. Godwin inaugurated governor, Jan. 15. The General Assembly enacts the Virginia Retail Sales and Use  — names "Acts of "
 - `cal.1966-02-08.specials` (Feb. 8, LXXVI feb66.yaml): New York 17th, special. Kupferman (R), of the City Council, holds Lindsay's seat: 44,125; Orin Lehman (D) 43,2 — names "Legislative Manual"
 - `cal.1966-03-08.india-and-china` (Mar. 8–30, LXXVII mar66.yaml): The Senate Foreign Relations Committee, Fulbright presiding, hears scholars on policy toward mainland China. M — names "Hearings"
