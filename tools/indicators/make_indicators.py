@@ -1,6 +1,6 @@
 """Monthly and quarterly indicators for the calendar, as first reported and as revised today.
 # Usage: FRED_API_KEY=... python3 tools/indicators/make_indicators.py [FROM TO]
-#   FROM, TO are reporting periods, default 1960-01-01 1967-12-31.
+#   FROM, TO are reporting periods, default 1960-01-01 1968-12-31.
 #   Rewrites indicators/<id>.yaml for the series in API below. Series entered by hand from the
 #   Economic Reports and budget documents (manual: true in their files) are left alone.
 #   'first' is the initial release in ALFRED, with the date it was released; 'chg' is the change
@@ -20,7 +20,7 @@ import yaml
 KEY = os.environ.get('FRED_API_KEY')     # without it, the public CSV downloads (KEYLESS below)
 ONLY = sys.argv[sys.argv.index('--only') + 1].split(',') if '--only' in sys.argv else None
 ARGS = [a for i, a in enumerate(sys.argv[1:], 1) if a != '--only' and sys.argv[i - 1] != '--only']
-FROM, TO = (ARGS[0], ARGS[1]) if len(ARGS) > 1 else ('1960-01-01', '1967-12-31')
+FROM, TO = (ARGS[0], ARGS[1]) if len(ARGS) > 1 else ('1960-01-01', '1968-12-31')
 OUT = os.path.join(os.path.dirname(__file__), '..', '..', 'indicators')
 FRED = 'https://fred.stlouisfed.org/series/'
 ALFRED = 'https://alfred.stlouisfed.org/series?seid='
@@ -333,8 +333,10 @@ def main():
 # against govinfo's). January 1967 (Jan. 26, 1967) read off FRASER's scan alone, page images checked against its text
 # layer: govinfo holds no copy (no ERP-1967 package; its Serial Set has the Reports of 1966 and Feb. 1968, not 1967's,
 # searched Oct. 15, 2026). February 1968 (transmitted Feb. 1, 1968; H. Doc. 90-238, Serial Set 12825) read off govinfo's
-# scan, page images checked against its text layer. For these series 'first' is the figure as it stood in the next
-# Report (January, or February in 1968), not the first release.
+# scan, page images checked against its text layer. January 1969 (transmitted Jan. 16, 1969; H. Doc. 91-28, Serial Set
+# 12868), Johnson's last, read off FRASER's scan (ERP_1969.pdf: the printed page plus 6) and checked against govinfo's
+# (the printed page plus 4), page images against FRASER's text layer. For these series 'first' is the figure as it
+# stood in the next Report (January, or February in 1968), not the first release.
 ERP = {
     1962: ('1962-01-22', 'Economic Report of the President, Jan. 1962',
            'https://www.govinfo.gov/app/details/SERIALSET-12497_00_00-002-0278-0000'),
@@ -350,9 +352,11 @@ ERP = {
            'https://fraser.stlouisfed.org/title/economic-report-president-45/1967-8138'),
     1968: ('1968-02-01', 'Economic Report of the President, Feb. 1968',
            'https://www.govinfo.gov/app/details/SERIALSET-12825_00_00-002-0238-0000'),
+    1969: ('1969-01-16', 'Economic Report of the President, Jan. 1969',
+           'https://www.govinfo.gov/app/details/SERIALSET-12868_00_00-002-0028-0000'),
 }
-MONTHS = [f'{y}-{m:02d}' for y, m in [(1960, 12)] + [(y, m) for y in (1961, 1962, 1963, 1964, 1965, 1966, 1967) for m in range(1, 13)]]
-RATE_MONTHS = [f'{y}-{m:02d}' for y in range(1960, 1968) for m in range(1, 13)]   # the money-rate tables' span
+MONTHS = [f'{y}-{m:02d}' for y, m in [(1960, 12)] + [(y, m) for y in (1961, 1962, 1963, 1964, 1965, 1966, 1967, 1968) for m in range(1, 13)]]
+RATE_MONTHS = [f'{y}-{m:02d}' for y in range(1960, 1969) for m in range(1, 13)]   # the money-rate tables' span
 MANUAL = {
     'wpi': dict(
         name='Wholesale price index', freq='M', change='pct',
@@ -361,13 +365,14 @@ MANUAL = {
         tables={1962: 'Table B-40, p. 254 (1947–49=100)', 1963: 'Table C-41, p. 220 (1957–59=100)',
                 1964: 'Table C-41, p. 256 (1957–59=100)', 1965: 'Table B-43, p. 240 (1957–59=100)',
                 1966: 'Table C-41, p. 257 (1957–59=100)', 1967: 'Table B-44, p. 264 (1957–59=100)',
-                1968: 'Table B-48, p. 264 (1957–59=100)'},
+                1968: 'Table B-48, p. 264 (1957–59=100)', 1969: 'Table B-48, p. 282 (1957–59=100)'},
         prior={'1962-01': (100.4, 1963),    # Dec. 1961 on the 1957-59 base, Table C-41
                '1963-01': (100.4, 1964),    # Dec. 1962, Table C-41 of 1964 (as the 1963 Report printed it)
                '1964-01': (100.3, 1965),    # Dec. 1963, Table B-43 of 1965 (as the 1964 Report printed it)
                '1965-01': (100.7, 1966),    # Dec. 1964, Table C-41 of 1966 (the 1965 Report: 100.8, preliminary)
                '1966-01': (104.1, 1967),    # Dec. 1965, Table B-44 of 1967 (as the 1966 Report printed it)
-               '1967-01': (105.9, 1968)},   # Dec. 1966, Table B-48 of 1968 (as the 1967 Report printed it, preliminary)
+               '1967-01': (105.9, 1968),    # Dec. 1966, Table B-48 of 1968 (as the 1967 Report printed it, preliminary)
+               '1968-01': (106.8, 1969)},   # Dec. 1967, Table B-48 of 1969 (as the 1968 Report printed it)
         # A year earlier, on the same base and from the same table, for the 12-month change.
         # Table B-40 gives 1959 as a year only, so Dec. 1960 has none.
         year_ago={1962: dict(zip(MONTHS[1:13], [119.3, 119.3, 120.0, 120.0, 119.7, 119.5,
@@ -383,7 +388,9 @@ MANUAL = {
                   1967: dict(zip(MONTHS[61:73], [101.0, 101.2, 101.3, 101.7, 102.1, 102.8,
                                                  102.9, 102.9, 103.0, 103.1, 103.5, 104.1])),   # 1965
                   1968: dict(zip(MONTHS[73:85], [104.6, 105.4, 105.4, 105.5, 105.6, 105.7,
-                                                 106.4, 106.8, 106.8, 106.2, 105.9, 105.9]))},   # 1966
+                                                 106.4, 106.8, 106.8, 106.2, 105.9, 105.9])),   # 1966
+                  1969: dict(zip(MONTHS[85:97], [106.2, 106.0, 105.7, 105.3, 105.8, 106.3,
+                                                 106.5, 106.1, 106.2, 106.1, 106.2, 106.8]))},   # 1967
         rows={**{p: (v, 1962, '1947–49=100') for p, v in zip(MONTHS[:13], [
             119.5, 119.9, 120.0, 119.9, 119.4, 118.7, 118.2, 118.6, 118.9, 118.8, 118.7, 118.8, 119.2])},
               **{p: (v, 1963, '1957–59=100') for p, v in zip(MONTHS[13:25], [
@@ -401,7 +408,11 @@ MANUAL = {
             104.6, 105.4, 105.4, 105.5, 105.6, 105.7, 106.4, 106.8, 106.8, 106.2, 105.9, 105.9])},
               # None marked preliminary in the 1968 Report's table.
               **{p: (v, 1968, '1957–59=100') for p, v in zip(MONTHS[73:85], [
-            106.2, 106.0, 105.7, 105.3, 105.8, 106.3, 106.5, 106.1, 106.2, 106.1, 106.2, 106.8])}}),
+            106.2, 106.0, 105.7, 105.3, 105.8, 106.3, 106.5, 106.1, 106.2, 106.1, 106.2, 106.8])},
+              # Dec. 1968 preliminary in the Report (marked p); the year 1968 printed as the January-November average
+              # (its note 2). The 1967 months as the 1968 Report printed them.
+              **{p: (v, 1969, '1957–59=100') for p, v in zip(MONTHS[85:97], [
+            107.2, 108.0, 108.2, 108.3, 108.5, 108.7, 109.1, 108.7, 109.1, 109.1, 109.6, 109.8])}}),
     'administrative-budget': dict(
         name='Federal budget (administrative)', freq='FY', fields=('receipts', 'expenditures', 'balance'),
         then='Treasury and Bureau of the Budget, net budget receipts and budget expenditures (the administrative budget), fiscal years ending June 30, millions of dollars',
@@ -455,6 +466,26 @@ MANUAL = {
              # FY1968 of 1968: the excess as printed (the difference is 17,158)
              'FY1968': [((168.1, 172.4, -4.3), 1967), ((158823, 175981, -17157), 1968, 'millions of dollars')],
              'FY1969': [((181146, 188725, -7579), 1968, 'millions of dollars')]}),
+    # The unified budget, adopted for fiscal 1969 on the President's Commission on Budget Concepts (1967): receipts and
+    # outlays (expenditures and net lending) of federal and trust funds, interfund transactions excluded. Another
+    # concept, so another series (STYLE 8). The Feb. 1968 Report's estimates for fiscal 1968 and 1969 ("preliminary
+    # adjustments to new budget concepts", its note 1) in Table B-59, p. 279 (FRASER's scan, p. 285); the Jan. 1969
+    # Report's actual for fiscal 1968 and estimates for 1969 and 1970 in Table B-60, p. 297 ("Unified budget",
+    # 1954-70; the same figures in Table B-61, p. 299). The Jan. 1969 Report prints the administrative budget only to
+    # 1939 and the consolidated cash statement only for 1940-53 (Table B-60): the old budgets end with fiscal 1967
+    # actual, above. Its Table B-61 gives federal funds and trust funds as memoranda (fiscal 1968: federal funds
+    # receipts 114,627, outlays 143,105), not the administrative budget, so not carried.
+    'unified-budget': dict(
+        name='Federal budget (unified)', freq='FY', fields=('receipts', 'outlays', 'balance'),
+        then='Bureau of the Budget, unified budget receipts and outlays (expenditures and net lending), fiscal years ending June 30, millions of dollars',
+        now_label='OMB, unified budget receipts, outlays, and surplus or deficit',
+        now_unit='millions of dollars', now_fred=('FYFR', 'FYONET', 'FYFSD'),
+        tables={1968: 'Table B-59, p. 279', 1969: 'Table B-60, p. 297'},
+        unit='millions of dollars',
+        rows={'FY1968': ((153676, 178862, -25187), 1969, 'millions of dollars')},   # the deficit as printed (the difference is 25,186)
+        est={'FY1968': [((155830, 175635, -19805), 1968)],
+             'FY1969': [((178108, 186062, -7954), 1968), ((186092, 183701, 2391), 1969)],
+             'FY1970': [((198686, 195272, 3414), 1969)]}),
     'federal-national-accounts': dict(
         name='Federal receipts and expenditures, national income accounts', freq='Q', fields=('receipts', 'expenditures', 'balance'),
         then='Commerce and Bureau of the Budget, federal government receipts and expenditures in the national income accounts, seasonally adjusted annual rates, billions of dollars',
@@ -462,7 +493,7 @@ MANUAL = {
         now_unit='billions of dollars, SAAR', now_fred=('FGRECPT', 'FGEXPND', None),
         tables={1962: 'Table B-59, p. 276', 1963: 'Table C-60, p. 242', 1964: 'Table C-60, p. 278',
                 1965: 'Table B-62, p. 263', 1966: 'Table C-61, p. 281', 1967: 'Table B-63, p. 287',
-                1968: 'Table B-62, p. 283'},
+                1968: 'Table B-62, p. 283', 1969: 'Table B-63, p. 301'},
         rows={'1960Q4': ((94.6, 94.2, 0.4), 1962, 'billions of dollars, annual rate'), '1961Q1': ((92.5, 98.0, -5.5), 1962, 'billions of dollars, annual rate'),
               '1961Q2': ((96.8, 101.1, -4.3), 1962, 'billions of dollars, annual rate'), '1961Q3': ((99.3, 102.4, -3.1), 1962, 'billions of dollars, annual rate'),
               '1961Q4': ((103.8, 105.1, -1.3), 1963, 'billions of dollars, annual rate'), '1962Q1': ((105.9, 108.3, -2.4), 1963, 'billions of dollars, annual rate'),
@@ -486,9 +517,14 @@ MANUAL = {
               '1966Q4': ((148.6, 151.9, -3.3), 1968, 'billions of dollars, annual rate'),
               '1967Q1': ((149.1, 160.9, -11.9), 1968, 'billions of dollars, annual rate'), '1967Q2': ((148.1, 162.8, -14.7), 1968, 'billions of dollars, annual rate'),
               '1967Q3': ((152.7, 165.9, -13.2), 1968, 'billions of dollars, annual rate'),
-              # Q4 1967 preliminary (marked p): receipts and the balance not printed (the corporate profits tax accruals
-              # column blank).
-              '1967Q4': ((None, 167.5, None), 1968, 'billions of dollars, annual rate')}),
+              # Q4 1967 from the 1969 Report, which completes it (the 1968 Report: receipts n.a., expenditures 167.5, preliminary).
+              '1967Q4': ((156.4, 168.6, -12.2), 1969, 'billions of dollars, annual rate'),
+              # The Jan. 1969 Report, Table B-63, p. 301 (FRASER's scan, p. 307). Balances as printed (Q1 1968: the
+              # difference is 8.5; Q2: 10.1). Q4 1968 preliminary (marked p): receipts and the balance not printed (the
+              # corporate profits tax accruals column blank). The calendar year 1968 (p): 176.9, 182.2, -5.3.
+              '1968Q1': ((166.6, 175.1, -8.6), 1969, 'billions of dollars, annual rate'), '1968Q2': ((171.8, 181.9, -10.2), 1969, 'billions of dollars, annual rate'),
+              '1968Q3': ((182.1, 184.9, -2.8), 1969, 'billions of dollars, annual rate'),
+              '1968Q4': ((None, 186.8, None), 1969, 'billions of dollars, annual rate')}),
     'balance-of-payments': dict(
         name='Balance of payments, over-all surplus or deficit', freq='Q', fields=('balance',),
         then='Commerce, over-all balance (changes in U.S. gold stock, convertible currencies, and liquid liabilities to foreigners), seasonally adjusted annual rates, millions of dollars',
@@ -525,7 +561,7 @@ MANUAL = {
         name='Balance of payments, liquidity basis', freq='Q', fields=('balance',),
         then='Commerce, balance on the liquidity basis (changes in liquid liabilities to foreign official and other holders and in official reserve assets: gold, convertible currencies, the IMF gold tranche position), seasonally adjusted annual rates, millions of dollars',
         now_label='No longer published', now_unit=None, now_fred=None,
-        tables={1966: 'Table C-78, p. 301', 1967: 'Table B-80, p. 307', 1968: 'Table B-83, p. 307'},
+        tables={1966: 'Table C-78, p. 301', 1967: 'Table B-80, p. 307', 1968: 'Table B-83, p. 307', 1969: 'Table B-84, p. 325'},
         rows={'1964Q4': ((-5464,), 1966, 'millions of dollars, annual rate'), '1965Q1': ((-2836,), 1966, 'millions of dollars, annual rate'),
               '1965Q2': ((968,), 1966, 'millions of dollars, annual rate'), '1965Q3': ((-1940,), 1966, 'millions of dollars, annual rate'),
               # The Jan. 1967 Report, Table B-80: Q4 1965 and 1966; Q3 1966 preliminary (marked p); the year 1966 the
@@ -541,12 +577,19 @@ MANUAL = {
               # Report printed them (the 1968 Report: -660 for Q3 1966, -1,357 for the full year).
               '1966Q4': ((-1676,), 1968, 'millions of dollars, annual rate'), '1967Q1': ((-2116,), 1968, 'millions of dollars, annual rate'),
               '1967Q2': ((-2188,), 1968, 'millions of dollars, annual rate'), '1967Q3': ((-2544,), 1968, 'millions of dollars, annual rate'),
-              '1967': ((-2283,), 1968, 'millions of dollars, annual rate, first three quarters')}),
+              '1967': ((-2283,), 1968, 'millions of dollars, annual rate, first three quarters'),
+              # The Jan. 1969 Report, Table B-84, p. 325 (FRASER's scan, p. 331): Q4 1967 and 1968; Q3 1968 preliminary
+              # (marked p); the year 1968 the average of the first three quarters' annual rates (its note 10). Q3 1967 and
+              # the year 1967 stay as the 1968 Report printed them (the 1969 Report: -3,208 for Q3 1967, -3,571 for the
+              # full year).
+              '1967Q4': ((-6968,), 1969, 'millions of dollars, annual rate'), '1968Q1': ((-2748,), 1969, 'millions of dollars, annual rate'),
+              '1968Q2': ((-656,), 1969, 'millions of dollars, annual rate'), '1968Q3': ((164,), 1969, 'millions of dollars, annual rate'),
+              '1968': ((-1080,), 1969, 'millions of dollars, annual rate, first three quarters')}),
     'balance-of-payments-official': dict(
         name='Balance of payments, official reserve transactions basis', freq='Q', fields=('balance',),
         then='Commerce, balance on the official reserve transactions basis (changes in liquid and nonliquid liabilities to foreign official holders and in official reserve assets: gold, convertible currencies, the IMF gold tranche position), seasonally adjusted annual rates, millions of dollars',
         now_label='No longer published', now_unit=None, now_fred=None,
-        tables={1966: 'Table C-78, p. 301', 1967: 'Table B-80, p. 307', 1968: 'Table B-83, p. 307'},
+        tables={1966: 'Table C-78, p. 301', 1967: 'Table B-80, p. 307', 1968: 'Table B-83, p. 307', 1969: 'Table B-84, p. 325'},
         rows={'1964Q4': ((-3132,), 1966, 'millions of dollars, annual rate'), '1965Q1': ((-2568,), 1966, 'millions of dollars, annual rate'),
               '1965Q2': ((820,), 1966, 'millions of dollars, annual rate'), '1965Q3': ((1040,), 1966, 'millions of dollars, annual rate'),
               # As the liquidity balance above (the 1967 Report: -1,305 for the full year 1965).
@@ -558,7 +601,11 @@ MANUAL = {
               # As the liquidity balance above (the 1968 Report: 3,444 for Q3 1966, 225 for the full year 1966).
               '1966Q4': ((-72,), 1968, 'millions of dollars, annual rate'), '1967Q1': ((-7260,), 1968, 'millions of dollars, annual rate'),
               '1967Q2': ((-3312,), 1968, 'millions of dollars, annual rate'), '1967Q3': ((1880,), 1968, 'millions of dollars, annual rate'),
-              '1967': ((-2897,), 1968, 'millions of dollars, annual rate, first three quarters')}),
+              '1967': ((-2897,), 1968, 'millions of dollars, annual rate, first three quarters'),
+              # As the liquidity balance above (the 1969 Report: 988 for Q3 1967, -3,405 for the full year 1967).
+              '1967Q4': ((-4328,), 1969, 'millions of dollars, annual rate'), '1968Q1': ((-2224,), 1969, 'millions of dollars, annual rate'),
+              '1968Q2': ((6112,), 1969, 'millions of dollars, annual rate'), '1968Q3': ((1776,), 1969, 'millions of dollars, annual rate'),
+              '1968': ((1888,), 1969, 'millions of dollars, annual rate, first three quarters')}),
     'gap-cea': dict(
         name='Output gap, CEA (contemporary)', freq='Q',
         then='Council of Economic Advisers: potential GNP (a 3½ percent trend through actual GNP in mid-1955; from Jan. 1965, 3¾ percent after 1962; at 4 percent unemployment) less actual GNP',
@@ -588,6 +635,12 @@ MANUAL = {
         # boom of 1966 and falling a little short during 1967" (ch. 2, p. 60). Chart 4 (p. 61) draws the gap as a percent
         # of potential (potential: 4 percent a year from Q4 1965 to Q4 1967) and prints no figure; Q1 1961 is revised
         # again, to $50 billion in 1958 prices (p. 60). So no 1967 row.
+        # The Jan. 1969 Report states none for 1968: from Q1 1961 to the end of 1965 actual output was below potential,
+        # "catching up and finally closing the gap. Since then, actual output has exceeded the calculated potential most
+        # of the time, as the unemployment rate has been below 4 percent" (ch. 2, "Potential Output," p. 64). Chart 5
+        # (p. 65) draws the gap as a percent of potential, at or below zero (output above potential) from 1966 (potential: 3½ percent through Q4
+        # 1962, 3¾ to Q4 1965, 4 to Q4 1968), and prints no figure; Q1 1961 is revised to about $60 billion in 1968
+        # prices (p. 64). So no 1968 row.
     'gold-stock': dict(
         name='Monetary gold stock', freq='M', change='diff',
         then=None, now_label='Treasury monetary gold stock, end of month, as compiled by NBER from the Federal Reserve Bulletin',
@@ -632,7 +685,9 @@ NOTE = {('balance-of-payments', '1962'): 'Q1–Q3, annual rate', ('balance-of-pa
         ('balance-of-payments-liquidity', '1966'): 'Q1–Q3, annual rate',
         ('balance-of-payments-official', '1966'): 'Q1–Q3, annual rate',
         ('balance-of-payments-liquidity', '1967'): 'Q1–Q3, annual rate',
-        ('balance-of-payments-official', '1967'): 'Q1–Q3, annual rate'}
+        ('balance-of-payments-official', '1967'): 'Q1–Q3, annual rate',
+        ('balance-of-payments-liquidity', '1968'): 'Q1–Q3, annual rate',
+        ('balance-of-payments-official', '1968'): 'Q1–Q3, annual rate'}
 
 
 SCALE = {('billions of dollars', 'millions of dollars'): 1000, ('millions of dollars', 'billions of dollars'): 0.001}
@@ -738,7 +793,7 @@ def gap_cbo():
             years.setdefault(p[:4], []).append(g)
             if d >= '1960-10-01':
                 rows.append({'p': p, 'now': g})
-    for y in ('1960', '1961', '1962', '1963', '1964', '1965', '1966', '1967'):
+    for y in ('1960', '1961', '1962', '1963', '1964', '1965', '1966', '1967', '1968'):
         if len(years.get(y, [])) == 4:
             rows.append({'p': y, 'now': round(sum(years[y]) / 4, 1)})
     write('gap-cbo', {'id': 'gap-cbo', 'name': 'Output gap, CBO (retrospective)', 'freq': 'Q', 'then': None,
@@ -774,6 +829,17 @@ ADMIN = {'prime-rate'}
 # (Atlanta Apr. 10, St. Louis Apr. 14: Bulletin, Apr. 1967, p. 590); frsbog_pr_19671119.pdf (item 697571), Sunday, Nov.
 # 19, "in the light of the action of the British Government to change the parity of the pound", "effective Monday,
 # November 20, 1967" (Philadelphia Nov. 21, St. Louis Nov. 27: Bulletin, Nov. 1967, p. 1921; Dec. 1967, p. 2083).
+# 1968: New York was not among the nine Banks raised to 5 percent on Mar. 15 (frsbog_pr_19680314_01.pdf, item 697603:
+# Boston, Cleveland, Richmond, Atlanta, Chicago, St. Louis, Minneapolis, Kansas City, Dallas; San
+# Francisco Mar. 15, Philadelphia Mar. 18); its rise came a week later, frsbog_pr_19680321_01.pdf (item 697609), "effective
+# tomorrow" (Bulletin, Apr. 1968, p. 391: "As of March 22 the rate in effect was 5 per cent at all Federal Reserve
+# Banks"; table, p. A-9). 5½ from Apr. 19: frsbog_pr_19680418_02.pdf (item 697619), New York, Philadelphia and
+# Minneapolis "effective tomorrow (April 19, 1968)" (the others Apr. 19-26: Bulletin, Apr. 1968, p. 391; May 1968,
+# p. A-9). 5¼ from Aug. 30: Minneapolis led, Aug. 16 (frsbog_pr_19680815_02.pdf), Richmond Aug. 19; New York with
+# Atlanta, St. Louis and San Francisco, frsbog_pr_19680829.pdf (item 697672), "effective Friday, August 30, 1968"
+# (Bulletin, Sept. 1968, p. 782, and p. A-9). 5½ from Dec. 18: frsbog_pr_19681217.pdf (item 697709), nine Banks with New
+# York, "effective Wednesday, December 18" (St. Louis, Kansas City, San Francisco Dec. 20: Bulletin, Dec. 1968, p. 1039;
+# Jan. 1969, p. 86, and p. A-9). Each release read off FRASER's scan, the image checked against the text layer.
 FRASER = 'https://fraser.stlouisfed.org/title/'
 DISCOUNT = [
     ('1960-06-10', '1960-06-09', 3.5, 'Board of Governors, press release, June 9, 1960; Federal Reserve Bulletin, July 1960, p. 756 (from 4 percent)'),
@@ -785,6 +851,10 @@ DISCOUNT = [
     ('1965-12-06', '1965-12-05', 4.5, 'Board of Governors, press release, Dec. 5, 1965; Federal Reserve Bulletin, Dec. 1965, pp. 1667–68, and Jan. 1966, p. 53'),
     ('1967-04-07', '1967-04-06', 4.0, 'Board of Governors, press release, Apr. 6, 1967; Federal Reserve Bulletin, Apr. 1967, p. 590, and May 1967, p. 795'),
     ('1967-11-20', '1967-11-19', 4.5, 'Board of Governors, press release, Nov. 19, 1967; Federal Reserve Bulletin, Nov. 1967, p. 1921, and Dec. 1967, p. 2083'),
+    ('1968-03-22', '1968-03-21', 5.0, 'Board of Governors, press release, Mar. 21, 1968; Federal Reserve Bulletin, Apr. 1968, p. 391 and p. A-9'),
+    ('1968-04-19', '1968-04-18', 5.5, 'Board of Governors, press release, Apr. 18, 1968; Federal Reserve Bulletin, Apr. 1968, p. 391, and May 1968, p. A-9'),
+    ('1968-08-30', '1968-08-29', 5.25, 'Board of Governors, press release, Aug. 29, 1968; Federal Reserve Bulletin, Sept. 1968, p. 782 and p. A-9'),
+    ('1968-12-18', '1968-12-17', 5.5, 'Board of Governors, press release, Dec. 17, 1968; Federal Reserve Bulletin, Dec. 1968, p. 1039, and Jan. 1969, p. A-9'),
 ]
 
 

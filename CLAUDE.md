@@ -1059,9 +1059,10 @@ tools/bib/indicators.py       renders them (ORDER, GROUP) and checks them
 
 - ALFRED initial releases: CPI, unemployment, payrolls, industrial production,
   GNP, real GNP; the deflator is GNP over real GNP in the same release.
-- Transcribed from the next *Economic Report*, of January (February in 1968) (page images on
-  govinfo; values and table/page in MANUAL in the script): wholesale prices,
-  the administrative and cash budgets, the federal sector of the national
+- Transcribed from the next *Economic Report*, of January (February in 1968), the Reports of Jan. 1962 to Jan. 1969
+  (page images on govinfo and FRASER; values and table/page in MANUAL in the script): wholesale prices,
+  the administrative and cash budgets (actual through fiscal 1967; the Jan. 1969 Report prints the unified budget
+  alone), the unified budget (fiscal 1968 on, its own series), the federal sector of the national
   accounts, the balance of payments. For these "first" means as reported then.
 - Today's values: FRED. Budget figures today are on the unified basis (fiscal
   1969 on), not the old concepts; the over-all balance of payments is no longer
