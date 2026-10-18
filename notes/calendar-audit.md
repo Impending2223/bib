@@ -3,16 +3,16 @@
 Written by `./bib audit-cal` (`tools/bib/calaudit.py`): the dated entries checked against the brief in
 CLAUDE.md ("The calendar"). A review list: a hit is a place to look, not an error. Rerun after editing.
 
-3866 dated entries.
+3886 dated entries.
 
 | Check | Entries |
 |---|---|
-| A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 1280 |
+| A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 1283 |
 | (of which only a President's surname: Eisenhower, Kennedy, Johnson) | 18 |
 | Neither a bibliography of its own nor a `See [[id]]` back | 0 |
 | No primary record linked or named | 548 |
-| A primary record named but not linked | 109 |
-| Threads (statements listed for review) | 92 |
+| A primary record named but not linked | 110 |
+| Threads (statements listed for review) | 94 |
 
 ## Names
 
@@ -1980,6 +1980,8 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1966-10-17.vietnam` (Oct. 17–Nov. 2, LXXXIV oct66.yaml): Johnson's Asian trip. From Washington Oct. 17, by Honolulu and American Samoa; New Zealand, Oct. 19–20; Austra
   - ? Washington: Washington, Walter E. (K–J Cong. III.F)
+- `cal.1966-10-17.electoral-college` (Oct. 17, LXXXIV oct66.yaml): *Delaware v. New York*, [385 U.S. 895](https://tile.loc.gov/storage-services/service/ll/usrep/usrep385/usrep38
+  - West: West, Ben (K–J Cong. III.K); West, E. Gordon (K–J Cong. III.K)
 - `cal.1966-10-18.court` (Oct. 18–19, LXXXIV oct66.yaml): *Time, Inc. v. Hill* reargued. Richard M. Nixon for James Hill, whose family's night as hostages of escaped co
   - ? Hill: Hill, Lister (K–J Cong. III.B); Hill, John L., Jr. (K–J Cong. III.K)
   - James: James, Ted (K–J Cong. III.K)
@@ -2155,6 +2157,8 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Nation: Nation, Bill (K–J Cong. III.K)
 - `cal.1967-02-26.opinion` (Feb. 26, LXXXVIII feb67.yaml): Gallup, Feb. 16–21: the bombing of North Vietnam: continue 67 percent, stop 24. The United States made a mista
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1967-02-27.amendments` (Feb. 27, LXXXVIII feb67.yaml): Special message on the Nation's Capital. An amendment asked: one Representative for the District, and such mor
+  - Nation: Nation, Bill (K–J Cong. III.K)
 - `cal.1967-02-28.mayors-chicago` (Feb. 28, LXXXVIII feb67.yaml): Chicago primaries for mayor. Democratic: Daley renominated for a fourth term, some 420,000 votes (Check). Repu
   - Ward: Ward, Joseph D. (K–J Cong. III.F); Ward, Daniel P. (K–J Cong. III.K); Ward, Henry (K–J Cong. III.K)
 - `cal.1967-03-01.assassination` (Mar. 1–22, LXXXIX mar67.yaml): New Orleans. District Attorney Garrison arrests Clay Shaw, Mar. 1, on a charge of conspiring to murder Kennedy
@@ -2426,6 +2430,8 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1967-10-30.king` (Oct. 30, XCVI oct67.yaml): Birmingham. King and Abernathy, with others of the petitioners, go to jail to serve the five days for contempt
   - Walker: Walker, Edwin A. (K–J Adm. III.F); Walker, Daniel (K–J Cong. III.K); Walker, Prentiss L. (Opp. III.D)
+- `cal.1967-10-30.amendments` (Oct. 30–31, XCVI oct67.yaml): Senate Judiciary's Subcommittee on Separation of Powers on Ervin's S. 2307, the convention bill: hearings Oct.
+  - Powers: Powers, David F. (K–J Adm. III.B); Powers, Francis Gary (K–J Adm. III.I); Powers, Georgia Davis (K–J Cong. III.K)
 - `cal.1967-10.open-housing-mi` (Oct.–Dec., XCVI oct67.yaml): Michigan. Romney asks the legislature, in special session, for a State open occupancy law against discriminati
   - Wallace: Wallace, George C. (K–J Cong. III.F, 1968 III.L, Cong. III.G, Cong. III.H); Wallace, Lurleen B. (K–J Cong. III.K)
 - `cal.1967-11-01.opinion` (Nov. 1, XCVII nov67.yaml): Gallup and its affiliates in ten nations: the United States should begin to withdraw its troops, carry on at i
@@ -3564,6 +3570,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1966-05-03.governors-nm` (May 3, LXXIX may66.yaml): New Mexico's primary, for governor. Democratic: Lusk, once a State senator, 85,211, 59.9 percent, over Burroug — names "Election Returns"
 - `cal.1966-05-17.governors-pa` (May 17, LXXIX may66.yaml): Pennsylvania primaries for governor. Democratic: Shapp, an electronics manufacturer spending his own money, 48 — names "Manual"
 - `cal.1966-05-24.elections-1966` (May 24, LXXIX may66.yaml): Oregon's primary, for Maurine Neuberger's Senate seat. Democratic: U.S. Representative Robert Duncan, for the  — names "Official Abstract"
+- `cal.1966-07-13.amendments` (July 13–14, LXXXI jul66.yaml): Senate Judiciary's Subcommittee on Constitutional Amendments, Bayh's, on a four-year House term: S.J. Res. 72, — names "Hearings"
 - `cal.1966-08-02.elections-1966` (Aug. 2, LXXXII aug66.yaml): Michigan, Democratic Senate primary: Williams, governor 1949–61, lately Assistant Secretary of State for Afric — names "Manual"
 - `cal.1966-08-02.governors-ks` (Aug. 2, LXXXII aug66.yaml): Kansas, governor. Democratic primary: Robert Docking, the late governor's son, 85.5 percent, one other 14.5. R — names "Election Statistics"
 - `cal.1966-08-04.governors-tn` (Aug. 4, LXXXII aug66.yaml): Tennessee, Democratic primary for governor: Ellington, governor 1959–63, 413,950, 53.5 percent; John Jay Hooke — names "Blue Book"
@@ -3615,6 +3622,7 @@ The brief: what the thread is, and its stations, in one or two clipped sentences
 |---|---|
 | Africa | Africa apart from the Congo. Sharpeville and the Security Council; the colonial declaration; Williams's "Africa for the Africans"; Angola at the UN; Mohamed V dies; Nkrumah and the Volta dam; Bizerte; the Moroccan bases; Algeria independent, Ben Bella at the White House and in Havana; the General Assembly's sanctions on South Africa. |
 | Alabama | Alabama, 1960–65: the students, the Freedom Rides, Wallace, Birmingham, the schools, Selma. The Montgomery students; King acquitted; Meriwether confirmed; Anniston and the Birmingham terminal; Montgomery, the marshals, the church besieged; the riders on to Jackson; Wallace nominated. |
+| Amendments to the Constitution | Amendments to the Constitution of the United States, proposed in Congress or by the States, and their course. |
 | Antisubversion | The States' committees, laws and oaths against subversion, and the Subversive Activities Control Board. Mississippi's Sovereignty Commission and the Citizens' Council; the Burns committee's report; Proposition 24 refused. |
 | Assassination | Kennedy killed at Dallas, and the inquiry. Dealey Plaza; Oswald killed; the funeral; the Warren Commission; its first meeting; the first witness; Ruby convicted; the Report; the hearings published. |
 | Berlin and Vienna | The second Berlin crisis, from Khrushchev's demands to the wall and after. Adenauer at the White House; the East German permits; Vienna; the July buildup; Aug. 13; Clay in Berlin; Checkpoint Charlie; Powers for Abel; Fechter. |
@@ -3650,6 +3658,7 @@ The brief: what the thread is, and its stations, in one or two clipped sentences
 | Elections of 1968 | The 1968 election, from the race for the nominations to the count. Gallup's first trial heats and the Republicans' choice, Nixon first; Romney against Humphrey and Johnson; Robert Kennedy and Humphrey as candidates. |
 | Elections of 1972 | The 1972 nominations: the primaries, Mar. 7 to June 6 (CQ's returns), and the conventions, both at Miami Beach, July 10 and Aug. 21. The rest of the year not yet written. |
 | Elections of 1976 | The 1976 nominations: the primaries, Feb. 24 to June 8 (CQ's returns), and the conventions, New York, July 12, and Kansas City, Aug. 16. The rest of the year not yet written. |
+| Electoral college | The electoral college and its reform. Unpledged and faithless electors, the count, the proposals to change the system. |
 | Europe and the alliance | Britain, Germany, France, Turkey, and the alliance's nuclear arms. Macmillan at Camp David; de Gaulle's visit; Herter's NATO force; the Turkish coup; Cyprus independent; the Acheson directive; the Ottawa pledge; the Jupiters kept; Menderes hanged; Bermuda; Athens; Makarios at the White House; the Declaration of Interdependence; the Jupiters to go; Skybolt cancelled; Nassau. |
 | European Community | The Six and the Seven, and Britain's first application. The OEEC remade; the EFTA in force and the Six speeded; Macmillan applies; Heath at Paris; Hallstein at the White House; the farm policy; carpets and glass; the Fouchet plan fails; the Grand Design; Brighton. |
 | Farm | Price supports and production controls. Eisenhower's wheat message; the emergency feed grain program; the farm bill's defeat and the 1962 act. |
