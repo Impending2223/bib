@@ -1102,6 +1102,13 @@ tools/bib/indicators.py       renders them (ORDER, GROUP) and checks them
   transactions (the January 1965 Report: 1963–64), then the liquidity balance and the official reserve transactions
   balance (January 1966: 1964–65), each its own series, never one row (STYLE 8). Real GNP and the deflator move to 1958
   prices with the benchmark revision of Aug. 19, 1965 (`BASE` in the script).
+- Federal debt and balances (DEBT in the script, `--only debt`; the owner's request, Oct. 20, 2026): the public debt monthly,
+  as the *Treasury Bulletin* first printed each month-end and its change (p. 1, then Debt Outstanding, Table 1, from Feb.
+  1968), today FRED's GFDEBTN; debt over GNP and net interest over GNP quarterly, each computed within one Economic
+  Report (no report printed the ratios); the federal primary balance quarterly (the national accounts' surplus or
+  deficit, net lending or borrowing, with net interest added back); and OMB's debt-to-GDP by fiscal year, today's only.
+  Today's net interest counts imputed interest on federal pensions: not the 1960s measure (DEFS). Other numbers worth
+  keeping: `notes/proposals/indicators-suggestions.md`.
 - Money and credit (`kind: rate`; RATES and DISCOUNT in the script, `--only rates` to write them alone): a table
   of its own between the indicators and the approval table, under the same rule, two columns (Rate | Percent):
   rates are not revised, so one figure each, with its change in points. The federal funds rate, the prime, the

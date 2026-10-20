@@ -13,6 +13,8 @@
 #   Money and credit (RATES, DISCOUNT below): interest rates, which are not revised. FRED's monthly averages
 #   go in 'now' with their change in points; the New York Reserve Bank's discount rate, kept by hand from
 #   the Board's announcements, goes in 'first'. --only rates writes these alone (no ALFRED calls).
+#   Federal debt (DEBT below): the public debt by month from the Treasury Bulletin; the debt and net interest over GNP
+#   and the primary balance by quarter from the Economic Reports; OMB's fiscal-year ratios. --only debt writes these.
 """
 import json, os, sys, time, urllib.error, urllib.parse, urllib.request
 import yaml
@@ -909,7 +911,7 @@ def rates():
                             'now': None}, rows)
 
 
-# ---------------------------------------------------------------- federal debt, interest, and the primary balance
+# ---------------------------------------------------------------- DEBT: federal debt, interest, and the primary balance
 # The public debt was reported monthly: the Daily Treasury Statement for the month's last day, then the Treasury
 # Bulletin, whose "Summary of Federal Fiscal Operations" (p. 1 of each issue) prints the public debt at the end of each
 # month and the month's net increase or decrease (its source note: "on basis of telegraphic reports", the daily
