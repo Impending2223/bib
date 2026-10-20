@@ -100,7 +100,7 @@ def run(series, only=None):
                     elif tid is not None:
                         hit = series.get(tid)
                         te = hit[2] if hit else None
-                        if not te or slug not in [te.get("thread")] + te.get("also", []):
+                        if not te or slug not in [s for x in [te.get("thread")] + te.get("also", []) for s in lst.thread_line(x)]:
                             add(ERROR, eid, f"to: {tid} is not an entry of thread {slug!r}")
                         elif str(te.get("date", "")) <= str(e.get("date", "")):
                             add(ERROR, eid, f"to: {tid} is not after this entry")
