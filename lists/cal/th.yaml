@@ -22,6 +22,9 @@ entries:
     s: Assassination
     c: Kennedy killed at Dallas, and the inquiry. Dealey Plaza; Oswald killed; the funeral; the Warren Commission; its first meeting; the first witness; Ruby convicted; the Report; the hearings published.
     c3: Kennedy killed at Dallas, and the inquiry. The Manchester suit and its settlement; Ruby's death; Garrison's inquiry at New Orleans, Ferrie's death, Shaw's arrest; Robert Kennedy shot at Los Angeles; the Violence Commission.
+  - id: cal.thread.assassination-garrison
+    s: Garrison
+    parent: assassination
   - id: cal.thread.baker
     s: Bobby Baker
     c: The Senate majority's secretary and the Rules Committee's inquiry. The resignation; Reynolds before the committee's staff; Johnson's statement; the Williams resolution tabled; the Select Committee on Standards and Conduct; the inquiry reopened.
@@ -43,6 +46,15 @@ entries:
   - id: cal.thread.civil-disorders
     s: Civil disorders
     c: Riots in the cities, and the inquiries and bills that followed. Nashville; Tampa, Cincinnati, Atlanta, Buffalo; Newark and Plainfield; Cramer's anti-riot bill through the House; Detroit, the Guard and the paratroopers; H. Rap Brown at Cambridge; the address of July 27 and the Kerner Commission; Milwaukee; the Senate's inquiry; the Miami chief's patrols.
+  - id: cal.thread.civil-disorders-detroit
+    s: Detroit
+    parent: civil-disorders
+  - id: cal.thread.civil-disorders-kerner
+    s: Kerner Commission
+    parent: civil-disorders
+  - id: cal.thread.civil-disorders-newark
+    s: Newark
+    parent: civil-disorders
   - id: cal.thread.civil-rights-bill
     s: Civil rights bill
     c: The civil rights bill from Kennedy's address to the Act and its first year. The Senators' pledge of 1960.
@@ -73,6 +85,12 @@ entries:
     c: 'Congress as an institution: its leaders and sessions. The 86th''s second session and its August return; Kennedy''s seat resigned; Rayburn''s death; McCormack Speaker; the second session''s end, Oct. 13, 1962.'
     c2: 'Congress as an institution: its leaders and sessions. The 87th''s end; the 88th''s opening; Clark''s Senate establishment; the germaneness rule; the pay bill defeated, then passed; Edward Kennedy''s crash; Engle''s death, Salinger seated; the 88th''s end; the Freedom Democrats'' contests; the 89th''s opening; Ford for Halleck; Watson leaves; the Joint Committee on the Organization of the Congress; District home rule; 14(b) in the Senate; the contests dismissed; the first session''s end; Byrd resigns.'
     c3: 'Congress as an institution: its leaders and sessions. The second session; 14(b) again; the Foreign Relations hearings; the war''s supplemental; the campaign fund; the session''s end; Powell and the Hays report; the 90th''s opening; Powell excluded, re-elected; the reorganization bill through the Senate; the House''s ethics committee; Dodd censured; the Election Reform Act; Fulbright''s national commitments resolution; the first session''s end; the second session; the Senate''s code of conduct; the surcharge, the Revenue and Expenditure Control Act; Goodell for Robert Kennedy; the 91st''s opening; Rule XXII.'
+  - id: cal.thread.congress-dodd
+    s: Dodd
+    parent: congress
+  - id: cal.thread.congress-powell
+    s: Powell
+    parent: congress
   - id: cal.thread.conservation
     s: Conservation
     c: Public lands, wilderness, and pollution. The water-pollution veto; the natural resources message; Cape Cod; the wilderness bill through the Senate; the Delaware compact; the conservation message and the Bureau of Outdoor Recreation; the White House conference; the western dams; *Silent Spring*; Point Reyes and Padre Island.
@@ -106,6 +124,9 @@ entries:
     c: Strategy and the defense budget. The missile gap in the hearings; Polaris at sea; the SIOP; the farewell address; McNamara's no missile gap; the March budget; the Berlin increase; civil defense to the Pentagon; Gilpatric at Hot Springs; the RS-70; counterforce at Ann Arbor.
     c2: Strategy and the defense budget. The TFX hearings; the draft extended; the RS-70 added; *Thresher*; Anderson and Korth out; the A-11; the draft study; the $700 million for Vietnam; the base-closing veto; the Manned Orbiting Laboratory; the draft-card act.
     c3: Strategy and the defense budget. Palomares; the supplemental; the deferment test; McNamara at Montreal; the Marshall commission; the reserves amendment; the ABM; Kosygin's reply on talks; the Military Selective Service Act; the *Liberty*; the Stennis hearings; the "Chinese-oriented" ABM; the women officers' act; McNamara to the World Bank; Thule; Clifford for McNamara; the 205,000; Westmoreland Chief of Staff, Abrams for him; the Sentinel votes; MIRV tested.
+  - id: cal.thread.defense-abm
+    s: ABM
+    parent: defense
   - id: cal.thread.defense-clifford
     s: McNamara to Clifford
     parent: defense
@@ -130,6 +151,12 @@ entries:
     c: Fiscal and monetary policy, the dollar and gold. The peak; the London gold price; the balance-of-payments directive; the task force; the trough; the Fed's long rates; the gap; the debt limit; the 1962 Report; the May slide; depreciation; the investment credit; the Economic Club.
     c2: Fiscal and monetary policy, the dollar and gold. The tax message; the debt limit; the discount rate to 3½; the interest equalization tax; the House's 271–155; the Revenue Act of 1964; the Interest Equalization Tax Act; Wilson's surcharge; Ackley for Heller; the discount rate to 4; the gold cover; Fowler for Dillon; the excise tax cut; Martin at Columbia; the coinage act; aluminum and copper; the Fed's December rise.
     c3: Fiscal and monetary policy, the dollar and gold. The Tax Adjustment Act; Brimmer; the Fed's squeeze; the investment credit suspended; the interest rate act; the cutback; the surcharge proposed; the investment credit restored; the debt limit; the August message; special drawing rights; the surcharge set aside by Ways and Means; sterling devalued; the balance-of-payments program; the note cover ended; the gold market closed; the Revenue and Expenditure Control Act; the franc and the mark; the surplus.
+  - id: cal.thread.economy-debt-limit
+    s: The debt limit
+    parent: economy
+  - id: cal.thread.economy-surcharge
+    s: The surcharge
+    parent: economy
   - id: cal.thread.elections-1960
     s: Elections of 1960
     c: The 1960 election, from the announcements to the count. The primaries, Mar. 8 to June 7 (CQ's returns); Wisconsin and West Virginia; Los Angeles and Chicago; the Treaty of Fifth Avenue; Houston; the four debates; King's arrest; Nov. 8; Hawaii's recount; the electors; the count, Jan. 6.
@@ -244,6 +271,9 @@ entries:
   - id: cal.thread.japan-and-korea-blue-house
     s: Blue House raid
     parent: japan-and-korea
+  - id: cal.thread.japan-and-korea-civilian-rule
+    s: Civilian rule
+    parent: japan-and-korea
   - id: cal.thread.japan-and-korea-pueblo
     s: Pueblo
     parent: japan-and-korea
@@ -262,6 +292,12 @@ entries:
     c: Martin Luther King, Jr. The President, the Attorney General, the Bureau. The perjury trial; Rich's and Reidsville; Montgomery's church besieged; Albany.
     c2: Martin Luther King, Jr. The President, the Attorney General, the Bureau. Birmingham and the jail; the settlement; the leaders at the White House; the March; the wiretaps; *Sullivan*; St. Augustine; the Nobel Prize; Hoover's "most notorious liar"; Selma and the march to Montgomery; Boston.
     c3: 'Martin Luther King, Jr. The President, the Attorney General, the Bureau. Chicago: Lawndale, Soldier Field, the marches, the summit agreement. Against the war at Beverly Hills, Chicago and Riverside Church; *Walker*, five days in the Birmingham jail; "Where Do We Go From Here?"; the Poor People''s Campaign; the Memphis strike; Mason Temple; King killed; the riots; the funeral; Ray arrested; Resurrection City.'
+  - id: cal.thread.king-memphis
+    s: Memphis
+    parent: king
+  - id: cal.thread.king-poor-peoples
+    s: Poor People's Campaign
+    parent: king
   - id: cal.thread.laos
     s: Laos
     c: The Laos crisis, from Kong Le's coup to the Geneva accords and after. The Assembly election; Kong Le; Savannakhet; the battle of Vientiane; Eisenhower's warning; the March maps; the cease-fire; the conference; Nam Tha; troops to Thailand; the coalition; the neutrality declaration.
@@ -294,6 +330,15 @@ entries:
     c: 'Iran and CENTO, the Arab East and Israel, the peninsula and the Gulf, the oil. Ben Gurion at the White House; the Tehran council; OPEC at Baghdad; Eisenhower and Nasser at the Waldorf; Dimona disclosed; Amini and the Iran task force; Kuwait independent, the British landing; Syria leaves the UAR; Saud and the Shah at the White House; Barzani''s Kurds; the Hawks for Israel; Johnson at Tehran; the Yemen revolution and the Egyptian army; the Yemen republic recognized.'
     c2: Iran and CENTO, the Arab East and Israel, the peninsula and the Gulf, the oil. The White Revolution; the Ba'th in Baghdad and Damascus; Bunker and the Yemen disengagement; the letters on Dimona; Khomeini's arrest; Hard Surface; Arif ousts the Ba'th; the Cairo summit; the Libyan bases; the PLO; Eshkol at the White House; the Iranian arms credit; the status bill and Khomeini's exile; Faisal King; Mansur shot; Harriman in Israel.
     c3: Iran and CENTO, the Arab East and Israel, the peninsula and the Gulf, the oil. Britain to leave Aden; Syria's coup; the Skyhawks; Faisal at the White House; Samu and Resolution 228; UNEF withdrawn, the Strait closed; the Six-Day War, the hot line, the *Liberty*; the five principles; Glassboro; Khartoum; the *Eilat*; Resolution 242; the Shah in Washington; Eshkol at the Ranch; Karameh; the Phantoms sold; the raid on Beirut's airport.
+  - id: cal.thread.middle-east-dimona
+    s: Dimona
+    parent: middle-east
+  - id: cal.thread.middle-east-six-day-war
+    s: The Six-Day War
+    parent: middle-east
+  - id: cal.thread.middle-east-yemen
+    s: Yemen
+    parent: middle-east
   - id: cal.thread.missile-crisis
     s: Missile crisis
     c: The Soviet missiles in Cuba, from the decision to the aftermath. The Presidium's plan; the summer warnings; the U-2's find; the ExComm; the quarantine; the letters; the withdrawal; the IL-28s; the Stevenson story.
@@ -367,6 +412,12 @@ entries:
     c: The Soviet Union apart from Berlin, Cuba and testing. Khrushchev's troop cut; the U-2 and the Paris summit; the RB-47; Powers tried; Khrushchev at the UN; the President-elect congratulated; the RB-47 fliers freed; the private letters; the Twenty-Second Congress; Adzhubei; space cooperation; the exchanges agreement; Dobrynin; Salinger, Udall and Frost with Khrushchev.
     c2: The Soviet Union apart from Berlin, Cuba and testing. Walton's message through Bolshakov; Khrushchev removed; Brezhnev and Kosygin; Kosygin in Hanoi.
     c3: The Soviet Union apart from Berlin, Cuba and testing. Luna 9; "peaceful engagement"; Gromyko at the White House; the outer space treaty; the consular convention; Kosygin on strategic arms; Svetlana Alliluyeva; Komarov; the *Turkestan*; the hot line; Glassboro; the nonproliferation drafts; the astronauts' rescue agreement; the nonproliferation treaty signed; the missile talks agreed; Czechoslovakia invaded; the summit sought again.
+  - id: cal.thread.soviet-union-alliluyeva
+    s: Alliluyeva
+    parent: soviet-union
+  - id: cal.thread.soviet-union-consular
+    s: Consular convention
+    parent: soviet-union
   - id: cal.thread.space
     s: Space
     c: The space race and the moon program. Huntsville to NASA; Tiros; Echo; Corona; Gagarin; the Space Council; Shepard; the moon message; Grissom, Titov, Glenn, Carpenter, Schirra; Houston; Telstar; Rice Stadium; the moon first; Mariner 2.
@@ -436,6 +487,9 @@ entries:
     parent: vietnam
   - id: cal.thread.vietnam-paris
     s: Paris
+    parent: vietnam
+  - id: cal.thread.vietnam-sunflower
+    s: Sunflower
     parent: vietnam
   - id: cal.thread.vietnam-tet
     s: Tet
