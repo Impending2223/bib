@@ -294,6 +294,15 @@ reports them (`notes/calendar-audit.md`).
 - Reapportionment, 1964–66: not entered.
 - Primaries of 1962 and 1966: the days (`cal.1962-08.governors-wy`, `cal.1966-08.governors-wy`). *Wyoming Official Directory*, 1963, 56–58, and 1967, 72–74 (HathiTrust, bot-checked; states.yaml).
 
+### 1968 (the States and cities agents, Oct. 17–18, 2026)
+
+- Massachusetts, Nov. 5, 1968: Question 2 (a graduated income tax), Question 4 (a constitutional convention), Question 6 (advisory, capital punishment). *Election Statistics* 1967–68, pp. 355–409 (archive.org `electionstatisti19671968mass`): the scan prints no State totals.
+- New York's Medicaid cutback of 1968. Ohio's Senate primary, May 7, 1968 (Gilligan over Lausche): national or State? Boston, James Brown's concert of Apr. 5, 1968.
+- Georgia, Alabama, Louisiana and South Carolina: the amendments of Nov. 5, 1968 (the official returns are scans without text). Missouri's primaries of 1968. Mississippi: John Bell Williams's inaugural address, Jan. 16, 1968 (no text found).
+- California: Reagan's 1968–69 budget; the fight over repealing the Rumford Act; the recall drive; the date of the extraordinary session on property tax (cited only through Proposition 1-A's chapters). Los Angeles: Yorty in 1968. Berkeley: the Telegraph Avenue curfew, June 30, 1968.
+- Denver: Currigan's resignation and McNichols's succession (1968). New Mexico: the date of the 1968 primary. Oregon: the 1968 Senate recount. Alaska: Udall's land order of January 1969.
+- The U.S. Conference of Mayors' 1968 meeting; the National League of Cities' 1968 congress.
+
 ## National
 
 - Senate Finance's hearings on the tax bill, Oct. 15, 1963: the date not verified. The hearings on H.R. 8363 (govinfo).
@@ -333,6 +342,28 @@ reports them (`notes/calendar-audit.md`).
 - Chapter numbers in Branch, Garrow and Eskew for the civil rights entries of 1963: tables of contents not reached.
 - Fiscal 1964 estimates of the Jan. 1963 *Economic Report* (Tables C-56, C-58): not in `indicators/administrative-budget.yaml` or `cash-budget.yaml`, so FY1964 shows one estimate.
 
+### Constitutional amendments and the electoral college (the sweep of Oct. 18, 2026)
+
+- Bayh's and Celler's direct-election resolutions of January 1969: introduced in the 91st Congress's first days; dates and numbers not read (the Senate section of the 1969 History of Bills).
+- The fear in 1968 of a deadlock thrown into the House by Wallace's electors; statements and proposals on it (candidates', members' pledges). No source read.
+- The day Bayh turned from the administration's plan to direct election (late 1966?). Unsourced.
+- House Judiciary's hearings on presidential disability, February 1965: the days. The Record shows only the month.
+- Bayh's 1965 hearing on S.J. Res. 1, and the first day of his 1965 apportionment hearings (the Record gives only Apr. 27–29); Senate Judiciary's handling of S.J. Res. 2 before Aug. 4, 1965.
+- The House's 1962 poll tax hearings: Robert Kennedy appeared Mar. 15, 1962; what he said.
+- The American Bar Association's conference on presidential disability (1964): the days.
+- Mississippi's unpledged-elector law of 1963: its text, its date of enactment.
+- The House's vote on the poll tax amendment, Aug. 27, 1962: 294–86 as written, 295 yeas on Voteview (`cal.1962-08-27.voting-rights`). The bound Record.
+- A Gallup question on a school prayer amendment, 1962–68: not found.
+- Printed hearings without a copy found online: *Four-Year Term for Representatives* (Senate, 1966; Y 4.J 89/2:R 29/4); the Senate's prayer hearings of 1962 and 1966; the House's of 1964 (Becker); Bayh's disability hearings of 1964; Kefauver's of 1961; Ervin's convention bill, 1967. Katzenbach's page in *Congressional Tenure of Office* (HathiTrust, bot-checked from here).
+
+### Left out of 1968 as minor, or not placed (the drafting agents, Oct. 17–18, 2026)
+
+- Jan.–Feb.: Wilson in Washington, Feb. 7–9; Jean Rey's visit; the Tlatelolco statement; Apollo 5; the *Enterprise* protests at Sasebo; *Epton v. New York*. Primary records not found for Robert Kennedy's Chicago speech (JFK Library refuses scripts), Orangeburg, Wallace's and Nixon's announcements, Romney's withdrawal, the Memphis strike, Cronkite's broadcast.
+- May–June: Columbia's second occupation; the state visits (Thanom, Bourguiba, Gorton, Trejos, the Shah); Hayden's retirement; the Uniform Monday Holiday Act; Wheeler's reappointment.
+- July–Aug.: the postal commission's report (July 16); the elective governors of the Virgin Islands and Guam; the cotton pocket veto; the Architectural Barriers Act; the Census report on Negroes (July 31). The Fortas hearings' printed volume (not found online).
+- Nov.–Jan. 1969: Nixon's White House staff appointments; Moynihan; Yost; Hickel's hearings; the Douglas Commission's report; Palach.
+- Gallup's releases of Jan. 1–20, 1969: the 1969 pages of *The Gallup Poll* not yet read.
+
 ## Foreign
 
 - Military aid cut off to allies trading with Cuba, Feb. 18, 1964: not verified.
@@ -344,6 +375,8 @@ reports them (`notes/calendar-audit.md`).
 - Đoàn Thêm's chronicles: the catalogues' years conflict.
 - Denis Warner's articles of 1974–75 on the fall of Diệm: not confirmed.
 - Peter Dale Scott's essay in the Gravel edition of the *Pentagon Papers*: pages not confirmed.
+
+- The OAS Charter's Protocol of Buenos Aires: the Senate's consent, Apr. 10, 1968 (75–0), the ceremony of Apr. 23: left out, the U.S.T. and U.N.T.S. cites not verified.
 
 ## The Executive roster
 

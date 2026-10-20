@@ -311,6 +311,9 @@ def block(c, data, geo, ptr, href, rid, here=False):
              "n": lab.get(id(r), "Vacant"), "id": rid(c, ch, r["st"], seat)}
         if caucused(r):
             x["pl"] = third_name(r)
+        if not r.get("vacant"):                   # the race that seated him, for the Result and Margin views
+            from . import seatlinks
+            x.update(seatlinks.seat_figures(str(data["opened"]), ch, r["st"], seat, r["name"]))
         return x
     for r in house:
         seats["h"][r["st"]].append(rec(r, "h", r["d"]))

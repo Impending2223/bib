@@ -7,8 +7,9 @@ STYLE:
  2. Every work under a heading in the heavier weight: an author's name, inverted ("Beschloss, Michael R."; a name in
     its own order as written), linked to the name entry where one person fits; a work filed under its title, its
     short title in italics, the article and subtitle dropped (FILING 9). A compilation under the writer it collects
-    (FILING 6); one person written two ways under one heading (FILING 8). A work entered again under its other
-    authors, its editors and translators (FILING 7), the citation and "Filed under" the heading that holds it. Under it, each work's full citation, the author named in running order ("Jean Lacouture, *Vietnam* ...").
+    (FILING 6); one person written two ways under one heading (FILING 8). A work is entered once, under the heading
+    that files it: no "Filed under" entries under its other authors, editors or translators (the owner's ruling,
+    Oct. 20, 2026). Under it, each work's full citation, the author named in running order ("Jean Lacouture, *Vietnam* ...").
     Nothing indented, first line or hanging: the headings' weight sets the works apart.
  3. No notes here (the card notes show in the lists). After each citation, on its line, muted and with no closing
     stop: the list sections that hold it, each linked to its listing ("K–J Adm. II.D, Viet. II.C.1"); the calendar
@@ -206,10 +207,6 @@ def page(series, linker, template):
     for cid in cat.cards:
         hd, key = works.filing(series, cid)
         into(hd, key, cid, raw=works.filed_name(cid, cat))
-        f = cat.fields(cid) or {}
-        for n in works.ghost_names(cid, cat):    # the same work, entered again under its other names (FILING 7)
-            gh, gk = works.heading(n)
-            into(gh, (gk, str(f.get("year") or ""), key[-1]), cid, True, n)
     blocks = sorted(groups.values(), key=lambda g: (g["key"], g["hd"] or "", g["items"][0][0]))
 
     def head(hd, raw):

@@ -41,7 +41,8 @@ def agrees(roster_name, returns_name):
 
 
 def events():
-    """{(ch, st, seat): [(date, href or None, label, [winners], [candidates], year or None)]} by date."""
+    """{(ch, st, seat): [(date, href or None, label, [winners], [candidates], year or None, source)]} by date; the
+    source ("nov", year, race) or ("sp", congress, special), for the figures (seat_figures)."""
     if "events" in _cache:
         return _cache["events"]
     from . import elections, specials
@@ -52,7 +53,8 @@ def events():
             lab = elections.fmt_date(E["date"]) + (" (special)" if r.get("special") else "")
             out[(r["ch"], r["st"], r["seat"])].append(
                 (E["date"], href, lab, [c["n"] for c in r["cands"] if c.get("w")],
-                 [c["n"] for c in r["cands"]] + [i["n"] for i in r.get("inc") or [] if i.get("n")], y))   # who ran, or held it
+                 [c["n"] for c in r["cands"]] + [i["n"] for i in r.get("inc") or [] if i.get("n")], y,   # who ran, or held it
+                 ("nov", y, r)))
     sp = specials.load()
     for c in sorted(sp):
         for x in specials.between(c, sp):
@@ -60,7 +62,7 @@ def events():
             out[(x["ch"], x["st"], x["seat"])].append(
                 (x["date"], f"congress.html#{specials.rid(x)}",
                  specials.fmt_date(x["date"]) + (" (first election)" if x.get("new") else " (special)"),
-                 [x["winner"]], names, None))
+                 [x["winner"]], names, None, ("sp", c, x)))
     for k in out:
         out[k].sort(key=lambda e: e[0])
     _cache["events"] = out
@@ -87,24 +89,62 @@ def link(e, here):
     return f'<a href="{href}">{esc(e[2])}</a>'
 
 
+def seated_by(opened, ch, st, seat, name):
+    """(the last election to the seat before the opening, whether the member won it): (None, False) where the seat had
+    none in the returns."""
+    evs = events().get((ch, st, seat), [])
+    before = [e for e in evs if e[0] < opened]
+    if not before:
+        return None, False
+    won = lambda e: any(agrees(name, w) for w in e[3])
+    same = [e for e in before if e[0] == before[-1][0]]        # a special held with the November race
+    last = next((e for e in same if won(e)), None)
+    if last is None and ch == "h" and seat == 0:
+        last = next((e for e in reversed(before) if won(e)), None)   # an at-large seat several fill
+    if last:
+        return last, True
+    return next((e for e in same if not e[2].endswith("(special)")), same[-1]), False
+
+
+def seat_figures(opened, ch, st, seat, name):
+    """The chamber maps' figures for a member at an opening, from the race that seated him: {el (its date), k, sh,
+    mg?, u?}; {so: 1} (gray) where he did not win the seat's last election (appointed) or the race has no figures."""
+    if not name:
+        return {}
+    e, won = seated_by(opened, ch, st, seat, name)
+    if not e or not won or not e[6]:
+        return {"so": 1}
+    out = {"el": e[2]}
+    kind, k, race = e[6]
+    if kind == "nov":
+        from . import elections
+        w = next((c for c in race["cands"] if c.get("w") and agrees(name, c["n"])), None)
+        if not w:
+            return {"so": 1, "el": e[2]}
+        out.update(elections.seat_figures(race, w))
+    else:
+        from . import specials, elections
+        w = next((r for r in specials.final(race) if r[4]), None)
+        if not w or w[3] is None:                  # a special with no figures
+            return {"so": 1, "el": e[2]}
+        rec = specials.record(k, race, elections.load())
+        out.update({f: rec[f] for f in ("k", "sh", "mg") if f in rec})
+        if rec.get("mg") is None:
+            out["u"] = 1
+    return out
+
+
 def member_line(c, opened, ch, st, seat, name, here=False):
     """The muted line under a member at Congress c's opening: the election before, the seat's next. HTML or ''."""
     evs = events().get((ch, st, seat), [])
-    before = [e for e in evs if e[0] < opened]
     after = [e for e in evs if e[0] > opened]
-    won = lambda e: any(agrees(name, w) for w in e[3])
     bits = []
-    if before:
-        same = [e for e in before if e[0] == before[-1][0]]        # a special held with the November race
-        last = next((e for e in same if won(e)), None)
-        if last is None and ch == "h" and seat == 0:
-            last = next((e for e in reversed(before) if won(e)), None)   # an at-large seat several fill
-        if last:
-            bits.append(f"Elected {link(last, here)}.")
-        else:
-            e = next((e for e in same if not e[2].endswith("(special)")), same[-1])
-            w = ", ".join(surname_of(x) for x in e[3])
-            bits.append(f"Seat filled {link(e, here)}" + (f" ({esc(w)})" if w else "") + ".")
+    last, won = seated_by(opened, ch, st, seat, name)
+    if last and won:
+        bits.append(f"Elected {link(last, here)}.")
+    elif last:
+        w = ", ".join(surname_of(x) for x in last[3])
+        bits.append(f"Seat filled {link(last, here)}" + (f" ({esc(w)})" if w else "") + ".")
     nxt = after[0] if after else None
     ny = int(opened[:4]) + 1                     # the November election during the Congress
     if ch == "h" and name and (nxt is None or nxt[5]):

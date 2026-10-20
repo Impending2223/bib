@@ -284,12 +284,7 @@ def rows_for(year, data):
             rec = {"p": cc if cc in ("D", "R") else "O", "n": short(w["n"]), "k": kind(r, w), "id": rid(year, r)}
             if w["p"] not in ("D", "R"):
                 rec["x"], rec["pl"] = 1, third_label(w)
-            opposed = any(c is not w and c.get("v") for c in r["cands"])
-            if w.get("v") is None or not opposed:
-                rec["u"] = 1
-            rec["sh"] = round(100 * w["v"] / m["total"], 1) if w.get("v") and m["total"] else 100.0
-            if m.get("margin_pts") is not None:
-                rec["mg"] = m["margin_pts"]
+            rec.update(seat_figures(r, w, m))
             s = sw.get((r["ch"], r["st"], r["seat"]))
             if r["ch"] == "s" and not r.get("special"):
                 ps = prior.get(r["st"])
@@ -311,10 +306,27 @@ def rows_for(year, data):
         cc = caucus({"p": r["party"], "n": sur})
         rec = {"p": cc if cc in ("D", "R") else "O", "n": sur, "cl": r["cl"], "ho": 1,
                "id": f"cg{E['congress']}-s-{r['st']}-{r['cl']}"}
+        from . import seatlinks
+        f = seatlinks.seat_figures(str(C["opened"]), "s", r["st"], r["cl"], r["name"])
+        if not f.get("so"):                       # the chamber's order: the margin that seated him (lm)
+            rec["lm"] = 100.0 if f.get("u") else f.get("mg")
         if r["party"] not in ("D", "R"):
             rec["x"], rec["pl"] = 1, third_label({"p": r["party"], "n": sur})
         seats["s"][r["st"]].append(rec)
     return seats
+
+
+def seat_figures(r, w, m=None):
+    """A winner's figures for the maps: {k, sh, mg?, u?} (Map records)."""
+    m = m or metrics(r)
+    out = {"k": kind(r, w)}
+    opposed = any(c is not w and c.get("v") for c in r["cands"])
+    if w.get("v") is None or not opposed:
+        out["u"] = 1
+    out["sh"] = round(100 * w["v"] / m["total"], 1) if w.get("v") and m["total"] else 100.0
+    if m.get("margin_pts") is not None:
+        out["mg"] = m["margin_pts"]
+    return out
 
 
 def short(n):

@@ -275,6 +275,12 @@ a detail to verify. In the calendar the first entry of each event carries its
 bibliography and later ones point back with `See [[id]]`; a thread's first entry is its first event's. Bibliography sections
 are chronological by publication unless their intro says "Alphabetical".
 
+Leads (the owner's standing rule, Oct. 18, 2026): anything recalled but not placed or verified (an event without a
+date, a figure without a source read, a source not reached, an item left out as minor) is written into
+`notes/leads.md` under its heading (States and cities, National, Foreign, the Executive roster), with the entry it
+concerns and where to look; never into the calendar unchecked. A lead leaves the list when it is entered or settled. Every
+drafting brief asks its agents for their leads, and they go into the file when their work is merged.
+
 A run of calendar dates, wherever the series prints one (the thread index, the pointers under each member and holder in
 the Congress and Executive rosters, the Names' "In the series"), is written by year: "Cal. **1961** Jan. 20, May 16.
 **1962** Jan. 22–31.", the year in the sans, a little heavier, unlinked, a full stop after each year's dates. One
@@ -449,9 +455,9 @@ yet render it; author, title and year read from it for sorting and search).
   record (the Abrams tapes under Abrams, *The Kissinger Transcripts* under Kissinger), not a study that draws on
   them, nor a film cut from them (a film files as a film: *The Lady Bird Diaries* under Porter); otherwise the short title,
   its leading article and subtitle dropped (edited volumes included), the heading in italics; then the year; then the
-  short title (FILING in `tools/bib/works.py`; `./bib works list` sorts the same way). A work is entered again, a ghost
-  ("Filed under …"), under its other authors, the writer it was written "with", its editors and translators, and any
-  name in `also_under` (Cincinnatus [Cecil B. Currey] under Currey). One person written two ways is one heading: by
+  short title (FILING in `tools/bib/works.py`; `./bib works list` sorts the same way). A work is entered once, where it
+  files: no "Filed under" entries under its other authors, editors or translators (the owner's ruling, Oct. 20, 2026;
+  `ghost_names` and `also_under` in `tools/bib/works.py` are kept but no longer shown). One person written two ways is one heading: by
   the marks alone (Andrade, Andradé) under the marked form; otherwise by `SAME` (William Colby, William E. Colby); each
   citation keeps its card's form. An author's works under the name, inverted ("Beschloss, Michael R."; a particle with the surname, "De Palma,
   Brian"; a Vietnamese, Chinese or Japanese name in its own order, as written; `OWN_ORDER`, `RUNNING`, `SURNAME` for
