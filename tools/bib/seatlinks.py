@@ -7,6 +7,9 @@ A seat is (chamber, State, district or class). Its elections, in order of date: 
 them (congress/specials.yaml). House districts are numbered anew at each reapportionment: a member's next race is
 the one in his State that names him (by surname) where one race does, else the race for the same number.
 
+The race that seated a member (seated_by) also gives the chamber maps their figures at an opening (seat_figures:
+the margin and the pickup of that race; elections.py, STYLE 12).
+
 STYLE: one muted line under the member, "Elected Nov. 8, 1960. Next: Nov. 6, 1962." ("Seat filled", with the winner,
 where the member did not win the seat's last election: an appointed Senator); under a race, "Roster: 87th Cong.".
 """
@@ -112,6 +115,8 @@ def seat_figures(opened, ch, st, seat, name):
     if not name:
         return {}
     e, won = seated_by(opened, ch, st, seat, name)
+    if not e and ch == "h" and seat:              # districts the roster numbers, elected at large (Hawaii, 1962-68)
+        e, won = seated_by(opened, ch, st, 0, name)
     if not e or not won or not e[6]:
         return {"so": 1}
     out = {"el": e[2]}

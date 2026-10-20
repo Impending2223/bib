@@ -108,6 +108,8 @@ def half_of_entry(lst, sec, e):
 
 
 def thread_anchor(lst, slug, half):
+    while lst.is_ghost(slug):            # a ghost subthread has no index entry: its nearest ancestor's
+        slug = lst.thread_parent(slug)
     return f"{lst.key}.thread.{slug}" if (half or 1) == 1 else f"{page_key(lst, half)}.thread.{slug}"
 
 

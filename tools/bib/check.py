@@ -124,9 +124,16 @@ def run(series, only=None):
                 if "thread" in e and e["thread"] not in first:
                     first[e["thread"]] = e
             for t, e in first.items():
+                if lst.thread_parent(t):          # a subthread's first entry may point back to its parent's event
+                    continue
                 if (e.get("n") or "").startswith("See "):
                     add(WARN, e["id"], f"first entry of thread {t!r} only points elsewhere; it should carry the bibliography", "thread-first")
-            members = {t for sec, e in lst.entries() if "thread" in e for t in [e["thread"]] + e.get("also", [])}
+            members = {s for sec, e in lst.entries() if "thread" in e for t in [e["thread"]] + e.get("also", [])
+                       for s in lst.thread_line(t)}
+            for t, te in threads.items():           # a subthread names a thread that exists, and not itself
+                par = te.get("parent")
+                if par and (par not in threads or t in lst.thread_line(par)):
+                    add(ERROR, f"{lst.key}.thread.{t}", f"parent {par!r} is not a thread (or comes round to itself)")
             for t in threads:
                 if t not in members:
                     add(WARN, f"{lst.key}.thread.{t}", "thread has no entries", "thread-empty")
@@ -242,7 +249,8 @@ def run(series, only=None):
     for lst in series.lists.values():
         if lst.kind != "calendar":
             continue
-        names = [t.get("s", "") for t in lst.threads().values()]
+        from .build import thread_name
+        names = [thread_name(lst, s) for s in lst.threads()]
         keys = [THREAD_SORT_AS.get(n, n).lower() for n in names]
         if keys != sorted(keys):
             bad = next(n for n, k, w in zip(names, keys, sorted(keys)) if k != w)

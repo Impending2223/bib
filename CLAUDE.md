@@ -226,6 +226,20 @@ A `gloss` is for what the entry rests on and does not say: the record behind a n
 calendar's voice, quotations marked and cited, and what each piece of the record is and is not, stated plainly and
 without a side (Jan. 30, 1961: the Address to the Joint Session, its *Style*). Rare.
 
+Spans (the owner's ruling, Oct. 20, 2026): an entry is an event-day. Spans of two or three days are good, under a week
+tolerable; anything longer deserves close scrutiny, and an entry never bundles several events (an announcement and the
+act it announces, hearings and the vote, a note and its reply): each gets its own entry, dated to the day its record
+bears, the first keeping the event's bibliography and the rest pointing back. A day's "Continuing" line names what is
+under way; it should say something. 1961 is the model.
+
+Subthreads: a thread in `th.yaml` may name a `parent:` ("Defense: McNamara to Clifford", `id:
+cal.thread.defense-clifford`, `s: McNamara to Clifford`, `parent: defense`). Its entries are the parent's too (the
+index's dates, the ⟨⟨ ⟩⟩ line, the highlight); the rubric, the ⟨⟨ ⟩⟩ line and the Continuing line give its full name. A
+subthread without a statement (`c`) is a ghost: named where it is under way, not listed in the thread index (its rubric
+links to the parent's entry there); give it a `c` to promote it. Use one where a thread holds two or more events at once,
+or where the thread's name does not say what is going on. In `th.yaml`, after its parent (alphabetical by full name).
+`thread_name`, `entry_threads` in `tools/bib/build.py`; `thread_line`, `is_ghost` in `tools/bib/store.py`.
+
 The thread index (Part I of the calendar) is generated from `thread` and
 `also`; never write dates into `th.yaml`. A new thread is a new entry in
 `th.yaml` (`id: cal.thread.<slug>`, `s:` name, `c:` one-line scope).
@@ -516,7 +530,14 @@ positions are the ON and OFF tables in `templates/congress.html`. The dots stay 
 zooming until one is clicked: that zooms to its district and shows the districts.
 Then a click selects a district, a double-click goes there, and a double-click on
 white space (water, or land outside the States) goes back. Map labels use
-the two-letter postal codes. The bars split the Democrats, non-Southern then Southern:
+the two-letter postal codes. Each map has three types, in the toggle under it: the map (Districts, States), the dots
+(Delegations, Senators) and the Chamber (the owner's request, Oct. 20, 2026): a semicircle, a dot a seat, the
+Democrats and those caucusing with them on the left, the Republicans and theirs on the right, each side from its end
+to the middle by the margin of the race that seated each member, the narrowest in the middle, those not elected to
+the seat (appointed) at the ends, filled in a snake (STYLE 12 in `tools/bib/elections.py`; `hemi`, `chamberOrder`
+in the template). One switch above the maps colors all three: Party (the default), Result (held or picked up) and
+Margin, the last two of the race that seated each (`seat_figures` in `tools/bib/seatlinks.py`), gray where he was not
+elected to the seat or the race has no figures. The bars split the Democrats, non-Southern then Southern:
 the eleven Southern States, the thirteen represented in the Confederate States
 Congress less Missouri and Kentucky.
 
@@ -946,8 +967,8 @@ race, and in presidential years the vote for President by State with the elector
 1974 before the Congress it chose (the 86th and 94th have no rosters); a calendar entry tagged
 `election:<year>` carries its block too (now every November election, 1960–68). A block: the electoral and popular vote
 first, then by chamber the seats won, the net change from the close of the last Congress, pickups,
-and new members; one view switch for every map (Result; Margin, the winner's lead over the runner-up in points of all the votes, by the quantile rule; Swing, continuous); the
-President's map above the House and Senate, with a States | Electors switch (Electors: a dot an elector, as voted); the Senate map with a Senators toggle (a dot a seat, larger than the House's: `PB`, `RB`); and every race in tables (the candidate first, in bold where he won, his party under or after him; under 520px the share
+and new members; one view switch for every map (Result; Party, the parties' flat colors; Margin, the winner's lead over the runner-up in points of all the votes, by the quantile rule; Swing, continuous); the
+President's map above the House and Senate, with a States | Electors | Chamber switch (Electors: a dot an elector, as voted); the Senate map with a Senators toggle (a dot a seat, larger than the House's: `PB`, `RB`); a Chamber under every map but the specials' (a semicircle, a dot a seat or an elector as cast; the Democrats and their allies left, the Republicans and theirs right, a third ticket between; each side from its end in by margin, the narrowest in the middle, the Senate's seats not at stake gray at the ends; filled in a snake whose midpoint is the middle dot on the center line; a faithless or unpledged elector by his vote, in its color; its Result held and picked up, the President's too: STYLE 12 in `tools/bib/elections.py`); and every race in tables (the candidate first, in bold where he won, his party under or after him; under 520px the share
 under the count and the note on a line of its own):
 candidates with party, votes and share, the margin in votes and in points of all the votes cast, and
 a note. Pickups are shaded in the winner's color, other member changes in gray. Members of neither

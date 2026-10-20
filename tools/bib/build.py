@@ -35,8 +35,22 @@ def attr(t):
 # ---------------------------------------------------------------- calendar helpers
 
 def thread_name(lst, slug):
+    """A thread's name; a subthread's after its parent's ("Defense: McNamara to Clifford")."""
     t = lst.threads().get(slug)
-    return plain(t["s"]) if t else slug
+    if not t:
+        return slug
+    par = t.get("parent")
+    return f"{thread_name(lst, par)}: {plain(t['s'])}" if par and par != slug else plain(t["s"])
+
+
+def entry_threads(lst, e):
+    """An entry's threads, each followed by its ancestors (a subthread's entries are its parent's too), once each."""
+    out = []
+    for t in [e["thread"]] + list(e.get("also") or []):
+        for s in lst.thread_line(t):
+            if s not in out:
+                out.append(s)
+    return out
 
 
 def entry_subject(lst, e):
@@ -52,7 +66,7 @@ def thread_members(lst):
     for sec, e in lst.entries():
         if "when" not in e:
             continue
-        for t in [e["thread"]] + e.get("also", []):
+        for t in entry_threads(lst, e):
             out.setdefault(t, []).append(e)
     return out
 
@@ -68,7 +82,7 @@ def thread_nav(series, lst, e, year, text_html):
     if key not in _NAV:
         _NAV[key] = {t: [m["id"] for m in ms] for t, ms in thread_members(lst).items()}
     out = []
-    for t in [e["thread"]] + e.get("also", []):
+    for t in entry_threads(lst, e):
         ids = _NAV[key].get(t, [])
         if e["id"] not in ids or len(ids) < 2:
             continue
@@ -189,6 +203,8 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
     if subj:
         parts.append(f'<span class="s">{text_html(subj, "s")}</span>')
     is_thread = lst.kind == "calendar" and e["id"].startswith(f"{lst.key}.thread.")
+    if is_thread and lst.is_ghost(e["id"].split(".", 2)[2]):
+        return ""                       # a ghost subthread: no entry in the thread index
     statement = e.get("c")
     anchor = e["id"]
     if is_thread:                       # a thread's entry: its statement and dates in the half being built
@@ -237,7 +253,7 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
         if is_thread:
             extra_attrs += f' data-thread="{attr(slug)}"'
         elif e.get("thread"):
-            extra_attrs += f' data-threads="{attr(" ".join([e["thread"]] + list(e.get("also") or [])))}"'
+            extra_attrs += f' data-threads="{attr(" ".join(entry_threads(lst, e)))}"'
     return f'<li id="{attr(anchor)}"{extra_attrs}>' + "".join(parts) + extra_spans + "</li>"
 
 

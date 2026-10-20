@@ -39,7 +39,8 @@ Definitions (STYLE, settled):
     Wikipedia's percentages, later years from the returns). No swing where either election was unopposed,
     or where the winner ran on neither major party's line.
  8. Colors: in the result view, four steps a side, held seats light and pickups dark (the President's
-    winner a middle step); the margin view, a straight line in OKLab from near
+    winner a middle step); the party view (Party, after Result in the switch), the parties' flat colors, as at an
+    opening (a third ticket amber, the seats not at stake gray); the margin view, a straight line in OKLab from near
     white at a tie to the darkest step, by the quantile rule (note 3); the swing view, gray at no swing to
     the darkest step at 15 points or more (SWING in the template). The keys draw the scales as gradient
     bars. Every map value is also in the tables and on hover.
@@ -52,13 +53,34 @@ Definitions (STYLE, settled):
     reckonings. Alabama, 1964: Johnson had no slate; the Democratic slate was unpledged. The electoral
     votes are as cast (tools/elections/president.py CAST).
 11. The presidential map. Result: the winner's color, a third ticket (unpledged electors, Byrd,
-    Wallace) amber, one flat shade. A toggle under the map, States | Electors (the owner dropped a third,
-    Pickups, Oct. 14, 2026). The outlines stay the standard ones. Margin and swing as for the House and Senate; no swing where
+    Wallace) amber, one flat shade. A toggle under the map, States | Electors | Chamber (the owner dropped a
+    Pickups toggle, Oct. 14, 2026; the Chamber's Result shows held and picked-up States, note 12). The outlines stay the standard ones. Margin and swing as for the House and Senate; no swing where
     either party had no slate. Electors: a dot an elector, colored by the elector's vote, faithless
     electors included.
+12. The chamber (the owner's request, Oct. 20, 2026): a third type of map, beside the map of States or districts
+    and the dots, under every House, Senate and presidential map of an election and of an opening (not the
+    specials'): a semicircle, a dot a seat (an elector as cast). Rows of increasing radius, the inner two-fifths
+    of the outer; the dots of a row evenly spaced, their count in proportion to its arc. Left, the Democrats and
+    those caucusing with them; right, the Republicans and theirs (note 4); between, the rest (a third ticket's
+    electors, a vacancy). Each side runs from its end to the middle: first the gray seats (the Senate's seats not
+    at stake, by the margin that seated each; at an opening, those not elected to the seat), then the rest, from
+    the widest margin (note 2; the unopposed 100) to the narrowest, so the narrowest sit nearest the middle. The
+    places are taken in a snake: slices of the half-circle by angle, about as many places to a slice as there are
+    rows, the middle slice on the center line, each crossed from the inner row to the outer and the next back,
+    from the left end to the right; its midpoint is the middle dot on the center line. A special held with the
+    November race for the same seat gives way to the regular race. Electors: by the party each voted for, his
+    State's margin; one who voted otherwise than his State's winner (a faithless or unpledged elector) keeps his
+    vote's color in every view, as in Electors. The colors follow the block's switch: Result (held light,
+    picked up dark; for the President too), Party, Margin, Swing. At an opening the switch is Party | Result |
+    Margin, Result and Margin of the race that seated each member (seatlinks.seat_figures), gray where he was
+    not elected to the seat (appointed) or the race has no figures. In the middle, the seats of each side and
+    a majority of the whole; a Senate without a roster at the opening (1958, 1974) has its seats at stake alone,
+    and no majority. Hover and click as on the other maps: the seat, its margin, a link to its row.
 
 Map records (the JSON in each block's script.cgseats, read by templates/congress.html):
-  seats.h[ST], seats.s[ST]: one record a seat. Congress at its opening (congress.py): {p, n, id, d | cl, pl?}.
+  seats.h[ST], seats.s[ST]: one record a seat. Congress at its opening (congress.py): {p, n, id, d | cl, pl?},
+    and from the race that seated the member (seatlinks.seat_figures) {el (its date), k, sh, mg?, u?}, or so
+    (not elected to the seat, or no figures; el where he won a race without them).
   Election (rows_for): {p, n, id, d | cl, k, sh, mg?, u?, sw?, swb?, x?, pl?, ho?}
     p   party for color and counts: D, R (by caucus for a third-party member), O; at an opening also V
         (vacant), Di, Ri (a third-party member caucusing with the Democrats, the Republicans)
@@ -68,6 +90,7 @@ Map records (the JSON in each block's script.cgseats, read by templates/congress
     k   pickup | change | held | new          sh the winner's share of all votes; u unopposed
     mg  the margin, points of all votes        sw swing, points toward the Democrats; swb its basis
     x   a winner of neither major party        ho a seat not at stake (the Senate, from the roster)
+    lm  a seat not at stake: the margin that seated its holder (the chamber's order; 100 unopposed)
   seats.p[ST] (pres_rows): {p (D, R, T a third ticket, O), n, id, ev, cast [[class, electors, name]],
     sh, mg, k (held | pickup | new), sw}
 """
@@ -626,7 +649,7 @@ def block(year, data, view="r"):
     if note:
         out.append(f'<p class="elsum elnote">{esc(note)}</p>')
     out.append(f'<script type="application/json" class="cgseats">{json.dumps(seats, ensure_ascii=False, separators=(",", ":"))}</script>')
-    views = '<span data-views="r s' + (' w' if has_sw else '') + '"></span>'
+    views = '<span data-views="r n s' + (' w' if has_sw else '') + '"></span>'
     if pres:
         out.append('<div class="cgmaps"><figure class="cgmap" data-chamber="p"><figcaption>President, by state</figcaption>'
                    '<div class="cgv" style="aspect-ratio:960/660"></div></figure></div>')
@@ -673,10 +696,13 @@ def legend(has_sw):
            f'{sw("R2")}Republican held {sw("R4")}Republican pickup <span class="sw pDi"></span><span class="sw pRi"></span>'
            f'Independent or third party, by the party caucused with {sw("None")}No election; '
            'Senators: <span class="sw eHo"></span>not at stake</span>')
+    party = ('<span class="lk lk-n"><span class="sw pD"></span>Democratic <span class="sw pR"></span>Republican '
+             '<span class="sw pDi"></span><span class="sw pRi"></span>Independent or third party, by the party caucused with '
+             f'{sw("None")}No election; Senators: <span class="sw eHo"></span>not at stake</span>')
     share = f'<span class="lk lk-s">The winner\'s margin over the runner-up, points of all the votes: {margin_scale()}</span>'
     swing = (f'<span class="lk lk-w">Swing, points: {swing_scale()} <span class="lt">redrawn districts take their '
              'State\'s swing</span> ' + sw("NA") + 'None</span>') if has_sw else ""
-    return f'<p class="cgkey elkey">{res}{share}{swing}</p>'
+    return f'<p class="cgkey elkey">{res}{party}{share}{swing}</p>'
 
 
 # ---------------------------------------------------------------- the President
@@ -826,9 +852,15 @@ def pres_legend(has_prev, has_sw):
     share = f'<span class="lk lk-s">The winner\'s margin over the runner-up, points of all the votes: {margin_scale(third=True)}</span>'
     swing = (f'<span class="lk lk-w">Swing from the last presidential election, points: {swing_scale()} '
              '<span class="lt">none where a party had no slate</span> ' + sw("NA") + 'None</span>') if has_sw else ""
+    party = ('<span class="lk lk-n"><span class="sw pD"></span>Democratic <span class="sw pR"></span>Republican '
+             '<span class="sw pT"></span>Third ticket <span class="sw pO"></span>Other</span>')
     dots = ('<span class="lk lk-e">Electors, one dot each, as they voted: <span class="sw pD"></span>Democratic '
             '<span class="sw pR"></span>Republican <span class="sw pT"></span>Third ticket <span class="sw pO"></span>Other</span>')
-    return f'<p class="cgkey elkey elpk">{res}{share}{swing}{dots}</p>'
+    chamber = (f'<span class="lk lk-cr">{sw("B2")}Democratic held {sw("B4")}Democratic pickup {sw("R2")}Republican held '
+               f'{sw("R4")}Republican pickup {sw("A2")}{sw("A4")}Third ticket, held, pickup (from the last presidential '
+               'election)</span>' if has_prev else
+               f'<span class="lk lk-cr">{sw("B2")}Democratic {sw("R2")}Republican {sw("A2")}Third ticket</span>')
+    return f'<p class="cgkey elkey elpk">{res}{party}{share}{swing}{dots}{chamber}</p>'
 
 
 def tagged(series):
