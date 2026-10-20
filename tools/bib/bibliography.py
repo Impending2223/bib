@@ -7,9 +7,9 @@ STYLE:
  2. Every work under a heading in the heavier weight: an author's name, inverted ("Beschloss, Michael R."; a name in
     its own order as written), linked to the name entry where one person fits; a work filed under its title, its
     short title in italics, the article and subtitle dropped (FILING 9). A compilation under the writer it collects
-    (FILING 6); one person written two ways under one heading (FILING 8). A work is entered once, under the heading
-    that files it: no "Filed under" entries under its other authors, editors or translators (the owner's ruling,
-    Oct. 20, 2026). Under it, each work's full citation, the author named in running order ("Jean Lacouture, *Vietnam* ...").
+    (FILING 6); one person written two ways under one heading (FILING 8). A work is entered again, a ghost, under its
+    other authors, its editors and translators (FILING 7): its citation in the muted gray, the whole of it a link to
+    the work's own entry, not underlined, and nothing more (no "Filed under"; the owner's ruling, Oct. 20, 2026). Under it, each work's full citation, the author named in running order ("Jean Lacouture, *Vietnam* ...").
     Nothing indented, first line or hanging: the headings' weight sets the works apart.
  3. No notes here (the card notes show in the lists). After each citation, on its line, muted and with no closing
     stop: the list sections that hold it, each linked to its listing ("K–J Adm. II.D, Viet. II.C.1"); the calendar
@@ -55,6 +55,7 @@ p.az a:hover{color:var(--ink);text-decoration:underline;text-decoration-thicknes
 .wz .wk:target:not(.unhl){background:var(--tgt);box-shadow:calc(-1*var(--dash)) 0 0 var(--tgt),var(--dash) 0 0 var(--tgt)}
 .wz .wp{font-size:.8rem;color:var(--muted)}
 .wz .wp a{color:var(--muted)}
+.wz .wg,.wz a.wgl{color:var(--muted);text-decoration:none}
 </style>
 <script>
 document.addEventListener('click',function(e){
@@ -172,11 +173,9 @@ def page(series, linker, template):
         return "; ".join(out)
 
     def item(cid, ghost=False):
-        if ghost:                        # entered again under another name: the citation, and where it is filed
-            hd, _ = works.filing(series, cid)
-            where_ = esc(hd) if hd else short(cid)
-            return (f'<p class="wk wg">' + caps(to_html(cat.render(cid, caps=True), resolve))
-                    + f' <span class="wp">Filed under <a href="#{esc(cid)}">{where_}</a></span></p>')
+        if ghost:                        # entered again under another name: the citation in gray, linked to the entry
+            inner = re.sub(r"</?a\b[^>]*>", "", caps(to_html(cat.render(cid, caps=True), resolve)))
+            return f'<p class="wk wg"><a class="wgl" href="#{esc(cid)}">{inner}</a></p>'
         h = f'<p class="wk" id="{esc(cid)}">' + "".join(f'<span id="{esc(a)}"></span>' for a in store.as_list(cat.get(cid).get("aliases"))) \
             + caps(to_html(cat.render(cid, caps=True), resolve))
         p = pointers(cid)
@@ -207,6 +206,10 @@ def page(series, linker, template):
     for cid in cat.cards:
         hd, key = works.filing(series, cid)
         into(hd, key, cid, raw=works.filed_name(cid, cat))
+        f = cat.fields(cid) or {}
+        for n in works.ghost_names(cid, cat):    # the same work, entered again under its other names (FILING 7)
+            gh, gk = works.heading(n)
+            into(gh, (gk, str(f.get("year") or ""), key[-1]), cid, True, n)
     blocks = sorted(groups.values(), key=lambda g: (g["key"], g["hd"] or "", g["items"][0][0]))
 
     def head(hd, raw):

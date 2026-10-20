@@ -469,9 +469,10 @@ yet render it; author, title and year read from it for sorting and search).
   record (the Abrams tapes under Abrams, *The Kissinger Transcripts* under Kissinger), not a study that draws on
   them, nor a film cut from them (a film files as a film: *The Lady Bird Diaries* under Porter); otherwise the short title,
   its leading article and subtitle dropped (edited volumes included), the heading in italics; then the year; then the
-  short title (FILING in `tools/bib/works.py`; `./bib works list` sorts the same way). A work is entered once, where it
-  files: no "Filed under" entries under its other authors, editors or translators (the owner's ruling, Oct. 20, 2026;
-  `ghost_names` and `also_under` in `tools/bib/works.py` are kept but no longer shown). One person written two ways is one heading: by
+  short title (FILING in `tools/bib/works.py`; `./bib works list` sorts the same way). A work is entered again, a ghost,
+  under its other authors, the writer it was written "with", its editors and translators, and any name in `also_under`
+  (Cincinnatus [Cecil B. Currey] under Currey): its citation in the muted gray, the whole of it a link to the work's own
+  entry, not underlined, and nothing more (no "Filed under"; the owner's ruling, Oct. 20, 2026). One person written two ways is one heading: by
   the marks alone (Andrade, Andradé) under the marked form; otherwise by `SAME` (William Colby, William E. Colby); each
   citation keeps its card's form. An author's works under the name, inverted ("Beschloss, Michael R."; a particle with the surname, "De Palma,
   Brian"; a Vietnamese, Chinese or Japanese name in its own order, as written; `OWN_ORDER`, `RUNNING`, `SURNAME` for
