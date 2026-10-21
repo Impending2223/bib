@@ -55,7 +55,11 @@ def load():
     if "by_day" not in _cache:
         by = {}
         for f in sorted(glob.glob(os.path.join(DIR, "[0-9][0-9][0-9][0-9]-[0-9][0-9].yaml"))):
-            for x in (store.load_yaml(f) or {}).get("docs", []):
+            try:                           # a month being written by the generator: skipped this run
+                d = store.load_yaml(f) or {}
+            except Exception:
+                continue
+            for x in d.get("docs", []):
                 by.setdefault(str(x["date"]), []).append(x)
         _cache["by_day"] = by
     return _cache["by_day"]
