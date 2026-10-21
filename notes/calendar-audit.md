@@ -3,14 +3,14 @@
 Written by `./bib audit-cal` (`tools/bib/calaudit.py`): the dated entries checked against the brief in
 CLAUDE.md ("The calendar"). A review list: a hit is a place to look, not an error. Rerun after editing.
 
-4858 dated entries.
+4893 dated entries.
 
 | Check | Entries |
 |---|---|
-| A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 1327 |
+| A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 1338 |
 | (of which only a President's surname: Eisenhower, Kennedy, Johnson) | 21 |
 | Neither a bibliography of its own nor a `See [[id]]` back | 2 |
-| No primary record linked or named | 817 |
+| No primary record linked or named | 822 |
 | A primary record named but not linked | 127 |
 | Threads (statements listed for review) | 218 |
 
@@ -86,6 +86,8 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - West: West, Ben (K–J Cong. III.K); West, E. Gordon (K–J Cong. III.K)
 - `cal.1960-05-12.students` (May 12–14, VI may60.yaml): Un-American Activities subcommittee hearings at San Francisco City Hall, Willis presiding. Students, most from
   - ? Hall: Hall, Dave (K–J Cong. III.F); Hall, David (K–J Cong. III.F)
+- `cal.1960-05-17.cuba` (May 17, VI may60.yaml): Radio Swan ready to broadcast, from Swan Island: the CIA's station, medium and short wave, under commercial co
+  - Swan: Swan, Jimmy (K–J Cong. III.K)
 - `cal.1960-06-09.economy` (June 9, VII jun60.yaml): Eight more Reserve Banks cut the discount rate to 3½ percent. Three-month bills at 2.29 percent, June 13.
   - ? Banks: Banks, Dennis (Cong. III.K)
 - `cal.1960-06-20.court` (June 20, VII jun60.yaml): *Hannah v. Larche*, [363 U.S. 420](https://tile.loc.gov/storage-services/service/ll/usrep/usrep363/usrep363420
@@ -179,6 +181,10 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - ? Washington: Washington, Walter E. (K–J Cong. III.F)
 - `cal.1960-11-15.defense` (Nov. 15, XII nov60.yaml): The *George Washington* leaves Charleston on the first Polaris patrol, sixteen missiles. Macmillan announced N
   - ? Washington: Washington, Walter E. (K–J Cong. III.F)
+- `cal.1960-11-18.cuba` (Nov. 18, XII nov60.yaml): Dulles and Bissell brief the President-elect at Palm Beach on the Cuba program: Radio Swan, the FRD, the exile
+  - Swan: Swan, Jimmy (K–J Cong. III.K)
+- `cal.1960-11-19.cuba` (Nov. 19, XII nov60.yaml): *The Nation*, editorial: "Are We Training Cuban Guerrillas?"
+  - Nation: Nation, Bill (K–J Cong. III.K)
 - `cal.1960-11-30.desegregation-schools` (Nov. 30, XII nov60.yaml): A three-judge court voids Louisiana's acts against the New Orleans order: "interposition is not a constitution
   - ? Cooper: Cooper, John R., Sr. (K–J Cong. III.K); Cooper, L. Gordon, Jr. (K–J Cong. III.K); Cooper, R. Conrad (K–J Cong. III.K); Cooper, John Sherman (Opp. III.B, Cong. III.C); Cooper, Chester L. (Viet. III.A)
 - `cal.1960-12-05.desegregation-public-places` (Dec. 5, XIII dec60.yaml): *Boynton v. Virginia*, [364 U.S. 454](https://tile.loc.gov/storage-services/service/ll/usrep/usrep364/usrep364
@@ -196,8 +202,16 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1961-01-10.legislatures` (Jan. 10, XIV jan.yaml): Eisenhower transmits the Census Director's statement under 2 U.S.C. § 2a: each State's population and its Repr
   - West: West, Ben (K–J Cong. III.K); West, E. Gordon (K–J Cong. III.K)
+- `cal.1961-01-10.cuba` (Jan. 10, XIV jan.yaml): *New York Times*, front page, Paul Kennedy: "U.S. Helps Train an Anti-Castro Force at Secret Guatemalan Air-Gr
+  - Kennedy: Kennedy, Jacqueline (K–J Adm. III.A); Kennedy, Joseph P. (K–J Adm. III.A); Kennedy, Robert F. (K–J Adm. III.A, K–J Cong. III.B, 1968 III.K); Kennedy, Edward M. (K–J Cong. III.B, 1968 III.K, 1968 III.P, Cong. III.A); Kennedy, John F. (Viet. III.A)
+  - Train: Train, Russell E. (Adm. III.F)
+  - Castro: Castro, Fidel (K–J Adm. III.J); Castro, Raúl (K–J Adm. III.J); Castro, Sal (K–J Cong. III.K)
+- `cal.1961-01-19.laos` (Jan. 19, XIV jan.yaml): Eisenhower–Kennedy transition meeting, the two alone, then with the outgoing and incoming secretaries. Laos ca
+  - Castro: Castro, Fidel (K–J Adm. III.J); Castro, Raúl (K–J Adm. III.J); Castro, Sal (K–J Cong. III.K)
 - `cal.1961-01-22.opinion` (Jan. 22, XIV jan.yaml): Gallup, Dec. 8–13, 1960: which country first to send a man into space. Russia 40 percent, the United States 35
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1961-01-22.cuba` (Jan. 22, XIV jan.yaml): Rusk's meeting at the State Department, 10 a.m. Rusk, McNamara, Robert Kennedy, Bowles told of the program by 
+  - Swan: Swan, Jimmy (K–J Cong. III.K)
 - `cal.1961-01-27.opinion` (Jan. 27, XIV jan.yaml): Gallup, Jan. 12–17: a Kennedy–Khrushchev summit this year. 54 percent for, 30 against.
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1961-02-01.opinion` (Feb. 1, XV feb.yaml): Gallup, Jan. 12–17: a program sending young men abroad at government expense to give technical help, 71 percen
@@ -218,16 +232,26 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1961-03-29.opinion` (Mar. 29, XVI mar.yaml): Gallup, Mar. 10–15: federal school aid to public schools only, 57 percent; to Catholic and other private schoo
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1961-03-29.cuba` (Mar. 29, XVI mar.yaml): The White House, 4:15 p.m. Zapata. Bissell on the photographs, a diversion of 150 men, the disposal of the for
+  - ? Day: Day, J. Edward (K–J Adm. III.G); Day, William S. (K–J Cong. III.K)
 - `cal.1961-03-31.opinion` (Mar. 31, XVI mar.yaml): Gallup, Mar. 10–15: long-term, low-interest loans to Catholic schools for buildings. 42 percent approve, 46 di
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1961-04-02.opinion` (Apr. 2, XVII apr.yaml): Gallup, Mar. 10–15: federal school aid to all public schools, 68 percent; withheld from schools that fail to i
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1961-04-03.cuba` (Apr. 3, XVII apr.yaml): The State Department's pamphlet *Cuba*, the White Paper: Castro has delivered Cuba to the Sino-Soviet bloc; Cu
+  - ? White: White, Lee C. (K–J Adm. III.B); White, Lincoln P. (K–J Adm. III.E); White, Byron R. (K–J Adm. III.I, K–J Cong. III.G); White, Kevin H. (K–J Cong. III.F); White, Edward H., II (K–J Cong. III.K); White, F. Clifton (Opp. III.F); White, Theodore H. (Opp. III.J, 1968 III.O)
 - `cal.1961-04-05.opinion` (Apr. 5, XVII apr.yaml): Gallup, Mar. 10–15: under the school bill, more important here, new buildings 38 percent, teachers' salaries 2
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1961-04-05.european-community` (Apr. 5–8, XVII apr.yaml): Macmillan in Washington. The Americans: if Britain joins the Six and accepts the Rome Treaty's political and i
   - ? Washington: Washington, Walter E. (K–J Cong. III.F)
+- `cal.1961-04-07.cuba` (Apr. 7, XVII apr.yaml): *New York Times*, front page: Szulc, from Miami, on anti-Castro units trained to invade Cuba. Cut in New York 
+  - Castro: Castro, Fidel (K–J Adm. III.J); Castro, Raúl (K–J Adm. III.J); Castro, Sal (K–J Cong. III.K)
+- `cal.1961-04-15.cuba` (Apr. 15, XVII apr.yaml): The Bay of Pigs. At dawn eight B-26s of the exile force, from Puerto Cabezas, Nicaragua, strike three airfield
+  - West: West, Ben (K–J Cong. III.K); West, E. Gordon (K–J Cong. III.K)
 - `cal.1961-04-17.court` (Apr. 17, XVII apr.yaml): *Burton v. Wilmington Parking Authority*, [365 U.S. 715](https://tile.loc.gov/storage-services/service/ll/usre
   - Burton: Burton, Phillip (Cong. III.E)
+- `cal.1961-04-17.cuba` (Apr. 17, XVII apr.yaml): Brigade 2506 lands at the Bay of Pigs from 1 a.m., Red Beach and Blue Beach; paratroopers at San Blas, 7:30. C
+  - ? Houston: Houston, Lawrence (K–J Cong. III.K)
 - `cal.1961-04-18.governors-nj` (Apr. 18, XVII apr.yaml): New Jersey primaries for governor. Democratic: Hughes, the county leaders' choice since Feb. 13, 84.2 percent.
   - Walter: Walter, Francis E. (K–J Cong. III.D)
 - `cal.1961-04-19.court` (Apr. 19–20, XVII apr.yaml): *Baker v. Carr* argued.
@@ -3093,6 +3117,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1960-10-20.economy` (Oct. 20, XI oct60.yaml): Gold in London to about $40.60 an ounce, against the Treasury's $35.
 - `cal.1960-10-20.cities-and-housing-boston` (Oct. 20, XI oct60.yaml): Boston. Logue, New Haven's development administrator under Lee since 1954, takes charge of the Boston Redevelo
 - `cal.1960-10-24.cuba` (Oct. 24, XI oct60.yaml): Cuba nationalizes the remaining American-owned businesses.
+- `cal.1960-10-30.cuba` (Oct. 30, XI oct60.yaml): *La Hora*, Guatemala City: Cubans in training at a guarded base near Retalhuleu, built for $1 million, for a l
 - `cal.1960-11-08.governors` (Nov. 8, XII nov60.yaml): Twenty-seven governors elected: Democrats 15, Republicans 12. Each party took six or seven States from the oth
 - `cal.1960-11-08.state-constitutions-ky` (Nov. 8, XII nov60.yaml): Kentucky's voters refuse a convention to revise the constitution of 1891, called for by Combs and approved by 
 - `cal.1960-11-08.legislatures-us` (Nov. 8, XII nov60.yaml): The State legislatures. Republicans gain some 270 lower-house seats and 14 senate seats. They take the lower h
@@ -3100,6 +3125,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1960-11-09.transition-and-staff` (Nov. 9–10, XII nov60.yaml): The President-elect's first appointments, from Hyannis Port: Allen Dulles kept at the CIA and Hoover at the FB
 - `cal.1960-11-14.transition-and-staff` (Nov. 14, XII nov60.yaml): Kennedy flies from Palm Beach to see Nixon at Key Biscayne, Fla.; they talk alone. In Washington, Clifford and
 - `cal.1960-11-19.economy` (Nov. 19–22, XII nov60.yaml): Anderson and Dillon to Bonn. They ask Adenauer, Nov. 21–22, to bear part of the $600 million a year in gold th
+- `cal.1960-11-19.cuba` (Nov. 19, XII nov60.yaml): *The Nation*, editorial: "Are We Training Cuban Guerrillas?"
 - `cal.1960-11-27.congo` (Nov. 27, XII nov60.yaml): Lumumba slips out of his residence in Leopoldville, under UN guard, at night, for Stanleyville.
 - `cal.1960-12-01.transition-and-staff` (Dec. 1, XIII dec60.yaml): The cabinet named, the first of it. Kennedy names Ribicoff to HEW; Williams to African affairs.
 - `cal.1960-12-03.transition-and-staff-cabinet` (Dec. 3, XIII dec60.yaml): Hodges to Commerce. Check the date.
@@ -3115,6 +3141,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1960-12-22.congress` (Dec. 22, XIII dec60.yaml): Kennedy resigns his Senate seat.
 - `cal.1961-01-05.economy` (Jan. 5, XIV jan.yaml): Samuelson's task force reports to the President-elect: a recession under way and a weak recovery ahead. Spend 
 - `cal.1961-01-09.desegregation-schools-uga` (Jan. 9, XIV jan.yaml): Hunter and Holmes register at the University of Georgia.
+- `cal.1961-01-10.cuba` (Jan. 10, XIV jan.yaml): *New York Times*, front page, Paul Kennedy: "U.S. Helps Train an Anti-Castro Force at Secret Guatemalan Air-Gr
 - `cal.1961-01-11.desegregation-schools-uga` (Jan. 11, XIV jan.yaml): A riot at Hunter's dormitory at night. Both students suspended and driven to Atlanta.
 - `cal.1961-01-13.desegregation-schools-uga` (Jan. 13–16, XIV jan.yaml): Bootle orders Hunter and Holmes readmitted. In class again Jan. 16.
 - `cal.1961-01-16.welfare-la` (Jan. 16, XIV jan.yaml): Flemming, Secretary of Health, Education, and Welfare, rules that a State may not deny Aid to Dependent Childr
@@ -3127,10 +3154,12 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1961-02-26.africa` (Feb. 26, XV feb.yaml): Mohamed V dies; Hassan II King of Morocco.
 - `cal.1961-03.right-and-the-military` (Mar., XVI mar.yaml): The John Birch Society reaches the national press: the *Los Angeles Times* series and the newsmagazines. Check
 - `cal.1961-03-17.economy` (Mar. 17, XVI mar.yaml): Heller to the President: even if the whole program passes, output at year's end will be some $40 billion below
+- `cal.1961-03-30.cuba` (Mar. 30, XVI mar.yaml): Fulbright, flying to Palm Beach with Kennedy, gives him a memorandum against the invasion.
 - `cal.1961-04-03.states-and-cities` (Apr. 3, XVII apr.yaml): Michigan voters approve a constitutional convention. Romney leads Citizens for Michigan.
 - `cal.1961-04-04.states-and-cities` (Apr. 4, XVII apr.yaml): Texas special election for Johnson's seat. Seventy-one candidates; Tower first, Blakley second. Runoff set.
 - `cal.1961-04-04.mayors-los-angeles` (Apr. 4, XVII apr.yaml): Los Angeles, nonpartisan primary for mayor: Poulson, mayor since 1953, 39.7 percent; Yorty, once a U.S. Repres
 - `cal.1961-04-06.opinion` (Apr. 6–11, XVII apr.yaml): Approval 78 percent, disapproval 6, in the series today; not released at the time. In the field the week befor
+- `cal.1961-04-07.cuba` (Apr. 7, XVII apr.yaml): *New York Times*, front page: Szulc, from Miami, on anti-Castro units trained to invade Cuba. Cut in New York 
 - `cal.1961-04-18.specials` (Apr. 18, XVII apr.yaml): Arkansas 6th, special. Catherine Dorris Norrell to her husband's seat, 43.1 percent of five Democrats. No swin
 - `cal.1961-04-27.europe-and-the-alliance-jupiters` (Apr. 27–28, XVII apr.yaml): Rusk raises cancellation of the Jupiters with the Turkish Foreign Minister at CENTO's council in Ankara: "stro
 - `cal.1961-04-28.opinion` (Apr. 28–May 3, XVII apr.yaml): After the Bay of Pigs: 83 percent approve, the high of the presidency; 61 percent approve his handling of Cuba

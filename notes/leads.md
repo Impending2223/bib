@@ -457,6 +457,38 @@ document was found. Each under the entry it concerns; `./bib find -t check -l ca
   and Dobrynin (Dobrynin, *In Confidence* 186–87); Kissinger's NSC plan approved at Key Biscayne; Richardson's paper;
   Peru's seizure of IPC; the second wave in Saigon (May 25); Pegasus reaching Khe Sanh: the days.
 
+### Gibbons, *The U.S. Government and the Vietnam War* (Oct. 21, 2026)
+
+Events Gibbons treats that the calendar lacks, not entered: no record reached and linked. His page, then his source.
+
+- 1961: Mansfield's memoranda on neutralizing Laos, Jan. 21 and 23 (II, 10; Kennedy Library); Kennedy and Johnson with
+  the congressional leaders on Laos, Apr. 27 (II, 29); Fulbright on *Meet the Press*, Apr. 30, and after seeing
+  Kennedy, May 4 (II, 30; the *Times*, May 5–6); Johnson's report to the Senate, May 25 (II, 46); Fulbright's
+  "dangerous doctrine" speech, June 29 (II, 47; Cong. Rec.); Mansfield's lost memorandum of Sept. 20 (II, 85).
+- 1962: Mansfield's Senate reply to the critics, Feb. 15; Kennedy and the leaders on Laos, Feb. 21 (II, 109, 113);
+  Mansfield's speech of June 3 (II, 127: the place).
+- 1963: Foreign Relations in executive session with McNamara and Taylor, Rusk, McCone, Oct. 8–10 (II, 192–193; the
+  committee's transcripts; Dutton to Rusk, FRUS 1961–63, IV, doc. 190); the Zablocki mission's report (II, 194; H.
+  Rept. 88-893); the committee's substitute for the Church resolution, Oct. 22 (II, 194–195; S. Rept. 88-588; enacted in
+  the Foreign Assistance Act, `cal.1963-12-16.foreign-aid`): the report not reached online.
+- 1964: Zablocki's House reply to Mansfield, Feb. 20 (II, 220: the Record's page); McNamara and Taylor with Foreign
+  Relations, unrecorded, Mar. 26 (II, 241); William Bundy's closed testimony and Morse's speech, May 13 (II, 249–250);
+  Broomfield's resolution and Johnson with Dirksen and eight Republicans, May 21 (II, 264–265); the Capitol briefing of
+  25 Senators, Aug. 3 (II, 287); the meeting in Mansfield's office on the resolution, Aug. 5 (II, 304–305); Taylor
+  before Foreign Relations, Sept. 10 and Dec. 3 (II, 312; III, 23); NSAM 308, June 22 (II, 274).
+- 1965: Rusk before Foreign Relations, Jan. 8 and 15 (II, 399–400; III, 38–39); the Senate debate continued, Feb. 23,
+  Mar. 1 and 4, and 27 Representatives' speeches, Feb. 24 (III, 133–139; Cong. Rec. 111, 3346, 3775 ff.); Javits's
+  resolution, Mar. 25 (III, 209; Cong. Rec. 111, 5480); Rusk before Foreign Relations, no new authorization, Apr. 30
+  (III, 239–240); Laird on the leaders' meeting of May 3 (III, 244); Laird's statement, June 14 (III, 305); Morse's
+  memoranda to Johnson on the UN, June 26–29, and his speech of July 1 (III, 311–314); Lodge before Foreign Relations,
+  July 27 (III, 422). The committee's transcripts: its Executive Sessions (Historical Series), where printed.
+- `cal.1965-02-18.vietnam`: the Record's pages (Gibbons prints 2146 ff., not possible after 2869 on Feb. 17).
+  `cal.1965-01-15.vietnam`: Gibbons prints vol. 110 for McGovern's speech.
+- Part I (1945–60, for 1960) and Part IV (July 1965–Jan. 1968): no open copy found (archive.org has the Princeton
+  edition for lending only; HathiTrust's pages are bot-checked). The Part IV citations in the calendar
+  (`w.gibbons-u-s-government-and-1995`, 29 of them) want their pages; `cal.1966-02-04.vietnam` cites Part IV by the set's card
+  ("IV, 222–230"), the others by the Part IV card.
+
 ## The Executive roster
 
 - NSCID No. 1: the texts of 1958, 1964 and 1972 not found (`usib.yaml`). Lay shown as the Board's Executive Secretary only for Mar. 1964, in a note.
