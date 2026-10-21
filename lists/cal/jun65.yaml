@@ -100,12 +100,12 @@ entries:
     c: 'Gallup, May 13–18: the most important problem: Vietnam 23 percent; civil rights 23; threat of war 16; prestige abroad 9; world communism 9; the Dominican Republic 4; cost of living 4.'
     n: '[[w.gallup-poll]], III, 1944.'
   - id: cal.1965-06-12.vietnam
-    when: June 12–19
+    when: June 12
     date: '1965-06-12'
-    thread: vietnam
-    c: 'Saigon. Quát, deadlocked with Chief of State Sửu, hands power back to the generals, June 12. A National Leadership Council of ten generals, Thiệu chairman and chief of state. June 19, Kỳ prime minister. Taylor to Johnson, June 17: "disturbed by the selection of General Ky."'
-    n: '[FRUS 1964–68, II, doc. 349](https://history.state.gov/historicaldocuments/frus1964-68v02/d349); FRUS 1964–68, III, docs. [2](https://history.state.gov/historicaldocuments/frus1964-68v03/d2), [5](https://history.state.gov/historicaldocuments/frus1964-68v03/d5). [[w.kahin-intervention]]; [[w.ky-twenty-years-and-twenty]]. See [[cal.1964-10-24.vietnam]]. Names: Phan Huy Quát, Phan Khắc Sửu, Nguyễn Văn Thiệu, Nguyễn Cao Kỳ, Taylor, Johnson.'
-    tags: [name:johnson-lyndon-b, name:phan-huy-quat, name:phan-khac-suu, name:nguyen-van-thieu, name:nguyen-cao-ky, name:taylor-maxwell]
+    thread: vietnam-saigon
+    c: Saigon. Quát, deadlocked with Chief of State Sửu, hands power back to the generals.
+    n: '[FRUS 1964–68, II, doc. 349](https://history.state.gov/historicaldocuments/frus1964-68v02/d349) (June 11); [FRUS 1964–68, III, doc. 2](https://history.state.gov/historicaldocuments/frus1964-68v03/d2) (June 13). [[w.kahin-intervention]]; [[w.ky-twenty-years-and-twenty]]. See [[cal.1964-10-24.vietnam]]. Names: Phan Huy Quát, Phan Khắc Sửu.'
+    tags: [name:phan-huy-quat, name:phan-khac-suu]
   - id: cal.1965-06-13.opinion
     when: June 13
     date: '1965-06-13'
@@ -114,11 +114,11 @@ entries:
     c: 'Gallup, May 13–18: a worker in a unionized plant required to join the union: should 43 percent, should not 49; union members 66 and 30. Approve of labor unions, 70. Unions have too much power: agree 57; big business has: agree 54.'
     n: '[[w.gallup-poll]], III, 1944.'
   - id: cal.1965-06-15.latin-america
-    when: June 15–18
+    when: June 15–16
     date: '1965-06-15'
-    thread: latin-america
-    c: 'Santo Domingo. June 15–16, Caamaño''s forces attack the Inter-American force''s lines; the 82d Airborne pushes into the rebel zone. Check the losses. June 18, the OAS Ad Hoc Committee proposes elections in six to nine months, a provisional government meanwhile, a general amnesty, and arms surrendered to the OAS. Caamaño''s answer, June 23: the force out within a month of the provisional government.'
-    n: 'FRUS 1964–68, XXXII, docs. [109](https://history.state.gov/historicaldocuments/frus1964-68v32/d109), [111](https://history.state.gov/historicaldocuments/frus1964-68v32/d111). See [[cal.1965-06-01.latin-america]]. Names: Caamaño-Deno.'
+    thread: latin-america-dominican-republic
+    c: Santo Domingo. Caamaño's forces attack the Inter-American force's lines; the 82d Airborne pushes into the rebel zone. Check the losses.
+    n: '[FRUS 1964–68, XXXII, doc. 109](https://history.state.gov/historicaldocuments/frus1964-68v32/d109) (editorial note). See [[cal.1965-06-01.latin-america]]. Names: Caamaño-Deno.'
     tags: [name:caamano-deno-francisco]
   - id: cal.1965-06-15.specials
     when: June 15
@@ -168,6 +168,12 @@ entries:
     thread: vietnam
     c: 'First B-52 strike (Arc Light): 27 bombers from Guam on a Viet Cong base area north of Saigon, near Bến Cát. Two collide over the Pacific on the way. Check.'
     n: FRUS 1964–68, III, docs. [14](https://history.state.gov/historicaldocuments/frus1964-68v03/d14), [40](https://history.state.gov/historicaldocuments/frus1964-68v03/d40). [[w.schlight-united-states-air-force]]. See [[cal.1965-03-02.vietnam]].
+  - id: cal.1965-06-18.latin-america
+    when: June 18
+    date: '1965-06-18'
+    thread: latin-america-dominican-republic
+    c: The OAS Ad Hoc Committee proposes for the Dominican Republic elections in six to nine months, a provisional government meanwhile, a general amnesty, and arms surrendered to the OAS.
+    n: 'Check: the proposal. See [[cal.1965-06-15.latin-america]].'
   - id: cal.1965-06-19.africa
     when: June 19
     date: '1965-06-19'
@@ -175,6 +181,13 @@ entries:
     c: 'Algiers. The army, under Boumediene, Defense Minister, deposes Ben Bella before dawn. The CIA: no abrupt change in policy to be expected; the new government says Algeria will keep its commitments.'
     n: 'FRUS 1964–68, XXIV, doc. [21](https://history.state.gov/historicaldocuments/frus1964-68v24/d21). [[w.byrne-mecca-of-revolution]]. See [[cal.1963-10-08.africa]]. Names: Boumediene, Ben Bella.'
     tags: [name:boumediene-houari, name:ben-bella-ahmed]
+  - id: cal.1965-06-19.vietnam
+    when: June 19
+    date: '1965-06-19'
+    thread: vietnam-saigon
+    c: 'Saigon. Kỳ prime minister; a National Leadership Council of ten generals, Thiệu chairman and chief of state. Taylor to Johnson, June 17: "disturbed by the selection of General Ky."'
+    n: '[FRUS 1964–68, III, doc. 5](https://history.state.gov/historicaldocuments/frus1964-68v03/d5) (June 17). Check: the day of the Council''s formation. See [[cal.1965-06-12.vietnam]]. Names: Nguyễn Cao Kỳ, Nguyễn Văn Thiệu, Taylor, Johnson.'
+    tags: [name:nguyen-cao-ky, name:nguyen-van-thieu, name:taylor-maxwell, name:johnson-lyndon-b]
   - id: cal.1965-06-21.economy
     when: June 21
     date: '1965-06-21'
@@ -203,6 +216,13 @@ entries:
     c: Albany, N.Y. The Assembly passes Wagner's fiscal bills for the city's budget of 1965–66, among them leave to borrow against future revenue to meet current expenses. Check the measures and the sums.
     n: '[*New York Times*, June 23, 1965](https://www.nytimes.com/1965/06/23/archives/assembly-passes-city-fiscal-bills-session-near-end-wagner-package.html). [[w.morris-cost-of-good-intentions]]; [[w.shefter-political-crisis-fiscal-crisis]]. Names: Wagner.'
     tags: [state:ny, city:nyc, name:wagner-robert-f-jr]
+  - id: cal.1965-06-23.latin-america
+    when: June 23
+    date: '1965-06-23'
+    thread: latin-america-dominican-republic
+    c: 'Caamaño''s answer to the OAS committee: the inter-American force out within a month of the provisional government.'
+    n: '[FRUS 1964–68, XXXII, doc. 111](https://history.state.gov/historicaldocuments/frus1964-68v32/d111). See [[cal.1965-06-15.latin-america]]. Names: Caamaño-Deno.'
+    tags: [name:caamano-deno-francisco]
   - id: cal.1965-06-24.mayors-nyc
     when: June 24
     date: '1965-06-24'
@@ -278,9 +298,9 @@ entries:
     n: 'Missouri State Archives, [Commission on Human Rights records, RG 328.01](https://www.sos.mo.gov/CMSImages/Archives/findingaids/RG328.01.pdf), chronology (Check: the day of signing, and the act''s coverage). See [[cal.1961-08-01.jobs-and-wages-mo]]. Names: Hearnes.'
     tags: [state:mo, name:hearnes-warren-e]
   - id: cal.1965-06-30.european-community
-    when: June 30–Sept. 9
+    when: June 30
     date: '1965-06-30'
     thread: european-community
-    c: 'Brussels. The Council of the Six reaches midnight, its deadline, with no agreement on financing the farm policy; Couve de Murville, presiding, closes the session. France stays away from the Council: the empty chair. The Commission had proposed, Mar. 31, the levies to the Community and more power for its Parliament. Ball to Luns, July 12: an affair for the Six. Sept. 9, de Gaulle''s press conference: against the Commission and majority voting.'
-    n: 'FRUS 1964–68, XIII, docs. [93](https://history.state.gov/historicaldocuments/frus1964-68v13/d93) (Ball and the Italian ambassador, July 6), [98](https://history.state.gov/historicaldocuments/frus1964-68v13/d98) (circular, July 15). [[w.newhouse-collision-in-brussels]]; [[w.moravcsik-choice-for-europe]]; [[w.vaisse-la-grandeur]]; [[w.schwartz-lyndon-johnson-and-europe]]; [[w.ludlow-european-community-and-the]]. See [[cal.1964-12-15.european-community]]. Names: Couve de Murville, de Gaulle, Ball.'
-    tags: [name:couve-de-murville-maurice, name:de-gaulle-charles, name:ball-george-w]
+    c: 'Brussels. The Council of the Six reaches midnight, its deadline, with no agreement on financing the farm policy; Couve de Murville, presiding, closes the session. France stays away from the Council: the empty chair. The Commission had proposed, Mar. 31, the levies to the Community and more power for its Parliament.'
+    n: 'Check: the record. [[w.newhouse-collision-in-brussels]]; [[w.moravcsik-choice-for-europe]]; [[w.vaisse-la-grandeur]]; [[w.schwartz-lyndon-johnson-and-europe]]; [[w.ludlow-european-community-and-the]]. See [[cal.1964-12-15.european-community]]. Names: Couve de Murville.'
+    tags: [name:couve-de-murville-maurice]
