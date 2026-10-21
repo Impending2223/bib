@@ -7,6 +7,10 @@
 
 A calendar entry tagged congress:<NN> carries that Congress's block, in cal.html
 and in the compiled reader; build/congress.html carries all of them.
+
+The maps' switch at an opening: Party (the default), Result and Margin, the last two of the race that seated each
+member (seatlinks.seat_figures; gray where he was not elected to the seat); each map's types, the map, the dots and
+the Chamber (elections.py, STYLE 12).
 """
 import json
 import os
@@ -299,7 +303,7 @@ def change_note(x, sp=None, here=False):
 def block(c, data, geo, ptr, href, rid, here=False):
     """One Congress: bars, two maps, two rosters. rid(c, chamber, st, seat) -> a row id."""
     house, senate = data["house"], data["senate"]
-    out = [f'<div class="cg" data-cg="{c}">']
+    out = [f'<div class="cg el op" data-cg="{c}">']
     out.append(f'<p class="cgh">{ordinal(c)} Congress at its opening, {esc(fmt_date(data["opened"]))}</p>')
     out.append(bar("House", house, False))
     out.append(bar("Senate", senate, True))
@@ -311,6 +315,9 @@ def block(c, data, geo, ptr, href, rid, here=False):
              "n": lab.get(id(r), "Vacant"), "id": rid(c, ch, r["st"], seat)}
         if caucused(r):
             x["pl"] = third_name(r)
+        if not r.get("vacant"):                   # the race that seated him, for the Result and Margin views
+            from . import seatlinks
+            x.update(seatlinks.seat_figures(str(data["opened"]), ch, r["st"], seat, r["name"]))
         return x
     for r in house:
         seats["h"][r["st"]].append(rec(r, "h", r["d"]))
@@ -321,11 +328,19 @@ def block(c, data, geo, ptr, href, rid, here=False):
                '<figure class="cgmap dots" data-chamber="h"><figcaption>House, by delegation</figcaption>'
                '<div class="cgv" style="aspect-ratio:1085/660"></div></figure>'
                '<figure class="cgmap" data-chamber="s"><figcaption>Senate, by state</figcaption>'
-               '<div class="cgv" style="aspect-ratio:960/660"></div></figure></div>')
-    out.append('<p class="cgkey"><span class="sw pD"></span>Democratic <span class="sw pR"></span>Republican '
+               '<div class="cgv" style="aspect-ratio:960/660"></div></figure></div><span data-views="n r s"></span>')
+    from .elections import margin_scale
+    sw = lambda k: f'<span class="sw e{k}"></span>'
+    gray = f'{sw("N")}Not elected to the seat (appointed), or a race without figures. '
+    out.append('<p class="cgkey elkey"><span class="lk lk-n"><span class="sw pD"></span>Democratic <span class="sw pR"></span>Republican '
                '<span class="sw pDi"></span>Caucusing with the Democrats <span class="sw pRi"></span>Caucusing with the Republicans '
-               '<span class="sw pO"></span>Other <span class="sw pV"></span>Vacant <span class="sw pX"></span>Split delegation. '
-               'Dots: at-large seats beside districts. Zoom with the buttons, a double-click, a pinch, or Ctrl-scroll; drag to pan. Click a district for its representatives, a state for its senators. Delegations, under the House map: a dot a seat, a block a State; hover a dot for its district, click a dot to open it; then click a district to select it, double-click to go there; double-click white space to come back.</p>')
+               '<span class="sw pO"></span>Other <span class="sw pV"></span>Vacant <span class="sw pX"></span>Split delegation. </span>'
+               f'<span class="lk lk-r">The race that seated each member: {sw("B2")}Democratic held {sw("B4")}Democratic pickup '
+               f'{sw("R2")}Republican held {sw("R4")}Republican pickup <span class="sw pDi"></span><span class="sw pRi"></span>'
+               f'Independent or third party, by the party caucused with {gray}</span>'
+               '<span class="lk lk-s">The race that seated each member, the winner\'s margin over the runner-up, points of all '
+               f'the votes: {margin_scale()} {gray}</span>'
+               'Dots: at-large seats beside districts. Zoom with the buttons, a double-click, a pinch, or Ctrl-scroll; drag to pan. Click a district for its representatives, a state for its senators. Delegations, under the House map: a dot a seat, a block a State; hover a dot for its district, click a dot to open it; then click a district to select it, double-click to go there; double-click white space to come back. Chamber: a dot a seat in a half-circle, the Democrats and those caucusing with them on the left, the Republicans and theirs on the right, by the margin of the race that seated each, the narrowest in the middle; those not elected to the seat at the ends.</p>')
     later = defaultdict(list)
     for x in changes().get(c, []) or []:
         later[(x["ch"], x["st"], x["seat"])].append(x)

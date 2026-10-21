@@ -100,7 +100,7 @@ def run(series, only=None):
                     elif tid is not None:
                         hit = series.get(tid)
                         te = hit[2] if hit else None
-                        if not te or slug not in [te.get("thread")] + te.get("also", []):
+                        if not te or slug not in [s for x in [te.get("thread")] + te.get("also", []) for s in lst.thread_line(x)]:
                             add(ERROR, eid, f"to: {tid} is not an entry of thread {slug!r}")
                         elif str(te.get("date", "")) <= str(e.get("date", "")):
                             add(ERROR, eid, f"to: {tid} is not after this entry")
@@ -124,11 +124,24 @@ def run(series, only=None):
                 if "thread" in e and e["thread"] not in first:
                     first[e["thread"]] = e
             for t, e in first.items():
+                if lst.thread_parent(t):          # a subthread's first entry may point back to its parent's event
+                    continue
                 if (e.get("n") or "").startswith("See "):
                     add(WARN, e["id"], f"first entry of thread {t!r} only points elsewhere; it should carry the bibliography", "thread-first")
-            members = {t for sec, e in lst.entries() if "thread" in e for t in [e["thread"]] + e.get("also", [])}
+            members = {s for sec, e in lst.entries() if "thread" in e for t in [e["thread"]] + e.get("also", [])
+                       for s in lst.thread_line(t)}
+            for t, te in threads.items():           # an old name (`see:`) points to a thread, and no entry takes it
+                if te.get("see"):
+                    if te["see"] not in threads or threads[te["see"]].get("see"):
+                        add(ERROR, f"{lst.key}.thread.{t}", f"see: {te['see']!r} is not a thread")
+                    if t in members:
+                        add(ERROR, f"{lst.key}.thread.{t}", "an old name (see:) is taken as a thread by an entry")
+            for t, te in threads.items():           # a subthread names a thread that exists, and not itself
+                par = te.get("parent")
+                if par and (par not in threads or t in lst.thread_line(par)):
+                    add(ERROR, f"{lst.key}.thread.{t}", f"parent {par!r} is not a thread (or comes round to itself)")
             for t in threads:
-                if t not in members:
+                if t not in members and not threads[t].get("see"):
                     add(WARN, f"{lst.key}.thread.{t}", "thread has no entries", "thread-empty")
 
     # section references that point nowhere, and works cited under the wrong section
@@ -214,6 +227,10 @@ def run(series, only=None):
     from . import legislatures
     for where, msg in legislatures.problems(series):
         add(ERROR, where, msg, "legislatures")
+    # the calendar's places in Indochina (place: and province: tags; sources/vn-provinces-1966)
+    from . import vnmap
+    for where, msg in vnmap.problems(series):
+        add(ERROR, where, msg, "places")
     # races settled by hand for the lives (sources/race-matches.yaml)
     from . import lives
     for where, msg in lives.problems(series):
@@ -242,8 +259,9 @@ def run(series, only=None):
     for lst in series.lists.values():
         if lst.kind != "calendar":
             continue
-        names = [t.get("s", "") for t in lst.threads().values()]
-        keys = [THREAD_SORT_AS.get(n, n).lower() for n in names]
+        from .build import thread_name
+        names = [thread_name(lst, s) for s in lst.threads()]
+        keys = [thread_sort_key(n) for n in names]
         if keys != sorted(keys):
             bad = next(n for n, k, w in zip(names, keys, sorted(keys)) if k != w)
             add(WARN, f"lists/{lst.key}/th.yaml", f"threads out of alphabetical order at {bad!r}", "thread-order")
@@ -258,6 +276,12 @@ def run(series, only=None):
 
 
 THREAD_SORT_AS = {"War on poverty": "poverty", "Bobby Baker": "Baker", "Robert Kennedy": "Kennedy"}
+
+
+def thread_sort_key(name):
+    """A thread's sort key; a subthread ("Robert Kennedy: Around the world") sorts under its parent's."""
+    head, sep, rest = name.partition(": ")
+    return (THREAD_SORT_AS.get(name) or THREAD_SORT_AS.get(head, head) + sep + rest).lower()
 
 HAND = ["lists/**/*.yaml", "executive/*.yaml", "daybook/abstracts.yaml", "elections/facts.yaml",
         "elections/pres-primaries.yaml", "elections/renominations.yaml", "elections/primaries.yaml", "elections/cq.yaml",

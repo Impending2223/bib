@@ -304,6 +304,24 @@ class List:
         th = self.section(self.data.get("threads_section", "")) if self.kind == "calendar" else None
         return {e["id"].split(".", 2)[2]: e for e in th.entries} if th else {}
 
+    def thread_parent(self, slug):
+        """A subthread's parent slug (`parent:` on its th.yaml entry), else None."""
+        e = self.threads().get(slug)
+        return e.get("parent") if e else None
+
+    def thread_line(self, slug):
+        """The slug and its ancestors, nearest first: a subthread's entries belong to its parent's thread too."""
+        out = []
+        while slug and slug not in out:
+            out.append(slug)
+            slug = self.thread_parent(slug)
+        return out
+
+    def is_ghost(self, slug):
+        """A ghost: a subthread without a statement of its own; named in rubrics and Continuing lines, not in the index."""
+        e = self.threads().get(slug)
+        return bool(e and e.get("parent") and not e.get("c"))
+
 
 class Series:
     def __init__(self, root=ROOT):

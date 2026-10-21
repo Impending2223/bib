@@ -11,12 +11,18 @@ entries:
     c: 'Gallup, Apr. 4–9: the administration''s handling of Cuba in recent weeks, 49 percent satisfied, 29 dissatisfied.'
     n: '[[w.gallup-poll]], III, 1816.'
   - id: cal.1963-05-02.alabama
-    when: May 2–7
+    when: May 2
     date: '1963-05-02'
-    thread: alabama
-    c: 'Birmingham. The children''s march: hundreds of schoolchildren arrested, May 2. May 3: Connor turns fire hoses and police dogs on them in Kelly Ingram Park. By May 7 the jails full; Wallace sends state troopers.'
-    n: '[The President''s News Conference](https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-164) (May 8, 1963). [[w.mcwhorter-carry-me-home]]; [[w.eskew-but-for-birmingham]]; [[w.branch-parting-the-waters]]. See [[cal.1963-04-03.alabama]]. Names: Connor, Wallace.'
-    tags: [name:connor-eugene, name:wallace-george-c]
+    thread: alabama-birmingham
+    c: 'Birmingham. The children''s march: hundreds of schoolchildren arrested.'
+    n: '[The President''s News Conference](https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-164) (May 8, 1963). [[w.mcwhorter-carry-me-home]]; [[w.eskew-but-for-birmingham]]; [[w.branch-parting-the-waters]]. See [[cal.1963-04-03.alabama]].'
+  - id: cal.1963-05-03.alabama-birmingham
+    when: May 3
+    date: '1963-05-03'
+    thread: alabama-birmingham
+    c: Birmingham. Connor turns fire hoses and police dogs on the marching children in Kelly Ingram Park.
+    n: 'Check: the record. See [[cal.1963-05-02.alabama]]. Names: Connor.'
+    tags: [name:connor-eugene]
   - id: cal.1963-05-04.elections-1964
     when: May 4
     date: '1963-05-04'
@@ -39,13 +45,20 @@ entries:
     c: Baltimore. McKeldin (R) elected mayor over Goodman (D), 108,427 to 103,761, 51.1 percent.
     n: '[Wikipedia, "1963 Baltimore mayoral election"](https://en.wikipedia.org/wiki/1963_Baltimore_mayoral_election); check against the Board of Supervisors of Elections. See [[cal.1963-03-05.mayors-baltimore]]. Names: McKeldin, Goodman.'
     tags: [state:md, city:baltimore, name:mckeldin-theodore-r, name:goodman-philip-h]
+  - id: cal.1963-05-07.alabama-birmingham
+    when: May 7
+    date: '1963-05-07'
+    thread: alabama-birmingham
+    c: Birmingham. The jails full; Wallace sends state troopers.
+    n: 'Check: the record. See [[cal.1963-05-02.alabama]]. Names: Wallace.'
+    tags: [name:wallace-george-c]
   - id: cal.1963-05-08.vietnam
     when: May 8
     date: '1963-05-08'
     thread: vietnam
     c: Huế, the Buddha's birthday. Buddhist flags banned; a crowd at the radio station for Trí Quang's address, refused. Troops and armored cars fire; eight killed by the consul's first count. The government blames the Viet Cong.
     n: 'FRUS 1961–63, III, docs. [112](https://history.state.gov/historicaldocuments/frus1961-63v03/d112), [117](https://history.state.gov/historicaldocuments/frus1961-63v03/d117), [118](https://history.state.gov/historicaldocuments/frus1961-63v03/d118). [Report of the United Nations Fact-Finding Mission to South Viet-Nam](https://digitallibrary.un.org/record/729703), U.N. Doc. A/5630 (Dec. 7, 1963) (Viet. II.I.3). [[w.schecter-new-face-of-buddha]]; [[w.luu-buddhist-crises-in-vietnam]]; [[w.mau-sau-thang-phap-nan]]; [[w.moyar-political-monks]]; [[w.mcallister-only-religions-count-in]]; [[w.miller-religious-revival-and-the]]; [[w.hammer-death-in-november]]; [[w.jacobs-cold-war-mandarin]]; [[w.moyar-triumph-forsaken]]; [[w.miller-misalliance]]; [[w.winters-year-of-the-hare]]; [[w.jones-death-of-a-generation]]; [[w.shaw-lost-mandate-of-heaven-2015]]; [[w.cung-phong-trao-phat-giao]]; [[w.luan-ben-giong-lich-su]]; [[w.gheddo-cross-and-the-bo]]; [[w.tue-cong-cuoc-tranh-dau]]; [[w.minh-vietnamese-engaged-buddhism]]; [[w.ford-cold-war-monks]]; [[w.hanh-vietnam]]; [[w.halberstam-making-of-a-quagmire]]; [[w.browne-new-face-of-war]]; [[w.higgins-our-vietnam-nightmare-1965]]; [[w.prochnau-once-upon-a-distant]]; [[w.blair-lodge-in-vietnam]]. Names: Thích Trí Quang, Helble.'
-    tags: [name:thich-tri-quang, name:helble-john-j]
+    tags: [name:thich-tri-quang, name:helble-john-j, place:hue]
   - id: cal.1963-05-08.testing
     when: May 8
     date: '1963-05-08'
@@ -63,7 +76,7 @@ entries:
   - id: cal.1963-05-10.alabama
     when: May 10
     date: '1963-05-10'
-    thread: alabama
+    thread: alabama-birmingham
     also: [desegregation-public-places, king]
     c: 'Shuttlesworth and King announce the Birmingham settlement, Marshall mediating: lunch counters, rest rooms, fitting rooms, and fountains desegregated within ninety days; Negroes hired as clerks; the jailed released. Connor and the old commission reject it.'
     n: '[The President''s News Conference](https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-164) (May 8, 1963). [[w.navasky-kennedy-justice]]; [[w.eskew-but-for-birmingham]]; [[w.young-easy-burden]]. See [[cal.1963-04-03.alabama]]. Names: Shuttlesworth, Martin Luther King, Marshall, Connor.'
@@ -78,7 +91,7 @@ entries:
   - id: cal.1963-05-11.alabama
     when: May 11–13
     date: '1963-05-11'
-    thread: alabama
+    thread: alabama-birmingham
     also: [robert-kennedy]
     c: 'Bombs at the house of King''s brother and at the Gaston Motel, the night of the 11th. Rioting till morning. May 12, on television: troops trained in riot control to bases near Birmingham; the Alabama Guard readied for federal service. May 13: telegram to Wallace, 10 U.S.C. § 333.'
     n: '[Kennedy, Robert Kennedy, Katzenbach, Marshall, McNamara and others, May 12](https://prde.upress.virginia.edu/conversations/4006291), JFK Meeting Tape 86.2 (PRDE only). [Radio and Television Remarks Following Renewal of Racial Strife in Birmingham](https://www.presidency.ucsb.edu/documents/radio-and-television-remarks-following-renewal-racial-strife-birmingham) (May 12, 1963). [Telegram to Governor Wallace of Alabama](https://www.presidency.ucsb.edu/documents/telegram-governor-wallace-alabama) (May 13, 1963). *Alabama v. United States*, [373 U.S. 545](https://tile.loc.gov/storage-services/service/ll/usrep/usrep373/usrep373545/usrep373545.pdf) (1963) (Wallace''s suit against the troops refused, May 27). [[w.rosenberg-kennedy-johnson-and-the]], "Protest in Birmingham". See [[cal.1963-04-03.alabama]]. Names: Wallace, Robert F. Kennedy, McNamara, Katzenbach, Marshall.'
@@ -121,7 +134,7 @@ entries:
   - id: cal.1963-05-18.middle-east
     when: May 18
     date: '1963-05-18'
-    thread: middle-east
+    thread: middle-east-dimona
     c: 'Kennedy to Ben Gurion on Dimona: no more urgent business for the world than the control of nuclear weapons; the United States seeks periodic visits to the reactor. Ben Gurion replies May 27.'
     n: 'FRUS 1961–63, XVIII, docs. [252](https://history.state.gov/historicaldocuments/frus1961-63v18/d252), [289](https://history.state.gov/historicaldocuments/frus1961-63v18/d289). [[w.hersh-samson-option]]; [[w.cohen-israel-and-the-bomb]]; [[w.bass-support-any-friend]]. Made public: FRUS 1961–63, XVIII (1995). See [[cal.1961-05-30.middle-east]]. Names: Ben Gurion.'
     tags: [name:kennedy-john-f, name:ben-gurion-david]
@@ -157,10 +170,10 @@ entries:
   - id: cal.1963-05-23.alabama-birmingham
     when: May 23
     date: '1963-05-23'
-    thread: alabama
+    thread: alabama-birmingham
     also: [mayors, court]
     c: 'The State Supreme Court, Goodwyn writing: Boutwell and the council took office lawfully Apr. 15; the act of 1959 deferring a change of government to Oct. 1 of the next municipal election year does not govern Birmingham. The commissioners ousted; Connor leaves City Hall.'
-    n: '*Connor v. State ex rel. Boutwell*, 275 Ala. 230, [153 So. 2d 787](https://static.case.law/ala/275/html/0230-01.html) (1963). See [[cal.1963-04-02.alabama-birmingham]]; [[cal.1963-05-10.alabama]]. Names: Boutwell, Connor.'
+    n: '*Connor v. State ex rel. Boutwell*, [275 Ala. 230](https://static.case.law/ala/275/case-pdfs/0230-01.pdf), 153 So. 2d 787 (1963). See [[cal.1963-04-02.alabama-birmingham]]; [[cal.1963-05-10.alabama]]. Names: Boutwell, Connor.'
     tags: [state:al, city:birmingham, name:boutwell-albert, name:connor-eugene]
   - id: cal.1963-05-24.civil-rights-the-executive
     when: May 24

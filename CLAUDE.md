@@ -144,6 +144,9 @@ daybook/recordings/millercenter.yaml  the same span's recordings the Miller Cent
 daybook/sunday.yaml       the Sunday interview programs and their guests: Meet the Press, 1945–80; Face the Nation, 1959–70 (generated)
 sources/loc/              the Library of Congress finding aid make_sunday.py reads (Spivak visual materials, pp020019, pp. 1–136)
 executive/<unit>.yaml     the Executive Branch, 1953–74: each department or agency, its offices, their law and holders (kept by hand)
+sources/vn-provinces-1966/  South Vietnam's provinces of late 1966 rebuilt from today's districts, the corps zones, regions,
+                          the countries around, and the gazetteer of places in Indochina (its README; made by tools/vnmap/)
+sources/indochina/        relief, rivers, climate and rain layers for the maps of Indochina (its README)
 build/                    generated pages (git-ignored)
 tools/bib/                the code behind ./bib
 tools/congress/           one-time scripts that made congress/ (see below)
@@ -226,6 +229,23 @@ A `gloss` is for what the entry rests on and does not say: the record behind a n
 calendar's voice, quotations marked and cited, and what each piece of the record is and is not, stated plainly and
 without a side (Jan. 30, 1961: the Address to the Joint Session, its *Style*). Rare.
 
+Spans (the owner's ruling, Oct. 20, 2026): an entry is an event-day. Spans of two or three days are good, under a week
+tolerable; anything longer deserves close scrutiny, and an entry never bundles several events (an announcement and the
+act it announces, hearings and the vote, a note and its reply): each gets its own entry, dated to the day its record
+bears, the first keeping the event's bibliography and the rest pointing back. A day's "Continuing" line names what is
+under way; it should say something. 1961 is the model.
+
+Subthreads: a thread in `th.yaml` may name a `parent:` ("Defense: McNamara to Clifford", `id:
+cal.thread.defense-clifford`, `s: McNamara to Clifford`, `parent: defense`). Its entries are the parent's too (the
+index's dates, the ⟨⟨ ⟩⟩ line, the highlight); the rubric, the ⟨⟨ ⟩⟩ line and the Continuing line give its full name. A
+subthread without a statement (`c`) is a ghost: named where it is under way, and in the thread index by a line under its parent: its
+full name ("Vietnam: Pennsylvania") muted, not underlined, as the A–Z bibliography's ghosts are, then its dates as any
+thread's (its rubric links there; STYLE 9 in `tools/bib/calsplit.py`); give it a `c` to promote it. A renamed thread
+may keep its old name in the index, muted, a link to the thread (`s:` the old name, `see:` the slug; STYLE 10). No thread or subthread name begins with "The"
+(the owner's rule, Oct. 21, 2026: "Jupiters", "Air war"). Use one where a thread holds two or more events at once,
+or where the thread's name does not say what is going on. In `th.yaml`, after its parent (alphabetical by full name).
+`thread_name`, `entry_threads` in `tools/bib/build.py`; `thread_line`, `is_ghost` in `tools/bib/store.py`.
+
 The thread index (Part I of the calendar) is generated from `thread` and
 `also`; never write dates into `th.yaml`. A new thread is a new entry in
 `th.yaml` (`id: cal.thread.<slug>`, `s:` name, `c:` one-line scope).
@@ -274,6 +294,12 @@ shown by short form and linked to the A–Z bibliography (no list or section); w
 a detail to verify. In the calendar the first entry of each event carries its
 bibliography and later ones point back with `See [[id]]`; a thread's first entry is its first event's. Bibliography sections
 are chronological by publication unless their intro says "Alphabetical".
+
+Leads (the owner's standing rule, Oct. 18, 2026): anything recalled but not placed or verified (an event without a
+date, a figure without a source read, a source not reached, an item left out as minor) is written into
+`notes/leads.md` under its heading (States and cities, National, Foreign, the Executive roster), with the entry it
+concerns and where to look; never into the calendar unchecked. A lead leaves the list when it is entered or settled. Every
+drafting brief asks its agents for their leads, and they go into the file when their work is merged.
 
 A run of calendar dates, wherever the series prints one (the thread index, the pointers under each member and holder in
 the Congress and Executive rosters, the Names' "In the series"), is written by year: "Cal. **1961** Jan. 20, May 16.
@@ -449,9 +475,10 @@ yet render it; author, title and year read from it for sorting and search).
   record (the Abrams tapes under Abrams, *The Kissinger Transcripts* under Kissinger), not a study that draws on
   them, nor a film cut from them (a film files as a film: *The Lady Bird Diaries* under Porter); otherwise the short title,
   its leading article and subtitle dropped (edited volumes included), the heading in italics; then the year; then the
-  short title (FILING in `tools/bib/works.py`; `./bib works list` sorts the same way). A work is entered again, a ghost
-  ("Filed under …"), under its other authors, the writer it was written "with", its editors and translators, and any
-  name in `also_under` (Cincinnatus [Cecil B. Currey] under Currey). One person written two ways is one heading: by
+  short title (FILING in `tools/bib/works.py`; `./bib works list` sorts the same way). A work is entered again, a ghost,
+  under its other authors, the writer it was written "with", its editors and translators, and any name in `also_under`
+  (Cincinnatus [Cecil B. Currey] under Currey): its citation in the muted gray, the whole of it a link to the work's own
+  entry, not underlined, and nothing more (no "Filed under"; the owner's ruling, Oct. 20, 2026). One person written two ways is one heading: by
   the marks alone (Andrade, Andradé) under the marked form; otherwise by `SAME` (William Colby, William E. Colby); each
   citation keeps its card's form. An author's works under the name, inverted ("Beschloss, Michael R."; a particle with the surname, "De Palma,
   Brian"; a Vietnamese, Chinese or Japanese name in its own order, as written; `OWN_ORDER`, `RUNNING`, `SURNAME` for
@@ -510,7 +537,14 @@ positions are the ON and OFF tables in `templates/congress.html`. The dots stay 
 zooming until one is clicked: that zooms to its district and shows the districts.
 Then a click selects a district, a double-click goes there, and a double-click on
 white space (water, or land outside the States) goes back. Map labels use
-the two-letter postal codes. The bars split the Democrats, non-Southern then Southern:
+the two-letter postal codes. Each map has three types, in the toggle under it: the map (Districts, States), the dots
+(Delegations, Senators) and the Chamber (the owner's request, Oct. 20, 2026): a semicircle, a dot a seat, the
+Democrats and those caucusing with them on the left, the Republicans and theirs on the right, each side from its end
+to the middle by the margin of the race that seated each member, the narrowest in the middle, those not elected to
+the seat (appointed) at the ends, filled in a snake (STYLE 12 in `tools/bib/elections.py`; `hemi`, `chamberOrder`
+in the template). One switch above the maps colors all three: Party (the default), Result (held or picked up) and
+Margin, the last two of the race that seated each (`seat_figures` in `tools/bib/seatlinks.py`), gray where he was not
+elected to the seat or the race has no figures. The bars split the Democrats, non-Southern then Southern:
 the eleven Southern States, the thirteen represented in the Confederate States
 Congress less Missouri and Kentucky.
 
@@ -940,8 +974,8 @@ race, and in presidential years the vote for President by State with the elector
 1974 before the Congress it chose (the 86th and 94th have no rosters); a calendar entry tagged
 `election:<year>` carries its block too (now every November election, 1960–68). A block: the electoral and popular vote
 first, then by chamber the seats won, the net change from the close of the last Congress, pickups,
-and new members; one view switch for every map (Result; Margin, the winner's lead over the runner-up in points of all the votes, by the quantile rule; Swing, continuous); the
-President's map above the House and Senate, with a States | Electors switch (Electors: a dot an elector, as voted); the Senate map with a Senators toggle (a dot a seat, larger than the House's: `PB`, `RB`); and every race in tables (the candidate first, in bold where he won, his party under or after him; under 520px the share
+and new members; one view switch for every map (Result; Party, the parties' flat colors; Margin, the winner's lead over the runner-up in points of all the votes, by the quantile rule; Swing, continuous); the
+President's map above the House and Senate, with a States | Electors | Chamber switch (Electors: a dot an elector, as voted); the Senate map with a Senators toggle (a dot a seat, larger than the House's: `PB`, `RB`); a Chamber under every map but the specials' (a semicircle, a dot a seat or an elector as cast; the Democrats and their allies left, the Republicans and theirs right, a third ticket between; each side from its end in by margin, the narrowest in the middle, the Senate's seats not at stake gray at the ends; filled in a snake whose midpoint is the middle dot on the center line; a faithless or unpledged elector by his vote, in its color; its Result held and picked up, the President's too: STYLE 12 in `tools/bib/elections.py`); and every race in tables (the candidate first, in bold where he won, his party under or after him; under 520px the share
 under the count and the note on a line of its own):
 candidates with party, votes and share, the margin in votes and in points of all the votes cast, and
 a note. Pickups are shaded in the winner's color, other member changes in gray. Members of neither
@@ -1074,6 +1108,13 @@ tools/bib/indicators.py       renders them (ORDER, GROUP) and checks them
   transactions (the January 1965 Report: 1963–64), then the liquidity balance and the official reserve transactions
   balance (January 1966: 1964–65), each its own series, never one row (STYLE 8). Real GNP and the deflator move to 1958
   prices with the benchmark revision of Aug. 19, 1965 (`BASE` in the script).
+- Federal debt and balances (DEBT in the script, `--only debt`; the owner's request, Oct. 20, 2026): the public debt monthly,
+  as the *Treasury Bulletin* first printed each month-end and its change (p. 1, then Debt Outstanding, Table 1, from Feb.
+  1968), today FRED's GFDEBTN; debt over GNP and net interest over GNP quarterly, each computed within one Economic
+  Report (no report printed the ratios); the federal primary balance quarterly (the national accounts' surplus or
+  deficit, net lending or borrowing, with net interest added back); and OMB's debt-to-GDP by fiscal year, today's only.
+  Today's net interest counts imputed interest on federal pensions: not the 1960s measure (DEFS). Other numbers worth
+  keeping: `notes/proposals/indicators-suggestions.md`.
 - Money and credit (`kind: rate`; RATES and DISCOUNT in the script, `--only rates` to write them alone): a table
   of its own between the indicators and the approval table, under the same rule, two columns (Rate | Percent):
   rates are not revised, so one figure each, with its change in points. The federal funds rate, the prime, the
@@ -1097,6 +1138,23 @@ tools/bib/indicators.py       renders them (ORDER, GROUP) and checks them
   and is never written to the repo. The build needs no network.
 - `check` fails on a bad period, a first-reported figure without a release
   date, or a transcribed figure without a source.
+
+## Maps of Indochina
+
+`tools/bib/vnmap.py` (STYLE notes at the top): a map of Vietnam, Laos and Cambodia for each year, 1960–68, set in the
+year's first calendar entry tagged with a place in the Republic of Vietnam, showing every entry of the year tagged with
+a place: a dot a place, larger by the year's entries there, a tap listing them, each linked; under the map, folded, the
+year's placed entries; names set by the year's places first, then the gazetteer's rank, never over one another. The
+provinces as of late 1966, tinted by corps zone (the default), today's region, or plain; the layers of
+`sources/indochina/` where present (relief, rivers, climate, rain by month). Zoom to 64×; the wheel only with Ctrl or ⌘.
+
+- Tags, hidden: `place:<id>`, a place in `sources/vn-provinces-1966/places.json` (the gazetteer: name with its
+  diacritics, plain form, kind, Wikipedia's coordinates, 1966 province, country, rank for names); `province:<id>`, a
+  1966 unit, where an entry names a province and no finer place. An event in Indochina or off its coast takes them; a
+  decision about it made in Washington, Honolulu or Manila does not. `check` fails on a tag that names nothing.
+- A place not in the gazetteer: add it, with Wikipedia's coordinates (never guessed) and its province by point in
+  polygon. The lines are approximate (the README there); the gazetteer's notes are working notes, not the series'.
+- The shapes go beside the pages, `build/geo/vn-<hash>.json`, fetched when the first map nears the screen.
 
 ## The calendar in three parts
 

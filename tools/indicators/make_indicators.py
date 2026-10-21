@@ -13,6 +13,8 @@
 #   Money and credit (RATES, DISCOUNT below): interest rates, which are not revised. FRED's monthly averages
 #   go in 'now' with their change in points; the New York Reserve Bank's discount rate, kept by hand from
 #   the Board's announcements, goes in 'first'. --only rates writes these alone (no ALFRED calls).
+#   Federal debt (DEBT below): the public debt by month from the Treasury Bulletin; the debt and net interest over GNP
+#   and the primary balance by quarter from the Economic Reports; OMB's fiscal-year ratios. --only debt writes these.
 """
 import json, os, sys, time, urllib.error, urllib.parse, urllib.request
 import yaml
@@ -909,6 +911,321 @@ def rates():
                             'now': None}, rows)
 
 
+# ---------------------------------------------------------------- DEBT: federal debt, interest, and the primary balance
+# The public debt was reported monthly: the Daily Treasury Statement for the month's last day, then the Treasury
+# Bulletin, whose "Summary of Federal Fiscal Operations" (p. 1 of each issue) prints the public debt at the end of each
+# month and the month's net increase or decrease (its source note: "on basis of telegraphic reports", the daily
+# statement). Read off FRASER's scans of every issue, Feb. 1961 to Jan. 1969, by eye from the page images (the text
+# layers are unreliable): each month from the first issue that carries it. The issues of Jan.-Oct. 1961 carry the
+# month two before; Nov. 1961 adds Sept. and Oct.; from then on, the month before. The Feb. 1968 issue drops the summary
+# table (its announcement, p. 1: "the tables showing administrative budget and trust fund receipts and expenditures
+# have been discontinued", on the unified budget): from it, Debt Outstanding, Table 1, "Summary of Public Debt and
+# Guaranteed Agency Securities" (source: Daily Treasury statement), its public debt column, which prints no change:
+# the change is the difference of the issue's own last two months. The June figures of 1961-67 are marked p
+# (preliminary). Each month's level plus the next month's printed change gives the next level, within the $1 million
+# of rounding, through the whole run (checked when this was written).
+# Columns: issue, month, printed net increase in the public debt ('d': none printed), public debt, both millions of
+# dollars; then 'prior N' (the issue's figure for the month before, where no change is printed) or 'p'.
+TB = 'https://fraser.stlouisfed.org/title/treasury-bulletin-407/'
+TB_MON = ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october',
+          'november', 'december']
+# FRASER's item numbers: one an issue from 6769 (Jan. 1961), but Oct. 1968 (6863) and Nov. 1968 (6862).
+TB_ITEM = {f'{y}-{m:02d}': 6769 + 12 * (y - 1961) + m - 1 for y in range(1961, 1970) for m in range(1, 13)}
+TB_ITEM.update({'1968-10': 6863, '1968-11': 6862})
+# The page of Debt Outstanding, Table 1, in the issues of Feb. 1968 to Jan. 1969 (before: the summary, p. 1).
+TB_PAGE = {'1968-02': 22, '1968-03': 20, '1968-04': 17, '1968-05': 24, '1968-06': 18, '1968-07': 16, '1968-08': 23,
+           '1968-09': 18, '1968-10': 16, '1968-11': 23, '1968-12': 19, '1969-01': 18}
+PUBLIC_DEBT = """
+    1961_02 1960-12 -197 290217
+    1961_03 1961-01 -181 290036
+    1961_04 1961-02 508 290544
+    1961_05 1961-03 -3072 287471
+    1961_06 1961-04 516 287987
+    1961_07 1961-05 2158 290146
+    1961_08 1961-06 -1175 288971 p
+    1961_09 1961-07 3433 292404
+    1961_10 1961-08 1310 293714
+    1961_11 1961-09 35 293750
+    1961_11 1961-10 1911 295660
+    1961_12 1961-11 1350 297011
+    1962_01 1961-12 -842 296169
+    1962_02 1962-01 345 296513
+    1962_03 1962-02 470 296983
+    1962_04 1962-03 -896 296088
+    1962_05 1962-04 864 296952
+    1962_06 1962-05 2222 299174
+    1962_07 1962-06 -973 298201 p
+    1962_08 1962-07 -325 297876
+    1962_09 1962-08 3966 301842
+    1962_10 1962-09 -2344 299498
+    1962_11 1962-10 2569 302067
+    1962_12 1962-11 3323 305390
+    1963_01 1962-12 -1920 303470
+    1963_02 1963-01 -53 303417
+    1963_03 1963-02 1221 304638
+    1963_04 1963-03 -1645 302993
+    1963_05 1963-04 173 303166
+    1963_06 1963-05 2038 305204
+    1963_07 1963-06 656 305860 p
+    1963_08 1963-07 -1025 304835
+    1963_09 1963-08 1700 306535
+    1963_10 1963-09 100 306635
+    1963_11 1963-10 -193 306442
+    1963_12 1963-11 1773 308215
+    1964_01 1963-12 1132 309347
+    1964_02 1964-01 -770 308577
+    1964_03 1964-02 1780 310357
+    1964_04 1964-03 -767 309590
+    1964_05 1964-04 -1989 307601
+    1964_06 1964-05 3931 311532
+    1964_07 1964-06 181 311713 p
+    1964_08 1964-07 -530 311183
+    1964_09 1964-08 2906 314089
+    1964_10 1964-09 1520 315610
+    1964_11 1964-10 26 315635
+    1964_12 1964-11 2851 318486
+    1965_01 1964-12 -546 317940
+    1965_02 1965-01 42 317983
+    1965_03 1965-02 1900 319883
+    1965_04 1965-03 -2186 317697
+    1965_05 1965-04 -1140 316557
+    1965_06 1965-05 2661 319218
+    1965_07 1965-06 -1944 317274 p
+    1965_08 1965-07 -692 316582
+    1965_09 1965-08 1658 318240
+    1965_10 1965-09 -1493 316748
+    1965_11 1965-10 2154 318901
+    1965_12 1965-11 2810 321711
+    1966_01 1965-12 -807 320904
+    1966_02 1966-01 1099 322003
+    1966_03 1966-02 1308 323311
+    1966_04 1966-03 -2312 320999
+    1966_05 1966-04 -1416 319583
+    1966_06 1966-05 2777 322359
+    1966_07 1966-06 -2452 319907 p
+    1966_08 1966-07 -627 319280
+    1966_09 1966-08 5141 324420
+    1966_10 1966-09 328 324748
+    1966_11 1966-10 2140 326888
+    1966_12 1966-11 2523 329411
+    1967_01 1966-12 -92 329319
+    1967_02 1967-01 -450 328869
+    1967_03 1967-02 756 329625
+    1967_04 1967-03 1321 330947
+    1967_05 1967-04 -3145 327801
+    1967_06 1967-05 3087 330888
+    1967_07 1967-06 -4667 326221 p
+    1967_08 1967-07 4416 330637
+    1967_09 1967-08 5213 335850
+    1967_10 1967-09 46 335896
+    1967_11 1967-10 4606 340502
+    1967_12 1967-11 4588 345090
+    1968_01 1967-12 -427 344663
+    1968_02 1968-01 d 346259 prior 344663
+    1968_03 1968-02 d 351556 prior 346259
+    1968_04 1968-03 d 349473 prior 351556
+    1968_05 1968-04 d 346984 prior 349473
+    1968_06 1968-05 d 352294 prior 346984
+    1968_07 1968-06 d 347578 prior 352294
+    1968_08 1968-07 d 351078 prior 347578
+    1968_09 1968-08 d 354356 prior 351078
+    1968_10 1968-09 d 354743 prior 354356
+    1968_11 1968-10 d 357194 prior 354743
+    1968_12 1968-11 d 356863 prior 357194
+    1969_01 1968-12 d 358029 prior 356863
+"""
+
+
+def tb_cite(issue):
+    y, m = int(issue[:4]), int(issue[5:7])
+    mon = ['Jan.', 'Feb.', 'Mar.', 'Apr.', 'May', 'June', 'July', 'Aug.', 'Sept.', 'Oct.', 'Nov.', 'Dec.'][m - 1]
+    if issue in TB_PAGE:
+        where = f'Debt Outstanding, Table 1, p. {TB_PAGE[issue]}'
+    else:
+        where = 'Summary of Federal Fiscal Operations, p. 1'
+    return f'Treasury Bulletin, {mon} {y}, {where}', f'{TB}{TB_MON[m - 1]}-{y}-{TB_ITEM[issue]}'
+
+
+# The Economic Report of the next January prints, in one Report, GNP by quarter (seasonally adjusted annual rates,
+# Table 1), the federal sector of the national income accounts by quarter (its net interest paid and its surplus or
+# deficit; the table federal-national-accounts reads), and the gross public debt at the end of each month of the last
+# two years (U.S. Government debt, by kind of obligation). So the ratios are computed from one Report's own figures:
+# the debt at the quarter's end over the quarter's GNP at an annual rate; net interest paid over GNP. Each Report also
+# gives the quarter before the first it is used for, so the change is taken within the Report. Read by eye from
+# FRASER's scans (ERP_<year>.pdf: the printed page plus 8 in 1962 and 1964, plus 30 in 1963, plus 6 in 1965-69),
+# checked against the text layer; the surpluses agree with federal-national-accounts.
+# Debt: "Gross public debt and guaranteed issues" through the Report of Feb. 1968; the Jan. 1969 Report's Table B-64,
+# "Public debt securities by kind of obligation", prints the public debt alone (guaranteed issues, some $0.5bn, out).
+ERP_DEBT = {
+    1962: ('Table B-52, p. 269', {'1960-09': 288.6, '1960-12': 290.4, '1961-03': 287.7, '1961-06': 289.2, '1961-09': 294.0, '1961-12': 296.5}),
+    1963: ('Table C-53, p. 235', {'1961-12': 296.5, '1962-03': 296.5, '1962-06': 298.6, '1962-09': 300.0, '1962-12': 304.0}),
+    1964: ('Table C-53, p. 271', {'1962-12': 304.0, '1963-03': 303.5, '1963-06': 306.5, '1963-09': 307.3, '1963-12': 310.1}),
+    1965: ('Table B-55, p. 255', {'1963-12': 310.1, '1964-03': 310.4, '1964-06': 312.5, '1964-09': 316.5, '1964-12': 318.7}),
+    1966: ('Table C-54, p. 273', {'1964-12': 318.7, '1965-03': 318.4, '1965-06': 317.9, '1965-09': 317.3, '1965-12': 321.4}),
+    1967: ('Table B-56, p. 279', {'1965-12': 321.4, '1966-03': 321.5, '1966-06': 320.4, '1966-09': 325.2, '1966-12': 329.8}),
+    1968: ('Table B-64, p. 285', {'1966-12': 329.8, '1967-03': 331.5, '1967-06': 326.7, '1967-09': 336.4, '1967-12': 345.2}),
+    1969: ('Table B-64, p. 302', {'1967-12': 344.7, '1968-03': 349.5, '1968-06': 347.6, '1968-09': 354.7, '1968-12': 358.0}),
+}
+# GNP, total, seasonally adjusted annual rates, billions; Q4 preliminary in each.
+ERP_GNP = {
+    1962: ('Table B-1, p. 207', {'1960Q3': 505.1, '1960Q4': 504.5, '1961Q1': 500.8, '1961Q2': 516.1, '1961Q3': 525.8, '1961Q4': 542.0}),
+    1963: ('Table C-1, p. 171', {'1961Q4': 538.6, '1962Q1': 545.0, '1962Q2': 552.0, '1962Q3': 555.3, '1962Q4': 562.0}),
+    1964: ('Table C-1, p. 207', {'1962Q4': 565.2, '1963Q1': 571.8, '1963Q2': 579.6, '1963Q3': 588.7, '1963Q4': 600.0}),
+    1965: ('Table B-1, p. 189', {'1963Q4': 599.0, '1964Q1': 608.8, '1964Q2': 618.6, '1964Q3': 628.4, '1964Q4': 633.5}),
+    1966: ('Table C-1, p. 209', {'1964Q4': 641.1, '1965Q1': 657.6, '1965Q2': 668.8, '1965Q3': 681.5, '1965Q4': 694.6}),
+    1967: ('Table B-1, p. 213', {'1965Q4': 704.4, '1966Q1': 721.2, '1966Q2': 732.3, '1966Q3': 745.3, '1966Q4': 759.1}),
+    1968: ('Table B-1, p. 209', {'1966Q4': 762.1, '1967Q1': 766.3, '1967Q2': 775.1, '1967Q3': 791.2, '1967Q4': 807.6}),
+    1969: ('Table B-1, p. 227', {'1967Q4': 811.0, '1968Q1': 831.2, '1968Q2': 852.9, '1968Q3': 871.0, '1968Q4': 887.8}),
+}
+# Federal sector, national income accounts: (net interest paid, surplus or deficit), billions, SAAR; the surplus not
+# printed for a preliminary fourth quarter (None). The tables of federal-national-accounts (MANUAL above).
+ERP_NIPA = {
+    1962: {'1960Q3': (7.1, 1.4), '1960Q4': (7.0, 0.4), '1961Q1': (6.8, -5.5), '1961Q2': (6.6, -4.3), '1961Q3': (6.4, -3.1), '1961Q4': (6.5, None)},
+    1963: {'1961Q3': (6.5, -3.3), '1961Q4': (6.4, -1.3), '1962Q1': (6.6, -2.4), '1962Q2': (6.7, -0.7), '1962Q3': (6.8, -0.9), '1962Q4': (6.9, None)},
+    1964: {'1962Q4': (7.3, -5.3), '1963Q1': (7.4, -4.6), '1963Q2': (7.5, -3.0), '1963Q3': (7.6, -1.8), '1963Q4': (7.6, None)},
+    1965: {'1963Q3': (7.8, -0.7), '1963Q4': (7.9, 0.6), '1964Q1': (8.3, -2.4), '1964Q2': (8.4, -7.8), '1964Q3': (8.4, -5.2), '1964Q4': (8.4, None)},
+    1966: {'1964Q3': (8.5, -3.6), '1964Q4': (8.4, -1.1), '1965Q1': (8.6, 3.6), '1965Q2': (8.7, 3.8), '1965Q3': (8.8, -2.9), '1965Q4': (8.9, None)},
+    1967: {'1965Q3': (8.8, -2.5), '1965Q4': (8.8, -0.2), '1966Q1': (9.3, 2.3), '1966Q2': (9.5, 3.8), '1966Q3': (9.7, -0.5), '1966Q4': (10.0, None)},
+    1968: {'1966Q3': (9.6, -0.7), '1966Q4': (10.0, -3.3), '1967Q1': (10.4, -11.9), '1967Q2': (10.4, -14.7), '1967Q3': (10.5, -13.2), '1967Q4': (10.7, None)},
+    1969: {'1967Q3': (10.2, -12.9), '1967Q4': (10.7, -12.2), '1968Q1': (11.3, -8.6), '1968Q2': (11.8, -10.2), '1968Q3': (12.1, -2.8), '1968Q4': (12.2, None)},
+}
+# OMB, Historical Tables, Table 7.1, "Federal Debt at the End of Year: 1940-2025" (the Budget for fiscal 2027,
+# hist07z1_fy2027.xlsx, read Oct. 20, 2026): gross federal debt and debt held by the public, percent of GDP for the
+# fiscal year. Retrospective: no contemporary figure.
+OMB71 = 'https://www.whitehouse.gov/wp-content/uploads/2026/04/hist07z1_fy2027.xlsx'
+OMB_DEBT = {'FY1960': (54.4, 44.3), 'FY1961': (53.5, 43.6), 'FY1962': (51.7, 42.3), 'FY1963': (50.2, 41.1),
+            'FY1964': (47.8, 38.8), 'FY1965': (45.4, 36.8), 'FY1966': (42.1, 33.8), 'FY1967': (40.7, 31.9),
+            'FY1968': (41.1, 32.3)}
+
+
+def qend(q):
+    y, n = q.split('Q')
+    return f'{y}-{3 * int(n):02d}'
+
+
+def prevq(q):
+    y, n = int(q[:4]), int(q[-1])
+    return f'{y - 1}Q4' if n == 1 else f'{y}Q{n - 1}'
+
+
+def qdate(q):
+    y, n = q.split('Q')
+    return f'{y}-{3 * (int(n) - 1) + 1:02d}-01'
+
+
+def report_quarters(erp):
+    """The quarters a Report is the source for (the ratios): the year before's four; the 1962 Report also Q4 1960."""
+    qs = [f'{erp - 1}Q{n}' for n in range(1, 5)]
+    return (['1960Q4'] if erp == 1962 else []) + qs
+
+
+def debt():
+    # public debt, monthly
+    rows, prev_now = [], None
+    gfd = current_from('GFDEBTN', '1959-01-01')
+    for line in PUBLIC_DEBT.strip().split('\n'):
+        f = line.split()
+        issue, p = f[0].replace('_', '-'), f[1]
+        level = int(f[3])
+        chg = level - int(f[5]) if f[2] == 'd' else int(f[2])
+        src, url = tb_cite(issue)
+        row = {'p': p, 'first': level, 'released': issue, 'source': src, 'url': url, 'chg': chg,
+               'unit': 'millions of dollars'}
+        if 'p' in f[4:]:
+            row['note'] = 'preliminary'
+        q = f'{p[:4]}-{int(p[5:7]) - 2:02d}-01' if p[5:7] in ('03', '06', '09', '12') else None
+        row['now'] = gfd.get(q) if q else None
+        rows.append(row)
+    write('public-debt', {'id': 'public-debt', 'name': 'Public debt', 'freq': 'M', 'manual': True, 'change': 'diff',
+                          'then': {'label': 'Treasury, public debt outstanding at the end of the month (Daily Treasury Statement), as the Treasury Bulletin first tabled it, millions of dollars',
+                                   'source': 'Treasury Bulletin'},
+                          'now': {'label': 'Treasury, Federal Debt: Total Public Debt, end of quarter (from 1966)', 'unit': 'millions of dollars',
+                                  'source': 'FRED GFDEBTN', 'url': FRED + 'GFDEBTN'}}, rows)
+
+    # ratios to GNP, quarterly, each from one Report
+    gdp = current_from('GDP', '1959-01-01')
+    ratio = current_from('GFDEGDQ188S', '1959-01-01')
+    ipay = current_from('A091RC1Q027SBEA', '1959-01-01')
+    irec = current_from('B094RC1Q027SBEA', '1959-01-01')
+    nlb = current_from('AD02RC1Q027SBEA', '1959-01-01')
+    drows, irows = [], []
+    for erp in sorted(ERP_DEBT):
+        dt, debt_ = ERP_DEBT[erp]
+        gt, gnp = ERP_GNP[erp]
+        nt = MANUAL['federal-national-accounts']['tables'][erp]
+        for q in report_quarters(erp):
+            pq = prevq(q)
+            r = 100 * debt_[qend(q)] / gnp[q]
+            rp = 100 * debt_[qend(pq)] / gnp[pq]
+            mon = ['Mar.', 'June', 'Sept.', 'Dec.'][int(q[-1]) - 1]
+            row = {'p': q, 'first': round(r, 1), 'released': ERP[erp][0],
+                   'source': f'{ERP[erp][1]}, {dt} (debt, end of {mon} {q[:4]}: {debt_[qend(q)]}) and {gt} (GNP: {gnp[q]})',
+                   'chg': round(r - rp, 1), 'unit': 'percent of GNP'}
+            n = ratio.get(qdate(q))
+            row['now'] = None if n is None else round(n, 1)
+            pn = ratio.get(qdate(pq))
+            if n is not None and pn is not None:
+                row['chg_now'] = round(n - pn, 1)
+            drows.append(row)
+            i, ip = ERP_NIPA[erp][q][0], ERP_NIPA[erp][pq][0]
+            s, sp = 100 * i / gnp[q], 100 * ip / gnp[pq]
+            row = {'p': q, 'first': round(s, 2), 'released': ERP[erp][0],
+                   'source': f'{ERP[erp][1]}, {nt} (net interest paid: {i}) and {gt} (GNP: {gnp[q]})',
+                   'chg': round(s - sp, 2), 'unit': 'percent of GNP'}
+            def net_now(qq):
+                a, b, g = ipay.get(qdate(qq)), irec.get(qdate(qq)), gdp.get(qdate(qq))
+                return None if None in (a, b, g) else 100 * (a - b) / g
+            n, pn = net_now(q), net_now(pq)
+            row['now'] = None if n is None else round(n, 2)
+            if n is not None and pn is not None:
+                row['chg_now'] = round(n - pn, 2)
+            irows.append(row)
+    write('debt-gnp', {'id': 'debt-gnp', 'name': 'Public debt to GNP', 'freq': 'Q', 'manual': True, 'change': 'pts',
+                       'then': {'label': 'Gross public debt (and guaranteed issues, through 1967) at the quarter\'s end over GNP at a seasonally adjusted annual rate, both from the next January\'s Economic Report', 'source': 'Economic Report of the President, statistical tables'},
+                       'now': {'label': 'Federal Debt: Total Public Debt as Percent of GDP (from 1966)', 'unit': 'percent of GDP',
+                               'source': 'FRED GFDEGDQ188S', 'url': FRED + 'GFDEGDQ188S'}}, drows)
+    write('interest-gnp', {'id': 'interest-gnp', 'name': 'Federal net interest to GNP', 'freq': 'Q', 'manual': True, 'change': 'pts',
+                           'then': {'label': 'Net interest paid, federal sector of the national income accounts, over GNP, both seasonally adjusted annual rates from the next January\'s Economic Report', 'source': 'Economic Report of the President, statistical tables'},
+                           'now': {'label': 'BEA: federal interest payments less interest receipts over GDP', 'unit': 'percent of GDP',
+                                   'source': 'FRED A091RC1Q027SBEA, B094RC1Q027SBEA, GDP', 'url': FRED + 'A091RC1Q027SBEA'}}, irows)
+
+    # the primary balance: the surplus or deficit with net interest added back, quarterly, in the Report that
+    # federal-national-accounts takes each quarter from
+    prows = []
+    for q, (v, erp, unit) in MANUAL['federal-national-accounts']['rows'].items():
+        i, bal = ERP_NIPA[erp][q]
+        pi, pbal = ERP_NIPA[erp][prevq(q)]
+        prim = None if bal is None else round(bal + i, 1)
+        row = {'p': q, 'first': {'balance': bal, 'interest': i, 'primary': prim}, 'released': ERP[erp][0],
+               'source': f'{ERP[erp][1]}, {MANUAL["federal-national-accounts"]["tables"][erp]}',
+               'unit': 'billions of dollars, annual rate'}
+        if prim is not None and pbal is not None:
+            row['chg'] = round(prim - (pbal + pi), 1)
+        def now_of(qq):
+            a, b, c = nlb.get(qdate(qq)), ipay.get(qdate(qq)), irec.get(qdate(qq))
+            return None if None in (a, b, c) else (a, b - c, a + b - c)
+        n, pn = now_of(q), now_of(prevq(q))
+        row['now'] = None if n is None else {'balance': round(n[0], 1), 'interest': round(n[1], 1), 'primary': round(n[2], 1)}
+        if n and pn:
+            row['chg_now'] = round(n[2] - pn[2], 1)
+        prows.append(row)
+    write('federal-primary-balance', {'id': 'federal-primary-balance', 'name': 'Federal primary balance, national income accounts',
+                                      'freq': 'Q', 'manual': True, 'change': 'diff', 'fields': ['balance', 'interest', 'primary'],
+                                      'then': {'label': 'Surplus or deficit on income and product account plus net interest paid, federal sector, seasonally adjusted annual rates', 'source': 'Economic Report of the President, statistical tables'},
+                                      'now': {'label': 'BEA: federal net lending or net borrowing, plus interest payments less interest receipts, SAAR', 'unit': 'billions of dollars, SAAR',
+                                              'source': 'FRED AD02RC1Q027SBEA, A091RC1Q027SBEA, B094RC1Q027SBEA', 'url': FRED + 'AD02RC1Q027SBEA'}}, prows)
+
+    # OMB's fiscal-year ratios, retrospective
+    orows = []
+    for p in sorted(OMB_DEBT)[1:]:
+        g, h = OMB_DEBT[p]
+        pg, ph = OMB_DEBT[f'FY{int(p[2:]) - 1}']
+        orows.append({'p': p, 'now': {'public': h, 'gross': g}, 'chg_now': round(h - ph, 1), 'chg_now_gross': round(g - pg, 1)})
+    write('debt-gdp-omb', {'id': 'debt-gdp-omb', 'name': 'Federal debt to GDP, OMB (retrospective)', 'freq': 'FY', 'then': None,
+                           'now': {'label': 'OMB, Historical Tables, Table 7.1: debt held by the public and gross federal debt at the end of the fiscal year, percent of GDP for the fiscal year',
+                                   'unit': 'percent of GDP', 'source': 'OMB, Historical Tables, Table 7.1 (Budget for fiscal 2027)', 'url': OMB71}}, orows)
+
+
 if __name__ == '__main__':
     if ONLY is None or 'alfred' in ONLY:
         main()
@@ -918,3 +1235,5 @@ if __name__ == '__main__':
         gap_cbo()
     if ONLY is None or 'rates' in ONLY:
         rates()
+    if ONLY is None or 'debt' in ONLY:
+        debt()

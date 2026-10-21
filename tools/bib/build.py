@@ -11,7 +11,7 @@ import json
 import os
 import re
 
-from . import calsplit, daybook, governors, legislatures, primaries, specials, store
+from . import calsplit, daybook, governors, legislatures, primaries, specials, store, vnmap
 from . import smart
 from .markup import to_html, plain, italics, ITAL_RE, REF_RE
 from .refs import Refs, split_protected
@@ -35,14 +35,30 @@ def attr(t):
 # ---------------------------------------------------------------- calendar helpers
 
 def thread_name(lst, slug):
+    """A thread's name; a subthread's after its parent's ("Defense: McNamara to Clifford")."""
     t = lst.threads().get(slug)
-    return plain(t["s"]) if t else slug
+    if not t:
+        return slug
+    par = t.get("parent")
+    return f"{thread_name(lst, par)}: {plain(t['s'])}" if par and par != slug else plain(t["s"])
+
+
+def entry_threads(lst, e):
+    """An entry's threads, each followed by its ancestors (a subthread's entries are its parent's too), once each."""
+    out = []
+    for t in [e["thread"]] + list(e.get("also") or []):
+        for s in lst.thread_line(t):
+            if s not in out:
+                out.append(s)
+    return out
 
 
 def entry_subject(lst, e):
     """The bold line. Calendar entries build it from when + thread."""
     if lst.kind == "calendar" and "when" in e:
         return f"{e['when']} ({thread_name(lst, e['thread'])})"
+    if lst.kind == "calendar" and e.get("parent") and e["id"].startswith(f"{lst.key}.thread."):
+        return thread_name(lst, e["id"].split(".", 2)[2])   # a subthread in the index by its full name
     return e.get("s")
 
 
@@ -52,7 +68,7 @@ def thread_members(lst):
     for sec, e in lst.entries():
         if "when" not in e:
             continue
-        for t in [e["thread"]] + e.get("also", []):
+        for t in entry_threads(lst, e):
             out.setdefault(t, []).append(e)
     return out
 
@@ -68,7 +84,7 @@ def thread_nav(series, lst, e, year, text_html):
     if key not in _NAV:
         _NAV[key] = {t: [m["id"] for m in ms] for t, ms in thread_members(lst).items()}
     out = []
-    for t in [e["thread"]] + e.get("also", []):
+    for t in entry_threads(lst, e):
         ids = _NAV[key].get(t, [])
         if e["id"] not in ids or len(ids) < 2:
             continue
@@ -189,6 +205,10 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
     if subj:
         parts.append(f'<span class="s">{text_html(subj, "s")}</span>')
     is_thread = lst.kind == "calendar" and e["id"].startswith(f"{lst.key}.thread.")
+    if is_thread and e.get("see"):
+        return redirect_thread_html(lst, e)  # an old name: a muted line linked to the thread's own (calsplit.py, STYLE 10)
+    if is_thread and lst.is_ghost(e["id"].split(".", 2)[2]):
+        return ghost_thread_html(lst, e)  # a ghost subthread: a muted line, its name and dates (calsplit.py, STYLE 9)
     statement = e.get("c")
     anchor = e["id"]
     if is_thread:                       # a thread's entry: its statement and dates in the half being built
@@ -237,8 +257,39 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
         if is_thread:
             extra_attrs += f' data-thread="{attr(slug)}"'
         elif e.get("thread"):
-            extra_attrs += f' data-threads="{attr(" ".join([e["thread"]] + list(e.get("also") or [])))}"'
+            extra_attrs += f' data-threads="{attr(" ".join(entry_threads(lst, e)))}"'
     return f'<li id="{attr(anchor)}"{extra_attrs}>' + "".join(parts) + extra_spans + "</li>"
+
+
+def ghost_thread_html(lst, e):
+    """A ghost subthread in the thread index: its full name ("Vietnam: Pennsylvania"), muted, nothing underlined, linked
+    to its first entry in the part being built; then its dates as any thread's; nothing in a part it has no entries in
+    (calsplit.py, STYLE 9)."""
+    slug = e["id"].split(".", 2)[2]
+    half = calsplit.CUR["half"]
+    members = thread_members(lst).get(slug, [])
+    mine = [m for m in members if not half or not calsplit.cfg(lst) or calsplit.half_of_date(lst, m["date"]) == half]
+    if not mine:
+        return ""
+    anchor = calsplit.thread_anchor(lst, slug, half)
+    name = f'<a class="thgl" href="{calsplit.href(lst, half or 1, mine[0]["id"])}">{esc(thread_name(lst, slug))}</a>'
+    dates = calsplit.thread_dates_html(lst, slug, members, esc)
+    return (f'<li id="{attr(anchor)}" class="thg" data-thread="{attr(slug)}"><span class="s">{name}</span>'
+            f'<span class="n">{dates}</span></li>')
+
+
+def redirect_thread_html(lst, e):
+    """A thread's old name (`see:` in th.yaml, "Desegregation: schools"), in its own place in the index: muted, nothing
+    underlined, the whole of it a link to the thread's entry in the part being built; nothing in a part the thread has
+    no entries in (calsplit.py, STYLE 10)."""
+    to = e["see"]
+    half = calsplit.CUR["half"]
+    members = thread_members(lst).get(to, [])
+    if not any(not half or not calsplit.cfg(lst) or calsplit.half_of_date(lst, m["date"]) == half for m in members):
+        return ""
+    href = "#" + calsplit.thread_anchor(lst, to, half)
+    return (f'<li id="{attr(calsplit.thread_anchor(lst, e["id"].split(".", 2)[2], half))}" class="thg thr">'
+            f'<span class="s"><a class="thgl" href="{attr(href)}">{to_html(e["s"])}</a></span></li>')
 
 
 def headings(lst, sec, idfmt):
@@ -290,7 +341,7 @@ def half_sections(lst, half):
             c = copy.copy(s)
             c.entries = [e for e in s.entries if not e["id"].startswith(f"{lst.key}.thread.")
                          or any(calsplit.half_of_date(lst, m["date"]) == half
-                                for m in members.get(e["id"].split(".", 2)[2], []))]
+                                for m in members.get(e.get("see") or e["id"].split(".", 2)[2], []))]
             if half > 1:
                 c.id = f"{s.id}{half}"
             out.append(c)
@@ -1011,6 +1062,7 @@ def run(series, which=None):
                 page = primaries.inject(page, series)
                 page = governors.inject(page, series)
                 page = legislatures.inject(page, series)
+                page = vnmap.inject(page, series)
                 page = indicators.inject(page, series, "list")
                 page = daybook.inject(page)
                 if half:
@@ -1030,6 +1082,7 @@ def run(series, which=None):
         page = primaries.inject(page, series)
         page = governors.inject(page, series)
         page = legislatures.inject(page, series)
+        page = vnmap.inject(page, series)
         page = indicators.inject(page, series, "series")
         page = daybook.inject(page)
         page = page.replace("</head>", calsplit.STYLE + "\n</head>", 1)
