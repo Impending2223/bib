@@ -823,7 +823,9 @@ Ala. 1962, N.M., N.D., Hawaii) has a dashed rule after the last winner, who is a
 Each entry: the Directory's description (or the Part III role), the pointers into the series, then the life as
 running text, with the date in each sentence; then Publications; FRUS documents sent; Oral histories given, papers,
 and other primary sources; Secondary sources; and, folded, the FRUS and presidential documents that name the
-person, and the White House recordings PRDE lists him speaking on (`recording_speakers`: PRDE's "Sr." and "II" are the
+person, "Testimony before Congress" (the committee meetings the Daily Digest names him a witness at, the sure matches
+only: `testimony` in `tools/bib/committees.py`), and the White House recordings PRDE lists him speaking on
+(`recording_speakers`: PRDE's "Sr." and "II" are the
 bare name; its "Jr." takes a bare form only where none carries "Jr." and the son is not `strict`; not in a President's
 own entry). Empty sections are left out, the Life too. The FRUS and presidential lists are bulleted, a little space between items
 (`lvnb`) and between the presidential documents under each year (`lvad`), and no more between years. "In the series"
@@ -1187,6 +1189,10 @@ tools/indicators/make_polls.py   Gallup's approval (kind: poll), a reading a row
 tools/indicators/make_oil.py  the Oil group (oil-*.yaml): the Survey of Current Business's monthly figures, read by eye (SCB in
                               the script), and the Minerals Yearbook's reserves, beside EIA's today (needs the network, xlrd)
 tools/bib/oil.py              renders the Oil cells, its DEFS and checks (STYLE notes at the top)
+tools/indicators/make_war.py  The war (war-deaths.yaml, war-strength.yaml) and sources/war-dead-states.yaml: NARA's DCAS file
+                              counted, the figures printed then read by hand (THEN_* in the script; needs the network once)
+tools/bib/war.py              renders The war's cells, its DEFS and checks (STYLE notes at the top)
+tools/bib/wardead.py          the dead by home State per 100,000, a map a year (tag wardead:<YYYY>; STYLE notes at the top)
 tools/bib/indicators.py       renders them (ORDER, GROUP) and checks them
 ```
 
@@ -1226,6 +1232,16 @@ tools/bib/indicators.py       renders them (ORDER, GROUP) and checks them
   (p. S-35, FRASER, the issue its "Released"), in millions of barrels a day, levels only; today EIA's (products supplied
   from 1963; trade by year, in December, its own row); proved reserves at Dec. 31, the API's as the *Minerals Yearbook*
   printed them, beside EIA's. The Survey's misprints stand, the correction in grey. Its calendar thread: Oil.
+- The war (the owner's request, Oct. 21, 2026; `tools/bib/war.py`, its STYLE; plan: `notes/proposals/military-oil-vietnam.md`,
+  section 1): U.S. deaths in Southeast Asia, all causes, hostile and since 1961, by month from Jan. 1965 and by year
+  1960-68 (in December), today from NARA's Defense Casualty Analysis System file (2008), counted by the incident or death
+  date; as first printed, the hostile deaths: the *Statistical Abstract* (1967-69 eds.) by year, the *Southeast Asia
+  Analysis Report* (Oct. 1967, Thayer vol. 8, p. 102) for Jan.-Sept. 1967; the weekly Thursday releases not read ("—").
+  U.S. military personnel in South Vietnam, June 30 and Dec. 31: today the DoD's table of 1974 (*Selected Manpower
+  Statistics*, FY-74, p. 63), then the *Statistical Abstract*'s Dec. 31 and first-quarter figures. No monthly strength
+  read. The dead by home of record per 100,000 (Census estimates, July 1): a map a year, 1961-64 together and 1965-68,
+  on one scale, carried by the December entries tagged `wardead:<YYYY>` (`cal.1964-12.vietnam` ... `cal.1968-12.vietnam`).
+  The file names the dead; nothing but counts leaves it, and they are not persons in the series.
 - Changes use one basis in both value columns (CHANGE in the script): monthly
   percent, not annualized; quarterly percent at an annual rate; points; persons.
   CPI, WPI and industrial production also carry the change from a year earlier
@@ -1340,7 +1356,10 @@ tools/daybook/make_daybook.py   writes daybook/<YYYY-MM>.yaml (needs the network
 tools/daybook/make_recordings.py  writes daybook/recordings/<YYYY-MM>.yaml from PRDE's catalogue (needs the network)
 tools/daybook/make_sunday.py      writes daybook/sunday.yaml from the Library's inventory, the TV listings, and the
                                   Face the Nation index (--ftn PATH; without it, its rows already written are kept)
+tools/daybook/make_committees.py  writes daybook/committees/<YYYY-MM>.yaml from the bound Record's Daily Digest
+                                  (--cache DIR; downloads each year's part, ~200 MB, reads it, deletes it)
 tools/bib/daybook.py            lays the calendar out by day (STYLE notes at the top) and checks the data
+tools/bib/committees.py         the committees' list and "Testimony before Congress" (STYLE notes) and checks the data
 ```
 
 - The President: APP's documents by date (Public Papers items, executive orders,
@@ -1399,6 +1418,20 @@ tools/bib/daybook.py            lays the calendar out by day (STYLE notes at the
   (`tools/daybook/make_bulletin.py YEAR`; 1962 done). The issues and the copies' pages: `tools/daybook/make_dsb_index.py`
   (vol. 59, July–Dec. 1968, has no open copy). A calendar entry on a private document FRUS shows printed later carries
   "Made public: [[w.department-of-state-bulletin]], Nov. 19, 1973, 640–645." (`printed.made_public`).
+- Committees: the Daily Digest's "Committee Meetings" (the Senate's, the House's, the joint committees' and the
+  conferees'), a fourth list after the recordings, one line a meeting: "Senate Foreign Relations, Subcommittee on
+  American Republics Affairs: PANAMA, executive session; George W. Ball", the Digest's subject heading as printed in
+  small capitals, the measures, the witnesses by name as printed (office on hover), the Digest's page linked to the
+  PDF's page, and the day hearings continue. The source: the bound *Congressional Record*'s Daily Digest on govinfo,
+  one part a year (1960 pt16, 1961 pt18, 1962 pt19, 1963 pt21, 1964 pt20, 1965 pt23, 1966 pt23, 1967 pt29, 1968 pt26,
+  1969 pt32: `VOLS`), a scan with an OCR text layer, read word by word with its box (`pdftotext -bbox`) and laid out
+  column by column; the rows keep the paragraph as printed (`text`), and the PDF's pages against the printed folios
+  are in `daybook/committees/volumes.yaml`. Committees by the Directory's names; a standing committee's `code` is
+  Garrison Nelson's (`congress/committees.yaml`). A witness is linked only where one person fits by surname and office
+  (a Member by the chamber and the day; an officer by the Executive roster on the day; anyone else by name and a
+  telling word of his office): `witness_person`, STYLE 2 in `tools/bib/committees.py`. Checked by eye against January
+  1964 (203 meetings, 359 witnesses): the misses left are the OCR's (a name or a stop misread). `check` fails on a row
+  out of the calendar's span, without its page or link, or with a "continue" day not after it.
 - Abstracts go in `daybook/abstracts.yaml` (`key: sentence`), never in the generated
   files, so a rerun keeps them. Keys: `app:<slug>`, `frus:<volume>/<dN>`. `check` fails
   on an abstract whose key is not in the daybook.

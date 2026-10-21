@@ -343,6 +343,10 @@ def section_mark(t):
     l = letters(t)
     if not l or len(t) > 60:
         return None
+    # a heading begins with a capital, or with a mark the OCR put before it ('·conzmittee Meetings'); not with a small
+    # letter ('committee mee#ngs.' ends a line of HIGHLIGHTS; 'of Representatives. Page 3224' a line of text)
+    if re.match(r"^[a-z]", t.strip()):
+        return None
     if l in ("senate", "enate", "senat") or (len(l) <= 8 and difflib.SequenceMatcher(None, l, "senate").ratio() > .8):
         return "senate"
     if re.search(r"ofrep|frepresent|representatives$", l) and len(l) < 30 and l.startswith(("h", "o", "m")) \
@@ -521,7 +525,8 @@ TRIGGER = re.compile(
     r"|ha\s?(?:ving|d|s)\s+as\s+(?:its|their)\s+witness(?:es)?\s+"
     r"|(?:a\s+)?briefing\s+(?:(?:on|regarding|concerning)\b[^;:]{0,80}?\s+)?(?:from|by|with)\s+|briefed\s+by\s+|(?:heard|received)\s+(?:a\s+)?(?:report|statement|"
     r"discussion)s?\s+(?:from|by)\s+"
-    r"|statements?\s+(?:was|were)\s+(?:presented|submitted|received|made)\s+(?:for\s+the\s+record\s+)?(?:by|from)\s+",
+    r"|statements?\s+(?:was|were)\s+(?:presented|submitted|received|made)\s+(?:for\s+the\s+record\s+)?(?:by|from)\s+"
+    r"|(?:received|heard)\s+(?:a\s+)?statements?\s+(?:for\s+the\s+record\s+)?from\s+",
     re.I)
 ABBR = re.compile(r"(?:\b[A-Z]|\bDr|\bMr|\bMrs|\bMs|\bJr|\bSr|\bCo|\bInc|\bCorp|\bLtd|\bBros|\bSt|\bGen|\bLt|\bCol|"
                   r"\bAdm|\bMaj|\bCapt|\bSgt|\bRev|\bNo|\bMessrs|\bGov|\bRep|\bSen|\bVt|\bMd|\bVa|\bPa|\bMass|"
@@ -700,6 +705,7 @@ def witnesses_of(text):
                         r"in\s+opposition\s+to|with\s+regard\s+to)\s+(?:the|S\.|H\.\s?R\.|H\.|pending|proposed)\b",
                         span, maxsplit=1)[0] if ";" not in span and "," not in span[:40] else span
         parts = []
+        span = re.sub(r",?\s+and\s+(?=(?:Senators?|Representatives?)\s)", "; ", span)   # '... and Senators Cooper'
         for part in split_top(span, ";"):           # 'X, office, and Gen. Y, office': two
             for p in PAIR.split(part):
                 if p.strip():
@@ -736,6 +742,10 @@ def witnesses_of(text):
                 p = re.sub(r"^(?:and|also)\s+", "", part, flags=re.I).strip(" .")
                 if p:
                     others.append(p)
+    # 'Heard R. Sargent Shriver, Director of the Peace Corps, on H.R. 9666'
+    for m in re.finditer(r"\b[Hh]eard\s+((?:(?:Dr|Mr|Mrs|Gen|Adm)\.\s+)?(?:[A-Z]\.\s+)?[A-Z][a-z]+\s+(?:[A-Z]\.\s+)?"
+                         r"(?:Mc|Mac|O')?[A-Z][a-z]+(?:,\s+Jr\.)?,\s+[^.;]{3,80})", text):
+        ws += witnesses_of("heard testimony from " + m.group(1) + ".")[0]
     # 'heard Senator Mansfield testify in behalf of Mr. Corry'
     for m in re.finditer(r"\bheard\s+((?:Senators?|Representatives?)\s+[A-Z][^.;:]{1,60}?)\s+testify\b", text):
         ws += witnesses_of("heard testimony from " + m.group(1) + ".")[0]
