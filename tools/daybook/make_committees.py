@@ -280,8 +280,9 @@ def folios(raw):
 # ---------------------------------------------------------------- the days
 
 def fuzzy(tok, words, cut=.7):
-    m = difflib.get_close_matches(re.sub(r"[^A-Za-z]", "", tok).capitalize(), words, 1, cut)
-    return m[0] if m else None
+    low = {w.lower(): w for w in words}
+    m = difflib.get_close_matches(re.sub(r"[^A-Za-z]", "", tok).lower(), list(low), 1, cut)
+    return low[m[0]] if m else None
 
 
 DIGITS = str.maketrans("lIoOBgSZ¢", "110089526")
@@ -289,6 +290,40 @@ DIGITS = str.maketrans("lIoOBgSZ¢", "110089526")
 
 def day_heading(t):
     """(weekday, month, day) from a line that reads as a day's heading, else None."""
+    return day_heading1(t) or day_heading2(t)
+
+
+def day_heading2(t):
+    """The heading the OCR mangled further: marks after the year ('Wednesday, May 11, 1966 . ~·:·i:i'), a year
+    misread ('Fr~day,. May 27~ 19~<?'), the day run into the month ('JVednesday, June15, 1966'), a comma in the
+    year ('Jurz..e 11 :, 1,964'). Nothing but marks may follow the year."""
+    u = re.sub(r"(?<=\w)[?!~.]+(?=\w)", "", t)
+    u = re.sub(r"(?<=[A-Za-z])(?=\d)", " ", u)
+    m = re.match(r"^\W*([A-Za-z]{5,11})\W+([A-Za-z]{3,10})\W*([\dlIoOBgSZ¢']{1,3})[\W_]*?\s*,?\s*"
+                 r"([1lI]\W?[9g]\W?[\dlIoOBgSZ¢_ ,]{1,5}|19\S{0,4}|1\d{2,3})", u)
+    if not m or re.search(r"[A-Za-z]{3,}", u[m.end():]):
+        return None
+    wd = fuzzy(m.group(1), WEEKDAYS, .75)
+    mo = fuzzy(m.group(2), MONTHS, .6)
+    if not wd or not mo:
+        return None
+    d = m.group(3).replace("'", "").translate(DIGITS)
+    return (wd, MONTHS.index(mo) + 1, int(d) if d.isdigit() and 0 < int(d) < 32 else None)
+
+
+def day_heading_bare(t):
+    """A heading whose year the OCR lost ('Tuesday, October 10,'): the weekday, the month, the day, nothing after;
+    taken only where the day's HIGHLIGHTS or a chamber's heading follows at once (read_volume)."""
+    u = re.sub(r"(?<=\w)[?!~.]+(?=\w)", "", t)
+    m = re.match(r"^\W*([A-Za-z]{5,11})\W+([A-Za-z]{3,10})\W*([\dlIoOBgSZ¢]{1,2})\W*$", u)
+    if not m:
+        return None
+    wd, mo = fuzzy(m.group(1), WEEKDAYS, .75), fuzzy(m.group(2), MONTHS, .6)
+    d = m.group(3).translate(DIGITS)
+    return (wd, MONTHS.index(mo) + 1, int(d) if d.isdigit() else None) if wd and mo else None
+
+
+def day_heading1(t):
     t = t.strip(" .·•'\"_-,r")
     t = re.sub(r"(?<=[a-z])[,.](?=[a-z])", "", t)          # 'Februp,ry'
     t = re.sub(r"(?<=\w)[?!~](?=\w)", "", t)                # 'Jf?ednesday'
@@ -844,6 +879,10 @@ def read_volume(year, bbox):
     for n, (pi, k, t) in enumerate(seq):
         if True:
             h = day_heading(t)
+            if not h:
+                nxt = next((t2 for _, _, t2 in seq[n + 1:n + 4] if len(re.sub(r"[^A-Za-z]", "", t2)) >= 3), "")
+                if section_mark(nxt) in ("highlights", "senate", "house"):
+                    h = day_heading_bare(t)
             # a day's heading opens the day's record: HIGHLIGHTS, a chamber, its action or its meetings follow
             # ('Hearings continue on / Monday, January 13, 1964.' is a sentence's end)
             if h and not any(section_mark(t2) or day_heading(t2) for _, _, t2 in seq[n + 1:n + 6]):
