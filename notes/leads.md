@@ -459,8 +459,8 @@ document was found. Each under the entry it concerns; `./bib find -t check -l ca
 - The Bureau of Mines' own *Monthly Petroleum Statement* (Mineral Industry Surveys), earlier than the Survey of Current
   Business's figures now used as "first": no open copy found (archive.org none; HathiTrust's pages bot-checked).
   The API's annual *Proved Reserves* reports (each spring) likewise; the Yearbook's reprint stands in.
-- The Minerals Yearbook pages for reserves (oil-reserves rows) were placed by the page headers in archive.org's OCR,
-  not by the page images: 1960 (II, 372), 1968 (I–II, 816–17) Check.
+- The Minerals Yearbook pages for reserves (oil-reserves rows): 1960, 1965–68 checked against the page images; 1961–64
+  placed by the page headers in archive.org's OCR (II, 365, 382, 398, 391) Check.
 - The Kuwait and Saudi finds as they bore on policy, Algeria's and Nigeria's exports, Abu Dhabi's first oil, the
   Iranian consortium's quotas: not entered (the memo's item 3, `notes/proposals/military-oil-vietnam.md`).
 

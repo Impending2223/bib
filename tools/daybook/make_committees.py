@@ -290,6 +290,7 @@ def day_heading(t):
     """(weekday, month, day) from a line that reads as a day's heading, else None."""
     t = t.strip(" .·•'\"_-,r")
     t = re.sub(r"(?<=[a-z])[,.](?=[a-z])", "", t)          # 'Februp,ry'
+    t = re.sub(r"(?<=\w)[?!~](?=\w)", "", t)                # 'Jf?ednesday'
     if len(t) > 42 or len(t) < 12:
         return None
     toks = re.findall(r"[A-Za-z0-9~:_¢.']+", t)
@@ -392,7 +393,7 @@ def lead_of(t):
         return None
     cmte = lambda x: like(x, "committee") or like(x, "committees") or like(x, "subcommittee", .8)
     toks = [x for x in toks if re.search(r"\w", x)]          # 'Committee . on Banking': the stray mark out
-    if len(toks) >= 2 and cmte(toks[0]) and len(letters(toks[1])) <= 3 and toks[1][:1].lower() in "oa0":
+    if len(toks) >= 2 and cmte(toks[0]) and len(letters(toks[1])) <= 3 and (letters(toks[1]) or "0")[:1] in "oa0":
         return lead, m.group(2)
     if len(toks) >= 2 and any(like(toks[0], w, .75) for w in ("joint", "select", "special", "senate", "house")) \
             and any(cmte(x) for x in toks[1:3]):
