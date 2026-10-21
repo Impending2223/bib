@@ -3,7 +3,7 @@
 Written by `./bib audit-cal` (`tools/bib/calaudit.py`): the dated entries checked against the brief in
 CLAUDE.md ("The calendar"). A review list: a hit is a place to look, not an error. Rerun after editing.
 
-4833 dated entries.
+4858 dated entries.
 
 | Check | Entries |
 |---|---|
