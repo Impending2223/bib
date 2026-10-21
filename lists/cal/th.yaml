@@ -26,13 +26,24 @@ entries:
     s: Birmingham
     parent: alabama
   - id: cal.thread.alabama-schools
-    s: The schools
+    s: Schools
     parent: alabama
   - id: cal.thread.antisubversion
     s: Antisubversion
     c: The States' committees, laws and oaths against subversion, and the Subversive Activities Control Board. Mississippi's Sovereignty Commission and the Citizens' Council; the Burns committee's report; Proposition 24 refused.
     c2: The States' committees, laws and oaths against subversion, and the Subversive Activities Control Board. North Carolina's Speaker Ban; Alabama's Sovereignty Commission; the raid on the SCEF at New Orleans; the Johns Committee's report and end; *Baggett v. Bullitt*; the Speaker Ban amended.
     c3: The States' committees, laws and oaths against subversion, and the Subversive Activities Control Board. *Keyishian*; the Board kept, registration dropped; California's disclaimer oath struck; *Schneider v. Smith*; the Ichord subcommittee on the Chicago convention.
+  - id: cal.thread.testing
+    s: Arms control and testing
+    c: Arms control and nuclear testing. The threshold proposal; France's first test; the Ten-Nation Committee; the moratorium declaration; the Antarctic Treaty; the Soviet resumption; American tests underground; ACDA; the fifty megatons; atmospheric tests resumed; Geneva; Starfish Prime; Khrushchev's inspection offer.
+    c2: Arms control and nuclear testing. The inspection talks; American University; the hot line; Moscow; the treaty and the Senate's consent; the Geneva proposals; the cut in fissionable material; China's test; the Gilpatric committee on proliferation.
+    c3: Arms control and nuclear testing. China's third test; nonproliferation with Gromyko; China's hydrogen bomb; the nonproliferation drafts at Geneva; Boxcar; the treaty commended, signed, sent to the Senate; Kosygin on strategic arms; MIRV tested; France's hydrogen bomb; the Senate's delay.
+  - id: cal.thread.testing-missile-talks
+    s: Missile talks
+    parent: testing
+  - id: cal.thread.testing-npt
+    s: Nonproliferation treaty
+    parent: testing
   - id: cal.thread.assassination
     s: Assassination
     c: Kennedy killed at Dallas, and the inquiry. Dealey Plaza; Oswald killed; the funeral; the Warren Commission; its first meeting; the first witness; Ruby convicted; the Report; the hearings published.
@@ -53,6 +64,14 @@ entries:
     s: Black nationalism
     c: Malcolm X and the Nation of Islam, and Black Power. "Message to the Grass Roots"; the "chickens" remark and the suspension; the break; "The Ballot or the Bullet"; the Organization of Afro-American Unity; the assassination.
     c3: Malcolm X and the Nation of Islam, and Black Power. CORE's "black power"; the Black Panther Party; Ali refuses induction; the Panthers at Sacramento; the Black Power conference at Newark; the Mulford Act; the FBI's counterintelligence program; Newton's arrest; the program widened; Glenville; Newton convicted; Smith and Carlos at Mexico City.
+  - id: cal.thread.china
+    s: China
+    c: 'Communist China: its bomb, its seat at the UN. The refugees at Hong Kong paroled; the attack on India, the cease-fire.'
+    c2: 'Communist China: its bomb, its seat at the UN. France recognizes Peking; China''s first atomic test.'
+    c3: 'Communist China: its bomb, its seat at the UN. Gallup on its admission; the China hearings, "containment but not isolation"; "reconciliation" at the Alumni Council; China''s third test; the Cultural Revolution, the Sixteen Points, the Red Guards; the seat refused; Gallup on the threat to peace; the hydrogen bomb; the "Chinese-oriented" ABM; Nixon''s "Asia After Viet Nam"; Rusk''s "billion Chinese."'
+  - id: cal.thread.india-and-china-cultural-revolution
+    s: Cultural Revolution
+    parent: china
   - id: cal.thread.cities-and-housing
     s: Cities and housing
     c: Housing, the cities, and urban transit. The Housing Act of 1961; the Urban Affairs department refused, by Rules and by the House; Weaver.
@@ -99,7 +118,7 @@ entries:
     c2: The Congo's civil war and the UN's war in Katanga. The end of secession; the pilots in Kivu; the UN's departure; Tshombe prime minister; Stanleyville taken; Dragon Rouge; the Cairo embassy attacked; Mobutu's coup.
     c3: The Congo's civil war and the UN's war in Katanga. The mercenaries' mutiny and the C-130s.
   - id: cal.thread.congo-lumumba
-    s: The plot against Lumumba
+    s: Plot against Lumumba
     parent: congo
   - id: cal.thread.congress
     s: Congress
@@ -144,11 +163,11 @@ entries:
   - id: cal.thread.crime-and-hijacking-guns
     s: Gun control
     parent: crime-and-hijacking
+  - id: cal.thread.crime-and-hijacking-maheu
+    s: Las Vegas wiretap
+    parent: crime-and-hijacking
   - id: cal.thread.crime-and-hijacking-safe-streets
     s: Safe Streets Act
-    parent: crime-and-hijacking
-  - id: cal.thread.crime-and-hijacking-maheu
-    s: The Las Vegas wiretap
     parent: crime-and-hijacking
   - id: cal.thread.cuba
     s: Cuba
@@ -156,8 +175,14 @@ entries:
     c2: Cuba short of the missile crisis, and after. NSAM 213; Gallup on the handling of Cuba; the exile raids; the sabotage program; Attwood and Lechuga; Guantanamo's water; the OAS sanctions; *Zemel v. Rusk*; Camarioca and the refugee airlift.
     c3: Cuba short of the missile crisis, and after. The Cuban Adjustment Act; Guevara killed in Bolivia.
   - id: cal.thread.cuba-bay-of-pigs
-    s: The Bay of Pigs
+    s: Bay of Pigs
     parent: cuba
+  - id: cal.thread.cyprus
+    s: Cyprus
+    c: 'Cyprus: the republic, its two communities, the guarantor powers. Independence; NSAM 71; NSAM 98; Makarios at the White House; NSAM 169; Johnson at Nicosia.'
+    c2: 'Cyprus: the republic, its two communities, the guarantor powers. NSAM 266; Makarios''s thirteen amendments; the Nicosia fighting; the guarantors'' appeal; Cyprus to the Security Council; the London conference broken down; Ball''s mission; the UN force; Johnson to Inonu; Inonu and Papandreou at the White House; Acheson''s plans at Geneva; the Turkish strikes at Kokkina; the plans refused.'
+    c3: 'Cyprus: the republic, its two communities, the guarantor powers. Demirel to Rusk at Ankara; the National Guard at Ayios Theodoros and Kophinou; Vance''s mission; the withdrawals agreed; Johnson''s statement.'
+    aliases: [cal.thread.europe-and-the-alliance-cyprus]
   - id: cal.thread.defense
     s: Defense
     c: Strategy and the defense budget. The missile gap in the hearings; Polaris at sea; the SIOP; the farewell address; McNamara's no missile gap; the March budget; the Berlin increase; civil defense to the Pentagon; Gilpatric at Hot Springs; the RS-70; counterforce at Ann Arbor.
@@ -177,14 +202,6 @@ entries:
     c: Segregation in travel, at lunch counters, in parks and other public places, short of the schools; each event in its own thread. *Boynton*; Burton; the Freedom Rides and the ICC order; Albany; Garner. Gallup on the Freedom Riders and on integration.
     c2: Segregation in travel, at lunch counters, in parks and other public places, short of the schools; each event in its own thread. Maryland's public accommodations act; Birmingham; Greensboro; the sit-in cases; *Watson*; Jackson; the public accommodations title; Cambridge's referendum; Frankfort; St. Augustine; *Bell v. Maryland*; Title II tested; Maryland's act upheld at referendum; *Heart of Atlanta*; Missouri's and Kentucky's acts. Gallup on integration.
     c3: Segregation in travel, at lunch counters, in parks and other public places, short of the schools; each event in its own thread. *Evans v. Newton*; *Brown v. Louisiana*; the Eagles picketed at Milwaukee; Maryland's open housing act.
-  - id: cal.thread.desegregation-schools
-    s: 'Desegregation: schools'
-    c: Schools and universities opened under federal court orders, each event in its own thread. New Orleans; Georgia; Atlanta; Meredith at Oxford. Gallup on school integration.
-    c2: Schools and universities opened under federal court orders, each event in its own thread. Gantt at Clemson; *Goss*; the schoolhouse door; Boston's Stay Out for Freedom; Alabama's schools in September; Prince Edward's Free Schools; the Chicago, New York, Cleveland and Milwaukee boycotts; *Griffin*; *Lee v. Macon*; the Racial Imbalance Act; Chicago's grants deferred; the Charlotte bombings. Gallup on school integration.
-    c3: Schools and universities opened under federal court orders, each event in its own thread. The Seattle boycott; Boston's State aid withheld; Intermediate School 201; Alabama's act against the guidelines; Grenada; the guidelines in the House; Alabama's statewide order; the Racial Imbalance Act upheld; the track system struck in Washington; the East Los Angeles walkouts; *Green*; the busing provisos; the separate-schools clauses dropped in Oklahoma and Florida. Gallup on school integration.
-  - id: cal.thread.desegregation-schools-uga
-    s: University of Georgia
-    parent: desegregation-schools
   - id: cal.thread.draft
     s: Draft
     c: Selective Service. The message and the Marshall Commission's lottery; Muhammad Ali's refusal and conviction; the Military Selective Service Act; Stop the Draft Week; Hershey's letter to the boards and his statement with Ramsey Clark; the Boston indictments.
@@ -193,23 +210,23 @@ entries:
     c: Fiscal and monetary policy, the dollar and gold. The peak; the London gold price; the balance-of-payments directive; the task force; the trough; the Fed's long rates; the gap; the debt limit; the 1962 Report; the May slide; depreciation; the investment credit; the Economic Club.
     c2: Fiscal and monetary policy, the dollar and gold. The tax message; the debt limit; the discount rate to 3½; the interest equalization tax; the House's 271–155; the Revenue Act of 1964; the Interest Equalization Tax Act; Wilson's surcharge; Ackley for Heller; the discount rate to 4; the gold cover; Fowler for Dillon; the excise tax cut; Martin at Columbia; the coinage act; aluminum and copper; the Fed's December rise.
     c3: Fiscal and monetary policy, the dollar and gold. The Tax Adjustment Act; Brimmer; the Fed's squeeze; the investment credit suspended; the interest rate act; the cutback; the surcharge proposed; the investment credit restored; the debt limit; the August message; special drawing rights; the surcharge set aside by Ways and Means; sterling devalued; the balance-of-payments program; the note cover ended; the gold market closed; the Revenue and Expenditure Control Act; the franc and the mark; the surplus.
+  - id: cal.thread.economy-debt-limit
+    s: Debt limit
+    parent: economy
+  - id: cal.thread.economy-franc
+    s: Franc and the mark
+    parent: economy
   - id: cal.thread.economy-gold
     s: Gold
     parent: economy
-  - id: cal.thread.economy-tax-adjustment
-    s: Tax Adjustment Act
-    parent: economy
-  - id: cal.thread.economy-debt-limit
-    s: The debt limit
-    parent: economy
-  - id: cal.thread.economy-franc
-    s: The franc and the mark
-    parent: economy
   - id: cal.thread.economy-investment-credit
-    s: The investment credit
+    s: Investment credit
     parent: economy
   - id: cal.thread.economy-surcharge
-    s: The surcharge
+    s: Surcharge
+    parent: economy
+  - id: cal.thread.economy-tax-adjustment
+    s: Tax Adjustment Act
     parent: economy
   - id: cal.thread.elections-1960
     s: Elections of 1960
@@ -271,23 +288,20 @@ entries:
     c3: 'The electoral college: its electors, pledged, unpledged and faithless, the count in Congress, and the proposals to change it. The administration''s plan asked again and heard; Delaware''s suit against the unit rule, refused; Bayh''s direct election; the Bar Association''s commission for it; the hearings of 1967; Gallup''s polls; the electors of 1968, Bailey''s vote, the count and the objection.'
   - id: cal.thread.europe-and-the-alliance
     s: Europe and the alliance
-    c: Britain, Germany, France, Turkey, and the alliance's nuclear arms. Macmillan at Camp David; de Gaulle's visit; Herter's NATO force; the Turkish coup; Cyprus independent; the Acheson directive; the Ottawa pledge; the Jupiters kept; Menderes hanged; Bermuda; Athens; Makarios at the White House; the Declaration of Interdependence; the Jupiters to go; Skybolt cancelled; Nassau.
-    c2: Britain, Germany, France, Turkey, and the alliance's nuclear arms. De Gaulle's veto; the Élysée treaty and the Bundestag's preamble; the MLF; Kennedy in Europe; Erhard at the Ranch; Cyprus, from the Nicosia fighting through the Turkish strikes and Acheson's plan; France recognizes Peking; Wilson's victory; the sterling crisis; the Atlantic Nuclear Force; Churchill's funeral; McNamara's select committee; Rhodesia.
-    c3: Britain, Germany, France, Turkey, and the alliance's nuclear arms. Palomares; France out of NATO's commands; Erhard's offset; "peaceful engagement"; NATO to Brussels; Kiesinger; the Nuclear Planning Group; Adenauer's funeral; the colonels in Athens; the trilateral talks and the redeployment; Cyprus again, Vance's mission; sterling devalued; the Harmel report; Constantine's countercoup; Britain out of the Far East and the Gulf; Thule; the Prague spring; the May strikes in France; Czechoslovakia invaded; the Brezhnev doctrine; the franc and the mark.
-  - id: cal.thread.europe-and-the-alliance-cyprus
-    s: Cyprus
-    parent: europe-and-the-alliance
+    c: Britain, Germany, France, Turkey, and the alliance's nuclear arms. Macmillan at Camp David; de Gaulle's visit; Herter's NATO force; the Turkish coup; the Acheson directive; the Ottawa pledge; the Jupiters kept; Menderes hanged; Bermuda; Athens; the Declaration of Interdependence; the Jupiters to go; Skybolt cancelled; Nassau.
+    c2: Britain, Germany, France, Turkey, and the alliance's nuclear arms. De Gaulle's veto; the Élysée treaty and the Bundestag's preamble; the MLF; Kennedy in Europe; Erhard at the Ranch; France recognizes Peking; Wilson's victory; the sterling crisis; the Atlantic Nuclear Force; Churchill's funeral; McNamara's select committee; Rhodesia.
+    c3: Britain, Germany, France, Turkey, and the alliance's nuclear arms. Palomares; France out of NATO's commands; Erhard's offset; "peaceful engagement"; NATO to Brussels; Kiesinger; the Nuclear Planning Group; Adenauer's funeral; the colonels in Athens; the trilateral talks and the redeployment; sterling devalued; the Harmel report; Constantine's countercoup; Britain out of the Far East and the Gulf; Thule; the Prague spring; the May strikes in France; Czechoslovakia invaded; the Brezhnev doctrine; the franc and the mark.
   - id: cal.thread.europe-and-the-alliance-france
     s: France
+    parent: europe-and-the-alliance
+  - id: cal.thread.europe-and-the-alliance-jupiters
+    s: Jupiters
     parent: europe-and-the-alliance
   - id: cal.thread.europe-and-the-alliance-kennedy-in-europe
     s: Kennedy in Europe
     parent: europe-and-the-alliance
-  - id: cal.thread.europe-and-the-alliance-jupiters
-    s: The Jupiters
-    parent: europe-and-the-alliance
   - id: cal.thread.europe-and-the-alliance-turkey
-    s: The Turkish coup
+    s: Turkish coup
     parent: europe-and-the-alliance
   - id: cal.thread.european-community
     s: European Community
@@ -330,7 +344,7 @@ entries:
     c2: The races for governor, primaries and generals, and the governors' acts beside them. Edmondson to the Senate; Rolvaag declared elected; Paul Johnson, Breathitt, McKeithen; Burns and High; Peabody beaten in his primary; Evans over Rosellini; Kerner over Percy; Volpe back; Romney re-elected; Massachusetts's four-year terms; McNair for Russell; Wallace's succession bill; Hughes and Godwin.
     c3: The races for governor, primaries and generals, and the governors' acts beside them. Lurleen Wallace; Burns beaten by High; Reagan over Brown; Winthrop Rockefeller and Kirk; Agnew over Mahoney; Rockefeller's third term; Maddox, Callaway and the legislature; Reagan's inaugural; Nunn in Kentucky, Williams in Mississippi; McKeithen re-elected; Connally not to run; Lurleen Wallace's death; Kerner to the bench; Preston Smith; Ogilvie over Shapiro; Peterson over Terry; Licht over Chafee; Mandel for Agnew.
   - id: cal.thread.governors-mn-recount
-    s: The Minnesota recount
+    s: Minnesota recount
     parent: governors
   - id: cal.thread.health
     s: Health
@@ -342,71 +356,34 @@ entries:
     c: The national-origins quotas and their repeal. The 1960 message; the refugee resolution; the Cuban refugee program; the 1961 amendments; the braceros extended; the Hong Kong parole; the refugee assistance act; the waiting lists cleared.
     c2: The national-origins quotas and their repeal. The 1963 message; the 1965 message; the House, the Senate, and the act signed at Liberty Island; Camarioca and the refugee airlift.
     c3: The national-origins quotas and their repeal. The Cuban Adjustment Act; the quotas end; the refugee protocol to the Senate.
-  - id: cal.thread.india-and-china
-    s: India and China
-    c: India's wars, American arms for India, and South Asia and Indonesia. Goa; the Chinese attack of October 1962; Nehru's request; Harriman's mission.
-    c2: India's wars, American arms for India, and South Asia and Indonesia. Robert Kennedy on Indonesia's confrontation of Malaysia; Nehru's death; China's first atomic test; the Rann of Kutch; Operation Gibraltar; the Indo-Pakistani war and the cease-fire; Indonesia's coup; Ayub Khan in Washington.
-    c3: India's wars, American arms for India, and South Asia and Indonesia. Tashkent; Indira Gandhi; Suharto's takeover; the China hearings; the rupee devalued; India and the bomb; the Cultural Revolution; China's seat at the UN; the short tether; food for India; Svetlana Alliluyeva; Sukarno's mandate withdrawn; China's hydrogen bomb; the "Chinese-oriented" ABM; Nixon's "Asia After Viet Nam."
-  - id: cal.thread.india-and-china-cultural-revolution
-    s: Cultural Revolution
-    parent: india-and-china
-  - id: cal.thread.india-and-china-food
-    s: Food for India
-    parent: india-and-china
-  - id: cal.thread.india-and-china-indonesia
+  - id: cal.thread.indonesia
     s: Indonesia
-    parent: india-and-china
-  - id: cal.thread.india-and-china-kashmir
-    s: Kashmir war
-    parent: india-and-china
+    c: 'Indonesia: Sukarno, the confrontation of Malaysia, the army. Robert Kennedy at Djakarta.'
+    c2: 'Indonesia: Sukarno, the confrontation of Malaysia, the army. Robert Kennedy''s mission on the confrontation, the cease-fire; the September 30th Movement, Suharto''s army.'
+    c3: 'Indonesia: Sukarno, the confrontation of Malaysia, the army. Sukarno''s reshuffle; the order of Mar. 11, the PKI banned; Subandrio arrested; the NSC on aid; the Bangkok accord; Sukarno''s mandate withdrawn, Suharto Acting President.'
+    aliases: [cal.thread.india-and-china-indonesia]
   - id: cal.thread.intelligence
     s: Intelligence
     c: The CIA at home. Its money for the National Student Association made public; the Katzenbach committee's rule against covert support of private bodies.
-  - id: cal.thread.japan-and-korea
-    s: Japan and Korea
-    c: The alliances with Japan and South Korea. The security treaty signed; Rhee's fall; the Diet's vote and the riots; Hagerty mobbed and the visit cancelled; the Senate's consent; Kishi out, Ikeda in; Chang Myon's government; Reischauer to Tokyo; Park's coup; Ikeda in Washington; the Ryukyus task force; Hakone; Park in Washington; the Ryukyus order.
-    c2: The alliances with Japan and South Korea. Park's offer and its reversal; Park's election and return to civilian rule; the equalization tax and Japan; Reischauer stabbed; martial law in Seoul; Satō for Ikeda; Korean troops for Vietnam; Satō in Washington; Park's state visit; the Japan–Korea treaty; Satō on Okinawa; the Ryukyus' Chief Executive elected.
-    c3: The alliances with Japan and South Korea. A second Korean division for Vietnam; Rusk at Kyoto; the status of forces agreement; Johnson at Seoul; Satō at the White House, the Bonins and the Ryukyus; the raid on the Blue House; the *Pueblo*; Vance at Seoul; Park at Honolulu; the Bonins returned; the commandos at Ulchin; the crew released at Panmunjom.
-  - id: cal.thread.japan-and-korea-blue-house
-    s: Blue House raid
-    parent: japan-and-korea
-  - id: cal.thread.japan-and-korea-civilian-rule
-    s: Civilian rule
-    parent: japan-and-korea
+  - id: cal.thread.japan
+    s: Japan
+    c: The alliance with Japan, and the Ryukyus. The security treaty signed; the Diet's vote and the riots; Hagerty mobbed, Eisenhower's visit cancelled; his Far East tour; the Senate's consent; Kishi stabbed, Ikeda in; Akihito at the White House; Reischauer to Tokyo; Ikeda in Washington; the Ryukyus task force; Hakone; Robert Kennedy at Tokyo; the Ryukyus order; the Joint Committee in Washington.
+    c2: The alliance with Japan, and the Ryukyus. Ōhira on the equalization tax; Ikeda at the funeral; the Joint Committee at Tokyo; Reischauer stabbed; Satō for Ikeda; the *Sea Dragon* at Sasebo; Satō in Washington; Japan's bonds exempted from the tax; the treaty with Korea; Satō on Okinawa; the Ryukyus' Chief Executive elected.
+    c3: The alliance with Japan, and the Ryukyus. Rusk at Kyoto; Reischauer home, U. Alexis Johnson to Tokyo; Satō at the White House, the Bonins and the Ryukyus; the Bonins returned.
+    aliases: [cal.thread.japan-and-korea]
   - id: cal.thread.japan-and-korea-far-east
     s: Eisenhower in the Far East
-    parent: japan-and-korea
-  - id: cal.thread.japan-and-korea-korean-troops
-    s: Korean troops for Vietnam
-    parent: japan-and-korea
-  - id: cal.thread.japan-and-korea-normalization
-    s: Korea–Japan treaty
-    parent: japan-and-korea
-  - id: cal.thread.japan-and-korea-pueblo
-    s: Pueblo
-    parent: japan-and-korea
-  - id: cal.thread.japan-and-korea-rhee
-    s: Rhee's fall
-    parent: japan-and-korea
+    parent: japan
   - id: cal.thread.japan-and-korea-treaty
-    s: The security treaty
-    parent: japan-and-korea
+    s: Security treaty
+    parent: japan
   - id: cal.thread.jobs-and-wages
     s: Jobs and wages
     c: Unemployment, depressed areas, and wages. The area redevelopment veto; the minimum wage held over; the recovery message; the minimum wage; area redevelopment; federal employees' unions; manpower training; public works acceleration.
-    c2: Unemployment, depressed areas, and wages. Youth employment; area redevelopment's defeat; the Jefferson Bank; the Sheraton-Palace and Auto Row; the 1964 Manpower Report; the Appalachian act; the longshoremen's strike; the area-development message; the labor message; 14(b), repealed by the House, refused cloture; the public works act; the steel settlement; Delano; New York's transit strike.
-    c3: Unemployment, depressed areas, and wages. 14(b) refused again; the march to Sacramento; the equal employment bill; the airline strike; the Fair Labor Standards Amendments of 1966; the shopcraft strike and the Special Board; New York's Taylor Law; the teachers' strike; the Appalachian amendments; the Age Discrimination in Employment Act; JOBS; the sanitation strikes in New York and Memphis; Florida's teachers; Ocean Hill–Brownsville; the coal mine safety bill and Farmington; the longshoremen's strike.
+    c2: Unemployment, depressed areas, and wages. Youth employment; area redevelopment's defeat; the Jefferson Bank; the Sheraton-Palace and Auto Row; the 1964 Manpower Report; the Appalachian act; Indiana's right-to-work law repealed; the area-development message; the labor message; 14(b), repealed by the House, refused cloture; the public works act.
+    c3: Unemployment, depressed areas, and wages. 14(b) refused again; the equal employment bill; the Fair Labor Standards Amendments of 1966; New York's Taylor Law; the Appalachian amendments; the Age Discrimination in Employment Act; JOBS; the coal mine safety bill and Farmington.
   - id: cal.thread.jobs-and-wages-14b
     s: 14(b)
-    parent: jobs-and-wages
-  - id: cal.thread.jobs-and-wages-airlines
-    s: Airline strike
-    parent: jobs-and-wages
-  - id: cal.thread.jobs-and-wages-farm-workers
-    s: Farm workers
-    parent: jobs-and-wages
-  - id: cal.thread.jobs-and-wages-transit
-    s: Transit strike
     parent: jobs-and-wages
   - id: cal.thread.robert-kennedy
     s: Robert Kennedy
@@ -424,6 +401,49 @@ entries:
   - id: cal.thread.king-poor-peoples
     s: Poor People's Campaign
     parent: king
+  - id: cal.thread.korea
+    s: Korea
+    c: 'South Korea: its governments, the alliance, the North. Rhee re-elected; Masan; the April students and Rhee''s fall; Eisenhower at Seoul; Yun Po-sun and Chang Myon; Park''s coup; the NSC on the junta; the promise of civilian rule; Rusk at Seoul; Park in Washington, his offer of troops; the Purification Law; Yun''s resignation; NSAM 151 on the talks with Japan; Kim Chong-p''il and Ōhira''s offer.'
+    c2: 'South Korea: its governments, the alliance, the North. Park''s offer to stand aside and its reversal; the referendum put off; Park elected; Park received after the funeral; martial law in Seoul against the settlement with Japan; the treaty initialed; Korean troops for Vietnam, the noncombat units, the combat division; Park''s state visit; the treaty signed, approved, in force.'
+    c3: 'South Korea: its governments, the alliance, the North. Humphrey at Seoul; a second division for Vietnam; the status of forces agreement; Manila; Johnson at Seoul; the raid on the Blue House; the *Pueblo*; Vance at Seoul; Park at Honolulu; the commandos at Ulchin; the crew released at Panmunjom.'
+  - id: cal.thread.japan-and-korea-blue-house
+    s: Blue House raid
+    parent: korea
+  - id: cal.thread.japan-and-korea-civilian-rule
+    s: Civilian rule
+    parent: korea
+  - id: cal.thread.japan-and-korea-korean-troops
+    s: Korean troops for Vietnam
+    parent: korea
+  - id: cal.thread.japan-and-korea-pueblo
+    s: Pueblo
+    parent: korea
+  - id: cal.thread.japan-and-korea-rhee
+    s: Rhee's fall
+    parent: korea
+  - id: cal.thread.japan-and-korea-normalization
+    s: Treaty with Japan
+    parent: korea
+  - id: cal.thread.labor-disputes
+    s: Labor disputes
+    c: 'Strikes and lockouts: the emergency boards, the injunctions, the settlements. The steel settlement of 1960; the railroads'' work rules to a commission; the early steel settlement; the New York newspaper strike.'
+    c2: 'Strikes and lockouts: the emergency boards, the injunctions, the settlements. The newspaper strike ended; the railroads'' work rules, the emergency board, arbitration by statute, the settlement; the longshoremen''s strike; the steel settlement of 1965; the Delano grape strike; New York''s transit strike.'
+    c3: 'Strikes and lockouts: the emergency boards, the injunctions, the settlements. The transit strike settled; Delano to Sacramento, Schenley; the Texas melon strike; the airline strike; Gallup on compulsory settlement; the railroad shopcraft strike and the Special Board; the Taylor Law; New York''s teachers; the sanitation strikes in New York and Memphis; Florida''s teachers; Ocean Hill–Brownsville''s three strikes; the longshoremen''s Board of Inquiry and strike; San Francisco State''s teachers.'
+  - id: cal.thread.jobs-and-wages-airlines
+    s: Airline strike
+    parent: labor-disputes
+  - id: cal.thread.jobs-and-wages-farm-workers
+    s: Farm workers
+    parent: labor-disputes
+  - id: cal.thread.railroads
+    s: Railroads
+    parent: labor-disputes
+    c: 'The railroads'' labor disputes. The work-rules dispute, firemen on diesels: the Presidential Railroad Commission; Gallup on a law against requiring more workers than a job needs.'
+    c2: 'The railroads'' labor disputes. The work-rules dispute, firemen on diesels: the emergency board; the strike deadlines; arbitration by statute; the moratorium; the settlement. Gallup on the dispute.'
+    c3: 'The railroads'' labor disputes. The shopcraft wage dispute: the emergency board; the no-strike extensions; the strike and the Special Board; its award.'
+  - id: cal.thread.jobs-and-wages-transit
+    s: Transit strike
+    parent: labor-disputes
   - id: cal.thread.laos
     s: Laos
     c: The Laos crisis, from Kong Le's coup to the Geneva accords and after. The Assembly election; Kong Le; Savannakhet; the battle of Vientiane; Eisenhower's warning; the March maps; the cease-fire; the conference; Nam Tha; troops to Thailand; the coalition; the neutrality declaration.
@@ -480,20 +500,24 @@ entries:
   - id: cal.thread.middle-east-johnson-trip
     s: Johnson abroad
     parent: middle-east
+  - id: cal.thread.middle-east-johnson-plan
+    s: Johnson Plan
+    parent: middle-east
   - id: cal.thread.middle-east-kuwait
     s: Kuwait
     parent: middle-east
   - id: cal.thread.middle-east-samu
     s: Samu
     parent: middle-east
+  - id: cal.thread.middle-east-six-day-war
+    s: Six-Day War
+    parent: middle-east
+    c: The Arab–Israeli war of June 1967, its approach and its aftermath. Egypt's troops into Sinai; UNEF withdrawn; the Strait of Tiran closed; Johnson on the gulf; Eban in Washington; the maritime plan; Israel's strike; the hot line; the cease-fire resolutions; the *Liberty*; the Golan; the five principles; Glassboro; the General Assembly's emergency session; Khartoum; the *Eilat*; Resolution 242.
+  - id: cal.thread.middle-east-six-day-war-aftermath
+    s: Aftermath
+    parent: middle-east-six-day-war
   - id: cal.thread.middle-east-syria
     s: Syria secedes
-    parent: middle-east
-  - id: cal.thread.middle-east-johnson-plan
-    s: The Johnson Plan
-    parent: middle-east
-  - id: cal.thread.middle-east-six-day-war
-    s: The Six-Day War
     parent: middle-east
   - id: cal.thread.middle-east-yemen
     s: Yemen
@@ -545,11 +569,6 @@ entries:
     c: 'The President''s program as a whole: the State of the Union messages and the agenda they set; what falls under no field''s thread. Eisenhower''s last two; the national goals commission; the Address to the Joint Session; Fulbright–Hays.'
     c2: 'The President''s program as a whole: the State of the Union messages and the agenda they set; what falls under no field''s thread. The State of the Union, 1963; the State of the Union, 1964; the consumer message; the Great Society, Ann Arbor; the acceptance; the State of the Union, 1965; the arts and humanities foundation.'
     c3: 'The President''s program as a whole: the State of the Union messages and the agenda they set; what falls under no field''s thread. The State of the Union, 1966; the consumer message; Fair Packaging; the campaign fund; the State of the Union, 1967; the postal commission; the campaign fund held until Congress sets guidelines; the election reform message; the State of the Union, 1968; the last State of the Union.'
-  - id: cal.thread.railroads
-    s: Railroad labor disputes
-    c: 'The railroads'' labor disputes. The work-rules dispute, firemen on diesels: the Presidential Railroad Commission; Gallup on a law against requiring more workers than a job needs.'
-    c2: 'The railroads'' labor disputes. The work-rules dispute, firemen on diesels: the emergency board; the strike deadlines; arbitration by statute; the moratorium; the settlement. Gallup on the dispute.'
-    c3: 'The railroads'' labor disputes. The shopcraft wage dispute: the emergency board; the no-strike extensions; the strike and the Special Board; its award.'
   - id: cal.thread.right-and-the-military
     s: Right and the military
     c: The radical right and the officers who spoke for it. The Birch Society; Walker relieved, admonished, resigned; Fulbright's memorandum; the crusades; the Seattle and Los Angeles speeches; the muzzling hearings; Walker at Oxford.
@@ -564,9 +583,29 @@ entries:
     c: Federal aid to education, from the defeats of 1960 and 1961 to the acts of 1963 and 1965. The 1960 bill passed by both Houses and held in Rules; the 1961 message; the Rules Committee's 8–7; Calendar Wednesday refused; the college bill recommitted.
     c2: Federal aid to education, from the defeats of 1960 and 1961 to the acts of 1963 and 1965. The omnibus bill; the college facilities and vocational acts; the Library Services and Construction Act; the NDEA amendments; the 1965 message; the Elementary and Secondary Education Act; Gardner to HEW; Chicago's funds deferred; the Higher Education Act.
     c3: Federal aid to education, from the defeats of 1960 and 1961 to the acts of 1963 and 1965. The Cold War GI Bill; the 1966 amendments and the guidelines; the message on children and youth; the Teacher Corps extended; the Elementary and Secondary Education Amendments of 1967, bilingual education; "The Fifth Freedom"; the Florida teachers' walkout; *Flast v. Cohen*; the Higher Education Amendments of 1968; the District's elected board.
+  - id: cal.thread.desegregation-schools
+    s: School desegregation
+    c: Schools and universities opened under federal court orders, each event in its own thread. New Orleans; Georgia; Atlanta; Meredith at Oxford. Gallup on school integration.
+    c2: Schools and universities opened under federal court orders, each event in its own thread. Gantt at Clemson; *Goss*; the schoolhouse door; Boston's Stay Out for Freedom; Alabama's schools in September; Prince Edward's Free Schools; the Chicago, New York, Cleveland and Milwaukee boycotts; *Griffin*; *Lee v. Macon*; the Racial Imbalance Act; Chicago's grants deferred; the Charlotte bombings. Gallup on school integration.
+    c3: Schools and universities opened under federal court orders, each event in its own thread. The Seattle boycott; Boston's State aid withheld; Intermediate School 201; Alabama's act against the guidelines; Grenada; the guidelines in the House; Alabama's statewide order; the Racial Imbalance Act upheld; the track system struck in Washington; the East Los Angeles walkouts; *Green*; the busing provisos; the separate-schools clauses dropped in Oklahoma and Florida. Gallup on school integration.
+  - id: cal.thread.desegregation-schools-uga
+    s: University of Georgia
+    parent: desegregation-schools
   - id: cal.thread.sit-ins
     s: Sit-ins
     c: The student sit-ins at lunch counters, from Greensboro. Greensboro; Montgomery; Nashville; SNCC; the counters opened; Jacksonville; Rich's.
+  - id: cal.thread.south-asia
+    s: South Asia
+    c: 'India and Pakistan: their wars, American arms and food aid. Johnson at New Delhi and Karachi; Goa; the Chinese attack of October 1962; Nehru''s request; Harriman''s mission; China''s cease-fire.'
+    c2: 'India and Pakistan: their wars, American arms and food aid. Nehru''s death; the Rann of Kutch; Operation Gibraltar; the Kashmir war, the aid suspended, Resolution 211; Ayub Khan in Washington; NSAM 339 on grain.'
+    c3: 'India and Pakistan: their wars, American arms and food aid. Tashkent, Shastri''s death; Indira Gandhi chosen; Food for Freedom; Humphrey at Karachi and New Delhi; Indira Gandhi in Washington; the food message and resolution; the rupee devalued; India and the bomb; the short tether; Svetlana Alliluyeva at New Delhi; the food message of 1967 and its resolution.'
+    aliases: [cal.thread.india-and-china]
+  - id: cal.thread.india-and-china-food
+    s: Food for India
+    parent: south-asia
+  - id: cal.thread.india-and-china-kashmir
+    s: Kashmir war
+    parent: south-asia
   - id: cal.thread.south-carolina
     s: South Carolina
     c: 'South Carolina, 1962–65: Clemson and the schools; Thurmond''s and Watson''s breaks with their party. Corinne Riley to her husband''s seat.'
@@ -646,17 +685,6 @@ entries:
     s: Succession
     c: Johnson's first weeks, and the succession amended. The oath; the first meeting on Vietnam; NSAM 273; the joint session; the Kennedy program; the first news conference; the budget; the disability amendment in the Senate; the disability message; the Twenty-fifth Amendment through Congress; Johnson's surgery.
     c3: Johnson's first weeks, and the succession amended. The Amendment before the States; Johnson's second operation; the Amendment ratified.
-  - id: cal.thread.testing
-    s: Testing
-    c: Nuclear testing and arms control. The threshold proposal; France's first test; the Ten-Nation Committee; the moratorium declaration; the Antarctic Treaty; the Soviet resumption; American tests underground; ACDA; the fifty megatons; atmospheric tests resumed; Geneva; Starfish Prime; Khrushchev's inspection offer.
-    c2: Nuclear testing and arms control. The inspection talks; American University; the hot line; Moscow; the treaty and the Senate's consent; the Geneva proposals; the cut in fissionable material; China's test; the Gilpatric committee on proliferation.
-    c3: Nuclear testing and arms control. China's third test; nonproliferation with Gromyko; China's hydrogen bomb; the nonproliferation drafts at Geneva; Boxcar; the treaty commended, signed, sent to the Senate; Kosygin on strategic arms; MIRV tested; France's hydrogen bomb; the Senate's delay.
-  - id: cal.thread.testing-missile-talks
-    s: Missile talks
-    parent: testing
-  - id: cal.thread.testing-npt
-    s: Nonproliferation treaty
-    parent: testing
   - id: cal.thread.trade
     s: Trade
     c: Trade and the tariff, from the Trade Expansion Act through the Kennedy Round. The OECD convention; the House and Senate votes; Herter named.
@@ -668,10 +696,10 @@ entries:
     c2: The administration's people and organization. Gronouski for Day; Sorensen leaves, Rowan for Murrow; Shriver; Hoover kept past seventy; Taylor for Lodge, Wheeler to the Joint Chiefs; Robert Kennedy resigns; Heller and Hodges go; the inauguration; Katzenbach; Fowler for Dillon; Raborn for McCone; the ethics order; Lodge for Taylor; Stevenson's death, Goldberg to the UN; Gardner; planning-programming-budgeting; O'Brien and Gronouski.
     c3: The administration's people and organization. NSAM 341; Rostow; Helms for Raborn; Ball out, Katzenbach in; Boyd at Transportation; Trowbridge for Connor; Ramsey Clark Attorney General; Clifford for McNamara; Gardner leaves, Cohen for him; C. R. Smith; Shriver to Paris; Watson for O'Brien; Ball for Goldberg, then Wiggins; the transition plans; Nixon at the White House; Kissinger; Nixon's Cabinet; Barr for Fowler; the new NSC system; Lodge for Harriman; Mandel for Agnew; Nixon's inauguration.
   - id: cal.thread.transition-and-staff-cabinet
-    s: The cabinet named
+    s: Cabinet named
     parent: transition-and-staff
   - id: cal.thread.transition-and-staff-nsc
-    s: The NSC system
+    s: NSC system
     parent: transition-and-staff
   - id: cal.thread.transportation
     s: Transportation
@@ -685,13 +713,37 @@ entries:
     s: Vietnam
     c: The deepening commitment in Vietnam. Tây Ninh; the Caravelle petition; the Party's Third Congress; Durbrow's démarche; the paratroop coup; the National Liberation Front; the counterinsurgency plan; Johnson's trip; NSAM 52; Staley; Taylor–Rostow; NSAM 111; helicopters and the first dead; MACV; strategic hamlets; Galbraith's dissent; McNamara's visits; Mansfield's report; Ấp Bắc.
     c2: The deepening commitment in Vietnam. Ấp Bắc; Mansfield's report published; the Buddhist crisis; Lodge; cable 243; the McNamara–Taylor report; the coup; NSAM 273; Khánh's coup; NSAM 288; Taylor for Lodge; the Gulf of Tonkin and the resolution; Biên Hòa; the December decisions; Pleiku and Flaming Dart; Rolling Thunder; Đà Nẵng; Johns Hopkins; the first pause; Kỳ prime minister; July 28; Ia Drang; the pause and the peace offensive.
-    c3: The deepening commitment in Vietnam. The bombing resumed; the Fulbright hearings; Honolulu; the Struggle Movement; the oil depots; Marigold; the Constituent Assembly; McNamara's October memorandum; Manila; Salisbury in Hanoi; Sunflower and the letters to Hồ Chí Minh; Cedar Falls and Junction City; Guam; the constitution; Westmoreland's request and McNamara's May memorandum; Pennsylvania; the Stennis hearings; Thiệu and Kỳ elected; San Antonio; Đắk Tô; Mansfield's resolution; McNamara's November memorandum; Khe Sanh; Tet; Huế retaken; the 205,000; the Wise Men; the Mar. 31 address; the Paris talks; the second offensive; the bombing halt; Saigon's refusal; the shape of the table.
+    c3: The deepening commitment in Vietnam. The bombing resumed; the Fulbright hearings; Honolulu; the Struggle Movement; the oil depots; Marigold; the Constituent Assembly; McNamara's October memorandum; Manila; Salisbury in Hanoi; Sunflower and the letters to Hồ Chí Minh; Cedar Falls and Junction City; Guam; the constitution; Westmoreland's request and McNamara's May memorandum; Pennsylvania; the Stennis hearings; Thiệu and Kỳ elected; San Antonio; Đắk Tô; Mansfield's resolution; McNamara's November memorandum; Khe Sanh; Tet; Huế retaken; the 205,000 request; the Wise Men; the Mar. 31 address; the Paris talks; the second offensive; the bombing halt; Saigon's refusal; the shape of the table.
+  - id: cal.thread.vietnam-air-war
+    s: Air war
+    parent: vietnam
+    c: The bombing of North Vietnam in 1967, its targets and restrictions. The Haiphong power plants; Kép and Hòa Lạc; the *Turkestan* and the *Mikhail Frunze*; McNamara's memorandum against the Chiefs' program; the Stennis hearings; the Long Biên bridge; the targets before Sept. 1; Phúc Yên; the Stennis report; the target list at the news conference.
   - id: cal.thread.vietnam-asian-trip
     s: Asian trip
+    parent: vietnam
+  - id: cal.thread.vietnam-pause
+    s: Bombing pause
+    parent: vietnam
+  - id: cal.thread.vietnam-struggle
+    s: Buddhist Uprising
     parent: vietnam
   - id: cal.thread.vietnam-buttercup
     s: Buttercup
     parent: vietnam
+  - id: cal.thread.vietnam-force-levels
+    s: Force levels
+    parent: vietnam
+    c: The decisions on American troop strength in Vietnam. Taylor's 4,200 more advisers; the Marines for Đà Nẵng; NSAM 328; Honolulu, 82,000; Westmoreland's forty-four battalions; thirteen battalions announced; the July decision, the 125,000 of July 28; McNamara's 74 battalions.
+    c3: The decisions on American troop strength in Vietnam. McNamara's cut of the Chiefs' plan, 469,000 by June 1968; Program 5, Westmoreland's request, the 525,000; the 205,000 request, Clifford's group, the Wise Men; the reserves called.
+  - id: cal.thread.vietnam-205000
+    s: 205,000 request
+    parent: vietnam-force-levels
+  - id: cal.thread.vietnam-july-decision
+    s: July decision
+    parent: vietnam-force-levels
+  - id: cal.thread.vietnam-program-5
+    s: Program 5
+    parent: vietnam-force-levels
   - id: cal.thread.vietnam-hearings
     s: Fulbright hearings
     parent: vietnam
@@ -704,6 +756,10 @@ entries:
   - id: cal.thread.vietnam-marigold
     s: Marigold
     parent: vietnam
+    c: The Polish channel to Hanoi, June–December 1966. D'Orlandi and Lewandowski at Saigon; the ten points read to Lodge; the strikes near Hanoi; the Warsaw meeting not held; the ten-mile limit around Hanoi; Rapacki ends it.
+  - id: cal.thread.vietnam-may-offensive
+    s: May offensive
+    parent: vietnam
   - id: cal.thread.vietnam-mayflower
     s: Mayflower
     parent: vietnam
@@ -714,16 +770,14 @@ entries:
     s: Packers
     parent: vietnam
   - id: cal.thread.vietnam-paris
-    s: Paris
+    s: Paris talks
     parent: vietnam
+    c: The talks with Hanoi, from Hanoi's answer to the address of Mar. 31, 1968. The site; the Majestic, Harriman and Vance; Kosygin's letter; the private meetings with Lê Đức Thọ; Saigon's place; the bombing halt; Thiệu's refusal; Saigon's delegation; the shape of the table; Lodge for Harriman; the first procedural meeting.
   - id: cal.thread.vietnam-pennsylvania
     s: Pennsylvania
     parent: vietnam
   - id: cal.thread.vietnam-prisoners
     s: Prisoners
-    parent: vietnam
-  - id: cal.thread.vietnam-program-5
-    s: Program 5
     parent: vietnam
   - id: cal.thread.vietnam-saigon
     s: Saigon's governments
@@ -731,11 +785,11 @@ entries:
   - id: cal.thread.vietnam-elections
     s: South Vietnam's elections
     parent: vietnam
-  - id: cal.thread.vietnam-struggle
-    s: Struggle Movement
-    parent: vietnam
   - id: cal.thread.vietnam-sunflower
     s: Sunflower
+    parent: vietnam
+  - id: cal.thread.vietnam-supplemental
+    s: Supplemental appropriation
     parent: vietnam
   - id: cal.thread.vietnam-tet
     s: Tet
@@ -743,26 +797,8 @@ entries:
   - id: cal.thread.vietnam-thant
     s: Thant's proposal
     parent: vietnam
-  - id: cal.thread.vietnam-205000
-    s: The 205,000
-    parent: vietnam
-  - id: cal.thread.vietnam-air-war
-    s: The air war
-    parent: vietnam
-  - id: cal.thread.vietnam-july-decision
-    s: The July decision
-    parent: vietnam
-  - id: cal.thread.vietnam-may-offensive
-    s: The May offensive
-    parent: vietnam
-  - id: cal.thread.vietnam-pause
-    s: The pause
-    parent: vietnam
-  - id: cal.thread.vietnam-supplemental
-    s: The supplemental
-    parent: vietnam
   - id: cal.thread.vietnam-johnson-asia
-    s: The Vice President in Asia
+    s: Vice President in Asia
     parent: vietnam
   - id: cal.thread.vietnam-abrams
     s: Westmoreland to Abrams

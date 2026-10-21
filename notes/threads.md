@@ -10,8 +10,10 @@ what the thread is and its stations, without "as Washington met it", "and Washin
 
 Scopes taken out of the statements, kept here:
 
-- Soviet Union: the Soviet Union as Washington met it, apart from Berlin, Cuba and testing (each its own thread).
-- India and China: South Asia and Indonesia as Washington met them.
+- Soviet Union: the Soviet Union as Washington met it, apart from Berlin, Cuba, and Arms control and testing (each its own thread).
+- South Asia: India and Pakistan as Washington met them; China and Indonesia are threads of their own (the owner's
+  ruling, Oct. 21, 2026, parting India and China). The Sino-Indian war takes South Asia, also China.
+- Cyprus: its own thread, out of Europe and the alliance and the Middle East (Oct. 21, 2026).
 - King: Martin Luther King, Jr., and Washington: the President, the Attorney General, the Bureau (the statement
   keeps "The President, the Attorney General, the Bureau").
 - Black nationalism: Black nationalism as Washington met it (the statement opens "Malcolm X and the Nation of Islam").
@@ -20,7 +22,12 @@ Scopes taken out of the statements, kept here:
 - Africa: Africa as Washington met it, apart from the Congo (its own thread): South Africa, decolonization at the UN.
 - Sit-ins: the student sit-ins of 1960 at lunch counters, an event of their own; other segregation in public places is
   in Desegregation: public places, the Freedom Rides in their own thread.
-- Japan and Korea: the alliances as Washington met them: the treaties, the governments, the visits.
+- Japan; Korea: each alliance as Washington met it: the treaties, the governments, the visits (one thread until Oct. 21,
+  2026). A matter between the two (the treaty of 1965, Ōhira's offer) takes Korea, also Japan.
+- Labor disputes: strikes and lockouts, the emergency boards, the Taft-Hartley injunctions, the settlements, taken out of
+  Jobs and wages (Oct. 21, 2026), the railroads' disputes its subthread; a strike in a State's or a city's thread, or in
+  Steel, King or Students, takes Labor disputes in `also`. Jobs and wages keeps unemployment, depressed areas, wages,
+  the unions' law (14(b), the Taylor Law).
 - Students: college and university students in politics: their organizations, demonstrations, and manifestos (the
   statement keeps the first clause).
 - The States and the cities (Oct. 14, 2026, at the owner's request for State and local elections and politics): each
@@ -33,6 +40,8 @@ Scopes taken out of the statements, kept here:
   of Alabama, Georgia, Mississippi or South Carolina alone takes that State's thread first. Each entry carries hidden
   tags for the States and cities it concerns (`state:ny`, `city:nyc`), for State threads or lists later; none yet beyond
   the four.
+
+Names: no thread or subthread name begins with "The" (the owner's rule, Oct. 21, 2026): "Bay of Pigs", "Air war".
 
 Order: th.yaml in alphabetical order of the threads' names, as shown; War on poverty under "poverty", Bobby Baker under
 "Baker", Robert Kennedy under "Kennedy" (`THREAD_SORT_AS` in tools/bib/check.py; `check` warns otherwise [thread-order]).
