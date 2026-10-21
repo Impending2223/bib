@@ -612,6 +612,29 @@ Events Gibbons treats that the calendar lacks, not entered: no record reached an
   1963–69 remain (`python3 tools/daybook/make_bulletin.py YEAR`); 1962's issues of Mar. 26, June 25, Aug. 6, Sept. 3,
   17, 24, Oct. 1, 8, 22, Nov. 12, 26, Dec. 24, 31 without an index read (cover not found, or no page numbers).
 
+### The war's dead and strength (indicators/war-*.yaml; tools/indicators/make_war.py)
+
+- The milestones as announced (the 1,000th, 10,000th, 20,000th, 30,000th American dead), for calendar entries in the
+  thread Vietnam, dated by the record: not entered, no record read. The figures printed then put the crossings of the
+  hostile dead (from Jan. 1, 1961) about early Nov. 1965 (267 through 1964; 1,369 in 1965), mid-May 1967 (6,644
+  through 1966; 9,480 through April, 10,713 through May, by the *Southeast Asia Analysis Report*, Oct. 1967), the second
+  half of March 1968 (16,022 through 1967; 20,891 through Mar. 31, 1968, *Statistical Abstract*, 1968) and about mid-Dec.
+  1968 (30,614 through 1968, *Statistical Abstract*, 1969); a Thursday release follows each. Read: the *Times* the Friday
+  after (TimesMachine; nytimes.com and TimesMachine refuse this environment, DataDome) or the DoD release. Tried here:
+  the University Daily Kansan (digital.lib.ku.edu, open, OCR; Sept.-Dec. 1965 carries no weekly figures; its spring
+  1967 and 1968 and fall 1968 batches not found by id), the Michigan Daily, CDNC, the Battalion (TAMU), the UNI
+  repository (bot-checked or refused), govinfo's search of the bound *Congressional Record* (works with DEMO_KEY, then
+  rate-limited; a key would serve: members inserted the weekly figures).
+- The weekly announced dead and strength (the "then" columns by month): the Thursday releases as the *Times* printed
+  them, Jan. 1965-Jan. 1969, about 210 issues; only Jan.-Sept. 1967 (deaths) is read, from the *SEA Analysis Report*.
+- MACV's month-end strength (the "today" column by month): the MACV Command Histories (Texas Tech's Virtual Vietnam
+  Archive, refused here); the *SEA Analysis Report*'s deployment articles, Dec. 1966-Dec. 1968, give MACV's preliminary
+  strength at irregular dates (Thayer, *A Systems Analysis View*, vol. 2, pp. 131-167, DTIC ADA051609).
+- The *Statistical Abstract*, 1969, prints 14,500 for the forces at the end of 1962 ("1961-1962" column), against
+  11,300 in the 1967 and 1968 editions and the DoD's table of 1974: Check the column's meaning.
+- Deaths by province of South Vietnam (DCAS field 28, casualty province): a map a year beside the Indochina maps
+  (tools/bib/vnmap.py, another agent's).
+
 ## The Executive roster
 
 - NSCID No. 1: the texts of 1958, 1964 and 1972 not found (`usib.yaml`). Lay shown as the Board's Executive Secretary only for Mar. 1964, in a note.

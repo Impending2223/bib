@@ -312,13 +312,15 @@ def day_heading(t):
 
 
 def resolve(h, prev, year):
-    """The date a heading names: as read where the weekday agrees and it falls after the day before; else the date
+    """The date a heading names: as read where the weekday agrees (and it is not the day before); else the date
     within three weeks after the day before with that weekday and month whose day reads most like the heading's."""
     wd, mo, d = h
     if d:
         try:
             x = datetime.date(year, mo, d)
-            if x.weekday() == WEEKDAYS.index(wd) and (prev is None or x > prev):
+            # as read, the weekday agreeing: even before the day before (the bound volume of 1961 sets its last
+            # days, Sept. 21-26, in reverse order)
+            if x.weekday() == WEEKDAYS.index(wd) and x != prev:
                 return x
         except ValueError:
             pass
@@ -445,7 +447,7 @@ VALID = {("S", "Interstate and Foreign Commerce"): ("", "1961-02-01"), ("S", "Co
          ("S", "Select Committee on Standards and Conduct"): ("1964-07-24", "9999")}
 
 
-def committee_of(ch, lead, day="1965-01-01"):
+def committee_of(ch, lead, day="1965-01-01", before=None):
     """(chamber, printed, code, name) for a meeting's lead ('Committee on Foreign Relations') on the day."""
     printed = clean(lead)
     t = re.sub(r"^(?:[/fI] ?oint|J ?oi\S*)\b", "Joint", printed)
@@ -453,6 +455,8 @@ def committee_of(ch, lead, day="1965-01-01"):
     t = re.sub(r"\s+", " ", t).strip(" .,'")
     if re.match(r"(?i)joint\b", t) or re.match(r"(?i)conferees", t):
         ch = "J"
+    elif ch == "J":                   # a chamber's committee under 'Joint Committee Meetings': the chamber before
+        ch = before or "S"
     if re.match(r"(?i)conferees", t):
         return ch, printed, "j.conferees", "Conferees"
     def best_of(c):
@@ -476,6 +480,14 @@ def committee_of(ch, lead, day="1965-01-01"):
             ch, best, score = other, b2, s2
     if best and score >= .85:
         return ch, printed, code_of(ch, best), best
+    # a name the OCR cut short ('Committee on Banking and'): the one name it begins
+    if len(letters(t)) >= 16:
+        pre = {n for n in COMMITTEES[ch] for f in ([n] if n.startswith(("Select", "Special", "Joint")) else
+                                                    [f"Committee on {n}", f"Committee on the {n}"])
+               if letters(f).startswith(letters(t))}
+        if len(pre) == 1:
+            n = pre.pop()
+            return ch, printed, code_of(ch, n), n
     return ch, printed, code_of(ch, t), t
 
 
@@ -801,6 +813,7 @@ def sub_of(text):
     s = m.group(1).strip(" ,.")
     s = re.sub(r"\s+(?:held|met|began|continued|resumed|heard|in|to|and)$", "", s)
     s = re.sub(r",.*$", "", s)
+    s = re.sub(r"^The\s+", "", s)
     return s if s != "Subcommittee" else None
 
 
@@ -819,7 +832,7 @@ def read_volume(year, bbox):
     url = URL.format(y=year, p=VOLS[year])
     rows, day, chamber, mode, prev = [], None, None, None, None
     cur = None                                  # the meeting being read: dict with lines
-    heading, last_heading, blocked, met = None, False, False, set()
+    heading, last_heading, blocked, met, before = None, False, False, set(), None
 
     def close():
         nonlocal cur
@@ -845,8 +858,14 @@ def read_volume(year, bbox):
             if day is None:
                 continue
             s = section_mark(t)
-            if s in ("senate", "house") and k != "S" or blocked and s != "resume":
+            if s in ("senate", "house") and k != "S":
                 s = None
+            # after the Resume, nothing till the next day or a chamber's own heading (the bound volume of 1961 sets
+            # its Resume within the day of Sept. 20)
+            if blocked and s not in ("resume", "senate", "house"):
+                s = None
+            if s in ("senate", "house"):
+                blocked = False
             if s:
                 close()
                 if s == "senate":
@@ -854,6 +873,7 @@ def read_volume(year, bbox):
                 elif s == "house":
                     chamber, mode = "H", None
                 elif s == "joint":
+                    before = chamber if chamber in ("S", "H") else before
                     chamber, mode = "J", "meetings"
                 elif s == "meetings":
                     # the day's first meetings with no chamber's heading read: the Senate's, which come first
@@ -900,7 +920,18 @@ def read_volume(year, bbox):
                 m = None                     # a list within the paragraph ('Committee on Commerce: S. Res. 283-$360,000;')
             if m:
                 close()
-                ch, printed, code, name = committee_of(chamber, m[0], day.isoformat())
+                prior = cur if cur is not None else rows[-1] if rows and rows[-1]["date"] == day else None
+                if re.match(r"\W*Sub", m[0]) and prior is not None:
+                    # 'Subcommittee on Census and Government Statistics:' after its committee's paragraph: another
+                    # meeting of the same committee
+                    close()
+                    cur = {"date": day, "ch": prior["ch"], "committee": prior["committee"], "code": prior["code"],
+                           "name": prior["name"], "heading": heading or prior.get("heading"), "sub0": clean(m[0]),
+                           "lines": [m[1]], "pdf": pi, "_lead_done": True}
+                    heading = None
+                    continue
+                close()
+                ch, printed, code, name = committee_of(chamber, m[0], day.isoformat(), before)
                 cur = {"date": day, "ch": ch, "committee": printed, "code": code, "name": name,
                        "heading": heading, "lines": [m[1]], "pdf": pi, "_lead_done": True}
                 heading = None
@@ -934,11 +965,12 @@ def finish(rows, fol, url):
         ex, op = session_of(text)
         x = {"key": f"cmte:{d.isoformat()}-{n}", "src": "cmte", "date": d.isoformat(), "ch": r["ch"],
              "committee": r["committee"], "code": r["code"], "name": r["name"]}
-        sub = sub_of(text)
+        sub = r.get("sub0") or sub_of(text)
         if sub:
             x["sub"] = sub
         if r.get("heading"):
-            x["heading"] = r["heading"]
+            # a stop the OCR put inside a word ('AREA RED.EV.ELOPMENT', 'SERVIC.E'); not 'D.C.', 'U.S.'
+            x["heading"] = re.sub(r"(?<=[A-Z]{2})\.(?=[A-Z])", "", r["heading"])
         b = bills_of(text)
         if b:
             x["bills"] = b
