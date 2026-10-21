@@ -176,6 +176,9 @@ entries:
     c: Schools and universities opened under federal court orders, each event in its own thread. New Orleans; Georgia; Atlanta; Meredith at Oxford. Gallup on school integration.
     c2: Schools and universities opened under federal court orders, each event in its own thread. Gantt at Clemson; *Goss*; the schoolhouse door; Boston's Stay Out for Freedom; Alabama's schools in September; Prince Edward's Free Schools; the Chicago, New York, Cleveland and Milwaukee boycotts; *Griffin*; *Lee v. Macon*; the Racial Imbalance Act; Chicago's grants deferred; the Charlotte bombings. Gallup on school integration.
     c3: Schools and universities opened under federal court orders, each event in its own thread. The Seattle boycott; Boston's State aid withheld; Intermediate School 201; Alabama's act against the guidelines; Grenada; the guidelines in the House; Alabama's statewide order; the Racial Imbalance Act upheld; the track system struck in Washington; the East Los Angeles walkouts; *Green*; the busing provisos; the separate-schools clauses dropped in Oklahoma and Florida. Gallup on school integration.
+  - id: cal.thread.desegregation-schools-uga
+    s: University of Georgia
+    parent: desegregation-schools
   - id: cal.thread.draft
     s: Draft
     c: Selective Service. The message and the Marshall Commission's lottery; Muhammad Ali's refusal and conviction; the Military Selective Service Act; Stop the Draft Week; Hershey's letter to the boards and his statement with Ramsey Clark; the Boston indictments.
@@ -192,6 +195,9 @@ entries:
     parent: economy
   - id: cal.thread.economy-debt-limit
     s: The debt limit
+    parent: economy
+  - id: cal.thread.economy-franc
+    s: The franc and the mark
     parent: economy
   - id: cal.thread.economy-investment-credit
     s: The investment credit
@@ -270,6 +276,9 @@ entries:
     parent: europe-and-the-alliance
   - id: cal.thread.europe-and-the-alliance-kennedy-in-europe
     s: Kennedy in Europe
+    parent: europe-and-the-alliance
+  - id: cal.thread.europe-and-the-alliance-jupiters
+    s: The Jupiters
     parent: europe-and-the-alliance
   - id: cal.thread.europe-and-the-alliance-turkey
     s: The Turkish coup
@@ -352,6 +361,12 @@ entries:
   - id: cal.thread.japan-and-korea-far-east
     s: Eisenhower in the Far East
     parent: japan-and-korea
+  - id: cal.thread.japan-and-korea-normalization
+    s: Korea–Japan treaty
+    parent: japan-and-korea
+  - id: cal.thread.japan-and-korea-korean-troops
+    s: Korean troops for Vietnam
+    parent: japan-and-korea
   - id: cal.thread.japan-and-korea-pueblo
     s: Pueblo
     parent: japan-and-korea
@@ -412,6 +427,9 @@ entries:
   - id: cal.thread.latin-america-panama
     s: Panama
     parent: latin-america
+  - id: cal.thread.latin-america-peru
+    s: Peru
+    parent: latin-america
   - id: cal.thread.legislatures
     s: Legislatures
     c: 'The State legislatures: their elections, their control, their apportionment. Reapportionment refused at the polls in California and Oklahoma; Unruh Speaker; after *Baker v. Carr*, special sessions in Tennessee, Alabama, Georgia and Maryland, and the courts in Michigan, Oklahoma, Florida and Virginia; the commission''s report; each November''s count of chambers.'
@@ -444,8 +462,14 @@ entries:
   - id: cal.thread.middle-east-iran-oil
     s: Iran's oil
     parent: middle-east
+  - id: cal.thread.middle-east-kuwait
+    s: Kuwait
+    parent: middle-east
   - id: cal.thread.middle-east-samu
     s: Samu
+    parent: middle-east
+  - id: cal.thread.middle-east-syria
+    s: Syria secedes
     parent: middle-east
   - id: cal.thread.middle-east-six-day-war
     s: The Six-Day War
@@ -549,6 +573,9 @@ entries:
     c: The space race and the moon program. Huntsville to NASA; Tiros; Echo; Corona; Gagarin; the Space Council; Shepard; the moon message; Grissom, Titov, Glenn, Carpenter, Schirra; Houston; Telstar; Rice Stadium; the moon first; Mariner 2.
     c2: The space race and the moon program. Comsat's incorporators; Cooper; Syncom; the joint expedition offered; Cape Kennedy; Saturn I; Ranger 7; Gemini 3, 4 and 5; the Manned Orbiting Laboratory; Gemini 6 and 7.
     c3: The space race and the moon program. Luna 9; See and Bassett killed; Gemini 8 to 12; Surveyor; Lunar Orbiter; the Apollo fire and its review board; Komarov; the Outer Space Treaty signed, consented to, in force; the communications message; Apollo 4, the first Saturn V; the rescue agreement; Apollo 7; Apollo 8.
+  - id: cal.thread.space-apollo
+    s: Apollo 7 and 8
+    parent: space
   - id: cal.thread.specials
     s: Special elections
     c: The special elections that filled seats in the 86th, 87th, 88th and 89th Congresses. Burdick for Langer; Johnson's Senate seat to Tower; twelve House seats, three to widows.
@@ -585,6 +612,9 @@ entries:
   - id: cal.thread.students-columbia
     s: Columbia
     parent: students
+  - id: cal.thread.students-sf-state
+    s: San Francisco State
+    parent: students
   - id: cal.thread.succession
     s: Succession
     c: Johnson's first weeks, and the succession amended. The oath; the first meeting on Vietnam; NSAM 273; the joint session; the Kennedy program; the first news conference; the budget; the disability amendment in the Senate; the disability message; the Twenty-fifth Amendment through Congress; Johnson's surgery.
@@ -610,6 +640,12 @@ entries:
     c: The administration's people and organization. The first appointments; Key Biscayne; the cabinet named; the NSC remade; the back injury; Taylor at the White House; McCone for Dulles; the Thanksgiving reshuffle; Joseph Kennedy's stroke; Hoover's lunch; Taylor to the Joint Chiefs.
     c2: The administration's people and organization. Gronouski for Day; Sorensen leaves, Rowan for Murrow; Shriver; Hoover kept past seventy; Taylor for Lodge, Wheeler to the Joint Chiefs; Robert Kennedy resigns; Heller and Hodges go; the inauguration; Katzenbach; Fowler for Dillon; Raborn for McCone; the ethics order; Lodge for Taylor; Stevenson's death, Goldberg to the UN; Gardner; planning-programming-budgeting; O'Brien and Gronouski.
     c3: The administration's people and organization. NSAM 341; Rostow; Helms for Raborn; Ball out, Katzenbach in; Boyd at Transportation; Trowbridge for Connor; Ramsey Clark Attorney General; Clifford for McNamara; Gardner leaves, Cohen for him; C. R. Smith; Shriver to Paris; Watson for O'Brien; Ball for Goldberg, then Wiggins; the transition plans; Nixon at the White House; Kissinger; Nixon's Cabinet; Barr for Fowler; the new NSC system; Lodge for Harriman; Mandel for Agnew; Nixon's inauguration.
+  - id: cal.thread.transition-and-staff-cabinet
+    s: The cabinet named
+    parent: transition-and-staff
+  - id: cal.thread.transition-and-staff-nsc
+    s: The NSC system
+    parent: transition-and-staff
   - id: cal.thread.transportation
     s: Transportation
     c: 'Transportation and its safety. The message on freight rates, user charges and mass transit; New York: the Lower Manhattan Expressway set aside.'
@@ -641,6 +677,9 @@ entries:
   - id: cal.thread.vietnam-marigold
     s: Marigold
     parent: vietnam
+  - id: cal.thread.vietnam-mayflower
+    s: Mayflower
+    parent: vietnam
   - id: cal.thread.vietnam-commitments
     s: National commitments
     parent: vietnam
@@ -658,6 +697,9 @@ entries:
     parent: vietnam
   - id: cal.thread.vietnam-program-5
     s: Program 5
+    parent: vietnam
+  - id: cal.thread.vietnam-saigon
+    s: Saigon's governments
     parent: vietnam
   - id: cal.thread.vietnam-elections
     s: South Vietnam's elections
@@ -680,11 +722,17 @@ entries:
   - id: cal.thread.vietnam-air-war
     s: The air war
     parent: vietnam
+  - id: cal.thread.vietnam-july-decision
+    s: The July decision
+    parent: vietnam
   - id: cal.thread.vietnam-may-offensive
     s: The May offensive
     parent: vietnam
   - id: cal.thread.vietnam-supplemental
     s: The supplemental
+    parent: vietnam
+  - id: cal.thread.vietnam-johnson-asia
+    s: The Vice President in Asia
     parent: vietnam
   - id: cal.thread.vietnam-abrams
     s: Westmoreland to Abrams

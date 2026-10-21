@@ -18,6 +18,13 @@ entries:
     c: 'House accepts the Senate''s bill, [289–126](https://voteview.com/rollcall/RH0880182). Civil Rights Act signed that evening in the East Room, [78 Stat. 241](https://www.govinfo.gov/content/pkg/STATUTE-78/pdf/STATUTE-78-Pg241.pdf), on television: "Let us close the springs of racial poison." Collins to be named director of the Community Relations Service.'
     n: 'Statute (K–J Cong. II.J.2). [110 Cong. Rec., House, July 2, 1964](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt12/pdf/GPO-CRECB-1964-pt12-4-2.pdf). [Radio and Television Remarks Upon Signing the Civil Rights Bill](https://www.presidency.ucsb.edu/documents/radio-and-television-remarks-upon-signing-the-civil-rights-bill) (July 2, 1964). [[w.kotz-judgment-days]]. See [[cal.1964-02-10.civil-rights-bill]]; [[cal.1964-06-10.civil-rights-bill]]. Names: Johnson, Collins.'
     tags: [name:johnson-lyndon-b, name:collins-leroy]
+  - id: cal.1964-07-02.robert-kennedy
+    when: July 2
+    date: '1964-07-02'
+    thread: robert-kennedy
+    c: 'Robert Kennedy and Johnson by telephone: Kennedy misquoted in *Newsweek*; Johnson on the press''s efforts to divide them.'
+    n: '[Johnson and Robert Kennedy, 11:19 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-kennedy-july-2-1964), Tape WH6407.01, Citation #4117 (Miller Center). See [[cal.1964-06-26.robert-kennedy]]. Names: Robert Kennedy, Johnson.'
+    tags: [name:kennedy-robert-f, name:johnson-lyndon-b]
   - id: cal.1964-07-03.civil-rights-bill
     when: July 3
     date: '1964-07-03'
@@ -27,13 +34,13 @@ entries:
     n: '*Heart of Atlanta Motel, Inc. v. United States*, [231 F. Supp. 393](https://static.case.law/f-supp/231/html/0393-01.html) (N.D. Ga. 1964); *Willis v. Pickrick Restaurant*, [231 F. Supp. 396](https://static.case.law/f-supp/231/html/0396-01.html) (N.D. Ga. 1964). *Heart of Atlanta Motel, Inc. v. United States* (K–J Cong. II.J.1). [[w.landsberg-enforcing-civil-rights]]; [[w.graham-civil-rights-era]]. See [[cal.1964-07-02.civil-rights-bill]]. Names: Maddox.'
     tags: [name:maddox-lester]
   - id: cal.1964-07-04.alabama
-    when: July 4–9
+    when: July 4
     date: '1964-07-04'
-    thread: alabama
-    also: [voting-rights, desegregation-public-places]
-    c: Selma tests the Civil Rights Act. July 4, four students arrested at the Thirsty Boy drive-in, Sheriff Clark using a cattle prod; Black teenagers made to leave the Wilby Theatre, which Clark closes. July 5, his possemen club and gas the crowd leaving a mass meeting. July 6, 53 arrested at the courthouse, where pickets urged registration. July 9, Circuit Judge Hare enjoins gatherings of three or more in public, naming some 47 persons and 15 organizations, the Klan among them. Sept. 2, the United States sues Clark, Hare, the circuit solicitor, the probate judge and the city (*United States v. Clark*); heard in December by a three-judge court.
-    n: '*United States v. Clark*, [249 F. Supp. 720](https://static.case.law/f-supp/249/html/0720-01.html) (S.D. Ala. 1965) (the findings); [the case](https://clearinghouse.net/case/14753/), Civil Rights Litigation Clearinghouse (filed Sept. 2, 1964). [[w.garrow-protest-at-selma]]; [[w.carson-in-struggle]]; [[w.lewis-walking-with-the-wind]]. See [[cal.1964-03-19.voting-rights]]; [[cal.1964-07-03.civil-rights-bill]]. Names: James Clark, Hare.'
-    tags: [name:clark-james-g-jr, name:hare-james-a]
+    thread: voting-rights-selma
+    also: [alabama, desegregation-public-places]
+    c: Selma tests the Civil Rights Act. Four students arrested at the Thirsty Boy drive-in, Sheriff Clark using a cattle prod; Black teenagers made to leave the Wilby Theatre, which Clark closes.
+    n: '*United States v. Clark*, [249 F. Supp. 720](https://static.case.law/f-supp/249/html/0720-01.html) (S.D. Ala. 1965) (the findings). [[w.garrow-protest-at-selma]]; [[w.carson-in-struggle]]; [[w.lewis-walking-with-the-wind]]. See [[cal.1964-03-19.voting-rights]]; [[cal.1964-07-03.civil-rights-bill]]. Names: James Clark.'
+    tags: [name:clark-james-g-jr]
   - id: cal.1964-07-04.middle-east
     when: July 4
     date: '1964-07-04'
@@ -41,6 +48,14 @@ entries:
     c: 'Tehran. Holmes and the Minister of Court sign the memorandum of understanding on arms: $200 million in credit, $50 million in cash, for the modernization of Iran''s forces. The Shah: the most to be spent on present revenues; free to ask for more if revenues rise.'
     n: '[FRUS 1964–68, XXII, doc. 49](https://history.state.gov/historicaldocuments/frus1964-68v22/d49). [[w.mcglinchey-us-arms-policies-towards]]. See [[cal.1964-06-05.middle-east]]. Names: Holmes, Pahlavi.'
     tags: [name:holmes-julius-c, name:pahlavi-mohammed-reza]
+  - id: cal.1964-07-05.voting-rights-selma
+    when: July 5
+    date: '1964-07-05'
+    thread: voting-rights-selma
+    also: [alabama]
+    c: Selma. Sheriff Clark's possemen club and gas the crowd leaving a mass meeting.
+    n: '*United States v. Clark*, [249 F. Supp. 720](https://static.case.law/f-supp/249/html/0720-01.html) (S.D. Ala. 1965) (the findings). See [[cal.1964-07-04.alabama]]. Names: James Clark.'
+    tags: [name:clark-james-g-jr]
   - id: cal.1964-07-06.desegregation-schools
     when: July 6
     date: '1964-07-06'
@@ -49,14 +64,21 @@ entries:
     c: Jackson. Mize, in the city's school case, finds that differences between Negro and white pupils justify separate schools; bound by the Fifth Circuit's Savannah opinion, he makes his injunction permanent, the first grade open to all this fall, his order "contrary to the facts and the law," and asks that *Brown* be reconsidered. The first-named plaintiff, Darrell Kenyatta Evers, Medgar Evers's son. Biloxi and Leake County, Miss., under like orders. Biloxi's first grades open so Aug. 31, the first public schools desegregated in Mississippi; Leake County and Jackson that week. Check the dates.
     n: '*Evers v. Jackson Municipal Separate School District*, [232 F. Supp. 241](https://static.case.law/f-supp/232/html/0241-01.html) (S.D. Miss. 1964); *Evers v. Jackson Municipal Separate School District*, [328 F.2d 408](https://static.case.law/f2d/328/html/0408-01.html) (5th Cir. 1964), with the Biloxi and Leake County cases. [[w.dittmer-local-people]]; [[w.bass-unlikely-heroes]]. See [[cal.1964-06-18.desegregation-schools]]. Names: Mize, Evers.'
     tags: [name:mize-sidney-c, name:evers-medgar]
+  - id: cal.1964-07-06.voting-rights-selma
+    when: July 6
+    date: '1964-07-06'
+    thread: voting-rights-selma
+    also: [alabama]
+    c: Selma. 53 arrested at the courthouse, where pickets urged registration.
+    n: '*United States v. Clark*, [249 F. Supp. 720](https://static.case.law/f-supp/249/html/0720-01.html) (S.D. Ala. 1965) (the findings). See [[cal.1964-07-04.alabama]].'
   - id: cal.1964-07-07.europe-and-the-alliance
-    when: July 7–21
+    when: July 7
     date: '1964-07-07'
-    thread: europe-and-the-alliance
+    thread: europe-and-the-alliance-cyprus
     also: [middle-east]
-    c: 'Cyprus. The NSC, July 7. Ball: a "time bomb" that could go off in the next six weeks; 4,000 Greek troops sent to the island. Acheson at Geneva, mediating apart with Greeks and Turks. His plan, July 14–15: union with Greece, rights for the Turkish minority under international supervision, a Turkish sovereign base area on the island. Papandreou''s answer, July 21: Kastellorizo as a base, no Turkish sovereign area on Cyprus.'
-    n: 'FRUS 1964–68, XVI, docs. [82](https://history.state.gov/historicaldocuments/frus1964-68v16/d82) (the NSC), [86](https://history.state.gov/historicaldocuments/frus1964-68v16/d86), [89](https://history.state.gov/historicaldocuments/frus1964-68v16/d89). [[w.ball-past-has-another-pattern]]; [[w.brinkley-dean-acheson]]; [[w.nicolet-united-states-policy-towards]]; [[w.miller-united-states-and-the]]. See [[cal.1963-12-21.europe-and-the-alliance]]. Names: Ball, Acheson, Papandreou.'
-    tags: [name:johnson-lyndon-b, name:ball-george-w, name:acheson-dean-g, name:papandreou-george]
+    c: 'Cyprus. The NSC. Ball: a "time bomb" that could go off in the next six weeks; 4,000 Greek troops sent to the island. Acheson at Geneva, mediating apart with Greeks and Turks.'
+    n: '[FRUS 1964–68, XVI, doc. 82](https://history.state.gov/historicaldocuments/frus1964-68v16/d82). [[w.ball-past-has-another-pattern]]; [[w.brinkley-dean-acheson]]; [[w.nicolet-united-states-policy-towards]]; [[w.miller-united-states-and-the]]. See [[cal.1963-12-21.europe-and-the-alliance]]. Names: Ball, Acheson.'
+    tags: [name:johnson-lyndon-b, name:ball-george-w, name:acheson-dean-g]
   - id: cal.1964-07-09.cities-and-housing
     when: July 9
     date: '1964-07-09'
@@ -73,6 +95,14 @@ entries:
     c: Commerce Committee, on Collins's nomination to the Community Relations Service. Thurmond, at the door to keep late Senators from making a quorum, wrestles Yarborough to the floor; Magnuson parts them. The committee reports the nomination, 16–1.
     n: 'Senate Historical Office, ["Pinned"](https://www.senate.gov/artandhistory/history/minute/pinned.htm). [[w.wagy-governor-leroy-collins-of]]; [[w.crespino-strom-thurmonds-america]]. See [[cal.1964-07-02.civil-rights-bill]]. Names: Thurmond, Yarborough, Magnuson, Collins.'
     tags: [name:thurmond-strom, name:yarborough-ralph, name:magnuson-warren-g, name:collins-leroy]
+  - id: cal.1964-07-09.voting-rights-selma
+    when: July 9
+    date: '1964-07-09'
+    thread: voting-rights-selma
+    also: [alabama]
+    c: Selma. Circuit Judge Hare enjoins gatherings of three or more in public, naming some 47 persons and 15 organizations, the Klan among them.
+    n: '*United States v. Clark*, [249 F. Supp. 720](https://static.case.law/f-supp/249/html/0720-01.html) (S.D. Ala. 1965) (the findings). See [[cal.1964-07-04.alabama]]. Names: Hare.'
+    tags: [name:hare-james-a]
   - id: cal.1964-07-10.congo
     when: July 10
     date: '1964-07-10'
@@ -142,6 +172,14 @@ entries:
     c: 'Gallup, June 25–30: Republicans'' choice for 1964: Goldwater 22, Nixon 22, Lodge 21, Scranton 20, Rockefeller 6; undecided, others 9. Independents: Lodge 22, Goldwater 19, Scranton 16, Nixon 15, Rockefeller 11.'
     n: '[[w.gallup-poll]], III, 1894. Names: Goldwater, Nixon, Lodge, Scranton, Rockefeller.'
     tags: [name:goldwater-barry-m, name:nixon-richard-m, name:lodge-henry-cabot, name:scranton-william-w, name:rockefeller-nelson]
+  - id: cal.1964-07-14.europe-and-the-alliance-cyprus
+    when: July 14–15
+    date: '1964-07-14'
+    thread: europe-and-the-alliance-cyprus
+    also: [middle-east]
+    c: 'Cyprus. Acheson''s plan, at Geneva: union with Greece, rights for the Turkish minority under international supervision, a Turkish sovereign base area on the island.'
+    n: '[FRUS 1964–68, XVI, doc. 86](https://history.state.gov/historicaldocuments/frus1964-68v16/d86). See [[cal.1964-07-07.europe-and-the-alliance]]. Names: Acheson.'
+    tags: [name:acheson-dean-g]
   - id: cal.1964-07-15.elections-1964
     when: July 15–16
     date: '1964-07-15'
@@ -167,9 +205,9 @@ entries:
     when: July 18–22
     date: '1964-07-18'
     thread: states-and-cities
-    c: 'Harlem. Lieutenant Gilligan, off duty, had shot James Powell, fifteen, July 16. After a CORE rally, crowds at the 28th Precinct; four nights of rioting in Harlem and, from July 20, Bedford-Stuyvesant. One dead. July 21, Johnson: "no compromise" on law and order; the FBI to investigate.'
-    n: '[Statement by the President on the Riots in New York City](https://www.presidency.ucsb.edu/documents/statement-the-president-the-riots-new-york-city) (July 21, 1964). [[w.flamm-law-and-order]]. See [[cal.1963-11-05.states-and-cities]]. Names: Gilligan, Powell, Johnson, Hoover.'
-    tags: [name:gilligan-thomas, name:powell-james, name:johnson-lyndon-b, name:hoover-j-edgar]
+    c: Harlem. Lieutenant Gilligan, off duty, had shot James Powell, fifteen, July 16. After a CORE rally, crowds at the 28th Precinct; four nights of rioting in Harlem and, from July 20, Bedford-Stuyvesant. One dead.
+    n: 'Check: the record. [[w.flamm-law-and-order]]. See [[cal.1963-11-05.states-and-cities]]. Names: Gilligan, Powell.'
+    tags: [name:gilligan-thomas, name:powell-james]
   - id: cal.1964-07-19.elections-1964
     when: July 19
     date: '1964-07-19'
@@ -194,6 +232,21 @@ entries:
     c: 'Johnson and Robert Kennedy, five calls. Noon: protection for King, to speak in Greenwood, Miss.; Hoover and the Justice Department; the Harlem riots and an FBI inquiry, Johnson reading his statement. 1 p.m.: whether Hoover himself should go to New York; Kennedy doubts it, New York more like the Georgia killing than Mississippi. Evening: two lawyers of the Lawyers'' Committee for Civil Rights missing in Mississippi, seen at 8:25, found by 9:31; Goldwater''s request to see Johnson.'
     n: '[Johnson and Robert Kennedy, 12:25 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-kennedy-july-21-1964), Conversation WH6407-11-4288 (Miller Center); [1:00 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-kennedy-july-21-1964-0), Conversation WH6407-11-4294 (Miller Center); [8:00 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-kennedy-july-22-1964), Conversation WH6407-12-4299 (Miller Center); [8:25 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-kennedy-july-22-1964-0), Conversation WH6407-12-4300 (Miller Center); [9:31 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-kennedy-july-22-1964-1), Conversation WH6407-12-4303 (Miller Center). [Statement by the President on the Riots in New York City](https://www.presidency.ucsb.edu/documents/statement-the-president-the-riots-new-york-city) (July 21, 1964). [[w.taking-charge-2001]]; [[w.shesol-mutual-contempt]]. See [[cal.1964-07-18.states-and-cities]]. Made public: the recordings, opened by the LBJ Library. Check the year. Names: Johnson, Robert Kennedy, Martin Luther King, Hoover, Goldwater.'
     tags: [name:kennedy-robert-f, name:johnson-lyndon-b, name:king-martin-luther-jr, name:hoover-j-edgar, name:goldwater-barry-m]
+  - id: cal.1964-07-21.europe-and-the-alliance-cyprus
+    when: July 21
+    date: '1964-07-21'
+    thread: europe-and-the-alliance-cyprus
+    also: [middle-east]
+    c: 'Cyprus. Papandreou''s answer to Acheson: Kastellorizo as a base, no Turkish sovereign area on Cyprus.'
+    n: '[FRUS 1964–68, XVI, doc. 89](https://history.state.gov/historicaldocuments/frus1964-68v16/d89). See [[cal.1964-07-07.europe-and-the-alliance]]. Names: Papandreou, Acheson.'
+    tags: [name:papandreou-george, name:acheson-dean-g]
+  - id: cal.1964-07-21.states-and-cities
+    when: July 21
+    date: '1964-07-21'
+    thread: states-and-cities
+    c: 'Johnson on the riots in New York: "no compromise" on law and order; the FBI to investigate.'
+    n: '[Statement by the President on the Riots in New York City](https://www.presidency.ucsb.edu/documents/statement-the-president-the-riots-new-york-city) (July 21, 1964). See [[cal.1964-07-18.states-and-cities]]. Names: Johnson, Hoover.'
+    tags: [name:johnson-lyndon-b, name:hoover-j-edgar]
   - id: cal.1964-07-22.amendments
     when: July 22
     date: '1964-07-22'
@@ -270,6 +323,13 @@ entries:
     c: 'Arkansas, Democratic primary for governor: Faubus, for a sixth term, 239,890, 65.7 percent; three others. Winthrop Rockefeller unopposed for the Republican nomination.'
     n: 'Votes: [Ark. *Historical Report of the Secretary of State* (2018), p. 412](https://www.sos.arkansas.gov/uploads/education/2018_Historical_Report.pdf#page=421). [[w.reed-faubus]]; [[w.ward-arkansas-rockefeller]]. Names: Faubus, Winthrop Rockefeller.'
     tags: [state:ar, name:faubus-orval-e, name:rockefeller-winthrop]
+  - id: cal.1964-07-28.japan-and-korea-normalization
+    when: July 28
+    date: '1964-07-28'
+    thread: japan-and-korea-normalization
+    c: Seoul. Martial law lifted. Kim Chong-p'il has given up the party's chairmanship and gone abroad (Check the date).
+    n: 'Check: the record. See [[cal.1964-06-03.japan-and-korea]]. Names: Kim Chong-p''il.'
+    tags: [name:kim-chong-pil]
   - id: cal.1964-07-29.medicare
     when: July 29
     date: '1964-07-29'
@@ -287,12 +347,12 @@ entries:
     n: '[Photograph](https://explorepahistory.com/displayimage.php%3FimgId=1-2-F01.html), NAACP headquarters, July 30, 1964. *Student Voice*, Aug. 5, 1964: "SNCC and CORE Reject Protest Moratorium at New York Strategy Meeting." [[w.branch-pillar-of-fire]]. [[w.garrow-bearing-the-cross]]; [[w.carson-in-struggle]]; [[w.wilkins-standing-fast]]; [[w.demilio-lost-prophet]]; [[w.meier-core]]. See [[cal.1964-07-18.states-and-cities]]. Names: Wilkins, Martin Luther King, Young, Randolph, Farmer, Lewis.'
     tags: [name:wilkins-roy, name:king-martin-luther-jr, name:young-whitney-m-jr, name:randolph-a-philip, name:farmer-james, name:lewis-john]
   - id: cal.1964-07-29.desegregation-schools
-    when: July 29–Aug. 12
+    when: July 29
     date: '1964-07-29'
     thread: desegregation-schools
     also: [south-carolina]
-    c: South Carolina. On the Government's suit of July 2, Hemphill enjoins Sumter County School District No. 2 from turning away the some 970 children of Shaw Air Force Base, its schools built with $910,465 of federal aid on its assurance they would be open to them; the district had told the base, May 11, it would take them no longer. Aug. 8, on the suit of thirteen Negro children, Hemphill orders the district's schools open to them this fall and to all by choice from 1965–66. Aug. 12, the same court orders the like for Orangeburg.
-    n: '*United States v. Sumter County School District No. 2*, [232 F. Supp. 945](https://static.case.law/f-supp/232/html/0945-01.html) (E.D.S.C. 1964); *Randall v. Sumter School District No. 2*, [232 F. Supp. 786](https://static.case.law/f-supp/232/html/0786-01.html) (E.D.S.C. 1964); *Adams v. School District No. 5, Orangeburg County*, [232 F. Supp. 692](https://static.case.law/f-supp/232/html/0692-01.html) (E.D.S.C. 1964). [[w.landsberg-enforcing-civil-rights]]. See [[cal.1964-06-18.desegregation-schools]]. Names: Hemphill.'
+    c: South Carolina. On the Government's suit of July 2, Hemphill enjoins Sumter County School District No. 2 from turning away the some 970 children of Shaw Air Force Base, its schools built with $910,465 of federal aid on its assurance they would be open to them; the district had told the base, May 11, it would take them no longer.
+    n: '*United States v. Sumter County School District No. 2*, [232 F. Supp. 945](https://static.case.law/f-supp/232/html/0945-01.html) (E.D.S.C. 1964). [[w.landsberg-enforcing-civil-rights]]. See [[cal.1964-06-18.desegregation-schools]]. Names: Hemphill.'
     tags: [name:hemphill-robert-w]
   - id: cal.1964-07-30.elections-1964
     when: July 30
