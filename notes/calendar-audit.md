@@ -3,16 +3,16 @@
 Written by `./bib audit-cal` (`tools/bib/calaudit.py`): the dated entries checked against the brief in
 CLAUDE.md ("The calendar"). A review list: a hit is a place to look, not an error. Rerun after editing.
 
-4828 dated entries.
+4833 dated entries.
 
 | Check | Entries |
 |---|---|
-| A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 1325 |
+| A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 1327 |
 | (of which only a President's surname: Eisenhower, Kennedy, Johnson) | 21 |
 | Neither a bibliography of its own nor a `See [[id]]` back | 2 |
 | No primary record linked or named | 817 |
 | A primary record named but not linked | 127 |
-| Threads (statements listed for review) | 217 |
+| Threads (statements listed for review) | 218 |
 
 ## Names
 
@@ -51,6 +51,8 @@ the person; several mean the surname is shared). "?" marks a surname that is als
 - `cal.1960-04.elections-1960` (Apr., V apr60.yaml): West Virginia, after Wisconsin; its primary May 10. Kennedy's own poll there, 70–30 for him in December, now 6
   - West: West, Ben (K–J Cong. III.K); West, E. Gordon (K–J Cong. III.K)
   - ? Franklin: Franklin, C. L. (K–J Cong. III.K)
+- `cal.1960-04-01.legislatures` (Apr. 1, V apr60.yaml): Census Day. The Eighteenth Decennial Census, its count as of this date. One household in four asked the longer
+  - ? Day: Day, J. Edward (K–J Adm. III.G); Day, William S. (K–J Cong. III.K)
 - `cal.1960-04-12.governors-il` (Apr. 12, V apr60.yaml): Illinois, primaries for governor. Democratic: Kerner, a Cook County judge, slated by Daley's organization, 649
   - Hayes: Hayes, Thomas L. (K–J Cong. III.F)
 - `cal.1960-04-15.civil-rights-organizations` (Apr. 15–17, V apr60.yaml): Easter weekend at Shaw University, Raleigh. The sit-ins' student leaders, called by Ella Baker of SCLC with SC
@@ -192,6 +194,8 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Keith: Keith, Alexander M. (K–J Cong. III.K)
 - `cal.1961-01-08.opinion` (Jan. 8, XIV jan.yaml): Gallup, Dec. 8–13, 1960: for the new President and Congress to act on, holding down prices, 63 percent; medica
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1961-01-10.legislatures` (Jan. 10, XIV jan.yaml): Eisenhower transmits the Census Director's statement under 2 U.S.C. § 2a: each State's population and its Repr
+  - West: West, Ben (K–J Cong. III.K); West, E. Gordon (K–J Cong. III.K)
 - `cal.1961-01-22.opinion` (Jan. 22, XIV jan.yaml): Gallup, Dec. 8–13, 1960: which country first to send a man into space. Russia 40 percent, the United States 35
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1961-01-27.opinion` (Jan. 27, XIV jan.yaml): Gallup, Jan. 12–17: a Kennedy–Khrushchev summit this year. 54 percent for, 30 against.
@@ -4021,7 +4025,7 @@ The brief: what the thread is, and its stations, in one or two clipped sentences
 | Chennault |  |
 | Chessman |  |
 | Chicago |  |
-| China | Communist China: its bomb, its seat at the UN. The refugees at Hong Kong paroled. |
+| China | Communist China: its bomb, its seat at the UN. The refugees at Hong Kong paroled; the attack on India, the cease-fire. |
 | Cities and housing | Housing, the cities, and urban transit. The Housing Act of 1961; the Urban Affairs department refused, by Rules and by the House; Weaver. |
 | Civil disorders | Riots in the cities, and the inquiries and bills that followed. Nashville; Tampa, Cincinnati, Atlanta, Buffalo; Newark and Plainfield; Cramer's anti-riot bill through the House; Detroit, the Guard and the paratroopers; H. Rap Brown at Cambridge; the address of July 27 and the Kerner Commission; Milwaukee; the Senate's inquiry; the Miami chief's patrols. |
 | Civil rights bill | The civil rights bill from Kennedy's address to the Act and its first year. The Senators' pledge of 1960. |
@@ -4048,6 +4052,7 @@ The brief: what the thread is, and its stations, in one or two clipped sentences
 | Desegregation: public places | Segregation in travel, at lunch counters, in parks and other public places, short of the schools; each event in its own thread. *Boynton*; Burton; the Freedom Rides and the ICC order; Albany; Garner. Gallup on the Freedom Riders and on integration. |
 | Detroit |  |
 | Dimona |  |
+| Districting and apportionment | The apportionment of seats and the drawing of districts, for Congress and the State legislatures: the census, the courts, the legislatures, the voters. The 1960 census and the House reapportioned; reapportionment refused at the polls in California and Oklahoma; New York's congressional districts; *Gomillion v. Lightfoot*; *Baker v. Carr*; special sessions in Tennessee, Alabama, Georgia and Maryland; the courts in Michigan, Oklahoma, Florida and Virginia; the commission's report. |
 | Dodd |  |
 | Dominican Republic |  |
 | Draft | Selective Service. The message and the Marshall Commission's lottery; Muhammad Ali's refusal and conviction; the Military Selective Service Act; Stop the Draft Week; Hershey's letter to the boards and his statement with Ramsey Clark; the Boston indictments. |
@@ -4113,7 +4118,6 @@ The brief: what the thread is, and its stations, in one or two clipped sentences
 | Laos | The Laos crisis, from Kong Le's coup to the Geneva accords and after. The Assembly election; Kong Le; Savannakhet; the battle of Vientiane; Eisenhower's warning; the March maps; the cease-fire; the conference; Nam Tha; troops to Thailand; the coalition; the neutrality declaration. |
 | Las Vegas wiretap |  |
 | Latin America | The hemisphere's governments and the Alliance for Progress. Eisenhower in South America; Betancourt attacked; San José; the Act of Bogotá; the Alliance proposed; Trujillo killed, his family out; Punta del Este, 1961 and 1962; Goulart; coups in Argentina and Peru; Kennedy in Caracas, Bogotá, Mexico City; Bosch elected. |
-| Legislatures | The State legislatures: their elections, their control, their apportionment. Reapportionment refused at the polls in California and Oklahoma; Unruh Speaker; after *Baker v. Carr*, special sessions in Tennessee, Alabama, Georgia and Maryland, and the courts in Michigan, Oklahoma, Florida and Virginia; the commission's report; each November's count of chambers. |
 | March on Washington | The March on Washington for Jobs and Freedom, Aug. 28, 1963. |
 | Marigold | The Polish channel to Hanoi, June–December 1966. D'Orlandi and Lewandowski at Saigon; the ten points read to Lodge; the strikes near Hanoi; the Warsaw meeting not held; the ten-mile limit around Hanoi; Rapacki ends it. |
 | May offensive |  |
@@ -4177,6 +4181,7 @@ The brief: what the thread is, and its stations, in one or two clipped sentences
 | Special elections | The special elections that filled seats in the 86th, 87th, 88th and 89th Congresses. Burdick for Langer; Johnson's Senate seat to Tower; twelve House seats, three to widows. |
 | State and city finance | Taxes, budgets and borrowing in the States and cities. California's water bonds; West Virginia's income tax; Sanford's food tax; Texas's first sales tax; Detroit's income tax. |
 | State constitutions and referenda | The States' constitutions: conventions, revisions and amendments; the referenda and initiatives. Alabama's amendment elections; Mississippi's right-to-work and "good moral character" amendments; Kentucky refuses a convention; Michigan's convention called, elected, adjourned; the apportionment initiatives in the West; Illinois's Judicial Article; Propositions 23 and 24. |
+| State legislatures | The State legislatures: their elections, their control, their leaders. Each November's count of chambers; Unruh Speaker; Leroy Johnson in Georgia's Senate; Maryland's legislators' pay refused. |
 | States and cities | State and city politics where no narrower thread holds them. The Twenty-third Amendment; Chessman; the Governors' Conferences; Tower; Newburgh; Atlanta's schools; New York's Conservative Party; Nashville's Metro charter; Brooke attorney general; the Council of State Governments' amendments. |
 | Steel | Steel prices and the guideposts. The 1959 strike settled; the letter of September 1961; the early settlement; the April price rise and its rescission. |
 | Students | College and university students in politics. The HUAC hearings at San Francisco; the peace pickets at the White House; Port Huron. |

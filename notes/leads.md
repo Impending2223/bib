@@ -364,6 +364,18 @@ reports them (`notes/calendar-audit.md`).
 - Nov.–Jan. 1969: Nixon's White House staff appointments; Moynihan; Yost; Hickel's hearings; the Douglas Commission's report; Palach.
 - Gallup's releases of Jan. 1–20, 1969: the 1969 pages of *The Gallup Poll* not yet read.
 
+### The 1960 Census and the reapportionment (Oct. 21, 2026)
+
+- `cal.1960-08.legislatures`: the day the Census Bureau released PC(P1)-1 (its press release; the *Times*, Aug. 1960).
+- `cal.1961-01-10.legislatures`: the House Document number of the President's statement and the day it was laid
+  before the House; the date of the Clerk's certificates to the governors under 2 U.S.C. § 2a(b); the apportionment
+  population (excluding the District), not entered.
+- `cal.1960-03-15.legislatures`: Proclamation 3337's Federal Register and Statutes at Large cites.
+- `cal.1960-04-01.legislatures`: "one household in four asked the longer questions": verify against the Bureau's
+  *1960 Censuses of Population and Housing: Procedural History* (1966); the enumerators and the mail-out not entered.
+- `cal.1966-12-12.georgia` (*Fortson v. Morris*, the Assembly choosing the governor) left out of Districting and
+  apportionment: a judgment to review.
+
 ### The span splits (the spans agents, Oct. 20–21, 2026)
 
 Dates marked "Check" in the new parts, from recall or the old entry, and parts written with "Check: the record" where no
