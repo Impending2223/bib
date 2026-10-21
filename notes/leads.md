@@ -444,6 +444,26 @@ document was found. Each under the entry it concerns; `./bib find -t check -l ca
   pages turn to days by each part's granule records (printPageRange in the package's mods.xml). Senate Finance's
   hearings on H.R. 8363 (Oct.–Dec. 1963) are not in the History and not yet in the calendar.
 
+### Oil (the oil agent, Oct. 21, 2026)
+
+- The Machiasport refinery fight, 1968 (Occidental's proposed foreign-trade-zone refinery at Machiasport, Me., and its
+  import quota): not verified, no record read; the Federal Register's Foreign-Trade Zones Board notices of 1968 and the
+  Cabinet Task Force on Oil Import Control, *The Oil Import Question* (Feb. 1970), would date it. govinfo's search API
+  refused here (rate limit on the shared key).
+- The Foreign Petroleum Supply Committee's plan of action, June 1967: awaiting Interior, the Office of Emergency
+  Planning and the Attorney General on June 24 (FRUS 1964–68, XXXIV, doc. 249); the day it was approved, or whether,
+  not found. Vietor, *Energy Policy in America since 1945*, likely gives it.
+- Proclamation 3279 (Mar. 10, 1959) and its amendments of 1959 (3290, Apr. 30; 3328, Dec. 10) fall before the calendar;
+  any amendment after Proclamation 3823 (Jan. 29, 1968) and before Jan. 20, 1969 not looked for (the Federal Register's
+  list of CFR parts affected, title 3).
+- The Bureau of Mines' own *Monthly Petroleum Statement* (Mineral Industry Surveys), earlier than the Survey of Current
+  Business's figures now used as "first": no open copy found (archive.org none; HathiTrust's pages bot-checked).
+  The API's annual *Proved Reserves* reports (each spring) likewise; the Yearbook's reprint stands in.
+- The Minerals Yearbook pages for reserves (oil-reserves rows) were placed by the page headers in archive.org's OCR,
+  not by the page images: 1960 (II, 372), 1968 (I–II, 816–17) Check.
+- The Kuwait and Saudi finds as they bore on policy, Algeria's and Nigeria's exports, Abu Dhabi's first oil, the
+  Iranian consortium's quotas: not entered (the memo's item 3, `notes/proposals/military-oil-vietnam.md`).
+
 ## Foreign
 
 - Military aid cut off to allies trading with Cuba, Feb. 18, 1964: not verified.
@@ -543,6 +563,20 @@ Events Gibbons treats that the calendar lacks, not entered: no record reached an
   (docs. 83, 84); Esterline and Hawkins at Bissell's house, Apr. 8; Hawkins's cable of Apr. 13 (Taylor, par. 34);
   Kennedy's approval of the landing, midday Apr. 16 (Taylor, par. 37); the prisoners, about 1,200 (no source read);
   earlier releases of Schlesinger's memoranda of Feb. 11 and Apr. 5.
+
+### Oil (the oil agent, Oct. 21, 2026)
+
+- The posted price of Arabian light (34°) at Ras Tanura ($1.80 from Aug. 1960 in the memo, unverified): no source
+  read gives it. OPEC's *Annual Statistical Bulletin* and the Energy Institute's *Statistical Review* workbook ("Arabian
+  Light posted at Ras Tanura" to 1983) are bot-checked here; the Minerals Yearbook (vols. II, IV, 1960–70) prints no
+  posted price for it; FRUS 1958–60, XII, 1961–63, IX, XVII–XVIII, 1964–68, XXI, XXXIV do not either. A person in a
+  browser can open the Energy Institute's workbook.
+- The world table a year (the memo's item 2): crude production by country, the Minerals Yearbook's table as printed
+  that year (vol. II, "World review", e.g. 1960, table 89, p. 487; OCR poor, read from the page) beside the Energy
+  Institute's figure today (bot-checked; Our World in Data's mirror on GitHub is open, in TWh). Not built.
+- The 1967 embargo's other days: Saudi Arabia's stop (June 6–7; FRUS gives Yamani's line, not the order), Libya's
+  announcement (June 7), Boumediene's call for a year's cutoff (June 19), the Arab foreign ministers at Kuwait (June 17),
+  Libya's quiet resumption to West Germany (Aug. 9): in FRUS 1964–68, XXXIV, docs. 233, 239, 243, 263; not entered.
 
 ## The Executive roster
 
