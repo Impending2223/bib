@@ -1,0 +1,126 @@
+{
+ "bounds": {
+  "west": 100.0,
+  "east": 110.5,
+  "south": 8.0,
+  "north": 23.5
+ },
+ "rows": "evenly spaced in Web Mercator (EPSG:3857) y; columns evenly spaced in longitude",
+ "files": {
+  "hypso.png": [
+   1260,
+   1939
+  ],
+  "hypso-coarse.png": [
+   630,
+   970
+  ]
+ },
+ "classes": [
+  {
+   "index": 0,
+   "kind": "land",
+   "from_m": 0,
+   "to_m": 100,
+   "label": "0–100 m",
+   "color": "#acd0a5"
+  },
+  {
+   "index": 1,
+   "kind": "land",
+   "from_m": 100,
+   "to_m": 200,
+   "label": "100–200 m",
+   "color": "#c4deac"
+  },
+  {
+   "index": 2,
+   "kind": "land",
+   "from_m": 200,
+   "to_m": 500,
+   "label": "200–500 m",
+   "color": "#e1e4b5"
+  },
+  {
+   "index": 3,
+   "kind": "land",
+   "from_m": 500,
+   "to_m": 1000,
+   "label": "500–1,000 m",
+   "color": "#e8d6a4"
+  },
+  {
+   "index": 4,
+   "kind": "land",
+   "from_m": 1000,
+   "to_m": 1500,
+   "label": "1,000–1,500 m",
+   "color": "#dbbc8a"
+  },
+  {
+   "index": 5,
+   "kind": "land",
+   "from_m": 1500,
+   "to_m": 2000,
+   "label": "1,500–2,000 m",
+   "color": "#c6a078"
+  },
+  {
+   "index": 6,
+   "kind": "land",
+   "from_m": 2000,
+   "to_m": null,
+   "label": "2,000 m and over",
+   "color": "#ac866c"
+  },
+  {
+   "index": 7,
+   "kind": "sea",
+   "depth_from_m": 0,
+   "depth_to_m": 50,
+   "label": "0–50 m deep",
+   "color": "#d8eaf4"
+  },
+  {
+   "index": 8,
+   "kind": "sea",
+   "depth_from_m": 50,
+   "depth_to_m": 200,
+   "label": "50–200 m deep",
+   "color": "#c6dff0"
+  },
+  {
+   "index": 9,
+   "kind": "sea",
+   "depth_from_m": 200,
+   "depth_to_m": 1000,
+   "label": "200–1,000 m deep",
+   "color": "#aacde8"
+  },
+  {
+   "index": 10,
+   "kind": "sea",
+   "depth_from_m": 1000,
+   "depth_to_m": 2000,
+   "label": "1,000–2,000 m deep",
+   "color": "#91bcdf"
+  },
+  {
+   "index": 11,
+   "kind": "sea",
+   "depth_from_m": 2000,
+   "depth_to_m": 4000,
+   "label": "2,000–4,000 m deep",
+   "color": "#7aabd6"
+  },
+  {
+   "index": 12,
+   "kind": "sea",
+   "depth_from_m": 4000,
+   "depth_to_m": null,
+   "label": "4,000 m and deeper",
+   "color": "#659acd"
+  }
+ ],
+ "note": "Land and sea from Natural Earth 10m land; land below 0 m (ETOPO) counted 0-100 m; sea above 0 m counted 0-50 m deep. Palette index = class index."
+}

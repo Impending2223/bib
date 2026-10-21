@@ -429,6 +429,10 @@ document was found. Each under the entry it concerns; `./bib find -t check -l ca
   Trí Quang; the Senators' appeal on prisoners (signers); the DMZ ground operations authorized (July 30); Johnson's
   arrival in Thailand (Oct. 27 or 28); the Freeman team's report (FRUS ed. note, Nov. 14); Smith's cabinet rejecting
   *Tiger* (Dec. 5); Britain's request to the Security Council (Dec. 8).
+- Places the map could not set (no coordinates in Wikipedia): Chấp Lễ and Chánh Hòa, the Flaming Dart barracks
+  (`cal.1965-02-07.vietnam`, `cal.1965-02-10.vietnam`); Xóm Bàng and Quảng Khê, the first Rolling Thunder targets
+  (`cal.1965-03-02.vietnam`; Wikipedia's Quảng Khê is a commune in Đắk Nông); Route 15, the Ranch Hand road
+  (`cal.1962-01-13.vietnam`). The Flaming Dart and Rolling Thunder studies; the Army Map Service sheets.
 - The Struggle Movement's Vietnamese name (the subthread "Vietnam: Buddhist Uprising"; Wikipedia gives "Military-Civilian
   Struggle Committee" and, for the events, "Biến động Miền Trung"): Topmiller, *Lotus Unleashed*; Pham Van Minh,
   *Vietnamese Engaged Buddhism*.

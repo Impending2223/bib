@@ -102,10 +102,98 @@ def in_rvn(p):
     return bool(p.get("province")) or p.get("country") == "vn-south"
 
 
+def _copy(name):
+    """A layer's file copied beside the pages, named by its hash: its path from a page."""
+    src = os.path.join(LAYERS, name)
+    h = hashlib.sha1(open(src, "rb").read()).hexdigest()[:10]
+    base, ext = os.path.splitext(name)
+    out = f"vn-{base}-{h}{ext}"
+    os.makedirs(GEO_OUT, exist_ok=True)
+    if not os.path.exists(os.path.join(GEO_OUT, out)):
+        shutil.copyfile(src, os.path.join(GEO_OUT, out))
+    return "geo/" + out
+
+
+def _json_file(stem, d):
+    txt = json.dumps(d, ensure_ascii=False, separators=(",", ":"))
+    name = f"vn-{stem}-{hashlib.sha1(txt.encode()).hexdigest()[:10]}.json"
+    path_ = os.path.join(GEO_OUT, name)
+    if not os.path.exists(path_):
+        for old in os.listdir(GEO_OUT):
+            if re.fullmatch(rf"vn-{stem}-[0-9a-f]{{10}}\.json", old):
+                os.remove(os.path.join(GEO_OUT, old))
+        open(path_, "w", encoding="utf-8").write(txt)
+    return "geo/" + name
+
+
+def _line(geom):
+    t, c = geom["type"], geom["coordinates"]
+    lines = [c] if t == "LineString" else c if t == "MultiLineString" else []
+    out = []
+    for ln in lines:
+        pts = [xy(*p[:2]) for p in ln]
+        if len(pts) > 1:
+            out.append("M" + "L".join(f"{x:g},{y:g}" for x, y in pts))
+    return "".join(out)
+
+
 def layers():
-    """sources/indochina/'s files the maps can draw, by what README there names them (manifest.json if written)."""
-    man = os.path.join(LAYERS, "manifest.json")
-    return json.load(open(man, encoding="utf-8")) if os.path.exists(man) else {}
+    """The layers of sources/indochina/ the maps can draw (its README), each a file of its own beside the pages:
+    rasters as they are (rows in Mercator y over LB), vectors and the climate grid projected here."""
+    if "lay" in _C:
+        return _C["lay"]
+    lay = {}
+    if not os.path.isdir(LAYERS):
+        _C["lay"] = lay
+        return lay
+    LB = (100.0, 8.0, 110.5, 23.5)
+    x0, y1 = xy(LB[0], LB[1])
+    x1, y0 = xy(LB[2], LB[3])
+    rect = [x0, y0, round(x1 - x0, 1), round(y1 - y0, 1)]
+    ex = lambda f: os.path.exists(os.path.join(LAYERS, f))
+    if ex("hillshade.png"):
+        lay["relief"] = {"kind": "image", "box": rect, "src": _copy("hillshade-coarse.png"),
+                         "mid": _copy("hillshade.png"), "fine": _copy("hillshade-fine.png") if ex("hillshade-fine.png") else None}
+    if ex("hypso.png"):
+        h = json.load(open(os.path.join(LAYERS, "hypso.json"), encoding="utf-8"))
+        lay["tint"] = {"kind": "image", "box": rect, "src": _copy("hypso-coarse.png"), "mid": _copy("hypso.png"),
+                       "legend": [{"code": c["label"], "name": "", "color": c["color"]} for c in h["classes"] if c["kind"] == "land"]}
+    if ex("koppen.png"):
+        k = json.load(open(os.path.join(LAYERS, "koppen.json"), encoding="utf-8"))
+        lay["koppen"] = {"kind": "image", "box": rect, "src": _copy("koppen-coarse.png"), "mid": _copy("koppen.png"),
+                         "period": "1961–1990", "legend": [{"code": c["code"], "name": c["name"], "color": c["color"]}
+                                                           for c in k["classes"] if c.get("share_of_land_in_extent", 1) >= 0.001]}
+    if ex("rivers.geojson"):
+        rv = json.load(open(os.path.join(LAYERS, "rivers.geojson"), encoding="utf-8"))["features"]
+        lk = json.load(open(os.path.join(LAYERS, "lakes.geojson"), encoding="utf-8"))["features"] if ex("lakes.geojson") else []
+        d = {"r": [{"d": _line(f["geometry"]), "w": f["properties"].get("size", 1),
+                    "n": f["properties"].get("name_vi") or f["properties"].get("name")} for f in rv],
+             "l": [{"d": path(f["geometry"]), "n": f["properties"].get("name"),
+                    "dy": f["properties"].get("dam_year") if f["properties"].get("type") != "lake" else None}
+                   for f in lk if f["properties"].get("area_km2", 0) >= 3]}
+        lay["rivers"] = {"kind": "rivers", "src": _json_file("rivers", d)}
+    if ex("contours.geojson"):
+        ct = json.load(open(os.path.join(LAYERS, "contours.geojson"), encoding="utf-8"))["features"]
+        lay["contours"] = {"kind": "lines", "src": _json_file("contours", [{"d": _line(f["geometry"]),
+                                                                           "e": f["properties"]["elev_m"]} for f in ct])}
+    if ex("climate.json"):
+        c = json.load(open(os.path.join(LAYERS, "climate.json"), encoding="utf-8"))
+        b, cd = c["bounds"], c["cell_deg"]
+        P, T = c["precipitation"]["values"], c["temperature"]["values"]
+        cells = []
+        for r in range(c["nrows"]):
+            for k in range(c["ncols"]):
+                v = [P[m][r][k] for m in range(12)]
+                if all(x is None for x in v):
+                    continue
+                cx0, cy0 = xy(b["west"] + k * cd, b["north"] - r * cd)
+                cx1, cy1 = xy(b["west"] + (k + 1) * cd, b["north"] - (r + 1) * cd)
+                cells.append({"x": cx0, "y": cy0, "w": round(cx1 - cx0, 1), "h": round(cy1 - cy0, 1), "v": v,
+                              "t": [None if T[m][r][k] is None else T[m][r][k] / 10 for m in range(12)]})
+        lay["rain"] = {"kind": "grid", "period": "1961–1990", "src": _json_file("climate", {"cells": cells,
+                       "scale": [0, 25, 50, 100, 200, 300, 400, 500]})}
+    _C["lay"] = lay
+    return lay
 
 
 def geo_file():
@@ -126,21 +214,7 @@ def geo_file():
                 for k, p in gazetteer().items() if p.get("lat") is not None},
          "lay": {}}
     os.makedirs(GEO_OUT, exist_ok=True)
-    for k, spec in layers().items():          # each layer's file copied beside the shapes, named by its hash
-        src = os.path.join(LAYERS, spec["file"])
-        if not os.path.exists(src):
-            continue
-        h = hashlib.sha1(open(src, "rb").read()).hexdigest()[:10]
-        base, ext = os.path.splitext(spec["file"])
-        name = f"vn-{base}-{h}{ext}"
-        if not os.path.exists(os.path.join(GEO_OUT, name)):
-            shutil.copyfile(src, os.path.join(GEO_OUT, name))
-        lay = dict(spec, src="geo/" + name)
-        if spec.get("bounds"):
-            x0, y1 = xy(spec["bounds"][0], spec["bounds"][1])
-            x1, y0 = xy(spec["bounds"][2], spec["bounds"][3])
-            lay["box"] = [x0, y0, round(x1 - x0, 1), round(y1 - y0, 1)]
-        d["lay"][k] = lay
+    d["lay"] = layers()
     txt = json.dumps(d, ensure_ascii=False, separators=(",", ":"))
     name = f"vn-{hashlib.sha1(txt.encode()).hexdigest()[:10]}.json"
     path_ = os.path.join(GEO_OUT, name)
@@ -291,8 +365,13 @@ CSS = """<style id="vnmcss">
 .vnm .rvn{fill:none;stroke:var(--ink);stroke-width:1;vector-effect:non-scaling-stroke;pointer-events:none}
 .vnm .ld{fill:var(--vland);stroke:var(--rule);stroke-width:.6;vector-effect:non-scaling-stroke}
 .vnm .ln{font-style:italic;fill:var(--muted);text-anchor:middle;pointer-events:none}
-.vnm .riv{fill:none;stroke:#6E93B5;stroke-linecap:round;stroke-linejoin:round;vector-effect:non-scaling-stroke;pointer-events:none}
-.vnm .lake{fill:#9DB8CF;stroke:none;pointer-events:none}
+.vnm .riv{fill:none;stroke:#5F88AE;stroke-linecap:round;stroke-linejoin:round;vector-effect:non-scaling-stroke}
+.vnm .lake{fill:#9DB8CF;stroke:none}
+.vnm .ctr{fill:none;stroke:#8A6E4B;stroke-opacity:.7;vector-effect:non-scaling-stroke;pointer-events:none}
+.vnm .shade{mix-blend-mode:multiply;pointer-events:none}
+.vnm .shade image,.vnm image{pointer-events:none}
+.vnm-key .cr{flex-basis:100%;font-size:.68rem}
+.vnm-key a{color:var(--muted)}
 .vnm .dot{fill:var(--vdot);stroke:var(--bg);stroke-width:1;vector-effect:non-scaling-stroke;cursor:pointer}
 .vnm .dim{fill:var(--muted);fill-opacity:.65;stroke:none;cursor:pointer}
 .vnm .lb{fill:var(--ink);paint-order:stroke;stroke:var(--vsea);stroke-width:3px;stroke-linejoin:round;pointer-events:none;font-weight:600}
@@ -333,27 +412,34 @@ JS = r"""<script>
     var home; function fitHome(){var bw=box.clientWidth,bh=box.clientHeight,w=R[2]-R[0],h=R[3]-R[1],pad=0.06;
       var sc=Math.max(w*(1+2*pad)/bw,h*(1+2*pad)/bh);home={x:(R[0]+R[2])/2-bw*sc/2,y:(R[1]+R[3])/2-bh*sc/2,w:bw*sc,h:bh*sc};}
     fitHome(); var vb={x:home.x,y:home.y,w:home.w,h:home.h};
-    var gL=el('g',{},svg), gR=el('g',{},svg), gP=el('g',{},svg), gK=el('g',{},svg), gH=el('g',{},svg), gZ=el('g',{},svg), gO=el('g',{},svg), gW=el('g',{},svg), gD=el('g',{},svg), gT=el('g',{},svg);
+    var gL=el('g',{},svg), gR=el('g',{},svg), gP=el('g',{},svg), gS=el('g',{'class':'shade'},svg), gZ=el('g',{},svg), gO=el('g',{},svg), gW=el('g',{},svg), gD=el('g',{},svg), gT=el('g',{},svg), gH=el('g',{},svg);
     G.land.forEach(function(l){el('path',{d:l.d,'class':'ld'},gL);});
     var LN={laos:[102.6,19.4],cambodia:[104.9,12.9],thailand:[101.2,16.3],drv:[105.6,21.3],china:[106.5,23.3],myanmar:[100.0,21.4]};
     var lnames=G.land.map(function(l){var c=LN[l.id];if(!c)return null;var t=el('text',{'class':'ln'},gT);t.textContent=l.n==='Democratic Republic of Vietnam'?'North Vietnam':l.n;t._x=(c[0]-G.b[0])/(G.b[2]-G.b[0])*G.W;t._y=merc(c[1]);return t;}).filter(Boolean);
     var pv=G.prov.map(function(p){var e=el('path',{d:p.d,'class':'pv'},gP);e._p=p;var t=el('title',{},e);t.textContent=p.n+(p.p&&p.p!==p.n?' ('+p.p+')':'')+' · '+(ZN[p.z]||'')+' · '+p.r;return e;});
     var rvn=el('path',{d:G.prov.map(function(p){return p.d;}).join(''),'class':'rvn'},gO); rvn.remove();
     function zones(){gZ.textContent='';(st.mode==='reg'?G.reg:st.mode==='ctz'?G.zone:[]).forEach(function(z){el('path',{d:z.d,'class':'zb'},gZ);});}
-    function color(){pv.forEach(function(e){var p=e._p,c=st.mode==='ctz'?ZC[p.z]:st.mode==='reg'?RC[p.r]:null;e.setAttribute('fill',css(c||'--vpv'));e.setAttribute('fill-opacity',css('--vop'));});key();}
-    // layers (sources/indochina), drawn when chosen
-    var LAY=G.lay||{}, lnodes={};
+    function color(){var f=typeof flat==='function'&&flat();pv.forEach(function(e){var p=e._p,c=st.mode==='ctz'?ZC[p.z]:st.mode==='reg'?RC[p.r]:null;e.setAttribute('fill',css(c||'--vpv'));e.setAttribute('fill-opacity',f?0.12:css('--vop'));});key();}
+    // layers (sources/indochina), drawn when chosen; the rasters sharper as the zoom grows
+    var LAY=G.lay||{}, lnodes={}, imgs=[], RW=[0.35,0.45,0.6,0.8,1.1,1.5,2.1];
+    function flat(){return ['tint','koppen','rain'].some(function(k){return st.lay[k]&&LAY[k];});}
     function layer(k){
       var L=LAY[k]; if(!L) return;
-      if(!st.lay[k]){ if(lnodes[k]) lnodes[k].style.display='none'; return; }
-      if(lnodes[k]){ lnodes[k].style.display=''; if(k==='rain') rain(); return; }
-      var g=el('g',{},k==='rivers'?gW:gR); lnodes[k]=g;
-      if(L.kind==='image'){ el('image',{href:L.src,x:L.box[0],y:L.box[1],width:L.box[2],height:L.box[3],preserveAspectRatio:'none',opacity:L.opacity||0.8},g); }
-      else if(k==='rivers'){ load(L.src).then(function(R){R.forEach(function(r){el('path',{d:r.d,'class':r.lake?'lake':'riv','stroke-width':r.w||1},g);});}); }
-      else if(k==='rain'){ load(L.src).then(function(Rn){g._d=Rn;rain();}); }
+      if(!st.lay[k]){ if(lnodes[k]) lnodes[k].style.display='none'; color(); return; }
+      if(lnodes[k]){ lnodes[k].style.display=''; if(k==='rain') rain(); color(); return; }
+      var g=el('g',{},k==='relief'?gS:(L.kind==='image'||L.kind==='grid')?gR:gW); lnodes[k]=g;
+      if(L.kind==='image'){ var im=el('image',{href:L.src,x:L.box[0],y:L.box[1],width:L.box[2],height:L.box[3],preserveAspectRatio:'none',opacity:k==='relief'?0.55:0.85},g); im._L=L; imgs.push(im); sharpen(); }
+      else if(L.kind==='rivers'){ load(L.src).then(function(R){
+          R.l.forEach(function(l){ if(l.dy&&+l.dy>+D.y) return; var e=el('path',{d:l.d,'class':'lake'},g); if(l.n){var t=el('title',{},e);t.textContent=l.n;} });
+          R.r.forEach(function(r){ var e=el('path',{d:r.d,'class':'riv','stroke-width':RW[Math.max(0,Math.min(6,(r.w||1)-1))]},g); if(r.n){var t=el('title',{},e);t.textContent=r.n;} }); }); }
+      else if(L.kind==='lines'){ load(L.src).then(function(C){C.forEach(function(c){el('path',{d:c.d,'class':'ctr','stroke-dasharray':c.e===500?'3 2':null,'stroke-width':c.e>=1500?0.8:0.5},g);});}); }
+      else if(L.kind==='grid'){ load(L.src).then(function(Rn){g._d=Rn;rain();}); }
+      color();
     }
-    function rain(){var g=lnodes.rain;if(!g||!g._d)return;g.textContent='';var Rn=g._d,m=st.month-1,sc=Rn.scale||[0,50,100,200,300,400,600];
-      Rn.cells.forEach(function(c){var v=c.v[m];if(v==null)return;var i=0;while(i<sc.length-1&&v>=sc[i+1])i++;el('rect',{x:c.x,y:c.y,width:c.w,height:c.h,fill:'hsl(205,55%,'+(88-i*9)+'%)','fill-opacity':0.75},g);});key();}
+    function sharpen(){var z=home.w/vb.w;imgs.forEach(function(im){var L=im._L,h=(z>=6&&L.fine)?L.fine:(z>=2.2&&L.mid)?L.mid:L.src;if(im.getAttribute('href')!==h)im.setAttribute('href',h);});}
+    function rain(){var g=lnodes.rain;if(!g||!g._d)return;g.textContent='';var Rn=g._d,m=st.month-1,sc=Rn.scale;
+      Rn.cells.forEach(function(c){var v=c.v[m];if(v==null)return;var i=0;while(i<sc.length-1&&v>=sc[i+1])i++;
+        var r=el('rect',{x:c.x,y:c.y,width:c.w+0.2,height:c.h+0.2,fill:'hsl(205,60%,'+(92-i*9)+'%)'},g);var t=el('title',{},r);t.textContent=v+' mm'+(c.t&&c.t[m]!=null?'; '+c.t[m]+' °C':'');});key();}
     // places
     var P=Object.keys(G.pl).map(function(k){var p=G.pl[k];return {k:k,x:p[0],y:p[1],n:p[2],kind:p[3],r:p[4]||3,c:p[5],hits:at[k]||[]};});
     P.sort(function(a,b){return (b.hits.length-a.hits.length)||(a.r-b.r);});
@@ -385,7 +471,7 @@ JS = r"""<script>
           if(free(b)){boxes.push(b);var t=el('text',{'class':'lb'+(p.hits.length?'':' o'),x:s[0],y:s[1],'text-anchor':s[2],'font-size':fs},gH);t.textContent=p.n;break;}}
       });
     }
-    function view(){svg.setAttribute('viewBox',vb.x+' '+vb.y+' '+vb.w+' '+vb.h);names();}
+    function view(){svg.setAttribute('viewBox',vb.x+' '+vb.y+' '+vb.w+' '+vb.h);names();sharpen();}
     function zoomAt(f,cx,cy){var nw=Math.max(home.w/MAXZ,Math.min(home.w*1.5,vb.w/f)),nh=nw*vb.h/vb.w;
       vb.x=cx-(cx-vb.x)*nw/vb.w;vb.y=cy-(cy-vb.y)*nh/vb.h;vb.w=nw;vb.h=nh;view();}
     function pt(ev){var r=svg.getBoundingClientRect();return [vb.x+(ev.clientX-r.left)/r.width*vb.w, vb.y+(ev.clientY-r.top)/r.height*vb.h];}
@@ -397,7 +483,7 @@ JS = r"""<script>
     svg.addEventListener('pointermove',function(ev){if(!ptrs[ev.pointerId])return;ptrs[ev.pointerId]=[ev.clientX,ev.clientY];var r=svg.getBoundingClientRect(),ids=Object.keys(ptrs);
       if(ids.length===2&&pinch){var a=ptrs[ids[0]],b=ptrs[ids[1]],d=Math.hypot(a[0]-b[0],a[1]-b[1]);var c=pt({clientX:(a[0]+b[0])/2,clientY:(a[1]+b[1])/2});zoomAt(d/pinch,c[0],c[1]);pinch=d;return;}
       if(last){vb.x-=(ev.clientX-last[0])/r.width*vb.w;vb.y-=(ev.clientY-last[1])/r.height*vb.h;last=[ev.clientX,ev.clientY];svg.setAttribute('viewBox',vb.x+' '+vb.y+' '+vb.w+' '+vb.h);}});
-    function up(ev){delete ptrs[ev.pointerId];if(Object.keys(ptrs).length<2)pinch=null;if(!Object.keys(ptrs).length){svg.classList.remove('drag');last=null;names();}}
+    function up(ev){delete ptrs[ev.pointerId];if(Object.keys(ptrs).length<2)pinch=null;if(!Object.keys(ptrs).length){svg.classList.remove('drag');last=null;names();sharpen();}}
     svg.addEventListener('pointerup',up);svg.addEventListener('pointercancel',up);
     svg.addEventListener('dblclick',function(ev){var p=pt(ev);zoomAt(2,p[0],p[1]);});
     fig.querySelector('.vnm-z').addEventListener('click',function(ev){var z=ev.target.dataset.z;if(!z)return;
@@ -406,7 +492,7 @@ JS = r"""<script>
     // controls
     var bar=fig.querySelector('.vnm-bar');
     var h='<span class="seg" data-k="mode"><button type="button" data-v="ctz">Corps zones</button><button type="button" data-v="reg">Regions</button><button type="button" data-v="plain">Provinces</button></span>';
-    var LN2={relief:'Relief',tint:'Elevation',rivers:'Rivers',koppen:'Climate',rain:'Rain'};
+    var LN2={relief:'Relief',tint:'Elevation',contours:'Contours',rivers:'Rivers',koppen:'Climate',rain:'Rain'};
     Object.keys(LN2).forEach(function(k){if(LAY[k])h+='<label><input type="checkbox" data-l="'+k+'"'+(st.lay[k]?' checked':'')+'> '+LN2[k]+'</label>';});
     if(LAY.rain)h+='<select data-m aria-label="Month">'+['Jan.','Feb.','Mar.','Apr.','May','June','July','Aug.','Sept.','Oct.','Nov.','Dec.'].map(function(m,i){return '<option value="'+(i+1)+'"'+(i+1===st.month?' selected':'')+'>'+m+'</option>';}).join('')+'</select>';
     bar.innerHTML=h;
@@ -418,8 +504,13 @@ JS = r"""<script>
       if(st.mode==='ctz')s=Object.keys(ZN).map(function(z){return sw(ZC[z],ZN[z]);}).join('');
       else if(st.mode==='reg')s=Object.keys(RC).map(function(r){return sw(RC[r],r);}).join('');
       s+='<span><i style="background:'+css('--vdot')+';border-radius:50%"></i>this year\'s entries, by number</span>';
-      if(st.lay.koppen&&LAY.koppen&&LAY.koppen.legend)s+=LAY.koppen.legend.map(function(c){return '<span><i style="background:'+c.color+'"></i>'+esc(c.code)+' '+esc(c.name)+'</span>';}).join('');
-      if(st.lay.rain&&LAY.rain)s+='<span>Rain, '+['Jan.','Feb.','Mar.','Apr.','May','June','July','Aug.','Sept.','Oct.','Nov.','Dec.'][st.month-1]+' (mm, '+esc(LAY.rain.period||'')+'): darker is wetter</span>';
+      function leg(L){return L.legend.map(function(c){return '<span><i style="background:'+c.color+'"></i>'+esc(c.code)+(c.name?' '+esc(c.name):'')+'</span>';}).join('');}
+      if(st.lay.tint&&LAY.tint)s+=leg(LAY.tint);
+      if(st.lay.koppen&&LAY.koppen)s+='<span>Köppen–Geiger, 1961–1990:</span>'+leg(LAY.koppen);
+      if(st.lay.rain&&LAY.rain){var sc=[0,25,50,100,200,300,400,500];s+='<span>Rain, '+['Jan.','Feb.','Mar.','Apr.','May','June','July','Aug.','Sept.','Oct.','Nov.','Dec.'][st.month-1]+', mean of 1961–1990, mm:</span>'+sc.map(function(v,i){return '<span><i style="background:hsl(205,60%,'+(92-i*9)+'%)"></i>'+v+(i===sc.length-1?'+':'')+'</span>';}).join('');}
+      var cr=[];if(st.lay.relief||st.lay.tint||st.lay.contours)cr.push('relief: NOAA, ETOPO 2022');if(st.lay.rivers)cr.push('rivers and lakes: HydroSHEDS v1, © World Wildlife Fund, Inc. (2006–2022), used under license; SWORD v17c');
+      if(st.lay.koppen)cr.push('climate: Beck et al. (2023), CC BY 4.0');if(st.lay.rain)cr.push('rain: CRU CL 2.0, Climatic Research Unit, University of East Anglia, ODbL');
+      if(cr.length)s+='<span class="cr">Layers: '+esc(cr.join('; '))+'. <a href="https://github.com/impending2223/bib/blob/main/sources/indochina/README.md">Sources and licenses</a></span>';
       k.innerHTML=s;}
     seg(); zones(); color(); Object.keys(st.lay).forEach(layer); gO.appendChild(rvn); view();
     new ResizeObserver(function(){var r=vb.w/home.w;fitHome();var cx=vb.x+vb.w/2,cy=vb.y+vb.h/2;vb.w=home.w*r;vb.h=home.h*r;vb.x=cx-vb.w/2;vb.y=cy-vb.h/2;view();}).observe(box);
