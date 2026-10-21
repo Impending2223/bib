@@ -1,0 +1,318 @@
+# The national conventions, 1960-1968: each delegation's votes, how it was chosen, and the roll calls; kept by hand.
+# The build renders them: tools/bib/conventions.py (STYLE notes there). Read off the pages; every figure cited by page.
+#
+# <YYYY>-<R|D>:
+#   name: the convention, as its Proceedings name it
+#   opened, closed: its first and last days
+#   proc: the Proceedings: {title (italics in *...*), year, url (the copy read), page_url (the printed page in place of
+#         {p}), access (open, borrow)}
+#   call: the Call: {issued (the date it bears), pages (where the Proceedings print it), table (the apportionment's
+#         pages), total (the printed total of delegates)}
+#   methods: where the methods and dates of choosing come from: {cite, url, read (the date read), check (what to read
+#            them against)}
+#   states: by postal code (DC, PR, VI too), in the Call's order:
+#     votes (the Call's total for the State), at_large, districts (the number of districts sending two delegates; the
+#     Call: at_large + 2 x districts = votes), page (the Call's page);
+#     method: primary (every delegate chosen in a primary), mixed (the districts' delegates in a primary, those at
+#       large by a convention or a committee), conventions (district conventions and a State convention), convention
+#       (a State convention alone), committee (a State committee alone), null (not found);
+#     chosen: [{by: the body, dates: [its dates]}], as the methods' source gives them;
+#     check: what is still to verify for the State (shown in the table's note)
+#   ballots: by key; a calendar entry tagged rollcall:<YYYY>-<R|D>-<key> carries its table:
+#     office, title (the Proceedings' heading of the tabulation), session (the session and its day), pages (the roll
+#     call's pages), table (the tabulation's pages), needed (the majority), cands (the tabulation's columns, in its
+#     order), totals (its printed totals), votes ({State: {candidate: votes}}; every State's add to its votes);
+#     final: the tabulation after the delegations changed their votes: {title, table, totals, votes (the States that
+#       differ from "all for" the nominee), note}; star: the Proceedings' note on a starred State, {st, text, page}
+#   names: the tabulations' surnames, the full names (the Proceedings' own forms), for the name entries
+#   hughes: a convention whose Call and roll calls are not yet read keeps only a source's table of how the delegations
+#     were chosen: {title, cite, url, columns (its columns, in order), totals (its printed column totals), notes (its
+#     footnotes, by number)}; under states, each State's {hughes: [the columns marked], note: the footnote on its name}.
+#     No block is built for it until the Call is in.
+
+'1968-R':
+  name: Twenty-Ninth Republican National Convention
+  place: Miami Beach, Fla.
+  opened: '1968-08-05'
+  closed: '1968-08-08'
+  proc:
+    title: '*Official Report of the Proceedings of the Twenty-Ninth Republican National Convention*'
+    year: '1968'
+    url: https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968
+    page_url: https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968/page/{p}/mode/1up
+    access: open
+  call:
+    issued: '1967-09-09'
+    pages: '11–19'
+    table: '17–19'
+    total: 1333
+  methods:
+    cite: 'Wikipedia, "1968 Republican Party presidential primaries," table "1968 Republican primaries and state conventions," each row from a newspaper of the day'
+    url: https://en.wikipedia.org/wiki/1968_Republican_Party_presidential_primaries
+    read: '2026-10-21'
+    check: '*Nomination and Election of the President and Vice President of the United States, Including the Manner of Selecting Delegates to National Political Conventions* (Jan. 1968) (archive.org, borrow only)'
+  states:
+    AL: {votes: 26, at_large: 10, districts: 8, page: 17, method: conventions, chosen: [{by: district conventions, dates: ['1968-06-28']}, {by: State convention, dates: ['1968-06-29']}], check: 'CQ Guide 6th (2010) 409 prints a delegate-selection primary in Alabama in 1968 (its note on the year); the table gives conventions.'}
+    AK: {votes: 12, at_large: 12, districts: 0, page: 17, method: convention, chosen: [{by: State convention, dates: ['1968-05-12']}]}
+    AZ: {votes: 16, at_large: 10, districts: 3, page: 17, method: convention, chosen: [{by: State convention, dates: ['1968-04-27']}]}
+    AR: {votes: 18, at_large: 10, districts: 4, page: 17, method: convention, chosen: [{by: State convention, dates: ['1968-06-29']}]}
+    CA: {votes: 86, at_large: 10, districts: 38, page: 17, method: primary, chosen: [{by: primary, dates: ['1968-06-04']}]}
+    CO: {votes: 18, at_large: 10, districts: 4, page: 17, method: conventions, chosen: [{by: district conventions, dates: ['1968-05-25', '1968-06-04', '1968-06-07']}, {by: State convention, dates: ['1968-06-08']}]}
+    CT: {votes: 16, at_large: 4, districts: 6, page: 17, method: convention, chosen: [{by: State convention, dates: ['1968-06-15']}]}
+    DE: {votes: 12, at_large: 12, districts: 0, page: 17, method: convention, chosen: [{by: State convention, dates: ['1968-04-30']}]}
+    DC: {votes: 9, at_large: 9, districts: 0, page: 17, method: primary, chosen: [{by: primary, dates: ['1968-05-07']}]}
+    FL: {votes: 34, at_large: 10, districts: 12, page: 17, method: primary, chosen: [{by: primary, dates: ['1968-05-28']}]}
+    GA: {votes: 30, at_large: 10, districts: 10, page: 17, method: conventions, chosen: [{by: district conventions, dates: ['1968-04-20']}, {by: State convention, dates: ['1968-05-05']}], check: "The district conventions' date is the table's note (Apr. 20)."}
+    HI: {votes: 14, at_large: 14, districts: 0, page: 17, method: convention, chosen: [{by: State convention, dates: ['1968-05-11']}]}
+    ID: {votes: 14, at_large: 10, districts: 2, page: 18, method: convention, chosen: [{by: State convention, dates: ['1968-06-15']}]}
+    IL: {votes: 58, at_large: 10, districts: 24, page: 18, method: mixed, chosen: [{by: 'primary, the districts', dates: ['1968-06-11']}, {by: 'State convention, at large', dates: ['1968-06-29']}]}
+    IN: {votes: 26, at_large: 4, districts: 11, page: 18, method: primary, chosen: [{by: primary, dates: ['1968-05-07']}]}
+    IA: {votes: 24, at_large: 10, districts: 7, page: 18, method: conventions, chosen: [{by: district conventions, dates: ['1968-04-16']}, {by: State convention, dates: ['1968-04-17']}]}
+    KS: {votes: 20, at_large: 10, districts: 5, page: 18, method: conventions, chosen: [{by: district conventions, dates: ['1968-03-09', '1968-03-16', '1968-03-23', '1968-03-30', '1968-04-06']}, {by: State convention, dates: ['1968-04-27']}]}
+    KY: {votes: 24, at_large: 10, districts: 7, page: 18, method: conventions, chosen: [{by: district conventions, dates: ['1968-04-19']}, {by: State convention, dates: ['1968-04-20']}]}
+    LA: {votes: 26, at_large: 10, districts: 8, page: 18, method: conventions, chosen: [{by: district conventions, dates: ['1968-05-22', '1968-05-23', '1968-05-25', '1968-05-26', '1968-05-28', '1968-05-30']}, {by: State convention, dates: ['1968-06-22']}], check: "The 1st and 2nd districts' date is the table's assumption (May 30)."}
+    ME: {votes: 14, at_large: 10, districts: 2, page: 18, method: convention, chosen: [{by: State convention, dates: ['1968-05-11']}]}
+    MD: {votes: 26, at_large: 10, districts: 8, page: 18, method: convention, chosen: [{by: State convention, dates: ['1968-06-22']}]}
+    MA: {votes: 34, at_large: 10, districts: 12, page: 18, method: primary, chosen: [{by: primary, dates: ['1968-04-30']}]}
+    MI: {votes: 48, at_large: 10, districts: 19, page: 18, method: convention, chosen: [{by: State convention, dates: ['1968-04-27']}], check: 'The table gives the State convention alone, all 48 delegates.'}
+    MN: {votes: 26, at_large: 10, districts: 8, page: 18, method: conventions, chosen: [{by: district conventions, dates: ['1968-04-20', '1968-04-27', '1968-05-04', '1968-05-11']}, {by: State convention, dates: ['1968-06-14']}]}
+    MS: {votes: 20, at_large: 10, districts: 5, page: 18, method: convention, chosen: [{by: State convention, dates: ['1968-06-01']}]}
+    MO: {votes: 24, at_large: 4, districts: 10, page: 18, method: conventions, chosen: [{by: district conventions, dates: ['1968-05-15', '1968-05-17', '1968-05-18', '1968-05-22', '1968-05-25', '1968-05-28', '1968-06-07', '1968-06-08']}, {by: State convention, dates: ['1968-06-29']}]}
+    MT: {votes: 14, at_large: 10, districts: 2, page: 18, method: convention, chosen: [{by: State convention, dates: ['1968-06-22']}]}
+    NE: {votes: 16, at_large: 10, districts: 3, page: 18, method: primary, chosen: [{by: primary, dates: ['1968-05-14']}]}
+    NV: {votes: 12, at_large: 12, districts: 0, page: 18, method: convention, chosen: [{by: State convention, dates: ['1968-04-27']}]}
+    NH: {votes: 8, at_large: 4, districts: 2, page: 18, method: primary, chosen: [{by: primary, dates: ['1968-03-12']}]}
+    NJ: {votes: 40, at_large: 10, districts: 15, page: 18, method: primary, chosen: [{by: primary, dates: ['1968-06-04']}]}
+    NM: {votes: 14, at_large: 14, districts: 0, page: 18, method: convention, chosen: [{by: State convention, dates: ['1968-06-22']}]}
+    NY: {votes: 92, at_large: 10, districts: 41, page: 18, method: mixed, chosen: [{by: 'primary, the districts', dates: ['1968-06-18']}], check: 'The table gives the 82 district delegates; how the 10 at large were chosen, not there.'}
+    NC: {votes: 26, at_large: 4, districts: 11, page: 19, method: conventions, chosen: [{by: district conventions, dates: ['1968-02-10', '1968-02-18']}, {by: State convention, dates: ['1968-03-02']}]}
+    ND: {votes: 8, at_large: 4, districts: 2, page: 19, method: convention, chosen: [{by: State convention, dates: ['1968-06-14']}]}
+    OH: {votes: 58, at_large: 10, districts: 24, page: 19, method: primary, chosen: [{by: primary, dates: ['1968-05-07']}]}
+    OK: {votes: 22, at_large: 10, districts: 6, page: 19, method: conventions, chosen: [{by: district conventions, dates: ['1968-02-10']}, {by: State convention, dates: ['1968-02-24']}]}
+    OR: {votes: 18, at_large: 10, districts: 4, page: 19, method: primary, chosen: [{by: primary, dates: ['1968-05-28']}]}
+    PA: {votes: 64, at_large: 10, districts: 27, page: 19, method: mixed, chosen: [{by: 'State committee, at large', dates: ['1968-02-03']}, {by: 'primary, the districts', dates: ['1968-04-23']}]}
+    PR: {votes: 5, at_large: 5, districts: 0, page: 19, method: null, check: 'Not in the table.'}
+    RI: {votes: 14, at_large: 10, districts: 2, page: 19, method: convention, chosen: [{by: State convention, dates: ['1968-05-15']}]}
+    SC: {votes: 22, at_large: 10, districts: 6, page: 19, method: convention, chosen: [{by: State convention, dates: ['1968-03-30']}]}
+    SD: {votes: 14, at_large: 10, districts: 2, page: 19, method: primary, chosen: [{by: primary, dates: ['1968-06-04']}]}
+    TN: {votes: 28, at_large: 10, districts: 9, page: 19, method: conventions, chosen: [{by: district conventions, dates: ['1968-03-02', '1968-03-28', '1968-03-30', '1968-04-04', '1968-04-06', '1968-04-13', '1968-04-26', '1968-04-27']}, {by: State convention, dates: ['1968-05-25']}], check: "The 9th district's date is the table's assumption (Mar. 28)."}
+    TX: {votes: 56, at_large: 10, districts: 23, page: 19, method: convention, chosen: [{by: State convention, dates: ['1968-06-11']}], check: 'The table gives the State convention alone, all 56 delegates.'}
+    UT: {votes: 8, at_large: 4, districts: 2, page: 19, method: convention, chosen: [{by: State convention, dates: ['1968-07-13']}]}
+    VT: {votes: 12, at_large: 12, districts: 0, page: 19, method: convention, chosen: [{by: State convention, dates: ['1968-05-18']}]}
+    VA: {votes: 24, at_large: 4, districts: 10, page: 19, method: conventions, chosen: [{by: district conventions, dates: ['1968-03-16', '1968-04-06', '1968-04-13', '1968-04-15', '1968-04-20', '1968-04-26', '1968-04-27', '1968-06-29']}, {by: State convention, dates: ['1968-05-04']}]}
+    VI: {votes: 3, at_large: 3, districts: 0, page: 19, method: null, check: 'Not in the table.'}
+    WA: {votes: 24, at_large: 10, districts: 7, page: 19, method: convention, chosen: [{by: State convention, dates: ['1968-06-22']}]}
+    WV: {votes: 14, at_large: 4, districts: 5, page: 19, method: primary, chosen: [{by: primary, dates: ['1968-05-14']}]}
+    WI: {votes: 30, at_large: 10, districts: 10, page: 19, method: primary, chosen: [{by: primary, dates: ['1968-04-02']}]}
+    WY: {votes: 12, at_large: 12, districts: 0, page: 19, method: convention, chosen: [{by: State convention, dates: ['1968-05-11']}]}
+  ballots:
+    pres1:
+      office: President
+      title: First Tabulation of First Ballot for President
+      session: [Fourth session, '1968-08-07']
+      pages: '368–379'
+      table: '378–379'
+      needed: 667
+      cands: [Carlson, Case, Fong, Nixon, Reagan, Rhodes, N. Rockefeller, W. Rockefeller, Romney, Stassen, Lindsay]
+      totals: {Carlson: 20, Case: 22, Fong: 14, Nixon: 692, Reagan: 182, Rhodes: 55, 'N. Rockefeller': 277, 'W. Rockefeller': 18, Romney: 50, Stassen: 2, Lindsay: 1}
+      votes:
+        AL: {Nixon: 14, Reagan: 12}
+        AK: {Nixon: 11, 'N. Rockefeller': 1}
+        AZ: {Nixon: 16}
+        AR: {'W. Rockefeller': 18}
+        CA: {Reagan: 86}
+        CO: {Nixon: 14, Reagan: 1, 'N. Rockefeller': 3}
+        CT: {Nixon: 4, 'N. Rockefeller': 12}
+        DE: {Nixon: 9, 'N. Rockefeller': 3}
+        DC: {Nixon: 6, 'N. Rockefeller': 3}
+        FL: {Nixon: 32, Reagan: 1, 'N. Rockefeller': 1}
+        GA: {Nixon: 21, Reagan: 7, 'N. Rockefeller': 2}
+        HI: {Fong: 14}
+        ID: {Nixon: 9, Reagan: 5}
+        IL: {Nixon: 50, Reagan: 3, 'N. Rockefeller': 5}
+        IN: {Nixon: 26}
+        IA: {Nixon: 13, Reagan: 3, 'N. Rockefeller': 8}
+        KS: {Carlson: 20}
+        KY: {Nixon: 22, 'N. Rockefeller': 2}
+        LA: {Nixon: 19, Reagan: 7}
+        ME: {Nixon: 7, 'N. Rockefeller': 7}
+        MD: {Nixon: 18, 'N. Rockefeller': 8}
+        MA: {'N. Rockefeller': 34}
+        MI: {Nixon: 4, Romney: 44}
+        MN: {Nixon: 9, 'N. Rockefeller': 15, Stassen: 1, Lindsay: 1}
+        MS: {Nixon: 20}
+        MO: {Nixon: 16, Reagan: 3, 'N. Rockefeller': 5}
+        MT: {Nixon: 11, Reagan: 3}
+        NE: {Nixon: 16}
+        NV: {Nixon: 9, 'N. Rockefeller': 3}
+        NH: {Nixon: 8}
+        NJ: {Case: 22, Nixon: 18}
+        NM: {Nixon: 8, Reagan: 5, 'N. Rockefeller': 1}
+        NY: {Nixon: 4, 'N. Rockefeller': 88}
+        NC: {Nixon: 9, Reagan: 16, 'N. Rockefeller': 1}
+        ND: {Nixon: 5, Reagan: 1, 'N. Rockefeller': 2}
+        OH: {Nixon: 2, Rhodes: 55, Stassen: 1}
+        OK: {Nixon: 14, Reagan: 7, 'N. Rockefeller': 1}
+        OR: {Nixon: 18}
+        PA: {Nixon: 22, Reagan: 1, 'N. Rockefeller': 41}
+        PR: {'N. Rockefeller': 5}
+        RI: {'N. Rockefeller': 14}
+        SC: {Nixon: 22}
+        SD: {Nixon: 14}
+        TN: {Nixon: 28}
+        TX: {Nixon: 41, Reagan: 15}
+        UT: {Nixon: 2, Romney: 6}
+        VT: {Nixon: 9, 'N. Rockefeller': 3}
+        VA: {Nixon: 22, 'N. Rockefeller': 2}
+        VI: {Nixon: 2, 'N. Rockefeller': 1}
+        WA: {Nixon: 15, Reagan: 6, 'N. Rockefeller': 3}
+        WV: {Nixon: 11, 'N. Rockefeller': 3}
+        WI: {Nixon: 30}
+        WY: {Nixon: 12}
+      final:
+        title: Final Tabulation of First Ballot for President
+        table: '388–389'
+        pages: '379–389'
+        totals: {Nixon: 1238, Reagan: 2, 'N. Rockefeller': 93}
+        votes:
+          DC: {Nixon: 6, 'N. Rockefeller': 3}
+          KS: {Nixon: 19, 'N. Rockefeller': 1}
+          NY: {Nixon: 4, 'N. Rockefeller': 88}
+          TX: {Nixon: 54, Reagan: 2}
+          WV: {Nixon: 13, 'N. Rockefeller': 1}
+        star: {st: NY, page: 389, text: 'New York moved nomination of Richard M. Nixon be made unanimous but was not recognized under the rules of the Convention. Under suspension of rules requested by California, seconded by Maine and Virginia, Governor Reagan moved that the nomination of Richard M. Nixon be made unanimous.'}
+    vp:
+      office: Vice President
+      title: Tabulation of the Ballot for Vice President
+      session: [Fifth session, '1968-08-08']
+      pages: '420–431'
+      table: '430–431'
+      needed: 667
+      cands: [Agnew, Brooke, Lindsay, Rhodes, Romney, Not voting]
+      totals: {Agnew: 1119, Brooke: 1, Lindsay: 10, Rhodes: 1, Romney: 186, 'Not voting': 16}
+      votes:
+        AL: {Agnew: 25, 'Not voting': 1}
+        AK: {Agnew: 11, Romney: 1}
+        AZ: {Agnew: 16}
+        AR: {Agnew: 9, Romney: 9}
+        CA: {Agnew: 86}
+        CO: {Agnew: 14, Romney: 4}
+        CT: {Agnew: 16}
+        DE: {Agnew: 3, Romney: 9}
+        DC: {Agnew: 5, Romney: 4}
+        FL: {Agnew: 34}
+        GA: {Agnew: 29, Romney: 1}
+        HI: {Agnew: 14}
+        ID: {Agnew: 14}
+        IL: {Agnew: 56, 'Not voting': 2}
+        IN: {Agnew: 26}
+        IA: {Agnew: 18, Romney: 6}
+        KS: {Agnew: 19, 'Not voting': 1}
+        KY: {Agnew: 24}
+        LA: {Agnew: 26}
+        ME: {Agnew: 13, Romney: 1}
+        MD: {Agnew: 26}
+        MA: {Agnew: 26, Romney: 8}
+        MI: {Agnew: 5, Romney: 43}
+        MN: {Agnew: 4, Romney: 22}
+        MS: {Agnew: 20}
+        MO: {Agnew: 24}
+        MT: {Agnew: 14}
+        NE: {Agnew: 16}
+        NV: {Agnew: 11, Romney: 1}
+        NH: {Agnew: 8}
+        NJ: {Agnew: 36, Romney: 4}
+        NM: {Agnew: 14}
+        NY: {Agnew: 84, Romney: 8}
+        NC: {Agnew: 22, 'Not voting': 4}
+        ND: {Agnew: 8}
+        OH: {Agnew: 56, Brooke: 1, Rhodes: 1}
+        OK: {Agnew: 22}
+        OR: {Agnew: 3, Romney: 15}
+        PA: {Agnew: 30, Lindsay: 10, Romney: 24}
+        PR: {Agnew: 5}
+        RI: {Agnew: 1, Romney: 13}
+        SC: {Agnew: 22}
+        SD: {Agnew: 14}
+        TN: {Agnew: 27, Romney: 1}
+        TX: {Agnew: 48, 'Not voting': 8}
+        UT: {Agnew: 6, Romney: 2}
+        VT: {Agnew: 12}
+        VA: {Agnew: 24}
+        VI: {Agnew: 3}
+        WA: {Agnew: 19, Romney: 5}
+        WV: {Agnew: 14}
+        WI: {Agnew: 25, Romney: 5}
+        WY: {Agnew: 12}
+      star: {st: DE, page: 431, text: 'After all states had voted, the State of Delaware was recognized for the purpose of changing the vote to 12 for Governor Agnew. Before other states could be recognized Governor Romney moved that the rules be suspended to allow a unanimous vote for Governor Spiro T. Agnew. The Convention agreed by voice vote.'}
+  names: {Carlson: Frank Carlson, Case: Clifford P. Case, Fong: Hiram L. Fong, Nixon: Richard M. Nixon, Reagan: Ronald Reagan, Rhodes: James A. Rhodes, 'N. Rockefeller': Nelson A. Rockefeller, 'W. Rockefeller': Winthrop Rockefeller, Romney: George Romney, Stassen: Harold Stassen, Lindsay: John Lindsay, Agnew: Spiro T. Agnew, Brooke: Edward W. Brooke}
+
+'1968-D':
+  name: Democratic National Convention
+  place: Chicago
+  opened: '1968-08-26'
+  closed: '1968-08-29'
+  hughes:
+    title: Table I.—Summary of 1968 Selection Procedures for State Delegates to the National Convention
+    cite: 'Commission on the Democratic Selection of Presidential Nominees (Hughes Commission), *The Democratic Choice*, inserted by Fraser, 114 Cong. Rec. 31544 (Oct. 14, 1968); the table, 31549'
+    url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt24/pdf/GPO-CRECB-1968-pt24-3-3.pdf#page=175
+    columns: [appointment, convention, open precinct, closed precinct, direct election, at large, by district, preferential poll, binding, advisory]
+    printed: [Direct appointment, Convention, Open precinct, Closed precinct, Direct election, At large, By district, Preferential poll, Binding, Advisory]
+    totals: {appointment: 10, convention: 32, direct election: 15, preferential poll: 13}
+    notes:
+      1: The State executive committee may declare statewide primary.
+      2: The party or State officials who choose all or part of the delegations in these States were themselves selected at least 1 year, in most cases 2 and even 4 years, before the national convention.
+      3: Delegates to the district and State nominating conventions are popularly elected on the day the preferential poll is held.
+      4: Delegates to the district and State nominating conventions are chosen by precinct representatives who are in turn elected in a primary held 2 years before the presidential election year.
+  states:
+    AL: {hughes: [appointment], note: 1}
+    AK: {hughes: [convention, open precinct]}
+    AZ: {hughes: [appointment, convention, closed precinct]}
+    AR: {hughes: [convention, closed precinct]}
+    CA: {hughes: [direct election, at large, preferential poll, binding]}
+    CO: {hughes: [convention, open precinct]}
+    CT: {hughes: [convention, open precinct, closed precinct], note: 2}
+    DE: {hughes: [convention, closed precinct], note: 2}
+    DC: {hughes: [direct election, at large]}
+    FL: {hughes: [direct election, at large, by district, preferential poll, advisory]}
+    GA: {hughes: [appointment]}
+    HI: {hughes: [convention]}
+    ID: {hughes: [convention, closed precinct], note: 2}
+    IL: {hughes: [convention, closed precinct, direct election, by district, preferential poll, advisory]}
+    IN: {hughes: [convention, preferential poll, binding], note: 3}
+    IA: {hughes: [convention, open precinct]}
+    KS: {hughes: [convention, closed precinct], note: 2}
+    KY: {hughes: [convention, open precinct]}
+    LA: {hughes: [appointment], note: 2}
+    ME: {hughes: [convention, open precinct]}
+    MD: {hughes: [appointment], note: 2}
+    MA: {hughes: [direct election, at large, by district, preferential poll, binding]}
+    MI: {hughes: [convention, closed precinct], note: 4}
+    MN: {hughes: [convention, open precinct]}
+    MS: {hughes: [convention, open precinct]}
+    MO: {hughes: [convention, open precinct]}
+    MT: {hughes: [convention, open precinct]}
+    NE: {hughes: [direct election, by district, preferential poll, advisory]}
+    NV: {hughes: [convention, open precinct]}
+    NH: {hughes: [direct election, by district, preferential poll, advisory]}
+    NJ: {hughes: [direct election, at large, by district]}
+    NM: {hughes: [convention, open precinct]}
+    NY: {hughes: [appointment, direct election, by district]}
+    NC: {hughes: [appointment, convention, open precinct], note: 2}
+    ND: {hughes: [convention, closed precinct]}
+    OH: {hughes: [direct election, at large, by district, preferential poll, advisory]}
+    OK: {hughes: [convention, closed precinct], note: 2}
+    OR: {hughes: [direct election, at large, by district, preferential poll, binding]}
+    PA: {hughes: [appointment, direct election, by district, preferential poll, advisory], note: 2}
+    RI: {hughes: [appointment], note: 2}
+    SC: {hughes: [appointment, convention, open precinct]}
+    SD: {hughes: [direct election, at large, preferential poll, binding]}
+    TN: {hughes: [convention, open precinct]}
+    TX: {hughes: [convention, open precinct]}
+    UT: {hughes: [convention, open precinct]}
+    VT: {hughes: [convention, open precinct]}
+    VA: {hughes: [convention, open precinct, closed precinct]}
+    WA: {hughes: [convention, open precinct, closed precinct], note: 2}
+    WV: {hughes: [direct election, at large, by district, preferential poll, advisory]}
+    WI: {hughes: [direct election, at large, by district, preferential poll, binding]}
+    WY: {hughes: [convention, closed precinct]}

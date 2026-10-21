@@ -11,7 +11,11 @@ import json
 import os
 import re
 
-from . import calsplit, daybook, governors, legislatures, primaries, specials, store, vnmap
+from . import calsplit, daybook, governors, legislatures, primaries, specials, statefin, store, vnmap
+from . import conventions
+from . import wardead
+from . import budgets
+from . import bills
 from . import smart
 from .markup import to_html, plain, italics, ITAL_RE, REF_RE
 from .refs import Refs, split_protected
@@ -1060,8 +1064,13 @@ def run(series, which=None):
                 page = executive.inject(page, series, linker, "list")
                 page = specials.inject(page, series)
                 page = primaries.inject(page, series)
+                page = conventions.inject(page, series)
                 page = governors.inject(page, series)
                 page = legislatures.inject(page, series)
+                page = wardead.inject(page, series)
+                page = statefin.inject(page, series)
+                page = budgets.inject(page, series)
+                page = bills.inject(page, series)
                 page = vnmap.inject(page, series)
                 page = indicators.inject(page, series, "list")
                 page = daybook.inject(page)
@@ -1080,8 +1089,13 @@ def run(series, which=None):
         page = executive.inject(page, series, linker, "series")
         page = specials.inject(page, series)
         page = primaries.inject(page, series)
+        page = conventions.inject(page, series)
         page = governors.inject(page, series)
         page = legislatures.inject(page, series)
+        page = wardead.inject(page, series)
+        page = statefin.inject(page, series)
+        page = budgets.inject(page, series)
+        page = bills.inject(page, series)
         page = vnmap.inject(page, series)
         page = indicators.inject(page, series, "series")
         page = daybook.inject(page)

@@ -346,13 +346,14 @@ def block(c, data, geo, ptr, href, rid, here=False):
         later[(x["ch"], x["st"], x["seat"])].append(x)
     for ch, rows, label in (("h", house, "House"), ("s", senate, "Senate")):
         out.append(f'<details class="cgr cgm"><summary>{label} members, {len(rows)}, by state</summary><table>'
-                   '<colgroup><col class="c1"><col class="c2"><col class="c3"><col class="c4"></colgroup>')
-        out.append(f'<thead><tr><th>{"" if ch == "h" else "Class"}</th><th>Member</th><th>Party</th><th>In the series</th></tr></thead><tbody>')
+                   '<colgroup><col class="c1"><col class="c2"><col class="c3"><col class="c3b"><col class="c4"></colgroup>')
+        out.append(f'<thead><tr><th>{"" if ch == "h" else "Class"}</th><th>Member</th><th>Party</th>'
+                   '<th title="Years in the chamber at the opening">Yrs</th><th>In the series</th></tr></thead><tbody>')
         bystate = defaultdict(list)
         for r in rows:
             bystate[r["st"]].append(r)
         for st in sorted(bystate, key=lambda s: STATE[s]):
-            out.append(f'<tr class="st"><th colspan="4">{STATE[st]}</th></tr>')
+            out.append(f'<tr class="st"><th colspan="5">{STATE[st]}</th></tr>')
             for r in bystate[st]:
                 seat = r["d"] if ch == "h" else r["cl"]
                 lab = ("AL" if seat == 0 else str(seat)) if ch == "h" else ("I", "II", "III")[seat - 1]
@@ -374,10 +375,14 @@ def block(c, data, geo, ptr, href, rid, here=False):
                 for s_ in sws:
                     note += f'<span class="cgn cgc">{esc(specials.switch_note(s_))}</span>'
                 from . import seatlinks
+                from . import committee_rosters as cmr     # his committees, his years in the chamber (its STYLE 3)
+                note += cmr.roster_line(c, ch, r.get("bio"), here) if not r.get("vacant") else ""
                 note += seatlinks.member_line(c, str(data["opened"]), ch, r["st"], seat,
                                               "" if r.get("vacant") else r["name"], here)
+                yrs = cmr.years(c, ch, r.get("bio")) if not r.get("vacant") else None
                 out.append(f'<tr id="{rid(c, ch, r["st"], seat)}"><td>{lab}</td><td>{who}{note}</td>'
-                           f'<td class="p{(caucused(r) or r.get("party") or "V") if not r.get("vacant") else "V"}t">{party}</td><td>{"; ".join(pts)}</td></tr>')
+                           f'<td class="p{(caucused(r) or r.get("party") or "V") if not r.get("vacant") else "V"}t">{party}</td>'
+                           f'<td class="cmy">{"" if yrs is None else yrs}</td><td>{"; ".join(pts)}</td></tr>')
         out.append("</tbody></table></details>")
     out.append("</div>")
     return "\n".join(out)
@@ -492,6 +497,17 @@ def inject(page, series, linker, mode):
                     page, n = pat.subn(lambda mm: mm.group(1) + blk + mm.group(2), page, count=1)
                     if n:
                         used.append(c)
+                m = re.match(r"^committees:(\d+)$", t)     # the leaders and committees (committee_rosters.py)
+                if m:
+                    from . import committee_rosters as cmr
+                    c = int(m.group(1))
+                    blk = cmr.blocks(c, series, here=f"congress:{c}" in (e.get("tags") or []))
+                    if blk:
+                        pat = re.compile(r'(<li id="' + re.escape(e["id"]) + r'"[^>]*>.*?)(</li>)', re.S)
+                        page, n = pat.subn(lambda mm: mm.group(1) + blk + mm.group(2), page, count=1)
+                        if n:
+                            used.append(c)
+                            page = cmr.ensure(page)
     if used:
         from . import roster
         page = roster.ensure(page.replace("</body>", assets(geo_subset(geo, sorted(set(used)))) + "\n</body>", 1))
@@ -572,6 +588,12 @@ def page(series, linker, template):
         if c in tagged:
             main.append(f'<p class="logic">In the calendar: <a href="cal.html#{tagged[c]["id"]}">{esc(tagged[c]["when"])}, {tagged[c]["date"][:4]}</a>.</p>')
         main.append(block(c, data[c], geo, ptr, href, rid, here=True))
+        from . import committee_rosters as cmr     # the leaders and the standing committees (its STYLE)
+        if cmr.of(c, "h") or cmr.of(c, "s"):
+            main.append(f'<h3 id="ldh{c}" data-short="Leadership">Leadership</h3>')
+            main.append(cmr.leaders_block(c, series, here=True))
+            main.append(f'<h3 id="cmh{c}" data-short="Committees">Committees</h3>')
+            main.append(cmr.committees_block(c, series, here=True))
         main += state_blocks(c, y, False)
         sp = specials.block(c, edata)
         if sp:
@@ -579,5 +601,5 @@ def page(series, linker, template):
             main.append(sp)
     pg = open(template, encoding="utf-8").read()
     pg = pg.replace("{{page_title}}", "Elections and Congress").replace("{{main}}", "\n".join(main))
-    from . import roster
-    return roster.ensure(pg.replace("</body>", assets(geo) + "\n</body>", 1))
+    from . import roster, committee_rosters
+    return committee_rosters.ensure(roster.ensure(pg.replace("</body>", assets(geo) + "\n</body>", 1)))

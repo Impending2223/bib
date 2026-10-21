@@ -15,6 +15,8 @@ Each entry: the name as Part III writes it, the Directory's description, the poi
                        Papers and the campaign documents), one a line, by year
   Television           the Sunday interview programs he was a guest on (daybook/sunday.yaml: Meet the Press, 1945–80;
                        Face the Nation, 1959–70), by date
+  Testimony            the committee meetings the Daily Digest names the person a witness at (daybook/committees;
+                       tools/bib/committees.py, STYLE 2-3: who is whom), one a line, by date
   Recordings           the White House recordings PRDE lists the person as a speaker on, one a line, by year
                        (recording_speakers: who is whom)
 
@@ -2730,6 +2732,9 @@ def entry(series, linker, ptrs, p):
             out.append(f'<details class="lvz"><summary><h3>{title}</h3> <span class="lvc">{fold}</span></summary>{body}</details>')
         else:
             out.append(f"<h3>{title}</h3>" + body)
+    from . import committee_rosters             # his committees across the Congresses (its STYLE 4)
+    cm_items, cm_foot = committee_rosters.person_items(rp, names, SITE)
+    section("Committees", cm_items, foot=cm_foot)
     kinds = lambda k: [w for w in works if w[0] == k]
     g_own, g_prim, g_about = grouped(kinds("own")), grouped(kinds("primary")), grouped(kinds("about"))
     every = g_own + g_prim + g_about
@@ -2745,6 +2750,10 @@ def entry(series, linker, ptrs, p):
             fold=f"{nf:,} in {len(named)} {'volume' if len(named) == 1 else 'volumes'}")
     na = sum(x.count('class="lvad"') for x in ppp)
     section("Presidential documents that name", ppp, "None found.", "lvb lvf lvy", fold=f"{na:,}")
+    from . import committees              # the Daily Digest's meetings he testified at (committees.py, STYLE 3)
+    cm = committees.testimony_list(series, name, SITE)
+    section("Testimony before Congress", cm, "None found.", "lvb lvnb", fold=f"{len(cm):,}" if len(cm) > 12 else None,
+            foot=("From the Daily Digest of the <i>Congressional Record</i>, bound edition, by page.",) if cm else ())
     section("Television interviews", tv, "None found.", "lvb lvnb", fold=f"{len(tv):,}" if len(tv) > 12 else None,
             foot=tv_src)
     nr = sum(x.count('class="lvad"') for x in rec)
@@ -2756,6 +2765,7 @@ def entry(series, linker, ptrs, p):
 
 CSS = """<style>
 /* Names (tools/bib/lives.py) */
+.lv .cmh{font-variant:small-caps;text-transform:lowercase;letter-spacing:.02em}
 .lv h2{margin-top:2rem}
 .lv h3{font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:1.4rem 0 .4rem}
 .lvd{font-size:.95rem}

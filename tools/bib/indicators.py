@@ -62,6 +62,8 @@ STYLE (settled; keep it, and fix anything that drifts from it):
     only in a month it changed.
 14. A release known only by its issue (the Treasury Bulletin, monthly) has its month for a date ("released:
     1962-02"), shown "Feb. 1962".
+15. Oil (oil-*): its own cells, in millions of barrels a day, levels only; STYLE in tools/bib/oil.py.
+16. The war (war-*, kind: war): deaths and strength, its own cells, persons; STYLE in tools/bib/war.py.
 """
 import calendar
 import datetime
@@ -70,13 +72,16 @@ import re
 
 from . import store
 from .markup import to_html
+from . import oil
+from . import war
 
 DIR = os.path.join(store.ROOT, "indicators")
 ORDER = ["cpi", "wpi", "deflator", "unemployment", "payrolls", "industrial-production", "gnp", "real-gnp",
          "gap-cea", "gap-cbo", "administrative-budget", "cash-budget", "unified-budget", "federal-national-accounts",
          "federal-primary-balance", "interest-gnp", "public-debt", "debt-gnp", "debt-gdp-omb",
          "balance-of-payments", "balance-of-payments-regular", "balance-of-payments-liquidity",
-         "balance-of-payments-official", "gold-stock", "discount-rate", "federal-funds",
+         "balance-of-payments-official", "gold-stock", "oil-production", "oil-supplied", "oil-trade", "oil-trade-year",
+         "oil-reserves", "war-deaths", "war-strength", "discount-rate", "federal-funds",
          "prime-rate", "treasury-bill", "treasury-10-year", "approval"]
 GROUP = {"cpi": "Prices", "wpi": "Prices", "deflator": "Prices",
          "unemployment": "Employment", "payrolls": "Employment",
@@ -91,6 +96,9 @@ GROUP = {"cpi": "Prices", "wpi": "Prices", "deflator": "Prices",
          "balance-of-payments": "International", "balance-of-payments-regular": "International",
          "balance-of-payments-liquidity": "International", "balance-of-payments-official": "International",
          "gold-stock": "International",
+         "oil-production": "Oil", "oil-supplied": "Oil", "oil-trade": "Oil", "oil-trade-year": "Oil",
+         "oil-reserves": "Oil",
+         "war-deaths": "The war", "war-strength": "The war",
          "approval": "Opinion"}
 FIELD_LABEL = {"receipts": "Receipts", "expenditures": "Expenditures", "payments": "Payments", "outlays": "Outlays",
                "balance": "Balance", "interest": "Net interest", "primary": "Primary"}
@@ -145,6 +153,8 @@ DEFS = {
     "treasury-10-year": f"Yields on Treasury issues adjusted to a constant maturity of ten years, monthly average of business days ([FRED]({F}GS10), from the Board's H.15). The *Federal Reserve Bulletin* then printed the average yield of Treasury bonds maturing or callable in ten years or more ([Feb. 1965]({FRB}february-1965-21362), p. 286): another measure.",
     "gold-stock": f"Treasury monetary gold stock, end of month, as compiled by NBER from the *Federal Reserve Bulletin* ([FRED]({F}M1476CUSM144NNBR)). Not a revised series; one column.",
 }
+DEFS.update(oil.DEFS)                    # the Oil group: tools/bib/oil.py
+DEFS.update(war.DEFS)                    # The war: tools/bib/war.py
 
 
 def esc(t):
@@ -191,6 +201,8 @@ def period_label(p):
 
 
 def date_label(iso, year=None):
+    if re.match(r"^\d{4}$", str(iso)):                # a volume known by its year (the Minerals Yearbook)
+        return str(iso)
     if re.match(r"^\d{4}-\d{2}$", str(iso)):          # an issue month (STYLE 14)
         return f"{MON[int(str(iso)[5:7]) - 1]} {str(iso)[:4]}"
     d = datetime.date.fromisoformat(str(iso))
@@ -352,6 +364,10 @@ def rows_for(data, lo, hi, prev_to=None, next_from=None):
 
 
 def cell_first(sid, s, r, year):
+    if sid in oil.SERIES:                 # the Oil group (tools/bib/oil.py, its STYLE)
+        return oil.first_cell(sid, s, r)
+    if s.get("kind") == "war":            # The war (tools/bib/war.py, its STYLE)
+        return war.cell(sid, s, r, "first")
     if "first" not in r and not r.get("est"):
         return "—"
     unit, kind = r.get("unit"), s.get("change")
@@ -363,6 +379,10 @@ def cell_first(sid, s, r, year):
 
 
 def cell_now(sid, s, r):
+    if sid in oil.SERIES:
+        return oil.now_cell(sid, s, r)
+    if s.get("kind") == "war":
+        return war.cell(sid, s, r, "now")
     v = r.get("now")
     if v is None or (isinstance(v, dict) and not any(x is not None for x in v.values())):
         return "—"

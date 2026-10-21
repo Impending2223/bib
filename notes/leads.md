@@ -70,6 +70,7 @@ reports them (`notes/calendar-audit.md`).
 
 ### Idaho
 
+- Idaho's first general sales tax, 1965 (Census: first revenue in fiscal 1966): the act and its date, and the referendum of 1966 on it, not entered. *Idaho Session Laws*, 1965; the Idaho legislature's site refused this host (403).
 - Sales tax, 1965, and the referendum on it, 1966: not entered. No Idaho return opened from here; Idaho State Archives; *Idaho Blue Book* (states.yaml gaps).
 - Reapportionment, 1964–66: not entered.
 - Herndon killed in a plane crash, Sept. 1966: the day (`cal.1966-09.governors-id`).
@@ -104,6 +105,7 @@ reports them (`notes/calendar-audit.md`).
 
 ### Kentucky
 
+- Kentucky's first general sales tax, 1960 (Combs; Census: first revenue in fiscal 1961): the act and its date not entered. *Kentucky Acts*, 1960; the LRC's site refused this host (403).
 - Sales tax, 1960 (Combs): no date found. *Acts of Kentucky*, 1960; Kentucky Department for Libraries and Archives.
 - Lexington: nothing verifiable written.
 
@@ -127,6 +129,7 @@ reports them (`notes/calendar-audit.md`).
 
 ### Minnesota
 
+- The 1967 sales tax: the first collections and the referendum LeVander asked for, not pursued (`cal.1967-06-01.state-and-city-finance-mn-2`).
 - Apportionment law of 1966: approved May 24 (MNopedia) or May 20 (Legislative Reference Library) (`cal.1966-01-14.legislatures-mn`).
 - Minneapolis. Mayoral races of 1963 and 1965: the votes; 1965 the day (`cal.1963-06-11.mayors-minneapolis`, `cal.1965-06.mayors-minneapolis`). The city's canvass.
 - St. Paul. Mayoral races of 1960, 1962, 1964, 1966: no source with dates or votes.
@@ -163,6 +166,7 @@ reports them (`notes/calendar-audit.md`).
 
 ### Nebraska
 
+- The Nebraska Revenue Act of 1967, the first general sales and income taxes (Laws 1967, c. 487, p. 1533; Census: first revenue in fiscal 1968): the date of passage and signature not found. *Nebraska Blue Book*, 1968, pp. 435–436 ([govdocs](https://govdocs.nebraska.gov/epubs/L3000/D001-1968.pdf#page=439)) gives the act without dates; *Laws of Nebraska*, 1967, c. 487.
 - Omaha. Mayoral races of 1961 and 1965: the days (`cal.1961-05.mayors-omaha`, `cal.1965-05.mayors-omaha`). Douglas County Election Commissioner.
 
 ### Nevada
@@ -171,6 +175,10 @@ reports them (`notes/calendar-audit.md`).
 - The Gaming Commission's Black Book, 1960; Sinatra's Cal-Neva license, 1963; the FBI's microphones in the casinos, 1966: not verified.
 - Las Vegas. Gragson re-elected, 1963; the Clark County commission: not found.
 - Reno: no data.
+
+### New Jersey
+
+- Census shows New Jersey drawing individual income tax revenue from fiscal 1962 ($6.5 million; `cal.1962-06-30.state-and-city-finance-us`): the act is probably the tax on commuters of 1961, not a general income tax. Check the act; *Laws of New Jersey*, 1961.
 
 ### New Mexico
 
@@ -282,6 +290,7 @@ reports them (`notes/calendar-audit.md`).
 
 ### Wisconsin
 
+- Wisconsin's selective sales tax, 1961–62 (Nelson; Census counts it a general sales tax, first revenue in fiscal 1962): the act and its date not entered. *Wisconsin Blue Book*, 1962 (UW digital collections; the whole-book PDF's address not found from here); docs.legis.wisconsin.gov reset the connection.
 - Sales tax fight, 1961–62: not written.
 - Milwaukee. Mayoral race, 1964: the opponent and the vote (`cal.1964-04-07.mayors-milwaukee`). The city's canvass.
 - Milwaukee. The Amos suit: the day of filing (`cal.1965-06.desegregation-schools-milwaukee`).
@@ -304,6 +313,10 @@ reports them (`notes/calendar-audit.md`).
 - The U.S. Conference of Mayors' 1968 meeting; the National League of Cities' 1968 congress.
 
 ## National
+
+- The conventions (`elections/conventions.yaml`, `cal.1968-08-05.elections-1968`): how and when each Republican delegation of 1968 was chosen is Wikipedia's table ("1968 Republican primaries and state conventions"), each row from a newspaper; read it against the Senate Library's *Nomination and Election of the President and Vice President ... Including the Manner of Selecting Delegates* (Jan. 1968; archive.org `nominationelecti0000na`, borrow only; not on govinfo; HathiTrust not reached, its pages bot-checked). Open questions there: whether each primary bound its delegates; Alabama (CQ Guide 6th (2010) 409 says a delegate-selection primary was held; the table gives conventions); New York's ten at large; Michigan's and Texas's district delegates (the table gives the State convention alone); Puerto Rico and the Virgin Islands (not in the table); the table's own doubts (Tennessee's 9th district, Mar. 28; Louisiana's 1st and 2nd, May 30). Its delegate counts disagree with the Call in places (Florida 36, the Call 34) and were not taken.
+- The other conventions (`elections/conventions.yaml`): Republican 1964 (San Francisco: the Scott civil rights and extremism amendments' roll calls; *Twenty-eighth Republican National Convention*, archive.org `twentyeighthrepu0000unse`, borrow, may be the program); Democratic 1964 (Atlantic City: the Mississippi and Alabama seatings; *Official Report of the Proceedings of the Democratic National Convention and Committee*, `officialreportof0000chai`, borrow, 942 pp.); Democratic 1968 (Chicago: the unit rule, the Georgia, Mississippi, Texas, Alabama and North Carolina seatings, the minority Vietnam plank, the first ballot by State; Proceedings not found online; Wikipedia gives only the totals, Humphrey 1,759.25; how chosen, the Hughes Commission's Table I, 114 Cong. Rec. 31549 (Oct. 14, 1968), now in the file; the Call's apportionment not found); 1960 both (not found). Bain and Parris, *Convention Decisions and Voting Records* (2d ed. 1973; `conventiondecisi0000bain`, borrow; HathiTrust search-only) prints every roll call by State; CQ's *National Party Conventions, 1831-1972* (`nationalpartycon0000cong_n4e9`, borrow; HathiTrust search-only) the apportionments. The Republican Proceedings run on archive.org's `sim_republican-national-convention-proceedings_*` from 1968 only.
+- The Republican roll calls of 1968 in the Names: each delegation's vote is not yet a row in the candidates' records (as `primary_rows` does for the primaries).
 
 - Senate Finance's hearings on the tax bill, Oct. 15, 1963: the date not verified. The hearings on H.R. 8363 (govinfo).
 - The rail arbitration board's award, Nov. 26, 1963: not entered.
@@ -405,6 +418,73 @@ document was found. Each under the entry it concerns; `./bib find -t check -l ca
 - Single-day entries that still take in another day (a second pass): Jan. 26, 1960, Vietnam (Feb. 12); Feb. 4, 1960,
   school aid (Feb. 3); May 13, 1960, the veto (the passage votes).
 
+### Federal finance (the fiscal agent, Oct. 21, 2026)
+
+- Appropriations, each session's bills against the President's estimates (the plan's item 5,
+  `notes/proposals/fiscal-congress-conventions-state.md`): the Senate's *Appropriations, Budget Estimates, Etc.* for
+  the 1960s not found open (HathiTrust not tried); the *CQ Almanac* is borrow-only on archive.org.
+- Fiscal 1968's first-reported actual on the administrative basis, by source and by function: not in the budget of
+  January 1969 (unified only). Look in the Treasury's *Annual Report* for fiscal 1968 (FRASER, AR_TREASURY_1968.pdf:
+  its statistical tables seem to be in a separate appendix) or the *Treasury Bulletin*, Aug.–Sept. 1968
+  (`budgets/budgets.yaml`, 1968 `actual: null`).
+- Fiscal 1967's expenditures by function, interest (13,524) and general government (2,708): read from the OCR text of
+  the Treasury's *Annual Report*, 1967, p. 484, not the page image (the lines add to the printed total).
+- Debt limit: the Senate's tabling of Gore's depletion amendment to H.R. 12381, June 18, 1960 (Johnson's motion,
+  39–26, RS0860354), left out as minor; the Senate's passage of H.R. 7677, June 28 or 29, 1961, without a roll call
+  (the 1961 History of Bills prints p. 11624, which falls on June 28, but the debate it cites runs to 11651, June 29);
+  CRS's *The Debt Limit: History and Recent Increases* (Austin, RL31967) answers 403 from here.
+- Revenue effects not in Tempalski's OTA Working Paper 81: the Excise Tax Reduction Act of 1965 (cal.1965-06-21.economy),
+  the investment credit's suspension (cal.1966-11-08.economy) and restoration (cal.1967-06-13.economy). The Treasury's
+  estimates are in the next January's budgets (the receipts chapters) and the Treasury's Annual Reports.
+- Bill histories still to do (`congress/bills.yaml`, the plan's item 3): the Revenue Act of 1962 (H.R. 10650), the
+  Interest Equalization Tax Act (H.R. 8000, 1963–64), the Excise Tax Reduction Act of 1965 (H.R. 8371), the Tax
+  Adjustment Act (H.R. 12752), the investment credit's suspension (H.R. 17607) and restoration (H.R. 6950), the
+  Foreign Investors Tax Act (H.R. 13103, 1966), and the twelve debt-limit acts. The History of Bills parts are on
+  govinfo (1960 pt15, 1961 pt17, 1962 pt18, 1963 pt20, 1964 pt19, 1965 pt22, 1966 pt22, 1967 pt28, 1968 pt25); the
+  pages turn to days by each part's granule records (printPageRange in the package's mods.xml). Senate Finance's
+  hearings on H.R. 8363 (Oct.–Dec. 1963) are not in the History and not yet in the calendar.
+
+### Oil (the oil agent, Oct. 21, 2026)
+
+- The Machiasport refinery fight, 1968 (Occidental's proposed foreign-trade-zone refinery at Machiasport, Me., and its
+  import quota): not verified, no record read; the Federal Register's Foreign-Trade Zones Board notices of 1968 and the
+  Cabinet Task Force on Oil Import Control, *The Oil Import Question* (Feb. 1970), would date it. govinfo's search API
+  refused here (rate limit on the shared key).
+- The Foreign Petroleum Supply Committee's plan of action, June 1967: awaiting Interior, the Office of Emergency
+  Planning and the Attorney General on June 24 (FRUS 1964–68, XXXIV, doc. 249); the day it was approved, or whether,
+  not found. Vietor, *Energy Policy in America since 1945*, likely gives it.
+- Proclamation 3279 (Mar. 10, 1959) and its amendments of 1959 (3290, Apr. 30; 3328, Dec. 10) fall before the calendar;
+  any amendment after Proclamation 3823 (Jan. 29, 1968) and before Jan. 20, 1969 not looked for (the Federal Register's
+  list of CFR parts affected, title 3).
+- The Bureau of Mines' own *Monthly Petroleum Statement* (Mineral Industry Surveys), earlier than the Survey of Current
+  Business's figures now used as "first": no open copy found (archive.org none; HathiTrust's pages bot-checked).
+  The API's annual *Proved Reserves* reports (each spring) likewise; the Yearbook's reprint stands in.
+- The Minerals Yearbook pages for reserves (oil-reserves rows): 1960, 1965–68 checked against the page images; 1961–64
+  placed by the page headers in archive.org's OCR (II, 365, 382, 398, 391) Check.
+- The Kuwait and Saudi finds as they bore on policy, Algeria's and Nigeria's exports, Abu Dhabi's first oil, the
+  Iranian consortium's quotas: not entered (the memo's item 3, `notes/proposals/military-oil-vietnam.md`).
+
+### Leaders and committees (the rosters of Oct. 21, 2026)
+
+- Senate Armed Services, 88th Congress: the *Directory* of Mar. 1, 1963 prints Stennis 2nd and Harry F. Byrd 3rd;
+  Nelson's file ranks Byrd 2nd. Nelson's order kept; settle from the Senate *Journal*, 1963.
+- Senate Commerce: Nelson codes it Interstate and Foreign Commerce (354) for all of the 87th; the *Directory* of Jan. 10,
+  1962 prints "Commerce" often. The rename's date.
+- Russell, President pro tempore to Jan. 21, 1971 (the day he died and the 92nd convened): left out of the 92nd (see
+  congress/committees-hand.yaml).
+- Not yet built: subcommittees; select, special and joint committees (Aging; Joint Economic, Atomic Energy, Internal
+  Revenue Taxation), which the *Directory* prints; ratios changed during a Congress; the *Directory*'s page on each
+  committee.
+
+### Committee hearings (the Daily Digest)
+
+- Hearings a calendar entry should cite by the Digest's line and the printed hearing: Senate Foreign Relations on
+  Vietnam, Feb. 1966; Ways and Means on the tax bill, 1963–64.
+- Gaps of six days or more where recess and a missed day heading cannot be told apart: 1966 June 9–15, Sept. 1–7;
+  1967 Jan. 18–24; 1968 Apr. 11–17. Check against the Digest's pages.
+- Not yet done: the bills in a meeting linked to their courses (`congress/bills.yaml`); the *Monthly Catalog*'s titles
+  of the printed hearings; subcommittee names the OCR cut short.
+
 ## Foreign
 
 - Military aid cut off to allies trading with Cuba, Feb. 18, 1964: not verified.
@@ -504,6 +584,65 @@ Events Gibbons treats that the calendar lacks, not entered: no record reached an
   (docs. 83, 84); Esterline and Hawkins at Bissell's house, Apr. 8; Hawkins's cable of Apr. 13 (Taylor, par. 34);
   Kennedy's approval of the landing, midday Apr. 16 (Taylor, par. 37); the prisoners, about 1,200 (no source read);
   earlier releases of Schlesinger's memoranda of Feb. 11 and Apr. 5.
+
+### Oil (the oil agent, Oct. 21, 2026)
+
+- The posted price of Arabian light (34°) at Ras Tanura ($1.80 from Aug. 1960 in the memo, unverified): no source
+  read gives it. OPEC's *Annual Statistical Bulletin* and the Energy Institute's *Statistical Review* workbook ("Arabian
+  Light posted at Ras Tanura" to 1983) are bot-checked here; the Minerals Yearbook (vols. II, IV, 1960–70) prints no
+  posted price for it; FRUS 1958–60, XII, 1961–63, IX, XVII–XVIII, 1964–68, XXI, XXXIV do not either. A person in a
+  browser can open the Energy Institute's workbook.
+- The world table a year (the memo's item 2): crude production by country, the Minerals Yearbook's table as printed
+  that year (vol. II, "World review", e.g. 1960, table 89, p. 487; OCR poor, read from the page) beside the Energy
+  Institute's figure today (bot-checked; Our World in Data's mirror on GitHub is open, in TWh). Not built.
+- The 1967 embargo's other days: Saudi Arabia's stop (June 6–7; FRUS gives Yamani's line, not the order), Libya's
+  announcement (June 7), Boumediene's call for a year's cutoff (June 19), the Arab foreign ministers at Kuwait (June 17),
+  Libya's quiet resumption to West Germany (Aug. 9): in FRUS 1964–68, XXXIV, docs. 233, 239, 243, 263; not entered.
+
+### The *Bulletin* and *Current Documents* (the printed-record agent, Oct. 21, 2026)
+
+- Kennedy's and Khrushchev's letters of Oct. 22–25, 1962 (FRUS 1961–63, VI, docs. 60–64; XI, doc. 44): private, and
+  printed in the *Bulletin*, Nov. 19, 1973, 635–639 (FRUS's source notes). No calendar entries for them; each would
+  carry "Made public: [[w.department-of-state-bulletin]], Nov. 19, 1973."
+- The MAYFLOWER message (`cal.1965-05-12.vietnam`; FRUS 1964–68, II, doc. 293): its text in *Current Documents, 1965*,
+  868–869. When it was first made public not read; then a "Made public:" line.
+- Johnson's reply to de Gaulle, Mar. 22, 1966 (`cal.1966-03-22.europe-and-the-alliance-france`; FRUS 1964–68, XIII,
+  doc. 146): in *Current Documents, 1966*, 321–323. Whether released at the time not read.
+- *Current Documents*' years of publication (the cards' `year`), from FRUS's bibliographies: 1956's "1957" (FRUS
+  1964–68, XX, alone), 1957's "1961" (a range, "1957–1967 ... 1961–1969"), 1965's "1969" (FRUS 1964–68, II, alone).
+  Check on the volumes' title pages; no open copy found (HathiTrust's catalog search bot-checked here).
+- The *Bulletin*, vol. 59 (July–Dec. 1968): no copy on archive.org but the index; 52 of FRUS's citations unlinked.
+  HathiTrust holds it in full view (catalog only from here).
+- archive.org would not serve `departmentofstat4461unit` (Apr.–June 1961) and part of `departmentofstat581968unit`
+  (Jan.–Mar. 1968) on Oct. 21, 2026 (500): rerun `tools/daybook/make_dsb_index.py`, then `make_printed.py`.
+- FRUS's own misprinted *Bulletin* citations, flagged Check in `daybook/printed.yaml` (28): e.g. "November 19, 1962,
+  pp. 646–649" (FRUS 1961–63, XI, doc. 91) and "November 19, 1963" (VI, doc. 69), both for Nov. 19, 1973.
+- The *Bulletin* as a daybook list (`daybook/bulletin/`): 1962 done (40 of 53 issues' indexes read); 1956–61 and
+  1963–69 remain (`python3 tools/daybook/make_bulletin.py YEAR`); 1962's issues of Mar. 26, June 25, Aug. 6, Sept. 3,
+  17, 24, Oct. 1, 8, 22, Nov. 12, 26, Dec. 24, 31 without an index read (cover not found, or no page numbers).
+
+### The war's dead and strength (indicators/war-*.yaml; tools/indicators/make_war.py)
+
+- The milestones as announced (the 1,000th, 10,000th, 20,000th, 30,000th American dead), for calendar entries in the
+  thread Vietnam, dated by the record: not entered, no record read. The figures printed then put the crossings of the
+  hostile dead (from Jan. 1, 1961) about early Nov. 1965 (267 through 1964; 1,369 in 1965), mid-May 1967 (6,644
+  through 1966; 9,480 through April, 10,713 through May, by the *Southeast Asia Analysis Report*, Oct. 1967), the second
+  half of March 1968 (16,022 through 1967; 20,891 through Mar. 31, 1968, *Statistical Abstract*, 1968) and about mid-Dec.
+  1968 (30,614 through 1968, *Statistical Abstract*, 1969); a Thursday release follows each. Read: the *Times* the Friday
+  after (TimesMachine; nytimes.com and TimesMachine refuse this environment, DataDome) or the DoD release. Tried here:
+  the University Daily Kansan (digital.lib.ku.edu, open, OCR; Sept.-Dec. 1965 carries no weekly figures; its spring
+  1967 and 1968 and fall 1968 batches not found by id), the Michigan Daily, CDNC, the Battalion (TAMU), the UNI
+  repository (bot-checked or refused), govinfo's search of the bound *Congressional Record* (works with DEMO_KEY, then
+  rate-limited; a key would serve: members inserted the weekly figures).
+- The weekly announced dead and strength (the "then" columns by month): the Thursday releases as the *Times* printed
+  them, Jan. 1965-Jan. 1969, about 210 issues; only Jan.-Sept. 1967 (deaths) is read, from the *SEA Analysis Report*.
+- MACV's month-end strength (the "today" column by month): the MACV Command Histories (Texas Tech's Virtual Vietnam
+  Archive, refused here); the *SEA Analysis Report*'s deployment articles, Dec. 1966-Dec. 1968, give MACV's preliminary
+  strength at irregular dates (Thayer, *A Systems Analysis View*, vol. 2, pp. 131-167, DTIC ADA051609).
+- The *Statistical Abstract*, 1969, prints 14,500 for the forces at the end of 1962 ("1961-1962" column), against
+  11,300 in the 1967 and 1968 editions and the DoD's table of 1974: Check the column's meaning.
+- Deaths by province of South Vietnam (DCAS field 28, casualty province): a map a year beside the Indochina maps
+  (tools/bib/vnmap.py, another agent's).
 
 ## The Executive roster
 

@@ -1,0 +1,368 @@
+# Each fiscal year's budget, fiscal 1961-1970: receipts by source and expenditures (outlays) by function, as the
+# President proposed them in January and as first reported after the year closed. Kept by hand, read off FRASER's
+# scans of the *Budget of the United States Government* (and, for fiscal 1967's expenditures, the Treasury's *Annual
+# Report*), each figure checked against the table's printed total (`check`: the rows must add to it within rounding).
+# Today's figures, on today's unified basis and functions, are budgets/today.yaml (tools/budgets/make_today.py).
+# Rendered by tools/bib/budgets.py under the calendar entry tagged `budget:<FY>` (that January's budget message).
+#
+#   docs      each document read: title, the January it was sent, its FRASER file
+#   <FY>      proposed / actual, each with receipts and expenditures:
+#     doc, table, page (printed), pdf (the page in FRASER's file), unit (m: millions, bn: billions)
+#     basis   administrative (the budget's own accounts, trust funds out) or unified (from fiscal 1969's budget)
+#     rows    [key, figure] or [key, figure, as printed]: the key is the row the figure goes in; the third element is
+#             the source's own label where it differs (a renamed line, shown on hover). '*' is the source's "less
+#             than $50 million". A row the source prints as a deduction is negative.
+#     total   the printed total; total_label where it is not the budget's total
+#     note    a remark on the column, shown under the table
+#
+# Rows share a key only where the line means the same thing in both columns. Where the classification changed
+# between the proposal and the report (the functions of fiscal 1963's budget, Food for Peace moved to international
+# affairs in fiscal 1966's, the unified budget's functions of fiscal 1970's and 1971's), the lines are different
+# keys and stand in different rows, "—" in the other column (indicators STYLE 8).
+docs:
+  b1961: {title: 'The Budget of the United States Government for the Fiscal Year Ending June 30, 1961', sent: '1960-01-18', file: bus_1961.pdf}
+  b1962: {title: 'The Budget of the United States Government for the Fiscal Year Ending June 30, 1962', sent: '1961-01-16', file: bus_1962.pdf}
+  b1963: {title: 'The Budget of the United States Government for the Fiscal Year Ending June 30, 1963', sent: '1962-01-18', file: bus_1963.pdf}
+  b1964: {title: 'The Budget of the United States Government for the Fiscal Year Ending June 30, 1964', sent: '1963-01-17', file: bus_1964.pdf}
+  b1965: {title: 'The Budget of the United States Government for the Fiscal Year Ending June 30, 1965', sent: '1964-01-21', file: bus_1965.pdf}
+  b1966: {title: 'The Budget of the United States Government for the Fiscal Year Ending June 30, 1966', sent: '1965-01-25', file: bus_1966.pdf}
+  b1967: {title: 'The Budget of the United States Government for the Fiscal Year Ending June 30, 1967', sent: '1966-01-24', file: bus_1967.pdf}
+  b1968: {title: 'The Budget of the United States Government for the Fiscal Year Ending June 30, 1968', sent: '1967-01-24', file: bus_1968.pdf}
+  b1969: {title: 'The Budget of the United States Government for the Fiscal Year Ending June 30, 1969', sent: '1968-01-29', file: bus_1969.pdf}
+  b1970: {title: 'The Budget of the United States Government for the Fiscal Year Ending June 30, 1970', sent: '1969-01-15', file: bus_1970.pdf}
+  b1971: {title: 'The Budget of the United States Government for the Fiscal Year Ending June 30, 1971', sent: '1970-02-02', file: bus_1971.pdf}
+  b1972: {title: 'The Budget of the United States Government for the Fiscal Year Ending June 30, 1972', sent: '1971-01-29', file: bus_1972.pdf}
+  ar1967: {title: 'Annual Report of the Secretary of the Treasury on the State of the Finances for the Fiscal Year Ended June 30, 1967', file: AR_TREASURY_1967.pdf, series: treasar}
+
+1961:
+  proposed:
+    receipts:
+      {doc: b1961, table: 'Table 1', page: 4, pdf: 84, unit: m, basis: administrative,
+       rows: [[Individual income taxes, 43706], [Corporation income taxes, 23500], [Excise taxes, 9523],
+              [Employment taxes, 340], [Estate and gift taxes, 1620], [Customs, 1376],
+              [Miscellaneous budget receipts, 3935]],
+       total: 84000}
+    expenditures:
+      {doc: b1961, table: 'Table 1', page: 4, pdf: 84, unit: m, basis: administrative,
+       rows: [[Major national security, 45568], [International affairs and finance, 2242],
+              [Veterans services and benefits, 5471], [Labor and welfare, 4569],
+              [Agriculture and agricultural resources, 5623], [Natural resources, 1938], [Commerce and housing, 2709],
+              [General government, 1911], [Interest, 9585], [Allowances, 200, Allowance for contingencies]],
+       total: 79816}
+  actual:
+    receipts:
+      {doc: b1963, table: 'Table 1', page: 33, pdf: 33, unit: m, basis: administrative,
+       rows: [[Individual income taxes, 41338], [Corporation income taxes, 20954], [Excise taxes, 9063],
+              [Estate and gift taxes, 1896], [Customs, 982], [Miscellaneous budget receipts, 4080],
+              [Interfund transactions, -654]],
+       total: 77659}
+    expenditures:
+      {doc: b1963, table: 'Table 1', page: 33, pdf: 33, unit: m, basis: administrative,
+       rows: [[National defense, 47494], [International affairs and finance, 2500],
+              [Space research and technology, 744], [Agriculture and agricultural resources, 5173],
+              [Natural resources, 2006], [Commerce and transportation, 2573], [Housing and community development, 320],
+              ['Health, labor, and welfare', 4244], [Education, 943], [Veterans benefits and services, 5414],
+              [Interest, 9050], [General government, 1709], [Interfund transactions, -654]],
+       total: 81515}
+    note: Fiscal 1963's budget classified expenditures by twelve new functions, not the nine of fiscal 1961's.
+
+1962:
+  proposed:
+    receipts:
+      {doc: b1962, table: 'Table 1', page: 4, pdf: 102, unit: m, basis: administrative,
+       rows: [[Individual income taxes, 45500], [Corporation income taxes, 20900], [Excise taxes, 9725],
+              [Estate and gift taxes, 1953], [Customs, 1115], [Miscellaneous budget receipts, 3807],
+              [Interfund transactions, -667]],
+       total: 82333}
+    expenditures:
+      {doc: b1962, table: 'Table 1', page: 4, pdf: 102, unit: m, basis: administrative,
+       rows: [[Major national security, 47392], [International affairs and finance, 2712],
+              [Veterans services and benefits, 5296], [Labor and welfare, 4759],
+              [Agriculture and agricultural resources, 5101], [Natural resources, 2138],
+              ['Commerce, housing, and space technology', 3371], [General government, 2071], [Interest, 8593],
+              [Allowances, 100, Allowance for contingencies], [Interfund transactions, -667]],
+       total: 80865}
+    note: Eisenhower's budget; Kennedy's revisions of March 1961 are not in it.
+  actual:
+    receipts:
+      {doc: b1964, table: 'Receipts from the public', page: 51, pdf: 51, unit: m, basis: administrative,
+       rows: [[Individual income taxes, 45571], [Corporation income taxes, 20523], [Excise taxes, 9585],
+              [Estate and gift taxes, 2016], [Customs, 1142],
+              ['Miscellaneous, net of interfund transactions', 2572, Miscellaneous budget receipts]],
+       total: 81409}
+    expenditures:
+      {doc: b1964, table: 'Table 1, Budget résumé', page: 37, pdf: 37, unit: bn, basis: administrative,
+       rows: [[National defense, 51.1], [International affairs and finance, 2.8], [Space research and technology, 1.3],
+              [Agriculture and agricultural resources, 5.9], [Natural resources, 2.1], [Commerce and transportation, 2.8],
+              [Housing and community development, 0.3], ['Health, labor, and welfare', 4.5], [Education, 1.1],
+              [Veterans benefits and services, 5.4], [Interest, 9.2], [General government, 1.9],
+              [Interfund transactions, -0.6]],
+       total: 87.8}
+
+1963:
+  proposed:
+    receipts:
+      {doc: b1963, table: 'Table 1', page: 33, pdf: 33, unit: m, basis: administrative,
+       rows: [[Individual income taxes, 49300], [Corporation income taxes, 26600], [Excise taxes, 9956],
+              [Estate and gift taxes, 2325], [Customs, 1320], [Miscellaneous budget receipts, 4192],
+              [Interfund transactions, -693]],
+       total: 93000}
+    expenditures:
+      {doc: b1963, table: 'Table 1', page: 33, pdf: 33, unit: m, basis: administrative,
+       rows: [[National defense, 52690], [International affairs and finance, 2996],
+              [Space research and technology, 2400], [Agriculture and agricultural resources, 5836],
+              [Natural resources, 2298], [Commerce and transportation, 2531], [Housing and community development, 832],
+              ['Health, labor, and welfare', 5105], [Education, 1470], [Veterans benefits and services, 5298],
+              [Interest, 9398], [General government, 2027],
+              [Allowances, 350, Allowances for pay adjustments and contingencies], [Interfund transactions, -693]],
+       total: 92537}
+  actual:
+    receipts:
+      {doc: b1965, table: 'Receipts from the public', page: 57, pdf: 55, unit: m, basis: administrative,
+       rows: [[Individual income taxes, 47588], [Corporation income taxes, 21579], [Excise taxes, 9915],
+              [Estate and gift taxes, 2167], [Customs, 1205],
+              ['Miscellaneous, net of interfund transactions', 3922, Miscellaneous budget receipts]],
+       total: 86376}
+    expenditures:
+      {doc: b1965, table: 'Table 1, Budget résumé', page: 41, pdf: 40, unit: bn, basis: administrative,
+       rows: [[National defense, 52.8], [International affairs and finance, 2.6], [Space research and technology, 2.6],
+              [Agriculture and agricultural resources, 7.0], [Natural resources, 2.4], [Commerce and transportation, 2.8],
+              [Housing and community development, -0.1], ['Health, labor, and welfare', 4.8], [Education, 1.2],
+              [Veterans benefits and services, 5.2], [Interest, 10.0], [General government, 2.0],
+              [Interfund transactions, -0.5]],
+       total: 92.6}
+
+1964:
+  proposed:
+    receipts:
+      {doc: b1964, table: 'Receipts from the public', page: 51, pdf: 51, unit: m, basis: administrative,
+       rows: [[Individual income taxes, 45800], [Corporation income taxes, 23800], [Excise taxes, 10430],
+              [Estate and gift taxes, 2125], [Customs, 1390],
+              ['Miscellaneous, net of interfund transactions', 3355, Miscellaneous budget receipts]],
+       total: 86900}
+    expenditures:
+      {doc: b1964, table: 'Table 1, Budget résumé', page: 37, pdf: 37, unit: bn, basis: administrative,
+       rows: [[National defense, 55.4], [International affairs and finance, 2.7], [Space research and technology, 4.2],
+              [Agriculture and agricultural resources, 5.7], [Natural resources, 2.5], [Commerce and transportation, 3.4],
+              [Housing and community development, 0.3], ['Health, labor, and welfare', 5.6], [Education, 1.5],
+              [Veterans benefits and services, 5.5], [Interest, 10.1], [General government, 2.2],
+              [Allowances, 0.4, 'Allowances, undistributed: comparability pay adjustment, 0.2; contingencies, 0.2'],
+              [Interfund transactions, -0.7]],
+       total: 98.8}
+  actual:
+    receipts:
+      {doc: b1966, table: 'Receipts from the public', page: 51, pdf: 49, unit: m, basis: administrative,
+       rows: [[Individual income taxes, 48697], [Corporation income taxes, 23493], [Excise taxes, 10211],
+              [Estate and gift taxes, 2394], [Customs, 1252],
+              ['Miscellaneous, net of interfund transactions', 3412, Miscellaneous budget receipts]],
+       total: 89459}
+    expenditures:
+      {doc: b1966, table: 'Table 1, Budget résumé', page: 35, pdf: 34, unit: bn, basis: administrative,
+       rows: [[National defense, 54.2], ['International affairs and finance, with Food for Peace', 3.7, 'International affairs and finance (of which Food for Peace, 1.7)'],
+              [Space research and technology, 4.2],
+              ['Agriculture and agricultural resources, without Food for Peace', 5.6, 'Agriculture and agricultural resources (not including Food for Peace)'],
+              [Natural resources, 2.5], [Commerce and transportation, 3.0], [Housing and community development, -0.1],
+              ['Health, labor, and welfare', 5.5], [Education, 1.3], [Veterans benefits and services, 5.5],
+              [Interest, 10.8], [General government, 2.3], [Interfund transactions, -0.7]],
+       total: 97.7}
+    note: Fiscal 1966's budget moved Food for Peace from agriculture to international affairs.
+
+1965:
+  proposed:
+    receipts:
+      {doc: b1965, table: 'Receipts from the public', page: 57, pdf: 55, unit: m, basis: administrative,
+       rows: [[Individual income taxes, 48500], [Corporation income taxes, 25800], [Excise taxes, 10987],
+              [Estate and gift taxes, 2740], [Customs, 1460],
+              ['Miscellaneous, net of interfund transactions', 3513, Miscellaneous budget receipts]],
+       total: 93000}
+    expenditures:
+      {doc: b1965, table: 'Table 1, Budget résumé', page: 41, pdf: 40, unit: bn, basis: administrative,
+       rows: [[National defense, 54.0], [International affairs and finance, 2.2], [Space research and technology, 5.0],
+              [Agriculture and agricultural resources, 4.9], [Natural resources, 2.6], [Commerce and transportation, 3.1],
+              [Housing and community development, -0.3], ['Health, labor, and welfare', 5.8], [Education, 1.7],
+              [Veterans benefits and services, 5.1], [Interest, 11.1], [General government, 2.2],
+              [Allowances, 1.0, 'Allowances for attack on poverty, 0.2; civilian pay comparability, 0.5; contingencies, 0.3'],
+              [Interfund transactions, -0.6]],
+       total: 97.9}
+  actual:
+    receipts:
+      {doc: b1967, table: 'Receipts from the public', page: 55, pdf: 53, unit: m, basis: administrative,
+       rows: [[Individual income taxes, 48792], [Corporation income taxes, 25461], [Excise taxes, 10911],
+              [Estate and gift taxes, 2716], [Customs, 1442],
+              ['Miscellaneous, net of interfund transactions', 3749, Miscellaneous budget receipts]],
+       total: 93072}
+    expenditures:
+      {doc: b1967, table: 'Payments to the public', page: 69, pdf: 67, unit: m, basis: administrative,
+       rows: [[National defense, 50163], ['International affairs and finance, with Food for Peace', 4304, International affairs and finance],
+              [Space research and technology, 5093],
+              ['Agriculture and agricultural resources, without Food for Peace', 4898, Agriculture and agricultural resources],
+              [Natural resources, 2750], [Commerce and transportation, 3499], [Housing and community development, -104],
+              ['Health, labor, and welfare', 5898], [Education, 1544], [Veterans benefits and services, 5495],
+              [Interest, 11435], [General government, 2402], [Interfund transactions, -870]],
+       total: 96507}
+    note: Fiscal 1966's budget moved Food for Peace from agriculture to international affairs.
+
+1966:
+  proposed:
+    receipts:
+      {doc: b1966, table: 'Receipts from the public', page: 51, pdf: 49, unit: m, basis: administrative,
+       rows: [[Individual income taxes, 48200], [Corporation income taxes, 27600], [Excise taxes, 9770],
+              [Estate and gift taxes, 3200], [Customs, 1500],
+              ['Miscellaneous, net of interfund transactions', 4130, Miscellaneous budget receipts]],
+       total: 94400}
+    expenditures:
+      {doc: b1966, table: 'Table 1, Budget résumé', page: 35, pdf: 34, unit: bn, basis: administrative,
+       rows: [[National defense, 51.6], ['International affairs and finance, with Food for Peace', 4.0, 'International affairs and finance (of which Food for Peace, 1.7)'],
+              [Space research and technology, 5.1],
+              ['Agriculture and agricultural resources, without Food for Peace', 3.9, 'Agriculture and agricultural resources (not including Food for Peace)'],
+              [Natural resources, 2.7], [Commerce and transportation, 2.8], [Housing and community development, '*'],
+              ['Health, labor, and welfare', 8.3], [Education, 2.7], [Veterans benefits and services, 4.6],
+              [Interest, 11.6], [General government, 2.5],
+              [Allowances, 0.5, 'Allowances for Appalachia, 0.1; contingencies, 0.4'], [Interfund transactions, -0.6]],
+       total: 99.7}
+  actual:
+    receipts:
+      {doc: b1968, table: 'Federal cash receipts from the public', page: 58, pdf: 57, unit: m, basis: administrative,
+       rows: [[Individual income taxes, 55446], [Corporation income taxes, 30073], [Excise taxes, 9145],
+              [Estate and gift taxes, 3066], [Customs, 1767],
+              ['Miscellaneous, net of interfund transactions', 5231, Miscellaneous budget receipts]],
+       total: 104727}
+    expenditures:
+      {doc: b1968, table: 'Payments to the public', page: 74, pdf: 72, unit: m, basis: administrative,
+       rows: [[National defense, 57718], ['International affairs and finance, with Food for Peace', 4191, International affairs and finance],
+              [Space research and technology, 5933],
+              ['Agriculture and agricultural resources, without Food for Peace', 3307, Agriculture and agricultural resources],
+              [Natural resources, 3120], [Commerce and transportation, 2969], [Housing and community development, 347],
+              ['Health, labor, and welfare', 7574], [Education, 2834], [Veterans benefits and services, 5023],
+              [Interest, 12132], [General government, 2464], [Interfund transactions, -635]],
+       total: 106978}
+
+1967:
+  proposed:
+    receipts:
+      {doc: b1967, table: 'Receipts from the public', page: 55, pdf: 53, unit: m, basis: administrative,
+       rows: [[Individual income taxes, 56240], [Corporation income taxes, 34400], [Excise taxes, 8879],
+              [Estate and gift taxes, 3301], [Customs, 1845],
+              ['Miscellaneous, net of interfund transactions', 6335, Miscellaneous budget receipts]],
+       total: 111000}
+    expenditures:
+      {doc: b1967, table: 'Payments to the public', page: 69, pdf: 67, unit: m, basis: administrative,
+       rows: [[National defense, 60541], ['International affairs and finance, with Food for Peace', 4177, International affairs and finance],
+              [Space research and technology, 5300],
+              ['Agriculture and agricultural resources, without Food for Peace', 3372, Agriculture and agricultural resources],
+              [Natural resources, 3062], [Commerce and transportation, 2672], [Housing and community development, 123],
+              ['Health, labor, and welfare', 9962], [Education, 2834], [Veterans benefits and services, 5721],
+              [Interest, 12854], [General government, 2591], [Allowances, 350, Allowance for contingencies],
+              [Interfund transactions, -712]],
+       total: 112847}
+  actual:
+    receipts:
+      {doc: b1969, table: 'Table A-3, The "administrative budget"', page: 470, pdf: 470, unit: m, basis: administrative,
+       rows: [[Individual income taxes, 61526], [Corporation income taxes, 33971], [Excise taxes, 9278],
+              [Estate and gift taxes, 2978], [Customs, 1901], [Miscellaneous budget receipts, 6877, Miscellaneous receipts],
+              [Interfund transactions, -682]],
+       total: 115849}
+    expenditures:
+      {doc: ar1967, table: 'Table 16', page: '482–84', pdf: 512, unit: m, basis: administrative,
+       rows: [[National defense, 70783], ['International affairs and finance, with Food for Peace', 3476, 'International affairs and finance (Food for Freedom included)'],
+              [Space research and technology, 5426],
+              ['Agriculture and agricultural resources, without Food for Peace', 3318, Agriculture and agricultural resources],
+              [Natural resources, 3322], [Commerce and transportation, 3305], [Housing and community development, 703],
+              ['Health, labor, and welfare', 10288], [Education, 3360], [Veterans benefits and services, 6187, "Veterans' benefits and services"],
+              [Interest, 13524], [General government, 2708]],
+       total: 126399, total_label: 'Total by major functions, interfund transactions not deducted'}
+    note: 'The budget of January 1968 (fiscal 1969), on the new unified basis, printed the administrative budget''s receipts for fiscal 1967 by source but its expenditures by agency only; the expenditures by function are the Treasury''s, classified as in fiscal 1968''s budget. In the scan of Table A-3 the last figure of miscellaneous receipts is cut off ("6,87"); 6,877 is what the printed total requires. The Treasury''s interest and general government are read from the text of p. 484.'
+
+1968:
+  proposed:
+    receipts:
+      {doc: b1968, table: 'Federal cash receipts from the public', page: 58, pdf: 57, unit: m, basis: administrative,
+       rows: [[Individual income taxes, 73200], [Corporation income taxes, 33900], [Excise taxes, 8800],
+              [Estate and gift taxes, 3100], [Customs, 2100],
+              ['Miscellaneous, net of interfund transactions', 5837, Miscellaneous budget receipts]],
+       total: 126937}
+    expenditures:
+      {doc: b1968, table: 'Payments to the public', page: 74, pdf: 72, unit: m, basis: administrative,
+       rows: [[National defense, 75487], ['International affairs and finance, with Food for Peace', 4797, International affairs and finance],
+              [Space research and technology, 5300],
+              ['Agriculture and agricultural resources, without Food for Peace', 3173, Agriculture and agricultural resources],
+              [Natural resources, 3518], [Commerce and transportation, 3089], [Housing and community development, 1023],
+              ['Health, labor, and welfare', 11304], [Education, 2816], [Veterans benefits and services, 6124],
+              [Interest, 14152], [General government, 2781],
+              [Allowances, 2150, 'Allowances for a civilian and military pay increase, 1,000; possible shortfall in asset sales, 750; contingencies, 400'],
+              [Interfund transactions, -682]],
+       total: 135033}
+  actual: null
+  note: 'The administrative budget''s actual for fiscal 1968 by source and function is not in the budget of January 1969, which used the unified basis alone; the Treasury''s Annual Report for fiscal 1968 is not yet read (notes/leads.md).'
+
+1969:
+  proposed:
+    receipts:
+      {doc: b1969, table: 'Table 2', page: 52, pdf: 52, unit: m, basis: unified,
+       rows: [[Individual income taxes, 80900], [Corporation income taxes, 34300], [Employment taxes, 34154],
+              [Unemployment insurance, 3594], [Contributions for other insurance and retirement, 2275, Premiums for other insurance and retirement],
+              [Excise taxes, 14671], [Estate and gift taxes, 3400], [Customs, 2070], [Other receipts, 2744]],
+       total: 178108}
+    expenditures:
+      {doc: b1969, table: 'Table 2', page: 52, pdf: 52, unit: m, basis: unified,
+       rows: [[National defense, 79789], [International affairs and finance, 5153], [Space research and technology, 4573],
+              [Agriculture and agricultural resources, 5609], [Natural resources, 2490], [Commerce and transportation, 8121],
+              [Housing and community development, 2784], ['Health, labor, and welfare', 51407], [Education, 4699],
+              [Veterans benefits and services, 7342], [Interest, 14400], [General government, 2790],
+              [Allowances, 1950, 'Allowances for a civilian and military pay increase, 1,600; contingencies, 350'],
+              [Undistributed intragovernmental transactions, -5049, 'Government contributions for employee retirement, -2,007; interest received by trust funds, -3,042']],
+       total: 186062}
+    note: 'The first budget on the unified basis, the trust funds in. Outlays; the lines add to 186,058, four less than the printed total.'
+  actual:
+    receipts:
+      {doc: b1971, table: 'Table 2', page: 540, pdf: 534, unit: m, basis: unified,
+       rows: [[Individual income taxes, 87249], [Corporation income taxes, 36678],
+              [Employment taxes, 34236, Employment taxes and contributions], [Unemployment insurance, 3328],
+              [Contributions for other insurance and retirement, 2353], [Excise taxes, 15222], [Estate and gift taxes, 3491],
+              [Customs, 2319, Customs duties], [Other receipts, 2916, Miscellaneous receipts]],
+       total: 187792}
+    expenditures:
+      {doc: b1971, table: 'Table 2', page: 540, pdf: 534, unit: m, basis: unified,
+       rows: [[National defense, 81240], [International affairs and finance, 3785], [Space research and technology, 4247],
+              [Agriculture and rural development, 6221], [Natural resources, 2129], [Commerce and transportation, 7873],
+              [Community development and housing, 1961], [Education and manpower, 6825], [Health, 11696],
+              [Income security, 37399], [Veterans benefits and services, 7640], [Interest, 15791], [General government, 2866],
+              [Undistributed intragovernmental transactions, -5117, 'Employer share, employee retirement, -2,018; interest received by trust funds, -3,099']],
+       total: 184556}
+    note: Fiscal 1971's budget classified outlays by new functions.
+
+1970:
+  proposed:
+    receipts:
+      {doc: b1970, table: 'Table 2', page: 486, pdf: 483, unit: m, basis: unified,
+       rows: [[Individual income taxes, 90400], [Corporation income taxes, 37900],
+              [Employment taxes, 39863, Employment taxes and contributions], [Unemployment insurance, 3575],
+              [Contributions for other insurance and retirement, 2431], [Excise taxes, 15700], [Estate and gift taxes, 3400],
+              [Customs, 2300, Customs duties], [Other receipts, 3117, Miscellaneous receipts]],
+       total: 198686}
+    expenditures:
+      {doc: b1970, table: 'Table 2', page: 486, pdf: 483, unit: m, basis: unified,
+       rows: [[National defense, 81542], [International affairs and finance, 3755], [Space research and technology, 3947],
+              [Agriculture and agricultural resources, 5181], [Natural resources, 1891], [Commerce and transportation, 8969],
+              [Community development and housing, 2772], [Education and manpower, 7887], [Health and welfare, 54966],
+              [Veterans benefits and services, 7724], [Interest, 15958], [General government, 3275],
+              [Allowances, 3150, 'Allowances for a civilian and military pay increase, 2,800; contingencies, 350'],
+              [Undistributed intragovernmental transactions, -5745, 'Government contributions for employee retirement, -2,187; interest received by trust funds, -3,558']],
+       total: 195272}
+  actual:
+    receipts:
+      {doc: b1972, table: 'Table 2', page: 522, pdf: 519, unit: m, basis: unified,
+       rows: [[Individual income taxes, 90412], [Corporation income taxes, 32829],
+              [Employment taxes, 39133, Employment taxes and contributions], [Unemployment insurance, 3464],
+              [Contributions for other insurance and retirement, 2701], [Excise taxes, 15705], [Estate and gift taxes, 3644],
+              [Customs, 2430, Customs duties], [Other receipts, 3424, Miscellaneous receipts]],
+       total: 193743}
+    expenditures:
+      {doc: b1972, table: 'Table 2', page: 522, pdf: 519, unit: m, basis: unified,
+       rows: [[National defense, 80295], [International affairs and finance, 3570], [Space research and technology, 3749],
+              [Agriculture and rural development, 6201], [Natural resources, 2480], [Commerce and transportation, 9310],
+              [Community development and housing, 2965], [Education and manpower, 7289], [Health, 12995],
+              [Income security, 43790], [Veterans benefits and services, 8677], [Interest, 18312], [General government, 3336],
+              [Undistributed intragovernmental transactions, -6380]],
+       total: 196588}
+    note: Fiscal 1971's budget split health and welfare into health and income security, and renamed agriculture.

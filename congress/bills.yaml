@@ -1,0 +1,72 @@
+# A bill's course, step by step, from its introduction to its approval: kept by hand from the bound Congressional
+# Record's History of Bills and Resolutions (the year's Index part on govinfo), each page turned to its day by the bound
+# Record's daily granules, and the roll calls from Voteview. Rendered by tools/bib/bills.py under the calendar entry
+# tagged `bill:<key>` (the signing); `check` fails on a step out of order, a malformed roll call or granule, an entry or
+# a bill key that answers nothing.
+#
+#   history   where the History of Bills prints the bill: [year, Record part, granule]
+#   steps     date (the day the Record bears), chamber (House, Senate, or none for the President), what (the step, in
+#             the series' prose), page (the Record's page as the History prints it), rec (the granule of the day's
+#             proceedings), votes ([chamber letter, Congress, roll number, yeas, nays, what]), entry (the calendar entry
+#             that tells it), until (the last day of a span), note
+bills:
+  revenue-1964:
+    title: Revenue Act of 1964
+    bill: H.R. 8363
+    congress: 88
+    pl: 88-272
+    stat: '78|19'
+    granule: STATUTE-78-Pg19
+    history: [[1963, 20, GPO-CRECB-1963-pt20-2], [1964, 19, GPO-CRECB-1964-pt19-2]]
+    steps:
+      - {date: '1963-01-24', what: Tax message, entry: cal.1963-01-24.economy}
+      - {date: '1963-02-06', until: '1963-03-27', chamber: House, what: Ways and Means hearings on the message, entry: cal.1963-02-06.economy}
+      - {date: '1963-09-10', chamber: House, what: Introduced by Mills; referred to Ways and Means, page: 16728, rec: GPO-CRECB-1963-pt12-13-2}
+      - {date: '1963-09-16', chamber: House, what: 'Reported, H. Rept. 749', page: 17014, rec: GPO-CRECB-1963-pt13-2-1}
+      - {date: '1963-09-24', chamber: House, what: 'Closed rule, H. Res. 527, adopted; debate opens', page: 17900, rec: GPO-CRECB-1963-pt13-8-2,
+         votes: [[H, 88, 67, 324, 67, rule]]}
+      - {date: '1963-09-25', chamber: House, what: Byrnes's motion to recommit refused; passed, page: 18119, rec: GPO-CRECB-1963-pt13-9-2,
+         votes: [[H, 88, 68, 199, 226, recommittal], [H, 88, 69, 271, 155, passage]], entry: cal.1963-09-25.economy}
+      - {date: '1963-09-30', chamber: Senate, what: Referred to Finance, page: 18359, rec: GPO-CRECB-1963-pt13-11-2}
+      - {date: '1964-01-28', chamber: Senate, what: 'Reported with amendments, S. Rept. 830', page: 1275, rec: GPO-CRECB-1964-pt1-14-2}
+      - {date: '1964-01-30', until: '1964-02-07', chamber: Senate, what: Debated, page: 1435, rec: GPO-CRECB-1964-pt2-1-1}
+      - {date: '1964-02-03', until: '1964-02-07', chamber: Senate, what: 'Twenty-five roll calls on amendments, first and last linked',
+         votes: [[S, 88, 239, 56, 25, Finance's amendment on capital gains], [S, 88, 263, 34, 61, McClellan's amendment]]}
+      - {date: '1964-02-07', chamber: Senate, what: Amended and passed; conference asked, page: 2393, rec: GPO-CRECB-1964-pt2-8-1,
+         votes: [[S, 88, 264, 77, 21, passage]], entry: cal.1964-02-07.economy}
+      - {date: '1964-02-08', chamber: House, what: Senate amendments disagreed to; conference agreed to, page: 2547, rec: GPO-CRECB-1964-pt2-9-1}
+      - {date: '1964-02-25', chamber: House, what: 'Conference report, H. Rept. 1149, agreed to', page: 3541, rec: GPO-CRECB-1964-pt3-8-2,
+         votes: [[H, 88, 131, 326, 83, conference report]]}
+      - {date: '1964-02-26', chamber: Senate, what: Conference report agreed to, page: 3692, rec: GPO-CRECB-1964-pt3-9-2,
+         votes: [[S, 88, 267, 74, 19, conference report]]}
+      - {date: '1964-02-26', what: Approved, stat: true, entry: cal.1964-02-26.economy}
+  reca-1968:
+    title: Revenue and Expenditure Control Act of 1968
+    bill: H.R. 15414
+    congress: 90
+    pl: 90-364
+    stat: '82|251'
+    granule: STATUTE-82-Pg251
+    history: [[1968, 25, GPO-CRECB-1968-pt25-2]]
+    steps:
+      - {date: '1968-02-20', chamber: House, what: 'Introduced by Mills and Byrnes, the excise rates continued; referred to Ways and Means', page: 3575, rec: GPO-CRECB-1968-pt3-7-2}
+      - {date: '1968-02-26', chamber: House, what: 'Reported, H. Rept. 1104', page: 4039, rec: GPO-CRECB-1968-pt4-1-1}
+      - {date: '1968-02-28', chamber: House, what: 'Rule, H. Res. 1074', page: 4461, rec: GPO-CRECB-1968-pt4-3-1}
+      - {date: '1968-02-29', chamber: House, what: Passed without a roll call, page: 4704, rec: GPO-CRECB-1968-pt4-4-2}
+      - {date: '1968-03-01', chamber: Senate, what: Referred to Finance, page: 4830, rec: GPO-CRECB-1968-pt4-5-1}
+      - {date: '1968-03-15', chamber: Senate, what: 'Reported with amendments, S. Rept. 1014', rec: GPO-CRECB-1968-pt5-8-1,
+         note: 'The History prints p. 6617, a page of the Extensions of Remarks of Mar. 14; the report is in the Senate''s proceedings of Mar. 15.'}
+      - {date: '1968-03-20', until: '1968-04-02', chamber: Senate, what: Debated, page: 7134, rec: GPO-CRECB-1968-pt6-3-2}
+      - {date: '1968-03-26', until: '1968-03-29', chamber: Senate, what: 'Eighteen roll calls on amendments, first and last linked',
+         votes: [[S, 90, 367, 51, 32, the first], [S, 90, 384, 37, 38, dairy import quotas]], entry: cal.1968-03-26.economy}
+      - {date: '1968-04-02', chamber: Senate, what: 'The Smathers–Williams amendment, the surcharge and the cuts, adopted; passed; conference asked', page: 8567, rec: GPO-CRECB-1968-pt7-4-1,
+         votes: [[S, 90, 385, 54, 35, Smathers–Williams], [S, 90, 386, 57, 31, passage]], entry: cal.1968-04-02.economy}
+      - {date: '1968-04-02', chamber: House, what: Senate amendments disagreed to; conference agreed to, page: 8629, rec: GPO-CRECB-1968-pt7-4-2}
+      - {date: '1968-05-29', chamber: House, what: Motion to instruct the conferees to a $4 billion cut in place of $6 billion refused, page: 15499, rec: GPO-CRECB-1968-pt12-3-1,
+         votes: [[H, 90, 332, 137, 259, instruction]], entry: cal.1968-05-29.economy-surcharge}
+      - {date: '1968-06-10', chamber: House, what: 'Conference report, H. Rept. 1533, submitted', page: 16381, rec: GPO-CRECB-1968-pt13-1-1}
+      - {date: '1968-06-20', chamber: House, what: 'Rule, H. Res. 1220, adopted; Gross''s resolution on the Senate''s amendments, H. Res. 1222, tabled; conference report agreed to', page: 18087, rec: GPO-CRECB-1968-pt14-2-1,
+         votes: [[H, 90, 355, 321, 86, rule], [H, 90, 356, 257, 162, tabling], [H, 90, 357, 268, 150, conference report]], entry: cal.1968-06-20.economy}
+      - {date: '1968-06-21', chamber: Senate, what: Conference report agreed to, page: 18152, rec: GPO-CRECB-1968-pt14-3-1,
+         votes: [[S, 90, 468, 64, 16, conference report]], entry: cal.1968-06-21.economy-surcharge}
+      - {date: '1968-06-28', what: Approved, stat: true, entry: cal.1968-06-28.economy-surcharge}

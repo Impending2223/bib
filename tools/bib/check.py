@@ -207,6 +207,15 @@ def run(series, only=None):
     from . import indicators
     for where, msg in indicators.problems():
         add(ERROR, f"indicators/{where}.yaml", msg, "indicators")
+    # the war's rows (indicators/war-*.yaml) and the dead by home State (sources/war-dead-states.yaml)
+    from . import war, wardead
+    for where, msg in war.problems():
+        add(ERROR, f"indicators/{where}.yaml", msg, "war")
+    for where, msg in wardead.problems(series):
+        add(ERROR, where, msg, "war")
+    from . import oil
+    for where, msg in oil.problems(indicators.load()):
+        add(ERROR, f"indicators/{where}.yaml", msg, "indicators")
     # election returns (elections/*.yaml)
     from . import elections
     for where, msg in elections.problems():
@@ -219,6 +228,10 @@ def run(series, only=None):
     from . import primaries
     for where, msg in primaries.problems(series):
         add(ERROR, where, msg, "primaries")
+    # the national conventions (elections/conventions.yaml)
+    from . import conventions
+    for where, msg in conventions.problems(series):
+        add(ERROR, where, msg, "conventions")
     # the general elections for governor (elections/governors.yaml)
     from . import governors
     for where, msg in governors.problems(series):
@@ -227,6 +240,18 @@ def run(series, only=None):
     from . import legislatures
     for where, msg in legislatures.problems(series):
         add(ERROR, where, msg, "legislatures")
+    # the States' finances by fiscal year (statefin/states.yaml)
+    from . import statefin
+    for where, msg in statefin.problems(series):
+        add(ERROR, where, msg, "statefin")
+    # the federal budgets and the debt limit (budgets/; tools/bib/budgets.py)
+    from . import budgets
+    for where, msg in budgets.problems(series):
+        add(ERROR, where, msg, "budgets")
+    # the bills' courses (congress/bills.yaml; tools/bib/bills.py)
+    from . import bills
+    for where, msg in bills.problems(series):
+        add(ERROR, where, msg, "bills")
     # the calendar's places in Indochina (place: and province: tags; sources/vn-provinces-1966)
     from . import vnmap
     for where, msg in vnmap.problems(series):
@@ -255,6 +280,14 @@ def run(series, only=None):
     from . import daybook
     for where, msg in daybook.problems():
         add(ERROR, "daybook/", f"{where}: {msg}", "daybook")
+    # the committees' meetings (daybook/committees/, tools/daybook/make_committees.py)
+    from . import committees
+    for where, msg in committees.problems():
+        add(ERROR, "daybook/committees/", f"{where}: {msg}", "committees")
+    # the leaders and the standing committees at each Congress (congress/committees.yaml, tools/bib/committee_rosters.py)
+    from . import committee_rosters
+    for level, msg in committee_rosters.problems(series):
+        add(ERROR if level == "error" else WARN, "congress/committees.yaml", msg, "committee-rosters")
     # the calendar's threads in alphabetical order of their names (THREAD_SORT_AS: a name sorted under another word)
     for lst in series.lists.values():
         if lst.kind != "calendar":
@@ -284,7 +317,7 @@ def thread_sort_key(name):
     return (THREAD_SORT_AS.get(name) or THREAD_SORT_AS.get(head, head) + sep + rest).lower()
 
 HAND = ["lists/**/*.yaml", "executive/*.yaml", "daybook/abstracts.yaml", "elections/facts.yaml",
-        "elections/pres-primaries.yaml", "elections/renominations.yaml", "elections/primaries.yaml", "elections/cq.yaml",
+        "elections/pres-primaries.yaml", "elections/conventions.yaml", "elections/renominations.yaml", "elections/primaries.yaml", "elections/cq.yaml",
         "elections/readings/*.yaml", "congress/specials-state.yaml", "congress/specials-cq.yaml",
         "congress/switches.yaml", "sources/gallup-approval.yaml", "sources/states.yaml",
         "sources/executive-sources.yaml"]
