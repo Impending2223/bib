@@ -42,11 +42,16 @@ STYLE:
     entry to the top. Two canvases, the amber over the white, faded in and out with the headings; drawn when the
     thread or the headings change or the page changes size, never on scroll (canvas.hlm, SCRIPT; --hlhalo, --hlhalow,
     a band behind each mark, unset).
- 9. A ghost subthread (a `parent:` and no statement) has a line in the index, in its place under its parent: its name
-    (`s`), linked to its first entry in the part, and its dates there, by year (1, 2), the whole line muted, as the A–Z
-    bibliography's ghost entries are, nothing underlined; no line in a part where it has no entries. A rubric naming it
-    links to that line, and a tap on it lights the ghost's entries (7). Given a statement, it is a thread's entry
+ 9. A ghost subthread (a `parent:` and no statement) has a line in the index, in its place under its parent: its full
+    name ("Vietnam: Pennsylvania"), muted, as the A–Z bibliography's ghost entries are, not underlined, linked to its
+    first entry in the part; then its dates there, by year (1, 2), as any thread's are, links and all (the owner's
+    ruling, Oct. 21, 2026: the name muted, not the links); no line in a part where it has no entries. A rubric naming
+    it links to that line, and a tap on it lights the ghost's entries (7). Given a statement, it is a thread's entry
     like any other (`ghost_thread_html` in build.py).
+10. A thread's old name stays in the index where the reader may look for it: a th.yaml entry with `s:` the old name
+    and `see:` the thread's slug ("Desegregation: schools", see desegregation-schools), in its alphabetical place,
+    muted and not underlined, the whole of it a link to the thread's entry in the part; nothing else, and no line in
+    a part where the thread has none (`redirect_thread_html` in build.py). No entry takes it as a thread.
 """
 import datetime
 import re
@@ -274,8 +279,8 @@ STYLE = """<style>
 a.tx{color:var(--muted);text-decoration-color:var(--rule)}
 a.tx.ty{text-decoration:none}
 a.tx.ty:hover{text-decoration:underline;text-decoration-color:var(--rule)}
-/* a ghost subthread's line in the thread index, muted, nothing underlined (STYLE 9) */
-li.thg,li.thg .s,li.thg .ty,li.thg a{color:var(--muted);text-decoration:none}
+/* a ghost subthread's name, and a thread's old name, in the thread index: muted, not underlined (STYLE 9, 10) */
+li.thg .s,li.thg a.thgl{color:var(--muted);text-decoration:none}
 p.seam{font-family:var(--sans);font-size:.8rem;margin:1rem 0}
 p.seam a{color:var(--muted);text-decoration-color:var(--rule)}
 /* a thread highlighted (STYLE 7) */
@@ -306,7 +311,7 @@ SCRIPT = """<script>
   var now=''; try{ now=sessionStorage.getItem(KEY)||''; }catch(e){}
   if(/^[a-z0-9-]+$/.test(now)) set(now); else now='';
   document.addEventListener('click', function(ev){
-    var rt=ev.target.closest('a.rt'), m=rt&&/thread\.([a-z0-9-]+)$/.exec(rt.getAttribute('href')||'');
+    var rt=ev.target.closest('a.rt'), m=rt&&/thread\\.([a-z0-9-]+)$/.exec(rt.getAttribute('href')||'');
     if(m){ if(now!==m[1]){ now=m[1]; set(now); } return; }   // a rubric's thread: lit (never cleared), and the link goes on
     if(ev.target.closest('a,button,summary,input')) return;
     var el=ev.target.closest('li[data-thread],.tnl[data-t]'); if(!el) return;

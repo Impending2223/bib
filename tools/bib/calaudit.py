@@ -124,7 +124,7 @@ def run(series):
         elif named and not linked:
             prim_unlinked.append((sec, e, named.group(0)))
     threads = [(e["id"].split(".", 2)[2], e.get("s"), " ".join(store.as_list(e.get("c"))))
-               for e in cal.threads().values()]
+               for e in cal.threads().values() if not e.get("see")]
     return rows, names, event, prim_none, prim_unlinked, threads
 
 

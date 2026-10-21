@@ -203,6 +203,8 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
     if subj:
         parts.append(f'<span class="s">{text_html(subj, "s")}</span>')
     is_thread = lst.kind == "calendar" and e["id"].startswith(f"{lst.key}.thread.")
+    if is_thread and e.get("see"):
+        return redirect_thread_html(lst, e)  # an old name: a muted line linked to the thread's own (calsplit.py, STYLE 10)
     if is_thread and lst.is_ghost(e["id"].split(".", 2)[2]):
         return ghost_thread_html(lst, e)  # a ghost subthread: a muted line, its name and dates (calsplit.py, STYLE 9)
     statement = e.get("c")
@@ -258,8 +260,9 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
 
 
 def ghost_thread_html(lst, e):
-    """A ghost subthread in the thread index: its name, linked to its first entry in the part being built, and its
-    dates, all muted, nothing underlined; nothing in a part it has no entries in (calsplit.py, STYLE 9)."""
+    """A ghost subthread in the thread index: its full name ("Vietnam: Pennsylvania"), muted, nothing underlined, linked
+    to its first entry in the part being built; then its dates as any thread's; nothing in a part it has no entries in
+    (calsplit.py, STYLE 9)."""
     slug = e["id"].split(".", 2)[2]
     half = calsplit.CUR["half"]
     members = thread_members(lst).get(slug, [])
@@ -267,10 +270,24 @@ def ghost_thread_html(lst, e):
     if not mine:
         return ""
     anchor = calsplit.thread_anchor(lst, slug, half)
-    name = f'<a class="thgl" href="{calsplit.href(lst, half or 1, mine[0]["id"])}">{to_html(e["s"])}</a>'
+    name = f'<a class="thgl" href="{calsplit.href(lst, half or 1, mine[0]["id"])}">{esc(thread_name(lst, slug))}</a>'
     dates = calsplit.thread_dates_html(lst, slug, members, esc)
     return (f'<li id="{attr(anchor)}" class="thg" data-thread="{attr(slug)}"><span class="s">{name}</span>'
             f'<span class="n">{dates}</span></li>')
+
+
+def redirect_thread_html(lst, e):
+    """A thread's old name (`see:` in th.yaml, "Desegregation: schools"), in its own place in the index: muted, nothing
+    underlined, the whole of it a link to the thread's entry in the part being built; nothing in a part the thread has
+    no entries in (calsplit.py, STYLE 10)."""
+    to = e["see"]
+    half = calsplit.CUR["half"]
+    members = thread_members(lst).get(to, [])
+    if not any(not half or not calsplit.cfg(lst) or calsplit.half_of_date(lst, m["date"]) == half for m in members):
+        return ""
+    href = "#" + calsplit.thread_anchor(lst, to, half)
+    return (f'<li id="{attr(calsplit.thread_anchor(lst, e["id"].split(".", 2)[2], half))}" class="thg thr">'
+            f'<span class="s"><a class="thgl" href="{attr(href)}">{to_html(e["s"])}</a></span></li>')
 
 
 def headings(lst, sec, idfmt):

@@ -130,12 +130,18 @@ def run(series, only=None):
                     add(WARN, e["id"], f"first entry of thread {t!r} only points elsewhere; it should carry the bibliography", "thread-first")
             members = {s for sec, e in lst.entries() if "thread" in e for t in [e["thread"]] + e.get("also", [])
                        for s in lst.thread_line(t)}
+            for t, te in threads.items():           # an old name (`see:`) points to a thread, and no entry takes it
+                if te.get("see"):
+                    if te["see"] not in threads or threads[te["see"]].get("see"):
+                        add(ERROR, f"{lst.key}.thread.{t}", f"see: {te['see']!r} is not a thread")
+                    if t in members:
+                        add(ERROR, f"{lst.key}.thread.{t}", "an old name (see:) is taken as a thread by an entry")
             for t, te in threads.items():           # a subthread names a thread that exists, and not itself
                 par = te.get("parent")
                 if par and (par not in threads or t in lst.thread_line(par)):
                     add(ERROR, f"{lst.key}.thread.{t}", f"parent {par!r} is not a thread (or comes round to itself)")
             for t in threads:
-                if t not in members:
+                if t not in members and not threads[t].get("see"):
                     add(WARN, f"{lst.key}.thread.{t}", "thread has no entries", "thread-empty")
 
     # section references that point nowhere, and works cited under the wrong section

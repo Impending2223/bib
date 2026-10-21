@@ -429,6 +429,9 @@ document was found. Each under the entry it concerns; `./bib find -t check -l ca
   Trí Quang; the Senators' appeal on prisoners (signers); the DMZ ground operations authorized (July 30); Johnson's
   arrival in Thailand (Oct. 27 or 28); the Freeman team's report (FRUS ed. note, Nov. 14); Smith's cabinet rejecting
   *Tiger* (Dec. 5); Britain's request to the Security Council (Dec. 8).
+- The Struggle Movement's Vietnamese name (the subthread "Vietnam: Buddhist Uprising"; Wikipedia gives "Military-Civilian
+  Struggle Committee" and, for the events, "Biến động Miền Trung"): Topmiller, *Lotus Unleashed*; Pham Van Minh,
+  *Vietnamese Engaged Buddhism*.
 - 1967: stations lost in the splits, to be entered again: Alliluyeva's arrival, Apr. 21; Talbot and Pattakos, Apr. 28
   (FRUS 1964–68, XVI, doc. 282); Hill 875, Nov. 23. Also: the "letter of Jan. 27" of Mar. 2 (FRUS dates it Jan. 21);
   de Gaulle's and Brussels's texts; Rostow's "intermediate strategy" memorandum of May 22; the Pentagon Papers' page for
