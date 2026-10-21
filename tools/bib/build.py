@@ -204,7 +204,7 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
         parts.append(f'<span class="s">{text_html(subj, "s")}</span>')
     is_thread = lst.kind == "calendar" and e["id"].startswith(f"{lst.key}.thread.")
     if is_thread and lst.is_ghost(e["id"].split(".", 2)[2]):
-        return ""                       # a ghost subthread: no entry in the thread index
+        return ghost_thread_html(lst, e)  # a ghost subthread: a muted line, its name and dates (calsplit.py, STYLE 9)
     statement = e.get("c")
     anchor = e["id"]
     if is_thread:                       # a thread's entry: its statement and dates in the half being built
@@ -255,6 +255,22 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
         elif e.get("thread"):
             extra_attrs += f' data-threads="{attr(" ".join(entry_threads(lst, e)))}"'
     return f'<li id="{attr(anchor)}"{extra_attrs}>' + "".join(parts) + extra_spans + "</li>"
+
+
+def ghost_thread_html(lst, e):
+    """A ghost subthread in the thread index: its name, linked to its first entry in the part being built, and its
+    dates, all muted, nothing underlined; nothing in a part it has no entries in (calsplit.py, STYLE 9)."""
+    slug = e["id"].split(".", 2)[2]
+    half = calsplit.CUR["half"]
+    members = thread_members(lst).get(slug, [])
+    mine = [m for m in members if not half or not calsplit.cfg(lst) or calsplit.half_of_date(lst, m["date"]) == half]
+    if not mine:
+        return ""
+    anchor = calsplit.thread_anchor(lst, slug, half)
+    name = f'<a class="thgl" href="{calsplit.href(lst, half or 1, mine[0]["id"])}">{to_html(e["s"])}</a>'
+    dates = calsplit.thread_dates_html(lst, slug, members, esc)
+    return (f'<li id="{attr(anchor)}" class="thg" data-thread="{attr(slug)}"><span class="s">{name}</span>'
+            f'<span class="n">{dates}</span></li>')
 
 
 def headings(lst, sec, idfmt):

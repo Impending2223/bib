@@ -42,6 +42,11 @@ STYLE:
     entry to the top. Two canvases, the amber over the white, faded in and out with the headings; drawn when the
     thread or the headings change or the page changes size, never on scroll (canvas.hlm, SCRIPT; --hlhalo, --hlhalow,
     a band behind each mark, unset).
+ 9. A ghost subthread (a `parent:` and no statement) has a line in the index, in its place under its parent: its name
+    (`s`), linked to its first entry in the part, and its dates there, by year (1, 2), the whole line muted, as the A–Z
+    bibliography's ghost entries are, nothing underlined; no line in a part where it has no entries. A rubric naming it
+    links to that line, and a tap on it lights the ghost's entries (7). Given a statement, it is a thread's entry
+    like any other (`ghost_thread_html` in build.py).
 """
 import datetime
 import re
@@ -108,8 +113,6 @@ def half_of_entry(lst, sec, e):
 
 
 def thread_anchor(lst, slug, half):
-    while lst.is_ghost(slug):            # a ghost subthread has no index entry: its nearest ancestor's
-        slug = lst.thread_parent(slug)
     return f"{lst.key}.thread.{slug}" if (half or 1) == 1 else f"{page_key(lst, half)}.thread.{slug}"
 
 
@@ -271,6 +274,8 @@ STYLE = """<style>
 a.tx{color:var(--muted);text-decoration-color:var(--rule)}
 a.tx.ty{text-decoration:none}
 a.tx.ty:hover{text-decoration:underline;text-decoration-color:var(--rule)}
+/* a ghost subthread's line in the thread index, muted, nothing underlined (STYLE 9) */
+li.thg,li.thg .s,li.thg a{color:var(--muted);font-weight:inherit;text-decoration:none}
 p.seam{font-family:var(--sans);font-size:.8rem;margin:1rem 0}
 p.seam a{color:var(--muted);text-decoration-color:var(--rule)}
 /* a thread highlighted (STYLE 7) */

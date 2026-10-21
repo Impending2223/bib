@@ -235,8 +235,10 @@ under way; it should say something. 1961 is the model.
 Subthreads: a thread in `th.yaml` may name a `parent:` ("Defense: McNamara to Clifford", `id:
 cal.thread.defense-clifford`, `s: McNamara to Clifford`, `parent: defense`). Its entries are the parent's too (the
 index's dates, the ⟨⟨ ⟩⟩ line, the highlight); the rubric, the ⟨⟨ ⟩⟩ line and the Continuing line give its full name. A
-subthread without a statement (`c`) is a ghost: named where it is under way, not listed in the thread index (its rubric
-links to the parent's entry there); give it a `c` to promote it. Use one where a thread holds two or more events at once,
+subthread without a statement (`c`) is a ghost: named where it is under way, and in the thread index by a muted line
+under its parent, its name and dates, nothing underlined, as the A–Z bibliography's ghosts are (its rubric links there;
+STYLE 9 in `tools/bib/calsplit.py`); give it a `c` to promote it. No thread or subthread name begins with "The"
+(the owner's rule, Oct. 21, 2026: "Jupiters", "Air war"). Use one where a thread holds two or more events at once,
 or where the thread's name does not say what is going on. In `th.yaml`, after its parent (alphabetical by full name).
 `thread_name`, `entry_threads` in `tools/bib/build.py`; `thread_line`, `is_ghost` in `tools/bib/store.py`.
 
