@@ -464,6 +464,18 @@ document was found. Each under the entry it concerns; `./bib find -t check -l ca
 - The Kuwait and Saudi finds as they bore on policy, Algeria's and Nigeria's exports, Abu Dhabi's first oil, the
   Iranian consortium's quotas: not entered (the memo's item 3, `notes/proposals/military-oil-vietnam.md`).
 
+### Leaders and committees (the rosters of Oct. 21, 2026)
+
+- Senate Armed Services, 88th Congress: the *Directory* of Mar. 1, 1963 prints Stennis 2nd and Harry F. Byrd 3rd;
+  Nelson's file ranks Byrd 2nd. Nelson's order kept; settle from the Senate *Journal*, 1963.
+- Senate Commerce: Nelson codes it Interstate and Foreign Commerce (354) for all of the 87th; the *Directory* of Jan. 10,
+  1962 prints "Commerce" often. The rename's date.
+- Russell, President pro tempore to Jan. 21, 1971 (the day he died and the 92nd convened): left out of the 92nd (see
+  congress/committees-hand.yaml).
+- Not yet built: subcommittees; select, special and joint committees (Aging; Joint Economic, Atomic Energy, Internal
+  Revenue Taxation), which the *Directory* prints; ratios changed during a Congress; the *Directory*'s page on each
+  committee.
+
 ## Foreign
 
 - Military aid cut off to allies trading with Cuba, Feb. 18, 1964: not verified.

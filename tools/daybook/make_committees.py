@@ -612,7 +612,7 @@ def name_office(rest):
 
 def person_item(item):
     """{'as', 'title', 'name', 'office'} for one witness as printed; None where it names no person."""
-    item = re.sub(r"^(?:and|also|as\s+well\s+as)\s+", "", item.strip(" ,.:"), flags=re.I).strip()
+    item = re.sub(r"^(?:and|also|as\s+well\s+as)\s+", "", item.strip(" ,.:-·'"), flags=re.I).strip(" -·'")
     # the sentence going on to its subject: 'George W. Ball in connection with recent rioting in Panama'
     item = re.split(r",?\s+(?:in\s+connection\s+with|regarding|concerning|relative\s+to|with\s+respect\s+to|"
                     r"in\s+support\s+of|in\s+opposition\s+to|with\s+regard\s+to)\s", item, maxsplit=1)[0]
@@ -658,7 +658,9 @@ def witnesses_of(text):
     ws, others = [], []
     # the OCR's 'Testinion y', 'testimoq.y' before 'was', 'from', 'by': read as the word
     text = re.sub(r"\b([Ww])itness\s?e\s?s\b", r"\1itnesses", text)
-    text = re.sub(r"(?<=[A-Za-z])\.(?=[a-z])", "", text)          # 'R.epresentatives
+    text = re.sub(r"(?<=[A-Za-z])\.(?=[a-z])", "", text)          # 'R.epresentatives'
+    text = re.sub(r"\bRe\S{3,7}tative(s?)\b", r"Representative\1", text)     # 'Represe~tatives'
+    text = re.sub(r"\bSe\S{1,4}tor(s?)\b", r"Senator\1", text)
     text = re.sub(r"\b([Tt])est[\w.;~']{2,5}(?: ?[\w.]{1,2})?(?=\s+(?:was|were|from|by|also|on)\b)", r"\1estimony", text)
     for m in TRIGGER.finditer(text):
         j = sentence_end(text, m.end())
