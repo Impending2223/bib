@@ -489,6 +489,22 @@ Events Gibbons treats that the calendar lacks, not entered: no record reached an
   (`w.gibbons-u-s-government-and-1995`, 29 of them) want their pages; `cal.1966-02-04.vietnam` cites Part IV by the set's card
   ("IV, 222–230"), the others by the Part IV card.
 
+### The Bay of Pigs lead-up (the audit of Oct. 21, 2026)
+
+- No primary record yet: Kennedy and Fulbright on the Mar. 30, 1961 flight (`cal.1961-03-30.cuba`; the Kennedy Library's
+  POF; Schlesinger, *Thousand Days*); *La Hora*, Oct. 30, 1960, and *The Nation*, Nov. 19, 1960 (not read; the page);
+  the start of training in Guatemala.
+- The Times's cuts of Apr. 6, 1961, not checked against Clifton Daniel's text (June 1, 1966).
+- The year of the FRUS 1961–63, X–XII microfiche supplement (cited without one).
+- Not entered: the Oct. 31, 1960 cable for an assault force of at least 1,500 (a CIA message, by the National
+  Security Archive's chronology); whether Dulles briefed the President-elect again on Nov. 29, 1960; Eisenhower and
+  Kennedy on Cuba, Dec. 6, 1960 (Gleijeses, 26; for `cal.1960-12-06.transition-and-staff`); the Joint Staff told and
+  the working group formed, Jan. 11–13, 1961 (FRUS X, doc. 16); the JCS team at Retalhuleu, Feb. 24–27 (doc. 56);
+  the Revolutionary Council's announcement in New York, Mar. 22 (by the chronology); the meetings of Apr. 5 and 6
+  (docs. 83, 84); Esterline and Hawkins at Bissell's house, Apr. 8; Hawkins's cable of Apr. 13 (Taylor, par. 34);
+  Kennedy's approval of the landing, midday Apr. 16 (Taylor, par. 37); the prisoners, about 1,200 (no source read);
+  earlier releases of Schlesinger's memoranda of Feb. 11 and Apr. 5.
+
 ## The Executive roster
 
 - NSCID No. 1: the texts of 1958, 1964 and 1972 not found (`usib.yaml`). Lay shown as the Board's Executive Secretary only for Mar. 1964, in a note.
