@@ -578,6 +578,28 @@ Events Gibbons treats that the calendar lacks, not entered: no record reached an
   announcement (June 7), Boumediene's call for a year's cutoff (June 19), the Arab foreign ministers at Kuwait (June 17),
   Libya's quiet resumption to West Germany (Aug. 9): in FRUS 1964–68, XXXIV, docs. 233, 239, 243, 263; not entered.
 
+### The *Bulletin* and *Current Documents* (the printed-record agent, Oct. 21, 2026)
+
+- Kennedy's and Khrushchev's letters of Oct. 22–25, 1962 (FRUS 1961–63, VI, docs. 60–64; XI, doc. 44): private, and
+  printed in the *Bulletin*, Nov. 19, 1973, 635–639 (FRUS's source notes). No calendar entries for them; each would
+  carry "Made public: [[w.department-of-state-bulletin]], Nov. 19, 1973."
+- The MAYFLOWER message (`cal.1965-05-12.vietnam`; FRUS 1964–68, II, doc. 293): its text in *Current Documents, 1965*,
+  868–869. When it was first made public not read; then a "Made public:" line.
+- Johnson's reply to de Gaulle, Mar. 22, 1966 (`cal.1966-03-22.europe-and-the-alliance-france`; FRUS 1964–68, XIII,
+  doc. 146): in *Current Documents, 1966*, 321–323. Whether released at the time not read.
+- *Current Documents*' years of publication (the cards' `year`), from FRUS's bibliographies: 1956's "1957" (FRUS
+  1964–68, XX, alone), 1957's "1961" (a range, "1957–1967 ... 1961–1969"), 1965's "1969" (FRUS 1964–68, II, alone).
+  Check on the volumes' title pages; no open copy found (HathiTrust's catalog search bot-checked here).
+- The *Bulletin*, vol. 59 (July–Dec. 1968): no copy on archive.org but the index; 52 of FRUS's citations unlinked.
+  HathiTrust holds it in full view (catalog only from here).
+- archive.org would not serve `departmentofstat4461unit` (Apr.–June 1961) and part of `departmentofstat581968unit`
+  (Jan.–Mar. 1968) on Oct. 21, 2026 (500): rerun `tools/daybook/make_dsb_index.py`, then `make_printed.py`.
+- FRUS's own misprinted *Bulletin* citations, flagged Check in `daybook/printed.yaml` (28): e.g. "November 19, 1962,
+  pp. 646–649" (FRUS 1961–63, XI, doc. 91) and "November 19, 1963" (VI, doc. 69), both for Nov. 19, 1973.
+- The *Bulletin* as a daybook list (`daybook/bulletin/`): 1962 done (40 of 53 issues' indexes read); 1956–61 and
+  1963–69 remain (`python3 tools/daybook/make_bulletin.py YEAR`); 1962's issues of Mar. 26, June 25, Aug. 6, Sept. 3,
+  17, 24, Oct. 1, 8, 22, Nov. 12, 26, Dec. 24, 31 without an index read (cover not found, or no page numbers).
+
 ## The Executive roster
 
 - NSCID No. 1: the texts of 1958, 1964 and 1972 not found (`usib.yaml`). Lay shown as the Board's Executive Secretary only for Mar. 1964, in a note.
