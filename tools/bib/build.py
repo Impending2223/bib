@@ -13,6 +13,7 @@ import re
 
 from . import calsplit, daybook, governors, legislatures, primaries, specials, statefin, store, vnmap
 from . import conventions
+from . import wardead
 from . import budgets
 from . import bills
 from . import smart
@@ -1066,6 +1067,7 @@ def run(series, which=None):
                 page = conventions.inject(page, series)
                 page = governors.inject(page, series)
                 page = legislatures.inject(page, series)
+                page = wardead.inject(page, series)
                 page = statefin.inject(page, series)
                 page = budgets.inject(page, series)
                 page = bills.inject(page, series)
@@ -1090,6 +1092,7 @@ def run(series, which=None):
         page = conventions.inject(page, series)
         page = governors.inject(page, series)
         page = legislatures.inject(page, series)
+        page = wardead.inject(page, series)
         page = statefin.inject(page, series)
         page = budgets.inject(page, series)
         page = bills.inject(page, series)

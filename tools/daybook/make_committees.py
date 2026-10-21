@@ -386,7 +386,7 @@ def lead_of(t):
     'Conferees ...'; not 'Committee also approved the following bills:'."""
     if re.match(r"^\W*Conferees\b", t):
         return re.sub(r"^\W*", "", t).split(None, 1)[0].rstrip(",.:"), re.sub(r"^\W*Conferees[,:]?\s*", "", t)
-    t = re.sub(r"^(\W*)(?:[/fIJ]\s?oint|J\s?o\S{0,2}n\S?t)\b", r"\1Joint", t)      # 'I oint', '/oint', 'Joif!t'
+    t = re.sub(r"^(\W*)(?:[/fIJ]\s?oint|J\s?o\S{0,2}n\S?t|J\s?o\S{1,3}t)\b", r"\1Joint", t)      # 'I oint', '/oint', 'Joif!t'
     junk = bool(re.match(r"^\s*[^\sA-Za-z·•.,'_~\-]", t))      # '[:omm#tee', '<;ommittee': the C misread
     t = re.sub(r"^[^A-Za-z/]+", "", t)
     m = LEAD.match(t)

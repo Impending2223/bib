@@ -13,7 +13,11 @@ STYLE (keep it):
     first quarter's end where the Statistical Abstract printed it then.
  4. No change column: a count of the dead is not a level, and the strength rows are six months apart.
 """
-from .indicators import esc, grey
+
+
+def esc(t):
+    return str(t).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace('"', "&quot;")
+
 
 NARA = "https://catalog.archives.gov/id/2240992"
 NARA_STATS = "https://www.archives.gov/research/military/vietnam-war/casualty-statistics"

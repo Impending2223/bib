@@ -207,6 +207,12 @@ def run(series, only=None):
     from . import indicators
     for where, msg in indicators.problems():
         add(ERROR, f"indicators/{where}.yaml", msg, "indicators")
+    # the war's rows (indicators/war-*.yaml) and the dead by home State (sources/war-dead-states.yaml)
+    from . import war, wardead
+    for where, msg in war.problems():
+        add(ERROR, f"indicators/{where}.yaml", msg, "war")
+    for where, msg in wardead.problems(series):
+        add(ERROR, where, msg, "war")
     from . import oil
     for where, msg in oil.problems(indicators.load()):
         add(ERROR, f"indicators/{where}.yaml", msg, "indicators")
