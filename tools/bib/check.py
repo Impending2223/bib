@@ -227,6 +227,10 @@ def run(series, only=None):
     from . import legislatures
     for where, msg in legislatures.problems(series):
         add(ERROR, where, msg, "legislatures")
+    # the calendar's places in Indochina (place: and province: tags; sources/vn-provinces-1966)
+    from . import vnmap
+    for where, msg in vnmap.problems(series):
+        add(ERROR, where, msg, "places")
     # races settled by hand for the lives (sources/race-matches.yaml)
     from . import lives
     for where, msg in lives.problems(series):

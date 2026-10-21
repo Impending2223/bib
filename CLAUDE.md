@@ -144,6 +144,9 @@ daybook/recordings/millercenter.yaml  the same span's recordings the Miller Cent
 daybook/sunday.yaml       the Sunday interview programs and their guests: Meet the Press, 1945–80; Face the Nation, 1959–70 (generated)
 sources/loc/              the Library of Congress finding aid make_sunday.py reads (Spivak visual materials, pp020019, pp. 1–136)
 executive/<unit>.yaml     the Executive Branch, 1953–74: each department or agency, its offices, their law and holders (kept by hand)
+sources/vn-provinces-1966/  South Vietnam's provinces of late 1966 rebuilt from today's districts, the corps zones, regions,
+                          the countries around, and the gazetteer of places in Indochina (its README; made by tools/vnmap/)
+sources/indochina/        relief, rivers, climate and rain layers for the maps of Indochina (its README)
 build/                    generated pages (git-ignored)
 tools/bib/                the code behind ./bib
 tools/congress/           one-time scripts that made congress/ (see below)
@@ -1135,6 +1138,23 @@ tools/bib/indicators.py       renders them (ORDER, GROUP) and checks them
   and is never written to the repo. The build needs no network.
 - `check` fails on a bad period, a first-reported figure without a release
   date, or a transcribed figure without a source.
+
+## Maps of Indochina
+
+`tools/bib/vnmap.py` (STYLE notes at the top): a map of Vietnam, Laos and Cambodia for each year, 1960–68, set in the
+year's first calendar entry tagged with a place in the Republic of Vietnam, showing every entry of the year tagged with
+a place: a dot a place, larger by the year's entries there, a tap listing them, each linked; under the map, folded, the
+year's placed entries; names set by the year's places first, then the gazetteer's rank, never over one another. The
+provinces as of late 1966, tinted by corps zone (the default), today's region, or plain; the layers of
+`sources/indochina/` where present (relief, rivers, climate, rain by month). Zoom to 64×; the wheel only with Ctrl or ⌘.
+
+- Tags, hidden: `place:<id>`, a place in `sources/vn-provinces-1966/places.json` (the gazetteer: name with its
+  diacritics, plain form, kind, Wikipedia's coordinates, 1966 province, country, rank for names); `province:<id>`, a
+  1966 unit, where an entry names a province and no finer place. An event in Indochina or off its coast takes them; a
+  decision about it made in Washington, Honolulu or Manila does not. `check` fails on a tag that names nothing.
+- A place not in the gazetteer: add it, with Wikipedia's coordinates (never guessed) and its province by point in
+  polygon. The lines are approximate (the README there); the gazetteer's notes are working notes, not the series'.
+- The shapes go beside the pages, `build/geo/vn-<hash>.json`, fetched when the first map nears the screen.
 
 ## The calendar in three parts
 
