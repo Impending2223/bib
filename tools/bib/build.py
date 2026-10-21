@@ -339,7 +339,7 @@ def half_sections(lst, half):
             c = copy.copy(s)
             c.entries = [e for e in s.entries if not e["id"].startswith(f"{lst.key}.thread.")
                          or any(calsplit.half_of_date(lst, m["date"]) == half
-                                for m in members.get(e["id"].split(".", 2)[2], []))]
+                                for m in members.get(e.get("see") or e["id"].split(".", 2)[2], []))]
             if half > 1:
                 c.id = f"{s.id}{half}"
             out.append(c)
