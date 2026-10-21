@@ -141,6 +141,10 @@ elections/governors.yaml  every general election for governor, 1960–68 (genera
 elections/legislatures.yaml  each State legislature's parties by session, 1959–69 (generated from Klarner; never edit)
 statefin/states.yaml      each State's finances by fiscal year, 1959–68, State and local together, the large cities (generated
                           from Census's databases; never edit)
+budgets/budgets.yaml      each fiscal year's budget, 1961–70, by source and function: proposed and first reported (kept by hand)
+budgets/today.yaml        the same years as OMB's Historical Tables give them today (generated; never edit)
+budgets/debt-limits.yaml  the thirteen acts changing the debt limit, June 30, 1960–Apr. 7, 1969 (kept by hand)
+congress/bills.yaml       a bill's course, step by step, from the History of Bills and Voteview (kept by hand)
 sources/states.yaml       each State's own official election publications, where to read them, what they print (kept by hand)
 daybook/<YYYY-MM>.yaml    every Public Papers (APP) and FRUS document by date (generated)
 daybook/abstracts.yaml    one-sentence abstracts, keyed by document (kept by hand or agent)
@@ -1173,6 +1177,9 @@ tools/indicators/make_polls.py   Gallup's approval (kind: poll), a reading a row
                               today (the American Presidency Project's tables). In a table of its own under the
                               indicators, under a rule and its caption: Reading (field dates) | As published | Released | Today. The race for 1964,
                               the issues, and every other poll are calendar entries in the thread Opinion.
+tools/indicators/make_oil.py  the Oil group (oil-*.yaml): the Survey of Current Business's monthly figures, read by eye (SCB in
+                              the script), and the Minerals Yearbook's reserves, beside EIA's today (needs the network, xlrd)
+tools/bib/oil.py              renders the Oil cells, its DEFS and checks (STYLE notes at the top)
 tools/bib/indicators.py       renders them (ORDER, GROUP) and checks them
 ```
 
@@ -1207,6 +1214,11 @@ tools/bib/indicators.py       renders them (ORDER, GROUP) and checks them
   Board's press releases and the *Bulletin* (FRASER, by page): in a month it changed, the Board's announcement and
   the day it took effect in grey; otherwise `since` (the date it took effect, on hover). STYLE 13 in
   `tools/bib/indicators.py`.
+- Oil (the owner's request, Oct. 21, 2026; `tools/bib/oil.py`, its STYLE): U.S. crude production and products supplied
+  monthly, imports and exports monthly, as the *Survey of Current Business* first printed the Bureau of Mines' figures
+  (p. S-35, FRASER, the issue its "Released"), in millions of barrels a day, levels only; today EIA's (products supplied
+  from 1963; trade by year, in December, its own row); proved reserves at Dec. 31, the API's as the *Minerals Yearbook*
+  printed them, beside EIA's. The Survey's misprints stand, the correction in grey. Its calendar thread: Oil.
 - Changes use one basis in both value columns (CHANGE in the script): monthly
   percent, not annualized; quarterly percent at an annual rate; points; persons.
   CPI, WPI and industrial production also carry the change from a year earlier
@@ -1223,6 +1235,31 @@ tools/bib/indicators.py       renders them (ORDER, GROUP) and checks them
   and is never written to the repo. The build needs no network.
 - `check` fails on a bad period, a first-reported figure without a release
   date, or a transcribed figure without a source.
+
+## Federal budgets, the debt limit, and bills
+
+`tools/bib/budgets.py` and `tools/bib/bills.py` (STYLE notes at the top of each):
+
+- A January budget entry tagged `budget:<FY>` (fiscal 1961–70) carries the year's table: receipts by source and
+  expenditures (outlays) by function, three columns as the indicators have them: Proposed (that January's *Budget*),
+  First reported (the *Budget* two Januaries later; fiscal 1967's expenditures from the Treasury's *Annual Report*;
+  fiscal 1968's not found, "n.a."), Today (OMB's Historical Tables 2.1 and 3.1, unified, today's functions, in rows of
+  their own, never summed with the others). A table under each January entry, not indicator series filed in June:
+  the proposal belongs to the message; the then and now classifications share no rows (indicators STYLE 8), so a
+  June row a line would not align them; and twenty lines a June would swamp the month tables. `budgets/budgets.yaml`
+  is read off FRASER's scans (each column's document, table, printed page and PDF page); a line shares a row with
+  another column's only where it means the same thing. `check` holds each column's lines to its printed total
+  (half a unit a line). Today's: `python3 -I tools/budgets/make_today.py` (needs the network; the build does not).
+- The entry tagged `debt-limits` (the Debt limit thread's first, June 8, 1960) carries the table of the thirteen acts
+  (OMB Table 7.3, each act read in the Statutes); every act has its signing entry, the House and Senate roll calls
+  entries of their own (thread `economy-debt-limit`).
+- A signing entry tagged `bill:<key>` carries the bill's course (`congress/bills.yaml`): each step dated by the bound
+  Record's daily parts (the History of Bills prints pages, not dates), its page linked to that chamber's day on
+  govinfo, its roll calls linked to Voteview. Now the Revenue Act of 1964 and the Revenue and Expenditure Control Act.
+- Revenue effects of the tax acts: Tempalski, OTA Working Paper 81 (`[[w.tempalski-revenue-effects-of-major]]`), by
+  table and page, in the signing entries of the Revenue Acts of 1962 and 1964, the Tax Adjustment Act and the Revenue
+  and Expenditure Control Act; the paper has no figures for the excise act of 1965 or the investment credit's
+  suspension and restoration.
 
 ## Maps of Indochina
 

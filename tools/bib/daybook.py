@@ -54,6 +54,10 @@ STYLE:
     *American Foreign Policy: Current Documents*, read from FRUS's notes (daybook/printed.yaml; tools/bib/printed.py).
  10. Committees, a fourth list after the recordings: the Daily Digest's committee meetings of the day
     (daybook/committees, tools/daybook/make_committees.py; rendered by tools/bib/committees.py, its STYLE notes).
+ 11. Bulletin, a fifth list: the Department of State Bulletin's items, from each issue's own index (daybook/bulletin/
+    <YYYY>.yaml, tools/daybook/make_bulletin.py), filed under the day its page says it was released ("Press release
+    23 dated January 15"), else the issue's date ("filed by the issue's date"); the title as the index prints it,
+    linked to the page in the archive.org copy; "Bulletin, Jan. 8, 1962, p. 43" in grey. 1962 only for now.
 """
 import calendar
 import datetime
@@ -90,7 +94,8 @@ def load():
     if "docs" not in _cache:
         docs = []
         for f in sorted(glob.glob(os.path.join(DIR, "[0-9][0-9][0-9][0-9]-[0-9][0-9].yaml"))
-                        + glob.glob(os.path.join(DIR, "recordings", "[0-9][0-9][0-9][0-9]-[0-9][0-9].yaml"))):
+                        + glob.glob(os.path.join(DIR, "recordings", "[0-9][0-9][0-9][0-9]-[0-9][0-9].yaml"))
+                        + glob.glob(os.path.join(DIR, "bulletin", "[0-9][0-9][0-9][0-9].yaml"))):   # STYLE 11
             docs += (yaml.safe_load(open(f, encoding="utf-8")) or {}).get("docs", [])
         ab = {}
         p = os.path.join(DIR, "abstracts.yaml")
@@ -331,9 +336,10 @@ SERIES = None    # set by the build (build.py, run): the series, for the FRUS se
 
 def doc_html(x, ab):
     from .markup import lower_from
-    url = x["free"]["url"] if x.get("free") else x["url"]
+    url = x["free"]["url"] if x.get("free") else x.get("url")
     hint = ' title="Miller Center: the recording, free"' if x.get("free") or x["src"] == "mc" else ""
-    title = f'<a href="{esc(url)}"{hint}>{esc(lower_from(x["title"]) if x["src"] == "frus" else x["title"])}</a>'
+    title = esc(lower_from(x["title"]) if x["src"] == "frus" else x["title"])
+    title = f'<a href="{esc(url)}"{hint}>{title}</a>' if url else title
     au = esc(x["author"]) if x.get("author") else ""
     if au and x["src"] == "frus" and SERIES is not None:
         from . import namelinks              # the sender's name entry, where the index names one person
@@ -344,6 +350,9 @@ def doc_html(x, ab):
         src, hover = "APP", "American Presidency Project"
     elif x["src"] in ("prde", "mc"):
         src, hover = None, None
+    elif x["src"] == "dsb":                  # the Bulletin: the issue and page (STYLE 11)
+        iss = datetime.date.fromisoformat(x["issue"])
+        src, hover = f'Bulletin, {day_label(iss)}, p. {x["page"]}', "Department of State Bulletin"
     else:
         src, hover = frus_cite(x), "Foreign Relations of the United States"
     bits = [f'<span class="src" title="{esc(hover)}">{esc(src)}</span>'] if src else []
@@ -361,6 +370,8 @@ def doc_html(x, ab):
         bits.append(f'<span class="src">through {esc(day_label(u, u.year != int(x["date"][:4])))}</span>')
     if x.get("placed"):
         bits.append('<span class="src">filed by its place in the volume</span>')
+    if x["src"] == "dsb" and x.get("dated") == "issue":
+        bits.append('<span class="src">filed by the issue\'s date</span>')
     a = ab.get(x["key"])
     abstract = f'<span class="ab">{esc(a)}</span>' if a else ""
     if x["src"] == "frus":                   # where it, or what its notes cite, was printed then (STYLE 9)
@@ -377,6 +388,7 @@ def docs_html(docs, ab, iso=None):
     ppp = [x for x in docs if x["src"] == "ppp"]
     frus = [x for x in docs if x["src"] == "frus"]
     rec = sorted([x for x in docs if x["src"] in ("prde", "mc")], key=lambda x: x.get("time") or "99")
+    bul = [x for x in docs if x["src"] == "dsb"]
     counts = []
     if ppp:
         counts.append(f"PPP {len(ppp)}")
@@ -386,6 +398,8 @@ def docs_html(docs, ab, iso=None):
         counts.append(f"Recordings {len(rec)}")
     if cm:
         counts.append(f"Committees {len(cm)}")
+    if bul:
+        counts.append(f"Bulletin {len(bul)}")
     body = []
     if ppp:
         body.append('<ol class="dd">' + "".join(doc_html(x, ab) for x in ppp) + "</ol>")
@@ -395,6 +409,8 @@ def docs_html(docs, ab, iso=None):
         body.append('<ol class="dd fr">' + "".join(doc_html(x, ab) for x in rec) + "</ol>")
     if cm:
         body.append(committees.list_html(cm, SERIES))
+    if bul:
+        body.append('<ol class="dd fr">' + "".join(doc_html(x, ab) for x in bul) + "</ol>")
     return (f'<details class="docs"><summary>Documents: {", ".join(counts)}</summary>'
             + "".join(body) + "</details>")
 

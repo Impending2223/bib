@@ -391,6 +391,7 @@ def lead_of(t):
     if not (toks[0][:1].isupper() or toks[0][:1] in "/f"):     # 'mittee on Labor met in ex<:cutive': a line's end
         return None
     cmte = lambda x: like(x, "committee") or like(x, "committees") or like(x, "subcommittee", .8)
+    toks = [x for x in toks if re.search(r"\w", x)]          # 'Committee . on Banking': the stray mark out
     if len(toks) >= 2 and cmte(toks[0]) and len(letters(toks[1])) <= 3 and toks[1][:1].lower() in "oa0":
         return lead, m.group(2)
     if len(toks) >= 2 and any(like(toks[0], w, .75) for w in ("joint", "select", "special", "senate", "house")) \
@@ -509,7 +510,7 @@ def bills_of(text):
 TRIGGER = re.compile(
     r"(?:(?:heard|received|receive|hear|took|taking|with)\s+(?:further\s+|additional\s+)?testimony|testimony)"
     r"(?:\s+(?:was|were))?(?:\s+(?:also|further))?(?:\s+(?:received|heard|given|presented|taken))?"
-    r"(?:[\s,]+[^.;:]{0,60}?)?[\s,]+(?:from|by)\s*[.:]?\s+"
+    r"(?:[\s,]+(?:by|from)|[\s,]+(?:on|in|of|concerning|regarding)\b[^;:]{0,60}?[\s,]+from)\s*[.:]?\s+"
     r"|witnesses?\s+(?:heard\s+)?(?:today\s+)?(?:in\s+this\s+regard\s+)?(?:on\s+[^.;:]{0,40}?\s+)?"
     r"(?:were|was|included|being)\s*:?\s+"
     r"|having\s+as\s+(?:its|their)\s+witness(?:es)?\s+"
@@ -555,7 +556,8 @@ def sentence_end(t, i):
             starter = re.match(r"\s+(?:Hearings?|Committee|Subcommittee|Testimony|Heard|Also|Prior|It|Witnesses|"
                                r"Statements?|Adjourned|Recessed|Further|Senate|House|Conferees|The\s+(?:committee|"
                                r"subcommittee|hearing))\b", t[j + 1:j + 30])
-            if ABBR.search(before.split()[-1] if before.split() else "") and not (
+            last = before.split()[-1] if before.split() else ""
+            if (ABBR.search(last) or re.search(r"[A-Z]\.$", last)) and not (
                     starter and not re.search(r"\b[A-Z]\.$", before)):
                 continue
             nxt = t[j + 1:j + 3]
@@ -595,6 +597,9 @@ def name_office(rest):
     """('John Smith, Jr.', 'president, ...') from 'John Smith, Jr., president, ...'; the office cut where the
     sentence goes on to the subject ('..., NASA, on H.R. 9641') or to those who came with him."""
     nm, _, office = rest.partition(", ")
+    m = re.match(r"^(.+?)\s*\(([^)]+)\)$", nm)           # 'Clifford Hope (former Representative)'
+    if m and not office:
+        nm, office = m.group(1), m.group(2)
     if re.match(r"^(?:Jr\.|Sr\.|II|III|IV)(?:,|$)", office):
         suf, _, office = office.partition(", ")
         nm = f"{nm}, {suf.rstrip(',')}"
@@ -651,6 +656,8 @@ def witnesses_of(text):
     person, as printed."""
     ws, others = [], []
     # the OCR's 'Testinion y', 'testimoq.y' before 'was', 'from', 'by': read as the word
+    text = re.sub(r"\b([Ww])itness\s?e\s?s\b", r"\1itnesses", text)
+    text = re.sub(r"(?<=[A-Za-z])\.(?=[a-z])", "", text)          # 'R.epresentatives
     text = re.sub(r"\b([Tt])est[\w.;~']{2,5}(?: ?[\w.]{1,2})?(?=\s+(?:was|were|from|by|also|on)\b)", r"\1estimony", text)
     for m in TRIGGER.finditer(text):
         j = sentence_end(text, m.end())
@@ -737,9 +744,11 @@ def session_of(text):
 
 
 def sub_of(text):
+    """The subcommittee the paragraph opens with ('Subcommittee on Wheat held ...', 'The CIA Subcommittee met ...');
+    not one it names later ('... authorizing the Housing Subcommittee to ...')."""
     first = text[:sentence_end(text, 0) + 1]
     m = SUB.search(first)
-    if not m:
+    if not m or m.start() > 4:
         return None
     s = m.group(1).strip(" ,.")
     s = re.sub(r"\s+(?:held|met|began|continued|resumed|heard|in|to|and)$", "", s)
@@ -823,7 +832,7 @@ def read_volume(year, bbox):
                 c = clean(t).strip(" .,'")
                 if cur is not None:
                     # capitals within a paragraph whose sentence runs on (a title quoted) stay in it
-                    if cur["lines"] and not re.search(r"[.:;)\"'”]$", cur["lines"][-1].strip()):
+                    if cur["lines"] and not re.search(r"[.:;)\"'”]$", re.sub(r"[\s_·•~`,-]+$", "", cur["lines"][-1])):
                         cur["lines"].append(t)
                         continue
                     close()

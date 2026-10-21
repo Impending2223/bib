@@ -418,6 +418,32 @@ document was found. Each under the entry it concerns; `./bib find -t check -l ca
 - Single-day entries that still take in another day (a second pass): Jan. 26, 1960, Vietnam (Feb. 12); Feb. 4, 1960,
   school aid (Feb. 3); May 13, 1960, the veto (the passage votes).
 
+### Federal finance (the fiscal agent, Oct. 21, 2026)
+
+- Appropriations, each session's bills against the President's estimates (the plan's item 5,
+  `notes/proposals/fiscal-congress-conventions-state.md`): the Senate's *Appropriations, Budget Estimates, Etc.* for
+  the 1960s not found open (HathiTrust not tried); the *CQ Almanac* is borrow-only on archive.org.
+- Fiscal 1968's first-reported actual on the administrative basis, by source and by function: not in the budget of
+  January 1969 (unified only). Look in the Treasury's *Annual Report* for fiscal 1968 (FRASER, AR_TREASURY_1968.pdf:
+  its statistical tables seem to be in a separate appendix) or the *Treasury Bulletin*, Aug.–Sept. 1968
+  (`budgets/budgets.yaml`, 1968 `actual: null`).
+- Fiscal 1967's expenditures by function, interest (13,524) and general government (2,708): read from the OCR text of
+  the Treasury's *Annual Report*, 1967, p. 484, not the page image (the lines add to the printed total).
+- Debt limit: the Senate's tabling of Gore's depletion amendment to H.R. 12381, June 18, 1960 (Johnson's motion,
+  39–26, RS0860354), left out as minor; the Senate's passage of H.R. 7677, June 28 or 29, 1961, without a roll call
+  (the 1961 History of Bills prints p. 11624, which falls on June 28, but the debate it cites runs to 11651, June 29);
+  CRS's *The Debt Limit: History and Recent Increases* (Austin, RL31967) answers 403 from here.
+- Revenue effects not in Tempalski's OTA Working Paper 81: the Excise Tax Reduction Act of 1965 (cal.1965-06-21.economy),
+  the investment credit's suspension (cal.1966-11-08.economy) and restoration (cal.1967-06-13.economy). The Treasury's
+  estimates are in the next January's budgets (the receipts chapters) and the Treasury's Annual Reports.
+- Bill histories still to do (`congress/bills.yaml`, the plan's item 3): the Revenue Act of 1962 (H.R. 10650), the
+  Interest Equalization Tax Act (H.R. 8000, 1963–64), the Excise Tax Reduction Act of 1965 (H.R. 8371), the Tax
+  Adjustment Act (H.R. 12752), the investment credit's suspension (H.R. 17607) and restoration (H.R. 6950), the
+  Foreign Investors Tax Act (H.R. 13103, 1966), and the twelve debt-limit acts. The History of Bills parts are on
+  govinfo (1960 pt15, 1961 pt17, 1962 pt18, 1963 pt20, 1964 pt19, 1965 pt22, 1966 pt22, 1967 pt28, 1968 pt25); the
+  pages turn to days by each part's granule records (printPageRange in the package's mods.xml). Senate Finance's
+  hearings on H.R. 8363 (Oct.–Dec. 1963) are not in the History and not yet in the calendar.
+
 ## Foreign
 
 - Military aid cut off to allies trading with Cuba, Feb. 18, 1964: not verified.

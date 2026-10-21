@@ -3,16 +3,16 @@
 Written by `./bib audit-cal` (`tools/bib/calaudit.py`): the dated entries checked against the brief in
 CLAUDE.md ("The calendar"). A review list: a hit is a place to look, not an error. Rerun after editing.
 
-4932 dated entries.
+4953 dated entries.
 
 | Check | Entries |
 |---|---|
-| A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 1339 |
+| A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 1342 |
 | (of which only a President's surname: Eisenhower, Kennedy, Johnson) | 21 |
 | Neither a bibliography of its own nor a `See [[id]]` back | 2 |
-| No primary record linked or named | 826 |
+| No primary record linked or named | 827 |
 | A primary record named but not linked | 122 |
-| Threads (statements listed for review) | 218 |
+| Threads (statements listed for review) | 219 |
 
 ## Names
 
@@ -196,6 +196,8 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Tucker: Tucker, Raymond R. (K–J Cong. III.F)
 - `cal.1960-12-12.laos` (Dec. 12, XIII dec60.yaml): The assembly, at Savannakhet, votes Souvanna Phouma out; the King gives power to Phoumi's committee, Boun Oum 
   - ? King: King, Cecil R. (K–J Cong. III.D); King, John W. (K–J Cong. III.F); King, Marion (K–J Cong. III.H); King, Martin Luther, Jr. (K–J Cong. III.H, Viet. III.E); King, Coretta Scott (K–J Cong. III.K); King, Edwin (K–J Cong. III.K); King, Martin Luther, Sr. (K–J Cong. III.K); King, Tom (K–J Cong. III.K)
+- `cal.1960-12-24.oil` (Dec. 24, XIII dec60.yaml): Eisenhower, Proclamation 3386: from Jan. 1, the import ceiling for Districts I–IV, 9 percent of the Bureau of 
+  - ? Washington: Washington, Walter E. (K–J Cong. III.F)
 - `cal.1961-01-03.rules` (Jan. 3, XIV jan.yaml): 87th Congress convenes. Senate 65 D–35 R, Hickey (D) appointed in Wyoming for Keith Thomson (R), elected and d
   - Keith: Keith, Alexander M. (K–J Cong. III.K)
 - `cal.1961-01-08.opinion` (Jan. 8, XIV jan.yaml): Gallup, Dec. 8–13, 1960: for the new President and Congress to act on, holding down prices, 63 percent; medica
@@ -2391,6 +2393,8 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Muhammad: Muhammad, Elijah (K–J Cong. III.K)
 - `cal.1967-06-25.opinion` (June 25, XCII jun67.yaml): Gallup, May 11–16: a law limiting the total a candidate's campaign may spend: yes 73 percent, no 16. A Governm
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1967-06-27.oil` (June 27, XCII jun67.yaml): OECD Council: its Special Committee for Oil to convene an international industry advisory body and report any 
+  - West: West, Ben (K–J Cong. III.K); West, E. Gordon (K–J Cong. III.K)
 - `cal.1967-06-28.opinion` (June 28, XCII jun67.yaml): Gallup, June 2–7: can identify Percy, 44 percent; Republicans 51, Democrats 39, independents 45; college-educa
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1967-06-30.trade` (June 30, XCII jun67.yaml): Geneva. The Kennedy Round's agreements signed, Roth for the United States, the last day of the Trade Expansion
@@ -2420,6 +2424,8 @@ the person; several mean the surname is shared). "?" marks a surname that is als
 - `cal.1967-07-24.civil-disorders` (July 24–26, XCIII jul67.yaml): Cambridge, Md. H. Rap Brown, SNCC's chairman, to a crowd of several hundred, night of July 24: "If America don
   - Ward: Ward, Joseph D. (K–J Cong. III.F); Ward, Daniel P. (K–J Cong. III.K); Ward, Henry (K–J Cong. III.K)
   - ? Washington: Washington, Walter E. (K–J Cong. III.F)
+- `cal.1967-07-24.oil` (July 24, XCIII jul67.yaml): Iraq resumes oil shipments to all countries but the United States, Britain and West Germany.
+  - West: West, Ben (K–J Cong. III.K); West, E. Gordon (K–J Cong. III.K)
 - `cal.1967-07-30.opinion` (July 30, XCIII jul67.yaml): Gallup, July 13–18: Johnson's handling of Vietnam: approve 33 percent, disapprove 52. The United States made a
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1967-07-31.civil-disorders-kerner` (July 31, XCIII jul67.yaml): Ginsburg the Kerner Commission's executive director.
@@ -3186,6 +3192,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1961-09-19.berlin-and-vienna` (Sept. 19, XXII sep.yaml): Clay arrives in Berlin.
 - `cal.1961-09-22.georgia-atlanta` (Sept. 22, XXII sep.yaml): Atlanta's runoff for mayor: Allen 64,313, Maddox 36,091; Allen 64.1 percent.
 - `cal.1961-09.legislatures-ca` (Sept., XXII sep.yaml): California. Unruh, Assemblyman from Los Angeles County, elected Speaker of the Assembly. Check the day.
+- `cal.1961-09.oil` (Sept., XXII sep.yaml): Libya. First crude oil exports: Esso's 108-mile, 30-inch line from the Zelten field to its terminal at Marsa e
 - `cal.1961-10.civil-rights-organizations` (Oct., XXIII oct.yaml): Greenberg director-counsel of the NAACP Legal Defense and Educational Fund, succeeding Marshall, recess-appoin
 - `cal.1961-10-01.steel` (Oct. 1, XXIII oct.yaml): The steelworkers' October wage step. Prices hold.
 - `cal.1961-10-01.civil-rights-organizations` (Oct. 1, XXIII oct.yaml): Whitney Young takes office as executive director of the National Urban League, the board's unanimous choice to
@@ -4168,6 +4175,7 @@ The brief: what the thread is, and its stations, in one or two clipped sentences
 | Newark |  |
 | Nonproliferation treaty |  |
 | Ocean Hill–Brownsville |  |
+| Oil | Oil imports, the import program, and the world's oil. OPEC at Baghdad; Nixon at Centralia; the ceiling on demand; the East Coast's residual oil; Libya's first exports; Iraq's Law 80; the petroleum study; Kennedy to Udall; the ceiling on production. |
 | Ole Miss |  |
 | Open housing | Open housing in the States and cities. Pennsylvania's fair housing law; Washington's court voids its law on publicly assisted housing; Detroit's ordinance against blockbusting; Atlanta's barricades; Colorado's court upholds its law. |
 | Opinion | The public's view, by Gallup's releases. Approval (each month's table gives every reading); the race for 1964, Nixon, Rockefeller, Goldwater; integration and the Freedom Riders; the most important problem; Cuba, Berlin, testing, fallout shelters, the Court; Medicare, school aid, the tax cut; prejudice in politics. |

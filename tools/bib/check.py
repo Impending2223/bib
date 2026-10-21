@@ -242,6 +242,10 @@ def run(series, only=None):
     from . import budgets
     for where, msg in budgets.problems(series):
         add(ERROR, where, msg, "budgets")
+    # the bills' courses (congress/bills.yaml; tools/bib/bills.py)
+    from . import bills
+    for where, msg in bills.problems(series):
+        add(ERROR, where, msg, "bills")
     # the calendar's places in Indochina (place: and province: tags; sources/vn-provinces-1966)
     from . import vnmap
     for where, msg in vnmap.problems(series):

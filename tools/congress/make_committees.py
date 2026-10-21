@@ -211,6 +211,8 @@ def main(nelson, legis):
                     x["from"] = iso(r["frm"])
                 if r["end"] != "1":
                     x["to"], x["why"] = iso(r["to"]), END[r["end"]].capitalize()
+                elif iso(r["to"]) and iso(r["to"]) < CLOSE[r["c"]]:
+                    x["to"] = iso(r["to"])       # left the office for another (Scott, whip to leader, 1969)
                 x["src"] = "nelson"
                 cc["leaders"].append(x)
                 continue
