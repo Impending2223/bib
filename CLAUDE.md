@@ -1400,4 +1400,27 @@ tools/bib/daybook.py            lays the calendar out by day (STYLE notes at the
   (vol. 59, July–Dec. 1968, has no open copy). A calendar entry on a private document FRUS shows printed later carries
   "Made public: [[w.department-of-state-bulletin]], Nov. 19, 1973, 640–645." (`printed.made_public`).
 - Abstracts go in `daybook/abstracts.yaml` (`key: sentence`), never in the generated
-  files, so a rerun keeps them. Keys: `app:<slug>`, `frus:<volume>/<dN>`. `check` fa
+  files, so a rerun keeps them. Keys: `app:<slug>`, `frus:<volume>/<dN>`. `check` fails
+  on an abstract whose key is not in the daybook.
+- To extend the span, change FROM/TO in the script and add calendar sections; the days
+  follow the calendar's dated sections.
+
+## Publishing
+
+The site is GitHub Pages: https://impending2223.github.io/bib/ (the compiled
+reader; each list at `<key>.html`). Every push to `main` runs
+`.github/workflows/pages.yml`: `./bib check`, `./bib build`, deploy. A failing
+check stops the deploy. So publishing is merging to `main`. Run `check` and
+`build` locally before you push.
+
+The claude.ai artifacts named in `series.yaml` are frozen copies of
+Oct. 1, 2026. Don't republish them; `publish-plan` and `mark-published`
+belong to that old route.
+
+## Do not
+
+- read `build/*.html` or a whole list to find something: use `find`/`show`/`works`;
+- change an `id`, or reuse a deleted one (add an alias instead);
+- write the thread index by hand, or `s:` on calendar entries;
+- edit `published.yaml` by hand;
+- push to `main` with errors from `./bib check`.

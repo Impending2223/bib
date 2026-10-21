@@ -385,6 +385,7 @@ def lead_of(t):
     'Conferees ...'; not 'Committee also approved the following bills:'."""
     if re.match(r"^\W*Conferees\b", t):
         return re.sub(r"^\W*", "", t).split(None, 1)[0].rstrip(",.:"), re.sub(r"^\W*Conferees[,:]?\s*", "", t)
+    t = re.sub(r"^(\W*)(?:[/fIJ]\s?oint|J\s?o\S{0,2}n\S?t)\b", r"\1Joint", t)      # 'I oint', '/oint', 'Joif!t'
     m = LEAD.match(t)
     if not m:
         return None
@@ -511,11 +512,11 @@ def bills_of(text):
 TRIGGER = re.compile(
     r"(?:(?:heard|received|receive|hear|took|taking|with)\s+(?:further\s+|additional\s+)?testimony|testimony)"
     r"(?:\s+(?:was|were))?(?:\s+(?:also|further))?(?:\s+(?:received|heard|given|presented|taken))?"
-    r"(?:[\s,]+(?:by|from)|[\s,]+(?:on|in|of|concerning|regarding)\b[^;:]{0,60}?[\s,]+from)\s*[.:]?\s+"
+    r"(?:[\s,]+(?:by|from)|[\s,]+(?:on|in|of|concerning|regarding)\b[^;:]{0,110}?[\s,]+from)\s*[.:]?\s+"
     r"|witnesses?\s+(?:heard\s+)?(?:today\s+)?(?:in\s+this\s+regard\s+)?(?:on\s+[^.;:]{0,40}?\s+)?"
     r"(?:were|was|included|being)\s*:?\s+"
-    r"|having\s+as\s+(?:its|their)\s+witness(?:es)?\s+"
-    r"|(?:a\s+)?briefing\s+(?:from|by|with)\s+|briefed\s+by\s+|(?:heard|received)\s+(?:a\s+)?(?:report|statement|"
+    r"|ha\s?(?:ving|d|s)\s+as\s+(?:its|their)\s+witness(?:es)?\s+"
+    r"|(?:a\s+)?briefing\s+(?:(?:on|regarding|concerning)\b[^;:]{0,80}?\s+)?(?:from|by|with)\s+|briefed\s+by\s+|(?:heard|received)\s+(?:a\s+)?(?:report|statement|"
     r"discussion)s?\s+(?:from|by)\s+"
     r"|statements?\s+(?:was|were)\s+(?:presented|submitted|received|made)\s+(?:for\s+the\s+record\s+)?(?:by|from)\s+",
     re.I)
@@ -681,9 +682,11 @@ def witnesses_of(text):
     ws, others = [], []
     # the OCR's 'Testinion y', 'testimoq.y' before 'was', 'from', 'by': read as the word
     text = re.sub(r"\b([Ww])itness\s?e\s?s\b", r"\1itnesses", text)
+    text = re.sub(r"(?<=[,;.\s])~|~(?=[,;\s])", "", text)            # 'Brumberg,~ U.S.'
     text = re.sub(r"(?<=[A-Za-z])\.(?=[a-z])", "", text)          # 'R.epresentatives'
     text = re.sub(r"\bRe\S{3,7}tative(s?)\b", r"Representative\1", text)     # 'Represe~tatives'
     text = re.sub(r"\bSe\S{1,4}tor(s?)\b", r"Senator\1", text)
+    text = re.sub(r"\b(Senators?|Representatives?)[.,]\s", r"\1 ", text)       # 'Representative. FindJey'
     text = re.sub(r"\b([Tt])est[\w.;~']{2,5}(?: ?[\w.]{1,2})?(?=\s+(?:was|were|from|by|also|on)\b)", r"\1estimony", text)
     for m in TRIGGER.finditer(text):
         j = sentence_end(text, m.end())
@@ -715,8 +718,8 @@ def witnesses_of(text):
             # 'John G. Palfrey and James T. Ramey, members of the Atomic Energy Commission'
             nm, _, office = part.partition(", ")
             m3 = re.match(r"^(?:and\s+)?(.+?)\s+and\s+(.+)$", nm)
-            if m3 and office and re.match(r"^(?:members?|both|commissioners|officials|respectively)\b", office) \
-                    and NAME.match(m3.group(1).strip()) and NAME.match(m3.group(2).strip()):
+            two = m3 and all(NAME.match(g.strip()) and len(g.split()) >= 2 for g in (m3.group(1), m3.group(2)))
+            if m3 and office and two:
                 for n in (m3.group(1), m3.group(2)):
                     x = person_item(f"{n.strip()}, {office}")
                     if x:
@@ -730,6 +733,9 @@ def witnesses_of(text):
                 p = re.sub(r"^(?:and|also)\s+", "", part, flags=re.I).strip(" .")
                 if p:
                     others.append(p)
+    # 'heard Senator Mansfield testify in behalf of Mr. Corry'
+    for m in re.finditer(r"\bheard\s+((?:Senators?|Representatives?)\s+[A-Z][^.;:]{1,60}?)\s+testify\b", text):
+        ws += witnesses_of("heard testimony from " + m.group(1) + ".")[0]
     seen, out = set(), []
     for w in ws:
         k = (w.get("title"), w["name"])
@@ -870,10 +876,15 @@ def read_volume(year, bbox):
                     heading = f"{heading} {c}" if last_heading and heading else c
                 last_heading = True
                 continue
-            last_heading = False
+            was_heading, last_heading = last_heading, False
+            if len(re.sub(r"[^A-Za-z0-9]", "", t)) < 3:     # a stray mark the OCR made a line of
+                continue
             m = lead_of(t)
             if m and cur is not None and cur["lines"] and re.search(r"[a-z]-$", cur["lines"][-1].strip()):
                 m = None                     # the line before broke a word: this one goes on with it
+            if m and cur is not None and not was_heading and cur["lines"] and \
+                    re.search(r"[;:,]$", re.sub(r"[\s_·•~`'-]+$", "", cur["lines"][-1])):
+                m = None                     # a list within the paragraph ('Committee on Commerce: S. Res. 283-$360,000;')
             if m:
                 close()
                 ch, printed, code, name = committee_of(chamber, m[0], day.isoformat())
