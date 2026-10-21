@@ -11,11 +11,11 @@ entries:
     n: '[Radio and Television Remarks on the Dismantling of Soviet Missile Bases in Cuba](https://www.presidency.ucsb.edu/documents/radio-and-television-remarks-the-dismantling-soviet-missile-bases-cuba) (Nov. 2, 1962). [[w.mikoyan-anatomiya-karibskogo-krizisa]]. See [[cal.1962-05-24.missile-crisis]]. Names: Mikoyan.'
     tags: [name:kennedy-john-f, name:mikoyan-anastas]
   - id: cal.1962-11-02.middle-east
-    when: Nov. 2–10
+    when: Nov. 2
     date: '1962-11-02'
-    thread: middle-east
-    c: 'Aircraft from Yemen bomb Saudi villages near the border, Nov. 2; Faisal holds the UAR responsible. Kennedy''s letter to Faisal, dated Oct. 25, sent for delivery Nov. 2: American support for Saudi Arabia''s integrity, and for its reforms. Nov. 6, Saudi Arabia breaks relations with the UAR; Faisal''s ten-point program of reform, slavery abolished (Check). Nov. 7, a destroyer patrol off the Red Sea coast and a visit of American aircraft to Dhahran. Nov. 10, Jordanian Hunters at Taif.'
-    n: 'FRUS 1961–63, XVIII, docs. [88](https://history.state.gov/historicaldocuments/frus1961-63v18/d88), [89](https://history.state.gov/historicaldocuments/frus1961-63v18/d89) (editorial note), [91](https://history.state.gov/historicaldocuments/frus1961-63v18/d91), [93](https://history.state.gov/historicaldocuments/frus1961-63v18/d93). See [[cal.1962-09-26.middle-east]], [[cal.1962-10-05.middle-east]]. Names: Faisal ibn Abd al-Aziz Al Saud.'
+    thread: middle-east-yemen
+    c: 'Aircraft from Yemen bomb Saudi villages near the border; Faisal holds the UAR responsible. Kennedy''s letter to Faisal, dated Oct. 25, sent for delivery: American support for Saudi Arabia''s integrity, and for its reforms.'
+    n: 'FRUS 1961–63, XVIII, docs. [88](https://history.state.gov/historicaldocuments/frus1961-63v18/d88), [89](https://history.state.gov/historicaldocuments/frus1961-63v18/d89) (editorial note). See [[cal.1962-09-26.middle-east]], [[cal.1962-10-05.middle-east]]. Names: Faisal ibn Abd al-Aziz Al Saud, Kennedy.'
     tags: [name:faisal-ibn-abd-al-aziz-al-saud, name:kennedy-john-f]
   - id: cal.1962-11-06.elections-1962
     when: Nov. 6
@@ -233,13 +233,20 @@ entries:
     n: 'Votes: [Cal. *Statement of Vote*, Nov. 6, 1962, p. 34](https://archive.org/details/castatem196264cali/page/n41). Measure: [UC Law SF, California Ballot Propositions, 1962](https://repository.uclawsf.edu/ca_ballot_props/655/). [[w.heale-mccarthys-americans]]; [[w.schuparra-triumph-of-the-right]].'
     tags: [state:ca]
   - id: cal.1962-11-06.governors-mn
-    when: Nov. 6–Dec. 19
+    when: Nov. 6
     date: '1962-11-06'
-    thread: governors
+    thread: governors-mn-recount
     also: [elections-1962]
-    c: 'Minnesota, governor. The counties'' first returns: Rolvaag (DFL) 619,704, Governor Andersen (R) 619,646. Ten county boards reconvene and amend their returns. The State Canvassing Board deadlocks, Nov. 26; ordered by the Supreme Court to count the amended returns, it declares Andersen elected, Nov. 29: Andersen 619,722, Rolvaag 619,580. Rolvaag asks a recount, Dec. 3; three district judges named to try it; the hand count begins Dec. 19.'
-    n: '[*Report of the State Canvassing Board, General Election, November 6, 1962*](https://www.lrl.mn.gov/docs/2023/Other/232070/1962.pdf), preface and the statement on the ten counties. *Rolvaag v. Donovan*, [264 Minn. 257](https://static.case.law/minn/264/html/0257-01.html), 119 N.W.2d 1 (1962) (the order of Nov. 28; opinion filed Dec. 11). Iric Nathanson, ["Gubernatorial Election Recount, 1962"](https://www.mnopedia.org/event/gubernatorial-election-recount-1962), *MNopedia*. [[w.stinnett-recount]]; [[w.andersen-mans-reach]]. See [[cal.1962-11-06.governors]]. Names: Rolvaag, Andersen.'
+    c: 'Minnesota, governor. The counties'' first returns: Rolvaag (DFL) 619,704, Governor Andersen (R) 619,646. Ten county boards reconvene and amend their returns.'
+    n: '[*Report of the State Canvassing Board, General Election, November 6, 1962*](https://www.lrl.mn.gov/docs/2023/Other/232070/1962.pdf), preface and the statement on the ten counties. Iric Nathanson, ["Gubernatorial Election Recount, 1962"](https://www.mnopedia.org/event/gubernatorial-election-recount-1962), *MNopedia*. [[w.stinnett-recount]]; [[w.andersen-mans-reach]]. See [[cal.1962-11-06.governors]]. Names: Rolvaag, Andersen.'
     tags: [state:mn, name:rolvaag-karl-f, name:andersen-elmer-l]
+  - id: cal.1962-11-06.middle-east-yemen
+    when: Nov. 6
+    date: '1962-11-06'
+    thread: middle-east-yemen
+    c: Saudi Arabia breaks relations with the UAR. Faisal's ten-point program of reform, slavery abolished (Check).
+    n: 'See [[cal.1962-11-02.middle-east]]. Names: Faisal ibn Abd al-Aziz Al Saud.'
+    tags: [name:faisal-ibn-abd-al-aziz-al-saud]
   - id: cal.1962-11-06.governors-ia
     when: Nov. 6
     date: '1962-11-06'
@@ -334,6 +341,18 @@ entries:
     thread: africa
     c: 'General Assembly, Resolution 1761 (XVII): members asked to break off relations with South Africa, close their ports to its ships, boycott its goods and stop exports to it, arms included; a special committee on apartheid. 67–16, 23 abstaining (Check); the United States and Britain against.'
     n: '[G.A. Res. 1761 (XVII)](https://undocs.org/A/RES/1761(XVII)). [[w.irwin-gordian-knot]]; [[w.noer-cold-war-and-black]]. See [[cal.1961-03-22.africa]].'
+  - id: cal.1962-11-07.middle-east-yemen
+    when: Nov. 7
+    date: '1962-11-07'
+    thread: middle-east-yemen
+    c: A destroyer patrol off Saudi Arabia's Red Sea coast and a visit of American aircraft to Dhahran.
+    n: 'FRUS 1961–63, XVIII, doc. [91](https://history.state.gov/historicaldocuments/frus1961-63v18/d91). See [[cal.1962-11-02.middle-east]].'
+  - id: cal.1962-11-10.middle-east-yemen
+    when: Nov. 10
+    date: '1962-11-10'
+    thread: middle-east-yemen
+    c: Jordanian Hunters at Taif.
+    n: 'FRUS 1961–63, XVIII, doc. [93](https://history.state.gov/historicaldocuments/frus1961-63v18/d93). See [[cal.1962-11-02.middle-east]].'
   - id: cal.1962-11-07.elections-1962
     when: Nov. 7
     date: '1962-11-07'
@@ -405,6 +424,13 @@ entries:
     c: Detroit. Cavanagh signs an ordinance forbidding real estate agents to solicit sales or rentals by saying that a neighborhood is changing in race, religion or nationality.
     n: '[Wikipedia, "1962 in Michigan"](https://en.wikipedia.org/wiki/1962_in_Michigan), from the *Detroit Free Press* (Check: the ordinance). [[w.sugrue-origins-of-the-urban]]; [[w.fine-expanding-the-frontiers-of]]. Names: Cavanagh.'
     tags: [state:mi, city:detroit, name:cavanagh-jerome-p]
+  - id: cal.1962-11-26.governors-mn-recount
+    when: Nov. 26
+    date: '1962-11-26'
+    thread: governors-mn-recount
+    c: Minnesota's State Canvassing Board deadlocks on the amended returns.
+    n: '[*Report of the State Canvassing Board, General Election, November 6, 1962*](https://www.lrl.mn.gov/docs/2023/Other/232070/1962.pdf), preface. See [[cal.1962-11-06.governors-mn]].'
+    tags: [state:mn]
   - id: cal.1962-11-28.legislatures-va
     when: Nov. 28
     date: '1962-11-28'
@@ -413,6 +439,13 @@ entries:
     c: '*Mann v. Davis*: the three-judge court, one judge dissenting, holds the apportionment of Virginia''s General Assembly, made by the 1962 session, a denial of equal protection; the suit of Arlington and Fairfax voters, filed Apr. 9. The injunction stayed to Jan. 31, 1963, for the General Assembly to act or the State to appeal. Dec. 15, the Chief Justice stays it pending appeal; the 1963 elections held under the 1962 act.'
     n: '*Mann v. Davis*, [213 F. Supp. 577](https://static.case.law/f-supp/213/html/0577-01.html) (E.D. Va. 1962); *Davis v. Mann*, [377 U.S. 678](https://tile.loc.gov/storage-services/service/ll/usrep/usrep377/usrep377678/usrep377678.pdf), 683–84 (1964). [[w.cortner-apportionment-cases]]; [[w.smith-on-democracys-doorstep-2014]]. Names: Warren.'
     tags: [state:va, name:warren-earl]
+  - id: cal.1962-11-28.governors-mn-recount
+    when: Nov. 28–29
+    date: '1962-11-28'
+    thread: governors-mn-recount
+    c: 'Ordered by the Minnesota Supreme Court, Nov. 28, to count the amended returns, the Canvassing Board declares Andersen elected, Nov. 29: Andersen 619,722, Rolvaag 619,580.'
+    n: '*Rolvaag v. Donovan*, [264 Minn. 257](https://static.case.law/minn/264/html/0257-01.html), 119 N.W.2d 1 (1962) (the order of Nov. 28; opinion filed Dec. 11). [*Report of the State Canvassing Board, General Election, November 6, 1962*](https://www.lrl.mn.gov/docs/2023/Other/232070/1962.pdf). See [[cal.1962-11-06.governors-mn]]. Names: Andersen, Rolvaag.'
+    tags: [state:mn, name:andersen-elmer-l, name:rolvaag-karl-f]
   - id: cal.1962-11-30.governors-nm
     when: Nov. 30
     date: '1962-11-30'
