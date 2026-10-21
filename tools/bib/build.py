@@ -57,6 +57,8 @@ def entry_subject(lst, e):
     """The bold line. Calendar entries build it from when + thread."""
     if lst.kind == "calendar" and "when" in e:
         return f"{e['when']} ({thread_name(lst, e['thread'])})"
+    if lst.kind == "calendar" and e.get("parent") and e["id"].startswith(f"{lst.key}.thread."):
+        return thread_name(lst, e["id"].split(".", 2)[2])   # a subthread in the index by its full name
     return e.get("s")
 
 
