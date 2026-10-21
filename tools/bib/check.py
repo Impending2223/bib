@@ -251,7 +251,7 @@ def run(series, only=None):
             continue
         from .build import thread_name
         names = [thread_name(lst, s) for s in lst.threads()]
-        keys = [THREAD_SORT_AS.get(n, n).lower() for n in names]
+        keys = [thread_sort_key(n) for n in names]
         if keys != sorted(keys):
             bad = next(n for n, k, w in zip(names, keys, sorted(keys)) if k != w)
             add(WARN, f"lists/{lst.key}/th.yaml", f"threads out of alphabetical order at {bad!r}", "thread-order")
@@ -266,6 +266,12 @@ def run(series, only=None):
 
 
 THREAD_SORT_AS = {"War on poverty": "poverty", "Bobby Baker": "Baker", "Robert Kennedy": "Kennedy"}
+
+
+def thread_sort_key(name):
+    """A thread's sort key; a subthread ("Robert Kennedy: Around the world") sorts under its parent's."""
+    head, sep, rest = name.partition(": ")
+    return (THREAD_SORT_AS.get(name) or THREAD_SORT_AS.get(head, head) + sep + rest).lower()
 
 HAND = ["lists/**/*.yaml", "executive/*.yaml", "daybook/abstracts.yaml", "elections/facts.yaml",
         "elections/pres-primaries.yaml", "elections/renominations.yaml", "elections/primaries.yaml", "elections/cq.yaml",

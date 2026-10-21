@@ -364,6 +364,35 @@ reports them (`notes/calendar-audit.md`).
 - Nov.–Jan. 1969: Nixon's White House staff appointments; Moynihan; Yost; Hickel's hearings; the Douglas Commission's report; Palach.
 - Gallup's releases of Jan. 1–20, 1969: the 1969 pages of *The Gallup Poll* not yet read.
 
+### The span splits (the spans agents, Oct. 20–21, 2026)
+
+Dates marked "Check" in the new parts, from recall or the old entry, and parts written with "Check: the record" where no
+document was found. Each under the entry it concerns; `./bib find -t check -l cal` lists the rest.
+
+- 1960: the cabinet's announcements (`cal.1960-12-01.transition-and-staff` and its parts): Hodges Dec. 3, Udall Dec. 7,
+  Freeman and Goldberg Dec. 15, Day Dec. 17; Stevenson Dec. 8 or 12. Herter and Harman, Dec. 9. The 1960 gold price
+  (Oct. 20): the record.
+- 1961: the Rusk–McNamara memorandum of Nov. 11 (`cal.1961-11-11.vietnam`): cited FRUS 1961–63, I, docs. 234, 236; not
+  in the daybook; the Pentagon Papers. Bridges's death (Nov. 26): the record.
+- 1962: Jimmy Carter's Georgia Senate primary, Oct. 16, and the Georgetown fraud: not in the calendar; Carter, *Turning
+  Point* (already on `cal.1962-09-27.georgia`). The Record page for Celebrezze's confirmation (July 31). The Maryland
+  Court of Appeals decision of July 23 and the Tennessee acts of 1962: their reports. Elliott's and Tuttle's Albany
+  orders; Barnett's interposition proclamation: the records.
+- 1963–65: test-ban hearing days, Aug. 15 and 20, 1963; Freedom Summer's second week of training; the Notasulga order;
+  the National Leadership Council's dates, June 1965. Spans kept for lack of dated stations: New York's special session,
+  Dec. 15–30, 1964; Maryland's, Oct. 11–21, 1965; Nevada's, Oct. 25–Nov. 13, 1965.
+- 1966: Quill's "drop dead" day (the transit strike); Bond's special election; Voteview RS0890265 (Jan. 26): its
+  description; the Business Council, Mar. 30 (no APP); the Schenley agreement; Connally at New Braunfels; "fox in a
+  chicken coop": its source; the Record's pages for the split roll calls.
+- 1967: the House's date for the OEO amendments (Nov. 15?); Ways and Means on the surcharge (Oct. 3?); the discount
+  rate, Nov. 19; the Johnson–Ramsey Clark tape, Jan. 20 or 21; the Stennis report's title; Hoover's (July 25) and
+  Dirksen's (July 26) tapes: their subjects.
+- 1968: the New York sanitation strike and the day of Rockefeller's proposal; Murton's digging and his firing; the East
+  Los Angeles thirteen, indicted May 31 or arrested Mar. 31; the days of the bills of Texas's special session and of
+  Florida's joint resolutions; Christian's "no breakthrough"; Rusk's testimony, Mar. 11–12: the hours and the words.
+- Single-day entries that still take in another day (a second pass): Jan. 26, 1960, Vietnam (Feb. 12); Feb. 4, 1960,
+  school aid (Feb. 3); May 13, 1960, the veto (the passage votes).
+
 ## Foreign
 
 - Military aid cut off to allies trading with Cuba, Feb. 18, 1964: not verified.
@@ -377,6 +406,37 @@ reports them (`notes/calendar-audit.md`).
 - Peter Dale Scott's essay in the Gravel edition of the *Pentagon Papers*: pages not confirmed.
 
 - The OAS Charter's Protocol of Buenos Aires: the Senate's consent, Apr. 10, 1968 (75–0), the ceremony of Apr. 23: left out, the U.S.T. and U.N.T.S. cites not verified.
+
+### The span splits (the spans agents, Oct. 20–21, 2026)
+
+- 1960: Katanga's secession; Discoverer XIII; the East German pass rule; Lumumba's escape; Eqbal's resignation; Cuba's
+  nationalization of Oct. 24: the records. Yun's and Chang's elections (Aug. 12, 19); Boun Oum's investiture; the
+  Dominican break (Aug. 26); the San José walkout and vote (Aug. 28–29); the Act of Bogotá (Sept. 12 or 13): the days.
+- 1961: Mohamed V's death; Syria's recognition; the Soviet veto on Kuwait: the records. Dillon's pledge at Punta del
+  Este; the legs of Johnson's trip; Talbot's assurance to Lebanon's ambassador: the days.
+- 1962: the Dryden–Blagonravov talks in New York: the record.
+- 1963–65: the East African mutinies, Jan. 1964; Tshombe's return, June 1964; the recognitions of Iraq and Syria,
+  Feb.–Mar. 1963; the Hard Surface statement, June 29, 1963: the records. Faisal's answer to Bunker (Mar. 1963; FRUS
+  1961–63, XVIII, docs. 180–181); Kim Chong-p'il's departure, 1964; Mansur's speech of Oct. 31, 1964; Gromyko's
+  "insulting," May 1965; who saw de Gaulle, Dec. 31, 1965: the days. Robert Kennedy in South America, Nov. 10–30, 1965:
+  the stations. `cal.1965-12-17.india-and-china-food`: the Food subthread's bibliography.
+- The peace offensive's January 1966 stations (Harriman with Tito, Jan. 1; Tokyo by Jan. 8; Humphrey back, Jan. 3; FRUS
+  1964–68, IV, docs. 7, 12): entries wanted in `jan66.yaml`.
+- 1966: the Luxembourg adjournment, Jan. 17–18; State's Nigeria statement, Jan. 27; the day Masher was renamed (Carland
+  203); Humphrey's stops; Fairbank's day (Mar. 10); Humphrey's words on *Meet the Press*, Mar. 13; Subandrio's arrest;
+  Johnson's congratulations to Aref (FRUS 1964–68, XXI, doc. 180, dated May 17); Kỳ's claim on Đà Nẵng; Lodge's words of
+  May 30; the first self-immolation (May 29); the Huế consulate burned; the relief of Nhuận and the removals of Đính and
+  Trí Quang; the Senators' appeal on prisoners (signers); the DMZ ground operations authorized (July 30); Johnson's
+  arrival in Thailand (Oct. 27 or 28); the Freeman team's report (FRUS ed. note, Nov. 14); Smith's cabinet rejecting
+  *Tiger* (Dec. 5); Britain's request to the Security Council (Dec. 8).
+- 1967: stations lost in the splits, to be entered again: Alliluyeva's arrival, Apr. 21; Talbot and Pattakos, Apr. 28
+  (FRUS 1964–68, XVI, doc. 282); Hill 875, Nov. 23. Also: the "letter of Jan. 27" of Mar. 2 (FRUS dates it Jan. 21);
+  de Gaulle's and Brussels's texts; Rostow's "intermediate strategy" memorandum of May 22; the Pentagon Papers' page for
+  McNamara's approval of Program 5, Aug. 14; Trinh and Burchett, Jan. 28; Hanoi's rejection, Mar. 27; Pennsylvania's
+  visas refused, Aug. 21 and 31.
+- 1968: the Moscow protocol's signing (Aug. 26 entered); the Prague troop treaty's signing and ratification; Ellsworth
+  and Dobrynin (Dobrynin, *In Confidence* 186–87); Kissinger's NSC plan approved at Key Biscayne; Richardson's paper;
+  Peru's seizure of IPC; the second wave in Saigon (May 25); Pegasus reaching Khe Sanh: the days.
 
 ## The Executive roster
 
