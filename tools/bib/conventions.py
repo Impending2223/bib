@@ -200,7 +200,7 @@ def key_html(items, tail=""):
 def block(key, links=None):
     """The delegations: summary, the two maps, keys, the table (the entry tagged conventions:<key>)."""
     C = load().get(key)
-    if not C:
+    if not C or not C.get("call") or not C.get("ballots"):
         return ""
     from .smart import smarten          # map data is not page text: curled here
     y, p = key.split("-")
@@ -375,9 +375,24 @@ def problems(series=None):
         y = int(key[:4])
         S = C.get("states") or {}
         from .congress import STATE
+        H = C.get("hughes")
+        if H:
+            cols = H.get("columns") or []
+            for c, n in (H.get("totals") or {}).items():
+                got = sum(c in (s.get("hughes") or []) for s in S.values())
+                if c not in cols or got != n:
+                    out.append((where, f"{key} hughes: {c} marked {got} times, printed {n}"))
+            for st, s in S.items():
+                bad = [c for c in s.get("hughes") or [] if c not in cols]
+                if bad or (s.get("note") and s["note"] not in (H.get("notes") or {})):
+                    out.append((where, f"{key} {st}: {bad or s.get('note')} not in the table"))
         for st, s in S.items():
             if st not in STATE and st not in EXTRA:
                 out.append((where, f"{key} {st}: not a State"))
+            if "votes" not in s:
+                if not C.get("hughes"):
+                    out.append((where, f"{key} {st}: no votes"))
+                continue
             if s.get("at_large", 0) + 2 * s.get("districts", 0) != s.get("votes"):
                 out.append((where, f"{key} {st}: {s.get('at_large')} at large + 2 x {s.get('districts')} is not {s.get('votes')}"))
             if s.get("method") not in methods:

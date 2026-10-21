@@ -10,7 +10,7 @@ and rank, and a column of his years in the chamber at the opening (congress.bloc
 STYLE
 1. Leadership: one table a chamber, House first: the office, the holder (his name entry and his roster row), the
    party. The offices in the order of OFFICES; a holder who took or left the office during the Congress has the
-   change and its date under his name, in the source's words ("Died, Nov. 16, 1961."; "Elected to fill the vacancy,
+   change and its date under his name, in the source's words ("Died Nov. 16, 1961."; "Elected to fill the vacancy
    Jan. 10, 1962."). Sources under the tables: Nelson for the Senate's floor leaders and whips, the House's and the
    Senate's lists for the rest, each named and linked.
 2. Committees: one collapsible table a chamber (details.cgr, as the rosters), one tbody a committee, its anchor
@@ -161,9 +161,9 @@ def leaders_block(c, series, here=False):
                         f'{esc(seat_label(ch, x["st"], seat[1]))}</a>')
             notes = []
             if x.get("from"):
-                notes.append(f"{x['why']}, {fmt(x['from'])}." if x.get("why") and not x.get("to") else f"From {fmt(x['from'])}.")
+                notes.append(f"{x['why']} {fmt(x['from'])}." if x.get("why") and not x.get("to") else f"From {fmt(x['from'])}.")
             if x.get("to"):
-                notes.append(f"{x['why']}, {fmt(x['to'])}." if x.get("why") else f"To {fmt(x['to'])}.")
+                notes.append(f"{x['why']} {fmt(x['to'])}." if x.get("why") else f"To {fmt(x['to'])}.")
             if x.get("note"):
                 from .markup import to_html
                 notes.append(to_html(x["note"]))
@@ -330,17 +330,14 @@ def person_items(rp, names_=(), site=""):
     bios = set()
     for x in rp:
         c, ch, st, seat = x[1], x[2], x[3], x[5]
-        for b, s in ((b, s) for b, s in _seats(c, ch).items()):
-            if s == (st, seat):
-                bios.add(b)
+        bios.update(b for b, s in _seats(c, ch).items() if s == (st, seat))
     nm = names()
     runs = defaultdict(list)       # (ch, code) -> [(c, label)]
     for c in sorted((load().get("congress") or {})):
         for ch in ("h", "s"):
             for code, ms in (of(c, ch).get("committees") or {}).items():
                 for m in ms:
-                    if m.get("bio") in bios or (not m.get("bio") and m["name"] in names_) or \
-                            (m["name"] in names_ and m.get("bio") in bios | {None}):
+                    if m.get("bio") in bios or (not m.get("bio") and m["name"] in names_):
                         runs[(ch, code)].append((c, label(m)))
     items = []
     order = sorted(runs, key=lambda k: (min(c for c, _ in runs[k]), k[0] != "h", nm[k[1]]))
@@ -380,8 +377,6 @@ details.cmc tr.st th .cgsm{display:block;font-size:.78rem;font-family:var(--sans
 .cg .cmrole{font-size:.8rem;color:var(--muted)}
 .cg td.cmgone>a.nm,.cg td.cmgone{color:var(--muted)}
 .cgn.cmln a{color:inherit}
-details.cgm col.c3b{width:2.4rem}
-details.cgm td.cmy{color:var(--muted);font-variant-numeric:tabular-nums}
 </style>
 """
 

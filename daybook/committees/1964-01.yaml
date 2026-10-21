@@ -8,7 +8,7 @@ docs:
   date: '1964-01-07'
   ch: S
   committee: Committee on Commerce
-  code: s.commerce
+  code: 320
   name: Commerce
   heading: METRIC SYSTEM
   bills:
@@ -41,7 +41,7 @@ docs:
   date: '1964-01-07'
   ch: H
   committee: Committee on Agriculture
-  code: h.agriculture
+  code: 102
   name: Agriculture
   sub: Subcommittee on Wheat
   heading: WHEAT
@@ -60,7 +60,7 @@ docs:
   date: '1964-01-08'
   ch: S
   committee: Committee on Finance
-  code: s.finance
+  code: 336
   name: Finance
   heading: TAXATION
   bills:
@@ -75,7 +75,7 @@ docs:
   date: '1964-01-08'
   ch: H
   committee: Committee on Agriculture
-  code: h.agriculture
+  code: 102
   name: Agriculture
   sub: Subcommittee on Wheat
   heading: WHEAT
@@ -92,7 +92,7 @@ docs:
   date: '1964-01-08'
   ch: H
   committee: Committee on Banking and Currency
-  code: h.banking-and-currency
+  code: 111
   name: Banking and Currency
   heading: INTERNATIONAL DEVELOPMENT ASSOCIATION
   bills:
@@ -114,7 +114,7 @@ docs:
   date: '1964-01-08'
   ch: H
   committee: Committee on Education and Labor
-  code: h.education-and-labor
+  code: 124
   name: Education and Labor
   sub: General Subcommittee on Labor
   heading: LABOR
@@ -127,7 +127,7 @@ docs:
   date: '1964-01-08'
   ch: H
   committee: Committee on Interstate and F~reign Commerce
-  code: h.interstate-and-foreign-commerce
+  code: 152
   name: Interstate and Foreign Commerce
   sub: Subcommittee on Public Health and Safety
   heading: AVIATION SAFETY
@@ -146,7 +146,7 @@ docs:
   date: '1964-01-09'
   ch: S
   committee: Committee on Finance
-  code: s.finance
+  code: 336
   name: Finance
   heading: TAXATION
   bills:
@@ -181,7 +181,7 @@ docs:
   date: '1964-01-09'
   ch: S
   committee: Committee on Labor and Public Welfare
-  code: s.labor-and-public-welfare
+  code: 363
   name: Labor and Public Welfare
   heading: EQUAL EMPLOYMENT OPPORTUNITY, AND COMMITTEE STAFF PERSONNEL
   bills:
@@ -199,14 +199,21 @@ docs:
 - key: cmte:1964-01-09-3
   src: cmte
   date: '1964-01-09'
-  ch: H
-  committee: Committee on Agriculture
-  code: h.agriculture
-  name: Agriculture
-  sub: Subcommittee on Wheat
-  heading: WHEAT
-  text: Subcommittee on Wheat continued hearings on pending wheat legislation. Heard testimony from. Representative
-    Andrews of North Dakota; and public witnesses.
+  ch: S
+  committee: Gommt'ttee on Rules and Administration
+  code: 380
+  name: Rules and Administration
+  heading: INVESTIGATION-SENATE EMPLOYEES
+  exec: true
+  open: true
+  witnesses:
+  - as: Donald B. Reynolds, of the.Reynolds Insurance Co., Inc., Silver Spring, Md
+    name: Donald B. Reynolds
+    office: of the.Reynolds Insurance Co., Inc., Silver Spring, Md
+  text: Committee resumed, in executive session, its hearings in connection ~th financial and business activities
+    of Senate employees or former Senate employees (pursuant to S. Res. 212), having as its witness Donald B. Reynolds,
+    of the.Reynolds Insurance Co., Inc., Silver Spring, Md. Hearings are tentatively schedulea to continue in open
+    session on Monday, January 13.
   page: D6
   pdf: 4
   url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=4
@@ -214,8 +221,44 @@ docs:
   src: cmte
   date: '1964-01-09'
   ch: H
+  committee: Committee on Agriculture
+  code: 102
+  name: Agriculture
+  sub: Subcommittee on Wheat
+  heading: WHEAT
+  witnesses:
+  - as: Representative Andrews of North Dakota
+    title: Representative
+    name: Andrews of North Dakota
+  others:
+  - public witnesses
+  text: Subcommittee on Wheat continued hearings on pending wheat legislation. Heard testimony from. Representative
+    Andrews of North Dakota; and public witnesses.
+  page: D6
+  pdf: 4
+  url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=4
+- key: cmte:1964-01-09-5
+  src: cmte
+  date: '1964-01-09'
+  ch: H
+  committee: Committe~ on. Agriculture
+  code: 102
+  name: Agriculture
+  sub: Livestock and Feed Grains Subcommittee
+  heading: BEEF IMPORTS
+  others:
+  - various public witnesses regarding beef imports
+  text: Livestock and Feed Grains Subcommittee heard testin;iony from various public witnesses regarding beef imports.
+    Adjourned subject to call of the Chair.
+  page: D7
+  pdf: 5
+  url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=5
+- key: cmte:1964-01-09-6
+  src: cmte
+  date: '1964-01-09'
+  ch: H
   committee: Committee on Banking and Currency
-  code: h.banking-and-currency
+  code: 111
   name: Banking and Currency
   heading: INVESTMENT RESTRICTIONS
   bills:
@@ -231,12 +274,12 @@ docs:
   page: D7
   pdf: 5
   url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=5
-- key: cmte:1964-01-09-5
+- key: cmte:1964-01-09-7
   src: cmte
   date: '1964-01-09'
   ch: H
   committee: Committee on Interstate and Foreign Commerce
-  code: h.interstate-and-foreign-commerce
+  code: 152
   name: Interstate and Foreign Commerce
   sub: Subcommittee on Public Health and Safety
   heading: AVIATION SAFETY
@@ -246,18 +289,20 @@ docs:
   page: D7
   pdf: 5
   url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=5
-- key: cmte:1964-01-09-6
+- key: cmte:1964-01-09-8
   src: cmte
   date: '1964-01-09'
   ch: H
   committee: Committee on Rules
-  code: h.rules
+  code: 176
   name: Rules
   heading: CIVIL RIGHTS
   bills:
   - H.R. 7152
-  others:
-  - Representative Celler
+  witnesses:
+  - as: Representative Celler
+    title: Representative
+    name: Celler
   text: Held.a hearing on a request for a rule on H.R. 7152, the civil rights bill. Heard testimony from Representative
     Celler.
   page: D7
@@ -268,7 +313,7 @@ docs:
   date: '1964-01-10'
   ch: S
   committee: Committee on Aeronautical and Space Sciences
-  code: s.aeronautical-and-space-sciences
+  code: 302
   name: Aeronautical and Space Sciences
   heading: COMMITTEE FUNDS
   text: Committee approved for reporting an original resolution (S. Res. 254) authorizing certain investigations
@@ -281,7 +326,7 @@ docs:
   date: '1964-01-10'
   ch: S
   committee: Committee on Armed Services
-  code: s.armed-services
+  code: 308
   name: Armed Services
   sub: The CIA Subcommittee
   heading: CIA BRIEFING
@@ -300,7 +345,7 @@ docs:
   date: '1964-01-10'
   ch: S
   committee: Committee on Finance
-  code: s.finance
+  code: 336
   name: Finance
   heading: TAXATION
   bills:
@@ -326,7 +371,7 @@ docs:
   date: '1964-01-10'
   ch: S
   committee: Committee on Foreign Relations
-  code: s.foreign-relations
+  code: 338
   name: Foreign Relations
   sub: Subcommittee on American Republics Affairs
   heading: PANAMA
@@ -344,7 +389,7 @@ docs:
   date: '1964-01-10'
   ch: S
   committee: Committee on Interior and Insular Affairs
-  code: s.interior-and-insular-affairs
+  code: 352
   name: Interior and Insular Affairs
   heading: COMMITTEE FUNDS
   text: Committee approved for reporting an original resolution (S. Res. 255) authorizing committee to make certain
@@ -357,7 +402,7 @@ docs:
   date: '1964-01-10'
   ch: H
   committee: Committee on the District of Columbia
-  code: h.district-of-columbia
+  code: 120
   name: District of Columbia
   sub: Subcommittee No. 4
   heading: LICENSING REGULATIONS
@@ -375,7 +420,7 @@ docs:
   date: '1964-01-10'
   ch: H
   committee: Committee on Interstate and Foreign Commerce
-  code: h.interstate-and-foreign-commerce
+  code: 152
   name: Interstate and Foreign Commerce
   sub: Subcommittee on Public Health and Safety
   heading: AVIATION SAFETY
@@ -431,7 +476,7 @@ docs:
   date: '1964-01-13'
   ch: S
   committee: Committee on Finance
-  code: s.finance
+  code: 336
   name: Finance
   heading: TAXATION
   bills:
@@ -453,7 +498,7 @@ docs:
   date: '1964-01-13'
   ch: S
   committee: Committee on the Judiciary
-  code: s.judiciary
+  code: 358
   name: Judiciary
   sub: Subcommittee on Immigration and Naturalization
   heading: IMMIGRATION
@@ -478,7 +523,7 @@ docs:
   date: '1964-01-13'
   ch: S
   committee: Committee on Rules and Administration
-  code: s.rules-and-administration
+  code: 380
   name: Rules and Administration
   heading: INVESTIGATION-SENATE EMPLOYEES
   open: true
@@ -505,14 +550,26 @@ docs:
   date: '1964-01-13'
   ch: H
   committee: Committee on Foreign Affairs
-  code: h.foreign-affairs
+  code: 132
   name: Foreign Affairs
   sub: Subcommittee on International Organizations and Movements
   heading: U.S. IDEOLOGICAL EFFORT
   exec: true
+  witnesses:
+  - as: AvereH Harriman, Under Secretary of State for Political Affairs
+    name: AvereH Harriman
+    office: Under Secretary of State for Political Affairs
+  - as: Walt W. Rostow, Chairman, Policy Planning Council, Department of State
+    name: Walt W. Rostow
+    office: Chairman, Policy Planning Council, Department of State
+  - as: Lucius D. Battle, Assistant Secretary of State for Educational and
+    name: Lucius D. Battle
+    office: Assistant Secretary of State for Educational and
   text: 'Subcommittee on International Organizations and Movements met in executive session for a hearing on "The
     U.S. Ideological E.ff ort: Government Agencies and Programs." Testinion y was given by AvereH Harriman, Under
-    Secretary of State for Political Affairs; Walt W. Rostow, Chair-'
+    Secretary of State for Political Affairs; Walt W. Rostow, Chairman, Policy Planning Council, Department of State;
+    Lucius D. Battle, Assistant Secretary of State for Educational and. Cultural Affairs; and Raymond E. Li~l~;
+    Deputy Assistant Secretary of State for ~ublic Affair''s.'
   page: D9
   pdf: 7
   url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=7
@@ -521,7 +578,7 @@ docs:
   date: '1964-01-14'
   ch: S
   committee: Committee on Fi ~ance
-  code: s.finance
+  code: 336
   name: Finance
   heading: TAXATION
   bills:
@@ -544,7 +601,7 @@ docs:
   date: '1964-01-14'
   ch: S
   committee: Committee on Government Operations
-  code: s.government-operations
+  code: 342
   name: Government Operations
   sub: Subcommittee on Intergovernmental Relations
   heading: GRANTS-IN-AID
@@ -569,6 +626,9 @@ docs:
   - as: Senator Bennett
     title: Senator
     name: Bennett
+  - as: Representative Dwyer
+    title: Representative
+    name: Dwyer
   - as: William G. Coleman, Executive Director, Advisory Commission on Intergovernmental Relations
     name: William G. Coleman
     office: Executive Director, Advisory Commission on Intergovernmental Relations
@@ -578,8 +638,6 @@ docs:
   - as: Robert Wallace, Assistant to the Secretary of the Treasury
     name: Robert Wallace
     office: Assistant to the Secretary of the Treasury
-  others:
-  - Representative Dwyer
   next: '1964-01-15'
   text: Subcommittee on Intergovernmental Relations began a series of hearings on S. 2114, to provide for periodic
     congressional review of grants-in-aid to States and local units of government, having as its witnesses Senators
@@ -595,7 +653,7 @@ docs:
   date: '1964-01-14'
   ch: S
   committee: Committee on the Judiciary
-  code: s.judiciary
+  code: 358
   name: Judiciary
   sub: Subcommittee on Immigration and Naturalization
   heading: IMMIGRATION
@@ -619,7 +677,7 @@ docs:
   date: '1964-01-14'
   ch: S
   committee: Committee on Rules and Administration
-  code: s.rules-and-administration
+  code: 380
   name: Rules and Administration
   heading: INVESTIGATION-SENATE EMPLOYEES
   witnesses:
@@ -637,11 +695,24 @@ docs:
   date: '1964-01-14'
   ch: H
   committee: Committee on Foreign Affairs
-  code: h.foreign-affairs
+  code: 132
   name: Foreign Affairs
   sub: Subcommittee on International Organizations and Mov
   heading: U.S. IDEOLOGICAL EFFORT
   exec: true
+  witnesses:
+  - as: Thomas C. Sorenson, Deputy Director for Policy - and Planning
+    name: Thomas C. Sorenson
+    office: Deputy Director for Policy - and Planning
+  - as: Burnett Anderson, Assistant Deputy Director for Policy and Planning
+    name: Burnett Anderson
+    office: Assistant Deputy Director for Policy and Planning
+  - as: Sanford S. Marlowe, Director, Office of Private Cooperation, all from the U.S. Information Agency
+    name: Sanford S. Marlowe
+    office: Director, Office of Private Cooperation, all from the U.S. Information Agency
+  others:
+  - Don
+  - ild M. Wilson, Acting Director
   text: 'Subcommittee on International Organizations and Mov~ments met in executive session to continue hearings
     on "The U.S. Ideological Effort: Government Agencies and Programs." Heard testimoq.y from Don;ild M. Wilson,
     Acting Director; Thomas C. Sorenson, Deputy Director for Policy - and Planning; Burnett Anderson, Assistant
@@ -655,13 +726,15 @@ docs:
   date: '1964-01-14'
   ch: H
   committee: Committee on Rules
-  code: h.rules
+  code: 176
   name: Rules
   heading: CIVIL RIGHTS
   bills:
   - H.R. 7152
-  others:
-  - Representative Celler
+  witnesses:
+  - as: Representative Celler
+    title: Representative
+    name: Celler
   next: '1964-01-15'
   text: Held a hearing on H.R. 7152, the civil rights bill, and heard testimony from Representative Celler. Hearings
     continue on Wednesday, January 15.
@@ -698,7 +771,7 @@ docs:
   date: '1964-01-15'
   ch: S
   committee: Committee on Agriculture and Forestry
-  code: s.agriculture-and-forestry
+  code: 304
   name: Agriculture and Forestry
   heading: COTTON AND WHEAT PROGRAMS
   exec: true
@@ -712,7 +785,7 @@ docs:
   date: '1964-01-15'
   ch: S
   committee: Committee on Finance
-  code: s.finance
+  code: 336
   name: Finance
   heading: TAXATION
   bills:
@@ -729,7 +802,7 @@ docs:
   date: '1964-01-15'
   ch: S
   committee: Committee on Government Operations
-  code: s.government-operations
+  code: 342
   name: Government Operations
   sub: Subcommittee on Intergovernmental Relations
   heading: GRANTS-IN-AID
@@ -763,7 +836,7 @@ docs:
   date: '1964-01-15'
   ch: S
   committee: Committee on Public Works
-  code: s.public-works
+  code: 374
   name: Public Works
   heading: COMMITTEE FUNDS
   text: Committee ordered favorably reported an original resolution (S. Res. 259) requesting $125,000 for committee
@@ -776,7 +849,7 @@ docs:
   date: '1964-01-15'
   ch: S
   committee: Committee on Rules and Administration
-  code: s.rules-and-administration
+  code: 380
   name: Rules and Administration
   sub: Subcommittee on Migratory.L
   heading: COMMITTEE FUNDS
@@ -792,7 +865,7 @@ docs:
   date: '1964-01-15'
   ch: H
   committee: Committee on Agriculture
-  code: h.agriculture
+  code: 102
   name: Agriculture
   sub: Subcommittee on Wheat
   heading: WHEAT
@@ -807,7 +880,7 @@ docs:
   date: '1964-01-15'
   ch: H
   committee: Committee on Armed Services
-  code: h.armed-services
+  code: 106
   name: Armed Services
   heading: ARMY-NAVY REPROGRAMING ACTIONS
   exec: true
@@ -821,7 +894,7 @@ docs:
   date: '1964-01-15'
   ch: H
   committee: Committee on Banking and Currency
-  code: h.banking-and-currency
+  code: 111
   name: Banking and Currency
   heading: SMALL BUSINESS ACT-SAVINGS AND LOANS
   bills:
@@ -840,10 +913,14 @@ docs:
   date: '1964-01-15'
   ch: H
   committee: Committee on Foreign Affairs
-  code: h.foreign-affairs
+  code: 132
   name: Foreign Affairs
   heading: SECRETARY OF STATE
   exec: true
+  witnesses:
+  - as: Dean Rusk, Secretary of State
+    name: Dean Rusk
+    office: Secretary of State
   text: Met in executive session for a briefing with Dean Rusk, Secretary of State.
   page: D13
   pdf: 11
@@ -853,7 +930,7 @@ docs:
   date: '1964-01-15'
   ch: H
   committee: Committee on Foreign Affairs
-  code: h.foreign-affairs
+  code: 132
   name: Foreign Affairs
   sub: Subcommittee on International Organizations and Movements
   heading: U.S. IDEOLOGICAL EFFORT
@@ -889,7 +966,7 @@ docs:
   date: '1964-01-15'
   ch: H
   committee: Committee on the Judiciary
-  code: h.judiciary
+  code: 156
   name: Judiciary
   sub: Subcommittee No. 2
   heading: PRIVATE CLAIMS
@@ -903,12 +980,14 @@ docs:
   date: '1964-01-15'
   ch: H
   committee: Committee on Rules
-  code: h.rules
+  code: 176
   name: Rules
   bills:
   - H.R. 7152
-  others:
-  - Representative McCulloch
+  witnesses:
+  - as: Representative McCulloch
+    title: Representative
+    name: McCulloch
   text: Continued hearings on H.R. 7152, the proposed civil rights bill. Heard testimony from Representative McCulloch.
   page: D14
   pdf: 12
@@ -945,32 +1024,10 @@ docs:
   src: cmte
   date: '1964-01-16'
   ch: S
-  committee: Committee. on Banking and Currency
-  code: s.banking-and-currency
-  name: Banking and Currency
-  sub: Housing Subcommittee
-  heading: COMMITTEE BUSINESS
-  bills:
-  - S. Res. 256
-  - S. Res. 257
-  exec: true
-  open: true
-  text: Committee, in executive session, ordered favorably reported the nomination of Joseph W. Barr, to be a member
-    of the Board of Directors of the Federal Deposit Insurance Corporation; and without amendment S. Res. 256, authorizing
-    the committee to make certain investigations, and requesting $g1,ooo therefor, and S. Res. 257, authorizing
-    the Housing Subcommittee to make certain ii;westigations, and requesting $115,000 th<;refor.. Prior to this
-    action, in open session, committee heard Senator Bayh testify in support of Mr. Barr's nomination. The nominee
-    was present to testify ~nd answer questions on his own behalf. TAXATION
-  page: D15
-  pdf: 13
-  url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=13
-- key: cmte:1964-01-16-2
-  src: cmte
-  date: '1964-01-16'
-  ch: S
   committee: Committee on Finance
-  code: s.finance
+  code: 336
   name: Finance
+  heading: TAXATION
   bills:
   - H.R. 8363
   text: 'Committee continued its executive consideration of H.R. 8363, proposed Revenue Act of 1964, taking the
@@ -984,12 +1041,12 @@ docs:
   page: D15
   pdf: 13
   url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=13
-- key: cmte:1964-01-16-3
+- key: cmte:1964-01-16-2
   src: cmte
   date: '1964-01-16'
   ch: S
   committee: Committee on Foreign Relations
-  code: s.foreign-relations
+  code: 338
   name: Foreign Relations
   heading: PANAMA
   witnesses:
@@ -1001,12 +1058,12 @@ docs:
   page: D15
   pdf: 13
   url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=13
-- key: cmte:1964-01-16-4
+- key: cmte:1964-01-16-3
   src: cmte
   date: '1964-01-16'
   ch: S
   committee: Committee on Government Operations
-  code: s.government-operations
+  code: 342
   name: Government Operations
   heading: GRANTS-IN-AID
   bills:
@@ -1040,12 +1097,12 @@ docs:
   page: D15
   pdf: 13
   url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=13
-- key: cmte:1964-01-16-5
+- key: cmte:1964-01-16-4
   src: cmte
   date: '1964-01-16'
   ch: S
   committee: Committee on the Judiciary
-  code: s.judiciary
+  code: 358
   name: Judiciary
   heading: SUBCOMMITTEE BUDGETS
   bills:
@@ -1075,7 +1132,7 @@ docs:
   page: D15
   pdf: 13
   url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=13
-- key: cmte:1964-01-16-6
+- key: cmte:1964-01-16-5
   src: cmte
   date: '1964-01-16'
   ch: S
@@ -1100,12 +1157,12 @@ docs:
   page: D15
   pdf: 13
   url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=13
-- key: cmte:1964-01-16-7
+- key: cmte:1964-01-16-6
   src: cmte
   date: '1964-01-16'
   ch: H
   committee: Committee on Armed Services
-  code: h.armed-services
+  code: 106
   name: Armed Services
   heading: MILITARY REPROGRAMING ACTIONS
   exec: true
@@ -1114,12 +1171,12 @@ docs:
   page: D16
   pdf: 14
   url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=14
-- key: cmte:1964-01-16-8
+- key: cmte:1964-01-16-7
   src: cmte
   date: '1964-01-16'
   ch: H
   committee: Committee on Foreign Affairs
-  code: h.foreign-affairs
+  code: 132
   name: Foreign Affairs
   sub: Subcommittee on International Organizations and Movements
   heading: U.S. IDEOLOGICAL EFFORT
@@ -1151,12 +1208,12 @@ docs:
   page: D16
   pdf: 14
   url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=14
-- key: cmte:1964-01-16-9
+- key: cmte:1964-01-16-8
   src: cmte
   date: '1964-01-16'
   ch: H
   committee: Committee on Foreign Affairs
-  code: h.foreign-affairs
+  code: 132
   name: Foreign Affairs
   sub: Subcommittee on the Far East and the Pacific
   heading: INDONESIA-VIETNAM
@@ -1170,12 +1227,12 @@ docs:
   page: D16
   pdf: 14
   url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=14
-- key: cmte:1964-01-16-10
+- key: cmte:1964-01-16-9
   src: cmte
   date: '1964-01-16'
   ch: H
   committee: Committee on the Judiciary
-  code: h.judiciary
+  code: 156
   name: Judiciary
   sub: Subcommittee No. 3
   heading: COMMITTEE BUSINESS
@@ -1184,12 +1241,12 @@ docs:
   page: D16
   pdf: 14
   url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=14
-- key: cmte:1964-01-16-11
+- key: cmte:1964-01-16-10
   src: cmte
   date: '1964-01-16'
   ch: H
   committee: Committee on Merchant Marine and Fisheries
-  code: h.merchant-marine-and-fisheries
+  code: 160
   name: Merchant Marine and Fisheries
   sub: Subcommittee on Panama Canal
   heading: CANAL ZONE
@@ -1207,23 +1264,25 @@ docs:
   page: D16
   pdf: 14
   url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=14
-- key: cmte:1964-01-16-12
+- key: cmte:1964-01-16-11
   src: cmte
   date: '1964-01-16'
   ch: H
   committee: Committee on Rules
-  code: h.rules
+  code: 176
   name: Rules
   heading: CIVIL RIGHTS
   bills:
   - H.R. 7152
-  others:
-  - Representative Willis
+  witnesses:
+  - as: Representative Willis
+    title: Representative
+    name: Willis
   text: Continued hearings on H.R. 7152, the civil rights bill, and heard testimony from Representative Willis.
   page: D16
   pdf: 14
   url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=14
-- key: cmte:1964-01-16-13
+- key: cmte:1964-01-16-12
   src: cmte
   date: '1964-01-16'
   ch: J
@@ -1257,7 +1316,7 @@ docs:
   date: '1964-01-20'
   ch: S
   committee: Committee on Commerce
-  code: s.commerce
+  code: 320
   name: Commerce
   heading: ST. LAWRENCE SEAWAY
   exec: true
@@ -1273,7 +1332,7 @@ docs:
   date: '1964-01-20'
   ch: S
   committee: Committee on Finance
-  code: s.finance
+  code: 336
   name: Finance
   heading: TAXATION
   bills:
@@ -1308,7 +1367,7 @@ docs:
   date: '1964-01-20'
   ch: S
   committee: Committee on Rules and Administration
-  code: s.rules-and-administration
+  code: 380
   name: Rules and Administration
   heading: INVESTIGATION-SENA TE EMPLOYEES
   exec: true
@@ -1327,7 +1386,7 @@ docs:
   date: '1964-01-20'
   ch: H
   committee: Committee on Agriculture
-  code: h.agriculture
+  code: 102
   name: Agriculture
   sub: Subcommittee on Wheat
   heading: WHEAT
@@ -1346,7 +1405,7 @@ docs:
   date: '1964-01-20'
   ch: H
   committee: Committee on Armed Services
-  code: h.armed-services
+  code: 106
   name: Armed Services
   sub: Subcommittee on Research and Development
   heading: RESEARCH-DEVELOPMENT
@@ -1362,7 +1421,7 @@ docs:
   date: '1964-01-20'
   ch: H
   committee: Committee on the Judiciary
-  code: h.judiciary
+  code: 156
   name: Judiciary
   sub: Subcommittee No. 2
   heading: PRIVATE CLAIMS
@@ -1375,7 +1434,7 @@ docs:
   date: '1964-01-20'
   ch: H
   committee: Committee on Ways and Means
-  code: h.ways-and-means
+  code: 196
   name: Ways and Means
   heading: MEDICARE
   others:
@@ -1391,12 +1450,14 @@ docs:
   date: '1964-01-21'
   ch: S
   committee: Committee on Finance
-  code: s.finance
+  code: 336
   name: Finance
   heading: TAXATION
   bills:
   - H.R. 8363
   - H.R. 8798
+  - H.R. 7503
+  next: '1964-01-22'
   text: 'Committee continued its executive consideration of H.R. 8363, proposed Revenue Act of 1g64, taking additional
     tentative actions thereon as follows: (1) Adopted a modified version of the text of H.R. tJ040, relating to
     deduction for taxes; (2) Approved a modified version of amendment No. 3o~xpenses related to tax-ex em pt income;
@@ -1404,7 +1465,12 @@ docs:
     a modified version of amendment No; 333-expropriation losses (text of S. 2058); (5) Adopted the text of H.R.
     8798, to permit corporations to be small business corporations while owning the stock of certain inactive subsidiary
     corporations; and (6) Rejected the following proposals: (a) amendment No. 378-investment -credit (text of S.
-    2312);'
+    2312); (b) amendment No. 350-regulatory agencies-depre ciation; (c) the text of H.R. 7503, relating to gain
+    from dispositions of depreciable property on the sale of a business or farm; (d) a provision re sick pay exclusion
+    contribution payments; (e) manufa~turers'' excise tax on pens and pencils; (f) amendment No. 336-air and water
+    pollution control; (g) amendment re intangible drilling and development costs; (h) amendment No. 381-retirement
+    income; (i) amendment No. 32g-edu~ cation expenses; and (j) motion to move effective date of personal holding
+    company provisions up to December 31, 1g64. Committee will meet again tomorrow.'
   page: D19
   pdf: 17
   url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=17
@@ -1413,7 +1479,7 @@ docs:
   date: '1964-01-21'
   ch: S
   committee: Committee on Foreign Relations
-  code: s.foreign-relations
+  code: 338
   name: Foreign Relations
   heading: COMMITTEE BUSINESS
   bills:
@@ -1429,7 +1495,6 @@ docs:
     name: Philip H. Trezise
     office: Deputy Assistant Secretary of State for Economic Affairs
   - as: Joseph F. Friedkin, Commissioner, International Boundary and Water Commission, U.S. and Mexico, who testified
-      in connection with S. 2394, proposed American-Mexican Chamizal Convention Act of 1¢4
     name: Joseph F. Friedkin
     office: Commissioner, International Boundary and Water Commission, U.S. and Mexico, who testified
   others:
@@ -1453,7 +1518,7 @@ docs:
   date: '1964-01-21'
   ch: S
   committee: Committee on Government Operations
-  code: s.government-operations
+  code: 342
   name: Government Operations
   sub: Permanent Subcommittee on Investigations-
   heading: COMMITTEE BUSINESS
@@ -1489,7 +1554,7 @@ docs:
   date: '1964-01-21'
   ch: S
   committee: Committee on Post Office and Civil Service
-  code: s.post-office-and-civil-service
+  code: 370
   name: Post Office and Civil Service
   heading: COMMITTEE BUSINESS
   exec: true
@@ -1508,7 +1573,7 @@ docs:
   date: '1964-01-21'
   ch: H
   committee: Committee on Agriculture
-  code: h.agriculture
+  code: 102
   name: Agriculture
   sub: Subcommittee on Wheat
   heading: WHEAT
@@ -1525,7 +1590,7 @@ docs:
   date: '1964-01-21'
   ch: H
   committee: Committee on Armed Services
-  code: h.armed-services
+  code: 106
   name: Armed Services
   sub: Subcommittee on Research and Development
   heading: RESEARCH-DEVELOPMENT
@@ -1540,7 +1605,7 @@ docs:
   date: '1964-01-21'
   ch: H
   committee: Committee on Banking and Currency
-  code: h.banking-and-currency
+  code: 111
   name: Banking and Currency
   sub: Subcommittee on Domestic Finance
   heading: FEDERAL RESERVE SYSTEM
@@ -1556,7 +1621,7 @@ docs:
   date: '1964-01-21'
   ch: H
   committee: Committee on Foreign Affairs
-  code: h.foreign-affairs
+  code: 132
   name: Foreign Affairs
   sub: Subcommittee on Far East and the Pacific
   heading: SOUTHEAST ASIA
@@ -1573,7 +1638,7 @@ docs:
   date: '1964-01-21'
   ch: H
   committee: Committee on Interstate and Foreign Commerce
-  code: h.interstate-and-foreign-commerce
+  code: 152
   name: Interstate and Foreign Commerce
   sub: Subcommittee on Commerce and Finance
   heading: SECURITIES ACTS AMENDMENTS
@@ -1591,7 +1656,7 @@ docs:
   date: '1964-01-21'
   ch: H
   committee: Committee on Rules
-  code: h.rules
+  code: 176
   name: Rules
   heading: CIVIL RIGHTS
   bills:
@@ -1613,7 +1678,7 @@ docs:
   date: '1964-01-21'
   ch: H
   committee: Committee on Ways and Means
-  code: h.ways-and-means
+  code: 196
   name: Ways and Means
   heading: MEDICARE
   witnesses:
@@ -1632,9 +1697,9 @@ docs:
 - key: cmte:1964-01-21-12
   src: cmte
   date: '1964-01-21'
-  ch: S
+  ch: H
   committee: Committee on Armed Services
-  code: s.armed-services
+  code: 106
   name: Armed Services
   sub: The Preparedness Investigating Subcommittee
   heading: V /STOL PROGRAM
@@ -1647,42 +1712,9 @@ docs:
 - key: cmte:1964-01-21-13
   src: cmte
   date: '1964-01-21'
-  ch: S
-  committee: Committee on Commerce
-  code: s.commerce
-  name: Commerce
-  heading: QUALITY STABILIZATION ACT
-  bills:
-  - S. 774
-  witnesses:
-  - as: 'Glen E. Weston, professor of law, Northwestern University, on be..: half of the American Bar Association'
-    name: Glen E. Weston
-    office: 'professor of law, Northwestern University, on be..: half of the American Bar Association'
-  - as: Stanley Feldberg, pres,ident, Zayre Corp., Natick,:fyiass
-    name: Stanley Feldberg
-    office: pres,ident, Zayre Corp., Natick,:fyiass
-  - as: Joseph Marcus, president, GEM Internatio~al
-    name: Joseph Marcus
-    office: president, GEM Internatio~al
-  - as: Jacob Clayman, administntive director, Industrial Union Department, Washington, D.C
-    name: Jacob Clayman
-    office: administntive director, Industrial Union Department, Washington, D.C
-  others:
-  - Inc., St. Loui~
-  text: 'Special subcommittee resumed its hearings on S. 774, ~o promote quality and pric~ stabilization, having
-    as its witnesses Glen E. Weston, professor of law, Northwestern University, on be..: half of the American Bar
-    Association; Stanley Feldberg, pres,ident, Zayre Corp., Natick,:fyiass.; Joseph Marcus, president, GEM Internatio~al;
-    Inc., St. Loui~; and Jacob Clayman, administntive director, Industrial Union Department, Washington, D.C.. Hearings.continue
-    tomorrow.'
-  page: D23
-  pdf: 21
-  url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=21
-- key: cmte:1964-01-21-14
-  src: cmte
-  date: '1964-01-21'
-  ch: S
+  ch: H
   committee: Committee on the District of Columbia
-  code: s.district-of-columbia
+  code: 120
   name: District of Columbia
   sub: Subcommittee on Business and Commerce
   heading: D.C. MATTERS
@@ -1712,12 +1744,12 @@ docs:
   page: D23
   pdf: 21
   url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=21
-- key: cmte:1964-01-21-15
+- key: cmte:1964-01-21-14
   src: cmte
   date: '1964-01-21'
   ch: S
   committee: Committee on Finance
-  code: s.finance
+  code: 336
   name: Finance
   heading: TAXATION
   bills:
@@ -1742,12 +1774,12 @@ docs:
   page: D23
   pdf: 21
   url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=21
-- key: cmte:1964-01-21-16
+- key: cmte:1964-01-21-15
   src: cmte
   date: '1964-01-21'
-  ch: S
+  ch: H
   committee: Committee on Interior and Insular Affairs
-  code: s.interior-and-insular-affairs
+  code: 146
   name: Interior and Insular Affairs
   sub: Subcommittee on Public Lands
   bills:
@@ -1766,12 +1798,12 @@ docs:
   page: D23
   pdf: 21
   url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=21
-- key: cmte:1964-01-21-17
+- key: cmte:1964-01-21-16
   src: cmte
   date: '1964-01-21'
-  ch: S
+  ch: H
   committee: Committee on the Judiciary
-  code: s.judiciary
+  code: 156
   name: Judiciary
   sub: Subcommittee on Constitutional Amendments
   heading: PRESIDENTIAL SUCCESSION
@@ -1787,11 +1819,12 @@ docs:
   - as: Senator Monroney
     title: Senator
     name: Monroney
+  - as: Representative Lindsay
+    title: Representative
+    name: Lindsay
   - as: James C. Kirby, professor of law, Vanderbilt University, and former counsel to this subcommittee
     name: James C. Kirby
     office: professor of law, Vanderbilt University, and former counsel to this subcommittee
-  others:
-  - Representative Lindsay
   next: '1964-01-22'
   text: Subcommittee on Constitutional Amendments held hearings on S.J. Res. 139,. and other pending legislation
     proposing amendments to the Constitution with regard to Presidential and Vice- Presidential succession and inability,
@@ -1800,12 +1833,12 @@ docs:
   page: D23
   pdf: 21
   url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=21
-- key: cmte:1964-01-21-18
+- key: cmte:1964-01-21-17
   src: cmte
   date: '1964-01-21'
-  ch: S
+  ch: H
   committee: Committee on the Judiciary
-  code: s.judiciary
+  code: 156
   name: Judiciary
   sub: Subcommittee on National Penitentiaries
   heading: PRISONS
@@ -1833,13 +1866,13 @@ docs:
   page: D24
   pdf: 22
   url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=22
-- key: cmte:1964-01-21-19
+- key: cmte:1964-01-21-18
   src: cmte
   date: '1964-01-21'
-  ch: S
+  ch: H
   committee: Committee on Rules and Administration
-  code: s.rules-and-administration
-  name: Rules and Administration
+  code: 142
+  name: House Administration
   heading: COMMITTEE FUNDS
   exec: true
   text: Committee met in executive session to hear the various Senate committee chairmen testify on resolutions
@@ -1848,12 +1881,12 @@ docs:
   page: D24
   pdf: 22
   url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=22
-- key: cmte:1964-01-21-20
+- key: cmte:1964-01-21-19
   src: cmte
   date: '1964-01-21'
   ch: H
   committee: Committee on Agriculture
-  code: h.agriculture
+  code: 102
   name: Agriculture
   sub: Subcommittee on Wheat
   heading: WHEAT
@@ -1864,12 +1897,12 @@ docs:
   page: D24
   pdf: 22
   url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=22
-- key: cmte:1964-01-21-21
+- key: cmte:1964-01-21-20
   src: cmte
   date: '1964-01-21'
   ch: H
   committee: Committee on Armed Services
-  code: h.armed-services
+  code: 106
   name: Armed Services
   sub: Subcommittee on Research and Development
   heading: RESEARCH-DEVELOPMENT
@@ -1878,12 +1911,12 @@ docs:
   page: D24
   pdf: 22
   url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=22
-- key: cmte:1964-01-21-22
+- key: cmte:1964-01-21-21
   src: cmte
   date: '1964-01-21'
   ch: H
   committee: Committee on Banking and Currency
-  code: h.banking-and-currency
+  code: 111
   name: Banking and Currency
   sub: Subcommittee on Domestic Finance
   heading: FEDERAL RESERVE SYSTEM
@@ -1894,12 +1927,12 @@ docs:
   page: D24
   pdf: 22
   url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=22
-- key: cmte:1964-01-21-23
+- key: cmte:1964-01-21-22
   src: cmte
   date: '1964-01-21'
   ch: H
   committee: Committee on Education and Labor
-  code: h.education-and-labor
+  code: 124
   name: Education and Labor
   sub: General Subcommittee on Labor
   heading: DA VIS-BACON ACT
@@ -1915,12 +1948,12 @@ docs:
   page: D24
   pdf: 22
   url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=22
-- key: cmte:1964-01-21-24
+- key: cmte:1964-01-21-23
   src: cmte
   date: '1964-01-21'
   ch: H
   committee: Committee on House Administration
-  code: h.house-administration
+  code: 142
   name: House Administration
   heading: HOUSE BUSINESS
   bills:
@@ -1947,12 +1980,12 @@ docs:
   page: D24
   pdf: 22
   url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=22
-- key: cmte:1964-01-21-25
+- key: cmte:1964-01-21-24
   src: cmte
   date: '1964-01-21'
   ch: H
   committee: Committee on Interior and Insular Affairs
-  code: h.interior-and-insular-affairs
+  code: 146
   name: Interior and Insular Affairs
   sub: Subcommittee on Irrigation and Reclamation
   bills:
@@ -1968,12 +2001,12 @@ docs:
   page: D25
   pdf: 23
   url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=23
-- key: cmte:1964-01-21-26
+- key: cmte:1964-01-21-25
   src: cmte
   date: '1964-01-21'
   ch: H
   committee: Committee on 1nterstate and Foreign Commerce
-  code: h.interstate-and-foreign-commerce
+  code: 152
   name: Interstate and Foreign Commerce
   sub: Subcommittee on Commerce and Finance
   heading: INTERSTATE
@@ -1987,16 +2020,29 @@ docs:
   page: D25
   pdf: 23
   url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=23
+- key: cmte:1964-01-21-26
+  src: cmte
+  date: '1964-01-21'
+  ch: H
+  committee: Committee on the Judiciary
+  code: 156
+  name: Judiciary
+  sub: Subcommittee No. 1
+  heading: IMMIGRATION
+  text: Subcommittee No. 1 acted on several private immigration bills.
+  page: D25
+  pdf: 23
+  url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=23
 - key: cmte:1964-01-21-27
   src: cmte
   date: '1964-01-21'
   ch: H
   committee: Committee on the Judiciary
-  code: h.judiciary
+  code: 156
   name: Judiciary
-  sub: Subcommittee No. 1
-  heading: IMMIGRATION
-  text: Subcommittee No. 1 acted on several private immigration bills.
+  sub: Subcommittee No. 2
+  heading: PRIVATE CLAIMS
+  text: Subcommittee No. 2 took action on several private claim bills.
   page: D25
   pdf: 23
   url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=23
@@ -2005,20 +2051,7 @@ docs:
   date: '1964-01-21'
   ch: H
   committee: Committee on the Judiciary
-  code: h.judiciary
-  name: Judiciary
-  sub: Subcommittee No. 2
-  heading: PRIVATE CLAIMS
-  text: Subcommittee No. 2 took action on several private claim bills.
-  page: D25
-  pdf: 23
-  url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=23
-- key: cmte:1964-01-21-29
-  src: cmte
-  date: '1964-01-21'
-  ch: H
-  committee: Committee on the Judiciary
-  code: h.judiciary
+  code: 156
   name: Judiciary
   sub: Subcommittee No. 5
   heading: JUDICIAL MISCELLANY
@@ -2042,12 +2075,12 @@ docs:
   page: D25
   pdf: 23
   url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=23
-- key: cmte:1964-01-21-30
+- key: cmte:1964-01-21-29
   src: cmte
   date: '1964-01-21'
   ch: H
   committee: Committee on the Merchant Marine and Fisheries
-  code: h.merchant-marine-and-fisheries
+  code: 160
   name: Merchant Marine and Fisheries
   sub: Subcommittee on the Coast Guard
   heading: COAST GUARD
@@ -2059,12 +2092,12 @@ docs:
   page: D25
   pdf: 23
   url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=23
-- key: cmte:1964-01-21-31
+- key: cmte:1964-01-21-30
   src: cmte
   date: '1964-01-21'
   ch: H
   committee: Committee on Rules
-  code: h.rules
+  code: 176
   name: Rules
   heading: CIVIL RIGHTS
   bills:
@@ -2084,12 +2117,12 @@ docs:
   page: D25
   pdf: 23
   url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=23
-- key: cmte:1964-01-21-32
+- key: cmte:1964-01-21-31
   src: cmte
   date: '1964-01-21'
   ch: H
   committee: Committee on Veterans' Affairs
-  code: h.veterans-affairs
+  code: 192
   name: Veterans' Affairs
   sub: Subcommittee on Housing
   heading: HOUSING
@@ -2105,12 +2138,12 @@ docs:
   page: D25
   pdf: 23
   url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=23
-- key: cmte:1964-01-21-33
+- key: cmte:1964-01-21-32
   src: cmte
   date: '1964-01-21'
   ch: H
   committee: Committee on Ways and Means
-  code: h.ways-and-means
+  code: 196
   name: Ways and Means
   heading: MEDICARE
   witnesses:
@@ -2127,7 +2160,7 @@ docs:
   page: D25
   pdf: 23
   url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=23
-- key: cmte:1964-01-21-34
+- key: cmte:1964-01-21-33
   src: cmte
   date: '1964-01-21'
   ch: H
@@ -2144,7 +2177,7 @@ docs:
   page: D25
   pdf: 23
   url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=23
-- key: cmte:1964-01-21-35
+- key: cmte:1964-01-21-34
   src: cmte
   date: '1964-01-21'
   ch: J
@@ -2181,7 +2214,7 @@ docs:
   date: '1964-01-23'
   ch: S
   committee: Committee on Armed Services
-  code: s.armed-services
+  code: 308
   name: Armed Services
   sub: Preparedness Investigating Subcommittee
   heading: COMMITIEE BUSINESS
@@ -2204,7 +2237,7 @@ docs:
   date: '1964-01-23'
   ch: S
   committee: Committee on Arm(d Services
-  code: s.armed-services
+  code: 308
   name: Armed Services
   sub: Subcommittee on the National Stockpile and Naval Petroleum Reserves
   heading: STOCKPILING
@@ -2222,8 +2255,45 @@ docs:
   src: cmte
   date: '1964-01-23'
   ch: S
+  committee: Committe~ on Commerce
+  code: 320
+  name: Commerce
+  heading: FIRE A.RMS
+  bills:
+  - S. 1975
+  - S. 2345
+  witnesses:
+  - as: James V. Bennett, Director, Bureau of Prisons, Department of Justice
+    name: James V. Bennett
+    office: Director, Bureau of Prisons, Department of Justice
+  - as: B. K. Goodwin, National Muzzle Loading Rifle Association
+    name: B. K. Goodwin
+    office: National Muzzle Loading Rifle Association
+  - as: Irvine C. Porter, Alabama Bar Association, Birmingham
+    name: Irvine C. Porter
+    office: Alabama Bar Association, Birmingham
+  - as: Woodson D. Scott, of the law firm of Lord, Day & Lord, New York City
+    name: Woodson D. Scott
+    office: of the law firm of Lord, Day & Lord, New York City
+  others:
+  - Represe~tatives Sikes and Flynt
+  - -Judge Bartlett Rummel, Superior Court of the State of Washington, Tacoma
+  next: '1964-01-24'
+  text: Committee resumed its hearings on S. 1975, S. 2345, and other legislation to amend the Federal Firearms
+    Act so as to regulate more strictly the interstate shipment and ownership of guns, with testimony from Represe~tatives
+    Sikes and Flynt; James V. Bennett, Director, Bureau of Prisons, Department of Justice; -Judge Bartlett Rummel,
+    Superior Court of the State of Washington, Tacoma; B. K. Goodwin, National Muzzle Loading Rifle Association;
+    Irvine C. Porter, Alabama Bar Association, Birmingham; and Woodson D. Scott, of the law firm of Lord, Day &
+    Lord, New York City. Hearings continue tomorrow.
+  page: D27
+  pdf: 25
+  url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=25
+- key: cmte:1964-01-23-4
+  src: cmte
+  date: '1964-01-23'
+  ch: S
   committee: Committee on Commerce
-  code: s.commerce
+  code: 320
   name: Commerce
   heading: QUALITY STABILIZATION ACT
   bills:
@@ -2246,12 +2316,12 @@ docs:
   page: D27
   pdf: 25
   url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=25
-- key: cmte:1964-01-23-4
+- key: cmte:1964-01-23-5
   src: cmte
   date: '1964-01-23'
   ch: S
   committee: Committee on the Districi of Columbia
-  code: s.district-of-columbia
+  code: 324
   name: District of Columbia
   heading: D.C. MATTERS
   bills:
@@ -2283,12 +2353,12 @@ docs:
   page: D27
   pdf: 25
   url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=25
-- key: cmte:1964-01-23-5
+- key: cmte:1964-01-23-6
   src: cmte
   date: '1964-01-23'
   ch: S
   committee: Committee on Finance
-  code: s.finance
+  code: 336
   name: Finance
   heading: TAXATION
   bills:
@@ -2305,12 +2375,12 @@ docs:
   page: D27
   pdf: 25
   url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=25
-- key: cmte:1964-01-23-6
+- key: cmte:1964-01-23-7
   src: cmte
   date: '1964-01-23'
   ch: S
   committee: Committee on the Judiciary
-  code: s.judiciary
+  code: 358
   name: Judiciary
   sub: Subcommittee on Constitutional Amendments
   heading: PRESIDENTIAL SUCCESSION
@@ -2336,12 +2406,12 @@ docs:
   page: D27
   pdf: 25
   url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=25
-- key: cmte:1964-01-23-7
+- key: cmte:1964-01-23-8
   src: cmte
   date: '1964-01-23'
   ch: S
   committee: Committee on Labor and Public Welfare
-  code: s.labor-and-public-welfare
+  code: 363
   name: Labor and Public Welfare
   heading: NOMINATION
   text: Committee ordered favorably reported the nomination of Donald F. Hornig, of New Jersey, to be Director of
@@ -2349,12 +2419,12 @@ docs:
   page: D27
   pdf: 25
   url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=25
-- key: cmte:1964-01-23-8
+- key: cmte:1964-01-23-9
   src: cmte
   date: '1964-01-23'
   ch: S
   committee: Committee on Ru~s and Administration
-  code: s.rules-and-administration
+  code: 380
   name: Rules and Administration
   heading: INVESTIGATION-SENATE EMPLOYEES
   witnesses:
@@ -2391,12 +2461,12 @@ docs:
   page: D27
   pdf: 25
   url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=25
-- key: cmte:1964-01-23-9
+- key: cmte:1964-01-23-10
   src: cmte
   date: '1964-01-23'
   ch: H
   committee: Committee on Agriculture
-  code: h.agriculture
+  code: 102
   name: Agriculture
   heading: POISONS
   bills:
@@ -2409,12 +2479,12 @@ docs:
   page: D28
   pdf: 26
   url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=26
-- key: cmte:1964-01-23-10
+- key: cmte:1964-01-23-11
   src: cmte
   date: '1964-01-23'
   ch: H
   committee: Committee on Armed Services
-  code: h.armed-services
+  code: 106
   name: Armed Services
   sub: Subcommittee on Research and Development
   heading: RESEARCH-DEVELOPMENT
@@ -2423,12 +2493,12 @@ docs:
   page: D28
   pdf: 26
   url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=26
-- key: cmte:1964-01-23-11
+- key: cmte:1964-01-23-12
   src: cmte
   date: '1964-01-23'
   ch: H
   committee: Committee on Banking and Currency
-  code: h.banking-and-currency
+  code: 111
   name: Banking and Currency
   sub: Subcommittee on Domestic Finance
   heading: FEDERAL RESERVE SYSTEM
@@ -2445,12 +2515,12 @@ docs:
   page: D28
   pdf: 26
   url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=26
-- key: cmte:1964-01-23-12
+- key: cmte:1964-01-23-13
   src: cmte
   date: '1964-01-23'
   ch: H
   committee: Committee on Foreign Affairs
-  code: h.foreign-affairs
+  code: 132
   name: Foreign Affairs
   heading: SECRETARY OF STATE
   exec: true
@@ -2462,12 +2532,12 @@ docs:
   page: D28
   pdf: 26
   url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=26
-- key: cmte:1964-01-23-13
+- key: cmte:1964-01-23-14
   src: cmte
   date: '1964-01-23'
   ch: H
   committee: Committee on Interior and Insular Affairs
-  code: h.interior-and-insular-affairs
+  code: 146
   name: Interior and Insular Affairs
   sub: Subcommittee on National Parks
   heading: NATIONAL PARKS
@@ -2478,30 +2548,12 @@ docs:
   page: D28
   pdf: 26
   url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=26
-- key: cmte:1964-01-23-14
-  src: cmte
-  date: '1964-01-23'
-  ch: H
-  committee: Committee on Interstate and Foreign Commerce
-  code: h.interstate-and-foreign-commerce
-  name: Interstate and Foreign Commerce
-  sub: Subcommittee on Commerce and Finance
-  heading: SECURITIES ACTS AMENDMENTS
-  bills:
-  - S. 1642
-  others:
-  - public witnesses
-  text: Subcommittee on Commerce and Finance continued hearings on S. 1642, and related bills, regarding the Securities
-    Acts Amendments of 1¢3. Heard testimony from public witnesses.
-  page: D28
-  pdf: 26
-  url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=26
 - key: cmte:1964-01-23-15
   src: cmte
   date: '1964-01-23'
   ch: H
   committee: Committee on the Judiciary
-  code: h.judiciary
+  code: 156
   name: Judiciary
   sub: Subcommittee No. 3
   heading: PATENTS EXTENSION
@@ -2521,7 +2573,7 @@ docs:
   date: '1964-01-23'
   ch: H
   committee: Committee on the Judiciary
-  code: h.judiciary
+  code: 156
   name: Judiciary
   sub: Subcommittee No. 4
   heading: RADIATION PROTECTION
@@ -2538,7 +2590,7 @@ docs:
   date: '1964-01-23'
   ch: H
   committee: Committee on Merchant Marine and Fisheries
-  code: h.merchant-marine-and-fisheries
+  code: 160
   name: Merchant Marine and Fisheries
   sub: Subcommittee on the Coast Guard
   heading: COAST GUARD
@@ -2559,7 +2611,7 @@ docs:
   date: '1964-01-23'
   ch: H
   committee: Committee on Rules
-  code: h.rules
+  code: 176
   name: Rules
   heading: CIVIL RIGHTS
   bills:
@@ -2596,7 +2648,7 @@ docs:
   date: '1964-01-23'
   ch: H
   committee: Committee on Ways and Means
-  code: h.ways-and-means
+  code: 196
   name: Ways and Means
   heading: MEDICARE
   witnesses:
@@ -2626,6 +2678,7 @@ docs:
   name: Joint Committee on Atomic Energy
   heading: AEC AUTHORIZATIONS
   exec: true
+  open: true
   witnesses:
   - as: Maj. Gen. A. W. Betts, Director, Division of Military Appli-. cation
     title: Maj. Gen.
@@ -2637,15 +2690,36 @@ docs:
   - as: John Abbadessa, Controller
     name: John Abbadessa
     office: Controller
-  - as: John A. Derry, Director, Division of Construction
+  - as: John A. Derry, Director, Division of Construction. ~earings continue on Monday, January 27., in open session
     name: John A. Derry
-    office: Director, Division of Construction
+    office: Director, Division of Construction. ~earings continue on Monday, January 27., in open session
   others:
   - 'AEC officials: Dr. Gerald F. Tape, Commissioner'
   text: 'Committee continued, in executive session, its hearings on proposed fiscal 1¢5 budget estimates for: the
     Atomic Energy Commission, receiving testimony from the following AEC officials: Dr. Gerald F. Tape, Commissioner;
     Maj. Gen. A. W. Betts, Director, Division of Military Appli-. cation; A. R. Luedecke, General Manager; John
-    Abbadessa, Controller; and John A. Derry, Director, Division of Construction.'
+    Abbadessa, Controller; and John A. Derry, Director, Division of Construction. ~earings continue on Monday, January
+    27., in open session.'
+  page: D29
+  pdf: 27
+  url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=27
+- key: cmte:1964-01-23-21
+  src: cmte
+  date: '1964-01-23'
+  ch: J
+  committee: foint Economic Committee
+  code: j.joint-economic-committee
+  name: Joint Economic Committee
+  heading: PRESIDENrS ECONOMIC REPORT
+  witnesses:
+  - as: Walter W. Heller, Chairman, accompanied by Gardner Ackley and John P. Lewis, both members, all of the Council
+      of Ernnomic Advisers
+    name: Walter W. Heller
+    office: Chairman
+  next: '1964-01-27'
+  text: Committee began hearings on the President's Economic Report, having as its witnesses Walter W. Heller, Chairman,
+    accompanied by Gardner Ackley and John P. Lewis, both members, all of the Council of Ernnomic Advisers. Hearings
+    continue on Monday, January 27, when Budget Director Gordon will be heard.
   page: D29
   pdf: 27
   url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=27
@@ -2654,7 +2728,7 @@ docs:
   date: '1964-01-27'
   ch: S
   committee: Committee on Armed Services
-  code: s.armed-services
+  code: 308
   name: Armed Services
   sub: Subcommittee on the National Stockpile and Naval Petroleum Reserves
   heading: STOCKPILING
@@ -2690,7 +2764,7 @@ docs:
   date: '1964-01-27'
   ch: S
   committee: Committee on Banking and Currency
-  code: s.banking-and-currency
+  code: 313
   name: Banking and Currency
   sub: Housing Subcommittee
   heading: HOUSING FORECLOSURES
@@ -2706,7 +2780,7 @@ docs:
   date: '1964-01-27'
   ch: S
   committee: Committee on Commerce
-  code: s.commerce
+  code: 320
   name: Commerce
   heading: FIREARMS
   bills:
@@ -2746,7 +2820,7 @@ docs:
   date: '1964-01-27'
   ch: S
   committee: Committee on Rules and Administration
-  code: s.rules-and-administration
+  code: 380
   name: Rules and Administration
   heading: INVESTIGATION-SENATE EMPLOYEES
   witnesses:
@@ -2776,7 +2850,7 @@ docs:
   date: '1964-01-27'
   ch: H
   committee: Committee on Agriculture
-  code: h.agriculture
+  code: 102
   name: Agriculture
   sub: Subcommittee on Wheat
   heading: WHEAT
@@ -2793,7 +2867,7 @@ docs:
   date: '1964-01-27'
   ch: H
   committee: Committee on Armed Services
-  code: h.armed-services
+  code: 106
   name: Armed Services
   heading: AIRCRAFT-MISSILES-NAVAL VESSELS
   bills:
@@ -2813,7 +2887,7 @@ docs:
   date: '1964-01-27'
   ch: H
   committee: Committee on Armed Services
-  code: h.armed-services
+  code: 106
   name: Armed Services
   sub: Subcommittee on Research and Development
   heading: RESEARCH-DEVELOPMENT
@@ -2827,7 +2901,7 @@ docs:
   date: '1964-01-27'
   ch: H
   committee: Committee on the District of Columbia
-  code: h.district-of-columbia
+  code: 120
   name: District of Columbia
   sub: Subcommittee No. 4
   heading: DISTRICT OF COLUMBIA BUSINESS
@@ -2849,7 +2923,7 @@ docs:
   date: '1964-01-27'
   ch: H
   committee: Committee on District of Columbia
-  code: h.district-of-columbia
+  code: 120
   name: District of Columbia
   sub: Subcommittee No. 4
   heading: URBAN RENEW Al
@@ -2867,15 +2941,18 @@ docs:
   date: '1964-01-27'
   ch: H
   committee: Committee on Education and Labor
-  code: h.education-and-labor
+  code: 124
   name: Education and Labor
   sub: Special Subcommittee on Labor
   heading: SERVICE CONTRACT ACT
   bills:
   - H.R. 1678
   - H.R. 6088
+  witnesses:
+  - as: Representative O'Hara of Michigan
+    title: Representative
+    name: O'Hara of Michigan
   others:
-  - Representative O'Hara of Michigan
   - public witnesses
   text: Special Subcommittee on Labor held a hearing on H.R. 1678 and H.R. 6o88, the Service Contract Act bills.
     Heard testimony from Representative O'Hara of Michigan; and public witnesses.
@@ -2887,7 +2964,7 @@ docs:
   date: '1964-01-27'
   ch: H
   committee: Committee on Foreign Affairs
-  code: h.foreign-affairs
+  code: 132
   name: Foreign Affairs
   sub: Subcommittee on Europe
   heading: SOVlET BLOC
@@ -2903,7 +2980,7 @@ docs:
   date: '1964-01-27'
   ch: H
   committee: Committee on Interior and Insular Affairs
-  code: h.interior-and-insular-affairs
+  code: 146
   name: Interior and Insular Affairs
   sub: Subcommittee on Irrigation and Reclamation
   heading: FISH-WILDLIFE
@@ -2922,7 +2999,7 @@ docs:
   date: '1964-01-27'
   ch: H
   committee: Committee on Interior and Insular Affairs
-  code: h.interior-and-insular-affairs
+  code: 146
   name: Interior and Insular Affairs
   sub: Subcommittee on National Parks
   heading: NATIONAL PARKS
@@ -2940,7 +3017,7 @@ docs:
   date: '1964-01-27'
   ch: H
   committee: Committee on the /udiCiary
-  code: h.judiciary
+  code: 156
   name: Judiciary
   sub: Subcommittee No. 2
   heading: PRIVATE CLAIMS
@@ -2953,19 +3030,21 @@ docs:
   date: '1964-01-27'
   ch: H
   committee: Committee on Merchant Marine and Fisheries
-  code: h.merchant-marine-and-fisheries
+  code: 160
   name: Merchant Marine and Fisheries
   sub: Subcommittee on Merchant Marine
   heading: MERCHANT MARINE
   bills:
   - H.R. 9153
   witnesses:
+  - as: Representative McFall
+    title: Representative
+    name: McFall
   - as: Rear Adm. John Hadlee, Chairman, Federal Maritime Commission
     title: Rear Adm.
     name: John Hadlee
     office: Chairman, Federal Maritime Commission
   others:
-  - Representative McFall
   - a public witness
   text: Subcommittee on Merchant Marine held hearings on H.R. 9153, to provide for exemption of certain terminal
     leases from penalties. Testimony was given by Representative McFall; Rear Adm. John Hadlee, Chairman, Federal
@@ -2978,7 +3057,7 @@ docs:
   date: '1964-01-27'
   ch: H
   committee: Committee on Ways and Means
-  code: h.ways-and-means
+  code: 196
   name: Ways and Means
   heading: MEDICARE
   others:
@@ -2989,29 +3068,6 @@ docs:
   pdf: 29
   url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=29
 - key: cmte:1964-01-27-17
-  src: cmte
-  date: '1964-01-27'
-  ch: J
-  committee: I oint Committee on Atomic Energy
-  code: j.atomic-energy
-  name: Joint Committee on Atomic Energy
-  heading: AEC AUTHORIZATIONS
-  bills:
-  - S. 2450
-  - H.R. 9712
-  open: true
-  witnesses:
-  - as: Chairman Glenn T. Seaborg, who was accompanied by other AEC officials
-    title: Chairman
-    name: Glenn T. Seaborg
-    office: who
-  text: Committee continued, in open session, its hearings on S. 2450 and H.R. 9712, fiscal 1965 authorizations
-    for the Atomic Energy Commission, with testimony from Chairman Glenn T. Seaborg, who was accompanied by other
-    AEC officials.
-  page: D31
-  pdf: 29
-  url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=29
-- key: cmte:1964-01-27-18
   src: cmte
   date: '1964-01-27'
   ch: J
@@ -3035,7 +3091,7 @@ docs:
   date: '1964-01-28'
   ch: S
   committee: Committee on Agriculture and Forestry
-  code: s.agriculture-and-forestry
+  code: 304
   name: Agriculture and Forestry
   heading: COTTON
   bills:
@@ -3083,7 +3139,7 @@ docs:
   date: '1964-01-28'
   ch: S
   committee: Committee on Banking and Currency
-  code: s.banking-and-currency
+  code: 313
   name: Banking and Currency
   sub: The Housing Subcommittee
   heading: HOUSING FORECLOSURES
@@ -3105,7 +3161,7 @@ docs:
   date: '1964-01-28'
   ch: S
   committee: Committee on Commerce
-  code: s.commerce
+  code: 320
   name: Commerce
   heading: COMMITTEE BUSINESS
   bills:
@@ -3129,7 +3185,7 @@ docs:
   date: '1964-01-28'
   ch: S
   committee: Committee on Foreign Relations
-  code: s.foreign-relations
+  code: 338
   name: Foreign Relations
   heading: COMMITTEE BUSINESS
   bills:
@@ -3150,7 +3206,7 @@ docs:
   date: '1964-01-28'
   ch: S
   committee: Committee on Rules and Administration
-  code: s.rules-and-administration
+  code: 380
   name: Rules and Administration
   text: Continuing its hearings on the study of financial and business activ~ ities of Senate employees and former
     Senate employees, committee ha d as its witnesses Max Karl, president, Mortgage Guarantee Insurance Co., Milwaukee;
@@ -3165,7 +3221,7 @@ docs:
   date: '1964-01-28'
   ch: H
   committee: Committee on Agriculture
-  code: h.agriculture
+  code: 102
   name: Agriculture
   heading: PESTICIDES
   bills:
@@ -3181,10 +3237,16 @@ docs:
   date: '1964-01-28'
   ch: H
   committee: Committee on.Foreign Affairs
-  code: h.foreign-affairs
+  code: 132
   name: Foreign Affairs
   sub: Subcommittee on Europe
   heading: SOVIET. BLOC
+  witnesses:
+  - as: William Walton, Chairman of the U.S. Fine Arts Commission
+    name: William Walton
+    office: Chairman of the U.S. Fine Arts Commission
+  others:
+  - public witnesses
   text: Subcommittee on Europe continued hearings on.recent developments in the Soviet bloc. Heard testi.niony from
     William Walton, Chairman of the U.S. Fine Arts Commission; and public witnesses. COCHITI RESERVOIR
   page: D33
@@ -3195,7 +3257,7 @@ docs:
   date: '1964-01-28'
   ch: H
   committee: Committee on Interior and Insular Affairs
-  code: h.interior-and-insular-affairs
+  code: 146
   name: Interior and Insular Affairs
   sub: Subcommittee on Irrigation and Reclamation
   bills:
@@ -3212,7 +3274,7 @@ docs:
   date: '1964-01-28'
   ch: H
   committee: Committee on Merchant Marine and Fisheries
-  code: h.merchant-marine-and-fisheries
+  code: 160
   name: Merchant Marine and Fisheries
   sub: Subcommittee on M
   heading: GRAIN-SOVIET RUSSIA r- t~
@@ -3230,7 +3292,7 @@ docs:
   date: '1964-01-28'
   ch: H
   committee: Committee on Merchant Marine and Fisheries
-  code: h.merchant-marine-and-fisheries
+  code: 160
   name: Merchant Marine and Fisheries
   sub: Subcommittee on the Coast Guard
   heading: COAST GUARD
@@ -3238,7 +3300,8 @@ docs:
   - H.R. 9640
   exec: true
   text: Subcommittee on the Coast Guard, Coast and Geodetic Survey, and Navigation met in executive session and
-    ordered reported favorably to the full committee H.R. g640, to authorize appropriations for procurement of
+    ordered reported favorably to the full committee H.R. g640, to authorize appropriations for procurement of vessels
+    and aircraft and construction of shore and off shore establishments for the Coast Guard.
   page: D34
   pdf: 32
   url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=32
@@ -3247,7 +3310,7 @@ docs:
   date: '1964-01-28'
   ch: H
   committee: Committee on Rules
-  code: h.rules
+  code: 176
   name: Rules
   heading: CIVIL RIGHTS
   bills:
@@ -3277,12 +3340,30 @@ docs:
   page: D34
   pdf: 32
   url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=32
+- key: cmte:1964-01-28-12
+  src: cmte
+  date: '1964-01-28'
+  ch: J
+  committee: /oint Economic Committee
+  code: j.joint-economic-committee
+  name: Joint Economic Committee
+  heading: PRESIDENT'S ECONOMIC REPORT
+  witnesses:
+  - as: Secretary of the Treasury C. Douglas' Dillon
+    title: Secretary of the Treasury
+    name: C. Douglas' Dillon
+  next: '1964-01-29'
+  text: Committee continued its hearings on the President's Economic Report, receiving testimony from Secretary
+    of the Treasury C. Douglas' Dillon. Hearings continue tomorrow.. '
+  page: D34
+  pdf: 32
+  url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt20/pdf/GPO-CRECB-1964-pt20-1.pdf#page=32
 - key: cmte:1964-01-29-1
   src: cmte
   date: '1964-01-29'
   ch: S
   committee: Committee on Agriculture and Forestry
-  code: s.agriculture-and-forestry
+  code: 304
   name: Agriculture and Forestry
   heading: COTTON
   bills:
@@ -3330,7 +3411,7 @@ docs:
   date: '1964-01-29'
   ch: S
   committee: Committee on Commerce
-  code: s.commerce
+  code: 320
   name: Commerce
   sub: Subcommittee on Merchant Marine and Fisheries
   heading: COAST GUARD AUTHORIZATIONS
@@ -3361,7 +3442,7 @@ docs:
   date: '1964-01-29'
   ch: S
   committee: Committee on Foreign Relations
-  code: s.foreign-relations
+  code: 338
   name: Foreign Relations
   heading: U.N. CONFERENCE ON TRADE AND DEVELOPMENT
   exec: true
@@ -3375,7 +3456,7 @@ docs:
   date: '1964-01-29'
   ch: S
   committee: Committee on Labor and Public Welfare
-  code: s.labor-and-public-welfare
+  code: 363
   name: Labor and Public Welfare
   sub: Subcommittee on Veterans' Affairs
   heading: VETERANS' NURSING HOME CARE
@@ -3400,7 +3481,7 @@ docs:
   date: '1964-01-29'
   ch: S
   committee: Committee on Rules and Admi'nistration
-  code: s.rules-and-administration
+  code: 380
   name: Rules and Administration
   heading: COMMITTEE FUNDS
   exec: true
@@ -3414,7 +3495,7 @@ docs:
   date: '1964-01-29'
   ch: S
   committee: Committee on Aeronautical and Space Sciences
-  code: s.aeronautical-and-space-sciences
+  code: 302
   name: Aeronautical and Space Sciences
   bills:
   - S. Res. 254
@@ -3427,7 +3508,7 @@ docs:
   date: '1964-01-29'
   ch: S
   committee: Committee on Armed Services
-  code: s.armed-services
+  code: 308
   name: Armed Services
   bills:
   - S. Res. 286
@@ -3441,7 +3522,7 @@ docs:
   date: '1964-01-29'
   ch: S
   committee: Committee on Banking and Curre.ncy
-  code: s.banking-and-currency
+  code: 313
   name: Banking and Currency
   bills:
   - S. Res. 256
@@ -3455,7 +3536,7 @@ docs:
   date: '1964-01-29'
   ch: S
   committee: Committee on Commerce
-  code: s.commerce
+  code: 320
   name: Commerce
   bills:
   - S. Res. 283
@@ -3468,7 +3549,7 @@ docs:
   date: '1964-01-29'
   ch: S
   committee: Committee on Foreign Relations
-  code: s.foreign-relations
+  code: 338
   name: Foreign Relations
   bills:
   - S. Res. 277
@@ -3481,7 +3562,7 @@ docs:
   date: '1964-01-29'
   ch: S
   committee: Committee on Government Operations
-  code: s.government-operations
+  code: 342
   name: Government Operations
   sub: Permanent Subcommittee on Investigations
   bills:
@@ -3500,7 +3581,7 @@ docs:
   date: '1964-01-29'
   ch: S
   committee: Committee on Interior and Insular Affairs
-  code: s.interior-and-insular-affairs
+  code: 352
   name: Interior and Insular Affairs
   bills:
   - S. Res. 255
@@ -3514,7 +3595,7 @@ docs:
   date: '1964-01-29'
   ch: S
   committee: Committee on the Judiciary
-  code: s.judiciary
+  code: 358
   name: Judiciary
   bills:
   - S. Res. 261
@@ -3546,7 +3627,7 @@ docs:
   date: '1964-01-29'
   ch: S
   committee: Committee on Labor and Public Welfare
-  code: s.labor-and-public-welfare
+  code: 363
   name: Labor and Public Welfare
   bills:
   - S. Res. 252
@@ -3560,7 +3641,7 @@ docs:
   date: '1964-01-29'
   ch: S
   committee: Committee on Post Office and Civil Service
-  code: s.post-office-and-civil-service
+  code: 370
   name: Post Office and Civil Service
   bills:
   - S. Res. 282
@@ -3573,7 +3654,7 @@ docs:
   date: '1964-01-29'
   ch: S
   committee: Committee on Public Works
-  code: s.public-works
+  code: 374
   name: Public Works
   bills:
   - S. Res. 25
@@ -3586,7 +3667,7 @@ docs:
   date: '1964-01-29'
   ch: S
   committee: Committee on Rules.and Admini'stration
-  code: s.rules-and-administration
+  code: 380
   name: Rules and Administration
   text: An original resolution for funds for study of financial and busin~ss activities of officers or employees
     of the Senate-$75,000 through April 30, 1¢,4; An original resolution authorizing funds for Sub-.committee on
@@ -3625,12 +3706,26 @@ docs:
   date: '1964-01-29'
   ch: H
   committee: Committee on Agriculture
-  code: h.agriculture
+  code: 102
   name: Agriculture
   sub: Subcommittee on Tobacco
   heading: TOBACCO
   bills:
   - H.J. Res. 885
+  witnesses:
+  - as: Luther L. Terry, Surgeon General, Health, Education, and W elfare
+    name: Luther L. Terry
+    office: Surgeon General, Health, Education, and W elfare
+  - as: Gov. Terry Sanford, of North Carolina
+    title: Gov.
+    name: Terry Sanford
+    office: of North Carolina
+  - as: Gov. Edward T. Breathitt, Jr., of Kentucky
+    title: Gov.
+    name: Edward T. Breathitt, Jr.
+    office: of Kentucky
+  others:
+  - '- a Department of Agriculture witness and public witness~s~ ~ Hearings continue Thursday, January 30'
   next: '1964-01-30'
   text: Subcommittee on Tobacco beg~n hearings. on H.J. Res. 885, and related bills, to authorize and direct the
     Secretary of Agriculture" to conduct research into the quality and health factors of cigarette tobacco. Heard
@@ -3645,7 +3740,7 @@ docs:
   date: '1964-01-29'
   ch: H
   committee: Committee on Armed Services
-  code: h.armed-services
+  code: 106
   name: Armed Services
   heading: AIRCRAFT-MISSILES-NAVAL VESSELS
   bills:
@@ -3665,13 +3760,15 @@ docs:
   date: '1964-01-29'
   ch: H
   committee: Committee on Education and Labor
-  code: h.education-and-labor
+  code: 124
   name: Education and Labor
   sub: Special Subcommittee on Labor
   heading: SERVICE CONTRACTS ACT
   bills:
   - H.R. 1678
   - H.R. 6088
+  others:
+  - a public witness
   text: Special Subcommittee on Labor held a hearing on H.R. 1678 and 6088, the Service. Contracts Act bills (wage
     standards by Federat contractors). Heard testimorw from a public witness.
   page: D37
@@ -3682,7 +3779,7 @@ docs:
   date: '1964-01-29'
   ch: H
   committee: Committee on Education and Labor
-  code: h.education-and-labor
+  code: 124
   name: Education and Labor
   sub: Select Subcommittee on Education
   heading: AGED-AGING
@@ -3702,7 +3799,7 @@ docs:
   date: '1964-01-29'
   ch: H
   committee: Committee on Foreign Affairs
-  code: h.foreign-affairs
+  code: 132
   name: Foreign Affairs
   sub: Subcommittee on Europe
   others:
@@ -3718,7 +3815,7 @@ docs:
   date: '1964-01-29'
   ch: H
   committee: Committee on Interior and Insular Affairs
-  code: h.interior-and-insular-affairs
+  code: 146
   name: Interior and Insular Affairs
   bills:
   - S. 2
@@ -3736,7 +3833,7 @@ docs:
   date: '1964-01-29'
   ch: H
   committee: Committee on Interstate and Foreign Commerce
-  code: h.interstate-and-foreign-commerce
+  code: 152
   name: Interstate and Foreign Commerce
   heading: TRANSPORTATION
   bills:
@@ -3753,7 +3850,7 @@ docs:
   date: '1964-01-29'
   ch: H
   committee: Committee on the Judiciary
-  code: h.judiciary
+  code: 156
   name: Judiciary
   heading: JUDICIAL MISCELLANY
   bills:
@@ -3778,7 +3875,7 @@ docs:
   date: '1964-01-29'
   ch: H
   committee: Committee on Merchant Marine and Fisheries
-  code: h.merchant-marine-and-fisheries
+  code: 160
   name: Merchant Marine and Fisheries
   sub: Subcommittee on Merchant Marine
   heading: GRAIN-SOVIET RUSSIA
@@ -3796,7 +3893,7 @@ docs:
   date: '1964-01-29'
   ch: H
   committee: Committee on Rules
-  code: h.rules
+  code: 176
   name: Rules
   heading: CIVIL RIGHTS
   bills:
@@ -3832,7 +3929,7 @@ docs:
   date: '1964-01-29'
   ch: H
   committee: Committee on Veterans' Affairs
-  code: h.veterans-affairs
+  code: 192
   name: Veterans' Affairs
   heading: VETERANS' AFFAIRS
   bills:
@@ -3887,7 +3984,7 @@ docs:
   date: '1964-01-30'
   ch: S
   committee: Committee on Agriculture and Forestry
-  code: s.agriculture-and-forestry
+  code: 304
   name: Agriculture and Forestry
   heading: COTTON
   bills:
@@ -3924,14 +4021,17 @@ docs:
   date: '1964-01-30'
   ch: S
   committee: Committee on Commerce
-  code: s.commerce
+  code: 320
   name: Commerce
   heading: FIREARMS
   bills:
   - S. 1975
   - S. 2345
+  witnesses:
+  - as: Representative Lindsay
+    title: Representative
+    name: Lindsay
   others:
-  - Representative Lindsay
   - Glenn C. Taylor and Ben Avery, representing the Arizona State Rifle & Pistol Associ
   - ition, who were introduced
   text: Committee concluded its hearings on. S. 1975 and S. 2345, and other legislation to amend the Federal Firearms
@@ -3950,9 +4050,9 @@ docs:
 - key: cmte:1964-01-30-3
   src: cmte
   date: '1964-01-30'
-  ch: S
+  ch: H
   committee: Committee on the Judiciary
-  code: s.judiciary
+  code: 156
   name: Judiciary
   bills:
   - S. 2391
@@ -3983,10 +4083,10 @@ docs:
 - key: cmte:1964-01-30-4
   src: cmte
   date: '1964-01-30'
-  ch: S
+  ch: H
   committee: Committee on Rules and Administration
-  code: s.rules-and-administration
-  name: Rules and Administration
+  code: 142
+  name: House Administration
   exec: true
   next: '1964-01-31'
   text: Committee continued, in executive session, its study of financial and business activities of Senate employees
@@ -4001,7 +4101,7 @@ docs:
   date: '1964-01-30'
   ch: H
   committee: Committee on Agriculture
-  code: h.agriculture
+  code: 102
   name: Agriculture
   heading: TOBACCO
   bills:
@@ -4021,7 +4121,7 @@ docs:
   date: '1964-01-30'
   ch: H
   committee: Committee on Armed Services
-  code: h.armed-services
+  code: 106
   name: Armed Services
   heading: AIRCRAFT-MISSILES-NAVAL VESSELS
   bills:
@@ -4045,10 +4145,12 @@ docs:
   date: '1964-01-30'
   ch: H
   committee: Committee on Banking and Currency
-  code: h.banking-and-currency
+  code: 111
   name: Banking and Currency
   sub: Subcommittee on Domestic Finance
   heading: FEDERAL RESERVE SYSTEM
+  others:
+  - public witnesses
   text: Subcommittee on Domestic Finance continued a comprehensive review,;...,.~~. of the Federal Reserve System.
     Hea r<!.testimony from. public witnesses.
   page: D40
@@ -4059,7 +4161,7 @@ docs:
   date: '1964-01-30'
   ch: H
   committee: C~mmittee. on Education an d Labor
-  code: h.education-and-labor
+  code: 124
   name: Education and Labor
   sub: Subcommittee on Labor
   heading: SERVIC.E CONTRACTS ACT
@@ -4081,7 +4183,7 @@ docs:
   date: '1964-01-30'
   ch: H
   committee: Committee on Foreign Affairs
-  code: h.foreign-affairs
+  code: 132
   name: Foreign Affairs
   sub: Subcommittee on Eu
   heading: SOVIET BLOC
@@ -4097,7 +4199,7 @@ docs:
   date: '1964-01-30'
   ch: H
   committee: Committee on Interior and Insular Affairs
-  code: h.interior-and-insular-affairs
+  code: 146
   name: Interior and Insular Affairs
   heading: TRUST TERRITORY
   exec: true
@@ -4111,7 +4213,7 @@ docs:
   date: '1964-01-30'
   ch: H
   committee: Committee on Interstate and Foreign Commerce
-  code: h.interstate-and-foreign-commerce
+  code: 152
   name: Interstate and Foreign Commerce
   heading: TRANSPORTATION
   bills:
@@ -4128,7 +4230,7 @@ docs:
   date: '1964-01-30'
   ch: H
   committee: Committee on the Judiciary
-  code: h.judiciary
+  code: 156
   name: Judiciary
   sub: Subcommittee N
   text: Subcommittee No. l took testimony on private immigration bills.
@@ -4140,7 +4242,7 @@ docs:
   date: '1964-01-30'
   ch: H
   committee: Committee on the Judiciary
-  code: h.judiciary
+  code: 156
   name: Judiciary
   sub: Subcommittee No. 2
   heading: PRIVATE CLAIMS
@@ -4158,7 +4260,7 @@ docs:
   date: '1964-01-30'
   ch: H
   committee: Committee on the Judiciary
-  code: h.judiciary
+  code: 156
   name: Judiciary
   heading: ATTORNEYS
   bills:
@@ -4188,7 +4290,7 @@ docs:
   date: '1964-01-30'
   ch: H
   committee: Committee on Merchant Marine and Fisheries
-  code: h.merchant-marine-and-fisheries
+  code: 160
   name: Merchant Marine and Fisheries
   sub: Subcommittee on Merchant Marine
   heading: GRAIN-SOVIET RUSSIA
@@ -4204,7 +4306,7 @@ docs:
   date: '1964-01-30'
   ch: H
   committee: Committee on Post Office and Civil Service
-  code: h.post-office-and-civil-service
+  code: 168
   name: Post Office and Civil Service
   heading: CENSUS-GOVERNMENT ST A TISTICS
   text: Subcommittee oil Census and Government Statistics met in ex-. ecutive session on pending business. No announcements
@@ -4217,7 +4319,7 @@ docs:
   date: '1964-01-30'
   ch: H
   committee: Committee on Public Works
-  code: h.public-works
+  code: 172
   name: Public Works
   sub: Subcommittee on Watershed Development
   heading: WATERSHED
@@ -4263,7 +4365,7 @@ docs:
   date: '1964-01-30'
   ch: H
   committee: Committee on Rules
-  code: h.rules
+  code: 176
   name: Rules
   bills:
   - H.R. 980
@@ -4278,7 +4380,7 @@ docs:
   date: '1964-01-31'
   ch: S
   committee: Committee on Agriculture and Forestry
-  code: s.agriculture-and-forestry
+  code: 304
   name: Agriculture and Forestry
   heading: COTTON
   bills:
@@ -4323,21 +4425,22 @@ docs:
   date: '1964-01-31'
   ch: S
   committee: Committee on the Judiciary
-  code: s.judiciary
+  code: 358
   name: Judiciary
-  sub: Monopoly Subcommittee
+  sub: The Antitrust and Monopoly Subcommittee
   heading: PROFESSIONAL SPORTS ANTITRUST BILL
   bills:
   - S. 2391
   witnesses:
+  - as: Representative Stubblefield
+    title: Representative
+    name: Stubblefield
   - as: Walter Kennedy, commissioner, National Basketball Association, New York City
     name: Walter Kennedy
     office: commissioner, National Basketball Association, New York City
   - as: C. S. Campbell, president, National Hockey League, Montreal
     name: C. S. Campbell
     office: president, National Hockey League, Montreal
-  others:
-  - Representative Stubblefield
   text: The Antitrust and Monopoly Subcommittee continued its hearings on S. 2391, to limit the applicability of
     the antitrust laws so as to exempt certain aspects of designated professional team sports, with testimony from
     Representative Stubblefield; Walter Kennedy, commissioner, National Basketball Association, New York City; and
@@ -4350,7 +4453,7 @@ docs:
   date: '1964-01-31'
   ch: S
   committee: Committee on Rules and Administration
-  code: s.rules-and-administration
+  code: 380
   name: Rules and Administration
   heading: INVESTIGATION-SENATE EMPLOYEES
   exec: true
@@ -4375,7 +4478,7 @@ docs:
   date: '1964-01-31'
   ch: H
   committee: Committee on Agriculture
-  code: h.agriculture
+  code: 102
   name: Agriculture
   sub: Subcommittee on Tobacco
   heading: TOBACCO
@@ -4422,7 +4525,7 @@ docs:
   date: '1964-01-31'
   ch: H
   committee: Committee on Armed Services'
-  code: h.armed-services
+  code: 106
   name: Armed Services
   heading: AIRCRAFT-MISSILES-NAVAL VESSELS
   bills:
@@ -4451,7 +4554,7 @@ docs:
   date: '1964-01-31'
   ch: H
   committee: Committee on Foreign Affairs
-  code: h.foreign-affairs
+  code: 132
   name: Foreign Affairs
   heading: PEACE CORPS
   bills:
@@ -4465,7 +4568,7 @@ docs:
   date: '1964-01-31'
   ch: H
   committee: Committee on Interior and Insular Affairs
-  code: h.interior-and-insular-affairs
+  code: 146
   name: Interior and Insular Affairs
   heading: VIRGIN ISLANDS
   exec: true
@@ -4479,7 +4582,7 @@ docs:
   date: '1964-01-31'
   ch: H
   committee: Committee on Interstate and Foreign Commerce
-  code: h.interstate-and-foreign-commerce
+  code: 152
   name: Interstate and Foreign Commerce
   heading: TRANSPORTATION
   bills:
@@ -4496,7 +4599,7 @@ docs:
   date: '1964-01-31'
   ch: H
   committee: Committee on Merchant Marine and Fisheries
-  code: h.merchant-marine-and-fisheries
+  code: 160
   name: Merchant Marine and Fisheries
   heading: MERCHANT MARINE
   bills:

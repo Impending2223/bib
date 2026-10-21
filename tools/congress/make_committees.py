@@ -108,16 +108,18 @@ def roster_name(p):
 
 
 def years_in(p, typ, day):
-    """Whole years served in the chamber before the day, from the member's terms (a fortnight's grace for a late
-    start)."""
+    """Whole years served in the chamber before the day, from the member's terms: terms less than a year apart run
+    together (the sources date a term before 1935 from its first session, months after it began), each run counted
+    from its first day (a fortnight's grace for a late start)."""
     d0 = datetime.date.fromisoformat(day)
-    days = 0
-    for t in p["terms"]:
-        if t["type"] != typ:
-            continue
+    runs = []
+    for t in sorted((t for t in p["terms"] if t["type"] == typ), key=lambda t: str(t["start"])):
         a, b = datetime.date.fromisoformat(str(t["start"])), datetime.date.fromisoformat(str(t["end"]))
-        if a < d0:
-            days += (min(b, d0) - a).days
+        if runs and (a - runs[-1][1]).days < 366:
+            runs[-1][1] = max(runs[-1][1], b)
+        else:
+            runs.append([a, b])
+    days = sum((min(b, d0) - a).days for a, b in runs if a < d0)
     return int((days + 15) // 365.25)
 
 

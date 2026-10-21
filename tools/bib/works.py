@@ -1066,6 +1066,8 @@ def problems(series):
             for fld in ("n", "c", "r", "c2", "c3"):
                 for m in re.finditer(r"\[\[(w\.[^\]|]+)", e.get(fld) if isinstance(e.get(fld), str) else ""):
                     cited.add(cat.alias.get(m.group(1).strip(), m.group(1).strip()))
+    from . import printed                # the daybook's FRUS rows point to the Bulletin's and Current Documents' cards
+    cited |= printed.cards()
     unused = [cid for cid in cat.cards if cid not in w and cid not in cited]
     if unused:
         out.append(("warn", "works/", f"{len(unused)} cards nothing points to: {', '.join(sorted(unused)[:5])}"

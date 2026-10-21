@@ -207,6 +207,9 @@ def run(series, only=None):
     from . import indicators
     for where, msg in indicators.problems():
         add(ERROR, f"indicators/{where}.yaml", msg, "indicators")
+    from . import oil
+    for where, msg in oil.problems(indicators.load()):
+        add(ERROR, f"indicators/{where}.yaml", msg, "indicators")
     # election returns (elections/*.yaml)
     from . import elections
     for where, msg in elections.problems():
@@ -235,6 +238,10 @@ def run(series, only=None):
     from . import statefin
     for where, msg in statefin.problems(series):
         add(ERROR, where, msg, "statefin")
+    # the federal budgets and the debt limit (budgets/; tools/bib/budgets.py)
+    from . import budgets
+    for where, msg in budgets.problems(series):
+        add(ERROR, where, msg, "budgets")
     # the calendar's places in Indochina (place: and province: tags; sources/vn-provinces-1966)
     from . import vnmap
     for where, msg in vnmap.problems(series):
@@ -267,6 +274,10 @@ def run(series, only=None):
     from . import committees
     for where, msg in committees.problems():
         add(ERROR, "daybook/committees/", f"{where}: {msg}", "committees")
+    # the leaders and the standing committees at each Congress (congress/committees.yaml, tools/bib/committee_rosters.py)
+    from . import committee_rosters
+    for level, msg in committee_rosters.problems(series):
+        add(ERROR if level == "error" else WARN, "congress/committees.yaml", msg, "committee-rosters")
     # the calendar's threads in alphabetical order of their names (THREAD_SORT_AS: a name sorted under another word)
     for lst in series.lists.values():
         if lst.kind != "calendar":

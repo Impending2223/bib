@@ -13,10 +13,11 @@ STYLE:
     the document's own text was printed (`self`); then, on its own line, "In the notes: *Bulletin*, Mar. 27, 1961,
     pp. 449–454 (n. 3); *Current Documents, 1961*, pp. 579–583 (n. 4)" for the texts its footnotes cite there ("source
     note" for one its source note cites). The works by short title, italic; the Bulletin's issue by its date, the
-    series' month forms.
+    series' month forms; each work's name linked to its card's entry in the A–Z bibliography (works.html).
  2. A Bulletin citation links its pages to the archive.org copy at the printed page (`/page/93/mode/1up`), where a copy
     holds the page; *Current Documents* is unlinked (no open copy found). A citation whose date is no issue's, or whose
-    page is not in its issue, shows "Check" after it, the reason on hover, and takes no link.
+    page is not in its issue's pages (sources/dsb-issues.yaml), shows "Check" after it, the reason on hover; its page
+    stays linked (the page FRUS cites, whatever the date).
  3. Nothing of FRUS's wording is shown: the work, the date or year, the pages, the note.
 """
 import bisect
@@ -73,14 +74,17 @@ def page_url(date, page):
     nearest it holds within two pages."""
     v = vol_of(date)
     cands = [(k, it) for k, it in items().items() if it["vol"] == v]
-    for delta in (0, -1, 1, -2, 2):
-        hit = [(k, it) for k, it in cands if _has(it["pages"], page + delta)
+    for delta in (0, -1, 1, -2, 2):     # archive.org finds a printed page only where its numbering read one
+        hit = [(k, it) for k, it in cands if it.get("pages") and _has(it["pages"], page + delta)
                and it["main"][0] <= page + delta <= it["main"][1]]
         if not hit:
             continue
         if len(hit) > 1:
             hit = [h for h in hit if h[1]["from"] <= str(date) <= h[1]["to"]] or hit
         return IA.format(item=hit[0][0], page=page + delta)
+    for k, it in cands:                  # a copy archive.org would not serve when the pages were read: by its quarter
+        if it.get("unread") and it["from"] <= str(date) <= it["to"]:
+            return IA.format(item=k, page=page)
     return None
 
 
@@ -94,10 +98,9 @@ def locate(date, page):
     if r is None:
         if vol_of(date) in vols:
             check = "no issue of that date"
-    elif r.get("first") and r.get("last") and not r["first"] <= page <= r["last"]:
+    elif r.get("first") and r.get("last") and not r.get("check") and not r["first"] <= page <= r["last"]:
         check = f"the issue of that date is pp. {r['first']}–{r['last']}"
-    url = None if check else page_url(date, page)
-    return url, check
+    return page_url(date, page), check
 
 
 def day(date):
@@ -114,16 +117,36 @@ def load():
 
 def cite_html(r, with_note=True):
     pp = ("pp. " if any(c in r["pages"] for c in "–,") else "p. ") + r["pages"]
+    from .markup import WORKS_PAGE
+    cid = card(r)
     if r["work"] == "dsb":
         pg = f'<a class="src" href="{esc(r["url"])}" title="archive.org">{esc(pp)}</a>' if r.get("url") else esc(pp)
-        out = f"<i>Bulletin</i>, {esc(day(r['date']))}, {pg}"
+        name = "<i>Bulletin</i>"
+        rest = f", {esc(day(r['date']))}, {pg}"
     else:
-        out = f"<i>Current Documents, {esc(r['year'])}</i>, {esc(pp)}"
+        name = f"<i>Current Documents, {esc(r['year'])}</i>"
+        rest = f", {esc(pp)}"
+    out = (f'<a href="{WORKS_PAGE}#{esc(cid)}">{name}</a>' if cid else name) + rest
     if r.get("check"):
         out += f' <i title="{esc(r["check"])}">Check</i>'
     if with_note:
         out += " (source note)" if r.get("note") == "source" else (f" (n. {esc(r['note'])})" if r.get("note") else "")
     return out
+
+
+BULLETIN = "w.department-of-state-bulletin"
+
+
+def card(r):
+    """The works catalogue's card for a row's work: the Bulletin's, or Current Documents' of the year (1956-67)."""
+    if r["work"] == "dsb":
+        return BULLETIN
+    return f"w.current-documents-{r['year']}" if 1956 <= int(r.get("year") or 0) <= 1967 else None
+
+
+def cards():
+    """The cards the daybook's rows point to (for the works check: a card nothing points to)."""
+    return {c for rows in load().values() for r in rows for c in [card(r)] if c}
 
 
 def lines(key):

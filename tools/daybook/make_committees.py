@@ -95,7 +95,24 @@ def slug(t):
     return re.sub(r"-+", "-", re.sub(r"[^a-z0-9]+", "-", t.lower())).strip("-")
 
 
+def nelson():
+    """{(ch, name): code}: Garrison Nelson's codes of the standing committees, from congress/committees.yaml
+    (tools/congress/make_committees.py), where that file is."""
+    p = os.path.join(ROOT, "congress", "committees.yaml")
+    if not os.path.exists(p):
+        return {}
+    d = yaml.safe_load(open(p, encoding="utf-8")) or {}
+    return {(c["ch"].upper(), c["name"]): c["code"] for c in d.get("committees") or []}
+
+
+NELSON = nelson()
+
+
 def code_of(ch, name):
+    """Nelson's code for a standing committee (102, House Agriculture); else the chamber and the name's words
+    ('j.atomic-energy', 's.special-committee-on-aging')."""
+    if (ch, name) in NELSON:
+        return NELSON[(ch, name)]
     return f"{ch.lower()}.{slug(re.sub(r'^(?:Joint )?Committee on (?:the )?', '', name))}"
 
 
@@ -177,7 +194,8 @@ def layout(W, H, ws):
     g = (run[0] + run[-1]) / 2
     L, R, S = [], [], []
     for w in ws:
-        if (w[0] < g - 1 and w[2] > g + 1 and len(re.sub(r"\W", "", w[4])) >= 3) or w[3] - w[1] > 18:
+        if (w[0] < g - 1 and w[2] > g + 1 and len(re.sub(r"\W", "", w[4])) >= 3) or w[3] - w[1] > 18 \
+                or w[4].count("#") >= 5:          # the rule between days ('#####', the OCR's reading of it)
             S.append(w)
         elif (w[0] + w[2]) / 2 < g:
             L.append(w)
@@ -353,9 +371,34 @@ def caps_heading(t):
     return up / len(ls) > .85 and ":" not in s
 
 
-LEAD = re.compile(r"^[\s·•.,'_~-]*((?:Joint|Select|Special|[/fI] ?oint|J ?oi\S*|Senate|House)?\s*"
-                  r"(?:Committees?|Com\S{0,4}ittee|C\S{0,2}mm\S{0,4}ee|Subcommittee)\s*[^:]{0,90}?|"
-                  r"Joint Economic\S* Committee|J\S{1,4} Economic Committee|Conferees[^:]{0,80}?)\s*:\s*(.*)$")
+LEAD = re.compile(r"^[\s·•.,'_~\-]*([^:]{4,100}?)\s*:\s*(.*)$")
+
+
+def like(tok, word, cut=.7):
+    return difflib.SequenceMatcher(None, letters(tok), word).ratio() >= cut
+
+
+def lead_of(t):
+    """(lead, rest) where a line opens a meeting: 'Committee on Rules:' (the OCR's 'Gommt'ttee', 'Committe~' too),
+    'Joint Committee on Atomic Energy:', 'Select Committee on Small Business:', 'Joint Economic Committee:',
+    'Conferees ...'; not 'Committee also approved the following bills:'."""
+    if re.match(r"^\W*Conferees\b", t):
+        return re.sub(r"^\W*", "", t).split(None, 1)[0].rstrip(",.:"), re.sub(r"^\W*Conferees[,:]?\s*", "", t)
+    m = LEAD.match(t)
+    if not m:
+        return None
+    lead, toks = m.group(1), m.group(1).split()
+    if not (toks[0][:1].isupper() or toks[0][:1] in "/f"):     # 'mittee on Labor met in ex<:cutive': a line's end
+        return None
+    cmte = lambda x: like(x, "committee") or like(x, "committees") or like(x, "subcommittee", .8)
+    if len(toks) >= 2 and cmte(toks[0]) and len(letters(toks[1])) <= 3 and toks[1][:1].lower() in "oa0":
+        return lead, m.group(2)
+    if len(toks) >= 2 and any(like(toks[0], w, .75) for w in ("joint", "select", "special", "senate", "house")) \
+            and any(cmte(x) for x in toks[1:3]):
+        return lead, m.group(2)
+    if len(toks) == 3 and like(toks[1], "economic") and cmte(toks[2]):
+        return lead, m.group(2)
+    return None
 
 
 def clean(t):
@@ -385,8 +428,15 @@ def join_lines(lines):
     return clean(out)
 
 
-def committee_of(ch, lead):
-    """(chamber, printed, code, name) for a meeting's lead ('Committee on Foreign Relations')."""
+# a committee's name only within these dates (renamed, created): (from, to)
+VALID = {("S", "Interstate and Foreign Commerce"): ("", "1961-02-01"), ("S", "Commerce"): ("1961-01-01", "9999"),
+         ("H", "Un-American Activities"): ("", "1969-02-18"), ("H", "Internal Security"): ("1969-02-18", "9999"),
+         ("H", "Standards of Official Conduct"): ("1967-04-13", "9999"),
+         ("S", "Select Committee on Standards and Conduct"): ("1964-07-24", "9999")}
+
+
+def committee_of(ch, lead, day="1965-01-01"):
+    """(chamber, printed, code, name) for a meeting's lead ('Committee on Foreign Relations') on the day."""
     printed = clean(lead)
     t = re.sub(r"^(?:[/fI] ?oint|J ?oi\S*)\b", "Joint", printed)
     t = re.sub(r"\b(?:Com\S{0,4}ittee|C\S{0,2}mm\S{0,4}ee)\b", "Committee", t)
@@ -398,6 +448,9 @@ def committee_of(ch, lead):
     def best_of(c):
         best, score = None, 0
         for n in COMMITTEES[c]:
+            a_, b_ = VALID.get((c, n), ("", "9999"))
+            if not a_ <= day < b_:
+                continue
             forms = [n] if n.startswith(("Select", "Special", "Joint", "Conferees")) else [
                 f"Committee on {n}", f"Committee on the {n}"]
             for f in forms:
@@ -416,7 +469,7 @@ def committee_of(ch, lead):
     return ch, printed, code_of(ch, t), t
 
 
-SUB = re.compile(r"\b((?:Special |Select |Ad Hoc |General |Legislative |Consultative |Joint |[A-Z][\w'.-]+ )*"
+SUB = re.compile(r"\b((?:(?:Special |Select |Ad Hoc |General |Legislative |Consultative |Joint |[A-Z][\w'.-]+ )(?:and )?)*"
                  r"Subcommittee(?: No\. ?\d+| [A-Z]| on (?:the )?[A-Z][\w,'.-]*(?: (?:and|of|on|the|for|to|in|"
                  r"[A-Z][\w,'.-]*))*)?)")
 
@@ -456,11 +509,11 @@ def bills_of(text):
 TRIGGER = re.compile(
     r"(?:(?:heard|received|receive|hear|took|taking|with)\s+(?:further\s+|additional\s+)?testimony|testimony)"
     r"(?:\s+(?:was|were))?(?:\s+(?:also|further))?(?:\s+(?:received|heard|given|presented|taken))?"
-    r"(?:[\s,]+[^.;:]{0,60}?)?[\s,]+(?:from|by)\s*:?\s+"
+    r"(?:[\s,]+[^.;:]{0,60}?)?[\s,]+(?:from|by)\s*[.:]?\s+"
     r"|witnesses?\s+(?:heard\s+)?(?:today\s+)?(?:in\s+this\s+regard\s+)?(?:on\s+[^.;:]{0,40}?\s+)?"
     r"(?:were|was|included|being)\s*:?\s+"
     r"|having\s+as\s+(?:its|their)\s+witness(?:es)?\s+"
-    r"|(?:a\s+)?briefing\s+(?:from|by)\s+|briefed\s+by\s+|(?:heard|received)\s+(?:a\s+)?(?:report|statement|"
+    r"|(?:a\s+)?briefing\s+(?:from|by|with)\s+|briefed\s+by\s+|(?:heard|received)\s+(?:a\s+)?(?:report|statement|"
     r"discussion)s?\s+(?:from|by)\s+"
     r"|statements?\s+(?:was|were)\s+(?:presented|submitted|received|made)\s+(?:for\s+the\s+record\s+)?(?:by|from)\s+",
     re.I)
@@ -472,7 +525,7 @@ ABBR = re.compile(r"(?:\b[A-Z]|\bDr|\bMr|\bMrs|\bMs|\bJr|\bSr|\bCo|\bInc|\bCorp|
                   r"\bAve|\bMt|\bFt|\bPt|\bvol|\bpp|\bLtd)\.$")
 NOT_PERSON = re.compile(r"^(?:the\s+)?(?:various\s+|several\s+|numerous\s+|other\s+|additional\s+|following\s+)*"
                         r"(?:public|departmental|department|agency|administration|government|industry|private|"
-                        r"Government|Department|other|several|various|representatives?|officials?|spokesmen|"
+                        r"Government|Department|other|several|various|representatives?\s+(?:of|from)|officials?|spokesmen|"
                         r"members|witnesses|a\s+panel|panel|staff|officers?|individuals|persons|interested|"
                         r"\d+\s+\w+|two|three|four|five|six|seven|eight|nine|ten)\b", re.I)
 TITLE_FIRST = re.compile(
@@ -554,6 +607,9 @@ def name_office(rest):
 def person_item(item):
     """{'as', 'title', 'name', 'office'} for one witness as printed; None where it names no person."""
     item = re.sub(r"^(?:and|also|as\s+well\s+as)\s+", "", item.strip(" ,.:"), flags=re.I).strip()
+    # the sentence going on to its subject: 'George W. Ball in connection with recent rioting in Panama'
+    item = re.split(r",?\s+(?:in\s+connection\s+with|regarding|concerning|relative\s+to|with\s+respect\s+to|"
+                    r"in\s+support\s+of|in\s+opposition\s+to|with\s+regard\s+to)\s", item, maxsplit=1)[0]
     if not item or NOT_PERSON.match(item):
         return None
     x = {"as": item}
@@ -562,7 +618,9 @@ def person_item(item):
                           item):
         head, rest = m.group(1), m.group(2)
         nm, office = name_office(rest)
-        if NAME.match(nm) and len(nm.split()) <= 5:
+        member = re.match(r"^(?:Senator|Representative|Congressman|Delegate)$", head)
+        if (NAME.match(nm) or member and re.match(r"^[A-Z][\w'’.-]+(?: [A-Z][\w'’.-]+)*"
+                                                   r" of [A-Z][\w.]+(?: [A-Z][\w.]+)?$", nm)) and len(nm.split()) <= 5:
             x["title"] = re.sub(r"\s+", " ", head)
             x["name"] = nm
             if office:
@@ -592,6 +650,8 @@ def witnesses_of(text):
     """(witnesses, others): the persons the paragraph's formulas name (STYLE 4), and what they name that is not a
     person, as printed."""
     ws, others = [], []
+    # the OCR's 'Testinion y', 'testimoq.y' before 'was', 'from', 'by': read as the word
+    text = re.sub(r"\b([Tt])est[\w.;~']{2,5}(?: ?[\w.]{1,2})?(?=\s+(?:was|were|from|by|also|on)\b)", r"\1estimony", text)
     for m in TRIGGER.finditer(text):
         j = sentence_end(text, m.end())
         span = text[m.end():j].strip()
@@ -702,7 +762,7 @@ def read_volume(year, bbox):
     url = URL.format(y=year, p=VOLS[year])
     rows, day, chamber, mode, prev = [], None, None, None, None
     cur = None                                  # the meeting being read: dict with lines
-    heading, last_heading, blocked = None, False, False
+    heading, last_heading, blocked, met = None, False, False, set()
 
     def close():
         nonlocal cur
@@ -723,6 +783,7 @@ def read_volume(year, bbox):
                 if x:
                     close()
                     day, prev, chamber, mode, heading, blocked = x, x, None, None, None, False
+                    met = set()
                     continue
             if day is None:
                 continue
@@ -738,8 +799,17 @@ def read_volume(year, bbox):
                 elif s == "joint":
                     chamber, mode = "J", "meetings"
                 elif s == "meetings":
+                    # the day's first meetings with no chamber's heading read: the Senate's, which come first
+                    chamber = chamber or ("S" if not met else None)
                     mode = "meetings" if chamber else None
-                elif s in ("chamber", "highlights"):
+                    if chamber:
+                        met.add(chamber)
+                elif s == "chamber":
+                    # a second 'Chamber Action' after the Senate's meetings: the House's heading was not read
+                    if chamber == "S" and "S" in met:
+                        chamber = "H"
+                    mode = None
+                elif s == "highlights":
                     mode = None
                 elif s == "resume":           # the Resume, the tables, the index: nothing till the next day
                     mode, chamber, blocked = None, None, True
@@ -748,7 +818,6 @@ def read_volume(year, bbox):
             if mode != "meetings":
                 continue
             if re.match(r"^#+|^[#\s.,'·]+$", t.strip()):
-                close()
                 continue
             if caps_heading(t):
                 c = clean(t).strip(" .,'")
@@ -764,15 +833,14 @@ def read_volume(year, bbox):
                 last_heading = True
                 continue
             last_heading = False
-            m = LEAD.match(t)
-            if m and re.match(r"\W*(?:Sub)?committees?\s+(?:also|then|further|rejected|approved|adopted|agreed|voted|"
-                              r"ordered|will|met|held|heard|took|amendments?|action)\b", m.group(1), re.I):
-                m = None
-            if m and len(m.group(1)) >= 6:
+            m = lead_of(t)
+            if m and cur is not None and cur["lines"] and re.search(r"[a-z]-$", cur["lines"][-1].strip()):
+                m = None                     # the line before broke a word: this one goes on with it
+            if m:
                 close()
-                ch, printed, code, name = committee_of(chamber, m.group(1))
+                ch, printed, code, name = committee_of(chamber, m[0], day.isoformat())
                 cur = {"date": day, "ch": ch, "committee": printed, "code": code, "name": name,
-                       "heading": heading, "lines": [m.group(2)], "pdf": pi, "_lead_done": True}
+                       "heading": heading, "lines": [m[1]], "pdf": pi, "_lead_done": True}
                 heading = None
                 continue
             if cur is not None:

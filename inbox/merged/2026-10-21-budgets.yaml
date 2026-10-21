@@ -1,0 +1,74 @@
+patch: budgets
+by: Claude (fiscal agent)
+ops:
+- add:
+    entry:
+      id: cal.1962-01-18.economy
+      when: Jan. 18
+      date: '1962-01-18'
+      thread: economy
+      c: 'Budget for fiscal 1963: receipts $93.0 billion, expenditures $92.5 billion, a surplus of $463 million; fiscal 1962''s deficit put at $7.0 billion. National defense $52.7 billion.'
+      n: '[Annual Budget Message to the Congress, Fiscal Year 1963](https://www.presidency.ucsb.edu/documents/annual-budget-message-the-congress-fiscal-year-1963) (Jan. 18, 1962). [*The Budget of the United States Government for the Fiscal Year Ending June 30, 1963*, Table 1, p. 33](https://fraser.stlouisfed.org/files/docs/publications/usbudget/bus_1963.pdf#page=33). [[w.morgan-deficit-government]]; [[w.stein-fiscal-revolution-in-america]]. See [[cal.1961-03-24.economy]].'
+      tags:
+      - name:kennedy-john-f
+      - budget:1963
+- tag:
+    id: cal.1960-01-18.economy
+    add:
+    - budget:1961
+- tag:
+    id: cal.1961-01-16.economy
+    add:
+    - budget:1962
+- tag:
+    id: cal.1963-01-17.economy
+    add:
+    - budget:1964
+- tag:
+    id: cal.1964-01-21.economy
+    add:
+    - budget:1965
+- tag:
+    id: cal.1965-01-25.economy
+    add:
+    - budget:1966
+- tag:
+    id: cal.1966-01-24.economy
+    add:
+    - budget:1967
+- tag:
+    id: cal.1967-01-24.economy
+    add:
+    - budget:1968
+- tag:
+    id: cal.1968-01-29.economy
+    add:
+    - budget:1969
+- tag:
+    id: cal.1969-01-15.economy
+    add:
+    - budget:1970
+- edit:
+    id: cal.1962-10-16.economy
+    base: d3eb17dd
+    set:
+      c: 'Revenue Act of 1962 signed, [76 Stat. 960](https://www.govinfo.gov/content/pkg/STATUTE-76/pdf/STATUTE-76-Pg960.pdf). Investment credit, 7 percent. Withholding on dividends and interest dropped. The Treasury''s full-year estimate of the revenue lost: $0.2 billion, 0.03 percent of GDP.'
+      n: '[[w.tempalski-revenue-effects-of-major]], Table 1, p. 15; [[w.zelizer-taxing-america]]. See [[cal.1961-01-05.economy]]. Names: Mills, Dillon.'
+- edit:
+    id: cal.1964-02-26.economy
+    base: '16253209'
+    set:
+      c: 'Revenue Act of 1964 signed, [78 Stat. 19](https://www.govinfo.gov/content/pkg/STATUTE-78/pdf/STATUTE-78-Pg19.pdf), Johnson on television: an $11.5 billion cut. Individual rates 14 to 70 percent, from 20 to 91, in two steps, 1964 and 1965; corporate 48, from 52; withholding 14 percent, from 18, in eight days. Conference report, House Feb. 25, [326–83](https://voteview.com/rollcall/RH0880131); Senate Feb. 26, [74–19](https://voteview.com/rollcall/RS0880267). The Treasury''s full-year estimate of the revenue lost: $11.5 billion, 1.60 percent of GDP, 9.0 percent of receipts.'
+      n: 'Statute (K–J Cong. II.J.2). [Radio and Television Remarks Upon Signing the Tax Bill](https://www.presidency.ucsb.edu/documents/radio-and-television-remarks-upon-signing-the-tax-bill) (Feb. 26, 1964). [110 Cong. Rec., House, Feb. 25, 1964](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt3/pdf/GPO-CRECB-1964-pt3-8-2.pdf); [110 Cong. Rec., Senate, Feb. 26, 1964](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt3/pdf/GPO-CRECB-1964-pt3-9-2.pdf). [[w.tempalski-revenue-effects-of-major]], Table 1, p. 15; [[w.zelizer-taxing-america]]; [[w.stein-fiscal-revolution-in-america]]; [[w.michelmore-tax-and-spend]]; [[w.caro-passage-of-power]]. See [[cal.1963-01-24.economy]]; [[cal.1964-02-07.economy]]. Names: Johnson.'
+- edit:
+    id: cal.1966-03-15.economy
+    base: 31235dad
+    set:
+      c: 'Tax Adjustment Act signed at night, [80 Stat. 38](https://www.govinfo.gov/content/pkg/STATUTE-80/pdf/STATUTE-80-Pg38.pdf): some $6 billion over fifteen months, Johnson says. The excise cuts of Jan. 1 undone to Apr. 1, 1968: new cars back to 7 percent, telephone service to 10. Graduated withholding from May 1; corporations'' estimated tax paid sooner; self-employment tax in the individual''s estimate. $35 a month to some 370,000 persons 72 and over outside Social Security, from Prouty''s amendment, adopted in the Senate Mar. 8, [45–40](https://voteview.com/rollcall/RS0890275). No deduction for advertising in party convention programs. The Senate passed it Mar. 9, [79–9](https://voteview.com/rollcall/RS0890279); the conference report Mar. 15: House, [288–102](https://voteview.com/rollcall/RH0890221); Senate, [72–5](https://voteview.com/rollcall/RS0890284). An estimate in the Record, the Treasury''s or the Joint Committee''s, of the revenue gained in the year after enactment: $5.0 billion, 0.60 percent of GDP.'
+      n: '[Statement by the President Upon Signing the Tax Adjustment Act of 1966](https://www.presidency.ucsb.edu/documents/statement-the-president-upon-signing-the-tax-adjustment-act-1966) (Mar. 15, 1966). [[w.tempalski-revenue-effects-of-major]], Table 1, p. 15; [[w.zelizer-taxing-america]]; [[w.bernstein-guns-or-butter]]; [[w.helsing-johnsons-war-johnsons-great]]; [[w.collins-more]]. See [[cal.1965-12-05.economy]]. Names: Johnson, Prouty.'
+- edit:
+    id: cal.1968-06-28.economy-surcharge
+    base: bd7110a3
+    set:
+      c: 'Revenue and Expenditure Control Act signed, [82 Stat. 251](https://www.govinfo.gov/content/pkg/STATUTE-82/pdf/STATUTE-82-Pg251.pdf): a 10 percent surcharge on income taxes, from Jan. 1 for corporations and Apr. 1 for others, to June 30, 1969; fiscal 1969 expenditures cut $6 billion from the January budget, new obligational authority $10 billion; recommendations to rescind $8 billion of old; civilian employment limited; the excises on automobiles and telephones kept. Johnson: $20 billion off the deficit; Congress will "shift to the President the responsibility" for the cuts. A memorandum to the agencies. The Treasury''s estimate in the next January''s budget of the revenue gained: $16.0 billion in the first fiscal year, $4.7 billion in the second; 1.74 and 0.45 percent of GDP.'
+      n: '[Statement by the President Upon Signing the Tax Bill](https://www.presidency.ucsb.edu/documents/statement-the-president-upon-signing-the-tax-bill); [Memorandum on the Need for Reduced Spending by Federal Agencies Following Enactment of the Tax Bill](https://www.presidency.ucsb.edu/documents/memorandum-the-need-for-reduced-spending-federal-agencies-following-enactment-the-tax-bill) (June 28, 1968). Statute (K–J Cong. II.J.2). [[w.tempalski-revenue-effects-of-major]], Table 2, pp. 16–17. See [[cal.1968-06-20.economy]]. Names: Johnson.'

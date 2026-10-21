@@ -25,6 +25,10 @@
 #     final: the tabulation after the delegations changed their votes: {title, table, totals, votes (the States that
 #       differ from "all for" the nominee), note}; star: the Proceedings' note on a starred State, {st, text, page}
 #   names: the tabulations' surnames, the full names (the Proceedings' own forms), for the name entries
+#   hughes: a convention whose Call and roll calls are not yet read keeps only a source's table of how the delegations
+#     were chosen: {title, cite, url, columns (its columns, in order), totals (its printed column totals), notes (its
+#     footnotes, by number)}; under states, each State's {hughes: [the columns marked], note: the footnote on its name}.
+#     No block is built for it until the Call is in.
 
 '1968-R':
   name: Twenty-Ninth Republican National Convention
@@ -242,3 +246,73 @@
         WY: {Agnew: 12}
       star: {st: DE, page: 431, text: 'After all states had voted, the State of Delaware was recognized for the purpose of changing the vote to 12 for Governor Agnew. Before other states could be recognized Governor Romney moved that the rules be suspended to allow a unanimous vote for Governor Spiro T. Agnew. The Convention agreed by voice vote.'}
   names: {Carlson: Frank Carlson, Case: Clifford P. Case, Fong: Hiram L. Fong, Nixon: Richard M. Nixon, Reagan: Ronald Reagan, Rhodes: James A. Rhodes, 'N. Rockefeller': Nelson A. Rockefeller, 'W. Rockefeller': Winthrop Rockefeller, Romney: George Romney, Stassen: Harold Stassen, Lindsay: John Lindsay, Agnew: Spiro T. Agnew, Brooke: Edward W. Brooke}
+
+'1968-D':
+  name: Democratic National Convention
+  place: Chicago
+  opened: '1968-08-26'
+  closed: '1968-08-29'
+  hughes:
+    title: Table I.—Summary of 1968 Selection Procedures for State Delegates to the National Convention
+    cite: 'Commission on the Democratic Selection of Presidential Nominees (Hughes Commission), *The Democratic Choice*, inserted by Fraser, 114 Cong. Rec. 31544 (Oct. 14, 1968); the table, 31549'
+    url: https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt24/pdf/GPO-CRECB-1968-pt24-3-3.pdf#page=175
+    columns: [appointment, convention, open precinct, closed precinct, direct election, at large, by district, preferential poll, binding, advisory]
+    printed: [Direct appointment, Convention, Open precinct, Closed precinct, Direct election, At large, By district, Preferential poll, Binding, Advisory]
+    totals: {appointment: 10, convention: 32, direct election: 15, preferential poll: 13}
+    notes:
+      1: The State executive committee may declare statewide primary.
+      2: The party or State officials who choose all or part of the delegations in these States were themselves selected at least 1 year, in most cases 2 and even 4 years, before the national convention.
+      3: Delegates to the district and State nominating conventions are popularly elected on the day the preferential poll is held.
+      4: Delegates to the district and State nominating conventions are chosen by precinct representatives who are in turn elected in a primary held 2 years before the presidential election year.
+  states:
+    AL: {hughes: [appointment], note: 1}
+    AK: {hughes: [convention, open precinct]}
+    AZ: {hughes: [appointment, convention, closed precinct]}
+    AR: {hughes: [convention, closed precinct]}
+    CA: {hughes: [direct election, at large, preferential poll, binding]}
+    CO: {hughes: [convention, open precinct]}
+    CT: {hughes: [convention, open precinct, closed precinct], note: 2}
+    DE: {hughes: [convention, closed precinct], note: 2}
+    DC: {hughes: [direct election, at large]}
+    FL: {hughes: [direct election, at large, by district, preferential poll, advisory]}
+    GA: {hughes: [appointment]}
+    HI: {hughes: [convention]}
+    ID: {hughes: [convention, closed precinct], note: 2}
+    IL: {hughes: [convention, closed precinct, direct election, by district, preferential poll, advisory]}
+    IN: {hughes: [convention, preferential poll, binding], note: 3}
+    IA: {hughes: [convention, open precinct]}
+    KS: {hughes: [convention, closed precinct], note: 2}
+    KY: {hughes: [convention, open precinct]}
+    LA: {hughes: [appointment], note: 2}
+    ME: {hughes: [convention, open precinct]}
+    MD: {hughes: [appointment], note: 2}
+    MA: {hughes: [direct election, at large, by district, preferential poll, binding]}
+    MI: {hughes: [convention, closed precinct], note: 4}
+    MN: {hughes: [convention, open precinct]}
+    MS: {hughes: [convention, open precinct]}
+    MO: {hughes: [convention, open precinct]}
+    MT: {hughes: [convention, open precinct]}
+    NE: {hughes: [direct election, by district, preferential poll, advisory]}
+    NV: {hughes: [convention, open precinct]}
+    NH: {hughes: [direct election, by district, preferential poll, advisory]}
+    NJ: {hughes: [direct election, at large, by district]}
+    NM: {hughes: [convention, open precinct]}
+    NY: {hughes: [appointment, direct election, by district]}
+    NC: {hughes: [appointment, convention, open precinct], note: 2}
+    ND: {hughes: [convention, closed precinct]}
+    OH: {hughes: [direct election, at large, by district, preferential poll, advisory]}
+    OK: {hughes: [convention, closed precinct], note: 2}
+    OR: {hughes: [direct election, at large, by district, preferential poll, binding]}
+    PA: {hughes: [appointment, direct election, by district, preferential poll, advisory], note: 2}
+    RI: {hughes: [appointment], note: 2}
+    SC: {hughes: [appointment, convention, open precinct]}
+    SD: {hughes: [direct election, at large, preferential poll, binding]}
+    TN: {hughes: [convention, open precinct]}
+    TX: {hughes: [convention, open precinct]}
+    UT: {hughes: [convention, open precinct]}
+    VT: {hughes: [convention, open precinct]}
+    VA: {hughes: [convention, open precinct, closed precinct]}
+    WA: {hughes: [convention, open precinct, closed precinct], note: 2}
+    WV: {hughes: [direct election, at large, by district, preferential poll, advisory]}
+    WI: {hughes: [direct election, at large, by district, preferential poll, binding]}
+    WY: {hughes: [convention, closed precinct]}

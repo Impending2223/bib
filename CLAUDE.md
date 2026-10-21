@@ -135,6 +135,8 @@ notes/leads.md            leads to check later: events, figures and sources the 
 congress/changes.yaml     departures and successors during each Congress (generated)
 congress/specials.yaml    special elections during each Congress, 87th–93rd, with candidates (generated)
 congress/switches.yaml    members who changed party in office (kept by hand)
+congress/committees.yaml  each Congress's leaders and standing committees, 87th-93rd, and the committee list (generated)
+congress/committees-hand.yaml  the leaders Nelson does not code, the ICPSR joins and row corrections (kept by hand)
 elections/governors.yaml  every general election for governor, 1960–68 (generated from Wikipedia; never edit)
 elections/legislatures.yaml  each State legislature's parties by session, 1959–69 (generated from Klarner; never edit)
 statefin/states.yaml      each State's finances by fiscal year, 1959–68, State and local together, the large cities (generated
@@ -558,6 +560,38 @@ from Wikipedia's Congress pages, "Changes in membership"; check a date against t
 Biographical Directory where it matters), and a change of party in office, with its date
 (`congress/switches.yaml`, by hand: Thurmond, Watson, Byrd Jr., Reid, Riegle).
 
+## Leaders and committees
+
+`congress/committees.yaml`, written once by `tools/congress/make_committees.py` from Garrison Nelson's committee files
+on Charles Stewart III's data page (House `hrc8097.mit`, Senate `snc80102.mit`, codebook `cb9999`; never edit the
+output): for the 87th to the 93rd Congress, each chamber's standing committees, their members in Nelson's order (by
+side, the *Journals*' listing at the first session by rank, then the additions to an enlarged committee and the
+replacements by date of assignment), the chairmen and ranking minority members, the dates of assignment and of
+leaving and why; the leaders; and each roster member's whole years in the chamber at the opening (congress-legislators'
+terms). Members join the rosters by ICPSR id through unitedstates/congress-legislators (the rosters' source). Its
+`committees:` list (Nelson's code, chamber, the name the *Congressional Directory* prints, the Congresses it has
+members in) is the series' committee list: the hearings calendar (daybook/committees/) keys to it. Nelson's files for
+these Congresses hold the standing committees only (no select, special or joint committee, no subcommittee), and
+code only the Senate's floor leaders and whips (code 620); the House's leaders (Speaker, floor leaders, whips, caucus
+and conference chairmen) and the Senate's President pro tempore and conference chairmen are in
+`congress/committees-hand.yaml`, read from the House's and the Senate's own lists (its `sources`), each change dated
+as the list dates it, and the script stops where Nelson's Senate leaders differ from the Senate's lists. The hand file
+also holds an ICPSR id congress-legislators carries differently (Kenneth J. Gray) and any row correction, each with its
+reason. Rerun the script after changing the hand file (it needs the Nelson files and a congress-legislators checkout;
+the build does not).
+
+`tools/bib/committee_rosters.py` renders them (STYLE notes at the top): on `congress.html`, under each Congress at its
+opening, "Leadership" (a table a chamber: office, holder linked to his name entry and roster row, party, the dated
+changes) and "Committees" (a collapsible table a chamber, a tbody a committee anchored `cm<NN>-<h|s>-<code>`: the
+ratio, chairman and ranking member, Democrats and Republicans side by side in rank order, each linked to his name entry
+and his roster row, the changes with their dates); in each roster row, a column "Yrs" (years in the chamber at the
+opening) and a muted line of his committees and rank; in each Names entry, "Committees" across the Congresses ("House
+Ways and Means: 1st (chairman), 87th–93rd Cong."). A calendar entry tagged `committees:<NN>` carries the Leadership
+and Committees blocks, as `congress:<NN>` carries the roster (now the five openings, 87th-91st). `check` fails on
+ranks not consecutive within side and group, a member who is neither in the roster at the opening nor his seat's
+successor in `congress/changes.yaml`, a leader not in the roster, a code not in the list; warns on a committee with no
+chairman and a leader with no name entry [committee-rosters].
+
 ## The Executive Branch
 
 `./bib build` writes `build/executive.html`: the Executive Branch at each inauguration (1953, 1957, 1961,
@@ -944,6 +978,9 @@ the maps, as for the primaries.
   proceedings_august-5-8-1968`; 1972 on too); 1964 both parties, Bain and Parris's *Convention Decisions and Voting
   Records*, CQ's *National Party Conventions* and the Senate Library's *Nomination and Election of the President and
   Vice President* (1968) borrow only; 1960 both and Democratic 1968 not found (`notes/leads.md`).
+- A convention not yet read keeps only a source's table of how its delegations were chosen (`hughes`): Democratic
+  1968, the Hughes Commission's Table I (*The Democratic Choice*, 114 Cong. Rec. 31549, Oct. 14, 1968), each State's
+  marks as printed, `check` holding them to the printed column totals. No block until the Call and the roll call are in.
 
 ## Governors
 

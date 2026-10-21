@@ -85,16 +85,19 @@ def ranges(nums):
 
 
 def main_run(seq):
-    """The longest run of printed pages rising in leaf order (gaps of up to eight pages: plates, missed numbers)."""
+    """The longest run of printed pages rising in leaf order (gaps of up to sixty pages: plates, numbers the OCR
+    missed); a run from the volume's first pages starts at 1 (the covers carry no number)."""
     best, cur = [], []
     for n in seq:
-        if cur and 0 < n - cur[-1] <= 8:
+        if cur and 0 < n - cur[-1] <= 60:
             cur.append(n)
         else:
             cur = [n]
         if len(cur) > len(best):
             best = list(cur)
-    return [best[0], best[-1]] if best else [0, 0]
+    if not best:
+        return [0, 0]
+    return [1 if best[0] <= 20 else best[0], best[-1]]
 
 
 def main():
@@ -220,6 +223,8 @@ def issues(covers, items):
             r["last"] = max(ends) if ends else None
         elif nxt.get("first"):
             r["last"] = nxt["first"] - 1
+        if r.get("last") is not None and not 8 <= r["last"] - r["first"] + 1 <= 120:
+            r["check"] = f"pages doubtful (read {r['first']}–{r.pop('last')})"
     return [{k: r[k] for k in ("no", "date", "vol", "first", "last", "src", "item", "leaf", "check") if r.get(k) is not None}
             for r in rows]
 

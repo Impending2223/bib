@@ -2732,6 +2732,9 @@ def entry(series, linker, ptrs, p):
             out.append(f'<details class="lvz"><summary><h3>{title}</h3> <span class="lvc">{fold}</span></summary>{body}</details>')
         else:
             out.append(f"<h3>{title}</h3>" + body)
+    from . import committee_rosters             # his committees across the Congresses (its STYLE 4)
+    cm_items, cm_foot = committee_rosters.person_items(rp, names, SITE)
+    section("Committees", cm_items, foot=cm_foot)
     kinds = lambda k: [w for w in works if w[0] == k]
     g_own, g_prim, g_about = grouped(kinds("own")), grouped(kinds("primary")), grouped(kinds("about"))
     every = g_own + g_prim + g_about

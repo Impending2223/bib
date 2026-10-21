@@ -3,15 +3,15 @@
 Written by `./bib audit-cal` (`tools/bib/calaudit.py`): the dated entries checked against the brief in
 CLAUDE.md ("The calendar"). A review list: a hit is a place to look, not an error. Rerun after editing.
 
-4931 dated entries.
+4932 dated entries.
 
 | Check | Entries |
 |---|---|
 | A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 1339 |
 | (of which only a President's surname: Eisenhower, Kennedy, Johnson) | 21 |
 | Neither a bibliography of its own nor a `See [[id]]` back | 2 |
-| No primary record linked or named | 821 |
-| A primary record named but not linked | 126 |
+| No primary record linked or named | 826 |
+| A primary record named but not linked | 122 |
 | Threads (statements listed for review) | 218 |
 
 ## Names
@@ -3239,6 +3239,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1962-06-05.mississippi-ms` (June 5, XXXI jun62.yaml): Mississippi, down from six Representatives to five, two incumbents put in one district: Whitten beats Frank E.
 - `cal.1962-06-05.governors-id` (June 5, XXXI jun62.yaml): Idaho's primary. Republican, for governor: Smylie, seeking a third term, 37,761, 57.2 percent; Lindquist 16,56
 - `cal.1962-06-06.legislatures-tn` (June 6–7, XXXI jun62.yaml): Tennessee's General Assembly reapportions both houses, June 6, the first time since 1901; Ellington signs June
+- `cal.1962-06-16.defense` (June 16, XXXI jun62.yaml): McNamara at Ann Arbor. Counterforce: in nuclear war, strike forces, spare cities.
 - `cal.1962-06-18.governors-me` (June 18, XXXI jun62.yaml): Maine's Democratic primary for governor. Dolloff 18,234, 50.3 percent; Dubord 18,007.
 - `cal.1962-06-28.states-and-cities-nashville` (June 28, XXXI jun62.yaml): Nashville. Davidson County's voters approve the charter of a Metropolitan Government of Nashville and Davidson
 - `cal.1962-07-15.program` (July 15, XXXII jul62.yaml): *Washington Post* (Mintz): Kelsey of the FDA kept thalidomide off the market. Kefauver's drug bill revives.
@@ -3277,9 +3278,11 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1962-12-20.latin-america` (Dec. 20, XXXVII dec62.yaml): Bosch elected president of the Dominican Republic.
 - `cal.1962-12.cities-and-housing-nyc` (Dec., XXXVII dec62.yaml): New York. The Board of Estimate, after a hearing of six hours, sets aside Moses's Lower Manhattan Expressway, 
 - `cal.1962-12.states-and-cities-us` (Dec., XXXVII dec62.yaml): The Council of State Governments' General Assembly of the States, at Chicago, recommends three amendments to t
+- `cal.1963-02-11.middle-east` (Feb. 11, XXXIX feb63.yaml): The United States recognizes the new regime in Iraq.
 - `cal.1963-02-19.program` (Feb. 19, XXXIX feb63.yaml): Friedan's *The Feminine Mystique* published.
 - `cal.1963-02-27.japan-and-korea` (Feb. 27, XXXIX feb63.yaml): Seoul. The party leaders accept Park's terms. Kim Chong-p'il out of the country since Feb. 25.
 - `cal.1963-03-05.mayors-baltimore` (Mar. 5, XL mar63.yaml): Baltimore primaries for mayor. Democratic: Goodman, mayor since December, 49.5 percent of 143,418, the nearest
+- `cal.1963-03-11.middle-east` (Mar. 11, XL mar63.yaml): The United States recognizes the new regime in Syria.
 - `cal.1963-03-17.cuba` (Mar. 17, XL mar63.yaml): Alpha 66 exiles fire on the Soviet freighter *Lvov* at Isabela de Sagua.
 - `cal.1963-03-25.governors-mn` (Mar. 25, XL mar63.yaml): Minnesota. Rolvaag sworn in, 139 days after the election; Andersen governor through the legislative session's 
 - `cal.1963-03.mayors-kansas-city` (Mar., XL mar63.yaml): Kansas City, Mo., elects Davis mayor, the Citizens Association's candidate, over Brookfield, by 1,810 votes of
@@ -3307,6 +3310,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1963-06-22.civil-rights-bill` (June 22, XLIII jun63.yaml): Kennedy meets some thirty civil rights leaders, King, Randolph, Wilkins, Young, Farmer, and Lewis among them. 
 - `cal.1963-06-26.antisubversion-nc` (June 26, XLIII jun63.yaml): North Carolina. In the session's last hours, without hearings, the General Assembly passes the Act to Regulate
 - `cal.1963-06-26.desegregation-public-places-ky` (June 26, XLIII jun63.yaml): Kentucky. Combs's executive order, the Fair Services Code: no discrimination by race in the State's public acc
+- `cal.1963-06-29.middle-east-yemen` (June 29, XLIII jun63.yaml): The State Department: Saudi visa policy on persons of the Jewish faith unchanged, American policy one of nondi
 - `cal.1963-07-04.elections-1964` (July 4, XLIV jul63.yaml): Draft Goldwater rally, National Guard Armory, Washington. Police count over 7,000. Tower the speaker; O'Donnel
 - `cal.1963-07-14.elections-1964` (July 14, XLIV jul63.yaml): Rockefeller's statement against the "radical right": the Young Republicans' convention at San Francisco in Jun
 - `cal.1963-07-21.states-and-cities-us` (July 21–24, XLIV jul63.yaml): Governors' Conference at Miami Beach. July 22: Hatfield's appeal against a five-minute limit on the civil righ
@@ -3516,6 +3520,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1966-01-24.jobs-and-wages` (Jan. 24, LXXV jan66b.yaml): Repeal of 14(b) again. Mansfield moves to take up H.R. 77 (Check the day); Dirksen and his allies hold the flo
 - `cal.1966-01-24.states-and-cities-dc` (Jan. 24, LXXV jan66b.yaml): Washington. A one-day boycott of D.C. Transit's buses against a fare rise from 20 cents to 25, called by Barry
 - `cal.1966-01-26.open-housing` (Jan. 26, LXXV jan66b.yaml): King moves into a flat on South Hamlin Avenue in Lawndale, on Chicago's West Side: the Chicago Freedom Movemen
+- `cal.1966-01-27.africa` (Jan. 27, LXXV jan66b.yaml): Nigeria. The State Department: relations with Ironsi's military government continue.
 - `cal.1966-02.vietnam` (Feb., LXXVI feb66.yaml): Masher renamed White Wing: Bundy asks MACV for no provocative names; Wheeler passes it on, Masher his example;
 - `cal.1966-02-08.vietnam-hearings` (Feb. 8, LXXVI feb66.yaml): Gavin before the Foreign Relations Committee, for holding enclaves on the coast.
 - `cal.1966-02-10.vietnam-hearings` (Feb. 10, LXXVI feb66.yaml): Kennan before the Foreign Relations Committee, against widening the war. CBS shows reruns in place of his test
@@ -3919,11 +3924,8 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1962-11-06.governors-nm` (Nov. 6, XXXVI nov62.yaml): New Mexico. Campbell (D) governor over Mechem (R), 130,933 to 116,174, 53.0 percent. — names "Canvass"
 - `cal.1962-11-06.governors-pa` (Nov. 6, XXXVI nov62.yaml): Pennsylvania. Scranton (R) governor over Dilworth (D), 2,424,918 to 1,938,627, 55.4 percent; 62 of the 67 coun — names "Manual"
 - `cal.1963-02-06.economy` (Feb. 6, XXXIX feb63.yaml): Ways and Means opens hearings on the tax message, Dillon first. They run to Mar. 27. — names "Hearings"
-- `cal.1963-02-11.middle-east` (Feb. 11, XXXIX feb63.yaml): The United States recognizes the new regime in Iraq. — names "Department of State Bulletin"
-- `cal.1963-03-11.middle-east` (Mar. 11, XL mar63.yaml): The United States recognizes the new regime in Syria. — names "Department of State Bulletin"
 - `cal.1963-03-12.state-and-city-finance-in` (Mar. 12, XL mar63.yaml): Indiana. Welsh calls the General Assembly into special session on his "2-2-2" plan: the State's first sales ta — names "Laws of "
 - `cal.1963-04-01.state-constitutions-mi` (Apr. 1, XLI apr63.yaml): Michigan's new constitution ratified, 810,860 to 803,436, 50.2 percent. In force Jan. 1, 1964: the Civil Right — names "Canvass"
-- `cal.1963-06-29.middle-east-yemen` (June 29, XLIII jun63.yaml): The State Department: Saudi visa policy on persons of the Jewish faith unchanged, American policy one of nondi — names "Department of State Bulletin"
 - `cal.1963-07-01.legislatures-il` (July 1, XLIV jul63.yaml): Illinois. Kerner vetoes the Republican legislature's map of the House's districts, "unfair." Under the amendme — names "Blue Book"
 - `cal.1963-07-30.specials` (July 30, XLIV jul63.yaml): Pennsylvania 15th, special. Fred B. Rooney (D) holds the seat of Francis E. Walter (D), who died May 31; 53.5  — names "Manual"
 - `cal.1963-08-06.mississippi-ms` (Aug. 6, XLV aug63.yaml): Mississippi's Democratic primary for governor: Lieutenant Governor Paul Johnson 38.5 percent, former Governor  — names "Official and Statistical"
@@ -3958,7 +3960,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1965-11-02.state-constitutions-ny` (Nov. 2, LXXII nov65.yaml): New York's voters call a constitutional convention for 1967, and approve a bond issue of $1 billion for sewage — names "Legislative Manual"
 - `cal.1965-12.amendments` (Dec., LXXIII dec65.yaml): The year's applications to Congress for a convention on the apportionment of State legislatures: twenty-three  — names "Cong. Rec."
 - `cal.1966-01-15.state-and-city-finance-va` (Jan. 15–Mar., LXXV jan66b.yaml): Virginia. Godwin inaugurated governor, Jan. 15. The General Assembly enacts the Virginia Retail Sales and Use  — names "Acts of "
-- `cal.1966-01-27.africa` (Jan. 27, LXXV jan66b.yaml): Nigeria. The State Department: relations with Ironsi's military government continue. — names "Department of State Bulletin"
 - `cal.1966-02-08.specials` (Feb. 8, LXXVI feb66.yaml): New York 17th, special. Kupferman (R), of the City Council, holds Lindsay's seat: 44,125; Orin Lehman (D) 43,2 — names "Legislative Manual"
 - `cal.1966-03-08.india-and-china` (Mar. 8, LXXVII mar66.yaml): The Senate Foreign Relations Committee, Fulbright presiding, hears scholars on policy toward mainland China, t — names "Hearings"
 - `cal.1966-03-22.transportation` (Mar. 22, LXXVII mar66.yaml): Ribicoff's Subcommittee on Executive Reorganization. Roche, president of General Motors: GM, through its lawye — names "Hearings"
