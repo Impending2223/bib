@@ -275,7 +275,7 @@ a.tx{color:var(--muted);text-decoration-color:var(--rule)}
 a.tx.ty{text-decoration:none}
 a.tx.ty:hover{text-decoration:underline;text-decoration-color:var(--rule)}
 /* a ghost subthread's line in the thread index, muted, nothing underlined (STYLE 9) */
-li.thg,li.thg .s,li.thg a{color:var(--muted);font-weight:inherit;text-decoration:none}
+li.thg,li.thg .s,li.thg .ty,li.thg a{color:var(--muted);text-decoration:none}
 p.seam{font-family:var(--sans);font-size:.8rem;margin:1rem 0}
 p.seam a{color:var(--muted);text-decoration-color:var(--rule)}
 /* a thread highlighted (STYLE 7) */
