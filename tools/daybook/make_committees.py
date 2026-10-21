@@ -601,9 +601,10 @@ def name_office(rest):
     m = re.match(r"^(.+?)\s*\(([^)]+)\)$", nm)           # 'Clifford Hope (former Representative)'
     if m and not office:
         nm, office = m.group(1), m.group(2)
-    if re.match(r"^(?:Jr\.|Sr\.|II|III|IV)(?:,|$)", office):
+    if re.match(r"^(?:Jr\.?|Sr\.?|II|III|IV)(?:,|$)", office):
         suf, _, office = office.partition(", ")
-        nm = f"{nm}, {suf.rstrip(',')}"
+        suf = suf.rstrip(",")
+        nm = f"{nm}, {suf + '.' if suf in ('Jr', 'Sr') else suf}"
     m = OFFICE_END.search(office)
     if m:
         office = office[:m.start()]
@@ -652,6 +653,28 @@ PAIR = re.compile(r",\s+and\s+(?=(?:(?:Dr|Mr|Mrs|Miss|Gen|Adm|Col|Capt|Lt\.\s+Ge
                   r"(?:[A-Z][\w'’.-]*\.?\s+){1,3}[A-Z][\w'’-]+(?:,\s+Jr\.)?,\s)")
 
 
+NAMEI = re.compile(r"^(?:and\s+)?(?:(?:Dr|Mr|Mrs|Miss|Gen|Adm|Col|Capt|Judge)\.?\s+)?(?:[A-Z][a-z]+\s+)?(?:[A-Z]\.\s*)+"
+                   r"(?:[A-Z][a-z]+\s+)?(?:Mc|Mac|O')?[A-Z][a-z][\w'’-]+$")
+NOT_NAMEI = re.compile(r"\b(?:U\.\s?S|D\.\s?C|Department|Bureau|Agency|Association|Inc|Co|Corp|University|Commission|"
+                       r"Council|Office|Service|Board|Institute|Company|League|Union|Federation|Division|Guard|Army|Navy|"
+                       r"Force|Corps)\b")
+
+
+def comma_people(part):
+    """'A. L. Mills, Jr., J. L. Robertson, and Charles N. Shepardson, all members of ...': a list of persons parted by
+    commas alone; a new person where a part is a name with an initial ('J. L. Robertson'), the part before not."""
+    chunks = [c for c in re.split(r",\s+", part)]
+    out, cur = [], []
+    for c in chunks:
+        if cur and NAMEI.match(c.strip()) and not NOT_NAMEI.search(c):
+            out.append(", ".join(cur))
+            cur = []
+        cur.append(c)
+    if cur:
+        out.append(", ".join(cur))
+    return [re.sub(r",\s+and\s+(?:other|various|several)\b.*$", "", x) for x in out]
+
+
 def witnesses_of(text):
     """(witnesses, others): the persons the paragraph's formulas name (STYLE 4), and what they name that is not a
     person, as printed."""
@@ -665,13 +688,16 @@ def witnesses_of(text):
     for m in TRIGGER.finditer(text):
         j = sentence_end(text, m.end())
         span = text[m.end():j].strip()
-        span = re.sub(r"^(?:the\s+following(?:\s+witnesses)?\s*:?)\s*", "", span, flags=re.I)
+        span = re.sub(r"^(?:the\s+following(?:\s+[^:;.]{0,40}?)?\s*:)\s*|^the\s+following\s+witnesses\s+", "", span,
+                      flags=re.I)
         span = re.split(r"\s+(?:on|in\s+connection\s+with|regarding|concerning|relative\s+to|in\s+support\s+of|"
                         r"in\s+opposition\s+to|with\s+regard\s+to)\s+(?:the|S\.|H\.\s?R\.|H\.|pending|proposed)\b",
                         span, maxsplit=1)[0] if ";" not in span and "," not in span[:40] else span
         parts = []
         for part in split_top(span, ";"):           # 'X, office, and Gen. Y, office': two
-            parts += [p for p in PAIR.split(part) if p.strip()]
+            for p in PAIR.split(part):
+                if p.strip():
+                    parts += comma_people(p)
         for part in parts:
             part = part.strip()
             # 'Senators Keating, Hart, and Kennedy': names alone after a plural title
