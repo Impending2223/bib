@@ -70,6 +70,7 @@ reports them (`notes/calendar-audit.md`).
 
 ### Idaho
 
+- Idaho's first general sales tax, 1965 (Census: first revenue in fiscal 1966): the act and its date, and the referendum of 1966 on it, not entered. *Idaho Session Laws*, 1965; the Idaho legislature's site refused this host (403).
 - Sales tax, 1965, and the referendum on it, 1966: not entered. No Idaho return opened from here; Idaho State Archives; *Idaho Blue Book* (states.yaml gaps).
 - Reapportionment, 1964–66: not entered.
 - Herndon killed in a plane crash, Sept. 1966: the day (`cal.1966-09.governors-id`).
@@ -104,6 +105,7 @@ reports them (`notes/calendar-audit.md`).
 
 ### Kentucky
 
+- Kentucky's first general sales tax, 1960 (Combs; Census: first revenue in fiscal 1961): the act and its date not entered. *Kentucky Acts*, 1960; the LRC's site refused this host (403).
 - Sales tax, 1960 (Combs): no date found. *Acts of Kentucky*, 1960; Kentucky Department for Libraries and Archives.
 - Lexington: nothing verifiable written.
 
@@ -127,6 +129,7 @@ reports them (`notes/calendar-audit.md`).
 
 ### Minnesota
 
+- The 1967 sales tax: the first collections and the referendum LeVander asked for, not pursued (`cal.1967-06-01.state-and-city-finance-mn-2`).
 - Apportionment law of 1966: approved May 24 (MNopedia) or May 20 (Legislative Reference Library) (`cal.1966-01-14.legislatures-mn`).
 - Minneapolis. Mayoral races of 1963 and 1965: the votes; 1965 the day (`cal.1963-06-11.mayors-minneapolis`, `cal.1965-06.mayors-minneapolis`). The city's canvass.
 - St. Paul. Mayoral races of 1960, 1962, 1964, 1966: no source with dates or votes.
@@ -163,6 +166,7 @@ reports them (`notes/calendar-audit.md`).
 
 ### Nebraska
 
+- The Nebraska Revenue Act of 1967, the first general sales and income taxes (Laws 1967, c. 487, p. 1533; Census: first revenue in fiscal 1968): the date of passage and signature not found. *Nebraska Blue Book*, 1968, pp. 435–436 ([govdocs](https://govdocs.nebraska.gov/epubs/L3000/D001-1968.pdf#page=439)) gives the act without dates; *Laws of Nebraska*, 1967, c. 487.
 - Omaha. Mayoral races of 1961 and 1965: the days (`cal.1961-05.mayors-omaha`, `cal.1965-05.mayors-omaha`). Douglas County Election Commissioner.
 
 ### Nevada
@@ -171,6 +175,10 @@ reports them (`notes/calendar-audit.md`).
 - The Gaming Commission's Black Book, 1960; Sinatra's Cal-Neva license, 1963; the FBI's microphones in the casinos, 1966: not verified.
 - Las Vegas. Gragson re-elected, 1963; the Clark County commission: not found.
 - Reno: no data.
+
+### New Jersey
+
+- Census shows New Jersey drawing individual income tax revenue from fiscal 1962 ($6.5 million; `cal.1962-06-30.state-and-city-finance-us`): the act is probably the tax on commuters of 1961, not a general income tax. Check the act; *Laws of New Jersey*, 1961.
 
 ### New Mexico
 
@@ -282,6 +290,7 @@ reports them (`notes/calendar-audit.md`).
 
 ### Wisconsin
 
+- Wisconsin's selective sales tax, 1961–62 (Nelson; Census counts it a general sales tax, first revenue in fiscal 1962): the act and its date not entered. *Wisconsin Blue Book*, 1962 (UW digital collections; the whole-book PDF's address not found from here); docs.legis.wisconsin.gov reset the connection.
 - Sales tax fight, 1961–62: not written.
 - Milwaukee. Mayoral race, 1964: the opponent and the vote (`cal.1964-04-07.mayors-milwaukee`). The city's canvass.
 - Milwaukee. The Amos suit: the day of filing (`cal.1965-06.desegregation-schools-milwaukee`).
@@ -304,6 +313,10 @@ reports them (`notes/calendar-audit.md`).
 - The U.S. Conference of Mayors' 1968 meeting; the National League of Cities' 1968 congress.
 
 ## National
+
+- The conventions (`elections/conventions.yaml`, `cal.1968-08-05.elections-1968`): how and when each Republican delegation of 1968 was chosen is Wikipedia's table ("1968 Republican primaries and state conventions"), each row from a newspaper; read it against the Senate Library's *Nomination and Election of the President and Vice President ... Including the Manner of Selecting Delegates* (Jan. 1968; archive.org `nominationelecti0000na`, borrow only; not on govinfo; HathiTrust not reached, its pages bot-checked). Open questions there: whether each primary bound its delegates; Alabama (CQ Guide 6th (2010) 409 says a delegate-selection primary was held; the table gives conventions); New York's ten at large; Michigan's and Texas's district delegates (the table gives the State convention alone); Puerto Rico and the Virgin Islands (not in the table); the table's own doubts (Tennessee's 9th district, Mar. 28; Louisiana's 1st and 2nd, May 30). Its delegate counts disagree with the Call in places (Florida 36, the Call 34) and were not taken.
+- The other conventions (`elections/conventions.yaml`): Republican 1964 (San Francisco: the Scott civil rights and extremism amendments' roll calls; *Twenty-eighth Republican National Convention*, archive.org `twentyeighthrepu0000unse`, borrow, may be the program); Democratic 1964 (Atlantic City: the Mississippi and Alabama seatings; *Official Report of the Proceedings of the Democratic National Convention and Committee*, `officialreportof0000chai`, borrow, 942 pp.); Democratic 1968 (Chicago: the unit rule, the Georgia, Mississippi, Texas, Alabama and North Carolina seatings, the minority Vietnam plank, the first ballot by State; Proceedings not found online; Wikipedia gives only the totals, Humphrey 1,759.25); 1960 both (not found). Bain and Parris, *Convention Decisions and Voting Records* (2d ed. 1973; `conventiondecisi0000bain`, borrow; HathiTrust search-only) prints every roll call by State; CQ's *National Party Conventions, 1831-1972* (`nationalpartycon0000cong_n4e9`, borrow; HathiTrust search-only) the apportionments. The Republican Proceedings run on archive.org's `sim_republican-national-convention-proceedings_*` from 1968 only.
+- The Republican roll calls of 1968 in the Names: each delegation's vote is not yet a row in the candidates' records (as `primary_rows` does for the primaries).
 
 - Senate Finance's hearings on the tax bill, Oct. 15, 1963: the date not verified. The hearings on H.R. 8363 (govinfo).
 - The rail arbitration board's award, Nov. 26, 1963: not entered.

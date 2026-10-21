@@ -219,6 +219,10 @@ def run(series, only=None):
     from . import primaries
     for where, msg in primaries.problems(series):
         add(ERROR, where, msg, "primaries")
+    # the national conventions (elections/conventions.yaml)
+    from . import conventions
+    for where, msg in conventions.problems(series):
+        add(ERROR, where, msg, "conventions")
     # the general elections for governor (elections/governors.yaml)
     from . import governors
     for where, msg in governors.problems(series):
@@ -227,6 +231,10 @@ def run(series, only=None):
     from . import legislatures
     for where, msg in legislatures.problems(series):
         add(ERROR, where, msg, "legislatures")
+    # the States' finances by fiscal year (statefin/states.yaml)
+    from . import statefin
+    for where, msg in statefin.problems(series):
+        add(ERROR, where, msg, "statefin")
     # the calendar's places in Indochina (place: and province: tags; sources/vn-provinces-1966)
     from . import vnmap
     for where, msg in vnmap.problems(series):
@@ -255,6 +263,10 @@ def run(series, only=None):
     from . import daybook
     for where, msg in daybook.problems():
         add(ERROR, "daybook/", f"{where}: {msg}", "daybook")
+    # the committees' meetings (daybook/committees/, tools/daybook/make_committees.py)
+    from . import committees
+    for where, msg in committees.problems():
+        add(ERROR, "daybook/committees/", f"{where}: {msg}", "committees")
     # the calendar's threads in alphabetical order of their names (THREAD_SORT_AS: a name sorted under another word)
     for lst in series.lists.values():
         if lst.kind != "calendar":
@@ -284,7 +296,7 @@ def thread_sort_key(name):
     return (THREAD_SORT_AS.get(name) or THREAD_SORT_AS.get(head, head) + sep + rest).lower()
 
 HAND = ["lists/**/*.yaml", "executive/*.yaml", "daybook/abstracts.yaml", "elections/facts.yaml",
-        "elections/pres-primaries.yaml", "elections/renominations.yaml", "elections/primaries.yaml", "elections/cq.yaml",
+        "elections/pres-primaries.yaml", "elections/conventions.yaml", "elections/renominations.yaml", "elections/primaries.yaml", "elections/cq.yaml",
         "elections/readings/*.yaml", "congress/specials-state.yaml", "congress/specials-cq.yaml",
         "congress/switches.yaml", "sources/gallup-approval.yaml", "sources/states.yaml",
         "sources/executive-sources.yaml"]

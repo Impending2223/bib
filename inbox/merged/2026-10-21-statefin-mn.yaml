@@ -1,0 +1,18 @@
+patch: statefin-mn
+by: Claude (State finance agent)
+ops:
+  - add:
+      entry:
+        id: cal.1967-06-01.state-and-city-finance-mn-2
+        when: June 1
+        date: '1967-06-01'
+        thread: state-and-city-finance
+        c: 'Minnesota''s first sales tax. The legislature passes H.F. 27 over LeVander''s veto the same day: the Tax Reform and Relief Act of 1967, a tax of 3 percent on retail sales made after July 31, 1967, with relief from the property tax for owners and renters.'
+        n: '*Laws of Minnesota for 1967*, Extra Session, ch. 32, art. XIII, § 2, [p. 2179](https://www.revisor.mn.gov/laws/1967/1/Session+Law/Chapter/32/pdf/#page=37); "Passed notwithstanding governor''s veto June 1, 1967," [p. 2210](https://www.revisor.mn.gov/laws/1967/1/Session+Law/Chapter/32/pdf/#page=68). See [[cal.1967-06-01.state-and-city-finance-mn]]. Names: LeVander.'
+        tags: [state:mn, name:levander-harold]
+  - edit:
+      id: cal.1967-06-01.state-and-city-finance-mn
+      base: 63617b8b
+      set:
+        c: 'Minnesota. LeVander vetoes the special session''s tax bill, H.F. 27: the State''s first sales tax, 3 percent, with relief from the property tax for owners and renters. He had asked for a referendum first. His veto of the regular session''s bill, May 20, had stood.'
+        n: '[Minn. Legislative Reference Library, vetoes of 1967](https://www.lrl.mn.gov/Vetoes/vetodetails?gov=1); [the veto message, June 1, 1967](https://www.leg.mn.gov/archive/vetoes/1967_sp1veto_HF27.pdf). [MNopedia, "LeVander, Karl Harold Phillip"](https://www.mnhs.org/mnopedia/search/index/person/levander-karl-harold-phillip-1910-1992). [[w.peirce-great-plains-states-of]]. Names: LeVander.'

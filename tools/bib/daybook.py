@@ -6,6 +6,8 @@
     daybook/sunday.yaml      the Sunday interview programs and their guests (tools/daybook/make_sunday.py)
     daybook/recordings/<YYYY-MM>.yaml   the White House recordings of the month, from the catalogue of the
                              Presidential Recordings Digital Edition (PRDE); made by tools/daybook/make_recordings.py
+    daybook/committees/<YYYY-MM>.yaml   the committees' meetings, from the bound Record's Daily Digest
+                             (tools/daybook/make_committees.py; tools/bib/committees.py renders them)
     daybook/recordings/millercenter.yaml   the same recordings' free pages and audio at the Miller Center (Secret White
                              House Tapes); made by tools/daybook/make_millercenter.py; matched to PRDE's by `free`
 
@@ -47,6 +49,11 @@ STYLE:
     4288; "Tape WH6407.11, Citations #4288 and #4289": either), his first tapes by tape and item ("Tape K6311.01A,
     PNO 3": the audio's item 3); Kennedy's by the day and the tape ("Tape 28.2", or "Tape 28", item 2), and where PRDE
     gives no item, the day's recordings on that tape in order, only where the two count alike.
+ 9. Under a FRUS document, muted: where its own text was printed at the time ("Printed: *Bulletin*, Jan. 15, 1962,
+    p. 93") and where the texts its notes cite were ("In the notes: ..."), in the *Department of State Bulletin* and
+    *American Foreign Policy: Current Documents*, read from FRUS's notes (daybook/printed.yaml; tools/bib/printed.py).
+ 10. Committees, a fourth list after the recordings: the Daily Digest's committee meetings of the day
+    (daybook/committees, tools/daybook/make_committees.py; rendered by tools/bib/committees.py, its STYLE notes).
 """
 import calendar
 import datetime
@@ -356,11 +363,16 @@ def doc_html(x, ab):
         bits.append('<span class="src">filed by its place in the volume</span>')
     a = ab.get(x["key"])
     abstract = f'<span class="ab">{esc(a)}</span>' if a else ""
+    if x["src"] == "frus":                   # where it, or what its notes cite, was printed then (STYLE 9)
+        from . import printed
+        abstract += printed.lines(x["key"])
     return f'<li>{au}{title} {" ".join(bits)}{abstract}</li>'
 
 
-def docs_html(docs, ab):
-    if not docs:
+def docs_html(docs, ab, iso=None):
+    from . import committees                # the committees' meetings, a fourth list (STYLE 10)
+    cm = committees.for_day(iso) if iso else []
+    if not docs and not cm:
         return ""
     ppp = [x for x in docs if x["src"] == "ppp"]
     frus = [x for x in docs if x["src"] == "frus"]
@@ -372,6 +384,8 @@ def docs_html(docs, ab):
         counts.append(f"FRUS {len(frus)}")
     if rec:
         counts.append(f"Recordings {len(rec)}")
+    if cm:
+        counts.append(f"Committees {len(cm)}")
     body = []
     if ppp:
         body.append('<ol class="dd">' + "".join(doc_html(x, ab) for x in ppp) + "</ol>")
@@ -379,6 +393,8 @@ def docs_html(docs, ab):
         body.append('<ol class="dd fr">' + "".join(doc_html(x, ab) for x in frus) + "</ol>")
     if rec:
         body.append('<ol class="dd fr">' + "".join(doc_html(x, ab) for x in rec) + "</ol>")
+    if cm:
+        body.append(committees.list_html(cm, SERIES))
     return (f'<details class="docs"><summary>Documents: {", ".join(counts)}</summary>'
             + "".join(body) + "</details>")
 
@@ -428,7 +444,7 @@ def section_days(lst, sec, entry_li, thread_name):
                 for e in running[d]) + "</p>")
         if d in dated:
             h.append('<ol class="e">' + "".join(entry_li(e, rubric(lst, e, thread_name)) for e in dated[d]) + "</ol>")
-        h.append(docs_html(by_day.get(iso, []), ab))
+        h.append(docs_html(by_day.get(iso, []), ab, iso))
         h.append("</div>")
         out.append("".join(h))
         d += datetime.timedelta(days=1)
@@ -471,6 +487,8 @@ ol.dd .au{font-weight:600}
 ol.dd .src{color:var(--muted);margin-left:.3rem}
 ol.dd a.src{color:var(--muted);text-decoration-color:var(--rule)}
 ol.dd .ab{display:block;font-family:var(--serif);font-size:.95rem;color:var(--note);margin-top:.1rem}
+ol.dd .pr{display:block;color:var(--muted);font-size:.74rem;margin-top:.05rem}
+ol.dd .pr a.src{margin-left:0}
 p.dtog{font-family:var(--sans);font-size:.78rem;color:var(--muted);margin:.4rem 0 .6rem}
 p.dtog button{font:inherit;font-weight:600;border:1px solid var(--rule);background:var(--panel);color:var(--ink);
   border-radius:6px;padding:.2rem .55rem;margin-right:.35rem;cursor:pointer}
@@ -497,7 +515,8 @@ def inject(page):
     """The styles and the expand/collapse script, where the page has days."""
     if 'class="day' not in page:
         return page
-    page = page.replace("</head>", STYLE + "\n</head>", 1)
+    from . import committees
+    page = page.replace("</head>", STYLE + committees.STYLE + "\n</head>", 1)
     return page.replace("</body>", SCRIPT + "\n</body>", 1)
 
 
@@ -517,4 +536,6 @@ def problems():
     for k in ab:
         if k not in seen:
             out.append((k, "daybook: abstract for a document not in daybook/"))
+    from . import printed                    # daybook/printed.yaml (STYLE 9)
+    out += printed.problems(seen)
     return out

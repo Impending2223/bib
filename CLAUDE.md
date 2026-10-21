@@ -130,12 +130,15 @@ elections/facts.yaml      hand-kept facts: caucus labels, faithless electors, 19
 elections/cq.yaml         CQ's *Guide to U.S. Elections* compared with the Clerk's figures, by page (kept by hand)
 elections/renominations.yaml  renominations lost by primary, where a source says so (kept by hand)
 elections/primaries.yaml  Senate primaries from CQ's *Guide*, by race (kept by hand; CQ prints no House primaries)
+elections/conventions.yaml  the national conventions: each delegation's votes, how chosen, the roll calls (kept by hand)
 notes/leads.md            leads to check later: events, figures and sources the drafting agents could not place
 congress/changes.yaml     departures and successors during each Congress (generated)
 congress/specials.yaml    special elections during each Congress, 87th–93rd, with candidates (generated)
 congress/switches.yaml    members who changed party in office (kept by hand)
 elections/governors.yaml  every general election for governor, 1960–68 (generated from Wikipedia; never edit)
 elections/legislatures.yaml  each State legislature's parties by session, 1959–69 (generated from Klarner; never edit)
+statefin/states.yaml      each State's finances by fiscal year, 1959–68, State and local together, the large cities (generated
+                          from Census's databases; never edit)
 sources/states.yaml       each State's own official election publications, where to read them, what they print (kept by hand)
 daybook/<YYYY-MM>.yaml    every Public Papers (APP) and FRUS document by date (generated)
 daybook/abstracts.yaml    one-sentence abstracts, keyed by document (kept by hand or agent)
@@ -918,6 +921,30 @@ year does not print. `tools/bib/primaries.py` renders them (STYLE notes there):
   the party's primary in the State, the date linked to the calendar's day, the candidates (the person in bold), the
   pinpoint cite (`primary_rows` in `tools/bib/lives.py`).
 
+## National conventions
+
+`elections/conventions.yaml`, kept by hand (header there: the schema), one block a convention (`1968-R`): the Call's
+apportionment, State by State, from the convention's *Official Report of the Proceedings*; how and when each delegation
+was chosen, from the source its `methods` names, with that source's Check; and the roll calls as the Proceedings
+tabulate them. `tools/bib/conventions.py` renders them (STYLE notes there); `drawQ` in `templates/congress.html` draws
+the maps, as for the primaries.
+
+- A calendar entry tagged `conventions:<YYYY>-<R|D>` (the opening, beside `primaries:`) carries the delegations: a
+  summary, a map by how chosen (primary; the districts in a primary, at large otherwise; district and State
+  conventions; a State convention; a State committee; not found), a map by the first-ballot leader, and the table
+  (each delegation's first-ballot vote, its votes, the Call's at large and districts, the bodies and dates of
+  choosing, a primary's date linked to its day). Its `gloss` sets out the Call's formula, quoted and cited by page.
+- An entry tagged `rollcall:<YYYY>-<R|D>-<ballot>` (the nomination) carries that roll call by State: the first
+  tabulation, the final where the delegations changed their votes after the roll, the Proceedings' starred notes,
+  the printed totals. Now Miami Beach, 1968: `pres1` (Aug. 7) and `vp` (Aug. 8). No procedural roll call was taken
+  there: the credentials report and the platform went by voice vote.
+- `check` fails where the Call's at large and districts do not make a State's votes, the States do not add to the
+  Call's total, a State's ballot does not add to its votes, or the columns do not add to the printed totals.
+- Sources and access: the Republican Proceedings of 1968 open on archive.org (`sim_republican-national-convention-
+  proceedings_august-5-8-1968`; 1972 on too); 1964 both parties, Bain and Parris's *Convention Decisions and Voting
+  Records*, CQ's *National Party Conventions* and the Senate Library's *Nomination and Election of the President and
+  Vice President* (1968) borrow only; 1960 both and Democratic 1968 not found (`notes/leads.md`).
+
 ## Governors
 
 `elections/governors.yaml`, written by `tools/elections/make_governors.py` from Wikipedia (needs the network; the build
@@ -953,6 +980,27 @@ legislatures); `HAND_YEAR` a Check (Kansas, 1967). `tools/bib/legislatures.py` r
   five "legislatures-us" entries of Nov. 1960, 1962, 1964, 1966 and 1968.
 - Article V's analogue is drawn at the federal two-thirds for every State: each State's own rule for proposing an
   amendment (the vote, the sessions) is not yet in the data; the *Book of the States*, 1960–67, prints it.
+
+## State finance
+
+`statefin/states.yaml`, written by `tools/statefin/make_statefin.py` from the Census Bureau's historical finance databases
+(the figures its annual *State Government Finances* printed; Access files read with mdbtools; the build needs no network;
+never edit): each State government, D.C.'s exhibit and the U.S. total by Census's fiscal year, 1959–68 (revenue, five
+taxes, federal aid, expenditure by character, aid to local governments, long-term debt, population, personal income);
+the State and its local governments together (`local`); the 43 large cities in the census years 1962 and 1967
+(`cities`); and each year's printed report, its tables and first pages (`reports`, kept in the script). `tools/bib/statefin.py`
+renders them (STYLE notes there):
+
+- A calendar entry tagged `statefin:<YYYY>` carries that fiscal year's block: a summary, a map of the taxes in force
+  (general sales and individual income, either, neither; the year's adopters in the full color) and a quantile map of
+  taxes per $1,000 of personal income, then, folded, the State governments' tables (taxes: per $1,000 and a head, five
+  shares; revenue, expenditure and debt), the State and local governments together, and in 1962 and 1967 the large
+  cities; the caveats (Census's classification, not the States' budgets; fiscal years differ); the database and the
+  report cited by table and page. Now the nine "state-and-city-finance-us" entries of June 30, 1960–68 (thread "State
+  and city finance").
+- Taxes per $1,000 of personal income take the calendar year before, as Census's tables do, with BEA's revised figures
+  as the database carries them; the regime follows Census's columns (any revenue from the tax). The acts are calendar
+  entries of their own, dated by the session laws.
 
 ## Rosters and elections, linked
 
@@ -1262,27 +1310,4 @@ tools/bib/daybook.py            lays the calendar out by day (STYLE notes at the
   secret-white-house-tapes/…), Conversation WH6407-11-4288 (Miller Center)`; PRDE's page only where the Miller Center
   has no copy, cited "(PRDE only)".
 - Abstracts go in `daybook/abstracts.yaml` (`key: sentence`), never in the generated
-  files, so a rerun keeps them. Keys: `app:<slug>`, `frus:<volume>/<dN>`. `check` fails
-  on an abstract whose key is not in the daybook.
-- To extend the span, change FROM/TO in the script and add calendar sections; the days
-  follow the calendar's dated sections.
-
-## Publishing
-
-The site is GitHub Pages: https://impending2223.github.io/bib/ (the compiled
-reader; each list at `<key>.html`). Every push to `main` runs
-`.github/workflows/pages.yml`: `./bib check`, `./bib build`, deploy. A failing
-check stops the deploy. So publishing is merging to `main`. Run `check` and
-`build` locally before you push.
-
-The claude.ai artifacts named in `series.yaml` are frozen copies of
-Oct. 1, 2026. Don't republish them; `publish-plan` and `mark-published`
-belong to that old route.
-
-## Do not
-
-- read `build/*.html` or a whole list to find something: use `find`/`show`/`works`;
-- change an `id`, or reuse a deleted one (add an alias instead);
-- write the thread index by hand, or `s:` on calendar entries;
-- edit `published.yaml` by hand;
-- push to `main` with errors from `./bib check`.
+  files, so a rerun keeps them. Keys: `app:<slug>`, `frus:<volume>/<dN>`. `check` fa

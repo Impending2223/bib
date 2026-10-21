@@ -3,15 +3,15 @@
 Written by `./bib audit-cal` (`tools/bib/calaudit.py`): the dated entries checked against the brief in
 CLAUDE.md ("The calendar"). A review list: a hit is a place to look, not an error. Rerun after editing.
 
-4893 dated entries.
+4931 dated entries.
 
 | Check | Entries |
 |---|---|
-| A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 1338 |
+| A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 1339 |
 | (of which only a President's surname: Eisenhower, Kennedy, Johnson) | 21 |
 | Neither a bibliography of its own nor a `See [[id]]` back | 2 |
-| No primary record linked or named | 822 |
-| A primary record named but not linked | 127 |
+| No primary record linked or named | 821 |
+| A primary record named but not linked | 126 |
 | Threads (statements listed for review) | 218 |
 
 ## Names
@@ -325,6 +325,8 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1961-06-28.opinion` (June 28, XIX jun.yaml): Gallup, May 28–June 2: integration gradually, 61 percent; by every means in the near future, 23; never, 7. Sit
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1961-06-30.state-and-city-finance-us` (June 30, XIX jun.yaml): Fiscal 1961 closes in forty-six States. The fifty State governments' taxes for the year $19.1 billion, $104.60
+  - West: West, Ben (K–J Cong. III.K); West, E. Gordon (K–J Cong. III.K)
 - `cal.1961-07-02.opinion` (July 2, XX jul.yaml): Gallup, May 28–June 2: of the programs Kennedy asked sacrifices for, would pay higher taxes for retraining the
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1961-07-05.opinion` (July 5, XX jul.yaml): Gallup, May 4–9: local civil defense handled well, 22 percent; poorly, 19; little or no knowledge of it, 59.
@@ -2885,7 +2887,7 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1968-08-04.opinion` (Aug. 4, CVI aug68.yaml): Gallup, June 26–July 1: the most important problem facing the country: the Vietnam war 52 percent; crime and l
   - Gallup: Gallup, George H. (K–J Cong. III.J)
-- `cal.1968-08-05.elections-1968` (Aug. 5, CVI aug68.yaml): Republican National Convention opens, Miami Beach, at Convention Hall. The party's primaries: map and returns 
+- `cal.1968-08-05.elections-1968` (Aug. 5, CVI aug68.yaml): Republican National Convention opens, Miami Beach, at Convention Hall. 1,333 delegates. The party's primaries,
   - ? Hall: Hall, Dave (K–J Cong. III.F); Hall, David (K–J Cong. III.F)
 - `cal.1968-08-07.civil-disorders` (Aug. 7–9, CVI aug68.yaml): Miami, Liberty City, during the Republican convention. A rally at the Vote Power League's building, Aug. 7, en
   - Power: Power, Thomas S. (K–J Adm. III.F)
@@ -3813,7 +3815,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1968-07-23.civil-disorders` (July 23–27, CV jul68.yaml): Cleveland, Glenville, the night of July 23–24: gunfire for some four hours between the police and Ahmed Evans'
 - `cal.1968-07-23.court-fortas` (July 23, CV jul68.yaml): The Judiciary Committee's hearings on Fortas and Thornberry recess (Check).
 - `cal.1968-07-26.elections-1968-2` (July 26, CV jul68.yaml): Edward Kennedy will not be a candidate for Vice President (Check the day).
-- `cal.1968-08-05.elections-1968` (Aug. 5, CVI aug68.yaml): Republican National Convention opens, Miami Beach, at Convention Hall. The party's primaries: map and returns 
 - `cal.1968-08-05.elections-1968-2` (Aug. 5, CVI aug68.yaml): Miami Beach. Reagan declares himself a candidate, the California delegation behind him.
 - `cal.1968-08-07.civil-disorders` (Aug. 7–9, CVI aug68.yaml): Miami, Liberty City, during the Republican convention. A rally at the Vote Power League's building, Aug. 7, en
 - `cal.1968-08-10.elections-1968-2` (Aug. 10, CVI aug68.yaml): McGovern announces his candidacy for the Democratic nomination, for Robert Kennedy's delegates and against the
@@ -4002,7 +4003,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1968-06-24.state-constitutions-fl` (June 24–July 3, CIV jun68.yaml): Florida. The legislature, in special session, proposes a revised constitution in three joint resolutions: the  — names "Journal of the House"
 - `cal.1968-07.states-and-cities-nyc` (July, CV jul68.yaml): New York City. Lindsay names Galamison, of the school boycott of 1964, to the Board of Education, enlarged by  — names "Laws of "
 - `cal.1968-08-06.governors-ks` (Aug. 6, CVI aug68.yaml): Kansas, Republican primary for governor: Harman, a businessman, 133,454, 48.9 percent; Crutcher, the lieutenan — names "Election Statistics"
-- `cal.1968-08-07.elections-1968` (Aug. 7–8, CVI aug68.yaml): Miami Beach. Thurmond and the Southern delegations hold for Nixon (Check). Nixon nominated on the first ballot — names "Official Report"
 - `cal.1968-10-01.antisubversion` (Oct. 1–4, CVIII oct68.yaml): House Un-American Activities Committee, a subcommittee under Ichord: hearings on subversive involvement in the — names "Hearings"
 - `cal.1968-10-01.states-and-cities-jacksonville` (Oct. 1, CVIII oct68.yaml): Jacksonville and Duval County one government, by the charter Duval's voters approved Aug. 8, 1967, 54,493 to 2 — names "Laws of "
 - `cal.1968-11-05.legislatures-ny` (Nov. 5, CIX nov68.yaml): New York. Republicans take the Assembly, 78 seats to the Democrats' 72, and keep the Senate, 33 to 24. Duryea, — names "Legislative Manual"
@@ -4040,7 +4040,7 @@ The brief: what the thread is, and its stations, in one or two clipped sentences
 | Asian trip |  |
 | Assassination | Kennedy killed at Dallas, and the inquiry. Dealey Plaza; Oswald killed; the funeral; the Warren Commission; its first meeting; the first witness; Ruby convicted; the Report; the hearings published. |
 | Auto safety |  |
-| Bay of Pigs |  |
+| Bay of Pigs | The invasion of Cuba by the CIA's exile brigade, from Eisenhower's covert program to the collapse on the beach. The program of Mar. 17, 1960; Radio Swan; the exile front; Retalhuleu; the turn from infiltration to invasion; the briefings of the President-elect; the Chiefs' evaluation; Trinidad to Zapata; Schlesinger's and Fulbright's dissents; the Revolutionary Council; the White Paper; Szulc in the *Times*; "no intervention"; the strike of Apr. 15 and the second cancelled; the landing; Khrushchev's message; the collapse. |
 | Berlin and Vienna | The second Berlin crisis, from Khrushchev's demands to the wall and after. Adenauer at the White House; the East German permits; Vienna; the July buildup; Aug. 13; Clay in Berlin; Checkpoint Charlie; Powers for Abel; Fechter. |
 | Birmingham |  |
 | Black nationalism | Malcolm X and the Nation of Islam, and Black Power. "Message to the Grass Roots"; the "chickens" remark and the suspension; the break; "The Ballot or the Bullet"; the Organization of Afro-American Unity; the assassination. |
@@ -4076,7 +4076,7 @@ The brief: what the thread is, and its stations, in one or two clipped sentences
 | Cultural Revolution |  |
 | Cyprus | Cyprus: the republic, its two communities, the guarantor powers. Independence; NSAM 71; NSAM 98; Makarios at the White House; NSAM 169; Johnson at Nicosia. |
 | Czechoslovakia |  |
-| Debt limit |  |
+| Debt limit | The statutory limit on the public debt, raised a year at a time over the permanent $285 billion. The acts of 1960 and 1961; $300 billion; $308 billion in three steps. |
 | Defense | Strategy and the defense budget. The missile gap in the hearings; Polaris at sea; the SIOP; the farewell address; McNamara's no missile gap; the March budget; the Berlin increase; civil defense to the Pentagon; Gilpatric at Hot Springs; the RS-70; counterforce at Ann Arbor. |
 | Desegregation: public places | Segregation in travel, at lunch counters, in parks and other public places, short of the schools; each event in its own thread. *Boynton*; Burton; the Freedom Rides and the ICC order; Albany; Garner. Gallup on the Freedom Riders and on integration. |
 | Detroit |  |
@@ -4208,7 +4208,7 @@ The brief: what the thread is, and its stations, in one or two clipped sentences
 | Soviet Union | The Soviet Union apart from Berlin, Cuba and testing. Khrushchev's troop cut; the U-2 and the Paris summit; the RB-47; Powers tried; Khrushchev at the UN; the President-elect congratulated; the RB-47 fliers freed; the private letters; the Twenty-Second Congress; Adzhubei; space cooperation; the exchanges agreement; Dobrynin; Salinger, Udall and Frost with Khrushchev. |
 | Space | The space race and the moon program. Huntsville to NASA; Tiros; Echo; Corona; Gagarin; the Space Council; Shepard; the moon message; Grissom, Titov, Glenn, Carpenter, Schirra; Houston; Telstar; Rice Stadium; the moon first; Mariner 2. |
 | Special elections | The special elections that filled seats in the 86th, 87th, 88th and 89th Congresses. Burdick for Langer; Johnson's Senate seat to Tower; twelve House seats, three to widows. |
-| State and city finance | Taxes, budgets and borrowing in the States and cities. California's water bonds; West Virginia's income tax; Sanford's food tax; Texas's first sales tax; Detroit's income tax. |
+| State and city finance | Taxes, budgets and borrowing in the States and cities; Census's figures each fiscal year. California's water bonds; West Virginia's income tax; Sanford's food tax; Texas's first sales tax; Detroit's income tax. |
 | State constitutions and referenda | The States' constitutions: conventions, revisions and amendments; the referenda and initiatives. Alabama's amendment elections; Mississippi's right-to-work and "good moral character" amendments; Kentucky refuses a convention; Michigan's convention called, elected, adjourned; the apportionment initiatives in the West; Illinois's Judicial Article; Propositions 23 and 24. |
 | State legislatures | The State legislatures: their elections, their control, their leaders. Each November's count of chambers; Unruh Speaker; Leroy Johnson in Georgia's Senate; Maryland's legislators' pay refused. |
 | States and cities | State and city politics where no narrower thread holds them. The Twenty-third Amendment; Chessman; the Governors' Conferences; Tower; Newburgh; Atlanta's schools; New York's Conservative Party; Nashville's Metro charter; Brooke attorney general; the Council of State Governments' amendments. |
