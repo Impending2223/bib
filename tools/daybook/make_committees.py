@@ -867,7 +867,7 @@ def read_volume(year, bbox):
     url = URL.format(y=year, p=VOLS[year])
     rows, day, chamber, mode, prev = [], None, None, None, None
     cur = None                                  # the meeting being read: dict with lines
-    heading, last_heading, blocked, met, before = None, False, False, set(), None
+    heading, last_heading, blocked, met, before, pending = None, False, False, set(), None, None
 
     def close():
         nonlocal cur
@@ -885,18 +885,29 @@ def read_volume(year, bbox):
                     h = day_heading_bare(t)
             # a day's heading opens the day's record: HIGHLIGHTS, a chamber, its action or its meetings follow
             # ('Hearings continue on / Monday, January 13, 1964.' is a sentence's end)
-            if h and not any(section_mark(t2) or day_heading(t2) for _, _, t2 in seq[n + 1:n + 6]):
+            follows = h and any(section_mark(t2) or day_heading(t2) for _, _, t2 in seq[n + 1:n + 6])
+            if h and not follows and not (k == "S" and day_heading(t)):
                 h = None
             if h:
                 x = resolve(h, prev, year)
-                if x:
+                if x and follows:
                     close()
-                    day, prev, chamber, mode, heading, blocked = x, x, None, None, None, False
+                    day, prev, chamber, mode, heading, blocked, pending = x, x, None, None, None, False, None
                     met = set()
+                    continue
+                if x:
+                    # a heading set across the page with what follows it not the new day's (1966, D218: the House's
+                    # meetings of May 9 go on below 'Tuesday, May 10'): the new day begins at its first heading
+                    pending = x
+                    prev = x
                     continue
             if day is None:
                 continue
             s = section_mark(t)
+            if pending and s:
+                close()
+                day, chamber, mode, heading, blocked, pending = pending, None, None, None, False, None
+                met = set()
             if s in ("senate", "house") and k != "S":
                 s = None
             # after the Resume, nothing till the next day or a chamber's own heading (the bound volume of 1961 sets

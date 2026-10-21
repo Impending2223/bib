@@ -476,6 +476,15 @@ document was found. Each under the entry it concerns; `./bib find -t check -l ca
   Revenue Taxation), which the *Directory* prints; ratios changed during a Congress; the *Directory*'s page on each
   committee.
 
+### Committee hearings (the Daily Digest)
+
+- Hearings a calendar entry should cite by the Digest's line and the printed hearing: Senate Foreign Relations on
+  Vietnam, Feb. 1966; Ways and Means on the tax bill, 1963–64.
+- Gaps of six days or more where recess and a missed day heading cannot be told apart: 1966 June 9–15, Sept. 1–7;
+  1967 Jan. 18–24; 1968 Apr. 11–17. Check against the Digest's pages.
+- Not yet done: the bills in a meeting linked to their courses (`congress/bills.yaml`); the *Monthly Catalog*'s titles
+  of the printed hearings; subcommittee names the OCR cut short.
+
 ## Foreign
 
 - Military aid cut off to allies trading with Cuba, Feb. 18, 1964: not verified.

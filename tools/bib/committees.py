@@ -223,8 +223,7 @@ def line_html(x, series, link_next=True):
     ws = [witness_html(series, w, str(x["date"])) for w in x.get("witnesses", [])]
     if ws:
         body += ("; " if body else "") + ", ".join(ws)
-    tail = [f'<a class="src" href="{esc(x["url"])}" title="Congressional Record, Daily Digest, bound edition">'
-            f'Digest {esc(x["page"])}</a>']
+    tail = [f'<a class="src" href="{esc(x["url"])}">Digest {esc(x["page"])}</a>']
     if x.get("next") and link_next:
         nx = str(x["next"])
         tail.append(f'<span class="src">hearings continue <a href="#d{esc(nx)}">'
