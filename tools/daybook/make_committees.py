@@ -386,11 +386,13 @@ def lead_of(t):
     if re.match(r"^\W*Conferees\b", t):
         return re.sub(r"^\W*", "", t).split(None, 1)[0].rstrip(",.:"), re.sub(r"^\W*Conferees[,:]?\s*", "", t)
     t = re.sub(r"^(\W*)(?:[/fIJ]\s?oint|J\s?o\S{0,2}n\S?t)\b", r"\1Joint", t)      # 'I oint', '/oint', 'Joif!t'
+    junk = bool(re.match(r"^\s*[^\sA-Za-z·•.,'_~\-]", t))      # '[:omm#tee', '<;ommittee': the C misread
+    t = re.sub(r"^[^A-Za-z/]+", "", t)
     m = LEAD.match(t)
     if not m:
         return None
     lead, toks = m.group(1), m.group(1).split()
-    if not (toks[0][:1].isupper() or toks[0][:1] in "/f"):     # 'mittee on Labor met in ex<:cutive': a line's end
+    if not (toks[0][:1].isupper() or toks[0][:1] in "/f" or junk):     # 'mittee on Labor met in ex<:cutive'
         return None
     cmte = lambda x: like(x, "committee") or like(x, "committees") or like(x, "subcommittee", .8)
     toks = [x for x in toks if re.search(r"\w", x)]          # 'Committee . on Banking': the stray mark out
