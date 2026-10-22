@@ -478,9 +478,19 @@ document was found. Each under the entry it concerns; `./bib find -t check -l ca
 
 ### Ebooks and feeds
 
-- A text of the Public Papers, 1961–68, for the ebooks: segment govinfo's scanned volumes item by item (OCR), or ask the
-  American Presidency Project for leave to use its transcriptions (its site claims copyright; its robots.txt bars AI
-  crawlers). Until then the books list the Papers by title, linked.
+- The Public Papers from GPO's volumes (`sources/ppp-text/`, Oct. 22, 2026): items the OCR lost, their text run into the
+  item before: 1968–69, items 110, 111 and 113 (the headings on pages the scan reads as photographs, PDF pp. 397–413
+  of PPP-1968-book1); and Kennedy 1963's item 480 (Johnson's, Dec. 6, 1963, after item 479). Read them off the pages
+  and split them by hand (a `HAND` table in `tools/ppp/make_ppp_text.py`).
+- The Public Papers: the APP documents no item matches (`unmatched_app` in `sources/ppp-matches.json`, about 80) and
+  the items no APP document matches (`unmatched_ppp`, about 100): most are a day apart or retitled; check a sample and
+  widen the rule, or match by hand. The headings whose day the OCR lost (about 150 items, `filed` dates) want their
+  dates read off the page.
+- The Public Papers of 1953–59 and 1969–74 (Eisenhower's first seven volumes, Nixon's and Ford's) are on govinfo the
+  same way: the Names' presidential documents and the Executive roster's sources of those years still link APP.
+- The Public Papers' text: misreadings no rule meets stand (names above all: "Ribicofi", "Pvanch"); the volumes' indexes
+  and the Appendix A lists of White House releases are not read. A spell pass against a name list (the series'
+  persons) would mend many names.
 - The Miller Center's audio links in the feeds come from the earlier JSON:API pull, unchecked: millercenter.org gave no
   answer from here and its audio host refused (403). Open a few in a browser.
 - Recordings made at the LBJ Ranch are dated in Eastern time, not Central; FRUS images are not in the books.

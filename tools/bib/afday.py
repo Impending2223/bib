@@ -121,7 +121,10 @@ def allies_html(y):
 
 def block(iso, y):
     """The day's block: the caption, forces.py's tables for the year, the RVNAF's and the allies' of the year before."""
-    inner = forces_html(y) + rvn_html(y - 1) + allies_html(y - 1)
+    ours = rvn_html(y - 1) + allies_html(y - 1)
+    if ours:                                  # in forces.py's dress: a small-capital heading for the part (its STYLE 1)
+        ours = f'<div class="fc"><p class="fch">South Vietnam and the allies</p>{ours}</div>'
+    inner = forces_html(y) + ours
     if not inner:
         return ""
     p = proclamation(y)
