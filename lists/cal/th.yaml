@@ -165,8 +165,8 @@ entries:
     c3: Cuba short of the missile crisis, and after. The Cuban Adjustment Act; Guevara killed in Bolivia.
   - id: cal.thread.cuba-bay-of-pigs
     s: Bay of Pigs
+    c: The invasion of Cuba by the CIA's exile brigade, from Eisenhower's covert program to the collapse on the beach. The program of Mar. 17, 1960; Radio Swan; the exile front; Retalhuleu; the turn from infiltration to invasion; the briefings of the President-elect; the Chiefs' evaluation; Trinidad to Zapata; Schlesinger's and Fulbright's dissents; the Revolutionary Council; the White Paper; Szulc in the *Times*; "no intervention"; the strike of Apr. 15 and the second cancelled; the landing; Khrushchev's message; the collapse.
     parent: cuba
-    c: 'The invasion of Cuba by the CIA''s exile brigade, from Eisenhower''s covert program to the collapse on the beach. The program of Mar. 17, 1960; Radio Swan; the exile front; Retalhuleu; the turn from infiltration to invasion; the briefings of the President-elect; the Chiefs'' evaluation; Trinidad to Zapata; Schlesinger''s and Fulbright''s dissents; the Revolutionary Council; the White Paper; Szulc in the *Times*; "no intervention"; the strike of Apr. 15 and the second cancelled; the landing; Khrushchev''s message; the collapse.'
   - id: cal.thread.missile-crisis
     s: Cuban Missile Crisis
     c: The Soviet missiles in Cuba, from the decision to the aftermath. The Presidium's plan; the summer warnings; the U-2's find; the ExComm; the quarantine; the letters; the withdrawal; the IL-28s; the Stevenson story.
@@ -187,6 +187,12 @@ entries:
     parent: defense
   - id: cal.thread.defense-clifford
     s: McNamara to Clifford
+    parent: defense
+  - id: cal.thread.defense-soviet-forces
+    s: Soviet forces
+    c: The intelligence community's estimates of the Soviet forces, an entry a document, dated by the record. NIE 11-8-59's 140–200 ICBMs for mid-1961; the three programs of 1960; 11-8/1-61's 10–25 launchers; 11-8-62's 50.
+    c2: The intelligence community's estimates of the Soviet forces, an entry a document, dated by the record. NIE 11-4-63's 80–85 ICBM launchers; 11-8-63's 105–120; 11-8-64's 200; 11-8-65's 224; 11-14-65's 108 line divisions.
+    c3: The intelligence community's estimates of the Soviet forces, an entry a document, dated by the record. NIE 11-8-66's 335 ICBM launchers and 670–765 for mid-1968; the missile submarines recounted; 11-8-68's 900.
     parent: defense
   - id: cal.thread.defense-thule
     s: Thule
@@ -214,10 +220,10 @@ entries:
     c3: Fiscal and monetary policy, the dollar and gold. The Tax Adjustment Act; Brimmer; the Fed's squeeze; the investment credit suspended; the interest rate act; the cutback; the surcharge proposed; the investment credit restored; the debt limit; the August message; special drawing rights; the surcharge set aside by Ways and Means; sterling devalued; the balance-of-payments program; the note cover ended; the gold market closed; the Revenue and Expenditure Control Act; the franc and the mark; the surplus.
   - id: cal.thread.economy-debt-limit
     s: Debt limit
-    parent: economy
     c: The statutory limit on the public debt, raised a year at a time over the permanent $285 billion. The acts of 1960 and 1961; $300 billion; $308 billion in three steps.
     c2: The statutory limit on the public debt, raised a year at a time over the permanent $285 billion. $307 and $309 billion; $315 billion; $324 billion; $328 billion.
     c3: The statutory limit on the public debt, raised a year at a time over the permanent $285 billion. $330 billion; $336 billion and the participation certificates; $365 billion defeated; the permanent $358 billion.
+    parent: economy
   - id: cal.thread.economy-franc
     s: Franc and the mark
     parent: economy
@@ -235,49 +241,50 @@ entries:
     parent: economy
   - id: cal.thread.elections-1960
     s: 1960 Elections
-    sort: Elections of 1960
     c: The 1960 election, from the announcements to the count. The primaries, Mar. 8 to June 7 (CQ's returns); Wisconsin and West Virginia; Los Angeles and Chicago; the Treaty of Fifth Avenue; Houston; the four debates; King's arrest; Nov. 8; Hawaii's recount; the electors; the count, Jan. 6.
+    sort: Elections of 1960
   - id: cal.thread.elections-1961
     s: 1961 Elections
-    sort: Elections of 1961
     c: 'The off-year elections of 1961. Governors: Hughes in New Jersey, Harrison in Virginia. Mayors: Yorty over Poulson; Wagner against Tammany, then re-elected; Allen over Maddox in Atlanta; Cavanagh over Miriani in Detroit; Cowger in Louisville.'
+    sort: Elections of 1961
   - id: cal.thread.elections-1962
     s: 1962 Elections
-    sort: Elections of 1962
     c: The primaries and midterms of 1962. Connally and Wallace; Nixon in California; Edward Kennedy against McCormack; Nov. 6; Nixon's last press conference.
     c2: The primaries and midterms of 1962. Minnesota's recount, Rolvaag declared elected.
+    sort: Elections of 1962
   - id: cal.thread.elections-1963
     s: 1963 Elections
-    sort: Elections of 1963
     c: 'The off-year elections of 1963. Mayors: Boutwell over Connor in Birmingham; Daley over Adamowski; McKeldin in Baltimore; Tate, Shelley, Collins. Governors: Breathitt in Kentucky; Paul Johnson in Mississippi, beside the Freedom Vote; McKeithen in Louisiana.'
+    sort: Elections of 1963
   - id: cal.thread.elections-1964
     s: 1964 Elections
-    sort: Elections of 1964
-    see_also: [goldwater]
     c: The elections of 1964, from the race for the nominations to the result. The Goldwater draft, its Chicago meetings.
     c2: The elections of 1964, from the race for the nominations to the result. Rockefeller; the Goldwater draft; Goldwater announces; the primaries, Mar. 10 to June 2 (CQ's returns); San Francisco, July 13, and Atlantic City, Aug. 24; Smith announces; Scranton enters; his letter; the platform fight; Goldwater nominated; the Johnson–Goldwater meeting; the Cabinet ruled out; Hershey; Johnson and Humphrey nominated; Robert Kennedy for the Senate; the Daisy ad; Thurmond a Republican; the Lady Bird Special; Jenkins; "A Time for Choosing"; Nov. 3; the concession; Burch for Bliss.
+    sort: Elections of 1964
+    see_also:
+      - goldwater
   - id: cal.thread.elections-1964-polls
     s: '1964 Elections: polls'
-    sort: 'Elections of 1964: polls'
     c: Gallup on 1964, the Republicans' choice and Kennedy against each. Nixon first; Rockefeller over Goldwater; Kennedy 65, Nixon 35; Rockefeller ahead, Nov. 1962.
     c2: Gallup on 1964, the Republicans' choice and the President against each. Goldwater past Rockefeller, May 1963; Johnson after Nov. 22; Lodge after New Hampshire; Robert Kennedy for Vice President; the county chairmen; Scranton over Goldwater among Republicans; Johnson 65, Goldwater 29, August; the final poll, 64–29.
+    sort: 'Elections of 1964: polls'
   - id: cal.thread.elections-1965
     s: 1965 Elections
-    sort: Elections of 1965
     c: The off-year elections of 1965. Lindsay over Beame and Buckley in New York; Hughes re-elected and Godwin elected governors; Yorty, Cavanagh and Barr re-elected; Locher over Stokes; Cervantes in St. Louis; Bond to the Georgia House.
+    sort: Elections of 1965
   - id: cal.thread.elections-1966
     s: 1966 Elections
-    sort: Elections of 1966
     c: The primaries and midterms of 1966. Lurleen Wallace; Reagan; the Virginia, Tennessee and Michigan primaries; Maddox; Brooke; Nov. 8; the Georgia governorship to the legislature, Maddox chosen; Reagan sworn.
+    sort: Elections of 1966
   - id: cal.thread.elections-1967
     s: 1967 Elections
-    sort: Elections of 1967
     c: 'The off-year elections of 1967. Mayors: Daley''s fourth term; Hatcher at Gary, Stokes at Cleveland; Tate over Specter; White over Hicks; Alioto, Lugar, D''Alesandro, Loeb. Governors: McKeithen renominated; Nunn in Kentucky; Williams in Mississippi. New Jersey''s Senate Republican; Reid to Virginia''s House of Delegates; New York''s constitution refused.'
+    sort: Elections of 1967
   - id: cal.thread.elections-1968
     s: 1968 Elections
-    sort: Elections of 1968
     c: The 1968 election, from the race for the nominations to the count. Gallup's first trial heats and the Republicans' choice, Nixon first; Romney against Humphrey and Johnson; Robert Kennedy and Humphrey as candidates.
     c3: The 1968 election, from the race for the nominations to the count. Gallup's trial heats and the parties' choices; Nixon's preparations; Romney's "brainwashing" and his announcement; McCarthy against Johnson; Nixon and Wallace announce; Romney withdraws; New Hampshire; the Mar. 31 address; Humphrey and Rockefeller announce; the primaries (CQ's returns); Kennedy shot at Los Angeles; Chennault and Bùi Diễm; Miami Beach, Nixon and Agnew; Chicago, the streets and the Vietnam plank, Humphrey and Muskie; LeMay; Salt Lake City; the bombing halt; Nixon elected; the governors and the legislatures; the electoral votes counted.
+    sort: Elections of 1968
   - id: cal.thread.elections-1968-chennault
     s: Chennault
     parent: elections-1968
@@ -289,23 +296,23 @@ entries:
     parent: elections-1968
   - id: cal.thread.elections-1968-polls
     s: '1968 Elections: polls'
-    sort: 'Elections of 1968: polls'
     c: 'Gallup on 1968: the parties'' choices and the trial heats. Nixon first among Republicans, Lodge and Goldwater behind; Romney even with Humphrey, behind Johnson.'
     c3: 'Gallup on 1968: the parties'' choices and the trial heats. Robert Kennedy over Nixon; the county chairmen; Romney ahead of Johnson, then behind after the brainwashing; Nixon first among Republicans; Robert Kennedy and Johnson among Democrats; Wallace as an independent; McCarthy, Kennedy and Humphrey after Mar. 31; Nixon, Humphrey and Wallace through the fall; the final poll.'
+    sort: 'Elections of 1968: polls'
   - id: cal.thread.elections-1972
     s: 1972 Elections
-    sort: Elections of 1972
     c: 'The 1972 nominations: the primaries, Mar. 7 to June 6 (CQ''s returns), and the conventions, both at Miami Beach, July 10 and Aug. 21. The rest of the year not yet written.'
+    sort: Elections of 1972
   - id: cal.thread.elections-1976
     s: 1976 Elections
-    sort: Elections of 1976
     c: 'The 1976 nominations: the primaries, Feb. 24 to June 8 (CQ''s returns), and the conventions, New York, July 12, and Kansas City, Aug. 16. The rest of the year not yet written.'
+    sort: Elections of 1976
   - id: cal.thread.specials
     s: Special elections
-    sort: 'Elections, special'
     c: The special elections that filled seats in the 86th, 87th, 88th and 89th Congresses. Burdick for Langer; Johnson's Senate seat to Tower; twelve House seats, three to widows.
     c2: The special elections that filled seats in the 88th and 89th Congresses. Six House seats in 1963; the Oklahoma Senate primaries, Harris over Edmondson; three House seats in the spring of 1964, Irene Baker's among them, three with the November election; four House seats in 1965, Watson's among them.
     c3: 'The special elections that filled seats in the 89th and 90th Congresses. Six House seats in 1966, Lera Thomas''s among them. Three in 1967: Tiernan for Fogarty; Powell re-elected to the seat denied him; McCloskey for Younger. Four in 1968: Podell; Griffin over Evers; Collins for Pool, a Republican gain; Gaydos.'
+    sort: Elections, special
   - id: cal.thread.electoral-college
     s: Electoral college
     c: 'The electoral college: its electors, pledged, unpledged and faithless, the count in Congress, and the proposals to change it. Alabama''s and Mississippi''s unpledged electors; electors for the District through Congress and ratified; Byrd''s fifteen votes; Hawaii''s recount and its three certificates; the count; Kefauver''s hearings; Irwin before them; the District''s electors put into law.'
@@ -465,10 +472,10 @@ entries:
     parent: labor-disputes
   - id: cal.thread.railroads
     s: Railroads
-    parent: labor-disputes
     c: 'The railroads'' labor disputes. The work-rules dispute, firemen on diesels: the Presidential Railroad Commission; Gallup on a law against requiring more workers than a job needs.'
     c2: 'The railroads'' labor disputes. The work-rules dispute, firemen on diesels: the emergency board; the strike deadlines; arbitration by statute; the moratorium; the settlement. Gallup on the dispute.'
     c3: 'The railroads'' labor disputes. The shopcraft wage dispute: the emergency board; the no-strike extensions; the strike and the Special Board; its award.'
+    parent: labor-disputes
   - id: cal.thread.jobs-and-wages-transit
     s: Transit strike
     parent: labor-disputes
@@ -495,7 +502,9 @@ entries:
     parent: latin-america
   - id: cal.thread.legislatures-old-name
     s: Legislatures
-    see: [legislatures, state-legislatures]
+    see:
+      - legislatures
+      - state-legislatures
   - id: cal.thread.march-on-washington
     s: March on Washington
     c: The March on Washington for Jobs and Freedom, Aug. 28, 1963.
@@ -511,7 +520,7 @@ entries:
     c3: Hospital insurance for the aged through Social Security. New York's Medicaid law; enrollment extended; the hospitals' compliance; Medicare in effect.
   - id: cal.thread.middle-east
     s: Middle East
-    c: 'Iran and CENTO, the Arab East and Israel, the peninsula and the Gulf, the oil. Ben Gurion at the White House; the Tehran council; OPEC at Baghdad; Eisenhower and Nasser at the Waldorf; Dimona disclosed; Amini and the Iran task force; Kuwait independent, the British landing; Syria leaves the UAR; Saud and the Shah at the White House; Barzani''s Kurds; the Hawks for Israel; Johnson at Tehran; the Yemen revolution and the Egyptian army; the Yemen republic recognized.'
+    c: Iran and CENTO, the Arab East and Israel, the peninsula and the Gulf, the oil. Ben Gurion at the White House; the Tehran council; OPEC at Baghdad; Eisenhower and Nasser at the Waldorf; Dimona disclosed; Amini and the Iran task force; Kuwait independent, the British landing; Syria leaves the UAR; Saud and the Shah at the White House; Barzani's Kurds; the Hawks for Israel; Johnson at Tehran; the Yemen revolution and the Egyptian army; the Yemen republic recognized.
     c2: Iran and CENTO, the Arab East and Israel, the peninsula and the Gulf, the oil. The White Revolution; the Ba'th in Baghdad and Damascus; Bunker and the Yemen disengagement; the letters on Dimona; Khomeini's arrest; Hard Surface; Arif ousts the Ba'th; the Cairo summit; the Libyan bases; the PLO; Eshkol at the White House; the Iranian arms credit; the status bill and Khomeini's exile; Faisal King; Mansur shot; Harriman in Israel.
     c3: Iran and CENTO, the Arab East and Israel, the peninsula and the Gulf, the oil. Britain to leave Aden; Syria's coup; the Skyhawks; Faisal at the White House; Samu and Resolution 228; UNEF withdrawn, the Strait closed; the Six-Day War, the hot line, the *Liberty*; the five principles; Glassboro; Khartoum; the *Eilat*; Resolution 242; the Shah in Washington; Eshkol at the Ranch; Karameh; the Phantoms sold; the raid on Beirut's airport.
   - id: cal.thread.middle-east-dimona
@@ -525,9 +534,9 @@ entries:
     parent: middle-east
   - id: cal.thread.middle-east-johnson-plan
     s: Johnson Plan
-    parent: middle-east
     c: 'Joseph E. Johnson of the Carnegie Endowment, the Palestine Conciliation Commission''s Special Representative, and his plan for the Palestine refugees: each to state a preference, repatriation to Israel or compensation and resettlement. Appointed; the first mission and report; Resolution 1725; the second round; the plan to Kennedy, to the PCC, to the parties; Israel''s rejection; Syria''s; the leak; Resolution 1856.'
     c2: 'Joseph E. Johnson of the Carnegie Endowment, the Palestine Conciliation Commission''s Special Representative, and his plan for the Palestine refugees: each to state a preference, repatriation to Israel or compensation and resettlement. Johnson resigns; with Kennedy, the plan dead.'
+    parent: middle-east
   - id: cal.thread.middle-east-kuwait
     s: Kuwait
     parent: middle-east
@@ -539,8 +548,8 @@ entries:
     parent: middle-east
   - id: cal.thread.middle-east-six-day-war
     s: Six-Day War
-    parent: middle-east
     c: The Arab–Israeli war of June 1967, its approach and its aftermath. Egypt's troops into Sinai; UNEF withdrawn; the Strait of Tiran closed; Johnson on the gulf; Eban in Washington; the maritime plan; Israel's strike; the hot line; the cease-fire resolutions; the *Liberty*; the Golan; the five principles; Glassboro; the General Assembly's emergency session; Khartoum; the *Eilat*; Resolution 242.
+    parent: middle-east
   - id: cal.thread.middle-east-six-day-war-aftermath
     s: Aftermath
     parent: middle-east-six-day-war
@@ -560,9 +569,9 @@ entries:
     parent: mississippi
   - id: cal.thread.oil
     s: Oil
-    c: Oil imports, the import program, and the world's oil. OPEC at Baghdad; Nixon at Centralia; the ceiling on demand; the East Coast's residual oil; Libya's first exports; Iraq's Law 80; the petroleum study; Kennedy to Udall; the ceiling on production.
-    c2: Oil imports, the import program, and the world's oil. The Appeals Board; the ceiling on the period's own production; foreign-trade zones, petrochemicals and Puerto Rico.
-    c3: Oil imports, the import program, and the world's oil. Asphalt; the Arab embargo; Rusk to Udall; the emergency declared; the OECD's industry body; low-sulfur residual oil; Iraq and Saudi Arabia resume; the Virgin Islands; the unused licenses; Prudhoe Bay.
+    c: Oil imports, the import program, and the world's oil. Esso's cut and OPEC at Baghdad; Nixon at Centralia; the ceiling on demand; the East Coast's residual oil; Libya's first exports; Iraq's Law 80; OPEC at Geneva; the petroleum study; Kennedy to Udall; the ceiling on production; the world's output, year by year.
+    c2: Oil imports, the import program, and the world's oil. The Appeals Board; the ceiling on the period's own production; foreign-trade zones, petrochemicals and Puerto Rico; the world's output, year by year.
+    c3: Oil imports, the import program, and the world's oil. Asphalt; the Arab embargo; Rusk to Udall; the emergency declared; the OECD's industry body; low-sulfur residual oil; Iraq and Saudi Arabia resume; the Virgin Islands; the unused licenses; Prudhoe Bay; the world's output, year by year.
   - id: cal.thread.open-housing
     s: Open housing
     c: Open housing in the States and cities. Pennsylvania's fair housing law; Washington's court voids its law on publicly assisted housing; Detroit's ordinance against blockbusting; Atlanta's barricades; Colorado's court upholds its law.
@@ -756,8 +765,8 @@ entries:
     c3: The deepening commitment in Vietnam. The bombing resumed; the Fulbright hearings; Honolulu; the Struggle Movement; the oil depots; Marigold; the Constituent Assembly; McNamara's October memorandum; Manila; Salisbury in Hanoi; Sunflower and the letters to Hồ Chí Minh; Cedar Falls and Junction City; Guam; the constitution; Westmoreland's request and McNamara's May memorandum; Pennsylvania; the Stennis hearings; Thiệu and Kỳ elected; San Antonio; Đắk Tô; Mansfield's resolution; McNamara's November memorandum; Khe Sanh; Tet; Huế retaken; the 205,000 request; the Wise Men; the Mar. 31 address; the Paris talks; the second offensive; the bombing halt; Saigon's refusal; the shape of the table.
   - id: cal.thread.vietnam-air-war
     s: Air war
-    parent: vietnam
     c: The bombing of North Vietnam in 1967, its targets and restrictions. The Haiphong power plants; Kép and Hòa Lạc; the *Turkestan* and the *Mikhail Frunze*; McNamara's memorandum against the Chiefs' program; the Stennis hearings; the Long Biên bridge; the targets before Sept. 1; Phúc Yên; the Stennis report; the target list at the news conference.
+    parent: vietnam
   - id: cal.thread.vietnam-asian-trip
     s: Asian trip
     parent: vietnam
@@ -772,9 +781,9 @@ entries:
     parent: vietnam
   - id: cal.thread.vietnam-force-levels
     s: Force levels
-    parent: vietnam
     c: The decisions on American troop strength in Vietnam. Taylor's 4,200 more advisers; the Marines for Đà Nẵng; NSAM 328; Honolulu, 82,000; Westmoreland's forty-four battalions; thirteen battalions announced; the July decision, the 125,000 of July 28; McNamara's 74 battalions.
     c3: The decisions on American troop strength in Vietnam. McNamara's cut of the Chiefs' plan, 469,000 by June 1968; Program 5, Westmoreland's request, the 525,000; the 205,000 request, Clifford's group, the Wise Men; the reserves called.
+    parent: vietnam
   - id: cal.thread.vietnam-205000
     s: 205,000 request
     parent: vietnam-force-levels
@@ -798,8 +807,8 @@ entries:
     parent: vietnam
   - id: cal.thread.vietnam-marigold
     s: Marigold
-    parent: vietnam
     c: The Polish channel to Hanoi, June–December 1966. D'Orlandi and Lewandowski at Saigon; the ten points read to Lodge; the strikes near Hanoi; the Warsaw meeting not held; the ten-mile limit around Hanoi; Rapacki ends it.
+    parent: vietnam
   - id: cal.thread.vietnam-may-offensive
     s: May offensive
     parent: vietnam
@@ -809,13 +818,17 @@ entries:
   - id: cal.thread.vietnam-commitments
     s: National commitments
     parent: vietnam
+  - id: cal.thread.vietnam-order-of-battle
+    s: Order of battle
+    c: The count of the enemy, MACV's order of battle against the CIA's estimate. The Saigon conference and the agreed figures; Bunker on the press briefing; MACV's new count; SNIE 14.3-67; the November briefings; Wheeler against airing the CIA's higher count; Helms and Wheeler.
+    parent: vietnam
   - id: cal.thread.vietnam-packers
     s: Packers
     parent: vietnam
   - id: cal.thread.vietnam-paris
     s: Paris talks
-    parent: vietnam
     c: The talks with Hanoi, from Hanoi's answer to the address of Mar. 31, 1968. The site; the Majestic, Harriman and Vance; Kosygin's letter; the private meetings with Lê Đức Thọ; Saigon's place; the bombing halt; Thiệu's refusal; Saigon's delegation; the shape of the table; Lodge for Harriman; the first procedural meeting.
+    parent: vietnam
   - id: cal.thread.vietnam-pennsylvania
     s: Pennsylvania
     parent: vietnam

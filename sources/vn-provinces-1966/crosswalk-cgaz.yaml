@@ -3,64 +3,55 @@ method: 'each CGAZ ADM2 district of Vietnam given whole to the 1966 unit of the 
   holding most of it; under half in any: the DRV'
 source: geoBoundaries CGAZ, ADM0-2 (CC BY 4.0), main branch, downloaded Oct. 22, 2026
 straddlers:
-- &id004
-  district: Con Dao
+- district: Con Dao
   shapeID: 81297802B83873736556753
   province_today: Côn Đảo
   unit_1966: con-son
   share: 0.654
   km2: 60.5
-- &id003
-  district: Phu Quy
+- district: Phu Quy
   shapeID: 81297802B90799057915407
   province_today: Bình Thuận
   unit_1966: binh-thuan
   share: 0.756
   km2: 18.2
-- &id006
-  district: Kien Hai
+- district: Kien Hai
   shapeID: 81297802B10550571931229
   province_today: Kiên Giang
   unit_1966: kien-giang
   share: 0.791
   km2: 12.2
-- &id009
-  district: Ly Son
+- district: Ly Son
   shapeID: 81297802B63810165613250
   province_today: Quảng Ngãi
   unit_1966: quang-ngai
   share: 0.818
   km2: 9.6
-- &id005
-  district: Son Tra
+- district: Son Tra
   shapeID: 81297802B64444176527608
   province_today: Đà Nẵng
   unit_1966: da-nang
   share: 0.837
   km2: 59.1
-- &id001
-  district: Ngoc Hien
+- district: Ngoc Hien
   shapeID: 81297802B22159011638398
   province_today: Cà Mau
   unit_1966: an-xuyen
   share: 0.878
   km2: 673.8
-- &id008
-  district: Ngu Hanh Son
+- district: Ngu Hanh Son
   shapeID: 81297802B96824977906351
   province_today: Đà Nẵng
   unit_1966: quang-nam
   share: 0.889
   km2: 42.3
-- &id002
-  district: Phan Thiet
+- district: Phan Thiet
   shapeID: 81297802B56109009945364
   province_today: Bình Thuận
   unit_1966: binh-thuan
   share: 0.89
   km2: 235.1
-- &id007
-  district: Lien Chieu
+- district: Lien Chieu
   shapeID: 81297802B84719552891507
   province_today: Đà Nẵng
   unit_1966: quang-nam
@@ -2167,7 +2158,12 @@ districts:
   unit_1966: an-xuyen
   share: 0.926
   km2: 460.7
-- *id001
+- district: Ngoc Hien
+  shapeID: 81297802B22159011638398
+  province_today: Cà Mau
+  unit_1966: an-xuyen
+  share: 0.878
+  km2: 673.8
 - district: Phu Tan
   shapeID: 81297802B51702434363712
   province_today: Cà Mau
@@ -2510,8 +2506,18 @@ districts:
   unit_1966: binh-thuan
   share: 0.998
   km2: 1342.7
-- *id002
-- *id003
+- district: Phan Thiet
+  shapeID: 81297802B56109009945364
+  province_today: Bình Thuận
+  unit_1966: binh-thuan
+  share: 0.89
+  km2: 235.1
+- district: Phu Quy
+  shapeID: 81297802B90799057915407
+  province_today: Bình Thuận
+  unit_1966: binh-thuan
+  share: 0.756
+  km2: 18.2
 - district: Tuy Phong
   shapeID: 81297802B73162737965460
   province_today: Bình Thuận
@@ -2632,7 +2638,12 @@ districts:
   unit_1966: chuong-thien
   share: 0.998
   km2: 374.2
-- *id004
+- district: Con Dao
+  shapeID: 81297802B83873736556753
+  province_today: Côn Đảo
+  unit_1966: con-son
+  share: 0.654
+  km2: 60.5
 - district: Da Lat
   shapeID: 81297802B86448730167777
   province_today: Lâm Đồng
@@ -2645,7 +2656,12 @@ districts:
   unit_1966: da-nang
   share: 0.992
   km2: 18.9
-- *id005
+- district: Son Tra
+  shapeID: 81297802B64444176527608
+  province_today: Đà Nẵng
+  unit_1966: da-nang
+  share: 0.837
+  km2: 59.1
 - district: Thanh Khe
   shapeID: 81297802B31644345342604
   province_today: Đà Nẵng
@@ -3012,7 +3028,12 @@ districts:
   unit_1966: kien-giang
   share: 0.999
   km2: 1031.1
-- *id006
+- district: Kien Hai
+  shapeID: 81297802B10550571931229
+  province_today: Kiên Giang
+  unit_1966: kien-giang
+  share: 0.791
+  km2: 12.2
 - district: Kien Luong
   shapeID: 81297802B41363610148385
   province_today: Kiên Giang
@@ -3739,14 +3760,24 @@ districts:
   unit_1966: quang-nam
   share: 0.938
   km2: 48.3
-- *id007
+- district: Lien Chieu
+  shapeID: 81297802B84719552891507
+  province_today: Đà Nẵng
+  unit_1966: quang-nam
+  share: 0.891
+  km2: 89.8
 - district: Nam Giang
   shapeID: 81297802B72423367852086
   province_today: Quảng Nam
   unit_1966: quang-nam
   share: 0.998
   km2: 1844.7
-- *id008
+- district: Ngu Hanh Son
+  shapeID: 81297802B96824977906351
+  province_today: Đà Nẵng
+  unit_1966: quang-nam
+  share: 0.889
+  km2: 42.3
 - district: Nong Son
   shapeID: 81297802B33972751107769
   province_today: Quảng Nam
@@ -3783,7 +3814,12 @@ districts:
   unit_1966: quang-ngai
   share: 0.944
   km2: 393.7
-- *id009
+- district: Ly Son
+  shapeID: 81297802B63810165613250
+  province_today: Quảng Ngãi
+  unit_1966: quang-ngai
+  share: 0.818
+  km2: 9.6
 - district: Minh Long
   shapeID: 81297802B89663618716792
   province_today: Quảng Ngãi

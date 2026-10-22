@@ -416,7 +416,9 @@ def plain_vietnamese(series):
             plain.setdefault(pw, w)                 # the name he went by, as a title form gives it: President Diem
     rx = re.compile(r"(?<![\w-])(" + "|".join(sorted((re.escape(" ".join(w.capitalize() for w in p.split()))
                                                        for p in plain), key=len, reverse=True)) + r")(?![\w-])")
-    prot = re.compile(r"\*[^*]+\*|\"[^\"]*\"|\[[^\]]*\]\([^)]*\)|https?://\S+")
+    prot = re.compile(r"\*[^*]+\*|\"[^\"]*\"|\[[^\]]*\]\([^)]*\)|https?://\S+"
+                      # a document's title as the Public Papers print it, before its cite (tools/ppp/relink.py)
+                      r"|(?:^|(?<=; )|(?<=\. ))[^;]{0,400}?, \[\d{4}(?:–\d\d)? Pub\. Papers [^\]]*\]\([^)]*\)")
     byline = re.compile(r"(?:\s*(?:&|and)\s*[^,;*()\[\]]{2,60}?)?(?: et al\.)?, \*([^*]+)\*")
     out = []
     for lst in series.lists.values():

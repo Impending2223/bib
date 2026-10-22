@@ -29,10 +29,10 @@ The steps:
     coast apart. Label points: shapely's polylabel of each unit's largest part.
 
 Writes sources/indochina/admin.geojson (what the map draws: `k` land (the countries without units), unit, line, lab;
-see vnmap STYLE) and, for the
-series' checks and the gazetteer, sources/vn-provinces-1966/provinces1966.geojson, ctz1966.geojson, regions.geojson,
-outline.geojson and indochina-outline.geojson, and the gazetteer's provinces (places.json `province`) by point in
-polygon on the new units, reporting every change.
+see vnmap STYLE) and, for the series' checks and the gazetteer, sources/vn-provinces-1966/provinces1966.geojson,
+ctz1966.geojson and regions.geojson (the old outline.geojson and indochina-outline.geojson are admin.geojson's now),
+crosswalk-cgaz.yaml, and the gazetteer's provinces (places.json `province`) by point in polygon on the new units,
+reporting every change.
 """
 import json
 import os
@@ -366,20 +366,13 @@ def main():
         g = multi(polys(shapely.union_all([units[u] for u in units if meta[u]["c"] == "rvn" and meta[u]["region"] == r])))
         rf.append(feat(g, {"region": r, "note": "RVN territory (south of the Bến Hải) by the region of its 1966 units"}))
     dump(os.path.join(VN66, "regions.geojson"), rf)
-    of = [feat(country["rvn"], {"name": "Republic of Vietnam", "kind": "rvn", "note": "union of provinces1966 (geoBoundaries CGAZ districts)"}),
-          feat(country["drv"], {"name": "Democratic Republic of Vietnam", "kind": "drv", "note": "geoBoundaries CGAZ"})]
-    for c in ("laos", "cambodia", "thailand"):
-        of.append(feat(country[c], {"name": names[c], "kind": "neighbor", "note": "geoBoundaries CGAZ (LSIB)"}))
-    dump(os.path.join(VN66, "outline.geojson"), of)
-    dump(os.path.join(VN66, "indochina-outline.geojson"),
-         [feat(country[c], {"id": c, "name": names[c]}) for c in ("china", "drv", "cambodia", "laos", "thailand", "burma")])
     # the crosswalk to CGAZ
     unsure = [r for r in rows if 1 - SURE < r["share"] < SURE]
     cw = {"title": "The 1966 units on geoBoundaries CGAZ districts (tools/vnmap/base.py)",
           "method": "each CGAZ ADM2 district of Vietnam given whole to the 1966 unit of the GADM-based provinces1966.geojson "
                     "(the hand crosswalk, crosswalk.yaml) holding most of it; under half in any: the DRV",
           "source": "geoBoundaries CGAZ, ADM0-2 (CC BY 4.0), main branch, downloaded Oct. 22, 2026",
-          "straddlers": sorted(unsure, key=lambda r: r["share"]),
+          "straddlers": [dict(r) for r in sorted(unsure, key=lambda r: r["share"])],
           "districts": sorted(rows, key=lambda r: (r["unit_1966"], r["district"]))}
     yaml.safe_dump(cw, open(os.path.join(VN66, "crosswalk-cgaz.yaml"), "w", encoding="utf-8"), allow_unicode=True,
                    sort_keys=False, width=140)
