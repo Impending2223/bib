@@ -14,8 +14,10 @@ import re
 from . import calsplit, daybook, governors, legislatures, primaries, specials, statefin, store, vnmap
 from . import conventions
 from . import wardead
+from . import oilworld
 from . import budgets
 from . import bills
+from . import dayblocks          # blocks under a date: the war table, Armed Forces Day
 from . import smart
 from . import feeds
 from . import contents
@@ -1114,11 +1116,13 @@ def run(series, which=None):
                 page = governors.inject(page, series)
                 page = legislatures.inject(page, series)
                 page = wardead.inject(page, series)
+                page = oilworld.inject(page, series)
                 page = statefin.inject(page, series)
                 page = budgets.inject(page, series)
                 page = bills.inject(page, series)
                 page = vnmap.inject(page, series)
                 page = indicators.inject(page, series, "list")
+                page = dayblocks.inject(page, series, "list")   # day blocks: the war table, Armed Forces Day
                 page = daybook.inject(page)
                 page = feeds.inject(page, lst, half)     # the months' feeds (tools/bib/feeds.py)
                 page = contents.finish(page, lst, half or 1)   # the tables and maps listed (tools/bib/contents.py)
@@ -1141,11 +1145,13 @@ def run(series, which=None):
         page = governors.inject(page, series)
         page = legislatures.inject(page, series)
         page = wardead.inject(page, series)
+        page = oilworld.inject(page, series)
         page = statefin.inject(page, series)
         page = budgets.inject(page, series)
         page = bills.inject(page, series)
         page = vnmap.inject(page, series)
         page = indicators.inject(page, series, "series")
+        page = dayblocks.inject(page, series, "series")   # day blocks: the war table, Armed Forces Day
         page = daybook.inject(page)
         if cal is not None:                  # the thread statements' tables and maps (tools/bib/contents.py)
             page = contents.finish(page, cal, None)

@@ -222,12 +222,16 @@ def page(series, template):
     years = sorted({m[:4] for m in list(doc_months) + list(rec)})
     nrec = sum(len(v) for v in rec.values())
     nfrus = sum(1 for v in doc_months.values() for x in v if x["src"] == "frus")
-    nppp = sum(1 for v in doc_months.values() for x in v if x["src"] == "ppp")
+    from . import ppp                        # the Public Papers' items, by month (tools/bib/ppp.py)
+    pmonth = {}
+    for d, xs in ppp.items_by_day().items():
+        pmonth[d[:7]] = pmonth.get(d[:7], 0) + len(xs)
+    nppp = sum(pmonth.values())
     total = sum(s for _, s in books.values())
     main = [
         "<h1>Ebooks and feeds</h1>",
         '<p class="lede">The daybook\'s documents as ebooks, a month a book: every FRUS document of the month in full '
-        f'and the President\'s Public Papers by title, day by day ({nfrus:,} and {nppp:,} documents, Jan. 1960 to Jan. '
+        f'and the President\'s Public Papers in full, day by day ({nfrus:,} and {nppp:,} documents, Jan. 1960 to Jan. '
         f'1969). The White House recordings the Miller Center gives free as podcast feeds, a year a feed, each '
         f'recording dated by the day it was made, in date order ({nrec:,} recordings, July 1962 to Jan. 1969).</p>',
         '<p class="logic">The books are EPUB 3 files: open them in Apple Books, Google Play Books, Kobo, Calibre or '
@@ -252,7 +256,7 @@ def page(series, template):
             fn, size = books[m]
             f = sum(1 for x in docs if x["src"] == "frus")
             rows.append(f'<tr id="doc-{m}"><td><a href="ebooks/{esc(fn)}">{esc(ebooks.month_label(m))}</a></td>'
-                        f'<td class="n">{f:,}</td><td class="n">{len(docs) - f:,}</td><td class="n">{_size(size)}</td></tr>')
+                        f'<td class="n">{f:,}</td><td class="n">{pmonth.get(m, 0):,}</td><td class="n">{_size(size)}</td></tr>')
         if rows:
             main.append(f'<h3 id="ebooks-{y}">{y}</h3><table class="eb"><thead><tr><th>Month</th><th class="n">FRUS</th>'
                         f'<th class="n">PPP</th><th class="n">Size</th></tr></thead><tbody>{"".join(rows)}</tbody></table>')
@@ -271,10 +275,13 @@ def page(series, template):
         'Historian: the text from the Office\'s TEI files (github.com/HistoryAtState/frus), public domain as a work of '
         'the United States government and dedicated to the public domain worldwide under CC0 1.0 (the repository\'s '
         'LICENSE.md). Images are not reproduced. Dates, authors and order as the calendar\'s daybook gives them.</p>',
-        '<p class="logic">The Public Papers. Titles and dates from the American Presidency Project (John Woolley and '
-        'Gerhard Peters, University of California, Santa Barbara), each linked to its text there. The papers are '
-        'public domain, but the Project\'s transcriptions are its site\'s, under its terms, and are not reproduced; '
-        'GPO\'s govinfo gives these years\' volumes as page scans only.</p>',
+        '<p class="logic">The Public Papers. <i>Public Papers of the Presidents of the United States</i> (Office of the '
+        'Federal Register): the text from GPO\'s volumes on govinfo, their scans\' OCR cleaned by rule '
+        '(tools/ppp/make_ppp_text.py), each printed page\'s beginning marked and linked to the page; public domain as '
+        'a work of the United States government. The documents the Public Papers do not print (the executive orders '
+        'and proclamations, the campaign of 1960) by title from the American Presidency Project (John Woolley and '
+        'Gerhard Peters, University of California, Santa Barbara), each linked to its text there; the Project\'s '
+        'transcriptions are its site\'s, under its terms, and are not reproduced.</p>',
         '<p class="logic">The recordings. The Miller Center of Public Affairs, University of Virginia, <i>Secret White '
         'House Tapes</i>: each recording\'s page and audio file, linked, not copied; the date, time, tape and citation '
         'from its catalogue. PRDE: the <i>Presidential Recordings Digital Edition</i> (University of Virginia Press), '

@@ -21,6 +21,7 @@ Quality (1962, the first year done): see the counts this prints; titles keep OCR
 """
 import datetime
 import gzip
+import html
 import json
 import os
 import re
@@ -46,22 +47,6 @@ INDEX = re.compile(r"\b(?:I\s?n\s?d\s?e\s?x|ndex|Inde)\b")
 LINE_END = re.compile(r"^(.*?\S)\s*[.\s]*?\s(\d{1,4})\s*$")
 
 
-def texts(cache, iid):
-    """{printed page: text} for one copy."""
-    pn = json.load(open(ix.cached(cache, iid + ".pn.json", f"https://archive.org/download/{iid}/{iid}_page_numbers.json"),
-                        encoding="utf-8"))
-    leaf_page = {p["leafNum"]: int(p["pageNumber"]) for p in pn["pages"] if str(p.get("pageNumber") or "").isdigit()}
-    pi = json.loads(gzip.open(ix.cached(cache, iid + ".pi.gz",
-                                        f"https://archive.org/download/{iid}/{iid}_hocr_pageindex.json.gz")).read())
-    st = gzip.open(ix.cached(cache, iid + ".st.gz",
-                             f"https://archive.org/download/{iid}/{iid}_hocr_searchtext.txt.gz")).read().decode("utf-8", "replace")
-    out = {}
-    for k, span in enumerate(pi):
-        if k in leaf_page:
-            out.setdefault(leaf_page[k], st[span[0]:span[1]])
-    return out
-
-
 def mend(t):
     t = re.sub(r"(\w)- (\w)", lambda m: m.group(1) + ("-" if m.group(2)[0].isupper() else "") + m.group(2), t)
     t = re.sub(r"\s+", " ", t).strip(" .")
@@ -80,18 +65,23 @@ def index_entries(text, first, last):
         if not ln or re.match(r"^(?:Index|Vol\.?\s|[A-Z][a-z]+\s+\d{1,2},\s*\d{4})", ln) and not buf:
             continue
         cur = (buf + " " + ln).strip() if buf else ln
+        if re.search(r"\s#$", cur) or len(cur) > 300:
+            buf = ""                                     # an entry whose page the OCR could not read
+            continue
         m = LINE_END.match(cur)
         if m and first <= int(m.group(2)) <= last:
             body = m.group(1)
-            sub = re.match(r"^([A-Z][\w,'’()\-]*(?:\s+[\w,'’()\-]+){0,4}?)\.\s+(?=[A-Z0-9\"“])", body)
-            if sub and not re.search(r"\b(?:U|S|Mr|Mrs|Dr|St|No)$", sub.group(1)):
+            sub = re.match(r"^(U\.S\.S\.R|[A-Za-z][\w,'’()\-]*(?:\s+[\w,'’()\-]+){0,4}?)\.\s+(?=[A-Z0-9\"“])", body)
+            if sub and not re.search(r"\b(?:U|S|Mr|Mrs|Dr|St|No|[A-Z])$", sub.group(1)):    # not "R. A. Egger"
                 heading, body = sub.group(1), body[sub.end():]
+                HEADINGS[heading] = HEADINGS.get(heading, 0) + 1
             title = mend(body)
-            if not NAME.match(title) and not re.search(r"\d,?$", title):
+            if not NAME.match(title) and not re.search(r"\d,$|,\s*\d{1,4}$", title):    # not a run of pages
                 out.append((title, int(m.group(2))))
             buf = ""
         elif len(cur) < 45 and not re.search(r"\d", cur) and not buf:
             heading, buf = cur, ""                       # a subject heading on a line of its own
+            HEADINGS[heading] = HEADINGS.get(heading, 0) + 1
         else:
             buf = cur
             if len(buf) > 400:
@@ -129,36 +119,140 @@ def rebuilt(cache, iid, leaf):
 
 def _rebuild(cache, iid, leaf):
     """An index page's text laid out again from its words' boxes (RULES 4): the two columns apart (split where fewest
-    words cross the middle third), each column's words in rows by their height on the page, a row run on into the next
-    where it ends in a hyphen or the next begins in lower case or with a parenthesis. The OCR's own text sometimes
+    words cross the middle third), each column's words in rows by their tops, each page number with the row it stands
+    beside, and a row run on into the one before where it is indented (an entry's second line; its first line and a
+    subject heading stand at the margin). The OCR's own text sometimes
     sets a column's page numbers in a block of their own; this puts each back at the end of its entry."""
     got = djvu(cache, iid).get(leaf)
     if not got or not got[1]:
         return ""
     W, ws = got
-    cross = [sum(l <= x <= r for (l, b, r, t), w in ws) for x in range(W // 3, 2 * W // 3, 5)]
+    ws = [x for x in ws if not re.match(r"^[.,;:'`•■\-]*$", x[1])]       # the leaders
+    num = [x for x in ws if re.match(r"^(?=.*\d.*\d)[\dOoIl^]{2,4}[.,]?$|^\d[.,]?$", x[1])]   # page numbers
+    text = [x for x in ws if x not in num]
+    cross = [sum(l <= x <= r for (l, b, r, t), w in text) for x in range(W // 3, 2 * W // 3, 5)]
     mid = W // 3 + 5 * min(range(len(cross)), key=lambda i: (cross[i], abs(W // 3 + 5 * i - W // 2)))
+    right = sorted(x[0][0] for x in text if (x[0][0] + x[0][2]) / 2 >= mid)
+    edge = right[len(right) // 10] if right else mid               # the right column's left edge
     out = []
-    for col in ([x for x in ws if (x[0][0] + x[0][2]) / 2 < mid], [x for x in ws if (x[0][0] + x[0][2]) / 2 >= mid]):
-        rows = []
-        for (l, b, r, t), w in sorted(col, key=lambda x: (x[0][1] + x[0][3]) / 2):
-            yc = (b + t) / 2
-            if rows and abs(yc - rows[-1][0]) < 0.45 * max(10, b - t):
-                rows[-1][1].append((l, w))
+    for col in (0, 1):
+        tx = [x for x in text if ((x[0][0] + x[0][2]) / 2 < mid) == (col == 0)]
+        nx = [x for x in num if ((x[0][0] + x[0][2]) / 2 < edge) == (col == 0)]
+        hs = sorted(b - t for (l, b, r, t), w in tx) or [30]
+        tol = 0.5 * hs[len(hs) // 2]
+        rows = []                                      # [top, bottom, [(l, word, r)]]: the text by its tops
+        for (l, b, r, t), w in sorted(tx, key=lambda x: x[0][3]):
+            if rows and t - rows[-1][0] < tol:
+                rows[-1][1] = max(rows[-1][1], b)
+                rows[-1][2].append((l, w, r))
             else:
-                rows.append([yc, [(l, w)]])
-        lines = [" ".join(w for l, w in sorted(r_[1])) for r_ in rows]
-        for ln in lines:
-            if out and (out[-1].endswith("-") or re.match(r"^[a-z(]", ln)) and not re.search(r"\s\d{1,4}$", out[-1]):
+                rows.append([t, b, [(l, w, r)]])
+        for (l, b, r, t), w in nx:                     # a number to the row it overlaps most
+            if rows:
+                best = max(rows, key=lambda r_: (min(b, r_[1]) - max(t, r_[0]), -abs((t + b) - (r_[0] + r_[1]))))
+                best[2].append((l, w, r))
+        rows = [[r_[0], r_[2]] for r_ in rows]
+        starts = [min([l for l, w, r in r_[1] if not re.match(r"^[\d.,;:#]+$", w)] or [l for l, w, r in r_[1]])
+                  for r_ in rows]
+        ends = [max([r for l, w, r in r_[1] if not re.match(r"^[\d.,;:#]+$", w)] or [0]) for r_ in rows]
+        full = sorted(ends)[int(len(ends) * 0.9)] if ends else 0       # where a full line of the column ends
+        wrapped = False
+        for k, r_ in enumerate(rows):
+            ln = html.unescape(" ".join(w for l, w, r in sorted(r_[1])))
+            if k < 3 and re.search(r"\bVol\b|\b\S?N\s?D\s?E\s?X\b|\bIndex\b", ln):
+                out.append(ln)                          # the page's head: never an entry's first line
+                wrapped = False
+                continue
+            near = sorted(starts[max(0, k - 8):k + 9])
+            margin = near[len(near) * 3 // 10]          # the column's left edge here (a scan can be skewed; debris)
+            indented = starts[k] - margin > 0.012 * W   # an entry's second line is indented; its first and a heading not
+            m = re.match(r"^(.*\S)\s+(\d{1,4})$", out[-1]) if out else None
+            if m and m.group(1).endswith("-") and indented and not re.search(r"\s\d{1,4}$", ln):
+                out[-1] = f"{m.group(1)} {ln} {m.group(2)}"   # a number set beside an entry's first line
+            elif out and (indented or wrapped) and not m:
                 out[-1] += " " + ln
             else:
                 out.append(ln)
+            wrapped = ends[k] >= full - 0.04 * W            # a line run to the column's edge goes on: a gutter can
+                                                           # hide the indent
     return "\n".join(out)
+
+
+def numbers(text):
+    """A page number the OCR misread (RULES 6): its O for 0, l or I for 1 ("47O"); one it cannot read ("44^") is #, which
+    ends the entry, so that it is not run on into the next."""
+    text = re.sub(r"(?<![\w-])(\d{2,3}[Oo]|\d[Oo]\d|[Il]\d{2,3}|\d{2}[Il]|\d[Il]\d)(?![\w-])",
+                  lambda m: m.group(1).translate(str.maketrans("OoIl", "0011")), text)
+    return re.sub(r"(?<![\w-])\d{2,3}[\^]\w?(?![\w-])", "#", text)
 
 
 def readings(cache, iid, L, i, lo, hi):
     """An index leaf's entries, from the OCR's text and from its words laid out again (RULES 4)."""
-    return index_entries(L[i][2], lo, hi) + index_entries(rebuilt(cache, iid, L[i][0]), lo, hi)
+    return index_entries(numbers(L[i][2]), lo, hi) + index_entries(numbers(rebuilt(cache, iid, L[i][0])), lo, hi)
+
+
+def garbled(title, first, last):
+    """A reading run on into another entry, or the OCR's debris in it: a stray mark, the page's head, a page number."""
+    return bool(re.search(r"[\^■»«#|\\]|\bVol\.|\be X\b", title)) or any(
+        first <= int(n) <= last for n in re.findall(r"(?<=\s)(\d{2,4})(?=\s+[A-Z])", title))
+
+
+def best(readings_, first, last):
+    """Of the readings of one item, the one to print (RULES 5): not garbled, beginning with a capital; then the one that
+    holds the most of the other readings' words (a reading cut short holds fewer); then the one read most often (an
+    item stands under several subjects); then the shorter (a reading run on into the next entry is longer). None where
+    every reading is garbled."""
+    good = [t for t in readings_ if not garbled(t, first, last) and len(t) <= 220]
+    good = [t for t in good if not any(r != t and t.endswith(" " + r) and heading_like(t[:-len(r)]) for r in good)]
+    if not good:
+        return None
+    n = {t: good.count(t) for t in good}
+
+    def holds(t):
+        wt = words(t)
+        return sum(len(words(r) & wt) >= 0.8 * len(words(r)) for r in good)
+    return min(good, key=lambda t: (not re.match(r"^[A-Z0-9\"“‘]", t), -holds(t), -n[t], len(t)))
+
+
+HEADINGS = {}                                          # a subject heading -> the times the indexes print it
+
+
+def heading_like(head):
+    """A subject heading the index prints, run on before an entry, perhaps with its first letter lost to the gutter."""
+    head = head.strip(" .")
+    return any(h == head or (len(head) >= 3 and h[1:] == head) for h in HEADINGS if HEADINGS[h] >= 2)
+
+
+def run_ons(rows):
+    """A title that holds the whole title of another item of the same issue (four words at least): two entries read as
+    one (RULES 7); left out."""
+    by_issue = {}
+    for x in rows:
+        by_issue.setdefault(x["issue"], []).append(x)
+    out = []
+    for x in rows:
+        t = re.sub(r"\W+", " ", x["title"].lower())
+        if any(y is not x and len(y["title"].split()) >= 4 and y["title"] != x["title"]
+               and re.sub(r"\W+", " ", y["title"].lower()) in t for y in by_issue[x["issue"]]):
+            continue
+        out.append(x)
+    return out
+
+
+def capitals(rows):
+    """A title whose first letter the binding's gutter took ("resident Kennedy", "roint News Conference"; RULES 7): the
+    word the year's titles hold most often (twice at least) with a capital put before it or for its first letter."""
+    from collections import Counter
+    vocab = Counter(w for x in rows for w in re.findall(r"\b[A-Z][a-z]{2,}\b", x["title"]))
+    for x in rows:
+        m = re.match(r"^([a-z][a-z]+)\b", x["title"])
+        if not m:
+            continue
+        w = m.group(1)
+        cands = [c + w for c in "ABCDEFGHIJKLMNOPQRSTUVWXYZ"] + [c + w[1:] for c in "ABCDEFGHIJKLMNOPQRSTUVWXYZ"]
+        best_ = max(cands, key=lambda c: vocab[c])
+        if vocab[best_] >= 2:
+            x["title"] = best_ + x["title"][len(w):]
 
 
 def words(title):
@@ -279,6 +373,8 @@ def place(L, segs, quarter, lo, hi, R):
             if not q["first"] <= median(R, s[0], lo, hi) <= q["last"]:
                 return None if e < 4 else e + 0.5     # a head's date or number stands over the covers' pages
             e += 3
+        elif e == 0 and not HEAD_INDEX.search(L[s[0]][2][:250]):
+            return None                                # nothing says this leaf is that issue's index
         return e + 0.5
     n, m = len(segs), len(quarter)
     dp = [[(0.0, None)] * (m + 1) for _ in range(n + 1)]
@@ -345,11 +441,19 @@ def year(y, cache, since=None, until=None):
             segs.append((i, sf, sl))
             prev = i
         placed = place(L, segs, quarter, lo, hi, R)
-        for s in segs:
-            if s not in [x for x, _ in placed]:
-                log.append(f"{iid} leaf {s[0]}: an index not placed")
+        done = {x[0] for x, _ in placed}
+        twins = {}                                     # an index scanned twice: the leaf beside a placed one, its pages
+        for s_ in segs:
+            if s_[0] in done:
+                continue
+            near = [(x, q) for x, q in placed if abs(x[0] - s_[0]) <= 3
+                    and abs(median(R, x[0], lo, hi) - median(R, s_[0], lo, hi)) <= 40]
+            if near:
+                twins.setdefault(near[0][0][0], []).append(s_[0])
+            else:
+                log.append(f"{iid} leaf {s_[0]}: an index not placed")
         for (i, sf, sl), r in placed:
-            ls = [i]
+            ls = [i] + twins.get(i, [])
             j = i + 1                                   # an index run on to the next leaf (not the back cover, a cover)
             if j < len(L) and not BACK.search(L[j][2][:600]) and not HEAD_INDEX.search(L[j][2][:250]) \
                     and not ix.MAST.search(L[j][2][:700]) and len(R(j, lo, hi)) > 8:
@@ -380,18 +484,23 @@ def year(y, cache, since=None, until=None):
             continue
         stats["indexed"] += 1
         issue = datetime.date.fromisoformat(r["date"])
-        seen = {}                                   # page -> [titles], one an item (several OCR readings of one)
+        seen = {}                                   # page -> [[readings]], one list an item (RULES 5)
         for j in sorted(set(ls)):
             for title, page in f["R"](j, first, last):
+                title = re.sub(r"^(?:\S+\s+){0,3}Vol\.?\s+\S+,?\s+No\.?\s*\S+\s+", "", title)    # the page's head
+                title = re.sub(r"\s+(?:Ind|Index|e X)$", "", re.sub(r"^[^A-Za-z0-9\"“‘(]+", "", title))
                 w = words(title)
-                if not w:
+                if not w or title.startswith("("):
                     continue
                 have = seen.setdefault(page, [])
-                same = next((i for i, x in enumerate(have) if len(w & words(x)) >= 0.5 * min(len(w), len(words(x)))), None)
+                same = next((k for k, xs in enumerate(have) if any(
+                    len(w & words(x)) >= 0.5 * min(len(w), len(words(x))) for x in xs)), None)
                 if same is None:
-                    have.append(title)
-                elif len(title) > len(have[same]) and len(title) < 2 * len(have[same]):
-                    have[same] = title                  # the fuller reading
+                    have.append([title])
+                else:
+                    have[same].append(title)
+        seen = {p: [best(xs, first, last) for xs in items_] for p, items_ in seen.items()}
+        seen = {p: [t for t in ts if t] for p, ts in seen.items()}
         n = 0
         for page, title, one in [(p, t, len(ts) == 1) for p, ts in sorted(seen.items()) for t in ts]:
             d = release_date(pages.get((vol, page)), issue) if one else None
@@ -407,6 +516,9 @@ def year(y, cache, since=None, until=None):
             rows.append(row)
             stats["release"] += bool(d)
             stats["items"] += 1
+    capitals(rows)
+    rows = run_ons(rows)
+    stats.update(items=len(rows), release=sum(x["dated"] == "release" for x in rows))
     rows.sort(key=lambda x: (x["date"], x["issue"], x["page"]))
     os.makedirs(OUT, exist_ok=True)
     head = ("# Generated by tools/daybook/make_bulletin.py from archive.org's copies of the Department of State\n"

@@ -64,6 +64,10 @@ STYLE:
     any further list goes too. Each summary counts its own lists ("Documents: PPP 3, FRUS 12, Recordings 4"; "Other
     records: Committees 9, Bulletin 2"). Expand all and Collapse all open or close both. The Sunday programs and the
     New York Times are not daily materials: they stay under the date, in neither block.
+ 13. The President's documents: APP's list of the day, each title linked to the Public Papers where an item of GPO's
+    volume matches (tools/bib/ppp.py, STYLE 3), its first page, the cite in grey ("1961 Pub. Papers 1", the volume
+    and item on hover); APP's link and "APP" where none does (the executive orders, the proclamations, the campaign
+    of 1960).
 """
 import calendar
 import datetime
@@ -74,7 +78,7 @@ import re
 
 import yaml
 
-from . import store
+from . import dayblocks, store
 
 
 def fold(t):
@@ -344,6 +348,12 @@ def doc_html(x, ab):
     from .markup import lower_from
     url = x["free"]["url"] if x.get("free") else x.get("url")
     hint = ' title="Miller Center: the recording, free"' if x.get("free") or x["src"] == "mc" else ""
+    pp = None
+    if x["src"] == "ppp":                    # the Public Papers in GPO's volume, where an item matches (STYLE 13)
+        from . import ppp
+        pp = ppp.match(x.get("url"))
+        if pp:
+            url, hint = pp["url"], f' title="{esc(pp["hover"])}"'
     title = esc(lower_from(x["title"]) if x["src"] == "frus" else x["title"])
     title = f'<a href="{esc(url)}"{hint}>{title}</a>' if url else title
     au = esc(x["author"]) if x.get("author") else ""
@@ -353,7 +363,7 @@ def doc_html(x, ab):
         au = f'<a class="nm" href="{esc(u)}">{au}</a>' if u else au
     au = f'<span class="au">{au}</span> ' if au else ""
     if x["src"] == "ppp":
-        src, hover = "APP", "American Presidency Project"
+        src, hover = (pp["cite"], pp["hover"]) if pp else ("APP", "American Presidency Project")
     elif x["src"] in ("prde", "mc"):
         src, hover = None, None
     elif x["src"] == "dsb":                  # the Bulletin: the issue and page (STYLE 11)
@@ -461,6 +471,7 @@ def section_days(lst, sec, entry_li, thread_name):
                 for e in running[d]) + "</p>")
         if d in dated:
             h.append('<ol class="e">' + "".join(entry_li(e, rubric(lst, e, thread_name)) for e in dated[d]) + "</ol>")
+        h.append(dayblocks.marker(iso))         # a day block's place: the war table, Armed Forces Day (dayblocks.py)
         h.append(docs_html(by_day.get(iso, []), ab, iso))
         h.append("</div>")
         out.append("".join(h))

@@ -69,7 +69,9 @@ STYLE (settled; keep it, and fix anything that drifts from it):
     1962-02"), shown "Feb. 1962".
 15. Oil (oil-*): a table of its own under the indicators, before Money and credit, without vacant columns; its cells
     in millions of barrels a day, with changes; STYLE in tools/bib/oil.py.
-16. The war (war-*, kind: war): deaths and strength, its own cells, persons; STYLE in tools/bib/war.py.
+16. The war (war-*, kind: war): not in the month's tables. A table of its own under the first Thursday of the next
+    month, in the day layout (the owner's request, Oct. 22, 2026; tools/bib/wartable.py, its STYLE); its cells in
+    tools/bib/war.py.
 """
 import calendar
 import datetime
@@ -90,7 +92,8 @@ ORDER = ["cpi", "wpi", "deflator", "unemployment", "payrolls", "industrial-produ
          "federal-primary-balance", "interest-gnp", "public-debt", "debt-gnp", "debt-gdp-omb",
          "balance-of-payments", "balance-of-payments-regular", "balance-of-payments-liquidity",
          "balance-of-payments-official", "gold-stock", "oil-production", "oil-supplied", "oil-trade", "oil-trade-year",
-         "oil-reserves", "war-deaths", "war-strength", "discount-rate", "federal-funds",
+         "oil-reserves", "war-deaths", "war-strength",
+         "war-enemy-ob", "war-enemy-ob-old", "war-enemy-snie", "war-enemy-strength-q", "war-infiltration", "war-enemy-kia", "war-rvnaf-kia", "war-rvnaf-strength", "war-fwmaf-strength", "discount-rate", "federal-funds",
          "prime-rate", "treasury-bill", "treasury-10-year", "approval"]
 GROUP = {"cpi": "Prices", "wpi": "Prices", "deflator": "Prices",
          "unemployment": "Employment", "payrolls": "Employment",
@@ -108,6 +111,7 @@ GROUP = {"cpi": "Prices", "wpi": "Prices", "deflator": "Prices",
          "oil-production": "Oil", "oil-supplied": "Oil", "oil-trade": "Oil", "oil-trade-year": "Oil",
          "oil-reserves": "Oil",
          "war-deaths": "The war", "war-strength": "The war",
+         **{x: "The war" for x in ("war-enemy-ob", "war-enemy-ob-old", "war-enemy-snie", "war-enemy-strength-q", "war-infiltration", "war-enemy-kia", "war-rvnaf-kia", "war-rvnaf-strength", "war-fwmaf-strength")},
          "approval": "Opinion"}
 def _place(after, ids):
     """Put ids into ORDER after `after` (the series tools/bib/finance.py renders, kept out of the lists above)."""
@@ -330,7 +334,7 @@ def rows_for(data, lo, hi, prev_to=None, next_from=None):
     far = prev_to is not None and (lo - prev_to).days > 92
     for sid in ORDER + [k for k in data if k not in ORDER]:
         s = data.get(sid)
-        if not s:
+        if not s or s.get("kind") == "war":    # The war: a table of its own, on the first Thursday (wartable.py)
             continue
         for r in s.get("rows", []):
             end = period_end(r["p"])

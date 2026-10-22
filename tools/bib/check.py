@@ -217,6 +217,14 @@ def run(series, only=None):
         add(ERROR, f"indicators/{where}.yaml", msg, "war")
     for where, msg in wardead.problems(series):
         add(ERROR, where, msg, "war")
+    # the war table and Armed Forces Day, under their days (tools/bib/wartable.py, dayblocks.py)
+    from . import wartable
+    for level, where, msg in wartable.problems(series):
+        add(ERROR if level == "error" else WARN, where, msg, "war-table")
+    # the world's oil a year and the posted prices (sources/oil-world.yaml; tools/bib/oilworld.py)
+    from . import oilworld
+    for where, msg in oilworld.problems(series):
+        add(ERROR, where, msg, "oilworld")
     from . import oil
     for where, msg in oil.problems(indicators.load()):
         add(ERROR, f"indicators/{where}.yaml", msg, "indicators")
@@ -260,6 +268,10 @@ def run(series, only=None):
     from . import budgets
     for where, msg in budgets.problems(series):
         add(ERROR, where, msg, "budgets")
+    # the armed forces a year (forces/; tools/bib/forces.py)
+    from . import forces
+    for where, msg in forces.problems(series):
+        add(ERROR, where, msg, "forces")
     # the bills' courses (congress/bills.yaml; tools/bib/bills.py)
     from . import bills
     for where, msg in bills.problems(series):
@@ -302,6 +314,12 @@ def run(series, only=None):
         add(ERROR, where, msg, "ebooks")
     for where, msg in warns:
         add(WARN, where, msg, "ebooks")
+    from . import ppp                    # the Public Papers' texts and matches (sources/ppp-text/, ppp-matches.json)
+    errs, warns = ppp.problems()
+    for where, msg in errs:
+        add(ERROR, where, msg, "ppp")
+    for where, msg in warns:
+        add(WARN, where, msg, "ppp")
     # the committees' meetings (daybook/committees/, tools/daybook/make_committees.py)
     from . import committees
     for where, msg in committees.problems():

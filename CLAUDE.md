@@ -1203,9 +1203,16 @@ tools/indicators/make_polls.py   Gallup's approval (kind: poll), a reading a row
 tools/indicators/make_oil.py  the Oil group (oil-*.yaml): the Survey of Current Business's monthly figures, read by eye (SCB in
                               the script), and the Minerals Yearbook's reserves, beside EIA's today (needs the network, xlrd)
 tools/bib/oil.py              renders the Oil cells and the Oil table, and checks them (STYLE notes at the top)
+tools/bib/oilworld.py         the world's oil a year and the posted prices of crude, from sources/oil-world.yaml (kept by
+                              hand; tags oilworld:<YYYY>, oilprice:ras-tanura; STYLE notes at the top)
 tools/indicators/make_war.py  The war (war-deaths.yaml, war-strength.yaml) and sources/war-dead-states.yaml: NARA's DCAS file
                               counted, the figures printed then read by hand (THEN_* in the script; needs the network once)
+tools/indicators/make_war_forces.py  the enemy and the allies (war-enemy-*.yaml, war-infiltration, war-rvnaf-*, war-fwmaf-
+                              strength): every figure read by eye off Thayer, Collins, Larsen and FRUS, by page, in the script
 tools/bib/war.py              renders The war's cells and checks them (STYLE notes at the top)
+tools/bib/wartable.py         The war table, under the first Thursday of each month (STYLE notes at the top)
+tools/bib/afday.py            the forces tables under Armed Forces Day, the third Saturday in May (STYLE notes at the top)
+tools/bib/dayblocks.py        day blocks: a table set under a date in the day layout, not under an entry (its docstring)
 tools/bib/wardead.py          the dead by home State per 100,000, a map a year (tag wardead:<YYYY>; STYLE notes at the top)
 tools/bib/indicators.py       renders them (ORDER, GROUP) and checks them
 indicators/concepts.yaml      the master statement of concepts and sources, kept by hand: a text a series, each piece
@@ -1217,7 +1224,7 @@ Concepts and sources (the owner's rule, Oct. 21, 2026; standing): what each seri
 where its figures come from, is written once, in the master, `indicators/concepts.yaml`, each sentence or clause
 tagged with the span of reporting periods it concerns; never in a module, a table or a page. Each calendar page
 (Cal. I, II, III; the reader's three blocks alike) writes a servant of it right after the month table where a series
-first appears on that page: of the series first used there, grouped under the tables' subheadings (Prices,
+first appears on that page (The war's after its own table, under the first Thursday: below): of the series first used there, grouped under the tables' subheadings (Prices,
 Employment, Output, Federal finance, International, Oil, The war, Money and credit, Opinion), only the pieces whose
 span holds a period that page files for the series; no series the page does not show, nothing about periods
 outside it. Each servant ends "See the master entry for a full statement of indicator concepts and sources used in
@@ -1268,7 +1275,17 @@ the series index, the README and the top bar (数; at first kept out of the bar,
   own under the month's indicators, without vacant columns (the owner's ruling, Oct. 21, 2026): the rows with both
   figures in four columns, those with one in Indicator | Figure | Reported (oil.py STYLE 5). Today's crude production
   is the Survey's to its rounding in most months: the data, not a bug (the statement says where they differ). Its
-  calendar thread: Oil.
+  calendar thread: Oil. The world a year (the owner's request, Oct. 22, 2026; `tools/bib/oilworld.py`, its STYLE;
+  `sources/oil-world.yaml`, kept by hand): crude production by country, 1960-68, as the Bureau of Mines' *Minerals
+  Yearbook* for the year printed it (its world table, by page, archive.org's copies; each year's column held to the
+  table's printed totals), in m b/d with the change from the year before as the same table revised it and the share
+  of the world; proved reserves by country where the *Oil and Gas Journal*'s year-end table is open (1960, 1961: the
+  Journal on archive.org runs June 1959-Dec. 1961 only). No today column: no open series found counts crude by country
+  in barrels for the 1960s; the U.S. figure today (EIA) is noted where it differs. Carried by the December entries
+  tagged `oilworld:<YYYY>` (`cal.1960-12.oil` ... `cal.1968-12.oil`). The posted prices of Arabian light at Ras
+  Tanura and Venezuela's Oficina, each change dated (the *Journal*, the CIA's memoranda), a table under Esso Export's
+  cut of Aug. 9, 1960 (`oilprice:ras-tanura`). Neither is an indicator series: no statement in the master; each
+  table says under it what it counts.
 - The war (the owner's request, Oct. 21, 2026; `tools/bib/war.py`, its STYLE; plan: `notes/proposals/military-oil-vietnam.md`,
   section 1): U.S. deaths in Southeast Asia, all causes, hostile and since 1961, by month from Jan. 1965 and by year
   1960-68 (in December), today from NARA's Defense Casualty Analysis System file (2008), counted by the incident or death
@@ -1279,6 +1296,30 @@ the series index, the README and the top bar (数; at first kept out of the bar,
   read. The dead by home of record per 100,000 (Census estimates, July 1): a map a year, 1961-64 together and 1965-68,
   on one scale, carried by the December entries tagged `wardead:<YYYY>` (`cal.1964-12.vietnam` ... `cal.1968-12.vietnam`).
   The file names the dead; nothing but counts leaves it, and they are not persons in the series.
+- The war table (the owner's request, Oct. 22, 2026: the military numbers "in a separate table altogether", on "the
+  first X of each month"; `tools/bib/wartable.py`, its STYLE): the war's series (kind: war) are not in the month's
+  tables; they make a table of their own, filed by the period covered and set under the FIRST THURSDAY of the next
+  month in the day layout (the day of the week the command in Saigon and the Pentagon gave out the weekly casualty
+  figures: the convention, not verified against the papers), quarters and years in the month after they end. Its own
+  caption, solid rule and panel; two columns, Reported then | Later, each figure with its date; a series a tbody, its
+  name on a line across, so it fits 400px. The war's statements are servants after the war table where each series
+  first appears on a page, "The war: concepts and sources" (the master: `indicators/concepts.yaml`). Beside U.S. deaths
+  and strength: MACV's order of battle (new format, monthly, Dec. 1964-June 1968, two vintages: Oct. 31, 1967 and Sept.
+  3, 1968; Thayer, vol. 8, pp. 24, 38; vol. 2, p. 7), its old format (Oct. 1967, vol. 2, p. 8), SNIE 14.3-67 (as of Oct.
+  1, 1967; FRUS 1964-68, V, doc. 397), enemy strength at the quarter's end, 1968 (vol. 1, p. 126), infiltration
+  (monthly, 1965-68: as first given, vol. 2, pp. 33, 64; later, pp. 62, 71, 80), enemy killed (1966-68, vol. 8, p. 5;
+  vol. 1, p. 123), RVNAF killed (by year 1960-65, by month 1966-68: OPREP-5 then, MACV J-1 and the JGS's verified
+  figures later; vol. 8, pp. 205, 212, 216), RVNAF strength (quarterly, vol. 8, p. 212, vol. 1, p. 126; by year and
+  service, Collins, app. D, p. 151) and the other allies' (by year and country, Larsen and Collins, table 1, p. 23;
+  quarterly 1968, vol. 1, p. 126). Thayer: *A Systems Analysis View of the Vietnam War* (1975), DTIC on archive.org,
+  by the volume's page. A figure read once, from a source dated more than a year after its period, is "later".
+  `check`: figures counts and sourced, parts adding to totals (or a `printed` note saying how the source's differ), a
+  table on a day the calendar holds [war-table].
+- Armed Forces Day (the owner's request, Oct. 22, 2026; `tools/bib/afday.py`, its STYLE): the year's forces tables under
+  the third Saturday in May, 1960-68 (Proclamation 3399, Mar. 18, 1961, "the third Saturday of May in 1961 and ... each
+  succeeding year"; Proclamation 3655, May 7, 1965, the same): the U.S. and world forces (`tools/bib/forces.py`,
+  another module's, called by the name in `FORCES_FNS` it exposes) and, beside them, the RVNAF by service and the other
+  allies by country, with their battalions, for the year before.
 - Changes use one basis in both value columns (CHANGE in the script): monthly
   percent, not annualized; quarterly percent at an annual rate; points; persons.
   CPI, WPI and industrial production also carry the change from a year earlier
@@ -1404,6 +1445,11 @@ Two standing rules (the owner's rules, Oct. 21, 2026; `tools/bib/contents.py`, i
   registers its kind in `KINDS` there, with its label ("Election of Nov. 8, 1960"), or `None` for one the contents
   leave out; `put` refuses an unregistered kind, and `contents.finish` (after the injects, in `build.py`) lists it in
   the contents and the threads with no more code. `check` warns on a tag whose label cannot be made [contents].
+- A table set under a date, not in an entry (a day block, `tools/bib/dayblocks.py`: the war table, Armed Forces Day)
+  takes its anchor from `contents.day_mark(kind, key, iso, threads)`, which names the day and the threads in the
+  entry's place; the contents and the threads list it the same way. Listed: the first war table of each year on a page
+  ("The war, 1965: first Thursdays", thread Vietnam) and each Armed Forces Day ("Armed forces, 1965", Defense and
+  Vietnam); the other war tables, like the month's indicators, not.
 
 ## The calendar by day
 
@@ -1421,7 +1467,10 @@ day of a ranged entry, and the day's materials in two folded blocks, each closed
 holds something (the owner's request, Oct. 22, 2026): "Documents" (APP, FRUS, the recordings) and "Other records" (the
 committees' meetings, the *Bulletin*, and any list added later), each summary counting its own lists; "Expand all" and
 "Collapse all" under each month heading open or close both (STYLE 12 in `tools/bib/daybook.py`). The Sunday programs
-and the *New York Times* line are not daily materials: they stay under the date, in neither block.
+and the *New York Times* line are not daily materials: they stay under the date, in neither block. A day block (the
+war table on the first Thursday, the forces on Armed Forces Day: `tools/bib/dayblocks.py`) stands after the day's
+entries and before its folded blocks: `section_days` sets a placeholder (`dayblocks.marker`), filled after the
+indicators by `dayblocks.inject` in both build chains.
 
 ```
 tools/daybook/make_daybook.py   writes daybook/<YYYY-MM>.yaml (needs the network; the build does not)

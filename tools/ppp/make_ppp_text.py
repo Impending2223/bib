@@ -305,6 +305,17 @@ def settle_dates(items, span):
         ds[i] = d
         if d:
             it["month"] = d[:7]
+    for i, it in enumerate(items):        # where a dateless item is filed: the date of the item before it
+        if not it["date"]:
+            prev = next((x["date"] for x in reversed(items[:i]) if x["date"]), None)
+            nxt = next((x["date"] for x in items[i + 1:] if x["date"]), None)
+            m = it["month"]
+            if prev and (not m or prev[:7] == m):
+                it["filed"] = prev
+            elif nxt and (not m or nxt[:7] == m):
+                it["filed"] = nxt
+            else:
+                it["filed"] = f"{m}-01" if m else (prev or nxt)
 
 
 # ---------------------------------------------------------------- the page
@@ -739,6 +750,10 @@ def read_volume(pkg, pages, V, surname, span, start=1):
         if cut is not None and re.search(r"[.,]\s*$", head[:cut]):
             title = head[:cut].rstrip(" .,")
         title = re.sub(r"\s+", " ", title).strip().rstrip(".")
+        t2 = re.sub(r"^(?:[^A-Za-z0-9“\"‘(\s]\S{0,2}|[a-z]{1,2})\s+(?=[A-Z“\"])", "", title)
+        if t2 != title:
+            RULES["a stray mark before a heading's title, dropped"] += 1
+            title = t2
         title = title or "[Title not read]"
         if title == "[Title not read]" and it["n"] in listed and listed[it["n"]][1] is not None \
                 and it["page"] is not None and abs(listed[it["n"]][1] - it["page"]) <= 1:
@@ -848,17 +863,17 @@ def main():
                         + (f", Book {'I' * book}" if book else ""),
                "president": pres, "years": years, "book": book, "span": [lo, hi],
                "pdf": pdf_url(pkg), "details": f"{GOV}/app/details/{pkg}", "pages": len(pages),
-               "body": [first, end - 1], "folios": runs, "items": items}
+               "body": [first, end - 1], "folios": runs,
+               "missing": [n for n in range(items[0]["n"], items[-1]["n"] + 1) if n not in {x["n"] for x in items}],
+               "items": items}
         data = json.dumps(doc, ensure_ascii=False, separators=(",", ":")).encode("utf-8")
         with open(os.path.join(OUT, f"{pkg}.json.xz"), "wb") as f:
             f.write(lzma.compress(data, preset=9 | lzma.PRESET_EXTREME))
         rules[pkg] = dict(RULES)
-        gaps = [it["n"] for it in items if it.get("n") and False]
-        miss = sorted(set(listed) - {it["n"] for it in items})
-        off = [it["n"] for it in items if it["list_page"] and it["page"] and it["list_page"] != it["page"]]
-        line = (f"{pkg}: pages {first}-{end - 1}, items {len(items)} (listed {len(listed)}), not found {len(miss)} "
-                f"{miss[:20]}, listed page differs {len(off)} {off[:20]}, no date "
-                f"{sum(1 for it in items if not it['date'])}, size {len(data):,}")
+        line = (f"{pkg}: PDF pages {first}-{end - 1}, items {len(items)} ({items[0]['n']}-{items[-1]['n']}), "
+                f"missing {doc['missing']}, no day {sum(1 for it in items if not it['date'])}, "
+                f"listed pages agreeing {sum(1 for it in items if it['list_page'] == it['page'])}, "
+                f"{len(data):,} bytes")
         print(line)
         report.append(line)
     with open(rp, "w", encoding="utf-8") as f:

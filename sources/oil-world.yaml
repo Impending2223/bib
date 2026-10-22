@@ -1,0 +1,235 @@
+# Kept by hand: the world's oil a year, 1960-68, and the posted price of Arabian light, for the calendar's Oil thread.
+# tools/bib/oilworld.py reads it (its docstring and STYLE notes); a calendar entry tagged oilworld:<YYYY> carries the
+# year's table, one tagged oilprice:ras-tanura the table of posted prices. Quotation marks straight, as typed.
+#
+# production: crude oil by country, thousand 42-gallon barrels in the year, as the Bureau of Mines' Minerals Yearbook
+#   for the year printed it ("World production of crude petroleum by countries"; the year's column, preliminary), read
+#   off the page images of archive.org's copies (item, leaf: the first page's leaf, 0-based) and held, every row of the
+#   column, to the table's printed continent and world totals (Oct. 22, 2026; the rows not kept here are the world total
+#   less the kept ones). prior: the year before as the same table printed it, revised; the change is from it.
+#   Keys: us, ussr (with Asia), venezuela, saudi, kuwait, iran, iraq, libya, canada, indonesia (with West Irian from 1964),
+#   algeria (with the Sahara), nigeria, qatar, trucial (the Trucial States: Abu Dhabi alone through 1968; Dubai's Fateh
+#   field to produce from late 1969, Minerals Yearbook 1968, IV, 950-951), mexico, neutral (the Kuwait-Saudi Arabia
+#   Neutral Zone, printed apart). A country with no production that year is left out. estimate: the rows the table marks
+#   "e". us_today: EIA's U.S. field production of crude oil today, thousand barrels (MCRFPUS1, annual), shown where it
+#   differs from the Yearbook's figure.
+# reserves: proved reserves by country, thousand barrels, from the Oil and Gas Journal's year-end "World Wide Oil at a
+#   Glance" table (the last issue of the year; archive.org, open, 1959-61 only), read off the page; free_world and bloc
+#   (the table's "Russia and controlled areas") as printed, ussr from the bloc's footnote.
+# posted: the posted price of crude oil, dollars a barrel f.o.b., each dated: `date` the day or month it took effect or
+#   was read; `kind` change (a new posting) or quoted (a reading of a price in force); the source with its page.
+
+production:
+  - year: 1960
+    volume: II
+    table: 89
+    pages: 486–487
+    item: pub_usgov-minerals-yearbook_1960_2
+    leaf: 493
+    released: '1961'
+    production: {us: 2574933, ussr: 1080400, venezuela: 1041708, saudi: 456453, kuwait: 594278, iran: 390754, iraq: 353833,
+      canada: 191842, indonesia: 152988, algeria: 67408, nigeria: 6552, qatar: 63088, mexico: 99049, neutral: 49829}
+    world: 7683752
+    prior: {us: 2574590, ussr: 945340, venezuela: 1011452, saudi: 399821, kuwait: 504855, iran: 344800, iraq: 311193, canada: 184778,
+      indonesia: 139038, algeria: 10625, nigeria: 4067, qatar: 61431, mexico: 96393, neutral: 42438}
+    prior_world: 7133663
+    us_today: 2574933
+  - year: 1961
+    volume: II
+    table: 88
+    pages: 477–478
+    item: pub_usgov-minerals-yearbook_1961_2
+    leaf: 484
+    released: '1962'
+    production: {us: 2621758, ussr: 1211800, venezuela: 1065790, saudi: 508269, kuwait: 600226, iran: 431653, iraq: 365483,
+      libya: 6642, canada: 220461, indonesia: 156845, algeria: 123122, nigeria: 16802, qatar: 64386, mexico: 106784, neutral: 64405}
+    world: 8187986
+    prior: {us: 2574933, ussr: 1079371, venezuela: 1041708, saudi: 456453, kuwait: 594278, iran: 385748, iraq: 353833, canada: 189534,
+      indonesia: 152988, algeria: 67613, nigeria: 6552, qatar: 63088, mexico: 99049, neutral: 49829}
+    prior_world: 7674493
+    us_today: 2621758
+  - year: 1962
+    volume: II
+    table: 89
+    pages: 506–507
+    item: pub_usgov-minerals-yearbook_1962_2
+    leaf: 513
+    released: '1963'
+    production: {us: 2676185, ussr: 1357800, venezuela: 1167954, saudi: 555056, kuwait: 669284, iran: 481939, iraq: 366832,
+      libya: 67052, canada: 244139, indonesia: 167771, algeria: 158094, nigeria: 24624, qatar: 67911, trucial: 5551, mexico: 111830,
+      neutral: 89047}
+    world: 8878881
+    prior: {us: 2621759, ussr: 1212300, venezuela: 1065790, saudi: 508269, kuwait: 600226, iran: 431653, iraq: 365594, libya: 6642,
+      canada: 220861, indonesia: 155369, algeria: 121494, nigeria: 16802, qatar: 64386, mexico: 106784, neutral: 65153}
+    prior_world: 8186246
+    us_today: 2676189
+  - year: 1963
+    volume: II
+    table: 88
+    pages: 520–521
+    item: pub_usgov-minerals-yearbook_1963_2
+    leaf: 527
+    released: '1964'
+    production: {us: 2752723, ussr: 1503800, venezuela: 1185511, saudi: 594592, kuwait: 705471, iran: 538107, iraq: 422581,
+      libya: 167786, canada: 258435, indonesia: 165002, algeria: 182806, nigeria: 27644, qatar: 70129, trucial: 17571, mexico: 114867,
+      neutral: 114535}
+    world: 9535434
+    prior: {us: 2676189, ussr: 1359600, venezuela: 1167916, saudi: 555056, kuwait: 669284, iran: 481939, iraq: 366832, libya: 67052,
+      canada: 244136, indonesia: 167771, algeria: 158094, nigeria: 24624, qatar: 67911, trucial: 5976, mexico: 111830, neutral: 89224}
+    prior_world: 8882218
+    us_today: 2752723
+  - year: 1964
+    volume: II
+    table: 75
+    pages: 496–497
+    item: pub_usgov-minerals-yearbook_1964_2
+    leaf: 521
+    released: '1965'
+    production: {us: 2805125, ussr: 1646400, venezuela: 1241782, saudi: 628095, kuwait: 774815, iran: 618731, iraq: 459290,
+      libya: 315642, canada: 275364, indonesia: 170739, algeria: 202290, nigeria: 43997, qatar: 77740, trucial: 67465, mexico: 115576,
+      neutral: 131415}
+    world: 10327591
+    prior: {us: 2752723, ussr: 1504300, venezuela: 1185511, saudi: 594592, kuwait: 705471, iran: 538107, iraq: 422581, libya: 167786,
+      canada: 258435, indonesia: 165002, algeria: 184311, nigeria: 27644, qatar: 70129, trucial: 17571, mexico: 114867, neutral: 114535}
+    prior_world: 9537420
+    us_today: 2786822
+  - year: 1965
+    volume: II
+    table: 74
+    pages: 454–455
+    item: pub_usgov-minerals-yearbook_1965_2
+    leaf: 529
+    released: '1967'
+    production: {us: 2848514, ussr: 1786000, venezuela: 1267602, saudi: 739078, kuwait: 791903, iran: 688215, iraq: 482461,
+      libya: 445374, canada: 296997, indonesia: 178190, algeria: 206258, nigeria: 99354, qatar: 84215, trucial: 102804, mexico: 117959,
+      neutral: 132285}
+    world: 11063154
+    prior: {us: 2786822, ussr: 1643500, venezuela: 1241782, saudi: 628095, kuwait: 774815, iran: 618731, iraq: 461961, libya: 315642,
+      canada: 275364, indonesia: 169250, algeria: 204300, nigeria: 43997, qatar: 77740, trucial: 67465, mexico: 115576, neutral: 131416}
+    prior_world: 10309116
+    us_today: 2848514
+  - year: 1966
+    volume: I–II
+    table: 68
+    pages: '911'
+    item: pub_usgov-minerals-yearbook_1966_12
+    leaf: 928
+    released: '1967'
+    production: {us: 3027763, ussr: 1948000, venezuela: 1230464, saudi: 873349, kuwait: 830537, iran: 771234, iraq: 505428,
+      libya: 550186, canada: 321417, indonesia: 169118, algeria: 256480, nigeria: 152428, qatar: 105945, trucial: 131531,
+      mexico: 121149, neutral: 153419}
+    world: 12012821
+    prior: {us: 2848514, ussr: 1786000, venezuela: 1267602, saudi: 739078, kuwait: 791903, iran: 688215, iraq: 482461, libya: 445374,
+      canada: 292308, indonesia: 178190, algeria: 206258, nigeria: 99354, qatar: 84215, trucial: 102804, mexico: 117959, neutral: 132285}
+    prior_world: 11058467
+    estimate: [algeria]
+    us_today: 3027763
+  - year: 1967
+    volume: I–II
+    table: 60
+    pages: '947'
+    item: pub_usgov-minerals-yearbook_1967_12
+    leaf: 956
+    released: '1968'
+    production: {us: 3215742, ussr: 2116000, venezuela: 1292876, saudi: 948110, kuwait: 836719, iran: 952413, iraq: 445821,
+      libya: 636504, canada: 352526, indonesia: 185000, algeria: 282200, nigeria: 116519, qatar: 118083, trucial: 139467,
+      mexico: 133042, neutral: 152862}
+    world: 12889705
+    prior: {us: 3027763, ussr: 1948000, venezuela: 1230464, saudi: 873349, kuwait: 830537, iran: 771234, iraq: 505428, libya: 552712,
+      canada: 320543, indonesia: 168429, algeria: 257122, nigeria: 152428, qatar: 105945, trucial: 131531, mexico: 121149,
+      neutral: 153419}
+    prior_world: 12015830
+    estimate: [iran, algeria]
+    us_today: 3215742
+  - year: 1968
+    volume: I–II
+    table: 60
+    pages: '920'
+    item: pub_usgov-minerals-yearbook_1968_12
+    leaf: 927
+    released: '1969'
+    production: {us: 3329042, ussr: 2252000, venezuela: 1319340, saudi: 1035773, kuwait: 886125, iran: 1039366, iraq: 550098,
+      libya: 948519, canada: 377695, indonesia: 219912, algeria: 325064, nigeria: 52854, qatar: 124220, trucial: 181756, mexico: 142257,
+      neutral: 157000}
+    world: 14083717
+    prior: {us: 3215742, ussr: 2100000, venezuela: 1292876, saudi: 948110, kuwait: 836719, iran: 947678, iraq: 445821, libya: 636504,
+      canada: 351292, indonesia: 186231, algeria: 282200, nigeria: 116519, qatar: 118083, trucial: 139467, mexico: 133042,
+      neutral: 151461}
+    prior_world: 12873486
+    estimate: [neutral]
+    us_today: 3329042
+
+reserves:
+  - year: 1960
+    source: 'The Oil and Gas Journal, Dec. 26, 1960 (vol. 58, no. 52), 98–99, "World Wide Oil at a Glance"'
+    url: https://archive.org/details/sim_oil-gas-journal_1960-12-26_58_52/page/n105
+    countries: {us: 33535000, ussr: 31500000, venezuela: 18500000, saudi: 50000000, kuwait: 62000000, iran: 35000000,
+      iraq: 27000000, libya: 2000000, canada: 5000000, indonesia: 9500000, algeria: 5200000, nigeria: 150000,
+      qatar: 2500000, mexico: 2250000, neutral: 6000000}
+    free_world: 267484800
+    bloc: 33502000
+  - year: 1961
+    source: 'The Oil and Gas Journal, Dec. 25, 1961 (vol. 59, no. 52), 104–105, "World-wide Oil at a Glance"'
+    url: https://archive.org/details/sim_oil-gas-journal_1961-12-25_59_52/page/n111
+    countries: {us: 35500000, ussr: 32500000, venezuela: 17550000, saudi: 52000000, kuwait: 62000000, iran: 35000000,
+      iraq: 26500000, libya: 3000000, canada: 5000000, indonesia: 9500000, algeria: 5500000, nigeria: 300000,
+      qatar: 2750000, mexico: 2500000, neutral: 6000000}
+    free_world: 275723100
+    bloc: 34252000
+
+posted:
+  - crude: Arabian light, 34-34.9 degrees API, Ras Tanura
+    key: arabian
+    rows:
+      - date: '1960-08-09'
+        kind: change
+        before: 1.90
+        price: 1.76
+        by: Esso Export
+        note: 'Esso Export''s new posting, 14 cents less; "old price" $1.90. The day, Aug. 9: the CIA''s Central Intelligence Bulletin, Aug. 16, 1960, and Current Intelligence Weekly Summary, Aug. 18, 1960.'
+        source: 'The Oil and Gas Journal, Aug. 15, 1960 (vol. 58, no. 33), 83, "Esso Export''s New Middle East Postings"'
+        cite: '*Oil and Gas Journal*, Aug. 15, 1960, 83'
+        url: https://archive.org/details/sim_oil-gas-journal_1960-08-15_58_33/page/n94
+      - date: '1960-09'
+        kind: change
+        before: 1.76
+        price: 1.80
+        by: Esso Export
+        note: Esso Export restores up to 4 cents, the week before Sept. 19, to the other companies' postings; the pattern settles at $1.80.
+        source: 'The Oil and Gas Journal, Sept. 19, 1960 (vol. 58, no. 38), 81, "World Crude Prices Adjusted Higher"'
+        cite: '*Oil and Gas Journal*, Sept. 19, 1960, 81'
+        url: https://archive.org/details/sim_oil-gas-journal_1960-09-19_58_38/page/n88
+      - date: '1961-12-25'
+        kind: quoted
+        price: 1.80
+        source: 'The Oil and Gas Journal, Dec. 25, 1961 (vol. 59, no. 52), 243, crude oil prices, foreign'
+        cite: '*Oil and Gas Journal*, Dec. 25, 1961, 243'
+        url: https://archive.org/details/sim_oil-gas-journal_1961-12-25_59_52/page/n250
+      - date: '1968-06'
+        kind: quoted
+        price: 1.80
+        source: 'CIA, Directorate of Intelligence, *Saudi Arabia Enters Eastern European Oil Markets*, Intelligence Memorandum ER IM 68-59 (June 1968), par. 4, note ("posted at $1.80 a barrel f.o.b. Ras Tanura less discounts of about $0.40")'
+        cite: 'CIA, ER IM 68-59, June 1968, par. 4'
+        url: https://archive.org/details/cia-readingroom-document-cia-rdp85t00875r001600010009-1
+      - date: '1970-11-14'
+        kind: quoted
+        price: 1.80
+        note: The posting before Nov. 14, 1970, and on it; $2.18 from Feb. 15, 1971 (the Tehran settlement).
+        source: 'CIA, Directorate of Intelligence, *Some Revenue Implications of the 14 February Oil Settlement with the Persian Gulf States*, Intelligence Memorandum (Mar. 1971), Table 2'
+        cite: 'CIA memorandum, Mar. 1971, table 2'
+        url: https://archive.org/details/cia-readingroom-document-cia-rdp85t00875r001600040044-9
+  - crude: Venezuela, Oficina, 35-35.9 degrees API, Puerto La Cruz
+    key: oficina
+    rows:
+      - date: '1960-08-15'
+        kind: quoted
+        price: 2.80
+        source: 'The Oil and Gas Journal, Aug. 15, 1960 (vol. 58, no. 33), 228, crude oil prices, foreign'
+        cite: '*Oil and Gas Journal*, Aug. 15, 1960, 228'
+        url: https://archive.org/details/sim_oil-gas-journal_1960-08-15_58_33/page/n239
+      - date: '1961-12-25'
+        kind: quoted
+        price: 2.80
+        source: 'The Oil and Gas Journal, Dec. 25, 1961 (vol. 59, no. 52), 243, crude oil prices, foreign'
+        cite: '*Oil and Gas Journal*, Dec. 25, 1961, 243'
+        url: https://archive.org/details/sim_oil-gas-journal_1961-12-25_59_52/page/n250

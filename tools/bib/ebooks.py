@@ -1,6 +1,8 @@
 """The daybook's documents as ebooks: an EPUB a month, every FRUS document of the month in full, with the
-President's Public Papers of the month by title, day by day, in the daybook's order.
+President's Public Papers of the month in full, from GPO's volumes, day by day, in the daybook's order.
 
+    sources/ppp-text/<package>.json.xz   the Public Papers' items, their text cleaned from GPO's volumes on govinfo,
+                             with their pagination (tools/ppp/make_ppp_text.py; tools/bib/ppp.py); public domain
     sources/frus-text/<YYYY-MM>.json.xz   the FRUS documents' text in XHTML, a document a key (the daybook's), made
                              from the Office of the Historian's TEI files by tools/ebooks/make_frus_text.py (public
                              domain; CC0); the build needs neither the TEI nor the network
@@ -17,17 +19,23 @@ STYLE:
     by day, each document under its day by its heading; then the days, a file a day (a day over about 300 KB in
     parts). EPUB 3, with an NCX for older readers.
  3. A day: its date as a heading ("Monday, Oct. 1, 1962") and a link to the day in the calendar (the site's page and
-    the day's anchor); the President's items, each its title linked to the American Presidency Project; then the
-    FRUS documents in the daybook's order (volume, then number).
+    the day's anchor); the President's items of the Public Papers dated that day (a dateless item under the date of
+    the item before it), in the volume's order; then APP's documents of the day that the Public Papers do not print
+    (the executive orders, the proclamations, the campaign of 1960), by title, linked to APP; then the FRUS documents
+    in the daybook's order (volume, then number).
  4. A FRUS document: its heading as FRUS prints it; under it, muted, the author as the daybook reads it, the time,
     the citation with the volume's title ("FRUS 1961–63, XI: Cuban Missile Crisis and Aftermath, doc. 1"), "through
     Oct. 3" for a range, "filed by its place in the volume" for an editorial note, then "history.state.gov" (the
     document's page) and "Calendar" (the day); then the text and its footnotes (tools/ebooks/make_frus_text.py,
     STYLE). A document the extract lacks: its heading and links, and "Text not in this book".
- 5. The Public Papers by title only. Their texts are public domain, but the only text at hand is the American
-    Presidency Project's (its site's own transcriptions, under its terms; its robots.txt turns away automated readers,
-    and the corpus tools/lives/app_corpus.py read holds them without their paragraphs), and GPO's govinfo has these
-    years' volumes as page scans only. A text of the Public Papers would come from those scans (leads).
+ 5. A Public Papers item: its heading as the volume prints it, the number first ("1. Inaugural Address"); under
+    it, muted, its date, the cite ("1961 Pub. Papers 1") linked to its first page in GPO's PDF on govinfo, the
+    volume's title and the item's pages, and "Calendar" (the day); then the text, paragraph by paragraph, each
+    printed page's beginning marked "p. 123" (small, muted, linked to that page of the PDF); a line set off (a
+    signature, a close) to the right; the editors' bracketed notes in italics; the editors' note ("NOTE: ...") and the
+    footnotes in small type after the text. The text: the volume's OCR, cleaned by rule (tools/ppp/make_ppp_text.py,
+    its STYLE: the running heads and folios gone, words broken at a line's end rejoined, the commonest misreadings
+    put right, the paragraphs restored); a misreading no rule meets stands as printed.
  6. No recordings, no transcripts: the recordings are in the feeds (tools/bib/feeds.py); PRDE's transcripts are the
     Edition's, behind its subscription.
  7. Deterministic: the same inputs make the same file but for the build date on the title page and in the OPF; the
@@ -148,6 +156,13 @@ sup.nr{font-size:.7em;line-height:0}
 nav ol{list-style:none;padding-left:0}
 nav ol ol{padding-left:1.2em;font-size:.9em}
 .title p{margin:.6em 0}
+a.pg,span.pg{font-size:.7em;color:#888;text-decoration:none;font-variant:normal;white-space:nowrap;margin:0 .15em}
+.ed{font-style:italic;text-align:center}
+.sg{margin-left:40%}
+.pnote{font-size:.85em;margin-top:.6em}
+.pnote p,.pfn{font-size:.85em}
+.psm{font-size:.9em}
+h4.ph{font-variant:small-caps;font-weight:normal}
 """
 
 
@@ -200,19 +215,61 @@ def ppp_list(xs, iso):
         t = esc(x["title"])
         items.append(f'<li id="{a}"><a href="{esc(x["url"])}">{t}</a></li>' if x.get("url") else f'<li id="{a}">{t}</li>')
         toc.append((a, x["title"]))
-    body = ('<p class="lh">The President (Public Papers, by title; the text at the American Presidency Project)</p>'
-            f'<ul class="pp">{"".join(items)}</ul>')
+    body = ('<p class="lh">The President: not in the Public Papers (by title; the text at the American Presidency '
+            f'Project)</p><ul class="pp">{"".join(items)}</ul>')
     return body, toc
+
+
+PKIND = {"p": "p", "s": "sg", "h": "ph", "b": "ed", "n": "pnote", "f": "pfn", "q": "psm"}
+
+
+def ppp_block(pkg, it, cal_url):
+    """A Public Papers item (STYLE 5): (anchor, heading, xhtml)."""
+    from . import ppp
+    v = ppp.data().get("volumes", {}).get(pkg) or {}
+    anchor = f"p{pkg[4:8]}{pkg[-1]}n{it['n']}"
+    heading = f"{it['n']}. {it['title']}"
+    pi = ppp.item(pkg, it["n"])
+    day = it.get("date")
+    bits = []
+    if day:
+        bits.append(esc(daybook.day_label(datetime.date.fromisoformat(day), True)))
+    else:
+        bits.append("undated in its heading; filed by its place in the volume")
+    if pi:
+        bits.append(f'<a href="{esc(pi["url"])}">{esc(pi["cite"])}</a>')
+        pp = f"p. {it['page']}" if it["page"] == it["page_to"] else f"pp. {it['page']}–{it['page_to']}"
+        bits.append(esc(f"{v.get('title', '')}, item {it['n']}, {pp}"))
+    if cal_url:
+        bits.append(f'<a href="{esc(cal_url)}">Calendar</a>')
+    out = [f'<h3 id="{anchor}">{esc(heading)}</h3><p class="meta">{" · ".join(bits)}</p>']
+    note = []
+    for k, t in it["text"]:
+        x = ppp.marked(t, pkg)
+        if k == "n":
+            note.append(f"<p>{x}</p>")
+        elif k == "h":
+            out.append(f'<h4 class="ph">{x}</h4>')
+        else:
+            out.append(f'<p class="{PKIND.get(k, "p")}">{x}</p>' if k != "p" else f"<p>{x}</p>")
+    if note:
+        out.append(f'<div class="pnote">{"".join(note)}</div>')
+    return anchor, heading, "".join(out)
 
 
 def build_book(month, docs, text, cal, built):
     """The book's files: [(name, bytes)], and its counts."""
+    from . import ppp
     by_day = {}
     for x in docs:
         by_day.setdefault(x["date"], []).append(x)
+    pdays = {d: xs for d, xs in ppp.items_by_day().items() if d[:7] == month}
+    for d in pdays:
+        by_day.setdefault(d, [])
     spine, nav_days, n = [], [], 0
     nfrus = sum(1 for x in docs if x["src"] == "frus")
-    nppp = len(docs) - nfrus
+    app_only = [x for x in docs if x["src"] == "ppp" and not ppp.match(x.get("url"))]
+    nppp = sum(len(xs) for xs in pdays.values())
     with_text = sum(1 for x in docs if x["src"] == "frus" and text and x["key"] in text)
     vols = sorted({x["cite"].rpartition(", doc. ")[0] + (": " + x["vol"] if x.get("vol") else "")
                    for x in docs if x["src"] == "frus"})
@@ -223,11 +280,15 @@ def build_book(month, docs, text, cal, built):
         head = (f'<h2 id="d{iso}">{esc(day_head(d))}</h2>'
                 + (f'<p class="cal"><a href="{esc(cal_url)}">The day in the calendar</a></p>' if cal_url else ""))
         toc, blocks = [], []
-        ppp = [x for x in xs if x["src"] == "ppp"]
-        if ppp:
-            body, t = ppp_list(ppp, iso)
+        for pkg, it in pdays.get(iso, []):         # the Public Papers in full (STYLE 3, 5)
+            a, h, body = ppp_block(pkg, it, cal_url)
+            blocks.append(f'<div class="doc">{body}</div>')
+            toc.append((a, "The President: " + h))
+        app = [x for x in xs if x["src"] == "ppp" and not ppp.match(x.get("url"))]
+        if app:
+            body, t = ppp_list(app, iso)
             blocks.append(body)
-            toc += [(a, "The President: " + h) for a, h in t]
+            toc += [(a, "The President (APP): " + h) for a, h in t]
         for x in xs:
             if x["src"] != "frus":
                 continue
@@ -258,10 +319,15 @@ def build_book(month, docs, text, cal, built):
     tp = (f'<div class="title"><h1>{esc(title)}</h1>'
           f'<p>Every document of <i>Foreign Relations of the United States</i> dated in {esc(month_label(month))}, in '
           f'full ({nfrus:,}{"" if with_text == nfrus else f"; {with_text:,} with their text"}), and the President’s '
-          f'Public Papers of the month by title ({nppp:,}), day by day.</p>'
+          f'Public Papers of the month in full ({nppp:,} items{f"; {len(app_only):,} documents the Public Papers do not '
+          f'print, by title" if app_only else ""}), day by day.</p>'
           '<p>Order: as the calendar’s daybook files them. A document under the day it is dated, a range under its '
           'first day; an editorial note under the document before it in its volume. Within a day, the President’s '
-          'items in the American Presidency Project’s order, then FRUS by volume and number. Each FRUS document: its '
+          'items in the volume’s order (an item whose heading gives no day under the date of the item before it), '
+          'then the documents APP gives that the Public Papers do not print, then FRUS by volume and number. Each '
+          'Public Papers item: its number and heading, its date, the cite linked to its first page in GPO’s volume, '
+          'the volume and pages; then its text, each printed page’s beginning marked “p. 123”, linked to the page; '
+          'the editors’ note after it. Each FRUS document: its '
           'heading as FRUS prints it, then its author (the sender, the signer, or the drafter, as the daybook reads '
           'them), the citation, a link to its page on history.state.gov and to the day in the calendar; then its text '
           'and footnotes.</p>'
@@ -270,9 +336,15 @@ def build_book(month, docs, text, cal, built):
           'of the United States government, and dedicated to the public domain worldwide under CC0 1.0 (the '
           'repository’s LICENSE.md). Images are not reproduced. The volumes:</p>'
           f'<ul class="pp">{vol_list}</ul>'
-          '<p>The Public Papers of the Presidents: titles and dates from the American Presidency Project (John Woolley '
-          'and Gerhard Peters, University of California, Santa Barbara), each linked to its text there. The papers are '
-          'public domain; the Project’s transcriptions are its site’s, under its terms, and are not reproduced.</p>'
+          '<p><i>Public Papers of the Presidents of the United States</i> (Office of the Federal Register, National '
+          'Archives and Records Service): the text from the volumes’ scans on govinfo (U.S. Government Publishing '
+          'Office), their OCR text layer cleaned by rule: the running heads and folios set aside, words broken at a '
+          'line’s end rejoined, the commonest misreadings put right, the paragraphs restored. A misreading no rule '
+          'meets stands as printed; the page links show the page itself. Public domain as a work of the United '
+          'States government. The documents the Public Papers do not print are listed by title from the American '
+          'Presidency Project (John Woolley and Gerhard Peters, University of California, Santa Barbara), each linked '
+          'to its text there; the Project’s transcriptions are its site’s, under its terms, and are not '
+          'reproduced.</p>'
           f'<p>Made by the 1968 series ({esc(SITE)}), {esc(built.isoformat())}. Ebooks and feeds: '
           f'<a href="{esc(SITE)}ebooks.html">{esc(SITE)}ebooks.html</a>.</p></div>')
     # the contents (nav), also in the spine
@@ -303,9 +375,10 @@ def build_book(month, docs, text, cal, built):
            '<dc:language>en</dc:language>\n'
            '<dc:creator>United States Department of State, Office of the Historian</dc:creator>\n'
            f'<dc:publisher>The 1968 series ({esc(SITE)})</dc:publisher>\n'
-           '<dc:source>Foreign Relations of the United States; the American Presidency Project (titles)</dc:source>\n'
+           '<dc:source>Foreign Relations of the United States; Public Papers of the Presidents (govinfo); the '
+           'American Presidency Project (titles)</dc:source>\n'
            '<dc:rights>FRUS text: public domain (a work of the United States government; CC0 1.0). Public Papers: '
-           'titles only, linked to the American Presidency Project.</dc:rights>\n'
+           'public domain (a work of the United States government). APP: titles only, linked.</dc:rights>\n'
            f'<dc:date>{esc(month)}</dc:date>\n'
            f'<meta property="dcterms:modified">{stamp}</meta>\n'
            '</metadata>\n<manifest>\n' + "\n".join(items) + '\n</manifest>\n<spine toc="ncx">\n'
@@ -337,7 +410,7 @@ def build_book(month, docs, text, cal, built):
              ("OEBPS/style.css", CSS), ("OEBPS/title.xhtml", page(title, tp)),
              ("OEBPS/nav.xhtml", page("Contents", nav))]
     files += [(f"OEBPS/{fn}", body) for fn, body in spine]
-    return files, {"frus": nfrus, "ppp": nppp, "text": with_text, "days": len(by_day)}
+    return files, {"frus": nfrus, "ppp": nppp, "app": len(app_only), "text": with_text, "days": len(by_day)}
 
 
 def write_epub(path, files):

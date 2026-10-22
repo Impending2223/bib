@@ -30,6 +30,9 @@ STYLE (settled; keep it):
     "As first reported, <issue>" or "Revised, today", the source on hover. Today's crude production equals the
     Survey's, to the Survey's rounding, in most months: the data, not a bug (make_oil.py reads the two apart, the
     Survey by eye, EIA's workbook by download); the months they differ are in the statement.
+ 6. The world's oil and the posted prices are not rows here (a year's table by country; dated postings, not a monthly
+    row): tools/bib/oilworld.py renders them under the December entries of the Oil thread (oilworld:<YYYY>) and under
+    Esso Export's cut of Aug. 9, 1960 (oilprice:ras-tanura), from sources/oil-world.yaml; its STYLE notes.
 """
 import calendar
 

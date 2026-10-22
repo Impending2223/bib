@@ -596,14 +596,20 @@ Events Gibbons treats that the calendar lacks, not entered: no record reached an
 
 ### Oil (the oil agent, Oct. 21, 2026)
 
-- The posted price of Arabian light (34°) at Ras Tanura ($1.80 from Aug. 1960 in the memo, unverified): no source
-  read gives it. OPEC's *Annual Statistical Bulletin* and the Energy Institute's *Statistical Review* workbook ("Arabian
-  Light posted at Ras Tanura" to 1983) are bot-checked here; the Minerals Yearbook (vols. II, IV, 1960–70) prints no
-  posted price for it; FRUS 1958–60, XII, 1961–63, IX, XVII–XVIII, 1964–68, XXI, XXXIV do not either. A person in a
-  browser can open the Energy Institute's workbook.
-- The world table a year (the memo's item 2): crude production by country, the Minerals Yearbook's table as printed
-  that year (vol. II, "World review", e.g. 1960, table 89, p. 487; OCR poor, read from the page) beside the Energy
-  Institute's figure today (bot-checked; Our World in Data's mirror on GitHub is open, in TWh). Not built.
+- The posted price of Arabian light: entered (sources/oil-world.yaml, oilworld.py; Oct. 22, 2026) from the *Oil and
+  Gas Journal* (archive.org, open, June 1959-Dec. 1961 only) and two CIA memoranda (June 1968, Mar. 1971). Left: the day
+  of Esso Export's restoration in September 1960 (the Journal, Sept. 19: "last week"; `cal.1960-09-12.oil` carries a
+  Check); the other companies' cuts of Aug. 10-19, 1960 (Shell, BP, Mobil, CFP, Getty: the Journal, Aug. 22, 62, and
+  Aug. 29), not entered; Venezuela's postings after Dec. 1961 and any change in them (the Journal's weekly table; the
+  1962-69 issues not open: a library, or HathiTrust in a browser); OPEC's *Annual Statistical Bulletin* and the Energy
+  Institute's workbook still bot-checked here.
+- The world table a year: built (oilworld.py). Left: proved reserves by country for 1962-68. The *Journal*'s year-end
+  tables of those years are not open; the Minerals Yearbook's country chapters (vol. IV, 1963-68, on archive.org)
+  cite them by issue and page country by country ("Oil and Gas Journal, V. 62, No. 52, Dec. 28, 1964, p. 106"), and
+  could be read for the main producers. No open series today counts crude by country in barrels for the 1960s.
+- OPEC's conferences after Geneva (June 1962) and the royalty-expensing settlement of 1964 (FRUS 1964-68, XXXIV, doc.
+  190 recounts it): not entered; nor the Eleventh Conference's Resolutions 71 and 72 (doc. 190). *OPEC Official Resolutions and Press Releases, 1960-1980* is on archive.org, borrow
+  only.
 - The 1967 embargo's other days: Saudi Arabia's stop (June 6–7; FRUS gives Yamani's line, not the order), Libya's
   announcement (June 7), Boumediene's call for a year's cutoff (June 19), the Arab foreign ministers at Kuwait (June 17),
   Libya's quiet resumption to West Germany (Aug. 9): in FRUS 1964–68, XXXIV, docs. 233, 239, 243, 263; not entered.
@@ -652,6 +658,36 @@ Events Gibbons treats that the calendar lacks, not entered: no record reached an
   11,300 in the 1967 and 1968 editions and the DoD's table of 1974: Check the column's meaning.
 - Deaths by province of South Vietnam (DCAS field 28, casualty province): a map a year beside the Indochina maps
   (tools/bib/vnmap.py, another agent's).
+
+### The enemy and the allies, the war table (tools/indicators/make_war_forces.py; the war-table agent, Oct. 22, 2026)
+
+- MACV's order of battle month by month as carried before Oct. 31, 1967 (the old format, militia and cadre counted):
+  only its October figure is read (Thayer, vol. 2, p. 8). The MACV monthly OB summaries and command histories (Texas
+  Tech, refused here). The 1965 rows of the new format's first vintage (Thayer, vol. 8, p. 24) are too faint in the
+  DTIC copy; Aug., Sept. and Dec. 1967 there partly (Check in the rows). Jul.-Dec. 1968 monthly: not found.
+- Enemy killed (body count) by month, 1965-68, and 1965's total: not found open (the OSD SEA Statistical Summary's
+  table; Thayer, *War Without Fronts* (1985), not open here). The quarters of 1968 as printed add to 180,958 against
+  the year's 180,966P (Thayer, vol. 1, p. 123).
+- Retrospective enemy figures: the People's Army's official history, *Victory in Vietnam* (Pribbenow trans., 2002),
+  HathiTrust search-only, no open copy; Hanoi's statement of April 1995 on its losses (as the wire services reported
+  it) not read. Two cards for the history (w.viet-victory-in-vietnam, w.vietnam-victory-in-vietnam): combine.
+- RVNAF strength by service for 1965 and 1966 (Collins gives none) and quarterly before 1966: Thayer, vols. 6-7
+  (DTIC ADA039315, ADA051612), downloaded, not read page by page. RVNAF killed by month 1966: the months as read add
+  to 9,459 (OSD) and 11,933 (J-1) against the printed 9,469 and 11,953 (Thayer, vol. 8, p. 212; the earlier table of
+  Dec. 1967, p. 209, would settle the faint digits).
+- Infiltration: CINCPAC's series (Thayer, vol. 2, p. 79) not taken; the months' later revisions after Sept. 1969.
+- The order-of-battle dispute, for calendar entries: the meetings in Washington of August 1967 (named in FRUS
+  1964-68, V, doc. 314); Adams's protests and memoranda as his memoir dates them (*War of Numbers*, not open); the leak
+  of the CIA's figures in the *New York Times*, spring 1968 (FRUS 1964-68, VI, doc. 202; the article not read); CBS's
+  "The Uncounted Enemy" (Jan. 23, 1982) and *Westmoreland v. CBS* (1984-85) as "Made public" (Adler, not open);
+  whether the Pentagon Papers print any of it; Westmoreland's press briefing of Nov. 22, 1967 (place, transcript) and
+  whether MACV's briefing of Nov. 24 was to the press.
+- The war table's day: the Thursday of the weekly casualty releases is the plan's (Oct. 20, 2026), not verified
+  against the papers (TimesMachine refused). Jan. 1969's figures (their first Thursday, Feb. 6, past the calendar) are
+  not shown.
+- Armed Forces Day: Eisenhower's proclamation for 1960 not read; Proclamations 3399 (1961) and 3655 (1965) name the
+  third Saturday of May "in each succeeding year", so no yearly proclamation is looked for; govinfo's Federal Register
+  search was rate-limited (DEMO_KEY).
 
 ### The Johnson Plan (Middle East: Johnson Plan; the Johnson Plan agent, Oct. 22, 2026)
 
