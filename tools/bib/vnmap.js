@@ -78,7 +78,7 @@ function style(M, C, places) {
     {id: 'bg', type: 'background', paint: {'background-color': C.vsea}},
     f.bathy && {id: 'bathy', type: 'fill', source: 'bathy', layout: hide,
       paint: {'fill-color': ['match', ['get', 'd'], ...M.depths.flatMap((d) => [d.from, d.color]), C.vsea]}},
-    {id: 'land', type: 'fill', source: 'admin', filter: ['==', ['get', 'k'], 'land'], paint: {'fill-color': C.vland}},
+    {id: 'land', type: 'fill', source: 'admin', filter: ['in', ['get', 'k'], ['literal', ['land', 'unit']]], paint: {'fill-color': C.vland}},
     f.dem && {id: 'elevation', type: 'color-relief', source: 'dem', layout: hide,
       paint: {'color-relief-color': ['step', ['elevation'], 'rgba(0,0,0,0)', ...M.hypso.flatMap((h) => [h.from, h.color])]}},
     f.koppen && {id: 'koppen', type: 'raster', source: 'koppen', layout: hide, paint: {'raster-opacity': 0.8, 'raster-resampling': 'nearest'}},

@@ -56,7 +56,7 @@ def mosaic(d):
 
 def land_mask(shape_, tr):
     fc = json.load(open(os.path.join(OUT, "admin.geojson"), encoding="utf-8"))
-    geoms = [f["geometry"] for f in fc["features"] if f["properties"]["k"] == "land"]
+    geoms = [f["geometry"] for f in fc["features"] if f["properties"]["k"] in ("land", "unit")]
     return rasterio.features.rasterize(geoms, out_shape=shape_, transform=tr, fill=0, default_value=1,
                                        all_touched=False, dtype="uint8").astype(bool)
 

@@ -4,8 +4,9 @@ meet and no line is drawn twice. A one-time script:
 
     python3 -I tools/vnmap/base.py CGAZ_DIR
 
-CGAZ_DIR holds geoBoundaries' Comprehensive Global Administrative Zones (CGAZ), the repository's main branch as of Oct. 22, 2026 (its latest release 6.0.0, Sept. 14, 2023)
-from https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/main/releaseData/CGAZ/
+CGAZ_DIR holds geoBoundaries' Comprehensive Global Administrative Zones (CGAZ), the repository's main branch as of
+Oct. 22, 2026 (its latest release 6.0.0, Sept. 14, 2023), from
+https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/main/releaseData/CGAZ/
 geoBoundariesCGAZ_ADM{0,1,2}.gpkg (CC BY 4.0; the country lines are the U.S. Department of State's Large Scale
 International Boundaries, LSIB). Needs shapely >= 2.1 (coverage functions), pyproj and pyogrio (pip).
 
@@ -27,7 +28,8 @@ The steps:
     each kept once at its highest rank (international, the demarcation line, corps zone, region, province) and the
     coast apart. Label points: shapely's polylabel of each unit's largest part.
 
-Writes sources/indochina/admin.geojson (what the map draws: `k` land, unit, line, lab; see vnmap STYLE) and, for the
+Writes sources/indochina/admin.geojson (what the map draws: `k` land (the countries without units), unit, line, lab;
+see vnmap STYLE) and, for the
 series' checks and the gazetteer, sources/vn-provinces-1966/provinces1966.geojson, ctz1966.geojson, regions.geojson,
 outline.geojson and indochina-outline.geojson, and the gazetteer's provinces (places.json `province`) by point in
 polygon on the new units, reporting every change.
@@ -53,7 +55,7 @@ FRAME = (97.5, 5.5, 113.0, 26.0)     # lon/lat: the shapes are cut here; the map
 TOL = 0.002                          # coverage_simplify tolerance, degrees (~200 m)
 MIN_KM2 = 0.5                        # islets smaller than this dropped
 SURE = 0.9                           # a district with a smaller share in its 1966 unit is listed as a straddler
-PREC = 4                             # decimals in the output (~11 m)
+PREC = 3                             # decimals in the output (~110 m; the lines are simplified at ~200 m)
 GEOD = Geod(ellps="WGS84")
 
 COUNTRY = {"VNM": "Vietnam", "LAO": "Laos", "KHM": "Cambodia", "THA": "Thailand", "CHN": "China", "MMR": "Burma",
@@ -315,8 +317,9 @@ def main():
     # the RVN's units take the region of the 1966 file (by area); the regions' lines are today's provinces' groups
     feats = []
     names = {"rvn": "Republic of Vietnam", "drv": "Democratic Republic of Vietnam", **{CID[k]: v for k, v in COUNTRY.items() if k in CID}}
-    for c, g in country.items():
-        feats.append(feat(g, {"k": "land", "id": c, "name": names[c]}))
+    for c, g in country.items():             # the four countries' land is their units'
+        if c not in ("rvn", "drv", "laos", "cambodia"):
+            feats.append(feat(g, {"k": "land", "id": c, "name": names[c]}))
     for uid, g in sorted(units.items(), key=lambda kv: (meta[kv[0]]["c"], kv[0])):
         m = meta[uid]
         feats.append(feat(g, {"k": "unit", "id": uid, **{k: v for k, v in m.items() if v is not None},

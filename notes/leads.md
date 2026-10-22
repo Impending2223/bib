@@ -517,9 +517,21 @@ next January's *Economic Report*'s (local scans read earlier), not the first pri
   1962 prints "Commerce" often. The rename's date.
 - Russell, President pro tempore to Jan. 21, 1971 (the day he died and the 92nd convened): left out of the 92nd (see
   congress/committees-hand.yaml).
-- Not yet built: subcommittees; select, special and joint committees (Aging; Joint Economic, Atomic Energy, Internal
-  Revenue Taxation), which the *Directory* prints; ratios changed during a Congress; the *Directory*'s page on each
-  committee.
+- Subcommittees of the 89th-93rd Congresses: no open list found. The *Directory* prints none to Mar. 1971; from Dec.
+  3, 1971 it prints each subcommittee's chairman and ranking minority member, in two columns the OCR runs together
+  (not read). The *Congressional Staff Directory*'s 1965, 1967 and 1969 editions are not on archive.org (searched by
+  title and by Brownson); its 1971 edition is (`1971congressiona008514mbp`, the 92nd: not read). HathiTrust's
+  copies are bot-checked here. Other sources: the committees' own printed calendars (each lists its subcommittees),
+  and the Digest's reports of organizational meetings, which name some (House Post Office and Civil Service, Feb. 25,
+  1965; House Banking and Currency, Mar. 16, 1965; Senate Government Operations, Jan. 24, 1967).
+- The subcommittees of the 87th and 88th (congress/subcommittees.yaml): 155 of 459 carry a Check (a printed count the
+  names read do not make, a chairman's line not matched, a surname unread, a name not put right): read those leaves
+  by eye (each row links its leaf). The ex officio members the Staff Directory marks by a footnote are not marked.
+- Select committees the first- and second-session *Directories* do not print: the Senate's Select Committee on
+  National Water Resources (1959-61, the 86th: hearings in 1960), the House's Select Committee on Export Control
+  (hearings in 1962), the House select committee on the Powell case (H. Res. 1, 1967), the Joint Committee on
+  Inaugural Arrangements. Their hearings' rows are not linked.
+- Not yet built: ratios changed during a Congress.
 
 ### Ebooks and feeds
 
@@ -544,10 +556,23 @@ next January's *Economic Report*'s (local scans read earlier), not the first pri
 
 - Hearings a calendar entry should cite by the Digest's line and the printed hearing: Senate Foreign Relations on
   Vietnam, Feb. 1966; Ways and Means on the tax bill, 1963–64.
-- Gaps of six days or more where recess and a missed day heading cannot be told apart: 1966 June 9–15, Sept. 1–7;
-  1967 Jan. 18–24; 1968 Apr. 11–17. Check against the Digest's pages.
-- Not yet done: the bills in a meeting linked to their courses (`congress/bills.yaml`); the *Monthly Catalog*'s titles
-  of the printed hearings; subcommittee names the OCR cut short.
+- The four gaps (1966 June 9-15, Sept. 1-7; 1967 Jan. 18-24; 1968 Apr. 11-17), checked against the Digest's pages:
+  June 1966, a day heading the OCR ran together ("Tuesday.June14, 1966", D293); Sept. 1966, the Labor Day recess (no
+  meetings Sept. 2; the House's of Sept. 6 had been filed under the 7th); Jan. 1967, Monday, Jan. 23's heading lost by
+  the OCR (D14) and the Senate's and House's "Committee Meetings" headings misread; Apr. 1968, the Easter recess
+  (H. Con. Res. 761), with Apr. 23's meetings lost under a misread heading. Fixed by rule (make_committees.py STYLE
+  1-3) and every year rerun: 31,560 meetings where there were 25,926. The gaps left: recesses (1967 Feb. 9-15,
+  Lincoln's Birthday; the summer and fall adjournments). Check a sample of 1960-65 by eye: the new rules add rows
+  there too.
+- A meeting reported inside another day's paragraph ("... On Friday, July 26, committee heard testimony from Ivan
+  Allen, Jr.": Senate Commerce, D553, 1963, filed July 29) stays with the paragraph's day; only a paragraph that opens
+  "On Friday, ..." is filed under the day held.
+- A Senate meeting filed as the House's where a chamber's heading the layout misplaces remains possible (1968-01-23,
+  Senate Judiciary's Antitrust and Monopoly Subcommittee, before the column rule); check the chamber of a meeting
+  whose subcommittee only the other chamber has.
+- The calendar's entries on hearings and testimony were checked against the Digest's days (the committee named, the
+  week around): none found that the Digest dates otherwise (Allen before Senate Commerce, July 26, 1963, is right).
+- Not yet done: the *Monthly Catalog*'s titles of the printed hearings.
 
 ## Foreign
 

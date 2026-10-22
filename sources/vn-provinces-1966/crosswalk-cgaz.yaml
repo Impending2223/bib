@@ -1,0 +1,4254 @@
+title: The 1966 units on geoBoundaries CGAZ districts (tools/vnmap/base.py)
+method: 'each CGAZ ADM2 district of Vietnam given whole to the 1966 unit of the GADM-based provinces1966.geojson (the hand crosswalk, crosswalk.yaml)
+  holding most of it; under half in any: the DRV'
+source: geoBoundaries CGAZ 6.0.0, ADM0-2 (CC BY 4.0), downloaded Oct. 22, 2026
+straddlers:
+- &id004
+  district: Con Dao
+  shapeID: 81297802B83873736556753
+  province_today: Côn Đảo
+  unit_1966: con-son
+  share: 0.654
+  km2: 60.5
+- &id003
+  district: Phu Quy
+  shapeID: 81297802B90799057915407
+  province_today: Bình Thuận
+  unit_1966: binh-thuan
+  share: 0.756
+  km2: 18.2
+- &id006
+  district: Kien Hai
+  shapeID: 81297802B10550571931229
+  province_today: Kiên Giang
+  unit_1966: kien-giang
+  share: 0.791
+  km2: 12.2
+- &id009
+  district: Ly Son
+  shapeID: 81297802B63810165613250
+  province_today: Quảng Ngãi
+  unit_1966: quang-ngai
+  share: 0.818
+  km2: 9.6
+- &id005
+  district: Son Tra
+  shapeID: 81297802B64444176527608
+  province_today: Đà Nẵng
+  unit_1966: da-nang
+  share: 0.837
+  km2: 59.1
+- &id001
+  district: Ngoc Hien
+  shapeID: 81297802B22159011638398
+  province_today: Cà Mau
+  unit_1966: an-xuyen
+  share: 0.878
+  km2: 673.8
+- &id008
+  district: Ngu Hanh Son
+  shapeID: 81297802B96824977906351
+  province_today: Đà Nẵng
+  unit_1966: quang-nam
+  share: 0.889
+  km2: 42.3
+- &id002
+  district: Phan Thiet
+  shapeID: 81297802B56109009945364
+  province_today: Bình Thuận
+  unit_1966: binh-thuan
+  share: 0.89
+  km2: 235.1
+- &id007
+  district: Lien Chieu
+  shapeID: 81297802B84719552891507
+  province_today: Đà Nẵng
+  unit_1966: quang-nam
+  share: 0.891
+  km2: 89.8
+districts:
+- district: An Duong
+  shapeID: 81297802B31270346353021
+  province_today: Hải Dương
+  unit_1966: DRV
+  share: 0
+  km2: 104.4
+- district: An Lao
+  shapeID: 81297802B65658789050233
+  province_today: Hải Dương
+  unit_1966: DRV
+  share: 0
+  km2: 114.4
+- district: An Thi
+  shapeID: 81297802B29202402001629
+  province_today: Hưng Yên
+  unit_1966: DRV
+  share: 0
+  km2: 129.8
+- district: Anh Son
+  shapeID: 81297802B23970425053168
+  province_today: Nghệ An
+  unit_1966: DRV
+  share: 0
+  km2: 603.8
+- district: Ba Be
+  shapeID: 81297802B36883846114124
+  province_today: Bắc Kạn
+  unit_1966: DRV
+  share: 0
+  km2: 683.4
+- district: Ba Che
+  shapeID: 81297802B18420716282175
+  province_today: Quảng Ninh
+  unit_1966: DRV
+  share: 0
+  km2: 607.1
+- district: Ba Dinh
+  shapeID: 81297802B78295235973409
+  province_today: Hà Nội
+  unit_1966: DRV
+  share: 0
+  km2: 9.5
+- district: Ba Don
+  shapeID: 81297802B46228878369339
+  province_today: Quảng Bình
+  unit_1966: DRV
+  share: 0
+  km2: 164.4
+- district: Ba Thuoc
+  shapeID: 81297802B10763760406842
+  province_today: Thanh Hóa
+  unit_1966: DRV
+  share: 0
+  km2: 777.9
+- district: Ba Vi
+  shapeID: 81297802B94958861355476
+  province_today: Phú Thọ
+  unit_1966: DRV
+  share: 0
+  km2: 421.7
+- district: Bac Giang
+  shapeID: 81297802B62924474209473
+  province_today: Bắc Giang
+  unit_1966: DRV
+  share: 0
+  km2: 67.0
+- district: Bac Ha
+  shapeID: 81297802B71116262659242
+  province_today: Lào Cai
+  unit_1966: DRV
+  share: 0
+  km2: 687.8
+- district: Bac Kan
+  shapeID: 81297802B17568713952999
+  province_today: Bắc Kạn
+  unit_1966: DRV
+  share: 0
+  km2: 137.2
+- district: Bac Me
+  shapeID: 81297802B85329428934549
+  province_today: Hà Giang
+  unit_1966: DRV
+  share: 0
+  km2: 845.5
+- district: Bac Ninh
+  shapeID: 81297802B63234506717185
+  province_today: Bắc Ninh
+  unit_1966: DRV
+  share: 0
+  km2: 83.1
+- district: Bac Quang
+  shapeID: 81297802B46816941364430
+  province_today: Hà Giang
+  unit_1966: DRV
+  share: 0
+  km2: 1083.2
+- district: Bac Son
+  shapeID: 81297802B43959874007568
+  province_today: Lạng Sơn
+  unit_1966: DRV
+  share: 0
+  km2: 700.1
+- district: Bac Tu Liem
+  shapeID: 81297802B3906213091507
+  province_today: Hà Nội
+  unit_1966: DRV
+  share: 0
+  km2: 44.6
+- district: Bac Yen
+  shapeID: 81297802B44532488811780
+  province_today: Sơn La
+  unit_1966: DRV
+  share: 0
+  km2: 1101.6
+- district: Bach Long Vi
+  shapeID: 81297802B40834484476285
+  province_today: Quảng Ninh
+  unit_1966: DRV
+  share: 0
+  km2: 2.4
+- district: Bach Thong
+  shapeID: 81297802B24696745321038
+  province_today: Bắc Kạn
+  unit_1966: DRV
+  share: 0
+  km2: 546.3
+- district: Bao Lac
+  shapeID: 81297802B7761745227660
+  province_today: Cao Bằng
+  unit_1966: DRV
+  share: 0
+  km2: 919.5
+- district: Bao Lam
+  shapeID: 81297802B56496932739620
+  province_today: Cao Bằng
+  unit_1966: DRV
+  share: 0
+  km2: 912.2
+- district: Bao Thang
+  shapeID: 81297802B25560916681091
+  province_today: Lào Cai
+  unit_1966: DRV
+  share: 0
+  km2: 681.5
+- district: Bao Yen
+  shapeID: 81297802B25948208667731
+  province_today: Lào Cai
+  unit_1966: DRV
+  share: 0
+  km2: 829.2
+- district: Bat Xat
+  shapeID: 81297802B11536853186467
+  province_today: Lào Cai
+  unit_1966: DRV
+  share: 0
+  km2: 1055.5
+- district: Bim Son
+  shapeID: 81297802B8967556658808
+  province_today: Thanh Hóa
+  unit_1966: DRV
+  share: 0
+  km2: 63.1
+- district: Binh Gia
+  shapeID: 81297802B86040607446214
+  province_today: Lạng Sơn
+  unit_1966: DRV
+  share: 0
+  km2: 1092.5
+- district: Binh Giang
+  shapeID: 81297802B56696175700764
+  province_today: Hưng Yên
+  unit_1966: DRV
+  share: 0
+  km2: 106.4
+- district: Binh Lieu
+  shapeID: 81297802B53696601888295
+  province_today: Quảng Ninh
+  unit_1966: DRV
+  share: 0
+  km2: 472.4
+- district: Binh Luc
+  shapeID: 81297802B47692200365960
+  province_today: Hà Nam
+  unit_1966: DRV
+  share: 0
+  km2: 156.3
+- district: Binh Xuyen
+  shapeID: 81297802B29926011513196
+  province_today: Vĩnh Phúc
+  unit_1966: DRV
+  share: 0
+  km2: 148.4
+- district: Bo Trach
+  shapeID: 81297802B63375818356773
+  province_today: Quảng Bình
+  unit_1966: DRV
+  share: 0
+  km2: 2120.3
+- district: Cam Giang
+  shapeID: 81297802B85581314164043
+  province_today: Hải Dương
+  unit_1966: DRV
+  share: 0
+  km2: 110.8
+- district: Cam Khe
+  shapeID: 81297802B31371166923700
+  province_today: Phú Thọ
+  unit_1966: DRV
+  share: 0
+  km2: 234.3
+- district: Cam Pha
+  shapeID: 81297802B71504358310710
+  province_today: Quảng Ninh
+  unit_1966: DRV
+  share: 0
+  km2: 359.1
+- district: Cam Thuy
+  shapeID: 81297802B68109668722051
+  province_today: Thanh Hóa
+  unit_1966: DRV
+  share: 0
+  km2: 422.9
+- district: Cam Xuyen
+  shapeID: 81297802B99684516055458
+  province_today: Hà Tĩnh
+  unit_1966: DRV
+  share: 0
+  km2: 636.8
+- district: Can Loc
+  shapeID: 81297802B44635779635670
+  province_today: Hà Tĩnh
+  unit_1966: DRV
+  share: 0
+  km2: 296.1
+- district: Cao Bang
+  shapeID: 81297802B72621516483988
+  province_today: Cao Bằng
+  unit_1966: DRV
+  share: 0
+  km2: 108.7
+- district: Cao Loc
+  shapeID: 81297802B94679881937971
+  province_today: Lạng Sơn
+  unit_1966: DRV
+  share: 0
+  km2: 620.0
+- district: Cao Phong
+  shapeID: 81297802B52142956360096
+  province_today: Hòa Bình
+  unit_1966: DRV
+  share: 0
+  km2: 254.1
+- district: Cat Hai
+  shapeID: 81297802B5756602808944
+  province_today: Hải Phòng
+  unit_1966: DRV
+  share: 0
+  km2: 168.8
+- district: Cau Giay
+  shapeID: 81297802B81208073820584
+  province_today: Hà Nội
+  unit_1966: DRV
+  share: 0
+  km2: 12.1
+- district: Chi Lang
+  shapeID: 81297802B55451481919262
+  province_today: Lạng Sơn
+  unit_1966: DRV
+  share: 0
+  km2: 703.9
+- district: Chi Linh
+  shapeID: 81297802B28152038240632
+  province_today: Hải Dương
+  unit_1966: DRV
+  share: 0
+  km2: 282.7
+- district: Chiem Hoa
+  shapeID: 81297802B40107493867560
+  province_today: Tuyên Quang
+  unit_1966: DRV
+  share: 0
+  km2: 1279.0
+- district: Cho Don
+  shapeID: 81297802B41242908240864
+  province_today: Bắc Kạn
+  unit_1966: DRV
+  share: 0
+  km2: 918.4
+- district: Cho Moi
+  shapeID: 81297802B24308322432437
+  province_today: Bắc Kạn
+  unit_1966: DRV
+  share: 0
+  km2: 601.7
+- district: Chuong My
+  shapeID: 81297802B99190294686821
+  province_today: Hà Nội
+  unit_1966: DRV
+  share: 0
+  km2: 240.8
+- district: Co To
+  shapeID: 81297802B76384767601248
+  province_today: Quảng Ninh
+  unit_1966: DRV
+  share: 0
+  km2: 34.6
+- district: Con Cuong
+  shapeID: 81297802B27308287932068
+  province_today: Nghệ An
+  unit_1966: DRV
+  share: 0
+  km2: 1744.7
+- district: Cua Lo
+  shapeID: 81297802B13550924224659
+  province_today: Nghệ An
+  unit_1966: DRV
+  share: 0
+  km2: 27.3
+- district: Da Bac
+  shapeID: 81297802B60514422076531
+  province_today: Hòa Bình
+  unit_1966: DRV
+  share: 0
+  km2: 778.4
+- district: Dai Tu
+  shapeID: 81297802B22157258808987
+  province_today: Thái Nguyên
+  unit_1966: DRV
+  share: 0
+  km2: 565.8
+- district: Dam Ha
+  shapeID: 81297802B85934029741785
+  province_today: Quảng Ninh
+  unit_1966: DRV
+  share: 0
+  km2: 261.1
+- district: Dan Phuong
+  shapeID: 81297802B64128830492510
+  province_today: Hà Nội
+  unit_1966: DRV
+  share: 0
+  km2: 81.7
+- district: Dien Bien
+  shapeID: 81297802B1284717956892
+  province_today: Điện Biên
+  unit_1966: DRV
+  share: 0
+  km2: 1635.8
+- district: Dien Bien Dong
+  shapeID: 81297802B35707987060986
+  province_today: Điện Biên
+  unit_1966: DRV
+  share: 0
+  km2: 1205.0
+- district: Dien Bien Phu
+  shapeID: 81297802B75517223780643
+  province_today: Điện Biên
+  unit_1966: DRV
+  share: 0
+  km2: 63.5
+- district: Dien Chau
+  shapeID: 81297802B64936965881183
+  province_today: Nghệ An
+  unit_1966: DRV
+  share: 0
+  km2: 314.1
+- district: Dinh Hoa
+  shapeID: 81297802B90284781247335
+  province_today: Thái Nguyên
+  unit_1966: DRV
+  share: 0
+  km2: 512.5
+- district: Dinh Lap
+  shapeID: 81297802B72919536287172
+  province_today: Lạng Sơn
+  unit_1966: DRV
+  share: 0
+  km2: 1189.3
+- district: Do Luong
+  shapeID: 81297802B2130126961507
+  province_today: Nghệ An
+  unit_1966: DRV
+  share: 0
+  km2: 354.3
+- district: Do Son
+  shapeID: 81297802B95607767906649
+  province_today: Hải Phòng
+  unit_1966: DRV
+  share: 0
+  km2: 37.1
+- district: Doan Hung
+  shapeID: 81297802B97239523369157
+  province_today: Phú Thọ
+  unit_1966: DRV
+  share: 0
+  km2: 303.7
+- district: Dong Anh
+  shapeID: 81297802B58266448529829
+  province_today: Hà Nội
+  unit_1966: DRV
+  share: 0
+  km2: 186.7
+- district: Dong Da
+  shapeID: 81297802B63935781650096
+  province_today: Hà Nội
+  unit_1966: DRV
+  share: 0
+  km2: 9.9
+- district: Dong Hoi
+  shapeID: 81297802B5400707592531
+  province_today: Quảng Bình
+  unit_1966: DRV
+  share: 0
+  km2: 158.9
+- district: Dong Hung
+  shapeID: 81297802B28789600266311
+  province_today: Thái Bình
+  unit_1966: DRV
+  share: 0
+  km2: 199.7
+- district: Dong Hy
+  shapeID: 81297802B71869801036686
+  province_today: Thái Nguyên
+  unit_1966: DRV
+  share: 0
+  km2: 456.8
+- district: Dong Son
+  shapeID: 81297802B98540731986743
+  province_today: Thanh Hóa
+  unit_1966: DRV
+  share: 0
+  km2: 81.6
+- district: Dong Trieu
+  shapeID: 81297802B3249391660958
+  province_today: Hải Dương
+  unit_1966: DRV
+  share: 0
+  km2: 390.5
+- district: Dong Van
+  shapeID: 81297802B35887218353447
+  province_today: Hà Giang
+  unit_1966: DRV
+  share: 0
+  km2: 456.6
+- district: Duc Tho
+  shapeID: 81297802B16083563480391
+  province_today: Hà Tĩnh
+  unit_1966: DRV
+  share: 0
+  km2: 202.7
+- district: Duong Kinh
+  shapeID: 81297802B62167717430855
+  province_today: Hải Phòng
+  unit_1966: DRV
+  share: 0
+  km2: 38.9
+- district: Duy Tien
+  shapeID: 81297802B7902592700170
+  province_today: Hà Nam
+  unit_1966: DRV
+  share: 0
+  km2: 139.0
+- district: Gia Binh
+  shapeID: 81297802B26729031323268
+  province_today: Bắc Ninh
+  unit_1966: DRV
+  share: 0
+  km2: 107.7
+- district: Gia Lam
+  shapeID: 81297802B60728672974675
+  province_today: Hà Nội
+  unit_1966: DRV
+  share: 0
+  km2: 116.3
+- district: Gia Loc
+  shapeID: 81297802B14141540631295
+  province_today: Hải Dương
+  unit_1966: DRV
+  share: 0
+  km2: 114.2
+- district: Gia Vien
+  shapeID: 81297802B79786453625721
+  province_today: Ninh Bình
+  unit_1966: DRV
+  share: 0
+  km2: 176.3
+- district: Giao Thuy
+  shapeID: 81297802B51483513425235
+  province_today: Nam Định
+  unit_1966: DRV
+  share: 0
+  km2: 176.7
+- district: Ha Dong
+  shapeID: 81297802B46977673973725
+  province_today: Hà Nội
+  unit_1966: DRV
+  share: 0
+  km2: 49.8
+- district: Ha Giang
+  shapeID: 81297802B3651989276752
+  province_today: Hà Giang
+  unit_1966: DRV
+  share: 0
+  km2: 136.7
+- district: Ha Hoa
+  shapeID: 81297802B43584820413656
+  province_today: Phú Thọ
+  unit_1966: DRV
+  share: 0
+  km2: 347.9
+- district: Ha Lang
+  shapeID: 81297802B75623207701482
+  province_today: Cao Bằng
+  unit_1966: DRV
+  share: 0
+  km2: 451.3
+- district: Ha Long
+  shapeID: 81297802B5641238333098
+  province_today: Quảng Ninh
+  unit_1966: DRV
+  share: 0
+  km2: 158.2
+- district: Ha Quang
+  shapeID: 81297802B58374178577075
+  province_today: Cao Bằng
+  unit_1966: DRV
+  share: 0
+  km2: 457.6
+- district: Ha Tinh
+  shapeID: 81297802B52387636717940
+  province_today: Hà Tĩnh
+  unit_1966: DRV
+  share: 0
+  km2: 55.6
+- district: Ha Trung
+  shapeID: 81297802B67206181597957
+  province_today: Thanh Hóa
+  unit_1966: DRV
+  share: 0
+  km2: 245.4
+- district: Hai An
+  shapeID: 81297802B19362557849536
+  province_today: Hải Phòng
+  unit_1966: DRV
+  share: 0
+  km2: 37.4
+- district: Hai Ba Trung
+  shapeID: 81297802B70315889029707
+  province_today: Hà Nội
+  unit_1966: DRV
+  share: 0
+  km2: 9.6
+- district: Hai Duong
+  shapeID: 81297802B68427461655945
+  province_today: Hải Dương
+  unit_1966: DRV
+  share: 0
+  km2: 71.4
+- district: Hai Ha
+  shapeID: 81297802B53592665760601
+  province_today: Quảng Ninh
+  unit_1966: DRV
+  share: 0
+  km2: 440.4
+- district: Hai Hau
+  shapeID: 81297802B21970288414729
+  province_today: Nam Định
+  unit_1966: DRV
+  share: 0
+  km2: 246.7
+- district: Ham Yen
+  shapeID: 81297802B77229581138550
+  province_today: Tuyên Quang
+  unit_1966: DRV
+  share: 0
+  km2: 900.8
+- district: Hau Loc
+  shapeID: 81297802B47590181438391
+  province_today: Thanh Hóa
+  unit_1966: DRV
+  share: 0
+  km2: 140.9
+- district: Hiep Hoa
+  shapeID: 81297802B61782089337393
+  province_today: Hà Nội
+  unit_1966: DRV
+  share: 0
+  km2: 205.8
+- district: Hoa An
+  shapeID: 81297802B75378675708985
+  province_today: Cao Bằng
+  unit_1966: DRV
+  share: 0
+  km2: 605.0
+- district: Hoa Binh
+  shapeID: 81297802B29311833142389
+  province_today: Hòa Bình
+  unit_1966: DRV
+  share: 0
+  km2: 143.7
+- district: Hoa Lu
+  shapeID: 81297802B36566531846362
+  province_today: Ninh Bình
+  unit_1966: DRV
+  share: 0
+  km2: 103.5
+- district: Hoai Duc
+  shapeID: 81297802B48396752750587
+  province_today: Hà Nội
+  unit_1966: DRV
+  share: 0
+  km2: 84.5
+- district: Hoan Kiem
+  shapeID: 81297802B21956500009646
+  province_today: Hà Nội
+  unit_1966: DRV
+  share: 0
+  km2: 5.2
+- district: Hoang Hoa
+  shapeID: 81297802B91620400281223
+  province_today: Thanh Hóa
+  unit_1966: DRV
+  share: 0
+  km2: 199.8
+- district: Hoang Mai
+  shapeID: 81297802B90742047749751
+  province_today: Hà Nội
+  unit_1966: DRV
+  share: 0
+  km2: 40.1
+- district: Hoang Mai
+  shapeID: 81297802B46675680885513
+  province_today: Nghệ An
+  unit_1966: DRV
+  share: 0
+  km2: 178.5
+- district: Hoang Su Phi
+  shapeID: 81297802B55460345655510
+  province_today: Hà Giang
+  unit_1966: DRV
+  share: 0
+  km2: 635.9
+- district: Hoanh Bo
+  shapeID: 81297802B7752291855220
+  province_today: Quảng Ninh
+  unit_1966: DRV
+  share: 0
+  km2: 830.0
+- district: Hong Bang
+  shapeID: 81297802B63499365755438
+  province_today: Hải Phòng
+  unit_1966: DRV
+  share: 0
+  km2: 12.9
+- district: Hong Linh
+  shapeID: 81297802B12079916150099
+  province_today: Hà Tĩnh
+  unit_1966: DRV
+  share: 0
+  km2: 59.4
+- district: Hung Ha
+  shapeID: 81297802B42785936874032
+  province_today: Thái Bình
+  unit_1966: DRV
+  share: 0
+  km2: 210.7
+- district: Hung Nguyen
+  shapeID: 81297802B19242536298701
+  province_today: Nghệ An
+  unit_1966: DRV
+  share: 0
+  km2: 160.6
+- district: Hung Yen
+  shapeID: 81297802B83594447255
+  province_today: Hà Nam
+  unit_1966: DRV
+  share: 0
+  km2: 47.2
+- district: Huong Khe
+  shapeID: 81297802B53129181429645
+  province_today: Hà Tĩnh
+  unit_1966: DRV
+  share: 0
+  km2: 1257.4
+- district: Huong Son
+  shapeID: 81297802B24299836434530
+  province_today: Hà Tĩnh
+  unit_1966: DRV
+  share: 0
+  km2: 1094.8
+- district: Huu Lung
+  shapeID: 81297802B35079403712963
+  province_today: Lạng Sơn
+  unit_1966: DRV
+  share: 0
+  km2: 807.9
+- district: Khoai Chau
+  shapeID: 81297802B59998896925567
+  province_today: Hà Nội
+  unit_1966: DRV
+  share: 0
+  km2: 131.2
+- district: Kien An
+  shapeID: 81297802B17638458778811
+  province_today: Hải Phòng
+  unit_1966: DRV
+  share: 0
+  km2: 29.4
+- district: Kien Thuy
+  shapeID: 81297802B29420287983322
+  province_today: Hải Phòng
+  unit_1966: DRV
+  share: 0
+  km2: 100.6
+- district: Kien Xuong
+  shapeID: 81297802B82663613485319
+  province_today: Thái Bình
+  unit_1966: DRV
+  share: 0
+  km2: 202.1
+- district: Kim Bang
+  shapeID: 81297802B80649611591308
+  province_today: Hà Nam
+  unit_1966: DRV
+  share: 0
+  km2: 185.5
+- district: Kim Boi
+  shapeID: 81297802B6982011035243
+  province_today: Hòa Bình
+  unit_1966: DRV
+  share: 0
+  km2: 550.6
+- district: Kim Dong
+  shapeID: 81297802B31840185218616
+  province_today: Hưng Yên
+  unit_1966: DRV
+  share: 0
+  km2: 114.9
+- district: Kim Son
+  shapeID: 81297802B55928452292311
+  province_today: Ninh Bình
+  unit_1966: DRV
+  share: 0
+  km2: 153.3
+- district: Kim Thanh
+  shapeID: 81297802B3696641207460
+  province_today: Hải Dương
+  unit_1966: DRV
+  share: 0
+  km2: 114.9
+- district: Kinh Mon
+  shapeID: 81297802B98282177960136
+  province_today: Hải Dương
+  unit_1966: DRV
+  share: 0
+  km2: 165.8
+- district: Ky Anh
+  shapeID: 81297802B12468750690576
+  province_today: Hà Tĩnh
+  unit_1966: DRV
+  share: 0
+  km2: 1041.0
+- district: Ky Son
+  shapeID: 81297802B6810559606516
+  province_today: Hòa Bình
+  unit_1966: DRV
+  share: 0
+  km2: 204.4
+- district: Ky Son
+  shapeID: 81297802B2701886719052
+  province_today: Nghệ An
+  unit_1966: DRV
+  share: 0
+  km2: 2076.8
+- district: Lac Son
+  shapeID: 81297802B21968879828656
+  province_today: Hòa Bình
+  unit_1966: DRV
+  share: 0
+  km2: 587.6
+- district: Lac Thuy
+  shapeID: 81297802B25708049906691
+  province_today: Hòa Bình
+  unit_1966: DRV
+  share: 0
+  km2: 314.1
+- district: Lai Chau
+  shapeID: 81297802B74546691476320
+  province_today: Lai Châu
+  unit_1966: DRV
+  share: 0
+  km2: 71.9
+- district: Lam Binh
+  shapeID: 81297802B83942116722165
+  province_today: Tuyên Quang
+  unit_1966: DRV
+  share: 0
+  km2: 779.8
+- district: Lam Thao
+  shapeID: 81297802B85606551737880
+  province_today: Phú Thọ
+  unit_1966: DRV
+  share: 0
+  km2: 99.2
+- district: Lang Chanh
+  shapeID: 81297802B3900213451305
+  province_today: Thanh Hóa
+  unit_1966: DRV
+  share: 0
+  km2: 585.5
+- district: Lang Giang
+  shapeID: 81297802B94506734482800
+  province_today: Bắc Giang
+  unit_1966: DRV
+  share: 0
+  km2: 243.3
+- district: Lang Son
+  shapeID: 81297802B21506651579478
+  province_today: Lạng Sơn
+  unit_1966: DRV
+  share: 0
+  km2: 77.5
+- district: Lao Cai
+  shapeID: 81297802B32838967164839
+  province_today: Lào Cai
+  unit_1966: DRV
+  share: 0
+  km2: 225.7
+- district: Lap Thach
+  shapeID: 81297802B47675849617506
+  province_today: Vĩnh Phúc
+  unit_1966: DRV
+  share: 0
+  km2: 172.6
+- district: Le Chan
+  shapeID: 81297802B93912769577432
+  province_today: Hải Phòng
+  unit_1966: DRV
+  share: 0
+  km2: 11.9
+- district: Le Thuy
+  shapeID: 81297802B23145234920875
+  province_today: Quảng Bình
+  unit_1966: DRV
+  share: 0.0
+  km2: 1405.8
+- district: Loc Binh
+  shapeID: 81297802B22471082550929
+  province_today: Lạng Sơn
+  unit_1966: DRV
+  share: 0
+  km2: 987.4
+- district: Loc Ha
+  shapeID: 81297802B55071935880129
+  province_today: Hà Tĩnh
+  unit_1966: DRV
+  share: 0
+  km2: 118.7
+- district: Long Bien
+  shapeID: 81297802B92281690814663
+  province_today: Hà Nội
+  unit_1966: DRV
+  share: 0
+  km2: 60.0
+- district: Luc Nam
+  shapeID: 81297802B23878626253121
+  province_today: Bắc Giang
+  unit_1966: DRV
+  share: 0
+  km2: 605.6
+- district: Luc Ngan
+  shapeID: 81297802B38321972927223
+  province_today: Bắc Giang
+  unit_1966: DRV
+  share: 0
+  km2: 1030.6
+- district: Luc Yen
+  shapeID: 81297802B97878568873252
+  province_today: Yên Bái
+  unit_1966: DRV
+  share: 0
+  km2: 808.5
+- district: Luong Son
+  shapeID: 81297802B92770026846870
+  province_today: Hòa Bình
+  unit_1966: DRV
+  share: 0
+  km2: 364.2
+- district: Luong Tai
+  shapeID: 81297802B42689754920120
+  province_today: Bắc Ninh
+  unit_1966: DRV
+  share: 0
+  km2: 105.9
+- district: Ly Nhan
+  shapeID: 81297802B63925273406451
+  province_today: Hà Nam
+  unit_1966: DRV
+  share: 0
+  km2: 168.6
+- district: Mai Chau
+  shapeID: 81297802B54863694878388
+  province_today: Hòa Bình
+  unit_1966: DRV
+  share: 0
+  km2: 561.1
+- district: Mai Son
+  shapeID: 81297802B85756054610964
+  province_today: Sơn La
+  unit_1966: DRV
+  share: 0
+  km2: 1425.4
+- district: Me Linh
+  shapeID: 81297802B91668671895601
+  province_today: Vĩnh Phúc
+  unit_1966: DRV
+  share: 0
+  km2: 137.8
+- district: Meo Vac
+  shapeID: 81297802B2489932619372
+  province_today: Hà Giang
+  unit_1966: DRV
+  share: 0
+  km2: 564.4
+- district: Minh Hoa
+  shapeID: 81297802B57556187754980
+  province_today: Quảng Bình
+  unit_1966: DRV
+  share: 0
+  km2: 1398.3
+- district: Moc Chau
+  shapeID: 81297802B18330735489877
+  province_today: Sơn La
+  unit_1966: DRV
+  share: 0
+  km2: 1078.2
+- district: Mong Cai
+  shapeID: 81297802B69562638547328
+  province_today: Quảng Ninh
+  unit_1966: DRV
+  share: 0
+  km2: 397.8
+- district: Mu Cang Chai
+  shapeID: 81297802B12607058922832
+  province_today: Yên Bái
+  unit_1966: DRV
+  share: 0
+  km2: 1198.1
+- district: Muong Ang
+  shapeID: 81297802B95485897365368
+  province_today: Điện Biên
+  unit_1966: DRV
+  share: 0
+  km2: 443.7
+- district: Muong Cha
+  shapeID: 81297802B30042560711823
+  province_today: Điện Biên
+  unit_1966: DRV
+  share: 0
+  km2: 1194.3
+- district: Muong Khuong
+  shapeID: 81297802B9711168823282
+  province_today: Lào Cai
+  unit_1966: DRV
+  share: 0
+  km2: 553.1
+- district: Muong La
+  shapeID: 81297802B85331365285334
+  province_today: Sơn La
+  unit_1966: DRV
+  share: 0
+  km2: 1427.7
+- district: Muong Lat
+  shapeID: 81297802B72565329345275
+  province_today: Thanh Hóa
+  unit_1966: DRV
+  share: 0
+  km2: 812.2
+- district: Muong Lay
+  shapeID: 81297802B55776801112281
+  province_today: Điện Biên
+  unit_1966: DRV
+  share: 0
+  km2: 112.1
+- district: Muong Nhe
+  shapeID: 81297802B77284470547112
+  province_today: Điện Biên
+  unit_1966: DRV
+  share: 0
+  km2: 1560.3
+- district: Muong Te
+  shapeID: 81297802B94651516294700
+  province_today: Lai Châu
+  unit_1966: DRV
+  share: 0
+  km2: 2679.3
+- district: My Duc
+  shapeID: 81297802B48632704069528
+  province_today: Hòa Bình
+  unit_1966: DRV
+  share: 0
+  km2: 225.8
+- district: My Hao
+  shapeID: 81297802B81471151736005
+  province_today: Hưng Yên
+  unit_1966: DRV
+  share: 0
+  km2: 79.2
+- district: My Loc
+  shapeID: 81297802B55456276640785
+  province_today: Nam Định
+  unit_1966: DRV
+  share: 0
+  km2: 74.4
+- district: Na Hang
+  shapeID: 81297802B32233799995516
+  province_today: Tuyên Quang
+  unit_1966: DRV
+  share: 0
+  km2: 865.7
+- district: Na Ri
+  shapeID: 81297802B30321615980530
+  province_today: Bắc Kạn
+  unit_1966: DRV
+  share: 0
+  km2: 844.7
+- district: Nam Dan
+  shapeID: 81297802B54877143810300
+  province_today: Nghệ An
+  unit_1966: DRV
+  share: 0
+  km2: 293.5
+- district: Nam Nhun
+  shapeID: 81297802B14703404520131
+  province_today: Lai Châu
+  unit_1966: DRV
+  share: 0
+  km2: 1397.1
+- district: Nam Po
+  shapeID: 81297802B39086824409595
+  province_today: Điện Biên
+  unit_1966: DRV
+  share: 0
+  km2: 1504.6
+- district: Nam Sach
+  shapeID: 81297802B53771614429572
+  province_today: Hải Dương
+  unit_1966: DRV
+  share: 0
+  km2: 111.1
+- district: Nam Truc
+  shapeID: 81297802B82332241258399
+  province_today: Nam Định
+  unit_1966: DRV
+  share: 0
+  km2: 164.7
+- district: Nam Tu Liem
+  shapeID: 81297802B23821385944469
+  province_today: Hà Nội
+  unit_1966: DRV
+  share: 0
+  km2: 32.4
+- district: Nam Định
+  shapeID: 81297802B54089788823696
+  province_today: Nam Định
+  unit_1966: DRV
+  share: 0
+  km2: 46.5
+- district: Nga Son
+  shapeID: 81297802B47963627673209
+  province_today: Thanh Hóa
+  unit_1966: DRV
+  share: 0
+  km2: 146.7
+- district: Ngan Son
+  shapeID: 81297802B68784640933993
+  province_today: Bắc Kạn
+  unit_1966: DRV
+  share: 0
+  km2: 645.4
+- district: Nghi Loc
+  shapeID: 81297802B50427055609681
+  province_today: Nghệ An
+  unit_1966: DRV
+  share: 0
+  km2: 347.7
+- district: Nghi Xuan
+  shapeID: 81297802B92253150972948
+  province_today: Hà Tĩnh
+  unit_1966: DRV
+  share: 0
+  km2: 227.5
+- district: Nghia Dan
+  shapeID: 81297802B96353597468260
+  province_today: Nghệ An
+  unit_1966: DRV
+  share: 0
+  km2: 615.5
+- district: Nghia Hung
+  shapeID: 81297802B4294080644708
+  province_today: Nam Định
+  unit_1966: DRV
+  share: 0
+  km2: 199.6
+- district: Nghia Lo
+  shapeID: 81297802B35519691635120
+  province_today: Yên Bái
+  unit_1966: DRV
+  share: 0
+  km2: 30.2
+- district: Ngo Quyen
+  shapeID: 81297802B18343005733844
+  province_today: Hải Phòng
+  unit_1966: DRV
+  share: 0
+  km2: 10.4
+- district: Ngoc Lac
+  shapeID: 81297802B82512093072214
+  province_today: Thanh Hóa
+  unit_1966: DRV
+  share: 0
+  km2: 489.1
+- district: Nguyen Binh
+  shapeID: 81297802B34664406606726
+  province_today: Cao Bằng
+  unit_1966: DRV
+  share: 0
+  km2: 839.0
+- district: Nho Quan
+  shapeID: 81297802B37600217906847
+  province_today: Ninh Bình
+  unit_1966: DRV
+  share: 0
+  km2: 452.1
+- district: Nhu Thanh
+  shapeID: 81297802B85505749224324
+  province_today: Thanh Hóa
+  unit_1966: DRV
+  share: 0
+  km2: 597.4
+- district: Nhu Xuan
+  shapeID: 81297802B29351066345319
+  province_today: Thanh Hóa
+  unit_1966: DRV
+  share: 0
+  km2: 706.6
+- district: Ninh Bình
+  shapeID: 81297802B33091662264636
+  province_today: Ninh Bình
+  unit_1966: DRV
+  share: 0
+  km2: 46.9
+- district: Ninh Giang
+  shapeID: 81297802B74485828948407
+  province_today: Hải Dương
+  unit_1966: DRV
+  share: 0
+  km2: 136.8
+- district: Nong Cong
+  shapeID: 81297802B57234015442712
+  province_today: Thanh Hóa
+  unit_1966: DRV
+  share: 0
+  km2: 286.3
+- district: Pac Nam
+  shapeID: 81297802B12739753000309
+  province_today: Bắc Kạn
+  unit_1966: DRV
+  share: 0
+  km2: 481.3
+- district: Pho Yen
+  shapeID: 81297802B3855346019179
+  province_today: Thái Nguyên
+  unit_1966: DRV
+  share: 0
+  km2: 259.2
+- district: Phong Tho
+  shapeID: 81297802B47938422647464
+  province_today: Lai Châu
+  unit_1966: DRV
+  share: 0
+  km2: 1028.7
+- district: Phu Binh
+  shapeID: 81297802B19798201223775
+  province_today: Thái Nguyên
+  unit_1966: DRV
+  share: 0
+  km2: 249.0
+- district: Phu Cu
+  shapeID: 81297802B40785510400399
+  province_today: Hưng Yên
+  unit_1966: DRV
+  share: 0
+  km2: 94.6
+- district: Phu Luong
+  shapeID: 81297802B92827581567655
+  province_today: Thái Nguyên
+  unit_1966: DRV
+  share: 0
+  km2: 370.6
+- district: Phu Ly
+  shapeID: 81297802B99776560080545
+  province_today: Hà Nam
+  unit_1966: DRV
+  share: 0
+  km2: 34.8
+- district: Phu Ninh
+  shapeID: 81297802B64104222015073
+  province_today: Phú Thọ
+  unit_1966: DRV
+  share: 0
+  km2: 155.2
+- district: Phu Tho
+  shapeID: 81297802B95846226867008
+  province_today: Phú Thọ
+  unit_1966: DRV
+  share: 0
+  km2: 65.6
+- district: Phu Xuyen
+  shapeID: 81297802B25831565259333
+  province_today: Hà Nội
+  unit_1966: DRV
+  share: 0
+  km2: 173.7
+- district: Phu Yen
+  shapeID: 81297802B22446045808118
+  province_today: Sơn La
+  unit_1966: DRV
+  share: 0
+  km2: 1228.1
+- district: Phuc Hoa
+  shapeID: 81297802B46332855119377
+  province_today: Cao Bằng
+  unit_1966: DRV
+  share: 0
+  km2: 249.4
+- district: Phuc Tho
+  shapeID: 81297802B65234108276491
+  province_today: Hà Nội
+  unit_1966: DRV
+  share: 0
+  km2: 117.1
+- district: Phuc Yen
+  shapeID: 81297802B88984924666070
+  province_today: Vĩnh Phúc
+  unit_1966: DRV
+  share: 0
+  km2: 119.7
+- district: Quan Ba
+  shapeID: 81297802B31175014332346
+  province_today: Hà Giang
+  unit_1966: DRV
+  share: 0
+  km2: 534.5
+- district: Quan Hoa
+  shapeID: 81297802B43083568307928
+  province_today: Thanh Hóa
+  unit_1966: DRV
+  share: 0
+  km2: 988.8
+- district: Quan Son
+  shapeID: 81297802B81765499113898
+  province_today: Thanh Hóa
+  unit_1966: DRV
+  share: 0
+  km2: 929.0
+- district: Quang Binh
+  shapeID: 81297802B33189914091729
+  province_today: Hà Giang
+  unit_1966: DRV
+  share: 0
+  km2: 789.9
+- district: Quang Ninh
+  shapeID: 81297802B18152468964479
+  province_today: Quảng Bình
+  unit_1966: DRV
+  share: 0
+  km2: 1200.3
+- district: Quang Trach
+  shapeID: 81297802B61927033163821
+  province_today: Quảng Bình
+  unit_1966: DRV
+  share: 0
+  km2: 454.2
+- district: Quang Uyen
+  shapeID: 81297802B42250510796537
+  province_today: Cao Bằng
+  unit_1966: DRV
+  share: 0
+  km2: 383.8
+- district: Quang Xuong
+  shapeID: 81297802B40676303665635
+  province_today: Thanh Hóa
+  unit_1966: DRV
+  share: 0
+  km2: 206.2
+- district: Quang Yen
+  shapeID: 81297802B38356347526872
+  province_today: Hải Phòng
+  unit_1966: DRV
+  share: 0
+  km2: 152.6
+- district: Que Phong
+  shapeID: 81297802B37103290877054
+  province_today: Nghệ An
+  unit_1966: DRV
+  share: 0
+  km2: 1871.7
+- district: Que Vo
+  shapeID: 81297802B29506934186430
+  province_today: Bắc Ninh
+  unit_1966: DRV
+  share: 0
+  km2: 153.2
+- district: Quoc Oai
+  shapeID: 81297802B41330613652559
+  province_today: Hà Nội
+  unit_1966: DRV
+  share: 0
+  km2: 148.4
+- district: Quy Chau
+  shapeID: 81297802B85029486143959
+  province_today: Nghệ An
+  unit_1966: DRV
+  share: 0
+  km2: 1080.5
+- district: Quy Hop
+  shapeID: 81297802B66096195927531
+  province_today: Nghệ An
+  unit_1966: DRV
+  share: 0
+  km2: 940.3
+- district: Quynh Luu
+  shapeID: 81297802B4221517004962
+  province_today: Nghệ An
+  unit_1966: DRV
+  share: 0
+  km2: 441.6
+- district: Quynh Nhai
+  shapeID: 81297802B11613956410948
+  province_today: Sơn La
+  unit_1966: DRV
+  share: 0
+  km2: 1063.6
+- district: Quynh Phu
+  shapeID: 81297802B64676269296055
+  province_today: Thái Bình
+  unit_1966: DRV
+  share: 0
+  km2: 209.7
+- district: Sa Pa
+  shapeID: 81297802B16025441122040
+  province_today: Lào Cai
+  unit_1966: DRV
+  share: 0
+  km2: 682.3
+- district: Sam Son
+  shapeID: 81297802B12977108616150
+  province_today: Thanh Hóa
+  unit_1966: DRV
+  share: 0
+  km2: 18.6
+- district: Si Ma Cai
+  shapeID: 81297802B8681355150837
+  province_today: Lào Cai
+  unit_1966: DRV
+  share: 0
+  km2: 233.7
+- district: Sin Ho
+  shapeID: 81297802B88663047044628
+  province_today: Lai Châu
+  unit_1966: DRV
+  share: 0
+  km2: 1521.2
+- district: Soc Son
+  shapeID: 81297802B86407395704878
+  province_today: Hà Nội
+  unit_1966: DRV
+  share: 0
+  km2: 304.6
+- district: Son Dong
+  shapeID: 81297802B10167820950608
+  province_today: Bắc Giang
+  unit_1966: DRV
+  share: 0
+  km2: 860.2
+- district: Son Duong
+  shapeID: 81297802B77321226192187
+  province_today: Tuyên Quang
+  unit_1966: DRV
+  share: 0
+  km2: 785.5
+- district: Son La
+  shapeID: 81297802B47097666741506
+  province_today: Sơn La
+  unit_1966: DRV
+  share: 0
+  km2: 320.9
+- district: Son Tay
+  shapeID: 81297802B79469395018575
+  province_today: Hà Nội
+  unit_1966: DRV
+  share: 0
+  km2: 117.5
+- district: Song Cong
+  shapeID: 81297802B66276855595229
+  province_today: Thái Nguyên
+  unit_1966: DRV
+  share: 0
+  km2: 81.5
+- district: Song Lo
+  shapeID: 81297802B72352297629850
+  province_today: Phú Thọ
+  unit_1966: DRV
+  share: 0
+  km2: 150.3
+- district: Song Ma
+  shapeID: 81297802B25580956843795
+  province_today: Sơn La
+  unit_1966: DRV
+  share: 0
+  km2: 1641.1
+- district: Sop Cop
+  shapeID: 81297802B35904575630157
+  province_today: Sơn La
+  unit_1966: DRV
+  share: 0
+  km2: 1467.0
+- district: Tam Dao
+  shapeID: 81297802B33900605812276
+  province_today: Vĩnh Phúc
+  unit_1966: DRV
+  share: 0
+  km2: 235.5
+- district: Tam Diep
+  shapeID: 81297802B4597997720172
+  province_today: Ninh Bình
+  unit_1966: DRV
+  share: 0
+  km2: 104.2
+- district: Tam Duong
+  shapeID: 81297802B22502411355715
+  province_today: Vĩnh Phúc
+  unit_1966: DRV
+  share: 0
+  km2: 108.0
+- district: Tam Duong
+  shapeID: 81297802B8345144496926
+  province_today: Lai Châu
+  unit_1966: DRV
+  share: 0
+  km2: 683.9
+- district: Tam Nong
+  shapeID: 81297802B6788314119837
+  province_today: Phú Thọ
+  unit_1966: DRV
+  share: 0
+  km2: 153.9
+- district: Tan Ky
+  shapeID: 81297802B12421029194754
+  province_today: Nghệ An
+  unit_1966: DRV
+  share: 0
+  km2: 725.5
+- district: Tan Lac
+  shapeID: 81297802B22385523751240
+  province_today: Hòa Bình
+  unit_1966: DRV
+  share: 0
+  km2: 534.9
+- district: Tan Son
+  shapeID: 81297802B30557639912850
+  province_today: Phú Thọ
+  unit_1966: DRV
+  share: 0
+  km2: 690.4
+- district: Tan Uyen
+  shapeID: 81297802B83473395979783
+  province_today: Lai Châu
+  unit_1966: DRV
+  share: 0
+  km2: 898.5
+- district: Tan Yen
+  shapeID: 81297802B62704406726497
+  province_today: Bắc Giang
+  unit_1966: DRV
+  share: 0
+  km2: 209.2
+- district: Tay Ho
+  shapeID: 81297802B85279913761146
+  province_today: Hà Nội
+  unit_1966: DRV
+  share: 0
+  km2: 25.0
+- district: Thach An
+  shapeID: 81297802B24341511138047
+  province_today: Cao Bằng
+  unit_1966: DRV
+  share: 0
+  km2: 682.4
+- district: Thach Ha
+  shapeID: 81297802B93916372624290
+  province_today: Hà Tĩnh
+  unit_1966: DRV
+  share: 0
+  km2: 353.9
+- district: Thach Thanh
+  shapeID: 81297802B70743667519193
+  province_today: Thanh Hóa
+  unit_1966: DRV
+  share: 0
+  km2: 558.9
+- district: Thach That
+  shapeID: 81297802B69837826881440
+  province_today: Hà Nội
+  unit_1966: DRV
+  share: 0
+  km2: 186.1
+- district: Thai Binh
+  shapeID: 81297802B85054848055124
+  province_today: Thái Bình
+  unit_1966: DRV
+  share: 0
+  km2: 67.9
+- district: Thai Hoa
+  shapeID: 81297802B32908759949092
+  province_today: Nghệ An
+  unit_1966: DRV
+  share: 0
+  km2: 139.0
+- district: Thai Nguyen
+  shapeID: 81297802B43105107768719
+  province_today: Thái Nguyên
+  unit_1966: DRV
+  share: 0
+  km2: 186.4
+- district: Thai Thuy
+  shapeID: 81297802B86878375688696
+  province_today: Thái Bình
+  unit_1966: DRV
+  share: 0
+  km2: 258.4
+- district: Than Uyen
+  shapeID: 81297802B70449859021509
+  province_today: Lai Châu
+  unit_1966: DRV
+  share: 0
+  km2: 790.9
+- district: Thanh Ba
+  shapeID: 81297802B68203584934419
+  province_today: Phú Thọ
+  unit_1966: DRV
+  share: 0
+  km2: 195.0
+- district: Thanh Chuong
+  shapeID: 81297802B92574261409002
+  province_today: Nghệ An
+  unit_1966: DRV
+  share: 0
+  km2: 1137.4
+- district: Thanh Ha
+  shapeID: 81297802B77309747732529
+  province_today: Hải Dương
+  unit_1966: DRV
+  share: 0
+  km2: 159.9
+- district: Thanh Hoa
+  shapeID: 81297802B5241398972305
+  province_today: Thanh Hóa
+  unit_1966: DRV
+  share: 0
+  km2: 146.6
+- district: Thanh Liem
+  shapeID: 81297802B85424672096974
+  province_today: Hà Nam
+  unit_1966: DRV
+  share: 0
+  km2: 178.5
+- district: Thanh Mien
+  shapeID: 81297802B67689154766571
+  province_today: Hưng Yên
+  unit_1966: DRV
+  share: 0
+  km2: 123.2
+- district: Thanh Oai
+  shapeID: 81297802B69083052749589
+  province_today: Hà Nội
+  unit_1966: DRV
+  share: 0
+  km2: 124.4
+- district: Thanh Son
+  shapeID: 81297802B60314868788909
+  province_today: Phú Thọ
+  unit_1966: DRV
+  share: 0
+  km2: 618.6
+- district: Thanh Thuy
+  shapeID: 81297802B73795447547430
+  province_today: Phú Thọ
+  unit_1966: DRV
+  share: 0
+  km2: 123.3
+- district: Thanh Tri
+  shapeID: 81297802B95629282135268
+  province_today: Hà Nội
+  unit_1966: DRV
+  share: 0
+  km2: 63.0
+- district: Thanh Xuan
+  shapeID: 81297802B66022953489908
+  province_today: Hà Nội
+  unit_1966: DRV
+  share: 0
+  km2: 9.1
+- district: Thieu Hoa
+  shapeID: 81297802B18173194226488
+  province_today: Thanh Hóa
+  unit_1966: DRV
+  share: 0
+  km2: 160.3
+- district: Tho Xuan
+  shapeID: 81297802B55629975533372
+  province_today: Thanh Hóa
+  unit_1966: DRV
+  share: 0
+  km2: 288.0
+- district: Thong Nong
+  shapeID: 81297802B64889817574793
+  province_today: Cao Bằng
+  unit_1966: DRV
+  share: 0
+  km2: 359.2
+- district: Thuan Chau
+  shapeID: 81297802B46916310956334
+  province_today: Sơn La
+  unit_1966: DRV
+  share: 0
+  km2: 1540.8
+- district: Thuan Thanh
+  shapeID: 81297802B75512670100174
+  province_today: Bắc Ninh
+  unit_1966: DRV
+  share: 0
+  km2: 118.8
+- district: Thuong Tin
+  shapeID: 81297802B33733008951227
+  province_today: Hà Nội
+  unit_1966: DRV
+  share: 0
+  km2: 130.0
+- district: Thuong Xuan
+  shapeID: 81297802B72882386082996
+  province_today: Thanh Hóa
+  unit_1966: DRV
+  share: 0
+  km2: 1107.9
+- district: Thuy Nguyen
+  shapeID: 81297802B48433290328639
+  province_today: Hải Phòng
+  unit_1966: DRV
+  share: 0
+  km2: 169.0
+- district: Tien Du
+  shapeID: 81297802B37279419107484
+  province_today: Bắc Ninh
+  unit_1966: DRV
+  share: 0
+  km2: 95.7
+- district: Tien Hai
+  shapeID: 81297802B12405297659236
+  province_today: Thái Bình
+  unit_1966: DRV
+  share: 0
+  km2: 201.4
+- district: Tien Lang
+  shapeID: 81297802B70010606578992
+  province_today: Hải Phòng
+  unit_1966: DRV
+  share: 0
+  km2: 170.1
+- district: Tien Lu
+  shapeID: 81297802B93646092032264
+  province_today: Hưng Yên
+  unit_1966: DRV
+  share: 0
+  km2: 93.4
+- district: Tien Yen
+  shapeID: 81297802B1435628045096
+  province_today: Quảng Ninh
+  unit_1966: DRV
+  share: 0
+  km2: 610.1
+- district: Tinh Gia
+  shapeID: 81297802B97652803071493
+  province_today: Thanh Hóa
+  unit_1966: DRV
+  share: 0
+  km2: 458.0
+- district: Tra Linh
+  shapeID: 81297802B5716614329371
+  province_today: Cao Bằng
+  unit_1966: DRV
+  share: 0
+  km2: 254.4
+- district: Tram Tau
+  shapeID: 81297802B29855819440848
+  province_today: Yên Bái
+  unit_1966: DRV
+  share: 0
+  km2: 746.1
+- district: Tran Yen
+  shapeID: 81297802B887089272157
+  province_today: Yên Bái
+  unit_1966: DRV
+  share: 0
+  km2: 628.3
+- district: Trang Dinh
+  shapeID: 81297802B55237865359696
+  province_today: Lạng Sơn
+  unit_1966: DRV
+  share: 0
+  km2: 1016.6
+- district: Trieu Son
+  shapeID: 81297802B97142358911210
+  province_today: Thanh Hóa
+  unit_1966: DRV
+  share: 0
+  km2: 289.5
+- district: Truc Ninh
+  shapeID: 81297802B30905014988311
+  province_today: Nam Định
+  unit_1966: DRV
+  share: 0
+  km2: 143.7
+- district: Trung Khanh
+  shapeID: 81297802B42277751936117
+  province_today: Cao Bằng
+  unit_1966: DRV
+  share: 0
+  km2: 471.0
+- district: Tu Ky
+  shapeID: 81297802B38910067880652
+  province_today: Hải Dương
+  unit_1966: DRV
+  share: 0
+  km2: 172.6
+- district: Tu Son
+  shapeID: 81297802B85996690558528
+  province_today: Hà Nội
+  unit_1966: DRV
+  share: 0
+  km2: 61.2
+- district: Tua Chua
+  shapeID: 81297802B50800303075237
+  province_today: Điện Biên
+  unit_1966: DRV
+  share: 0
+  km2: 683.5
+- district: Tuan Giao
+  shapeID: 81297802B47935602128313
+  province_today: Điện Biên
+  unit_1966: DRV
+  share: 0
+  km2: 1136.7
+- district: Tuong Duong
+  shapeID: 81297802B26083936626584
+  province_today: Nghệ An
+  unit_1966: DRV
+  share: 0
+  km2: 2813.1
+- district: Tuyen Hoa
+  shapeID: 81297802B14659466260998
+  province_today: Quảng Bình
+  unit_1966: DRV
+  share: 0
+  km2: 1126.7
+- district: Tuyen Quang
+  shapeID: 81297802B47439602304770
+  province_today: Tuyên Quang
+  unit_1966: DRV
+  share: 0
+  km2: 119.0
+- district: Ung Hoa
+  shapeID: 81297802B95308085705563
+  province_today: Hà Nội
+  unit_1966: DRV
+  share: 0
+  km2: 188.3
+- district: Uong Bi
+  shapeID: 81297802B42641748496229
+  province_today: Quảng Ninh
+  unit_1966: DRV
+  share: 0
+  km2: 230.0
+- district: Van Ban
+  shapeID: 81297802B34365172713310
+  province_today: Lào Cai
+  unit_1966: DRV
+  share: 0
+  km2: 1421.4
+- district: Van Chan
+  shapeID: 81297802B1430654702420
+  province_today: Yên Bái
+  unit_1966: DRV
+  share: 0
+  km2: 1201.5
+- district: Van Don
+  shapeID: 81297802B23156291808671
+  province_today: Quảng Ninh
+  unit_1966: DRV
+  share: 0
+  km2: 361.5
+- district: Van Giang
+  shapeID: 81297802B33082020704537
+  province_today: Hà Nội
+  unit_1966: DRV
+  share: 0
+  km2: 73.1
+- district: Van Ho
+  shapeID: 81297802B72197288944143
+  province_today: Sơn La
+  unit_1966: DRV
+  share: 0
+  km2: 963.9
+- district: Van Lam
+  shapeID: 81297802B83094530275497
+  province_today: Hưng Yên
+  unit_1966: DRV
+  share: 0
+  km2: 74.6
+- district: Van Lang
+  shapeID: 81297802B84784766195181
+  province_today: Lạng Sơn
+  unit_1966: DRV
+  share: 0
+  km2: 566.0
+- district: Van Quan
+  shapeID: 81297802B89235073975729
+  province_today: Lạng Sơn
+  unit_1966: DRV
+  share: 0
+  km2: 548.0
+- district: Van Yen
+  shapeID: 81297802B29692958480362
+  province_today: Yên Bái
+  unit_1966: DRV
+  share: 0
+  km2: 1396.7
+- district: Vi Xuyen
+  shapeID: 81297802B6357673458882
+  province_today: Hà Giang
+  unit_1966: DRV
+  share: 0
+  km2: 1502.3
+- district: Viet Tri
+  shapeID: 81297802B93284854578765
+  province_today: Phú Thọ
+  unit_1966: DRV
+  share: 0
+  km2: 108.2
+- district: Viet Yen
+  shapeID: 81297802B30186135932553
+  province_today: Bắc Ninh
+  unit_1966: DRV
+  share: 0
+  km2: 170.9
+- district: Vinh
+  shapeID: 81297802B9978574523269
+  province_today: Nghệ An
+  unit_1966: DRV
+  share: 0
+  km2: 105.3
+- district: Vinh Bao
+  shapeID: 81297802B55266176914642
+  province_today: Hải Phòng
+  unit_1966: DRV
+  share: 0
+  km2: 182.8
+- district: Vinh Linh
+  shapeID: 81297802B84418908504415
+  province_today: Quảng Trị
+  unit_1966: DRV
+  share: 0.003
+  km2: 625.8
+- district: Vinh Loc
+  shapeID: 81297802B11071874803157
+  province_today: Thanh Hóa
+  unit_1966: DRV
+  share: 0
+  km2: 157.6
+- district: Vinh Tuong
+  shapeID: 81297802B74371944720443
+  province_today: Hà Nội
+  unit_1966: DRV
+  share: 0
+  km2: 143.1
+- district: Vinh Yen
+  shapeID: 81297802B55955468315553
+  province_today: Vĩnh Phúc
+  unit_1966: DRV
+  share: 0
+  km2: 50.5
+- district: Vo Nhai
+  shapeID: 81297802B13645799597087
+  province_today: Thái Nguyên
+  unit_1966: DRV
+  share: 0
+  km2: 840.7
+- district: Vu Ban
+  shapeID: 81297802B77828019918781
+  province_today: Nam Định
+  unit_1966: DRV
+  share: 0
+  km2: 152.8
+- district: Vu Quang
+  shapeID: 81297802B66107700635107
+  province_today: Hà Tĩnh
+  unit_1966: DRV
+  share: 0
+  km2: 636.9
+- district: Vu Thu
+  shapeID: 81297802B99897160628736
+  province_today: Nam Định
+  unit_1966: DRV
+  share: 0
+  km2: 196.7
+- district: Xin Man
+  shapeID: 81297802B50713424689894
+  province_today: Hà Giang
+  unit_1966: DRV
+  share: 0
+  km2: 585.7
+- district: Xuan Truong
+  shapeID: 81297802B91982413663988
+  province_today: Nam Định
+  unit_1966: DRV
+  share: 0
+  km2: 115.7
+- district: Y Yen
+  shapeID: 81297802B2331859269186
+  province_today: Nam Định
+  unit_1966: DRV
+  share: 0
+  km2: 245.3
+- district: Yen Bai
+  shapeID: 81297802B89523168412992
+  province_today: Yên Bái
+  unit_1966: DRV
+  share: 0
+  km2: 107.3
+- district: Yen Binh
+  shapeID: 81297802B76693228184167
+  province_today: Yên Bái
+  unit_1966: DRV
+  share: 0
+  km2: 774.0
+- district: Yen Chau
+  shapeID: 81297802B99176770386813
+  province_today: Sơn La
+  unit_1966: DRV
+  share: 0
+  km2: 859.2
+- district: Yen Dinh
+  shapeID: 81297802B9474885125507
+  province_today: Thanh Hóa
+  unit_1966: DRV
+  share: 0
+  km2: 234.7
+- district: Yen Dung
+  shapeID: 81297802B99638089462809
+  province_today: Bắc Ninh
+  unit_1966: DRV
+  share: 0
+  km2: 190.7
+- district: Yen Khanh
+  shapeID: 81297802B59755992581592
+  province_today: Ninh Bình
+  unit_1966: DRV
+  share: 0
+  km2: 142.4
+- district: Yen Lac
+  shapeID: 81297802B65483274658502
+  province_today: Vĩnh Phúc
+  unit_1966: DRV
+  share: 0
+  km2: 108.6
+- district: Yen Lap
+  shapeID: 81297802B78626005730568
+  province_today: Phú Thọ
+  unit_1966: DRV
+  share: 0
+  km2: 441.5
+- district: Yen Minh
+  shapeID: 81297802B77958779459732
+  province_today: Hà Giang
+  unit_1966: DRV
+  share: 0
+  km2: 790.7
+- district: Yen Mo
+  shapeID: 81297802B9308814425220
+  province_today: Ninh Bình
+  unit_1966: DRV
+  share: 0
+  km2: 149.1
+- district: Yen My
+  shapeID: 81297802B77847273364040
+  province_today: Hưng Yên
+  unit_1966: DRV
+  share: 0
+  km2: 91.8
+- district: Yen Phong
+  shapeID: 81297802B41688796411548
+  province_today: Bắc Ninh
+  unit_1966: DRV
+  share: 0
+  km2: 97.1
+- district: Yen Son
+  shapeID: 81297802B74193371644879
+  province_today: Tuyên Quang
+  unit_1966: DRV
+  share: 0
+  km2: 1133.5
+- district: Yen Thanh
+  shapeID: 81297802B75629290490646
+  province_today: Nghệ An
+  unit_1966: DRV
+  share: 0
+  km2: 543.9
+- district: Yen The
+  shapeID: 81297802B24165490506756
+  province_today: Bắc Giang
+  unit_1966: DRV
+  share: 0
+  km2: 307.0
+- district: Yen Thuy
+  shapeID: 81297802B65575052729344
+  province_today: Hòa Bình
+  unit_1966: DRV
+  share: 0
+  km2: 285.9
+- district: Chau Thanh
+  shapeID: 81297802B33105171569216
+  province_today: An Giang
+  unit_1966: an-giang
+  share: 0.998
+  km2: 355.1
+- district: Cho Moi
+  shapeID: 81297802B9073555262789
+  province_today: An Giang
+  unit_1966: an-giang
+  share: 0.996
+  km2: 370.0
+- district: Long Xuyen
+  shapeID: 81297802B27304776569222
+  province_today: An Giang
+  unit_1966: an-giang
+  share: 1.0
+  km2: 114.5
+- district: Thoai Son
+  shapeID: 81297802B55991258422340
+  province_today: An Giang
+  unit_1966: an-giang
+  share: 0.998
+  km2: 468.8
+- district: Thot Not
+  shapeID: 81297802B2345271224879
+  province_today: Cần Thơ
+  unit_1966: an-giang
+  share: 0.989
+  km2: 120.3
+- district: Vinh Thanh
+  shapeID: 81297802B96455619083063
+  province_today: Cần Thơ
+  unit_1966: an-giang
+  share: 0.999
+  km2: 307.9
+- district: Ca Mau
+  shapeID: 81297802B56186863938752
+  province_today: Cà Mau
+  unit_1966: an-xuyen
+  share: 0.998
+  km2: 249.5
+- district: Cai Nuoc
+  shapeID: 81297802B26446696948049
+  province_today: Cà Mau
+  unit_1966: an-xuyen
+  share: 1.0
+  km2: 415.5
+- district: Dam Doi
+  shapeID: 81297802B79677528710757
+  province_today: Cà Mau
+  unit_1966: an-xuyen
+  share: 0.96
+  km2: 848.9
+- district: Nam Can
+  shapeID: 81297802B77939005638096
+  province_today: Cà Mau
+  unit_1966: an-xuyen
+  share: 0.926
+  km2: 460.7
+- *id001
+- district: Phu Tan
+  shapeID: 81297802B51702434363712
+  province_today: Cà Mau
+  unit_1966: an-xuyen
+  share: 0.986
+  km2: 407.8
+- district: Thoi Binh
+  shapeID: 81297802B72962934651760
+  province_today: Cà Mau
+  unit_1966: an-xuyen
+  share: 0.997
+  km2: 637.1
+- district: Tran Van Thoi
+  shapeID: 81297802B31922203315935
+  province_today: Cà Mau
+  unit_1966: an-xuyen
+  share: 1.0
+  km2: 684.1
+- district: U Minh
+  shapeID: 81297802B9286931688743
+  province_today: Cà Mau
+  unit_1966: an-xuyen
+  share: 1.0
+  km2: 759.8
+- district: Chau Thanh
+  shapeID: 81297802B53741861263416
+  province_today: Sóc Trăng
+  unit_1966: ba-xuyen
+  share: 1.0
+  km2: 236.7
+- district: Cu Lao Dung
+  shapeID: 81297802B41374649859024
+  province_today: Sóc Trăng
+  unit_1966: ba-xuyen
+  share: 0.994
+  km2: 129.8
+- district: Ke Sach
+  shapeID: 81297802B85563269288439
+  province_today: Sóc Trăng
+  unit_1966: ba-xuyen
+  share: 0.997
+  km2: 308.8
+- district: Long Phu
+  shapeID: 81297802B46768613136824
+  province_today: Sóc Trăng
+  unit_1966: ba-xuyen
+  share: 1.0
+  km2: 252.4
+- district: My Tu
+  shapeID: 81297802B88406709239333
+  province_today: Sóc Trăng
+  unit_1966: ba-xuyen
+  share: 0.999
+  km2: 367.5
+- district: My Xuyen
+  shapeID: 81297802B12004492777163
+  province_today: Sóc Trăng
+  unit_1966: ba-xuyen
+  share: 0.997
+  km2: 373.8
+- district: Nga Nam
+  shapeID: 81297802B9638596310151
+  province_today: Sóc Trăng
+  unit_1966: ba-xuyen
+  share: 0.995
+  km2: 242.7
+- district: Soc Trang
+  shapeID: 81297802B1985987011497
+  province_today: Sóc Trăng
+  unit_1966: ba-xuyen
+  share: 1.0
+  km2: 76.1
+- district: Thanh Tri
+  shapeID: 81297802B36147607104720
+  province_today: Sóc Trăng
+  unit_1966: ba-xuyen
+  share: 0.996
+  km2: 288.5
+- district: Tran De
+  shapeID: 81297802B35680204276393
+  province_today: Sóc Trăng
+  unit_1966: ba-xuyen
+  share: 0.994
+  km2: 373.4
+- district: Bac Lieu
+  shapeID: 81297802B6284379291034
+  province_today: Bạc Liêu
+  unit_1966: bac-lieu
+  share: 0.969
+  km2: 152.2
+- district: Dong Hai
+  shapeID: 81297802B21221579574343
+  province_today: Bạc Liêu
+  unit_1966: bac-lieu
+  share: 0.978
+  km2: 525.8
+- district: Gia Rai
+  shapeID: 81297802B74217032443586
+  province_today: Bạc Liêu
+  unit_1966: bac-lieu
+  share: 0.999
+  km2: 355.0
+- district: Hoa Binh
+  shapeID: 81297802B62740202990840
+  province_today: Bạc Liêu
+  unit_1966: bac-lieu
+  share: 0.998
+  km2: 334.8
+- district: Phuoc Long
+  shapeID: 81297802B5473399388769
+  province_today: Bạc Liêu
+  unit_1966: bac-lieu
+  share: 0.999
+  km2: 416.1
+- district: Vinh Chau
+  shapeID: 81297802B36990393529741
+  province_today: Sóc Trăng
+  unit_1966: bac-lieu
+  share: 0.941
+  km2: 474.7
+- district: Vinh Loi
+  shapeID: 81297802B93911642889100
+  province_today: Bạc Liêu
+  unit_1966: bac-lieu
+  share: 0.995
+  km2: 251.6
+- district: Bac Tan Uyen
+  shapeID: 81297802B7309999559024
+  province_today: Bình Dương
+  unit_1966: bien-hoa
+  share: 0.996
+  km2: 400.8
+- district: Bien Hoa
+  shapeID: 81297802B63438000976754
+  province_today: Đồng Nai
+  unit_1966: bien-hoa
+  share: 0.998
+  km2: 263.7
+- district: Can Gio
+  shapeID: 81297802B7702852417854
+  province_today: Ho Chi Minh
+  unit_1966: bien-hoa
+  share: 0.999
+  km2: 570.2
+- district: Di An
+  shapeID: 81297802B25090486882402
+  province_today: Bình Dương
+  unit_1966: bien-hoa
+  share: 0.991
+  km2: 59.9
+- district: Long Thanh
+  shapeID: 81297802B3720110239063
+  province_today: Đồng Nai
+  unit_1966: bien-hoa
+  share: 0.989
+  km2: 427.9
+- district: Nhon Trach
+  shapeID: 81297802B6615511759285
+  province_today: Đồng Nai
+  unit_1966: bien-hoa
+  share: 0.994
+  km2: 412.0
+- district: Tan Uyen
+  shapeID: 81297802B30800695298767
+  province_today: Bình Dương
+  unit_1966: bien-hoa
+  share: 0.989
+  km2: 192.4
+- district: Trang Bom
+  shapeID: 81297802B42890675400166
+  province_today: Đồng Nai
+  unit_1966: bien-hoa
+  share: 0.995
+  km2: 332.3
+- district: Vinh Cuu
+  shapeID: 81297802B24916871487669
+  province_today: Đồng Nai
+  unit_1966: bien-hoa
+  share: 0.996
+  km2: 1088.6
+- district: An Khe
+  shapeID: 81297802B94904539855050
+  province_today: Gia Lai
+  unit_1966: binh-dinh
+  share: 1.0
+  km2: 198.9
+- district: An Lao
+  shapeID: 81297802B61161719512326
+  province_today: Bình Định
+  unit_1966: binh-dinh
+  share: 0.992
+  km2: 697.2
+- district: An Nhon
+  shapeID: 81297802B14138193507010
+  province_today: Bình Định
+  unit_1966: binh-dinh
+  share: 1.0
+  km2: 244.7
+- district: Dak Po
+  shapeID: 81297802B45369844815447
+  province_today: Gia Lai
+  unit_1966: binh-dinh
+  share: 1.0
+  km2: 500.9
+- district: Hoai An
+  shapeID: 81297802B64656263356693
+  province_today: Bình Định
+  unit_1966: binh-dinh
+  share: 1.0
+  km2: 752.6
+- district: Hoai Nhon
+  shapeID: 81297802B87599740731463
+  province_today: Bình Định
+  unit_1966: binh-dinh
+  share: 0.968
+  km2: 433.1
+- district: KBang
+  shapeID: 81297802B35293124334630
+  province_today: Gia Lai
+  unit_1966: binh-dinh
+  share: 0.998
+  km2: 1838.3
+- district: Kong Chro
+  shapeID: 81297802B76302638024773
+  province_today: Gia Lai
+  unit_1966: binh-dinh
+  share: 0.999
+  km2: 1444.8
+- district: Phu Cat
+  shapeID: 81297802B92234400822922
+  province_today: Bình Định
+  unit_1966: binh-dinh
+  share: 0.98
+  km2: 689.2
+- district: Phu My
+  shapeID: 81297802B75835306112543
+  province_today: Bình Định
+  unit_1966: binh-dinh
+  share: 0.965
+  km2: 564.1
+- district: Quy Nhon
+  shapeID: 81297802B6190272756602
+  province_today: Bình Định
+  unit_1966: binh-dinh
+  share: 0.933
+  km2: 271.3
+- district: Tay Son
+  shapeID: 81297802B3478153063518
+  province_today: Bình Định
+  unit_1966: binh-dinh
+  share: 1.0
+  km2: 692.4
+- district: Tuy Phuoc
+  shapeID: 81297802B71017047307278
+  province_today: Bình Định
+  unit_1966: binh-dinh
+  share: 1.0
+  km2: 203.0
+- district: Van Canh
+  shapeID: 81297802B17102674968438
+  province_today: Bình Định
+  unit_1966: binh-dinh
+  share: 0.999
+  km2: 803.2
+- district: Vinh Thanh
+  shapeID: 81297802B21955309192571
+  province_today: Bình Định
+  unit_1966: binh-dinh
+  share: 1.0
+  km2: 718.7
+- district: Bau Bang
+  shapeID: 81297802B44215588050468
+  province_today: Bình Dương
+  unit_1966: binh-duong
+  share: 0.999
+  km2: 338.3
+- district: Ben Cat
+  shapeID: 81297802B37785439564270
+  province_today: Bình Dương
+  unit_1966: binh-duong
+  share: 0.997
+  km2: 239.5
+- district: Dau Tieng
+  shapeID: 81297802B65073062645065
+  province_today: Bình Dương
+  unit_1966: binh-duong
+  share: 0.993
+  km2: 723.2
+- district: Phu Giao
+  shapeID: 81297802B21040073838815
+  province_today: Bình Dương
+  unit_1966: binh-duong
+  share: 0.995
+  km2: 544.6
+- district: Thu Dau Mot
+  shapeID: 81297802B23780781410203
+  province_today: Bình Dương
+  unit_1966: binh-duong
+  share: 0.986
+  km2: 111.2
+- district: Thuan An
+  shapeID: 81297802B69956804658452
+  province_today: Bình Dương
+  unit_1966: binh-duong
+  share: 0.989
+  km2: 83.6
+- district: Binh Long
+  shapeID: 81297802B43417057118199
+  province_today: Bình Phước
+  unit_1966: binh-long
+  share: 1.0
+  km2: 130.9
+- district: Chon Thanh
+  shapeID: 81297802B36298380371063
+  province_today: Bình Phước
+  unit_1966: binh-long
+  share: 0.99
+  km2: 380.8
+- district: Hon Quan
+  shapeID: 81297802B26799209243085
+  province_today: Bình Phước
+  unit_1966: binh-long
+  share: 0.995
+  km2: 666.6
+- district: Loc Ninh
+  shapeID: 81297802B87348344277653
+  province_today: Bình Phước
+  unit_1966: binh-long
+  share: 0.995
+  km2: 857.3
+- district: Bac Binh
+  shapeID: 81297802B84889732636102
+  province_today: Bình Thuận
+  unit_1966: binh-thuan
+  share: 0.994
+  km2: 1877.0
+- district: Ham Thuan Bac
+  shapeID: 81297802B59459676884366
+  province_today: Bình Thuận
+  unit_1966: binh-thuan
+  share: 0.998
+  km2: 1342.7
+- *id002
+- *id003
+- district: Tuy Phong
+  shapeID: 81297802B73162737965460
+  province_today: Bình Thuận
+  unit_1966: binh-thuan
+  share: 0.975
+  km2: 790.5
+- district: Duc Linh
+  shapeID: 81297802B10372149063277
+  province_today: Bình Thuận
+  unit_1966: binh-tuy
+  share: 0.997
+  km2: 545.5
+- district: Ham Tan
+  shapeID: 81297802B21171501026834
+  province_today: Bình Thuận
+  unit_1966: binh-tuy
+  share: 0.988
+  km2: 747.6
+- district: Ham Thuan Nam
+  shapeID: 81297802B68049284687871
+  province_today: Bình Thuận
+  unit_1966: binh-tuy
+  share: 0.99
+  km2: 1067.8
+- district: La Gi
+  shapeID: 81297802B85161602276488
+  province_today: Bình Thuận
+  unit_1966: binh-tuy
+  share: 0.948
+  km2: 194.6
+- district: Tanh Linh
+  shapeID: 81297802B72040378952039
+  province_today: Bình Thuận
+  unit_1966: binh-tuy
+  share: 0.998
+  km2: 1199.0
+- district: Cam Ranh
+  shapeID: 81297802B88990967828920
+  province_today: Khánh Hòa
+  unit_1966: cam-ranh
+  share: 0.948
+  km2: 328.1
+- district: An Phu
+  shapeID: 81297802B41294306698552
+  province_today: An Giang
+  unit_1966: chau-doc
+  share: 0.998
+  km2: 226.4
+- district: Chau Doc
+  shapeID: 81297802B29469680325647
+  province_today: An Giang
+  unit_1966: chau-doc
+  share: 0.999
+  km2: 103.4
+- district: Chau Phu
+  shapeID: 81297802B67223328663780
+  province_today: An Giang
+  unit_1966: chau-doc
+  share: 0.999
+  km2: 451.9
+- district: Phu Tan
+  shapeID: 81297802B56486108937036
+  province_today: An Giang
+  unit_1966: chau-doc
+  share: 0.994
+  km2: 312.4
+- district: Tan Chau
+  shapeID: 81297802B24408052099516
+  province_today: An Giang
+  unit_1966: chau-doc
+  share: 0.971
+  km2: 176.2
+- district: Tinh Bien
+  shapeID: 81297802B35428568609668
+  province_today: An Giang
+  unit_1966: chau-doc
+  share: 0.999
+  km2: 352.4
+- district: Tri Ton
+  shapeID: 81297802B61282348708206
+  province_today: An Giang
+  unit_1966: chau-doc
+  share: 0.999
+  km2: 599.4
+- district: Go Quao
+  shapeID: 81297802B76509043653809
+  province_today: Kiên Giang
+  unit_1966: chuong-thien
+  share: 0.991
+  km2: 437.7
+- district: Hong Dan
+  shapeID: 81297802B80223312825495
+  province_today: Bạc Liêu
+  unit_1966: chuong-thien
+  share: 0.996
+  km2: 444.7
+- district: Long My
+  shapeID: 81297802B29776873812270
+  province_today: Hậu Giang
+  unit_1966: chuong-thien
+  share: 0.997
+  km2: 410.0
+- district: Vi Thanh
+  shapeID: 81297802B29627750987730
+  province_today: Hậu Giang
+  unit_1966: chuong-thien
+  share: 1.0
+  km2: 119.4
+- district: Vi Thuy
+  shapeID: 81297802B65836895267297
+  province_today: Hậu Giang
+  unit_1966: chuong-thien
+  share: 0.998
+  km2: 229.1
+- district: Vinh Thuan
+  shapeID: 81297802B62462651678890
+  province_today: Kiên Giang
+  unit_1966: chuong-thien
+  share: 0.998
+  km2: 374.2
+- *id004
+- district: Da Lat
+  shapeID: 81297802B86448730167777
+  province_today: Lâm Đồng
+  unit_1966: da-lat
+  share: 0.994
+  km2: 394.2
+- district: Hai Chau
+  shapeID: 81297802B10780873415993
+  province_today: Đà Nẵng
+  unit_1966: da-nang
+  share: 0.992
+  km2: 18.9
+- *id005
+- district: Thanh Khe
+  shapeID: 81297802B31644345342604
+  province_today: Đà Nẵng
+  unit_1966: da-nang
+  share: 0.945
+  km2: 9.2
+- district: Buon Don
+  shapeID: 81297802B42534502413482
+  province_today: Đắk Lắk
+  unit_1966: darlac
+  share: 0.999
+  km2: 1402.5
+- district: Buon Ho
+  shapeID: 81297802B72254139131894
+  province_today: Đắk Lắk
+  unit_1966: darlac
+  share: 1.0
+  km2: 282.9
+- district: Buon Ma Thuot
+  shapeID: 81297802B34862108658790
+  province_today: Đắk Lắk
+  unit_1966: darlac
+  share: 1.0
+  km2: 381.0
+- district: Cu Jut
+  shapeID: 81297802B43064907961903
+  province_today: Đắk Nông
+  unit_1966: darlac
+  share: 0.998
+  km2: 722.4
+- district: Cu Kuin
+  shapeID: 81297802B8003578408571
+  province_today: Đắk Lắk
+  unit_1966: darlac
+  share: 1.0
+  km2: 291.3
+- district: Cu Mgar
+  shapeID: 81297802B57943820891789
+  province_today: Đắk Lắk
+  unit_1966: darlac
+  share: 1.0
+  km2: 824.3
+- district: EA Hleo
+  shapeID: 81297802B9030212335391
+  province_today: Đắk Lắk
+  unit_1966: darlac
+  share: 0.998
+  km2: 1334.8
+- district: Ea Kar
+  shapeID: 81297802B96415917644052
+  province_today: Đắk Lắk
+  unit_1966: darlac
+  share: 0.998
+  km2: 1041.0
+- district: Ea Sup
+  shapeID: 81297802B87471755079038
+  province_today: Đắk Lắk
+  unit_1966: darlac
+  share: 0.997
+  km2: 1769.8
+- district: Krong A Na
+  shapeID: 81297802B38165084831058
+  province_today: Đắk Lắk
+  unit_1966: darlac
+  share: 0.999
+  km2: 353.5
+- district: Krong Bong
+  shapeID: 81297802B29162792012865
+  province_today: Đắk Lắk
+  unit_1966: darlac
+  share: 0.996
+  km2: 1255.6
+- district: Krong Buk
+  shapeID: 81297802B2573632778711
+  province_today: Đắk Lắk
+  unit_1966: darlac
+  share: 1.0
+  km2: 354.9
+- district: Krong Nang
+  shapeID: 81297802B49219208970184
+  province_today: Đắk Lắk
+  unit_1966: darlac
+  share: 0.999
+  km2: 615.3
+- district: Krong Pac
+  shapeID: 81297802B85821133415944
+  province_today: Đắk Lắk
+  unit_1966: darlac
+  share: 1.0
+  km2: 628.3
+- district: Lak
+  shapeID: 81297802B83612510149562
+  province_today: Đắk Lắk
+  unit_1966: darlac
+  share: 0.998
+  km2: 1249.9
+- district: Cai Be
+  shapeID: 81297802B56348725354679
+  province_today: Tiền Giang
+  unit_1966: dinh-tuong
+  share: 0.995
+  km2: 417.4
+- district: Chau Thanh
+  shapeID: 81297802B2434648618604
+  province_today: Tiền Giang
+  unit_1966: dinh-tuong
+  share: 0.997
+  km2: 234.2
+- district: Cho Gao
+  shapeID: 81297802B70172971551103
+  province_today: Tiền Giang
+  unit_1966: dinh-tuong
+  share: 0.993
+  km2: 230.0
+- district: Huyen Cai Lay
+  shapeID: 81297802B21182108853425
+  province_today: Tiền Giang
+  unit_1966: dinh-tuong
+  share: 0.998
+  km2: 294.9
+- district: My Tho
+  shapeID: 81297802B97193335039618
+  province_today: Tiền Giang
+  unit_1966: dinh-tuong
+  share: 0.987
+  km2: 83.4
+- district: Tan Phuoc
+  shapeID: 81297802B67867529169474
+  province_today: Tiền Giang
+  unit_1966: dinh-tuong
+  share: 0.999
+  km2: 332.9
+- district: Thi xa Cai Lay
+  shapeID: 81297802B17596796998347
+  province_today: Tiền Giang
+  unit_1966: dinh-tuong
+  share: 1.0
+  km2: 139.8
+- district: Binh Chanh
+  shapeID: 81297802B93683261125538
+  province_today: Ho Chi Minh
+  unit_1966: gia-dinh
+  share: 0.995
+  km2: 248.0
+- district: Binh Tan
+  shapeID: 81297802B42527210401893
+  province_today: Ho Chi Minh
+  unit_1966: gia-dinh
+  share: 0.999
+  km2: 52.1
+- district: Binh Thanh
+  shapeID: 81297802B74412015974526
+  province_today: Ho Chi Minh
+  unit_1966: gia-dinh
+  share: 1.0
+  km2: 20.7
+- district: Go Vap
+  shapeID: 81297802B93588362587103
+  province_today: Ho Chi Minh
+  unit_1966: gia-dinh
+  share: 1.0
+  km2: 19.9
+- district: Hoc Mon
+  shapeID: 81297802B64363050509880
+  province_today: Ho Chi Minh
+  unit_1966: gia-dinh
+  share: 0.995
+  km2: 104.0
+- district: Nha Be
+  shapeID: 81297802B80984092880643
+  province_today: Ho Chi Minh
+  unit_1966: gia-dinh
+  share: 0.989
+  km2: 100.4
+- district: Phu Nhuan
+  shapeID: 81297802B72603937188235
+  province_today: Ho Chi Minh
+  unit_1966: gia-dinh
+  share: 0.983
+  km2: 5.0
+- district: Quan 12
+  shapeID: 81297802B78652503258302
+  province_today: Ho Chi Minh
+  unit_1966: gia-dinh
+  share: 0.998
+  km2: 52.8
+- district: Quan 2
+  shapeID: 81297802B76466747653960
+  province_today: Ho Chi Minh
+  unit_1966: gia-dinh
+  share: 0.996
+  km2: 50.0
+- district: Quan 7
+  shapeID: 81297802B84259990428862
+  province_today: Ho Chi Minh
+  unit_1966: gia-dinh
+  share: 0.996
+  km2: 35.5
+- district: Quan 9
+  shapeID: 81297802B54605917200404
+  province_today: Ho Chi Minh
+  unit_1966: gia-dinh
+  share: 0.996
+  km2: 113.8
+- district: Tan Binh
+  shapeID: 81297802B72151759297882
+  province_today: Ho Chi Minh
+  unit_1966: gia-dinh
+  share: 0.998
+  km2: 22.3
+- district: Tan Phu
+  shapeID: 81297802B97138813252769
+  province_today: Ho Chi Minh
+  unit_1966: gia-dinh
+  share: 0.997
+  km2: 15.8
+- district: Thu Duc
+  shapeID: 81297802B1678031067910
+  province_today: Ho Chi Minh
+  unit_1966: gia-dinh
+  share: 0.989
+  km2: 48.0
+- district: Go Cong
+  shapeID: 81297802B95868582932177
+  province_today: Tiền Giang
+  unit_1966: go-cong
+  share: 0.994
+  km2: 102.2
+- district: Go Cong Dong
+  shapeID: 81297802B63663693246644
+  province_today: Tiền Giang
+  unit_1966: go-cong
+  share: 0.946
+  km2: 211.6
+- district: Go Cong Tay
+  shapeID: 81297802B95643835690721
+  province_today: Tiền Giang
+  unit_1966: go-cong
+  share: 0.995
+  km2: 183.9
+- district: Tan Phu Dong
+  shapeID: 81297802B25768458282790
+  province_today: Tiền Giang
+  unit_1966: go-cong
+  share: 0.999
+  km2: 85.1
+- district: Cu Chi
+  shapeID: 81297802B99873561685500
+  province_today: Ho Chi Minh
+  unit_1966: hau-nghia
+  share: 0.998
+  km2: 433.8
+- district: Duc Hoa
+  shapeID: 81297802B22890149890322
+  province_today: Long An
+  unit_1966: hau-nghia
+  share: 0.979
+  km2: 436.4
+- district: Duc Hue
+  shapeID: 81297802B23772600550478
+  province_today: Long An
+  unit_1966: hau-nghia
+  share: 0.999
+  km2: 426.9
+- district: Trang Bang
+  shapeID: 81297802B3309919066987
+  province_today: Tây Ninh
+  unit_1966: hau-nghia
+  share: 0.997
+  km2: 336.8
+- district: Hue
+  shapeID: 81297802B88130440660417
+  province_today: Thừa Thiên Huế
+  unit_1966: hue
+  share: 0.973
+  km2: 72.3
+- district: Cam Lam
+  shapeID: 81297802B15274858883665
+  province_today: Khánh Hòa
+  unit_1966: khanh-hoa
+  share: 0.98
+  km2: 565.7
+- district: Dien Khanh
+  shapeID: 81297802B57264474428475
+  province_today: Khánh Hòa
+  unit_1966: khanh-hoa
+  share: 1.0
+  km2: 342.8
+- district: Khanh Son
+  shapeID: 81297802B29051358194838
+  province_today: Khánh Hòa
+  unit_1966: khanh-hoa
+  share: 0.995
+  km2: 338.4
+- district: Khanh Vinh
+  shapeID: 81297802B87924827202169
+  province_today: Khánh Hòa
+  unit_1966: khanh-hoa
+  share: 0.999
+  km2: 1167.4
+- district: Mdrak District
+  shapeID: 81297802B27744921596224
+  province_today: Đắk Lắk
+  unit_1966: khanh-hoa
+  share: 0.997
+  km2: 1251.1
+- district: Nha Trang
+  shapeID: 81297802B68033195953544
+  province_today: Khánh Hòa
+  unit_1966: khanh-hoa
+  share: 0.946
+  km2: 255.4
+- district: Ninh Hoa
+  shapeID: 81297802B58839501230111
+  province_today: Khánh Hòa
+  unit_1966: khanh-hoa
+  share: 0.982
+  km2: 1197.9
+- district: Van Ninh
+  shapeID: 81297802B51561347842325
+  province_today: Khánh Hòa
+  unit_1966: khanh-hoa
+  share: 0.922
+  km2: 520.8
+- district: An Bien
+  shapeID: 81297802B3825263519858
+  province_today: Kiên Giang
+  unit_1966: kien-giang
+  share: 0.996
+  km2: 376.4
+- district: An Minh
+  shapeID: 81297802B42244354568951
+  province_today: Kiên Giang
+  unit_1966: kien-giang
+  share: 1.0
+  km2: 544.3
+- district: Chau Thanh
+  shapeID: 81297802B94247950786042
+  province_today: Kiên Giang
+  unit_1966: kien-giang
+  share: 0.999
+  km2: 281.8
+- district: Giang Thanh
+  shapeID: 81297802B31774141557678
+  province_today: Kiên Giang
+  unit_1966: kien-giang
+  share: 0.999
+  km2: 393.7
+- district: Giong Rieng
+  shapeID: 81297802B19779239086561
+  province_today: Kiên Giang
+  unit_1966: kien-giang
+  share: 0.998
+  km2: 638.7
+- district: Ha Tien
+  shapeID: 81297802B34321495303848
+  province_today: Kiên Giang
+  unit_1966: kien-giang
+  share: 0.982
+  km2: 87.8
+- district: Hon Dat
+  shapeID: 81297802B18356226761800
+  province_today: Kiên Giang
+  unit_1966: kien-giang
+  share: 0.999
+  km2: 1031.1
+- *id006
+- district: Kien Luong
+  shapeID: 81297802B41363610148385
+  province_today: Kiên Giang
+  unit_1966: kien-giang
+  share: 0.987
+  km2: 457.1
+- district: Phu Quoc
+  shapeID: 81297802B871478188231
+  province_today: Kiên Giang
+  unit_1966: kien-giang
+  share: 0.948
+  km2: 582.2
+- district: Rach Gia
+  shapeID: 81297802B54016933640468
+  province_today: Kiên Giang
+  unit_1966: kien-giang
+  share: 1.0
+  km2: 94.8
+- district: Tan Hiep
+  shapeID: 81297802B5868916674827
+  province_today: Kiên Giang
+  unit_1966: kien-giang
+  share: 1.0
+  km2: 424.7
+- district: U Minh Thuong
+  shapeID: 81297802B37875930391216
+  province_today: Kiên Giang
+  unit_1966: kien-giang
+  share: 0.996
+  km2: 431.4
+- district: Ba Tri
+  shapeID: 81297802B69586170313052
+  province_today: Bến Tre
+  unit_1966: kien-hoa
+  share: 0.997
+  km2: 315.8
+- district: Ben Tre
+  shapeID: 81297802B1495670326955
+  province_today: Bến Tre
+  unit_1966: kien-hoa
+  share: 1.0
+  km2: 69.5
+- district: Binh Dai
+  shapeID: 81297802B66163336026361
+  province_today: Bến Tre
+  unit_1966: kien-hoa
+  share: 0.973
+  km2: 340.1
+- district: Chau Thanh
+  shapeID: 81297802B56564979250046
+  province_today: Bến Tre
+  unit_1966: kien-hoa
+  share: 0.995
+  km2: 223.7
+- district: Giong Trom
+  shapeID: 81297802B83890760772965
+  province_today: Bến Tre
+  unit_1966: kien-hoa
+  share: 1.0
+  km2: 276.8
+- district: Mo Cay Bac
+  shapeID: 81297802B92984212454641
+  province_today: Bến Tre
+  unit_1966: kien-hoa
+  share: 0.995
+  km2: 161.3
+- district: Mo Cay Nam
+  shapeID: 81297802B48166206611574
+  province_today: Bến Tre
+  unit_1966: kien-hoa
+  share: 1.0
+  km2: 204.3
+- district: Thanh Phu
+  shapeID: 81297802B66468397901634
+  province_today: Bến Tre
+  unit_1966: kien-hoa
+  share: 0.958
+  km2: 357.7
+- district: Huyen Cao Lanh
+  shapeID: 81297802B29684412204466
+  province_today: Đồng Tháp
+  unit_1966: kien-phong
+  share: 0.996
+  km2: 489.8
+- district: Huyen Hong Ngu
+  shapeID: 81297802B50587214410487
+  province_today: Đồng Tháp
+  unit_1966: kien-phong
+  share: 0.993
+  km2: 209.8
+- district: Tam Nong
+  shapeID: 81297802B81919693811276
+  province_today: Đồng Tháp
+  unit_1966: kien-phong
+  share: 1.0
+  km2: 472.1
+- district: Tan Hong
+  shapeID: 81297802B34572770830938
+  province_today: Đồng Tháp
+  unit_1966: kien-phong
+  share: 0.998
+  km2: 310.2
+- district: Thanh Binh
+  shapeID: 81297802B14212334557839
+  province_today: Đồng Tháp
+  unit_1966: kien-phong
+  share: 0.998
+  km2: 343.6
+- district: Thap Muoi
+  shapeID: 81297802B37339373723835
+  province_today: Đồng Tháp
+  unit_1966: kien-phong
+  share: 0.999
+  km2: 535.0
+- district: Thi xa Cao Lanh
+  shapeID: 81297802B60372874404879
+  province_today: Đồng Tháp
+  unit_1966: kien-phong
+  share: 0.997
+  km2: 107.7
+- district: Thi xa Hong Ngu
+  shapeID: 81297802B45020933584847
+  province_today: Đồng Tháp
+  unit_1966: kien-phong
+  share: 0.999
+  km2: 122.2
+- district: Kien Tuong
+  shapeID: 81297802B15581259777878
+  province_today: Long An
+  unit_1966: kien-tuong
+  share: 0.998
+  km2: 202.9
+- district: Moc Hoa
+  shapeID: 81297802B7527818717712
+  province_today: Long An
+  unit_1966: kien-tuong
+  share: 1.0
+  km2: 294.1
+- district: Tan Hung
+  shapeID: 81297802B65804618727956
+  province_today: Long An
+  unit_1966: kien-tuong
+  share: 0.998
+  km2: 498.6
+- district: Tan Thanh
+  shapeID: 81297802B33329086183777
+  province_today: Long An
+  unit_1966: kien-tuong
+  share: 0.998
+  km2: 420.5
+- district: Thanh Hoa
+  shapeID: 81297802B63095135263844
+  province_today: Long An
+  unit_1966: kien-tuong
+  share: 0.997
+  km2: 470.2
+- district: Vinh Hung
+  shapeID: 81297802B51272444346298
+  province_today: Long An
+  unit_1966: kien-tuong
+  share: 0.998
+  km2: 381.5
+- district: Dak Glei
+  shapeID: 81297802B20367953633835
+  province_today: Kon Tum
+  unit_1966: kon-tum
+  share: 0.997
+  km2: 1493.7
+- district: Dak Ha
+  shapeID: 81297802B44208556699353
+  province_today: Kon Tum
+  unit_1966: kon-tum
+  share: 1.0
+  km2: 842.7
+- district: Dak To
+  shapeID: 81297802B52627388081803
+  province_today: Kon Tum
+  unit_1966: kon-tum
+  share: 1.0
+  km2: 507.0
+- district: Kon Plong
+  shapeID: 81297802B37970290892439
+  province_today: Kon Tum
+  unit_1966: kon-tum
+  share: 0.997
+  km2: 1372.7
+- district: Kon Ray
+  shapeID: 81297802B49611781778497
+  province_today: Kon Tum
+  unit_1966: kon-tum
+  share: 0.999
+  km2: 917.4
+- district: Kon Tum
+  shapeID: 81297802B636661033486
+  province_today: Kon Tum
+  unit_1966: kon-tum
+  share: 0.987
+  km2: 434.2
+- district: Ngoc Hoi
+  shapeID: 81297802B1803091954954
+  province_today: Kon Tum
+  unit_1966: kon-tum
+  share: 0.998
+  km2: 836.0
+- district: Sa Thay
+  shapeID: 81297802B78907971348627
+  province_today: Kon Tum
+  unit_1966: kon-tum
+  share: 0.997
+  km2: 2395.9
+- district: Tu Mo Rong
+  shapeID: 81297802B16541954250717
+  province_today: Kon Tum
+  unit_1966: kon-tum
+  share: 1.0
+  km2: 859.0
+- district: Bao Lam
+  shapeID: 81297802B89982379831919
+  province_today: Lâm Đồng
+  unit_1966: lam-dong
+  share: 0.999
+  km2: 1464.9
+- district: Bao Loc
+  shapeID: 81297802B17535514855325
+  province_today: Lâm Đồng
+  unit_1966: lam-dong
+  share: 1.0
+  km2: 233.7
+- district: Da Huoai
+  shapeID: 81297802B42288402015377
+  province_today: Lâm Đồng
+  unit_1966: lam-dong
+  share: 0.995
+  km2: 496.2
+- district: Da Teh
+  shapeID: 81297802B88275273163475
+  province_today: Lâm Đồng
+  unit_1966: lam-dong
+  share: 0.997
+  km2: 527.4
+- district: Di Linh
+  shapeID: 81297802B8144414429904
+  province_today: Lâm Đồng
+  unit_1966: lam-dong
+  share: 0.996
+  km2: 1617.8
+- district: Ben Luc
+  shapeID: 81297802B50864428315087
+  province_today: Long An
+  unit_1966: long-an
+  share: 0.995
+  km2: 289.6
+- district: Can Duoc
+  shapeID: 81297802B37514703849012
+  province_today: Long An
+  unit_1966: long-an
+  share: 0.999
+  km2: 218.5
+- district: Can Giuoc
+  shapeID: 81297802B44556348511886
+  province_today: Long An
+  unit_1966: long-an
+  share: 0.995
+  km2: 213.0
+- district: Chau Thanh
+  shapeID: 81297802B81408558281677
+  province_today: Long An
+  unit_1966: long-an
+  share: 0.996
+  km2: 155.3
+- district: Tan An
+  shapeID: 81297802B36271966780528
+  province_today: Long An
+  unit_1966: long-an
+  share: 0.996
+  km2: 81.6
+- district: Tan Tru
+  shapeID: 81297802B79980761269040
+  province_today: Long An
+  unit_1966: long-an
+  share: 1.0
+  km2: 106.2
+- district: Thu Thua
+  shapeID: 81297802B60662496728573
+  province_today: Long An
+  unit_1966: long-an
+  share: 0.995
+  km2: 298.0
+- district: Cam My
+  shapeID: 81297802B33413589576034
+  province_today: Đồng Nai
+  unit_1966: long-khanh
+  share: 0.99
+  km2: 465.8
+- district: Dinh Quan
+  shapeID: 81297802B49967994067833
+  province_today: Đồng Nai
+  unit_1966: long-khanh
+  share: 0.994
+  km2: 974.5
+- district: Long Khanh
+  shapeID: 81297802B61199528191319
+  province_today: Đồng Nai
+  unit_1966: long-khanh
+  share: 1.0
+  km2: 191.2
+- district: Tan Phu
+  shapeID: 81297802B74333052983118
+  province_today: Đồng Nai
+  unit_1966: long-khanh
+  share: 0.996
+  km2: 774.7
+- district: Thong Nhat
+  shapeID: 81297802B78615286204020
+  province_today: Đồng Nai
+  unit_1966: long-khanh
+  share: 0.993
+  km2: 247.2
+- district: Xuan Loc
+  shapeID: 81297802B96051805348654
+  province_today: Đồng Nai
+  unit_1966: long-khanh
+  share: 0.996
+  km2: 724.4
+- district: Bac Ai
+  shapeID: 81297802B54055270393742
+  province_today: Ninh Thuận
+  unit_1966: ninh-thuan
+  share: 0.992
+  km2: 1036.6
+- district: Ninh Hai
+  shapeID: 81297802B76244887601508
+  province_today: Ninh Thuận
+  unit_1966: ninh-thuan
+  share: 0.917
+  km2: 261.1
+- district: Ninh Phuoc
+  shapeID: 81297802B18401806223645
+  province_today: Ninh Thuận
+  unit_1966: ninh-thuan
+  share: 0.995
+  km2: 344.1
+- district: Ninh Son
+  shapeID: 81297802B88768197538102
+  province_today: Ninh Thuận
+  unit_1966: ninh-thuan
+  share: 0.999
+  km2: 776.3
+- district: Phan Rang-Thap Cham
+  shapeID: 81297802B48689828615161
+  province_today: Ninh Thuận
+  unit_1966: ninh-thuan
+  share: 0.966
+  km2: 81.2
+- district: Thuan Bac
+  shapeID: 81297802B93158398760307
+  province_today: Ninh Thuận
+  unit_1966: ninh-thuan
+  share: 0.99
+  km2: 320.1
+- district: Thuan Nam
+  shapeID: 81297802B94482771357603
+  province_today: Ninh Thuận
+  unit_1966: ninh-thuan
+  share: 0.976
+  km2: 571.5
+- district: Binh Thuy
+  shapeID: 81297802B33814118608654
+  province_today: Cần Thơ
+  unit_1966: phong-dinh
+  share: 0.991
+  km2: 71.3
+- district: Cai Rang
+  shapeID: 81297802B53183498164333
+  province_today: Cần Thơ
+  unit_1966: phong-dinh
+  share: 0.996
+  km2: 67.6
+- district: Chau Thanh
+  shapeID: 81297802B83209776142835
+  province_today: Cần Thơ
+  unit_1966: phong-dinh
+  share: 0.999
+  km2: 137.7
+- district: Chau Thanh A
+  shapeID: 81297802B94036559538482
+  province_today: Cần Thơ
+  unit_1966: phong-dinh
+  share: 0.999
+  km2: 160.9
+- district: Co Do
+  shapeID: 81297802B1021983329449
+  province_today: Cần Thơ
+  unit_1966: phong-dinh
+  share: 0.998
+  km2: 320.1
+- district: Nga Bay
+  shapeID: 81297802B83257848753409
+  province_today: Hậu Giang
+  unit_1966: phong-dinh
+  share: 0.998
+  km2: 74.2
+- district: Ninh Kieu
+  shapeID: 81297802B54398389952996
+  province_today: Cần Thơ
+  unit_1966: phong-dinh
+  share: 0.993
+  km2: 29.0
+- district: O Mon
+  shapeID: 81297802B2084996388105
+  province_today: Cần Thơ
+  unit_1966: phong-dinh
+  share: 0.995
+  km2: 130.1
+- district: Phong Dien
+  shapeID: 81297802B56741553336234
+  province_today: Cần Thơ
+  unit_1966: phong-dinh
+  share: 1.0
+  km2: 125.2
+- district: Phung Hiep
+  shapeID: 81297802B32262425524101
+  province_today: Hậu Giang
+  unit_1966: phong-dinh
+  share: 0.999
+  km2: 488.5
+- district: Thoi Lai
+  shapeID: 81297802B52248438909521
+  province_today: Cần Thơ
+  unit_1966: phong-dinh
+  share: 0.998
+  km2: 269.1
+- district: Ayun Pa
+  shapeID: 81297802B91685830390053
+  province_today: Gia Lai
+  unit_1966: phu-bon
+  share: 0.999
+  km2: 287.8
+- district: Ia Pa
+  shapeID: 81297802B8571934498047
+  province_today: Gia Lai
+  unit_1966: phu-bon
+  share: 0.997
+  km2: 868.7
+- district: Krong Pa
+  shapeID: 81297802B51008955299030
+  province_today: Gia Lai
+  unit_1966: phu-bon
+  share: 0.997
+  km2: 1623.5
+- district: Phu Thien
+  shapeID: 81297802B15377501666570
+  province_today: Gia Lai
+  unit_1966: phu-bon
+  share: 0.998
+  km2: 504.0
+- district: Dong Hoa
+  shapeID: 81297802B45644811289425
+  province_today: Phú Yên
+  unit_1966: phu-yen
+  share: 0.945
+  km2: 275.9
+- district: Dong Xuan
+  shapeID: 81297802B78420794750623
+  province_today: Phú Yên
+  unit_1966: phu-yen
+  share: 0.998
+  km2: 1041.1
+- district: Phu Hoa
+  shapeID: 81297802B95398881806036
+  province_today: Phú Yên
+  unit_1966: phu-yen
+  share: 1.0
+  km2: 260.3
+- district: Son Hoa
+  shapeID: 81297802B61701358015931
+  province_today: Phú Yên
+  unit_1966: phu-yen
+  share: 0.999
+  km2: 943.0
+- district: Song Cau
+  shapeID: 81297802B65581648571900
+  province_today: Phú Yên
+  unit_1966: phu-yen
+  share: 0.946
+  km2: 491.8
+- district: Song Hinh
+  shapeID: 81297802B28811761284346
+  province_today: Phú Yên
+  unit_1966: phu-yen
+  share: 0.993
+  km2: 899.7
+- district: Tay Hoa
+  shapeID: 81297802B36488646512837
+  province_today: Phú Yên
+  unit_1966: phu-yen
+  share: 0.995
+  km2: 622.0
+- district: Tuy An
+  shapeID: 81297802B47177978604160
+  province_today: Phú Yên
+  unit_1966: phu-yen
+  share: 0.966
+  km2: 400.6
+- district: Tuy Hoa
+  shapeID: 81297802B45106503001809
+  province_today: Phú Yên
+  unit_1966: phu-yen
+  share: 0.951
+  km2: 113.6
+- district: Bu Dang
+  shapeID: 81297802B33312647698223
+  province_today: Bình Phước
+  unit_1966: phuoc-long
+  share: 0.998
+  km2: 1498.2
+- district: Bu Dop
+  shapeID: 81297802B5857215594058
+  province_today: Bình Phước
+  unit_1966: phuoc-long
+  share: 0.992
+  km2: 383.3
+- district: Bu Gia Map
+  shapeID: 81297802B78542366840504
+  province_today: Bình Phước
+  unit_1966: phuoc-long
+  share: 0.995
+  km2: 1750.6
+- district: Cat Tien
+  shapeID: 81297802B49537212124970
+  province_today: Lâm Đồng
+  unit_1966: phuoc-long
+  share: 0.996
+  km2: 426.1
+- district: Dong Phu
+  shapeID: 81297802B41717626545623
+  province_today: Bình Phước
+  unit_1966: phuoc-long
+  share: 0.996
+  km2: 923.3
+- district: Dong Xoai
+  shapeID: 81297802B13642047560711
+  province_today: Bình Phước
+  unit_1966: phuoc-long
+  share: 0.995
+  km2: 165.1
+- district: Phuoc Long
+  shapeID: 81297802B44117863394749
+  province_today: Bình Phước
+  unit_1966: phuoc-long
+  share: 1.0
+  km2: 118.9
+- district: Ba Ria
+  shapeID: 81297802B66449035371360
+  province_today: Bà Rịa–Vũng Tàu
+  unit_1966: phuoc-tuy
+  share: 0.993
+  km2: 90.7
+- district: Chau Duc
+  shapeID: 81297802B77796697839152
+  province_today: Bà Rịa–Vũng Tàu
+  unit_1966: phuoc-tuy
+  share: 0.995
+  km2: 424.8
+- district: Dat Do
+  shapeID: 81297802B14105634475822
+  province_today: Bà Rịa–Vũng Tàu
+  unit_1966: phuoc-tuy
+  share: 0.964
+  km2: 191.8
+- district: Long Dien
+  shapeID: 81297802B9398077823445
+  province_today: Bà Rịa–Vũng Tàu
+  unit_1966: phuoc-tuy
+  share: 0.964
+  km2: 79.4
+- district: Tan Thanh
+  shapeID: 81297802B41485876419304
+  province_today: Bà Rịa–Vũng Tàu
+  unit_1966: phuoc-tuy
+  share: 0.996
+  km2: 328.5
+- district: Xuyen Moc
+  shapeID: 81297802B24499966976565
+  province_today: Bà Rịa–Vũng Tàu
+  unit_1966: phuoc-tuy
+  share: 0.974
+  km2: 651.6
+- district: Chu Pah
+  shapeID: 81297802B21786246689715
+  province_today: Gia Lai
+  unit_1966: pleiku
+  share: 0.998
+  km2: 976.4
+- district: Chu Prong
+  shapeID: 81297802B50675624734559
+  province_today: Gia Lai
+  unit_1966: pleiku
+  share: 0.999
+  km2: 1695.9
+- district: Chu Puh
+  shapeID: 81297802B62904822955283
+  province_today: Gia Lai
+  unit_1966: pleiku
+  share: 0.999
+  km2: 718.1
+- district: Chu Se
+  shapeID: 81297802B12572198720361
+  province_today: Gia Lai
+  unit_1966: pleiku
+  share: 1.0
+  km2: 644.2
+- district: Dak Doa
+  shapeID: 81297802B36312306774318
+  province_today: Gia Lai
+  unit_1966: pleiku
+  share: 0.999
+  km2: 982.0
+- district: Duc Co
+  shapeID: 81297802B6947069841891
+  province_today: Gia Lai
+  unit_1966: pleiku
+  share: 0.999
+  km2: 717.6
+- district: Ia Grai
+  shapeID: 81297802B6416238429405
+  province_today: Gia Lai
+  unit_1966: pleiku
+  share: 1.0
+  km2: 1118.1
+- district: Mang Yang
+  shapeID: 81297802B73536270925214
+  province_today: Gia Lai
+  unit_1966: pleiku
+  share: 0.999
+  km2: 1126.7
+- district: Pleiku
+  shapeID: 81297802B26419635481013
+  province_today: Gia Lai
+  unit_1966: pleiku
+  share: 1.0
+  km2: 261.6
+- district: Dak Glong
+  shapeID: 81297802B52664178073196
+  province_today: Đắk Nông
+  unit_1966: quang-duc
+  share: 0.997
+  km2: 1448.2
+- district: Dak Mil
+  shapeID: 81297802B8433513238207
+  province_today: Đắk Nông
+  unit_1966: quang-duc
+  share: 0.996
+  km2: 680.5
+- district: Dak Rlap
+  shapeID: 81297802B2917427008212
+  province_today: Đắk Nông
+  unit_1966: quang-duc
+  share: 0.998
+  km2: 636.2
+- district: Dak Song
+  shapeID: 81297802B66581332316021
+  province_today: Đắk Nông
+  unit_1966: quang-duc
+  share: 0.999
+  km2: 806.4
+- district: Gia Nghia
+  shapeID: 81297802B66925040014305
+  province_today: Đắk Nông
+  unit_1966: quang-duc
+  share: 0.999
+  km2: 283.5
+- district: Krong No
+  shapeID: 81297802B95536504011076
+  province_today: Đắk Nông
+  unit_1966: quang-duc
+  share: 0.997
+  km2: 814.2
+- district: Tuy Duc
+  shapeID: 81297802B14510014839166
+  province_today: Đắk Nông
+  unit_1966: quang-duc
+  share: 0.999
+  km2: 1118.3
+- district: Cam Le
+  shapeID: 81297802B37110717960369
+  province_today: Đà Nẵng
+  unit_1966: quang-nam
+  share: 0.984
+  km2: 34.1
+- district: Dai Loc
+  shapeID: 81297802B98438479076374
+  province_today: Quảng Nam
+  unit_1966: quang-nam
+  share: 1.0
+  km2: 579.7
+- district: Dien Ban
+  shapeID: 81297802B70720207353538
+  province_today: Quảng Nam
+  unit_1966: quang-nam
+  share: 0.987
+  km2: 219.8
+- district: Dong Giang
+  shapeID: 81297802B9107629386142
+  province_today: Quảng Nam
+  unit_1966: quang-nam
+  share: 1.0
+  km2: 823.0
+- district: Duy Xuyen
+  shapeID: 81297802B11134761285152
+  province_today: Quảng Nam
+  unit_1966: quang-nam
+  share: 0.99
+  km2: 310.8
+- district: Hoa Vang
+  shapeID: 81297802B86432819232797
+  province_today: Đà Nẵng
+  unit_1966: quang-nam
+  share: 0.999
+  km2: 735.8
+- district: Hoi An
+  shapeID: 81297802B62948768430814
+  province_today: Quảng Nam
+  unit_1966: quang-nam
+  share: 0.938
+  km2: 48.3
+- *id007
+- district: Nam Giang
+  shapeID: 81297802B72423367852086
+  province_today: Quảng Nam
+  unit_1966: quang-nam
+  share: 0.998
+  km2: 1844.7
+- *id008
+- district: Nong Son
+  shapeID: 81297802B33972751107769
+  province_today: Quảng Nam
+  unit_1966: quang-nam
+  share: 0.997
+  km2: 472.4
+- district: Que Son
+  shapeID: 81297802B89611140069217
+  province_today: Quảng Nam
+  unit_1966: quang-nam
+  share: 0.996
+  km2: 258.5
+- district: Tay Giang
+  shapeID: 81297802B8357375846053
+  province_today: Quảng Nam
+  unit_1966: quang-nam
+  share: 0.995
+  km2: 912.5
+- district: Ba To
+  shapeID: 81297802B2421652022296
+  province_today: Quảng Ngãi
+  unit_1966: quang-ngai
+  share: 0.999
+  km2: 1126.9
+- district: Binh Son
+  shapeID: 81297802B82760747397164
+  province_today: Quảng Ngãi
+  unit_1966: quang-ngai
+  share: 0.973
+  km2: 476.3
+- district: Duc Pho
+  shapeID: 81297802B20968372540645
+  province_today: Quảng Ngãi
+  unit_1966: quang-ngai
+  share: 0.944
+  km2: 393.7
+- *id009
+- district: Minh Long
+  shapeID: 81297802B89663618716792
+  province_today: Quảng Ngãi
+  unit_1966: quang-ngai
+  share: 1.0
+  km2: 216.9
+- district: Mo Duc
+  shapeID: 81297802B23204917551818
+  province_today: Quảng Ngãi
+  unit_1966: quang-ngai
+  share: 0.96
+  km2: 224.4
+- district: Nghia Hanh
+  shapeID: 81297802B973126409201
+  province_today: Quảng Ngãi
+  unit_1966: quang-ngai
+  share: 1.0
+  km2: 234.9
+- district: Quang Ngai
+  shapeID: 81297802B1045120286230
+  province_today: Quảng Ngãi
+  unit_1966: quang-ngai
+  share: 1.0
+  km2: 37.5
+- district: Son Ha
+  shapeID: 81297802B11658146957456
+  province_today: Quảng Ngãi
+  unit_1966: quang-ngai
+  share: 1.0
+  km2: 752.3
+- district: Son Tay
+  shapeID: 81297802B56181672233009
+  province_today: Kon Tum
+  unit_1966: quang-ngai
+  share: 0.998
+  km2: 381.7
+- district: Son Tinh
+  shapeID: 81297802B15613357308975
+  province_today: Quảng Ngãi
+  unit_1966: quang-ngai
+  share: 0.989
+  km2: 340.6
+- district: Tay Tra
+  shapeID: 81297802B47494931699472
+  province_today: Quảng Ngãi
+  unit_1966: quang-ngai
+  share: 0.998
+  km2: 339.8
+- district: Tra Bong
+  shapeID: 81297802B78342510004852
+  province_today: Quảng Ngãi
+  unit_1966: quang-ngai
+  share: 1.0
+  km2: 421.0
+- district: Tu Nghia
+  shapeID: 81297802B55656475848083
+  province_today: Quảng Ngãi
+  unit_1966: quang-ngai
+  share: 0.989
+  km2: 229.0
+- district: Bac Tra My
+  shapeID: 81297802B65636962466894
+  province_today: Quảng Nam
+  unit_1966: quang-tin
+  share: 0.997
+  km2: 847.9
+- district: Hiep Duc
+  shapeID: 81297802B47304896634130
+  province_today: Quảng Nam
+  unit_1966: quang-tin
+  share: 0.998
+  km2: 496.6
+- district: Nam Tra My
+  shapeID: 81297802B98842550999199
+  province_today: Quảng Nam
+  unit_1966: quang-tin
+  share: 0.998
+  km2: 826.9
+- district: Nui Thanh
+  shapeID: 81297802B34920687321908
+  province_today: Quảng Nam
+  unit_1966: quang-tin
+  share: 0.985
+  km2: 520.4
+- district: Phu Ninh
+  shapeID: 81297802B11022979046189
+  province_today: Quảng Nam
+  unit_1966: quang-tin
+  share: 1.0
+  km2: 255.4
+- district: Phuoc Son
+  shapeID: 81297802B80912783182295
+  province_today: Quảng Nam
+  unit_1966: quang-tin
+  share: 0.997
+  km2: 1155.1
+- district: Tam Ky
+  shapeID: 81297802B35959496403420
+  province_today: Quảng Nam
+  unit_1966: quang-tin
+  share: 0.972
+  km2: 95.9
+- district: Thang Binh
+  shapeID: 81297802B72056692107631
+  province_today: Quảng Nam
+  unit_1966: quang-tin
+  share: 0.975
+  km2: 421.6
+- district: Tien Phuoc
+  shapeID: 81297802B51785257245499
+  province_today: Quảng Nam
+  unit_1966: quang-tin
+  share: 1.0
+  km2: 455.7
+- district: Cam Lo
+  shapeID: 81297802B81560237884054
+  province_today: Quảng Trị
+  unit_1966: quang-tri
+  share: 1.0
+  km2: 343.1
+- district: Da Krong
+  shapeID: 81297802B86066179794931
+  province_today: Quảng Trị
+  unit_1966: quang-tri
+  share: 0.995
+  km2: 1102.1
+- district: Dong Ha
+  shapeID: 81297802B80628180194499
+  province_today: Quảng Trị
+  unit_1966: quang-tri
+  share: 1.0
+  km2: 72.6
+- district: Gio Linh
+  shapeID: 81297802B57271723433997
+  province_today: Quảng Trị
+  unit_1966: quang-tri
+  share: 0.99
+  km2: 475.5
+- district: Hai Lang
+  shapeID: 81297802B74996211829814
+  province_today: Quảng Trị
+  unit_1966: quang-tri
+  share: 0.994
+  km2: 424.9
+- district: Huong Hoa
+  shapeID: 81297802B55643895945103
+  province_today: Quảng Trị
+  unit_1966: quang-tri
+  share: 0.997
+  km2: 1150.3
+- district: Quang Tri
+  shapeID: 81297802B92774803000720
+  province_today: Quảng Trị
+  unit_1966: quang-tri
+  share: 1.0
+  km2: 74.2
+- district: Trieu Phong
+  shapeID: 81297802B12813150904873
+  province_today: Quảng Trị
+  unit_1966: quang-tri
+  share: 0.99
+  km2: 348.0
+- district: Chau Thanh
+  shapeID: 81297802B15585210216113
+  province_today: Đồng Tháp
+  unit_1966: sa-dec
+  share: 0.989
+  km2: 247.5
+- district: Lai Vung
+  shapeID: 81297802B97779454887068
+  province_today: Đồng Tháp
+  unit_1966: sa-dec
+  share: 0.999
+  km2: 238.5
+- district: Lap Vo
+  shapeID: 81297802B77463595408425
+  province_today: Đồng Tháp
+  unit_1966: sa-dec
+  share: 0.996
+  km2: 246.1
+- district: Sa Dec
+  shapeID: 81297802B46621499872955
+  province_today: Đồng Tháp
+  unit_1966: sa-dec
+  share: 0.992
+  km2: 59.3
+- district: Quan 1
+  shapeID: 81297802B34545275526363
+  province_today: Ho Chi Minh
+  unit_1966: saigon
+  share: 0.971
+  km2: 7.7
+- district: Quan 10
+  shapeID: 81297802B93335721036450
+  province_today: Ho Chi Minh
+  unit_1966: saigon
+  share: 0.999
+  km2: 5.8
+- district: Quan 11
+  shapeID: 81297802B37641712637141
+  province_today: Ho Chi Minh
+  unit_1966: saigon
+  share: 0.995
+  km2: 5.2
+- district: Quan 3
+  shapeID: 81297802B4427483692725
+  province_today: Ho Chi Minh
+  unit_1966: saigon
+  share: 0.994
+  km2: 4.9
+- district: Quan 4
+  shapeID: 81297802B29563104023098
+  province_today: Ho Chi Minh
+  unit_1966: saigon
+  share: 0.973
+  km2: 4.0
+- district: Quan 5
+  shapeID: 81297802B17569327634169
+  province_today: Ho Chi Minh
+  unit_1966: saigon
+  share: 1.0
+  km2: 4.2
+- district: Quan 6
+  shapeID: 81297802B35379290873600
+  province_today: Ho Chi Minh
+  unit_1966: saigon
+  share: 0.977
+  km2: 7.3
+- district: Quan 8
+  shapeID: 81297802B52284124086366
+  province_today: Ho Chi Minh
+  unit_1966: saigon
+  share: 0.992
+  km2: 18.9
+- district: Ben Cau
+  shapeID: 81297802B61263365113672
+  province_today: Tây Ninh
+  unit_1966: tay-ninh
+  share: 0.999
+  km2: 236.2
+- district: Chau Thanh
+  shapeID: 81297802B30323481145094
+  province_today: Tây Ninh
+  unit_1966: tay-ninh
+  share: 0.999
+  km2: 580.2
+- district: Duong Minh Chau
+  shapeID: 81297802B96522155706340
+  province_today: Tây Ninh
+  unit_1966: tay-ninh
+  share: 0.998
+  km2: 432.7
+- district: Go Dau
+  shapeID: 81297802B39580963826669
+  province_today: Tây Ninh
+  unit_1966: tay-ninh
+  share: 0.999
+  km2: 260.1
+- district: Hoa Thanh
+  shapeID: 81297802B16996300923424
+  province_today: Tây Ninh
+  unit_1966: tay-ninh
+  share: 1.0
+  km2: 83.3
+- district: Tan Bien
+  shapeID: 81297802B37342354446447
+  province_today: Tây Ninh
+  unit_1966: tay-ninh
+  share: 0.997
+  km2: 856.3
+- district: Tan Chau
+  shapeID: 81297802B68440719308655
+  province_today: Tây Ninh
+  unit_1966: tay-ninh
+  share: 0.996
+  km2: 1107.4
+- district: Tay Ninh
+  shapeID: 81297802B48058598464830
+  province_today: Tây Ninh
+  unit_1966: tay-ninh
+  share: 1.0
+  km2: 140.0
+- district: A Luoi
+  shapeID: 81297802B94706269623038
+  province_today: Thừa Thiên Huế
+  unit_1966: thua-thien
+  share: 0.997
+  km2: 1224.7
+- district: Huong Thuy
+  shapeID: 81297802B27432396017289
+  province_today: Thừa Thiên Huế
+  unit_1966: thua-thien
+  share: 0.999
+  km2: 454.1
+- district: Huong Tra
+  shapeID: 81297802B61752422174773
+  province_today: Thừa Thiên Huế
+  unit_1966: thua-thien
+  share: 0.997
+  km2: 510.9
+- district: Nam Dong
+  shapeID: 81297802B42791937018990
+  province_today: Thừa Thiên Huế
+  unit_1966: thua-thien
+  share: 0.998
+  km2: 649.6
+- district: Phong Dien
+  shapeID: 81297802B35670860897871
+  province_today: Thừa Thiên Huế
+  unit_1966: thua-thien
+  share: 0.994
+  km2: 946.7
+- district: Phu Loc
+  shapeID: 81297802B61067118889021
+  province_today: Thừa Thiên Huế
+  unit_1966: thua-thien
+  share: 0.978
+  km2: 576.3
+- district: Phu Vang
+  shapeID: 81297802B31894177777214
+  province_today: Thừa Thiên Huế
+  unit_1966: thua-thien
+  share: 1.0
+  km2: 170.1
+- district: Quang Dien
+  shapeID: 81297802B21993860278161
+  province_today: Thừa Thiên Huế
+  unit_1966: thua-thien
+  share: 0.983
+  km2: 135.4
+- district: Dam Rong
+  shapeID: 81297802B48811804766969
+  province_today: Lâm Đồng
+  unit_1966: tuyen-duc
+  share: 0.997
+  km2: 862.7
+- district: Don Duong
+  shapeID: 81297802B74216529473028
+  province_today: Lâm Đồng
+  unit_1966: tuyen-duc
+  share: 0.996
+  km2: 611.7
+- district: Duc Trong
+  shapeID: 81297802B43116981701202
+  province_today: Lâm Đồng
+  unit_1966: tuyen-duc
+  share: 0.998
+  km2: 905.8
+- district: Lac Duong
+  shapeID: 81297802B90979220295161
+  province_today: Lâm Đồng
+  unit_1966: tuyen-duc
+  share: 0.995
+  km2: 1265.1
+- district: Lam Ha
+  shapeID: 81297802B58085294619279
+  province_today: Lâm Đồng
+  unit_1966: tuyen-duc
+  share: 0.998
+  km2: 981.9
+- district: Cang Long
+  shapeID: 81297802B14177599577280
+  province_today: Trà Vinh
+  unit_1966: vinh-binh
+  share: 1.0
+  km2: 285.4
+- district: Cau Ke
+  shapeID: 81297802B65507223487475
+  province_today: Trà Vinh
+  unit_1966: vinh-binh
+  share: 1.0
+  km2: 210.8
+- district: Cau Ngang
+  shapeID: 81297802B90196015208533
+  province_today: Trà Vinh
+  unit_1966: vinh-binh
+  share: 1.0
+  km2: 296.5
+- district: Chau Thanh
+  shapeID: 81297802B55022771369511
+  province_today: Trà Vinh
+  unit_1966: vinh-binh
+  share: 1.0
+  km2: 299.2
+- district: Duyen Hai
+  shapeID: 81297802B81116648730753
+  province_today: Trà Vinh
+  unit_1966: vinh-binh
+  share: 0.963
+  km2: 382.7
+- district: Tieu Can
+  shapeID: 81297802B7308282486980
+  province_today: Trà Vinh
+  unit_1966: vinh-binh
+  share: 1.0
+  km2: 222.9
+- district: Tra Cu
+  shapeID: 81297802B8258305147124
+  province_today: Trà Vinh
+  unit_1966: vinh-binh
+  share: 1.0
+  km2: 355.1
+- district: Tra On
+  shapeID: 81297802B90328181900706
+  province_today: Vĩnh Long
+  unit_1966: vinh-binh
+  share: 0.999
+  km2: 217.0
+- district: Tra Vinh
+  shapeID: 81297802B52504001228047
+  province_today: Trà Vinh
+  unit_1966: vinh-binh
+  share: 1.0
+  km2: 52.7
+- district: Vung Liem
+  shapeID: 81297802B24233120148790
+  province_today: Vĩnh Long
+  unit_1966: vinh-binh
+  share: 0.999
+  km2: 255.3
+- district: Binh Minh
+  shapeID: 81297802B92843974613199
+  province_today: Vĩnh Long
+  unit_1966: vinh-long
+  share: 0.996
+  km2: 93.2
+- district: Binh Tan
+  shapeID: 81297802B74288530741739
+  province_today: Vĩnh Long
+  unit_1966: vinh-long
+  share: 0.998
+  km2: 159.4
+- district: Cho Lach
+  shapeID: 81297802B13885304658875
+  province_today: Bến Tre
+  unit_1966: vinh-long
+  share: 0.995
+  km2: 165.8
+- district: Long Ho
+  shapeID: 81297802B86807381296423
+  province_today: Vĩnh Long
+  unit_1966: vinh-long
+  share: 0.999
+  km2: 198.6
+- district: Mang Thit
+  shapeID: 81297802B20675443699466
+  province_today: Vĩnh Long
+  unit_1966: vinh-long
+  share: 0.986
+  km2: 161.7
+- district: Tam Binh
+  shapeID: 81297802B334334492772
+  province_today: Vĩnh Long
+  unit_1966: vinh-long
+  share: 0.989
+  km2: 287.3
+- district: Vinh Long
+  shapeID: 81297802B51499597672373
+  province_today: Vĩnh Long
+  unit_1966: vinh-long
+  share: 0.999
+  km2: 49.0
+- district: Vung Tau
+  shapeID: 81297802B39135443664879
+  province_today: Bà Rịa–Vũng Tàu
+  unit_1966: vung-tau
+  share: 0.924
+  km2: 133.7
