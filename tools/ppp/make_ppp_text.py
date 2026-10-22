@@ -56,6 +56,7 @@ the folios and the pictures):
 import argparse
 import collections
 import datetime
+import difflib
 import gzip
 import html
 import json
@@ -220,6 +221,84 @@ def dates_in(t):
     return out
 
 
+DAYCHARS = {"n": "11", "u": "11", "y": "7", "z": "2", "Z": "2", "]": "1", "T": "7", "?": "", ".": "", "/": "",
+            ",": "", "I": "1", "l": "1", "i": "1", "O": "0", "o": "0", "S": "5", "s": "5", "g": "9", "q": "9",
+            "B": "8", "|": "1", "!": "1", "t": "1", "r": "1"}
+
+
+def heading_date(head, span):
+    """(iso date, iso month, where the date begins): the last date in a heading, its misreadings allowed: the month
+    by its letters ('Nov ember', 'Qctober', 'Iuly'), the day by DAYCHARS ('n' 11, 'io' 10, 'ly' 17), the year from
+    the volume's span where it is misread or lost ('196]', '961'). A day not read gives the month alone."""
+    toks = list(re.finditer(r"\S+", head))
+    lo, hi = (datetime.date.fromisoformat(x) for x in span)
+    best = None
+    for i, m in enumerate(toks):
+        for j in (1, 2):
+            if i + j > len(toks) or (j == 2 and not re.fullmatch(r"[a-z]+", toks[i + 1].group())):
+                continue
+            w = re.sub(r"[^A-Za-z]", "", "".join(t.group() for t in toks[i:i + j]))
+            if len(w) < 3 or not w[:1].isupper() and w[:1] not in "Qq]":
+                continue
+            mo = None
+            for k, M in enumerate(MONTHS):
+                if w == M or (len(w) >= 4 and difflib.SequenceMatcher(None, w.lower(), M.lower()).ratio() >= .8):
+                    mo = k + 1
+            if mo is None and re.fullmatch(r"[IJ\]]u(ly|ne)", w):
+                mo = 7 if w.endswith("ly") else 6
+            if mo is None:
+                continue
+            rest = [t.group() for t in toks[i + j:i + j + 3]]
+            day = year = None
+            if rest:
+                d = "".join(DAYCHARS.get(c, c) for c in rest[0])
+                if re.fullmatch(r"\d{1,2}", d) and 1 <= int(d) <= 31:
+                    day = int(d)
+                    yt = rest[1] if len(rest) > 1 else ""
+                else:
+                    yt = rest[0]
+                y = "".join(DAYCHARS.get(c, c) for c in yt)
+                if re.fullmatch(r"19\d\d", y):
+                    year = int(y)
+            years = [year] if year and lo.year <= year <= hi.year else list(range(lo.year, hi.year + 1))
+            ok = []
+            for yy in years:
+                try:
+                    dd = datetime.date(yy, mo, day or 1)
+                except ValueError:
+                    continue
+                if (dd.year, dd.month) >= (lo.year, lo.month) and (dd.year, dd.month) <= (hi.year, hi.month):
+                    ok.append(dd)
+            if len(ok) == 1:
+                dd = ok[0]
+                best = (dd.isoformat() if day else None, dd.isoformat()[:7], m.start())
+                break
+    if best is None:
+        return None, None, None
+    return best
+
+
+def settle_dates(items, span):
+    """Items run in date order: a date out of order with both neighbours, or a month alone between neighbours of
+    one day, is put right from them (counted); a date still out of order is dropped to its month."""
+    ds = [it["date"] for it in items]
+    for i, it in enumerate(items):
+        prev = next((d for d in reversed(ds[:i]) if d), None)
+        nxt = next((d for d in ds[i + 1:] if d), None)
+        d = it["date"]
+        if d and prev and nxt and prev <= nxt and not (prev <= d <= nxt):
+            RULES["a heading's date out of order, read again from its neighbours"] += 1
+            d = prev if prev == nxt else None
+            it["month"] = prev[:7] if prev[:7] == nxt[:7] else it["month"]
+        if not d and prev and nxt and prev == nxt and (not it["month"] or it["month"] == prev[:7]):
+            RULES["a heading's day not read, given by its neighbours (the same day)"] += 1
+            d = prev
+        it["date"] = d
+        ds[i] = d
+        if d:
+            it["month"] = d[:7]
+
+
 # ---------------------------------------------------------------- the page
 
 def page_parts(W, H, ws, body_h, head_y, surname):
@@ -239,6 +318,14 @@ def page_parts(W, H, ws, body_h, head_y, surname):
                 and len(r) <= 12:
             ws = [w for w in ws if w not in r]
             rows = rows[1:]
+    # the printer's signature mark ('715-406 0—64—2'), at the foot of a signature's first page
+    for yc, r in list(rows[-2:]):
+        if yc > H * .8 and any(re.match(r"^\d{3}[-—–]\d{3}", w[4]) for w in r):
+            k = next(i for i, w in enumerate(r) if re.match(r"^\d{3}[-—–]\d{3}", w[4]))
+            RULES["printer's signature mark dropped"] += 1
+            ws = [w for w in ws if w not in r[k:]]
+            rows = rows_of(ws) if ws else []
+            break
     # the folio
     if rows:
         yc, r = rows[-1]
@@ -445,19 +532,29 @@ def folio_runs(folios, npages):
     return off, runs
 
 
-def is_item_head(r, expect):
-    n = as_number(r[0][4])
-    if n is None and len(r) > 1:
-        n = as_number(r[0][4] + r[1][4]) if len(r[0][4]) <= 2 and len(r[1][4]) <= 2 else None
-        if n is not None and expect <= n <= expect + 3:
-            return n, 2
+def is_item_head(r, expect, left=None, bh=None):
+    """(number, words used) where a large line opens an item (STYLE 3): its first word the next number, read with
+    the digits' misreadings; or, at the text's left edge with the title after a gap, a short word no rule reads
+    ('no', 'X47', 'yj'): the number the sequence gives, counted."""
+    if len(r) < 2:
         return None, 0
+    n = as_number(r[0][4])
+    if n is None and len(r[0][4]) <= 2 and len(r[1][4]) <= 2:
+        n2 = as_number(r[0][4] + r[1][4])
+        if n2 is not None and expect <= n2 <= expect + 3:
+            return n2, 2
     if n is not None and expect <= n <= expect + 3:
         return n, 1
+    if left is not None and r[0][0] <= left + bh * 1.5 and len(r[0][4]) <= 4 and r[1][4][:1].isupper() \
+            and r[1][0] - r[0][2] > bh * .6:
+        digits = re.sub(r"\D", "", r[0][4])
+        if not digits or str(expect).endswith(digits) or str(expect).startswith(digits):
+            RULES["item number misread, taken from the sequence"] += 1
+            return expect, 1
     return None, 0
 
 
-def read_volume(pkg, pages, V, surname):
+def read_volume(pkg, pages, V, surname, span):
     body_h = common_height(pages)
     head_y = head_place(pages)
     # the body: from item 1's heading to the first page headed Appendix
@@ -491,6 +588,7 @@ def read_volume(pkg, pages, V, surname):
     expect = 1
     cur = None
     para = None           # [kind, [texts]]
+    para_pos = None
     note = False
 
     def close_para():
@@ -515,13 +613,14 @@ def read_volume(pkg, pages, V, surname):
         while k < len(lines):
             pos, r, sz = lines[k]
             if sz == "L":
-                n, used = is_item_head(r, expect)
-                lp = listed.get(n, (None, None))[1] if n else None
+                n, used = is_item_head(r, expect, lefts.get(pos, lefts.get("L")), body_h)
                 if n is not None:
                     close_para()
                     head = [line_text(r[used:])]
                     k += 1
-                    while k < len(lines) and lines[k][2] == "L" and is_item_head(lines[k][1], n + 1)[0] is None:
+                    while k < len(lines) and lines[k][2] == "L" and (
+                            lines[k][1][0][0] > r[0][0] + body_h * 1.5
+                            or is_item_head(lines[k][1], n + 1)[0] is None):
                         head.append(line_text(lines[k][1]))
                         k += 1
                     cur = {"n": n, "head": " ".join(head), "pdf": p, "page": printed(p), "last": p, "blocks": []}
@@ -544,13 +643,16 @@ def read_volume(pkg, pages, V, surname):
             setoff = indent > colw * .34 and sz != "L"
             if setoff:
                 kind = "n" if note else "s"
-            if para is None or para[0] != kind or setoff or para[0] == "s" or indent > body_h * .6:
+            across = pos == "S"
+            if para is None or para[0] != kind or setoff or para[0] == "s" or indent > body_h * .6 \
+                    or (para_pos is not None and (para_pos == "S") != across):
                 close_para()
                 para = [kind, []]
             if pending:
                 para[1].append(pending)
                 pending = None
             para[1].append(t)
+            para_pos = pos
             k += 1
     close_para()
     # the blocks' text: lines joined (STYLE 4), words put right (STYLE 5)
@@ -567,26 +669,24 @@ def read_volume(pkg, pages, V, surname):
                 continue
             if kind == "p" and re.match(r"^(\[p\. \d+\] )?\[(?!\d+\.\])", t) and t.rstrip().endswith("]"):
                 kind = "b"
-            if kind == "q" and re.match(r"^(\[p\. \d+\] )?[\*†‡§¹²³]|^(\[p\. \d+\] )?\d{1,2} [A-Z]", t):
+            if kind == "q" and re.match(r"^(\[p\. \d+\] )?([\*†‡§¹²³]|\d{1,2} ?[A-Z])", t):
                 kind = "f"
+            if kind == "n" and re.match(r"^(\[p\. \d+\] )?\W{0,2}note\s*[:;.]\s*", t, re.I):
+                t = re.sub(r"^((?:\[p\. \d+\] )?)\W{0,2}note\s*[:;.]\s*", r"\1NOTE: ", t, flags=re.I)
             blocks.append([kind, t])
         # the marker of the item's first page first (STYLE: every item's first block begins with it)
         mk = f"[p. {it['page']}]" if it["page"] is not None else None
         if mk and blocks and not blocks[0][1].startswith(mk):
             blocks[0][1] = mk + " " + blocks[0][1]
         head = fix_line(it["head"], V)
-        ds = dates_in(head)
-        date = ds[-1][2] if ds else None
+        date, month, cut = heading_date(head, span)
         title = head
-        if ds:
-            a, b, _ = ds[-1]
-            tail = head[b:].strip(" .")
-            if not tail and re.search(r"[.,]\s*$", head[:a]):
-                title = head[:a].rstrip(" .,")
+        if cut is not None and re.search(r"[.,]\s*$", head[:cut]):
+            title = head[:cut].rstrip(" .,")
         title = re.sub(r"\s+", " ", title).strip().rstrip(".")
         n = it["n"]
         lp = listed.get(n, (None, None))[1]
-        out.append({"n": n, "title": title, "date": date, "page": it["page"],
+        out.append({"n": n, "title": title, "date": date, "month": month, "page": it["page"],
                     "page_to": printed(it["last"]), "pdf": it["pdf"], "pdf_to": it["last"], "list_page": lp,
                     "text": blocks})
     return out, runs, listed, first, end
@@ -596,7 +696,22 @@ SOFT = "\xad"
 
 
 def fix_line(t, V):
-    return " ".join(fix_word(w, V) for w in t.split())
+    ws = [fix_word(w, V) for w in t.split()]
+    out = []
+    i = 0
+    while i < len(ws):
+        w = ws[i]
+        # a small capital's initial set apart ('J ohn F. K ennedy'): joined where the volumes print the word whole
+        if re.fullmatch(r"[A-Z]", w) and i + 1 < len(ws):
+            a, b, z = core(ws[i + 1])
+            if not a and re.fullmatch(r"[a-z]{2,}", b) and V.n(w + b) >= 3 and V.n(w + b) > V.n(b):
+                RULES["a small capital's initial set apart, joined"] += 1
+                out.append(w + ws[i + 1])
+                i += 2
+                continue
+        out.append(w)
+        i += 1
+    return " ".join(out)
 
 
 def join_lines(ls, V):
@@ -662,7 +777,8 @@ def main():
     for pkg, years, pres, book, lo, hi in vols:
         RULES.clear()
         pages = allp[pkg]
-        items, runs, listed, first, end = read_volume(pkg, pages, V, pres.split()[-1])
+        items, runs, listed, first, end = read_volume(pkg, pages, V, pres.split()[-1], (lo, hi))
+        settle_dates(items, (lo, hi))
         doc = {"source": SOURCE, "license": LICENSE, "package": pkg,
                "title": f"Public Papers of the Presidents of the United States: {pres}, {years}"
                         + (f", Book {'I' * book}" if book else ""),
