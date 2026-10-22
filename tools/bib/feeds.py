@@ -124,7 +124,7 @@ def _stop(t):
 
 def description(x, cal):
     d = datetime.date.fromisoformat(x["date"])
-    bits = [daybook.day_label(d) + (f", {time_label(x['time'])}" if x["time"] else "") + "."]
+    bits = [_stop(daybook.day_label(d) + (f", {time_label(x['time'])}" if x["time"] else ""))]
     if x["speakers"]:
         bits.append(_stop("Speakers (PRDE): " + "; ".join(x["speakers"])))
     if x["place"]:

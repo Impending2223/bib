@@ -476,6 +476,15 @@ document was found. Each under the entry it concerns; `./bib find -t check -l ca
   Revenue Taxation), which the *Directory* prints; ratios changed during a Congress; the *Directory*'s page on each
   committee.
 
+### Ebooks and feeds
+
+- A text of the Public Papers, 1961–68, for the ebooks: segment govinfo's scanned volumes item by item (OCR), or ask the
+  American Presidency Project for leave to use its transcriptions (its site claims copyright; its robots.txt bars AI
+  crawlers). Until then the books list the Papers by title, linked.
+- The Miller Center's audio links in the feeds come from the earlier JSON:API pull, unchecked: millercenter.org gave no
+  answer from here and its audio host refused (403). Open a few in a browser.
+- Recordings made at the LBJ Ranch are dated in Eastern time, not Central; FRUS images are not in the books.
+
 ### Committee hearings (the Daily Digest)
 
 - Hearings a calendar entry should cite by the Digest's line and the printed hearing: Senate Foreign Relations on
