@@ -1701,7 +1701,8 @@ tools/bib/ppp.py             the cite, the link, the texts for the ebooks, and c
   item before), first and last printed page, first and last PDF page, and its text as blocks: paragraphs, set-off
   lines (salutations' closes, signatures), the editors' bracketed notes, the "NOTE:" after the text, footnotes, small
   type. "[p. 123]" marks where each printed page begins; every item's text opens with its first page's marker. A year's
-  two books are paginated through, so a page finds its item without the book. 5,414 items, 9.9 MB compressed.
+  two books are paginated through, so a page finds its item without the book. 5,414 items (three of 1968 lost by the
+  OCR, `missing`), 8.5 MB compressed, the matches file 1.4 MB.
 - The cite, the Bluebook's: the volume's years, "Pub. Papers", the item's first page ("1961 Pub. Papers 1",
   "1963–64 Pub. Papers 842", "1960–61 Pub. Papers 589"), linked to the PDF at that page (`…/PPP-1961-book1.pdf#page=59`);
   in a calendar note after the title and before the date: "Inaugural Address, [1961 Pub. Papers 1](…) (Jan. 20,
@@ -1711,10 +1712,11 @@ tools/bib/ppp.py             the cite, the link, the texts for the ebooks, and c
   daybook's President list (daybook STYLE 13), the calendar's and the lists' notes (rewritten in the data by
   `relink.py`: 1,284 links in 109 files, Oct. 22, 2026; 176 left on APP), the Names' presidential documents, the
   Executive roster's APP sources (an APP address, or `APP YYYY-MM-DD`: the day's items that name the holder). Of APP's
-  7,505 documents of Jan. 1960–Jan. 20, 1969, 5,325 match an item (98.5 percent of the 5,405 the Papers could print;
-  1,163 are orders, proclamations and platforms, 937 a candidate's or Nixon's); 5,324 of the items match.
-- Accuracy, checked by eye against the page images (Oct. 22, 2026; see the module's docstring): item boundaries and page
-  markers right on every page read; the words as the OCR read them, its misreadings put right by the rules logged in
+  7,505 documents of Jan. 1960–Jan. 20, 1969, 5,326 match an item (98.5 percent of the 5,405 the Papers could print;
+  1,163 are orders, proclamations and platforms, 937 a candidate's or Nixon's); 5,325 of the 5,414 items match.
+- Accuracy, checked by eye against the page images (Oct. 22, 2026: 13 pages, 31 items, every volume but 1965 Book II and
+  1966 Book II, read as text only): item numbers, headings, dates, boundaries and page markers right on every page;
+  the words as the OCR read them (an italic salutation can come out garbled: "My jello tv Americans"), its misreadings put right by the rules logged in
   `rules.json` (digits in numbers and years, J read as I, "£", split small capitals, hyphens at line ends, a fixed
   table of letter confusions against the volumes' own vocabulary). A misreading no rule meets stands.
 - `check` [ppp]: fails on a file in `sources/ppp-text/` that is not a volume's or `rules.json`, an item out of order,

@@ -539,9 +539,9 @@ next January's *Economic Report*'s (local scans read earlier), not the first pri
   item before: 1968–69, items 110, 111 and 113 (the headings on pages the scan reads as photographs, PDF pp. 397–413
   of PPP-1968-book1); and Kennedy 1963's item 480 (Johnson's, Dec. 6, 1963, after item 479). Read them off the pages
   and split them by hand (a `HAND` table in `tools/ppp/make_ppp_text.py`).
-- The Public Papers: the APP documents no item matches (`unmatched_app` in `sources/ppp-matches.json`, about 80) and
-  the items no APP document matches (`unmatched_ppp`, about 100): most are a day apart or retitled; check a sample and
-  widen the rule, or match by hand. The headings whose day the OCR lost (about 150 items, `filed` dates) want their
+- The Public Papers: the APP documents no item matches (`unmatched_app` in `sources/ppp-matches.json`, 79) and
+  the items no APP document matches (`unmatched_ppp`, 89): most are a day apart or retitled; check a sample and
+  widen the rule, or match by hand. The headings whose day the OCR lost (152 items, `filed` dates) want their
   dates read off the page.
 - The Public Papers of 1953–59 and 1969–74 (Eisenhower's first seven volumes, Nixon's and Ford's) are on govinfo the
   same way: the Names' presidential documents and the Executive roster's sources of those years still link APP.
