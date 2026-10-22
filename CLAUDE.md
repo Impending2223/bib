@@ -522,10 +522,10 @@ yet render it; author, title and year read from it for sorting and search).
 ## Congress at each opening
 
 The top bar (`nav.pg` in `templates/list.html`) names each page by a glyph, its name on hover and to screen readers (the
-owner's request, Oct. 22, 2026): 本 Series, 選 Elections, 長 Executive, 名 Names, 文 Works, 數 Indicators, 圖 Indochina
-(traditional forms); the reader's Pages drawer keeps the words. A new top-level page takes a glyph there.
+owner's request, Oct. 22, 2026): 本 Series, 票 Elections, 長 Executive, 名 Names, 文 Works, 数 Indicators, 図 Indochina
+(the Japanese forms, set `lang="ja"` in a Mincho face); the reader's Pages drawer keeps the words. A new top-level page takes a glyph there.
 
-`build/congress.html` is the Elections page (the top bar's 選; the file keeps its name so old links work):
+`build/congress.html` is the Elections page (the top bar's 票; the file keeps its name so old links work):
 every election, 1958–74, by the Congress it chose, each with the States' elections of the same span placed by date
 (the governors chosen that day and the legislatures the election chose, `state_blocks` in `tools/bib/congress.py`; the
 odd years' governors after the Congress's roster), then the Congress at its opening and its specials. The Senate
@@ -1225,7 +1225,7 @@ the series", linked to the master. Every row's name, in every later table on the
 (`#ind-<page>-<series>`); a series with no servant on its page links to the master, and `check` warns
 [indicator-servant]. The full tables, every row of every series, then and today, live on the master page,
 `build/indicators.html` ("Indicators": the statement by group, then the tables; `./bib build indicators`), listed in
-the series index, the README and the top bar (數; at first kept out of the bar, then put in it, the owner's request, Oct. 22, 2026). A new series: its statement goes into the master with its spans;
+the series index, the README and the top bar (数; at first kept out of the bar, then put in it, the owner's request, Oct. 22, 2026). A new series: its statement goes into the master with its spans;
 `check` fails on a series without one, a span it cannot read, or an unknown `{VAR}`.
 
 - ALFRED initial releases: CPI, unemployment, payrolls, industrial production,
@@ -1526,11 +1526,11 @@ lists both, by year (the series index's Pages, README).
   and govinfo has these years only as page scans. `ebooks.validate` checks each book's structure (the mimetype first
   and stored, container, manifest, spine, nav, every file well-formed, every inner link); epubcheck 5.1.0 passes
   them (not in the workflow: it needs Java).
-- Feeds (`tools/bib/feeds.py`, its STYLE): RSS 2.0, a feed a month, `build/feeds/recordings-<YYYY-MM>.xml`, and
+- Feeds (`tools/bib/feeds.py`, its STYLE): RSS 2.0, a feed a year (the owner's choice, Oct. 22, 2026), `build/feeds/recordings-<YYYY>.xml`, and
   `feeds/recordings.opml` for all: every recording the Miller Center gives free (PRDE-only recordings left out), its
   page the link and its audio the enclosure, linked, never copied; dated by the recording (the catalogue's time,
   Eastern; noon without one), in date order, numbered, `itunes:type` serial; the description catalogue data only.
-  Each calendar page's head names its months' feeds, and its lede points to the page.
+  Each calendar page's head names its years' feeds, and its lede points to the page.
 - `./bib build ebooks` (the books, the feeds, the page), `./bib build feeds` (the feeds and the page); the full build
   does both. `check` fails on a file in `sources/frus-text/` that is not a daybook month's xz, and warns on a daybook
   month without one [ebooks].

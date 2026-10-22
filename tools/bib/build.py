@@ -1046,7 +1046,7 @@ def build_series(series):
                 '<span class="ab">Indochina</span><span class="tt">Vietnam, Laos and Cambodia, 1960–1968: the calendar\'s placed entries on one map, by year; the gazetteer</span></a>'
                 '<span class="r">1960–68</span></li></ol>')
     home.append('<h2 id="home--eb" data-short="Ebooks">Ebooks and feeds</h2><ol class="e lists"><li><a class="lk" href="ebooks.html">'
-                '<span class="ab">Ebooks</span><span class="tt">The daybook\'s documents, an ebook a month: FRUS in full, the Public Papers by title; the free White House recordings, a podcast feed a month</span></a>'
+                '<span class="ab">Ebooks</span><span class="tt">The daybook\'s documents, an ebook a month: FRUS in full, the Public Papers by title; the free White House recordings, a podcast feed a year</span></a>'
                 '<span class="r">1960–69</span></li></ol>')
     home.append("</section>")
 

@@ -1,11 +1,11 @@
-"""The White House recordings the Miller Center gives free, as podcast feeds: an RSS 2.0 feed a month, each recording
+"""The White House recordings the Miller Center gives free, as podcast feeds: an RSS 2.0 feed a year, each recording
 an item dated by the recording, in date order; and the page that lists the feeds and the ebooks (build/ebooks.html).
 
     daybook/recordings/millercenter.yaml   the Miller Center's recordings: page, audio, date, time, tape, citation
                              (tools/daybook/make_millercenter.py, from its public JSON:API)
     daybook/recordings/<YYYY-MM>.yaml      PRDE's catalogue: title, speakers, place, length, tape cite
                              (tools/daybook/make_recordings.py); joined to the Miller Center's by daybook.free
-    build/feeds/recordings-<YYYY-MM>.xml   written by `./bib build feeds` (and the full build), with
+    build/feeds/recordings-<YYYY>.xml   written by `./bib build feeds` (and the full build), with
     build/feeds/recordings.opml            every feed, to subscribe to all at once
     build/ebooks.html                      the books (tools/bib/ebooks.py) and the feeds, listed by year
 
@@ -13,9 +13,9 @@ STYLE:
  1. Accessible only: a recording is an item where the Miller Center gives it free (its page and its audio file). One
     PRDE alone catalogues is left out (its audio and transcript are the Edition's, by subscription), counted on the
     page. Machine noise and blank tape are left out, as in the daybook (daybook.NOISE).
- 2. A feed a month: 1 to 559 items (Aug. 1964), within what podcast apps and feed readers take in one feed; a year
-    would run to 3,645 (1964), which many apps cut short or load slowly. The OPML lists every month's feed. 7,545
-    items in 70 feeds, July 1962 to Jan. 1969; 335 PRDE-only recordings left out (Oct. 22, 2026).
+ 2. A feed a year (the owner's choice, Oct. 22, 2026, over a feed a month): 1962 (July on) to 1969 (to Jan. 20), up to
+    3,645 items (1964); some podcast apps cut a feed that long short or load it slowly, a feed reader takes it whole.
+    The OPML lists every year's feed. 7,545 items in 8 feeds; 335 PRDE-only recordings left out.
  3. An item: its title PRDE's where PRDE catalogues the recording ("Lyndon Johnson and George Reedy"), else the
     Miller Center's in title case (daybook.mc_title); the link the Miller Center's page; the enclosure its audio file,
     linked, never copied (audio/mpeg; length "0", the size not known without fetching each file); the guid the
@@ -29,8 +29,8 @@ STYLE:
     summary: PRDE's are the Edition's text, and the Miller Center's summaries are the Library's (not taken).
  6. Order: the items in date and time order in the file, and numbered (itunes:episode) in that order, the feed typed
     serial (itunes:type), so an app lists them oldest first. The itunes tags only for the enclosures' sake.
- 7. The page: a table a year of the books (month, documents, size) and of the feeds (month, recordings); how to
-    subscribe; the sources and their terms. Each calendar page names its months' feeds in its head (link
+ 7. The page: a table a year of the books (month, documents, size), and one table of the feeds (year, recordings);
+    how to subscribe; the sources and their terms. Each calendar page names its years' feeds in its head (link
     rel=alternate) and points to the page under its lede (`inject`).
 """
 import datetime
@@ -54,8 +54,8 @@ def text(t):
     return html.escape(str(t), quote=False)
 
 
-def feed_name(month):
-    return f"recordings-{month}.xml"
+def feed_name(year):
+    return f"recordings-{year}.xml"
 
 
 try:
@@ -111,10 +111,10 @@ def prde_only():
     return sum(1 for x in docs if x.get("src") == "prde" and not x.get("free"))
 
 
-def by_month():
+def by_year():
     out = {}
     for x in items():
-        out.setdefault(x["date"][:7], []).append(x)
+        out.setdefault(x["date"][:4], []).append(x)
     return dict(sorted(out.items()))
 
 
@@ -143,14 +143,14 @@ def description(x, cal):
     return " ".join(bits)
 
 
-def feed(month, xs, cal, now):
-    label = ebooks.month_label(month)
-    self_url = f"{SITE}feeds/{feed_name(month)}"
+def feed(year, xs, cal, now):
+    label = year
+    self_url = f"{SITE}feeds/{feed_name(year)}"
     out = ['<?xml version="1.0" encoding="utf-8"?>',
            '<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" '
            'xmlns:atom="http://www.w3.org/2005/Atom">', "<channel>",
            f"<title>White House recordings, {esc(label)}</title>",
-           f"<link>{esc(SITE + PAGE)}#rec-{month}</link>",
+           f"<link>{esc(SITE + PAGE)}#rec-{year}</link>",
            f'<atom:link href="{esc(self_url)}" rel="self" type="application/rss+xml"/>',
            f"<description>The White House recordings of {esc(label)} that the Miller Center (University of "
            "Virginia, Secret White House Tapes) gives free, a recording an item, dated by the recording and in date "
@@ -180,11 +180,11 @@ def feed(month, xs, cal, now):
 
 def opml(months, now):
     out = ['<?xml version="1.0" encoding="utf-8"?>', '<opml version="2.0">',
-           f"<head><title>White House recordings, a feed a month (the 1968 series)</title>"
+           f"<head><title>White House recordings, a feed a year (the 1968 series)</title>"
            f"<dateCreated>{email.utils.format_datetime(now)}</dateCreated></head>", "<body>"]
     for m, xs in months.items():
-        out.append(f'<outline type="rss" text="White House recordings, {esc(ebooks.month_label(m))} ({len(xs)})" '
-                   f'title="White House recordings, {esc(ebooks.month_label(m))}" '
+        out.append(f'<outline type="rss" text="White House recordings, {esc(m)} ({len(xs)})" '
+                   f'title="White House recordings, {esc(m)}" '
                    f'xmlUrl="{esc(SITE)}feeds/{feed_name(m)}" htmlUrl="{esc(SITE + PAGE)}#rec-{m}"/>')
     out += ["</body>", "</opml>", ""]
     return "\n".join(out)
@@ -195,7 +195,7 @@ def build(series):
     os.makedirs(OUT, exist_ok=True)
     cal = ebooks.calendar_days(series)
     now = datetime.datetime.now(datetime.timezone.utc).replace(microsecond=0)
-    months = by_month()
+    months = by_year()
     paths = []
     for m, xs in months.items():
         p = os.path.join(OUT, feed_name(m))
@@ -218,7 +218,7 @@ def _size(b):
 def page(series, template):
     books = {m: (fn, size) for m, fn, size in ebooks.listing()}
     doc_months = ebooks.months()
-    rec = by_month()
+    rec = by_year()
     years = sorted({m[:4] for m in list(doc_months) + list(rec)})
     nrec = sum(len(v) for v in rec.values())
     nfrus = sum(1 for v in doc_months.values() for x in v if x["src"] == "frus")
@@ -228,15 +228,15 @@ def page(series, template):
         "<h1>Ebooks and feeds</h1>",
         '<p class="lede">The daybook\'s documents as ebooks, a month a book: every FRUS document of the month in full '
         f'and the President\'s Public Papers by title, day by day ({nfrus:,} and {nppp:,} documents, Jan. 1960 to Jan. '
-        f'1969). The White House recordings the Miller Center gives free as podcast feeds, a month a feed, each '
+        f'1969). The White House recordings the Miller Center gives free as podcast feeds, a year a feed, each '
         f'recording dated by the day it was made, in date order ({nrec:,} recordings, July 1962 to Jan. 1969).</p>',
         '<p class="logic">The books are EPUB 3 files: open them in Apple Books, Google Play Books, Kobo, Calibre or '
         'any EPUB reader, or send them to a Kindle. Each opens with a title page (what it holds, its order, its '
         'sources and their terms) and the contents by day; each document carries its heading, its author and '
         'citation, and links to its page on history.state.gov and to its day in the calendar. The feeds are RSS 2.0 '
         'with the audio as enclosures: paste a feed\'s address into a podcast app ("Add a show by URL") or a feed '
-        'reader; the OPML file subscribes to every month at once. An app lists a feed\'s recordings oldest first.</p>',
-        '<p class="logic">Feeds of all months: <a href="feeds/recordings.opml">feeds/recordings.opml</a>.</p>',
+        'reader; the OPML file subscribes to every year at once. An app lists a feed\'s recordings oldest first.</p>',
+        '<p class="logic">Feeds of all years: <a href="feeds/recordings.opml">feeds/recordings.opml</a>.</p>',
         '<h2 id="ebooks" data-short="Ebooks">Ebooks</h2>',
     ]
     if not books:
@@ -260,13 +260,11 @@ def page(series, template):
     main.append(f'<p class="logic">{len(rec)} feeds, {nrec:,} recordings. Left out: {prde_only():,} recordings PRDE '
                 'catalogues that the Miller Center does not give (by subscription only), and machine noise and blank '
                 'tape.</p>')
-    for y in years:
-        rows = [f'<tr id="rec-{m}"><td><a href="feeds/{feed_name(m)}">{esc(ebooks.month_label(m))}</a></td>'
-                f'<td class="n">{len(xs):,}</td><td class="u">{esc(SITE)}feeds/{feed_name(m)}</td></tr>'
-                for m, xs in rec.items() if m[:4] == y]
-        if rows:
-            main.append(f'<h3 id="feeds-{y}">{y}</h3><table class="eb"><thead><tr><th>Month</th>'
-                        f'<th class="n">Recordings</th><th>Address</th></tr></thead><tbody>{"".join(rows)}</tbody></table>')
+    rows = [f'<tr id="rec-{y}"><td><a href="feeds/{feed_name(y)}">{esc(y)}</a></td>'
+            f'<td class="n">{len(xs):,}</td><td class="u">{esc(SITE)}feeds/{feed_name(y)}</td></tr>'
+            for y, xs in rec.items()]
+    main.append('<table class="eb"><thead><tr><th>Year</th><th class="n">Recordings</th><th>Address</th></tr></thead>'
+                f'<tbody>{"".join(rows)}</tbody></table>')
     main += [
         '<h2 id="sources" data-short="Sources">Sources and terms</h2>',
         '<p class="logic">FRUS. <i>Foreign Relations of the United States</i>, U.S. Department of State, Office of the '
@@ -285,7 +283,7 @@ def page(series, template):
     ]
     pg = open(template, encoding="utf-8").read()
     pg = pg.replace("{{page_title}}", "Ebooks and feeds").replace("{{main}}", "\n".join(main))
-    head = (f'<link rel="alternate" type="text/x-opml" title="White House recordings, every month" '
+    head = (f'<link rel="alternate" type="text/x-opml" title="White House recordings, every year" '
             f'href="feeds/recordings.opml">\n' + CSS)
     return pg.replace("</head>", head + "\n</head>", 1)
 
@@ -304,14 +302,14 @@ table.eb tr:target td{background:var(--hl-bg,#fff)}
 # ---------------------------------------------------------------- the calendar's pages (STYLE 7)
 
 def inject(page, lst, half):
-    """A calendar part's head names its months' feeds; under its lede, a line to the page."""
-    months = by_month()
+    """A calendar part's head names the feeds of the years it holds; under its lede, a line to the page."""
+    years = by_year()
     if half:
-        months = {m: v for m, v in months.items() if calsplit.half_of_date(lst, f"{m}-01") == half}
+        years = {y: v for y, v in years.items() if any(calsplit.half_of_date(lst, x["date"]) == half for x in v)}
     links = "".join(f'<link rel="alternate" type="application/rss+xml" title="White House recordings, '
-                    f'{esc(ebooks.month_label(m))}" href="feeds/{feed_name(m)}">\n' for m in months)
+                    f'{esc(y)}" href="feeds/{feed_name(y)}">\n' for y in years)
     page = page.replace("</head>", links + "</head>", 1)
     line = ('<p class="logic">The documents of each month as an ebook, and the recordings the Miller Center gives free '
-            f'as a podcast feed a month: <a href="{PAGE}">Ebooks and feeds</a>.</p>')
+            f'as a podcast feed a year: <a href="{PAGE}">Ebooks and feeds</a>.</p>')
     m = re.search(r'<p class="lede">.*?</p>', page, re.S)
     return page[:m.end()] + line + page[m.end():] if m else page
