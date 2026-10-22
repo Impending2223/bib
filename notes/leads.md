@@ -315,6 +315,23 @@ reports them (`notes/calendar-audit.md`).
 - Denver: Currigan's resignation and McNichols's succession (1968). New Mexico: the date of the 1968 primary. Oregon: the 1968 Senate recount. Alaska: Udall's land order of January 1969.
 - The U.S. Conference of Mayors' 1968 meeting; the National League of Cities' 1968 congress.
 
+### Primary records, Cal. III (the Cal. III audit agent, Oct. 22, 2026)
+
+- Returns marked "Check" in Cal. III, 1966–68, with the State's own record not read: governors' primaries and
+  elections (Tex., Minn., Me., Idaho, Vt., N.Y., Pa., Mich., N.M., Kan., Wyo., Wis., Tenn., La., Miss., W. Va., Ind.),
+  the legislatures of Nov. 1966 and Nov. 1968, the State constitutions' votes (N.Y., Mich., La., Pa.), the mayors' races
+  (Chicago, Philadelphia, Boston, Cleveland, Gary, Memphis, Baltimore, Indianapolis, San Francisco, Milwaukee) and the
+  specials of 1966–68 (N.Y. 17th, 18th, 13th; R.I. 2d; Tex. 8th, 3d; Mich. 9th; Miss. 3d). Open copies listed in
+  `sources/states.yaml` and not yet read for these entries: Cal., *Statement of Vote*, 1966–68 (archive.org,
+  californiastate196668cali); Alaska, 68genr.pdf; Iowa, 1968gencanv.pdf; Minn., the Canvassing Board's reports
+  (lrl.mn.gov); S.C., the *Supplemental Report* of 1966; Mass., *Election Statistics*, 1967–68; Ill., *Official Vote*,
+  1968. The entries say which.
+- Session laws named and not linked: N.Y., *Laws of New York*, 1966 (the Divorce Reform Law; Medicaid), 1968, ch. 174 (the
+  Urban Development Corporation); Va. Acts 1966, c. 151 (the sales tax); N.J. L. 1966, c. 30; Minn. Laws 1966, Ex. Sess.,
+  ch. 1 (revisor.mn.gov lists the chapter; not read) and Rolvaag's veto of May 9, 1966 (lrl.mn.gov's veto list for
+  1966 not read); Fla. Laws 1968, Extraordinary Session (the teachers' strike, the constitution's joint resolutions);
+  Tex., *House Journal*, 60th Leg., 1st C.S. (1968); Md., *Journal of Proceedings*, Jan. 7, 1969 (Mandel's election).
+
 ## National
 
 - The conventions (`elections/conventions.yaml`, `cal.1968-08-05.elections-1968`): how and when each Republican delegation of 1968 was chosen is Wikipedia's table ("1968 Republican primaries and state conventions"), each row from a newspaper; read it against the Senate Library's *Nomination and Election of the President and Vice President ... Including the Manner of Selecting Delegates* (Jan. 1968; archive.org `nominationelecti0000na`, borrow only; not on govinfo; HathiTrust not reached, its pages bot-checked). Open questions there: whether each primary bound its delegates; Alabama (CQ Guide 6th (2010) 409 says a delegate-selection primary was held; the table gives conventions); New York's ten at large; Michigan's and Texas's district delegates (the table gives the State convention alone); Puerto Rico and the Virgin Islands (not in the table); the table's own doubts (Tennessee's 9th district, Mar. 28; Louisiana's 1st and 2nd, May 30). Its delegate counts disagree with the Call in places (Florida 36, the Call 34) and were not taken.
@@ -629,6 +646,33 @@ next January's *Economic Report*'s (local scans read earlier), not the first pri
 - Barnett's interposition proclamation, Sept. 13, 1962 (`cal.1962-09-13.mississippi-ole-miss`): the text as the State printed it (Miss. Senate or House Journal, 1962 special session).
 - Governors' and primaries' returns marked "Check" in Cal. I with no open copy in `sources/states.yaml` for 1960–62: La. (1960 runoff and general), N.M. (1960, 1962), Kan. (1960, 1962), Wash. (1960 primary), Utah (1960 primary: vote.utah.gov's file "1960Pri.pdf" is the primary of Sept. 11, 1962, U.S. Senator, Representatives and attorney general only, no governor), Wyo. (1962), Wis. (1962 primary), Tenn. (1962 primary), Pa. (1962), Mich. (1960 Proposal 3), Tex. (1960–62 primaries, the 1961 Senate special). The entries say which.
 
+### Primary records, Cal. III (the Cal. III audit agent, Oct. 22, 2026)
+
+Searched in the Daily Digest (daybook/committees), the bound Record's days, the Public Papers and FRUS; not found:
+- Powell's select committee, Feb. 8 and 14, 1967 (`cal.1967-02-08.congress`, `cal.1967-02-14.congress-powell`): the
+  Digest prints no row for it; *In re Adam Clayton Powell*, the hearings, no open copy found. Clark's subcommittee at
+  Jackson, Apr. 10, 1967 (`cal.1967-04-10.poverty`), and the Migratory Labor subcommittee at Delano, Mar. 16, 1966
+  (`cal.1966-03-16.jobs-and-wages-ca`): field hearings, not in the Digest; the printed hearings. Barr to the Joint
+  Economic Committee, Jan. 17, 1969 (`cal.1969-01-17.economy`): not in the Digest of the day. The Stennis
+  subcommittee's report, Aug. 31, 1967 (`cal.1967-08-31.vietnam-air-war`): the committee print.
+- The draft: the National Security Council's advice to Hershey, Feb. 16, 1968 (`cal.1968-02-16.draft`), and Hershey's
+  and Clark's statements of Dec. 9 and 11, 1967 (`cal.1967-12-09.draft`, `cal.1967-12-11.draft`): Selective Service's
+  and Justice's releases. The signers of the House Democrats' statement of Dec. 13, 1967, now linked
+  (`cal.1967-12-13.draft`): count them on the page.
+- Johnson's operations, Nov. 16, 1966 (`cal.1966-11-16.succession`): no Public Papers item; the White House's bulletins.
+- The Walker report, Dec. 1, 1968 (`cal.1968-12-01.civil-disorders`): archive.org's copies are lent only. The Kerner
+  report: the Bantam edition is open on archive.org (reportofnation00unit), now linked for the cities it profiles
+  (Tampa, Cincinnati, Atlanta, Newark, Plainfield, Detroit); GPO's edition not reached (ncjrs.gov answered 520). Buffalo
+  and Milwaukee, 1967, it only lists (ch. 2).
+- The Daily Digest's days: `daybook/committees/1966-03.yaml` files the Senate rows of the Digest of Mar. 10, 1966 (D103–D104,
+  Fairbank's among them) under Mar. 9, and `1966-02.yaml` Rusk's of Feb. 18 (D59) under Feb. 17: a day heading the OCR lost
+  (tools/daybook/make_committees.py, STYLE 1–2).
+- Presidential primaries and conventions, 1972 and 1976 (the `elections-1972`, `elections-1976` entries): CQ's figures
+  only; the States' canvasses.
+- The rest of Cal. III's entries without a primary record are protests, riots, campaign appearances, broadcasts and
+  party meetings (civil disorders, war opposition, students, King, Robert Kennedy, the 1968 campaign): the record is the
+  press, a broadcast's transcript, or the organizations' papers.
+
 ## Foreign
 
 - The *Department of State Bulletin*, vol. 59 (July 1-Dec. 30, 1968, nos. 1514-1540): no open copy reached, so the
@@ -911,6 +955,49 @@ No document in the daybook's FRUS text, or item in the *Bulletin*'s index, names
 - Rusk and the Turkish Foreign Minister on the Jupiters, CENTO council, Ankara, Apr. 27–28, 1961 (`cal.1961-04-27.europe-and-the-alliance-jupiters`): FRUS 1961–63, XVI shows nothing by the text; the Secto telegrams.
 - Fulbright's memorandum to Kennedy, Mar. 30, 1961 (`cal.1961-03-30.cuba`): FRUS 1961–63, X mentions Fulbright only; the memorandum at the Kennedy Library (POF).
 - Clay's arrival in Berlin, Sept. 19, 1961; İnönü's government, Nov. 20, 1961; the Soviet veto of Kuwait's admission, Nov. 30, 1961 (the Security Council's verbatim record, S/PV); Operation Chopper, Jan. 12, 1962 (FRUS 1961–63, II, doc. 13 plans a helicopter operation that day: Check whether it is Chopper); Yun Po-sun's resignation, Mar. 22, 1962; Dryden and Blagonravov, Mar. 27–30, 1962; Saudi Arabia's break with the UAR, Nov. 6, 1962; Bosch's election, Dec. 20, 1962.
+
+### The maps of Indochina (the map agent, Oct. 22, 2026; sources/indochina/README.md, tools/vnmap/)
+
+- The 1960s provinces of North Vietnam, Laos and Cambodia: no open boundary set found; the map shows today's (CGAZ)
+  with a caveat. The DRV's units of the 1960s (Hà Đông, Sơn Tây, Kiến An, Hồng Quảng, Hải Ninh, Nghĩa Lộ; the Tây Bắc
+  and Việt Bắc autonomous regions) could be rebuilt from today's districts as the RVN's were (en and vi Wikipedia's
+  province articles give the mergers and dates); Laos's provinces of the 1960s (about thirteen) and Cambodia's (khet)
+  likewise. Look for the CIA's and the Army Map Service's maps of administrative divisions (University of Texas, PCL).
+- Cities: the DRV's 1960 census for its towns under 100,000 (Nam Định, Vinh, Thanh Hóa; the DRV's census volume);
+  Cambodia's 1962 census for Battambang and the provincial towns; the RVN's estimates for its provincial towns (the
+  RVN's *Niên giám thống kê*, Statistical Yearbook); Laos's towns other than Vientiane. The UN *Demographic Yearbook*
+  prints only capitals and cities of 100,000 and more (sources/indochina/cities.yaml).
+- HYDE's own files (geo.public.data.uu.nl) answer with a bot check here; the population layer is ISIMIP3a's copy of
+  HYDE 3.2.1. HYDE 3.3 for 1960 and 1970, from a host that answers, would be the newer model.
+- Relief finer than ETOPO's 15″ (about 460 m) for the RVN: the Tilezen/Mapzen terrain tiles on AWS (SRTM, public
+  domain; `elevation-tiles-prod/terrarium`) answer here; a second `raster-dem` source at zoom 9 for the RVN would add
+  about 15 MB, but a source missing tiles at its top zoom leaves holes (tested), so it needs bounds and its own layer.
+  Copernicus GLO-90 (on AWS) answers too; its licence (ESA's, with a notice) was not read in full.
+- CRU CL 2.0 (crudata.uea.ac.uk) did not answer on Oct. 22, 2026: the rain grid covers lon 100–110.5, lat 8–23.5 only.
+- HydroSHEDS (data.hydrosheds.org) answered 403: the rivers and lakes were not remade or widened to the frame.
+
+### Primary records, Cal. III (the Cal. III audit agent, Oct. 22, 2026)
+
+Searched in FRUS by text and date (sources/frus-text), the *Bulletin*'s index and the Public Papers; not found:
+- Vietnam: the struggle movement at Huế, May 17, June 8, 10 and 15, 1966 (`cal.1966-05-17.vietnam-struggle`,
+  `cal.1966-06-08.vietnam`, `cal.1966-06-10.vietnam-struggle`, `cal.1966-06-15.vietnam-struggle`); Hanoi's parade of
+  prisoners, July 6, 1966; ground operations in the demilitarized zone authorized, July 30, 1966; Program 5's approval,
+  Aug. 14, 1967 (the Pentagon Papers' page); McNamara's news conference on the barrier, Sept. 7, 1967 (DoD's transcript);
+  Hanoi's refusals of visas to Marcovich and Aubrac, Aug. 21 and 31, 1967, and their message of Aug. 25 (FRUS 1964–68, V
+  plans the trip, doc. 293); Trinh to Burchett, Jan. 28, 1967 (FRUS V, doc. 33, mentions it); Bunker and Westmoreland on
+  *Meet the Press*, Nov. 19, 1967 (not in the *Bulletin*'s index).
+- The UN: Egypt's request and Thant's order withdrawing UNEF, May 18, 1967 (`cal.1967-05-18.middle-east`): the
+  Secretary-General's report (FRUS XIX, doc. 19, describes it); Britain's request for sanctions on Rhodesia, Dec. 8,
+  1966: the Security Council's verbatim record. The *Bulletin*'s item of Mar. 25, 1968, p. 401 (`cal.1968-03-07.testing`),
+  linked by its index title only (archive.org's text of the volume answered 500): Check that it is the submission of Mar. 7.
+- Elsewhere: Nigeria, the Department's statement of Jan. 27, 1966 (not in the *Bulletin*'s index); Subandrio's arrest,
+  Mar. 18, 1966; Arif's death, Apr. 13, 1966; Smith's cabinet and the *Tiger* document, Dec. 5, 1966 (FRUS XXIV, doc.
+  549, is the day before); China's hydrogen bomb, June 17, 1967; the *Mikhail Frunze*, June 29, 1967 (*Current Documents*
+  cited); the Blue House raid, Jan. 21, 1968 (FRUS XXIX, pt. 1, doc. 213, mentions it); the revised draft of the
+  nonproliferation treaty, Mar. 11, 1968 (the Eighteen-Nation Committee's record; *Documents on Disarmament*, 1968);
+  Svoboda's election, the Action Program, the Moscow protocol and the stationing treaty, 1968 (FRUS XVII); Brezhnev at
+  Warsaw, Nov. 12, 1968; the Six's councils, Jan. 17, 1966 and Dec. 19, 1967, and de Gaulle's press conference of Nov. 27,
+  1967.
 
 ## The Executive roster
 

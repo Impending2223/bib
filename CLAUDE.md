@@ -171,8 +171,10 @@ sources/dsb-pages.json, sources/dsb-issues.yaml  the *Bulletin*'s copies on arch
 sources/loc/              the Library of Congress finding aid make_sunday.py reads (Spivak visual materials, pp020019, pp. 1–136)
 executive/<unit>.yaml     the Executive Branch, 1953–74: each department or agency, its offices, their law and holders (kept by hand)
 sources/vn-provinces-1966/  South Vietnam's provinces of late 1966 rebuilt from today's districts, the corps zones, regions,
-                          the countries around, and the gazetteer of places in Indochina (its README; made by tools/vnmap/)
-sources/indochina/        relief, rivers, climate and rain layers for the maps of Indochina (its README)
+                          and the gazetteer of places in Indochina (its README; made by tools/vnmap/)
+sources/indochina/        the maps of Indochina's data: one border geometry, relief tiles, rivers, climate, rain, population
+                          (its README; made by tools/vnmap/)
+sources/vendor/           MapLibre GL JS, PMTiles and the map's font, pinned and served from the site (its README)
 build/                    generated pages (git-ignored); build/days/, the calendar's daily blocks a month a file
 tools/bib/                the code behind ./bib
 tools/congress/           one-time scripts that made congress/ (see below)
@@ -1473,23 +1475,41 @@ and unit in the summary, its sources linked under it; a column only where the ye
 `tools/bib/vnmap.py` (STYLE notes at the top): a map of Vietnam, Laos and Cambodia for each year, 1960–68, set in the
 year's first calendar entry tagged with a place in the Republic of Vietnam, showing every entry of the year tagged with
 a place: a dot a place, larger by the year's entries there, a tap listing them, each linked; under the map, folded, the
-year's placed entries; names set by the year's places first, then the gazetteer's rank, never over one another. The
-provinces as of late 1966, tinted by corps zone (the default), today's region, or plain; the layers of
-`sources/indochina/` where present (relief, rivers, climate, rain by month). Zoom to 64×; the wheel only with Ctrl or ⌘.
+year's placed entries; names placed by the library's collision, the year's places first, then the gazetteer's rank. The
+provinces as of late 1966, tinted by corps zone (the default), today's region, or plain; or the borders alone; or land
+and water. Boxes: Names; North Vietnam, Laos, Cambodia (their provinces, today's); Relief, Elevation, Contours, Rivers,
+Climate, Rain (by month), Population (1960, 1970: modelled, later) and Cities (the UN *Demographic Yearbook*'s figures).
 
+- Drawn by MapLibre GL JS (the owner's spouse, Oct. 22, 2026: "Use libraries and don't reinvent the wheel"), vendored in
+  `sources/vendor/` at a pinned version (its README: versions, licenses, how to update) and copied to `build/vnmap/`;
+  no CDN. One client for the annual maps and the page, `tools/bib/vnmap.js` and `vnmap.css` (copied hashed to
+  `build/vnmap/`, one `<script type="module">` a page), which loads the library only when a map nears the screen.
+  Its gestures, label collision, hillshade (`raster-dem`, `hillshade`) and colour relief (`color-relief`) are the
+  library's: write no projection, gesture or label placement of our own. The build computes no geometry (CI has only
+  pyyaml): it copies the files and writes a manifest (`build/geo/vn-manifest-<hash>.json`).
+- The data, made once by `tools/vnmap/` (each script's docstring names its downloads; they need shapely >= 2.1, pyproj,
+  pyogrio, rasterio, mercantile, contourpy, pmtiles): one border geometry for everything, `sources/indochina/admin.geojson`,
+  from geoBoundaries CGAZ (`base.py`: the countries, Vietnam's districts, Laos's and Cambodia's provinces as one
+  coverage, simplified with shared edges, so neighbours meet; the 1966 units dissolved from the districts; each line
+  drawn once at its rank). Rasters as PMTiles (`dem.pmtiles`, `koppen.pmtiles`; `tiles.py`), vectors as GeoJSON.
+  Serving PMTiles needs HTTP range requests: GitHub Pages answers them; locally use `npx http-server build`, not
+  `python3 -m http.server`. `check` fails on a map file over 50 MB, the map's files over 60 MB together, or a vendored
+  file missing.
 - Tags, hidden: `place:<id>`, a place in `sources/vn-provinces-1966/places.json` (the gazetteer: name with its
   diacritics, plain form, kind, Wikipedia's coordinates, 1966 province, country, rank for names); `province:<id>`, a
   1966 unit, where an entry names a province and no finer place. An event in Indochina or off its coast takes them; a
   decision about it made in Washington, Honolulu or Manila does not. `check` fails on a tag that names nothing.
 - A place not in the gazetteer: add it, with Wikipedia's coordinates (never guessed) and its province by point in
   polygon. The lines are approximate (the README there); the gazetteer's notes are working notes, not the series'.
-- The shapes go beside the pages, `build/geo/vn-<hash>.json`, fetched when the first map nears the screen.
+- A city's population (`sources/indochina/cities.yaml`, kept by hand): each figure as the Yearbook prints it, with its
+  table and page; `check` fails on a row without them.
 - The map on a page of its own (the owner's request, Oct. 22, 2026): `build/indochina.html`, "Indochina" in the top
   bar (`templates/list.html`), the reader's Pages and its front page; `./bib build indochina` alone. The same figure and
   script (vnmap STYLE 6), as tall as the screen, every placed entry, with a year selector (All years, 1960–68), each
   year anchored (`indochina.html#y1965`); then the gazetteer as a table (place, plain form, kind, 1966 province, corps
   zone, the entries tagged there by year, each row anchored `pl-<id>`) and the sources and licenses, HydroSHEDS's
-  statement in full (`tools/bib/indochina.py`, its STYLE notes). Each annual map closes with a muted line to it.
+  statement in full, the software's licenses (`tools/bib/indochina.py`, its STYLE notes). Each annual map closes with a
+  muted line to it.
 
 ## The calendar in three parts
 

@@ -1,76 +1,89 @@
-# Vietnam, Laos and Cambodia: relief, rivers and lakes, climate, rainfall
+# Vietnam, Laos and Cambodia: borders, relief, rivers and lakes, climate, rain, population
 
-Map layers for the calendar's maps of 1960–69, drawn by d3 over a Mercator projection. Built Oct. 21, 2026, by
-`tools/vnmap/layers.py` (a one-time script; its docstring names every download, where it came from, and the step that
-reads it). The downloads are not kept here.
+The data of the maps of Indochina (`tools/bib/vnmap.py`), drawn by MapLibre GL JS in the browser. Made by the
+one-time scripts in `tools/vnmap/`, each of whose docstrings names its downloads, where they came from and every
+step; the downloads are not kept here. Rebuilt Oct. 22, 2026, on one border geometry (`base.py`) and as tiles where
+the data are rasters (`terrain.py`, `climate.py`, `tiles.py`); the rivers, lakes and the rain grid's source are the
+work of Oct. 21 (`layers.py`).
 
-## The common frame
+## The frame and the projection
 
-- **Extent of every layer:** lon 100.0–110.5 E, lat 8.0–23.5 N, WGS84. In Web Mercator (EPSG:3857) metres: x
-  11,131,949.08–12,300,803.73, y 893,463.75–2,692,598.22.
-- **Rasters (every PNG) are in Web Mercator rows.** Columns are evenly spaced in longitude (as Mercator x is); rows
-  are evenly spaced in EPSG:3857 y, from y(23.5° N) at the top to y(8.0° N) at the foot, each sampled at its centre
-  latitude. Draw each as one `<image>` stretched over the projected rectangle of the bounds: `[proj([100, 23.5]),
-  proj([110.5, 8])]`. No reprojection in the browser. Continuous fields are sampled bilinearly, classes by nearest
-  neighbour.
-- **Vectors (GeoJSON) and the climate grid** are plain lon/lat (EPSG:4326).
-
-| raster | size (px) | source cell | file |
-|---|---|---|---|
-| fine | 2520 × 3879 | 15″ (~460 m) | `hillshade-fine.png` |
-| standard | 1260 × 1939 | 30″ (~920 m) | `hillshade.png`, `hypso.png`, `koppen.png` |
-| coarse | 630 × 970 | from the 30″ grid | `hillshade-coarse.png`, `hypso-coarse.png`, `koppen-coarse.png` |
-
-Use the coarse rasters for the whole-country view, the standard ones when zoomed, and `hillshade-fine.png` (4.1 MB)
-only past about 3× zoom.
+- Every file is plain longitude and latitude (WGS84, EPSG:4326), or Web Mercator tiles (EPSG:3857) in a PMTiles
+  archive. No file is projected by hand: MapLibre projects the GeoJSON; rasterio (GDAL) warps the grids to the tiles.
+- The frame: lon 97.5–113 E, lat 5.5–26 N (`FRAME` in each script); the map's bounds lie inside it (lon 98–112.5,
+  lat 6–25.5), the page's first view lon 100–110.5, lat 8–23.5. The rivers, lakes and rain cover that first view only.
+- Serving: the PMTiles files are read by HTTP range requests (GitHub Pages answers them; `npx http-server build`
+  locally; `python3 -m http.server` does not).
 
 ## Files
 
 | file | bytes | what |
 |---|---|---|
-| `hillshade-fine.png` | 4,111,243 | hillshade from ETOPO 2022 15″ |
-| `hillshade.png` | 1,041,102 | hillshade from ETOPO 2022 30″ |
-| `hillshade-coarse.png` | 241,476 | hillshade from ETOPO 2022 30″, smoothed |
-| `hypso.png`, `hypso-coarse.png` | 166,658; 57,356 | elevation bands and sea depths, indexed |
-| `hypso.json` | 2,216 | their legend: class, range, color |
-| `contours.geojson` | 469,580 | contours at 500, 1,000, 1,500 and 2,000 m |
-| `rivers.geojson` | 645,201 | rivers, 10 m³/s and over, and every named river |
-| `rivers-coarse.geojson` | 123,796 | rivers, 100 m³/s and over (named rivers 30 m³/s and over) |
-| `lakes.geojson` | 760,891 | lakes and reservoirs of 1 km² and over |
-| `koppen.png`, `koppen-coarse.png` | 65,023; 24,706 | Köppen–Geiger classes, 1961–1990, indexed |
-| `koppen.json` | 1,700 | their legend: code, name, color, share of the extent's land |
-| `climate.json` | 590,629 | monthly rainfall and mean temperature normals, 1961–1990 |
+| `admin.geojson` | 2,868,637 | the borders: countries, units (the RVN's of 1966; today's in the DRV, Laos, Cambodia), lines by rank, label points (`base.py`) |
+| `dem.pmtiles` | 25,067,940 | land elevation, Terrarium-encoded lossless WebP tiles, 512 px, zooms 0–8 (`terrain.py`) |
+| `bathymetry.geojson` | 468,444 | the sea's depth bands (`terrain.py`) |
+| `contours.geojson` | 1,297,649 | contours at 500, 1,000, 1,500 and 2,000 m (`terrain.py`) |
+| `hypso.json` | 2,216 | the elevation bands' and depth bands' ranges and colours (the legend) |
+| `rivers.geojson` | 645,201 | rivers, 10 m³/s and over, and every named river (`layers.py`) |
+| `lakes.geojson` | 760,891 | lakes and reservoirs of 1 km² and over (`layers.py`) |
+| `koppen.pmtiles` | 196,512 | Köppen–Geiger classes, 1961–1990, paletted PNG tiles, zooms 0–7 (`climate.py`) |
+| `koppen.json` | 1,432 | their legend: value, code, name, colour, share of the frame's land |
+| `climate.json` | 590,629 | monthly rainfall and mean temperature normals, 1961–1990, a grid (`layers.py`) |
+| `climate.geojson` | 1,534,770 | the same grid as squares, a property a month (`climate.py`) |
+| `population.geojson` | 1,940,356 | persons a km², 1960 and 1970, modelled, in classes (`population.py`) |
+| `cities.yaml` | 3,180 | the cities' populations as the UN *Demographic Yearbook* printed them, by page (kept by hand) |
 
-8.0 MB together.
+About 35 MB together; the largest, `dem.pmtiles`, 25 MB (`check` fails on a file over 50 MB or the set over 60 MB).
+A browser fetches the borders (about 0.7 MB compressed) and the library when a map nears the screen, each layer's
+file or tiles only when the layer is shown.
 
-### Relief: `hillshade*.png`, `hypso*.png`, `hypso.json`, `contours.geojson`
+### Borders: `admin.geojson`
 
-- **Source:** NOAA NCEI, *ETOPO 2022 v1* global relief model, surface elevation (ice surface, EGM2008 heights), 30
-  arc-seconds (`ETOPO_2022_v1_30s_N90W180_surface.nc`) and 15 arc-seconds (tiles N15E090, N15E105, N30E090,
-  N30E105), the extent's part read by OPeNDAP from NCEI's THREDDS server,
-  https://www.ngdc.noaa.gov/thredds/catalog/global/ETOPO2022/catalog.html. Cells are pixel-centred
-  (`node_offset 1`). Public domain (U.S. Government work).
-  Citation: NOAA National Centers for Environmental Information, *ETOPO 2022 15 Arc-Second Global Relief Model*
-  (2022), doi:10.25921/fd45-gt74.
-- **Sea mask:** Natural Earth 10m land, v5.1.1 (https://www.naturalearthdata.com; public domain), rasterized onto each
-  grid. Land is what the mask calls land, whatever its ETOPO height; the Tonle Sap and other lakes are land here (draw
-  `lakes.geojson` over them).
-- **Hillshade:** sun from the northwest (azimuth 315°), 45° high; the ground spacing of each row from its latitude;
-  vertical exaggeration 1.5 (fine), 2 (standard), 3 (coarse, after a Gaussian blur of 0.6 px). Land below sea level
-  counted 0 m. Encoding: two channels, gray and alpha. Gray is 0 where a slope is darker than flat ground and 255 where
-  it is lighter; alpha is how much darker or lighter (flat ground and the sea transparent), in 32 steps. Lay it over the
-  tint or a plain ground.
-- **Bands (`hypso*.png`):** an indexed PNG, the palette index the class. Land: 0–100, 100–200, 200–500, 500–1,000,
-  1,000–1,500, 1,500–2,000, 2,000 m and over (indices 0–6). Sea, by depth: 0–50, 50–200, 200–1,000, 1,000–2,000,
-  2,000–4,000, 4,000 m and deeper (indices 7–12). Colors and ranges in `hypso.json`; recolor by rewriting the PNG's
-  palette (PLTE) or by drawing the classes yourself. Land below 0 m is counted 0–100 m, and sea cells above 0 m 0–50 m
-  deep.
-- **Contours:** from the 30″ grid after a Gaussian blur of one cell (about 1 km), traced at 500, 1,000, 1,500 and
-  2,000 m, simplified at 0.004° (about 400 m), lines under 0.03° dropped, coordinates to 0.001°. One MultiLineString
-  feature a level (`elev_m`). Good to about 1:500,000; the bands and the contours do not exactly coincide (the contours
-  are smoothed).
+- **Source:** geoBoundaries, Comprehensive Global Administrative Zones (CGAZ), ADM0, ADM1 and ADM2, the repository's
+  main branch as of Oct. 22, 2026 (its latest release 6.0.0, Sept. 14, 2023), from
+  `media.githubusercontent.com/media/wmgeolab/geoBoundaries/main/releaseData/CGAZ/`. CGAZ is "a global composite of
+  the SSC ADM0, ADM1 and ADM2, clipped to international boundaries (US Department of State), with gaps filled between
+  borders" (the project's README). License CC BY 4.0. Citation: Runfola, D. et al. (2020) geoBoundaries: A global
+  database of political administrative boundaries. *PLoS ONE* 15(4): e0231866, doi:10.1371/journal.pone.0231866.
+- **One coverage:** the countries (ADM0) cut to the frame; inside Vietnam its 705 districts (ADM2), inside Laos and
+  Cambodia their provinces (ADM1), each cut to its country, the slivers no unit covered shared out by Voronoi cells
+  of the nearest units' boundaries (CGAZ's levels come from different sources and do not nest exactly). Made a valid
+  coverage (`shapely.coverage_clean`) and simplified once, every shared edge alike (`shapely.coverage_simplify`,
+  0.002°, about 200 m); islets under 0.5 km² dropped; coordinates to 0.001°. Everything else is dissolved from these
+  pieces, so every line on the map is the same line wherever it is drawn.
+- **Features** (`k`): `land`, the countries without units (Thailand, China, Burma, Malaysia); `unit`, the RVN's 51
+  units of late 1966 (from `sources/vn-provinces-1966/`: id, name, plain form, corps zone, region, confidence) and
+  the DRV's, Laos's and Cambodia's provinces (today's, CGAZ's names; the DRV's region from en Wikipedia's "First-level
+  subdivisions of Vietnam", oldid 1265924465, its table "Regions of Vietnam"), with Vĩnh Linh (today's Vĩnh Linh and
+  Cồn Cỏ districts, north of the Bến Hải) apart as the DRV's special zone; `line`, each boundary once at its highest
+  rank (`l`: `intl`, `dmz` the RVN–DRV line, `ctz`, `region`, `unit` a country at a time (`c`), and `coast`);
+  `lab`, label points (polylabel of the largest part; a country's inside the first view).
+- **Not of the 1960s:** the DRV's, Laos's and Cambodia's provinces are today's; no open map of their 1960s units was
+  found (`notes/leads.md`, Foreign). The legend says so.
 
-### Rivers: `rivers.geojson`, `rivers-coarse.geojson`
+### Relief: `dem.pmtiles`, `bathymetry.geojson`, `contours.geojson`, `hypso.json`
+
+- **Source:** NOAA NCEI, *ETOPO 2022 v1* global relief model, surface elevation, 15 arc-seconds, tiles N15E090,
+  N15E105, N30E090, N30E105, from NCEI's THREDDS file server
+  (`https://www.ngdc.noaa.gov/thredds/fileServer/global/ETOPO2022/15s/15s_surface_elev_netcdf/`). Public domain (U.S.
+  Government work). Citation: NOAA National Centers for Environmental Information, *ETOPO 2022 15 Arc-Second Global
+  Relief Model* (2022), doi:10.25921/fd45-gt74.
+- **Land and sea:** land is what `admin.geojson` calls land, rasterized onto the grid; land below sea level counted
+  0 m; the sea −1 m in the tiles (flat, unshaded, and transparent in the elevation bands).
+- **Tiles:** each Web Mercator tile (mercantile) warped from the grid by rasterio (bilinear at zooms 7–8, the mean
+  below), whole metres in the Terrarium encoding, lossless WebP, 512 px; zoom 8 is about 300 m a pixel, the grid
+  about 460 m. MapLibre draws from them the hillshade (`hillshade`, its multidirectional method) and the elevation
+  bands (`color-relief`) at the screen's resolution; past zoom 8 it interpolates the zoom 8 tiles (a finer model:
+  `notes/leads.md`).
+- **Bands:** land 0–100, 100–200, 200–500, 500–1,000, 1,000–1,500, 1,500–2,000, 2,000 m and over; sea by depth 0–50
+  (the sea's ground colour), 50–200, 200–1,000, 1,000–2,000, 2,000–4,000, 4,000 m and deeper. Colours and ranges in
+  `hypso.json`. The depth bands are polygons traced from the grid at 1′ (rasterio.features.shapes), simplified as a
+  coverage at 0.01°; they run on under the land, which covers them.
+- **Contours:** from the grid at 1′ (the mean of 4 × 4 cells), traced by contourpy at 500, 1,000, 1,500 and 2,000 m,
+  simplified at 0.003°, runs under 0.03° dropped; one MultiLineString a level (`elev_m`). The bands (from the tiles)
+  and the contours (from the 1′ means) do not exactly coincide.
+
+### Rivers: `rivers.geojson`
 
 MultiLineString features, each the merged lines of one name and one size, drawn smallest first in file order.
 Properties: `size` (1 the largest, 7 the smallest), `source` (`HydroRIVERS` or `SWORD`), and where known `name` (the
@@ -79,8 +92,8 @@ source's English form) and `name_vi` (the Vietnamese form, written by hand for t
 - **Outside the delta: HydroRIVERS v1.0, Asia** (https://www.hydrosheds.org/products/hydrorivers; downloaded from
   https://data.hydrosheds.org/file/HydroRIVERS/HydroRIVERS_v10_as_shp.zip). Every segment with a long-term mean
   discharge (`DIS_AV_CMS`) of 10 m³/s or more, and every named segment. `size` by discharge: 1 ≥ 5,000 m³/s; 2
-  1,000–5,000; 3 300–1,000; 4 100–300; 5 30–100; 6 10–30; 7 under 10 (named only). Simplified at 0.002° (fine) and
-  0.008° (coarse), coordinates to 0.001°.
+  1,000–5,000; 3 300–1,000; 4 100–300; 5 30–100; 6 10–30; 7 under 10 (named only). Simplified at 0.002°, coordinates to
+  0.001° (a coarser copy at 0.008°, `rivers-coarse.geojson`, was deleted Oct. 22, 2026: MapLibre simplifies by zoom).
   Citation: Lehner, B., Grill, G. (2013): Global river hydrography and network routing: baseline data and new
   approaches to study the world's large river systems. *Hydrological Processes* 27(15): 2171–2186. Data at
   https://www.hydrosheds.org.
@@ -105,7 +118,6 @@ source's English form) and `name_vi` (the Vietnamese form, written by hand for t
   from Phnom Penh's latitude (11.8° N) south, east to the Đồng Nai below Biên Hòa and the Rừng Sát (`DELTA` in the
   script); inside it every SWORD reach, outside every HydroRIVERS segment, cut at the ring (the two meet within a few
   hundred metres). `size` by SWORD's width: 1 ≥ 900 m; 2 400–900; 3 200–400; 4 100–200; 5 50–100; 6 under 50.
-  Coarse: sizes 1–3.
   License CC BY 4.0. Citation: Altenau, E. H., Pavelsky, T. M., Durand, M. T., Yang, X., Frasson, R. P. d. M.,
   Bendezu, L. (2021): The Surface Water and Ocean Topography (SWOT) Mission River Database (SWORD): A Global River
   Network for Satellite Data Products. *Water Resources Research* 57: e2021WR030054; the dataset, v17c: Gearon, J. H.,
@@ -149,20 +161,22 @@ source's English form) and `name_vi` (the Vietnamese form, written by hand for t
   (187 km², 106.32 E 11.43 N) among them. For a map of the 1960s, draw only `type: lake` and reservoirs with `dam_year`
   ≤ the map's year, and treat the large unnamed "lakes" of the plateaus and the Saigon basin with suspicion.
 
-### Climate: `koppen*.png`, `koppen.json`
+### Climate: `koppen.pmtiles`, `koppen.json`
 
 - **Source:** Beck, H. E., McVicar, T. R., Vergopolan, N., Berg, A., Lutsko, N. J., Dufour, A., Zeng, Z., Jiang, X.,
   van Dijk, A. I. J. M., Miralles, D. G. (2023): High-resolution (1 km) Köppen-Geiger maps for 1901–2099 based on
   constrained CMIP6 projections. *Scientific Data* 10: 724, doi:10.1038/s41597-023-02549-6. Dataset: figshare,
   doi:10.6084/m9.figshare.21789074.v2 (version 2, Jan. 14, 2026, which corrects a small calculation error),
-  `koppen_geiger_tif.zip`, file `1961_1990/koppen_geiger_0p00833333.tif`: **the 1961–1990 period**, 0.00833° (1 km).
-  License CC BY 4.0.
-- An indexed PNG: palette index 0 transparent (sea, no data), then one index a class present in the extent, in the
-  legend's order, with the paper's colors (the standard Köppen palette): Af, Am, Aw, BSh (a few cells), Cwa, Cwb, Cfa,
-  Cfb. `koppen.json` gives each index's value, code, name, color and share of the extent's land. Nearest-neighbour
-  sampling at both sizes.
+  `koppen_geiger_tif.zip` (from `https://ndownloader.figshare.com/files/61012822`, the address figshare's API gives),
+  file `1961_1990/koppen_geiger_0p00833333.tif`: **the 1961–1990 period**, 0.00833° (1 km). License CC BY 4.0.
+- Raster tiles, not polygons (traced and simplified at 400 m, the classes made 5.8 MB of GeoJSON): paletted PNG,
+  256 px, zooms 0–7 (about 1.2 km a pixel at zoom 7), resampled by nearest neighbour (by mode below zoom 7), index 0
+  transparent (sea, no data), then the classes present in the frame in the legend's order with the paper's colours
+  (`legend.txt` in the archive). MapLibre draws them with nearest resampling, each cell sharp at any zoom.
+  `koppen.json` gives each class's value, code, name, colour and share of the frame's land; the legend shows those
+  over 0.1 percent.
 
-### Weather: `climate.json`
+### Weather: `climate.json`, `climate.geojson`
 
 - **Source:** CRU CL 2.0, the 10-minute mean monthly climate of global land areas, **1961–1990**: New, M., Lister, D.,
   Hulme, M., Makin, I. (2002): A high-resolution data set of surface climate over global land areas. *Climate Research*
@@ -175,6 +189,25 @@ source's English form) and `name_vi` (the Vietnamese form, written by hand for t
   `temperature.values[m][r][c]` in tenths of a degree C, months 0–11 January to December, rows north to south; `null`
   over the sea (3,889 land cells). Checks: Saigon's cell 8 mm in February and 272 in September; Huế's 520 in October;
   Hanoi's 296 in August; Vientiane's 4 in December.
+- `climate.geojson` (`climate.py`): each land cell a square, `p1`–`p12` (mm) and `t1`–`t12` (°C), so the map colours
+  the month chosen and a tap reads the cell. CRU's host did not answer on Oct. 22, 2026: the grid was not widened to
+  the map's frame (`notes/leads.md`).
+
+### Population: `population.geojson`, `cities.yaml`
+
+- **Density, modelled:** ISIMIP3a's gridded historical population, `population_histsoc_5arcmin_annual_1901_2021.nc`
+  (`https://files.isimip.org/ISIMIP3a/InputData/socioeconomic/pop/histsoc/`; 1.37 GB), whose national and gridded
+  figures ISIMIP's page (isimip.org, input data, details/79) says are "taken from the History Database of the Global
+  Environment (HYDE) version 3.2.1"; the file's header cites Klein Goldewijk, Beusen, Doelman and Stehfest,
+  "Anthropogenic land use estimates for the Holocene – HYDE 3.2", *Earth System Science Data* 9 (2017): 927–953, and
+  HYDE 3.3 (doi:10.24416/UU01-67UHB4). The ISIMIP site's content is CC BY 4.0. The bands for 1960 and 1970, each 5′
+  cell's count over its geodesic area (pyproj), in persons a km², classed (0, 1, 10, 25, 50, 100, 250, 500, 1,000)
+  and traced as polygons, simplified as a coverage at 0.004°. **A model, made later** from national totals and later
+  maps: not a census, and the legend says so. HYDE's own host (geo.public.data.uu.nl) answers with a bot check here.
+- **Cities:** `cities.yaml`, the populations the UN *Demographic Yearbook* printed (1966, table 6; 1970, table 8),
+  read by eye off the page images, each with its date, census or estimate, city proper or agglomeration, page and the
+  Yearbook's marks (its header). The map draws a circle by the first figure; a tap gives every row and its page.
+
 
 ## Tried and refused, and what was not used
 

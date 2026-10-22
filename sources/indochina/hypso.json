@@ -1,21 +1,4 @@
 {
- "bounds": {
-  "west": 100.0,
-  "east": 110.5,
-  "south": 8.0,
-  "north": 23.5
- },
- "rows": "evenly spaced in Web Mercator (EPSG:3857) y; columns evenly spaced in longitude",
- "files": {
-  "hypso.png": [
-   1260,
-   1939
-  ],
-  "hypso-coarse.png": [
-   630,
-   970
-  ]
- },
  "classes": [
   {
    "index": 0,
@@ -122,5 +105,5 @@
    "color": "#659acd"
   }
  ],
- "note": "Land and sea from Natural Earth 10m land; land below 0 m (ETOPO) counted 0-100 m; sea above 0 m counted 0-50 m deep. Palette index = class index."
+ "note": "The legend of the elevation bands (drawn by MapLibre's color-relief from dem.pmtiles) and the depth bands (bathymetry.geojson, its `d` the band's lower depth): tools/vnmap/terrain.py. Land is what admin.geojson calls land; land below 0 m counted 0-100 m."
 }

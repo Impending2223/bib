@@ -63,6 +63,17 @@ function match(prop, table, C, other) {
   return m;
 }
 
+/* The elevation bands as the colour relief's ramp: `color-relief` interpolates, so each band is a flat run between
+   two stops a centimetre apart; the sea (-1 m in the tiles) transparent. */
+function bands(H) {
+  const r = ['interpolate', ['linear'], ['elevation'], -1, 'rgba(0,0,0,0)', -0.01, 'rgba(0,0,0,0)'];
+  H.forEach((h, i) => {
+    r.push(h.from, h.color);
+    r.push(i + 1 < H.length ? H[i + 1].from - 0.01 : 9000, h.color);
+  });
+  return r;
+}
+
 function style(M, C, places) {
   const f = M.files;
   const src = {
@@ -80,7 +91,7 @@ function style(M, C, places) {
       paint: {'fill-color': ['match', ['get', 'd'], ...M.depths.flatMap((d) => [d.from, d.color]), C.vsea]}},
     {id: 'land', type: 'fill', source: 'admin', filter: ['in', ['get', 'k'], ['literal', ['land', 'unit']]], paint: {'fill-color': C.vland}},
     f.dem && {id: 'elevation', type: 'color-relief', source: 'dem', layout: hide,
-      paint: {'color-relief-color': ['step', ['elevation'], 'rgba(0,0,0,0)', ...M.hypso.flatMap((h) => [h.from, h.color])]}},
+      paint: {'color-relief-color': bands(M.hypso)}},
     f.koppen && {id: 'koppen', type: 'raster', source: 'koppen', layout: hide, paint: {'raster-opacity': 0.8, 'raster-resampling': 'nearest'}},
     f.climate && {id: 'rain', type: 'fill', source: 'climate', layout: hide, paint: {'fill-opacity': 0.85}},
     f.pop && {id: 'pop', type: 'fill', source: 'pop', layout: hide,
