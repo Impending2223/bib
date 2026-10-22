@@ -29,7 +29,7 @@ STYLE
  5. Under each table its notes, then its sources: for the first, each column's document, table, printed page, linked
     to the page of FRASER's scan; for the second, OMB's tables, linked, and the edition.
  6. The debt-limit table: one row an act, in order: the day approved (linked to its calendar entry), the Statutes cite
-    (linked to govinfo), the bill, the limits it set, each with its term, and the permanent limit after it. Limits in
+    (linked to govinfo) with the bill under it, muted (four columns, to fit a phone without scrolling), the limits it set, each with its term, and the permanent limit after it. Limits in
     whole $bn ("$308bn"), terms as dates in the series' form; a limit with no end date is permanent.
 """
 import os
@@ -60,7 +60,9 @@ STYLE = """<style id="bgstyle">
 .bg .bgn{font-size:.78rem;line-height:1.45;color:var(--note);margin:.3rem 0}
 .bg .bgsrc{font-size:.78rem;color:var(--muted);line-height:1.4;margin:.3rem 0}
 .bg td.dlt{text-align:left;white-space:normal}
-@media (max-width:520px){.bg td.dlt{min-width:9rem}}
+@media (max-width:520px){.bg td.dlt{min-width:7rem}}
+@media (max-width:380px){.bg td.dlt{min-width:5.5rem}}
+.bg .dlb{color:var(--muted);white-space:nowrap}  /* the bill under its statute: four columns fit a phone */
 </style>"""
 
 
@@ -263,10 +265,11 @@ def debt_block():
         lims = "<br>".join(esc(limit_text(t)) for t in a["terms"])
         tip = f' title="{esc(a["does"])}"' if a.get("does") else ""
         rows.append(f'<tr><td>{when}</td><td><a href="{esc(STAT.format(vol=vol, granule=a["granule"]))}">{vol} Stat. {page}</a>'
-                    f'</td><td>{esc(a["bill"])}</td><td class="dlt"{tip}>{lims}</td><td>${perm:g}bn</td></tr>')
+                    f'<br><span class="dlb">{esc(a["bill"])}</span></td><td class="dlt"{tip}>{lims}</td>'
+                    f'<td>${perm:g}bn</td></tr>')
     src = load("debt-limits.yaml").get("source") or {}
     return ('<div class="bg" id="bgdebt"><p class="bgh">The debt limit: the acts of 1960–69</p><div class="bgw"><table>'
-            '<thead><tr><th>Approved</th><th>Statute</th><th>Bill</th><th>Limit and term</th><th>Permanent</th></tr></thead>'
+            '<thead><tr><th>Approved</th><th>Statute, bill</th><th>Limit and term</th><th>Permanent</th></tr></thead>'
             f'<tbody>{"".join(rows)}</tbody></table></div>'
             '<p class="bgn">The limit in section 21 of the Second Liberty Bond Act on the public debt outstanding; each '
             'temporary limit lapsed at the end of its term to the permanent one.</p>'

@@ -43,7 +43,7 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-off
 nav.pg{display:flex;gap:.7rem;font-family:var(--sans);font-size:.8rem;font-weight:600;white-space:nowrap}
 nav.pg a{color:var(--accent);text-decoration:none}nav.pg a:hover{text-decoration:underline}
 #olbtn{font-family:var(--sans);font-size:.8rem;font-weight:600;border:1px solid var(--rule);background:var(--panel);color:var(--ink);border-radius:6px;padding:.4rem .7rem;cursor:pointer}
-@media (max-width:480px){nav.pg{gap:.45rem;font-size:.72rem;overflow-x:auto;min-width:0;scrollbar-width:none}nav.pg::-webkit-scrollbar{display:none}#hdr .in{gap:.5rem;padding:0 .6rem}#olbtn{padding-left:.5rem;padding-right:.5rem}}
+@media (max-width:480px){nav.pg{column-gap:.45rem;row-gap:.15rem;font-size:.72rem;line-height:1.2;flex-wrap:wrap;justify-content:flex-end;min-width:0;max-width:13.5rem}#hdr .in{gap:.5rem;padding:0 .6rem}#olbtn{padding-left:.5rem;padding-right:.5rem}}
 
 main{max-width:42rem;margin:0 auto;padding:calc(var(--hdr) + 1.5rem) 1.25rem 6rem 1.25rem}
 @media (max-width:600px){main{padding-right:2.6rem}}
