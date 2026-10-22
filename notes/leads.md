@@ -675,6 +675,38 @@ Searched in the Daily Digest (daybook/committees), the bound Record's days, the 
 
 ## Foreign
 
+- The war in the field (patch `inbox/2026-10-22-vietnam-field.yaml`, thread Vietnam: Operations), leads left by the
+  drafting agent, Oct. 22, 2026:
+  - *Victory in Vietnam* (PAVN history, Pribbenow trans.; `w.vietnam-victory-in-vietnam`) is cited without pages in
+    the Bình Giã and Đồng Xoài entries: archive.org's copy (`victoryinvietnam0000unse_u7j3`) is borrow-only and its
+    search-inside did not answer; HathiTrust search-only. Read the pages for Bình Giã, Ba Gia, Đồng Xoài, Junction
+    City, Đắk Tô, Route 9-Khe Sanh, Tet and add the pinpoints (and the battles' entries that lack it).
+  - Long Tân, Aug. 18, 1966: not entered; Carland names only McNeill, *To Long Tan* (1993). The Australian official
+    history and the Australian War Memorial's records are the places to date and count it.
+  - Vietnamese forms not verified, so written plain or left out: the hamlets of Dai Do (Apr. 30-May 2, 1968; written
+    "the Dai Do hamlets", with a Check), Ho Bo Woods
+    (Crimp, left out), Long Nguyen (Ông Thành, left out), Ca Lu (Khe Sanh's closing), Ngok Tavak, Dak Seang. Ấp Bàu
+    Bàng's province (Bình Dương?) not tagged: no coordinates found. Suối Tre and Ấp Gù are written with marks the
+    sources (Rogers prints Suoi Tre, Ap Gu) do not give: check them against a Vietnamese source.
+  - Primary records for the field entries without one (the audit's list): the MACV Command Histories (Texas Tech,
+    refused here), the units' after-action reports and the Marine command chronologies (NARA, series NAID 6160409,
+    page images, open), CHECO reports. The *Bulletin* and the daybook's Thursday briefings not searched for them.
+  - Splits proposed, not made (another agent's entries): `cal.1965-08-18.vietnam` (Starlite, Aug. 18-24: the landing,
+    Aug. 18; the end, Aug. 24), `cal.1965-11-14.vietnam` (Ia Drang, Nov. 14-18: X-Ray, Nov. 14-16; Albany, Nov. 17),
+    `cal.1967-01-08.vietnam` (Cedar Falls: its end now has its own entry, Jan. 26; the text's "Jan. 8-26" can go),
+    `cal.1967-02-22.vietnam` (Junction City, "to May 14": its battles and end now entered), `cal.1967-11-03.vietnam`
+    (Đắk Tô, "from Nov. 3", Check: Hill 875 now entered), `cal.1966-07-22.vietnam` (the DMZ and "Hastings below the
+    zone (Check its dates)": Hastings now dated, July 15-Aug. 3). And these field entries of the Vietnam thread belong
+    in Vietnam: Operations (thread or also): Starlite, Plei Me (Oct. 19, 23, 26, 1965), Ia Drang, Masher (Jan. 25 and
+    Feb. 1966), Cedar Falls, Junction City, Côn Thiên (Sept. 1967), Đắk Tô (Nov. 3, 1967).
+  - The air war: tonnage by country and month is in CACTA's load fields (LTONS, LCLAS), but the subroutine DLTNS that
+    converts them is not in NARA's documentation read (137.1DP.pdf); the other CACTA series (NAID 634496, the 1976
+    accession, bimonthly files) may fill the eight missing months (Aug. 1966; July, Nov. 1967; Mar., Apr., July, Nov.
+    1968). Thayer, vol. 5, prints the Report's monthly sorties for more months than were read (pp. 217-299, the
+    monthly "Aircraft Sorties and Losses"); and the U.S. aircraft lost by month (the same articles) are not yet a row.
+  - The Pentagon Papers (NARA, 2011): two parts carded (IV.C.5, IV.C.6.a); the other forty-five not. IV.C.6.b and c and
+    IV.C.10 (the statistical survey, 1965-67) are the next for the field.
+
 - The *Department of State Bulletin*, vol. 59 (July 1-Dec. 30, 1968, nos. 1514-1540): no open copy reached, so the
   daybook's Bulletin list stops at June 24, 1968 (`tools/daybook/make_bulletin.py`). HathiTrust holds it in full view
   (msu.31293008121893 July-Sept., msu.31293008121901 Oct.-Dec., mdp.39015077199605, coo.31924070261031; catalog API,

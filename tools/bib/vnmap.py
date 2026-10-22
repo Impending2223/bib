@@ -37,7 +37,8 @@ STYLE
     legends, the places) and the borders then; each layer's file the first time the layer is shown. Rasters are tiles
     in one PMTiles file each, read by range requests (GitHub Pages answers them; locally, a server that does:
     `npx http-server build`, not `python3 -m http.server`). At most four maps drawn at once on a page; the farthest is
-    given up and drawn again when it nears.
+    given up and drawn again when it nears. Drawn at a pixel ratio of 2 at most (a phone's 2.6 or 3 costs half as many
+    pixels again a frame for no visible gain at map scale).
  6. The map on a page of its own, build/indochina.html (the owner's request, Oct. 22, 2026; the page around it is
     tools/bib/indochina.py): the same figure, styles and script (`full_figure`, class `full`), with every placed
     entry, each carrying its year, and a year selector above the controls (All years, the default, then 1960–68 and

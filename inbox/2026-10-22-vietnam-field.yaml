@@ -1,0 +1,449 @@
+patch: vietnam-field
+by: Claude (the war in the field agent)
+ops:
+- add:
+    entry:
+      id: cal.thread.vietnam-operations
+      s: Operations
+      c: 'The fighting in South Vietnam, its battles and large operations, each dated by the record of the field: the start, the main day, the end. Bình Giã; Ba Gia; Đồng Xoài; Harvest Moon; Crimp.'
+      c3: 'The fighting in South Vietnam, its battles and large operations, each dated by the record of the field: the start, the main day, the end. A Shau; Hastings; Attleboro; Cedar Falls closed; Junction City''s battles and its end; the hill fights at Khe Sanh; Buffalo; Swift; Ông Thành; Lộc Ninh; Hill 875; Quyết Thắng and Toàn Thắng; Delaware; the fight north of Đông Hà; Khâm Đức; the August offensive; Meade River.'
+      parent: vietnam
+    section: th
+    after: cal.thread.vietnam-commitments
+- add:
+    entry:
+      id: cal.1964-12-28.vietnam-operations
+      when: Dec. 28
+      date: '1964-12-28'
+      thread: vietnam-operations
+      c: 'Bình Giã, Phước Tuy Province, some thirty miles southeast of Saigon. Two Viet Cong main-force regiments, with local units and guerrillas, seize the Catholic village and stay to fight the troops sent to retake it. In engagements to Jan. 3: a battalion of South Vietnamese marines and one of rangers destroyed; almost 200 government troops and 5 American advisers killed; more than 300 weapons taken; 2 helicopters shot down.'
+      n: '[FRUS 1964–68, II, doc. 6](https://history.state.gov/historicaldocuments/frus1964-68v02/d6) (Wheeler''s account to the principals, Jan. 5, 1965). [[w.cosmas-united-states-army-in]], 194; [[w.vietnam-victory-in-vietnam]]. Check: FRUS''s editors date the battle Dec. 28–Jan. 4 (II, doc. 14, n. 5).'
+      tags:
+      - place:binh-gia
+    section: '196412'
+- add:
+    entry:
+      id: cal.1965-05-29.vietnam-operations
+      when: May 29–30
+      date: '1965-05-29'
+      thread: vietnam-operations
+      c: 'Ba Gia, west of Quảng Ngãi city. A Viet Cong force, probably a regiment, attacks a South Vietnamese company clearing a road and ambushes the two companies sent after it; May 30, three more battalions committed and beaten. South Vietnamese losses: 107 killed, 123 wounded, 367 missing, 384 weapons.'
+      n: '[FRUS 1964–68, II, doc. 322](https://history.state.gov/historicaldocuments/frus1964-68v02/d322) (Taylor to Johnson, June 1). [[w.def-u-s-viet-rels-iv-c-5]], 33, 82; [[w.carland-united-states-army-in]], 45.'
+      tags:
+      - province:quang-ngai
+    section: '196505'
+- add:
+    entry:
+      id: cal.1965-06-09.vietnam-operations
+      when: June 9–12
+      date: '1965-06-09'
+      thread: vietnam-operations
+      c: 'Đồng Xoài, Phước Long Province, some eighty-five kilometers north of Saigon. Shortly before midnight, elements of the Viet Cong 272d and 273d Regiments attack the Special Forces–advised CIDG camp and district headquarters; by noon on the 10th much of the camp overrun. Two South Vietnamese battalions landed by helicopter, mauled; a third, June 11, hit on the 12th. South Vietnamese losses: 416 killed, 174 wounded, 233 missing. A battalion task force of the 173d Airborne Brigade flown to Phước Vĩnh, June 13; back June 18 without a fight.'
+      n: '[FRUS 1964–68, III, doc. 5](https://history.state.gov/historicaldocuments/frus1964-68v03/d5) (Taylor to Johnson, June 17). Remarks and Citation at the Medal of Honor Ceremony for Lt. Charles Q. Williams, USA, [1966 Pub. Papers 646](https://www.govinfo.gov/content/pkg/PPP-1966-book1/pdf/PPP-1966-book1.pdf#page=722) (June 23, 1966). [[w.def-u-s-viet-rels-iv-c-5]], 82; [[w.carland-united-states-army-in]], 27–28, 46; [[w.vietnam-victory-in-vietnam]].'
+      tags:
+      - place:dong-xoai
+    section: '196506'
+- add:
+    entry:
+      id: cal.1965-12-08.vietnam-operations
+      when: Dec. 8–9
+      date: '1965-12-08'
+      thread: vietnam-operations
+      c: Harvest Moon, the Marines' and the South Vietnamese 2d Division's operation in the Quế Sơn valley against the 1st Viet Cong Regiment. The 11th Ranger Battalion ambushed on the Thăng Bình–Hiệp Đức road, the afternoon of Dec. 8; the 5th Regiment's command group and 1st Battalion overrun the next morning, the regimental commander killed. Marines of Task Force Delta landed by helicopter from 10 a.m., Dec. 9, behind the enemy.
+      n: '[[w.shulimson-u-s-marines-in]], 98–104.'
+      tags:
+      - province:quang-tin
+    section: '196512'
+- add:
+    entry:
+      id: cal.1965-12-20.vietnam-operations
+      when: Dec. 20
+      date: '1965-12-20'
+      thread: vietnam-operations
+      c: 'Harvest Moon ends, the allied forces back in their enclaves; the Marine battalions out of the area the day before. Counted: 407 of the enemy killed, 33 captured, 95 individual and 13 crew-served weapons. Marines: 45 killed, 218 wounded. South Vietnamese: 90 killed, 91 missing, 141 wounded.'
+      n: '[[w.shulimson-u-s-marines-in]], 109. See [[cal.1965-12-08.vietnam-operations]].'
+      tags:
+      - province:quang-tin
+    section: '196512'
+- add:
+    entry:
+      id: cal.1966-01-08.vietnam-operations
+      when: Jan. 8
+      date: '1966-01-08'
+      thread: vietnam-operations
+      c: 'Crimp, in the woods on the Saigon River''s west bank opposite the Iron Triangle, in Bình Dương and Hậu Nghĩa: the 173d Airborne Brigade with an Australian battalion, and a brigade of the 1st Infantry Division. Tunnels lead to a deserted headquarters, very likely Military Region 4''s: some 7,500 documents. The 173d and the Australians: 128 Viet Cong counted killed, and possibly 190 more; 23 of their own killed, 102 wounded. The 1st Division''s brigade out Jan. 12.'
+      n: '[[w.carland-united-states-army-in]], 169–173. Check: Carland has Crimp launched "the day before" Marauder I ended, the morning of Jan. 8, and the 3d Brigade''s part beginning that morning.'
+      tags:
+      - place:operation-crimp
+      - province:binh-duong
+      - province:hau-nghia
+    section: '196601'
+- add:
+    entry:
+      id: cal.1966-03-09.vietnam-operations
+      when: Mar. 9–10
+      date: '1966-03-09'
+      thread: vietnam-operations
+      c: A Shau. The 95th Regiment of the 325th North Vietnamese Division attacks the Special Forces camp in the A Shau Valley, western Thừa Thiên; the final assaults the early morning of Mar. 10; the camp overrun. Marine helicopters fly 131 sorties, Mar. 9–12, and bring out 161 of the 186 survivors. Of a garrison of 434, 248 dead or missing.
+      n: Remarks Upon Presenting the Medal of Honor to Maj. Bernard F. Fisher, USAF, [1967 Pub. Papers 28](https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=96) (Jan. 19, 1967). [[w.def-u-s-viet-rels-iv-c-6-a]], 46–47; [[w.shulimson-u-s-marines-in-1982]], 56–64; [[w.phillips-shau]].
+      tags:
+      - place:a-shau-valley
+      - province:thua-thien
+    section: '196603'
+- add:
+    entry:
+      id: cal.1966-07-15.vietnam-operations
+      when: July 15
+      date: '1966-07-15'
+      thread: vietnam-operations
+      c: 'Hastings, below the demilitarized zone, against the 324B North Vietnamese Division, come south into Quảng Trị: Task Force Delta''s two battalions landed by helicopter in the Ngan Valley; two CH-46s collide in the landing zone and a third hits a tree; another shot down that evening. With the South Vietnamese Lam Son-289.'
+      n: Remarks Upon Presenting the Medal of Honor to Maj. Robert J. Modrzejewski and 2d Lt. John J. McGinty III, USMC, [1968–69 Pub. Papers 376](https://www.govinfo.gov/content/pkg/PPP-1968-book1/pdf/PPP-1968-book1.pdf#page=454) (Mar. 12, 1968). [[w.shulimson-u-s-marines-in-1982]], 159–176.
+      tags:
+      - place:operation-hastings
+      - place:dmz
+    section: '196607'
+- add:
+    entry:
+      id: cal.1966-08-03.vietnam-operations
+      when: Aug. 3
+      date: '1966-08-03'
+      thread: vietnam-operations
+      c: 'Hastings ends, one battalion left in its area. Some 8,000 Marines and 3,000 South Vietnamese engaged against elements of all three regiments of the 324B Division. Marines: 126 killed, 448 wounded; South Vietnamese: 21 killed, 40 wounded. Reported: over 700 of the enemy killed, 17 captured.'
+      n: '[[w.shulimson-u-s-marines-in-1982]], 175–176. See [[cal.1966-07-15.vietnam-operations]].'
+      tags:
+      - place:operation-hastings
+    section: '196608'
+- add:
+    entry:
+      id: cal.1966-09-14.vietnam-operations
+      when: Sept. 14
+      date: '1966-09-14'
+      thread: vietnam-operations
+      c: 'Attleboro begins: battalion probes around Tây Ninh by the 196th Light Infantry Brigade, new to the country, searching for caches west of the Saigon River.'
+      n: '[[w.macgarrigle-united-states-army-in]], 31–59; [[w.rogers-cedar-falls-junction-city]], 11.'
+      tags:
+      - place:tay-ninh
+    section: '196609'
+- add:
+    entry:
+      id: cal.1966-11-03.vietnam-operations
+      when: Nov. 3
+      date: '1966-11-03'
+      thread: vietnam-operations
+      c: 'Attleboro. North from the cache sites near Dầu Tiếng toward the Ba Hao stream, the 196th Brigade''s battalions run into the Viet Cong 9th Division, whose own offensive was to open that day: the operation grows into a battle of the 25th and 1st Divisions, eighteen American and three South Vietnamese battalions, some 22,000 troops in all. The 1st Division''s heaviest fighting Nov. 8.'
+      n: '[[w.macgarrigle-united-states-army-in]], 37–56. See [[cal.1966-09-14.vietnam-operations]].'
+      tags:
+      - place:tay-ninh
+    section: '196611'
+- add:
+    entry:
+      id: cal.1966-11-25.vietnam-operations
+      when: Nov. 25
+      date: '1966-11-25'
+      thread: vietnam-operations
+      c: 'Attleboro ends, its last unit back at Tây Ninh. The accepted count: 1,016 of the enemy dead. B-52s: 225 sorties, 4,000 tons; Air Force fighters and bombers over 1,600 sorties.'
+      n: '[[w.macgarrigle-united-states-army-in]], 54–57. See [[cal.1966-09-14.vietnam-operations]]. Check: Rogers has it ending Nov. 24 (p. 11).'
+      tags:
+      - place:tay-ninh
+    section: '196611'
+- add:
+    entry:
+      id: cal.1967-01-26.vietnam-operations
+      when: Jan. 26
+      date: '1967-01-26'
+      thread: vietnam-operations
+      c: 'Cedar Falls ends at midnight, after nineteen days. Counted: nearly 750 of the enemy dead, 280 prisoners, 540 ralliers, 512 suspects detained, 5,987 refugees moved; 3,700 tons of rice taken. American losses 72 killed, 337 wounded; South Vietnamese 11 killed, 8 wounded.'
+      n: '[[w.rogers-cedar-falls-junction-city]], 59, 74–75; [[w.thayer-systems-analysis-view]], vol. 4, 132. See [[cal.1967-01-08.vietnam]].'
+      tags:
+      - place:iron-triangle
+    section: '196701'
+- add:
+    entry:
+      id: cal.1967-03-20.vietnam-operations
+      when: Mar. 20
+      date: '1967-03-20'
+      thread: vietnam-operations
+      c: 'Junction City: Ấp Bàu Bàng. From a probe at 10:50 p.m., Mar. 19, the Viet Cong 273d Regiment attacks Fire Support Base 20, on Route 13, held by a troop of the 3d Squadron, 5th Cavalry, and a battery of artillery: 227 of the enemy counted dead, 3 prisoners; 3 Americans killed, 63 wounded.'
+      n: Presidential Unit Citation Awarded to Units of the 3d Squadron, 5th Cavalry, 9th Infantry Division, and to Battery B, 7th Battalion, 9th Artillery, USA, [1968–69 Pub. Papers 1160](https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=470) (Dec. 3, 1968). [[w.rogers-cedar-falls-junction-city]], 129–135. See [[cal.1967-02-22.vietnam]].
+      tags: []
+    section: '196703'
+- add:
+    entry:
+      id: cal.1967-03-21.vietnam-operations
+      when: Mar. 21
+      date: '1967-03-21'
+      thread: vietnam-operations
+      c: 'Junction City: Suối Tre. The Viet Cong 272d Regiment, reinforced, attacks Fire Support Base Gold, held by a battalion of the 22d Infantry and one of the 77th Artillery, before dawn; over by 10:45 a.m. Counted: 647 of the enemy dead, 7 prisoners, 65 crew-served and 94 individual weapons. American losses 31 killed, 109 wounded.'
+      n: Presidential Unit Citation Awarded Units of the 3d Brigade, 4th Infantry Division, USA, [1968–69 Pub. Papers 971](https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=281) (Sept. 23, 1968). [[w.rogers-cedar-falls-junction-city]], 135–140. See [[cal.1967-02-22.vietnam]].
+      tags:
+      - place:war-zone-c
+      - province:tay-ninh
+    section: '196703'
+- add:
+    entry:
+      id: cal.1967-03-31.vietnam-operations
+      when: Mar. 31–Apr. 1
+      date: '1967-03-31'
+      thread: vietnam-operations
+      c: 'Junction City: Ấp Gù, in War Zone C. Haig''s 1st Battalion, 26th Infantry, and the 1st Battalion, 16th Infantry, at Landing Zone George; mortared from 4:55 a.m., Apr. 1, then attacked by the Viet Cong 271st Regiment and elements of the 70th Guard Regiment. In the two days, 609 of the enemy killed, 5 captured; 17 Americans killed, 102 wounded.'
+      n: '[[w.rogers-cedar-falls-junction-city]], 140–147. See [[cal.1967-02-22.vietnam]]. Names: Haig.'
+      tags:
+      - name:haig-alexander-m-jr
+      - place:war-zone-c
+      - province:tay-ninh
+    section: '196703'
+- add:
+    entry:
+      id: cal.1967-04-24.vietnam-operations
+      when: Apr. 24
+      date: '1967-04-24'
+      thread: vietnam-operations
+      c: 'The hill fights at Khe Sanh begin: a Marine patrol sent to set up an observation post on Hill 861 meets North Vietnamese troops; one man of the post escapes. Hill 861 taken Apr. 28, Hill 881 South May 2.'
+      n: '[[w.telfer-u-s-marines-in]], 34–45; [[w.andrew-hill-fights]].'
+      tags:
+      - place:khe-sanh
+    section: '196704'
+- add:
+    entry:
+      id: cal.1967-05-05.vietnam-operations
+      when: May 5
+      date: '1967-05-05'
+      thread: vietnam-operations
+      c: 'The Marines take Hill 881 North, 2:45 p.m. The first battle for Khe Sanh, Apr. 24–May 11: reported, 940 of the enemy killed; 155 Marines dead, 425 wounded. The 26th Marines take over the base and the hills, May 11–13.'
+      n: '[[w.telfer-u-s-marines-in]], 44–46. See [[cal.1967-04-24.vietnam-operations]].'
+      tags:
+      - place:khe-sanh
+    section: '196705'
+- add:
+    entry:
+      id: cal.1967-05-14.vietnam-operations
+      when: May 14
+      date: '1967-05-14'
+      thread: vietnam-operations
+      c: 'Junction City ends at midnight, the largest offensive operation of the war to that time. Its final totals: 2,728 of the enemy killed, 34 prisoners, 139 ralliers; 100 crew-served and 491 individual weapons, over 810 tons of rice. American losses 282 killed, 1,576 wounded.'
+      n: '[[w.rogers-cedar-falls-junction-city]], 149–151. See [[cal.1967-02-22.vietnam]].'
+      tags:
+      - place:junction-city
+      - place:war-zone-c
+    section: '196705'
+- add:
+    entry:
+      id: cal.1967-07-02.vietnam-operations
+      when: July 2
+      date: '1967-07-02'
+      thread: vietnam-operations
+      c: Buffalo. North of Côn Thiên, near the old marketplace on Route 561, two companies of the 1st Battalion, 9th Marines, caught by North Vietnamese infantry and artillery; the battalion's losses that day 53 killed, 190 wounded, 34 missing (by July 5, 84 dead and 9 missing). The 3d Battalion, 9th Marines, sent in.
+      n: '[[w.telfer-u-s-marines-in]], 95–104; [[w.nolan-operation-buffalo]]. See [[cal.1967-09.vietnam]].'
+      tags:
+      - place:con-thien
+      - place:dmz
+    section: '196707'
+- add:
+    entry:
+      id: cal.1967-07-14.vietnam-operations
+      when: July 14
+      date: '1967-07-14'
+      thread: vietnam-operations
+      c: Buffalo closes. The Marines report 1,290 of the enemy dead and 2 captured; their own losses 159 killed, 345 wounded. The last significant engagement, July 8, southwest of Côn Thiên.
+      n: '[[w.telfer-u-s-marines-in]], 103–104. See [[cal.1967-07-02.vietnam-operations]].'
+      tags:
+      - place:con-thien
+    section: '196707'
+- add:
+    entry:
+      id: cal.1967-09-04.vietnam-operations
+      when: Sept. 4
+      date: '1967-09-04'
+      thread: vietnam-operations
+      c: Swift, in the Quế Sơn basin, out of a sweep to screen the polling places on election day. Before dawn, 4:30 a.m., the 2d North Vietnamese Division strikes Company D of the 5th Marines; the battalions of the 5th Marines committed. To Sept. 15.
+      n: '[[w.telfer-u-s-marines-in]], 111–119.'
+      tags:
+      - province:quang-nam
+      - province:quang-tin
+    section: '196709'
+- add:
+    entry:
+      id: cal.1967-10-17.vietnam-operations
+      when: Oct. 17
+      date: '1967-10-17'
+      thread: vietnam-operations
+      c: Ông Thành, a stream near the Bình Dương–Bình Long line. The 2d Battalion, 28th Infantry, of the 1st Infantry Division, ambushed in the jungle; its commander killed. American losses 56 killed, 75 wounded, 2 missing.
+      n: '[[w.macgarrigle-united-states-army-in]], 353–361; [[w.villard-united-states-army-in]], 50, 101–102.'
+      tags:
+      - place:ong-thanh
+    section: '196710'
+- add:
+    entry:
+      id: cal.1967-10-29.vietnam-operations
+      when: Oct. 29
+      date: '1967-10-29'
+      thread: vietnam-operations
+      c: Lộc Ninh, Bình Long Province, near the Cambodian border. At about 1 a.m., the Viet Cong 9th Division's rockets and mortars on the Special Forces camp and the district headquarters; two battalions of the 273d Regiment break into the compound and are driven out by 4 a.m. Further attacks Oct. 31 and Nov. 1–2; the 273d's losses estimated at 600, Oct. 29–Nov. 2.
+      n: '[[w.villard-united-states-army-in]], 48–60.'
+      tags:
+      - place:loc-ninh
+    section: '196710'
+- add:
+    entry:
+      id: cal.1967-11-07.vietnam-operations
+      when: Nov. 7
+      date: '1967-11-07'
+      thread: vietnam-operations
+      c: Lộc Ninh's last fight. The 1st Battalion, 26th Infantry, searching for the 272d Regiment northeast of the town, hit; its commander and command group killed by rocket-propelled grenades; 18 killed, 22 wounded; 66 of the enemy dead left. The week-long battle over.
+      n: '[[w.villard-united-states-army-in]], 60–62. See [[cal.1967-10-29.vietnam-operations]].'
+      tags:
+      - place:loc-ninh
+    section: '196711'
+- add:
+    entry:
+      id: cal.1967-11-19.vietnam-operations
+      when: Nov. 19
+      date: '1967-11-19'
+      thread: vietnam-operations
+      c: 'Đắk Tô: Hill 875. The 2d Battalion, 503d Infantry, of the 173d Airborne Brigade, starts up the hill against the North Vietnamese 174th Regiment. That evening a misplaced bomb kills 42 paratroopers and wounds 45.'
+      n: '[[w.villard-united-states-army-in]], 170–174; [[w.eggleston-dak-to-and-the]]. See [[cal.1967-11-03.vietnam]].'
+      tags:
+      - place:hill-875
+      - place:dak-to
+    section: '196711'
+- add:
+    entry:
+      id: cal.1967-11-23.vietnam-operations
+      when: Nov. 23
+      date: '1967-11-23'
+      thread: vietnam-operations
+      c: 'Thanksgiving Day. The 2d and 4th Battalions, 503d Infantry, and the 1st Battalion, 12th Infantry, take the top of Hill 875 about 11:30 a.m.: 298 North Vietnamese dead found. The 2d Battalion''s dead Nov. 19–23, 95; the 4th''s, 18. The battles around Đắk Tô, by the Army''s count: 283 Americans killed, 1,188 wounded; 61 South Vietnamese killed.'
+      n: '[[w.villard-united-states-army-in]], 176–179. See [[cal.1967-11-03.vietnam]].'
+      tags:
+      - place:hill-875
+      - place:dak-to
+    section: '196711'
+- add:
+    entry:
+      id: cal.1968-03-11.vietnam-operations
+      when: Mar. 11
+      date: '1968-03-11'
+      thread: vietnam-operations
+      c: 'Quyết Thắng, the largest allied operation yet in III Corps, around Saigon: six American and ten South Vietnamese brigade equivalents, Weyand''s and Khang''s sweeps merged at Westmoreland''s direction. By Apr. 7, some 1,420 of the enemy killed, over 500 weapons, about 107 tons of rice.'
+      n: '[[w.villard-united-states-army-in]], 460–463. Names: Weyand, Westmoreland.'
+      tags:
+      - name:weyand-frederick-c
+      - name:westmoreland-william
+      - place:saigon
+      - province:hau-nghia
+      - province:long-an
+    section: '196803'
+- add:
+    entry:
+      id: cal.1968-04-08.vietnam-operations
+      when: Apr. 8
+      date: '1968-04-08'
+      thread: vietnam-operations
+      c: 'Toàn Thắng follows Quyết Thắng, out from the districts around Saigon to most of III Corps: some seventy-nine allied maneuver battalions; the South Vietnamese 18th Division and the Australian task force in it.'
+      n: '[[w.villard-united-states-army-in]], 464–466. See [[cal.1968-03-11.vietnam-operations]].'
+      tags:
+      - province:long-khanh
+      - province:binh-tuy
+    section: '196804'
+- add:
+    entry:
+      id: cal.1968-04-19.vietnam-operations
+      when: Apr. 19
+      date: '1968-04-19'
+      thread: vietnam-operations
+      c: 'Delaware: the 1st Cavalry Division into the A Shau Valley, with the 101st Airborne pushing west along Route 547. Two battalions and a battery flown into the north of the valley; 23 aircraft hit the first day, 10 of them down or too damaged to fly; 4 killed, 20 wounded.'
+      n: '[[w.villard-united-states-army-in]], 517–527; [[w.phillips-shau]].'
+      tags:
+      - place:a-shau-valley
+      - province:thua-thien
+    section: '196804'
+- add:
+    entry:
+      id: cal.1968-04-30.vietnam-operations
+      when: Apr. 30–May 2
+      date: '1968-04-30'
+      thread: vietnam-operations
+      c: 'The 320th North Vietnamese Division strikes north of Đông Hà, the 3d Marine Division''s command post and base. The fight for the Dai Do hamlets, Apr. 30–May 2: the Marines'' BLT 2/4 loses 81 dead and nearly 300 wounded.'
+      n: '[[w.shulimson-u-s-marines-in-1997]], 291–304. Check: the hamlet''s Vietnamese form.'
+      tags:
+      - place:dong-ha
+      - province:quang-tri
+    section: '196804'
+- add:
+    entry:
+      id: cal.1968-05-10.vietnam-operations
+      when: May 10
+      date: '1968-05-10'
+      thread: vietnam-operations
+      c: Khâm Đức. The 2d North Vietnamese Division's assault on Ngok Tavak, the smaller camp seven kilometers southwest of the Special Forces camp at Khâm Đức, Quảng Tín; its defenders abandon it. The Americal Division sends reinforcements to Khâm Đức (Golden Valley).
+      n: '[[w.villard-united-states-army-in]], 539–543; [[w.mcleroy-bait]].'
+      tags:
+      - place:kham-duc
+    section: '196805'
+- add:
+    entry:
+      id: cal.1968-05-12.vietnam-operations
+      when: May 12
+      date: '1968-05-12'
+      thread: vietnam-operations
+      c: 'Khâm Đức evacuated under fire. At 2:30 a.m. the North Vietnamese overrun three of its five hilltop observation posts; the evacuation by Army and Marine helicopters and Air Force transports from about 8 a.m. Lost: 6 helicopters, 2 C-130s, an O-2 and an A-1E. Allied losses 25 killed, 120 wounded, 13 missing.'
+      n: Remarks Upon Presenting the Medal of Honor to a Member of Each of the Armed Services, [1968–69 Pub. Papers 1329](https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=639) (Jan. 16, 1969). [[w.villard-united-states-army-in]], 544–547; [[w.gropman-airpower-and-the-airlift]]. See [[cal.1968-05-10.vietnam-operations]].
+      tags:
+      - place:kham-duc
+    section: '196805'
+- add:
+    entry:
+      id: cal.1968-05-17.vietnam-operations
+      when: May 17
+      date: '1968-05-17'
+      thread: vietnam-operations
+      c: Delaware ends, the 1st Brigade out the day before. Some 850 of the enemy killed, hundreds of tons of food, weapons and equipment taken or destroyed; 142 American and 26 South Vietnamese soldiers killed; 11 helicopters destroyed, 35 damaged.
+      n: '[FRUS 1964–68, VI, doc. 228](https://history.state.gov/historicaldocuments/frus1964-68v06/d228) (Bunker, May 10). [[w.villard-united-states-army-in]], 538–539. See [[cal.1968-04-19.vietnam-operations]].'
+      tags:
+      - place:a-shau-valley
+    section: '196805'
+- add:
+    entry:
+      id: cal.1968-07-05.vietnam-khe-sanh
+      when: July 5
+      date: '1968-07-05'
+      thread: vietnam-khe-sanh
+      c: The Khe Sanh Combat Base officially closed, 8 p.m.; the 1st Marines' last vehicles to Ca Lu by convoy the next day.
+      n: '[[w.shulimson-u-s-marines-in-1997]], 326. See [[cal.1968-01-21.vietnam]].'
+      tags:
+      - place:khe-sanh
+    section: '196807'
+- add:
+    entry:
+      id: cal.1968-08-18.vietnam-operations
+      when: Aug. 18
+      date: '1968-08-18'
+      thread: vietnam-operations
+      c: 'The third offensive. In Tây Ninh Province, from the night of Aug. 17–18: Tây Ninh City attacked; sappers into the relay station on Núi Bà Đen; the 5th Division''s regiments on the roads to Dầu Tiếng. In II Corps, a Special Forces camp in Kon Tum attacked the same morning.'
+      n: '[[w.villard-united-states-army-in]], 646–649, 658.'
+      tags:
+      - place:tay-ninh
+    section: '196808'
+- add:
+    entry:
+      id: cal.1968-11-20.vietnam-operations
+      when: Nov. 20
+      date: '1968-11-20'
+      thread: vietnam-operations
+      c: 'Meade River: seven Marine battalions ring some 36 square kilometers of "Dodge City," fifteen kilometers south of Đà Nẵng, by 8:25 a.m., the largest cordon and search to that time.'
+      n: '[[w.shulimson-u-s-marines-in-1997]], 425–427.'
+      tags:
+      - place:operation-meade-river
+      - province:quang-nam
+    section: '196811'
+- add:
+    entry:
+      id: cal.1968-12-09.vietnam-operations
+      when: Dec. 9
+      date: '1968-12-09'
+      thread: vietnam-operations
+      c: Meade River ends, 6 p.m. The Marines report 1,023 of the enemy dead, 123 prisoners, 6 ralliers; their own losses 108 dead, 510 wounded.
+      n: '[[w.shulimson-u-s-marines-in-1997]], 436. See [[cal.1968-11-20.vietnam-operations]].'
+      tags:
+      - place:operation-meade-river
+    section: '196812'

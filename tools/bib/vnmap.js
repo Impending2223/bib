@@ -285,6 +285,7 @@ class Figure {
       style: style(M, C, this.placesFC()),
       bounds: home, fitBoundsOptions: {padding: 8},
       maxBounds: M.bounds, renderWorldCopies: false,
+      pixelRatio: Math.min(window.devicePixelRatio || 1, 2),   // a phone's 2.6 or 3 drawn at 2: fewer pixels a frame
       cooperativeGestures: true, dragRotate: false, pitchWithRotate: false, touchPitch: false, rollEnabled: false,
       attributionControl: {compact: true, customAttribution: M.credit.page},
       locale: {'CooperativeGesturesHandler.WindowsHelpText': 'Ctrl and the wheel to zoom',

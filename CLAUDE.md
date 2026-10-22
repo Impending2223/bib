@@ -1257,6 +1257,10 @@ tools/indicators/make_war.py  The war (war-deaths.yaml, war-strength.yaml) and s
                               counted, the figures printed then read by hand (THEN_* in the script; needs the network once)
 tools/indicators/make_war_forces.py  the enemy and the allies (war-enemy-*.yaml, war-infiltration, war-rvnaf-*, war-fwmaf-
                               strength): every figure read by eye off Thayer, Collins, Larsen and FRUS, by page, in the script
+tools/indicators/make_war_air.py  the air war (war-air-attack.yaml, war-air-nvn-rp.yaml): attack sorties by country, as OSD's
+                              Report printed them (Thayer, vol. 5, THEN in the script) and as NARA's CACTA file counts them
+                              (--count reads every month over the network into sources/war-air-cacta.json; the build does not)
+tools/bib/warair.py           the air war rows' checks (STYLE notes at the top)
 tools/bib/war.py              renders The war's cells and checks them (STYLE notes at the top)
 tools/bib/wartable.py         The war table, under the first Thursday of each month (STYLE notes at the top)
 tools/bib/afday.py            the forces tables under Armed Forces Day, the third Saturday in May (STYLE notes at the top)
@@ -1375,6 +1379,17 @@ the series index, the README and the top bar (数; at first kept out of the bar,
   by the volume's page. A figure read once, from a source dated more than a year after its period, is "later".
   `check`: figures counts and sourced, parts adding to totals (or a `printed` note saying how the source's differ), a
   table on a day the calendar holds [war-table].
+- The air war (`tools/indicators/make_war_air.py`, its docstring the rules of the count; `tools/bib/warair.py`, its STYLE):
+  U.S. and VNAF fixed-wing attack sorties (strike, flak suppression, interdiction, armed reconnaissance, close and direct
+  air support; not the B-52s) by the target's country, North Vietnam, Laos, South Vietnam, monthly, in The war table:
+  then, as OSD's *Southeast Asia Analysis Report* printed them, Nov. 1966-Nov. 1968, where it gave a month (Thayer, vol.
+  5, read by eye off the page images: pp. 222, 240, 254, 260, 275, 280, 284, 289); later, the Combat Air Activities
+  file (CACTA, RG 529, NARA series 2123846, open on the catalog), counted: each sortie once (mission, sortie and launch
+  unit), under its first target's country, by its number of aircraft. 32 months of Oct. 1965-Dec. 1968 survive (none
+  for Aug. 1966, July and Nov. 1967, Mar., Apr., July and Nov. 1968; July 1966 to the 15th); North Vietnam by route
+  package from Sept. 1966 (`war-air-nvn-rp`, CACTA only). The count runs some 5 to 15 percent under the Report in Laos
+  and North Vietnam (Jan.-Feb. 1968), close to it in South Vietnam; both shown, never one for the other. Tonnage not
+  yet: the load fields (LTONS, LCLAS) need NARA's subroutine DLTNS, not in the documentation read (`notes/leads.md`).
 - Armed Forces Day (the owner's request, Oct. 22, 2026; `tools/bib/afday.py`, its STYLE): the year's forces tables under
   the third Saturday in May, 1960-68 (Proclamation 3399, Mar. 18, 1961, "the third Saturday of May in 1961 and ... each
   succeeding year"; Proclamation 3655, May 7, 1965, the same): the U.S. and world forces (`tools/bib/forces.py`,
