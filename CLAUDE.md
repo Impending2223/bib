@@ -1144,7 +1144,7 @@ tools/bib/elections.py              renders the blocks and checks the data (STYL
   `review/READER.md`; `review.py verify`, then `merge`; rerun `make_elections.py` (it should
   leave nothing); `review.py audit YEAR`; `./bib check`; then tag the calendar entry.
 - Colors are tokens at the top of `templates/congress.html` (its CSS is in commented
-  sections). Result: four steps a side (`--eR1`–`--eR4`, `--eB1`–`--eB4`).
+  sections); the parties' are the *New York Times*'s election colors (the owner's choice, Oct. 22, 2026: #1375B7, #C93135). Result: four steps a side (`--eR1`–`--eR4`, `--eB1`–`--eB4`).
   Margin: a straight line in OKLab from `--rW` (near white) at a tie to `--rR`/`--rB`, the darkest steps, by the
   quantile rule: a margin's position is the share of the 2,291 contested races for presidential electors,
   1824–2024, decided by less (`elections/pres-margins.csv`, written by `tools/elections/pres_margins.py`; the
