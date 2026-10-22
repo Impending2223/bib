@@ -132,10 +132,14 @@ def run(series, only=None):
                        for s in lst.thread_line(t)}
             for t, te in threads.items():           # an old name (`see:`) points to a thread, and no entry takes it
                 if te.get("see"):
-                    if te["see"] not in threads or threads[te["see"]].get("see"):
-                        add(ERROR, f"{lst.key}.thread.{t}", f"see: {te['see']!r} is not a thread")
+                    for to in store.as_list(te["see"]):   # one thread, or several ("Legislatures")
+                        if to not in threads or threads[to].get("see"):
+                            add(ERROR, f"{lst.key}.thread.{t}", f"see: {to!r} is not a thread")
                     if t in members:
                         add(ERROR, f"{lst.key}.thread.{t}", "an old name (see:) is taken as a thread by an entry")
+                for to in store.as_list(te.get("see_also")):  # a statement's See also line (calsplit.py, STYLE 11)
+                    if to not in threads or threads[to].get("see") or to == t:
+                        add(ERROR, f"{lst.key}.thread.{t}", f"see_also: {to!r} is not another thread")
             for t, te in threads.items():           # a subthread names a thread that exists, and not itself
                 par = te.get("parent")
                 if par and (par not in threads or t in lst.thread_line(par)):
@@ -216,6 +220,10 @@ def run(series, only=None):
     from . import oil
     for where, msg in oil.problems(indicators.load()):
         add(ERROR, f"indicators/{where}.yaml", msg, "indicators")
+    # the indicators' master statement and the calendar's servants (indicators/concepts.yaml; tools/bib/concepts.py)
+    from . import concepts
+    for level, where, msg in concepts.problems(series):
+        add(ERROR if level == "error" else WARN, where, msg, "indicator-servant")
     # election returns (elections/*.yaml)
     from . import elections
     for where, msg in elections.problems():
@@ -252,6 +260,10 @@ def run(series, only=None):
     from . import bills
     for where, msg in bills.problems(series):
         add(ERROR, where, msg, "bills")
+    # the tables and maps the contents list (tools/bib/contents.py)
+    from . import contents
+    for where, msg in contents.problems(series):
+        add(WARN, where, msg, "contents")
     # the calendar's places in Indochina (place: and province: tags; sources/vn-provinces-1966)
     from . import vnmap
     for where, msg in vnmap.problems(series):
@@ -280,6 +292,12 @@ def run(series, only=None):
     from . import daybook
     for where, msg in daybook.problems():
         add(ERROR, "daybook/", f"{where}: {msg}", "daybook")
+    from . import ebooks                 # the FRUS text extract the ebooks are bound from (sources/frus-text/)
+    errs, warns = ebooks.problems()
+    for where, msg in errs:
+        add(ERROR, where, msg, "ebooks")
+    for where, msg in warns:
+        add(WARN, where, msg, "ebooks")
     # the committees' meetings (daybook/committees/, tools/daybook/make_committees.py)
     from . import committees
     for where, msg in committees.problems():
@@ -294,7 +312,7 @@ def run(series, only=None):
             continue
         from .build import thread_name
         names = [thread_name(lst, s) for s in lst.threads()]
-        keys = [thread_sort_key(n) for n in names]
+        keys = [thread_key(lst, s) for s in lst.threads()]
         if keys != sorted(keys):
             bad = next(n for n, k, w in zip(names, keys, sorted(keys)) if k != w)
             add(WARN, f"lists/{lst.key}/th.yaml", f"threads out of alphabetical order at {bad!r}", "thread-order")
@@ -309,6 +327,18 @@ def run(series, only=None):
 
 
 THREAD_SORT_AS = {"War on poverty": "poverty", "Bobby Baker": "Baker", "Robert Kennedy": "Kennedy"}
+
+
+def thread_key(lst, slug):
+    """A thread's place in th.yaml: its hidden `sort:` where it has one ("1960 Elections" sorts as "Elections of
+    1960", "Special elections" as "Elections, special"); a subthread under its parent's key; else its name's."""
+    e = lst.threads()[slug]
+    if e.get("sort"):
+        return e["sort"].lower()
+    if e.get("parent") in lst.threads():
+        return thread_key(lst, e["parent"]) + ": " + (e.get("s") or "").lower()
+    from .build import thread_name
+    return thread_sort_key(thread_name(lst, slug))
 
 
 def thread_sort_key(name):

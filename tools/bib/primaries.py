@@ -35,7 +35,7 @@ import os
 import re
 from collections import Counter, defaultdict
 
-from . import store
+from . import contents, store
 
 PATH = os.path.join(store.ROOT, "elections", "pres-primaries.yaml")
 NAMES = {(1976, "Brown"): "Edmund G. Brown Jr."}     # a bare surname the year's tables give in full nowhere
@@ -407,8 +407,7 @@ def inject(page, series):
             used = used or bool(blk)
         if not blk:
             continue
-        pat = re.compile(r'(<li id="' + re.escape(eid) + r'"[^>]*>.*?)(</li>)', re.S)
-        page = pat.sub(lambda mm: mm.group(1) + blk + mm.group(2), page, count=1)
+        page, _ = contents.put(page, eid, blk, "primary" if k == "day" else "primaries", v if k == "day" else f"{v[0]}-{v[1]}")
     if used and 'id="cggeo"' not in page:
         from . import congress
         data, geo = congress.load()

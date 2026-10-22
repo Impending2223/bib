@@ -1,6 +1,7 @@
 """The war in the calendar's monthly tables: U.S. deaths in Southeast Asia and U.S. military personnel in South
 Vietnam (indicators/war-deaths.yaml, indicators/war-strength.yaml, kind: war; written by tools/indicators/make_war.py).
-tools/bib/indicators.py files and lays out the rows (group "The war"); this module writes their cells and definitions.
+tools/bib/indicators.py files and lays out the rows (group "The war"); this module writes their cells. The definitions
+are the master's (indicators/concepts.yaml; tools/bib/concepts.py).
 
 STYLE (keep it):
  1. Deaths, a stacked cell in the indicators' grid: "All causes", "Hostile", "Since 1961" (all causes from Jan. 1,
@@ -19,42 +20,9 @@ def esc(t):
     return str(t).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace('"', "&quot;")
 
 
-NARA = "https://catalog.archives.gov/id/2240992"
-NARA_STATS = "https://www.archives.gov/research/military/vietnam-war/casualty-statistics"
-SA67 = "https://www.census.gov/library/publications/1967/compendia/statab/88ed.html"
-SA68 = "https://www.census.gov/library/publications/1968/compendia/statab/89ed.html"
-SA69 = "https://www.census.gov/library/publications/1969/compendia/statab/90ed.html"
-THAYER8 = "https://archive.org/details/DTIC_ADA051613"
-SMS74 = "https://archive.org/details/DTIC_ADA043053"
-
-DEFS = {
-    "war-deaths": (
-        "Members of the armed forces who died in the war in Southeast Asia, by the month (from Jan. 1965) or year of "
-        "the incident or death: all causes, hostile (killed in action, died of wounds, died while missing or "
-        "captured), and all causes since Jan. 1, 1961, the start of the Department of Defense's period. Today: "
-        f"[NARA, Defense Casualty Analysis System, Vietnam Conflict Extract Data File, as of Apr. 29, 2008]({NARA}) "
-        "(RG 330, NAID 2240992), one record a death, 58,220, counted by the incident or death date; the missing "
-        "declared dead years later are filed at the incident. NARA's own counts by year agree "
-        f"([casualty statistics]({NARA_STATS})). As first reported: the hostile deaths as first printed. By year, "
-        f"the *Statistical Abstract of the United States*, from the Defense Department's *Selected Manpower "
-        f"Statistics*: [88th ed. (July 1967)]({SA67}), table 372, p. 264 (1961 to 1966; no earlier edition prints the "
-        f"table); [89th ed. (June 1968)]({SA68}), table 373, p. 258 (1967); [90th ed. (June 1969)]({SA69}), table 373, "
-        "p. 256 (1968). By month, Jan.-Sept. 1967 only: the Office of the Assistant Secretary of Defense (Systems "
-        "Analysis), *Southeast Asia Analysis Report*, Oct. 1967, \"U.S. Casualties,\" Table 1, dated Oct. 10, 1967, "
-        "Confidential then, not a release ([Thomas C. Thayer, ed., *A Systems Analysis View of the Vietnam War, "
-        f"1965–1972*, vol. 8 (1975)]({THAYER8}), p. 102). The weekly figures MACV and the Pentagon announced each "
-        "Thursday, as the papers printed them, are not read here: \"—\". The two columns differ by the late "
-        "reports and by the missing later declared dead, counted at the incident today."),
-    "war-strength": (
-        "Members of the armed forces in South Vietnam (personnel on ships off the coast excluded), all services. "
-        f"Today: the Defense Department's table of 1974, *Selected Manpower Statistics*, FY 1974 ([OASD "
-        f"(Comptroller), 1975]({SMS74})), \"U.S. Military Personnel in South Vietnam 1960–1973,\" p. 63: June 30 and "
-        "Dec. 31 each year; the peak, 543,400, Apr. 30, 1969. As first reported: the *Statistical Abstract*'s table "
-        f"\"Viet-Nam Conflict—U.S. Military Forces and Casualties,\" Dec. 31 and the end of the edition's first "
-        f"quarter ([88th ed., July 1967]({SA67}), table 372, p. 264; [89th ed., June 1968]({SA68}), table 373, p. "
-        f"258; [90th ed., June 1969]({SA69}), table 373, p. 256). MACV's month-end strength (its command histories) "
-        "and the weekly strength announced in Saigon are not read here: \"—\"."),
-}
+# The definitions: the master's (indicators/concepts.yaml; tools/bib/concepts.py).
+from . import concepts
+DEFS = {k: v for k, v in concepts.master_texts().items() if k in ("war-deaths", "war-strength")}
 
 LABEL = (("all", "All causes"), ("hostile", "Hostile"), ("cum", "Since 1961"))
 

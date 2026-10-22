@@ -40,9 +40,10 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-off
 #hdr .in{max-width:46rem;margin:0 auto;height:var(--hdr);display:flex;align-items:center;gap:.75rem;padding:0 1rem}
 #crumb{flex:1;min-width:0;font-family:var(--sans);font-size:.8rem;line-height:1.25;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 #crumb b{color:var(--ink);font-weight:600}
-nav.pg{display:flex;gap:.7rem;font-family:var(--sans);font-size:.8rem;font-weight:600;white-space:nowrap}
+nav.pg{display:flex;gap:.85rem;font-family:"Noto Serif CJK JP","Noto Serif JP","Hiragino Mincho ProN","Yu Mincho","Source Han Serif JP",var(--serif);font-size:1.15rem;font-weight:400;line-height:1;white-space:nowrap}  /* a glyph a page, its name on hover and to screen readers (the owner's request, Oct. 22, 2026) */
 nav.pg a{color:var(--accent);text-decoration:none}nav.pg a:hover{text-decoration:underline}
 #olbtn{font-family:var(--sans);font-size:.8rem;font-weight:600;border:1px solid var(--rule);background:var(--panel);color:var(--ink);border-radius:6px;padding:.4rem .7rem;cursor:pointer}
+@media (max-width:480px){nav.pg{gap:.55rem;font-size:1.05rem}#hdr .in{gap:.5rem;padding:0 .6rem}#olbtn{padding-left:.5rem;padding-right:.5rem}}
 
 main{max-width:42rem;margin:0 auto;padding:calc(var(--hdr) + 1.5rem) 1.25rem 6rem 1.25rem}
 @media (max-width:600px){main{padding-right:2.6rem}}
@@ -131,7 +132,7 @@ ol.e>li:last-child{border-bottom:0}
 
 <header id="hdr"><div class="in">
   <div id="crumb"><b>{{page_title}}</b></div>
-  <nav class="pg" aria-label="Pages"><a href="series.html">Series</a><a href="congress.html">Elections</a><a href="executive.html">Executive</a><a href="names.html">Names</a><a href="works.html">Works</a></nav>
+  <nav class="pg" aria-label="Pages"><a href="series.html" title="Series" aria-label="Series" lang="ja">本</a><a href="congress.html" title="Elections" aria-label="Elections" lang="ja">票</a><a href="executive.html" title="Executive" aria-label="Executive" lang="ja">長</a><a href="names.html" title="Names" aria-label="Names" lang="ja">名</a><a href="works.html" title="Works" aria-label="Works" lang="ja">文</a><a href="indicators.html" title="Indicators" aria-label="Indicators" lang="ja">数</a><a href="indochina.html" title="Indochina" aria-label="Indochina" lang="ja">図</a></nav>
   <button id="olbtn" aria-controls="drawer" aria-expanded="false">Outline</button>
 </div></header>
 
@@ -178,7 +179,13 @@ ol.e>li:last-child{border-bottom:0}
     [].slice.call(ol.querySelectorAll('ol')).forEach(function(o){ if(!o.children.length) o.remove(); });
   }
   buildTree(document.getElementById('tocList'));
-  buildTree(document.getElementById('drawerList'));
+  (function(){                       // a calendar's contents (its month grid, tools/bib/contents.py) shown in the drawer too
+    var tc=document.getElementById('tocCal'), dl=document.getElementById('drawerList');
+    if(!tc||!dl){ buildTree(dl); return; }
+    var c=tc.cloneNode(true); c.removeAttribute('id');
+    [].forEach.call(c.querySelectorAll('[id]'),function(x){ x.removeAttribute('id'); });
+    dl.parentNode.replaceChild(c,dl);
+  })();
 
   var hdrH=function(){return document.getElementById('hdr').offsetHeight;};
   var tops=[];

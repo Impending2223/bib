@@ -1,20 +1,24 @@
 <style>
-/* Colors, light and dark. p: the parties (pDs Southern Democrats; pT a third ticket). e: the election scales.
+/* Colors, light and dark. p: the parties (pDs Southern Democrats, pRs the Republicans' light stripe; pT a third ticket).
+   The parties' colors are the New York Times's election colors (the owner's choice, Oct. 22, 2026): democrat #1375B7,
+   republican #C93135, matched in lightness; in dark mode #0090C9 and #E23743; their light and faded tints for steps 1
+   and 2, step 3 the OKLab midpoint of faded and full; the dark mode's steps mixed in OKLab from the panel to the
+   dark-mode color; other #AD8A51. e: the election scales.
    Result: four steps a side, eR1-eR4 and eB1-eB4 (held 2, the President's winner 3, a pickup
    4). Margin: a straight line in OKLab from rW (near white; a dark gray in dark mode) at a tie out to rR or rB,
    the step-4 colors (rA, amber, a third ticket), placed by the quantile rule (QM in the script). Swing: from eN,
    gray, at none to eR4 or eB4 at SWING points. eN also the gray of other member changes in the tables; eNone no
    election; eHo a Senate seat not at stake: the base map's gray, a dot shown only by its ring. */
-:root{--pDs:#9DB4D6;--pD:#5878A8;--pR:#B0625E;--pO:#8C8A6E;--pV:#C9CDD3;--stb:#FFFFFF;--mk:#1A1E26}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--pDs:#46638F;--pD:#7D9CCB;--pR:#C9847F;--pO:#A9A688;--pV:#3C424C;--stb:#15181D;--mk:#E6E8EC}}
-:root[data-theme="dark"]{--pDs:#46638F;--pD:#7D9CCB;--pR:#C9847F;--pO:#A9A688;--pV:#3C424C;--stb:#15181D;--mk:#E6E8EC}
+:root{--pRs:#F7D7D7;--pDs:#84B1D3;--pD:#1375B7;--pR:#C93135;--pO:#AD8A51;--pV:#C9CDD3;--stb:#FFFFFF;--mk:#1A1E26}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--pRs:#743539;--pDs:#255D7D;--pD:#0090C9;--pR:#E23743;--pO:#AD8A51;--pV:#3C424C;--stb:#15181D;--mk:#E6E8EC}}
+:root[data-theme="dark"]{--pRs:#743539;--pDs:#255D7D;--pD:#0090C9;--pR:#E23743;--pO:#AD8A51;--pV:#3C424C;--stb:#15181D;--mk:#E6E8EC}
 :root{--eA1:#F2E4C6;--eA2:#E0C384;--eA3:#C49A45;--eA4:#8E6A24;--pT:#B98F3E}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--eA1:#463A22;--eA2:#755F31;--eA3:#AE8C4C;--eA4:#E0C68E;--pT:#C9A865}}
 :root[data-theme="dark"]{--eA1:#463A22;--eA2:#755F31;--eA3:#AE8C4C;--eA4:#E0C68E;--pT:#C9A865}
-:root{--rW:#FAFAF8;--rR:#8A3F38;--rB:#3F5F95;--rA:#8E6A24;--eHo:color-mix(in srgb,var(--pV) 55%,var(--panel));--eN:#DCDEE2;--eNone:#E3E5E9;--eNA:#D5D8DD}
-:root{--eR4:#8A3F38;--eR3:#C47168;--eR2:#DDA19B;--eR1:#EFCFCB;--eB1:#CCD8EC;--eB2:#9AB2DA;--eB3:#6A8BC2;--eB4:#3F5F95}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--rW:#30343B;--rR:#E8B2AB;--rB:#AEC4EA;--rA:#E0C68E;--eR4:#E8B2AB;--eR3:#C07A72;--eR2:#8C514B;--eR1:#5A3532;--eB1:#2F4364;--eB2:#4A6799;--eB3:#7896CC;--eB4:#AEC4EA;--eN:#3A3F47;--eNone:#262A31;--eNA:#30353D}}
-:root[data-theme="dark"]{--rW:#30343B;--rR:#E8B2AB;--rB:#AEC4EA;--rA:#E0C68E;--eR4:#E8B2AB;--eR3:#C07A72;--eR2:#8C514B;--eR1:#5A3532;--eB1:#2F4364;--eB2:#4A6799;--eB3:#7896CC;--eB4:#AEC4EA;--eN:#3A3F47;--eNone:#262A31;--eNA:#30353D}
+:root{--rW:#FAFAF8;--rR:#C93135;--rB:#1375B7;--rA:#8E6A24;--eHo:color-mix(in srgb,var(--pV) 55%,var(--panel));--eN:#DCDEE2;--eNone:#E3E5E9;--eNA:#D5D8DD}
+:root{--eR4:#C93135;--eR3:#D86E6C;--eR2:#E19FA2;--eR1:#F7D7D7;--eB1:#C9E5F7;--eB2:#96BFDD;--eB3:#5D9ACB;--eB4:#1375B7}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--rW:#30343B;--rR:#E23743;--rB:#0090C9;--rA:#E0C68E;--eR4:#E23743;--eR3:#AF393F;--eR2:#7E363A;--eR1:#583135;--eB1:#264256;--eB2:#265775;--eB3:#1F739E;--eB4:#0090C9;--eN:#3A3F47;--eNone:#262A31;--eNA:#30353D}}
+:root[data-theme="dark"]{--rW:#30343B;--rR:#E23743;--rB:#0090C9;--rA:#E0C68E;--eR4:#E23743;--eR3:#AF393F;--eR2:#7E363A;--eR1:#583135;--eB1:#264256;--eB2:#265775;--eB3:#1F739E;--eB4:#0090C9;--eN:#3A3F47;--eNone:#262A31;--eNA:#30353D}
 /* The presidential primaries (tools/bib/primaries.py): a color a candidate, q1-q9, in order of States won; qU
    unpledged slates. Categorical, light and dark. */
 :root{--q1:#4E79A7;--q2:#E8833A;--q3:#59A14F;--q4:#B07AA1;--q5:#D9B43A;--q6:#76B7B2;--q7:#E07B91;--q8:#9C755F;--q9:#7F7FBF;--qU:#A8A39B}
@@ -24,7 +28,7 @@
 .sw.q1{background:var(--q1)}.sw.q2{background:var(--q2)}.sw.q3{background:var(--q3)}.sw.q4{background:var(--q4)}.sw.q5{background:var(--q5)}.sw.q6{background:var(--q6)}.sw.q7{background:var(--q7)}.sw.q8{background:var(--q8)}.sw.q9{background:var(--q9)}.sw.qU{background:var(--qU)}
 /* Fills and key swatches */
 .pDi{fill:url(#cgDi)}.pRi{fill:url(#cgRi)}
-.sw.pDi{background:repeating-linear-gradient(45deg,var(--pD) 0 3px,var(--pDs) 3px 5px)}.sw.pRi{background:repeating-linear-gradient(45deg,var(--pR) 0 3px,#E6C3C0 3px 5px)}
+.sw.pDi{background:repeating-linear-gradient(45deg,var(--pD) 0 3px,var(--pDs) 3px 5px)}.sw.pRi{background:repeating-linear-gradient(45deg,var(--pR) 0 3px,var(--pRs) 3px 5px)}
 .eA1{fill:var(--eA1)}.eA2{fill:var(--eA2)}.eA3{fill:var(--eA3)}.eA4{fill:var(--eA4)}.pT{fill:var(--pT)}
 .sw.eA1{background:var(--eA1)}.sw.eA2{background:var(--eA2)}.sw.eA3{background:var(--eA3)}.sw.eA4{background:var(--eA4)}.sw.pT{background:var(--pT)}
 .eR4{fill:var(--eR4)}.eR3{fill:var(--eR3)}.eR2{fill:var(--eR2)}.eR1{fill:var(--eR1)}.eN{fill:var(--eN)}.eB1{fill:var(--eB1)}.eB2{fill:var(--eB2)}.eB3{fill:var(--eB3)}.eB4{fill:var(--eB4)}.eNone{fill:var(--eNone)}
@@ -54,7 +58,7 @@
 .cg.el[data-pv="c"][data-view="r"] .elpk .lk-r{display:none!important}.cg.el[data-pv="c"][data-view="r"] .elpk .lk-cr{display:inline!important}
 .cgkey .sw{display:inline-block;width:.8em;height:.8em;border-radius:2px;margin:0 .25em 0 .6em;vertical-align:-.05em}
 .cgkey .sw:first-child{margin-left:0}
-  .cgkey .pqi{white-space:nowrap;display:inline-block;margin-right:.9em}.cgkey .pqi .sw,.cgkey .lk-s .pqi .sw{margin:0 .35em 0 0;border-radius:2px}
+  .cgkey .pqi{display:inline-block;max-width:100%;margin-right:.9em}.cgkey .pqi .sw,.cgkey .lk-s .pqi .sw{margin:0 .35em 0 0;border-radius:2px}
 /* Party bars at each opening */
 .cgbar{margin:.4rem 0 .9rem}
 .cgbar svg{width:100%;height:auto;display:block;overflow:visible}
@@ -166,7 +170,7 @@ details.cgr.er td:nth-child(3){font-weight:400}
 <pattern id="cgDi" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
 <rect width="6" height="6" style="fill:var(--pD)"/><rect width="2" height="6" style="fill:var(--pDs)"/></pattern>
 <pattern id="cgRi" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
-<rect width="6" height="6" style="fill:var(--pR)"/><rect width="2" height="6" style="fill:#E6C3C0"/></pattern>
+<rect width="6" height="6" style="fill:var(--pR)"/><rect width="2" height="6" style="fill:var(--pRs)"/></pattern>
 <pattern id="cgna" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
 <rect width="6" height="6" style="fill:var(--eNone)"/><rect width="2.5" height="6" style="fill:var(--eNA)"/></pattern></defs></svg>
 <script type="application/json" id="cggeo">{{geo}}</script>

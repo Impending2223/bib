@@ -17,7 +17,7 @@ import os
 import re
 from collections import Counter, defaultdict
 
-from . import datelist, namelinks, specials, store
+from . import contents, datelist, namelinks, specials, store
 from .markup import to_html, plain
 
 DIR = os.path.join(store.ROOT, "congress")
@@ -485,16 +485,14 @@ def inject(page, series, linker, mode):
                 if m and int(m.group(1)) in edata:
                     y = int(m.group(1))
                     blk = elections.block(y, edata)
-                    pat = re.compile(r'(<li id="' + re.escape(e["id"]) + r'"[^>]*>.*?)(</li>)', re.S)
-                    page, n = pat.subn(lambda mm: mm.group(1) + blk + mm.group(2), page, count=1)
+                    page, n = contents.put(page, e["id"], blk, "election", y)
                     if n:
                         used.append(edata[y]["congress"])
                 m = re.match(r"^congress:(\d+)$", t)
                 if m and int(m.group(1)) in data:
                     c = int(m.group(1))
                     blk = block(c, data[c], geo, ptr, href, rid)
-                    pat = re.compile(r'(<li id="' + re.escape(e["id"]) + r'"[^>]*>.*?)(</li>)', re.S)
-                    page, n = pat.subn(lambda mm: mm.group(1) + blk + mm.group(2), page, count=1)
+                    page, n = contents.put(page, e["id"], blk, "congress", c)
                     if n:
                         used.append(c)
                 m = re.match(r"^committees:(\d+)$", t)     # the leaders and committees (committee_rosters.py)
@@ -503,8 +501,7 @@ def inject(page, series, linker, mode):
                     c = int(m.group(1))
                     blk = cmr.blocks(c, series, here=f"congress:{c}" in (e.get("tags") or []))
                     if blk:
-                        pat = re.compile(r'(<li id="' + re.escape(e["id"]) + r'"[^>]*>.*?)(</li>)', re.S)
-                        page, n = pat.subn(lambda mm: mm.group(1) + blk + mm.group(2), page, count=1)
+                        page, n = contents.put(page, e["id"], blk, "committees", c)
                         if n:
                             used.append(c)
                             page = cmr.ensure(page)

@@ -223,7 +223,7 @@ class Section:
         self.lst = lst
         self.parent = parent
         self.level = level
-        self.id = data["id"]
+        self.id = str(data["id"])   # a YYYYMM id unquoted loads as a number
         self.num = data.get("num")
         self.title = data["title"]
         self.short = data.get("short")

@@ -476,6 +476,15 @@ document was found. Each under the entry it concerns; `./bib find -t check -l ca
   Revenue Taxation), which the *Directory* prints; ratios changed during a Congress; the *Directory*'s page on each
   committee.
 
+### Ebooks and feeds
+
+- A text of the Public Papers, 1961–68, for the ebooks: segment govinfo's scanned volumes item by item (OCR), or ask the
+  American Presidency Project for leave to use its transcriptions (its site claims copyright; its robots.txt bars AI
+  crawlers). Until then the books list the Papers by title, linked.
+- The Miller Center's audio links in the feeds come from the earlier JSON:API pull, unchecked: millercenter.org gave no
+  answer from here and its audio host refused (403). Open a few in a browser.
+- Recordings made at the LBJ Ranch are dated in Eastern time, not Central; FRUS images are not in the books.
+
 ### Committee hearings (the Daily Digest)
 
 - Hearings a calendar entry should cite by the Digest's line and the printed hearing: Senate Foreign Relations on
@@ -643,6 +652,25 @@ Events Gibbons treats that the calendar lacks, not entered: no record reached an
   11,300 in the 1967 and 1968 editions and the DoD's table of 1974: Check the column's meaning.
 - Deaths by province of South Vietnam (DCAS field 28, casualty province): a map a year beside the Indochina maps
   (tools/bib/vnmap.py, another agent's).
+
+### The Johnson Plan (Middle East: Johnson Plan; the Johnson Plan agent, Oct. 22, 2026)
+
+- Johnson's reappointment: FRUS 1961–63, XVII, doc. 166 n. 3 gives Jan. 18, 1962; the PCC's twentieth report (A/5337,
+  para. 12) gives Mar. 2. Entered Jan. 18 with a Check (`cal.1962-01-18.middle-east-johnson-plan`); the PCC's records or
+  U Thant's cable of Jan. 24 (circular telegram 1315) may settle it.
+- The studies' pages on the plan not read: Gazit, Spiegel, Little ("Making of a Special Relationship"), Ben-Zvi
+  (*Decade of Transition*), Bass (*Support Any Friend*), cited on `cal.1961-08-21.middle-east-johnson-plan` from their
+  cards. archive.org's copies of Gazit and Ben-Zvi (presidentkennedy00gazi, decadeoftransiti0000benz) are borrow-only.
+  A study of the plan itself not found in the catalogue; look for one (and Johnson's papers, Carnegie Endowment).
+- Stations not entered: Johnson's draft proposals to State, July 17, 1962, and the talks of July 19–28 (FRUS XVIII,
+  doc. 9); Harman's protest to Feldman and Talbot, Sept. 13 (doc. 48); Rusk's "Next Steps," Oct. 4 (doc. 67); Rusk,
+  Talbot and Feldman with Kennedy, Nov. 28 (doc. 105); Barbour's refugee talks with Ben Gurion, Mar. 1963, and Rusk's
+  memorandum of Mar. 28, 1963 (docs. 166, 201).
+- The PCC's report of Dec. 7, 1962 (A/5337) is said by FRUS (XVIII, doc. 111 n.) to be printed in *Current Documents,
+  1962*, 757–760: the pages not seen. Johnson's draft report of Jan. 1963 and the plan's papers (FRUS's microfiche
+  Supplement, the Arab-Israeli compilation) not read.
+- The UN Digital Library's search answers 202 with an empty body here; documents.un.org's
+  `api/symbol/access?s=SYMBOL&l=en&t=pdf` gives the PDFs.
 
 ## The Executive roster
 

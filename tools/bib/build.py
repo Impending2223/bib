@@ -17,6 +17,8 @@ from . import wardead
 from . import budgets
 from . import bills
 from . import smart
+from . import feeds
+from . import contents
 from .markup import to_html, plain, italics, ITAL_RE, REF_RE
 from .refs import Refs, split_protected
 
@@ -239,6 +241,8 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
         dates = calsplit.thread_dates_html(lst, slug, members, esc)
         if dates:
             parts.append(f'<span class="n">{dates}</span>')
+        parts.append(contents.thread_slot(lst, slug))   # its tables and maps (tools/bib/contents.py, STYLE 4)
+        parts.append(see_also_html(lst, e))
     elif n:
         parts.append(f'<span class="n">{text_html(n, "n")}</span>')
     if rubric is not None and lst.kind == "calendar" and e.get("thread"):
@@ -283,17 +287,43 @@ def ghost_thread_html(lst, e):
 
 
 def redirect_thread_html(lst, e):
-    """A thread's old name (`see:` in th.yaml, "Desegregation: schools"), in its own place in the index: muted, nothing
-    underlined, the whole of it a link to the thread's entry in the part being built; nothing in a part the thread has
-    no entries in (calsplit.py, STYLE 10)."""
-    to = e["see"]
+    """A thread's old name (`see:` in th.yaml, "Desegregation: schools"), in its own place in the index, with the thread
+    it now goes by: one thread, the whole line muted, nothing underlined, a link to the thread's entry in the part
+    ("Desegregation: schools: School desegregation"; the name alone where the two are the same, "Special elections",
+    which sorts elsewhere); several, the old name in the text's color, then each thread muted and linked, a middle dot
+    between ("Legislatures: Districting and apportionment · State legislatures"); only the threads with entries in the
+    part, nothing where none has (calsplit.py, STYLE 10)."""
     half = calsplit.CUR["half"]
-    members = thread_members(lst).get(to, [])
-    if not any(not half or not calsplit.cfg(lst) or calsplit.half_of_date(lst, m["date"]) == half for m in members):
+    def here(to):
+        return any(not half or not calsplit.cfg(lst) or calsplit.half_of_date(lst, m["date"]) == half
+                   for m in thread_members(lst).get(to, []))
+    tos = [to for to in store.as_list(e["see"]) if here(to)]
+    if not tos:
         return ""
-    href = "#" + calsplit.thread_anchor(lst, to, half)
-    return (f'<li id="{attr(calsplit.thread_anchor(lst, e["id"].split(".", 2)[2], half))}" class="thg thr">'
-            f'<span class="s"><a class="thgl" href="{attr(href)}">{to_html(e["s"])}</a></span></li>')
+    def href(to):
+        return "#" + calsplit.thread_anchor(lst, to, half)
+    own = f'id="{attr(calsplit.thread_anchor(lst, e["id"].split(".", 2)[2], half))}"'
+    if len(store.as_list(e["see"])) == 1:
+        to = tos[0]
+        name = to_html(e["s"]) if thread_name(lst, to) == e["s"] else f'{to_html(e["s"])}: {esc(thread_name(lst, to))}'
+        return f'<li {own} class="thg thr"><span class="s"><a class="thgl" href="{attr(href(to))}">{name}</a></span></li>'
+    links = " · ".join(f'<a class="thgl" href="{attr(href(to))}">{esc(thread_name(lst, to))}</a>' for to in tos)
+    return f'<li {own} class="thg thr thm"><span class="s"><span class="tho">{to_html(e["s"])}:</span> {links}</span></li>'
+
+
+def see_also_html(lst, e):
+    """A thread statement's See also line (`see_also:` in th.yaml): at its foot, set right, "*See also* X · Y · Z", the
+    threads in the thread names' type, each linked to its entry in the part; only those with entries in the part
+    (calsplit.py, STYLE 11)."""
+    half = calsplit.CUR["half"]
+    tos = [to for to in store.as_list(e.get("see_also"))
+           if any(not half or not calsplit.cfg(lst) or calsplit.half_of_date(lst, m["date"]) == half
+                  for m in thread_members(lst).get(to, []))]
+    if not tos:
+        return ""
+    links = " · ".join(f'<a href="#{attr(calsplit.thread_anchor(lst, to, half))}">{esc(thread_name(lst, to))}</a>'
+                       for to in tos)
+    return f'<span class="tsa"><i>See also</i> {links}</span>'
 
 
 def headings(lst, sec, idfmt):
@@ -301,7 +331,10 @@ def headings(lst, sec, idfmt):
     cal = lst.kind == "calendar"          # the calendar's headings without their numerals: the dates do the work
     num = f'<span class="num">{esc(sec.num)}</span>' if sec.num and not cal else ""
     short = plain(sec.title) if cal else sec.label
-    return f'<{tag} id="{idfmt(sec)}" data-short="{attr(short)}">{num}{to_html(sec.title)}</{tag}>'
+    sid = idfmt(sec)
+    old = sec.extra.get("old_id")        # a renamed section's old anchor still lands here (jan60 → 196001)
+    alias = f'<span id="{sid[:-len(attr(sec.id))]}{attr(old)}"></span>' if old and sid.endswith(attr(sec.id)) else ""
+    return f'{alias}<{tag} id="{sid}" data-short="{attr(short)}">{num}{to_html(sec.title)}</{tag}>'
 
 
 def by_day(lst, sec):
@@ -345,7 +378,8 @@ def half_sections(lst, half):
             c = copy.copy(s)
             c.entries = [e for e in s.entries if not e["id"].startswith(f"{lst.key}.thread.")
                          or any(calsplit.half_of_date(lst, m["date"]) == half
-                                for m in members.get(e.get("see") or e["id"].split(".", 2)[2], []))]
+                                for t in store.as_list(e.get("see") or e["id"].split(".", 2)[2])
+                                for m in members.get(t, []))]
             if half > 1:
                 c.id = f"{s.id}{half}"
             out.append(c)
@@ -402,7 +436,10 @@ def build_list(series, key, linker=None, half=None):
     main.append('<p class="logic">To navigate, use the Outline button, the contents below, or the handle on the right edge, which you can drag to see nearby headings. '
                 'All the lists in one reader: <a href="series.html">the series</a>. The elections and each Congress at its opening: <a href="congress.html">Elections</a>. '
                 'The Executive Branch at each inauguration: <a href="executive.html">Executive</a>.</p>')
-    main.append('<nav class="toc" aria-label="Contents">\n<h3 id="contents" style="border-top:0;margin-top:1.5rem" data-short="Contents">Contents</h3>\n<ol id="tocList"></ol>\n</nav>')
+    if lst.kind == "calendar":           # the threads, the month grid, the tables and maps (tools/bib/contents.py)
+        main.append(contents.nav(lst, half_sections(lst, half)))
+    else:
+        main.append('<nav class="toc" aria-label="Contents">\n<h3 id="contents" style="border-top:0;margin-top:1.5rem" data-short="Contents">Contents</h3>\n<ol id="tocList"></ol>\n</nav>')
     for s in half_sections(lst, half):
         main.extend(section_body(series, lst, s, lambda sec: attr(sec.id), text_html))
     page = open(os.path.join(TEMPLATES, "list.html"), encoding="utf-8").read()
@@ -999,9 +1036,18 @@ def build_series(series):
     home.append('<h2 id="home--cg" data-short="Elections">Elections</h2><ol class="e lists"><li><a class="lk" href="congress.html">'
                 '<span class="ab">Elections</span><span class="tt">The elections, 1958–1974: President, House, Senate, governors, legislatures; each Congress at its opening, 1961–1973</span></a>'
                 '<span class="r">87th–93rd</span></li></ol>')
+    home.append('<h2 id="home--ix" data-short="Indicators">Indicators</h2><ol class="e lists"><li><a class="lk" href="indicators.html">'
+                '<span class="ab">Indicators</span><span class="tt">The economic indicators under each calendar month, 1960–1969: concepts and sources, and every series in full</span></a>'
+                '<span class="r">1960–69</span></li></ol>')
     home.append('<h2 id="home--ex" data-short="Executive">The Executive Branch</h2><ol class="e lists"><li><a class="lk" href="executive.html">'
                 '<span class="ab">Executive</span><span class="tt">The Executive Branch at each inauguration, 1953–1974: every office, its authority, its holders</span></a>'
                 '<span class="r">1953–74</span></li></ol>')
+    home.append('<h2 id="home--ic" data-short="Indochina">Indochina</h2><ol class="e lists"><li><a class="lk" href="indochina.html">'
+                '<span class="ab">Indochina</span><span class="tt">Vietnam, Laos and Cambodia, 1960–1968: the calendar\'s placed entries on one map, by year; the gazetteer</span></a>'
+                '<span class="r">1960–68</span></li></ol>')
+    home.append('<h2 id="home--eb" data-short="Ebooks">Ebooks and feeds</h2><ol class="e lists"><li><a class="lk" href="ebooks.html">'
+                '<span class="ab">Ebooks</span><span class="tt">The daybook\'s documents, an ebook a month: FRUS in full, the Public Papers by title; the free White House recordings, a podcast feed a year</span></a>'
+                '<span class="r">1960–69</span></li></ol>')
     home.append("</section>")
 
     page = open(os.path.join(TEMPLATES, "series.html"), encoding="utf-8").read()
@@ -1038,7 +1084,7 @@ def _section_series(series, lst, sec, linker, li_extra):
 def run(series, which=None):
     os.makedirs(OUT, exist_ok=True)
     written = []
-    PAGES = ("series", "congress", "executive", "names", "lives", "works")
+    PAGES = ("series", "congress", "executive", "names", "lives", "works", "indochina", "indicators", "ebooks", "feeds")
     for l in series.lists.values():       # the calendar's later parts are built with its first
         if which and l.kind == "calendar" and calsplit.cfg(l) and which in [p["page"] for p in calsplit.cfg(l)]:
             which = l.key
@@ -1074,6 +1120,8 @@ def run(series, which=None):
                 page = vnmap.inject(page, series)
                 page = indicators.inject(page, series, "list")
                 page = daybook.inject(page)
+                page = feeds.inject(page, lst, half)     # the months' feeds (tools/bib/feeds.py)
+                page = contents.finish(page, lst, half or 1)   # the tables and maps listed (tools/bib/contents.py)
                 if half:
                     page = page.replace("</head>", calsplit.STYLE + "\n</head>", 1)
                     page = page.replace("</body>", calsplit.SCRIPT + "\n</body>", 1)
@@ -1099,6 +1147,8 @@ def run(series, which=None):
         page = vnmap.inject(page, series)
         page = indicators.inject(page, series, "series")
         page = daybook.inject(page)
+        if cal is not None:                  # the thread statements' tables and maps (tools/bib/contents.py)
+            page = contents.finish(page, cal, None)
         page = page.replace("</head>", calsplit.STYLE + "\n</head>", 1)
         page = page.replace("</body>", calsplit.SCRIPT + "\n</body>", 1)
         path = os.path.join(OUT, "series.html")
@@ -1118,6 +1168,20 @@ def run(series, which=None):
             path = os.path.join(OUT, "executive.html")
             smart.write(path, routed(page))
             written.append(path)
+    if which in (None, "indochina"):      # the map of Indochina on its own (tools/bib/indochina.py)
+        from . import indochina
+        page = indochina.page(series, os.path.join(TEMPLATES, "list.html"))
+        if page:
+            path = os.path.join(OUT, "indochina.html")
+            smart.write(path, routed(page))
+            written.append(path)
+    if which in (None, "indicators"):     # the indicators' master: concepts, sources, tables (tools/bib/concepts.py)
+        from . import concepts
+        page = concepts.page(series, os.path.join(TEMPLATES, "list.html"))
+        if page:
+            path = os.path.join(OUT, "indicators.html")
+            smart.write(path, routed(page))
+            written.append(path)
     if which in (None, "works"):          # the A–Z bibliography (tools/bib/bibliography.py)
         from . import bibliography
         linker = linker or Linker(series)
@@ -1131,4 +1195,12 @@ def run(series, which=None):
             path = os.path.join(OUT, name)
             smart.write(path, routed(page))
             written.append(path)
+    if which in (None, "ebooks"):         # the documents, an EPUB a month (tools/bib/ebooks.py)
+        from . import ebooks
+        written += [p for p, _, _ in ebooks.build(series)]
+    if which in (None, "ebooks", "feeds"):  # the recordings' feeds and the page of both (tools/bib/feeds.py)
+        written += feeds.build(series)
+        path = os.path.join(OUT, feeds.PAGE)
+        smart.write(path, routed(feeds.page(series, os.path.join(TEMPLATES, "list.html"))))
+        written.append(path)
     return written

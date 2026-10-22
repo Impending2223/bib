@@ -25,7 +25,7 @@ import json
 import os
 import re
 
-from . import store
+from . import contents, store
 
 PATH = os.path.join(store.ROOT, "elections", "governors.yaml")
 MONTHS = ["Jan.", "Feb.", "Mar.", "Apr.", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."]
@@ -356,8 +356,7 @@ def inject(page, series):
         blk = block(date)
         if not blk:
             continue
-        pat = re.compile(r'(<li id="' + re.escape(eid) + r'"[^>]*>.*?)(</li>)', re.S)
-        page, k = pat.subn(lambda mm: mm.group(1) + blk + mm.group(2), page, count=1)
+        page, k = contents.put(page, eid, blk, "governors", date)
         used = used or bool(k)
     if used and 'id="cggeo"' not in page:
         from . import congress

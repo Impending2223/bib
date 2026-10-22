@@ -8,8 +8,11 @@
 Filing. Each calendar month section whose dates hold the last day of a period carries that
 period's figures in a table under its heading: months in their month, quarters in the quarter's
 last month, fiscal years (ending June 30) in June, calendar years in December. Periods that end
-before the first dated section go to it. A block of definitions, "Indicators:
-concepts and sources", goes before the first month; each series name in a table links to its entry.
+before the first dated section go to it. Concepts and sources (the owner's rule, Oct. 21, 2026): one master text,
+indicators/concepts.yaml, tagged by series and by the periods each piece concerns (tools/bib/concepts.py); each
+calendar page writes, after the month table where a series first appears on it, a servant: that page's series, only
+what concerns the periods it files; each row's name links to its servant on the page, else to the master,
+build/indicators.html, which also holds every series' full table.
 
 STYLE (settled; keep it, and fix anything that drifts from it):
  1. Columns: Indicator | As first reported | Released | Revised, today. Gallup's approval (kind: poll) in a table
@@ -50,8 +53,10 @@ STYLE (settled; keep it, and fix anything that drifts from it):
     down the column.
 11. Source qualifiers stay: "about $28bn", "some $30–40bn"; a note the source attaches to one
     figure (NOTE in the script) shows after it in grey: "(Q1–Q3, annual rate)".
-12. Definitions (DEFS): what the figure was then, what it is today, and pointers, in the brief's
-    register: compact, plain, no judgment of the figures.
+12. Definitions (DEFS, from the master, indicators/concepts.yaml): what the figure was then, what it is today, and
+    pointers, in the brief's register: compact, plain, no judgment of the figures. Written once, in the master, each
+    piece tagged with the periods it concerns; the calendar's servants and the Indicators page are made from it
+    (tools/bib/concepts.py, its STYLE). Never write a definition into a module or a page.
 13. Money and credit: a table of its own, between the indicators and the approval table, set off by the same
     rule, with its own caption and two columns, Rate | Percent: rates are not revised, so each has one figure.
     Interest rates in percent to two decimals, as the Bulletin and H.15 print them, "3.85%"; changes in
@@ -62,11 +67,13 @@ STYLE (settled; keep it, and fix anything that drifts from it):
     only in a month it changed.
 14. A release known only by its issue (the Treasury Bulletin, monthly) has its month for a date ("released:
     1962-02"), shown "Feb. 1962".
-15. Oil (oil-*): its own cells, in millions of barrels a day, levels only; STYLE in tools/bib/oil.py.
+15. Oil (oil-*): a table of its own under the indicators, before Money and credit, without vacant columns; its cells
+    in millions of barrels a day, with changes; STYLE in tools/bib/oil.py.
 16. The war (war-*, kind: war): deaths and strength, its own cells, persons; STYLE in tools/bib/war.py.
 """
 import calendar
 import datetime
+import functools
 import os
 import re
 
@@ -74,6 +81,7 @@ from . import store
 from .markup import to_html
 from . import oil
 from . import war
+from . import concepts
 
 DIR = os.path.join(store.ROOT, "indicators")
 ORDER = ["cpi", "wpi", "deflator", "unemployment", "payrolls", "industrial-production", "gnp", "real-gnp",
@@ -104,57 +112,10 @@ FIELD_LABEL = {"receipts": "Receipts", "expenditures": "Expenditures", "payments
                "balance": "Balance", "interest": "Net interest", "primary": "Primary"}
 MON = ["Jan.", "Feb.", "Mar.", "Apr.", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."]
 
-ERP62 = "https://www.govinfo.gov/app/details/SERIALSET-12497_00_00-002-0278-0000"
-ERP63 = "https://www.govinfo.gov/app/details/SERIALSET-12600_00_00-002-0028-0000"
-ERP64 = "https://www.govinfo.gov/app/details/SERIALSET-12658_00_00-002-0278-0000"
-ERP65 = "https://www.govinfo.gov/app/details/SERIALSET-12702_00_00-002-0028-0000"
-ERP66 = "https://www.govinfo.gov/app/details/SERIALSET-12742_00_00-002-0348-0000"
-ERP67 = "https://fraser.stlouisfed.org/title/economic-report-president-45/1967-8138"   # not on govinfo
-ERP68 = "https://www.govinfo.gov/app/details/SERIALSET-12825_00_00-002-0238-0000"   # Feb. 1968; H. Doc. 90-238
-ERP69 = "https://www.govinfo.gov/app/details/SERIALSET-12868_00_00-002-0028-0000"   # Jan. 1969; H. Doc. 91-28
-F = "https://fred.stlouisfed.org/series/"
-FRB = "https://fraser.stlouisfed.org/title/federal-reserve-bulletin-62/"
-PR = "https://fraser.stlouisfed.org/title/9237/item/"
-FOMC = "https://www.federalreserve.gov/monetarypolicy/files/fomchistmin"
 RATES = {"discount-rate", "federal-funds", "prime-rate", "treasury-bill", "treasury-10-year"}
-A = "https://alfred.stlouisfed.org/series?seid="
-APPROVAL = "https://www.presidency.ucsb.edu/statistics/data/presidential-job-approval"
-TB = "https://fraser.stlouisfed.org/title/treasury-bulletin-407"
-OMB71 = "https://www.whitehouse.gov/wp-content/uploads/2026/04/hist07z1_fy2027.xlsx"
-DEFS = {
-    "approval": f"Gallup: \"Do you approve or disapprove of the way [the President] is handling his job as President?\" Each reading, filed by the month its fieldwork ended. As published: the release, in *The Gallup Poll: Public Opinion, 1935–1971*, vol. III (1972), by page (K–J Cong. II.E); approval among Democrats, independents, and Republicans in grey where the release gives it; \"—\" for a reading Gallup did not release at the time. Today: Gallup's series as the [American Presidency Project]({APPROVAL}) compiles it (Gerhard Peters), which differs from the releases in places: Sept. 12–17, 1963, released at 62 percent approving, is 56 in the series today. The race for 1964 and the issues are calendar entries in the thread Opinion.",
-    "cpi": f"BLS. Retail prices of a fixed basket bought by city wage-earner and clerical-worker families; 1947–49=100 through Dec. 1961, 1957–59=100 from Jan. 1962. Today: CPI for all urban consumers, 1982–84=100. Neither seasonally adjusted. First releases: [ALFRED]({A}CPIAUCNS); today: [FRED]({F}CPIAUCNS).",
-    "wpi": f"BLS. Primary-market prices of all commodities; 1947–49=100 through 1961, 1957–59=100 from 1962. Today the producer price index, all commodities, 1982=100 ([FRED]({F}PPIACO)). First reported here means as tabled in the next *Economic Report* (January; February in 1968) ([1962]({ERP62}), Table B-40; [1963]({ERP63}), Table C-41; [1964]({ERP64}), Table C-41; [1965]({ERP65}), Table B-43; [1966]({ERP66}), Table C-41; [1967]({ERP67}), Table B-44; [1968]({ERP68}), Table B-48, p. 264; [1969]({ERP69}), Table B-48, p. 282).",
-    "deflator": f"Commerce, Office of Business Economics. GNP in current dollars over GNP in 1954 dollars (1958 dollars from the benchmark revision of Aug. 1965), times 100, computed from the release that first carried the quarter ([ALFRED]({A}GNP)). Today BEA's GNP deflator, chained, 2017=100 ([FRED]({F}GNPDEF)).",
-    "unemployment": f"Unemployed as a percent of the civilian labor force, seasonally adjusted, from the Current Population Survey (household survey), collected by Census, published by BLS. Then ages 14 and over; today's series ages 16 and over ([ALFRED]({A}UNRATE); [FRED]({F}UNRATE)).",
-    "payrolls": f"BLS establishment survey: wage and salary workers in nonagricultural establishments, seasonally adjusted. Today's figures are benchmarked to later counts of insured employment ([ALFRED]({A}PAYEMS); [FRED]({F}PAYEMS)).",
-    "industrial-production": f"Federal Reserve Board. Physical output of manufacturing, mining, and utilities; 1957=100 then (1957–59=100 from the revision of Nov. 16, 1962), 2017=100 today ([ALFRED]({A}INDPRO); [FRED]({F}INDPRO)).",
-    "gnp": f"Commerce, Office of Business Economics. Output of the nation's residents at market prices, seasonally adjusted annual rates. Today's BEA figures carry later definitions and benchmarks ([ALFRED]({A}GNP); [FRED]({F}GNP)).",
-    "real-gnp": f"GNP in 1954 prices then, in 1958 prices from the benchmark revision of Aug. 1965; in chained 2017 dollars today (chain weighting from 1996) ([ALFRED]({A}GNPC96); [FRED]({F}GNPC96)).",
-    "gap-cea": f"Council of Economic Advisers. Potential GNP: a 3½ percent trend line through actual GNP in mid-1955, taken as full use of resources; full employment taken as 4 percent unemployment, an interim target. From Jan. 1965 the trend rises 3¾ percent a year after 1962. Gap: potential less actual, in 1961 prices (Jan. 1962), 1962 prices (Jan. 1963), 1963 prices (Jan. 1964), 1964 prices (Jan. 1965), or 1958 prices (Jan. 1966, after the benchmark revision). Each point of unemployment above 4 percent put at about 3 percent of output (Okun's relation). [*Economic Report*, Jan. 1962]({ERP62}), \"Full Production,\" p. 49; [Jan. 1963]({ERP63}), Chart 5; [Jan. 1964]({ERP64}), \"Unemployment and Unused Potential Output,\" p. 37; [Jan. 1965]({ERP65}), \"Problems Unsolved,\" p. 39, and \"The Gap Between Actual and Potential GNP,\" pp. 81–83; [Jan. 1966]({ERP66}), \"Balance of Output and Potential,\" pp. 39–40, and Chart 3; [Jan. 1967]({ERP67}), Chart 1, p. 43, and p. 44 (\"The economy caught up with its economic potential in 1966\"; no figure for 1966); [Feb. 1968]({ERP68}), p. 60, and Chart 4, p. 61 (the gap closed in the last half of 1965, output \"falling a little short during 1967\"; no figure for 1967; potential at 4 percent a year from Q4 1965); [Jan. 1969]({ERP69}), \"Potential Output,\" p. 64, and Chart 5, p. 65 (the gap closed by the end of 1965; \"Since then, actual output has exceeded the calculated potential most of the time\"; no figure for 1968). Arthur M. Okun, \"Potential GNP: Its Measurement and Significance,\" *Proceedings of the Business and Economic Statistics Section*, American Statistical Association (1962).",
-    "gap-cbo": f"Congressional Budget Office, estimated decades later. Potential GDP: output at CBO's noncyclical rate of unemployment (about 5.5 percent for 1961) and trend productivity, from a model revised with each budget outlook. Gap: real GDP over potential, less 1, in percent; negative is output below potential. Not comparable with the CEA's figures: GDP not GNP, chained 2017 dollars, a later concept of full employment, a different benchmark. [FRED GDPPOT]({F}GDPPOT), [GDPC1]({F}GDPC1), [NROU]({F}NROU); CBO, *CBO's Method for Estimating Potential Output: An Update* (2001).",
-    "administrative-budget": f"Three federal budgets were reported. The administrative budget: receipts and expenditures of federal funds only, the deficit of the headlines; fiscal years ending June 30. [*Economic Report*, Jan. 1962]({ERP62}), Table 7, p. 78, compares the three. Today: OMB's unified budget receipts, outlays, and deficit, recast back from the unified budget adopted for fiscal 1969 on the President's Commission on Budget Concepts (*Report*, 1967) ([FRED]({F}FYFSD)). The [*Economic Report* of Feb. 1968]({ERP68}) prints the old budgets a last time, beside the unified (Table B-63, p. 284): actual through fiscal 1967, estimates for 1968 and 1969. The [Report of Jan. 1969]({ERP69}) prints the unified budget alone from fiscal 1954 (Table B-60, p. 297), so the old budgets have no actual figure for fiscal 1968.",
-    "cash-budget": f"The consolidated cash statement: federal receipts from and payments to the public, including the trust funds (Social Security, highways). Today: the unified budget, as above ([FRED]({F}FYONET)).",
-    "unified-budget": f"The unified budget, recommended by the President's Commission on Budget Concepts (*Report*, 1967) and adopted with the budget for fiscal 1969: receipts and outlays (expenditures and net lending) of the federal funds and the trust funds together, transactions between them netted out; fiscal years ending June 30. Not comparable with the administrative or cash budgets above, so its own row. The estimates: [*Economic Report*, Feb. 1968]({ERP68}), Table B-59, p. 279, \"preliminary adjustments to new budget concepts\"; the actual and the later estimates, [Jan. 1969]({ERP69}), Table B-60, p. 297 (the same in Table B-61, p. 299). Today: OMB's figures, revised ([FRED]({F}FYFSD); [FYFR]({F}FYFR); [FYONET]({F}FYONET)).",
-    "federal-national-accounts": f"Commerce: federal receipts and expenditures in the national income accounts, seasonally adjusted annual rates; accrual basis, excluding loans and purchases of land and existing assets. Today: BEA's federal current receipts and current expenditures, a narrower and later definition; their balance is not the old surplus or deficit ([FRED]({F}FGRECPT); [FGEXPND]({F}FGEXPND)). Then: the *Economic Report* of the next January, its latest quarter preliminary, completed in the Report after ([Feb. 1968]({ERP68}), Table B-62, p. 283; [Jan. 1969]({ERP69}), Table B-63, p. 301).",
-    "federal-primary-balance": f"The federal surplus or deficit in the national income accounts (above) with net interest paid added back: the balance before interest, the primary balance of the IMF's usage. Net lending (+) or borrowing (−) is the surplus or deficit itself. Quarterly, seasonally adjusted annual rates, as the national accounts were reported; each quarter from the same *Economic Report* and table as the row above, with the change from the quarter before in that Report. Then: \"net interest paid\" in the federal sector table ([Jan. 1962]({ERP62}), Table B-59, p. 276; [Jan. 1963]({ERP63}), Table C-60, p. 242; [Jan. 1964]({ERP64}), Table C-60, p. 278; [Jan. 1965]({ERP65}), Table B-62, p. 263; [Jan. 1966]({ERP66}), Table C-61, p. 281; [Jan. 1967]({ERP67}), Table B-63, p. 287; [Feb. 1968]({ERP68}), Table B-62, p. 283; [Jan. 1969]({ERP69}), Table B-63, p. 301). Today: BEA's federal net lending or net borrowing ([FRED]({F}AD02RC1Q027SBEA)), which also counts investment less depreciation and capital transfers, plus interest payments less interest receipts ([A091RC1Q027SBEA]({F}A091RC1Q027SBEA); [B094RC1Q027SBEA]({F}B094RC1Q027SBEA)); interest payments now include imputed interest on the unfunded liabilities of federal employees' pension plans, so today's net interest runs near twice the old figure. The two columns are not one measure.",
-    "interest-gnp": f"Federal net interest paid over GNP, in percent, both from one *Economic Report*, seasonally adjusted annual rates: the interest share of output as the national accounts then gave it, quarterly. Each year's four quarters from the next January's Report (the fourth preliminary), the change from the quarter before within that Report. Net interest: the federal sector tables above; GNP: Table 1 of each Report ([Jan. 1962]({ERP62}), Table B-1, p. 207; [Jan. 1963]({ERP63}), Table C-1, p. 171; [Jan. 1964]({ERP64}), Table C-1, p. 207; [Jan. 1965]({ERP65}), Table B-1, p. 189; [Jan. 1966]({ERP66}), Table C-1, p. 209; [Jan. 1967]({ERP67}), Table B-1, p. 213; [Feb. 1968]({ERP68}), Table B-1, p. 209; [Jan. 1969]({ERP69}), Table B-1, p. 227). The budget's interest (\"interest on the public debt\", fiscal years) was another measure, gross of interest received and of trust-fund holdings. Today: BEA's federal interest payments less interest receipts over GDP ([FRED A091RC1Q027SBEA]({F}A091RC1Q027SBEA), [B094RC1Q027SBEA]({F}B094RC1Q027SBEA), [GDP]({F}GDP)); the payments include imputed pension interest (see the primary balance), so today's share is the larger by half or more. OMB's net interest outlays, by fiscal year: [FYOINT]({F}FYOINT).",
-    "public-debt": f"Treasury: the public debt outstanding at the end of the month, in the Treasury's accounts: marketable and nonmarketable issues, special issues to the trust funds, and debt bearing no interest; guaranteed agency securities ($0.2–0.6bn) not included. Monthly, as the Treasury reported it: first in the Daily Treasury Statement for the month's last day (not read here), then in the [*Treasury Bulletin*]({TB}), whose figures are the ones shown: \"Summary of Federal Fiscal Operations\", p. 1 of each issue, with the month's net increase or decrease as printed; from Feb. 1968, Debt Outstanding, Table 1, the change computed from the issue's own last two months. Each month from the first issue that carries it: through Sept. 1961, the issue two months later; from Oct. 1961, the next month's. \"Released\" is the issue's month. Not a revised series: today's figure is the Treasury's own, quarterly from 1966 ([FRED GFDEBTN]({F}GFDEBTN)); its June figures for 1966–68 run $2–4bn below the Bulletin's (Check).",
-    "debt-gnp": f"The public debt at the end of the quarter over the quarter's GNP at a seasonally adjusted annual rate, in percent, both from one *Economic Report*: each year's four quarters from the next January's Report (the fourth quarter's GNP preliminary), the change from the quarter before within that Report. No ratio was published quarterly; the Report printed both figures. Debt: \"Gross public debt and guaranteed issues\", end of month, U.S. Government debt, by kind of obligation ([Jan. 1962]({ERP62}), Table B-52, p. 269; [Jan. 1963]({ERP63}), Table C-53, p. 235; [Jan. 1964]({ERP64}), Table C-53, p. 271; [Jan. 1965]({ERP65}), Table B-55, p. 255; [Jan. 1966]({ERP66}), Table C-54, p. 273; [Jan. 1967]({ERP67}), Table B-56, p. 279; [Feb. 1968]({ERP68}), Table B-64, p. 285); \"Public debt securities\", guaranteed issues out ([Jan. 1969]({ERP69}), Table B-64, p. 302). GNP: Table 1, as in the interest share above. Today: the Treasury's total public debt over BEA's GDP, from 1966 ([FRED GFDEGDQ188S]({F}GFDEGDQ188S)); the June figures low, as under the public debt above.",
-    "debt-gdp-omb": f"Office of Management and Budget, decades later: debt held by the public (outside federal accounts: the Federal Reserve Banks included) and gross federal debt (the public debt and agency debt, trust-fund holdings included) at the end of the fiscal year, over GDP for the fiscal year, in percent; changes in points from the year before. Retrospective: one column. Held by the public is the measure the IMF and the bond market use today. [OMB, *Historical Tables*, Table 7.1]({OMB71}) (the Budget for fiscal 2027). FRED's annual ratios ([GFDGDPA188S]({F}GFDGDPA188S), [FYPUGDA188S]({F}FYPUGDA188S)) divide the fiscal year's debt by the calendar year's GDP, and differ.",
-    "balance-of-payments": f"Commerce: the over-all balance, measured by the change in U.S. gold, convertible currencies, and liquid liabilities to foreigners; seasonally adjusted annual rates. The figure behind the gold and dollar measures of 1961–63. No longer published; no figure today. [*Economic Report*, Jan. 1963]({ERP63}), Table C-78; [Jan. 1964]({ERP64}), Table C-77. From Jan. 1965, the balance on regular transactions, below.",
-    "balance-of-payments-regular": f"Commerce: the balance on regular transactions, which the *Economic Report* of Jan. 1965 prints in place of the over-all balance. Before special government transactions: debt prepayments, advances on military exports, and sales of nonmarketable bonds and notes, convertible and not. Seasonally adjusted annual rates. Not comparable with the over-all balance above: for 1962, −$3.6bn on regular transactions, −$2.2bn with all special transactions (Table 7). No longer published; no figure today. [*Economic Report*, Jan. 1965]({ERP65}), Table B-79, p. 283; Table 7, p. 72. From Jan. 1966, the liquidity and official reserve transactions balances, below.",
-    "balance-of-payments-liquidity": f"Commerce: the balance on the liquidity basis, one of the two measures the Government put its stress on from 1965, which the *Economic Report* of Jan. 1966 prints in place of the balance on regular transactions. Measured by changes in liquid liabilities to foreign official and other holders and in official reserve assets: gold, convertible currencies, and the U.S. gold tranche position in the IMF. Special government transactions included. Seasonally adjusted annual rates; the years 1965 to 1968 each the average of its first three quarters, as the Report of the next January printed it. For 1962, −$2.2bn (Table C-78). No longer published; no figure today. [*Economic Report*, Jan. 1966]({ERP66}), Table C-78, p. 301; ch. 6, \"Measures of Deficit or Surplus,\" pp. 160–62; [Jan. 1967]({ERP67}), Table B-80, p. 307; [Feb. 1968]({ERP68}), Table B-83, p. 307; [Jan. 1969]({ERP69}), Table B-84, p. 325.",
-    "balance-of-payments-official": f"Commerce: the balance on official reserve transactions (\"official settlements\"), the other measure stressed from 1965. Measured by changes in liquid and nonliquid liabilities to foreign official holders and in official reserve assets, as above; a rise in private foreigners' liquid dollar holdings counts as a capital inflow, not as deficit. Seasonally adjusted annual rates; the years 1965 to 1968 each the average of its first three quarters, as the Report of the next January printed it. For 1964, −$1.2bn against −$2.8bn on the liquidity basis (Table C-78). No longer published; no figure today. [*Economic Report*, Jan. 1966]({ERP66}), Table C-78, p. 301; ch. 6, pp. 160–62; [Jan. 1967]({ERP67}), Table B-80, p. 307; [Feb. 1968]({ERP68}), Table B-83, p. 307; [Jan. 1969]({ERP69}), Table B-84, p. 325.",
-    "discount-rate": f"Federal Reserve Bank of New York: the rate on discounts for and advances to member banks (Secs. 13 and 13a), set by the Bank's directors with the Board of Governors' approval; the rate in effect at the month's end. The other eleven Banks' effective dates differ: July 17–26, 1963; Nov. 24–30, 1964; Dec. 6–13, 1965; Apr. 7–14 and Nov. 20–27, 1967; Mar. 15–22 (New York last), Apr. 19–26, Aug. 16–30 (New York among the last) and Dec. 18–20, 1968. 3 percent from Aug. 12, 1960, announced Aug. 11 ([Board press release]({PR}697031)), after 3½ from June 10, announced June 9 ([press release]({PR}697022)) ([*Federal Reserve Bulletin*, July 1960]({FRB}july-1960-21307), p. 756; [Sept. 1960]({FRB}september-1960-21309), p. 1014). 3½ from July 17, 1963, announced July 16 ([Board press release]({PR}697242); [*Bulletin*, Sept. 1963]({FRB}september-1963-21345), p. 1264). 4 from Nov. 24, 1964, announced Nov. 23 ([press release]({PR}697328); [*Bulletin*, Dec. 1964]({FRB}december-1964-21360), pp. 1530–31; [Feb. 1965]({FRB}february-1965-21362), p. 267). 4½ from Dec. 6, 1965, announced Dec. 5 ([press release]({PR}697401); [*Bulletin*, Dec. 1965]({FRB}december-1965-21372), pp. 1667–68; [Jan. 1966]({FRB}january-1966-21373), p. 53). 4 from Apr. 7, 1967, announced Apr. 6 ([press release]({PR}697516); [*Bulletin*, Apr. 1967]({FRB}april-1967-21388), p. 590; [May 1967]({FRB}may-1967-21389), p. 795). 4½ from Nov. 20, 1967, announced Nov. 19, after sterling's devaluation ([press release]({PR}697571); [*Bulletin*, Nov. 1967]({FRB}november-1967-21395), p. 1921; [Dec. 1967]({FRB}december-1967-21396), p. 2083). 5 from Mar. 22, 1968, announced Mar. 21, a week after nine other Banks ([press release]({PR}697609); [*Bulletin*, Apr. 1968]({FRB}april-1968-21400), p. 391 and p. A-9). 5½ from Apr. 19, 1968, announced Apr. 18 ([press release]({PR}697619); [*Bulletin*, Apr. 1968]({FRB}april-1968-21400), p. 391; [May 1968]({FRB}may-1968-21401), p. A-9). 5¼ from Aug. 30, 1968, announced Aug. 29 ([press release]({PR}697672); [*Bulletin*, Sept. 1968]({FRB}september-1968-21405), p. 782 and p. A-9). 5½ from Dec. 18, 1968, announced Dec. 17 ([press release]({PR}697709); [*Bulletin*, Dec. 1968]({FRB}december-1968-21408), p. 1039; [Jan. 1969]({FRB}january-1969-21409), p. A-9). Kept by hand; not a revised series.",
-    "federal-funds": f"The effective rate on overnight loans of reserve balances between banks, monthly average of daily figures ([FRED]({F}FEDFUNDS), from the Board's H.15). Then estimated daily by the Federal Reserve Bank of New York from its contacts with banks and brokers in New York City ([*Federal Reserve Bulletin*, Aug. 1964]({FRB}august-1964-21356), p. 953). FRED's figures for 1964 are those the *Bulletin* printed month by month ([Feb. 1965]({FRB}february-1965-21362), p. 286). The Open Market Committee's directives were worded in money market conditions: \"continuing the present degree of firmness in the money market\" ([July 9, 1963]({FOMC}19630709.pdf), p. 77); \"maintaining about the same conditions in the money market as currently prevail\" ([Dec. 15, 1964]({FOMC}19641215.pdf), p. 97).",
-    "prime-rate": f"A base rate the large banks posted for short-term business loans, monthly average of daily figures ([FRED]({F}MPRIME), from the Board's H.15). 4.50 percent each month from Sept. 1960 through Nov. 1965; 5 from Dec. 6, 1965 ([*Federal Reserve Bulletin*, Dec. 1965]({FRB}december-1965-21372), p. 1751).",
-    "treasury-bill": f"Three-month Treasury bills, secondary market, discount basis, monthly average of business days ([FRED]({F}TB3MS), from the Board's H.15). FRED's figures for 1964 are the market yields the *Federal Reserve Bulletin* printed month by month ([Feb. 1965]({FRB}february-1965-21362), p. 286).",
-    "treasury-10-year": f"Yields on Treasury issues adjusted to a constant maturity of ten years, monthly average of business days ([FRED]({F}GS10), from the Board's H.15). The *Federal Reserve Bulletin* then printed the average yield of Treasury bonds maturing or callable in ten years or more ([Feb. 1965]({FRB}february-1965-21362), p. 286): another measure.",
-    "gold-stock": f"Treasury monetary gold stock, end of month, as compiled by NBER from the *Federal Reserve Bulletin* ([FRED]({F}M1476CUSM144NNBR)). Not a revised series; one column.",
-}
-DEFS.update(oil.DEFS)                    # the Oil group: tools/bib/oil.py
-DEFS.update(war.DEFS)                    # The war: tools/bib/war.py
+# Definitions: each series' concepts and sources, one text, the master's (indicators/concepts.yaml, read by
+# tools/bib/concepts.py): the Indicators page prints it whole; each calendar page writes servants of it (STYLE 12).
+DEFS = concepts.master_texts()
 
 
 def esc(t):
@@ -166,7 +127,7 @@ def load():
         return {}
     out = {}
     for f in sorted(os.listdir(DIR)):
-        if f.endswith(".yaml"):
+        if f.endswith(".yaml") and f != "concepts.yaml":      # concepts.yaml: the master text (tools/bib/concepts.py)
             d = store.load_yaml(os.path.join(DIR, f))
             out[d["id"]] = d
     return out
@@ -174,6 +135,7 @@ def load():
 
 # ---------------------------------------------------------------- periods and dates
 
+@functools.lru_cache(maxsize=None)
 def period_end(p):
     p = str(p)
     if p.startswith("FY"):
@@ -426,10 +388,22 @@ def poll_row(sid, s, r, year):
     return name, dates(r["from"], r["to"]), first, rel, now
 
 
-def rate_row(sid, s, r, year):
+def def_href(sid):
+    """A row name's link where no servant plan is given: the master (tools/bib/concepts.py)."""
+    return f"{concepts.MASTER}#{sid}"
+
+
+def name_cell(sid, s, r, href=None, text=None):
+    """A row's name, linked to its concepts and sources (its servant on the page, else the master), and its period."""
+    return (f'<a href="{esc((href or def_href)(sid))}">{esc(text or s["name"])}</a> '
+            f'<span class="per">{esc(period_label(r["p"]))}</span>')
+
+
+def rate_row(sid, s, r, year, href=None, label=None):
     """A rate (STYLE 13): its name and month, then the one figure: the discount rate as the Board set it (its change,
-    the day announced and the day it took effect, in a month it changed), a market rate as FRED gives it today."""
-    name = f'<a href="#ind-def-{esc(sid)}">{esc(s["name"])}</a> <span class="per">{esc(period_label(r["p"]))}</span>'
+    the day announced and the day it took effect, in a month it changed), a market rate as FRED gives it today.
+    label: the first cell's text in place of the name (the Indicators page's tables, by month)."""
+    name = f'<span class="per">{esc(label)}</span>' if label else name_cell(sid, s, r, href)
     if "first" in r:
         rr = dict(r)
         if r.get("released"):            # "(announced Nov. 23; effective Nov. 24)"
@@ -447,14 +421,39 @@ def rate_row(sid, s, r, year):
     return f'<tr><td class="iname">{name}</td><td><span title="{esc(tip)}">{val}</span></td></tr>'
 
 
-def block(data, sec_from, sec_to, prev_to, year, next_from=None):
+def cells(sid, s, r, year):
+    """A row's three value cells, as first reported (the source figure on hover), released (its source on hover),
+    and today (today's source on hover)."""
+    then, now = s.get("then") or {}, s.get("now") or {}
+    first = cell_first(sid, s, r, year)
+    if "first" in r:
+        tip = exact(r["first"], r.get("unit"))
+        if r.get("since"):          # a standing rate (STYLE 13): when it took effect, and where it is printed
+            tip += f'; in effect from {date_label(r["since"])}; {r.get("source", "")}'
+        first = f'<span title="{esc(tip)}">{first}</span>'
+    rel = "—"
+    if r.get("released"):
+        src = r.get("source") or (then.get("source") and f'{then["source"]}, released {r["released"]}')
+        rel = f'<span title="{esc(src or "")}">{esc(date_label(r["released"], year))}</span>'
+    nowv = cell_now(sid, s, r)
+    if nowv != "—" and now.get("source"):
+        nowv = f'<span title="{esc(now["source"] + (": " + exact(r["now"], now.get("unit")) if r.get("now") is not None else ""))}">{nowv}</span>'
+    return first, rel, nowv
+
+
+def block(data, sec_from, sec_to, prev_to, year, next_from=None, href=None):
+    """The month's tables. href(sid): where a row's name links (its servant on the page; tools/bib/concepts.py)."""
     lo, hi = datetime.date.fromisoformat(sec_from), datetime.date.fromisoformat(sec_to)
     rows = rows_for(data, lo, hi, prev_to and datetime.date.fromisoformat(prev_to),
                     next_from and datetime.date.fromisoformat(next_from))
     if not rows:
         return ""
-    trs, shown, polls, rates = [], set(), [], []
+    href = href or def_href
+    trs, shown, polls, rates, oils = [], set(), [], [], []
     for sid, s, r in rows:
+        if sid in oil.SERIES:            # Oil apart, in a table of its own (STYLE 15; tools/bib/oil.py)
+            oils.append((sid, s, r))
+            continue
         g = GROUP.get(sid)
         if s.get("kind") in ("poll", "rate"):
             g = None
@@ -464,33 +463,22 @@ def block(data, sec_from, sec_to, prev_to, year, next_from=None):
             trs.append(f'<tr class="g"><th colspan="4">{esc(g)}{grey(unit_note)}</th></tr>')
         if s.get("kind") == "poll":
             pname, per, first, rel, now = poll_row(sid, s, r, year)
-            polls.append(f'<tr><td class="iname"><a href="#ind-def-{esc(sid)}">{esc(pname)}</a> '
+            polls.append(f'<tr><td class="iname"><a href="{esc(href(sid))}">{esc(pname)}</a> '
                          f'<span class="per">{esc(per)}</span></td><td>{first}</td><td class="rel">{rel}</td><td>{now}</td></tr>')
             continue
         if s.get("kind") == "rate":
-            rates.append(rate_row(sid, s, r, year))
+            rates.append(rate_row(sid, s, r, year, href))
             continue
-        then, now = s.get("then") or {}, s.get("now") or {}
-        name = f'<a href="#ind-def-{esc(sid)}">{esc(s["name"])}</a> <span class="per">{esc(period_label(r["p"]))}</span>'
-        first = cell_first(sid, s, r, year)
-        if "first" in r:
-            tip = exact(r["first"], r.get("unit"))
-            if r.get("since"):          # a standing rate (STYLE 13): when it took effect, and where it is printed
-                tip += f'; in effect from {date_label(r["since"])}; {r.get("source", "")}'
-            first = f'<span title="{esc(tip)}">{first}</span>'
-        rel = "—"
-        if r.get("released"):
-            src = r.get("source") or (then.get("source") and f'{then["source"]}, released {r["released"]}')
-            rel = f'<span title="{esc(src or "")}">{esc(date_label(r["released"], year))}</span>'
-        nowv = cell_now(sid, s, r)
-        if nowv != "—" and now.get("source"):
-            nowv = f'<span title="{esc(now["source"] + (": " + exact(r["now"], now.get("unit")) if r.get("now") is not None else ""))}">{nowv}</span>'
+        name = name_cell(sid, s, r, href)
+        first, rel, nowv = cells(sid, s, r, year)
         trs.append(f'<tr><td class="iname">{name}</td><td>{first}</td><td class="rel">{rel}</td><td>{nowv}</td></tr>')
     out = ""
     if trs:
         out += ('<div class="ind"><p class="ind-cap">Economic indicators</p><table><thead><tr><th>Indicator</th><th>As first reported</th>'
                 '<th>Released</th><th>Revised, today</th></tr></thead><tbody>'
                 + "".join(trs) + "</tbody></table></div>")
+    if oils:                             # Oil apart: no vacant columns (STYLE 15; tools/bib/oil.py)
+        out += oil.table(oils, year, lambda sid, s, r: name_cell(sid, s, r, href), cells)
     if rates:                            # rates apart: not revised, so one figure (STYLE 13)
         out += ('<div class="ind ind-sep ind-rt"><p class="ind-cap">Money and credit</p><table><thead><tr><th>Rate</th>'
                 '<th>Percent</th></tr></thead><tbody>' + "".join(rates) + "</tbody></table></div>")
@@ -498,21 +486,6 @@ def block(data, sec_from, sec_to, prev_to, year, next_from=None):
         out += ('<div class="ind ind-sep ind-op"><p class="ind-cap">Presidential approval, Gallup</p><table><thead><tr><th>Reading</th><th>As published</th>'
                 '<th>Released</th><th>Today</th></tr></thead><tbody>' + "".join(polls) + "</tbody></table></div>")
     return out
-
-
-def defs_block(data):
-    items = []
-    for sid in ORDER:
-        if sid in data and sid in DEFS:
-            items.append(f'<dt id="ind-def-{esc(sid)}">{esc(data[sid]["name"])}</dt>'
-                         f'<dd>{to_html(DEFS[sid], lambda eid, shown: None)}</dd>')
-    return ('<div class="ind-defs" id="indicators"><h3 data-short="Indicators">Indicators: concepts and sources</h3>'
-            '<p class="logic">Under each month: the figures for that month, its quarter, fiscal year, or year, '
-            'as first reported and as revised today. Monthly changes from the prior month; quarterly changes '
-            'from the prior quarter at an annual rate (ar). "—": no figure in that column; "n.a.": not available in the source. '
-            'Figures in $bn throughout federal finance and international; interest rates in percent, their changes in points (pt); the source figure shows on hover. '
-            'Data and transcriptions: indicators/ in the repository.</p><dl>'
-            + "".join(items) + "</dl></div>")
 
 
 STYLE = """<style>
@@ -542,32 +515,36 @@ div.ind-defs dd{margin:.1rem 0 0 0;color:var(--ink)}
 
 
 def inject(page, series, mode):
-    """Put each calendar month's indicators under its heading, and the definitions before the first month."""
+    """Put each calendar month's indicators under its heading and, where a series first appears on the page, its
+    servant statement of concepts and sources after the table (tools/bib/concepts.py); rows link to their servants."""
     data = load()
     if not data:
         return page
-    done = defs_done = False
+    from . import calsplit
+    plan = concepts.plan(series, data)
+    here = calsplit.CUR.get("half") if mode == "list" else None
+    done = False
     for lst in series.lists.values():
         if lst.kind != "calendar":
             continue
         dated = [s for s in lst.sections if s.extra.get("from") and s.extra.get("to")]
         for i, sec in enumerate(dated):
+            if here and plan.part_of(sec) not in (None, here):
+                continue                           # another part's page
             year = int(str(sec.extra["to"])[:4])
             hid = f"{lst.key}--{sec.id}" if mode == "series" else sec.id
             nxt = str(dated[i + 1].extra["from"]) if i + 1 < len(dated) else None
             prv = str(dated[i - 1].extra["to"]) if i else None
-            blk = block(data, str(sec.extra["from"]), str(sec.extra["to"]), prv, year, nxt)
+            blk = block(data, str(sec.extra["from"]), str(sec.extra["to"]), prv, year, nxt, plan.href(sec))
             if not blk:
                 continue
-            if not defs_done:                      # the definitions before the first section with figures
-                pat0 = re.compile(r'(<h\d id="' + re.escape(hid) + r'")')
-                page, n0 = pat0.subn(lambda m: defs_block(data) + "\n" + m.group(1), page, count=1)
-                defs_done = bool(n0)
+            blk += plan.servant(sec)
             pat = re.compile(r'(<h\d id="' + re.escape(hid) + r'"[^>]*>.*?</h\d>(?:\s*<p class="logic">.*?</p>)*)', re.S)
             page, n = pat.subn(lambda m: m.group(1) + "\n" + blk, page, count=1)
             done = done or bool(n)
     if done:
-        page = page.replace("</head>", STYLE + "\n</head>", 1)
+        page = page.replace("</head>", STYLE + "\n" + concepts.STYLE + "\n</head>", 1)
+        page = concepts.link_logic(page)
     return page
 
 

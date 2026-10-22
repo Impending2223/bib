@@ -144,14 +144,6 @@ entries:
   - id: cal.thread.consumers
     s: Consumer protection
     c: 'Consumer protection: credit, meat, fabrics, products. The message of Feb. 16, 1967; Betty Furness; truth in lending through the Senate; meat inspection and the Wholesome Meat Act; the Product Safety Commission; the Flammable Fabrics amendments.'
-  - id: cal.thread.court
-    s: Court
-    c: The Supreme Court's October 1959 to October 1965 Terms, its new Justices, and Congress's answers. *Raines*; *Elkins*; *Gomillion*; *Boynton*; *Mapp*; *Baker v. Carr*, argued, reargued, decided; *Engel v. Vitale*; White and Goldberg for Whittaker and Frankfurter.
-    c2: The Supreme Court's October 1962 to October 1965 Terms, its new Justices, and Congress's answers. *Button*; *Gideon*; *Gray v. Sanders*; the sit-in cases; *Schempp*; *Wesberry*; *New York Times v. Sullivan*; *Griffin*; *Reynolds v. Sims*; the Tuck bill and the Dirksen rider; *Heart of Atlanta*; *Griswold*; Marshall Solicitor General; Fortas for Goldberg; Dirksen's apportionment amendment; *Albertson*.
-    c3: The Supreme Court's October 1965 to October 1968 Terms, its new Justices, and Congress's answers. *South Carolina v. Katzenbach*; *Harper*; *Miranda*; *Katzenbach v. Morgan*; *Bond v. Floyd*; *Keyishian*; *Gault*; *Reitman v. Mulkey*; *Loving*; *Walker*; Marshall for Tom Clark; *Katz*; Dirksen's convention; *Green*; *Terry*; *Jones v. Mayer*; Warren's retirement; Fortas for Chief Justice, cloture refused; *Williams v. Rhodes*.
-  - id: cal.thread.court-fortas
-    s: Fortas
-    parent: court
   - id: cal.thread.crime-and-hijacking
     s: Crime and hijacking
     c: Robert Kennedy's crime bills, the first hijackings to Cuba, and Johnson's crime program. Three hijackings, May–Aug. 1961; aircraft piracy a federal crime; the Wire and Travel Acts.
@@ -162,9 +154,6 @@ entries:
     parent: crime-and-hijacking
   - id: cal.thread.crime-and-hijacking-guns
     s: Gun control
-    parent: crime-and-hijacking
-  - id: cal.thread.crime-and-hijacking-maheu
-    s: Las Vegas wiretap
     parent: crime-and-hijacking
   - id: cal.thread.crime-and-hijacking-safe-streets
     s: Safe Streets Act
@@ -178,6 +167,10 @@ entries:
     s: Bay of Pigs
     parent: cuba
     c: 'The invasion of Cuba by the CIA''s exile brigade, from Eisenhower''s covert program to the collapse on the beach. The program of Mar. 17, 1960; Radio Swan; the exile front; Retalhuleu; the turn from infiltration to invasion; the briefings of the President-elect; the Chiefs'' evaluation; Trinidad to Zapata; Schlesinger''s and Fulbright''s dissents; the Revolutionary Council; the White Paper; Szulc in the *Times*; "no intervention"; the strike of Apr. 15 and the second cancelled; the landing; Khrushchev''s message; the collapse.'
+  - id: cal.thread.missile-crisis
+    s: Cuban Missile Crisis
+    c: The Soviet missiles in Cuba, from the decision to the aftermath. The Presidium's plan; the summer warnings; the U-2's find; the ExComm; the quarantine; the letters; the withdrawal; the IL-28s; the Stevenson story.
+    c2: The Soviet missiles in Cuba, from the decision to the aftermath. The joint letter to U Thant; McNamara's photographs; the Soviet troops.
   - id: cal.thread.cyprus
     s: Cyprus
     c: 'Cyprus: the republic, its two communities, the guarantor powers. Independence; NSAM 71; NSAM 98; Makarios at the White House; NSAM 169; Johnson at Nicosia.'
@@ -186,7 +179,7 @@ entries:
     aliases: [cal.thread.europe-and-the-alliance-cyprus]
   - id: cal.thread.defense
     s: Defense
-    c: Strategy and the defense budget. The missile gap in the hearings; Polaris at sea; the SIOP; the farewell address; McNamara's no missile gap; the March budget; the Berlin increase; civil defense to the Pentagon; Gilpatric at Hot Springs; the RS-70; counterforce at Ann Arbor.
+    c: Strategy and the defense budget. The missile gap in the hearings; Polaris at sea; the SIOP; Eisenhower's farewell address; McNamara's no missile gap; the March budget; the Berlin increase; civil defense to the Pentagon; Gilpatric at Hot Springs; the RS-70; counterforce at Ann Arbor.
     c2: Strategy and the defense budget. The TFX hearings; the draft extended; the RS-70 added; *Thresher*; Anderson and Korth out; the A-11; the draft study; the $700 million for Vietnam; the base-closing veto; the Manned Orbiting Laboratory; the draft-card act.
     c3: Strategy and the defense budget. Palomares; the supplemental; the deferment test; McNamara at Montreal; the Marshall commission; the reserves amendment; the ABM; Kosygin's reply on talks; the Military Selective Service Act; the *Liberty*; the Stennis hearings; the "Chinese-oriented" ABM; the women officers' act; McNamara to the World Bank; Thule; Clifford for McNamara; the 205,000; Westmoreland Chief of Staff, Abrams for him; the Sentinel votes; MIRV tested.
   - id: cal.thread.defense-abm
@@ -241,37 +234,48 @@ entries:
     s: Tax Adjustment Act
     parent: economy
   - id: cal.thread.elections-1960
-    s: Elections of 1960
+    s: 1960 Elections
+    sort: Elections of 1960
     c: The 1960 election, from the announcements to the count. The primaries, Mar. 8 to June 7 (CQ's returns); Wisconsin and West Virginia; Los Angeles and Chicago; the Treaty of Fifth Avenue; Houston; the four debates; King's arrest; Nov. 8; Hawaii's recount; the electors; the count, Jan. 6.
   - id: cal.thread.elections-1961
-    s: Elections of 1961
+    s: 1961 Elections
+    sort: Elections of 1961
     c: 'The off-year elections of 1961. Governors: Hughes in New Jersey, Harrison in Virginia. Mayors: Yorty over Poulson; Wagner against Tammany, then re-elected; Allen over Maddox in Atlanta; Cavanagh over Miriani in Detroit; Cowger in Louisville.'
   - id: cal.thread.elections-1962
-    s: Elections of 1962
+    s: 1962 Elections
+    sort: Elections of 1962
     c: The primaries and midterms of 1962. Connally and Wallace; Nixon in California; Edward Kennedy against McCormack; Nov. 6; Nixon's last press conference.
     c2: The primaries and midterms of 1962. Minnesota's recount, Rolvaag declared elected.
   - id: cal.thread.elections-1963
-    s: Elections of 1963
+    s: 1963 Elections
+    sort: Elections of 1963
     c: 'The off-year elections of 1963. Mayors: Boutwell over Connor in Birmingham; Daley over Adamowski; McKeldin in Baltimore; Tate, Shelley, Collins. Governors: Breathitt in Kentucky; Paul Johnson in Mississippi, beside the Freedom Vote; McKeithen in Louisiana.'
   - id: cal.thread.elections-1964
-    s: Elections of 1964
+    s: 1964 Elections
+    sort: Elections of 1964
+    see_also: [goldwater]
     c: The elections of 1964, from the race for the nominations to the result. The Goldwater draft, its Chicago meetings.
     c2: The elections of 1964, from the race for the nominations to the result. Rockefeller; the Goldwater draft; Goldwater announces; the primaries, Mar. 10 to June 2 (CQ's returns); San Francisco, July 13, and Atlantic City, Aug. 24; Smith announces; Scranton enters; his letter; the platform fight; Goldwater nominated; the Johnson–Goldwater meeting; the Cabinet ruled out; Hershey; Johnson and Humphrey nominated; Robert Kennedy for the Senate; the Daisy ad; Thurmond a Republican; the Lady Bird Special; Jenkins; "A Time for Choosing"; Nov. 3; the concession; Burch for Bliss.
   - id: cal.thread.elections-1964-polls
-    s: 'Elections of 1964: polls'
+    s: '1964 Elections: polls'
+    sort: 'Elections of 1964: polls'
     c: Gallup on 1964, the Republicans' choice and Kennedy against each. Nixon first; Rockefeller over Goldwater; Kennedy 65, Nixon 35; Rockefeller ahead, Nov. 1962.
     c2: Gallup on 1964, the Republicans' choice and the President against each. Goldwater past Rockefeller, May 1963; Johnson after Nov. 22; Lodge after New Hampshire; Robert Kennedy for Vice President; the county chairmen; Scranton over Goldwater among Republicans; Johnson 65, Goldwater 29, August; the final poll, 64–29.
   - id: cal.thread.elections-1965
-    s: Elections of 1965
+    s: 1965 Elections
+    sort: Elections of 1965
     c: The off-year elections of 1965. Lindsay over Beame and Buckley in New York; Hughes re-elected and Godwin elected governors; Yorty, Cavanagh and Barr re-elected; Locher over Stokes; Cervantes in St. Louis; Bond to the Georgia House.
   - id: cal.thread.elections-1966
-    s: Elections of 1966
+    s: 1966 Elections
+    sort: Elections of 1966
     c: The primaries and midterms of 1966. Lurleen Wallace; Reagan; the Virginia, Tennessee and Michigan primaries; Maddox; Brooke; Nov. 8; the Georgia governorship to the legislature, Maddox chosen; Reagan sworn.
   - id: cal.thread.elections-1967
-    s: Elections of 1967
+    s: 1967 Elections
+    sort: Elections of 1967
     c: 'The off-year elections of 1967. Mayors: Daley''s fourth term; Hatcher at Gary, Stokes at Cleveland; Tate over Specter; White over Hicks; Alioto, Lugar, D''Alesandro, Loeb. Governors: McKeithen renominated; Nunn in Kentucky; Williams in Mississippi. New Jersey''s Senate Republican; Reid to Virginia''s House of Delegates; New York''s constitution refused.'
   - id: cal.thread.elections-1968
-    s: Elections of 1968
+    s: 1968 Elections
+    sort: Elections of 1968
     c: The 1968 election, from the race for the nominations to the count. Gallup's first trial heats and the Republicans' choice, Nixon first; Romney against Humphrey and Johnson; Robert Kennedy and Humphrey as candidates.
     c3: The 1968 election, from the race for the nominations to the count. Gallup's trial heats and the parties' choices; Nixon's preparations; Romney's "brainwashing" and his announcement; McCarthy against Johnson; Nixon and Wallace announce; Romney withdraws; New Hampshire; the Mar. 31 address; Humphrey and Rockefeller announce; the primaries (CQ's returns); Kennedy shot at Los Angeles; Chennault and Bùi Diễm; Miami Beach, Nixon and Agnew; Chicago, the streets and the Vietnam plank, Humphrey and Muskie; LeMay; Salt Lake City; the bombing halt; Nixon elected; the governors and the legislatures; the electoral votes counted.
   - id: cal.thread.elections-1968-chennault
@@ -284,15 +288,24 @@ entries:
     s: Miami Beach
     parent: elections-1968
   - id: cal.thread.elections-1968-polls
-    s: 'Elections of 1968: polls'
+    s: '1968 Elections: polls'
+    sort: 'Elections of 1968: polls'
     c: 'Gallup on 1968: the parties'' choices and the trial heats. Nixon first among Republicans, Lodge and Goldwater behind; Romney even with Humphrey, behind Johnson.'
     c3: 'Gallup on 1968: the parties'' choices and the trial heats. Robert Kennedy over Nixon; the county chairmen; Romney ahead of Johnson, then behind after the brainwashing; Nixon first among Republicans; Robert Kennedy and Johnson among Democrats; Wallace as an independent; McCarthy, Kennedy and Humphrey after Mar. 31; Nixon, Humphrey and Wallace through the fall; the final poll.'
   - id: cal.thread.elections-1972
-    s: Elections of 1972
+    s: 1972 Elections
+    sort: Elections of 1972
     c: 'The 1972 nominations: the primaries, Mar. 7 to June 6 (CQ''s returns), and the conventions, both at Miami Beach, July 10 and Aug. 21. The rest of the year not yet written.'
   - id: cal.thread.elections-1976
-    s: Elections of 1976
+    s: 1976 Elections
+    sort: Elections of 1976
     c: 'The 1976 nominations: the primaries, Feb. 24 to June 8 (CQ''s returns), and the conventions, New York, July 12, and Kansas City, Aug. 16. The rest of the year not yet written.'
+  - id: cal.thread.specials
+    s: Special elections
+    sort: 'Elections, special'
+    c: The special elections that filled seats in the 86th, 87th, 88th and 89th Congresses. Burdick for Langer; Johnson's Senate seat to Tower; twelve House seats, three to widows.
+    c2: The special elections that filled seats in the 88th and 89th Congresses. Six House seats in 1963; the Oklahoma Senate primaries, Harris over Edmondson; three House seats in the spring of 1964, Irene Baker's among them, three with the November election; four House seats in 1965, Watson's among them.
+    c3: 'The special elections that filled seats in the 89th and 90th Congresses. Six House seats in 1966, Lera Thomas''s among them. Three in 1967: Tiernan for Fogarty; Powell re-elected to the seat denied him; McCloskey for Younger. Four in 1968: Podell; Griffin over Evers; Collins for Pool, a Republican gain; Gaydos.'
   - id: cal.thread.electoral-college
     s: Electoral college
     c: 'The electoral college: its electors, pledged, unpledged and faithless, the count in Congress, and the proposals to change it. Alabama''s and Mississippi''s unpledged electors; electors for the District through Congress and ratified; Byrd''s fifteen votes; Hawaii''s recount and its three certificates; the count; Kefauver''s hearings; Irwin before them; the District''s electors put into law.'
@@ -377,6 +390,9 @@ entries:
   - id: cal.thread.intelligence
     s: Intelligence
     c: The CIA at home. Its money for the National Student Association made public; the Katzenbach committee's rule against covert support of private bodies.
+  - id: cal.thread.crime-and-hijacking-maheu
+    s: Las Vegas wiretap
+    parent: intelligence
   - id: cal.thread.japan
     s: Japan
     c: The alliance with Japan, and the Ryukyus. The security treaty signed; the Diet's vote and the riots; Hagerty mobbed, Eisenhower's visit cancelled; his Far East tour; the Senate's consent; Kishi stabbed, Ikeda in; Akihito at the White House; Reischauer to Tokyo; Ikeda in Washington; the Ryukyus task force; Hakone; Robert Kennedy at Tokyo; the Ryukyus order; the Joint Committee in Washington.
@@ -479,7 +495,7 @@ entries:
     parent: latin-america
   - id: cal.thread.legislatures-old-name
     s: Legislatures
-    see: legislatures
+    see: [legislatures, state-legislatures]
   - id: cal.thread.march-on-washington
     s: March on Washington
     c: The March on Washington for Jobs and Freedom, Aug. 28, 1963.
@@ -507,14 +523,16 @@ entries:
   - id: cal.thread.middle-east-iran-oil
     s: Iran's oil
     parent: middle-east
-  - id: cal.thread.middle-east-johnson-trip
-    s: Johnson abroad
-    parent: middle-east
   - id: cal.thread.middle-east-johnson-plan
     s: Johnson Plan
     parent: middle-east
+    c: 'Joseph E. Johnson of the Carnegie Endowment, the Palestine Conciliation Commission''s Special Representative, and his plan for the Palestine refugees: each to state a preference, repatriation to Israel or compensation and resettlement. Appointed; the first mission and report; Resolution 1725; the second round; the plan to Kennedy, to the PCC, to the parties; Israel''s rejection; Syria''s; the leak; Resolution 1856.'
+    c2: 'Joseph E. Johnson of the Carnegie Endowment, the Palestine Conciliation Commission''s Special Representative, and his plan for the Palestine refugees: each to state a preference, repatriation to Israel or compensation and resettlement. Johnson resigns; with Kennedy, the plan dead.'
   - id: cal.thread.middle-east-kuwait
     s: Kuwait
+    parent: middle-east
+  - id: cal.thread.middle-east-johnson-trip
+    s: LBJ abroad
     parent: middle-east
   - id: cal.thread.middle-east-samu
     s: Samu
@@ -532,10 +550,6 @@ entries:
   - id: cal.thread.middle-east-yemen
     s: Yemen
     parent: middle-east
-  - id: cal.thread.missile-crisis
-    s: Missile crisis
-    c: The Soviet missiles in Cuba, from the decision to the aftermath. The Presidium's plan; the summer warnings; the U-2's find; the ExComm; the quarantine; the letters; the withdrawal; the IL-28s; the Stevenson story.
-    c2: The Soviet missiles in Cuba, from the decision to the aftermath. The joint letter to U Thant; McNamara's photographs; the Soviet troops.
   - id: cal.thread.mississippi
     s: Mississippi
     c: The movement in Mississippi, Meredith's admission, Evers, and Freedom Summer. The riders jailed at Jackson; McComb; Herbert Lee; the Fifth Circuit's order; Barnett's refusals; the calls; Oxford.
@@ -543,9 +557,6 @@ entries:
     c3: The movement in Mississippi, Meredith's admission, Evers, and Freedom Summer. Dahmer; the Greenville air base occupied; *Price*; Meredith shot and the March Against Fear; *Connor v. Johnson*; Grenada; the hunger hearings at Jackson; Williams elected governor; seven convicted at Meridian; Charles Evers in the special; the Loyal Democrats seated at Chicago.
   - id: cal.thread.mississippi-meredith
     s: Meredith march
-    parent: mississippi
-  - id: cal.thread.mississippi-ole-miss
-    s: Ole Miss
     parent: mississippi
   - id: cal.thread.oil
     s: Oil
@@ -603,6 +614,9 @@ entries:
     c: Schools and universities opened under federal court orders, each event in its own thread. New Orleans; Georgia; Atlanta; Meredith at Oxford. Gallup on school integration.
     c2: Schools and universities opened under federal court orders, each event in its own thread. Gantt at Clemson; *Goss*; the schoolhouse door; Boston's Stay Out for Freedom; Alabama's schools in September; Prince Edward's Free Schools; the Chicago, New York, Cleveland and Milwaukee boycotts; *Griffin*; *Lee v. Macon*; the Racial Imbalance Act; Chicago's grants deferred; the Charlotte bombings. Gallup on school integration.
     c3: Schools and universities opened under federal court orders, each event in its own thread. The Seattle boycott; Boston's State aid withheld; Intermediate School 201; Alabama's act against the guidelines; Grenada; the guidelines in the House; Alabama's statewide order; the Racial Imbalance Act upheld; the track system struck in Washington; the East Los Angeles walkouts; *Green*; the busing provisos; the separate-schools clauses dropped in Oklahoma and Florida. Gallup on school integration.
+  - id: cal.thread.mississippi-ole-miss
+    s: Ole Miss
+    parent: desegregation-schools
   - id: cal.thread.desegregation-schools-uga
     s: University of Georgia
     parent: desegregation-schools
@@ -657,11 +671,9 @@ entries:
   - id: cal.thread.space-apollo
     s: Apollo 7 and 8
     parent: space
-  - id: cal.thread.specials
+  - id: cal.thread.specials-old-place
     s: Special elections
-    c: The special elections that filled seats in the 86th, 87th, 88th and 89th Congresses. Burdick for Langer; Johnson's Senate seat to Tower; twelve House seats, three to widows.
-    c2: The special elections that filled seats in the 88th and 89th Congresses. Six House seats in 1963; the Oklahoma Senate primaries, Harris over Edmondson; three House seats in the spring of 1964, Irene Baker's among them, three with the November election; four House seats in 1965, Watson's among them.
-    c3: 'The special elections that filled seats in the 89th and 90th Congresses. Six House seats in 1966, Lera Thomas''s among them. Three in 1967: Tiernan for Fogarty; Powell re-elected to the seat denied him; McCloskey for Younger. Four in 1968: Podell; Griffin over Evers; Collins for Pool, a Republican gain; Gaydos.'
+    see: specials
   - id: cal.thread.state-and-city-finance
     s: State and city finance
     c: Taxes, budgets and borrowing in the States and cities; Census's figures each fiscal year. California's water bonds; West Virginia's income tax; Sanford's food tax; Texas's first sales tax; Detroit's income tax.
@@ -705,6 +717,14 @@ entries:
     s: Succession
     c: Johnson's first weeks, and the succession amended. The oath; the first meeting on Vietnam; NSAM 273; the joint session; the Kennedy program; the first news conference; the budget; the disability amendment in the Senate; the disability message; the Twenty-fifth Amendment through Congress; Johnson's surgery.
     c3: Johnson's first weeks, and the succession amended. The Amendment before the States; Johnson's second operation; the Amendment ratified.
+  - id: cal.thread.court
+    s: Supreme Court
+    c: The Supreme Court's October 1959 to October 1965 Terms, its new Justices, and Congress's answers. *Raines*; *Elkins*; *Gomillion*; *Boynton*; *Mapp*; *Baker v. Carr*, argued, reargued, decided; *Engel v. Vitale*; White and Goldberg for Whittaker and Frankfurter.
+    c2: The Supreme Court's October 1962 to October 1965 Terms, its new Justices, and Congress's answers. *Button*; *Gideon*; *Gray v. Sanders*; the sit-in cases; *Schempp*; *Wesberry*; *New York Times v. Sullivan*; *Griffin*; *Reynolds v. Sims*; the Tuck bill and the Dirksen rider; *Heart of Atlanta*; *Griswold*; Marshall Solicitor General; Fortas for Goldberg; Dirksen's apportionment amendment; *Albertson*.
+    c3: The Supreme Court's October 1965 to October 1968 Terms, its new Justices, and Congress's answers. *South Carolina v. Katzenbach*; *Harper*; *Miranda*; *Katzenbach v. Morgan*; *Bond v. Floyd*; *Keyishian*; *Gault*; *Reitman v. Mulkey*; *Loving*; *Walker*; Marshall for Tom Clark; *Katz*; Dirksen's convention; *Green*; *Terry*; *Jones v. Mayer*; Warren's retirement; Fortas for Chief Justice, cloture refused; *Williams v. Rhodes*.
+  - id: cal.thread.court-fortas
+    s: Fortas
+    parent: court
   - id: cal.thread.trade
     s: Trade
     c: Trade and the tariff, from the Trade Expansion Act through the Kennedy Round. The OECD convention; the House and Senate votes; Herter named.
@@ -773,6 +793,9 @@ entries:
   - id: cal.thread.vietnam-khe-sanh
     s: Khe Sanh
     parent: vietnam
+  - id: cal.thread.vietnam-johnson-asia
+    s: LBJ in Asia
+    parent: vietnam
   - id: cal.thread.vietnam-marigold
     s: Marigold
     parent: vietnam
@@ -816,9 +839,6 @@ entries:
     parent: vietnam
   - id: cal.thread.vietnam-thant
     s: Thant's proposal
-    parent: vietnam
-  - id: cal.thread.vietnam-johnson-asia
-    s: Vice President in Asia
     parent: vietnam
   - id: cal.thread.vietnam-abrams
     s: Westmoreland to Abrams

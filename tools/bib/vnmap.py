@@ -1,5 +1,6 @@
 """Maps of Vietnam, Laos and Cambodia in the calendar: one a year, 1960–68, at the year's first entry tagged with a
-place in the Republic of Vietnam, showing every entry of the year that is tagged with a place.
+place in the Republic of Vietnam, showing every entry of the year that is tagged with a place; and the same map, every
+year, on a page of its own (build/indochina.html; STYLE 6).
 
 The data: sources/vn-provinces-1966/ (its README): the provinces of late 1966 rebuilt from today's districts, the corps
 zones and regions dissolved from them, the countries around (indochina-outline.geojson), and the gazetteer
@@ -22,6 +23,15 @@ STYLE
     it otherwise). To 64 times the first view, so a battlefield's places stand apart.
  5. The shapes are not in the pages: build/geo/vn-<hash>.json, fetched when the first map nears the screen (as the
     election maps' are: congress.geo_files); the layers' files beside it.
+ 6. The map on a page of its own, build/indochina.html (the owner's request, Oct. 22, 2026; the page around it is
+    tools/bib/indochina.py): the same figure, styles and script (`full_figure`, class `full`), with every placed
+    entry, each carrying its year, and a year selector above the controls (All years, the default, then 1960–68 and
+    any other year with a placed entry), each year a link anchored `y<YYYY>` (`yall`), so `indochina.html#y1965`
+    opens on 1965; a choice rewrites the address, no scroll. The selected year's entries make the dots, the tap's
+    list, the folded list and the caption's count; in All years each date carries its year; lakes drawn from their
+    dam's year to the year chosen (1968 for All years). The first view the layers' frame (LB: lon 100–110.5, lat
+    8–23.5), the box in its proportion, as tall as the screen allows; a tap's list links the place's gazetteer row
+    (`#pl-<id>`). Each annual map in the calendar closes with a muted line to the page, at its year.
 """
 import hashlib
 import json
@@ -30,13 +40,14 @@ import os
 import re
 import shutil
 
-from . import store
+from . import contents, store
 
 SRC = os.path.join(store.ROOT, "sources", "vn-provinces-1966")
 LAYERS = os.path.join(store.ROOT, "sources", "indochina")
 GEO_OUT = os.path.join(store.ROOT, "build", "geo")
 B = (99.5, 7.5, 111.0, 24.0)                   # the plane's bounds, lon/lat
 W = 1000.0
+LB = (100.0, 8.0, 110.5, 23.5)                 # the layers' frame (sources/indochina/README.md): the full map's view
 _C = {}
 
 # names the series writes in English (CLAUDE.md: English names stay), for the gazetteer's Vietnamese ones
@@ -146,7 +157,6 @@ def layers():
     if not os.path.isdir(LAYERS):
         _C["lay"] = lay
         return lay
-    LB = (100.0, 8.0, 110.5, 23.5)
     x0, y1 = xy(LB[0], LB[1])
     x1, y0 = xy(LB[2], LB[3])
     rect = [x0, y0, round(x1 - x0, 1), round(y1 - y0, 1)]
@@ -271,39 +281,80 @@ def _summary(c):
     return first if len(first) <= 150 else first[:147].rsplit(" ", 1)[0] + " …"
 
 
-def block(series, y):
+def _ents(series, rows, with_year=False):
+    """The entries a map shows, for its data: link (on the calendar page the entry is in), when, thread, the first
+    words of the statement, places, provinces; and the year, on the page of its own."""
     from . import calsplit
     from .build import thread_name
     lst = series.lists["cal"]
-    rows = by_year(series).get(y, [])
-    ents = []
+    out = []
     for e, pl, pv in rows:
         half = calsplit.half_of_date(lst, e["date"]) if calsplit.cfg(lst) else None
-        ents.append({"h": calsplit.href(lst, half or 1, e["id"]), "w": e["when"], "t": thread_name(lst, e["thread"]),
-                     "s": _summary(e.get("c")), "p": [p for p in pl if p in gazetteer()], "v": pv})
+        x = {"h": calsplit.href(lst, half or 1, e["id"]), "w": e["when"], "t": thread_name(lst, e["thread"]),
+             "s": _summary(e.get("c")), "p": [p for p in pl if p in gazetteer()], "v": pv}
+        if with_year:
+            x["y"] = str(e["date"])[:4]
+        out.append(x)
+    return out
+
+
+def _box(label):
+    return ('<div class="vnm-bar"></div><div class="vnm-box"><svg class="vnm-svg" role="img" '
+            f'aria-label="{label}"></svg><div class="vnm-z">'
+            '<button type="button" data-z="in" aria-label="Zoom in">+</button>'
+            '<button type="button" data-z="out" aria-label="Zoom out">−</button>'
+            '<button type="button" data-z="home" aria-label="Back to the first view">⌂</button></div>'
+            '<div class="vnm-pop" hidden></div><div class="vnm-hint" hidden>Ctrl or ⌘ and the wheel to zoom</div></div>'
+            '<div class="vnm-key"></div>')
+
+
+def block(series, y):
+    rows = by_year(series).get(y, [])
+    ents = _ents(series, rows)
     data = json.dumps({"y": y, "e": ents}, ensure_ascii=False).replace("</", "<\\/")
     n_pl = len({p for x in ents for p in x["p"]})
     return (f'<figure class="vnm" data-geo="{geo_file()}" data-y="{y}">'
             f'<figcaption class="vnm-cap">Vietnam, Laos and Cambodia, {y}: the year\'s {len(ents)} placed entries, at '
             f'{n_pl} places. Provinces as of late 1966; lines approximate (sources/vn-provinces-1966).</figcaption>'
-            '<div class="vnm-bar"></div><div class="vnm-box"><svg class="vnm-svg" role="img" '
-            f'aria-label="Map of Vietnam, Laos and Cambodia, {y}"></svg><div class="vnm-z">'
-            '<button type="button" data-z="in" aria-label="Zoom in">+</button>'
-            '<button type="button" data-z="out" aria-label="Zoom out">−</button>'
-            '<button type="button" data-z="home" aria-label="Back to the first view">⌂</button></div>'
-            '<div class="vnm-pop" hidden></div><div class="vnm-hint" hidden>Ctrl or ⌘ and the wheel to zoom</div></div>'
-            f'<div class="vnm-key"></div><details class="vnm-list"><summary>The year\'s placed entries</summary>'
-            f'<ol></ol></details><script type="application/json" class="vnm-d">{data}</script></figure>')
+            + _box(f"Map of Vietnam, Laos and Cambodia, {y}") +
+            '<details class="vnm-list"><summary>The year\'s placed entries</summary>'
+            f'<ol></ol></details><p class="vnm-pg">Every year on one map, with the gazetteer: '
+            f'<a href="indochina.html#y{y}">Indochina</a>.</p>'
+            f'<script type="application/json" class="vnm-d">{data}</script></figure>')
+
+
+def years(series):
+    """The years the page's selector offers: 1960–68, and any other year with a placed entry."""
+    return sorted(set(map(str, range(1960, 1969))) | set(by_year(series)))
+
+
+def full_figure(series):
+    """The map on indochina.html (STYLE 6): every placed entry, a year selector, the frame of the layers."""
+    by = by_year(series)
+    ys = years(series)
+    rows = [r for y in sorted(by) for r in by[y]]
+    ents = _ents(series, rows, with_year=True)
+    data = json.dumps({"y": "all", "ys": ys, "e": ents}, ensure_ascii=False).replace("</", "<\\/")
+    n_pl = len({p for x in ents for p in x["p"]})
+    yrs = ('<nav class="vnm-yrs" aria-label="Year"><a id="yall" href="#yall" data-yr="all">All years</a>'
+           + "".join(f'<a id="y{y}" href="#y{y}" data-yr="{y}">{y}</a>' for y in ys) + "</nav>")
+    x0, y1 = xy(LB[0], LB[1])
+    x1, y0 = xy(LB[2], LB[3])
+    return (f'<figure class="vnm full" data-geo="{geo_file()}" data-y="all" style="--vnar:{(x1 - x0) / (y1 - y0):.4f}">'
+            f'<figcaption class="vnm-cap"><span class="vnm-cnt">All years: {len(ents)} placed entries, at {n_pl} '
+            'places.</span> Provinces as of late 1966; lines approximate.</figcaption>'
+            + yrs + _box("Map of Vietnam, Laos and Cambodia, 1960–1968") +
+            '<details class="vnm-list"><summary>The placed entries</summary><ol></ol></details>'
+            f'<script type="application/json" class="vnm-d">{data}</script></figure>')
 
 
 def inject(page, series):
     used = False
     for y, eid in anchors(series).items():
-        pat = re.compile(r'(<li id="' + re.escape(eid) + r'"[^>]*>.*?)(</li>)', re.S)
-        if not pat.search(page):
+        if f'<li id="{eid}"' not in page:
             continue
         blk = block(series, y)
-        page, k = pat.subn(lambda mm: mm.group(1) + blk + mm.group(2), page, count=1)
+        page, k = contents.put(page, eid, blk, "vnmap", y)
         used = used or bool(k)
     if used and 'id="vnmcss"' not in page:
         page = page.replace("</head>", CSS + "\n</head>", 1).replace("</body>", JS + "\n</body>", 1)
@@ -376,6 +427,14 @@ CSS = """<style id="vnmcss">
 .vnm .dim{fill:var(--muted);fill-opacity:.65;stroke:none;cursor:pointer}
 .vnm .lb{fill:var(--ink);paint-order:stroke;stroke:var(--vsea);stroke-width:3px;stroke-linejoin:round;pointer-events:none;font-weight:600}
 .vnm .lb.o{font-weight:400;fill:var(--muted)}
+.vnm-pg{font-size:.75rem;color:var(--muted);margin:.3rem 0 0}
+.vnm-pg a{color:var(--muted)}
+/* the page of its own (indochina.html; STYLE 6) */
+.vnm.full .vnm-box{aspect-ratio:var(--vnar);width:min(100%,calc((100vh - var(--hdr,52px) - 1.5rem) * var(--vnar)));max-height:none;margin:0 auto}
+.vnm-yrs{display:flex;flex-wrap:wrap;gap:4px;font-size:.78rem;margin:0 0 .45rem}
+.vnm-yrs a{border:1px solid var(--rule);border-radius:3px;padding:2px 7px;color:var(--ink);text-decoration:none}
+.vnm-yrs a[aria-current]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.vnm-yrs a:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
 @media (prefers-reduced-motion: reduce){.vnm *{transition:none!important}}
 </style>"""
 
@@ -396,20 +455,22 @@ JS = r"""<script>
   }
   function draw(fig,G,D){
     var svg=fig.querySelector('.vnm-svg'), box=fig.querySelector('.vnm-box'), pop=fig.querySelector('.vnm-pop'), hint=fig.querySelector('.vnm-hint');
-    var st={mode:'ctz',lay:{},month:7};
+    var full=!!D.ys, st={mode:'ctz',lay:{},month:7,y:D.y};
+    if(full){var hm=/^#y(\d{4}|all)$/.exec(location.hash);st.y=hm&&(hm[1]==='all'||D.ys.indexOf(hm[1])>=0)?hm[1]:'all';}
+    function on(i){return st.y==='all'||(D.e[i].y||D.y)===st.y;}
+    function yr(){return st.y==='all'?D.ys[D.ys.length-1]:st.y;}
     try{var s=JSON.parse(sessionStorage.getItem('vnm')||'{}');if(s.mode)st.mode=s.mode;if(s.lay)st.lay=s.lay;if(s.month)st.month=s.month;}catch(e){}
     function save(){try{sessionStorage.setItem('vnm',JSON.stringify({mode:st.mode,lay:st.lay,month:st.month}));}catch(e){}}
     // the year's places and their entries
     var at={}; D.e.forEach(function(x,i){x.p.forEach(function(p){(at[p]=at[p]||[]).push(i);});});
-    // the first view: the RVN and the year's places
-    var xs=[], ys=[]; G.prov.forEach(function(p){});
+    // the first view: the RVN and the year's places; on the page of its own, the layers' frame (STYLE 6)
     var R=[1e9,1e9,-1e9,-1e9]; function ext(x,y){R[0]=Math.min(R[0],x);R[1]=Math.min(R[1],y);R[2]=Math.max(R[2],x);R[3]=Math.max(R[3],y);}
-    Object.keys(at).forEach(function(k){var p=G.pl[k];if(p)ext(p[0],p[1]);});
-    // the RVN's own extent (lon 102.1–109.5, lat 8.4–17.2) in the plane
-    var rv=[[102.1,17.2],[109.5,8.4]].map(function(c){return [(c[0]-G.b[0])/(G.b[2]-G.b[0])*G.W, merc(c[1])];});
+    if(!full)Object.keys(at).forEach(function(k){var p=G.pl[k];if(p)ext(p[0],p[1]);});
+    // the RVN's own extent (lon 102.1–109.5, lat 8.4–17.2) in the plane; the layers' (lon 100–110.5, lat 8–23.5)
+    var rv=(full?[[100,23.5],[110.5,8]]:[[102.1,17.2],[109.5,8.4]]).map(function(c){return [(c[0]-G.b[0])/(G.b[2]-G.b[0])*G.W, merc(c[1])];});
     function merc(lat){var m=function(l){return Math.log(Math.tan(Math.PI/4+l*Math.PI/360));};return (m(G.b[3])-m(lat))*G.W/((G.b[2]-G.b[0])*Math.PI/180);}
     ext(rv[0][0],rv[0][1]); ext(rv[1][0],rv[1][1]);
-    var home; function fitHome(){var bw=box.clientWidth,bh=box.clientHeight,w=R[2]-R[0],h=R[3]-R[1],pad=0.06;
+    var home; function fitHome(){var bw=box.clientWidth,bh=box.clientHeight,w=R[2]-R[0],h=R[3]-R[1],pad=full?0:0.06;
       var sc=Math.max(w*(1+2*pad)/bw,h*(1+2*pad)/bh);home={x:(R[0]+R[2])/2-bw*sc/2,y:(R[1]+R[3])/2-bh*sc/2,w:bw*sc,h:bh*sc};}
     fitHome(); var vb={x:home.x,y:home.y,w:home.w,h:home.h};
     var gL=el('g',{},svg), gR=el('g',{},svg), gP=el('g',{},svg), gS=el('g',{'class':'shade'},svg), gZ=el('g',{},svg), gO=el('g',{},svg), gW=el('g',{},svg), gD=el('g',{},svg), gT=el('g',{},svg), gH=el('g',{},svg);
@@ -421,7 +482,7 @@ JS = r"""<script>
     function zones(){gZ.textContent='';(st.mode==='reg'?G.reg:st.mode==='ctz'?G.zone:[]).forEach(function(z){el('path',{d:z.d,'class':'zb'},gZ);});}
     function color(){var f=typeof flat==='function'&&flat();pv.forEach(function(e){var p=e._p,c=st.mode==='ctz'?ZC[p.z]:st.mode==='reg'?RC[p.r]:null;e.setAttribute('fill',css(c||'--vpv'));e.setAttribute('fill-opacity',f?0.12:css('--vop'));});key();}
     // layers (sources/indochina), drawn when chosen; the rasters sharper as the zoom grows
-    var LAY=G.lay||{}, lnodes={}, imgs=[], RW=[0.35,0.45,0.6,0.8,1.1,1.5,2.1];
+    var LAY=G.lay||{}, lnodes={}, imgs=[], lakeEls=[], RW=[0.35,0.45,0.6,0.8,1.1,1.5,2.1];
     function flat(){return ['tint','koppen','rain'].some(function(k){return st.lay[k]&&LAY[k];});}
     function layer(k){
       var L=LAY[k]; if(!L) return;
@@ -430,28 +491,41 @@ JS = r"""<script>
       var g=el('g',{},k==='relief'?gS:(L.kind==='image'||L.kind==='grid')?gR:gW); lnodes[k]=g;
       if(L.kind==='image'){ var im=el('image',{href:L.src,x:L.box[0],y:L.box[1],width:L.box[2],height:L.box[3],preserveAspectRatio:'none',opacity:k==='relief'?0.55:0.85},g); im._L=L; imgs.push(im); sharpen(); }
       else if(L.kind==='rivers'){ load(L.src).then(function(R){
-          R.l.forEach(function(l){ if(l.dy&&+l.dy>+D.y) return; var e=el('path',{d:l.d,'class':'lake'},g); if(l.n){var t=el('title',{},e);t.textContent=l.n;} });
+          R.l.forEach(function(l){ var e=el('path',{d:l.d,'class':'lake'},g); e._dy=l.dy; lakeEls.push(e); if(l.n){var t=el('title',{},e);t.textContent=l.n;} }); lakes();
           R.r.forEach(function(r){ var e=el('path',{d:r.d,'class':'riv','stroke-width':RW[Math.max(0,Math.min(6,(r.w||1)-1))]},g); if(r.n){var t=el('title',{},e);t.textContent=r.n;} }); }); }
       else if(L.kind==='lines'){ load(L.src).then(function(C){C.forEach(function(c){el('path',{d:c.d,'class':'ctr','stroke-dasharray':c.e===500?'3 2':null,'stroke-width':c.e>=1500?0.8:0.5},g);});}); }
       else if(L.kind==='grid'){ load(L.src).then(function(Rn){g._d=Rn;rain();}); }
       color();
     }
+    function lakes(){lakeEls.forEach(function(e){e.style.display=e._dy&&+e._dy>+yr()?'none':'';});}
     function sharpen(){var z=home.w/vb.w;imgs.forEach(function(im){var L=im._L,h=(z>=6&&L.fine)?L.fine:(z>=2.2&&L.mid)?L.mid:L.src;if(im.getAttribute('href')!==h)im.setAttribute('href',h);});}
     function rain(){var g=lnodes.rain;if(!g||!g._d)return;g.textContent='';var Rn=g._d,m=st.month-1,sc=Rn.scale;
       Rn.cells.forEach(function(c){var v=c.v[m];if(v==null)return;var i=0;while(i<sc.length-1&&v>=sc[i+1])i++;
         var r=el('rect',{x:c.x,y:c.y,width:c.w+0.3,height:c.h+0.3,'shape-rendering':'crispEdges',fill:'hsl(205,60%,'+(92-i*9)+'%)'},g);var t=el('title',{},r);t.textContent=v+' mm'+(c.t&&c.t[m]!=null?'; '+c.t[m]+' °C':'');});key();}
     // places
-    var P=Object.keys(G.pl).map(function(k){var p=G.pl[k];return {k:k,x:p[0],y:p[1],n:p[2],kind:p[3],r:p[4]||3,c:p[5],hits:at[k]||[]};});
-    P.sort(function(a,b){return (b.hits.length-a.hits.length)||(a.r-b.r);});
-    P.forEach(function(p){ var on=p.hits.length>0; var c=el('circle',{'class':on?'dot':'dim',cx:p.x,cy:p.y},gD); p.el=c;
-      c.addEventListener('click',function(ev){ev.stopPropagation();show(p);}); var t=el('title',{},c);t.textContent=p.n+(on?' · '+p.hits.length+(p.hits.length>1?' entries':' entry'):'');});
-    function show(p){ if(!p.hits.length){pop.hidden=false;pop.innerHTML='<button type="button" class="x" aria-label="Close">×</button><b>'+esc(p.n)+'</b><div class="m">No entry placed here this year.</div>';return;}
-      pop.hidden=false; pop.innerHTML='<button type="button" class="x" aria-label="Close">×</button><b>'+esc(p.n)+'</b> <span class="m">'+p.hits.length+(p.hits.length>1?' entries':' entry')+'</span><ol>'+
-        p.hits.map(function(i){var x=D.e[i];return '<li><a href="'+esc(x.h)+'">'+esc(x.w)+'</a> <span class="m">'+esc(x.t)+'.</span> '+esc(x.s)+'</li>';}).join('')+'</ol>';}
+    var P=Object.keys(G.pl).map(function(k){var p=G.pl[k];return {k:k,x:p[0],y:p[1],n:p[2],kind:p[3],r:p[4]||3,c:p[5],hits:[]};});
+    P.forEach(function(p){ var c=el('circle',{cx:p.x,cy:p.y},gD); p.el=c; p.tt=el('title',{},c);
+      c.addEventListener('click',function(ev){ev.stopPropagation();show(p);}); });
+    function when(x){return esc(x.w)+(full&&st.y==='all'?', '+x.y:'');}
+    function tally(){ // the selected year's entries at each place (STYLE 2, 6)
+      at={}; D.e.forEach(function(x,i){if(on(i))x.p.forEach(function(p){(at[p]=at[p]||[]).push(i);});});
+      P.forEach(function(p){p.hits=at[p.k]||[];var n=p.hits.length;p.el.setAttribute('class',n?'dot':'dim');p.tt.textContent=p.n+(n?' · '+n+(n>1?' entries':' entry'):'');});
+      P.sort(function(a,b){return (b.hits.length-a.hits.length)||(a.r-b.r);}); P.forEach(function(p){gD.appendChild(p.el);});}
+    function show(p){ var gz=full?' <a class="m" href="#pl-'+esc(p.k)+'">In the gazetteer</a>':'';
+      if(!p.hits.length){pop.hidden=false;pop.innerHTML='<button type="button" class="x" aria-label="Close">×</button><b>'+esc(p.n)+'</b>'+gz+'<div class="m">No entry placed here'+(full&&st.y==='all'?'':' this year')+'.</div>';return;}
+      pop.hidden=false; pop.innerHTML='<button type="button" class="x" aria-label="Close">×</button><b>'+esc(p.n)+'</b> <span class="m">'+p.hits.length+(p.hits.length>1?' entries':' entry')+'</span>'+gz+'<ol>'+
+        p.hits.map(function(i){var x=D.e[i];return '<li><a href="'+esc(x.h)+'">'+when(x)+'</a> <span class="m">'+esc(x.t)+'.</span> '+esc(x.s)+'</li>';}).join('')+'</ol>';}
     pop.addEventListener('click',function(e){if(e.target.classList.contains('x'))pop.hidden=true;});
     // the folded list
-    fig.querySelector('.vnm-list ol').innerHTML=D.e.map(function(x){return '<li><a href="'+esc(x.h)+'">'+esc(x.w)+'</a> <span class="m">'+esc(x.t)+'.</span> '+esc(x.s)+(x.p.length?' <span class="m">('+x.p.map(function(k){return G.pl[k]?G.pl[k][2]:k;}).join(', ')+')</span>':'')+'</li>';}).join('');
-    fig.querySelector('.vnm-list summary').textContent="The year's placed entries ("+D.e.length+')';
+    function list(){var E=D.e.filter(function(x,i){return on(i);}), np={};E.forEach(function(x){x.p.forEach(function(k){np[k]=1;});});
+      fig.querySelector('.vnm-list ol').innerHTML=E.map(function(x){return '<li><a href="'+esc(x.h)+'">'+when(x)+'</a> <span class="m">'+esc(x.t)+'.</span> '+esc(x.s)+(x.p.length?' <span class="m">('+x.p.map(function(k){return G.pl[k]?G.pl[k][2]:k;}).join(', ')+')</span>':'')+'</li>';}).join('');
+      fig.querySelector('.vnm-list summary').textContent=(full&&st.y==='all'?'The placed entries':"The year's placed entries")+' ('+E.length+')';
+      var cnt=fig.querySelector('.vnm-cnt'); if(cnt)cnt.textContent=(st.y==='all'?'All years':st.y)+': '+E.length+' placed '+(E.length===1?'entry':'entries')+', at '+Object.keys(np).length+' places.';}
+    // the year selector (the page of its own)
+    var yrs=fig.querySelector('.vnm-yrs');
+    function setYear(){tally();list();lakes();pop.hidden=true;if(yrs)yrs.querySelectorAll('a').forEach(function(a){if(a.dataset.yr===st.y)a.setAttribute('aria-current','true');else a.removeAttribute('aria-current');});if(typeof names==='function'&&vb)names();if(typeof key==='function')key();}
+    if(yrs){yrs.addEventListener('click',function(ev){var a=ev.target.closest('a[data-yr]');if(!a)return;ev.preventDefault();st.y=a.dataset.yr;try{history.replaceState(null,'','#y'+st.y);}catch(e){}setYear();});
+      addEventListener('hashchange',function(){var hm=/^#y(\d{4}|all)$/.exec(location.hash);if(hm&&(hm[1]==='all'||D.ys.indexOf(hm[1])>=0)){st.y=hm[1];setYear();}});}
     // names: STYLE 3
     function names(){
       gH.textContent=''; var k=box.clientWidth/vb.w, fs=11.5/k, boxes=[], z=home.w/vb.w;
@@ -503,7 +577,7 @@ JS = r"""<script>
       function sw(c,t){return '<span><i style="background:'+css(c)+';opacity:'+css('--vop')+'"></i>'+t+'</span>';}
       if(st.mode==='ctz')s=Object.keys(ZN).map(function(z){return sw(ZC[z],ZN[z]);}).join('');
       else if(st.mode==='reg')s=Object.keys(RC).map(function(r){return sw(RC[r],r);}).join('');
-      s+='<span><i style="background:'+css('--vdot')+';border-radius:50%"></i>this year\'s entries, by number</span>';
+      s+='<span><i style="background:'+css('--vdot')+';border-radius:50%"></i>'+(full?(st.y==='all'?'entries':'the year\'s entries'):'this year\'s entries')+', by number</span>';
       function leg(L){return L.legend.map(function(c){return '<span><i style="background:'+c.color+'"></i>'+esc(c.code)+(c.name?' '+esc(c.name):'')+'</span>';}).join('');}
       if(st.lay.tint&&LAY.tint)s+=leg(LAY.tint);
       if(st.lay.koppen&&LAY.koppen)s+='<span>Köppen–Geiger, 1961–1990:</span>'+leg(LAY.koppen);
@@ -512,7 +586,7 @@ JS = r"""<script>
       if(st.lay.koppen)cr.push('climate: Beck et al. (2023), CC BY 4.0');if(st.lay.rain)cr.push('rain: CRU CL 2.0, Climatic Research Unit, University of East Anglia, ODbL');
       if(cr.length)s+='<span class="cr">Layers: '+esc(cr.join('; '))+'. <a href="https://github.com/impending2223/bib/blob/main/sources/indochina/README.md">Sources and licenses</a></span>';
       k.innerHTML=s;}
-    seg(); zones(); color(); Object.keys(st.lay).forEach(layer); gO.appendChild(rvn); view();
+    seg(); zones(); color(); Object.keys(st.lay).forEach(layer); gO.appendChild(rvn); setYear(); view();
     new ResizeObserver(function(){var r=vb.w/home.w;fitHome();var cx=vb.x+vb.w/2,cy=vb.y+vb.h/2;vb.w=home.w*r;vb.h=home.h*r;vb.x=cx-vb.w/2;vb.y=cy-vb.h/2;view();}).observe(box);
     function retheme(){color();names();} matchMedia('(prefers-color-scheme: dark)').addEventListener('change',retheme);
     new MutationObserver(retheme).observe(document.documentElement,{attributes:true,attributeFilter:['data-theme']});

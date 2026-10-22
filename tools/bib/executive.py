@@ -82,7 +82,7 @@ import os
 import re
 from collections import defaultdict
 
-from . import store, executive_sources, namelinks, votes
+from . import contents, store, executive_sources, namelinks, votes
 from .markup import to_html, plain
 
 DIR = os.path.join(store.ROOT, "executive")
@@ -1102,8 +1102,7 @@ def inject(page, series, linker, mode):
             continue
         ptr = ptr or Pointers(series, linker)
         blk = cal_block(i, units, ptr, href, rid_for())
-        pat = re.compile(r'(<li id="' + re.escape(e["id"]) + r'"[^>]*>.*?)(</li>)', re.S)
-        page, n = pat.subn(lambda mm: mm.group(1) + blk + mm.group(2), page, count=1)
+        page, n = contents.put(page, e["id"], blk, "executive", day)
         used = used or bool(n)
     if used:
         from . import roster
