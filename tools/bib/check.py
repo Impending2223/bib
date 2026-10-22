@@ -220,6 +220,10 @@ def run(series, only=None):
     from . import oil
     for where, msg in oil.problems(indicators.load()):
         add(ERROR, f"indicators/{where}.yaml", msg, "indicators")
+    # money, the foreign accounts, the debt's terms (indicators/<id>.yaml; tools/bib/finance.py)
+    from . import finance
+    for where, msg in finance.problems(indicators.load()):
+        add(ERROR, f"indicators/{where}.yaml", msg, "indicators")
     # the indicators' master statement and the calendar's servants (indicators/concepts.yaml; tools/bib/concepts.py)
     from . import concepts
     for level, where, msg in concepts.problems(series):

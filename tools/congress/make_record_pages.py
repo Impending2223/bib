@@ -21,6 +21,8 @@ def fetch(url, tries=3):
     for i in range(tries):
         try:
             with urllib.request.urlopen(url, timeout=120) as r:
+                if not r.geturl().endswith("/mods.xml"):   # a part that does not exist redirects to govinfo's error page
+                    return None
                 return r.read().decode("utf-8", "replace")
         except urllib.error.HTTPError as e:
             if e.code in (404, 400):
@@ -51,7 +53,7 @@ def main():
         rows, n = [], 1
         while True:
             xml = fetch(MODS.format(y=y, n=n))
-            if not xml:
+            if not xml or "<mods" not in xml:
                 break
             rows.extend(granules(xml))
             n += 1

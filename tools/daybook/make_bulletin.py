@@ -132,7 +132,7 @@ def leaves(cache, iid):
     return [(k, leaf_page.get(k), st[span[0]:span[1]]) for k, span in enumerate(pi)]
 
 
-HEAD_INDEX = re.compile(r"I\s?N\s?D\s?E\s?X|I\s?n\s?d\s?e\s?[xX]|\bndex\b|\bInde\b")
+HEAD_INDEX = re.compile(r"(?:I\s?I?N|\S)\s?D\s?E\s?X|I\s?n\s?d\s?e\s?[xX]|\bndex\b|\bInde?\b")   # "IIDEX", ">NDEX"
 VOL_INDEX = re.compile(r"Volume\s+\S+\s*:?\s*Numbers|Numbers\s+\d{4}\s*-\s*\d{4}")
 BACK = re.compile(r"OFFICIAL\s+BUSINESS|PENALTY\s+FOR\s+PRIVATE|POSTAGE\s+AND\s+FEES\s+PAID", re.I)
 HEAD_DATE = re.compile(r"(" + "|".join(FULL) + r")\s*(\d{1,2})\s*[,.]\s*(19[56]\d)")
@@ -159,7 +159,8 @@ def index_leaves(L, lo, hi):
         if VOL_INDEX.search(h):
             continue
         before_back = i + 1 < len(L) and BACK.search(L[i + 1][2][:600])
-        if not (HEAD_INDEX.search(h) or before_back):
+        dated = (m := HEAD_DATE.search(h)) and m.start() < 25          # the issue's date at its head ("March 27, 1961")
+        if not (HEAD_INDEX.search(h) or before_back or dated):
             continue
         ents = index_entries(t, lo, hi)
         pg = sorted(e[1] for e in ents)

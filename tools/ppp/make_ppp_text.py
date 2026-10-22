@@ -242,9 +242,13 @@ def heading_date(head, span):
             if len(w) < 3 or not w[:1].isupper() and w[:1] not in "Qq]":
                 continue
             mo = None
+            loose = False
             for k, M in enumerate(MONTHS):
-                if w == M or (len(w) >= 4 and difflib.SequenceMatcher(None, w.lower(), M.lower()).ratio() >= .8):
+                r_ = difflib.SequenceMatcher(None, w.lower(), M.lower()).ratio()
+                if w == M or (len(w) >= 4 and r_ >= .8):
                     mo = k + 1
+                elif len(w) >= 4 and r_ >= .6 and mo is None:
+                    mo, loose = k + 1, True
             if mo is None and re.fullmatch(r"[IJ\]]u(ly|ne)", w):
                 mo = 7 if w.endswith("ly") else 6
             if mo is None:
@@ -261,6 +265,8 @@ def heading_date(head, span):
                 y = "".join(DAYCHARS.get(c, c) for c in yt)
                 if re.fullmatch(r"19\d\d", y):
                     year = int(y)
+            if loose and not (day and year):
+                continue                          # a month read loosely only with its day and year
             years = [year] if year and lo.year <= year <= hi.year else list(range(lo.year, hi.year + 1))
             ok = []
             for yy in years:
@@ -536,7 +542,8 @@ def is_item_head(r, expect, left=None, bh=8.6, nxt=None):
     for k in (3, 2):                              # a number read apart ('i o i', 'i 83')
         if (n is None or not expect <= n <= expect + 3) and len(r) > k and all(len(w[4]) <= 2 for w in r[:k]) \
                 and r[k - 1][2] - r[0][0] < bh * 4.5:
-            n2 = as_number("".join(w[4] for w in r[:k]))
+            j = "".join(DIGIT.get(c, c) for c in "".join(w[4] for w in r[:k]))
+            n2 = int(j) if j.isdigit() else None
             if n2 is not None and expect <= n2 <= expect + 3:
                 return n2, k
     if n is not None and expect <= n <= expect + 3:
@@ -549,8 +556,10 @@ def is_item_head(r, expect, left=None, bh=8.6, nxt=None):
         digits = re.sub(r"\D", "", r[0][4].replace("°", "0"))
         it = iter(str(expect))
         blk = line_text(r) + " " + " ".join(line_text(x) for x in (nxt or []))
+        e = str(expect)
         if (digits and all(c in it for c in digits)) or (            # its digits read, in order
-                not digits and re.search(r"\b(" + "|".join(MONTHS) + r")\b", blk)):
+                len(digits) == len(e) > 1 and sum(a != b for a, b in zip(digits, e)) == 1) or (
+                not digits and re.search(r"\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\b", blk)):
             RULES["item number misread, taken from the sequence"] += 1
             return expect, k
     return None, 0
@@ -584,6 +593,9 @@ def read_volume(pkg, pages, V, surname, span, start=1):
         folios[i] = folio
     first = None
     for i, lines in enumerate(parts, 1):
+        top = rows_of(pages[i - 1][2])[0][1] if pages[i - 1][2] else []
+        if re.search(r"list|item|content|foreword|preface", line_text(top), re.I):
+            continue                              # the front matter: the List of Items repeats the headings
         if any(sz == "L" and is_item_head(r, start)[0] == start for pos, r, sz in lines) and i > 8:
             # item 1 follows the List of Items; the half title has no number
             first = i

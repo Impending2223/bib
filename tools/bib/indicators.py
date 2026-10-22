@@ -81,6 +81,7 @@ from . import store
 from .markup import to_html
 from . import oil
 from . import war
+from . import finance
 from . import concepts
 
 DIR = os.path.join(store.ROOT, "indicators")
@@ -108,6 +109,21 @@ GROUP = {"cpi": "Prices", "wpi": "Prices", "deflator": "Prices",
          "oil-reserves": "Oil",
          "war-deaths": "The war", "war-strength": "The war",
          "approval": "Opinion"}
+def _place(after, ids):
+    """Put ids into ORDER after `after` (the series tools/bib/finance.py renders, kept out of the lists above)."""
+    i = ORDER.index(after) + 1
+    ORDER[i:i] = [x for x in ids if x not in ORDER]
+
+
+# Money, the foreign accounts, the debt's terms, unit labor costs (tools/bib/finance.py; tools/indicators/make_finance.py)
+_place("payrolls", finance.COSTS)
+_place("debt-gdp-omb", finance.DEBT)
+_place("gold-stock", finance.INTL + finance.FX + finance.MONEY)
+_place("treasury-10-year", finance.RATES)
+GROUP.update({x: "Employment" for x in finance.COSTS})
+GROUP.update({x: "Federal debt" for x in ("interest-gnp", "public-debt", "debt-gnp", "debt-gdp-omb") + finance.DEBT})
+GROUP.update({x: "International" for x in finance.INTL + finance.FX})
+GROUP.update({x: "Money and credit" for x in finance.MONEY + finance.RATES})
 FIELD_LABEL = {"receipts": "Receipts", "expenditures": "Expenditures", "payments": "Payments", "outlays": "Outlays",
                "balance": "Balance", "interest": "Net interest", "primary": "Primary"}
 MON = ["Jan.", "Feb.", "Mar.", "Apr.", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."]
@@ -326,6 +342,8 @@ def rows_for(data, lo, hi, prev_to=None, next_from=None):
 
 
 def cell_first(sid, s, r, year):
+    if sid in finance.SERIES:             # money, the foreign accounts, the debt's terms (tools/bib/finance.py)
+        return finance.cell(sid, s, r, "first")
     if sid in oil.SERIES:                 # the Oil group (tools/bib/oil.py, its STYLE)
         return oil.first_cell(sid, s, r)
     if s.get("kind") == "war":            # The war (tools/bib/war.py, its STYLE)
@@ -341,6 +359,8 @@ def cell_first(sid, s, r, year):
 
 
 def cell_now(sid, s, r):
+    if sid in finance.SERIES:
+        return finance.cell(sid, s, r, "now")
     if sid in oil.SERIES:
         return oil.now_cell(sid, s, r)
     if s.get("kind") == "war":
@@ -406,7 +426,7 @@ def rate_row(sid, s, r, year, href=None, label=None):
     name = f'<span class="per">{esc(label)}</span>' if label else name_cell(sid, s, r, href)
     if "first" in r:
         rr = dict(r)
-        if r.get("released"):            # "(announced Nov. 23; effective Nov. 24)"
+        if r.get("released") and sid not in finance.SERIES:   # "(announced Nov. 23; effective Nov. 24)"
             ann = f"announced {date_label(r['released'], year)}"
             rr["note"] = f"{ann}; {r['note']}" if r.get("note") else ann
         val = cell_first(sid, s, rr, year)
@@ -449,17 +469,20 @@ def block(data, sec_from, sec_to, prev_to, year, next_from=None, href=None):
     if not rows:
         return ""
     href = href or def_href
-    trs, shown, polls, rates, oils = [], set(), [], [], []
+    trs, shown, polls, rates, oils, fxs = [], set(), [], [], [], []
     for sid, s, r in rows:
         if sid in oil.SERIES:            # Oil apart, in a table of its own (STYLE 15; tools/bib/oil.py)
             oils.append((sid, s, r))
+            continue
+        if sid in finance.FX:            # exchange rates and gold apart, one figure (STYLE 17; tools/bib/finance.py)
+            fxs.append((sid, s, r))
             continue
         g = GROUP.get(sid)
         if s.get("kind") in ("poll", "rate"):
             g = None
         if g and g not in shown:
             shown.add(g)
-            unit_note = " $bn" if g in ("Federal finance", "International") else ""
+            unit_note = " $bn" if g in ("Federal finance", "Federal debt", "International") else ""
             trs.append(f'<tr class="g"><th colspan="4">{esc(g)}{grey(unit_note)}</th></tr>')
         if s.get("kind") == "poll":
             pname, per, first, rel, now = poll_row(sid, s, r, year)
@@ -479,6 +502,8 @@ def block(data, sec_from, sec_to, prev_to, year, next_from=None, href=None):
                 + "".join(trs) + "</tbody></table></div>")
     if oils:                             # Oil apart: no vacant columns (STYLE 15; tools/bib/oil.py)
         out += oil.table(oils, year, lambda sid, s, r: name_cell(sid, s, r, href), cells)
+    if fxs:                              # exchange rates and gold: not revised, one figure (STYLE 17)
+        out += finance.fx_table(fxs, year, lambda sid, s, r: name_cell(sid, s, r, href), cells)
     if rates:                            # rates apart: not revised, so one figure (STYLE 13)
         out += ('<div class="ind ind-sep ind-rt"><p class="ind-cap">Money and credit</p><table><thead><tr><th>Rate</th>'
                 '<th>Percent</th></tr></thead><tbody>' + "".join(rates) + "</tbody></table></div>")

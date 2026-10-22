@@ -14,8 +14,8 @@ STYLE (settled; keep it, and the indicators' STYLE in tools/bib/indicators.py):
  2. Yields and mortgage rates are rates (kind: rate): one figure each, in the Money and credit table (indicators STYLE
     13): "4.41%, +0.02 pt". Moody's as FRED gives them (not revised); the mortgage rates as first printed.
  3. International, in $bn, bare (indicators STYLE 10): reserve assets stacked, Gold, Currencies, IMF, Total, Change,
-    two decimals as the gold stock (their monthly changes run to tens of millions); today's IMF figure, reserves less
-    gold, one line and its change. Liquid liabilities to foreign official holders, Liabilities and Change, one decimal.
+    two decimals as the gold stock (their monthly changes run to tens of millions); today's, the IMF's reserves less
+    gold (then the currencies and the IMF position together), "Excl. gold" and its change. Liquid liabilities to foreign official holders, Liabilities and Change, one decimal.
     The balances on goods and services stacked: Merchandise, Goods and services, Change (of the second), one decimal;
     quarterly, seasonally adjusted, the quarter's own figure (not at an annual rate), the change from the quarter
     before in $bn.
@@ -36,7 +36,7 @@ from . import concepts
 
 MONEY = ("money-m1", "money-m1-time", "money-m2", "free-reserves")
 RATES = ("corporate-aaa", "corporate-baa", "mortgage-fha", "mortgage-conventional")
-INTL = ("reserve-assets", "reserves-imf", "liquid-liabilities", "goods-services")
+INTL = ("reserve-assets", "liquid-liabilities", "goods-services")
 FX = ("fx-sterling", "fx-mark", "fx-franc", "gold-london")
 DEBT = ("debt-interest-rate", "debt-maturity", "debt-ownership")
 COSTS = ("unit-labor-cost", "compensation-hour")
@@ -101,16 +101,16 @@ def cell(sid, s, r, col):
         return _money(v) + (f", {MINUS if c < 0 else '+'}${abs(c):,.0f}m" if c is not None else "") + note
     if sid in RATES:
         return f"{_num(v, 2)}%" + (f", {_signed(c, 2)} pt" if c is not None else "") + note
+    if sid == "reserve-assets" and col == "now":         # the IMF's reserves less gold: currencies and IMF then
+        lines = [("Excl. gold", _num(_bn(v, unit), 2))]
+        if c is not None:
+            lines.append(("Change", _signed(_bn(c, unit), 2)))
+        return _kv(lines)
     if sid == "reserve-assets":
         lines = [(lab, _num(_bn(v[k], unit), 2)) for k, lab in RES if v.get(k) is not None]
         if c is not None:
             lines.append(("Change", _signed(_bn(c, unit), 2)))
         return _kv(lines) + (f"<br>{_grey(r['note'])}" if col == "first" and r.get("note") else "")
-    if sid == "reserves-imf":
-        lines = [("Excl. gold", _num(_bn(v, unit), 2))]
-        if c is not None:
-            lines.append(("Change", _signed(_bn(c, unit), 2)))
-        return _kv(lines)
     if sid == "liquid-liabilities":
         lines = [("Liabilities", _num(_bn(v, unit)))]
         if c is not None:
