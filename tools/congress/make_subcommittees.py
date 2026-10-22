@@ -43,7 +43,7 @@ RULES
     counted COMMON times there is kept, another goes to the nearest, at .7 of its letters, the commoner of two near
     alike, or stays as read), in title case; then, where one of the Digest's names of the committee's subcommittees
     reads as it at .9 (not a numbered one), the Digest's; a numbered one whose number is lost or not above the one
-    before it, the number after that one; a word left unread, "check" ("Subcommittee on Soil Conservation and Forestry").
+    before it, the number after that one; a word neither in VOCAB nor printed so, "check" ("Subcommittee on Soil Conservation and Forestry").
  6. The page: the edition's printed page (archive.org's page numbers), linked to the leaf.
 """
 import difflib
@@ -617,8 +617,9 @@ def main(cache):
                             s["check"] = (s["check"] + " " if s["check"] else "") + f"number placed by order: {num}"
                         last = num
                         s["name"] = f"Subcommittee No. {num}" + (m.group(2) if m.group(2).strip()[:2] == "on" else "")
+                    printed = set(re.findall(r"[a-z]+", s["printed"].lower()))
                     odd = [w for w in re.findall(r"[A-Za-z]+", s["name"]) if w.lower() not in V and
-                           w.lower() not in SMALL and w not in ("No",)]
+                           w.lower() not in SMALL and w.lower() not in printed and w not in ("No",)]
                     if odd:
                         s["check"] = ((s.get("check") or "") + " name not settled: " + " ".join(odd)).strip()
         data[c] = d

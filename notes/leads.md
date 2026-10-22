@@ -466,7 +466,7 @@ document was found. Each under the entry it concerns; `./bib find -t check -l ca
 ### Money, the foreign accounts, the debt's terms (the indicators agent, Oct. 22, 2026)
 
 The series `tools/indicators/make_finance.py` writes (its docstring; `tools/bib/finance.py`). FRASER (fraser.stlouisfed.org,
-every path, files included) answered with the St. Louis Fed's maintenance page all of Oct. 22, 2026, 01:40-06:30 UTC,
+every path, files included) answered with the St. Louis Fed's maintenance page all of Oct. 22, 2026, 01:40-13:15 UTC,
 and web.archive.org's copies reset from here; archive.org's serials (`sim_`) stop at 1961. So the figures then are the
 next January's *Economic Report*'s (local scans read earlier), not the first printings, and these are not in:
 - First printings, the month after: the money stock and free reserves (*Federal Reserve Bulletin*, "Money supply";
@@ -618,6 +618,16 @@ next January's *Economic Report*'s (local scans read earlier), not the first pri
 - The copper producers back to 36 cents, Nov. 19, 1965 (`cal.1965-11-19.economy`): the record found is the day before's, Memorandum Approving the Release of Copper From the National Stockpile, 1965 Pub. Papers 1119 (Nov. 18, 1965); the producers' price notices not.
 - The State Department's statement on Saudi visas and the air unit, June 29, 1963 (`cal.1963-06-29.middle-east-yemen`): not in the *Bulletin*'s index for 1963. The Department's press releases.
 - The Alpha 66 attack on the *Lvov* (`cal.1963-03-17.cuba`): the Department's statement of Mar. 19 and FRUS put it the night of Mar. 18; the entry is dated Mar. 17 (Check there).
+
+### The audit of Cal. I, 1960–62 (Oct. 22, 2026)
+
+- Discount rate cut at Philadelphia and San Francisco (`cal.1960-06-02.economy`): the *Federal Reserve Bulletin*, July 1960, p. 756 (the indicators' DISCOUNT source); FRASER was down for maintenance when read.
+- Black's order as circuit justice vacating Cameron's stays, Sept. 10, 1962 (`cal.1962-09-10.mississippi`): the report of the order in the Supreme Court Reporter (Check the cite); case.law holds no S. Ct. volume of 1962, and CourtListener's search was throttled.
+- Elliott's injunction against the Albany marches, July 20, 1962, and Tuttle's order vacating it, July 24 (`cal.1962-07-20.albany`, `cal.1962-07-24.georgia-albany`): the orders' record (F. Supp., F.2d, or the court files at the National Archives, Atlanta).
+- The Stennis subcommittee's hearings, 1962 (`cal.1962-01-23.right-and-the-military`): an open copy of *Military Cold War Education and Speech Review Policies* (archive.org, HathiTrust).
+- Flemming's ruling on Louisiana's suitable-home law, Jan. 16, 1961 (`cal.1961-01-16.welfare-la`): HEW's decision as printed (the Federal Register, or the Social Security Bulletin).
+- Barnett's interposition proclamation, Sept. 13, 1962 (`cal.1962-09-13.mississippi-ole-miss`): the text as the State printed it (Miss. Senate or House Journal, 1962 special session).
+- Governors' and primaries' returns marked "Check" in Cal. I with no open copy in `sources/states.yaml` for 1960–62: La. (1960 runoff and general), N.M. (1960, 1962), Kan. (1960, 1962), Wash. (1960 primary), Utah (1960 primary: vote.utah.gov's file "1960Pri.pdf" is the primary of Sept. 11, 1962, U.S. Senator, Representatives and attorney general only, no governor), Wyo. (1962), Wis. (1962 primary), Tenn. (1962 primary), Pa. (1962), Mich. (1960 Proposal 3), Tex. (1960–62 primaries, the 1961 Senate special). The entries say which.
 
 ## Foreign
 
@@ -892,6 +902,15 @@ Searched in FRUS by date (the daybook and sources/frus-text), the *Bulletin*'s i
 - The OAS Ad Hoc Committee's proposal for the Dominican Republic, June 18, 1965 (`cal.1965-06-18.latin-america`). The OAS's documents; the *Bulletin* (not in its index by that date).
 - The Council of the Six, June 30, 1965, and de Gaulle's press conference of Sept. 9, 1965 (`cal.1965-06-30.european-community`, `cal.1965-09-09.european-community`). The Council's records; de Gaulle's *Discours et messages*.
 - India across the Kashmir cease-fire line, Aug. 15, 1965 (`cal.1965-08-15.india-and-china`). FRUS 1964–68, XXV, by its documents of Aug. 16–31.
+
+### The audit of Cal. I, 1960–62 (Oct. 22, 2026)
+
+No document in the daybook's FRUS text, or item in the *Bulletin*'s index, names these events on or near their day; the record to find:
+- East Germany's permits for West Germans entering East Berlin, Sept. 8, 1960 (`cal.1960-09-08.berlin-and-vienna`): the Department's statements of Sept. 3 and 9 (*Bulletin*, Sept. 26, 1960, 473–474) answer the decree of Aug. 30; the measure of Sept. 8 itself not found.
+- Cuba's nationalization of the remaining American businesses, Oct. 24, 1960 (`cal.1960-10-24.cuba`): the Department's note or statement; FRUS 1958–60, VI has none on the day.
+- Rusk and the Turkish Foreign Minister on the Jupiters, CENTO council, Ankara, Apr. 27–28, 1961 (`cal.1961-04-27.europe-and-the-alliance-jupiters`): FRUS 1961–63, XVI shows nothing by the text; the Secto telegrams.
+- Fulbright's memorandum to Kennedy, Mar. 30, 1961 (`cal.1961-03-30.cuba`): FRUS 1961–63, X mentions Fulbright only; the memorandum at the Kennedy Library (POF).
+- Clay's arrival in Berlin, Sept. 19, 1961; İnönü's government, Nov. 20, 1961; the Soviet veto of Kuwait's admission, Nov. 30, 1961 (the Security Council's verbatim record, S/PV); Operation Chopper, Jan. 12, 1962 (FRUS 1961–63, II, doc. 13 plans a helicopter operation that day: Check whether it is Chopper); Yun Po-sun's resignation, Mar. 22, 1962; Dryden and Blagonravov, Mar. 27–30, 1962; Saudi Arabia's break with the UAR, Nov. 6, 1962; Bosch's election, Dec. 20, 1962.
 
 ## The Executive roster
 
