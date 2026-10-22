@@ -96,5 +96,7 @@ def inject(page, series, mode):
         return "".join(out)
     page = MARK_RE.sub(sub, page)
     if 'id="wartstyle"' not in page:
-        page = page.replace("</head>", wartable.STYLE + afday.STYLE + "\n</head>", 1)
+        page = page.replace("</head>", wartable.STYLE + "\n</head>", 1)
+    if 'id="fcstyle"' not in page and afday.STYLE:
+        page = page.replace("</head>", afday.STYLE + "\n</head>", 1)
     return page

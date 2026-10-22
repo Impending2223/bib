@@ -441,7 +441,7 @@ def main():
     for p, (nva, vc, c, g, av, an, s, t) in ENEMY_Q.items():
         v = nz({"combat": c, "vc": vc, "nva": nva, "guer": g, "admin": av, "admin_nva": an, "total": t})
         rows.append(one(p, v, "1969-01", Q_SRC, unit="thousands",
-                        note="NVA combat troops include 14,500 NVA fillers in VC units"
+                        note="NVA include 14,500 fillers in VC units"
                         + ("; preliminary" if p == "1968-12" else "")))
     out["war-enemy-strength-q"] = write(
         "war-enemy-strength-q", "Enemy forces at the quarter's end", "MACV's figures as OSD printed them, Jan. 1969",

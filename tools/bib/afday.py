@@ -13,8 +13,10 @@ STYLE (keep it):
     as the sources give them by year: the RVNAF by service (Collins, 1975; the quarterly figures of the year's end
     where Collins has none) and the other allies by country, with their maneuver battalions (Larsen and Collins, 1975).
     Both series are in The war table too (tools/bib/wartable.py), filed by period; here the year's breakdown.
- 3. Each table one column of figures (and the battalions'), the label at the left: it fits a 400px phone. The look is
-    the war table's (its panel and solid rule), a caption a table.
+ 3. Each table one column of figures (and the battalions'), the label at the left: it fits a 400px phone. The block
+    has the war table's panel, solid rule and caption ("Armed Forces Day, May 15, 1965"); inside it, forces.py's dress
+    (its STYLE): a part under a small-capital heading ("South Vietnam and the allies"), each table folded, its title
+    the summary, its source under it.
  4. Contents: "Armed forces, 1965" in the page's contents and in the Defense and Vietnam threads' Tables and maps.
 """
 import datetime
@@ -85,10 +87,11 @@ def _year_end(sid, y):
 
 def table(title, rows, src, extra_head=None):
     head = "<th></th><th>Strength</th>" + (f"<th>{esc(extra_head)}</th>" if extra_head else "")
-    body = "".join(f'<tr><th>{esc(a)}</th><td>{b}</td>' + (f"<td>{c}</td>" if extra_head else "") + "</tr>"
-                   for a, b, c in rows)
-    return (f'<p class="afd-t">{esc(title)}</p><table class="afd"><thead><tr>{head}</tr></thead><tbody>{body}</tbody>'
-            f'</table><p class="wart-foot">{esc(src)}</p>')
+    total = ' class="fcs"'                    # the total in bold (forces.py STYLE 3)
+    body = "".join(f'<tr{total if a == "Total" else ""}><th>{esc(a)}</th><td>{b}</td>'
+                   + (f"<td>{c}</td>" if extra_head else "") + "</tr>" for a, b, c in rows)
+    return (f'<details><summary>{esc(title)}</summary><table class="fct"><thead><tr>{head}</tr></thead>'
+            f'<tbody>{body}</tbody></table><p class="fcsrc">{esc(src)}</p></details>')
 
 
 def rvn_html(y):
@@ -134,15 +137,11 @@ def block(iso, y):
         proc = f'the third Saturday in May, by <a href="{p[2]}">{esc(p[0])}</a> ({esc(p[1])})'
     else:
         proc = "the third Saturday in May (the year's proclamation not read)"
-    return (f'<div class="wart afd" id="afd-{y}"><p class="wart-cap">Armed forces, Armed Forces Day, {esc(day)}</p>'
+    return (f'<div class="wart afd" id="afd-{y}"><p class="wart-cap">Armed Forces Day, {esc(day)}</p>'
             f'<p class="wart-foot">Armed Forces Day: {proc}. The forces of {y - 1}, as the sources give them by year.</p>{inner}</div>')
 
 
-STYLE = """<style id="afdstyle">
-/* Armed Forces Day (tools/bib/afday.py, STYLE); the panel and the caption are the war table's */
-div.afd .afd-t{margin:.5rem 0 .1rem;font-weight:600}
-div.afd table.afd{border-collapse:collapse;width:auto;min-width:60%;table-layout:auto}
-div.afd table.afd th,div.afd table.afd td{text-align:left;padding:.08rem .8rem .08rem 0;border-bottom:1px solid var(--rule);font-weight:400}
-div.afd table.afd td{text-align:right}
-div.afd table.afd thead th{color:var(--muted);font-weight:600;font-size:.72rem;border-bottom:1px solid var(--ink)}
-</style>"""
+try:                                       # forces.py's styles (div.fc) dress the RVNAF's and allies' tables too
+    from .forces import STYLE
+except ImportError:
+    STYLE = ""

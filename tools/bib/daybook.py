@@ -57,7 +57,8 @@ STYLE:
  11. Bulletin, a fifth list: the Department of State Bulletin's items, from each issue's own index (daybook/bulletin/
     <YYYY>.yaml, tools/daybook/make_bulletin.py), filed under the day its page says it was released ("Press release
     23 dated January 15"), else the issue's date ("filed by the issue's date"); the title as the index prints it,
-    linked to the page in the archive.org copy; "Bulletin, Jan. 8, 1962, p. 43" in grey. 1962 only for now.
+    linked to the page in the archive.org copy; "Bulletin, Jan. 8, 1962, p. 43" in grey. Jan. 6, 1960, to Jan. 20, 1969, but vol. 59 (July-Dec.
+    1968: no open copy).
  12. Two folded blocks a day, each closed by default and shown only where it holds something (the owner's request,
     Oct. 22, 2026: "separate the daily materials into two sets"): "Documents", the President's (APP, as "PPP"), FRUS
     and the recordings, in that order; then "Other records", the committees' meetings and the Bulletin's items, where

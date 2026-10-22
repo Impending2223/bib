@@ -841,11 +841,14 @@ def tidy(blocks):
             j = i + 1
             while j < len(out) and out[j][0] in ("f", "q"):
                 j += 1
-            mk = "".join(MK.match(x[1]).group(1) for x in out[i:j])
-            feet += [[x[0], x[1][len(MK.match(x[1]).group(1)):]] for x in out[i:j]]
+            # the page markers in them stay in the body, before the next block
+            mk = " ".join(m for x in out[i:j] for m in re.findall(r"\[p\. \d+\]", x[1]))
+            feet += [[x[0], re.sub(r"\s{2,}", " ", re.sub(r"\[p\. \d+\]", "", x[1])).strip()] for x in out[i:j]]
             nxt = out[j] if j < len(out) else None
             if nxt and mk:
                 nxt[1] = mk.strip() + " " + nxt[1]
+            elif mk and body:
+                body[-1][1] += " " + mk
             if body and nxt and body[-1][0] == "p" and nxt[0] == "p" and not re.search(r"[.?!:”\"’)\]]$", body[-1][1]) \
                     and not re.match(r"^(\[p\. \d+\] )?[\[“\"]|^(\[p\. \d+\] )?Q\.", nxt[1]):
                 body[-1][1] += " " + nxt[1]           # the paragraph the foot of the column cut

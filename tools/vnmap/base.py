@@ -4,7 +4,7 @@ meet and no line is drawn twice. A one-time script:
 
     python3 -I tools/vnmap/base.py CGAZ_DIR
 
-CGAZ_DIR holds geoBoundaries' Comprehensive Global Administrative Zones (CGAZ), release 6.0.0, downloaded Oct. 22, 2026
+CGAZ_DIR holds geoBoundaries' Comprehensive Global Administrative Zones (CGAZ), the repository's main branch as of Oct. 22, 2026 (its latest release 6.0.0, Sept. 14, 2023)
 from https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/main/releaseData/CGAZ/
 geoBoundariesCGAZ_ADM{0,1,2}.gpkg (CC BY 4.0; the country lines are the U.S. Department of State's Large Scale
 International Boundaries, LSIB). Needs shapely >= 2.1 (coverage functions), pyproj and pyogrio (pip).
@@ -35,6 +35,7 @@ polygon on the new units, reporting every change.
 import json
 import os
 import sys
+import time
 import unicodedata
 
 import numpy as np
@@ -48,7 +49,7 @@ from shapely.ops import polylabel
 ROOT = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".."))
 VN66 = os.path.join(ROOT, "sources", "vn-provinces-1966")
 OUT = os.path.join(ROOT, "sources", "indochina")
-FRAME = (97.0, 5.0, 114.5, 26.5)     # lon/lat: the shapes are cut here; the map's bounds lie inside (vnmap.BOUNDS)
+FRAME = (97.5, 5.5, 113.0, 26.0)     # lon/lat: the shapes are cut here; the map's bounds lie inside (vnmap.BOUNDS)
 TOL = 0.002                          # coverage_simplify tolerance, degrees (~200 m)
 MIN_KM2 = 0.5                        # islets smaller than this dropped
 SURE = 0.9                           # a district with a smaller share in its 1966 unit is listed as a straddler
@@ -119,33 +120,34 @@ def read(level, where):
 
 def fill(country, pieces):
     """Cut the pieces to the country and share out the country's uncovered slivers (step 2): each part of a sliver goes
-    to the nearest piece, by the Voronoi cells of points along the pieces' boundaries (shapely.voronoi_polygons), so a
-    long coastal or frontier sliver is split among the units along it."""
+    to the nearest piece, by the Voronoi cells of points along the pieces' boundaries near it
+    (shapely.voronoi_polygons), so a long coastal or frontier sliver is split among the units along it."""
     gs = [multi(polys(shapely.intersection(p, country))) for p in pieces]
     rest = multi([s for s in polys(shapely.difference(country, shapely.union_all(gs))) if km2(s) >= 1e-4])
     if rest.is_empty:
         return gs
     tree = shapely.STRtree(gs)
-    near = sorted(set(tree.query(rest.buffer(0.01), predicate="intersects").tolist()))
+    zone = rest.buffer(0.01)
     pts, owner = [], []
-    for j in near:
-        cs = shapely.get_coordinates(shapely.segmentize(gs[j].boundary, 0.002))
+    for j in tree.query(zone, predicate="intersects"):
+        edge = shapely.intersection(gs[j].boundary, zone)
+        if edge.is_empty:
+            continue
+        cs = shapely.get_coordinates(shapely.segmentize(shapely.simplify(edge, 0.0005), 0.002))
         pts.append(cs)
-        owner += [j] * len(cs)
+        owner += [int(j)] * len(cs)
     pts = np.vstack(pts)
     pts, first = np.unique(np.round(pts, 7), axis=0, return_index=True)
     owner = np.array(owner)[first]
-    cells = shapely.voronoi_polygons(shapely.multipoints(pts), extend_to=rest.envelope.buffer(0.1))
-    cells = list(cells.geoms)
-    ptree = shapely.STRtree(shapely.points(pts))
+    cells = np.array(list(shapely.voronoi_polygons(shapely.multipoints(pts), extend_to=rest.envelope.buffer(0.1),
+                                                     ordered=True).geoms), dtype=object)
+    ctree = shapely.STRtree(cells)
     extra = {}
-    for c in cells:
-        k = ptree.query(c, predicate="contains")
-        if not len(k):
-            continue
-        part = shapely.intersection(c, rest)
-        if not part.is_empty:
-            extra.setdefault(int(owner[k[0]]), []).append(part)
+    for sl in polys(rest):                   # each sliver against the few cells over it
+        idx = ctree.query(sl, predicate="intersects")
+        for j, part in zip(owner[idx], shapely.intersection(cells[idx], sl)):
+            if not part.is_empty:
+                extra.setdefault(int(j), []).append(part)
     for j, ss in extra.items():
         gs[j] = multi(polys(shapely.union_all([gs[j]] + ss)))
     return gs
@@ -180,6 +182,13 @@ def label_point(g):
     return polylabel(big, tolerance=0.005)
 
 
+T0 = time.time()
+
+
+def log(*a):
+    print(f"{time.time() - T0:7.1f}s", *a, flush=True)
+
+
 def main():
     frame = box(*FRAME)
     a0 = {d["shapeGroup"]: multi(polys(shapely.intersection(d["g"], frame))) for d in read(0, "shapeType='ADM0'")}
@@ -187,7 +196,9 @@ def main():
     a2 = read(2, "shapeGroup='VNM'")
     # 2: the pieces
     pieces, props = [], []
+    log("read")
     vn = fill(a0["VNM"], [d["g"] for d in a2])
+    log("filled Vietnam")
     for d, g in zip(a2, vn):
         pieces.append(g)
         props.append({"c": "VNM", "adm2": d["shapeName"], "id2": d["shapeID"]})
@@ -202,6 +213,7 @@ def main():
             props.append({"c": c})
     keep = [i for i, g in enumerate(pieces) if not g.is_empty]
     pieces, props = [pieces[i] for i in keep], [props[i] for i in keep]
+    log("filled all")
     # 4: each district's modern province and 1966 unit, on the unsimplified pieces
     vn1 = [d for d in a1 if d["shapeGroup"] == "VNM"]
     t1 = shapely.STRtree([d["g"] for d in vn1])
@@ -232,11 +244,13 @@ def main():
         p["share"] = round(s, 3)
         rows.append(dict(district=p["adm2"], shapeID=p["id2"], province_today=p["adm1"], unit_1966=p["u66"] or "DRV",
                          share=round(s, 3), km2=round(km2(g), 1)))
+    log("assigned")
     # 3: one coverage, simplified once
     clean = shapely.coverage_clean(np.array(pieces, dtype=object), gap_width=0.0005)
     print("coverage valid after clean:", shapely.coverage_is_valid(clean))
     simp = shapely.coverage_simplify(clean, TOL)
     simp = [multi([q for q in polys(s) if km2(q) >= MIN_KM2]) for s in simp]
+    log("simplified")
     # 5: units
     def unit_of(p):
         if p["c"] == "VNM":
@@ -307,9 +321,20 @@ def main():
         m = meta[uid]
         feats.append(feat(g, {"k": "unit", "id": uid, **{k: v for k, v in m.items() if v is not None},
                               "km2": round(km2(g))}))
-    for cls, g in (("coast", coast), ("intl", intl), ("dmz", dmz), ("ctz", ctzl), ("region", regl), ("unit", unitl)):
+    for cls, g in (("coast", coast), ("intl", intl), ("dmz", dmz), ("ctz", ctzl)):
         if not g.is_empty:
             feats.append(feat(g, {"k": "line", "l": cls}))
+    # the province and region lines a country at a time (`c`), so the neighbours' can be shown or not
+    for cls, g in (("region", regl), ("unit", unitl)):
+        for c in ("rvn", "drv", "laos", "cambodia"):
+            part = shapely.line_merge(shapely.intersection(g, country[c].buffer(1e-7)))
+            part = shapely.union_all([x for x in getattr(part, "geoms", [part]) if x.geom_type in ("LineString", "MultiLineString")])
+            if not part.is_empty:
+                feats.append(feat(part, {"k": "line", "l": cls, "c": c}))
+    for c in ("rvn", "drv", "laos", "cambodia", "thailand", "china", "burma"):
+        nm = {"rvn": "South Vietnam", "drv": "North Vietnam"}.get(c, names[c])
+        feats.append(feat(label_point(country[c]), {"k": "lab", "l": "country", "id": c, "name": nm,
+                                                    "km2": round(km2(country[c]))}))
     for uid, g in units.items():
         m = meta[uid]
         feats.append(feat(label_point(g), {"k": "lab", "l": "unit", "c": m["c"], "name": m["name"], "km2": round(km2(g))}))
@@ -350,7 +375,7 @@ def main():
     cw = {"title": "The 1966 units on geoBoundaries CGAZ districts (tools/vnmap/base.py)",
           "method": "each CGAZ ADM2 district of Vietnam given whole to the 1966 unit of the GADM-based provinces1966.geojson "
                     "(the hand crosswalk, crosswalk.yaml) holding most of it; under half in any: the DRV",
-          "source": "geoBoundaries CGAZ 6.0.0, ADM0-2 (CC BY 4.0), downloaded Oct. 22, 2026",
+          "source": "geoBoundaries CGAZ, ADM0-2 (CC BY 4.0), main branch, downloaded Oct. 22, 2026",
           "straddlers": sorted(unsure, key=lambda r: r["share"]),
           "districts": sorted(rows, key=lambda r: (r["unit_1966"], r["district"]))}
     yaml.safe_dump(cw, open(os.path.join(VN66, "crosswalk-cgaz.yaml"), "w", encoding="utf-8"), allow_unicode=True,

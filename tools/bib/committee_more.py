@@ -136,8 +136,10 @@ def other_block(c, series, here=False):
                 who = [surname(m["name"]) for m in ms if m.get("role") == role]
                 if who:
                     bits.append(f'{ROLE[role].capitalize()}: {esc(", ".join(who))}')
-            pg = (f' <a class="cmst" href="{esc(ed["url"])}#page={r["pdf"]}">CDir. {esc(r.get("page") or "")}</a>'
-                  if ed and r.get("pdf") else "")
+            e_ = r.get("edition") or (ed or {}).get("edition")
+            url = f"https://www.govinfo.gov/content/pkg/CDIR-{e_}/pdf/CDIR-{e_}.pdf"
+            pg = (f' <a class="cmst" href="{esc(url)}#page={r["pdf"]}" title="Congressional Directory, '
+                  f'{esc(ed_label(e_))}">CDir. {esc(r.get("page") or "")}</a>' if e_ and r.get("pdf") else "")
             title = f' title="{esc(r["printed"])}"' if r.get("printed") else ""
             out.append(f'<tbody id="{rid(c, ch, code)}"><tr class="st"><th colspan="2"><span{title}>{esc(r["name"])}'
                        f'</span>{pg} <span class="cgsm">{". ".join(bits)}.</span></th></tr>')
@@ -163,7 +165,8 @@ def other_block(c, series, here=False):
     if out and ed:
         out.append(f'<p class="cgs">The select, special and joint committees: <i>Official Congressional Directory</i>, '
                    f'{esc(ed_label(ed["edition"]))} (<a href="{esc(ed["url"])}">govinfo</a>), the members in the order '
-                   'printed, the party the roster\'s.</p>')
+                   'printed, the party the roster\'s; a committee created later in the Congress from the second '
+                   'session\'s edition (its page link says which).</p>')
     return "\n".join(out)
 
 

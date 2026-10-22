@@ -1,23 +1,63 @@
 """Write daybook/bulletin/<YYYY>.yaml: the *Department of State Bulletin*'s contents, item by item, filed by day.
 
-    python3 tools/daybook/make_bulletin.py YEAR [YEAR ...] [--cache DIR]   (DIR: make_dsb_index.py's cache; network
-                                                                            for what it lacks; the build needs none)
+    python3 tools/daybook/make_bulletin.py YEAR [YEAR ...] [--cache DIR]   (DIR: make_dsb_index.py's cache, which this
+                                    fills with each copy's _djvu.xml, gzipped, ~5 MB a copy; network for what it lacks;
+                                    the build needs none)
 
-For each issue of the year (sources/dsb-issues.yaml, its first and last pages), from the Boston Public Library's copy on
-archive.org, page by page (the hOCR text and the page numbers make_dsb_index.py reads):
+1960 runs from the calendar's first day (Jan. 6), 1969 to its last (Jan. 20: the issues of the sixty days after are
+read for the releases they print from before it). From the Boston Public Library's copies on archive.org, a quarter an
+item (sources/dsb-pages.json), leaf by leaf: the OCR's text (hOCR), the printed page numbers archive.org found, and
+the words with their boxes (_djvu.xml).
 
- 1. The issue's own index, on its inside back cover ("Index / Vol. XLVI, No. 1176"): every entry, "Subject. Title
-    (names) page", the subject heading taken off (a line of its own, or the words before the first full stop where
-    they are a short heading). An item the index lists under several subjects is one item: the same page and the same
-    first words of its title. The title as the OCR reads it, its spaces and hyphens at line breaks mended.
- 2. The item's date: where the item's first page prints its release ("Press release 23 dated January 15", "White House
-    press release dated ..."), the date it gives (the year the issue's, or the one before for a December release in a
-    January issue), not after the issue's date nor more than 60 days before it (`dated: release`); else the issue's
-    date (`dated: issue`).
- 3. Rows: key ('dsb:<issue date>:<page>:<n>'), src 'dsb', date (the day filed), issue, page, title, url (the copy's
-    page). Shown in the daybook as a fifth list, "Bulletin" (tools/bib/daybook.py, STYLE 10).
+RULES (a log of what each year's copies taught; 1962 first, then 1960-69):
+ 1. The index leaves. Each issue's own index stands at its end (the inside back cover; from 1968 an unnumbered leaf).
+    A leaf is one where its head reads "Index" (the OCR's forms: "I n d e x", "IIDEX", ">NDEX", "Ind"), or it stands
+    before the back cover (its mailing text), or its head is a date ("March 27, 1961"), and its text reads as at least
+    eight entries, at least half of them in the densest 150 pages (an OCR's 6 for 5 in a column, 1967). Not the
+    volume's index ("Volume XLII: Numbers ..."). Found so, not from the issue's first and last pages, which the
+    covers' OCR misses for many issues of 1965, 1967 and 1968.
+ 2. Which issue. The copy's index leaves are aligned with the quarter's issues (two weeks either side: a copy binds a
+    week of the next), in order, each leaf one issue or none: by its head's date or number as printed, else as the
+    OCR's misread digits give them (OCR_DIGIT; "Octoler £, 1967"), and by the issue's pages in sources/dsb-issues.yaml
+    where they hold the leaf's median page; a head's date or number stands over those pages (dsb-issues is off by an
+    issue in Nov. 1965). A leaf with no such evidence and no "Index" at its head is placed nowhere. An index scanned
+    twice (1966) or bound twice (May 16, 1966) is read once, the twin's readings added.
+ 3. The issue's pages: dsb-issues.yaml's; where it has none, or the index's pages are not in them, the numbered
+    leaves since the last index (a volume's first issue from p. 1; pages the numbering missed, after the last issue's).
+ 4. Two readings of each index leaf: the OCR's text, and the words laid out again from their boxes (`rebuilt`): two
+    columns, rows by the words' tops, each page number with the row it overlaps, an entry's second line (indented, or
+    after a line run to the column's edge: a gutter can hide the indent) run on into its first. The OCR's text sets a
+    column's page numbers apart on some pages (Feb. 1, 1960; Oct. 8, 1962); the boxes put them back.
+ 5. Entries: "Subject. Title (names) page", the subject heading taken off (a line of its own, or a short run of words
+    before a full stop, not an initial: "R. A. Egger"); "June 30" is a day, not a page; the names' index after "Name
+    Index" left out, and a name or given names read as a title. The readings of one item (one page, half their words
+    shared) give one title: not garbled (a stray mark, the page's head, a run of pages, a page number inside it), not
+    run on from or into another entry; then the one holding most of the others' words, the one read most often, the
+    shorter. One title at two pages: the page read more often (an OCR's 0 for 9). A subject heading read as a title
+    (its number another entry's) is dropped.
+ 6. Page numbers misread: O for 0, l or I for 1 ("47O"); one the OCR cannot read ("44^") ends its entry.
+ 7. A title whose first letter the gutter took gets it back from the year's titles ("resident" President, "roint"
+    Joint); a title holding another item's whole title (two entries read as one) is left out.
+ 8. Debris off a title: the page's head, a clipped heading ("azil. U.S. Regrets"), "S." for "U.S." at the margin, a stop
+    inside a word ("Pre.sents", "19.54").
+ 9. The date: where the item's page prints one release ("Press release 23 dated January 15", "White House press
+    release dated ..."), that date (the year the issue's, or the one before for a December release in a January issue),
+    not after the issue nor more than 60 days before it, and only where one item of the index begins on that page
+    (`dated: release`); else the issue's date (`dated: issue`).
+10. Rows: key ('dsb:<issue date>:<page>:<n>'), src 'dsb', date (the day filed), issue, page, title, dated, url (the
+    copy's page). Shown in the daybook's "Other records" as "Bulletin" (tools/bib/daybook.py, STYLE 11); checked by
+    tools/bib/bulletin.py.
 
-Quality (1962, the first year done): see the counts this prints; titles keep OCR errors the index's type invited.
+Not read: vol. 59 (July-Dec. 1968), no open copy (HathiTrust's are full view but bot-checked here; archive.org holds
+only its semiannual index, a concordance by subject without titles); the indexes of July 1, 1963, Sept. 6 and Nov. 22,
+1965, July 18 and Nov. 28, 1966, not in the copies (a leaf missing or unreadable).
+
+Quality (Oct. 22, 2026: 19 issues, two a year, read against the page images): of 309 items the indexes print, 291
+found (94 percent); 5 rows wrong (a fragment or a misread page) and 12 a second wording of one item (the index's
+per-person lines: "Designations (Creel, Hillenbrand)" and "Creel designated ..."); 52 of the 291 titles with an OCR
+misreading (most a letter: "Friedkln", "BrazU"; worst where the binding's gutter clipped the left column, Oct. 8, 1962,
+Nov. 11, 1963); pages right but for the 5; every release date checked against the issue's check list of press
+releases agrees.
 """
 import datetime
 import gzip
@@ -200,14 +240,14 @@ def clean(title):
     title = re.sub(r"^[a-z][\w\-]*(?:\s[\w\-,]+){0,3}\.\s+(?=[A-Z0-9\"“])", "", title)
     title = re.sub(r"(?<=[a-z])[.;](?=[a-z])|(?<=\b[A-Z])\.(?=[a-z]{3})", "", title)   # "Pre.sents", "E.xhibiting"
     title = re.sub(r"\b19\.(\d\d)\b", r"19\1", title)                                 # "19.54"
-    return re.sub(r"^S\. (?=[A-Z])", "U.S. ", title)
+    return re.sub(r"^S\. (?=[A-Za-z])", "U.S. ", title)
 
 
 def garbled(title, first, last):
     """A reading run on into another entry, or the OCR's debris in it: a stray mark, the page's head, a page number."""
     return bool(re.search(r"[\^■»«#|\\*°]|\bVol\.|\be X\b|(?<=\s)0\d{2}(?=\s)|\d,\s?(?!19\d\d\b)\d"
-                          r"|\b\d[a-zA-Z]\w?\b(?<!\d[sdht])(?<!\dth)(?<!\dst)(?<!\dnd)(?<!\drd)", title)) or any(
-        first <= int(n) <= last for n in re.findall(r"(?<=[\s.)])(\d{2,4})(?=\s+[A-Z]|$)", title))
+                          r"|\b\d{2,3}\?|\b\d[a-zA-Z]\w?\b(?<!\d[sdht])(?<!\dth)(?<!\dst)(?<!\dnd)(?<!\drd)", title)) or any(
+        first <= int(n) <= last for n in re.findall(r"(?<=[\s.()])(\d{2,4})(?=\s+[A-Z]|$)", title))
 
 
 def best(readings_, first, last):
@@ -501,7 +541,8 @@ def year(y, cache, since=None, until=None):
                 title = re.sub(r"^(?:\S+\s+){0,3}Vol\.?\s+\S+,?\s+No\.?\s*\S+\s+", "", title)    # the page's head
                 title = clean(title)
                 w = words(title)
-                if not w or title.startswith("(") or NAME.match(title):     # a name of the names' index
+                if not w or title.startswith("(") or NAME.match(title) or re.match(
+                        r"^(?:[A-Z][a-z]*\.?\s){0,2}[A-Z]\.?$", title):   # a name of the names' index, or its given names
                     continue
                 have = seen.setdefault(page, [])
                 same = next((k for k, xs in enumerate(have) if any(
@@ -526,7 +567,7 @@ def year(y, cache, since=None, until=None):
         for k in [k for k in keep if k in heads and len(k.split()) <= 4]:
             keep[k] = None                          # a heading read as a title, its page another entry's
         seen = {p: [best(xs, first, last) for xs in items_] for p, items_ in seen.items()}
-        seen = {p: [t for t in ts if t and keep.get(re.sub(r"\W+", " ", t).strip().lower(), p) == p]
+        seen = {p: list(dict.fromkeys(t for t in ts if t and keep.get(re.sub(r"\W+", " ", t).strip().lower(), p) == p))
                 for p, ts in seen.items()}
         n = 0
         for page, title, one in [(p, t, len(ts) == 1) for p, ts in sorted(seen.items()) for t in ts]:

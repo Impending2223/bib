@@ -5,6 +5,7 @@
 #   committees: the select, special and joint committees, added to the committee list (congress/committees.yaml's
 #     standing committees): code (as the hearings calendar codes it), ch (s, h, j), name, congresses.
 #   congress: <NN>: s | h | j: <code>: name (the hearings calendar's), printed (the Directory's, where longer),
+#     edition (the second-session edition it was read from, where the first prints it not),
 #     page (the printed page of the committee's heading), pdf (the PDF's page), members (in the order printed:
 #     bio, name (the rosters' form), p, st, seat, ch, delegate, printed (the Directory's form), role (chair, vice,
 #     cochair), ex_officio, rank (the order within chamber and party), page, check), others (members named by an
@@ -19,8 +20,10 @@ editions:
   92: {edition: '1971-03-10', url: 'https://www.govinfo.gov/content/pkg/CDIR-1971-03-10/pdf/CDIR-1971-03-10.pdf'}
   93: {edition: '1973-03-10', url: 'https://www.govinfo.gov/content/pkg/CDIR-1973-03-10/pdf/CDIR-1973-03-10.pdf'}
 committees:
+  - {code: h.select-committee-to-conduct-investigation-and-study-of-administration, ch: h, name: Select Committee To Conduct Investigation and Study of Administration, congresses: [87]}
   - {code: h.select-committee-on-committees-of-the-house, ch: h, name: Select Committee on Committees of the House, congresses: [93]}
-  - {code: h.select-committee-on-crime, ch: h, name: Select Committee on Crime, congresses: [92, 93]}
+  - {code: h.select-committee-on-crime, ch: h, name: Select Committee on Crime, congresses: [91, 92, 93]}
+  - {code: h.select-committee-on-government-research, ch: h, name: Select Committee on Government Research, congresses: [88]}
   - {code: h.select-committee-on-small-business, ch: h, name: Select Committee on Small Business, congresses: [87, 88, 89, 90, 91, 92, 93]}
   - {code: j.atomic-energy, ch: j, name: Joint Committee on Atomic Energy, congresses: [87, 88, 89, 90, 91, 92, 93]}
   - {code: j.congressional-operations, ch: j, name: Joint Committee on Congressional Operations, congresses: [92, 93]}
@@ -41,8 +44,9 @@ committees:
   - {code: s.select-committee-on-nutrition-and-human-needs, ch: s, name: Select Committee on Nutrition and Human Needs, congresses: [91, 92, 93]}
   - {code: s.select-committee-on-presidential-campaign-activities, ch: s, name: Select Committee on Presidential Campaign Activities, congresses: [93]}
   - {code: s.select-committee-on-small-business, ch: s, name: Select Committee on Small Business, congresses: [87, 88, 89, 90, 91, 92, 93]}
-  - {code: s.select-committee-on-standards-and-conduct, ch: s, name: Select Committee on Standards and Conduct, congresses: [90, 91, 92, 93]}
+  - {code: s.select-committee-on-standards-and-conduct, ch: s, name: Select Committee on Standards and Conduct, congresses: [89, 90, 91, 92, 93]}
   - {code: s.special-committee-on-aging, ch: s, name: Special Committee on Aging, congresses: [87, 88, 89, 90, 91, 92, 93]}
+  - {code: s.special-committee-on-the-organization-of-the-congress, ch: s, name: Special Committee on the Organization of the Congress, congresses: [90]}
   - {code: s.special-committee-on-the-termination-of-the-national-emergency, ch: s, name: Special Committee on the Termination of the National Emergency, congresses: [93]}
 congress:
   87:
@@ -96,6 +100,17 @@ congress:
           - {bio: B001167, name: 'Bush, Prescott S.', p: R, st: CT, seat: 3, ch: s, printed: Prescott Bush, rank: 6, page: 240}
           - {bio: J000064, name: 'Javits, Jacob K.', p: R, st: NY, seat: 3, ch: s, printed: Jacob K. Javits, rank: 7, page: 240}
     h:
+      h.select-committee-to-conduct-investigation-and-study-of-administration:
+        name: Select Committee To Conduct Investigation and Study of Administration
+        edition: '1962-01-10'
+        page: 255
+        pdf: 287
+        members:
+          - {bio: K000249, name: 'Kitchin, Alvin P.', p: D, st: NC, seat: 8, ch: h, printed: A. Paul Kitchin, role: chair, rank: 1, page: 255}
+          - {bio: B000600, name: 'Boland, Edward P.', p: D, st: MA, seat: 2, ch: h, printed: Edward P. Boland, rank: 2, page: 255}
+          - {bio: S000454, name: 'Sisk, Bernice F.', p: D, st: CA, seat: 12, ch: h, printed: B. F. Sisk, rank: 3, page: 255}
+          - {bio: L000344, name: 'Lipscomb, Glenard P.', p: R, st: CA, seat: 24, ch: h, printed: Glenard P. Lipscomb, rank: 1, page: 255}
+          - {bio: L000116, name: 'Latta, Delbert L.', p: R, st: OH, seat: 5, ch: h, printed: Delbert L. Latta, rank: 2, page: 255}
       h.select-committee-on-small-business:
         name: Select Committee on Small Business
         printed: Select Committee To Conduct a Study and Investigation of the Problems of Small Business
@@ -336,6 +351,21 @@ congress:
           - {bio: F000245, name: 'Fong, Hiram L.', p: R, st: HI, seat: 1, ch: s, printed: Hiram L. Fong, rank: 6, page: 246}
           - {bio: M000623, name: 'Mechem, Edwin L.', p: R, st: NM, seat: 1, ch: s, printed: Edwin L. Mechem, rank: 7, page: 246}
     h:
+      h.select-committee-on-government-research:
+        name: Select Committee on Government Research
+        edition: '1964-01-01'
+        page: 265
+        pdf: 297
+        members:
+          - {bio: E000120, name: 'Elliott, Carl A.', p: D, st: AL, seat: 0, ch: h, printed: Carl Elliott, role: chair, rank: 1, page: 265}
+          - {bio: F000233, name: 'Fogarty, John E.', p: D, st: RI, seat: 2, ch: h, printed: John E. Fogarty, rank: 2, page: 265}
+          - {bio: M000727, name: 'Miller, George P.', p: D, st: CA, seat: 8, ch: h, printed: George P. Miller, rank: 3, page: 265}
+          - {bio: P000522, name: 'Price, Charles M.', p: D, st: IL, seat: 24, ch: h, printed: Melvin Price, rank: 4, page: 265}
+          - {bio: L000054, name: 'Landrum, Phillip M.', p: D, st: GA, seat: 9, ch: h, printed: Phil M. Landrum, rank: 5, page: 265}
+          - {bio: B000909, name: 'Brown, Clarence J.', p: R, st: OH, seat: 7, ch: h, printed: Clarence J. Brown, rank: 1, page: 265}
+          - {bio: A000195, name: 'Anderson, John B.', p: R, st: IL, seat: 16, ch: h, printed: John B. Anderson, rank: 2, page: 265}
+          - {bio: C000512, name: 'Cleveland, James C.', p: R, st: NH, seat: 2, ch: h, printed: James C. Cleveland, rank: 3, page: 265}
+          - {bio: M000197, name: 'Martin, Patrick M.', p: R, st: CA, seat: 38, ch: h, printed: Pat Minor Martin, rank: 4, page: 265}
       h.select-committee-on-small-business:
         name: Select Committee on Small Business
         printed: Select Committee To Conduct a Study and Investigation of the Problems of Small Business
@@ -550,6 +580,18 @@ congress:
           - {bio: S000174, name: 'Scott, Hugh D., Jr.', p: R, st: PA, seat: 1, ch: s, printed: Hugh Scott, rank: 4, page: 249}
           - {bio: P000552, name: 'Prouty, Winston L.', p: R, st: VT, seat: 1, ch: s, printed: Winston L. Prouty, rank: 5, page: 249}
           - {bio: C000802, name: 'Cotton, Norris H.', p: R, st: NH, seat: 3, ch: s, printed: Norris Cotton, rank: 6, page: 249}
+      s.select-committee-on-standards-and-conduct:
+        name: Select Committee on Standards and Conduct
+        edition: '1966-01-10'
+        page: 250
+        pdf: 282
+        members:
+          - {bio: S000852, name: 'Stennis, John C.', p: D, st: MS, seat: 1, ch: s, printed: John Stennis, rank: 1, page: 250}
+          - {bio: M000859, name: 'Monroney, Almer S.', p: D, st: OK, seat: 3, ch: s, printed: A. S. Mike Monroney, rank: 2, page: 250}
+          - {bio: M000311, name: 'McCarthy, Eugene J.', p: D, st: MN, seat: 1, ch: s, printed: Eugene J. McCarthy, rank: 3, page: 250}
+          - {bio: B000384, name: 'Bennett, Wallace F.', p: R, st: UT, seat: 3, ch: s, printed: Wallace F. Bennett, rank: 1, page: 250}
+          - {bio: C000758, name: 'Cooper, John S.', p: R, st: KY, seat: 2, ch: s, printed: John Sherman Cooper, rank: 2, page: 250}
+          - {bio: P000166, name: 'Pearson, James B.', p: R, st: KS, seat: 2, ch: s, printed: James B. Pearson, rank: 3, page: 250}
       s.special-committee-on-aging:
         name: Special Committee on Aging
         page: 250
@@ -831,6 +873,18 @@ congress:
           - {bio: M000730, name: 'Miller, Jack R.', p: R, st: IA, seat: 2, ch: s, printed: Jack Miller, rank: 5, page: 262}
           - {bio: M001022, name: 'Morton, Thruston B.', p: R, st: KY, seat: 3, ch: s, printed: Thruston B. Morton, rank: 6, page: 262}
           - {bio: H000170, name: 'Hansen, Clifford P.', p: R, st: WY, seat: 2, ch: s, printed: Clifford P. Hansen, rank: 7, page: 262}
+      s.special-committee-on-the-organization-of-the-congress:
+        name: Special Committee on the Organization of the Congress
+        edition: '1967-12-15'
+        page: 256
+        pdf: 290
+        members:
+          - {bio: M000859, name: 'Monroney, Almer S.', p: D, st: OK, seat: 3, ch: s, printed: A. S. Mike Monroney, role: chair, rank: 1, page: 256}
+          - {bio: S000701, name: 'Sparkman, John J.', p: D, st: AL, seat: 2, ch: s, printed: John J. Sparkman, rank: 2, page: 256}
+          - {bio: M000671, name: 'Metcalf, Lee W.', p: D, st: MT, seat: 2, ch: s, printed: Lee Metcalf, rank: 3, page: 256}
+          - {bio: M001078, name: 'Mundt, Karl E.', p: R, st: SD, seat: 2, ch: s, printed: Karl E. Mundt, rank: 1, page: 256}
+          - {bio: C000220, name: 'Case, Clifford P.', p: R, st: NJ, seat: 2, ch: s, printed: Clifford P. Case, rank: 2, page: 256}
+          - {bio: B000593, name: 'Boggs, James C.', p: R, st: DE, seat: 2, ch: s, printed: J. Caleb Boggs, rank: 3, page: 256}
     h:
       h.select-committee-on-small-business:
         name: Select Committee on Small Business
@@ -1105,6 +1159,19 @@ congress:
           - {bio: G000531, name: 'Gurney, Edward J.', p: R, st: FL, seat: 3, ch: s, printed: Edward J. Gurney, rank: 8, page: 259}
           - {bio: S000096, name: 'Saxbe, William B.', p: R, st: OH, seat: 3, ch: s, printed: William B. Saxbe, rank: 9, page: 259}
     h:
+      h.select-committee-on-crime:
+        name: Select Committee on Crime
+        edition: '1969-12-15'
+        page: 273
+        pdf: 309
+        members:
+          - {bio: P000218, name: 'Pepper, Claude D.', p: D, st: FL, seat: 11, ch: h, printed: Claude Pepper, role: chair, rank: 1, page: 273}
+          - {bio: G000471, name: 'Griffiths, Martha W.', p: D, st: MI, seat: 17, ch: h, printed: Martha W. Griffiths, rank: 2, page: 273}
+          - {bio: N000113, name: 'Nix, Robert N., Sr.', p: D, st: PA, seat: 2, ch: h, printed: Robert N. C. Nix, rank: 3, page: 273}
+          - {bio: W000035, name: 'Waldie, Jerome R.', p: D, st: CA, seat: 14, ch: h, printed: Jerome R. Waldie, rank: 4, page: 273}
+          - {bio: W000197, name: 'Watson, Albert W.', p: R, st: SC, seat: 2, ch: h, printed: Albert W. Watson, rank: 1, page: 273}
+          - {bio: W000448, name: 'Wiggins, Charles E.', p: R, st: CA, seat: 25, ch: h, printed: Charles BE. Wiggins, rank: 2, page: 273}
+          - {bio: D000239, name: 'Denney, Robert V.', p: R, st: NE, seat: 1, ch: h, printed: Robert V. Denney, rank: 3, page: 273}
       h.select-committee-on-small-business:
         name: Select Committee on Small Business
         page: 274

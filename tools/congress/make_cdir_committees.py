@@ -37,6 +37,8 @@ RULES
     it, "s.special-committee-on-aging", "j.atomic-energy"; the Directory's longer forms answer to it (ALIAS).
  5. The page: the printed folio of the PDF page, read from the page's running head or foot and placed by its
     neighbours where the OCR lost it.
+ 6. A committee the first-session edition does not print (created later in the Congress: the House's Select
+    Committee on Government Research, 1963) is read from the second-session edition (SECOND), its edition recorded.
 """
 import datetime
 import difflib
@@ -54,6 +56,9 @@ from bib import store  # noqa: E402
 
 EDITIONS = {87: "1961-04-01", 88: "1963-03-01", 89: "1965-03-01", 90: "1967-02-28", 91: "1969-03-01",
             92: "1971-03-10", 93: "1973-03-10"}
+# the second-session editions: a committee the first does not print (created later in the Congress) from these (RULES 6)
+SECOND = {87: "1962-01-10", 88: "1964-01-01", 89: "1966-01-10", 90: "1967-12-15", 91: "1969-12-15", 92: "1971-12-03",
+          93: "1973-12-22"}
 PDF = "https://www.govinfo.gov/content/pkg/CDIR-{e}/pdf/CDIR-{e}.pdf"
 DETAILS = "https://www.govinfo.gov/app/details/CDIR-{e}"
 UA = {"User-Agent": "bib-congress (https://impending2223.github.io/bib/)"}
@@ -392,21 +397,27 @@ def main(cache, legis):
     L = legislators(legis)
     data, used, bad = {}, {}, []
     eds = {}
-    for c, e in sorted(EDITIONS.items()):
+    runs = [(c, e, False) for c, e in sorted(EDITIONS.items())] + [(c, e, True) for c, e in sorted(SECOND.items())]
+    for c, e, second in runs:
         pages = open(fetch(e, cache), encoding="utf-8").read().split("\f")
         fol = folios(pages)
         J = Join(L, c, e)
-        eds[c] = {"edition": e, "url": PDF.format(e=e)}
-        data[c] = {}
+        if not second:
+            eds[c] = {"edition": e, "url": PDF.format(e=e)}
+            data[c] = {}
         for kind in ("ss", "sh", "j"):
             for cm in parse(lines_of(pages, kind), kind):
                 if not cm["members"]:
                     continue
+                if second and code(cm["ch"], cm["name"]) in data[c].get(cm["ch"], {}):
+                    continue                  # the first session's list stands (RULES 6)
                 bad += [(c,) + b for b in join_members(cm, J)]
                 k = code(cm["ch"], cm["name"])
                 rec = {"name": cm["name"]}
                 if cm["printed"] != cm["name"]:
                     rec["printed"] = cm["printed"]
+                if second:
+                    rec["edition"] = e
                 rec["page"] = fol.get(cm["pdf"])
                 rec["pdf"] = cm["pdf"]
                 rec["members"] = []
@@ -431,6 +442,7 @@ def write(data, used, eds):
          "#   committees: the select, special and joint committees, added to the committee list (congress/committees.yaml's",
          "#     standing committees): code (as the hearings calendar codes it), ch (s, h, j), name, congresses.",
          "#   congress: <NN>: s | h | j: <code>: name (the hearings calendar's), printed (the Directory's, where longer),",
+         "#     edition (the second-session edition it was read from, where the first prints it not),",
          "#     page (the printed page of the committee's heading), pdf (the PDF's page), members (in the order printed:",
          "#     bio, name (the rosters' form), p, st, seat, ch, delegate, printed (the Directory's form), role (chair, vice,",
          "#     cochair), ex_officio, rank (the order within chamber and party), page, check), others (members named by an",
@@ -454,7 +466,7 @@ def write(data, used, eds):
             for k in sorted(data[c][ch], key=lambda k: data[c][ch][k]["name"]):
                 rec = data[c][ch][k]
                 L.append(f"      {k}:")
-                for f in ("name", "printed", "page", "pdf"):
+                for f in ("name", "printed", "edition", "page", "pdf"):
                     if f in rec:
                         L.append("        " + flow({f: rec[f]})[1:-1])
                 L.append("        members:")

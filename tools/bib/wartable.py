@@ -20,7 +20,7 @@ STYLE (keep it):
     color (the economic tables have a grey caption and grey rules), the sans at the tables' size, a light panel, and a
     foot line on the page's first table saying what the day is. Under the date and the day's entries, before the day's
     documents.
- 3. Two columns, Reported then | Later, each figure with its date in grey under it: "then", the figure as first given
+ 3. Two columns, Reported then | Later, each figure with its date in grey under it, the year always given: "then", the figure as first given
     (the indicators' "As first reported"); "later", a revision or a retrospective (the indicators' "Revised, today"),
     U.S. deaths and strength today's. A figure read once, from a source dated more than a year after its period, is
     "later" (tools/indicators/make_war_forces.py). Concepts that are not comparable never share a row (indicators
@@ -147,7 +147,7 @@ def rows_html(rows, year, href):
                 c = f'<span title="{esc(tip)}">{c}</span>'
                 when = r.get(rk)
                 if when:
-                    c += f'<span class="wr" title="{esc(src)}">{esc(date_label(when, year))}</span>'
+                    c += f'<span class="wr" title="{esc(src)}">{esc(date_label(when))}</span>'
                 elif col == "now":
                     c += f'<span class="wr" title="{esc(src)}">today</span>'
             cells.append(c)
@@ -226,9 +226,9 @@ div.wart thead th{text-align:left;font-weight:600;color:var(--muted);font-size:.
 div.wart tr.wn th{text-align:left;font-weight:600;padding:.35rem 0 .05rem;border:0}
 div.wart tr.wn a{color:inherit;text-decoration-color:var(--rule)}
 div.wart .per,div.wart .u,div.wart .wr{color:var(--muted);font-weight:400}
-div.wart td{vertical-align:top;padding:0 .4rem .3rem 0;border-bottom:1px solid var(--rule);overflow-wrap:anywhere}
+div.wart td{vertical-align:top;padding:0 .8rem .3rem 0;border-bottom:1px solid var(--rule);overflow-wrap:anywhere}
 div.wart td:last-child{padding-right:0}
-div.wart .wr{display:block;font-size:.72rem}
+div.wart .wr,div.wart .wnote{display:block;font-size:.72rem}
 div.wart .kv{display:inline-grid;grid-template-columns:minmax(2.5em,auto) auto;column-gap:.4rem;max-width:100%}
 div.wart .kv .v{text-align:right}
 div.war-srv{margin:.2rem 0 1rem}

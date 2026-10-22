@@ -1,0 +1,48 @@
+# Population of the cities of Vietnam, Laos and Cambodia in the 1960s, kept by hand (Oct. 22, 2026), for the maps of
+# Indochina (tools/bib/vnmap.py: the Population layer). Read by eye off the page images of the United Nations'
+# *Demographic Yearbook*, from https://unstats.un.org/unsd/demographic-social/products/dyb/ ("1966 DYB.pdf",
+# "1970 DYB.pdf"): the table of the population of capital cities and cities of 100,000 and more inhabitants (1966:
+# table 6; 1970: table 8), each country's capital and its cities of 100,000 and more. Nothing else is printed there
+# for these countries.
+#
+# Each city: `place`, the gazetteer's id (sources/vn-provinces-1966/places.json); `rows`, the figures, each with
+# `date` (as printed: the day of a census, C, or of an estimate, E), `pop`, `of` (city proper, or urban
+# agglomeration), `src` (the Yearbook, its table and printed page) and `note`: the Yearbook's own marks, quoted or
+# stated (an asterisk: provisional; italics, in the 1970 Yearbook: "of lesser reliability", its p. 12). The map shows
+# the first row; the tap, all.
+#
+# Not found (notes/leads.md, Foreign): the DRV's 1960 census for its towns under 100,000 (Nam Định, Vinh, Thanh Hóa);
+# Cambodia's 1962 census for Battambang and the provincial towns; the RVN's estimates for its provincial towns; Laos's
+# towns other than Vientiane.
+sources:
+  dyb1966: United Nations, *Demographic Yearbook 1966*, table 6
+  dyb1970: United Nations, *Demographic Yearbook 1970*, table 8
+cities:
+- place: saigon
+  rows:
+  - {date: '1965-12-31', kind: E, pop: 1485300, of: city proper, src: dyb1966, page: 191, note: 'Including Cholon (n. 134).'}
+  - {date: '1968-06-30', kind: E, pop: 1681893, of: city proper, src: dyb1970, page: 458, note: In italics.}
+- place: hanoi
+  rows:
+  - {date: '1960-03-01', kind: C, pop: 414620, of: city proper, src: dyb1966, page: 190}
+  - {date: '1960-03-01', kind: C, pop: 643576, of: urban agglomeration, src: dyb1966, page: 190}
+- place: haiphong
+  rows:
+  - {date: '1960-03-01', kind: C, pop: 182496, of: city proper, src: dyb1966, page: 190, note: 'The 1970 Yearbook, p. 458, prints 182,490.'}
+  - {date: '1960-03-01', kind: C, pop: 369248, of: urban agglomeration, src: dyb1966, page: 190}
+- place: phnom-penh
+  rows:
+  - {date: '1962-04-17', kind: C, pop: 393995, of: city proper, src: dyb1970, page: 446}
+  - {date: '1962-04-17', kind: C, pop: 403500, of: urban agglomeration, src: dyb1966, page: 185, note: Provisional.}
+- place: da-nang
+  rows:
+  - {date: '1965-12-31', kind: E, pop: 228040, of: city proper, src: dyb1966, page: 191}
+  - {date: '1968-06-30', kind: E, pop: 334229, of: city proper, src: dyb1970, page: 458, note: In italics.}
+- place: hue
+  rows:
+  - {date: '1964-12-31', kind: E, pop: 103563, of: city proper, src: dyb1966, page: 191}
+  - {date: '1968-06-30', kind: E, pop: 156537, of: city proper, src: dyb1970, page: 458, note: In italics.}
+- place: vientiane
+  rows:
+  - {date: '1962-05', kind: E, pop: 162297, of: urban agglomeration, src: dyb1966, page: 189, note: Provisional; the 1970 Yearbook, p. 456, in italics.}
+  - {date: '1966', kind: E, pop: 132253, of: city proper, src: dyb1970, page: 456, note: In italics.}

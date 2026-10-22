@@ -324,6 +324,10 @@ def run(series, only=None):
         add(ERROR, where, msg, "ppp")
     for where, msg in warns:
         add(WARN, where, msg, "ppp")
+    # the Bulletin's items (daybook/bulletin/, tools/daybook/make_bulletin.py)
+    from . import bulletin
+    for where, msg in bulletin.problems():
+        add(ERROR, "daybook/bulletin/", f"{where}: {msg}", "bulletin")
     # the committees' meetings (daybook/committees/, tools/daybook/make_committees.py)
     from . import committees
     for where, msg in committees.problems():

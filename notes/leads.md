@@ -551,6 +551,20 @@ next January's *Economic Report*'s (local scans read earlier), not the first pri
 
 ## Foreign
 
+- The *Department of State Bulletin*, vol. 59 (July 1-Dec. 30, 1968, nos. 1514-1540): no open copy reached, so the
+  daybook's Bulletin list stops at June 24, 1968 (`tools/daybook/make_bulletin.py`). HathiTrust holds it in full view
+  (msu.31293008121893 July-Sept., msu.31293008121901 Oct.-Dec., mdp.39015077199605, coo.31924070261031; catalog API,
+  Oct. 22, 2026) but its pages are bot-checked here; archive.org has only the volume's semiannual index
+  (`sim_department-of-state-bulletin_july-01-december-30-1968_59_index`: a concordance by subject and person, no
+  titles, with the issues' pages); Google Books not reached (the API's daily quota spent); state.gov refused (403). A
+  person in a browser can read the HathiTrust copy; the owner could allow babel.hathitrust.org, or an archive.org
+  scan may appear (search `departmentofstat59`).
+- The *Bulletin*'s issue indexes not in the archive.org copies (a leaf missing or unreadable): July 1, 1963; Sept. 6
+  and Nov. 22, 1965; July 18 and Nov. 28, 1966. The semiannual indexes (archive.org's `sim_` items, open) list their
+  items by subject and page; the HathiTrust copies have the issues.
+- The *Bulletin*'s check lists of press releases (each issue's index page: number, date, subject) could date the
+  items whose page prints no single release (now filed by the issue's date): matching a subject to an item is fuzzy;
+  not done.
 - Military aid cut off to allies trading with Cuba, Feb. 18, 1964: not verified.
 - The Rhodesian election, May 7, 1965: not entered.
 - China's nuclear test by missile, Oct. 27, 1966: no verified source.

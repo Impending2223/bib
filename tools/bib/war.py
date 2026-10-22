@@ -20,7 +20,8 @@ STYLE (keep it):
     ("70,000–90,000"). A cell of several figures is a stacked grid (label, figure), the parts DISPLAY names in its order
     and the rest on hover (the order of battle's VC and NVA split, the territorial forces' parts); a cell of one figure
     is the bare figure.
- 6. A row's note (preliminary, approximate, a quarterly average) in grey after the figure; a "Check" (a figure faint
+ 6. A row's note (preliminary, approximate, a quarterly average) in grey after the figure (in the war table on a line
+    of its own under it); a "Check" (a figure faint
     in the copy) and a "printed" note (where a printed total and its parts disagree) on hover, and the Check in grey.
 """
 
@@ -36,7 +37,7 @@ SERIES = ("war-deaths", "war-strength", "war-enemy-ob", "war-enemy-ob-old", "war
 DEFS = {k: v for k, v in concepts.master_texts().items() if k in SERIES}
 
 LABELS = {"all": "All causes", "hostile": "Hostile", "cum": "Since 1961",
-          "combat": "Combat", "vc": "VC", "nva": "NVA", "guer": "Guerrillas", "admin": "Admin. services",
+          "combat": "Combat", "vc": "VC", "nva": "NVA", "guer": "Guerrillas", "admin": "Admin.",
           "admin_nva": "NVA admin.", "sd": "Self-defense", "political": "Political cadre", "regular": "Regular forces",
           "total": "Total", "accepted": "Accepted", "possible": "Possible", "rvnaf": "RVNAF",
           "army": "Army", "af": "Air Force", "navy": "Navy", "marines": "Marines", "rf": "Regional Forces",
@@ -103,7 +104,7 @@ def cell(sid, s, r, col):
     if r.get("check") and col == "first":
         extra.append("Check")
     if extra:
-        out += f' <span class="u">({esc("; ".join(extra))})</span>'
+        out += f' <span class="u wnote">({esc("; ".join(extra))})</span>'
     return out
 
 

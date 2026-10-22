@@ -1,0 +1,60 @@
+/* The maps of Indochina (tools/bib/vnmap.py, vnmap.js): the figure, its controls and legend; MapLibre's own controls
+   restyled to the page. Colours are tokens, set again for the dark theme. */
+:root{--vz1:#7A9CC0;--vz2:#C6A46A;--vz3:#C3877A;--vz4:#86AE7B;--vz5:#A58CBC;
+  --vr1:#8EA9C2;--vr2:#7FB0A3;--vr3:#C9B07A;--vr4:#CC9A8A;--vr5:#9FBC80;--vr6:#B59BC4;--vr7:#9CB6A0;--vr8:#D3B48C;
+  --vpv:#C9CEC6;--vland:#E4E6E2;--vsea:#E3E9EE;--vop:.55;--vdot:#B03A2E;--vriv:#4F7FA8;--vlake:#9DB8CF;--vctr:#8A6E4B;
+  --vcity:#5B4A8A;--vline:#F7F8F6}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--vz1:#57789B;--vz2:#937746;--vz3:#925A4E;--vz4:#5C7F52;
+  --vz5:#76618C;--vr1:#5E7D99;--vr2:#4F8578;--vr3:#94814E;--vr4:#9A6B5C;--vr5:#6B8A4F;--vr6:#7E6890;--vr7:#5F7E66;--vr8:#9A7F55;
+  --vpv:#3A413D;--vland:#262A2E;--vsea:#1C242B;--vop:.8;--vdot:#F08C74;--vriv:#7FA9D0;--vlake:#3D5A72;--vctr:#B49A76;
+  --vcity:#B6A6E0;--vline:#15181D}}
+:root[data-theme="dark"]{--vz1:#57789B;--vz2:#937746;--vz3:#925A4E;--vz4:#5C7F52;--vz5:#76618C;--vr1:#5E7D99;--vr2:#4F8578;
+  --vr3:#94814E;--vr4:#9A6B5C;--vr5:#6B8A4F;--vr6:#7E6890;--vr7:#5F7E66;--vr8:#9A7F55;--vpv:#3A413D;--vland:#262A2E;
+  --vsea:#1C242B;--vop:.8;--vdot:#F08C74;--vriv:#7FA9D0;--vlake:#3D5A72;--vctr:#B49A76;--vcity:#B6A6E0;--vline:#15181D}
+.vnm{margin:.8rem 0 .4rem;font-family:var(--sans)}
+.vnm-cap{font-size:.78rem;color:var(--muted);margin-bottom:.35rem}
+.vnm-bar{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;font-size:.75rem;margin-bottom:.4rem}
+.vnm-bar .seg{display:inline-flex;flex-wrap:wrap;border:1px solid var(--rule);border-radius:3px;overflow:hidden}
+.vnm-bar .seg button{font:inherit;background:transparent;color:var(--ink);border:0;border-left:1px solid var(--rule);padding:3px 8px;cursor:pointer}
+.vnm-bar .seg button:first-child{border-left:0}
+.vnm-bar .seg button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+.vnm-bar label{display:inline-flex;gap:4px;align-items:center;color:var(--muted);cursor:pointer}
+.vnm-bar select{font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--rule);border-radius:3px}
+.vnm-bar button:focus-visible,.vnm-bar input:focus-visible,.vnm-bar select:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+.vnm-box{position:relative;aspect-ratio:4/5;max-height:82vh;width:100%;background:var(--vsea);border:1px solid var(--rule);border-radius:3px;overflow:hidden}
+.vnm-gl{position:absolute;inset:0}
+.vnm-pop{position:absolute;left:8px;right:8px;bottom:8px;z-index:3;max-height:45%;overflow:auto;background:var(--panel);border:1px solid var(--rule);border-radius:3px;padding:8px 10px;font-size:.8rem;line-height:1.35}
+.vnm-pop b{font-weight:600}
+.vnm-pop ol,.vnm-pop ul,.vnm-list ol{margin:.3rem 0 0;padding-left:1.1rem}
+.vnm-pop li,.vnm-list li{margin:.15rem 0}
+.vnm-pop .x{float:right;border:0;background:none;color:var(--muted);font:inherit;font-size:1rem;line-height:1;cursor:pointer;padding:0 0 4px 8px}
+.vnm-pop .m,.vnm-list .m{color:var(--muted)}
+.vnm-key{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:.72rem;color:var(--muted);margin-top:.35rem}
+.vnm-key>span{display:contents}
+.vnm-key>span[hidden]{display:none}
+.vnm-key s{text-decoration:none;white-space:nowrap}
+.vnm-key i{display:inline-block;width:11px;height:11px;border-radius:2px;vertical-align:-1px;margin-right:4px;border:1px solid var(--rule)}
+.vnm-key i.o{border-radius:50%}
+.vnm-key i.l{height:0;border:0;border-top:2px solid var(--ink);vertical-align:3px;width:14px}
+.vnm-key i.d{height:0;border:0;border-top:2px dashed var(--ink);vertical-align:3px;width:14px}
+.vnm-key em{font-style:normal;flex-basis:100%}
+.vnm-key a{color:var(--muted)}
+.vnm-list{font-size:.8rem;margin-top:.35rem}
+.vnm-list summary{cursor:pointer;color:var(--muted)}
+.vnm-pg{font-size:.75rem;color:var(--muted);margin:.3rem 0 0}
+.vnm-pg a{color:var(--muted)}
+/* the page of its own (indochina.html; STYLE 6) */
+.vnm.full .vnm-box{aspect-ratio:var(--vnar);width:min(100%,calc((100vh - var(--hdr,52px) - 1.5rem) * var(--vnar)));max-height:none;margin:0 auto}
+.vnm-yrs{display:flex;flex-wrap:wrap;gap:4px;font-size:.78rem;margin:0 0 .45rem}
+.vnm-yrs a{border:1px solid var(--rule);border-radius:3px;padding:2px 7px;color:var(--ink);text-decoration:none}
+.vnm-yrs a[aria-current]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.vnm-yrs a:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+/* MapLibre's controls in the page's colours */
+.vnm .maplibregl-ctrl-group{background:var(--panel);border:1px solid var(--rule);box-shadow:none}
+.vnm .maplibregl-ctrl-group button+button{border-top:1px solid var(--rule)}
+.vnm .vnm-home{font:600 15px var(--sans);color:var(--ink)}
+.vnm .maplibregl-ctrl-attrib{background:color-mix(in srgb,var(--panel) 85%,transparent);color:var(--muted);font:11px var(--sans)}
+.vnm .maplibregl-ctrl-attrib a{color:var(--muted)}
+.vnm .maplibregl-cooperative-gesture-screen{font:600 .9rem var(--sans)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .vnm .maplibregl-ctrl button .maplibregl-ctrl-icon{filter:invert(1)}}
+:root[data-theme="dark"] .vnm .maplibregl-ctrl button .maplibregl-ctrl-icon{filter:invert(1)}
