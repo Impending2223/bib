@@ -84,8 +84,8 @@ VOLS = [
     ("PPP-1963-book1", "1963", "John F. Kennedy", None, "1963-01-01", "1963-11-22"),
     ("PPP-1963-book2", "1963–64", "Lyndon B. Johnson", 1, "1963-11-22", "1964-06-30"),
     ("PPP-1964-book1", "1963–64", "Lyndon B. Johnson", 2, "1964-07-01", "1964-12-31"),
-    ("PPP-1965-book1", "1965", "Lyndon B. Johnson", 1, "1965-01-01", "1965-06-30"),
-    ("PPP-1965-book2", "1965", "Lyndon B. Johnson", 2, "1965-07-01", "1965-12-31"),
+    ("PPP-1965-book1", "1965", "Lyndon B. Johnson", 1, "1965-01-01", "1965-05-31"),
+    ("PPP-1965-book2", "1965", "Lyndon B. Johnson", 2, "1965-06-01", "1965-12-31"),
     ("PPP-1966-book1", "1966", "Lyndon B. Johnson", 1, "1966-01-01", "1966-06-30"),
     ("PPP-1966-book2", "1966", "Lyndon B. Johnson", 2, "1966-07-01", "1966-12-31"),
     ("PPP-1967-book1", "1967", "Lyndon B. Johnson", 1, "1967-01-01", "1967-06-30"),
@@ -175,7 +175,7 @@ def med(xs):
 # ---------------------------------------------------------------- numbers and dates, misread
 
 DIGIT = {"I": "1", "l": "1", "i": "1", "|": "1", "!": "1", "]": "1", "O": "0", "o": "0", "S": "5", "s": "5",
-         "T": "7", "Z": "2", "z": "2", "B": "8", "g": "9", "r": "1", "t": "1"}
+         "T": "7", "Z": "2", "z": "2", "B": "8", "g": "9", "r": "1", "t": "1", "y": "7", "j": "1", "J": "1"}
 
 
 def as_number(tok):
@@ -230,6 +230,7 @@ def heading_date(head, span):
     """(iso date, iso month, where the date begins): the last date in a heading, its misreadings allowed: the month
     by its letters ('Nov ember', 'Qctober', 'Iuly'), the day by DAYCHARS ('n' 11, 'io' 10, 'ly' 17), the year from
     the volume's span where it is misread or lost ('196]', '961'). A day not read gives the month alone."""
+    head = re.sub(r",(?=\d{4})", ", ", head)
     toks = list(re.finditer(r"\S+", head))
     lo, hi = (datetime.date.fromisoformat(x) for x in span)
     best = None
@@ -334,6 +335,9 @@ def page_parts(W, H, ws, body_h, head_y, surname):
         if n is not None and yc > H * .7:
             folio = n
             ws = [w for w in ws if w not in r]
+        elif len(r) == 1 and yc > H * .85 and len(t) <= 4 and (re.search(r"\d", t) or re.fullmatch(r"[lIJyi|]{1,3}", t)):
+            RULES["a folio misread past reading, dropped"] += 1
+            ws = [w for w in ws if w not in r]
         elif len(r) == 1 and re.fullmatch(r"[\W_]{1,3}|[‘'I|]{1,2}", t):
             RULES["stray mark alone on a line, dropped"] += 1
             ws = [w for w in ws if w not in r]
@@ -344,41 +348,31 @@ def page_parts(W, H, ws, body_h, head_y, surname):
     xe = sorted(w[2] for w in ws)
     left, right = xs[len(xs) // 50], xe[-1 - len(xe) // 50]
     lo, hi = int(left + (right - left) * .36), int(left + (right - left) * .64)
-    cov = [0] * (int(W) + 2)
-    for w in ws:
-        for x in range(max(lo, int(w[0])), min(hi, int(w[2])) + 1):
-            cov[x] += 1
-    m = min(cov[lo:hi + 1]) if hi > lo else 0
-    runs, cur = [], []
-    for x in range(lo, hi + 1):
-        if cov[x] <= m + 1:
-            if cur and x != cur[-1] + 1:
-                runs.append(cur)
-                cur = []
-            cur.append(x)
-    if cur:
-        runs.append(cur)
-    two = bool(runs) and m <= max(2, len(rows_of(ws)) // 12)
-    if not two:                                  # one column (a table, a list across the page)
-        return [("S", r, size(med([w[3] - w[1] for w in r]))) for yc, r in rows_of(ws)], folio
-    run = max(runs, key=lambda r: (len(r), -abs((r[0] + r[-1]) / 2 - (left + right) / 2)))
-    g = (run[0] + run[-1]) / 2
+    wide = body_h * .9
+    rows = rows_of(ws)
+    score = [0] * (int(W) + 2)
+    for yc, r in rows:                            # the rows with a wide gap at x: a gutter there
+        for u, v in zip(r, r[1:]):
+            if v[0] - u[2] >= wide:
+                for x in range(max(lo, int(u[2]) + 1), min(hi, int(v[0])) + 1):
+                    score[x] += 1
+    best = max(score[lo:hi + 1]) if hi > lo else 0
+    if best < 3:                                  # one column (a table, a text across the page)
+        return [("S", r, size(med([w[3] - w[1] for w in r]))) for yc, r in rows], folio
+    cands = [x for x in range(lo, hi + 1) if score[x] == best]
+    g = min(cands, key=lambda x: abs(x - (left + right) / 2))
     L, R, S = [], [], []
-    for w in ws:
-        if (w[0] < g - 1 and w[2] > g + 1 and len(re.sub(r"\W", "", w[4])) >= 3) or w[3] - w[1] > body_h * 1.15:
-            S.append(w)
-        elif (w[0] + w[2]) / 2 < g:
-            L.append(w)
+    for yc, r in rows:
+        l = [w for w in r if (w[0] + w[2]) / 2 < g]
+        rr = [w for w in r if (w[0] + w[2]) / 2 >= g]
+        across = any(w[0] < g - 1 and w[2] > g + 1 and len(re.sub(r"\W", "", w[4])) >= 2 for w in r) \
+            or any(w[3] - w[1] > body_h * 1.15 for w in r) \
+            or (l and rr and rr[0][0] - l[-1][2] < wide)
+        if across:
+            S += r
         else:
-            R.append(w)
-    have = set(map(id, S))
-    for yc, r in rows_of(S):                      # the rest of a line across the page
-        for w in L + R:
-            if id(w) not in have and abs((w[1] + w[3]) / 2 - yc) < body_h * .35:
-                S.append(w)
-                have.add(id(w))
-    L = [w for w in L if id(w) not in have]
-    R = [w for w in R if id(w) not in have]
+            L += l
+            R += rr
     out = []
     bounds = [(-1e9, None)] + rows_of(S) + [(1e9, None)]
     for i in range(len(bounds) - 1):
@@ -532,26 +526,51 @@ def folio_runs(folios, npages):
     return off, runs
 
 
-def is_item_head(r, expect, left=None, bh=None):
+def is_item_head(r, expect, left=None, bh=8.6, nxt=None):
     """(number, words used) where a large line opens an item (STYLE 3): its first word the next number, read with
     the digits' misreadings; or, at the text's left edge with the title after a gap, a short word no rule reads
     ('no', 'X47', 'yj'): the number the sequence gives, counted."""
     if len(r) < 2:
         return None, 0
     n = as_number(r[0][4])
-    if n is None and len(r[0][4]) <= 2 and len(r[1][4]) <= 2:
-        n2 = as_number(r[0][4] + r[1][4])
-        if n2 is not None and expect <= n2 <= expect + 3:
-            return n2, 2
+    for k in (3, 2):                              # a number read apart ('i o i', 'i 83')
+        if (n is None or not expect <= n <= expect + 3) and len(r) > k and all(len(w[4]) <= 2 for w in r[:k]) \
+                and r[k - 1][2] - r[0][0] < bh * 4.5:
+            n2 = as_number("".join(w[4] for w in r[:k]))
+            if n2 is not None and expect <= n2 <= expect + 3:
+                return n2, k
     if n is not None and expect <= n <= expect + 3:
         return n, 1
-    if left is not None and r[0][0] <= left + bh * 1.5 and len(r[0][4]) <= 4 and r[1][4][:1].isupper() \
-            and r[1][0] - r[0][2] > bh * .6:
-        digits = re.sub(r"\D", "", r[0][4])
-        if not digits or str(expect).endswith(digits) or str(expect).startswith(digits):
+    k = 1
+    while k < len(r) - 1 and k < 3 and len(r[k][4]) <= 2 and not r[k][4][:1].isupper():
+        k += 1                                    # 'hi *1', '112 ?'
+    if left is not None and len(r[0][4]) <= 4 and r[k][4][:1].isupper() and r[1][0] - r[0][2] > bh * .3 \
+            and (r[0][0] <= left + bh * 1.5 or (nxt is not None and nxt[0][0] >= r[0][0] - 2)):
+        digits = re.sub(r"\D", "", r[0][4].replace("°", "0"))
+        it = iter(str(expect))
+        blk = line_text(r) + " " + (line_text(nxt) if nxt else "")
+        if (digits and all(c in it for c in digits)) or (            # its digits read, in order
+                not digits and re.search(r"\b(" + "|".join(MONTHS) + r")\b", blk)):
             RULES["item number misread, taken from the sequence"] += 1
-            return expect, 1
+            return expect, k
     return None, 0
+
+
+def number_alone(lines, bh):
+    """A heading's number set alone on its line, between the title's lines (the OCR's rows): put before the line
+    above it, as one line."""
+    out = list(lines)
+    i = 1
+    while i < len(out):
+        pos, r, sz = out[i]
+        if sz == "L" and len(r) == 1 and as_number(r[0][4]) is not None and out[i - 1][2] == "L" \
+                and out[i - 1][1][0][0] > r[0][2] and len(out[i - 1][1]) > 1:
+            RULES["a heading's number alone on its line, joined to the title"] += 1
+            out[i - 1] = (out[i - 1][0], r + out[i - 1][1], "L")
+            del out[i]
+            continue
+        i += 1
+    return out
 
 
 def read_volume(pkg, pages, V, surname, span):
@@ -609,21 +628,33 @@ def read_volume(pkg, pages, V, surname, span):
                 lefts[pos] = xs[len(xs) // 8]
                 widths[pos] = xe[-1 - len(xe) // 8] - lefts[pos]
         pending = f"[p. {printed(p)}]" if printed(p) is not None else None
+        lines = number_alone(lines, body_h)
         k = 0
+        prev_sz = None
         while k < len(lines):
             pos, r, sz = lines[k]
+            prev_sz, sz0 = (lines[k - 1][2] if k else None), sz
             if sz == "L":
-                n, used = is_item_head(r, expect, lefts.get(pos, lefts.get("L")), body_h)
+                nxt = lines[k + 1][1] if k + 1 < len(lines) and lines[k + 1][2] == "L" else None
+                n, used = is_item_head(r, expect, min(lefts.values()) if lefts else None, body_h, nxt)
+                if n is None and prev_sz != "L" and cur is not None and r[0][4][:1].isupper():
+                    # a heading whose number the OCR lost: a large block with a date of the item's period
+                    blk = [line_text(r)] + [line_text(x[1]) for x in lines[k + 1:k + 4] if x[2] == "L"][:2]
+                    dd, mm, cut = heading_date(" ".join(blk), span)
+                    if mm and (cur.get("hd") or "0000") <= (dd or mm + "-31") and cut is not None:
+                        RULES["item number lost, taken from the sequence (a large heading with a date)"] += 1
+                        n, used = expect, 0
                 if n is not None:
                     close_para()
                     head = [line_text(r[used:])]
                     k += 1
                     while k < len(lines) and lines[k][2] == "L" and (
                             lines[k][1][0][0] > r[0][0] + body_h * 1.5
-                            or is_item_head(lines[k][1], n + 1)[0] is None):
+                            or is_item_head(lines[k][1], n + 1, None, body_h)[0] is None):
                         head.append(line_text(lines[k][1]))
                         k += 1
                     cur = {"n": n, "head": " ".join(head), "pdf": p, "page": printed(p), "last": p, "blocks": []}
+                    cur["hd"] = heading_date(cur["head"], span)[0]
                     items.append(cur)
                     expect = n + 1
                     note = False
@@ -669,6 +700,10 @@ def read_volume(pkg, pages, V, surname, span):
                 continue
             if kind == "p" and re.match(r"^(\[p\. \d+\] )?\[(?!\d+\.\])", t) and t.rstrip().endswith("]"):
                 kind = "b"
+            if kind == "b":
+                t = re.sub(r"\[\s+", "[", re.sub(r"\s+\]", "]", t))
+            if kind == "q" and re.fullmatch(r"(\[p\. \d+\] )?[^a-z]*[A-Z]{3}[^a-z]*", t):
+                kind = "h"                                # a heading in small capitals
             if kind == "q" and re.match(r"^(\[p\. \d+\] )?([\*†‡§¹²³]|\d{1,2} ?[A-Z])", t):
                 kind = "f"
             if kind == "n" and re.match(r"^(\[p\. \d+\] )?\W{0,2}note\s*[:;.]\s*", t, re.I):
