@@ -10,7 +10,7 @@ CLAUDE.md ("The calendar"). A review list: a hit is a place to look, not an erro
 | A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 1323 |
 | (of which only a President's surname: Eisenhower, Kennedy, Johnson) | 14 |
 | Neither a bibliography of its own nor a `See [[id]]` back | 2 |
-| No primary record linked or named | 777 |
+| No primary record linked or named | 772 |
 | A primary record named but not linked | 107 |
 | Threads (statements listed for review) | 223 |
 
@@ -3075,7 +3075,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1960-12-16.robert-kennedy` (Dec. 16, XIII 196012.yaml): The President-elect names his brother Attorney General, with Dillon to the Treasury. White to be Deputy Attorn
 - `cal.1960-12-17.transition-and-staff-cabinet` (Dec. 17, XIII 196012.yaml): Day to the Post Office, the last of the cabinet. Check the date.
 - `cal.1960-12-20.vietnam` (Dec. 20, XIII 196012.yaml): The National Front for the Liberation of South Vietnam founded at a congress in Tây Ninh province, as the Lao 
-- `cal.1960-12-22.congress` (Dec. 22, XIII 196012.yaml): Kennedy resigns his Senate seat.
 - `cal.1960-12.oil` (Dec., XIII 196012.yaml): The world's crude oil output in 1960, as the Bureau of Mines first counted it: 21.0 million barrels a day. The
 - `cal.1961-01-05.economy` (Jan. 5, XIV 196101.yaml): Samuelson's task force reports to the President-elect: a recession under way and a weak recovery ahead. Spend 
 - `cal.1961-01-09.desegregation-schools-uga` (Jan. 9, XIV 196101.yaml): Hunter and Holmes register at the University of Georgia.
@@ -3086,7 +3085,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1961-01-18.georgia-ga` (Jan. 18, XIV 196101.yaml): Vandiver to the General Assembly in joint session, at night, the week after the riot at Athens: repeal of the 
 - `cal.1961-01.states-and-cities-nyc` (Jan., XIV 196101.yaml): New York. Manhattan's borough president removed on his conviction; the borough's six members of the City Counc
 - `cal.1961-02-01.civil-rights-organizations` (Feb. 1, XV 196102.yaml): Farmer takes office as national director of CORE, from the NAACP's staff.
-- `cal.1961-02-10.opinion` (Feb. 10–15, XV 196102.yaml): Gallup's first reading: 72 percent approve, 6 disapprove, 22 no opinion.
 - `cal.1961-02.economy` (Feb., XV 196102.yaml): The recession's trough, as the National Bureau later dated it. Unemployment 6.9 percent in the revised series;
 - `cal.1961-02.states-and-cities-nyc` (Feb., XV 196102.yaml): New York. Early in the month Wagner calls on DeSapio to step down as leader of the county's Democrats.
 - `cal.1961-03.right-and-the-military` (Mar., XVI 196103.yaml): The John Birch Society reaches the national press: the *Los Angeles Times* series and the newsmagazines. Check
@@ -3099,7 +3097,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1961-04-07.cuba` (Apr. 7, XVII 196104.yaml): *New York Times*, front page: Szulc, from Miami, on anti-Castro units trained to invade Cuba. Cut in New York 
 - `cal.1961-04-18.specials` (Apr. 18, XVII 196104.yaml): Arkansas 6th, special. Catherine Dorris Norrell to her husband's seat, 43.1 percent of five Democrats. No swin
 - `cal.1961-04-27.europe-and-the-alliance-jupiters` (Apr. 27–28, XVII 196104.yaml): Rusk raises cancellation of the Jupiters with the Turkish Foreign Minister at CENTO's council in Ankara: "stro
-- `cal.1961-04-28.opinion` (Apr. 28–May 3, XVII 196104.yaml): After the Bay of Pigs: 83 percent approve, the high of the presidency; 61 percent approve his handling of Cuba
 - `cal.1961-05-01.crime-and-hijacking` (May 1, XVIII 196105.yaml): First U.S. airliner hijacked to Cuba, a National Airlines flight bound for Key West.
 - `cal.1961-05-09.berlin-and-vienna` (May 9, XVIII 196105.yaml): Robert Kennedy's first meeting with Georgi Bolshakov. The back channel to Khrushchev opens.
 - `cal.1961-05-16.specials-2` (May 16, XVIII 196105.yaml): Tennessee 1st, special. Louise Goff Reece (R) to her husband's seat, 62.9 percent. Swing 9.9 to D.
@@ -3199,7 +3196,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1962-11-06.governors-vt` (Nov. 6, XXXVI 196211.yaml): Vermont. Hoff (D) over Keyser (R), the governor, 61,350 to 60,035, 50.5 percent, his Democratic line 56,196 an
 - `cal.1962-11-06.governors-me` (Nov. 6, XXXVI 196211.yaml): Maine. Reed (R), the governor, over Dolloff (D), 146,604 to 146,121: a margin of 483.
 - `cal.1962-11-07.elections-1962` (Nov. 7, XXXVI 196211.yaml): Nixon at the Beverly Hilton: "You won't have Nixon to kick around anymore."
-- `cal.1962-11.opinion` (Nov., XXXVI 196211.yaml): After the missile crisis, approval in the mid-seventies.
 - `cal.1962-11-26.open-housing-detroit` (Nov. 26, XXXVI 196211.yaml): Detroit. Cavanagh signs an ordinance forbidding real estate agents to solicit sales or rentals by saying that 
 - `cal.1962-11-30.governors-nm` (Nov. 30, XXXVI 196211.yaml): New Mexico. Mechem resigns the governorship; Bolack, the lieutenant governor, succeeds and appoints him to the
 - `cal.1962-12-02.goldwater` (Dec. 2, XXXVII 196212.yaml): Chicago, a motel. White's draft group meets in secret, some forty by the UPI's count, many from the South: a G
@@ -3741,7 +3737,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1968-09-30.states-and-cities-ocean-hill` (Sept. 30, CVII 196809.yaml): New York City. The second teachers' strike ends (Check the day).
 - `cal.1968-10-02.students-los-angeles` (Oct. 2, CVIII 196810.yaml): Los Angeles. Thirty-five arrested at the Board of Education after an eight-day sit-in for Castro's return to h
 - `cal.1968-10-14.states-and-cities-nyc` (Oct. 14, CVIII 196810.yaml): New York City. The teachers' third strike, the union's teachers kept from Ocean Hill's classrooms.
-- `cal.1968-10-18.space` (Oct. 18, CVIII 196810.yaml): Johnson ratifies the astronauts' rescue agreement. In force Dec. 3.
 - `cal.1968-10-18.soviet-union-czechoslovakia` (Oct. 18, CVIII 196810.yaml): Prague. The National Assembly ratifies the treaty on the stay of Soviet forces (Check the day).
 - `cal.1968-10-22.elections-1968` (Oct. 22, CVIII 196810.yaml): Haldeman's notes of Nixon's instructions, by telephone (Check): "Keep Anna Chennault working on SVN"; and "Any
 - `cal.1968-10-29.elections-1968` (Oct. 29, CVIII 196810.yaml): McCarthy will vote for Humphrey; he will not run for the Senate as a Democrat in 1970, nor for the presidentia

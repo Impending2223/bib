@@ -1581,7 +1581,7 @@ day's closed summaries in the page and writes the blocks' contents to a file a m
 stale months removed at each build), so a calendar page sheds some two thirds of its weight (Cal. II, 18.8 to 6.6 MB).
 The first opening of a block, by a tap, Expand all (the months from the button's on, two at a time; in the reader the
 list's own blocks), or a link to an anchor inside one (the page's `lzmap` names the file that holds each; the reader's
-`jump` asks `window.lzGo`), fetches the month once and fills all its blocks; "loading" after the summary meanwhile.
+`jump` asks `window.lzGo`, and opens the folded blocks around its target, as `list.html`'s `openTo` does), fetches the month once and fills all its blocks; "loading" after the summary meanwhile.
 `lazydays.split` runs on the finished page, after the injects and the routing, and curls the contents as `smart.py`
 curls the page; `./bib links` reads each page with its month files. Opened as files (not through a server), the blocks
 stay empty.

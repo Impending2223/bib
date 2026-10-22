@@ -32,18 +32,20 @@ RULES
     OCR runs into the MAJORITY line is read as its own.
  3. A MAJORITY or MINORITY line runs on over the lines under it to its stop, or till it holds its printed count of
     names, never into the staff's table beside it (Prof. Staff Mbr., NSOB, Clerk); a word broken at the line's end
-    is joined; 'ond' and the like are the OCR's 'and'. Its printed count ("(5 D.)") is kept; where the names read do not make it, the subcommittee carries
-    "check".
+    is joined; 'ond' and the like are the OCR's 'and'. Its printed count ("(5 D.)") is kept (a joint committee's two
+    lines a side summed); where the names read do not make it, the subcommittee carries "check".
  4. A name is the member of the parent committee (any time in the Congress; for a joint committee, of his chamber)
-    whose surname reads most like it, at .7 of its letters (.65 for a name of four letters or fewer: 'Kyi', Kyl), of the line's party (MAJORITY, the Democrats in these
-    Congresses), the State in parentheses settling two of a surname; else, of the chamber's roster at the opening,
-    with "check". The chairman: the member of the subcommittee whose surname his line gives.
+    whose surname reads most like it, at .7 of its letters (.65 for four letters or fewer: 'Kyi', Kyl), of the
+    line's party (MAJORITY, the Democrats in these Congresses), the State in parentheses settling two of a surname;
+    two surnames run together ('Patman Reuss') two members; else, of the chamber's roster at the opening, with
+    "check". The chairman: the member of the subcommittee whose surname his line gives.
  5. The subcommittee's name: its heading, the word after SUBCOMMITTEE "on" (or "No." before a number), each other
     word put right against VOCAB (WORDS, and the words of the Digest's committees and subcommittees, 1961-64: a word
     counted COMMON times there is kept, another goes to the nearest, at .7 of its letters, the commoner of two near
     alike, or stays as read), in title case; then, where one of the Digest's names of the committee's subcommittees
     reads as it at .9 (not a numbered one), the Digest's; a numbered one whose number is lost or not above the one
-    before it, the number after that one; a word neither in VOCAB nor printed so, "check" ("Subcommittee on Soil Conservation and Forestry").
+    before it, the number after that one; a word neither in VOCAB nor printed so, "check" ("Subcommittee on Soil
+    Conservation and Forestry").
  6. The page: the edition's printed page (archive.org's page numbers), linked to the leaf.
 """
 import difflib

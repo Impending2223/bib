@@ -295,6 +295,7 @@ var META={{meta}}, ORDER={{order}};
     var el=document.getElementById(id);
     if(!el&&window.lzGo&&window.lzGo(id)) return;   // in a day's block not yet loaded: it loads, then comes back here
     if(!el){ el=document.getElementById('home--top'); id='home--top'; }
+    for(var dd=el.closest('details');dd;dd=dd.parentElement&&dd.parentElement.closest('details')) dd.open=true;   // as list.html's openTo
     showList(ownerKey(el));
     if(y!=null) window.scrollTo(0,y);
     else if(/--top$/.test(id)) window.scrollTo(0,0);

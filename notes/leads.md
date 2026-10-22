@@ -527,7 +527,7 @@ next January's *Economic Report*'s (local scans read earlier), not the first pri
   copies are bot-checked here. Other sources: the committees' own printed calendars (each lists its subcommittees),
   and the Digest's reports of organizational meetings, which name some (House Post Office and Civil Service, Feb. 25,
   1965; House Banking and Currency, Mar. 16, 1965; Senate Government Operations, Jan. 24, 1967).
-- The subcommittees of the 87th and 88th (congress/subcommittees.yaml): 155 of 459 carry a Check (a printed count the
+- The subcommittees of the 87th and 88th (congress/subcommittees.yaml): 117 of 459 carry a Check (a printed count the
   names read do not make, a chairman's line not matched, a surname unread, a name not put right): read those leaves
   by eye (each row links its leaf). The ex officio members the Staff Directory marks by a footnote are not marked.
 - Select committees the first- and second-session *Directories* do not print: the Senate's Select Committee on
