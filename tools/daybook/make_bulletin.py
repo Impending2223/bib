@@ -165,71 +165,91 @@ def index_leaves(L, lo, hi):
         pg = sorted(e[1] for e in ents)
         if len(pg) < 8:
             continue
-        mid = pg[len(pg) // 2]
-        if sum(abs(x - mid) <= 75 for x in pg) < max(8, 0.6 * len(pg)):     # an OCR's 6 for 5 in a column
+        dense = max(sum(a <= x <= a + 150 for x in pg) for a in pg)    # the densest 150 pages: an OCR's 6 for 5
+        if dense < max(8, 0.5 * len(pg)):
             continue
         out.append(i)
     return out
 
 
-def head_issue(h, quarter, by_date, by_no):
-    """The issue an index leaf's head names: its date, else its number, where the quarter holds it."""
-    m = HEAD_DATE.search(h)
-    if m:
-        try:
-            r = by_date.get(datetime.date(int(m.group(3)), FULL.index(m.group(1)) + 1, int(m.group(2))).isoformat())
-        except ValueError:
-            r = None
-        if r in quarter:
-            return r
-    m = HEAD_NO.search(h)
-    r = by_no.get(int(m.group(1))) if m else None
-    return r if r in quarter else None
+OCR_DIGIT = str.maketrans({"I": "1", "l": "1", "J": "1", "i": "1", "|": "1", "£": "2", "Z": "2", "S": "3", "O": "0",
+                           "o": "0", "U": "4", "b": "6", "B": "8", "^": "4", "s": "3", "z": "2"})
 
 
-def place(L, segs, quarter, by_date, by_no, lo, hi):
-    """[(seg, issue)] for one copy's index leaves (RULES 2): by the head's date or number; else the issue whose pages
-    (sources/dsb-issues.yaml) hold the entries' median page; else, between two placed leaves, in order, where as many
-    issues as leaves lie between them."""
-    got = []
-    for s in segs:
-        r = head_issue(L[s[0]][2][:300], quarter, by_date, by_no)
-        if r is None:
-            ents = sorted(e[1] for e in index_entries(L[s[0]][2], lo, hi))
-            med = ents[len(ents) // 2]
-            cand = [q for q in quarter if q.get("first") and q.get("last") and not q.get("check")
-                    and q["first"] <= med <= q["last"]]
-            r = cand[0] if len(cand) == 1 else None
-        got.append(r)
-    nos = [q["no"] for q in quarter]
-    k = 0
-    while k < len(got):
-        if got[k] is not None:
-            k += 1
-            continue
-        e = k
-        while e < len(got) and got[e] is None:
-            e += 1
-        a = got[k - 1]["no"] if k > 0 else nos[0] - 1
-        b = got[e]["no"] if e < len(got) else nos[-1] + 1
-        between = [q for q in quarter if a < q["no"] < b]
-        if len(between) == e - k:
-            got[k:e] = between
-        k = e
-    seen, out = set(), []
-    for s, r in zip(segs, got):                    # each issue once, and in order
-        if r is not None and r["no"] not in seen and (not out or r["no"] > out[-1][1]["no"]):
-            seen.add(r["no"])
-            out.append((s, r))
-    return out
+def evidence(h, q):
+    """How well an index leaf's head (its first 120 characters) names issue q: its date or number as printed, else as
+    the OCR's misread letters for digits give them (OCR_DIGIT): a month like the printed one, the day, the number's
+    last two digits."""
+    d = datetime.date.fromisoformat(q["date"])
+    h = re.sub(r"\s+", " ", h[:120])
+    if re.search(FULL[d.month - 1] + r"\s*" + str(d.day) + r"\s*[,.]\s*" + str(d.year), h):
+        return 5
+    if re.search(r"No\.?\s*" + str(q["no"]) + r"\b", h):
+        return 4
+    score = 0
+    mon = FULL[d.month - 1].lower()
+    for m in re.finditer(r"([A-Za-z^\-.]{3,10})\s*([\dIlJi|£ZSOoUb^]{1,2})\s*[,.]?\s*[J1I]?\s*[\d^SJ]{3}", h):
+        w = m.group(1).lower().strip("^-.")
+        if len(w) >= 3 and sum(a == b for a, b in zip(w, mon)) >= min(3, len(mon)) - 1 and w[:1] in (mon[0], "^", "-"):
+            score += 1
+            if m.group(2).translate(OCR_DIGIT) == str(d.day):
+                score += 1.5
+            break
+    m = re.search(r"No\.?\s*(\S{3,5})", h)
+    if m and m.group(1).translate(OCR_DIGIT)[-2:] == str(q["no"])[-2:]:
+        score += 1
+    return score
+
+
+def median(text, lo, hi):
+    ents = sorted(x[1] for x in index_entries(text, lo, hi))
+    return ents[len(ents) // 2] if ents else 0
+
+
+def place(L, segs, quarter, lo, hi):
+    """[(seg, issue)] for one copy's index leaves, in order (RULES 2): the best alignment of the leaves with the issues,
+    each leaf one issue or none, by what each head says (evidence) and, where sources/dsb-issues.yaml gives an issue's
+    pages, whether they hold the median page of the leaf's entries (never matched where they do not)."""
+    def score(s, q):
+        e = evidence(L[s[0]][2], q)
+        if q.get("first") and q.get("last") and not q.get("check"):
+            if not q["first"] <= median(L[s[0]][2], lo, hi) <= q["last"]:
+                return None if e < 4 else e + 0.5     # a head's date or number stands over the covers' pages
+            e += 3
+        return e + 0.5
+    n, m = len(segs), len(quarter)
+    dp = [[(0.0, None)] * (m + 1) for _ in range(n + 1)]
+    for i in range(n + 1):
+        for j in range(m + 1):
+            if i == 0 and j == 0:
+                continue
+            best = (-1e9, None)
+            if i > 0:
+                best = max(best, (dp[i - 1][j][0] - 0.5, "skip leaf"))
+            if j > 0:
+                best = max(best, (dp[i][j - 1][0], "skip issue"))
+            if i > 0 and j > 0:
+                sc = score(segs[i - 1], quarter[j - 1])
+                if sc is not None:
+                    best = max(best, (dp[i - 1][j - 1][0] + sc, "match"))
+            dp[i][j] = best
+    out, i, j = [], n, m
+    while i > 0 or j > 0:
+        how = dp[i][j][1]
+        if how == "match":
+            out.append((segs[i - 1], quarter[j - 1]))
+            i, j = i - 1, j - 1
+        elif how == "skip leaf":
+            i -= 1
+        else:
+            j -= 1
+    return out[::-1]
 
 
 def year(y, cache, since=None, until=None):
     """One year's rows: the issues dated in it (from since), and to until those of the next sixty days whose releases
     fall before it."""
     allrows = yaml.safe_load(open(ix.ISSUES, encoding="utf-8"))["issues"]
-    by_date = {r["date"]: r for r in allrows}
-    by_no = {r["no"]: r for r in allrows}
     lo_d = since or datetime.date(y, 1, 1)
     hi_d = (until + datetime.timedelta(days=60)) if until else datetime.date(y, 12, 31)
     issues = [r for r in allrows if lo_d.isoformat() <= r["date"] <= hi_d.isoformat()]
@@ -244,7 +264,9 @@ def year(y, cache, since=None, until=None):
             if p is not None:
                 pages.setdefault((it["vol"], p), t)
         lo, hi = 1, 1300                               # any page of a volume: a copy's numbering can run out of order
-        quarter = [r for r in allrows if it["from"] <= r["date"] <= it["to"]]
+        f_, t_ = (datetime.date.fromisoformat(it[k]) for k in ("from", "to"))
+        quarter = [r for r in allrows if (f_ - datetime.timedelta(days=14)).isoformat() <= r["date"]
+                   <= (t_ + datetime.timedelta(days=14)).isoformat()]     # a copy may bind a week of the next
         segs, prev = [], None
         for i in index_leaves(L, lo, hi):             # the issue's pages: the numbered leaves since the last index
             top = it["main"][0] + 200 if not segs else hi       # not the volume's index bound before the first issue
@@ -258,7 +280,7 @@ def year(y, cache, since=None, until=None):
                 sf = segs[-1][2] + 1                   # pages the numbering missed: after the last issue's
             segs.append((i, sf, sl))
             prev = i
-        placed = place(L, segs, quarter, by_date, by_no, lo, hi)
+        placed = place(L, segs, quarter, lo, hi)
         for s in segs:
             if s not in [x for x, _ in placed]:
                 log.append(f"{iid} leaf {s[0]}: an index not placed")
@@ -268,7 +290,11 @@ def year(y, cache, since=None, until=None):
             if j < len(L) and not BACK.search(L[j][2][:600]) and not HEAD_INDEX.search(L[j][2][:250]) \
                     and not ix.MAST.search(L[j][2][:700]) and len(index_entries(L[j][2], lo, hi)) > 8:
                 ls.append(j)
-            found[r["date"]] = {"iid": iid, "vol": it["vol"], "sf": sf, "sl": sl, "leaves": ls, "L": L}
+            own = it["from"] <= r["date"] <= it["to"]
+            if r["date"] not in want or r["date"] in found and (found[r["date"]]["own"] or not own):
+                continue                               # an issue in two copies (or bound twice): its own quarter's, the first
+            found[r["date"]] = {"iid": iid, "vol": it["vol"], "sf": sf, "sl": sl, "leaves": ls, "L": L,
+                                "own": own}
     rows, stats = [], {"issues": len(issues), "indexed": 0, "items": 0, "release": 0, "no index": []}
     for r in issues:
         if r["date"] not in found:
@@ -280,6 +306,9 @@ def year(y, cache, since=None, until=None):
         if not first or not last or r.get("check"):    # the pages the leaves give (RULES 3)
             first, last = sf, sl
             log.append(f"{r['date']}: pages from the leaves, {sf}-{sl}")
+        elif not first <= median(L[ls[0]][2], 1, 1300) <= last:
+            log.append(f"{r['date']}: the index's pages are not the issue's {first}-{last}: the leaves', {sf}-{sl}")
+            first, last = sf, sl
         elif sf and sl and (abs(sf - first) > 2 or abs(sl - last) > 4):
             log.append(f"{r['date']}: issues {first}-{last}, leaves {sf}-{sl}")
         if not first or not last:

@@ -545,10 +545,10 @@ def is_item_head(r, expect, left=None, bh=8.6, nxt=None):
     while k < len(r) - 1 and k < 3 and len(r[k][4]) <= 2 and not r[k][4][:1].isupper():
         k += 1                                    # 'hi *1', '112 ?'
     if left is not None and len(r[0][4]) <= 4 and r[k][4][:1].isupper() and r[1][0] - r[0][2] > bh * .3 \
-            and (r[0][0] <= left + bh * 1.5 or (nxt is not None and nxt[0][0] >= r[0][0] - 2)):
+            and (r[0][0] <= left + bh * 1.5 or (nxt and nxt[0][0][0] >= r[0][0] - 2)):
         digits = re.sub(r"\D", "", r[0][4].replace("°", "0"))
         it = iter(str(expect))
-        blk = line_text(r) + " " + (line_text(nxt) if nxt else "")
+        blk = line_text(r) + " " + " ".join(line_text(x) for x in (nxt or []))
         if (digits and all(c in it for c in digits)) or (            # its digits read, in order
                 not digits and re.search(r"\b(" + "|".join(MONTHS) + r")\b", blk)):
             RULES["item number misread, taken from the sequence"] += 1
@@ -573,7 +573,7 @@ def number_alone(lines, bh):
     return out
 
 
-def read_volume(pkg, pages, V, surname, span):
+def read_volume(pkg, pages, V, surname, span, start=1):
     body_h = common_height(pages)
     head_y = head_place(pages)
     # the body: from item 1's heading to the first page headed Appendix
@@ -584,7 +584,7 @@ def read_volume(pkg, pages, V, surname, span):
         folios[i] = folio
     first = None
     for i, lines in enumerate(parts, 1):
-        if any(sz == "L" and is_item_head(r, 1)[0] == 1 for pos, r, sz in lines) and i > 8:
+        if any(sz == "L" and is_item_head(r, start)[0] == start for pos, r, sz in lines) and i > 8:
             # item 1 follows the List of Items; the half title has no number
             first = i
             break
@@ -604,7 +604,7 @@ def read_volume(pkg, pages, V, surname, span):
     printed = lambda p: p - off[p] if p in off else None
 
     items = []
-    expect = 1
+    expect = start
     cur = None
     para = None           # [kind, [texts]]
     para_pos = None
@@ -635,7 +635,11 @@ def read_volume(pkg, pages, V, surname, span):
             pos, r, sz = lines[k]
             prev_sz, sz0 = (lines[k - 1][2] if k else None), sz
             if sz == "L":
-                nxt = lines[k + 1][1] if k + 1 < len(lines) and lines[k + 1][2] == "L" else None
+                nxt = []                                  # the heading's next large lines
+                for x in lines[k + 1:k + 4]:
+                    if x[2] != "L":
+                        break
+                    nxt.append(x[1])
                 n, used = is_item_head(r, expect, min(lefts.values()) if lefts else None, body_h, nxt)
                 if n is None and prev_sz != "L" and cur is not None and r[0][4][:1].isupper():
                     # a heading whose number the OCR lost: a large block with a date of the item's period
@@ -812,7 +816,11 @@ def main():
     for pkg, years, pres, book, lo, hi in vols:
         RULES.clear()
         pages = allp[pkg]
-        items, runs, listed, first, end = read_volume(pkg, pages, V, pres.split()[-1], (lo, hi))
+        start = 1
+        if book == 2:                     # the second book goes on with the first's numbers
+            prev = os.path.join(OUT, f"{VOLS[[v[0] for v in VOLS].index(pkg) - 1][0]}.json.xz")
+            start = json.loads(lzma.decompress(open(prev, "rb").read()))["items"][-1]["n"] + 1
+        items, runs, listed, first, end = read_volume(pkg, pages, V, pres.split()[-1], (lo, hi), start)
         settle_dates(items, (lo, hi))
         doc = {"source": SOURCE, "license": LICENSE, "package": pkg,
                "title": f"Public Papers of the Presidents of the United States: {pres}, {years}"

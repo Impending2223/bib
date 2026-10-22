@@ -296,8 +296,10 @@ def day_heading(t):
 def day_heading2(t):
     """The heading the OCR mangled further: marks after the year ('Wednesday, May 11, 1966 . ~·:·i:i'), a year
     misread ('Fr~day,. May 27~ 19~<?'), the day run into the month ('JVednesday, June15, 1966'), a comma in the
-    year ('Jurz..e 11 :, 1,964'). Nothing but marks may follow the year."""
-    u = re.sub(r"(?<=\w)[?!~.]+(?=\w)", "", t)
+    year ('Jurz..e 11 :, 1,964'), the weekday run into the month by a stop ('Tuesday.June14, 1966'). Nothing but
+    marks may follow the year."""
+    u = re.sub(r"^(\W*[A-Za-z]{5,11}day)[.,](?=[A-Z])", r"\1 ", t)
+    u = re.sub(r"(?<=\w)[?!~.]+(?=\w)", "", u)
     u = re.sub(r"(?<=[A-Za-z])(?=\d)", " ", u)
     m = re.match(r"^\W*([A-Za-z]{5,11})\W+([A-Za-z]{3,10})\W*([\dlIoOBgSZ¢']{1,3})[\W_]*?\s*,?\s*"
                  r"([1lI]\W?[9g]\W?[\dlIoOBgSZ¢_ ,]{1,5}|19\S{0,4}|1\d{2,3})", u)
