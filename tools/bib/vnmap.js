@@ -144,7 +144,6 @@ function style(M, C, places) {
       'symbol-sort-key': ['-', 0, ['get', 'pop']]},
       paint: {'text-color': C.ink, 'text-halo-color': C.vland, 'text-halo-width': 1.5}});
   for (const r of [3, 2, 1, 0]) {        // 0: a place with this year's entries; 1-3: the gazetteer's ranks
-    if (r === 0) L.push(country);          // the countries' names give way only to the year's places
     L.push({id: 'names-' + r, type: 'symbol', source: 'places',
       filter: r ? ['all', ['==', ['get', 'n'], 0], ['==', ['get', 'r'], r]] : ['>', ['get', 'n'], 0],
       layout: {'text-field': ['get', 'name'], 'text-font': r ? FONT : BOLD, 'text-size': r ? 11 : 12,
@@ -152,6 +151,7 @@ function style(M, C, places) {
         'text-justify': 'auto', 'symbol-sort-key': r ? ['get', 'r'] : ['-', 0, ['get', 'n']], 'text-padding': 2},
       paint: {'text-color': r ? C.muted : C.ink, 'text-halo-color': C.vland, 'text-halo-width': 1.5}});
   }
+  L.push(country);                         // the countries' names first: the places' names find room around them
   const fonts = Object.fromEntries(Object.entries(M.fonts).map(([k, v]) => [k, v.map((x) => ({...x, url: abs(x.url)}))]));
   return {version: 8, 'font-faces': fonts, sources: src, layers: L.filter(Boolean)};
 }
