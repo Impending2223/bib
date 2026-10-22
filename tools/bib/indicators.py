@@ -72,6 +72,11 @@ STYLE (settled; keep it, and fix anything that drifts from it):
 16. The war (war-*, kind: war): not in the month's tables. A table of its own under the first Thursday of the next
     month, in the day layout (the owner's request, Oct. 22, 2026; tools/bib/wartable.py, its STYLE); its cells in
     tools/bib/war.py.
+17. Money, the foreign accounts and the debt's terms (tools/bib/finance.py, its STYLE; written by
+    tools/indicators/make_finance.py): the money stock and free reserves in a group "Money and credit" of the indicators
+    table, the yields and mortgage rates in the Money and credit table (13); reserve assets and the trade balances under
+    International; the debt's holders and length under "Federal debt" (the public debt and its ratios with them), $bn in
+    its header as Federal finance; exchange rates and the gold price, when read, in a table of their own (one figure).
 """
 import calendar
 import datetime

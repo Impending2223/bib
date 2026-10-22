@@ -1,10 +1,9 @@
 """The subcommittees of the 87th and 88th Congresses, with their chairmen and members, from the Congressional Staff
 Directory: congress/subcommittees.yaml.
 
-Usage: python3 -I tools/congress/make_subcommittees.py CACHE_DIR [CDIR_DIR]
+Usage: python3 -I tools/congress/make_subcommittees.py CACHE_DIR
   CACHE_DIR   where each edition's page text is kept (<id>_djvu.xml and <id>_page_numbers.json, archive.org's OCR of
               the scan and its page numbers); fetched if missing
-  CDIR_DIR    make_cdir_committees.py's cache of the Directories' text, for the words of RULES 5
 Run once; rerun after changing the rules here; never edit the output. The build needs no network.
 
 Why this source. The Congressional Directory prints no subcommittee in any edition from 1961 to Mar. 1971, and from
@@ -39,10 +38,12 @@ RULES
     whose surname reads most like it, at .7 of its letters (.65 for a name of four letters or fewer: 'Kyi', Kyl), of the line's party (MAJORITY, the Democrats in these
     Congresses), the State in parentheses settling two of a surname; else, of the chamber's roster at the opening,
     with "check". The chairman: the member of the subcommittee whose surname his line gives.
- 5. The subcommittee's name: its heading, each word put right against the words the Directories and the Digest print
-    (VOCAB: a word counted COMMON times there is kept; another goes to the word nearest it, at .62 of its letters, or
-    stays as read), in title case ("Subcommittee on Soil Conservation and
-    Forestry").
+ 5. The subcommittee's name: its heading, the word after SUBCOMMITTEE "on" (or "No." before a number), each other
+    word put right against VOCAB (WORDS, and the words of the Digest's committees and subcommittees, 1961-64: a word
+    counted COMMON times there is kept, another goes to the nearest, at .7 of its letters, the commoner of two near
+    alike, or stays as read), in title case; then, where one of the Digest's names of the committee's subcommittees
+    reads as it at .85 (not a numbered one), the Digest's; a numbered one whose number is lost or out of turn, the
+    number after the one before it; a word left unread, "check" ("Subcommittee on Soil Conservation and Forestry").
  6. The page: the edition's printed page (archive.org's page numbers), linked to the leaf.
 """
 import difflib
@@ -81,9 +82,6 @@ SMALL = {"0f": "of", "of": "of", "oh": "on", "0m": "on", "om": "on", "on": "on",
          "anq": "and", "an": "and", "the": "the", "to": "to",
          "for": "for", "in": "in", "no": "No."}
 LOWER = {"of", "on", "and", "the", "to", "for", "in", "a"}
-
-
-CDIR_TEXT = []        # the Directory's text files (make_cdir_committees.py's cache), set by main from CACHE_DIR/../cdir
 
 
 def fetch(ed, cache):
@@ -187,23 +185,66 @@ def committee_name(t, names):
     return best if score >= .75 else None
 
 
-def vocab():
-    """VOCAB (RULES 5): the words of the Digest's committees, subcommittees and headings, and of the Congressional
-    Directory's text (CDIR_TEXT, where given), with their counts."""
-    from collections import Counter
-    c = Counter()
-    for p in CDIR_TEXT:
-        if os.path.exists(p):
-            for w in re.findall(r"\b[A-Za-z][a-z]{2,}\b", open(p, encoding="utf-8", errors="replace").read()):
-                c[w.lower()] += 1
+def digest_rows():
+    """The Daily Digest's meetings of 1961-64 (daybook/committees/), for the words and the forms of RULES 5."""
+    out = []
     for f in sorted(os.listdir(os.path.join(ROOT, "daybook", "committees"))):
-        if not re.match(r"\d{4}-\d{2}\.yaml$", f):
-            continue
-        for x in (store.load_yaml(os.path.join(ROOT, "daybook", "committees", f)) or {}).get("docs") or []:
-            for t in (x.get("sub"), x.get("name"), x.get("heading")):
-                for w in re.findall(r"[A-Za-z]{3,}", t or ""):
-                    c[w.lower()] += 1
+        if re.match(r"196[1-4]-\d{2}\.yaml$", f):
+            out += (store.load_yaml(os.path.join(ROOT, "daybook", "committees", f)) or {}).get("docs") or []
+    return out
+
+
+# the words the committees' and subcommittees' names are made of, beside the Digest's own
+WORDS = ("subcommittee special select permanent general ad hoc legislative investigating consultative and of on the to "
+         "for in affairs agricultural agriculture appropriations armed services banking currency business commerce "
+         "communications conservation constitutional amendments credit dairy defense department departments "
+         "development district columbia economic education elections electrification employment european far east "
+         "eastern federal finance financial fiscal flood control foreign forests forestry freight government "
+         "grounds harbors health housing immigration independent offices indian institutions insurance interior "
+         "intergovernmental international investigations irrigation judicial judiciary justice labor lands "
+         "legislation library machinery manpower marketing military minerals materials fuels mines mining monopoly "
+         "national naturalization oversight parks patents trademarks copyrights policy postal power prices "
+         "privileges procurement production public reclamation related relations research retirement rivers roads "
+         "rules rural safety securities security small stabilization state statistics stockpile surface taxation "
+         "territories territorial insular tobacco trade transportation treasury veterans water watershed welfare "
+         "wheat wildlife cotton livestock feed grains oilseeds rice poultry operations organization reorganization "
+         "executive civil service census aviation antitrust claims bankruptcy revision laws merchant marine "
+         "fisheries coast guard geodetic survey navigation panama canal oceanography accounts printing enrolled "
+         "bills memorials buildings construction real estate central intelligence agency naval petroleum reserves "
+         "officer grade citations article status forces treaty conflict interest preparedness supplemental "
+         "deficiencies deficiency compensation pension pensions hospitals training scientific science space "
+         "sciences aeronautics astronautics regulatory agencies administrative procedure health compensation "
+         "charter holiday celebration penitentiaries internal juvenile delinquency refugees escapees railroad "
+         "unemployment migratory life benefits contested nominations standing smithsonian institution "
+         "distribution metals aid basic advertising growth opportunities matters affecting problems consider nasa "
+         "parking communities radiation applications tracking data acquisition manned flight budget foundations impact "
+         "their disarmament monetary south asian asia codification elderly automobile practices shortage retailing "
+         "financing taxes facilities activities wherry shipyard utilization donable property information submerged "
+         "imports electrical mechanical office equipment contracts natural resources legal staffing technology "
+         "automation regulations relationships inter american intermediate care africa europe near pacific review "
+         "programs board impact domestic family farms consumer departmental supplies extension forests livestock "
+         "equipment cooperation applications raw organizations disposal").split()
+
+
+def vocab(rows):
+    """VOCAB (RULES 5): the words of the Digest's committees and subcommittees (1961-64) and WORDS, with counts."""
+    from collections import Counter
+    c = Counter({w: COMMON for w in WORDS})
+    for x in rows:
+        for t in (x.get("sub"), x.get("name")):
+            for w in re.findall(r"[A-Za-z]{3,}", t or ""):
+                c[w.lower()] += 1
     return c
+
+
+def forms(rows):
+    """{(ch, code): Counter of the Digest's names of the committee's subcommittees} (RULES 5)."""
+    from collections import Counter
+    out = {}
+    for x in rows:
+        if x.get("sub"):
+            out.setdefault((x["ch"].lower(), x["code"]), Counter())[re.sub(r"[\s,.;:]+$", "", x["sub"])] += 1
+    return out
 
 
 COMMON = 12        # a word of VOCAB counted this often is a word, not the OCR's
@@ -218,39 +259,59 @@ def fix_word(w, V):
     if re.fullmatch(r"[a-z]+", lw) and V.get(lw, 0) >= COMMON:
         return lw
     near = 1 if len(lw) <= 4 else 2
-    best = difflib.get_close_matches(lw, [v for v in V if V[v] >= COMMON and abs(len(v) - len(lw)) <= near], 1, .62)
-    return best[0] if best else lw
+    import math
+    sc = [(difflib.SequenceMatcher(None, lw, v).ratio(), v) for v in V if V[v] >= COMMON and abs(len(v) - len(lw)) <= near]
+    sc = [(r + .02 * math.log10(V[v]), v) for r, v in sc if r >= .7]      # the nearer, then the commoner
+    return max(sc)[1] if sc else lw
 
 
-def sub_name(t, V):
-    """'Subcommittee on Soil Conservation and Forestry' from 'SWBCOMMITTH ON SOIL CONSEUVATiON AND FORESTRY'."""
+def sub_name(t, V, known=None):
+    """'Subcommittee on Soil Conservation and Forestry' from 'SWBCOMMITTH ON SOIL CONSEUVATiON AND FORESTRY'
+    (RULES 5): the word after SUBCOMMITTEE "on" (or "No." before a number); each word put right; then the Digest's
+    form of the name where one reads as it at .85."""
     t = re.sub(r"\(\s*[Cc]on\w*\s*\)", "", t)
     toks = re.findall(r"[A-Za-z0-9©$'&-]+|[.,()]", t)
     out = []
-    for w in toks:
+    for k, w in enumerate(toks):
         if re.fullmatch(r"[.,()]", w):
             out.append(w)
             continue
         if is_sub(w) and len(w) >= 9:
             out.append("subcommittee")
             continue
+        if out and out[-1] == "subcommittee" and len(letters(w)) <= 4 and letters(w) not in ("to", "for"):
+            nxt = next((x for x in toks[k + 1:] if not re.fullmatch(r"[.,()]", x)), "")
+            out.append("No." if re.fullmatch(r"[0-9IlTS§]{1,2}", nxt) else "on")
+            continue
+        if out and out[-1] == "No." and re.fullmatch(r"[0-9IlTS§]{1,2}", w):
+            out.append(w.translate(str.maketrans("IlTS§", "11755")))
+            continue
         if w == "&":
             out.append("and")
             continue
         out.append(fix_word(w.replace("©", "o").replace("$", "s"), V))
     s = " ".join(out)
-    s = re.sub(r"\s+([.,)])", r"\1", s).replace("( ", "(")
-    s = re.sub(r"\bno\.?\s+(\d)", r"No. \1", s, flags=re.I)
+    s = re.sub(r"\s+([.,)])", r"\1", s).replace("( ", "(").replace("No.. ", "No. ").replace("No. .", "No.")
+    s = re.sub(r"\s+", " ", s).strip(" -")
     words = s.split(" ")
     res = []
     for i, w in enumerate(words):
-        if w.startswith("No."):
-            res.append(w)
-        elif i and w in LOWER:
+        if w.startswith("No.") or (i and w in LOWER):
             res.append(w)
         else:
             res.append("-".join(p[:1].upper() + p[1:] for p in w.split("-")))
-    return " ".join(res).replace("Subcommittee No. ", "Subcommittee No. ")
+    name = " ".join(res)
+    if known:
+        best, score = None, 0
+        for f, n in known.most_common():
+            r = max(difflib.SequenceMatcher(None, letters(name), letters(f)).ratio(),
+                    difflib.SequenceMatcher(None, letters(t), letters(f)).ratio())
+            if r > score + .001:
+                best, score = f, r
+        if best and score >= .85 and "No." not in name and "No." not in best and re.match(r"(?i)(?:special |select |permanent |general |ad hoc )*subcommittee",
+                                                best):
+            return best
+    return name
 
 
 # ---------------------------------------------------------------- the members (RULES 4)
@@ -360,7 +421,8 @@ def parse(c, ed, pg, nums, names, members, rosters, V):
             if comm and is_sub(t):
                 if re.search(r"(?i)[(-]\s*c\w*n\w*\s*\)?", t) and sub:
                     continue
-                if re.search(r"(?i)SUBCOMM\w*ES\b|SENATOR|\bRE[PF]\.|STAFFS|REPRESENTATIVE", t) or \
+                if re.search(r"(?i)SUBCOMM\w*ES\b|SENATOR|\bRE[PF]\.|STAFFS|REPRESENTATIVE|\bASS\w{0,3}N\w*|"
+                             r"COMM\w* A\w{2} SU", t) or \
                         re.match(r"^\W*AND\b", t):
                     continue      # the members' assignments pages, a running head: not a subcommittee
                 close()
@@ -426,6 +488,17 @@ def parse(c, ed, pg, nums, names, members, rosters, V):
                 names_ = [(cur_ch or "s", tk) for tk in tokens(tail)]
             col = "D" if side == "maj" else "R"
             got = []
+            split = []
+            for chm, tk in names_:        # 'Patman Reuss': two surnames the OCR ran together, each a member
+                ws_ = tk.split()
+                pool = members.get((comm["code"], chm), [])
+                if len(ws_) == 2 and all(re.fullmatch(r"[A-Z][a-z'’-]{3,}", w_) for w_ in ws_) and all(
+                        any(difflib.SequenceMatcher(None, store.fold(w_), store.fold(surname(m_["name"]))).ratio()
+                            >= .8 for m_ in pool) for w_ in ws_):
+                    split += [(chm, w_) for w_ in ws_]
+                else:
+                    split.append((chm, tk))
+            names_ = split
             for chm, tk in names_:
                 pool = [m_ for m_ in members.get((comm["code"], chm), [])]
                 m_, why = match(tk, pool, col, rosters[chm])
@@ -440,7 +513,8 @@ def parse(c, ed, pg, nums, names, members, rosters, V):
                     rec["check"] = why
                 got.append(rec)
             sub["members"] += got
-            sub.setdefault("printed_counts", {})[side] = n
+            pc = sub.setdefault("printed_counts", {})       # a joint committee's two lines a side: summed
+            pc[side] = None if n is None or (side in pc and pc[side] is None) else (pc.get(side) or 0) + n
             continue
         if sub is not None and not sub["members"] and re.search(r"(?i)c\W?h?\W?\w{0,3}a?\w{0,2}i?\w{0,2}rm|"
                                                                    r"\([DR]\W", t):
@@ -498,9 +572,8 @@ def main(cache):
     os.makedirs(cache, exist_ok=True)
     cm = store.load_yaml(os.path.join(ROOT, "congress", "committees.yaml")) or {}
     cd = store.load_yaml(os.path.join(ROOT, "congress", "committees-cdir.yaml")) or {}
-    if len(sys.argv) > 2:
-        CDIR_TEXT.extend(os.path.join(sys.argv[2], f) for f in sorted(os.listdir(sys.argv[2])) if f.endswith(".layout.txt"))
-    V = vocab()
+    rows = digest_rows()
+    V, F = vocab(rows), forms(rows)
     data, eds = {}, {}
     for c, ed in sorted(EDITIONS.items()):
         f = fetch(ed, cache)
@@ -529,9 +602,23 @@ def main(cache):
         finish(c, d, rosters)
         for ch in d:
             for code in d[ch]:
+                last = 0
                 for s in d[ch][code]:
-                    s["name"] = sub_name(s["printed"], V)
+                    s["name"] = sub_name(s["printed"], V, F.get((ch, code)))
                     s["url"] = LEAF.format(id=ed["id"], n=s["leaf"] - 1)
+                    # a numbered subcommittee whose number the OCR lost: the one after the last (RULES 5)
+                    m = re.match(r"^Subcommittee\s+(?:No|On|N)\.*\s*(\S*)(.*)$", s["name"])
+                    if m and re.match(r"(?i)\W*S\W?[UWYOE]\W?[BE]\w*\s+N\W?[O0]?\W", s["printed"] + " "):
+                        num = int(m.group(1)) if m.group(1).isdigit() and int(m.group(1)) == last + 1 else last + 1
+                        if not (m.group(1).isdigit() and int(m.group(1)) == num):
+                            s.setdefault("check", "")
+                            s["check"] = (s["check"] + " " if s["check"] else "") + f"number placed by order: {num}"
+                        last = num
+                        s["name"] = f"Subcommittee No. {num}" + (m.group(2) if m.group(2).strip()[:2] == "on" else "")
+                    odd = [w for w in re.findall(r"[A-Za-z]+", s["name"]) if w.lower() not in V and
+                           w.lower() not in SMALL and w not in ("No",)]
+                    if odd:
+                        s["check"] = ((s.get("check") or "") + " name not settled: " + " ".join(odd)).strip()
         data[c] = d
         eds[c] = {"title": ed["title"], "id": ed["id"], "url": f"https://archive.org/details/{ed['id']}"}
     write(data, eds)

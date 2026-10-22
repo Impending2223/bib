@@ -40,7 +40,8 @@ the folios and the pictures):
     first page headed "Appendix".
  4. Paragraphs: a new one where a line is indented (more than 0.6 of the body size past its column's left edge),
     where the type size changes, after a heading, and for a line set off (indented more than a third of the column:
-    `s`). Lines joined with a space; a line ending in a soft hyphen (ABBYY's mark of a word broken at the line's end)
+    `s`), but not for a line opening lower case after one that does not end a sentence (a list item's hanging
+    line); a bracketed note opening a paragraph stands apart. Lines joined with a space; a line ending in a soft hyphen (ABBYY's mark of a word broken at the line's end)
     joined without it; a line ending in a hyphen joined keeping it, unless the volumes print the word whole more
     often than hyphenated; a line ending in a dash joined without a space.
  5. Misreadings put right by rule, each counted in rules.json: digits read as letters inside a number ("I961",
@@ -49,7 +50,9 @@ the folios and the pictures):
     marks ('‘I', '|') alone on a line. Nothing else is guessed: a misreading no rule meets stands, as printed.
  6. Notes: a small-type paragraph opening "NOTE:" (ABBYY reads the small capitals "note:") begins the editors'
     note, and what follows in the item is note. A small-type paragraph before it opening with a mark ("*", "1") is a
-    footnote; any other is `q`. A body paragraph in square brackets (not a news conference's "[1.]") is `b`.
+    footnote, moved with the small type after it to the item's end (the paragraph it cut at a column's foot joined
+    again); any other is `q`. A speaker's name in small capitals that ABBYY reads lower case ("the president.") is
+    set in capitals. A body paragraph in square brackets (not a news conference's "[1.]") is `b`.
  7. Pages: the folios read (the bottom line's number, misread digits allowed) give each PDF page's offset, kept
     where it is the commonest offset of the folios read within ten pages and three agree; a page whose folio is not
     read, or not kept, takes the offset of the kept pages on either side where they agree, else the nearer.
@@ -341,8 +344,8 @@ def page_parts(W, H, ws, body_h, head_y, surname):
             rows = rows[1:]
     # the printer's signature mark ('715-406 0—64—2'), at the foot of a signature's first page
     for yc, r in list(rows[-2:]):
-        if yc > H * .8 and any(re.match(r"^\d{3}[-—–]\d{3}", w[4]) for w in r):
-            k = next(i for i, w in enumerate(r) if re.match(r"^\d{3}[-—–]\d{3}", w[4]))
+        if yc > H * .8 and any(re.match(r"^\d{2,3}[-—–]\d{3}", w[4]) for w in r):
+            k = next(i for i, w in enumerate(r) if re.match(r"^\d{2,3}[-—–]\d{3}", w[4]))
             RULES["printer's signature mark dropped"] += 1
             ws = [w for w in ws if w not in r[k:]]
             rows = rows_of(ws) if ws else []
@@ -739,7 +742,10 @@ def read_volume(pkg, pages, V, surname, span, start=1):
             if setoff:
                 kind = "n" if note else "s"
             across = pos == "S"
-            if para is None or para[0] != kind or setoff or para[0] == "s" or indent > body_h * .6 \
+            hanging = (para is not None and para[0] == kind and t[:1].islower() and para[1]
+                       and not re.search(r"[.?!:]$", para[1][-1]))        # a list item's hanging line
+            if para is None or para[0] != kind or (setoff and not hanging) or para[0] == "s" \
+                    or (indent > body_h * .6 and not hanging) \
                     or (para_pos is not None and (para_pos == "S") != across):
                 close_para()
                 para = [kind, []]
@@ -773,6 +779,7 @@ def read_volume(pkg, pages, V, surname, span, start=1):
             if kind == "n" and re.match(r"^(\[p\. \d+\] )?\W{0,2}note\s*[:;.]\s*", t, re.I):
                 t = re.sub(r"^((?:\[p\. \d+\] )?)\W{0,2}note\s*[:;.]\s*", r"\1NOTE: ", t, flags=re.I)
             blocks.append([kind, t])
+        blocks = tidy(blocks)
         # the marker of the item's first page first (STYLE: every item's first block begins with it)
         mk = f"[p. {it['page']}]" if it["page"] is not None else None
         if mk and blocks and not blocks[0][1].startswith(mk):
@@ -801,6 +808,51 @@ def read_volume(pkg, pages, V, surname, span, start=1):
 
 
 SOFT = "\xad"
+MK = re.compile(r"^((?:\[p\. \d+\] ?)*)")
+SPEAKER = re.compile(r"^((?:\[p\. \d+\] )?)((?:the (?:vice )?president|mr\.|mrs\.|miss|secretary|senator|"
+                     r"ambassador|governor|mayor|general|admiral)(?: [a-z][a-z’'.-]+){0,2})\.\s")
+
+
+def tidy(blocks):
+    """An item's blocks put in order (STYLE 4, 6): a speaker's name in small capitals that ABBYY read lower case
+    ("the president.") in capitals, its line body text; a bracketed note opening a paragraph ("[Released May 16, 1960.
+    Dated May 14, 1960]") a block of its own; the footnotes (and the small type running on from them) moved from where
+    the page's foot put them to the item's end, the paragraph they cut joined again."""
+    out = []
+    for k, t in blocks:
+        m = SPEAKER.match(t)
+        if m and k in ("p", "q"):
+            RULES["a speaker's small capitals read lower case, set in capitals"] += 1
+            t = m.group(1) + m.group(2).upper() + ". " + t[m.end():]
+            k = "p"
+        m = re.match(r"^((?:\[p\. \d+\] )?)(\[(?!\d+\.\])[^\[\]]{4,200}\])\s+(\S.*)$", t)
+        if m and k == "p":
+            out.append(["b", m.group(1) + re.sub(r"\[\s+", "[", re.sub(r"\s+\]", "]", m.group(2)))])
+            out.append(["p", m.group(3)])
+            continue
+        out.append([k, t])
+    body, feet, i = [], [], 0
+    while i < len(out):
+        k, t = out[i]
+        if k == "f":
+            j = i + 1
+            while j < len(out) and out[j][0] in ("f", "q"):
+                j += 1
+            mk = "".join(MK.match(x[1]).group(1) for x in out[i:j])
+            feet += [[x[0], x[1][len(MK.match(x[1]).group(1)):]] for x in out[i:j]]
+            nxt = out[j] if j < len(out) else None
+            if nxt and mk:
+                nxt[1] = mk.strip() + " " + nxt[1]
+            if body and nxt and body[-1][0] == "p" and nxt[0] == "p" and not re.search(r"[.?!:”\"’)\]]$", body[-1][1]) \
+                    and not re.match(r"^(\[p\. \d+\] )?[\[“\"]|^(\[p\. \d+\] )?Q\.", nxt[1]):
+                body[-1][1] += " " + nxt[1]           # the paragraph the foot of the column cut
+                j += 1
+            RULES["footnotes moved to the item's end"] += 1
+            i = j
+            continue
+        body.append([k, t])
+        i += 1
+    return body + feet
 
 
 def fix_line(t, V):

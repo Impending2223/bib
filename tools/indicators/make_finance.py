@@ -8,13 +8,18 @@ given today.
 #   YAML, and rerun. A series whose figures today cannot be fetched keeps none ('now' left out); rerunning when the
 #   source answers fills them.
 #
-# Sources then (each block below names its pages):
-#   ERP   Economic Report of the President, read off FRASER's scans of each January's Report (ERP_<year>.pdf, the printed
-#         page plus 6 in 1965-69): the FHA new-home mortgage yields (Table B-54, "Bond yields and interest rates"),
-#         printed from the Report of Feb. 1968 on.
-# Sources today:
-#   FRED  AAA, BAA (Moody's, monthly averages; not revised); the Board's H.6 (M1, M2) and H.3 (total and required
-#         reserves, borrowings) from its Data Download Program, the figures FRED carries as M1SL, M2SL and NFORBRES.
+# Sources then (each block below names its tables and pages): the Economic Report of the President, each January's
+#   (February in 1968), read off FRASER's scans (ERP_<year>.pdf: the printed page plus 8 in 1962 and 1964, plus 30 in
+#   1963, plus 6 in 1965-69), the Reports of Jan. 1962 to Jan. 1969: the money stock (M1, M1 and time deposits), free
+#   reserves, reserve assets, the trade balances by quarter, the debt's holders and average length, FHA new-home
+#   yields (from the Feb. 1968 Report). For these 'first' is the figure as the next Report tabled it, as for the
+#   Reports' series in make_indicators.py; the first printings (the Federal Reserve Bulletin, the Survey of Current
+#   Business, the Treasury Bulletin) were not reachable when this was read (notes/leads.md, "Money, the foreign
+#   accounts, the debt's terms"), nor the exchange rates, the London gold price, the liabilities to foreign official
+#   holders, the debt's average interest rate and conventional mortgage rates, which have no series yet.
+# Sources today: FRED's public CSVs: AAA, BAA (Moody's, not revised: one figure), NFORBRES, TRESEGUSM052N, BOPBM and
+#   BOPBGS (discontinued; times four for annual rates), ULCNFB and COMPNFB (nonfarm business, today only); the Board's
+#   Data Download Program for H.6 (M1, M2: FRED's M1SL and M2SL are its copies) and, where FRED fails, H.3.
 """
 import csv, io, json, os, re, sys, time, urllib.request, zipfile
 import yaml
@@ -559,6 +564,179 @@ ERP69/Table B-84, p. 324 1968Q2 20/2368
 ERP69/Table B-84, p. 324 1968Q3 1048/3512
 """
 
+# Ownership of the debt, end of month, billions: TOTAL/TRUST/FED/PRIVATE, as the next January's Report tabled it
+# ("Estimated ownership of U.S. Government obligations"; from the Jan. 1969 Report "... of public debt securities",
+# the public debt alone, guaranteed issues out and its Government accounts on the new budget's concept): the total, held by
+# U.S. Government investment accounts (the trust funds), held by the Federal Reserve Banks, held by private investors
+# (the Reports of 1962 and 1963 print "held by the public", the Reserve Banks within it: private is that less the
+# Reserve Banks, computed). Each month's parts found to add to the total within 0.1. No column for foreign holders
+# (within "miscellaneous investors"). Read off the page images at 210 dpi.
+OWN = """
+ERP62/Table B-53, p. 270 1961-01 290.2/54.6/26.6/209.0 prior=290.4/55.1/27.4/207.9
+ERP62/Table B-53, p. 270 1961-02 290.7/54.5/26.7/209.6
+ERP62/Table B-53, p. 270 1961-03 287.7/54.9/26.7/206.1
+ERP62/Table B-53, p. 270 1961-04 288.2/54.0/26.8/207.4
+ERP62/Table B-53, p. 270 1961-05 290.4/55.5/26.9/208.0
+ERP62/Table B-53, p. 270 1961-06 289.2/56.1/27.3/205.8
+ERP62/Table B-53, p. 270 1961-07 292.6/55.2/27.4/210.0
+ERP62/Table B-53, p. 270 1961-08 294.0/56.5/27.7/209.8
+ERP62/Table B-53, p. 270 1961-09 294.0/55.9/27.8/210.3
+ERP62/Table B-53, p. 270 1961-10 296.0/55.0/28.3/212.7
+ERP62/Table B-53, p. 270 1961-11 297.3/55.4/29.2/212.7
+ERP62/Table B-53, p. 270 1961-12 296.5/54.5/28.9/213.1
+ERP63/Table C-54, p. 236 1962-01 296.9/53.8/28.5/214.6 prior=296.5/54.5/28.9/213.1
+ERP63/Table C-54, p. 236 1962-02 297.4/54.2/28.4/214.8
+ERP63/Table C-54, p. 236 1962-03 296.5/54.5/29.1/212.9
+ERP63/Table C-54, p. 236 1962-04 297.4/53.7/29.2/214.4
+ERP63/Table C-54, p. 236 1962-05 299.6/55.9/29.6/214.1
+ERP63/Table C-54, p. 236 1962-06 298.6/56.5/29.7/212.4
+ERP63/Table C-54, p. 236 1962-07 298.3/55.5/29.8/213.0
+ERP63/Table C-54, p. 236 1962-08 302.3/57.1/30.4/214.9
+ERP63/Table C-54, p. 236 1962-09 300.0/56.4/29.8/213.8
+ERP63/Table C-54, p. 236 1962-10 302.6/56.1/30.2/216.3
+ERP63/Table C-54, p. 236 1962-11 305.9/57.9/30.5/217.5
+ERP63/Table C-54, p. 236 1962-12 304.0/55.6/30.8/217.6
+ERP64/Table C-54, p. 272 1963-01 303.9/54.5/30.3/219.1 prior=304.0/55.6/30.8/217.6
+ERP64/Table C-54, p. 272 1963-02 305.2/55.1/30.6/219.5
+ERP64/Table C-54, p. 272 1963-03 303.5/55.1/31.0/217.4
+ERP64/Table C-54, p. 272 1963-04 303.7/54.3/31.2/218.2
+ERP64/Table C-54, p. 272 1963-05 305.8/57.1/31.3/217.4
+ERP64/Table C-54, p. 272 1963-06 306.5/58.4/32.0/216.1
+ERP64/Table C-54, p. 272 1963-07 305.5/57.1/32.5/215.9
+ERP64/Table C-54, p. 272 1963-08 307.2/58.9/32.4/215.9
+ERP64/Table C-54, p. 272 1963-09 307.3/58.3/32.6/216.4
+ERP64/Table C-54, p. 272 1963-10 307.1/57.2/32.8/217.2
+ERP64/Table C-54, p. 272 1963-11 308.9/57.7/33.7/217.5
+ERP64/Table C-54, p. 272 1963-12 310.1/58.1/33.6/218.4
+ERP65/Table B-56, p. 256 1964-01 309.3/56.5/32.8/220.0 prior=310.1/58.0/33.6/218.5
+ERP65/Table B-56, p. 256 1964-02 311.1/57.5/33.2/220.5
+ERP65/Table B-56, p. 256 1964-03 310.4/57.6/33.8/219.0
+ERP65/Table B-56, p. 256 1964-04 308.4/56.1/33.2/219.1
+ERP65/Table B-56, p. 256 1964-05 312.3/59.4/34.2/218.8
+ERP65/Table B-56, p. 256 1964-06 312.5/61.1/34.8/216.6
+ERP65/Table B-56, p. 256 1964-07 312.0/59.9/35.1/217.0
+ERP65/Table B-56, p. 256 1964-08 314.9/61.8/35.2/218.0
+ERP65/Table B-56, p. 256 1964-09 316.5/61.8/35.4/219.3
+ERP65/Table B-56, p. 256 1964-10 316.5/60.5/35.7/220.2
+ERP65/Table B-56, p. 256 1964-11 319.3/61.2/36.8/221.4
+ERP65/Table B-56, p. 256 1964-12 318.7/60.6/37.0/221.1
+ERP66/Table C-55, p. 274 1965-01 318.6/59.1/36.7/222.8 prior=318.7/60.6/37.0/221.1
+ERP66/Table C-55, p. 274 1965-02 320.6/60.4/36.9/223.3
+ERP66/Table C-55, p. 274 1965-03 318.4/60.7/37.6/220.2
+ERP66/Table C-55, p. 274 1965-04 317.2/59.2/37.8/220.3
+ERP66/Table C-55, p. 274 1965-05 319.8/62.7/38.7/218.5
+ERP66/Table C-55, p. 274 1965-06 317.9/63.4/39.1/215.4
+ERP66/Table C-55, p. 274 1965-07 317.1/62.3/39.2/215.6
+ERP66/Table C-55, p. 274 1965-08 318.7/64.8/39.0/214.9
+ERP66/Table C-55, p. 274 1965-09 317.3/63.6/39.8/213.9
+ERP66/Table C-55, p. 274 1965-10 319.4/62.3/39.7/217.5
+ERP66/Table C-55, p. 274 1965-11 322.2/62.8/40.6/218.8
+ERP66/Table C-55, p. 274 1965-12 321.4/61.9/40.8/218.7
+ERP67/Table B-57, p. 280 1966-01 322.4/60.0/40.6/221.9 prior=321.4/61.9/40.8/218.7
+ERP67/Table B-57, p. 280 1966-02 323.7/61.7/40.2/221.9
+ERP67/Table B-57, p. 280 1966-03 321.5/61.7/40.7/219.0
+ERP67/Table B-57, p. 280 1966-04 320.1/60.5/40.7/218.9
+ERP67/Table B-57, p. 280 1966-05 322.8/64.5/41.5/216.9
+ERP67/Table B-57, p. 280 1966-06 320.4/66.7/42.2/211.5
+ERP67/Table B-57, p. 280 1966-07 319.8/66.4/42.4/211.0
+ERP67/Table B-57, p. 280 1966-08 324.9/69.3/42.5/213.1
+ERP67/Table B-57, p. 280 1966-09 325.2/69.2/42.9/213.2
+ERP67/Table B-57, p. 280 1966-10 327.4/68.0/43.0/216.4
+ERP67/Table B-57, p. 280 1966-11 329.9/68.9/43.9/217.1
+ERP67/Table B-57, p. 280 1966-12 329.8/68.8/44.3/216.8
+ERP68/Table B-65, p. 286 1967-01 329.4/68.2/43.5/217.6 prior=329.8/68.8/44.3/216.8
+ERP68/Table B-65, p. 286 1967-02 330.1/69.6/44.0/216.6
+ERP68/Table B-65, p. 286 1967-03 331.5/70.7/44.9/215.9
+ERP68/Table B-65, p. 286 1967-04 328.3/70.4/45.5/212.4
+ERP68/Table B-65, p. 286 1967-05 331.4/74.6/46.1/210.8
+ERP68/Table B-65, p. 286 1967-06 326.7/75.8/46.7/204.2
+ERP68/Table B-65, p. 286 1967-07 331.2/75.5/46.8/208.9
+ERP68/Table B-65, p. 286 1967-08 336.4/77.2/46.6/212.6
+ERP68/Table B-65, p. 286 1967-09 336.4/76.4/46.9/213.1
+ERP68/Table B-65, p. 286 1967-10 341.0/75.9/47.4/217.7
+ERP68/Table B-65, p. 286 1967-11 345.6/76.2/48.9/220.5
+ERP68/Table B-65, p. 286 1967-12 345.2/76.0/49.1/220.1
+ERP69/Table B-65, p. 303 1968-01 346.3/71.9/49.1/225.3 prior=344.7/73.1/49.1/222.4
+ERP69/Table B-65, p. 303 1968-02 351.6/73.4/49.0/229.2
+ERP69/Table B-65, p. 303 1968-03 349.5/72.9/49.7/226.8
+ERP69/Table B-65, p. 303 1968-04 347.0/73.2/50.5/223.3
+ERP69/Table B-65, p. 303 1968-05 352.3/75.8/50.6/225.9
+ERP69/Table B-65, p. 303 1968-06 347.6/76.2/52.2/219.2
+ERP69/Table B-65, p. 303 1968-07 351.1/75.6/52.4/223.0
+ERP69/Table B-65, p. 303 1968-08 354.4/76.9/53.0/224.4
+ERP69/Table B-65, p. 303 1968-09 354.7/76.6/53.3/224.9
+ERP69/Table B-65, p. 303 1968-10 357.2/76.2/53.3/227.7
+ERP69/Table B-65, p. 303 1968-11 356.9/76.6/53.4/226.9
+ERP69/Table B-65, p. 303 1968-12 358.0/76.5/52.9/228.6
+"""
+
+# Average length of the marketable interest-bearing public debt, end of month, in months (printed in years and
+# months): the Reports of Jan. 1962 and 1963 (1961, 1962) and of Feb. 1968 and Jan. 1969 (1966-67, 1968),
+# "Average length and maturity distribution of marketable interest-bearing public debt". The Reports of 1964-67 print
+# no such table: 1963-65 not read (notes/leads.md). Dec. 1960 4 yr 7 mo; Dec. 1967 in the 1969 Report 4 yr 1 mo.
+MATURITY = """
+ERP62/Table B-54, p. 271 1961-01 54 prior=55
+ERP62/Table B-54, p. 271 1961-02 54
+ERP62/Table B-54, p. 271 1961-03 55
+ERP62/Table B-54, p. 271 1961-04 54
+ERP62/Table B-54, p. 271 1961-05 54
+ERP62/Table B-54, p. 271 1961-06 54
+ERP62/Table B-54, p. 271 1961-07 52
+ERP62/Table B-54, p. 271 1961-08 53
+ERP62/Table B-54, p. 271 1961-09 56
+ERP62/Table B-54, p. 271 1961-10 55
+ERP62/Table B-54, p. 271 1961-11 56
+ERP62/Table B-54, p. 271 1961-12 55
+ERP63/Table C-55, p. 237 1962-01 54 prior=55
+ERP63/Table C-55, p. 237 1962-02 55
+ERP63/Table C-55, p. 237 1962-03 59
+ERP63/Table C-55, p. 237 1962-04 58
+ERP63/Table C-55, p. 237 1962-05 59
+ERP63/Table C-55, p. 237 1962-06 59
+ERP63/Table C-55, p. 237 1962-07 58
+ERP63/Table C-55, p. 237 1962-08 58
+ERP63/Table C-55, p. 237 1962-09 60
+ERP63/Table C-55, p. 237 1962-10 59
+ERP63/Table C-55, p. 237 1962-11 59
+ERP63/Table C-55, p. 237 1962-12 59
+ERP68/Table B-66, p. 287 1966-01 58
+ERP68/Table B-66, p. 287 1966-02 59
+ERP68/Table B-66, p. 287 1966-03 59
+ERP68/Table B-66, p. 287 1966-04 58
+ERP68/Table B-66, p. 287 1966-05 59
+ERP68/Table B-66, p. 287 1966-06 59
+ERP68/Table B-66, p. 287 1966-07 58
+ERP68/Table B-66, p. 287 1966-08 59
+ERP68/Table B-66, p. 287 1966-09 58
+ERP68/Table B-66, p. 287 1966-10 56
+ERP68/Table B-66, p. 287 1966-11 56
+ERP68/Table B-66, p. 287 1966-12 55
+ERP68/Table B-66, p. 287 1967-01 54
+ERP68/Table B-66, p. 287 1967-02 54
+ERP68/Table B-66, p. 287 1967-03 53
+ERP68/Table B-66, p. 287 1967-04 53
+ERP68/Table B-66, p. 287 1967-05 54
+ERP68/Table B-66, p. 287 1967-06 55
+ERP68/Table B-66, p. 287 1967-07 53
+ERP68/Table B-66, p. 287 1967-08 53
+ERP68/Table B-66, p. 287 1967-09 52
+ERP68/Table B-66, p. 287 1967-10 50
+ERP68/Table B-66, p. 287 1967-11 50
+ERP68/Table B-66, p. 287 1967-12 49
+ERP69/Table B-66, p. 304 1968-01 48 prior=49
+ERP69/Table B-66, p. 304 1968-02 49
+ERP69/Table B-66, p. 304 1968-03 48
+ERP69/Table B-66, p. 304 1968-04 48
+ERP69/Table B-66, p. 304 1968-05 49
+ERP69/Table B-66, p. 304 1968-06 50
+ERP69/Table B-66, p. 304 1968-07 48
+ERP69/Table B-66, p. 304 1968-08 50
+ERP69/Table B-66, p. 304 1968-09 49
+ERP69/Table B-66, p. 304 1968-10 48
+ERP69/Table B-66, p. 304 1968-11 49
+ERP69/Table B-66, p. 304 1968-12 48
+"""
+
 
 def parse(block, fields=None):
     """{period: {'v': value or {field: value}, 'src': key, 'where': text, 'prior': value, 'note': text}}"""
@@ -854,9 +1032,26 @@ def costs():
                     'now': {'label': label, 'unit': '2017=100', 'source': f'FRED {fid}', 'url': FRED + fid}}, rows)
 
 
+def debt():
+    """The ownership and the average length of the debt, as the Reports tabled them; no figure today."""
+    if want('debt-ownership'):
+        first = first_rows(parse(OWN, ['total', 'trust', 'fed', 'private']), 'billions of dollars', None)
+        write('debt-ownership', {'id': 'debt-ownership', 'name': 'Ownership of the federal debt', 'freq': 'M', 'manual': True,
+                                 'change': 'none', 'fields': ['fed', 'trust', 'private', 'total'],
+                                 'then': {'label': 'Treasury: the public debt and guaranteed issues (from the Jan. 1969 Report the public debt alone) by holder, end of month, par values', 'unit': 'billions of dollars'},
+                                 'now': None}, [dict(p=p, **first[p]) for p in MSPAN if p in first])
+    if want('debt-maturity'):
+        first = first_rows(parse(MATURITY), 'months', 'diff')
+        write('debt-maturity', {'id': 'debt-maturity', 'name': 'Average length of the marketable debt', 'freq': 'M', 'manual': True,
+                                'change': 'diff',
+                                'then': {'label': 'Treasury: average length of the marketable interest-bearing public debt, end of month, years and months', 'unit': 'months'},
+                                'now': None}, [dict(p=p, **first[p]) for p in MSPAN if p in first])
+
+
 if __name__ == '__main__':
     rates()
     money()
     international()
     balances()
     costs()
+    debt()

@@ -10,15 +10,16 @@ STYLE (settled; keep it, and the indicators' STYLE in tools/bib/indicators.py):
  1. Money and credit, in the indicators table (the money stock, free reserves): "$153.3bn, +0.4%" (the money stock, the
     change from the month before in percent, not annualized, as the CPI's); "$84m, −$78m" (free reserves: excess
     reserves less borrowings, in millions, the change in millions; net borrowed reserves are negative). Each column
-    in its own figures: the first's change from the month before as printed in the same issue.
+    in its own figures: the first's change from the month before as printed in the same table (the December before
+    from the same Report, for January).
  2. Yields and mortgage rates are rates (kind: rate): one figure each, in the Money and credit table (indicators STYLE
     13): "4.41%, +0.02 pt". Moody's as FRED gives them (not revised); the mortgage rates as first printed.
  3. International, in $bn, bare (indicators STYLE 10): reserve assets stacked, Gold, Currencies, IMF, Total, Change,
     two decimals as the gold stock (their monthly changes run to tens of millions); today's, the IMF's reserves less
     gold (then the currencies and the IMF position together), "Excl. gold" and its change. Liquid liabilities to foreign official holders, Liabilities and Change, one decimal.
     The balances on goods and services stacked: Merchandise, Goods and services, Change (of the second), one decimal;
-    quarterly, seasonally adjusted, the quarter's own figure (not at an annual rate), the change from the quarter
-    before in $bn.
+    quarterly, seasonally adjusted annual rates as the Reports print them (today's quarterly figures times four), the
+    change from the quarter before in $bn.
  4. Exchange rates and the London gold price: not revised, so one figure each, in a table of their own under the
     indicators (and under Oil), before Money and credit, set off by the same double rule, caption "Exchange rates and
     gold": Rate | As first reported | Released. The noon buying rate in New York, monthly average, in cents a unit of
@@ -27,8 +28,8 @@ STYLE (settled; keep it, and the indicators' STYLE in tools/bib/indicators.py):
     note).
  5. Federal debt ($bn in the group's header): the average interest rate, three decimals as the Treasury printed it,
     "3.285%", its change in points; the average length of the marketable debt in years and months, "4 yr 11 mo", its
-    change in months; ownership stacked, Federal Reserve, Trust funds (the Government's investment accounts), Foreign
-    (foreign and international), one decimal, $bn.
+    change in months; ownership stacked, Federal Reserve, Trust funds (the Government's investment accounts), Total,
+    one decimal, $bn, no change (the private holders kept in the data for the check).
  6. Output per man-hour's companions (unit labor cost, compensation per man-hour), quarterly indexes: the indicators'
     default form, "112.3 (1957–59=100), +3.4% ar"; not handled here.
 """
@@ -45,7 +46,7 @@ ALL = SERIES + COSTS                               # every series make_finance.p
 DEFS = {k: v for k, v in concepts.master_texts().items() if k in ALL}
 MINUS = "−"
 FX_UNIT = {"fx-sterling": "per pound", "fx-mark": "per mark", "fx-franc": "per franc"}
-OWN = (("fed", "Federal Reserve"), ("trust", "Trust funds"), ("foreign", "Foreign"))
+OWN = (("fed", "Federal Reserve"), ("trust", "Trust funds"), ("total", "Total"))
 RES = (("gold", "Gold"), ("currencies", "Currencies"), ("imf", "IMF"), ("total", "Total"))
 GS = (("merchandise", "Merchandise"), ("goods_services", "Goods and services"))
 
@@ -174,8 +175,11 @@ def problems(data):
                 if abs(parts - f["total"]) > 1.5:
                     out.append((sid, f"{r['p']}: gold, currencies and IMF ({parts}) do not make the total "
                                      f"({f['total']}); a misreading?"))
-            if sid == "debt-ownership" and not isinstance(f, dict):
-                out.append((sid, f"{r['p']}: ownership not stacked"))
-            if sid == "goods-services" and not isinstance(f, dict):
+            if sid == "debt-ownership":
+                if not isinstance(f, dict) or None in [f.get(k) for k in ("total", "trust", "fed", "private")]:
+                    out.append((sid, f"{r['p']}: ownership lacks a part"))
+                elif abs(f["trust"] + f["fed"] + f["private"] - f["total"]) > 0.15:
+                    out.append((sid, f"{r['p']}: holders do not make the total; a misreading?"))
+            if sid == "goods-services" and (not isinstance(f, dict) or f.get("goods_services") is None):
                 out.append((sid, f"{r['p']}: balances not stacked"))
     return out

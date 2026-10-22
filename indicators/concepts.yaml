@@ -489,23 +489,25 @@ series:
   money-m1: >-
     The Board of Governors' money supply: currency outside the Treasury, the Federal Reserve and the vaults of
     commercial banks, and demand deposits at commercial banks other than interbank and Government deposits, less cash
-    items in collection and Federal Reserve float; averages of daily figures, seasonally adjusted. {{..1962-08|As tabled
-    in the next *Economic Report*: }}{{..1961|the series before the Board's revision of Aug. 1962, in [Jan.
-    1962]({ERP62}), Table B-44, p. 260 (December preliminary); }}{{1962-01..1962-08|the revised series (the *Federal
-    Reserve Bulletin*, Aug. 1962), in [Jan. 1963]({ERP63}), Table C-45, p. 226, its January change from its own Dec.
-    1961 (145.7); }}{{1962-09..|as the [*Survey of Current Business*]({SCB}) first printed the Board's figure, in its
-    monthly pages, the month after; the change from the month before as printed in the same issue. }}Today: the Board's
-    M1 (H.6, [FRED M1SL]({F}M1SL)), which adds travelers checks and is revised for later benchmarks and seasonal
-    factors.
+    items in collection and Federal Reserve float; averages of daily figures, seasonally adjusted. As first reported
+    here means as tabled in the next *Economic Report* ("Money supply"), its December preliminary:
+    {{..1961|[Jan. 1962]({ERP62}), Table B-44, p. 260, the series before the Board's revision of Aug. 1962; }}{{1962|[Jan.
+    1963]({ERP63}), Table C-45, p. 226, the revised series, January's change from its own Dec. 1961 (145.7); }}{{1963|[Jan.
+    1964]({ERP64}), Table C-45, p. 262; }}{{1964|[Jan. 1965]({ERP65}), Table B-47, p. 246; }}{{1965|[Jan. 1966]({ERP66}),
+    Table C-45, p. 263; }}{{1966|[Jan. 1967]({ERP67}), Table B-46, p. 268; }}{{1967|[Feb. 1968]({ERP68}), Table B-50, p.
+    268; }}{{1968|[Jan. 1969]({ERP69}), Table B-50, p. 286; }}the change from the month before in the same table. The
+    *Federal Reserve Bulletin* and the *Survey of Current Business* printed each month's figure the month after; not
+    read here. Today: the Board's M1 (H.6, [FRED M1SL]({F}M1SL)), which counts travelers checks and is revised for later
+    benchmarks and seasonal factors.
 
   money-m1-time: >-
     The money supply (M1, above) and time deposits adjusted: time deposits at commercial banks other than interbank
-    and Government deposits; averages of daily figures, seasonally adjusted. The figure the Board printed as "total
-    money supply and time deposits adjusted"; "M2" named only from 1971. {{..1962-08|As tabled in the [Jan. 1963
-    *Economic Report*]({ERP63}), Table C-45, p. 226 (the Jan. 1962 Report prints time deposits unadjusted only). }}
-    {{1962-09..|As the [*Survey of Current Business*]({SCB}) first printed it, the month after. }}No figure today on
-    this definition: today's M2 (below) counts savings and small time deposits at thrift institutions and money market
-    funds too.
+    and Government deposits; averages of daily figures, seasonally adjusted, the Board's "total money supply and time
+    deposits adjusted" ("M2" named only from 1971). As tabled in the next *Economic Report*, in the same tables as M1
+    {{..1961|(1961 from the [Jan. 1963]({ERP63}) Report, Table C-45, p. 226: the Jan. 1962 Report prints time deposits
+    unadjusted only)}}{{1962..|(above)}}.{{1966-06..| From June 1966 balances held to repay personal loans are left out
+    of time deposits, $1.1bn (the Jan. 1967 Report's note).}} No figure today on this definition: today's M2 (below)
+    counts savings and small time deposits at thrift institutions and money market funds too.
 
   money-m2: >-
     Today's M2 (Board of Governors, H.6; [FRED M2SL]({F}M2SL)): M1, savings deposits, small time deposits at all
@@ -513,11 +515,97 @@ series:
     not the measure of the 1960s (M1 and time deposits at commercial banks, above), so a row of its own, with no
     figure then.
 
+  free-reserves: >-
+    Member banks' excess reserves less their borrowings at the Federal Reserve Banks, averages of daily figures,
+    millions; negative, net borrowed reserves. As tabled in the next *Economic Report* ("Federal Reserve Bank credit and member bank reserves"), its last month or
+    two preliminary: {{..1961|[Jan. 1962]({ERP62}), Table B-46, p. 262; }}{{1962|[Jan. 1963]({ERP63}), Table C-47, p.
+    228; }}{{1963|[Jan. 1964]({ERP64}), Table C-47, p. 264; }}{{1964|[Jan. 1965]({ERP65}), Table B-50, p. 250;
+    }}{{1965|[Jan. 1966]({ERP66}), Table C-49, p. 268; }}{{1966|[Jan. 1967]({ERP67}), Table B-51, p. 274;
+    }}{{1967|[Feb. 1968]({ERP68}), Table B-53, p. 271; }}{{1968|[Jan. 1969]({ERP69}), Table B-53, p. 289; }}each
+    month's excess reserves less borrowings as printed equal to it. The *Bulletin* and the *Survey* printed the figure
+    the month after; not read here. Today: the Board's H.3, net free or borrowed reserves ([FRED NFORBRES]({F}NFORBRES),
+    discontinued 2013), not seasonally adjusted.
+
+  corporate-aaa: >-
+    Moody's Investors Service: average yields on seasoned corporate bonds rated Aaa, monthly average of daily figures
+    ([FRED]({F}AAA)). Not revised: one figure.{{1966..1968| FRED's figures for 1966–68 are those the *Economic Report*
+    printed, month by month ([Feb. 1968]({ERP68}), Table B-54, p. 273; [Jan. 1969]({ERP69}), p. 291).}}
+
+  corporate-baa: >-
+    Moody's: average yields on seasoned corporate bonds rated Baa, the lowest investment grade, monthly average of
+    daily figures ([FRED]({F}BAA)). Not revised: one figure.{{1966..1968| FRED's figures for 1966–68 are those the
+    *Economic Report* printed, month by month (Table B-54 of [Feb. 1968]({ERP68}) and [Jan. 1969]({ERP69})).}}
+
   mortgage-fha: >-
     Federal Housing Administration: yields on FHA-insured new-home mortgages in the secondary market, first of the
     month, at the maximum permissible interest rate{{1966-10..1968-04| (6 percent from Oct. 1966)}}{{1968-05..| (6¾
     percent from early May 1968)}}, for 30-year mortgages paid in 15 years. A rate, not revised: one figure, as the
     *Economic Report* first tabled it ("Bond yields and interest rates"), {{..1967|[Feb. 1968]({ERP68}), Table B-54, p.
-    273}}{{1968..|[Jan. 1969]({ERP69}), Table B-54, p. 291}}. The Reports before 1968 print no such column.
-    {{1966|No figure printed for Mar., May and Nov. 1966. }}{{1968|None printed for June 1968. }}No figure today: FRED's
-    mortgage rates begin in 1971.
+    273}}{{1968..|[Jan. 1969]({ERP69}), Table B-54, p. 291}}. The Reports before 1968 print no such column; the
+    *Bulletin*'s earlier figures not read. {{1966|No figure printed for Mar., May and Nov. 1966. }}{{1968|None printed for
+    June 1968. }}No figure today: FRED's mortgage rates begin in 1971.
+
+  reserve-assets: >-
+    The monetary reserve assets of the United States at the end of the month, $bn: the gold stock (the Treasury's and
+    the Exchange Stabilization Fund's), convertible foreign currencies held by the Treasury and the Federal Reserve,
+    {{1966..|and the reserve position in the IMF (the gold tranche: drawing rights the Fund grants virtually
+    automatically); }}as tabled in the next *Economic Report*: {{..1965|"United States gold stock and holdings of
+    convertible foreign currencies by U.S. monetary authorities", gold and currencies only, the total theirs (no IMF
+    position printed), }}{{..1963|[Jan. 1964]({ERP64}), Table C-82, p. 303 (1962–63); }}{{1964|[Jan. 1965]({ERP65}),
+    Table B-84, p. 289; }}{{1965|[Jan. 1966]({ERP66}), Table C-82, p. 305 (from Sept. 1965 the gold counts gold the IMF
+    deposited, $8–34m); }}{{1966..1967|[Feb. 1968]({ERP68}), Table B-88, p. 312, "United States reserve assets" (the Jan.
+    1967 Report prints no such table); }}{{1968|[Jan. 1969]({ERP69}), Table B-89, p. 330; }}each month's parts adding to
+    the printed total. Changes from the month before in the same table.{{1966..| The IMF position counts, and the gold
+    stock leaves out, the $259m gold subscription of June 1965 (effective Feb. 23, 1966).}} Today: the IMF's reserves
+    less gold ([FRED TRESEGUSM052N]({F}TRESEGUSM052N)): the currencies and the IMF position together, "Excl. gold".
+    1961 not read: the Jan. 1962 and 1963 Reports print no such table.
+
+  goods-services: >-
+    Commerce, Office of Business Economics: the balance on goods and services (exports less imports of goods and
+    services, military transactions and investment income included) and the merchandise trade balance, by quarter,
+    seasonally adjusted annual rates, $bn. As tabled in the next *Economic Report* ("United States balance of
+    payments", its quarters at seasonally adjusted annual rates): the balance on goods and services as printed, the
+    merchandise balance computed from the printed exports and imports. Each Report prints the quarters through the
+    third of the year before, so a fourth quarter is a year later's Report: {{..1962Q3|[Jan. 1963]({ERP63}), Table C-78,
+    p. 262 (the Jan. 1962 Report prints no quarters); }}{{1962Q4..1963Q3|[Jan. 1964]({ERP64}), Table C-77, p. 297;
+    }}{{1963Q4..1964Q3|[Jan. 1965]({ERP65}), Table B-79, p. 282; }}{{1964Q4..1965Q3|[Jan. 1966]({ERP66}), Table C-78, p.
+    300; }}{{1965Q4..1966Q3|[Jan. 1967]({ERP67}), Table B-80, p. 306; }}{{1966Q4..1967Q3|[Feb. 1968]({ERP68}), Table
+    B-83, p. 306; }}{{1967Q4..1968Q3|[Jan. 1969]({ERP69}), Table B-84, p. 324; }}the change in the goods and services
+    balance from the quarter before in the same table. The *Survey of Current Business* printed each quarter some ten
+    weeks after it; not read here.{{1968Q4| Q4 1968: the Report of Jan. 1970, not read.}} Today: BEA's balances on
+    merchandise trade and on goods and services as FRED last carried them ([BOPBM]({F}BOPBM), [BOPBGS]({F}BOPBGS),
+    discontinued), quarterly, times four; BEA has since restated the accounts (goods on a balance-of-payments basis,
+    services and income reclassified), so the levels differ.
+
+  unit-labor-cost: >-
+    Today only: BLS, unit labor costs in the nonfarm business sector, an index, 2017=100, seasonally adjusted, its
+    change at an annual rate ([FRED ULCNFB]({F}ULCNFB)). Then the BLS measured output per man-hour for the private
+    economy by year (the *Economic Report*'s "Indexes of output per man-hour", 1957–59=100), the guideposts' test, and
+    published quarterly figures only from the later 1960s; none read here.
+
+  compensation-hour: >-
+    Today only: BLS, hourly compensation in the nonfarm business sector (wages, salaries and supplements), an index,
+    2017=100, seasonally adjusted, its change at an annual rate ([FRED COMPNFB]({F}COMPNFB)). No contemporary figure
+    read (as unit labor costs, above).
+
+  debt-ownership: >-
+    Who held the federal debt at the end of the month, $bn, par values: the Federal Reserve Banks; the Government's
+    investment accounts (the trust funds); the total {{..1967|of the public debt and guaranteed issues}}{{1968|of the
+    public debt alone}}. As tabled in the next *Economic Report*, "Estimated ownership of U.S. Government obligations":
+    {{..1961|[Jan. 1962]({ERP62}), Table B-53, p. 270; }}{{1962|[Jan. 1963]({ERP63}), Table C-54, p. 236; }}{{1963|[Jan.
+    1964]({ERP64}), Table C-54, p. 272; }}{{1964|[Jan. 1965]({ERP65}), Table B-56, p. 256; }}{{1965|[Jan. 1966]({ERP66}),
+    Table C-55, p. 274; }}{{1966|[Jan. 1967]({ERP67}), Table B-57, p. 280; }}{{1967|[Feb. 1968]({ERP68}), Table B-65, p.
+    286; }}{{1968|[Jan. 1969]({ERP69}), Table B-65, p. 303, "Estimated ownership of public debt securities", on the
+    new budget's concept; }}the private holders read with them, the parts adding to the total. Foreign holders are
+    within the Reports' "miscellaneous investors"; the *Treasury Bulletin*'s survey of ownership, which gives them, not
+    read. No figure today: the Treasury's and FRED's series of holdings by the Federal Reserve and by foreigners begin
+    in 1970.
+
+  debt-maturity: >-
+    The average length to maturity of the marketable interest-bearing public debt at the end of the month (bonds
+    classed to final maturity, the partially tax-exempt to the earliest call date), in years and months, its change in
+    months; Treasury, as tabled in the next *Economic Report*, "Average length and maturity distribution of marketable
+    interest-bearing public debt": {{..1961|[Jan. 1962]({ERP62}), Table B-54, p. 271; }}{{1962|[Jan. 1963]({ERP63}),
+    Table C-55, p. 237; }}{{1966..1967|[Feb. 1968]({ERP68}), Table B-66, p. 287; }}{{1968|[Jan. 1969]({ERP69}), Table B-66,
+    p. 304}}. The Reports of 1964–67 print
+    no such table: 1963–65 not read (the *Treasury Bulletin* has it). No figure today.

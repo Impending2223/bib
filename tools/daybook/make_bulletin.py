@@ -44,6 +44,7 @@ RELEASE = re.compile(r"(?:press\s+release|release)\s+(?:No\.\s*)?(?:\d+\s+)?date
                      + r")\s+(\d{1,2})", re.I)
 NAME = re.compile(r"^[A-Z][\w'’\-]+(?: [A-Z][\w'’\-]+)?, [A-Z][\w.]*(?: [A-Z][\w.]*){0,3}(?:, Jr)?$")   # "Ball, George W"
 INDEX = re.compile(r"\b(?:I\s?n\s?d\s?e\s?x|ndex|Inde)\b")
+MONTH_END = re.compile(r"\b(?:" + "|".join(FULL) + r"|Jan|Feb|Mar|Apr|Aug|Sept?|Oct|Nov|Dec)\.?$")
 LINE_END = re.compile(r"^(.*?\S)\s*[.\s]*?\s(\d{1,4})\s*$")
 
 
@@ -69,7 +70,7 @@ def index_entries(text, first, last):
             buf = ""                                     # an entry whose page the OCR could not read
             continue
         m = LINE_END.match(cur)
-        if m and first <= int(m.group(2)) <= last:
+        if m and first <= int(m.group(2)) <= last and not MONTH_END.search(m.group(1)):   # "June 30": a day
             body = m.group(1)
             sub = re.match(r"^(U\.S\.S\.R|[A-Za-z][\w,'’()\-]*(?:\s+[\w,'’()\-]+){0,4}?)\.\s+(?=[A-Z0-9\"“])", body)
             if sub and not re.search(r"\b(?:U|S|Mr|Mrs|Dr|St|No|[A-Z])$", sub.group(1)) \
@@ -193,17 +194,20 @@ def readings(cache, iid, L, i, lo, hi):
 def clean(title):
     """A reading's debris taken off (RULES 8): the page's head before it ("pril 8, 1963 I n d"), a stray mark, "Ind" after
     it; a subject heading the gutter clipped ("azil. U.S. Regrets ...", "eaty Information. Current ..."); "U." lost
-    before "S." at the margin."""
+    before "S." at the margin; a stop the OCR read inside a word ("Pre.sents", "E.xhibiting", "19.54")."""
     title = re.sub(r"^\S{0,12}\s*\d{1,2}[,.]?\s*19[56]\d\s+(?:I\s?n\s?d\s?(?:e\s?[xX])?\s+)?", "", title)
     title = re.sub(r"\s+(?:Ind|Index|e X)$", "", re.sub(r"^[^A-Za-z0-9\"“‘(]+", "", title))
     title = re.sub(r"^[a-z][\w\-]*(?:\s[\w\-,]+){0,3}\.\s+(?=[A-Z0-9\"“])", "", title)
+    title = re.sub(r"(?<=[a-z])[.;](?=[a-z])|(?<=\b[A-Z])\.(?=[a-z]{3})", "", title)   # "Pre.sents", "E.xhibiting"
+    title = re.sub(r"\b19\.(\d\d)\b", r"19\1", title)                                 # "19.54"
     return re.sub(r"^S\. (?=[A-Z])", "U.S. ", title)
 
 
 def garbled(title, first, last):
     """A reading run on into another entry, or the OCR's debris in it: a stray mark, the page's head, a page number."""
-    return bool(re.search(r"[\^■»«#|\\]|\bVol\.|\be X\b|\d,\s?(?!19\d\d\b)\d", title)) or any(
-        first <= int(n) <= last for n in re.findall(r"(?<=[\s.)])(\d{2,4})(?=\s+[A-Z])", title))
+    return bool(re.search(r"[\^■»«#|\\*°]|\bVol\.|\be X\b|(?<=\s)0\d{2}(?=\s)|\d,\s?(?!19\d\d\b)\d"
+                          r"|\b\d[a-zA-Z]\w?\b(?<!\d[sdht])(?<!\dth)(?<!\dst)(?<!\dnd)(?<!\drd)", title)) or any(
+        first <= int(n) <= last for n in re.findall(r"(?<=[\s.)])(\d{2,4})(?=\s+[A-Z]|$)", title))
 
 
 def best(readings_, first, last):
@@ -506,8 +510,24 @@ def year(y, cache, since=None, until=None):
                     have.append([title])
                 else:
                     have[same].append(title)
+        votes = {}                                  # one title at two pages: the OCR misread one (RULES 5)
+        for p, items_ in seen.items():
+            for xs in items_:
+                k = re.sub(r"\W+", " ", best(xs, first, last) or "").strip().lower()
+                if k:
+                    votes.setdefault(k, []).append((len(xs), p))
+        keep = {k: max(v)[1] for k, v in votes.items()}
+        heads = set()                               # a subject heading the index sets on a line of its own
+        for j in set(ls):
+            for ln in (L[j][2] + "\n" + rebuilt(cache, f["iid"], L[j][0])).split("\n"):
+                ln = re.sub(r"\W+", " ", ln).strip().lower()
+                if ln and not re.search(r"\d", ln) and len(ln.split()) <= 5:
+                    heads.add(ln)
+        for k in [k for k in keep if k in heads and len(k.split()) <= 4]:
+            keep[k] = None                          # a heading read as a title, its page another entry's
         seen = {p: [best(xs, first, last) for xs in items_] for p, items_ in seen.items()}
-        seen = {p: [t for t in ts if t] for p, ts in seen.items()}
+        seen = {p: [t for t in ts if t and keep.get(re.sub(r"\W+", " ", t).strip().lower(), p) == p]
+                for p, ts in seen.items()}
         n = 0
         for page, title, one in [(p, t, len(ts) == 1) for p, ts in sorted(seen.items()) for t in ts]:
             d = release_date(pages.get((vol, page)), issue) if one else None
