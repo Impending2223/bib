@@ -3,16 +3,16 @@
 Written by `./bib audit-cal` (`tools/bib/calaudit.py`): the dated entries checked against the brief in
 CLAUDE.md ("The calendar"). A review list: a hit is a place to look, not an error. Rerun after editing.
 
-4978 dated entries.
+5016 dated entries.
 
 | Check | Entries |
 |---|---|
-| A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 1343 |
+| A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 1348 |
 | (of which only a President's surname: Eisenhower, Kennedy, Johnson) | 18 |
 | Neither a bibliography of its own nor a `See [[id]]` back | 2 |
-| No primary record linked or named | 827 |
+| No primary record linked or named | 840 |
 | A primary record named but not linked | 121 |
-| Threads (statements listed for review) | 219 |
+| Threads (statements listed for review) | 221 |
 
 ## Names
 
@@ -109,6 +109,8 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Bruce: Bruce, David K. E. (K–J Adm. III.E)
 - `cal.1960-07-27.congo` (July 27–29, VIII 196007.yaml): Lumumba in Washington, at Blair House. Herter and Dillon receive him, July 27: aid through the UN, not apart f
   - ? Washington: Washington, Walter E. (K–J Cong. III.F)
+- `cal.1960-08-01.defense-soviet-forces` (Aug. 1, IX 196008.yaml): NIE 11-8-60, Soviet Capabilities for Long Range Attack Through Mid-1965. No direct evidence of the ICBM progra
+  - ? Long: Long, Russell B. (K–J Cong. III.A); Long, Edward V. (K–J Cong. III.B); Long, Gillis W. (K–J Cong. III.K); Long, Worth (K–J Cong. III.K)
 - `cal.1960-08-03.desegregation-schools-houston` (Aug. 3, IX 196008.yaml): Houston. Judge Ben C. Connally finds the school board's plan "a subterfuge designed only to accomplish further
   - ? Houston: Houston, Lawrence (K–J Cong. III.K)
 - `cal.1960-08-13.laos` (Aug. 13–14, IX 196008.yaml): The Laotian Assembly censures the Somsanith government, Aug. 13; it resigns Aug. 14, and the King names Souvan
@@ -306,6 +308,8 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1961-06-07.opinion-2` (June 7, XIX 196106.yaml): Gallup, Apr. 28–May 3: no trade with Cuba while Castro holds power, 63 percent agree, 23 disagree. Aid to the 
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1961-06-07.defense-soviet-forces` (June 7, XIX 196106.yaml): NIE 11-8-61, Soviet Capabilities for Long Range Attack; FRUS prints its annex on the ICBM program. Two to four
+  - ? Long: Long, Russell B. (K–J Cong. III.A); Long, Edward V. (K–J Cong. III.B); Long, Gillis W. (K–J Cong. III.K); Long, Worth (K–J Cong. III.K)
 - `cal.1961-06-09.opinion` (June 9, XIX 196106.yaml): Gallup, May 17–22: a higher Social Security tax to pay for medical insurance for the aged, 67 percent for, 26 
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1961-06-13.confirmations` (June 13, XIX 196106.yaml): Howard Morgan confirmed to the Federal Power Commission, [57–27](https://voteview.com/rollcall/RS0870076).
@@ -373,6 +377,8 @@ the person; several mean the surname is shared). "?" marks a surname that is als
 - `cal.1961-09-19.space` (Sept. 19, XXII 196109.yaml): NASA names Houston for the Manned Spacecraft Center. Albert Thomas held NASA's appropriations.
   - ? Houston: Houston, Lawrence (K–J Cong. III.K)
   - Albert: Albert, Carl (K–J Cong. III.C, Cong. III.D)
+- `cal.1961-09-21.defense-soviet-forces` (Sept. 21, XXII 196109.yaml): NIE 11-8/1-61, Strength and Deployment of Soviet Long Range Ballistic Missile Forces. 10–25 launchers able to 
+  - ? Long: Long, Russell B. (K–J Cong. III.A); Long, Edward V. (K–J Cong. III.B); Long, Gillis W. (K–J Cong. III.K); Long, Worth (K–J Cong. III.K)
 - `cal.1961-09-24.opinion` (Sept. 24, XXII 196109.yaml): Gallup, Aug. 24–29: would vote for a well-qualified Catholic nominated for President by their party, 82 percen
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1961-09-27.opinion` (Sept. 27, XXII 196109.yaml): Gallup, Aug. 24–29: would vote for a well-qualified Jew nominated by their party, 68 percent; not, 23. For a N
@@ -525,6 +531,8 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1962-06-17.opinion` (June 17, XXXI 196206.yaml): Gallup, May 31–June 5: 85 percent have heard of the stock market decline. Of them, 20 blame Kennedy's action i
   - Gallup: Gallup, George H. (K–J Cong. III.J)
+- `cal.1962-06-28.states-and-cities-nashville` (June 28, XXXI 196206.yaml): Nashville. Davidson County's voters approve the charter of a Metropolitan Government of Nashville and Davidson
+  - Davidson: Davidson, Phillip B., Jr. (K–J Cong. III.K)
 - `cal.1962-06-28.immigration` (June 28, XXXI 196206.yaml): Migration and Refugee Assistance Act signed, [76 Stat. 121](https://www.govinfo.gov/content/pkg/STATUTE-76/pdf
   - High: High, Robert King (K–J Cong. III.F)
 - `cal.1962-07-01.opinion` (July 1, XXXII 196207.yaml): Gallup, May 31–June 5: hospital care for the aged through Social Security, 48 percent; voluntary private insur
@@ -533,6 +541,8 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - ? Hall: Hall, Dave (K–J Cong. III.F); Hall, David (K–J Cong. III.F)
 - `cal.1962-07-04.europe-and-the-alliance` (July 4, XXXII 196207.yaml): Independence Hall. A "Declaration of Interdependence" with a uniting Europe.
   - ? Hall: Hall, Dave (K–J Cong. III.F); Hall, David (K–J Cong. III.F)
+- `cal.1962-07-06.defense-soviet-forces` (July 6, XXXII 196207.yaml): NIE 11-8-62, Soviet Capabilities for Long Range Attack. About 50 operational ICBM launchers; 125–175 by mid-19
+  - ? Long: Long, Russell B. (K–J Cong. III.A); Long, Edward V. (K–J Cong. III.B); Long, Gillis W. (K–J Cong. III.K); Long, Worth (K–J Cong. III.K)
 - `cal.1962-07-09.testing` (July 9, XXXII 196207.yaml): Starfish Prime: 1.4 megatons, 250 miles over Johnston Island. Artificial aurora; satellites damaged; streetlig
   - Johnston: Johnston, Olin D. (K–J Cong. III.B)
 - `cal.1962-07-12.alabama-al` (July 12, XXXII 196207.yaml): The legislature, in extraordinary session, four days before the federal court's hearing in *Sims v. Frink*: th
@@ -550,7 +560,7 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Johnson: Johnson, Lady Bird (K–J Adm. III.A, 1968 III.Q); Johnson, Lynda Bird (K–J Adm. III.A); Johnson, Luci Baines (K–J Adm. III.A); Johnson, Lyndon B. (K–J Adm. III.D, Viet. III.A); Johnson, Joseph E. (K–J Adm. III.E); Johnson, Harold K. (K–J Adm. III.F); Johnson, Paul B., Jr. (K–J Cong. III.F); Johnson, Frank M., Jr. (K–J Cong. III.G); Johnson, Albert W. (K–J Cong. III.K); Johnson, James D. (K–J Cong. III.K); Johnson, Leroy R. (K–J Cong. III.K); Johnson, Matthew (K–J Cong. III.K); Johnson, N. B. (K–J Cong. III.K); Johnson, Robert H. (K–J Cong. III.K); Johnson, Virginia (K–J Cong. III.K); Johnson, Tom (1968 III.A); Johnson, U. Alexis (Viet. III.C)
   - Webb: Webb, James E. (K–J Adm. III.G)
 - `cal.1962-07-23.legislatures-fl` (July 23, XXXII 196207.yaml): *Sobel v. Adams*, Miami. A three-judge court holds Florida's apportionment invidiously discriminatory: each of
-  - Adams: Adams, Paul L. (K–J Cong. III.K); Adams, Thomas Boylston (K–J Cong. III.K); Adams, Eddie (Viet. III.F)
+  - Adams: Adams, Paul L. (K–J Cong. III.K); Adams, Samuel A. (K–J Cong. III.K); Adams, Thomas Boylston (K–J Cong. III.K); Adams, Eddie (Viet. III.F)
 - `cal.1962-07-24.georgia-albany` (July 24, XXXII 196207.yaml): Tuttle vacates Elliott's order. That night in Albany, rocks and bottles.
   - Elliott: Elliott, Carl A. (K–J Cong. III.D); Elliott, J. Robert (K–J Cong. III.G); Elliott, Douglas H. (K–J Cong. III.K)
 - `cal.1962-07-27.albany` (July 27, XXXII 196207.yaml): King arrested at a City Hall prayer vigil.
@@ -1175,7 +1185,7 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Goldberg: Goldberg, Arthur J. (K–J Adm. III.E, K–J Adm. III.G, K–J Cong. III.G)
   - Warren: Warren, Earl (K–J Cong. III.G, Cong. III.J)
 - `cal.1964-06-22.legislatures-fl` (June 22, LV 196406.yaml): *Swann v. Adams*, [378 U.S. 553](https://tile.loc.gov/storage-services/service/ll/usrep/usrep378/usrep378553/u
-  - Adams: Adams, Paul L. (K–J Cong. III.K); Adams, Thomas Boylston (K–J Cong. III.K); Adams, Eddie (Viet. III.F)
+  - Adams: Adams, Paul L. (K–J Cong. III.K); Adams, Samuel A. (K–J Cong. III.K); Adams, Thomas Boylston (K–J Cong. III.K); Adams, Eddie (Viet. III.F)
   - Reynolds: Reynolds, John W., Jr. (K–J Cong. III.F); Reynolds, Walter H. (K–J Cong. III.F); Reynolds, Don B. (K–J Cong. III.K)
   - Sims: Sims, Joseph Howard (K–J Cong. III.K)
 - `cal.1964-06-22.legislatures-il` (June 22, LV 196406.yaml): *Germano v. Kerner*, [378 U.S. 560](https://tile.loc.gov/storage-services/service/ll/usrep/usrep378/usrep37856
@@ -1731,7 +1741,7 @@ the person; several mean the surname is shared). "?" marks a surname that is als
 - `cal.1966-02-23.conservation` (Feb. 23, LXXVI 196602.yaml): Natural heritage message: a Clean Rivers Demonstration Program, whole river basins cleaned from source to mout
   - ? Rivers: Rivers, L. Mendel (K–J Cong. III.D)
 - `cal.1966-02-25.legislatures-fl` (Feb. 25, LXXVI 196602.yaml): *Swann v. Adams*, [383 U.S. 210](https://tile.loc.gov/storage-services/service/ll/usrep/usrep383/usrep383210/u
-  - Adams: Adams, Paul L. (K–J Cong. III.K); Adams, Thomas Boylston (K–J Cong. III.K); Adams, Eddie (Viet. III.F)
+  - Adams: Adams, Paul L. (K–J Cong. III.K); Adams, Samuel A. (K–J Cong. III.K); Adams, Thomas Boylston (K–J Cong. III.K); Adams, Eddie (Viet. III.F)
 - `cal.1966-02-27.opinion` (Feb. 27, LXXVI 196602.yaml): Gallup, Jan. 21–26: can identify Romney, 43 percent; Republicans 56, independents 55, Democrats 33. Of all ask
   - Gallup: Gallup, George H. (K–J Cong. III.J)
 - `cal.1966-02-28.south-carolina-sc` (Feb. 28, LXXVI 196602.yaml): *O'Shields v. McNair*. A three-judge court, Haynsworth writing, upholds the House, 124 members apportioned amo
@@ -2172,7 +2182,7 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Warren: Warren, Earl (K–J Cong. III.G, Cong. III.J)
   - ? Clark: Clark, Ramsey (K–J Adm. III.I); Clark, Joseph S. (K–J Cong. III.B); Clark, Stephen P. (K–J Cong. III.F); Clark, Tom C. (K–J Cong. III.G); Clark, James G., Jr. (K–J Cong. III.K); Clark, Newman H. (K–J Cong. III.K); Clark, Robert G., Jr. (K–J Cong. III.K)
 - `cal.1967-01-09.court` (Jan. 9, LXXXVII 196701.yaml): *Swann v. Adams*, [385 U.S. 440](https://tile.loc.gov/storage-services/service/ll/usrep/usrep385/usrep385440/u
-  - Adams: Adams, Paul L. (K–J Cong. III.K); Adams, Thomas Boylston (K–J Cong. III.K); Adams, Eddie (Viet. III.F)
+  - Adams: Adams, Paul L. (K–J Cong. III.K); Adams, Samuel A. (K–J Cong. III.K); Adams, Thomas Boylston (K–J Cong. III.K); Adams, Eddie (Viet. III.F)
   - ? White: White, Lee C. (K–J Adm. III.B); White, Lincoln P. (K–J Adm. III.E); White, Byron R. (K–J Adm. III.I, K–J Cong. III.G); White, Kevin H. (K–J Cong. III.F); White, Edward H., II (K–J Cong. III.K); White, F. Clifton (Opp. III.F); White, Theodore H. (Opp. III.J, 1968 III.O)
 - `cal.1967-01-10.program` (Jan. 10, LXXXVII 196701.yaml): State of the Union, to a joint session, 9:33 p.m. "A time of testing." Asked: social security up 20 percent on
   - West: West, Ben (K–J Cong. III.K); West, E. Gordon (K–J Cong. III.K)
@@ -3114,11 +3124,13 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1960-07-22.elections-1960` (July 22–23, VIII 196007.yaml): Nixon flies to New York to see Rockefeller at his Fifth Avenue apartment, the night of July 22. Their statemen
 - `cal.1960-07-25.elections-1960` (July 25, VIII 196007.yaml): Republican National Convention opens, Chicago, at the International Amphitheatre. The party's primaries: map a
 - `cal.1960-07-25.sit-ins` (July 25, VIII 196007.yaml): Greensboro's Woolworth's serves Negroes at its lunch counter, its own Negro employees the first.
+- `cal.1960-08-09.oil` (Aug. 9, IX 196008.yaml): Esso Export cuts its posted prices for Middle East crude 4 to 14 cents a barrel: Arabian light at Ras Tanura $
 - `cal.1960-08-11.space` (Aug. 11, IX 196008.yaml): Discoverer XIII's capsule taken from the Pacific: the first object recovered from orbit.
 - `cal.1960-08-26.latin-america` (Aug. 26, IX 196008.yaml): The United States breaks relations with the Dominican Republic.
 - `cal.1960-08-27.sit-ins` (Aug. 27, IX 196008.yaml): Jacksonville. White men with ax handles and baseball bats attack Negro youths of the NAACP's Youth Council aft
 - `cal.1960-08-29.middle-east` (Aug. 29, IX 196008.yaml): Iran. Eqbal and his cabinet resign; Sharif-Emami Prime Minister.
 - `cal.1960-09-08.berlin-and-vienna` (Sept. 8, X 196009.yaml): East Germany requires West Germans to obtain permits to enter East Berlin, and stops honoring West German pass
+- `cal.1960-09-12.oil` (Sept. 12–16, X 196009.yaml): Esso Export restores up to 4 cents a barrel of its Middle East cuts, to the other companies' postings: Arabian
 - `cal.1960-09-13.governors-vt` (Sept. 13, X 196009.yaml): Vermont's Republican primary for governor, Stafford not running. Keyser, Speaker of the Vermont House, 17,491,
 - `cal.1960-10-03.court` (Oct. 3, XI 196010.yaml): The Court's October Term 1960 opens.
 - `cal.1960-10-10.elections-1960` (Oct. 10–13, XI 196010.yaml): Johnson's whistle-stop train, the "LBJ Victory Special," from Culpeper, Va., through the South to New Orleans.
@@ -3149,6 +3161,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1960-12-17.transition-and-staff-cabinet` (Dec. 17, XIII 196012.yaml): Day to the Post Office, the last of the cabinet. Check the date.
 - `cal.1960-12-20.vietnam` (Dec. 20, XIII 196012.yaml): The National Front for the Liberation of South Vietnam founded at a congress in Tây Ninh province, as the Lao 
 - `cal.1960-12-22.congress` (Dec. 22, XIII 196012.yaml): Kennedy resigns his Senate seat.
+- `cal.1960-12.oil` (Dec., XIII 196012.yaml): The world's crude oil output in 1960, as the Bureau of Mines first counted it: 21.0 million barrels a day. The
 - `cal.1961-01-05.economy` (Jan. 5, XIV 196101.yaml): Samuelson's task force reports to the President-elect: a recession under way and a weak recovery ahead. Spend 
 - `cal.1961-01-09.desegregation-schools-uga` (Jan. 9, XIV 196101.yaml): Hunter and Holmes register at the University of Georgia.
 - `cal.1961-01-10.cuba` (Jan. 10, XIV 196101.yaml): *New York Times*, front page, Paul Kennedy: "U.S. Helps Train an Anti-Castro Force at Secret Guatemalan Air-Gr
@@ -3224,6 +3237,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1961-12-19.specials` (Dec. 19, XXV 196112.yaml): Louisiana 4th, special. Waggonner (D) over Lyons (R), 54.5 to 45.5, for Overton Brooks's seat. Swing 20.3 to R
 - `cal.1961-12-22.vietnam` (Dec. 22, XXV 196112.yaml): Specialist James T. Davis killed in an ambush west of Saigon. Later counted the first American battle death.
 - `cal.1961-12-31.middle-east` (Dec. 31, XXV 196112.yaml): Lebanon. The Syrian National Party and a few junior officers attempt a coup at dawn; the army puts it down. Ch
+- `cal.1961-12.oil` (Dec., XXV 196112.yaml): The world's crude oil output in 1961, as the Bureau of Mines first counted it: 22.4 million barrels a day. The
 - `cal.1962-01-12.vietnam` (Jan. 12, XXVI 196201.yaml): Operation Chopper. American H-21s lift about a thousand ARVN paratroopers into action near Saigon.
 - `cal.1962-01-23.right-and-the-military` (Jan. 23, XXVI 196201.yaml): Stennis subcommittee hearings on the "muzzling" of officers open. Thurmond's doing.
 - `cal.1962-01-25.governors-mt` (Jan. 25, XXVI 196201.yaml): Montana. Governor Nutter killed with five others when a National Guard C-47, flying him to Cut Bank, Mont., lo
@@ -3287,6 +3301,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1962-12-20.latin-america` (Dec. 20, XXXVII 196212.yaml): Bosch elected president of the Dominican Republic.
 - `cal.1962-12.cities-and-housing-nyc` (Dec., XXXVII 196212.yaml): New York. The Board of Estimate, after a hearing of six hours, sets aside Moses's Lower Manhattan Expressway, 
 - `cal.1962-12.states-and-cities-us` (Dec., XXXVII 196212.yaml): The Council of State Governments' General Assembly of the States, at Chicago, recommends three amendments to t
+- `cal.1962-12.oil` (Dec., XXXVII 196212.yaml): The world's crude oil output in 1962, as the Bureau of Mines first counted it: 24.3 million barrels a day. The
 - `cal.1963-02-11.middle-east` (Feb. 11, XXXIX 196302.yaml): The United States recognizes the new regime in Iraq.
 - `cal.1963-02-19.program` (Feb. 19, XXXIX 196302.yaml): Friedan's *The Feminine Mystique* published.
 - `cal.1963-02-27.japan-and-korea` (Feb. 27, XXXIX 196302.yaml): Seoul. The party leaders accept Park's terms. Kim Chong-p'il out of the country since Feb. 25.
@@ -3353,6 +3368,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1963-12-04.black-nationalism` (Dec. 4, XLIX 196312.yaml): Muhammad suspends Malcolm X from speaking for ninety days.
 - `cal.1963-12-05.assassination` (Dec. 5, XLIX 196312.yaml): The Warren Commission's first meeting, at the National Archives. The FBI's summary report to it, Dec. 9. Ranki
 - `cal.1963-12.robert-kennedy` (Dec., XLIX 196312.yaml): William Walton, painter and friend of the Kennedys, in Moscow on a cultural visit put off by the assassination
+- `cal.1963-12.oil` (Dec., XLIX 196312.yaml): The world's crude oil output in 1963, as the Bureau of Mines first counted it: 26.1 million barrels a day. The
 - `cal.1964-01-07.goldwater` (Jan. 7, L 196401.yaml): Concord, N.H., the campaign's first week: "I would like to suggest one change, that social security be made vo
 - `cal.1964-01-09.civil-rights-bill` (Jan. 9, L 196401.yaml): Smith's Rules Committee opens hearings on the civil rights bill, as he promised in December.
 - `cal.1964-01-11.governors-la` (Jan. 11, L 196401.yaml): Louisiana's Democratic runoff for governor: McKeithen 52.2 percent, Morrison 47.8. McKeithen carries every Nor
@@ -3441,6 +3457,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1964-12-08.students` (Dec. 8, LXI 196412.yaml): Berkeley. The Academic Senate, 824–115: the content of speech or advocacy not to be restricted by the Universi
 - `cal.1964-12-10.voting-rights` (Dec. 10, LXI 196412.yaml): King receives the Nobel Peace Prize at Oslo, from Gunnar Jahn, the committee's chairman.
 - `cal.1964-12-18.king` (Dec. 18, LXI 196412.yaml): King at the White House asks Johnson for a voting rights bill; Johnson does not promise one for the coming ses
+- `cal.1964-12.oil` (Dec., LXI 196412.yaml): The world's crude oil output in 1964, as the Bureau of Mines first counted it: 28.2 million barrels a day. The
 - `cal.1965-01-02.voting-rights` (Jan. 2, LXII 196501.yaml): Selma. King at Brown Chapel, against a State court's injunction on meetings. The campaign to register Dallas C
 - `cal.1965-01-04.mayors-providence` (Jan. 4, LXII 196501.yaml): Providence. Doorley, 34, of the City Council, sworn as mayor, the youngest in the city's history. McGarry, the
 - `cal.1965-01-06.legislatures-ny` (Jan. 6, LXII 196501.yaml): Albany, N.Y. The session opens. The Democratic majorities split, Wagner's men against those of Robert Kennedy 
@@ -3518,6 +3535,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1965-12-02.states-and-cities-los-angeles` (Dec. 2, LXXIII 196512.yaml): The Governor's Commission on the Los Angeles Riots, McCone chairman, reports: *Violence in the City—An End or 
 - `cal.1965-12-17.desegregation-schools-philadelphia` (Dec. 17, LXXIII 196512.yaml): Philadelphia. The NAACP's picket of Girard College ends, after seven months. Check the date.
 - `cal.1965-12-30.vietnam` (Dec. 30, LXXIII 196512.yaml): Humphrey at Manila for Marcos's inauguration; then Tokyo, Seoul, Taipei, on the pause; back Jan. 3.
+- `cal.1965-12.oil` (Dec., LXXIII 196512.yaml): The world's crude oil output in 1965, as the Bureau of Mines first counted it: 30.3 million barrels a day. The
 - `cal.1966-01-01.jobs-and-wages` (Jan. 1, LXXIV 196601.yaml): New York. Lindsay sworn as mayor; the Transport Workers Union strikes the subways and buses the same morning. 
 - `cal.1966-01-03.civil-rights-organizations` (Jan. 3, LXXIV 196601.yaml): CORE names McKissick national director, to succeed Farmer, who goes to a national literacy program. McKissick 
 - `cal.1966-01-04.states-and-cities` (Jan. 4, LXXIV 196601.yaml): Reagan announces for governor of California, on television. Check the date.
@@ -3626,6 +3644,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1966-12-16.elections-1966` (Dec. 16–17, LXXXVI 196612.yaml): Eighteen of the twenty-four Democratic governors at White Sulphur Springs, W. Va., after the midterms.
 - `cal.1966-12-16.state-and-city-finance-us` (Dec. 16–17, LXXXVI 196612.yaml): National Governors' Conference, special interim meeting at White Sulphur Springs, W. Va., the first between an
 - `cal.1966-12.health-us` (Dec., LXXXVI 196612.yaml): Medicaid at the year's end: 29 States have begun programs. A State without one by 1970 to lose federal matchin
+- `cal.1966-12.oil` (Dec., LXXXVI 196612.yaml): The world's crude oil output in 1966, as the Bureau of Mines first counted it: 32.9 million barrels a day. The
 - `cal.1967-01-02.states-and-cities` (Jan. 2, LXXXVII 196701.yaml): Sacramento. Reagan sworn as governor of California in the Capitol just after midnight, Finch as lieutenant gov
 - `cal.1967-01-07.elections-1968` (Jan. 7, LXXXVII 196701.yaml): New York. Nixon with his advisers, in private: a campaign for the nomination to be prepared; he to stay out of
 - `cal.1967-01-08.vietnam` (Jan. 8, LXXXVII 196701.yaml): Cedar Falls, Jan. 8–26: some 30,000 American and South Vietnamese troops in the Iron Triangle, northwest of Sa
@@ -3707,6 +3726,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1967-10-20.states-and-cities-us` (Oct. 20, XCVI 196710.yaml): The Governors aboard the *Independence*: a resolution on non-defense spending and inflation tabled, 22–13; Ram
 - `cal.1967-10-24.middle-east` (Oct. 24, XCVI 196710.yaml): Israel's guns fire the refineries at Suez (Check). Dobrynin proposes confidential consultations.
 - `cal.1967-10.open-housing-mi` (Oct., XCVI 196710.yaml): Michigan. Romney asks the legislature, in special session, for a State open occupancy law against discriminati
+- `cal.1967-10-31.vietnam-order-of-battle` (Oct. 31, XCVI 196710.yaml): MACV's order of battle in its new form. The self-defense and secret self-defense forces and the political cadr
 - `cal.1967-11-02.mayors-memphis` (Nov. 2, XCVII 196711.yaml): Memphis, under the charter of 1966: Loeb, mayor 1960–63, elected mayor over Mayor Ingram in the runoff, Ingram
 - `cal.1967-11-03.vietnam` (Nov. 3, XCVII 196711.yaml): Đắk Tô, in the Central Highlands near the Laotian and Cambodian borders, from Nov. 3: the 4th Infantry Divisio
 - `cal.1967-11-07.mayors-cleveland` (Nov. 7, XCVII 196711.yaml): Cleveland. Stokes (D) elected mayor over Seth Taft (R), 129,318 to 127,467, 50.4 percent. He and Hatcher at Ga
@@ -3722,6 +3742,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1967-11-18.elections-1968` (Nov. 18, XCVII 196711.yaml): Detroit, the Veterans Memorial Building. Romney announces for the Republican nomination; to campaign first in 
 - `cal.1967-11-19.vietnam` (Nov. 19, XCVII 196711.yaml): Bunker and Westmoreland on *Meet the Press*.
 - `cal.1967-11-19.economy` (Nov. 19, XCVII 196711.yaml): The Reserve Banks' discount rate from 4 to 4½ percent (Check the dates).
+- `cal.1967-11-24.vietnam-order-of-battle` (Nov. 24, XCVII 196711.yaml): MACV's briefing on the enemy order of battle. The self-defense forces "not a fighting force comparable to the 
 - `cal.1967-11-27.european-community` (Nov. 27, XCVII 196711.yaml): De Gaulle's press conference: Britain, after the devaluation, not ready to enter the Common Market; its entry 
 - `cal.1967-11-30.elections-1968` (Nov. 30, XCVII 196711.yaml): Washington. McCarthy announces he will enter Democratic primaries against Johnson: Wisconsin, Oregon, Californ
 - `cal.1967-11.mayors-baltimore` (Nov., XCVII 196711.yaml): Baltimore. Thomas D'Alesandro III, president of the City Council, son of the mayor of 1947–59, elected mayor o
@@ -3738,6 +3759,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1967-12-17.vietnam-2` (Dec. 17, XCVIII 196712.yaml): Holt, Prime Minister of Australia, lost swimming off Cheviot Beach, Victoria.
 - `cal.1967-12-19.european-community` (Dec. 19, XCVIII 196712.yaml): Brussels, the Six's Council of Ministers: France will not agree to opening negotiations with Britain; Britain'
 - `cal.1967-12-26.crime-and-hijacking-miami` (Dec. 26, XCVIII 196712.yaml): Miami. Police Chief Headley announces patrols of shotguns and dogs in the Negro districts against "young hoodl
+- `cal.1967-12.oil` (Dec., XCVIII 196712.yaml): The world's crude oil output in 1967, as the Bureau of Mines first counted it: 35.3 million barrels a day. The
 - `cal.1968-01-03.elections-1968` (Jan. 3, XCIX 196801.yaml): Concord, N.H. McCarthy will enter the New Hampshire primary, Mar. 12 (Check the place).
 - `cal.1968-01-15.war-opposition` (Jan. 15, XCIX 196801.yaml): The Jeannette Rankin Brigade: some 5,000 women march from Union Station toward the Capitol on the session's op
 - `cal.1968-01-18.war-opposition` (Jan. 18, XCIX 196801.yaml): The White House, Lady Bird Johnson's Women Doers' Luncheon on crime in the streets. Eartha Kitt, a guest, to t
@@ -3882,6 +3904,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1968-12.states-and-cities-us` (Dec., CX 196812.yaml): The Republican Governors Association elects Reagan chairman, in place of Chafee, beaten for re-election in Nov
 - `cal.1968-12.court-us` (Dec., CX 196812.yaml): Dirksen's convention on apportionment, at the year's end: no legislature applies in 1968; the count stays at 3
 - `cal.1968-12.states-and-cities-nm` (Dec., CX 196812.yaml): Albuquerque. Tijerina, defending himself, acquitted by a State district court jury of the charges of the court
+- `cal.1968-12.oil` (Dec., CX 196812.yaml): The world's crude oil output in 1968, as the Bureau of Mines first counted it: 38.5 million barrels a day. The
 - `cal.1969-01-01.governors-ia` (Jan. 1, CXI 196901.yaml): Iowa. Hughes, elected to the Senate, resigns as governor; Fulton, the lieutenant governor, governor for sixtee
 - `cal.1969-01-03.congress-2` (Jan. 3, CXI 196901.yaml): The Senate Democrats: Edward Kennedy majority whip over Russell Long, 31–26; Mansfield re-elected leader. The 
 - `cal.1969-01-05.vietnam` (Jan. 5, CXI 196901.yaml): Nixon names Lodge to succeed Harriman at the head of the delegation to Paris, Walsh his deputy (Check the day)
@@ -4176,11 +4199,12 @@ The brief: what the thread is, and its stations, in one or two clipped sentences
 | Newark |  |
 | Nonproliferation treaty |  |
 | Ocean Hill–Brownsville |  |
-| Oil | Oil imports, the import program, and the world's oil. OPEC at Baghdad; Nixon at Centralia; the ceiling on demand; the East Coast's residual oil; Libya's first exports; Iraq's Law 80; the petroleum study; Kennedy to Udall; the ceiling on production. |
+| Oil | Oil imports, the import program, and the world's oil. Esso's cut and OPEC at Baghdad; Nixon at Centralia; the ceiling on demand; the East Coast's residual oil; Libya's first exports; Iraq's Law 80; OPEC at Geneva; the petroleum study; Kennedy to Udall; the ceiling on production; the world's output, year by year. |
 | Ole Miss |  |
 | Open housing | Open housing in the States and cities. Pennsylvania's fair housing law; Washington's court voids its law on publicly assisted housing; Detroit's ordinance against blockbusting; Atlanta's barricades; Colorado's court upholds its law. |
 | Opinion | The public's view, by Gallup's releases. Approval (each month's table gives every reading); the race for 1964, Nixon, Rockefeller, Goldwater; integration and the Freedom Riders; the most important problem; Cuba, Berlin, testing, fallout shelters, the Court; Medicare, school aid, the tax cut; prejudice in politics. |
 | Opposition to the war | Opposition to the war outside the government. Ashmore and Baggs in Hanoi; King at Beverly Hills, Chicago and Riverside Church; the Spring Mobilization; the flag-burning bill; Century City; Stop the Draft Week; the March on the Pentagon; Proposition P; Hayden and the three prisoners; the Boston indictments; the Jeannette Rankin Brigade. |
+| Order of battle | The count of the enemy, MACV's order of battle against the CIA's estimate. The Saigon conference and the agreed figures; Bunker on the press briefing; MACV's new count; SNIE 14.3-67; the November briefings; Wheeler against airing the CIA's higher count; Helms and Wheeler. |
 | Packers |  |
 | Panama |  |
 | Paris talks | The talks with Hanoi, from Hanoi's answer to the address of Mar. 31, 1968. The site; the Majestic, Harriman and Vance; Kosygin's letter; the private meetings with Lê Đức Thọ; Saigon's place; the bombing halt; Thiệu's refusal; Saigon's delegation; the shape of the table; Lodge for Harriman; the first procedural meeting. |
@@ -4216,6 +4240,7 @@ The brief: what the thread is, and its stations, in one or two clipped sentences
 | South Carolina | South Carolina, 1962–65: Clemson and the schools; Thurmond's and Watson's breaks with their party. Corinne Riley to her husband's seat. |
 | South Vietnam's elections |  |
 | Soviet Union | The Soviet Union apart from Berlin, Cuba and testing. Khrushchev's troop cut; the U-2 and the Paris summit; the RB-47; Powers tried; Khrushchev at the UN; the President-elect congratulated; the RB-47 fliers freed; the private letters; the Twenty-Second Congress; Adzhubei; space cooperation; the exchanges agreement; Dobrynin; Salinger, Udall and Frost with Khrushchev. |
+| Soviet forces | The intelligence community's estimates of the Soviet forces, an entry a document, dated by the record. NIE 11-8-59's 140–200 ICBMs for mid-1961; the three programs of 1960; 11-8/1-61's 10–25 launchers; 11-8-62's 50. |
 | Space | The space race and the moon program. Huntsville to NASA; Tiros; Echo; Corona; Gagarin; the Space Council; Shepard; the moon message; Grissom, Titov, Glenn, Carpenter, Schirra; Houston; Telstar; Rice Stadium; the moon first; Mariner 2. |
 | Special elections | The special elections that filled seats in the 86th, 87th, 88th and 89th Congresses. Burdick for Langer; Johnson's Senate seat to Tower; twelve House seats, three to widows. |
 | State and city finance | Taxes, budgets and borrowing in the States and cities; Census's figures each fiscal year. California's water bonds; West Virginia's income tax; Sanford's food tax; Texas's first sales tax; Detroit's income tax. |

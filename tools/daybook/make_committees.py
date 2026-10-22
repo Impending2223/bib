@@ -42,7 +42,8 @@ STYLE (the rows; rendered by tools/bib/committees.py):
  5. Folios: the running head's "D<n>"; where the OCR misreads it, the page's place among the pages whose folio reads
     (the offset of the nearest pages on either side). volumes.yaml gives each volume's runs of offset (PDF page to
     folio) and the pages whose folio was not read.
- 6. A subcommittee's name the OCR cut short is put whole where one name settles it (settle_subs): the committee's
+ 6. A subcommittee's name the OCR cut short (the sentence not going on from it with its verb) is put whole where one
+    name settles it (settle_subs): the committee's
     subcommittees in that Congress as the Congressional Staff Directory lists them (congress/subcommittees.yaml, 87th
     and 88th), else the longer forms the Digest prints for the committee that year; the name as read is kept
     (sub_printed). Rerun after the list changes.
@@ -1138,7 +1139,8 @@ def finish(rows, fol, url):
 
 def settle_subs(rows):
     """A subcommittee's name the OCR cut short ('Subcommittee on Banking and'), put whole (STYLE 6): the one name of the
-    committee's subcommittees in that Congress that begins with it, from the Congressional Staff Directory's list
+    committee's subcommittees in that Congress that begins with it (where the sentence does not go on from the name
+    with its verb, "... held hearings": then it is whole), from the Congressional Staff Directory's list
     (congress/subcommittees.yaml, the 87th and 88th Congresses), else from the longer forms the Digest itself prints
     for the committee that year, each read twice at least; the name as read kept (sub_printed)."""
     import collections
@@ -1148,10 +1150,15 @@ def settle_subs(rows):
                     for f in glob.glob(os.path.join(ROOT, "congress", "[0-9][0-9].yaml")))
     key = lambda t: re.sub(r"[^a-z0-9]", "", t.lower())
     seen = collections.Counter((x["ch"], x["code"], x["sub"]) for x in rows if x.get("sub"))
+    VERB = re.compile(r"\s*(?:held|met|began|begins|continued|resumed|heard|approved|concluded|ordered|received|"
+                      r"voted|conducted|opened|considered|completed|recessed|adjourned|agreed|reported|was|were|in|of)\b")
     for x in rows:
         sub = x.get("sub")
         if not sub or len(key(sub)) < 14:
             continue
+        i = x["text"].find(sub)
+        if i >= 0 and VERB.match(x["text"][i + len(sub):]):
+            continue                  # the sentence goes on from the name: the name is whole
         c = ([n for o, n in opened if o <= x["date"]] or [86])[-1]
         names = [s_["name"] for s_ in ((lists.get(c) or {}).get(x["ch"].lower()) or {}).get(x["code"]) or []]
         hit = [n for n in names if key(n).startswith(key(sub)) and key(n) != key(sub)]
