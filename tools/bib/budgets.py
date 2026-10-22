@@ -35,7 +35,7 @@ STYLE
 import os
 import re
 
-from . import store
+from . import contents, store
 
 DIR = os.path.join(store.ROOT, "budgets")
 _C = {}
@@ -295,8 +295,7 @@ def inject(page, series):
         blk = debt_block() if key == "debt" else block(key)
         if not blk:
             continue
-        pat = re.compile(r'(<li id="' + re.escape(eid) + r'"[^>]*>.*?)(</li>)', re.S)
-        page, k = pat.subn(lambda mm: mm.group(1) + blk + mm.group(2), page, count=1)
+        page, k = contents.put(page, eid, blk, "debt-limits" if key == "debt" else "budget", key)
         used = used or bool(k)
     if used and 'id="bgstyle"' not in page:
         page = page.replace("</head>", STYLE + "\n</head>", 1)

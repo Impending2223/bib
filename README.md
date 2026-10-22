@@ -11,6 +11,8 @@ The 1968 series: a calendar, a bibliography and a set of reference tables for Am
 | [Congress](https://impending2223.github.io/bib/congress.html) | Each Congress at its opening, 87th–93rd: party bars, House and Senate maps, every member; every general election, 1958–74, race by race; the special elections, 85th–93rd. |
 | [Executive](https://impending2223.github.io/bib/executive.html) | The Executive Branch at each inauguration and succession, 1953–74: every office, the law that governs it, every holder. |
 | [Indochina](https://impending2223.github.io/bib/indochina.html) | Vietnam, Laos and Cambodia, 1960–68: the calendar's entries placed on one map, a year at a time or all together, with the provinces of late 1966 by corps zone, relief, rivers, climate and rain; the gazetteer of places. |
+| [Indicators](https://impending2223.github.io/bib/indicators.html) | The economic indicators set under each calendar month, 1960–69: what each series measured then and measures today, its sources, and every figure, as first reported and as revised. Each calendar carries the part of this statement that concerns its own months. |
+| [Ebooks and feeds](https://impending2223.github.io/bib/ebooks.html) | The daybook's documents as ebooks (EPUB), a month a book, Jan. 1960–Jan. 1969: every FRUS document of the month in full, the President's Public Papers by title, day by day. The White House recordings the Miller Center gives free as podcast feeds (RSS), a month a feed, each recording dated by the day it was made, in date order; [all the feeds](https://impending2223.github.io/bib/feeds/recordings.opml) (OPML). |
 | [Works](https://impending2223.github.io/bib/works.html) | The bibliography, A to Z: every work the series cites, one entry a work (2,636), with where each is cited. |
 | [The reader](https://impending2223.github.io/bib/) | All of it on one page, cross-referenced. |
 
@@ -42,7 +44,7 @@ The claude.ai artifacts named in `series.yaml` are frozen copies of Oct. 1, 2026
 | `elections/` | the general elections, 1956–74 (generated), the readings by eye, the presidential primaries, the hand-kept facts |
 | `executive/` | the Executive Branch, a file a department or agency: its offices, their law, their holders |
 | `daybook/` | the Public Papers, FRUS and White House recordings by date (generated), the Sunday programs, the abstracts |
-| `indicators/` | the economic series, a file a series: first reported, released, revised |
+| `indicators/` | the economic series, a file a series: first reported, released, revised; `concepts.yaml`, the statement of their concepts and sources |
 | `sources/` | the indexes the build reads (the Biographical Directory, FRUS's lists of persons, POCOM, the Public Papers' names, statute links) and the hand-kept registers (State returns, name forms, matches) |
 | `notes/` | the owner's brief, the thread framings, the calendar audit, the works inventory, the briefs for fact-checking and the Executive roster |
 | `templates/` | the page templates and the shared roster styles |
@@ -61,7 +63,7 @@ Every entry is a small YAML record with a permanent id. Find what you need, edit
 ./bib works list -t in:kja --sort year     the works answering a query
 ./bib works show w.beschloss-crisis-years  a work and every place it is cited
 ./bib check                          must end "0 errors"
-./bib build                          every page (or one: ./bib build cal | works | names | congress | executive)
+./bib build                          every page (or one: ./bib build cal | works | names | congress | executive | indicators)
 ./bib links                          links between pages whose anchors are missing
 ```
 

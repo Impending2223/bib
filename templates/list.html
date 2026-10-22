@@ -179,7 +179,13 @@ ol.e>li:last-child{border-bottom:0}
     [].slice.call(ol.querySelectorAll('ol')).forEach(function(o){ if(!o.children.length) o.remove(); });
   }
   buildTree(document.getElementById('tocList'));
-  buildTree(document.getElementById('drawerList'));
+  (function(){                       // a calendar's contents (its month grid, tools/bib/contents.py) shown in the drawer too
+    var tc=document.getElementById('tocCal'), dl=document.getElementById('drawerList');
+    if(!tc||!dl){ buildTree(dl); return; }
+    var c=tc.cloneNode(true); c.removeAttribute('id');
+    [].forEach.call(c.querySelectorAll('[id]'),function(x){ x.removeAttribute('id'); });
+    dl.parentNode.replaceChild(c,dl);
+  })();
 
   var hdrH=function(){return document.getElementById('hdr').offsetHeight;};
   var tops=[];

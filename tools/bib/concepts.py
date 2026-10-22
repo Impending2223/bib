@@ -335,8 +335,8 @@ def plan(series, data):
 
 def link_logic(page):
     """The calendar's paragraph on the indicators names "the Indicators page": link it."""
-    return re.sub(r'(<p class="logic">Indicators\.[^<]*?)the Indicators page',
-                  lambda m: m.group(1) + f'<a href="{MASTER}">the Indicators page</a>', page)
+    return re.sub(r'(<p class="logic">Indicators\.(?:(?!</p>).)*?)the Indicators page',
+                  lambda m: m.group(1) + f'<a href="{MASTER}">the Indicators page</a>', page, flags=re.S)
 
 
 # ---------------------------------------------------------------- the master page

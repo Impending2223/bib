@@ -35,7 +35,7 @@ import os
 import re
 from collections import Counter, defaultdict
 
-from . import store
+from . import contents, store
 
 DIR = os.path.join(store.ROOT, "congress")
 NAME = {"D": "Democratic", "R": "Republican"}
@@ -443,8 +443,7 @@ def inject(page, series):
                 m = re.match(r"^special:(.+)$", t)
                 if m:
                     blk = race_block(m.group(1))
-                    pat = re.compile(r'(<li id="' + re.escape(e["id"]) + r'"[^>]*>.*?)(</li>)', re.S)
-                    page = pat.sub(lambda mm: mm.group(1) + blk + mm.group(2), page, count=1)
+                    page, _ = contents.put(page, e["id"], blk, "special", m.group(1))
     if 'class="cg sprace"' in page:
         from . import roster
         page = roster.ensure(page)

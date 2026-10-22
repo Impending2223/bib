@@ -260,6 +260,10 @@ def run(series, only=None):
     from . import bills
     for where, msg in bills.problems(series):
         add(ERROR, where, msg, "bills")
+    # the tables and maps the contents list (tools/bib/contents.py)
+    from . import contents
+    for where, msg in contents.problems(series):
+        add(WARN, where, msg, "contents")
     # the calendar's places in Indochina (place: and province: tags; sources/vn-provinces-1966)
     from . import vnmap
     for where, msg in vnmap.problems(series):
@@ -288,6 +292,12 @@ def run(series, only=None):
     from . import daybook
     for where, msg in daybook.problems():
         add(ERROR, "daybook/", f"{where}: {msg}", "daybook")
+    from . import ebooks                 # the FRUS text extract the ebooks are bound from (sources/frus-text/)
+    errs, warns = ebooks.problems()
+    for where, msg in errs:
+        add(ERROR, where, msg, "ebooks")
+    for where, msg in warns:
+        add(WARN, where, msg, "ebooks")
     # the committees' meetings (daybook/committees/, tools/daybook/make_committees.py)
     from . import committees
     for where, msg in committees.problems():

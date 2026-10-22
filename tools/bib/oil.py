@@ -153,7 +153,7 @@ def first_cell(sid, s, r):
         lines = [("Imports", _mbd(imp)), ("Exports", _mbd(exp)), ("Net", _mbd(imp - exp))]
         c = change(sid, s, r, "first")
         if c is not None:
-            lines.append(("Change", _signed(c, 2)))
+            lines.append(("Change", _signed(c, 2) + "m b/d"))
         return _kv(lines) + (f"<br>{_grey(r['note'])}" if r.get("note") else "")
     if sid == "oil-reserves":
         c = change(sid, s, r, "first")
@@ -172,7 +172,7 @@ def now_cell(sid, s, r):
                  ("Net", _mbd(v["net"] / 1000))]
         c = change(sid, s, r, "now")
         if c is not None:
-            lines.append(("Change", _signed(c, 2)))
+            lines.append(("Change", _signed(c, 2) + "m b/d"))
         return _kv(lines)
     if sid == "oil-reserves":
         c = change(sid, s, r, "now")

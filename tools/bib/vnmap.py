@@ -40,7 +40,7 @@ import os
 import re
 import shutil
 
-from . import store
+from . import contents, store
 
 SRC = os.path.join(store.ROOT, "sources", "vn-provinces-1966")
 LAYERS = os.path.join(store.ROOT, "sources", "indochina")
@@ -351,11 +351,10 @@ def full_figure(series):
 def inject(page, series):
     used = False
     for y, eid in anchors(series).items():
-        pat = re.compile(r'(<li id="' + re.escape(eid) + r'"[^>]*>.*?)(</li>)', re.S)
-        if not pat.search(page):
+        if f'<li id="{eid}"' not in page:
             continue
         blk = block(series, y)
-        page, k = pat.subn(lambda mm: mm.group(1) + blk + mm.group(2), page, count=1)
+        page, k = contents.put(page, eid, blk, "vnmap", y)
         used = used or bool(k)
     if used and 'id="vnmcss"' not in page:
         page = page.replace("</head>", CSS + "\n</head>", 1).replace("</body>", JS + "\n</body>", 1)

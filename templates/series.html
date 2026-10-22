@@ -270,6 +270,9 @@ var META={{meta}}, ORDER={{order}};
     var li2=document.createElement('li'), ai=document.createElement('a');
     ai.href='indochina.html'; ai.innerHTML='<b>Indochina</b><span>Vietnam, Laos and Cambodia, 1960\u20131968: the calendar\u2019s placed entries on one map, by year; the gazetteer</span>';
     li2.appendChild(ai); lsts.appendChild(li2);
+    var le=document.createElement('li'), ae=document.createElement('a');
+    ae.href='ebooks.html'; ae.innerHTML='<b>Ebooks</b><span>The daybook\u2019s documents, an ebook a month; the free White House recordings, a podcast feed a month</span>';
+    le.appendChild(ae); lsts.appendChild(le);
   })();
   function buildDrawer(){
     $$('a',lsts).forEach(function(a){a.classList.toggle('on',a.dataset.k===active);});

@@ -33,7 +33,7 @@ import json
 import os
 import re
 
-from . import store
+from . import contents, store
 
 PATH = os.path.join(store.ROOT, "statefin", "states.yaml")
 _C = {}
@@ -412,8 +412,7 @@ def inject(page, series):
         blk = block(y)
         if not blk:
             continue
-        pat = re.compile(r'(<li id="' + re.escape(eid) + r'"[^>]*>.*?)(</li>)', re.S)
-        page, k = pat.subn(lambda mm: mm.group(1) + blk + mm.group(2), page, count=1)
+        page, k = contents.put(page, eid, blk, "statefin", y)
         used = used or bool(k)
     if used:
         if 'id="cggeo"' not in page:

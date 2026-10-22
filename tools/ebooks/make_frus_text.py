@@ -153,7 +153,7 @@ def render(e, doc, inline):
             return f'<span class="ni">{inner(e, doc, True).strip()}</span>'
         body = inner(e, doc, False) if has_block(e) or any(local(c) == "p" for c in e) else inner(e, doc, True)
         if not any(local(c) == "p" for c in e):
-            body = f"<p>{body.strip()}</p>"
+            body = f'<div class="p">{body.strip()}</div>' if has_block(e) else f"<p>{body.strip()}</p>"
         return doc.note_ref(e.get("n"), body)
     if n == "hi":
         tag, cls = HI.get(e.get("rend") or "", ("span", ""))
@@ -166,7 +166,9 @@ def render(e, doc, inline):
     if n == "ref":
         u = ref_url(doc, e.get("target"))
         body = inner(e, doc, True)
-        return f'<a href="{attr(u)}">{body}</a>' if u else body
+        marks = "".join(re.findall(r'<sup class="nr">.*?</sup>', body))     # no link inside a link: the marks after
+        body = re.sub(r'<sup class="nr">.*?</sup>', "", body)
+        return (f'<a href="{attr(u)}">{body}</a>' if u and "<a " not in body else body) + marks
     if n == "figure" or n == "graphic":
         caption = " ".join(ws("".join(h.itertext())).strip() for h in e if local(h) in ("head", "figDesc", "p"))
         t = "[Image not reproduced: see the document’s page.]" + (f" {esc(caption)}" if caption else "")

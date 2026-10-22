@@ -15,7 +15,7 @@ STYLE
 import os
 import re
 
-from . import store
+from . import contents, store
 
 PATH = os.path.join(store.ROOT, "congress", "bills.yaml")
 _C = {}
@@ -121,8 +121,7 @@ def inject(page, series):
         blk = block(key)
         if not blk:
             continue
-        pat = re.compile(r'(<li id="' + re.escape(eid) + r'"[^>]*>.*?)(</li>)', re.S)
-        page, k = pat.subn(lambda mm: mm.group(1) + blk + mm.group(2), page, count=1)
+        page, k = contents.put(page, eid, blk, "bill", key)
         used = used or bool(k)
     if used and 'id="blstyle"' not in page:
         page = page.replace("</head>", STYLE + "\n</head>", 1)

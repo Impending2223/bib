@@ -17,6 +17,8 @@ from . import wardead
 from . import budgets
 from . import bills
 from . import smart
+from . import feeds
+from . import contents
 from .markup import to_html, plain, italics, ITAL_RE, REF_RE
 from .refs import Refs, split_protected
 
@@ -239,6 +241,7 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
         dates = calsplit.thread_dates_html(lst, slug, members, esc)
         if dates:
             parts.append(f'<span class="n">{dates}</span>')
+        parts.append(contents.thread_slot(lst, slug))   # its tables and maps (tools/bib/contents.py, STYLE 4)
         parts.append(see_also_html(lst, e))
     elif n:
         parts.append(f'<span class="n">{text_html(n, "n")}</span>')
@@ -433,7 +436,10 @@ def build_list(series, key, linker=None, half=None):
     main.append('<p class="logic">To navigate, use the Outline button, the contents below, or the handle on the right edge, which you can drag to see nearby headings. '
                 'All the lists in one reader: <a href="series.html">the series</a>. The elections and each Congress at its opening: <a href="congress.html">Elections</a>. '
                 'The Executive Branch at each inauguration: <a href="executive.html">Executive</a>.</p>')
-    main.append('<nav class="toc" aria-label="Contents">\n<h3 id="contents" style="border-top:0;margin-top:1.5rem" data-short="Contents">Contents</h3>\n<ol id="tocList"></ol>\n</nav>')
+    if lst.kind == "calendar":           # the threads, the month grid, the tables and maps (tools/bib/contents.py)
+        main.append(contents.nav(lst, half_sections(lst, half)))
+    else:
+        main.append('<nav class="toc" aria-label="Contents">\n<h3 id="contents" style="border-top:0;margin-top:1.5rem" data-short="Contents">Contents</h3>\n<ol id="tocList"></ol>\n</nav>')
     for s in half_sections(lst, half):
         main.extend(section_body(series, lst, s, lambda sec: attr(sec.id), text_html))
     page = open(os.path.join(TEMPLATES, "list.html"), encoding="utf-8").read()
@@ -1039,6 +1045,9 @@ def build_series(series):
     home.append('<h2 id="home--ic" data-short="Indochina">Indochina</h2><ol class="e lists"><li><a class="lk" href="indochina.html">'
                 '<span class="ab">Indochina</span><span class="tt">Vietnam, Laos and Cambodia, 1960–1968: the calendar\'s placed entries on one map, by year; the gazetteer</span></a>'
                 '<span class="r">1960–68</span></li></ol>')
+    home.append('<h2 id="home--eb" data-short="Ebooks">Ebooks and feeds</h2><ol class="e lists"><li><a class="lk" href="ebooks.html">'
+                '<span class="ab">Ebooks</span><span class="tt">The daybook\'s documents, an ebook a month: FRUS in full, the Public Papers by title; the free White House recordings, a podcast feed a month</span></a>'
+                '<span class="r">1960–69</span></li></ol>')
     home.append("</section>")
 
     page = open(os.path.join(TEMPLATES, "series.html"), encoding="utf-8").read()
@@ -1075,7 +1084,7 @@ def _section_series(series, lst, sec, linker, li_extra):
 def run(series, which=None):
     os.makedirs(OUT, exist_ok=True)
     written = []
-    PAGES = ("series", "congress", "executive", "names", "lives", "works", "indochina", "indicators")
+    PAGES = ("series", "congress", "executive", "names", "lives", "works", "indochina", "indicators", "ebooks", "feeds")
     for l in series.lists.values():       # the calendar's later parts are built with its first
         if which and l.kind == "calendar" and calsplit.cfg(l) and which in [p["page"] for p in calsplit.cfg(l)]:
             which = l.key
@@ -1111,6 +1120,8 @@ def run(series, which=None):
                 page = vnmap.inject(page, series)
                 page = indicators.inject(page, series, "list")
                 page = daybook.inject(page)
+                page = feeds.inject(page, lst, half)     # the months' feeds (tools/bib/feeds.py)
+                page = contents.finish(page, lst, half or 1)   # the tables and maps listed (tools/bib/contents.py)
                 if half:
                     page = page.replace("</head>", calsplit.STYLE + "\n</head>", 1)
                     page = page.replace("</body>", calsplit.SCRIPT + "\n</body>", 1)
@@ -1136,6 +1147,8 @@ def run(series, which=None):
         page = vnmap.inject(page, series)
         page = indicators.inject(page, series, "series")
         page = daybook.inject(page)
+        if cal is not None:                  # the thread statements' tables and maps (tools/bib/contents.py)
+            page = contents.finish(page, cal, None)
         page = page.replace("</head>", calsplit.STYLE + "\n</head>", 1)
         page = page.replace("</body>", calsplit.SCRIPT + "\n</body>", 1)
         path = os.path.join(OUT, "series.html")
@@ -1182,4 +1195,12 @@ def run(series, which=None):
             path = os.path.join(OUT, name)
             smart.write(path, routed(page))
             written.append(path)
+    if which in (None, "ebooks"):         # the documents, an EPUB a month (tools/bib/ebooks.py)
+        from . import ebooks
+        written += [p for p, _, _ in ebooks.build(series)]
+    if which in (None, "ebooks", "feeds"):  # the recordings' feeds and the page of both (tools/bib/feeds.py)
+        written += feeds.build(series)
+        path = os.path.join(OUT, feeds.PAGE)
+        smart.write(path, routed(feeds.page(series, os.path.join(TEMPLATES, "list.html"))))
+        written.append(path)
     return written

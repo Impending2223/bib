@@ -36,7 +36,7 @@ import os
 import re
 from collections import Counter
 
-from . import store
+from . import contents, store
 
 PATH = os.path.join(store.ROOT, "elections", "conventions.yaml")
 PARTY = {"R": "Republican", "D": "Democratic"}
@@ -347,8 +347,7 @@ def inject(page, series):
         blk = block(v, links) if k == "conv" else rollcall(*v)
         if not blk:
             continue
-        pat = re.compile(r'(<li id="' + re.escape(eid) + r'"[^>]*>.*?)(</li>)', re.S)
-        page, n = pat.subn(lambda mm: mm.group(1) + blk + mm.group(2), page, count=1)
+        page, n = contents.put(page, eid, blk, "conventions" if k == "conv" else "rollcall", v if k == "conv" else f"{v[0]}-{v[1]}")
         used = used or bool(n)
     if not used:
         return page
