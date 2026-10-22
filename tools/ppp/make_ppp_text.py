@@ -239,7 +239,8 @@ def heading_date(head, span):
             if i + j > len(toks) or (j == 2 and not re.fullmatch(r"[a-z]+", toks[i + 1].group())):
                 continue
             w = re.sub(r"[^A-Za-z]", "", "".join(t.group() for t in toks[i:i + j]))
-            if len(w) < 3 or not w[:1].isupper() and w[:1] not in "Qq]":
+            if len(w) < 3 or not w[:1].isupper() and w[:1] not in "Qq]" \
+                    and not re.fullmatch(r"(ft|f)u?(ly|ine|ne)", w):
                 continue
             mo = None
             loose = False
@@ -249,7 +250,7 @@ def heading_date(head, span):
                     mo = k + 1
                 elif len(w) >= 4 and r_ >= .6 and mo is None:
                     mo, loose = k + 1, True
-            if mo is None and re.fullmatch(r"[IJ\]]u(ly|ne)", w):
+            if mo is None and re.fullmatch(r"([IJ\]]|ft|f|T)u?(ly|ine|ne)", w):        # 'Iuly', ']une', 'ftine'
                 mo = 7 if w.endswith("ly") else 6
             if mo is None:
                 continue
@@ -536,6 +537,9 @@ def is_item_head(r, expect, left=None, bh=8.6, nxt=None):
     """(number, words used) where a large line opens an item (STYLE 3): its first word the next number, read with
     the digits' misreadings; or, at the text's left edge with the title after a gap, a short word no rule reads
     ('no', 'X47', 'yj'): the number the sequence gives, counted."""
+    if len(r) == 1 and as_number(r[0][4]) == expect and left is not None and nxt:
+        RULES["a heading's title lost (its number and date alone)"] += 1
+        return expect, 1                          # the title from the List of Items
     if len(r) < 2:
         return None, 0
     n = as_number(r[0][4])
@@ -735,6 +739,11 @@ def read_volume(pkg, pages, V, surname, span, start=1):
         if cut is not None and re.search(r"[.,]\s*$", head[:cut]):
             title = head[:cut].rstrip(" .,")
         title = re.sub(r"\s+", " ", title).strip().rstrip(".")
+        title = title or "[Title not read]"
+        if title == "[Title not read]" and it["n"] in listed and listed[it["n"]][1] is not None \
+                and it["page"] is not None and abs(listed[it["n"]][1] - it["page"]) <= 1:
+            lt = fix_line(listed[it["n"]][0], V)
+            title = re.sub(r"[.,]?\s*(" + "|".join(MONTHS) + r")\s+\d{1,2},\s*\d{4}\s*$", "", lt).strip().rstrip(".")
         n = it["n"]
         lp = listed.get(n, (None, None))[1]
         out.append({"n": n, "title": title, "date": date, "month": month, "page": it["page"],

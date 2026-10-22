@@ -99,6 +99,68 @@ def index_entries(text, first, last):
     return out
 
 
+_djvu = {}
+
+
+def djvu(cache, iid):
+    """{leaf: (width, [((l, b, r, t), word)])}: the copy's words with their boxes (its _djvu.xml, kept gzipped)."""
+    if iid not in _djvu:
+        p = os.path.join(cache, iid + ".djvu.xml.gz")
+        if not os.path.exists(p) or os.path.getsize(p) < 1000:
+            open(p, "wb").write(gzip.compress(ix.fetch(f"https://archive.org/download/{iid}/{iid}_djvu.xml")))
+        s = gzip.open(p).read().decode("utf-8", "replace")
+        out = {}
+        for m in re.finditer(r'<OBJECT[^>]*?usemap="[^"]*?_(\d{4})\.djvu"[^>]*?width="(\d+)".*?</OBJECT>', s, re.S):
+            out[int(m.group(1))] = (int(m.group(2)), [(tuple(map(int, c.split(","))), w.strip()) for c, w in
+                                                     re.findall(r'<WORD coords="([\d,]+)"[^>]*>(.*?)</WORD>', m.group(0))])
+        _djvu.clear()                                  # one copy at a time: they are large
+        _djvu[iid] = out
+    return _djvu[iid]
+
+
+_rebuilt = {}
+
+
+def rebuilt(cache, iid, leaf):
+    if (iid, leaf) not in _rebuilt:
+        _rebuilt[iid, leaf] = _rebuild(cache, iid, leaf)
+    return _rebuilt[iid, leaf]
+
+
+def _rebuild(cache, iid, leaf):
+    """An index page's text laid out again from its words' boxes (RULES 4): the two columns apart (split where fewest
+    words cross the middle third), each column's words in rows by their height on the page, a row run on into the next
+    where it ends in a hyphen or the next begins in lower case or with a parenthesis. The OCR's own text sometimes
+    sets a column's page numbers in a block of their own; this puts each back at the end of its entry."""
+    got = djvu(cache, iid).get(leaf)
+    if not got or not got[1]:
+        return ""
+    W, ws = got
+    cross = [sum(l <= x <= r for (l, b, r, t), w in ws) for x in range(W // 3, 2 * W // 3, 5)]
+    mid = W // 3 + 5 * min(range(len(cross)), key=lambda i: (cross[i], abs(W // 3 + 5 * i - W // 2)))
+    out = []
+    for col in ([x for x in ws if (x[0][0] + x[0][2]) / 2 < mid], [x for x in ws if (x[0][0] + x[0][2]) / 2 >= mid]):
+        rows = []
+        for (l, b, r, t), w in sorted(col, key=lambda x: (x[0][1] + x[0][3]) / 2):
+            yc = (b + t) / 2
+            if rows and abs(yc - rows[-1][0]) < 0.45 * max(10, b - t):
+                rows[-1][1].append((l, w))
+            else:
+                rows.append([yc, [(l, w)]])
+        lines = [" ".join(w for l, w in sorted(r_[1])) for r_ in rows]
+        for ln in lines:
+            if out and (out[-1].endswith("-") or re.match(r"^[a-z(]", ln)) and not re.search(r"\s\d{1,4}$", out[-1]):
+                out[-1] += " " + ln
+            else:
+                out.append(ln)
+    return "\n".join(out)
+
+
+def readings(cache, iid, L, i, lo, hi):
+    """An index leaf's entries, from the OCR's text and from its words laid out again (RULES 4)."""
+    return index_entries(L[i][2], lo, hi) + index_entries(rebuilt(cache, iid, L[i][0]), lo, hi)
+
+
 def words(title):
     return set(re.findall(r"[a-z]{3,}", title.lower())) - {"the", "and", "for", "text", "with"}
 
@@ -149,7 +211,7 @@ def run(pages):
     return best
 
 
-def index_leaves(L, lo, hi):
+def index_leaves(L, lo, hi, R):
     """The leaves of a copy holding an issue's own index (RULES 1): a head with "Index" (not the volume's index), or
     the leaf before the back cover (its mailing text), whose text reads as at least eight index entries within the
     volume's pages, most of them within 150 of one another."""
@@ -162,7 +224,7 @@ def index_leaves(L, lo, hi):
         dated = (m := HEAD_DATE.search(h)) and m.start() < 25          # the issue's date at its head ("March 27, 1961")
         if not (HEAD_INDEX.search(h) or before_back or dated):
             continue
-        ents = index_entries(t, lo, hi)
+        ents = R(i, lo, hi)
         pg = sorted(e[1] for e in ents)
         if len(pg) < 8:
             continue
@@ -202,19 +264,19 @@ def evidence(h, q):
     return score
 
 
-def median(text, lo, hi):
-    ents = sorted(x[1] for x in index_entries(text, lo, hi))
+def median(R, i, lo, hi):
+    ents = sorted(x[1] for x in R(i, lo, hi))
     return ents[len(ents) // 2] if ents else 0
 
 
-def place(L, segs, quarter, lo, hi):
+def place(L, segs, quarter, lo, hi, R):
     """[(seg, issue)] for one copy's index leaves, in order (RULES 2): the best alignment of the leaves with the issues,
     each leaf one issue or none, by what each head says (evidence) and, where sources/dsb-issues.yaml gives an issue's
     pages, whether they hold the median page of the leaf's entries (never matched where they do not)."""
     def score(s, q):
         e = evidence(L[s[0]][2], q)
         if q.get("first") and q.get("last") and not q.get("check"):
-            if not q["first"] <= median(L[s[0]][2], lo, hi) <= q["last"]:
+            if not q["first"] <= median(R, s[0], lo, hi) <= q["last"]:
                 return None if e < 4 else e + 0.5     # a head's date or number stands over the covers' pages
             e += 3
         return e + 0.5
@@ -269,7 +331,8 @@ def year(y, cache, since=None, until=None):
         quarter = [r for r in allrows if (f_ - datetime.timedelta(days=14)).isoformat() <= r["date"]
                    <= (t_ + datetime.timedelta(days=14)).isoformat()]     # a copy may bind a week of the next
         segs, prev = [], None
-        for i in index_leaves(L, lo, hi):             # the issue's pages: the numbered leaves since the last index
+        R = (lambda iid_, L_: lambda i, a, b: readings(cache, iid_, L_, i, a, b))(iid, L)
+        for i in index_leaves(L, lo, hi, R):             # the issue's pages: the numbered leaves since the last index
             top = it["main"][0] + 200 if not segs else hi       # not the volume's index bound before the first issue
             seq = [L[j][1] for j in range((prev + 1) if prev is not None else 0, i + 1)
                    if L[j][1] is not None and it["main"][0] - 80 <= L[j][1] <= top]
@@ -281,7 +344,7 @@ def year(y, cache, since=None, until=None):
                 sf = segs[-1][2] + 1                   # pages the numbering missed: after the last issue's
             segs.append((i, sf, sl))
             prev = i
-        placed = place(L, segs, quarter, lo, hi)
+        placed = place(L, segs, quarter, lo, hi, R)
         for s in segs:
             if s not in [x for x, _ in placed]:
                 log.append(f"{iid} leaf {s[0]}: an index not placed")
@@ -289,12 +352,12 @@ def year(y, cache, since=None, until=None):
             ls = [i]
             j = i + 1                                   # an index run on to the next leaf (not the back cover, a cover)
             if j < len(L) and not BACK.search(L[j][2][:600]) and not HEAD_INDEX.search(L[j][2][:250]) \
-                    and not ix.MAST.search(L[j][2][:700]) and len(index_entries(L[j][2], lo, hi)) > 8:
+                    and not ix.MAST.search(L[j][2][:700]) and len(R(j, lo, hi)) > 8:
                 ls.append(j)
             own = it["from"] <= r["date"] <= it["to"]
             if r["date"] not in want or r["date"] in found and (found[r["date"]]["own"] or not own):
                 continue                               # an issue in two copies (or bound twice): its own quarter's, the first
-            found[r["date"]] = {"iid": iid, "vol": it["vol"], "sf": sf, "sl": sl, "leaves": ls, "L": L,
+            found[r["date"]] = {"iid": iid, "vol": it["vol"], "sf": sf, "sl": sl, "leaves": ls, "L": L, "R": R,
                                 "own": own}
     rows, stats = [], {"issues": len(issues), "indexed": 0, "items": 0, "release": 0, "no index": []}
     for r in issues:
@@ -307,7 +370,7 @@ def year(y, cache, since=None, until=None):
         if not first or not last or r.get("check"):    # the pages the leaves give (RULES 3)
             first, last = sf, sl
             log.append(f"{r['date']}: pages from the leaves, {sf}-{sl}")
-        elif not first <= median(L[ls[0]][2], 1, 1300) <= last:
+        elif not first <= median(f["R"], ls[0], 1, 1300) <= last:
             log.append(f"{r['date']}: the index's pages are not the issue's {first}-{last}: the leaves', {sf}-{sl}")
             first, last = sf, sl
         elif sf and sl and (abs(sf - first) > 2 or abs(sl - last) > 4):
@@ -319,7 +382,7 @@ def year(y, cache, since=None, until=None):
         issue = datetime.date.fromisoformat(r["date"])
         seen = {}                                   # page -> [titles], one an item (several OCR readings of one)
         for j in sorted(set(ls)):
-            for title, page in index_entries(L[j][2], first, last):
+            for title, page in f["R"](j, first, last):
                 w = words(title)
                 if not w:
                     continue

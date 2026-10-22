@@ -180,9 +180,10 @@ def rows_of(ws, tol=4.0):
 
 
 def layout(W, H, ws):
-    """The page's lines in reading order: [(kind, text)], kind L or R (a column) or S (a line across the page). The
-    gutter: the widest run of the least ink near the middle. A word across it (three letters or more), or set large
-    (a heading), makes its line one across the page."""
+    """The page's lines in reading order: [(kind, text, y)], kind L or R (a column), LH or RH (a chamber's heading
+    within the column), or S (a line across the page). The gutter: the widest run of the least ink near the middle. A
+    word across it (three letters or more), or set large (a heading, three letters or more), makes its line one across
+    the page, except a chamber's heading wholly within one column."""
     lo, hi = int(W * .38), int(W * .62)
     cov = [0] * (int(W) + 2)
     for w in ws:
@@ -228,13 +229,23 @@ def layout(W, H, ws):
                 have.update(map(id, r))
     L = [w for w in L if id(w) not in have]
     R = [w for w in R if id(w) not in have]
+    # a chamber's heading set large within one column ('House of Representatives' over the right column) heads that
+    # column only: it goes back into its column, marked (kind LH, RH), and the other column reads on past it (1968, D11)
+    heads = set()
+    for yc, r in rows_of(S):
+        t = " ".join(w[4] for w in r)
+        if (max(w[2] for w in r) < g or min(w[0] for w in r) > g) and not day_heading(t) and \
+                section_mark(t) in ("senate", "house"):
+            (L if max(w[2] for w in r) < g else R).extend(r)
+            heads.update(map(id, r))
+    S = [w for w in S if id(w) not in heads]
     out = []
     bounds = [(-1e9, None)] + rows_of(S) + [(1e9, None)]
     for i in range(len(bounds) - 1):
         a, b = bounds[i][0], bounds[i + 1][0]
         for k, col in (("L", L), ("R", R)):
             for yc, r in rows_of([w for w in col if a < (w[1] + w[3]) / 2 <= b]):
-                out.append((k, " ".join(w[4] for w in r), yc))
+                out.append((k + ("H" if any(id(w) in heads for w in r) else ""), " ".join(w[4] for w in r), yc))
         if bounds[i + 1][1]:
             out.append(("S", " ".join(w[4] for w in bounds[i + 1][1]), b))
     return out
@@ -958,11 +969,13 @@ def read_volume(year, bbox):
             if day is None:
                 continue
             s = section_mark(t)
-            if pending and s:
+            # the new day begins at its own first heading, not at the old day's last ones (1966, D486: the House's
+            # meetings of Sept. 6 under 'Wednesday, September 7')
+            if pending and (s in ("senate", "highlights") or (s == "chamber" and chamber == "H" and "H" in met)):
                 close()
                 day, chamber, mode, heading, blocked, pending = pending, None, None, None, False, None
                 met = set()
-            if s in ("senate", "house") and k != "S":
+            if s in ("senate", "house") and k not in ("S", "LH", "RH"):
                 s = None
             # after the Resume, nothing till the next day or a chamber's own heading (the bound volume of 1961 sets
             # its Resume within the day of Sept. 20)
