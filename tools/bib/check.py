@@ -276,6 +276,10 @@ def run(series, only=None):
     from . import bills
     for where, msg in bills.problems(series):
         add(ERROR, where, msg, "bills")
+    # each session's appropriation bills (congress/appropriations.yaml; tools/bib/appropriations.py)
+    from . import appropriations
+    for where, msg in appropriations.problems(series):
+        add(ERROR, where, msg, "appropriations")
     # the tables and maps the contents list (tools/bib/contents.py)
     from . import contents
     for where, msg in contents.problems(series):

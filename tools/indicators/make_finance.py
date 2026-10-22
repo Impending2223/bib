@@ -38,6 +38,14 @@ SRC = {
               'https://www.govinfo.gov/app/details/SERIALSET-12497_00_00-002-0278-0000'),
     'ERP63': ('1963-01-21', 'Economic Report of the President, Jan. 1963',
               'https://www.govinfo.gov/app/details/SERIALSET-12600_00_00-002-0028-0000'),
+    'ERP64': ('1964-01-20', 'Economic Report of the President, Jan. 1964',
+              'https://www.govinfo.gov/app/details/SERIALSET-12658_00_00-002-0278-0000'),
+    'ERP65': ('1965-01-28', 'Economic Report of the President, Jan. 1965',
+              'https://www.govinfo.gov/app/details/SERIALSET-12702_00_00-002-0028-0000'),
+    'ERP66': ('1966-01-27', 'Economic Report of the President, Jan. 1966',
+              'https://www.govinfo.gov/app/details/SERIALSET-12742_00_00-002-0348-0000'),
+    'ERP67': ('1967-01-26', 'Economic Report of the President, Jan. 1967',
+              'https://fraser.stlouisfed.org/title/economic-report-president-45/1967-8138'),
     'ERP68': ('1968-02-01', 'Economic Report of the President, Feb. 1968',
               'https://www.govinfo.gov/app/details/SERIALSET-12825_00_00-002-0238-0000'),
     'ERP69': ('1969-01-16', 'Economic Report of the President, Jan. 1969',
@@ -92,10 +100,10 @@ ERP69/Table B-54, p. 291 1968-12 7.36
 """
 
 # The money stock, M1 (currency outside banks and demand deposits adjusted), averages of daily figures, seasonally
-# adjusted, billions. Dec. 1960 and 1961: the Jan. 1962 Report, Table B-44, p. 260 (the series before the Board's
-# revision of Aug. 1962; Dec. 1961 preliminary). Jan.-Aug. 1962: the Jan. 1963 Report, Table C-45, p. 226 (the revised
-# series, the Bulletin of Aug. 1962; its Dec. 1961, 145.7, for January's change). Each month's currency and demand
-# deposits read with it and found to add to it within 0.1. From Sept. 1962, the Survey of Current Business (below).
+# adjusted, billions: each year's months as the next January's Report tabled them ("Money supply"; February in 1968),
+# its December preliminary. Dec. 1960 and 1961: the Jan. 1962 Report, the series before the Board's revision of Aug.
+# 1962; from 1962, the revised series. January's change from the Report's own December before (prior=). Read off the
+# page images at 200-240 dpi; each month's currency and demand deposits read with it and found to add to it within 0.1.
 M1 = """
 ERP62/Table B-44, p. 260 1960-12 140.4
 ERP62/Table B-44, p. 260 1961-01 140.6
@@ -118,12 +126,88 @@ ERP63/Table C-45, p. 226 1962-05 145.7
 ERP63/Table C-45, p. 226 1962-06 145.6
 ERP63/Table C-45, p. 226 1962-07 145.7
 ERP63/Table C-45, p. 226 1962-08 145.1
+ERP63/Table C-45, p. 226 1962-09 145.3
+ERP63/Table C-45, p. 226 1962-10 146.1
+ERP63/Table C-45, p. 226 1962-11 146.9
+ERP63/Table C-45, p. 226 1962-12 147.9
+ERP64/Table C-45, p. 262 1963-01 148.7 prior=147.9
+ERP64/Table C-45, p. 262 1963-02 148.6
+ERP64/Table C-45, p. 262 1963-03 148.9
+ERP64/Table C-45, p. 262 1963-04 149.4
+ERP64/Table C-45, p. 262 1963-05 149.4
+ERP64/Table C-45, p. 262 1963-06 149.8
+ERP64/Table C-45, p. 262 1963-07 150.7
+ERP64/Table C-45, p. 262 1963-08 150.5
+ERP64/Table C-45, p. 262 1963-09 150.9
+ERP64/Table C-45, p. 262 1963-10 152.0
+ERP64/Table C-45, p. 262 1963-11 153.1
+ERP64/Table C-45, p. 262 1963-12 153.3
+ERP65/Table B-47, p. 246 1964-01 153.8 prior=153.2
+ERP65/Table B-47, p. 246 1964-02 153.8
+ERP65/Table B-47, p. 246 1964-03 154.2
+ERP65/Table B-47, p. 246 1964-04 154.5
+ERP65/Table B-47, p. 246 1964-05 154.5
+ERP65/Table B-47, p. 246 1964-06 155.6
+ERP65/Table B-47, p. 246 1964-07 156.7
+ERP65/Table B-47, p. 246 1964-08 157.2
+ERP65/Table B-47, p. 246 1964-09 158.0
+ERP65/Table B-47, p. 246 1964-10 158.6
+ERP65/Table B-47, p. 246 1964-11 159.1
+ERP65/Table B-47, p. 246 1964-12 159.4
+ERP66/Table C-45, p. 263 1965-01 160.0 prior=159.7
+ERP66/Table C-45, p. 263 1965-02 159.7
+ERP66/Table C-45, p. 263 1965-03 160.3
+ERP66/Table C-45, p. 263 1965-04 161.1
+ERP66/Table C-45, p. 263 1965-05 160.0
+ERP66/Table C-45, p. 263 1965-06 161.8
+ERP66/Table C-45, p. 263 1965-07 162.5
+ERP66/Table C-45, p. 263 1965-08 162.7
+ERP66/Table C-45, p. 263 1965-09 164.3
+ERP66/Table C-45, p. 263 1965-10 165.6
+ERP66/Table C-45, p. 263 1965-11 165.7
+ERP66/Table C-45, p. 263 1965-12 167.4
+ERP67/Table B-46, p. 268 1966-01 168.0 prior=167.2
+ERP67/Table B-46, p. 268 1966-02 168.2
+ERP67/Table B-46, p. 268 1966-03 169.3
+ERP67/Table B-46, p. 268 1966-04 170.9
+ERP67/Table B-46, p. 268 1966-05 170.2
+ERP67/Table B-46, p. 268 1966-06 171.1
+ERP67/Table B-46, p. 268 1966-07 169.6
+ERP67/Table B-46, p. 268 1966-08 169.6
+ERP67/Table B-46, p. 268 1966-09 170.5
+ERP67/Table B-46, p. 268 1966-10 169.6
+ERP67/Table B-46, p. 268 1966-11 169.2
+ERP67/Table B-46, p. 268 1966-12 170.2
+ERP68/Table B-50, p. 268 1967-01 170.3 prior=170.4
+ERP68/Table B-50, p. 268 1967-02 171.5
+ERP68/Table B-50, p. 268 1967-03 173.1
+ERP68/Table B-50, p. 268 1967-04 172.7
+ERP68/Table B-50, p. 268 1967-05 174.5
+ERP68/Table B-50, p. 268 1967-06 176.2
+ERP68/Table B-50, p. 268 1967-07 177.9
+ERP68/Table B-50, p. 268 1967-08 179.1
+ERP68/Table B-50, p. 268 1967-09 179.2
+ERP68/Table B-50, p. 268 1967-10 180.3
+ERP68/Table B-50, p. 268 1967-11 181.2
+ERP68/Table B-50, p. 268 1967-12 181.5
+ERP69/Table B-50, p. 286 1968-01 182.3 prior=181.3
+ERP69/Table B-50, p. 286 1968-02 182.7
+ERP69/Table B-50, p. 286 1968-03 183.4
+ERP69/Table B-50, p. 286 1968-04 184.3
+ERP69/Table B-50, p. 286 1968-05 186.1
+ERP69/Table B-50, p. 286 1968-06 187.4
+ERP69/Table B-50, p. 286 1968-07 189.4
+ERP69/Table B-50, p. 286 1968-08 190.3
+ERP69/Table B-50, p. 286 1968-09 189.5
+ERP69/Table B-50, p. 286 1968-10 190.2
+ERP69/Table B-50, p. 286 1968-11 192.0
+ERP69/Table B-50, p. 286 1968-12 193.0
 """
 
-# M1 plus time deposits adjusted at commercial banks ("Total money supply and time deposits adjusted"), averages of
-# daily figures, seasonally adjusted, billions. Dec. 1960-Aug. 1962: the Jan. 1963 Report, Table C-45, p. 226 (the Jan.
-# 1962 Report prints time deposits unadjusted only); M1 and time deposits found to add to it within 0.1. From Sept.
-# 1962, the Survey (below).
+# M1 plus time deposits adjusted at commercial banks ("Total money supply and time deposits adjusted"), the same
+# Reports and pages; Dec. 1960 and 1961 from the Jan. 1963 Report (the Jan. 1962 Report prints time deposits unadjusted
+# only). M1 and time deposits found to add to it within 0.1 in every month. The Jan. 1967 Report's note 5: from June
+# 1966, balances accumulated for the payment of personal loans are excluded from time deposits ($1.1 billion).
 M1T = """
 ERP63/Table C-45, p. 226 1960-12 213.9
 ERP63/Table C-45, p. 226 1961-01 215.1
@@ -146,6 +230,333 @@ ERP63/Table C-45, p. 226 1962-05 235.2
 ERP63/Table C-45, p. 226 1962-06 236.2
 ERP63/Table C-45, p. 226 1962-07 237.4
 ERP63/Table C-45, p. 226 1962-08 237.6
+ERP63/Table C-45, p. 226 1962-09 238.7
+ERP63/Table C-45, p. 226 1962-10 240.8
+ERP63/Table C-45, p. 226 1962-11 242.9
+ERP63/Table C-45, p. 226 1962-12 245.3
+ERP64/Table C-45, p. 262 1963-01 247.9 prior=245.3
+ERP64/Table C-45, p. 262 1963-02 248.9
+ERP64/Table C-45, p. 262 1963-03 250.7
+ERP64/Table C-45, p. 262 1963-04 252.0
+ERP64/Table C-45, p. 262 1963-05 253.1
+ERP64/Table C-45, p. 262 1963-06 254.3
+ERP64/Table C-45, p. 262 1963-07 256.2
+ERP64/Table C-45, p. 262 1963-08 257.3
+ERP64/Table C-45, p. 262 1963-09 258.4
+ERP64/Table C-45, p. 262 1963-10 260.9
+ERP64/Table C-45, p. 262 1963-11 263.8
+ERP64/Table C-45, p. 262 1963-12 265.0
+ERP65/Table B-47, p. 246 1964-01 267.7 prior=265.5
+ERP65/Table B-47, p. 246 1964-02 268.9
+ERP65/Table B-47, p. 246 1964-03 269.9
+ERP65/Table B-47, p. 246 1964-04 270.9
+ERP65/Table B-47, p. 246 1964-05 271.9
+ERP65/Table B-47, p. 246 1964-06 274.1
+ERP65/Table B-47, p. 246 1964-07 276.1
+ERP65/Table B-47, p. 246 1964-08 277.8
+ERP65/Table B-47, p. 246 1964-09 279.7
+ERP65/Table B-47, p. 246 1964-10 281.7
+ERP65/Table B-47, p. 246 1964-11 284.2
+ERP65/Table B-47, p. 246 1964-12 285.9
+ERP66/Table C-45, p. 263 1965-01 288.8 prior=286.3
+ERP66/Table C-45, p. 263 1965-02 290.7
+ERP66/Table C-45, p. 263 1965-03 292.4
+ERP66/Table C-45, p. 263 1965-04 294.6
+ERP66/Table C-45, p. 263 1965-05 294.6
+ERP66/Table C-45, p. 263 1965-06 297.7
+ERP66/Table C-45, p. 263 1965-07 300.1
+ERP66/Table C-45, p. 263 1965-08 302.8
+ERP66/Table C-45, p. 263 1965-09 305.9
+ERP66/Table C-45, p. 263 1965-10 309.2
+ERP66/Table C-45, p. 263 1965-11 311.2
+ERP66/Table C-45, p. 263 1965-12 314.3
+ERP67/Table B-46, p. 268 1966-01 315.8 prior=314.1
+ERP67/Table B-46, p. 268 1966-02 316.7
+ERP67/Table B-46, p. 268 1966-03 318.8
+ERP67/Table B-46, p. 268 1966-04 322.3
+ERP67/Table B-46, p. 268 1966-05 323.2
+ERP67/Table B-46, p. 268 1966-06 324.8 note=from June 1966 balances held to repay personal loans excluded from time deposits ($1.1bn)
+ERP67/Table B-46, p. 268 1966-07 324.9
+ERP67/Table B-46, p. 268 1966-08 326.2
+ERP67/Table B-46, p. 268 1966-09 327.6
+ERP67/Table B-46, p. 268 1966-10 326.4
+ERP67/Table B-46, p. 268 1966-11 326.1
+ERP67/Table B-46, p. 268 1966-12 328.2
+ERP68/Table B-50, p. 268 1967-01 331.1 prior=329.0
+ERP68/Table B-50, p. 268 1967-02 335.0
+ERP68/Table B-50, p. 268 1967-03 339.2
+ERP68/Table B-50, p. 268 1967-04 340.8
+ERP68/Table B-50, p. 268 1967-05 344.4
+ERP68/Table B-50, p. 268 1967-06 348.6
+ERP68/Table B-50, p. 268 1967-07 352.5
+ERP68/Table B-50, p. 268 1967-08 356.3
+ERP68/Table B-50, p. 268 1967-09 358.2
+ERP68/Table B-50, p. 268 1967-10 361.1
+ERP68/Table B-50, p. 268 1967-11 363.7
+ERP68/Table B-50, p. 268 1967-12 365.3
+ERP69/Table B-50, p. 286 1968-01 366.4 prior=364.8
+ERP69/Table B-50, p. 286 1968-02 367.9
+ERP69/Table B-50, p. 286 1968-03 370.1
+ERP69/Table B-50, p. 286 1968-04 371.4
+ERP69/Table B-50, p. 286 1968-05 373.7
+ERP69/Table B-50, p. 286 1968-06 375.6
+ERP69/Table B-50, p. 286 1968-07 379.8
+ERP69/Table B-50, p. 286 1968-08 384.0
+ERP69/Table B-50, p. 286 1968-09 386.0
+ERP69/Table B-50, p. 286 1968-10 389.8
+ERP69/Table B-50, p. 286 1968-11 393.9
+ERP69/Table B-50, p. 286 1968-12 397.3
+"""
+
+# Free reserves of member banks (excess reserves less borrowings at the Reserve Banks), averages of daily figures,
+# millions: each year's months as the next January's Report tabled them ("Federal Reserve Bank credit and member bank
+# reserves"; February in 1968), its last one or two months marked preliminary; the change in January from the Report's
+# own December before (prior=). Read off the page images at 170-230 dpi; each month's excess reserves and borrowings
+# read with it, and the difference found equal to the printed figure in every month.
+FREE = """
+ERP62/Table B-46, p. 262 1960-12 669
+ERP62/Table B-46, p. 262 1961-01 696
+ERP62/Table B-46, p. 262 1961-02 517
+ERP62/Table B-46, p. 262 1961-03 476
+ERP62/Table B-46, p. 262 1961-04 562
+ERP62/Table B-46, p. 262 1961-05 453
+ERP62/Table B-46, p. 262 1961-06 549
+ERP62/Table B-46, p. 262 1961-07 530
+ERP62/Table B-46, p. 262 1961-08 537
+ERP62/Table B-46, p. 262 1961-09 552
+ERP62/Table B-46, p. 262 1961-10 442
+ERP62/Table B-46, p. 262 1961-11 509
+ERP62/Table B-46, p. 262 1961-12 423
+ERP63/Table C-47, p. 228 1962-01 546 prior=419
+ERP63/Table C-47, p. 228 1962-02 434
+ERP63/Table C-47, p. 228 1962-03 379
+ERP63/Table C-47, p. 228 1962-04 441
+ERP63/Table C-47, p. 228 1962-05 434
+ERP63/Table C-47, p. 228 1962-06 371
+ERP63/Table C-47, p. 228 1962-07 443
+ERP63/Table C-47, p. 228 1962-08 436
+ERP63/Table C-47, p. 228 1962-09 378
+ERP63/Table C-47, p. 228 1962-10 419
+ERP63/Table C-47, p. 228 1962-11 470
+ERP63/Table C-47, p. 228 1962-12 264
+ERP64/Table C-47, p. 264 1963-01 384 prior=268
+ERP64/Table C-47, p. 264 1963-02 300
+ERP64/Table C-47, p. 264 1963-03 271
+ERP64/Table C-47, p. 264 1963-04 313
+ERP64/Table C-47, p. 264 1963-05 248
+ERP64/Table C-47, p. 264 1963-06 141
+ERP64/Table C-47, p. 264 1963-07 158
+ERP64/Table C-47, p. 264 1963-08 137
+ERP64/Table C-47, p. 264 1963-09 92
+ERP64/Table C-47, p. 264 1963-10 95
+ERP64/Table C-47, p. 264 1963-11 39
+ERP64/Table C-47, p. 264 1963-12 178
+ERP65/Table B-50, p. 250 1964-01 175 prior=209
+ERP65/Table B-50, p. 250 1964-02 89
+ERP65/Table B-50, p. 250 1964-03 99
+ERP65/Table B-50, p. 250 1964-04 167
+ERP65/Table B-50, p. 250 1964-05 82
+ERP65/Table B-50, p. 250 1964-06 120
+ERP65/Table B-50, p. 250 1964-07 135
+ERP65/Table B-50, p. 250 1964-08 83
+ERP65/Table B-50, p. 250 1964-09 89
+ERP65/Table B-50, p. 250 1964-10 106
+ERP65/Table B-50, p. 250 1964-11 -34
+ERP65/Table B-50, p. 250 1964-12 171
+ERP66/Table C-49, p. 268 1965-01 106 prior=168
+ERP66/Table C-49, p. 268 1965-02 36
+ERP66/Table C-49, p. 268 1965-03 -75
+ERP66/Table C-49, p. 268 1965-04 -105
+ERP66/Table C-49, p. 268 1965-05 -180
+ERP66/Table C-49, p. 268 1965-06 -182
+ERP66/Table C-49, p. 268 1965-07 -174
+ERP66/Table C-49, p. 268 1965-08 -134
+ERP66/Table C-49, p. 268 1965-09 -155
+ERP66/Table C-49, p. 268 1965-10 -149
+ERP66/Table C-49, p. 268 1965-11 -82
+ERP66/Table C-49, p. 268 1965-12 -11
+ERP67/Table B-51, p. 274 1966-01 -44 prior=-2
+ERP67/Table B-51, p. 274 1966-02 -107
+ERP67/Table B-51, p. 274 1966-03 -246
+ERP67/Table B-51, p. 274 1966-04 -268
+ERP67/Table B-51, p. 274 1966-05 -352
+ERP67/Table B-51, p. 274 1966-06 -352
+ERP67/Table B-51, p. 274 1966-07 -358
+ERP67/Table B-51, p. 274 1966-08 -390
+ERP67/Table B-51, p. 274 1966-09 -368
+ERP67/Table B-51, p. 274 1966-10 -431
+ERP67/Table B-51, p. 274 1966-11 -222
+ERP67/Table B-51, p. 274 1966-12 -161
+ERP68/Table B-53, p. 271 1967-01 -16 prior=-165
+ERP68/Table B-53, p. 271 1967-02 -4
+ERP68/Table B-53, p. 271 1967-03 236
+ERP68/Table B-53, p. 271 1967-04 175
+ERP68/Table B-53, p. 271 1967-05 269
+ERP68/Table B-53, p. 271 1967-06 297
+ERP68/Table B-53, p. 271 1967-07 272
+ERP68/Table B-53, p. 271 1967-08 298
+ERP68/Table B-53, p. 271 1967-09 268
+ERP68/Table B-53, p. 271 1967-10 160
+ERP68/Table B-53, p. 271 1967-11 270
+ERP68/Table B-53, p. 271 1967-12 103
+ERP69/Table B-53, p. 289 1968-01 144 prior=107
+ERP69/Table B-53, p. 289 1968-02 38
+ERP69/Table B-53, p. 289 1968-03 -315
+ERP69/Table B-53, p. 289 1968-04 -413
+ERP69/Table B-53, p. 289 1968-05 -326
+ERP69/Table B-53, p. 289 1968-06 -341
+ERP69/Table B-53, p. 289 1968-07 -226
+ERP69/Table B-53, p. 289 1968-08 -190
+ERP69/Table B-53, p. 289 1968-09 -132
+ERP69/Table B-53, p. 289 1968-10 -167
+ERP69/Table B-53, p. 289 1968-11 -281
+ERP69/Table B-53, p. 289 1968-12 -366
+"""
+
+# U.S. reserve assets, end of month, millions: GOLD/CURRENCIES/IMF/TOTAL. 1962-65 from the Reports of Jan. 1964-66,
+# "United States gold stock and holdings of convertible foreign currencies by U.S. monetary authorities": the gold stock
+# (its total, the Exchange Stabilization Fund's gold included) and the foreign currency holdings, the total of the two;
+# no IMF position printed ("-"). 1966-68 from the Reports of Feb. 1968 and Jan. 1969, "United States reserve assets:
+# gold stock, holdings of convertible foreign currencies, and reserve position in the International Monetary Fund".
+# 1965 is the Jan. 1966 Report's (its gold from Sept. 1965 counts the gold the IMF deposited, $8-34 million; its note 4).
+# 1966 is the Feb. 1968 Report's (the Jan. 1967 Report prints no such table). Each month's parts found to add to the
+# printed total. Read off the page images at 190-210 dpi.
+RES = """
+ERP64/Table C-82, p. 303 1962-01 16847/116/-/16963 prior=16947/116/-/17063
+ERP64/Table C-82, p. 303 1962-02 16795/153/-/16948
+ERP64/Table C-82, p. 303 1962-03 16643/230/-/16873
+ERP64/Table C-82, p. 303 1962-04 16519/243/-/16762
+ERP64/Table C-82, p. 303 1962-05 16458/260/-/16718
+ERP64/Table C-82, p. 303 1962-06 16527/554/-/17081
+ERP64/Table C-82, p. 303 1962-07 16182/496/-/16678
+ERP64/Table C-82, p. 303 1962-08 16139/423/-/16562
+ERP64/Table C-82, p. 303 1962-09 16081/450/-/16531
+ERP64/Table C-82, p. 303 1962-10 16026/338/-/16364
+ERP64/Table C-82, p. 303 1962-11 16014/202/-/16216
+ERP64/Table C-82, p. 303 1962-12 16057/99/-/16156
+ERP64/Table C-82, p. 303 1963-01 15974/128/-/16102
+ERP64/Table C-82, p. 303 1963-02 15891/132/-/16023
+ERP64/Table C-82, p. 303 1963-03 15946/132/-/16078
+ERP64/Table C-82, p. 303 1963-04 15914/132/-/16046
+ERP64/Table C-82, p. 303 1963-05 15854/155/-/16009
+ERP64/Table C-82, p. 303 1963-06 15830/126/-/15956
+ERP64/Table C-82, p. 303 1963-07 15677/87/-/15764
+ERP64/Table C-82, p. 303 1963-08 15633/92/-/15725
+ERP64/Table C-82, p. 303 1963-09 15634/154/-/15788
+ERP64/Table C-82, p. 303 1963-10 15640/270/-/15910
+ERP64/Table C-82, p. 303 1963-11 15609/171/-/15780
+ERP64/Table C-82, p. 303 1963-12 15596/212/-/15808
+ERP65/Table B-84, p. 289 1964-01 15540/307/-/15847 prior=15596/212/-/15808
+ERP65/Table B-84, p. 289 1964-02 15518/347/-/15865
+ERP65/Table B-84, p. 289 1964-03 15550/440/-/15990
+ERP65/Table B-84, p. 289 1964-04 15727/264/-/15991
+ERP65/Table B-84, p. 289 1964-05 15693/253/-/15946
+ERP65/Table B-84, p. 289 1964-06 15623/182/-/15805
+ERP65/Table B-84, p. 289 1964-07 15629/211/-/15840
+ERP65/Table B-84, p. 289 1964-08 15657/233/-/15890
+ERP65/Table B-84, p. 289 1964-09 15643/227/-/15870
+ERP65/Table B-84, p. 289 1964-10 15606/96/-/15702
+ERP65/Table B-84, p. 289 1964-11 15566/758/-/16324
+ERP65/Table B-84, p. 289 1964-12 15471/432/-/15903
+ERP66/Table C-82, p. 305 1965-01 15208/364/-/15572 prior=15471/432/-/15903
+ERP66/Table C-82, p. 305 1965-02 14993/227/-/15220
+ERP66/Table C-82, p. 305 1965-03 14639/490/-/15129
+ERP66/Table C-82, p. 305 1965-04 14480/404/-/14884
+ERP66/Table C-82, p. 305 1965-05 14362/149/-/14511
+ERP66/Table C-82, p. 305 1965-06 14049/546/-/14595
+ERP66/Table C-82, p. 305 1965-07 13969/728/-/14697
+ERP66/Table C-82, p. 305 1965-08 13916/1037/-/14953
+ERP66/Table C-82, p. 305 1965-09 13925/959/-/14884
+ERP66/Table C-82, p. 305 1965-10 13937/858/-/14795
+ERP66/Table C-82, p. 305 1965-11 13879/807/-/14686
+ERP66/Table C-82, p. 305 1965-12 13807/777/-/14584
+ERP68/Table B-88, p. 312 1966-01 13811/639/774/15224 prior=13806/781/863/15450
+ERP68/Table B-88, p. 312 1966-02 13811/377/774/14962
+ERP68/Table B-88, p. 312 1966-03 13738/559/729/15026
+ERP68/Table B-88, p. 312 1966-04 13668/522/726/14916
+ERP68/Table B-88, p. 312 1966-05 13582/628/695/14905
+ERP68/Table B-88, p. 312 1966-06 13529/722/707/14958
+ERP68/Table B-88, p. 312 1966-07 13413/1093/642/15148
+ERP68/Table B-88, p. 312 1966-08 13319/1299/397/15015
+ERP68/Table B-88, p. 312 1966-09 13356/1148/372/14876
+ERP68/Table B-88, p. 312 1966-10 13311/1213/356/14880
+ERP68/Table B-88, p. 312 1966-11 13262/1108/345/14715
+ERP68/Table B-88, p. 312 1966-12 13235/1321/326/14882
+ERP68/Table B-88, p. 312 1967-01 13202/645/349/14196
+ERP68/Table B-88, p. 312 1967-02 13161/480/357/13998
+ERP68/Table B-88, p. 312 1967-03 13184/314/357/13855
+ERP68/Table B-88, p. 312 1967-04 13234/315/357/13906
+ERP68/Table B-88, p. 312 1967-05 13214/363/366/13943
+ERP68/Table B-88, p. 312 1967-06 13169/738/367/14274
+ERP68/Table B-88, p. 312 1967-07 13136/719/369/14224
+ERP68/Table B-88, p. 312 1967-08 13075/1162/368/14605
+ERP68/Table B-88, p. 312 1967-09 13077/1200/372/14649
+ERP68/Table B-88, p. 312 1967-10 13039/1509/379/14927
+ERP68/Table B-88, p. 312 1967-11 12965/2092/381/15438
+ERP68/Table B-88, p. 312 1967-12 12065/2345/420/14830
+ERP69/Table B-89, p. 330 1968-01 12003/2176/441/14620 prior=12065/2345/420/14830
+ERP69/Table B-89, p. 330 1968-02 11900/2235/655/14790
+ERP69/Table B-89, p. 330 1968-03 10703/2746/477/13926
+ERP69/Table B-89, p. 330 1968-04 10547/2804/489/13840
+ERP69/Table B-89, p. 330 1968-05 10468/3386/494/14348
+ERP69/Table B-89, p. 330 1968-06 10681/2479/903/14063
+ERP69/Table B-89, p. 330 1968-07 10676/2773/917/14366
+ERP69/Table B-89, p. 330 1968-08 10681/2817/929/14427
+ERP69/Table B-89, p. 330 1968-09 10755/2953/926/14634
+ERP69/Table B-89, p. 330 1968-10 10788/2703/936/14427
+ERP69/Table B-89, p. 330 1968-11 10897/3655/1108/15660
+ERP69/Table B-89, p. 330 1968-12 10892/3528/1290/15710
+"""
+
+# Balances on merchandise trade and on goods and services, quarterly, seasonally adjusted annual rates, millions: as
+# the next January's Report tabled them ("United States balance of payments", the quarters under "Seasonally adjusted
+# annual rates"; February in 1968). Each Report prints the quarters through the third of the year before, so a fourth
+# quarter is the Report of a year later's. MERCHANDISE/GOODS_SERVICES: the balance on goods and services as printed
+# (its own column); the merchandise balance computed, merchandise exports less merchandise imports as printed (the
+# Reports print no such column). Each quarter's exports less imports of goods and services found equal to the printed
+# balance. The quarter before (prior=) from the same table. Read off the page images at 190 dpi. The Jan. 1962 Report
+# prints no quarters (1961 by Jan.-Sept. only); the fourth quarter of 1968 is in the Report of Jan. 1970, not read.
+# Printed figures, by quarter: exports of goods and services, merchandise exports, imports (as a positive figure, or
+# negative from 1969), merchandise imports, balance:
+#   ERP63 Table C-78, p. 262: prior (27844, 19944, 21884, 13688, 5960); 1961Q1 28276,20244,21792,13476,6484; 1961Q2 27312,19072,22040,13668,5272; 1961Q3 27564,19760,23708,15360,3856; 1961Q4 29112,20584,24152,15552,4960; 1962Q1 29008,20252,24248,15680,4760; 1962Q2 30660,21356,24912,16128,5748; 1962Q3 29480,20680,25332,16520,4148
+#   ERP64 Table C-77, p. 297: prior (30200, 21080, 25128, 16508, 5072); 1962Q4 29696,19700,25364,16184,4332; 1963Q1 29788,19992,25028,16008,4760; 1963Q2 31564,21924,25740,16680,5824; 1963Q3 31964,22156,26724,17616,5240
+#   ERP65 Table B-79, p. 282: prior (32148, 22440, 26932, 17472, 5216); 1963Q4 33884,23668,26976,17516,6908; 1964Q1 36000,24448,26992,17464,9008; 1964Q2 35356,24144,28032,18304,7324; 1964Q3 36656,25448,28804,18988,7852
+#   ERP66 Table C-78, p. 300: prior (37340, 25528, 28544, 18836, 8796); 1964Q4 38428,26760,29528,19604,8900; 1965Q1 34660,22344,28628,18652,6032; 1965Q2 40368,26992,32388,21876,7980; 1965Q3 40104,27224,32704,22084,7400
+#   ERP67 Table B-80, p. 306: prior (40064, 27304, 32980, 22380, 7084); 1965Q4 40260,28108,34160,23024,6100; 1966Q1 41980,28684,35704,24016,6276; 1966Q2 42288,28444,36848,25048,5440; 1966Q3 43792,29756,39048,26636,4744
+#   ERP68 Table B-83, p. 306: prior (43652, 29528, 39048, 26320, 4604); 1966Q4 43988,29608,39652,26720,4336; 1967Q1 45444,30704,40016,26648,5428; 1967Q2 45448,30868,40152,26232,5296; 1967Q3 45916,30576,40440,26220,5476
+#   ERP69 Table B-84, p. 324: prior (46052, 30504, 40616, 26164, 5436); 1967Q4 45984,29912,42592,28636,3392; 1968Q1 47440,31696,46136,31468,1304; 1968Q2 50228,33300,47860,33280,2368; 1968Q3 52988,35360,49476,34312,3512
+GS = """
+ERP63/Table C-78, p. 262 1961Q1 6768/6484 prior=6256/5960
+ERP63/Table C-78, p. 262 1961Q2 5404/5272
+ERP63/Table C-78, p. 262 1961Q3 4400/3856
+ERP63/Table C-78, p. 262 1961Q4 5032/4960
+ERP63/Table C-78, p. 262 1962Q1 4572/4760
+ERP63/Table C-78, p. 262 1962Q2 5228/5748
+ERP63/Table C-78, p. 262 1962Q3 4160/4148
+ERP64/Table C-77, p. 297 1962Q4 3516/4332 prior=4572/5072
+ERP64/Table C-77, p. 297 1963Q1 3984/4760
+ERP64/Table C-77, p. 297 1963Q2 5244/5824
+ERP64/Table C-77, p. 297 1963Q3 4540/5240
+ERP65/Table B-79, p. 282 1963Q4 6152/6908 prior=4968/5216
+ERP65/Table B-79, p. 282 1964Q1 6984/9008
+ERP65/Table B-79, p. 282 1964Q2 5840/7324
+ERP65/Table B-79, p. 282 1964Q3 6460/7852
+ERP66/Table C-78, p. 300 1964Q4 7156/8900 prior=6692/8796
+ERP66/Table C-78, p. 300 1965Q1 3692/6032
+ERP66/Table C-78, p. 300 1965Q2 5116/7980
+ERP66/Table C-78, p. 300 1965Q3 5140/7400
+ERP67/Table B-80, p. 306 1965Q4 5084/6100 prior=4924/7084
+ERP67/Table B-80, p. 306 1966Q1 4668/6276
+ERP67/Table B-80, p. 306 1966Q2 3396/5440
+ERP67/Table B-80, p. 306 1966Q3 3120/4744
+ERP68/Table B-83, p. 306 1966Q4 2888/4336 prior=3208/4604
+ERP68/Table B-83, p. 306 1967Q1 4056/5428
+ERP68/Table B-83, p. 306 1967Q2 4636/5296
+ERP68/Table B-83, p. 306 1967Q3 4356/5476
+ERP69/Table B-84, p. 324 1967Q4 1276/3392 prior=4340/5436
+ERP69/Table B-84, p. 324 1968Q1 228/1304
+ERP69/Table B-84, p. 324 1968Q2 20/2368
+ERP69/Table B-84, p. 324 1968Q3 1048/3512
 """
 
 
@@ -332,10 +743,23 @@ def money():
                                   'then': {'label': 'Board of Governors: the money supply and time deposits adjusted at commercial banks, averages of daily figures, seasonally adjusted', 'unit': 'billions of dollars'},
                                   'now': None},
                 first_rows(parse(M1T), 'billions of dollars', 'pct'))
+    if want('free-reserves'):
+        now = fred_month('NFORBRES', 1000)          # FRED's copy of the H.3 figure, billions
+        if now is None and h3:
+            tr, rq, br = h3['RESTR14A_N.M'], h3['RESRQ14A_N.M'], h3['RESBR14A_N.M']
+            now = {p: tr[p] - rq[p] - br[p] for p in tr if p in rq and p in br}
+        monthly('free-reserves', {'id': 'free-reserves', 'name': 'Free reserves, member banks', 'freq': 'M', 'manual': True,
+                                  'change': 'diff',
+                                  'then': {'label': 'Board of Governors: member banks\' excess reserves less their borrowings at the Reserve Banks, averages of daily figures', 'unit': 'millions of dollars'},
+                                  'now': {'label': 'Board of Governors, H.3 (historical): total reserves less required reserves, less borrowings from the Federal Reserve, not seasonally adjusted',
+                                          'unit': 'millions of dollars',
+                                          'source': 'FRED NFORBRES (Board of Governors, H.3; the same as its total less required reserves, less borrowings)',
+                                          'url': FRED + 'NFORBRES'}},
+                first_rows(parse(FREE), 'millions of dollars', 'diff'), now, change='diff', nd=0)
     if h6 and want('money-m2'):
         m2 = h6['M2.M']
         rows = []
-        for p in MONTHS:
+        for p in MSPAN:
             v, b = m2.get(p), m2.get(prev(p))
             row = {'p': p, 'now': v}
             if v is not None and b is not None:
@@ -346,6 +770,93 @@ def money():
                                    'source': 'Board of Governors, H.6 (Data Download Program, M2.M; FRED M2SL)', 'url': FRED + 'M2SL'}}, rows)
 
 
+def fred_month(sid, scale=1):
+    """{YYYY-MM: value} from FRED (None where FRED does not answer)."""
+    d = fred(sid)
+    return None if d is None else {k[:7]: v * scale for k, v in d.items()}
+
+
+def international():
+    """Reserve assets as the Reports tabled them; today the IMF's reserves less gold (FRED TRESEGUSM052N)."""
+    if want('reserve-assets'):
+        now = fred_month('TRESEGUSM052N')
+        if now is None:
+            print('FRED did not answer for TRESEGUSM052N')
+        rows = []
+        first = first_rows(parse(RES, ['gold', 'currencies', 'imf', 'total']), 'millions of dollars', 'diff', total='total')
+        for p in MSPAN:
+            row = {'p': p}
+            row.update(first.get(p, {}))
+            if now and now.get(p) is not None:
+                row['now'] = round(now[p], 1)
+                if now.get(prev(p)) is not None:
+                    row['chg_now'] = round(now[p] - now[prev(p)], 1)
+            if len(row) > 1:
+                rows.append(row)
+        write('reserve-assets', {'id': 'reserve-assets', 'name': 'U.S. reserve assets', 'freq': 'M', 'manual': True,
+                                 'change': 'diff', 'fields': ['gold', 'currencies', 'imf', 'total'],
+                                 'then': {'label': 'Treasury and Board of Governors: gold stock, convertible foreign currencies held by the Treasury and the Federal Reserve, and (from the Feb. 1968 Report) the reserve position in the IMF, end of month', 'unit': 'millions of dollars'},
+                                 'now': {'label': 'IMF, International Financial Statistics: total reserves excluding gold, United States, end of month', 'unit': 'millions of dollars',
+                                         'source': 'FRED TRESEGUSM052N', 'url': FRED + 'TRESEGUSM052N'}}, rows)
+
+
+def quarterly_fred(sid, scale):
+    d = fred(sid)
+    return None if d is None else {f'{k[:4]}Q{(int(k[5:7]) - 1) // 3 + 1}': v * scale for k, v in d.items()}
+
+
+def balances():
+    """The balances on merchandise and on goods and services, quarterly, as the Reports tabled them; today BEA's (FRED
+    BOPBM, BOPBGS: quarterly, billions, seasonally adjusted, discontinued), at annual rates (times four)."""
+    if not want('goods-services'):
+        return
+    m, g = quarterly_fred('BOPBM', 4000), quarterly_fred('BOPBGS', 4000)
+    first = first_rows(parse(GS, ['merchandise', 'goods_services']), 'millions of dollars, annual rate', 'diff', total='goods_services')
+    rows = []
+    for q in [f'{y}Q{n}' for y in range(1961, 1969) for n in range(1, 5)]:
+        row = {'p': q}
+        row.update(first.get(q, {}))
+        if m and g and q in m and q in g:
+            row['now'] = {'merchandise': round(m[q]), 'goods_services': round(g[q])}
+            if prev(q) in g:
+                row['chg_now'] = round(g[q] - g[prev(q)])
+        if len(row) > 1:
+            rows.append(row)
+    write('goods-services', {'id': 'goods-services', 'name': 'Balances on trade and on goods and services', 'freq': 'Q', 'manual': True,
+                             'change': 'diff', 'fields': ['merchandise', 'goods_services'],
+                             'then': {'label': 'Commerce, Office of Business Economics: merchandise exports less imports, and the balance on goods and services, seasonally adjusted annual rates', 'unit': 'millions of dollars, annual rate'},
+                             'now': {'label': 'BEA, international transactions (discontinued on FRED): balance on merchandise trade and on goods and services, seasonally adjusted, quarterly, times four',
+                                     'unit': 'millions of dollars, annual rate', 'source': 'FRED BOPBM, BOPBGS (times four)', 'url': FRED + 'BOPBGS'}}, rows)
+
+
+def costs():
+    """Unit labor costs and hourly compensation, nonfarm business, today only (FRED ULCNFB, COMPNFB): no contemporary
+    printing read (notes/leads.md)."""
+    for sid, fid, name, label in (
+            ('unit-labor-cost', 'ULCNFB', 'Unit labor costs, nonfarm business (today)',
+             'BLS, Productivity and Costs: nonfarm business sector, unit labor costs, index, seasonally adjusted'),
+            ('compensation-hour', 'COMPNFB', 'Compensation per hour, nonfarm business (today)',
+             'BLS, Productivity and Costs: nonfarm business sector, hourly compensation, index, seasonally adjusted')):
+        if not want(sid):
+            continue
+        d = quarterly_fred(fid, 1)
+        if d is None:
+            print('FRED did not answer for', fid)
+            continue
+        rows = []
+        for q in ['1960Q4'] + [f'{y}Q{n}' for y in range(1961, 1969) for n in range(1, 5)]:
+            v, b = d.get(q), d.get(prev(q))
+            row = {'p': q, 'now': round(v, 1)}
+            if b:
+                row['chg_now'] = round(100 * ((v / b) ** 4 - 1), 1)
+            rows.append(row)
+        write(sid, {'id': sid, 'name': name, 'freq': 'Q', 'change': 'pct_ar', 'then': None,
+                    'now': {'label': label, 'unit': '2017=100', 'source': f'FRED {fid}', 'url': FRED + fid}}, rows)
+
+
 if __name__ == '__main__':
     rates()
     money()
+    international()
+    balances()
+    costs()

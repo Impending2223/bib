@@ -146,6 +146,7 @@ budgets/budgets.yaml      each fiscal year's budget, 1961–70, by source and fu
 budgets/today.yaml        the same years as OMB's Historical Tables give them today (generated; never edit)
 budgets/debt-limits.yaml  the thirteen acts changing the debt limit, June 30, 1960–Apr. 7, 1969 (kept by hand)
 congress/bills.yaml       a bill's course, step by step, from the History of Bills and Voteview (kept by hand)
+congress/appropriations.yaml  each session's appropriation bills against the estimates, 1960–68, from the Record (kept by hand)
 sources/states.yaml       each State's own official election publications, where to read them, what they print (kept by hand)
 daybook/<YYYY-MM>.yaml    every Public Papers (APP) and FRUS document by date (generated)
 daybook/abstracts.yaml    one-sentence abstracts, keyed by document (kept by hand or agent)
@@ -1345,6 +1346,31 @@ the series index, the README and the top bar (数; at first kept out of the bar,
 - `check` fails on a bad period, a first-reported figure without a release
   date, or a transcribed figure without a source.
 
+## Armed forces a year
+
+The owner's request (Oct. 20–22, 2026): the forces and the machines a year, apart from the economic tables, under Armed
+Forces Day (`tools/bib/afday.py` calls `forces.afd_block(y)`: the figures of the year before; `forces.block(year)` renders
+a year). `forces/us.yaml` and `forces/world.yaml`, kept by hand, every figure read off a page (the headers are the
+schema); `tools/bib/forces.py` renders and checks them (STYLE notes at the top). A table a kind, each folded, its date
+and unit in the summary, its sources linked under it; a column only where the year has it ("Printed then" beside
+"DMDC today", never empty); wide tables split to fit 400px.
+
+- The United States: men on active duty by service, June 30 (the *Statistical Abstract*, 1965 and 1969 eds., beside
+  DMDC's June files today); where they were, Dec. 31 (1960, 1965, 1968: Abstract 1969, table 375); by place, Sept. 30
+  (DMDC's reports as *troopdata* transcribes them; not published then); major forces, June 30 (Abstract 1969, table
+  369: divisions, ships, air groups, squadrons, aircraft by service); the Budget's strategic and general purpose forces
+  (ICBM squadrons, Polaris boats and missiles, bomber wings, divisions, warships; 1964–68, the Abstract's reprints);
+  ships by class, active and reserve (1960–65); Air Force aircraft by type and missiles by design (Atlas, Titan,
+  Minuteman, Thor, Jupiter, Hound Dog, Quail; the *USAF Statistical Digest*, classified then, DTIC's copies on
+  archive.org); nuclear weapons (DOE's 1994 table; FAS's estimate).
+- The world, then and later apart: men by service as the *Military Balance* printed them (the Abstract's reprints,
+  1966–68); ACDA's first table, spending and men, 1966; Jane's warships by type, 1967–68; and, made since, the
+  Correlates of War's military personnel every year and FAS's warheads.
+- `check` holds every total to its parts (`sum` rows, `sumcols`), every column to a source, and allows a printed
+  figure that does not add only with its `printed` note. No armor yet, nor NATO's own tables: notes/leads.md, Foreign.
+- The estimates of the Soviet forces are calendar entries, a document each, in the subthread "Defense: Soviet forces"
+  (NIE 11-8 and its kin, FRUS 1958–60 III, 1961–63 VIII, 1964–68 X).
+
 ## Federal budgets, the debt limit, and bills
 
 `tools/bib/budgets.py` and `tools/bib/bills.py` (STYLE notes at the top of each):
@@ -1367,7 +1393,27 @@ the series index, the README and the top bar (数; at first kept out of the bar,
   entries of their own (thread `economy-debt-limit`).
 - A signing entry tagged `bill:<key>` carries the bill's course (`congress/bills.yaml`): each step dated by the bound
   Record's daily parts (the History of Bills prints pages, not dates), its page linked to that chamber's day on
-  govinfo, its roll calls linked to Voteview. Now the Revenue Act of 1964 and the Revenue and Expenditure Control Act.
+  govinfo, its roll calls linked to Voteview. Now the Revenue Acts of 1962 and 1964, the Trade Expansion Act, the
+  Civil Rights Acts of 1964 and 1968, the Economic Opportunity Act, the Southeast Asia (Gulf of Tonkin) resolution, the
+  Voting Rights Act, the Social Security Amendments of 1965, the Elementary and Secondary Education Act, the Immigration
+  and Nationality Act Amendments, the Tax Adjustment Act and the Revenue and Expenditure Control Act. A page turns to
+  its day by `tools/congress/make_record_pages.py OUT YEAR...` (needs the network; the build does not): each bound
+  part's MODS on govinfo, every granule's first and last page, day and chamber, written as `pages-<YEAR>.tsv` (also
+  the input `tools/executive/make_source_links.py` reads); the History's page is looked up in the chamber the step
+  names. A page the History misprints (another day's, another chamber's) is replaced by the page the Record's day
+  shows, the step's note saying so; a step the History does not give (the message, a roll call on an amendment) is
+  dated by its own record (the Public Papers, Voteview). A day of many roll calls on amendments is one row, the first
+  and last linked.
+- A session's adjournment entry tagged `appropriations:<Congress>-<session>` (86-2 to 90-2) carries the session's
+  appropriation bills against the President's estimates (`congress/appropriations.yaml`, `tools/bib/appropriations.py`,
+  its STYLE): one table a session, read off the table printed in the bound Record at the session's end (the House or
+  Senate Appropriations Committee's, found by the Record's Index under Appropriations, Tables), each figure as printed in
+  whole dollars, shown in $m: estimate, enacted, change, in the source's groups (the fiscal year's bills, the
+  supplementals) and with its printed totals; loan and contract authority in parentheses, uncounted, as printed. The
+  sources differ session to session (the estimates to the Senate, or the House's; the 1964 summary prints no estimates,
+  the 1965 table "savings"): each table names its source's columns. `check` fails where a row's estimate and change do
+  not make its amount or the rows do not add to the printed total, unless the row or total carries the source's
+  `misprint`, shown under the table.
 - Revenue effects of the tax acts: Tempalski, OTA Working Paper 81 (`[[w.tempalski-revenue-effects-of-major]]`), by
   table and page, in the signing entries of the Revenue Acts of 1962 and 1964, the Tax Adjustment Act and the Revenue
   and Expenditure Control Act; the paper has no figures for the excise act of 1965 or the investment credit's
@@ -1443,7 +1489,7 @@ Two standing rules (the owner's rules, Oct. 21, 2026; `tools/bib/contents.py`, i
 - After the grid, under "Tables and maps", every table and map on the page, in the order it first appears, each linked
   to its anchor, grouped by year in the grid's year column: the Executive Branch at each term, each Congress at its
   opening, the leaders and committees, the November elections, the governors, the legislatures, State finance, the
-  budgets, the debt limit acts, a bill's course, each party's primaries, the conventions' delegations and roll calls,
+  budgets, the debt limit acts, a bill's course, the session's appropriations, each party's primaries, the conventions' delegations and roll calls,
   the dead by home State, the maps of Indochina. Not the one-off elections (a special, a single primary day), nor the
   month's indicators. And each thread's statement in the thread index lists the tables and maps its entries carry on
   the page, in order, in a muted line set right above the See also line ("*Tables and maps* Election of Nov. 8, 1960 ·
@@ -1569,6 +1615,54 @@ tools/bib/committees.py         the committees' list and "Testimony before Congr
 - To extend the span, change FROM/TO in the script and add calendar sections; the days
   follow the calendar's dated sections.
 
+## The Public Papers
+
+The owner's request (Oct. 22, 2026): "Yes to govinfo (be sure to clean them, indicate their pagination in-text, and
+replace our APP links with PPP links where possible, while leaving the APP links where it's not)." The *Public Papers
+of the Presidents* (Office of the Federal Register), 1960–69, from GPO's volumes on govinfo (collection PPP): Eisenhower
+1960–61 (`PPP-1960-book1`), Kennedy 1961, 1962, 1963 (`PPP-1961-book1` … `PPP-1963-book1`), Johnson 1963–64 Books I
+and II (`PPP-1963-book2`, `PPP-1964-book1`), 1965–1968–69 Books I and II (`PPP-1965-book1` … `PPP-1968-book2`):
+fourteen scanned books, each one PDF with ABBYY's OCR layer and no granules. Public domain (17 U.S.C. § 105). Nothing is
+taken from presidency.ucsb.edu (its robots.txt bars AI crawlers): APP's own pages are linked, never read.
+
+```
+tools/ppp/make_ppp_text.py   fetches each PDF (585–825 MB) into --cache, reads its words with their boxes (pdftotext
+                             -bbox, kept gzipped there, ~12 MB), deletes the PDF; segments and cleans (its docstring:
+                             the reading and the cleaning, STYLE 1–7); writes sources/ppp-text/<package>.json.xz and
+                             sources/ppp-text/rules.json (each cleaning rule and how often it fired, by volume)
+tools/ppp/match_app.py       matches APP's documents (the daybook's President rows, sources/app-index.jsonl) to the items
+                             (its STYLE); writes sources/ppp-matches.json: the matches, the unmatched on each side, each
+                             volume's particulars and an index of its items
+tools/ppp/relink.py          rewrites the lists' links to matched APP documents as Public Papers cites (prints each change)
+tools/bib/ppp.py             the cite, the link, the texts for the ebooks, and check (STYLE notes at the top)
+```
+
+- An item: its number, heading (title and date as printed; a date the OCR lost is `month` alone or `filed` under the
+  item before), first and last printed page, first and last PDF page, and its text as blocks: paragraphs, set-off
+  lines (salutations' closes, signatures), the editors' bracketed notes, the "NOTE:" after the text, footnotes, small
+  type. "[p. 123]" marks where each printed page begins; every item's text opens with its first page's marker. A year's
+  two books are paginated through, so a page finds its item without the book. 5,414 items, 9.9 MB compressed.
+- The cite, the Bluebook's: the volume's years, "Pub. Papers", the item's first page ("1961 Pub. Papers 1",
+  "1963–64 Pub. Papers 842", "1960–61 Pub. Papers 589"), linked to the PDF at that page (`…/PPP-1961-book1.pdf#page=59`);
+  in a calendar note after the title and before the date: "Inaugural Address, [1961 Pub. Papers 1](…) (Jan. 20,
+  1961)". The hover names the volume, item and pages. Write new notes so; the APP link only where the Papers do not
+  print the document (executive orders, proclamations, platforms, the campaign of 1960) or no item matches.
+- Where the series showed APP, the Papers now stand where an item matches (STYLE 3 in `tools/bib/ppp.py`): the
+  daybook's President list (daybook STYLE 13), the calendar's and the lists' notes (rewritten in the data by
+  `relink.py`: 1,284 links in 109 files, Oct. 22, 2026; 176 left on APP), the Names' presidential documents, the
+  Executive roster's APP sources (an APP address, or `APP YYYY-MM-DD`: the day's items that name the holder). Of APP's
+  7,505 documents of Jan. 1960–Jan. 20, 1969, 5,325 match an item (98.5 percent of the 5,405 the Papers could print;
+  1,163 are orders, proclamations and platforms, 937 a candidate's or Nixon's); 5,324 of the items match.
+- Accuracy, checked by eye against the page images (Oct. 22, 2026; see the module's docstring): item boundaries and page
+  markers right on every page read; the words as the OCR read them, its misreadings put right by the rules logged in
+  `rules.json` (digits in numbers and years, J read as I, "£", split small capitals, hyphens at line ends, a fixed
+  table of letter confusions against the volumes' own vocabulary). A misreading no rule meets stands.
+- `check` [ppp]: fails on a file in `sources/ppp-text/` that is not a volume's or `rules.json`, an item out of order,
+  pages or markers out of order, a PDF page outside the volume, a date outside the volume's span, an item with no
+  text or not opening with its page's marker, a match naming no item; warns on items the OCR lost (`missing`) and on a
+  list's APP link the Papers print (run `relink.py`). Rerun `make_ppp_text.py --cache DIR` (DIR holding the boxes, or
+  the network) and then `match_app.py` after changing either; the build needs neither.
+
 ## Ebooks and feeds
 
 The owner's request (Oct. 22, 2026): "ebooks of documents, arranged chronologically, and RSS feeds of accessible
@@ -1577,12 +1671,13 @@ lists both, by year (the series index's Pages, README).
 
 - Ebooks (`tools/bib/ebooks.py`, its STYLE): an EPUB 3 a month, `build/ebooks/documents-<YYYY-MM>.epub`, Jan. 1960 to
   Jan. 1969: every FRUS document the daybook files that month, in full with its footnotes, and the President's Public
-  Papers by title, linked to APP, day by day in the daybook's order; a title page (contents, order, sources, terms),
+  Papers in full (above, "The Public Papers"; each item's text with its pages marked and linked to the PDF, the
+  documents the Papers do not print by title, linked to APP), day by day in the daybook's order; a title page (contents, order, sources, terms),
   the contents by day, each document's citation and links to history.state.gov and to its day in the calendar. The
   text from `sources/frus-text/` (`python3 tools/ebooks/make_frus_text.py --cache DIR`, the TEI make_daybook.py
-  reads; rerun after make_daybook.py; its STYLE the conversion). The build needs neither TEI nor network. No text of
-  the Public Papers: APP's transcriptions are its site's (its robots.txt refuses automated readers, ClaudeBot by name)
-  and govinfo has these years only as page scans. `ebooks.validate` checks each book's structure (the mimetype first
+  reads; rerun after make_daybook.py; its STYLE the conversion). The build needs neither TEI nor network. The
+  Papers' text from `sources/ppp-text/` (GPO's scans, their OCR cleaned), never APP's transcriptions (its site's; its
+  robots.txt refuses automated readers, ClaudeBot by name). `ebooks.validate` checks each book's structure (the mimetype first
   and stored, container, manifest, spine, nav, every file well-formed, every inner link); epubcheck 5.1.0 passes
   them (not in the workflow: it needs Java).
 - Feeds (`tools/bib/feeds.py`, its STYLE): RSS 2.0, a feed a year (the owner's choice, Oct. 22, 2026), `build/feeds/recordings-<YYYY>.xml`, and

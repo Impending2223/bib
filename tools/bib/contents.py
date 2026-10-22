@@ -74,6 +74,11 @@ def _election(key):
     return f"Election of {fmt(d)}" if d else f"Election of {key}"
 
 
+def _approp(key):
+    from . import appropriations
+    return appropriations.label(key)
+
+
 def _bill(key):
     from . import bills
     b = bills.load().get(key) or {}
@@ -105,6 +110,7 @@ KINDS = {
     "budget": lambda k: f"Budget, fiscal {k}",                                  # budgets.py
     "debt-limits": lambda k: "Debt limit acts",                                 # budgets.py
     "bill": _bill,                                                             # bills.py
+    "appropriations": _approp,                                                 # appropriations.py
     "primaries": lambda k: f"{PARTY.get(k[-1], k[-1])} primaries, {k[:4]}",     # primaries.py
     "conventions": lambda k: f"{PARTY.get(k[-1], k[-1])} convention, {k[:4]}: delegations",   # conventions.py
     "rollcall": _rollcall,                                                     # conventions.py

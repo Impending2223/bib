@@ -244,7 +244,7 @@ tables:
       - {key: army-missile-commands, label: Missile commands}
       - {key: army-ad, label: Air defense battalions}
       - {key: army-sf, label: Special forces groups}
-      - {key: army-aircraft, label: Aircraft, active inventory}
+      - {key: army-aircraft, label: 'Aircraft, active inventory'}
       - {key: h-navy, label: Navy and Marine Corps, group: true}
       - {key: navy-warships, label: Warships, indent: 1}
       - {key: navy-other, label: Other ships, indent: 1}
@@ -256,7 +256,7 @@ tables:
       - {key: marine-wings, label: Marine aircraft wings}
       - {key: navy-op, label: Operating aircraft, indent: 1}
       - {key: navy-log, label: Logistical support aircraft, indent: 1}
-      - {key: navy-aircraft, label: Aircraft, active inventory, sum: [navy-op, navy-log]}
+      - {key: navy-aircraft, label: 'Aircraft, active inventory', sum: [navy-op, navy-log]}
       - {key: h-af, label: Air Force, group: true}
       - {key: af-strategic, label: Strategic squadrons, indent: 1}
       - {key: af-ad, label: Air defense squadrons, indent: 1}
@@ -264,7 +264,7 @@ tables:
       - {key: af-squadrons, label: Squadrons, sum: [af-strategic, af-ad, af-tactical]}
       - {key: af-op, label: Operating aircraft, indent: 1}
       - {key: af-nonop, label: Nonoperating aircraft, indent: 1}
-      - {key: af-aircraft, label: Aircraft, active inventory, sum: [af-op, af-nonop]}
+      - {key: af-aircraft, label: 'Aircraft, active inventory', sum: [af-op, af-nonop]}
     cols:
       - {key: n, head: Printed 1969}
     years:
@@ -312,7 +312,7 @@ tables:
       - {key: h-lift, label: Airlift and sealift, group: true}
       - {key: airlift-new, label: C-130 through C-141 squadrons}
       - {key: airlift-old, label: Older transport squadrons}
-      - {key: sealift, label: Troopships, cargo ships and tankers}
+      - {key: sealift, label: 'Troopships, cargo ships and tankers'}
     cols:
       - {key: n, head: Printed then}
     years:
@@ -334,7 +334,7 @@ tables:
       - {key: patrol, label: Patrol, indent: 1}
       - {key: auxiliary, label: Auxiliary, indent: 1}
       - {key: command, label: Command ships, indent: 1}
-      - {key: navy, label: Navy, Military Sea Transportation Service aside, sum: [warships, amphibious, mine, patrol, auxiliary, command]}
+      - {key: navy, label: 'Navy, Military Sea Transportation Service aside', sum: [warships, amphibious, mine, patrol, auxiliary, command]}
       - {key: msts, label: Military Sea Transportation Service}
       - {key: total, label: Total, sum: [navy, msts]}
     cols:
@@ -426,7 +426,7 @@ tables:
       - {key: quail-c, label: Quail C}
       - {key: agena, label: Agena-Discoverer}
       - {key: strategic, label: Strategic, sum: [snark, atlas-d, atlas-e, atlas-f, titan-1, titan-2, minuteman, minuteman-a, minuteman-b, minuteman-f, thor, jupiter, hound-dog, hound-dog-a, hound-dog-b, quail, quail-a, quail-b, quail-c, agena]}
-      - {key: tactical, label: Tactical (Matador, Mace)}
+      - {key: tactical, label: 'Tactical (Matador, Mace)'}
       - {key: air-defense, label: Air defense (Bomarc)}
       - {key: test, label: Test}
       - {key: total, label: Total, sum: [strategic, tactical, air-defense, test]}
@@ -473,7 +473,7 @@ tables:
       - {key: builds, label: Built in the year}
       - {key: retirements, label: Retired in the year}
     cols:
-      - {key: doe, head: DOE, 1994}
+      - {key: doe, head: 'DOE, 1994'}
       - {key: fas, head: FAS today}
     years:
       1960:

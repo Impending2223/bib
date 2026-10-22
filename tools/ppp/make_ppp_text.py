@@ -50,8 +50,9 @@ the folios and the pictures):
  6. Notes: a small-type paragraph opening "NOTE:" (ABBYY reads the small capitals "note:") begins the editors'
     note, and what follows in the item is note. A small-type paragraph before it opening with a mark ("*", "1") is a
     footnote; any other is `q`. A body paragraph in square brackets (not a news conference's "[1.]") is `b`.
- 7. Pages: the folios read (the bottom line's number, misread digits allowed) give each PDF page's offset; a page
-    whose folio is not read takes the offset of the read pages on either side where they agree, else the nearer.
+ 7. Pages: the folios read (the bottom line's number, misread digits allowed) give each PDF page's offset, kept
+    where it is the commonest offset of the folios read within ten pages and three agree; a page whose folio is not
+    read, or not kept, takes the offset of the kept pages on either side where they agree, else the nearer.
 """
 import argparse
 import collections
@@ -540,11 +541,13 @@ def list_of_items(pages, body_h, last_front):
 def folio_runs(folios, npages):
     """{pdf page: offset} for every page from the read folios (STYLE 7), and the runs."""
     read = sorted((p, p - f) for p, f in folios.items() if f is not None and 0 < f < 2000)
-    # keep a read folio only where a neighbour agrees with its offset
+    # keep a read folio only where its offset is the commonest of the folios read within ten pages, and at least
+    # three agree (a digit misread on two or three pages together does not make a run)
     good = []
     for i, (p, off) in enumerate(read):
-        near = [o for q, o in read[max(0, i - 3):i + 4] if q != p]
-        if near.count(off) >= 1:
+        near = [o for q, o in read if abs(q - p) <= 10]
+        top = collections.Counter(near).most_common(1)[0]
+        if off == top[0] and top[1] >= 3:
             good.append((p, off))
     off = {}
     j = 0
@@ -588,6 +591,8 @@ def is_item_head(r, expect, left=None, bh=8.6, nxt=None):
             if n2 is not None and expect <= n2 <= expect + 3:
                 return n2, k
     if n is not None and expect <= n <= expect + 3:
+        if not re.search(r"[A-Za-z]{3}", line_text(r[1:])):
+            return None, 0                        # no title after it: the half title's year ('1 9 6 3')
         return n, 1
     k = 1
     while k < len(r) - 1 and k < 3 and len(r[k][4]) <= 2 and not r[k][4][:1].isupper():

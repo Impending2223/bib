@@ -60,7 +60,7 @@ def index_entries(text, first, last):
     text = re.sub(r"(\S)\s*\.*\s+(\d{1,4})\s+(?=[A-Z\"“])",
                   lambda m: m.group(1) + " " + m.group(2) + ("\n" if first <= int(m.group(2)) <= last else " "), text)
     lines = [x.strip() for x in text.split("\n")]
-    out, buf, heading = [], "", None
+    out, buf = [], ""
     for ln in lines:
         if not ln or re.match(r"^(?:Index|Vol\.?\s|[A-Z][a-z]+\s+\d{1,2},\s*\d{4})", ln) and not buf:
             continue
@@ -74,15 +74,13 @@ def index_entries(text, first, last):
             sub = re.match(r"^(U\.S\.S\.R|[A-Za-z][\w,'’()\-]*(?:\s+[\w,'’()\-]+){0,4}?)\.\s+(?=[A-Z0-9\"“])", body)
             if sub and not re.search(r"\b(?:U|S|Mr|Mrs|Dr|St|No|[A-Z])$", sub.group(1)) \
                     and sub.group(1).count("(") == sub.group(1).count(")"):      # not "R. A. Egger", "(Sieverts. Tinker)"
-                heading, body = sub.group(1), body[sub.end():]
-                HEADINGS[heading] = HEADINGS.get(heading, 0) + 1
+                body = body[sub.end():]                 # the subject heading off
             title = mend(body)
             if not NAME.match(title) and not re.search(r"\d,$|,\s*\d{1,4}$", title):    # not a run of pages
                 out.append((title, int(m.group(2))))
             buf = ""
         elif len(cur) < 45 and not re.search(r"\d", cur) and not buf:
-            heading, buf = cur, ""                       # a subject heading on a line of its own
-            HEADINGS[heading] = HEADINGS.get(heading, 0) + 1
+            buf = ""                       # a subject heading on a line of its own
         else:
             buf = cur
             if len(buf) > 400:
@@ -192,10 +190,20 @@ def readings(cache, iid, L, i, lo, hi):
     return index_entries(numbers(L[i][2]), lo, hi) + index_entries(numbers(rebuilt(cache, iid, L[i][0])), lo, hi)
 
 
+def clean(title):
+    """A reading's debris taken off (RULES 8): the page's head before it ("pril 8, 1963 I n d"), a stray mark, "Ind" after
+    it; a subject heading the gutter clipped ("azil. U.S. Regrets ...", "eaty Information. Current ..."); "U." lost
+    before "S." at the margin."""
+    title = re.sub(r"^\S{0,12}\s*\d{1,2}[,.]?\s*19[56]\d\s+(?:I\s?n\s?d\s?(?:e\s?[xX])?\s+)?", "", title)
+    title = re.sub(r"\s+(?:Ind|Index|e X)$", "", re.sub(r"^[^A-Za-z0-9\"“‘(]+", "", title))
+    title = re.sub(r"^[a-z][\w\-]*(?:\s[\w\-,]+){0,3}\.\s+(?=[A-Z0-9\"“])", "", title)
+    return re.sub(r"^S\. (?=[A-Z])", "U.S. ", title)
+
+
 def garbled(title, first, last):
     """A reading run on into another entry, or the OCR's debris in it: a stray mark, the page's head, a page number."""
-    return bool(re.search(r"[\^■»«#|\\]|\bVol\.|\be X\b", title)) or any(
-        first <= int(n) <= last for n in re.findall(r"(?<=\s)(\d{2,4})(?=\s+[A-Z])", title))
+    return bool(re.search(r"[\^■»«#|\\]|\bVol\.|\be X\b|\d,\s?(?!19\d\d\b)\d", title)) or any(
+        first <= int(n) <= last for n in re.findall(r"(?<=[\s.)])(\d{2,4})(?=\s+[A-Z])", title))
 
 
 def best(readings_, first, last):
@@ -204,7 +212,14 @@ def best(readings_, first, last):
     item stands under several subjects); then the shorter (a reading run on into the next entry is longer). None where
     every reading is garbled."""
     good = [t for t in readings_ if not garbled(t, first, last) and len(t) <= 220]
-    good = [t for t in good if not any(r != t and t.endswith(" " + r) and heading_like(t[:-len(r)]) for r in good)]
+    def run_on(t, r):                                    # t holds r and more: run on from another entry, or into one
+        tw, rw = t.split(), r.split()
+        if len(rw) < 3 or len(tw) < len(rw) + 2:
+            return False
+        tail = sum(a == b for a, b in zip(tw[-len(rw):], rw)) >= 0.75 * len(rw)
+        head = sum(a == b for a, b in zip(tw[:len(rw)], rw)) >= 0.75 * len(rw) and not tw[len(rw)].startswith("(")
+        return tail or head
+    good = [t for t in good if not any(r != t and run_on(t, r) for r in good)]
     if not good:
         return None
     n = {t: good.count(t) for t in good}
@@ -213,15 +228,6 @@ def best(readings_, first, last):
         wt = words(t)
         return sum(len(words(r) & wt) >= 0.8 * len(words(r)) for r in good)
     return min(good, key=lambda t: (not re.match(r"^[A-Z0-9\"“‘]", t), -holds(t), -n[t], len(t)))
-
-
-HEADINGS = {}                                          # a subject heading -> the times the indexes print it
-
-
-def heading_like(head):
-    """A subject heading the index prints, run on before an entry, perhaps with its first letter lost to the gutter."""
-    head = head.strip(" .")
-    return any(h == head or (len(head) >= 3 and h[1:] == head) for h in HEADINGS if HEADINGS[h] >= 2)
 
 
 def run_ons(rows):
@@ -489,7 +495,7 @@ def year(y, cache, since=None, until=None):
         for j in sorted(set(ls)):
             for title, page in f["R"](j, first, last):
                 title = re.sub(r"^(?:\S+\s+){0,3}Vol\.?\s+\S+,?\s+No\.?\s*\S+\s+", "", title)    # the page's head
-                title = re.sub(r"\s+(?:Ind|Index|e X)$", "", re.sub(r"^[^A-Za-z0-9\"“‘(]+", "", title))
+                title = clean(title)
                 w = words(title)
                 if not w or title.startswith("("):
                     continue

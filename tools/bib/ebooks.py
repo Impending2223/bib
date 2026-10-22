@@ -316,11 +316,11 @@ def build_book(month, docs, text, cal, built):
     title = f"Documents, {month_label(month)}"
     # the title page (STYLE 2)
     vol_list = "".join(f"<li>{esc(v)}</li>" for v in vols)
+    not_printed = f"; {len(app_only):,} documents the Public Papers do not print, by title" if app_only else ""
     tp = (f'<div class="title"><h1>{esc(title)}</h1>'
           f'<p>Every document of <i>Foreign Relations of the United States</i> dated in {esc(month_label(month))}, in '
           f'full ({nfrus:,}{"" if with_text == nfrus else f"; {with_text:,} with their text"}), and the President’s '
-          f'Public Papers of the month in full ({nppp:,} items{f"; {len(app_only):,} documents the Public Papers do not '
-          f'print, by title" if app_only else ""}), day by day.</p>'
+          f'Public Papers of the month in full ({nppp:,} items{not_printed}), day by day.</p>'
           '<p>Order: as the calendar’s daybook files them. A document under the day it is dated, a range under its '
           'first day; an editorial note under the document before it in its volume. Within a day, the President’s '
           'items in the volume’s order (an item whose heading gives no day under the date of the item before it), '

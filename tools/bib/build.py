@@ -17,6 +17,7 @@ from . import wardead
 from . import oilworld
 from . import budgets
 from . import bills
+from . import appropriations
 from . import dayblocks          # blocks under a date: the war table, Armed Forces Day
 from . import smart
 from . import feeds
@@ -1120,6 +1121,7 @@ def run(series, which=None):
                 page = statefin.inject(page, series)
                 page = budgets.inject(page, series)
                 page = bills.inject(page, series)
+                page = appropriations.inject(page, series)
                 page = vnmap.inject(page, series)
                 page = indicators.inject(page, series, "list")
                 page = dayblocks.inject(page, series, "list")   # day blocks: the war table, Armed Forces Day
@@ -1149,6 +1151,7 @@ def run(series, which=None):
         page = statefin.inject(page, series)
         page = budgets.inject(page, series)
         page = bills.inject(page, series)
+        page = appropriations.inject(page, series)
         page = vnmap.inject(page, series)
         page = indicators.inject(page, series, "series")
         page = dayblocks.inject(page, series, "series")   # day blocks: the war table, Armed Forces Day

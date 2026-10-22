@@ -420,13 +420,19 @@ document was found. Each under the entry it concerns; `./bib find -t check -l ca
 
 ### Federal finance (the fiscal agent, Oct. 21, 2026)
 
-- Appropriations, each session's bills against the President's estimates (the plan's item 5,
-  `notes/proposals/fiscal-congress-conventions-state.md`): the Senate's *Appropriations, Budget Estimates, Etc.* for
-  the 1960s not found open (HathiTrust not tried); the *CQ Almanac* is borrow-only on archive.org.
+- Appropriations (the bills agent, Oct. 22, 2026): each session's table is now in, read from the tables printed in the
+  bound Record (`congress/appropriations.yaml`). Still to do: the Senate's *Appropriations, Budget Estimates, Etc.* for
+  the 1960s, not found open (archive.org holds only the 1980s' editions; HathiTrust not tried), would give the House
+  and Senate columns and the supplementals of every session alike; 88th, 2d sess. (1964): the Record's summary prints
+  no estimates (the full table, 110 Cong. Rec. 24054–24055, does, bill by bill, its OCR poor); 89th, 1st (1965): the
+  table of Oct. 22, 1965, prints no bill numbers and no subtotal by fiscal year; 90th, 1st (1967): the table is as of
+  Dec. 11, 1967, before foreign assistance and the supplemental were enacted (a later table: the 1968 Index,
+  "Appropriations, 90th Congress, 1st session" not found; look in the Record of Jan. 1968).
 - Fiscal 1968's first-reported actual on the administrative basis, by source and by function: not in the budget of
-  January 1969 (unified only). Look in the Treasury's *Annual Report* for fiscal 1968 (FRASER, AR_TREASURY_1968.pdf:
-  its statistical tables seem to be in a separate appendix) or the *Treasury Bulletin*, Aug.–Sept. 1968
-  (`budgets/budgets.yaml`, 1968 `actual: null`).
+  January 1969 (unified only), nor in the Treasury's *Annual Report* for fiscal 1968 (archive.org, SecTreasAnnReport1968,
+  read Oct. 22, 2026: outlays on the unified basis, by agency, p. 6). Look in the *Treasury Bulletin*, Aug.–Sept. 1968
+  (FRASER, under maintenance Oct. 22, 2026: its files answered a maintenance page) (`budgets/budgets.yaml`, 1968
+  `actual: null`).
 - Fiscal 1967's expenditures by function, interest (13,524) and general government (2,708): read from the OCR text of
   the Treasury's *Annual Report*, 1967, p. 484, not the page image (the lines add to the printed total).
 - Debt limit: the Senate's tabling of Gore's depletion amendment to H.R. 12381, June 18, 1960 (Johnson's motion,
@@ -436,13 +442,23 @@ document was found. Each under the entry it concerns; `./bib find -t check -l ca
 - Revenue effects not in Tempalski's OTA Working Paper 81: the Excise Tax Reduction Act of 1965 (cal.1965-06-21.economy),
   the investment credit's suspension (cal.1966-11-08.economy) and restoration (cal.1967-06-13.economy). The Treasury's
   estimates are in the next January's budgets (the receipts chapters) and the Treasury's Annual Reports.
-- Bill histories still to do (`congress/bills.yaml`, the plan's item 3): the Revenue Act of 1962 (H.R. 10650), the
-  Interest Equalization Tax Act (H.R. 8000, 1963–64), the Excise Tax Reduction Act of 1965 (H.R. 8371), the Tax
-  Adjustment Act (H.R. 12752), the investment credit's suspension (H.R. 17607) and restoration (H.R. 6950), the
+- Bill histories still to do (`congress/bills.yaml`, the plan's item 3; the Revenue Act of 1962 and the Tax Adjustment
+  Act done Oct. 22, 2026, with nine others): the
+  Interest Equalization Tax Act (H.R. 8000, 1963–64), the Excise Tax Reduction Act of 1965 (H.R. 8371), the
+  investment credit's suspension (H.R. 17607) and restoration (H.R. 6950), the
   Foreign Investors Tax Act (H.R. 13103, 1966), and the twelve debt-limit acts. The History of Bills parts are on
   govinfo (1960 pt15, 1961 pt17, 1962 pt18, 1963 pt20, 1964 pt19, 1965 pt22, 1966 pt22, 1967 pt28, 1968 pt25); the
   pages turn to days by each part's granule records (printPageRange in the package's mods.xml). Senate Finance's
   hearings on H.R. 8363 (Oct.–Dec. 1963) are not in the History and not yet in the calendar.
+- Bills' courses (the bills agent, Oct. 22, 2026), what the History of Bills misprints or omits: H.R. 7152's
+  introduction, printed p. 11227 (June 19, 1963), is on p. 11252 (June 20); H.R. 2362's Senate debate, printed from p.
+  7195 (a House page of Apr. 6, 1965), begins on the Senate's day of Apr. 7; H.R. 12752's conference report, printed
+  "submitted in House and agreed to" pp. 5775, 5778 (Mar. 14, 1966), was agreed to Mar. 15, p. 5788. Voteview dates
+  the Senate's passage of H.R. 10650 Sept. 5, 1962 (RS0870375); the Record prints the roll call in the proceedings of
+  Sept. 6. Not yet in the tables: the committees' hearings (Ways and Means on H.R. 6675, Judiciary on S. 1564 and H.R.
+  7152, Senate Finance on H.R. 10650 and H.R. 11970), which the History does not give; the House's Rules Committee
+  votes. The Senate's agreement to the conference reports on H.R. 11970 (Oct. 4, 1962) and H.R. 2580 (Sept. 30, 1965)
+  has no roll call in Voteview; the tables show none.
 
 ### Oil (the oil agent, Oct. 21, 2026)
 
@@ -717,6 +733,41 @@ Events Gibbons treats that the calendar lacks, not entered: no record reached an
   Supplement, the Arab-Israeli compilation) not read.
 - The UN Digital Library's search answers 202 with an empty body here; documents.un.org's
   `api/symbol/access?s=SYMBOL&l=en&t=pdf` gives the PDFs.
+
+### Armed forces a year, and the estimates of the Soviet forces (forces/; the forces agent, Oct. 22, 2026)
+
+- Armor: no open source found for the Army's tanks and armored vehicles in inventory, or its divisions by type
+  (armored, mechanized, infantry, airborne, airmobile), 1960–68. The Secretary of Defense's *Annual Report* and the
+  posture statements print the divisions by type (history.defense.gov, refused here; HathiTrust full view, bot-checked);
+  the Army's *Green Book* and CMH's lineage volumes (history.army.mil, refused) the rest.
+- Ships by type, 1966 and after (carriers, cruisers, destroyers, submarines, amphibious, auxiliaries, active fleet):
+  NHHC's "U.S. Ship Force Levels" (history.navy.mil, TLS refused here). The *Statistical Abstract*'s class table ends
+  with June 30, 1965 (1966 ed., table 373); Jane's by type for 1967–68 is in the world table.
+- Navy and Marine aircraft by type: the Abstract printed them to Jan. 1, 1962 only (1965 ed., table 362; then withheld);
+  the Navy's own inventory (the *Navy Aircraft* statistics) not found open.
+- The SecDef *Annual Reports*, fiscal 1961–68: missiles on alert, Polaris boats at sea, bombers by type, as published
+  then. Not open here (history.defense.gov refused).
+- The U.S. warhead stockpile, 1962–68, as the government released it: DoD's fact sheet of May 3, 2010 (defense.gov and
+  open.defense.gov refused; state.gov's later fact sheets refused or down). Only DOE's 1994 table (totals to 1961) and
+  FAS's series via Our World in Data are in.
+- U.S. strength by country: DMDC's own Sept. 30 reports (309A) for 1957–68 were not reached; the figures are troopdata's
+  transcription. The printed reports (the Comptroller's) would settle them; the 1968 rows marked "e/" in it.
+- The world table, then: NATO's Annual Review country chapters and force tables, the Defence Planning Committee's
+  papers (archives.nato.int: connection reset here); *NATO Facts and Figures* (1969 ed., archive.org, lending only);
+  the UK's *Statement on the Defence Estimates*, Canada's 1964 *White Paper on Defence*, Australia's reports (not found
+  open); the Parallel History Project's Warsaw Pact documents (php.isn.ethz.ch: certificate mismatch;
+  parallelhistoryproject.org: refused); the *Military Balance* itself, 1959–68 (archive.org lends; HathiTrust search
+  only); the *Statistical Abstract*, 1966 ed., part 14 (census.gov refuses the file: "Request Rejected"), which may
+  print the Military Balance 1965–66 table.
+- The world table, later: ACDA's *World Military Expenditures and Arms Transfers*, 1963–1973 ed. (not found open; the
+  1966 edition of Dec. 1968 is in); SIPRI's military expenditure database (sipri.org answers; not yet read) and its
+  arms transfers database (deliveries of aircraft, armor, ships and missiles, by supplier and recipient).
+- The estimates: SNIE 11-14-61 (Nov. 21, 1961), NIE 11-4-60 (Dec. 1, 1960), NIE 11-3 (air defense, 1961–68), NIE
+  11-14-61 and the other general purpose estimates, and NIE 11-8-67 (not in FRUS) are not yet entries; the CIA's
+  reading room and Steury's volume print more. When each estimate was first released (before FRUS) not checked.
+- Armed Forces Day, 1968 figures: the tables count June 30 (and Sept. 30) of a year and stand under the next Armed
+  Forces Day, so the figures for 1968 (Armed Forces Day, May 17, 1969) fall outside the calendar: forces.block(1968)
+  renders them; no day carries them yet.
 
 ## The Executive roster
 

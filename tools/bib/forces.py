@@ -115,7 +115,7 @@ def value(v):
     if isinstance(v, (int, float)) and not isinstance(v, bool):
         return v
     if isinstance(v, str):
-        m = re.match(r"^(\d+)([¼½¾])?$", v.replace(",", ""))
+        m = re.match(r"^(\d+)([¼½¾])?E?$", v.replace(",", ""))
         if m:
             return int(m.group(1)) + {"¼": .25, "½": .5, "¾": .75, None: 0}[m.group(2)]
     return 0
@@ -149,7 +149,8 @@ def _cell(c, key, note_rows):
 
 def _date(t, year):
     a = str(t.get("asof") or "")
-    when = f"{a}, {year}" if re.match(r"^[A-Z][a-z]{2,4}\.? \d", a) else f"{year}, {a}" if a else str(year)
+    when = (f"{a}, {year}" if re.match(r"^[A-Z][a-z]{2,4}\.? \d", a) else f"{year}, {a}" if a and a != str(year)
+            else str(year))
     u = UNIT.get(t.get("unit"), "")
     return when + (f"; {u}" if u else "")
 
@@ -257,6 +258,12 @@ def problems(series=None):
             if len(rows) != len(t.get("rows") or []):
                 out.append((where, f"{tk}: a row key used twice"))
             colk = [c["key"] for c in t.get("cols") or []]
+            for r in t.get("rows") or []:
+                if set(r) - {"key", "label", "sum", "group", "indent"} or not isinstance(r.get("label"), str):
+                    out.append((where, f"{tk}: row {r.get('key')}: stray fields {sorted(set(r) - {'key', 'label', 'sum', 'group', 'indent'})} (a comma in an unquoted label?)"))
+            for c in t.get("cols") or []:
+                if set(c) - {"key", "head"} or not isinstance(c.get("head"), str):
+                    out.append((where, f"{tk}: column {c.get('key')}: stray fields (a comma in an unquoted head?)"))
             tol = t.get("tol", 0)
             for r in rows.values():
                 for p in r.get("sum") or []:

@@ -11,6 +11,11 @@ STYLE
     on govinfo; a step the History misprints says so in its note (shown under the table).
  4. The last row: approved, the Statutes cite linked to govinfo, the public law. The sources under the table: the
     History of Bills, by year, linked; Voteview.
+ 5. A step the History does not give (the message that asked for the bill, a run of roll calls on amendments) is
+    dated by its own record and carries no page; a run of roll calls on amendments over several days is one row, the
+    first and last linked. A bill passed in lieu of another (S. 2642 for H.R. 11377; S. 1564 for H.R. 6400; H.J. Res.
+    1145 for S.J. Res. 189) keeps the other bill's steps, named in the step. The pages turn to days by the bound
+    Record's granules (tools/congress/make_record_pages.py).
 """
 import os
 import re
