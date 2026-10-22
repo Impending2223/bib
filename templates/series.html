@@ -292,7 +292,9 @@ var META={{meta}}, ORDER={{order}};
   function ownerKey(el){var s=el.closest('section.list'); return s?s.dataset.key:'home';}
   function flash(el){ el.classList.remove('hit'); void el.offsetWidth; el.classList.add('hit'); setTimeout(function(){el.classList.remove('hit');},1900); }
   function jump(id, y, doFlash){
-    var el=document.getElementById(id); if(!el){ el=document.getElementById('home--top'); id='home--top'; }
+    var el=document.getElementById(id);
+    if(!el&&window.lzGo&&window.lzGo(id)) return;   // in a day's block not yet loaded: it loads, then comes back here
+    if(!el){ el=document.getElementById('home--top'); id='home--top'; }
     showList(ownerKey(el));
     if(y!=null) window.scrollTo(0,y);
     else if(/--top$/.test(id)) window.scrollTo(0,0);

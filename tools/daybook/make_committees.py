@@ -42,6 +42,10 @@ STYLE (the rows; rendered by tools/bib/committees.py):
  5. Folios: the running head's "D<n>"; where the OCR misreads it, the page's place among the pages whose folio reads
     (the offset of the nearest pages on either side). volumes.yaml gives each volume's runs of offset (PDF page to
     folio) and the pages whose folio was not read.
+ 7. A lead no name fits as read: two committees meeting together ("Committees on Armed Services and
+    Appropriations") are keyed to the first named, the name both; a lead the OCR garbled is its letters (digits read
+    as letters, a clause after a comma cut off) against the names at .78, either chamber's (its own first); a lead
+    with too little left to name one is "committee (name unread)", code '<ch>.unread'.
  6. A subcommittee's name the OCR cut short (the sentence not going on from it with its verb) is put whole where one
     name settles it (settle_subs): the committee's
     subcommittees in that Congress as the Congressional Staff Directory lists them (congress/subcommittees.yaml, 87th
@@ -84,7 +88,8 @@ COMMITTEES = {
           "Select Committee on Small Business", "Special Committee on Aging",
           "Select Committee on Standards and Conduct", "Special Committee on Unemployment Problems",
           "Select Committee on National Water Resources", "Select Committee on Improper Activities in the Labor or "
-          "Management Field"],
+          "Management Field", "Select Committee on Nutrition and Human Needs", "Select Committee on Equal Educational "
+          "Opportunity", "Special Committee on the Organization of the Congress"],
     "H": ["Agriculture", "Appropriations", "Armed Services", "Banking and Currency", "District of Columbia",
           "Education and Labor", "Foreign Affairs", "Government Operations", "House Administration",
           "Interior and Insular Affairs", "Interstate and Foreign Commerce", "Judiciary",
@@ -573,7 +578,41 @@ def committee_of(ch, lead, day="1965-01-01", before=None):
         if len(pre) == 1:
             n = pre.pop()
             return ch, printed, code_of(ch, n), n
-    return ch, printed, code_of(ch, t), t
+    # two committees meeting together ('Committees on Armed Services and Appropriations'): keyed to the first named,
+    # its name both
+    m = re.match(r"(?i)^Committees\s+on\s+(?:the\s+)?(.+?)\s*(?:,|\band\b\.?)\s*(?:the\s+)?(.+)$", t)
+    if m:
+        two = []
+        for part in (m.group(1), m.group(2)):
+            got = [n for n in COMMITTEES[ch] + COMMITTEES["H" if ch == "S" else "S"]
+                   if letters(n) == letters(part.split(",")[0])]
+            two.append(got[0] if got else None)
+        if all(two):
+            c1 = ch if two[0] in COMMITTEES[ch] else ("H" if ch == "S" else "S")
+            return c1, printed, code_of(c1, two[0]), f"{two[0]} and {two[1]}"
+    # a lead the OCR garbled ("Com;,,,ittec rm F()reign Relations", 'Commit~e on FirtQnce'): its letters, digits read
+    # as the letters they stand for, and a clause after a comma cut off, against the names at .78
+    g = re.sub(r",.*$", "", t) if len(t) > 40 else t
+    g = g.translate(str.maketrans("10", "lo"))
+    w1 = letters((re.split(r"\bo\W?n\b|\bon\b|\bOfl\b", g, maxsplit=1) + [""])[1].split()[0]
+                 if re.search(r"\bo\W?n\b|\bOfl\b", g) and (re.split(r"\bo\W?n\b|\bOfl\b", g, maxsplit=1) + [""])[1].split()
+                 else "")
+    g = letters(g)
+    best, score = None, 0
+    for c_ in (ch,) if ch == "J" else (ch, "H" if ch == "S" else "S"):
+        for n in COMMITTEES[c_]:
+            first = letters(re.sub(r"^(?:Select |Special |Joint )?(?:Committee on )?(?:the )?", "", n).split()[0])
+            if w1 and difflib.SequenceMatcher(None, w1, first[:len(w1) + 2]).ratio() < .6:
+                continue          # the first word of the name, as far as it reads, must agree
+            for f in ([n] if n.startswith(("Select", "Special", "Joint")) else [f"Committee on {n}",
+                                                                              f"Committee on the {n}"]):
+                r = difflib.SequenceMatcher(None, g, letters(f)).ratio() - (0 if c_ == ch else .05)
+                if r > score:
+                    best, score = (c_, n), r
+    if best and score >= .78 and len(g) >= 12:
+        return best[0], printed, code_of(*best), best[1]
+    # too little left to name one ('Committee on', 'Committee on J', 'Joint Committee'): the name unread
+    return ch, printed, f"{ch.lower()}.unread", "committee (name unread)"
 
 
 SUB = re.compile(r"\b((?:(?:Special |Select |Ad Hoc |General |Legislative |Consultative |Joint |[A-Z][\w'.-]+ )(?:and )?)*"
@@ -1059,7 +1098,7 @@ def read_volume(year, bbox):
             if m:
                 close()
                 prior = cur if cur is not None else rows[-1] if rows and rows[-1]["date"] == day else None
-                if re.match(r"\W*Sub", m[0]) and prior is not None:
+                if re.match(r"\W*(?:(?:Special|Select|Ad Hoc|Permanent)\s+)?Sub", m[0]) and prior is not None:
                     # 'Subcommittee on Census and Government Statistics:' after its committee's paragraph: another
                     # meeting of the same committee
                     close()

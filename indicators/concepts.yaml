@@ -44,6 +44,8 @@ vars:
   COLLINS: https://archive.org/details/CMHPub90-10-1
   LARSEN: https://archive.org/details/CMHPub90-5
   FRUS397: https://history.state.gov/historicaldocuments/frus1964-68v05/d397
+  THAYER5: https://archive.org/details/DTIC_ADA051611
+  CACTA: https://catalog.archives.gov/id/2123846
   SMS74: https://archive.org/details/DTIC_ADA043053
   SCB_NOTE: >-
     As first reported: the Bureau of Mines' figure as the [*Survey of Current Business*]({SCB}) (Commerce) first
@@ -432,6 +434,30 @@ series:
     1]({THAYER1}), p. 126, table 4). }}Later, by year and country, with the maneuver battalions: [Stanley R. Larsen and
     James Lawton Collins, Jr., *Allied Participation in Vietnam* (1975)]({LARSEN}), table 1, p. 23 ("Strength by Calendar
     Year"){{1966|; its 1966 total, 52,566, is not the sum of its countries, 52,587}}.
+
+  war-air-attack: >-
+    Attack sorties flown by U.S. and South Vietnamese fixed-wing aircraft, one aircraft's flight a sortie, by the country
+    of the target: North Vietnam, Laos, South Vietnam. Attack: strike, flak suppression, interdiction, armed
+    reconnaissance, close and direct air support; not reconnaissance, combat air patrol, escort, electronic warfare,
+    forward air control, flares, tankers or transports; not the B-52s. {{1966-11..1968-11|As first printed: OSD (Systems
+    Analysis)'s *Southeast Asia Analysis Report* of the month or two after, the figures it gives for a month, sometimes
+    one country only ([Thayer, vol. 5]({THAYER5}), pp. 222, 240, 254, 260, 275, 280, 284, 289); }}{{1968-05|its
+    figure for South Vietnam in May 1968, 21,386, is 21,836 by its own totals; }}{{1968-07|"over" 14,339 in North
+    Vietnam in July 1968; }}{{1968-11|330 in North Vietnam in Nov. 1968 before the halt of Nov. 1. }}Later: the
+    [Combat Air Activities file]({CACTA}) (CACTA), the Joint Staff's record of each sortie from CINCPAC's and CINCSAC's
+    daily reports, as the National Archives holds it, counted: each sortie once, under its first target's country, by
+    its number of aircraft. {{1965-10..1968-12|The archive has no file for Aug. 1966, July and Nov. 1967, or Mar., Apr.,
+    July and Nov. 1968 (none shown); }}{{1966-07|July 1966's file runs to the 15th only; }}{{1966-11..1968-11|set
+    beside the Report's, the count runs some 5 to 15 percent under it in Laos and North Vietnam and close to it in
+    South Vietnam (Jan.–Feb. 1968: North Vietnam 9,090 against 9,638, Laos 12,273 against 14,174, South Vietnam 35,161
+    against 34,891). }}The rules of the count: tools/indicators/make_war_air.py.
+
+  war-air-nvn-rp: >-
+    The attack sorties in North Vietnam by route package, the six areas (the sixth in two, 6A and 6B) into which the
+    command divided the country for the bombing, Route Package 1 the southernmost: the [Combat Air Activities
+    file]({CACTA}) (CACTA) counted as for the attack sorties by country; those whose route package is not coded apart.
+    The files code none before Sept. 1966.{{1968-05..1968-10| From May 1968 all but the uncoded (and one sortie in Aug.) in Route Packages 1–3,
+    the area the Report's plan of June 1968 assumed the strikes restricted to ([Thayer, vol. 5]({THAYER5}), p. 275).}} No figures by route package as printed then were read.
 
   discount-rate: >-
     Federal Reserve Bank of New York: the rate on discounts for and advances to member banks (Secs. 13 and 13a), set by

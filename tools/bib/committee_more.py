@@ -58,9 +58,20 @@ def subs():
     return _cache["s"]
 
 
+# committees the hearings calendar holds that no Directory read lists (the 86th's, or one created and gone between two
+# editions): in the committee list by the Digest's name, with no table of members
+DIGEST_ONLY = {"s.select-committee-on-national-water-resources": "Select Committee on National Water Resources",
+               "h.select-committee-on-export-control": "Select Committee on Export Control",
+               "s.unread": "committee (name unread)", "h.unread": "committee (name unread)",
+               "j.unread": "committee (name unread)"}
+
+
 def names():
-    """{code: name}: the select, special and joint committees, for the committee list (committee_rosters.names)."""
-    return {x["code"]: x["name"] for x in cdir().get("committees") or []}
+    """{code: name}: the select, special and joint committees, for the committee list (committee_rosters.names); and
+    DIGEST_ONLY."""
+    out = dict(DIGEST_ONLY)
+    out.update({x["code"]: x["name"] for x in cdir().get("committees") or []})
+    return out
 
 
 def of(c, ch):
@@ -426,6 +437,7 @@ def problems(series=None):
             if x.get("code") not in allc and x.get("name") != "Conferees" and (x["ch"], x["name"]) not in seen:
                 seen.add((x["ch"], x["name"]))
     if seen:
-        out.append(("warn", f"committees: {len(seen)} committees of the hearings calendar not in the committee list "
+        out.append(("warn", f"committees: {len(seen)} committees of the hearings calendar not in the committee list, by "
+                            "chamber and name "
                             f"(e.g. {', '.join(sorted(n for _, n in seen)[:3])}) [committee-list]"))
     return out

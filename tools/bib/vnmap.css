@@ -22,7 +22,7 @@
 .vnm-bar select{font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--rule);border-radius:3px}
 .vnm-bar button:focus-visible,.vnm-bar input:focus-visible,.vnm-bar select:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
 .vnm-box{position:relative;aspect-ratio:4/5;max-height:82vh;width:100%;background:var(--vsea);border:1px solid var(--rule);border-radius:3px;overflow:hidden}
-.vnm-gl{position:absolute;inset:0}
+.vnm-box>.vnm-gl{position:absolute;inset:0;width:auto;height:auto}
 .vnm-pop{position:absolute;left:8px;right:8px;bottom:8px;z-index:3;max-height:45%;overflow:auto;background:var(--panel);border:1px solid var(--rule);border-radius:3px;padding:8px 10px;font-size:.8rem;line-height:1.35}
 .vnm-pop b{font-weight:600}
 .vnm-pop ol,.vnm-pop ul,.vnm-list ol{margin:.3rem 0 0;padding-left:1.1rem}

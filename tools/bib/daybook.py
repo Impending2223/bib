@@ -69,6 +69,11 @@ STYLE:
     volume matches (tools/bib/ppp.py, STYLE 3), its first page, the cite in grey ("1961 Pub. Papers 1", the volume
     and item on hover); APP's link and "APP" where none does (the executive orders, the proclamations, the campaign
     of 1960).
+ 14. The two blocks are filled when opened (tools/bib/lazydays.py): the page keeps each day's closed summaries and
+    a file a month beside it holds their contents (build/days/<page>-<YYYY-MM>-<hash>.json), fetched once at the first
+    opening of any block of the month, by a tap, Expand all (the months from the button's on, two at a time; in the
+    reader, the list's own blocks), or a link to an anchor inside one; "loading" after the summary meanwhile. Some 10 MB
+    a calendar page, 26 MB the reader, stays out of the page (Oct. 22, 2026).
 """
 import calendar
 import datetime
@@ -529,7 +534,7 @@ document.addEventListener('click',function(ev){
   var b=ev.target.closest&&ev.target.closest('p.dtog button');
   if(!b) return;
   var open=b.getAttribute('data-docs')==='1';
-  [].forEach.call(document.querySelectorAll('details.docs'),function(d){d.open=open;});
+  [].forEach.call((b.closest('section.list')||document).querySelectorAll('details.docs'),function(d){d.open=open;});
   window.dispatchEvent(new Event('resize'));
 });
 // headings move when a list opens or closes: let the outline and breadcrumb re-measure

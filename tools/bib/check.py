@@ -217,6 +217,9 @@ def run(series, only=None):
         add(ERROR, f"indicators/{where}.yaml", msg, "war")
     for where, msg in wardead.problems(series):
         add(ERROR, where, msg, "war")
+    from . import warair
+    for where, msg in warair.problems():
+        add(ERROR, f"indicators/{where}.yaml", msg, "war-air")
     # the war table and Armed Forces Day, under their days (tools/bib/wartable.py, dayblocks.py)
     from . import wartable
     for level, where, msg in wartable.problems(series):

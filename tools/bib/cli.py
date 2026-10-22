@@ -203,15 +203,20 @@ def cmd_links(series, a):
 
     def ids_of(name):
         if name not in ids:
-            text = open(pages[name], encoding="utf-8").read() if name in pages else ""
+            text = page_text(pages[name]) if name in pages else ""
             ids[name] = set(re.findall(r'\sid="([^"]+)"', text)) | set(re.findall(r"\sname=\"([^\"]+)\"", text))
         return ids[name]
+    from . import lazydays
+
+    def page_text(path):                  # the page and its days' month files (tools/bib/lazydays.py)
+        text = open(path, encoding="utf-8").read()
+        return text + lazydays.fragments(path)
     bad = collections.Counter()
     shown = collections.defaultdict(list)
     for name, path in sorted(pages.items()):
         if name.startswith("lives"):
             continue                      # the old addresses, forwarding to the names
-        text = open(path, encoding="utf-8").read()
+        text = page_text(path)
         for href in re.findall(r'href="([^"#:]*\.html)?#([^"]+)"', text):
             target, frag = href[0] or name, H.unescape(href[1])
             if target not in pages or frag in ids_of(target) or "'" in frag:    # (a script's template, not a link)

@@ -52,6 +52,7 @@ ROOT = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)),
 VN66 = os.path.join(ROOT, "sources", "vn-provinces-1966")
 OUT = os.path.join(ROOT, "sources", "indochina")
 FRAME = (97.5, 5.5, 113.0, 26.0)     # lon/lat: the shapes are cut here; the map's bounds lie inside (vnmap.BOUNDS)
+VIEW = (100.0, 8.0, 110.5, 23.5)     # the page's first view (vnmap.HOME_ALL): the countries' names are set inside it
 TOL = 0.002                          # coverage_simplify tolerance, degrees (~200 m)
 MIN_KM2 = 0.5                        # islets smaller than this dropped
 SURE = 0.9                           # a district with a smaller share in its 1966 unit is listed as a straddler
@@ -336,7 +337,8 @@ def main():
                 feats.append(feat(part, {"k": "line", "l": cls, "c": c}))
     for c in ("rvn", "drv", "laos", "cambodia", "thailand", "china", "burma"):
         nm = {"rvn": "South Vietnam", "drv": "North Vietnam"}.get(c, names[c])
-        feats.append(feat(label_point(country[c]), {"k": "lab", "l": "country", "id": c, "name": nm,
+        inside = shapely.intersection(country[c], box(*VIEW))   # the label where the page's first view shows it
+        feats.append(feat(label_point(inside if not inside.is_empty else country[c]), {"k": "lab", "l": "country", "id": c, "name": nm,
                                                     "km2": round(km2(country[c]))}))
     for uid, g in units.items():
         m = meta[uid]

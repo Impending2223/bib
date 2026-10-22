@@ -98,7 +98,7 @@ ORDER = ["cpi", "wpi", "deflator", "unemployment", "payrolls", "industrial-produ
          "balance-of-payments", "balance-of-payments-regular", "balance-of-payments-liquidity",
          "balance-of-payments-official", "gold-stock", "oil-production", "oil-supplied", "oil-trade", "oil-trade-year",
          "oil-reserves", "war-deaths", "war-strength",
-         "war-enemy-ob", "war-enemy-ob-old", "war-enemy-snie", "war-enemy-strength-q", "war-infiltration", "war-enemy-kia", "war-rvnaf-kia", "war-rvnaf-strength", "war-fwmaf-strength", "discount-rate", "federal-funds",
+         "war-enemy-ob", "war-enemy-ob-old", "war-enemy-snie", "war-enemy-strength-q", "war-infiltration", "war-enemy-kia", "war-rvnaf-kia", "war-rvnaf-strength", "war-fwmaf-strength", "war-air-attack", "war-air-nvn-rp", "discount-rate", "federal-funds",
          "prime-rate", "treasury-bill", "treasury-10-year", "approval"]
 GROUP = {"cpi": "Prices", "wpi": "Prices", "deflator": "Prices",
          "unemployment": "Employment", "payrolls": "Employment",
@@ -116,7 +116,7 @@ GROUP = {"cpi": "Prices", "wpi": "Prices", "deflator": "Prices",
          "oil-production": "Oil", "oil-supplied": "Oil", "oil-trade": "Oil", "oil-trade-year": "Oil",
          "oil-reserves": "Oil",
          "war-deaths": "The war", "war-strength": "The war",
-         **{x: "The war" for x in ("war-enemy-ob", "war-enemy-ob-old", "war-enemy-snie", "war-enemy-strength-q", "war-infiltration", "war-enemy-kia", "war-rvnaf-kia", "war-rvnaf-strength", "war-fwmaf-strength")},
+         **{x: "The war" for x in ("war-enemy-ob", "war-enemy-ob-old", "war-enemy-snie", "war-enemy-strength-q", "war-infiltration", "war-enemy-kia", "war-rvnaf-kia", "war-rvnaf-strength", "war-fwmaf-strength", "war-air-attack", "war-air-nvn-rp")},
          "approval": "Opinion"}
 def _place(after, ids):
     """Put ids into ORDER after `after` (the series tools/bib/finance.py renders, kept out of the lists above)."""

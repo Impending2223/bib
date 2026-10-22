@@ -33,7 +33,8 @@ def esc(t):
 # The definitions: the master's (indicators/concepts.yaml; tools/bib/concepts.py).
 from . import concepts
 SERIES = ("war-deaths", "war-strength", "war-enemy-ob", "war-enemy-ob-old", "war-enemy-snie", "war-enemy-strength-q",
-          "war-infiltration", "war-enemy-kia", "war-rvnaf-kia", "war-rvnaf-strength", "war-fwmaf-strength")
+          "war-infiltration", "war-enemy-kia", "war-rvnaf-kia", "war-rvnaf-strength", "war-fwmaf-strength",
+          "war-air-attack", "war-air-nvn-rp")
 DEFS = {k: v for k, v in concepts.master_texts().items() if k in SERIES}
 
 LABELS = {"all": "All causes", "hostile": "Hostile", "cum": "Since 1961",
@@ -43,7 +44,10 @@ LABELS = {"all": "All causes", "hostile": "Hostile", "cum": "Since 1961",
           "army": "Army", "af": "Air Force", "navy": "Navy", "marines": "Marines", "rf": "Regional Forces",
           "pf": "Popular Forces", "territorial": "Territorial",
           "korea": "Korea", "australia": "Australia", "thailand": "Thailand", "nz": "New Zealand",
-          "phil": "Philippines", "roc": "Rep. of China", "spain": "Spain"}
+          "phil": "Philippines", "roc": "Rep. of China", "spain": "Spain",
+          "nvn": "North Vietnam", "laos": "Laos", "svn": "South Vietnam", "other": "Other",
+          "rp1": "RP 1", "rp2": "RP 2", "rp3": "RP 3", "rp4": "RP 4", "rp5": "RP 5", "rp6a": "RP 6A", "rp6b": "RP 6B",
+          "rp_unk": "Not coded"}
 # the parts a cell shows, in order; the rest of the row's figures on hover
 DISPLAY = {"war-deaths": ("all", "hostile", "cum"),
            "war-enemy-ob": ("combat", "guer", "admin", "total"),
@@ -52,7 +56,9 @@ DISPLAY = {"war-deaths": ("all", "hostile", "cum"),
            "war-enemy-strength-q": ("combat", "guer", "admin", "admin_nva", "total"),
            "war-infiltration": ("accepted", "possible", "total"),
            "war-rvnaf-strength": ("regular", "territorial", "total"),
-           "war-fwmaf-strength": ("korea", "australia", "thailand", "total")}
+           "war-fwmaf-strength": ("korea", "australia", "thailand", "total"),
+           "war-air-attack": ("nvn", "laos", "svn", "total"),
+           "war-air-nvn-rp": ("rp1", "rp2", "rp3", "rp4", "rp5", "rp6a", "rp6b", "total")}
 LABEL = tuple((k, LABELS[k]) for k in DISPLAY["war-deaths"])      # kept for the deaths
 
 

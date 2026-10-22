@@ -63,6 +63,7 @@ reports them (`notes/calendar-audit.md`).
 - Atlanta. House elections of June 15, 1965: which seats, and the count of eleven Negro members (`cal.1965-06-15.georgia-atlanta`).
 - Atlanta. Maddox closes the Pickrick, 1964, after the permanent injunction of Sept. 4 (234 F. Supp. 179): not entered.
 - Savannah, 1963; Augusta; Macon: not written.
+- The Georgia challengers' delegation of 1968 (Bond's): its convention's date not read; the regulars' slate is `cal.1968-05-16.elections-1968-state-conventions`. CQ Weekly Report 26 (1968), index (archive.org `sim_cq-weekly_january-december-1968_26_index`, open; the issues not found open).
 
 ### Hawaii
 
@@ -148,6 +149,7 @@ reports them (`notes/calendar-audit.md`).
 - Jackson. Mayoral elections, 1961 and 1965 (Allen Thompson): not found.
 - Hattiesburg. Mayoral elections: not found.
 - Meridian. Mayoral election, 1965 (Key over Burns): not found.
+- The Loyal Democrats' convention of 1968, which named the delegation seated at Chicago: date not read (`cal.1968-07-02.elections-1968-state-conventions`, the regulars'). CQ Weekly Report 26 (1968) 2108 ("Miss. delegation", by the index; not read).
 
 ### Missouri
 
@@ -251,6 +253,7 @@ reports them (`notes/calendar-audit.md`).
 - Memphis. Mayoral race of 1963 (Ingram) and the commission: no source. Shelby County Election Commission.
 - Nashville. The first Metro election and Briley's: 1962 or 1963. Davidson County Election Commission.
 - Chattanooga, Knoxville: nothing verifiable.
+- The Republican State convention of May 2, 1964 (Wikipedia's narrative, "1964 Republican Party presidential primaries," citing the *New York Times*, May 3: Goldwater's people make the State's first all-white delegation in half a century; the table: 10 at large, uncommitted): not entered; the Times not read.
 
 ### Texas
 
@@ -557,15 +560,16 @@ next January's *Economic Report*'s (local scans read earlier), not the first pri
 - Hearings a calendar entry should cite by the Digest's line and the printed hearing: Senate Foreign Relations on
   Vietnam, Feb. 1966; Ways and Means on the tax bill, 1963–64.
 - The four gaps (1966 June 9-15, Sept. 1-7; 1967 Jan. 18-24; 1968 Apr. 11-17), checked against the Digest's pages:
-  June 1966, a day heading the OCR ran together ("Tuesday.June14, 1966", D293); Sept. 1966, the Labor Day recess (no
+  June 1966, a day heading the OCR ran together ("Tuesday.June14, 1966", D295); Sept. 1966, the Labor Day recess (no
   meetings Sept. 2; the House's of Sept. 6 had been filed under the 7th); Jan. 1967, Monday, Jan. 23's heading lost by
   the OCR (D14) and the Senate's and House's "Committee Meetings" headings misread; Apr. 1968, the Easter recess
   (H. Con. Res. 761), with Apr. 23's meetings lost under a misread heading. Fixed by rule (make_committees.py STYLE
-  1-3) and every year rerun: 31,560 meetings where there were 25,926. The gaps left: recesses (1967 Feb. 9-15,
+  1-3) and every year rerun: 29,105 meetings where there were 26,103 (546 now filed under the day held, 341
+  subcommittee names put whole; 45 leads too garbled to name a committee, "committee (name unread)"). The gaps left: recesses (1967 Feb. 9-15,
   Lincoln's Birthday; the summer and fall adjournments). Check a sample of 1960-65 by eye: the new rules add rows
   there too.
 - A meeting reported inside another day's paragraph ("... On Friday, July 26, committee heard testimony from Ivan
-  Allen, Jr.": Senate Commerce, D553, 1963, filed July 29) stays with the paragraph's day; only a paragraph that opens
+  Allen, Jr.": Senate Commerce, D358, 1963, filed July 29) stays with the paragraph's day; only a paragraph that opens
   "On Friday, ..." is filed under the day held.
 - A Senate meeting filed as the House's where a chamber's heading the layout misplaces remains possible (1968-01-23,
   Senate Judiciary's Antitrust and Monopoly Subcommittee, before the column rule); check the chamber of a meeting
@@ -573,6 +577,47 @@ next January's *Economic Report*'s (local scans read earlier), not the first pri
 - The calendar's entries on hearings and testimony were checked against the Digest's days (the committee named, the
   week around): none found that the Digest dates otherwise (Allen before Senate Commerce, July 26, 1963, is right).
 - Not yet done: the *Monthly Catalog*'s titles of the printed hearings.
+
+### State conventions and caucuses (the state conventions agent, Oct. 22, 2026)
+
+- Entered: the subthreads "1964 Elections: State conventions" (ten Republican conventions, Feb. 29 to June 19) and "1968
+  Elections: State conventions" (twelve Democratic, May 16 to July 13), from Wikipedia's tables ("1964 Republican Party
+  presidential primaries," "1968 Democratic Party presidential primaries"), each row from a paper of the day. The papers
+  (newspapers.com) and the *Times* (TimesMachine, 503 from here) not read: each entry's Check. The table is loose in
+  places (headline dates of 1972 for 1968; Minnesota 13½ chosen, Humphrey 14; Missouri's Times cite dated May 17).
+- 1960: no State convention entered. Kennedy's and Johnson's delegations (Texas, Michigan, Pennsylvania, Illinois, New
+  York, Missouri, Iowa, Kansas, Colorado …): no open source found; Wikipedia has no table for 1960. CQ Weekly Report 18
+  (1960), index (archive.org `sim_cq-weekly_january-december-1960_18_index`, open; the issues not found open): "Convention
+  delegates, how chosen"; Texas delegation 1141; New York delegation 635, 929, 1099; Missouri 568, 792; Alabama 684,
+  789; Maryland 790; California 1088; "Southerners send delegations". White, *Making of the President 1960*.
+- 1964, not entered: the district conventions (North Carolina, Kansas, Louisiana, Minnesota, Missouri, Tennessee,
+  Virginia), and the State conventions of North Carolina (Feb. 29), North Dakota, Kentucky, Iowa, Alaska, Nevada, Maine
+  (Smith), Delaware, Michigan (48, Romney's, uncommitted), Wyoming, Rhode Island, Vermont, Arkansas, Illinois (May 23),
+  Nebraska, Hawaii, Missouri, Connecticut, Idaho, Minnesota, New Mexico, Utah and Virginia (June 13), Puerto Rico and the
+  Virgin Islands (Rockefeller's). The AP's count of May 24 (Goldwater 304, Scranton 70, Rhodes 58, Lodge 44, Rockefeller
+  39, uncommitted 224; Wikipedia, citing the Times, May 25). The Democrats' Mississippi regulars' convention of July 28 (a
+  lead under Mississippi).
+- 1968, not entered: the Republican State conventions (their dates are in `elections/conventions.yaml`, 1968-R); the
+  Democrats' Nevada, South Carolina, Kansas, Alaska, Arizona, Maryland, Delaware, Wyoming, Hawaii, Maine, Vermont, Rhode
+  Island (committee), Louisiana, Idaho, Montana, Arkansas (committee), Illinois (June 28), Tennessee, New Mexico, North
+  Dakota, Oklahoma, Kentucky, Utah and Virginia conventions; Minnesota's and Colorado's district conventions; Pennsylvania's
+  State committee (not in the table). The Credentials Committee's hearings at Chicago before Aug. 26 (Georgia, Mississippi,
+  Texas, Alabama, North Carolina): dates not read. CQ Weekly Report 26 (1968), by its index: "Conn. delegate walkout" 1624;
+  "Minn. delegates" 1627, 2250; "Delegate count poll" 2176; "Delegate credentials" 2242–2254.
+- The Hughes Commission's report (114 Cong. Rec. 31544–31556) tells of a district convention in Missouri held in secret,
+  two counties' conventions in Oklahoma, and three Indiana district conventions taped by McCarthy's delegates (31551), and
+  Michigan's Sixth District: neither dated nor placed.
+- A State's row in a conventions table (`pqcv1968R-WA`) cannot be linked from an entry's note: the markup takes `[[id]]`
+  and outside links only. The 1968 Democratic entries cite the Hughes Commission's Table I instead.
+
+### Primary records, Cal. II (the Cal. II audit agent, Oct. 22, 2026)
+
+- Robert Kennedy's sessions with John Bartlow Martin, Apr. 13, Apr. 30 and May 14, 1964 (`cal.1964-04-13.robert-kennedy`, `cal.1964-04-30.robert-kennedy`, `cal.1964-05-14.robert-kennedy`): which of JFKOH-RFK-02 to -04 on which day, and the link. The Kennedy Library's oral history pages refuse this environment (403).
+- King and Johnson at the White House, Dec. 18, 1964, and King with Humphrey, Katzenbach and Johnson, Feb. 9, 1965 (`cal.1964-12-18.king`, `cal.1965-02-09.voting-rights`): no Public Papers item, no recording catalogued. The President's Daily Diary (LBJ Library; discoverlbj.org refuses here, 403).
+- McNamara's Directive 5120.36, July 26, 1963 (`cal.1963-07-26.civil-rights-the-executive`): not found open. DoD's directives; MacGregor, ch. 22, cites it.
+- The copper producers back to 36 cents, Nov. 19, 1965 (`cal.1965-11-19.economy`): the record found is the day before's, Memorandum Approving the Release of Copper From the National Stockpile, 1965 Pub. Papers 1119 (Nov. 18, 1965); the producers' price notices not.
+- The State Department's statement on Saudi visas and the air unit, June 29, 1963 (`cal.1963-06-29.middle-east-yemen`): not in the *Bulletin*'s index for 1963. The Department's press releases.
+- The Alpha 66 attack on the *Lvov* (`cal.1963-03-17.cuba`): the Department's statement of Mar. 19 and FRUS put it the night of Mar. 18; the entry is dated Mar. 17 (Check there).
 
 ## Foreign
 
@@ -836,6 +881,17 @@ Events Gibbons treats that the calendar lacks, not entered: no record reached an
 - Armed Forces Day, 1968 figures: the tables count June 30 (and Sept. 30) of a year and stand under the next Armed
   Forces Day, so the figures for 1968 (Armed Forces Day, May 17, 1969) fall outside the calendar: forces.block(1968)
   renders them; no day carries them yet.
+
+### Primary records, Cal. II (the Cal. II audit agent, Oct. 22, 2026)
+
+Searched in FRUS by date (the daybook and sources/frus-text), the *Bulletin*'s index and the Public Papers, not found:
+- Iraq: Harriman's approval of 40 light tanks and 12 transporters, Apr. 9, 1963 (`cal.1963-04-09.middle-east`): not in FRUS 1961–63, XVIII. Matthews' and Gibson's sources (State Central Files).
+- The army mutinies in Tanganyika, Uganda and Kenya, Jan. 20, 1964 (`cal.1964-01-20.africa`); Tanganyika and Zanzibar united, Apr. 26, 1964 (`cal.1964-04-26.africa`); the Rivonia sentences, June 12, 1964 (`cal.1964-06-12.africa`). FRUS 1964–68, XXIV; the *Bulletin*.
+- Seoul: martial law lifted, July 1964 (`cal.1964-07-28.japan-and-korea-normalization`). FRUS 1964–68, XXIX, pt. 1.
+- American jets against the Viet Cong between An Khê and Pleiku, Feb. 24, 1965 (`cal.1965-02-24.vietnam`); Plei Me, Oct. 19–25, 1965 (`cal.1965-10-19.vietnam`, `cal.1965-10-23.vietnam`). MACV's reports; the Pentagon's announcements; Carland.
+- The OAS Ad Hoc Committee's proposal for the Dominican Republic, June 18, 1965 (`cal.1965-06-18.latin-america`). The OAS's documents; the *Bulletin* (not in its index by that date).
+- The Council of the Six, June 30, 1965, and de Gaulle's press conference of Sept. 9, 1965 (`cal.1965-06-30.european-community`, `cal.1965-09-09.european-community`). The Council's records; de Gaulle's *Discours et messages*.
+- India across the Kashmir cease-fire line, Aug. 15, 1965 (`cal.1965-08-15.india-and-china`). FRUS 1964–68, XXV, by its documents of Aug. 16–31.
 
 ## The Executive roster
 

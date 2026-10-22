@@ -173,7 +173,7 @@ executive/<unit>.yaml     the Executive Branch, 1953–74: each department or ag
 sources/vn-provinces-1966/  South Vietnam's provinces of late 1966 rebuilt from today's districts, the corps zones, regions,
                           the countries around, and the gazetteer of places in Indochina (its README; made by tools/vnmap/)
 sources/indochina/        relief, rivers, climate and rain layers for the maps of Indochina (its README)
-build/                    generated pages (git-ignored)
+build/                    generated pages (git-ignored); build/days/, the calendar's daily blocks a month a file
 tools/bib/                the code behind ./bib
 tools/congress/           one-time scripts that made congress/ (see below)
 tools/executive/          the one-time script that seeded executive/ from POCOM
@@ -636,9 +636,12 @@ The select, special and joint committees, and the subcommittees (`tools/bib/comm
   printed with his role (chairman, vice chairman, cochairman), joined to the rosters by surname, chamber and State;
   the party is the roster's (the Directory prints none in these lists); the printed page of each committee, linked to
   the PDF at its page. A committee created later in the Congress (the House's Select Committee on Government
-  Research, 1963) from the second-session edition. 24 committees, 1,286 places, 87th–93rd. Their codes are the hearings
+  Research, 1963) from the second-session edition. 28 committees, 1,319 places, 87th–93rd. Their codes are the hearings
   calendar's (`code_of` in `tools/daybook/make_committees.py`: `j.atomic-energy`, `s.special-committee-on-aging`), and
-  they join the committee list (`committee_rosters.names`), so the hearings' rows link to them.
+  they join the committee list (`committee_rosters.names`), so the hearings' rows link to them; so do, by name alone,
+  the committees the Digest holds and no Directory read lists (`DIGEST_ONLY`: the Senate's Select Committee on National
+  Water Resources, the House's on Export Control) and a lead too garbled to name one (`<ch>.unread`, "committee (name
+  unread)", make_committees.py STYLE 7).
 - Subcommittees: the *Directory* prints none in any edition from 1961 to Mar. 1971, and from Dec. 3, 1971 only each
   one's chairman and ranking minority member. `congress/subcommittees.yaml`, written by
   `tools/congress/make_subcommittees.py` (its RULES), comes from the *Congressional Staff Directory* (Brownson; the
@@ -1571,6 +1574,17 @@ and the *New York Times* line are not daily materials: they stay under the date,
 war table on the first Thursday, the forces on Armed Forces Day: `tools/bib/dayblocks.py`) stands after the day's
 entries and before its folded blocks: `section_days` sets a placeholder (`dayblocks.marker`), filled after the
 indicators by `dayblocks.inject` in both build chains.
+
+The two blocks are filled when opened (`tools/bib/lazydays.py`, its docstring; daybook STYLE 14): the build keeps each
+day's closed summaries in the page and writes the blocks' contents to a file a month beside it,
+`build/days/<page>-<YYYY-MM>-<hash>.json` (named by its content's hash, so a cache never serves an old month; a page's
+stale months removed at each build), so a calendar page sheds some two thirds of its weight (Cal. II, 18.8 to 6.6 MB).
+The first opening of a block, by a tap, Expand all (the months from the button's on, two at a time; in the reader the
+list's own blocks), or a link to an anchor inside one (the page's `lzmap` names the file that holds each; the reader's
+`jump` asks `window.lzGo`), fetches the month once and fills all its blocks; "loading" after the summary meanwhile.
+`lazydays.split` runs on the finished page, after the injects and the routing, and curls the contents as `smart.py`
+curls the page; `./bib links` reads each page with its month files. Opened as files (not through a server), the blocks
+stay empty.
 
 ```
 tools/daybook/make_daybook.py   writes daybook/<YYYY-MM>.yaml (needs the network; the build does not)

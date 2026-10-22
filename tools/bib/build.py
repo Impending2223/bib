@@ -18,6 +18,7 @@ from . import oilworld
 from . import budgets
 from . import bills
 from . import appropriations
+from . import lazydays
 from . import dayblocks          # blocks under a date: the war table, Armed Forces Day
 from . import smart
 from . import feeds
@@ -1135,6 +1136,7 @@ def run(series, which=None):
             else:
                 page = routed(page)
             calsplit.CUR.update(half=None)
+            page = lazydays.split(page, name, OUT)   # the days' blocks, a file a month (tools/bib/lazydays.py)
             smart.write(path, page)
             written.append(path)
     if which in (None, "series"):
@@ -1161,6 +1163,7 @@ def run(series, which=None):
         page = page.replace("</head>", calsplit.STYLE + "\n</head>", 1)
         page = page.replace("</body>", calsplit.SCRIPT + "\n</body>", 1)
         path = os.path.join(OUT, "series.html")
+        page = lazydays.split(page, "series", OUT)   # the days' blocks, a file a month (tools/bib/lazydays.py)
         smart.write(path, page)
         written.append(path)
     if which in (None, "congress"):

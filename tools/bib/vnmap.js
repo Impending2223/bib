@@ -132,16 +132,19 @@ function style(M, C, places) {
         'text-font': ITAL, 'text-size': 11,
         'symbol-spacing': 400},
       paint: {'text-color': C.vriv, 'text-halo-color': C.vland, 'text-halo-width': 1.2}},
-    {id: 'lab-country', type: 'symbol', source: 'admin', filter: ['all', ['==', ['get', 'k'], 'lab'], ['==', ['get', 'l'], 'country']],
+  ];
+  const country = {id: 'lab-country', type: 'symbol', source: 'admin', filter: ['all', ['==', ['get', 'k'], 'lab'], ['==', ['get', 'l'], 'country']],
       layout: {'text-field': ['get', 'name'], 'text-font': ITAL, 'text-size': 14, 'text-max-width': 8, 'text-letter-spacing': 0.04,
-        'symbol-sort-key': ['-', 0, ['get', 'km2']]},
-      paint: {'text-color': C.muted, 'text-halo-color': C.vland, 'text-halo-width': 1.5}},
+        'symbol-sort-key': ['-', 0, ['get', 'km2']], 'text-variable-anchor': ['center', 'top', 'bottom', 'left', 'right'],
+        'text-radial-offset': 1.2},
+      paint: {'text-color': C.muted, 'text-halo-color': C.vland, 'text-halo-width': 1.5}};
+  L.push(
     {id: 'cities-lab', type: 'symbol', source: 'cities', layout: {visibility: 'none', 'text-field': ['get', 'label'], 'text-font': FONT,
       'text-size': 11, 'text-variable-anchor': ['top', 'bottom', 'left', 'right'], 'text-radial-offset': 0.9,
       'symbol-sort-key': ['-', 0, ['get', 'pop']]},
-      paint: {'text-color': C.ink, 'text-halo-color': C.vland, 'text-halo-width': 1.5}},
-  ];
+      paint: {'text-color': C.ink, 'text-halo-color': C.vland, 'text-halo-width': 1.5}});
   for (const r of [3, 2, 1, 0]) {        // 0: a place with this year's entries; 1-3: the gazetteer's ranks
+    if (r === 0) L.push(country);          // the countries' names give way only to the year's places
     L.push({id: 'names-' + r, type: 'symbol', source: 'places',
       filter: r ? ['all', ['==', ['get', 'n'], 0], ['==', ['get', 'r'], r]] : ['>', ['get', 'n'], 0],
       layout: {'text-field': ['get', 'name'], 'text-font': r ? FONT : BOLD, 'text-size': r ? 11 : 12,
@@ -292,6 +295,8 @@ class Figure {
       map.setLayerZoomRange('names-2', z + 1.1, 24);   // rank 2 from about twice the first view, rank 3 from six times
       map.setLayerZoomRange('names-3', z + 2.6, 24);
       this.apply();
+      const at = this.fig.querySelector('.maplibregl-ctrl-attrib');   // the credits folded to their button
+      if (at) { at.classList.remove('maplibregl-compact-show'); at.removeAttribute('open'); }
       map.once('idle', () => { this.fig.dataset.ready = '1'; });
     });
     map.on('click', (e) => this.tap(e));
