@@ -118,23 +118,34 @@ def read(level, where):
 
 
 def fill(country, pieces):
-    """Cut the pieces to the country and give the country's uncovered slivers to a piece (step 2)."""
+    """Cut the pieces to the country and share out the country's uncovered slivers (step 2): each part of a sliver goes
+    to the nearest piece, by the Voronoi cells of points along the pieces' boundaries (shapely.voronoi_polygons), so a
+    long coastal or frontier sliver is split among the units along it."""
     gs = [multi(polys(shapely.intersection(p, country))) for p in pieces]
-    rest = shapely.difference(country, shapely.union_all(gs))
+    rest = multi([s for s in polys(shapely.difference(country, shapely.union_all(gs))) if km2(s) >= 1e-4])
+    if rest.is_empty:
+        return gs
     tree = shapely.STRtree(gs)
+    near = sorted(set(tree.query(rest.buffer(0.01), predicate="intersects").tolist()))
+    pts, owner = [], []
+    for j in near:
+        cs = shapely.get_coordinates(shapely.segmentize(gs[j].boundary, 0.002))
+        pts.append(cs)
+        owner += [j] * len(cs)
+    pts = np.vstack(pts)
+    pts, first = np.unique(np.round(pts, 7), axis=0, return_index=True)
+    owner = np.array(owner)[first]
+    cells = shapely.voronoi_polygons(shapely.multipoints(pts), extend_to=rest.envelope.buffer(0.1))
+    cells = list(cells.geoms)
+    ptree = shapely.STRtree(shapely.points(pts))
     extra = {}
-    for s in polys(rest):
-        if km2(s) < 1e-4:
+    for c in cells:
+        k = ptree.query(c, predicate="contains")
+        if not len(k):
             continue
-        near = tree.query(s.buffer(1e-6), predicate="intersects")
-        best, score = None, 0
-        for j in near:
-            ln = shapely.intersection(s.boundary, gs[j].buffer(1e-6)).length
-            if ln > score:
-                best, score = j, ln
-        if best is None:
-            best = int(tree.query_nearest(s)[0])
-        extra.setdefault(best, []).append(s)
+        part = shapely.intersection(c, rest)
+        if not part.is_empty:
+            extra.setdefault(int(owner[k[0]]), []).append(part)
     for j, ss in extra.items():
         gs[j] = multi(polys(shapely.union_all([gs[j]] + ss)))
     return gs
@@ -207,6 +218,8 @@ def main():
             continue
         area = g.area
         best = max(t1.query(g, predicate="intersects"), key=lambda j: shapely.intersection(g, vn1[j]["g"]).area, default=None)
+        if best is None:                     # an island district CGAZ's ADM1 leaves out: the nearest province
+            best = int(t1.query_nearest(g)[0])
         p["adm1"] = vn1[best]["shapeName"] if best is not None else ""
         share = {}
         for j in t66.query(g, predicate="intersects"):
@@ -333,7 +346,7 @@ def main():
     dump(os.path.join(VN66, "indochina-outline.geojson"),
          [feat(country[c], {"id": c, "name": names[c]}) for c in ("china", "drv", "cambodia", "laos", "thailand", "burma")])
     # the crosswalk to CGAZ
-    unsure = [r for r in rows if r["share"] < SURE]
+    unsure = [r for r in rows if 1 - SURE < r["share"] < SURE]
     cw = {"title": "The 1966 units on geoBoundaries CGAZ districts (tools/vnmap/base.py)",
           "method": "each CGAZ ADM2 district of Vietnam given whole to the 1966 unit of the GADM-based provinces1966.geojson "
                     "(the hand crosswalk, crosswalk.yaml) holding most of it; under half in any: the DRV",

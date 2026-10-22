@@ -519,7 +519,7 @@ def year(y, cache, since=None, until=None):
         keep = {k: max(v)[1] for k, v in votes.items()}
         heads = set()                               # a subject heading the index sets on a line of its own
         for j in set(ls):
-            for ln in (L[j][2] + "\n" + rebuilt(cache, f["iid"], L[j][0])).split("\n"):
+            for ln in rebuilt(cache, f["iid"], L[j][0]).split("\n"):     # (the OCR's own text can set numbers apart)
                 ln = re.sub(r"\W+", " ", ln).strip().lower()
                 if ln and not re.search(r"\d", ln) and len(ln.split()) <= 5:
                     heads.add(ln)

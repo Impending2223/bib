@@ -732,18 +732,21 @@ def read_volume(pkg, pages, V, surname, span, start=1):
                 continue
             cur["last"] = p
             t = line_text(r)
-            indent = r[0][0] - lefts.get(pos, r[0][0])
+            # the column's left edge here: the least start of its lines near this one (a skewed scan drifts)
+            near = [x[1][0][0] for x in lines[max(0, k - 5):k + 6] if x[0] == pos and x[2] != "L"]
+            edge = min(near) if len(near) >= 4 else lefts.get(pos, r[0][0])
+            indent = r[0][0] - max(edge, lefts.get(pos, edge) - body_h * 2)
             colw = widths.get(pos) or 200
             if sz == "s" and not note and re.match(r"^\W{0,2}(note|NOTE|Note)\s*[:;.]", t):
                 note = True
                 close_para()
             kind = "n" if note else ("h" if sz == "L" else ("q" if sz == "s" else "p"))
             setoff = indent > colw * .34 and sz != "L"
-            if setoff:
-                kind = "n" if note else "s"
-            across = pos == "S"
             hanging = (para is not None and para[0] == kind and t[:1].islower() and para[1]
                        and not re.search(r"[.?!:]$", para[1][-1]))        # a list item's hanging line
+            if setoff and not hanging:
+                kind = "n" if note else "s"
+            across = pos == "S"
             if para is None or para[0] != kind or (setoff and not hanging) or para[0] == "s" \
                     or (indent > body_h * .6 and not hanging) \
                     or (para_pos is not None and (para_pos == "S") != across):

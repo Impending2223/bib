@@ -42,8 +42,8 @@ RULES
     word put right against VOCAB (WORDS, and the words of the Digest's committees and subcommittees, 1961-64: a word
     counted COMMON times there is kept, another goes to the nearest, at .7 of its letters, the commoner of two near
     alike, or stays as read), in title case; then, where one of the Digest's names of the committee's subcommittees
-    reads as it at .85 (not a numbered one), the Digest's; a numbered one whose number is lost or out of turn, the
-    number after the one before it; a word left unread, "check" ("Subcommittee on Soil Conservation and Forestry").
+    reads as it at .9 (not a numbered one), the Digest's; a numbered one whose number is lost or not above the one
+    before it, the number after that one; a word left unread, "check" ("Subcommittee on Soil Conservation and Forestry").
  6. The page: the edition's printed page (archive.org's page numbers), linked to the leaf.
 """
 import difflib
@@ -308,7 +308,7 @@ def sub_name(t, V, known=None):
                     difflib.SequenceMatcher(None, letters(t), letters(f)).ratio())
             if r > score + .001:
                 best, score = f, r
-        if best and score >= .85 and "No." not in name and "No." not in best and re.match(r"(?i)(?:special |select |permanent |general |ad hoc )*subcommittee",
+        if best and score >= .9 and "No." not in name and "No." not in best and re.match(r"(?i)(?:special |select |permanent |general |ad hoc )*subcommittee",
                                                 best):
             return best
     return name
@@ -607,9 +607,10 @@ def main(cache):
                     s["name"] = sub_name(s["printed"], V, F.get((ch, code)))
                     s["url"] = LEAF.format(id=ed["id"], n=s["leaf"] - 1)
                     # a numbered subcommittee whose number the OCR lost: the one after the last (RULES 5)
-                    m = re.match(r"^Subcommittee\s+(?:No|On|N)\.*\s*(\S*)(.*)$", s["name"])
-                    if m and re.match(r"(?i)\W*S\W?[UWYOE]\W?[BE]\w*\s+N\W?[O0]?\W", s["printed"] + " "):
-                        num = int(m.group(1)) if m.group(1).isdigit() and int(m.group(1)) == last + 1 else last + 1
+                    m = re.match(r"^Subcommittee\s+No\.\s*(\S*)(.*)$", s["name"]) or \
+                        re.match(r"^Subcommittee\s+(?:On\.|N)\s*(\S*)()$", s["name"])
+                    if m:
+                        num = int(m.group(1)) if m.group(1).isdigit() and int(m.group(1)) > last else last + 1
                         if not (m.group(1).isdigit() and int(m.group(1)) == num):
                             s.setdefault("check", "")
                             s["check"] = (s["check"] + " " if s["check"] else "") + f"number placed by order: {num}"
