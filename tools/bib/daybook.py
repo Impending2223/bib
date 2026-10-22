@@ -14,8 +14,8 @@
 Each dated section of the calendar is laid out by day (section_days): the month's undated entries
 first, then every day from the section's first to its last, each with its date, a link to that
 day's New York Times under it, a pointer to any entry still running from an earlier day, the entries
-that open that day, and the day's documents in a list that opens and closes ("Expand all" and
-"Collapse all" under each month heading).
+that open that day, and the day's materials in two lists that open and close, the documents and the other records
+("Expand all" and "Collapse all" under each month heading open or close both; STYLE 12).
 
 STYLE:
  1. Day: "Monday, Apr. 17", bold sans; "New York Times" under it, muted, linked to that day's paper
@@ -58,6 +58,12 @@ STYLE:
     <YYYY>.yaml, tools/daybook/make_bulletin.py), filed under the day its page says it was released ("Press release
     23 dated January 15"), else the issue's date ("filed by the issue's date"); the title as the index prints it,
     linked to the page in the archive.org copy; "Bulletin, Jan. 8, 1962, p. 43" in grey. 1962 only for now.
+ 12. Two folded blocks a day, each closed by default and shown only where it holds something (the owner's request,
+    Oct. 22, 2026: "separate the daily materials into two sets"): "Documents", the President's (APP, as "PPP"), FRUS
+    and the recordings, in that order; then "Other records", the committees' meetings and the Bulletin's items, where
+    any further list goes too. Each summary counts its own lists ("Documents: PPP 3, FRUS 12, Recordings 4"; "Other
+    records: Committees 9, Bulletin 2"). Expand all and Collapse all open or close both. The Sunday programs and the
+    New York Times are not daily materials: they stay under the date, in neither block.
 """
 import calendar
 import datetime
@@ -381,38 +387,33 @@ def doc_html(x, ab):
 
 
 def docs_html(docs, ab, iso=None):
+    """The day's materials in two folded blocks (STYLE 12): the documents (APP, FRUS, the recordings), then the
+    other records (the committees' meetings, the Bulletin's items, and any later list)."""
     from . import committees                # the committees' meetings, a fourth list (STYLE 10)
     cm = committees.for_day(iso) if iso else []
-    if not docs and not cm:
-        return ""
     ppp = [x for x in docs if x["src"] == "ppp"]
     frus = [x for x in docs if x["src"] == "frus"]
     rec = sorted([x for x in docs if x["src"] in ("prde", "mc")], key=lambda x: x.get("time") or "99")
     bul = [x for x in docs if x["src"] == "dsb"]
-    counts = []
-    if ppp:
-        counts.append(f"PPP {len(ppp)}")
-    if frus:
-        counts.append(f"FRUS {len(frus)}")
-    if rec:
-        counts.append(f"Recordings {len(rec)}")
-    if cm:
-        counts.append(f"Committees {len(cm)}")
-    if bul:
-        counts.append(f"Bulletin {len(bul)}")
-    body = []
-    if ppp:
-        body.append('<ol class="dd">' + "".join(doc_html(x, ab) for x in ppp) + "</ol>")
-    if frus:
-        body.append('<ol class="dd fr">' + "".join(doc_html(x, ab) for x in frus) + "</ol>")
-    if rec:
-        body.append('<ol class="dd fr">' + "".join(doc_html(x, ab) for x in rec) + "</ol>")
-    if cm:
-        body.append(committees.list_html(cm, SERIES))
-    if bul:
-        body.append('<ol class="dd fr">' + "".join(doc_html(x, ab) for x in bul) + "</ol>")
-    return (f'<details class="docs"><summary>Documents: {", ".join(counts)}</summary>'
-            + "".join(body) + "</details>")
+
+    def ol(xs, cls="dd fr"):
+        return f'<ol class="{cls}">' + "".join(doc_html(x, ab) for x in xs) + "</ol>"
+
+    def block(label, cls, lists):           # lists: (name, items, html of the items)
+        lists = [(k, xs, f) for k, xs, f in lists if xs]
+        if not lists:
+            return ""
+        return (f'<details class="{cls}"><summary>{label}: '
+                + ", ".join(f"{k} {len(xs)}" for k, xs, f in lists) + "</summary>"
+                + "".join(f(xs) for k, xs, f in lists) + "</details>")
+
+    return (block("Documents", "docs", [
+                ("PPP", ppp, lambda xs: ol(xs, "dd")),
+                ("FRUS", frus, ol),
+                ("Recordings", rec, ol)])
+            + block("Other records", "docs or", [
+                ("Committees", cm, lambda xs: committees.list_html(xs, SERIES)),
+                ("Bulletin", bul, ol)]))
 
 
 # ---------------------------------------------------------------- a month, by day
@@ -424,7 +425,7 @@ def section_days(lst, sec, entry_li, thread_name):
     lo = datetime.date.fromisoformat(str(sec.extra["from"]))
     hi = datetime.date.fromisoformat(str(sec.extra["to"]))
     out = ['<p class="dtog"><button type="button" data-docs="1">Expand all</button>'
-           '<button type="button" data-docs="0">Collapse all</button> <span>the day\'s documents</span></p>']
+           '<button type="button" data-docs="0">Collapse all</button> <span>the day\'s documents and other records</span></p>']
     undated = [e for e in sec.entries if "when" not in e or len(str(e.get("date", ""))) != 10]
     dated = {}
     running = {}
@@ -496,6 +497,7 @@ p.cont a{color:var(--muted)}
 details.docs{font-family:var(--sans);font-size:.8rem;margin:.25rem 0 .1rem}
 details.docs>summary{cursor:pointer;color:var(--muted);list-style-position:inside}
 details.docs[open]>summary{margin-bottom:.25rem}
+details.docs>summary+ol.dd{margin-top:0}
 ol.dd{list-style:none;margin:0;padding:0;line-height:1.4}
 ol.dd li{padding:.18rem 0;border-bottom:1px solid var(--rule)}
 ol.dd.fr{margin-top:.4rem}

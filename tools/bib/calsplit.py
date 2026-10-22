@@ -51,7 +51,19 @@ STYLE:
 10. A thread's old name stays in the index where the reader may look for it: a th.yaml entry with `s:` the old name
     and `see:` the thread's slug ("Desegregation: schools", see desegregation-schools), in its alphabetical place,
     muted and not underlined, the whole of it a link to the thread's entry in the part; nothing else, and no line in
-    a part where the thread has none (`redirect_thread_html` in build.py). No entry takes it as a thread.
+    a part where the thread has none (`redirect_thread_html` in build.py). No entry takes it as a thread. The line
+    names the thread it now goes by, the whole of it muted: "Desegregation: schools: School desegregation" (the name
+    alone where the two are the same: "Special elections", whose thread sorts as "Elections, special" by its hidden
+    `sort:`). Where the old name went to several threads (`see:` a list), the old name in the text's color, then each
+    thread muted and linked, a middle dot between: "Legislatures: Districting and apportionment · State legislatures"
+    (the owner's ruling, Oct. 21, 2026). Only the threads with entries in the part.
+11. A thread statement may end in a See also line (`see_also:` in th.yaml, a list of slugs): set right, at the foot of
+    the thread's entry in the index, in the thread names' type (the sans, bold), "See also" in italics, the threads
+    in roman, a middle dot between, each linked to its entry in the part ("*See also* Goldwater", under 1964
+    Elections); a thread with no entries in the part is left out, the line too where none has. Not for a thread's own
+    parent or subthreads, nor its alphabetical neighbors (Cuba, Cuban Missile Crisis), which the index already sets
+    together: for related matter elsewhere in the index (the owner's rule, Oct. 21, 2026; `see_also_html` in
+    build.py).
 """
 import datetime
 import re
@@ -281,6 +293,11 @@ a.tx.ty{text-decoration:none}
 a.tx.ty:hover{text-decoration:underline;text-decoration-color:var(--rule)}
 /* a ghost subthread's name, and a thread's old name, in the thread index: muted, not underlined (STYLE 9, 10) */
 li.thg .s,li.thg a.thgl{color:var(--muted);text-decoration:none}
+li.thm .s .tho{color:var(--ink)}
+/* a thread statement's See also line, set right at its foot, in the thread names' type (STYLE 11) */
+.tsa{display:block;text-align:right;font-family:var(--sans);font-weight:700;font-size:.92rem;margin-top:.2rem}
+.tsa i{font-weight:700}
+.tsa a{color:inherit;text-decoration-color:var(--rule)}
 p.seam{font-family:var(--sans);font-size:.8rem;margin:1rem 0}
 p.seam a{color:var(--muted);text-decoration-color:var(--rule)}
 /* a thread highlighted (STYLE 7) */

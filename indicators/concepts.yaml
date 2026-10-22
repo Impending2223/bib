@@ -1,0 +1,392 @@
+# Indicators: concepts and sources. The master statement, kept by hand: the one text of what each series of the
+# calendar's monthly tables measures, then and today, and where its figures come from. tools/bib/concepts.py reads it
+# (its docstring and STYLE notes): the Indicators page (build/indicators.html) prints all of it; each calendar page
+# writes, after the month where a series first appears on it, a servant: only that page's series, and of each only
+# what concerns the periods the page files (the owner's rule, Oct. 21, 2026).
+#
+# general: the paragraph on all the tables; series: one text a series, by its id (indicators/<id>.yaml).
+# vars: {NAME} in a text is replaced by vars[NAME] (a URL, or a sentence several series share) before anything else.
+# Spans: {{SPAN|text}} keeps text only where the page shows a row of the series whose period ends within SPAN;
+#   {{not SPAN|text}} only where it shows none. The master keeps every {{SPAN|...}} and drops every {{not ...}}: a
+#   "not" text restates, for one page, what its positive twin says in full. SPAN: 1961, 1961-03, 1961Q2, FY1962, a
+#   range a..b (either end may be open: ..1961-09, 1963..), several joined by commas. Spans nest. Put a piece's
+#   separator ("; ", ", ") inside its braces; a separator left at an opening or a close is dropped.
+# Quotation marks straight, as typed; the build curls them.
+vars:
+  ERP62: https://www.govinfo.gov/app/details/SERIALSET-12497_00_00-002-0278-0000
+  ERP63: https://www.govinfo.gov/app/details/SERIALSET-12600_00_00-002-0028-0000
+  ERP64: https://www.govinfo.gov/app/details/SERIALSET-12658_00_00-002-0278-0000
+  ERP65: https://www.govinfo.gov/app/details/SERIALSET-12702_00_00-002-0028-0000
+  ERP66: https://www.govinfo.gov/app/details/SERIALSET-12742_00_00-002-0348-0000
+  ERP67: https://fraser.stlouisfed.org/title/economic-report-president-45/1967-8138
+  ERP68: https://www.govinfo.gov/app/details/SERIALSET-12825_00_00-002-0238-0000
+  ERP69: https://www.govinfo.gov/app/details/SERIALSET-12868_00_00-002-0028-0000
+  F: https://fred.stlouisfed.org/series/
+  A: https://alfred.stlouisfed.org/series?seid=
+  FRB: https://fraser.stlouisfed.org/title/federal-reserve-bulletin-62/
+  PR: https://fraser.stlouisfed.org/title/9237/item/
+  FOMC: https://www.federalreserve.gov/monetarypolicy/files/fomchistmin
+  APPROVAL: https://www.presidency.ucsb.edu/statistics/data/presidential-job-approval
+  TB: https://fraser.stlouisfed.org/title/treasury-bulletin-407
+  OMB71: https://www.whitehouse.gov/wp-content/uploads/2026/04/hist07z1_fy2027.xlsx
+  EIA: https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=
+  SCB: https://fraser.stlouisfed.org/title/survey-current-business-46
+  MER: https://www.eia.gov/totalenergy/data/browser/csv.php?tbl=T03.01
+  MYB: https://archive.org/details/pub_usgov-minerals-yearbook_
+  NARA: https://catalog.archives.gov/id/2240992
+  NARA_STATS: https://www.archives.gov/research/military/vietnam-war/casualty-statistics
+  SA67: https://www.census.gov/library/publications/1967/compendia/statab/88ed.html
+  SA68: https://www.census.gov/library/publications/1968/compendia/statab/89ed.html
+  SA69: https://www.census.gov/library/publications/1969/compendia/statab/90ed.html
+  THAYER8: https://archive.org/details/DTIC_ADA051613
+  SMS74: https://archive.org/details/DTIC_ADA043053
+  SCB_NOTE: >-
+    As first reported: the Bureau of Mines' figure as the [*Survey of Current Business*]({SCB}) (Commerce) first
+    printed it, in its monthly statistical pages, "Petroleum and products" (p. S-35), two to four months after the
+    month; barrels in the month, shown here a day. The Bureau's own Monthly Petroleum Statement, earlier, not read here.
+    Released: the Survey's issue.
+
+general: >-
+  Under each month: the figures for that month, its quarter, fiscal year, or year, as first reported and as revised
+  today. Monthly changes from the prior month; quarterly changes from the prior quarter at an annual rate (ar). "—": no
+  figure in that column; "n.a.": not available in the source. Figures in $bn throughout federal finance and
+  international; interest rates in percent, their changes in points (pt); oil in millions of barrels a day, in a table
+  of its own; the source figure shows on hover. Data and transcriptions: indicators/ in the repository.
+
+series:
+  approval: >-
+    Gallup: "Do you approve or disapprove of the way [the President] is handling his job as President?" Each reading,
+    filed by the month its fieldwork ended. As published: the release, in *The Gallup Poll: Public Opinion, 1935–1971*,
+    vol. III (1972), by page (K–J Cong. II.E); approval among Democrats, independents, and Republicans in grey where
+    the release gives it; "—" for a reading Gallup did not release at the time. Today: Gallup's series as the
+    [American Presidency Project]({APPROVAL}) compiles it (Gerhard Peters), which differs from the releases in
+    places{{1963-09|: Sept. 12–17, 1963, released at 62 percent approving, is 56 in the series today}}. The race for
+    1964 and the issues are calendar entries in the thread Opinion.
+
+  cpi: >-
+    BLS. Retail prices of a fixed basket bought by city wage-earner and clerical-worker families;
+    {{..1961-12|1947–49=100 through Dec. 1961, 1957–59=100 from Jan. 1962}}{{not ..1961-12|1957–59=100}}. Today: CPI
+    for all urban consumers, 1982–84=100. Neither seasonally adjusted. First releases: [ALFRED]({A}CPIAUCNS); today:
+    [FRED]({F}CPIAUCNS).
+
+  wpi: >-
+    BLS. Primary-market prices of all commodities; {{..1961-12|1947–49=100 through 1961, 1957–59=100 from
+    1962}}{{not ..1961-12|1957–59=100}}. Today the producer price index, all commodities, 1982=100
+    ([FRED]({F}PPIACO)). First reported here means as tabled in the next *Economic Report* (January{{1967|; February in
+    1968}}): {{..1961|[1962]({ERP62}), Table B-40; }}{{1962|[1963]({ERP63}), Table C-41; }}{{1963|[1964]({ERP64}),
+    Table C-41; }}{{1964|[1965]({ERP65}), Table B-43; }}{{1965|[1966]({ERP66}), Table C-41; }}{{1966|[1967]({ERP67}),
+    Table B-44; }}{{1967|[1968]({ERP68}), Table B-48, p. 264; }}{{1968|[1969]({ERP69}), Table B-48, p. 282}}.
+
+  deflator: >-
+    Commerce, Office of Business Economics. GNP in current dollars over GNP in constant dollars, times 100, computed
+    from the release that first carried the quarter ([ALFRED]({A}GNP)): {{..1965Q2|in 1954 dollars}}{{1965Q3..|; in
+    1958 dollars from the benchmark revision of Aug. 1965}}. Today BEA's GNP deflator, chained, 2017=100
+    ([FRED]({F}GNPDEF)).
+
+  unemployment: >-
+    Unemployed as a percent of the civilian labor force, seasonally adjusted, from the Current Population Survey
+    (household survey), collected by Census, published by BLS. Then ages 14 and over; today's series ages 16 and over
+    ([ALFRED]({A}UNRATE); [FRED]({F}UNRATE)).
+
+  payrolls: >-
+    BLS establishment survey: wage and salary workers in nonagricultural establishments, seasonally adjusted. Today's
+    figures are benchmarked to later counts of insured employment ([ALFRED]({A}PAYEMS); [FRED]({F}PAYEMS)).
+
+  industrial-production: >-
+    Federal Reserve Board. Physical output of manufacturing, mining, and utilities; {{..1962-09|1957=100 then
+    (1957–59=100 from the revision of Nov. 16, 1962)}}{{not ..1962-09|1957–59=100 then}}, 2017=100 today
+    ([ALFRED]({A}INDPRO); [FRED]({F}INDPRO)).
+
+  gnp: >-
+    Commerce, Office of Business Economics. Output of the nation's residents at market prices, seasonally adjusted
+    annual rates. Today's BEA figures carry later definitions and benchmarks ([ALFRED]({A}GNP); [FRED]({F}GNP)).
+
+  real-gnp: >-
+    GNP in constant prices: {{..1965Q2|1954 prices then}}{{1965Q3..|; 1958 prices from the benchmark revision of Aug.
+    1965}}; in chained 2017 dollars today (chain weighting from 1996) ([ALFRED]({A}GNPC96); [FRED]({F}GNPC96)).
+
+  gap-cea: >-
+    Council of Economic Advisers. Potential GNP: a 3½ percent trend line through actual GNP in mid-1955, taken as full
+    use of resources; full employment taken as 4 percent unemployment, an interim target.{{1964..| From Jan. 1965 the
+    trend rises 3¾ percent a year after 1962.}} Gap: potential less actual, in {{1961|1961 prices (Jan. 1962),
+    }}{{1962|1962 prices (Jan. 1963), }}{{1963|1963 prices (Jan. 1964), }}{{1964|1964 prices (Jan. 1965),
+    }}{{1965|1958 prices (Jan. 1966, after the benchmark revision)}}. Each point of unemployment above 4 percent put at
+    about 3 percent of output (Okun's relation). *Economic Report*: {{1961|[Jan. 1962]({ERP62}), "Full Production," p.
+    49; }}{{1962|[Jan. 1963]({ERP63}), Chart 5; }}{{1963|[Jan. 1964]({ERP64}), "Unemployment and Unused Potential
+    Output," p. 37; }}{{1964|[Jan. 1965]({ERP65}), "Problems Unsolved," p. 39, and "The Gap Between Actual and
+    Potential GNP," pp. 81–83; }}{{1965|[Jan. 1966]({ERP66}), "Balance of Output and Potential," pp. 39–40, and Chart
+    3; }}{{1966|[Jan. 1967]({ERP67}), Chart 1, p. 43, and p. 44 ("The economy caught up with its economic potential in
+    1966"; no figure for 1966); }}{{1967|[Feb. 1968]({ERP68}), p. 60, and Chart 4, p. 61 (the gap closed in the last
+    half of 1965, output "falling a little short during 1967"; no figure for 1967; potential at 4 percent a year from
+    Q4 1965); }}{{1968|[Jan. 1969]({ERP69}), "Potential Output," p. 64, and Chart 5, p. 65 (the gap closed by the end
+    of 1965; "Since then, actual output has exceeded the calculated potential most of the time"; no figure for
+    1968)}}. Arthur M. Okun, "Potential GNP: Its Measurement and Significance," *Proceedings of the Business and
+    Economic Statistics Section*, American Statistical Association (1962).
+
+  gap-cbo: >-
+    Congressional Budget Office, estimated decades later. Potential GDP: output at CBO's noncyclical rate of
+    unemployment{{1961| (about 5.5 percent for 1961)}} and trend productivity, from a model revised with each budget
+    outlook. Gap: real GDP over potential, less 1, in percent; negative is output below potential. Not comparable with
+    the CEA's figures: GDP not GNP, chained 2017 dollars, a later concept of full employment, a different benchmark.
+    [FRED GDPPOT]({F}GDPPOT), [GDPC1]({F}GDPC1), [NROU]({F}NROU); CBO, *CBO's Method for Estimating Potential Output:
+    An Update* (2001).
+
+  administrative-budget: >-
+    Three federal budgets were reported. The administrative budget: receipts and expenditures of federal funds only,
+    the deficit of the headlines; fiscal years ending June 30. [*Economic Report*, Jan. 1962]({ERP62}), Table 7, p. 78,
+    compares the three. Today: OMB's unified budget receipts, outlays, and deficit, recast back from the unified budget
+    adopted for fiscal 1969 on the President's Commission on Budget Concepts (*Report*, 1967) ([FRED]({F}FYFSD)).
+    {{FY1967..|The [*Economic Report* of Feb. 1968]({ERP68}) prints the old budgets a last time, beside the unified
+    (Table B-63, p. 284): actual through fiscal 1967, estimates for 1968 and 1969. }}{{FY1968|The [Report of Jan.
+    1969]({ERP69}) prints the unified budget alone from fiscal 1954 (Table B-60, p. 297), so the old budgets have no
+    actual figure for fiscal 1968.}}
+
+  cash-budget: >-
+    The consolidated cash statement: federal receipts from and payments to the public, including the trust funds
+    (Social Security, highways). Today: the unified budget, as above ([FRED]({F}FYONET)).
+
+  unified-budget: >-
+    The unified budget, recommended by the President's Commission on Budget Concepts (*Report*, 1967) and adopted with
+    the budget for fiscal 1969: receipts and outlays (expenditures and net lending) of the federal funds and the trust
+    funds together, transactions between them netted out; fiscal years ending June 30. Not comparable with the
+    administrative or cash budgets above, so its own row. The estimates: [*Economic Report*, Feb. 1968]({ERP68}), Table
+    B-59, p. 279, "preliminary adjustments to new budget concepts"; the actual and the later estimates, [Jan.
+    1969]({ERP69}), Table B-60, p. 297 (the same in Table B-61, p. 299). Today: OMB's figures, revised
+    ([FRED]({F}FYFSD); [FYFR]({F}FYFR); [FYONET]({F}FYONET)).
+
+  federal-national-accounts: >-
+    Commerce: federal receipts and expenditures in the national income accounts, seasonally adjusted annual rates;
+    accrual basis, excluding loans and purchases of land and existing assets. Today: BEA's federal current receipts and
+    current expenditures, a narrower and later definition; their balance is not the old surplus or deficit
+    ([FRED]({F}FGRECPT); [FGEXPND]({F}FGEXPND)). Then: the *Economic Report* of the next January, its latest quarter
+    preliminary, completed in the Report after ({{1960Q4..1961Q3|[Jan. 1962]({ERP62}), Table B-59, p. 276;
+    }}{{1961Q4..1962Q4|[Jan. 1963]({ERP63}), Table C-60, p. 242; }}{{1963Q1..1963Q3|[Jan. 1964]({ERP64}), Table C-60,
+    p. 278; }}{{1963Q4..1964Q3|[Jan. 1965]({ERP65}), Table B-62, p. 263; }}{{1964Q4..1965Q3|[Jan. 1966]({ERP66}),
+    Table C-61, p. 281; }}{{1965Q4..1966Q3|[Jan. 1967]({ERP67}), Table B-63, p. 287; }}{{1966Q4..1967Q3|[Feb.
+    1968]({ERP68}), Table B-62, p. 283; }}{{1967Q4..|[Jan. 1969]({ERP69}), Table B-63, p. 301}}).
+
+  federal-primary-balance: >-
+    The federal surplus or deficit in the national income accounts (above) with net interest paid added back: the
+    balance before interest. Quarterly, seasonally adjusted annual rates, as the national accounts were reported; each
+    quarter from the same *Economic Report* and table as the row above, with the change from the quarter before in that
+    Report. Then: "net interest paid" in the federal sector table ({{1960Q4..1961Q3|[Jan. 1962]({ERP62}), Table B-59,
+    p. 276; }}{{1961Q4..1962Q4|[Jan. 1963]({ERP63}), Table C-60, p. 242; }}{{1963Q1..1963Q3|[Jan. 1964]({ERP64}),
+    Table C-60, p. 278; }}{{1963Q4..1964Q3|[Jan. 1965]({ERP65}), Table B-62, p. 263; }}{{1964Q4..1965Q3|[Jan.
+    1966]({ERP66}), Table C-61, p. 281; }}{{1965Q4..1966Q3|[Jan. 1967]({ERP67}), Table B-63, p. 287;
+    }}{{1966Q4..1967Q3|[Feb. 1968]({ERP68}), Table B-62, p. 283; }}{{1967Q4..|[Jan. 1969]({ERP69}), Table B-63, p.
+    301}}). Today: BEA's federal net lending or net borrowing ([FRED]({F}AD02RC1Q027SBEA)), which also counts
+    investment less depreciation and capital transfers, plus interest payments less interest receipts
+    ([A091RC1Q027SBEA]({F}A091RC1Q027SBEA); [B094RC1Q027SBEA]({F}B094RC1Q027SBEA)); interest payments now include
+    imputed interest on the unfunded liabilities of federal employees' pension plans, so today's net interest runs near
+    twice the old figure. The two columns are not one measure.
+
+  interest-gnp: >-
+    Federal net interest paid over GNP, in percent, both from one *Economic Report*, seasonally adjusted annual rates:
+    the interest share of output as the national accounts then gave it, quarterly. Each year's four quarters from the
+    next January's Report (the fourth preliminary), the change from the quarter before within that Report. Net
+    interest: the federal sector tables above; GNP: Table 1 of each Report ({{..1961|[Jan. 1962]({ERP62}), Table B-1,
+    p. 207; }}{{1962|[Jan. 1963]({ERP63}), Table C-1, p. 171; }}{{1963|[Jan. 1964]({ERP64}), Table C-1, p. 207;
+    }}{{1964|[Jan. 1965]({ERP65}), Table B-1, p. 189; }}{{1965|[Jan. 1966]({ERP66}), Table C-1, p. 209;
+    }}{{1966|[Jan. 1967]({ERP67}), Table B-1, p. 213; }}{{1967|[Feb. 1968]({ERP68}), Table B-1, p. 209;
+    }}{{1968|[Jan. 1969]({ERP69}), Table B-1, p. 227}}). The budget's interest ("interest on the public debt", fiscal
+    years) was another measure, gross of interest received and of trust-fund holdings. Today: BEA's federal interest
+    payments less interest receipts over GDP ([FRED A091RC1Q027SBEA]({F}A091RC1Q027SBEA),
+    [B094RC1Q027SBEA]({F}B094RC1Q027SBEA), [GDP]({F}GDP)); the payments include imputed pension interest (see the
+    primary balance), so today's share is the larger by half or more. OMB's net interest outlays, by fiscal year:
+    [FYOINT]({F}FYOINT).
+
+  public-debt: >-
+    Treasury: the public debt outstanding at the end of the month, in the Treasury's accounts: marketable and
+    nonmarketable issues, special issues to the trust funds, and debt bearing no interest; guaranteed agency securities
+    ($0.2–0.6bn) not included. Monthly, as the Treasury reported it: first in the Daily Treasury Statement for the
+    month's last day (not read here), then in the [*Treasury Bulletin*]({TB}), whose figures are the ones shown:
+    {{..1967-12|"Summary of Federal Fiscal Operations", p. 1 of each issue, with the month's net increase or decrease
+    as printed}}{{1968-01..|; from Feb. 1968, Debt Outstanding, Table 1, the change computed from the issue's own last
+    two months}}. Each month from the first issue that carries it{{..1961-09|: through Sept. 1961, the issue two
+    months later; from Oct. 1961, the next month's}}{{not ..1961-09|: the next month's}}. "Released" is the issue's
+    month. Not a revised series: today's figure is the Treasury's own, quarterly from 1966 ([FRED
+    GFDEBTN]({F}GFDEBTN)){{1966..|; its June figures for 1966–68 run $2–4bn below the Bulletin's (Check)}}.
+
+  debt-gnp: >-
+    The public debt at the end of the quarter over the quarter's GNP at a seasonally adjusted annual rate, in percent,
+    both from one *Economic Report*: each year's four quarters from the next January's Report (the fourth quarter's GNP
+    preliminary), the change from the quarter before within that Report. No ratio was published quarterly; the Report
+    printed both figures. Debt: {{..1967|"Gross public debt and guaranteed issues", end of month, U.S. Government debt,
+    by kind of obligation ({{..1961|[Jan. 1962]({ERP62}), Table B-52, p. 269; }}{{1962|[Jan. 1963]({ERP63}), Table
+    C-53, p. 235; }}{{1963|[Jan. 1964]({ERP64}), Table C-53, p. 271; }}{{1964|[Jan. 1965]({ERP65}), Table B-55, p.
+    255; }}{{1965|[Jan. 1966]({ERP66}), Table C-54, p. 273; }}{{1966|[Jan. 1967]({ERP67}), Table B-56, p. 279;
+    }}{{1967|[Feb. 1968]({ERP68}), Table B-64, p. 285}})}}{{1968|; "Public debt securities", guaranteed issues out
+    ([Jan. 1969]({ERP69}), Table B-64, p. 302)}}. GNP: Table 1, as in the interest share above. Today: the Treasury's
+    total public debt over BEA's GDP, from 1966 ([FRED GFDEGDQ188S]({F}GFDEGDQ188S)){{1966..|; the June figures low,
+    as under the public debt above}}.
+
+  debt-gdp-omb: >-
+    Office of Management and Budget, decades later: debt held by the public (outside federal accounts: the Federal
+    Reserve Banks included) and gross federal debt (the public debt and agency debt, trust-fund holdings included) at
+    the end of the fiscal year, over GDP for the fiscal year, in percent; changes in points from the year before.
+    Retrospective: one column. Held by the public is the measure the IMF and the bond market use today. [OMB,
+    *Historical Tables*, Table 7.1]({OMB71}) (the Budget for fiscal 2027). FRED's annual ratios
+    ([GFDGDPA188S]({F}GFDGDPA188S), [FYPUGDA188S]({F}FYPUGDA188S)) divide the fiscal year's debt by the calendar
+    year's GDP, and differ.
+
+  balance-of-payments: >-
+    Commerce: the over-all balance, measured by the change in U.S. gold, convertible currencies, and liquid liabilities
+    to foreigners; seasonally adjusted annual rates. The figure behind the gold and dollar measures of 1961–63. No
+    longer published; no figure today. *Economic Report*: {{..1962|[Jan. 1963]({ERP63}), Table C-78;
+    }}{{1962Q4..|[Jan. 1964]({ERP64}), Table C-77}}.{{1963..| From Jan. 1965, the balance on regular transactions,
+    below.}}
+
+  balance-of-payments-regular: >-
+    Commerce: the balance on regular transactions, which the *Economic Report* of Jan. 1965 prints in place of the
+    over-all balance. Before special government transactions: debt prepayments, advances on military exports, and sales
+    of nonmarketable bonds and notes, convertible and not. Seasonally adjusted annual rates. Not comparable with the
+    over-all balance above{{1962|: for 1962, −$3.6bn on regular transactions, −$2.2bn with all special transactions
+    (Table 7)}}. No longer published; no figure today. [*Economic Report*, Jan. 1965]({ERP65}), Table B-79, p. 283;
+    Table 7, p. 72. From Jan. 1966, the liquidity and official reserve transactions balances, below.
+
+  balance-of-payments-liquidity: >-
+    Commerce: the balance on the liquidity basis, one of the two measures the Government put its stress on from 1965,
+    which the *Economic Report* of Jan. 1966 prints in place of the balance on regular transactions. Measured by
+    changes in liquid liabilities to foreign official and other holders and in official reserve assets: gold,
+    convertible currencies, and the U.S. gold tranche position in the IMF. Special government transactions included.
+    Seasonally adjusted annual rates; the years 1965 to 1968 each the average of its first three quarters, as the
+    Report of the next January printed it.{{1962| For 1962, −$2.2bn (Table C-78).}} No longer published; no figure
+    today. *Economic Report*: {{..1965|[Jan. 1966]({ERP66}), Table C-78, p. 301; ch. 6, "Measures of Deficit or
+    Surplus," pp. 160–62; }}{{1965Q4..1966|[Jan. 1967]({ERP67}), Table B-80, p. 307; }}{{1966Q4..1967|[Feb.
+    1968]({ERP68}), Table B-83, p. 307; }}{{1967Q4..|[Jan. 1969]({ERP69}), Table B-84, p. 325}}.
+
+  balance-of-payments-official: >-
+    Commerce: the balance on official reserve transactions ("official settlements"), the other measure stressed from
+    1965. Measured by changes in liquid and nonliquid liabilities to foreign official holders and in official reserve
+    assets, as above; a rise in private foreigners' liquid dollar holdings counts as a capital inflow, not as deficit.
+    Seasonally adjusted annual rates; the years 1965 to 1968 each the average of its first three quarters, as the
+    Report of the next January printed it.{{1964| For 1964, −$1.2bn against −$2.8bn on the liquidity basis (Table
+    C-78).}} No longer published; no figure today. *Economic Report*: {{..1965|[Jan. 1966]({ERP66}), Table C-78, p.
+    301; ch. 6, pp. 160–62; }}{{1965Q4..1966|[Jan. 1967]({ERP67}), Table B-80, p. 307; }}{{1966Q4..1967|[Feb.
+    1968]({ERP68}), Table B-83, p. 307; }}{{1967Q4..|[Jan. 1969]({ERP69}), Table B-84, p. 325}}.
+
+  gold-stock: >-
+    Treasury monetary gold stock, end of month, as compiled by NBER from the *Federal Reserve Bulletin*
+    ([FRED]({F}M1476CUSM144NNBR)). Not a revised series; one column.
+
+  oil-production: >-
+    Crude petroleum produced in the United States, field production. {SCB_NOTE} Today: EIA, U.S. field production of
+    crude oil, thousand barrels a day ([EIA MCRFPUS2]({EIA}MCRFPUS2&f=M)): the Survey's figures, to its rounding, in
+    most months{{1964|; lower by 31–66 thousand barrels a day through 1964}}{{1966|; lower by 34–42 in 1966, Nov.
+    excepted}}{{1968-08..1968-09|; lower by 85 in Aug. 1968 and 38 in Sept.}}. Changes, day for day: percent from the
+    month before, and from the same month a year earlier (y/y), each column in its own figures; the first column's from
+    the earlier months as first printed, in earlier issues. Neither series seasonally adjusted. {{1965-05|The Survey
+    misprinted May 1965, 283.3m bbl for 238.3, corrected in the issue of Sept. 1965. }}{{1966-12|The Survey misprinted
+    Dec. 1966, 286.3m bbl for 263.8, corrected in the issue of May 1967. }}{{1965-05,1966-12|Shown as printed, the
+    correction in grey; no change to or from a misprinted month. }}Crude only: natural gas liquids not included.
+
+  oil-supplied: >-
+    Domestic demand for all oils: crude, refined products and natural gas liquids taken into domestic use ("products
+    supplied" today), by disappearance: production plus imports, less exports and the change in stocks. {SCB_NOTE}
+    Today: EIA, U.S. product supplied of crude oil and petroleum products ([EIA MTTUPUS2]({EIA}MTTUPUS2&f=M)), monthly
+    from 1963{{..1962|; before 1963 the month has the first figure alone}}. Changes as for crude production.
+
+  oil-trade: >-
+    Imports and exports of crude petroleum and of refined products, by month: the Survey's four figures summed by kind,
+    net imports the difference. {SCB_NOTE} Change: net imports from the month before, million barrels a day; none to or
+    from a month whose figures carry a note.{{1961-06| The issue of Sept. 1961 printed products exports for June 1961 as
+    15,357 thousand barrels; the issue of Oct. 1961, 5.4 million: shown as printed, the correction in grey.}}{{1969-01|
+    From the issue of Apr. 1969 crude imports are "crude and unfinished oils".}} Imports were limited from Mar. 10,
+    1959, by Proclamation 3279 (the Mandatory Oil Import Program; the thread Oil). No monthly figure today: EIA's
+    monthly trade series begin in 1973; the year's figures today are the next series, filed in December.
+
+  oil-trade-year: >-
+    Petroleum imports, exports and net imports for the year, crude and products together, thousand barrels a day: EIA,
+    [*Monthly Energy Review*, Table 3.1]({MER}), annual from 1949. Retrospective: one column. Change: net imports from
+    the year before, million barrels a day. The month's figures as first reported are the series above.
+
+  oil-reserves: >-
+    Proved reserves of crude oil at Dec. 31: oil recoverable from known fields under existing economic and operating
+    conditions. As first reported: the estimate of the American Petroleum Institute's Committee on Petroleum Reserves,
+    as the Bureau of Mines' *Minerals Yearbook* for the year printed it, a year or more later (the API's own report,
+    each spring, not read here): {{1960|[1960]({MYB}1960_2), II, 372; }}{{1961|[1961]({MYB}1961_2), II, 365;
+    }}{{1962|[1962]({MYB}1962_2), II, 382; }}{{1963|[1963]({MYB}1963_2), II, 398; }}{{1964|[1964]({MYB}1964_2), II,
+    391; }}{{1965|[1965]({MYB}1965_2), II, 357; }}{{1966|[1966]({MYB}1966_12), I–II, 816, Table 3;
+    }}{{1967|[1967]({MYB}1967_12), I–II, 843; }}{{1968|[1968]({MYB}1968_12), I–II, 817}}. Released: the Yearbook's
+    year of printing. Today: EIA ([RCRR01NUS_1]({EIA}RCRR01NUS_1&f=A)), whose figures before 1977 are the API's.
+    Change: from the year before, billion barrels, each column in its own figures. Natural gas liquids not included.
+
+  war-deaths: >-
+    Members of the armed forces who died in the war in Southeast Asia, by {{1965-01..|the month (from Jan. 1965) or
+    }}year of the incident or death: all causes, hostile (killed in action, died of wounds, died while missing or
+    captured), and all causes since Jan. 1, 1961, the start of the Department of Defense's period. Today: [NARA, Defense
+    Casualty Analysis System, Vietnam Conflict Extract Data File, as of Apr. 29, 2008]({NARA}) (RG 330, NAID 2240992),
+    one record a death, 58,220, counted by the incident or death date; the missing declared dead years later are filed
+    at the incident. NARA's own counts by year agree ([casualty statistics]({NARA_STATS})). As first reported: the
+    hostile deaths as first printed. By year, the *Statistical Abstract of the United States*, from the Defense
+    Department's *Selected Manpower Statistics*: {{1961..1966|[88th ed. (July 1967)]({SA67}), table 372, p. 264 (1961
+    to 1966; no earlier edition prints the table); }}{{1967|[89th ed. (June 1968)]({SA68}), table 373, p. 258 (1967);
+    }}{{1968|[90th ed. (June 1969)]({SA69}), table 373, p. 256 (1968)}}.{{1967-01..1967-09| By month, Jan.–Sept. 1967
+    only: the Office of the Assistant Secretary of Defense (Systems Analysis), *Southeast Asia Analysis Report*, Oct.
+    1967, "U.S. Casualties," Table 1, dated Oct. 10, 1967, Confidential then, not a release ([Thomas C. Thayer, ed., *A
+    Systems Analysis View of the Vietnam War, 1965–1972*, vol. 8 (1975)]({THAYER8}), p. 102).}}{{1965-01..| The weekly
+    figures MACV and the Pentagon announced each Thursday, as the papers printed them, are not read here: "—".}} The two
+    columns differ by the late reports and by the missing later declared dead, counted at the incident today.
+
+  war-strength: >-
+    Members of the armed forces in South Vietnam (personnel on ships off the coast excluded), all services. Today: the
+    Defense Department's table of 1974, *Selected Manpower Statistics*, FY 1974 ([OASD (Comptroller), 1975]({SMS74})),
+    "U.S. Military Personnel in South Vietnam 1960–1973," p. 63: June 30 and Dec. 31 each year{{1969-04|; the peak,
+    543,400, Apr. 30, 1969}}. As first reported: the *Statistical Abstract*'s table "Viet-Nam Conflict—U.S. Military
+    Forces and Casualties," Dec. 31 and the end of the edition's first quarter ({{1961-12..1967-03|[88th ed., July
+    1967]({SA67}), table 372, p. 264; }}{{1967-12..1968-03|[89th ed., June 1968]({SA68}), table 373, p. 258;
+    }}{{1968-12..|[90th ed., June 1969]({SA69}), table 373, p. 256}}). MACV's month-end strength (its command
+    histories) and the weekly strength announced in Saigon are not read here: "—".
+
+  discount-rate: >-
+    Federal Reserve Bank of New York: the rate on discounts for and advances to member banks (Secs. 13 and 13a), set by
+    the Bank's directors with the Board of Governors' approval; the rate in effect at the month's end.{{1963-07..| The
+    other eleven Banks' effective dates differ: {{1963-07|July 17–26, 1963; }}{{1964-11|Nov. 24–30, 1964;
+    }}{{1965-12|Dec. 6–13, 1965; }}{{1967|Apr. 7–14 and Nov. 20–27, 1967; }}{{1968|Mar. 15–22 (New York last), Apr.
+    19–26, Aug. 16–30 (New York among the last) and Dec. 18–20, 1968}}.}}{{..1963-06| 3 percent from Aug. 12, 1960,
+    announced Aug. 11 ([Board press release]({PR}697031)), after 3½ from June 10, announced June 9 ([press
+    release]({PR}697022)) ([*Federal Reserve Bulletin*, July 1960]({FRB}july-1960-21307), p. 756; [Sept.
+    1960]({FRB}september-1960-21309), p. 1014).}}{{1963-07..1964-10| 3½ from July 17, 1963, announced July 16 ([Board
+    press release]({PR}697242); [*Bulletin*, Sept. 1963]({FRB}september-1963-21345), p. 1264).}}{{1964-11..1965-11| 4
+    from Nov. 24, 1964, announced Nov. 23 ([press release]({PR}697328); [*Bulletin*, Dec.
+    1964]({FRB}december-1964-21360), pp. 1530–31; [Feb. 1965]({FRB}february-1965-21362), p.
+    267).}}{{1965-12..1967-03| 4½ from Dec. 6, 1965, announced Dec. 5 ([press release]({PR}697401); [*Bulletin*, Dec.
+    1965]({FRB}december-1965-21372), pp. 1667–68; [Jan. 1966]({FRB}january-1966-21373), p. 53).}}{{1967-04..1967-10|
+    4 from Apr. 7, 1967, announced Apr. 6 ([press release]({PR}697516); [*Bulletin*, Apr.
+    1967]({FRB}april-1967-21388), p. 590; [May 1967]({FRB}may-1967-21389), p. 795).}}{{1967-11..1968-02| 4½ from Nov.
+    20, 1967, announced Nov. 19, after sterling's devaluation ([press release]({PR}697571); [*Bulletin*, Nov.
+    1967]({FRB}november-1967-21395), p. 1921; [Dec. 1967]({FRB}december-1967-21396), p. 2083).}}{{1968-03| 5 from Mar.
+    22, 1968, announced Mar. 21, a week after nine other Banks ([press release]({PR}697609); [*Bulletin*, Apr.
+    1968]({FRB}april-1968-21400), p. 391 and p. A-9).}}{{1968-04..1968-07| 5½ from Apr. 19, 1968, announced Apr. 18
+    ([press release]({PR}697619); [*Bulletin*, Apr. 1968]({FRB}april-1968-21400), p. 391; [May
+    1968]({FRB}may-1968-21401), p. A-9).}}{{1968-08..1968-11| 5¼ from Aug. 30, 1968, announced Aug. 29 ([press
+    release]({PR}697672); [*Bulletin*, Sept. 1968]({FRB}september-1968-21405), p. 782 and p. A-9).}}{{1968-12..| 5½
+    from Dec. 18, 1968, announced Dec. 17 ([press release]({PR}697709); [*Bulletin*, Dec.
+    1968]({FRB}december-1968-21408), p. 1039; [Jan. 1969]({FRB}january-1969-21409), p. A-9).}} Kept by hand; not a
+    revised series.
+
+  federal-funds: >-
+    The effective rate on overnight loans of reserve balances between banks, monthly average of daily figures
+    ([FRED]({F}FEDFUNDS), from the Board's H.15). Then estimated daily by the Federal Reserve Bank of New York from its
+    contacts with banks and brokers in New York City ([*Federal Reserve Bulletin*, Aug. 1964]({FRB}august-1964-21356),
+    p. 953).{{1964| FRED's figures for 1964 are those the *Bulletin* printed month by month ([Feb.
+    1965]({FRB}february-1965-21362), p. 286).}} The Open Market Committee's directives were worded in money market
+    conditions{{1963..1964|: "continuing the present degree of firmness in the money market" ([July 9,
+    1963]({FOMC}19630709.pdf), p. 77); "maintaining about the same conditions in the money market as currently
+    prevail" ([Dec. 15, 1964]({FOMC}19641215.pdf), p. 97)}}.
+
+  prime-rate: >-
+    A base rate the large banks posted for short-term business loans, monthly average of daily figures
+    ([FRED]({F}MPRIME), from the Board's H.15).{{1960-09..1965-11| 4.50 percent each month from Sept. 1960 through
+    Nov. 1965.}}{{1965-12..| 5 from Dec. 6, 1965 ([*Federal Reserve Bulletin*, Dec. 1965]({FRB}december-1965-21372), p.
+    1751).}}
+
+  treasury-bill: >-
+    Three-month Treasury bills, secondary market, discount basis, monthly average of business days
+    ([FRED]({F}TB3MS), from the Board's H.15).{{1964| FRED's figures for 1964 are the market yields the *Federal
+    Reserve Bulletin* printed month by month ([Feb. 1965]({FRB}february-1965-21362), p. 286).}}
+
+  treasury-10-year: >-
+    Yields on Treasury issues adjusted to a constant maturity of ten years, monthly average of business days
+    ([FRED]({F}GS10), from the Board's H.15). The *Federal Reserve Bulletin* then printed the average yield of Treasury
+    bonds maturing or callable in ten years or more ([Feb. 1965]({FRB}february-1965-21362), p. 286): another measure.

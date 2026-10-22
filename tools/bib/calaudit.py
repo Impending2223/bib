@@ -22,7 +22,7 @@ from . import store
 
 OUT = os.path.join(store.ROOT, "notes", "calendar-audit.md")
 
-PRIMARY_HOSTS = ("govinfo.gov", "eur-lex.europa.eu", "undocs.org", "docs.un.org", "presidency.ucsb.edu", "history.state.gov", "federalregister.gov", "archives.gov",
+PRIMARY_HOSTS = ("govinfo.gov", "eur-lex.europa.eu", "undocs.org", "docs.un.org", "documents.un.org", "presidency.ucsb.edu", "history.state.gov", "federalregister.gov", "archives.gov",
                  "congress.gov", "jfklibrary.org", "lbjlibrary", "eisenhowerlibrary.gov", "trumanlibrary", "loc.gov",
                  "justia.com", "law.cornell.edu", "senate.gov", "house.gov", "supremecourt.gov", "oyez.org",
                  "uscode.house.gov", "cia.gov", "nsarchive", "fraser.stlouisfed.org", "bls.gov", "voteview.com", "static.case.law", "federalreserve.gov", "clerk.house.gov", "nasa.gov",

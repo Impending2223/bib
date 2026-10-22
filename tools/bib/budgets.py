@@ -2,26 +2,32 @@
 kept by hand from the Budget documents), budgets/today.yaml (OMB's figures today, written by tools/budgets/make_today.py)
 and budgets/debt-limits.yaml (the thirteen acts changing the debt limit, June 30, 1960-Apr. 7, 1969, kept by hand).
 
-A calendar entry tagged budget:<FY> (the January budget message for that fiscal year) carries the year's table; the
+A calendar entry tagged budget:<FY> (the January budget message for that fiscal year) carries the year's two tables; the
 entry tagged debt-limits (the Debt limit thread's first) carries the table of acts.
 
 STYLE
- 1. The budget table: three columns, as the indicators have them (tools/bib/indicators.py, STYLE 1, 7, 8): Proposed
-    (that January's Budget), First reported (the Budget two Januaries later, which first printed the year's actual;
-    for fiscal 1967's expenditures by function, the Treasury's Annual Report), Today (OMB's Historical Tables). Each
-    column on its own basis: the administrative budget to fiscal 1968, the unified from fiscal 1969; today's column
-    unified, on today's functions, in rows of its own ("Today, unified basis"), never summed with the others.
- 2. Rows: a line shares a row with another column's only where the source means the same thing by it (the key in the
-    data). A renamed line keeps its row, the source's own words on hover; a reclassified line (the functions of fiscal
-    1963's budget, Food for Peace moved to international affairs in fiscal 1966's, the unified budget's functions) is a
-    row of its own, "—" in the other column. The sources' order, the proposal's lines first.
- 3. Money in $bn, one decimal, the header saying "$bn", the cells bare (indicators STYLE 3, 10); the source's own figure
-    and unit on hover. A deduction printed as such is negative (U+2212). "*" is the source's "less than $50 million";
-    "—" no such line in this column by design; "n.a." a column not found in a source read (fiscal 1968's actual).
+ 1. The budget block: two tables, stacked, each fitting the calendar's column and a phone (~400px) without sideways
+    scrolling. First the budget as the January Budget proposed it and as first reported (the Budget two Januaries
+    later, which first printed the year's actual; for fiscal 1967's expenditures by function, the Treasury's Annual
+    Report), receipts by source then expenditures by function, on its own basis (the administrative budget to fiscal
+    1968, the unified from fiscal 1969; its title says which): "Fiscal 1964: the administrative budget, proposed and
+    first reported". Then OMB's Historical Tables (2.1, 3.1) today, unified, on today's functions, receipts by source
+    then outlays by function, never summed with the first: "Fiscal 1964 on today's unified basis (OMB, Historical
+    Tables 2.1, 3.1)", its column headed by the edition read ("FY2025 ed."). "Today" never stands alone in a title or a
+    head, where it could be read as the current fiscal year (the owner's request, Oct. 22, 2026).
+ 2. No column empty for every row of its table: a column a source does not give is left out, not filled with "—" or
+    "n.a." (fiscal 1968 has no first-reported column; its note says why). Rows: a line shares a row with the other
+    column's only where the source means the same thing by it (the key in the data). A renamed line keeps its row, the
+    source's own words on hover; a reclassified line (the functions of fiscal 1963's budget, Food for Peace moved to
+    international affairs in fiscal 1966's) is a row of its own, "—" in the other column. The sources' order, the
+    proposal's lines first. OMB's function with no outlays that year (Medicare before fiscal 1966) is left out.
+ 3. Money in $bn, one decimal, the head saying "$bn", the cells bare and unbroken, right-aligned (indicators STYLE 3,
+    10); the line's name wraps; the source's own figure and unit on hover. A deduction printed as such is negative
+    (U+2212). "*" is the source's "less than $50 million"; "—" no such line in this column.
  4. Totals: the printed total of each column, whatever the lines add to (`check` holds the lines to it within
     rounding: half a unit a line); a total the source labels otherwise says so on hover.
- 5. Under the table: each column's note, then the sources: document, table, printed page, linked to the page of
-    FRASER's scan.
+ 5. Under each table its notes, then its sources: for the first, each column's document, table, printed page, linked
+    to the page of FRASER's scan; for the second, OMB's tables, linked, and the edition.
  6. The debt-limit table: one row an act, in order: the day approved (linked to its calendar entry), the Statutes cite
     (linked to govinfo), the bill, the limits it set, each with its term, and the permanent limit after it. Limits in
     whole $bn ("$308bn"), terms as dates in the series' form; a limit with no end date is permanent.
@@ -41,8 +47,11 @@ STYLE = """<style id="bgstyle">
 .bg{margin:1rem 0 .5rem;font-family:var(--sans)}
 .bg .bgh{font-weight:700;font-size:.95rem;margin:.2rem 0 .4rem}
 .bg .bgw{overflow-x:auto;-webkit-overflow-scrolling:touch}
-.bg table{border-collapse:collapse;width:100%;min-width:30rem;font-size:.78rem;font-variant-numeric:tabular-nums;line-height:1.35}
-.bg th,.bg td{text-align:right;padding:.18rem .45rem .18rem 0;vertical-align:bottom;border-bottom:1px solid var(--rule)}
+.bg .bgh2{margin-top:1.1rem}
+.bg table{border-collapse:collapse;width:100%;font-size:.78rem;font-variant-numeric:tabular-nums;line-height:1.35}
+.bg th,.bg td{text-align:right;padding:.18rem 0 .18rem .6rem;vertical-align:bottom;border-bottom:1px solid var(--rule)}
+.bg table.bgb td{white-space:nowrap}
+.bg table.bgb td:first-child{white-space:normal}
 .bg th:first-child,.bg td:first-child{text-align:left;padding-left:0}
 .bg thead th{font-weight:600;color:var(--muted);font-size:.74rem;line-height:1.25}
 .bg tr.bgs th{text-align:left;font-weight:700;padding-top:.6rem;color:var(--ink);border-bottom:1px solid var(--ink)}
@@ -51,7 +60,7 @@ STYLE = """<style id="bgstyle">
 .bg .bgn{font-size:.78rem;line-height:1.45;color:var(--note);margin:.3rem 0}
 .bg .bgsrc{font-size:.78rem;color:var(--muted);line-height:1.4;margin:.3rem 0}
 .bg td.dlt{text-align:left;white-space:normal}
-@media (max-width:520px){.bg table{min-width:0}.bg td.dlt{min-width:9rem}}
+@media (max-width:520px){.bg td.dlt{min-width:9rem}}
 </style>"""
 
 
@@ -114,42 +123,45 @@ def cell(v, unit, printed=None):
     return f'<td title="{esc(minus(tip))}">{minus(f"{bn(v, unit):,.1f}")}</td>'
 
 
-def parts(fy):
-    """For one fiscal year: [(section title, [(key, P cell, A cell, T cell)], (P total, A total, T total))]."""
+NA = '<td class="na">—</td>'
+
+
+def then_table(fy):
+    """The budget as the Budget proposed it and as first reported: the columns that have a figure, and the sections
+    (title, [(key, [cells])], [total cells]), receipts then expenditures."""
     B = budgets().get(fy) or {}
-    T = today().get(fy) or {}
-    P, A = B.get("proposed") or {}, B.get("actual")
-    out = []
-    for part, today_key, then, now in (("receipts", "receipts", "Receipts by source", "Receipts by source today"),
-                                        ("expenditures", "outlays", "Expenditures by function", "Outlays by function today")):
-        p, a = P.get(part) or {}, (A or {}).get(part) or {}
-        unified = (p.get("basis") or a.get("basis")) == "unified"
-        title = (then if not unified else then.replace("Expenditures", "Outlays")) + (
-            ", unified budget" if unified else ", administrative budget")
+    cols = [(name, B.get(col)) for col, name in (("proposed", "Proposed"), ("actual", "First reported")) if B.get(col)]
+    secs = []
+    for part, title in (("receipts", "Receipts by source"), ("expenditures", "Expenditures by function")):
+        blks = [c.get(part) or {} for _, c in cols]
+        if any(b.get("basis") == "unified" for b in blks):
+            title = title.replace("Expenditures", "Outlays")
         keys = []
-        for blk in (p, a):
+        for blk in blks:
             for r in blk.get("rows") or []:
                 if r[0] not in keys:
                     keys.append(r[0])
         rows = []
         for k in keys:
-            def find(blk):
-                for r in blk.get("rows") or []:
-                    if r[0] == k:
-                        return cell(r[1], blk["unit"], r[2] if len(r) > 2 else None)
-                if A is None and blk is a:
-                    return '<td class="na">n.a.</td>'
-                return '<td class="na">—</td>'
-            rows.append((k, find(p), find(a), '<td class="na">—</td>'))
-        tot = (cell(p.get("total"), p.get("unit"), p.get("total_label")) if p else '<td class="na">—</td>',
-               cell(a.get("total"), a.get("unit"), a.get("total_label")) if a else '<td class="na">n.a.</td>',
-               '<td class="na">—</td>')
-        out.append((title, rows, tot))
-        t = T.get(today_key) or {}
-        trows = [(r[0], '<td class="na">—</td>', '<td class="na">—</td>', cell(r[1], "m") if r[1] is not None
-                  else '<td class="na">—</td>') for r in t.get("rows") or []]
-        out.append((now + ", unified budget", trows,
-                    ('<td class="na">—</td>', '<td class="na">—</td>', cell(t.get("total"), "m"))))
+            cells = []
+            for blk in blks:
+                hit = [r for r in blk.get("rows") or [] if r[0] == k]
+                cells.append(cell(hit[0][1], blk["unit"], hit[0][2] if len(hit[0]) > 2 else None) if hit else NA)
+            rows.append((k, cells))
+        tot = [cell(b.get("total"), b.get("unit"), b.get("total_label")) if b else NA for b in blks]
+        secs.append((title, rows, tot))
+    return cols, secs
+
+
+def now_table(fy):
+    """OMB's figures today: [(title, [(key, cell)], total cell)], receipts then outlays; a function with no outlays
+    that year (Medicare before fiscal 1966) left out."""
+    T = today().get(fy) or {}
+    out = []
+    for part, title in (("receipts", "Receipts by source"), ("outlays", "Outlays by function")):
+        t = T.get(part) or {}
+        rows = [(r[0], cell(r[1], "m")) for r in t.get("rows") or [] if r[1] is not None]
+        out.append((title, rows, cell(t.get("total"), "m") if t.get("total") is not None else NA))
     return out
 
 
@@ -177,35 +189,59 @@ def sources(fy):
             out.append(f"{name}: {cite(r)}.")
         else:
             out.append(f"{name}: receipts, {cite(r)}; expenditures, {cite(e)}.")
-    src = load("today.yaml").get("source") or {}
-    if src:
-        out.append(f'Today: <a href="{esc(src["receipts"]["url"])}">{ital(src["receipts"]["title"])}</a>; '
-                   f'<a href="{esc(src["outlays"]["url"])}">{ital(src["outlays"]["title"])}</a> ({esc(src.get("edition", ""))}).')
     return " ".join(out)
+
+
+def now_sources():
+    src = load("today.yaml").get("source") or {}
+    if not src:
+        return ""
+    return (f'<a href="{esc(src["receipts"]["url"])}">{ital(src["receipts"]["title"])}</a>; '
+            f'<a href="{esc(src["outlays"]["url"])}">{ital(src["outlays"]["title"])}</a> ({esc(src.get("edition", ""))}).')
+
+
+def edition():
+    """The OMB edition read, short: "FY2025 ed." from "Budget of the U.S. Government, Fiscal Year 2025"."""
+    m = re.search(r"Fiscal Year (\d{4})", (load("today.yaml").get("source") or {}).get("edition", ""))
+    return f"FY{m.group(1)} ed." if m else "OMB"
+
+
+def table(head, secs):
+    n = head.count("<th")
+    body = []
+    for title, rows, tot in secs:
+        body.append(f'<tr class="bgs"><th colspan="{n}">{esc(title)}</th></tr>')
+        for k, cells in rows:
+            body.append(f"<tr><td>{esc(k)}</td>{''.join(cells)}</tr>")
+        body.append(f'<tr class="bgt"><td>Total</td>{"".join(tot)}</tr>')
+    return f'<div class="bgw"><table class="bgb"><thead>{head}</thead><tbody>{"".join(body)}</tbody></table></div>'
 
 
 def block(fy):
     B = budgets().get(fy)
     if not B:
         return ""
-    P, A = B.get("proposed") or {}, B.get("actual") or {}
-    head = ("<tr><th>$bn</th>" + colhead(P.get("receipts"), "Proposed")
-            + colhead(A.get("receipts") if A else None, "First reported") + "<th>Today</th></tr>")
-    body = []
-    for title, rows, tot in parts(fy):
-        body.append(f'<tr class="bgs"><th colspan="4">{esc(title)}</th></tr>')
-        for k, p, a, t in rows:
-            body.append(f"<tr><td>{esc(k)}</td>{p}{a}{t}</tr>")
-        body.append(f'<tr class="bgt"><td>Total</td>{tot[0]}{tot[1]}{tot[2]}</tr>')
-    notes = [c.get("note") for c in (B.get("proposed"), B.get("actual")) if c and c.get("note")]
+    cols, secs = then_table(fy)
+    unified = any((c.get(p) or {}).get("basis") == "unified" for _, c in cols for p in ("receipts", "expenditures"))
+    names = [n for n, _ in cols]
+    title = (f'Fiscal {fy}: the {"unified" if unified else "administrative"} budget, '
+             + (" and ".join(n.lower() for n in names)))
+    head = "<tr><th>$bn</th>" + "".join(colhead(c.get("receipts"), n) for n, c in cols) + "</tr>"
+    notes = [c.get("note") for _, c in cols if c.get("note")]
     if B.get("note"):
         notes.append(B["note"])
-    notes.append("Today's figures are OMB's, revised, on the unified basis and today's functions: not comparable line by "
-                 "line with the budget's, and not summed with them.")
-    return (f'<div class="bg" id="bg{fy}"><p class="bgh">Fiscal {fy}: receipts and expenditures, as proposed, as first '
-            f'reported, and today</p><div class="bgw"><table><thead>{head}</thead><tbody>{"".join(body)}</tbody></table></div>'
-            + "".join(f'<p class="bgn">{esc(n)}</p>' for n in notes)
-            + f'<p class="bgsrc">{sources(fy)}</p></div>')
+    out = (f'<div class="bg" id="bg{fy}"><p class="bgh">{esc(title)}</p>{table(head, secs)}'
+           + "".join(f'<p class="bgn">{esc(n)}</p>' for n in notes)
+           + f'<p class="bgsrc">{sources(fy)}</p>')
+    now = now_table(fy)
+    if any(rows for _, rows, _ in now):
+        out += (f'<p class="bgh bgh2">Fiscal {fy} on today\'s unified basis (OMB, <i>Historical Tables</i> 2.1, 3.1)</p>'
+                + table(f"<tr><th>$bn</th><th>{esc(edition())}</th></tr>", [(t, [(k, [c]) for k, c in rows], [tot])
+                                                                         for t, rows, tot in now])
+                + '<p class="bgn">OMB\'s figures, revised, on the unified basis and today\'s functions: not comparable '
+                  'line by line with the budget above.</p>'
+                + f'<p class="bgsrc">{now_sources()}</p>')
+    return out + "</div>"
 
 
 def limit_text(t):

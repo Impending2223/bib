@@ -239,6 +239,7 @@ def entry_html(series, lst, sec, e, text_html, extra_attrs="", extra_spans="", r
         dates = calsplit.thread_dates_html(lst, slug, members, esc)
         if dates:
             parts.append(f'<span class="n">{dates}</span>')
+        parts.append(see_also_html(lst, e))
     elif n:
         parts.append(f'<span class="n">{text_html(n, "n")}</span>')
     if rubric is not None and lst.kind == "calendar" and e.get("thread"):
@@ -283,17 +284,43 @@ def ghost_thread_html(lst, e):
 
 
 def redirect_thread_html(lst, e):
-    """A thread's old name (`see:` in th.yaml, "Desegregation: schools"), in its own place in the index: muted, nothing
-    underlined, the whole of it a link to the thread's entry in the part being built; nothing in a part the thread has
-    no entries in (calsplit.py, STYLE 10)."""
-    to = e["see"]
+    """A thread's old name (`see:` in th.yaml, "Desegregation: schools"), in its own place in the index, with the thread
+    it now goes by: one thread, the whole line muted, nothing underlined, a link to the thread's entry in the part
+    ("Desegregation: schools: School desegregation"; the name alone where the two are the same, "Special elections",
+    which sorts elsewhere); several, the old name in the text's color, then each thread muted and linked, a middle dot
+    between ("Legislatures: Districting and apportionment · State legislatures"); only the threads with entries in the
+    part, nothing where none has (calsplit.py, STYLE 10)."""
     half = calsplit.CUR["half"]
-    members = thread_members(lst).get(to, [])
-    if not any(not half or not calsplit.cfg(lst) or calsplit.half_of_date(lst, m["date"]) == half for m in members):
+    def here(to):
+        return any(not half or not calsplit.cfg(lst) or calsplit.half_of_date(lst, m["date"]) == half
+                   for m in thread_members(lst).get(to, []))
+    tos = [to for to in store.as_list(e["see"]) if here(to)]
+    if not tos:
         return ""
-    href = "#" + calsplit.thread_anchor(lst, to, half)
-    return (f'<li id="{attr(calsplit.thread_anchor(lst, e["id"].split(".", 2)[2], half))}" class="thg thr">'
-            f'<span class="s"><a class="thgl" href="{attr(href)}">{to_html(e["s"])}</a></span></li>')
+    def href(to):
+        return "#" + calsplit.thread_anchor(lst, to, half)
+    own = f'id="{attr(calsplit.thread_anchor(lst, e["id"].split(".", 2)[2], half))}"'
+    if len(store.as_list(e["see"])) == 1:
+        to = tos[0]
+        name = to_html(e["s"]) if thread_name(lst, to) == e["s"] else f'{to_html(e["s"])}: {esc(thread_name(lst, to))}'
+        return f'<li {own} class="thg thr"><span class="s"><a class="thgl" href="{attr(href(to))}">{name}</a></span></li>'
+    links = " · ".join(f'<a class="thgl" href="{attr(href(to))}">{esc(thread_name(lst, to))}</a>' for to in tos)
+    return f'<li {own} class="thg thr thm"><span class="s"><span class="tho">{to_html(e["s"])}:</span> {links}</span></li>'
+
+
+def see_also_html(lst, e):
+    """A thread statement's See also line (`see_also:` in th.yaml): at its foot, set right, "*See also* X · Y · Z", the
+    threads in the thread names' type, each linked to its entry in the part; only those with entries in the part
+    (calsplit.py, STYLE 11)."""
+    half = calsplit.CUR["half"]
+    tos = [to for to in store.as_list(e.get("see_also"))
+           if any(not half or not calsplit.cfg(lst) or calsplit.half_of_date(lst, m["date"]) == half
+                  for m in thread_members(lst).get(to, []))]
+    if not tos:
+        return ""
+    links = " · ".join(f'<a href="#{attr(calsplit.thread_anchor(lst, to, half))}">{esc(thread_name(lst, to))}</a>'
+                       for to in tos)
+    return f'<span class="tsa"><i>See also</i> {links}</span>'
 
 
 def headings(lst, sec, idfmt):
@@ -348,7 +375,8 @@ def half_sections(lst, half):
             c = copy.copy(s)
             c.entries = [e for e in s.entries if not e["id"].startswith(f"{lst.key}.thread.")
                          or any(calsplit.half_of_date(lst, m["date"]) == half
-                                for m in members.get(e.get("see") or e["id"].split(".", 2)[2], []))]
+                                for t in store.as_list(e.get("see") or e["id"].split(".", 2)[2])
+                                for m in members.get(t, []))]
             if half > 1:
                 c.id = f"{s.id}{half}"
             out.append(c)
@@ -1002,9 +1030,15 @@ def build_series(series):
     home.append('<h2 id="home--cg" data-short="Elections">Elections</h2><ol class="e lists"><li><a class="lk" href="congress.html">'
                 '<span class="ab">Elections</span><span class="tt">The elections, 1958–1974: President, House, Senate, governors, legislatures; each Congress at its opening, 1961–1973</span></a>'
                 '<span class="r">87th–93rd</span></li></ol>')
+    home.append('<h2 id="home--ix" data-short="Indicators">Indicators</h2><ol class="e lists"><li><a class="lk" href="indicators.html">'
+                '<span class="ab">Indicators</span><span class="tt">The economic indicators under each calendar month, 1960–1969: concepts and sources, and every series in full</span></a>'
+                '<span class="r">1960–69</span></li></ol>')
     home.append('<h2 id="home--ex" data-short="Executive">The Executive Branch</h2><ol class="e lists"><li><a class="lk" href="executive.html">'
                 '<span class="ab">Executive</span><span class="tt">The Executive Branch at each inauguration, 1953–1974: every office, its authority, its holders</span></a>'
                 '<span class="r">1953–74</span></li></ol>')
+    home.append('<h2 id="home--ic" data-short="Indochina">Indochina</h2><ol class="e lists"><li><a class="lk" href="indochina.html">'
+                '<span class="ab">Indochina</span><span class="tt">Vietnam, Laos and Cambodia, 1960–1968: the calendar\'s placed entries on one map, by year; the gazetteer</span></a>'
+                '<span class="r">1960–68</span></li></ol>')
     home.append("</section>")
 
     page = open(os.path.join(TEMPLATES, "series.html"), encoding="utf-8").read()
@@ -1041,7 +1075,7 @@ def _section_series(series, lst, sec, linker, li_extra):
 def run(series, which=None):
     os.makedirs(OUT, exist_ok=True)
     written = []
-    PAGES = ("series", "congress", "executive", "names", "lives", "works")
+    PAGES = ("series", "congress", "executive", "names", "lives", "works", "indochina", "indicators")
     for l in series.lists.values():       # the calendar's later parts are built with its first
         if which and l.kind == "calendar" and calsplit.cfg(l) and which in [p["page"] for p in calsplit.cfg(l)]:
             which = l.key
@@ -1119,6 +1153,20 @@ def run(series, which=None):
         page = executive.page(series, linker, os.path.join(TEMPLATES, "list.html"))
         if page:
             path = os.path.join(OUT, "executive.html")
+            smart.write(path, routed(page))
+            written.append(path)
+    if which in (None, "indochina"):      # the map of Indochina on its own (tools/bib/indochina.py)
+        from . import indochina
+        page = indochina.page(series, os.path.join(TEMPLATES, "list.html"))
+        if page:
+            path = os.path.join(OUT, "indochina.html")
+            smart.write(path, routed(page))
+            written.append(path)
+    if which in (None, "indicators"):     # the indicators' master: concepts, sources, tables (tools/bib/concepts.py)
+        from . import concepts
+        page = concepts.page(series, os.path.join(TEMPLATES, "list.html"))
+        if page:
+            path = os.path.join(OUT, "indicators.html")
             smart.write(path, routed(page))
             written.append(path)
     if which in (None, "works"):          # the A–Z bibliography (tools/bib/bibliography.py)

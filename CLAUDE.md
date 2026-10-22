@@ -255,7 +255,15 @@ index's dates, the ⟨⟨ ⟩⟩ line, the highlight); the rubric, the ⟨⟨ �
 subthread without a statement (`c`) is a ghost: named where it is under way, and in the thread index by a line under its parent: its
 full name ("Vietnam: Pennsylvania") muted, not underlined, as the A–Z bibliography's ghosts are, then its dates as any
 thread's (its rubric links there; STYLE 9 in `tools/bib/calsplit.py`); give it a `c` to promote it. A renamed thread
-may keep its old name in the index, muted, a link to the thread (`s:` the old name, `see:` the slug; STYLE 10). No thread or subthread name begins with "The"
+may keep its old name in the index, muted, a link to the thread, naming it ("Desegregation: schools: School desegregation"; `s:`
+the old name, `see:` the slug), or, where the old name went to several threads, the old name in the text's color and the
+threads muted, linked, a middle dot between ("Legislatures: Districting and apportionment · State legislatures"; `see:` a
+list; STYLE 10). A hidden `sort:` files a thread under other words, the name unchanged ("1960 Elections" as "Elections
+of 1960"; "Special elections" as "Elections, special", a redirect left at S); `check` holds th.yaml to it. A statement
+may end in "*See also* X · Y" (`see_also:`, slugs; set right, in the thread names' type; STYLE 11), for related matter
+elsewhere in the index, not for a parent, its subthreads or an alphabetical neighbor (the owner's rules, Oct. 21,
+2026). A university's desegregation is a subthread of School desegregation, in its State's thread too by `also:`
+(Ole Miss, University of Georgia). No thread or subthread name begins with "The"
 (the owner's rule, Oct. 21, 2026: "Jupiters", "Air war"). Use one where a thread holds two or more events at once,
 or where the thread's name does not say what is going on. In `th.yaml`, after its parent (alphabetical by full name).
 `thread_name`, `entry_threads` in `tools/bib/build.py`; `thread_line`, `is_ghost` in `tools/bib/store.py`.
@@ -1263,11 +1271,14 @@ tools/bib/indicators.py       renders them (ORDER, GROUP) and checks them
 
 `tools/bib/budgets.py` and `tools/bib/bills.py` (STYLE notes at the top of each):
 
-- A January budget entry tagged `budget:<FY>` (fiscal 1961–70) carries the year's table: receipts by source and
-  expenditures (outlays) by function, three columns as the indicators have them: Proposed (that January's *Budget*),
-  First reported (the *Budget* two Januaries later; fiscal 1967's expenditures from the Treasury's *Annual Report*;
-  fiscal 1968's not found, "n.a."), Today (OMB's Historical Tables 2.1 and 3.1, unified, today's functions, in rows of
-  their own, never summed with the others). A table under each January entry, not indicator series filed in June:
+- A January budget entry tagged `budget:<FY>` (fiscal 1961–70) carries two tables, stacked (the owner's request, Oct.
+  22, 2026: no sideways scrolling, no empty columns, titles that name the year). First "Fiscal 1964: the administrative
+  budget, proposed and first reported" (the unified from fiscal 1969), receipts by source then expenditures by
+  function: Proposed (that January's *Budget*), First reported (the *Budget* two Januaries later; fiscal 1967's
+  expenditures from the Treasury's *Annual Report*; fiscal 1968's not found, so that year has no such column, its note
+  saying why). Then "Fiscal 1964 on today's unified basis (OMB, *Historical Tables* 2.1, 3.1)", receipts then outlays,
+  today's functions, one column headed by the edition read ("FY2025 ed."), never summed with the first. "Today" never
+  stands alone in a title or head. Tables under each January entry, not indicator series filed in June:
   the proposal belongs to the message; the then and now classifications share no rows (indicators STYLE 8), so a
   June row a line would not align them; and twenty lines a June would swamp the month tables. `budgets/budgets.yaml`
   is read off FRASER's scans (each column's document, table, printed page and PDF page); a line shares a row with
@@ -1300,6 +1311,12 @@ provinces as of late 1966, tinted by corps zone (the default), today's region, o
 - A place not in the gazetteer: add it, with Wikipedia's coordinates (never guessed) and its province by point in
   polygon. The lines are approximate (the README there); the gazetteer's notes are working notes, not the series'.
 - The shapes go beside the pages, `build/geo/vn-<hash>.json`, fetched when the first map nears the screen.
+- The map on a page of its own (the owner's request, Oct. 22, 2026): `build/indochina.html`, "Indochina" in the top
+  bar (`templates/list.html`), the reader's Pages and its front page; `./bib build indochina` alone. The same figure and
+  script (vnmap STYLE 6), as tall as the screen, every placed entry, with a year selector (All years, 1960–68), each
+  year anchored (`indochina.html#y1965`); then the gazetteer as a table (place, plain form, kind, 1966 province, corps
+  zone, the entries tagged there by year, each row anchored `pl-<id>`) and the sources and licenses, HydroSHEDS's
+  statement in full (`tools/bib/indochina.py`, its STYLE notes). Each annual map closes with a muted line to it.
 
 ## The calendar in three parts
 
@@ -1348,8 +1365,11 @@ the date added for a range or a month-only entry), under an address that sets se
 and the entry it leads to, and under each such entry a "From:" line back to the address (`program_links`), then a line a thread linking the entries before and
 after it in the thread ("⟨⟨ Testing ⟩⟩", the brackets the links, not underlined, the date on hover; its `also` threads too; `thread_nav` in
 `tools/bib/build.py`), a "Continuing" pointer under the date on each later
-day of a ranged entry, and the day's documents, closed by default, with "Expand all" and
-"Collapse all" under each month heading.
+day of a ranged entry, and the day's materials in two folded blocks, each closed by default and shown only where it
+holds something (the owner's request, Oct. 22, 2026): "Documents" (APP, FRUS, the recordings) and "Other records" (the
+committees' meetings, the *Bulletin*, and any list added later), each summary counting its own lists; "Expand all" and
+"Collapse all" under each month heading open or close both (STYLE 12 in `tools/bib/daybook.py`). The Sunday programs
+and the *New York Times* line are not daily materials: they stay under the date, in neither block.
 
 ```
 tools/daybook/make_daybook.py   writes daybook/<YYYY-MM>.yaml (needs the network; the build does not)

@@ -267,6 +267,9 @@ var META={{meta}}, ORDER={{order}};
     var lv=document.createElement('li'), av=document.createElement('a');
     av.href='names.html'; av.innerHTML='<b>Names</b><span>A name entry for each person: the life with its sources, papers, works, and the documents that name them</span>';
     lv.appendChild(av); lsts.appendChild(lv);
+    var li2=document.createElement('li'), ai=document.createElement('a');
+    ai.href='indochina.html'; ai.innerHTML='<b>Indochina</b><span>Vietnam, Laos and Cambodia, 1960\u20131968: the calendar\u2019s placed entries on one map, by year; the gazetteer</span>';
+    li2.appendChild(ai); lsts.appendChild(li2);
   })();
   function buildDrawer(){
     $$('a',lsts).forEach(function(a){a.classList.toggle('on',a.dataset.k===active);});
