@@ -332,6 +332,10 @@ def run(series, only=None):
     from . import committee_rosters
     for level, msg in committee_rosters.problems(series):
         add(ERROR if level == "error" else WARN, "congress/committees.yaml", msg, "committee-rosters")
+    # the select, special and joint committees and the subcommittees (tools/bib/committee_more.py)
+    from . import committee_more
+    for level, msg in committee_more.problems(series):
+        add(ERROR if level == "error" else WARN, "congress/committees-cdir.yaml", msg, "committee-more")
     # the calendar's threads in alphabetical order of their names (THREAD_SORT_AS: a name sorted under another word)
     for lst in series.lists.values():
         if lst.kind != "calendar":

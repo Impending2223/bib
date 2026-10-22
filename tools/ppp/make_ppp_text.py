@@ -812,7 +812,7 @@ def read_volume(pkg, pages, V, surname, span, start=1):
 
 SOFT = "\xad"
 MK = re.compile(r"^((?:\[p\. \d+\] ?)*)")
-SPEAKER = re.compile(r"^((?:\[p\. \d+\] )?)((?:the (?:vice )?president|mr\.|mrs\.|miss|secretary|senator|"
+SPEAKER = re.compile(r"^((?:\[p\. \d+\] )?)((?:the (?:vice )?president|The President|mr\.|mrs\.|miss|secretary|senator|"
                      r"ambassador|governor|mayor|general|admiral)(?: [a-z][a-z’'.-]+){0,2})\.\s")
 
 
@@ -828,7 +828,7 @@ def tidy(blocks):
             RULES["a speaker's small capitals read lower case, set in capitals"] += 1
             t = m.group(1) + m.group(2).upper() + ". " + t[m.end():]
             k = "p"
-        m = re.match(r"^((?:\[p\. \d+\] )?)(\[(?!\d+\.\])[^\[\]]{4,200}\])\s+(\S.*)$", t)
+        m = re.match(r"^((?:\[p\. \d+\] )?)(\[(?!\d+\.\])[^\[\]]{4,900}\])\s+(\S.*)$", t)
         if m and k == "p":
             out.append(["b", m.group(1) + re.sub(r"\[\s+", "[", re.sub(r"\s+\]", "]", m.group(2)))])
             out.append(["p", m.group(3)])

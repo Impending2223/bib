@@ -562,8 +562,9 @@ def finish(c, data, rosters):
                         s.setdefault("check", []).append(f"{side}: {n} names read, the count printed {pc[side]}")
                 if pc:
                     s["counts"] = {k: v for k, v in pc.items() if v is not None}
-                if any(m.get("check") for m in ms):
-                    s.setdefault("check", []).append("names: " + "; ".join(m["check"] for m in ms if m.get("check")))
+                hard = [m["check"] for m in ms if m.get("check") and not m["check"].startswith("read as")]
+                if hard:                  # a name read within the OCR's misreadings is settled; the others not
+                    s.setdefault("check", []).append("names: " + "; ".join(hard))
                 if s.get("check"):
                     s["check"] = " ".join(s["check"]) if isinstance(s["check"], list) else s["check"]
 

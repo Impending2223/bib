@@ -16,6 +16,9 @@ STYLE
     first and last linked. A bill passed in lieu of another (S. 2642 for H.R. 11377; S. 1564 for H.R. 6400; H.J. Res.
     1145 for S.J. Res. 189) keeps the other bill's steps, named in the step. The pages turn to days by the bound
     Record's granules (tools/congress/make_record_pages.py).
+ 6. On a phone (under 520px) no sideways scrolling (the owner's request for the budget tables, Oct. 22, 2026, kept
+    here too): each step a block, the date and chamber on a line, bold, then the step, the roll calls, the Record,
+    muted; the heads hidden.
 """
 import os
 import re
@@ -39,7 +42,7 @@ STYLE = """<style id="blstyle">
 .bl td.bld{white-space:nowrap}
 .bl .bln{font-size:.78rem;line-height:1.45;color:var(--note);margin:.3rem 0}
 .bl .blsrc{font-size:.78rem;color:var(--muted);line-height:1.4;margin:.3rem 0}
-@media (max-width:520px){.bl table{min-width:0}}
+@media (max-width:520px){.bl table{min-width:0}.bl table,.bl tbody,.bl tr,.bl td{display:block;width:auto}.bl thead{display:none}.bl tr{padding:.3rem 0;border-bottom:1px solid var(--rule)}.bl td{border:0;padding:0}.bl td.bld,.bl td.blc{display:inline;font-weight:600}.bl td.blc:not(:empty):before{content:" · "}.bl td.blv:empty,.bl td.blr:empty{display:none}.bl td.blr{color:var(--muted)}}
 </style>"""
 
 
@@ -96,8 +99,8 @@ def block(key):
             what += f', <a href="{esc(STAT.format(vol=vol, granule=b["granule"]))}">{vol} Stat. {page}</a>, Pub. L. {esc(b["pl"])}'
         if s.get("note"):
             notes.append(f'{date(s["date"])}: {s["note"]}')
-        rows.append(f'<tr><td class="bld">{when}</td><td>{esc(s.get("chamber", "President" if s.get("stat") else ""))}</td>'
-                    f'<td>{what}</td><td>{votes(s)}</td><td>{rec_link(s)}</td></tr>')
+        rows.append(f'<tr><td class="bld">{when}</td><td class="blc">{esc(s.get("chamber", "President" if s.get("stat") else ""))}</td>'
+                    f'<td>{what}</td><td class="blv">{votes(s)}</td><td class="blr">{rec_link(s)}</td></tr>')
     hist = "; ".join(f'<a href="{esc(REC.format(pkg=g.rsplit("-", 1)[0], g=g))}">{y}</a>' for y, part, g in b.get("history") or [])
     return (f'<div class="bl" id="bl-{esc(key)}"><p class="blh">{esc(b["title"])}, {esc(b["bill"])}: its course</p>'
             '<div class="blw"><table><thead><tr><th>Date</th><th>Chamber</th><th>Step</th><th>Roll call</th><th>Record</th>'

@@ -501,7 +501,7 @@ def year(y, cache, since=None, until=None):
                 title = re.sub(r"^(?:\S+\s+){0,3}Vol\.?\s+\S+,?\s+No\.?\s*\S+\s+", "", title)    # the page's head
                 title = clean(title)
                 w = words(title)
-                if not w or title.startswith("("):
+                if not w or title.startswith("(") or NAME.match(title):     # a name of the names' index
                     continue
                 have = seen.setdefault(page, [])
                 same = next((k for k, xs in enumerate(have) if any(
