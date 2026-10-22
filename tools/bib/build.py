@@ -301,7 +301,10 @@ def headings(lst, sec, idfmt):
     cal = lst.kind == "calendar"          # the calendar's headings without their numerals: the dates do the work
     num = f'<span class="num">{esc(sec.num)}</span>' if sec.num and not cal else ""
     short = plain(sec.title) if cal else sec.label
-    return f'<{tag} id="{idfmt(sec)}" data-short="{attr(short)}">{num}{to_html(sec.title)}</{tag}>'
+    sid = idfmt(sec)
+    old = sec.extra.get("old_id")        # a renamed section's old anchor still lands here (jan60 → 196001)
+    alias = f'<span id="{sid[:-len(attr(sec.id))]}{attr(old)}"></span>' if old and sid.endswith(attr(sec.id)) else ""
+    return f'{alias}<{tag} id="{sid}" data-short="{attr(short)}">{num}{to_html(sec.title)}</{tag}>'
 
 
 def by_day(lst, sec):

@@ -180,12 +180,12 @@ tools/executive/          the one-time script that seeded executive/ from POCOM
 | vn   | Viet.     | Vietnam and the American war, 1945–75        |
 
 Parts: I portrayals, II sources, III names. A reference like "K–J Adm. II.D"
-is `lists/kja/II.D.yaml`. The calendar's files are named by month: `apr.yaml`
-for 1961, `apr60.yaml` for 1960, `apr62.yaml` for 1962, `apr63.yaml` and so on for 1963–68;
-every section a calendar month (`jan60.yaml` from Jan. 6, 1960, the calendar's first day; `jan69.yaml` to Jan. 20, 1969, its
-last; January 1966 two, `jan66.yaml` and `jan66b.yaml`, at the third part's opening), plus `th.yaml` (threads); the
-primary seasons after Jan. 1969, `mar72.yaml`–`aug76.yaml`, hold only the primaries and the conventions' openings for
-now. Its sections are numbered straight through, I to CXXIV, in date order, in the data (`num`); the headings show the
+is `lists/kja/II.D.yaml`. The calendar's files are named by month, year and month, `YYYYMM.yaml` (`196104.yaml`;
+any year: `178904.yaml` would do), and so are their section ids (`196104`; the old ids, `apr`, `apr60`, kept as
+`old_id`, which the headings still anchor); every section a calendar month (`196001.yaml` from Jan. 6, 1960, the
+calendar's first day; `196901.yaml` to Jan. 20, 1969, its last; January 1966 two, `196601.yaml` and `196601b.yaml`, at the
+third part's opening), plus `th.yaml` (threads); the primary seasons after Jan. 1969, `197203.yaml`–`197608.yaml`, hold
+only the primaries and the conventions' openings for now. Its sections are numbered straight through, I to CXXIV, in date order, in the data (`num`); the headings show the
 dates alone.
 
 ## Finding things (start here)
@@ -1306,7 +1306,7 @@ provinces as of late 1966, tinted by corps zone (the default), today's region, o
 One list in the data (`lists/cal/`), three pages in the build, parted at the 88th Congress's opening (by the month) and at
 the 89th's second session (the owner's ruling, Oct. 17, 2026): `cal.html` (Cal. I, Jan. 6, 1960, to Dec. 31, 1962),
 `cal63.html` (Cal. II, Jan. 1, 1963, to Jan. 9, 1966) and `cal66.html` (Cal. III, from Jan. 10, 1966); in the reader,
-three blocks. January 1966 is two sections, `jan66` (Jan. 1–9) and `jan66b` (Jan. 10–31). `split:` in
+three blocks. January 1966 is two sections, `196601` (Jan. 1–9) and `196601b` (Jan. 10–31). `split:` in
 `lists/cal/list.yaml` is a list: the first item the first part's labels (abbr, title, span; its page texts are the
 list's own), each later item a part with the date it begins (`from`), its page, and its own page_title, h1, lede,
 logic, abbr, title and span. A dated section goes to the part its first day falls in; the threads section is in all.
