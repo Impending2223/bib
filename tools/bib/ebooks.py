@@ -11,7 +11,7 @@ President's Public Papers of the month by title, day by day, in the daybook's or
 STYLE:
  1. The unit: a calendar month, both sources together, so the President's documents and the State Department's of a
     day stand side by side, as in the calendar's day. A month runs 26 to 516 FRUS documents, 21,925 to 462,675 words
-    (Oct. 1962), an EPUB of 0.1 to 2 MB; a year a source would run to 3.6 million words, more than a reader opens
+    (Oct. 1962), an EPUB of 85 KB to 1.1 MB (62 MB the 109 books); a year a source would run to 3.6 million words, more than a reader opens
     comfortably. Every month the daybook holds, Jan. 1960 to Jan. 1969.
  2. The book: a title page (what it holds, how it is ordered, the sources and their terms, when built); the contents
     by day, each document under its day by its heading; then the days, a file a day (a day over about 300 KB in

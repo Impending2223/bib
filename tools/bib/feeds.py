@@ -13,8 +13,9 @@ STYLE:
  1. Accessible only: a recording is an item where the Miller Center gives it free (its page and its audio file). One
     PRDE alone catalogues is left out (its audio and transcript are the Edition's, by subscription), counted on the
     page. Machine noise and blank tape are left out, as in the daybook (daybook.NOISE).
- 2. A feed a month: 1 to 694 items (Aug. 1964), within what podcast apps and feed readers take in one feed; a year
-    would run to 4,506 (1964), which many apps cut short or load slowly. The OPML lists every month's feed.
+ 2. A feed a month: 1 to 559 items (Aug. 1964), within what podcast apps and feed readers take in one feed; a year
+    would run to 3,645 (1964), which many apps cut short or load slowly. The OPML lists every month's feed. 7,545
+    items in 70 feeds, July 1962 to Jan. 1969; 335 PRDE-only recordings left out (Oct. 22, 2026).
  3. An item: its title PRDE's where PRDE catalogues the recording ("Lyndon Johnson and George Reedy"), else the
     Miller Center's in title case (daybook.mc_title); the link the Miller Center's page; the enclosure its audio file,
     linked, never copied (audio/mpeg; length "0", the size not known without fetching each file); the guid the
