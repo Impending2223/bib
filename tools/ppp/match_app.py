@@ -20,8 +20,9 @@ STYLE (the rule; mechanical):
     strings' likeness (difflib's ratio) and the share of APP's words the item's title holds (a news conference's
     date in its title aside). Taken: the best at 0.72 or more the same day, 0.85 a day off or by the month alone,
     0.92 two or three days off; ties go to the first in the volume.
- 4. Several APP documents may take one item (APP prints an exchange of letters, or a statement and the letter it
-    goes with, apart where the volume prints them as one item); the matches say so (`shared`).
+ 4. One to one, the best pairs first: an item another APP document has taken goes to a second only where the titles
+    agree at 0.95 or more (APP prints an exchange of letters, or a statement and the letter it goes with, apart where
+    the volume prints them as one item); otherwise the document takes its next best, or none.
 """
 import argparse
 import datetime
@@ -118,30 +119,38 @@ def main():
         elif it["month"]:
             by_month.setdefault((it["who"], it["month"]), []).append(it)
     rows = app_rows()
-    out, why = {}, {}
+    out, why, cand = {}, {}, []
     for url, r in sorted(rows.items(), key=lambda kv: (kv[1]["date"], kv[0])):
         term = TERMS.get(r["who"])
         if NOT_PRINTED.search(r["title"]) or not term or not term[0] <= r["date"] <= term[1]:
             why[url] = "not printed" if NOT_PRINTED.search(r["title"]) else "not a President read"
             continue
         d = datetime.date.fromisoformat(r["date"])
-        best = None
         tiers = [([d], .72), ([d - datetime.timedelta(1), d + datetime.timedelta(1)], .85),
                  ([d + datetime.timedelta(k) for k in (-3, -2, 2, 3)], .92)]
-        for days, cut in tiers:
+        found = []
+        for t, (days, cut) in enumerate(tiers):
             cands = [it for x in days for it in by_day.get((r["who"], x.isoformat()), [])]
-            if cut > .8:
+            if cut > .8 and t == 1:
                 cands += by_month.get((r["who"], r["date"][:7]), [])
-            sc = sorted(((score(r["title"], it["title"]), -it["i"], it) for it in cands),
-                        key=lambda t: (t[0], t[1]), reverse=True)
-            if sc and sc[0][0] >= cut:
-                best = sc[0]
+            found += [(score(r["title"], it["title"]), -t, -it["i"], url, it) for it in cands]
+            found = [f for f in found if f[0] >= tiers[-f[1]][1]]
+            if found:
                 break
-        if best:
-            it = best[2]
-            out[url] = [it["pkg"], it["n"], round(best[0], 2)]
+        if found:
+            cand += found
         else:
             why[url] = "no item"
+    # the best pairs first; an item taken already takes another document only at 0.95 (STYLE 4)
+    taken = {}
+    for sc, t, i, url, it in sorted(cand, key=lambda f: (f[0], f[1], f[2]), reverse=True):
+        k = (it["pkg"], it["n"])
+        if url in out or (k in taken and sc < .95):
+            continue
+        out[url] = [it["pkg"], it["n"], round(sc, 2)]
+        taken.setdefault(k, []).append(url)
+    for url in {f[3] for f in cand} - set(out):
+        why[url] = "no item"
     taken = {}
     for url, (pkg, n, s) in out.items():
         taken.setdefault((pkg, n), []).append(url)

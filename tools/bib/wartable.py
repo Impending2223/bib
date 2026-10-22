@@ -198,10 +198,14 @@ def problems(series):
     one past the calendar's last day."""
     from . import dayblocks
     out = []
+    import datetime as dt
     held = dayblocks.held_days(series)
-    last = max(held) if held else None
+
+    def inside(d):                  # within the calendar's run of days, not past its end or in a gap of seasons
+        x = dt.date.fromisoformat(d)
+        return all((x + dt.timedelta(days=k)).isoformat() in held for k in (-31, 31))
     for d, (month, rows) in sorted(filed().items()):
-        if d not in held and last and d < last and d > min(held):
+        if d not in held and inside(d):
             out.append(("warn", f"war table {month}", f"its first Thursday, {d}, is in no dated section of the calendar"))
     from . import afday
     for d, y in afday.dates().items():

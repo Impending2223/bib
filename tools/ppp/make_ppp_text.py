@@ -331,9 +331,10 @@ def page_parts(W, H, ws, body_h, head_y, surname):
     if rows:
         yc, r = rows[0]
         t = " ".join(w[4] for w in r)
-        if head_y is not None and abs(r[0][1] - head_y) < 9 and (
+        if (head_y is not None and abs(min(w[1] for w in r) - head_y) < 9 and (
                 re.search(r"\[\s*\S{1,4}\s*\]|Papers|Presidents|Appendix|Index|" + surname, t)
-                or re.search(r"\b(Jan|Feb|Mar|Apr|May|June|July|Aug|Sept|Oct|Nov|Dec)\b", t)) \
+                or re.search(r"\b(Jan|Feb|Mar|Apr|May|June|July|Aug|Sept|Oct|Nov|Dec)\b", t))
+                or yc < H * .14 and re.search(r"Public Papers of|" + surname + r",\s*[1Iil]9", t)) \
                 and len(r) <= 12:
             ws = [w for w in ws if w not in r]
             rows = rows[1:]
@@ -437,12 +438,37 @@ def fix_word(tok, V):
     elif re.fullmatch(r"(19|i9|I9|l9|ig|Ig)[\dIlOoSi]{1,2}[\drIlOoSi]", w) and not w.isdigit():
         RULES["letters read for digits in a year (i960, 196r, ig6i)"] += 1
         w = "19" + "".join(c if c.isdigit() else DIGIT.get(c, c) for c in w[2:])
+    elif re.fullmatch(r"[\dioIlOS]+(st|nd|rd|th)", w) and re.search(r"\d", w) and not re.fullmatch(r"\d+(st|nd|rd|th)", w):
+        RULES["letters read for digits in an ordinal (iooth, 6oth)"] += 1
+        k = re.search(r"(st|nd|rd|th)$", w).start()
+        w = "".join(DIGIT.get(c, c) for c in w[:k]) + w[k:]
     elif w[0] in "]I" and len(w) > 2 and w[1].islower() and w not in IWORDS:
         j = "J" + w[1:]
         if w[0] == "]" or (V.n(j) >= 3 * max(1, V.n(w)) and V.n(j) >= 3):
             RULES[f"J read as {w[0]} at a word's start"] += 1
             w = j
+    if len(w) >= 3 and V.n(w) <= 2 and w not in REAL and re.fullmatch(r"[A-Za-z]+", w):
+        for x, y in CONFUSE:
+            i = w.find(x)
+            while i >= 0:
+                c = w[:i] + y + w[i + len(x):]
+                if V.n(c) >= max(1000 if w[0].isupper() else 100, 300 * V.n(w)):
+                    RULES[f"'{x}' read for '{y}' (the word printed so 300 times as often)"] += 1
+                    return a + c + z
+                i = w.find(x, i + 1)
     return a + w + z
+
+
+# letters the OCR confuses (STYLE 5): a word read with one of them, printed at most twice in the volumes, is put right
+# where the other form is printed 300 times as often (and 100 at least; a capitalized word, 1,000); never a word of REAL
+CONFUSE = [("li", "h"), ("rn", "m"), ("c", "e"), ("n", "u"), ("u", "n"), ("ri", "n"), ("in", "m"), ("ni", "m"),
+           ("cl", "d"), ("h", "b"), ("b", "h"), ("f", "t"), ("t", "f"), ("o", "e"), ("i", "l"), ("l", "i"),
+           ("Pv", "R"), ("ii", "u"), ("tl", "d")]
+REAL = {"hook", "hooks", "bearing", "bearings", "clay", "clays", "coined", "coining", "hare", "howl", "hunch", "mall",
+        "sate", "tights", "toe", "oft", "infer", "fives", "solves", "hero", "Hero", "muse", "mariner", "bard",
+        "beard", "bats", "clan", "clue", "liar", "lauded", "taut", "bis", "Klans", "sou", "Mau", "tilling",
+        "lien", "liens", "hale", "bale", "hob", "nub", "tab", "fen", "fin", "tins", "fun", "coin", "bunt", "bent",
+        "rani", "Rani", "Lin", "Ivan", "Iran", "Ili", "Ilo", "Rio", "Hue", "Hué", "Tuy", "Bien", "Hoa", "Binh"}
 
 
 def line_text(r):
@@ -571,6 +597,8 @@ def is_item_head(r, expect, left=None, bh=8.6, nxt=None):
         digits = re.sub(r"\D", "", r[0][4].replace("°", "0"))
         it = iter(str(expect))
         blk = line_text(r) + " " + " ".join(line_text(x) for x in (nxt or []))
+        if re.search(r"Public Papers|\[\s*\S{1,4}\s*\]\s*$", line_text(r)):
+            return None, 0                        # a running head the page's reading kept
         e = str(expect)
         if (digits and all(c in it for c in digits)) or (            # its digits read, in order
                 len(digits) == len(e) > 1 and sum(a != b for a, b in zip(digits, e)) == 1) or (

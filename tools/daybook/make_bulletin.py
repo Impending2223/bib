@@ -72,7 +72,8 @@ def index_entries(text, first, last):
         if m and first <= int(m.group(2)) <= last:
             body = m.group(1)
             sub = re.match(r"^(U\.S\.S\.R|[A-Za-z][\w,'’()\-]*(?:\s+[\w,'’()\-]+){0,4}?)\.\s+(?=[A-Z0-9\"“])", body)
-            if sub and not re.search(r"\b(?:U|S|Mr|Mrs|Dr|St|No|[A-Z])$", sub.group(1)):    # not "R. A. Egger"
+            if sub and not re.search(r"\b(?:U|S|Mr|Mrs|Dr|St|No|[A-Z])$", sub.group(1)) \
+                    and sub.group(1).count("(") == sub.group(1).count(")"):      # not "R. A. Egger", "(Sieverts. Tinker)"
                 heading, body = sub.group(1), body[sub.end():]
                 HEADINGS[heading] = HEADINGS.get(heading, 0) + 1
             title = mend(body)
@@ -245,14 +246,14 @@ def capitals(rows):
     from collections import Counter
     vocab = Counter(w for x in rows for w in re.findall(r"\b[A-Z][a-z]{2,}\b", x["title"]))
     for x in rows:
-        m = re.match(r"^([a-z][a-z]+)\b", x["title"])
+        m = re.match(r"^[^A-Za-z0-9(]*([a-z][a-z]+)\b", x["title"])
         if not m:
             continue
         w = m.group(1)
         cands = [c + w for c in "ABCDEFGHIJKLMNOPQRSTUVWXYZ"] + [c + w[1:] for c in "ABCDEFGHIJKLMNOPQRSTUVWXYZ"]
         best_ = max(cands, key=lambda c: vocab[c])
         if vocab[best_] >= 2:
-            x["title"] = best_ + x["title"][len(w):]
+            x["title"] = best_ + x["title"][m.end(1):]
 
 
 def words(title):
