@@ -23,7 +23,8 @@ STYLE (settled; keep it, and the indicators' STYLE in tools/bib/indicators.py):
  4. Exchange rates and the London gold price: not revised, so one figure each, in a table of their own under the
     indicators (and under Oil), before Money and credit, set off by the same double rule, caption "Exchange rates and
     gold": Rate | As first reported | Released. The noon buying rate in New York, monthly average, in cents a unit of
-    the currency as the Bulletin printed it: "280.17¢ per pound", its change from the month before in cents; the gold
+    the currency as the Bulletin printed it, the pound to two decimals, the mark and the franc to three: "280.17¢ per pound", its
+    change from the month before in cents; the gold
     price in dollars a fine ounce, "$35.08". A parity change or a market's opening shows in grey after the figure (its
     note).
  5. Federal debt ($bn in the group's header): the average interest rate, three decimals as the Treasury printed it,
@@ -129,7 +130,9 @@ def cell(sid, s, r, col):
             lines.append(("Change", _signed(_bn(c, unit))))
         return _kv(lines) + (f"<br>{_grey(r['note'])}" if col == "first" and r.get("note") else "")
     if sid in ("fx-sterling", "fx-mark", "fx-franc"):
-        return (f"{_num(v, 2)}¢ " + _grey(FX_UNIT[sid]) + (f", {_signed(c, 2)}¢" if c is not None else "") + note)
+        nd = 2 if sid == "fx-sterling" else 3                  # as the Bulletin prints them
+        return (f"{_num(v, nd)}¢ " + _grey(FX_UNIT[sid]) + (", " + _nw(f"{_signed(c, nd)}¢") if c is not None else "")
+                + note)
     if sid == "gold-london":
         return f"${_num(v, 2)}" + (f", {_signed(c, 2)}" if c is not None else "") + note
     if sid == "debt-interest-rate":

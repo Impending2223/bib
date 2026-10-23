@@ -737,6 +737,137 @@ ERP69/Table B-66, p. 304 1968-11 49
 ERP69/Table B-66, p. 304 1968-12 48
 """
 
+# Exchange rates: the Federal Reserve Bulletin's table "Foreign exchange rates" ("Averages of certified noon buying
+# rates in New York for cable transfers", in cents a unit of the currency), each month as the issue of the month after
+# first printed it (the Aug. 1961, Sept. 1963 and Dec. 1965 issues added two months: their first months are the issues
+# before). Columns: the issue, its PDF page on FRASER and printed page (the Apr. 1968 issue's page number is
+# illegible), the month, the pound, the deutsche mark, the franc. Read from each issue's text layer and held against
+# every later issue that reprints the month (eight to thirteen readings a month, all agreeing but for the text layer's
+# misreadings); where the first issue's text failed or disagreed, read by eye off its page image at 150 dpi: every such
+# month but four (Oct. 1966, the pound; Apr., June and July 1968, the mark: the next issues' figure, which every later
+# issue repeats). The first printings were revised once: Nov. 1960, the pound, 281.36 in the Dec. 1960 issue, 281.35
+# in every issue after (FX_PRIOR gives the later figure as the change's base). The Feb. 1964 issue labels its Jan.
+# 1964 row "1964-Dec." (a misprint).
+FX = """
+#  issue  pdf   page  period   pound   mark    franc
+1960-02  132    249  1960-01  279.98  23.975  20.366
+1960-03   94    349  1960-02  280.33  23.977  20.369
+1960-04  102    459  1960-03  280.59  23.978  20.376
+1960-05  131    595  1960-04  280.95  23.978  20.384
+1960-06  112    715  1960-05  280.60  23.978  20.396
+1960-07  106    831  1960-06  280.27  23.980  20.401
+1960-08  126    965  1960-07  280.84  23.979  20.404
+1960-09  116   1087  1960-08  281.02  23.978  20.404
+1960-10  116   1209  1960-09  281.27  23.978  20.404
+1960-11   97   1311  1960-10  281.16  23.968  20.375
+1960-12  109   1427  1960-11  281.36  23.974  20.402
+1961-01  123    121  1960-12  280.74  23.973  20.387
+1961-02  131    257  1961-01  280.64  23.968  20.401
+1961-03  120    383  1961-02  279.99  23.966  20.402
+1961-04  115    505  1961-03  279.75  25.020  20.404
+1961-05  129    639  1961-04  279.81  25.185  20.400
+1961-06   97    741  1961-05  279.40  25.184  20.404
+1961-07  133    883  1961-06  278.98  25.166  20.405
+1961-08  133   1021  1961-07  278.74  25.127  20.405
+1961-09   98   1125  1961-08  280.29  25.046  20.352
+1961-10  136   1267  1961-09  281.22  25.019  20.331
+1961-11  103   1375  1961-10  281.54  25.016  20.337
+1961-12  113   1495  1961-11  281.49  24.987  20.364
+1962-01  124    123  1961-12  280.96  25.004  20.399
+1962-02  134    263  1962-01  281.10  25.028  20.403
+1962-03  113    381  1962-02  281.46  25.011  20.402
+1962-04  118    505  1962-03  281.53  25.012  20.405
+1962-05  162    673  1962-04  281.40  25.006  20.405
+1962-06  100    779  1962-05  281.21  25.009  20.405
+1962-07  135    921  1962-06  280.83  25.039  20.405
+1962-08  166   1093  1962-07  280.66  25.084  20.405
+1962-09  153   1251  1962-08  280.38  25.020  20.405
+1962-10  120   1377  1962-09  280.09  24.996  20.405
+1962-11  158   1541  1962-10  280.13  24.963  20.405
+1962-12  168   1715  1962-11  280.19  24.947  20.405
+1963-01  109    107  1962-12  280.33  25.031  20.404
+1963-02  181    293  1963-01  280.48  24.966  20.405
+1963-03  115    413  1963-02  280.34  24.985  20.405
+1963-04  155    573  1963-03  280.06  25.023  20.405
+1963-05  163    741  1963-04  280.07  25.045  20.405
+1963-06  127    873  1963-05  279.96  25.090  20.405
+1963-07  150   1030  1963-06  280.02  25.121  20.405
+1963-08  145   1182  1963-07  280.08  25.109  20.405
+1963-09  150   1340  1963-08  279.96  25.101  20.405
+1963-10  140   1486  1963-09  279.77  25.121  20.404
+1963-11  125   1618  1963-10  279.78  25.137  20.400
+1963-12  114   1740  1963-11  279.78  25.154  20.405
+1964-01  134    132  1963-12  279.65  25.165  20.404
+1964-02  129    268  1964-01  279.83  25.148  20.402
+1964-03  141    416  1964-02  279.69  25.169  20.403
+1964-04  118    540  1964-03  279.81  25.163  20.404
+1964-05  115    662  1964-04  279.90  25.160  20.405
+1964-06  133    802  1964-05  279.94  25.159  20.405
+1964-07  117    928  1964-06  279.42  25.165  20.401
+1964-08  167   1102  1964-07  278.97  25.159  20.405
+1964-09  116   1224  1964-08  278.66  25.152  20.405
+1964-10  135   1365  1964-09  278.34  25.154  20.402
+1964-11  130   1503  1964-10  278.35  25.158  20.403
+1964-12  106   1617  1964-11  278.48  25.148  20.405
+1965-01  207    203  1964-12  279.06  25.149  20.405
+1965-02  142    351  1965-01  279.13  25.135  20.404
+1965-03  152    509  1965-02  279.51  25.137  20.404
+1965-04  122    637  1965-03  279.24  25.144  20.400
+1965-05  134    777  1965-04  279.62  25.149  20.401
+1965-06  125    909  1965-05  279.71  25.097  20.397
+1965-07  127   1043  1965-06  279.23  25.003  20.405
+1965-08  140   1189  1965-07  279.10  24.960  20.405
+1965-09  163   1357  1965-08  279.08  24.923  20.403
+1965-10  130   1493  1965-09  279.67  24.934  20.400
+1965-11  144   1645  1965-10  280.31  24.968  20.393
+1965-12  152   1805  1965-11  280.37  24.997  20.403
+1966-01  139    136  1965-12  280.21  24.992  20.402
+1966-02  148    294  1966-01  280.39  24.926  20.399
+1966-03  141    444  1966-02  280.25  24.904  20.401
+1966-04  173    624  1966-03  279.52  24.914  20.402
+1966-05  125    758  1966-04  279.34  24.902  20.403
+1966-06  157    926  1966-05  279.23  24.894  20.402
+1966-07  134   1066  1966-06  278.98  24.963  20.403
+1966-08  196   1270  1966-07  278.88  25.046  20.403
+1966-09  151   1428  1966-08  278.88  25.056  20.394
+1966-10  134   1566  1966-09  278.93  25.069  20.314
+1966-11  158   1730  1966-10  279.16  25.109  20.247
+1966-12  126   1862  1966-11  279.11  25.150  20.231
+1967-01  179    178  1966-12  279.01  25.169  20.199
+1967-02  147    332  1967-01  279.10  25.140  20.199
+1967-03  152    490  1967-02  279.41  25.168  20.217
+1967-04  186    682  1967-03  279.63  25.165  20.203
+1967-05  204    892  1967-04  279.92  25.167  20.227
+1967-06  165   1064  1967-05  279.69  25.147  20.319
+1967-07  189   1262  1967-06  279.12  25.122  20.375
+1967-08  193   1462  1967-07  278.73  24.996  20.395
+1967-09  202   1670  1967-08  278.53  24.985  20.386
+1967-10  169   1846  1967-09  278.37  24.988  20.382
+1967-11  157   2010  1967-10  278.32  24.974  20.393
+1967-12  144   2162  1967-11  266.18  25.072  20.401
+1968-01  185   A-86  1967-12  240.63  25.094  20.381
+1968-02  252   A-86  1968-01  240.91  24.974  20.307
+1968-03  181   A-88  1968-02  240.92  24.987  20.315
+1968-04  145      -  1968-03  239.97  25.067  20.316
+1968-05  162   A-88  1968-04  240.18  25.093  20.290
+1968-06  168   A-90  1968-05  238.92  25.119  20.212
+1968-07  214   A-90  1968-06  238.46  25.032  20.107
+1968-08  146   A-90  1968-07  239.00  24.945  20.107
+1968-09  159   A-90  1968-08  239.11  24.919  20.105
+1968-10  188   A-90  1968-09  238.74  25.166  20.106
+1968-11  159   A-90  1968-10  238.97  25.120  20.104
+1968-12  195   A-90  1968-11  238.58  25.153  20.121
+1969-01  181   A-90  1968-12  238.42  25.032  20.199
+"""
+FX_PRIOR = {('fx-sterling', '1960-12'): 281.35}     # the month before as the same issue printed it, where revised
+FX_NOTES = {      # the issue's own footnote or note on the month, as printed there
+    ('fx-franc', '1960-01'): 'new franc of 100 old francs introduced Jan. 1, 1960',
+    ('fx-mark', '1961-03'): 'par value changed Mar. 5, 1961, from 4.20 to 4.00 marks per U.S. dollar',
+    ('fx-franc', '1963-01'): 'the franc again the French monetary unit from Jan. 1, 1963, at 1 to 1 for the new franc',
+    ('fx-sterling', '1967-11'): 'pound devalued Nov. 18, 1967; no quotations Nov. 21',
+    ('fx-sterling', '1968-03'): 'no quotations Mar. 15, 1968',
+}
+
 
 def parse(block, fields=None):
     """{period: {'v': value or {field: value}, 'src': key, 'where': text, 'prior': value, 'note': text}}"""
@@ -1048,6 +1179,46 @@ def debt():
                                 'now': None}, [dict(p=p, **first[p]) for p in MSPAN if p in first])
 
 
+def fx():
+    """The pound, the mark and the franc as the Federal Reserve Bulletin first printed them (FX above): one figure,
+    not revised; its change from the month before in cents."""
+    cols = ('fx-sterling', 'fx-mark', 'fx-franc')
+    meta = {'fx-sterling': ('Pound sterling', 'pound'), 'fx-mark': ('Deutsche mark', 'deutsche mark'),
+            'fx-franc': ('French franc', 'franc (new franc, 1960-62)')}
+    read = {}
+    for line in FX.strip().split('\n'):
+        if line.startswith('#'):
+            continue
+        iss, pdf, page, p, *vals = line.split()
+        y, m = int(iss[:4]), int(iss[5:7])
+        url = f'https://fraser.stlouisfed.org/files/docs/publications/FRB/1960s/frb_{m:02d}{y}.pdf#page={pdf}'
+        where = f'p. {page}, ' if page != '-' else ''
+        for sid, v in zip(cols, vals):
+            read.setdefault(sid, {})[p] = {
+                'first': float(v), 'released': iss, 'unit': 'cents per unit',
+                'source': f'Federal Reserve Bulletin, {MON[m - 1]} {y}, {where}Foreign exchange rates; {url}'}
+    for sid in cols:
+        if not want(sid):
+            continue
+        rows = []
+        for p in MONTHS:
+            r = read[sid].get(p)
+            if r is None:
+                continue
+            row = dict(p=p, **r)
+            b = FX_PRIOR.get((sid, p)) or (read[sid].get(prev(p)) or {}).get('first')
+            if b is not None:
+                row['chg'] = round(r['first'] - b, 3)
+            if (sid, p) in FX_NOTES:
+                row['note'] = FX_NOTES[(sid, p)]
+            rows.append(row)
+        name, cur = meta[sid]
+        write(sid, {'id': sid, 'name': name, 'freq': 'M', 'manual': True, 'kind': 'fx', 'change': 'diff',
+                    'then': {'label': f'Federal Reserve Bulletin: noon buying rate in New York for cable transfers, the {cur}, monthly average',
+                             'unit': 'cents per unit'},
+                    'now': None}, rows)
+
+
 if __name__ == '__main__':
     rates()
     money()
@@ -1055,3 +1226,4 @@ if __name__ == '__main__':
     balances()
     costs()
     debt()
+    fx()
