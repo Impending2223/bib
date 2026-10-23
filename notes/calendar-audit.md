@@ -7,7 +7,7 @@ CLAUDE.md ("The calendar"). A review list: a hit is a place to look, not an erro
 
 | Check | Entries |
 |---|---|
-| A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 94 |
+| A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 93 |
 | (of which only a President's surname: Eisenhower, Kennedy, Johnson) | 1 |
 | Neither a bibliography of its own nor a `See [[id]]` back | 1 |
 | No primary record linked or named | 691 |
@@ -215,8 +215,6 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Manchester: Manchester, William (K–J Cong. III.K)
 - `cal.1968-11-06.students` (Nov. 6, CIX 196811.yaml): San Francisco State College. The Black Students Union and the Third World Liberation Front strike on fifteen d
   - Murray: Murray, William G. (K–J Cong. III.K)
-- `cal.1968-11-15.laos` (Nov. 15, CIX 196811.yaml): Commando Hunt: the sorties freed by the halt turned on the routes through the Laotian panhandle and the passes
-  - Hunt: Hunt, Dorothy (Wg. III.C); Hunt, E. Howard (Wg. III.C)
 
 ## Event
 

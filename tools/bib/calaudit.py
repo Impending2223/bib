@@ -80,7 +80,7 @@ NOT_PERSONS = re.compile(
     r"\b[A-Z]\w+[-–][A-Z]\w+\b|"
     r"\b[A-Z]\w+ (?:Round|Commission|Law|Act|Amendment|Bill|Doctrine|Report|Plan|Award|Prize|Foundation|University|"
     r"College|County|Island|Islands|Tunnel|Hall|Hill|Lake|Dam|Field|Air Force Base|Memorial|Center|Library|Hospital)\b|"
-    r"\b(?:Cape|Fort|Camp|Lake|Mount|Port|Key|Rock|Lord|Sir|King|Queen|Prince|Princess|Shah|Emir|Sheikh) [A-Z]\w+|"
+    r"\b(?:Cape|Fort|Camp|Lake|Mount|Port|Key|Rock|Lord|Sir|King|Queen|Prince|Princess|Shah|Emir|Sheikh|Operation|Commando) [A-Z]\w+|"
     r"\bWest (?:Virginia|Berlin|Point|Germany|Bank|Coast|Indies|Africa|Side)\b|\b(?:Walter Reed|Johns Hopkins|"
     r"Black Power|Black Panthers?|Winston-Salem|Ocean Hill|Gallup(?= poll|,| Poll|:))\b")
 # words a surname shares with a given name or a common word: a hit on one counts only where it reads as the person
