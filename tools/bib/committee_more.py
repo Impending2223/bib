@@ -1,5 +1,5 @@
 """The select, special and joint committees of each Congress, 87th-93rd (congress/committees-cdir.yaml, from the
-Congressional Directory), and the subcommittees of the 87th and 88th (congress/subcommittees.yaml, from the
+Congressional Directory), and the subcommittees of the 87th, 88th and 92nd (congress/subcommittees.yaml, from the
 Congressional Staff Directory): rendered after the standing committees (tools/bib/committee_rosters.py), in a member's
 roster line and his Names entry, and the hearings calendar's links to them.
 
@@ -343,7 +343,7 @@ def person_items(bios, site=""):
         foot.append("Select, special and joint committees from the <i>Congressional Directory</i>, each Congress's "
                     "first-session edition.")
     if sub_items:
-        foot.append("Subcommittees from the <i>Congressional Staff Directory</i>, 1961 and 1963.")
+        foot.append("Subcommittees from the <i>Congressional Staff Directory</i>, 1961, 1963 and 1971.")
     return items + sub_items, foot
 
 
