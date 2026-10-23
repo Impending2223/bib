@@ -690,10 +690,6 @@ Searched in the Daily Digest (daybook/committees), the bound Record's days, the 
 
 ### Schlesinger, *Robert Kennedy and His Times* (the book agent, Oct. 23, 2026; notes/book-checks/w.schlesinger-robert-kennedy-and-his.md)
 
-- The FBI's squad at the Atlantic City convention, Aug. 1964, DeLoach's thirty men, King's hotel room tapped, SNCC and
-  CORE bugged, Kennedy "of special interest" (Schlesinger, 662–64, from Sullivan and the Watergate Committee's
-  testimony): no day given; the Church Committee's Book III (S. Rep. No. 94-755) for the record and the dates. Not
-  entered.
 - Kennedy to Johnson, late April 1965, urging a bombing pause (Schlesinger, 729, from Johnson's *Vantage Point*): no day.
 - The Hertz affair, 1965: Kraft and Kennedy with Guellal; the NLF's offer to free Gustav Hertz in Algiers, refused by
   Taylor (Schlesinger, 731–32): no dates.

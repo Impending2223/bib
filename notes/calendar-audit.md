@@ -3,15 +3,15 @@
 Written by `./bib audit-cal` (`tools/bib/calaudit.py`): the dated entries checked against the brief in
 CLAUDE.md ("The calendar"). A review list: a hit is a place to look, not an error. Rerun after editing.
 
-5172 dated entries.
+5179 dated entries.
 
 | Check | Entries |
 |---|---|
 | A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 88 |
 | (of which only a President's surname: Eisenhower, Kennedy, Johnson) | 1 |
 | Neither a bibliography of its own nor a `See [[id]]` back | 1 |
-| No primary record linked or named | 725 |
-| A primary record named but not linked | 102 |
+| No primary record linked or named | 729 |
+| A primary record named but not linked | 103 |
 | Threads (statements listed for review) | 224 |
 
 ## Names
@@ -422,6 +422,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1963-06-26.desegregation-public-places-ky` (June 26, XLIII 196306.yaml): Kentucky. Combs's executive order, the Fair Services Code: no discrimination by race in the State's public acc
 - `cal.1963-07-04.elections-1964` (July 4, XLIV 196307.yaml): Draft Goldwater rally, National Guard Armory, Washington. Police count over 7,000. Tower the speaker; O'Donnel
 - `cal.1963-07-14.elections-1964` (July 14, XLIV 196307.yaml): Rockefeller's statement against the "radical right": the Young Republicans' convention at San Francisco in Jun
+- `cal.1963-07-18.civil-rights-the-executive` (July 18, XLIV 196307.yaml): The equal employment committee's eighth meeting, Johnson presiding. Robert Kennedy questions Webb on NASA's eq
 - `cal.1963-07-23.civil-rights-the-executive` (July 23, XLIV 196307.yaml): Cambridge, Md., under the Guard since June. At Justice, Robert Kennedy brings Gloria Richardson and the city's
 - `cal.1963-07-23.alabama-birmingham` (July 23, XLIV 196307.yaml): Birmingham's council repeals the city's segregation ordinances, unanimously (Check).
 - `cal.1963-07-30.legislatures-ca` (July 30–31, XLIV 196307.yaml): California. Unruh keeps the Assembly's Republicans locked in the chamber overnight until they vote on the budg
@@ -510,6 +511,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1964-07-24.states-and-cities` (July 24–26, LVI 196407.yaml): Rochester. An arrest at a block party on Joseph Avenue; three nights of rioting. Rockefeller calls out the Nat
 - `cal.1964-07-28.japan-and-korea-normalization` (July 28, LVI 196407.yaml): Seoul. Martial law lifted. Kim Chong-p'il has given up the party's chairmanship and gone abroad (Check the dat
 - `cal.1964-07-29.civil-rights-organizations` (July 29, LVI 196407.yaml): New York, the NAACP's offices. After Harlem, Wilkins, King, Young and Randolph ask their members to suspend ma
+- `cal.1964-07-29.robert-kennedy` (July 29, LVI 196407.yaml): The Oval Office, 1 p.m. Johnson, from a memorandum of Clifford's, tells Robert Kennedy he will not be the cand
 - `cal.1964-08-02.states-and-cities-jersey-city` (Aug. 2–4, LVII 196408.yaml): Jersey City. A woman's arrest in the Lafayette section, Aug. 2; three nights of rock-throwing, window-breaking
 - `cal.1964-08-12.elections-1964` (Aug. 12, LVII 196408.yaml): Hershey, Pa. Goldwater meets Eisenhower, Nixon, Scranton, Rockefeller, Romney, and the party's governors and l
 - `cal.1964-08-12.desegregation-schools-la` (Aug. 12, LVII 196408.yaml): St. Helena Parish, La. The schools open, three Negro pupils in a white school.
@@ -600,7 +602,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1965-11-02.mayors-cleveland` (Nov. 2, LXXII 196511.yaml): Cleveland. Locher (D) re-elected over Carl Stokes, a Negro State representative running as an independent: Loc
 - `cal.1965-11-02.mayors-pittsburgh` (Nov. 2, LXXII 196511.yaml): Pittsburgh. Barr (D) re-elected over the Republican, an attorney, 109,947 to 65,969, 62.5 percent.
 - `cal.1965-11-06.mayors-new-orleans` (Nov. 6, LXXII 196511.yaml): New Orleans, Democratic primary for mayor: Schiro 81,973, 50.1 percent; Fitzmorris, a councilman, 78,654, 48.1
-- `cal.1965-11-10.robert-kennedy` (Nov. 10–30, LXXII 196511.yaml): Robert Kennedy in South America, three weeks: Peru, Chile, Argentina, Brazil. Check the end date and the dates
+- `cal.1965-11-10.robert-kennedy` (Nov. 10–30, LXXII 196511.yaml): Robert Kennedy in South America, three weeks: Peru from Nov. 10, Chile from Nov. 13, Argentina, Brazil from No
 - `cal.1965-11-17.vietnam-operations` (Nov. 17, LXXII 196511.yaml): Ia Drang. The 2d Battalion, 7th Cavalry, marching from X-Ray, ambushed short of LZ Albany; some 155 killed. Ch
 - `cal.1965-11-19.economy` (Nov. 19, LXXII 196511.yaml): Anaconda and the other copper producers back to 36 cents.
 - `cal.1965-11-22.civil-rights-organizations-charlotte` (Nov. 22, LXXII 196511.yaml): Charlotte. Bombs at the homes of four Negro leaders: Julius Chambers, counsel in the suit against the city's a
@@ -709,6 +711,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1967-01-26.vietnam-operations` (Jan. 26, LXXXVII 196701.yaml): Cedar Falls ends at midnight, after nineteen days. Counted: nearly 750 of the enemy dead, 280 prisoners, 540 r
 - `cal.1967-01-28.vietnam` (Jan. 28, LXXXVII 196701.yaml): Nguyễn Duy Trinh, Foreign Minister, to Burchett: talks "could" follow an unconditional end of the bombing.
 - `cal.1967-01.crime-and-hijacking-fl` (Jan., LXXXVII 196701.yaml): Florida. Kirk, sworn Jan. 3, the first Republican governor since Reconstruction, opens a "war on crime," hirin
+- `cal.1967-02-08.robert-kennedy` (Feb. 8, LXXXVIII 196702.yaml): Chicago, the University of Chicago's conference on China (Check). Robert Kennedy: Vietnam's communism "a nativ
 - `cal.1967-02-14.congress-powell` (Feb. 14, LXXXVIII 196702.yaml): Powell's counsel before the select committee, Powell absent: the standing qualifications the sole test; no pun
 - `cal.1967-02-17.assassination` (Feb. 17, LXXXVIII 196702.yaml): New Orleans. The *States-Item* reports that Garrison, the district attorney, is investigating the assassinatio
 - `cal.1967-02-22.vietnam` (Feb. 22, LXXXVIII 196702.yaml): Junction City, in War Zone C, Tây Ninh Province, toward the Cambodian border, begins: the 1st and 25th Infantr
@@ -831,6 +834,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1968-03-12.states-and-cities-ak` (Mar. 12, CI 196803.yaml): Alaska. Atlantic Richfield and Humble Oil confirm oil at Prudhoe Bay State No. 1, on State land on the North S
 - `cal.1968-03-16.vietnam` (Mar. 16, CI 196803.yaml): Quảng Ngãi Province. Charlie Company, 1st Battalion, 20th Infantry, of the Americal Division's Task Force Bark
 - `cal.1968-03-18.king` (Mar. 18, CI 196803.yaml): Memphis, the sanitation strike. King at Mason Temple calls for a general strike and a march.
+- `cal.1968-03-18.robert-kennedy` (Mar. 18, CI 196803.yaml): Manhattan, Kan. Robert Kennedy, two days a candidate, gives the Landon Lecture at Kansas State University, som
 - `cal.1968-03-19.students` (Mar. 19–23, CI 196803.yaml): Washington. Howard University students hold the administration building for five days: the charges against the
 - `cal.1968-03-28.king-memphis` (Mar. 28, CI 196803.yaml): Memphis. The march from Clayborn Temple, King at its head, breaks up as windows are smashed and stores looted 
 - `cal.1968-03-28.students-los-angeles` (Mar. 28, CI 196803.yaml): Los Angeles. The Board of Education hears the Educational Issues Coordinating Committee's 39 demands. Thirteen
@@ -971,6 +975,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1962-11-06.governors-pa` (Nov. 6, XXXVI 196211.yaml): Pennsylvania. Scranton (R) governor over Dilworth (D), 2,424,918 to 1,938,627, 55.4 percent; 62 of the 67 coun — names "Manual"
 - `cal.1963-03-12.state-and-city-finance-in` (Mar. 12, XL 196303.yaml): Indiana. Welsh calls the General Assembly into special session on his "2-2-2" plan: the State's first sales ta — names "Laws of "
 - `cal.1963-04-01.state-constitutions-mi` (Apr. 1, XLI 196304.yaml): Michigan's new constitution ratified, 810,860 to 803,436, 50.2 percent. In force Jan. 1, 1964: the Civil Right — names "Canvass"
+- `cal.1963-05-29.civil-rights-the-executive` (May 29, XLII 196305.yaml): The President's Committee on Equal Employment Opportunity, Johnson its chairman, meets for the first time sinc — names "Minutes"
 - `cal.1963-06-21.open-housing-ca` (June 21, XLIII 196306.yaml): California. The Rumford Fair Housing Act, Rumford's A.B. 1240, passes the Senate in the session's last hours a — names "Stats. 1963"
 - `cal.1963-07-01.legislatures-il` (July 1, XLIV 196307.yaml): Illinois. Kerner vetoes the Republican legislature's map of the House's districts, "unfair." Under the amendme — names "Blue Book"
 - `cal.1963-07-26.civil-rights-the-executive` (July 26, XLIV 196307.yaml): McNamara's directive on the Gesell Committee's report: commanders to oppose discrimination against their men o — names "Directive"
