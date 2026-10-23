@@ -3,14 +3,14 @@
 Written by `./bib audit-cal` (`tools/bib/calaudit.py`): the dated entries checked against the brief in
 CLAUDE.md ("The calendar"). A review list: a hit is a place to look, not an error. Rerun after editing.
 
-5097 dated entries.
+5111 dated entries.
 
 | Check | Entries |
 |---|---|
-| A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 92 |
+| A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 94 |
 | (of which only a President's surname: Eisenhower, Kennedy, Johnson) | 1 |
-| Neither a bibliography of its own nor a `See [[id]]` back | 0 |
-| No primary record linked or named | 694 |
+| Neither a bibliography of its own nor a `See [[id]]` back | 1 |
+| No primary record linked or named | 691 |
 | A primary record named but not linked | 102 |
 | Threads (statements listed for review) | 224 |
 
@@ -45,6 +45,9 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Castro: Castro, Fidel (K–J Adm. III.J); Castro, Raúl (K–J Adm. III.J); Castro, Sal (K–J Cong. III.K)
 - `cal.1961-05-09.vietnam` (May 9–13, XVIII 196105.yaml): Johnson leaves on a trip to Asia, May 9. Saigon, May 11–13: he calls Diệm the Churchill of Asia.
   - Churchill: Churchill, Winston S. (K–J Adm. III.J)
+- `cal.1961-09-29.open-housing-wa` (Sept. 29, XXII 196109.yaml): *O'Meara v. Washington State Board Against Discrimination*, [58 Wash. 2d 793](https://static.case.law/wash-2d/
+  - Foster: Foster, William C. (K–J Adm. III.E)
+  - Rosellini: Rosellini, Albert D. (K–J Cong. III.F)
 - `cal.1962-04-29.press-and-broadcasting` (Apr. 29, XXIX 196204.yaml): Dinner for the Nobel laureates. "With the possible exception of when Thomas Jefferson dined alone."
   - Thomas: Thomas, Albert (K–J Cong. III.D); Thomas, Daniel H. (K–J Cong. III.K); Thomas, Lera M. (K–J Cong. III.K)
 - `cal.1962-10-15.georgia-ga` (Oct. 15, XXXV 196210.yaml): A Fulton Superior Court judge holds the election of senators at large void in Fulton.
@@ -212,11 +215,14 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Manchester: Manchester, William (K–J Cong. III.K)
 - `cal.1968-11-06.students` (Nov. 6, CIX 196811.yaml): San Francisco State College. The Black Students Union and the Third World Liberation Front strike on fifteen d
   - Murray: Murray, William G. (K–J Cong. III.K)
+- `cal.1968-11-15.laos` (Nov. 15, CIX 196811.yaml): Commando Hunt: the sorties freed by the halt turned on the routes through the Laotian panhandle and the passes
+  - Hunt: Hunt, Dorothy (Wg. III.C); Hunt, E. Howard (Wg. III.C)
 
 ## Event
 
 No work of its own and no `See [[id]]` back to the event's first entry.
 
+- `cal.1965-03-24.state-and-city-finance-id` (Mar. 24, LXIV 196503.yaml): Idaho's sales tax. Smylie approves H.B. 222, the Idaho Sales Tax Act: 3 percent on retail sales, and a use tax
 
 ## Primary record
 
@@ -250,7 +256,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1960-05-07.governors-tx` (May 7, VI 196005.yaml): Texas Democratic primary. Governor Daniel renominated for a third term over Jack Cox, a former State represent
 - `cal.1960-05-10.elections-1960-2` (May 10, VI 196005.yaml): Humphrey, beaten by Kennedy in West Virginia, withdraws that night, at Charleston.
 - `cal.1960-05-10.sit-ins` (May 10, VI 196005.yaml): Nashville. Six downtown stores serve Negroes at their lunch counters, by agreement with the merchants. Three m
-- `cal.1960-06-02.economy` (June 2, VII 196006.yaml): The Federal Reserve eases. The discount rate cut from 4 to 3½ percent at Philadelphia and San Francisco, Marti
 - `cal.1960-06-08.elections-1960` (June 8, VII 196006.yaml): Rockefeller, in a statement: those taking control of the Republican Party have not made clear where it is head
 - `cal.1960-06-22.school-aid` (June 22, VII 196006.yaml): Rules, Smith's committee, refuses 7–5 to send the school bill to conference: the four Republicans and three So
 - `cal.1960-07-13.elections-1960` (July 13, VIII 196007.yaml): Kennedy nominated on the first ballot, Wyoming's votes putting him over: Kennedy 806, Johnson 409, Symington 8
@@ -289,7 +294,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1961-01-10.cuba` (Jan. 10, XIV 196101.yaml): *New York Times*, front page, Paul Kennedy: "U.S. Helps Train an Anti-Castro Force at Secret Guatemalan Air-Gr
 - `cal.1961-01-11.desegregation-schools-uga` (Jan. 11, XIV 196101.yaml): A riot at Hunter's dormitory at night. Both students suspended and driven to Atlanta.
 - `cal.1961-01-13.desegregation-schools-uga` (Jan. 13–16, XIV 196101.yaml): Bootle orders Hunter and Holmes readmitted. In class again Jan. 16.
-- `cal.1961-01-16.welfare-la` (Jan. 16, XIV 196101.yaml): Flemming, Secretary of Health, Education, and Welfare, rules that a State may not deny Aid to Dependent Childr
 - `cal.1961-01-18.georgia-ga` (Jan. 18, XIV 196101.yaml): Vandiver to the General Assembly in joint session, at night, the week after the riot at Athens: repeal of the 
 - `cal.1961-01.states-and-cities-nyc` (Jan., XIV 196101.yaml): New York. Manhattan's borough president removed on his conviction; the borough's six members of the City Counc
 - `cal.1961-02-01.civil-rights-organizations` (Feb. 1, XV 196102.yaml): Farmer takes office as national director of CORE, from the NAACP's staff.
@@ -343,7 +347,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1961-12-19.transition-and-staff` (Dec. 19, XXV 196112.yaml): Joseph P. Kennedy's stroke at Palm Beach. Speechless thereafter.
 - `cal.1961-12-22.vietnam` (Dec. 22, XXV 196112.yaml): Specialist James T. Davis killed in an ambush west of Saigon. Later counted the first American battle death.
 - `cal.1962-01-12.vietnam` (Jan. 12, XXVI 196201.yaml): Operation Chopper. American H-21s lift about a thousand ARVN paratroopers into action near Saigon.
-- `cal.1962-01-23.right-and-the-military` (Jan. 23, XXVI 196201.yaml): Stennis subcommittee hearings on the "muzzling" of officers open. Thurmond's doing.
 - `cal.1962-01-25.governors-mt` (Jan. 25, XXVI 196201.yaml): Montana. Governor Nutter killed with five others when a National Guard C-47, flying him to Cut Bank, Mont., lo
 - `cal.1962-01-27.mayors-new-orleans` (Jan. 27, XXVI 196201.yaml): New Orleans, Democratic primary for mayor. Duplantier, Morrison's choice, 57,001; Mayor Schiro 52,685; two oth
 - `cal.1962-02-10.governors-mi` (Feb. 10, XXVII 196202.yaml): Michigan. Romney declares for governor; two days later leaves the presidency of American Motors. To talk of hi
@@ -927,12 +930,12 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1960-04-19.governors-la` (Apr. 19, V 196004.yaml): Louisiana, general election for governor: Davis (D) over Grevemberg (R), a former superintendent of State poli — names "Election Returns"
 - `cal.1960-05-10.governors-nm` (May 10, VI 196005.yaml): New Mexico's primary, for governor. Democratic: Governor Burroughs 66,541, 53.8 percent; Bursey 48,841, 39.5.  — names "Election Returns"
 - `cal.1960-08-02.governors-ks` (Aug. 2, IX 196008.yaml): Kansas, governor. Republican primary: Anderson, the attorney general, 48.7 percent, Boyd 44.4, one other 6.9.  — names "Election Statistics"
-- `cal.1960-09-13.governors-wa` (Sept. 13, X 196009.yaml): Washington's blanket primary, for governor: Andrews (R), the lieutenant governor, 263,897, 37.4 percent; Gover — names "Official Abstract"
 - `cal.1960-09-13.governors-ut` (Sept. 13, X 196009.yaml): Utah's primary, for governor. Republican: Governor Clyde 50,592, 57.8 percent, over Gunderson, 37,002. Democra — names "Abstract of the Returns"
 - `cal.1960-11-08.state-constitutions-mi` (Nov. 8, XII 196011.yaml): Michigan. Proposal 3, an amendment changing the way a constitutional convention is called, adopted, 1,312,215  — names "Manual"
 - `cal.1960-11-08.governors-nm` (Nov. 8, XII 196011.yaml): New Mexico. Mechem (R) governor over Burroughs (D), 153,765 to 151,777, by 1,988 votes; Bolack (R) lieutenant  — names "Canvass"
 - `cal.1960-11-08.governors-ks` (Nov. 8, XII 196011.yaml): Kansas. Anderson (R) over Governor Docking (D), 511,534 to 402,261, 55.4 percent. — names "Election Statistics"
 - `cal.1960-12-28.elections-1960` (Dec. 28–30, XIII 196012.yaml): Hawaii's recount, ordered by Judge Jamieson, ends: Kennedy by 115 votes, where the first count gave Nixon 141. — names "Result of Votes"
+- `cal.1961-01-16.welfare-la` (Jan. 16, XIV 196101.yaml): Flemming, Secretary of Health, Education, and Welfare, rules that a State may not deny Aid to Dependent Childr — names "Pub. L."
 - `cal.1961-08-21.states-and-cities-nyc` (Aug. 21, XXI 196108.yaml): Special session at Albany, N.Y., called by Rockefeller: six hours, a law to reform New York City's schools. Th — names "Laws of "
 - `cal.1961-11-09.legislatures-ny` (Nov. 9–10, XXIV 196111.yaml): Special session at Albany, N.Y., called by Rockefeller. New congressional districts on the 1960 census, the St — names "Laws of "
 - `cal.1962-05-15.governors-pa` (May 15, XXX 196205.yaml): Pennsylvania primaries for governor. Republican: Scranton, U.S. Representative from the 10th District, 78.1 pe — names "Manual"

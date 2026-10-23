@@ -1093,6 +1093,28 @@ Searched in FRUS by text and date (sources/frus-text), the *Bulletin*'s index an
   Warsaw, Nov. 12, 1968; the Six's councils, Jan. 17, 1966 and Dec. 19, 1967, and de Gaulle's press conference of Nov. 27,
   1967.
 
+### Frankum, *Like Rolling Thunder* (the book agent, Oct. 23, 2026; notes/book-checks/w.frankum-like-rolling-thunder.md)
+
+- Barrel Roll's first mission: Frankum (p. 117) gives only "December 1964" and a first sortie for Vang Pao, Dec. 24;
+  FRUS I, doc. 456 (Dec. 21) has the program under way. The day of the first mission (`cal.1964-12-10.laos`) is in the
+  Air Force histories (Van Staaveren, *Interdiction in Southern Laos*; CHECO's Laos reports).
+- Tiger Hound's first day, Dec. 6, 1965 (Frankum, 119), not in FRUS; and Sullivan's part: "established at my
+  suggestion" (FRUS XXVIII, doc. 216) against Frankum's "strongly disagreed" (`cal.1965-12-06.laos`).
+- Popeye (`cal.1967-01-13.laos`): the day Rusk approved (a Feb. 7, 1967 memorandum, Kohler to Unger, cited in FRUS
+  XXVIII, doc. 274, n. 3); McNamara's memorandum to Ignatius "March 18" in the same note, its year unclear; when the
+  program was first made public, and the year FRUS 1964–68, XXVIII was published (for a "Made public" line).
+- The 19th-parallel limit of 1968: Frankum gives Apr. 3 (p. 61); FRUS VI doc. 189 shows it by Apr. 9. The order
+  itself (JCS to CINCPAC) not found (`cal.1968-04-03.vietnam-2`).
+- Flaming Dart II's South Vietnamese target (Chấp Lễ, or Frankum's target 32) and Pleiku's final count (Frankum: 8
+  killed, 128 wounded): MACV's or CINCPAC's reports.
+- The first B-52 strike on the North: Apr. 11 (Frankum) or Apr. 12 (Staaveren), 1966.
+- B-52 (Arc Light) sorties a month, 1965–68: CHECO (Trest, "USAF SAC Operations in Support of SEAsia," Dec. 17, 1969,
+  Fig. 4) as Frankum prints it (p. 79), quarterly to 1966, monthly from 1967; the war table has no B-52 series (CACTA
+  holds none). OSD's *Southeast Asia Analysis Report* (Thayer, vol. 5) may print them then.
+- Gazetteer (sources/vn-provinces-1966/places.json): Uông Bí, the Thanh Hóa (Hàm Rồng) bridge, Xóm Bàng, Quảng Khê,
+  the Nape and Ban Karai passes, the Se Kong valley: not in it; the new entries carry no place tag for them.
+- Operation Bolo, Jan. 2, 1967 (seven MiGs, Frankum, 56): no record of a Washington decision found; not entered.
+
 ## The Executive roster
 
 - NSCID No. 1: the texts of 1958, 1964 and 1972 not in the file (`usib.yaml`). Open on archive.org, the CIA's CREST copies (Oct. 23, 2026): the text effective Feb. 17, 1972 (`CIA-RDP87B01034R000700020013-3`); a 1958 draft (`CIA-RDP85S00362R000600150011-7`, "Concurred in by the IAC 21 January"), with the drafts of 1957; for 1964 only Bundy's approval of the revisions, Mar. 27, 1964, "the President's decision of March 5, 1964 on the reorganization of the USIB" (`cia-readingroom-document-cia-rdp80b01676r000400180031-7`; the text exempt). FRUS 1964–68, XXXIII, doc. 196, n. 3: revised Jan. 18, 1961, and Mar. 4, 1964. Lay shown as the Board's Executive Secretary only for Mar. 1964, in a note.
