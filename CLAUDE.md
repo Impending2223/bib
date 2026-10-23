@@ -1737,7 +1737,7 @@ tools/bib/committees.py         the committees' list and "Testimony before Congr
   `tools/daybook/make_daily_diary.py` from the National Archives Catalog, which gives the Diary's page images for 50 days
   only (Nov. 22-30, 1963; Tonkin Gulf, Selma, the signings, the trips, Glassboro, Apr. 4-7, 1968): a row a day, its
   item's address, its page count and the Catalog's title, nothing of the text. The whole Diary is on discoverlbj.org
-  (`item/pdd-YYYYMMDD`), which refuses this environment and whose robots.txt bars Anthropic's agents: not read. As a
+  (`item/pdd-YYYYMMDD`), which refuses this environment and whose robots.txt (Cloudflare's managed file) bars the AI crawlers by name, ClaudeBot, anthropic-ai and Claude-Web among them, and leaves other agents to its general rule (allowed: search=yes, ai-train=no, use=reference): not read. As a
   calendar entry's primary record, after the document of the act and before the bibliography: "[President's Daily
   Diary, Aug. 4, 1964](https://catalog.archives.gov/id/192446), images 3, 5 (LBJ Library; National Archives
   Catalog)", an image the page's number in the Catalog's item; where the Diary disagrees, "Check: the Daily Diary

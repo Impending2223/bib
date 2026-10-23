@@ -641,7 +641,7 @@ printing, or not in at all (all on FRASER, open; not reached in the time):
 - Robert Kennedy's sessions with John Bartlow Martin, Apr. 13, Apr. 30 and May 14, 1964 (`cal.1964-04-13.robert-kennedy`, `cal.1964-04-30.robert-kennedy`, `cal.1964-05-14.robert-kennedy`): which of JFKOH-RFK-02 to -04 on which day, and the link. The Kennedy Library refuses this environment (Cloudflare, 403; retried Oct. 23, 2026, 00:2x and 00:56 UTC). Elsewhere: archive.org has no copy of the transcripts (searched "JFKOH-RFK", identifier `jfkoh*`: one other interview only, `jfkoh-jajr-01-tr`); its four copies of Guthman and Shulman, *Robert Kennedy in His Own Words* (1988; `robertkennedyinh00kenn`, `robertkennedyinh0000kenn`, `robertkennedyinh0000robe`, `bwb_S0-EGG-499`) are borrow-only; the Wayback Machine is refused by this environment's egress policy; the National Archives Catalog's search stopped answering JSON here mid-session. A person in a browser: jfklibrary.org, JFKOH-RFK-02 to -04, each transcript's first page gives its date.
 - King and Johnson at the White House, Dec. 18, 1964, and King with Humphrey, Katzenbach and Johnson, Feb. 9, 1965 (`cal.1964-12-18.king`, `cal.1965-02-09.voting-rights`): no Public Papers item, no recording catalogued. The President's Daily Diary: discoverlbj.org (the day's item, `https://www.discoverlbj.org/item/pdd-19641218`, `pdd-19650209`, the address form Wikipedia's citations give) refuses this environment (Cloudflare block page, 403, Oct. 23, 2026, 00:2x and 00:56 UTC) and its robots.txt bars ClaudeBot, anthropic-ai and Claude-Web by name; the National Archives Catalog holds 50 of the Diary's days, neither of these (`daybook/diary.yaml`); archive.org has no copy. A person in a browser.
 
-- The President's Daily Diary (Johnson's), the rest of it (Oct. 23, 2026): the 50 days the National Archives Catalog gives (`daybook/diary.yaml`, `tools/daybook/make_daily_diary.py`) are read against the calendar (`notes/diary-discrepancies.md`); every other day of Nov. 22, 1963–Jan. 20, 1969 is on discoverlbj.org only (`item/pdd-YYYYMMDD`; refused here, robots.txt bars Anthropic's agents). 1,154 calendar entries of the span are tagged `name:johnson-lyndon-b`; those recording a meeting, call, visit, signing, address or trip want the Diary's day cited and checked, in date order, from Nov. 22, 1963 (the Catalog's days done). The Catalog's "Appointment Files [Diary Backup]" (naId 1756089, 1,893 file units) are scanned for 8 days only. Also from the Diary: the Johnson–Ramsey Clark tape, Jan. 20 or 21, 1967 (`cal.1967-01-20.soviet-union`; FRUS gives Jan. 20, the Miller Center Jan. 21 for citation 11383).
+- The President's Daily Diary (Johnson's), the rest of it (Oct. 23, 2026): the 50 days the National Archives Catalog gives (`daybook/diary.yaml`, `tools/daybook/make_daily_diary.py`) are read against the calendar (`notes/diary-discrepancies.md`); every other day of Nov. 22, 1963–Jan. 20, 1969 is on discoverlbj.org only (`item/pdd-YYYYMMDD`; refused here by Cloudflare's bot protection, 403, whatever the request calls itself; its robots.txt bars the AI crawlers by name, ClaudeBot among them, and leaves user-directed fetches to its general rule. The owner can fetch the days in a browser: `notes/procurement.md`). 1,154 calendar entries of the span are tagged `name:johnson-lyndon-b`; those recording a meeting, call, visit, signing, address or trip want the Diary's day cited and checked, in date order, from Nov. 22, 1963 (the Catalog's days done). The Catalog's "Appointment Files [Diary Backup]" (naId 1756089, 1,893 file units) are scanned for 8 days only. Also from the Diary: the Johnson–Ramsey Clark tape, Jan. 20 or 21, 1967 (`cal.1967-01-20.soviet-union`; FRUS gives Jan. 20, the Miller Center Jan. 21 for citation 11383).
 - McNamara's Directive 5120.36, July 26, 1963 (`cal.1963-07-26.civil-rights-the-executive`): the text not found open (esd.whs.mil 403, AkamaiGHost, Oct. 23, 2026, twice; archive.org and govinfo none). MacGregor quotes part of it, p. 548 (CMH's text on archive.org, `cmhPub-50-1-1-nsia`), now cited with its title in the patch reopen-national.
 - The copper producers back to 36 cents, Nov. 19, 1965 (`cal.1965-11-19.economy`): the record found is the day before's, Memorandum Approving the Release of Copper From the National Stockpile, 1965 Pub. Papers 1119 (Nov. 18, 1965); the producers' price notices not.
 - The State Department's statement on Saudi visas and the air unit, June 29, 1963 (`cal.1963-06-29.middle-east-yemen`): not in the *Bulletin*'s index for 1963. The Department's press releases.
@@ -691,17 +691,21 @@ Searched in the Daily Digest (daybook/committees), the bound Record's days, the 
   drafting agent, Oct. 22, 2026:
   - *Victory in Vietnam* (PAVN history, Pribbenow trans.; `w.vietnam-victory-in-vietnam`) is cited without pages in
     the Bình Giã and Đồng Xoài entries: archive.org's copy (`victoryinvietnam0000unse_u7j3`) is borrow-only and its
-    search-inside did not answer; HathiTrust search-only. Read the pages for Bình Giã, Ba Gia, Đồng Xoài, Junction
+    search-inside did not answer; HathiTrust search-only (Oct. 23, 2026: the same; no other copy on archive.org, its
+    pages at babel.hathitrust.org a Cloudflare 403). Read the pages for Bình Giã, Ba Gia, Đồng Xoài, Junction
     City, Đắk Tô, Route 9-Khe Sanh, Tet and add the pinpoints (and the battles' entries that lack it).
   - Long Tân, Aug. 18, 1966: not entered; Carland names only McNeill, *To Long Tan* (1993). The Australian official
-    history and the Australian War Memorial's records are the places to date and count it.
+    history and the Australian War Memorial's records are the places to date and count it (awm.gov.au answers, Oct.
+    23, 2026; McNeill not open on archive.org: not read).
   - Vietnamese forms not verified, so written plain or left out: the hamlets of Dai Do (Apr. 30-May 2, 1968; written
     "the Dai Do hamlets", with a Check), Ho Bo Woods
     (Crimp, left out), Long Nguyen (Ông Thành, left out), Ca Lu (Khe Sanh's closing), Ngok Tavak, Dak Seang. Ấp Bàu
     Bàng's province (Bình Dương?) not tagged: no coordinates found. Suối Tre and Ấp Gù are written with marks the
     sources (Rogers prints Suoi Tre, Ap Gu) do not give: check them against a Vietnamese source.
-  - Primary records for the field entries without one (the audit's list): the MACV Command Histories (Texas Tech,
-    refused here), the units' after-action reports and the Marine command chronologies (NARA, series NAID 6160409,
+  - Primary records for the field entries without one (the audit's list): the MACV Command Histories (Texas Tech:
+    www.vietnam.ttu.edu answers once the intermediate certificate its server omits, InCommon RSA Server CA 2, is
+    supplied, Oct. 23, 2026; the Virtual Vietnam Archive, vva.vietnam.ttu.edu, then asks a captcha: closed; no MACV
+    Command History of 1964–68 on archive.org, MACVSOG's of 1971–72 only), the units' after-action reports and the Marine command chronologies (NARA, series NAID 6160409,
     page images, open), CHECO reports. The *Bulletin* and the daybook's Thursday briefings not searched for them.
   - Starlite (`cal.1965-08-18.vietnam`, Aug. 18-24): split the landing (Aug. 18) from the end (Aug. 24) once the end's
     record is read (Shulimson, *U.S. Marines in Vietnam, 1965*). The other proposed splits and re-threadings were made
@@ -712,7 +716,11 @@ Searched in the Daily Digest (daybook/committees), the bound Record's days, the 
     1968). Thayer, vol. 5, prints the Report's monthly sorties for more months than were read (pp. 217-299, the
     monthly "Aircraft Sorties and Losses"); and the U.S. aircraft lost by month (the same articles) are not yet a row.
   - The Pentagon Papers (NARA, 2011): two parts carded (IV.C.5, IV.C.6.a); the other forty-five not. IV.C.6.b and c and
-    IV.C.10 (the statistical survey, 1965-67) are the next for the field.
+    IV.C.10 are the next for the field: NARA's copies answer (Oct. 23, 2026; nara-media-001.s3.amazonaws.com/arcmedia/
+    research/pentagon-papers/Pentagon-Papers-Part-IV-C-6-b.pdf, -6-c, -10), their title pages read: IV.C.6.b, *U.S.
+    Ground Strategy and Force Deployments: 1965–1967*, vol. II, *Program 5*; IV.C.6.c, vol. III, *Program 6*; IV.C.10,
+    *Statistical Survey of the War, North and South: 1965–1967*. Card each as IV.C.5's (`w.def-u-s-viet-rels-iv-c-5`)
+    when an entry first cites it (a card nothing points to draws a warning).
 
 - The *Department of State Bulletin*, vol. 59 (July 1-Dec. 30, 1968, nos. 1514-1540): no open copy reached, so the
   daybook's Bulletin list stops at June 24, 1968 (`tools/daybook/make_bulletin.py`). HathiTrust holds it in full view
@@ -721,10 +729,12 @@ Searched in the Daily Digest (daybook/committees), the bound Record's days, the 
   (`sim_department-of-state-bulletin_july-01-december-30-1968_59_index`: a concordance by subject and person, no
   titles, with the issues' pages); Google Books not reached (the API's daily quota spent); state.gov refused (403). A
   person in a browser can read the HathiTrust copy; the owner could allow babel.hathitrust.org, or an archive.org
-  scan may appear (search `departmentofstat59`).
+  scan may appear (search `departmentofstat59`). Tried again Oct. 23, 2026: babel.hathitrust.org a Cloudflare 403 (the
+  catalog API answers); archive.org's `departmentofstat*` items stop at vol. 58 and resume with vol. 61
+  (`departmentofstat611969unit`), no vol. 59; Google Books' API 429 (quota); state.gov 403 (AmazonS3).
 - The *Bulletin*'s issue indexes not in the archive.org copies (a leaf missing or unreadable): July 1, 1963; Sept. 6
   and Nov. 22, 1965; July 18 and Nov. 28, 1966. The semiannual indexes (archive.org's `sim_` items, open) list their
-  items by subject and page; the HathiTrust copies have the issues.
+  items by subject and page; the HathiTrust copies have the issues (bot-checked, Oct. 23, 2026).
 - The *Bulletin*'s check lists of press releases (each issue's index page: number, date, subject) could date the
   items whose page prints no single release (now filed by the issue's date): matching a subject to an item is fuzzy;
   not done.
@@ -812,7 +822,9 @@ Events Gibbons treats that the calendar lacks, not entered: no record reached an
 - `cal.1965-02-18.vietnam`: the Record's pages (Gibbons prints 2146 ff., not possible after 2869 on Feb. 17).
   `cal.1965-01-15.vietnam`: Gibbons prints vol. 110 for McGovern's speech.
 - Part I (1945–60, for 1960) and Part IV (July 1965–Jan. 1968): no open copy found (archive.org has the Princeton
-  edition for lending only; HathiTrust's pages are bot-checked). The Part IV citations in the calendar
+  edition for lending only; HathiTrust's pages are bot-checked). Oct. 23, 2026: Parts II and III are open on archive.org
+  as GPO's microfiche, scanned 2026 (`micro_IA41152619_0216`, Part II; `micro_IA41152832_0038`, Part III); Parts I and
+  IV not in that collection yet, nor on govinfo (its search) or ERIC. The Part IV citations in the calendar
   (`w.gibbons-u-s-government-and-1995`, 29 of them) want their pages; `cal.1966-02-04.vietnam` cites Part IV by the set's card
   ("IV, 222–230"), the others by the Part IV card.
 
@@ -839,8 +851,10 @@ Events Gibbons treats that the calendar lacks, not entered: no record reached an
   of Esso Export's restoration in September 1960 (the Journal, Sept. 19: "last week"; `cal.1960-09-12.oil` carries a
   Check); the other companies' cuts of Aug. 10-19, 1960 (Shell, BP, Mobil, CFP, Getty: the Journal, Aug. 22, 62, and
   Aug. 29), not entered; Venezuela's postings after Dec. 1961 and any change in them (the Journal's weekly table; the
-  1962-69 issues not open: a library, or HathiTrust in a browser); OPEC's *Annual Statistical Bulletin* and the Energy
-  Institute's workbook still bot-checked here.
+  1962-69 issues not open: a library, or HathiTrust in a browser; archive.org has the annual indexes of 1962-65 open,
+  `sim_oil-gas-journal_1962_60_index` and the like, which give the tables' pages, not the tables); OPEC's *Annual
+  Statistical Bulletin* and the Energy Institute's workbook still bot-checked here (opec.org, energyinst.org:
+  Cloudflare 403, Oct. 23, 2026).
 - The world table a year: built (oilworld.py). Left: proved reserves by country for 1962-68. The *Journal*'s year-end
   tables of those years are not open; the Minerals Yearbook's country chapters (vol. IV, 1963-68, on archive.org)
   cite them by issue and page country by country ("Oil and Gas Journal, V. 62, No. 52, Dec. 28, 1964, p. 106"), and
@@ -863,11 +877,15 @@ Events Gibbons treats that the calendar lacks, not entered: no record reached an
   doc. 146): in *Current Documents, 1966*, 321–323. Whether released at the time not read.
 - *Current Documents*' years of publication (the cards' `year`), from FRUS's bibliographies: 1956's "1957" (FRUS
   1964–68, XX, alone), 1957's "1961" (a range, "1957–1967 ... 1961–1969"), 1965's "1969" (FRUS 1964–68, II, alone).
-  Check on the volumes' title pages; no open copy found (HathiTrust's catalog search bot-checked here).
+  Check on the volumes' title pages; no open copy found (HathiTrust's catalog search bot-checked here; archive.org's
+  `americanforeignp0000vari`, dated 1958, lends only, its volume not named in its record; Oct. 23, 2026).
 - The *Bulletin*, vol. 59 (July–Dec. 1968): no copy on archive.org but the index; 52 of FRUS's citations unlinked.
   HathiTrust holds it in full view (catalog only from here).
-- archive.org would not serve `departmentofstat4461unit` (Apr.–June 1961) and part of `departmentofstat581968unit`
-  (Jan.–Mar. 1968) on Oct. 21, 2026 (500): rerun `tools/daybook/make_dsb_index.py`, then `make_printed.py`.
+- `departmentofstat4461unit` (Apr.–June 1961) and `departmentofstat581968unit` (Jan.–Mar. 1968): both are read in
+  `sources/dsb-pages.json` (no `unread`). archive.org/download still answers 500 for their text files (Oct. 23, 2026),
+  but the item's own data node serves them (`https://ia600903.us.archive.org/<dir>/<file>`, `d1` and `dir` in the
+  item's metadata): a rerun of `make_dsb_index.py` that fails so could fetch from there. Their issues' covers not found
+  (no `leaf`): Apr. 10 and May 8, 1961; Jan. 1-Mar. 18, 1968.
 - FRUS's own misprinted *Bulletin* citations, flagged Check in `daybook/printed.yaml` (28): e.g. "November 19, 1962,
   pp. 646–649" (FRUS 1961–63, XI, doc. 91) and "November 19, 1963" (VI, doc. 69), both for Nov. 19, 1973.
 - The *Bulletin* as a daybook list (`daybook/bulletin/`): 1962 done (40 of 53 issues' indexes read); 1956–61 and
@@ -886,11 +904,12 @@ Events Gibbons treats that the calendar lacks, not entered: no record reached an
   the University Daily Kansan (digital.lib.ku.edu, open, OCR; Sept.-Dec. 1965 carries no weekly figures; its spring
   1967 and 1968 and fall 1968 batches not found by id), the Michigan Daily, CDNC, the Battalion (TAMU), the UNI
   repository (bot-checked or refused), govinfo's search of the bound *Congressional Record* (works with DEMO_KEY, then
-  rate-limited; a key would serve: members inserted the weekly figures).
+  rate-limited; a key would serve: members inserted the weekly figures). Oct. 23, 2026: nytimes.com still DataDome
+  (403); govinfo's DEMO_KEY spent again within minutes.
 - The weekly announced dead and strength (the "then" columns by month): the Thursday releases as the *Times* printed
   them, Jan. 1965-Jan. 1969, about 210 issues; only Jan.-Sept. 1967 (deaths) is read, from the *SEA Analysis Report*.
 - MACV's month-end strength (the "today" column by month): the MACV Command Histories (Texas Tech's Virtual Vietnam
-  Archive, refused here); the *SEA Analysis Report*'s deployment articles, Dec. 1966-Dec. 1968, give MACV's preliminary
+  Archive: a captcha, Oct. 23, 2026); the *SEA Analysis Report*'s deployment articles, Dec. 1966-Dec. 1968, give MACV's preliminary
   strength at irregular dates (Thayer, *A Systems Analysis View*, vol. 2, pp. 131-167, DTIC ADA051609).
 - The *Statistical Abstract*, 1969, prints 14,500 for the forces at the end of 1962 ("1961-1962" column), against
   11,300 in the 1967 and 1968 editions and the DoD's table of 1974: Check the column's meaning.
@@ -904,7 +923,12 @@ Events Gibbons treats that the calendar lacks, not entered: no record reached an
   Tech, refused here). The 1965 rows of the new format's first vintage (Thayer, vol. 8, p. 24) are too faint in the
   DTIC copy; Aug., Sept. and Dec. 1967 there partly (Check in the rows). Jul.-Dec. 1968 monthly: not found.
 - Enemy killed (body count) by month, 1965-68, and 1965's total: not found open (the OSD SEA Statistical Summary's
-  table; Thayer, *War Without Fronts* (1985), not open here). The quarters of 1968 as printed add to 180,958 against
+  table; Thayer, *War Without Fronts* (1985): archive.org lends it; another copy there is a private upload, not a
+  library's, and not used). Found Oct. 23, 2026, by year: Thayer, *How to Analyze a War Without Fronts: Vietnam,
+  1965-72*, *Journal of Defense Research*, ser. B, vol. 7B, no. 3 (ARPA, 1975), open on archive.org from the Library of
+  Congress (`howtoanalyzewarw00thay`), table 51 (p. 847: Check the page), "VC/NVA deaths from hostile action" in
+  thousands, from OASD(C)'s *Southeast Asia Statistical Summary*, table 2: 1965, 35; 1966, 56; 1967, 88; 1968, 181. Not
+  entered (a later figure, rounded to thousands: `make_war_forces.py`'s enemy-killed rows). The quarters of 1968 as printed add to 180,958 against
   the year's 180,966P (Thayer, vol. 1, p. 123).
 - Retrospective enemy figures: the People's Army's official history, *Victory in Vietnam* (Pribbenow trans., 2002),
   HathiTrust search-only, no open copy; Hanoi's statement of April 1995 on its losses (as the wire services reported
@@ -925,7 +949,9 @@ Events Gibbons treats that the calendar lacks, not entered: no record reached an
   not shown.
 - Armed Forces Day: Eisenhower's proclamation for 1960 not read; Proclamations 3399 (1961) and 3655 (1965) name the
   third Saturday of May "in each succeeding year", so no yearly proclamation is looked for; govinfo's Federal Register
-  search was rate-limited (DEMO_KEY).
+  search was rate-limited (DEMO_KEY; again Oct. 23, 2026). APP's proclamations of Jan.-May 1960 in the daybook run
+  3331-3349 without a gap and hold none for Armed Forces Day: 1960's may have had none; the *Federal Register* of
+  Mar.-May 1960 would settle it.
 
 ### The Johnson Plan (Middle East: Johnson Plan; the Johnson Plan agent, Oct. 22, 2026)
 
@@ -943,7 +969,7 @@ Events Gibbons treats that the calendar lacks, not entered: no record reached an
 - The PCC's report of Dec. 7, 1962 (A/5337) is said by FRUS (XVIII, doc. 111 n.) to be printed in *Current Documents,
   1962*, 757–760: the pages not seen. Johnson's draft report of Jan. 1963 and the plan's papers (FRUS's microfiche
   Supplement, the Arab-Israeli compilation) not read.
-- The UN Digital Library's search answers 202 with an empty body here; documents.un.org's
+- The UN Digital Library's search answers 202 with an empty body here (still, Oct. 23, 2026); documents.un.org's
   `api/symbol/access?s=SYMBOL&l=en&t=pdf` gives the PDFs.
 
 ### Armed forces a year, and the estimates of the Soviet forces (forces/; the forces agent, Oct. 22, 2026)
@@ -951,28 +977,46 @@ Events Gibbons treats that the calendar lacks, not entered: no record reached an
 - Armor: no open source found for the Army's tanks and armored vehicles in inventory, or its divisions by type
   (armored, mechanized, infantry, airborne, airmobile), 1960–68. The Secretary of Defense's *Annual Report* and the
   posture statements print the divisions by type (history.defense.gov, refused here; HathiTrust full view, bot-checked);
-  the Army's *Green Book* and CMH's lineage volumes (history.army.mil, refused) the rest.
+  the Army's *Green Book* and CMH's lineage volumes (history.army.mil, refused) the rest. Oct. 23, 2026: both hosts
+  AkamaiGHost 403 again; the Annual Reports of fiscal 1961-68 are not on archive.org (DTIC's there begin with fiscal
+  1979) nor found on govinfo. govinfo does hold, open, the OSD Historical Office's *The McNamara Ascendancy, 1961-1965*
+  (GOVPUB-D-PURL-gpo58482) and *McNamara, Clifford, and the Burdens of Vietnam, 1965-1969* (GOVPUB-D-PURL-gpo58528) and
+  CMH's *Advice and Support: The Middle Years* and *Combat Operations: Staying the Course* (GOVPUB-D114-...): later
+  histories whose appendices may give the divisions and forces by year, not read.
 - Ships by type, 1966 and after (carriers, cruisers, destroyers, submarines, amphibious, auxiliaries, active fleet):
-  NHHC's "U.S. Ship Force Levels" (history.navy.mil, TLS refused here). The *Statistical Abstract*'s class table ends
+  NHHC's "U.S. Ship Force Levels" (history.navy.mil: its server omits its intermediate certificate, DigiCert Global G2
+  TLS RSA SHA256 2020 CA1; supplied, the site answers 404 with an empty body (AWS) to every path, Oct. 23, 2026; the
+  Wayback Machine refused the connection the same day). The *Statistical Abstract*'s class table ends
   with June 30, 1965 (1966 ed., table 373); Jane's by type for 1967–68 is in the world table.
 - Navy and Marine aircraft by type: the Abstract printed them to Jan. 1, 1962 only (1965 ed., table 362; then withheld);
   the Navy's own inventory (the *Navy Aircraft* statistics) not found open.
 - The SecDef *Annual Reports*, fiscal 1961–68: missiles on alert, Polaris boats at sea, bombers by type, as published
-  then. Not open here (history.defense.gov refused).
+  then. Not open here (history.defense.gov refused; not on archive.org or govinfo, Oct. 23, 2026).
 - The U.S. warhead stockpile, 1962–68, as the government released it: DoD's fact sheet of May 3, 2010 (defense.gov and
-  open.defense.gov refused; state.gov's later fact sheets refused or down). Only DOE's 1994 table (totals to 1961) and
+  open.defense.gov refused; state.gov's later fact sheets refused or down; Oct. 23, 2026: defense.gov, open.defense.gov
+  AkamaiGHost 403, media.defense.gov 403, state.gov 403). Only DOE's 1994 table (totals to 1961) and
   FAS's series via Our World in Data are in.
 - U.S. strength by country: DMDC's own Sept. 30 reports (309A) for 1957–68 were not reached; the figures are troopdata's
-  transcription. The printed reports (the Comptroller's) would settle them; the 1968 rows marked "e/" in it.
+  transcription. Oct. 23, 2026: DMDC's site answers (its page API, `dwp/api/page?pageId=27`), but its historical files
+  by State and country begin with fiscal 1996 (`historical.zip`); 1957–68 are not there. The printed reports (the Comptroller's) would settle them; the 1968 rows marked "e/" in it.
 - The world table, then: NATO's Annual Review country chapters and force tables, the Defence Planning Committee's
-  papers (archives.nato.int: connection reset here); *NATO Facts and Figures* (1969 ed., archive.org, lending only);
+  papers, MC documents, force goals (archives.nato.int: connection reset Oct. 22; on Oct. 23, 2026, at 00:33 and 01:17
+  UTC, every path, the uploaded PDFs included, answers a "Verifying Your Browser" script challenge: a bot check, not
+  passed; archive.org's mirror `archives.nato.int_PDFS_2022` holds one document, AC/137-D/40; nato.int's new site drops
+  the old /docu and /cps pages, 404); NATO's published figures of defence spending (the *NATO Letter*, Jan. 1963; press
+  releases M4(67)2, Dec. 13, 1967, and M1(69)1, Jan. 16, 1969, as SIPRI cites them) not found open. Entered instead:
+  SIPRI's first yearbook (1969), the NATO and Warsaw Pact countries' spending, 1960-68, its NATO sources NATO's own
+  among them (forces/world.yaml, table `sipri`); *NATO Facts and Figures* (1969 ed., archive.org, lending only);
   the UK's *Statement on the Defence Estimates*, Canada's 1964 *White Paper on Defence*, Australia's reports (not found
   open); the Parallel History Project's Warsaw Pact documents (php.isn.ethz.ch: certificate mismatch;
   parallelhistoryproject.org: refused); the *Military Balance* itself, 1959–68 (archive.org lends; HathiTrust search
-  only); the *Statistical Abstract*, 1966 ed., part 14 (census.gov refuses the file: "Request Rejected"), which may
-  print the Military Balance 1965–66 table.
+  only); the *Statistical Abstract*, 1966 ed.: census.gov serves it now (Oct. 23, 2026), and its international section
+  (sec. 33, tables 1286-1312, part 13; part 14 is the appendices) prints no table of the world's forces: the 1967
+  edition's is the first. Also tried Oct. 23: parallelhistoryproject.org (proxy 502), php.isn.ethz.ch (certificate
+  for another host), cvce.eu (WEU's Assembly documents; 403).
 - The world table, later: ACDA's *World Military Expenditures and Arms Transfers*, 1963–1973 ed. (not found open; the
-  1966 edition of Dec. 1968 is in); SIPRI's military expenditure database (sipri.org answers; not yet read) and its
+  1966 edition of Dec. 1968 is in); SIPRI's military expenditure database (sipri.org answers; not yet read; its first
+  yearbook's figures as printed then are in) and its
   arms transfers database (deliveries of aircraft, armor, ships and missiles, by supplier and recipient).
 - The estimates: SNIE 11-14-61 (Nov. 21, 1961), NIE 11-4-60 (Dec. 1, 1960), NIE 11-3 (air defense, 1961–68), NIE
   11-14-61 and the other general purpose estimates, and NIE 11-8-67 (not in FRUS) are not yet entries; the CIA's
@@ -1019,7 +1063,13 @@ No document in the daybook's FRUS text, or item in the *Bulletin*'s index, names
   about 15 MB, but a source missing tiles at its top zoom leaves holes (tested), so it needs bounds and its own layer.
   Copernicus GLO-90 (on AWS) answers too; its licence (ESA's, with a notice) was not read in full.
 - CRU CL 2.0 (crudata.uea.ac.uk) did not answer on Oct. 22, 2026: the rain grid covers lon 100–110.5, lat 8–23.5 only.
-- HydroSHEDS (data.hydrosheds.org) answered 403: the rivers and lakes were not remade or widened to the frame.
+  HydroSHEDS (data.hydrosheds.org) answered 403: the rivers and lakes were not remade or widened to the frame. Both
+  answer on Oct. 23, 2026 (range requests honored): `grid_10min_pre.dat.gz` 28.8 MB, `grid_10min_tmp.dat.gz` 11.0 MB;
+  HydroRIVERS Asia 90.5 MB, HydroLAKES 820 MB. To cover the frame (lon 97.5–113, lat 5.5–26): set `W0, E0, S0, N0` in
+  `tools/vnmap/layers.py` to the frame, rerun its steps `hydro`, `lakes` and `climate` on fresh downloads (SWORD's delta
+  reaches unchanged), then `climate.py` for `climate.geojson`; the grid goes from 93 rows × 63 columns to 123 × 93, and the
+  rivers and lakes files grow with the frame (`check`'s 50/60 MB limits to watch). Not done: the map agent's files.
+- HYDE's host (geo.public.data.uu.nl): connection reset, Oct. 23, 2026.
 
 ### Primary records, Cal. III (the Cal. III audit agent, Oct. 22, 2026)
 
@@ -1033,8 +1083,7 @@ Searched in FRUS by text and date (sources/frus-text), the *Bulletin*'s index an
   *Meet the Press*, Nov. 19, 1967 (not in the *Bulletin*'s index).
 - The UN: Egypt's request and Thant's order withdrawing UNEF, May 18, 1967 (`cal.1967-05-18.middle-east`): the
   Secretary-General's report (FRUS XIX, doc. 19, describes it); Britain's request for sanctions on Rhodesia, Dec. 8,
-  1966: the Security Council's verbatim record. The *Bulletin*'s item of Mar. 25, 1968, p. 401 (`cal.1968-03-07.testing`),
-  linked by its index title only (archive.org's text of the volume answered 500): Check that it is the submission of Mar. 7.
+  1966: the Security Council's verbatim record.
 - Elsewhere: Nigeria, the Department's statement of Jan. 27, 1966 (not in the *Bulletin*'s index); Subandrio's arrest,
   Mar. 18, 1966; Arif's death, Apr. 13, 1966; Smith's cabinet and the *Tiger* document, Dec. 5, 1966 (FRUS XXIV, doc.
   549, is the day before); China's hydrogen bomb, June 17, 1967; the *Mikhail Frunze*, June 29, 1967 (*Current Documents*

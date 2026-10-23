@@ -3,7 +3,7 @@
 For the owner. Johnson's Daily Diary, read Oct. 23, 2026, on the days the National Archives Catalog gives with their
 page images: 50 days, Nov. 22, 1963–Apr. 7, 1968 (`daybook/diary.yaml`, `tools/daybook/make_daily_diary.py`). The
 whole Diary, a day an item, is on the LBJ Library's site (discoverlbj.org, `item/pdd-YYYYMMDD`), which refused this
-environment (Cloudflare, 403) and whose robots.txt bars Anthropic's agents by name; it was not read. An image is the
+environment (Cloudflare, 403) and whose robots.txt (Cloudflare's managed file) bars the AI crawlers by name, ClaudeBot, anthropic-ai and Claude-Web among them, and leaves other agents to its general rule (allowed: search=yes, ai-train=no, use=reference); it was not read. An image is the
 page's number in the Catalog's item, not the Diary's own page number.
 
 Checked: the 42 calendar entries of those days that record an act of Johnson's (a meeting, call, visit, signing,

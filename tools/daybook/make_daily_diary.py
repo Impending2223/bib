@@ -12,7 +12,7 @@ its pages GIF images in order (`objectDesignator` 1, 2, ...). The series "Appoin
 1756089; 1,893 file units, a day or a trip each) is the backup, not the Diary, and almost none of it is scanned: it is
 not taken. The whole Diary, a page a day, is at the Library's own site (discoverlbj.org, item "pdd-YYYYMMDD", as
 Wikipedia's citations give it); that site refused this environment (Cloudflare, 403) on Oct. 23, 2026, and its
-robots.txt bars Anthropic's agents by name: it is not read, and nothing here reaches for it.
+robots.txt (Cloudflare's managed file) bars the AI crawlers by name, ClaudeBot, anthropic-ai and Claude-Web among them, and leaves other agents to its general rule (allowed: search=yes, ai-train=no, use=reference): it is not read, and nothing here reaches for it.
 
 Read from the Catalog's search by parent (`ancestorNaId=192429`): the Catalog's API v2
 (https://catalog.archives.gov/api/v2, header x-api-key) where NARA_API_KEY is set, else the public endpoint the
