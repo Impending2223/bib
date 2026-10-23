@@ -563,13 +563,38 @@ series:
     *Economic Report* printed, month by month (Table B-54 of [Feb. 1968]({ERP68}) and [Jan. 1969]({ERP69})).}}
 
   mortgage-fha: >-
-    Federal Housing Administration: yields on FHA-insured new-home mortgages in the secondary market, first of the
-    month, at the maximum permissible interest rate{{1966-10..1968-04| (6 percent from Oct. 1966)}}{{1968-05..| (6¾
-    percent from early May 1968)}}, for 30-year mortgages paid in 15 years. A rate, not revised: one figure, as the
-    *Economic Report* first tabled it ("Bond yields and interest rates"), {{..1967|[Feb. 1968]({ERP68}), Table B-54, p.
-    273}}{{1968..|[Jan. 1969]({ERP69}), Table B-54, p. 291}}. The Reports before 1968 print no such column; the
-    *Bulletin*'s earlier figures not read. {{1966|No figure printed for Mar., May and Nov. 1966. }}{{1968|None printed for
-    June 1968. }}No figure today: FRED's mortgage rates begin in 1971.
+    The Federal Housing Administration's yield on FHA-insured new-home mortgages in the secondary market (Sec. 203,
+    30-year, minimum downpayment, an assumed prepayment at the end of 15 years), from its field offices' opinions of
+    private market prices, at the maximum permissible interest rate{{..1966-01| (5¼ percent through Jan. 1966, the
+    May 1966 *Bulletin*'s note)}}{{1966-02..1966-09| (5½ percent from Feb. 1966, the same note)}}{{1966-10..1968-04| (6
+    percent from Oct. 1966, the *Economic Report*'s note)}}{{1968-05..| (6¾ percent from early May 1968, the same)}}. A
+    rate: one figure, as the *Federal Reserve Bulletin* first printed it ([FRASER]({FRB})), in its table "Mortgages:
+    new homes"{{1966-06..| (from Aug. 1966 "Mortgages: new and existing homes"; from Nov. 1968 "Home-mortgage
+    yields")}}, the issue and page on hover; its change from the month before as first printed. The table begins in
+    the July 1964 issue, at Apr. 1963; earlier months not read.{{1963-09| Sept. 1963: 4.45 as first printed, a misprint,
+    corrected to 5.45 in the next issue.}}{{1965-10| Oct. 1965: 6.49 as first printed, corrected to 5.49 in the next
+    issue.}}{{1966-02,1966-04,1966-10,1968-05| The Bulletin leaves a month blank where the maximum rate was being
+    changed ("Gaps in the data are due to periods of adjustment to changes in maximum permissible contract interest
+    rates").}}{{1966-05| May 1966 from the July issue: the June issue's pages 857–858 are missing from FRASER's copy.}}
+    No figure today: FRED's mortgage rates begin in 1971.
+
+  mortgage-conventional: >-
+    The contract interest rate on conventional first mortgages for new homes, the Federal Home Loan Bank Board's
+    series (with the Federal Deposit Insurance Corporation, "beginning in late 1962"), as the *Federal Reserve
+    Bulletin* first printed it ([FRASER]({FRB})), in the table with the FHA yield, from the July 1964 issue (at Apr.
+    1963), a month after the yield; its change from the month before as first printed.{{1966-04| Apr. 1966 from the
+    July issue: the June issue's pages are missing from FRASER's copy.}}{{1966-07..1967-01| The Apr. 1967 issue begins
+    a "New FHLBB series" at Dec. 1966 (6.49 against 6.44), the Dec. 1967 issue at July 1966; Jan. 1967 is the old
+    series' figure (6.43; 6.47 on the new).}}{{1967-02..| From Feb. 1967 the new series as first printed.}}{{1967-11..|
+    Marked preliminary when first printed from Nov. 1967.}} The Bulletin drops the series with Jan. 1968 for the
+    effective rate, a row of its own. No figure today.
+
+  mortgage-conventional-eff: >-
+    The Federal Home Loan Bank Board's effective rate on conventional first mortgages for new homes, which "reflects
+    fees and charges as well as contract rates ... and an assumed prepayment at end of 10 years": not the contract
+    rate, so a row of its own. First printed in the *Federal Reserve Bulletin* of Apr. 1968 ([FRASER]({FRB})), monthly
+    from Feb. 1967; each later month as the issue two months after first printed it, marked preliminary; its change
+    from the month before as first printed. No figure today.
 
   reserve-assets: >-
     The monetary reserve assets of the United States at the end of the month, $bn: the gold stock (the Treasury's and
@@ -626,6 +651,17 @@ series:
     within the Reports' "miscellaneous investors"; the *Treasury Bulletin*'s survey of ownership, which gives them, not
     read. No figure today: the Treasury's and FRED's series of holdings by the Federal Reserve and by foreigners begin
     in 1970.
+
+  debt-interest-rate: >-
+    The computed annual interest rate on the interest-bearing public debt at the end of the month: the interest each
+    issue outstanding would pay in a year at its rate (from Dec. 1958 at its effective yield where sold at a premium
+    or discount), over the debt, in percent to three places; its change in points from the month before as the same
+    issue printed it. The *Treasury Bulletin*'s "Debt outstanding," Table 2, "Computed Interest Charge and Computed
+    Interest Rate on Federal Securities," the column "Total public debt" ([FRASER]({TB})), each month as the first
+    issue to print it{{..1961-09| (two months after)}}{{1961-10..| (mostly the month after)}}, issue and page on
+    hover. Read off the page images, or from an issue's text where every later issue agrees.{{1964-12| Dec. 1964:
+    3.602 in the Jan. 1965 issue, revised to 3.593 in Feb.}} No figure today: the Treasury's average interest rates
+    series begins in 2001.
 
   debt-maturity: >-
     The average length to maturity of the marketable interest-bearing public debt at the end of the month (bonds

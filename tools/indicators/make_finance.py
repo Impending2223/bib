@@ -57,51 +57,190 @@ SRC = {
               'https://www.govinfo.gov/app/details/SERIALSET-12868_00_00-002-0028-0000'),
 }
 
+for _y in range(1960, 1970):            # the Treasury Bulletin's issues (FRASER's files): TB6202
+    for _m in range(1, 13):
+        SRC[f'TB{_y % 100:02d}{_m:02d}'] = (f'{_y}-{_m:02d}', f'Treasury Bulletin, {MON[_m - 1]} {_y}',
+                                            f'https://fraser.stlouisfed.org/files/docs/publications/tbulletin/{_y}_{_m:02d}_treasurybulletin.pdf')
+for _y in range(1960, 1970):            # the Federal Reserve Bulletin's issues (FRASER's files): FRB6407
+    for _m in range(1, 13):
+        SRC[f'FRB{_y % 100:02d}{_m:02d}'] = (f'{_y}-{_m:02d}', f'Federal Reserve Bulletin, {MON[_m - 1]} {_y}',
+                                             f'https://fraser.stlouisfed.org/files/docs/publications/FRB/1960s/frb_{_m:02d}{_y}.pdf')
+
 # ---------------------------------------------------------------- READ: the figures printed then
 # Each block: lines "SRC/where PERIOD VALUE[/VALUE...] [prior=VALUE] [note=TEXT]". SRC is a key of SRC above, 'where'
 # the table and page. A period printed in several sources is taken from the first listed. prior: the period before as
 # printed in the same place (the change 'in that release'); without it, the change is taken from the period before
 # where the same place prints it.
 
-# FHA new-home mortgage yields, secondary market, first of the month (Table B-54's column "FHA new home mortgage
-# yields", its note 5: "Data for first of the month, based on the maximum permissible interest rate (6 percent
-# beginning October 1966) and, thru July 1961, 25-year mortgages paid in 12 years and, thereafter, 30-year mortgages
-# paid in 15 years"; the Jan. 1969 Report's note: "6¾ percent beginning early May 1968"). Blank months (no figure
-# printed): Mar., May and Nov. 1966, June 1968. Read off the page images at 220 dpi. The Report of Jan. 1967 prints no
-# such column (Table B-50, pp. 272-73). 1967 as the Feb. 1968 Report printed it; the Jan. 1969 Report's 1967 agrees.
+# The mortgage rates: the Federal Reserve Bulletin's table "Mortgages: new homes" (from the July 1964 issue, which
+# begins it at Apr. 1963), "Mortgages: new and existing homes" (from Aug. 1966) and "Home-mortgage yields" (from Nov.
+# 1968), each month as the issue that first printed it (the yield a month before the conventional rate, until the
+# Aug. 1966 issue), read off FRASER's page images at 150 dpi. pdf= is the page in FRASER's file of the issue. The
+# Bulletin's months are the months the data report on ("Price data are reported as of the first of the succeeding
+# month"); the Economic Report dates the same figures by the first of the month after.
+# FHA: the yield on FHA-insured new-home mortgages, secondary market (Sec. 203, 30-year, minimum downpayment, an
+# assumed prepayment at the end of 15 years). Months the Bulletin leaves blank ("Gaps in the data are due to periods
+# of adjustment to changes in maximum permissible contract interest rates"): Feb., Apr. and Oct. 1966, May 1968; Jan.
+# 1967 blank in the Feb. 1967 issue, printed in Mar. The misprints of Sept. 1963 and Oct. 1965 stand, the correction
+# noted.
 FHA = """
-ERP68/Table B-54, p. 273 1966-01 5.62
-ERP68/Table B-54, p. 273 1966-02 5.70
-ERP68/Table B-54, p. 273 1966-04 6.00
-ERP68/Table B-54, p. 273 1966-06 6.32
-ERP68/Table B-54, p. 273 1966-07 6.45
-ERP68/Table B-54, p. 273 1966-08 6.51
-ERP68/Table B-54, p. 273 1966-09 6.58
-ERP68/Table B-54, p. 273 1966-10 6.63
-ERP68/Table B-54, p. 273 1966-12 6.81
-ERP68/Table B-54, p. 273 1967-01 6.77
-ERP68/Table B-54, p. 273 1967-02 6.62
-ERP68/Table B-54, p. 273 1967-03 6.46
-ERP68/Table B-54, p. 273 1967-04 6.35
-ERP68/Table B-54, p. 273 1967-05 6.29
-ERP68/Table B-54, p. 273 1967-06 6.44
-ERP68/Table B-54, p. 273 1967-07 6.51
-ERP68/Table B-54, p. 273 1967-08 6.53
-ERP68/Table B-54, p. 273 1967-09 6.60
-ERP68/Table B-54, p. 273 1967-10 6.63
-ERP68/Table B-54, p. 273 1967-11 6.65
-ERP68/Table B-54, p. 273 1967-12 6.77
-ERP69/Table B-54, p. 291 1968-01 6.81
-ERP69/Table B-54, p. 291 1968-02 6.81
-ERP69/Table B-54, p. 291 1968-03 6.78
-ERP69/Table B-54, p. 291 1968-04 6.83
-ERP69/Table B-54, p. 291 1968-05 6.94
-ERP69/Table B-54, p. 291 1968-07 7.52
-ERP69/Table B-54, p. 291 1968-08 7.42
-ERP69/Table B-54, p. 291 1968-09 7.35
-ERP69/Table B-54, p. 291 1968-10 7.28
-ERP69/Table B-54, p. 291 1968-11 7.29
-ERP69/Table B-54, p. 291 1968-12 7.36
+FRB6407/p. 875, Mortgages: new homes 1963-09 4.45 pdf=65 note=corrected to 5.45 in the Aug. 1964 issue
+FRB6511/p. 1575, Mortgages: new homes 1965-10 6.49 pdf=75 note=corrected to 5.49 in the Dec. 1965 issue
+FRB6507/p. 991, Mortgages: new homes 1965-06 5.44 pdf=75
+FRB6508/p. 1135, Mortgages: new homes 1965-07 5.44 pdf=87
+FRB6407/p. 875, Mortgages: new homes 1963-05 5.45 pdf=65
+FRB6407/p. 875, Mortgages: new homes 1963-06 5.45 pdf=65
+FRB6407/p. 875, Mortgages: new homes 1963-07 5.45 pdf=65
+FRB6407/p. 875, Mortgages: new homes 1963-08 5.45 pdf=65
+FRB6407/p. 875, Mortgages: new homes 1963-10 5.45 pdf=65
+FRB6407/p. 875, Mortgages: new homes 1963-11 5.45 pdf=65
+FRB6407/p. 875, Mortgages: new homes 1963-12 5.45 pdf=65
+FRB6407/p. 875, Mortgages: new homes 1964-01 5.45 pdf=65
+FRB6407/p. 875, Mortgages: new homes 1964-02 5.45 pdf=65
+FRB6407/p. 875, Mortgages: new homes 1964-03 5.45 pdf=65
+FRB6407/p. 875, Mortgages: new homes 1964-04 5.45 pdf=65
+FRB6407/p. 875, Mortgages: new homes 1964-05 5.45 pdf=65
+FRB6408/p. 1047, Mortgages: new homes 1964-06 5.45 pdf=113
+FRB6411/p. 1451, Mortgages: new homes 1964-10 5.45 pdf=79
+FRB6412/p. 1565, Mortgages: new homes 1964-11 5.45 pdf=55
+FRB6501/p. 143, Mortgages: new homes 1964-12 5.45 pdf=147
+FRB6502/p. 287, Mortgages: new homes 1965-01 5.45 pdf=79
+FRB6503/p. 455, Mortgages: new homes 1965-02 5.45 pdf=99
+FRB6504/p. 571, Mortgages: new homes 1965-03 5.45 pdf=57
+FRB6505/p. 715, Mortgages: new homes 1965-04 5.45 pdf=73
+FRB6506/p. 853, Mortgages: new homes 1965-05 5.45 pdf=69
+FRB6509/p. 1305, Mortgages: new homes 1965-08 5.45 pdf=111
+FRB6407/p. 875, Mortgages: new homes 1963-04 5.46 pdf=65
+FRB6409/p. 1171, Mortgages: new homes 1964-07 5.46 pdf=63
+FRB6409/p. 1171, Mortgages: new homes 1964-08 5.46 pdf=63
+FRB6410/p. 1299, Mortgages: new homes 1964-09 5.46 pdf=69
+FRB6510/p. 1441, Mortgages: new homes 1965-09 5.46 pdf=79
+FRB6512/p. 1753, Mortgages: new homes 1965-11 5.51 pdf=101
+FRB6601/p. 73, Mortgages: new homes 1965-12 5.62 pdf=77
+FRB6602/p. 235, Mortgages: new homes 1966-01 5.70 pdf=90
+FRB6604/p. 565, Mortgages: new homes 1966-03 6.00 pdf=114
+FRB6705/p. 816, Mortgages: new and existing homes 1967-04 6.29 pdf=128
+FRB6607/p. 1011, Mortgages: new homes 1966-05 6.32 pdf=79 note=the June 1966 issue (pp. 857-858 missing from FRASER's copy) not read
+FRB6704/p. 622, Mortgages: new and existing homes 1967-03 6.35 pdf=126
+FRB6706/p. 1006, Mortgages: new and existing homes 1967-05 6.44 pdf=107
+FRB6607/p. 1011, Mortgages: new homes 1966-06 6.45 pdf=79
+FRB6703/p. 420, Mortgages: new and existing homes 1967-02 6.46 pdf=82
+FRB6609/p. 1372, Mortgages: new and existing homes 1966-07 6.51 pdf=95
+FRB6707/p. 1200, Mortgages: new and existing homes 1967-06 6.51 pdf=128
+FRB6708/p. 1394, Mortgages: new and existing homes 1967-07 6.53 pdf=125
+FRB6610/p. 1492, Mortgages: new and existing homes 1966-08 6.58 pdf=60
+FRB6709/p. 1610, Mortgages: new and existing homes 1967-08 6.60 pdf=143
+FRB6703/p. 420, Mortgages: new and existing homes 1967-01 6.62 pdf=82
+FRB6610/p. 1492, Mortgages: new and existing homes 1966-09 6.63 pdf=60
+FRB6710/p. 1780, Mortgages: new and existing homes 1967-09 6.63 pdf=104
+FRB6711/p. 1952, Mortgages: new and existing homes 1967-10 6.65 pdf=100
+FRB6701/p. 114, Mortgages: new and existing homes 1966-12 6.77 pdf=116
+FRB6712/p. 2104, Mortgages: new and existing homes 1967-11 6.77 pdf=87
+FRB6803/p. A-30, Mortgages: new and existing homes 1968-02 6.78 pdf=125
+FRB6612/p. 1806, Mortgages: new and existing homes 1966-11 6.81 pdf=71
+FRB6801/p. A-30, Mortgages: new and existing homes 1967-12 6.81 pdf=129
+FRB6802/p. A-30, Mortgages: new and existing homes 1968-01 6.81 pdf=176
+FRB6804/p. A-30, Mortgages: new and existing homes 1968-03 6.83 pdf=89
+FRB6805/p. A-32, Mortgages: new and existing homes 1968-04 6.94 pdf=96
+FRB6810/p. A-33, Mortgages: new and existing homes 1968-09 7.28 pdf=131
+FRB6811/p. A-51, Home-mortgage yields 1968-10 7.29 pdf=112
+FRB6809/p. A-33, Mortgages: new and existing homes 1968-08 7.35 pdf=102
+FRB6812/p. A-51, Home-mortgage yields 1968-11 7.36 pdf=156
+FRB6808/p. A-33, Mortgages: new and existing homes 1968-07 7.42 pdf=81
+FRB6901/p. 51, Home-mortgage yields 1968-12 7.50 pdf=142
+FRB6808/p. A-33, Mortgages: new and existing homes 1968-06 7.52 pdf=81
+"""
+# CONV: the contract interest rate on conventional first mortgages for new homes, the Federal Home Loan Bank Board's
+# series (with the FDIC; "FHLBB series" from Aug. 1966; a "New FHLBB series" from the Apr. 1967 issue, beginning Dec.
+# 1966, then July 1966), as first printed, Apr. 1963-Jan. 1968; "p" (preliminary) in the issues of Jan.-Mar. 1968. The
+# Apr. 1968 issue drops it for the effective rate (EFF).
+CONV = """
+FRB6801/p. A-30, Mortgages: new and existing homes 1967-11 6.37 pdf=129 note=preliminary
+FRB6802/p. A-30, Mortgages: new and existing homes 1967-12 6.45 pdf=176 note=preliminary
+FRB6803/p. A-30, Mortgages: new and existing homes 1968-01 6.39 pdf=125 note=preliminary
+FRB6505/p. 715, Mortgages: new homes 1965-03 5.72 pdf=73
+FRB6506/p. 853, Mortgages: new homes 1965-04 5.74 pdf=69
+FRB6412/p. 1565, Mortgages: new homes 1964-10 5.75 pdf=55
+FRB6501/p. 143, Mortgages: new homes 1964-11 5.75 pdf=147
+FRB6511/p. 1575, Mortgages: new homes 1965-09 5.75 pdf=75
+FRB6512/p. 1753, Mortgages: new homes 1965-10 5.75 pdf=101
+FRB6408/p. 1047, Mortgages: new homes 1964-06 5.76 pdf=113
+FRB6409/p. 1171, Mortgages: new homes 1964-07 5.76 pdf=63
+FRB6502/p. 287, Mortgages: new homes 1964-12 5.76 pdf=79
+FRB6508/p. 1135, Mortgages: new homes 1965-06 5.76 pdf=87
+FRB6510/p. 1441, Mortgages: new homes 1965-08 5.76 pdf=79
+FRB6407/p. 875, Mortgages: new homes 1964-05 5.77 pdf=65
+FRB6410/p. 1299, Mortgages: new homes 1964-08 5.77 pdf=69
+FRB6411/p. 1451, Mortgages: new homes 1964-09 5.77 pdf=79
+FRB6507/p. 991, Mortgages: new homes 1965-05 5.77 pdf=75
+FRB6509/p. 1305, Mortgages: new homes 1965-07 5.77 pdf=111
+FRB6602/p. 235, Mortgages: new homes 1965-12 5.78 pdf=90
+FRB6407/p. 875, Mortgages: new homes 1964-03 5.79 pdf=65
+FRB6407/p. 875, Mortgages: new homes 1964-04 5.79 pdf=65
+FRB6503/p. 455, Mortgages: new homes 1965-01 5.79 pdf=99
+FRB6504/p. 571, Mortgages: new homes 1965-02 5.79 pdf=57
+FRB6407/p. 875, Mortgages: new homes 1963-12 5.80 pdf=65
+FRB6601/p. 73, Mortgages: new homes 1965-11 5.80 pdf=77
+FRB6407/p. 875, Mortgages: new homes 1963-09 5.81 pdf=65
+FRB6407/p. 875, Mortgages: new homes 1964-02 5.81 pdf=65
+FRB6603/p. 379, Mortgages: new homes 1966-01 5.81 pdf=78
+FRB6407/p. 875, Mortgages: new homes 1963-05 5.82 pdf=65
+FRB6407/p. 875, Mortgages: new homes 1963-06 5.82 pdf=65
+FRB6407/p. 875, Mortgages: new homes 1963-07 5.82 pdf=65
+FRB6407/p. 875, Mortgages: new homes 1963-08 5.82 pdf=65
+FRB6407/p. 875, Mortgages: new homes 1963-10 5.82 pdf=65
+FRB6407/p. 875, Mortgages: new homes 1963-11 5.82 pdf=65
+FRB6407/p. 875, Mortgages: new homes 1964-01 5.83 pdf=65
+FRB6407/p. 875, Mortgages: new homes 1963-04 5.84 pdf=65
+FRB6604/p. 565, Mortgages: new homes 1966-02 5.85 pdf=114
+FRB6605/p. 691, Mortgages: new homes 1966-03 5.90 pdf=58
+FRB6607/p. 1011, Mortgages: new homes 1966-04 5.99 pdf=79 note=the June 1966 issue (pp. 857-858 missing from FRASER's copy) not read
+FRB6607/p. 1011, Mortgages: new homes 1966-05 6.02 pdf=79
+FRB6608/p. 1204, Mortgages: new and existing homes 1966-06 6.07 pdf=130
+FRB6609/p. 1372, Mortgages: new and existing homes 1966-07 6.12 pdf=95
+FRB6610/p. 1492, Mortgages: new and existing homes 1966-08 6.18 pdf=60
+FRB6611/p. 1674, Mortgages: new and existing homes 1966-09 6.22 pdf=103
+FRB6707/p. 1200, Mortgages: new and existing homes 1967-05 6.28 pdf=128
+FRB6708/p. 1394, Mortgages: new and existing homes 1967-06 6.29 pdf=125
+FRB6612/p. 1806, Mortgages: new and existing homes 1966-10 6.32 pdf=71
+FRB6709/p. 1610, Mortgages: new and existing homes 1967-07 6.34 pdf=143
+FRB6710/p. 1780, Mortgages: new and existing homes 1967-08 6.34 pdf=104
+FRB6706/p. 1006, Mortgages: new and existing homes 1967-04 6.38 pdf=107
+FRB6711/p. 1952, Mortgages: new and existing homes 1967-09 6.38 pdf=100
+FRB6712/p. 2104, Mortgages: new and existing homes 1967-10 6.38 pdf=87
+FRB6701/p. 114, Mortgages: new and existing homes 1966-11 6.40 pdf=116
+FRB6705/p. 816, Mortgages: new and existing homes 1967-03 6.42 pdf=128
+FRB6703/p. 420, Mortgages: new and existing homes 1967-01 6.43 pdf=82 note=old series; the Apr. 1967 issue gives 6.47 on the new FHLBB series, from Dec. 1966
+FRB6702/p. 272, Mortgages: new and existing homes 1966-12 6.44 pdf=88
+FRB6704/p. 622, Mortgages: new and existing homes 1967-02 6.44 pdf=126
+"""
+# EFF: the FHLBB series' effective rate on conventional first mortgages for new homes ("reflects fees and charges as
+# well as contract rates ... and an assumed prepayment at end of 10 years"), from the Apr. 1968 issue, which prints it
+# monthly from Feb. 1967; each month after Jan. 1968 marked "p" (preliminary) when first printed.
+EFF = """
+FRB6804/p. A-30, Mortgages: new and existing homes 1968-02 6.61 pdf=89 note=preliminary
+FRB6805/p. A-32, Mortgages: new and existing homes 1968-03 6.64 pdf=96 note=preliminary
+FRB6806/p. A-33, Mortgages: new and existing homes 1968-04 6.70 pdf=111 note=preliminary
+FRB6807/p. A-33, Mortgages: new and existing homes 1968-05 6.83 pdf=157 note=preliminary
+FRB6808/p. A-33, Mortgages: new and existing homes 1968-06 7.03 pdf=81 note=preliminary
+FRB6809/p. A-33, Mortgages: new and existing homes 1968-07 7.18 pdf=102 note=preliminary
+FRB6810/p. A-33, Mortgages: new and existing homes 1968-08 7.23 pdf=131 note=preliminary
+FRB6811/p. A-51, Home-mortgage yields 1968-09 7.23 pdf=112 note=preliminary
+FRB6812/p. A-51, Home-mortgage yields 1968-10 7.22 pdf=156 note=preliminary
+FRB6901/p. 51, Home-mortgage yields 1968-11 7.21 pdf=142 note=preliminary
+FRB6902/p. 51, Home-mortgage yields 1968-12 7.23 pdf=140 note=preliminary
+FRB6804/p. A-30, Mortgages: new and existing homes 1967-06 6.35 pdf=89
+FRB6804/p. A-30, Mortgages: new and existing homes 1967-05 6.37 pdf=89
+FRB6804/p. A-30, Mortgages: new and existing homes 1967-08 6.40 pdf=89
+FRB6804/p. A-30, Mortgages: new and existing homes 1967-04 6.43 pdf=89
+FRB6804/p. A-30, Mortgages: new and existing homes 1967-07 6.43 pdf=89
+FRB6804/p. A-30, Mortgages: new and existing homes 1967-09 6.44 pdf=89
+FRB6804/p. A-30, Mortgages: new and existing homes 1967-11 6.45 pdf=89
+FRB6804/p. A-30, Mortgages: new and existing homes 1967-03 6.47 pdf=89
+FRB6804/p. A-30, Mortgages: new and existing homes 1967-10 6.47 pdf=89
+FRB6804/p. A-30, Mortgages: new and existing homes 1968-01 6.52 pdf=89
+FRB6804/p. A-30, Mortgages: new and existing homes 1967-02 6.54 pdf=89
+FRB6804/p. A-30, Mortgages: new and existing homes 1967-12 6.54 pdf=89
 """
 
 # The money stock, M1 (currency outside banks and demand deposits adjusted), averages of daily figures, seasonally
@@ -737,6 +876,123 @@ ERP69/Table B-66, p. 304 1968-11 49
 ERP69/Table B-66, p. 304 1968-12 48
 """
 
+# The computed annual interest rate on the public debt, end of month (percent): the Treasury Bulletin's "Debt
+# outstanding", Table 2, "Computed Interest Charge and Computed Interest Rate on Federal Securities", the column
+# "Total public debt" under "Computed annual interest rate", each month as the first issue to print it (two months
+# after, to Oct. 1961; one month after, mostly, from then). Read off FRASER's page images at 200 dpi, or, for 38
+# months, from the issue's text layer where it agrees with every later issue's (two or more). Revised once: Dec. 1964,
+# 3.602 in the Jan. 1965 issue, 3.593 ("r") from the Feb. 1965 issue (prior= the figure the next issue printed).
+TBRATE = """
+TB6003/p. 20, Table 2 1960-01 3.334 pdf=32
+TB6004/p. 20, Table 2 1960-02 3.378 pdf=32
+TB6005/p. 25, Table 2 1960-03 3.336 pdf=37
+TB6006/p. 20, Table 2 1960-04 3.325 pdf=34
+TB6007/p. 20, Table 2 1960-05 3.327 pdf=32
+TB6008/p. 25, Table 2 1960-06 3.297 pdf=37
+TB6009/p. 21, Table 2 1960-07 3.260 pdf=35
+TB6010/p. 21, Table 2 1960-08 3.179 pdf=35
+TB6011/p. 26, Table 2 1960-09 3.171 pdf=38
+TB6012/p. 21, Table 2 1960-10 3.167 pdf=33
+TB6101/p. 21, Table 2 1960-11 3.143 pdf=33
+TB6102/p. 26, Table 2 1960-12 3.137 pdf=38
+TB6103/p. 21, Table 2 1961-01 3.118 pdf=33
+TB6104/p. 21, Table 2 1961-02 3.081 pdf=35
+TB6105/p. 26, Table 2 1961-03 3.109 pdf=44
+TB6106/p. 21, Table 2 1961-04 3.091 pdf=33
+TB6107/p. 22, Table 2 1961-05 3.075 pdf=38
+TB6108/p. 27, Table 2 1961-06 3.072 pdf=41
+TB6109/p. 22, Table 2 1961-07 3.065 pdf=38
+TB6110/p. 22, Table 2 1961-08 3.082 pdf=40
+TB6111/p. 27, Table 2 1961-09 3.096 pdf=41
+TB6111/p. 27, Table 2 1961-10 3.098 pdf=41
+TB6112/p. 22, Table 2 1961-11 3.123 pdf=36
+TB6201/p. 22, Table 2 1961-12 3.135 pdf=36
+TB6202/p. 27, Table 2 1962-01 3.155 pdf=41
+TB6203/p. 22, Table 2 1962-02 3.180 pdf=38
+TB6204/p. 22, Table 2 1962-03 3.209 pdf=36
+TB6205/p. 27, Table 2 1962-04 3.215 pdf=41
+TB6206/p. 22, Table 2 1962-05 3.236 pdf=36
+TB6207/p. 22, Table 2 1962-06 3.239 pdf=36
+TB6208/p. 29, Table 2 1962-07 3.247 pdf=47
+TB6209/p. 27, Table 2 1962-08 3.262 pdf=43
+TB6210/p. 25, Table 2 1962-09 3.284 pdf=39
+TB6211/p. 30, Table 2 1962-10 3.277 pdf=46
+TB6212/p. 27, Table 2 1962-11 3.288 pdf=45
+TB6301/p. 25, Table 2 1962-12 3.297 pdf=41
+TB6302/p. 30, Table 2 1963-01 3.299 pdf=46
+TB6303/p. 27, Table 2 1963-02 3.304 pdf=45
+TB6304/p. 26, Table 2 1963-03 3.332 pdf=40
+TB6305/p. 30, Table 2 1963-04 3.337 pdf=44
+TB6306/p. 27, Table 2 1963-05 3.344 pdf=41
+TB6307/p. 25, Table 2 1963-06 3.360 pdf=39
+TB6308/p. 30, Table 2 1963-07 3.374 pdf=44
+TB6309/p. 26, Table 2 1963-08 3.402 pdf=44
+TB6310/p. 24, Table 2 1963-09 3.428 pdf=38
+TB6311/p. 29, Table 2 1963-10 3.460 pdf=43
+TB6312/p. 26, Table 2 1963-11 3.476 pdf=40
+TB6401/p. 26, Table 2 1963-12 3.486 pdf=44
+TB6402/p. 26, Table 2 1964-01 3.506 pdf=40
+TB6403/p. 23, Table 2 1964-02 3.531 pdf=37
+TB6404/p. 21, Table 2 1964-03 3.537 pdf=35
+TB6405/p. 27, Table 2 1964-04 3.546 pdf=41
+TB6406/p. 23, Table 2 1964-05 3.554 pdf=37
+TB6407/p. 21, Table 2 1964-06 3.560 pdf=39
+TB6408/p. 26, Table 2 1964-07 3.565 pdf=42
+TB6409/p. 22, Table 2 1964-08 3.565 pdf=36
+TB6410/p. 20, Table 2 1964-09 3.567 pdf=34
+TB6411/p. 25, Table 2 1964-10 3.572 pdf=41
+TB6412/p. 22, Table 2 1964-11 3.576 pdf=36
+TB6501/p. 21, Table 2 1964-12 3.602 pdf=39 note=revised to 3.593 ("r") in the Feb. 1965 issue
+TB6502/p. 26, Table 2 1965-01 3.626 prior=3.593 pdf=44
+TB6503/p. 23, Table 2 1965-02 3.649 pdf=37
+TB6504/p. 21, Table 2 1965-03 3.657 pdf=35
+TB6505/p. 27, Table 2 1965-04 3.668 pdf=41
+TB6506/p. 23, Table 2 1965-05 3.672 pdf=37
+TB6507/p. 21, Table 2 1965-06 3.678 pdf=35
+TB6508/p. 26, Table 2 1965-07 3.675 pdf=40
+TB6509/p. 22, Table 2 1965-08 3.683 pdf=36
+TB6510/p. 20, Table 2 1965-09 3.688 pdf=34
+TB6511/p. 25, Table 2 1965-10 3.702 pdf=39
+TB6512/p. 22, Table 2 1965-11 3.730 pdf=36
+TB6601/p. 21, Table 2 1965-12 3.756 pdf=35
+TB6602/p. 26, Table 2 1966-01 3.793 pdf=40
+TB6603/p. 24, Table 2 1966-02 3.861 pdf=38
+TB6604/p. 22, Table 2 1966-03 3.941 pdf=36
+TB6605/p. 28, Table 2 1966-04 3.919 pdf=42
+TB6606/p. 24, Table 2 1966-05 3.967 pdf=36
+TB6607/p. 23, Table 2 1966-06 3.988 pdf=35
+TB6608/p. 28, Table 2 1966-07 3.996 pdf=42
+TB6609/p. 24, Table 2 1966-08 4.080 pdf=38
+TB6610/p. 22, Table 2 1966-09 4.125 pdf=36
+TB6611/p. 28, Table 2 1966-10 4.174 pdf=42
+TB6612/p. 24, Table 2 1966-11 4.222 pdf=38
+TB6701/p. 23, Table 2 1966-12 4.225 pdf=35
+TB6702/p. 29, Table 2 1967-01 4.211 pdf=43
+TB6703/p. 24, Table 2 1967-02 4.210 pdf=38
+TB6704/p. 22, Table 2 1967-03 4.163 pdf=34
+TB6705/p. 31, Table 2 1967-04 4.114 pdf=45
+TB6706/p. 24, Table 2 1967-05 4.080 pdf=36
+TB6707/p. 22, Table 2 1967-06 4.039 pdf=36
+TB6708/p. 30, Table 2 1967-07 4.063 pdf=38
+TB6709/p. 39, Table 2 1967-08 4.109 pdf=53
+TB6710/p. 28, Table 2 1967-09 4.137 pdf=35
+TB6711/p. 35, Table 2 1967-10 4.177 pdf=43
+TB6712/p. 30, Table 2 1967-11 4.258 pdf=36
+TB6801/p. 28, Table 2 1967-12 4.292 pdf=35
+TB6802/p. 22, Table 2 1968-01 4.322 pdf=28
+TB6803/p. 20, Table 2 1968-02 4.366 pdf=24
+TB6804/p. 17, Table 2 1968-03 4.371 pdf=21
+TB6805/p. 24, Table 2 1968-04 4.395 pdf=29
+TB6806/p. 18, Table 2 1968-05 4.480 pdf=23
+TB6807/p. 16, Table 2 1968-06 4.499 pdf=28
+TB6808/p. 23, Table 2 1968-07 4.521 pdf=35
+TB6809/p. 18, Table 2 1968-08 4.557 pdf=22
+TB6810/p. 16, Table 2 1968-09 4.551 pdf=26
+TB6811/p. 23, Table 2 1968-10 4.565 pdf=33
+TB6812/p. 19, Table 2 1968-11 4.595 pdf=31
+TB6901/p. 18, Table 2 1968-12 4.632 pdf=30
+"""
+
 # Exchange rates: the Federal Reserve Bulletin's table "Foreign exchange rates" ("Averages of certified noon buying
 # rates in New York for cable transfers", in cents a unit of the currency), each month as the issue of the month after
 # first printed it (the Aug. 1961, Sept. 1963 and Dec. 1965 issues added two months: their first months are the issues
@@ -879,6 +1135,10 @@ def parse(block, fields=None):
         note = None
         if ' note=' in line:
             line, note = line.split(' note=', 1)
+        pdf = None
+        m = re.search(r' pdf=(\d+)$', line)
+        if m:
+            line, pdf = line[:m.start()], m.group(1)
         m = re.match(r'^(\w+)/(.*?) (\d{4}(?:-\d{2}|Q\d)?) (\S+)(?: prior=(\S+))?$', line)
         if not m:
             raise SystemExit('bad line: ' + line)
@@ -891,7 +1151,8 @@ def parse(block, fields=None):
             return dict(zip(fields, nums)) if fields else nums[0]
         if p in out:
             continue
-        out[p] = {'v': val(v), 'src': key, 'where': where, 'prior': val(prior) if prior else None, 'note': note}
+        out[p] = {'v': val(v), 'src': key, 'where': where, 'prior': val(prior) if prior else None, 'note': note,
+                  'pdf': pdf}
     return out
 
 
@@ -908,6 +1169,8 @@ def first_rows(read, unit, change=None, total=None):
     rows = {}
     for p, x in sorted(read.items()):
         date, cite, url = SRC[x['src']]
+        if url and x.get('pdf'):
+            url = f"{url}#page={x['pdf']}"
         row = {'first': x['v'], 'released': date, 'source': f'{cite}, {x["where"]}' + (f'; {url}' if url else ''),
                'unit': unit}
         before = x['prior']
@@ -1004,14 +1267,25 @@ def rates():
             rows.append(row)
         write(sid, {'id': sid, 'name': name, 'freq': 'M', 'kind': 'rate', 'change': 'pts', 'then': None,
                     'now': {'label': label, 'unit': 'percent', 'source': f'FRED {fid}', 'url': FRED + fid}}, rows)
-    if want('mortgage-fha'):
-        fr = first_rows(parse(FHA), 'percent', 'pts')
+    for sid, block, name, label in (
+            ('mortgage-fha', FHA, 'FHA new-home mortgage yield',
+             'Federal Housing Administration: yield on FHA-insured new-home mortgages, secondary market'),
+            ('mortgage-conventional', CONV, 'Conventional mortgage rate, new homes (FHLBB, contract)',
+             'Federal Home Loan Bank Board: contract interest rate on conventional first mortgages, new homes'),
+            ('mortgage-conventional-eff', EFF, 'Conventional mortgage rate, new homes (FHLBB, effective)',
+             'Federal Home Loan Bank Board: effective rate on conventional first mortgages, new homes')):
+        if not want(sid):
+            continue
+        fr = first_rows(parse(block), 'percent', 'pts')
+        for p, r in fr.items():         # the change from the month before as first printed: not across the new
+            b = fr.get(prev(p))          # FHLBB series (Feb. 1967) or a misprint
+            if 'chg' in r or b is None or (sid, p) == ('mortgage-conventional', '1967-02') \
+                    or 'corrected' in (r.get('note') or '') + (b.get('note') or ''):
+                continue
+            r['chg'] = round(r['first'] - b['first'], 2)
         rows = [dict(p=p, **fr[p]) for p in MONTHS if p in fr]
-        write('mortgage-fha', {'id': 'mortgage-fha', 'name': 'FHA new-home mortgage yield', 'freq': 'M', 'manual': True,
-                               'kind': 'rate', 'change': 'pts',
-                               'then': {'label': 'Federal Housing Administration: secondary market yields on FHA-insured new-home mortgages, first of the month',
-                                        'unit': 'percent'},
-                               'now': None}, rows)
+        write(sid, {'id': sid, 'name': name, 'freq': 'M', 'manual': True, 'kind': 'rate', 'change': 'pts',
+                    'then': {'label': label, 'unit': 'percent'}, 'now': None}, rows)
 
 
 def monthly(sid, meta, first, now=None, change='pct', nd=1, span=None):
@@ -1171,6 +1445,17 @@ def debt():
                                  'change': 'none', 'fields': ['fed', 'trust', 'private', 'total'],
                                  'then': {'label': 'Treasury: the public debt and guaranteed issues (from the Jan. 1969 Report the public debt alone) by holder, end of month, par values', 'unit': 'billions of dollars'},
                                  'now': None}, [dict(p=p, **first[p]) for p in MSPAN if p in first])
+    if want('debt-interest-rate'):
+        first = first_rows(parse(TBRATE), 'percent', None)
+        read = parse(TBRATE)
+        for p, r in first.items():
+            b = read[p]['prior'] if read[p]['prior'] is not None else (first.get(prev(p)) or {}).get('first')
+            if b is not None:
+                r['chg'] = round(r['first'] - b, 3)
+        write('debt-interest-rate', {'id': 'debt-interest-rate', 'name': 'Average interest rate on the public debt', 'freq': 'M',
+                                     'manual': True, 'change': 'pts',
+                                     'then': {'label': 'Treasury: computed annual interest rate on the interest-bearing public debt, end of month', 'unit': 'percent'},
+                                     'now': None}, [dict(p=p, **first[p]) for p in MONTHS if p in first])
     if want('debt-maturity'):
         first = first_rows(parse(MATURITY), 'months', 'diff')
         write('debt-maturity', {'id': 'debt-maturity', 'name': 'Average length of the marketable debt', 'freq': 'M', 'manual': True,

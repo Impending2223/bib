@@ -37,7 +37,7 @@ STYLE (settled; keep it, and the indicators' STYLE in tools/bib/indicators.py):
 from . import concepts
 
 MONEY = ("money-m1", "money-m1-time", "money-m2", "free-reserves")
-RATES = ("corporate-aaa", "corporate-baa", "mortgage-fha", "mortgage-conventional")
+RATES = ("corporate-aaa", "corporate-baa", "mortgage-fha", "mortgage-conventional", "mortgage-conventional-eff")
 INTL = ("reserve-assets", "liquid-liabilities", "goods-services")
 FX = ("fx-sterling", "fx-mark", "fx-franc", "gold-london")
 DEBT = ("debt-interest-rate", "debt-maturity", "debt-ownership")
