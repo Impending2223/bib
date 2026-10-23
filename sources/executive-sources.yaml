@@ -269,6 +269,14 @@
     '1972': 'https://books.google.com/books?id=qEY76289tQkC&pg=PA{3}'
   n: 'Every position outside the competitive service and the policy posts within it, by department: location, title, incumbent, type of appointment, grade or salary, tenure. The scans and their text are in sources/plum/.'
 
+- match: 'SS Bulletin, ([A-Z][a-z]+\. \d{4})(, p\. \d+)?'
+  short: 'SS Bulletin, {1}{2}'
+  cite: 'Social Security Administration, *Social Security Bulletin*, monthly (Government Printing Office; archive.org, the Serials in Microfilm copies, 1938–61): the masthead names the Commissioner; "Social Security in Review" his coming and going'
+  urls:
+    'Jan. 1959': 'https://archive.org/details/sim_social-security-bulletin_1959-01_22_1/page/n1/mode/1up'
+    'Feb. 1959': 'https://archive.org/details/sim_social-security-bulletin_1959-02_22_2/page/n2/mode/1up'
+  n: 'Each issue on archive.org as sim_social-security-bulletin_<YYYY-MM>_<volume>_<number>, to Dec. 1961 (read Oct. 23, 2026); ssa.gov refuses this environment.'
+
 - match: 'DOS Bulletin, (.+)'
   short: 'DSB, {1}'
   cite: 'Department of State, *Department of State Bulletin*, weekly (Government Printing Office; archive.org, the Serials in Microfilm copies): the President''s appointments and the Department''s nominations, confirmations, and recess appointments'
