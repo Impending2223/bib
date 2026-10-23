@@ -23,7 +23,8 @@ STYLE (keep it):
     classified then (the Air Force's *Statistical Digest*) says so in its note.
  3. Rows the year has, in the file's order; a heading row (`group`) only where a row under it shows; a total (`sum`)
     in bold, its parts indented above it. The source's dash is "–"; "(Z)" its "less than 500"; a fraction or a pair
-    as printed ("26½", "4/3").
+    as printed ("26½", "4/3"); a decimal as printed (the British *Annual Abstract*'s thousands to one place, "93.4"),
+    the table's `tol` then a fraction (0.05) so the sums' rounding passes and a printed total off by a tenth is noted.
  4. Figures right-aligned, tabular, with commas; the unit in the date line ("in thousands"). A figure the source prints
     though its parts do not make it, or with a footnote of its own, is underlined dotted with the note on hover, and
     the notes follow the table in a line ("Notes: ..."), so a phone shows them too. A row the source labels otherwise
@@ -298,7 +299,7 @@ def problems(series=None):
                             out.append((where, f"{at}: {rk}, no such row"))
                         elif rows[rk].get("group"):
                             out.append((where, f"{at}: {rk} is a heading, not a figure"))
-                        elif not (v is None or isinstance(v, (int, str)) and not isinstance(v, bool)):
+                        elif not (v is None or isinstance(v, (int, float, str)) and not isinstance(v, bool)):
                             out.append((where, f"{at} {rk}: {v!r} is not a figure"))
                     for r in rows.values():
                         parts = [p for p in r.get("sum") or [] if p in c]

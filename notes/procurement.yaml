@@ -1,0 +1,627 @@
+# The procurement map: public-domain materials this environment cannot reach, for the owner to fetch in a browser
+# and save to the Google Drive folder "1968 series: sources for Claude" under each record's save_as name. The guide
+# is notes/procurement.md; this file holds the same items as records. Written Oct. 23, 2026, from notes/leads.md,
+# sources/states.yaml (copies bot-checked, blocked or dead), notes/calendar-audit.md (./bib audit-cal: 691 dated
+# entries with no primary record), the hathifile of Oct. 1, 2026 (rights and access profiles) and HathiTrust's Bib
+# API, archive.org's and govinfo's searches. Items found open elsewhere are not here (procurement.md, "Found open").
+# Already procured, so left off: OSD vol. V; Nixon, Six Crises; Dittmer, Local People; Schlesinger, Robert Kennedy and
+# His Times; Frankum, Like Rolling Thunder; Miller, Misalliance; Victory in Vietnam.
+#
+# Fields: id; tier (1 fetch first: dense, settles many entries; 2; 3); family; title (the full citation); url (the
+# page to open); steps (what to click); save_as (the file name in the Drive folder); size; public_domain (why);
+# settles (lead headings in notes/leads.md, entry ids, counts); check (anything unverified).
+# Counts of "entries carrying a Check" are entries in the election and State threads (governors, specials,
+# legislatures, State constitutions and finance, mayors, the elections-19xx threads) tagged with the State and
+# carrying any "Check": a place to look, not a promise that the volume settles each.
+# HathiTrust: every volume here is full view (pd or pdus) by the hathifile and the Bib API; nearly all were digitized
+# by Google (access profile "google"), and for those the whole-volume PDF may ask for a HathiTrust partner login
+# (Check); page-at-a-time download needs none. Its pages are bot-checked from this environment only.
+items:
+- id: diary-lbj
+  tier: 1
+  family: 'LBJ Library: the President''s Daily Diary'
+  title: The President's Daily Diary (Lyndon B. Johnson), Nov. 22, 1963–Jan. 20, 1969, a PDF a day (LBJ Library, discoverlbj.org)
+  url: https://www.discoverlbj.org/item/pdd-19650210
+  steps: 'On your own computer: python3 tools/daybook/fetch_daily_diary.py --contact YOU@EXAMPLE --probe, then --limit 100
+    (busiest first; rerun to resume). Zip ./lbj-diary/ and save it. By hand: open www.discoverlbj.org/item/pdd-YYYYMMDD,
+    click the PDF, save it.'
+  save_as: 'lbj-diary-batch-01.zip (by hand: pdd-YYYYMMDD.pdf)'
+  size: about 805 days; a day 2-15 pages
+  public_domain: 'Kept by the White House staff in the course of their duties: a federal record and a work of the U.S. Government
+    (17 U.S.C. § 105). The site''s robots.txt allows general readers (ai-train=no, use=reference); fetched by the owner,
+    cited by the Library''s address.'
+  settles: '1,156 calendar entries tagged name:johnson-lyndon-b on 838 days, 805 of them not among the Catalog''s 50 (daybook/diary.yaml);
+    leads: Primary records, Cal. II (King, Dec. 18, 1964; Feb. 9, 1965); the Diary lead; the Johnson–Ramsey Clark tape (Jan.
+    20 or 21, 1967); cal.1966-11-16.succession'
+  check: 'Busiest months (entries / days to fetch): Apr. 1968 32/15, July 1968 32/21, Oct. 1968 32/17, Feb. 1968 31/21,
+    Jan. 1968 28/19, Mar. 1968 28/16, Feb. 1965 27/14, Aug. 1965 27/15, Nov. 1967 27/16, Nov. 1966 26/16, Aug. 1967 25/16,
+    June 1968 25/17. Days by year: 1963 12, 1964 148, 1965 142, 1966 146, 1967 164, 1968 186, 1969 7. If --probe finds no
+    PDF link, send its output back.'
+- id: hathi-dsb-v59
+  tier: 1
+  family: HathiTrust
+  title: '*Department of State Bulletin*, vol. 59, nos. 1514–1540 (July 1–Dec. 30, 1968)'
+  url: https://babel.hathitrust.org/cgi/pt?id=coo.31924070261031
+  steps: 'Open the page; left panel "Download" → "Whole item" → PDF. If it asks for a partner login (a Google-digitized
+    volume), download the pages named in `check` one at a time ("This page"), or use a member institution''s login. Other
+    copies: msu.31293008121893 (July–Sept.), msu.31293008121901 (Oct.–Dec.), mdp.39015077199605.'
+  save_as: hathi-dsb-v59.pdf (or hathi-dsb-v59-jul-sep.pdf, hathi-dsb-v59-oct-dec.pdf)
+  size: est. 900 pages
+  public_domain: 'A work of the U.S. Government (17 U.S.C. § 105). HathiTrust: pd.'
+  settles: 'lead "Department of State Bulletin, vol. 59" (the daybook''s Bulletin list stops June 24, 1968: 27 issues to
+    add); 52 FRUS citations to the volume unlinked (lead, The Bulletin and Current Documents); primary records for cal.1968-08-24.testing,
+    cal.1968-08-26.soviet-union-czechoslovakia, cal.1968-10-18.soviet-union-czechoslovakia, cal.1968-11-12.soviet-union
+    (Check whether each is printed)'
+  check: 'Google-digitized (access profile google): whole-volume PDF may need a partner login. Rights pd (Bib API, Oct.
+    23, 2026).'
+- id: hathi-ms-register-1964-68
+  tier: 1
+  family: HathiTrust (State)
+  title: '*Mississippi Official and Statistical Register, 1964–1968*'
+  url: https://babel.hathitrust.org/cgi/pt?id=uc1.b3763466
+  steps: Open the page; left panel "Download" → "Whole item" → PDF. If it asks for a partner login (a Google-digitized volume),
+    download the pages named in `check` one at a time ("This page"), or use a member institution's login. Also uiug.30112118316998
+    (1964/68); the 1960–64 volume uc1.b3763465.
+  save_as: hathi-ms-register-1964-68.pdf
+  size: not known
+  public_domain: 'A State publication, not a federal work: § 105 does not reach it. HathiTrust''s rights review marks it
+    pdus (public domain in the United States). For reading and citation here; not to be republished.'
+  settles: '21 Mississippi entries in the election and State threads carrying a Check (governors, primaries, specials, legislature);
+    cal.1967-08-29.mississippi-ms (the runoff, no primary record); with 1960–64: cal.1962-06-05.mississippi-ms'
+  check: That the Register prints the 1967 primaries and runoff (it printed the general elections; primaries Check).
+- id: hathi-oh-election-statistics
+  tier: 1
+  family: HathiTrust (State)
+  title: '*Ohio Election Statistics*, 1959/60–1967/68 (bound together; Secretary of State)'
+  url: https://babel.hathitrust.org/cgi/pt?id=uiug.30112074273266
+  steps: 'Open the page; left panel "Download" → "Whole item" → PDF. If it asks for a partner login (a Google-digitized
+    volume), download the pages named in `check` one at a time ("This page"), or use a member institution''s login. Single
+    years: osu.32435028463180 (1961–62), osu.32435028463172 (1965–70).'
+  save_as: hathi-oh-election-statistics-1960-68.pdf
+  size: not known
+  public_domain: 'A State publication, not a federal work: § 105 does not reach it. HathiTrust''s rights review marks it
+    pdus (public domain in the United States). For reading and citation here; not to be republished.'
+  settles: 18 Ohio entries carrying a Check (governors, primaries, specials, legislature, mayors where printed)
+  check: 'The binding notes "BD W/O 1961, 1962, 1963 ..." (some years bound without): look at the contents first.'
+- id: hathi-in-election-report-1962-70
+  tier: 1
+  family: HathiTrust (State)
+  title: '*General Election Report of the Secretary of State of the State of Indiana*, 1962–1970'
+  url: https://babel.hathitrust.org/cgi/pt?id=inu.30000036818445
+  steps: 'Open the page; left panel "Download" → "Whole item" → PDF. If it asks for a partner login (a Google-digitized
+    volume), download the pages named in `check` one at a time ("This page"), or use a member institution''s login. Single
+    years: uiug.30112075953684 (1962), -718 (1964), -692 (1966), -700 (1968); 1950–60: inu.30000036818460.'
+  save_as: hathi-in-election-report-1962-70.pdf
+  size: not known
+  public_domain: 'A State publication, not a federal work: § 105 does not reach it. HathiTrust''s rights review marks it
+    pdus (public domain in the United States). For reading and citation here; not to be republished.'
+  settles: 16 Indiana entries carrying a Check; the conventions (cal.1964-06-09.governors-in, cal.1964-06-12.governors-in,
+    cal.1968-06-18.governors-in, cal.1968-06-21.governors-in) only if the report prints the State conventions (Check)
+  check: 'Indiana nominated its State officers by convention: the convention votes may not be in it.'
+- id: hathi-wa-abstract-1960-68
+  tier: 1
+  family: HathiTrust (State)
+  title: Washington, *Abstract of Votes*, 1960–1968 (Secretary of State)
+  url: https://babel.hathitrust.org/cgi/pt?id=uc1.c047129914
+  steps: 'Open the page; left panel "Download" → "Whole item" → PDF. If it asks for a partner login (a Google-digitized
+    volume), download the pages named in `check` one at a time ("This page"), or use a member institution''s login. The
+    1966 volume alone: ien.35556023457153; 1968: ien.35556023457161; the 1968 primary: uiug.30112074266294.'
+  save_as: hathi-wa-abstract-1960-68.pdf
+  size: not known
+  public_domain: 'A State publication, not a federal work: § 105 does not reach it. HathiTrust''s rights review marks it
+    pdus (public domain in the United States). For reading and citation here; not to be republished.'
+  settles: 13 Washington entries carrying a Check; lead Washington, Referendum Bill 16, 1966 (congressional districts)
+  check: ''
+- id: hathi-fl-primaries-1962-72
+  tier: 1
+  family: HathiTrust (State)
+  title: '*Tabulation of Official Votes, Florida Primary Elections*, 1962–1972 (bound; Secretary of State)'
+  url: https://babel.hathitrust.org/cgi/pt?id=uc1.c109427849
+  steps: 'Open the page; left panel "Download" → "Whole item" → PDF. If it asks for a partner login (a Google-digitized
+    volume), download the pages named in `check` one at a time ("This page"), or use a member institution''s login. 1948–60:
+    uc1.c057961655.'
+  save_as: hathi-fl-primaries-1962-72.pdf
+  size: not known
+  public_domain: 'A State publication, not a federal work: § 105 does not reach it. HathiTrust''s rights review marks it
+    pdus (public domain in the United States). For reading and citation here; not to be republished.'
+  settles: 11 Florida entries carrying a Check (primaries for governor and Senate, 1962–68)
+  check: ''
+- id: hathi-nomination-election-1968
+  tier: 1
+  family: HathiTrust
+  title: Senate Library, *Nomination and Election of the President and Vice President of the United States, Including the
+    Manner of Selecting Delegates to National Political Conventions* (1968)
+  url: https://babel.hathitrust.org/cgi/pt?id=uiug.30112071980046
+  steps: 'Open the page; left panel "Download" → "Whole item" → PDF. If it asks for a partner login (a Google-digitized
+    volume), download the pages named in `check` one at a time ("This page"), or use a member institution''s login. Also
+    the 1960 and 1964 editions: mdp.39015033711667 (1960), mdp.39015024016373 (1964).'
+  save_as: hathi-nomination-election-1968.pdf
+  size: est. 300 pages
+  public_domain: 'A work of the U.S. Government (17 U.S.C. § 105). HathiTrust: pd.'
+  settles: 'lead National, the conventions: how and when each Republican delegation of 1968 was chosen (some 12 open questions:
+    binding primaries, Alabama, New York''s ten at large, Michigan''s and Texas''s district delegates); with 1960 and 1964:
+    the State conventions leads (1960 none entered; 1964 some 25 not entered)'
+  check: ''
+- id: hathi-rights-in-conflict
+  tier: 1
+  family: HathiTrust
+  title: 'Daniel Walker, *Rights in Conflict: The Violent Confrontation of Demonstrators and Police in the Parks and Streets
+    of Chicago during the Week of the Democratic National Convention of 1968* (1968)'
+  url: https://babel.hathitrust.org/cgi/pt?id=mdp.39015010951054
+  steps: Open the page; left panel "Download" → "Whole item" → PDF. If it asks for a partner login (a Google-digitized volume),
+    download the pages named in `check` one at a time ("This page"), or use a member institution's login.
+  save_as: hathi-rights-in-conflict.pdf
+  size: est. 360 pages
+  public_domain: Made for the National Commission on the Causes and Prevention of Violence; HathiTrust marks this copy pdus
+    (public domain in the U.S.).
+  settles: 'cal.1968-12-01.civil-disorders; the Chicago streets entries with no primary record: cal.1968-08-22.elections-1968,
+    cal.1968-08-25.elections-1968-chicago, cal.1968-08-28.elections-1968-chicago and cal.1968-08-27.elections-1968-chicago'
+  check: 'Which edition the scan is (Bantam, Dutton, or the Commission''s): the title page.'
+- id: hathi-sfrc-exec-1963-66
+  tier: 1
+  family: HathiTrust
+  title: '*Executive Sessions of the Senate Foreign Relations Committee (Historical Series)*, vols. XV (1963), XVI–XVII
+    (1964–65), XVIII (1966)'
+  url: https://babel.hathitrust.org/cgi/pt?id=coo.31924112604370
+  steps: 'Open the page; left panel "Download" → "Whole item" → PDF. If it asks for a partner login (a Google-digitized
+    volume), download the pages named in `check` one at a time ("This page"), or use a member institution''s login. Three
+    volumes: coo.31924112604370 (XV), coo.31924112604388 (XVI–XVII), coo.31924112604396 (XVIII); also uc1.c006969892 (XVI),
+    uc1.c081736147 (XVII), uc1.c116301539 (XVIII).'
+  save_as: hathi-sfrc-exec-v15.pdf, hathi-sfrc-exec-v16-17.pdf, hathi-sfrc-exec-v18.pdf
+  size: est. 1,000 pages a volume
+  public_domain: 'A work of the U.S. Government (17 U.S.C. § 105). HathiTrust: pd.'
+  settles: 'lead Foreign, Gibbons: the committee''s sessions with McNamara and Taylor, Rusk, McCone (Oct. 8–10, 1963), Taylor
+    (Sept. 10 and Dec. 3, 1964), Rusk (Jan. 8 and 15, Apr. 30, 1965), Lodge (July 27, 1965), and the Feb. 1966 hearings:
+    about 15 events not entered for want of a record'
+  check: Vols. XIX (1967) and XX (1968) are open on govinfo (Found open).
+- id: hathi-mi-manuals-1961-68
+  tier: 1
+  family: HathiTrust (State)
+  title: '*Michigan Manual*, 1961–62, 1963–64, 1965–66, 1967–68 (Legislative Service Bureau)'
+  url: https://babel.hathitrust.org/cgi/pt?id=mdp.39015071179231
+  steps: 'Open the page; left panel "Download" → "Whole item" → PDF. If it asks for a partner login (a Google-digitized
+    volume), download the pages named in `check` one at a time ("This page"), or use a member institution''s login. Four
+    volumes: mdp.39015071179231, -249, -256, -264 (also uc1.b4049854, -855 for 1961–64).'
+  save_as: hathi-mi-manual-1961-62.pdf ... hathi-mi-manual-1967-68.pdf
+  size: est. 900 pages a volume
+  public_domain: 'A State publication, not a federal work: § 105 does not reach it. HathiTrust''s rights review marks it
+    pdus (public domain in the United States). For reading and citation here; not to be republished.'
+  settles: '28 Michigan entries carrying a Check; Michigan entries with no primary record: cal.1961-04-03.states-and-cities,
+    cal.1963-09-11.state-and-city-finance-mi, the open occupancy acts and votes of Oct.–Dec. 1967 and June 11, 1968 (4),
+    cal.1964-11-03.legislatures-mi'
+  check: 'The Manuals print returns and the legislature, not session laws: the open housing act itself is in the Public
+    Acts.'
+- id: hathi-md-returns-1966-68
+  tier: 1
+  family: HathiTrust (State)
+  title: '*Maryland Election Returns*, Sept. 1966 (primary), Nov. 1966, Nov. 1968 (State Administrative Board of Election
+    Laws)'
+  url: https://babel.hathitrust.org/cgi/pt?id=uc1.c109423348
+  steps: 'Open the page; left panel "Download" → "Whole item" → PDF. If it asks for a partner login (a Google-digitized
+    volume), download the pages named in `check` one at a time ("This page"), or use a member institution''s login. Three
+    volumes: uc1.c109423348 (Sept. 1966), uc1.c109423490 (Nov. 1966), uc1.c109423065 (Nov. 1968).'
+  save_as: hathi-md-returns-1966-09.pdf, hathi-md-returns-1966-11.pdf, hathi-md-returns-1968-11.pdf
+  size: not known
+  public_domain: 'A State publication, not a federal work: § 105 does not reach it. HathiTrust''s rights review marks it
+    pdus (public domain in the United States). For reading and citation here; not to be republished.'
+  settles: 13 Maryland entries carrying a Check (1966 governor and primaries; 1968)
+  check: ''
+- id: ttu-macv-command-histories
+  tier: 1
+  family: Texas Tech Vietnam Center and Archive
+  title: U.S. Military Assistance Command, Vietnam, *Command History*, 1964, 1965, 1966, 1967, 1968 (MACV Military History
+    Branch; declassified)
+  url: https://vva.vietnam.ttu.edu/
+  steps: 'Search the Virtual Vietnam Archive for "Command History" with "Military Assistance Command" and each year; open
+    each volume''s item and its PDF (a captcha first). The old item form: www.vietnam.ttu.edu/virtualarchive/items.php?item=<number>.'
+  save_as: 'ttu-macv-command-history-1965-v1.pdf (a volume a file: -1964, -1965-v1, -1965-v2, ... -1968-v2)'
+  size: '1965–68: two or three volumes a year, 400–1,200 pages each'
+  public_domain: A work of the U.S. Government (17 U.S.C. § 105).
+  settles: 'about 30 of the 43 Vietnam field entries with no primary record (Plei Me, Ia Drang, Crimp, Attleboro, Cedar
+    Falls, Junction City, Ông Thành, Lộc Ninh, Đắk Tô, Quyết Thắng, Toàn Thắng, Delaware, Khâm Đức, the third offensive,
+    the order of battle of Oct. 31 and Nov. 24, 1967, the DMZ authorization of July 30, 1966, Masher renamed); leads: MACV''s
+    month-end strength (war table "today" column), the order of battle by month before Oct. 1967 and July–Dec. 1968, Starlite''s
+    end, Pleiku''s count'
+  check: Item numbers not seen (the archive refuses this environment; a captcha). Some volumes may be partly withheld. The
+    Marines' command chronologies are open on NARA (Found open).
+- id: jfk-nsf-folders
+  tier: 1
+  family: 'JFK Library: National Security Files'
+  title: 'John F. Kennedy Library, National Security Files, Countries and Subjects series, 1961–63: the folders below'
+  url: https://www.jfklibrary.org/asset-viewer/archives/JFKNSF/195/JFKNSF-195-017
+  steps: 'Open each folder''s address (JFKNSF-BBB-FFF); "Download" (top right of the viewer, Check) → PDF of the folder.
+    Folders: 195-017 Vietnam, General, 12/19/61–12/23/61; 195-022 Vietnam, General, 1/6/62–1/12/62; 082-027 Germany, Berlin,
+    General, 9/15/61–9/18/61 and the next folder; 127-009 Korea, General, 3/62–7/62; 129-014 Kuwait, General; 167-001 Turkey,
+    General; 211-007 CENTO, General, 1961–63; 157-001 Saudi Arabia, General, 11/62–12/62; 066-005 Dominican Republic, General,
+    4/62–12/62; 117-012 Iraq, General; 308-003 Space Activities, US/USSR Cooperation.'
+  save_as: jfk-JFKNSF-195-017.pdf (the folder's address as the name)
+  size: a folder 20–300 pages
+  public_domain: A work of the U.S. Government (17 U.S.C. § 105). (the memoranda and cables of federal officials; a foreign
+    government's or a private writer's letter in a folder is not).
+  settles: 'cal.1961-12-22.vietnam, cal.1962-01-12.vietnam, cal.1961-09-19.berlin-and-vienna, cal.1962-03-22.japan-and-korea,
+    cal.1961-11-30.middle-east, cal.1961-04-27.europe-and-the-alliance-jupiters, cal.1962-11-06.middle-east-yemen, cal.1962-12-20.latin-america,
+    cal.1963-04-09.middle-east, cal.1962-03-27.soviet-union-space; the Turkey folder for İnönü (Nov. 20, 1961); leads: Cal.
+    I audit (Foreign), the Bay of Pigs lead-up'
+  check: 'The folder numbers are counted from the Library''s 1995 preliminary register (box and order); the digitized folders
+    may be split or numbered otherwise: if an address opens another folder, search the folder title in the Library''s catalogue.
+    jfklibrary.org refuses this environment (Cloudflare); the Wayback Machine''s CDX API is refused too, so no address was
+    seen.'
+- id: jfk-pof-and-transition
+  tier: 2
+  family: 'JFK Library: President''s Office Files, Pre-Presidential Papers'
+  title: 'John F. Kennedy Library, President''s Office Files (Departments and Agencies: Council of Economic Advisers, 1961;
+    Special Correspondence: Fulbright, Mansfield) and Pre-Presidential Papers, Transition Files (press releases; task force
+    reports), 1960–61'
+  url: https://www.jfklibrary.org/asset-viewer/archives/JFKPOF
+  steps: 'Browse the POF series in the asset viewer: Departments and Agencies → Council of Economic Advisers (Jan.–Mar.
+    1961); Special Correspondence → Fulbright, Mansfield (1961). Pre-Presidential Papers → Transition Files (press releases,
+    Nov.–Dec. 1960; the Samuelson task force report). Download each folder''s PDF.'
+  save_as: jfk-JFKPOF-BBB-FFF.pdf, jfk-JFKPP-BBB-FFF.pdf
+  size: not known
+  public_domain: 'A work of the U.S. Government (17 U.S.C. § 105). for the Administration''s own papers; the President-elect''s
+    transition papers (before Jan. 20, 1961) and a Senator''s letter are not federal works: Check each.'
+  settles: cal.1961-03-17.economy (Heller), cal.1961-03-30.cuba (Fulbright's memorandum), cal.1961-01-05.economy (Samuelson),
+    the ten transition entries of Nov. 9–Dec. 17, 1960 (cabinet named; the dates marked Check), cal.1960-12-16.robert-kennedy;
+    lead Foreign, Gibbons (Mansfield's memoranda of Jan. 21 and 23, 1961)
+  check: 'No folder address seen (POF finding aid not reached: jfklibrary.org refuses this environment). The transition
+    press releases may be in the Pierre Salinger papers instead.'
+- id: jfk-oh-rfk
+  tier: 2
+  family: 'JFK Library: oral histories'
+  title: Robert F. Kennedy, oral history interviews by John Bartlow Martin, 1964 (JFKOH-RFK-02, -03, -04), John F. Kennedy
+    Library Oral History Program
+  url: https://www.jfklibrary.org/asset-viewer/archives/JFKOH/Kennedy,%20Robert%20F/JFKOH-RFK-02/JFKOH-RFK-02
+  steps: Open each (change -02 to -03, -04); the transcript's first page gives the date; download the transcript PDF.
+  save_as: jfk-JFKOH-RFK-02.pdf, jfk-JFKOH-RFK-03.pdf, jfk-JFKOH-RFK-04.pdf
+  size: est. 100 pages each
+  public_domain: 'Check: an oral history''s copyright lies with the speaker or the Library by its deed of gift; not a federal
+    work by itself. Read for the dates; cite the Library.'
+  settles: cal.1964-04-13.robert-kennedy, cal.1964-04-30.robert-kennedy, cal.1964-05-14.robert-kennedy; lead Primary records,
+    Cal. II (which session on which day)
+  check: The address's name part ("Kennedy, Robert F") follows the form of other JFKOH addresses cited on Wikipedia; not
+    seen for these.
+- id: jfk-marshall-rfk-papers
+  tier: 2
+  family: 'JFK Library: personal papers'
+  title: 'Burke Marshall Personal Papers (BMPP) and Robert F. Kennedy Attorney General''s Papers: the folders for the University
+    of Georgia (Jan. 1961), the Freedom Rides (May 1961), Meredith (Sept. 1962), Birmingham and Cambridge, Md. (1963)'
+  url: https://www.jfklibrary.org/asset-viewer/archives/BMPP
+  steps: Browse the digitized folders by subject and month; download the PDFs.
+  save_as: jfk-BMPP-BBB-FFF.pdf
+  size: not known
+  public_domain: 'Check: Marshall''s papers are donated papers (the donor''s copyright); the Department''s own memoranda
+    in them are federal works.'
+  settles: cal.1961-01-09.desegregation-schools-uga, cal.1961-01-11.desegregation-schools-uga, cal.1961-01-13.desegregation-schools-uga,
+    cal.1961-05-24.freedom-rides, cal.1962-09-10.mississippi, cal.1962-09-13.mississippi-ole-miss, cal.1963-05-24.civil-rights-the-executive,
+    cal.1963-07-23.civil-rights-the-executive
+  check: 'How much of either collection is digitized: not seen. BMPP is cited on Wikipedia as an asset-viewer collection.'
+- id: hathi-secdef-annual-1961-68
+  tier: 2
+  family: HathiTrust
+  title: Department of Defense, *Annual Report for Fiscal Year ... Including the Reports of the Secretary of Defense, Secretary
+    of the Army, Secretary of the Navy, Secretary of the Air Force*, fiscal 1961–68
+  url: https://babel.hathitrust.org/cgi/pt?id=uiug.30112132450088
+  steps: 'Open the page; left panel "Download" → "Whole item" → PDF. If it asks for a partner login (a Google-digitized
+    volume), download the pages named in `check` one at a time ("This page"), or use a member institution''s login. Three
+    bound volumes: uiug.30112132450088 (1960/61–1962/63), uiug.30112132450062 (1963/64–1965/66), osu.32435062847116 (1966–68).'
+  save_as: hathi-secdef-annual-1961-63.pdf, hathi-secdef-annual-1964-66.pdf, hathi-secdef-annual-1966-68.pdf
+  size: est. 400 pages a year
+  public_domain: 'A work of the U.S. Government (17 U.S.C. § 105). HathiTrust: pd.'
+  settles: 'leads Foreign, Armed forces a year: divisions by type and armor, missiles on alert, Polaris boats at sea, bombers
+    by type as published then (4 leads); forces/us.yaml''s "Printed then" columns'
+  check: history.defense.gov holds them too (refused here, AkamaiGHost).
+- id: hathi-posture-statements
+  tier: 2
+  family: HathiTrust
+  title: 'McNamara''s posture statements, fiscal 1963–69: House Armed Services, *Hearings on Military Posture* (1962, 1963,
+    1965, 1966, 1968) and the separate statements of 1967 and 1968'
+  url: https://babel.hathitrust.org/cgi/pt?id=uiug.30112119799432
+  steps: 'Open the page; left panel "Download" → "Whole item" → PDF. If it asks for a partner login (a Google-digitized
+    volume), download the pages named in `check` one at a time ("This page"), or use a member institution''s login. Volumes:
+    uiug.30112119799432 (1962, FY63), uiug.30112078737472 (1963, FY64), uc1.$b655549 (1965, FY66), uc1.$b655548 (1966, FY67),
+    uc1.$b654944 (1968, FY69); statements: mdp.39015078412163 (FY68), pst.000058952832 (FY69).'
+  save_as: hathi-posture-fy63.pdf ... hathi-posture-fy69.pdf
+  size: the statements about 200 pages; the hearings longer
+  public_domain: 'A work of the U.S. Government (17 U.S.C. § 105). HathiTrust: pd or pdus.'
+  settles: same forces leads as the Annual Reports (the strategic and general purpose forces, divisions by type); the Gilpatric-era
+    figures for cal.1961-10-21.defense (Check)
+  check: 'Fiscal 1965 (Jan. 1964) not found in the hathifile by title: search HathiTrust for "military posture" 1964.'
+- id: hathi-ssb-1962-69
+  tier: 2
+  family: HathiTrust
+  title: '*Social Security Bulletin*, vols. 25–32 (1962–1969) (Social Security Administration)'
+  url: https://babel.hathitrust.org/cgi/pt?id=osu.32437010855464
+  steps: 'Open the page; left panel "Download" → "Whole item" → PDF. If it asks for a partner login (a Google-digitized
+    volume), download the pages named in `check` one at a time ("This page"), or use a member institution''s login. Volumes:
+    osu.32437010855464 (1962), -563 (1963), -662 (1964), -761 (1965), -860 (1966), -969 (1967), -456 (1968), -506 (1969);
+    or uc1.32106017004851 ... -4901.'
+  save_as: hathi-ssb-1962.pdf ... hathi-ssb-1969.pdf
+  size: est. 1,000 pages a year
+  public_domain: 'A work of the U.S. Government (17 U.S.C. § 105). HathiTrust: pd.'
+  settles: lead National, the States' Medicaid laws, 1966–67 (dates); cal.1966-12.health-us (Medicaid at the year's end);
+    the welfare entries of 1962–68 (Check)
+  check: 'ssa.gov may serve the Bulletin''s back issues (refused here, 403): Check there first.'
+- id: hathi-current-documents-1956-67
+  tier: 2
+  family: HathiTrust
+  title: 'Department of State, *American Foreign Policy: Current Documents*, 1956–1967 (a volume a year)'
+  url: https://babel.hathitrust.org/cgi/pt?id=mdp.39015022760006
+  steps: 'Open the page; left panel "Download" → "Whole item" → PDF. If it asks for a partner login (a Google-digitized
+    volume), download the pages named in `check` one at a time ("This page"), or use a member institution''s login. Volumes:
+    mdp.39015024844824 (1956), -22759727 (1957), -14221124 (1959), -14221132 (1960), -10323460 (1961), -13346716 (1962),
+    -22759867 (1963), -22759875 (1964), -22760006 (1965), -22760014 (1966), -12895465 (1967). The pages wanted first: 1965,
+    868–869; 1966, 321–323; 1962, 757–760.'
+  save_as: hathi-current-documents-1965.pdf (a year a file)
+  size: est. 1,100 pages a volume
+  public_domain: 'A work of the U.S. Government (17 U.S.C. § 105). HathiTrust: pd.'
+  settles: 18 calendar citations to w.current-documents-* without a link or page check; lead The Bulletin and Current Documents
+    (the cards' years of publication; the MAYFLOWER message; Johnson's reply to de Gaulle, Mar. 22, 1966); lead The Johnson
+    Plan (the PCC report, 1962, 757–760)
+  check: '1958 not in the hathifile list read: search.'
+- id: hathi-gibbons-pt1
+  tier: 2
+  family: HathiTrust
+  title: 'William Conrad Gibbons, *The U.S. Government and the Vietnam War: Executive and Legislative Roles and Relationships*,
+    pt. I, 1945–1960 (Senate Foreign Relations Committee print, 1984)'
+  url: https://babel.hathitrust.org/cgi/pt?id=mdp.39015014603313
+  steps: Open the page; left panel "Download" → "Whole item" → PDF. If it asks for a partner login (a Google-digitized volume),
+    download the pages named in `check` one at a time ("This page"), or use a member institution's login.
+  save_as: hathi-gibbons-pt1.pdf
+  size: est. 380 pages
+  public_domain: 'A work of the U.S. Government (17 U.S.C. § 105). HathiTrust: pd.'
+  settles: 'lead Foreign, Gibbons (Part I, "for 1960": the events of 1960 he treats, none cited yet)'
+  check: 'Part IV (1965–68) is in no open copy: Books worth lending.'
+- id: hathi-wmeat-1963-73
+  tier: 2
+  family: HathiTrust
+  title: Arms Control and Disarmament Agency, *World Military Expenditures and Arms Transfers, 1963–1973* (1975)
+  url: https://babel.hathitrust.org/cgi/pt?id=mdp.39015002236605
+  steps: Open the page; left panel "Download" → "Whole item" → PDF. If it asks for a partner login (a Google-digitized volume),
+    download the pages named in `check` one at a time ("This page"), or use a member institution's login. Also uva.x030348727,
+    nnc1.cu13666258.
+  save_as: hathi-wmeat-1963-73.pdf
+  size: est. 130 pages
+  public_domain: 'A work of the U.S. Government (17 U.S.C. § 105). HathiTrust: pd.'
+  settles: lead Foreign, the world table, later (ACDA 1963–1973 ed.)
+  check: ''
+- id: hathi-hearings-amendments
+  tier: 2
+  family: HathiTrust
+  title: 'Printed hearings named in the leads: *Four-Year Term for Representatives* (Senate Judiciary, 1966); *Prayers in
+    Public Schools and Other Matters* (Senate Judiciary, 1962); *School Prayer* (Senate, 1966); *School Prayers* (House
+    Judiciary, 1964, 3 pts.); *Presidential Inability and Vacancies in the Office of the Vice President* (Senate, 1964);
+    *Nominations of Abe Fortas and Homer Thornberry* (Senate Judiciary, 1968, 2 pts.)'
+  url: https://babel.hathitrust.org/cgi/pt?id=uc1.$b643912
+  steps: 'Open the page; left panel "Download" → "Whole item" → PDF. If it asks for a partner login (a Google-digitized
+    volume), download the pages named in `check` one at a time ("This page"), or use a member institution''s login. htids:
+    uc1.$b643912 (four-year term); pst.000012042708 (prayer 1962); pst.000031225922 (prayer 1966); uc1.c063958116, uc1.aa0008326050,
+    pst.000012042623 (House 1964, pts. 1–3); osu.32437000102737 (inability 1964); uc1.a0000445296, uc1.a0000445312 (Fortas
+    pts. 1–2).'
+  save_as: hathi-hrg-four-year-term-1966.pdf, hathi-hrg-prayer-1962.pdf, ... (hathi-hrg-<subject>-<year>.pdf)
+  size: not known
+  public_domain: 'A work of the U.S. Government (17 U.S.C. § 105). HathiTrust: pd.'
+  settles: 'lead National, Constitutional amendments (printed hearings without a copy: six of the eight named); lead National,
+    Left out of 1968 (the Fortas hearings'' printed volume)'
+  check: Kefauver's hearings of 1961 and Ervin's convention bill of 1967 not found in the hathifile by title.
+- id: hathi-hearings-field
+  tier: 2
+  family: HathiTrust
+  title: 'Field hearings named in the leads: Senate Migratory Labor Subcommittee (Delano, Mar. 16, 1966), and *Examination
+    of the War on Poverty* (Senate Subcommittee on Employment, Manpower and Poverty, 1967: the Jackson, Miss., part, Apr.
+    10, 1967)'
+  url: https://babel.hathitrust.org/cgi/pt?id=umn.31951d01732199t
+  steps: 'Open the page; left panel "Download" → "Whole item" → PDF. If it asks for a partner login (a Google-digitized
+    volume), download the pages named in `check` one at a time ("This page"), or use a member institution''s login. Migratory
+    labor: umn.31951d01732199t (Migratory Labor Legislation, pts. 1–4, 1967: Check whether the 1966 Delano hearing is in
+    it); War on Poverty: uiug.30112104082372 (v. 1) ... -2315 (v. 11): find the Jackson part by its title page.'
+  save_as: hathi-hrg-migratory-labor-1966.pdf, hathi-hrg-war-on-poverty-1967-jackson.pdf
+  size: not known
+  public_domain: 'A work of the U.S. Government (17 U.S.C. § 105). HathiTrust: pd.'
+  settles: cal.1966-03-16.jobs-and-wages-ca, cal.1967-04-10.poverty (lead Primary records, Cal. III)
+  check: 'The Delano hearing may be in "Amending Migratory Labor Laws" (1966) instead: search.'
+- id: hathi-selective-service-reports
+  tier: 2
+  family: HathiTrust
+  title: '*Annual Report of the Director of Selective Service*, fiscal 1966–67, and *Semiannual Report*, July–Dec. 1968'
+  url: https://babel.hathitrust.org/cgi/pt?id=uc1.b4236921
+  steps: Open the page; left panel "Download" → "Whole item" → PDF. If it asks for a partner login (a Google-digitized volume),
+    download the pages named in `check` one at a time ("This page"), or use a member institution's login. Also mdp.39015061596733
+    (1959/60–1966/67 bound), osu.32435021426648 (July–Dec. 1968).
+  save_as: hathi-sss-annual-1967.pdf, hathi-sss-semiannual-1968-2.pdf
+  size: est. 100 pages each
+  public_domain: 'A work of the U.S. Government (17 U.S.C. § 105). HathiTrust: pd.'
+  settles: cal.1967-12-09.draft, cal.1967-12-11.draft, cal.1968-02-16.draft (if the reports print the statements; Check),
+    cal.1966-05-14.students (the qualification test)
+  check: 'The report for fiscal 1968 (July 1967–June 1968) not found by title: search.'
+- id: hathi-nv-returns-1960-68
+  tier: 2
+  family: HathiTrust (State)
+  title: Nevada, *Official Returns of the General Election* (with the primary), 1960, 1962, 1964, 1966, 1968
+  url: https://babel.hathitrust.org/cgi/pt?id=mdp.39015067324411
+  steps: Open the page; left panel "Download" → "Whole item" → PDF. If it asks for a partner login (a Google-digitized volume),
+    download the pages named in `check` one at a time ("This page"), or use a member institution's login. mdp.39015067324411
+    (1960), -403 (1962), -395 (1964), -387 (1966), -379 (1968).
+  save_as: hathi-nv-returns-1960.pdf ... -1968.pdf
+  size: small
+  public_domain: 'A State publication, not a federal work: § 105 does not reach it. HathiTrust''s rights review marks it
+    pdus (public domain in the United States). For reading and citation here; not to be republished.'
+  settles: 4 Nevada entries carrying a Check
+  check: ''
+- id: hathi-tn-blue-book-1961-68
+  tier: 2
+  family: HathiTrust (State)
+  title: '*Tennessee Blue Book*, 1961–62, 1963–64, 1965–66, 1967–68'
+  url: https://babel.hathitrust.org/cgi/pt?id=uc1.b3839182
+  steps: Open the page; left panel "Download" → "Whole item" → PDF. If it asks for a partner login (a Google-digitized volume),
+    download the pages named in `check` one at a time ("This page"), or use a member institution's login. mdp.39015067299381
+    (1961–62), uc1.b4046244 (1963–64), uc1.b3839182 (1965–66), uiug.30112084990297 (1967–68).
+  save_as: hathi-tn-blue-book-1965-66.pdf (an edition a file)
+  size: est. 600 pages
+  public_domain: 'A State publication, not a federal work: § 105 does not reach it. HathiTrust''s rights review marks it
+    pdus (public domain in the United States). For reading and citation here; not to be republished.'
+  settles: 10 Tennessee entries carrying a Check; cal.1966-08-04.elections-1966 (Clement–Bass primary) and cal.1962-05-29.legislatures-tn
+    (Check whether printed)
+  check: 'states.yaml has the Blue Book''s rights "unknown": the hathifile says pdus.'
+- id: hathi-wy-directory-1963-69
+  tier: 2
+  family: HathiTrust (State)
+  title: '*Wyoming Official Directory and Election Returns*, 1963, 1965, 1967, 1969'
+  url: https://babel.hathitrust.org/cgi/pt?id=mdp.39015055034121
+  steps: 'Open the page; left panel "Download" → "Whole item" → PDF. If it asks for a partner login (a Google-digitized
+    volume), download the pages named in `check` one at a time ("This page"), or use a member institution''s login. mdp.39015055034121
+    (1963), -295 (1965), -436 (1967), mdp.39015013403566 (1969). Pages wanted: 1963, 56–58; 1967, 72–74.'
+  save_as: hathi-wy-directory-1963.pdf (an edition a file)
+  size: est. 150 pages
+  public_domain: 'A State publication, not a federal work: § 105 does not reach it. HathiTrust''s rights review marks it
+    pdus (public domain in the United States). For reading and citation here; not to be republished.'
+  settles: 'lead Wyoming (the primaries of 1962 and 1966: cal.1962-08.governors-wy, cal.1966-08.governors-wy); 7 Wyoming
+    entries carrying a Check'
+  check: ''
+- id: hathi-other-state-manuals
+  tier: 2
+  family: HathiTrust (State)
+  title: 'Other State manuals and returns, 1960–68, full view: Illinois *Blue Book* and *Official Vote*; Missouri *Official
+    Manual*; Nebraska *Blue Book*; New Mexico *Blue Book*, 1965–66; New Jersey *Manual of the Legislature*, 1960–63; Delaware
+    *State Manual*, 1960, 1965, 1967; Hawaii, *Result of Votes Cast*, 1960 and the 1966 primary; Alabama *Official and Statistical
+    Register*, 1963, 1967; Idaho, *Biennial Report of the Secretary of State*, 1959–66; Vermont *Legislative Directory*,
+    1959–61; California *Statement of Vote*, 1962–68 (general) and primaries 1960–76'
+  url: https://babel.hathitrust.org/cgi/pt?id=uc1.b4049640
+  steps: 'Open the page; left panel "Download" → "Whole item" → PDF. If it asks for a partner login (a Google-digitized
+    volume), download the pages named in `check` one at a time ("This page"), or use a member institution''s login. htids:
+    IL uc1.b4049639 (1961–62), uc1.b4049640 (1963–64), uiug.30112062956898 (1967–68, cc-by), uc1.a0002514339 (Official Vote
+    1947/48–1963/64); MO uc1.b4049743, -744, uiug.30112118315248; NE osu.32435021105549, -531, -523; NM mdp.39015055034402;
+    NJ uiug.30112110806137, -145, uc1.b4046203, uiug.30112110806160; DE uiug.30112085283320, -379, -387; HI ien.35556023598774,
+    mdp.39015082105225; AL uc1.b3763461, uc1.b3763462; ID uc1.b4049387; VT hvd.32044115477853 (access profile open: whole
+    PDF for anyone); CA ien.35556028155406, uiug.30112044286141.'
+  save_as: hathi-<st>-<title>-<years>.pdf (hathi-il-blue-book-1963-64.pdf)
+  size: not known
+  public_domain: 'A State publication, not a federal work: § 105 does not reach it. HathiTrust''s rights review marks it
+    pdus (public domain in the United States). For reading and citation here; not to be republished. Illinois 1967–68 is
+    CC BY 4.0.'
+  settles: 'the Checks on returns in those States'' entries: IL 15, MO 8, NE 7, NM 8, NJ 9, DE 3, HI 3, AL 14, ID 5 (and
+    the Idaho primaries of 1962 and 1966, cal.1962-06-05.governors-id, cal.1966-08-02.governors-id), VT 3, CA 24 (the 1966–68
+    Statements are open on archive.org)'
+  check: Fetch a State's volume when its entries come up; the counts are entries in the election and State threads carrying
+    any Check.
+- id: hathi-ny-concon-1967
+  tier: 3
+  family: HathiTrust (State)
+  title: '*Proceedings of the Constitutional Convention of the State of New York, April 4, 1967 to September 26, 1967*,
+    12 vols.'
+  url: https://babel.hathitrust.org/cgi/pt?id=umn.31951d02426359w
+  steps: Open the page; left panel "Download" → "Whole item" → PDF. If it asks for a partner login (a Google-digitized volume),
+    download the pages named in `check` one at a time ("This page"), or use a member institution's login. Volumes umn.31951d02426355...
+    to umn.31951d024263627 (v. 5–12 listed; v. 1–4 Check). The first volume (the opening, Apr. 4) and the last (adjournment,
+    Sept. 26) first.
+  save_as: hathi-ny-concon-1967-v01.pdf ...
+  size: 12 volumes
+  public_domain: 'A State publication, not a federal work: § 105 does not reach it. HathiTrust''s rights review marks it
+    pdus (public domain in the United States). For reading and citation here; not to be republished.'
+  settles: cal.1967-04-04.state-constitutions-ny, cal.1967-09-26.state-constitutions-ny (and cal.1966-11-08.state-constitutions-ny
+    by its rolls)
+  check: Volumes 1–4's htids not in the list read.
+- id: hathi-approp-estimates
+  tier: 3
+  family: HathiTrust
+  title: Senate, *Appropriations, Budget Estimates, Etc.*, 87th Cong., 2d sess. (1962), 89th, 2d (1966), 90th, 2d (1968)
+  url: https://babel.hathitrust.org/cgi/pt?id=mdp.39015078703504
+  steps: Open the page; left panel "Download" → "Whole item" → PDF. If it asks for a partner login (a Google-digitized volume),
+    download the pages named in `check` one at a time ("This page"), or use a member institution's login. mdp.39015078703504
+    (87-2), -512 (89-2), -538 (90-2); 86-2 -488, 87-1 -496.
+  save_as: hathi-approp-estimates-87-2.pdf ...
+  size: est. 800 pages each
+  public_domain: 'A work of the U.S. Government (17 U.S.C. § 105). HathiTrust: pdus.'
+  settles: 'lead National, Federal finance: appropriations (the Senate''s statements for each session; the 88th and 89-1,
+    90-1 not in HathiTrust)'
+  check: ''
+- id: hathi-combined-statement-fy1968
+  tier: 3
+  family: HathiTrust
+  title: Treasury, *Combined Statement of Receipts, Expenditures and Balances of the United States Government*, fiscal 1968
+  url: https://babel.hathitrust.org/cgi/pt?id=mdp.39015035610875
+  steps: Open the page; left panel "Download" → "Whole item" → PDF. If it asks for a partner login (a Google-digitized volume),
+    download the pages named in `check` one at a time ("This page"), or use a member institution's login. Also osu.32435063604144,
+    uc1.32106017297240.
+  save_as: hathi-combined-statement-fy1968.pdf
+  size: est. 500 pages
+  public_domain: 'A work of the U.S. Government (17 U.S.C. § 105). HathiTrust: pd.'
+  settles: 'lead National, Federal finance (fiscal 1968''s first-reported administrative actuals by source and function;
+    budgets/budgets.yaml, 1968 actual: null)'
+  check: 'Whether it still classes on the administrative basis for fiscal 1968: the table of contents. FRASER may have it
+    open (search FRASER first).'
+- id: hathi-census-procedural-history
+  tier: 3
+  family: HathiTrust
+  title: 'Bureau of the Census, *1960 Censuses of Population and Housing: Procedural History* (1966)'
+  url: https://babel.hathitrust.org/cgi/pt?id=uc1.c051062333
+  steps: Open the page; left panel "Download" → "Whole item" → PDF. If it asks for a partner login (a Google-digitized volume),
+    download the pages named in `check` one at a time ("This page"), or use a member institution's login. Also coo.31924014540656,
+    uiug.30112104111007.
+  save_as: hathi-census-1960-procedural-history.pdf
+  size: est. 400 pages
+  public_domain: 'A work of the U.S. Government (17 U.S.C. § 105). HathiTrust: pd.'
+  settles: 'lead The 1960 Census: cal.1960-04-01.legislatures (the long form, the enumerators); cal.1960-08.legislatures
+    (PC(P1)-1''s release, Check)'
+  check: 'census.gov may serve it open: search www2.census.gov first.'
+- id: nhhc-ship-force-levels
+  tier: 2
+  family: Naval History and Heritage Command
+  title: Naval History and Heritage Command, "U.S. Ship Force Levels, 1886–present" (web page)
+  url: https://www.history.navy.mil/research/histories/ship-histories/us-ship-force-levels.html
+  steps: Open; print the page to PDF (the years 1960–1968 at least).
+  save_as: nhhc-ship-force-levels.pdf
+  size: one page
+  public_domain: A work of the U.S. Government (17 U.S.C. § 105).
+  settles: 'lead Foreign, Armed forces a year: ships by type, 1966 and after (the Abstract''s class table ends June 30,
+    1965)'
+  check: history.navy.mil answers 404 here; the page's address Check.
+- id: cmh-maneuver-and-firepower
+  tier: 2
+  family: Army Center of Military History
+  title: 'John B. Wilson, *Maneuver and Firepower: The Evolution of Divisions and Separate Brigades* (CMH Pub. 60-14, 1998)'
+  url: https://history.army.mil/html/books/060/60-14-1/index.html
+  steps: Open; download the PDF.
+  save_as: cmh-maneuver-and-firepower.pdf
+  size: est. 450 pages
+  public_domain: A work of the U.S. Government (17 U.S.C. § 105).
+  settles: 'lead Foreign, Armed forces a year: the Army''s divisions by type (armored, mechanized, infantry, airborne, airmobile),
+    1960–68'
+  check: history.army.mil refuses this environment (AkamaiGHost); the address Check. archive.org lends a copy only.
+- id: dod-stockpile-2010
+  tier: 3
+  family: Department of Defense
+  title: Department of Defense, "Increasing Transparency in the U.S. Nuclear Weapons Stockpile," fact sheet, May 3, 2010
+  url: https://www.defense.gov/
+  steps: Search defense.gov (or open.defense.gov) for the title; save the PDF.
+  save_as: dod-stockpile-fact-sheet-2010.pdf
+  size: 2 pages
+  public_domain: A work of the U.S. Government (17 U.S.C. § 105).
+  settles: 'lead Foreign, Armed forces a year: the warhead stockpile, 1962–68, as the government released it'
+  check: The PDF's address not seen (defense.gov refused here).
+- id: millercenter-johnson-mills-1966-11-12
+  tier: 3
+  family: Miller Center
+  title: Johnson and Wilbur Mills, telephone, Nov. 12, 1966, 9:21 a.m., tape WH6611.04, citations 11035–11037 (Miller Center,
+    Secret White House Tapes)
+  url: https://millercenter.org/the-presidency/secret-white-house-tapes
+  steps: Search the tapes for Nov. 12, 1966, Mills; save the page as PDF and note the time; the audio need not be saved.
+  save_as: millercenter-wh6611-04-11035.pdf
+  size: one page
+  public_domain: 'The recording is a federal record (LBJ Library); the Miller Center''s page and transcript are its own:
+    read, not copied.'
+  settles: 'lead National (Johnson''s call to Mills, Nov. 12, 1966: no entry yet)'
+  check: millercenter.org fails TLS verification here (a self-signed certificate in the chain).
+- id: fbi-vault-files
+  tier: 3
+  family: 'FBI Records: The Vault'
+  title: 'FBI files on the Vault (vault.fbi.gov): the Liuzzo murder (1965), the King assassination (MURKIN, 1968), the Memphis
+    sanitation strike'
+  url: https://vault.fbi.gov/
+  steps: Search the Vault for each subject; save each part's PDF.
+  save_as: fbi-vault-<subject>-part-NN.pdf
+  size: several parts each, 100–400 pages a part
+  public_domain: A work of the U.S. Government (17 U.S.C. § 105).
+  settles: 'cal.1965-05-07.alabama and cal.1965-10-22.alabama (the Wilkins trials: the FBI informer), cal.1968-06-08.king
+    (Ray''s arrest); the Memphis entries of Feb.–Apr. 1968 (Check what the file holds)'
+  check: vault.fbi.gov refuses this environment (403); which files it holds not seen. Malcolm X's and the Black Panthers'
+    files are open on archive.org (Found open).
