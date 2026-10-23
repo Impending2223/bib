@@ -11,8 +11,9 @@ Each entry: the name as Part III writes it, the Directory's description, the poi
   FRUS documents sent  by the daybook's rules for authors
   Primary sources      oral histories, papers, speeches and recordings in the series
   Secondary sources    works on the person: the series' entries, the Directory's bibliography, works citing the name
-  Named                FRUS documents that name the person, by volume; presidential documents (APP: the Public
-                       Papers and the campaign documents), one a line, by year
+  Named                FRUS documents that name the person, by volume; presidential documents (found in APP's
+                       texts: the Public Papers and the campaign documents), one a line, by year, each linked to its
+                       item in GPO's Public Papers where one matches (tools/bib/ppp.py), else to APP
   Television           the Sunday interview programs he was a guest on (daybook/sunday.yaml: Meet the Press, 1945–80;
                        Face the Nation, 1959–70), by date
   Testimony            the committee meetings the Daily Digest names the person a witness at (daybook/committees;
@@ -25,7 +26,7 @@ STYLE:
  2. Each fact cites its ground source, linked; the series' pages are pointers, not sources. A run of facts from
     the same page of the same source cites it once, at the end of the run.
  3. A fact the Directory and our structured files both give shows once, with both cites.
- 4. Abbreviations: BD, CDir., CR, FR, DSB, GOM, APP; FRUS by subseries, volume and doc.; Clerk, Election
+ 4. Abbreviations: BD, CDir., CR, FR, DSB, GOM, Pub. Papers, APP; FRUS by subseries, volume and doc.; Clerk, Election
     Statistics, by year and page; pointers: Exec. (the roster at a term), Cong. (a Congress at its opening),
     Election, Cal.
  6. Each run of sentences sharing their sources and pointers is a sentence block; its source block follows it,
@@ -2275,9 +2276,11 @@ def app_list(name, sur):
         else:
             who = "" if sitting else esc(r["who"])
         # the title, then who and when, as the speeches are cited: 'Address on Mississippi (Sept. 30, 1962), APP.'
+        from . import ppp                   # the Public Papers in GPO's volume where an item matches (ppp, STYLE 3)
+        pp = ppp.match(r["url"])
         by_year.setdefault(d[:4], []).append(
             f'{esc(r["title"].rstrip("."))} ({who + ", " if who else ""}{fmt(d)}), '
-            + f'<span class="lvc">{a(r["url"], "APP")}</span>.'
+            + f'<span class="lvc">{ppp.link_html(pp) if pp else a(r["url"], "APP")}</span>.'
             + (f' <span class="lvc">{esc(r["check"])}</span>' if r.get("check") else ""))
     return [f'<b>{y}</b>' + "".join(f'<span class="lvad">{x}</span>' for x in v) for y, v in by_year.items()]
 
@@ -2868,8 +2871,9 @@ INTRO = ['<p class="lede">A name entry for each person in the series, the Execut
          "Bulletin*; GOM, the *Government Organization Manual*; Clerk, Election Statistics, the Clerk of the House's "
          "*Statistics of the Presidential and Congressional Election* of that year, by page; CQ Guide 6th (2010), "
          "Congressional Quarterly, *Guide to U.S. Elections*, 6th ed. (2010), by page; FRUS, by subseries, "
-         "volume, and document; APP, the American Presidency Project (the Public Papers and the campaign "
-         'documents). Pointers into the series: <span class="lvp">Exec.</span>, the Executive '
+         "volume, and document; Pub. Papers, the *Public Papers of the Presidents*, GPO's volumes on govinfo, by "
+         "the volume's years and page (\"1961 Pub. Papers 1\"); APP, the American Presidency Project (a document the "
+         'Public Papers do not print, and the campaign documents). Pointers into the series: <span class="lvp">Exec.</span>, the Executive '
          'Branch at the term named; <span class="lvp">Cong.</span>, a Congress at its opening; '
          '<span class="lvp">Election</span>, the election\'s block; <span class="lvp">Cal.</span>, the '
          "calendar.</p>"]

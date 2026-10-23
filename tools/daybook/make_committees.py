@@ -13,13 +13,20 @@ heading, HIGHLIGHTS, "Senate", "House of Representatives", the rules between day
 
 STYLE (the rows; rendered by tools/bib/committees.py):
  1. A day: its heading ("Tuesday, January 21, 1964"), read with the OCR's misreadings allowed and resolved against the
-    weekday and the day before; a heading that resolves to no later date is left as a misreading.
+    weekday and the day before; a heading that resolves to no later date is left as a misreading. A heading the OCR
+    lost: the day begins at the Senate's "Chamber Action" after the House's meetings, its date the page's running
+    head's, where that is later (1967, D14).
  2. A meeting: a paragraph of the day's "Committee Meetings" (the Senate's, the House's) or of its "Joint Committee
     Meetings", opened by its lead ("Committee on Foreign Relations:", "Joint Economic Committee:", "Conferees ...")
     under the Digest's subject heading in capitals ("METRIC SYSTEM"). Chamber: S, H or J (joint committees and
-    conferees). Chamber action, the Resume of Congressional Activity, and the volume's tables are not meetings.
- 3. Fields: key 'cmte:<date>-<n>', src 'cmte', date, ch, committee (the lead as printed, the OCR's stray marks
-    taken out), code and name (COMMITTEES: the committee as the Congressional Directory names it, "Foreign
+    conferees). Chamber action, the Resume of Congressional Activity, and the volume's tables are not meetings. A
+    chamber's "Committee Meetings" heading lost or misread: a subject heading in capitals with a committee's lead
+    under it opens them. The OCR's lead without its "on" ("Committee Armed SertJices:") is a lead where the words
+    after it are a committee's name.
+ 3. Fields: key 'cmte:<date>-<n>', src 'cmte', date (the day the meeting was held: the Digest's day, or the earlier day
+    a paragraph opens with, "On Friday, June 3, subcommittee concluded ...", a meeting of a day the chamber did not
+    sit reported in the next day's Digest), digest (the Digest's day, where it differs), ch, committee (the lead as
+    printed, the OCR's stray marks taken out), code and name (COMMITTEES: the committee as the Congressional Directory names it, "Foreign
     Relations"; a lead no name fits keeps its printed form and a code made from it), sub (a subcommittee named in the
     paragraph's first sentence), heading (the Digest's subject heading, as printed), bills (the measures the
     paragraph names: S. 1278, H.R. 8363, S.J. Res. 189), exec (the paragraph says executive session), open (it says
@@ -35,6 +42,15 @@ STYLE (the rows; rendered by tools/bib/committees.py):
  5. Folios: the running head's "D<n>"; where the OCR misreads it, the page's place among the pages whose folio reads
     (the offset of the nearest pages on either side). volumes.yaml gives each volume's runs of offset (PDF page to
     folio) and the pages whose folio was not read.
+ 7. A lead no name fits as read: two committees meeting together ("Committees on Armed Services and
+    Appropriations") are keyed to the first named, the name both; a lead the OCR garbled is its letters (digits read
+    as letters, a clause after a comma cut off) against the names at .78, either chamber's (its own first); a lead
+    with too little left to name one is "committee (name unread)", code '<ch>.unread'.
+ 6. A subcommittee's name the OCR cut short (the sentence not going on from it with its verb) is put whole where one
+    name settles it (settle_subs): the committee's
+    subcommittees in that Congress as the Congressional Staff Directory lists them (congress/subcommittees.yaml, 87th
+    and 88th), else the longer forms the Digest prints for the committee that year; the name as read is kept
+    (sub_printed). Rerun after the list changes.
 """
 import argparse
 import datetime
@@ -72,7 +88,8 @@ COMMITTEES = {
           "Select Committee on Small Business", "Special Committee on Aging",
           "Select Committee on Standards and Conduct", "Special Committee on Unemployment Problems",
           "Select Committee on National Water Resources", "Select Committee on Improper Activities in the Labor or "
-          "Management Field"],
+          "Management Field", "Select Committee on Nutrition and Human Needs", "Select Committee on Equal Educational "
+          "Opportunity", "Special Committee on the Organization of the Congress"],
     "H": ["Agriculture", "Appropriations", "Armed Services", "Banking and Currency", "District of Columbia",
           "Education and Labor", "Foreign Affairs", "Government Operations", "House Administration",
           "Interior and Insular Affairs", "Interstate and Foreign Commerce", "Judiciary",
@@ -173,9 +190,10 @@ def rows_of(ws, tol=4.0):
 
 
 def layout(W, H, ws):
-    """The page's lines in reading order: [(kind, text)], kind L or R (a column) or S (a line across the page). The
-    gutter: the widest run of the least ink near the middle. A word across it (three letters or more), or set large
-    (a heading), makes its line one across the page."""
+    """The page's lines in reading order: [(kind, text, y)], kind L or R (a column), LH or RH (a chamber's heading
+    within the column), or S (a line across the page). The gutter: the widest run of the least ink near the middle. A
+    word across it (three letters or more), or set large (a heading, three letters or more), makes its line one across
+    the page, except a chamber's heading wholly within one column."""
     lo, hi = int(W * .38), int(W * .62)
     cov = [0] * (int(W) + 2)
     for w in ws:
@@ -195,15 +213,18 @@ def layout(W, H, ws):
     g = (run[0] + run[-1]) / 2
     L, R, S = [], [], []
     for w in ws:
-        if (w[0] < g - 1 and w[2] > g + 1 and len(re.sub(r"\W", "", w[4])) >= 3) or w[3] - w[1] > 18 \
-                or w[4].count("#") >= 5:          # the rule between days ('#####', the OCR's reading of it)
-            S.append(w)
+        if (w[0] < g - 1 and w[2] > g + 1 and len(re.sub(r"\W", "", w[4])) >= 3) \
+                or (w[3] - w[1] > 18 and len(re.sub(r"\W", "", w[4])) >= 3) \
+                or w[4].count("#") >= 5:          # the rule between days ('#####', the OCR's reading of it); a
+            S.append(w)                           # mark set tall ('.', 'on': 1967, D14) is no heading
         elif (w[0] + w[2]) / 2 < g:
             L.append(w)
         else:
             R.append(w)
     have = set(map(id, S))
     for yc, r in rows_of([w for w in S if w[3] - w[1] <= 18]):
+        if all(w[4].count("#") >= 5 for w in r):
+            continue        # a rule alone: the line beside it in the other column stays there ('#####~ Committee on')
         for w in L + R:
             if id(w) not in have and abs((w[1] + w[3]) / 2 - yc) < 2.5:
                 S.append(w)
@@ -218,19 +239,43 @@ def layout(W, H, ws):
                 have.update(map(id, r))
     L = [w for w in L if id(w) not in have]
     R = [w for w in R if id(w) not in have]
+    # a chamber's heading set large within one column ('House of Representatives' over the right column) heads that
+    # column only: it goes back into its column, marked (kind LH, RH), and the other column reads on past it (1968, D11)
+    heads = set()
+    for yc, r in rows_of(S):
+        t = " ".join(w[4] for w in r)
+        if (max(w[2] for w in r) < g or min(w[0] for w in r) > g) and not day_heading(t) and \
+                section_mark(t) in ("senate", "house"):
+            (L if max(w[2] for w in r) < g else R).extend(r)
+            heads.update(map(id, r))
+    S = [w for w in S if id(w) not in heads]
     out = []
     bounds = [(-1e9, None)] + rows_of(S) + [(1e9, None)]
     for i in range(len(bounds) - 1):
         a, b = bounds[i][0], bounds[i + 1][0]
         for k, col in (("L", L), ("R", R)):
             for yc, r in rows_of([w for w in col if a < (w[1] + w[3]) / 2 <= b]):
-                out.append((k, " ".join(w[4] for w in r), yc))
+                out.append((k + ("H" if any(id(w) in heads for w in r) else ""), " ".join(w[4] for w in r), yc))
         if bounds[i + 1][1]:
             out.append(("S", " ".join(w[4] for w in bounds[i + 1][1]), b))
     return out
 
 
 FOLIO = re.compile(r"^D\s?([\dlIOoS]{1,3})$")
+
+
+def head_date(lines, H, year):
+    """The date in the page's running head ('D14 CONGRESSIONAL RECORD- DAILY DIGEST January 23, 1967'), or None."""
+    for k, t, y in lines:
+        if y > H * .09:
+            break
+        m = re.search(r"(" + "|".join(MONTHS) + r")\s+(\d{1,2}),\s*" + str(year), t)
+        if m:
+            try:
+                return datetime.date(year, MONTHS.index(m.group(1)) + 1, int(m.group(2)))
+            except ValueError:
+                return None
+    return None
 
 
 def folio_of(lines, H):
@@ -296,8 +341,10 @@ def day_heading(t):
 def day_heading2(t):
     """The heading the OCR mangled further: marks after the year ('Wednesday, May 11, 1966 . ~·:·i:i'), a year
     misread ('Fr~day,. May 27~ 19~<?'), the day run into the month ('JVednesday, June15, 1966'), a comma in the
-    year ('Jurz..e 11 :, 1,964'). Nothing but marks may follow the year."""
-    u = re.sub(r"(?<=\w)[?!~.]+(?=\w)", "", t)
+    year ('Jurz..e 11 :, 1,964'), the weekday run into the month by a stop ('Tuesday.June14, 1966'). Nothing but
+    marks may follow the year."""
+    u = re.sub(r"^(\W*[A-Za-z]{3,8}day)[.,](?=[A-Z])", r"\1 ", t)
+    u = re.sub(r"(?<=\w)[?!~.]+(?=\w)", "", u)
     u = re.sub(r"(?<=[A-Za-z])(?=\d)", " ", u)
     m = re.match(r"^\W*([A-Za-z]{5,11})\W+([A-Za-z]{3,10})\W*([\dlIoOBgSZ¢']{1,3})[\W_]*?\s*,?\s*"
                  r"([1lI]\W?[9g]\W?[\dlIoOBgSZ¢_ ,]{1,5}|19\S{0,4}|1\d{2,3})", u)
@@ -445,6 +492,11 @@ def lead_of(t):
         return lead, m.group(2)
     if len(toks) == 3 and like(toks[1], "economic") and cmte(toks[2]):
         return lead, m.group(2)
+    # 'Committee Armed SertJices:', the 'on' dropped: the words after it one committee's name
+    if len(toks) >= 2 and like(toks[0], "committee") and len(letters(" ".join(toks[1:]))) >= 5 and any(
+            difflib.SequenceMatcher(None, letters(" ".join(toks[1:])), letters(n)).ratio() >= .85
+            for c_ in ("S", "H") for n in COMMITTEES[c_] if not n.startswith(("Select", "Special"))):
+        return lead, m.group(2)
     return None
 
 
@@ -486,6 +538,9 @@ def committee_of(ch, lead, day="1965-01-01", before=None):
     """(chamber, printed, code, name) for a meeting's lead ('Committee on Foreign Relations') on the day."""
     printed = clean(lead)
     t = re.sub(r"^(?:[/fI] ?oint|J ?oi\S*)\b", "Joint", printed)
+    # the J lost or misread, the 'i' too ('oint Economic Committee', "/oi'nt", '/oini', 'o£nt'): Joint
+    t = re.sub(r"^[/fIJ]?\s?o\W?[i£l]?\W?n\W?[it]\b(?=\s+(?:Committee|Economic|on)\b)", "Joint", t)
+    t = re.sub(r"^Joint on\b", "Joint Committee on", t)
     t = re.sub(r"\b(?:Com\S{0,4}ittee|C\S{0,2}mm\S{0,4}ee)\b", "Committee", t)
     t = re.sub(r"\s+", " ", t).strip(" .,'")
     if re.match(r"(?i)joint\b", t) or re.match(r"(?i)conferees", t):
@@ -523,7 +578,41 @@ def committee_of(ch, lead, day="1965-01-01", before=None):
         if len(pre) == 1:
             n = pre.pop()
             return ch, printed, code_of(ch, n), n
-    return ch, printed, code_of(ch, t), t
+    # two committees meeting together ('Committees on Armed Services and Appropriations'): keyed to the first named,
+    # its name both
+    m = re.match(r"(?i)^Committees\s+on\s+(?:the\s+)?(.+?)\s*(?:,|\band\b\.?)\s*(?:the\s+)?(.+)$", t)
+    if m:
+        two = []
+        for part in (m.group(1), m.group(2)):
+            got = [n for n in COMMITTEES[ch] + COMMITTEES["H" if ch == "S" else "S"]
+                   if letters(n) == letters(part.split(",")[0])]
+            two.append(got[0] if got else None)
+        if all(two):
+            c1 = ch if two[0] in COMMITTEES[ch] else ("H" if ch == "S" else "S")
+            return c1, printed, code_of(c1, two[0]), f"{two[0]} and {two[1]}"
+    # a lead the OCR garbled ("Com;,,,ittec rm F()reign Relations", 'Commit~e on FirtQnce'): its letters, digits read
+    # as the letters they stand for, and a clause after a comma cut off, against the names at .78
+    g = re.sub(r",.*$", "", t) if len(t) > 40 else t
+    g = g.translate(str.maketrans("10", "lo"))
+    w1 = letters((re.split(r"\bo\W?n\b|\bon\b|\bOfl\b", g, maxsplit=1) + [""])[1].split()[0]
+                 if re.search(r"\bo\W?n\b|\bOfl\b", g) and (re.split(r"\bo\W?n\b|\bOfl\b", g, maxsplit=1) + [""])[1].split()
+                 else "")
+    g = letters(g)
+    best, score = None, 0
+    for c_ in (ch,) if ch == "J" else (ch, "H" if ch == "S" else "S"):
+        for n in COMMITTEES[c_]:
+            first = letters(re.sub(r"^(?:Select |Special |Joint )?(?:Committee on )?(?:the )?", "", n).split()[0])
+            if w1 and difflib.SequenceMatcher(None, w1, first[:len(w1) + 2]).ratio() < .6:
+                continue          # the first word of the name, as far as it reads, must agree
+            for f in ([n] if n.startswith(("Select", "Special", "Joint")) else [f"Committee on {n}",
+                                                                              f"Committee on the {n}"]):
+                r = difflib.SequenceMatcher(None, g, letters(f)).ratio() - (0 if c_ == ch else .05)
+                if r > score:
+                    best, score = (c_, n), r
+    if best and score >= .78 and len(g) >= 12:
+        return best[0], printed, code_of(*best), best[1]
+    # too little left to name one ('Committee on', 'Committee on J', 'Joint Committee'): the name unread
+    return ch, printed, f"{ch.lower()}.unread", "committee (name unread)"
 
 
 SUB = re.compile(r"\b((?:(?:Special |Select |Ad Hoc |General |Legislative |Consultative |Joint |[A-Z][\w'.-]+ )(?:and )?)*"
@@ -832,6 +921,28 @@ def next_of(text, day):
     return None
 
 
+HELD = re.compile(r"^(?:On|on)\s+(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),?\s+(" + "|".join(MONTHS) +
+                  r")\s+([\dlIoO]{1,2}),\s*")
+
+
+def held_on(text, day):
+    """(the day, the rest) where the paragraph opens with the day the meeting was held ('On Friday, June 3,
+    subcommittee concluded ...'): a day before the Digest's, within a fortnight, its weekday agreeing (STYLE 3);
+    else (None, text)."""
+    m = HELD.match(text)
+    if not m:
+        return None, text
+    mo, dd = MONTHS.index(m.group(2)) + 1, m.group(3).translate(DIGITS)
+    try:
+        x = datetime.date(day.year - (1 if mo > day.month else 0), mo, int(dd))
+    except ValueError:
+        return None, text
+    if not (0 < (day - x).days <= 14) or x.weekday() != WEEKDAYS.index(m.group(1)):
+        return None, text
+    rest = text[m.end():]
+    return x, rest[:1].upper() + rest[1:]
+
+
 def session_of(text):
     ex = bool(re.search(r"\bexecutive\s+(?:session|hearing|meeting)|\bin\s+executive\b", text, re.I))
     op = bool(re.search(r"\bopen\s+(?:session|hearing|meeting)|\bin\s+open\b", text, re.I))
@@ -856,10 +967,11 @@ def sub_of(text):
 
 def read_volume(year, bbox):
     """(rows, volume record) for one year's Digest."""
-    pl, raw = [], {}
+    pl, raw, hd = [], {}, {}
     for i, (W, H, ws) in enumerate(pages(bbox), 1):
         lines = layout(W, H, ws)
         raw[i] = folio_of(lines, H)
+        hd[i] = head_date(lines, H, year)
         # the running head is not text
         lines = [(k, t) for k, t, y in lines if not (y < H * .09 and re.search(r"CONGR|RECORD|DIGEST|^D\s?\S{1,3}$", t))]
         pl.append(lines)
@@ -904,11 +1016,13 @@ def read_volume(year, bbox):
             if day is None:
                 continue
             s = section_mark(t)
-            if pending and s:
+            # the new day begins at its own first heading, not at the old day's last ones (1966, D486: the House's
+            # meetings of Sept. 6 under 'Wednesday, September 7')
+            if pending and (s in ("senate", "highlights") or (s == "chamber" and chamber == "H" and "H" in met)):
                 close()
                 day, chamber, mode, heading, blocked, pending = pending, None, None, None, False, None
                 met = set()
-            if s in ("senate", "house") and k != "S":
+            if s in ("senate", "house") and k not in ("S", "LH", "RH"):
                 s = None
             # after the Resume, nothing till the next day or a chamber's own heading (the bound volume of 1961 sets
             # its Resume within the day of Sept. 20)
@@ -935,6 +1049,11 @@ def read_volume(year, bbox):
                     # a second 'Chamber Action' after the Senate's meetings: the House's heading was not read
                     if chamber == "S" and "S" in met:
                         chamber = "H"
+                    # a 'Chamber Action' after the House's meetings: the next day's Senate, its heading lost (1967,
+                    # D14: Monday, January 23): the day the page's running head gives, where it is later (STYLE 1)
+                    elif chamber == "H" and "H" in met and hd.get(pi) and hd[pi] > day:
+                        day, prev, chamber, heading, pending = hd[pi], hd[pi], "S", None, None
+                        met = set()
                     mode = None
                 elif s == "highlights":
                     mode = None
@@ -942,6 +1061,14 @@ def read_volume(year, bbox):
                     mode, chamber, blocked = None, None, True
                 heading = None
                 continue
+            if mode != "meetings" and chamber in ("S", "H") and not blocked and caps_heading(t):
+                # the chamber's 'Committee Meetings' heading lost or misread (1967, D14; 1968, D167): a subject
+                # heading in capitals with a committee's lead under it opens the chamber's meetings
+                nxt = next((t2 for _, _, t2 in seq[n + 1:n + 3] if len(re.sub(r"[^A-Za-z]", "", t2)) >= 3), "")
+                lm = lead_of(nxt)
+                if lm and not re.match(r"\W*(?:Sub|Conferees)", lm[0]):
+                    mode = "meetings"
+                    met.add(chamber)
             if mode != "meetings":
                 continue
             if re.match(r"^#+|^[#\s.,'·]+$", t.strip()):
@@ -971,7 +1098,7 @@ def read_volume(year, bbox):
             if m:
                 close()
                 prior = cur if cur is not None else rows[-1] if rows and rows[-1]["date"] == day else None
-                if re.match(r"\W*Sub", m[0]) and prior is not None:
+                if re.match(r"\W*(?:(?:Special|Select|Ad Hoc|Permanent)\s+)?Sub", m[0]) and prior is not None:
                     # 'Subcommittee on Census and Government Statistics:' after its committee's paragraph: another
                     # meeting of the same committee
                     close()
@@ -1013,9 +1140,15 @@ def finish(rows, fol, url):
         text = r["text"]
         ws, others = witnesses_of(text)
         ex, op = session_of(text)
-        x = {"key": f"cmte:{d.isoformat()}-{n}", "src": "cmte", "date": d.isoformat(), "ch": r["ch"],
-             "committee": r["committee"], "code": r["code"], "name": r["name"]}
-        sub = r.get("sub0") or sub_of(text)
+        held, rest = held_on(text, d)
+        if held:                         # a meeting of a day the chamber did not sit, in the next day's Digest
+            n = by_day[d] = by_day[d] - 1
+            n = by_day[held] = by_day.get(held, 0) + 1
+        x = {"key": f"cmte:{(held or d).isoformat()}-{n}", "src": "cmte", "date": (held or d).isoformat(),
+             "ch": r["ch"], "committee": r["committee"], "code": r["code"], "name": r["name"]}
+        if held:
+            x["digest"] = d.isoformat()
+        sub = r.get("sub0") or sub_of(rest)
         if sub:
             x["sub"] = sub
         if r.get("heading"):
@@ -1043,11 +1176,45 @@ def finish(rows, fol, url):
     return out
 
 
+def settle_subs(rows):
+    """A subcommittee's name the OCR cut short ('Subcommittee on Banking and'), put whole (STYLE 6): the one name of the
+    committee's subcommittees in that Congress that begins with it (where the sentence does not go on from the name
+    with its verb, "... held hearings": then it is whole), from the Congressional Staff Directory's list
+    (congress/subcommittees.yaml, the 87th and 88th Congresses), else from the longer forms the Digest itself prints
+    for the committee that year, each read twice at least; the name as read kept (sub_printed)."""
+    import collections
+    p = os.path.join(ROOT, "congress", "subcommittees.yaml")
+    lists = (yaml.safe_load(open(p, encoding="utf-8")) or {}).get("congress") or {} if os.path.exists(p) else {}
+    opened = sorted((str((yaml.safe_load(open(f, encoding="utf-8")) or {}).get("opened")), int(os.path.basename(f)[:2]))
+                    for f in glob.glob(os.path.join(ROOT, "congress", "[0-9][0-9].yaml")))
+    key = lambda t: re.sub(r"[^a-z0-9]", "", t.lower())
+    seen = collections.Counter((x["ch"], x["code"], x["sub"]) for x in rows if x.get("sub"))
+    VERB = re.compile(r"\s*(?:held|met|began|begins|continued|resumed|heard|approved|concluded|ordered|received|"
+                      r"voted|conducted|opened|considered|completed|recessed|adjourned|agreed|reported|was|were|in|of)\b")
+    for x in rows:
+        sub = x.get("sub")
+        if not sub or len(key(sub)) < 14:
+            continue
+        i = x["text"].find(sub)
+        if i >= 0 and VERB.match(x["text"][i + len(sub):]):
+            continue                  # the sentence goes on from the name: the name is whole
+        c = ([n for o, n in opened if o <= x["date"]] or [86])[-1]
+        names = [s_["name"] for s_ in ((lists.get(c) or {}).get(x["ch"].lower()) or {}).get(x["code"]) or []]
+        hit = [n for n in names if key(n).startswith(key(sub)) and key(n) != key(sub)]
+        if not hit and not any(key(n) == key(sub) for n in names):
+            hit = sorted({s_ for (ch, code, s_), k in seen.items() if ch == x["ch"] and code == x["code"] and k >= 2
+                          and key(s_).startswith(key(sub)) and key(s_) != key(sub)})
+        if len(hit) == 1:
+            x["sub_printed"] = sub
+            x["sub"] = hit[0]
+    return rows
+
+
 def write(rows, vols):
     os.makedirs(OUT, exist_ok=True)
     head = ("# Generated by tools/daybook/make_committees.py from the bound Congressional Record's Daily Digest\n"
             "# (govinfo). Edit the script, not this file. One row a meeting: key, src, date, ch, committee, code,\n"
-            "# name, sub, heading, bills, exec, open, witnesses, others, next, text, page, pdf, url.\n")
+            "# name, sub, heading, bills, exec, open, witnesses, others, next, text, page, pdf, url; digest, sub_printed.\n")
     by_month = {}
     for x in rows:
         by_month.setdefault(x["date"][:7], []).append(x)
@@ -1085,7 +1252,7 @@ def main():
     for y in years:
         bbox = fetch(y, a.cache, a.keep_pdf)
         rows, vol, fol = read_volume(y, bbox)
-        rows = finish(rows, fol, vol["url"])
+        rows = settle_subs(finish(rows, fol, vol["url"]))
         vols.append(vol)
         months = sorted({x["date"][:7] for x in rows})
         write(rows, [vol])

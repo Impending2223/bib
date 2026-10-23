@@ -25,7 +25,9 @@ The lookups (Senate days, Index volumes, POCOM ids, FRUS volumes) are in sources
 tools/executive/make_source_links.py; the build needs no network.
 
 Labels: CDir. (the Congressional Directory), CR (the Congressional Record), FR (the Federal Register), DSB (the
-Department of State Bulletin), GOM (the Government Organization Manual), APP (the American Presidency Project), FRUS by
+Department of State Bulletin), GOM (the Government Organization Manual), Pub. Papers (the Public Papers of the
+Presidents, GPO's volumes: an APP document or day's search is shown as the item the Public Papers print, where one
+matches; tools/bib/ppp.py), APP (the American Presidency Project), FRUS by
 subseries, volume and doc.
 
 STYLE:
@@ -260,11 +262,44 @@ def app_html(s, h):
         m = re.search(r"(Jan|Feb|Mar|Apr|May|June|July|Aug|Sept|Oct|Nov|Dec)\.? (\d+), (\d{4})", s)
         if m:
             day = f"{MONTH_NUM[m.group(1)]:02d}-{int(m.group(2)):02d}-{m.group(3)}"
+    if day:                                  # the Public Papers' items of the day that name him, where APP's match
+        hit = ppp_on_day(h, f"{day[6:]}-{day[:2]}-{day[3:5]}")
+        if hit:
+            return hit
     q = {"field-keywords": sur, "items_per_page": 100}
     if day:
         q.update({"from[date]": day, "to[date]": day})
     label = "APP" + (s[3:] if s.startswith("APP:") else (f", {fmt_day(f'{day[6:]}-{day[:2]}-{day[3:5]}')}" if day else ""))
     return a("https://www.presidency.ucsb.edu/advanced-search?" + urlencode(q), esc(label))
+
+
+def app_or_ppp(s, h):
+    """The HTML an APP source shows: the Public Papers' item where one matches, else APP's link."""
+    return url_html(s) if re.match(r"^https?://", s) else app_html(s, h)
+
+
+def ppp_on_day(h, iso):
+    """The Public Papers' items of the day that name the holder: the APP documents of that day the Names' index finds
+    him in (sources/app-names), each matched to its item (tools/bib/ppp.py); '' where none."""
+    import datetime
+    from . import lives, ppp
+    key = lives.key_of(h["name"])
+    hits = {i for k in lives.frus_keys_of(key) for i in lives.letter_json("app-names", k[:1].upper()).get(k, [])}
+    if not hits:
+        return ""
+    rows = lives.cached("app-index", lambda: [json.loads(l) for l in open(
+        os.path.join(store.ROOT, "sources", "app-index.jsonl"), encoding="utf-8")])
+    out = []
+    for i in sorted(hits):
+        r = rows[i]
+        try:
+            d = datetime.datetime.strptime(r["date"], "%b %d, %Y").date().isoformat()
+        except ValueError:
+            continue
+        it = ppp.match(r["url"]) if d == iso else None
+        if it and it["cite"] not in [x["cite"] for x in out]:
+            out.append(it)
+    return "; ".join(ppp.link_html(it) for it in out)
 
 
 def days_in(s):
@@ -287,6 +322,10 @@ def url_html(u):
     if m:
         return a(u, "archive.org: " + esc(m.group(1)))
     if host == "presidency.ucsb.edu":
+        from . import ppp                    # the Public Papers' item where one matches (ppp, STYLE 3)
+        it = ppp.match(u)
+        if it:
+            return ppp.link_html(it)
         slug = u.rstrip("/").rsplit("/", 1)[-1].replace("-", " ")
         return a(u, "APP: " + esc(slug[:60] + ("…" if len(slug) > 60 else "")))
     return a(u, esc(host))
@@ -454,6 +493,10 @@ KINDS = [
              "which give each person's offices and dates; documents, by volume and number."),
     ("Wikipedia", "Wikipedia: the articles on persons and offices, and the lists of officeholders; leads, where "
                   "no official source was at hand."),
+    ("Pub. Papers", "*Public Papers of the Presidents of the United States*, 1960–69 (Office of the Federal "
+                    "Register; GPO's volumes on govinfo): the President's nominations, appointments and letters "
+                    "accepting resignations, by the volume's years and page (\"1961 Pub. Papers 1\"), linked to the "
+                    "page; where an APP document below is printed there."),
     ("APP", "Gerhard Peters and John T. Woolley, *The American Presidency Project* (presidency.ucsb.edu): "
             "nominations, appointments, resignations, and orders, by date."),
     ("FR", "*Federal Register* (govinfo): executive orders and designations, by issue."),
@@ -472,6 +515,8 @@ def section(units):
             for h in o.get("holders") or []:
                 for s in items(h.get("src")):
                     k = kind(s)
+                    if k == "APP" and "Pub. Papers" in app_or_ppp(s, h):
+                        k = "Pub. Papers"
                     counts[k] = counts.get(k, 0) + 1
     out = ['<h2 id="sources" data-short="Sources">The sources</h2>',
            '<p class="logic">Where the names and dates come from. Each holder\'s line ends with its sources, '

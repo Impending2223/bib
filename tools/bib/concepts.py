@@ -16,7 +16,7 @@ page, links to its servant on the page; where a series has no servant there (no 
 
 STYLE (settled; keep it):
  1. A servant: muted caption "Indicators: concepts and sources", then by group under a small-capital line (the groups of
-    ORDER and GROUP in tools/bib/indicators.py: Prices, Employment, Output, Federal finance, International, Oil, The war,
+    ORDER and GROUP in tools/bib/indicators.py: Prices, Employment, Output, Federal finance, Federal debt, International, Oil, The war,
     Money and credit, Opinion), each series' name (linked to its master statement) and its statement. The page's first
     servant opens with the general paragraph. Each closes: "See the master entry for a full statement of indicator
     concepts and sources used in the series."

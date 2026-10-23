@@ -217,8 +217,23 @@ def run(series, only=None):
         add(ERROR, f"indicators/{where}.yaml", msg, "war")
     for where, msg in wardead.problems(series):
         add(ERROR, where, msg, "war")
+    from . import warair
+    for where, msg in warair.problems():
+        add(ERROR, f"indicators/{where}.yaml", msg, "war-air")
+    # the war table and Armed Forces Day, under their days (tools/bib/wartable.py, dayblocks.py)
+    from . import wartable
+    for level, where, msg in wartable.problems(series):
+        add(ERROR if level == "error" else WARN, where, msg, "war-table")
+    # the world's oil a year and the posted prices (sources/oil-world.yaml; tools/bib/oilworld.py)
+    from . import oilworld
+    for where, msg in oilworld.problems(series):
+        add(ERROR, where, msg, "oilworld")
     from . import oil
     for where, msg in oil.problems(indicators.load()):
+        add(ERROR, f"indicators/{where}.yaml", msg, "indicators")
+    # money, the foreign accounts, the debt's terms (indicators/<id>.yaml; tools/bib/finance.py)
+    from . import finance
+    for where, msg in finance.problems(indicators.load()):
         add(ERROR, f"indicators/{where}.yaml", msg, "indicators")
     # the indicators' master statement and the calendar's servants (indicators/concepts.yaml; tools/bib/concepts.py)
     from . import concepts
@@ -256,10 +271,18 @@ def run(series, only=None):
     from . import budgets
     for where, msg in budgets.problems(series):
         add(ERROR, where, msg, "budgets")
+    # the armed forces a year (forces/; tools/bib/forces.py)
+    from . import forces
+    for where, msg in forces.problems(series):
+        add(ERROR, where, msg, "forces")
     # the bills' courses (congress/bills.yaml; tools/bib/bills.py)
     from . import bills
     for where, msg in bills.problems(series):
         add(ERROR, where, msg, "bills")
+    # each session's appropriation bills (congress/appropriations.yaml; tools/bib/appropriations.py)
+    from . import appropriations
+    for where, msg in appropriations.problems(series):
+        add(ERROR, where, msg, "appropriations")
     # the tables and maps the contents list (tools/bib/contents.py)
     from . import contents
     for where, msg in contents.problems(series):
@@ -298,6 +321,20 @@ def run(series, only=None):
         add(ERROR, where, msg, "ebooks")
     for where, msg in warns:
         add(WARN, where, msg, "ebooks")
+    from . import ppp                    # the Public Papers' texts and matches (sources/ppp-text/, ppp-matches.json)
+    errs, warns = ppp.problems()
+    for where, msg in errs:
+        add(ERROR, where, msg, "ppp")
+    for where, msg in warns:
+        add(WARN, where, msg, "ppp")
+    # the President's Daily Diary (daybook/diary.yaml, tools/daybook/make_daily_diary.py; tools/bib/diary.py)
+    from . import diary
+    for where, msg in diary.problems(series):
+        add(ERROR, where, msg, "diary")
+    # the Bulletin's items (daybook/bulletin/, tools/daybook/make_bulletin.py)
+    from . import bulletin
+    for where, msg in bulletin.problems():
+        add(ERROR, "daybook/bulletin/", f"{where}: {msg}", "bulletin")
     # the committees' meetings (daybook/committees/, tools/daybook/make_committees.py)
     from . import committees
     for where, msg in committees.problems():
@@ -306,6 +343,10 @@ def run(series, only=None):
     from . import committee_rosters
     for level, msg in committee_rosters.problems(series):
         add(ERROR if level == "error" else WARN, "congress/committees.yaml", msg, "committee-rosters")
+    # the select, special and joint committees and the subcommittees (tools/bib/committee_more.py)
+    from . import committee_more
+    for level, msg in committee_more.problems(series):
+        add(ERROR if level == "error" else WARN, "congress/committees-cdir.yaml", msg, "committee-more")
     # the calendar's threads in alphabetical order of their names (THREAD_SORT_AS: a name sorted under another word)
     for lst in series.lists.values():
         if lst.kind != "calendar":
@@ -382,7 +423,9 @@ def plain_vietnamese(series):
             plain.setdefault(pw, w)                 # the name he went by, as a title form gives it: President Diem
     rx = re.compile(r"(?<![\w-])(" + "|".join(sorted((re.escape(" ".join(w.capitalize() for w in p.split()))
                                                        for p in plain), key=len, reverse=True)) + r")(?![\w-])")
-    prot = re.compile(r"\*[^*]+\*|\"[^\"]*\"|\[[^\]]*\]\([^)]*\)|https?://\S+")
+    prot = re.compile(r"\*[^*]+\*|\"[^\"]*\"|\[[^\]]*\]\([^)]*\)|https?://\S+"
+                      # a document's title as the Public Papers print it, before its cite (tools/ppp/relink.py)
+                      r"|(?:^|(?<=; )|(?<=\. ))[^;]{0,400}?, \[\d{4}(?:–\d\d)? Pub\. Papers [^\]]*\]\([^)]*\)")
     byline = re.compile(r"(?:\s*(?:&|and)\s*[^,;*()\[\]]{2,60}?)?(?: et al\.)?, \*([^*]+)\*")
     out = []
     for lst in series.lists.values():

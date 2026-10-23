@@ -1,0 +1,449 @@
+# The world's armed forces, 1960-68, kept by hand (tools/bib/forces.py renders them; its STYLE notes). Same schema as
+# forces/us.yaml. Printed then, each its own table: the International Institute for Strategic Studies' *Military
+# Balance* (no copy open: the Internet Archive lends, HathiTrust searches only), as the *Statistical Abstract*
+# reprinted its table of personnel from the 1967 edition (the Military Balance, 1966-1967) on, and Jane's *Fighting
+# Ships*' count of ships from the 1968 on, the Abstract's figures as printed, its countries regrouped by alliance and
+# region ("(Z)" its "less than 500"); the Arms Control and Disarmament Agency's first world table (1966, published
+# Dec. 1968), DTIC's copy; SIPRI's first yearbook (1969), the NATO and Warsaw Pact countries' military spending a year,
+# 1960-68, at 1960 prices, its sources for NATO including NATO's own published figures (a figure in brackets, as printed, is
+# its rough estimate and counts in the sums); an ally's own count, the British government's of its regular forces at
+# June 30 (the Central Statistical Office's *Annual Abstract of Statistics*, from the Ministry of Defence, each year as
+# first printed in the next year's edition, archive.org's open copies). Compiled since, apart: the Correlates of War
+# Project's military personnel, every year, and the Federation of American Scientists' warheads. Not reached: NATO's
+# archives and its Annual Review tables (archives.nato.int: a browser check, Oct. 23, 2026, 00:33 to 06:07 UTC), the
+# *NATO Letter* and NATO's press releases of the figures, the other allies' white papers, the Parallel History Project
+# (notes/leads.md, Foreign). The Abstract's 1966
+# edition (census.gov, open Oct. 23, 2026) prints no table of the world's forces in its international section.
+
+sources:
+  sa67-1266:
+    cite: '*Statistical Abstract of the United States, 1967* (88th ed.), table 1266, p. 871, from the Institute for Strategic Studies, *The Military Balance, 1966-1967*'
+    url: https://www2.census.gov/library/publications/1967/compendia/statab/88ed/1967-11.pdf#page=27
+  sa68-1256:
+    cite: '*Statistical Abstract of the United States, 1968* (89th ed.), table 1256, p. 844, from the Institute for Strategic Studies, *The Military Balance, 1967-1968*'
+    url: https://www2.census.gov/library/publications/1968/compendia/statab/89ed/1968-13.pdf#page=26
+  sa69-1251:
+    cite: '*Statistical Abstract of the United States, 1969* (90th ed.), table 1251, p. 838, from the Institute for Strategic Studies, *The Military Balance, 1968-1969*'
+    url: https://www2.census.gov/library/publications/1969/compendia/statab/90ed/1969-12.pdf#page=15
+  sa68-1258:
+    cite: '*Statistical Abstract of the United States, 1968* (89th ed.), table 1258, p. 845, from *Jane''s Fighting Ships, 1967-68*'
+    url: https://www2.census.gov/library/publications/1968/compendia/statab/89ed/1968-13.pdf#page=27
+  sa69-1253:
+    cite: '*Statistical Abstract of the United States, 1969* (90th ed.), table 1253, p. 839, from *Jane''s Fighting Ships, 1968-69*'
+    url: https://www2.census.gov/library/publications/1969/compendia/statab/90ed/1969-12.pdf#page=16
+  acda-1966:
+    cite: 'U.S. Arms Control and Disarmament Agency, *World Military Expenditures and Related Data, Calendar Year 1966, and Summary Trends, 1962-1967* (Dec. 1968), table I, pp. 9-11'
+    url: https://archive.org/details/DTIC_AD0682053
+    note: The first of ACDA's annual reports; DTIC AD0682053
+  sipri-6869:
+    cite: 'Stockholm International Peace Research Institute, *SIPRI Yearbook of World Armaments and Disarmament 1968/69* (1969), tables 1A.2 (NATO), pp. 200-201, and 1A.4a (Warsaw Pact, official exchange rates), pp. 202-203'
+    url: https://www.sipri.org/sites/default/files/SIPRI%20Yearbook%201968%E2%80%9369.pdf#page=202
+    note: SIPRI's first yearbook; the institute gives it free on its site
+  cow:
+    cite: 'Correlates of War Project, *National Material Capabilities*, v7, military personnel (milper, thousands), NMC-70-abridged.csv'
+    url: https://correlatesofwar.org/data-sets/national-material-capabilities/
+    note: A compilation made since, from the sources the project's documentation names year by year; free to use with citation
+  aas61-136:
+    cite: 'Central Statistical Office, *Annual Abstract of Statistics*, no. 98 (1961), table 136, p. 113, from the Ministry of Defence'
+    url: https://archive.org/details/annual-abstract-of-statistics-gb_1961_98/page/113/mode/1up
+  aas62-135:
+    cite: 'Central Statistical Office, *Annual Abstract of Statistics*, no. 99 (1962), table 135, p. 110, from the Ministry of Defence'
+    url: https://archive.org/details/annual-abstract-of-statistics-gb_1962_99/page/110/mode/1up
+  aas63-139:
+    cite: 'Central Statistical Office, *Annual Abstract of Statistics*, no. 100 (1963), table 139, p. 114, from the Ministry of Defence'
+    url: https://archive.org/details/annual-abstract-of-statistics-gb_1963_100/page/114/mode/1up
+  aas64-134:
+    cite: 'Central Statistical Office, *Annual Abstract of Statistics*, no. 101 (1964), table 134, p. 120, from the Ministry of Defence'
+    url: https://archive.org/details/annual-abstract-of-statistics-gb_1964_101/page/120/mode/1up
+  aas65-132:
+    cite: 'Central Statistical Office, *Annual Abstract of Statistics*, no. 102 (1965), table 132, p. 115, from the Ministry of Defence'
+    url: https://archive.org/details/annual-abstract-of-statistics-gb_1965_102/page/115/mode/1up
+  aas66-134:
+    cite: 'Central Statistical Office, *Annual Abstract of Statistics*, no. 103 (1966), table 134, p. 116, from the Ministry of Defence'
+    url: https://archive.org/details/annual-abstract-of-statistics-gb_1966_103/page/116/mode/1up
+  aas67-135:
+    cite: 'Central Statistical Office, *Annual Abstract of Statistics*, no. 104 (1967), table 135, p. 117, from the Ministry of Defence'
+    url: https://archive.org/details/annual-abstract-of-statistics-gb_1967_104/page/117/mode/1up
+  aas68-133:
+    cite: 'Central Statistical Office, *Annual Abstract of Statistics*, no. 105 (1968), table 133, p. 121, from the Ministry of Defence'
+    url: https://archive.org/details/annual-abstract-of-statistics-gb_1968_105/page/121/mode/1up
+  aas69-137:
+    cite: 'Central Statistical Office, *Annual Abstract of Statistics*, no. 106 (1969), table 137, p. 128, from the Ministry of Defence'
+    url: https://archive.org/details/annual-abstract-of-statistics-gb_1969_106/page/128/mode/1up
+  fas:
+    cite: 'Federation of American Scientists, nuclear warhead stockpiles by year (Kristensen, Korda et al.), as Our World in Data republishes them, "Number of nuclear warheads" (2026)'
+    url: https://ourworldindata.org/grapher/nuclear-warhead-stockpiles
+
+tables:
+  - key: men
+    title: Men under arms, the world, as the Military Balance printed them
+    asof: summer
+    unit: thousands
+    tol: 1
+    note: Regular forces. The navies include their air arms and marines. Each year's count as of the month the edition gives (August 1966, July 1967, July 1968).
+    rows: &world
+      - {key: us, label: United States}
+      - {key: h-nato, label: NATO, group: true}
+      - {key: belgium, label: Belgium}
+      - {key: canada, label: Canada}
+      - {key: denmark, label: Denmark}
+      - {key: france, label: France}
+      - {key: west-germany, label: West Germany}
+      - {key: greece, label: Greece}
+      - {key: italy, label: Italy}
+      - {key: luxembourg, label: Luxembourg}
+      - {key: netherlands, label: Netherlands}
+      - {key: norway, label: Norway}
+      - {key: portugal, label: Portugal}
+      - {key: turkey, label: Turkey}
+      - {key: uk, label: United Kingdom}
+      - {key: h-warsaw, label: Warsaw Pact, group: true}
+      - {key: ussr, label: Soviet Union}
+      - {key: bulgaria, label: Bulgaria}
+      - {key: czechoslovakia, label: Czechoslovakia}
+      - {key: east-germany, label: East Germany}
+      - {key: hungary, label: Hungary}
+      - {key: poland, label: Poland}
+      - {key: romania, label: Romania}
+      - {key: albania, label: Albania}
+      - {key: h-europe, label: Other Europe, group: true}
+      - {key: austria, label: Austria}
+      - {key: finland, label: Finland}
+      - {key: spain, label: Spain}
+      - {key: sweden, label: Sweden}
+      - {key: switzerland, label: Switzerland}
+      - {key: yugoslavia, label: Yugoslavia}
+      - {key: h-mideast, label: Middle East and Africa, group: true}
+      - {key: iran, label: Iran}
+      - {key: iraq, label: Iraq}
+      - {key: israel, label: Israel}
+      - {key: jordan, label: Jordan}
+      - {key: saudi-arabia, label: Saudi Arabia}
+      - {key: syria, label: Syria}
+      - {key: uar, label: Egypt (United Arab Republic)}
+      - {key: algeria, label: Algeria}
+      - {key: morocco, label: Morocco}
+      - {key: south-africa, label: South Africa}
+      - {key: h-asia, label: Asia and the Pacific, group: true}
+      - {key: china, label: China}
+      - {key: taiwan, label: Taiwan}
+      - {key: north-korea, label: North Korea}
+      - {key: south-korea, label: South Korea}
+      - {key: north-vietnam, label: North Vietnam}
+      - {key: south-vietnam, label: South Vietnam}
+      - {key: laos, label: Laos}
+      - {key: cambodia, label: Cambodia}
+      - {key: thailand, label: Thailand}
+      - {key: burma, label: Burma}
+      - {key: malaysia, label: Malaysia}
+      - {key: singapore, label: Singapore}
+      - {key: indonesia, label: Indonesia}
+      - {key: philippines, label: Philippines}
+      - {key: japan, label: Japan}
+      - {key: mongolia, label: Mongolia}
+      - {key: india, label: India}
+      - {key: pakistan, label: Pakistan}
+      - {key: australia, label: Australia}
+      - {key: new-zealand, label: New Zealand}
+      - {key: h-americas, label: The Americas, group: true}
+      - {key: cuba, label: Cuba}
+    cols:
+      - {key: total, head: Total}
+      - {key: army, head: Army}
+      - {key: navy, head: Navy}
+      - {key: air, head: Air}
+    sumcols: {total: [army, navy, air]}
+    years:
+      1966:
+        total: {src: sa67-1266, us: 3094, belgium: 107, denmark: 50, france: 535, west-germany: 440, greece: 159, italy: 376, luxembourg: 2, netherlands: 129, norway: 34, portugal: 148, spain: 291, sweden: 82, switzerland: 31, uk: 437, albania: 39, bulgaria: 156, czechoslovakia: 220, east-germany: 122, hungary: 109, poland: 260, romania: 201, ussr: 3165, yugoslavia: 264, iran: 180, israel: 71, turkey: 450, uar: 190, cambodia: 38, china: 2486, taiwan: 544, india: 879, indonesia: 352, japan: 246, laos: 60, malaysia: 30, north-korea: 368, north-vietnam: 257, pakistan: 278, philippines: 38, south-korea: 572, south-vietnam: 304, thailand: 126, australia: 69, canada: 107, cuba: 121, new-zealand: 13, south-africa: 22, as: {north-vietnam: North Viet-Nam, south-vietnam: South Viet-Nam}, printed: {italy: Excludes the Carabinieri., portugal: Excludes African troops., uk: Includes forces enlisted outside the United Kingdom., ussr: 'The army includes Air Defense Command troops assigned to ground duty; the air force, 200,000 men of the Strategic Rocket Forces.', uar: 'Includes 4,500 men of the "Missile Command," not shown separately.', laos: 'Royal Lao forces only; the Pathet Lao, about 25,000.', pakistan: 'Includes 25,000 Azad Kashmir troops.', australia: Includes women., new-zealand: Includes women., norway: 'As printed; the services give 32.'}}
+        army: {src: sa67-1266, us: 1200, belgium: 83, denmark: 30, france: 338, west-germany: 307, greece: 118, italy: 270, luxembourg: 2, netherlands: 85, norway: 17, portugal: 120, spain: 212, sweden: 47, switzerland: 21, uk: 218, albania: 30, bulgaria: 125, czechoslovakia: 175, east-germany: 85, hungary: 100, poland: 185, romania: 175, ussr: 2000, yugoslavia: 220, iran: 164, israel: 60, turkey: 360, uar: 160, cambodia: 34, china: 2250, taiwan: 400, india: 807, indonesia: 290, japan: 171, laos: 58, malaysia: 26, north-korea: 340, north-vietnam: 250, pakistan: 250, philippines: 26, south-korea: 500, south-vietnam: 275, thailand: 85, australia: 35, canada: 44, cuba: 90, new-zealand: 6, south-africa: 16}
+        navy: {src: sa67-1266, us: 1007, belgium: 5, denmark: 7, france: 84, west-germany: 33, greece: 18, italy: 40, luxembourg: null, netherlands: 21, norway: 6, portugal: 15, spain: 42, sweden: 12, switzerland: null, uk: 97, albania: 3, bulgaria: 7, czechoslovakia: null, east-germany: 17, hungary: null, poland: 15, romania: 8, ussr: 465, yugoslavia: 24, iran: 6, israel: 3, turkey: 37, uar: 11, cambodia: 1, china: 136, taiwan: 62, india: 17, indonesia: 40, japan: 35, laos: 1, malaysia: 2, north-korea: 8, north-vietnam: 3, pakistan: 8, philippines: 5, south-korea: 47, south-vietnam: 15, thailand: 21, australia: 15, canada: 18, cuba: 6, new-zealand: 3, south-africa: 3, printed: {uar: Includes the Coast Guard.}}
+        air: {src: sa67-1266, us: 887, belgium: 19, denmark: 13, france: 113, west-germany: 100, greece: 23, italy: 66, luxembourg: null, netherlands: 23, norway: 9, portugal: 13, spain: 37, sweden: 24, switzerland: 10, uk: 122, albania: 6, bulgaria: 24, czechoslovakia: 45, east-germany: 20, hungary: 9, poland: 60, romania: 18, ussr: 700, yugoslavia: 20, iran: 10, israel: 8, turkey: 53, uar: 15, cambodia: 3, china: 100, taiwan: 82, india: 55, indonesia: 22, japan: 40, laos: 1, malaysia: 2, north-korea: 20, north-vietnam: 4, pakistan: 20, philippines: 7, south-korea: 25, south-vietnam: 14, thailand: 20, australia: 19, canada: 45, cuba: 25, new-zealand: 4, south-africa: 3, printed: {indonesia: Includes parachute troops.}}
+      1967:
+        total: {src: sa68-1256, us: 3400, belgium: 102, denmark: 46, france: 520, west-germany: 460, greece: 158, italy: 416, luxembourg: 1, netherlands: 130, norway: 35, portugal: 149, spain: 275, uk: 429, albania: 38, bulgaria: 154, czechoslovakia: 225, east-germany: 127, hungary: 102, poland: 270, romania: 173, ussr: 3220, iran: 180, iraq: 82, israel: 71, jordan: 32, saudi-arabia: 36, syria: 61, turkey: 480, uar: 180, cambodia: 38, china: 2736, taiwan: 547, india: 977, indonesia: 352, japan: 246, laos: 75, malaysia: 33, mongolia: 18, north-korea: 368, north-vietnam: 418, pakistan: 323, philippines: 30, singapore: 2, south-korea: 612, south-vietnam: 325, thailand: 126, australia: 80, canada: 103, cuba: 121, new-zealand: 13, as: {north-vietnam: North Viet-Nam, south-vietnam: South Viet-Nam}, printed: {west-germany: The army includes the territorial force., ussr: 'The army includes Air Defense Command troops assigned to ground duty; the air force, the Strategic Rocket Forces.', uar: 'Includes the missile command, not shown separately; the services include reservists.', china: Includes railway engineer troops., laos: 'Royal Lao forces only; the Pathet Lao, about 30,000.', pakistan: Includes Azad Kashmir troops.}}
+        army: {src: sa68-1256, us: 1470, belgium: 76, denmark: 28, france: 340, west-germany: 325, greece: 118, italy: 310, luxembourg: 1, netherlands: 85, norway: 18, portugal: 120, spain: 200, uk: 215, albania: 30, bulgaria: 125, czechoslovakia: 175, east-germany: 85, hungary: 95, poland: 185, romania: 150, ussr: 2000, iran: 164, iraq: 70, israel: 60, jordan: 30, saudi-arabia: 30, syria: 50, turkey: 390, uar: 140, cambodia: 34, china: 2500, taiwan: 400, india: 900, indonesia: 290, japan: 172, laos: 73, malaysia: 28, mongolia: 17, north-korea: 340, north-vietnam: 410, pakistan: 300, philippines: 17, singapore: 2, south-korea: 540, south-vietnam: 285, thailand: 85, australia: 43, canada: 42, cuba: 90, new-zealand: 6}
+        navy: {src: sa68-1256, us: 1030, belgium: 5, denmark: 7, france: 72, west-germany: 33, greece: 17, italy: 40, luxembourg: null, netherlands: 21, norway: 8, portugal: 15, spain: 40, uk: 94, albania: 3, bulgaria: 7, czechoslovakia: null, east-germany: 17, hungary: null, poland: 15, romania: 8, ussr: 465, iran: 6, iraq: 2, israel: 3, jordan: '(Z)', saudi-arabia: 1, syria: 2, turkey: 37, uar: 16, cambodia: 1, china: 136, taiwan: 62, india: 17, indonesia: 40, japan: 35, laos: 1, malaysia: 3, mongolia: null, north-korea: 8, north-vietnam: 4, pakistan: 9, philippines: 5, singapore: null, south-korea: 47, south-vietnam: 24, thailand: 21, australia: 17, canada: 17, cuba: 6, new-zealand: 3}
+        air: {src: sa68-1256, us: 900, belgium: 21, denmark: 10, france: 108, west-germany: 102, greece: 23, italy: 66, luxembourg: null, netherlands: 24, norway: 9, portugal: 14, spain: 35, uk: 120, albania: 5, bulgaria: 22, czechoslovakia: 50, east-germany: 25, hungary: 7, poland: 70, romania: 15, ussr: 755, iran: 10, iraq: 10, israel: 8, jordan: 2, saudi-arabia: 5, syria: 9, turkey: 53, uar: 19, cambodia: 3, china: 100, taiwan: 85, india: 60, indonesia: 22, japan: 40, laos: 2, malaysia: 3, mongolia: 1, north-korea: 20, north-vietnam: 5, pakistan: 14, philippines: 8, singapore: null, south-korea: 25, south-vietnam: 16, thailand: 20, australia: 21, canada: 44, cuba: 25, new-zealand: 4, printed: {indonesia: Includes parachute troops.}}
+      1968:
+        total: {src: sa69-1251, us: 3500, austria: 50, belgium: 99, denmark: 45, finland: 36, france: 505, west-germany: 456, greece: 161, italy: 365, netherlands: 130, norway: 35, portugal: 183, spain: 305, sweden: 626, switzerland: 700, uk: 427, yugoslavia: 220, albania: 38, bulgaria: 153, czechoslovakia: 225, east-germany: 126, hungary: 102, poland: 274, romania: 173, ussr: 3220, iran: 221, iraq: 82, israel: 40, jordan: 55, saudi-arabia: 36, syria: 61, turkey: 514, uar: 211, australia: 84, burma: 138, cambodia: 50, china: 2761, taiwan: 528, india: 1033, indonesia: 340, japan: 250, north-korea: 384, south-korea: 620, laos: 67, malaysia: 34, pakistan: 324, philippines: 31, thailand: 142, north-vietnam: 448, south-vietnam: 410, algeria: 59, morocco: 54, south-africa: 39, canada: 103, cuba: 194, as: {west-germany: 'Germany, Fed. Rep. of', north-vietnam: 'Vietnam, North', south-vietnam: 'Vietnam, Rep. of', china: China (mainland), taiwan: China (Taiwan)}, printed: {uar: 'Includes the missile command, not shown separately; the services include reservists.', laos: 'Royal Lao forces only; the Pathet Lao, about 30,000.', sweden: 'As printed; the Abstract of 1967 printed 82 for 1966. Check against the Military Balance.', switzerland: 'As printed; the Abstract of 1967 printed 31 for 1966. Check against the Military Balance.'}}
+        army: {src: sa69-1251, us: 1535, austria: 45, belgium: 75, denmark: 28, finland: 31, france: 328, west-germany: 326, greece: 118, italy: 265, netherlands: 84, norway: 19, portugal: 150, spain: 225, sweden: 600, switzerland: 651, uk: 210, yugoslavia: 180, albania: 30, bulgaria: 125, czechoslovakia: 175, east-germany: 85, hungary: 95, poland: 185, romania: 150, ussr: 2000, iran: 200, iraq: 70, israel: 29, jordan: 53, saudi-arabia: 30, syria: 50, turkey: 425, uar: 180, australia: 45, burma: 125, cambodia: 45, china: 2500, taiwan: 372, india: 950, indonesia: 275, japan: 174, north-korea: 345, south-korea: 550, laos: 65, malaysia: 28, pakistan: 300, philippines: 16, thailand: 95, north-vietnam: 440, south-vietnam: 370, algeria: 55, morocco: 50, south-africa: 28, canada: 42, cuba: 175}
+        navy: {src: sa69-1251, us: 1065, austria: null, belgium: 4, denmark: 7, finland: 2, france: 69, west-germany: 32, greece: 20, italy: 40, netherlands: 22, norway: 7, portugal: 15, spain: 42, sweden: 12, switzerland: null, uk: 96, yugoslavia: 20, albania: 3, bulgaria: 6, czechoslovakia: null, east-germany: 16, hungary: null, poland: 19, romania: 8, ussr: 465, iran: 6, iraq: 2, israel: 3, jordan: '(Z)', saudi-arabia: 1, syria: 2, turkey: 39, uar: 12, australia: 17, burma: 6, cambodia: 2, china: 141, taiwan: 71, india: 25, indonesia: 40, japan: 36, north-korea: 9, south-korea: 47, laos: '(Z)', malaysia: 3, pakistan: 9, philippines: 6, thailand: 22, north-vietnam: 3, south-vietnam: 24, algeria: 2, morocco: 1, south-africa: 3, canada: 17, cuba: 7}
+        air: {src: sa69-1251, us: 900, austria: 5, belgium: 20, denmark: 10, finland: 3, france: 108, west-germany: 98, greece: 23, italy: 60, netherlands: 24, norway: 9, portugal: 18, spain: 38, sweden: 14, switzerland: 49, uk: 121, yugoslavia: 20, albania: 5, bulgaria: 22, czechoslovakia: 50, east-germany: 25, hungary: 7, poland: 70, romania: 15, ussr: 755, iran: 15, iraq: 10, israel: 8, jordan: 2, saudi-arabia: 5, syria: 9, turkey: 50, uar: 15, australia: 22, burma: 7, cambodia: 3, china: 120, taiwan: 85, india: 58, indonesia: 25, japan: 40, north-korea: 30, south-korea: 23, laos: 2, malaysia: 3, pakistan: 15, philippines: 9, thailand: 25, north-vietnam: 5, south-vietnam: 16, algeria: 2, morocco: 3, south-africa: 8, canada: 44, cuba: 12, printed: {canada: 'The page prints the figure broken, its digits displaced; the total less the army and the navy gives 44.', cuba: 'The page prints the figure broken; the total less the army and the navy gives 12.'}}
+
+  - key: acda
+    title: Military spending and men under arms, as ACDA counted them
+    asof: '1966'
+    unit: count
+    note: 'The Arms Control and Disarmament Agency''s first world table, published December 1968: spending in millions of U.S. dollars at current prices and exchange rates; armed forces in thousands. "E" is ACDA''s estimate.'
+    rows:
+      - {key: us, label: United States}
+      - {key: h-nato, label: 'NATO, Europe', group: true}
+      - {key: belgium, label: Belgium, indent: 1}
+      - {key: denmark, label: Denmark, indent: 1}
+      - {key: france, label: France, indent: 1}
+      - {key: west-germany, label: West Germany, indent: 1}
+      - {key: greece, label: Greece, indent: 1}
+      - {key: iceland, label: Iceland, indent: 1}
+      - {key: italy, label: Italy, indent: 1}
+      - {key: luxembourg, label: Luxembourg, indent: 1}
+      - {key: netherlands, label: Netherlands, indent: 1}
+      - {key: norway, label: Norway, indent: 1}
+      - {key: portugal, label: Portugal, indent: 1}
+      - {key: turkey, label: Turkey, indent: 1}
+      - {key: uk, label: United Kingdom, indent: 1}
+      - {key: nato-europe, label: 'NATO, Europe', sum: [belgium, denmark, france, west-germany, greece, iceland, italy, luxembourg, netherlands, norway, portugal, turkey, uk]}
+      - {key: canada, label: Canada}
+      - {key: h-warsaw, label: Warsaw Pact, group: true}
+      - {key: ussr, label: Soviet Union, indent: 1}
+      - {key: bulgaria, label: Bulgaria, indent: 1}
+      - {key: czechoslovakia, label: Czechoslovakia, indent: 1}
+      - {key: east-germany, label: East Germany, indent: 1}
+      - {key: hungary, label: Hungary, indent: 1}
+      - {key: poland, label: Poland, indent: 1}
+      - {key: romania, label: Romania, indent: 1}
+      - {key: warsaw, label: Warsaw Pact, sum: [ussr, bulgaria, czechoslovakia, east-germany, hungary, poland, romania]}
+      - {key: h-europe, label: Other Europe, group: true}
+      - {key: albania, label: Albania}
+      - {key: austria, label: Austria}
+      - {key: finland, label: Finland}
+      - {key: spain, label: Spain}
+      - {key: sweden, label: Sweden}
+      - {key: switzerland, label: Switzerland}
+      - {key: yugoslavia, label: Yugoslavia}
+      - {key: h-mideast, label: Middle East and Africa, group: true}
+      - {key: iran, label: Iran}
+      - {key: iraq, label: Iraq}
+      - {key: israel, label: Israel}
+      - {key: jordan, label: Jordan}
+      - {key: saudi-arabia, label: Saudi Arabia}
+      - {key: syria, label: Syria}
+      - {key: uar, label: Egypt (United Arab Republic)}
+      - {key: algeria, label: Algeria}
+      - {key: h-asia, label: Asia, group: true}
+      - {key: china, label: China}
+      - {key: taiwan, label: Taiwan}
+      - {key: north-korea, label: North Korea}
+      - {key: south-korea, label: South Korea}
+      - {key: north-vietnam, label: North Vietnam}
+      - {key: south-vietnam, label: South Vietnam}
+      - {key: laos, label: Laos}
+      - {key: cambodia, label: Cambodia}
+      - {key: thailand, label: Thailand}
+      - {key: burma, label: Burma}
+      - {key: malaysia, label: Malaysia}
+      - {key: indonesia, label: Indonesia}
+      - {key: philippines, label: Philippines}
+      - {key: japan, label: Japan}
+      - {key: mongolia, label: Mongolia}
+      - {key: india, label: India}
+      - {key: pakistan, label: Pakistan}
+      - {key: h-americas, label: The Americas, group: true}
+      - {key: cuba, label: Cuba}
+    cols:
+      - {key: spend, head: 'Spending, $m'}
+      - {key: men, head: 'Men, 000'}
+    years:
+      1966:
+        spend: {src: acda-1966, us: 63283, canada: 1600, belgium: 530, denmark: 310, france: 5300, west-germany: 4950, greece: 240, iceland: 0, italy: 2125, luxembourg: 10, netherlands: 775, norway: 260, portugal: 240, turkey: 445, uk: 6150, nato-europe: 21335, bulgaria: 210E, czechoslovakia: 1400, east-germany: 1100, hungary: 300, poland: 1750, romania: 530, ussr: 47000, warsaw: 52290, albania: 70E, austria: 135, finland: 141, spain: 753, sweden: 924, switzerland: 388, yugoslavia: 406, iran: 328, iraq: 207, israel: 400, jordan: 61, saudi-arabia: 202, syria: 97, uar: 461, algeria: 99E, china: '6,500E', taiwan: 350, north-korea: 225E, south-korea: 150, north-vietnam: 300E, south-vietnam: 302, laos: 35, cambodia: 54, thailand: 97, burma: 113, malaysia: 121, indonesia: 165, philippines: 84, japan: 933, mongolia: 25E, india: 1400, pakistan: 483, cuba: 250E, as: {west-germany: 'Germany, West', south-vietnam: 'Vietnam, Republic of', taiwan: 'China, Republic of', china: 'China, Mainland'}}
+        men: {src: acda-1966, us: 3094, canada: 107, belgium: 107, denmark: 45, france: 523, west-germany: 450, greece: 159, iceland: 0, italy: 376, luxembourg: 3, netherlands: 130, norway: 34, portugal: 162, turkey: 440, uk: 424, nato-europe: 2853, bulgaria: 156, czechoslovakia: 220, east-germany: 122, hungary: 109, poland: 280, romania: 201, ussr: 3165, warsaw: 4253, albania: 38, austria: 40, finland: 43, spain: 291, sweden: 70, switzerland: 25, yugoslavia: 264, iran: 180, iraq: 79, israel: 71, jordan: 40, saudi-arabia: 30, syria: 60, uar: 190, algeria: 60, china: 2500, taiwan: 544, north-korea: 368, south-korea: 572, north-vietnam: 350, south-vietnam: 565, laos: 60, cambodia: 30, thailand: 132, burma: 110, malaysia: 30, indonesia: 350, philippines: 42, japan: 246, mongolia: 30, india: 1000, pakistan: 279, cuba: 121}
+
+  - key: sipri
+    title: Military spending, NATO and the Warsaw Pact, as SIPRI's first yearbook counted them
+    asof: calendar year
+    unit: count
+    note: 'Millions of U.S. dollars at 1960 prices and 1960 official exchange rates, published 1969. Expenditure, research and development included, war pensions excluded. For the NATO countries the yearbook names among its sources NATO''s own published figures (the *NATO Letter*, Jan. 1963; NATO press releases M4(67)2, Dec. 13, 1967, and M1(69)1, Jan. 16, 1969), and sent its series to the governments for comment. Bracketed figures are its rough estimates.'
+    rows:
+      - {key: us, label: United States}
+      - {key: canada, label: Canada}
+      - {key: h-nato, label: 'NATO, Europe', group: true}
+      - {key: belgium, label: Belgium, indent: 1}
+      - {key: denmark, label: Denmark, indent: 1}
+      - {key: france, label: France, indent: 1}
+      - {key: west-germany, label: West Germany, indent: 1}
+      - {key: greece, label: Greece, indent: 1}
+      - {key: italy, label: Italy, indent: 1}
+      - {key: luxembourg, label: Luxembourg, indent: 1}
+      - {key: netherlands, label: Netherlands, indent: 1}
+      - {key: norway, label: Norway, indent: 1}
+      - {key: portugal, label: Portugal, indent: 1}
+      - {key: turkey, label: Turkey, indent: 1}
+      - {key: uk, label: United Kingdom, indent: 1}
+      - {key: nato-europe, label: 'NATO, Europe', sum: [belgium, denmark, france, west-germany, greece, italy, luxembourg, netherlands, norway, portugal, turkey, uk]}
+      - {key: nato-ex-us, label: 'NATO, less the United States', sum: [canada, nato-europe]}
+      - {key: nato, label: NATO, sum: [us, nato-ex-us]}
+      - {key: h-warsaw, label: Warsaw Pact, group: true}
+      - {key: ussr, label: Soviet Union, indent: 1}
+      - {key: albania, label: Albania, indent: 1}
+      - {key: bulgaria, label: Bulgaria, indent: 1}
+      - {key: czechoslovakia, label: Czechoslovakia, indent: 1}
+      - {key: east-germany, label: East Germany, indent: 1}
+      - {key: hungary, label: Hungary, indent: 1}
+      - {key: poland, label: Poland, indent: 1}
+      - {key: romania, label: Romania, indent: 1}
+      - {key: warsaw-ex-ussr, label: 'Warsaw Pact, less the Soviet Union', sum: [albania, bulgaria, czechoslovakia, east-germany, hungary, poland, romania]}
+      - {key: warsaw, label: Warsaw Pact, sum: [ussr, warsaw-ex-ussr]}
+    cols:
+      - {key: spend, head: 'Spending, $m (1960 prices)'}
+    years:
+      1960:
+        spend: {src: sipri-6869, us: 45380, canada: 1660, belgium: 386, denmark: 161, france: 3908, west-germany: 2905, greece: 170, italy: 1144, luxembourg: 5, netherlands: 458, norway: 148, portugal: 105, turkey: 266, uk: 4639, nato-europe: 14295, nato-ex-us: 15955, nato: 61335, ussr: 10333, albania: '[55]', bulgaria: 153, czechoslovakia: 1222, east-germany: '[976]', hungary: '[260]', poland: 3725, romania: '[600]', warsaw-ex-ussr: 6991, warsaw: 17324}
+      1961:
+        spend: {src: sipri-6869, us: 47335, canada: 1708, belgium: 391, denmark: 164, france: 3876, west-germany: 3082, greece: 165, italy: 1182, luxembourg: 6, netherlands: 534, norway: 161, portugal: 168, turkey: 289, uk: 4628, nato-europe: 14646, nato-ex-us: 16354, nato: 63689, ussr: 12889, albania: '[55]', bulgaria: 184, czechoslovakia: 1327, east-germany: '[1104]', hungary: 303, poland: 4225, romania: '[625]', warsaw-ex-ussr: 7823, warsaw: 20712}
+      1962:
+        spend: {src: sipri-6869, us: 51203, canada: 1778, belgium: 415, denmark: 200, france: 4182, west-germany: 3894, greece: 168, italy: 1298, luxembourg: 7, netherlands: 569, norway: 178, portugal: 191, turkey: 306, uk: 4712, nato-europe: 16120, nato-ex-us: 17898, nato: 69101, ussr: 14111, albania: '[55]', bulgaria: 213, czechoslovakia: 1507, east-germany: 1233, hungary: 420, poland: 4462, romania: 650, warsaw-ex-ussr: 8540, warsaw: 22651}
+      1963:
+        spend: {src: sipri-6869, us: 50527, canada: 1653, belgium: 427, denmark: 203, france: 4110, west-germany: 4371, greece: 172, italy: 1447, luxembourg: 7, netherlands: 575, norway: 185, portugal: 187, turkey: 303, uk: 4768, nato-europe: 16755, nato-ex-us: 18408, nato: 68935, ussr: 15444, albania: '[55]', bulgaria: 217, czechoslovakia: 1552, east-germany: 1234, hungary: 514, poland: 4976, romania: 683, warsaw-ex-ussr: 9231, warsaw: 24675}
+      1964:
+        spend: {src: sipri-6869, us: 48618, canada: 1720, belgium: 459, denmark: 209, france: 4225, west-germany: 4193, greece: 179, italy: 1482, luxembourg: 9, netherlands: 626, norway: 188, portugal: 204, turkey: 323, uk: 4935, nato-europe: 17032, nato-ex-us: 18752, nato: 67573, ussr: 14778, albania: 56, bulgaria: 208, czechoslovakia: 1490, east-germany: 1236, hungary: 507, poland: 5204, romania: 685, warsaw-ex-ussr: 9386, warsaw: 24164, printed: {nato: 'As printed; the rows add to 67,370. The United States'' 1964 figure here repeats 1965''s (48,618); the yearbook''s world table (1A.1, p. 201) prints 48,821, which makes the total.'}}
+      1965:
+        spend: {src: sipri-6869, us: 48618, canada: 1536, belgium: 444, denmark: 220, france: 4293, west-germany: 4131, greece: 193, italy: 1537, luxembourg: 9, netherlands: 610, norway: 217, portugal: 204, turkey: 343, uk: 4925, nato-europe: 17126, nato-ex-us: 18662, nato: 67280, ussr: 14222, albania: 58, bulgaria: 186, czechoslovakia: 1393, east-germany: 1252, hungary: 409, poland: 5561, romania: 757, warsaw-ex-ussr: 9616, warsaw: 23838}
+      1966:
+        spend: {src: sipri-6869, us: 57951, canada: 1576, belgium: 448, denmark: 217, france: 4415, west-germany: 4057, greece: 210, italy: 1662, luxembourg: 9, netherlands: 594, norway: 216, portugal: 214, turkey: 332, uk: 4875, nato-europe: 17249, nato-ex-us: 18825, nato: 76776, ussr: 14889, albania: 54, bulgaria: 193, czechoslovakia: 1468, east-germany: 1477, hungary: 407, poland: 5860, romania: 800, warsaw-ex-ussr: 10259, warsaw: 25148}
+      1967:
+        spend: {src: sipri-6869, us: 66889, canada: 1695, belgium: 471, denmark: 218, france: 4615, west-germany: 4225, greece: 270, italy: 1623, luxembourg: 7, netherlands: 660, norway: 223, portugal: 263, turkey: 333, uk: 5080, nato-europe: 18024, nato-ex-us: 19719, nato: 86608, ussr: 16111, albania: 54, bulgaria: 213, czechoslovakia: 1643, east-germany: 1611, hungary: 434, poland: 6083, romania: 833, warsaw-ex-ussr: 10871, warsaw: 26982, printed: {nato-europe: 'As printed; the countries add to 17,988.', nato-ex-us: 'As printed; Canada and Europe add to 19,683.', nato: 'As printed; the rows add to 86,572.'}}
+      1968:
+        spend: {src: sipri-6869, us: 68213, canada: 1612, belgium: 498, denmark: 230, france: 4698, west-germany: 3968, greece: 317, italy: 1647, luxembourg: 6, netherlands: 660, norway: 244, portugal: 271, turkey: 363, uk: 5028, nato-europe: 17930, nato-ex-us: 19542, nato: 87755, ussr: 18556, albania: 61, bulgaria: 213, czechoslovakia: 1740, east-germany: 2595, hungary: 512, poland: 6614, romania: 865, warsaw-ex-ussr: 12600, warsaw: 31156}
+
+  - key: uk
+    title: Britain's regular forces, as the British government printed them
+    asof: June 30
+    unit: thousands
+    tol: 0.05
+    note: 'Men serving, the women''s services apart. Men enlisted abroad are not counted, but the Army counts those whose papers are held in the United Kingdom; the Royal Navy''s figures to 1962 leave out regulars on terminal leave (the notes of the 1968 and 1969 editions). Each year as first printed, in the next year''s *Annual Abstract*; the 1969 edition prints the same figures for 1960-67.'
+    rows:
+      - {key: navy, label: Royal Navy}
+      - {key: army, label: Army}
+      - {key: air, label: Royal Air Force}
+      - {key: total, label: Total, sum: [navy, army, air]}
+    cols:
+      - {key: then, head: Printed then}
+    years:
+      1960:
+        then: {src: aas61-136, navy: 93.4, army: 251.8, air: 158.1, total: 503.3}
+      1961:
+        then: {src: aas62-135, navy: 91.4, army: 217.4, air: 149.6, total: 458.4}
+      1962:
+        then: {src: aas63-139, navy: 90.6, army: 192.8, air: 141.3, total: 424.8, printed: {total: 'As printed; the services add to 424.7.'}}
+      1963:
+        then: {src: aas64-134, navy: 92.7, army: 181.1, air: 135.0, total: 408.8}
+      1964:
+        then: {src: aas65-132, navy: 94.3, army: 185.5, air: 127.7, total: 407.5}
+      1965:
+        then: {src: aas66-134, navy: 94.6, army: 187.3, air: 124.6, total: 406.5}
+      1966:
+        then: {src: aas67-135, navy: 93.6, army: 187.5, air: 120.5, total: 401.5, printed: {total: 'As printed; the services add to 401.6.'}}
+      1967:
+        then: {src: aas68-133, navy: 92.9, army: 189.0, air: 117.8, total: 399.7}
+      1968:
+        then: {src: aas69-137, navy: 89.9, army: 180.7, air: 113.1, total: 383.7}
+
+  - key: cow
+    title: Men under arms, the world, as compiled since
+    asof: each year
+    unit: thousands
+    note: 'The Correlates of War Project''s count, assembled later from many sources and revised since: not what anyone printed then, and not the same count as the tables above. A country the project lists none for that year is left out.'
+    rows: *world
+    cols:
+      - {key: n, head: COW today}
+    years:
+      1960: {n: {src: cow, us: 2306, belgium: 110, canada: 121, denmark: 32, france: 1025, west-germany: 310, greece: 160, italy: 321, luxembourg: 3, netherlands: 151, norway: 37, portugal: 78, turkey: 435, uk: 519, ussr: 3600, bulgaria: 118, czechoslovakia: 303, east-germany: 111, hungary: 80, poland: 200, romania: 227, albania: 27, austria: 35, finland: 42, spain: 371, sweden: 29, switzerland: 0, yugoslavia: 370, iran: 208, iraq: 74, israel: 65, saudi-arabia: 30, uar: 160, morocco: 27, south-africa: 22, china: 3234, taiwan: 600, north-korea: 400, south-korea: 650, north-vietnam: 240, south-vietnam: 160, laos: 29, cambodia: 35, thailand: 97, burma: 79, malaysia: 20, indonesia: 316, philippines: 58, japan: 263, mongolia: 24, india: 535, pakistan: 223, australia: 47, new-zealand: 12, cuba: 46}}
+      1961: {n: {src: cow, us: 2307, belgium: 110, canada: 124, denmark: 45, france: 720, west-germany: 350, greece: 160, italy: 470, luxembourg: 6, netherlands: 141, norway: 32, portugal: 75, turkey: 400, uk: 475, ussr: 3000, bulgaria: 132, czechoslovakia: 310, east-germany: 139, hungary: 115, poland: 305, romania: 312, albania: 50, austria: 38, finland: 48, spain: 345, sweden: 80, switzerland: 29, yugoslavia: 250, iran: 185, iraq: 90, israel: 63, jordan: 35, saudi-arabia: 35, syria: 52, uar: 215, morocco: 40, south-africa: 24, china: 2200, taiwan: 580, north-korea: 390, south-korea: 570, north-vietnam: 250, south-vietnam: 375, laos: 55, cambodia: 65, thailand: 80, burma: 90, malaysia: 44, indonesia: 375, philippines: 62, japan: 230, mongolia: 26, india: 775, pakistan: 243, australia: 46, new-zealand: 13, cuba: 270}}
+      1962: {n: {src: cow, us: 2807, belgium: 110, canada: 124, denmark: 47, france: 705, west-germany: 354, greece: 160, italy: 470, luxembourg: 6, netherlands: 141, norway: 34, portugal: 80, turkey: 420, uk: 475, ussr: 3000, bulgaria: 135, czechoslovakia: 305, east-germany: 144, hungary: 120, poland: 310, romania: 304, albania: 50, austria: 38, finland: 47, spain: 340, sweden: 80, switzerland: 29, yugoslavia: 250, iran: 200, iraq: 91, israel: 65, jordan: 35, saudi-arabia: 37, syria: 54, uar: 220, algeria: 45, morocco: 45, south-africa: 24, china: 2300, taiwan: 570, north-korea: 380, south-korea: 570, north-vietnam: 260, south-vietnam: 400, laos: 60, cambodia: 70, thailand: 83, burma: 100, malaysia: 46, indonesia: 375, philippines: 60, japan: 235, mongolia: 28, india: 800, pakistan: 249, australia: 49, new-zealand: 12, cuba: 270}}
+      1963: {n: {src: cow, us: 2700, belgium: 115, canada: 120, denmark: 45, france: 735, west-germany: 425, greece: 175, italy: 515, luxembourg: 2, netherlands: 130, norway: 35, portugal: 145, turkey: 475, uk: 450, ussr: 3110, bulgaria: 183, czechoslovakia: 301, east-germany: 203, hungary: 156, poland: 303, romania: 250, albania: 52, austria: 75, finland: 35, spain: 370, sweden: 70, switzerland: 20, yugoslavia: 350, iran: 200, iraq: 80, israel: 65, jordan: 45, saudi-arabia: 35, syria: 75, uar: 135, algeria: 70, morocco: 40, south-africa: 45, china: 2500, taiwan: 544, north-korea: 352, south-korea: 627, north-vietnam: 250, south-vietnam: 425, laos: 83, cambodia: 75, thailand: 85, burma: 105, malaysia: 14, indonesia: 375, philippines: 45, japan: 243, mongolia: 28, india: 1083, pakistan: 270, australia: 49, new-zealand: 12, cuba: 80}}
+      1964: {n: {src: cow, us: 2687, belgium: 115, canada: 120, denmark: 45, france: 690, west-germany: 440, greece: 175, italy: 590, luxembourg: 2, netherlands: 125, norway: 35, portugal: 302, turkey: 480, uk: 435, ussr: 3110, bulgaria: 178, czechoslovakia: 301, east-germany: 203, hungary: 156, poland: 302, romania: 250, albania: 52, austria: 55, finland: 40, spain: 370, sweden: 70, switzerland: 20, yugoslavia: 336, iran: 200, iraq: 80, israel: 65, jordan: 45, saudi-arabia: 40, syria: 80, uar: 160, algeria: 65, morocco: 45, south-africa: 50, china: 2750, taiwan: 600, north-korea: 362, south-korea: 600, north-vietnam: 256, south-vietnam: 230, laos: 91, cambodia: 75, thailand: 85, burma: 123, malaysia: 32, indonesia: 376, philippines: 47, japan: 244, mongolia: 30, india: 1215, pakistan: 275, australia: 53, new-zealand: 13, cuba: 110}}
+      1965: {n: {src: cow, us: 2660, belgium: 115, canada: 120, denmark: 50, france: 585, west-germany: 440, greece: 190, italy: 460, luxembourg: 2, netherlands: 125, norway: 35, portugal: 160, turkey: 490, uk: 425, ussr: 2780, bulgaria: 178, czechoslovakia: 267, east-germany: 205, hungary: 156, poland: 302, romania: 258, albania: 52, austria: 55, finland: 40, spain: 370, sweden: 70, switzerland: 20, yugoslavia: 310, iran: 205, iraq: 90, israel: 65, jordan: 55, saudi-arabia: 40, syria: 70, uar: 205, algeria: 60, morocco: 50, south-africa: 55, china: 2400, taiwan: 524, north-korea: 378, south-korea: 604, north-vietnam: 256, south-vietnam: 565, laos: 86, cambodia: 76, thailand: 132, burma: 133, malaysia: 37, singapore: 0, indonesia: 351, philippines: 46, japan: 246, mongolia: 0, india: 1220, pakistan: 277, australia: 53, new-zealand: 13, cuba: 110}}
+      1966: {n: {src: cow, us: 3090, belgium: 115, canada: 110, denmark: 50, france: 580, west-germany: 480, greece: 175, italy: 435, luxembourg: 2, netherlands: 120, norway: 35, portugal: 190, turkey: 510, uk: 425, ussr: 3800, bulgaria: 176, czechoslovakia: 259, east-germany: 201, hungary: 156, poland: 303, romania: 212, albania: 52, austria: 55, finland: 40, spain: 375, sweden: 70, switzerland: 25, yugoslavia: 310, iran: 210, iraq: 90, israel: 65, jordan: 50, saudi-arabia: 45, syria: 80, uar: 215, algeria: 75, morocco: 65, south-africa: 50, china: 2600, taiwan: 544, north-korea: 383, south-korea: 572, north-vietnam: 256, south-vietnam: 617, laos: 93, cambodia: 83, thailand: 151, burma: 135, malaysia: 35, singapore: 0, indonesia: 346, philippines: 45, japan: 227, mongolia: 0, india: 1400, pakistan: 300, australia: 59, new-zealand: 13, cuba: 110}}
+      1967: {n: {src: cow, us: 3380, belgium: 115, canada: 105, denmark: 50, france: 595, west-germany: 490, greece: 170, italy: 430, luxembourg: 2, netherlands: 120, norway: 35, portugal: 195, turkey: 530, uk: 425, ussr: 3900, bulgaria: 176, czechoslovakia: 259, east-germany: 201, hungary: 156, poland: 305, romania: 190, albania: 52, austria: 60, finland: 40, spain: 370, sweden: 70, switzerland: 25, yugoslavia: 297, iran: 210, iraq: 90, israel: 75, jordan: 60, saudi-arabia: 50, syria: 80, uar: 220, algeria: 75, morocco: 65, south-africa: 50, china: 2710, taiwan: 547, north-korea: 383, south-korea: 612, north-vietnam: 418, south-vietnam: 645, laos: 62, cambodia: 83, thailand: 151, burma: 136, malaysia: 40, singapore: 10, indonesia: 347, philippines: 45, japan: 231, mongolia: 0, india: 1420, pakistan: 351, australia: 72, new-zealand: 13, cuba: 110}}
+      1968: {n: {src: cow, us: 3550, belgium: 115, canada: 105, denmark: 45, france: 570, west-germany: 490, greece: 185, italy: 430, luxembourg: 1, netherlands: 120, norway: 35, portugal: 215, turkey: 535, uk: 410, ussr: 4100, bulgaria: 175, czechoslovakia: 250, east-germany: 201, hungary: 146, poland: 310, romania: 190, albania: 52, austria: 55, finland: 40, spain: 370, sweden: 75, switzerland: 25, yugoslavia: 257, iran: 210, iraq: 90, israel: 95, jordan: 55, saudi-arabia: 60, syria: 65, uar: 195, algeria: 75, morocco: 70, south-africa: 55, china: 2800, taiwan: 528, north-korea: 410, south-korea: 620, north-vietnam: 447, south-vietnam: 735, laos: 62, cambodia: 84, thailand: 167, burma: 136, malaysia: 46, singapore: 11, indonesia: 348, philippines: 51, japan: 235, mongolia: 0, india: 1480, pakistan: 357, australia: 80, new-zealand: 13, cuba: 110}}
+
+  - key: ships
+    title: Warships, the world
+    asof: June 30
+    unit: count
+    note: 'Jane''s count: the reserve fleets included, ships building not. The United States'' count includes the Coast Guard''s; the Soviet Union''s is partly estimated. Cruisers with the communications, command and flagships Jane''s puts with them; destroyers with frigates and escorts; patrol with corvettes and torpedo boats; mine with layers, sweepers and hunters; landing with craft; auxiliary with supply ships, transports and tugs; other, seaplane tenders, gunboats, launches, training ships and the rest.'
+    rows:
+      - {key: us, label: United States}
+      - {key: ussr, label: Soviet Union}
+      - {key: uk, label: United Kingdom}
+      - {key: france, label: France}
+      - {key: west-germany, label: West Germany}
+      - {key: italy, label: Italy}
+      - {key: netherlands, label: Netherlands}
+      - {key: canada, label: Canada}
+      - {key: greece, label: Greece}
+      - {key: turkey, label: Turkey}
+      - {key: portugal, label: Portugal}
+      - {key: east-germany, label: East Germany}
+      - {key: poland, label: Poland}
+      - {key: china, label: China}
+      - {key: taiwan, label: Taiwan}
+      - {key: japan, label: Japan}
+      - {key: north-korea, label: North Korea}
+      - {key: south-korea, label: South Korea}
+      - {key: south-vietnam, label: South Vietnam}
+      - {key: indonesia, label: Indonesia}
+      - {key: india, label: India}
+      - {key: pakistan, label: Pakistan}
+      - {key: israel, label: Israel}
+      - {key: uar, label: Egypt (United Arab Republic)}
+      - {key: cuba, label: Cuba}
+    cols:
+      - {key: total, head: Total}
+      - {key: carriers, head: Carriers}
+      - {key: submarines, head: Subs}
+      - {key: cruisers, head: Cruisers}
+      - {key: destroyers, head: Destroyers}
+      - {key: patrol, head: Patrol}
+      - {key: mine, head: Mine}
+      - {key: landing, head: Landing}
+      - {key: auxiliary, head: Auxiliary}
+      - {key: other, head: Other}
+    sumcols: {total: [carriers, submarines, cruisers, destroyers, patrol, mine, landing, auxiliary, other]}
+    split: [[total, carriers, submarines], [cruisers, destroyers, patrol], [mine, landing, auxiliary, other]]
+    years:
+      1967:
+        total: {src: sa68-1258, us: 2761, ussr: 2868, uk: 761, france: 345, west-germany: 287, italy: 293, netherlands: 154, canada: 153, greece: 113, turkey: 112, portugal: 107, east-germany: 364, poland: 147, china: 891, taiwan: 322, japan: 348, north-korea: 139, south-korea: 78, south-vietnam: 85, indonesia: 255, india: 60, pakistan: 33, israel: 30, uar: 116, cuba: 96, as: {south-vietnam: Viet-Nam, china: China (mainland), taiwan: China (Taiwan), west-germany: 'Germany, Fed. Rep. of', east-germany: 'Germany, Eastern'}}
+        carriers: {src: sa68-1258, us: 56, ussr: null, uk: 7, france: 4, west-germany: null, italy: null, netherlands: 1, canada: 1, greece: null, turkey: null, portugal: null, east-germany: null, poland: null, china: null, taiwan: null, japan: null, north-korea: null, south-korea: null, south-vietnam: null, indonesia: null, india: 1, pakistan: null, israel: null, uar: null, cuba: null}
+        submarines: {src: sa68-1258, us: 207, ussr: 400, uk: 48, france: 23, west-germany: 12, italy: 7, netherlands: 6, canada: 4, greece: 3, turkey: 10, portugal: 3, east-germany: null, poland: 11, china: 34, taiwan: null, japan: 7, north-korea: null, south-korea: null, south-vietnam: null, indonesia: 12, india: null, pakistan: 1, israel: 4, uar: 13, cuba: null}
+        cruisers: {src: sa68-1258, us: 46, ussr: 20, uk: 3, france: 2, west-germany: null, italy: 3, netherlands: 2, canada: null, greece: null, turkey: null, portugal: null, east-germany: null, poland: null, china: null, taiwan: null, japan: null, north-korea: null, south-korea: null, south-vietnam: null, indonesia: 1, india: 2, pakistan: 1, israel: null, uar: null, cuba: null}
+        destroyers: {src: sa68-1258, us: 662, ussr: 220, uk: 93, france: 48, west-germany: 34, italy: 20, netherlands: 20, canada: 23, greece: 12, turkey: 10, portugal: 13, east-germany: 4, poland: 5, china: 19, taiwan: 18, japan: 42, north-korea: null, south-korea: 9, south-vietnam: null, indonesia: 18, india: 17, pakistan: 7, israel: 3, uar: 9, cuba: 4}
+        patrol: {src: sa68-1258, us: 60, ussr: 750, uk: 7, france: 14, west-germany: 54, italy: 46, netherlands: 12, canada: null, greece: 13, turkey: 15, portugal: 15, east-germany: 93, poland: 60, china: 254, taiwan: 76, japan: 30, north-korea: 36, south-korea: 17, south-vietnam: 22, indonesia: 79, india: null, pakistan: null, israel: 13, uar: 65, cuba: 58}
+        mine: {src: sa68-1258, us: 190, ussr: 350, uk: 107, france: 101, west-germany: 72, italy: 61, netherlands: 62, canada: 6, greece: 21, turkey: 28, portugal: 16, east-germany: 109, poland: 22, china: 40, taiwan: 14, japan: 49, north-korea: 30, south-korea: 12, south-vietnam: 3, indonesia: 21, india: 6, pakistan: 8, israel: null, uar: 8, cuba: null}
+        landing: {src: sa68-1258, us: 246, ussr: 230, uk: 38, france: 19, west-germany: 10, italy: 24, netherlands: 7, canada: null, greece: 23, turkey: null, portugal: 4, east-germany: 20, poland: 17, china: 59, taiwan: 83, japan: 10, north-korea: null, south-korea: 20, south-vietnam: 33, indonesia: 17, india: 2, pakistan: null, israel: 3, uar: 18, cuba: null}
+        auxiliary: {src: sa68-1258, us: 585, ussr: 240, uk: 163, france: 75, west-germany: 58, italy: 36, netherlands: 15, canada: 41, greece: 25, turkey: 8, portugal: 9, east-germany: 13, poland: 4, china: 28, taiwan: 21, japan: 8, north-korea: null, south-korea: 14, south-vietnam: 17, indonesia: 18, india: 9, pakistan: 7, israel: null, uar: 1, cuba: 1}
+        other: {src: sa68-1258, us: 709, ussr: 658, uk: 295, france: 59, west-germany: 47, italy: 96, netherlands: 29, canada: 78, greece: 16, turkey: 41, portugal: 47, east-germany: 125, poland: 28, china: 457, taiwan: 110, japan: 202, north-korea: 73, south-korea: 6, south-vietnam: 10, indonesia: 89, india: 23, pakistan: 9, israel: 7, uar: 2, cuba: 33}
+      1968:
+        total: {src: sa69-1253, us: 3366, ussr: 3258, uk: 682, france: 361, west-germany: 316, italy: 297, netherlands: 147, canada: 153, greece: 111, turkey: 125, portugal: 113, east-germany: 261, poland: 172, china: 891, taiwan: 322, japan: 289, north-korea: 181, south-korea: 82, south-vietnam: 85, indonesia: 253, india: 56, pakistan: 33, israel: 31, uar: 116, cuba: 96, as: {south-vietnam: Vietnam, china: China (mainland), taiwan: China (Taiwan), west-germany: 'Germany, Fed. Rep. of', east-germany: 'Germany, Eastern'}}
+        carriers: {src: sa69-1253, us: 56, ussr: null, uk: 6, france: 4, west-germany: null, italy: null, netherlands: 1, canada: 1, greece: null, turkey: null, portugal: null, east-germany: null, poland: null, china: null, taiwan: null, japan: null, north-korea: null, south-korea: null, south-vietnam: null, indonesia: null, india: 1, pakistan: null, israel: null, uar: null, cuba: null}
+        submarines: {src: sa69-1253, us: 201, ussr: 380, uk: 44, france: 19, west-germany: 12, italy: 8, netherlands: 6, canada: 4, greece: 3, turkey: 10, portugal: 3, east-germany: null, poland: 11, china: 33, taiwan: null, japan: 9, north-korea: 2, south-korea: null, south-vietnam: null, indonesia: 12, india: 4, pakistan: 1, israel: 4, uar: 13, cuba: null}
+        cruisers: {src: sa69-1253, us: 45, ussr: 25, uk: 3, france: 2, west-germany: null, italy: 4, netherlands: 2, canada: null, greece: null, turkey: null, portugal: null, east-germany: null, poland: null, china: null, taiwan: null, japan: null, north-korea: null, south-korea: null, south-vietnam: null, indonesia: 1, india: 2, pakistan: 1, israel: null, uar: null, cuba: null}
+        destroyers: {src: sa69-1253, us: 631, ussr: 200, uk: 92, france: 48, west-germany: 30, italy: 21, netherlands: 18, canada: 23, greece: 12, turkey: 10, portugal: 13, east-germany: 4, poland: 3, china: 19, taiwan: 18, japan: 42, north-korea: null, south-korea: 13, south-vietnam: null, indonesia: 18, india: 17, pakistan: 7, israel: 2, uar: 9, cuba: 4}
+        patrol: {src: sa69-1253, us: 44, ussr: 775, uk: 7, france: 14, west-germany: 46, italy: 47, netherlands: 12, canada: null, greece: 15, turkey: 23, portugal: 15, east-germany: 96, poland: 33, china: 312, taiwan: 76, japan: 30, north-korea: 60, south-korea: 17, south-vietnam: 22, indonesia: 79, india: null, pakistan: null, israel: 13, uar: 65, cuba: 58}
+        mine: {src: sa69-1253, us: 181, ussr: 350, uk: 105, france: 101, west-germany: 77, italy: 61, netherlands: 57, canada: 6, greece: 21, turkey: 32, portugal: 16, east-germany: 44, poland: 52, china: 27, taiwan: 14, japan: 48, north-korea: 34, south-korea: 12, south-vietnam: 3, indonesia: 21, india: 6, pakistan: 8, israel: null, uar: 8, cuba: null}
+        landing: {src: sa69-1253, us: 276, ussr: 230, uk: 29, france: 19, west-germany: 26, italy: 24, netherlands: 7, canada: null, greece: 24, turkey: null, portugal: 4, east-germany: 18, poland: 22, china: 70, taiwan: 83, japan: 10, north-korea: null, south-korea: 20, south-vietnam: 33, indonesia: 15, india: 2, pakistan: null, israel: 6, uar: 18, cuba: null}
+        auxiliary: {src: sa69-1253, us: 586, ussr: 240, uk: 153, france: 75, west-germany: 58, italy: 36, netherlands: 15, canada: 41, greece: 25, turkey: 8, portugal: 10, east-germany: 13, poland: 4, china: 27, taiwan: 21, japan: 8, north-korea: null, south-korea: 14, south-vietnam: 17, indonesia: 18, india: 9, pakistan: 7, israel: null, uar: 1, cuba: 1}
+        other: {src: sa69-1253, us: 1346, ussr: 1058, uk: 243, france: 79, west-germany: 67, italy: 96, netherlands: 29, canada: 78, greece: 11, turkey: 42, portugal: 52, east-germany: 86, poland: 47, china: 403, taiwan: 110, japan: 142, north-korea: 85, south-korea: 6, south-vietnam: 10, indonesia: 89, india: 15, pakistan: 9, israel: 6, uar: 2, cuba: 33}
+
+  - key: warheads
+    title: Nuclear warheads, the world
+    asof: each year
+    unit: count
+    note: An estimate, made since; none of these was published then.
+    rows:
+      - {key: us, label: United States}
+      - {key: ussr, label: Soviet Union}
+      - {key: uk, label: United Kingdom}
+      - {key: france, label: France}
+      - {key: china, label: China}
+    cols:
+      - {key: n, head: FAS today}
+    years:
+      1960: {n: {src: fas, us: 18638, ussr: 1627, uk: 105, france: null, china: null}}
+      1961: {n: {src: fas, us: 22229, ussr: 2492, uk: 155, france: null, china: null}}
+      1962: {n: {src: fas, us: 25540, ussr: 3346, uk: 211, france: null, china: null}}
+      1963: {n: {src: fas, us: 28133, ussr: 4259, uk: 256, france: null, china: null}}
+      1964: {n: {src: fas, us: 29463, ussr: 5242, uk: 271, france: 4, china: 1}}
+      1965: {n: {src: fas, us: 31139, ussr: 6144, uk: 271, france: 32, china: 5}}
+      1966: {n: {src: fas, us: 31175, ussr: 7091, uk: 281, france: 36, china: 20}}
+      1967: {n: {src: fas, us: 31255, ussr: 8400, uk: 355, france: 36, china: 25}}
+      1968: {n: {src: fas, us: 29561, ussr: 9490, uk: 317, france: 36, china: 35}}

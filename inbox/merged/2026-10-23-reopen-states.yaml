@@ -1,0 +1,89 @@
+patch: reopen-states
+by: Claude (the reopened-sources agent, States and cities), Oct. 23, 2026
+# The merge flags cal.1966-11-08.legislatures-wa as a possible duplicate of cal.1966-11-08.legislatures-ok
+# (Oklahoma's congressional districts): two States, two events. Settle it with ./bib resolve ... --take keep.
+ops:
+  - edit:
+      id: cal.1962-12-17.open-housing-co
+      base: 84b553d6
+      set:
+        c: '*Colorado Anti-Discrimination Commission v. Case*, [151 Colo. 235](https://static.case.law/colo/151/case-pdfs/0235-01.pdf): the Colorado Supreme Court, en banc, sustains the Fair Housing Act of 1959 under the police power; a refusal to sell compelled is no taking for private use. Its grant of power to order "such other action as in the judgment of the commission will effectuate the purposes of this article" struck, a delegation of legislative power, and the parts of the Commission''s order resting on it. Moore for the court; Hall dissenting.'
+  - edit:
+      id: cal.1961-09-29.open-housing-wa
+      base: 1da9db2b
+      set:
+        c: '*O''Meara v. Washington State Board Against Discrimination*, [58 Wash. 2d 793](https://static.case.law/wash-2d/58/case-pdfs/0793-01.pdf): the Washington Supreme Court, 5–4, holds void the legislature''s amendment of 1957 bringing publicly assisted housing under the Law Against Discrimination. A class drawn by a public loan on the home arbitrary: equal protection denied under the Fourteenth Amendment, a special privilege under Art. I, § 12. Foster for the court; Mallery, with Ott, concurring, private property taken for private use; Rosellini for the four in dissent.'
+  - edit:
+      id: cal.1961-08-08.state-and-city-finance-tx
+      base: 2cb65e03
+      set:
+        n: 'Acts 1961, 57th Leg., 1st C.S., ch. 24 (H.B. 20), the Limited Sales, Excise and Use Tax Act, [Tex. Gen. Laws 71](https://lrl.texas.gov/scanned/sessionLaws/57-1/HB_20_CH_24.pdf): "Filed without Governor''s signature, Aug. 16, 1961," [114](https://lrl.texas.gov/scanned/sessionLaws/57-1/HB_20_CH_24.pdf#page=44). Tex. Legis. Ref. Library, [57th Legislature, first called session](https://lrl.texas.gov/sessions/specialSessions/specialSessionTopics.cfm?legSessionID=57-1) (July 10–Aug. 8, 1961), and [second called session](https://lrl.texas.gov/sessions/specialSessions/specialSessionTopics.cfm?legSessionID=57-2) (Aug. 10–14). "The Making of a Sales Tax," [*Texas Observer*, Aug. 12, 1961, p. 1](https://issues.texasobserver.org/pdf/ustxtxb_obs_1961_08_12_issue.pdf). [[w.cunningham-cowboy-conservatism]]; [[w.davidson-race-and-class-in]]. Names: Daniel.'
+  - edit:
+      id: cal.1960-09-13.governors-wa
+      base: b45e8e48
+      set:
+        n: 'Votes: Wash. Secretary of State, [Election Results Archive](https://www.sos.wa.gov/elections/data-research/election-data-and-maps/election-results-and-voters-pamphlets/washington-state-election-results-archive) (the Secretary''s database, 1898–2006, "1960 Primary"), and [Wikipedia, "1960 Washington gubernatorial election"](https://en.wikipedia.org/wiki/1960_Washington_gubernatorial_election), alike; Check: Wash. *Official Abstract of Votes, State Primary, September 13, 1960*, 9. [[w.schwantes-pacific-northwest]]; [[w.peirce-pacific-states-of-america]]. Names: Rosellini, Andrews, Newman Clark.'
+  - edit:
+      id: cal.1962-11-06.state-constitutions-wa
+      base: b7af6c2f
+      set:
+        n: '[Wash. Legislature, Oral History Program, "Redistricting: 1962"](https://app.leg.wa.gov/oralhistory/redistricting2/1960s/1962/); [the voters'' pamphlet](https://www.sos.wa.gov/_assets/elections/voters''%20pamphlet%201962.pdf). Votes: Wash. Secretary of State, [Election Results Archive](https://www.sos.wa.gov/elections/data-research/election-data-and-maps/election-results-and-voters-pamphlets/washington-state-election-results-archive) ("1962 General", Initiative Measure 211), and [Wikipedia, "List of Washington (state) ballot measures"](https://en.wikipedia.org/wiki/List_of_Washington_(state)_ballot_measures), alike; Check: Wash. *Abstract of Votes*, Nov. 6, 1962. [[w.politics-of-reapportionment]]; [[w.dixon-democratic-representation]]. See [[cal.1962-03-26.court]].'
+  - add:
+      entry:
+        id: cal.1965-03-24.state-and-city-finance-id
+        when: Mar. 24
+        date: '1965-03-24'
+        thread: state-and-city-finance
+        c: 'Idaho''s sales tax. Smylie approves H.B. 222, the Idaho Sales Tax Act: 3 percent on retail sales, and a use tax, collected from July 1, 1965; the income tax''s rates changed and the corporations'' deduction of the federal tax ended, for 1965.'
+        n: '1965 Idaho Sess. Laws, ch. 195, [408](https://legislature.idaho.gov/wp-content/uploads/sessionlaws/sessionlaws_1965.pdf#page=441), § 19 (the rate), § 43 (the emergency and the dates); "Approved March 24, 1965," [437](https://legislature.idaho.gov/wp-content/uploads/sessionlaws/sessionlaws_1965.pdf#page=470). Names: Smylie.'
+        tags: [state:id, name:smylie-robert-e]
+  - add:
+      entry:
+        id: cal.1967-04-12.state-and-city-finance-ne
+        when: Apr. 12
+        date: '1967-04-12'
+        thread: state-and-city-finance
+        c: 'Nebraska''s first sales and income taxes. The Legislature, 38–11, passes LB 377, the Committee on Revenue''s bill at Tiemann''s request, with the emergency clause: a sales and use tax, an income tax on individuals, trusts, estates and corporations, a corporate franchise tax. Klaver''s motion to strike the enacting clause lost, 10–36. Tiemann signs it the same day.'
+        n: 'Neb. *Legislative Journal*, 77th Sess. (1967), [1294–1296](https://nebraskalegislature.gov/FloorDocs/77/PDF/Journal/r1journal.pdf#page=1294); Tiemann to the Legislature, Apr. 13, 1967: "on April 12, 1967 I approved LB 377," [1425](https://nebraskalegislature.gov/FloorDocs/77/PDF/Journal/r1journal.pdf#page=1425). *Laws of Nebraska*, 1967, ch. 487, p. 1533; *Nebraska Blue Book*, 1968, [435–436](https://govdocs.nebraska.gov/epubs/L3000/D001-1968.pdf#page=439). Names: Tiemann.'
+        tags: [state:ne, name:tiemann-norbert-t]
+  - add:
+      entry:
+        id: cal.1966-11-08.legislatures-wa
+        when: Nov. 8
+        date: '1966-11-08'
+        thread: legislatures
+        also: [state-constitutions]
+        c: 'Washington. Referendum Bill 16, the legislature''s act redrawing the first, second, third, fourth, sixth and seventh congressional districts: yes 416,630, no 384,466. Approved.'
+        n: 'Votes: Wash. Secretary of State, [Election Results Archive](https://www.sos.wa.gov/elections/data-research/election-data-and-maps/election-results-and-voters-pamphlets/washington-state-election-results-archive) ("1966 General", Referendum Bill 16); Check: Wash. *Abstract of Votes*, Nov. 8, 1966, and the act''s chapter in the session laws of 1965. [[w.dixon-democratic-representation]].'
+        tags: [state:wa]
+  - edit:
+      id: cal.1960-08-02.governors-ks
+      base: b40a6db1
+      set:
+        n: 'Votes: Kan. Secretary of State, *Election Statistics, 1960*, [23–24](https://kgi.contentdm.oclc.org/digital/api/collection/p16884coll129/id/57/download#page=23): Anderson 128,081, Boyd 116,725, Addington 18,169; Docking 150,961, unopposed. [[w.socolofsky-kansas-governors]]; [[w.peirce-great-plains-states-of]]. Names: Anderson, George Docking, Boyd.'
+  - edit:
+      id: cal.1960-11-08.governors-ks
+      base: f5b7c47b
+      set:
+        n: 'Votes: Kan. Secretary of State, *Election Statistics, 1960*, [67–68](https://kgi.contentdm.oclc.org/digital/api/collection/p16884coll129/id/57/download#page=67); Steele (Prohibition) 8,727. See [[cal.1960-08-02.governors-ks]]; [[cal.1960-11-08.governors]]. Names: Anderson, George Docking.'
+  - edit:
+      id: cal.1962-08-07.governors-ks
+      base: 8307f8b6
+      set:
+        n: 'Votes: Kan. Secretary of State, *Election Statistics, 1962*, [21–22](https://kgi.contentdm.oclc.org/digital/api/collection/p16884coll129/id/58/download#page=20): Saffels 69,728, Hart 47,055; Anderson 164,888, Crouch 31,221. [[w.socolofsky-kansas-governors]]. Names: Anderson, Saffels.'
+  - edit:
+      id: cal.1966-08-02.governors-ks
+      base: 6d42b802
+      set:
+        n: 'Votes: Kan. Secretary of State, *Election Statistics, 1966*, [21–22](https://kgi.contentdm.oclc.org/digital/api/collection/p16884coll129/id/60/download#page=20): Docking 96,414, Hart 16,385; Avery 144,842, Crozier 48,051. [[w.socolofsky-kansas-governors]]. Names: Robert Docking, Avery.'
+  - edit:
+      id: cal.1966-11-08.governors-ks
+      base: 24d9d942
+      set:
+        n: 'Votes: Kan. Secretary of State, *Election Statistics, 1966*, [77–78](https://kgi.contentdm.oclc.org/digital/api/collection/p16884coll129/id/60/download#page=75); Fisher (Prohibition) 4,742, Crawford (Conservative) 3,858. See [[cal.1966-08-02.governors-ks]]; [[cal.1966-11-08.governors]]. Names: Robert Docking, Avery.'
+  - edit:
+      id: cal.1964-08-04.governors-ks
+      base: afd32082
+      set:
+        c: 'Kansas, governor; Governor Anderson not running. Republican primary: U.S. Representative Avery 30.4 percent, Boyd 26.7, Wunsch 25.4, five others 17.5. Democratic: Wiles 32.4, Doty 23.9, four others 43.7.'
+        n: 'Votes: Kan. Secretary of State, *Election Statistics, 1964*, [16–20](https://kgi.contentdm.oclc.org/digital/api/collection/p16884coll129/id/59/download#page=16): Avery 85,746, Boyd 75,451, Wunsch 71,601, Ferguson 36,622, Chase 8,397, Myers 1,615, Crozier 1,604, Dohm 1,128; Wiles 50,590, Doty 37,305, Hart 30,973, Henkle 21,304, Coffin 9,140, Stewart 6,783. [[w.socolofsky-kansas-governors]]. Names: John Anderson, Avery, Boyd, Wunsch, Wiles, Doty.'

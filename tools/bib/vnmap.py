@@ -2,40 +2,61 @@
 place in the Republic of Vietnam, showing every entry of the year that is tagged with a place; and the same map, every
 year, on a page of its own (build/indochina.html; STYLE 6).
 
-The data: sources/vn-provinces-1966/ (its README): the provinces of late 1966 rebuilt from today's districts, the corps
-zones and regions dissolved from them, the countries around (indochina-outline.geojson), and the gazetteer
-(places.json). Calendar entries carry hidden tags: `place:<id>` (a gazetteer place) and `province:<id>` (a 1966 unit);
-`check` fails on one that names nothing (`problems`). The layers of sources/indochina/ (relief, rivers, climate, rain;
-its README), where present.
+The data (each directory's README): sources/vn-provinces-1966/ (the provinces of late 1966, the gazetteer places.json),
+sources/indochina/ (the one border geometry admin.geojson and the layers, made once by tools/vnmap/). Calendar entries
+carry hidden tags: `place:<id>` (a gazetteer place) and `province:<id>` (a 1966 unit); `check` fails on one that names
+nothing, and on a map file missing or too large (`problems`).
+
+The map is drawn by MapLibre GL JS (vendored in sources/vendor/, BSD-3-Clause), the tiled layers read through the
+PMTiles protocol (sources/vendor/pmtiles-*, BSD-3-Clause). This module writes the figure (its controls and legend in
+HTML), copies the library, the client (tools/bib/vnmap.js and vnmap.css) and the data beside the pages, and writes the
+manifest the client reads. No geometry is computed here: the build needs no shapely, and no projection is made in
+Python or in the page; the library's Web Mercator draws the GeoJSON's longitudes and latitudes.
 
 STYLE
- 1. The map: the RVN's provinces in their corps zone's tint (Corps zones, the default: the records' own division), or
-    today's region's (Regions), or plain (Provinces); province lines thin, zone or region lines heavier, the RVN's
-    outline in ink; the countries around in the land color, named in italics. Plain Mercator, north up.
- 2. The year's places: a dot each, in the accent, larger by the number of the year's entries there (by area); the
-    gazetteer's other places small and muted. A tap on a dot lists its entries (date, thread, the first words of the
-    statement), each linked to the entry; under the map, folded, the year's placed entries in date order.
- 3. Names: the year's places first, those with most entries first, then the gazetteer's by rank (1, the capitals
-    and the largest cities; 2, province capitals, the main bases and battlefields; 3, the rest) as the zoom allows;
-    each set right of its dot, else left, above, below, where it clears the names already set; never over another.
-    A constant size on screen at any zoom.
- 4. Zoom: drag to pan, pinch, the buttons, a double tap; the wheel only with Ctrl or ⌘ held (the page scrolls under
-    it otherwise). To 64 times the first view, so a battlefield's places stand apart.
- 5. The shapes are not in the pages: build/geo/vn-<hash>.json, fetched when the first map nears the screen (as the
-    election maps' are: congress.geo_files); the layers' files beside it.
+ 1. The map: the RVN's provinces of late 1966 in their corps zone's tint (Corps zones, the default: the records' own
+    division), or today's region's (Regions), or plain (Provinces); province lines thin, zone or region lines heavier;
+    the international borders and the demarcation line of 1954 (dashed) in ink; the countries in the land colour,
+    named in italics. Borders: the countries and their borders only, no tint, no province. Land and water: no border
+    at all. Every line from one geometry (tools/vnmap/base.py): a line is drawn once, at its highest rank, and the
+    tints meet the borders exactly. North up; no rotation.
+ 2. The year's places: a dot each, in the accent, larger by the number of the year's entries there (by area, constant
+    on screen); the gazetteer's other places small and muted. A tap on a dot lists its entries (date, thread, the first
+    words of the statement), each linked to the entry; a tap elsewhere names the unit under it (and the month's rain,
+    where shown). Under the map, folded, the year's placed entries in date order.
+ 3. Names: the year's places first, most entries first, then the gazetteer's by rank (1, the capitals and the largest
+    cities; 2, province capitals, the main bases and battlefields, from about twice the first view; 3, the rest, from
+    six times), placed by the library's collision (right, left, above, below the dot; never over another); a constant
+    size on screen. Names (a box): the units' names, the corps zones' or regions', and the rivers' along their course.
+ 4. Zoom: the library's gestures: a drag (two fingers on a touch screen), a pinch, a double tap, the buttons; the
+    wheel only with Ctrl or ⌘ (the page scrolls under it otherwise: `cooperativeGestures`); full screen. To 64 times
+    the first view. North Vietnam, Laos, Cambodia (a box): their provinces (today's, the legend says so) beside the
+    RVN's, and North Vietnam's regions under Regions.
+ 5. Nothing heavy in the pages: the client (one module, build/vnmap/vnmap-<hash>.js, its CSS beside it) loads the
+    library only when a map comes within 600 px of the screen; the manifest (build/geo/vn-<hash>.json: the files, the
+    legends, the places) and the borders then; each layer's file the first time the layer is shown. Rasters are tiles
+    in one PMTiles file each, read by range requests (GitHub Pages answers them; locally, a server that does:
+    `npx http-server build`, not `python3 -m http.server`). At most four maps drawn at once on a page; the farthest is
+    given up and drawn again when it nears. Drawn at a pixel ratio of 2 at most (a phone's 2.6 or 3 costs half as many
+    pixels again a frame for no visible gain at map scale).
  6. The map on a page of its own, build/indochina.html (the owner's request, Oct. 22, 2026; the page around it is
     tools/bib/indochina.py): the same figure, styles and script (`full_figure`, class `full`), with every placed
     entry, each carrying its year, and a year selector above the controls (All years, the default, then 1960–68 and
     any other year with a placed entry), each year a link anchored `y<YYYY>` (`yall`), so `indochina.html#y1965`
     opens on 1965; a choice rewrites the address, no scroll. The selected year's entries make the dots, the tap's
     list, the folded list and the caption's count; in All years each date carries its year; lakes drawn from their
-    dam's year to the year chosen (1968 for All years). The first view the layers' frame (LB: lon 100–110.5, lat
+    dam's year to the year chosen (1968 for All years). The first view the layers' frame (lon 100–110.5, lat
     8–23.5), the box in its proportion, as tall as the screen allows; a tap's list links the place's gazetteer row
     (`#pl-<id>`). Each annual map in the calendar closes with a muted line to the page, at its year.
+ 7. Layers (boxes), each with its legend part and credit, drawn only when chosen: Relief (the library's hillshade of
+    the elevation tiles), Elevation (the library's colour relief of the same tiles, the sea's depth bands under the
+    land), Contours, Rivers (and lakes: a reservoir from its dam's year), Climate (Köppen–Geiger, 1961–1990), Rain
+    (by month, 1961–1990), Population (persons a km², 1960 or 1970: modelled, made later; the legend says so) and
+    Cities (the populations the UN Demographic Yearbook printed, 1960–68, each cited by page). The thematic layers
+    mute the tints. The credits under the map name every source shown; the page's Sources gives them in full.
 """
 import hashlib
 import json
-import math
 import os
 import re
 import shutil
@@ -44,10 +65,17 @@ from . import contents, store
 
 SRC = os.path.join(store.ROOT, "sources", "vn-provinces-1966")
 LAYERS = os.path.join(store.ROOT, "sources", "indochina")
-GEO_OUT = os.path.join(store.ROOT, "build", "geo")
-B = (99.5, 7.5, 111.0, 24.0)                   # the plane's bounds, lon/lat
-W = 1000.0
-LB = (100.0, 8.0, 110.5, 23.5)                 # the layers' frame (sources/indochina/README.md): the full map's view
+VENDOR = os.path.join(store.ROOT, "sources", "vendor")
+HERE = os.path.dirname(os.path.abspath(__file__))
+OUT = os.path.join(store.ROOT, "build")
+MAPLIBRE = "maplibre-gl-6.13.0"          # sources/vendor/<dir>: the pinned versions (sources/vendor/README.md)
+PMTILES = "pmtiles-4.5.0"
+FONT = "libre-franklin-5.3.0"
+BOUNDS = [98.0, 6.0, 112.5, 25.5]       # the map's bounds: inside tools/vnmap/base.py's FRAME
+HOME_ALL = [100.0, 8.0, 110.5, 23.5]    # the page's first view: the layers' old frame
+HOME_RVN = [102.1, 8.4, 109.5, 17.2]    # an annual map's: the RVN, widened to the year's places
+MAX_FILE = 50 * 2 ** 20                 # check: a map file over this is an error (git takes 100 MB)
+MAX_ALL = 60 * 2 ** 20                  # check: the map's files together
 _C = {}
 
 # names the series writes in English (CLAUDE.md: English names stay), for the gazetteer's Vietnamese ones
@@ -56,35 +84,34 @@ ENGLISH = {"Sài Gòn": "Saigon", "Thung lũng Ia Drang": "Ia Drang valley", "Đ
            "Khu phi quân sự (DMZ)": "DMZ", "Thung lũng A Sầu": "A Shau valley", "Địa đạo Củ Chi": "Củ Chi tunnels",
            "Hải Vân Pass": "Hải Vân pass", "Bến Hải": "Bến Hải river", "Hà Nội": "Hanoi", "Hải Phòng": "Haiphong"}
 
+# the data files the client may draw: key -> file in sources/indochina/ (a missing optional file drops its layer)
+FILES = {"admin": "admin.geojson", "rivers": "rivers.geojson", "lakes": "lakes.geojson", "contours": "contours.geojson",
+         "bathy": "bathymetry.geojson", "climate": "climate.geojson", "pop": "population.geojson",
+         "dem": "dem.pmtiles", "koppen": "koppen.pmtiles"}
 
-def _m(lat):
-    return math.log(math.tan(math.pi / 4 + math.radians(lat) / 2))
+CREDIT = {
+    "admin": 'Borders: <a href="https://www.geoboundaries.org">geoBoundaries</a> CGAZ (CC BY 4.0); the 1966 provinces '
+             'rebuilt from its districts',
+    "dem": "Relief: NOAA NCEI, ETOPO 2022",
+    "bathy": "Depths: NOAA NCEI, ETOPO 2022",
+    "contours": "Contours: NOAA NCEI, ETOPO 2022",
+    "rivers": "Rivers: HydroSHEDS v1 © World Wildlife Fund, Inc. (2006–2022), used under license; SWORD v17c (CC BY 4.0)",
+    "lakes": "Lakes: HydroLAKES v1.0, GRanD (CC BY 4.0)",
+    "koppen": "Climate: Beck et al. 2023 (CC BY 4.0)",
+    "climate": "Rain: CRU CL 2.0, Climatic Research Unit, University of East Anglia (ODbL)",
+    "pop": "Population: ISIMIP3a, from HYDE 3.2.1 (modelled)",
+}
 
-
-S = W / math.radians(B[2] - B[0])
-H = round((_m(B[3]) - _m(B[1])) * S, 1)
-
-
-def xy(lon, lat):
-    return round((lon - B[0]) / (B[2] - B[0]) * W, 1), round((_m(B[3]) - _m(lat)) * S, 1)
-
-
-def _ring(r):
-    pts = [xy(*p[:2]) for p in r]
-    out, last = [], None
-    for p in pts:
-        if p != last:
-            out.append(p)
-            last = p
-    if len(out) < 3:
-        return ""
-    return "M" + "L".join(f"{x:g},{y:g}" for x, y in out) + "Z"
-
-
-def path(geom):
-    t, c = geom["type"], geom["coordinates"]
-    polys = [c] if t == "Polygon" else c if t == "MultiPolygon" else []
-    return "".join(_ring(r) for p in polys for r in p)
+# the legends' scales (colours: ColorBrewer's Blues and YlOrBr, Apache 2.0)
+RAIN = [0, 25, 50, 100, 200, 300, 400, 500]
+RAIN_C = ["#f7fbff", "#deebf7", "#c6dbef", "#9ecae1", "#6baed6", "#4292c6", "#2171b5", "#084594"]
+POP = [0, 1, 10, 25, 50, 100, 250, 500, 1000]          # tools/vnmap/population.py CLASSES
+POP_C = ["#ffffe5", "#fff7bc", "#fee391", "#fec44f", "#fe9929", "#ec7014", "#cc4c02", "#993404", "#662506"]
+ZONES = {"I": "I Corps", "II": "II Corps", "III": "III Corps", "IV": "IV Corps", "CMD": "Capital Military District"}
+REGIONS = ["Northwest", "Northeast", "Red River Delta", "North Central Coast", "South Central Coast", "Central Highlands",
+           "Southeast", "Mekong Delta"]
+RVAR = {"North Central Coast": 1, "South Central Coast": 2, "Central Highlands": 3, "Southeast": 4, "Mekong Delta": 5,
+        "Northwest": 6, "Northeast": 7, "Red River Delta": 8}
 
 
 def _gj(name):
@@ -113,128 +140,156 @@ def in_rvn(p):
     return bool(p.get("province")) or p.get("country") == "vn-south"
 
 
-def _copy(name):
-    """A layer's file copied beside the pages, named by its hash: its path from a page."""
-    src = os.path.join(LAYERS, name)
-    h = hashlib.sha1(open(src, "rb").read()).hexdigest()[:10]
-    base, ext = os.path.splitext(name)
-    out = f"vn-{base}-{h}{ext}"
-    os.makedirs(GEO_OUT, exist_ok=True)
-    if not os.path.exists(os.path.join(GEO_OUT, out)):
-        shutil.copyfile(src, os.path.join(GEO_OUT, out))
-    return "geo/" + out
+def _hash(b):
+    return hashlib.sha1(b).hexdigest()[:10]
 
 
-def _json_file(stem, d):
-    txt = json.dumps(d, ensure_ascii=False, separators=(",", ":"))
-    name = f"vn-{stem}-{hashlib.sha1(txt.encode()).hexdigest()[:10]}.json"
-    path_ = os.path.join(GEO_OUT, name)
-    if not os.path.exists(path_):
-        for old in os.listdir(GEO_OUT):
-            if re.fullmatch(rf"vn-{stem}-[0-9a-f]{{10}}\.json", old):
-                os.remove(os.path.join(GEO_OUT, old))
-        open(path_, "w", encoding="utf-8").write(txt)
-    return "geo/" + name
+def _put(rel, data):
+    """Write build/<rel> unless it is there already (names carry their hash or version)."""
+    path = os.path.join(OUT, rel)
+    if not os.path.exists(path):
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        tmp = path + ".tmp"
+        open(tmp, "wb").write(data)
+        os.replace(tmp, path)
+    return rel
 
 
-def _line(geom):
-    t, c = geom["type"], geom["coordinates"]
-    lines = [c] if t == "LineString" else c if t == "MultiLineString" else []
-    out = []
-    for ln in lines:
-        pts = [xy(*p[:2]) for p in ln]
-        if len(pts) > 1:
-            out.append("M" + "L".join(f"{x:g},{y:g}" for x, y in pts))
-    return "".join(out)
+def _copy_hashed(src, stem):
+    """A data file copied beside the pages as geo/vn-<stem>-<hash><ext>: its path from a page."""
+    data = open(src, "rb").read()
+    ext = os.path.splitext(src)[1]
+    return _put(f"geo/vn-{stem}-{_hash(data)}{ext}", data)
 
 
-def layers():
-    """The layers of sources/indochina/ the maps can draw (its README), each a file of its own beside the pages:
-    rasters as they are (rows in Mercator y over LB), vectors and the climate grid projected here."""
-    if "lay" in _C:
-        return _C["lay"]
-    lay = {}
-    if not os.path.isdir(LAYERS):
-        _C["lay"] = lay
-        return lay
-    x0, y1 = xy(LB[0], LB[1])
-    x1, y0 = xy(LB[2], LB[3])
-    rect = [x0, y0, round(x1 - x0, 1), round(y1 - y0, 1)]
-    ex = lambda f: os.path.exists(os.path.join(LAYERS, f))
-    if ex("hillshade.png"):
-        lay["relief"] = {"kind": "image", "box": rect, "src": _copy("hillshade-coarse.png"),
-                         "mid": _copy("hillshade.png"), "fine": _copy("hillshade-fine.png") if ex("hillshade-fine.png") else None}
-    if ex("hypso.png"):
-        h = json.load(open(os.path.join(LAYERS, "hypso.json"), encoding="utf-8"))
-        lay["tint"] = {"kind": "image", "box": rect, "src": _copy("hypso-coarse.png"), "mid": _copy("hypso.png"),
-                       "legend": [{"code": c["label"], "name": "", "color": c["color"]} for c in h["classes"] if c["kind"] == "land"]}
-    if ex("koppen.png"):
-        k = json.load(open(os.path.join(LAYERS, "koppen.json"), encoding="utf-8"))
-        lay["koppen"] = {"kind": "image", "box": rect, "src": _copy("koppen-coarse.png"), "mid": _copy("koppen.png"),
-                         "period": "1961–1990", "legend": [{"code": c["code"], "name": c["name"], "color": c["color"]}
-                                                           for c in k["classes"] if c.get("share_of_land_in_extent", 1) >= 0.001]}
-    if ex("rivers.geojson"):
-        rv = json.load(open(os.path.join(LAYERS, "rivers.geojson"), encoding="utf-8"))["features"]
-        lk = json.load(open(os.path.join(LAYERS, "lakes.geojson"), encoding="utf-8"))["features"] if ex("lakes.geojson") else []
-        d = {"r": [{"d": _line(f["geometry"]), "w": f["properties"].get("size", 1),
-                    "n": f["properties"].get("name_vi") or f["properties"].get("name")} for f in rv],
-             "l": [{"d": path(f["geometry"]), "n": f["properties"].get("name"),
-                    "dy": f["properties"].get("dam_year") if f["properties"].get("type") != "lake" else None}
-                   for f in lk if f["properties"].get("area_km2", 0) >= 3]}
-        lay["rivers"] = {"kind": "rivers", "src": _json_file("rivers", d)}
-    if ex("contours.geojson"):
-        ct = json.load(open(os.path.join(LAYERS, "contours.geojson"), encoding="utf-8"))["features"]
-        lay["contours"] = {"kind": "lines", "src": _json_file("contours", [{"d": _line(f["geometry"]),
-                                                                           "e": f["properties"]["elev_m"]} for f in ct])}
-    if ex("climate.json"):
-        c = json.load(open(os.path.join(LAYERS, "climate.json"), encoding="utf-8"))
-        b, cd = c["bounds"], c["cell_deg"]
-        P, T = c["precipitation"]["values"], c["temperature"]["values"]
-        cells = []
-        for r in range(c["nrows"]):
-            for k in range(c["ncols"]):
-                v = [P[m][r][k] for m in range(12)]
-                if all(x is None for x in v):
-                    continue
-                cx0, cy0 = xy(b["west"] + k * cd, b["north"] - r * cd)
-                cx1, cy1 = xy(b["west"] + (k + 1) * cd, b["north"] - (r + 1) * cd)
-                cells.append({"x": cx0, "y": cy0, "w": round(cx1 - cx0, 1), "h": round(cy1 - cy0, 1), "v": v,
-                              "t": [None if T[m][r][k] is None else T[m][r][k] / 10 for m in range(12)]})
-        lay["rain"] = {"kind": "grid", "period": "1961–1990", "src": _json_file("climate", {"cells": cells,
-                       "scale": [0, 25, 50, 100, 200, 300, 400, 500]})}
-    _C["lay"] = lay
-    return lay
+def _vendor(d):
+    """A vendored directory copied whole to build/vnmap/<d>/ (its name carries its version)."""
+    for f in sorted(os.listdir(os.path.join(VENDOR, d))):
+        if not f.startswith(".") and f != "README.md":
+            _put(f"vnmap/{d}/{f}", open(os.path.join(VENDOR, d, f), "rb").read())
+    return f"vnmap/{d}"
 
 
-def geo_file():
-    """build/geo/vn-<hash>.json, the shapes, projected; the layers' files copied beside it. Its path from a page."""
-    if "geo" in _C:
-        return _C["geo"]
-    pv = _gj("provinces1966.geojson")["features"]
-    d = {"W": W, "H": H, "b": B,
-         "prov": [{"id": f["properties"]["id"], "n": f["properties"]["name"], "p": f["properties"].get("plain"),
-                   "z": f["properties"].get("ctz"), "r": f["properties"].get("region"),
-                   "c": f["properties"].get("confidence"), "d": path(f["geometry"])} for f in pv],
-         "zone": [{"k": f["properties"]["ctz"], "d": path(f["geometry"])} for f in _gj("ctz1966.geojson")["features"]
-                  if f["properties"].get("ctz") not in (None, "none")],
-         "reg": [{"k": f["properties"]["region"], "d": path(f["geometry"])} for f in _gj("regions.geojson")["features"]],
-         "land": [{"id": f["properties"]["id"], "n": f["properties"]["name"], "d": path(f["geometry"])}
-                  for f in _gj("indochina-outline.geojson")["features"]],
-         "pl": {k: [*xy(p["lon"], p["lat"]), shown(p), p.get("kind"), p.get("rank", 3), p.get("country")]
-                for k, p in gazetteer().items() if p.get("lat") is not None},
-         "lay": {}}
-    os.makedirs(GEO_OUT, exist_ok=True)
-    d["lay"] = layers()
-    txt = json.dumps(d, ensure_ascii=False, separators=(",", ":"))
-    name = f"vn-{hashlib.sha1(txt.encode()).hexdigest()[:10]}.json"
-    path_ = os.path.join(GEO_OUT, name)
-    if not os.path.exists(path_):
-        for old in os.listdir(GEO_OUT):
-            if re.fullmatch(r"vn-[0-9a-f]{10}\.json", old):
-                os.remove(os.path.join(GEO_OUT, old))
-        open(path_, "w", encoding="utf-8").write(txt)
-    _C["geo"] = "geo/" + name
-    return _C["geo"]
+def _fonts():
+    """The style's font faces (MapLibre `font-faces`): Libre Franklin, the pages' sans, vendored (OFL), the latin,
+    latin-ext and vietnamese subsets with their unicode ranges (@fontsource's unicode.json)."""
+    rng = {"latin": "U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,"
+                    "U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD",
+           "latin-ext": "U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,"
+                        "U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF",
+           "vietnamese": "U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,"
+                         "U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB"}
+    d = _vendor(FONT)
+    faces = {}
+    for name, w in (("Libre Franklin Regular", "400-normal"), ("Libre Franklin SemiBold", "600-normal"),
+                    ("Libre Franklin Italic", "400-italic")):
+        faces[name] = [{"url": f"{d}/libre-franklin-{s}-{w}.woff2", "unicode-range": r.split(",")} for s, r in rng.items()]
+    return faces
+
+
+def _places():
+    feats = []
+    for k, p in gazetteer().items():
+        if p.get("lat") is None:
+            continue
+        feats.append({"type": "Feature", "geometry": {"type": "Point", "coordinates": [p["lon"], p["lat"]]},
+                      "properties": {"id": k, "name": shown(p), "r": p.get("rank", 3), "kind": p.get("kind"),
+                                     "c": p.get("country")}})
+    return {"type": "FeatureCollection", "features": feats}
+
+
+def _cities():
+    """sources/indochina/cities.yaml as points, each with its rows as the tap shows them, cited by page."""
+    import yaml
+    p = os.path.join(LAYERS, "cities.yaml")
+    if not os.path.exists(p):
+        return {"type": "FeatureCollection", "features": []}
+    d = yaml.safe_load(open(p, encoding="utf-8"))
+    G, feats = gazetteer(), []
+    for c in d["cities"]:
+        g = G.get(c["place"])
+        if not g or g.get("lat") is None:
+            continue
+        rows = []
+        for r in c["rows"]:
+            src = d["sources"][r["src"]].replace("*", "")
+            when = _date(str(r["date"]))
+            kind = "census" if r["kind"] == "C" else "estimate"
+            rows.append({"text": f'{r["pop"]:,} ({r["of"]}), {kind} of {when}: {src}, p. {r["page"]}.'
+                                 + (f' {r["note"]}' if r.get("note") else "")})
+        first = c["rows"][0]
+        feats.append({"type": "Feature", "geometry": {"type": "Point", "coordinates": [g["lon"], g["lat"]]},
+                      "properties": {"id": c["place"], "name": shown(g), "pop": first["pop"],
+                                     "label": f'{shown(g)} {first["pop"]:,}', "rows": json.dumps(rows, ensure_ascii=False)}})
+    return {"type": "FeatureCollection", "features": feats}
+
+
+MONTH = ["Jan.", "Feb.", "Mar.", "Apr.", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."]
+
+
+def _date(s):
+    m = re.fullmatch(r"(\d{4})(?:-(\d\d))?(?:-(\d\d))?", s)
+    if not m:
+        return s
+    y, mo, d = m.groups()
+    if d:
+        return f"{MONTH[int(mo) - 1]} {int(d)}, {y}"
+    if mo:
+        return f"{MONTH[int(mo) - 1]} {y}"
+    return y
+
+
+def _legends():
+    out = {}
+    hp = os.path.join(LAYERS, "hypso.json")
+    if os.path.exists(hp):
+        h = json.load(open(hp, encoding="utf-8"))["classes"]
+        out["hypso"] = [{"from": c["from_m"], "color": c["color"], "label": c["label"]} for c in h if c["kind"] == "land"]
+        out["depths"] = [{"from": c["depth_from_m"], "color": c["color"], "label": c["label"]} for c in h
+                         if c["kind"] == "sea" and c["depth_from_m"] > 0]
+        out["shallow"] = next((c["color"] for c in h if c["kind"] == "sea" and c["depth_from_m"] == 0), None)
+    kp = os.path.join(LAYERS, "koppen.json")
+    if os.path.exists(kp):
+        out["koppen"] = [c for c in json.load(open(kp, encoding="utf-8"))["classes"] if c.get("share_of_land_in_frame", 1) >= 0.001]
+    out["rain"] = [{"from": v, "color": c} for v, c in zip(RAIN, RAIN_C)]
+    out["pop"] = {"years": [1960, 1970], "classes": [{"from": v, "color": c} for v, c in zip(POP, POP_C)]}
+    return out
+
+
+def assets():
+    """The client, the library and the data beside the pages: (css, js, manifest) paths from a page."""
+    if "assets" in _C:
+        return _C["assets"]
+    lib = {"maplibre": f"{MAPLIBRE}/maplibre-gl.mjs", "css": f"{MAPLIBRE}/maplibre-gl.css", "pmtiles": f"{PMTILES}/pmtiles.js"}
+    _vendor(MAPLIBRE)
+    _vendor(PMTILES)
+    css = open(os.path.join(HERE, "vnmap.css"), "rb").read()
+    js = open(os.path.join(HERE, "vnmap.js"), encoding="utf-8").read().replace("/*LIB*/{}", json.dumps(lib), 1).encode()
+    css_p = _put(f"vnmap/vnmap-{_hash(css)}.css", css)
+    js_p = _put(f"vnmap/vnmap-{_hash(js)}.js", js)
+    files = {}
+    for k, f in FILES.items():
+        p = os.path.join(LAYERS, f)
+        if os.path.exists(p):
+            files[k] = _copy_hashed(p, os.path.splitext(f)[0])
+    files["cities"] = _put_json("cities", _cities())
+    # the manifest's paths are from a page in build/; the font faces' from the page too
+    M = {"bounds": BOUNDS, "home": {"all": HOME_ALL, "rvn": HOME_RVN}, "files": files, "fonts": _fonts(),
+         "places": _places(), "credit": {**{k: CREDIT[k] for k in CREDIT}, "page": '<a href="indochina.html#sources">Sources and licenses</a>'},
+         **_legends()}
+    man = _put_json("manifest", M)
+    _C["assets"] = (css_p, js_p, man)
+    return _C["assets"]
+
+
+def _put_json(stem, d):
+    data = json.dumps(d, ensure_ascii=False, separators=(",", ":")).encode()
+    return _put(f"geo/vn-{stem}-{_hash(data)}.json", data)
+
+
+def head_tags():
+    css, js, _ = assets()
+    return f'<link rel="stylesheet" href="{css}">', f'<script type="module" src="{js}"></script>'
 
 
 def placed(e):
@@ -298,29 +353,90 @@ def _ents(series, rows, with_year=False):
     return out
 
 
-def _box(label):
-    return ('<div class="vnm-bar"></div><div class="vnm-box"><svg class="vnm-svg" role="img" '
-            f'aria-label="{label}"></svg><div class="vnm-z">'
-            '<button type="button" data-z="in" aria-label="Zoom in">+</button>'
-            '<button type="button" data-z="out" aria-label="Zoom out">−</button>'
-            '<button type="button" data-z="home" aria-label="Back to the first view">⌂</button></div>'
-            '<div class="vnm-pop" hidden></div><div class="vnm-hint" hidden>Ctrl or ⌘ and the wheel to zoom</div></div>'
-            '<div class="vnm-key"></div>')
+def _data(d, ents):
+    """The figure's own data: the entries, and the names of their places (for the folded list before the map)."""
+    d["e"] = ents
+    d["pn"] = {p: shown(gazetteer()[p]) for x in ents for p in x["p"]}
+    return json.dumps(d, ensure_ascii=False).replace("</", "<\\/")
+
+
+def _sw(color, text, cls=""):
+    return f'<s><i class="{cls}" style="background:{color}"></i>{text}</s>'
+
+
+def _key():
+    """The legend, every part written here and shown by the client with what it explains (data-show)."""
+    L = _legends()
+    parts = []
+
+    def part(show, html):
+        parts.append(f'<span data-show="{show}">{html}</span>')
+    part("mode:ctz", "".join(_sw(f"var(--vz{i + 1})", n) for i, n in enumerate(ZONES.values())))
+    part("mode:reg", "".join(_sw(f"var(--vr{RVAR[r]})", r) for r in REGIONS if RVAR[r] <= 5)
+         + '<s>(today\'s regions, before 2025)</s>')
+    part("mode:reg+nb", "".join(_sw(f"var(--vr{RVAR[r]})", r) for r in REGIONS if RVAR[r] > 5))
+    part("notland", '<s><i class="l"></i>International border</s><s><i class="d"></i>Demarcation line, 1954 (the Bến Hải)</s>')
+    part("always", '<s><i class="o" style="background:var(--vdot)"></i><span class="vnm-dotlab">entries, by number</span></s>')
+    part("nb", "<em>North Vietnam, Laos, Cambodia: today's provinces (geoBoundaries), not those of the 1960s; "
+               "Vĩnh Linh, north of the Bến Hải, the DRV's special zone of 1954–76.</em>")
+    part("lay:relief", "<em>Relief: shaded from NOAA's ETOPO 2022 (15″, about 460 m).</em>")
+    if L.get("hypso"):
+        part("lay:elevation", "<em>Elevation:</em>" + "".join(_sw(h["color"], h["label"]) for h in L["hypso"])
+             + "".join(_sw(h["color"], h["label"]) for h in L["depths"]))
+    part("lay:contours", "<em>Contours at 500 m (dashed), 1,000, 1,500 and 2,000 m.</em>")
+    part("lay:rivers", "<em>Rivers and lakes, today's courses; a reservoir from its dam's year.</em>")
+    if L.get("koppen"):
+        part("lay:koppen", "<em>Köppen–Geiger climate, 1961–1990:</em>" + "".join(_sw(c["color"], f'{c["code"]} {c["name"]}') for c in L["koppen"]))
+    part("lay:rain", '<em>Rain, <span class="vnm-month">July</span>, mean of 1961–1990, mm a month (lon. 100–110.5° E, '
+                     'lat. 8–23.5° N only):</em>' + "".join(_sw(r["color"], f'{r["from"]}{"+" if i == len(RAIN) - 1 else ""}')
+                                                            for i, r in enumerate(L["rain"])))
+    part("lay:pop", '<em>Population, <span class="vnm-popyear">1960</span>, persons a km²: modelled, and made later '
+                    '(ISIMIP3a, from HYDE 3.2.1); not a census:</em>'
+         + "".join(_sw(c["color"], (f'{c["from"]:,}–{L["pop"]["classes"][i + 1]["from"]:,}' if i + 1 < len(POP) else f'{c["from"]:,} and over'))
+                   for i, c in enumerate(L["pop"]["classes"])))
+    part("lay:cities", '<s><i class="o" style="background:var(--vcity);opacity:.5"></i>Cities:</s><em>the populations the UN '
+                       '<i>Demographic Yearbook</i> printed, 1960–68 (a tap gives each figure and its page)</em>')
+    return '<div class="vnm-key">' + "".join(parts) + "</div>"
+
+
+def _bar(full):
+    have = {k for k in FILES if os.path.exists(os.path.join(LAYERS, FILES[k]))}
+    seg = ('<span class="seg" role="group" aria-label="Map">'
+           + "".join(f'<button type="button" data-mode="{m}" aria-pressed="false">{t}</button>'
+                     for m, t in (("ctz", "Corps zones"), ("reg", "Regions"), ("prov", "Provinces"), ("borders", "Borders"),
+                                  ("land", "Land and water"))) + "</span>")
+    boxes = [("names", "Names", True), ("nb", "North Vietnam, Laos, Cambodia", True), ("relief", "Relief", "dem" in have),
+             ("elevation", "Elevation", "dem" in have), ("contours", "Contours", "contours" in have),
+             ("rivers", "Rivers", "rivers" in have), ("koppen", "Climate", "koppen" in have),
+             ("rain", "Rain", "climate" in have), ("pop", "Population", "pop" in have), ("cities", "Cities", True)]
+    h = seg + "".join(f'<label><input type="checkbox" data-l="{k}"> {t}</label>' for k, t, ok in boxes if ok)
+    if "climate" in have:
+        h += ('<select data-m aria-label="Month of the rain">'
+              + "".join(f'<option value="{i + 1}"{" selected" if i == 6 else ""}>{m}</option>' for i, m in enumerate(MONTH))
+              + "</select>")
+    if "pop" in have:
+        h += '<select data-py aria-label="Year of the population"><option>1960</option><option>1970</option></select>'
+    return f'<div class="vnm-bar">{h}</div>'
+
+
+def _box(label, full):
+    return (_bar(full) + f'<div class="vnm-box"><div class="vnm-gl" role="region" aria-label="{label}"></div>'
+            '<div class="vnm-pop" hidden></div></div>' + _key())
 
 
 def block(series, y):
     rows = by_year(series).get(y, [])
     ents = _ents(series, rows)
-    data = json.dumps({"y": y, "e": ents}, ensure_ascii=False).replace("</", "<\\/")
     n_pl = len({p for x in ents for p in x["p"]})
-    return (f'<figure class="vnm" data-geo="{geo_file()}" data-y="{y}">'
+    _, _, man = assets()
+    return (f'<figure class="vnm" data-geo="{man}" data-y="{y}">'
             f'<figcaption class="vnm-cap">Vietnam, Laos and Cambodia, {y}: the year\'s {len(ents)} placed entries, at '
             f'{n_pl} places. Provinces as of late 1966; lines approximate (sources/vn-provinces-1966).</figcaption>'
-            + _box(f"Map of Vietnam, Laos and Cambodia, {y}") +
+            + _box(f"Map of Vietnam, Laos and Cambodia, {y}", False) +
             '<details class="vnm-list"><summary>The year\'s placed entries</summary>'
             f'<ol></ol></details><p class="vnm-pg">Every year on one map, with the gazetteer: '
             f'<a href="indochina.html#y{y}">Indochina</a>.</p>'
-            f'<script type="application/json" class="vnm-d">{data}</script></figure>')
+            f'<script type="application/json" class="vnm-d">{_data({"y": y}, ents)}</script></figure>')
 
 
 def years(series):
@@ -330,22 +446,23 @@ def years(series):
 
 def full_figure(series):
     """The map on indochina.html (STYLE 6): every placed entry, a year selector, the frame of the layers."""
+    import math
     by = by_year(series)
     ys = years(series)
     rows = [r for y in sorted(by) for r in by[y]]
     ents = _ents(series, rows, with_year=True)
-    data = json.dumps({"y": "all", "ys": ys, "e": ents}, ensure_ascii=False).replace("</", "<\\/")
     n_pl = len({p for x in ents for p in x["p"]})
     yrs = ('<nav class="vnm-yrs" aria-label="Year"><a id="yall" href="#yall" data-yr="all">All years</a>'
            + "".join(f'<a id="y{y}" href="#y{y}" data-yr="{y}">{y}</a>' for y in ys) + "</nav>")
-    x0, y1 = xy(LB[0], LB[1])
-    x1, y0 = xy(LB[2], LB[3])
-    return (f'<figure class="vnm full" data-geo="{geo_file()}" data-y="all" style="--vnar:{(x1 - x0) / (y1 - y0):.4f}">'
+    m = lambda lat: math.log(math.tan(math.pi / 4 + math.radians(lat) / 2))   # the box's proportion only
+    ar = math.radians(HOME_ALL[2] - HOME_ALL[0]) / (m(HOME_ALL[3]) - m(HOME_ALL[1]))
+    _, _, man = assets()
+    return (f'<figure class="vnm full" data-geo="{man}" data-y="all" style="--vnar:{ar:.4f}">'
             f'<figcaption class="vnm-cap"><span class="vnm-cnt">All years: {len(ents)} placed entries, at {n_pl} '
             'places.</span> Provinces as of late 1966; lines approximate.</figcaption>'
-            + yrs + _box("Map of Vietnam, Laos and Cambodia, 1960–1968") +
+            + yrs + _box("Map of Vietnam, Laos and Cambodia, 1960–1968", True) +
             '<details class="vnm-list"><summary>The placed entries</summary><ol></ol></details>'
-            f'<script type="application/json" class="vnm-d">{data}</script></figure>')
+            f'<script type="application/json" class="vnm-d">{_data({"y": "all", "ys": ys}, ents)}</script></figure>')
 
 
 def inject(page, series):
@@ -356,8 +473,10 @@ def inject(page, series):
         blk = block(series, y)
         page, k = contents.put(page, eid, blk, "vnmap", y)
         used = used or bool(k)
-    if used and 'id="vnmcss"' not in page:
-        page = page.replace("</head>", CSS + "\n</head>", 1).replace("</body>", JS + "\n</body>", 1)
+    if used and 'class="vnm-css"' not in page:
+        css, js = head_tags()
+        page = page.replace("</head>", css.replace("<link ", '<link class="vnm-css" ') + "\n</head>", 1)
+        page = page.replace("</body>", js + "\n</body>", 1)
     return page
 
 
@@ -365,233 +484,40 @@ def problems(series):
     out = []
     G, U = gazetteer(), units()
     lst = series.lists.get("cal")
-    if not lst:
-        return out
-    for sec, e in lst.entries():
-        for t in e.get("tags") or []:
-            if t.startswith("place:") and t[6:] not in G:
-                out.append((e["id"], f"{t}: no such place in sources/vn-provinces-1966/places.json"))
-            elif t.startswith("province:") and t[9:] not in U:
-                out.append((e["id"], f"{t}: no such 1966 unit in sources/vn-provinces-1966/provinces1966.geojson"))
+    if lst:
+        for sec, e in lst.entries():
+            for t in e.get("tags") or []:
+                if t.startswith("place:") and t[6:] not in G:
+                    out.append((e["id"], f"{t}: no such place in sources/vn-provinces-1966/places.json"))
+                elif t.startswith("province:") and t[9:] not in U:
+                    out.append((e["id"], f"{t}: no such 1966 unit in sources/vn-provinces-1966/provinces1966.geojson"))
+    # the map's files: there, under the size limits, the vendored library whole
+    total = 0
+    for k, f in FILES.items():
+        p = os.path.join(LAYERS, f)
+        if not os.path.exists(p):
+            if k == "admin":
+                out.append(("vnmap", f"sources/indochina/{f}: missing (tools/vnmap/base.py writes it)"))
+            continue
+        n = os.path.getsize(p)
+        total += n
+        if n > MAX_FILE:
+            out.append(("vnmap", f"sources/indochina/{f}: {n:,} bytes, over {MAX_FILE:,}"))
+    if total > MAX_ALL:
+        out.append(("vnmap", f"sources/indochina: the map's files {total:,} bytes together, over {MAX_ALL:,}"))
+    for d, fs in ((MAPLIBRE, ("maplibre-gl.mjs", "maplibre-gl-worker.mjs", "maplibre-gl.css", "LICENSE.txt")),
+                  (PMTILES, ("pmtiles.js", "LICENSE")), (FONT, ("LICENSE",))):
+        for f in fs:
+            if not os.path.exists(os.path.join(VENDOR, d, f)):
+                out.append(("vnmap", f"sources/vendor/{d}/{f}: missing"))
+    import yaml
+    cp = os.path.join(LAYERS, "cities.yaml")
+    if os.path.exists(cp):
+        c = yaml.safe_load(open(cp, encoding="utf-8"))
+        for x in c.get("cities", []):
+            if x["place"] not in G:
+                out.append(("vnmap", f"sources/indochina/cities.yaml: {x['place']}: no such place"))
+            for r in x.get("rows", []):
+                if r.get("src") not in c.get("sources", {}) or not r.get("page") or not isinstance(r.get("pop"), int):
+                    out.append(("vnmap", f"sources/indochina/cities.yaml: {x['place']} {r.get('date')}: needs pop, src and page"))
     return out
-
-
-CSS = """<style id="vnmcss">
-/* the calendar's maps of Indochina (tools/bib/vnmap.py) */
-:root{--vz1:#7A9CC0;--vz2:#C6A46A;--vz3:#C3877A;--vz4:#86AE7B;--vz5:#A58CBC;--vr1:#8EA9C2;--vr2:#7FB0A3;--vr3:#C9B07A;
-  --vr4:#CC9A8A;--vr5:#9FBC80;--vpv:#C9CEC6;--vland:#E4E6E2;--vsea:#E3E9EE;--vop:.55;--vdot:#B03A2E}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--vz1:#57789B;--vz2:#937746;--vz3:#925A4E;--vz4:#5C7F52;
-  --vz5:#76618C;--vr1:#5E7D99;--vr2:#4F8578;--vr3:#94814E;--vr4:#9A6B5C;--vr5:#6B8A4F;--vpv:#3A413D;--vland:#262A2E;
-  --vsea:#1C242B;--vop:.8;--vdot:#F08C74}}
-:root[data-theme="dark"]{--vz1:#57789B;--vz2:#937746;--vz3:#925A4E;--vz4:#5C7F52;--vz5:#76618C;--vr1:#5E7D99;--vr2:#4F8578;
-  --vr3:#94814E;--vr4:#9A6B5C;--vr5:#6B8A4F;--vpv:#3A413D;--vland:#262A2E;--vsea:#1C242B;--vop:.8;--vdot:#F08C74}
-.vnm{margin:.8rem 0 .4rem;font-family:var(--sans)}
-.vnm-cap{font-size:.78rem;color:var(--muted);margin-bottom:.35rem}
-.vnm-bar{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;font-size:.75rem;margin-bottom:.4rem}
-.vnm-bar .seg{display:inline-flex;border:1px solid var(--rule);border-radius:3px;overflow:hidden}
-.vnm-bar .seg button{font:inherit;background:transparent;color:var(--ink);border:0;border-left:1px solid var(--rule);padding:3px 8px;cursor:pointer}
-.vnm-bar .seg button:first-child{border-left:0}
-.vnm-bar .seg button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
-.vnm-bar label{display:inline-flex;gap:4px;align-items:center;color:var(--muted);cursor:pointer}
-.vnm-bar select{font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--rule);border-radius:3px}
-.vnm-box{position:relative;aspect-ratio:4/5;max-height:82vh;width:100%;max-width:100%;background:var(--vsea);border:1px solid var(--rule);border-radius:3px;overflow:hidden}
-.vnm-svg{display:block;width:100%;height:100%;touch-action:none;cursor:grab;user-select:none;-webkit-user-select:none}
-.vnm-svg.drag{cursor:grabbing}
-.vnm-z{position:absolute;right:6px;top:6px;display:flex;flex-direction:column;gap:4px}
-.vnm-z button{width:28px;height:28px;font:600 14px var(--sans);border:1px solid var(--rule);background:var(--panel);color:var(--ink);border-radius:3px;cursor:pointer}
-.vnm-z button:focus-visible,.vnm-bar button:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
-.vnm-hint{position:absolute;left:50%;top:8px;transform:translateX(-50%);background:var(--panel);border:1px solid var(--rule);border-radius:3px;padding:3px 8px;font-size:.75rem;color:var(--muted);pointer-events:none}
-.vnm-pop{position:absolute;left:8px;right:8px;bottom:8px;max-height:45%;overflow:auto;background:var(--panel);border:1px solid var(--rule);border-radius:3px;padding:8px 10px;font-size:.8rem;line-height:1.35}
-.vnm-pop b{font-weight:600}
-.vnm-pop ol,.vnm-list ol{margin:.3rem 0 0;padding-left:1.1rem}
-.vnm-pop li,.vnm-list li{margin:.15rem 0}
-.vnm-pop .x{float:right;border:0;background:none;color:var(--muted);font:inherit;cursor:pointer}
-.vnm-pop .m,.vnm-list .m{color:var(--muted)}
-.vnm-key{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:.72rem;color:var(--muted);margin-top:.35rem}
-.vnm-key i{display:inline-block;width:11px;height:11px;border-radius:2px;vertical-align:-1px;margin-right:4px;border:1px solid var(--rule)}
-.vnm-list{font-size:.8rem;margin-top:.35rem}
-.vnm-list summary{cursor:pointer;color:var(--muted)}
-.vnm .pv{stroke:var(--bg);stroke-width:.5;vector-effect:non-scaling-stroke}
-.vnm .zb{fill:none;stroke:var(--ink);stroke-opacity:.75;stroke-width:1.3;vector-effect:non-scaling-stroke;pointer-events:none}
-.vnm .rvn{fill:none;stroke:var(--ink);stroke-width:1;vector-effect:non-scaling-stroke;pointer-events:none}
-.vnm .ld{fill:var(--vland);stroke:var(--rule);stroke-width:.6;vector-effect:non-scaling-stroke}
-.vnm .ln{font-style:italic;fill:var(--muted);text-anchor:middle;pointer-events:none}
-.vnm .riv{fill:none;stroke:#5F88AE;stroke-linecap:round;stroke-linejoin:round;vector-effect:non-scaling-stroke}
-.vnm .lake{fill:#9DB8CF;stroke:none}
-.vnm .ctr{fill:none;stroke:#8A6E4B;stroke-opacity:.7;vector-effect:non-scaling-stroke;pointer-events:none}
-.vnm .shade{mix-blend-mode:multiply;pointer-events:none}
-.vnm .shade image,.vnm image{pointer-events:none}
-.vnm-key .cr{flex-basis:100%;font-size:.68rem}
-.vnm-key a{color:var(--muted)}
-.vnm .dot{fill:var(--vdot);stroke:var(--bg);stroke-width:1;vector-effect:non-scaling-stroke;cursor:pointer}
-.vnm .dim{fill:var(--muted);fill-opacity:.65;stroke:none;cursor:pointer}
-.vnm .lb{fill:var(--ink);paint-order:stroke;stroke:var(--vsea);stroke-width:3px;stroke-linejoin:round;pointer-events:none;font-weight:600}
-.vnm .lb.o{font-weight:400;fill:var(--muted)}
-.vnm-pg{font-size:.75rem;color:var(--muted);margin:.3rem 0 0}
-.vnm-pg a{color:var(--muted)}
-/* the page of its own (indochina.html; STYLE 6) */
-.vnm.full .vnm-box{aspect-ratio:var(--vnar);width:min(100%,calc((100vh - var(--hdr,52px) - 1.5rem) * var(--vnar)));max-height:none;margin:0 auto}
-.vnm-yrs{display:flex;flex-wrap:wrap;gap:4px;font-size:.78rem;margin:0 0 .45rem}
-.vnm-yrs a{border:1px solid var(--rule);border-radius:3px;padding:2px 7px;color:var(--ink);text-decoration:none}
-.vnm-yrs a[aria-current]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
-.vnm-yrs a:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
-@media (prefers-reduced-motion: reduce){.vnm *{transition:none!important}}
-</style>"""
-
-JS = r"""<script>
-/* the calendar's maps of Indochina (tools/bib/vnmap.py, STYLE) */
-(function(){
-  var NS='http://www.w3.org/2000/svg', GEO={}, MAXZ=64;
-  var ZC={I:'--vz1',II:'--vz2',III:'--vz3',IV:'--vz4',CMD:'--vz5'}, ZN={I:'I Corps',II:'II Corps',III:'III Corps',IV:'IV Corps',CMD:'Capital Military District'};
-  var RC={'North Central Coast':'--vr1','South Central Coast':'--vr2','Central Highlands':'--vr3','Southeast':'--vr4','Mekong Delta':'--vr5'};
-  function el(t,a,p){var e=document.createElementNS(NS,t);for(var k in a)e.setAttribute(k,a[k]);if(p)p.appendChild(e);return e;}
-  function css(v){return getComputedStyle(document.documentElement).getPropertyValue(v).trim();}
-  function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
-  function load(u){return GEO[u]||(GEO[u]=fetch(u).then(function(r){return r.json();}));}
-  function init(fig){
-    if(fig.dataset.on)return; fig.dataset.on='1';
-    var D=JSON.parse(fig.querySelector('.vnm-d').textContent);
-    load(fig.dataset.geo).then(function(G){draw(fig,G,D);});
-  }
-  function draw(fig,G,D){
-    var svg=fig.querySelector('.vnm-svg'), box=fig.querySelector('.vnm-box'), pop=fig.querySelector('.vnm-pop'), hint=fig.querySelector('.vnm-hint');
-    var full=!!D.ys, st={mode:'ctz',lay:{},month:7,y:D.y};
-    if(full){var hm=/^#y(\d{4}|all)$/.exec(location.hash);st.y=hm&&(hm[1]==='all'||D.ys.indexOf(hm[1])>=0)?hm[1]:'all';}
-    function on(i){return st.y==='all'||(D.e[i].y||D.y)===st.y;}
-    function yr(){return st.y==='all'?D.ys[D.ys.length-1]:st.y;}
-    try{var s=JSON.parse(sessionStorage.getItem('vnm')||'{}');if(s.mode)st.mode=s.mode;if(s.lay)st.lay=s.lay;if(s.month)st.month=s.month;}catch(e){}
-    function save(){try{sessionStorage.setItem('vnm',JSON.stringify({mode:st.mode,lay:st.lay,month:st.month}));}catch(e){}}
-    // the year's places and their entries
-    var at={}; D.e.forEach(function(x,i){x.p.forEach(function(p){(at[p]=at[p]||[]).push(i);});});
-    // the first view: the RVN and the year's places; on the page of its own, the layers' frame (STYLE 6)
-    var R=[1e9,1e9,-1e9,-1e9]; function ext(x,y){R[0]=Math.min(R[0],x);R[1]=Math.min(R[1],y);R[2]=Math.max(R[2],x);R[3]=Math.max(R[3],y);}
-    if(!full)Object.keys(at).forEach(function(k){var p=G.pl[k];if(p)ext(p[0],p[1]);});
-    // the RVN's own extent (lon 102.1–109.5, lat 8.4–17.2) in the plane; the layers' (lon 100–110.5, lat 8–23.5)
-    var rv=(full?[[100,23.5],[110.5,8]]:[[102.1,17.2],[109.5,8.4]]).map(function(c){return [(c[0]-G.b[0])/(G.b[2]-G.b[0])*G.W, merc(c[1])];});
-    function merc(lat){var m=function(l){return Math.log(Math.tan(Math.PI/4+l*Math.PI/360));};return (m(G.b[3])-m(lat))*G.W/((G.b[2]-G.b[0])*Math.PI/180);}
-    ext(rv[0][0],rv[0][1]); ext(rv[1][0],rv[1][1]);
-    var home; function fitHome(){var bw=box.clientWidth,bh=box.clientHeight,w=R[2]-R[0],h=R[3]-R[1],pad=full?0:0.06;
-      var sc=Math.max(w*(1+2*pad)/bw,h*(1+2*pad)/bh);home={x:(R[0]+R[2])/2-bw*sc/2,y:(R[1]+R[3])/2-bh*sc/2,w:bw*sc,h:bh*sc};}
-    fitHome(); var vb={x:home.x,y:home.y,w:home.w,h:home.h};
-    var gL=el('g',{},svg), gR=el('g',{},svg), gP=el('g',{},svg), gS=el('g',{'class':'shade'},svg), gZ=el('g',{},svg), gO=el('g',{},svg), gW=el('g',{},svg), gD=el('g',{},svg), gT=el('g',{},svg), gH=el('g',{},svg);
-    G.land.forEach(function(l){el('path',{d:l.d,'class':'ld'},gL);});
-    var LN={laos:[102.6,19.4],cambodia:[104.9,12.9],thailand:[101.2,16.3],drv:[105.6,21.3],china:[106.5,23.3],myanmar:[100.0,21.4]};
-    var lnames=G.land.map(function(l){var c=LN[l.id];if(!c)return null;var t=el('text',{'class':'ln'},gT);t.textContent=l.n==='Democratic Republic of Vietnam'?'North Vietnam':l.n;t._x=(c[0]-G.b[0])/(G.b[2]-G.b[0])*G.W;t._y=merc(c[1]);return t;}).filter(Boolean);
-    var pv=G.prov.map(function(p){var e=el('path',{d:p.d,'class':'pv'},gP);e._p=p;var t=el('title',{},e);t.textContent=p.n+(p.p&&p.p!==p.n?' ('+p.p+')':'')+' · '+(ZN[p.z]||'')+' · '+p.r;return e;});
-    var rvn=el('path',{d:G.prov.map(function(p){return p.d;}).join(''),'class':'rvn'},gO); rvn.remove();
-    function zones(){gZ.textContent='';(st.mode==='reg'?G.reg:st.mode==='ctz'?G.zone:[]).forEach(function(z){el('path',{d:z.d,'class':'zb'},gZ);});}
-    function color(){var f=typeof flat==='function'&&flat();pv.forEach(function(e){var p=e._p,c=st.mode==='ctz'?ZC[p.z]:st.mode==='reg'?RC[p.r]:null;e.setAttribute('fill',css(c||'--vpv'));e.setAttribute('fill-opacity',f?0.12:css('--vop'));});key();}
-    // layers (sources/indochina), drawn when chosen; the rasters sharper as the zoom grows
-    var LAY=G.lay||{}, lnodes={}, imgs=[], lakeEls=[], RW=[0.35,0.45,0.6,0.8,1.1,1.5,2.1];
-    function flat(){return ['tint','koppen','rain'].some(function(k){return st.lay[k]&&LAY[k];});}
-    function layer(k){
-      var L=LAY[k]; if(!L) return;
-      if(!st.lay[k]){ if(lnodes[k]) lnodes[k].style.display='none'; color(); return; }
-      if(lnodes[k]){ lnodes[k].style.display=''; if(k==='rain') rain(); color(); return; }
-      var g=el('g',{},k==='relief'?gS:(L.kind==='image'||L.kind==='grid')?gR:gW); lnodes[k]=g;
-      if(L.kind==='image'){ var im=el('image',{href:L.src,x:L.box[0],y:L.box[1],width:L.box[2],height:L.box[3],preserveAspectRatio:'none',opacity:k==='relief'?0.55:0.85},g); im._L=L; imgs.push(im); sharpen(); }
-      else if(L.kind==='rivers'){ load(L.src).then(function(R){
-          R.l.forEach(function(l){ var e=el('path',{d:l.d,'class':'lake'},g); e._dy=l.dy; lakeEls.push(e); if(l.n){var t=el('title',{},e);t.textContent=l.n;} }); lakes();
-          R.r.forEach(function(r){ var e=el('path',{d:r.d,'class':'riv','stroke-width':RW[Math.max(0,Math.min(6,(r.w||1)-1))]},g); if(r.n){var t=el('title',{},e);t.textContent=r.n;} }); }); }
-      else if(L.kind==='lines'){ load(L.src).then(function(C){C.forEach(function(c){el('path',{d:c.d,'class':'ctr','stroke-dasharray':c.e===500?'3 2':null,'stroke-width':c.e>=1500?0.8:0.5},g);});}); }
-      else if(L.kind==='grid'){ load(L.src).then(function(Rn){g._d=Rn;rain();}); }
-      color();
-    }
-    function lakes(){lakeEls.forEach(function(e){e.style.display=e._dy&&+e._dy>+yr()?'none':'';});}
-    function sharpen(){var z=home.w/vb.w;imgs.forEach(function(im){var L=im._L,h=(z>=6&&L.fine)?L.fine:(z>=2.2&&L.mid)?L.mid:L.src;if(im.getAttribute('href')!==h)im.setAttribute('href',h);});}
-    function rain(){var g=lnodes.rain;if(!g||!g._d)return;g.textContent='';var Rn=g._d,m=st.month-1,sc=Rn.scale;
-      Rn.cells.forEach(function(c){var v=c.v[m];if(v==null)return;var i=0;while(i<sc.length-1&&v>=sc[i+1])i++;
-        var r=el('rect',{x:c.x,y:c.y,width:c.w+0.3,height:c.h+0.3,'shape-rendering':'crispEdges',fill:'hsl(205,60%,'+(92-i*9)+'%)'},g);var t=el('title',{},r);t.textContent=v+' mm'+(c.t&&c.t[m]!=null?'; '+c.t[m]+' °C':'');});key();}
-    // places
-    var P=Object.keys(G.pl).map(function(k){var p=G.pl[k];return {k:k,x:p[0],y:p[1],n:p[2],kind:p[3],r:p[4]||3,c:p[5],hits:[]};});
-    P.forEach(function(p){ var c=el('circle',{cx:p.x,cy:p.y},gD); p.el=c; p.tt=el('title',{},c);
-      c.addEventListener('click',function(ev){ev.stopPropagation();show(p);}); });
-    function when(x){return esc(x.w)+(full&&st.y==='all'?', '+x.y:'');}
-    function tally(){ // the selected year's entries at each place (STYLE 2, 6)
-      at={}; D.e.forEach(function(x,i){if(on(i))x.p.forEach(function(p){(at[p]=at[p]||[]).push(i);});});
-      P.forEach(function(p){p.hits=at[p.k]||[];var n=p.hits.length;p.el.setAttribute('class',n?'dot':'dim');p.tt.textContent=p.n+(n?' · '+n+(n>1?' entries':' entry'):'');});
-      P.sort(function(a,b){return (b.hits.length-a.hits.length)||(a.r-b.r);}); P.forEach(function(p){gD.appendChild(p.el);});}
-    function show(p){ var gz=full?' <a class="m" href="#pl-'+esc(p.k)+'">In the gazetteer</a>':'';
-      if(!p.hits.length){pop.hidden=false;pop.innerHTML='<button type="button" class="x" aria-label="Close">×</button><b>'+esc(p.n)+'</b>'+gz+'<div class="m">No entry placed here'+(full&&st.y==='all'?'':' this year')+'.</div>';return;}
-      pop.hidden=false; pop.innerHTML='<button type="button" class="x" aria-label="Close">×</button><b>'+esc(p.n)+'</b> <span class="m">'+p.hits.length+(p.hits.length>1?' entries':' entry')+'</span>'+gz+'<ol>'+
-        p.hits.map(function(i){var x=D.e[i];return '<li><a href="'+esc(x.h)+'">'+when(x)+'</a> <span class="m">'+esc(x.t)+'.</span> '+esc(x.s)+'</li>';}).join('')+'</ol>';}
-    pop.addEventListener('click',function(e){if(e.target.classList.contains('x'))pop.hidden=true;});
-    // the folded list
-    function list(){var E=D.e.filter(function(x,i){return on(i);}), np={};E.forEach(function(x){x.p.forEach(function(k){np[k]=1;});});
-      fig.querySelector('.vnm-list ol').innerHTML=E.map(function(x){return '<li><a href="'+esc(x.h)+'">'+when(x)+'</a> <span class="m">'+esc(x.t)+'.</span> '+esc(x.s)+(x.p.length?' <span class="m">('+x.p.map(function(k){return G.pl[k]?G.pl[k][2]:k;}).join(', ')+')</span>':'')+'</li>';}).join('');
-      fig.querySelector('.vnm-list summary').textContent=(full&&st.y==='all'?'The placed entries':"The year's placed entries")+' ('+E.length+')';
-      var cnt=fig.querySelector('.vnm-cnt'); if(cnt)cnt.textContent=(st.y==='all'?'All years':st.y)+': '+E.length+' placed '+(E.length===1?'entry':'entries')+', at '+Object.keys(np).length+' places.';}
-    // the year selector (the page of its own)
-    var yrs=fig.querySelector('.vnm-yrs');
-    function setYear(){tally();list();lakes();pop.hidden=true;if(yrs)yrs.querySelectorAll('a').forEach(function(a){if(a.dataset.yr===st.y)a.setAttribute('aria-current','true');else a.removeAttribute('aria-current');});if(typeof names==='function'&&vb)names();if(typeof key==='function')key();}
-    if(yrs){yrs.addEventListener('click',function(ev){var a=ev.target.closest('a[data-yr]');if(!a)return;ev.preventDefault();st.y=a.dataset.yr;try{history.replaceState(null,'','#y'+st.y);}catch(e){}setYear();});
-      addEventListener('hashchange',function(){var hm=/^#y(\d{4}|all)$/.exec(location.hash);if(hm&&(hm[1]==='all'||D.ys.indexOf(hm[1])>=0)){st.y=hm[1];setYear();}});}
-    // names: STYLE 3
-    function names(){
-      gH.textContent=''; var k=box.clientWidth/vb.w, fs=11.5/k, boxes=[], z=home.w/vb.w;
-      function free(b){for(var i=0;i<boxes.length;i++){var o=boxes[i];if(b[0]<o[2]&&b[2]>o[0]&&b[1]<o[3]&&b[3]>o[1])return false;}return true;}
-      P.forEach(function(p){
-        var r=(p.hits.length?Math.max(2.6,Math.sqrt(p.hits.length)*2.4):1.8)/k; p.el.setAttribute('r',r);
-        boxes.push([p.x-r,p.y-r,p.x+r,p.y+r]);
-      });
-      lnames.forEach(function(t){t.setAttribute('x',t._x);t.setAttribute('y',t._y);t.setAttribute('font-size',13/k);});
-      P.forEach(function(p){
-        var want=p.hits.length>0||p.r===1||(p.r===2&&z>=2.2)||(p.r===3&&z>=6);
-        if(!want)return;
-        if(p.x<vb.x||p.x>vb.x+vb.w||p.y<vb.y||p.y>vb.y+vb.h)return;
-        var w=p.n.length*fs*0.56, h=fs, r=(p.hits.length?Math.max(2.6,Math.sqrt(p.hits.length)*2.4):1.8)/k, g=3/k;
-        var spots=[[p.x+r+g,p.y+h*0.35,'start'],[p.x-r-g,p.y+h*0.35,'end'],[p.x,p.y-r-g,'middle'],[p.x,p.y+r+g+h*0.8,'middle']];
-        for(var i=0;i<spots.length;i++){var s=spots[i],x0=s[2]==='start'?s[0]:s[2]==='end'?s[0]-w:s[0]-w/2,b=[x0,s[1]-h*0.85,x0+w,s[1]+h*0.2];
-          if(free(b)){boxes.push(b);var t=el('text',{'class':'lb'+(p.hits.length?'':' o'),x:s[0],y:s[1],'text-anchor':s[2],'font-size':fs},gH);t.textContent=p.n;break;}}
-      });
-    }
-    function view(){svg.setAttribute('viewBox',vb.x+' '+vb.y+' '+vb.w+' '+vb.h);names();sharpen();}
-    function zoomAt(f,cx,cy){var nw=Math.max(home.w/MAXZ,Math.min(home.w*1.5,vb.w/f)),nh=nw*vb.h/vb.w;
-      vb.x=cx-(cx-vb.x)*nw/vb.w;vb.y=cy-(cy-vb.y)*nh/vb.h;vb.w=nw;vb.h=nh;view();}
-    function pt(ev){var r=svg.getBoundingClientRect();return [vb.x+(ev.clientX-r.left)/r.width*vb.w, vb.y+(ev.clientY-r.top)/r.height*vb.h];}
-    svg.addEventListener('wheel',function(ev){ if(!(ev.ctrlKey||ev.metaKey)){hint.hidden=false;clearTimeout(hint._t);hint._t=setTimeout(function(){hint.hidden=true;},1200);return;}
-      ev.preventDefault(); var p=pt(ev); zoomAt(Math.exp(-ev.deltaY*0.0025),p[0],p[1]); },{passive:false});
-    var ptrs={}, last=null, pinch=null;
-    svg.addEventListener('pointerdown',function(ev){svg.setPointerCapture(ev.pointerId);ptrs[ev.pointerId]=[ev.clientX,ev.clientY];svg.classList.add('drag');last=[ev.clientX,ev.clientY];
-      var ids=Object.keys(ptrs);if(ids.length===2){var a=ptrs[ids[0]],b=ptrs[ids[1]];pinch=Math.hypot(a[0]-b[0],a[1]-b[1]);}});
-    svg.addEventListener('pointermove',function(ev){if(!ptrs[ev.pointerId])return;ptrs[ev.pointerId]=[ev.clientX,ev.clientY];var r=svg.getBoundingClientRect(),ids=Object.keys(ptrs);
-      if(ids.length===2&&pinch){var a=ptrs[ids[0]],b=ptrs[ids[1]],d=Math.hypot(a[0]-b[0],a[1]-b[1]);var c=pt({clientX:(a[0]+b[0])/2,clientY:(a[1]+b[1])/2});zoomAt(d/pinch,c[0],c[1]);pinch=d;return;}
-      if(last){vb.x-=(ev.clientX-last[0])/r.width*vb.w;vb.y-=(ev.clientY-last[1])/r.height*vb.h;last=[ev.clientX,ev.clientY];svg.setAttribute('viewBox',vb.x+' '+vb.y+' '+vb.w+' '+vb.h);}});
-    function up(ev){delete ptrs[ev.pointerId];if(Object.keys(ptrs).length<2)pinch=null;if(!Object.keys(ptrs).length){svg.classList.remove('drag');last=null;names();sharpen();}}
-    svg.addEventListener('pointerup',up);svg.addEventListener('pointercancel',up);
-    svg.addEventListener('dblclick',function(ev){var p=pt(ev);zoomAt(2,p[0],p[1]);});
-    fig.querySelector('.vnm-z').addEventListener('click',function(ev){var z=ev.target.dataset.z;if(!z)return;
-      if(z==='home'){vb={x:home.x,y:home.y,w:home.w,h:home.h};view();return;}
-      zoomAt(z==='in'?1.8:1/1.8,vb.x+vb.w/2,vb.y+vb.h/2);});
-    // controls
-    var bar=fig.querySelector('.vnm-bar');
-    var h='<span class="seg" data-k="mode"><button type="button" data-v="ctz">Corps zones</button><button type="button" data-v="reg">Regions</button><button type="button" data-v="plain">Provinces</button></span>';
-    var LN2={relief:'Relief',tint:'Elevation',contours:'Contours',rivers:'Rivers',koppen:'Climate',rain:'Rain'};
-    Object.keys(LN2).forEach(function(k){if(LAY[k])h+='<label><input type="checkbox" data-l="'+k+'"'+(st.lay[k]?' checked':'')+'> '+LN2[k]+'</label>';});
-    if(LAY.rain)h+='<select data-m aria-label="Month">'+['Jan.','Feb.','Mar.','Apr.','May','June','July','Aug.','Sept.','Oct.','Nov.','Dec.'].map(function(m,i){return '<option value="'+(i+1)+'"'+(i+1===st.month?' selected':'')+'>'+m+'</option>';}).join('')+'</select>';
-    bar.innerHTML=h;
-    function seg(){bar.querySelectorAll('.seg button').forEach(function(b){b.setAttribute('aria-pressed',String(b.dataset.v===st.mode));});}
-    bar.addEventListener('click',function(ev){var b=ev.target.closest('.seg button');if(!b)return;st.mode=b.dataset.v;save();seg();zones();color();});
-    bar.addEventListener('change',function(ev){var t=ev.target;if(t.dataset.l){st.lay[t.dataset.l]=t.checked;save();layer(t.dataset.l);key();}else if(t.hasAttribute('data-m')){st.month=+t.value;save();rain();}});
-    function key(){var k=fig.querySelector('.vnm-key'),s='';
-      function sw(c,t){return '<span><i style="background:'+css(c)+';opacity:'+css('--vop')+'"></i>'+t+'</span>';}
-      if(st.mode==='ctz')s=Object.keys(ZN).map(function(z){return sw(ZC[z],ZN[z]);}).join('');
-      else if(st.mode==='reg')s=Object.keys(RC).map(function(r){return sw(RC[r],r);}).join('');
-      s+='<span><i style="background:'+css('--vdot')+';border-radius:50%"></i>'+(full?(st.y==='all'?'entries':'the year\'s entries'):'this year\'s entries')+', by number</span>';
-      function leg(L){return L.legend.map(function(c){return '<span><i style="background:'+c.color+'"></i>'+esc(c.code)+(c.name?' '+esc(c.name):'')+'</span>';}).join('');}
-      if(st.lay.tint&&LAY.tint)s+=leg(LAY.tint);
-      if(st.lay.koppen&&LAY.koppen)s+='<span>Köppen–Geiger, 1961–1990:</span>'+leg(LAY.koppen);
-      if(st.lay.rain&&LAY.rain){var sc=[0,25,50,100,200,300,400,500];s+='<span>Rain, '+['Jan.','Feb.','Mar.','Apr.','May','June','July','Aug.','Sept.','Oct.','Nov.','Dec.'][st.month-1]+', mean of 1961–1990, mm:</span>'+sc.map(function(v,i){return '<span><i style="background:hsl(205,60%,'+(92-i*9)+'%)"></i>'+v+(i===sc.length-1?'+':'')+'</span>';}).join('');}
-      var cr=[];if(st.lay.relief||st.lay.tint||st.lay.contours)cr.push('relief: NOAA, ETOPO 2022');if(st.lay.rivers)cr.push('rivers and lakes: HydroSHEDS v1, © World Wildlife Fund, Inc. (2006–2022), used under license; SWORD v17c');
-      if(st.lay.koppen)cr.push('climate: Beck et al. (2023), CC BY 4.0');if(st.lay.rain)cr.push('rain: CRU CL 2.0, Climatic Research Unit, University of East Anglia, ODbL');
-      if(cr.length)s+='<span class="cr">Layers: '+esc(cr.join('; '))+'. <a href="https://github.com/impending2223/bib/blob/main/sources/indochina/README.md">Sources and licenses</a></span>';
-      k.innerHTML=s;}
-    seg(); zones(); color(); Object.keys(st.lay).forEach(layer); gO.appendChild(rvn); setYear(); view();
-    new ResizeObserver(function(){var r=vb.w/home.w;fitHome();var cx=vb.x+vb.w/2,cy=vb.y+vb.h/2;vb.w=home.w*r;vb.h=home.h*r;vb.x=cx-vb.w/2;vb.y=cy-vb.h/2;view();}).observe(box);
-    function retheme(){color();names();} matchMedia('(prefers-color-scheme: dark)').addEventListener('change',retheme);
-    new MutationObserver(retheme).observe(document.documentElement,{attributes:true,attributeFilter:['data-theme']});
-  }
-  var io='IntersectionObserver' in window?new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){io.unobserve(e.target);init(e.target);}});},{rootMargin:'600px'}):null;
-  document.querySelectorAll('figure.vnm').forEach(function(f){io?io.observe(f):init(f);});
-})();
-</script>"""

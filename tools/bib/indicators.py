@@ -69,7 +69,14 @@ STYLE (settled; keep it, and fix anything that drifts from it):
     1962-02"), shown "Feb. 1962".
 15. Oil (oil-*): a table of its own under the indicators, before Money and credit, without vacant columns; its cells
     in millions of barrels a day, with changes; STYLE in tools/bib/oil.py.
-16. The war (war-*, kind: war): deaths and strength, its own cells, persons; STYLE in tools/bib/war.py.
+16. The war (war-*, kind: war): not in the month's tables. A table of its own under the first Thursday of the next
+    month, in the day layout (the owner's request, Oct. 22, 2026; tools/bib/wartable.py, its STYLE); its cells in
+    tools/bib/war.py.
+17. Money, the foreign accounts and the debt's terms (tools/bib/finance.py, its STYLE; written by
+    tools/indicators/make_finance.py): the money stock and free reserves in a group "Money and credit" of the indicators
+    table, the yields and mortgage rates in the Money and credit table (13); reserve assets and the trade balances under
+    International; the debt's holders and length under "Federal debt" (the public debt and its ratios with them), $bn in
+    its header as Federal finance; the exchange rates (and the gold price, when read) in a table of their own (one figure).
 """
 import calendar
 import datetime
@@ -81,6 +88,7 @@ from . import store
 from .markup import to_html
 from . import oil
 from . import war
+from . import finance
 from . import concepts
 
 DIR = os.path.join(store.ROOT, "indicators")
@@ -89,7 +97,8 @@ ORDER = ["cpi", "wpi", "deflator", "unemployment", "payrolls", "industrial-produ
          "federal-primary-balance", "interest-gnp", "public-debt", "debt-gnp", "debt-gdp-omb",
          "balance-of-payments", "balance-of-payments-regular", "balance-of-payments-liquidity",
          "balance-of-payments-official", "gold-stock", "oil-production", "oil-supplied", "oil-trade", "oil-trade-year",
-         "oil-reserves", "war-deaths", "war-strength", "discount-rate", "federal-funds",
+         "oil-reserves", "war-deaths", "war-strength",
+         "war-enemy-ob", "war-enemy-ob-old", "war-enemy-snie", "war-enemy-strength-q", "war-infiltration", "war-enemy-kia", "war-rvnaf-kia", "war-rvnaf-strength", "war-fwmaf-strength", "war-air-attack", "war-air-nvn-rp", "discount-rate", "federal-funds",
          "prime-rate", "treasury-bill", "treasury-10-year", "approval"]
 GROUP = {"cpi": "Prices", "wpi": "Prices", "deflator": "Prices",
          "unemployment": "Employment", "payrolls": "Employment",
@@ -107,7 +116,23 @@ GROUP = {"cpi": "Prices", "wpi": "Prices", "deflator": "Prices",
          "oil-production": "Oil", "oil-supplied": "Oil", "oil-trade": "Oil", "oil-trade-year": "Oil",
          "oil-reserves": "Oil",
          "war-deaths": "The war", "war-strength": "The war",
+         **{x: "The war" for x in ("war-enemy-ob", "war-enemy-ob-old", "war-enemy-snie", "war-enemy-strength-q", "war-infiltration", "war-enemy-kia", "war-rvnaf-kia", "war-rvnaf-strength", "war-fwmaf-strength", "war-air-attack", "war-air-nvn-rp")},
          "approval": "Opinion"}
+def _place(after, ids):
+    """Put ids into ORDER after `after` (the series tools/bib/finance.py renders, kept out of the lists above)."""
+    i = ORDER.index(after) + 1
+    ORDER[i:i] = [x for x in ids if x not in ORDER]
+
+
+# Money, the foreign accounts, the debt's terms, unit labor costs (tools/bib/finance.py; tools/indicators/make_finance.py)
+_place("payrolls", finance.COSTS)
+_place("debt-gdp-omb", finance.DEBT)
+_place("gold-stock", finance.INTL + finance.FX + finance.MONEY)
+_place("treasury-10-year", finance.RATES)
+GROUP.update({x: "Employment" for x in finance.COSTS})
+GROUP.update({x: "Federal debt" for x in ("interest-gnp", "public-debt", "debt-gnp", "debt-gdp-omb") + finance.DEBT})
+GROUP.update({x: "International" for x in finance.INTL + finance.FX})
+GROUP.update({x: "Money and credit" for x in finance.MONEY + finance.RATES})
 FIELD_LABEL = {"receipts": "Receipts", "expenditures": "Expenditures", "payments": "Payments", "outlays": "Outlays",
                "balance": "Balance", "interest": "Net interest", "primary": "Primary"}
 MON = ["Jan.", "Feb.", "Mar.", "Apr.", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."]
@@ -314,7 +339,7 @@ def rows_for(data, lo, hi, prev_to=None, next_from=None):
     far = prev_to is not None and (lo - prev_to).days > 92
     for sid in ORDER + [k for k in data if k not in ORDER]:
         s = data.get(sid)
-        if not s:
+        if not s or s.get("kind") == "war":    # The war: a table of its own, on the first Thursday (wartable.py)
             continue
         for r in s.get("rows", []):
             end = period_end(r["p"])
@@ -326,6 +351,8 @@ def rows_for(data, lo, hi, prev_to=None, next_from=None):
 
 
 def cell_first(sid, s, r, year):
+    if sid in finance.SERIES:             # money, the foreign accounts, the debt's terms (tools/bib/finance.py)
+        return finance.cell(sid, s, r, "first")
     if sid in oil.SERIES:                 # the Oil group (tools/bib/oil.py, its STYLE)
         return oil.first_cell(sid, s, r)
     if s.get("kind") == "war":            # The war (tools/bib/war.py, its STYLE)
@@ -341,6 +368,8 @@ def cell_first(sid, s, r, year):
 
 
 def cell_now(sid, s, r):
+    if sid in finance.SERIES:
+        return finance.cell(sid, s, r, "now")
     if sid in oil.SERIES:
         return oil.now_cell(sid, s, r)
     if s.get("kind") == "war":
@@ -406,7 +435,7 @@ def rate_row(sid, s, r, year, href=None, label=None):
     name = f'<span class="per">{esc(label)}</span>' if label else name_cell(sid, s, r, href)
     if "first" in r:
         rr = dict(r)
-        if r.get("released"):            # "(announced Nov. 23; effective Nov. 24)"
+        if r.get("released") and sid not in finance.SERIES:   # "(announced Nov. 23; effective Nov. 24)"
             ann = f"announced {date_label(r['released'], year)}"
             rr["note"] = f"{ann}; {r['note']}" if r.get("note") else ann
         val = cell_first(sid, s, rr, year)
@@ -449,17 +478,20 @@ def block(data, sec_from, sec_to, prev_to, year, next_from=None, href=None):
     if not rows:
         return ""
     href = href or def_href
-    trs, shown, polls, rates, oils = [], set(), [], [], []
+    trs, shown, polls, rates, oils, fxs = [], set(), [], [], [], []
     for sid, s, r in rows:
         if sid in oil.SERIES:            # Oil apart, in a table of its own (STYLE 15; tools/bib/oil.py)
             oils.append((sid, s, r))
+            continue
+        if sid in finance.FX:            # exchange rates and gold apart, one figure (STYLE 17; tools/bib/finance.py)
+            fxs.append((sid, s, r))
             continue
         g = GROUP.get(sid)
         if s.get("kind") in ("poll", "rate"):
             g = None
         if g and g not in shown:
             shown.add(g)
-            unit_note = " $bn" if g in ("Federal finance", "International") else ""
+            unit_note = " $bn" if g in ("Federal finance", "Federal debt", "International") else ""
             trs.append(f'<tr class="g"><th colspan="4">{esc(g)}{grey(unit_note)}</th></tr>')
         if s.get("kind") == "poll":
             pname, per, first, rel, now = poll_row(sid, s, r, year)
@@ -479,6 +511,8 @@ def block(data, sec_from, sec_to, prev_to, year, next_from=None, href=None):
                 + "".join(trs) + "</tbody></table></div>")
     if oils:                             # Oil apart: no vacant columns (STYLE 15; tools/bib/oil.py)
         out += oil.table(oils, year, lambda sid, s, r: name_cell(sid, s, r, href), cells)
+    if fxs:                              # exchange rates and gold: not revised, one figure (STYLE 17)
+        out += finance.fx_table(fxs, year, lambda sid, s, r: name_cell(sid, s, r, href), cells)
     if rates:                            # rates apart: not revised, so one figure (STYLE 13)
         out += ('<div class="ind ind-sep ind-rt"><p class="ind-cap">Money and credit</p><table><thead><tr><th>Rate</th>'
                 '<th>Percent</th></tr></thead><tbody>' + "".join(rates) + "</tbody></table></div>")

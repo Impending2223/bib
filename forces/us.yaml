@@ -1,0 +1,505 @@
+# The armed forces of the United States, 1960-68, kept by hand (tools/bib/forces.py renders them; its STYLE notes).
+#
+# Every figure is read off a page of an open copy, with its table and page in its source. The owner's request,
+# Oct. 20-22, 2026: U.S. forces and materiel a year (men, where they were, the machines: aircraft, ships, armor,
+# missiles), set apart from the economic tables, a block a year under Armed Forces Day.
+#
+# Schema
+#   sources: {KEY: {cite, url, note?}}       cite: the work, table and page, *italics* for titles; url: the page read
+#   tables: a list, in the order shown. Each table:
+#     key, title                              the title says what is counted, not the date
+#     asof                                    the date of the count, as the source gives it ("June 30", "Sept. 30")
+#     unit                                    persons | thousands | count (the head of the figures says it)
+#     note                                    optional: one or two sentences shown under the table
+#     tol                                     optional: how far a total may stand from its parts (rounding; default 0)
+#     rows: [{key, label, sum?, group?, indent?}]
+#        sum: the keys whose figures the row's figure is the total of; `check` holds the row to them, column by
+#             column, in every year (a part absent that year counts nothing)
+#        group: true for a heading row (a label, no figures)
+#     cols: [{key, head}]                     a column is shown in a year only where that year has it
+#     years: {YYYY: {COL: {src, ROW: figure, ..., printed?: {ROW: why}, as?: {ROW: the source's own label}}}}
+#        figure: an integer; a string where the source prints a fraction or a pair ('26½', '4/3'); null for the
+#        source's dash. printed: a row the source prints though its parts do not make it (shown on hover, and
+#        excused from the sum check). as: the label the source gives a row that year, where it differs.
+#
+# Where a table is classified then (the Air Force's Statistical Digest: confidential or secret, downgraded later), its
+# note says so: those figures were not public in the year they count.
+
+sources:
+  sa65-354:
+    cite: '*Statistical Abstract of the United States, 1965* (86th ed.), table 354, p. 262'
+    url: https://www2.census.gov/library/publications/1965/compendia/statab/86ed/1965-03.pdf#page=98
+  sa65-360:
+    cite: '*Statistical Abstract of the United States, 1965* (86th ed.), table 360, p. 265 (from the *Budget*)'
+    url: https://www2.census.gov/library/publications/1965/compendia/statab/86ed/1965-03.pdf#page=101
+  sa65-361:
+    cite: '*Statistical Abstract of the United States, 1965* (86th ed.), table 361, p. 266 (Navy Comptroller)'
+    url: https://www2.census.gov/library/publications/1965/compendia/statab/86ed/1965-03.pdf#page=102
+  sa66-372:
+    cite: '*Statistical Abstract of the United States, 1966* (87th ed.), table 372, p. 264 (from the *Budget*)'
+    url: https://www2.census.gov/library/publications/1966/compendia/statab/87ed/1966-04.pdf#page=70
+  sa66-373:
+    cite: '*Statistical Abstract of the United States, 1966* (87th ed.), table 373, p. 265 (Navy Comptroller)'
+    url: https://www2.census.gov/library/publications/1966/compendia/statab/87ed/1966-04.pdf#page=71
+  sa67-369:
+    cite: '*Statistical Abstract of the United States, 1967* (88th ed.), table 369, p. 261 (from the *Budget*)'
+    url: https://www2.census.gov/library/publications/1967/compendia/statab/88ed/1967-04.pdf#page=92
+  sa68-370:
+    cite: '*Statistical Abstract of the United States, 1968* (89th ed.), table 370, p. 255 (from the *Budget*)'
+    url: https://www2.census.gov/library/publications/1968/compendia/statab/89ed/1968-05.pdf#page=11
+  sa69-369:
+    cite: '*Statistical Abstract of the United States, 1969* (90th ed.), table 369, p. 253 (from *Selected Manpower Statistics*)'
+    url: https://www2.census.gov/library/publications/1969/compendia/statab/90ed/1969-05.pdf#page=12
+  sa69-370:
+    cite: '*Statistical Abstract of the United States, 1969* (90th ed.), table 370, p. 253 (from the *Budget*)'
+    url: https://www2.census.gov/library/publications/1969/compendia/statab/90ed/1969-05.pdf#page=12
+  sa69-372:
+    cite: '*Statistical Abstract of the United States, 1969* (90th ed.), table 372, p. 255'
+    url: https://www2.census.gov/library/publications/1969/compendia/statab/90ed/1969-05.pdf#page=14
+  sa69-375:
+    cite: '*Statistical Abstract of the United States, 1969* (90th ed.), table 375, p. 256 (from *Selected Manpower Statistics*)'
+    url: https://www2.census.gov/library/publications/1969/compendia/statab/90ed/1969-05.pdf#page=15
+  dmdc:
+    cite: 'DMDC, Historical Reports, FY 1954-1993, "Military Personnel on Active Duty by Grade in Which Serving," June of each year (AD_1954-1993.zip; "Not DMDC Data")'
+    url: https://dwp.dmdc.osd.mil/dwp/app/dod-data-reports/workforce-reports
+  dmdc-country:
+    cite: 'DMDC, "Active Duty Military Personnel Strengths by Regional Area and by Country" (309A), Sept. 30 of each year, as transcribed in Allen, Flynn and Martinez Machain, *troopdata* 1.1.0 (CRAN 2026), its table of the reports as published'
+    url: https://cran.r-project.org/package=troopdata
+    note: The reports themselves were not reached; the figures are the package's transcription, row by row, with the report's own place name.
+  dig60:
+    cite: '*USAF Statistical Digest, FY 1960*, table 40 (aircraft), table 49 (missiles), scan pp. 100, 129'
+    url: https://archive.org/details/DTIC_ADA640757
+  dig61:
+    cite: '*USAF Statistical Digest, FY 1961*, table 36 (aircraft), table 38 (missiles), scan pp. 118, 125'
+    url: https://archive.org/details/DTIC_ADA640758
+  dig62:
+    cite: '*USAF Statistical Digest, FY 1962*, table 37 (aircraft), table 39 (missiles), scan pp. 126, 134'
+    url: https://archive.org/details/DTIC_ADA640766
+  dig63:
+    cite: '*USAF Statistical Digest, FY 1963*, table 37 (aircraft), table 39 (missiles), scan pp. 154, 162-163'
+    url: https://archive.org/details/DTIC_ADA640752
+  dig64:
+    cite: '*USAF Statistical Digest, FY 1964*, table 36 (aircraft), table 38 (missiles), scan pp. 126, 135'
+    url: https://archive.org/details/DTIC_ADA640762
+  dig65:
+    cite: '*USAF Statistical Digest, FY 1965*, table 34 (aircraft), table 36 (missiles), scan pp. 119, 127'
+    url: https://archive.org/details/DTIC_ADA640754
+  dig66:
+    cite: '*USAF Statistical Digest, FY 1966*, table 37 (aircraft), table 39 (missiles), scan pp. 173, 181'
+    url: https://archive.org/details/DTIC_ADA640763
+  dig67:
+    cite: '*USAF Statistical Digest, FY 1967*, table 36 (aircraft), table 38 (missiles), scan pp. 169, 177'
+    url: https://archive.org/details/DTIC_ADA640769
+  dig68:
+    cite: '*USAF Statistical Digest, FY 1968*, table 35 (aircraft), table 37 (missiles), scan pp. 179, 188'
+    url: https://archive.org/details/DTIC_ADA640755
+  doe-1994:
+    cite: 'Department of Energy, OpenNet, "Summary Table: United States Nuclear Weapons Stockpile, 1945-1994" (1994)'
+    url: https://www.osti.gov/opennet/forms?formurl=document/press/pc26tab1.html
+    note: The total is printed through 1961 only; megatonnage, builds and retirements every year.
+  fas:
+    cite: 'Federation of American Scientists, nuclear warhead stockpiles by year (Kristensen, Korda et al.), as Our World in Data republishes them, "Number of nuclear warheads" (2026)'
+    url: https://ourworldindata.org/grapher/nuclear-warhead-stockpiles
+
+tables:
+  - key: personnel
+    title: Military personnel on active duty
+    asof: June 30
+    unit: persons
+    note: The Abstract counts the National Guard, Reserve and retired Regulars on extended active duty and the academies' cadets and midshipmen, and excludes the Coast Guard. DMDC's file is the Department's count by grade, as kept today.
+    rows:
+      - {key: army, label: Army}
+      - {key: navy, label: Navy}
+      - {key: marines, label: Marine Corps}
+      - {key: air-force, label: Air Force}
+      - {key: total, label: Total, sum: [army, navy, marines, air-force]}
+    cols:
+      - {key: then, head: Printed then}
+      - {key: now, head: DMDC today}
+    years:
+      1960:
+        then: {src: sa69-372, army: 873078, navy: 617984, marines: 170621, air-force: 814752, total: 2476435}
+        now: {src: dmdc, army: 873078, navy: 617984, marines: 170621, air-force: 814752, total: 2476435}
+      1961:
+        then: {src: sa65-354, army: 858622, navy: 627089, marines: 176909, air-force: 821151, total: 2483771}
+        now: {src: dmdc, army: 858622, navy: 627089, marines: 176909, air-force: 821151, total: 2483771}
+      1962:
+        then: {src: sa65-354, army: 1066404, navy: 666428, marines: 190962, air-force: 884025, total: 2807819}
+        now: {src: dmdc, army: 1066404, navy: 666428, marines: 190962, air-force: 884025, total: 2807819}
+      1963:
+        then: {src: sa65-354, army: 975155, navy: 664207, marines: 189683, air-force: 868644, total: 2697689}
+        now: {src: dmdc, army: 975916, navy: 664647, marines: 189683, air-force: 869431, total: 2699677}
+      1964:
+        then: {src: sa65-354, army: 972445, navy: 667163, marines: 189751, air-force: 855802, total: 2685161}
+        now: {src: dmdc, army: 973238, navy: 667596, marines: 189777, air-force: 856798, total: 2687409}
+      1965:
+        then: {src: sa69-372, army: 968313, navy: 671009, marines: 190187, air-force: 823633, total: 2653142}
+        now: {src: dmdc, army: 969066, navy: 671448, marines: 190213, air-force: 824662, total: 2655389}
+      1966:
+        then: {src: sa69-372, army: 1199046, navy: 744469, marines: 261687, air-force: 886350, total: 3091552}
+        now: {src: dmdc, army: 1199784, navy: 745205, marines: 261716, air-force: 887353, total: 3094058}
+      1967:
+        then: {src: sa69-372, army: 1442422, navy: 751394, marines: 285269, air-force: 897426, total: 3376511}
+        now: {src: dmdc, army: 1442498, navy: 751619, marines: 285269, air-force: 897494, total: 3376880}
+      1968:
+        then: {src: sa69-372, army: 1570186, navy: 765232, marines: 307252, air-force: 904759, total: 3547429}
+        now: {src: dmdc, army: 1570343, navy: 765457, marines: 307252, air-force: 904850, total: 3547902}
+
+  - key: location
+    title: Where they were
+    asof: Dec. 31
+    unit: thousands
+    note: Ashore includes Navy personnel temporarily ashore; afloat is the Navy's and the Marine Corps'. Outlying areas are chiefly Puerto Rico, the Canal Zone and Guam.
+    rows:
+      - {key: us, label: United States}
+      - {key: outlying, label: Outlying areas}
+      - {key: us-outlying, label: United States and outlying areas}
+      - {key: foreign, label: Foreign countries and areas}
+      - {key: total, label: Total, sum: [us, outlying, us-outlying, foreign]}
+    cols:
+      - {key: all, head: All}
+      - {key: ashore, head: Ashore}
+      - {key: afloat, head: Afloat}
+    years:
+      1960:
+        all: {src: sa69-375, us: 1831, outlying: 30, foreign: 633, total: 2494}
+        ashore: {src: sa69-375, us: 1633, outlying: 28, foreign: 548, total: 2209}
+        afloat: {src: sa69-375, us: 198, outlying: 2, foreign: 85, total: 285}
+      1965:
+        all: {src: sa69-375, us: 1968, outlying: 36, foreign: 853, total: 2857}
+        ashore: {src: sa69-375, us: 1757, outlying: 32, foreign: 728, total: 2517}
+        afloat: {src: sa69-375, us: 211, outlying: 4, foreign: 125, total: 340}
+      1968:
+        all: {src: sa69-375, us-outlying: 2237, foreign: 1171, total: 3408}
+        ashore: {src: sa69-375, us: 1995, outlying: 42, foreign: 1068, total: 3105}
+        afloat: {src: sa69-375, us-outlying: 200, foreign: 103, total: 303}
+
+  - key: abroad
+    title: Outside the fifty States, by place
+    asof: Sept. 30
+    unit: persons
+    note: Each place's figure as its report lists it, the Navy and Marines afloat there included; the places with the most, and Southeast Asia's. Not every place, so no total. The figures by country were not published then.
+    rows:
+      - {key: h-europe, label: Europe and the Mediterranean, group: true}
+      - {key: germany, label: West Germany}
+      - {key: france, label: France}
+      - {key: uk, label: United Kingdom}
+      - {key: italy, label: Italy}
+      - {key: spain, label: Spain}
+      - {key: turkey, label: Turkey}
+      - {key: greece, label: Greece}
+      - {key: iceland, label: Iceland}
+      - {key: morocco, label: Morocco}
+      - {key: libya, label: Libya}
+      - {key: h-asia, label: East Asia and the Pacific, group: true}
+      - {key: japan, label: Japan}
+      - {key: ryukyus, label: Ryukyu Islands (Okinawa)}
+      - {key: korea, label: South Korea}
+      - {key: taiwan, label: Taiwan}
+      - {key: philippines, label: Philippines}
+      - {key: vietnam, label: South Vietnam}
+      - {key: thailand, label: Thailand}
+      - {key: guam, label: Guam (Marianas)}
+      - {key: h-americas, label: The Americas and the Atlantic, group: true}
+      - {key: canada, label: Canada}
+      - {key: greenland, label: Greenland}
+      - {key: bermuda, label: Bermuda}
+      - {key: cuba, label: Cuba (Guantánamo)}
+      - {key: puerto-rico, label: Puerto Rico}
+      - {key: canal-zone, label: Canal Zone}
+    cols:
+      - {key: n, head: DMDC today}
+    years:
+      1960:
+        n: {src: dmdc-country, germany: 232256, france: 40059, uk: 31992, italy: 10339, spain: 11232, turkey: 7454, greece: 1976, iceland: 3897, morocco: 8031, libya: 3942, japan: 46295, ryukyus: 37142, korea: 55864, taiwan: 4147, philippines: 11334, vietnam: 794, thailand: 338, guam: 8371, canada: 14312, greenland: 4685, bermuda: 4366, cuba: 2751, puerto-rico: 10197, canal-zone: 7776}
+      1961:
+        n: {src: dmdc-country, germany: 242605, france: 40045, uk: 32661, italy: 10716, spain: 11744, turkey: 9122, greece: 1937, iceland: 3154, morocco: 7559, libya: 3809, japan: 47182, ryukyus: 38658, korea: 57694, taiwan: 4349, philippines: 11681, vietnam: 959, thailand: 791, guam: 6508, canada: 14034, greenland: 5178, bermuda: 4849, cuba: 3429, puerto-rico: 9926, canal-zone: 8069}
+      1962:
+        n: {src: dmdc-country, germany: 274119, france: 53074, uk: 28045, italy: 10544, spain: 12013, turkey: 10495, greece: 2576, iceland: 2564, morocco: 7176, libya: 3884, japan: 49308, ryukyus: 42411, korea: 60947, taiwan: 4121, philippines: 13936, vietnam: 8498, thailand: 2096, guam: 7943, canada: 12534, greenland: 4729, bermuda: 4390, cuba: 4559, puerto-rico: 9683, canal-zone: 8686}
+      1963:
+        n: {src: dmdc-country, germany: 254057, france: 41331, uk: 27438, italy: 10265, spain: 13418, turkey: 10475, greece: 2796, iceland: 2632, morocco: 2378, libya: 3586, japan: 49467, ryukyus: 39966, korea: 56910, taiwan: 3923, philippines: 13889, vietnam: 15620, thailand: 3269, guam: 7731, canada: 11484, greenland: 4654, bermuda: 3019, cuba: 3471, puerto-rico: 9295, canal-zone: 9370}
+      1964:
+        n: {src: dmdc-country, germany: 251586, france: 33503, uk: 22954, italy: 10963, spain: 10667, turkey: 11133, greece: 2862, iceland: 2857, morocco: 1820, libya: 3722, japan: 38923, ryukyus: 45760, korea: 62596, taiwan: 3802, philippines: 15593, vietnam: 17280, thailand: 4111, guam: 7023, canada: 10893, greenland: 3390, bermuda: 2507, cuba: 4303, puerto-rico: 9828, canal-zone: 11405}
+      1965:
+        n: {src: dmdc-country, germany: 258619, france: 31049, uk: 19965, italy: 10535, spain: 8759, turkey: 10113, greece: 2968, iceland: 2391, morocco: 1586, libya: 3370, japan: 34025, ryukyus: 30129, korea: 58636, taiwan: 4175, philippines: 17916, vietnam: 129611, thailand: 8263, guam: 7010, canada: 8480, greenland: 1966, bermuda: 2191, cuba: 3727, puerto-rico: 10836, canal-zone: 11721}
+      1966:
+        n: {src: dmdc-country, germany: 246137, france: 22333, uk: 21402, italy: 10021, spain: 8935, turkey: 10037, greece: 3117, iceland: 2797, morocco: 1581, libya: 2940, japan: 36353, ryukyus: 43981, korea: 47076, taiwan: 7689, philippines: 25605, vietnam: 317007, thailand: 26404, guam: 9846, canada: 5703, greenland: 1444, bermuda: 1977, cuba: 4013, puerto-rico: 7975, canal-zone: 11576}
+      1967:
+        n: {src: dmdc-country, germany: 246300, france: 1491, uk: 24396, italy: 9962, spain: 9553, turkey: 10606, greece: 3050, iceland: 3373, morocco: 1771, libya: 3057, japan: 38560, ryukyus: 40194, korea: 55057, taiwan: 9038, philippines: 28283, vietnam: 451752, thailand: 37691, guam: 12387, canada: 4750, greenland: 1237, bermuda: 1870, cuba: 4092, puerto-rico: 8397, canal-zone: 11917}
+      1968:
+        n: {src: dmdc-country, germany: 213596, france: 342, uk: 24035, italy: 10431, spain: 9239, turkey: 9863, greece: 3096, iceland: 2900, morocco: 1735, libya: 3078, japan: 41121, ryukyus: 41948, korea: 62416, taiwan: 8874, philippines: 28444, vietnam: 537377, thailand: 47972, guam: 15305, canada: 4118, greenland: 1027, bermuda: 2041, cuba: 4197, puerto-rico: 8331, canal-zone: 11721, as: {korea: South Korea e/, vietnam: South Viet-Nam e/, thailand: Thailand e/}}
+
+  - key: units
+    title: Major forces
+    asof: June 30
+    unit: count
+    note: As the Abstract of 1969 printed the Department's *Selected Manpower Statistics*. Active aircraft inventory includes the reserve components' aircraft on the services' books.
+    rows:
+      - {key: h-army, label: Army, group: true}
+      - {key: army-divisions, label: Divisions}
+      - {key: army-rct, label: Regiments and regimental combat teams}
+      - {key: army-acc, label: Armored combat commands}
+      - {key: army-brigades, label: Infantry brigades}
+      - {key: army-battle-groups, label: Infantry battle groups}
+      - {key: army-missile-commands, label: Missile commands}
+      - {key: army-ad, label: Air defense battalions}
+      - {key: army-sf, label: Special forces groups}
+      - {key: army-aircraft, label: 'Aircraft, active inventory'}
+      - {key: h-navy, label: Navy and Marine Corps, group: true}
+      - {key: navy-warships, label: Warships, indent: 1}
+      - {key: navy-other, label: Other ships, indent: 1}
+      - {key: navy-ships, label: Commissioned ships, sum: [navy-warships, navy-other]}
+      - {key: navy-cag, label: Carrier air groups}
+      - {key: navy-asw-groups, label: Carrier antisubmarine air groups}
+      - {key: navy-asw-squadrons, label: Carrier antisubmarine squadrons}
+      - {key: marine-divisions, label: Marine divisions}
+      - {key: marine-wings, label: Marine aircraft wings}
+      - {key: navy-op, label: Operating aircraft, indent: 1}
+      - {key: navy-log, label: Logistical support aircraft, indent: 1}
+      - {key: navy-aircraft, label: 'Aircraft, active inventory', sum: [navy-op, navy-log]}
+      - {key: h-af, label: Air Force, group: true}
+      - {key: af-strategic, label: Strategic squadrons, indent: 1}
+      - {key: af-ad, label: Air defense squadrons, indent: 1}
+      - {key: af-tactical, label: Tactical squadrons (airlift included), indent: 1}
+      - {key: af-squadrons, label: Squadrons, sum: [af-strategic, af-ad, af-tactical]}
+      - {key: af-op, label: Operating aircraft, indent: 1}
+      - {key: af-nonop, label: Nonoperating aircraft, indent: 1}
+      - {key: af-aircraft, label: 'Aircraft, active inventory', sum: [af-op, af-nonop]}
+    cols:
+      - {key: n, head: Printed 1969}
+    years:
+      1960: {n: {src: sa69-369, army-divisions: 14, army-rct: 5, army-acc: 1, army-brigades: 2, army-battle-groups: 9, army-missile-commands: 4, army-ad: 80¼, army-sf: null, army-aircraft: 5528, navy-ships: 812, navy-warships: 376, navy-other: 436, navy-cag: 16, navy-asw-groups: 11, navy-asw-squadrons: 31, marine-divisions: 3, marine-wings: 3, navy-aircraft: 8863, navy-op: 6759, navy-log: 2104, af-squadrons: 286, af-strategic: 140, af-ad: 53, af-tactical: 93, af-aircraft: 18712, af-op: 16567, af-nonop: 2145}}
+      1961: {n: {src: sa69-369, army-divisions: 14, army-rct: 6, army-acc: 1, army-brigades: 2, army-battle-groups: 8, army-missile-commands: 4, army-ad: 77¼, army-sf: 3, army-aircraft: 5564, navy-ships: 819, navy-warships: 375, navy-other: 444, navy-cag: 17, navy-asw-groups: 11, navy-asw-squadrons: 31, marine-divisions: 3, marine-wings: 3, navy-aircraft: 8793, navy-op: 6682, navy-log: 2111, af-squadrons: 260, af-strategic: 125, af-ad: 42, af-tactical: 93, af-aircraft: 16905, af-op: 15072, af-nonop: 1833}}
+      1962: {n: {src: sa69-369, army-divisions: 16, army-rct: 6, army-acc: null, army-brigades: 1, army-battle-groups: 9, army-missile-commands: 3, army-ad: 65¼, army-sf: 4, army-aircraft: 5648, navy-ships: 900, navy-warships: 397, navy-other: 503, navy-cag: 18, navy-asw-groups: 12, navy-asw-squadrons: 34, marine-divisions: 3, marine-wings: 3, navy-aircraft: 9176, navy-op: 7458, navy-log: 1718, af-squadrons: 267, af-strategic: 102, af-ad: 42, af-tactical: 123, af-aircraft: 16591, af-op: 14271, af-nonop: 2320, printed: {army-divisions: Excludes two National Guard divisions on active duty for the Berlin crisis (the Abstract's note).}}}
+      1963: {n: {src: sa69-369, army-divisions: 16, army-rct: 4, army-acc: null, army-brigades: 4, army-battle-groups: 6, army-missile-commands: 2, army-ad: 63¼, army-sf: 6, army-aircraft: 6001, navy-ships: 857, navy-warships: 383, navy-other: 474, navy-cag: 17, navy-asw-groups: 11, navy-asw-squadrons: 31, marine-divisions: 3, marine-wings: 3, navy-aircraft: 8756, navy-op: 7165, navy-log: 1591, af-squadrons: 235, af-strategic: 87, af-ad: 42, af-tactical: 106, af-aircraft: 16024, af-op: 13841, af-nonop: 2183}}
+      1964: {n: {src: sa69-369, army-divisions: 16, army-rct: 4, army-acc: null, army-brigades: 7, army-battle-groups: null, army-missile-commands: 2, army-ad: 58¼, army-sf: 7, army-aircraft: 6338, navy-ships: 859, navy-warships: 388, navy-other: 471, navy-cag: 17, navy-asw-groups: 11, navy-asw-squadrons: 31, marine-divisions: 3, marine-wings: 3, navy-aircraft: 8391, navy-op: 6949, navy-log: 1442, af-squadrons: 230, af-strategic: 78, af-ad: 40, af-tactical: 112, af-aircraft: 15380, af-op: 13166, af-nonop: 2214}}
+      1965: {n: {src: sa69-369, army-divisions: 16, army-rct: 4, army-acc: null, army-brigades: 7, army-battle-groups: null, army-missile-commands: 2, army-ad: 56¾, army-sf: 7, army-aircraft: 6933, navy-ships: 880, navy-warships: 407, navy-other: 473, navy-cag: 17, navy-asw-groups: 11, navy-asw-squadrons: 31, marine-divisions: 3, marine-wings: 3, navy-aircraft: 8056, navy-op: 6620, navy-log: 1436, af-squadrons: 219, af-strategic: 63, af-ad: 39, af-tactical: 117, af-aircraft: 14881, af-op: 13100, af-nonop: 1781}}
+      1966: {n: {src: sa69-369, army-divisions: 17, army-rct: 4, army-acc: null, army-brigades: 9, army-battle-groups: null, army-missile-commands: 1, army-ad: 55¼, army-sf: 7, army-aircraft: 8098, navy-ships: 909, navy-warships: 410, navy-other: 499, navy-cag: 17, navy-asw-groups: 10, navy-asw-squadrons: 28, marine-divisions: 4, marine-wings: 3, navy-aircraft: 8260, navy-op: 6485, navy-log: 1775, af-squadrons: 214, af-strategic: 46, af-ad: 38, af-tactical: 130, af-aircraft: 14214, af-op: 12592, af-nonop: 1622}}
+      1967: {n: {src: sa69-369, army-divisions: 17, army-rct: 5, army-acc: null, army-brigades: 11, army-battle-groups: null, army-missile-commands: 1, army-ad: 56¼, army-sf: 7, army-aircraft: 9375, navy-ships: 931, navy-warships: 419, navy-other: 512, navy-cag: 17, navy-asw-groups: 10, navy-asw-squadrons: 28, marine-divisions: 4, marine-wings: 3, navy-aircraft: 8417, navy-op: 6591, navy-log: 1826, af-squadrons: 194, af-strategic: 43, af-ad: 28, af-tactical: 123, af-aircraft: 15017, af-op: 13034, af-nonop: 1983}}
+      1968: {n: {src: sa69-369, army-divisions: 18, army-rct: 5, army-acc: null, army-brigades: 7, army-battle-groups: null, army-missile-commands: 1, army-ad: 60, army-sf: 7, army-aircraft: 10465, navy-ships: 932, navy-warships: 425, navy-other: 507, navy-cag: 17, navy-asw-groups: 10, navy-asw-squadrons: 28, marine-divisions: 4, marine-wings: 3, navy-aircraft: 8491, navy-op: 6962, navy-log: 1529, af-squadrons: 208, af-strategic: 40, af-ad: 24, af-tactical: 144, af-aircraft: 15327, af-op: 13665, af-nonop: 1662}}
+
+  - key: budget-forces
+    title: Strategic and general purpose forces, as the Budget counted them
+    asof: June 30
+    unit: count
+    note: The *Budget*'s table of selected forces, as the Abstract reprinted it the next year (the year's actual column). Missiles by squadron; Polaris boats in commission.
+    rows:
+      - {key: h-strategic, label: Strategic forces, group: true}
+      - {key: icbm-minuteman, label: Minuteman squadrons}
+      - {key: icbm-titan, label: Titan squadrons}
+      - {key: icbm-atlas, label: Atlas squadrons}
+      - {key: polaris-boats, label: Polaris submarines}
+      - {key: polaris-missiles, label: Polaris missiles}
+      - {key: b52, label: B-52 wings}
+      - {key: b58, label: B-58 wings}
+      - {key: b47, label: B-47 wings}
+      - {key: h-defense, label: Continental air and missile defense, group: true}
+      - {key: interceptor-squadrons, label: Fighter interceptor squadrons}
+      - {key: bomarc-squadrons, label: Bomarc squadrons}
+      - {key: army-ad-battalions, label: Army air defense missile battalions}
+      - {key: h-general, label: General purpose forces, group: true}
+      - {key: army-divisions, label: Army divisions (combat ready)}
+      - {key: army-maneuver, label: Army maneuver battalions}
+      - {key: army-ssm, label: Army surface-to-surface missile battalions}
+      - {key: army-aviation, label: Army aviation units}
+      - {key: army-ad-gp, label: Army air defense missile battalions}
+      - {key: army-sf, label: Army special forces groups}
+      - {key: warships, label: Warships}
+      - {key: amphibious, label: Amphibious assault ships}
+      - {key: cag, label: Carrier air groups (attack and ASW)}
+      - {key: marines, label: Marine divisions/aircraft wings}
+      - {key: af-tactical, label: Air Force tactical squadrons}
+      - {key: h-lift, label: Airlift and sealift, group: true}
+      - {key: airlift-new, label: C-130 through C-141 squadrons}
+      - {key: airlift-old, label: Older transport squadrons}
+      - {key: sealift, label: 'Troopships, cargo ships and tankers'}
+    cols:
+      - {key: n, head: Printed then}
+    years:
+      1964: {n: {src: sa65-360, icbm-minuteman: 12, icbm-titan: 12, icbm-atlas: 13, polaris-boats: 21, b52: 14, b58: 2, b47: 10, interceptor-squadrons: 40, bomarc-squadrons: 8, army-ad-battalions: 26½, army-divisions: 16, army-ssm: 38, army-ad-gp: 31¾, army-sf: 7, warships: 365, amphibious: 133, cag: 28, marines: 3, af-tactical: 112, airlift-new: 34, airlift-old: 27, sealift: 99, as: {airlift-old: C-118 through C-124 squadrons}}}
+      1965: {n: {src: sa66-372, icbm-minuteman: 16, icbm-titan: 6, icbm-atlas: null, polaris-boats: 29, b52: 14, b58: 2, b47: 5, interceptor-squadrons: 39, bomarc-squadrons: 6, army-ad-battalions: 23½, army-divisions: 16, army-sf: 7, warships: 376, amphibious: 135, cag: 28, marines: 3/3, af-tactical: 117, airlift-new: 38, airlift-old: 19, sealift: 106, as: {airlift-old: C-118 through C-124 squadrons}}}
+      1966: {n: {src: sa67-369, icbm-minuteman: 17, icbm-titan: 6, polaris-boats: 37, polaris-missiles: 592, b52: 13, b58: 2, interceptor-squadrons: 33, bomarc-squadrons: 6, army-ad-battalions: 18, army-divisions: 17, army-maneuver: 191, army-aviation: 160, army-sf: 7, warships: 373, amphibious: 159, cag: 27, marines: 4/3, af-tactical: 130, airlift-new: 42, airlift-old: 16, sealift: 121, as: {airlift-old: C-124 squadrons}}}
+      1967: {n: {src: sa68-370, icbm-minuteman: 20, icbm-titan: 6, polaris-boats: 41, polaris-missiles: 656, b52: 12, b58: 2, interceptor-squadrons: 28, bomarc-squadrons: 6, army-ad-battalions: 18, army-divisions: 17, army-maneuver: 201, army-aviation: 183, army-sf: 7, warships: 378, amphibious: 162, cag: 27, marines: 4/3, af-tactical: 126, airlift-new: 44, airlift-old: 16, sealift: 130, as: {airlift-old: C-124 and C-7 squadrons}}}
+      1968: {n: {src: sa69-370, icbm-minuteman: 20, icbm-titan: 6, polaris-boats: 41, polaris-missiles: 656, b52: 34, b58: 6, interceptor-squadrons: 24, bomarc-squadrons: 6, army-ad-battalions: 20¼, army-divisions: 18, army-maneuver: 218, army-aviation: 212, army-sf: 7, warships: 384, amphibious: 157, cag: 23, marines: 4/3, af-tactical: 144, airlift-new: 44, airlift-old: 17, sealift: 130, as: {airlift-old: C-124 and C-7 squadrons}, printed: {b52: 'Printed under "Strategic bombers (wings)"; the edition before counted 12 wings for 1967, so these are probably squadrons. Check.', b58: 'Printed under "Strategic bombers (wings)"; the edition before counted 2. Check.'}}}
+
+  - key: ships
+    title: Ships of the Navy, by class
+    asof: June 30
+    unit: count
+    note: Active and reserve (mothballed) fleets, ships converting, in district use, in reserve training and on loan; not service craft or floating dry docks.
+    rows:
+      - {key: warships, label: Warships, indent: 1}
+      - {key: amphibious, label: Amphibious warfare, indent: 1}
+      - {key: mine, label: Mine warfare, indent: 1}
+      - {key: patrol, label: Patrol, indent: 1}
+      - {key: auxiliary, label: Auxiliary, indent: 1}
+      - {key: command, label: Command ships, indent: 1}
+      - {key: navy, label: 'Navy, Military Sea Transportation Service aside', sum: [warships, amphibious, mine, patrol, auxiliary, command]}
+      - {key: msts, label: Military Sea Transportation Service}
+      - {key: total, label: Total, sum: [navy, msts]}
+    cols:
+      - {key: n, head: Printed then}
+    years:
+      1960: {n: {src: sa65-361, warships: 642, amphibious: 319, mine: 227, patrol: 381, auxiliary: 518, command: null, navy: 2087, msts: 115, total: 2202}}
+      1961: {n: {src: sa65-361, warships: 650, amphibious: 271, mine: 220, patrol: 343, auxiliary: 504, command: null, navy: 1988, msts: 113, total: 2101}}
+      1962: {n: {src: sa65-361, warships: 656, amphibious: 278, mine: 192, patrol: 324, auxiliary: 463, command: 1, navy: 1914, msts: 115, total: 2029}}
+      1963: {n: {src: sa65-361, warships: 629, amphibious: 274, mine: 191, patrol: 324, auxiliary: 444, command: 2, navy: 1864, msts: 123, total: 1987}}
+      1964: {n: {src: sa65-361, warships: 648, amphibious: 259, mine: 184, patrol: 328, auxiliary: 422, command: 2, navy: 1843, msts: 126, total: 1969}}
+      1965: {n: {src: sa66-373, warships: 654, amphibious: 246, mine: 180, patrol: 325, auxiliary: 418, command: 2, navy: 1825, msts: 149, total: 1974}}
+
+  - key: aircraft
+    title: Air Force aircraft, by type
+    asof: June 30
+    unit: count
+    note: The Air Force's own aircraft (not the Guard's or the Reserve's), active and inactive. The Digest was classified (confidential or secret, downgraded later); these were not public then.
+    rows:
+      - {key: bomber, label: Bomber}
+      - {key: tanker, label: Tanker}
+      - {key: fighter, label: Fighter}
+      - {key: attack, label: Attack}
+      - {key: recon, label: Reconnaissance}
+      - {key: sar, label: Search and rescue}
+      - {key: research, label: Special research}
+      - {key: cargo, label: Cargo}
+      - {key: trainer, label: Trainer}
+      - {key: liaison, label: Liaison}
+      - {key: helicopter, label: Helicopter}
+      - {key: utility, label: Utility}
+      - {key: total, label: Total, sum: [bomber, tanker, fighter, attack, recon, sar, research, cargo, trainer, liaison, helicopter, utility]}
+    cols:
+      - {key: all, head: All}
+      - {key: active, head: Active}
+    years:
+      1960:
+        all: {src: dig60, bomber: 2293, tanker: 1283, fighter: 5032, recon: 846, sar: 330, research: 3, cargo: 3025, trainer: 4739, liaison: 220, helicopter: 295, utility: 170, total: 18236}
+        active: {src: dig60, bomber: 2193, tanker: 1230, fighter: 3922, recon: 685, sar: 244, research: 2, cargo: 2549, trainer: 3914, liaison: 146, helicopter: 257, utility: 170, total: 15312}
+      1961:
+        all: {src: dig61, bomber: 2043, tanker: 1267, fighter: 3940, recon: 707, sar: 239, research: 4, cargo: 2566, trainer: 4298, liaison: 144, helicopter: 296, utility: 205, total: 15709}
+        active: {src: dig61, bomber: 1946, tanker: 1265, fighter: 3457, recon: 616, sar: 205, research: 3, cargo: 2396, trainer: 3413, liaison: 100, helicopter: 283, utility: 205, total: 13889}
+      1962:
+        all: {src: dig62, bomber: 1988, tanker: 1262, fighter: 4087, recon: 833, sar: 233, research: 5, cargo: 2745, trainer: 4091, liaison: 154, helicopter: 299, utility: 200, total: 15897}
+        active: {src: dig62, bomber: 1851, tanker: 1258, fighter: 3895, recon: 721, sar: 197, research: 3, cargo: 2504, trainer: 3429, liaison: 116, helicopter: 288, utility: 200, total: 14462}
+      1963:
+        all: {src: dig63, bomber: 1977, tanker: 1216, fighter: 3861, recon: 789, sar: 118, research: 5, cargo: 2822, trainer: 4009, liaison: null, helicopter: 423, utility: 357, total: 15577, printed: {utility: 'Includes aircraft before designated liaison (the Digest''s note a/).'}}
+        active: {src: dig63, bomber: 1674, tanker: 1100, fighter: 3718, recon: 655, sar: 91, research: 3, cargo: 2510, trainer: 3159, liaison: null, helicopter: 418, utility: 352, total: 13680}
+      1964:
+        all: {src: dig64, bomber: 1804, tanker: 1026, fighter: 3683, recon: 764, sar: 130, research: 5, cargo: 2580, trainer: 3481, helicopter: 416, utility: 393, total: 14282}
+        active: {src: dig64, bomber: 1509, tanker: 998, fighter: 3538, recon: 595, sar: 100, research: 3, cargo: 2327, trainer: 2873, helicopter: 401, utility: 345, total: 12689}
+      1965:
+        all: {src: dig65, bomber: 1751, tanker: 861, fighter: 3792, recon: 821, sar: 136, research: 7, cargo: 2477, trainer: 3361, helicopter: 433, utility: 456, total: 14095}
+        active: {src: dig65, bomber: 1245, tanker: 832, fighter: 3643, recon: 538, sar: 115, research: 5, cargo: 2366, trainer: 2782, helicopter: 386, utility: 368, total: 12280}
+      1966:
+        all: {src: dig66, bomber: 1659, tanker: 721, fighter: 3603, attack: 30, recon: 1008, sar: 138, research: 6, cargo: 2513, trainer: 3284, helicopter: 455, utility: 511, total: 13928}
+        active: {src: dig66, bomber: 845, tanker: 697, fighter: 3490, attack: 30, recon: 732, sar: 116, research: 4, cargo: 2266, trainer: 2646, helicopter: 418, utility: 466, total: 11710}
+      1967:
+        all: {src: dig67, bomber: 1644, tanker: 703, fighter: 3804, attack: 74, recon: 1144, sar: 143, research: 10, cargo: 2616, trainer: 3198, helicopter: 511, utility: 612, total: 14459}
+        active: {src: dig67, bomber: 818, tanker: 677, fighter: 3528, attack: 74, recon: 858, sar: 118, research: 7, cargo: 2347, trainer: 2599, helicopter: 466, utility: 572, total: 12064}
+      1968:
+        all: {src: dig68, bomber: 1416, tanker: 692, fighter: 4220, attack: 108, recon: 1245, sar: 125, research: 9, cargo: 2598, trainer: 3240, helicopter: 526, utility: 738, total: 14917}
+        active: {src: dig68, bomber: 779, tanker: 667, fighter: 3877, attack: 108, recon: 983, sar: 91, research: 5, cargo: 2358, trainer: 2584, helicopter: 465, utility: 663, total: 12580}
+
+  - key: missiles
+    title: Air Force missiles, by design
+    asof: June 30
+    unit: count
+    note: Missiles on hand, active and inactive, by the Digest's designations (renamed in 1963). Hound Dog and Quail are carried by the B-52. Classified then, as the aircraft.
+    rows:
+      - {key: h-strategic, label: Strategic, group: true}
+      - {key: snark, label: Snark}
+      - {key: atlas-d, label: Atlas D}
+      - {key: atlas-e, label: Atlas E}
+      - {key: atlas-f, label: Atlas F}
+      - {key: titan-1, label: Titan I}
+      - {key: titan-2, label: Titan II}
+      - {key: minuteman, label: Minuteman}
+      - {key: minuteman-a, label: Minuteman A}
+      - {key: minuteman-b, label: Minuteman B}
+      - {key: minuteman-f, label: Minuteman F}
+      - {key: thor, label: Thor}
+      - {key: jupiter, label: Jupiter}
+      - {key: hound-dog, label: Hound Dog}
+      - {key: hound-dog-a, label: Hound Dog A}
+      - {key: hound-dog-b, label: Hound Dog B}
+      - {key: quail, label: Quail}
+      - {key: quail-a, label: Quail A}
+      - {key: quail-b, label: Quail B}
+      - {key: quail-c, label: Quail C}
+      - {key: agena, label: Agena-Discoverer}
+      - {key: strategic, label: Strategic, sum: [snark, atlas-d, atlas-e, atlas-f, titan-1, titan-2, minuteman, minuteman-a, minuteman-b, minuteman-f, thor, jupiter, hound-dog, hound-dog-a, hound-dog-b, quail, quail-a, quail-b, quail-c, agena]}
+      - {key: tactical, label: 'Tactical (Matador, Mace)'}
+      - {key: air-defense, label: Air defense (Bomarc)}
+      - {key: test, label: Test}
+      - {key: total, label: Total, sum: [strategic, tactical, air-defense, test]}
+    cols:
+      - {key: all, head: All}
+      - {key: active, head: Active}
+    years:
+      1960:
+        all: {src: dig60, snark: 26, atlas-d: 50, quail: 11, thor: 48, hound-dog: 25, jupiter: 39, strategic: 199, tactical: 605, air-defense: 162, test: 41, total: 1007, as: {snark: M-62A (Snark), atlas-d: M-65 (Atlas), quail: M-72 (Quail), thor: M-75 (Thor), hound-dog: M-77 (Hound Dog), jupiter: M-78 (Jupiter)}}
+        active: {src: dig60, snark: 26, atlas-d: 49, quail: 11, thor: 37, hound-dog: 25, jupiter: 6, strategic: 154, tactical: 380, air-defense: 161, test: 41, total: 736}
+      1961:
+        all: {src: dig61, snark: 1, atlas-d: 59, atlas-e: 42, atlas-f: 4, titan-1: 19, quail: 15, quail-a: 230, thor: 47, hound-dog: 201, hound-dog-a: 1, jupiter: 29, strategic: 648, tactical: 376, air-defense: 278, test: 43, total: 1345}
+        active: {src: dig61, snark: 1, atlas-d: 59, atlas-e: 37, atlas-f: 4, titan-1: 19, quail: 15, quail-a: 230, thor: 33, hound-dog: 198, hound-dog-a: 1, jupiter: 1, strategic: 598, tactical: 310, air-defense: 278, test: 43, total: 1229}
+      1962:
+        all: {src: dig62, atlas-d: 54, atlas-e: 44, atlas-f: 78, titan-1: 74, quail: 10, quail-a: 509, thor: 37, hound-dog: 225, hound-dog-a: 221, jupiter: 12, agena: 3, strategic: 1267, tactical: 310, air-defense: 473, test: 42, total: 2092}
+        active: {src: dig62, atlas-d: 54, atlas-e: 43, atlas-f: 78, titan-1: 73, quail: 10, quail-a: 454, thor: 35, hound-dog: 225, hound-dog-a: 221, jupiter: null, agena: 3, strategic: 1196, tactical: 230, air-defense: 413, test: 27, total: 1866}
+      1963:
+        all: {src: dig63, atlas-d: 53, atlas-e: 44, atlas-f: 94, titan-1: 84, titan-2: 44, quail: 2, quail-a: 201, quail-b: 297, thor: 29, hound-dog: 219, hound-dog-a: 405, jupiter: 7, minuteman: 217, minuteman-a: 1, agena: 5, strategic: 1702, tactical: 255, air-defense: 485, test: 55, total: 2497}
+        active: {src: dig63, atlas-d: 53, atlas-e: 44, atlas-f: 93, titan-1: 67, titan-2: 44, quail: 2, quail-a: 201, quail-b: 297, thor: 18, hound-dog: 216, hound-dog-a: 405, jupiter: 1, minuteman: 209, minuteman-a: 1, agena: 5, strategic: 1656, tactical: 197, air-defense: 458, test: 42, total: 2353}
+      1964:
+        all: {src: dig64, atlas-d: 48, atlas-e: 42, atlas-f: 91, thor: 63, jupiter: null, quail-a: 1, quail-b: 53, quail-c: 434, titan-1: 83, titan-2: 79, hound-dog-a: 210, hound-dog-b: 395, minuteman: 155, minuteman-a: 495, minuteman-b: null, agena: null, strategic: 2149, tactical: 196, air-defense: 382, test: 19, total: 2746}
+        active: {src: dig64, atlas-d: 45, atlas-e: 39, atlas-f: 88, thor: 33, jupiter: null, quail-a: 1, quail-b: 53, quail-c: 434, titan-1: 63, titan-2: 69, hound-dog-a: 210, hound-dog-b: 395, minuteman: 155, minuteman-a: 488, minuteman-b: null, agena: null, strategic: 2073, tactical: 190, air-defense: 283, test: 8, total: 2554}
+      1965:
+        all: {src: dig65, atlas-d: 33, atlas-e: 41, atlas-f: 95, thor: 34, quail-b: 53, quail-c: 422, titan-1: 79, titan-2: 84, hound-dog-a: 203, hound-dog-b: 378, minuteman-a: 145, minuteman-b: 690, strategic: 2257, tactical: 193, air-defense: 257, test: 13, total: 2720}
+        active: {src: dig65, atlas-d: 20, atlas-e: 4, atlas-f: 13, thor: 3, quail-b: 53, quail-c: 422, titan-1: 3, titan-2: 75, hound-dog-a: 202, hound-dog-b: 377, minuteman-a: 145, minuteman-b: 678, strategic: 1995, tactical: 187, air-defense: 186, test: 2, total: 2370}
+      1966:
+        all: {src: dig66, atlas-d: 13, atlas-e: 40, atlas-f: 97, thor: 38, quail-b: 51, quail-c: 406, titan-1: 78, titan-2: 76, hound-dog-a: 197, hound-dog-b: 370, minuteman-a: 135, minuteman-b: 670, minuteman-f: 125, strategic: 2296, tactical: 187, air-defense: 244, test: 13, total: 2740}
+        active: {src: dig66, atlas-d: 13, atlas-e: 4, atlas-f: 15, thor: 6, quail-b: 51, quail-c: 406, titan-1: 3, titan-2: 67, hound-dog-a: 196, hound-dog-b: 366, minuteman-a: 131, minuteman-b: 660, minuteman-f: 115, strategic: 2033, tactical: 171, air-defense: 179, test: 2, total: 2385}
+      1967:
+        all: {src: dig67, atlas-d: 7, atlas-e: 38, atlas-f: 92, thor: 35, quail-b: 50, quail-c: 406, titan-1: 77, titan-2: 78, hound-dog-a: 195, hound-dog-b: 369, minuteman-a: 112, minuteman-b: 625, minuteman-f: 341, strategic: 2425, tactical: 165, air-defense: 226, test: 14, total: 2830}
+        active: {src: dig67, atlas-d: 7, atlas-e: 2, atlas-f: 12, thor: 17, quail-b: 50, quail-c: 406, titan-1: null, titan-2: 71, hound-dog-a: 157, hound-dog-b: 369, minuteman-a: 108, minuteman-b: 591, minuteman-f: 287, strategic: 2077, tactical: 98, air-defense: 172, test: 3, total: 2350}
+      1968:
+        all: {src: dig68, atlas-d: 2, atlas-e: 36, atlas-f: 80, thor: 8, quail-b: null, quail-c: 445, titan-1: null, titan-2: 72, hound-dog-a: 195, hound-dog-b: 365, minuteman-a: 95, minuteman-b: 591, minuteman-f: 441, strategic: 2330, tactical: 134, air-defense: 204, test: null, total: 2668}
+        active: {src: dig68, atlas-d: 2, atlas-e: null, atlas-f: 9, thor: 1, quail-b: null, quail-c: 445, titan-1: null, titan-2: 71, hound-dog-a: 3, hound-dog-b: 365, minuteman-a: 94, minuteman-b: 577, minuteman-f: 437, strategic: 2004, tactical: 87, air-defense: 169, test: null, total: 2260}
+
+  - key: nuclear
+    title: Nuclear weapons
+    asof: each year
+    unit: count
+    note: Nothing of the stockpile was published then. The Department of Energy released the total through 1961, and the megatons and the year's builds and retirements, in 1994; the Federation of American Scientists' series is its estimate, built on the Department of Defense's release of 2010 (not reached here).
+    rows:
+      - {key: warheads, label: Warheads in the stockpile}
+      - {key: megatons, label: Megatons}
+      - {key: builds, label: Built in the year}
+      - {key: retirements, label: Retired in the year}
+    cols:
+      - {key: doe, head: 'DOE, 1994'}
+      - {key: fas, head: FAS today}
+    years:
+      1960:
+        doe: {src: doe-1994, warheads: 18638, megatons: '20,491.17', builds: 7178, retirements: 838}
+        fas: {src: fas, warheads: 18638}
+      1961:
+        doe: {src: doe-1994, warheads: 22229, megatons: '10,947.71', builds: 5162, retirements: 1571}
+        fas: {src: fas, warheads: 22229}
+      1962:
+        doe: {src: doe-1994, megatons: '12,825.02', builds: 4529, retirements: 766}
+        fas: {src: fas, warheads: 25540}
+      1963:
+        doe: {src: doe-1994, megatons: '15,977.17', builds: 3185, retirements: 830}
+        fas: {src: fas, warheads: 28133}
+      1964:
+        doe: {src: doe-1994, megatons: '16,943.97', builds: 3493, retirements: 2534}
+        fas: {src: fas, warheads: 29463}
+      1965:
+        doe: {src: doe-1994, megatons: '15,152.50', builds: 3519, retirements: 1936}
+        fas: {src: fas, warheads: 31139}
+      1966:
+        doe: {src: doe-1994, megatons: '14,037.46', builds: 2429, retirements: 2357}
+        fas: {src: fas, warheads: 31175}
+      1967:
+        doe: {src: doe-1994, megatons: '12,786.17', builds: 1693, retirements: 1649}
+        fas: {src: fas, warheads: 31255}
+      1968:
+        doe: {src: doe-1994, megatons: '11,837.65', builds: 536, retirements: 2194}
+        fas: {src: fas, warheads: 29561}

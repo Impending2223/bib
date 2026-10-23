@@ -30,8 +30,10 @@ STYLE
 4. Names: "Committees", one item a committee and chamber: "House Ways and Means: 2nd, 87th Cong.; 1st (chairman),
    88th-93rd Cong.", Congresses with the same rank and role run together, each run a pointer to the committee in its
    first Congress; the source once, under the list.
-5. Subcommittees, and the select, special and joint committees, are not in Nelson's files for these Congresses: not
-   shown (notes/leads.md).
+5. Subcommittees, and the select, special and joint committees, are not in Nelson's files for these Congresses: they
+   come from the Congressional Directory and the Congressional Staff Directory, and tools/bib/committee_more.py renders
+   them after the standing committees, in the roster line and in the Names entry (its STYLE notes); their codes join
+   the committee list (names).
 """
 import os
 import re
@@ -60,7 +62,12 @@ def load():
 
 
 def names():
-    return {x["code"]: x["name"] for x in load().get("committees") or []}
+    """{code: name}: the committee list, the standing committees' (Nelson's codes) and the select, special and joint
+    committees' (committee_more: the hearings calendar's codes)."""
+    from . import committee_more
+    out = {x["code"]: x["name"] for x in load().get("committees") or []}
+    out.update(committee_more.names())
+    return out
 
 
 def of(c, ch):
@@ -269,7 +276,12 @@ def committees_block(c, series, here=False):
         out.append("</table></details>")
     out.append(f'<p class="cgs">The standing committees: {NELSON}; its ranks are the House and Senate '
                "<i>Journals</i>' listing at the first session, then the additions and replacements by date. Seats link "
-               "to the roster at the opening.</p></div>")
+               "to the roster at the opening.</p>")
+    from . import committee_more               # the select, special and joint committees; the subcommittees
+    more = committee_more.blocks(c, series, here)
+    if more:
+        out.append(more)
+    out.append("</div>")
     return "\n".join(out)
 
 
@@ -312,12 +324,14 @@ def label(m):
 
 
 def roster_line(c, ch, bio, here=False):
+    from . import committee_more
     xs = by_member(c, ch).get(bio) or []
-    if not xs:
-        return ""
     nm = names()
     pre = "#" if here else "congress.html#"
     items = [f'<a href="{pre}{rid(c, ch, code)}">{esc(nm[code])}</a>, {esc(label(m))}' for code, m in xs]
+    items += committee_more.roster_items(c, ch, bio, here) if bio else []
+    if not items:
+        return ""
     return f'<span class="cgn cgel cmln">Committees: {"; ".join(items)}.</span>'
 
 
@@ -354,8 +368,10 @@ def person_items(rp, names_=(), site=""):
             span = f"{cord(cs[0])}–{cord(cs[-1])} Cong." if len(cs) > 1 else f"{cord(cs[0])} Cong."
             parts.append(f'{esc(lab)}, <a class="lvp" href="{site}congress.html#{rid(cs[0], ch, code)}">{span}</a>')
         items.append(f'{"House" if ch == "h" else "Senate"} {esc(nm[code])}: {"; ".join(parts)}')
-    foot = [f"Committees from {NELSON}."] if items else []
-    return items, foot
+    foot = [f"Standing committees from {NELSON}."] if items else []
+    from . import committee_more                # the select, special and joint committees; the subcommittees
+    more, mfoot = committee_more.person_items(bios, site)
+    return items + more, foot + mfoot
 
 
 def _seats(c, ch):
@@ -382,6 +398,8 @@ details.cmc tr.st th .cgsm{display:block;font-size:.78rem;font-family:var(--sans
 
 
 def ensure(page):
+    from . import committee_more
+    page = committee_more.ensure(page)
     if 'id="cmte-css"' in page:
         return page
     return page.replace("</head>", CSS + "</head>", 1) if "</head>" in page else CSS + page

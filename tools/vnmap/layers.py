@@ -1,5 +1,10 @@
 """Map layers for Vietnam, Laos and Cambodia: relief, rivers and lakes, climate, rainfall.
 
+Oct. 22, 2026: the maps are now drawn by MapLibre (tools/bib/vnmap.py). This script's rasters (the hillshade, the
+elevation bands, the Köppen classes as PNG in Web Mercator rows) and its contours are superseded and deleted:
+tools/vnmap/terrain.py and climate.py make tiles and GeoJSON in their place. Its rivers.geojson, lakes.geojson and
+climate.json are still the map's (HydroSHEDS's host refused this environment on Oct. 22: not remade).
+
 One-time script (Oct. 21, 2026). It reads downloads kept outside the repo (DL, the first argument) and writes
 sources/indochina/ (OUT, the second argument). Run each step with python3 -I:
 

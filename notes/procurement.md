@@ -1,0 +1,173 @@
+Save each file to the Drive folder '1968 series: sources for Claude' under its save_as name.
+
+# Procurement: what to fetch by hand
+
+The public-domain materials this environment cannot reach (Cloudflare, AkamaiGHost, captchas, HathiTrust's bot check,
+the Wayback Machine refused), ranked by what each settles per click. The records, with every address and the
+reasons each is public domain: `notes/procurement.yaml` (39 items). Written Oct. 23, 2026, from `notes/leads.md`,
+`sources/states.yaml`, `./bib audit-cal` (691 dated entries with no primary record) and the hathifile of Oct. 1, 2026.
+Already procured and left off: OSD vol. V; Nixon, *Six Crises*; Dittmer; Schlesinger, *Robert Kennedy*; Frankum;
+Miller, *Misalliance*; *Victory in Vietnam*.
+
+**The volumes that would help most.** One run of a script: Johnson's *Daily Diary* (805 days; checks 1,156 entries
+tagged to Johnson). Single volumes: the *Department of State Bulletin*, vol. 59 (July–Dec. 1968: 27 issues for the
+daybook, 52 FRUS citations, 4 entries); the *Mississippi Official and Statistical Register*, 1964–68 (21 entries with a
+Check); *Ohio Election Statistics*, 1959/60–1967/68, bound in one (18); Indiana's *Election Report*, 1962–70 (16);
+Washington's *Abstract of Votes*, 1960–68 (13, and a lead); Florida's primary tabulations, 1962–72 (11); the Senate
+Library's *Nomination and Election of the President* (1968: the 1968 conventions lead, a dozen open questions);
+*Rights in Conflict* (5 entries). Few-volume series: the *Michigan Manual*, 1961–68 (4 vols.: 28 entries with a
+Check, 7 without a record); the Foreign Relations Committee's *Executive Sessions*, vols. XV–XVIII (3 files: about 15
+Gibbons events not entered); the Secretary of Defense's *Annual Reports*, fiscal 1961–68 (3 bound vols.: 4 forces
+leads). The densest: MACV's *Command Histories*, 1964–68 (about 30 of the 43 field entries without a record, 3 leads),
+and some 15 folders of Kennedy's National Security Files (about 35 entries of 1960–63).
+
+**HathiTrust downloads.** Every HathiTrust volume here is full view (pd or pdus: the hathifile and the Bib API). Open
+`babel.hathitrust.org/cgi/pt?id=<htid>`; left panel, Download, Whole item, PDF. Nearly all were digitized by Google
+(access profile "google"); for those the whole-volume PDF may ask for a HathiTrust partner login (Check). Without one,
+download the pages needed one at a time (Download, This page); the records name the pages where known. A State's
+own publication is not a federal work: HathiTrust's review marks these pdus (public domain in the U.S.); they are for
+reading and citation here.
+
+## Top 15 by value per click
+
+1. `diary-lbj` Johnson's *Daily Diary*: run `tools/daybook/fetch_daily_diary.py --limit 100` at home; 1,156 entries.
+2. `hathi-dsb-v59` *Bulletin*, vol. 59 (coo.31924070261031): 1–2 files; 27 issues, 52 FRUS cites, 4 entries.
+3. `hathi-ms-register-1964-68` Mississippi Register (uc1.b3763466): 1 file; 21 entries.
+4. `hathi-oh-election-statistics` Ohio, 1959/60–1967/68 (uiug.30112074273266): 1 file; 18 entries.
+5. `hathi-in-election-report-1962-70` Indiana (inu.30000036818445): 1 file; 16 entries.
+6. `hathi-wa-abstract-1960-68` Washington (uc1.c047129914): 1 file; 13 entries and Referendum Bill 16.
+7. `hathi-fl-primaries-1962-72` Florida primaries (uc1.c109427849): 1 file; 11 entries.
+8. `hathi-nomination-election-1968` Senate Library, 1968 (uiug.30112071980046): 1 file; the conventions lead.
+9. `hathi-rights-in-conflict` Walker report (mdp.39015010951054): 1 file; 5 Chicago entries.
+10. `hathi-sfrc-exec-1963-66` *Executive Sessions* XV–XVIII (coo.31924112604370, -388, -396): 3 files; about 15 events.
+11. `hathi-mi-manuals-1961-68` *Michigan Manual* (mdp.39015071179231, -249, -256, -264): 4 files; 35 entries.
+12. `hathi-md-returns-1966-68` Maryland returns (uc1.c109423348, -490, -065): 3 files; 13 entries.
+13. `ttu-macv-command-histories` MACV *Command History*, 1964–68 (Texas Tech): about 12 files; about 30 entries, 3 leads.
+14. `jfk-nsf-folders` Kennedy's National Security Files: 12 folders; 11 entries, 2 leads.
+15. `hathi-secdef-annual-1961-68` *Annual Reports* (uiug.30112132450088, -062, osu.32435062847116): 3 files; 4 leads.
+
+## Batches, a site at a time
+
+**1. Johnson's Daily Diary (LBJ Library; tier 1).** discoverlbj.org refuses this environment (Cloudflare 403) and its
+robots.txt bars the AI crawlers by name; the National Archives Catalog gives 50 days (`daybook/diary.yaml`). On your
+own computer: `python3 fetch_daily_diary.py --contact YOU@EXAMPLE --probe` (one day: what the page offers), then
+`--limit 100` (the busiest days first; rerun to resume), or `--from 1968-01-01 --to 1968-12-31`. Zip `./lbj-diary/`
+and save it as `lbj-diary-batch-01.zip`. By hand: `www.discoverlbj.org/item/pdd-YYYYMMDD`, the PDF, saved as
+`pdd-YYYYMMDD.pdf`. The busiest months (entries tagged to Johnson / days to fetch): Apr. 1968 32/15, July 1968 32/21,
+Oct. 1968 32/17, Feb. 1968 31/21, Jan. 1968 28/19, Mar. 1968 28/16, Feb. 1965 27/14, Aug. 1965 27/15, Nov. 1967 27/16,
+Nov. 1966 26/16, Aug. 1967 25/16, June 1968 25/17. Days by year: 1963 12, 1964 148, 1965 142, 1966 146, 1967 164, 1968
+186, 1969 7. Of the 691 entries without a record, 11 are Johnson's (King, Dec. 18, 1964; Feb. 9, 1965; the operations,
+Nov. 16, 1966).
+
+**2. HathiTrust, federal (16 records).** Tier 1: the *Bulletin* vol. 59; *Nomination and Election* (1968; 1960 and
+1964 editions too); *Rights in Conflict*; *Executive Sessions* XV–XVIII. Tier 2: the Secretary of Defense's *Annual
+Reports*; McNamara's posture statements (House Armed Services, *Hearings on Military Posture*, 1962, 1963, 1965, 1966,
+1968; the statements for fiscal 1968 and 1969); the *Social Security Bulletin*, 1962–69 (the Medicaid lead);
+*Current Documents*, 1956–67 (18 calendar cites, 3 leads); Gibbons, Part I (GPO, 1984); ACDA's *World Military
+Expenditures*, 1963–1973; six printed hearings of the amendments leads (four-year term, 1966; prayer, 1962, 1964,
+1966; disability, 1964; Fortas, 1968); the field hearings at Delano (1966) and Jackson (1967); Selective Service's
+reports. Tier 3: *Appropriations, Budget Estimates* (87-2, 89-2, 90-2), the Treasury's *Combined Statement* for fiscal
+1968, the Census Bureau's *Procedural History* of 1960.
+
+**3. HathiTrust, the States (12 records).** Tier 1: Mississippi, Ohio, Indiana, Washington, Florida, Michigan,
+Maryland. Tier 2: Nevada, 1960–68; *Tennessee Blue Book*, 1961–68; *Wyoming Official Directory*, 1963–69 (the
+primaries lead: 1963, pp. 56–58; 1967, pp. 72–74); and one record for the rest (Illinois, Missouri, Nebraska, New
+Mexico, New Jersey, Delaware, Hawaii, Alabama, Idaho, Vermont, California), each with its htids. Tier 3: New York's
+*Proceedings of the Constitutional Convention*, 1967. Of the 691 entries without a record about 75 are State acts,
+returns and conventions; 474 entries in the election and State threads carry a Check, by State: N.Y. 32, Mich. 28,
+Cal. 24, Tex. 21, Miss. 21, Ohio 18, Ind. 16, Ill. 15, Pa. 14, Ala. 14, Wash. 13, Minn. 13, Md. 13. Texas printed no
+canvass; New York's and Pennsylvania's manuals of the 1960s are not open (Books, below).
+
+**4. The Kennedy Library (4 records; jfklibrary.org refuses this environment, and the Wayback Machine's CDX API is
+refused too, so no folder was seen).** Tier 1: the National Security Files, 12 folders, addresses counted from the
+Library's 1995 register (Check each: the digitized folders may be numbered otherwise): Vietnam 195-017, 195-022;
+Berlin 082-027; Korea 127-009; Kuwait 129-014; Turkey 167-001; CENTO 211-007; Saudi Arabia 157-001; Dominican
+Republic 066-005; Iraq 117-012; Space Activities 308-003. Tier 2: the President's Office Files and the Transition
+Files (Heller, Fulbright, Mansfield, the cabinet named, the Samuelson report: 14 entries); Robert Kennedy's oral
+history, JFKOH-RFK-02 to -04 (3 entries); Burke Marshall's and the Attorney General's papers (8 entries). In all about
+35 of the 691 entries.
+
+**5. Texas Tech, the Vietnam Center and Archive (1 record).** MACV's *Command History*, 1964–68, a volume a file;
+the archive asks a captcha. About 30 of the 43 field entries without a record; MACV's month-end strength, the order
+of battle by month, Starlite's end. Item numbers not seen.
+
+**6. The services' historians and DoD (3 records).** NHHC's "U.S. Ship Force Levels" (print the page to PDF); CMH's
+*Maneuver and Firepower* (CMH Pub. 60-14); DoD's stockpile fact sheet of May 3, 2010. The forces leads.
+
+**7. Elsewhere (2 records).** The Miller Center's page for Johnson and Mills, Nov. 12, 1966 (its TLS fails here); the
+FBI Vault's files on the Liuzzo murder and the King assassination (vault.fbi.gov refuses here).
+
+## Found open: no need to fetch
+
+- USAF *Statistical Digest*, FY 1960–68: archive.org, `DTIC_ADA640757` (1960), `-758` (1961), `-766` (1962), `-752`
+  (1963), `-762` (1964), `-754` (1965), `-763` (1966), `-769` (1967), `-755` (1968). Already read for forces/.
+- Foreign Relations Committee, *Executive Sessions*, XIX (1967), XX (1968): govinfo, `CPRT-110SPRT31436`,
+  `CPRT-111SPRT34737`. *In re Adam Clayton Powell*, the select committee's report: govinfo,
+  `SERIALSET-12755_02_00-004-0027-0000` (for `cal.1967-02-14.congress-powell`).
+- Gibbons, Parts II and III: archive.org `micro_IA41152619_0216`, `micro_IA41152832_0038` (in the leads).
+- *Documents on Disarmament*, 1967 and 1968: archive.org `DTIC_AD0671591`, `DTIC_AD0703891` (the NPT draft of Mar. 11,
+  1968). ACDA, *World Military Expenditures 1964–1968*: `DTIC_AD0731731`.
+- The McCone Commission, *Violence in the City* (1965): archive.org `ViolenceInCity`. The Florida Legislative
+  Investigation Committee, *Homosexuality and Citizenship in Florida* (1964): `ReportJan1964`. The Kerner report:
+  `reportofnation00unit`. White, *The Making of the President 1968*: `makingofpresiden0000thwh` (Check that it opens
+  without a loan).
+- FBI files: Malcolm X, archive.org `per_fbi-file-malcolm-x_*` (1953–72, the 13 black nationalism entries); the Black
+  Panther Party, `BlackPanther`; King, `nsia-FBIHooverJEdgarPersonalFileOnMartinLutherKingJr`.
+- The war: the Marines' command chronologies (NARA, series NAID 6160409, open; 14 field entries); the Army's
+  after-action reports and ORLLs on archive.org's DTIC mirror (`DTIC_AD0390548`, `DTIC_AD0393381`, search
+  "after action report"); Project CHECO's reports (`DTIC_ADA486950` and some 180 more); *U.S. Marines in Vietnam*
+  (`usmarinesinvietn00jack_1`, 1965; `usmarinesinvietn00jack`, 1968); CMH, *Taking the Offensive* (`CMHPub91-4`) and
+  *Staying the Course*; the JCS's *The Joint Chiefs of Staff and the War in Vietnam, 1960–1968*
+  (`TheJointChiefsofStaffandtheWarinVietnam19601968Part1`, `DTIC_ADA517916`); Van Staaveren, *Interdiction in Southern
+  Laos* (`DTIC_ADA439950`) and *Gradual Failure* (`DTIC_ADA440196`); the Pentagon Papers (NARA, 2011; Program 5 is
+  IV.C.6.b); the Peers report (the Library of Congress's Military Legal Resources: Check the address).
+- Courts: the two leads CourtListener refused are in case.law (Colo., 1864–1980; Wash. 2d), *Colorado Anti-Discrimination
+  Commission v. Case* (1962) and *O'Meara* (1961).
+- CRS reports: everycrsreport.com answers here. UN documents: documents.un.org's symbol API (the Kuwait veto, S/PV of
+  Nov. 30, 1961; Rhodesia, Dec. 8, 1966). FRASER: the *Treasury Bulletin*, *Federal Reserve Bulletin*, *Survey of
+  Current Business*, *Monthly Labor Review*. census.gov: the *Statistical Abstract*. nber.org: the cycle dates.
+- The States' open copies not yet read (leads, Primary records, Cal. III; `sources/states.yaml`): California's
+  *Statement of Vote*, 1966–68 (`californiastate196668cali`); Alaska's `68genr.pdf`; Iowa's `1968gencanv.pdf` and the
+  *Official Register*, 1965–70 (publications.iowa.gov); Minnesota's Canvassing Board reports (lrl.mn.gov);
+  South Carolina's *Supplemental Report*, 1966; Massachusetts's *Election Statistics*, 1967–68; Georgia's *Official
+  Register* (DLG, `dlg_sreg_YYYY.pdf`); Vermont's elections database; Kentucky's primary statements (elect.ky.gov).
+- FRUS: every volume of 1958–68 is already in the series; the audits of Oct. 22 searched it for the 691 entries'
+  foreign ones and found none.
+
+## Books worth lending to the series
+
+Not open (borrow-only on archive.org, or not online), ranked by the calendar's citations of each
+(`grep -ro '\[\[w\.<id>' lists/cal`); a scan or photographs of the pages cited would check them.
+
+1. Gibbons, *The U.S. Government and the Vietnam War*, Part IV (1994; GPO's print is public domain, no open copy;
+   HathiTrust has Princeton's, search-only): 30 citations without pages; Part IV's events of 1965–68.
+2. Powe, *The Warren Court and American Politics* (2000; borrow): 67 citations, the Court's entries.
+3. Dixon, *Democratic Representation* (1968; none): 42, reapportionment.
+4. Peirce, *The Great Plains States of America* (1973; none): 38; *The Mountain States* (none): 30; *The Great
+   Lakes States* (16): the States' entries.
+5. Garrow, *Bearing the Cross* (borrow): 35, King and the SCLC.
+6. Zelizer, *Taxing America* (borrow): 34, the tax bills; *The Fierce Urgency of Now*: 28.
+7. Schwartz, *Lyndon Johnson and Europe* (borrow): 34; Dallek, *Flawed Giant* (borrow): 34.
+8. Johnson, *The Vantage Point* (borrow): 30, the President's own dates.
+9. Lawson, *Black Ballots* (borrow): 27, voting rights; Carson, *In Struggle* (borrow): 27, SNCC.
+10. White, *The Making of the President 1964* (borrow): 26; Sundquist, *Politics and Policy* (borrow): 26; Kabaservice,
+    *Rule and Ruin* (borrow): 26; Carter, *The Politics of Rage* (borrow): 26.
+11. Caro, *The Passage of Power* (none): 24; Herring, *The Secret Diplomacy of the Vietnam War* (none): 21 (the
+    Pentagon Papers' negotiating volumes: Check whether NARA's 2011 release holds them, VI.C).
+12. Would settle leads rather than check cites: Bain and Parris, *Convention Decisions and Voting Records* (2d ed. 1973;
+    borrow: every convention roll call by State); CQ, *National Party Conventions, 1831–1972* (borrow: the
+    apportionments); the *Congressional Staff Directory*, 1965, 1967, 1969 (in copyright; the subcommittees of the
+    89th–91st); the *Military Balance*, 1959–68 (borrow); Thayer, *War Without Fronts* (borrow: the body count by
+    month); New York's *Legislative Manual*, 1965–66 (borrow: 32 New York Checks); the *Pennsylvania Manual*,
+    1963–68 (borrow: 14); Guthman and Shulman, *Robert Kennedy in His Own Words* (borrow: the oral history's dates).
+
+## Not mapped
+
+The rest of the 691 entries without a primary record have none to fetch from here: about 290 protests, riots,
+campaign appearances, broadcasts and organizations' meetings (the press, a broadcast's transcript, the
+organizations' papers); 86 city elections and ordinances (the cities' own canvasses and journals, not online and not
+always public domain); about 30 trials and unreported orders (the court files, at the National Archives' regional
+branches and the State archives); about 35 foreign governments' acts with no American record found. Also not mapped:
+McNamara's Directive 5120.36 (1963; no copy found); the *Oil and Gas Journal*, 1962–69, CQ's *Weekly Report* and
+*Southern School News* (in copyright; libraries); the *Times* (TimesMachine, a subscriber's login); the JFK Library's
+Kennedy appointment books (not known whether digitized).

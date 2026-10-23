@@ -24,6 +24,12 @@ STYLE:
  3. Names: "Testimony before Congress", one line a meeting, by date: the date linked to the calendar's day, the
     committee and subcommittee, the subject heading in small capitals, the measures, the Digest's page; only the
     witnesses linked by STYLE 2.
+ 4. Links (both lists): the committee to its table on congress.html in the Congress of the day, where the committee
+    list holds its code (the standing committees by Nelson's code, the select, special and joint by the code the
+    generator makes: committee_more.link_for); the subcommittee to its row, where that Congress's list holds it
+    (the 87th and 88th; sub_for), the name as the OCR read it on hover where the generator put it whole; a measure
+    whose course congress/bills.yaml gives, in that bill's Congress, to the entry that carries the course (its
+    signing).
 """
 import datetime
 import glob
@@ -209,14 +215,54 @@ def witness_html(series, w, day):
     return f'<span title="{esc(hover)}">{shown}</span>' if hover else shown
 
 
+def head_html(x, site=""):
+    """The committee and subcommittee, each linked to its table on congress.html where the committee list holds it
+    (STYLE 4; committee_more.link_for, sub_for)."""
+    from . import committee_more as cm
+    a = cm.link_for(x)
+    head = esc(committee_label(x))
+    if a:
+        head = f'<a class="cmk" href="{esc(site)}congress.html#{esc(a)}">{head}</a>'
+    if x.get("sub"):
+        b = cm.sub_for(x)
+        sub = esc(x["sub"])
+        title = f' title="{esc(x["sub_printed"])}"' if x.get("sub_printed") else ""
+        head += ", " + (f'<a class="cmk" href="{esc(site)}congress.html#{esc(b)}"{title}>{sub}</a>' if b else
+                        (f'<span{title}>{sub}</span>' if title else sub))
+    return head
+
+
+def bills_html(x, series, site=None):
+    """The measures, a bill whose course congress/bills.yaml gives linked to its signing entry (STYLE 4)."""
+    if not x.get("bills"):
+        return ""
+    if "bills" not in _cache:
+        from . import bills as B
+        from .committee_more import congress_on
+        tagged = B.tagged(series) if series is not None else {}
+        _cache["bills"] = {(b["bill"], int(b["congress"])): (tagged.get(k), b["title"])
+                           for k, b in B.load().items() if tagged.get(k)}
+    from .committee_more import congress_on
+    c = congress_on(x["date"])
+    out = []
+    for b in x["bills"]:
+        hit = _cache["bills"].get((b, c))
+        if hit:
+            pre = "#" if site is None else f"{site}cal.html#"
+            out.append(f'<a href="{esc(pre + hit[0])}" title="{esc(hit[1])}: its course">{esc(b)}</a>')
+        else:
+            out.append(esc(b))
+    return ", ".join(out)
+
+
 def line_html(x, series, link_next=True):
     """One meeting (STYLE 1)."""
-    head = committee_label(x) + (f', {x["sub"]}' if x.get("sub") else "")
+    head = head_html(x)
     bits = []
     if x.get("heading"):
         bits.append(f'<span class="cmh">{esc(x["heading"])}</span>')
     if x.get("bills"):
-        bits.append(esc(", ".join(x["bills"])))
+        bits.append(bills_html(x, series))
     if x.get("exec"):
         bits.append("executive session")
     body = ", ".join(bits)
@@ -228,7 +274,7 @@ def line_html(x, series, link_next=True):
         nx = str(x["next"])
         tail.append(f'<span class="src">hearings continue <a href="#d{esc(nx)}">'
                     f'{esc(fmt(nx, nx[:4] != str(x["date"])[:4]))}</a></span>')
-    return f'<li><span class="au">{esc(head)}</span>{": " + body if body else ""} {" ".join(tail)}</li>'
+    return f'<li><span class="au">{head}</span>{": " + body if body else ""} {" ".join(tail)}</li>'
 
 
 def list_html(rows, series):
@@ -239,6 +285,7 @@ STYLE = """<style>
 ol.dd.cm .cmh{font-variant:small-caps;text-transform:lowercase;letter-spacing:.02em}
 ol.dd.cm a.src{color:var(--muted);text-decoration-color:var(--rule)}
 ol.dd.cm .src a{color:var(--muted);text-decoration-color:var(--rule)}
+ol.dd.cm a.cmk{color:inherit;text-decoration-color:var(--rule)}
 </style>"""
 
 
@@ -262,12 +309,11 @@ def testimony_list(series, name, site=""):
     """The items of "Testimony before Congress" (STYLE 3)."""
     items = []
     for x, w in testimony(series).get(name, []):
-        head = committee_label(x) + (f', {x["sub"]}' if x.get("sub") else "")
-        bits = [esc(head)]
+        bits = [head_html(x, site)]
         if x.get("heading"):
             bits.append(f'<span class="cmh">{esc(x["heading"])}</span>')
         if x.get("bills"):
-            bits.append(esc(", ".join(x["bills"])))
+            bits.append(bills_html(x, series, site))
         day = f'<a href="{esc(site)}cal.html#d{esc(x["date"])}">{esc(fmt(x["date"]))}</a>'
         items.append(f'{day}: {", ".join(bits)}. <span class="lvc"><a href="{esc(x["url"])}">'
                      f'Digest {esc(x["page"])}</a></span>')

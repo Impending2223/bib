@@ -1,0 +1,149 @@
+patch: reopen-states-2
+by: Claude (the reopened-sources agent, States and cities, second run), Oct. 23, 2026
+ops:
+  - add:
+      entry:
+        id: cal.1960-01-29.state-and-city-finance-ky
+        when: Jan. 29
+        date: '1960-01-29'
+        thread: state-and-city-finance
+        c: 'Kentucky''s sales tax. The House passes HB 75 by committee substitute, 84–9: a 3 percent sales and use tax, the "Veterans'' Bonus Sales and Use Tax Law," and bonds for the veterans'' bonus.'
+        n: 'Ky. *House Journal*, 1960, [218](https://archive.org/details/jhouseky1960v1/page/218/mode/1up) (the roll call); Ky. *Senate Journal*, 1960, [143](https://archive.org/details/jsencoky1960/page/143/mode/1up) (the bill as the House sent it, Article I), [xxxvi](https://archive.org/details/jsencoky1960/page/n1581/mode/1up) (the index: "Provides three per cent sales tax and sale of bonds to finance Veterans'' bonus"). 1960 Ky. Acts ch. 5, Art. I (the history of [KRS 139.200](https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=58186)). Check: the day Combs approved it; the Journals do not record it.'
+        tags: [state:ky]
+  - add:
+      entry:
+        id: cal.1960-02-03.state-and-city-finance-ky
+        when: Feb. 3
+        date: '1960-02-03'
+        thread: state-and-city-finance
+        c: 'Kentucky. The Senate passes HB 75, the sales tax, 28–8.'
+        n: 'Ky. *Senate Journal*, 1960, [205](https://archive.org/details/jsencoky1960/page/205/mode/1up); enrolled and signed by the presiding officers Feb. 4, and ordered delivered to the Governor: [213](https://archive.org/details/jsencoky1960/page/213/mode/1up); Ky. *House Journal*, 1960, [241](https://archive.org/details/jhouseky1960v1/page/241/mode/1up). See [[cal.1960-01-29.state-and-city-finance-ky]].'
+        tags: [state:ky]
+  - edit:
+      id: cal.1966-05-09.legislatures-mn
+      base: 76c1df72
+      set:
+        when: May 11
+        date: '1966-05-11'
+        c: 'Minnesota. Rolvaag vetoes S.F. 2, the special session''s reapportionment bill: "it does not provide a fair and adequate system of legislative districting."'
+        n: '[Message of Governor Karl F. Rolvaag Vetoing Senate File 2, Extra Session, 1966 Legislature](https://www.leg.mn.gov/archive/vetoes/1966_sp1veto_SF2.pdf) (May 11, 1966); Minn. Legis. Ref. Library, [Bills Vetoed, 1966](https://www.lrl.mn.gov/vetoes/vetodetails.aspx?year=1966). Nelson, ["Legislative Redistricting, 1959–1993"](https://www.mnhs.org/mnopedia/search/index/event/legislative-redistricting-1959-1993). Check: the session''s call (it met Apr. 25: the message). See [[cal.1966-01-14.legislatures-mn]]. Names: Rolvaag.'
+  - edit:
+      id: cal.1966-05-24.legislatures-mn
+      base: 9f9c520f
+      set:
+        when: May 20
+        date: '1966-05-20'
+        c: 'Minnesota. Rolvaag approves S.F. 6, the special session''s third reapportionment bill: 67 legislative districts, 67 senators, 135 representatives.'
+        n: '[Minn. Laws 1966, Ex. Sess., ch. 1](https://www.revisor.mn.gov/laws/1966/1/Session+Law/Chapter/1/pdf/), §§ 1–2; "Approved May 20, 1966," [36](https://www.revisor.mn.gov/laws/1966/1/Session+Law/Chapter/1/pdf/#page=24). Nelson, ["Legislative Redistricting, 1959–1993"](https://www.mnhs.org/mnopedia/search/index/event/legislative-redistricting-1959-1993), gives May 24. See [[cal.1966-01-14.legislatures-mn]]. Names: Rolvaag.'
+  - add:
+      entry:
+        id: cal.1962-08-14.governors-ak
+        when: Aug. 14
+        date: '1962-08-14'
+        thread: governors
+        also: [elections-1962]
+        c: 'Alaska''s primary. Democratic, for governor: Governor Egan 13,698, 62.3 percent of the party''s vote; Byer 5,275, 24.0; two others 13.7. Republican: Stepovich 6,415, 38.1; Pollock 5,247, 31.2; three others 30.7.'
+        n: 'Votes: [Alaska, *Official Returns, Primary Election (August 14, 1962)*, 6](https://www.elections.alaska.gov/Core/Archive/62PRIM/62prim.pdf#page=7) (statewide totals; persons voting 41,140). [[w.naske-alaska]]. Names: Egan. Check: whether Stepovich is Mike Stepovich, governor of the Territory, and Pollock Howard W. Pollock.'
+        tags: [state:ak, name:egan-william-a]
+  - add:
+      entry:
+        id: cal.1966-08-23.governors-ak
+        when: Aug. 23
+        date: '1966-08-23'
+        thread: governors
+        also: [elections-1966]
+        c: 'Alaska''s primary. Democratic, for governor: Governor Egan 19,801, 61.0 percent of the party''s vote; Kay 12,660, 39.0. Republican: Hickel 10,580, 55.3; Kendall 4,511, 23.6; Stepovich 4,039, 21.1.'
+        n: 'Votes: [Alaska, *Official Returns by Election Precinct, Primary Election (August 23, 1966)*, 6](https://www.elections.alaska.gov/Core/Archive/66PRIM/66prim.pdf#page=8) (statewide totals; persons voting 53,667). [[w.naske-alaska]]. See [[cal.1962-08-14.governors-ak]]. Names: Egan, Hickel. Check: whether Stepovich is Mike Stepovich.'
+        tags: [state:ak, name:egan-william-a, name:hickel-walter-j]
+  - edit:
+      id: cal.1966-11-08.governors-ak
+      base: a6344606
+      set:
+        n: 'Votes: [Alaska, *Official Returns by Election Precinct, General Election, November 8, 1966*, 6](https://www.elections.alaska.gov/Core/Archive/66GENR/66genr.pdf#page=8) (statewide totals: Egan and Wade 32,065, Hickel and Miller 33,145, Grasse and Saupe 1,084; persons voting 67,361), and [Wikipedia, "1966 Alaska gubernatorial election"](https://en.wikipedia.org/wiki/1966_Alaska_gubernatorial_election), alike. [[w.naske-alaska]]. See [[cal.1966-08-23.governors-ak]]. Names: Hickel, Egan.'
+  - edit:
+      id: cal.1968-08-27.elections-1968-ak
+      base: 31a5e77d
+      set:
+        n: 'Votes: [Alaska, *Official Returns by Election Precincts, Primary Election, August 27, 1968*, 7](https://www.elections.alaska.gov/Core/Archive/68PRIM/68prim.pdf#page=6) (statewide totals; persons voting 54,589), and [Wikipedia, "1968 United States Senate election in Alaska"](https://en.wikipedia.org/wiki/1968_United_States_Senate_election_in_Alaska), alike. [[w.gruening-many-battles]]; [[w.gravel-political-odyssey]]; [[w.naske-alaska]]. See [[cal.1966-11-08.governors-ak]]. Names: Gravel, Gruening, Rasmuson, Stevens.'
+  - edit:
+      id: cal.1968-11-05.elections-1968-ak
+      base: 4c487fc5
+      set:
+        n: 'Votes: [Alaska, *Official Returns by Election Precinct, General Election, November 5, 1968*, 7](https://www.elections.alaska.gov/Core/Archive/68GENR/68genr.pdf#page=8) (statewide totals; Gruening''s column "write-ins"; persons voting 82,886), the Clerk''s *Statistics*, and [Wikipedia, "1968 United States Senate election in Alaska"](https://en.wikipedia.org/wiki/1968_United_States_Senate_election_in_Alaska), alike. See [[cal.1968-08-27.elections-1968-ak]]; [[cal.1968-11-05.elections-1968]]. Names: Gravel, Rasmuson, Gruening.'
+  - add:
+      entry:
+        id: cal.1965-05-06.legislatures-wa
+        when: May 6
+        date: '1965-05-06'
+        thread: legislatures
+        c: 'Washington. The Senate passes H.B. 714 (the House, May 5), redrawing the congressional districts and referring them to the people at the general election of November 1966. Filed with the Secretary of State May 7.'
+        n: 'Wash. Laws 1965, Ex. Sess., ch. 152, [2252](https://leg.wa.gov/media/svdj12jt/1965pam2.pdf#page=618); § 10 (the referral) and the passage and filing, [2257](https://leg.wa.gov/media/svdj12jt/1965pam2.pdf#page=623). Check: that ch. 152 is Referendum Bill 16 ([[cal.1966-11-08.legislatures-wa]]). [[w.dixon-democratic-representation]].'
+        tags: [state:wa]
+  - edit:
+      id: cal.1966-11-08.legislatures-wa
+      base: f4a69416
+      set:
+        n: 'Votes: Wash. Secretary of State, [Election Results Archive](https://www.sos.wa.gov/elections/data-research/election-data-and-maps/election-results-and-voters-pamphlets/washington-state-election-results-archive) ("1966 General", Referendum Bill 16); Check: Wash. *Abstract of Votes*, Nov. 8, 1966. The act: Wash. Laws 1965, Ex. Sess., ch. 152 (H.B. 714), [2252](https://leg.wa.gov/media/svdj12jt/1965pam2.pdf#page=618). See [[cal.1965-05-06.legislatures-wa]].'
+  - edit:
+      id: cal.1966-09-02.alabama-al
+      base: 9116c2af
+      set:
+        c: 'At Wallace''s call, the legislature, in special session, declares void every agreement of a local school board with HEW under the desegregation guidelines and forbids new ones. Wallace approves it, Act No. 252 (H. 446), at 1:05 p.m.'
+        n: '[*Acts of Alabama*, Special Session, 1966, 372–377](https://archive.org/details/alabama-acts-1966/page/n370): "Approved September 2, 1966. Time: 1:05 P.M.," [377](https://archive.org/details/alabama-acts-1966/page/n375). Cited in [*Wallace v. Lee*, Motion to Affirm](https://ldfrecollection.org/archives/archives-search/archives-item/8f325deb-eb93-40a1-bf4f-3e634cbbfcdd/wallace-v-lee-motion-to-affirm) (NAACP Legal Defense Fund). [[w.carter-politics-of-rage-1995]]. See [[cal.1964-07-13.alabama]]. Names: Wallace.'
+  - add:
+      entry:
+        id: cal.1963-05-21.alabama-al
+        when: May 21
+        date: '1963-05-21'
+        thread: alabama
+        also: [antisubversion]
+        c: 'The legislature''s Commission to Preserve the Peace, five members, three of the House and two of the Senate: to investigate persons and groups "engaged in activities of an unlawful nature against the sovereignty of the State of Alabama," hearings open or closed as it decides (H.J.R. 5, Act No. 3). Approved 3:17 p.m.'
+        n: '[*Acts of Alabama*, 1963, Regular Session, Act No. 3, 380–381](https://archive.org/details/alabama-acts-1963_v1/page/n372): "Approved May 21, 1963." [[w.carter-politics-of-rage-1995]].'
+        tags: [state:al]
+  - edit:
+      id: cal.1963-10.alabama-al
+      base: 82f5115e
+      set:
+        when: Sept. 16
+        date: '1963-09-16'
+        c: 'Wallace approves Act No. 514, Alabama''s State Sovereignty Commission: seven members, $50,000, its records closed to the public. Members named Dec. 21.'
+        n: '[*Acts of Alabama*, 1963, Regular Session, Act No. 514, 1098–1100](https://archive.org/details/alabama-acts-1963_v3/page/n424): "Approved September 16, 1963. Time: 8:06 A.M." Jeremy Gray, "Alabama Sovereignty Commission formed with sweeping powers, no public oversight (Oct. 5, 1963)," al.com, Oct. 5, 2013, from the *Birmingham News*. [[w.carter-politics-of-rage-1995]]. Names: Wallace.'
+  - add:
+      entry:
+        id: cal.1966-02-24.voting-rights-tx
+        when: Feb. 24
+        date: '1966-02-24'
+        thread: voting-rights
+        c: 'Texas. Connally approves S.B. 1, a registration of voters in place of the poll tax: a general registration if the poll tax is finally held void or repealed, and certificates for the elections of 1966 meanwhile. The Senate''s vote 24–6, the House''s 124–22.'
+        n: '[Tex. Gen. Laws, 59th Leg., 1st C.S., 1966, ch. 1](https://lrl.texas.gov/scanned/sessionLaws/59-1/SB_1_CH_1.pdf): passed the Senate Feb. 21, the House with amendments Feb. 22, the Senate concurring the same day, 28–0; "Approved Feb. 24, 1966," [13](https://lrl.texas.gov/scanned/sessionLaws/59-1/SB_1_CH_1.pdf#page=13) (the PDF''s page). Tex. Legis. Ref. Library, [S.B. 1, 59th 1st C.S.](https://lrl.texas.gov/legis/billSearch/BillDetails.cfm?legSession=59-1&billTypeDetail=SB&billNumberDetail=1). See [[cal.1966-02-14.voting-rights-tx]]. Names: Connally.'
+        tags: [state:tx, name:connally-john]
+  - edit:
+      id: cal.1966-02-14.voting-rights-tx
+      base: 7ea52237
+      set:
+        c: 'Texas Legislature in special session at Connally''s call, to Feb. 23, on one subject: registration of voters for the 1966 elections, should the poll tax be finally held void, and in its place thereafter.'
+        n: 'Tex. Legis. Ref. Library, [59th Legislature, first called session](https://lrl.texas.gov/sessions/specialSessions/specialSessionTopics.cfm?legSessionID=59-1) (the proclamation of Feb. 10). The act: [[cal.1966-02-24.voting-rights-tx]]. See [[cal.1966-02-09.voting-rights-tx]]. Names: Connally.'
+  - add:
+      entry:
+        id: cal.1965-04-05.desegregation-public-places-nv
+        when: Apr. 5
+        date: '1965-04-05'
+        thread: desegregation-public-places
+        also: [jobs-and-wages]
+        c: 'Nevada. Sawyer approves A.B. 404, the civil rights act: no discrimination by race, color, religion or national origin in places of public accommodation or in employment, with a penalty, civil actions and injunctions; the State''s commission (NRS 233) given findings of fact and rule making.'
+        n: '1965 Nev. Stat., ch. 332, [689–696](https://www.leg.state.nv.us/Statutes/53rd/Stats196504.html#Stats196504page689): "[Approved April 5, 1965]." Names: Sawyer.'
+        tags: [state:nv, name:sawyer-grant]
+  - edit:
+      id: cal.1961-08-01.jobs-and-wages-mo
+      base: 1a6325ab
+      set:
+        c: 'Dalton approves S.B. 257, Missouri''s Fair Employment Practices Act: no discrimination in employment by race, creed, color, religion, national origin or ancestry; the Commission on Human Rights to enforce it.'
+        n: '*Laws of Missouri*, 1961, [439–443](https://mdh.contentdm.oclc.org/digital/collection/molaws/id/54161): "Approved August 1, 1961," [443](https://mdh.contentdm.oclc.org/digital/collection/molaws/id/54165) (Missouri State Archives, Missouri Digital Heritage). Missouri State Archives, [Commission on Human Rights records, RG 328.01](https://www.sos.mo.gov/CMSImages/Archives/findingaids/RG328.01.pdf), history and chronology. [[w.lang-grassroots-at-the-gateway]]. Names: Dalton.'
+  - tag: {id: cal.1961-08-01.jobs-and-wages-mo, add: [name:dalton-john-m]}
+  - edit:
+      id: cal.1965-06-30.desegregation-public-places-mo
+      base: 00424b0a
+      set:
+        c: 'Hearnes approves S.C.S.S.B. 246, Missouri''s Public Accommodations Act: no discrimination or segregation in places of public accommodation on the grounds of race, creed, color, religion, national origin or ancestry; private clubs exempted, and barber shops and beauty parlors not within a covered establishment; the Commission on Human Rights to enforce it.'
+        n: '*Laws of Missouri*, 1965, [505–508](https://mdh.contentdm.oclc.org/digital/collection/molaws/id/56935): "Approved June 30, 1965," [508](https://mdh.contentdm.oclc.org/digital/collection/molaws/id/56938) (Missouri State Archives, Missouri Digital Heritage). Missouri State Archives, [Commission on Human Rights records, RG 328.01](https://www.sos.mo.gov/CMSImages/Archives/findingaids/RG328.01.pdf), chronology. See [[cal.1961-08-01.jobs-and-wages-mo]]. Names: Hearnes.'
+  - move: {id: cal.1963-10.alabama-al, section: '196309', after: cal.1963-09-16.desegregation-schools}

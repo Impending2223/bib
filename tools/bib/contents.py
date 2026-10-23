@@ -6,6 +6,9 @@
     KINDS                            kind -> its label from the tag's value ("election": "1960" -> "Election of Nov. 8,
                                      1960"), or None for a kind the contents leave out (special, primary)
     nav(lst, sections)               the contents of a calendar page: the threads, the month grid, a slot for the tables
+    day_mark(kind, key, iso, threads)   the anchor of a block set under a date, not in an entry (tools/bib/dayblocks.py:
+                                     the war table, Armed Forces Day): it names the day and the threads in place of an
+                                     entry, and finish() lists it as it lists an entry's
     finish(page, lst, half)          after every inject: the tables and maps listed in the contents (half: the page's
                                      part; None in the reader, which has no such contents) and in their threads'
                                      statements; the slots cleared
@@ -71,6 +74,11 @@ def _election(key):
     return f"Election of {fmt(d)}" if d else f"Election of {key}"
 
 
+def _approp(key):
+    from . import appropriations
+    return appropriations.label(key)
+
+
 def _bill(key):
     from . import bills
     b = bills.load().get(key) or {}
@@ -102,11 +110,16 @@ KINDS = {
     "budget": lambda k: f"Budget, fiscal {k}",                                  # budgets.py
     "debt-limits": lambda k: "Debt limit acts",                                 # budgets.py
     "bill": _bill,                                                             # bills.py
+    "appropriations": _approp,                                                 # appropriations.py
     "primaries": lambda k: f"{PARTY.get(k[-1], k[-1])} primaries, {k[:4]}",     # primaries.py
     "conventions": lambda k: f"{PARTY.get(k[-1], k[-1])} convention, {k[:4]}: delegations",   # conventions.py
     "rollcall": _rollcall,                                                     # conventions.py
     "wardead": lambda k: f"U.S. dead by home State, {_span(k)}",               # wardead.py
     "vnmap": lambda k: f"Indochina, {k}",                                       # vnmap.py
+    "war": lambda k: f"The war, {k}: first Thursdays",                         # wartable.py via dayblocks.py
+    "forces": lambda k: f"Armed forces, {k}",                                   # afday.py via dayblocks.py
+    "oilworld": lambda k: f"World oil, {k}",                                    # oilworld.py
+    "oilprice": lambda k: "Posted prices of crude oil",                         # oilworld.py
     "special": None,                                                           # specials.py: one-off races
     "primary": None,                                                           # primaries.py: one primary day
 }
@@ -146,6 +159,17 @@ def put(page, eid, blk, kind, key):
         blk = (f'<span class="tba" id="{esc(anchor_id(kind, key))}" data-tb="{esc(lab)}" data-tbe="{esc(eid)}"></span>'
                + blk)
     return page[:at] + blk + page[at:], 1
+
+
+def day_mark(kind, key, iso, threads, part=None):
+    """The anchor of a day block (tools/bib/dayblocks.py): set before a block that stands under a date, not in an entry.
+    It carries the day and the block's threads in place of an entry's id ("day:<iso>:<thread>,<thread>"), so finish()
+    lists it in the contents and the threads' statements as it lists an entry's tables."""
+    lab = label(kind, key)
+    if not lab:
+        return ""
+    return (f'<span class="tba" id="{esc(anchor_id(kind, key))}" data-tb="{esc(lab)}" '
+            f'data-tbe="{esc("day:" + iso + ":" + ",".join(threads))}"></span>')
 
 
 # ---------------------------------------------------------------- the contents
@@ -216,7 +240,12 @@ def finish(page, lst, half=None):
     ents = {e["id"]: e for _, e in lst.entries()}
     found = []                                  # (anchor, label, entry), in order of appearance
     for m in MARK.finditer(page):
-        e = ents.get(html.unescape(m.group(3)))
+        eid = html.unescape(m.group(3))
+        e = ents.get(eid)
+        if e is None and eid.startswith("day:"):    # a day block's anchor (day_mark): its day and threads
+            _, iso, ts = eid.split(":", 2)
+            ts = [t for t in ts.split(",") if t and t in lst.threads()]
+            e = {"id": eid, "date": iso, "thread": ts[0], "also": ts[1:]} if ts else None
         if e is not None:
             found.append((m.group(1), html.unescape(m.group(2)), e))
     if half is not None and SLOT in page:
