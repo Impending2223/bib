@@ -1641,6 +1641,8 @@ tools/daybook/make_daybook.py   writes daybook/<YYYY-MM>.yaml (needs the network
 tools/daybook/make_recordings.py  writes daybook/recordings/<YYYY-MM>.yaml from PRDE's catalogue (needs the network)
 tools/daybook/make_sunday.py      writes daybook/sunday.yaml from the Library's inventory, the TV listings, and the
                                   Face the Nation index (--ftn PATH; without it, its rows already written are kept)
+tools/daybook/fetch_daily_diary.py  for the owner to run on his own computer: Johnson's Daily Diary from the LBJ Library,
+                                  a PDF a day, the busiest days first, politely; stops at a challenge (its docstring)
 tools/daybook/make_committees.py  writes daybook/committees/<YYYY-MM>.yaml from the bound Record's Daily Digest
                                   (--cache DIR; downloads each year's part, ~200 MB, reads it, deletes it)
 tools/bib/daybook.py            lays the calendar out by day (STYLE notes at the top) and checks the data
