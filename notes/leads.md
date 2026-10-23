@@ -149,8 +149,7 @@ reports them (`notes/calendar-audit.md`).
 
 ### Missouri
 
-- Fair Employment Practices Act, 1961: the date (the State Archives' chronology gives Aug. 1) (`cal.1961-08-01.jobs-and-wages-mo`).
-- Public Accommodations Act, 1965: the day of signing (the Archives give June 30 as passage) (`cal.1965-06-30.desegregation-public-places-mo`). *Laws of Missouri*.
+- *Laws of Missouri*, 1824 on, and both Journals are open in Missouri Digital Heritage (CONTENTdm `molaws`, `housej`, `senatej`; full text by its API, `dmQuery`, `dmGetItemInfo`), each act with its day of approval: the Fair Employment Practices Act (Aug. 1, 1961) and the Public Accommodations Act (June 30, 1965) now cite them (patch reopen-states-2). St. Louis's public accommodations ordinance and the Kansas City referendum are not in them.
 - Kansas City. Mayoral race, 1963: the day (`cal.1963-03.mayors-kansas-city`).
 - Kansas City. Referendum of Apr. 1964: the day (Apr. 7, 8 or 18) and the vote (about 1,700) (`cal.1964-04-07.state-constitutions-kansas-city`). Board of Election Commissioners.
 - St. Louis. Mayoral race, 1961: the opponent and the vote (`cal.1961-04-04.mayors-st-louis`).
@@ -1062,7 +1061,7 @@ Events Gibbons treats that the calendar lacks, not entered: no record reached an
   only); the *Statistical Abstract*, 1966 ed.: census.gov serves it now (Oct. 23, 2026), and its international section
   (sec. 33, tables 1286-1312, part 13; part 14 is the appendices) prints no table of the world's forces: the 1967
   edition's is the first. Also tried Oct. 23: parallelhistoryproject.org (proxy 502), php.isn.ethz.ch (certificate
-  for another host), cvce.eu (WEU's Assembly documents; 403). Again Oct. 23, 05:06, 05:40 and 06:1x UTC:
+  for another host), cvce.eu (WEU's Assembly documents; 403). Again Oct. 23, 05:06, 05:40 and 06:07 UTC:
   archives.nato.int answers 200 with a page that sends the browser to `/challenge` (AtoM's script challenge) on every
   path: the site's own bot check, not passed; the Wayback Machine "Blocked by egress policy"; archive.org holds no
   NATO Annual Review, DPC or force-goal paper by title (its CIA reading-room copies are the CIA's own papers on NATO);

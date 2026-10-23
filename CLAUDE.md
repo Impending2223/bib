@@ -1241,8 +1241,9 @@ register, an access outside the legend, or an online copy without a url or a che
   `tools/sources/check_access.py`; Alaska's elections site, whose returns of 1960–74 are open so).
 - The States' session laws and journals, where a lead needs an act's day: Alabama's *Acts* and both Journals, 1961–70,
   every session, and Kentucky's Journals, 1959–68, are on archive.org (`alabama-acts-1966`, `jsencoky1960`); the
-  revisors' sites give Idaho's, Minnesota's (with the vetoes, lrl.mn.gov) and Washington's session laws; Texas's, the
-  Legislative Reference Library.
+  revisors' sites give Idaho's, Minnesota's (with the vetoes, lrl.mn.gov), Nevada's (leg.state.nv.us/Statutes) and
+  Washington's session laws; Texas's, the Legislative Reference Library (its bill search names the chapter); Missouri's
+  *Laws* and Journals, Missouri Digital Heritage's CONTENTdm (`molaws`, full text by `dmQuery`).
 - Kansas's *Election Statistics*, 1899–2010, every issue, are in the State Library's KGI Online Library (CONTENTdm,
   `p16884coll129/83`); Washington's statewide figures, 1898–2006, in the Secretary of State's archive workbook; a
   State library's CONTENTdm is searched by its API (`dmQuery`, `dmGetCompoundObjectInfo`), its pages being scripts.

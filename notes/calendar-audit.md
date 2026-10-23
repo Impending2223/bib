@@ -3,14 +3,14 @@
 Written by `./bib audit-cal` (`tools/bib/calaudit.py`): the dated entries checked against the brief in
 CLAUDE.md ("The calendar"). A review list: a hit is a place to look, not an error. Rerun after editing.
 
-5179 dated entries.
+5180 dated entries.
 
 | Check | Entries |
 |---|---|
 | A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 88 |
 | (of which only a President's surname: Eisenhower, Kennedy, Johnson) | 1 |
 | Neither a bibliography of its own nor a `See [[id]]` back | 1 |
-| No primary record linked or named | 729 |
+| No primary record linked or named | 730 |
 | A primary record named but not linked | 103 |
 | Threads (statements listed for review) | 224 |
 
@@ -752,7 +752,8 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1967-07-20.black-nationalism` (July 20–23, XCIII 196707.yaml): Newark, three days after the Guard's withdrawal: the National Conference on Black Power, more than a thousand 
 - `cal.1967-07.states-and-cities-nyc` (July–Sept., XCIII 196707.yaml): New York City. Three demonstration districts for community control of the schools, with Ford Foundation money:
 - `cal.1967-07.vietnam-tet` (July, XCIII 196707.yaml): The General Staff's plan for a general offensive and general uprising, put to the Politburo and the Central Mi
-- `cal.1967-08-14.vietnam-program-5` (Aug. 14, XCIV 196708.yaml): McNamara's formal approval of Program 5: 47,296 men more, to an authorized strength of 525,000.
+- `cal.1967-08-10.vietnam-program-5` (Aug. 10, XCIV 196708.yaml): McNamara to Wheeler: the forces of JCSM 416-67 approved for planning, within a ceiling of 525,000 men in South
+- `cal.1967-08-14.vietnam-program-5` (Aug. 14, XCIV 196708.yaml): Program 5 published: 47,296 men more, to an authorized strength of 525,000.
 - `cal.1967-08-21.vietnam-pennsylvania` (Aug. 21, XCIV 196708.yaml): Pennsylvania. Hanoi refuses Marcovich and Aubrac visas.
 - `cal.1967-08-25.vietnam-pennsylvania` (Aug. 25, XCIV 196708.yaml): Pennsylvania. Marcovich and Aubrac ask Mai Văn Bộ to send the message on, with word that the bombing would be 
 - `cal.1967-08-28.open-housing-milwaukee` (Aug. 28, XCIV 196708.yaml): Milwaukee. The NAACP Youth Council, Groppi its adviser, close to 200, marches across the 16th Street Viaduct t
