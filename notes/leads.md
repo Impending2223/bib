@@ -691,14 +691,9 @@ Searched in the Daily Digest (daybook/committees), the bound Record's days, the 
   - Primary records for the field entries without one (the audit's list): the MACV Command Histories (Texas Tech,
     refused here), the units' after-action reports and the Marine command chronologies (NARA, series NAID 6160409,
     page images, open), CHECO reports. The *Bulletin* and the daybook's Thursday briefings not searched for them.
-  - Splits proposed, not made (another agent's entries): `cal.1965-08-18.vietnam` (Starlite, Aug. 18-24: the landing,
-    Aug. 18; the end, Aug. 24), `cal.1965-11-14.vietnam` (Ia Drang, Nov. 14-18: X-Ray, Nov. 14-16; Albany, Nov. 17),
-    `cal.1967-01-08.vietnam` (Cedar Falls: its end now has its own entry, Jan. 26; the text's "Jan. 8-26" can go),
-    `cal.1967-02-22.vietnam` (Junction City, "to May 14": its battles and end now entered), `cal.1967-11-03.vietnam`
-    (Đắk Tô, "from Nov. 3", Check: Hill 875 now entered), `cal.1966-07-22.vietnam` (the DMZ and "Hastings below the
-    zone (Check its dates)": Hastings now dated, July 15-Aug. 3). And these field entries of the Vietnam thread belong
-    in Vietnam: Operations (thread or also): Starlite, Plei Me (Oct. 19, 23, 26, 1965), Ia Drang, Masher (Jan. 25 and
-    Feb. 1966), Cedar Falls, Junction City, Côn Thiên (Sept. 1967), Đắk Tô (Nov. 3, 1967).
+  - Starlite (`cal.1965-08-18.vietnam`, Aug. 18-24): split the landing (Aug. 18) from the end (Aug. 24) once the end's
+    record is read (Shulimson, *U.S. Marines in Vietnam, 1965*). The other proposed splits and re-threadings were made
+    Oct. 23, 2026 (Ia Drang: X-Ray and Albany; Cedar Falls, Junction City, Đắk Tô, the DMZ of July 22, 1966).
   - The air war: tonnage by country and month is in CACTA's load fields (LTONS, LCLAS), but the subroutine DLTNS that
     converts them is not in NARA's documentation read (137.1DP.pdf); the other CACTA series (NAID 634496, the 1976
     accession, bimonthly files) may fill the eight missing months (Aug. 1966; July, Nov. 1967; Mar., Apr., July, Nov.
