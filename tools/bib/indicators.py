@@ -76,7 +76,7 @@ STYLE (settled; keep it, and fix anything that drifts from it):
     tools/indicators/make_finance.py): the money stock and free reserves in a group "Money and credit" of the indicators
     table, the yields and mortgage rates in the Money and credit table (13); reserve assets and the trade balances under
     International; the debt's holders and length under "Federal debt" (the public debt and its ratios with them), $bn in
-    its header as Federal finance; exchange rates and the gold price, when read, in a table of their own (one figure).
+    its header as Federal finance; the exchange rates (and the gold price, when read) in a table of their own (one figure).
 """
 import calendar
 import datetime

@@ -1320,16 +1320,20 @@ the series index, the README and the top bar (数; at first kept out of the bar,
   `tools/bib/indicators.py`.
 - Money, the foreign accounts and the debt's terms (the measures `notes/proposals/indicators-suggestions.md` marked "No";
   `tools/indicators/make_finance.py`, its docstring the sources, each figure with its table and page in READ blocks;
-  `tools/bib/finance.py`, its STYLE; indicators STYLE 17): the money stock M1 and M1 with time deposits, free reserves,
-  reserve assets (gold, currencies, IMF position), the balances on merchandise and on goods and services (quarterly,
-  annual rates), the debt's holders (Federal Reserve, trust funds) and the average length of the marketable debt, each
-  as the next January's *Economic Report* tabled it (FRASER, where the first printings are, was down when this was
-  read: `notes/leads.md`); Moody's Aaa and Baa (FRED, rates, one figure: the Reports' figures for 1966–68 the same); FHA
-  new-home yields from 1966 (the Reports, one figure). Today: FRED (M1SL/H.6, NFORBRES, TRESEGUSM052N, BOPBM and
-  BOPBGS times four); today's M2 and unit labor costs and hourly compensation (nonfarm business) as rows of their own,
-  no figure then. Groups: the money stock and free reserves "Money and credit" in the indicators table; the public
-  debt, its ratios and the debt's terms "Federal debt". Exchange rates and the London gold price have their ids and
-  table (`finance.FX`) and wait for the *Bulletin*. Rerun: `python3 -I tools/indicators/make_finance.py [--only IDS]`.
+  `tools/bib/finance.py`, its STYLE; indicators STYLE 17). As first printed, read off FRASER's page images: the exchange
+  rates (the pound, the mark, the franc: the *Federal Reserve Bulletin*'s "Foreign exchange rates", 1960–68, the issue
+  of the month after; one figure, a table of their own, "Exchange rates and gold"); the FHA new-home yield and the
+  FHLBB's conventional mortgage rate, contract (Apr. 1963–Jan. 1968) and effective (from Feb. 1967), as rates (the
+  *Bulletin*, from July 1964); the debt's computed interest rate (the *Treasury Bulletin*, Debt outstanding, Table 2,
+  1960–68) and its average length for 1963–65 (the same, Public debt operations, Table 4). As the next January's
+  *Economic Report* tabled them (their first printings not yet read: `notes/leads.md`): the money stock M1 and M1 with
+  time deposits, free reserves, reserve assets (gold, currencies, IMF position), the balances on merchandise and on
+  goods and services (quarterly, annual rates), the debt's holders (Federal Reserve, trust funds) and its average
+  length for 1961–62 and 1966–68. Moody's Aaa and Baa (FRED, rates, one figure). Today: FRED (M1SL/H.6, NFORBRES,
+  TRESEGUSM052N, BOPBM and BOPBGS times four); today's M2 and unit labor costs and hourly compensation (nonfarm
+  business) as rows of their own, no figure then. Groups: the money stock and free reserves "Money and credit" in the
+  indicators table; the public debt, its ratios and the debt's terms "Federal debt". The London gold price has its id
+  (`gold-london`) and waits for a source. Rerun: `python3 -I tools/indicators/make_finance.py [--only IDS]`.
 - Oil (the owner's request, Oct. 21, 2026; `tools/bib/oil.py`, its STYLE): U.S. crude production and products supplied
   monthly, imports and exports monthly, as the *Survey of Current Business* first printed the Bureau of Mines' figures
   (p. S-35, FRASER, the issue its "Released"), in millions of barrels a day, with the change from the month before and

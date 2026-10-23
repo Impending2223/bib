@@ -8,15 +8,15 @@ given today.
 #   YAML, and rerun. A series whose figures today cannot be fetched keeps none ('now' left out); rerunning when the
 #   source answers fills them.
 #
-# Sources then (each block below names its tables and pages): the Economic Report of the President, each January's
-#   (February in 1968), read off FRASER's scans (ERP_<year>.pdf: the printed page plus 8 in 1962 and 1964, plus 30 in
-#   1963, plus 6 in 1965-69), the Reports of Jan. 1962 to Jan. 1969: the money stock (M1, M1 and time deposits), free
-#   reserves, reserve assets, the trade balances by quarter, the debt's holders and average length, FHA new-home
-#   yields (from the Feb. 1968 Report). For these 'first' is the figure as the next Report tabled it, as for the
-#   Reports' series in make_indicators.py; the first printings (the Federal Reserve Bulletin, the Survey of Current
-#   Business, the Treasury Bulletin) were not reachable when this was read (notes/leads.md, "Money, the foreign
-#   accounts, the debt's terms"), nor the exchange rates, the London gold price, the liabilities to foreign official
-#   holders, the debt's average interest rate and conventional mortgage rates, which have no series yet.
+# Sources then (each block below names its tables and pages): as first printed, read off FRASER's page images (Oct.
+#   23, 2026): the exchange rates (FX: the Federal Reserve Bulletin), the mortgage rates (FHA, CONV, EFF: the Bulletin,
+#   from July 1964), the debt's interest rate (TBRATE: the Treasury Bulletin) and its average length for 1963-65 (the TB
+#   lines of MATURITY). As the next January's Economic Report tabled them (February in 1968; ERP_<year>.pdf, the
+#   printed page plus 8 in 1962 and 1964, plus 30 in 1963, plus 6 in 1965-69): the money stock (M1, M1 and time
+#   deposits), free reserves, reserve assets, the trade balances by quarter, the debt's holders and its average length
+#   for 1961-62 and 1966-68; for these 'first' is the figure as the next Report tabled it, as for the Reports' series
+#   in make_indicators.py, their first printings not yet read (notes/leads.md, "Money, the foreign accounts, the
+#   debt's terms"). The London gold price and the liabilities to foreign official holders have no series yet.
 # Sources today: FRED's public CSVs: AAA, BAA (Moody's, not revised: one figure), NFORBRES, TRESEGUSM052N, BOPBM and
 #   BOPBGS (discontinued; times four for annual rates), ULCNFB and COMPNFB (nonfarm business, today only); the Board's
 #   Data Download Program for H.6 (M1, M2: FRED's M1SL and M2SL are its copies) and, where FRED fails, H.3.
