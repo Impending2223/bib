@@ -3,14 +3,14 @@
 Written by `./bib audit-cal` (`tools/bib/calaudit.py`): the dated entries checked against the brief in
 CLAUDE.md ("The calendar"). A review list: a hit is a place to look, not an error. Rerun after editing.
 
-5111 dated entries.
+5139 dated entries.
 
 | Check | Entries |
 |---|---|
 | A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 93 |
 | (of which only a President's surname: Eisenhower, Kennedy, Johnson) | 1 |
 | Neither a bibliography of its own nor a `See [[id]]` back | 1 |
-| No primary record linked or named | 691 |
+| No primary record linked or named | 698 |
 | A primary record named but not linked | 102 |
 | Threads (statements listed for review) | 224 |
 
@@ -297,6 +297,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1961-02-01.civil-rights-organizations` (Feb. 1, XV 196102.yaml): Farmer takes office as national director of CORE, from the NAACP's staff.
 - `cal.1961-02.economy` (Feb., XV 196102.yaml): The recession's trough, as the National Bureau later dated it. Unemployment 6.9 percent in the revised series;
 - `cal.1961-02.states-and-cities-nyc` (Feb., XV 196102.yaml): New York. Early in the month Wagner calls on DeSapio to step down as leader of the county's Democrats.
+- `cal.1961-02-25.vietnam` (Feb. 25, XV 196102.yaml): The Politburo, sessions of Jan. 31 and Feb. 25, on the military tasks of 1961–65: peace in the North the first
 - `cal.1961-03.right-and-the-military` (Mar., XVI 196103.yaml): The John Birch Society reaches the national press: the *Los Angeles Times* series and the newsmagazines. Check
 - `cal.1961-03-17.economy` (Mar. 17, XVI 196103.yaml): Heller to the President: even if the whole program passes, output at year's end will be some $40 billion below
 - `cal.1961-03-30.cuba` (Mar. 30, XVI 196103.yaml): Fulbright, flying to Palm Beach with Kennedy, gives him a memorandum against the invasion.
@@ -321,6 +322,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1961-09-22.georgia-atlanta` (Sept. 22, XXII 196109.yaml): Atlanta's runoff for mayor: Allen 64,313, Maddox 36,091; Allen 64.1 percent.
 - `cal.1961-09.legislatures-ca` (Sept., XXII 196109.yaml): California. Unruh, Assemblyman from Los Angeles County, elected Speaker of the Assembly. Check the day.
 - `cal.1961-09.oil` (Sept., XXII 196109.yaml): Libya. First crude oil exports: Esso's 108-mile, 30-inch line from the Zelten field to its terminal at Marsa e
+- `cal.1961-09.vietnam` (Sept., XXII 196109.yaml): The Politburo and the Central Military Party Committee approve the General Staff's plan for the South, 1961–63
 - `cal.1961-10.civil-rights-organizations` (Oct., XXIII 196110.yaml): Greenberg director-counsel of the NAACP Legal Defense and Educational Fund, succeeding Marshall, recess-appoin
 - `cal.1961-10-01.steel` (Oct. 1, XXIII 196110.yaml): The steelworkers' October wage step. Prices hold.
 - `cal.1961-10-01.civil-rights-organizations` (Oct. 1, XXIII 196110.yaml): Whitney Young takes office as executive director of the National Urban League, the board's unanimous choice to
@@ -390,6 +392,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1962-11-30.governors-nm` (Nov. 30, XXXVI 196211.yaml): New Mexico. Mechem resigns the governorship; Bolack, the lieutenant governor, succeeds and appoints him to the
 - `cal.1962-12-02.goldwater` (Dec. 2, XXXVII 196212.yaml): Chicago, a motel. White's draft group meets in secret, some forty by the UPI's count, many from the South: a G
 - `cal.1962-12-03.governors-mn-recount` (Dec. 3, XXXVII 196212.yaml): Rolvaag asks a recount; three district judges named to try it.
+- `cal.1962-12-06.vietnam` (Dec. 6, XXXVII 196212.yaml): The Politburo on the South after two years of the "special war": the armed forces grown but out of balance and
 - `cal.1962-12-14.space` (Dec. 14, XXXVII 196212.yaml): Mariner 2 passes Venus. First planetary flyby.
 - `cal.1962-12-17.georgia-atlanta` (Dec. 17–18, XXXVII 196212.yaml): Atlanta. A Negro having bought a house in Peyton Forest, white homeowners ask for barricades across Peyton and
 - `cal.1962-12-19.governors-mn-recount` (Dec. 19, XXXVII 196212.yaml): The hand recount of the Minnesota governor's race begins.
@@ -515,6 +518,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1964-09-04.civil-rights-the-executive` (Sept. 4, LVIII 196409.yaml): Danielsville. An all-white Madison County jury acquits Sims and Myers, Klansmen of Athens, of Penn's murder.
 - `cal.1964-09-08.governors-vt` (Sept. 8, LVIII 196409.yaml): Vermont's Republican primary for governor. Foote, the lieutenant governor, 19,121, 42.8 percent; Babcock 36.3;
 - `cal.1964-09-14.desegregation-schools-nyc` (Sept. 14, LVIII 196409.yaml): New York. Parents and Taxpayers, white parents' groups of Queens and Brooklyn, keep their children home agains
+- `cal.1964-09.vietnam` (Sept., LVIII 196409.yaml): The Politburo resolves to seek a decisive victory in the South within a few years by main-force campaigns. Ngu
 - `cal.1964-10-01.students` (Oct. 1–2, LIX 196410.yaml): Berkeley. Weinberg, a former student, arrested at a CORE table on Sproul Plaza, the University enforcing its b
 - `cal.1964-10-04.alabama-selma` (Oct. 4, LIX 196410.yaml): Selma. Joseph T. Smitherman takes office as mayor, having beaten the mayor by some 500 votes (Check). Wilson B
 - `cal.1964-10-19.goldwater` (Oct. 19, LIX 196410.yaml): Jenkins. Goldwater, once his commanding officer in an Air Force Reserve unit, questioned by FBI agents, asks H
@@ -543,6 +547,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1965-02-23.states-and-cities-nyc` (Feb. 23, LXIII 196502.yaml): New York. Constance Baker Motley, of the NAACP Legal Defense Fund, a State Senator since Feb. 4, 1964, chosen 
 - `cal.1965-02-24.vietnam` (Feb. 24, LXIII 196502.yaml): American jets from Biên Hòa and Đà Nẵng strike the Viet Cong in the pass between An Khê and Pleiku.
 - `cal.1965-03-24.students` (Mar. 24–25, LXIV 196503.yaml): Ann Arbor. The first teach-in on the war, at the University of Michigan: faculty and students, some 3,000, in 
+- `cal.1965-03-28.vietnam` (Mar. 28, LXIV 196503.yaml): Resolution of the Eleventh Plenum, after the Central Military Party Committee's session of February: the North
 - `cal.1965-04-01.desegregation-schools-ma` (Apr. 1, LXV 196504.yaml): Massachusetts. The final report of the advisory committee on racial imbalance named by Kiernan, Commissioner o
 - `cal.1965-04-06.mayors-los-angeles` (Apr. 6, LXV 196504.yaml): Los Angeles. Yorty re-elected mayor in the primary, 392,775 of 677,969, 57.9 percent; James Roosevelt, who lef
 - `cal.1965-04-06.mayors-st-louis` (Apr. 6, LXV 196504.yaml): St. Louis elects Cervantes (D) mayor over Zumwalt (R), 102,961 to 47,510.
@@ -724,10 +729,12 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1967-06-05.states-and-cities-nm` (June 5, XCII 196706.yaml): Tierra Amarilla, N.M. Tijerina's Alianza raids the Rio Arriba County courthouse to free members arrested June 
 - `cal.1967-06-17.testing` (June 17, XCII 196706.yaml): China explodes its first hydrogen bomb over Lop Nur, Sinkiang, dropped from an aircraft, some 3 megatons; 32 m
 - `cal.1967-06-26.civil-disorders` (June 26–July 1, XCII 196706.yaml): Buffalo, the East Side, William Street and Jefferson Avenue. Windows broken June 27; some 200 police with riot
+- `cal.1967-06.vietnam-tet` (June, XCII 196706.yaml): The Politburo approves the strategic resolve: the war still protracted, but a decisive victory to be sought wi
 - `cal.1967-07-02.vietnam-operations` (July 2, XCIII 196707.yaml): Buffalo. North of Côn Thiên, near the old marketplace on Route 561, two companies of the 1st Battalion, 9th Ma
 - `cal.1967-07-14.vietnam-operations` (July 14, XCIII 196707.yaml): Buffalo closes. The Marines report 1,290 of the enemy dead and 2 captured; their own losses 159 killed, 345 wo
 - `cal.1967-07-20.black-nationalism` (July 20–23, XCIII 196707.yaml): Newark, three days after the Guard's withdrawal: the National Conference on Black Power, more than a thousand 
 - `cal.1967-07.states-and-cities-nyc` (July–Sept., XCIII 196707.yaml): New York City. Three demonstration districts for community control of the schools, with Ford Foundation money:
+- `cal.1967-07.vietnam-tet` (July, XCIII 196707.yaml): The General Staff's plan for a general offensive and general uprising, put to the Politburo and the Central Mi
 - `cal.1967-08-14.vietnam-program-5` (Aug. 14, XCIV 196708.yaml): McNamara's formal approval of Program 5: 47,296 men more, to an authorized strength of 525,000.
 - `cal.1967-08-21.vietnam-pennsylvania` (Aug. 21, XCIV 196708.yaml): Pennsylvania. Hanoi refuses Marcovich and Aubrac visas.
 - `cal.1967-08-25.vietnam-pennsylvania` (Aug. 25, XCIV 196708.yaml): Pennsylvania. Marcovich and Aubrac ask Mai Văn Bộ to send the message on, with word that the bombing would be 

@@ -148,6 +148,9 @@ reports them (`notes/calendar-audit.md`).
 - Special session on reapportionment, 1966, and the day of the congressional redistricting act: not written (`cal.1966-07-22.mississippi-ms` says only that it had passed).
 - Jackson. Mayoral elections, 1961 and 1965 (Allen Thompson): not found.
 - Hattiesburg. Mayoral elections: not found.
+- From Dittmer, *Local People* (book agent, Oct. 23, 2026; `notes/book-checks/w.dittmer-local-people.md`), events the book dates loosely or that were left out as minor, each to be dated by a record: Clyde Kennard's conviction (fall 1960), Barnett's release of him (spring 1963) and his death, July 4, 1963 (Dittmer, 80–83); Cpl. Roman Duckworth shot by a Taylorsville policeman, Apr. 1962 (123; the day); the Clarksdale boycott and the arrest of Aaron Henry and the Coahoma NAACP's officers, Dec. 1961 (121–22); Leflore County's end of winter surplus commodities, July and Nov. 1962, the Civil Rights Commission's recommendation of federal distribution (143–45; USDA's own record); Block beaten and the Greenwood SNCC office raided, Aug. 1962 (132–33); the shootings into the Sisson and McDonald houses at Ruleville, Sept. 1962 (137–38); Stennis and Eastland in the Senate against the Greenwood suit, early Apr. 1963 (154: "Monday, April 2"; the Record's day); the Holmes County "First 14" at Lexington, Apr. 9, 1963 (192); Itta Bena, June 18, 1963, forty-five sentenced (173–74); the Voter Education Project's end of its Mississippi grants, Nov. 1963 (212); the Freedom Vote of Nov. 1964 for Hamer, Henry, Devine and Gray, some 60,000 ballots (322–23; the days); the NAACP's withdrawal from COFO, Mar. 7, 1965 (342–43); the Mississippi Freedom Labor Union and the Andrews plantation strike at Tribbett, Apr.–May 1965 (364); the Young Democrats' split, Aug. 1965 (348–49); the CDGM children at the House Education and Labor Committee, about Feb. 11, 1966, and OEO's $5.6 million grant two weeks later (374–75); the Senate investigator Cotter's report on CDGM, Aug. 5, 1966 (377); the "Say it isn't so" advertisement, Oct. 19, and the agreement of mid-December 1966 (380); the Field Foundation physicians' tour of the Delta, 1967, and USDA's lower food stamp price, July 1967 (383, 386); SCLC's Grenada campaign, July 1966 (403); the Jackson bombings of Sept.–Nov. 1967 (Temple Beth Israel) and Tarrants taken at Meridian, 1968 (417–18).
+- Greenwood, Mar. 27–29, 1963: the Justice Department's memorandum of Apr. 8, 1963 (crmvet.org) refused this environment (HTTP 406); it should settle who the dog bit, and when (`cal.1963-03-27.mississippi`).
+- Persons the new Mississippi entries name who have no name entry (K–J Cong. III.K, if wanted): John Hardy, John Q. Wood, Bob Zellner, Lawrence Guyot, Hartman Turnbow, Theron Lynd, Annelle Ponder, Allen Thompson, George Metcalf, John Nosser, Claude Ramsey, Ben Brown.
 - Meridian. Mayoral election, 1965 (Key over Burns): not found.
 - The Loyal Democrats' convention of 1968, which named the delegation seated at Chicago: date not read (`cal.1968-07-02.elections-1968-state-conventions`, the regulars'). CQ Weekly Report 26 (1968) 2108 ("Miss. delegation", by the index; not read).
 
@@ -689,11 +692,6 @@ Searched in the Daily Digest (daybook/committees), the bound Record's days, the 
 
 - The war in the field (patch `inbox/2026-10-22-vietnam-field.yaml`, thread Vietnam: Operations), leads left by the
   drafting agent, Oct. 22, 2026:
-  - *Victory in Vietnam* (PAVN history, Pribbenow trans.; `w.vietnam-victory-in-vietnam`) is cited without pages in
-    the Bình Giã and Đồng Xoài entries: archive.org's copy (`victoryinvietnam0000unse_u7j3`) is borrow-only and its
-    search-inside did not answer; HathiTrust search-only (Oct. 23, 2026: the same; no other copy on archive.org, its
-    pages at babel.hathitrust.org a Cloudflare 403). Read the pages for Bình Giã, Ba Gia, Đồng Xoài, Junction
-    City, Đắk Tô, Route 9-Khe Sanh, Tet and add the pinpoints (and the battles' entries that lack it).
   - Long Tân, Aug. 18, 1966: not entered; Carland names only McNeill, *To Long Tan* (1993). The Australian official
     history and the Australian War Memorial's records are the places to date and count it (awm.gov.au answers, Oct.
     23, 2026; McNeill not open on archive.org: not read).
@@ -930,9 +928,28 @@ Events Gibbons treats that the calendar lacks, not entered: no record reached an
   thousands, from OASD(C)'s *Southeast Asia Statistical Summary*, table 2: 1965, 35; 1966, 56; 1967, 88; 1968, 181. Not
   entered (a later figure, rounded to thousands: `make_war_forces.py`'s enemy-killed rows). The quarters of 1968 as printed add to 180,958 against
   the year's 180,966P (Thayer, vol. 1, p. 123).
-- Retrospective enemy figures: the People's Army's official history, *Victory in Vietnam* (Pribbenow trans., 2002),
-  HathiTrust search-only, no open copy; Hanoi's statement of April 1995 on its losses (as the wire services reported
-  it) not read. Two cards for the history (w.viet-victory-in-vietnam, w.vietnam-victory-in-vietnam): combine.
+- Retrospective enemy figures: *Victory in Vietnam* (`w.vietnam-victory-in-vietnam`, the owner's copy read Oct. 23,
+  2026; patch `book-victory`) gives Hanoi's own counts, not entered as indicator rows: men sent down the trail, 7,664
+  in 1961 (456 n.26), over 40,000 by the end of 1963 since 1959 (115), almost 9,000 in 1964 (127), almost 50,000 in
+  1965 (170–71), 81,000 replacements in 1967 (466 n.13); full-time forces in the South 25,000 (1961), 40,000 (1962),
+  70,000 (1963) (459 n.41), 166,248 (1965) and 219,640 (1966) (191), but 204,000 at the end of 1966 and 278,000 at
+  the end of 1967 (211): the book's two figures for 1966 disagree. For the war table's "later" columns, if wanted.
+  Hanoi's statement of April 1995 on its losses (as the wire services reported it) not read.
+- Hanoi's decisions entered from *Victory in Vietnam* alone (Feb. 25, 1961; Sept. 1961; Dec. 6, 1962; the Ninth
+  Plenum, Dec. 1963; Sept. 1964; the Eleventh Plenum, Mar. 28, 1965; the Twelfth, Dec. 27, 1965; the Tet planning,
+  June, July, Oct. 1967, Jan. 1968): no primary record reached. The resolutions in English: the Vietnam Documents and
+  Research Notes series and the Pike collection (Texas Tech's Vietnam Center); Lien-Hang Nguyen, *Hanoi's War*, and
+  Asselin, *Hanoi's Road to the Vietnam War*, treat the Ninth Plenum and the Tet resolutions (not read: their
+  pinpoints to add). "Made public" written as the Hanoi edition of 1988 with a Check: an earlier printing may exist.
+- Phước Thành, Sept. 17–18, 1961 (`cal.1961-09-17.vietnam`): the capital's name (Phước Vĩnh?) not verified, so not
+  written and no `place:` tag; add it to the gazetteer with Wikipedia's coordinates and tag the entry.
+- From *Victory in Vietnam*, not entered: Bàu Bàng, Nov. 12, 1965, the 9th Division against the 1st Infantry
+  Division's 3d Brigade (160–61; the American record: Carland); the sapper raids on Chu Lai, Aug. 1965, and the
+  Metropole, Dec. 1965 (161); a 12-day sweep of Củ Chi by almost 10,000 Americans, early 1966, unnamed (177, 463
+  n.4: perhaps Crimp, which the entry `cal.1966-01-08.vietnam-operations` dates Jan. 8–14; not cited there); the
+  rocket attacks on Đà Nẵng air base, Feb. 22 [27?], 1967 (202), and on the base the history calls 241, Mar. 6–7,
+  1967 (200); Hồ Chí Minh's appeal of July 17, 1966 (182); Nam Bắc, Laos, Jan. 12–27, 1968 (213–14, the year
+  misprinted 1967); Headquarters 500 for Military Region 4, Oct. 28, 1968 (226).
 - RVNAF strength by service for 1965 and 1966 (Collins gives none) and quarterly before 1966: Thayer, vols. 6-7
   (DTIC ADA039315, ADA051612), downloaded, not read page by page. RVNAF killed by month 1966: the months as read add
   to 9,459 (OSD) and 11,933 (J-1) against the printed 9,469 and 11,953 (Thayer, vol. 8, p. 212; the earlier table of
@@ -1114,6 +1131,29 @@ Searched in FRUS by text and date (sources/frus-text), the *Bulletin*'s index an
 - Gazetteer (sources/vn-provinces-1966/places.json): Uông Bí, the Thanh Hóa (Hàm Rồng) bridge, Xóm Bàng, Quảng Khê,
   the Nape and Ban Karai passes, the Se Kong valley: not in it; the new entries carry no place tag for them.
 - Operation Bolo, Jan. 2, 1967 (seven MiGs, Frankum, 56): no record of a Washington decision found; not entered.
+
+### Miller, *Misalliance* (the book agent, Oct. 23, 2026; notes/book-checks/w.miller-misalliance.md)
+
+- Don tells Conein of the generals' plot at the Caravelle bar after the embassy's Fourth of July reception, 1963
+  (Miller, 284–85), but Miller, 286, has Nhu's JGS meeting of July 11 "three days after" it (July 8, the CIA report's
+  date). Conein's Church Committee testimony (June 20, 1975) and the CIA reports of July 8 (DDRS) settle the day; not
+  entered.
+- Nhu and Maneli at Gia Long Palace, Sept. 2, 1963 (Miller, 306; introduced Aug. 25); Nhu tells Alsop in mid-September
+  (Alsop's column, its date). De Gaulle's statement on Vietnam, Aug. 29, 1963 (Miller, 306): no calendar entry; its text
+  (*Current Documents, 1963*?) and Washington's answer. Not entered.
+- The *Times of Viet Nam*, Sept. 2, 1963, "CIA Financing Planned Coup D'Etat" (Miller, 295), and Oct. 7 against
+  Phillips (296); Richardson named in the *Washington Daily News*, Oct. 2, 1963 (Miller, 313); Madame Nhu leaves
+  Saigon Sept. 9, 1963, for Europe and the United States (298); Thục to Rome Sept. 7; Trần Kim Tuyến to Egypt, as consul-general, Sept. 12.
+  The papers themselves not read; not entered.
+- Don and Đính ask Diệm for generals in the cabinet, Sept. 5, 1963 (Miller, 314, from Don's memoirs): not entered.
+- Nhất Linh (Nguyễn Tường Tam) kills himself, July 7, 1963 (Miller, 273–74); the self-immolation at Phan Thiết, Aug. 4,
+  1963 (275); the rallies of Aug. 18 (17,000 at Xá Lợi, 275): not entered.
+- Diệm breaks relations with Laos, Oct. 1962 (Miller, 251; no day given): FRUS 1961–63, II or XXIV for the day.
+- The Interministerial Committee for Strategic Hamlets (Miller, 238: "January 1962"; no day): the decree's date.
+- Phước Vĩnh (`cal.1961-09-18.vietnam`) is not in the gazetteer; tagged `province:binh-duong` (Phú Giáo district, with
+  Phước Vĩnh, joined Bình Dương in 1965: Wikipedia, "Phước Thành province"); its coordinates not found on Wikipedia.
+- "Made public" lines wanted for the new entries of Dec. 4, 1960, Sept. 18 and Nov. 17, 1961, Feb. 2, 1962, and May–July
+  1963 (FRUS gives no earlier printing for them): the year each FRUS volume came out.
 
 ## The Executive roster
 
