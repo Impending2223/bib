@@ -394,8 +394,8 @@ def _key():
                     '(ISIMIP3a, from HYDE 3.2.1); not a census:</em>'
          + "".join(_sw(c["color"], (f'{c["from"]:,}–{L["pop"]["classes"][i + 1]["from"]:,}' if i + 1 < len(POP) else f'{c["from"]:,} and over'))
                    for i, c in enumerate(L["pop"]["classes"])))
-    part("lay:cities", '<s><i class="o" style="background:var(--vcity);opacity:.5"></i>Cities: the populations the UN '
-                       '<i>Demographic Yearbook</i> printed, 1960–68 (a tap gives each figure and its page)</s>')
+    part("lay:cities", '<s><i class="o" style="background:var(--vcity);opacity:.5"></i>Cities:</s><em>the populations the UN '
+                       '<i>Demographic Yearbook</i> printed, 1960–68 (a tap gives each figure and its page)</em>')
     return '<div class="vnm-key">' + "".join(parts) + "</div>"
 
 

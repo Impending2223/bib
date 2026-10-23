@@ -37,7 +37,8 @@
 .vnm-key i.o{border-radius:50%}
 .vnm-key i.l{height:0;border:0;border-top:2px solid var(--ink);vertical-align:3px;width:14px}
 .vnm-key i.d{height:0;border:0;border-top:2px dashed var(--ink);vertical-align:3px;width:14px}
-.vnm-key em{font-style:normal;flex-basis:100%}
+.vnm-key em{font-style:normal;flex-basis:100%;min-width:0;overflow-wrap:anywhere}
+.vnm-key s+em{flex-basis:auto;flex:1 1 12rem}
 .vnm-key a{color:var(--muted)}
 .vnm-list{font-size:.8rem;margin-top:.35rem}
 .vnm-list summary{cursor:pointer;color:var(--muted)}
