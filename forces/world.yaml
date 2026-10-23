@@ -4,10 +4,13 @@
 # reprinted its table of personnel from the 1967 edition (the Military Balance, 1966-1967) on, and Jane's *Fighting
 # Ships*' count of ships from the 1968 on, the Abstract's figures as printed, its countries regrouped by alliance and
 # region ("(Z)" its "less than 500"); the Arms Control and Disarmament Agency's first world table (1966, published
-# Dec. 1968), DTIC's copy. Compiled since, apart: the Correlates of War Project's military personnel, every year, and
-# the Federation of American Scientists' warheads. Not reached: the Abstract's editions of 1966 and before (the
-# Census Bureau refuses the file), NATO's archives and its Annual Review tables, the allies' white papers, the
-# Parallel History Project (notes/leads.md, Foreign).
+# Dec. 1968), DTIC's copy; SIPRI's first yearbook (1969), the NATO and Warsaw Pact countries' military spending a year,
+# 1960-68, at 1960 prices, its sources for NATO including NATO's own published figures (a figure in brackets, as printed, is
+# its rough estimate and counts in the sums). Compiled since, apart: the Correlates of War Project's military
+# personnel, every year, and the Federation of American Scientists' warheads. Not reached: NATO's archives and its
+# Annual Review tables (archives.nato.int: a browser check, Oct. 23, 2026), the *NATO Letter* and NATO's press releases
+# of the figures, the allies' white papers, the Parallel History Project (notes/leads.md, Foreign). The Abstract's 1966
+# edition (census.gov, open Oct. 23, 2026) prints no table of the world's forces in its international section.
 
 sources:
   sa67-1266:
@@ -29,6 +32,10 @@ sources:
     cite: 'U.S. Arms Control and Disarmament Agency, *World Military Expenditures and Related Data, Calendar Year 1966, and Summary Trends, 1962-1967* (Dec. 1968), table I, pp. 9-11'
     url: https://archive.org/details/DTIC_AD0682053
     note: The first of ACDA's annual reports; DTIC AD0682053
+  sipri-6869:
+    cite: 'Stockholm International Peace Research Institute, *SIPRI Yearbook of World Armaments and Disarmament 1968/69* (1969), tables 1A.2 (NATO), pp. 200-201, and 1A.4a (Warsaw Pact, official exchange rates), pp. 202-203'
+    url: https://www.sipri.org/sites/default/files/SIPRI%20Yearbook%201968%E2%80%9369.pdf#page=202
+    note: SIPRI's first yearbook; the institute gives it free on its site
   cow:
     cite: 'Correlates of War Project, *National Material Capabilities*, v7, military personnel (milper, thousands), NMC-70-abridged.csv'
     url: https://correlatesofwar.org/data-sets/national-material-capabilities/
@@ -209,6 +216,63 @@ tables:
       1966:
         spend: {src: acda-1966, us: 63283, canada: 1600, belgium: 530, denmark: 310, france: 5300, west-germany: 4950, greece: 240, iceland: 0, italy: 2125, luxembourg: 10, netherlands: 775, norway: 260, portugal: 240, turkey: 445, uk: 6150, nato-europe: 21335, bulgaria: 210E, czechoslovakia: 1400, east-germany: 1100, hungary: 300, poland: 1750, romania: 530, ussr: 47000, warsaw: 52290, albania: 70E, austria: 135, finland: 141, spain: 753, sweden: 924, switzerland: 388, yugoslavia: 406, iran: 328, iraq: 207, israel: 400, jordan: 61, saudi-arabia: 202, syria: 97, uar: 461, algeria: 99E, china: '6,500E', taiwan: 350, north-korea: 225E, south-korea: 150, north-vietnam: 300E, south-vietnam: 302, laos: 35, cambodia: 54, thailand: 97, burma: 113, malaysia: 121, indonesia: 165, philippines: 84, japan: 933, mongolia: 25E, india: 1400, pakistan: 483, cuba: 250E, as: {west-germany: 'Germany, West', south-vietnam: 'Vietnam, Republic of', taiwan: 'China, Republic of', china: 'China, Mainland'}}
         men: {src: acda-1966, us: 3094, canada: 107, belgium: 107, denmark: 45, france: 523, west-germany: 450, greece: 159, iceland: 0, italy: 376, luxembourg: 3, netherlands: 130, norway: 34, portugal: 162, turkey: 440, uk: 424, nato-europe: 2853, bulgaria: 156, czechoslovakia: 220, east-germany: 122, hungary: 109, poland: 280, romania: 201, ussr: 3165, warsaw: 4253, albania: 38, austria: 40, finland: 43, spain: 291, sweden: 70, switzerland: 25, yugoslavia: 264, iran: 180, iraq: 79, israel: 71, jordan: 40, saudi-arabia: 30, syria: 60, uar: 190, algeria: 60, china: 2500, taiwan: 544, north-korea: 368, south-korea: 572, north-vietnam: 350, south-vietnam: 565, laos: 60, cambodia: 30, thailand: 132, burma: 110, malaysia: 30, indonesia: 350, philippines: 42, japan: 246, mongolia: 30, india: 1000, pakistan: 279, cuba: 121}
+
+  - key: sipri
+    title: Military spending, NATO and the Warsaw Pact, as SIPRI's first yearbook counted them
+    asof: calendar year
+    unit: count
+    note: 'Millions of U.S. dollars at 1960 prices and 1960 official exchange rates, published 1969. Expenditure, research and development included, war pensions excluded. For the NATO countries the yearbook names among its sources NATO''s own published figures (the *NATO Letter*, Jan. 1963; NATO press releases M4(67)2, Dec. 13, 1967, and M1(69)1, Jan. 16, 1969), and sent its series to the governments for comment. Bracketed figures are its rough estimates.'
+    rows:
+      - {key: us, label: United States}
+      - {key: canada, label: Canada}
+      - {key: h-nato, label: 'NATO, Europe', group: true}
+      - {key: belgium, label: Belgium, indent: 1}
+      - {key: denmark, label: Denmark, indent: 1}
+      - {key: france, label: France, indent: 1}
+      - {key: west-germany, label: West Germany, indent: 1}
+      - {key: greece, label: Greece, indent: 1}
+      - {key: italy, label: Italy, indent: 1}
+      - {key: luxembourg, label: Luxembourg, indent: 1}
+      - {key: netherlands, label: Netherlands, indent: 1}
+      - {key: norway, label: Norway, indent: 1}
+      - {key: portugal, label: Portugal, indent: 1}
+      - {key: turkey, label: Turkey, indent: 1}
+      - {key: uk, label: United Kingdom, indent: 1}
+      - {key: nato-europe, label: 'NATO, Europe', sum: [belgium, denmark, france, west-germany, greece, italy, luxembourg, netherlands, norway, portugal, turkey, uk]}
+      - {key: nato-ex-us, label: 'NATO, less the United States', sum: [canada, nato-europe]}
+      - {key: nato, label: NATO, sum: [us, nato-ex-us]}
+      - {key: h-warsaw, label: Warsaw Pact, group: true}
+      - {key: ussr, label: Soviet Union, indent: 1}
+      - {key: albania, label: Albania, indent: 1}
+      - {key: bulgaria, label: Bulgaria, indent: 1}
+      - {key: czechoslovakia, label: Czechoslovakia, indent: 1}
+      - {key: east-germany, label: East Germany, indent: 1}
+      - {key: hungary, label: Hungary, indent: 1}
+      - {key: poland, label: Poland, indent: 1}
+      - {key: romania, label: Romania, indent: 1}
+      - {key: warsaw-ex-ussr, label: 'Warsaw Pact, less the Soviet Union', sum: [albania, bulgaria, czechoslovakia, east-germany, hungary, poland, romania]}
+      - {key: warsaw, label: Warsaw Pact, sum: [ussr, warsaw-ex-ussr]}
+    cols:
+      - {key: spend, head: 'Spending, $m (1960 prices)'}
+    years:
+      1960:
+        spend: {src: sipri-6869, us: 45380, canada: 1660, belgium: 386, denmark: 161, france: 3908, west-germany: 2905, greece: 170, italy: 1144, luxembourg: 5, netherlands: 458, norway: 148, portugal: 105, turkey: 266, uk: 4639, nato-europe: 14295, nato-ex-us: 15955, nato: 61335, ussr: 10333, albania: '[55]', bulgaria: 153, czechoslovakia: 1222, east-germany: '[976]', hungary: '[260]', poland: 3725, romania: '[600]', warsaw-ex-ussr: 6991, warsaw: 17324}
+      1961:
+        spend: {src: sipri-6869, us: 47335, canada: 1708, belgium: 391, denmark: 164, france: 3876, west-germany: 3082, greece: 165, italy: 1182, luxembourg: 6, netherlands: 534, norway: 161, portugal: 168, turkey: 289, uk: 4628, nato-europe: 14646, nato-ex-us: 16354, nato: 63689, ussr: 12889, albania: '[55]', bulgaria: 184, czechoslovakia: 1327, east-germany: '[1104]', hungary: 303, poland: 4225, romania: '[625]', warsaw-ex-ussr: 7823, warsaw: 20712}
+      1962:
+        spend: {src: sipri-6869, us: 51203, canada: 1778, belgium: 415, denmark: 200, france: 4182, west-germany: 3894, greece: 168, italy: 1298, luxembourg: 7, netherlands: 569, norway: 178, portugal: 191, turkey: 306, uk: 4712, nato-europe: 16120, nato-ex-us: 17898, nato: 69101, ussr: 14111, albania: '[55]', bulgaria: 213, czechoslovakia: 1507, east-germany: 1233, hungary: 420, poland: 4462, romania: 650, warsaw-ex-ussr: 8540, warsaw: 22651}
+      1963:
+        spend: {src: sipri-6869, us: 50527, canada: 1653, belgium: 427, denmark: 203, france: 4110, west-germany: 4371, greece: 172, italy: 1447, luxembourg: 7, netherlands: 575, norway: 185, portugal: 187, turkey: 303, uk: 4768, nato-europe: 16755, nato-ex-us: 18408, nato: 68935, ussr: 15444, albania: '[55]', bulgaria: 217, czechoslovakia: 1552, east-germany: 1234, hungary: 514, poland: 4976, romania: 683, warsaw-ex-ussr: 9231, warsaw: 24675}
+      1964:
+        spend: {src: sipri-6869, us: 48618, canada: 1720, belgium: 459, denmark: 209, france: 4225, west-germany: 4193, greece: 179, italy: 1482, luxembourg: 9, netherlands: 626, norway: 188, portugal: 204, turkey: 323, uk: 4935, nato-europe: 17032, nato-ex-us: 18752, nato: 67573, ussr: 14778, albania: 56, bulgaria: 208, czechoslovakia: 1490, east-germany: 1236, hungary: 507, poland: 5204, romania: 685, warsaw-ex-ussr: 9386, warsaw: 24164, printed: {nato: 'As printed; the rows add to 67,370. The United States'' 1964 figure here repeats 1965''s (48,618); the yearbook''s world table (1A.1, p. 201) prints 48,821, which makes the total.'}}
+      1965:
+        spend: {src: sipri-6869, us: 48618, canada: 1536, belgium: 444, denmark: 220, france: 4293, west-germany: 4131, greece: 193, italy: 1537, luxembourg: 9, netherlands: 610, norway: 217, portugal: 204, turkey: 343, uk: 4925, nato-europe: 17126, nato-ex-us: 18662, nato: 67280, ussr: 14222, albania: 58, bulgaria: 186, czechoslovakia: 1393, east-germany: 1252, hungary: 409, poland: 5561, romania: 757, warsaw-ex-ussr: 9616, warsaw: 23838}
+      1966:
+        spend: {src: sipri-6869, us: 57951, canada: 1576, belgium: 448, denmark: 217, france: 4415, west-germany: 4057, greece: 210, italy: 1662, luxembourg: 9, netherlands: 594, norway: 216, portugal: 214, turkey: 332, uk: 4875, nato-europe: 17249, nato-ex-us: 18825, nato: 76776, ussr: 14889, albania: 54, bulgaria: 193, czechoslovakia: 1468, east-germany: 1477, hungary: 407, poland: 5860, romania: 800, warsaw-ex-ussr: 10259, warsaw: 25148}
+      1967:
+        spend: {src: sipri-6869, us: 66889, canada: 1695, belgium: 471, denmark: 218, france: 4615, west-germany: 4225, greece: 270, italy: 1623, luxembourg: 7, netherlands: 660, norway: 223, portugal: 263, turkey: 333, uk: 5080, nato-europe: 18024, nato-ex-us: 19719, nato: 86608, ussr: 16111, albania: 54, bulgaria: 213, czechoslovakia: 1643, east-germany: 1611, hungary: 434, poland: 6083, romania: 833, warsaw-ex-ussr: 10871, warsaw: 26982, printed: {nato-europe: 'As printed; the countries add to 17,988.', nato-ex-us: 'As printed; Canada and Europe add to 19,683.', nato: 'As printed; the rows add to 86,572.'}}
+      1968:
+        spend: {src: sipri-6869, us: 68213, canada: 1612, belgium: 498, denmark: 230, france: 4698, west-germany: 3968, greece: 317, italy: 1647, luxembourg: 6, netherlands: 660, norway: 244, portugal: 271, turkey: 363, uk: 5028, nato-europe: 17930, nato-ex-us: 19542, nato: 87755, ussr: 18556, albania: 61, bulgaria: 213, czechoslovakia: 1740, east-germany: 2595, hungary: 512, poland: 6614, romania: 865, warsaw-ex-ussr: 12600, warsaw: 31156}
 
   - key: cow
     title: Men under arms, the world, as compiled since

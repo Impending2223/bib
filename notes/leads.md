@@ -334,13 +334,13 @@ reports them (`notes/calendar-audit.md`).
 
 ## National
 
-- The conventions (`elections/conventions.yaml`, `cal.1968-08-05.elections-1968`): how and when each Republican delegation of 1968 was chosen is Wikipedia's table ("1968 Republican primaries and state conventions"), each row from a newspaper; read it against the Senate Library's *Nomination and Election of the President and Vice President ... Including the Manner of Selecting Delegates* (Jan. 1968; archive.org `nominationelecti0000na`, borrow only; not on govinfo; HathiTrust not reached, its pages bot-checked). Open questions there: whether each primary bound its delegates; Alabama (CQ Guide 6th (2010) 409 says a delegate-selection primary was held; the table gives conventions); New York's ten at large; Michigan's and Texas's district delegates (the table gives the State convention alone); Puerto Rico and the Virgin Islands (not in the table); the table's own doubts (Tennessee's 9th district, Mar. 28; Louisiana's 1st and 2nd, May 30). Its delegate counts disagree with the Call in places (Florida 36, the Call 34) and were not taken.
-- The other conventions (`elections/conventions.yaml`): Republican 1964 (San Francisco: the Scott civil rights and extremism amendments' roll calls; *Twenty-eighth Republican National Convention*, archive.org `twentyeighthrepu0000unse`, borrow, may be the program); Democratic 1964 (Atlantic City: the Mississippi and Alabama seatings; *Official Report of the Proceedings of the Democratic National Convention and Committee*, `officialreportof0000chai`, borrow, 942 pp.); Democratic 1968 (Chicago: the unit rule, the Georgia, Mississippi, Texas, Alabama and North Carolina seatings, the minority Vietnam plank, the first ballot by State; Proceedings not found online; Wikipedia gives only the totals, Humphrey 1,759.25; how chosen, the Hughes Commission's Table I, 114 Cong. Rec. 31549 (Oct. 14, 1968), now in the file; the Call's apportionment not found); 1960 both (not found). Bain and Parris, *Convention Decisions and Voting Records* (2d ed. 1973; `conventiondecisi0000bain`, borrow; HathiTrust search-only) prints every roll call by State; CQ's *National Party Conventions, 1831-1972* (`nationalpartycon0000cong_n4e9`, borrow; HathiTrust search-only) the apportionments. The Republican Proceedings run on archive.org's `sim_republican-national-convention-proceedings_*` from 1968 only.
+- The conventions (`elections/conventions.yaml`, `cal.1968-08-05.elections-1968`): how and when each Republican delegation of 1968 was chosen is Wikipedia's table ("1968 Republican primaries and state conventions"), each row from a newspaper; read it against the Senate Library's *Nomination and Election of the President and Vice President ... Including the Manner of Selecting Delegates* (Jan. 1968; archive.org `nominationelecti0000na`, borrow only; govinfo's Serial Set holds the 1988 and 1992 editions, not this one; HathiTrust bot-checked, 403 cloudflare, Oct. 23, 2026, twice). Open questions there: whether each primary bound its delegates; Alabama (CQ Guide 6th (2010) 409 says a delegate-selection primary was held; the table gives conventions); New York's ten at large; Michigan's and Texas's district delegates (the table gives the State convention alone); Puerto Rico and the Virgin Islands (not in the table); the table's own doubts (Tennessee's 9th district, Mar. 28; Louisiana's 1st and 2nd, May 30). Its delegate counts disagree with the Call in places (Florida 36, the Call 34) and were not taken.
+- The other conventions (`elections/conventions.yaml`): Republican 1964 (San Francisco: the Scott civil rights and extremism amendments' roll calls; *Twenty-eighth Republican National Convention*, archive.org `twentyeighthrepu0000unse`, borrow, may be the program); Democratic 1964 (Atlantic City: the Mississippi and Alabama seatings; *Official Report of the Proceedings of the Democratic National Convention and Committee*, `officialreportof0000chai`, borrow, 942 pp.); Democratic 1968 (Chicago: the unit rule, the Georgia, Mississippi, Texas, Alabama and North Carolina seatings, the minority Vietnam plank, the first ballot by State; Proceedings not found online, archive.org searched again Oct. 23, 2026; Wikipedia gives only the totals, Humphrey 1,759.25; how chosen, the Hughes Commission's Table I, 114 Cong. Rec. 31549 (Oct. 14, 1968), now in the file; the Call's apportionment not found); 1960 both (not found). Bain and Parris, *Convention Decisions and Voting Records* (2d ed. 1973; `conventiondecisi0000bain`, borrow; HathiTrust search-only) prints every roll call by State; CQ's *National Party Conventions, 1831-1972* (`nationalpartycon0000cong_n4e9`, borrow; HathiTrust search-only) the apportionments. The Republican Proceedings run on archive.org's `sim_republican-national-convention-proceedings_*` from 1968 only.
 - The Republican roll calls of 1968 in the Names: each delegation's vote is not yet a row in the candidates' records (as `primary_rows` does for the primaries).
 
 - Senate Finance's hearings on the tax bill, Oct. 15, 1963: the date not verified. The hearings on H.R. 8363 (govinfo).
 - The rail arbitration board's award, Nov. 26, 1963: not entered.
-- Reynolds's closed testimony to the Rules Committee's staff, Nov. 22, 1963, and its release (dated Jan. 9, 1964) (`cal.1963-11-22.baker`, `cal.1964-01-23.baker`). *Construction of the District of Columbia Stadium and Matters Related Thereto*.
+- Reynolds's session with the Rules Committee's staff, Nov. 22, 1963 (`cal.1963-11-22.baker`): not in the printed hearings, whose pt. 1 opens with his executive testimony of Jan. 9 and 17, 1964, "released to the public January 21, 1964" (*Financial or Business Interests of Officers or Employees of the Senate*, govinfo CHRG-88shrg27211p1, p. II; `cal.1964-01-21.baker` in the patch reopen-national, Oct. 23, 2026). The Rules Committee's hearings, 27 parts, and *Construction of the District of Columbia Stadium* (Oct.–Dec. 1964, 13 parts) are all on govinfo (CHRG-88shrg27211, -88shrg35326, -88shrg38408, -89shrg38408, -88shrg47380).
 - Senate Finance's vote on the tax bill, Jan. 1964: not found; the entry gives only Long's report of Jan. 28 (`cal.1964-02-07.economy`).
 - Baker takes the Fifth before the Rules Committee, 1964: the date not verified.
 - Myer Feldman's research on Goldwater, 1964 (the "Five O'Clock Club"): no reliable source for the name.
@@ -359,7 +359,11 @@ reports them (`notes/calendar-audit.md`).
 - Johnson's Freedom House speech, Feb. 23, 1966: not written. APP.
 - The "Crisis and Commitment" statement of Wilkins, Randolph and others, Oct. 1966: no verified source.
 - The General Electric strike and the Taft-Hartley injunction, Oct. 2–18, 1966: no verified source.
-- Johnson's call to Mills, Nov. 12, 1966: its content behind PRDE's subscription; look for a Miller Center copy.
+- Johnson's call to Mills, Nov. 12, 1966: its content behind PRDE's subscription. The Miller Center gives it free
+  (`daybook/recordings/millercenter.yaml`: 9:21 a.m., tape WH6611.04, citations 11035–11037), but millercenter.org
+  fails TLS verification from here (a self-signed certificate in the chain; Oct. 23, 2026, 00:2x and 00:56 UTC), so
+  the recording is not heard. No entry written. Listen in a browser; Johnson's Daily Diary for the day is not in the
+  National Archives Catalog's selection (see the Diary lead below).
 - Moyers's resignation, Dec. 1966: the date not verified.
 - A change in the Federal Reserve's policy, late Dec. 1966: not verified. FOMC minutes; *Federal Reserve Bulletin*.
 - The Southern Governors' Conference on civil rights; the Democratic governors' other meetings with Johnson; the National League of Cities' policy acts: no entries.
@@ -369,8 +373,8 @@ reports them (`notes/calendar-audit.md`).
 - Revenue sharing set aside, Dec. 1964: rests on the *Ripon Forum* (`cal.1965-08-02.state-and-city-finance-us`).
 - Applications for an Article V convention: the counts are the Article V Library's; each Record cite to be read (`cal.1963-12.states-and-cities-us`, `cal.1966-12.court-us`).
 - The legislatures' seats after each election, 1960–66: from Klarner's data, not the *Book of the States* (the `legislatures-us` entries); Minnesota coded by caucus, Nebraska left out.
-- The States' Medicaid laws, 1966–67: no dates verified (the SSA *Bulletin* unreachable).
-- The House Judiciary subcommittee's and the Senate Judiciary Committee's hearings on the civil rights bill, 1963: titles and links not confirmed (govinfo's search rate-limited).
+- The States' Medicaid laws, 1966–67: no dates verified. The *Social Security Bulletin* of those years: ssa.gov refuses this environment (403, "Access Denied", Oct. 23, 2026, twice); archive.org's run (`sim_social-security-bulletin_YYYY-MM_*`, open) stops at Dec. 1961; not on govinfo; FRASER's title not found.
+- The House Judiciary subcommittee's and the Senate Judiciary Committee's hearings on the civil rights bill, 1963: titles and links not confirmed. govinfo's search answers again by its web backend (`www.govinfo.gov/wssearch/search`, POST; the API's DEMO_KEY is spent, Oct. 23, 2026) and finds no 1963 Judiciary hearing on the bill (Senate Commerce's on S. 1732 only). archive.org `1963-civil-rights-hearings` is House Judiciary's *Civil Rights*, pt. 4 (Oct. 15–16, 1963), open, not read; parts 1–3 and Senate Judiciary's on S. 1731 not found.
 - Ackerman and Nou's article on the poll tax (2009): not found on Crossref.
 - Chapter numbers in Branch, Garrow and Eskew for the civil rights entries of 1963: tables of contents not reached.
 - Fiscal 1964 estimates of the Jan. 1963 *Economic Report* (Tables C-56, C-58): not in `indicators/administrative-budget.yaml` or `cash-budget.yaml`, so FY1964 shows one estimate.
@@ -381,19 +385,19 @@ reports them (`notes/calendar-audit.md`).
 - The fear in 1968 of a deadlock thrown into the House by Wallace's electors; statements and proposals on it (candidates', members' pledges). No source read.
 - The day Bayh turned from the administration's plan to direct election (late 1966?). Unsourced.
 - House Judiciary's hearings on presidential disability, February 1965: the days. The Record shows only the month.
-- Bayh's 1965 hearing on S.J. Res. 1, and the first day of his 1965 apportionment hearings (the Record gives only Apr. 27–29); Senate Judiciary's handling of S.J. Res. 2 before Aug. 4, 1965.
+- The first day of Bayh's 1965 apportionment hearings (the Record gives only Apr. 27–29); Senate Judiciary's handling of S.J. Res. 2 before Aug. 4, 1965.
 - The House's 1962 poll tax hearings: Robert Kennedy appeared Mar. 15, 1962; what he said.
 - The American Bar Association's conference on presidential disability (1964): the days.
 - Mississippi's unpledged-elector law of 1963: its text, its date of enactment.
 - The House's vote on the poll tax amendment, Aug. 27, 1962: 294–86 as written, 295 yeas on Voteview (`cal.1962-08-27.voting-rights`). The bound Record.
 - A Gallup question on a school prayer amendment, 1962–68: not found.
-- Printed hearings without a copy found online: *Four-Year Term for Representatives* (Senate, 1966; Y 4.J 89/2:R 29/4); the Senate's prayer hearings of 1962 and 1966; the House's of 1964 (Becker); Bayh's disability hearings of 1964; Kefauver's of 1961; Ervin's convention bill, 1967. Katzenbach's page in *Congressional Tenure of Office* (HathiTrust, bot-checked from here).
+- Printed hearings without a copy found online (govinfo's CHRG and archive.org searched by title, Oct. 23, 2026; HathiTrust bot-checked): *Four-Year Term for Representatives* (Senate, 1966; Y 4.J 89/2:R 29/4); the Senate's prayer hearings of 1962 and 1966; the House's of 1964 (Becker); Bayh's disability hearings of 1964; Kefauver's of 1961; Ervin's convention bill, 1967. On govinfo now: *Congressional Tenure of Office* (CHRG-89hhrg60990; Katzenbach, p. 179, linked in the patch reopen-national), *Presidential Inability* (Senate, June 11 and 18, 1963, CHRG-88shrg20328O), *Presidential Inability and Vacancies in the Office of Vice President* (Senate, Jan. 29, 1965, CHRG-89shrg42688: `cal.1965-01-29.succession` in the patch), and the staff study *Proposed Amendments to the Constitution Relating to School Prayers* (House Judiciary, 1964, CPRT-88HPRT30528O).
 
 ### Left out of 1968 as minor, or not placed (the drafting agents, Oct. 17–18, 2026)
 
-- Jan.–Feb.: Wilson in Washington, Feb. 7–9; Jean Rey's visit; the Tlatelolco statement; Apollo 5; the *Enterprise* protests at Sasebo; *Epton v. New York*. Primary records not found for Robert Kennedy's Chicago speech (JFK Library refuses scripts), Orangeburg, Wallace's and Nixon's announcements, Romney's withdrawal, the Memphis strike, Cronkite's broadcast.
+- Jan.–Feb.: Wilson in Washington, Feb. 7–9; Jean Rey's visit; the Tlatelolco statement; Apollo 5; the *Enterprise* protests at Sasebo; *Epton v. New York*. Primary records not found for Robert Kennedy's Chicago speech (the JFK Library refuses this environment, 403, Oct. 23, 2026; no other open copy found), Orangeburg, Wallace's and Nixon's announcements, Romney's withdrawal, the Memphis strike, Cronkite's broadcast.
 - May–June: Columbia's second occupation; the state visits (Thanom, Bourguiba, Gorton, Trejos, the Shah); Hayden's retirement; the Uniform Monday Holiday Act; Wheeler's reappointment.
-- July–Aug.: the postal commission's report (July 16); the elective governors of the Virgin Islands and Guam; the cotton pocket veto; the Architectural Barriers Act; the Census report on Negroes (July 31). The Fortas hearings' printed volume (not found online).
+- July–Aug.: the postal commission's report (July 16); the elective governors of the Virgin Islands and Guam; the cotton pocket veto; the Architectural Barriers Act; the Census report on Negroes (July 31). The Fortas hearings' printed volume (not on govinfo or archive.org by title, Oct. 23, 2026).
 - Nov.–Jan. 1969: Nixon's White House staff appointments; Moynihan; Yost; Hickel's hearings; the Douglas Commission's report; Palach.
 - Gallup's releases of Jan. 1–20, 1969: the 1969 pages of *The Gallup Poll* not yet read.
 
@@ -442,7 +446,7 @@ document was found. Each under the entry it concerns; `./bib find -t check -l ca
 
 - Appropriations (the bills agent, Oct. 22, 2026): each session's table is now in, read from the tables printed in the
   bound Record (`congress/appropriations.yaml`). Still to do: the Senate's *Appropriations, Budget Estimates, Etc.* for
-  the 1960s, not found open (archive.org holds only the 1980s' editions; HathiTrust not tried), would give the House
+  the 1960s, not found open (govinfo's Serial Set holds the editions of the 70th–82d Congresses and from the 91st's second session, SERIALSET-12888_02, none of 1959–69; archive.org only the 1980s'; HathiTrust bot-checked, Oct. 23, 2026), would give the House
   and Senate columns and the supplementals of every session alike; 88th, 2d sess. (1964): the Record's summary prints
   no estimates (the full table, 110 Cong. Rec. 24054–24055, does, bill by bill, its OCR poor); 89th, 1st (1965): the
   table of Oct. 22, 1965, prints no bill numbers and no subtotal by fiscal year; 90th, 1st (1967): the table is as of
@@ -450,15 +454,17 @@ document was found. Each under the entry it concerns; `./bib find -t check -l ca
   "Appropriations, 90th Congress, 1st session" not found; look in the Record of Jan. 1968).
 - Fiscal 1968's first-reported actual on the administrative basis, by source and by function: not in the budget of
   January 1969 (unified only), nor in the Treasury's *Annual Report* for fiscal 1968 (archive.org, SecTreasAnnReport1968,
-  read Oct. 22, 2026: outlays on the unified basis, by agency, p. 6). Look in the *Treasury Bulletin*, Aug.–Sept. 1968
-  (FRASER, under maintenance Oct. 22, 2026: its files answered a maintenance page) (`budgets/budgets.yaml`, 1968
-  `actual: null`).
+  read Oct. 22, 2026: outlays on the unified basis, by agency, p. 6), nor in the *Treasury Bulletin* (FRASER, read
+  Oct. 23, 2026): its administrative budget tables, expenditures by function among them, run through the Jan. 1968
+  issue and stop (the cumulative contents, Feb. and Aug. 1968); from Feb. 1968 it reports the unified budget only. Left:
+  the Treasury's *Combined Statement of Receipts, Expenditures and Balances* for fiscal 1968, or the Annual Report's
+  statistical appendix (`budgets/budgets.yaml`, 1968 `actual: null`; its note still says the Bulletin is unread).
 - Fiscal 1967's expenditures by function, interest (13,524) and general government (2,708): read from the OCR text of
   the Treasury's *Annual Report*, 1967, p. 484, not the page image (the lines add to the printed total).
 - Debt limit: the Senate's tabling of Gore's depletion amendment to H.R. 12381, June 18, 1960 (Johnson's motion,
   39–26, RS0860354), left out as minor; the Senate's passage of H.R. 7677, June 28 or 29, 1961, without a roll call
   (the 1961 History of Bills prints p. 11624, which falls on June 28, but the debate it cites runs to 11651, June 29);
-  CRS's *The Debt Limit: History and Recent Increases* (Austin, RL31967) answers 403 from here.
+  CRS's *The Debt Limit: History and Recent Increases* (Austin, RL31967): crsreports.congress.gov 403 (cloudflare); read on everycrsreport.com (versions 2003–Nov. 2, 2015), Oct. 23, 2026: no account of the acts of 1960–68 one by one ("Since then, Congress has enacted 78 separate measures"; it points to OMB's Table 7.3, the table's source already). Settled.
 - Revenue effects not in Tempalski's OTA Working Paper 81: the Excise Tax Reduction Act of 1965 (cal.1965-06-21.economy),
   the investment credit's suspension (cal.1966-11-08.economy) and restoration (cal.1967-06-13.economy). The Treasury's
   estimates are in the next January's budgets (the receipts chapters) and the Treasury's Annual Reports.
@@ -505,15 +511,17 @@ printing, or not in at all (all on FRASER, open; not reached in the time):
   survey of ownership"): no series yet (`liquid-liabilities` has its cell in finance.py).
 - Unit labor costs and hourly compensation as first published (BLS's quarterly releases; *Monthly Labor Review*,
   "Current labor statistics"; the CEA's *Economic Indicators*, on FRASER): the rows carry today's figures only. BLS's
-  own download site refuses this environment (403).
+  own sites refuse this environment (403, AkamaiGHost, Oct. 23, 2026, twice).
 - The current account (BEA's BOPBCA, quarterly from 1960, on FRED): no contemporary figure read; left out.
 
 ### Oil (the oil agent, Oct. 21, 2026)
 
 - The Machiasport refinery fight, 1968 (Occidental's proposed foreign-trade-zone refinery at Machiasport, Me., and its
   import quota): not verified, no record read; the Federal Register's Foreign-Trade Zones Board notices of 1968 and the
-  Cabinet Task Force on Oil Import Control, *The Oil Import Question* (Feb. 1970), would date it. govinfo's search API
-  refused here (rate limit on the shared key).
+  Cabinet Task Force on Oil Import Control, *The Oil Import Question* (Feb. 1970), would date it. govinfo's search answers by its web backend (Oct. 23, 2026): "Machiasport", 1968–70, 245 hits,
+  the bound Record's days (House, Oct. 14, 1968; 1969 passim) and two Coastal Zone Information Center reports of 1970,
+  not read; on the oil import question it holds House Interior's print, *Report on the Oil Import Question*
+  (CPRT-91HPRT48467), not the Task Force's report.
 - The Foreign Petroleum Supply Committee's plan of action, June 1967: awaiting Interior, the Office of Emergency
   Planning and the Attorney General on June 24 (FRUS 1964–68, XXXIV, doc. 249); the day it was approved, or whether,
   not found. Vietor, *Energy Policy in America since 1945*, likely gives it.
@@ -521,7 +529,7 @@ printing, or not in at all (all on FRASER, open; not reached in the time):
   any amendment after Proclamation 3823 (Jan. 29, 1968) and before Jan. 20, 1969 not looked for (the Federal Register's
   list of CFR parts affected, title 3).
 - The Bureau of Mines' own *Monthly Petroleum Statement* (Mineral Industry Surveys), earlier than the Survey of Current
-  Business's figures now used as "first": no open copy found (archive.org none; HathiTrust's pages bot-checked).
+  Business's figures now used as "first": no open copy found (archive.org and govinfo none, searched again Oct. 23, 2026; HathiTrust 403, cloudflare).
   The API's annual *Proved Reserves* reports (each spring) likewise; the Yearbook's reprint stands in.
 - The Minerals Yearbook pages for reserves (oil-reserves rows): 1960, 1965–68 checked against the page images; 1961–64
   placed by the page headers in archive.org's OCR (II, 365, 382, 398, 391) Check.
@@ -536,14 +544,15 @@ printing, or not in at all (all on FRASER, open; not reached in the time):
   1962 prints "Commerce" often. The rename's date.
 - Russell, President pro tempore to Jan. 21, 1971 (the day he died and the 92nd convened): left out of the 92nd (see
   congress/committees-hand.yaml).
-- Subcommittees of the 89th-93rd Congresses: no open list found. The *Directory* prints none to Mar. 1971; from Dec.
-  3, 1971 it prints each subcommittee's chairman and ranking minority member, in two columns the OCR runs together
-  (not read). The *Congressional Staff Directory*'s 1965, 1967 and 1969 editions are not on archive.org (searched by
-  title and by Brownson); its 1971 edition is (`1971congressiona008514mbp`, the 92nd: not read). HathiTrust's
-  copies are bot-checked here. Other sources: the committees' own printed calendars (each lists its subcommittees),
+- Subcommittees of the 89th-91st and 93rd Congresses: no open list found. The 92nd's are in (Oct. 23, 2026): the
+  *Congressional Staff Directory*, 1971 (`1971congressiona008514mbp`, open), read by make_subcommittees.py's RULES
+  unchanged: 267 subcommittees, 2,641 places. The *Directory* prints none to Mar. 1971; from Dec. 3, 1971 it prints
+  each subcommittee's chairman and ranking minority member, in two columns the OCR runs together (not read). The
+  *Staff Directory*'s 1965, 1967 and 1969 editions are not on archive.org (searched again Oct. 23, 2026, by title, by
+  Brownson, by date). HathiTrust's copies are bot-checked here (403, cloudflare). Other sources: the committees' own printed calendars (each lists its subcommittees),
   and the Digest's reports of organizational meetings, which name some (House Post Office and Civil Service, Feb. 25,
   1965; House Banking and Currency, Mar. 16, 1965; Senate Government Operations, Jan. 24, 1967).
-- The subcommittees of the 87th and 88th (congress/subcommittees.yaml): 117 of 459 carry a Check (a printed count the
+- The subcommittees of the 87th, 88th and 92nd (congress/subcommittees.yaml): 117 of 459 carry a Check (the 92nd's, 74 of 267) (a printed count the
   names read do not make, a chairman's line not matched, a surname unread, a name not put right): read those leaves
   by eye (each row links its leaf). The ex officio members the Staff Directory marks by a footnote are not marked.
 - Select committees the first- and second-session *Directories* do not print: the Senate's Select Committee on
@@ -567,8 +576,9 @@ printing, or not in at all (all on FRASER, open; not reached in the time):
 - The Public Papers' text: misreadings no rule meets stand (names above all: "Ribicofi", "Pvanch"); the volumes' indexes
   and the Appendix A lists of White House releases are not read. A spell pass against a name list (the series'
   persons) would mend many names.
-- The Miller Center's audio links in the feeds come from the earlier JSON:API pull, unchecked: millercenter.org gave no
-  answer from here and its audio host refused (403). Open a few in a browser.
+- The Miller Center's audio links in the feeds come from the earlier JSON:API pull, unchecked: millercenter.org fails TLS
+  verification through this environment's proxy (a self-signed certificate in the chain; Oct. 23, 2026, twice; not
+  bypassed) and its audio host refused (403). Open a few in a browser.
 - Recordings made at the LBJ Ranch are dated in Eastern time, not Central; FRUS images are not in the books.
 
 ### Committee hearings (the Daily Digest)
@@ -599,7 +609,7 @@ printing, or not in at all (all on FRASER, open; not reached in the time):
 - Entered: the subthreads "1964 Elections: State conventions" (ten Republican conventions, Feb. 29 to June 19) and "1968
   Elections: State conventions" (twelve Democratic, May 16 to July 13), from Wikipedia's tables ("1964 Republican Party
   presidential primaries," "1968 Democratic Party presidential primaries"), each row from a paper of the day. The papers
-  (newspapers.com) and the *Times* (TimesMachine, 503 from here) not read: each entry's Check. The table is loose in
+  (newspapers.com) and the *Times* (TimesMachine: 403, envoy, Oct. 23, 2026, a subscriber's login) not read: each entry's Check. The table is loose in
   places (headline dates of 1972 for 1968; Minnesota 13½ chosen, Humphrey 14; Missouri's Times cite dated May 17).
 - 1960: no State convention entered. Kennedy's and Johnson's delegations (Texas, Michigan, Pennsylvania, Illinois, New
   York, Missouri, Iowa, Kansas, Colorado …): no open source found; Wikipedia has no table for 1960. CQ Weekly Report 18
@@ -628,20 +638,20 @@ printing, or not in at all (all on FRASER, open; not reached in the time):
 
 ### Primary records, Cal. II (the Cal. II audit agent, Oct. 22, 2026)
 
-- Robert Kennedy's sessions with John Bartlow Martin, Apr. 13, Apr. 30 and May 14, 1964 (`cal.1964-04-13.robert-kennedy`, `cal.1964-04-30.robert-kennedy`, `cal.1964-05-14.robert-kennedy`): which of JFKOH-RFK-02 to -04 on which day, and the link. The Kennedy Library's oral history pages refuse this environment (403).
-- King and Johnson at the White House, Dec. 18, 1964, and King with Humphrey, Katzenbach and Johnson, Feb. 9, 1965 (`cal.1964-12-18.king`, `cal.1965-02-09.voting-rights`): no Public Papers item, no recording catalogued. The President's Daily Diary (LBJ Library; discoverlbj.org refuses here, 403).
-- McNamara's Directive 5120.36, July 26, 1963 (`cal.1963-07-26.civil-rights-the-executive`): not found open. DoD's directives; MacGregor, ch. 22, cites it.
+- Robert Kennedy's sessions with John Bartlow Martin, Apr. 13, Apr. 30 and May 14, 1964 (`cal.1964-04-13.robert-kennedy`, `cal.1964-04-30.robert-kennedy`, `cal.1964-05-14.robert-kennedy`): which of JFKOH-RFK-02 to -04 on which day, and the link. The Kennedy Library refuses this environment (Cloudflare, 403; retried Oct. 23, 2026, 00:2x and 00:56 UTC). Elsewhere: archive.org has no copy of the transcripts (searched "JFKOH-RFK", identifier `jfkoh*`: one other interview only, `jfkoh-jajr-01-tr`); its four copies of Guthman and Shulman, *Robert Kennedy in His Own Words* (1988; `robertkennedyinh00kenn`, `robertkennedyinh0000kenn`, `robertkennedyinh0000robe`, `bwb_S0-EGG-499`) are borrow-only; the Wayback Machine is refused by this environment's egress policy; the National Archives Catalog's search stopped answering JSON here mid-session. A person in a browser: jfklibrary.org, JFKOH-RFK-02 to -04, each transcript's first page gives its date.
+- King and Johnson at the White House, Dec. 18, 1964, and King with Humphrey, Katzenbach and Johnson, Feb. 9, 1965 (`cal.1964-12-18.king`, `cal.1965-02-09.voting-rights`): no Public Papers item, no recording catalogued. The President's Daily Diary: discoverlbj.org (the day's item, `https://www.discoverlbj.org/item/pdd-19641218`, `pdd-19650209`, the address form Wikipedia's citations give) refuses this environment (Cloudflare block page, 403, Oct. 23, 2026, 00:2x and 00:56 UTC) and its robots.txt bars ClaudeBot, anthropic-ai and Claude-Web by name; the National Archives Catalog holds 50 of the Diary's days, neither of these (`daybook/diary.yaml`); archive.org has no copy. A person in a browser.
+
+- The President's Daily Diary (Johnson's), the rest of it (Oct. 23, 2026): the 50 days the National Archives Catalog gives (`daybook/diary.yaml`, `tools/daybook/make_daily_diary.py`) are read against the calendar (`notes/diary-discrepancies.md`); every other day of Nov. 22, 1963–Jan. 20, 1969 is on discoverlbj.org only (`item/pdd-YYYYMMDD`; refused here, robots.txt bars Anthropic's agents). 1,154 calendar entries of the span are tagged `name:johnson-lyndon-b`; those recording a meeting, call, visit, signing, address or trip want the Diary's day cited and checked, in date order, from Nov. 22, 1963 (the Catalog's days done). The Catalog's "Appointment Files [Diary Backup]" (naId 1756089, 1,893 file units) are scanned for 8 days only. Also from the Diary: the Johnson–Ramsey Clark tape, Jan. 20 or 21, 1967 (`cal.1967-01-20.soviet-union`; FRUS gives Jan. 20, the Miller Center Jan. 21 for citation 11383).
+- McNamara's Directive 5120.36, July 26, 1963 (`cal.1963-07-26.civil-rights-the-executive`): the text not found open (esd.whs.mil 403, AkamaiGHost, Oct. 23, 2026, twice; archive.org and govinfo none). MacGregor quotes part of it, p. 548 (CMH's text on archive.org, `cmhPub-50-1-1-nsia`), now cited with its title in the patch reopen-national.
 - The copper producers back to 36 cents, Nov. 19, 1965 (`cal.1965-11-19.economy`): the record found is the day before's, Memorandum Approving the Release of Copper From the National Stockpile, 1965 Pub. Papers 1119 (Nov. 18, 1965); the producers' price notices not.
 - The State Department's statement on Saudi visas and the air unit, June 29, 1963 (`cal.1963-06-29.middle-east-yemen`): not in the *Bulletin*'s index for 1963. The Department's press releases.
 - The Alpha 66 attack on the *Lvov* (`cal.1963-03-17.cuba`): the Department's statement of Mar. 19 and FRUS put it the night of Mar. 18; the entry is dated Mar. 17 (Check there).
 
 ### The audit of Cal. I, 1960–62 (Oct. 22, 2026)
 
-- Discount rate cut at Philadelphia and San Francisco (`cal.1960-06-02.economy`): the *Federal Reserve Bulletin*, July 1960, p. 756 (the indicators' DISCOUNT source); FRASER was down for maintenance when read.
-- Black's order as circuit justice vacating Cameron's stays, Sept. 10, 1962 (`cal.1962-09-10.mississippi`): the report of the order in the Supreme Court Reporter (Check the cite); case.law holds no S. Ct. volume of 1962, and CourtListener's search was throttled.
-- Elliott's injunction against the Albany marches, July 20, 1962, and Tuttle's order vacating it, July 24 (`cal.1962-07-20.albany`, `cal.1962-07-24.georgia-albany`): the orders' record (F. Supp., F.2d, or the court files at the National Archives, Atlanta).
-- The Stennis subcommittee's hearings, 1962 (`cal.1962-01-23.right-and-the-military`): an open copy of *Military Cold War Education and Speech Review Policies* (archive.org, HathiTrust).
-- Flemming's ruling on Louisiana's suitable-home law, Jan. 16, 1961 (`cal.1961-01-16.welfare-la`): HEW's decision as printed (the Federal Register, or the Social Security Bulletin).
+- Black's order as circuit justice vacating Cameron's stays, Sept. 10, 1962 (`cal.1962-09-10.mississippi`): the report of the order in the Supreme Court Reporter (Check the cite). Oct. 23, 2026: case.law's S. Ct. runs 2013–20 only (its ReportersMetadata); the Fifth Circuit's Meredith v. Fair opinions of 1962 there (305 F.2d 341, 343; 306 F.2d 374; 313 F.2d 532, 534) do not print it; CourtListener 429 (throttled), twice.
+- Elliott's injunction against the Albany marches, July 20, 1962, and Tuttle's order vacating it, July 24 (`cal.1962-07-20.albany`, `cal.1962-07-24.georgia-albany`): the orders' record (F. Supp., F.2d, or the court files at the National Archives, Atlanta). case.law's F.2d (305–313) and F. Supp. (200–213) of 1962 hold no Albany case by name (Oct. 23, 2026).
+- Flemming's ruling on Louisiana's suitable-home law, Jan. 16, 1961 (`cal.1961-01-16.welfare-la`): HEW's decision as printed (its State Letter; the Federal Register). The *Social Security Bulletin* (archive.org, open to 1961) gives only "in January 1961" (July 1961, p. 19) and Louisiana's August figure, 24,000 children (Dec. 1960, p. 1): both now cited in the patch reopen-national; the day is Wikipedia's.
 - Barnett's interposition proclamation, Sept. 13, 1962 (`cal.1962-09-13.mississippi-ole-miss`): the text as the State printed it (Miss. Senate or House Journal, 1962 special session).
 - Governors' and primaries' returns marked "Check" in Cal. I with no open copy in `sources/states.yaml` for 1960–62: La. (1960 runoff and general), N.M. (1960, 1962), Kan. (1960, 1962), Wash. (1960 primary), Utah (1960 primary: vote.utah.gov's file "1960Pri.pdf" is the primary of Sept. 11, 1962, U.S. Senator, Representatives and attorney general only, no governor), Wyo. (1962), Wis. (1962 primary), Tenn. (1962 primary), Pa. (1962), Mich. (1960 Proposal 3), Tex. (1960–62 primaries, the 1961 Senate special). The entries say which.
 
@@ -649,19 +659,22 @@ printing, or not in at all (all on FRASER, open; not reached in the time):
 
 Searched in the Daily Digest (daybook/committees), the bound Record's days, the Public Papers and FRUS; not found:
 - Powell's select committee, Feb. 8 and 14, 1967 (`cal.1967-02-08.congress`, `cal.1967-02-14.congress-powell`): the
-  Digest prints no row for it; *In re Adam Clayton Powell*, the hearings, no open copy found. Clark's subcommittee at
+  Digest prints no row for it; *In re Adam Clayton Powell*, the hearings, no open copy found (not on govinfo or archive.org by title, Oct. 23, 2026). Clark's subcommittee at
   Jackson, Apr. 10, 1967 (`cal.1967-04-10.poverty`), and the Migratory Labor subcommittee at Delano, Mar. 16, 1966
-  (`cal.1966-03-16.jobs-and-wages-ca`): field hearings, not in the Digest; the printed hearings. Barr to the Joint
+  (`cal.1966-03-16.jobs-and-wages-ca`): field hearings, not in the Digest; the printed hearings (govinfo holds
+  *Examination of the War on Poverty*, 1967, by part, and the Migratory Labor subcommittee's of 1967, not that of 1966;
+  the Jackson part not identified). Barr to the Joint
   Economic Committee, Jan. 17, 1969 (`cal.1969-01-17.economy`): not in the Digest of the day. The Stennis
-  subcommittee's report, Aug. 31, 1967 (`cal.1967-08-31.vietnam-air-war`): the committee print.
+  subcommittee's report, Aug. 31, 1967 (`cal.1967-08-31.vietnam-air-war`): the committee print (govinfo holds the
+  hearings, *Air War Against North Vietnam*, pts. 1–5, CHRG-90shrg83802p1–p5; the report not found by title).
 - The draft: the National Security Council's advice to Hershey, Feb. 16, 1968 (`cal.1968-02-16.draft`), and Hershey's
   and Clark's statements of Dec. 9 and 11, 1967 (`cal.1967-12-09.draft`, `cal.1967-12-11.draft`): Selective Service's
   and Justice's releases. The signers of the House Democrats' statement of Dec. 13, 1967, now linked
   (`cal.1967-12-13.draft`): count them on the page.
 - Johnson's operations, Nov. 16, 1966 (`cal.1966-11-16.succession`): no Public Papers item; the White House's bulletins.
-- The Walker report, Dec. 1, 1968 (`cal.1968-12-01.civil-disorders`): archive.org's copies are lent only. The Kerner
+- The Walker report, Dec. 1, 1968 (`cal.1968-12-01.civil-disorders`): archive.org's copy is lent only (`rightsinconflict0000dani`; not on govinfo, Oct. 23, 2026). The Kerner
   report: the Bantam edition is open on archive.org (reportofnation00unit), now linked for the cities it profiles
-  (Tampa, Cincinnati, Atlanta, Newark, Plainfield, Detroit); GPO's edition not reached (ncjrs.gov answered 520). Buffalo
+  (Tampa, Cincinnati, Atlanta, Newark, Plainfield, Detroit); GPO's edition not reached (Oct. 23, 2026: ncjrs.gov 301s to ojp.gov, where the old PDF's path 404s, and the old host's PDF answers 520; archive.org's other copies are Bantam's or Dutton's, lent only; govinfo none). Buffalo
   and Milwaukee, 1967, it only lists (ch. 2).
 - The Daily Digest's days: `daybook/committees/1966-03.yaml` files the Senate rows of the Digest of Mar. 10, 1966 (D103–D104,
   Fairbank's among them) under Mar. 9, and `1966-02.yaml` Rusk's of Feb. 18 (D59) under Feb. 17: a day heading the OCR lost
@@ -769,6 +782,11 @@ Searched in the Daily Digest (daybook/committees), the bound Record's days, the 
 
 Events Gibbons treats that the calendar lacks, not entered: no record reached and linked. His page, then his source.
 
+- The Kennedy Library's papers (Mansfield's memoranda, the leaders' meetings below; Fulbright's memorandum, under the Bay of
+  Pigs and Cal. I): jfklibrary.org refuses this environment (Cloudflare, 403; Oct. 23, 2026, 00:2x and 00:56 UTC). No
+  other open copy found: FRUS 1961–63 (the daybook's FRUS rows for those days) prints none of them; archive.org holds
+  only stray items of the Library's (`jfknsf-328-003-p-0001`, NSAM 2; perma.cc captures of a few of its pages); the
+  Wayback Machine is refused by this environment's egress policy. A person in a browser.
 - 1961: Mansfield's memoranda on neutralizing Laos, Jan. 21 and 23 (II, 10; Kennedy Library); Kennedy and Johnson with
   the congressional leaders on Laos, Apr. 27 (II, 29); Fulbright on *Meet the Press*, Apr. 30, and after seeing
   Kennedy, May 4 (II, 30; the *Times*, May 5–6); Johnson's report to the Senate, May 25 (II, 46); Fulbright's
@@ -783,7 +801,8 @@ Events Gibbons treats that the calendar lacks, not entered: no record reached an
   Relations, unrecorded, Mar. 26 (II, 241); William Bundy's closed testimony and Morse's speech, May 13 (II, 249–250);
   Broomfield's resolution and Johnson with Dirksen and eight Republicans, May 21 (II, 264–265); the Capitol briefing of
   25 Senators, Aug. 3 (II, 287); the meeting in Mansfield's office on the resolution, Aug. 5 (II, 304–305); Taylor
-  before Foreign Relations, Sept. 10 and Dec. 3 (II, 312; III, 23); NSAM 308, June 22 (II, 274).
+  before Foreign Relations, Sept. 10 and Dec. 3 (II, 312; III, 23). (NSAM 308, June 22: entered from FRUS 1964–68, I,
+  doc. 219, by inbox patch `2026-10-23-lbj-library`, `cal.1964-06-22.vietnam`.)
 - 1965: Rusk before Foreign Relations, Jan. 8 and 15 (II, 399–400; III, 38–39); the Senate debate continued, Feb. 23,
   Mar. 1 and 4, and 27 Representatives' speeches, Feb. 24 (III, 133–139; Cong. Rec. 111, 3346, 3775 ff.); Javits's
   resolution, Mar. 25 (III, 209; Cong. Rec. 111, 5480); Rusk before Foreign Relations, no new authorization, Apr. 30
@@ -979,7 +998,7 @@ No document in the daybook's FRUS text, or item in the *Bulletin*'s index, names
 - East Germany's permits for West Germans entering East Berlin, Sept. 8, 1960 (`cal.1960-09-08.berlin-and-vienna`): the Department's statements of Sept. 3 and 9 (*Bulletin*, Sept. 26, 1960, 473–474) answer the decree of Aug. 30; the measure of Sept. 8 itself not found.
 - Cuba's nationalization of the remaining American businesses, Oct. 24, 1960 (`cal.1960-10-24.cuba`): the Department's note or statement; FRUS 1958–60, VI has none on the day.
 - Rusk and the Turkish Foreign Minister on the Jupiters, CENTO council, Ankara, Apr. 27–28, 1961 (`cal.1961-04-27.europe-and-the-alliance-jupiters`): FRUS 1961–63, XVI shows nothing by the text; the Secto telegrams.
-- Fulbright's memorandum to Kennedy, Mar. 30, 1961 (`cal.1961-03-30.cuba`): FRUS 1961–63, X mentions Fulbright only; the memorandum at the Kennedy Library (POF).
+- Fulbright's memorandum to Kennedy, Mar. 30, 1961 (`cal.1961-03-30.cuba`): FRUS 1961–63, X mentions Fulbright only; the memorandum at the Kennedy Library (POF), which refuses this environment (403, Oct. 23, 2026); no other open copy found (see Foreign, Gibbons).
 - Clay's arrival in Berlin, Sept. 19, 1961; İnönü's government, Nov. 20, 1961; the Soviet veto of Kuwait's admission, Nov. 30, 1961 (the Security Council's verbatim record, S/PV); Operation Chopper, Jan. 12, 1962 (FRUS 1961–63, II, doc. 13 plans a helicopter operation that day: Check whether it is Chopper); Yun Po-sun's resignation, Mar. 22, 1962; Dryden and Blagonravov, Mar. 27–30, 1962; Saudi Arabia's break with the UAR, Nov. 6, 1962; Bosch's election, Dec. 20, 1962.
 
 ### The maps of Indochina (the map agent, Oct. 22, 2026; sources/indochina/README.md, tools/vnmap/)
@@ -1027,13 +1046,13 @@ Searched in FRUS by text and date (sources/frus-text), the *Bulletin*'s index an
 
 ## The Executive roster
 
-- NSCID No. 1: the texts of 1958, 1964 and 1972 not found (`usib.yaml`). Lay shown as the Board's Executive Secretary only for Mar. 1964, in a note.
+- NSCID No. 1: the texts of 1958, 1964 and 1972 not in the file (`usib.yaml`). Open on archive.org, the CIA's CREST copies (Oct. 23, 2026): the text effective Feb. 17, 1972 (`CIA-RDP87B01034R000700020013-3`); a 1958 draft (`CIA-RDP85S00362R000600150011-7`, "Concurred in by the IAC 21 January"), with the drafts of 1957; for 1964 only Bundy's approval of the revisions, Mar. 27, 1964, "the President's decision of March 5, 1964 on the reorganization of the USIB" (`cia-readingroom-document-cia-rdp80b01676r000400180031-7`; the text exempt). FRUS 1964–68, XXXIII, doc. 196, n. 3: revised Jan. 18, 1961, and Mar. 4, 1964. Lay shown as the Board's Executive Secretary only for Mar. 1964, in a note.
 - The NSC staffs, 1953–69 and 1969–74: most months and years taken from FRUS volume ranges.
 - "Ruth S" (3 FRUS documents): not identified. Stalder, Pardee, Rossow: no given names found.
 - Commander in Chief, Alaska: no holders (`commands.yaml`). Northeast Command: not entered. COMUSMACTHAI after Stilwell; Seventh Air Force after Mar. 1973 (`air-staff.yaml`); SACSA after 1969 (`jcs.yaml`): not entered.
 - The Joint Staff's operations deputy and Research and Development rows: years only, from Directory snapshots.
 - Acting secretaries not found: Labor, Sept.–Oct. 1953 (whether Mashburn acted throughout); Commerce, Feb. 15–29, 1972; Treasury, Jan. 20–22, 1969; the Army, Jan. 1961 and July 1965; the Navy, 1954; ISA, 1964; Interior, Jan. 1969.
-- Acting officers not found: Federal Highway Administrator, Jan.–Mar. 1969; AEC chairman, the first day of 1958 and Jan. 26–Feb. 6, 1973; SEC chairman, Jan.–Apr. 1971, Feb. 2–Mar. 3 and May 16–Aug. 6, 1973 (the SEC's site wants a contact address in the request); NLRB General Counsel, Dec. 20, 1954–Mar. 29, 1955; Social Security, Jan. 1959 (ssa.gov refused); whether Saunders acted, 1970–71; whether anyone acted as FEA Deputy Administrator.
+- Acting officers not found: Federal Highway Administrator, Jan.–Mar. 1969; AEC chairman, the first day of 1958 and Jan. 26–Feb. 6, 1973; SEC chairman, Jan.–Apr. 1971, Feb. 2–Mar. 3 and May 16–Aug. 6, 1973 (sec.gov 403, AkamaiGHost, Oct. 23, 2026, twice: its policy asks an automated request to name a contact address, not sent; the Wayback Machine refused by this environment's egress); NLRB General Counsel, Dec. 20, 1954–Mar. 29, 1955; whether Saunders acted, 1970–71; whether anyone acted as FEA Deputy Administrator.
 - Acting by statute only, not by record: Holcomb, EEOC, 1966 and 1967; Horn, Civil Rights Commission, 1972–74; Sauer, Export-Import Bank, 1973–74.
 - The Directory against Wikipedia: FPC end dates for Wimberly, Nelson Lee Smith and Connole; FMC start dates for Stakem, Barrett, Patterson and Bentley; the FTC's Carson from 1948. The Directory used.
 - The FEA Deputy Administrators: not entered.
@@ -1044,7 +1063,7 @@ Searched in FRUS by text and date (sources/frus-text), the *Bulletin*'s index an
 - Vacancies with no acting officer: State's Under Secretary, 1970; the Counselor's gaps; several of the Director General's.
 - Nominations not told apart from a withdrawn or unconfirmed one: Twining, Air Force Chief, 1953; Stassen's FOA confirmation of Aug. 1, 1953; W. H. Brown III, EEOC; Gould, Netherlands, withdrawn 1973; Roderick's 1954 dates (his financial-management entry's).
 - Earlier nominations kept where later ones exist: Byroade, Allen (Near East), Tappin, Oliver, Mills, Laise, Cyr, Enders, Coombs, Powell, F. G. Meyer. Which was confirmed.
-- Justice: whether Stern acted as Solicitor General; the orders for the Associate Attorney General and the Office of Legal Counsel (justice.gov unreachable); McKevitt's confirmation.
+- Justice (Oct. 23, 2026: justice.gov answers again, its history pages holding none of this; the rest from the U.S. Reports on case.law, the Federal Register and the bound Record on govinfo, now in `justice.yaml`): Stern acted as Solicitor General (counsel lines, cases argued Mar. 11, 1953–Feb. 3–4, 1954); the Office of Legal Counsel named by Order No. 9-53, Apr. 3, 1953 (18 Fed. Reg. 2162); the Office of Legislative Affairs by Order No. 504-73 (38 Fed. Reg. 6893); McKevitt confirmed Feb. 1, 1973. Left: the order that first set up the Associate Attorney General, 1973 (the Schedule C post from Aug. 21, 1973, 38 Fed. Reg. 22465; § 0.6 revised by Order No. 543-73, 38 Fed. Reg. 29583), and Stern's first and last days.
 - Postal Service: the Board's first chairman, 1971.
 - Agriculture: the Inspector General's order; Edminster's and S. R. Smith's given names.
 - HUD: how the Deputy Administrator was appointed; Mason as acting FHA Commissioner (only Wikipedia's cite of a CQ book of 1966).

@@ -111,11 +111,12 @@ def num(v):
 
 
 def value(v):
-    """The figure as a number for the sums: a fraction as printed ('26½') counts, '(Z)' and a pair do not."""
+    """The figure as a number for the sums: a fraction as printed ('26½'), an estimate ('210E', SIPRI's '[976]')
+    counts, '(Z)' and a pair do not."""
     if isinstance(v, (int, float)) and not isinstance(v, bool):
         return v
     if isinstance(v, str):
-        m = re.match(r"^(\d+)([¼½¾])?E?$", v.replace(",", ""))
+        m = re.match(r"^\[?(\d+)([¼½¾])?E?\]?$", v.replace(",", ""))
         if m:
             return int(m.group(1)) + {"¼": .25, "½": .5, "¾": .75, None: 0}[m.group(2)]
     return 0
