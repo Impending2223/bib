@@ -66,7 +66,7 @@ reports them (`notes/calendar-audit.md`).
 ### Idaho
 
 - The sales tax act of Mar. 24, 1965 (`cal.1965-03-24.state-and-city-finance-id`): no bibliography. No work in the catalogue treats Idaho; Peirce, *The Mountain States of America* (1972) may (archive.org `mountainstatesof00peir`, lending only; its search-inside did not answer, Oct. 23, 2026). The session laws are open (legislature.idaho.gov).
-- The referendum of Nov. 8, 1966, on the sales tax: not entered. No Idaho return for 1956–74 open: the Secretary of State's results archive and canvass site begin 1990 (canvass.sos.idaho.gov timed out, Oct. 23, 2026); archive.org's abstracts begin 1980 (statistical microfiche); the Biennial Reports, 1959–66, and the *Blue Book* on HathiTrust only (Cloudflare 403, Oct. 23, 2026). Idaho State Archives; *Idaho Blue Book* (states.yaml gaps).
+- The referendum of Nov. 8, 1966, on the sales tax: not entered. No Idaho return for 1956–74 open: the Secretary of State's results archive and canvass site begin 1990 (canvass.sos.idaho.gov, open, Oct. 23, 2026); archive.org's abstracts begin 1980 (statistical microfiche); the Biennial Reports, 1959–66, and the *Blue Book* on HathiTrust only (Cloudflare 403, Oct. 23, 2026). Idaho State Archives; *Idaho Blue Book* (states.yaml gaps).
 - Reapportionment, 1964–66: not entered.
 - Herndon killed in a plane crash, Sept. 1966: the day (`cal.1966-09.governors-id`).
 
@@ -282,7 +282,7 @@ reports them (`notes/calendar-audit.md`).
 
 ### Wisconsin
 
-- Wisconsin's selective sales tax, 1961–62 (Nelson; Census counts it a general sales tax, first revenue in fiscal 1962): the act and its date not entered. docs.legis.wisconsin.gov and legis.wisconsin.gov reset the connection (Oct. 23, 2026, 05:2x and 06:2x UTC); the *Blue Book*, 1964, on archive.org lends only (`bwb_UD-990-539`); UW Digital Collections' Blue Books (search.library.wisc.edu/digital/AWIBlueBks) answer, but its search did not find the 1962 or 1964 volume; archive.org has no *Laws of Wisconsin* of the 1960s.
+- Wisconsin's selective sales tax, 1961–62 (Nelson; Census counts it a general sales tax, first revenue in fiscal 1962): the act and its date not entered. docs.legis.wisconsin.gov and legis.wisconsin.gov reset the connection (Oct. 23, 2026, 05:2x, 05:46 and 06:11 UTC); the *Blue Book*, 1964, on archive.org lends only (`bwb_UD-990-539`); UW Digital Collections' Blue Books (search.library.wisc.edu/digital/AWIBlueBks) answer, but its search did not find the 1962 or 1964 volume; archive.org has no *Laws of Wisconsin* of the 1960s.
 - Sales tax fight, 1961–62: not written.
 - Milwaukee. Mayoral race, 1964: the opponent and the vote (`cal.1964-04-07.mayors-milwaukee`). The city's canvass.
 - Milwaukee. The Amos suit: the day of filing (`cal.1965-06.desegregation-schools-milwaukee`).
@@ -642,7 +642,7 @@ printing, or not in at all (all on FRASER, open; not reached in the time):
 - Elliott's injunction against the Albany marches, July 20, 1962, and Tuttle's order vacating it, July 24 (`cal.1962-07-20.albany`, `cal.1962-07-24.georgia-albany`): the orders' record (F. Supp., F.2d, or the court files at the National Archives, Atlanta). case.law's F.2d (305–313) and F. Supp. (200–213) of 1962 hold no Albany case by name (Oct. 23, 2026).
 - Flemming's ruling on Louisiana's suitable-home law, Jan. 16, 1961 (`cal.1961-01-16.welfare-la`): HEW's decision as printed (its State Letter; the Federal Register). The *Social Security Bulletin* (archive.org, open to 1961) gives only "in January 1961" (July 1961, p. 19) and Louisiana's August figure, 24,000 children (Dec. 1960, p. 1): both now cited in the patch reopen-national; the day is Wikipedia's.
 - Barnett's interposition proclamation, Sept. 13, 1962 (`cal.1962-09-13.mississippi-ole-miss`): the text as the State printed it (Miss. Senate or House Journal, 1962 special session).
-- Governors' and primaries' returns marked "Check" in Cal. I with no open copy in `sources/states.yaml` for 1960–62: La. (1960 runoff and general), N.M. (1960, 1962), Kan. (1960, 1962), Wash. (1960 primary), Utah (1960 primary: vote.utah.gov's file "1960Pri.pdf" is the primary of Sept. 11, 1962, U.S. Senator, Representatives and attorney general only, no governor), Wyo. (1962), Wis. (1962 primary), Tenn. (1962 primary), Pa. (1962), Mich. (1960 Proposal 3), Tex. (1960–62 primaries, the 1961 Senate special). The entries say which.
+- Governors' and primaries' returns marked "Check" in Cal. I with no open copy in `sources/states.yaml` for 1960–62: La. (1960 runoff and general), N.M. (1960, 1962), Utah (1960 primary: vote.utah.gov's file "1960Pri.pdf" is the primary of Sept. 11, 1962, U.S. Senator, Representatives and attorney general only, no governor), Wyo. (1962), Wis. (1962 primary), Tenn. (1962 primary), Pa. (1962), Mich. (1960 Proposal 3), Tex. (1960–62 primaries, the 1961 Senate special). The entries say which.
 
 ### Primary records, Cal. III (the Cal. III audit agent, Oct. 22, 2026)
 

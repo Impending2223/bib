@@ -160,9 +160,10 @@ def main():
         lines = open(REG, encoding="utf-8").read().split("\n")
         url = None
         for i, l in enumerate(lines):
+            # Only the online entry's own line: before Oct. 23, 2026 the last url seen carried on to the lines after
+            # it, and a "checked: 1971 Register" in a `specials` note became "checked: '2026-10-23'".
             m = re.search(r"url: ['\"]?([^'\",}]+)", l)
-            if m:
-                url = m.group(1).strip()
+            url = m.group(1).strip() if m else None
             if url in changes:
                 lines[i] = re.sub(r"(access: )[\w-]+", r"\g<1>" + changes[url], lines[i], count=1)
                 lines[i] = re.sub(r"(checked: )['\"]?[\d-]+['\"]?", r"\g<1>'" + today + "'", lines[i], count=1)

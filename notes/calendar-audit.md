@@ -3,15 +3,15 @@
 Written by `./bib audit-cal` (`tools/bib/calaudit.py`): the dated entries checked against the brief in
 CLAUDE.md ("The calendar"). A review list: a hit is a place to look, not an error. Rerun after editing.
 
-5180 dated entries.
+5188 dated entries.
 
 | Check | Entries |
 |---|---|
 | A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 88 |
 | (of which only a President's surname: Eisenhower, Kennedy, Johnson) | 1 |
-| Neither a bibliography of its own nor a `See [[id]]` back | 1 |
-| No primary record linked or named | 730 |
-| A primary record named but not linked | 103 |
+| Neither a bibliography of its own nor a `See [[id]]` back | 2 |
+| No primary record linked or named | 729 |
+| A primary record named but not linked | 102 |
 | Threads (statements listed for review) | 224 |
 
 ## Names
@@ -209,6 +209,7 @@ the person; several mean the surname is shared). "?" marks a surname that is als
 No work of its own and no `See [[id]]` back to the event's first entry.
 
 - `cal.1965-03-24.state-and-city-finance-id` (Mar. 24, LXIV 196503.yaml): Idaho's sales tax. Smylie approves H.B. 222, the Idaho Sales Tax Act: 3 percent on retail sales, and a use tax
+- `cal.1965-04-05.desegregation-public-places-nv` (Apr. 5, LXV 196504.yaml): Nevada. Sawyer approves A.B. 404, the civil rights act: no discrimination by race, color, religion or national
 
 ## Primary record
 
@@ -638,7 +639,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1966-04-13.middle-east` (Apr. 13, LXXVIII 196604.yaml): Iraq. Abdul Salam Arif killed in an air crash.
 - `cal.1966-04.jobs-and-wages-oakland` (Apr., LXXVIII 196604.yaml): Oakland. Foley's Economic Development Administration announces some $23 million for the city: public works at 
 - `cal.1966-05-07.governors-tx` (May 7, LXXIX 196605.yaml): Texas Democratic primary. Governor Connally renominated for a third term, 74.3 percent, over Stanley Woods, 23
-- `cal.1966-05-09.legislatures-mn` (May 9, LXXIX 196605.yaml): Minnesota. Rolvaag vetoes the special session's reapportionment bill.
 - `cal.1966-05-14.students` (May 14, LXXIX 196605.yaml): The Selective Service College Qualification Test, first of three sittings (May 21, June 3): local boards to we
 - `cal.1966-05-17.vietnam-struggle` (May 17, LXXIX 196605.yaml): Huế. An American door gunner kills an ARVN lieutenant firing on Huỳnh Văn Cao's helicopter.
 - `cal.1966-06-06.mississippi` (June 6, LXXX 196606.yaml): Meredith, walking alone from Memphis to Jackson since June 5 "against fear," shot from the roadside south of H
@@ -1011,7 +1011,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1966-05-03.governors-nm` (May 3, LXXIX 196605.yaml): New Mexico's primary, for governor. Democratic: Lusk, once a State senator, 85,211, 59.9 percent, over Burroug — names "Election Returns"
 - `cal.1966-05-17.governors-pa` (May 17, LXXIX 196605.yaml): Pennsylvania primaries for governor. Democratic: Shapp, an electronics manufacturer spending his own money, 48 — names "Manual"
 - `cal.1966-05-24.elections-1966` (May 24, LXXIX 196605.yaml): Oregon's primary, for Maurine Neuberger's Senate seat. Democratic: U.S. Representative Robert Duncan, for the  — names "Official Abstract"
-- `cal.1966-05-24.legislatures-mn` (May 24, LXXIX 196605.yaml): Minnesota. Rolvaag approves the special session's third reapportionment bill, passed May 20. — names "Laws 1966"
 - `cal.1966-08-02.elections-1966` (Aug. 2, LXXXII 196608.yaml): Michigan, Democratic Senate primary: Williams, governor 1949–61, lately Assistant Secretary of State for Afric — names "Manual"
 - `cal.1966-08-02.governors-ks` (Aug. 2, LXXXII 196608.yaml): Kansas, governor. Democratic primary: Robert Docking, the late governor's son, 85.5 percent, one other 14.5. R — names "Election Statistics"
 - `cal.1966-08-04.governors-tn` (Aug. 4, LXXXII 196608.yaml): Tennessee, Democratic primary for governor: Ellington, governor 1959–63, 413,950, 53.5 percent; John Jay Hooke — names "Blue Book"
