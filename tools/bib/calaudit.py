@@ -61,7 +61,7 @@ TABLE_TAGS = {"primary", "primaries", "election", "governors", "special", "legis
               "committees", "executive", "wardead"}
 LISTREF = re.compile(r"\b(?:K–J Adm\.|K–J Cong\.|Opp\.|1968|Adm\.|Cong\.|Wg\.|Viet\.)\s+II\b")
 # words that are surnames in Part III but also places or things; a hit on one is marked "?"
-AMBIG = {"White", "Black", "Brown", "Green", "Long", "King", "Young", "Little", "Rich", "Washington", "Jackson",
+AMBIG = {"Temple", "Alcorn", "Armstrong", "Kelly", "White", "Black", "Brown", "Green", "Long", "King", "Young", "Little", "Rich", "Washington", "Jackson",
          "Lincoln", "Houston", "Marshall", "Ford", "Hall", "Rock", "Church", "Bell", "Price", "Day", "May", "March",
          "Rivers", "Moss", "Wood", "Woods", "Lodge", "Byrd", "Gates", "Bowles", "Love", "Hope", "Christian", "Banks",
          "Stone", "Field", "Fields", "Hand", "Pierce", "Monroe", "Madison", "Rogers", "Hill", "Mills", "Barnes",
@@ -90,7 +90,8 @@ TITLES = re.compile(r"(?:Senator|Sen\.|Representative|Rep\.|Governor|Gov\.|Mayor
                     r"Reverend|Rev\.|Father|Bishop|Cardinal|Director|Chairman|Senators|Representatives)\s+$")
 GIVEN = {"Henry", "James", "Walter", "Lawrence", "Franklin", "Allen", "Douglas", "Jack", "Hayes", "Collins", "Keith",
          "Marshall", "Gilbert", "Albert", "Alexander", "Howard", "Curtis", "Russell", "Wesley", "Harvey", "Carley",
-         "Clyde", "Terry", "Gordon", "Lee", "Percy", "Clay", "Burke", "Edward", "Moore"}
+         "Clyde", "Terry", "Gordon", "Lee", "Percy", "Clay", "Burke", "Edward", "Moore", "Thomas", "Ellis",
+         "Foote"}
 
 
 def as_person(sur, text, persons):
@@ -104,8 +105,8 @@ def as_person(sur, text, persons):
     for m in re.finditer(r"\b" + re.escape(sur) + r"\b", text):
         after = text[m.end():m.end() + 30]
         before = text[max(0, m.start() - 40):m.start()]
-        if sur in GIVEN and re.match(r" [A-Z][a-z]", after):
-            continue                                # Percy Sutton, Clay Shaw: a given name
+        if sur in GIVEN and re.match(r" (?:[A-Z]\. )*[A-Z][a-z]", after):
+            continue                                # Percy Sutton, Clay Shaw, Gilbert R. Mason: a given name
         if sur not in AMBIG and sur not in GIVEN:
             return True
         if TITLES.search(before) or any(re.search(r"\b" + re.escape(g) + r"\.?\s+(?:[A-Z]\.\s+)*$", before)

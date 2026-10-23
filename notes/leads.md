@@ -150,7 +150,7 @@ reports them (`notes/calendar-audit.md`).
 - Hattiesburg. Mayoral elections: not found.
 - From Dittmer, *Local People* (book agent, Oct. 23, 2026; `notes/book-checks/w.dittmer-local-people.md`), events the book dates loosely or that were left out as minor, each to be dated by a record: Clyde Kennard's conviction (fall 1960), Barnett's release of him (spring 1963) and his death, July 4, 1963 (Dittmer, 80–83); Cpl. Roman Duckworth shot by a Taylorsville policeman, Apr. 1962 (123; the day); the Clarksdale boycott and the arrest of Aaron Henry and the Coahoma NAACP's officers, Dec. 1961 (121–22); Leflore County's end of winter surplus commodities, July and Nov. 1962, the Civil Rights Commission's recommendation of federal distribution (143–45; USDA's own record); Block beaten and the Greenwood SNCC office raided, Aug. 1962 (132–33); the shootings into the Sisson and McDonald houses at Ruleville, Sept. 1962 (137–38); Stennis and Eastland in the Senate against the Greenwood suit, early Apr. 1963 (154: "Monday, April 2"; the Record's day); the Holmes County "First 14" at Lexington, Apr. 9, 1963 (192); Itta Bena, June 18, 1963, forty-five sentenced (173–74); the Voter Education Project's end of its Mississippi grants, Nov. 1963 (212); the Freedom Vote of Nov. 1964 for Hamer, Henry, Devine and Gray, some 60,000 ballots (322–23; the days); the NAACP's withdrawal from COFO, Mar. 7, 1965 (342–43); the Mississippi Freedom Labor Union and the Andrews plantation strike at Tribbett, Apr.–May 1965 (364); the Young Democrats' split, Aug. 1965 (348–49); the CDGM children at the House Education and Labor Committee, about Feb. 11, 1966, and OEO's $5.6 million grant two weeks later (374–75); the Senate investigator Cotter's report on CDGM, Aug. 5, 1966 (377); the "Say it isn't so" advertisement, Oct. 19, and the agreement of mid-December 1966 (380); the Field Foundation physicians' tour of the Delta, 1967, and USDA's lower food stamp price, July 1967 (383, 386); SCLC's Grenada campaign, July 1966 (403); the Jackson bombings of Sept.–Nov. 1967 (Temple Beth Israel) and Tarrants taken at Meridian, 1968 (417–18).
 - Greenwood, Mar. 27–29, 1963: the Justice Department's memorandum of Apr. 8, 1963 (crmvet.org) refused this environment (HTTP 406); it should settle who the dog bit, and when (`cal.1963-03-27.mississippi`).
-- Persons the new Mississippi entries name who have no name entry (K–J Cong. III.K, if wanted): John Hardy, John Q. Wood, Bob Zellner, Lawrence Guyot, Hartman Turnbow, Theron Lynd, Annelle Ponder, Allen Thompson, George Metcalf, John Nosser, Claude Ramsey, Ben Brown.
+- *Gray v. Mississippi*, 233 F. Supp. 139 (N.D. Miss. 1964) (`cal.1964-08-24.mississippi`): the opinion is its record; no work in the catalogue was found that treats the Freedom Democrats' suit against the unpledged-elector law (Dittmer does not). Look in the electoral-college and Mississippi-politics literature (the unpledged elector movement of 1960–64) for one.
 - Meridian. Mayoral election, 1965 (Key over Burns): not found.
 - The Loyal Democrats' convention of 1968, which named the delegation seated at Chicago: date not read (`cal.1968-07-02.elections-1968-state-conventions`, the regulars'). CQ Weekly Report 26 (1968) 2108 ("Miss. delegation", by the index; not read).
 
@@ -687,6 +687,31 @@ Searched in the Daily Digest (daybook/committees), the bound Record's days, the 
 - The rest of Cal. III's entries without a primary record are protests, riots, campaign appearances, broadcasts and
   party meetings (civil disorders, war opposition, students, King, Robert Kennedy, the 1968 campaign): the record is the
   press, a broadcast's transcript, or the organizations' papers.
+
+### Schlesinger, *Robert Kennedy and His Times* (the book agent, Oct. 23, 2026; notes/book-checks/w.schlesinger-robert-kennedy-and-his.md)
+
+- The FBI's squad at the Atlantic City convention, Aug. 1964, DeLoach's thirty men, King's hotel room tapped, SNCC and
+  CORE bugged, Kennedy "of special interest" (Schlesinger, 662–64, from Sullivan and the Watergate Committee's
+  testimony): no day given; the Church Committee's Book III (S. Rep. No. 94-755) for the record and the dates. Not
+  entered.
+- Kennedy to Johnson, late April 1965, urging a bombing pause (Schlesinger, 729, from Johnson's *Vantage Point*): no day.
+- The Hertz affair, 1965: Kraft and Kennedy with Guellal; the NLF's offer to free Gustav Hertz in Algiers, refused by
+  Taylor (Schlesinger, 731–32): no dates.
+- Kennedy's press conference at the University of Southern California, "early in November" 1965, on draft cards and
+  blood for the North Vietnamese (Schlesinger, 732); the Senate speech against refusing Robert Thompson burial at
+  Arlington, January 1966 (733): the Record for the day.
+- Kennedy's walk through Bedford-Stuyvesant, Feb. 4, 1966 (Schlesinger, 786), the start of the Bedford-Stuyvesant
+  project (`cal.1966-12-09.poverty-nyc`): no record found.
+- Kennedy and Joseph Clark with Freeman the day after the Delta tour (Apr. 12, 1967?), and the subcommittee's letter to
+  Johnson (Schlesinger, 795; Kotz, *Let Them Eat Promises*): the letter's date. Not entered.
+- Kennedy at the Oxford Union, end of January 1967, and with de Gaulle, Couve de Murville, Malraux, Sainteny,
+  Kiesinger, Brandt, Fanfani, Saragat and the Pope (Schlesinger, 764–66): days not given; the embassies' cables (FRUS
+  1964–68, V, XII?).
+- The Landon Lecture, Mar. 18, 1968 (`cal.1968-03-18.robert-kennedy`): its text, the JFK Library's speeches page
+  (bot-checked here). The China speech, Chicago, Feb. 8, 1967 (`cal.1967-02-08.robert-kennedy`): its full text and
+  its place.
+- The Alliance for Progress speech, May 9–10, 1966 (`cal.1966-05-09.robert-kennedy`): the pages each day runs to in
+  112 Cong. Rec. (the speech opens at 10090 and resumes at 10187).
 
 ## Foreign
 

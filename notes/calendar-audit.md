@@ -7,8 +7,8 @@ CLAUDE.md ("The calendar"). A review list: a hit is a place to look, not an erro
 
 | Check | Entries |
 |---|---|
-| A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 110 |
-| (of which only a President's surname: Eisenhower, Kennedy, Johnson) | 2 |
+| A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 88 |
+| (of which only a President's surname: Eisenhower, Kennedy, Johnson) | 1 |
 | Neither a bibliography of its own nor a `See [[id]]` back | 1 |
 | No primary record linked or named | 725 |
 | A primary record named but not linked | 102 |
@@ -22,8 +22,6 @@ the person; several mean the surname is shared). "?" marks a surname that is als
 
 - `cal.1960-02-26.latin-america-trip` (Feb. 26–29, III 196002.yaml): Argentina: the address to the Congress at Buenos Aires, Feb. 26; Mar del Plata; the Declaration of San Carlos 
   - Carlos: Carlos, John (K–J Cong. III.K)
-- `cal.1960-04-24.mississippi-biloxi` (Apr. 24, V 196004.yaml): Biloxi. Some 125 Negro men, women and children, led by Dr. Gilbert R. Mason, wade in at the city's beach, buil
-  - Gilbert: Gilbert, Jacob H. (K–J Cong. III.D)
 - `cal.1960-05-17.cuba` (May 17, VI 196005.yaml): Radio Swan ready to broadcast, from Swan Island: the CIA's station, medium and short wave, under commercial co
   - Swan: Swan, Jimmy (K–J Cong. III.K)
 - `cal.1960-07-26.governors-ar` (July 26, VIII 196007.yaml): Arkansas, Democratic primary for governor: Faubus, for a fourth term, 238,997, 58.7 percent; Joe Hardin 66,499
@@ -45,79 +43,43 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Castro: Castro, Fidel (K–J Adm. III.J); Castro, Raúl (K–J Adm. III.J); Castro, Sal (K–J Cong. III.K)
 - `cal.1961-05-09.vietnam` (May 9–13, XVIII 196105.yaml): Johnson leaves on a trip to Asia, May 9. Saigon, May 11–13: he calls Diệm the Churchill of Asia.
   - Churchill: Churchill, Winston S. (K–J Adm. III.J)
-- `cal.1961-09-07.mississippi` (Sept. 7, XXII 196109.yaml): Tylertown, Walthall County. The registrar, John Q. Wood, strikes John Hardy of SNCC on the head with a pistol 
-  - Hardy: Hardy, Porter, Jr. (K–J Cong. III.D)
 - `cal.1961-09-29.open-housing-wa` (Sept. 29, XXII 196109.yaml): *O'Meara v. Washington State Board Against Discrimination*, [58 Wash. 2d 793](https://static.case.law/wash-2d/
   - Foster: Foster, William C. (K–J Adm. III.E)
   - Rosellini: Rosellini, Albert D. (K–J Cong. III.F)
-- `cal.1961-10-04.mississippi` (Oct. 4, XXIII 196110.yaml): McComb. More than 100 students of Burgland High School walk out when two of the bus station's sit-in protester
-  - Travis: Travis, James (K–J Cong. III.K)
-  - Lewis: Lewis, John (K–J Cong. III.H); Lewis, Anthony (K–J Cong. III.J)
-- `cal.1961-10-27.mississippi` (Oct. 27, XXIII 196110.yaml): *United States v. Wood*. The Fifth Circuit, Rives writing, Cameron dissenting, on the Government's suit of Sep
-  - Hardy: Hardy, Porter, Jr. (K–J Cong. III.D)
-- `cal.1962-04-29.press-and-broadcasting` (Apr. 29, XXIX 196204.yaml): Dinner for the Nobel laureates. "With the possible exception of when Thomas Jefferson dined alone."
-  - Thomas: Thomas, Albert (K–J Cong. III.D); Thomas, Daniel H. (K–J Cong. III.K); Thomas, Lera M. (K–J Cong. III.K)
 - `cal.1962-10-15.georgia-ga` (Oct. 15, XXXV 196210.yaml): A Fulton Superior Court judge holds the election of senators at large void in Fulton.
   - Fulton: Fulton, Robert D. (K–J Cong. III.F)
 - `cal.1962-11-06.antisubversion-ca` (Nov. 6, XXXVI 196211.yaml): California. Proposition 24, "Subversive Activities," the initiative constitutional amendment called the Franci
   - Francis: Francis, E. Lee (K–J Cong. III.K)
-- `cal.1962-12-12.mississippi` (Dec. 12, XXXVII 196212.yaml): Jackson. John and Eldri Salter and four students of the North Jackson NAACP youth council picket Woolworth's o
-  - Thompson: Thompson, Llewellyn E. (K–J Adm. III.E); Thompson, Theo A. (K–J Cong. III.D); Thompson, Floyd L. (K–J Cong. III.K); Thompson, Fred D. (Wg. III.F); Thompson, Hugh, Jr. (Viet. III.D); Thompson, Robert (Viet. III.I)
 - `cal.1962-12-17.georgia-atlanta` (Dec. 17–18, XXXVII 196212.yaml): Atlanta. A Negro having bought a house in Peyton Forest, white homeowners ask for barricades across Peyton and
   - Fulton: Fulton, Robert D. (K–J Cong. III.F)
 - `cal.1963-05-03.alabama-birmingham` (May 3, XLII 196305.yaml): Birmingham. Connor turns fire hoses and police dogs on the marching children in Kelly Ingram Park.
-  - Kelly: Kelly, Francis E. (K–J Cong. III.K); Kelly, Scott (K–J Cong. III.K)
   - Ingram: Ingram, William B. (K–J Cong. III.F)
 - `cal.1963-05-04.elections-1964` (May 4, XLII 196305.yaml): Rockefeller, divorced in 1962, marries Margaretta Fitler Murphy, divorced a month before.
   - Murphy: Murphy, Leo T. (K–J Cong. III.K); Murphy, Maurice J., Jr. (K–J Cong. III.K); Murphy, George (Opp. III.B); Murphy, Robert D. (Opp. III.E); Murphy, Charles S. (1968 III.A)
 - `cal.1963-05-27.court` (May 27, XLII 196305.yaml): *Watson v. City of Memphis*, [373 U.S. 526](https://tile.loc.gov/storage-services/service/ll/usrep/usrep373/us
   - Goldberg: Goldberg, Arthur J. (K–J Adm. III.E, K–J Adm. III.G, K–J Cong. III.G)
-- `cal.1963-06-09.mississippi` (June 9, XLIII 196306.yaml): Winona. Fannie Lou Hamer, Annelle Ponder of SCLC, June Johnson and three others, coming home from a citizenshi
-  - Johnson: Johnson, Lady Bird (K–J Adm. III.A, 1968 III.Q); Johnson, Lynda Bird (K–J Adm. III.A); Johnson, Luci Baines (K–J Adm. III.A); Johnson, Lyndon B. (K–J Adm. III.D, Viet. III.A); Johnson, Joseph E. (K–J Adm. III.E); Johnson, Harold K. (K–J Adm. III.F); Johnson, Paul B., Jr. (K–J Cong. III.F); Johnson, Frank M., Jr. (K–J Cong. III.G); Johnson, Albert W. (K–J Cong. III.K); Johnson, James D. (K–J Cong. III.K); Johnson, Leroy R. (K–J Cong. III.K); Johnson, Matthew (K–J Cong. III.K); Johnson, N. B. (K–J Cong. III.K); Johnson, Robert H. (K–J Cong. III.K); Johnson, Virginia (K–J Cong. III.K); Johnson, Tom (1968 III.A); Johnson, U. Alexis (Viet. III.C)
 - `cal.1963-06-11.alabama` (June 11, XLIII 196306.yaml): The schoolhouse door. Wallace bars Katzenbach at Foster Auditorium, Tuscaloosa. The Alabama Guard federalized;
   - Foster: Foster, William C. (K–J Adm. III.E)
-- `cal.1963-06-18.mississippi` (June 18, XLIII 196306.yaml): Kennedy and Mayor Allen Thompson of Jackson, two calls. That night the Jackson movement's committee puts the m
-  - Thompson: Thompson, Llewellyn E. (K–J Adm. III.E); Thompson, Theo A. (K–J Cong. III.D); Thompson, Floyd L. (K–J Cong. III.K); Thompson, Fred D. (Wg. III.F); Thompson, Hugh, Jr. (Viet. III.D); Thompson, Robert (Viet. III.I)
 - `cal.1963-06-23.king-detroit` (June 23, XLIII 196306.yaml): Detroit. The Walk to Freedom, called by the Detroit Council for Human Rights of the Reverends C. L. Franklin a
   - Woodward: Woodward, Bob (Wg. III.H)
-- `cal.1963-07-15.mississippi` (July 15, XLIV 196307.yaml): *United States v. Lynd*. The Fifth Circuit, Brown, Wisdom and Bell: the district court erred in denying the Go
-  - Wisdom: Wisdom, John Minor (K–J Cong. III.G)
 - `cal.1963-07-30.specials` (July 30, XLIV 196307.yaml): Pennsylvania 15th, special. Fred B. Rooney (D) holds the seat of Francis E. Walter (D), who died May 31; 53.5 
   - Francis: Francis, E. Lee (K–J Cong. III.K)
-- `cal.1963-10-06.mississippi` (Oct. 6, XLVII 196310.yaml): Jackson, the Masonic Temple. COFO's convention opens the Freedom Ballot campaign: a platform against the liter
-  - Temple: Temple, Larry (1968 III.A)
 - `cal.1963-11-05.mayors-indianapolis` (Nov. 5, XLVIII 196311.yaml): Indianapolis. John J. Barton (D) mayor over Clarence Drayer (R), 68,316 to 63,091, 48.1 percent; an independen
-  - Martin: Martin, John Bartlow (K–J Adm. III.E); Martin, William McChesney, Jr. (K–J Adm. III.H); Martin, James D. (Opp. III.I); Martin, Graham A. (Viet. III.C)
-- `cal.1963-12.mississippi` (Dec., XLIX 196312.yaml): Oxford. A federal jury of white men acquits the Montgomery County sheriff, Earl Patridge, the Winona police ch
-  - Thomas: Thomas, Albert (K–J Cong. III.D); Thomas, Daniel H. (K–J Cong. III.K); Thomas, Lera M. (K–J Cong. III.K)
-- `cal.1964-02-28.mississippi` (Feb. 28, LI 196402.yaml): Canton. Freedom Day: some 350 Negroes line up at the Madison County courthouse to register, police, sheriffs a
-  - Foote: Foote, Ralph A. (K–J Cong. III.F)
-  - Campbell: Campbell, Judith (K–J Adm. III.I); Campbell, Jack M. (K–J Cong. III.F)
+  - Martin: Martin, John Bartlow (K–J Adm. III.E); Martin, William McChesney, Jr. (K–J Adm. III.H); Martin, Joe (K–J Cong. III.K); Martin, James D. (Opp. III.I); Martin, Graham A. (Viet. III.C)
 - `cal.1964-04-07.desegregation-schools-cleveland` (Apr. 7, LIII 196404.yaml): Cleveland. The Reverend Bruce Klunder, of the United Freedom Movement and CORE, crushed by a backing bulldozer
   - Bruce: Bruce, David K. E. (K–J Adm. III.E)
-- `cal.1964-07-12.mississippi` (July 12, LVI 196407.yaml): Near Tallulah, La., a fisherman finds the lower half of a man's body in a backwater of the Mississippi; anothe
-  - Dee: Dee, William J. (K–J Cong. III.K)
-  - Alcorn: Alcorn, H. Meade (K–J Cong. III.K)
-- `cal.1964-08-06.mississippi` (Aug. 6, LVII 196408.yaml): Jackson, the Masonic Temple. The Freedom Democrats' State convention, nearly 2,500 present; Ella Baker the key
-  - Temple: Temple, Larry (1968 III.A)
 - `cal.1964-09.goldwater` (Sept., LVIII 196409.yaml): *Fact*, September–October issue: "The Unconscious of a Conservative: A Special Issue on the Mind of Barry Gold
   - Barry: Barry, James J. (K–J Cong. III.F); Barry, Marion S., Jr. (K–J Cong. III.K)
 - `cal.1964-11-03.cities-and-housing` (Nov. 3, LX 196411.yaml): California. Proposition 14 carries, 4,526,460 to 2,395,747, 65.4 percent: a constitutional amendment securing 
   - Rumford: Rumford, William Byron (K–J Cong. III.K)
 - `cal.1964-11-03.alabama` (Nov. 3, LX 196411.yaml): Alabama. Goldwater 479,085, the unpledged Democratic electors 210,732; no electors for Johnson on the ballot. 
   - Glenn: Glenn, John H., Jr. (K–J Adm. III.F)
+- `cal.1965-02-13.transition-and-staff` (Feb. 13, LXIII 196502.yaml): Katzenbach sworn as Attorney General, Ramsey Clark as Deputy, at the White House. The Senate confirmed both Fe
+  - Ramsey: Ramsey, Claude (K–J Cong. III.K)
 - `cal.1965-02-21.states-and-cities` (Feb. 21, LXIII 196502.yaml): Malcolm X shot dead at the Audubon Ballroom, Washington Heights, as he begins to address his Organization of A
   - Talmadge: Talmadge, Herman E. (Wg. III.F)
-- `cal.1965-07-18.mississippi` (July 18, LXVIII 196507.yaml): Jackson, the Heidelberg Hotel. At the call of Claude Ramsey, president of the State AFL-CIO, some 125 moderate
-  - Oswald: Oswald, Lee Harvey (K–J Cong. III.K); Oswald, Marina (K–J Cong. III.K)
-- `cal.1965-07.war-opposition` (July, LXVIII 196507.yaml): McComb, Miss. After John Shaw of the town is killed in Vietnam, a leaflet by Joe Martin and Clint Hopson, "fiv
-  - Shaw: Shaw, Clay (K–J Cong. III.K)
-  - Martin: Martin, John Bartlow (K–J Adm. III.E); Martin, William McChesney, Jr. (K–J Adm. III.H); Martin, James D. (Opp. III.I); Martin, Graham A. (Viet. III.C)
 - `cal.1965-08-10.legislatures-nd` (Aug. 10, LXIX 196508.yaml): North Dakota. The federal court holds House Bill 566, the 1965 Assembly's apportionment, invalid, and devises 
   - Smith: Smith, Stephen E. (K–J Adm. III.A); Smith, Ian Douglas (K–J Adm. III.J); Smith, Benjamin A., II (K–J Cong. III.B); Smith, Howard W. (K–J Cong. III.D); Smith, Hulett C. (K–J Cong. III.F); Smith, Preston (K–J Cong. III.F); Smith, Frank E. (K–J Cong. III.K); Smith, Howard K. (K–J Cong. III.K); Smith, Robert R. (K–J Cong. III.K); Smith, Tommie (K–J Cong. III.K); Smith, Vernon K. (K–J Cong. III.K); Smith, Margaret Chase (Opp. III.A, Cong. III.A); Smith, Gerard C. (Adm. III.D)
-- `cal.1965-08-27.mississippi` (Aug. 27, LXIX 196508.yaml): Natchez. A bomb in his car outside the Armstrong Tire and Rubber plant gravely injures George Metcalf, preside
-  - Armstrong: Armstrong, Neil A. (K–J Cong. III.K); Armstrong, Scott (Wg. III.F)
-  - Metcalf: Metcalf, Lee W. (K–J Cong. III.B)
 - `cal.1965-10-03.cuba` (Oct. 3, LXXI 196510.yaml): Castro, Sept. 28: Cubans who wish may go to the United States; exiles may fetch their relatives by boat at Cam
   - Small: Small, Frank, Jr. (K–J Cong. III.K)
 - `cal.1965-11-08.school-aid` (Nov. 8, LXXII 196511.yaml): Higher Education Act signed at Southwest Texas State College, San Marcos, his own, [79 Stat. 1219](https://www
@@ -130,8 +92,6 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Ray: Ray, Robert D. (K–J Cong. III.F); Ray, James Earl (K–J Cong. III.K)
 - `cal.1965-12-20.europe-and-the-alliance` (Dec. 20–21, LXXIII 196512.yaml): Erhard in Washington, with Schroeder and von Hassel. Joint statement, Dec. 21: the Federal Republic and other 
   - Schroeder: Schroeder, Anthony C. (K–J Cong. III.K); Schroeder, Jack (K–J Cong. III.K)
-- `cal.1966-01-10.mississippi` (Jan. 10, LXXV 196601b.yaml): Hattiesburg. Before dawn, Klansmen fire on and firebomb the house and store of Vernon Dahmer, president of the
-  - Kelly: Kelly, Francis E. (K–J Cong. III.K); Kelly, Scott (K–J Cong. III.K)
 - `cal.1966-02-09.voting-rights-tx` (Feb. 9, LXXVI 196602.yaml): Austin. A three-judge court holds the Texas poll tax, $1.75, void as a condition of voting under the due proce
   - Thornberry: Thornberry, William H. (K–J Cong. III.K)
 - `cal.1966-02-28.south-carolina-sc` (Feb. 28, LXXVI 196602.yaml): *O'Shields v. McNair*. A three-judge court, Haynsworth writing, upholds the House, 124 members apportioned amo
@@ -153,8 +113,6 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Smith: Smith, Stephen E. (K–J Adm. III.A); Smith, Ian Douglas (K–J Adm. III.J); Smith, Benjamin A., II (K–J Cong. III.B); Smith, Howard W. (K–J Cong. III.D); Smith, Hulett C. (K–J Cong. III.F); Smith, Preston (K–J Cong. III.F); Smith, Frank E. (K–J Cong. III.K); Smith, Howard K. (K–J Cong. III.K); Smith, Robert R. (K–J Cong. III.K); Smith, Tommie (K–J Cong. III.K); Smith, Vernon K. (K–J Cong. III.K); Smith, Margaret Chase (Opp. III.A, Cong. III.A); Smith, Gerard C. (Adm. III.D)
 - `cal.1966-06-07.specials` (June 7, LXXX 196606.yaml): California 14th, special, held with the primary. Waldie (D), majority leader of the State Assembly, takes the 
   - Richardson: Richardson, Gloria (K–J Cong. III.K); Richardson, Elliot L. (Adm. III.F, Wg. III.E); Richardson, John H. (Viet. III.C)
-- `cal.1966-06-07.mississippi` (June 7, LXXX 196606.yaml): Mississippi's Democratic primary, the day after Meredith is shot. The Freedom Democrats run for all five House
-  - Meredith: Meredith, James H. (K–J Cong. III.H)
 - `cal.1966-07-22.mississippi-ms` (July 22, LXXXI 196607.yaml): *Connor v. Johnson*. A three-judge court, Coleman and Cox among the three, on a suit of Negro voters and the F
   - Coleman: Coleman, Kevin K. (K–J Cong. III.F); Coleman, J. P. (K–J Cong. III.K); Coleman, Thomas L. (K–J Cong. III.K); Coleman, William T., Jr. (K–J Cong. III.K)
 - `cal.1966-08-25.civil-rights-the-executive` (Aug. 25, LXXXII 196608.yaml): Randolph and Heineman bring the report of the White House Conference "To Fulfill These Rights," held June 1–2,
@@ -165,13 +123,11 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Kennedy: Kennedy, Jacqueline (K–J Adm. III.A); Kennedy, Joseph P. (K–J Adm. III.A); Kennedy, Robert F. (K–J Adm. III.A, K–J Cong. III.B, 1968 III.K); Kennedy, Edward M. (K–J Cong. III.B, 1968 III.K, 1968 III.P, Cong. III.A); Kennedy, John F. (Viet. III.A)
 - `cal.1966-09-14.elections-1966` (Sept. 14, LXXXIII 196609.yaml): Georgia's Democratic primary for governor. Arnall, governor 1943–47, first, 231,480; Maddox, who closed his At
   - Gray: Gray, Fred D. (K–J Cong. III.K); Gray, Victoria Jackson (K–J Cong. III.K); Gray, Gordon (Opp. III.E); Gray, L. Patrick, III (Adm. III.H, Wg. III.I)
-- `cal.1966-10-03.poverty` (Oct. 3, LXXXIV 196610.yaml): OEO refuses the Child Development Group of Mississippi a new grant: its Head Start centers to the counties' Co
-  - Carter: Carter, Robert L. (K–J Cong. III.K); Carter, Vernon E. (K–J Cong. III.K); Carter, Asa (1968 III.L); Carter, Jimmy (Cong. III.H)
+- `cal.1966-09-21.transition-and-staff` (Sept. 21, LXXXIII 196609.yaml): News conference. Ball, Under Secretary of State, has resigned, by letter of Sept. 17; Katzenbach to leave the 
+  - Ramsey: Ramsey, Claude (K–J Cong. III.K)
 - `cal.1966-11-01.vietnam` (Nov. 1–2, LXXXV 196611.yaml): Seoul, from Oct. 31. Johnson and Park, Nov. 1; Johnson to the National Assembly, and their joint statement, No
   - Fish: Fish, Hamilton, Jr. (Wg. III.G)
   - Dulles: Dulles, Allen W. (K–J Adm. III.I)
-- `cal.1966-11-08.alabama-al` (Nov. 8, LXXXV 196611.yaml): Alabama. Lurleen Wallace (D) elected governor over U.S. Representative James D. Martin (R), 537,505 to 262,943
-  - James: James, Ted (K–J Cong. III.K)
 - `cal.1966-12-05.georgia` (Dec. 5, LXXXVI 196612.yaml): *Bond v. Floyd*, [385 U.S. 116](https://tile.loc.gov/storage-services/service/ll/usrep/usrep385/usrep385116/us
   - Warren: Warren, Earl (K–J Cong. III.G, Cong. III.J)
 - `cal.1966-12-05.africa-rhodesia` (Dec. 5, LXXXVI 196612.yaml): Smith's cabinet at Salisbury rejects the *Tiger* document (Check the date).
@@ -186,7 +142,7 @@ the person; several mean the surname is shared). "?" marks a surname that is als
 - `cal.1967-05-17.states-and-cities-tn` (May 17, XCI 196705.yaml): Tennessee repeals the Butler Act of 1925, which forbade teaching that man descended from a lower order of anim
   - Scott: Scott, Robert W. (K–J Cong. III.F); Scott, William J. (K–J Cong. III.F); Scott, David R. (K–J Cong. III.K); Scott, Hugh D., Jr. (Opp. III.B, Cong. III.A, Wg. III.I)
 - `cal.1967-06-11.civil-disorders` (June 11, XCII 196706.yaml): Tampa. Martin Chambers, 19, a suspect in a burglary, shot in the back by a policeman as he runs; he dies. Riot
-  - Martin: Martin, John Bartlow (K–J Adm. III.E); Martin, William McChesney, Jr. (K–J Adm. III.H); Martin, James D. (Opp. III.I); Martin, Graham A. (Viet. III.C)
+  - Martin: Martin, John Bartlow (K–J Adm. III.E); Martin, William McChesney, Jr. (K–J Adm. III.H); Martin, Joe (K–J Cong. III.K); Martin, James D. (Opp. III.I); Martin, Graham A. (Viet. III.C)
 - `cal.1967-06-12.court-4` (June 12, XCII 196706.yaml): *Curtis Publishing Co. v. Butts*, [388 U.S. 130](https://tile.loc.gov/storage-services/service/ll/usrep/usrep3
   - Harlan: Harlan, John Marshall (K–J Cong. III.G)
 - `cal.1967-06-20.draft` (June 20, XCII 196706.yaml): Houston. Muhammad Ali convicted in federal court of refusing induction, after a jury's brief deliberation; Jud
@@ -197,12 +153,14 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Ward: Ward, Joseph D. (K–J Cong. III.F); Ward, Daniel P. (K–J Cong. III.K); Ward, Henry (K–J Cong. III.K)
 - `cal.1967-07-24.civil-disorders` (July 24–26, XCIII 196707.yaml): Cambridge, Md. H. Rap Brown, SNCC's chairman, to a crowd of several hundred, night of July 24: "If America don
   - Ward: Ward, Joseph D. (K–J Cong. III.F); Ward, Daniel P. (K–J Cong. III.K); Ward, Henry (K–J Cong. III.K)
+- `cal.1967-07-26.amendments` (July 26, XCIII 196707.yaml): Ramsey Clark to House Judiciary for the District's representation in Congress: "What perfect irony that our gr
+  - Ramsey: Ramsey, Claude (K–J Cong. III.K)
 - `cal.1967-10-02.court` (Oct. 2, XCVI 196710.yaml): The October Term opens; Marshall, confirmed Aug. 30, takes his seat, the first Negro on the Court. Sept. 30, a
   - Erwin: Erwin, James S. (K–J Cong. III.F)
+- `cal.1967-10-21.war-opposition` (Oct. 21–23, XCVI 196710.yaml): The March on the Pentagon, called by the National Mobilization Committee, Dellinger its chairman. A rally at t
+  - Ramsey: Ramsey, Claude (K–J Cong. III.K)
 - `cal.1967-10-30.amendments` (Oct. 30–31, XCVI 196710.yaml): Senate Judiciary's Subcommittee on Separation of Powers on Ervin's S. 2307, the convention bill: hearings Oct.
   - Powers: Powers, David F. (K–J Adm. III.B); Powers, Francis Gary (K–J Adm. III.I); Powers, Georgia Davis (K–J Cong. III.K)
-- `cal.1967-11.mayors-baltimore` (Nov., XCVII 196711.yaml): Baltimore. Thomas D'Alesandro III, president of the City Council, son of the mayor of 1947–59, elected mayor o
-  - Thomas: Thomas, Albert (K–J Cong. III.D); Thomas, Daniel H. (K–J Cong. III.K); Thomas, Lera M. (K–J Cong. III.K)
 - `cal.1968-01-26.japan-and-korea-pueblo` (Jan. 26, XCIX 196801.yaml): 3:58 p.m., Johnson's address from the Fish Room: the raid on Seoul and the *Pueblo*; the question before the S
   - Fish: Fish, Hamilton, Jr. (Wg. III.G)
 - `cal.1968-02-01.elections-1968` (Feb. 1–2, C 196802.yaml): Nixon announces for the Republican nomination in a letter to New Hampshire's voters, Feb. 1; at Manchester, Fe
@@ -214,24 +172,15 @@ the person; several mean the surname is shared). "?" marks a surname that is als
 - `cal.1968-02-27.farm` (Feb. 27, C 196802.yaml): Message on agriculture, "Prosperity and Progress for the Farmer and Rural America," a seven-point plan: Food f
   - Farmer: Farmer, James (K–J Cong. III.H); Farmer, Edward G. (K–J Cong. III.K)
 - `cal.1968-02.states-and-cities-ar` (Feb., C 196802.yaml): Arkansas. Thomas Murton, Rockefeller's superintendent at the Cummins prison farm, digs up three skeletons on i
-  - Thomas: Thomas, Albert (K–J Cong. III.D); Thomas, Daniel H. (K–J Cong. III.K); Thomas, Lera M. (K–J Cong. III.K)
   - Tucker: Tucker, Raymond R. (K–J Cong. III.F)
 - `cal.1968-03-01.students-los-angeles` (Mar. 1, CI 196803.yaml): Los Angeles. Mexican American students walk out of Wilson High School, on the East Side.
   - Wilson: Wilson, Henry Hall (K–J Adm. III.C); Wilson, Harold (K–J Adm. III.J); Wilson, Will R. (K–J Cong. III.K); Wilson, Bob (Opp. III.C)
 - `cal.1968-03-05.students-los-angeles` (Mar. 5–8, CI 196803.yaml): Los Angeles. The walkouts spread through the East Side's high schools: Garfield, some 2,000, Mar. 5; Lincoln, 
   - Roosevelt: Roosevelt, Franklin D., Jr. (K–J Adm. III.G); Roosevelt, James (K–J Cong. III.D); Roosevelt, Eleanor (K–J Cong. III.H)
-- `cal.1968-03-12.specials` (Mar. 12, CI 196803.yaml): Mississippi 3rd, special run-off. Charles H. Griffin (D), administrative assistant to John Bell Williams (D), 
-  - Ellis: Ellis, Frank B. (K–J Cong. III.G)
 - `cal.1968-03-15.open-housing-ky` (Mar. 15, CI 196803.yaml): Kentucky's General Assembly passes a statewide fair housing act, the first in the South: Senator Georgia Davis
   - Davis: Davis, James T. (K–J Adm. III.F); Davis, Deane C. (K–J Cong. III.F); Davis, Ilus W. (K–J Cong. III.F); Davis, Jimmie H. (K–J Cong. III.F); Davis, Rennie (K–J Cong. III.K); Davis, John E. (Opp. III.H)
 - `cal.1968-03-16.vietnam` (Mar. 16, CI 196803.yaml): Quảng Ngãi Province. Charlie Company, 1st Battalion, 20th Infantry, of the Americal Division's Task Force Bark
   - Barker: Barker, Bernard L. (Wg. III.C)
-- `cal.1968-03-18.king` (Mar. 18, CI 196803.yaml): Memphis, the sanitation strike. King at Mason Temple calls for a general strike and a march.
-  - Temple: Temple, Larry (1968 III.A)
-- `cal.1968-03-28.king-memphis` (Mar. 28, CI 196803.yaml): Memphis. The march from Clayborn Temple, King at its head, breaks up as windows are smashed and stores looted 
-  - Temple: Temple, Larry (1968 III.A)
-- `cal.1968-04-03.king` (Apr. 3, CII 196804.yaml): Memphis. The federal district court bars a second march, on the city's petition (Check). King at Mason Temple,
-  - Temple: Temple, Larry (1968 III.A)
 - `cal.1968-04-23.students` (Apr. 23–24, CII 196804.yaml): New York. Columbia. Apr. 23, SDS, Rudd its chapter's chairman, and the Students' Afro-American Society rally a
   - Avery: Avery, William H. (Opp. III.H)
 - `cal.1968-05-13.king-poor-peoples` (May 13, CIII 196805.yaml): Washington. In West Potomac Park, by the Reflecting Pool, Abernathy drives the first stake of Resurrection Cit
@@ -240,12 +189,12 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Duncan: Duncan, Robert B. (K–J Cong. III.D)
 - `cal.1968-05-27.draft` (May 27, CIII 196805.yaml): *United States v. O'Brien*, [391 U.S. 367](https://tile.loc.gov/storage-services/service/ll/usrep/usrep391/usr
   - O'Brien: O'Brien, Lawrence F. (K–J Adm. III.B, 1968 III.I); O'Brien, John L. (K–J Cong. III.K)
+- `cal.1968-06-08.king` (June 8, CIV 196806.yaml): London Airport. Scotland Yard arrests Ray, traveling on a Canadian passport as Ramon George Sneyd, on his way 
+  - Ramsey: Ramsey, Claude (K–J Cong. III.K)
 - `cal.1968-07-30.governors-ar` (July 30, CV 196807.yaml): Arkansas's Democratic primary for governor, to face Rockefeller: Marion Crank, once Speaker of the House, 106,
   - Bruce: Bruce, David K. E. (K–J Adm. III.E)
 - `cal.1968-08-07.civil-disorders` (Aug. 7–9, CVI 196808.yaml): Miami, Liberty City, during the Republican convention. A rally at the Vote Power League's building, Aug. 7, en
   - Power: Power, Thomas S. (K–J Adm. III.F)
-- `cal.1968-08-11.mississippi` (Aug. 11, CVI 196808.yaml): Jackson, the Masonic Temple. The Loyal Democrats' State convention, Aaron Henry in the chair: the Young Democr
-  - Temple: Temple, Larry (1968 III.A)
 - `cal.1968-08-28.elections-1968-chicago` (Aug. 28, CVI 196808.yaml): Chicago. From Grant Park, the march stopped; at Michigan Avenue and Balbo, in front of the Conrad Hilton, the 
   - Conrad: Conrad, Charles, Jr. (K–J Cong. III.K); Conrad, Robert B. (K–J Cong. III.K)
 - `cal.1968-09-07.women` (Sept. 7, CVII 196809.yaml): Atlantic City. New York Radical Women and others picket the Miss America Pageant on the Boardwalk: a "Freedom 
