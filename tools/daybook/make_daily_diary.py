@@ -24,8 +24,9 @@ STYLE (for whoever renders it; the Diary's line in the day layout is not wired i
     NLJ-PJDD-A-YYYYMMDD). A day the Catalog holds twice (Aug. 4, 1964: the Diary entry and an exhibit's copy of it)
     keeps the series' own item; the other goes.
  2. A calendar note cites the day as "[President's Daily Diary, Aug. 4, 1964](https://catalog.archives.gov/id/192446),
-    p. 3 (LBJ Library)": after the document of the act (the statute, the Public Papers item, the FRUS document), before
-    the bibliography; the page is the image's number in the item.
+    images 3, 5 (LBJ Library; National Archives Catalog)": after the document of the act (the statute, the Public
+    Papers item, the FRUS document), before the bibliography; an image is the page's number in the Catalog's item,
+    not the Diary's own page number. tools/bib/diary.py checks the rows and the calendar's links (its STYLE).
 """
 import json
 import os

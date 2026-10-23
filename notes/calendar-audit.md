@@ -3,16 +3,16 @@
 Written by `./bib audit-cal` (`tools/bib/calaudit.py`): the dated entries checked against the brief in
 CLAUDE.md ("The calendar"). A review list: a hit is a place to look, not an error. Rerun after editing.
 
-5036 dated entries.
+5097 dated entries.
 
 | Check | Entries |
 |---|---|
-| A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 91 |
+| A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 92 |
 | (of which only a President's surname: Eisenhower, Kennedy, Johnson) | 1 |
 | Neither a bibliography of its own nor a `See [[id]]` back | 0 |
-| No primary record linked or named | 654 |
+| No primary record linked or named | 694 |
 | A primary record named but not linked | 102 |
-| Threads (statements listed for review) | 223 |
+| Threads (statements listed for review) | 224 |
 
 ## Names
 
@@ -88,7 +88,9 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Marcos: Marcos, Ferdinand E. (K–J Adm. III.J)
 - `cal.1965-11-09.states-and-cities` (Nov. 9, LXXII 196511.yaml): The Northeast blackout. 5:16 p.m.: a relay on a line from the Sir Adam Beck station, Queenston, Ontario, trips
   - Beck: Beck, Robert K. (K–J Cong. III.K)
-- `cal.1965-11-14.vietnam` (Nov. 14–18, LXXII 196511.yaml): Ia Drang. Moore's 1st Battalion, 7th Cavalry, of the 1st Cavalry Division (Airmobile), lands by helicopter at 
+- `cal.1965-11-14.vietnam` (Nov. 14–16, LXXII 196511.yaml): Ia Drang. Moore's 1st Battalion, 7th Cavalry, of the 1st Cavalry Division (Airmobile), lands by helicopter at 
+  - Ray: Ray, Robert D. (K–J Cong. III.F); Ray, James Earl (K–J Cong. III.K)
+- `cal.1965-11-17.vietnam-operations` (Nov. 17, LXXII 196511.yaml): Ia Drang. The 2d Battalion, 7th Cavalry, marching from X-Ray, ambushed short of LZ Albany; some 155 killed. Ch
   - Ray: Ray, Robert D. (K–J Cong. III.F); Ray, James Earl (K–J Cong. III.K)
 - `cal.1965-12-20.europe-and-the-alliance` (Dec. 20–21, LXXIII 196512.yaml): Erhard in Washington, with Schroeder and von Hassel. Joint statement, Dec. 21: the Federal Republic and other 
   - Schroeder: Schroeder, Anthony C. (K–J Cong. III.K); Schroeder, Jack (K–J Cong. III.K)
@@ -455,6 +457,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1964-02-03.mayors-dallas` (Feb. 3, LI 196402.yaml): Dallas. Mayor Cabell resigns to run for Congress against Representative Alger (R). Erik Jonsson, chairman of T
 - `cal.1964-02-25.desegregation-schools-chicago` (Feb. 25, LI 196402.yaml): Chicago. The Coordinating Council's second boycott of the schools, against Willis. Fewer out than Oct. 22 (Che
 - `cal.1964-02-26.desegregation-schools-boston` (Feb. 26, LI 196402.yaml): Boston. The second Freedom Stay-Out: nearly 20,000 pupils absent, over 10,000 at some forty Freedom Schools, b
+- `cal.1964-02-29.elections-1964-state-conventions` (Feb. 29, LI 196402.yaml): Oklahoma's Republican State convention pledges its 22 delegates to Goldwater, the first State to.
 - `cal.1964-03-05.desegregation-public-places-ky` (Mar. 5, LII 196403.yaml): Frankfort, Ky. Some 10,000 march on the Capitol for a State public accommodations bill; King, Abernathy and Ja
 - `cal.1964-03-06.elections-1964` (Mar. 6, LII 196403.yaml): Wallace at Madison: he files in Wisconsin's Democratic presidential primary, his slate of sixty delegates agai
 - `cal.1964-03-06.states-and-cities-san-francisco` (Mar. 6–7, LII 196403.yaml): San Francisco. The Ad Hoc Committee to End Discrimination pickets the Sheraton-Palace Hotel over the hotels' h
@@ -463,6 +466,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1964-03-12.black-nationalism` (Mar. 12, LII 196403.yaml): Malcolm X at the Park Sheraton: his own Muslim Mosque, Inc., in Harlem; ready to work with civil rights groups
 - `cal.1964-03-14.states-and-cities-san-francisco` (Mar. 14, LII 196403.yaml): San Francisco, Auto Row on Van Ness Avenue: 107 arrested at the Cadillac agency.
 - `cal.1964-03-16.desegregation-schools-nyc` (Mar. 16, LII 196403.yaml): New York. A second one-day boycott of the city's schools, called by Galamison's committee without the NAACP (C
+- `cal.1964-03-21.elections-1964-state-conventions` (Mar. 21, LII 196403.yaml): South Carolina's Republican State convention pledges its 16 delegates to Goldwater.
 - `cal.1964-03-31.desegregation-public-places-fl` (Mar. 31, LII 196403.yaml): St. Augustine, Fla. Mrs. Malcolm Peabody, 72, mother of Governor Peabody of Massachusetts, arrested with an in
 - `cal.1964-04-03.black-nationalism` (Apr. 3, LIII 196404.yaml): "The Ballot or the Bullet," Malcolm X at Cory Methodist Church, Cleveland, under CORE's auspices: register and
 - `cal.1964-04-07.desegregation-schools-cleveland` (Apr. 7, LIII 196404.yaml): Cleveland. The Reverend Bruce Klunder, of the United Freedom Movement and CORE, crushed by a backing bulldozer
@@ -472,21 +476,29 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1964-04-12.black-nationalism` (Apr. 12, LIII 196404.yaml): "The Ballot or the Bullet" again, Malcolm X at Detroit. He leaves for Mecca and Africa, Apr. 13–May 21.
 - `cal.1964-04-13.robert-kennedy` (Apr. 13, LIII 196404.yaml): Robert Kennedy recorded by John Bartlow Martin for the Kennedy Library's oral history.
 - `cal.1964-04-17.states-and-cities-san-francisco` (Apr. 17, LIII 196404.yaml): San Francisco, Auto Row. The Lincoln-Mercury dealer settles; the dealers and the demonstrators give pledges on
+- `cal.1964-04-18.elections-1964-state-conventions` (Apr. 18, LIII 196404.yaml): Arizona's Republican State convention pledges its 16 delegates to Goldwater.
 - `cal.1964-04-20.desegregation-schools-cleveland` (Apr. 20, LIII 196404.yaml): Cleveland. A boycott of the schools: some 60,000 Negro pupils out (Check the date and figure). Locher stands w
 - `cal.1964-04-26.africa` (Apr. 26, LIII 196404.yaml): Tanganyika and Zanzibar united, Nyerere President, Karume First Vice President (Check).
 - `cal.1964-04-30.robert-kennedy` (Apr. 30, LIII 196404.yaml): Robert Kennedy recorded by John Bartlow Martin for the Kennedy Library's oral history.
 - `cal.1964-05-02.governors-tx` (May 2, LIV 196405.yaml): Texas primaries. Democratic, for governor: Connally 69.1 percent, Don Yarborough 28.9. For Senator: U.S. Senat
+- `cal.1964-05-02.elections-1964-state-conventions` (May 2, LIV 196405.yaml): Georgia's Republican State convention pledges its 4 delegates at large to Goldwater: with the district convent
 - `cal.1964-05-14.robert-kennedy` (May 14, LIV 196405.yaml): Robert Kennedy's last session with John Bartlow Martin for the Kennedy Library. Later sessions: Anthony Lewis,
 - `cal.1964-05-18.desegregation-schools-milwaukee` (May 18, LIV 196405.yaml): Milwaukee. The Milwaukee United School Integration Committee, Barbee its chairman, keeps about 11,000 Negro ch
 - `cal.1964-05-24.goldwater` (May 24, LIV 196405.yaml): ABC's *Issues and Answers*, recorded. Goldwater on the Viet Cong's supply lines: "defoliation of the forests b
+- `cal.1964-05-30.elections-1964-state-conventions` (May 30, LIV 196405.yaml): Mississippi's Republican State convention pledges its 13 delegates to Goldwater.
+- `cal.1964-06-05.elections-1964-state-conventions` (June 5, LV 196406.yaml): Washington's Republican State convention: 21 of its 24 delegates pledged to Goldwater, 3 uncommitted.
 - `cal.1964-06-06.elections-1964-tx` (June 6, LV 196406.yaml): Texas Republican runoff for Senator: George Bush 49,751, 62.1 percent; Jack Cox 30,333.
+- `cal.1964-06-06.elections-1964-state-conventions` (June 6, LV 196406.yaml): Colorado's Republican State convention: its 10 delegates at large for Goldwater; of the 6 the district convent
+- `cal.1964-06-06.elections-1964-state-conventions-2` (June 6, LV 196406.yaml): Alabama's Republican State convention pledges its 20 delegates to Goldwater and names its candidates for Congr
 - `cal.1964-06-09.governors-in` (June 9, LV 196406.yaml): Indiana's Republican convention names Lieutenant Governor Ristine for governor, who broke the Senate's tie for
 - `cal.1964-06-11.desegregation-public-places-fl` (June 11, LV 196406.yaml): St. Augustine. King arrested on the steps of the Monson Motor Lodge's restaurant.
 - `cal.1964-06-12.elections-1964` (June 12, LV 196406.yaml): Scranton announces for the Republican nomination, at the Maryland Republican convention in Baltimore. Rockefel
 - `cal.1964-06-12.africa` (June 12, LV 196406.yaml): Pretoria. Mandela and seven others of the Rivonia trial sentenced to life imprisonment.
 - `cal.1964-06-12.governors-in` (June 12, LV 196406.yaml): Indiana's Democratic convention names Roger Branigin for governor, a lawyer of Lafayette, Ind., 65.6 percent; 
+- `cal.1964-06-16.elections-1964-state-conventions` (June 16, LV 196406.yaml): Texas's Republican State convention pledges its 56 delegates to Goldwater. With them, by the papers' counts, a
 - `cal.1964-06-18.desegregation-public-places-fl` (June 18, LV 196406.yaml): St. Augustine. Seventeen rabbis arrested at the Monson Motor Lodge; Negro and white demonstrators in its pool,
 - `cal.1964-06-19.congress` (June 19, LV 196406.yaml): Edward Kennedy's chartered plane, taking him and Bayh from the vote to the Massachusetts Democratic convention
+- `cal.1964-06-19.elections-1964-state-conventions` (June 19, LV 196406.yaml): Montana's Republican State convention pledges its 14 delegates to Goldwater for three ballots.
 - `cal.1964-06-28.black-nationalism` (June 28, LV 196406.yaml): Malcolm X founds the Organization of Afro-American Unity at the Audubon Ballroom, Washington Heights, on the m
 - `cal.1964-07-12.elections-1964` (July 12, LVI 196407.yaml): Scranton's letter to Goldwater, the day before the convention: "Goldwaterism" has come to stand for "a whole c
 - `cal.1964-07-19.elections-1964` (July 19, LVI 196407.yaml): Wallace, on CBS's *Face the Nation*, withdraws as a candidate for President, four days after Goldwater's nomin
@@ -574,15 +586,19 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1965-11-02.mayors-pittsburgh` (Nov. 2, LXXII 196511.yaml): Pittsburgh. Barr (D) re-elected over the Republican, an attorney, 109,947 to 65,969, 62.5 percent.
 - `cal.1965-11-06.mayors-new-orleans` (Nov. 6, LXXII 196511.yaml): New Orleans, Democratic primary for mayor: Schiro 81,973, 50.1 percent; Fitzmorris, a councilman, 78,654, 48.1
 - `cal.1965-11-10.robert-kennedy` (Nov. 10–30, LXXII 196511.yaml): Robert Kennedy in South America, three weeks: Peru, Chile, Argentina, Brazil. Check the end date and the dates
+- `cal.1965-11-17.vietnam-operations` (Nov. 17, LXXII 196511.yaml): Ia Drang. The 2d Battalion, 7th Cavalry, marching from X-Ray, ambushed short of LZ Albany; some 155 killed. Ch
 - `cal.1965-11-19.economy` (Nov. 19, LXXII 196511.yaml): Anaconda and the other copper producers back to 36 cents.
 - `cal.1965-11-22.civil-rights-organizations-charlotte` (Nov. 22, LXXII 196511.yaml): Charlotte. Bombs at the homes of four Negro leaders: Julius Chambers, counsel in the suit against the city's a
 - `cal.1965-11-30.transportation` (Nov. 30, LXXII 196511.yaml): Nader's *Unsafe at Any Speed* published (Check the day). Its first chapter, the Corvair.
 - `cal.1965-12-02.states-and-cities-los-angeles` (Dec. 2, LXXIII 196512.yaml): The Governor's Commission on the Los Angeles Riots, McCone chairman, reports: *Violence in the City—An End or 
+- `cal.1965-12-08.vietnam-operations` (Dec. 8–9, LXXIII 196512.yaml): Harvest Moon, the Marines' and the South Vietnamese 2d Division's operation in the Quế Sơn valley against the 
 - `cal.1965-12-17.desegregation-schools-philadelphia` (Dec. 17, LXXIII 196512.yaml): Philadelphia. The NAACP's picket of Girard College ends, after seven months. Check the date.
+- `cal.1965-12-20.vietnam-operations` (Dec. 20, LXXIII 196512.yaml): Harvest Moon ends, the allied forces back in their enclaves; the Marine battalions out of the area the day bef
 - `cal.1966-01-01.jobs-and-wages` (Jan. 1, LXXIV 196601.yaml): New York. Lindsay sworn as mayor; the Transport Workers Union strikes the subways and buses the same morning. 
 - `cal.1966-01-03.civil-rights-organizations` (Jan. 3, LXXIV 196601.yaml): CORE names McKissick national director, to succeed Farmer, who goes to a national literacy program. McKissick 
 - `cal.1966-01-04.states-and-cities` (Jan. 4, LXXIV 196601.yaml): Reagan announces for governor of California, on television. Check the date.
 - `cal.1966-01-04.jobs-and-wages-transit` (Jan. 4, LXXIV 196601.yaml): New York. Quill and other leaders of the Transport Workers Union jailed for contempt of the injunction; Quill 
+- `cal.1966-01-08.vietnam-operations` (Jan. 8, LXXIV 196601.yaml): Crimp, in the woods on the Saigon River's west bank opposite the Iron Triangle, in Bình Dương and Hậu Nghĩa: t
 - `cal.1966-01.legislatures-us` (Jan., LXXIV 196601.yaml): Reapportionment at the end of 1965, as the *State Legislatures Progress Reporter* counts it: suits against the
 - `cal.1966-01-10.mississippi` (Jan. 10, LXXV 196601b.yaml): Hattiesburg. Before dawn, Klansmen fire on and firebomb the house and store of Vernon Dahmer, president of the
 - `cal.1966-01-17.european-community` (Jan. 17–18, LXXV 196601b.yaml): Luxembourg. The Six's foreign ministers on the French boycott of the Council; adjourned to Jan. 28.
@@ -632,6 +648,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1966-07-30.vietnam` (July 30, LXXXI 196607.yaml): Ground operations in the southern half of the demilitarized zone authorized, when in contact.
 - `cal.1966-08.jobs-and-wages-farm-workers` (Aug., LXXXII 196608.yaml): Connally meets the Texas farm workers' march at New Braunfels, Tex.
 - `cal.1966-08-02.governors-id` (Aug. 2, LXXXII 196608.yaml): Idaho's primary. Republican, for governor: Samuelson, a State senator, 52,891, 61.0 percent, over Smylie, gove
+- `cal.1966-08-03.vietnam-operations` (Aug. 3, LXXXII 196608.yaml): Hastings ends, one battalion left in its area. Some 8,000 Marines and 3,000 South Vietnamese engaged against e
 - `cal.1966-08-04.elections-1966` (Aug. 4, LXXXII 196608.yaml): Tennessee, Democratic Senate primary: Clement, the governor, defeats Bass, 384,322 to 366,079; Bass had won th
 - `cal.1966-08-05.open-housing` (Aug. 5, LXXXII 196608.yaml): Chicago. The marches into the white neighborhoods of the Southwest Side, from late July. Aug. 5, Marquette Par
 - `cal.1966-08-08.india-and-china` (Aug. 8, LXXXII 196608.yaml): Peking. The Central Committee's plenum, Aug. 1–12, adopts the Sixteen Points on the Great Proletarian Cultural
@@ -644,10 +661,12 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1966-09-12.mississippi` (Sept. 12–17, LXXXIII 196609.yaml): Grenada. About 250 Negro children, of 450 enrolled under a federal court order in the white schools, go to cla
 - `cal.1966-09-13.states-and-cities-nyc` (Sept. 13, LXXXIII 196609.yaml): New York. Percy Sutton, Assemblyman from Harlem, chosen Manhattan's borough president in Motley's place, she h
 - `cal.1966-09-13.governors-vt` (Sept. 13, LXXXIII 196609.yaml): Vermont's Republican primary for governor. Snelling 22,069, 59.0 percent; Hayes 15,286. Hoff re-elected in Nov
+- `cal.1966-09-14.vietnam-operations` (Sept. 14, LXXXIII 196609.yaml): Attleboro begins: battalion probes around Tây Ninh by the 196th Light Infantry Brigade, new to the country, se
 - `cal.1966-09-27.states-and-cities-san-francisco` (Sept. 27–Oct. 2, LXXXIII 196609.yaml): San Francisco. A policeman shoots Matthew Johnson, 16, running from a stolen car at Hunters Point, Sept. 27; r
 - `cal.1966-09.desegregation-schools-nyc` (Sept., LXXXIII 196609.yaml): New York. Intermediate School 201, in East Harlem, new and windowless, its pupils Negro and Puerto Rican: pare
 - `cal.1966-09.governors-id` (Sept., LXXXIII 196609.yaml): Idaho. Herndon, the Democratic nominee for governor, killed with two others in the crash of a private plane in
 - `cal.1966-10-15.black-nationalism` (Oct. 15, LXXXIV 196610.yaml): Oakland. Huey P. Newton and Bobby Seale found the Black Panther Party for Self-Defense. Its ten-point program,
+- `cal.1966-11-03.vietnam-operations` (Nov. 3, LXXXV 196611.yaml): Attleboro. North from the cache sites near Dầu Tiếng toward the Ba Hao stream, the 196th Brigade's battalions 
 - `cal.1966-11-08.state-constitutions-ny` (Nov. 8, LXXXV 196611.yaml): New York. Delegates to the constitutional convention of 1967 elected, fifteen at large from party lists and th
 - `cal.1966-11-08.states-and-cities-nyc` (Nov. 8, LXXXV 196611.yaml): New York City. The Patrolmen's Benevolent Association's amendment to the charter carries, nearly two to one (C
 - `cal.1966-11-08.state-constitutions-la` (Nov. 8, LXXXV 196611.yaml): Louisiana's voters approve a domed stadium for New Orleans, the Louisiana Stadium and Exposition District and 
@@ -655,6 +674,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1966-11-08.legislatures-az` (Nov. 8, LXXXV 196611.yaml): Arizona's legislature, elected in new districts after *Reynolds v. Sims*. The Senate, two members for each of 
 - `cal.1966-11-08.states-and-cities-memphis` (Nov. 8, LXXXV 196611.yaml): Memphis's voters approve a new charter: a mayor and a council of 13, six elected at large and seven by distric
 - `cal.1966-11-16.succession` (Nov. 16, LXXXV 196611.yaml): Johnson's two operations done at Bethesda Naval Hospital.
+- `cal.1966-11-25.vietnam-operations` (Nov. 25, LXXXV 196611.yaml): Attleboro ends, its last unit back at Tây Ninh. The accepted count: 1,016 of the enemy dead. B-52s: 225 sortie
 - `cal.1966-12.civil-rights-organizations` (Dec., LXXXVI 196612.yaml): SNCC's staff meets at Peg Leg Bates's resort, Kerhonkson, N.Y. A vote to exclude whites from membership carrie
 - `cal.1966-12-05.africa-rhodesia` (Dec. 5, LXXXVI 196612.yaml): Smith's cabinet at Salisbury rejects the *Tiger* document (Check the date).
 - `cal.1966-12-08.africa-rhodesia` (Dec. 8, LXXXVI 196612.yaml): Britain asks the Security Council for selective mandatory sanctions on Rhodesia.
@@ -665,20 +685,22 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1966-12.health-us` (Dec., LXXXVI 196612.yaml): Medicaid at the year's end: 29 States have begun programs. A State without one by 1970 to lose federal matchin
 - `cal.1967-01-02.states-and-cities` (Jan. 2, LXXXVII 196701.yaml): Sacramento. Reagan sworn as governor of California in the Capitol just after midnight, Finch as lieutenant gov
 - `cal.1967-01-07.elections-1968` (Jan. 7, LXXXVII 196701.yaml): New York. Nixon with his advisers, in private: a campaign for the nomination to be prepared; he to stay out of
-- `cal.1967-01-08.vietnam` (Jan. 8, LXXXVII 196701.yaml): Cedar Falls, Jan. 8–26: some 30,000 American and South Vietnamese troops in the Iron Triangle, northwest of Sa
+- `cal.1967-01-08.vietnam` (Jan. 8, LXXXVII 196701.yaml): Cedar Falls begins: some 30,000 American and South Vietnamese troops in the Iron Triangle, northwest of Saigon
 - `cal.1967-01-16.assassination` (Jan. 16, LXXXVII 196701.yaml): Jacqueline Kennedy's suit settled: passages of *The Death of a President* she objected to cut or changed by Ma
 - `cal.1967-01-20.students` (Jan. 20, LXXXVII 196701.yaml): Berkeley. The Regents of the University of California dismiss Kerr as president, 14–8, at Reagan's first meeti
+- `cal.1967-01-26.vietnam-operations` (Jan. 26, LXXXVII 196701.yaml): Cedar Falls ends at midnight, after nineteen days. Counted: nearly 750 of the enemy dead, 280 prisoners, 540 r
 - `cal.1967-01-28.vietnam` (Jan. 28, LXXXVII 196701.yaml): Nguyễn Duy Trinh, Foreign Minister, to Burchett: talks "could" follow an unconditional end of the bombing.
 - `cal.1967-01.crime-and-hijacking-fl` (Jan., LXXXVII 196701.yaml): Florida. Kirk, sworn Jan. 3, the first Republican governor since Reconstruction, opens a "war on crime," hirin
 - `cal.1967-02-14.congress-powell` (Feb. 14, LXXXVIII 196702.yaml): Powell's counsel before the select committee, Powell absent: the standing qualifications the sole test; no pun
 - `cal.1967-02-17.assassination` (Feb. 17, LXXXVIII 196702.yaml): New Orleans. The *States-Item* reports that Garrison, the district attorney, is investigating the assassinatio
-- `cal.1967-02-22.vietnam` (Feb. 22, LXXXVIII 196702.yaml): Junction City, in War Zone C, Tây Ninh Province, toward the Cambodian border, to May 14: the 1st and 25th Infa
+- `cal.1967-02-22.vietnam` (Feb. 22, LXXXVIII 196702.yaml): Junction City, in War Zone C, Tây Ninh Province, toward the Cambodian border, begins: the 1st and 25th Infantr
 - `cal.1967-02-22.assassination-garrison` (Feb. 22, LXXXVIII 196702.yaml): New Orleans. Ferrie, whom Garrison has questioned, found dead in his apartment; the coroner: natural causes (C
 - `cal.1967-02-25.war-opposition` (Feb. 25, LXXXVIII 196702.yaml): Beverly Hills, Cal. King, at a symposium of *The Nation* with Hatfield, McCarthy and Gruening: "The Casualties
 - `cal.1967-02-28.mayors-chicago` (Feb. 28, LXXXVIII 196702.yaml): Chicago primaries for mayor. Democratic: Daley renominated for a fourth term, some 420,000 votes (Check). Repu
 - `cal.1967-03-14.assassination-garrison` (Mar. 14–17, LXXXIX 196703.yaml): New Orleans. Shaw's preliminary hearing before three judges: the witness testifies to a meeting at which Shaw,
 - `cal.1967-03-25.war-opposition` (Mar. 25, LXXXIX 196703.yaml): Chicago. King leads a march against the war down State Street, some 5,000, Spock with him (Check), his first s
 - `cal.1967-03-27.vietnam-thant` (Mar. 27, LXXXIX 196703.yaml): Hanoi's Foreign Ministry rejects Thant's proposal: the United Nations has no right to interfere in Vietnam.
+- `cal.1967-03-31.vietnam-operations` (Mar. 31–Apr. 1, LXXXIX 196703.yaml): Junction City: Ấp Gù, in War Zone C. Haig's 1st Battalion, 26th Infantry, and the 1st Battalion, 16th Infantry
 - `cal.1967-04-04.king` (Apr. 4, XC 196704.yaml): New York, Riverside Church, Clergy and Laymen Concerned About Vietnam: King's "Beyond Vietnam." The government
 - `cal.1967-04-04.mayors-chicago` (Apr. 4, XC 196704.yaml): Chicago. Daley (D) elected to a fourth term over Waner (R), 792,238 to 272,542, 73.0 percent, carrying all fif
 - `cal.1967-04-04.state-constitutions-ny` (Apr. 4, XC 196704.yaml): Albany, N.Y. New York's constitutional convention opens, the delegates elected in November 1966. Travia, Speak
@@ -690,14 +712,19 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1967-04-11.open-housing-louisville` (Apr. 11, XC 196704.yaml): Louisville. The Board of Aldermen, Republican, defeats an open housing ordinance, 9–3, over Mayor Schmied's ap
 - `cal.1967-04-15.war-opposition` (Apr. 15, XC 196704.yaml): The Spring Mobilization to End the War in Vietnam. New York: from Central Park to the United Nations; King, Sp
 - `cal.1967-04-24.vietnam-air-war` (Apr. 24, XC 196704.yaml): The airfields at Kép and Hòa Lạc struck for the first time.
+- `cal.1967-04-24.vietnam-operations` (Apr. 24, XC 196704.yaml): The hill fights at Khe Sanh begin: a Marine patrol sent to set up an observation post on Hill 861 meets North 
 - `cal.1967-05-02.mayors-gary` (May 2, XCI 196705.yaml): Gary, Democratic primary for mayor. Richard Hatcher, a Negro member of the city council, 18,227, 39.3 percent;
 - `cal.1967-05-02.black-nationalism-oakland` (May 2, XCI 196705.yaml): Sacramento. Armed Black Panthers from Oakland, some thirty, led by Seale, at the Capitol against Mulford's bil
+- `cal.1967-05-05.vietnam-operations` (May 5, XCI 196705.yaml): The Marines take Hill 881 North, 2:45 p.m. The first battle for Khe Sanh, Apr. 24–May 11: reported, 940 of the
 - `cal.1967-05-12.civil-rights-organizations` (May 12, XCI 196705.yaml): Atlanta. SNCC's central committee chooses H. Rap Brown, 23, its Alabama project director, chairman for Carmich
+- `cal.1967-05-14.vietnam-operations` (May 14, XCI 196705.yaml): Junction City ends at midnight, the largest offensive operation of the war to that time. Its final totals: 2,7
 - `cal.1967-05-15.robert-kennedy` (May 15, XCI 196705.yaml): CBS, *Town Meeting of the World*: Robert Kennedy and Reagan on the war, answering students in Europe by satell
 - `cal.1967-05-16.mayors-philadelphia` (May 16, XCI 196705.yaml): Philadelphia primaries for mayor. Democratic: Mayor Tate 152,949, 63.8 percent, over Hemphill, the city contro
 - `cal.1967-06-05.states-and-cities-nm` (June 5, XCII 196706.yaml): Tierra Amarilla, N.M. Tijerina's Alianza raids the Rio Arriba County courthouse to free members arrested June 
 - `cal.1967-06-17.testing` (June 17, XCII 196706.yaml): China explodes its first hydrogen bomb over Lop Nur, Sinkiang, dropped from an aircraft, some 3 megatons; 32 m
 - `cal.1967-06-26.civil-disorders` (June 26–July 1, XCII 196706.yaml): Buffalo, the East Side, William Street and Jefferson Avenue. Windows broken June 27; some 200 police with riot
+- `cal.1967-07-02.vietnam-operations` (July 2, XCIII 196707.yaml): Buffalo. North of Côn Thiên, near the old marketplace on Route 561, two companies of the 1st Battalion, 9th Ma
+- `cal.1967-07-14.vietnam-operations` (July 14, XCIII 196707.yaml): Buffalo closes. The Marines report 1,290 of the enemy dead and 2 captured; their own losses 159 killed, 345 wo
 - `cal.1967-07-20.black-nationalism` (July 20–23, XCIII 196707.yaml): Newark, three days after the Guard's withdrawal: the National Conference on Black Power, more than a thousand 
 - `cal.1967-07.states-and-cities-nyc` (July–Sept., XCIII 196707.yaml): New York City. Three demonstration districts for community control of the schools, with Ford Foundation money:
 - `cal.1967-08-14.vietnam-program-5` (Aug. 14, XCIV 196708.yaml): McNamara's formal approval of Program 5: 47,296 men more, to an authorized strength of 525,000.
@@ -709,6 +736,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1967-08-31.vietnam-air-war` (Aug. 31, XCIV 196708.yaml): The Stennis subcommittee's report: for the military's view, against the restrictions (Check).
 - `cal.1967-08-31.vietnam-pennsylvania` (Aug. 31, XCIV 196708.yaml): Pennsylvania. Hanoi again refuses Marcovich and Aubrac visas.
 - `cal.1967-09-04.elections-1968` (Sept. 4, XCV 196709.yaml): Romney, in a Detroit television interview taped Aug. 31 and broadcast Sept. 4: on his return from Vietnam in 1
+- `cal.1967-09-04.vietnam-operations` (Sept. 4, XCV 196709.yaml): Swift, in the Quế Sơn basin, out of a sweep to screen the polling places on election day. Before dawn, 4:30 a.
 - `cal.1967-09-07.vietnam` (Sept. 7, XCV 196709.yaml): McNamara, at a news conference, announces an anti-infiltration system below the DMZ.
 - `cal.1967-09-11.states-and-cities-nyc` (Sept. 11, XCV 196709.yaml): New York City. The United Federation of Teachers strikes the schools as they open, Shanker its president: pay,
 - `cal.1967-09-26.state-constitutions-ny` (Sept. 26, XCV 196709.yaml): New York's constitutional convention adjourns. Its constitution to go to the voters as one question, as Travia
@@ -717,24 +745,29 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1967-10-03.mayors-cleveland` (Oct. 3, XCVI 196710.yaml): Cleveland's Democratic primary for mayor. Carl Stokes, a State representative, 110,769, 53.7 percent, over May
 - `cal.1967-10-16.states-and-cities-us` (Oct. 16, XCVI 196710.yaml): The National Governors' Conference, its 59th meeting, sails aboard the *Independence*, New York to the Virgin 
 - `cal.1967-10-16.open-housing-mi` (Oct. 16, XCVI 196710.yaml): Michigan. Demonstrators against Romney's open occupancy bill in the House gallery, some for Wallace.
+- `cal.1967-10-17.vietnam-operations` (Oct. 17, XCVI 196710.yaml): Ông Thành, a stream near the Bình Dương–Bình Long line. The 2d Battalion, 28th Infantry, of the 1st Infantry D
 - `cal.1967-10-18.students` (Oct. 18, XCVI 196710.yaml): Madison. Students sit in at the University of Wisconsin's Commerce Building against the recruiters of Dow Chem
 - `cal.1967-10-24.middle-east` (Oct. 24, XCVI 196710.yaml): Israel's guns fire the refineries at Suez (Check). Dobrynin proposes confidential consultations.
+- `cal.1967-10-29.vietnam-operations` (Oct. 29, XCVI 196710.yaml): Lộc Ninh, Bình Long Province, near the Cambodian border. At about 1 a.m., the Viet Cong 9th Division's rockets
 - `cal.1967-10.open-housing-mi` (Oct., XCVI 196710.yaml): Michigan. Romney asks the legislature, in special session, for a State open occupancy law against discriminati
 - `cal.1967-10-31.vietnam-order-of-battle` (Oct. 31, XCVI 196710.yaml): MACV's order of battle in its new form. The self-defense and secret self-defense forces and the political cadr
 - `cal.1967-11-02.mayors-memphis` (Nov. 2, XCVII 196711.yaml): Memphis, under the charter of 1966: Loeb, mayor 1960–63, elected mayor over Mayor Ingram in the runoff, Ingram
-- `cal.1967-11-03.vietnam` (Nov. 3, XCVII 196711.yaml): Đắk Tô, in the Central Highlands near the Laotian and Cambodian borders, from Nov. 3: the 4th Infantry Divisio
+- `cal.1967-11-03.vietnam` (Nov. 3, XCVII 196711.yaml): Đắk Tô, in the Central Highlands near the Laotian and Cambodian borders: the 4th Infantry Division and the 173
 - `cal.1967-11-07.mayors-cleveland` (Nov. 7, XCVII 196711.yaml): Cleveland. Stokes (D) elected mayor over Seth Taft (R), 129,318 to 127,467, 50.4 percent. He and Hatcher at Ga
 - `cal.1967-11-07.mayors-gary` (Nov. 7, XCVII 196711.yaml): Gary. Hatcher (D) elected mayor over Joseph Radigan (R), 39,940 to 37,729, 51.4 percent, the Lake County Democ
 - `cal.1967-11-07.mayors-boston` (Nov. 7, XCVII 196711.yaml): Boston. White elected mayor over Hicks, 102,706 to 90,154, 53.3 percent. Sworn Jan. 1.
 - `cal.1967-11-07.mayors-philadelphia` (Nov. 7, XCVII 196711.yaml): Philadelphia. Tate (D) re-elected over Specter (R), 353,326 to 342,398, 49.0 percent; Cecil Moore (Political F
 - `cal.1967-11-07.mayors-indianapolis` (Nov. 7, XCVII 196711.yaml): Indianapolis. Richard Lugar (R), once of the school board, elected mayor over Mayor Barton (D), 72,278 to 63,2
 - `cal.1967-11-07.mayors-san-francisco` (Nov. 7, XCVII 196711.yaml): San Francisco. Alioto elected mayor, 110,405, 44.2 percent, over Dobbs, 94,504, 37.8, and Jack Morrison of the
+- `cal.1967-11-07.vietnam-operations` (Nov. 7, XCVII 196711.yaml): Lộc Ninh's last fight. The 1st Battalion, 26th Infantry, searching for the 272d Regiment northeast of the town
 - `cal.1967-11-09.states-and-cities-nyc` (Nov. 9, XCVII 196711.yaml): New York City. Lindsay's Advisory Panel on Decentralization, Bundy its chairman, reports, *Reconnection for Le
 - `cal.1967-11-10.governors-tx` (Nov. 10, XCVII 196711.yaml): Texas. Connally: he does not "intend to be a candidate for reelection," after eight years of public service; n
 - `cal.1967-11-11.war-opposition` (Nov. 11, XCVII 196711.yaml): Phnom Penh. The NLF releases three American prisoners, Army sergeants, to Hayden; they return to the United St
 - `cal.1967-11-17.students-philadelphia` (Nov. 17, XCVII 196711.yaml): Philadelphia. Some 3,500 Negro high school students walk out to the Board of Education for courses in Negro hi
 - `cal.1967-11-18.elections-1968` (Nov. 18, XCVII 196711.yaml): Detroit, the Veterans Memorial Building. Romney announces for the Republican nomination; to campaign first in 
 - `cal.1967-11-19.vietnam` (Nov. 19, XCVII 196711.yaml): Bunker and Westmoreland on *Meet the Press*.
+- `cal.1967-11-19.vietnam-operations` (Nov. 19, XCVII 196711.yaml): Đắk Tô: Hill 875. The 2d Battalion, 503d Infantry, of the 173d Airborne Brigade, starts up the hill against th
+- `cal.1967-11-23.vietnam-operations` (Nov. 23, XCVII 196711.yaml): Thanksgiving Day. The 2d and 4th Battalions, 503d Infantry, and the 1st Battalion, 12th Infantry, take the top
 - `cal.1967-11-24.vietnam-order-of-battle` (Nov. 24, XCVII 196711.yaml): MACV's briefing on the enemy order of battle. The self-defense forces "not a fighting force comparable to the 
 - `cal.1967-11-27.european-community` (Nov. 27, XCVII 196711.yaml): De Gaulle's press conference: Britain, after the devaluation, not ready to enter the Common Market; its entry 
 - `cal.1967-11-30.elections-1968` (Nov. 30, XCVII 196711.yaml): Washington. McCarthy announces he will enter Democratic primaries against Johnson: Wisconsin, Oregon, Californ
@@ -772,6 +805,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1968-03-05.students-los-angeles` (Mar. 5–8, CI 196803.yaml): Los Angeles. The walkouts spread through the East Side's high schools: Garfield, some 2,000, Mar. 5; Lincoln, 
 - `cal.1968-03-10.vietnam` (Mar. 10, CI 196803.yaml): *New York Times*, front page: "Westmoreland Requests 206,000 More Men, Stirring Debate in Administration." A c
 - `cal.1968-03-11.testing-npt` (Mar. 11, CI 196803.yaml): Geneva. Foster and Roshchin bring the Eighteen-Nation Disarmament Committee a revised joint draft of the nonpr
+- `cal.1968-03-11.vietnam-operations` (Mar. 11, CI 196803.yaml): Quyết Thắng, the largest allied operation yet in III Corps, around Saigon: six American and ten South Vietname
 - `cal.1968-03-12.states-and-cities-ak` (Mar. 12, CI 196803.yaml): Alaska. Atlantic Richfield and Humble Oil confirm oil at Prudhoe Bay State No. 1, on State land on the North S
 - `cal.1968-03-16.vietnam` (Mar. 16, CI 196803.yaml): Quảng Ngãi Province. Charlie Company, 1st Battalion, 20th Infantry, of the Americal Division's Task Force Bark
 - `cal.1968-03-18.king` (Mar. 18, CI 196803.yaml): Memphis, the sanitation strike. King at Mason Temple calls for a general strike and a march.
@@ -788,6 +822,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1968-04-04.civil-disorders` (Apr. 4, CII 196804.yaml): Washington, from 14th and U Streets, at night: the riots after King's death begin; more than a hundred cities 
 - `cal.1968-04-05.soviet-union-czechoslovakia` (Apr. 5, CII 196804.yaml): Prague. The Central Committee under Dubček adopts the Action Program.
 - `cal.1968-04-08.king` (Apr. 8, CII 196804.yaml): Memphis: Coretta Scott King, Abernathy and the union's leaders at the head of a silent march to City Hall, som
+- `cal.1968-04-08.vietnam-operations` (Apr. 8, CII 196804.yaml): Toàn Thắng follows Quyết Thắng, out from the districts around Saigon to most of III Corps: some seventy-nine a
 - `cal.1968-04-09.king` (Apr. 9, CII 196804.yaml): Atlanta: the funeral at Ebenezer Baptist Church; the coffin on a farm wagon drawn by mules to Morehouse Colleg
 - `cal.1968-04-09.georgia-ga` (Apr. 9, CII 196804.yaml): Atlanta. King's funeral. Maddox, who had refused King lying in state at the Capitol and did not close the Stat
 - `cal.1968-04-09.states-and-cities-wilmington-de` (Apr. 9, CII 196804.yaml): Wilmington, Del. Looting and fires after King's death, Apr. 9–10; the mayor declares an emergency and a curfew
@@ -795,6 +830,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1968-04-15.civil-disorders` (Apr. 15, CII 196804.yaml): Chicago. Daley, at a news conference: he has told the police superintendent to issue orders "to shoot to kill 
 - `cal.1968-04-16.king` (Apr. 16, CII 196804.yaml): Memphis. The sanitation strike settled, Reynolds mediating: the City Council recognizes the union, AFSCME's Lo
 - `cal.1968-04-17.civil-disorders` (Apr. 17, CII 196804.yaml): Chicago. Daley: no policeman was ordered to shoot to kill (Check).
+- `cal.1968-04-19.vietnam-operations` (Apr. 19, CII 196804.yaml): Delaware: the 1st Cavalry Division into the A Shau Valley, with the 101st Airborne pushing west along Route 54
 - `cal.1968-04-23.students` (Apr. 23–24, CII 196804.yaml): New York. Columbia. Apr. 23, SDS, Rudd its chapter's chairman, and the Students' Afro-American Society rally a
 - `cal.1968-04-25.students-columbia` (Apr. 25, CII 196804.yaml): New York. Columbia suspends work on the gymnasium in Morningside Park.
 - `cal.1968-04-26.war-opposition` (Apr. 26–27, CII 196804.yaml): Apr. 26, a student strike against the war and the draft, called by the Student Mobilization Committee (Check t
@@ -802,10 +838,12 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1968-04-30.students-columbia` (Apr. 30, CII 196804.yaml): New York. Columbia. From about 2:30 a.m., the city's police clear the five buildings: some 700 arrested, nearl
 - `cal.1968-04-30.elections-1968-2` (Apr. 30, CII 196804.yaml): Rockefeller announces he will seek the Republican nomination. The same day, Massachusetts's Republican primary
 - `cal.1968-04-30.open-housing-milwaukee` (Apr. 30, CII 196804.yaml): Milwaukee. The Common Council refuses Phillips's ordinance covering all housing, 12–7, then passes one drafted
+- `cal.1968-04-30.vietnam-operations` (Apr. 30–May 2, CII 196804.yaml): The 320th North Vietnamese Division strikes north of Đông Hà, the 3d Marine Division's command post and base. 
 - `cal.1968-05-01.states-and-cities-cleveland` (May 1, CIII 196805.yaml): Cleveland. Stokes, on television, announces Cleveland: Now!, public and private money for jobs, housing, healt
 - `cal.1968-05-04.governors-tx` (May 4, CIII 196805.yaml): Texas Democratic primary for governor, Connally not running: ten candidates. Don Yarborough, a Houston lawyer,
 - `cal.1968-05-07.elections-1968-2` (May 7, CIII 196805.yaml): Indiana, Kennedy's first primary: Kennedy first; Branigin, the Governor, a favorite son pledged to Johnson's c
 - `cal.1968-05-09.states-and-cities-nyc` (May 9, CIII 196805.yaml): New York City. Ocean Hill–Brownsville's governing board, on its personnel committee's recommendation, ends the
+- `cal.1968-05-10.vietnam-operations` (May 10, CIII 196805.yaml): Khâm Đức. The 2d North Vietnamese Division's assault on Ngok Tavak, the smaller camp seven kilometers southwes
 - `cal.1968-05-12.king` (May 12, CIII 196805.yaml): The Poor People's Campaign in Washington. Mother's Day: Coretta King leads a march of welfare mothers (Check).
 - `cal.1968-05-13.king-poor-peoples` (May 13, CIII 196805.yaml): Washington. In West Potomac Park, by the Reflecting Pool, Abernathy drives the first stake of Resurrection Cit
 - `cal.1968-05-15.states-and-cities-ocean-hill` (May 15, CIII 196805.yaml): New York City. Ocean Hill–Brownsville: some 300 police open Junior High School 271 (Check the numbers).
@@ -823,6 +861,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1968-06-27.vietnam` (June 27, CIV 196806.yaml): The command announces that the Marines will leave Khe Sanh and the base be dismantled, its forces to more mobi
 - `cal.1968-06-30.europe-and-the-alliance-france` (June 30, CIV 196806.yaml): France. The Gaullists win a majority of the Assembly (Check the seats).
 - `cal.1968-07-03.state-and-city-finance-tx` (July 3, CV 196807.yaml): Texas. The special session ends: the appropriation and some $159 million in taxes for it, the State sales tax 
+- `cal.1968-07-05.vietnam-khe-sanh` (July 5, CV 196807.yaml): The Khe Sanh Combat Base officially closed, 8 p.m.; the 1st Marines' last vehicles to Ca Lu by convoy the next
 - `cal.1968-07-12.elections-1968` (July 12, CV 196807.yaml): New York. Anna Chennault brings Bùi Diễm, South Vietnam's ambassador, to Nixon; Mitchell present (Check the pl
 - `cal.1968-07-15.black-nationalism-oakland` (July 15, CV 196807.yaml): Oakland, the Alameda County courthouse. Newton's trial opens for the death of Officer John Frey, Oct. 28, 1967
 - `cal.1968-07-18.elections-1968` (July 18, CV 196807.yaml): Walter Reed Army Hospital. Eisenhower, a patient since his heart attack of April, endorses Nixon (Check the da
@@ -831,6 +870,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1968-08-05.elections-1968-2` (Aug. 5, CVI 196808.yaml): Miami Beach. Reagan declares himself a candidate, the California delegation behind him.
 - `cal.1968-08-07.civil-disorders` (Aug. 7–9, CVI 196808.yaml): Miami, Liberty City, during the Republican convention. A rally at the Vote Power League's building, Aug. 7, en
 - `cal.1968-08-10.elections-1968-2` (Aug. 10, CVI 196808.yaml): McGovern announces his candidacy for the Democratic nomination, for Robert Kennedy's delegates and against the
+- `cal.1968-08-18.vietnam-operations` (Aug. 18, CVI 196808.yaml): The third offensive. In Tây Ninh Province, from the night of Aug. 17–18: Tây Ninh City attacked; sappers into 
 - `cal.1968-08-21.elections-1968` (Aug. 21, CVI 196808.yaml): Worcester, Mass. Edward Kennedy, his first speech since his brother's death: an end to the bombing of the Nort
 - `cal.1968-08-22.elections-1968` (Aug. 22, CVI 196808.yaml): Chicago, the streets. The Mobilization's march permits refused; some 12,000 police on twelve-hour shifts, abou
 - `cal.1968-08-24.testing` (Aug. 24, CVI 196808.yaml): Fangataufa, French Polynesia: France explodes its first thermonuclear device, Canopus, under a balloon, some 2
@@ -864,9 +904,11 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1968-11-18.students-sf-state` (Nov. 18, CIX 196811.yaml): San Francisco State. The State College trustees against negotiation.
 - `cal.1968-11-20.jobs-and-wages` (Nov. 20, CIX 196811.yaml): Farmington, W. Va. Explosions and fire in Consolidation Coal's No. 9 mine: 78 men trapped below.
 - `cal.1968-11-20.students-sf-state` (Nov. 20, CIX 196811.yaml): San Francisco State. Classes resume with a convocation.
+- `cal.1968-11-20.vietnam-operations` (Nov. 20, CIX 196811.yaml): Meade River: seven Marine battalions ring some 36 square kilometers of "Dodge City," fifteen kilometers south 
 - `cal.1968-11-26.students-san-francisco` (Nov. 26, CIX 196811.yaml): Los Angeles. Smith resigns the presidency of San Francisco State at the trustees' meeting, unable "to reconcil
 - `cal.1968-12-01.civil-disorders` (Dec. 1, CX 196812.yaml): The Walker report, *Rights in Conflict*, made public by the National Commission on the Causes and Prevention o
 - `cal.1968-12-02.students-san-francisco` (Dec. 2–3, CX 196812.yaml): San Francisco State, reopened by Hayakawa under a "state of emergency" declared Nov. 30. Dec. 2: he climbs a s
+- `cal.1968-12-09.vietnam-operations` (Dec. 9, CX 196812.yaml): Meade River ends, 6 p.m. The Marines report 1,023 of the enemy dead, 123 prisoners, 6 ralliers; their own loss
 - `cal.1968-12-24.congress` (Dec. 24, CX 196812.yaml): Governor Hickel of Alaska, named Secretary of the Interior, appoints Ted Stevens (R), an Anchorage lawyer, maj
 - `cal.1968-12-24.space-apollo` (Dec. 24, CX 196812.yaml): Apollo 8 in orbit around the moon, ten revolutions; on Christmas Eve, on television, Borman, Lovell and Anders
 - `cal.1968-12.states-and-cities-us` (Dec., CX 196812.yaml): The Republican Governors Association elects Reagan chairman, in place of Chafee, beaten for re-election in Nov
@@ -1137,6 +1179,7 @@ The brief: what the thread is, and its stations, in one or two clipped sentences
 | Oil | Oil imports, the import program, and the world's oil. Esso's cut and OPEC at Baghdad; Nixon at Centralia; the ceiling on demand; the East Coast's residual oil; Libya's first exports; Iraq's Law 80; OPEC at Geneva; the petroleum study; Kennedy to Udall; the ceiling on production; the world's output, year by year. |
 | Ole Miss |  |
 | Open housing | Open housing in the States and cities. Pennsylvania's fair housing law; Washington's court voids its law on publicly assisted housing; Detroit's ordinance against blockbusting; Atlanta's barricades; Colorado's court upholds its law. |
+| Operations | The fighting in South Vietnam, its battles and large operations, each dated by the record of the field: the start, the main day, the end. Bình Giã; Ba Gia; Đồng Xoài; Starlite; Plei Me; Ia Drang, X-Ray and Albany; Harvest Moon; Crimp; Masher. |
 | Opinion | The public's view, by Gallup's releases. Approval (each month's table gives every reading); the race for 1964, Nixon, Rockefeller, Goldwater; integration and the Freedom Riders; the most important problem; Cuba, Berlin, testing, fallout shelters, the Court; Medicare, school aid, the tax cut; prejudice in politics. |
 | Opposition to the war | Opposition to the war outside the government. Ashmore and Baggs in Hanoi; King at Beverly Hills, Chicago and Riverside Church; the Spring Mobilization; the flag-burning bill; Century City; Stop the Draft Week; the March on the Pentagon; Proposition P; Hayden and the three prisoners; the Boston indictments; the Jeannette Rankin Brigade. |
 | Order of battle | The count of the enemy, MACV's order of battle against the CIA's estimate. The Saigon conference and the agreed figures; Bunker on the press briefing; MACV's new count; SNIE 14.3-67; the November briefings; Wheeler against airing the CIA's higher count; Helms and Wheeler. |

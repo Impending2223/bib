@@ -811,8 +811,11 @@ ERP69/Table B-65, p. 303 1968-12 358.0/76.5/52.9/228.6
 
 # Average length of the marketable interest-bearing public debt, end of month, in months (printed in years and
 # months): the Reports of Jan. 1962 and 1963 (1961, 1962) and of Feb. 1968 and Jan. 1969 (1966-67, 1968),
-# "Average length and maturity distribution of marketable interest-bearing public debt". The Reports of 1964-67 print
-# no such table: 1963-65 not read (notes/leads.md). Dec. 1960 4 yr 7 mo; Dec. 1967 in the 1969 Report 4 yr 1 mo.
+# "Average length and maturity distribution of marketable interest-bearing public debt". Dec. 1960 4 yr 7 mo; Dec.
+# 1967 in the 1969 Report 4 yr 1 mo. The Reports of 1964-67 print no such table: 1963-65 (TB lines) from the Treasury
+# Bulletin, "Public debt operations" (Table 4, "Maturity Distribution and Average Length of Marketable
+# Interest-Bearing Public Debt"), each month as the issue of the month after first printed it, read off FRASER's
+# page images at 200 dpi. A month's change is from the month before as first printed, across sources.
 MATURITY = """
 ERP62/Table B-54, p. 271 1961-01 54 prior=55
 ERP62/Table B-54, p. 271 1961-02 54
@@ -838,6 +841,42 @@ ERP63/Table C-55, p. 237 1962-09 60
 ERP63/Table C-55, p. 237 1962-10 59
 ERP63/Table C-55, p. 237 1962-11 59
 ERP63/Table C-55, p. 237 1962-12 59
+TB6302/p. 31, Table 4 1963-01 58 pdf=47
+TB6303/p. 28, Table 4 1963-02 58 pdf=46
+TB6304/p. 27, Table 4 1963-03 61 pdf=41
+TB6305/p. 31, Table 4 1963-04 61 pdf=45
+TB6306/p. 28, Table 4 1963-05 61 pdf=42
+TB6307/p. 26, Table 4 1963-06 61 pdf=40
+TB6308/p. 31, Table 4 1963-07 60 pdf=45
+TB6309/p. 27, Table 4 1963-08 60 pdf=45
+TB6310/p. 25, Table 4 1963-09 63 pdf=39
+TB6311/p. 30, Table 4 1963-10 62 pdf=44
+TB6312/p. 27, Table 4 1963-11 62 pdf=41
+TB6401/p. 27, Table 4 1963-12 61 pdf=45
+TB6402/p. 27, Table 4 1964-01 61 pdf=41
+TB6403/p. 24, Table 4 1964-02 61 pdf=38
+TB6404/p. 22, Table 4 1964-03 61 pdf=36
+TB6405/p. 28, Table 4 1964-04 60 pdf=42
+TB6406/p. 24, Table 4 1964-05 61 pdf=38
+TB6407/p. 22, Table 4 1964-06 60 pdf=40
+TB6408/p. 27, Table 4 1964-07 64 pdf=43
+TB6409/p. 23, Table 4 1964-08 64 pdf=37
+TB6410/p. 21, Table 4 1964-09 63 pdf=35
+TB6411/p. 26, Table 4 1964-10 62 pdf=42
+TB6412/p. 23, Table 4 1964-11 61 pdf=37
+TB6501/p. 22, Table 4 1964-12 60 pdf=40
+TB6502/p. 27, Table 4 1965-01 65 pdf=45
+TB6503/p. 24, Table 4 1965-02 64 pdf=38
+TB6504/p. 22, Table 4 1965-03 64 pdf=36
+TB6505/p. 28, Table 4 1965-04 63 pdf=42
+TB6506/p. 24, Table 4 1965-05 64 pdf=38
+TB6507/p. 22, Table 4 1965-06 64 pdf=36
+TB6508/p. 27, Table 4 1965-07 63 pdf=41
+TB6509/p. 23, Table 4 1965-08 63 pdf=37
+TB6510/p. 21, Table 4 1965-09 63 pdf=35
+TB6511/p. 26, Table 4 1965-10 61 pdf=40
+TB6601/p. 22, Table 4 1965-11 60 pdf=36 note=the Dec. 1965 issue's figure illegible in FRASER's copy; as the Jan. 1966 issue printed it
+TB6601/p. 22, Table 4 1965-12 60 pdf=36
 ERP68/Table B-66, p. 287 1966-01 58
 ERP68/Table B-66, p. 287 1966-02 59
 ERP68/Table B-66, p. 287 1966-03 59
@@ -1458,6 +1497,10 @@ def debt():
                                      'now': None}, [dict(p=p, **first[p]) for p in MONTHS if p in first])
     if want('debt-maturity'):
         first = first_rows(parse(MATURITY), 'months', 'diff')
+        for p, r in first.items():
+            b = first.get(prev(p))
+            if 'chg' not in r and b is not None:
+                r['chg'] = r['first'] - b['first']
         write('debt-maturity', {'id': 'debt-maturity', 'name': 'Average length of the marketable debt', 'freq': 'M', 'manual': True,
                                 'change': 'diff',
                                 'then': {'label': 'Treasury: average length of the marketable interest-bearing public debt, end of month, years and months', 'unit': 'months'},

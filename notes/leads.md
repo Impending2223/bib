@@ -480,33 +480,32 @@ document was found. Each under the entry it concerns; `./bib find -t check -l ca
   votes. The Senate's agreement to the conference reports on H.R. 11970 (Oct. 4, 1962) and H.R. 2580 (Sept. 30, 1965)
   has no roll call in Voteview; the tables show none.
 
-### Money, the foreign accounts, the debt's terms (the indicators agent, Oct. 22, 2026)
+### Money, the foreign accounts, the debt's terms (the indicators agent, Oct. 22-23, 2026)
 
-The series `tools/indicators/make_finance.py` writes (its docstring; `tools/bib/finance.py`). FRASER (fraser.stlouisfed.org,
-every path, files included) answered with the St. Louis Fed's maintenance page all of Oct. 22, 2026, 01:40-13:15 UTC,
-and web.archive.org's copies reset from here; archive.org's serials (`sim_`) stop at 1961. So the figures then are the
-next January's *Economic Report*'s (local scans read earlier), not the first printings, and these are not in:
-- First printings, the month after: the money stock and free reserves (*Federal Reserve Bulletin*, "Money supply";
-  *Survey of Current Business*, S-pages, Finance), the trade balances by quarter (the *Survey*'s balance-of-payments
-  articles, Mar., June, Sept., Dec.). The *Survey*'s text layers, Jan. 1960-June 1969, are in the oil agent's scratch
-  (too garbled to use unread; the page images are needed).
-- Exchange rates, sterling, the mark, the franc (noon buying rates in New York, monthly averages: the *Bulletin*'s
-  "Foreign exchange rates"); sterling devalued Nov. 18, 1967, the mark revalued in Mar. 1961 (date to verify).
-  `fx-sterling`, `fx-mark`, `fx-franc` and their table (finance STYLE 4) wait for them. No series today before 1971 (H.10).
-- The London gold price (the fixing; the two-tier market from Mar. 17, 1968): the IMF's *International Financial
-  Statistics* or the Bank of England's *Quarterly Bulletin* (not reached); whether the *Bulletin* prints it, not checked.
-  `gold-london`.
-- Liquid liabilities to foreign official institutions, monthly (*Treasury Bulletin*, Capital Movements; the
-  *Bulletin*); the average interest rate on the public debt (*Treasury Bulletin*, Debt Outstanding, Table 2, the pages
-  read for `public-debt`); foreign holders of the debt (*Treasury Bulletin*, Treasury Survey of Ownership); the average
-  length of the marketable debt for 1963-65 (the Reports of 1964-67 print none; the *Treasury Bulletin* monthly).
-- Conventional mortgage rates (FHLBB, from 1963; the *Survey*, "Home mortgage rates"; the *Bulletin*); FHA yields
-  1960-65 (the *Bulletin*'s mortgage tables; the Reports print them from Feb. 1968, for 1966 on).
+The series `tools/indicators/make_finance.py` writes (its docstring; `tools/bib/finance.py`). FRASER was down Oct. 22,
+01:40-13:15 UTC; on its return (Oct. 23) the first printings were read for the exchange rates (the *Federal Reserve
+Bulletin*), the mortgage rates (the *Bulletin*, from July 1964), the debt's interest rate (the *Treasury Bulletin*,
+1960-68) and its average length for 1963-65 (the same). Still the next January's *Economic Report*, not the first
+printing, or not in at all (all on FRASER, open; not reached in the time):
+- First printings, the month after: the money stock and free reserves (the *Bulletin*, "Money supply and related
+  data"; "Reserves and borrowings of member banks": the text layers are too garbled for free reserves, read by eye),
+  the debt's holders and its average length for 1961-62 and 1966-68 (the *Treasury Bulletin*, "Ownership of Federal
+  securities"; Table 4 of "Public debt operations"), reserve assets (the *Treasury Bulletin*'s gold and reserve
+  table), the trade balances by quarter (the *Survey of Current Business*'s balance-of-payments articles, Mar., June,
+  Sept., Dec.). Reserve assets for 1961 and the IMF position for 1962-65 (the Reports print neither) and Q4 1968 (the
+  *Survey*, Mar. 1969) wait on the same reading.
+- FHA yields Jan. 1960-Mar. 1963: the *Bulletin*'s table begins in July 1964 at Apr. 1963; the Reports print the yield
+  from Feb. 1968 only. The FHA's own releases or the *Survey*'s "Home mortgage rates" may have them.
+- The *Bulletin* of June 1966: FRASER's copy lacks pp. 857-858 (security markets, mortgages); Apr.-May 1966 are taken
+  from July. Its Dec. 1965 *Treasury Bulletin* maturity figure for Nov. 1965 is illegible.
+- The London gold price (the fixing; the two-tier market from Mar. 17, 1968): not in the *Bulletin*'s tables read; the
+  IMF's *International Financial Statistics* or the Bank of England's *Quarterly Bulletin* (not reached). `gold-london`.
+- Liquid liabilities to foreign official institutions, monthly (*Treasury Bulletin*, "Capital movements"; the
+  *Bulletin*, "Gold reserves and dollar holdings") and foreign holders of the debt (*Treasury Bulletin*, "Treasury
+  survey of ownership"): no series yet (`liquid-liabilities` has its cell in finance.py).
 - Unit labor costs and hourly compensation as first published (BLS's quarterly releases; *Monthly Labor Review*,
-  "Current labor statistics"; the CEA's *Economic Indicators*): the rows carry today's figures only. BLS's own download
-  site refuses this environment (403).
-- Reserve assets for 1961 (the Jan. 1962 and 1963 Reports print no table) and the IMF position for 1962-65 (the
-  Reports print gold and currencies only); the trade balances for Q4 1968 (the Report of Jan. 1970, not read).
+  "Current labor statistics"; the CEA's *Economic Indicators*, on FRASER): the rows carry today's figures only. BLS's
+  own download site refuses this environment (403).
 - The current account (BEA's BOPBCA, quarterly from 1960, on FRED): no contemporary figure read; left out.
 
 ### Oil (the oil agent, Oct. 21, 2026)

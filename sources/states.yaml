@@ -591,16 +591,17 @@
     frequency: biennial (one per even-year cycle)
     covers: the N issue prints the N primary and general
     contents:
-      general: unverified (no 1956-74 copy seen)
+      general: 'President (electors by party, a vote for the slate), U.S. Senate, U.S. House, by county (1960 contents, p. 3: electors 14, 60; Senators 18, 62; Representatives 20, 64)'
       specials: none on the list for Kansas
-      state_races: unverified
-      primaries: printed (title says primary and general); detail unverified
-      checked_in: title only, from the citation 'Elwill M. Shanahan, Secretary of State. State of Kansas Election Statistics, 1968, Primary and General Elections' in an ICPSR referenda compilation (Ballotpedia PDF, read here)
+      state_races: governor and State officers (1960, pp. 23, 67), district judges, State senators and representatives, Supreme Court (nonpartisan), constitutional amendments (p. 85), by county
+      primaries: 'official, both parties, by county, in the same issue (1960: Aug. 2, pp. 14-58; 1962: Aug. 7; 1966: Aug. 2)'
+      checked_in: 'Oct. 23, 2026: the 1960 issue (contents; governor, primary pp. 23-24 and general pp. 67-68), 1962 (governor, pp. 21-22), 1964 (governor, primary pp. 16-20, heads turned and garbled by the OCR; general pp. 63-64), 1966 (pp. 21-22, 77-78), 1968 (presidential electors, p. 76). Before: title only, from the citation ''Elwill M. Shanahan, Secretary of State. State of Kansas Election Statistics, 1968, Primary and General Elections'' in an ICPSR referenda compilation (Ballotpedia PDF, read here)'
     online:
+    - {host: 'KGI Online Library (State Library of Kansas, CONTENTdm)', url: 'https://kgi.contentdm.oclc.org/digital/collection/p16884coll129/id/83', years: '1899-2010, every issue: one compound object, a PDF an issue (1956 General, 1956 Primary, 1958 General, 1958 Primary, 1960 Combined ... 1974 Combined)', access: open, checked: '2026-10-23', pattern: 'https://kgi.contentdm.oclc.org/digital/api/collection/p16884coll129/id/<N>/download, N = 53 (1956 General), 54 (1956 Primary), 55, 56 (1958), 57 (1960), 58 (1962), 59 (1964), 60 (1966), 61 (1968), 62 (1970), 63 (1971-72), 64 (1974); the page list: dmwebservices dmGetCompoundObjectInfo/p16884coll129/83/json', note: 'scans with ABBYY text layers (1960: 106 pp., 4 MB); PDF page = printed page in 1960, one less in 1962 and 1966 (p. 21 is PDF page 20). Found Oct. 23, 2026 (the Kansas Government Information collection, searched by its API: dmQuery title election statistics)'}
     - {host: Internet Archive (SRI microfiche), url: 'https://archive.org/details/micro_IA40706905_0339', years: '1980 on (1982 micro_IA40706912_0332, 1984, 1986)', access: open, checked: '2026-10-06'}
     - {host: 'Ballotpedia (ICPSR, ''Referenda Elections for Kansas 1968-1990'', citing the 1968 issue)', url: 'https://cdn.ballotpedia.org/images/2/29/Referenda_Elections_for_Kansas_1968-1990.pdf', years: citation only, access: open, checked: '2026-10-06'}
     - {host: Kansas Secretary of State, url: 'https://sos.ks.gov/elections/election-results.html', years: recent years only (2018 on seen), access: open, checked: '2026-10-06'}
-    notes: Not in HathiTrust under this title.
+    notes: Not in HathiTrust under this title. Cited as Kan. Secretary of State, *Election Statistics, 1960*, page.
   - title: 'Biennial Report of the Secretary of State (Kansas); earlier also ''Primary election ...: official statement of votes cast'''
     publisher: Secretary of State
     kind: report
@@ -615,13 +616,13 @@
     online:
     - {host: HathiTrust (Michigan copies), url: 'https://catalog.hathitrust.org/Record/000047559', years: to 1953/1954 (Full view), access: bot-check, checked: '2026-10-06'}
   labels_1968:
-    democratic: not found
-    wallace: not found
-    source: ''
-    verified: false
-    note: 'Clerk 1968: ''Conservative''; not checked against a Kansas source.'
+    democratic: Humphrey and Muskie, Dem.
+    wallace: Wallace and Griffin, Conserv.
+    source: 'Election Statistics, 1968, p. 76 (column heads; KGI copy, PDF page 75)'
+    verified: true
+    note: 'Clerk 1968: ''Conservative''; the Statistics agree (the Conservative electors listed above the table).'
   best_for_specials: none needed (no specials 1961-74)
-  gaps: 'No 1956-74 issue online. Paper: Kansas Historical Society, State Archives (Secretary of State election records, kansashistory.gov/archives/195181, 194425: bot-check, AWS WAF); KU Spencer Research Library holds copies in political papers (e.g. ''Election statistics for the State of Kansas, 1952-1958'', Wint Smith papers; ''Election Statistics, 1970'', Docking papers: archives.lib.ku.edu, open). Compilations: ''Kansas votes; national and statewide general elections, 1958-1964'' (KU Governmental Research Center; HathiTrust search-only).'
+  gaps: 'None for 1956-74 since Oct. 23, 2026: every issue of the Election Statistics is in the KGI Online Library (above). Before that this register read: no 1956-74 issue online. Paper: Kansas Historical Society, State Archives (Secretary of State election records, kansashistory.gov/archives/195181, 194425: bot-check, AWS WAF); KU Spencer Research Library holds copies in political papers (e.g. ''Election statistics for the State of Kansas, 1952-1958'', Wint Smith papers; ''Election Statistics, 1970'', Docking papers: archives.lib.ku.edu, open). Compilations: ''Kansas votes; national and statewide general elections, 1958-1964'' (KU Governmental Research Center; HathiTrust search-only).'
 - st: KY
   name: Kentucky
   sources:
@@ -1755,7 +1756,7 @@
     source: SOS Election Results Archive spreadsheet, 1968 General (a database, not the abstract); the abstract's own labels unverified
     verified: false
   best_for_specials: no specials in the period
-  gaps: Abstracts readable only on HathiTrust (bot check from here) or by request to the SOS; county-level returns not online otherwise
+  gaps: 'Abstracts readable only on HathiTrust (bot check from here, again Oct. 23, 2026) or by request to the SOS; county-level returns not online otherwise. The SOS archive''s workbook (above) holds statewide figures, race by race, for every primary and general, 1898-2006, measures included (one sheet, 30,674 rows: ElectionDate, OfficeName, MeasureText, candidates, party, votes; the dates by month only): read Oct. 23, 2026 for the 1960 primary for governor, Initiative 211 (1962) and Referendum Bill 16 (1966); the first two equal to Wikipedia''s figures. A compilation, not the canvass: the Abstracts stay the Check.'
 - st: WI
   name: Wisconsin
   sources:
