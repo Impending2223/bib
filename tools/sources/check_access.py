@@ -19,7 +19,10 @@ The proxy's own "HTTP/1.1 200 Connection Established" is not the page's status (
 one, so a page whose TLS failed showed open); a page answering 200 with a challenge in its first KB (Anubis's "Making
 sure you're not a bot!", Cloudflare's Turnstile, Imperva's _Incapsula_Resource, AWS WAF, "Just a moment...") is
 bot-check; a firewall's "Request Rejected" page, a TLS failure (an expired certificate, an incomplete chain) and a
-proxy 502 to CONNECT are other. Google Books entries are left alone, as borrow is: their preview (full, snippet, none)
+proxy 502 to CONNECT are other. A site that sends the wrong intermediate certificate ("unable to get local issuer
+certificate") is tried again with the issuer its certificate names (its Authority Information Access), as a browser
+does, the chain still verified to the system's roots (aia_bundle; Alaska's elections site, Oct. 23, 2026); the
+report shows such a page "open ... AIA". Google Books entries are left alone, as borrow is: their preview (full, snippet, none)
 is read by hand, and the page answers 200 whatever it shows.
 --write edits each online entry's line in place (`access:` and `checked:`), so comments and order survive; the register
 keeps every online entry on one line, as a flow mapping, for that reason.
@@ -42,18 +45,71 @@ CHALLENGE = re.compile(r"(?i)making sure you(?:&#39;|')re not a bot|/turnstile/|
                        r"<title>just a moment|cf-chl-|challenge-platform")
 
 
-def probe(url):
-    """(access, detail) for one URL."""
+SYSTEM_CA = "/etc/ssl/certs/ca-certificates.crt"
+
+
+def aia_bundle(url):
+    """A CA file holding the system's roots and the issuer certificate the server's leaf names in its Authority
+    Information Access, for a site that sends the wrong intermediate (Alaska's elections site, Oct. 23, 2026: a leaf
+    of GlobalSign's GCC R46 OV TLS CA 2025, served with the RSA OV SSL CA 2018). A browser fetches the issuer so;
+    the chain is still verified, to the system's roots. None where it cannot be had."""
+    import tempfile
+    from urllib.parse import urlsplit
+    host = urlsplit(url).hostname
+    proxy = os.environ.get("HTTPS_PROXY") or os.environ.get("https_proxy") or ""
+    m = re.match(r"https?://([^/]+)", proxy)
+    cmd = ["openssl", "s_client", "-connect", host + ":443", "-servername", host]
+    if m:
+        cmd[2:2] = ["-proxy", m.group(1)]
+    try:
+        leaf = subprocess.run(cmd, input="", capture_output=True, text=True, timeout=30).stdout
+        aia = subprocess.run(["openssl", "x509", "-noout", "-ext", "authorityInfoAccess"], input=leaf,
+                             capture_output=True, text=True, timeout=10).stdout
+    except (subprocess.TimeoutExpired, OSError):
+        return None
+    issuer = re.search(r"CA Issuers - URI:(\S+)", aia)
+    if not issuer or not os.path.exists(SYSTEM_CA):
+        return None
+    der = tempfile.NamedTemporaryFile(delete=False, suffix=".crt")
+    der.close()
+    r = subprocess.run(["curl", "-sS", "-L", "--max-time", "30", "-o", der.name,
+                        re.sub(r"^http:", "https:", issuer.group(1))], capture_output=True, text=True, timeout=60)
+    if r.returncode:
+        subprocess.run(["curl", "-sS", "-L", "--max-time", "30", "-o", der.name, issuer.group(1)],
+                       capture_output=True, text=True, timeout=60)
+    pem = subprocess.run(["openssl", "x509", "-inform", "der", "-in", der.name], capture_output=True, text=True).stdout \
+        or subprocess.run(["openssl", "x509", "-in", der.name], capture_output=True, text=True).stdout
+    os.unlink(der.name)
+    if "BEGIN CERTIFICATE" not in pem:
+        return None
+    bundle = tempfile.NamedTemporaryFile("w", delete=False, suffix=".pem")
+    bundle.write(open(SYSTEM_CA, encoding="utf-8").read() + "\n" + pem)
+    bundle.close()
+    return bundle.name
+
+
+def probe(url, cafile=None):
+    """(access, detail) for one URL. A TLS failure for want of the issuer ("unable to get local issuer
+    certificate") is tried once more with the issuer the leaf names (aia_bundle); open so is "open (AIA)"."""
     import tempfile
     with tempfile.NamedTemporaryFile() as body:
         try:
             r = subprocess.run(["curl", "-sS", "-L", "-A", UA, "--max-time", "30", "-r", "0-4095", "-D", "-",
-                                "-o", body.name, "-w", "\nEFFECTIVE %{url_effective}\n", url],
+                                "-o", body.name, "-w", "\nEFFECTIVE %{url_effective}\n"]
+                               + (["--cacert", cafile] if cafile else []) + [url],
                                capture_output=True, text=True, timeout=60)
         except subprocess.TimeoutExpired:
             return "other", "timeout"
         text = open(body.name, encoding="utf-8", errors="replace").read(4096)
     err, head = r.stderr, r.stdout
+    if "unable to get local issuer certificate" in err and not cafile:
+        bundle = aia_bundle(url)
+        if bundle:
+            try:
+                access, detail = probe(url, bundle)
+            finally:
+                os.unlink(bundle)
+            return access, (detail + " AIA") if access == "open" else detail
     if "CONNECT tunnel failed, response 403" in err:
         return "blocked", err.strip()[-60:]
     if "CONNECT tunnel failed" in err:

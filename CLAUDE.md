@@ -1235,7 +1235,14 @@ register, an access outside the legend, or an online copy without a url or a che
 - The probe reads the page, not the proxy (Oct. 23, 2026): the proxy's "200 Connection Established" is no status (it
   once made a failed TLS handshake read as open); a 200 carrying a challenge (Anubis, Turnstile, Imperva, AWS WAF) is
   `bot-check`; a TLS failure, a firewall's "Request Rejected" and a proxy 502 are `other`. Google Books lines are kept
-  by hand, as `borrow` is (their preview). A failure is retried an hour later before it goes in the register.
+  by hand, as `borrow` is (their preview). A failure is retried an hour later before it goes in the register. A site
+  that sends the wrong intermediate certificate ("unable to get local issuer certificate") is read with the issuer its
+  certificate names (its AIA), added to the system's roots, as a browser does: verified, not bypassed (`aia_bundle` in
+  `tools/sources/check_access.py`; Alaska's elections site, whose returns of 1960–74 are open so).
+- The States' session laws and journals, where a lead needs an act's day: Alabama's *Acts* and both Journals, 1961–70,
+  every session, and Kentucky's Journals, 1959–68, are on archive.org (`alabama-acts-1966`, `jsencoky1960`); the
+  revisors' sites give Idaho's, Minnesota's (with the vetoes, lrl.mn.gov) and Washington's session laws; Texas's, the
+  Legislative Reference Library.
 - Kansas's *Election Statistics*, 1899–2010, every issue, are in the State Library's KGI Online Library (CONTENTdm,
   `p16884coll129/83`); Washington's statewide figures, 1898–2006, in the Secretary of State's archive workbook; a
   State library's CONTENTdm is searched by its API (`dmQuery`, `dmGetCompoundObjectInfo`), its pages being scripts.
@@ -1445,8 +1452,9 @@ and unit in the summary, its sources linked under it; a column only where the ye
 - The world, then and later apart: men by service as the *Military Balance* printed them (the Abstract's reprints,
   1966–68); ACDA's first table, spending and men, 1966; Jane's warships by type, 1967–68; SIPRI's first yearbook
   (1969), the NATO and Warsaw Pact countries' military spending a year at 1960 prices, 1960–68 (its NATO sources
-  NATO's own published figures among them; its bracketed estimates count in the sums); and, made since, the
-  Correlates of War's military personnel every year and FAS's warheads.
+  NATO's own published figures among them; its bracketed estimates count in the sums); an ally's own count, Britain's
+  regular forces at June 30 by service, 1960–68, as the *Annual Abstract of Statistics* first printed them (a decimal
+  as printed, `tol: 0.05`); and, made since, the Correlates of War's military personnel every year and FAS's warheads.
 - `check` holds every total to its parts (`sum` rows, `sumcols`), every column to a source, and allows a printed
   figure that does not add only with its `printed` note. No armor yet, nor NATO's own tables: notes/leads.md, Foreign.
 - The estimates of the Soviet forces are calendar entries, a document each, in the subthread "Defense: Soviet forces"

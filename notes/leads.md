@@ -10,8 +10,7 @@ reports them (`notes/calendar-audit.md`).
 
 ### Alabama
 
-- Act No. 252 (school boards' agreements with HEW void), special session, 1966: passed Sept. 2, or by the Senate Aug. 31 and signed Sept. 9 (`cal.1966-09-02.alabama-al`). *Acts of Alabama*, Special Session, 1966; the Journals.
-- The textbook and teacher laws and the other acts against the movement, 1960–65: not found; the dates of the 1963 acts not settled (`cal.1963-10.alabama-al`). *Acts of Alabama*.
+- The textbook and teacher laws and the other acts against the movement, 1960–65: not entered. The *Acts of Alabama* and both houses' Journals, 1961–70, every session, are open on archive.org (`alabama-acts-1961_v1` … `alabama-acts-1969_1970_v3`, `alabama-house-journal-*`, `alabama-senate-journal-*`, `alabama-house-senate-journal-1962-special`, `-1964-special`; Oct. 23, 2026), each act with the day and minute of its approval (Act No. 252 of 1966 and the two commissions of 1963 now dated from them, patch reopen-states-2).
 - Birmingham. Referendum on the change of government, Nov. 6, 1962: the vote (`cal.1962-11-06.alabama-birmingham`). Jefferson County's returns; ADAH.
 - Birmingham. First round for mayor and council, Mar. 5, 1963: returns not found (`cal.1963-03-05.alabama-birmingham`). Same.
 - Huntsville. Mayoral election, 1964 (Hearn): not found.
@@ -19,15 +18,11 @@ reports them (`notes/calendar-audit.md`).
 - Montgomery. Mayoral elections (Earl James): not found.
 - Tuscaloosa. Mayoral elections: not found. For the cities: the city clerks, ADAH, the local papers; the Register prints State returns only.
 
-### Alaska
-
-- Primaries of 1962 and 1966: no figures written. The Division of Elections' primary pamphlets, open (states.yaml: `Core/Archive/62PRIM/62prim.pdf`, `66PRIM`).
-
 ### Arizona
 
 - Loyalty oath act, 1961 (the statute of *Elfbrandt v. Russell*): passage not entered, date not found. Session laws, 1961.
 - *Klahr v. Goddard*, 1966: the court's plan only mentioned (`cal.1966-11-08.legislatures-az`).
-- Whether 1966 gave the Republicans both houses for the first time (same entry). Official canvasses unseen from here; Arizona State Library, Archives (states.yaml gaps).
+- Whether 1966 gave the Republicans both houses for the first time (same entry). Official canvasses unseen from here; Arizona State Library, Archives (states.yaml gaps). azmemory.azlibrary.gov and azsos.gov: Cloudflare 403, Oct. 23, 2026, twice; archive.org has no Arizona canvass or *Official Canvass* by title.
 - Phoenix (Charter Government Committee), Tucson: no verifiable city returns.
 
 ### Arkansas
@@ -42,7 +37,6 @@ reports them (`notes/calendar-audit.md`).
 ### Colorado
 
 - The legislature's reapportionment after *Lucas*, 1964–66: not entered. Session laws; *Book of the States*.
-- *Colorado Anti-Discrimination Commission v. Case*, Dec. 17, 1962: the holding's ground and the vote (`cal.1962-12-17.open-housing-co`). CourtListener bot-checked; the Pacific Reporter.
 - Denver. Currigan's elections, urban renewal: no verifiable data.
 
 ### Florida
@@ -63,7 +57,7 @@ reports them (`notes/calendar-audit.md`).
 - Atlanta. House elections of June 15, 1965: which seats, and the count of eleven Negro members (`cal.1965-06-15.georgia-atlanta`).
 - Atlanta. Maddox closes the Pickrick, 1964, after the permanent injunction of Sept. 4 (234 F. Supp. 179): not entered.
 - Savannah, 1963; Augusta; Macon: not written.
-- The Georgia challengers' delegation of 1968 (Bond's): its convention's date not read; the regulars' slate is `cal.1968-05-16.elections-1968-state-conventions`. CQ Weekly Report 26 (1968), index (archive.org `sim_cq-weekly_january-december-1968_26_index`, open; the issues not found open).
+- The Georgia challengers' delegation of 1968 (Bond's): its convention's date not read; the regulars' slate is `cal.1968-05-16.elections-1968-state-conventions`. CQ Weekly Report 26 (1968), index (archive.org `sim_cq-weekly_january-december-1968_26_index`, open; the issues not found open; archive.org searched again by identifier, `sim_cq-weekly_1968*`, Oct. 23, 2026: the index alone).
 
 ### Hawaii
 
@@ -71,8 +65,8 @@ reports them (`notes/calendar-audit.md`).
 
 ### Idaho
 
-- Idaho's first general sales tax, 1965 (Census: first revenue in fiscal 1966): the act and its date, and the referendum of 1966 on it, not entered. *Idaho Session Laws*, 1965; the Idaho legislature's site refused this host (403).
-- Sales tax, 1965, and the referendum on it, 1966: not entered. No Idaho return opened from here; Idaho State Archives; *Idaho Blue Book* (states.yaml gaps).
+- The sales tax act of Mar. 24, 1965 (`cal.1965-03-24.state-and-city-finance-id`): no bibliography. No work in the catalogue treats Idaho; Peirce, *The Mountain States of America* (1972) may (archive.org `mountainstatesof00peir`, lending only; its search-inside did not answer, Oct. 23, 2026). The session laws are open (legislature.idaho.gov).
+- The referendum of Nov. 8, 1966, on the sales tax: not entered. No Idaho return for 1956–74 open: the Secretary of State's results archive and canvass site begin 1990 (canvass.sos.idaho.gov timed out, Oct. 23, 2026); archive.org's abstracts begin 1980 (statistical microfiche); the Biennial Reports, 1959–66, and the *Blue Book* on HathiTrust only (Cloudflare 403, Oct. 23, 2026). Idaho State Archives; *Idaho Blue Book* (states.yaml gaps).
 - Reapportionment, 1964–66: not entered.
 - Herndon killed in a plane crash, Sept. 1966: the day (`cal.1966-09.governors-id`).
 
@@ -102,12 +96,12 @@ reports them (`notes/calendar-audit.md`).
 ### Kansas
 
 - School unification, 1966: not written.
-- Wichita; Kansas City, Kans.: mayoral elections not written. No Kansas return online for 1956–74; Kansas Historical Society, KU Spencer Library (states.yaml gaps).
+- Wichita; Kansas City, Kans.: mayoral elections not written. Kansas's *Election Statistics*, every issue 1899–2010, are open in the State Library's KGI Online Library (states.yaml; the governors' races of 1960–66 now cite them), but print no city's returns: the county election offices, the Kansas Historical Society.
 
 ### Kentucky
 
-- Kentucky's first general sales tax, 1960 (Combs; Census: first revenue in fiscal 1961): the act and its date not entered. *Kentucky Acts*, 1960; the LRC's site refused this host (403).
-- Sales tax, 1960 (Combs): no date found. *Acts of Kentucky*, 1960; Kentucky Department for Libraries and Archives.
+- The sales tax act, 1960 (HB 75; 1960 Ky. Acts ch. 5, by the history of KRS 139.200 on the LRC's site, which answers again, Oct. 23, 2026): passage entered (`cal.1960-01-29.state-and-city-finance-ky`, `cal.1960-02-03.state-and-city-finance-ky`, patch reopen-states-2) from the House and Senate Journals of 1960 (archive.org `jhouseky1960v1`, `jsencoky1960`, open), which give the votes, the enrollment of Feb. 4 and the delivery to the Governor, not the day Combs approved it. *Kentucky Acts*, 1960, not found open: the LRC's Acts begin 1998; archive.org none; ExploreUK (University of Kentucky) behind an Anubis check, KDLA's CONTENTdm 403 (Oct. 23, 2026). The Journals of 1959–68 are on archive.org (`jsencoky1962`, `jsencoky1964`, `jhouseky1963ex`, `jhouseky1965ex`, `jhouseky1966v1`, `jhouseky1968v1`, `jhouseky1968v2`), for the other Kentucky acts.
+- The sales tax entries of 1960 (`cal.1960-01-29.state-and-city-finance-ky`): no bibliography; no work on Kentucky in the catalogue.
 - Lexington: nothing verifiable written.
 
 ### Louisiana
@@ -125,13 +119,12 @@ reports them (`notes/calendar-audit.md`).
 
 ### Michigan
 
-- The legislature's seats after the 1964 election (`cal.1964-11-03.legislatures-mi`). *Michigan Manual*, 1965–66 (HathiTrust full view; states.yaml).
+- The legislature's seats after the 1964 election (`cal.1964-11-03.legislatures-mi`). *Michigan Manual*, 1965–66 (HathiTrust full view; states.yaml): babel.hathitrust.org a Cloudflare 403, Oct. 23, 2026, twice; archive.org has no Michigan Manual of the 1960s; Google Books' API over its daily quota.
 - Flint, Grand Rapids: not covered.
 
 ### Minnesota
 
 - The 1967 sales tax: the first collections and the referendum LeVander asked for, not pursued (`cal.1967-06-01.state-and-city-finance-mn-2`).
-- Apportionment law of 1966: approved May 24 (MNopedia) or May 20 (Legislative Reference Library) (`cal.1966-01-14.legislatures-mn`).
 - Minneapolis. Mayoral races of 1963 and 1965: the votes; 1965 the day (`cal.1963-06-11.mayors-minneapolis`, `cal.1965-06.mayors-minneapolis`). The city's canvass.
 - St. Paul. Mayoral races of 1960, 1962, 1964, 1966: no source with dates or votes.
 
@@ -152,7 +145,7 @@ reports them (`notes/calendar-audit.md`).
 - Greenwood, Mar. 27–29, 1963: the Justice Department's memorandum of Apr. 8, 1963 (crmvet.org) refused this environment (HTTP 406); it should settle who the dog bit, and when (`cal.1963-03-27.mississippi`).
 - *Gray v. Mississippi*, 233 F. Supp. 139 (N.D. Miss. 1964) (`cal.1964-08-24.mississippi`): the opinion is its record; no work in the catalogue was found that treats the Freedom Democrats' suit against the unpledged-elector law (Dittmer does not). Look in the electoral-college and Mississippi-politics literature (the unpledged elector movement of 1960–64) for one.
 - Meridian. Mayoral election, 1965 (Key over Burns): not found.
-- The Loyal Democrats' convention of 1968, which named the delegation seated at Chicago: date not read (`cal.1968-07-02.elections-1968-state-conventions`, the regulars'). CQ Weekly Report 26 (1968) 2108 ("Miss. delegation", by the index; not read).
+- The Loyal Democrats' convention of 1968, which named the delegation seated at Chicago: date not read (`cal.1968-07-02.elections-1968-state-conventions`, the regulars'). CQ Weekly Report 26 (1968) 2108 ("Miss. delegation", by the index; not read; the issues not on archive.org, searched again Oct. 23, 2026).
 
 ### Missouri
 
@@ -171,12 +164,11 @@ reports them (`notes/calendar-audit.md`).
 
 ### Nebraska
 
-- The Nebraska Revenue Act of 1967, the first general sales and income taxes (Laws 1967, c. 487, p. 1533; Census: first revenue in fiscal 1968): the date of passage and signature not found. *Nebraska Blue Book*, 1968, pp. 435–436 ([govdocs](https://govdocs.nebraska.gov/epubs/L3000/D001-1968.pdf#page=439)) gives the act without dates; *Laws of Nebraska*, 1967, c. 487.
 - Omaha. Mayoral races of 1961 and 1965: the days (`cal.1961-05.mayors-omaha`, `cal.1965-05.mayors-omaha`). Douglas County Election Commissioner.
 
 ### Nevada
 
-- Civil rights act, 1965: not entered. *Statutes of Nevada*, 1965.
+- The civil rights act, Apr. 5, 1965 (`cal.1965-04-05.desegregation-public-places-nv`, patch reopen-states-2, from the *Statutes of Nevada*, leg.state.nv.us): no bibliography. Elliott, *History of Nevada*, and Moehring, *Resort City in the Sunbelt*, are in the catalogue, not read for it.
 - The Gaming Commission's Black Book, 1960; Sinatra's Cal-Neva license, 1963; the FBI's microphones in the casinos, 1966: not verified.
 - Las Vegas. Gragson re-elected, 1963; the Clark County commission: not found.
 - Reno: no data.
@@ -188,7 +180,7 @@ reports them (`notes/calendar-audit.md`).
 ### New Mexico
 
 - Reapportionment, 1964–66: not entered.
-- Primary of 1962: the day (`cal.1962-05.governors-nm`). *Blue Book* (HathiTrust full view); Official Returns at the State Records Center (states.yaml).
+- Primary of 1962: the day (`cal.1962-05.governors-nm`). *Blue Book* (HathiTrust full view; Cloudflare 403, Oct. 23, 2026, twice); archive.org's *Blue Book* of 1968 lends only (`newmexicoblueboo0000unse`), its *Official Returns* begin 1978; Official Returns at the State Records Center (states.yaml).
 - Albuquerque: no data.
 
 ### New York
@@ -197,7 +189,7 @@ reports them (`notes/calendar-audit.md`).
 - City University created, 1961, and the tuition fight: not placed.
 - Off-track betting amendment, 1963: not placed.
 - The days of the death-penalty law, 1965; the divorce law, 1966; the Medicaid law, 1966; the sales tax, 1965 (`cal.1965-06.crime-and-hijacking-ny`, `cal.1966-04-27.women-ny`, `cal.1966-04.health-ny`, `cal.1965-08-01.state-and-city-finance-ny`). *Laws of New York*.
-- The legislature's seats, 1964–66 (`cal.1964-11-03.legislatures-ny`, `cal.1965-11-02.legislatures-ny`). *Legislative Manual*, 1965, 1966 (not open online; NYSL; states.yaml gaps).
+- The legislature's seats, 1964–66 (`cal.1964-11-03.legislatures-ny`, `cal.1965-11-02.legislatures-ny`). *Legislative Manual*, 1965, 1966: archive.org's 1966 lends only (`manualforuseofle0000john`); HathiTrust holds none of the 1960s; the State Library's digital collections (nysl.ptfs.com) answer (Oct. 23, 2026), not searched; nysl.nysed.gov fails TLS from here.
 - *Orans*: the cites 15 N.Y.2d 339 and 17 N.Y.2d 107 (`cal.1965-04-14.legislatures-ny`, `cal.1966-03-22.legislatures-ny`).
 - Buffalo, 1961: Sedita beaten in the primary or in November (`cal.1961-11-07.mayors-ny`). Erie County Board of Elections.
 - New York City. Charter vote, Nov. 7, 1961 (`cal.1961-11-07.state-constitutions-nyc`). Board of Elections.
@@ -240,7 +232,7 @@ reports them (`notes/calendar-audit.md`).
 
 ### Pennsylvania
 
-- Special, 5th district, Apr. 28, 1964: votes CQ's; Green's swearing-in not found in the Record (`cal.1964-04-28.specials`). *Pa. Manual*, 1965–66, "Special Elections" (search-only or borrow; states.yaml).
+- Special, 5th district, Apr. 28, 1964: votes CQ's; Green's swearing-in not found in the Record (`cal.1964-04-28.specials`). *Pa. Manual*, 1965–66, "Special Elections": not on archive.org (its 1961–62 and 1963–64 lend only, `pennsylvaniamanu0095iris`, `pennsylvaniamanu0096will`); HathiTrust search-only (Oct. 23, 2026).
 
 ### South Carolina
 
@@ -260,11 +252,9 @@ reports them (`notes/calendar-audit.md`).
 
 ### Texas
 
-- Sales tax act, 1961: its chapter (`cal.1961-08-08.state-and-city-finance-tx`).
 - Texas Democratic Coalition, 1963: no founding date.
 - Connally on public accommodations, 1963: not verified.
 - Primaries for governor, 1960, 1964, 1966: figures from Wikipedia and the *Texas Almanac*, not the canvass (`cal.1960-05-07.governors-tx`, `cal.1964-05-02.governors-tx`, `cal.1966-05-07.governors-tx`). TSLA (states.yaml).
-- Registration law of the special session, Feb. 1966: the act (`cal.1966-02-14.voting-rights-tx`). *General and Special Laws of Texas*.
 - Lockridge's district, 1966 (`cal.1966-11-08.legislatures-tx`).
 - Crystal City, Apr. 2, 1963: the date, from the *Observer*'s "Tuesday of last week" (`cal.1963-04-02.states-and-cities-tx`).
 - Dallas. Schools, Sept. 1961: the count of 18 (`cal.1961-09-06.desegregation-schools-dallas`).
@@ -288,15 +278,12 @@ reports them (`notes/calendar-audit.md`).
 
 ### Washington
 
-- Redistricting act, 1965: date unknown.
-- Referendum Bill 16, 1966 (congressional districts): not entered. Abstracts of Votes (HathiTrust bot-checked, or from the Secretary of State; states.yaml).
-- *O'Meara*, 1961: the holding's ground and the vote (`cal.1961-09-29.open-housing-wa`). CourtListener bot-checked.
 - Tacoma. Open housing vote, 1964: the figures (`cal.1964-02-12.open-housing-tacoma`).
 - Spokane: no data.
 
 ### Wisconsin
 
-- Wisconsin's selective sales tax, 1961–62 (Nelson; Census counts it a general sales tax, first revenue in fiscal 1962): the act and its date not entered. *Wisconsin Blue Book*, 1962 (UW digital collections; the whole-book PDF's address not found from here); docs.legis.wisconsin.gov reset the connection.
+- Wisconsin's selective sales tax, 1961–62 (Nelson; Census counts it a general sales tax, first revenue in fiscal 1962): the act and its date not entered. docs.legis.wisconsin.gov and legis.wisconsin.gov reset the connection (Oct. 23, 2026, 05:2x and 06:2x UTC); the *Blue Book*, 1964, on archive.org lends only (`bwb_UD-990-539`); UW Digital Collections' Blue Books (search.library.wisc.edu/digital/AWIBlueBks) answer, but its search did not find the 1962 or 1964 volume; archive.org has no *Laws of Wisconsin* of the 1960s.
 - Sales tax fight, 1961–62: not written.
 - Milwaukee. Mayoral race, 1964: the opponent and the vote (`cal.1964-04-07.mayors-milwaukee`). The city's canvass.
 - Milwaukee. The Amos suit: the day of filing (`cal.1965-06.desegregation-schools-milwaukee`).
@@ -307,7 +294,7 @@ reports them (`notes/calendar-audit.md`).
 ### Wyoming
 
 - Reapportionment, 1964–66: not entered.
-- Primaries of 1962 and 1966: the days (`cal.1962-08.governors-wy`, `cal.1966-08.governors-wy`). *Wyoming Official Directory*, 1963, 56–58, and 1967, 72–74 (HathiTrust, bot-checked; states.yaml).
+- Primaries of 1962 and 1966: the days (`cal.1962-08.governors-wy`, `cal.1966-08.governors-wy`). *Wyoming Official Directory*, 1963, 56–58, and 1967, 72–74 (HathiTrust, Cloudflare 403, Oct. 23, 2026, twice; states.yaml); archive.org's Directories begin 1981 (statistical microfiche); the Secretary of State's historical compilations (sos.wyo.gov, open) give the general elections.
 
 ### 1968 (the States and cities agents, Oct. 17–18, 2026)
 
@@ -326,13 +313,13 @@ reports them (`notes/calendar-audit.md`).
   (Chicago, Philadelphia, Boston, Cleveland, Gary, Memphis, Baltimore, Indianapolis, San Francisco, Milwaukee) and the
   specials of 1966–68 (N.Y. 17th, 18th, 13th; R.I. 2d; Tex. 8th, 3d; Mich. 9th; Miss. 3d). Open copies listed in
   `sources/states.yaml` and not yet read for these entries: Cal., *Statement of Vote*, 1966–68 (archive.org,
-  californiastate196668cali); Alaska, 68genr.pdf; Iowa, 1968gencanv.pdf; Minn., the Canvassing Board's reports
+  californiastate196668cali); Iowa, 1968gencanv.pdf (sos.iowa.gov a Cloudflare 403 from Oct. 23, 2026; the *Iowa
+  Official Register*, 1969–70, publications.iowa.gov 41454, open, prints the 1968 general by county); Minn., the Canvassing Board's reports
   (lrl.mn.gov); S.C., the *Supplemental Report* of 1966; Mass., *Election Statistics*, 1967–68; Ill., *Official Vote*,
-  1968. The entries say which.
+  1968. The entries say which. Alaska's returns of 1962–68 (elections.alaska.gov, read with the issuer its certificate
+  names) now cite the 1966 general and the 1968 primary and general (patch reopen-states-2).
 - Session laws named and not linked: N.Y., *Laws of New York*, 1966 (the Divorce Reform Law; Medicaid), 1968, ch. 174 (the
-  Urban Development Corporation); Va. Acts 1966, c. 151 (the sales tax); N.J. L. 1966, c. 30; Minn. Laws 1966, Ex. Sess.,
-  ch. 1 (revisor.mn.gov lists the chapter; not read) and Rolvaag's veto of May 9, 1966 (lrl.mn.gov's veto list for
-  1966 not read); Fla. Laws 1968, Extraordinary Session (the teachers' strike, the constitution's joint resolutions);
+  Urban Development Corporation); Va. Acts 1966, c. 151 (the sales tax); N.J. L. 1966, c. 30; Fla. Laws 1968, Extraordinary Session (the teachers' strike, the constitution's joint resolutions);
   Tex., *House Journal*, 60th Leg., 1st C.S. (1968); Md., *Journal of Proceedings*, Jan. 7, 1969 (Mandel's election).
 
 ## National
@@ -724,8 +711,15 @@ Searched in the Daily Digest (daybook/committees), the bound Record's days, the 
   - Primary records for the field entries without one (the audit's list): the MACV Command Histories (Texas Tech:
     www.vietnam.ttu.edu answers once the intermediate certificate its server omits, InCommon RSA Server CA 2, is
     supplied, Oct. 23, 2026; the Virtual Vietnam Archive, vva.vietnam.ttu.edu, then asks a captcha: closed; no MACV
-    Command History of 1964–68 on archive.org, MACVSOG's of 1971–72 only), the units' after-action reports and the Marine command chronologies (NARA, series NAID 6160409,
-    page images, open), CHECO reports. The *Bulletin* and the daybook's Thursday briefings not searched for them.
+    Command History of 1964–68 on archive.org, MACVSOG's of 1971–72 only; again 05:2x UTC: the search page a captcha,
+    "Validation request"; CINCPAC's Command Histories, 1962–69, on archive.org only as the National Security Archive's
+    extracts, `us-china-intel-CI01561` and the like, 4–5 pp.), the units' after-action reports and the Marine command
+    chronologies (NARA, series NAID 6160409, page images, open), CHECO reports: open on archive.org as DTIC's copies
+    (184 items, `DTIC_ADA…`, title "Project CHECO Southeast Asia Report"; 58 dated before 1969: Plei Me, Silver Bayonet,
+    Harvest Moon, Masher/White Wing, Hawthorne, Attleboro, Thayer/Irving, Paul Revere/Sam Houston, Dak To, Niagara, the
+    Tet offensive, Delaware, Rolling Thunder, Arc Light, The War in Vietnam for 1965, 1966 and 1967). Used for Plei Me
+    and Feb. 24, 1965 (patch `reopen-foreign-2`); the rest not read against the entries. The *Bulletin* and the daybook's
+    Thursday briefings not searched for them.
   - Starlite (`cal.1965-08-18.vietnam`, Aug. 18-24): split the landing (Aug. 18) from the end (Aug. 24) once the end's
     record is read (Shulimson, *U.S. Marines in Vietnam, 1965*). The other proposed splits and re-threadings were made
     Oct. 23, 2026 (Ia Drang: X-Ray and Albany; Cedar Falls, Junction City, Đắk Tô, the DMZ of July 22, 1966).
@@ -734,10 +728,11 @@ Searched in the Daily Digest (daybook/committees), the bound Record's days, the 
     accession, bimonthly files) may fill the eight missing months (Aug. 1966; July, Nov. 1967; Mar., Apr., July, Nov.
     1968). Thayer, vol. 5, prints the Report's monthly sorties for more months than were read (pp. 217-299, the
     monthly "Aircraft Sorties and Losses"); and the U.S. aircraft lost by month (the same articles) are not yet a row.
-  - The Pentagon Papers (NARA, 2011): two parts carded (IV.C.5, IV.C.6.a); the other forty-five not. IV.C.6.b and c and
-    IV.C.10 are the next for the field: NARA's copies answer (Oct. 23, 2026; nara-media-001.s3.amazonaws.com/arcmedia/
-    research/pentagon-papers/Pentagon-Papers-Part-IV-C-6-b.pdf, -6-c, -10), their title pages read: IV.C.6.b, *U.S.
-    Ground Strategy and Force Deployments: 1965–1967*, vol. II, *Program 5*; IV.C.6.c, vol. III, *Program 6*; IV.C.10,
+  - The Pentagon Papers (NARA, 2011): three parts carded (IV.C.5, IV.C.6.a, IV.C.6.b: `w.def-u-s-viet-rels-iv-c-6-b`,
+    read for Program 5's approval, Aug. 10 and 14, 1967, patch `reopen-foreign-2`); the other forty-four not. IV.C.6.c
+    and IV.C.10 are the next for the field: NARA's copies answer (Oct. 23, 2026; nara-media-001.s3.amazonaws.com/arcmedia/
+    research/pentagon-papers/Pentagon-Papers-Part-IV-C-6-c.pdf, -10; IV.C.7.a too), their title pages read: IV.C.6.b,
+    *U.S. Ground Strategy and Force Deployments: 1965–1967*, vol. II, *Program 5*; IV.C.6.c, vol. III, *Program 6*; IV.C.10,
     *Statistical Survey of the War, North and South: 1965–1967*. Card each as IV.C.5's (`w.def-u-s-viet-rels-iv-c-5`)
     when an entry first cites it (a card nothing points to draws a warning).
 
@@ -750,7 +745,8 @@ Searched in the Daily Digest (daybook/committees), the bound Record's days, the 
   person in a browser can read the HathiTrust copy; the owner could allow babel.hathitrust.org, or an archive.org
   scan may appear (search `departmentofstat59`). Tried again Oct. 23, 2026: babel.hathitrust.org a Cloudflare 403 (the
   catalog API answers); archive.org's `departmentofstat*` items stop at vol. 58 and resume with vol. 61
-  (`departmentofstat611969unit`), no vol. 59; Google Books' API 429 (quota); state.gov 403 (AmazonS3).
+  (`departmentofstat611969unit`), no vol. 59; Google Books' API 429 (quota); state.gov 403 (AmazonS3). Again at 05:1x
+  UTC: the same on every count (archive.org's `departmentofstat5*`/`6*` items, 29, hold vol. 58 and vol. 60, not 59).
 - The *Bulletin*'s issue indexes not in the archive.org copies (a leaf missing or unreadable): July 1, 1963; Sept. 6
   and Nov. 22, 1965; July 18 and Nov. 28, 1966. The semiannual indexes (archive.org's `sim_` items, open) list their
   items by subject and page; the HathiTrust copies have the issues (bot-checked, Oct. 23, 2026).
@@ -800,8 +796,7 @@ Searched in the Daily Digest (daybook/committees), the bound Record's days, the 
   *Vietnamese Engaged Buddhism*.
 - 1967: stations lost in the splits, to be entered again: Alliluyeva's arrival, Apr. 21; Talbot and Pattakos, Apr. 28
   (FRUS 1964–68, XVI, doc. 282); Hill 875, Nov. 23. Also: the "letter of Jan. 27" of Mar. 2 (FRUS dates it Jan. 21);
-  de Gaulle's and Brussels's texts; Rostow's "intermediate strategy" memorandum of May 22; the Pentagon Papers' page for
-  McNamara's approval of Program 5, Aug. 14; Trinh and Burchett, Jan. 28; Hanoi's rejection, Mar. 27; Pennsylvania's
+  de Gaulle's and Brussels's texts; Rostow's "intermediate strategy" memorandum of May 22; Trinh and Burchett, Jan. 28; Hanoi's rejection, Mar. 27; Pennsylvania's
   visas refused, Aug. 21 and 31.
 - 1968: the Moscow protocol's signing (Aug. 26 entered); the Prague troop treaty's signing and ratification; Ellsworth
   and Dobrynin (Dobrynin, *In Confidence* 186–87); Kissinger's NSC plan approved at Key Biscayne; Richardson's paper;
@@ -812,7 +807,7 @@ Searched in the Daily Digest (daybook/committees), the bound Record's days, the 
 Events Gibbons treats that the calendar lacks, not entered: no record reached and linked. His page, then his source.
 
 - The Kennedy Library's papers (Mansfield's memoranda, the leaders' meetings below; Fulbright's memorandum, under the Bay of
-  Pigs and Cal. I): jfklibrary.org refuses this environment (Cloudflare, 403; Oct. 23, 2026, 00:2x and 00:56 UTC). No
+  Pigs and Cal. I): jfklibrary.org refuses this environment (Cloudflare, 403; Oct. 23, 2026, 00:2x, 00:56 and 05:14 UTC). No
   other open copy found: FRUS 1961–63 (the daybook's FRUS rows for those days) prints none of them; archive.org holds
   only stray items of the Library's (`jfknsf-328-003-p-0001`, NSAM 2; perma.cc captures of a few of its pages); the
   Wayback Machine is refused by this environment's egress policy. A person in a browser.
@@ -1012,6 +1007,13 @@ Events Gibbons treats that the calendar lacks, not entered: no record reached an
 
 ### Armed forces a year, and the estimates of the Soviet forces (forces/; the forces agent, Oct. 22, 2026)
 
+- The Secretary's posture statements, fiscal 1963–69 (McNamara's, Feb. 1962 to Jan. 1968: the "fiscal year 1963–1967
+  defense program" and the rest), are open on archive.org, history.defense.gov's declassified copies mirrored
+  (`RobertSMcNamaraFiscalYear19631967DefenseProgramand1963DefenseBudgetFebruary141962`, `...19641968...1964...`,
+  `...19651969...`, `...19661970...1966Defense`, `...19671971...`, `...19681972...`, `...19691973...`; the House
+  Armed Services copy of 1966 a duplicate): the strategic and general purpose forces, the divisions, NATO, by fiscal
+  year, actual and programmed. Their OCR is rough and some tables are excised: to be read off the page images, not the
+  text (Oct. 23, 2026). For the Armor, Annual Reports and world-table leads below.
 - Armor: no open source found for the Army's tanks and armored vehicles in inventory, or its divisions by type
   (armored, mechanized, infantry, airborne, airmobile), 1960–68. The Secretary of Defense's *Annual Report* and the
   posture statements print the divisions by type (history.defense.gov, refused here; HathiTrust full view, bot-checked);
@@ -1020,19 +1022,28 @@ Events Gibbons treats that the calendar lacks, not entered: no record reached an
   1979) nor found on govinfo. govinfo does hold, open, the OSD Historical Office's *The McNamara Ascendancy, 1961-1965*
   (GOVPUB-D-PURL-gpo58482) and *McNamara, Clifford, and the Burdens of Vietnam, 1965-1969* (GOVPUB-D-PURL-gpo58528) and
   CMH's *Advice and Support: The Middle Years* and *Combat Operations: Staying the Course* (GOVPUB-D114-...): later
-  histories whose appendices may give the divisions and forces by year, not read.
+  histories whose appendices may give the divisions and forces by year, not read. Again 05:14 UTC: both AkamaiGHost
+  403. Open on archive.org: CMH Pub 60-7, Wilson, *Armies, Corps, Divisions, and Separate Brigades* (1999;
+  `cmh-pub-60-7-armies-corps-divisions-and-separate-brigades-by-john-wilson`), each division's lineage and its
+  reorganizations (the ROAD and airmobile conversions by date): a count by type and year could be compiled from it
+  (later, not printed then); Wilson's *Maneuver and Firepower* (1998) lends only. The posture statements (above).
 - Ships by type, 1966 and after (carriers, cruisers, destroyers, submarines, amphibious, auxiliaries, active fleet):
   NHHC's "U.S. Ship Force Levels" (history.navy.mil: its server omits its intermediate certificate, DigiCert Global G2
   TLS RSA SHA256 2020 CA1; supplied, the site answers 404 with an empty body (AWS) to every path, Oct. 23, 2026; the
-  Wayback Machine refused the connection the same day). The *Statistical Abstract*'s class table ends
+  Wayback Machine refused the connection the same day; again 05:2x UTC, the intermediate supplied: 404, empty body,
+  awselb, the root included; the Wayback Machine "Blocked by egress policy"; no copy of the tables on archive.org by
+  title). The *Statistical Abstract*'s class table ends
   with June 30, 1965 (1966 ed., table 373); Jane's by type for 1967–68 is in the world table.
 - Navy and Marine aircraft by type: the Abstract printed them to Jan. 1, 1962 only (1965 ed., table 362; then withheld);
   the Navy's own inventory (the *Navy Aircraft* statistics) not found open.
 - The SecDef *Annual Reports*, fiscal 1961–68: missiles on alert, Polaris boats at sea, bombers by type, as published
-  then. Not open here (history.defense.gov refused; not on archive.org or govinfo, Oct. 23, 2026).
+  then. Not open here (history.defense.gov refused; not on archive.org or govinfo, Oct. 23, 2026; again 05:14 UTC,
+  Akamai 403; archive.org's title search finds DoD's Annual Reports from fiscal 1979 only). The posture statements
+  (above) give much of the same, as classified then.
 - The U.S. warhead stockpile, 1962–68, as the government released it: DoD's fact sheet of May 3, 2010 (defense.gov and
   open.defense.gov refused; state.gov's later fact sheets refused or down; Oct. 23, 2026: defense.gov, open.defense.gov
-  AkamaiGHost 403, media.defense.gov 403, state.gov 403). Only DOE's 1994 table (totals to 1961) and
+  AkamaiGHost 403, media.defense.gov 403, state.gov 403; again 05:14 UTC, the same; no copy on archive.org by title).
+  Only DOE's 1994 table (totals to 1961) and
   FAS's series via Our World in Data are in.
 - U.S. strength by country: DMDC's own Sept. 30 reports (309A) for 1957–68 were not reached; the figures are troopdata's
   transcription. Oct. 23, 2026: DMDC's site answers (its page API, `dwp/api/page?pageId=27`), but its historical files
@@ -1051,9 +1062,24 @@ Events Gibbons treats that the calendar lacks, not entered: no record reached an
   only); the *Statistical Abstract*, 1966 ed.: census.gov serves it now (Oct. 23, 2026), and its international section
   (sec. 33, tables 1286-1312, part 13; part 14 is the appendices) prints no table of the world's forces: the 1967
   edition's is the first. Also tried Oct. 23: parallelhistoryproject.org (proxy 502), php.isn.ethz.ch (certificate
-  for another host), cvce.eu (WEU's Assembly documents; 403).
+  for another host), cvce.eu (WEU's Assembly documents; 403). Again Oct. 23, 05:06, 05:40 and 06:1x UTC:
+  archives.nato.int answers 200 with a page that sends the browser to `/challenge` (AtoM's script challenge) on every
+  path: the site's own bot check, not passed; the Wayback Machine "Blocked by egress policy"; archive.org holds no
+  NATO Annual Review, DPC or force-goal paper by title (its CIA reading-room copies are the CIA's own papers on NATO);
+  FRUS's NATO documents carry no force tables by country (sources/frus-text searched). parallelhistoryproject.org
+  proxy 502, php.isn.ethz.ch the certificate mismatch, again. Entered instead, an ally's own count: the British
+  government's regular forces at June 30 by service, 1960–68, from the *Annual Abstract of Statistics* (Central
+  Statistical Office, from the Ministry of Defence), each year as first printed, nos. 98–106 (1961–69), open on
+  archive.org (`annual-abstract-of-statistics-gb_1961_98` … `_1969_106`, read off the page images; forces/world.yaml,
+  table `uk`). Other allies' own figures: Canada's *Canada Year Book* is open on Statistics Canada's site
+  (www66.statcan.gc.ca, a PDF a page; the 1967 edition's defence chapter, pp. 1167–1183, gives no strength table by
+  service; the strengths may stand in its employment chapter: not read); the UK's *Annual Abstract* also prints the
+  reserves, the women's services and the intake (not entered); historic Hansard (api.parliament.uk) answers, for the
+  Defence Estimates debates; hansard.parliament.uk and parlinfo.aph.gov.au (Australia) a bot check and a WAF 403.
 - The world table, later: ACDA's *World Military Expenditures and Arms Transfers*, 1963–1973 ed. (not found open; the
-  1966 edition of Dec. 1968 is in); SIPRI's military expenditure database (sipri.org answers; not yet read; its first
+  1966 edition of Dec. 1968 is in; ACDA's second, *World Military Expenditures, 1964–1968* (1970), is on archive.org as
+  the ICPR's codebook and data listing of 1971, `DTIC_AD0731731`, spending by country a year, NATO and the Warsaw Pact
+  marked: not read); SIPRI's military expenditure database (sipri.org answers; not yet read; its first
   yearbook's figures as printed then are in) and its
   arms transfers database (deliveries of aircraft, armor, ships and missiles, by supplier and recipient).
 - The estimates: SNIE 11-14-61 (Nov. 21, 1961), NIE 11-4-60 (Dec. 1, 1960), NIE 11-3 (air defense, 1961–68), NIE
@@ -1069,7 +1095,7 @@ Searched in FRUS by date (the daybook and sources/frus-text), the *Bulletin*'s i
 - Iraq: Harriman's approval of 40 light tanks and 12 transporters, Apr. 9, 1963 (`cal.1963-04-09.middle-east`): not in FRUS 1961–63, XVIII. Matthews' and Gibson's sources (State Central Files).
 - The army mutinies in Tanganyika, Uganda and Kenya, Jan. 20, 1964 (`cal.1964-01-20.africa`); Tanganyika and Zanzibar united, Apr. 26, 1964 (`cal.1964-04-26.africa`); the Rivonia sentences, June 12, 1964 (`cal.1964-06-12.africa`). FRUS 1964–68, XXIV; the *Bulletin*.
 - Seoul: martial law lifted, July 1964 (`cal.1964-07-28.japan-and-korea-normalization`). FRUS 1964–68, XXIX, pt. 1.
-- American jets against the Viet Cong between An Khê and Pleiku, Feb. 24, 1965 (`cal.1965-02-24.vietnam`); Plei Me, Oct. 19–25, 1965 (`cal.1965-10-19.vietnam`, `cal.1965-10-23.vietnam`). MACV's reports; the Pentagon's announcements; Carland.
+- American jets against the Viet Cong between An Khê and Pleiku, Feb. 24, 1965 (`cal.1965-02-24.vietnam`), and Plei Me, Oct. 19–25, 1965: given their record, Project CHECO's reports on archive.org (*The War in Vietnam, 1965*, `DTIC_ADA586319`, p. 17; *The Siege at Plei Me*, `DTIC_ADA487855`), patch `reopen-foreign-2`. CHECO puts Feb. 24 "near the An Khe Pass in Binh Dinh Province", the entry at the Mang Yang pass: Check (MACV's reports; Carland).
 - The OAS Ad Hoc Committee's proposal for the Dominican Republic, June 18, 1965 (`cal.1965-06-18.latin-america`). The OAS's documents; the *Bulletin* (not in its index by that date).
 - The Council of the Six, June 30, 1965, and de Gaulle's press conference of Sept. 9, 1965 (`cal.1965-06-30.european-community`, `cal.1965-09-09.european-community`). The Council's records; de Gaulle's *Discours et messages*.
 - India across the Kashmir cease-fire line, Aug. 15, 1965 (`cal.1965-08-15.india-and-china`). FRUS 1964–68, XXV, by its documents of Aug. 16–31.
@@ -1094,7 +1120,8 @@ No document in the daybook's FRUS text, or item in the *Bulletin*'s index, names
   Cambodia's 1962 census for Battambang and the provincial towns; the RVN's estimates for its provincial towns (the
   RVN's *Niên giám thống kê*, Statistical Yearbook); Laos's towns other than Vientiane. The UN *Demographic Yearbook*
   prints only capitals and cities of 100,000 and more (sources/indochina/cities.yaml).
-- HYDE's own files (geo.public.data.uu.nl) answer with a bot check here; the population layer is ISIMIP3a's copy of
+- HYDE's own files (geo.public.data.uu.nl) answer with a bot check here (Oct. 23, 2026, 05:14 UTC: "Making sure
+  you're not a bot!"); the population layer is ISIMIP3a's copy of
   HYDE 3.2.1. HYDE 3.3 for 1960 and 1970, from a host that answers, would be the newer model.
 - Relief finer than ETOPO's 15″ (about 460 m) for the RVN: the Tilezen/Mapzen terrain tiles on AWS (SRTM, public
   domain; `elevation-tiles-prod/terrarium`) answer here; a second `raster-dem` source at zoom 9 for the RVN would add
@@ -1107,6 +1134,10 @@ No document in the daybook's FRUS text, or item in the *Bulletin*'s index, names
   `tools/vnmap/layers.py` to the frame, rerun its steps `hydro`, `lakes` and `climate` on fresh downloads (SWORD's delta
   reaches unchanged), then `climate.py` for `climate.geojson`; the grid goes from 93 rows × 63 columns to 123 × 93, and the
   rivers and lakes files grow with the frame (`check`'s 50/60 MB limits to watch). Not done: the map agent's files.
+  Retested 05:2x UTC: CRU 200 (`grid_10min_pre.dat.gz`, 28,825,342 bytes), HydroRIVERS Asia 200 (90,510,995 bytes,
+  Cloudflare, no challenge). Not a small change: `W0, E0, S0, N0` are the whole script's extent (the superseded relief
+  steps read them too), and `hydro` also wants SWORD's reaches and `lakes` GRanD's dams downloaded again; so the
+  rain and rivers can now cover the frame, by that rerun, but it was left for the map agent.
 - HYDE's host (geo.public.data.uu.nl): connection reset, Oct. 23, 2026.
 
 ### Primary records, Cal. III (the Cal. III audit agent, Oct. 22, 2026)
@@ -1114,8 +1145,7 @@ No document in the daybook's FRUS text, or item in the *Bulletin*'s index, names
 Searched in FRUS by text and date (sources/frus-text), the *Bulletin*'s index and the Public Papers; not found:
 - Vietnam: the struggle movement at Huế, May 17, June 8, 10 and 15, 1966 (`cal.1966-05-17.vietnam-struggle`,
   `cal.1966-06-08.vietnam`, `cal.1966-06-10.vietnam-struggle`, `cal.1966-06-15.vietnam-struggle`); Hanoi's parade of
-  prisoners, July 6, 1966; ground operations in the demilitarized zone authorized, July 30, 1966; Program 5's approval,
-  Aug. 14, 1967 (the Pentagon Papers' page); McNamara's news conference on the barrier, Sept. 7, 1967 (DoD's transcript);
+  prisoners, July 6, 1966; ground operations in the demilitarized zone authorized, July 30, 1966; McNamara's news conference on the barrier, Sept. 7, 1967 (DoD's transcript);
   Hanoi's refusals of visas to Marcovich and Aubrac, Aug. 21 and 31, 1967, and their message of Aug. 25 (FRUS 1964–68, V
   plans the trip, doc. 293); Trinh to Burchett, Jan. 28, 1967 (FRUS V, doc. 33, mentions it); Bunker and Westmoreland on
   *Meet the Press*, Nov. 19, 1967 (not in the *Bulletin*'s index).
@@ -1175,6 +1205,24 @@ Searched in FRUS by text and date (sources/frus-text), the *Bulletin*'s index an
   Phước Vĩnh, joined Bình Dương in 1965: Wikipedia, "Phước Thành province"); its coordinates not found on Wikipedia.
 - "Made public" lines wanted for the new entries of Dec. 4, 1960, Sept. 18 and Nov. 17, 1961, Feb. 2, 1962, and May–July
   1963 (FRUS gives no earlier printing for them): the year each FRUS volume came out.
+
+### The official histories (the official-histories agent, Oct. 23, 2026; notes/official-histories-discrepancies.md)
+
+- Navy, vol. I: Hooper, Allard and Fitzgerald, *The Setting of the Stage to 1959* (1976), card
+  `w.hooper-united-states-navy-and`: archive.org holds only lending copies (`settingofstageto0000unse_V1` and others);
+  the Naval History and Heritage Command's PDF has no Wayback snapshot. Not read; the card links nowhere.
+- Air Force: Thompson, *To Hanoi and Back* (1966–73), card `w.thompson-to-hanoi-and-back`, not read; nor the other
+  Southeast Asia volumes (airlift, search and rescue; Nalty on South Vietnam, 1968–75).
+- JCSM-672-66, Oct. 14, 1966: the Chiefs' rebuttal of McNamara's memorandum of that day (Cosmas, pt. 2, 462, 534, and
+  its notes; Drea, 568, 577 nn.): no entry of its own. Cosmas, 462, gives the Chiefs' memorandum of Oct. 14 on the
+  war's progress; FRUS 1964–68, IV, for the text.
+- The JCS histories' notes cite some fifty JCSMs dated on the days of calendar entries on other matters; none
+  read for an entry of its own.
+- Pinpoints went on each event's first entry only; the later entries' `See` lines stand. Where a history treats a
+  later day at length (Junction City's battles, Khâm Đức, the Paris talks' stations), its pages are in the first
+  entry's run.
+- The publishers' sites (history.defense.gov, jcs.mil, media.defense.gov) answer 403 here (Akamai); the cards' links
+  were checked by the Wayback availability API (snapshots with status 200), not fetched.
 
 ## The Executive roster
 
