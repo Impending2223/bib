@@ -999,8 +999,8 @@ Events Gibbons treats that the calendar lacks, not entered: no record reached an
   Plenum, Dec. 1963; Sept. 1964; the Eleventh Plenum, Mar. 28, 1965; the Twelfth, Dec. 27, 1965; the Tet planning,
   June, July, Oct. 1967, Jan. 1968): no primary record reached. The resolutions in English: the Vietnam Documents and
   Research Notes series and the Pike collection (Texas Tech's Vietnam Center); Lien-Hang Nguyen, *Hanoi's War*, and
-  Asselin, *Hanoi's Road to the Vietnam War*, treat the Ninth Plenum and the Tet resolutions (not read: their
-  pinpoints to add). "Made public" written as the Hanoi edition of 1988 with a Check: an earlier printing may exist.
+  Asselin, *Hanoi's Road to the Vietnam War*, treat the Ninth Plenum and the Tet resolutions (read Oct. 24, 2026: their
+  pinpoints in `inbox/2026-10-24-book-asselin-nguyen.yaml`; the resolutions themselves still not reached). "Made public" written as the Hanoi edition of 1988 with a Check: an earlier printing may exist.
 - Phước Thành, Sept. 17–18, 1961 (`cal.1961-09-17.vietnam`): the capital's name (Phước Vĩnh?) not verified, so not
   written and no `place:` tag; add it to the gazetteer with Wikipedia's coordinates and tag the entry.
 - From *Victory in Vietnam*, not entered: Bàu Bàng, Nov. 12, 1965, the 9th Division against the 1st Infantry
