@@ -11,7 +11,9 @@ every pending patch before the first is merged and lists what a person must sett
 STYLE
  1. Refused outright: an edit or delete without a base (the merge would let the last writer win); an edit whose base
     is in neither the tree nor git's history (the merge would treat every field it names as a conflict); one patch
-    editing an entry twice (its second edit would conflict with its first).
+    editing an entry twice (its second edit would conflict with its first); an edit whose base is the entry as it now
+    stands but whose note would drop a work the note cites as read, or one of its Checks: a value built from an older
+    text paired with the current rev, which would erase another patch's merged work (drops()).
  2. Overlaps: every entry two or more patches edit, with the fields each sets. Where two set the same field, the
     merge records a conflict and the reconciling is by hand: both books' pages kept, both moves out of "To check:",
     both Checks (CLAUDE.md, "Hard and soft").
@@ -34,6 +36,20 @@ def load(paths):
             out.append((p, None, str(x)))
             continue
         out.append((p, d, None))
+    return out
+
+
+def drops(cur, new):
+    """What a note's read sources and Checks would lose if `new` replaced `cur` whole (STYLE 1): a stale value written
+    over a current base. Cards read (cited with a pinpoint) and "Check:" sentences only."""
+    import re
+    if new is None:
+        return []
+    from .notemerge import ITEM, card, sentences
+    pinned = lambda s: {card(m.group(0)) for m in re.finditer(ITEM, s) if re.match(r"\[\[[^\]]+\]\],", m.group(0))}
+    have = {card(m.group(0)) for m in re.finditer(ITEM, new)}
+    out = [f"{c} (read)" for c in sorted(pinned(cur) - have)]
+    out += [f"'{s[:60]}'" for s in sentences(cur) if s.startswith("Check:") and s not in new]
     return out
 
 
@@ -60,6 +76,10 @@ def audit(series, paths):
                     refused.append(f"{name}: {kind} {eid} has no base")
                 elif series.get(eid) and find_base(series, eid, body["base"]) is None:
                     refused.append(f"{name}: {kind} {eid}: base {body['base']} not in the tree or git history")
+                if kind == "edit" and series.get(eid) and body.get("base") == store.rev(series.get(eid)[2]):
+                    lost = drops(series.get(eid)[2].get("n") or "", (body.get("set") or {}).get("n"))
+                    if lost:
+                        refused.append(f"{name}: edit {eid} would drop what the note now holds: {'; '.join(lost)}")
                 if kind == "edit":
                     edits[eid].append((name, sorted((body.get("set") or {}).keys()) + sorted(body.get("unset") or [])))
             elif kind == "add":
@@ -92,7 +112,7 @@ def audit(series, paths):
         if len({p for p, _ in xs}) > 1 or old:
             near.append(f"{key[0]} {key[1]}: " + ", ".join(f"{i} ({p})" for p, i in xs)
                         + (f"; in the tree: {', '.join(old)}" if old else ""))
-    return [("Refused (STYLE 1)", refused), ("Entries edited by two or more patches (STYLE 2)", overlaps),
+    return [("Refused, or to read line by line before merging (STYLE 1)", refused), ("Entries edited by two or more patches (STYLE 2)", overlaps),
             ("Ids added twice or already present (STYLE 3)", collide),
             ("New entries on a date and thread already taken (STYLE 4)", near)]
 
