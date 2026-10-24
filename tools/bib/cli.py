@@ -351,6 +351,41 @@ def cmd_merge(series, a):
     return rc
 
 
+def cmd_audit_patches(series, a):
+    """Pending patches read together before any is merged (tools/bib/patchaudit.py)."""
+    from . import patchaudit
+    print(patchaudit.report(series, a.patches))
+    return 0
+
+
+def cmd_reconcile(series, a):
+    """Conflicts on a note, two patches' citations joined (tools/bib/notemerge.py): shown; --write applies those with
+    no problem, after a person has read them."""
+    import difflib
+    from . import notemerge
+    done = 0
+    for sec, e, c, text, probs in notemerge.conflicts(series):
+        if a.ids and e["id"] not in a.ids:
+            continue
+        print(f"== {e['id']} (from {c.get('from')})")
+        for line in difflib.unified_diff(notemerge.sentences(e.get("n") or ""), notemerge.sentences(text),
+                                         "ours", "proposed", lineterm="", n=0):
+            if not line.startswith(("---", "+++", "@@")):
+                print("  " + line)
+        for p in probs:
+            print("  PROBLEM " + p)
+        if a.write and not probs:
+            e["n"] = text
+            e["conflict"] = [x for x in e["conflict"] if x is not c]
+            if not e["conflict"]:
+                del e["conflict"]
+            series.save_section(sec)
+            done += 1
+    if a.write:
+        print(f"{done} notes joined")
+    return 0
+
+
 def cmd_conflicts(series, a):
     n = 0
     for l in series.lists.values():
@@ -685,6 +720,11 @@ def main(argv=None):
     x.add_argument("patches", nargs="+")
     x.add_argument("--dry-run", "-n", action="store_true")
     x.add_argument("--archive", action="store_true", help="move applied patches to inbox/merged/")
+    x = sub.add_parser("audit-patches", help="pending patches read together before merging: overlaps, collisions")
+    x.add_argument("patches", nargs="+")
+    x = sub.add_parser("reconcile", help="conflicts on a note: two patches' citations joined, shown; --write applies")
+    x.add_argument("ids", nargs="*")
+    x.add_argument("--write", action="store_true")
     sub.add_parser("conflicts", help="list unresolved conflicts")
     x = sub.add_parser("resolve", help="settle an entry's conflicts")
     x.add_argument("id")

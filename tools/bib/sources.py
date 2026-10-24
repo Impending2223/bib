@@ -43,6 +43,19 @@ def basis_problems(where, it):
     return out
 
 
+def online_problems(label, it, where="sources/states.yaml"):
+    """Each online copy: a url, an access from the legend, the date it was checked."""
+    out = []
+    for o in it.get("online") or []:
+        if not o.get("url"):
+            out.append((where, f"{label}: an online copy without a url"))
+        if o.get("access") not in ACCESS:
+            out.append((where, f"{label} {o.get('url')}: access {o.get('access')!r} not in the legend"))
+        if not re.match(r"^\d{4}-\d{2}-\d{2}$", str(o.get("checked", ""))):
+            out.append((where, f"{label} {o.get('url')}: no checked date"))
+    return out
+
+
 def problems():
     if not os.path.exists(PATH):
         return [("sources/states.yaml", "missing")]
@@ -62,29 +75,32 @@ def problems():
             if not s.get("title"):
                 out.append(("sources/states.yaml", f"{st}: a source without a title"))
             out += [(w, f"{st}-{i + 1}: {m}") for w, m in basis_problems("sources/states.yaml", s)]
+            out += online_problems(f"{st}-{i + 1}", s)
         for j, l in enumerate(e.get("local") or []):
             if not l.get("body") or not l.get("record"):
                 out.append(("sources/states.yaml", f"{st}-L{j + 1}: a local record without body or record"))
             out += [(w, f"{st}-L{j + 1}: {m}") for w, m in basis_problems("sources/states.yaml", l)]
-            for o in l.get("online") or []:
-                if o.get("access") not in ACCESS:
-                    out.append(("sources/states.yaml", f"{st}-L{j + 1}: access {o.get('access')!r} not in the legend"))
-            for o in s.get("online") or []:
-                if not o.get("url"):
-                    out.append(("sources/states.yaml", f"{st} {s.get('title')}: an online copy without a url"))
-                if o.get("access") not in ACCESS:
-                    out.append(("sources/states.yaml", f"{st} {o.get('url')}: access {o.get('access')!r} not in the legend"))
-                if not re.match(r"^\d{4}-\d{2}-\d{2}$", str(o.get("checked", ""))):
-                    out.append(("sources/states.yaml", f"{st} {o.get('url')}: no checked date"))
+            out += online_problems(f"{st}-L{j + 1}", l)
     for st in sorted(STATES - seen):
         out.append(("sources/states.yaml", f"{st} missing"))
     return out
 
 
 def warnings():
-    """The listings stale against their registers (tools/sources/make_listing.py writes them)."""
+    """The listings stale against their registers (tools/sources/make_listing.py writes them); a register title with
+    a hyphen in a span of years (tools/bib/titles.py STYLE 2)."""
     import hashlib
+    from .titles import span_dashes
     out = []
+    try:
+        reg = yaml.safe_load(open(PATH, encoding="utf-8")) or []
+    except (OSError, yaml.YAMLError):
+        reg = []
+    for e in reg:
+        for i, s in enumerate(e.get("sources") or []):
+            t = str(s.get("title") or "")
+            if span_dashes(t) != t:
+                out.append(("sources/states.yaml", f"{e.get('st')}-{i + 1}: {t[:60]}: an en dash in a span of years [titles]"))
     for reg, md in (("states.yaml", "state-sources.md"), ("state-law.yaml", "state-law-sources.md")):
         rp = os.path.join(store.ROOT, "sources", reg)
         mp = os.path.join(store.ROOT, "notes", md)
