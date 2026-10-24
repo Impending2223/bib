@@ -42,14 +42,17 @@ The cases that are not a plain "holds":
   dollars"), Stein, 452–53, from Evans and Novak: another patch (book-dallek-giant) adds it as `cal.1963-11-25.economy`.
   Stein, 452–53, and Zelizer, 202 (Dillon's and Heller's memoranda of Nov. 25), should join its note after the merge.
 
-## New entries (11 citing Stein, three of them Zelizer too)
+## New entries (14 citing Stein, three of them Zelizer too)
 
 Oct. 26, 1961 (the statement to the Cabinet on frugality); Feb. 21, 1962 ("not a chance of a tax reduction"); May 29,
 1962 (the meeting after the market's fall, by Sorensen's account); June 4, 1962 (Dillon to the financial writers);
 June 7, 1962 (the net tax reduction promised); June 29, 1962 (the Chamber of Commerce's $8 billion); July 26, 1962
 (Mills's closed hearings, with the Digest); Nov. 19, 1962 (the Labor-Management committee's $10 billion); Dec. 12,
-1962 (Kennedy and Mills, recorded); Dec. 14, 1962 (the CED's statement); Apr. 20, 1961 (the tax message). Pinpoints
+1962 (Kennedy and Mills, recorded); Dec. 14, 1962 (the CED's statement); Apr. 20, 1961 (the tax message); Feb. 25,
+1963 (Kennedy to the American Bankers Association's symposium: "the first priority is a bill," 1963 Pub. Papers 210;
+Stein, 438); Mar. 6, 1963 (the news conference taking it back, 1963 Pub. Papers 236; 438–39); Nov. 4, 1963 (Henry
+Ford II and Saunders before Senate Finance, the Digest's D532; 451–52). Pinpoints
 added to other entries: Mar. 6, 1961 (Heller before the Joint Economic Committee); Apr. 25, 1963 (the Business
-Committee for Tax Reduction, 439, 441, 511 n.38); Jan. 21, 1964 (the budget, 453). Two more wait on other patches that
-edit the same notes: May 28, 1962 (the market's fall, 407–08) and June 11, 1962 (Yale, 424–25; Zelizer, 193–94), both
-edited by book-thousand-days; Nov. 27, 1963 (the joint session, 452), edited by book-dallek-giant.
+Committee for Tax Reduction, 439, 441, 511 n.38); Jan. 21, 1964 (the budget, 453); May 28, 1962 (the market's fall,
+407–08); Nov. 27, 1963 (the joint session, 452). Yale, June 11, 1962: Stein, 424–25, only quotes Heller on it; Zelizer,
+193, cited instead. Those three notes are edited by book-thousand-days and book-dallek-giant too (three-way merge).

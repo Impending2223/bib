@@ -54,13 +54,14 @@ The cases that are not a plain "holds":
 - Recording cites: Zelizer gives the June 9, 1964 call as Tape WH6406.08, #3642; PRDE and the Miller Center have
   WH6406.03, #3642. The new entry follows the catalogues.
 
-## New entries (27 citing Zelizer, three of them Stein too)
+## New entries (28 citing Zelizer, three of them Stein too)
 
 The recorded calls and meetings: Aug. 6, Nov. 16 and Dec. 12, 1962; Jan. 8, Feb. 7, Feb. 26, Mar. 9, Mar. 21, May 18,
 June 9, June 11, June 22 and Aug. 14, 1964. Ways and Means: July 26, 1962 (with Stein); Sept. 18, 1963 (Mills before
 Rules: no hospital insurance this session); June 24, 1964; Mar. 2, 1965 (the three-layer cake). Mills's statements:
 Dec. 2, 1964; Oct. 6, 1967. The surcharge, from the LBJ Library's memoranda as Zelizer reports them: Aug. 24, Dec. 14,
-1967; Mar. 22, Apr. 30, May 1, 1968; Johnson's news conference of May 3, 1968. Surrey's "tax expenditures," Nov. 15,
+1967; Mar. 22, Apr. 30, May 1, 1968; Johnson's news conference of May 3, 1968; the Cabinet of May 29, 1968 ("We'll look
+like Hoover," 276). Pinpoint added: Yale, June 11, 1962 (193). Surrey's "tax expenditures," Nov. 15,
 1967. The tax message of Apr. 20, 1961, out of the Cuba entry it shared.
 
 Not entered (no day, or no record reached): Mills, Ture and O'Brien in Mills's office (1967, undated, Ture's account to

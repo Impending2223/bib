@@ -702,18 +702,16 @@ Searched in the Daily Digest (daybook/committees), the bound Record's days, the 
   runs 10197–10283, of June 13 from 10303). Fowler's visit to Mills in Arkansas, fall 1962 (Stein, 434), and their
   three-and-a-half-hour meeting, Nov. 1962 (Zelizer, 196: Fowler to Dillon, Nov. 1962, JFK Library): no day. The
   Labor-Management committee's call at the White House, early Feb. 1963 (Stein, 438, *Business Week*, Feb. 9, 1963):
-  no day. Kennedy's remarks to the American Bankers Association's symposium, Feb. 25, 1963, and the news conference
-  of Mar. 6 taking them back (Stein, 438–39; 1963 Pub. Papers): not entered. Saunders and Henry Ford II before Senate
-  Finance for the Business Committee, Nov. 4, 1963 (Stein, 451–52): not entered. Mills, Ture and O'Brien in Mills's
+  no day. Mills, Ture and O'Brien in Mills's
   office (Ture's account; Zelizer, 261) and Johnson's speaker call to Ackley with Mills in the room (Ackley's
   account; Zelizer, 260), both 1967, no day. Mills's advice to Johnson, Sept. 1967, to choose guns over butter
   (Zelizer, 263): no day. Martin's "worst financial crisis since 1931," Apr. 19, 1968 (Zelizer, 273, from the *Wall
-  Street Journal*, Apr. 24): the speech not found. The Cabinet of May 29, 1968 ("We'll look like Hoover"; Zelizer,
-  276): not entered. Mills's announcement after the devaluation, Nov. 20, 1967 (*New York Times*, Nov. 21: texts of
+  Street Journal*, Apr. 24): the speech not found. Mills's announcement after the devaluation, Nov. 20, 1967 (*New York Times*, Nov. 21: texts of
   his announcement and an address; Zelizer, 267–68): not read. Mills's "first public statement of support" at the
-  Golden Ring Council's luncheon, Mar. 10, 1965 (Zelizer, 242): not entered. The bills.yaml step of Apr. 20, 1961
-  (`revenue-1962`) points to `cal.1961-04-20.cuba`; it should point to the new `cal.1961-04-20.economy` once merged,
-  and that Cuba entry's note should lose the tax message's cite (left because book-thousand-days edits the same note).
+  Golden Ring Council's luncheon (Zelizer, 242, gives no day; his sources, the *New York Times* and the *Wall Street
+  Journal* of Mar. 11, 1965): not entered. The bills.yaml step of Apr. 20, 1961 (`revenue-1962`) points to
+  `cal.1961-04-20.cuba`; it should point to the new `cal.1961-04-20.economy` once merged (the patch takes the tax
+  message out of the Cuba entry's `c` and `n`).
 
 ### Perlstein, *Before the Storm*, and Johns, *Vietnam's Second Front* (the book agent, Oct. 24, 2026; notes/book-checks/perlstein-before-the-storm.md, johns-vietnams-second-front.md)
 
@@ -739,6 +737,24 @@ Searched in the Daily Digest (daybook/committees), the bound Record's days, the 
   (171): the Record and the Committee's papers.
 - The Ripon Society's "The Realities of Vietnam": Johns gives September 1967 (171) and Oct. 2, 1967 (177).
 - Johnson's call to Nixon, Aug. 28, 1968 (Johns, 220; the LBJ Library's transcript): not in PRDE's August list read here.
+
+### Garrow, *Bearing the Cross* (the book agent, Oct. 24, 2026; notes/book-checks/garrow-bearing-the-cross.md)
+
+- The FBI's acts against King (`cal.1963-05-31.king`, `-10-05`, `-11-20`, `-12`, `cal.1964-01-05.king`,
+  `cal.1965-01-05.king`, `-01-11`, `cal.1967-04-19.king`, `cal.1967-07-10.king`, `cal.1968-03-28.king` and others) carry
+  "Made public: Check": the Church Committee's Book III (S. Rep. No. 94-755, 1976) is the likely first publication;
+  intelligence.senate.gov refuses this environment ("Access Denied," Akamai, Oct. 24, 2026). Read it elsewhere (govinfo's
+  Serial Set, archive.org) and date each.
+- SCLC's convention, Aug. 14–17, 1967: a resolution against every candidate for the war; King to go "all out" to defeat
+  Johnson in 1968 (Garrow, 575; the *Atlanta Constitution*, Aug. 17–18, 1967): the day.
+- The White House on the Poor People's Campaign: "Memorandum for Marvin Watson," Feb. 2, 1968, and Johnson's news
+  conference that day (Garrow, 595, 717 n.22); Temple to Johnson, Feb. 23, 1968, and Barefoot Sanders to Johnson (two),
+  Mar. 13, 1968 (718 nn.29, 31): not entered.
+- The march of Clergy and Laymen Concerned through Arlington Cemetery, Feb. 6, 1968, King at its head (Garrow, 595), and
+  King with Carmichael, Rap Brown and Courtland Cox, Feb. 7 (596): not entered; the war-opposition thread's February.
+- Hoover's SAC letter 68-16, Mar. 12, 1968, the "ghetto informant" program (Garrow, 607, 720 n.37): against
+  `cal.1968-03-04.black-nationalism`.
+- Louis Martin's call to Andrew Young, April 1967, asking whether King would see Johnson (Garrow, 558): the day.
 
 ## Foreign
 

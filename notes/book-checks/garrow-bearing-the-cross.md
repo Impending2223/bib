@@ -8,7 +8,7 @@ the book alone, but one: Apr. 3, 1968, where Garrow bears out the court's order 
 
 ## Step 1: entries that cited the book (35)
 
-Held, pinpoint added: 33. Held in part or with another detail:
+Held as written, pinpoint added: 14. Held in part or with another detail (21):
 
 | Entry | The entry | Garrow | Ruling |
 |---|---|---|---|
