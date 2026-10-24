@@ -11,7 +11,7 @@ A memoir: Johnson's account. Where another record (FRUS in the daybook, the Publ
 same transaction, it is cited first; where the book alone gives a meeting, the entry says "by Johnson's account."
 
 The patch `inbox/2026-10-24-book-vantage-point.yaml` (patch `book-vantage-point`) holds up the 30 calendar citations,
-adds the book with pinpoints to 27 more entries, and makes 17 new entries.
+adds the book with pinpoints to 29 more entries, and makes 29 new entries.
 
 ## The thirty citations
 
@@ -44,7 +44,7 @@ only; the book's matter is Johnson's decision of Aug. 25, a new entry), 1965-01-
 | `cal.1968-03-28.vietnam` | Clifford proposes the halt north of the 20th parallel (FRUS VI doc. 163, from McPherson and Clifford) | Rusk dictated the proposal, "his original proposal" of a month before; the drafts to Johnson in the Cabinet Room at 6:30 p.m.; Rusk's cable to Bunker at 8:20 that night (420–21) | FRUS VI doc. 165 (Rusk to Bunker, 0120Z Mar. 29) bears out the cable | Check added: the accounts differ on who proposed. |
 | `cal.1968-03-25.vietnam` | Bradley, Taylor and Murphy against | Bradley for the reinforcement but against any sign of weakening will; Johnson's tally six for disengaging, one between, four against (418) | FRUS VI docs. 155–158 | No change; noted here. |
 | new `cal.1963-11-25.succession` | — | the talk to the governors "off-the-record," its full text never released (28); quotes words on the conventions, the tax cut and civil rights | the Public Papers print a text (1963–64 Pub. Papers 4, 8:30 p.m.) without those words | Both cited; Check in the entry. |
-| new `cal.1965-12-07.vietnam-pause` | — | the Ranch meeting, Dec. 7 (235) | FRUS III doc. 223 gives 10:25 a.m. in its heading; the daybook files it at 11:25 | No time in the entry. |
+| new `cal.1965-12-07.vietnam-pause-2` (re-id: the Gibbons patch adds `cal.1965-12-07.vietnam-pause`, the same meeting) | — | the Ranch meeting, Dec. 7 (235) | FRUS III doc. 223 gives 10:25 a.m. in its heading; the daybook files it at 11:25 | No time in the entry. |
 
 ## Not entered (the book dates them; no record found or the calendar's span of an entry already covers them)
 
@@ -54,3 +54,28 @@ Vaughn (184); Christian and Connally on a withdrawal statement, Sept. 1967 (428)
 lunch of Aug. 20, 1968 on Czechoslovakia (487; FRUS VI doc. 333 has no word of it); the Cabinet of Dec. 4, 1968 and
 Zwick's memorandum of Oct. 23, 1968 (557); Nixon's "prior consultation and prior agreement," mid-November 1968
 (556–57). These are in the report's leads.
+| new `cal.1968-09-17.vietnam-paris` | — | Harriman promises to urge a resumption of the bombing "with enthusiasm" if Hanoi violates the understandings (514–15) | FRUS VII doc. 20 (Harriman's memorandum): no such promise; Harriman says the bombing could begin again at once; Johnson calls him "as bad as Dean" on resuming | Both cited, the promise as Johnson's account; Check in the entry. |
+| new `cal.1963-11-23.poverty-2` | — | Heller "at 7:40 in the evening" (69) | Daily Diary, Nov. 23, 1963, image 3: 7:41 | The Diary's minute in the entry; Check; a line in `notes/diary-discrepancies.md`. |
+| new `cal.1967-11-03.vietnam-2` | — | Johnson "sent the main elements of McNamara's plan, without identifying the author, to General Maxwell Taylor" (374) | FRUS V doc. 381: "Walt Rostow has asked my comments"; Rostow's covering note | Not a disagreement (sent through Rostow); the entry follows FRUS. |
+| `cal.1967-10-17.vietnam` (new) | — | Bundy's memorandum of Oct. 17 "covering the main points in McNamara's plan" (373) | FRUS V doc. 354 is dated Oct. 17, two weeks before McNamara's memorandum of Nov. 1 | Johnson's framing; the entry says what the memorandum says. |
+
+## Resumed, Oct. 24, 2026 (05:00 UTC)
+
+The first agent's generator (spec and patch writer) was finished; the patch regenerated from the entries' current
+text, each `base:` the rev of the text it was built from. Fixed on the way: the book's pinpoint had been put after
+"Made public: ..." in nine entries; it now stands with the read works, before it. Re-id: the Ranch meeting of Dec. 7,
+1965, is `cal.1965-12-07.vietnam-pause-2` (Gibbons's patch has the same meeting as `cal.1965-12-07.vietnam-pause`).
+
+Added: the book with pinpoints in `cal.1967-11-01.vietnam` (372–73: the lunch of Oct. 31; the memorandum received Nov.
+1) and `cal.1968-10-14.vietnam` (515–16). New entries, each with the FRUS document first: McGeorge Bundy's memorandum,
+Oct. 17, 1967; the replies to McNamara's memorandum of Nov. 1 that Johnson quotes (Taylor, Nov. 3; Fortas, Nov. 5;
+Clifford, Nov. 7; Katzenbach, Nov. 16; Rusk, Nov. 20), each "Made public: in part" in the memoir, 1971, before FRUS
+(2002); the Tuesday lunch of Mar. 12, 1968; the lunch of May 14 and the meeting of May 15, 1968, on bombing between the
+19th and 20th parallels; Harriman with Johnson, Sept. 17, 1968; Vance with Johnson, Oct. 3, 1968; Heller with Johnson,
+Nov. 23, 1963 (same meeting as the Dallek patch's `cal.1963-11-23.poverty`, whose words, from Heller's notes as Dallek
+quotes them, differ from Johnson's). The Daily Diary of Nov. 23, 1963 (images 1, 3) now cited first in the McCone,
+Eisenhower and Heller entries: it agrees but for Heller's minute.
+
+The merge's duplicate flags are false: `cal.1963-11-23.succession-2` (Eisenhower) is not `cal.1963-11-23.succession`
+(McCone's briefing), and `cal.1964-08-25.elections-1964-2` (Johnson's statement that he will not run) is not
+`cal.1964-08-25.elections-1964` (Robert Kennedy for the Senate): `./bib resolve ID --take keep`.
