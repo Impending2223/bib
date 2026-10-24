@@ -30,6 +30,15 @@ Berlin Crisis, but you might only have a full bibliography entry for the
 first.) At the very least, I want the calendar entries to point to the
 relevant material elsewhere in the bibliography. Names, events."
 
+The informal record (the owner's rule, Oct. 23, 2026: "the sinews of the public history"): the calendar is not the
+public record narrowly construed. For the persons with public roles (executive, legislative, policy, foreign
+relations, the administration of justice, the campaigns and the parties' communications), the transactions behind it
+belong too: informal meetings, lobbying, agreements, the planning of policy, personnel, operations and communications,
+in the West Wing, the members' offices, the campaign headquarters. Their record is mostly memoirs, biographies, oral
+histories, recordings and diaries: date each by its source, cite it by page, name whose account it is where it is one
+participant's ("by O'Donnell's account"), and where accounts differ, say so ("Check: Sorensen gives ..."). The reading
+runs look for them.
+
 So every calendar entry has:
 - `c`: what happened, in one to three clipped sentences. Who, what, the number.
 - `n`: the pointers, in this order:
@@ -69,6 +78,22 @@ So every calendar entry has:
   shown; they put the entry in the person's life (Names), as do the persons of `Names:`. A namesake is not tagged
   (Edward McCormack is not the Speaker; Lucius Clay of Berlin is not his son), nor a name in a case's title.
   `check` fails on a key that names no person.
+
+What each source stands for (the owner's rule, Oct. 23, 2026): a source cited under an entry stands for the whole of
+`c`, its dates, numbers, names, quotations and facts, unless the note says otherwise; where it does not, the entry and
+the note together say which claim each source is for: a parenthetical after the cite ("[[w.x]], 123 (the vote)"), a
+label before it ("Votes: ..."), or the cite in the sentence of `c` it supports. Omission implies, determinately: under
+an entry ABCD, "X; Y; Z (C)" says X and Y stand for A, B and D, and Z for C and C's tie to the rest (the same person,
+act or thing), not for A, B and D. A source read that does not bear out a claim is no cite for it: the claim takes
+"Check:" or goes.
+
+Hard and soft (the same day): the sources read (the primary record, linked; a work cited with its pinpoint, read off
+the page) come first; the works not yet read stand behind "To check:", a sentence of its own before "See" and
+"Names:" ("To check: [[w.a]]; [[w.b]]."), the event's bibliography among them. A reading run that reads one moves it
+out, with its pinpoint and, where it stands for part of the entry, its parenthetical; a source found and not yet read
+(a book, a hearing, a file) joins the To check. "Check:" marks a detail to verify; "To check:", sources not yet read.
+Swept Oct. 24, 2026: every work cited without a pinpoint went behind "To check:" (2,439 notes; a work inside a
+sentence of prose, some two dozen, left as written).
 
 Calendar entries on the States and the cities take hidden `state:<postal code>` and `city:<slug>` tags (`state:ny`,
 `city:nyc`) and the threads in `notes/threads.md` ("The States and the cities").
