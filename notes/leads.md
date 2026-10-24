@@ -766,6 +766,26 @@ Searched in the Daily Digest (daybook/committees), the bound Record's days, the 
   Libraries (troops at Oxford, Sept. 1962, among them: recalled, not verified).
 - OLC's FOIA reading room and daybooks: not searched.
 
+### Johnson, *The Vantage Point* (Oct. 24, 2026): dated by the book, not entered
+- Camp David on the nonproliferation treaty, Oct. 1–2, 1966 (478). Johnson's call to Chiari naming Anderson and Vaughn,
+  Apr. 3, 1964 (184). Christian and Connally on a withdrawal statement, Sept. 1967 (428). Ridgway at lunch, Feb. 1, 1968
+  (389). The meetings of Mar. 8, 10 and 15, 1968, and Russell on Mar. 29 (402–21). The Tuesday lunch of Aug. 20, 1968, on
+  Czechoslovakia (487; FRUS silent). Zwick's memorandum, Oct. 23, 1968, and the Cabinet of Dec. 4, 1968 (557). Nixon's
+  "prior consultation and prior agreement," mid-November 1968 (556–57).
+- From Dallek, *Flawed Giant* (book-dallek-giant, Oct. 24, 2026; `notes/book-checks/dallek-flawed-giant.md`): Johnson's
+  trip to Beirut and Tehran, Aug. 1962 (`cal.1962-08-23.middle-east`), has no bibliography now that Dallek, who does
+  not treat it, is dropped. Not entered, each to be dated or read in its record (Dallek's page): Bundy to Johnson, Oct. 1,
+  1964, to "give a hint of firmness" (240; FRUS 1964–68, I does not print it in the daybook); Johnson asks Lou Harris,
+  Nov. 1, 1964, whether a failure to answer Bien Hoa would cost votes (241); Russell's two and a half hours at the White
+  House, May 13, 1966 (367); Johnson and Russell on the three choices in the bombing, May 12, 1967 (469; a recording?);
+  Johnson off the record with Drew Pearson on Robert Kennedy, Mar. 13, 1967 (454); with Sen. McIntyre, Dec. 28, 1967
+  (501); the board of the Urban Institute, Apr. 26, 1968 (535); Bailey asks to see Johnson on the convention, July 29,
+  1968 (574); Johnson tells Clifford, Rusk and Rostow of the Nixon meeting's aims, then Nixon, July 26 (571; entered
+  for July 24 from FRUS). The day of Webb's resignation (`cal.1968-09-16.space`, 423–24) against the press. The
+  Leadership breakfast of Dec. 3, 1963 (`cal.1963-12-03.foreign-aid`), against the Diary Backup (Dallek's text says
+  Dec. 5). The AMA officers at the White House (`cal.1965-07-29.medicare`): the Daily Diary of July 29, 1965, not on the
+  Catalog.
+
 ## Foreign
 
 - Meeker's memorandum on the legality of the United States' part in Vietnam (State's Legal Adviser, *Bulletin*, Mar. 1966)
