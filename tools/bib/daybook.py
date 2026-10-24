@@ -60,8 +60,8 @@ STYLE:
     linked to the page in the archive.org copy; "Bulletin, Jan. 8, 1962, p. 43" in grey. Jan. 6, 1960, to Jan. 20, 1969, but vol. 59 (July-Dec.
     1968: no open copy).
  12. Two folded blocks a day, each closed by default and shown only where it holds something (the owner's request,
-    Oct. 22, 2026: "separate the daily materials into two sets"): "Documents", the President's (APP, as "PPP"), FRUS
-    and the recordings, in that order; then "Other records", the committees' meetings and the Bulletin's items, where
+    Oct. 22, 2026: "separate the daily materials into two sets"): "Documents", the President's (APP, as "PPP"), FRUS,
+    the opinions (STYLE 15) and the recordings, in that order; then "Other records", the committees' meetings and the Bulletin's items, where
     any further list goes too. Each summary counts its own lists ("Documents: PPP 3, FRUS 12, Recordings 4"; "Other
     records: Committees 9, Bulletin 2"). Expand all and Collapse all open or close both. The Sunday programs and the
     New York Times are not daily materials: they stay under the date, in neither block.
@@ -74,6 +74,9 @@ STYLE:
     opening of any block of the month, by a tap, Expand all (the months from the button's on, two at a time; in the
     reader, the list's own blocks), or a link to an anchor inside one; "loading" after the summary meanwhile. Some 10 MB
     a calendar page, 26 MB the reader, stays out of the page (Oct. 22, 2026).
+ 15. Opinions, in the Documents block after FRUS and before the recordings: the opinions of the Attorney General and
+    the Office of Legal Counsel of the day, from daybook/opinions.yaml (kept by hand; rendered by tools/bib/opinions.py,
+    its STYLE notes): the signer, the title linked to the copy read, the cite in grey, the addressee, the holding.
 """
 import calendar
 import datetime
@@ -406,6 +409,7 @@ def docs_html(docs, ab, iso=None):
     """The day's materials in two folded blocks (STYLE 12): the documents (APP, FRUS, the recordings), then the
     other records (the committees' meetings, the Bulletin's items, and any later list)."""
     from . import committees                # the committees' meetings, a fourth list (STYLE 10)
+    from . import opinions                  # the Attorney General's and OLC's opinions, after FRUS (STYLE 15)
     cm = committees.for_day(iso) if iso else []
     ppp = [x for x in docs if x["src"] == "ppp"]
     frus = [x for x in docs if x["src"] == "frus"]
@@ -426,6 +430,7 @@ def docs_html(docs, ab, iso=None):
     return (block("Documents", "docs", [
                 ("PPP", ppp, lambda xs: ol(xs, "dd")),
                 ("FRUS", frus, ol),
+                ("Opinions", opinions.for_day(iso) if iso else [], lambda xs: opinions.list_html(xs, SERIES)),
                 ("Recordings", rec, ol)])
             + block("Other records", "docs or", [
                 ("Committees", cm, lambda xs: committees.list_html(xs, SERIES)),

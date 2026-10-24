@@ -303,6 +303,8 @@ def run(series, only=None):
     from . import sources
     for where, msg in sources.problems():
         add(ERROR, where, msg, "sources")
+    for where, msg in sources.warnings():         # the listings made from the registers (notes/state-*.md)
+        add(WARN, where, msg, "state-sources")
     # the Executive Branch (executive/*.yaml)
     from . import executive
     for where, msg in executive.problems(series):
@@ -335,6 +337,10 @@ def run(series, only=None):
     from . import diary
     for where, msg in diary.problems(series):
         add(ERROR, where, msg, "diary")
+    # the opinions of the Attorney General and OLC (daybook/opinions.yaml; tools/bib/opinions.py)
+    from . import opinions
+    for level, where, msg in opinions.problems(series):
+        add(ERROR if level == "error" else WARN, where, msg, "opinions")
     # the Bulletin's items (daybook/bulletin/, tools/daybook/make_bulletin.py)
     from . import bulletin
     for where, msg in bulletin.problems():

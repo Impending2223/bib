@@ -141,7 +141,7 @@
       checked_in: 2018 edition ch. 6 'Arkansas Elections' (contents p. 345; House pp. 367-400, the 1966 special on p. 389; gubernatorial p. 401 ff.); 2008 edition text searched
     basis:
     - {ground: seen, ref: '2018 edition ch. 6, pp. 345, 367-401 (the 1966 special p. 389); 2008 edition searched', url: 'https://www.sos.arkansas.gov/uploads/education/2018_Historical_Report.pdf'}
-    cited_as: ['Historical Report of the Secretary of State', 'sos\.arkansas\.gov']
+    cited_as: [Historical Report of the Secretary of State, 'sos\.arkansas\.gov']
     online:
     - {host: Arkansas Secretary of State, url: 'https://www.sos.arkansas.gov/uploads/education/2018_Historical_Report.pdf', years: 2018 edition (609 pp.), access: open, checked: '2026-10-06'}
     - {host: Arkansas Secretary of State, url: 'https://www.sos.arkansas.gov/uploads/elections/historical_report1210.pdf', years: 2008 edition (751 pp.), access: open, checked: '2026-10-06'}
@@ -155,7 +155,7 @@
     covers: the certified county and precinct returns filed with the Secretary of State
     basis:
     - {ground: catalog, ref: 'the Arkansas State Archives'' finding aid 602, read only as a search engine''s summary (the page itself unreachable here: proxy 502, twice, Oct. 6, 2026)', url: 'https://digitalheritage.arkansas.gov/finding-aids/602'}
-    cited_as: ['certified returns', 'county certified returns', 'Ark\. State Archives', 'Arkansas State Archives']
+    cited_as: ['certified returns', 'county certified returns', 'Ark\. State Archives', 'Arkansas State Archives', 'Ark\. Secretary of State']
     online:
     - {host: 'Arkansas State Archives', url: 'https://digitalheritage.arkansas.gov/finding-aids/602', years: 'finding aid', access: 'other', checked: '2026-10-06', note: 'proxy 502 (upstream unreachable), twice'}
   labels_1968:
@@ -253,7 +253,7 @@
     record: Statement of Vote of the City and County
     basis:
     - {ground: catalog, ref: 'the San Francisco Public Library''s series on archive.org, June 1978 on (24 items, Oct. 24, 2026); none of the 1960s found', url: 'https://archive.org/details/statementofvotec7197sanf'}
-    cited_as: ['Registrar of Voters'' canvass']
+    cited_as: ['Registrar of Voters'' canvass', Registrar of Voters]
   labels_1968:
     democratic: 1968 DEMOCRATIC PRESIDENTIAL ELECTORS
     wallace: 1968 AMERICAN INDEPENDENT PRESIDENTIAL ELECTORS
@@ -426,7 +426,7 @@
       checked_in: 1968 Tabulation (35 pp.), PDF pp. 1-5 and samples of pp. 6-35, page images
     basis:
     - {ground: seen, ref: '1968 Tabulation, PDF pp. 1-5 and samples of pp. 6-35 (page images)', url: 'https://archive.org/details/Tabulationofofficialvotescastinthegeneralelection1968'}
-    cited_as: ['Tabulationofofficialvotescastinthegeneralelection', 'Tabulation of Official Votes']
+    cited_as: [Tabulationofofficialvotescastinthegeneralelection, Tabulation of Official Votes, 'Secretary of State''s official returns']
     online:
     - {host: Internet Archive (State Library and Archives of Florida), url: 'https://archive.org/details/Tabulationofofficialvotescastinthegeneralelection1968', years: 1948-1970 even years, access: open, checked: '2026-10-23', pattern: 'https://archive.org/details/TabulationofofficialvotescastinthegeneralelectionYYYY, some with a trailing 1: 1956, 1962, 1964, 1966, 1968, 1970 plain; 19581, 19601 (and 19481-19541) with the 1 (all from an archive.org search, 1968 opened)'}
     - {host: Internet Archive, url: 'https://archive.org/search?query=title%3A%28tabulation+of+official+votes+cast%29', years: '1972, 1974: not found', access: open, checked: '2026-10-23'}
@@ -884,7 +884,7 @@
       checked_in: not opened
     basis:
     - {ground: catalog, ref: 'HathiTrust Records 103484702 (Mar. 3, 1964) and 100813399 (1964); hathifile, 1962', url: 'https://catalog.hathitrust.org/Record/103484702'}
-    cited_as: ['General Election Returns']
+    cited_as: [General Election Returns, 'Secretary of State''s returns', 'La\. Secretary of State, returns']
     online:
     - {host: HathiTrust, url: 'https://catalog.hathitrust.org/Record/103484702', years: 'March 3, 1964 (search-only; also Record 100813399, 1964)', access: bot-check, checked: '2026-10-23'}
   - title: Report of the Secretary of State (biennial)
@@ -1015,9 +1015,15 @@
       checked_in: not opened
     basis:
     - {ground: catalog, ref: 'HathiTrust Record 100813574 (Sept. 1966, Nov. 1966, Nov. 1968, Nov. 1970, May 1972-Nov. 1974; Full view per the Bib API)', url: 'https://catalog.hathitrust.org/Record/100813574'}
-    cited_as: ['State Administrative Board of Election Laws', 'Maryland General Election Returns', 'uc1\.c109423']
+    cited_as: ['State Administrative Board of Election Laws', 'Maryland General Election Returns', 'uc1\.c109423', 'returns of June 13']
     online:
     - {host: HathiTrust (UC copies), url: 'https://catalog.hathitrust.org/Record/100813574', years: 'Sept 1966, Nov 1966, Nov 1968, Nov 1970, May 1972-Nov 1974 (Full view per Bib API)', access: bot-check, checked: '2026-10-23'}
+  local:
+  - body: Baltimore City Board of Supervisors of Elections
+    record: returns of the city elections
+    basis:
+    - {ground: assumed, ref: no copy or catalog record found}
+    cited_as: [Board of Supervisors of Elections]
   labels_1968:
     democratic: Democratic Party
     wallace: American Party
@@ -1106,7 +1112,7 @@
     covers: the State canvass of each election
     basis:
     - {ground: assumed, ref: 'named in this register''s first survey (best_for_specials); no finding aid read'}
-    cited_as: ['Board of State Canvassers'' certification', 'Board of State Canvassers'' records']
+    cited_as: ['Board of State Canvassers'' certification', 'Board of State Canvassers'' records', 'the canvass\)']
     online: []
   local:
   - body: City of Detroit
@@ -1204,6 +1210,12 @@
     - {host: HathiTrust, url: 'https://catalog.hathitrust.org/Record/006136989', years: 'full view 1957-58, 1961-62, 1963-64, 1967-68, 1969-70 (uiug.30112118315255), 1971-72; search-only 1955-56, 1959-60, 1965-66, 1977/78', access: bot-check, checked: '2026-10-23'}
     - {host: Internet Archive, url: 'https://archive.org/details/stateofmissourio0000unse', years: 1967-1968, access: borrow, checked: '2026-10-06'}
     - {host: Internet Archive, url: 'https://archive.org/details/officialmanualst00miss', years: 1975-1976, access: borrow, checked: '2026-10-06'}
+  local:
+  - body: Board of Election Commissioners of Kansas City; of the City of St. Louis
+    record: returns of the city elections
+    basis:
+    - {ground: assumed, ref: no copy or catalog record found}
+    cited_as: [Board of Election Commissioners]
   labels_1968:
     democratic: Democratic
     wallace: American Party of Missouri
@@ -1245,7 +1257,7 @@
     covers: paper returns 1817-2016; PDFs online from 2008 only
     basis:
     - {ground: catalog, ref: 'MDAH''s series page (PDFs from 2008) and finding aid for Series 0107, Election Returns, 1817-2016 (paper)', url: 'https://da.mdah.ms.gov/series/sos/s0107'}
-    cited_as: ['Series 0107', 's0107']
+    cited_as: [Series 0107, s0107, official returns, 'secretary of state''s returns', 'Secretary of State''s proclamation', 'Check: the returns']
     online:
     - {host: MDAH Digital Archives, url: 'https://da.mdah.ms.gov/series/sos/s0107', years: 2008 on, access: open, checked: '2026-10-23'}
     - {host: MDAH finding aid, url: 'https://finding.mdah.ms.gov/government-records/series-107', access: open, checked: '2026-10-23', note: 'access: other (connection failed, no response)'}
@@ -1395,6 +1407,12 @@
     online:
     - {host: Nebraska Library Commission govdocs, url: 'https://govdocs.nebraska.gov/epubs/L3000/D001.html', years: index; 1956-1974/75 listed, access: open, checked: '2026-10-23', pattern: 'https://govdocs.nebraska.gov/epubs/L3000/D001-YYYY.pdf (tested 1956, 1968; 1974-75 = D001-197475.pdf)'}
     - {host: HathiTrust, url: 'https://catalog.hathitrust.org/Record/000552324', years: 'full view 1954-1966, 1970, 1972, 1973, 1974-1975, 1976-1977 (mdp copies); 1968 osu copy search-only', access: bot-check, checked: '2026-10-23'}
+  local:
+  - body: Douglas County Election Commissioner (Omaha)
+    record: returns of the city elections
+    basis:
+    - {ground: assumed, ref: no copy or catalog record found}
+    cited_as: [Douglas County Election Commissioner]
   labels_1968:
     democratic: Democratic
     wallace: American
@@ -1505,7 +1523,8 @@
       checked_in: not seen
     basis:
     - {ground: catalog, ref: 'a finding aid''s box list at the State Records Center and Archives, read only as a search engine''s summary: Official Returns 1964 and 1968 (Box 85); the page itself bot-checked', url: 'https://nmarchives.unm.edu/repositories/17/top_containers/35165'}
-    cited_as: ['N\.M\. \*Official Returns', 'nmarchives\.unm\.edu']
+    - {ground: cited, ref: 'Wikipedia''s articles on the gubernatorial elections cite the general canvasses as "Canvass of Returns of General Election Held November 8, 1960" (1962, 1966 likewise), and the calendar copies the titles'}
+    cited_as: ['N\.M\. \*Official Returns', 'nmarchives\.unm\.edu', Canvass of Returns, 'N\.M\., \*Official Returns']
     online:
     - {host: New Mexico Archives Online (finding aid; repository 17), url: 'https://nmarchives.unm.edu/repositories/17/top_containers/35165', years: 'paper: Official Returns 1964 and 1968 (Box 85); box 35164 reported as 1911-1966 (search summary only)', access: bot-check, checked: '2026-10-23', note: Anubis 'Making sure you're not a bot!' page}
     notes: Paper only, as far as found (NM State Records Center and Archives per the finding aid title; unverified).
@@ -1519,6 +1538,14 @@
     - {host: NM Secretary of State, url: 'https://electionstats.sos.nm.gov/', years: '2000 on (the page''s own search config: minYear 2000)', access: open, checked: '2026-10-23'}
     - {host: NM Secretary of State, url: 'https://www.sos.nm.gov/sos-archive/', years: election results archive 1990 on, access: open, checked: '2026-10-23'}
     notes: Nothing before 1990 from the Secretary of State online.
+  - title: New Mexico Election Returns, 1911-1969
+    publisher: Secretary of State (a compilation)
+    kind: report
+    covers: the returns of 1911-69, statewide (unverified)
+    basis:
+    - {ground: cited, ref: 'Wikipedia''s articles on the 1960-68 gubernatorial elections cite it for the primaries; no copy or catalog record found (the hathifile of Oct. 1, 2026 none)'}
+    cited_as: ['New Mexico Election Returns, 1911']
+    online: []
   labels_1968:
     democratic: unverified
     wallace: unverified
@@ -1721,6 +1748,14 @@
     cited_as: ['Directory of Oklahoma', 'Directory and Manual of the State of Oklahoma']
     online: []
     notes: 'No online copy found (archive.org: none).'
+  - title: 'Secretary of State''s executive records (commissions and appointments)'
+    publisher: 'Oklahoma Department of Libraries, State Archives (the Secretary of State''s records)'
+    kind: archives
+    covers: 'the Governor''s appointments, the commissions issued'
+    basis:
+    - {ground: assumed, ref: no finding aid read; the pointer names the record only}
+    cited_as: ['Secretary of State''s record of the appointment']
+    online: []
   labels_1968:
     democratic: DEMOCRAT
     wallace: AMERICAN PARTY
@@ -1791,7 +1826,7 @@
     basis:
     - {ground: seen, ref: 'vol. 94 (1959-60), contents and p. 698 (archive.org OCR); vol. 95 (1961-62), p. 714 (the owner''s page image from HathiTrust)', url: 'https://archive.org/details/cwopa-the-pennsylvania-manual-vol-094-1959_202403'}
     - {ground: catalog, ref: 'HathiTrust Record 009441218 (1963-64 to 1976-77 search-only); archive.org lending copies of vols. 95, 96, 100 and 1975', url: 'https://catalog.hathitrust.org/Record/009441218'}
-    cited_as: ['Pennsylvania Manual', 'Pa\. Manual', 'pennsylvaniamanu']
+    cited_as: [Pennsylvania Manual, 'Pa\. Manual', pennsylvaniamanu, the Manual, 'Pa\. \*Manual']
     online:
     - {host: Internet Archive, url: 'https://archive.org/details/cwopa-the-pennsylvania-manual-vol-094-1959_202403', years: 1959-60 (vol. 94); the 'cwopa' uploads otherwise only 2003 on (vols. 116-126), access: open, checked: '2026-10-23'}
     - {host: Internet Archive, url: 'https://archive.org/details/pennsylvaniamanu0095iris', years: '1961-62 (vol. 95); also pennsylvaniamanu0096will (1963-64), bwb_T5-CVG-500_100 (1971), pennsylvaniamanu0000kath (1975)', access: borrow, checked: '2026-10-06'}
@@ -1953,7 +1988,7 @@
     basis:
     - {ground: seen, ref: '1961 edition, Google Books snippet search only (index; pp. 190-211)', url: 'https://books.google.com/books?id=a4xLAQAAMAAJ'}
     - {ground: catalog, ref: 'HathiTrust, "Tennessee blue book", 1950-80, hathifile of Oct. 1, 2026; Google Books records of the 1958-72 editions (no preview)'}
-    cited_as: ['Tennessee Blue Book']
+    cited_as: [Tennessee Blue Book, 'Tenn\. \*Blue Book']
     online:
     - {host: Google Books, url: 'https://books.google.com/books?id=a4xLAQAAMAAJ', years: '1961', access: other, checked: '2026-10-06', note: snippet view; searchable}
     - {host: Google Books, url: 'https://books.google.com/books?id=m0R4twAACAAJ', years: 1969-1970, access: other, checked: '2026-10-06', note: 'no preview. Also no preview: JJ2PtwAACAAJ (1965-66), BEhWuAAACAAJ (1964), prlEuAAACAAJ (1962), IFsJuAAACAAJ (1958), 2VXgswEACAAJ (1971-72)'}
@@ -2016,7 +2051,7 @@
       checked_in: not opened; TSLA research guide only
     basis:
     - {ground: catalog, ref: 'the Texas State Library and Archives''s research guide to historical election returns (copies by request; registers on microfilm by interlibrary loan)', url: 'https://www.tsl.texas.gov/ref/historicalelections'}
-    cited_as: ['Texas State Library and Archives', 'Tex\. State Library and Archives', 'the Texas Secretary of State''s returns', 'Secretary of State''s canvass']
+    cited_as: [Texas State Library and Archives, 'Tex\. State Library and Archives', 'the Texas Secretary of State''s returns', 'Secretary of State''s canvass', the canvass and]
     online:
     - {host: TSLA, url: 'https://www.tsl.texas.gov/ref/historicalelections', years: guide, access: open, checked: '2026-10-06', note: copies by request or visit; registers on microfilm by ILL}
   - title: '"Historical presidential election results" (Secretary of State web page)'
