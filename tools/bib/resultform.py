@@ -58,15 +58,21 @@ VOTING = re.compile(r"\b(?:primary|runoff|election|elected|re-elected|elects|nom
                     r"write-ins?|unpledged|electors?|first|second|third|over|beats|defeats|unseats|holds the seat|"
                     r"takes the seat|to the seat|amendment|proposition|proposal|question|referendum|initiative)\b",
                     re.I)
+TAXRATE = re.compile(r"\b(?:tax|taxes|rate|interest|levy|surtax|surcharge)\b[^.;]*$")
+ELECTORAL = re.compile(r"\b(?:primary|primaries|runoff|run-off|re-elected|elected (?:governor|mayor|to)|referendum|"
+                       r"special election|general election|unseats|voters (?:approve|reject|refuse|adopt|call))\b")
 # a convention's ballot, of delegates: not a popular vote
 CONVENTION = re.compile(r"\b(?:\w+ ballot|delegates'?|convention's|roll call)\b")
+# the rule a measure is held to, stated with its count ("a majority of all who voted, 793,087, needed")
+RULE = re.compile(r"\b(?:majority of all|two-thirds|three-fifths|needed|required|needs|short of)\b")
 UNOPPOSED = re.compile(r"\b(?:unopposed|without opposition|no opposition|no opponent)\b")
 WORDED = re.compile(r"\d percent (?:yes|no|for|against)(?=[.,;)]|$)")
+CHECKED = re.compile(r"\bCheck:? (?:[^.]*?\b)?(?:counts?|percentages?|shares?)\b|\bCheck:? the (?:[\w'’]+ ){0,3}(?:votes?|returns)\b")
 RATE = re.compile(r"(?:\bto|\bfrom|\bat|\bthan|\bof|\bby) $")
 ELECTION_THREADS = ("elections-", "governors", "mayors", "specials", "state-constitutions", "electoral-college")
 ELECTION_TAGS = ("primary:", "governors:", "special:", "election:")
 # a share that is not a vote: of the people, the precincts, the registered (in an entry on an election all the same)
-NOT_A_VOTE = re.compile(r"\s(?:of (?:the |its |their |all |his )?(?:people|population|precincts?|registered|eligible|"
+NOT_A_VOTE = re.compile(r"\s(?:of (?:the |its |their |all |his )?(?:[\d,]+ )?(?:people|population|precincts?|registered|eligible|"
                         r"adults|voting-age|counties|districts|seats|units|delegates|State's people|electorate|"
                         r"Negroes|Negro)|Negro|registered|turnout|of those registered|of the (?:State's|city's|"
                         r"county's) (?:people|population|voters)|of the voting|of its|above|below|of the ideal|"
@@ -104,8 +110,9 @@ def sentence_of(text, i):
     return text[sentence_start(text, i):i]
 
 
-def scan(text, election=False):
-    """The results in `text` not in the form: (kind, the words matched, what is wrong)."""
+def scan(text, election=False, checked=False):
+    """The results in `text` not in the form: (kind, the words matched, what is wrong). `checked`: the note
+    holds "Check: the count" (or the percentage), so a count or a share alone is no problem (STYLE 7)."""
     t = clean(text)
     out = []
     spans = []
@@ -136,12 +143,13 @@ def scan(text, election=False):
         out.append(("by-votes", m.group(0), 'a margin: "W to L, p percent, a N-vote margin"'))
     for m in TO.finditer(t):
         if inform(m.start()) or re.search(r"(?:from|between|of|some|about|nearly|ages?|pages?|Nos?\.|\$)\s*$",
-                                          t[max(0, m.start() - 12):m.start()]):
+                                          t[max(0, m.start() - 12):m.start()], re.I):
             continue
         out.append(("no-share", m.group(0), "W to L without its share: add \", p percent\""))
-    if election:
+    if election and not checked:
         for m in PCT.finditer(t):
-            if inform(m.start()) or NOT_A_VOTE.match(t, m.end()) or CONVENTION.search(sentence_of(t, m.start())) or RATE.search(t, 0, m.start()) or \
+            if inform(m.start()) or NOT_A_VOTE.match(t, m.end()) or CONVENTION.search(sentence_of(t, m.start())) \
+                    or RULE.search(sentence_of(t, m.start())) or TAXRATE.search(t[max(0, m.start() - 15):m.start()]) or RATE.search(t, 0, m.start()) or \
                     re.match(r" (?:a year|the ceiling|on |of (?:income|the price|value))", t[m.end():]):
                 continue
             sent = sentence_start(t, m.start())
@@ -150,10 +158,10 @@ def scan(text, election=False):
             out.append(("no-count", m.group(0), "a share without its counts: W to L, p percent"))
         for m in COUNT.finditer(t):
             sent = sentence_of(t, m.start())
-            if inform(m.start()) or sent.endswith(" to ") or UNOPPOSED.search(sent + t[m.start():m.start() + 40]) \
-                    or not VOTING.search(sent) or CONVENTION.search(sent):
+            if inform(m.start()) or re.search(r"(?:\bto|\bover|\bunder|\babove|\bbelow|\bthan|\bsome|\babout|\bnearly|\bof) $", sent) or UNOPPOSED.search(sent + t[m.start():m.start() + 40]) \
+                    or not VOTING.search(sent) or CONVENTION.search(sent) or RULE.search(sent + t[m.end():m.end() + 60]):
                 continue
-            out.append(("no-share", m.group(0), "a count without its share: W to L, p percent (or Name N, p percent)"))
+            out.append(("count-alone", m.group(0), "a count without its share: W to L, p percent (or Name N, p percent)"))
         for m in WORDED.finditer(t):
             out.append(("worded", m.group(0), 'p percent, the winner\'s (or yes) share, without "yes" or "for"'))
         for m in BARE.finditer(t):
@@ -164,10 +172,13 @@ def scan(text, election=False):
 
 
 def on_election(e):
+    """An entry on an election: its thread an election thread, a tag of an election's table, or its text a vote's."""
     threads = [e.get("thread") or ""] + list(e.get("also") or [])
     if any(th.startswith(ELECTION_THREADS) for th in threads):
         return True
-    return any(str(tg).startswith(ELECTION_TAGS) for tg in e.get("tags") or [])
+    if any(str(tg).startswith(ELECTION_TAGS) for tg in e.get("tags") or []):
+        return True
+    return bool(ELECTORAL.search(clean(e.get("c") or "")))
 
 
 def problems(series):
@@ -180,6 +191,6 @@ def problems(series):
             c = e.get("c")
             if not isinstance(c, str) or not e.get("date") or (e.get("thread") or "").startswith("opinion"):
                 continue
-            for kind, words, msg in scan(c, on_election(e)):
+            for kind, words, msg in scan(c, on_election(e), bool(CHECKED.search(e.get("n") or ""))):
                 out.append((e["id"], f"{words!r}: {msg} [result-form]"))
     return out

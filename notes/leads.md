@@ -757,7 +757,19 @@ Searched in the Daily Digest (daybook/committees), the bound Record's days, the 
   `cal.1968-03-04.black-nationalism`.
 - Louis Martin's call to Andrew Young, April 1967, asking whether King would see Johnson (Garrow, 558): the day.
 
+### The Attorney General's and OLC's opinions (Oct. 24, 2026; daybook/opinions.yaml)
+- OLC's yearly count of opinions, 1960–68, from the Attorney General's *Annual Reports* (justice.gov's archive pages are
+  bot-checked here; look for open copies on HathiTrust's catalog or archive.org).
+- The four opinions the Public Papers name and the register lists under `known`, unread: the budget message of Jan. 18,
+  1960; refugee parole, July 14, 1960; copper, Mar. 21 and Dec. 2, 1966. Find the texts.
+- OLC memoranda the volumes do not print, in the Justice Department's and Katzenbach's files at the Kennedy and Johnson
+  Libraries (troops at Oxford, Sept. 1962, among them: recalled, not verified).
+- OLC's FOIA reading room and daybooks: not searched.
+
 ## Foreign
+
+- Meeker's memorandum on the legality of the United States' part in Vietnam (State's Legal Adviser, *Bulletin*, Mar. 1966)
+  is in daybook/opinions.yaml only: a pointer from the Senate Foreign Relations Committee's Vietnam hearings of Mar. 1966.
 
 - The war in the field (patch `inbox/2026-10-22-vietnam-field.yaml`, thread Vietnam: Operations), leads left by the
   drafting agent, Oct. 22, 2026:
@@ -1307,6 +1319,23 @@ Searched in FRUS by text and date (sources/frus-text), the *Bulletin*'s index an
     year of vol. 29 (the Politburo's cables of Oct. 10 and 20, 1968); no card for the collection yet.
   - Asselin's date for the navy's war footing, July 6, 1964 (189 n.115), rests on the Defense Ministry's *Lịch sử quân
     sự Việt Nam*, vol. 11, 172: not read.
+- Schwartz, *Lyndon Johnson and Europe*, and Chen Jian, *Mao's China and the Cold War* (patch
+  `inbox/2026-10-24-book-schwartz-chen.yaml`; notes/book-checks/schwartz-lyndon-johnson-and-europe.md, chen-maos-china.md),
+  Oct. 24, 2026:
+  - The consular convention with the Soviet Union signed, Moscow, June 1, 1964 (Schwartz, 19): no entry; the
+    Senate's entries of 1967 have nothing before them.
+  - `cal.1968-06-11.berlin-and-vienna` (East German passports and visas) left with FRUS alone and no bibliography.
+  - The days Chen gives by month only: the Soviet experts recalled, July 1960 (82; his CWIHP Bulletin article, nos. 8–9,
+    246–50, not read); Zhou Enlai in Moscow, November 1964 (84). The Navy's record of the engagement off Hainan, Apr.
+    8–9, 1965. American knowledge of the Chinese antiaircraft divisions, Aug. 1965 (Whiting, *Chinese Calculus of
+    Deterrence*, 176–95, by Chen's notes: no card, not read).
+  - Chen's Beijing–Hanoi meetings with no trace in Washington found, not entered (the list in chen-maos-china.md): the
+    People's Daily editorial of Mar. 25, 1965 and Zhou at Tirana, Mar. 29, offering Chinese personnel, may have one
+    (the *Bulletin*, CIA's daily brief).
+  - *77 Conversations between Chinese and Foreign Leaders* (`w.77-conversations-between-chinese`): Zhou to Ayub Khan,
+    Apr. 2, 1965, 79–85, and to Subandrio, May 28, 88, not read; read them for the place of the Ayub meeting.
+  - Lào Cai and Lạng Sơn not in the gazetteer (Wikipedia's articles give no coordinates now); the entries name Yên Bái
+    and Kép.
 
 ## The Executive roster
 

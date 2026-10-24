@@ -13,8 +13,9 @@ The record (notes/proposals/ag-olc-opinions.md, the memo on what the Attorneys G
   - under `known`, opinions another document names (the Public Papers) and no copy read: not shown, each with its Check.
 
 STYLE:
- 1. A row a document, in the day's Documents block after FRUS and before the recordings: the signer by surname, linked
-    to his name entry where one person fits (lives.person_named); the title as printed, linked to the copy read at its
+ 1. A row a document, in the day's Documents block after FRUS and before the recordings: the signer by surname (in
+    full, running order, where the surname is shared: "Robert F. Kennedy", "Ramsey Clark"), linked to his name entry
+    where one person fits (lives.person_named), his title as signed on hover; the title as printed, linked to the copy read at its
     first page; the cite in grey ("42 Op. Att'y Gen. 69", the Bluebook's; "1 Op. O.L.C. Supp. 195", the form the
     Office's supplement prints for itself; the FRUS document), the full cite on hover; "to the President" in grey; then
     the holding on its own line, as an abstract (daybook STYLE 5).
@@ -25,7 +26,8 @@ STYLE:
     footnote); "Made public: 2013" (the supplement) or the earlier printing the editor names; a note on the signer
     or the date ("Signed by Cox as Solicitor General").
  4. An undated memorandum printed in FRUS is filed under the date of the document that prints it, and says so ("filed
-    by the FRUS document that prints it").
+    by the FRUS document that prints it"). The register runs to Dec. 31, 1969, as the owner asked (Oct. 24, 2026); the
+    calendar's days end Jan. 20, 1969, so the later rows (four) are in the register and the memo, not on a page.
  5. The calendar: the major opinions are entries of their own, the opinion the primary record; the others that speak
     to an entry are a pointer in its note ("Opinion: 42 Op. Att'y Gen. 229 (1963), to the Secretary of State: ...").
     Both are in the calendar's data (lists/cal/), not here; the memo lists them.
@@ -88,12 +90,22 @@ def short_cite(x):
     return re.sub(r"\s*\(\d{4}\)$", "", x["cite"])
 
 
+def signer(by, series=None):
+    """'Kennedy, Robert F.' -> 'Katzenbach' by surname; in running order, 'Robert F. Kennedy', where another person
+    with a name entry has the surname (Kennedy, Clark, White, Cox), or without the series (STYLE 1)."""
+    sur, _, given = [t.strip() for t in by.partition(",")]
+    full = f"{given} {sur}".strip()
+    if series is None:
+        return full
+    from . import namelinks, store as st
+    return full if len(namelinks.by_surname(series).get(st.fold(sur), [])) > 1 else sur
+
+
 def line_html(x, series=None):
     """One row (STYLE 1-4)."""
     au = ""
     if x.get("by"):
-        sur = x["by"].split(",")[0]
-        au = esc(sur)
+        au = esc(signer(x["by"], series))
         if series is not None:
             from . import lives, namelinks
             who = lives.person_named(series, x["by"])

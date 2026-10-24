@@ -1663,7 +1663,7 @@ and the entry it leads to, and under each such entry a "From:" line back to the 
 after it in the thread ("⟨⟨ Testing ⟩⟩", the brackets the links, not underlined, the date on hover; its `also` threads too; `thread_nav` in
 `tools/bib/build.py`), a "Continuing" pointer under the date on each later
 day of a ranged entry, and the day's materials in two folded blocks, each closed by default and shown only where it
-holds something (the owner's request, Oct. 22, 2026): "Documents" (APP, FRUS, the recordings) and "Other records" (the
+holds something (the owner's request, Oct. 22, 2026): "Documents" (APP, FRUS, the opinions, the recordings) and "Other records" (the
 committees' meetings, the *Bulletin*, and any list added later), each summary counting its own lists; "Expand all" and
 "Collapse all" under each month heading open or close both (STYLE 12 in `tools/bib/daybook.py`). The Sunday programs
 and the *New York Times* line are not daily materials: they stay under the date, in neither block. A day block (the
@@ -1791,6 +1791,18 @@ tools/bib/committees.py         the committees' list and "Testimony before Congr
   Catalog)", an image the page's number in the Catalog's item; where the Diary disagrees, "Check: the Daily Diary
   gives ..." and a line in `notes/diary-discrepancies.md` (the owner's request, Oct. 23, 2026). Not yet a line in the
   day layout. `check` [diary]: STYLE and checks in `tools/bib/diary.py`.
+- Opinions (the owner's request, Oct. 23, 2026: the opinions of the Attorney General and OLC "logged with the documents
+  in the calendar"; 1960–69, Oct. 24): `daybook/opinions.yaml`, kept by hand (its header the schema), a list after FRUS
+  in the Documents block, rendered by `tools/bib/opinions.py` (its STYLE notes; check [opinions]): every opinion of the
+  *Official Opinions of the Attorneys General*, vols. 41–42, of 1960–69 (44; Google's scans on archive.org, item
+  `op-atty-gen`, by leaf), the Office of Legal Counsel's of the period in its *Supplemental Opinions*, vol. 1 (2013; the
+  Office's PDF on justice.gov, by PDF page), and the Department's legal memoranda FRUS prints; each the signer, the
+  title linked to the copy read, the cite ("42 Op. Att'y Gen. 69", "1 Op. O.L.C. Supp. 195"), the addressee and the
+  holding in one line. Nothing from memory: an opinion another document names and no copy read is under `known`, with
+  its Check, and not shown. In the calendar (`notes/proposals/ag-olc-opinions.md`): an opinion that shaped or was the
+  decision is an entry of its own, dated to the opinion, the opinion its primary record ("[42 Op. Att'y Gen. 69](…)
+  (1961)"); one that speaks to an entry is a pointer in its note ("Opinion: [42 Op. Att'y Gen. 229](…) (1963), Robert
+  Kennedy to Rusk, Oct. 9: …"); the rest stay in the day's list.
 - Abstracts go in `daybook/abstracts.yaml` (`key: sentence`), never in the generated
   files, so a rerun keeps them. Keys: `app:<slug>`, `frus:<volume>/<dN>`. `check` fails
   on an abstract whose key is not in the daybook.
