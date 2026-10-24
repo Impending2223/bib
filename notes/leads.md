@@ -1295,6 +1295,7 @@ Searched in FRUS by text and date (sources/frus-text), the *Bulletin*'s index an
 
 - NSCID No. 1: the texts of 1958, 1964 and 1972 not in the file (`usib.yaml`). Open on archive.org, the CIA's CREST copies (Oct. 23, 2026): the text effective Feb. 17, 1972 (`CIA-RDP87B01034R000700020013-3`); a 1958 draft (`CIA-RDP85S00362R000600150011-7`, "Concurred in by the IAC 21 January"), with the drafts of 1957; for 1964 only Bundy's approval of the revisions, Mar. 27, 1964, "the President's decision of March 5, 1964 on the reorganization of the USIB" (`cia-readingroom-document-cia-rdp80b01676r000400180031-7`; the text exempt). FRUS 1964–68, XXXIII, doc. 196, n. 3: revised Jan. 18, 1961, and Mar. 4, 1964. Lay shown as the Board's Executive Secretary only for Mar. 1964, in a note.
 - The NSC staffs, 1953–69 and 1969–74: most months and years taken from FRUS volume ranges.
+- VA: "Morse, Bradford" (`va.yaml`, 1958–60) and the House rosters' "Morse, Frank B." (Mass., 87th–91st) are one man with two name entries; write them alike to join them (the book agent, Oct. 24, 2026: `cal.1967-07-10.vietnam` tags `name:morse-frank-b`).
 - "Ruth S" (3 FRUS documents): not identified. Stalder, Pardee, Rossow: no given names found.
 - Commander in Chief, Alaska: no holders (`commands.yaml`). Northeast Command: not entered. COMUSMACTHAI after Stilwell; Seventh Air Force after Mar. 1973 (`air-staff.yaml`); SACSA after 1969 (`jcs.yaml`): not entered.
 - The Joint Staff's operations deputy and Research and Development rows: years only, from Directory snapshots.
