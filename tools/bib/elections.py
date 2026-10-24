@@ -76,6 +76,12 @@ Definitions (STYLE, settled):
     not elected to the seat (appointed) or the race has no figures. In the middle, the seats of each side and
     a majority of the whole; a Senate without a roster at the opening (1958, 1974) has its seats at stake alone,
     and no majority. Hover and click as on the other maps: the seat, its margin, a link to its row.
+13. The block in parts (the owner's request, Oct. 23, 2026): in a presidential year "Presidential electors" (the
+    summary, the map, its key, the table by State), then "Congress" (the House and Senate summary, maps, key and
+    tables, the unexpired terms filled that day among them; a House special held with November that the Clerk's
+    volume does not print named after the tables, linked to its row among the specials); no heading naming the
+    Congress, which the electors do not choose. In the calendar the block is the first part of the day's
+    "Elections of" block (congress.election_day), whose third part is the State elections.
 
 Map records (the JSON in each block's script.cgseats, read by templates/congress.html):
   seats.h[ST], seats.s[ST]: one record a seat. Congress at its opening (congress.py): {p, n, id, d | cl, pl?},
@@ -629,42 +635,47 @@ def table(year, ch, races):
 
 
 def block(year, data, view="r"):
+    """The election's block (STYLE 13): the electors under "Presidential electors", the House and Senate under
+    "Congress", one view switch for every map."""
     E = data[year]
     c = E["congress"]
     seats = rows_for(year, data)
     has_sw = any("sw" in x for ch in seats.values() for v in ch.values() for x in v)
     out = [f'<div class="cg el" data-cg="{c}" data-ev="{year}">']
-    out.append(f'<p class="cgh">Election of {esc(fmt_date(E["date"]))}: the {c}th Congress</p>')
     pres = E.get("president")
-    note = None
     if pres:
         seats["p"] = pres_rows(year, data)
-        line, note = pres_summary(year, data)
-        from . import seatlinks
-        ex = seatlinks.exec_after(year)
-        out.append(f'<p class="elsum">{esc(line)}' + (f" {ex}." if ex else "") + '</p>')
         has_sw = has_sw or any("sw" in x for x in seats["p"].values())
-    for line in summary(year, data):
-        out.append(f'<p class="elsum">{esc(line)}</p>')
-    if note:
-        out.append(f'<p class="elsum elnote">{esc(note)}</p>')
     out.append(f'<script type="application/json" class="cgseats">{json.dumps(seats, ensure_ascii=False, separators=(",", ":"))}</script>')
     views = '<span data-views="r n s' + (' w' if has_sw else '') + '"></span>'
     if pres:
+        line, note = pres_summary(year, data)
+        from . import seatlinks
+        ex = seatlinks.exec_after(year)
+        out.append('<p class="cgh">Presidential electors</p>')
+        out.append(f'<p class="elsum">{esc(line)}' + (f" {ex}." if ex else "") + '</p>')
+        if note:
+            out.append(f'<p class="elsum elnote">{esc(note)}</p>')
         out.append('<div class="cgmaps"><figure class="cgmap" data-chamber="p"><figcaption>President, by state</figcaption>'
                    '<div class="cgv" style="aspect-ratio:960/660"></div></figure></div>')
         out.append(pres_legend(year - 4 in data and "president" in data[year - 4],
                                any("sw" in x for x in seats["p"].values())))
+        out.append(pres_table(year, data))
+    out.append('<p class="cgh">Congress</p>')
+    for line in summary(year, data):
+        out.append(f'<p class="elsum">{esc(line)}</p>')
     out.append('<div class="cgmaps">'
                '<figure class="cgmap dots" data-chamber="h"><figcaption>House, by delegation</figcaption>'
                '<div class="cgv" style="aspect-ratio:1085/660"></div></figure>'
                '<figure class="cgmap" data-chamber="s"><figcaption>Senate, by state</figcaption>'
                '<div class="cgv" style="aspect-ratio:960/660"></div></figure></div>' + views)
     out.append(legend(has_sw))
-    if pres:
-        out.append(pres_table(year, data))
     out.append(table(year, "h", E["races"]))
     out.append(table(year, "s", E["races"]))
+    also = same_day_specials(E)
+    if also:
+        out.append(f'<p class="elsum elnote">Also that day, for the rest of a term in the {ordinal(c - 1)} Congress, '
+                   f'the Clerk\'s volume not printing {"them" if len(also) > 1 else "it"}: {also}.</p>')
     src = E.get("source", {})
     out.append(f'<p class="elsrc">Returns: <a href="{esc(src.get("url", ""))}">{esc(src.get("label", ""))}</a>, '
                'read by OCR and checked against its recapitulation totals and Wikipedia\'s percentages, or read by eye. '
@@ -673,6 +684,16 @@ def block(year, data, view="r"):
                   if any((r.get("src") or "").startswith("CQ Guide") for r in E["races"]) else "") + '</p>')
     out.append("</div>")
     return "\n".join(out)
+
+
+def same_day_specials(E):
+    """The House's specials held with the November election that the Clerk's volume does not print (specials.py),
+    each linked to its row among the Congress's specials on the Elections page."""
+    from . import specials
+    xs = [x for L in specials.load().values() for x in L
+          if str(x["date"]) == str(E["date"]) and not specials.in_clerk(x)]
+    return ", ".join(f'<a href="congress.html#{specials.rid(x)}">{esc(specials.seat_label(x))}</a> '
+                     f'({esc(x.get("winner") or "?")}, {esc(x.get("party") or "?")})' for x in xs)
 
 
 def margin_scale(third=False):

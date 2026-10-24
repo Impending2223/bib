@@ -287,6 +287,10 @@ def run(series, only=None):
     from . import contents
     for where, msg in contents.problems(series):
         add(WARN, where, msg, "contents")
+    # titles: title case and en dashes in spans of years (tools/bib/titles.py)
+    from . import titles
+    for where, msg in titles.problems(series):
+        add(WARN, where, msg, "titles")
     # the calendar's places in Indochina (place: and province: tags; sources/vn-provinces-1966)
     from . import vnmap
     for where, msg in vnmap.problems(series):
@@ -371,7 +375,7 @@ THREAD_SORT_AS = {"War on poverty": "poverty", "Bobby Baker": "Baker", "Robert K
 
 
 def thread_key(lst, slug):
-    """A thread's place in th.yaml: its hidden `sort:` where it has one ("1960 Elections" sorts as "Elections of
+    """A thread's place in th.yaml: its hidden `sort:` where it has one ("1960 elections" sorts as "Elections of
     1960", "Special elections" as "Elections, special"); a subthread under its parent's key; else its name's."""
     e = lst.threads()[slug]
     if e.get("sort"):

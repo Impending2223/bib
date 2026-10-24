@@ -20,6 +20,8 @@ STYLE
     "Check" (the State's canvass is the record to read: sources/states.yaml).
  7. Names as the articles give them, the incumbent's "(incumbent)" dropped; linked to the name entry where one
     person with an entry fits (namelinks.written).
+ 8. The table marks a change as the Congress's tables do (the owner's request, Oct. 23, 2026): a party's gain shaded in
+    the winner's color, a new governor of the same party in gray, both of a race's rows.
 """
 import json
 import os
@@ -200,6 +202,8 @@ def source_html(r):
         return ""
     if "ourcampaigns" in (s.get("url") or ""):
         label = "Our Campaigns"
+    from .titles import tidy                     # title case, en dashes in spans of years (titles.py, STYLE 3)
+    label = tidy(label)
     t = f"<i>{esc(label)}</i>" if label != "Our Campaigns" else esc(label)
     return f'<a href="{esc(s["url"])}">{t}</a>' if s.get("url") else t
 
@@ -251,9 +255,12 @@ def row(r):
     if r.get("winner"):
         mg = "No majority"                       # chosen otherwise than by the vote (Georgia, 1966)
     st = STATE.get(r["st"], r["st"])
-    return (f'<tbody id="{rid(r)}"><tr class="gvr"><td><span title="{esc(st)}">{esc(r["st"])}</span></td>'
+    p = party_of(winner(cs))                     # STYLE 8: a gain in the winner's color, a new governor gray
+    k = ("pk" if p != r.get("inc_party") else "" if fate(r, cs) == "re-elected" else "mc") if p in PARTY else ""
+    k = f"{k} w{p}" if k == "pk" else k
+    return (f'<tbody id="{rid(r)}"><tr class="gvr {k}"><td><span title="{esc(st)}">{esc(r["st"])}</span></td>'
             f'<td class="ecs">{cands_html(cs)}</td><td class="em">{mg}</td></tr>'
-            f'<tr class="gvn"><td></td><td class="eno" colspan="2">{note(r, cs)}</td></tr></tbody>')
+            f'<tr class="gvn {k}"><td></td><td class="eno" colspan="2">{note(r, cs)}</td></tr></tbody>')
 
 
 def record(r):
@@ -299,7 +306,8 @@ def summary(date):
     return out
 
 
-def block(date):
+def block(date, head=None):
+    """The day's block; head, the heading in its place inside another block (congress.election_day)."""
     rs = races(date)
     if not rs:
         return ""
@@ -320,7 +328,7 @@ def block(date):
            f'the count of governorships, <a href="https://en.wikipedia.org/wiki/{esc(table.replace(" ", "_"))}">'
            f'Wikipedia, "{esc(table)}"</a>. Shares over all the votes cast for governor.')
     return (f'<div class="cg el pq gv" data-cg="gv{date}" id="gv{date}">'
-            f'<p class="cgh">Governors, {esc(fmt_date(date))}</p>'
+            + (f'<p class="cgh sub">{esc(head)}</p>' if head else f'<p class="cgh">Governors, {esc(fmt_date(date))}</p>')
             + "".join(f'<p class="elsum">{esc(s)}</p>' for s in summary(date))
             + f'<script type="application/json" class="cgseats">{seats}</script>'
             f'<div class="cgmaps"><figure class="cgmap" data-chamber="q" data-none="no race for governor">'
@@ -352,7 +360,12 @@ def inject(page, series):
     SERIES = series
     tags = tagged(series)
     used = False
+    from .congress import COVERED
     for date, eid in tags.items():
+        if date in COVERED["gv"]:                # in the day's Elections block (congress.election_day)
+            page, k = contents.put(page, eid, f'<p class="tbp">The table: <a href="#gv{date}">Governors, '
+                                   f'{esc(fmt_date(date))}</a>, in the elections of the day.</p>', "see", date)
+            continue
         blk = block(date)
         if not blk:
             continue

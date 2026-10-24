@@ -299,7 +299,7 @@ thread's (its rubric links there; STYLE 9 in `tools/bib/calsplit.py`); give it a
 may keep its old name in the index, muted, a link to the thread, naming it ("Desegregation: schools: School desegregation"; `s:`
 the old name, `see:` the slug), or, where the old name went to several threads, the old name in the text's color and the
 threads muted, linked, a middle dot between ("Legislatures: Districting and apportionment · State legislatures"; `see:` a
-list; STYLE 10). A hidden `sort:` files a thread under other words, the name unchanged ("1960 Elections" as "Elections
+list; STYLE 10). A hidden `sort:` files a thread under other words, the name unchanged ("1960 elections" as "Elections
 of 1960"; "Special elections" as "Elections, special", a redirect left at S); `check` holds th.yaml to it. A statement
 may end in "*See also* X · Y" (`see_also:`, slugs; set right, in the thread names' type; STYLE 11), for related matter
 elsewhere in the index, not for a parent, its subthreads or an alphabetical neighbor (the owner's rules, Oct. 21,
@@ -1094,7 +1094,8 @@ State's canvass or *America Votes*; Our Campaigns, or none, marks Check). What t
 the script (Georgia, 1966: the legislature elected Maddox; Minnesota, 1962: the recount). Never edit the file by hand.
 `tools/bib/governors.py` renders them (STYLE notes there):
 
-- A calendar entry tagged `governors:<YYYY-MM-DD>` carries the day's races: a summary (races, wins, each party's
+- A calendar entry tagged `governors:<YYYY-MM-DD>` carries the day's races (on a November election day, inside the day's
+  "Elections of" block, the entry pointing to it): a summary (races, wins, each party's
   gains, the governorships after), a map (Result: the winner's party, dark where it took the office; Margin: the
   election maps' quantile rule), and the table, one race a `tbody`: the candidates with votes and shares, the margin,
   and under them the note (the incumbent and his fate, the hold or gain, the source). Now Nov. 8, 1960, Nov. 6, 1962,
@@ -1115,7 +1116,8 @@ legislatures); `HAND_YEAR` a Check (Kansas, 1967). `tools/bib/legislatures.py` r
 - A calendar entry tagged `legislatures:<YYYY>` (the year the session met: 1961 for the legislatures chosen in Nov.
   1960) carries the session's map and table: a party's color where it holds both chambers, light for a majority,
   middle for the State's override proportion where that lies between a majority and two-thirds, dark for two-thirds
-  of both (the Presentment Clause's and Article V's proportion); divided gray; Nebraska the vacant fill. Now the
+  of both (the Presentment Clause's and Article V's proportion); divided gray; Nebraska's nonpartisan chamber ivory
+  (`--pNP`, the owner's request, Oct. 23, 2026). Now the
   five "legislatures-us" entries of Nov. 1960, 1962, 1964, 1966 and 1968.
 - Article V's analogue is drawn at the federal two-thirds for every State: each State's own rule for proposing an
   amendment (the vote, the sessions) is not yet in the data; the *Book of the States*, 1960–67, prints it.
@@ -1627,6 +1629,14 @@ Two standing rules (the owner's rules, Oct. 21, 2026; `tools/bib/contents.py`, i
   month's indicators. And each thread's statement in the thread index lists the tables and maps its entries carry on
   the page, in order, in a muted line set right above the See also line ("*Tables and maps* Election of Nov. 8, 1960 ·
   Governors, Nov. 8, 1960"); in the reader, each part's index its part's.
+- Each listed table or map is titled by its label, centered in small capitals ("ELECTIONS OF NOV. 8, 1960"), as the
+  Executive roster's parts are (the owner's request, Oct. 23, 2026: "a distinct title style to visually demarcate them
+  from the calendar day entries"; all-caps titles "must be unusually brief", so the labels are): STYLE 5 in
+  `tools/bib/contents.py`. A November election day is one block, "Elections of Nov. 8, 1960" (`election_day` in
+  `tools/bib/congress.py`): "Presidential electors", "Congress" (with the unexpired terms filled that day), "State
+  elections" (the governors chosen that day, the legislatures it chose); the governors' and legislatures' entries point
+  to their parts. The governors' tables shade a party's gain in the winner's color and a new governor gray, as the
+  Congress's tables do (STYLE 8 in `tools/bib/governors.py`).
 - Every table or map an inject sets in a calendar entry goes through `contents.put(page, eid, blk, kind, key)`: it puts
   the block at the end of the entry's `<li>` and its anchor (`tb-<kind>-<key>`) before it. A new type of table or map
   registers its kind in `KINDS` there, with its label ("Election of Nov. 8, 1960"), or `None` for one the contents

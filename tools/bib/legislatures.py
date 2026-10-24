@@ -15,7 +15,8 @@ STYLE
  2. The map: the party's color, by what it holds of both chambers: a majority (light); the State's veto-override
     proportion, where that is more than a majority and less than two-thirds (middle); two-thirds (dark, the override
     too where the State's is two-thirds). A legislature whose chambers the parties divide: gray. Nebraska's one
-    nonpartisan chamber: the vacant fill. Proportions of the full membership (elected), vacancies in the count.
+    nonpartisan chamber: ivory (`--pNP`, the owner's request, Oct. 23, 2026: the vacant fill was too near the
+    divided gray), a warm light against the cool grays, darkened in the dark theme. Proportions of the full membership (elected), vacancies in the count.
  3. The summary: the legislatures each party held, the divided, the parties' two-thirds of both chambers, the
     changes from the session before.
  4. The table: by State, each chamber's Democrats, Republicans and others; control; the override proportion; a note.
@@ -85,7 +86,7 @@ def veto_proof(rec, p):
 
 def fill(p, lv):
     if p == "NP":
-        return "pV"
+        return "pNP"
     if p is None:
         return "eN"
     return {"D": ["eB2", "eB2", "eB3", "eB4"], "R": ["eR2", "eR2", "eR3", "eR4"]}[p][lv]
@@ -165,7 +166,8 @@ def row(st, rec, y):
             f'Governor: {esc(PARTY.get(rec.get("governor"), "other"))}.{" " + esc(note) if note else ""}</td></tr></tbody>')
 
 
-def block(y):
+def block(y, head=None):
+    """The session's block; head, the heading in its place inside another block (congress.election_day)."""
     cur = sessions().get(y)
     if not cur:
         return ""
@@ -174,7 +176,7 @@ def block(y):
     key = ('<p class="cgkey elkey"><span class="lk lk-r">'
            + sw("eB2", "Democratic, both chambers") + sw("eB3", "and enough to override (where under two-thirds)")
            + sw("eB4", "two-thirds of both") + sw("eR2", "Republican, both chambers") + sw("eR3", "and enough to override")
-           + sw("eR4", "two-thirds of both") + sw("eN", "Divided") + sw("pV", "Nonpartisan (Nebraska)")
+           + sw("eR4", "two-thirds of both") + sw("eN", "Divided") + sw("pNP", "Nonpartisan (Nebraska)")
            + '</span></p>')
     seats = json.dumps({"q": q}, ensure_ascii=False, separators=(",", ":"))
     src = load().get("source") or {}
@@ -182,7 +184,7 @@ def block(y):
                'State Governments\' <i>Book of the States</i> and the States\' manuals; the override proportions, the '
                'States\' constitutions as of 1956. Two-thirds of both chambers is the federal proportion for proposing an '
                'amendment (Art. V); the States\' own rules for proposing amendments are not yet in the data.')
-    return (f'<div class="cg el pq lg" data-cg="lg{y}" id="lg{y}"><p class="cgh">The State legislatures in session, {y}</p>'
+    return (f'<div class="cg el pq lg" data-cg="lg{y}" id="lg{y}">{_head(head, f"The State legislatures in session, {y}")}'
             + "".join(f'<p class="elsum">{esc(s)}</p>' for s in summary(y))
             + f'<script type="application/json" class="cgseats">{seats}</script>'
             f'<div class="cgmaps"><figure class="cgmap" data-chamber="q" data-none="no data" '
@@ -194,6 +196,11 @@ def block(y):
             '<thead><tr><th>State</th><th>Senate</th><th>House</th><th>Control</th></tr></thead>'
             + "".join(row(st, r, y) for st, r in sorted(cur.items()))
             + f'</table></details><p class="elsrc">{srcline}</p></div>')
+
+
+
+def _head(head, default):
+    return f'<p class="cgh sub">{esc(head)}</p>' if head else f'<p class="cgh">{esc(default)}</p>'
 
 
 def tagged(series):
@@ -211,7 +218,12 @@ def tagged(series):
 
 def inject(page, series):
     used = False
+    from .congress import COVERED
     for y, eid in tagged(series).items():
+        if y in COVERED["lg"]:                   # in the election day's block (congress.election_day)
+            page, k = contents.put(page, eid, f'<p class="tbp">The table: <a href="#lg{y}">State legislatures, '
+                                   f'the session of {y}</a>, in the elections of the day.</p>', "see", y)
+            continue
         blk = block(y)
         if not blk:
             continue

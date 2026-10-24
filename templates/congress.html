@@ -9,9 +9,9 @@
    the step-4 colors (rA, amber, a third ticket), placed by the quantile rule (QM in the script). Swing: from eN,
    gray, at none to eR4 or eB4 at SWING points. eN also the gray of other member changes in the tables; eNone no
    election; eHo a Senate seat not at stake: the base map's gray, a dot shown only by its ring. */
-:root{--pRs:#F7D7D7;--pDs:#84B1D3;--pD:#1375B7;--pR:#C93135;--pO:#AD8A51;--pV:#C9CDD3;--stb:#FFFFFF;--mk:#1A1E26}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--pRs:#743539;--pDs:#255D7D;--pD:#0090C9;--pR:#E23743;--pO:#AD8A51;--pV:#3C424C;--stb:#15181D;--mk:#E6E8EC}}
-:root[data-theme="dark"]{--pRs:#743539;--pDs:#255D7D;--pD:#0090C9;--pR:#E23743;--pO:#AD8A51;--pV:#3C424C;--stb:#15181D;--mk:#E6E8EC}
+:root{--pNP:#F6EDCB;--pRs:#F7D7D7;--pDs:#84B1D3;--pD:#1375B7;--pR:#C93135;--pO:#AD8A51;--pV:#C9CDD3;--stb:#FFFFFF;--mk:#1A1E26}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--pNP:#5A5236;--pRs:#743539;--pDs:#255D7D;--pD:#0090C9;--pR:#E23743;--pO:#AD8A51;--pV:#3C424C;--stb:#15181D;--mk:#E6E8EC}}
+:root[data-theme="dark"]{--pNP:#5A5236;--pRs:#743539;--pDs:#255D7D;--pD:#0090C9;--pR:#E23743;--pO:#AD8A51;--pV:#3C424C;--stb:#15181D;--mk:#E6E8EC}
 :root{--eA1:#F2E4C6;--eA2:#E0C384;--eA3:#C49A45;--eA4:#8E6A24;--pT:#B98F3E}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--eA1:#463A22;--eA2:#755F31;--eA3:#AE8C4C;--eA4:#E0C68E;--pT:#C9A865}}
 :root[data-theme="dark"]{--eA1:#463A22;--eA2:#755F31;--eA3:#AE8C4C;--eA4:#E0C68E;--pT:#C9A865}
@@ -36,8 +36,8 @@
 .sw.eR4{background:var(--eR4)}.sw.eR3{background:var(--eR3)}.sw.eR2{background:var(--eR2)}.sw.eR1{background:var(--eR1)}.sw.eN{background:var(--eN)}.sw.eB1{background:var(--eB1)}.sw.eB2{background:var(--eB2)}.sw.eB3{background:var(--eB3)}.sw.eB4{background:var(--eB4)}.sw.eNone{background:var(--eNone);outline:1px solid var(--rule)}
 .sw.eNA{background:repeating-linear-gradient(45deg,var(--eNA) 0 3px,var(--eNone) 3px 6px)}
 .pDn{fill:var(--pD)}.pDs{fill:var(--pDs)}
-.pD{fill:var(--pD)}.pR{fill:var(--pR)}.pC,.pI,.pID,.pO{fill:var(--pO)}.pV,.pvacant{fill:var(--pV)}.pX{fill:url(#cgsplit)}
-.sw.pD{background:var(--pD)}.sw.pR{background:var(--pR)}.sw.pO{background:var(--pO)}.sw.pV{background:var(--pV)}
+.pD{fill:var(--pD)}.pR{fill:var(--pR)}.pC,.pI,.pID,.pO{fill:var(--pO)}.pV,.pvacant{fill:var(--pV)}.pNP{fill:var(--pNP)}.pX{fill:url(#cgsplit)}
+.sw.pD{background:var(--pD)}.sw.pR{background:var(--pR)}.sw.pO{background:var(--pO)}.sw.pV{background:var(--pV)}.sw.pNP{background:var(--pNP)}
 .sw.pX{background:repeating-linear-gradient(45deg,var(--pD) 0 3px,var(--pR) 3px 6px)}
 /* Blocks, summaries and keys (the block and its heading: templates/roster.css) */
 .gr{display:inline-block;width:7em;height:.7em;vertical-align:-.05em;margin:0 .35em;border-radius:2px}
