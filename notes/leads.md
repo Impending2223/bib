@@ -1648,6 +1648,36 @@ Searched in FRUS by text and date (sources/frus-text), the *Bulletin*'s index an
   - Lào Cai and Lạng Sơn not in the gazetteer (Wikipedia's articles give no coordinates now); the entries name Yên Bái
     and Kép.
 
+### Chen Jian, *Mao's China and the Cold War* (the back-fill agent, Oct. 29, 2026; notes/book-checks/chen-maos-china.md)
+
+- Foreign: the Sino-American ambassadorial talks at Warsaw, 1960–68 (the 100th to the 133rd meetings): none in the
+  calendar; FRUS 1958–60, XIX, 1961–63, XXII, 1964–68, XXX print the reports. Goh, *Constructing the U.S.
+  Rapprochement*, treats them.
+- Foreign: Peking's public warnings of spring 1965 (the *People's Daily* editorial of Mar. 25; Zhou at Tirana, Mar. 29),
+  and Washington's reading of them: the daybook's FRUS II, March–April 1965, and INR's papers.
+- Foreign: the Chinese, Vietnamese and Laotian meeting of July 5–8, 1964, and Zhou in Hanoi, May 1960: whether
+  Washington knew (FRUS 1964–68, I; 1958–60, I).
+- Foreign: Zhou's four points to Subandrio, May 28, 1965 (77 Conversations, 88).
+- Foreign: the Chinese government's statement on the Warsaw talks after Nov. 25, 1968 (FRUS XXX, doc. 331 says one was
+  coming): its day and text.
+
+### Asselin, *Hanoi's Road to the Vietnam War* (the back-fill agent, Oct. 29, 2026; notes/book-checks/asselin-hanois-road.md)
+
+- Foreign: the Control Commission's special report of June 1962 (Hanoi found in violation) and Washington's use of it.
+- Foreign: Ye Jianying in Hanoi, Dec. 1961; Lê Duẩn and Thọ in Moscow, early 1964; Gromyko's letter to Xuân Thủy, late
+  Dec. 1964 (Asselin, 204 n.210).
+- Foreign: An Lão, Dec. 6, 1964: the day and the American advisers' record.
+- Foreign: Seaborn's attempt at a third meeting with Phạm Văn Đồng, late 1964 (Asselin, 191 n.131).
+- Foreign: the "Former Resistance Fighters" declaration of March 1960 (Asselin, 75).
+
+### Nguyen, *Hanoi's War* (the back-fill agent, Oct. 29, 2026; notes/book-checks/nguyen-hanois-war.md)
+
+- Foreign: de Gaulle's call for neutralization, Aug. 29, 1963, and Washington's answer (FRUS 1961–63, IV).
+- Foreign: Thiệu's general mobilization, June 19, 1968; Thọ's arrival in Paris, June 1968.
+- Foreign: the Standing Committee's decree on counterrevolutionary crimes, Oct. 30, 1967 (Nguyen, 92).
+- Foreign: China's withdrawal of its antiaircraft troops after the halt, Nov. 1968 (Nguyen, 128, from Zhai): the dates.
+- Foreign: Kosygin's message of Oct. 25, 1968, its text (FRUS 1964–68, VII, near doc. 122).
+
 ## The Executive roster
 
 - NSCID No. 1: the texts of 1958, 1964 and 1972 not in the file (`usib.yaml`). Open on archive.org, the CIA's CREST copies (Oct. 23, 2026): the text effective Feb. 17, 1972 (`CIA-RDP87B01034R000700020013-3`); a 1958 draft (`CIA-RDP85S00362R000600150011-7`, "Concurred in by the IAC 21 January"), with the drafts of 1957; for 1964 only Bundy's approval of the revisions, Mar. 27, 1964, "the President's decision of March 5, 1964 on the reorganization of the USIB" (`cia-readingroom-document-cia-rdp80b01676r000400180031-7`; the text exempt). FRUS 1964–68, XXXIII, doc. 196, n. 3: revised Jan. 18, 1961, and Mar. 4, 1964. Lay shown as the Board's Executive Secretary only for Mar. 1964, in a note.
