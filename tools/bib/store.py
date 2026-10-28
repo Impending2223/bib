@@ -300,9 +300,16 @@ class List:
                 yield s, e
 
     def threads(self):
-        """Calendar lists: thread slug -> the thread's own entry."""
+        """Calendar lists: thread slug -> the thread's own entry. Kept while the threads section's entries are the
+        same list of the same length (a merge or an edit that adds or drops a thread rebuilds it)."""
         th = self.section(self.data.get("threads_section", "")) if self.kind == "calendar" else None
-        return {e["id"].split(".", 2)[2]: e for e in th.entries} if th else {}
+        if not th:
+            return {}
+        key = (id(th.entries), len(th.entries))
+        if getattr(self, "_threads_key", None) != key:
+            self._threads = {e["id"].split(".", 2)[2]: e for e in th.entries}
+            self._threads_key = key
+        return self._threads
 
     def thread_parent(self, slug):
         """A subthread's parent slug (`parent:` on its th.yaml entry), else None."""

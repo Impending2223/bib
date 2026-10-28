@@ -36,7 +36,6 @@ import glob
 import os
 import re
 
-import yaml
 
 from . import store
 
@@ -51,7 +50,7 @@ def files():
 
 
 def load(path):
-    return yaml.safe_load(open(path, encoding="utf-8")) or []
+    return store.load_yaml(path) or []
 
 
 def problems(series):

@@ -19,7 +19,8 @@ to another day's item, or to an item the file does not hold.
 import os
 import re
 
-import yaml
+
+from . import store
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 PATH = os.path.join(ROOT, "daybook", "diary.yaml")
@@ -34,7 +35,7 @@ def load():
     if "days" not in _cache:
         rows = []
         if os.path.exists(PATH):
-            rows = (yaml.safe_load(open(PATH, encoding="utf-8")) or {}).get("days") or []
+            rows = (store.load_yaml(PATH) or {}).get("days") or []
         _cache["days"] = rows
     return _cache["days"]
 

@@ -72,14 +72,22 @@ def entry_subject(lst, e):
     return e.get("s")
 
 
+_MEMBERS = {}
+
+
 def thread_members(lst):
-    """thread slug -> entries in document order (primary thread or 'also')."""
+    """thread slug -> entries in document order (primary thread or 'also'). Kept for the list while its sections'
+    entry counts stand (it is asked for under every thread entry and every `to:` line)."""
+    key = (id(lst), tuple(len(s.entries) for s in lst.walk()))
+    if _MEMBERS.get(id(lst), (None,))[0] == key:
+        return _MEMBERS[id(lst)][1]
     out = {}
     for sec, e in lst.entries():
         if "when" not in e:
             continue
         for t in entry_threads(lst, e):
             out.setdefault(t, []).append(e)
+    _MEMBERS[id(lst)] = (key, out)
     return out
 
 

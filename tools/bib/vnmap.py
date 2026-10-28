@@ -200,11 +200,10 @@ def _places():
 
 def _cities():
     """sources/indochina/cities.yaml as points, each with its rows as the tap shows them, cited by page."""
-    import yaml
     p = os.path.join(LAYERS, "cities.yaml")
     if not os.path.exists(p):
         return {"type": "FeatureCollection", "features": []}
-    d = yaml.safe_load(open(p, encoding="utf-8"))
+    d = store.load_yaml(p)
     G, feats = gazetteer(), []
     for c in d["cities"]:
         g = G.get(c["place"])
@@ -510,10 +509,9 @@ def problems(series):
         for f in fs:
             if not os.path.exists(os.path.join(VENDOR, d, f)):
                 out.append(("vnmap", f"sources/vendor/{d}/{f}: missing"))
-    import yaml
     cp = os.path.join(LAYERS, "cities.yaml")
     if os.path.exists(cp):
-        c = yaml.safe_load(open(cp, encoding="utf-8"))
+        c = store.load_yaml(cp)
         for x in c.get("cities", []):
             if x["place"] not in G:
                 out.append(("vnmap", f"sources/indochina/cities.yaml: {x['place']}: no such place"))

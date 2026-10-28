@@ -26,7 +26,6 @@ import html
 import json
 import os
 
-import yaml
 
 from . import store
 
@@ -58,7 +57,7 @@ def items():
 def issues():
     """{date: issue} from sources/dsb-issues.yaml."""
     if "issues" not in _cache:
-        rows = (yaml.safe_load(open(ISSUES, encoding="utf-8")) or {}).get("issues", []) if os.path.exists(ISSUES) else []
+        rows = (store.load_yaml(ISSUES) or {}).get("issues", []) if os.path.exists(ISSUES) else []
         _cache["issues"] = {str(r["date"]): r for r in rows}
     return _cache["issues"]
 
@@ -110,7 +109,7 @@ def day(date):
 
 def load():
     if "rows" not in _cache:
-        _cache["rows"] = ((yaml.safe_load(open(PRINTED, encoding="utf-8")) or {}).get("printed", {})
+        _cache["rows"] = ((store.load_yaml(PRINTED) or {}).get("printed", {})
                           if os.path.exists(PRINTED) else {})
     return _cache["rows"]
 

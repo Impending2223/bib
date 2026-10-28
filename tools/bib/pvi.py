@@ -338,11 +338,12 @@ def _footnote(data, st, d, mark):
 
 def vote_table(lines):
     """Folded: the presidential vote by district as the Data Book on these lines prints it (STYLE 4), or ''."""
-    import sys
     from .congress import STATE
     cd = _readings()
     out = []
-    for src, data in cd.load().items():
+    if "readings" not in _CACHE:
+        _CACHE["readings"] = cd.load()
+    for src, data in _CACHE["readings"].items():
         if data.get("lines") != lines or src not in VOLUMES:
             continue
         flds = [f for f in cd.fields(data) if f != "p"]

@@ -27,7 +27,7 @@ WHERE = "sources/state-law.yaml"
 
 
 def load():
-    return yaml.safe_load(open(PATH, encoding="utf-8")) or []
+    return store.load_yaml(PATH) or []
 
 
 def problems():
