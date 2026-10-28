@@ -447,6 +447,46 @@ reports them (`notes/calendar-audit.md`).
 - Nov.–Jan. 1969: Nixon's White House staff appointments; Moynihan; Yost; Hickel's hearings; the Douglas Commission's report; Palach.
 - Gallup's releases of Jan. 1–20, 1969: the 1969 pages of *The Gallup Poll* not yet read.
 
+### The official histories, reread (stage 3, Oct. 28-29, 2026; notes/book-checks/, one file a volume)
+
+Dated events the volumes give that the calendar lacks, each with the volume's page in its book-check file ("Passed
+over", "to leads"):
+
+- Watson, *Into the Missile Age*: Polaris to Congress (Aug. 8, 1960), the 19-ship program (Oct. 5), the limited-war
+  study (Aug. 3, Oct. 4), the Unified Command Plan (Dec. 30); Fylingdales (Feb. 17), the Berlin flights plan
+  (Feb.-Mar.), the U-2 overflight of Apr. 9, the Augusta NSC on NATO's missiles (Nov. 17; FRUS 1958-60, VII, pt. 1,
+  doc. 273), Norstad's atomic pool (Nov. 21), the Disarmament Administration (Sept. 9).
+- Kaplan, Landa and Drea, *The McNamara Ascendancy*: Kennedy rescinds the dependents directive and the first NSC
+  meeting (Feb. 1, 1961); the JCS's Bay of Pigs evaluation (Mar. 10); the 559,000 mobilization (July 6); reserve
+  call-up planning (Aug. 24, Sept. 7); the Berlin supplemental and appropriation (Aug.); Norstad's air access
+  authority (Aug. 31); the TFX decision (Sept. 1); 11 Air Guard squadrons to Europe (Oct. 10); Fort Bragg (Oct. 12);
+  NSAM 109 (Oct. 23); the first Honolulu conference (Dec. 16); the budget meeting with the Chiefs (Jan. 3, 1962);
+  McNamara's Vietnam program (June 5); Skybolt (Aug.-Nov.); the Clay committee (Dec. 6); the Wheeler team (Jan. 7,
+  1963); LeMay's extension (May 6); the first cost-reduction report (July 8); the procurement signing (Mar. 20, 1964);
+  NSAM 318 (Nov. 14). The base-closure entries (1961-64) rest on Kaplan alone: the Department's releases not found.
+- Drea, *McNamara, Clifford*: Vance and Sikes on the supplemental (Jan. 10, 1966); the FY1968 budget to Johnson
+  (Dec. 5, 1966); the news conference's Vietnam remarks (July 31, 1968); McNamara urges a pause (Dec. 2, 1965); the
+  DIA-CIA bombing assessment (Nov. 18, 1965); the Case I deployments (Feb. 9, 1966); the Honolulu air-war conference
+  (July 8, 1966); the Chiefs' 1967 proposals and their answer to Program 4 (Nov. 4, Dec. 2, 1966); McNaughton (May 6,
+  1967); Program 5 ordered (July 14); the bombing restrictions (May 29, Sept. 20-26); the Tuesday lunch of Feb. 13,
+  1968 (FRUS 1964-68, VI, 206-10); Johnson with Wheeler (July 30, Aug. 2, 1968); the NPT draft (Oct. 16, 1966); the
+  launcher freeze (Oct. 4, Nov. 2, 1967); the ABM speech and Thompson with Gromyko (Aug. 2, 19, 28, Sept. 12, 1967);
+  Kosygin's reply (May 12, 1968); the seabed proposal (June 3, 1968; FRUS 1964-68, XI, doc. 242); NATO (Aug. 26, 1966:
+  Drea prints 1965, Check the year; Sept. 23; July 8 and Aug. 23, 1966; Apr. 13, 1967); Israel's Phantoms (Nov. 7,
+  Dec. 11, 20, 21, 1968); Palomares (Jan. 21, Apr. 7, 1966).
+- The Air Force and Navy volumes: Johnson with McNamara and the Chiefs (Mar. 15, 1965; Marolda 531-32) and the enclave
+  meeting (Mar. 29); Rolling Thunder 6 and Blue Tree approved (Mar. 9, 1965; Van Staaveren 85); the address of May 13,
+  1965; the POL strikes put off for Ronning (June 10-15, 1966); the first open USAF jet missions in the South (Feb.
+  19-24, 1965) and the JCS order of Mar. 9 (Futrell 267); a Hanoi-area SAM site struck Aug. 9, 1965, the line moved
+  to 20°30′N Aug. 11 (Van Staaveren 167); OPLAN 34A approved by McNamara in Saigon (Dec. 20, 1963); the second 34A
+  raid (Aug. 3-4, 1964); MAAG Laos out (Oct. 6, 1962); Souvanna voted prime minister (Aug. 16, 1960); the Laos
+  coalition (June 11-24, 1962); JCSM-330-63 (Apr. 25, 1963); the first Barrel Roll mission (Dec. 14, 1964); the first
+  B-52 strike in Laos (*Interdiction* gives Dec. 10, 1965, p. 101, and Dec. 12, p. 133); the second Mụ Giạ B-52
+  strike (Apr. 21, 1966); Klusmann's escape (Aug. 21, 1964); MACTHAI apart from MACV (May 27, 1965).
+- Access: history.defense.gov's and media.defense.gov's PDFs refuse this environment (403); the DTIC scans on
+  archive.org served (Drea, DTIC_ADA552481; archive.org labels the leaf of p. 441 "457"; its pages for Anthony run one
+  high from p. 115 to p. 333). The OSD strategic-arms chronology not reached.
+
 ### One event, one entry (the folds agent, Oct. 28, 2026; notes/folds-2026-10-28.md)
 
 - `cal.1964-12-24.vietnam` cites FRUS 1964–68, I, doc. 465 for the Brink bombing and the reprisal refused; the
