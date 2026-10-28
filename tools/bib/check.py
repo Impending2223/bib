@@ -291,6 +291,10 @@ def run(series, only=None):
     from . import titles
     for where, msg in titles.problems(series):
         add(WARN, where, msg, "titles")
+    # election results in the calendar's text, in one form (tools/bib/resultform.py)
+    from . import resultform
+    for where, msg in resultform.problems(series):
+        add(WARN, where, msg, "result-form")
     # the calendar's places in Indochina (place: and province: tags; sources/vn-provinces-1966)
     from . import vnmap
     for where, msg in vnmap.problems(series):
@@ -398,7 +402,7 @@ def thread_sort_key(name):
     return (THREAD_SORT_AS.get(name) or THREAD_SORT_AS.get(head, head) + sep + rest).lower()
 
 HAND = ["lists/**/*.yaml", "executive/*.yaml", "daybook/abstracts.yaml", "elections/facts.yaml",
-        "elections/pres-primaries.yaml", "elections/conventions.yaml", "elections/renominations.yaml", "elections/primaries.yaml", "elections/cq.yaml",
+        "elections/pres-primaries.yaml", "elections/conventions.yaml", "elections/renominations.yaml", "elections/primaries.yaml", "elections/cq.yaml", "elections/term-limits.yaml",
         "elections/readings/*.yaml", "congress/specials-state.yaml", "congress/specials-cq.yaml",
         "congress/switches.yaml", "sources/gallup-approval.yaml", "sources/states.yaml",
         "sources/executive-sources.yaml"]

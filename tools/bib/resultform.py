@@ -23,22 +23,30 @@ STYLE
     percentage ("..., 52.1 percent of the two"). Where a rule differs (a measure needing a majority of all voting at
     the election, or two-thirds; a runoff below a majority), a few words after the figures say so.
  6. Several races or measures in one entry: each in the form, a sentence or a clause each.
- 7. A count or share the sources read do not give stays out: "Check: the count" (or "the percentage") in the note.
-    Quotations are left as printed (the text between double quotation marks is not read); an entry that must keep
-    another form (a quotation set off without marks) takes `ok:result-form`.
+ 7. A count or share the sources read do not give stays out: "Check: the count" (or "the percentage") in the note,
+    and the share or count the entry has stands alone ("Maier mayor over Reuss, about 58 percent"). Quotations are
+    left as printed (the text between double quotation marks is not read). An entry that must keep another form takes
+    `ok:result-form`: a quotation set off without marks, or a result the form does not fit (several places filled
+    from one ballot, Alabama's electors of 1960 and its Representatives at large of 1962) or that is no result the
+    rule meant to read (a crowd's count, the precincts of a recount, the plurality a proposal would require, a
+    convention's ballot written without the word).
+ 8. Not results, and not read: a convention's ballot of delegates ("1,321 to Goldwater's 10"; a State party's
+    convention may use the form, Indiana's of 1964 and 1968), electoral votes, the polls (thread Opinion), other
+    countries' parliamentary elections (party shares and seats), a measure's tax rate, a share of the people.
 
-What `problems` warns on, in an entry's `c`: "yes N"; a count followed by a colon or a semicolon and a share; "by N
-votes"; "W to L" (thousands) without its share; a share without "percent"; a share without its counts in an entry on
-an election (its thread an election thread, or a tag primary:, governors:, special:, election:); and in the form
-itself, a share above W/(W+L), "of the two" that is not W/(W+L), a measure's share that is not, and a margin that is
-not W - L. Not read: a convention's ballot ("1,321 to Goldwater's 10"), delegates and electoral votes, the polls
-(thread Opinion), and other countries' parliamentary elections (party shares and seats).
+What `problems` warns on, in an entry's `c` (calendar entries with a date): "yes N"; a count followed by a colon or a
+semicolon and a share; "by N votes"; "W to L" (thousands) without its share; and in the form itself, a share above
+W/(W+L), "of the two" that is not W/(W+L), a measure's share that is not W/(W+L) (its verb "carries", "adopted",
+"refused" ..., no race's "over"), a margin that is not W - L. In an entry on an election (an election thread, a tag
+primary:, governors:, special:, election:, or the words of one: "primary", "runoff", "re-elected", "referendum" ...),
+also: a share without its counts, a share without "percent", "p percent yes" or "for", and a count without its
+share, unless the note says "Check: the count" or the like (STYLE 7), a count is the rule's ("a majority of all who
+voted, 793,087, needed"), or the candidate was unopposed.
 """
 import re
 
 N = r"\d{1,3}(?:,\d{3})+|\d{1,7}"
 FORM = re.compile(rf"(?<![\d,.$])({N}) to ({N}), (\d{{1,3}}\.\d) percent( of the two)?(?:, an? ({N})-vote margin)?")
-ALSO = re.compile(rf"(?<![\d,.$])({N}), (\d{{1,3}}\.\d) percent")
 YESNO = re.compile(r"\b[Yy]es,? \d|\bno,? \d{1,3}(?:,\d{3})+")
 PUNCT = re.compile(r"(?<![\d.])\d{1,3}(?:,\d{3})+[;:] \d{1,3}(?:\.\d)? percent")
 BYVOTES = re.compile(r"\bby (?:about |almost |nearly |some |over |under |fewer than |more than |only |just )?"
@@ -67,12 +75,15 @@ CONVENTION = re.compile(r"\b(?:\w+ ballot|delegates'?|convention's|roll call)\b"
 RULE = re.compile(r"\b(?:majority of all|two-thirds|three-fifths|needed|required|needs|short of)\b")
 UNOPPOSED = re.compile(r"\b(?:unopposed|without opposition|no opposition|no opponent)\b")
 WORDED = re.compile(r"\d percent (?:yes|no|for|against)(?=[.,;)]|$)")
-CHECKED = re.compile(r"\bCheck:? (?:[^.]*?\b)?(?:counts?|percentages?|shares?)\b|\bCheck:? the (?:[\w'’]+ ){0,3}(?:votes?|returns)\b")
+CHECKED = re.compile(r"\bCheck:? (?:[^.]*?\b)?(?:counts?|percentages?|shares?)\b"
+                     r"|\bCheck:? the (?:[\w'’]+ ){0,3}(?:votes?|returns)\b")
+BEFORE_COUNT = re.compile(r"\b(?:to|over|under|above|below|than|some|about|nearly|of) $")
 RATE = re.compile(r"(?:\bto|\bfrom|\bat|\bthan|\bof|\bby) $")
 ELECTION_THREADS = ("elections-", "governors", "mayors", "specials", "state-constitutions", "electoral-college")
 ELECTION_TAGS = ("primary:", "governors:", "special:", "election:")
 # a share that is not a vote: of the people, the precincts, the registered (in an entry on an election all the same)
-NOT_A_VOTE = re.compile(r"\s(?:of (?:the |its |their |all |his )?(?:[\d,]+ )?(?:people|population|precincts?|registered|eligible|"
+NOT_A_VOTE = re.compile(r"\s(?:of (?:the |its |their |all |his )?(?:[\d,]+ )?(?:people|population|precincts?|registered|"
+                        r"eligible|"
                         r"adults|voting-age|counties|districts|seats|units|delegates|State's people|electorate|"
                         r"Negroes|Negro)|Negro|registered|turnout|of those registered|of the (?:State's|city's|"
                         r"county's) (?:people|population|voters)|of the voting|of its|above|below|of the ideal|"
@@ -148,9 +159,10 @@ def scan(text, election=False, checked=False):
         out.append(("no-share", m.group(0), "W to L without its share: add \", p percent\""))
     if election and not checked:
         for m in PCT.finditer(t):
-            if inform(m.start()) or NOT_A_VOTE.match(t, m.end()) or CONVENTION.search(sentence_of(t, m.start())) \
-                    or RULE.search(sentence_of(t, m.start())) or TAXRATE.search(t[max(0, m.start() - 15):m.start()]) or RATE.search(t, 0, m.start()) or \
-                    re.match(r" (?:a year|the ceiling|on |of (?:income|the price|value))", t[m.end():]):
+            sent = sentence_of(t, m.start())
+            if inform(m.start()) or NOT_A_VOTE.match(t, m.end()) or CONVENTION.search(sent) or RULE.search(sent) \
+                    or TAXRATE.search(t[max(0, m.start() - 15):m.start()]) or RATE.search(t, 0, m.start()) \
+                    or re.match(r" (?:a year|the ceiling|on |of (?:income|the price|value))", t[m.end():]):
                 continue
             sent = sentence_start(t, m.start())
             if re.search(rf"(?:{N}), $", t[:m.start()]) and any(sent <= a < m.start() for a, _ in spans):
@@ -158,7 +170,7 @@ def scan(text, election=False, checked=False):
             out.append(("no-count", m.group(0), "a share without its counts: W to L, p percent"))
         for m in COUNT.finditer(t):
             sent = sentence_of(t, m.start())
-            if inform(m.start()) or re.search(r"(?:\bto|\bover|\bunder|\babove|\bbelow|\bthan|\bsome|\babout|\bnearly|\bof) $", sent) or UNOPPOSED.search(sent + t[m.start():m.start() + 40]) \
+            if inform(m.start()) or BEFORE_COUNT.search(sent) or UNOPPOSED.search(sent + t[m.start():m.start() + 40]) \
                     or not VOTING.search(sent) or CONVENTION.search(sent) or RULE.search(sent + t[m.end():m.end() + 60]):
                 continue
             out.append(("count-alone", m.group(0), "a count without its share: W to L, p percent (or Name N, p percent)"))
@@ -192,5 +204,5 @@ def problems(series):
             if not isinstance(c, str) or not e.get("date") or (e.get("thread") or "").startswith("opinion"):
                 continue
             for kind, words, msg in scan(c, on_election(e), bool(CHECKED.search(e.get("n") or ""))):
-                out.append((e["id"], f"{words!r}: {msg} [result-form]"))
+                out.append((e["id"], f"{words!r}: {msg}"))
     return out

@@ -8,6 +8,15 @@ reports them (`notes/calendar-audit.md`).
 
 ## States and cities
 
+### Governors barred from another term (Oct. 24, 2026; elections/term-limits.yaml)
+- Georgia's 1945 provision and when succession was allowed (legis.ga.gov bot-checked); Tennessee's art. III, § 4 as
+  amended (sos.tn.gov refuses this environment); New Mexico's art. V, § 1 as it stood in 1966.
+- The dates and ballot texts of the changes in Indiana (1972), Mississippi (1986), Pennsylvania (1967), Louisiana (1966)
+  and Alabama (Act 202 of 1967, ratified as Amendment 282?); South Carolina's 1926 bar, whether for life.
+- Florida's, Virginia's, Maryland's and New Jersey's bars read only in their 1909 text or today's: a print of the 1960s.
+- North Carolina, 1960: whether Hodges, who succeeded to the office, was barred.
+- The result of Oklahoma's SQ 747 (2010). The *Book of the States*, 1960–68, would settle most (archive.org: borrow only).
+
 ### Alabama
 
 - The textbook and teacher laws and the other acts against the movement, 1960–65: not entered. The *Acts of Alabama* and both houses' Journals, 1961–70, every session, are open on archive.org (`alabama-acts-1961_v1` … `alabama-acts-1969_1970_v3`, `alabama-house-journal-*`, `alabama-senate-journal-*`, `alabama-house-senate-journal-1962-special`, `-1964-special`; Oct. 23, 2026), each act with the day and minute of its approval (Act No. 252 of 1966 and the two commissions of 1963 now dated from them, patch reopen-states-2).

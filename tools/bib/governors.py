@@ -22,6 +22,11 @@ STYLE
     person with an entry fits (namelinks.written).
  8. The table marks a change as the Congress's tables do (the owner's request, Oct. 23, 2026): a party's gain shaded in
     the winner's color, a new governor of the same party in gray, both of a race's rows.
+ 9. An incumbent "barred from another term" (the race tables' "term-limited") is followed by the provision in force
+    on the day, from elections/term-limits.yaml (the owner's request, Oct. 23, 2026: the authority, the reason and
+    the scope of the bar): "barred from another term (Mo. Const. art. IV, § 17 (1945, amended 1965): not eligible for election as
+    his own successor)", the cite linked to the source read; what it leaves open, a "Check" at the note's end
+    (termlimits.py, its STYLE).
 """
 import json
 import os
@@ -214,6 +219,9 @@ def note(r, cs):
     inc = clean(r.get("incumbent") or "")
     if inc:
         f = fate(r, cs)
+        if f == "barred from another term":                  # STYLE 9
+            from . import termlimits
+            f += termlimits.bar_html(r["st"], r["date"])
         bits.append(f"Incumbent: {name_html(inc)} ({esc(r.get('inc_party') or '?')}), {f}.")
     res = result(r, cs)
     if res:
@@ -230,6 +238,10 @@ def note(r, cs):
         bits.append(esc(r["note"]))
     if r.get("check"):
         bits.append("Check: the State's canvass.")
+    if inc and fate(r, cs) == "barred from another term":    # STYLE 9
+        from . import termlimits
+        if termlimits.check_html(r["st"], r["date"]):
+            bits.append(termlimits.check_html(r["st"], r["date"]))
     return " ".join(bits)
 
 
@@ -394,6 +406,9 @@ def problems(series=None):
             out.append((where, f"{r.get('st')}: bad date {r.get('date')}"))
         if not winner(candidates(r)):
             out.append((where, f"{r['date']} {r.get('st')}: no winner"))
+    from . import termlimits                                  # STYLE 9: each barred race finds its provision
+    out += termlimits.problems([r for r in load().get("races") or [] if clean(r.get("incumbent") or "")
+                                and fate(r, candidates(r)) == "barred from another term"])
     if series is not None:
         for date, eid in tagged(series).items():
             if not races(date):

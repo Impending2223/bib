@@ -360,6 +360,27 @@ a detail to verify. In the calendar the first entry of each event carries its
 bibliography and later ones point back with `See [[id]]`; a thread's first entry is its first event's. Bibliography sections
 are chronological by publication unless their intro says "Alphabetical".
 
+Election results in `c` (the owner's rule, Oct. 23, 2026: "fix the form to a single, prescribed standard"; "the
+simplest forms here, e.g., 'Anderson (R) over Governor Docking (D), 511,534 to 402,261, 55.4 percent', are perfectly
+fine. Keep those everywhere"). One form, commas only, no colon or semicolon: a race, "Winner (P) over Loser (P), W to
+L, p percent", the winner's count first, p the winner's share to one decimal (in a primary no party: "Kennedy over
+Humphrey, 476,024 to 366,753, 56.5 percent"); a margin, where the entry gives one or the race was close, after the
+share, "..., 50.3 percent, a 1,988-vote margin", never "by 1,988 votes"; a measure, yes first, p the yes share:
+"Proposition 1 carries, 3,008,328 to 2,834,384, 51.5 percent", "Proposal 2 fails, 1,876,185 to 3,408,090, 35.5
+percent", never "yes ..., no ..." or "p percent yes"; a third candidate or more after the two, in the same sentence,
+"Name N, p percent". Always both counts and the percentage. The denominator: all the votes cast for the office (for a
+measure, yes and no) where the source prints that total (as the Clerk's figures and CQ's specials do); where it gives
+only the two leading counts and others ran, their sum, "p percent of the two". Where a rule differs (a measure needing
+a majority of all voting at the election, or two-thirds; a runoff below a majority), a few words after the figures
+say so ("a majority of all who voted at the election needed"). Several races or measures in one entry: each in the
+form, a sentence or a clause each. A missing count or share comes from the entry's own source, the series' data
+(`elections/`, `congress/specials*.yaml`) or a source read then, cited in `n`; else what the entry has stands, and
+the note says "Check: the count" (or "the percentage"). `check` warns on a result not in the form, on a share the
+counts do not give, and on a margin that is not W - L [result-form] (`tools/bib/resultform.py`, its STYLE); a
+quotation is not read, and an entry the form does not fit (several places on one ballot, a crowd's count) takes
+`ok:result-form`. Not results: a convention's ballot of delegates, electoral votes, the polls, other countries'
+parliamentary elections.
+
 Leads (the owner's standing rule, Oct. 18, 2026): anything recalled but not placed or verified (an event without a
 date, a figure without a source read, a source not reached, an item left out as minor) is written into
 `notes/leads.md` under its heading (States and cities, National, Foreign, the Executive roster), with the entry it
@@ -1105,6 +1126,15 @@ the script (Georgia, 1966: the legislature elected Maddox; Minnesota, 1962: the 
 - Names: each race a row in the candidate's record (`governor_rows` in `tools/bib/lives.py`), the date linked to the
   day's table.
 - The primaries for governor are calendar entries (thread "Governors"), their figures cited in each entry.
+- The bars on re-election (the owner's request, Oct. 23, 2026: "the authority and reason for the bar, and its scope"):
+  `elections/term-limits.yaml`, kept by hand (header the schema), a State an entry for each State whose incumbent
+  was barred, 1960-68: each provision in force over the span (cite, words, scope, from and to), each read by page
+  (Thorpe's *Federal and State Constitutions* of 1909 for the old texts, the States' manuals, session laws, codes and
+  election returns for the rest), the changes since, the text today, and a Check for what is not settled. A race
+  the tables call "term-limited" shows "barred from another term (Mo. Const. art. IV, § 17 (1945, amended 1965): not
+  eligible for election as his own successor)", the cite linked, and the rule's Check (STYLE 9 in
+  `tools/bib/governors.py`; `tools/bib/termlimits.py`, its STYLE). `check` fails on a barred race with no provision,
+  a rule without its words, scope or a linked source, a span out of order.
 
 ## Legislatures
 
