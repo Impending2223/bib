@@ -80,6 +80,18 @@ entries:
         - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-john-knight-february-3-1964: A'
         - 'w.johns-vietnams-second-front 48: all'
     tags: [name:johnson-lyndon-b, name:nixon-richard-m, name:goldwater-barry-m]
+  - id: cal.1964-02-03.elections-1964
+    when: Feb. 3
+    date: '1964-02-03'
+    thread: elections-1964
+    c: Scranton takes his name off the New Hampshire primary's ballot; his wife against more trips out of the State.
+    n: '[[w.perlstein-before-the-storm]], 279. To check: "Scranton Pulls Out of Primary Race in NH," *Los Angeles Times*, Feb. 4, 1964 (cited by [[w.perlstein-before-the-storm]], 279 n.3). Names: Scranton.'
+    src:
+      c: 58c975be
+      rows:
+        - 'w.perlstein-before-the-storm 279: all'
+        - 'via w.perlstein-before-the-storm 279 n.3: all'
+    tags: [name:scranton-william-w, state:nh]
   - id: cal.1964-02-04.africa
     when: Feb. 4
     date: '1964-02-04'
@@ -232,6 +244,19 @@ entries:
     c: Douglas-Home at the White House. Zanzibar among the talks.
     n: 'Joint Statement following Discussions With the Prime Minister of the United Kingdom, [1963–64 Pub. Papers 293](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=377) (Feb. 13, 1964). See [[cal.1964-01-12.africa]]. Names: Douglas-Home, Johnson.'
     tags: [name:douglas-home-alec, name:johnson-lyndon-b]
+  - id: cal.1964-02-13.elections-1964
+    when: Feb. 13
+    date: '1964-02-13'
+    thread: elections-1964
+    also: [civil-rights-bill]
+    c: 'Nixon at Cincinnati, the day after the school boycott there: the "irresponsible tactics of some of the extreme civil rights leaders" have "created an atmosphere of hate and distrust which, if it continues to grow, will make the new law a law in name only."'
+    n: '[[w.perlstein-before-the-storm]], 289. To check: the speech, Rockefeller Archive Center, box 11/924 (cited by [[w.perlstein-before-the-storm]], 289 n.4). Check: the date. Names: Nixon.'
+    src:
+      c: a05e515f
+      rows:
+        - 'w.perlstein-before-the-storm 289: all'
+        - 'via w.perlstein-before-the-storm 289 n.4: all'
+    tags: [name:nixon-richard-m, city:cincinnati]
   - id: cal.1964-02-14.vietnam
     when: Feb. 14
     date: '1964-02-14'
@@ -487,3 +512,17 @@ entries:
     c: Oklahoma's Republican State convention pledges its 22 delegates to Goldwater, the first State to.
     n: '"State Becomes First Going for Goldwater for GOP Nomination," [*Daily Oklahoman*, Mar. 1, 1964](https://www.newspapers.com/image/451527290). The figures: [Wikipedia, "1964 Republican Party presidential primaries"](https://en.wikipedia.org/wiki/1964_Republican_Party_presidential_primaries), its table of the primaries and conventions, read Oct. 22, 2026. To check: [[w.novak-agony-of-the-g]]; [[w.white-making-of-the-president-1965]]; [[w.rusher-rise-of-the-right]]; [[w.kessel-goldwater-coalition]]; [[w.middendorf-glorious-disaster]]; [[w.kabaservice-rule-and-ruin]]. See [[cal.1963-04-08.elections-1964]]. Names: Goldwater. Check: the paper (newspapers.com, by subscription; not read here).'
     tags: [state:ok, name:goldwater-barry-m]
+  - id: cal.1964-02.republican-party
+    when: Feb.
+    date: 1964-02
+    thread: republican-party
+    also: [elections-1964]
+    c: The California Young Republicans' convention. Reagan speaks. The liberals "regressive reactionaries"; by 256 to 33, no part in the presidential campaign if Goldwater is not the nominee.
+    n: '[[w.perlstein-before-the-storm]], 336. To check: "Young GOP Refuses Party Loyalty Pledge," *Los Angeles Times*, Feb. 16, 1964; "Young GOP Endorses Goldwater," *Los Angeles Times*, Feb. 17, 1964 (cited by [[w.perlstein-before-the-storm]], 336 n.1). Check: the date. Names: Reagan, Goldwater.'
+    src:
+      c: 4405afc4
+      rows:
+        - 'w.perlstein-before-the-storm 336: all'
+        - 'via w.perlstein-before-the-storm 336 n.1a: B'
+        - 'via w.perlstein-before-the-storm 336 n.1b: C'
+    tags: [name:reagan-ronald, name:goldwater-barry-m, state:ca]

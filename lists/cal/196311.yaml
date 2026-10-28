@@ -159,6 +159,10 @@ entries:
     thread: elections-1964
     c: Rockefeller announces for the Republican nomination, at Albany, N.Y.
     n: '[[w.perlstein-before-the-storm]], 262 (the date). To check: [[w.kramer-i-never-wanted-to]]; [[w.persico-imperial-rockefeller]]; [[w.smith-on-his-own-terms]]; [[w.white-making-of-the-president-1965]]. See [[cal.1963-04-08.elections-1964]]. Names: Nelson Rockefeller.'
+    src:
+      c: d798dbf7
+      rows:
+        - 'w.perlstein-before-the-storm 262: A'
     tags: [name:rockefeller-nelson]
   - id: cal.1963-11-07.middle-east
     when: Nov. 7
@@ -275,6 +279,19 @@ entries:
       rows:
         - 'w.caro-passage-of-power 296: all'
     tags: [name:young-stephen-m, name:burdick-quentin-n, name:baker-robert-g, name:blakley-william-a, name:long-edward-v]
+  - id: cal.1963-11-16.elections-1964
+    when: Nov. 16
+    date: '1963-11-16'
+    thread: elections-1964
+    also: [laos, vietnam]
+    c: 'Rockefeller at St. Louis: the administration''s failures in Laos and Vietnam; Laos "sacrificed" to an "illusory coalition" dominated by Communists, another supply route opened for the Viet Cong.'
+    n: '[[w.johns-vietnams-second-front]], 39. To check: the speech, Nov. 16, 1963, Graham T. T. Molitor Papers, box 30/26, Rockefeller Archive Center (cited by [[w.johns-vietnams-second-front]], 39 n.115). Names: Rockefeller.'
+    src:
+      c: f9be5cdd
+      rows:
+        - 'w.johns-vietnams-second-front 39: all'
+        - 'via w.johns-vietnams-second-front 39 n.115: all'
+    tags: [name:rockefeller-nelson]
   - id: cal.1963-11-18.middle-east
     when: Nov. 18
     date: '1963-11-18'
@@ -363,6 +380,17 @@ entries:
         - 'w.caro-passage-of-power 460–61: all'
         - 'via w.caro-passage-of-power 460 n.one-of-the-eight: all'
     tags: [name:clark-joseph-s, name:mcclellan-john-l, name:russell-richard-b]
+  - id: cal.1963-11-21.elections-1964
+    when: Nov. 21
+    date: '1963-11-21'
+    thread: elections-1964
+    c: Nixon, in Dallas for a board meeting of Pepsi-Cola, his client, urges "a courteous reception" for Kennedy.
+    n: '[[w.perlstein-before-the-storm]], 241. Names: Nixon, Kennedy.'
+    src:
+      c: 3d9d9209
+      rows:
+        - 'w.perlstein-before-the-storm 241: all'
+    tags: [name:nixon-richard-m, name:kennedy-john-f, city:dallas]
   - id: cal.1963-11-22.assassination
     when: Nov. 22
     date: '1963-11-22'
@@ -419,8 +447,26 @@ entries:
     thread: goldwater
     also: [elections-1964]
     c: 'Goldwater in Muncie, Ind., with his wife, at her mother''s funeral. He and Kennedy had talked of campaigning together in 1964: "Standing up to state our points, our issues, and then debating each other." In December, he later wrote, he meant to refuse to be a candidate. Check the dates.'
-    n: '[[w.perlstein-before-the-storm]], 248 (Muncie), 253–54 (the debates). To check: [[w.goldwater-with-no-apologies]]; [[w.edwards-goldwater]]; [[w.goldberg-barry-goldwater]]; [[w.white-making-of-the-president-1965]]. Names: Goldwater. Check: Perlstein, 253, has Goldwater tell Kitchel within days of the assassination to spread word that he would not run.'
+    n: '[[w.perlstein-before-the-storm]], 248, 253–54 (Muncie, 248; the debates, 253–54). To check: Gilbert A. Harrison, "Way Out West: An Interim Report on Barry Goldwater," New Republic, Nov. 23, 1963 (Kennedy''s and Goldwater''s proposal to campaign together) (cited by [[w.perlstein-before-the-storm]], 253 n.3); [[w.goldwater-with-no-apologies]]; [[w.edwards-goldwater]]; [[w.goldberg-barry-goldwater]]; [[w.white-making-of-the-president-1965]]. Names: Goldwater. Check: Perlstein, 253, has Goldwater tell Kitchel within days of the assassination to spread word that he would not run.'
+    src:
+      c: 7d91d1d3
+      rows:
+        - 'w.perlstein-before-the-storm 248: A'
+        - 'w.perlstein-before-the-storm 253–54: B'
+        - 'via w.perlstein-before-the-storm 253 n.3: B'
     tags: [name:goldwater-barry-m, name:kennedy-john-f]
+  - id: cal.1963-11-22.elections-1964
+    when: Nov. 22
+    date: '1963-11-22'
+    thread: elections-1964
+    also: [vietnam]
+    c: '*Time*, the issue dated Nov. 22: Nixon, the coup in Saigon may matter in 1964 should the war against the Viet Cong go worse.'
+    n: '[[w.johns-vietnams-second-front]], 39. Names: Nixon.'
+    src:
+      c: 7d547c5c
+      rows:
+        - 'w.johns-vietnams-second-front 39: all'
+    tags: [name:nixon-richard-m]
   - id: cal.1963-11-23.succession
     when: Nov. 23
     date: '1963-11-23'
