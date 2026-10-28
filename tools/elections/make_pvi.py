@@ -255,7 +255,7 @@ def main():
                 "# By volume: each district's [total, Democratic, Republican] a year, as read (0 the State column).\n")
         yaml.safe_dump(fig, f, allow_unicode=True, sort_keys=False, width=120, default_flow_style=None)
     for e, x in dist["elections"].items():
-        print(f"  {e} ({x["congress"]}th Congress): {x['computed']} districts, {x['without']} without")
+        print(f"  {e} ({x["congress"]}{"st" if x["congress"] % 10 == 1 else "d" if x["congress"] % 10 in (2, 3) else "th"} Congress): {x['computed']} districts, {x['without']} without")
 
 
 if __name__ == "__main__":

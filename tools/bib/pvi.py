@@ -51,6 +51,8 @@ def problems(series=None):
                     if x and (st, x) not in seated:
                         out.append(("error", where, f"{st} {x}: no such district in the {d.get('lines')}th Congress"))
             for fld in ("eye", "marks"):
+                if e.get(fld) == "all":
+                    continue
                 for ent in e.get(fld) or []:
                     p = str(ent).split()
                     if len(p) != 3 or int(p[0]) not in rows or p[1] not in years or p[2] not in ("t", "D", "R", "p"):
