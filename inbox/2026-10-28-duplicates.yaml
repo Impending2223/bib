@@ -1,0 +1,101 @@
+# Duplicates among the calendar entries added Oct. 23-28, 2026: notes/duplicates-2026-10-28.md.
+patch: duplicates
+by: Claude (duplicates agent, second reading pass, stage 2)
+ops:
+- edit:
+    id: cal.1968-08-19.testing
+    base: 840f1379
+    set:
+      c: 'Dobrynin to Rusk, a handwritten note: Moscow "positive" on Johnson''s wish to meet the Soviet leaders in the Soviet Union, in the first ten days of October; Leningrad acceptable; an announcement soon, a joint text proposed. Rostow cables it to Johnson, flying to Detroit. Back at the White House that night, Johnson agrees with Rusk and Rostow to announce it Aug. 21, by his account.'
+      n: 'FRUS 1964–68, XIV, docs. [285](https://history.state.gov/historicaldocuments/frus1964-68v14/d285), [286](https://history.state.gov/historicaldocuments/frus1964-68v14/d286) (Rostow''s cable to Johnson). [[w.johnson-vantage-point]], 487 (the note, the cable, the decision that night). Made public: FRUS 1964–68, XIV (2001). See [[cal.1968-07-25.testing]]. Names: Dobrynin, Rusk, Johnson, Rostow.'
+- edit:
+    id: cal.1968-08-19.soviet-union
+    base: 301fa873
+    set:
+      thread: testing-missile-talks
+      c: 'Dobrynin to Rusk, a handwritten note: Moscow "positive" on Johnson''s wish to meet the Soviet leaders in the Soviet Union, in the first ten days of October; Leningrad acceptable; an announcement soon, a joint text proposed. Rostow cables it to Johnson, flying to Detroit. Back at the White House that night, Johnson agrees with Rusk and Rostow to announce it Aug. 21, by his account.'
+      n: 'FRUS 1964–68, XIV, docs. [285](https://history.state.gov/historicaldocuments/frus1964-68v14/d285), [286](https://history.state.gov/historicaldocuments/frus1964-68v14/d286) (Rostow''s cable to Johnson). [[w.johnson-vantage-point]], 487 (the note, the cable, the decision that night). Made public: FRUS 1964–68, XIV (2001). See [[cal.1968-07-25.testing]]. Names: Dobrynin, Rusk, Johnson, Rostow.'
+- combine:
+    keep: cal.1968-08-19.testing
+    drop: cal.1968-08-19.soviet-union
+- edit:
+    id: cal.1961-09-17.vietnam
+    base: bc1db30c
+    set:
+      c: Phước Thành. About three Viet Cong battalions take Phước Vĩnh, the capital of the new province, on the edge of War Zone D, the night of Sept. 17–18, shortly after midnight, and hold it some hours; the province chief and his assistant executed in the market place. The first provincial capital taken.
+      n: 'FRUS 1961–63, I, docs. [135](https://history.state.gov/historicaldocuments/frus1961-63v01/d135) (Nolting, Sept. 20), [138](https://history.state.gov/historicaldocuments/frus1961-63v01/d138). [[w.miller-misalliance]], 227 (all but War Zone D); [[w.vietnam-victory-in-vietnam]], 85 (the 500th Battalion of Military Region 7, with district local forces; the town held three days; 600 weapons taken). See [[cal.1961-01-28.vietnam]]. Check: the capital''s name, and the three days of Hanoi''s account against the embassy''s hours.'
+- edit:
+    id: cal.1961-09-18.vietnam
+    base: 2d80cd7f
+    set:
+      when: Sept. 17–18
+      date: '1961-09-17'
+      c: Phước Thành. About three Viet Cong battalions take Phước Vĩnh, the capital of the new province, on the edge of War Zone D, the night of Sept. 17–18, shortly after midnight, and hold it some hours; the province chief and his assistant executed in the market place. The first provincial capital taken.
+      n: 'FRUS 1961–63, I, docs. [135](https://history.state.gov/historicaldocuments/frus1961-63v01/d135) (Nolting, Sept. 20), [138](https://history.state.gov/historicaldocuments/frus1961-63v01/d138). [[w.miller-misalliance]], 227 (all but War Zone D); [[w.vietnam-victory-in-vietnam]], 85 (the 500th Battalion of Military Region 7, with district local forces; the town held three days; 600 weapons taken). See [[cal.1961-01-28.vietnam]]. Check: the capital''s name, and the three days of Hanoi''s account against the embassy''s hours.'
+- combine:
+    keep: cal.1961-09-17.vietnam
+    drop: cal.1961-09-18.vietnam
+- edit:
+    id: cal.1967-11-20.elections-1968
+    base: e943fe58
+    set:
+      c: 'Night, the Westmorelands at the White House, Russell at dinner. Johnson to Westmoreland, by his notes: McNamara leaving, Clifford to succeed him; his health not good, he and his wife tired; he does not plan to run in 1968. How would the troops take it? Westmoreland: told why, they would understand. By Johnson''s account, after dinner in the family quarters: would the men in Vietnam think themselves let down? "Mr. President, I do not believe so."'
+      n: '[[w.gibbons-u-s-government-and]], IV, 900 (Westmoreland''s history notes for Nov. 20, 1967, CMH, Westmoreland Papers; all but Johnson''s account); [[w.johnson-vantage-point]], 429, 434 (Johnson''s account). To check: [[w.westmoreland-soldier-reports]], 233. See [[cal.1967-10-03.elections-1968]]. Names: Johnson, Westmoreland, Russell, McNamara, Clifford. Check: the day of Johnson''s account, which gives none; taken as Nov. 20, by Westmoreland''s notes.'
+- edit:
+    id: cal.1967-11.elections-1968
+    base: f6a0d66c
+    set:
+      when: Nov. 20
+      date: '1967-11-20'
+      c: 'Night, the Westmorelands at the White House, Russell at dinner. Johnson to Westmoreland, by his notes: McNamara leaving, Clifford to succeed him; his health not good, he and his wife tired; he does not plan to run in 1968. How would the troops take it? Westmoreland: told why, they would understand. By Johnson''s account, after dinner in the family quarters: would the men in Vietnam think themselves let down? "Mr. President, I do not believe so."'
+      n: '[[w.gibbons-u-s-government-and]], IV, 900 (Westmoreland''s history notes for Nov. 20, 1967, CMH, Westmoreland Papers; all but Johnson''s account); [[w.johnson-vantage-point]], 429, 434 (Johnson''s account). To check: [[w.westmoreland-soldier-reports]], 233. See [[cal.1967-10-03.elections-1968]]. Names: Johnson, Westmoreland, Russell, McNamara, Clifford. Check: the day of Johnson''s account, which gives none; taken as Nov. 20, by Westmoreland''s notes.'
+- combine:
+    keep: cal.1967-11-20.elections-1968
+    drop: cal.1967-11.elections-1968
+- edit:
+    id: cal.1966-03-15.vietnam-supplemental
+    base: 78d77021
+    set:
+      c: Supplemental military authorization signed, [80 Stat. 36](https://www.govinfo.gov/content/pkg/STATUTE-80/pdf/STATUTE-80-Pg36.pdf). The appropriation, some $13 billion, before Congress later the same day.
+      n: Remarks at the Signing of the Supplemental Military Authorization Bill, [1966 Pub. Papers 321](https://www.govinfo.gov/content/pkg/PPP-1966-book1/pdf/PPP-1966-book1.pdf#page=397) (Mar. 15, 1966). See [[cal.1966-01-19.vietnam]]; [[cal.1966-03-15.congress]] (the House's vote).
+- edit:
+    id: cal.1961-01-03.rules
+    base: 93bb7c9d
+    set:
+      c: 87th Congress convenes. Senate 65 D–35 R, Hickey (D) appointed in Wyoming for Keith Thomson (R), elected and dead in December; House 263–174. Rayburn Speaker; Mansfield and Humphrey lead the Senate Democrats, Dirksen and Kuchel the Republicans; Halleck the House Republicans.
+      n: '[Cong. Rec., Senate, Jan. 3, 1961](https://www.govinfo.gov/content/pkg/GPO-CRECB-1961-pt1/pdf/GPO-CRECB-1961-pt1-1-1.pdf). [House roll call 1](https://voteview.com/rollcall/RH0870001). To check: [[w.hardeman-rayburn]]. See [[cal.1961-01-03.congress]] (the Democrats'' conference). Names: Hickey, Thomson, Rayburn, Mansfield, Humphrey, Dirksen, Kuchel, Halleck.'
+- tag:
+    id: cal.1961-01-03.rules
+    remove:
+    - name:johnson-lyndon-b
+- edit:
+    id: cal.1961-01-03.congress
+    base: a005b4f5
+    set:
+      c: 'Senate Democrats in caucus. Mansfield, Johnson''s choice to succeed him as majority leader, moves that Johnson preside over the caucus as Vice President. Gore against: "This caucus is not open to former senators." Carried, 46–17, against loud protest. Johnson never uses the role.'
+      n: '[[w.dallek-flawed-giant]], 8 (the caucus, the motion, Gore, the vote); [[w.caro-passage-of-power]], 164–69 (the conference, the protest, the role unused; no count given). Names: Mansfield, Johnson, Gore. Check: Dallek gives Jan. 5, "seventeen days before taking office" (8), which would be Jan. 3.'
+- edit:
+    id: cal.1967-10-23.vietnam
+    base: ce78a1be
+    set:
+      c: 'Johnson with Rusk, McNamara, Rostow, Wheeler and Christian, 1:05 to 3:40 p.m. Helms: "you ended up where you began." Phúc Yên (authorized Sept. 28 and cancelled), two bridges and the power plant authorized: "Now we have gotten rid of all the excuses." Johnson: "It doesn''t seem we can win the war militarily"; "We''ve almost lost the war in the last two months in the court of public opinion." The reserves? McNamara: not needed. Of the draft-card protesters, Rusk: "I would enforce the law." The Joint Chiefs'' report of Oct. 17 "not what was desired."'
+      n: 'FRUS 1964–68, V, docs. [363](https://history.state.gov/historicaldocuments/frus1964-68v05/d363) (all but the Joint Chiefs'' report), [312](https://history.state.gov/historicaldocuments/frus1964-68v05/d312) (Phúc Yên). [[w.gibbons-u-s-government-and]], IV, 793–95, 868–69, 874, 927–28 (Tom Johnson''s notes; the report, from the Pentagon Papers). Made public: FRUS 1964–68, V (2002). To check: [[w.pentagon-papers]], IV, 536 (the report). See [[cal.1967-10-20.vietnam-pennsylvania]]; [[cal.1967-08-24.vietnam-air-war]]. Names: Johnson, Rusk, McNamara, Rostow, Wheeler, Christian, Helms.'
+- edit:
+    id: cal.1967-10-23.vietnam-pennsylvania
+    base: d472d2dc
+    set:
+      c: Johnson tells the congressional leaders of Pennsylvania.
+      n: 'FRUS 1964–68, V, docs. [362](https://history.state.gov/historicaldocuments/frus1964-68v05/d362), [364](https://history.state.gov/historicaldocuments/frus1964-68v05/d364). [[w.gibbons-u-s-government-and]], IV, 793–96. See [[cal.1967-10-06.vietnam]]; [[cal.1967-10-23.vietnam]] (the strikes authorized). Names: Johnson.'
+    unset:
+    - also
+- edit:
+    id: cal.1967-11-09.vietnam-air-war
+    base: bcefdeff
+    set:
+      n: '[[w.gibbons-u-s-government-and]], IV, 891 (no notes of the meeting). To check: [[w.pentagon-papers]], IV, 14 (Gibbons''s page). See [[cal.1967-10-23.vietnam]]. Names: Johnson, Wheeler.'
+- edit:
+    id: cal.1963-11-25.assassination
+    base: 29c491f7
+    set:
+      c: Funeral. Requiem mass at St. Matthew's; burial at Arlington. De Gaulle, Erhard, Haile Selassie, and Mikoyan among the mourners. A national day of mourning by proclamation.
+      n: '[Proclamation 3561—National Day of Mourning for President Kennedy](https://www.presidency.ucsb.edu/documents/proclamation-3561-national-day-mourning-for-president-kennedy) (Nov. 23, 1963). [President''s Daily Diary, Nov. 25, 1963](https://catalog.archives.gov/id/192433), images 2, 3 (LBJ Library; National Archives Catalog). To check: [[w.zelizer-covering-the-body]]. See [[cal.1963-11-22.assassination]]; [[cal.1963-11-25.succession]] (the governors). Names: de Gaulle, Erhard, Haile Selassie I, Mikoyan.'

@@ -354,6 +354,11 @@ reports them (`notes/calendar-audit.md`).
 - No copy reached of Gibbons, pts. II and III, *Current Documents* 1963, or the Pentagon Papers (the Government's and
   Gravel's editions): their pinpoints are unchecked.
 - Futrell, *The Advisory Years*: archive.org's text is badly garbled; read from the page images.
+- cal.1967-10-23.vietnam: "Phúc Yên authorized Sept. 28 and cancelled" (from the Pennsylvania entry, folded in by the
+  duplicates sweep): FRUS 1964–68, V, doc. 312 (Sept. 11), cited for it, does not show it. Gibbons, IV, 793–96, or the
+  Joint Chiefs' history FRUS cites.
+- cal.1968-08-19.testing cites FRUS 1964–68, XIV, doc. 285, which is Rusk on the consulates, not Dobrynin's note
+  (doc. 286).
 
 - Caro, *The Passage of Power* (`w.caro-passage-of-power`; `notes/book-checks/caro-passage-of-power.md`), events the
   book gives without a day or that wait on a record: Johnson's secret meeting with Ben-Gurion at Fortas's house, Mar.
