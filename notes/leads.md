@@ -1765,6 +1765,21 @@ Foreign:
   NSAM of Aug. 14, 1965 on a French withdrawal; Eugene Rostow on the border tax, Jan. 8, 1968 (FRUS VIII, doc. 175).
 - Johnson's interview with a German magazine, Apr. 1964: not identified.
 
+### Gibbons, *The U.S. Government and the Vietnam War*, Part IV, 1967–Jan. 1968 (the back-fill agent, Oct. 29, 2026; notes/book-checks/gibbons-u-s-government-and.md)
+
+- The Foreign Relations Committee's executive-session transcripts Gibbons cites as unpublished (Jan. 10 and 11, Oct. 31,
+  Nov. 1, 2, 7, 16 and 30, 1967): whether the committee's Historical Series has printed them since; each entry that
+  rests on one has it in "To check:".
+- The Record pages Gibbons gives and the run did not reach: Javits and Aiken, Mar. 1 (4938, 4870); the conference report,
+  Mar. 8 (5768–72); the executives' letter, Feb. 7 (4892–94); Case and Cooper on the 45,000, Aug. (n.134); Findley's
+  discussion, Oct. 30 (30465 ff.); McCormack on Hồ, Mar. 22 (no page given).
+- Laird's letter to Johnson of Feb. 9, 1967, printed in House Armed Services' hearings on military posture, 46–48.
+- Fulbright's "Congress and Foreign Policy," July 20, 1967, *Separation of Powers*, Hearings, pt. 1, 41–53.
+- The stag dinners of Sept. 12 and 26, Oct. 4 and 25, Nov. 2 and 16, 1967: the Daily Diary's lists of those present.
+- The Luncheon of Sept. 5, 1967 (Jim Jones's notes): Johnson on the new government's program and "the doves."
+- Phúc Yên's first strike, Oct. 25, 1967; the Hanoi circle closed indefinitely, Sept. 7.
+- Symington's proposal of Oct. 3 itself: a statement or a speech off the floor, not found in the Record.
+
 ## The Executive roster
 
 - NSCID No. 1: the texts of 1958, 1964 and 1972 not in the file (`usib.yaml`). Open on archive.org, the CIA's CREST copies (Oct. 23, 2026): the text effective Feb. 17, 1972 (`CIA-RDP87B01034R000700020013-3`); a 1958 draft (`CIA-RDP85S00362R000600150011-7`, "Concurred in by the IAC 21 January"), with the drafts of 1957; for 1964 only Bundy's approval of the revisions, Mar. 27, 1964, "the President's decision of March 5, 1964 on the reorganization of the USIB" (`cia-readingroom-document-cia-rdp80b01676r000400180031-7`; the text exempt). FRUS 1964–68, XXXIII, doc. 196, n. 3: revised Jan. 18, 1961, and Mar. 4, 1964. Lay shown as the Board's Executive Secretary only for Mar. 1964, in a note.
