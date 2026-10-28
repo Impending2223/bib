@@ -457,6 +457,14 @@ reports them (`notes/calendar-audit.md`).
   meeting; Faisal's ten-point program; Georgia's, New York's, Tennessee's and Michigan's session laws and journals (no
   open copy); the Albany orders and Black's order in *Meredith v. Fair* (unreported).
 
+- 1963-64: Illinois's *Official Vote* 1964, the at-large House table only in rotated page images (totals unread);
+  the Wisconsin Blue Books (the UW site refuses this environment); California's 1963 Journals and *Statutory Record*
+  (scans without text: the Rumford Act's passage and Unruh's lock-in); the *Minnesota Legislative Manual* for
+  Rolvaag's oath; Robert Kennedy's letter to the Senate Commerce Committee on Barnett's charges (the hearings on S.
+  1732, not on govinfo); the 1963 Article V applications, each by page in 109 Cong. Rec.; Lee White's memo of July 6,
+  1964 (named in the Daily Diary); the Miller Center recordings of Dec. 7 and 27, 1963 and Aug. 25, 1964, not heard
+  (its pages fail TLS here); no FRUS record found for the Tanganyika-Zanzibar union (Apr. 26, 1964) or the end of
+  martial law in Seoul (July 28, 1964).
 - 1965-66: the Foreign Relations Committee's *Executive Sessions* (Historical Series), vols. XVII (1965) and XVIII
   (1966), not on govinfo; S. Rep. 89-1359 and the Delano and Ribicoff hearings (govinfo's search hit its demo key's
   rate limit); the Miller Center's tape pages fail TLS through the proxy (two recordings, Dec. 3, 1965 and Mar. 14,
