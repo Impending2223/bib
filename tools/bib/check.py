@@ -243,6 +243,10 @@ def run(series, only=None):
     from . import elections
     for where, msg in elections.problems():
         add(ERROR, where, msg, "elections")
+    # the presidential vote by district and the districts' PVI (elections/readings/districts/; tools/bib/pvi.py)
+    from . import pvi
+    for level, where, msg in pvi.problems(series):
+        add(ERROR if level == "error" else WARN, where, msg, "pvi")
     # special elections and party switches (congress/specials.yaml, congress/switches.yaml)
     from . import specials
     for where, msg in specials.problems(series):
