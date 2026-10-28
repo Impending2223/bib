@@ -94,51 +94,55 @@ columnist's public word.
 | Page | Date | Event | Why |
 |---|---|---|---|
 | 17 | Jan. 28, 1961 | Kennedy with his advisers on Vietnam | in `cal.1961-01-28.vietnam` |
-| 19 | early May 1961 | Nixon: Republicans not to criticize the President's "mistakes" | minor |
+| 19 | early May 1961 | Nixon: Republicans not to criticize the President's "mistakes" | entered as `cal.1961-05.republican-party` (re-ruled Oct. 29, the parties rule) |
 | 19–20 | Apr. 22, 1961 | Eisenhower and Kennedy at Camp David on Laos and Thailand (Eisenhower's notes, 20 n.37) | in `cal.1961-04-22.cuba` (Cuba only); to leads, to widen it |
 | 25 | Nov. 3, 1961 | McNamara and Rusk's joint memorandum | in `cal.1961-11-11.vietnam` (Johns's date Nov. 3) |
 | 26 | Feb. 1962 | Kennedy at a press conference on the Republican National Committee's statements | in `cal.1962-02-14.vietnam` |
-| 27 | Feb. 21, 1962 | Tower on "Washington Viewpoint" | minor |
-| 27 | June 1962 | the Republican Congressional Committee's Declaration of Principles | minor |
-| 28 | Oct. 1962 | Eisenhower at Boston on Kennedy's foreign policy | to leads |
+| 27 | Feb. 21, 1962 | Tower on "Washington Viewpoint" | entered as `cal.1962-02-21.republican-party` (re-ruled) |
+| 27 | June 1962 | the Republican Congressional Committee's Declaration of Principles | entered as `cal.1962-06-07.republican-party-congress` (re-ruled; the Record's text) |
+| 28 | Oct. 1962 | Eisenhower at Boston on Kennedy's foreign policy | entered as `cal.1962-10.elections-1962` (re-ruled) |
 | 28 | mid-Dec. 1962 | Kennedy to Mansfield: no withdrawal before the election, by O'Donnell's account as Reeves gives it | to leads (the date; O'Donnell's own placing) |
-| 31 | Mar. 26, 1963 | Goldwater's column on bipartisanship | minor |
-| 31 | May 31, 1963 | the joint Republican leadership's statement on foreign policy | minor |
+| 31 | Mar. 26, 1963 | Goldwater's column on bipartisanship | entered as `cal.1963-03-26.goldwater` (re-ruled) |
+| 31 | May 31, 1963 | the joint Republican leadership's statement on foreign policy | entered as `cal.1963-05-31.republican-party-congress` (re-ruled) |
 | 31 | Apr. 24, 1963 | Kennedy to a friend: "We don't have a prayer of staying in Vietnam" (Reeves, 484) | to leads (the friend, the account) |
-| 37 | Oct. 2, 1963 | Wilson's "Kennedy Klan" speech | minor |
-| 39 | Nov. 22, 1963 | Nixon in *Time* on the coup | minor |
-| 46 | Dec. 8, 1963 | reports of Eisenhower for Lodge | minor |
-| 50 | Mar.–Apr. 1964 | Nixon's Asian trip | to leads |
-| 53 | Apr. 1964 | Cooper for negotiation | minor |
-| 65 | Aug. 1964 | Nixon in the *Reader's Digest* | minor |
-| 67 | June 8, 1964 | Siler announces for President in the House | minor |
-| 71 | Sept. 1964 | Goldwater at Pikesville, Md.: "Lyndon Johnson's war" | to leads |
-| 88 | Mar. 5 and 16, 1965 | Johnson's letters to Eisenhower | minor |
-| 88 | Mar. 1965 | Scott's and Javits's resolutions | to leads |
-| 95 | June 30, 1965 | Mansfield's Senate speech; Laird's answer | to leads |
-| 100 | Dec. 1965 | Nixon in the *Reader's Digest* | minor |
-| 101 | Jan. 6, 1966 | the *St. Louis Globe-Democrat*'s editorial | minor |
+| 37 | Oct. 2, 1963 | Wilson's "Kennedy Klan" speech | entered as `cal.1963-10-02.republican-party-congress` (re-ruled) |
+| 39 | Nov. 22, 1963 | Nixon in *Time* on the coup | entered as `cal.1963-11-22.elections-1964` (re-ruled) |
+| 46 | Dec. 8, 1963 | reports of Eisenhower for Lodge | entered as `cal.1963-12-08.elections-1964` (re-ruled; with Perlstein, 253) |
+| 50 | Mar.–Apr. 1964 | Nixon's Asian trip | to leads (re-ruled: the trip within the brief; its dates; Perlstein, 331, has Nixon back from Asia Apr. 15, 1964) |
+| 53 | Apr. 1964 | Cooper for negotiation | to leads (re-ruled: a member's position; the occasion and the day) |
+| 65 | Aug. 1964 | Nixon in the *Reader's Digest* | entered as `cal.1964-08.elections-1964` (re-ruled) |
+| 67 | June 8, 1964 | Siler announces for President in the House | entered as `cal.1964-06-08.vietnam-congress` (re-ruled) |
+| 71 | Sept. 1964 | Goldwater at Pikesville, Md.: "Lyndon Johnson's war" | entered as `cal.1964-09.elections-1964` (re-ruled; the day still a Check) |
+| 88 | Mar. 5 and 16, 1965 | Johnson's letters to Eisenhower | entered as `cal.1965-03-05.vietnam` (re-ruled); the letter of Mar. 16 minor (repetition of a position already entered) |
+| 88 | Mar. 1965 | Scott's and Javits's resolutions | entered as `cal.1965-03.vietnam-congress`, `cal.1965-03.republican-party-congress` (re-ruled; the days still Checks) |
+| 95 | June 30, 1965 | Mansfield's Senate speech; Laird's answer | to leads (re-ruled: within the brief; Mansfield's speech, the Record of June 30, 1965, and the day of Laird's answer) |
+| 100 | Dec. 1965 | Nixon in the *Reader's Digest* | entered as `cal.1965-12.republican-party` (re-ruled) |
+| 101 | Jan. 6, 1966 | the *St. Louis Globe-Democrat*'s editorial | out of the brief (re-ruled: a newspaper's editorial, no party's or member's act) |
 | 102 | Jan. 11, 1966 | Mansfield and Aiken report to Foreign Relations | in `cal.1966-01-11.vietnam-congress` |
-| 103 | Feb. 4, 1966 | Case to the New Jersey Chamber of Commerce against the Mansfield–Aiken report | minor |
-| 111 | Apr. 1966 | Cooper: the obligation to Saigon fulfilled | minor |
-| 113 | July 1966 | fourteen Representatives sent to Vietnam by the White House | to leads |
-| 113 | Aug. 1967 | Tim Lee Carter for withdrawal | minor |
-| 115 | Oct. 3, 1966 | Nixon's *U.S. News* interview | minor |
-| 127 | Nov. 4, 1966 | Kempton on Nixon | minor |
+| 103 | Feb. 4, 1966 | Case to the New Jersey Chamber of Commerce against the Mansfield–Aiken report | entered as `cal.1966-02-04.republican-party-congress` (re-ruled) |
+| 111 | Apr. 1966 | Cooper: the obligation to Saigon fulfilled | entered as `cal.1966-04.vietnam-congress` (re-ruled) |
+| 113 | July 1966 | fourteen Representatives sent to Vietnam by the White House | entered as `cal.1966-07.vietnam-congress` (re-ruled) |
+| 113 | Aug. 1967 | Tim Lee Carter for withdrawal | to leads (re-ruled: a member's position; the occasion and the day) |
+| 115 | Oct. 3, 1966 | Nixon's *U.S. News* interview | entered as `cal.1966-10-03.republican-party` (re-ruled) |
+| 127 | Nov. 4, 1966 | Kempton on Nixon | out of the brief (re-ruled: a columnist's piece, no act) |
 | 131 | Dec. 1966 | Evans at the Republican governors' meeting | in `cal.1966-12-09.elections-1968-us` |
-| 138 | Jan. 8, 1967 | five freshman Republican Senators on *Meet the Press* | minor (the day's Sunday line) |
-| 139 | Feb. 12, 1967 | Javits's change of position | to leads |
+| 138 | Jan. 8, 1967 | five freshman Republican Senators on *Meet the Press* | entered as `cal.1967-01-08.republican-party-congress` (re-ruled; the Sunday line keeps the program) |
+| 139 | Feb. 12, 1967 | Javits's change of position | entered as `cal.1967-02-12.republican-party-congress` (re-ruled) |
 | 148 | Mar. 4, 1967 | Brooke leaves for Asia | in `cal.1967-03-23.vietnam-congress` (his return) |
-| 151 | May 4, 1967 | Tower's press conference on the paper | minor |
-| 154 | May 19, 1967 | Findley's resolution: the war to the International Court | to leads |
-| 155, 171, 177 | June, Sept., Oct. 2, 1967 | the Ripon Society's papers | minor |
-| 161–62 | Aug. 16 and 23, 1967 | Tower on *Today*; White's column | minor |
-| 185–87 | Jan. 1968 | Bush back from Asia; Fannin at Phoenix | minor |
-| 191 | Feb. 15, 1968 | Nixon at Boston: "no reward for armed aggression" | to leads |
+| 151 | May 4, 1967 | Tower's press conference on the paper | entered as `cal.1967-05-04.republican-party-congress` (re-ruled) |
+| 154 | May 19, 1967 | Findley's resolution: the war to the International Court | entered as `cal.1967-05-19.republican-party-congress` (re-ruled; the day a Check, the note gives May 18) |
+| 155, 171, 177 | June, Sept., Oct. 2, 1967 | the Ripon Society's papers | entered as `cal.1967-06.republican-party` (June; re-ruled); the papers of Sept. and Oct. 2 to leads (their titles; the Ripon Society's site holds its newsletters) |
+| 161–62 | Aug. 16 and 23, 1967 | Tower on *Today*; White's column | entered as `cal.1967-08-16.republican-party-congress` (Tower; re-ruled); White's column out of the brief (a columnist's) |
+| 185–87 | Jan. 1968 | Bush back from Asia; Fannin at Phoenix | entered as `cal.1968-01-02.republican-party-congress` (Fannin), `cal.1968-01-11.republican-party-congress` (Bush) (re-ruled) |
+| 191 | Feb. 15, 1968 | Nixon at Boston: "no reward for armed aggression" | entered as `cal.1968-02-15.elections-1968` (re-ruled) |
 | 197 | Oct. 1967 | the Governors' Conference's resolution; Rockefeller absent | in the conference's entry, `cal.1967-10-16.states-and-cities-us` |
 | 220 | Aug. 1968 | Johnson by telephone to Nixon after the convention | in `cal.1968-08-10.elections-1968`, `cal.1968-08-18.vietnam` |
-| 238 | Nov. 1968 | an informal moratorium on criticism of Nixon | minor |
+| 238 | Nov. 1968 | an informal moratorium on criticism of Nixon | to leads (re-ruled: within the brief; the members and the day; Ford's speech of Jan. 15, 1969, its record) |
 | 241, 247 | Dec. 1968; early Jan. 1969 | Nixon's transition meeting; the task force's options | to leads (undated) |
+
+## Re-ruled under the parties rule, Oct. 29, 2026
+
+The owner's rule of Oct. 29, "The parties and the members," puts the opposition's and the members' statements, papers and organization within the brief: the rows above once ruled "minor" or "to leads" for that matter are ruled again, 27 of them entered (the patch `inbox/2026-10-29-republicans-perlstein-johns.yaml`), the rest given their reason. Read through once more for the like, three more entered: Ford and Javits on CBS, Apr. 1, 1962 (`cal.1962-04-01.republican-party`, 27–28); Rockefeller at St. Louis, Nov. 16, 1963 (`cal.1963-11-16.elections-1964`, 39); Reagan's press conference, May 2, 1967 (`cal.1967-05-02.republican-party`, 151). Records: 18 more in `sources/cited-records/johns-vietnams-second-front.yaml` (the Tower, Dirksen, Rhodes, Case, Cooper, Bush, Fannin and Seaton papers' items; the Republican Congressional Committee's newsletter of June 8, 1962), all unread, in the entries' "To check".
 
 ## Leads
 
