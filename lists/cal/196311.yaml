@@ -207,12 +207,14 @@ entries:
     thread: elections-1964
     also: [democratic-party]
     c: 'The first strategy meeting for 1964: Robert Kennedy, O''Brien, O''Donnell, Sorensen, John Bailey and Richard Maguire of the National Committee, Stephen Smith, Scammon. The South and its delegates, the suburbs, the campaign''s organization. Johnson absent; his renomination assumed.'
-    n: '[[w.schlesinger-thousand-days-1965]], 1018; [[w.caro-passage-of-power]], 295, 539 (the meeting, Johnson not invited; Scammon on the poor and the suburbs). Made public: [[w.schlesinger-thousand-days-1965]] (1965). Names: Robert Kennedy, O''Brien, O''Donnell, Sorensen, Stephen Smith, Scammon, Johnson. Check: Caro gives Nov. 13 (295, 539).'
+    n: '[[w.schlesinger-thousand-days-1965]], 1018; [[w.caro-passage-of-power]], 295, 539 (the meeting, Johnson not invited; Scammon on the poor and the suburbs). To check: Walter W. Heller OH I, LBJ Library (cited by [[w.caro-passage-of-power]], 539). Made public: [[w.schlesinger-thousand-days-1965]] (1965). Names: Robert Kennedy, O''Brien, O''Donnell, Sorensen, Stephen Smith, Scammon, Johnson. Check: Caro gives Nov. 13 (295, 539).'
     src:
       c: 6b8692e2
       rows:
         - 'w.schlesinger-thousand-days-1965 1018: all'
-        - 'w.caro-passage-of-power 295, 539: ?'
+        - 'w.caro-passage-of-power 295: A, D'
+        - 'w.caro-passage-of-power 539: B-C'
+        - 'via w.caro-passage-of-power 539 n.i-then-heard: B'
     tags: [name:kennedy-robert-f, name:obrien-lawrence-f, name:odonnell-kenneth-p, name:sorensen-theodore-c, name:smith-stephen-e, name:scammon-richard-m, name:johnson-lyndon-b]
   - id: cal.1963-11-12.civil-rights-the-executive
     when: Nov. 12
@@ -262,6 +264,17 @@ entries:
     thread: opinion
     c: 'Gallup, Oct. 11–16: would vote for a qualified woman nominated for President by their party, 55 percent; would not, 41. Men 58 yes, women 51.'
     n: '[[w.gallup-poll]], III, 1852.'
+  - id: cal.1963-11-15.baker
+    when: Nov. 15
+    date: '1963-11-15'
+    thread: baker
+    c: 'Young and Burdick to reporters: in January 1961 Baker kept them off Judiciary, telling the Steering Committee, falsely, that neither wanted it; Blakley and Edward Long named instead.'
+    n: '[[w.caro-passage-of-power]], 296. See [[cal.1963-10-07.baker]]. Names: Young, Burdick, Baker, Blakley, Edward Long.'
+    src:
+      c: 89f2ed4d
+      rows:
+        - 'w.caro-passage-of-power 296: all'
+    tags: [name:young-stephen-m, name:burdick-quentin-n, name:baker-robert-g, name:blakley-william-a, name:long-edward-v]
   - id: cal.1963-11-18.middle-east
     when: Nov. 18
     date: '1963-11-18'
@@ -274,12 +287,13 @@ entries:
     date: '1963-11-19'
     thread: poverty
     c: 'Kennedy to Heller on the poverty program: the middle class may feel threatened, something to be done for the suburbs; the Council to go full speed ahead for 1964.'
-    n: '[[w.schlesinger-thousand-days-1965]], 1012; [[w.caro-passage-of-power]], 538–39 (Heller''s notes: still for it, and for the man in the suburbs too; in another of Heller''s versions, "Come back to me in a couple of weeks"). Made public: [[w.schlesinger-thousand-days-1965]] (1965). See [[cal.1963-05-01.poverty]]. Names: Kennedy, Heller.'
+    n: '[[w.schlesinger-thousand-days-1965]], 1012; [[w.caro-passage-of-power]], 538–39 (Heller''s notes: still for it, and for the man in the suburbs too; in another of Heller''s versions, "Come back to me in a couple of weeks"). To check: Walter W. Heller OH I, LBJ Library (cited by [[w.caro-passage-of-power]], 539). Made public: [[w.schlesinger-thousand-days-1965]] (1965). See [[cal.1963-05-01.poverty]]. Names: Kennedy, Heller.'
     src:
       c: '02145412'
       rows:
         - 'w.schlesinger-thousand-days-1965 1012: all'
-        - 'w.caro-passage-of-power 538–39: ?'
+        - 'w.caro-passage-of-power 539: A-B'
+        - 'via w.caro-passage-of-power 539 n.i-then-heard: A-B'
     tags: [name:kennedy-john-f, name:heller-walter-w]
   - id: cal.1963-11-20.vietnam
     when: Nov. 20
@@ -325,19 +339,51 @@ entries:
     c: Senate passes H.R. 8969, [50–26](https://voteview.com/rollcall/RS0880200). Williams's amendment, $4.4 billion more in place of $6 billion, rejected, [35–44](https://voteview.com/rollcall/RS0880199).
     n: '[109 Cong. Rec., Senate, Nov. 21, 1963](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt17/pdf/GPO-CRECB-1963-pt17-4-1.pdf). See [[cal.1963-11-07.economy-debt-limit]]. Names: Williams.'
     tags: [name:williams-john-j]
+  - id: cal.1963-11-21.trade
+    when: Nov. 21
+    date: '1963-11-21'
+    thread: trade
+    c: 'The legislative leaders'' breakfast, the morning Kennedy leaves for Texas: Kennedy wants Mundt''s bill against credit guarantees for sales to Communist countries defeated. The Senate''s vote set for Nov. 26, Mundt having withdrawn his amendment to the aid bill for it; the administration had lost on it Nov. 14, forty votes.'
+    n: '[[w.caro-passage-of-power]], 398. See [[cal.1963-10-09.trade]]. Names: Kennedy, Mundt.'
+    src:
+      c: 4b3214b5
+      rows:
+        - 'w.caro-passage-of-power 398: all'
+    tags: [name:kennedy-john-f, name:mundt-karl-e]
+  - id: cal.1963-11-21.congress
+    when: Nov. 21
+    date: '1963-11-21'
+    thread: congress
+    also: [civil-rights-bill]
+    c: 'Clark moves to take the State, Justice and Commerce appropriation, passed by the House June 18, from Appropriations, where McClellan''s subcommittee has held no hearing. Russell objects: the motion debatable.'
+    n: '[[w.caro-passage-of-power]], 460–61. To check: 109 Cong. Rec. 22621–22 (Nov. 21, 1963) (cited by [[w.caro-passage-of-power]], 460). Names: Clark, McClellan, Russell.'
+    src:
+      c: 664110fd
+      rows:
+        - 'w.caro-passage-of-power 460–61: all'
+        - 'via w.caro-passage-of-power 460 n.one-of-the-eight: all'
+    tags: [name:clark-joseph-s, name:mcclellan-john-l, name:russell-richard-b]
   - id: cal.1963-11-22.assassination
     when: Nov. 22
     date: '1963-11-22'
     thread: assassination
     c: Dallas. Kennedy shot in Dealey Plaza at 12:30 p.m., riding with his wife and Governor Connally, who is wounded. Dead at Parkland Hospital, 1 p.m. Oswald, an employee of the Texas School Book Depository, kills Officer Tippit and is taken in the Texas Theatre.
-    n: 'Remarks Prepared for Delivery at the Trade Mart in Dallas, [1963 Pub. Papers 890](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=948) (Nov. 22, 1963). [[w.report-of-the-presidents-1964]]; [S. Rep. No. 94-755, Book V](https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94755-v.pdf) (1976); H.R. Rep. No. 95-1828. [[w.schlesinger-robert-kennedy-and-his]], 607–10, on Robert Kennedy''s day; [[w.caro-passage-of-power]], 307–36, on Johnson''s. National Archives: JFK Assassination Records Collection (K–J Adm. II.K). To check: [[w.white-for-president-kennedy]]; [[w.manchester-death-of-a-president]]; [[w.bugliosi-reclaiming-history]]; [[w.shenon-cruel-and-shocking-act]]; [[w.odonnell-johnny-we-hardly-knew]]; [[w.minutaglio-dallas-1963]]; [[w.miller-nut-country]]; [[w.board-final-report]] (K–J Adm. II.H.3). Names: Jacqueline Kennedy, Connally, Lee Harvey Oswald, Tippit.'
+    n: 'Remarks Prepared for Delivery at the Trade Mart in Dallas, [1963 Pub. Papers 890](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=948) (Nov. 22, 1963). [[w.report-of-the-presidents-1964]]; [S. Rep. No. 94-755, Book V](https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94755-v.pdf) (1976); H.R. Rep. No. 95-1828. [[w.schlesinger-robert-kennedy-and-his]], 607–10, on Robert Kennedy''s day; [[w.caro-passage-of-power]], 307–36, on Johnson''s (the shooting and the death, 311–19; not the times, nor Oswald). National Archives: JFK Assassination Records Collection (K–J Adm. II.K). To check: [[w.white-for-president-kennedy]]; [[w.manchester-death-of-a-president]]; [[w.bugliosi-reclaiming-history]]; [[w.shenon-cruel-and-shocking-act]]; [[w.odonnell-johnny-we-hardly-knew]]; [[w.minutaglio-dallas-1963]]; [[w.miller-nut-country]]; [[w.board-final-report]] (K–J Adm. II.H.3); Johnson''s statement to the Warren Commission, July 10, 1964 (cited by [[w.caro-passage-of-power]], 313). Names: Jacqueline Kennedy, Connally, Lee Harvey Oswald, Tippit.'
+    src:
+      c: 279379ea
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=948: A'
+        - 'https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94755-v.pdf: all'
+        - 'w.schlesinger-robert-kennedy-and-his 607–10: ?'
+        - 'w.caro-passage-of-power 311–19: A-C'
+        - 'via w.caro-passage-of-power 313 n.startled: B'
     tags: [name:kennedy-john-f, name:kennedy-jacqueline, name:connally-john, name:oswald-lee-harvey, name:tippit-j-d, city:dallas, state:tx]
   - id: cal.1963-11-22.succession
     when: Nov. 22
     date: '1963-11-22'
     thread: succession
     c: 'Johnson sworn in aboard Air Force One at Love Field, 2:38 p.m., by Judge Sarah Hughes, Mrs. Kennedy beside him. At Andrews, Md.: "I will do my best. That is all I can do."'
-    n: 'Remarks Upon Arrival at Andrews Air Force Base, [1963–64 Pub. Papers 1](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=85) (Nov. 22, 1963). [President''s Daily Diary, Nov. 22, 1963](https://catalog.archives.gov/id/192430), images 7, 9 (LBJ Library; National Archives Catalog). [[w.johnson-vantage-point]], 14–17 (the oath, Hughes, Mrs. Kennedy beside him; the words at Andrews); [[w.dallek-flawed-giant]], 49–50 (the oath aboard Air Force One, Mrs. Kennedy beside him). [[w.caro-passage-of-power]], 329–36, 356, 365. To check: [[w.shesol-mutual-contempt]]; [[w.manchester-death-of-a-president]]; [[w.holland-kennedy-assassination-tapes]]; [[w.gillon-kennedy-assassination-24-hours]]; [[w.johnson-white-house-diary]]; [[w.valenti-very-human-president]]; [[w.taking-charge-2001]]; [[w.presidential-recordings-2005]]. Names: Johnson, Jacqueline Kennedy, Hughes. Check: the Daily Diary gives the oath at 2:40 p.m. (image 9); so does Johnson, "approximately 2:40 p.m. Central Standard Time" (15); the Public Papers'' note to item 1, 2:38.'
+    n: 'Remarks Upon Arrival at Andrews Air Force Base, [1963–64 Pub. Papers 1](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=85) (Nov. 22, 1963). [President''s Daily Diary, Nov. 22, 1963](https://catalog.archives.gov/id/192430), images 7, 9 (LBJ Library; National Archives Catalog). [[w.johnson-vantage-point]], 14–17 (the oath, Hughes, Mrs. Kennedy beside him; the words at Andrews); [[w.dallek-flawed-giant]], 49–50 (the oath aboard Air Force One, Mrs. Kennedy beside him). [[w.caro-passage-of-power]], 329–36, 356, 365. To check: [[w.shesol-mutual-contempt]]; [[w.manchester-death-of-a-president]]; [[w.holland-kennedy-assassination-tapes]]; [[w.gillon-kennedy-assassination-24-hours]]; [[w.johnson-white-house-diary]]; [[w.valenti-very-human-president]]; [[w.taking-charge-2001]]; [[w.presidential-recordings-2005]]; Hughes''s account as told to Michael Drury, Special Files, Assassination, LBJ Library (cited by [[w.caro-passage-of-power]], 335); Kenneth P. O''Donnell OH, LBJ Library (cited by [[w.dallek-flawed-giant]], 50). Names: Johnson, Jacqueline Kennedy, Hughes. Check: the Daily Diary gives the oath at 2:40 p.m. (image 9); so does Johnson, "approximately 2:40 p.m. Central Standard Time" (15); the Public Papers'' note to item 1, 2:38.'
     src:
       c: 0e7aeb55
       rows:
@@ -345,15 +391,27 @@ entries:
         - 'https://catalog.archives.gov/id/192430: all'
         - 'w.johnson-vantage-point 14–15: A-B'
         - 'w.johnson-vantage-point 17: C'
-        - 'w.dallek-flawed-giant 49–50: ?'
-        - 'w.caro-passage-of-power 329–36, 356, 365: all'
+        - 'w.caro-passage-of-power 329–36: A-B'
+        - 'w.caro-passage-of-power 356: A'
+        - 'w.caro-passage-of-power 365: C'
+        - 'via w.caro-passage-of-power 335 n.in-they-came: A-B'
+        - 'w.dallek-flawed-giant 49–50: A-B'
+        - 'via w.dallek-flawed-giant 50 n.105: B'
     tags: [executive:1963-11-22, name:johnson-lyndon-b, name:kennedy-jacqueline, name:hughes-sarah-t]
   - id: cal.1963-11-22.baker
     when: Nov. 22
     date: '1963-11-22'
     thread: baker
-    c: 'Don Reynolds, a Maryland insurance agent, before the Rules Committee''s staff in closed session: a stereo set for Johnson, and advertising bought on Johnson''s Austin television station, after he sold Johnson life insurance. Interrupted by the news from Dallas. Check.'
-    n: '[[w.caro-passage-of-power]], 284–85, 299, 308–12, 318. See [[cal.1963-10-07.baker]]. Names: Reynolds, Johnson.'
+    c: 'Don Reynolds, a Maryland insurance agent, before the Rules Committee''s staff in closed session: a stereo set for Johnson, and advertising bought on Johnson''s Austin television station, after he sold Johnson life insurance. Interrupted by the news from Dallas.'
+    n: '[[w.caro-passage-of-power]], 284–85, 299, 308–12, 318. To check: Reynolds''s testimony, Senate Rules Committee hearings, Jan. 9, 17, 1964, pt. 1, 37–42, 104–08; Reynolds''s testimony, "Construction of the District of Columbia Stadium, Part II," 192 (cited by [[w.caro-passage-of-power]], 285, 310). See [[cal.1963-10-07.baker]]. Names: Reynolds, Johnson.'
+    src:
+      c: aa84d0e7
+      rows:
+        - 'w.caro-passage-of-power 284–85: A'
+        - 'w.caro-passage-of-power 310–12: A'
+        - 'w.caro-passage-of-power 318: B'
+        - 'via w.caro-passage-of-power 285 n.the-stereo: A'
+        - 'via w.caro-passage-of-power 310 n.senate-hearings: A'
     tags: [name:reynolds-don-b, name:johnson-lyndon-b]
   - id: cal.1963-11-22.goldwater
     when: Nov. 22–25
@@ -392,22 +450,33 @@ entries:
     date: '1963-11-23'
     thread: poverty
     c: 'Heller to Johnson, 7:41 p.m.: early in November he had asked the departments for ideas against poverty, and three days before his death Kennedy approved his planning a program. Did Johnson want one? "Go ahead. Give it the highest priority. Push ahead full tilt," by Johnson''s account.'
-    n: '[President''s Daily Diary, Nov. 23, 1963](https://catalog.archives.gov/id/192431), image 3 (LBJ Library; National Archives Catalog) (the time). [[w.johnson-vantage-point]], 69–71; [[w.dallek-flawed-giant]], 60 (Johnson''s words, in Dallek''s form: "That''s my kind of program"); [[w.caro-passage-of-power]], 539–40. Johnson gives 7:40 p.m. (69). Names: Heller, Johnson, Kennedy.'
+    n: '[President''s Daily Diary, Nov. 23, 1963](https://catalog.archives.gov/id/192431), image 3 (LBJ Library; National Archives Catalog) (the time). [[w.johnson-vantage-point]], 69–71; [[w.dallek-flawed-giant]], 60 (Johnson''s words, in Dallek''s form: "That''s my kind of program"); [[w.caro-passage-of-power]], 539–40 (Heller''s account: "we should push ahead full tilt"). Johnson gives 7:40 p.m. (69). To check: Walter W. Heller OH I, LBJ Library (cited by [[w.caro-passage-of-power]], 540); Heller''s notes on the meeting, Nov. 23, 1963, Heller Papers, JFK Library (cited by [[w.dallek-flawed-giant]], 60). Names: Heller, Johnson, Kennedy.'
     src:
       c: 703aa3d1
       rows:
         - 'https://catalog.archives.gov/id/192431: all'
         - 'w.johnson-vantage-point 69: A-B'
         - 'w.johnson-vantage-point 71: C'
-        - 'w.dallek-flawed-giant 60: ?'
-        - 'w.caro-passage-of-power 539–40: all'
+        - 'w.caro-passage-of-power 539: A-B'
+        - 'w.caro-passage-of-power 540: C'
+        - 'via w.caro-passage-of-power 540 n.thats-my-kind-of-program: C'
+        - 'w.dallek-flawed-giant 60: C'
+        - 'via w.dallek-flawed-giant 60 n.14: all'
     tags: [name:heller-walter-w, name:johnson-lyndon-b, name:kennedy-john-f]
   - id: cal.1963-11-23.transition-and-staff
     when: Nov. 23
     date: '1963-11-23'
     thread: transition-and-staff
     c: 'The Cabinet Room, 2:30 p.m.: Johnson''s first Cabinet meeting. "I want you all to stay on. I need you."'
-    n: '[President''s Daily Diary, Nov. 23, 1963](https://catalog.archives.gov/id/192431), image 2 (LBJ Library; National Archives Catalog) (the meeting). [[w.dallek-flawed-giant]], 56 (the words); [[w.caro-passage-of-power]], 375–76. Dallek''s text puts the meeting on Nov. 25 (56); his note (56 n.7) and the Daily Diary, Nov. 23. See [[cal.1963-11-22.succession]]. Names: Johnson.'
+    n: '[President''s Daily Diary, Nov. 23, 1963](https://catalog.archives.gov/id/192431), image 2 (LBJ Library; National Archives Catalog) (the meeting). [[w.dallek-flawed-giant]], 56 (the words); [[w.caro-passage-of-power]], 375–76. Dallek''s text puts the meeting on Nov. 25 (56); his note (56 n.7) and the Daily Diary, Nov. 23. To check: Bundy to Johnson, Nov. 23, 1963, Special Files, Assassination, LBJ Library (cited by [[w.caro-passage-of-power]], 375); the Cabinet meeting''s record, Nov. 23, 1963, Cabinet Papers, LBJ Library (cited by [[w.dallek-flawed-giant]], 56). See [[cal.1963-11-22.succession]]. Names: Johnson.'
+    src:
+      c: d42efe2a
+      rows:
+        - 'https://catalog.archives.gov/id/192431: A'
+        - 'w.caro-passage-of-power 375–76: all'
+        - 'via w.caro-passage-of-power 375 n.very-short: A'
+        - 'w.dallek-flawed-giant 56: B'
+        - 'via w.dallek-flawed-giant 56 n.7: all'
     tags: [name:johnson-lyndon-b]
   - id: cal.1963-11-23.robert-kennedy
     when: Nov. 23
@@ -415,19 +484,28 @@ entries:
     thread: robert-kennedy
     also: [succession]
     c: About 8:55 a.m. Johnson walks into the Oval Office and asks Evelyn Lincoln to clear it by 9:30; Robert Kennedy asks him to wait. Johnson works from EOB 274 three days, to the funeral; Bundy's note proposing it missed.
-    n: '[President''s Daily Diary, Nov. 23, 1963](https://catalog.archives.gov/id/192431), image 1 (LBJ Library; National Archives Catalog) (to the President''s office, Mrs. Lincoln, the Attorney General; then to his office, 274 EOB). [[w.caro-passage-of-power]], 374–75, 377. Names: Johnson, Evelyn Lincoln, Robert Kennedy, Bundy.'
+    n: '[President''s Daily Diary, Nov. 23, 1963](https://catalog.archives.gov/id/192431), image 1 (LBJ Library; National Archives Catalog) (to the President''s office, Mrs. Lincoln, the Attorney General; then to his office, 274 EOB). [[w.caro-passage-of-power]], 374–75, 377. To check: "The President''s Appointments, Sat., Nov. 23," Diary Backup, LBJ Library; the unsigned note, "Current," Special Files, Assassination, LBJ Library; Stegall to Johnson, 8:05 a.m., Nov. 23, 1963, Special Files, Assassination, LBJ Library (cited by [[w.caro-passage-of-power]], 374). Names: Johnson, Evelyn Lincoln, Robert Kennedy, Bundy.'
     src:
       c: 973e6faf
       rows:
         - 'https://catalog.archives.gov/id/192431: B-D'
         - 'w.caro-passage-of-power 374–75, 377: all'
+        - 'via w.caro-passage-of-power 374 n.i-have-an-appointment: B'
+        - 'via w.caro-passage-of-power 374 n.johnson-didnt-get: C-E'
+        - 'via w.caro-passage-of-power 374 n.bundy-had-told-johnson: E'
     tags: [name:johnson-lyndon-b, name:lincoln-evelyn, name:kennedy-robert-f, name:bundy-mcgeorge]
   - id: cal.1963-11-23.succession-3
     when: Nov. 23
     date: '1963-11-23'
     thread: succession
     c: 'Johnson would address Congress Tuesday, the day after the funeral; McCormack counsels delicacy. Robert Kennedy, through Bundy and then Shriver, wants a day''s wait. Johnson: "It will be on Wednesday."'
-    n: '[Johnson and McCormack, 3:54 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-john-mccormack-november-23-1963), Tape K6311.01A, PNO 17 (Miller Center). [[w.caro-passage-of-power]], 376–77. See [[cal.1963-11-22.succession]]. Names: Johnson, McCormack, Robert Kennedy, Bundy, Shriver.'
+    n: '[Johnson and McCormack, 3:54 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-john-mccormack-november-23-1963), Tape K6311.01A, PNO 17 (Miller Center). [[w.caro-passage-of-power]], 376–77. To check: [Johnson and Smathers, 2:10 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-george-smathers-november-23-1963), Tape K6311.01A (Miller Center; not heard here: millercenter.org fails TLS verification from this environment) (cited by [[w.caro-passage-of-power]], 376). See [[cal.1963-11-22.succession]]. Names: Johnson, McCormack, Robert Kennedy, Bundy, Shriver.'
+    src:
+      c: 652f15ff
+      rows:
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-john-mccormack-november-23-1963: A-B'
+        - 'w.caro-passage-of-power 376–77: all'
+        - 'via w.caro-passage-of-power 376 n.the-kennedy-aura: A'
     tags: [name:johnson-lyndon-b, name:mccormack-john-w, name:kennedy-robert-f, name:bundy-mcgeorge, name:shriver-r-sargent]
   - id: cal.1963-11-24.assassination
     when: Nov. 24
@@ -454,6 +532,7 @@ entries:
         - 'w.dallek-flawed-giant 99–100: all'
         - 'w.caro-passage-of-power 401–03: all'
         - 'via w.kaplan-mcnamara-ascendancy-1961-1965 499 n.3: A-D'
+        - 'via w.dallek-flawed-giant 99 n.98: A-C, E'
     tags: [name:johnson-lyndon-b, name:lodge-henry-cabot, name:rusk-dean, name:mcnamara-robert-s, name:ball-george-w, name:bundy-mcgeorge, name:mccone-john-a]
   - id: cal.1963-11-25.assassination
     when: Nov. 25
@@ -499,14 +578,37 @@ entries:
     date: '1963-11-25'
     thread: economy
     c: 'Evening. Johnson with his economic advisers, Heller and Dillon among them: the tax cut accepted, the 1965 budget held under $100 billion. "We won''t have the votes to get it to the floor unless we tell them the budget will be about $100 billion." Byrd of the Finance Committee to be won so.'
-    n: '[President''s Daily Diary, Nov. 25, 1963](https://catalog.archives.gov/id/192433), image 3 (LBJ Library; National Archives Catalog) (the day''s schedule: Dillon, Kermit Gordon and Heller, 8:45 p.m.). [[w.dallek-flawed-giant]], 60, 72 (from the notes of the meeting, Heller Papers, JFK Library, and Ackley''s, LBJ Library); [[w.caro-passage-of-power]], 418–24 (Ackley''s notes; the draft budget $101.5 billion). See [[cal.1963-01-24.economy]]. Names: Johnson, Heller, Dillon, Harry F. Byrd.'
+    n: '[President''s Daily Diary, Nov. 25, 1963](https://catalog.archives.gov/id/192433), image 3 (LBJ Library; National Archives Catalog) (the day''s schedule: Dillon, Kermit Gordon and Heller, 8:45 p.m.). [[w.dallek-flawed-giant]], 60, 72 (from the notes of the meeting, Heller Papers, JFK Library, and Ackley''s, LBJ Library); [[w.caro-passage-of-power]], 418–24 (Ackley''s notes; the draft budget $101.5 billion). To check: Ackley''s notes of the meeting, Nov. 25, 1963, Diary Backup, LBJ Library; Dillon to Johnson, Nov. 25, 1963, WHCF Subject Files, LBJ Library; Walter W. Heller OH II, LBJ Library (cited by [[w.caro-passage-of-power]], 422); "Troika Meeting with President Johnson," Nov. 25, 1963, Heller Papers, JFK Library; Gardner Ackley OH, LBJ Library (cited by [[w.dallek-flawed-giant]], 72). See [[cal.1963-01-24.economy]]. Names: Johnson, Heller, Dillon, Harry F. Byrd.'
+    src:
+      c: df1e80d7
+      rows:
+        - 'https://catalog.archives.gov/id/192433: A-B'
+        - 'w.caro-passage-of-power 421–23: all'
+        - 'via w.caro-passage-of-power 422 n.the-president-indicating: B-D'
+        - 'via w.caro-passage-of-power 422 n.dillon-and-others-had-believed: B'
+        - 'via w.caro-passage-of-power 422 n.tell-them-to-lay-off: B'
+        - 'w.dallek-flawed-giant 60: A'
+        - 'w.dallek-flawed-giant 72: B-D'
+        - 'via w.dallek-flawed-giant 60 n.13b: A'
+        - 'via w.dallek-flawed-giant 72 n.40a: B-D'
+        - 'via w.dallek-flawed-giant 72 n.40b: B-D'
     tags: [name:johnson-lyndon-b, name:heller-walter-w, name:dillon-c-douglas, name:byrd-harry-f]
   - id: cal.1963-11-25.assassination-2
     when: Nov. 25
     date: '1963-11-25'
     thread: assassination
     c: 'Johnson against a national commission: the FBI''s report and a Texas court of inquiry, Fortas advising. By telephone to Hoover, and to Alsop: "We don''t send in a bunch of carpetbaggers." Carr announces the court after the funeral; the *Post*''s editorial of Nov. 26 drops its call for a presidential commission.'
-    n: '[Johnson and Hoover, 10:30 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-j-edgar-hoover-november-25-1963), Tape K6311.02, PNO 12 (Miller Center); [Johnson and Alsop, 10:40 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-joseph-alsop-november-25-1963), Tape K6311.02, PNOs 17, 18 (Miller Center). [[w.caro-passage-of-power]], 440–42. Caro puts Fortas''s advice on the evening of Nov. 25 and the calls after it (441); the Miller Center''s catalogue, the calls at 10:30 and 10:40 a.m. See [[cal.1963-11-22.assassination]]. Names: Johnson, Fortas, Hoover, Alsop, Carr.'
+    n: '[Johnson and Hoover, 10:30 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-j-edgar-hoover-november-25-1963), Tape K6311.02, PNO 12 (Miller Center); [Johnson and Alsop, 10:40 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-joseph-alsop-november-25-1963), Tape K6311.02, PNOs 17, 18 (Miller Center). [[w.caro-passage-of-power]], 440–42. Caro puts Fortas''s advice on the evening of Nov. 25 and the calls after it (441); the Miller Center''s catalogue, the calls at 10:30 and 10:40 a.m. To check: Jenkins to Johnson, Nov. 25, 1963, Ex FG 1, LBJ Library; Carter to Johnson, Nov. 24, 1963, Special File, Assassination, LBJ Library; Washington Post, Nov. 26, 1963 (cited by [[w.caro-passage-of-power]], 441). See [[cal.1963-11-22.assassination]]. Names: Johnson, Fortas, Hoover, Alsop, Carr.'
+    src:
+      c: a0882935
+      rows:
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-j-edgar-hoover-november-25-1963: B'
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-joseph-alsop-november-25-1963: B'
+        - 'w.caro-passage-of-power 441–42: all'
+        - 'via w.caro-passage-of-power 441 n.fortas-was-later: A'
+        - 'via w.caro-passage-of-power 441 n.he-quietly-gave: C'
+        - 'via w.caro-passage-of-power 441 n.his-first-suggestion: D'
+        - 'via w.caro-passage-of-power 442 n.he-himself-made: B'
     tags: [name:johnson-lyndon-b, name:fortas-abe, name:hoover-j-edgar, name:alsop-joseph, name:carr-waggoner]
   - id: cal.1963-11-25.trade
     when: Nov. 25
@@ -515,6 +617,12 @@ entries:
     also: [succession]
     c: 'After the burial, Johnson to O''Brien, with O''Donnell: "a terrible thing to Kennedy''s memory to have this wheat sale thing repudiated"; count the votes. O''Brien to the Hill.'
     n: '[Johnson and Lawrence O''Brien, 4:04 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-larry-obrien-november-25-1963), Tape K6311.02, PNO 20 (Miller Center). [[w.caro-passage-of-power]], 414–15. Caro gives 4:40 p.m. (414); the Miller Center''s catalogue, 4:04. See [[cal.1963-10-09.trade]]. Names: Johnson, O''Brien, O''Donnell, Kennedy.'
+    src:
+      c: f50a40ac
+      rows:
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-larry-obrien-november-25-1963: A-B'
+        - 'w.caro-passage-of-power 414: A-B'
+        - 'w.caro-passage-of-power 415: B-C'
     tags: [name:johnson-lyndon-b, name:obrien-lawrence-f, name:odonnell-kenneth-p, name:kennedy-john-f]
   - id: cal.1963-11-26.vietnam
     when: Nov. 26
@@ -522,33 +630,35 @@ entries:
     thread: vietnam
     also: [succession]
     c: NSAM 273. The withdrawal objectives of Oct. 2 stand. The new government to be helped; no public criticism of one agency by another. Plans asked for stepped-up action against the North and for operations up to 50 kilometers into Laos.
-    n: '[NSAM No. 273](https://history.state.gov/historicaldocuments/frus1961-63v04/d331) (Nov. 26, 1963) (K–J Adm. II.H.2). [[w.gibbons-u-s-government-and]], II, 209–210; [[w.kaplan-mcnamara-ascendancy-1961-1965]], 499 (the memorandum, the withdrawal, the new government, action against the North); [[w.cosmas-joint-chiefs-of-staff-2012]], 6–7 (all but the agencies'' criticism); [[w.dallek-flawed-giant]], 101. [[w.caro-passage-of-power]], 403. To check: [[w.newman-jfk-and-vietnam]]; [[w.moise-jfk-and-the-myth]]; [[w.kaiser-american-tragedy]]; [[w.logevall-choosing-war]]; [[w.mcmaster-dereliction-of-duty-1997]]. See [[cal.1963-11-01.vietnam]]. Names: Johnson, McGeorge Bundy.'
+    n: '[NSAM No. 273](https://history.state.gov/historicaldocuments/frus1961-63v04/d331) (Nov. 26, 1963) (K–J Adm. II.H.2). [[w.gibbons-u-s-government-and]], II, 209–210; [[w.kaplan-mcnamara-ascendancy-1961-1965]], 499 (the memorandum, the withdrawal, the new government, action against the North); [[w.cosmas-joint-chiefs-of-staff-2012]], 6–7 (all but the agencies'' criticism); [[w.dallek-flawed-giant]], 101 (not the bar on criticism, nor Laos). [[w.caro-passage-of-power]], 403 (not the bar on public criticism, nor Laos). To check: [[w.newman-jfk-and-vietnam]]; [[w.moise-jfk-and-the-myth]]; [[w.kaiser-american-tragedy]]; [[w.logevall-choosing-war]]; [[w.mcmaster-dereliction-of-duty-1997]]; the draft of Nov. 21, 1963, JFK Library (cited by [[w.dallek-flawed-giant]], 101). See [[cal.1963-11-01.vietnam]]. Names: Johnson, McGeorge Bundy.'
     src:
       c: b234906b
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v04/d331: all'
         - 'w.gibbons-u-s-government-and II, 209–210: all'
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 499: A-C, E'
-        - 'w.dallek-flawed-giant 101: all'
-        - 'w.caro-passage-of-power 403: all'
+        - 'w.dallek-flawed-giant 101: A-C, E'
+        - 'w.caro-passage-of-power 403: A-C, E'
         - 'via w.kaplan-mcnamara-ascendancy-1961-1965 499 n.4: all'
         - 'w.cosmas-joint-chiefs-of-staff-2012 6–7: A-C, E'
         - 'via w.cosmas-joint-chiefs-of-staff-2012 7 n.5: A-C, E'
+        - 'via w.dallek-flawed-giant 101 n.103a: A'
+        - 'via w.dallek-flawed-giant 101 n.103b: A-C, E'
     tags: [name:johnson-lyndon-b, name:bundy-mcgeorge]
   - id: cal.1963-11-26.trade
     when: Nov. 26
     date: '1963-11-26'
     thread: trade
     also: [succession]
-    c: Senate tables Mundt's bill to bar government guarantees of credit for sales to Communist countries, [57–35](https://voteview.com/rollcall/RS0880203). Johnson's first test in the Senate. Check.
-    n: '[109 Cong. Rec., Senate, Nov. 26, 1963](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt17/pdf/GPO-CRECB-1963-pt17-7-1.pdf). [[w.caro-passage-of-power]], 397–99, 414–15, 424–25 (Johnson''s first test); [[w.johnson-vantage-point]], 39 (the tabling, which he gives as 57 to 36; O''Brien''s head count; the test of his authority). See [[cal.1963-10-09.trade]]. Names: Mundt, Johnson.'
+    c: Senate tables Mundt's bill to bar government guarantees of credit for sales to Communist countries, [57–35](https://voteview.com/rollcall/RS0880203). Johnson's first test in the Senate.
+    n: '[109 Cong. Rec., Senate, Nov. 26, 1963](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt17/pdf/GPO-CRECB-1963-pt17-7-1.pdf). [[w.caro-passage-of-power]], 397–99, 414–15, 424–25 (the bill tabled, Johnson''s first test; Caro''s count, 57 to 36, is not the roll call''s); [[w.johnson-vantage-point]], 39 (the tabling, which he gives as 57 to 36; O''Brien''s head count; the test of his authority). See [[cal.1963-10-09.trade]]. Names: Mundt, Johnson.'
     src:
-      c: b9255e75
+      c: f68e7b61
       rows:
         - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt17/pdf/GPO-CRECB-1963-pt17-7-1.pdf: all'
-        - 'w.caro-passage-of-power 397–99, 414–15, 424–25: ?'
         - 'w.johnson-vantage-point 39: A-B'
         - 'https://voteview.com/rollcall/RS0880203: A'
+        - 'w.caro-passage-of-power 424–25: A-B'
     tags: [name:mundt-karl-e, name:johnson-lyndon-b]
   - id: cal.1963-11-26.economy-debt-limit
     when: Nov. 26
@@ -588,7 +698,17 @@ entries:
     thread: succession
     also: [civil-rights-bill, economy]
     c: 'Address to a joint session: "let us continue." The civil rights bill first, then the tax bill.'
-    n: 'Address Before a Joint Session of the Congress, [1963–64 Pub. Papers 8](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=92) (Nov. 27, 1963). Recording (K–J Adm. II.I). [President''s Daily Diary, Nov. 27, 1963](https://catalog.archives.gov/id/192435), image 1 (LBJ Library; National Archives Catalog). [[w.stein-fiscal-revolution-in-america]], 452 (the tax bill); [[w.dallek-flawed-giant]], 56, 60. [[w.caro-passage-of-power]], 399, 427–33. To check: [[w.zelizer-fierce-urgency-of-now]]. See [[cal.1963-11-22.succession]]; [[cal.1963-06-11.civil-rights-bill]]; [[cal.1963-01-24.economy]].'
+    n: 'Address Before a Joint Session of the Congress, [1963–64 Pub. Papers 8](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=92) (Nov. 27, 1963). Recording (K–J Adm. II.I). [President''s Daily Diary, Nov. 27, 1963](https://catalog.archives.gov/id/192435), image 1 (LBJ Library; National Archives Catalog). [[w.stein-fiscal-revolution-in-america]], 452 (the tax bill); [[w.dallek-flawed-giant]], 56, 60. [[w.caro-passage-of-power]], 399, 427–33. To check: [[w.zelizer-fierce-urgency-of-now]]; Valenti to Johnson, Nov. 27, 1963, WHCF: EX SP 2-3, Special Message, LBJ Library (cited by [[w.dallek-flawed-giant]], 56). See [[cal.1963-11-22.succession]]; [[cal.1963-06-11.civil-rights-bill]]; [[cal.1963-01-24.economy]].'
+    src:
+      c: '53630819'
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=92: all'
+        - 'https://catalog.archives.gov/id/192435: A'
+        - 'w.stein-fiscal-revolution-in-america 452: B'
+        - 'w.caro-passage-of-power 430–32: all'
+        - 'w.dallek-flawed-giant 56: A'
+        - 'w.dallek-flawed-giant 60: B'
+        - 'via w.dallek-flawed-giant 56 n.6b: A'
     tags: [name:johnson-lyndon-b]
     short: Address to the joint session
     to:
@@ -599,7 +719,19 @@ entries:
     date: '1963-11-29'
     thread: assassination
     c: 'E.O. 11130: a commission to report on the assassination. Warren chairman; Senators Russell and Cooper, Representatives Boggs and Ford, Dulles, McCloy. Dec. 13, a joint resolution, [77 Stat. 362](https://www.govinfo.gov/content/pkg/STATUTE-77/pdf/STATUTE-77-Pg362.pdf), gives it subpoena power.'
-    n: '[Exec. Order No. 11,130](https://www.presidency.ucsb.edu/documents/executive-order-11130-appointing-commission-report-upon-the-assassination-president-john-f) (K–J Adm. II.H.2); White House Statement on the Appointment of a Special Commission To Investigate the Assassination of President Kennedy, [1963–64 Pub. Papers 13](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=97) (Nov. 29, 1963); [President''s Daily Diary, Nov. 29, 1963](https://catalog.archives.gov/id/192437), images 1, 2, 3 (LBJ Library; National Archives Catalog). [[w.report-of-the-presidents-1964]]; [S. Rep. No. 94-755, Book V](https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94755-v.pdf) (1976) (K–J Adm. II.H.3). [[w.dallek-flawed-giant]], 51; [[w.caro-passage-of-power]], 440–51. To check: [[w.epstein-inquest]]; [[w.holland-kennedy-assassination-tapes]]; [[w.mcknight-breach-of-trust]]; [[w.willens-history-will-prove-us]]; [[w.shenon-cruel-and-shocking-act]]. See [[cal.1963-11-22.assassination]]. Names: Warren, Russell, Cooper, Boggs, Ford, Dulles, McCloy.'
+    n: '[Exec. Order No. 11,130](https://www.presidency.ucsb.edu/documents/executive-order-11130-appointing-commission-report-upon-the-assassination-president-john-f) (K–J Adm. II.H.2); White House Statement on the Appointment of a Special Commission To Investigate the Assassination of President Kennedy, [1963–64 Pub. Papers 13](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=97) (Nov. 29, 1963); [President''s Daily Diary, Nov. 29, 1963](https://catalog.archives.gov/id/192437), images 1, 2, 3 (LBJ Library; National Archives Catalog). [[w.report-of-the-presidents-1964]]; [S. Rep. No. 94-755, Book V](https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94755-v.pdf) (1976) (K–J Adm. II.H.3). [[w.dallek-flawed-giant]], 51; [[w.caro-passage-of-power]], 440–51. To check: [[w.epstein-inquest]]; [[w.holland-kennedy-assassination-tapes]]; [[w.mcknight-breach-of-trust]]; [[w.willens-history-will-prove-us]]; [[w.shenon-cruel-and-shocking-act]]; [Johnson and Dirksen, 5:10 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-everett-dirksen-november-29-1963-0), Tape K6311.05 (Miller Center; not heard here: millercenter.org fails TLS verification from this environment) (cited by [[w.caro-passage-of-power]], 446). See [[cal.1963-11-22.assassination]]. Names: Warren, Russell, Cooper, Boggs, Ford, Dulles, McCloy.'
+    src:
+      c: 9a0a5034
+      rows:
+        - 'https://www.presidency.ucsb.edu/documents/executive-order-11130-appointing-commission-report-upon-the-assassination-president-john-f: A-C'
+        - 'https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=97: A-C'
+        - 'https://catalog.archives.gov/id/192437: A'
+        - 'w.report-of-the-presidents-1964: all'
+        - 'https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94755-v.pdf: all'
+        - 'w.caro-passage-of-power 443–47: A-C'
+        - 'https://www.govinfo.gov/content/pkg/STATUTE-77/pdf/STATUTE-77-Pg362.pdf: D'
+        - 'via w.caro-passage-of-power 446 n.he-didnt-want: C'
+        - 'w.dallek-flawed-giant 51: A-C'
     tags: [name:johnson-lyndon-b, name:warren-earl, name:russell-richard-b, name:cooper-john-sherman, name:boggs-hale, name:ford-gerald-r, name:dulles-allen-w, name:mccloy-john-j]
   - id: cal.1963-11-29.space
     when: Nov. 29
@@ -613,19 +745,34 @@ entries:
     date: '1963-11-29'
     thread: civil-rights-bill
     c: 'Wilkins with Johnson in the Oval Office, the first of five meetings with the civil rights leaders one at a time: "I want that bill passed." O''Brien''s memo the same day: a discharge petition too late to bring the bill out of Rules before the recess.'
-    n: '[President''s Daily Diary, Nov. 29, 1963](https://catalog.archives.gov/id/192437), image 1 (LBJ Library; National Archives Catalog) (Wilkins in the Oval Office, 12:20 to 1:15). [[w.caro-passage-of-power]], 485, 488–90 (Wilkins''s account). See [[cal.1963-11-27.succession]]. Names: Wilkins, Johnson, O''Brien.'
+    n: '[President''s Daily Diary, Nov. 29, 1963](https://catalog.archives.gov/id/192437), image 1 (LBJ Library; National Archives Catalog) (Wilkins in the Oval Office, 12:20 to 1:15). [[w.caro-passage-of-power]], 485, 488–90 (O''Brien''s memo, 485; Wilkins''s account, 488–90). To check: O''Brien to Johnson, Nov. 29, 1963, Office Files of Henry Hall Wilson, LBJ Library; Roy Wilkins OH I, LBJ Library (cited by [[w.caro-passage-of-power]], 485, 489). See [[cal.1963-11-27.succession]]. Names: Wilkins, Johnson, O''Brien.'
     src:
       c: 5dfc2162
       rows:
         - 'https://catalog.archives.gov/id/192437: A'
-        - 'w.caro-passage-of-power 485, 488–90: ?'
+        - 'w.caro-passage-of-power 488–89: A'
+        - 'w.caro-passage-of-power 485: B'
+        - 'via w.caro-passage-of-power 485 n.given-signature: B'
+        - 'via w.caro-passage-of-power 489 n.with-johnson: A'
     tags: [name:wilkins-roy, name:johnson-lyndon-b, name:obrien-lawrence-f]
   - id: cal.1963-11-29.assassination-2
     when: Nov. 29
     date: '1963-11-29'
     thread: assassination
     c: 'The commission''s members. Katzenbach and Cox to Warren at the Court, 2:30 p.m.: he will not serve. Johnson to Russell, 4:05 p.m.: Russell refuses; Warren''s name kept from him. Warren to the Oval Office; Johnson: "39 million in an hour"; Warren accepts. Robert Kennedy''s names, Dulles and McCloy, taken. The list to the press; to Russell, 8:55 p.m.: "I couldn''t serve there with Chief Justice Warren."'
-    n: '[Johnson and Russell, 4:05 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-richard-russell-november-29-1963), Tape K6311.05, PNO 7 (Miller Center); [8:55 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-richard-russell-november-30-1963), Tape K6311.06, PNOs 14–16 (Miller Center). [[w.caro-passage-of-power]], 442–48. See [[cal.1963-11-29.assassination]]. Names: Katzenbach, Cox, Warren, Johnson, Russell, Robert Kennedy, Dulles, McCloy.'
+    n: '[Johnson and Russell, 4:05 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-richard-russell-november-29-1963), Tape K6311.05, PNO 7 (Miller Center); [8:55 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-richard-russell-november-30-1963), Tape K6311.06, PNOs 14–16 (Miller Center). [[w.caro-passage-of-power]], 442–48. To check: "Reminiscences of Lyndon B. Johnson," Aug. 19, 1969, Oral History Collection, LBJ Library; [Johnson and Kuchel, 8:30 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-thomas-kuchel-november-30-1963), Tape K6311.06 (Miller Center; not heard here: millercenter.org fails TLS verification from this environment); [Johnson and Dirksen, 5:10 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-everett-dirksen-november-29-1963-0), Tape K6311.05 (Miller Center; not heard here: millercenter.org fails TLS verification from this environment) (cited by [[w.caro-passage-of-power]], 442, 446). See [[cal.1963-11-29.assassination]]. Names: Katzenbach, Cox, Warren, Johnson, Russell, Robert Kennedy, Dulles, McCloy.'
+    src:
+      c: 34f922c2
+      rows:
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-richard-russell-november-29-1963: C-D'
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-richard-russell-november-30-1963: J'
+        - 'w.caro-passage-of-power 442–43: A, H'
+        - 'w.caro-passage-of-power 444–45: B-D'
+        - 'w.caro-passage-of-power 445–46: E-G'
+        - 'w.caro-passage-of-power 446: I-J'
+        - 'via w.caro-passage-of-power 442 n.robert-kennedy-suggested: H'
+        - 'via w.caro-passage-of-power 446 n.and-youd-go-fight: E-G'
+        - 'via w.caro-passage-of-power 446 n.he-didnt-want: A, I'
     tags: [name:katzenbach-nicholas, name:cox-archibald, name:warren-earl, name:johnson-lyndon-b, name:russell-richard-b, name:kennedy-robert-f, name:dulles-allen-w, name:mccloy-john-j]
   - id: cal.1963-11-30.europe-and-the-alliance-cyprus
     when: Nov. 30

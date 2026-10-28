@@ -38,7 +38,15 @@ entries:
     thread: congress
     also: [democratic-party]
     c: 'Senate Democrats in caucus. Mansfield, Johnson''s choice to succeed him as majority leader, moves that Johnson preside over the caucus as Vice President. Gore against: "This caucus is not open to former senators." Carried, 46–17, against loud protest. Johnson never uses the role.'
-    n: '[[w.dallek-flawed-giant]], 8 (the caucus, the motion, Gore, the vote); [[w.caro-passage-of-power]], 164–69 (the conference, the protest, the role unused; no count given). Names: Mansfield, Johnson, Gore. Check: Dallek gives Jan. 5, "seventeen days before taking office" (8), which would be Jan. 3.'
+    n: '[[w.dallek-flawed-giant]], 8 (the caucus, the motion, Gore, the vote); [[w.caro-passage-of-power]], 164–69 (the conference, the protest, the role unused; no count given). To check: Minutes of the U.S. Senate Democratic Conference, 1903–1964, pp. 581–83, Senate Democratic Conference (the minutes as published); Drew Pearson, Washington Post, Jan. 18, 1961 (cited by [[w.caro-passage-of-power]], 169). Names: Mansfield, Johnson, Gore. Check: Dallek gives Jan. 5, "seventeen days before taking office" (8), which would be Jan. 3.'
+    src:
+      c: 0946450e
+      rows:
+        - 'w.caro-passage-of-power 168: A-C'
+        - 'w.caro-passage-of-power 169: D-E'
+        - 'via w.caro-passage-of-power 169 n.the-next-days.a: E'
+        - 'via w.caro-passage-of-power 169 n.the-next-days.b: E'
+        - 'w.dallek-flawed-giant 8: A-D'
     tags: [name:mansfield-mike, name:johnson-lyndon-b, name:gore-albert-sr]
   - id: cal.1961-01-05.economy
     when: Jan. 5
@@ -329,6 +337,18 @@ entries:
         - 'https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=64: all'
         - 'w.schlesinger-thousand-days-1965 170: all'
     tags: [name:kennedy-john-f, name:mcgovern-george]
+  - id: cal.1961-01-24.congress
+    when: Jan. 24
+    date: '1961-01-24'
+    thread: congress
+    also: [transition-and-staff]
+    c: 'The first weekly breakfast of the legislative leaders, the Cabinet Room, 9 a.m.: Rayburn, McCormack, Albert; Mansfield, Humphrey, Smathers. Johnson, at his asking, with Kennedy in the Mansion first; by Evelyn Lincoln''s account, at the door Kennedy sends him in and goes on to the Oval Office.'
+    n: '[[w.caro-passage-of-power]], 178. Names: Rayburn, McCormack, Albert, Mansfield, Humphrey, Smathers, Johnson, Kennedy, Lincoln.'
+    src:
+      c: 3633395b
+      rows:
+        - 'w.caro-passage-of-power 178: all'
+    tags: [name:rayburn-sam, name:mccormack-john-w, name:albert-carl, name:mansfield-mike, name:humphrey-hubert-h, name:smathers-george-a, name:johnson-lyndon-b, name:kennedy-john-f, name:lincoln-evelyn]
   - id: cal.1961-01-25.press-and-broadcasting
     when: Jan. 25
     date: '1961-01-25'
@@ -410,7 +430,13 @@ entries:
     date: '1961-01-28'
     thread: transition-and-staff
     c: 'The Oval Office. Johnson had sent a draft executive order giving the Vice President "continuing surveillance and review" of national security policy, the agencies to cooperate with him. Kennedy hands him a letter instead: "I am hereby requesting you to review policies relating to the national security." No order issued; no staff.'
-    n: '[[w.caro-passage-of-power]], 169–71 (the draft''s earlier form not found in either library). Names: Johnson, Kennedy.'
+    n: '[[w.caro-passage-of-power]], 169–71 (the draft''s earlier form not found in either library). To check: Moyers to Johnson, Jan. 26, 1961, with the revised draft order, White House Famous Names File, LBJ Library (cited by [[w.caro-passage-of-power]], 170). Names: Johnson, Kennedy.'
+    src:
+      c: cef6fe27
+      rows:
+        - 'w.caro-passage-of-power 170: B'
+        - 'w.caro-passage-of-power 171: A, C-E'
+        - 'via w.caro-passage-of-power 170 n.would-be-revised: B'
     tags: [name:johnson-lyndon-b, name:kennedy-john-f]
   - id: cal.1961-01-29.economy
     when: Jan. 29

@@ -459,6 +459,10 @@ reports them (`notes/calendar-audit.md`).
   59 MB) is in a folder not shared by link, over the Drive tool's 10 MB limit and without a text layer it will return;
   archive.org's four copies of the 1978 edition lend only. Waits on the owner's copy in the shared books folder. Its
   1961-68 chapters: Republican Party, the elections threads, Vietnam, transition-and-staff.
+- Caro and Dallek: news conferences in the Public Papers not yet in the calendar; the notes of the NSC of Feb. 8, 1967
+  and the Cabinet meetings of July 19, 1967 and Aug. 22, 1968, not read; Evelyn Lincoln's diary; the hours of the calls
+  Caro quotes, McCormack on Nov. 29, 1963 and Bundy on Mar. 2, 1964; William Bundy's manuscript history; the 24
+  recordings the two books cite, found in the catalogues and not heard (the Miller Center's pages fail TLS here).
 - *A Thousand Days* and *The Vantage Point*: Laos's public record, Mar.-Apr. 1961; the messages of 1961; Hawkins's cable
   (FRUS 1961-63, X, doc. 98); the breakfast meeting of Nov. 21, 1967; the Dominican Republic, the India food, the
   Kennedy Round and the arms talks as Johnson tells them; four discrepancies kept as Checks (the Mundt vote, 57-36 by
