@@ -2017,10 +2017,11 @@ lists both, by year (the series index's Pages, README).
 
 ## Working hours
 
-The owner's standing rule (Oct. 28, 2026): no work between 7 a.m. and 5 p.m. Pacific. At 7 a.m. the running agents are
+The owner's standing rule (Oct. 28, 2026): no work between 7 a.m. and 5 p.m. Pacific, Monday to Friday; Saturday and
+Sunday are exempt (the same day). At 7 a.m. the running agents are
 stopped, their work committed as WIP and listed for resuming; a task or an agent's report that comes in before 5 p.m.
 is queued, not acted on; after 5 p.m. the agents are resumed and the queue taken up in order. Two scheduled tasks keep
-it in the session that runs the reading (6:46 a.m. and 5:04 p.m. Pacific).
+it in the session that runs the reading (6:46 a.m. and 5:04 p.m. Pacific, weekdays).
 
 ## Publishing
 
