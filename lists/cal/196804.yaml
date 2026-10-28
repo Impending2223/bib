@@ -74,10 +74,13 @@ entries:
       rows:
         - 'https://www.govinfo.gov/content/pkg/PPP-1968-book1/pdf/PPP-1968-book1.pdf#page=570: all'
         - 'https://history.state.gov/historicaldocuments/frus1964-68v06/d175: all'
-        - 'w.cosmas-joint-chiefs-of-staff 176, 178: all'
         - 'w.drea-mcnamara-clifford-and-the-2011 225: A'
         - 'via w.drea-mcnamara-clifford-and-the-2011 225 n.92a: A'
         - 'w.nguyen-hanois-war 117: ?'
+        - 'w.cosmas-joint-chiefs-of-staff 176, 178: all'
+        - 'via w.cosmas-joint-chiefs-of-staff 176 n.11: A'
+        - 'via w.cosmas-joint-chiefs-of-staff 176 n.12: B'
+        - 'via w.cosmas-joint-chiefs-of-staff 178 n.18: C'
     tags: [name:johnson-lyndon-b]
   - id: cal.1968-04-03.congress
     when: Apr. 3
@@ -113,6 +116,13 @@ entries:
     thread: vietnam
     c: 'The bombing of the North held south of the 19th parallel, short of the 20th of Clifford''s order of Mar. 31 (Check the day). Clifford, Apr. 9: "We feel comfortable with the 19th to avoid mistakes."'
     n: 'FRUS 1964–68, VI, docs. [172](https://history.state.gov/historicaldocuments/frus1964-68v06/d172) (Apr. 2), [189](https://history.state.gov/historicaldocuments/frus1964-68v06/d189) (Apr. 9). [[w.frankum-like-rolling-thunder]], 61: Apr. 3; [[w.cosmas-joint-chiefs-of-staff]], 176–177 (the 19th and the 20th). See [[cal.1968-03-31.elections-1968]]. Names: Clifford. Check: Cosmas, 177, has Wheeler order operations stopped above the 20th, the President a halt above the 19th.'
+    src:
+      c: 13503d8b
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v06/d172: all'
+        - 'w.frankum-like-rolling-thunder 61: Apr. 3: all'
+        - 'w.cosmas-joint-chiefs-of-staff 176–177: A'
+        - 'via w.cosmas-joint-chiefs-of-staff 177 n.13: A'
     tags: [name:clifford-clark]
   - id: cal.1968-04-04.vietnam-paris
     when: Apr. 4
@@ -297,13 +307,14 @@ entries:
     thread: transition-and-staff
     also: [vietnam-abrams, defense]
     c: 'News conference: O''Brien''s resignation as Postmaster General accepted; Watson, the Appointments Secretary, named to succeed him; Jim Jones and Larry Temple to take Watson''s work. Abrams to succeed Westmoreland; Goodpaster his deputy; McCain to succeed Sharp in the Pacific Command.'
-    n: 'The President''s News Conference, [1968–69 Pub. Papers 504](https://www.govinfo.gov/content/pkg/PPP-1968-book1/pdf/PPP-1968-book1.pdf#page=582) (Apr. 10, 1968). [[w.cosmas-joint-chiefs-of-staff]], 204 (Abrams, Goodpaster, McCain); [[w.drea-mcnamara-clifford-and-the-2011]], 194 (Abrams, McCain). To check: [[w.christian-president-steps-down]]; [[w.sorley-thunderbolt]]. See [[cal.1968-03-22.transition-and-staff]]. Names: O''Brien, Watson, James R. Jones, Temple, Abrams, Westmoreland, Goodpaster, McCain, Sharp, Johnson.'
+    n: 'The President''s News Conference, [1968–69 Pub. Papers 504](https://www.govinfo.gov/content/pkg/PPP-1968-book1/pdf/PPP-1968-book1.pdf#page=582) (Apr. 10, 1968). [[w.cosmas-joint-chiefs-of-staff]], 204 (Abrams; McCain); [[w.drea-mcnamara-clifford-and-the-2011]], 194 (Abrams, McCain). To check: [[w.christian-president-steps-down]]; [[w.sorley-thunderbolt]]. See [[cal.1968-03-22.transition-and-staff]]. Names: O''Brien, Watson, James R. Jones, Temple, Abrams, Westmoreland, Goodpaster, McCain, Sharp, Johnson.'
     src:
       c: b996b9b9
       rows:
         - 'https://www.govinfo.gov/content/pkg/PPP-1968-book1/pdf/PPP-1968-book1.pdf#page=582: all'
-        - 'w.cosmas-joint-chiefs-of-staff 204: ?'
         - 'w.drea-mcnamara-clifford-and-the-2011 194: D, F'
+        - 'w.cosmas-joint-chiefs-of-staff 204: D, F'
+        - 'via w.cosmas-joint-chiefs-of-staff 204 n.2: D, F'
     tags: [name:obrien-lawrence-f, name:watson-w-marvin, name:jones-james-r, name:temple-larry, name:johnson-lyndon-b, name:abrams-creighton, name:westmoreland-william, name:goodpaster-andrew-j, name:mccain-john-s-jr, name:sharp-u-s-grant]
     aliases: [cal.1968-04-10.vietnam]
   - id: cal.1968-04-10.opinion
@@ -335,6 +346,18 @@ entries:
     c: 'Baltimore. Agnew, to some hundred of the city''s Negro leaders called to the State Office Building: they had not spoken out against the rioters and the "circuit-riding, Hanoi-visiting, caterwauling, riot-inciting, burn-America-down type of leader" (Check the words). Most of them walk out.'
     n: '[*New York Times*, Apr. 12, 1968](https://timesmachine.nytimes.com/timesmachine/1968/04/12/issue.html). To check: [[w.witcover-white-knight]]; [[w.baltimore-68]]. See [[cal.1968-04-04.civil-disorders]]. Names: Agnew.'
     tags: [name:agnew-spiro-t, state:md, city:baltimore]
+  - id: cal.1968-04-11.vietnam-air-war
+    when: Apr. 11
+    date: '1968-04-11'
+    thread: vietnam-air-war
+    c: Reconnaissance flights over North Vietnam above the 20th parallel, stopped after the exchange with Hanoi of Apr. 3, resumed by the President's order, the program slightly reduced.
+    n: '[[w.cosmas-joint-chiefs-of-staff]], 178. To check: JCS 6226 to CINCPAC and CINCSAC, Apr. 11, 1968 (cited by [[w.cosmas-joint-chiefs-of-staff]], 178 n.17). See [[cal.1968-04-03.vietnam-2]]. Names: Johnson.'
+    src:
+      c: 75a81324
+      rows:
+        - 'w.cosmas-joint-chiefs-of-staff 178: all'
+        - 'via w.cosmas-joint-chiefs-of-staff 178 n.17: all'
+    tags: [name:johnson-lyndon-b]
   - id: cal.1968-04-14.opinion
     when: Apr. 14
     date: '1968-04-14'
@@ -356,14 +379,15 @@ entries:
     thread: korea
     also: [vietnam]
     c: 'Honolulu. Johnson with Park Chung Hee. Joint statement, Apr. 17: the attack on the presidential residence at Seoul and the *Pueblo*''s seizure reviewed; further aggression from the North "a most grave threat to peace," the two governments then to determine at once the action to be taken under the Mutual Defense Treaty; the modernization of Korea''s forces to continue; the defense ministers to meet in Washington in May.'
-    n: 'Joint Statement Following Discussions With President Park of Korea, [1968–69 Pub. Papers 516](https://www.govinfo.gov/content/pkg/PPP-1968-book1/pdf/PPP-1968-book1.pdf#page=594) (Apr. 17, 1968). FRUS 1964–68, XXIX, pt. 1, docs. [192](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d192), [194](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d194). [[w.drea-mcnamara-clifford-and-the-2011]], 495 (Johnson and Park at Honolulu); [[w.poole-joint-chiefs-of-staff-2012]], 244. To check: [[w.lerner-pueblo-incident]]; [[w.park-chung-hee-era]]. See [[cal.1968-01-23.japan-and-korea]]. Names: Johnson, Park Chung Hee.'
+    n: 'Joint Statement Following Discussions With President Park of Korea, [1968–69 Pub. Papers 516](https://www.govinfo.gov/content/pkg/PPP-1968-book1/pdf/PPP-1968-book1.pdf#page=594) (Apr. 17, 1968). FRUS 1964–68, XXIX, pt. 1, docs. [192](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d192), [194](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d194). [[w.drea-mcnamara-clifford-and-the-2011]], 495 (Johnson and Park at Honolulu); [[w.poole-joint-chiefs-of-staff-2012]], 244 (the meeting). To check: [[w.lerner-pueblo-incident]]; [[w.park-chung-hee-era]]. See [[cal.1968-01-23.japan-and-korea]]. Names: Johnson, Park Chung Hee.'
     src:
       c: 9cab2163
       rows:
         - 'https://www.govinfo.gov/content/pkg/PPP-1968-book1/pdf/PPP-1968-book1.pdf#page=594: all'
         - 'https://history.state.gov/historicaldocuments/frus1964-68v29p1/d192: all'
         - 'w.drea-mcnamara-clifford-and-the-2011 495: A-B'
-        - 'w.poole-joint-chiefs-of-staff-2012 244: all'
+        - 'w.poole-joint-chiefs-of-staff-2012 244: A-B'
+        - 'via w.poole-joint-chiefs-of-staff-2012 244 n.78: A-B'
     tags: [name:johnson-lyndon-b, name:park-chung-hee]
   - id: cal.1968-04-16.king
     when: Apr. 16
@@ -399,7 +423,13 @@ entries:
     date: '1968-04-19'
     thread: vietnam-operations
     c: 'Delaware: the 1st Cavalry Division into the A Shau Valley, with the 101st Airborne pushing west along Route 547. Two battalions and a battery flown into the north of the valley; 23 aircraft hit the first day, 10 of them down or too damaged to fly; 4 killed, 20 wounded.'
-    n: '[[w.villard-united-states-army-in]], 517–527; [[w.vietnam-victory-in-vietnam]], 229; [[w.cosmas-joint-chiefs-of-staff]], 205. Check: *Victory in Vietnam* gives almost 1,000 American and South Vietnamese casualties, Apr. 19–May 16 (229). To check: [[w.phillips-shau]].'
+    n: '[[w.villard-united-states-army-in]], 517–527; [[w.vietnam-victory-in-vietnam]], 229; [[w.cosmas-joint-chiefs-of-staff]], 205 (the incursion, Apr. 19). Check: *Victory in Vietnam* gives almost 1,000 American and South Vietnamese casualties, Apr. 19–May 16 (229). To check: [[w.phillips-shau]].'
+    src:
+      c: 798b1046
+      rows:
+        - 'w.villard-united-states-army-in 517–527: all'
+        - 'w.vietnam-victory-in-vietnam 229: all'
+        - 'w.cosmas-joint-chiefs-of-staff 205: A'
     tags: [place:a-shau-valley, province:thua-thien]
   - id: cal.1968-04-20.vietnam
     when: Apr. 20–21
