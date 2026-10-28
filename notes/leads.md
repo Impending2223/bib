@@ -483,6 +483,15 @@ over", "to leads"):
   coalition (June 11-24, 1962); JCSM-330-63 (Apr. 25, 1963); the first Barrel Roll mission (Dec. 14, 1964); the first
   B-52 strike in Laos (*Interdiction* gives Dec. 10, 1965, p. 101, and Dec. 12, p. 133); the second Mụ Giạ B-52
   strike (Apr. 21, 1966); Klusmann's escape (Aug. 21, 1964); MACTHAI apart from MACV (May 27, 1965).
+- The JCS volumes (Poole 8-9; *The JCS and the War in Vietnam*, pts. 1-3): Johnson's letter of instructions to
+  McNamara (Mar. 5, 1964); Wheeler Chairman (July 3, 1964); SIOP-63 approved (June 18-19, 1962); Taylor named Chairman
+  (July 20, 1962); Program Six approved (Mar. 13, 1968); Clifford sworn in (Mar. 1, 1968); the Montagnard revolt
+  (Sept. 19-20, 1964); Khánh's warning before his coup (Jan. 28, 1964); the White House meeting of Dec. 6, 1963; the
+  meeting of Mar. 15, 1965 on "losing"; the NLF's holiday truces (Nov. 25, 1966); the *Enterprise* speech (Nov. 11,
+  1967) and the five points (Dec. 19, 1967); the Khe Sanh withdrawal completed (July 7, 1968); the *Pueblo*'s mission
+  authorized (Jan. 2, 1968); the Yemeni revolution (Sept. 26-27, 1962). FRUS cited by page only, not yet matched to
+  documents: 1964-68, VI, 457-474, 523-534, 875-885. No open copy found of the Stennis hearings, *Air War against
+  North Vietnam* (1967), or of Cronkite's broadcast of Feb. 27, 1968; jcs.mil's PDFs refuse this environment (403).
 - Access: history.defense.gov's and media.defense.gov's PDFs refuse this environment (403); the DTIC scans on
   archive.org served (Drea, DTIC_ADA552481; archive.org labels the leaf of p. 441 "457"; its pages for Anthony run one
   high from p. 115 to p. 333). The OSD strategic-arms chronology not reached.
