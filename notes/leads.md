@@ -447,6 +447,14 @@ reports them (`notes/calendar-audit.md`).
 - Nov.–Jan. 1969: Nixon's White House staff appointments; Moynihan; Yost; Hickel's hearings; the Douglas Commission's report; Palach.
 - Gallup's releases of Jan. 1–20, 1969: the 1969 pages of *The Gallup Poll* not yet read.
 
+### The books read again (stage 5, Oct. 29, 2026; the leads at the end of each book's notes/book-checks/ file)
+
+- Frankum, *Victory in Vietnam*, Johns: Hanoi's Politburo decisions not entered, and Hồ's appeals of 1965, 1966 and
+  1968; Nam Bắc, 1966-68; Market Time; the target list of June 1964; the herbicide decision of 1961; the Laos side of
+  Eisenhower and Kennedy's Camp David talk of Apr. 22, 1961; O'Donnell's account of Kennedy to Mansfield, Dec. 1962, and
+  its day; the Record's page for Cooper's Senate speech of Jan. 26, 1966; the Miller Center recordings Johns cites
+  (Johnson with Eisenhower, Feb. 15, 1965 and Oct. 3, 1966; with Russell, May 27, 1964), not heard.
+
 ### Primary records (stage 4, Oct. 29, 2026; notes/primary-records/<years>.md, each entry's record or why none)
 
 - 1960-62: the July 1960 recess resolution's record; the Rules Committee's vote count on school aid; the Mansfield
