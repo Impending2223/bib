@@ -41,6 +41,7 @@ PRIMARY_HOSTS = ("govinfo.gov", "eur-lex.europa.eu", "undocs.org", "docs.un.org"
                  "digitalmaine.com", "civera.com", "api.parliament.uk", "hansard.parliament.uk", "library.unt.edu",
                  "aarclibrary.org", "nga.org", "icj-cij.org", "hdl.handle.net")
 PRIMARY_NAMES = re.compile(r"\bStat\.|Fed\. Reg\.|Cong\. Rec\.|\bFRUS\b|Public Papers|\bAPP\b|\d+ U\.S\. \d+|"
+                           r"Op\. Att'y Gen\.|Op\. O\.L\.C\.|"   # the Attorney General's and OLC's opinions (opinions.py)
                            r"Exec\. Order|Executive Order|Proclamation|Pub\. L\.|H\.R\. \d|S\. \d|Reorganization Plan|"
                            r"\bNSAM\b|Weekly Compilation|Department of State Bulletin|Election Statistics|Statistics of the Congressional|\(PRDE(?: only)?\)|\(Miller Center\)|"
                            # the States' and the cities' own records: returns, registers and manuals, session laws,

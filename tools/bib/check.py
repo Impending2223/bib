@@ -287,6 +287,14 @@ def run(series, only=None):
     from . import contents
     for where, msg in contents.problems(series):
         add(WARN, where, msg, "contents")
+    # titles: title case and en dashes in spans of years (tools/bib/titles.py)
+    from . import titles
+    for where, msg in titles.problems(series):
+        add(WARN, where, msg, "titles")
+    # election results in the calendar's text, in one form (tools/bib/resultform.py)
+    from . import resultform
+    for where, msg in resultform.problems(series):
+        add(WARN, where, msg, "result-form")
     # the calendar's places in Indochina (place: and province: tags; sources/vn-provinces-1966)
     from . import vnmap
     for where, msg in vnmap.problems(series):
@@ -299,6 +307,23 @@ def run(series, only=None):
     from . import sources
     for where, msg in sources.problems():
         add(ERROR, where, msg, "sources")
+    for where, msg in sources.warnings():         # the listings made from the registers (notes/state-*.md)
+        add(WARN, where, msg, "state-sources")
+    # the register of the States' laws and constitutions (sources/state-law.yaml; tools/bib/state_law.py)
+    from . import state_law
+    for where, msg in state_law.problems():
+        add(ERROR, where, msg, "state-law")
+    # the records the secondary works cite, and what for (sources/cited-records/; tools/bib/cited_records.py)
+    from . import cited_records
+    for where, msg in cited_records.problems(series):
+        add(ERROR, where, msg, "cited-records")
+    # each calendar entry's claims and the sources for each (src; tools/bib/claims.py)
+    from . import claims
+    errs, warns = claims.problems(series)
+    for where, msg in errs:
+        add(ERROR, where, msg, "claims")
+    for where, msg in warns:
+        add(WARN, where, msg, "claims")
     # the Executive Branch (executive/*.yaml)
     from . import executive
     for where, msg in executive.problems(series):
@@ -331,6 +356,10 @@ def run(series, only=None):
     from . import diary
     for where, msg in diary.problems(series):
         add(ERROR, where, msg, "diary")
+    # the opinions of the Attorney General and OLC (daybook/opinions.yaml; tools/bib/opinions.py)
+    from . import opinions
+    for level, where, msg in opinions.problems(series):
+        add(ERROR if level == "error" else WARN, where, msg, "opinions")
     # the Bulletin's items (daybook/bulletin/, tools/daybook/make_bulletin.py)
     from . import bulletin
     for where, msg in bulletin.problems():
@@ -371,7 +400,7 @@ THREAD_SORT_AS = {"War on poverty": "poverty", "Bobby Baker": "Baker", "Robert K
 
 
 def thread_key(lst, slug):
-    """A thread's place in th.yaml: its hidden `sort:` where it has one ("1960 Elections" sorts as "Elections of
+    """A thread's place in th.yaml: its hidden `sort:` where it has one ("1960 elections" sorts as "Elections of
     1960", "Special elections" as "Elections, special"); a subthread under its parent's key; else its name's."""
     e = lst.threads()[slug]
     if e.get("sort"):
@@ -388,7 +417,7 @@ def thread_sort_key(name):
     return (THREAD_SORT_AS.get(name) or THREAD_SORT_AS.get(head, head) + sep + rest).lower()
 
 HAND = ["lists/**/*.yaml", "executive/*.yaml", "daybook/abstracts.yaml", "elections/facts.yaml",
-        "elections/pres-primaries.yaml", "elections/conventions.yaml", "elections/renominations.yaml", "elections/primaries.yaml", "elections/cq.yaml",
+        "elections/pres-primaries.yaml", "elections/conventions.yaml", "elections/renominations.yaml", "elections/primaries.yaml", "elections/cq.yaml", "elections/term-limits.yaml",
         "elections/readings/*.yaml", "congress/specials-state.yaml", "congress/specials-cq.yaml",
         "congress/switches.yaml", "sources/gallup-approval.yaml", "sources/states.yaml",
         "sources/executive-sources.yaml"]

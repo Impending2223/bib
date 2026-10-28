@@ -1,0 +1,860 @@
+# The opinions of the Attorney General and the Office of Legal Counsel, Jan. 1960-Dec. 1969 (kept by hand).
+# Rendered in each day's Documents block, "Opinions", by tools/bib/opinions.py (its STYLE notes); checked there too.
+# Every row read off a copy; nothing from memory. What is known of and not read is under `known`, with its Check.
+#
+# opinions: one row an opinion or legal memorandum, in date order.
+#   key        oag:<vol>-<page> (Official Opinions of the Attorneys General); olc:supp1-<page> (Supplemental Opinions
+#              of the Office of Legal Counsel, vol. 1, 2013); frus:<volume>/d<N> (printed in FRUS); dsb:<date>-<name>
+#   kind       ag (the Attorney General's formal opinion, in the Official Opinions); olc (the Office of Legal Counsel's);
+#              doj (another officer's of the Department: the Deputy Attorney General's, an Attorney General's informal
+#              memorandum); state (the State Department's Legal Adviser's: noted, not the Department of Justice's)
+#   cite       the Bluebook's: "42 Op. Att'y Gen. 69 (1961)"; the Office's own form for its supplement, "1 Op. O.L.C.
+#              Supp. 195 (1961)"; the FRUS document; the Bulletin's issue and page
+#   date       the opinion's date as printed (YYYY-MM-DD)
+#   filed      frus: undated, filed under the date of the FRUS document that prints it (see note)
+#   title      the heading as printed (the volume's in capitals, put in title case); FRUS's subject line
+#   by         the signer, as Part III writes names ("Kennedy, Robert F."); none where unsigned
+#   by_title   his title as signed ("Acting Attorney General"; "Assistant Attorney General, Office of Legal Counsel")
+#   to         the addressee, as printed ("the President", "the Secretary of State"); none for a statement
+#   holding    one line, the series' plain style, from the headnotes and the text
+#   note       what the volume or its editor says of the signer, the date or the publication
+#   released   the date the volume says it was released for publication, where later than the opinion
+#   made_public  the year a private opinion was first printed (the supplement: 2013)
+#   copy       the open copy read, linked at the opinion's first page
+#   read       the copy and the page or leaf read
+# known: opinions known of from another document and not read: key, kind (known), date (as close as known),
+#   by_title, what, source (the document that names it, cited), check (what to find).
+opinions:
+- key: oag:41-441
+  kind: ag
+  cite: 41 Op. Att'y Gen. 441 (1960)
+  date: '1960-01-15'
+  title: Old Georgetown Act—District of Columbia
+  by: Rogers, William P.
+  by_title: Attorney General
+  to: the President
+  holding: 'The Old Georgetown Act: the District Commissioners must refer to the Fine Arts Commission plans for new buildings
+    as well as old, and for signs, fences and walls.'
+  copy: https://archive.org/details/op-atty-gen/041/page/n475/mode/1up
+  read: 41 Op. Att'y Gen. 441, Google's scan on archive.org (op-atty-gen, 041), leaf 475
+- key: oag:41-452
+  kind: ag
+  cite: 41 Op. Att'y Gen. 452 (1960)
+  date: '1960-01-19'
+  title: Administrative Certificates of Citizenship
+  by: Rogers, William P.
+  by_title: Attorney General
+  to: Eric H. Hager, Legal Adviser, Department of State
+  holding: An administrative certificate of citizenship binds the State Department for passports; no proceeding to cancel
+    Flegenheimer's certificate.
+  copy: https://archive.org/details/op-atty-gen/041/page/n486/mode/1up
+  read: 41 Op. Att'y Gen. 452, Google's scan on archive.org (op-atty-gen, 041), leaf 486
+- key: oag:41-463
+  kind: ag
+  cite: 41 Op. Att'y Gen. 463 (1960)
+  date: '1960-07-14'
+  title: Recess Appointments
+  by: Walsh, Lawrence E.
+  by_title: Acting Attorney General
+  to: the President
+  holding: The President may make recess appointments during the Senate's adjournment of July 3 to Aug. 8, 1960, to vacancies
+    that arose while it sat; the commissions run to the end of the next session.
+  copy: https://archive.org/details/op-atty-gen/041/page/n497/mode/1up
+  read: 41 Op. Att'y Gen. 463, Google's scan on archive.org (op-atty-gen, 041), leaf 497
+- key: oag:41-481
+  kind: ag
+  cite: 41 Op. Att'y Gen. 481 (1960)
+  date: '1960-07-18'
+  title: Old San Francisco Mint Building—Disposition as Surplus Property
+  by: Rogers, William P.
+  by_title: Attorney General
+  to: the Secretary of the Interior
+  holding: 'The bar on demolishing a building of national historic significance does not bar its sale: the GSA may sell
+    the Old Mint.'
+  copy: https://archive.org/details/op-atty-gen/041/page/n515/mode/1up
+  read: 41 Op. Att'y Gen. 481, Google's scan on archive.org (op-atty-gen, 041), leaf 515
+- key: oag:41-488
+  kind: ag
+  cite: 41 Op. Att'y Gen. 488 (1960)
+  date: '1960-09-26'
+  title: Federal Aid Highway Program—Prevailing Wage Determination
+  by: Rogers, William P.
+  by_title: Attorney General
+  to: the Secretary of Commerce
+  holding: The Secretary of Labor may rule truck owner-operators on federal highway projects laborers under the Davis-Bacon
+    Act and 23 U.S.C. 113.
+  copy: https://archive.org/details/op-atty-gen/041/page/n522/mode/1up
+  read: 41 Op. Att'y Gen. 488, Google's scan on archive.org (op-atty-gen, 041), leaf 522
+- key: oag:42-3
+  kind: ag
+  cite: 42 Op. Att'y Gen. 3 (1960)
+  date: '1960-11-30'
+  title: NS "Savannah"—Executive Agreements Waiving Sovereign Immunity and Limitation of Shipowner's Liability
+  by: Rogers, William P.
+  by_title: Attorney General
+  to: the Secretary of Commerce and the Chairman of the Atomic Energy Commission
+  holding: The Secretary of State may agree, for the Savannah's foreign voyages, to waive sovereign immunity and the limitation
+    of liability for a nuclear incident.
+  copy: https://archive.org/details/op-atty-gen/042/page/n27/mode/1up
+  read: 42 Op. Att'y Gen. 3, Google's scan on archive.org (op-atty-gen, 042), leaf 27
+  released: '1966-05-23'
+- key: oag:41-507
+  kind: ag
+  cite: 41 Op. Att'y Gen. 507 (1960)
+  date: '1960-12-19'
+  title: Mutual Security Program—Cutoff of Funds From Office of Inspector General and Comptroller
+  by: Rogers, William P.
+  by_title: Attorney General
+  to: the President
+  holding: The Mutual Security Act does not cut off the Inspector General and Comptroller's funds for documents withheld
+    from Hardy's subcommittee under the President's certificate; Congress cannot compel the President's information by a
+    condition on appropriations.
+  copy: https://archive.org/details/op-atty-gen/041/page/n541/mode/1up
+  read: 41 Op. Att'y Gen. 507, Google's scan on archive.org (op-atty-gen, 041), leaf 541
+- key: olc:supp1-195
+  kind: olc
+  cite: 1 Op. O.L.C. Supp. 195 (1961)
+  date: '1961-01-25'
+  title: Authority of the President to Blockade Cuba
+  by: Kramer, Robert
+  by_title: Assistant Attorney General, Office of Legal Counsel
+  to: the Attorney General
+  holding: A blockade of Cuba is lawful as an incident of a state of war, legal or de facto, and conceivably as a necessary
+    measure of defense; Cuba could contest it in American courts, the UN and the OAS.
+  copy: https://www.justice.gov/olc/file/477221/dl#page=211
+  read: 1 Op. O.L.C. Supp. 195, the Office's PDF on justice.gov, PDF page 211
+  made_public: '2013'
+- key: olc:supp1-206
+  kind: olc
+  cite: 1 Op. O.L.C. Supp. 206 (1961)
+  date: '1961-02-28'
+  title: Authority of the President to Designate Another Member as Chairman of the Federal Power Commission
+  by: Katzenbach, Nicholas
+  by_title: Assistant Attorney General, Office of Legal Counsel
+  to: the Assistant Special Counsel to the President
+  holding: A substantial argument for the President's power to name another chairman; too doubtful to predict a court.
+  copy: https://www.justice.gov/olc/file/477221/dl#page=222
+  read: 1 Op. O.L.C. Supp. 206, the Office's PDF on justice.gov, PDF page 222
+  made_public: '2013'
+- key: olc:supp1-214
+  kind: olc
+  cite: 1 Op. O.L.C. Supp. 214 (1961)
+  date: '1961-03-09'
+  title: Participation of the Vice President in the Affairs of the Executive Branch
+  by: Katzenbach, Nicholas
+  by_title: Assistant Attorney General, Office of Legal Counsel
+  to: the Vice President
+  holding: No general bar to the President's giving the Vice President executive duties, but for those the President must
+    exercise himself; in foreign affairs he may act as the President's representative anywhere.
+  copy: https://www.justice.gov/olc/file/477221/dl#page=230
+  read: 1 Op. O.L.C. Supp. 214, the Office's PDF on justice.gov, PDF page 230
+  made_public: '2013'
+- key: olc:supp1-225
+  kind: olc
+  cite: 1 Op. O.L.C. Supp. 225 (1961)
+  date: '1961-04-12'
+  title: Intervention by States and Private Groups in the Internal Affairs of Another State
+  by: Katzenbach, Nicholas
+  by_title: Assistant Attorney General, Office of Legal Counsel
+  to: the Attorney General
+  holding: A neutral state violates international law if it lets organized armed forces launch an attack from, pass through
+    or train on its territory; not if private parties supply arms or recruit volunteers short of an organized force.
+  copy: https://www.justice.gov/olc/file/477221/dl#page=241
+  read: 1 Op. O.L.C. Supp. 225, the Office's PDF on justice.gov, PDF page 241
+  made_public: '2013'
+- key: oag:42-21
+  kind: ag
+  cite: 42 Op. Att'y Gen. 21 (1961)
+  date: '1961-04-14'
+  title: Development Loan Fund Guaranties Under Mutual Security Act of 1954, as Amended
+  by: Kennedy, Robert F.
+  by_title: Attorney General
+  to: the President
+  holding: A Development Loan Fund guaranty is a general obligation of the United States.
+  copy: https://archive.org/details/op-atty-gen/042/page/n45/mode/1up
+  read: 42 Op. Att'y Gen. 21, Google's scan on archive.org (op-atty-gen, 042), leaf 45
+- key: oag:42-27
+  kind: ag
+  cite: 42 Op. Att'y Gen. 27 (1961)
+  date: '1961-04-25'
+  title: Second Liberty Bond Act, as Amended—Bonds Issued at Discount
+  by: Kennedy, Robert F.
+  by_title: Attorney General
+  to: the Secretary of the Treasury
+  holding: 'The 4¼ percent ceiling limits the coupon rate only: the Treasury may sell bonds at a discount that yields more.'
+  copy: https://archive.org/details/op-atty-gen/042/page/n51/mode/1up
+  read: 42 Op. Att'y Gen. 27, Google's scan on archive.org (op-atty-gen, 042), leaf 51
+- key: olc:supp1-230
+  kind: olc
+  cite: 1 Op. O.L.C. Supp. 230 (1961)
+  date: '1961-05-11'
+  title: Authority of the President to Reassign the Chairmanship of the Federal Power Commission
+  by: Katzenbach, Nicholas
+  by_title: Assistant Attorney General, Office of Legal Counsel
+  to: the Attorney General
+  holding: The President may remove Kuykendall as chairman and name Swidler; probably, not certainly, sustained in court.
+  copy: https://www.justice.gov/olc/file/477221/dl#page=246
+  read: 1 Op. O.L.C. Supp. 230, the Office's PDF on justice.gov, PDF page 246
+  made_public: '2013'
+- key: oag:42-37
+  kind: ag
+  cite: 42 Op. Att'y Gen. 37 (1961)
+  date: '1961-06-01'
+  title: Veterans' Benefits—Eligibility of Widows
+  by: Kennedy, Robert F.
+  by_title: Attorney General
+  to: John S. Gleason, Jr., Administrator of Veterans' Affairs
+  holding: 'The bar on marriage of first cousins is a "legal impediment" under the act of 1958: a widow who did not know
+    of it may take benefits.'
+  copy: https://archive.org/details/op-atty-gen/042/page/n61/mode/1up
+  read: 42 Op. Att'y Gen. 37, Google's scan on archive.org (op-atty-gen, 042), leaf 61
+- key: oag:42-43
+  kind: ag
+  cite: 42 Op. Att'y Gen. 43 (1961)
+  date: '1961-06-12'
+  title: Hawaiian Statehood Act—Scope of Duty to Report on Property Retained by the United States
+  by: Kennedy, Robert F.
+  by_title: Attorney General
+  to: the President
+  holding: The duty to report on federal property kept in Hawaii covers the lands ceded at annexation, not those acquired
+    since.
+  copy: https://archive.org/details/op-atty-gen/042/page/n67/mode/1up
+  read: 42 Op. Att'y Gen. 43, Google's scan on archive.org (op-atty-gen, 042), leaf 67
+- key: oag:42-69
+  kind: ag
+  cite: 42 Op. Att'y Gen. 69 (1961)
+  date: '1961-08-02'
+  title: Presidential Inability
+  by: Kennedy, Robert F.
+  by_title: Attorney General
+  to: the President
+  holding: The Vice President acts as President during an inability and decides it where the President cannot; the President
+    decides when it ends. The Eisenhower-Nixon memorandum of Mar. 3, 1958, construes the clause rightly.
+  copy: https://archive.org/details/op-atty-gen/042/page/n93/mode/1up
+  read: 42 Op. Att'y Gen. 69, Google's scan on archive.org (op-atty-gen, 042), leaf 93
+- key: oag:42-97
+  kind: ag
+  cite: 42 Op. Att'y Gen. 97 (1961)
+  date: '1961-09-26'
+  title: Validity of Executive Order Prohibiting Government Contractors From Discriminating in Employment Practices
+  by: Kennedy, Robert F.
+  by_title: Attorney General
+  to: Lyndon B. Johnson, the Vice President
+  holding: 'Executive Order 10925''s nondiscrimination clause and sanctions are valid: the United States may fix the terms
+    on which it buys.'
+  copy: https://archive.org/details/op-atty-gen/042/page/n121/mode/1up
+  read: 42 Op. Att'y Gen. 97, Google's scan on archive.org (op-atty-gen, 042), leaf 121
+  released: '1965-10-26'
+- key: olc:supp1-240
+  kind: olc
+  cite: 1 Op. O.L.C. Supp. 240 (1961)
+  date: '1961-10-10'
+  title: Lobbying by Executive Branch Personnel
+  by: Katzenbach, Nicholas
+  by_title: Assistant Attorney General, Office of Legal Counsel
+  to: the Assistant Attorney General, Criminal Division
+  holding: 18 U.S.C. 1913 does not bar Moyers's calls on Members for the Peace Corps bill; read literally, it would raise
+    grave constitutional doubt.
+  copy: https://www.justice.gov/olc/file/477221/dl#page=256
+  read: 1 Op. O.L.C. Supp. 240, the Office's PDF on justice.gov, PDF page 256
+  made_public: '2013'
+- key: frus:frus1961-63v25/d188
+  kind: olc
+  cite: FRUS 1961–63, XXV, doc. 188
+  date: '1961-10-20'
+  title: Appointment of successor to Secretary-General Hammarskjold
+  by: Katzenbach, Nicholas
+  by_title: Assistant Attorney General, Office of Legal Counsel
+  to: the Special Assistant for National Security Affairs (Bundy)
+  holding: The General Assembly may amend its staff regulation to act, on a Secretary-General's death with no deputy named,
+    by deputizing an Under Secretary or naming a person to his powers.
+  copy: https://history.state.gov/historicaldocuments/frus1961-63v25/d188
+  read: 'FRUS 1961–63, XXV, doc. 188 (the text the daybook files: sources/frus-text/1961-10)'
+- key: frus:frus1961-63v07-09mSupp/d254
+  kind: olc
+  cite: FRUS 1961–63, VII–IX, microfiche supp., doc. 254
+  date: '1962-01-15'
+  filed: frus
+  title: Draft Presidential Memorandum to Director of Central Intelligence on his duties
+  by: Katzenbach, Nicholas
+  by_title: Assistant Attorney General, Office of Legal Counsel
+  to: the Attorney General
+  holding: 'The President''s draft memorandum on the Director of Central Intelligence''s duties raises no legal problem
+    and takes no department''s statutory duties: within 50 U.S.C. 402 and 403.'
+  note: Not dated; attached to Coyne's memorandum to Bundy of Jan. 15, 1962, which says the Attorney General approved the
+    draft Jan. 12 on it. Filed under Jan. 15.
+  copy: https://history.state.gov/historicaldocuments/frus1961-63v07-09mSupp/d254
+  read: FRUS 1961–63, VII–IX, Microfiche Supp., doc. 254 (sources/frus-text/1962-01)
+- key: oag:42-111
+  kind: ag
+  cite: 42 Op. Att'y Gen. 111 (1962)
+  date: '1962-01-31'
+  title: Conflict-of-Interest Statutes; Intermittent Consultants or Advisers
+  by: Kennedy, Robert F.
+  by_title: Attorney General
+  to: the President
+  holding: An intermittent consultant or adviser is an officer or employee under the conflict-of-interest statutes, on the
+    days he serves and, where the service is substantial, on others.
+  copy: https://archive.org/details/op-atty-gen/042/page/n135/mode/1up
+  read: 42 Op. Att'y Gen. 111, Google's scan on archive.org (op-atty-gen, 042), leaf 135
+- key: oag:42-127
+  kind: ag
+  cite: 42 Op. Att'y Gen. 127 (1962)
+  date: '1962-02-01'
+  title: Rights-of-Way Across National Forests
+  by: Kennedy, Robert F.
+  by_title: Attorney General
+  to: the Secretary of Agriculture
+  holding: '"Actual settlers" in the act of 1897 are settlers residing in the forests, not owners of property there.'
+  copy: https://archive.org/details/op-atty-gen/042/page/n151/mode/1up
+  read: 42 Op. Att'y Gen. 127, Google's scan on archive.org (op-atty-gen, 042), leaf 151
+- key: oag:42-151
+  kind: ag
+  cite: 42 Op. Att'y Gen. 151 (1962)
+  date: '1962-02-21'
+  title: Confidentiality of "Voluntary" Reports Under the Census Laws
+  by: White, Byron R.
+  by_title: Acting Attorney General
+  to: the Secretary of Commerce
+  holding: The census confidentiality provisions cover the "voluntary" replies to the Bureau's more-than-annual surveys.
+  copy: https://archive.org/details/op-atty-gen/042/page/n175/mode/1up
+  read: 42 Op. Att'y Gen. 151, Google's scan on archive.org (op-atty-gen, 042), leaf 175
+- key: olc:supp1-248
+  kind: olc
+  cite: 1 Op. O.L.C. Supp. 248 (1962)
+  date: '1962-02-26'
+  title: Authority of Congress to Regulate Wiretapping by the States
+  by: Katzenbach, Nicholas
+  by_title: Assistant Attorney General, Office of Legal Counsel
+  to: the Deputy Attorney General
+  holding: The commerce power lets Congress govern the States' wiretapping, their courts' evidence and orders, as the Department's
+    bill would.
+  copy: https://www.justice.gov/olc/file/477221/dl#page=264
+  read: 1 Op. O.L.C. Supp. 248, the Office's PDF on justice.gov, PDF page 264
+  made_public: '2013'
+- key: oag:42-157
+  kind: ag
+  cite: 42 Op. Att'y Gen. 157 (1962)
+  date: '1962-06-14'
+  title: Appointment and Promotion of Women in Federal Civil Service
+  by: Kennedy, Robert F.
+  by_title: Attorney General
+  to: the President
+  holding: The President may prescribe when appointing officers may consider only men or only women; 38 Op. Att'y Gen. 77
+    (1934) overruled.
+  copy: https://archive.org/details/op-atty-gen/042/page/n181/mode/1up
+  read: 42 Op. Att'y Gen. 157, Google's scan on archive.org (op-atty-gen, 042), leaf 181
+- key: olc:supp1-251
+  kind: olc
+  cite: 1 Op. O.L.C. Supp. 251 (1962)
+  date: '1962-08-30'
+  title: Authority Under International Law to Take Action If the Soviet Union Establishes Missile Bases in Cuba
+  by: Schlei, Norbert A.
+  by_title: Assistant Attorney General, Office of Legal Counsel
+  to: the Attorney General
+  holding: International law would permit force against Soviet missile bases in Cuba, after the OAS and the UN where time
+    allows, and no more than necessary.
+  copy: https://www.justice.gov/olc/file/477221/dl#page=267
+  read: 1 Op. O.L.C. Supp. 251, the Office's PDF on justice.gov, PDF page 267
+  made_public: '2013'
+- key: olc:supp1-486
+  kind: olc
+  cite: 1 Op. O.L.C. Supp. 486 (1962)
+  date: '1962-10-19'
+  title: Legal and Practical Consequences of a Blockade of Cuba
+  holding: The President may establish a blockade of Cuba under the laws of the United States without further action by
+    Congress; it may be questioned in the OAS and the UN, and taken by Cuba and the Soviet bloc as an act of war.
+  note: Unsigned and unaddressed, in the Office's daybooks; the editor's note suggests Meeker of State, perhaps with Katzenbach.
+  copy: https://www.justice.gov/olc/file/477221/dl#page=502
+  read: 1 Op. O.L.C. Supp. 486, the Office's PDF on justice.gov, PDF page 502
+  made_public: '2013'
+- key: frus:frus1961-63v10-12mSupp/d374
+  kind: doj
+  cite: FRUS 1961–63, X–XII, microfiche supp., doc. 374
+  date: '1962-10-23'
+  title: Proclamation re Cuba
+  by: Katzenbach, Nicholas
+  by_title: Deputy Attorney General
+  to: the Attorney General
+  holding: Russian ships not bound for Cuba could be searched within a reasonable prescribed zone, or where a change of
+    course was a ruse; the draft proclamation reaches only ships bound for Cuba.
+  copy: https://history.state.gov/historicaldocuments/frus1961-63v10-12mSupp/d374
+  read: FRUS 1961–63, X–XII, Microfiche Supp., doc. 374 (sources/frus-text/1962-10)
+- key: oag:42-165
+  kind: ag
+  cite: 42 Op. Att'y Gen. 165 (1962)
+  date: '1962-10-25'
+  title: Communications Satellite Corporation
+  by: Kennedy, Robert F.
+  by_title: Attorney General
+  to: the President
+  holding: The incorporators and the President's three directors of the communications satellite corporation hold private
+    posts, not offices of the United States, though appointed with the Senate's consent.
+  copy: https://archive.org/details/op-atty-gen/042/page/n189/mode/1up
+  read: 42 Op. Att'y Gen. 165, Google's scan on archive.org (op-atty-gen, 042), leaf 189
+- key: oag:42-173
+  kind: ag
+  cite: 42 Op. Att'y Gen. 173 (1963)
+  date: '1963-02-07'
+  title: Eligibility of Certain Public Lands for Selection by Utah as Indemnity for Lost School Lands
+  by: Kennedy, Robert F.
+  by_title: Attorney General
+  to: the Secretary of the Interior
+  holding: 'Lands under potash lease are not in "producible status" until the mineral can be mined in commercial quantities:
+    Utah may select them for its lost school lands.'
+  copy: https://archive.org/details/op-atty-gen/042/page/n197/mode/1up
+  read: 42 Op. Att'y Gen. 173, Google's scan on archive.org (op-atty-gen, 042), leaf 197
+- key: oag:42-183
+  kind: ag
+  cite: 42 Op. Att'y Gen. 183 (1963)
+  date: '1963-05-09'
+  title: Agency for International Development Guaranties Under the Foreign Assistance Act of 1961, as Amended
+  by: Kennedy, Robert F.
+  by_title: Attorney General
+  to: the President
+  holding: AID's unrestricted investment guaranties are general obligations of the United States, its full faith and credit
+    pledged.
+  copy: https://archive.org/details/op-atty-gen/042/page/n207/mode/1up
+  read: 42 Op. Att'y Gen. 183, Google's scan on archive.org (op-atty-gen, 042), leaf 207
+- key: olc:supp1-278
+  kind: olc
+  cite: 1 Op. O.L.C. Supp. 278 (1963)
+  date: '1963-05-10'
+  title: Proposal That the President Accept Honorary Irish Citizenship
+  by: Schlei, Norbert A.
+  by_title: Assistant Attorney General, Office of Legal Counsel
+  to: the Special Assistant to the President (Bundy)
+  holding: 'Honorary Irish citizenship falls within the spirit of the Emoluments Clause: the President may take part in
+    the ceremony and deposit the document with the State Department, subject to Congress''s consent.'
+  copy: https://www.justice.gov/olc/file/477221/dl#page=294
+  read: 1 Op. O.L.C. Supp. 278, the Office's PDF on justice.gov, PDF page 294
+  made_public: '2013'
+- key: oag:42-189
+  kind: ag
+  cite: 42 Op. Att'y Gen. 189 (1963)
+  date: '1963-08-07'
+  title: Nonapplicability of the Foreign Dredge Act to the Virgin Islands
+  by: Kennedy, Robert F.
+  by_title: Attorney General
+  to: the President
+  holding: The foreign dredge act, a coastwise law, does not apply in the Virgin Islands.
+  copy: https://archive.org/details/op-atty-gen/042/page/n213/mode/1up
+  read: 42 Op. Att'y Gen. 189, Google's scan on archive.org (op-atty-gen, 042), leaf 213
+- key: oag:42-203
+  kind: ag
+  cite: 42 Op. Att'y Gen. 203 (1963)
+  date: '1963-08-29'
+  title: Cargo Preference Act—Sale of Agricultural Surplus Commodities on Credit
+  by: Kennedy, Robert F.
+  by_title: Attorney General
+  to: the Secretary of Agriculture
+  holding: 'Title IV credit sales of surplus commodities to the private trade fall under the Cargo Preference Act: half
+    in American ships.'
+  copy: https://archive.org/details/op-atty-gen/042/page/n227/mode/1up
+  read: 42 Op. Att'y Gen. 203, Google's scan on archive.org (op-atty-gen, 042), leaf 227
+- key: oag:42-229
+  kind: ag
+  cite: 42 Op. Att'y Gen. 229 (1963)
+  date: '1963-10-09'
+  title: Export Sales of Agricultural Commodities to Soviet Union and Eastern European Bloc Countries
+  by: Kennedy, Robert F.
+  by_title: Attorney General
+  to: the Secretary of State
+  holding: Wheat sales to the Soviet Union and Eastern Europe on normal commercial credit are not loans under the Johnson
+    Act; the Agricultural Act of 1961's declaration of policy does not bar them.
+  copy: https://archive.org/details/op-atty-gen/042/page/n253/mode/1up
+  read: 42 Op. Att'y Gen. 229, Google's scan on archive.org (op-atty-gen, 042), leaf 253
+- key: oag:42-241
+  kind: ag
+  cite: 42 Op. Att'y Gen. 241 (1963)
+  date: '1963-12-20'
+  title: Title to Naturally-Made Lands Under the Submerged Lands Act
+  by: Cox, Archibald
+  by_title: Solicitor General; approved by the Attorney General
+  to: the Secretary of the Interior
+  holding: The Submerged Lands Act gave up federal title to islands formed naturally on lands beneath navigable waters;
+    the Wallis ruling to be revoked.
+  copy: https://archive.org/details/op-atty-gen/042/page/n265/mode/1up
+  read: 42 Op. Att'y Gen. 241, Google's scan on archive.org (op-atty-gen, 042), leaf 265
+  note: 'Signed by Cox as Solicitor General; "Approved: Robert F. Kennedy."'
+- key: olc:supp1-285
+  kind: olc
+  cite: 1 Op. O.L.C. Supp. 285 (1963)
+  date: '1963-12-26'
+  title: Providing Government Films to the Democratic National Committee or Congressmen
+  by: Schlei, Norbert A.
+  by_title: Assistant Attorney General, Office of Legal Counsel
+  to: the Assistant Special Counsel to the President
+  holding: Government films may go to the Democratic National Committee or Members only where a statute allows release,
+    or on loan open to all; none made for the purpose.
+  copy: https://www.justice.gov/olc/file/477221/dl#page=301
+  read: 1 Op. O.L.C. Supp. 285, the Office's PDF on justice.gov, PDF page 301
+  made_public: '2013'
+- key: oag:42-269
+  kind: ag
+  cite: 42 Op. Att'y Gen. 269 (1964)
+  date: '1964-06-12'
+  title: Mackinac Island State Park, Michigan—Possible Reversion of Parklands to United States
+  by: Kennedy, Robert F.
+  by_title: Attorney General
+  to: the President
+  holding: 'A small airport in Mackinac Island State Park is a park use: the land does not revert to the United States.'
+  copy: https://archive.org/details/op-atty-gen/042/page/n293/mode/1up
+  read: 42 Op. Att'y Gen. 269, Google's scan on archive.org (op-atty-gen, 042), leaf 293
+- key: olc:supp1-493
+  kind: doj
+  cite: 1 Op. O.L.C. Supp. 493 (1964)
+  date: '1964-07-01'
+  title: Use of Marshals, Troops, and Other Federal Personnel for Law Enforcement in Mississippi
+  by: Katzenbach, Nicholas
+  by_title: Deputy Attorney General
+  to: the President
+  holding: Federal agents may investigate and prosecute federal crimes in Mississippi; troops under 10 U.S.C. 332 and 333
+    only on more evidence that the State's law enforcement has broken down.
+  note: Sent through Lee White, Special Assistant to the President, with a cover memorandum of the same date.
+  copy: https://www.justice.gov/olc/file/477221/dl#page=509
+  read: 1 Op. O.L.C. Supp. 493, the Office's PDF on justice.gov, PDF page 509
+  made_public: '2013'
+- key: oag:42-281
+  kind: ag
+  cite: 42 Op. Att'y Gen. 281 (1964)
+  date: '1964-11-05'
+  title: Authority Over Voluntary Disclosure of Records Pertaining to Office of the Comptroller of the Currency
+  by: Katzenbach, Nicholas
+  by_title: Acting Attorney General
+  to: the Secretary of the Treasury
+  holding: The Secretary of the Treasury controls the voluntary disclosure of the Comptroller of the Currency's records.
+  copy: https://archive.org/details/op-atty-gen/042/page/n305/mode/1up
+  read: 42 Op. Att'y Gen. 281, Google's scan on archive.org (op-atty-gen, 042), leaf 305
+- key: oag:42-289
+  kind: ag
+  cite: 42 Op. Att'y Gen. 289 (1964)
+  date: '1964-11-24'
+  title: Administrative Procedure Act, Promotion to Chief Hearing Examiner at Increased Compensation
+  by: Katzenbach, Nicholas
+  by_title: Acting Attorney General
+  to: the President
+  holding: The employing agency, not the Civil Service Commission, selects a chief hearing examiner.
+  copy: https://archive.org/details/op-atty-gen/042/page/n313/mode/1up
+  read: 42 Op. Att'y Gen. 289, Google's scan on archive.org (op-atty-gen, 042), leaf 313
+- key: oag:42-301
+  kind: ag
+  cite: 42 Op. Att'y Gen. 301 (1965)
+  date: '1965-04-26'
+  title: Carriage in United States Vessels of Exports Financed by a Government Agency
+  by: Katzenbach, Nicholas
+  by_title: Attorney General
+  to: the Secretary of Commerce
+  holding: 'Public Resolution 17 of 1934 is not mandatory: half the cargoes may go in the recipient country''s ships.'
+  copy: https://archive.org/details/op-atty-gen/042/page/n325/mode/1up
+  read: 42 Op. Att'y Gen. 301, Google's scan on archive.org (op-atty-gen, 042), leaf 325
+- key: frus:frus1964-68v02/d345
+  kind: doj
+  cite: FRUS 1964–68, II, doc. 345
+  date: '1965-06-10'
+  title: Whether further Congressional approval is necessary or desirable in connection with proposed deployment and use
+    of troops in South Vietnam
+  by: Katzenbach, Nicholas
+  by_title: Attorney General
+  to: the President
+  holding: 'No further approval by Congress needed, as a matter of law, for 30,000 to 40,000 more troops and their use against
+    Viet Cong concentrations: the Commander in Chief''s power, and the Southeast Asia resolution.'
+  note: The date handwritten on the source text (FRUS's note).
+  copy: https://history.state.gov/historicaldocuments/frus1964-68v02/d345
+  read: FRUS 1964–68, II, doc. 345 (sources/frus-text/1965-06)
+- key: frus:frus1964-68v08/d293
+  kind: doj
+  cite: FRUS 1964–68, VIII, doc. 293
+  date: '1965-09-23'
+  title: Economy Cars—Joint Venture
+  by: Katzenbach, Nicholas
+  by_title: Attorney General
+  to: the President
+  holding: A joint venture of the American manufacturers to build an economy car would violate section 7 of the Clayton
+    Act; legislation to exempt it undesirable.
+  copy: https://history.state.gov/historicaldocuments/frus1964-68v08/d293
+  read: FRUS 1964–68, VIII, doc. 293 (sources/frus-text/1965-09)
+- key: oag:42-305
+  kind: ag
+  cite: 42 Op. Att'y Gen. 305 (1965)
+  date: '1965-11-02'
+  title: Bonds or Notes Issued by Local Urban Renewal or Public Housing Agencies
+  by: Katzenbach, Nicholas
+  by_title: Attorney General
+  to: the President
+  holding: The federal contract securing local urban renewal and public housing bonds binds the United States, litigation
+    pending or not.
+  copy: https://archive.org/details/op-atty-gen/042/page/n329/mode/1up
+  read: 42 Op. Att'y Gen. 305, Google's scan on archive.org (op-atty-gen, 042), leaf 329
+- key: frus:frus1964-68v09/d301
+  kind: doj
+  cite: FRUS 1964–68, IX, doc. 301
+  date: '1965-11-15'
+  title: Disposal of Copper from the National Stockpile
+  by: Katzenbach, Nicholas
+  by_title: Attorney General
+  to: the Director of the Office of Emergency Planning (Ellington)
+  holding: Copper may be released from the stockpile under section 5 only on the President's finding that the release is
+    required for the common defense; the facts given support it.
+  copy: https://history.state.gov/historicaldocuments/frus1964-68v09/d301
+  read: FRUS 1964–68, IX, doc. 301 (sources/frus-text/1965-11)
+- key: oag:42-311
+  kind: ag
+  cite: 42 Op. Att'y Gen. 311 (1965)
+  date: '1965-11-23'
+  title: Validity of Certain Documents Executed by Personnel of the Department of Housing and Urban Development
+  by: Katzenbach, Nicholas
+  by_title: Attorney General
+  to: the President
+  holding: Documents HUD's personnel signed from Nov. 9, 1965, before a Secretary was appointed, bind the United States.
+  copy: https://archive.org/details/op-atty-gen/042/page/n335/mode/1up
+  read: 42 Op. Att'y Gen. 311, Google's scan on archive.org (op-atty-gen, 042), leaf 335
+- key: oag:42-317
+  kind: ag
+  cite: 42 Op. Att'y Gen. 317 (1965)
+  date: '1965-12-30'
+  title: Importation of Meats and Animals That Have Transited Countries Infected With Foot-and-Mouth Disease or Rinderpest
+  by: Katzenbach, Nicholas
+  by_title: Attorney General
+  to: the Secretary of Agriculture
+  holding: The Secretary of Agriculture may ban only the meats and animals whose transit of an infected country is an undue
+    risk.
+  copy: https://archive.org/details/op-atty-gen/042/page/n341/mode/1up
+  read: 42 Op. Att'y Gen. 317, Google's scan on archive.org (op-atty-gen, 042), leaf 341
+- key: dsb:1966-03-04-meeker
+  kind: state
+  cite: Department of State Bulletin, Mar. 28, 1966, p. 474
+  date: '1966-03-04'
+  title: The Legality of United States Participation in the Defense of Viet-Nam
+  by: Meeker, Leonard C.
+  by_title: Legal Adviser, Department of State
+  to: the Senate Committee on Foreign Relations
+  holding: The United States and South Vietnam have the right under international law to the collective defense of South
+    Vietnam against armed attack from the North.
+  note: 'The State Department''s, not the Justice Department''s: submitted to the Senate Foreign Relations Committee Mar.
+    8, 1966 (the Bulletin''s note).'
+  copy: https://archive.org/details/departmentofstat541966unit/page/474/mode/1up
+  read: Department of State Bulletin, Mar. 28, 1966, p. 474, the archive.org copy's OCR (departmentofstat541966unit)
+- key: oag:42-323
+  kind: ag
+  cite: 42 Op. Att'y Gen. 323 (1966)
+  date: '1966-09-30'
+  title: Federal National Mortgage Association Guaranties of Participation Certificates
+  by: Katzenbach, Nicholas
+  by_title: Attorney General
+  to: the Secretary of the Treasury
+  holding: FNMA's guaranties of its participation certificates are general obligations of the United States.
+  copy: https://archive.org/details/op-atty-gen/042/page/n347/mode/1up
+  read: 42 Op. Att'y Gen. 323, Google's scan on archive.org (op-atty-gen, 042), leaf 347
+- key: oag:42-327
+  kind: ag
+  cite: 42 Op. Att'y Gen. 327 (1966)
+  date: '1966-09-30'
+  title: Export-Import Bank Guaranties of Participation Certificates and Other Contractual Liabilities
+  by: Katzenbach, Nicholas
+  by_title: Attorney General
+  to: the Secretary of the Treasury
+  holding: The Export-Import Bank's guaranties of participation certificates are general obligations of the United States.
+  copy: https://archive.org/details/op-atty-gen/042/page/n351/mode/1up
+  read: 42 Op. Att'y Gen. 327, Google's scan on archive.org (op-atty-gen, 042), leaf 351
+- key: oag:42-331
+  kind: ag
+  cite: 42 Op. Att'y Gen. 331 (1966)
+  date: '1966-11-16'
+  title: Provision of Compensation by States for Removal of Billboards Under the Highway Beautification Act of 1965
+  by: Clark, Ramsey
+  by_title: Acting Attorney General
+  to: the Secretary of Commerce
+  holding: A State must pay compensation for billboards removed to escape the 10 percent cut in its highway funds, police
+    power or not; the condition is constitutional.
+  copy: https://archive.org/details/op-atty-gen/042/page/n355/mode/1up
+  read: 42 Op. Att'y Gen. 331, Google's scan on archive.org (op-atty-gen, 042), leaf 355
+- key: oag:42-341
+  kind: ag
+  cite: 42 Op. Att'y Gen. 341 (1967)
+  date: '1967-02-03'
+  title: Second Liberty Bond Act, as Amended—Participation Certificates Issued by Federal National Mortgage Association
+  by: Clark, Ramsey
+  by_title: Acting Attorney General
+  to: the Secretary of the Treasury
+  holding: 'FNMA''s participation certificates do not count against the debt limit: they sell interests in assets, not borrowing.'
+  copy: https://archive.org/details/op-atty-gen/042/page/n365/mode/1up
+  read: 42 Op. Att'y Gen. 341, Google's scan on archive.org (op-atty-gen, 042), leaf 365
+- key: oag:42-347
+  kind: ag
+  cite: 42 Op. Att'y Gen. 347 (1967)
+  date: '1967-02-25'
+  title: Federal-Aid Highway Act of 1956—Power of President to Impound Funds
+  by: Clark, Ramsey
+  by_title: Acting Attorney General
+  to: the Secretary of Transportation
+  holding: 'Appropriations permit, not compel, spending: the President may impound highway funds apportioned to the States
+    until a project is approved.'
+  copy: https://archive.org/details/op-atty-gen/042/page/n371/mode/1up
+  read: 42 Op. Att'y Gen. 347, Google's scan on archive.org (op-atty-gen, 042), leaf 371
+- key: oag:42-357
+  kind: ag
+  cite: 42 Op. Att'y Gen. 357 (1967)
+  date: '1967-05-09'
+  title: Johnson Act—Export Sales to Countries in Default in Payment of Their Obligations to the United States
+  by: Clark, Ramsey
+  by_title: Attorney General
+  to: the Secretary of State
+  holding: The Johnson Act does not bar American firms' and banks' financing of particular export sales on business terms,
+    only general loans raised from the public.
+  copy: https://archive.org/details/op-atty-gen/042/page/n381/mode/1up
+  read: 42 Op. Att'y Gen. 357, Google's scan on archive.org (op-atty-gen, 042), leaf 381
+- key: olc:supp1-290
+  kind: olc
+  cite: 1 Op. O.L.C. Supp. 290 (1967)
+  date: '1967-10-03'
+  title: Carriage of Firearms by the Marshal, Deputy Marshals, and Judges of the Customs Court
+  by: Wozencraft, Frank M.
+  by_title: Assistant Attorney General, Office of Legal Counsel
+  to: the Acting Assistant Attorney General, Civil Division
+  holding: The Customs Court's marshals have no statutory authority to carry firearms, its judges no need.
+  copy: https://www.justice.gov/olc/file/477221/dl#page=306
+  read: 1 Op. O.L.C. Supp. 290, the Office's PDF on justice.gov, PDF page 306
+  made_public: '2013'
+- key: oag:42-363
+  kind: ag
+  cite: 42 Op. Att'y Gen. 363 (1968)
+  date: '1968-02-03'
+  title: Validity of Executive Order Authorizing Program Restricting Transfers of Capital to Foreign Countries by Substantial
+    Investors in the United States
+  by: Clark, Ramsey
+  by_title: Attorney General
+  to: the Secretary of Commerce
+  holding: Executive Order 11387, the foreign direct investment program, is valid under section 5(b) of the Trading With
+    the Enemy Act; the emergency of Dec. 16, 1950, continues.
+  copy: https://archive.org/details/op-atty-gen/042/page/n387/mode/1up
+  read: 42 Op. Att'y Gen. 363, Google's scan on archive.org (op-atty-gen, 042), leaf 387
+- key: oag:42-373
+  kind: ag
+  cite: 42 Op. Att'y Gen. 373 (1968)
+  date: '1968-04-01'
+  title: Exemption of Resident Aliens From Military Service Pursuant to Treaties—Bar to Eligibility for Citizenship
+  by: Clark, Ramsey
+  by_title: Attorney General
+  to: the Secretary of State
+  holding: Treaty exemptions of resident aliens from military service stand; an alien who takes one is barred from citizenship.
+  copy: https://archive.org/details/op-atty-gen/042/page/n397/mode/1up
+  read: 42 Op. Att'y Gen. 373, Google's scan on archive.org (op-atty-gen, 042), leaf 397
+- key: oag:42-381
+  kind: ag
+  cite: 42 Op. Att'y Gen. 381 (1969)
+  date: '1969-01-03'
+  title: Member of Congress—Appointment to Civil Office Prior to Pay Increase
+  by: Clark, Ramsey
+  by_title: Attorney General
+  to: Melvin R. Laird, House of Representatives
+  holding: The Ineligibility Clause does not bar a Member's appointment to an office whose pay raise is proposed but not
+    yet final.
+  copy: https://archive.org/details/op-atty-gen/042/page/n405/mode/1up
+  read: 42 Op. Att'y Gen. 381, Google's scan on archive.org (op-atty-gen, 042), leaf 405
+- key: oag:42-385
+  kind: ag
+  cite: 42 Op. Att'y Gen. 385 (1969)
+  date: '1969-01-16'
+  title: Boards of Contract Appeals Decisions—Review by General Accounting Office and Contracting Agencies
+  by: Clark, Ramsey
+  by_title: Attorney General
+  to: the Secretary of the Air Force
+  holding: The GAO may not remand a contract appeals board's decision for factfinding.
+  copy: https://archive.org/details/op-atty-gen/042/page/n409/mode/1up
+  read: 42 Op. Att'y Gen. 385, Google's scan on archive.org (op-atty-gen, 042), leaf 409
+- key: oag:42-397
+  kind: ag
+  cite: 42 Op. Att'y Gen. 397 (1969)
+  date: '1969-01-18'
+  title: Attorney General's Statement of Interpretation Concerning Expatriation of United States Citizens
+  by: Clark, Ramsey
+  by_title: Attorney General
+  holding: After Afroyim v. Rusk, the expatriation provisions to be applied only where the act shows a voluntary relinquishment
+    of citizenship; the citizen may raise his intent.
+  copy: https://archive.org/details/op-atty-gen/042/page/n421/mode/1up
+  read: 42 Op. Att'y Gen. 397, Google's scan on archive.org (op-atty-gen, 042), leaf 421
+  note: A statement of interpretation, addressed to no one, numbered among the opinions (Op. No. 34).
+- key: olc:supp1-296
+  kind: olc
+  cite: 1 Op. O.L.C. Supp. 296 (1969)
+  date: '1969-02-27'
+  title: Constitutionality of "No Appropriation" Clause in the Watershed Protection and Flood Prevention Act
+  by: Rehnquist, William H.
+  by_title: Assistant Attorney General, Office of Legal Counsel
+  to: the Staff Assistant to the Counsel to the President
+  holding: The clause requiring committee approval of a project before an appropriation is constitutional.
+  copy: https://www.justice.gov/olc/file/477221/dl#page=312
+  read: 1 Op. O.L.C. Supp. 296, the Office's PDF on justice.gov, PDF page 312
+  made_public: '2013'
+- key: oag:42-405
+  kind: ag
+  cite: 42 Op. Att'y Gen. 405 (1969)
+  date: '1969-09-22'
+  title: Legality of Revised Philadelphia Plan
+  by: Mitchell, John N.
+  by_title: Attorney General
+  to: the Secretary of Labor
+  holding: The Revised Philadelphia Plan's goals for hiring minority workers on federal contracts are lawful under Executive
+    Order 11246 and do not violate Title VII.
+  copy: https://archive.org/details/op-atty-gen/042/page/n429/mode/1up
+  read: 42 Op. Att'y Gen. 405, Google's scan on archive.org (op-atty-gen, 042), leaf 429
+- key: olc:supp1-303
+  kind: olc
+  cite: 1 Op. O.L.C. Supp. 303 (1969)
+  date: '1969-12-01'
+  title: Presidential Authority to Impound Funds Appropriated for Assistance to Federally Impacted Schools
+  by: Rehnquist, William H.
+  by_title: Assistant Attorney General, Office of Legal Counsel
+  holding: The impacted-areas school act leaves the Commissioner of Education no discretion to spend less than the sum appropriated,
+    and the President has no constitutional power to impound it.
+  copy: https://www.justice.gov/olc/file/477221/dl#page=319
+  read: 1 Op. O.L.C. Supp. 303, the Office's PDF on justice.gov, PDF page 319
+  made_public: '2013'
+  to: the General Counsel, Bureau of the Budget
+- key: oag:42-417
+  kind: ag
+  cite: 42 Op. Att'y Gen. 417 (1969)
+  date: '1969-12-29'
+  title: Farmers Home Administration Obligations Under the Consolidated Farmers Home Administration Act and the Housing
+    Act
+  by: Mitchell, John N.
+  by_title: Attorney General
+  to: the Secretary of Agriculture
+  holding: The Farmers Home Administration's insurance of the notes it sells is a general obligation of the United States.
+  copy: https://archive.org/details/op-atty-gen/042/page/n441/mode/1up
+  read: 42 Op. Att'y Gen. 417, Google's scan on archive.org (op-atty-gen, 042), leaf 441
+known:
+- key: ppp:1960-01-18
+  kind: known
+  date: '1960'
+  by_title: Attorney General
+  what: The Attorney General advised Eisenhower that a section of law requiring the Office of Civil and Defense Mobilization
+    to come into agreement with the Armed Services Committees on real property transactions "violates fundamental constitutional
+    principles."
+  source: 'Annual Budget Message to the Congress: Fiscal Year 1961, 1960–61 Pub. Papers 37, at 50 (Jan. 18, 1960)'
+  check: 'The opinion and its date: "As I have stated previously"; not found in 41 Op. Att''y Gen.'
+- key: ppp:1960-07-14
+  kind: known
+  date: 1960-07
+  by_title: Attorney General
+  what: The Attorney General advised Eisenhower that the refugee act's termination of the parole power by a simple resolution
+    of either House raised "a serious question" of constitutionality.
+  source: Statement by the President Upon Signing Bill Providing for the Admission of Refugees, 1960–61 Pub. Papers 579
+    (July 14, 1960)
+  check: The advice and its date; not in 41 Op. Att'y Gen.
+- key: ppp:1966-03-21
+  kind: known
+  date: 1966-03
+  by_title: Attorney General
+  what: Johnson released 200,000 tons more copper from the stockpile "based on ... the opinion of the Attorney General."
+  source: Memorandum Approving Release of Copper From the National Stockpile, 1966 Pub. Papers 336 (Mar. 21, 1966)
+  check: Whether a new opinion or Katzenbach's of Nov. 15, 1965 (FRUS 1964–68, IX, doc. 301).
+- key: ppp:1966-12-02
+  kind: known
+  date: 1966-12
+  by_title: Attorney General
+  what: 'Johnson: "The Attorney General has given me an opinion that I am acting on under the authority contained in section
+    5 of the Strategic and Critical Materials Stock Piling Act."'
+  source: The President's News Conference in Austin, Texas, 1966 Pub. Papers 1419 (Dec. 2, 1966)
+  check: The opinion (Clark, Acting Attorney General) and its date.

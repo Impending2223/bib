@@ -65,8 +65,9 @@ by the book, and the citation is dropped. Below, every case that is not a plain 
 - `cal.1965-01-06.legislatures-ny` (Albany, the Democratic majorities split). The book has nothing on the 1965
   leadership fight in the legislature (no Travia, Zaretzki or Steingut; Wagner indexed only at 666-67, the 1964 Senate
   race). Dropped.
-- `cal.1967-05-15.robert-kennedy` (CBS, *Town Meeting of the World*, with Reagan). Reagan is not in the text or the
-  index. Dropped.
+- `cal.1967-05-15.robert-kennedy` (CBS, *Town Meeting of the World*, with Reagan). Schlesinger does not treat the
+  broadcast: no "Town Meeting" in the text, Reagan neither there nor in the index. His citation dropped; the entry
+  stands on the broadcast itself and Cannon, *Governor Reagan*. The book's silence is no evidence against it.
 
 ## Held, with pages
 

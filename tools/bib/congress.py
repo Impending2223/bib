@@ -463,8 +463,34 @@ def assets(geo=None):
     return t.replace("{{geo}}", json.dumps(geo_files())).replace("{{qm}}", json.dumps(margin_quantiles()))
 
 
+COVERED = {"gv": set(), "lg": set()}     # what election_day has set on the page: governors.inject, legislatures.inject
+
+
+def election_day(y, edata):
+    """A November election day in the calendar, one block (the owner's request, Oct. 23, 2026): the electors and the
+    Congress (elections.block, its STYLE 13), then "State elections": the governors chosen that day and the
+    legislatures it chose (the next year's session). The governors' and legislatures' own entries point to it."""
+    from . import elections, governors, legislatures
+    d = str(edata[y]["date"])
+    out = [elections.block(y, edata)]
+    state = []
+    g = governors.block(d, head="Governors")
+    if g:
+        state.append(g)
+        COVERED["gv"].add(d)
+    if y + 1 in legislatures.sessions():
+        state.append(legislatures.block(y + 1, head=f"State legislatures, the session of {y + 1}"))
+        COVERED["lg"].add(y + 1)
+    if state:
+        out.append('<p class="cgh eds">State elections</p>')
+        out += state
+    return '<div class="eday">' + "\n".join(out) + "</div>"
+
+
 def inject(page, series, linker, mode):
     """Put each tagged calendar entry's Congress block into a built page."""
+    COVERED["gv"].clear()
+    COVERED["lg"].clear()
     from . import elections
     elections.SERIES = specials.SERIES = series      # the candidates' name entries
     data, geo = load()
@@ -484,7 +510,7 @@ def inject(page, series, linker, mode):
                 m = re.match(r"^election:(\d{4})$", t)
                 if m and int(m.group(1)) in edata:
                     y = int(m.group(1))
-                    blk = elections.block(y, edata)
+                    blk = election_day(y, edata)
                     page, n = contents.put(page, e["id"], blk, "election", y)
                     if n:
                         used.append(edata[y]["congress"])

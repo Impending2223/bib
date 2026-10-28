@@ -30,6 +30,15 @@ Berlin Crisis, but you might only have a full bibliography entry for the
 first.) At the very least, I want the calendar entries to point to the
 relevant material elsewhere in the bibliography. Names, events."
 
+The informal record (the owner's rule, Oct. 23, 2026: "the sinews of the public history"): the calendar is not the
+public record narrowly construed. For the persons with public roles (executive, legislative, policy, foreign
+relations, the administration of justice, the campaigns and the parties' communications), the transactions behind it
+belong too: informal meetings, lobbying, agreements, the planning of policy, personnel, operations and communications,
+in the West Wing, the members' offices, the campaign headquarters. Their record is mostly memoirs, biographies, oral
+histories, recordings and diaries: date each by its source, cite it by page, name whose account it is where it is one
+participant's ("by O'Donnell's account"), and where accounts differ, say so ("Check: Sorensen gives ..."). The reading
+runs look for them.
+
 So every calendar entry has:
 - `c`: what happened, in one to three clipped sentences. Who, what, the number.
 - `n`: the pointers, in this order:
@@ -69,6 +78,46 @@ So every calendar entry has:
   shown; they put the entry in the person's life (Names), as do the persons of `Names:`. A namesake is not tagged
   (Edward McCormack is not the Speaker; Lucius Clay of Berlin is not his son), nor a name in a case's title.
   `check` fails on a key that names no person.
+
+What each source stands for (the owner's rule, Oct. 23, 2026): a source cited under an entry stands for the whole of
+`c`, its dates, numbers, names, quotations and facts, unless the note says otherwise; where it does not, the entry and
+the note together say which claim each source is for: a parenthetical after the cite ("[[w.x]], 123 (the vote)"), a
+label before it ("Votes: ..."), or the cite in the sentence of `c` it supports. Omission implies, determinately: under
+an entry ABCD, "X; Y; Z (C)" says X and Y stand for A, B and D, and Z for C and C's tie to the rest (the same person,
+act or thing), not for A, B and D. A source read that does not bear out a claim is no cite for it: the claim takes
+"Check:" or goes.
+
+Hard and soft (the same day): the sources read (the primary record, linked; a work cited with its pinpoint, read off
+the page) come first; the works not yet read stand behind "To check:", a sentence of its own before "See" and
+"Names:" ("To check: [[w.a]]; [[w.b]]."), the event's bibliography among them. A reading run that reads one moves it
+out, with its pinpoint and, where it stands for part of the entry, its parenthetical; a source found and not yet read
+(a book, a hearing, a file) joins the To check. "Check:" marks a detail to verify; "To check:", sources not yet read.
+Swept Oct. 24, 2026: every work cited without a pinpoint went behind "To check:" (2,439 notes; a work inside a
+sentence of prose, some two dozen, left as written).
+
+Claims and their sources (the owner's request, Oct. 28, 2026: "break the entries down into (invisible?)
+sentence-by-sentence, clause-by-clause units, and accord to each the appropriate (invisible?) pincite", in a form "readily
+and programmatically transformed into a 'verbose' citation format ... footnotes or inline citations"; invisible for now):
+each entry's `c` is split into units at its sentences' ends and its semicolons, never inside a quotation, parentheses or
+brackets, lettered A, B, C (the ABCD of the rule above; a finer unit is a semicolon, nothing is marked in `c`). Its
+claim map says which source grounds which units at which page: worked out from the note whenever wanted (a work read and
+no parenthetical, all; with one, `?`, to be turned into letters by a reader), and stored only where a reader maps it, as
+the hidden `src` (`{c: <hash of c>, rows: ['w.caro-passage-of-power 492: A', 'w.dallek-flawed-giant 70: B-E', 'via
+w.dallek-flawed-giant 70 n.36: B, E', '<a link's address>: all']}`), written by patch. Every row names an item the note
+(or `c`) prints; the note stays the visible record, and `check` holds the two together [claims]. `./bib claims show ID
+[--inline]` prints the units and the entry with its sources as footnotes (or inline), `./bib claims seed ID` the
+mechanical map to start from, `./bib claims stats` the count. The STYLE: `tools/bib/claims.py`.
+
+What the works rest on (the same day: the agents to log "the materials and records cited for the claims in the
+secondary sources they read", and "identify the ABCD fact, claim, or quotation it sources, along with the entry"): a
+reading run that cites a work's page for an entry describes each record the work's note gives for it once, in
+`sources/cited-records/<card>.yaml` (the schema: `tools/bib/cited_records.py`; check [cited-records]), and ties it to
+the units it grounds by a `via` row of the entry's map (`via w.dallek-flawed-giant 70 n.36: B, E`); several records
+under one note for one passage, each its row, the same letters. The unread record joins "To check:" with the work it
+comes from ("To check: Bundy to Johnson, Feb. 7, 1965, NSF, LBJ Library (cited by [[w.dallek-flawed-giant]], 251
+n.14)."). And what a reading passes over: every dated event the work treats and the run did not enter is listed in its
+`notes/book-checks/` file under "Passed over", page, date, event and why (out of the brief, undated, minor, already in
+under another id, a lead), for the owner to rule on.
 
 Calendar entries on the States and the cities take hidden `state:<postal code>` and `city:<slug>` tags (`state:ny`,
 `city:nyc`) and the threads in `notes/threads.md` ("The States and the cities").
@@ -127,11 +176,18 @@ congress/geo.json         district and state shapes, projected and simplified
 elections/<YYYY>.yaml     President, House and Senate returns, 1956–74 (generated; never edit)
 elections/readings/<YYYY>.yaml  figures read by eye from the Clerk's pages, with a note on each ruling
 elections/pres-margins.csv  every contested race for presidential electors, 1824–2024, by constituency (generated)
+elections/pvi.yaml        each State's partisan voting index for the elections of 1962–74, from the two presidential
+                          elections before (generated by tools/elections/make_pvi.py; never edit; not yet shown); the
+                          districts' to come (notes/extensions/memos/pvi-districts.md)
 elections/facts.yaml      hand-kept facts: caucus labels, faithless electors, 1960 slates, the Alabama reckonings
 elections/cq.yaml         CQ's *Guide to U.S. Elections* compared with the Clerk's figures, by page (kept by hand)
 elections/renominations.yaml  renominations lost by primary, where a source says so (kept by hand)
 elections/primaries.yaml  Senate primaries from CQ's *Guide*, by race (kept by hand; CQ prints no House primaries)
 elections/conventions.yaml  the national conventions: each delegation's votes, how chosen, the roll calls (kept by hand)
+sources/cited-records/    the records each secondary work cites for the calendar's claims, described once, a file a work
+                          (kept by agent); the claims each grounds are `via` rows of the entries' maps (tools/bib/claims.py)
+notes/extensions/         proposals and shelved drafts: memos/ (the research memos before a part was built), shelf/ (drafts
+                          set aside, code and data, not read by check or build), README.md (the index, by hand)
 notes/leads.md            leads to check later: events, figures and sources the drafting agents could not place
 congress/changes.yaml     departures and successors during each Congress (generated)
 congress/specials.yaml    special elections during each Congress, 87th–93rd, with candidates (generated)
@@ -152,6 +208,9 @@ budgets/debt-limits.yaml  the thirteen acts changing the debt limit, June 30, 19
 congress/bills.yaml       a bill's course, step by step, from the History of Bills and Voteview (kept by hand)
 congress/appropriations.yaml  each session's appropriation bills against the estimates, 1960–68, from the Record (kept by hand)
 sources/states.yaml       each State's own official election publications, where to read them, what they print (kept by hand)
+sources/state-law.yaml    each State's session laws, code, constitution, journals and attorney general's opinions, 1959-69: the
+                          authority for each, where to read them (kept by hand)
+notes/state-sources.md, notes/state-law-sources.md  the two registers as listings (generated by tools/sources/make_listing.py)
 daybook/<YYYY-MM>.yaml    every Public Papers (APP) and FRUS document by date (generated)
 daybook/abstracts.yaml    one-sentence abstracts, keyed by document (kept by hand or agent)
 daybook/recordings/<YYYY-MM>.yaml  every White House recording PRDE catalogues, July 1962–Jan. 20, 1969 (generated)
@@ -274,7 +333,7 @@ thread's (its rubric links there; STYLE 9 in `tools/bib/calsplit.py`); give it a
 may keep its old name in the index, muted, a link to the thread, naming it ("Desegregation: schools: School desegregation"; `s:`
 the old name, `see:` the slug), or, where the old name went to several threads, the old name in the text's color and the
 threads muted, linked, a middle dot between ("Legislatures: Districting and apportionment · State legislatures"; `see:` a
-list; STYLE 10). A hidden `sort:` files a thread under other words, the name unchanged ("1960 Elections" as "Elections
+list; STYLE 10). A hidden `sort:` files a thread under other words, the name unchanged ("1960 elections" as "Elections
 of 1960"; "Special elections" as "Elections, special", a redirect left at S); `check` holds th.yaml to it. A statement
 may end in "*See also* X · Y" (`see_also:`, slugs; set right, in the thread names' type; STYLE 11), for related matter
 elsewhere in the index, not for a parent, its subthreads or an alphabetical neighbor (the owner's rules, Oct. 21,
@@ -332,6 +391,27 @@ shown by short form and linked to the A–Z bibliography (no list or section); w
 a detail to verify. In the calendar the first entry of each event carries its
 bibliography and later ones point back with `See [[id]]`; a thread's first entry is its first event's. Bibliography sections
 are chronological by publication unless their intro says "Alphabetical".
+
+Election results in `c` (the owner's rule, Oct. 23, 2026: "fix the form to a single, prescribed standard"; "the
+simplest forms here, e.g., 'Anderson (R) over Governor Docking (D), 511,534 to 402,261, 55.4 percent', are perfectly
+fine. Keep those everywhere"). One form, commas only, no colon or semicolon: a race, "Winner (P) over Loser (P), W to
+L, p percent", the winner's count first, p the winner's share to one decimal (in a primary no party: "Kennedy over
+Humphrey, 476,024 to 366,753, 56.5 percent"); a margin, where the entry gives one or the race was close, after the
+share, "..., 50.3 percent, a 1,988-vote margin", never "by 1,988 votes"; a measure, yes first, p the yes share:
+"Proposition 1 carries, 3,008,328 to 2,834,384, 51.5 percent", "Proposal 2 fails, 1,876,185 to 3,408,090, 35.5
+percent", never "yes ..., no ..." or "p percent yes"; a third candidate or more after the two, in the same sentence,
+"Name N, p percent". Always both counts and the percentage. The denominator: all the votes cast for the office (for a
+measure, yes and no) where the source prints that total (as the Clerk's figures and CQ's specials do); where it gives
+only the two leading counts and others ran, their sum, "p percent of the two". Where a rule differs (a measure needing
+a majority of all voting at the election, or two-thirds; a runoff below a majority), a few words after the figures
+say so ("a majority of all who voted at the election needed"). Several races or measures in one entry: each in the
+form, a sentence or a clause each. A missing count or share comes from the entry's own source, the series' data
+(`elections/`, `congress/specials*.yaml`) or a source read then, cited in `n`; else what the entry has stands, and
+the note says "Check: the count" (or "the percentage"). `check` warns on a result not in the form, on a share the
+counts do not give, and on a margin that is not W - L [result-form] (`tools/bib/resultform.py`, its STYLE); a
+quotation is not read, and an entry the form does not fit (several places on one ballot, a crowd's count) takes
+`ok:result-form`. Not results: a convention's ballot of delegates, electoral votes, the polls, other countries'
+parliamentary elections.
 
 Leads (the owner's standing rule, Oct. 18, 2026): anything recalled but not placed or verified (an event without a
 date, a figure without a source read, a source not reached, an item left out as minor) is written into
@@ -1069,7 +1149,8 @@ State's canvass or *America Votes*; Our Campaigns, or none, marks Check). What t
 the script (Georgia, 1966: the legislature elected Maddox; Minnesota, 1962: the recount). Never edit the file by hand.
 `tools/bib/governors.py` renders them (STYLE notes there):
 
-- A calendar entry tagged `governors:<YYYY-MM-DD>` carries the day's races: a summary (races, wins, each party's
+- A calendar entry tagged `governors:<YYYY-MM-DD>` carries the day's races (on a November election day, inside the day's
+  "Elections of" block, the entry pointing to it): a summary (races, wins, each party's
   gains, the governorships after), a map (Result: the winner's party, dark where it took the office; Margin: the
   election maps' quantile rule), and the table, one race a `tbody`: the candidates with votes and shares, the margin,
   and under them the note (the incumbent and his fate, the hold or gain, the source). Now Nov. 8, 1960, Nov. 6, 1962,
@@ -1077,6 +1158,15 @@ the script (Georgia, 1966: the legislature elected Maddox; Minnesota, 1962: the 
 - Names: each race a row in the candidate's record (`governor_rows` in `tools/bib/lives.py`), the date linked to the
   day's table.
 - The primaries for governor are calendar entries (thread "Governors"), their figures cited in each entry.
+- The bars on re-election (the owner's request, Oct. 23, 2026: "the authority and reason for the bar, and its scope"):
+  `elections/term-limits.yaml`, kept by hand (header the schema), a State an entry for each State whose incumbent
+  was barred, 1960-68: each provision in force over the span (cite, words, scope, from and to), each read by page
+  (Thorpe's *Federal and State Constitutions* of 1909 for the old texts, the States' manuals, session laws, codes and
+  election returns for the rest), the changes since, the text today, and a Check for what is not settled. A race
+  the tables call "term-limited" shows "barred from another term (Mo. Const. art. IV, § 17 (1945, amended 1965): not
+  eligible for election as his own successor)", the cite linked, and the rule's Check (STYLE 9 in
+  `tools/bib/governors.py`; `tools/bib/termlimits.py`, its STYLE). `check` fails on a barred race with no provision,
+  a rule without its words, scope or a linked source, a span out of order.
 
 ## Legislatures
 
@@ -1090,7 +1180,8 @@ legislatures); `HAND_YEAR` a Check (Kansas, 1967). `tools/bib/legislatures.py` r
 - A calendar entry tagged `legislatures:<YYYY>` (the year the session met: 1961 for the legislatures chosen in Nov.
   1960) carries the session's map and table: a party's color where it holds both chambers, light for a majority,
   middle for the State's override proportion where that lies between a majority and two-thirds, dark for two-thirds
-  of both (the Presentment Clause's and Article V's proportion); divided gray; Nebraska the vacant fill. Now the
+  of both (the Presentment Clause's and Article V's proportion); divided gray; Nebraska's nonpartisan chamber ivory
+  (`--pNP`, the owner's request, Oct. 23, 2026). Now the
   five "legislatures-us" entries of Nov. 1960, 1962, 1964, 1966 and 1968.
 - Article V's analogue is drawn at the federal two-thirds for every State: each State's own rule for proposing an
   amendment (the vote, the sessions) is not yet in the data; the *Book of the States*, 1960–67, prints it.
@@ -1247,6 +1338,36 @@ register, an access outside the legend, or an online copy without a url or a che
 - Kansas's *Election Statistics*, 1899–2010, every issue, are in the State Library's KGI Online Library (CONTENTdm,
   `p16884coll129/83`); Washington's statewide figures, 1898–2006, in the Secretary of State's archive workbook; a
   State library's CONTENTdm is searched by its API (`dmQuery`, `dmGetCompoundObjectInfo`), its pages being scripts.
+- The basis of belief (the owner's request, Oct. 23, 2026: "note the basis for your belief that a named source exists";
+  "a (then-effective) law or regulation obliging a person to create a record, to preserve it, to transfer it, to hold
+  or keep it, to publish it ... would probably be the best authorities"): every publication, archival series and county
+  or city record (`local`) carries `basis`, one ground a line, `seen` (a copy read), `catalog` (a catalog or finding-aid
+  record, not the text), `law` (the provision obliging an officer to make, keep, transfer or publish it, as then in
+  force where found, read or only cited by the publication), `cited` (a source naming it), `assumed` (no ground yet:
+  what was searched); and `cited_as`, the patterns by which the series' files cite it. `check` fails on an item
+  without a basis or with a ground outside the legend [sources].
+- The listing (the owner's request, the same day: "Make it a .MD and link it in the readme"): `notes/state-sources.md`,
+  written by `python3 tools/sources/make_listing.py` (deterministic; its STYLE notes): a section a State, each item's
+  editions, contents, copies with access and checked date (open; closed; paper only), basis, and what the series has
+  used it for, by its `cited_as` and its copies' addresses; then the Check pointers to State records in the calendar,
+  the specials, the governors' races and the readings, each ruled *found* (it names an item with a ground), *assumed*
+  (the item named has none) or *unmatched*. So "Check: the State canvass" or a pointer to the State archives says
+  there whether it names a source found, and where, or an assumption. Rerun after every change to the register;
+  `check` warns when either listing is stale [state-sources], and on a register title with a hyphen in a span of years.
+- The law register (the owner's request, Oct. 23, 2026: "create and maintain a similar listing for sourcing State
+  constitutions and laws ... take care for the legal authority for the recording, compilation, and publication of the
+  constitution and the laws. Identified authority is strongly preferred"): `sources/state-law.yaml` (its header the
+  schema), every State and D.C., 1959-69, at least the session laws: each item's title (the volume's own words where
+  read), officer, `authority` (the law, as then in force where found, with where it was read, or only where it is
+  cited) or `authority_searched` (what was searched; one or the other always), basis, `cited_as`, and copies tested
+  from here (HathiTrust's records verified by its Bib API, their pages bot-checked). Listed in
+  `notes/state-law-sources.md` by the same script (`tools/sources/law_listing.py`), with the calendar's Check
+  pointers to a State's laws or journals; checked by `tools/bib/state_law.py` [state-law]; access rechecked by
+  `python3 tools/sources/check_access.py --law`. Readable law of the period found so far: Minnesota Statutes 1961
+  (the Revisor's site), the Code of Laws of South Carolina 1952 and its 1960 supplement, the Revised Codes of Montana
+  1947 and the Election Laws of Montana (archive.org), the United States Code of 1964 (the Library of Congress's
+  scans), the constitutions as the 1960s blue books print them (California's in the Statutes, North Carolina's,
+  Pennsylvania's, Connecticut's).
 
 ## Economic indicators
 
@@ -1327,7 +1448,7 @@ the series index, the README and the top bar (数; at first kept out of the bar,
   Report (no report printed the ratios); the federal primary balance quarterly (the national accounts' surplus or
   deficit, net lending or borrowing, with net interest added back); and OMB's debt-to-GDP by fiscal year, today's only.
   Today's net interest counts imputed interest on federal pensions: not the 1960s measure (the statement in `indicators/concepts.yaml`). Other numbers worth
-  keeping: `notes/proposals/indicators-suggestions.md`.
+  keeping: `notes/extensions/memos/indicators-suggestions.md`.
 - Money and credit (`kind: rate`; RATES and DISCOUNT in the script, `--only rates` to write them alone): a table
   of its own between the indicators and the approval table, under the same rule, two columns (Rate | Percent):
   rates are not revised, so one figure each, with its change in points. The federal funds rate, the prime, the
@@ -1335,7 +1456,7 @@ the series index, the README and the top bar (数; at first kept out of the bar,
   Board's press releases and the *Bulletin* (FRASER, by page): in a month it changed, the Board's announcement and
   the day it took effect in grey; otherwise `since` (the date it took effect, on hover). STYLE 13 in
   `tools/bib/indicators.py`.
-- Money, the foreign accounts and the debt's terms (the measures `notes/proposals/indicators-suggestions.md` marked "No";
+- Money, the foreign accounts and the debt's terms (the measures `notes/extensions/memos/indicators-suggestions.md` marked "No";
   `tools/indicators/make_finance.py`, its docstring the sources, each figure with its table and page in READ blocks;
   `tools/bib/finance.py`, its STYLE; indicators STYLE 17). As first printed, read off FRASER's page images: the exchange
   rates (the pound, the mark, the franc: the *Federal Reserve Bulletin*'s "Foreign exchange rates", 1960–68, the issue
@@ -1371,7 +1492,7 @@ the series index, the README and the top bar (数; at first kept out of the bar,
   Tanura and Venezuela's Oficina, each change dated (the *Journal*, the CIA's memoranda), a table under Esso Export's
   cut of Aug. 9, 1960 (`oilprice:ras-tanura`). Neither is an indicator series: no statement in the master; each
   table says under it what it counts.
-- The war (the owner's request, Oct. 21, 2026; `tools/bib/war.py`, its STYLE; plan: `notes/proposals/military-oil-vietnam.md`,
+- The war (the owner's request, Oct. 21, 2026; `tools/bib/war.py`, its STYLE; plan: `notes/extensions/memos/military-oil-vietnam.md`,
   section 1): U.S. deaths in Southeast Asia, all causes, hostile and since 1961, by month from Jan. 1965 and by year
   1960-68 (in December), today from NARA's Defense Casualty Analysis System file (2008), counted by the incident or death
   date; as first printed, the hostile deaths: the *Statistical Abstract* (1967-69 eds.) by year, the *Southeast Asia
@@ -1602,6 +1723,14 @@ Two standing rules (the owner's rules, Oct. 21, 2026; `tools/bib/contents.py`, i
   month's indicators. And each thread's statement in the thread index lists the tables and maps its entries carry on
   the page, in order, in a muted line set right above the See also line ("*Tables and maps* Election of Nov. 8, 1960 ·
   Governors, Nov. 8, 1960"); in the reader, each part's index its part's.
+- Each listed table or map is titled by its label, centered in small capitals ("ELECTIONS OF NOV. 8, 1960"), as the
+  Executive roster's parts are (the owner's request, Oct. 23, 2026: "a distinct title style to visually demarcate them
+  from the calendar day entries"; all-caps titles "must be unusually brief", so the labels are): STYLE 5 in
+  `tools/bib/contents.py`. A November election day is one block, "Elections of Nov. 8, 1960" (`election_day` in
+  `tools/bib/congress.py`): "Presidential electors", "Congress" (with the unexpired terms filled that day), "State
+  elections" (the governors chosen that day, the legislatures it chose); the governors' and legislatures' entries point
+  to their parts. The governors' tables shade a party's gain in the winner's color and a new governor gray, as the
+  Congress's tables do (STYLE 8 in `tools/bib/governors.py`).
 - Every table or map an inject sets in a calendar entry goes through `contents.put(page, eid, blk, kind, key)`: it puts
   the block at the end of the entry's `<li>` and its anchor (`tb-<kind>-<key>`) before it. A new type of table or map
   registers its kind in `KINDS` there, with its label ("Election of Nov. 8, 1960"), or `None` for one the contents
@@ -1626,7 +1755,7 @@ and the entry it leads to, and under each such entry a "From:" line back to the 
 after it in the thread ("⟨⟨ Testing ⟩⟩", the brackets the links, not underlined, the date on hover; its `also` threads too; `thread_nav` in
 `tools/bib/build.py`), a "Continuing" pointer under the date on each later
 day of a ranged entry, and the day's materials in two folded blocks, each closed by default and shown only where it
-holds something (the owner's request, Oct. 22, 2026): "Documents" (APP, FRUS, the recordings) and "Other records" (the
+holds something (the owner's request, Oct. 22, 2026): "Documents" (APP, FRUS, the opinions, the recordings) and "Other records" (the
 committees' meetings, the *Bulletin*, and any list added later), each summary counting its own lists; "Expand all" and
 "Collapse all" under each month heading open or close both (STYLE 12 in `tools/bib/daybook.py`). The Sunday programs
 and the *New York Times* line are not daily materials: they stay under the date, in neither block. A day block (the
@@ -1754,6 +1883,18 @@ tools/bib/committees.py         the committees' list and "Testimony before Congr
   Catalog)", an image the page's number in the Catalog's item; where the Diary disagrees, "Check: the Daily Diary
   gives ..." and a line in `notes/diary-discrepancies.md` (the owner's request, Oct. 23, 2026). Not yet a line in the
   day layout. `check` [diary]: STYLE and checks in `tools/bib/diary.py`.
+- Opinions (the owner's request, Oct. 23, 2026: the opinions of the Attorney General and OLC "logged with the documents
+  in the calendar"; 1960–69, Oct. 24): `daybook/opinions.yaml`, kept by hand (its header the schema), a list after FRUS
+  in the Documents block, rendered by `tools/bib/opinions.py` (its STYLE notes; check [opinions]): every opinion of the
+  *Official Opinions of the Attorneys General*, vols. 41–42, of 1960–69 (44; Google's scans on archive.org, item
+  `op-atty-gen`, by leaf), the Office of Legal Counsel's of the period in its *Supplemental Opinions*, vol. 1 (2013; the
+  Office's PDF on justice.gov, by PDF page), and the Department's legal memoranda FRUS prints; each the signer, the
+  title linked to the copy read, the cite ("42 Op. Att'y Gen. 69", "1 Op. O.L.C. Supp. 195"), the addressee and the
+  holding in one line. Nothing from memory: an opinion another document names and no copy read is under `known`, with
+  its Check, and not shown. In the calendar (`notes/extensions/memos/ag-olc-opinions.md`): an opinion that shaped or was the
+  decision is an entry of its own, dated to the opinion, the opinion its primary record ("[42 Op. Att'y Gen. 69](…)
+  (1961)"); one that speaks to an entry is a pointer in its note ("Opinion: [42 Op. Att'y Gen. 229](…) (1963), Robert
+  Kennedy to Rusk, Oct. 9: …"); the rest stay in the day's list.
 - Abstracts go in `daybook/abstracts.yaml` (`key: sentence`), never in the generated
   files, so a rerun keeps them. Keys: `app:<slug>`, `frus:<volume>/<dN>`. `check` fails
   on an abstract whose key is not in the daybook.

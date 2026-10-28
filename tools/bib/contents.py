@@ -37,6 +37,15 @@ STYLE (the owner's rules, Oct. 21, 2026):
     line is and above it (See also stays last): "*Tables and maps* Election of Nov. 8, 1960 · Governors, Nov. 8, 1960",
     the label in italics, a middle dot between, each linked to its anchor; in the sans at the See also line's size, in
     regular weight and muted, so the two read as one footing. In the reader, each part's index lists its part's.
+ 5. A listed table or map takes its label as its title (the owner's request, Oct. 23, 2026: "a distinct title style to
+    visually demarcate them from the calendar day entries"): centered, in the sans's small capitals, a little smaller
+    than the type, as the Executive roster's parts are ("ELECTIONS OF NOV. 8, 1960"); so the labels stay brief. Where
+    the block's own first heading only repeats the label (DROP_HEAD: the opening, the governors, the legislatures,
+    the primaries, the conventions, the dead), the title stands in its place; the Executive's heading, which gives
+    the term's span, stays under it. A day block (day_mark) takes its title the same way. The day of a November
+    election is one block, "Elections of Nov. 8, 1960" (congress.election_day): "Presidential electors", "Congress",
+    "State elections" (governors, legislatures) under it in the blocks' bold subheadings; the governors' and the
+    legislatures' own entries point to their parts ("The table: ...", kind "see", unlisted).
 """
 import calendar
 import html
@@ -71,7 +80,7 @@ def ordinal(n):
 def _election(key):
     from . import elections
     d = (elections.load().get(int(key)) or {}).get("date")
-    return f"Election of {fmt(d)}" if d else f"Election of {key}"
+    return f"Elections of {fmt(d)}" if d else f"Elections of {key}"
 
 
 def _approp(key):
@@ -103,7 +112,7 @@ KINDS = {
     "executive": lambda k: f"Executive Branch, {fmt(k)}",                       # executive.py
     "congress": lambda k: f"{ordinal(k)} Congress at its opening",              # congress.py
     "committees": lambda k: f"Leaders and committees, {ordinal(k)} Congress",   # committee_rosters.py via congress.py
-    "election": _election,                                                     # elections.py via congress.py
+    "election": _election,                     # congress.election_day: the electors, Congress, the State elections
     "governors": lambda k: f"Governors, {fmt(k)}",                              # governors.py
     "legislatures": lambda k: f"State legislatures, {k}",                       # legislatures.py
     "statefin": lambda k: f"State finance, fiscal {k}",                         # statefin.py
@@ -122,6 +131,7 @@ KINDS = {
     "oilprice": lambda k: "Posted prices of crude oil",                         # oilworld.py
     "special": None,                                                           # specials.py: one-off races
     "primary": None,                                                           # primaries.py: one primary day
+    "see": None,                                         # a pointer to a table set in another entry (governors.py)
 }
 
 
@@ -156,9 +166,20 @@ def put(page, eid, blk, kind, key):
     if at is None:
         return page, 0
     if lab:
+        if kind in DROP_HEAD:                   # STYLE 5: the title stands in the block's own heading's place
+            blk = re.sub(r'^(\s*<div[^>]*>)\s*<p class="cgh">.*?</p>', r"\1", blk, count=1, flags=re.S)
         blk = (f'<span class="tba" id="{esc(anchor_id(kind, key))}" data-tb="{esc(lab)}" data-tbe="{esc(eid)}"></span>'
-               + blk)
+               + title(lab) + blk)
     return page[:at] + blk + page[at:], 1
+
+
+DROP_HEAD = {"congress", "governors", "legislatures", "primaries", "conventions", "wardead"}
+
+
+def title(lab):
+    """A listed table's title (STYLE 5): its label, centered, in small capitals."""
+    return f'<p class="tbt">{esc(lab)}</p>'
+
 
 
 def day_mark(kind, key, iso, threads, part=None):
@@ -169,7 +190,7 @@ def day_mark(kind, key, iso, threads, part=None):
     if not lab:
         return ""
     return (f'<span class="tba" id="{esc(anchor_id(kind, key))}" data-tb="{esc(lab)}" '
-            f'data-tbe="{esc("day:" + iso + ":" + ",".join(threads))}"></span>')
+            f'data-tbe="{esc("day:" + iso + ":" + ",".join(threads))}"></span>' + title(lab))
 
 
 # ---------------------------------------------------------------- the contents
@@ -328,4 +349,10 @@ TSTYLE = """<style id="ttbstyle">
 .ttb{display:block;text-align:right;font-family:var(--sans);font-size:.92rem;color:var(--muted);margin-top:.2rem}
 .ttb a{color:inherit;text-decoration-color:var(--rule)}
 .tba{display:block;height:0}
+.tbt{text-align:center;font-family:var(--sans);font-size:1rem;font-weight:600;font-variant-caps:all-small-caps;
+  letter-spacing:.06em;margin:1.4rem 0 .3rem;color:var(--ink)}
+.eday>p.cgh{font-family:var(--sans);font-weight:700;font-size:.95rem;margin:1.2rem 0 .4rem}
+.cg .cgh.sub{font-weight:600;font-style:italic}
+.tbp{font-family:var(--sans);font-size:.92rem;color:var(--muted);margin:.3rem 0}
+.tbp a{color:inherit;text-decoration-color:var(--rule)}
 </style>"""
