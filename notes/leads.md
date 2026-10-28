@@ -447,6 +447,14 @@ reports them (`notes/calendar-audit.md`).
 - Nov.–Jan. 1969: Nixon's White House staff appointments; Moynihan; Yost; Hickel's hearings; the Douglas Commission's report; Palach.
 - Gallup's releases of Jan. 1–20, 1969: the 1969 pages of *The Gallup Poll* not yet read.
 
+### One event, one entry (the folds agent, Oct. 28, 2026; notes/folds-2026-10-28.md)
+
+- `cal.1964-12-24.vietnam` cites FRUS 1964–68, I, doc. 465 for the Brink bombing and the reprisal refused; the
+  document is the cable on Taylor and Hương's threatened expulsion. Find the document that bears the refusal.
+- `cal.1965-08-11.court`: the Judiciary Committee's hearing on Fortas, Aug. 5, 1965, as the entry of July 28 had it;
+  no source read for the day.
+- `cal.1963-12-03` (the foreign-aid thread's entry): it names no foreign aid; the thread kept only as `also:`. Review.
+
 ### The districts' partisan voting index (the PVI agent, Oct. 28, 2026; notes/extensions/memos/pvi-districts.md)
 
 - 1964 by district (for 1966-72): the Census's supplements to the 88th Data Book, *Redistricted States*, Nos. 8-32,
