@@ -49,7 +49,12 @@ entries:
     date: '1960-01-09'
     thread: elections-1960
     c: Nixon, on his forty-seventh birthday, announces for the Republican nomination; his name to go on the New Hampshire ballot. Rockefeller out since Dec. 26.
-    n: 'Check: the form of the announcement. To check: [[w.white-making-of-the-president]]; [[w.kallina-kennedy-v-nixon]]; [[w.rorabaugh-real-making-of-the]]; [[w.donaldson-first-modern-campaign]]; [[w.pietrusza-1960]]; [[w.matthews-kennedy-and-nixon]]; [[w.casey-making-of-a-catholic]]; [[w.carty-catholic-in-the-white]]; [[w.nixon-six-crises]]; [[w.gellman-president-and-the-apprentice]]; [[w.frank-ike-and-dick]]. Names: Nixon, Rockefeller.'
+    n: '[[w.kallina-kennedy-v-nixon]], 85 (Rockefeller''s withdrawal, Dec. 26). Check: the form of the announcement. To check: [[w.white-making-of-the-president]]; [[w.rorabaugh-real-making-of-the]]; [[w.donaldson-first-modern-campaign]]; [[w.pietrusza-1960]]; [[w.matthews-kennedy-and-nixon]]; [[w.casey-making-of-a-catholic]]; [[w.carty-catholic-in-the-white]]; [[w.nixon-six-crises]]; [[w.gellman-president-and-the-apprentice]]; [[w.frank-ike-and-dick]]; New York Times, Dec. 27, 1959 (cited by [[w.kallina-kennedy-v-nixon]], 85 n.9). Names: Nixon, Rockefeller.'
+    src:
+      c: 0d0f079a
+      rows:
+        - 'w.kallina-kennedy-v-nixon 85: C'
+        - 'via w.kallina-kennedy-v-nixon 85 n.9: C'
     tags: [name:nixon-richard-m, name:rockefeller-nelson]
   - id: cal.1960-01-09.governors-la
     when: Jan. 9
@@ -233,3 +238,43 @@ entries:
         - 'w.perlstein-before-the-storm 61: all'
         - 'via w.perlstein-before-the-storm 61 n.1: all'
     tags: [name:manion-clarence, name:goldwater-barry-m, name:nixon-richard-m, state:sc, city:chicago]
+  - id: cal.1960-01.elections-1960
+    when: Jan.
+    date: 1960-01
+    thread: elections-1960
+    c: 'DiSalle, Ohio''s governor, declares for Kennedy and pledges him the State''s sixty-four delegates, after a year''s pressing by the Kennedys, Robert Kennedy at the last. Morse: "Ohio doesn''t have a Favorite Son. It has a Favorite Stooge."'
+    n: '[[w.kallina-kennedy-v-nixon]], 53–54. To check: John Bailey OHI, Apr. 10, 1964, JFK Library; New York Times, Jan. 6, 1960; William H. Hessler, "How Kennedy Took Ohio," Reporter, Mar. 3, 1960, 21–22 (cited by [[w.kallina-kennedy-v-nixon]], 54 n.10); [[w.odonnell-johnny-we-hardly-knew]], 148–52. Names: DiSalle, Kennedy, Robert Kennedy, Morse. Check: the day; Kallina gives early January (54).'
+    src:
+      c: cb1f9a3f
+      rows:
+        - 'w.kallina-kennedy-v-nixon 53–54: all'
+        - 'via w.kallina-kennedy-v-nixon 54 n.10a: all'
+        - 'via w.kallina-kennedy-v-nixon 54 n.10b: all'
+        - 'via w.kallina-kennedy-v-nixon 54 n.10c: all'
+    tags: [name:disalle-michael-v, name:kennedy-john-f, name:kennedy-robert-f, name:morse-wayne, state:oh]
+  - id: cal.1960-01.democratic-party
+    when: Jan.
+    date: 1960-01
+    thread: democratic-party
+    also: [elections-1960]
+    c: 'Wisconsin. The Democratic Party''s administrative committee changes the allocation of the State''s convention delegates: more to each congressional district, fewer by the primary vote at large. The change sought by Humphrey''s camp.'
+    n: '[[w.kallina-kennedy-v-nixon]], 61. To check: Milwaukee Journal, Jan. 31, 1960; Patrick J. Lucey OHI, Aug. 1, 1964, JFK Library (cited by [[w.kallina-kennedy-v-nixon]], 61 n.33). Names: Humphrey. Check: the day; Kallina gives late January (61).'
+    src:
+      c: ade4653e
+      rows:
+        - 'w.kallina-kennedy-v-nixon 61: all'
+        - 'via w.kallina-kennedy-v-nixon 61 n.33a: all'
+        - 'via w.kallina-kennedy-v-nixon 61 n.33b: all'
+    tags: [name:humphrey-hubert-h, state:wi]
+  - id: cal.1960-01.governors-il
+    when: Jan.
+    date: 1960-01
+    thread: governors
+    also: [elections-1960]
+    c: 'Chicago. Daley''s choice for governor: Otto Kerner, a Cook County judge, Cermak''s son-in-law, a Protestant.'
+    n: '[[w.kallina-kennedy-v-nixon]], 199. To check: [[w.kallina-courthouse-over-white-house]], 21–61. Names: Daley, Kerner. Check: the day; Kallina gives January (199).'
+    src:
+      c: 59c824c2
+      rows:
+        - 'w.kallina-kennedy-v-nixon 199: all'
+    tags: [name:daley-richard-j, name:kerner-otto, state:il, city:chicago]

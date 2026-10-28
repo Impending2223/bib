@@ -1025,6 +1025,42 @@ Searched in the Daily Digest (daybook/committees), the bound Record's days, the 
   Dec. 5). The AMA officers at the White House (`cal.1965-07-29.medicare`): the Daily Diary of July 29, 1965, not on the
   Catalog.
 
+### Kallina, *Kennedy v. Nixon* (the book agent, Oct. 29, 2026; notes/book-checks/kallina-kennedy-v-nixon.md)
+- Undated in Kallina, each to be dated from its record before entry (his page): Franklin D. Roosevelt Jr.'s charge on
+  Humphrey's war record, and Kennedy's warning through Eugene McCarthy (65; *NYT*, May 7, 1960); Johnson on Joseph
+  Kennedy and an aide's Addison's charge (72; India Edwards OHI; *NYT*, July 5); Daley's formal support, Docking's and
+  Loveless's withdrawals, Brown's release of his delegates, July 8–13 (72); Russell's "worst platform" (80); Rockefeller
+  telling Eisenhower of his stand on medical care for the aged (85–86; a memorandum of May 4, 1960, 233 n.11); Eisenhower
+  urging Anderson and Gruenther to run, early 1960 (87); Rockefeller's talk of a draft, April–May (88); Kennedy's "gap on
+  which we are gambling with our survival," February (89); Goldwater's assurance to Nixon before the convention (93);
+  Kennedy and the Negro delegates "the morning after the convention" (140; the note cites the *Post* of July 11);
+  Wilkins's praise of Nixon (143; *NYT*, June 21, 1960); Powell's dealings and his $50,000 (150); the King–Kennedy meeting
+  planned for Miami and dropped (152); Robert Kennedy's anger at Shriver and the three governors' threat (153–54);
+  Vandiver's "a sad day" (154); the "blue bomb" leaflets (155); Morrow's and Jackie Robinson's efforts to reach Nixon,
+  the Justice Department's draft statement, Rogers to Hagerty (155–56); ten Southern governors for Kennedy after the
+  first debate (124); Herter asked to have Nixon drop Quemoy (127); Kennedy's late-September Cuba speech and Riesman's
+  letter (127); Bissell's offers through Stevenson (129); Truman at San Antonio, Powell on the Klan, Robert Kennedy in the
+  Catskills (168–69); Harlow's, Flanigan's and Flemming's pleas on religion, Billy Graham's article for *Life* (170;
+  Graham to Nixon, Sept. 24, Oct. 17, Nov. 2); Eisenhower's October speeches on "fear mongering" (162; *NYT*, Oct.
+  11–21); Russell's return, Oct. 30, and his campaigning in Texas (167); Kennedy to Red Fay, "with every word he utters"
+  (164); the Democrats' thought of challenging California's absentee ballots (181; Leventhal to Robert Kennedy, Dec. 7);
+  the unpledged electors' effort, Dec. 1–15 (188); Kennedy and Johnson in Byrd's office (196).
+- Dated only in Kallina's notes: Claude Robinson's memoranda to Nixon on the debates, Aug. 1 and Sept. 1, 1960 (239–40
+  nn.8, 10), and his evaluations of Oct. 13 and Oct. 28 (241 n.25, 250–51 n.47); Harris's final State surveys, Nov. 2–4
+  (250 n.42); Tydings's report on Florida, Aug. 11 (254 n.50); Hillings to Nixon, Dec. 21, "stolen" (257 n.12).
+- The legislative leaders' meeting, late 1959 or early 1960, at which Halleck would have killed the bill suspending
+  section 315 and Nixon said "Let the bill go through" (119–20; Merriam's reminiscence): Kallina did not find it in the
+  leaders' records at Abilene. The suspension's day: Kallina gives June 27, 1960 (117); the joint resolution was approved
+  Aug. 24 (74 Stat. 554): find each chamber's vote in the Record.
+- The Gallup releases of 1960 (`cal.1960-07-06.opinion` ... `cal.1960-11-07.opinion`) stand on Kallina's notes; read
+  them in *The Gallup Poll*, III, 1675–90, and add the other 1960 releases (the poll of July 30–Aug. 4 entered by its
+  release, Aug. 17).
+- Texas: the Republicans' suit over the count dismissed Dec. 12, 1960 (Kallina, 252 n.21; the *Houston Chronicle*,
+  Nov. 22–24 and after). The calendar holds no entry on the Texas challenge: read the *Chronicle* and the State's canvass.
+- Chicago after the inauguration: the official recount of February–March 1961, Morris Wexler's report of Apr. 13, 1961,
+  and the indictment of some six hundred election judges (Kallina, 209–10; Special Prosecutor's Report, Chicago History
+  Museum): entries for `cal.1961` (Illinois, Chicago).
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
