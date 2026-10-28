@@ -455,6 +455,10 @@ reports them (`notes/calendar-audit.md`).
   sentence on `cal.1963-03-21.cuba`); the Daily Diary's backup for Aug. 15-26, 1964; the FBI's file on the Freedom
   Democrats.
 
+- Nixon, *RN* (1978), 1961-68: not read (Oct. 29, 2026). The owner's copy (Drive 1cSYO3uxBPW3hJnQlueDMCJn6m_LXjVij,
+  59 MB) is in a folder not shared by link, over the Drive tool's 10 MB limit and without a text layer it will return;
+  archive.org's four copies of the 1978 edition lend only. Waits on the owner's copy in the shared books folder. Its
+  1961-68 chapters: Republican Party, the elections threads, Vietnam, transition-and-staff.
 - *A Thousand Days* and *The Vantage Point*: Laos's public record, Mar.-Apr. 1961; the messages of 1961; Hawkins's cable
   (FRUS 1961-63, X, doc. 98); the breakfast meeting of Nov. 21, 1967; the Dominican Republic, the India food, the
   Kennedy Round and the arms talks as Johnson tells them; four discrepancies kept as Checks (the Mundt vote, 57-36 by
