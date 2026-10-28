@@ -95,14 +95,27 @@ out, with its pinpoint and, where it stands for part of the entry, its parenthet
 Swept Oct. 24, 2026: every work cited without a pinpoint went behind "To check:" (2,439 notes; a work inside a
 sentence of prose, some two dozen, left as written).
 
-What the works rest on (the owner's rule, Oct. 28, 2026: the agents to log "the materials and records cited for the
-claims in the secondary sources they read", and "identify the ABCD fact, claim, or quotation it sources, along with
-the entry"): a reading run that cites a work's page for an entry writes down each record the work's note gives for it
-(a memorandum, a recording, an interview, a file), its repository as cited, and the fact, claim or quotation of `c` it
-grounds, in `sources/cited-records/<card>.yaml` (the schema and STYLE: `tools/bib/cited_records.py`; check
-[cited-records]); the unread record joins "To check:" with the work it comes from and its claim ("To check: Bundy to
-Johnson, Feb. 7, 1965, NSF, LBJ Library (cited by [[w.dallek-flawed-giant]], 251 n.14, for the targets)."). And what a
-reading passes over (the same day): every dated event the work treats and the run did not enter is listed in its
+Claims and their sources (the owner's request, Oct. 28, 2026: "break the entries down into (invisible?)
+sentence-by-sentence, clause-by-clause units, and accord to each the appropriate (invisible?) pincite", in a form "readily
+and programmatically transformed into a 'verbose' citation format ... footnotes or inline citations"; invisible for now):
+each entry's `c` is split into units at its sentences' ends and its semicolons, never inside a quotation, parentheses or
+brackets, lettered A, B, C (the ABCD of the rule above; a finer unit is a semicolon, nothing is marked in `c`). Its
+claim map says which source grounds which units at which page: worked out from the note whenever wanted (a work read and
+no parenthetical, all; with one, `?`, to be turned into letters by a reader), and stored only where a reader maps it, as
+the hidden `src` (`{c: <hash of c>, rows: ['w.caro-passage-of-power 492: A', 'w.dallek-flawed-giant 70: B-E', 'via
+w.dallek-flawed-giant 70 n.36: B, E', '<a link's address>: all']}`), written by patch. Every row names an item the note
+(or `c`) prints; the note stays the visible record, and `check` holds the two together [claims]. `./bib claims show ID
+[--inline]` prints the units and the entry with its sources as footnotes (or inline), `./bib claims seed ID` the
+mechanical map to start from, `./bib claims stats` the count. The STYLE: `tools/bib/claims.py`.
+
+What the works rest on (the same day: the agents to log "the materials and records cited for the claims in the
+secondary sources they read", and "identify the ABCD fact, claim, or quotation it sources, along with the entry"): a
+reading run that cites a work's page for an entry describes each record the work's note gives for it once, in
+`sources/cited-records/<card>.yaml` (the schema: `tools/bib/cited_records.py`; check [cited-records]), and ties it to
+the units it grounds by a `via` row of the entry's map (`via w.dallek-flawed-giant 70 n.36: B, E`); several records
+under one note for one passage, each its row, the same letters. The unread record joins "To check:" with the work it
+comes from ("To check: Bundy to Johnson, Feb. 7, 1965, NSF, LBJ Library (cited by [[w.dallek-flawed-giant]], 251
+n.14)."). And what a reading passes over: every dated event the work treats and the run did not enter is listed in its
 `notes/book-checks/` file under "Passed over", page, date, event and why (out of the brief, undated, minor, already in
 under another id, a lead), for the owner to rule on.
 
@@ -171,7 +184,8 @@ elections/cq.yaml         CQ's *Guide to U.S. Elections* compared with the Clerk
 elections/renominations.yaml  renominations lost by primary, where a source says so (kept by hand)
 elections/primaries.yaml  Senate primaries from CQ's *Guide*, by race (kept by hand; CQ prints no House primaries)
 elections/conventions.yaml  the national conventions: each delegation's votes, how chosen, the roll calls (kept by hand)
-sources/cited-records/    the records each secondary work cites for the calendar's claims, a file a work (kept by agent)
+sources/cited-records/    the records each secondary work cites for the calendar's claims, described once, a file a work
+                          (kept by agent); the claims each grounds are `via` rows of the entries' maps (tools/bib/claims.py)
 notes/extensions/         proposals and shelved drafts: memos/ (the research memos before a part was built), shelf/ (drafts
                           set aside, code and data, not read by check or build), README.md (the index, by hand)
 notes/leads.md            leads to check later: events, figures and sources the drafting agents could not place

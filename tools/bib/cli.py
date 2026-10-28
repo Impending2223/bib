@@ -358,6 +358,44 @@ def cmd_audit_patches(series, a):
     return 0
 
 
+def cmd_claims(series, a):
+    """Each calendar entry's units and the sources for each (tools/bib/claims.py): show, stats, remap."""
+    from . import claims
+    if a.what == "stats":
+        for k, v in claims.stats(series).items():
+            print(f"{v:8,}  {k}")
+        return 0
+    if a.what == "seed":
+        for eid in a.ids:
+            hit = series.get(eid)
+            m = claims.mechanical(hit[2]) if hit else None
+            print(f"# {eid}" + ("" if hit else ": no such entry"))
+            if m:
+                print(store._emit({"src": m}, 0))
+        return 0
+    for eid in a.ids:
+        hit = series.get(eid)
+        if not hit:
+            print(f"# {eid}: no such entry")
+            continue
+        e = hit[2]
+        print(f"# {eid}   map: {'by a reader' if e.get('src') else 'mechanical' if claims.mechanical(e) else 'none'}"
+              + ("" if not e.get("src") or e["src"].get("c") == claims.chash(e.get("c")) else "   STALE"))
+        for k, u in enumerate(claims.units(e.get("c") or "")):
+            print(f"  {claims.LETTERS[k]:>2}  {u}")
+        for row in (e.get("src") or {}).get("rows") or []:
+            print(f"   src  {row}")
+        text, notes, other = claims.verbose(series, e, inline=a.inline)
+        print()
+        print(text)
+        for i, x in enumerate(notes):
+            print(f"  [^{i + 1}] {x}")
+        if other:
+            print("  " + " ".join(other))
+        print()
+    return 0
+
+
 def cmd_reconcile(series, a):
     """Conflicts on a note, two patches' citations joined (tools/bib/notemerge.py): shown; --write applies those with
     no problem, after a person has read them."""
@@ -722,6 +760,11 @@ def main(argv=None):
     x.add_argument("--archive", action="store_true", help="move applied patches to inbox/merged/")
     x = sub.add_parser("audit-patches", help="pending patches read together before merging: overlaps, collisions")
     x.add_argument("patches", nargs="+")
+    x = sub.add_parser("claims", help="each calendar entry's units and their sources: show IDS [--inline], stats, seed IDS")
+    x.add_argument("what", choices=["show", "stats", "seed"])
+    x.add_argument("ids", nargs="*")
+    x.add_argument("--inline", action="store_true")
+    x.add_argument("--write", action="store_true")
     x = sub.add_parser("reconcile", help="conflicts on a note: two patches' citations joined, shown; --write applies")
     x.add_argument("ids", nargs="*")
     x.add_argument("--write", action="store_true")

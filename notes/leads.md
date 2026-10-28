@@ -964,12 +964,25 @@ Events Gibbons treats that the calendar lacks, not entered: no record reached an
   July 27 (III, 422). The committee's transcripts: its Executive Sessions (Historical Series), where printed.
 - `cal.1965-02-18.vietnam`: the Record's pages (Gibbons prints 2146 ff., not possible after 2869 on Feb. 17).
   `cal.1965-01-15.vietnam`: Gibbons prints vol. 110 for McGovern's speech.
-- Part I (1945–60, for 1960) and Part IV (July 1965–Jan. 1968): no open copy found (archive.org has the Princeton
-  edition for lending only; HathiTrust's pages are bot-checked). Oct. 23, 2026: Parts II and III are open on archive.org
-  as GPO's microfiche, scanned 2026 (`micro_IA41152619_0216`, Part II; `micro_IA41152832_0038`, Part III); Parts I and
-  IV not in that collection yet, nor on govinfo (its search) or ERIC. The Part IV citations in the calendar
-  (`w.gibbons-u-s-government-and-1995`, 29 of them) want their pages; `cal.1966-02-04.vietnam` cites Part IV by the set's card
-  ("IV, 222–230"), the others by the Part IV card.
+- Parts I and IV: read from the owner's copies, Oct. 24–28, 2026 (inbox patch `2026-10-24-book-gibbons`;
+  `notes/book-checks/gibbons-u-s-government-and.md`). Still not found open: archive.org's GPO microfiche collection
+  has Parts II and III only. The Part I card `w.gibbons-u-s-government-and-1986` to be folded into the main card.
+- Part IV (Oct. 28, 2026), not entered (no day, or no record reached): Cal. 1960, the counterinsurgency plan's directive
+  of Oct. 20, 1960 (I); the Speaker's committee's trip, July 1966; Mansfield's proposal of a meeting with de Gaulle,
+  about Aug. 29, 1966; the Mansfield–U Thant meeting, Nov. 1966 (the day); Rusk's briefing on Brown's Moscow talks,
+  late Nov. 1966; Stennis's speech, about Dec. 8, 1966; Javits's shift (*Times*, Feb. 13, 1967); House Armed Services
+  with Rivers and Halleck, early Feb. 1967 (the day); Mansfield's Senate speech on the UN, Aug. 1967 (113 Cong. Rec.
+  21636; IV, 916); the Moyers–Rostow letters, Sept. 11 and 15, 1967 (IV, 907–08); the IVS resignations, Sept. 19–20,
+  and Luce at State, Oct. 9, 1967 (IV, 904); Morton at the White House after Sept. 27, 1967 (the day); Symington's
+  proposal, Oct. 3, 1967 (113 Cong. Rec. 28090–91); O'Neill's *Star* story and his meeting (the days); the Vint Hill
+  Farms group, Oct. 1967; Rostow and Rusk on Mansfield's resolution, Oct. 26–27 (IV, 919: the days unclear); Wheeler to
+  Westmoreland, JCS 9298, Oct. 31, Dec. 6 and Dec. 23, 1967 (IV, 931, 939–40; CMH, Westmoreland Papers); Westmoreland
+  at the White House dinner for House Democrats, Nov. 16, 1967 (IV, 897 n.: the transcript from tape, LBJ Library);
+  William Bundy to Rusk, Nov. 30, and Kohler, Dec. 2, on JCSM-663-67 (IV, 935); the Bermuda conference, Dec. 1–3, and
+  Freedom House's Asian scholars, Dec. 20, 1967 (IV, 893–94 n.); Rostow and Vann, early Dec. 1967 (IV, 908; Sheehan,
+  *Bright Shining Lie*, 700–701: the day); JASON's bombing study, Dec. 1967 (IV, 940); the CIA's follow-ups on the peace
+  movement, Dec. 21, 1967, and Jan. 5, 1968 (IV, 871 n.); Johnson's "Salute to the President" remarks, Oct. 7, 1967
+  (1967 Pub. Papers 909; IV, 906), not yet an entry.
 
 ### The Bay of Pigs lead-up (the audit of Oct. 21, 2026)
 

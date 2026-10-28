@@ -317,6 +317,13 @@ def run(series, only=None):
     from . import cited_records
     for where, msg in cited_records.problems(series):
         add(ERROR, where, msg, "cited-records")
+    # each calendar entry's claims and the sources for each (src; tools/bib/claims.py)
+    from . import claims
+    errs, warns = claims.problems(series)
+    for where, msg in errs:
+        add(ERROR, where, msg, "claims")
+    for where, msg in warns:
+        add(WARN, where, msg, "claims")
     # the Executive Branch (executive/*.yaml)
     from . import executive
     for where, msg in executive.problems(series):

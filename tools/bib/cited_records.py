@@ -5,7 +5,9 @@
 The owner: the agents to log "the materials and records cited for the claims in the secondary sources they read", and
 "identify the ABCD fact, claim, or quotation it sources, along with the entry". A reading agent that cites a work's
 page for a calendar entry writes down what that page rests on: each document, recording, interview or file the work's
-note gives for it, and which fact, claim or quotation of the entry's `c` it is the work's ground for.
+note gives for it, here, once; and which fact, claim or quotation of the entry's `c` it grounds, on the entry, as a
+`via` row of its claim map (tools/bib/claims.py: `via w.dallek-flawed-giant 70 n.36: B, E`, the letters the units of
+`c`). The record is described once; the claims it grounds are where the claims are.
 
 A file is a list of records:
 
@@ -13,20 +15,16 @@ A file is a list of records:
       kind: memorandum                              # KINDS
       date: '1965-02-07'                            # the record's date, as cited: YYYY-MM-DD, YYYY-MM, YYYY, or null
       where: NSF, Memos to the President, Bundy, vol. 8, box 2, LBJ Library   # repository and file, as cited
-      cited_by: {page: '251', note: '14'}           # the work's printed page and its note (null for a text citation)
-      for:                                          # every entry and claim it is cited for
-        - entry: cal.1965-02-07.vietnam
-          claim: the reprisal's targets             # the fact, claim or quotation of `c` it grounds (STYLE 2)
+      cited_by: {page: '251', note: '14'}           # the work's printed page and its note: the key the `via` rows use
       found: FRUS 1964–68, II, doc. 84              # a copy the series can read (FRUS, the Papers, a recording), or null
       read: false                                   # true once read and cited in the entry as its primary record
 
 STYLE
  1. Only what the work's own note gives: no record inferred from the text ("Johnson told Bundy" is not a citation).
-    A note citing several records for a paragraph: each record its own row, each tied to the claim it bears where the
-    note or the text says which; where it does not, `claim` says "the paragraph: ..." and the row carries `check`.
- 2. `claim` names the part of `c` exactly enough to find it: a few of its words ("the vote, 61 to 32"), a quotation's
-    opening words in quotation marks, or "the whole entry" where the record grounds all of it. One claim a row of
-    `for`; a record grounding two claims of one entry has two rows.
+    A note citing several records for a passage: each record its own row here, and on the entry each its own `via`
+    row with the letters of the units the passage covers (the same letters for each, where the note does not say
+    which grounds which: that is the ordinary case, and needs no remark).
+ 2. Two records under one note number: `note: '14a'`, `'14b'`, in the note's order.
  3. In the entry's note, an unread record joins "To check:" (CLAUDE.md, "Hard and soft") in the work's own form,
     after the works, with the work, page and note it comes from and the claim: "To check: Bundy to Johnson, Feb. 7,
     1965, NSF, LBJ Library (cited by [[w.dallek-flawed-giant]], 251 n.14, for the targets)." Once read (`read: true`), it
@@ -84,12 +82,6 @@ def problems(series):
             cb = r.get("cited_by") or {}
             if not cb.get("page"):
                 out.append((at, "cited_by without the work's page"))
-            fors = r.get("for") or []
-            if not fors:
-                out.append((at, "cited for nothing: `for` names the entries and claims"))
-            for f in fors:
-                if not isinstance(f, dict) or not f.get("entry") or not f.get("claim"):
-                    out.append((at, "each `for` row needs entry and claim (STYLE 2)"))
-                elif series.get(f["entry"]) is None:
-                    out.append((at, f"no entry {f['entry']}"))
+            if "for" in r:
+                out.append((at, "the claims a record grounds are `via` rows on the entries (tools/bib/claims.py), not `for`"))
     return out
