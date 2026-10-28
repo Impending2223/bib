@@ -455,6 +455,12 @@ reports them (`notes/calendar-audit.md`).
   sentence on `cal.1963-03-21.cuba`); the Daily Diary's backup for Aug. 15-26, 1964; the FBI's file on the Freedom
   Democrats.
 
+- *A Thousand Days* and *The Vantage Point*: Laos's public record, Mar.-Apr. 1961; the messages of 1961; Hawkins's cable
+  (FRUS 1961-63, X, doc. 98); the breakfast meeting of Nov. 21, 1967; the Dominican Republic, the India food, the
+  Kennedy Round and the arms talks as Johnson tells them; four discrepancies kept as Checks (the Mundt vote, 57-36 by
+  Johnson; the reserve call-up of the Mar. 4, 1968 draft, about 245,000 by Johnson against FRUS's 262,000; the Rules
+  Committee of Mar. 19, 1968, "lost by one vote" by Johnson against the Digest's deferral; Mills's statement, Nov. 11,
+  1964 by Johnson against the calendar's Dec. 2).
 - Frankum, *Victory in Vietnam*, Johns: Hanoi's Politburo decisions not entered, and Hồ's appeals of 1965, 1966 and
   1968; Nam Bắc, 1966-68; Market Time; the target list of June 1964; the herbicide decision of 1961; the Laos side of
   Eisenhower and Kennedy's Camp David talk of Apr. 22, 1961; O'Donnell's account of Kennedy to Mansfield, Dec. 1962, and
