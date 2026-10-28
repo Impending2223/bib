@@ -45,6 +45,19 @@ Scopes taken out of the statements, kept here:
   tags for the States and cities it concerns (`state:ny`, `city:nyc`), for State threads or lists later; none yet beyond
   the four.
 
+- Republican Party; Democratic Party; Conservative movement (Oct. 29, 2026, the owner's rule on the parties and the
+  members: CLAUDE.md): a party out of the White House and its organs (the national committee and its chairman, the
+  governors' association and meetings, the coordinating committee, the platform's and the leadership's papers), its
+  factions and their papers, its figures out of office on policy or politics; its members of Congress as a party (the
+  leaders, conferences, caucuses, policy committees, task forces and their papers) in the subthread "Republican Party:
+  In Congress", and for the Democrats in Democratic Party itself, Congress as an institution staying in Congress. A
+  member's word on the war is Vietnam: Congress and the President, also the party's thread where he speaks as his
+  party (a conference paper, a leadership statement), not where he speaks for himself. The President's own party as he
+  leads it (the national committee he runs, his campaign) is in the year's elections thread, also Democratic Party.
+  The conservative movement's organized groups and third party (YAF, the Conservative Party of New York, the Free
+  Society Association, the ACU, *National Review*); the radical right and the officers who spoke for it stay in Right
+  and the military.
+
 Names: no thread or subthread name begins with "The" (the owner's rule, Oct. 21, 2026): "Bay of Pigs", "Air war".
 
 Order: th.yaml in alphabetical order of the threads' names, as shown; War on poverty under "poverty", Bobby Baker under

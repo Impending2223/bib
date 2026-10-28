@@ -39,6 +39,22 @@ histories, recordings and diaries: date each by its source, cite it by page, nam
 participant's ("by O'Donnell's account"), and where accounts differ, say so ("Check: Sorensen gives ..."). The reading
 runs look for them.
 
+The parties and the members (the owner's rule, Oct. 29, 2026, on the readings' "minor": "What rule makes this kind of
+position-taking, messaging, organization, communication, policy formation, campaigning, etc., in the opposition and
+among non-majority-leadership MCs 'minor'? Can we amend it?"; "I'm quite interested in what the Republicans were up to,
+and what they were saying, in these years"): within the brief, and never "minor", the position-taking, messaging,
+organization, communication, policy formation and campaigning of either party out of the White House and of any member
+of Congress, leader or not: a party's statements, papers, declarations and platforms; its committees' and leaderships'
+meetings and decisions; the founding and doings of its factions and allied groups (the Ripon Society, the Free Society
+Association, Young Americans for Freedom, the American Conservative Union, the Democratic Study Group); and the dated
+public word (a speech, statement, press conference, interview, article or column under his own name) of a member, a
+governor, a party officer or a party figure out of office (Eisenhower, Nixon, Goldwater, Rockefeller, Romney, Scranton,
+Percy, Reagan) on policy or politics. A journalist's column is an entry only where it carried an act (a leak, a trial
+balloon) or made news itself. "Minor", as a reason in a "Passed over" list, means only: a repetition of a position
+already entered, with nothing new; private or social trivia; an operation or incident below the level the calendar
+records. The threads: Republican Party (`republican-party`; its subthread "In Congress", `republican-party-congress`),
+Conservative movement (`conservative-movement`), Democratic Party (`democratic-party`); `notes/threads.md`.
+
 So every calendar entry has:
 - `c`: what happened, in one to three clipped sentences. Who, what, the number.
 - `n`: the pointers, in this order:
@@ -117,7 +133,7 @@ under one note for one passage, each its row, the same letters. The unread recor
 comes from ("To check: Bundy to Johnson, Feb. 7, 1965, NSF, LBJ Library (cited by [[w.dallek-flawed-giant]], 251
 n.14)."). And what a reading passes over: every dated event the work treats and the run did not enter is listed in its
 `notes/book-checks/` file under "Passed over", page, date, event and why (out of the brief, undated, minor, already in
-under another id, a lead), for the owner to rule on.
+under another id, a lead), for the owner to rule on. "Minor" as the parties-and-members rule above defines it.
 
 Calendar entries on the States and the cities take hidden `state:<postal code>` and `city:<slug>` tags (`state:ny`,
 `city:nyc`) and the threads in `notes/threads.md` ("The States and the cities").
