@@ -1780,6 +1780,15 @@ Foreign:
 - Phúc Yên's first strike, Oct. 25, 1967; the Hanoi circle closed indefinitely, Sept. 7.
 - Symington's proposal of Oct. 3 itself: a statement or a speech off the floor, not found in the Record.
 
+### Gibbons, *The U.S. Government and the Vietnam War*, Parts I–III (the back-fill agent, Oct. 29, 2026; notes/book-checks/gibbons-u-s-government-and.md)
+
+- The executive sessions of Foreign Relations, 1961–65 (RG 46), behind every "To check:" here: the transcripts since
+  published in the committee's *Executive Sessions* (Historical Series) would let these entries cite the record.
+- Dodd's speech "later that same day" (III, 283, the note): the day may be another; the Record's index under Dodd.
+- The House's executive sessions of Oct. 8, 1963 (Foreign Affairs) and Jan. 27 and 29, 1964 (Armed Services): closed.
+- *Department of Defense Appropriations for 1965*, pt. 4 (1964), pp. 12, 101, 117: the hearing of Feb. 17, 1964, printed.
+- *Foreign Assistance, 1964*, pp. 542–52: the hearing of June 23, 1964, printed.
+
 ## The Executive roster
 
 - NSCID No. 1: the texts of 1958, 1964 and 1972 not in the file (`usib.yaml`). Open on archive.org, the CIA's CREST copies (Oct. 23, 2026): the text effective Feb. 17, 1972 (`CIA-RDP87B01034R000700020013-3`); a 1958 draft (`CIA-RDP85S00362R000600150011-7`, "Concurred in by the IAC 21 January"), with the drafts of 1957; for 1964 only Bundy's approval of the revisions, Mar. 27, 1964, "the President's decision of March 5, 1964 on the reorganization of the USIB" (`cia-readingroom-document-cia-rdp80b01676r000400180031-7`; the text exempt). FRUS 1964–68, XXXIII, doc. 196, n. 3: revised Jan. 18, 1961, and Mar. 4, 1964. Lay shown as the Board's Executive Secretary only for Mar. 1964, in a note.

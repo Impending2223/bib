@@ -147,10 +147,11 @@ entries:
     src:
       c: b43a2759
       rows:
-        - 'https://history.state.gov/historicaldocuments/frus1964-68v01/d2: all'
-        - 'w.gibbons-u-s-government-and II, 215–216: all'
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 500: A'
         - 'via w.kaplan-mcnamara-ascendancy-1961-1965 500 n.11: all'
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v01/d2: all'
+        - 'w.gibbons-u-s-government-and II, 215–16: all'
+        - 'via w.gibbons-u-s-government-and II, 215 n.24: all'
     tags: [name:mansfield-mike, name:johnson-lyndon-b]
   - id: cal.1964-01-07.congress
     when: Jan. 7
@@ -738,6 +739,18 @@ entries:
       rows:
         - 'w.caro-passage-of-power 588–89: all'
     tags: [name:schlesinger-arthur-m-jr, name:goldman-eric-f, name:johnson-lyndon-b]
+  - id: cal.1964-01-27.vietnam-congress
+    when: Jan. 27–29
+    date: '1964-01-27'
+    thread: vietnam-congress
+    c: 'McNamara before House Armed Services in executive session, Jan. 27 and 29: asked of the withdrawal plan and of carrying the war to the Viet Cong, a "South Vietnamese war"; "by keeping the crutch there too long we would weaken the Vietnamese."'
+    n: '[[w.gibbons-u-s-government-and]], II, 227. To check: the excerpts in *Pentagon Papers*, Gravel ed., III, 35–36 (cited by [[w.gibbons-u-s-government-and]], II, 227 n.46). Names: McNamara.'
+    src:
+      c: 279ba50c
+      rows:
+        - 'w.gibbons-u-s-government-and II, 227: all'
+        - 'via w.gibbons-u-s-government-and II, 227 n.46b: all'
+    tags: [name:mcnamara-robert-s]
   - id: cal.1964-01-29.space
     when: Jan. 29
     date: '1964-01-29'
@@ -750,18 +763,19 @@ entries:
     date: '1964-01-30'
     thread: vietnam-saigon
     c: 'Saigon. Nguyễn Khánh takes power without bloodshed; Dương Văn Minh, Trần Văn Đôn, Lê Văn Kim held. Lodge and Harkins: Khánh feared the junta was dealing with the French toward neutralization. Feb. 1, Johnson: neutralization of the South alone, no; "the operations should be stepped up."'
-    n: 'FRUS 1964–68, I, docs. [22](https://history.state.gov/historicaldocuments/frus1964-68v01/d22), [24](https://history.state.gov/historicaldocuments/frus1964-68v01/d24), [31](https://history.state.gov/historicaldocuments/frus1964-68v01/d31); [19](https://history.state.gov/historicaldocuments/frus1964-68v01/d19) (Lodge, Jan. 29: Khánh''s charges). The President''s News Conference, [1963–64 Pub. Papers 254](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=338) (Feb. 1, 1964). [[w.gibbons-u-s-government-and]], II, 218; [[w.kaplan-mcnamara-ascendancy-1961-1965]], 502 (the coup); [[w.cosmas-joint-chiefs-of-staff-2012]], 10–12 (the coup; Khánh''s charges). To check: Saigon 1445 and 1446 to State, Jan. 30, 1964; SACSA briefing sheet, "Coup d''Etat in Republic of Vietnam," Jan. 30, 1964, OCJCS File (cited by [[w.cosmas-joint-chiefs-of-staff-2012]], 12 n.20). To check: [[w.ahern-cia-and-the-generals]]; [[w.shaplen-lost-revolution]]; [[w.lam-history-of-south-vietnam-2021]]; [[w.kaiser-american-tragedy]]; [[w.logevall-choosing-war]]; [[w.vandemark-into-the-quagmire]]. See [[cal.1963-12-21.vietnam]]. Names: Nguyễn Khánh, Dương Văn Minh, Trần Văn Đôn, Lê Văn Kim, Lodge, Harkins, Johnson.'
+    n: 'FRUS 1964–68, I, docs. [22](https://history.state.gov/historicaldocuments/frus1964-68v01/d22), [24](https://history.state.gov/historicaldocuments/frus1964-68v01/d24), [31](https://history.state.gov/historicaldocuments/frus1964-68v01/d31); [19](https://history.state.gov/historicaldocuments/frus1964-68v01/d19) (Lodge, Jan. 29: Khánh''s charges). The President''s News Conference, [1963–64 Pub. Papers 254](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=338) (Feb. 1, 1964). [[w.gibbons-u-s-government-and]], II, 218 (the coup; Khánh''s warning that junta members meant to negotiate a neutralization); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 502 (the coup); [[w.cosmas-joint-chiefs-of-staff-2012]], 10–12 (the coup; Khánh''s charges). To check: Saigon 1445 and 1446 to State, Jan. 30, 1964; SACSA briefing sheet, "Coup d''Etat in Republic of Vietnam," Jan. 30, 1964, OCJCS File (cited by [[w.cosmas-joint-chiefs-of-staff-2012]], 12 n.20). To check: [[w.ahern-cia-and-the-generals]]; [[w.shaplen-lost-revolution]]; [[w.lam-history-of-south-vietnam-2021]]; [[w.kaiser-american-tragedy]]; [[w.logevall-choosing-war]]; [[w.vandemark-into-the-quagmire]]. See [[cal.1963-12-21.vietnam]]. Names: Nguyễn Khánh, Dương Văn Minh, Trần Văn Đôn, Lê Văn Kim, Lodge, Harkins, Johnson.'
     src:
       c: 7e8739ab
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v01/d22: all'
         - 'https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=338: E-F'
-        - 'w.gibbons-u-s-government-and II, 218: all'
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 502: A-B'
         - 'https://history.state.gov/historicaldocuments/frus1964-68v01/d19: D'
         - 'w.cosmas-joint-chiefs-of-staff-2012 10–12: B-D'
         - 'via w.cosmas-joint-chiefs-of-staff-2012 12 n.18: D'
         - 'via w.cosmas-joint-chiefs-of-staff-2012 12 n.20: B-C'
+        - 'w.gibbons-u-s-government-and II, 218: A-B, D'
+        - 'via w.gibbons-u-s-government-and II, 218 n.27: A-B, D'
     tags: [name:nguyen-khanh, name:duong-van-minh, name:tran-van-don, name:le-van-kim, name:lodge-henry-cabot, name:harkins-paul-d, name:johnson-lyndon-b, place:saigon]
   - id: cal.1964-01-30.desegregation-schools-cleveland
     when: Jan. 30
