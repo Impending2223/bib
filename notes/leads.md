@@ -1732,6 +1732,39 @@ From the re-ruling of the "minor" rows (Oct. 29, 2026):
   the day the market fell). Robert Kennedy's defense of it at the White House, by Cox's account: its day.
 - Kennedy to Galbraith, Nov. 1961, "limits to the number of defeats" (the book, 705; Galbraith's interview of 1977): its day.
 
+### Stein, *The Fiscal Revolution in America*, back-fill (the back-fill agent, Oct. 29, 2026; notes/book-checks/perlstein-before-the-storm.md)
+
+The "to leads" rows above are the leads, each with what it wants. The chief of them, by kind: the White House recordings Perlstein cites by tape (Johnson with Russell on the missiles, Jan. 1964; with McNamara on Lodge, Mar. 1964; with Connally, May 1964; with Humphrey, July 1964; with Smathers, Aug. 2, and Anderson, Aug. 4, 1964; with Eisenhower, Oct. 1964), to be found in the Miller Center's catalogue (`daybook/recordings/`); the Record's days for Fulbright's speeches on Goldwaterism (July 1964) and Goldwater's remarks of Sept. 20 and Oct. 1, 1963; the convention's *Proceedings* of 1964 (borrow only) for the credentials committee's and the platform's votes; the dates the book does not give of the national committee's Seattle meeting (June 1962), Eisenhower's All-Republican Conference (1962), the women's federation's conventions (1962, 1963), Young Americans for Freedom's fourth convention (1964) and the Republican Assembly's convention of 1964; and the events of the other parts' threads to check against the calendar (Lodge's resignation, June 23, 1964; Johnson in New England, Sept. 28, 1964; Johnson's address of Oct. 24, 1964; Berkeley, Oct. 1964).
+
+### Zelizer, *Taxing America*, back-fill (the back-fill agent, Oct. 29, 2026; notes/book-checks/zelizer-taxing-america.md)
+
+National:
+- The Revenue Act of 1962 in the House: reported mid-March, passed Mar. 29, 1962; Kennedy's letter of thanks to Mills,
+  Mar. 22 (JFK Library, POF, Box 50); the conference of May and September (John Martin's notes, RG 233, 87th Cong.,
+  Box 15). None of the act's course is in the calendar but its signing.
+- The Ways and Means hearings of April–May 1961 on the tax message, and of Jan. 27, 1965 on H.R. 1: the Daily Digest.
+- The Ways and Means Republicans' paper of Oct. 1, 1962, "Reasons for a Vote Against: The Medicare Program" (JMIC);
+  their statement against the investment credit, 1961 (JFK Library, POF, Box 107).
+- Mills's speeches whose words Zelizer does not give: Pulaski County Bar, Oct. 30, 1964; Chamber of Commerce, Aug. 27,
+  1968; National Association of Accountants, Dec. 10, 1968 (Mills Papers); his *Issues and Answers* of Feb. 11, 1968
+  (transcript, LBJ Library); his *U.S. News* interview of Oct. 9, 1967.
+- Zelizer's dates that differ from the record: the depreciation guidelines (July 1961 for July 1962); Dillon's warning
+  (Nov. 24 in the text, Nov. 25 in the note); the conference vote of June 20, 1968 (268–159; Voteview 268–150).
+
+### Schwartz, *Lyndon Johnson and Europe*, back-fill (the back-fill agent, Oct. 29, 2026; notes/book-checks/schwartz-lyndon-johnson-and-europe.md)
+
+Foreign:
+- The Consular Convention with the Soviet Union: signed June 1, 1964; the Senate's consent and ratification (1967–68).
+- The T-39 shot down over East Germany, Jan. 28, 1964, Johnson's call to Walker Stone; the RB-66, Mar. 1964 (FRUS
+  1964–68, XIV, docs. 22–23).
+- The NATO ministerial meeting of Dec. 1964 and its press ("rug-pulling"); the Soviet statement against the MLF of Nov.
+  15, 1964; de Gaulle's press conference on gold, Feb. 4, 1965; the British draft nonproliferation treaty, June 1965.
+- The British records Schwartz cites for 1965–68 (PREM 13, the Public Record Office): McNamara and Healey, Rusk and
+  Stewart, June 1965; the talks of Apr. 15, July 27–31, Sept. 9, 1965; Feb. 8–9, 1968. Not open here.
+- Kosygin's letter of Jan. 1966 (Bator to Johnson, Jan. 12, 1966); the Acheson committee's report, June 1966; the
+  NSAM of Aug. 14, 1965 on a French withdrawal; Eugene Rostow on the border tax, Jan. 8, 1968 (FRUS VIII, doc. 175).
+- Johnson's interview with a German magazine, Apr. 1964: not identified.
+
 ## The Executive roster
 
 - NSCID No. 1: the texts of 1958, 1964 and 1972 not in the file (`usib.yaml`). Open on archive.org, the CIA's CREST copies (Oct. 23, 2026): the text effective Feb. 17, 1972 (`CIA-RDP87B01034R000700020013-3`); a 1958 draft (`CIA-RDP85S00362R000600150011-7`, "Concurred in by the IAC 21 January"), with the drafts of 1957; for 1964 only Bundy's approval of the revisions, Mar. 27, 1964, "the President's decision of March 5, 1964 on the reorganization of the USIB" (`cia-readingroom-document-cia-rdp80b01676r000400180031-7`; the text exempt). FRUS 1964–68, XXXIII, doc. 196, n. 3: revised Jan. 18, 1961, and Mar. 4, 1964. Lay shown as the Board's Executive Secretary only for Mar. 1964, in a note.
