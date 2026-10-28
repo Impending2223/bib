@@ -142,7 +142,11 @@ entries:
     thread: elections-1968
     also: [robert-kennedy]
     c: 'Indiana, Kennedy''s first primary: Kennedy first; Branigin, the Governor, a favorite son pledged to Johnson''s cause, second (Check); McCarthy third. In the District, Kennedy''s slate over Humphrey''s.'
-    n: '[[w.schlesinger-robert-kennedy-and-his]], 880–83. See [[cal.1968-05-07.elections-1968]]; [[cal.1968-03-14.robert-kennedy]]. Names: Kennedy, Branigin, McCarthy, Johnson, Humphrey.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 880–83. See [[cal.1968-05-07.elections-1968]]; [[cal.1968-03-14.robert-kennedy]]. Names: Kennedy, Branigin, McCarthy, Johnson, Humphrey. Check: Schlesinger has Branigin heading the administration''s slate "as a stand-in for the yet undeclared Hubert Humphrey" (880).'
+    src:
+      c: 10432e03
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 880–83: all'
     tags: [name:kennedy-robert-f, name:branigin-roger-d, name:mccarthy-eugene-j, name:johnson-lyndon-b, name:humphrey-hubert-h, state:in]
   - id: cal.1968-05-07.alabama-al
     when: May 7
@@ -484,6 +488,18 @@ entries:
       rows:
         - 'w.johnson-vantage-point 456: all'
     tags: [name:mccormack-john-w, name:albert-carl, name:johnson-lyndon-b]
+  - id: cal.1968-05-21.elections-1968
+    when: May 21
+    date: '1968-05-21'
+    thread: elections-1968
+    also: [democratic-party]
+    c: 'McCarthy, in a press interview: he could support Humphrey if Humphrey changed his position on Vietnam, and possibly Robert Kennedy if he changed his campaign methods.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 905. To check: Eugene McCarthy, *The Year of the People*, 124 (1969) (cited by [[w.schlesinger-robert-kennedy-and-his]], 905 n.13). Check: the interview. Names: Eugene McCarthy, Humphrey, Robert Kennedy.'
+    src:
+      c: dafe19b8
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 905: all'
+    tags: [name:mccarthy-eugene-j, name:humphrey-hubert-h, name:kennedy-robert-f]
   - id: cal.1968-05-22.europe-and-the-alliance
     when: May 22
     date: '1968-05-22'
@@ -599,7 +615,11 @@ entries:
     thread: elections-1968
     also: [robert-kennedy]
     c: 'Oregon: McCarthy over Kennedy, the first election a Kennedy had lost (Check). Nebraska, May 14, had gone to Kennedy, McCarthy second. Both to California for June 4.'
-    n: '[[w.schlesinger-robert-kennedy-and-his]], 905–07. See [[cal.1968-05-28.elections-1968]]; [[cal.1968-05-14.elections-1968]]; [[cal.1968-03-14.robert-kennedy]]. Names: McCarthy, Kennedy.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 905–07 (Oregon; the first Kennedy defeat; on to California the next morning; not Nebraska). See [[cal.1968-05-28.elections-1968]]; [[cal.1968-05-14.elections-1968]]; [[cal.1968-03-14.robert-kennedy]]. Names: McCarthy, Kennedy.'
+    src:
+      c: 5933022c
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 905–07: A, C'
     tags: [name:mccarthy-eugene-j, name:kennedy-robert-f, state:or, state:ne]
   - id: cal.1968-05-28.trade
     when: May 28
@@ -644,6 +664,19 @@ entries:
     c: 'Cabinet meeting on the tax bill and the cuts. Johnson: "We''ll look like Hoover if we don''t use all the horsepower we''ve got. ... This is a question of survival."'
     n: '[[w.zelizer-taxing-america]], 276. To check: "The Cabinet Meeting of May 29, 1968" (LBJ Library, Cabinet Papers). See [[cal.1967-01-10.economy]]. Names: Johnson.'
     tags: [name:johnson-lyndon-b]
+  - id: cal.1968-05-29.robert-kennedy
+    when: May 29
+    date: '1968-05-29'
+    thread: robert-kennedy
+    also: [elections-1968]
+    c: 'Los Angeles airport, the morning after Oregon. Robert Kennedy on Humphrey: his failure "to present his views to the voters of a single state"; the "politics of joy" irrelevant to cities becoming "armed camps." He will debate McCarthy, with or without the Vice President.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 907. To check: Robert Kennedy, press conference statement, Los Angeles, May 29, 1968, RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 907 n.27). See [[cal.1968-05-28.elections-1968-2]]; the debate, [[cal.1968-06-01.elections-1968]]. Names: Robert Kennedy, Humphrey, Eugene McCarthy.'
+    src:
+      c: e2b76cd6
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 907: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 907 n.27: all'
+    tags: [name:kennedy-robert-f, name:humphrey-hubert-h, name:mccarthy-eugene-j, state:ca, city:los-angeles]
   - id: cal.1968-05-30.europe-and-the-alliance-france
     when: May 30
     date: '1968-05-30'

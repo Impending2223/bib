@@ -123,7 +123,11 @@ entries:
     date: '1960-05-10'
     thread: elections-1960
     c: Humphrey, beaten by Kennedy in West Virginia, withdraws that night, at Charleston.
-    n: 'To check: [[w.white-making-of-the-president]]; [[w.fleming-kennedy-vs-humphrey-west]]; [[w.humphrey-education-of-a-public-1976]]; [[w.solberg-hubert-humphrey]]; [[w.obrien-no-final-victories]]; [[w.casey-making-of-a-catholic]]; [[w.carty-catholic-in-the-white]]; [[w.rorabaugh-real-making-of-the]]. Names: Humphrey, Kennedy.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 202 (the withdrawal; Rauh reads it to Robert Kennedy, who comes to the suite, by Rauh''s account). To check: [[w.white-making-of-the-president]]; [[w.fleming-kennedy-vs-humphrey-west]]; [[w.humphrey-education-of-a-public-1976]]; [[w.solberg-hubert-humphrey]]; [[w.obrien-no-final-victories]]; [[w.casey-making-of-a-catholic]]; [[w.carty-catholic-in-the-white]]; [[w.rorabaugh-real-making-of-the]]. Names: Humphrey, Kennedy.'
+    src:
+      c: 17119dff
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 202: A'
     tags: [name:humphrey-hubert-h, name:kennedy-john-f]
   - id: cal.1960-05-10.sit-ins
     when: May 10
@@ -342,3 +346,41 @@ entries:
     c: Alabama's Democratic runoff for presidential electors. Six unpledged electors nominated in all, and five loyal to the national ticket. All eleven on the November ballot as the Democratic electors; the six vote for Byrd in December, the five for Kennedy.
     n: '[*Alabama Official and Statistical Register, 1963* (Ala. Dept. of Archives and History), 647](https://archive.org/details/alabama-official-statistical-register-1963/page/n646). See [[cal.1960-05-03.alabama-al]]; [[cal.1960-12-19.elections-1960]]. Names: Byrd, Kennedy.'
     tags: [state:al, name:byrd-harry-f, name:kennedy-john-f]
+  - id: cal.1960-05.democratic-party
+    when: May
+    date: 1960-05
+    thread: democratic-party
+    also: [elections-1960]
+    c: 'Mid-month, Johnson to Stevenson, trying to hold delegates from Kennedy: "If I don''t get it, it will be you."'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 203. To check: [[w.martin-adlai-stevenson-and-the]], 499 (cited by [[w.schlesinger-robert-kennedy-and-his]], 203 n.52). Check: the day. Names: Johnson, Stevenson, Kennedy.'
+    src:
+      c: 9d01db3c
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 203: all'
+    tags: [name:johnson-lyndon-b, name:stevenson-adlai-e, name:kennedy-john-f]
+  - id: cal.1960-05.elections-1960
+    when: May
+    date: 1960-05
+    thread: elections-1960
+    c: Kennedy calls on Stevenson at Libertyville, Ill. By his account to Schlesinger, he told Stevenson "that Lyndon was a chronic liar"; by Stevenson's, the mention of Johnson the one flash of temper.
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 203. To check: Schlesinger, journal, May 22 and May 29, 1960 (cited by [[w.schlesinger-robert-kennedy-and-his]], 203 n.53–54). Check: the day, a few days after mid-May. See [[cal.1960-05-10.elections-1960-2]]. Names: Kennedy, Stevenson, Schlesinger, Johnson.'
+    src:
+      c: aaea7584
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 203: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 203 n.53: B'
+        - 'via w.schlesinger-robert-kennedy-and-his 203 n.54: C'
+    tags: [name:kennedy-john-f, name:stevenson-adlai-e, name:schlesinger-arthur-m-jr, name:johnson-lyndon-b]
+  - id: cal.1960-05.democratic-party-2
+    when: May
+    date: 1960-05
+    thread: democratic-party
+    also: [soviet-union]
+    c: 'The Democratic Advisory Council''s statement on the collapse of the Paris summit condemns Eisenhower for going without assurance of results. Kennedy, to Schlesinger, May 22: he could not go along with that passage.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 419. To check: Schlesinger, journal, May 22, 1960 (cited by [[w.schlesinger-robert-kennedy-and-his]], 419 n.13). Check: the statement''s day and text. Names: Eisenhower, Kennedy, Schlesinger.'
+    src:
+      c: 63cdf2e7
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 419: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 419 n.13: B'
+    tags: [name:eisenhower-dwight-d, name:kennedy-john-f, name:schlesinger-arthur-m-jr]

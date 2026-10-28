@@ -11,6 +11,18 @@ entries:
     c: 'Gallup, Dec. 12–17: Johnson 75, Goldwater 20, undecided, other 5; Johnson 69, Nixon 24, undecided, other 7.'
     n: '[[w.gallup-poll]], III, 1857. Names: Johnson, Goldwater, Nixon.'
     tags: [name:johnson-lyndon-b, name:goldwater-barry-m, name:nixon-richard-m]
+  - id: cal.1964-01-01.robert-kennedy
+    when: Jan. 1
+    date: '1964-01-01'
+    thread: robert-kennedy
+    c: 'Johnson, from the ranch, wires Robert Kennedy: "Your brother would have been very proud of the strength you have shown. ... I will need your counsel and support." They had not met in December.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 628. To check: Johnson to Robert Kennedy, Jan. 1, 1964, Robert Kennedy to Johnson, Jan. 3, 1964, RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 628 n.40). See [[cal.1963-11-27.robert-kennedy]]. Names: Johnson, Robert Kennedy.'
+    src:
+      c: c9b10243
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 628: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 628 n.40: all'
+    tags: [name:johnson-lyndon-b, name:kennedy-robert-f]
   - id: cal.1964-01-02.press-and-broadcasting
     when: Jan. 2
     date: '1964-01-02'
@@ -45,6 +57,18 @@ entries:
         - 'via w.perlstein-before-the-storm 260 n.3: A'
         - 'w.young-two-suns-of-the 70: A'
     tags: [name:goldwater-barry-m, name:kitchel-denison, name:burch-dean, name:kleindienst-richard-g]
+  - id: cal.1964-01-03.robert-kennedy
+    when: Jan. 3
+    date: '1964-01-03'
+    thread: robert-kennedy
+    c: 'Robert Kennedy, from Aspen, Colo., to Johnson: "I am looking forward to visiting you in Washington at your convenience. Respectfully."'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 628. To check: Robert Kennedy to Johnson, Jan. 3, 1964, RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 628 n.40). See [[cal.1964-01-01.robert-kennedy]]. Names: Robert Kennedy, Johnson.'
+    src:
+      c: 8fa1d199
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 628: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 628 n.40: all'
+    tags: [name:kennedy-robert-f, name:johnson-lyndon-b]
   - id: cal.1964-01-04.legislatures-il
     when: Jan. 4
     date: '1964-01-04'
@@ -383,7 +407,12 @@ entries:
     thread: robert-kennedy
     also: [indonesia]
     c: Robert Kennedy, sent by Johnson, on Indonesia's confrontation of Malaysia. Tokyo, with Sukarno.
-    n: 'FRUS 1964–68, XXVI, docs. [15](https://history.state.gov/historicaldocuments/frus1964-68v26/d15), [16](https://history.state.gov/historicaldocuments/frus1964-68v26/d16) (his instructions, Jan. 14), [17](https://history.state.gov/historicaldocuments/frus1964-68v26/d17), [19](https://history.state.gov/historicaldocuments/frus1964-68v26/d19) (the talks in Tokyo, Jan. 17, 18). [[w.schlesinger-robert-kennedy-and-his]], 633–35. To check: [[w.jones-conflict-and-confrontation-in]]. See [[cal.1962-02-06.robert-kennedy]]. Names: Robert Kennedy, Johnson, Sukarno.'
+    n: 'FRUS 1964–68, XXVI, docs. [15](https://history.state.gov/historicaldocuments/frus1964-68v26/d15), [16](https://history.state.gov/historicaldocuments/frus1964-68v26/d16) (his instructions, Jan. 14), [17](https://history.state.gov/historicaldocuments/frus1964-68v26/d17), [19](https://history.state.gov/historicaldocuments/frus1964-68v26/d19) (the talks in Tokyo, Jan. 17, 18). [[w.schlesinger-robert-kennedy-and-his]], 633–35. Check: Schlesinger has the meeting with Sukarno in Tokyo on Jan. 16 (634). To check: [[w.jones-conflict-and-confrontation-in]]. See [[cal.1962-02-06.robert-kennedy]]. Names: Robert Kennedy, Johnson, Sukarno.'
+    src:
+      c: 260ddde2
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v26/d15: all'
+        - 'w.schlesinger-robert-kennedy-and-his 633–35: all'
     tags: [name:kennedy-robert-f, name:johnson-lyndon-b, name:sukarno]
   - id: cal.1964-01-18.poverty
     when: Jan. 18
@@ -768,3 +797,29 @@ entries:
       rows:
         - 'w.young-two-suns-of-the 119: all'
     tags: [name:johnson-lyndon-b, name:rauh-joseph-l-jr, name:mitchell-clarence-jr]
+  - id: cal.1964-01.civil-rights-bill-2
+    when: Jan.
+    date: 1964-01
+    thread: civil-rights-bill
+    also: [robert-kennedy]
+    c: 'Johnson to Robert Kennedy on the civil rights bill: "I''ll do on the bill just what you think is best. ... We won''t do anything that you don''t want to do on the legislation." By Robert Kennedy''s account, Johnson doubted it could pass the Senate, and Dirksen was the key.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 644–45. To check: Robert Kennedy, oral history interview by Anthony Lewis, Dec. 22, 1964, 24, 26–27, JFK Library (cited by [[w.schlesinger-robert-kennedy-and-his]], 645 n.122). Check: the day. Names: Johnson, Robert Kennedy, Dirksen.'
+    src:
+      c: 2b1f598c
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 644–45: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 645 n.122: all'
+    tags: [name:johnson-lyndon-b, name:kennedy-robert-f, name:dirksen-everett]
+  - id: cal.1964-01.democratic-party
+    when: Jan.
+    date: 1964-01
+    thread: democratic-party
+    also: [elections-1964]
+    c: 'Buffalo''s Democratic organization endorses Robert Kennedy for Vice President. Crotty, its leader, to Kennedy in February: letters from all over the country approve.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 651. To check: Peter Crotty to Robert Kennedy, Feb. 13, 1964, RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 651 n.25). Check: the day. Names: Robert Kennedy.'
+    src:
+      c: 9cfd0ad2
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 651: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 651 n.25: B'
+    tags: [name:kennedy-robert-f, state:ny]

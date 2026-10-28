@@ -90,12 +90,12 @@ entries:
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v04/d66: all'
         - 'w.gibbons-u-s-government-and II, 169–171: all'
-        - 'w.schlesinger-robert-kennedy-and-his 714: B-C'
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 288: E'
         - 'via w.kaplan-mcnamara-ascendancy-1961-1965 288 n.106: E'
         - 'w.schulimson-joint-chiefs-of-staff 359–60: A-C, E'
         - 'via w.schulimson-joint-chiefs-of-staff 359 n.28: B-C'
         - 'via w.schulimson-joint-chiefs-of-staff 360 n.30: E'
+        - 'w.schlesinger-robert-kennedy-and-his 714: B-C'
     tags: [name:krulak-victor-h, name:mendenhall-joseph-a, name:kennedy-john-f, name:kennedy-robert-f, name:ngo-dinh-diem, name:ngo-dinh-nhu]
     aliases: [cal.1963-09-06.robert-kennedy]
   - id: cal.1963-09-06.opinion
@@ -113,6 +113,18 @@ entries:
     c: Wallace's troopers at the Huntsville schools.
     n: 'Statement by the President on Desegregation in the Schools of Alabama, [1963 Pub. Papers 661](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=719) (Sept. 9, 1963). See [[cal.1963-09-02.alabama]]. Names: Wallace.'
     tags: [name:wallace-george-c]
+  - id: cal.1963-09-07.cuba
+    when: Sept. 7
+    date: '1963-09-07'
+    thread: cuba
+    c: 'Castro, at the Brazilian embassy in Havana, to Daniel Harker of the AP: "United States leaders should think that if they assist in terrorist plans to eliminate Cuban leaders, they themselves will not be safe."'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 547. To check: S. Rep. No. 94-755, bk. V, 14 (1976); [[w.johnson-bay-of-pigs]], 354 (cited by [[w.schlesinger-robert-kennedy-and-his]], 547 n.59). Names: Castro.'
+    src:
+      c: aad81071
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 547: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 547 n.59: all'
+    tags: [name:castro-fidel]
   - id: cal.1963-09-09.vietnam
     when: Sept. 9
     date: '1963-09-09'
@@ -321,7 +333,13 @@ entries:
     date: '1963-09-18'
     thread: cuba
     c: 'Attwood, at the UN mission, proposes a quiet approach to Lechuga, Cuba''s delegate: would Castro neutralize Cuba on American terms? Attwood and Lechuga meet at Lisa Howard''s, Sept. 23. Check the date.'
-    n: '[FRUS 1961–63, XI, doc. 367](https://history.state.gov/historicaldocuments/frus1961-63v11/d367). To check: [[w.attwood-twilight-struggle]]; [[w.fursenko-one-hell-of-a]]; [[w.leogrande-back-channel-to-cuba]]. See [[cal.1963-01-08.cuba]]. Names: Attwood, Fidel Castro, Lechuga, Howard.'
+    n: '[FRUS 1961–63, XI, doc. 367](https://history.state.gov/historicaldocuments/frus1961-63v11/d367). [[w.schlesinger-robert-kennedy-and-his]], 551–52 (the memorandum). To check: [[w.attwood-twilight-struggle]]; [[w.fursenko-one-hell-of-a]]; [[w.leogrande-back-channel-to-cuba]]. See [[cal.1963-01-08.cuba]]. Names: Attwood, Fidel Castro, Lechuga, Howard.'
+    src:
+      c: e48251ad
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v11/d367: all'
+        - 'w.schlesinger-robert-kennedy-and-his 551–52: A'
+        - 'via w.schlesinger-robert-kennedy-and-his 552 n.76: A'
     tags: [name:attwood-william, name:lechuga-carlos, name:castro-fidel, name:howard-lisa]
   - id: cal.1963-09-18.economy
     when: Sept. 18
@@ -372,6 +390,20 @@ entries:
         - 'w.perlstein-before-the-storm 232: all'
         - 'via w.perlstein-before-the-storm 232 n.1: all'
     tags: [name:goldwater-barry-m]
+  - id: cal.1963-09-19.cuba
+    when: Sept. 19
+    date: '1963-09-19'
+    thread: cuba
+    also: [robert-kennedy]
+    c: 'Harriman to Attwood: "adventuresome" enough to favor the approach, but, for its politics, Attwood to see Robert Kennedy. Robert Kennedy sends him to Bundy, the effort "worth pursuing"; by Bundy''s report to Attwood, the President for "pushing towards an opening toward Cuba."'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 552. [S. Rep. No. 94-465, 173 (1975)](https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94465.pdf#page=184) (Robert Kennedy''s word, by Attwood''s testimony). To check: [[w.attwood-reds-and-the-blacks]], 142 (cited by [[w.schlesinger-robert-kennedy-and-his]], 552 n.77). Check: the days after Harriman''s. See [[cal.1963-09-18.cuba]]. Names: Harriman, Attwood, Robert Kennedy, Bundy, Kennedy.'
+    src:
+      c: 716fbecd
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 552: all'
+        - 'https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94465.pdf#page=184: B'
+        - 'via w.schlesinger-robert-kennedy-and-his 552 n.78: B-C'
+    tags: [name:harriman-w-averell, name:attwood-william, name:kennedy-robert-f, name:bundy-mcgeorge, name:kennedy-john-f]
   - id: cal.1963-09-20.space
     when: Sept. 20
     date: '1963-09-20'
