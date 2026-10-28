@@ -324,6 +324,11 @@ act it announces, hearings and the vote, a note and its reply): each gets its ow
 bears, the first keeping the event's bibliography and the rest pointing back. A day's "Continuing" line names what is
 under way; it should say something. 1961 is the model.
 
+One event, one entry (the owner's ruling, Oct. 28, 2026: "One entry, listed in both threads"): a meeting, a call, a
+document or an address whose matter falls in several threads is one entry, filed under its chief thread (`thread:`) and
+listed in the others (`also:`), never one entry a thread. Its bibliography is in one place; each thread's index and
+⟨⟨ ⟩⟩ line find it by `also:`. (Several events on one day stay several entries, as above.)
+
 Subthreads: a thread in `th.yaml` may name a `parent:` ("Defense: McNamara to Clifford", `id:
 cal.thread.defense-clifford`, `s: McNamara to Clifford`, `parent: defense`). Its entries are the parent's too (the
 index's dates, the ⟨⟨ ⟩⟩ line, the highlight); the rubric, the ⟨⟨ ⟩⟩ line and the Continuing line give its full name. A
