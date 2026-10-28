@@ -25,6 +25,8 @@ STYLE
     row with the letters of the units the passage covers (the same letters for each, where the note does not say
     which grounds which: that is the ordinary case, and needs no remark).
  2. Two records under one note number: `note: '14a'`, `'14b'`, in the note's order.
+ 2a. A work in parts cited by part and page (Gibbons, "II, 123"): `page: 'II, 123'`, and the `via` row the same
+    (`via w.gibbons-u-s-government-and II, 123 n.45: B`).
  3. In the entry's note, an unread record joins "To check:" (CLAUDE.md, "Hard and soft") in the work's own form,
     after the works, with the work, page and note it comes from and the claim: "To check: Bundy to Johnson, Feb. 7,
     1965, NSF, LBJ Library (cited by [[w.dallek-flawed-giant]], 251 n.14, for the targets)." Once read (`read: true`), it

@@ -123,7 +123,7 @@ def parse_row(row):
     if not m:
         return None
     src, spec = m.group("src"), m.group("units")
-    v = re.match(r"^via (w\.\S+) (\S+) n\.(\S+)$", src)
+    v = re.match(r"^via (w\.\S+) ((?:[IVXL]+, )?\S+) n\.(\S+)$", src)   # a part or volume before the page: "IV, 118"
     if v:
         return ("via", v.group(1), v.group(2), v.group(3), spec)
     w = re.match(r"^(w\.\S+)(?: (.+))?$", src)
