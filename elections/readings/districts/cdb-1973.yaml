@@ -9,7 +9,7 @@
 # Committee to reflect the congressional district boundaries as established for the 1972 elections ... the vote cast
 # for third parties endorsing the major party candidates are excluded from figures shown here for 'Democratic' and
 # 'Republican' but included in the total vote cast in the district" (so New York's Democratic figures leave out
-# Humphrey's Liberal line). Kept for computation (tools/elections/make_pvi.py); not shown on any page.
+# Humphrey's Liberal line). Used by tools/elections/make_pvi.py; shown by tools/bib/pvi.py.
 #
 # Schema: as cdb-1961.yaml (its header), the cells [t, D, R, A, p] (`fields`); `na` the page's "(NA)". The figures:
 # the OCR's readings (each page's block deskewed and read whole and cell by cell, at three settings), the agreeing or

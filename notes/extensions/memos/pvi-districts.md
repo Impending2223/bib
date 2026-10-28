@@ -131,4 +131,4 @@ gives no district figure for that year; the other year alone serves, as for the 
 - The 1952 vote on the 83d-84th lines (*County and City Data Book, 1956*, app. G): not read; it would add nothing to the
   elections above.
 
-Nothing is shown on any page: the owner decides after.
+Shown from Oct. 28, 2026 (the owner: "Show both. Be sure to cite and attribute"): tools/bib/pvi.py, STYLE 3-5.

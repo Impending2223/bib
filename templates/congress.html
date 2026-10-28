@@ -46,9 +46,9 @@
 .gr.gW{width:10em;background:linear-gradient(90deg,var(--eR4),var(--eN),var(--eB4));background:linear-gradient(in oklab 90deg,var(--eR4),var(--eN),var(--eB4))}
 .cg.el .elsum{font-size:.85rem;line-height:1.4;margin:.15rem 0}
 .cg.el .elt{margin:.5rem 0 .4rem}
-.cg.el .elkey .lk{display:none}.cg.el[data-view="r"] .elkey .lk-r,.cg.el[data-view="s"] .elkey .lk-s,.cg.el[data-view="w"] .elkey .lk-w,.cg.el[data-view="n"] .elkey .lk-n{display:inline}
+.cg.el .elkey .lk{display:none}.cg.el[data-view="r"] .elkey .lk-r,.cg.el[data-view="s"] .elkey .lk-s,.cg.el[data-view="w"] .elkey .lk-w,.cg.el[data-view="n"] .elkey .lk-n,.cg.el[data-view="v"] .elkey .lk-v{display:inline}
 .cg.el:not([data-view]):not(.op) .elkey .lk-r,.cg.el.op:not([data-view]) .elkey .lk-n{display:inline}
-.elkey .sw{margin:0 .1em 0 .5em}.elkey .lk-s .sw,.elkey .lk-w .sw{margin:0;border-radius:0}
+.elkey .sw{margin:0 .1em 0 .5em}.elkey .lk-s .sw,.elkey .lk-w .sw,.elkey .lk-v .gr{margin:0;border-radius:0}
 .elkey .lt{margin-left:.4em}
 .elsrc{font-size:.78rem;color:var(--muted);line-height:1.4}
 .cg.el .elsum.elnote{font-size:.78rem;color:var(--note);line-height:1.45}
@@ -155,6 +155,14 @@ details.cgr.er .es{color:var(--muted)}
   details.cgr.er table:has(td.ecs) tr:is(.pk,.mc)>td{background:none}}
 details.cgr.er td.em{text-align:right;font-variant-numeric:tabular-nums}
 details.cgr.er td.eno{font-size:.8rem;color:var(--note)}
+/* the partisan voting index and the vote by district (tools/bib/pvi.py STYLE 3-4) */
+details.cgr.pvt{overflow-x:auto}details.cgr.pvt table{width:100%;font-size:.75rem}
+details.cgr.pvt th,details.cgr.pvt td{padding-left:.35rem;padding-right:.35rem}details.cgr.pvt tr.pvf td{white-space:normal}
+details.cgr.pvt .pvd{display:inline-block;min-width:3.4em}details.cgr.pvt td.pvy{white-space:nowrap}
+details.cgr.pvt td.pvn,details.cgr.pvt.pvv th+th{text-align:right;font-variant-numeric:tabular-nums}
+details.cgr.pvt td.pvb,details.cgr.pvt tr.pvx td,details.cgr.pvt tr.pvf td{color:var(--muted);font-size:.72rem}
+details.cgr.pvt tr.pvs td{font-weight:600}details.cgr.pvt .pvp{font-weight:400;font-size:.72rem;margin-left:.4em}
+details.cgr.pvt sup{font-size:.6rem;color:var(--muted)}details.cgr.er .es.pvi{display:inline-block;margin-top:.1rem}
 /* the governors' races (tools/bib/governors.py): each race a tbody, its note a line of its own under it */
 details.cgr.er tr.gvr td{border-bottom:0;padding-bottom:.1rem}details.cgr.er tr.gvn td{padding-top:0}
 details.cgr.er tr.pk.wD td{background:color-mix(in srgb,var(--eB1) 85%,transparent)}
@@ -220,6 +228,7 @@ details.cgr.er td:nth-child(3){font-weight:400}
   // A fill is a class ('pD', 'eB4', 'eNA') or, on the continuous scales, 'v:' and a CSS color; paint() applies either.
   var HUE={D:'B',R:'R',T:'A'};
   var SWING=15;                           // swing: eN, gray, at none to eR4 or eB4 at 15 points or more
+  var PVI_MAX=20;                         // PVI: eN at even to eR4 or eB4 at 20 points or more (tools/bib/pvi.py STYLE 3)
   // the Margin view's quantile rule: a margin's position on the ramp is the share of the contested races for
   // presidential electors, 1824-2024, decided by less. QM: the margin at every 2.5th percentile (from
   // elections/pres-margins.csv, filled in by the build: congress.margin_quantiles)
@@ -232,6 +241,7 @@ details.cgr.er td:nth-child(3){font-weight:400}
   function win(m){var h=HUE[m.p], v=mgOf(m); if(!h) return 'pO'; if(v==null) return 'eNA';
     return ramp(h,rank(v));}
   function swung(m){return m.sw==null?'eNA':mix('eN',m.sw>0?'eB4':'eR4',Math.abs(m.sw)/SWING);}
+  function leaned(m){return m.pv==null?'eNA':mix('eN',m.pv<0?'eB4':'eR4',Math.abs(m.pv)/PVI_MAX);}
   function fc(t){return t.slice(0,2)==='v:'?'cv':t;}
   function fs(t){return t.slice(0,2)==='v:'?'fill:'+t.slice(2):'';}
   function paint(e,base,t){e.setAttribute('class',(base?base+' ':'')+fc(t)); if(fs(t)) e.setAttribute('style',fs(t)); else e.removeAttribute('style');}
@@ -242,6 +252,7 @@ details.cgr.er td:nth-child(3){font-weight:400}
   function fillOf(m,mode){
     if(!mode) return cls(m.p);
     if(m.ho) return 'eHo';                 // a Senate seat not at stake: gray, in every view
+    if(mode==='v') return leaned(m);        // PVI: the seat's lean, whoever holds it
     if(mode==='n') return m.x?cls(m.p+'i'):cls(m.p);
     if(m.p==='V') return 'pV';
     if(m.so) return 'eN';
@@ -255,7 +266,7 @@ details.cgr.er td:nth-child(3){font-weight:400}
   // '66.5%, by 33.0 pts; held; swing 2.5 to D'
   function evText(m){if(m.ho) return '; not at stake'; var t=[], a='';
     if(m.sh!=null) a=' '+(m.u?'unopposed':m.sh.toFixed(1)+'%'+(m.mg!=null?', by '+m.mg.toFixed(1)+' pts':''));
-    if(m.k) t.push(KIND[m.k]); if(m.sw!=null) t.push(swingText(m));
+    if(m.k) t.push(KIND[m.k]); if(m.sw!=null) t.push(swingText(m)); if(m.pvl) t.push('PVI '+m.pvl);
     return a+(t.length?'; '+t.join('; '):'');}
   function link(id,child,title,shape,p,m){child._shape=shape;child._p=p;child._m=m;child.setAttribute('data-row',id);child.setAttribute('data-who',title);var t=el('title');t.textContent=title;child.appendChild(t);return child;}
   // at an opening: '; elected Nov. 8, 1960: 51.2%, by 2.4 pts; held', the race that seated him
@@ -328,10 +339,12 @@ details.cgr.er td:nth-child(3){font-weight:400}
     if(mode==='n') return m.p==='T'?'pT':cls(m.p);
     if(mode==='s') return win(m);
     if(mode==='w') return swung(m);
+    if(mode==='v') return leaned(m);
     return 'e'+h+(pickups?(m.k==='pickup'?'4':'2'):'3');}
   function pText(st,m){var t=st+': '+m.n+(m.sh!=null?' '+m.sh.toFixed(1)+'%':'')+(m.mg!=null?', by '+m.mg.toFixed(1)+' pts':'');
     if(m.k==='pickup') t+='; a pickup'; else if(m.k==='new') t+='; first vote';
     if(m.sw!=null) t+='; '+swingText(m);
+    if(m.pvl) t+='; PVI '+m.pvl;
     return t+'; electors: '+m.cast.map(function(c){return c[1]+' '+c[2];}).join(', ');}
   function drawP(fig,ps){
     var blk=fig.closest('.cg'); function mode(){return blk.dataset.view||'r';}
@@ -470,8 +483,8 @@ details.cgr.er td:nth-child(3){font-weight:400}
       var md=mode(), sd=side(ms[0].p), one=ms.every(function(x){return side(x.p)===sd;});
       if(one&&md==='r'&&HUE[sd]) return 'e'+HUE[sd]+'3';      // one party's seats, held and picked up: the middle step
       // on the continuous scales, the mean of those with a figure (one party, for the margin)
-      var v=md==='s'?mgOf:md==='w'?function(x){return x.sw;}:null, ok=ms.filter(function(x){return !x.so&&!x.ho;});
-      if(v&&ok.length&&ok.every(function(x){return v(x)!=null&&!x.x&&(md==='w'||side(x.p)===sd);})){var o={p:sd}; o[md==='s'?'mg':'sw']=ok.reduce(function(a,x){return a+v(x);},0)/ok.length; return F(o);}
+      var v=md==='s'?mgOf:md==='w'?function(x){return x.sw;}:md==='v'?function(x){return x.pv;}:null, ok=ms.filter(function(x){return !x.so&&!x.ho;});
+      if(v&&ok.length&&ok.every(function(x){return v(x)!=null&&(md==='v'||!x.x&&(md==='w'||side(x.p)===sd));})){var o={p:sd}; o[md==='s'?'mg':md==='v'?'pv':'sw']=ok.reduce(function(a,x){return a+v(x);},0)/ok.length; return F(o);}
       return 'pX';}
     svg._vb=VB.slice();
     var frame=fig.querySelector('.cgv')||fig, fine=false, lod=[], lodT=0;
@@ -673,7 +686,7 @@ details.cgr.er td:nth-child(3){font-weight:400}
   [].forEach.call(document.querySelectorAll('.cg.el'),function(b){
     var vs=(b.querySelector('[data-views]')||{dataset:{views:'r s'}}).dataset.views.split(' ');
     if(vs.length<2){b.dataset.view='r'; return;}          // one view: no switch (the legislatures)
-    var names={r:'Result',n:'Party',s:'Margin',w:'Swing'};
+    var names={r:'Result',n:'Party',s:'Margin',w:'Swing',v:'PVI'};
     var bar=document.createElement('div'); bar.className='cgt elt';
     bar.innerHTML=vs.map(function(v){return '<button type="button" data-v="'+v+'" aria-pressed="'+(v===vs[0])+'">'+names[v]+'</button>';}).join('');
     var maps=b.querySelector('.cgmaps'); maps.parentNode.insertBefore(bar,maps);

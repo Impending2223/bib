@@ -105,7 +105,7 @@ import os
 import re
 from collections import Counter, defaultdict
 
-from . import store
+from . import pvi, store
 
 DIR = os.path.join(store.ROOT, "elections")
 MON = ["Jan.", "Feb.", "Mar.", "Apr.", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."]
@@ -326,6 +326,9 @@ def rows_for(year, data):
             else:
                 rec["cl"] = r["seat"]
                 up[r["st"]].add(r["seat"])
+            pv = pvi.seat_pvi(year, r["ch"], r["st"], r["seat"])
+            if pv and pv.get("points") is not None:
+                rec["pv"], rec["pvl"] = pv["points"], pv["pvi"]
             seats[r["ch"]][r["st"]].append(rec)
     C = roster(E["congress"])
     for r in (C or {}).get("senate", []):
@@ -614,6 +617,7 @@ def table(year, ch, races):
                     seat += ", unexpired term"
             else:
                 seat = ("I", "II", "III")[r["seat"] - 1] + (", unexpired term" if r.get("special") else "")
+            pvc = pvi.cell(pvi.seat_pvi(year, ch, r["st"], r["seat"]), "district" if ch == "h" else "State")
             cands = "".join(f'<span class="ec">{cand_html(c, m, cand_link(year, r, c))}</span>'
                             for c in sorted(r["cands"], key=lambda c: -(c.get("v") or 0)))
             if r.get("scat"):
@@ -628,7 +632,7 @@ def table(year, ch, races):
             note = " ".join(x for x in (note_html(r, winners), printed_note(year, race_key(year, r)[5:]),
                                         cq_note(race_key(year, r)),
                                         f'<span class="elro">{ro}</span>' if ro else "") if x)
-            out.append(f'<tr id="{rid(year, r)}" class="{cls} w{wp}"><td>{esc(seat)}</td><td class="ecs">{cands}</td>'
+            out.append(f'<tr id="{rid(year, r)}" class="{cls} w{wp}"><td>{esc(seat)}{pvc}</td><td class="ecs">{cands}</td>'
                        f'<td class="em">{margin}</td><td class="eno">{note}</td></tr>')
     out.append("</tbody></table></details>")
     return "\n".join(out)
@@ -647,7 +651,8 @@ def block(year, data, view="r"):
         seats["p"] = pres_rows(year, data)
         has_sw = has_sw or any("sw" in x for x in seats["p"].values())
     out.append(f'<script type="application/json" class="cgseats">{json.dumps(seats, ensure_ascii=False, separators=(",", ":"))}</script>')
-    views = '<span data-views="r n s' + (' w' if has_sw else '') + '"></span>'
+    has_pv = any("pv" in x for ch in seats.values() for v in ch.values() for x in (v if isinstance(v, list) else [v]))
+    views = '<span data-views="r n s' + (' w' if has_sw else '') + (' v' if has_pv else '') + '"></span>'
     if pres:
         line, note = pres_summary(year, data)
         from . import seatlinks
@@ -659,7 +664,7 @@ def block(year, data, view="r"):
         out.append('<div class="cgmaps"><figure class="cgmap" data-chamber="p"><figcaption>President, by state</figcaption>'
                    '<div class="cgv" style="aspect-ratio:960/660"></div></figure></div>')
         out.append(pres_legend(year - 4 in data and "president" in data[year - 4],
-                               any("sw" in x for x in seats["p"].values())))
+                               any("sw" in x for x in seats["p"].values()), has_pv))
         out.append(pres_table(year, data))
     out.append('<p class="cgh">Congress</p>')
     for line in summary(year, data):
@@ -669,9 +674,10 @@ def block(year, data, view="r"):
                '<div class="cgv" style="aspect-ratio:1085/660"></div></figure>'
                '<figure class="cgmap" data-chamber="s"><figcaption>Senate, by state</figcaption>'
                '<div class="cgv" style="aspect-ratio:960/660"></div></figure></div>' + views)
-    out.append(legend(has_sw))
+    out.append(legend(has_sw, has_pv))
     out.append(table(year, "h", E["races"]))
     out.append(table(year, "s", E["races"]))
+    out.append(pvi.block(year, c))
     also = same_day_specials(E)
     if also:
         out.append(f'<p class="elsum elnote">Also that day, for the rest of a term in the {ordinal(c - 1)} Congress, '
@@ -711,7 +717,17 @@ def swing_scale():
             '<span class="lt">15 or more Democratic</span>')
 
 
-def legend(has_sw):
+def pvi_scale():
+    """The PVI key: one diverging bar, PVI_MAX points each way (the template), the swing view's colors."""
+    return ('<span class="lt">R+20 or more</span><span class="gr gW gV"></span><span class="lt">D+20 or more</span>')
+
+
+def pvi_key(what):
+    return (f'<span class="lk lk-v">Partisan voting index of the {what} (the presidential vote of the two '
+            f'elections before, less the nation\'s): {pvi_scale()} <span class="sw eNA"></span>None</span>')
+
+
+def legend(has_sw, has_pv=False):
     sw = lambda k: f'<span class="sw e{k}"></span>'
     res = (f'<span class="lk lk-r">{sw("B2")}Democratic held {sw("B4")}Democratic pickup '
            f'{sw("R2")}Republican held {sw("R4")}Republican pickup <span class="sw pDi"></span><span class="sw pRi"></span>'
@@ -723,7 +739,8 @@ def legend(has_sw):
     share = f'<span class="lk lk-s">The winner\'s margin over the runner-up, points of all the votes: {margin_scale()}</span>'
     swing = (f'<span class="lk lk-w">Swing, points: {swing_scale()} <span class="lt">redrawn districts take their '
              'State\'s swing</span> ' + sw("NA") + 'None</span>') if has_sw else ""
-    return f'<p class="cgkey elkey">{res}{party}{share}{swing}</p>'
+    pv = pvi_key("district; Senators, the State") if has_pv else ""
+    return f'<p class="cgkey elkey">{res}{party}{share}{swing}{pv}</p>'
 
 
 # ---------------------------------------------------------------- the President
@@ -780,6 +797,9 @@ def pres_rows(year, data):
             rec["k"] = "new" if q is None else "held" if pcls(q["win"], PC) == p else "pickup"
         if q and "dsh" in m and "dsh" in q:
             rec["sw"] = round(m["dsh"] - q["dsh"], 1)
+        pv = pvi.states(year).get(r["st"])
+        if pv and pv.get("points") is not None:
+            rec["pv"], rec["pvl"] = pv["points"], pv["pvi"]
         out[r["st"]] = rec
     return out
 
@@ -858,7 +878,7 @@ def pres_table(year, data):
             note.append(r["note"])
         cls = "pk" if q and pcls(q["win"], PC) != p else ""
         out.append(f'<tr id="e{year}-p-{r["st"]}" class="{cls} w{p}"><td>{esc(STATE.get(r["st"], r["st"]))}<br>'
-                   f'<span class="es">{r["ev"]}</span></td><td class="ecs">{cs}</td><td class="em">{margin}</td>'
+                   f'<span class="es">{r["ev"]}</span>{pvi.cell(pvi.states(year).get(r["st"]), "State")}</td><td class="ecs">{cs}</td><td class="em">{margin}</td>'
                    f'<td class="eno">{" ".join([esc(" ".join(note))] + (src_note(r) if r.get("clerk") else [])
                                                + [printed_note(year, f"president {r['st']}"),
                                                   cq_note(f"{year} president {r['st']}")])}</td></tr>')
@@ -866,7 +886,7 @@ def pres_table(year, data):
     return "\n".join(out)
 
 
-def pres_legend(has_prev, has_sw):
+def pres_legend(has_prev, has_sw, has_pv=False):
     sw = lambda k: f'<span class="sw e{k}"></span>'
     res = (f'<span class="lk lk-r">{sw("B3")}Democratic {sw("R3")}Republican {sw("A3")}Third ticket (unpledged electors, Byrd, Wallace)'
            + '</span>')
@@ -881,7 +901,8 @@ def pres_legend(has_prev, has_sw):
                f'{sw("R4")}Republican pickup {sw("A2")}{sw("A4")}Third ticket, held, pickup (from the last presidential '
                'election)</span>' if has_prev else
                f'<span class="lk lk-cr">{sw("B2")}Democratic {sw("R2")}Republican {sw("A2")}Third ticket</span>')
-    return f'<p class="cgkey elkey elpk">{res}{party}{share}{swing}{dots}{chamber}</p>'
+    pv = pvi_key("State, for this year's House and Senate elections") if has_pv else ""
+    return f'<p class="cgkey elkey elpk">{res}{party}{share}{swing}{pv}{dots}{chamber}</p>'
 
 
 def tagged(series):
