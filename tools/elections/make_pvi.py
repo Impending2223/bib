@@ -36,6 +36,9 @@ in each file's header; tools/elections/cd_readings.py loads and holds them)
     tools/bib/elections.py). Where the source did not recompute an earlier year's vote on its lines (`recomputed:
     false`: the 1961 Data Book), a district its note says was redrawn after that year (`redrawn`) takes no figure for
     that year.
+ 5a. Where several sources give a district, the one on its own Congress's lines comes first (the 88th's Data Book
+    for 1962 and 1964, though the 1961 Data Book gives the unchanged districts too); the figures differ between
+    volumes by their sources (America Votes or CQ), mostly by a few hundred votes (notes/extensions/memos/pvi-districts.md).
  6. A district the source does not give (a footnote "Not available", "n.a.", a cell with no figure) has no PVI from
     it; nor has a district one of whose two years is missing, except where its State had no two-party race that year
     (STYLE 2: the State's own share is None) or did not yet vote (Alaska and Hawaii before 1960): then the other year
@@ -140,7 +143,7 @@ def districts(cache):
     def figure(st, d, c, y):
         """(share, source) or (None, why)."""
         why = "no source gives it"
-        for k, src in sources.items():
+        for k, src in sorted(sources.items(), key=lambda kv: kv[1].get("lines") != c):
             if y not in (src.get("years") or []):
                 continue
             lines = src["lines"]
@@ -157,6 +160,9 @@ def districts(cache):
                     continue
             if not src.get("recomputed") and d in ((src.get("redrawn") or {}).get(y) or {}).get(st, []):
                 why = f"{k}: redrawn after {y} (its note)"
+                continue
+            if f"{d} {y}" in ((src.get("states") or {}).get(st, {}).get("suspect") or []):
+                why = f"{k}: {y} suspect (as printed)"
                 continue
             cell = row.get(y) or {}
             dv, rv = cell.get("D"), cell.get("R")
@@ -249,7 +255,7 @@ def main():
                 "# By volume: each district's [total, Democratic, Republican] a year, as read (0 the State column).\n")
         yaml.safe_dump(fig, f, allow_unicode=True, sort_keys=False, width=120, default_flow_style=None)
     for e, x in dist["elections"].items():
-        print(f"  {e} ({x['congress']}th Congress): {x['computed']} districts, {x['without']} without")
+        print(f"  {e} ({x["congress"]}th Congress): {x['computed']} districts, {x['without']} without")
 
 
 if __name__ == "__main__":

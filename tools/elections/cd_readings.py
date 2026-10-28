@@ -12,6 +12,8 @@ STYLE
  1. A district row is {year: [t, D, R]} or [t, D, R, p] (p, the printed percent for the majority party, where the
     volume prints one); `fn` a footnote mark in place of a figure ("Not available" and the like), `na` "n.a." (not available),
     `nil` dots or a blank (nothing: no vote there that year, counted as zero).
+ 4. `suspect` ("district year"): figures the page prints that cannot be right (a row repeating another year's); held
+    to nothing and never used. A printed percent within 0.1 of the figures' is no warning (the volumes truncate).
  2. What must add: in each State, the districts' t, D and R to the State column's, year by year (the State total plus
     `adjust` where the footnote gives the votes not distributed; no check for a `footnoted` item, nor for a year with
     a district `fn` or `na`, the State column then counting votes no row shows); every State's D and R to the printed
@@ -115,7 +117,7 @@ def warnings(data):
                 if len(c) < 4:
                     continue
                 t, dv, rv, p = c
-                if all(_num(x) for x in (t, dv, rv, p)) and t and abs(100 * max(dv, rv) / t - p) > 0.051 \
+                if all(_num(x) for x in (t, dv, rv, p)) and t and abs(100 * max(dv, rv) / t - p) > 0.11 \
                         and f"{d} {y}" not in (e.get("percent_as_printed") or []):
                     out.append((data.get("path"), f"{st} {d} {y}: printed percent {p}; the figures give "
                                                   f"{100 * max(dv, rv) / t:.1f}"))
