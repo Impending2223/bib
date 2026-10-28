@@ -447,6 +447,16 @@ reports them (`notes/calendar-audit.md`).
 - Nov.–Jan. 1969: Nixon's White House staff appointments; Moynihan; Yost; Hickel's hearings; the Douglas Commission's report; Palach.
 - Gallup's releases of Jan. 1–20, 1969: the 1969 pages of *The Gallup Poll* not yet read.
 
+### Primary records (stage 4, Oct. 29, 2026; notes/primary-records/<years>.md, each entry's record or why none)
+
+- 1960-62: the July 1960 recess resolution's record; the Rules Committee's vote count on school aid; the Mansfield
+  committee print; the Fulbright memorandum and the Kennedy Library's files (jfklibrary.org refuses this environment,
+  403); the TFX hearings, pt. 2; Utah's 1960 primary (only the congressional page online); the 1961-62 *Michigan
+  Manual* (no open copy); Wyoming's vote-totals PDF answers 404 (recheck `sources/states.yaml`); the East Berlin order
+  of Sept. 8, 1960; the Security Council's record of the Kuwait veto (its viewer a script); Rusk's talk at the CENTO
+  meeting; Faisal's ten-point program; Georgia's, New York's, Tennessee's and Michigan's session laws and journals (no
+  open copy); the Albany orders and Black's order in *Meredith v. Fair* (unreported).
+
 ### The official histories, reread (stage 3, Oct. 28-29, 2026; notes/book-checks/, one file a volume)
 
 Dated events the volumes give that the calendar lacks, each with the volume's page in its book-check file ("Passed
