@@ -58,21 +58,20 @@ None: the book had no card and the calendar did not cite it.
   (July 15 to July 19 is four).
 - `cal.1964-08-26.elections-1964`. Young, 139: Humphrey nominated by acclamation at 12:24 a.m., Aug. 27. Check added.
 
-In entries not yet in the tree (Perlstein's reading, `inbox/2026-10-29-republicans-perlstein-johns.yaml`), not cited
-here; for the merger:
+In entries from Perlstein's reading (merged after this reading began), each a Check, Young cited at its page:
 
-- The Young Republicans' convention: Perlstein's `cal.1963-06-25.republican-party` (San Francisco, June 25–29, 1963).
-  Young, 67, puts it in August 1963 (Goldwater's "rigor mortis," a Goldwater man elected president).
-- Kitchel brought to Washington: Perlstein's `cal.1963-03.goldwater` (March). Young, 69: August 1963.
-- Eisenhower's statement in the *Herald Tribune*: Perlstein's `cal.1964-05-25.elections-1964`. Young, 88: May 24.
-- The civil rights march in San Francisco: Perlstein's `cal.1964-07-10.elections-1964` (Friday, July 10). Young, 97:
-  over 40,000 on Market Street "on the eve of the Republican National Convention."
-- Scranton after Eisenhower drew back: Perlstein's `cal.1964-06-07.elections-1964` (*Face the Nation*). Young, 95:
-  *Meet the Press*.
-- The Republican National Committee at Denver, June 1963: Perlstein's `cal.1963-06.republican-party`. Young, 64, adds
-  the luncheon's racist talk, "the White Man's Party"; cite 64 there once it is in.
+- `cal.1963-06-25.republican-party` (the Young Republicans' convention, San Francisco, June 25–29, 1963). Young, 67,
+  puts it in August 1963 (Goldwater's "rigor mortis," a Goldwater man elected). Check added.
+- `cal.1963-03.goldwater` (Kitchel brought to Washington, March). Young, 69: August 1963. Check added.
+- `cal.1964-05-25.elections-1964` (Eisenhower's statement in the *Herald Tribune*). Young, 88: May 24. Check added.
+- `cal.1964-07-10.elections-1964` (the civil rights march in San Francisco, Friday, July 10). Young, 97: over 40,000
+  on Market Street "on the eve of the Republican National Convention." Check added.
+- `cal.1964-06-07.elections-1964` (Scranton on *Face the Nation* after Eisenhower drew back). Young, 95: *Meet the
+  Press*. Check added.
+- `cal.1963-06.republican-party` (the national committee at Denver, June 1963). Young, 64, adds the luncheon's racist
+  talk, "the White Man's Party." Cited.
 
-## Entries citing the book (36)
+## Entries citing the book (42: the 36 below and the six above)
 
 Its pages, with a parenthetical where it bears out part: June 8, 1960 (27, undated); July 5, 1960 (34); July 22, 1960
 (27); July 26–27, 1960 (27–28); Oct. 8, 1961 (57); Nov. 18, 1961 (56); Dec. 2, 1962 (64); Feb. 1963 (64); June 5,
@@ -80,15 +79,15 @@ Its pages, with a parenthetical where it bears out part: June 8, 1960 (27, undat
 Jan. 7, 1964 (75); Mar. 10, 1964 (77); Apr. 7 (117); May 5 (117–18); May 14 (136–37); May 15 (85); May 19 (118–19);
 June 2 (91); June 12 (95–96); July 12, twice (98–99, 102); July 14 (103); July 15–16 (104–6); July 19 (99); July 24
 (122–23); July 29 (126–27); July 31 (127); Aug. 22 (130–33); Aug. 25, twice (135–36, 137); Aug. 26 (139); Aug. 27
-(139–40). Sixteen of these are also edited by Perlstein's pending patch: this patch's note and map for them are built
-on that patch's (its To check records included), so on a conflict take this patch's value.
+(139–40). Sixteen of these were also edited by Perlstein's reading, since merged; this patch builds on the tree as it
+now stands.
 
 ## New entries (28)
 
 1962: July, Goldwater to a Young Republicans' breakfast (59); Nov., Rockefeller to Goldwater by letter (60). 1963:
 Apr., Citizens for Goldwater's petitions (64–65); May, O'Donnell's 320 electoral votes (60–61); Aug., the Birch
 Society against Rockefeller (66); Sept. 13, Cronkite and Goldwater on CBS (67–68); Nov., the Draft committee's
-moratorium (69); Nov. 18, Kennedy in Florida (Public Papers; 43–44); Nov. 21, Kennedy in Texas (Public Papers; 44–45);
+moratorium (69); Nov. 18, Kennedy in Florida (Public Papers; 43–44); Nov. 21, Kennedy in Texas (`cal.1963-11-21.assassination`; Public Papers; 44–45);
 Dec. 5, Robert Kennedy and Schlesinger to Boston (116); Dec., Eisenhower calls on Scranton (65). 1964: Jan., Johnson
 with Rauh and Mitchell (119); Jan. 18, Goldwater on the Birch Society (71); Jan. 26, Howard Smith on *Meet the Press*
 (the Library of Congress's inventory; 114); Feb. 7, Johnson to Long (116; recording to check); Feb. 8, Johnson to
@@ -124,8 +123,8 @@ Within Jan. 6, 1960–Jan. 20, 1969 and pp. 1–151 only (chapter 1's 1950s are 
 | 45–48 | Nov. 22, 1963 | Fort Worth, Dallas, the oath, Air Force One | already in (the assassination's and the succession's entries) |
 | 48 | early Dec. 1963 | Robert Kennedy to Evans at lunch on the ticket | undated within the month (Evans's recollection); to leads |
 | 48 | Nov. 25, 1963 | Schlesinger's journal on Johnson | a diarist's opinion, no act |
-| 52 | Jan. 1960 | Goldwater's *Los Angeles Times* column begins | in Perlstein's patch (`cal.1960-01-23.goldwater`) |
-| 52, 54 | Jan. 1961 | the "Goldwater manifesto" excerpted in the *Wall Street Journal* | in Perlstein's patch (`cal.1961-01-11.goldwater`) |
+| 52 | Jan. 1960 | Goldwater's *Los Angeles Times* column begins | in Perlstein's reading (merged) (`cal.1960-01-23.goldwater`) |
+| 52, 54 | Jan. 1961 | the "Goldwater manifesto" excerpted in the *Wall Street Journal* | in Perlstein's reading (merged) (`cal.1961-01-11.goldwater`) |
 | 54 | 1961 | *Time*'s and *Newsweek*'s covers, "Mister Conservative" | undated |
 | 55 | 1960–61 | Javits against Goldwater's handling of the campaign committee; Hinman's "neo-fascist" | undated (Javits's move in Perlstein's `cal.1961-01.republican-party-congress`) |
 | 55 | 1962 | Eisenhower's citizens' organization; Goldwater to Miller against it | undated |
@@ -135,19 +134,19 @@ Within Jan. 6, 1960–Jan. 20, 1969 and pp. 1–151 only (chapter 1's 1950s are 
 | 61 | Nov. 1962 | Coleman to Goldwater: he will carry the South | a supporter's private advice; undated within the month |
 | 61 | n.d. | Hinman's memorandum against the Southern strategy | undated |
 | 61–62 | Nov. 6, 1962 | the midterms; Martin's race; Nixon beaten | already in (`cal.1962-11-06.elections-1962` and Alabama's) |
-| 64 | June 1963 | the national committee at Denver, the luncheon | in Perlstein's patch (`cal.1963-06.republican-party`); cite 64 there |
+| 64 | June 1963 | the national committee at Denver, the luncheon | already in (`cal.1963-06.republican-party`), Young cited |
 | 65 | spring 1963 | Scranton's polls | undated |
 | 66 | summer 1963 | Rockefeller against the "lunatic fringe" | undated |
 | 66 | 1963 | Jackie Robinson to Rockefeller; his *Saturday Evening Post* article | undated |
-| 67 | Aug. 1963 | the Young Republicans' convention | in Perlstein's patch (June); the month differs, above |
+| 67 | Aug. 1963 | the Young Republicans' convention | already in (`cal.1963-06-25.republican-party`), Check |
 | 67 | 1963 | Goldwater to an interviewer on the Birch Society and the ADA | undated |
-| 69 | Aug. 1963 | Kitchel to Washington | in Perlstein's patch (March); the month differs, above |
-| 69 | Dec. 1963 | party leaders press Goldwater to decide | in Perlstein's patch (`cal.1963-12-08.goldwater`) |
+| 69 | Aug. 1963 | Kitchel to Washington | already in (`cal.1963-03.goldwater`), Check |
+| 69 | Dec. 1963 | party leaders press Goldwater to decide | in Perlstein's reading (merged) (`cal.1963-12-08.goldwater`) |
 | 70 | 1964 | Goldwater's reliance on the AEA, Hess and Baroody | undated |
 | 71 | Feb. 1964 | Goldwater at the University of Nevada on the Birch Society | minor: repeats the position of Jan. 18, entered |
 | 72 | Oct. 7, 1963 | *Newsweek*'s count, 500 delegates for Goldwater | a magazine's survey, not an act |
 | 72 | Jan. 1964 | Margaret Chase Smith enters | already in (`cal.1964-01-27.elections-1964`) |
-| 73 | Jan. 5, 1964 | Goldwater on *Meet the Press* | in Perlstein's patch (`cal.1964-01-05.goldwater`) |
+| 73 | Jan. 5, 1964 | Goldwater on *Meet the Press* | in Perlstein's reading (merged) (`cal.1964-01-05.goldwater`) |
 | 74–75 | Jan.–Mar. 1964 | New Hampshire: Loeb's paper; the films; the polls | undated, or not acts |
 | 76 | late Feb. 1964 | Rockefeller's two calls to Lodge in Saigon | undated |
 | 77 | Mar. 1964 | a Draft Nixon committee in the Pacific Northwest; Rockefeller and Grindle | undated |
@@ -157,7 +156,7 @@ Within Jan. 6, 1960–Jan. 20, 1969 and pp. 1–151 only (chapter 1's 1950s are 
 | 81–82 | spring 1964 | O'Donnell and the Texas primary; Florida; Synon's independent electors | undated |
 | 85 | May 15–16, 1964 | Lodge's campaign ends; Goldwater: "a victory for the radical left" | undated |
 | 86 | Mar. 1964 | the Goldwater camp's memorandum on California | undated within the month |
-| 88 | May 24, 1964 | Eisenhower's statement | in Perlstein's patch (May 25); the day differs, above |
+| 88 | May 24, 1964 | Eisenhower's statement | already in (`cal.1964-05-25.elections-1964`), Check |
 | 88 | May 1964 | the *Los Angeles Times* for Rockefeller | undated |
 | 89 | May 1964 | Goldwater at Riverside, Cal. | undated |
 | 91 | June 1964 | George Bush to the *Houston Chronicle* on California | undated |
@@ -165,11 +164,11 @@ Within Jan. 6, 1960–Jan. 20, 1969 and pp. 1–151 only (chapter 1's 1950s are 
 | 93 | summer 1964 | Goldwater's and Robinson's letters, released | undated |
 | 93–94 | Memorial Day weekend 1964 | Nixon at the Waldorf-Astoria, by Goldwater's account | undated to the day; to leads |
 | 94 | late June 1964 | Gallup, Scranton over Goldwater | already in (`cal.1964-06-28.opinion`) |
-| 95 | June 7–8, 1964 | Eisenhower's call; Scranton on television; the governors at Cleveland, Romney, Hatfield | in Perlstein's patch (`cal.1964-06-07.elections-1964`, `cal.1964-06-07.republican-party`) |
-| 95 | June 10–11, 1964 | Goldwater against cloture; Scranton with his advisers, Scott | already in (the cloture vote) and in Perlstein's patch (`cal.1964-06-11.elections-1964`) |
+| 95 | June 7–8, 1964 | Eisenhower's call; Scranton on television; the governors at Cleveland, Romney, Hatfield | in Perlstein's reading (merged) (`cal.1964-06-07.elections-1964`, `cal.1964-06-07.republican-party`) |
+| 95 | June 10–11, 1964 | Goldwater against cloture; Scranton with his advisers, Scott | already in (the cloture vote) and in Perlstein's reading (merged) (`cal.1964-06-11.elections-1964`) |
 | 97 | June 16, 1964 | the Texas Republican convention, "a coronation" | already in (`cal.1964-06-16.elections-1964-state-conventions`) |
 | 97 | July 1964 | CORE's and the NAACP's protests planned; Robinson to Farmer | undated |
-| 97 | July 1964 | the march on Market Street | in Perlstein's patch (July 10) |
+| 97 | July 1964 | the march on Market Street | already in (`cal.1964-07-10.elections-1964`), Check |
 | 99–100 | July 1964 | the Platform Committee hears Rockefeller, Romney, Scranton, Goldwater, Lodge, Milton Eisenhower | undated in Young; to leads |
 | 100–101 | July 1964 | the Goldwater camp's delegate files; Pinkerton guards | undated |
 | 101–2 | July 1964 | Scranton meets the Illinois delegation; Dirksen to a journalist; Rhodes and Ohio | undated |
@@ -178,7 +177,7 @@ Within Jan. 6, 1960–Jan. 20, 1969 and pp. 1–151 only (chapter 1's 1950s are 
 | 104 | July 1964 | Opinion Research's poll, Johnson 80–20 | a private poll, undated |
 | 106 | July 16–17, 1964 | Rockefeller's statement on "extremism"; Knowland tears up the California members' statement; Miller's defense | undated in Young |
 | 107 | July 1964 | Nixon and Judd on the acceptance | undated |
-| 108 | July 1964 | Burch chosen; Grenier takes down the portraits; Ellis to Johnson | Burch in Perlstein's patch (`cal.1964-07-17.republican-party`); the rest undated |
+| 108 | July 1964 | Burch chosen; Grenier takes down the portraits; Ellis to Johnson | Burch in Perlstein's reading (merged) (`cal.1964-07-17.republican-party`); the rest undated |
 | 109 | July 1964 | Goldwater to Scranton by letter | undated |
 | 112 | Nov. 27, 1963 | Powell to Johnson after the address (recording, Nov. 27, 2:22 p.m.) | minor: a member's congratulation |
 | 113 | late Nov. 1963 | Johnson calls Farmer | undated |
