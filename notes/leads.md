@@ -1678,6 +1678,23 @@ Searched in FRUS by text and date (sources/frus-text), the *Bulletin*'s index an
 - Foreign: China's withdrawal of its antiaircraft troops after the halt, Nov. 1968 (Nguyen, 128, from Zhai): the dates.
 - Foreign: Kosygin's message of Oct. 25, 1968, its text (FRUS 1964–68, VII, near doc. 122).
 
+### Garrow, *Bearing the Cross* (the back-fill agent, Oct. 29, 2026; notes/book-checks/garrow-bearing-the-cross.md)
+
+- The Church Committee's Book III (S. Rep. No. 94-755) on the FBI and King: where Garrow's FOIA files were first made
+  public; `Made public: Check` stands on the FBI entries until it is read for each.
+- The Kennedy tapes Garrow quotes (86.2, 88.4, 88.6, 108.1–2, 111.7, 112.1): PRDE only; the Miller Center has none.
+  Hearing them would settle Robert Kennedy's words (May 20–21, 1963) and the meetings of Aug. 28 and Sept. 19, 1963.
+  The meetings of May 20 and 21, 1963 on civil rights (Tapes 88.2, 88.6; JFK, Robert Kennedy, Marshall, Sorensen, White)
+  are not yet entries: dated by the catalogue alone.
+- Johnson and DeLoach, Nov. 20, 1964, 4:23 p.m. (PRDE 4005058), and Reedy and Lee White, Nov. 19, 10:50 a.m. (PRDE
+  4005056): catalogue rows only; whether either is on King is not known.
+- Reedy on a "strong recommendation" for voting legislation, Feb. 6, 1965 (Garrow 387; *New York Times*, Feb. 7, 1965):
+  undated in the text.
+- Judge Simpson's orders at St. Augustine, June 9 and Aug. 5, 1964 (Garrow cites *Young v. Davis*, 9 Race Rel. L. Rep.
+  1515, June 22, 1964), and the records of *Kelley v. Page* and *Williams v. Wallace*: not read.
+- Johnson's Daily Diary beyond the National Archives Catalog's fifty days (discoverlbj.org refuses this environment):
+  the dates Garrow gives for King's meetings at the White House to be set against it.
+
 ## The Executive roster
 
 - NSCID No. 1: the texts of 1958, 1964 and 1972 not in the file (`usib.yaml`). Open on archive.org, the CIA's CREST copies (Oct. 23, 2026): the text effective Feb. 17, 1972 (`CIA-RDP87B01034R000700020013-3`); a 1958 draft (`CIA-RDP85S00362R000600150011-7`, "Concurred in by the IAC 21 January"), with the drafts of 1957; for 1964 only Bundy's approval of the revisions, Mar. 27, 1964, "the President's decision of March 5, 1964 on the reorganization of the USIB" (`cia-readingroom-document-cia-rdp80b01676r000400180031-7`; the text exempt). FRUS 1964–68, XXXIII, doc. 196, n. 3: revised Jan. 18, 1961, and Mar. 4, 1964. Lay shown as the Board's Executive Secretary only for Mar. 1964, in a note.

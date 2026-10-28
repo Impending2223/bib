@@ -398,236 +398,238 @@ views. Rows give page | date | event | ruling.
 - 829-30 | 1967 autumn, 11-03 | Goodwin's and Dutton's letters to RFK on running; Schlesinger's of Nov. 3 | private advice of persons out of office; passed
 - 848 | 1968-03-12 | Moyers to Schlesinger on Johnson | Moyers out of office; private remark; passed
 
-### Minor (private or social, no act, or a repetition) (228)
+### Minor, re-ruled Oct. 29, 2026 under "The parties and the members" (228: entered 53, already in 22, minor 126, out of the brief 21, undated 3, a lead 3)
 
-- 194 | 1960-02 | RFK: Humphrey big rival now (n.11) | passed: minor
-- 197 | 1960-04-05 | Wisconsin primary night; RFK at Cronkite (Cronkite's account n.25) | check cal Wisconsin entry; minor
-- 205 | 1960-07-12 | Johnson-Kennedy debate before Texas delegation | cal has July 12 Biltmore 3 p.m. entry (196007:93) -> bib add? minor
-- 211 | 1960-07-14 eve | dinner with father | minor
-- 211 | 1960-07-15 | RFK: "48 hours" on Stevensonians (n.86) | minor
-- 219-20 | 1960-11-08/09 | election night at Hyannis Port; Nixon's concession via Klein | cal has Nov 8 -> minor; passed
-- 224 | 1960-12-01 | JFK to author: Harriman "old hat" (n.7) | minor; passed
-- 237 | 1961-01 | Alfalfa Club joke | passed: minor
-- 254 | 1960-11 | JFK keeps Hoover and Dulles | cal 1960-11-09 covers; passed
-- 255 | 1961-10 | JFK to author: Baruch, Hoover, Dulles PR masters (n.44) | minor
-- 262 | 1961-12 | RFK to Brandon (Sunday Times) on the CP (n.4) | minor
-- 273 | 1961-01 | Evans briefs RFK on wiretap procedures, not bugging (n.46) | minor; passed
-- 276 | 1961-05 | Hoover memo to White "Technical and Microphone Surveillance" | minor; passed
-- 278 | 1961-63 | convictions 96/101/373 (n.78) | figures not events; passed
-- 279 | 1961-10 | Hoffa complains of 29 grand juries | minor
-- 281 | 1963 | Loeb's $500,000 Teamster loan, editorial | minor; passed
-- 287-88 | 1960-08 | JFK asks Wofford "ten things" | minor; passed
-- 290 | 1961-02 | Katzenbach brings CEEO order to Hickory Hill, JFK at dinner (n.15) | minor; passed
-- 293 | 1961-03 | RFK sends Black an Alabama editorial (n.33) | minor; passed
-- 294 | 1961-03 | Maas interview, Look (n.39) | minor; passed
-- 294 | 1961-09 | schools desegregated without violence in New Orleans, Atlanta, Memphis | check cal; passed (month; not RFK's act)
-- 302 | 1961-09 | CORE joins | minor; passed
-- 302 | 1961-11-11 | King's "Dear Friend" letter: suffrage the central front (n.85) | minor; passed
-- 304 | 1962-03 | DOJ police-brutality bill sent up, no hearings (n.93 Brauer) | candidate? minor; passed (month; no record found)
-- 308 | 1963-02-14 | Cox to registrar McLaurin (n.114) | minor; passed
-- 310 | 1962-05-22 | RFK to Eleanor Roosevelt on judges (n.123) | minor; passed
-- 311 | 1962-10-06 | Ervin to JFK on housing order | minor; passed
-- 325 | 1962-10-06 | RFK speech Saturday after Ole Miss | minor; passed
-- 326 | 1963-06-20 | JFK to author on Thaddeus Stevens | minor; passed
-- 334 | 1963-06-07/12 | Clarence Jones letter to NYT; RFK note to Marshall | minor; passed
-- 340 | 1963-05-21 | Marshall memo to the Cabinet on Wallace (n.107) | candidate? minor; passed
-- 351 | 1963-08-15 | JFK to author: march size | minor; passed
-- 353 | 1961-05, 1962-02, 1962-05, 1962-10, 1962-11 | Hoover's notes on King; Reserve Index; COMINFIL opened; DeLoach call | passed: FBI internal (Oct. 1962 COMINFIL: Church 88)
-- 363 | 1963-12, 1964 | Time Man of the Year; Hoover's notes; Nov. 24, 1964 Chicago speech | minor; passed
-- 364 | 1964 | Russell briefed by Katzenbach (Nov. 1, 1963 per Church fn) | minor; passed
-- 370 | 1961 early | RFK to Bailey on Pendergast (n.7) | minor; passed
-- 372 | 1962-09-18 | primary night: RFK's call re Mark Howe | minor; passed
-- 380 | 1961-09-24 | RFK on Meet the Press on executive privilege (n.51) | minor (daybook Sunday line); passed
-- 382 | 1962 | Hardy and Angola documents; JFK to Hardy May 1, 1962 (n.54) | minor; passed
-- 396 | 1962 early | Biddle to RFK | minor; passed
-- 400 | 1963-08 | Cox recommends one house by population (n.41) | minor; passed
-- 405 | 1962-04-16 | RFK assures U.S. Steel's counsel (Blough's account n.71) | minor; passed
-- 406 | 1962-06 | Cox's speech; stock market; RFK defends (author's journal June 19, 1962 n.75) | minor; passed
-- 408 | 1963-08 | RFK on Spanish-speaking Americans; Inter-American Congress delegation | minor; passed
-- 416 | 1963 spring | JFK to author on unemployment | minor; passed
-- 419 | 1960-05 | JFK and the DAC statement on Paris summit | minor; passed
-- 420-21 | 1960-08 | Kennan to JFK; JFK's reply (n.19) | minor; passed
-- 421 | 1960-12 end | Stevenson on the inaugural (n.21) | minor; passed
-- 422 | 1960-12/1961-01 | Bruce sent to Menshikov; Kennan's advice | FRUS V doc 2 (Jan 5, 1961) - check cal; passed: not RFK
-- 427-28 | 1961-04 early; 05 | Acheson and Macmillan; JFK on Lippmann/Alsop (journal May 10) | minor; passed
-- 431 | 1961-09 | Wechsler interview | minor; passed
-- 434 | 1963-05-16 | RFK to Rusk on State's hiring of Negroes (n.78) | minor; passed
-- 439 | 1962-05-30 | RFK to JFK on Foreign Service speech (n.98) | minor; passed
-- 441 | 1962-12-15 | Graham to JFK on Rusk/McNamara (n.102) | minor; passed
-- 446 | 1961-04-29 | JFK's talk with RFK before a meeting | minor; passed
-- 451 | 1961-11 | JFK west coast speeches | check cal; passed
-- 458 | 1961-05 | JFK revives the board as PFIAB, Killian, Clifford | check cal (PFIAB May 4, 1961); passed
-- 458-59 | 1961 | NSAMs 55, 57 | check cal; passed
-- 461 | 1961-02-01 | first NSC meeting; McNamara told counterinsurgency | check cal; passed
-- 461 | 1962-01 | Special Group (CI) created (NSAM 124, Jan. 18) | check cal; passed
-- 463 | 1962-09 | CI Group policy statement | month; minor; passed
-- 467 | 1963-01-17 | Dungan to RFK urging CI Group's dissolution | minor; passed
-- 474 | 1962-01-19 | RFK to McCone: talk to Conway, Goldberg, Reuther | minor; passed
-- 476 | 1961-10-24 | Miro to Schlesinger: "I declare myself vanquished" | minor; passed
-- 479 | 1962-04-10 | Harvey to McCone on SGA controls (Church 145) | minor; passed
-- 485 | 1963-01 | FitzGerald replaces Harvey at Task Force W | month; minor; passed
-- 487 | 1963-10 | Morgenthau indicts Kohly | minor; passed
-- 489 | 1961-10 | Special Group asks contingency plan if Castro dies; Board of Estimates reply | minor; passed
-- 494 | 1965-11 | RFK in Peru: "I saved his life" | check 1965 trip entry; passed (minor)
-- 495 | 1962-08-13 | Organized Crime Section report on Sinatra | minor; passed
-- 496 | 1962-03 | JFK stays at Crosby's, not Sinatra's | check cal (Palm Springs, Mar. 24, 1962); passed
-- 499 | 1961-11 | Bolshakov: Khrushchev "Kennedyizing" (RFK notes Nov 7) | private trivia; passed
-- 507-08 | 1962-10 | Dolan anecdote; Rusk "dumb dodo" (Nov 30 memo) | private trivia; passed
-- 514 | 1962-10 | Guthman: "I'll be at Hickory Hill" | private trivia
-- 523 | 1962-10-29 | McNaughton: missiles out by Apr. 1 | below level; passed
-- 524 | 1962-10-28 | Anderson, LeMay: "We have been had"; JFK to author Oct 29 | private remarks; passed
-- 524 | 1962-10-29; 11-30 | Acheson to JFK congratulating | private letter of congratulation; passed
-- 525 | 1962-10-28 | JFK to RFK: "go to the theater, like Lincoln" | private remark; passed
-- 532 | 1962-11 | Stevenson's letter of thanks to RFK; RFK to Lovett | private; passed
-- 539 | 1963-03-26 | RFK to JFK: "Did you feel there was any merit?" | repetition; passed (folded into Mar. 14 record)
-- 540 | 1963-04-21 | Reston column on the "subversive war" | journalist's column, no act; passed
-- 543 | 1963-06 | Castro in USSR five weeks (Apr. 27-June 3) | foreign; check cal; passed
-- 556 | 1963-12-04 | Attwood to Schlesinger | repetition; passed
-- 561 | 1964 | RFK: the dam "probably correct" | retrospective; passed
-- 563 | 1962-02 | Galbraith's journal: the Kennedys in Honolulu | private trivia
-- 570 | 1963 | Menzies complains to Mrs. Battle; RFK's letter June 11, 1963 | private; passed
-- 573 | 1962-02-21 | RFK on the plane: "Barry Goldwater in Indonesia?" (journal) | private remark; passed
-- 574 | 1962-02-22 | Brandt's dinner; Ted's birthday | private trivia; passed
-- 580 | 1962-10-25 | JFK to Jagan (journal) | journal date, not the meeting; passed
-- 582 | 1963 | Goulart's cabinet; Dantas | foreign; passed
-- 584 | 1961-01-20 | JFK to Goodwin: Coast Guard unit | below level; passed
-- 585 | 1963-02 | JFK's letter to Shoup on fitness; RFK's fifty-mile hike | social/below level; passed
-- 589 | 1963-04 | Marie Harriman's party (journal) | social; passed
-- 590 | 1963-09 | Walton's lunch for Dietrich | social; passed
-- 591 | 1962-08-04 | Monroe's death; RFK at the ABA in San Francisco | private; passed
-- 592 | 1961-11-27 | first Hickory Hill seminar | social; passed
-- 594-95 | 1963-03 | Vidal, "The Best Man, 1968," Esquire | a writer's article, no act; passed
-- 595 | 1961-11-11 | Vidal at the White House dance | social; passed
-- 597 | 1963-10-22 | Kennan to JFK | private letter; passed
-- 597 | 1963-10-31 | Barghoorn arrested | check cal; passed (foreign)
-- 598 | 1963-11-12 | RFK to JFK on the cabinet (Webster, Tyler) | jest; passed
-- 203 | 1960-06 early | JFK at Hyannis Port on Johnson ("riverboat gambler") | private remark; passed
-- 211 | 1960-07-15 | RFK: "allow us forty-eight hours" | private remark; passed
-- 606 | 1963-10-31 | Childs with JFK on the hatred in the South | a columnist's conversation, no act; passed
-- 610-11 | 1963-11-22/23 | casket; Lincoln bedroom | private; passed
-- 612 | 1963-11-24 | RFK's letter to his son Joe | private; passed
-- 613 | 1963-11/12 | Hobe Sound; Lehman's funeral; Christmas parties | private; passed
-- 617 | 1964-03 (Easter) | Antigua; The Greek Way | private; passed
-- 626 | 1963-11-21 | JFK on Johnson "incapable of telling the truth" (Jacqueline Kennedy) | private remark; passed
-- 629 | 1963-12-05 | RFK on the "revolt of the FBI" (journal) | private remark; passed
-- 631-32 | 1963-12-15 | Schlesinger to RFK; RFK on a deal for the State Department | memorandum, a staff member's analysis; passed (minor: no act)
-- 635 | 1964-07 | the Tunku in Washington; military aid to Malaysia | check cal; passed (not RFK's)
-- 646 | 1964-02-11 | Johnson-RFK meeting on civil rights | no content given; passed
-- 647-48 | 1964 | LBJ to Goldman; Heller's memo margin; RFK to Goodwin (March) | private remarks; passed
-- 649 | 1964 spring | Johnson's "divine retribution" to Salinger (journal July 23) | private remark; passed
-- 652 | 1964-01-22 | Reuther to Schlesinger on Humphrey's "secret deal" (journal) | private remark; passed
-- 658 | 1964-07-26 | Tarver (Atlanta Journal) to Johnson: RFK costs the South | a publisher's letter; passed (minor: advice, no act)
-- 658 | 1964-06 | Johnson's polls; "that little runt" to Sam Houston Johnson | private remark; passed
-- 659 | 1964-07 (a few days after July 15) | Johnson calls RFK to the White House | in cal.1964-07-29.robert-kennedy; passed
-- 661 | 1964-07-29 | O'Donnell's lunch with RFK; Johnson to O'Donnell that RFK offered to run the campaign | private; passed
-- 661 | 1964-08-26 | RFK to Bundy, thanks | private letter; passed
-- 662 | 1964-08-01 weekend | RFK's jokes on the Cabinet exclusion | private; passed
-- 663 | 1964-08 | Barry sent away from Atlantic City by DeLoach | in cal.1964-08-22.king; passed
-- 666 | 1964-08-17 | RFK to Lisagor: "the spontaneous draft of my brother-in-law" | private note; passed
-- 667 | 1964-08-10 | Stevenson to Marietta Tree: "Bobby is mad to run now" | private letter; passed
-- 667 | 1964-08 mid | Wagner endorses RFK | in cal.1964-08-25.elections-1964; passed
-- 667 | 1964-08 mid | Stevenson cites "rising protest" (mid-August letter) | private letter; passed
-- 670 | 1964-10 early | Douglas to RFK (Oct. 8) on Keating's record | private advice; passed
-- 671 | 1964-10-08 | Lubell's column | a journalist's column; passed
-- 671 | 1964-10-23 | Evers in the New York Post | a column by a party figure? Evers not an officeholder; passed (repeats Oct. 2)
-- 673 | 1964-10 | Mailer's "A Vote for Bobby K." (Village Voice) | a writer's endorsement; passed
-- 676 | 1965-01-04 | RFK and EMK sworn in | check cal; Women's National Press Club remarks private/social; passed
-- 680-82 | 1965-67 | RFK and Edward Kennedy in committee; notes; Harry Byrd note (summer 1965); Murphy telegram (1966) | private/social; passed
-- 685 | 1965-11-20, 12-20 | Johnson's birthday and Christmas letters | private/social; passed
-- 686 | 1965-06-02 | Connell to Watson on Rivkin's ambassadorship | minor (one nomination's clearance); passed
-- 687 | 1965-09 | RFK to Prettyman on Johnson (handwritten notes) | private remark; passed
-- 688 | 1965-66 | RFK to Anthony Lewis letter | private; passed
-- 691-92 | 1965-07 | Stevenson to Schlesinger on the Dominican Republic and Vietnam | private remark; passed
-- 698 | 1966-04-23 | Glass, "The Compulsive Candidate," Saturday Evening Post | a journalist's article; passed
-- 700 | 1966-05-30 | Moyers to RFK on Mankiewicz (joke) | private; passed
-- 703 | 1962-07 | Harriman to Schlesinger on sabotage of the Laos policy | private remark; passed
-- 704 | 1961-10 | JFK to Krock on troops in Asia | private remark to a journalist; passed (Krock, In the Nation, 324-25)
-- 705 | 1961-11 | JFK to Schlesinger "like taking a drink"; to Galbraith "limits to defeats" | private remarks; passed
-- 721 | 1963-10 late | JFK to Gavin on seeing de Gaulle | private remark; passed
-- 726 | 1963-11-25 | Johnson to Humphrey at the Elms: "We had a hand in killing him" | private remark; passed
-- 726 | 1964-01-01 | Johnson's New Year message to Minh | check cal; passed
-- 728 | 1964 | Johnson to Valenti on refusing RFK | private remark; passed
-- 732 | 1965-11-10, 11-12 | Daily News editorial; Chicago Tribune cartoon | newspaper comment; passed
-- 733-34 | 1965-12-19 | RFK at a Hickory Hill party on Fanfani, negotiations (Stephen Schlesinger's notes) | private remarks at a party; passed
-- 738 | 1966-01-27, 02-24 | RFK's joking notes to Humphrey | private/social; passed
-- 739 | 1966 late spring | Galbraith, Goodwin, Schlesinger lunch in New York; their books | private persons; passed
-- 740 | 1966-08-07 | RFK at Hyannis Port on a Vietnam information center: elections, defoliation, prisoners (journal Aug. 7) | private remarks; passed (minor: no act)
-- 740 | 1966-09-21 | Spock to RFK; RFK asks Goodwin to see him | private correspondence; passed
-- 740 | 1966-10-24 | I. F. Stone, "Bobby Dodges the War" | a journalist's article; passed
-- 743 | 1965-11-11 | Loeb's Union-Leader editorial | a publisher's editorial; passed
-- 744 | 1966-05 | Ian Robertson banned | in cal.1966-06-04.africa; passed
-- 750 | 1966-07-26, 08-01 | Bowles invites RFK to India; RFK to Galbraith | private; passed
-- 750 | 1966-06 | RFK's return press conference: "Sam Silverman" | private joke; passed
-- 755 | 1966-07-31 | RFK to Schlesinger on Nickerson and O'Connor (journal) | private remark; passed
-- 759 | 1966-10-30 | RFK to Schlesinger: Johnson not believed; rueful about his vogue (journal) | private remark; passed
-- 616 | 1966-10-30 | RFK on the Warren report (journal): will not endorse, unwilling to criticize | private remark; passed
-- 761 | 1966-04-24/28 | Schlesinger to RFK, Manchester, Thomas | private advice; passed
-- 764 | 1967-01 | Ethel Kennedy's horse trial | private; passed
-- 764 | 1966-12 mid | RFK to Newfield on speaking out | private remark; passed
-- 765 | 1967-01-30 | RFK with Mitterrand and with Malraux (memoranda) | minor (the same counsel as Couve de Murville's, entered); passed
-- 766 | 1967-02-02, 02-03 | Brandt; Saragat (memoranda) | minor (the same counsel as Kiesinger's and Fanfani's, entered); passed
-- 767 | 1967-01-28 | Rostow to Johnson on Alsop | a staff report of a columnist's view; passed (minor)
-- 769 | 1967-03 | RFK at the Gridiron | a joke; passed
-- 771 | 1967-02-26 | speech drafting at Schlesinger's apartment; Sorensen against | private; passed
-- 775 | 1967-04-26 | Schlesinger with McGovern and RFK (journal) | private remarks; passed
-- 776-77 | 1967-04, 05-20 | RFK to Schlesinger: "five more years of a crazy man" | private remarks; passed
-- 779 | 1964-12-04 | RFK to Anthony Lewis on the North (oral history) | private interview; passed
-- 779 | 1965-03 | RFK on Johnson's "We Shall Overcome": "He's got some guts" | private remark; passed
-- 781 | 1966-04-19 | RFK at Ellenville, N.Y.: the ghetto yields only to fundamental change | minor (the same position as Aug. 18, 1965, and Jan. 1966); passed
-- 781 | 1967-02-04 | RFK to Paul VI on the Church in Los Angeles and New York | in cal.1967-02-04.robert-kennedy; passed
-- 794 | 1967-04-09 | dinner in Jackson with Carr and Evers | in cal.1967-04-10.poverty; passed
-- 797 | 1967-07-25 | RFK, Torres, Hamill in East Harlem | private; passed
-- 797-98 | 1967-07 | RFK to Mankiewicz on what he would do as President | private remark; passed
-- 805-06 | 1967 | Scheer in Ramparts; Gerald W. Johnson in the New Republic; Wechsler in the Progressive; Feiffer | journalists' articles; passed
-- 806 | 1966-67 | Meany: "that jitterbug"; Bohemian Grove | private remarks/social; passed
-- 808-21 | 1965-67 | Hickory Hill; Harriman's birthday (Nov. 1966); Mount Kennedy (Mar. 1965); the schooner (Sept. 1965); Markham's and Skakel's deaths (Sept. 1966); reading; the river trips | private/social; passed
-- 825 | 1967-09-15 | RFK to Schlesinger on the peace plank; Unruh and Daley against the war (journal) | private remark; passed
-- 829 | 1967-03 | McCarthy to Wechsler: would support RFK | private remark; passed
-- 831 | 1967-11-05 | RFK at Hickory Hill: a mistake to challenge Johnson now; Dolan on contacts (journal) | private remark; passed (minor: the position of Sept. 23)
-- 831 | 1967-11 | McCarthy to Kraft: "All I hope for is that Bob doesn't throw stones on the track"; RFK's reply | private; passed
-- 834 | 1967-12-07 | Johnson to Lilienthal on RFK's television shows | private remark; passed
-- 835 | 1967-12-28 | Newfield in the Village Voice: "the best side of his character will die" | a journalist's column; passed
-- 836 | 1968-01-16 | Alsop's column against a "sacrificial candidacy" | a journalist's column; passed
-- 838 | 1968-01-19 | RFK in Westchester; Mercouri; "if one more politician, on the level of Unruh, asks me to run, I'll do it" | private remark; passed
-- 839-40 | 1968-01-25, 01-28 | dinners at the Caravelle and at UN Plaza | private; passed
-- 840-41 | 1968-01-30 | Walinsky, Dolan, Edelman leave for the campaign; Lowenstein at RFK's office | staff and a private citizen; passed
-- 843 | 1968-02 | Alsop's message to RFK ("traitor") | private; passed
-- 844 | 1968 | RFK to Walton, Evans, Watson: "get out" | private remarks; passed
-- 845 | 1968-02-29 | Jacqueline Kennedy's Sumner excerpts; Hamill's letter | private; passed
-- 847 | 1968-03-10 | RFK's call to Ethel; Schlesinger in Cambridge | private; passed
-- 848 | 1968-03-11 | Schlesinger and Rauh: RFK to endorse McCarthy in New Hampshire; RFK unwilling (journal) | private advice; passed
-- 849 | 1968-03-12 | RFK at "21"; later a call with McCarthy | private; passed (the meeting of Mar. 13 entered)
-- 849 | 1968-03-13 | RFK to Anthony Lewis | private letter; passed
-- 854 | 1968-03-15 | RFK to Newfield and Haynes Johnson | to reporters, private; passed
-- 854-57 | 1968-03-15/16 | Hickory Hill drafting; Goldberg to Schlesinger; Lowell's call | private; passed
-- 857 | 1968-04-02 | Jacqueline Kennedy to Schlesinger: "The same thing that happened to Jack" | private; passed
-- 858 | 1968-03 | Nixon to Whalen: "We can beat that little S.O.B." | private remark; passed
-- 859 | 1968-03-17 | the St. Patrick's Day parade | minor; passed
-- 859 | 1968-03-24 | NYT survey: Johnson 65 percent of delegates | a newspaper's count; passed
-- 860 | 1968-03 late | RFK's note to Lowenstein on the Binghamton bus | private; passed
-- 860 | 1968-03 | Benson and Shenton's advertisement | private persons; passed
-- 861 | 1968-03-26 | Kempton, "Senator Kennedy, Farewell" | a journalist's column; passed
-- 869 | 1968-04-03 | Johnson with Pearson and Karr | private; passed
-- 870 | 1968-04-03 | McCarthy to Larner and Schell | private; passed
-- 871 | 1968-04-20 | Johnston to RFK on the old politics | private advice; passed
-- 872 | 1968-04-02 | RFK: "every establishment in America against me" | minor (a campaign line); passed
-- 873 | 1968-04 | King to Fauntroy, Levison on supporting RFK | private; passed
-- 874 | 1968-04-04 | Muncie; the news on the plane | in cal.1968-04-04.robert-kennedy; passed
-- 878 | 1968-04 | RFK's meeting with black entertainers in Atlanta | minor; passed
-- 879 | 1968-04 | Katzenbach on the plane; the earlier exchange on To Seek a Newer World | private; passed
-- 880 | 1968-03/04 | John Bartlow Martin's advice on order and justice; the NYT's "Meet the Conservative" | campaign staff; passed
-- 883 | 1968-05-07 | RFK with McCarthy volunteers (Taylor Branch) | private; passed
-- 888-89 | 1968-05-13 | Creighton; Omaha | campaign speeches; passed
-- 889 | 1968-05-10 | RFK at Mitchell, S.D., on McGovern | minor (praise); passed
-- 890ff | 1968-04-11 | a rifle at Lansing | minor; passed
-- 903 | 1968-05 mid | McGovern introduces RFK again ("The Impossible Dream") | minor (repeats Apr. 16); passed
-- 907 | 1968-05-24 | RFK swims in the Pacific | minor; passed
-- 907 | 1968-05 | the Portland Zoo encounter; Larner's "Coward" | minor; passed
-- 907 | 1968-05-28 | RFK's telegram to McCarthy; "I guess he may hate me that much" | in cal.1968-05-28.elections-1968-2 background; passed
-- 911 | 1968-06-01 | Lowell with RFK; with McCarthy | private; passed
-- 912 | 1968-06-03 | Chinatown; Long Beach; San Diego | minor; passed
-- 913-14 | 1968-06-04 | McGovern's call; Hackett's count; RFK to Goodwin "get free of McCarthy"; Goodwin to Galbraith and Lowenstein | private; passed (Daley's call entered)
-- 259 | 1963-06-05 | Hoover to RFK on a breach-of-promise suit settled in 1960 | private (the President's private life); passed
+The first reading's 228 "minor" rows, re-ruled: "minor" now only private or social trivia, a repetition of a position already entered, or an operation below the calendar's level. The entries: inbox/2026-10-29-schlesinger-rfk-minor.yaml.
+
+- 194 | 1960-02 | RFK: Humphrey big rival now (n.11) | entered: cal.1960-02-14.elections-1960
+- 197 | 1960-04-05 | Wisconsin primary night; RFK at Cronkite (Cronkite's account n.25) | minor: an incident below the calendar's level (Robert Kennedy's outburst at CBS); the primary entered
+- 205 | 1960-07-12 | Johnson-Kennedy debate before Texas delegation | already in: cal.1960-07-12.elections-1960-2
+- 211 | 1960-07-14 eve | dinner with father | minor: private (a family dinner)
+- 211 | 1960-07-15 | RFK: "48 hours" on Stevensonians (n.86) | minor: private remark, no act; the convention entered
+- 219-20 | 1960-11-08/09 | election night at Hyannis Port; Nixon's concession via Klein | already in: cal.1960-11-08.elections-1960; cal.1960-11-09.elections-1960
+- 224 | 1960-12-01 | JFK to author: Harriman "old hat" (n.7) | minor: private remark (an opinion of Harriman), no act
+- 237 | 1961-01 | Alfalfa Club joke | minor: social (a joke at the Alfalfa Club)
+- 254 | 1960-11 | JFK keeps Hoover and Dulles | already in: cal.1960-11-09.transition-and-staff
+- 255 | 1961-10 | JFK to author: Baruch, Hoover, Dulles PR masters (n.44) | minor: private remark, no act
+- 262 | 1961-12 | RFK to Brandon (Sunday Times) on the CP (n.4) | entered: cal.1961-12.antisubversion
+- 273 | 1961-01 | Evans briefs RFK on wiretap procedures, not bugging (n.46) | entered: cal.1961-01.crime-and-hijacking
+- 276 | 1961-05 | Hoover memo to White "Technical and Microphone Surveillance" | entered: cal.1961-05.crime-and-hijacking
+- 278 | 1961-63 | convictions 96/101/373 (n.78) | undated: figures over 1961-63, not dated events
+- 279 | 1961-10 | Hoffa complains of 29 grand juries | out of the brief: a defendant's complaint, not a party's or a member's word; Check: the day
+- 281 | 1963 | Loeb's $500,000 Teamster loan, editorial | out of the brief: a publisher's editorial, no act
+- 287-88 | 1960-08 | JFK asks Wofford "ten things" | entered: cal.1960-08.civil-rights-the-executive
+- 290 | 1961-02 | Katzenbach brings CEEO order to Hickory Hill, JFK at dinner (n.15) | entered: cal.1961-02.civil-rights-the-executive
+- 293 | 1961-03 | RFK sends Black an Alabama editorial (n.33) | minor: private (a clipping sent to a Justice)
+- 294 | 1961-03 | Maas interview, Look (n.39) | entered: cal.1961-03-28.robert-kennedy
+- 294 | 1961-09 | schools desegregated without violence in New Orleans, Atlanta, Memphis | already in: cal.1961-08-30.states-and-cities (Atlanta); New Orleans and Memphis, the book gives no day
+- 302 | 1961-09 | CORE joins | already in: cal.1961-08-23.voting-rights (Farmer for CORE at the Voter Education Project's ratification)
+- 302 | 1961-11-11 | King's "Dear Friend" letter: suffrage the central front (n.85) | entered: cal.1961-11-11.king
+- 304 | 1962-03 | DOJ police-brutality bill sent up, no hearings (n.93 Brauer) | entered: cal.1962-03.civil-rights-the-executive
+- 308 | 1963-02-14 | Cox to registrar McLaurin (n.114) | entered: cal.1963-02-14.mississippi
+- 310 | 1962-05-22 | RFK to Eleanor Roosevelt on judges (n.123) | entered: cal.1962-05-22.robert-kennedy
+- 311 | 1962-10-06 | Ervin to JFK on housing order | already in: cal.1962-10-06.civil-rights-the-executive
+- 325 | 1962-10-06 | RFK speech Saturday after Ole Miss | entered: cal.1962-10-06.mississippi-ole-miss
+- 326 | 1963-06-20 | JFK to author on Thaddeus Stevens | minor: private remark, no act
+- 334 | 1963-06-07/12 | Clarence Jones letter to NYT; RFK note to Marshall | out of the brief: a private citizen's letter to the Times, Check: printed?; Robert Kennedy's note to Marshall private
+- 340 | 1963-05-21 | Marshall memo to the Cabinet on Wallace (n.107) | entered: cal.1963-05-21.alabama-schools
+- 351 | 1963-08-15 | JFK to author: march size | minor: private remark, no act
+- 353 | 1961-05, 1962-02, 1962-05, 1962-10, 1962-11 | Hoover's notes on King; Reserve Index; COMINFIL opened; DeLoach call | entered: cal.1962-05.king; cal.1962-10.king; cal.1962-11.king; Hoover's marginal notes (May 1961, Feb. 1962) minor: marginalia, no act
+- 363 | 1963-12, 1964 | Time Man of the Year; Hoover's notes; Nov. 24, 1964 Chicago speech | entered: cal.1964-11-24.king; Hoover's note on Time's Man of the Year minor: marginalia
+- 364 | 1964 | Russell briefed by Katzenbach (Nov. 1, 1963 per Church fn) | a lead: the day of Katzenbach's briefing of Russell (the book: during the civil rights debate; Katzenbach's interview with Hackman, 69-70)
+- 370 | 1961 early | RFK to Bailey on Pendergast (n.7) | already in: cal.1961-07-19.democratic-party
+- 372 | 1962-09-18 | primary night: RFK's call re Mark Howe | already in: cal.1962-09-18.democratic-party
+- 380 | 1961-09-24 | RFK on Meet the Press on executive privilege (n.51) | entered: cal.1961-09-24.robert-kennedy
+- 382 | 1962 | Hardy and Angola documents; JFK to Hardy May 1, 1962 (n.54) | entered: cal.1962-05-01.congress
+- 396 | 1962 early | Biddle to RFK | minor: a private letter of praise
+- 400 | 1963-08 | Cox recommends one house by population (n.41) | entered: cal.1963-08-21.legislatures
+- 405 | 1962-04-16 | RFK assures U.S. Steel's counsel (Blough's account n.71) | entered: cal.1962-04-16.steel
+- 406 | 1962-06 | Cox's speech; stock market; RFK defends (author's journal June 19, 1962 n.75) | entered: cal.1962-06.economy; Robert Kennedy's defense of Cox to the White House undated (Cox's account)
+- 408 | 1963-08 | RFK on Spanish-speaking Americans; Inter-American Congress delegation | entered: cal.1963-08-23.robert-kennedy
+- 416 | 1963 spring | JFK to author on unemployment | minor: private remark, no act
+- 419 | 1960-05 | JFK and the DAC statement on Paris summit | already in: cal.1960-05.democratic-party-2
+- 420-21 | 1960-08 | Kennan to JFK; JFK's reply (n.19) | already in: cal.1960-08-17.elections-1960; cal.1960-10-30.elections-1960-2
+- 421 | 1960-12 end | Stevenson on the inaugural (n.21) | already in: cal.1960-12-30.transition-and-staff
+- 422 | 1960-12/1961-01 | Bruce sent to Menshikov; Kennan's advice | entered: cal.1961-01-05.soviet-union; Kennan's advice on the paper undated (Kennan's interview)
+- 427-28 | 1961-04 early; 05 | Acheson and Macmillan; JFK on Lippmann/Alsop (journal May 10) | undated: Acheson's line to Macmillan: the book gives no day (the visit of early April); Kennedy on Lippmann and Alsop, May 10, a private remark: minor
+- 431 | 1961-09 | Wechsler interview | entered: cal.1961-09-22.berlin-and-vienna
+- 434 | 1963-05-16 | RFK to Rusk on State's hiring of Negroes (n.78) | entered: cal.1963-05-16.civil-rights-the-executive
+- 439 | 1962-05-30 | RFK to JFK on Foreign Service speech (n.98) | entered: cal.1962-05-30.robert-kennedy
+- 441 | 1962-12-15 | Graham to JFK on Rusk/McNamara (n.102) | out of the brief: a publisher's private advice, no act
+- 446 | 1961-04-29 | JFK's talk with RFK before a meeting | minor: private (the President's distress, by Robert Kennedy's memorandum)
+- 451 | 1961-11 | JFK west coast speeches | already in: cal.1961-11-16.right-and-the-military
+- 458 | 1961-05 | JFK revives the board as PFIAB, Killian, Clifford | entered: cal.1961-05-04.intelligence
+- 458-59 | 1961 | NSAMs 55, 57 | already in: cal.1961-06-28.cuba
+- 461 | 1961-02-01 | first NSC meeting; McNamara told counterinsurgency | entered: cal.1961-02-01.defense
+- 461 | 1962-01 | Special Group (CI) created (NSAM 124, Jan. 18) | entered: cal.1962-01-18.defense
+- 463 | 1962-09 | CI Group policy statement | entered: cal.1962-08-24.defense
+- 467 | 1963-01-17 | Dungan to RFK urging CI Group's dissolution | entered: cal.1963-01-17.defense
+- 474 | 1962-01-19 | RFK to McCone: talk to Conway, Goldberg, Reuther | minor: a suggestion of whom to consult, no act
+- 476 | 1961-10-24 | Miro to Schlesinger: "I declare myself vanquished" | entered: cal.1961-10-24.cuba
+- 479 | 1962-04-10 | Harvey to McCone on SGA controls (Church 145) | undated: the book gives no day; the Church report, 144-46, not read (a lead)
+- 485 | 1963-01 | FitzGerald replaces Harvey at Task Force W | entered: cal.1963-01.cuba
+- 487 | 1963-10 | Morgenthau indicts Kohly | entered: cal.1963-10.crime-and-hijacking; cal.1965-03-09.republican-party (Nixon to Weinfeld, the same footnote)
+- 489 | 1961-10 | Special Group asks contingency plan if Castro dies; Board of Estimates reply | entered: cal.1961-10.cuba
+- 494 | 1965-11 | RFK in Peru: "I saved his life" | minor: a remark to his interpreter; the Peru visit entered
+- 495 | 1962-08-13 | Organized Crime Section report on Sinatra | entered: cal.1962-08-13.crime-and-hijacking
+- 496 | 1962-03 | JFK stays at Crosby's, not Sinatra's | minor: social (where the President stayed)
+- 499 | 1961-11 | Bolshakov: Khrushchev "Kennedyizing" (RFK notes Nov 7) | minor: private, no act
+- 507-08 | 1962-10 | Dolan anecdote; Rusk "dumb dodo" (Nov 30 memo) | minor: private, no act
+- 514 | 1962-10 | Guthman: "I'll be at Hickory Hill" | minor: private, no act
+- 523 | 1962-10-29 | McNaughton: missiles out by Apr. 1 | entered: cal.1962-10-29.europe-and-the-alliance-jupiters
+- 524 | 1962-10-28 | Anderson, LeMay: "We have been had"; JFK to author Oct 29 | entered: cal.1962-10-28.defense; Kennedy to Schlesinger the next morning a private remark
+- 524 | 1962-10-29; 11-30 | Acheson to JFK congratulating | minor: a letter of congratulation, no act
+- 525 | 1962-10-28 | JFK to RFK: "go to the theater, like Lincoln" | minor: private remark, no act
+- 532 | 1962-11 | Stevenson's letter of thanks to RFK; RFK to Lovett | minor: private letters of thanks
+- 539 | 1963-03-26 | RFK to JFK: "Did you feel there was any merit?" | minor: a repetition of a position entered, nothing new
+- 540 | 1963-04-21 | Reston column on the "subversive war" | out of the brief: a journalist's column, no act
+- 543 | 1963-06 | Castro in USSR five weeks (Apr. 27-June 3) | a lead: Castro in the Soviet Union, Apr. 27-June 3, 1963: not in the calendar; the Cuba thread
+- 556 | 1963-12-04 | Attwood to Schlesinger | minor: a repetition of a position entered, nothing new
+- 561 | 1964 | RFK: the dam "probably correct" | minor: a retrospective remark
+- 563 | 1962-02 | Galbraith's journal: the Kennedys in Honolulu | minor: private, no act
+- 570 | 1963 | Menzies complains to Mrs. Battle; RFK's letter June 11, 1963 | entered: cal.1963-06-11.indonesia
+- 573 | 1962-02-21 | RFK on the plane: "Barry Goldwater in Indonesia?" (journal) | minor: private remark, no act
+- 574 | 1962-02-22 | Brandt's dinner; Ted's birthday | minor: private, no act
+- 580 | 1962-10-25 | JFK to Jagan (journal) | already in: cal.1961-10-25.latin-america
+- 582 | 1963 | Goulart's cabinet; Dantas | out of the brief: foreign, undated
+- 584 | 1961-01-20 | JFK to Goodwin: Coast Guard unit | entered: cal.1961-01-20.civil-rights-the-executive
+- 585 | 1963-02 | JFK's letter to Shoup on fitness; RFK's fifty-mile hike | minor: below the calendar's level (a letter on fitness; the hike)
+- 589 | 1963-04 | Marie Harriman's party (journal) | minor: social
+- 590 | 1963-09 | Walton's lunch for Dietrich | minor: social
+- 591 | 1962-08-04 | Monroe's death; RFK at the ABA in San Francisco | minor: private; his whereabouts at the ABA's meeting, no word reported
+- 592 | 1961-11-27 | first Hickory Hill seminar | minor: social
+- 594-95 | 1963-03 | Vidal, "The Best Man, 1968," Esquire | out of the brief: a writer's article, no act
+- 595 | 1961-11-11 | Vidal at the White House dance | minor: social
+- 597 | 1963-10-22 | Kennan to JFK | minor: a private letter of praise from a former ambassador
+- 597 | 1963-10-31 | Barghoorn arrested | a lead: Barghoorn's arrest, Oct. 31, 1963, and Kennedy's demand for his release: not in the calendar; FRUS and the Public Papers (the news conference of Nov. 14)
+- 598 | 1963-11-12 | RFK to JFK on the cabinet (Webster, Tyler) | minor: a jest
+- 203 | 1960-06 early | JFK at Hyannis Port on Johnson ("riverboat gambler") | minor: private remark, no act
+- 211 | 1960-07-15 | RFK: "allow us forty-eight hours" | minor: private remark, no act
+- 606 | 1963-10-31 | Childs with JFK on the hatred in the South | out of the brief: a columnist's conversation, no act
+- 610-11 | 1963-11-22/23 | casket; Lincoln bedroom | minor: private, no act
+- 612 | 1963-11-24 | RFK's letter to his son Joe | minor: private, no act
+- 613 | 1963-11/12 | Hobe Sound; Lehman's funeral; Christmas parties | minor: private, no act
+- 617 | 1964-03 (Easter) | Antigua; The Greek Way | minor: private, no act
+- 626 | 1963-11-21 | JFK on Johnson "incapable of telling the truth" (Jacqueline Kennedy) | minor: private remark, no act
+- 629 | 1963-12-05 | RFK on the "revolt of the FBI" (journal) | minor: private remark, no act
+- 631-32 | 1963-12-15 | Schlesinger to RFK; RFK on a deal for the State Department | entered: cal.1963-12-15.robert-kennedy; cal.1963-12-23.robert-kennedy
+- 635 | 1964-07 | the Tunku in Washington; military aid to Malaysia | entered: cal.1964-07-22.indonesia
+- 646 | 1964-02-11 | Johnson-RFK meeting on civil rights | already in: cal.1964-02-11.robert-kennedy
+- 647-48 | 1964 | LBJ to Goldman; Heller's memo margin; RFK to Goodwin (March) | minor: private remarks
+- 649 | 1964 spring | Johnson's "divine retribution" to Salinger (journal July 23) | minor: private remark, no act
+- 652 | 1964-01-22 | Reuther to Schlesinger on Humphrey's "secret deal" (journal) | minor: private remark, no act
+- 658 | 1964-07-26 | Tarver (Atlanta Journal) to Johnson: RFK costs the South | entered: cal.1964-07-26.elections-1964
+- 658 | 1964-06 | Johnson's polls; "that little runt" to Sam Houston Johnson | minor: private remark, no act
+- 659 | 1964-07 (a few days after July 15) | Johnson calls RFK to the White House | already in: cal.1964-07-29.robert-kennedy
+- 661 | 1964-07-29 | O'Donnell's lunch with RFK; Johnson to O'Donnell that RFK offered to run the campaign | minor: private; the meeting of July 29 entered
+- 661 | 1964-08-26 | RFK to Bundy, thanks | minor: a private letter of thanks
+- 662 | 1964-08-01 weekend | RFK's jokes on the Cabinet exclusion | minor: private jokes
+- 663 | 1964-08 | Barry sent away from Atlantic City by DeLoach | already in: cal.1964-08-22.king
+- 666 | 1964-08-17 | RFK to Lisagor: "the spontaneous draft of my brother-in-law" | minor: a private note, a joke
+- 667 | 1964-08-10 | Stevenson to Marietta Tree: "Bobby is mad to run now" | minor: a private letter
+- 667 | 1964-08 mid | Wagner endorses RFK | already in: cal.1964-08-25.elections-1964
+- 667 | 1964-08 mid | Stevenson cites "rising protest" (mid-August letter) | minor: a private letter
+- 670 | 1964-10 early | Douglas to RFK (Oct. 8) on Keating's record | entered: cal.1964-10-08.robert-kennedy
+- 671 | 1964-10-08 | Lubell's column | out of the brief: a journalist's column, no act
+- 671 | 1964-10-23 | Evers in the New York Post | minor: a repetition of a position entered, nothing new (Evers's support, Oct. 2)
+- 673 | 1964-10 | Mailer's "A Vote for Bobby K." (Village Voice) | out of the brief: a writer's endorsement, no act
+- 676 | 1965-01-04 | RFK and EMK sworn in | already in: cal.1965-01-04.robert-kennedy
+- 680-82 | 1965-67 | RFK and Edward Kennedy in committee; notes; Harry Byrd note (summer 1965); Murphy telegram (1966) | minor: private and social
+- 685 | 1965-11-20, 12-20 | Johnson's birthday and Christmas letters | minor: social
+- 686 | 1965-06-02 | Connell to Watson on Rivkin's ambassadorship | minor: below the calendar's level (one ambassador's clearance)
+- 687 | 1965-09 | RFK to Prettyman on Johnson (handwritten notes) | minor: private remark, no act
+- 688 | 1965-66 | RFK to Anthony Lewis letter | minor: a private letter
+- 691-92 | 1965-07 | Stevenson to Schlesinger on the Dominican Republic and Vietnam | minor: private remark, no act
+- 698 | 1966-04-23 | Glass, "The Compulsive Candidate," Saturday Evening Post | out of the brief: a journalist's article, no act
+- 700 | 1966-05-30 | Moyers to RFK on Mankiewicz (joke) | minor: a private joke
+- 703 | 1962-07 | Harriman to Schlesinger on sabotage of the Laos policy | minor: private remark, no act
+- 704 | 1961-10 | JFK to Krock on troops in Asia | entered: cal.1961-10.vietnam-force-levels
+- 705 | 1961-11 | JFK to Schlesinger "like taking a drink"; to Galbraith "limits to defeats" | entered: cal.1961-11-13.vietnam; Kennedy to Galbraith undated (Galbraith's interview of 1977)
+- 721 | 1963-10 late | JFK to Gavin on seeing de Gaulle | minor: private remark, no act
+- 726 | 1963-11-25 | Johnson to Humphrey at the Elms: "We had a hand in killing him" | minor: private remark, no act
+- 726 | 1964-01-01 | Johnson's New Year message to Minh | entered: cal.1964-01-01.vietnam
+- 728 | 1964 | Johnson to Valenti on refusing RFK | minor: private remark, no act
+- 732 | 1965-11-10, 11-12 | Daily News editorial; Chicago Tribune cartoon | out of the brief: newspaper comment, no act
+- 733-34 | 1965-12-19 | RFK at a Hickory Hill party on Fanfani, negotiations (Stephen Schlesinger's notes) | minor: private remarks at a party
+- 738 | 1966-01-27, 02-24 | RFK's joking notes to Humphrey | minor: social
+- 739 | 1966 late spring | Galbraith, Goodwin, Schlesinger lunch in New York; their books | out of the brief: private persons
+- 740 | 1966-08-07 | RFK at Hyannis Port on a Vietnam information center: elections, defoliation, prisoners (journal Aug. 7) | minor: private remarks
+- 740 | 1966-09-21 | Spock to RFK; RFK asks Goodwin to see him | minor: private correspondence
+- 740 | 1966-10-24 | I. F. Stone, "Bobby Dodges the War" | out of the brief: a journalist's article, no act
+- 743 | 1965-11-11 | Loeb's Union-Leader editorial | out of the brief: a publisher's editorial, no act
+- 744 | 1966-05 | Ian Robertson banned | already in: cal.1966-06-04.africa
+- 750 | 1966-07-26, 08-01 | Bowles invites RFK to India; RFK to Galbraith | minor: private, no act
+- 750 | 1966-06 | RFK's return press conference: "Sam Silverman" | minor: a private joke
+- 755 | 1966-07-31 | RFK to Schlesinger on Nickerson and O'Connor (journal) | minor: private remark, no act
+- 759 | 1966-10-30 | RFK to Schlesinger: Johnson not believed; rueful about his vogue (journal) | minor: private remark, no act
+- 616 | 1966-10-30 | RFK on the Warren report (journal): will not endorse, unwilling to criticize | minor: private remark, no act
+- 761 | 1966-04-24/28 | Schlesinger to RFK, Manchester, Thomas | minor: private advice
+- 764 | 1967-01 | Ethel Kennedy's horse trial | minor: private, no act
+- 764 | 1966-12 mid | RFK to Newfield on speaking out | minor: private remark, no act
+- 765 | 1967-01-30 | RFK with Mitterrand and with Malraux (memoranda) | minor: a repetition of a position entered, nothing new
+- 766 | 1967-02-02, 02-03 | Brandt; Saragat (memoranda) | minor: a repetition of a position entered, nothing new
+- 767 | 1967-01-28 | Rostow to Johnson on Alsop | minor: a staff report of a columnist's view, no act
+- 769 | 1967-03 | RFK at the Gridiron | minor: a joke
+- 771 | 1967-02-26 | speech drafting at Schlesinger's apartment; Sorensen against | minor: private; the speech of Mar. 2 entered
+- 775 | 1967-04-26 | Schlesinger with McGovern and RFK (journal) | minor: private remarks
+- 776-77 | 1967-04, 05-20 | RFK to Schlesinger: "five more years of a crazy man" | minor: private remarks
+- 779 | 1964-12-04 | RFK to Anthony Lewis on the North (oral history) | minor: a retrospective interview
+- 779 | 1965-03 | RFK on Johnson's "We Shall Overcome": "He's got some guts" | minor: private remark, no act
+- 781 | 1966-04-19 | RFK at Ellenville, N.Y.: the ghetto yields only to fundamental change | minor: a repetition of a position entered, nothing new
+- 781 | 1967-02-04 | RFK to Paul VI on the Church in Los Angeles and New York | already in: cal.1967-02-04.robert-kennedy
+- 794 | 1967-04-09 | dinner in Jackson with Carr and Evers | already in: cal.1967-04-10.poverty
+- 797 | 1967-07-25 | RFK, Torres, Hamill in East Harlem | minor: private, no act
+- 797-98 | 1967-07 | RFK to Mankiewicz on what he would do as President | minor: private remark, no act
+- 805-06 | 1967 | Scheer in Ramparts; Gerald W. Johnson in the New Republic; Wechsler in the Progressive; Feiffer | out of the brief: journalists' articles, no act
+- 806 | 1966-67 | Meany: "that jitterbug"; Bohemian Grove | minor: private remarks; social
+- 808-21 | 1965-67 | Hickory Hill; Harriman's birthday (Nov. 1966); Mount Kennedy (Mar. 1965); the schooner (Sept. 1965); Markham's and Skakel's deaths (Sept. 1966); reading; the river trips | minor: private and social
+- 825 | 1967-09-15 | RFK to Schlesinger on the peace plank; Unruh and Daley against the war (journal) | minor: private remark, no act
+- 829 | 1967-03 | McCarthy to Wechsler: would support RFK | minor: private remark, no act
+- 831 | 1967-11-05 | RFK at Hickory Hill: a mistake to challenge Johnson now; Dolan on contacts (journal) | minor: a repetition of a position entered, nothing new (Sept. 23)
+- 831 | 1967-11 | McCarthy to Kraft: "All I hope for is that Bob doesn't throw stones on the track"; RFK's reply | minor: private, no act
+- 834 | 1967-12-07 | Johnson to Lilienthal on RFK's television shows | minor: private remark, no act
+- 835 | 1967-12-28 | Newfield in the Village Voice: "the best side of his character will die" | out of the brief: a journalist's column, no act
+- 836 | 1968-01-16 | Alsop's column against a "sacrificial candidacy" | out of the brief: a journalist's column, no act
+- 838 | 1968-01-19 | RFK in Westchester; Mercouri; "if one more politician, on the level of Unruh, asks me to run, I'll do it" | minor: private remark, no act
+- 839-40 | 1968-01-25, 01-28 | dinners at the Caravelle and at UN Plaza | minor: private, no act
+- 840-41 | 1968-01-30 | Walinsky, Dolan, Edelman leave for the campaign; Lowenstein at RFK's office | minor: below the calendar's level (staff leaving for another campaign)
+- 843 | 1968-02 | Alsop's message to RFK ("traitor") | minor: private, no act
+- 844 | 1968 | RFK to Walton, Evans, Watson: "get out" | minor: private remarks
+- 845 | 1968-02-29 | Jacqueline Kennedy's Sumner excerpts; Hamill's letter | minor: private, no act
+- 847 | 1968-03-10 | RFK's call to Ethel; Schlesinger in Cambridge | minor: private, no act
+- 848 | 1968-03-11 | Schlesinger and Rauh: RFK to endorse McCarthy in New Hampshire; RFK unwilling (journal) | minor: private advice
+- 849 | 1968-03-12 | RFK at "21"; later a call with McCarthy | minor: private; the meeting of Mar. 13 entered
+- 849 | 1968-03-13 | RFK to Anthony Lewis | minor: a private letter
+- 854 | 1968-03-15 | RFK to Newfield and Haynes Johnson | minor: a repetition of a position entered, nothing new (the announcement of Mar. 16)
+- 854-57 | 1968-03-15/16 | Hickory Hill drafting; Goldberg to Schlesinger; Lowell's call | minor: private, no act
+- 857 | 1968-04-02 | Jacqueline Kennedy to Schlesinger: "The same thing that happened to Jack" | minor: private, no act
+- 858 | 1968-03 | Nixon to Whalen: "We can beat that little S.O.B." | minor: private remark, no act
+- 859 | 1968-03-17 | the St. Patrick's Day parade | entered: cal.1968-03-16.robert-kennedy
+- 859 | 1968-03-24 | NYT survey: Johnson 65 percent of delegates | out of the brief: a newspaper's count, no act
+- 860 | 1968-03 late | RFK's note to Lowenstein on the Binghamton bus | minor: private, no act
+- 860 | 1968-03 | Benson and Shenton's advertisement | out of the brief: private persons
+- 861 | 1968-03-26 | Kempton, "Senator Kennedy, Farewell" | out of the brief: a journalist's column, no act
+- 869 | 1968-04-03 | Johnson with Pearson and Karr | minor: private, no act
+- 870 | 1968-04-03 | McCarthy to Larner and Schell | minor: private, no act
+- 871 | 1968-04-20 | Johnston to RFK on the old politics | minor: private advice
+- 872 | 1968-04-02 | RFK: "every establishment in America against me" | entered: cal.1968-04-02.robert-kennedy
+- 873 | 1968-04 | King to Fauntroy, Levison on supporting RFK | minor: private, no act
+- 874 | 1968-04-04 | Muncie; the news on the plane | entered: cal.1968-04-04.elections-1968 (Muncie); the news and Indianapolis, cal.1968-04-04.robert-kennedy
+- 878 | 1968-04 | RFK's meeting with black entertainers in Atlanta | entered: cal.1968-04-09.elections-1968
+- 879 | 1968-04 | Katzenbach on the plane; the earlier exchange on To Seek a Newer World | minor: private, no act
+- 880 | 1968-03/04 | John Bartlow Martin's advice on order and justice; the NYT's "Meet the Conservative" | minor: private advice of the staff
+- 883 | 1968-05-07 | RFK with McCarthy volunteers (Taylor Branch) | minor: a private conversation
+- 888-89 | 1968-05-13 | Creighton; Omaha | entered: cal.1968-05-13.elections-1968
+- 889 | 1968-05-10 | RFK at Mitchell, S.D., on McGovern | entered: cal.1968-05-10.elections-1968
+- 890ff | 1968-04-11 | a rifle at Lansing | minor: an incident below the calendar's level
+- 903 | 1968-05 mid | McGovern introduces RFK again ("The Impossible Dream") | minor: a repetition of a position entered, nothing new (Apr. 16)
+- 907 | 1968-05-24 | RFK swims in the Pacific | minor: private, no act
+- 907 | 1968-05 | the Portland Zoo encounter; Larner's "Coward" | minor: private, no act
+- 907 | 1968-05-28 | RFK's telegram to McCarthy; "I guess he may hate me that much" | minor: a telegram of congratulation; the Oregon result entered, cal.1968-05-28.elections-1968-2
+- 911 | 1968-06-01 | Lowell with RFK; with McCarthy | minor: private, no act
+- 912 | 1968-06-03 | Chinatown; Long Beach; San Diego | entered: cal.1968-06-03.elections-1968
+- 913-14 | 1968-06-04 | McGovern's call; Hackett's count; RFK to Goodwin "get free of McCarthy"; Goodwin to Galbraith and Lowenstein | minor: private, no act
+- 259 | 1963-06-05 | Hoover to RFK on a breach-of-promise suit settled in 1960 | minor: private (the President's private life)
 
 ### A lead (a source to reach or a day to find; also in the leads below) (158)
 
@@ -815,3 +817,14 @@ Access:
 - www.intelligence.senate.gov refused this environment's requests for the Church committee's PDFs (a bot check); not
   tried further. The reports were read from archive.org's copies; the series links the Senate's copies. The JFK Library's oral-history pages are behind a bot check here
   (not tried further). The Department of Justice's PDFs of Kennedy's speeches open.
+
+From the re-ruling of the "minor" rows (Oct. 29, 2026):
+- Castro in the Soviet Union, Apr. 27-June 3, 1963 (the book, 543): not in the calendar; its record for the Cuba thread.
+- Barghoorn's arrest, Oct. 31, 1963, and Kennedy's demand for his release (the book, 597): not in the calendar; FRUS 1961-63,
+  V, and the news conference of Nov. 14, 1963.
+- Harvey's protest to McCone of the Special Group's "tight controls" (the book, 479; Church committee, *Assassination
+  Plots*, 144-46): its day.
+- Katzenbach's briefing of Russell on the FBI's King tapes (the book, 364; Katzenbach's interview with Hackman, 69-70): its day.
+- Cox's speech proposing a delay of vital price and wage increases (the book, 406): its day and place (the book: June 1962,
+  the day the market fell). Robert Kennedy's defense of it at the White House, by Cox's account: its day.
+- Kennedy to Galbraith, Nov. 1961, "limits to the number of defeats" (the book, 705; Galbraith's interview of 1977): its day.
