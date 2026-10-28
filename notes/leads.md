@@ -956,6 +956,28 @@ Searched in the Daily Digest (daybook/committees), the bound Record's days, the 
 - The Ripon Society's "The Realities of Vietnam": Johns gives September 1967 (171) and Oct. 2, 1967 (177).
 - Johnson's call to Nixon, Aug. 28, 1968 (Johns, 220; the LBJ Library's transcript): not in PRDE's August list read here.
 
+### Young, *Two Suns of the Southwest* (the book agent, Oct. 29, 2026; notes/book-checks/young-two-suns.md)
+
+- The rest of the book: the Drive connector gave the text of printed pp. 1–151 only. Chapter 6 from p. 152, chapter 7
+  (171–199: the fall campaign, the Daisy spot, the Lady Bird Special, direct mail), the Conclusion and the notes
+  (225–256) unread; read them from the owner's copy another way, then log the records the notes give.
+- The Platform Committee's hearings at San Francisco, July 1964: Rockefeller, Romney, Scranton, Goldwater, Lodge,
+  Milton Eisenhower (Young, 99–100, undated): the days from the convention's *Proceedings*.
+- Nixon at the Waldorf-Astoria, Memorial Day weekend, 1964, plotting to take the convention, by Goldwater's account
+  (Young, 93–94): the day and Goldwater's text.
+- Johnson's calls on the Freedom Democrats with Reuther, Humphrey, Sanders and Connally (Young, 133–35, undated): match
+  to the Miller Center's rows of Aug. 25, 1964 (Sanders, 4:32 p.m., WH6408-37-5183, 5184; Sanders and Connally).
+- Johnson and Humphrey by telephone on Wallace and Maryland, spring 1964 (Young, 118): the recording.
+- Johnson and Humphrey at the White House, "like a marriage with no chance of divorce," "the day before" the
+  announcement (Young, 128): the day.
+- Humphrey's acceptance, Aug. 27, 1964, "But not Senator Goldwater!" (Young, 140): a text and an entry.
+- Johnson's Easter drive at the Ranch with four reporters, late March 1964, and *Time*'s story (Young, 144): the day.
+- Buckley's memorandum to *National Review*'s staff after New Hampshire, March 1964 (Young, 78–79): the day.
+- Smathers to Humphrey the night of Nov. 22, 1963, on "a liberal running with" Johnson, by Smathers's telling to
+  Johnson (Young, 125): the recording.
+- Robert Kennedy to Rowland Evans at lunch, early December 1963, on staying and the ticket (Young, 48).
+- Johnson to Sorensen on the civil rights bill, and his urging a Southern tour, spring 1963 (Young, 40–41).
+
 ### Garrow, *Bearing the Cross* (the book agent, Oct. 24, 2026; notes/book-checks/garrow-bearing-the-cross.md)
 
 - The FBI's acts against King (`cal.1963-05-31.king`, `-10-05`, `-11-20`, `-12`, `cal.1964-01-05.king`,
