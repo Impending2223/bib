@@ -457,6 +457,17 @@ reports them (`notes/calendar-audit.md`).
   meeting; Faisal's ten-point program; Georgia's, New York's, Tennessee's and Michigan's session laws and journals (no
   open copy); the Albany orders and Black's order in *Meredith v. Fair* (unreported).
 
+- 1965-66: the Foreign Relations Committee's *Executive Sessions* (Historical Series), vols. XVII (1965) and XVIII
+  (1966), not on govinfo; S. Rep. 89-1359 and the Delano and Ribicoff hearings (govinfo's search hit its demo key's
+  rate limit); the Miller Center's tape pages fail TLS through the proxy (two recordings, Dec. 3, 1965 and Mar. 14,
+  1966, linked behind "To check:", not heard); the Daily Diary for Aug. 9-11, 1965 and June 1, 1966 (not online);
+  Oregon's records system (ORMS) serves files only by byte ranges (the other years readable so); California's
+  Statutes are scans without text; Minnesota's veto list (lrl.mn.gov) did not answer: Rolvaag's veto of May 24, 1965;
+  web.archive.org refuses this environment: Vermont's 1966 primary; the Security Council's records of Dec. 5 and 8,
+  1966 (Rhodesia); New York's Laws and Manuals, Virginia's Acts, Florida's Laws, Oklahoma's House Journal, and the
+  N.M., Pa., Mich., Tenn., Wyo., Wis. and Vt. election publications (no open copy found). The audit does not count a
+  record on archive.org or a State or university host as a primary record (about ten entries a span).
+
 ### The official histories, reread (stage 3, Oct. 28-29, 2026; notes/book-checks/, one file a volume)
 
 Dated events the volumes give that the calendar lacks, each with the volume's page in its book-check file ("Passed
