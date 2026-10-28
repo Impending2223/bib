@@ -486,6 +486,13 @@ reports them (`notes/calendar-audit.md`).
   no open copy; the 1967 session laws of Ark., Colo., Tenn., Or. and Nev. (HathiTrust, bot-checked); the Daily Diary
   open for 11 days of 1967 only.
 
+- 1968-69: the Joint Economic Committee's 1969 hearings, to date Barr's testimony (the Digest of Jan. 17, 1969 lists
+  none); an open government copy of the Walker and Miami reports (archive.org lends them only); the Daily Diary's images
+  for Apr. 4-7, 1968, to be read; the Apollo 8 air-to-ground transcript; the Bureau of Mines' report on the Farmington
+  mine explosion; Kentucky's *Acts*, 1968, for the approval of H.B. 399; the 1968 legislatures countable race by race
+  from California's *Statement of Vote*, Alaska's Official Returns and Iowa's *Official Register*; the Peers Report's
+  figures for Mỹ Lai against the entry's (a Check there); the King Papers' texts of his speeches (not open here).
+
 ### The official histories, reread (stage 3, Oct. 28-29, 2026; notes/book-checks/, one file a volume)
 
 Dated events the volumes give that the calendar lacks, each with the volume's page in its book-check file ("Passed
