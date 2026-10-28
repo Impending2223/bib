@@ -131,10 +131,13 @@ ops:
         - 'via w.perlstein-before-the-storm 88 n.2: all'
 - add:
     entry:
-      id: cal.1960-07-25.elections-1960-2
+      id: cal.1960-07-25.republican-party
       when: July 25
       date: '1960-07-25'
-      thread: elections-1960
+      thread: republican-party
+      also:
+      - elections-1960
+      - civil-rights-the-executive
       c: 'Nixon, arrived in Chicago, at a televised news conference at the Hilton: the convention must adopt "a strong civil rights platform, an honest one, which
         does deal specifically and not in generalities" with the problems; the statement he and Rockefeller agreed on its basis.'
       n: '[[w.perlstein-before-the-storm]], 90. To check: "Nixon Says Rights Plank Must Be Made Stronger," *New York Times*, July 26, 1960 (cited by [[w.perlstein-before-the-storm]],
@@ -150,31 +153,12 @@ ops:
         - 'via w.perlstein-before-the-storm 90 n.1: all'
 - add:
     entry:
-      id: cal.1960-07-25.elections-1960-3
-      when: July 25
-      date: '1960-07-25'
-      thread: elections-1960
-      also:
-      - goldwater
-      c: 'The convention''s opening session. Hoover speaks. Goldwater, introducing the party''s Senate candidates, held off eight minutes by the demonstration; conservatism
-        the "heart and soul of our great historic Party." Judd''s keynote: "Was it the Republicans who secretly divided Poland and gave half of it to the Soviet Union?"'
-      n: '[[w.perlstein-before-the-storm]], 91. To check: Andrew, *Other Side of the Sixties* (cited by [[w.perlstein-before-the-storm]], 91 n.1, for the speech).
-        See [[cal.1960-07-25.elections-1960]]. Names: Goldwater, Judd.'
-      tags:
-      - name:goldwater-barry-m
-      - name:judd-walter-h
-      - city:chicago
-      src:
-        c: 9f57e602
-        rows:
-        - 'w.perlstein-before-the-storm 91: all'
-- add:
-    entry:
-      id: cal.1960-07-26.elections-1960-2
+      id: cal.1960-07-26.republican-party
       when: July 26
       date: '1960-07-26'
-      thread: elections-1960
+      thread: republican-party
       also:
+      - elections-1960
       - civil-rights-the-executive
       c: The platform committee's last session, Laird in the chair. The Nixon–Rockefeller civil rights plank over Tower's, 56–28. Rockefeller announces he is not
         a candidate.
@@ -863,9 +847,9 @@ ops:
         - 'via w.perlstein-before-the-storm 215 n.2b: B'
 - add:
     entry:
-      id: cal.1963-06.republican-party-2
-      when: June
-      date: 1963-06
+      id: cal.1963-06-25.republican-party
+      when: June 25–29
+      date: '1963-06-25'
       thread: republican-party
       also:
       - goldwater
@@ -1195,12 +1179,12 @@ ops:
         - 'via w.perlstein-before-the-storm 336 n.1b: C'
 - add:
     entry:
-      id: cal.1964-03-06.elections-1964-2
+      id: cal.1964-03-06.goldwater
       when: Mar. 6
       date: '1964-03-06'
-      thread: elections-1964
+      thread: goldwater
       also:
-      - goldwater
+      - elections-1964
       c: The Manchester Armory, N.H. Goldwater with Efrem Zimbalist Jr., Walter Brennan and, on film, Reagan.
       n: '[[w.perlstein-before-the-storm]], 297. To check: the speech, Barry Goldwater Papers, box 1/13, Arizona Historical Foundation (cited by [[w.perlstein-before-the-storm]],
         297 n.2). Names: Goldwater, Reagan.'
@@ -1297,12 +1281,12 @@ ops:
         - 'via w.perlstein-before-the-storm 337 n.1b: C'
 - add:
     entry:
-      id: cal.1964-05-12.elections-1964-2
+      id: cal.1964-05-12.goldwater
       when: May 12
       date: '1964-05-12'
-      thread: elections-1964
+      thread: goldwater
       also:
-      - goldwater
+      - elections-1964
       c: New York, Madison Square Garden, Goldwater's rally, filmed for television. Ashbrook (R) on "Walter Looselippmann"; the crowd boos the President's name.
       n: '[[w.perlstein-before-the-storm]], 342–43. To check: Marvin Liebman Papers, boxes 91 and 88/National Goldwater Rally, Hoover Institution (cited by [[w.perlstein-before-the-storm]],
         342 n.3). Names: Goldwater, Ashbrook, Lippmann.'
@@ -1488,3 +1472,729 @@ ops:
         c: c06a22de
         rows:
         - 'w.perlstein-before-the-storm 393–94: all'
+- add:
+    entry:
+      id: cal.1964-09-18.elections-1964
+      when: Sept. 18
+      date: '1964-09-18'
+      thread: elections-1964
+      also:
+      - goldwater
+      c: 'Goldwater''s half hour on CBS, Friday evening: "the Republican Party is the party of peace," "because we understand the enemy"; the Communist a schoolyard
+        bully who backs down when stood up to.'
+      n: '[[w.perlstein-before-the-storm]], 440. To check: the transcript, Free Society Association Papers, box 4, Hoover Institution (cited by [[w.perlstein-before-the-storm]],
+        440 n.2). Names: Goldwater.'
+      tags:
+      - name:goldwater-barry-m
+      src:
+        c: 6154c860
+        rows:
+        - 'w.perlstein-before-the-storm 440: all'
+        - 'via w.perlstein-before-the-storm 440 n.2: all'
+- add:
+    entry:
+      id: cal.1964-09-28.goldwater
+      when: Sept. 28
+      date: '1964-09-28'
+      thread: goldwater
+      also:
+      - elections-1964
+      c: 'Goldwater''s whistle-stop train leaves Union Station, Washington, the day Johnson leaves for New England: "reading newspapers that are solidly against our
+        campaign, you might well wonder what''s happening out in the real world."'
+      n: '[[w.perlstein-before-the-storm]], 455. To check: the speech, Free Society Association Papers, box 4, Hoover Institution (cited by [[w.perlstein-before-the-storm]],
+        455 n.1). Names: Goldwater, Johnson.'
+      tags:
+      - name:goldwater-barry-m
+      - name:johnson-lyndon-b
+      - city:washington
+      src:
+        c: e2d3e2b8
+        rows:
+        - 'w.perlstein-before-the-storm 455: all'
+        - 'via w.perlstein-before-the-storm 455 n.1: all'
+- add:
+    entry:
+      id: cal.1964-09-29.goldwater
+      when: Sept. 29
+      date: '1964-09-29'
+      thread: goldwater
+      also:
+      - elections-1964
+      - vietnam
+      c: 'Cincinnati Gardens. Goldwater on Johnson: "Does he hope that he can wait until after the election to confront the American public with the fact of total
+        defeat or total war in Asia?" Not televised: the campaign could not pay for the time.'
+      n: '[[w.perlstein-before-the-storm]], 455–56. Names: Goldwater, Johnson.'
+      tags:
+      - name:goldwater-barry-m
+      - name:johnson-lyndon-b
+      - city:cincinnati
+      src:
+        c: 2c028e00
+        rows:
+        - 'w.perlstein-before-the-storm 455–56: all'
+- add:
+    entry:
+      id: cal.1964-10.goldwater
+      when: Oct.
+      date: 1964-10
+      thread: goldwater
+      also:
+      - elections-1964
+      - civil-rights-bill
+      c: 'Chicago, the Conrad Hilton, a $100-a-plate dinner. Goldwater''s "Civil Rights and the Common Good," by Jaffa and Rehnquist: "the freedom to associate means
+        the same thing as the freedom not to associate."'
+      n: '[[w.perlstein-before-the-storm]], 461–62. To check: the taped excerpts, WGN-TV news footage, Chicago Historical Society; the transcript, Walter Judd Papers,
+        box 210/5, Hoover Institution (cited by [[w.perlstein-before-the-storm]], 461 n.1). Check: the date. Names: Goldwater, Jaffa, Rehnquist.'
+      tags:
+      - name:goldwater-barry-m
+      - name:jaffa-harry-v
+      - name:rehnquist-william-h
+      - city:chicago
+      src:
+        c: b74e8a6f
+        rows:
+        - 'w.perlstein-before-the-storm 461–62: all'
+        - 'via w.perlstein-before-the-storm 461 n.1a: all'
+        - 'via w.perlstein-before-the-storm 461 n.1b: all'
+- add:
+    entry:
+      id: cal.1964-10-14.republican-party
+      when: Oct. 14
+      date: '1964-10-14'
+      thread: republican-party
+      also:
+      - elections-1964
+      c: 'The Republican National Committee, 8:02 p.m., on Jenkins: "The White House is desperately trying to suppress a major news story affecting the national security."
+        United Press runs the story.'
+      n: '[[w.perlstein-before-the-storm]], 490. See [[cal.1964-10-14.elections-1964]]. Names: Jenkins.'
+      tags:
+      - name:jenkins-walter-w
+      src:
+        c: 49704e05
+        rows:
+        - 'w.perlstein-before-the-storm 490: all'
+- add:
+    entry:
+      id: cal.1964-10-19.republican-party
+      when: Oct. 19
+      date: '1964-10-19'
+      thread: republican-party
+      also:
+      - elections-1964
+      - press-and-broadcasting
+      c: 'Burch on NBC, fifteen minutes given free after the networks, the FCC, the Court of Appeals in Washington and the Supreme Court refused the party time to
+        answer Johnson''s address of Oct. 18: "This Administration repeatedly tried to manipulate the news." His appeal for Goldwater''s half hour brings in $500,000.'
+      n: '[[w.perlstein-before-the-storm]], 493–94. Names: Burch, Johnson, Goldwater.'
+      tags:
+      - name:burch-dean
+      - name:johnson-lyndon-b
+      - name:goldwater-barry-m
+      src:
+        c: 862b0247
+        rows:
+        - 'w.perlstein-before-the-storm 493–94: all'
+- add:
+    entry:
+      id: cal.1964-10-21.elections-1964
+      when: Oct. 21
+      date: '1964-10-21'
+      thread: elections-1964
+      also:
+      - goldwater
+      - soviet-union
+      c: 'Goldwater''s broadcast answer to Johnson: the Communist bloc one; the folly of making friends with the Soviets in hope of their moving away from the Chinese.'
+      n: '[[w.perlstein-before-the-storm]], 494. Names: Goldwater, Johnson.'
+      tags:
+      - name:goldwater-barry-m
+      - name:johnson-lyndon-b
+      src:
+        c: 4b1f8960
+        rows:
+        - 'w.perlstein-before-the-storm 494: all'
+- add:
+    entry:
+      id: cal.1964-10-25.goldwater
+      when: Oct. 25
+      date: '1964-10-25'
+      thread: goldwater
+      also:
+      - elections-1964
+      c: 'Goldwater, pressed by Baroody, calls Reagan: his advisers uneasy at the Social Security passage of Reagan''s speech, some for showing *Conversation at Gettysburg*
+        instead. Reagan: the speech well received. Goldwater hears the tape and calls back: "What the hell''s wrong with that?" The go-ahead.'
+      n: '[[w.perlstein-before-the-storm]], 500. The speech: [[cal.1964-10-27.elections-1964]]. Names: Goldwater, Baroody, Reagan.'
+      tags:
+      - name:goldwater-barry-m
+      - name:baroody-william-j-jr
+      - name:reagan-ronald
+      src:
+        c: '67305123'
+        rows:
+        - 'w.perlstein-before-the-storm 500: all'
+- add:
+    entry:
+      id: cal.1964-11-01.elections-1964
+      when: Nov. 1
+      date: '1964-11-01'
+      thread: elections-1964
+      also:
+      - goldwater
+      c: Columbia, S.C., Sunday evening. Goldwater gives his civil rights speech, segregationists beside him, broadcast live to eighty-seven Southern television stations.
+      n: '[[w.perlstein-before-the-storm]], 509. Names: Goldwater.'
+      tags:
+      - name:goldwater-barry-m
+      - state:sc
+      src:
+        c: 5ba8734a
+        rows:
+        - 'w.perlstein-before-the-storm 509: all'
+- add:
+    entry:
+      id: cal.1964-11-03.republican-party
+      when: Nov. 3
+      date: '1964-11-03'
+      thread: republican-party
+      also:
+      - elections-1964
+      c: 'The Republican National Committee''s "Operation Eagle Eye": poll watchers, more than one a booth in Chicago and Cleveland, to check each voter''s signature
+        against the precinct books.'
+      n: '[[w.perlstein-before-the-storm]], 511. To check: "Chairman Bailey Warns Against Republican Plans to Intimidate Voters," Oct. 27, 1964 (cited by [[w.perlstein-before-the-storm]],
+        511 n.2).'
+      tags:
+      - city:chicago
+      - city:cleveland
+      src:
+        c: '34367020'
+        rows:
+        - 'w.perlstein-before-the-storm 511: all'
+        - 'via w.perlstein-before-the-storm 511 n.2: all'
+- edit:
+    id: cal.1960-07-25.elections-1960
+    base: cd661ef7
+    set:
+      c: 'Republican National Convention opens, Chicago, at the International Amphitheatre. The party''s primaries: map and returns below. Hoover speaks. Goldwater,
+        introducing the party''s Senate candidates, held off eight minutes by the demonstration; conservatism the "heart and soul of our great historic Party." Judd''s
+        keynote: "Was it the Republicans who secretly divided Poland and gave half of it to the Soviet Union?"'
+      n: 'CQ Guide 6th (2010) 404–405. [[w.perlstein-before-the-storm]], 91 (the session''s speeches). See [[cal.1960-03-08.elections-1960]]. Names: Goldwater, Judd.'
+      tags:
+      - primaries:1960-R
+      - name:goldwater-barry-m
+      - name:judd-walter-h
+      src:
+        c: afa2d85f
+        rows:
+        - 'w.perlstein-before-the-storm 91: C-F'
+- edit:
+    id: cal.1960-07-22.elections-1960
+    base: '07006547'
+    set:
+      n: 'The convention: [[w.white-making-of-the-president]]. [[w.perlstein-before-the-storm]], 81–85. To check: New York Times, July 24, 1960 (the Compact of Fifth
+        Avenue made public) (cited by [[w.perlstein-before-the-storm]], 84 n.1); New York Times, July 24, 1960 (Goldwater''s press conference) (cited by [[w.perlstein-before-the-storm]],
+        85 n.2); Press release of Goldwater''s "Munich" statement (cited by [[w.perlstein-before-the-storm]], 85 n.3); [[w.smith-on-his-own-terms]]; [[w.persico-imperial-rockefeller]];
+        [[w.kabaservice-rule-and-ruin]]; [[w.gifford-center-cannot-hold]]; [[w.pietrusza-1960]]; [[w.kallina-kennedy-v-nixon]]; [[w.gellman-president-and-the-apprentice]];
+        [[w.frank-ike-and-dick]]; [[w.nixon-six-crises]]. Names: Nixon, Rockefeller, Goldwater.'
+      src:
+        c: a63831e0
+        rows:
+        - 'w.perlstein-before-the-storm 81–84: A, B'
+        - 'w.perlstein-before-the-storm 85: C'
+        - 'via w.perlstein-before-the-storm 84 n.1: B'
+        - 'via w.perlstein-before-the-storm 85 n.2: C'
+        - 'via w.perlstein-before-the-storm 85 n.3: C'
+- edit:
+    id: cal.1960-07-26.elections-1960
+    base: baaaafab
+    set:
+      src:
+        c: dfe5e209
+        rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1960-book1/pdf/PPP-1960-book1.pdf#page=641: A'
+        - 'https://www.presidency.ucsb.edu/documents/republican-party-platform-1960: B'
+        - 'w.perlstein-before-the-storm 93–95: C'
+- edit:
+    id: cal.1961-06-19.welfare-ny
+    base: 42ce4427
+    set:
+      n: '[The council''s minutes, June 19, 1961](https://en.wikisource.org/wiki/Thirteen_Points) (Wikisource). [[w.perlstein-before-the-storm]], 130–31, 133 (the
+        points, the State, June 22; Goldwater and Mitchell). To check: New York Herald Tribune, July 19, 1961 (Mitchell''s trip to Washington and his meeting with
+        Goldwater) (cited by [[w.perlstein-before-the-storm]], 133 n.3); [[w.ritz-despised-poor]]; [[w.mittelstadt-from-welfare-to-workfare]]; [[w.neubeck-welfare-racism]];
+        [[w.tani-states-of-dependency]]. Names: Mitchell, Goldwater.'
+      src:
+        c: 106f0b47
+        rows:
+        - 'https://en.wikisource.org/wiki/Thirteen_Points: A-E'
+        - 'w.perlstein-before-the-storm 130–31: A-F'
+        - 'w.perlstein-before-the-storm 133: G'
+        - 'via w.perlstein-before-the-storm 133 n.3: G'
+- edit:
+    id: cal.1961-10-08.goldwater
+    base: e8d7bdb0
+    set:
+      n: 'Made public: [[w.white-making-of-the-president-1965]], at the latest. Check. [[w.perlstein-before-the-storm]], 177–80 (the meeting, 177–79; the strategy,
+        at the next meeting, in December, 179–80). To check: [[w.white-suite-3505]]; [[w.rusher-rise-of-the-right]]; [[w.middendorf-glorious-disaster]]; [[w.goldberg-barry-goldwater]];
+        [[w.novak-agony-of-the-g]]; [[w.white-making-of-the-president-1965]]. Names: White, Goldwater. Check: Perlstein, 178, gives twenty-six invited and twenty-two
+        present; Goldwater''s name not spoken, 179.'
+      src:
+        c: b0c03abd
+        rows:
+        - 'w.perlstein-before-the-storm 177–80: A-C'
+        - 'via w.perlstein-before-the-storm 178 n.2: B, C'
+- edit:
+    id: cal.1961-11-18.goldwater
+    base: de838e77
+    set:
+      src:
+        c: 32023aaa
+        rows:
+        - 'w.perlstein-before-the-storm 190: A, B'
+- edit:
+    id: cal.1962-03-07.goldwater
+    base: 2cf429bf
+    set:
+      src:
+        c: 6f434ae5
+        rows:
+        - 'https://www.villagevoice.com/yaf-goes-wild-for-barry-goldwater/: all'
+        - 'w.perlstein-before-the-storm 163–65: all'
+- edit:
+    id: cal.1962-04-13.goldwater
+    base: 93d4bae5
+    set:
+      n: '[[w.perlstein-before-the-storm]], 182. To check: White to Rusher, Mar. 26, 1962 (the Minnesota meeting), William A. Rusher Papers, Library of Congress,
+        box 154/4 (cited by [[w.perlstein-before-the-storm]], 182 n.1a); White to Tope, Mar. 27, 1962, and White to Barr, Apr. 6, 1962, F. Clifton White Papers, Cornell
+        University, box 19 (cited by [[w.perlstein-before-the-storm]], 182 n.1b); [[w.white-suite-3505]]; [[w.rusher-rise-of-the-right]]. See [[cal.1961-10-08.goldwater]].
+        Names: White.'
+      src:
+        c: 822371c0
+        rows:
+        - 'w.perlstein-before-the-storm 182: all'
+        - 'via w.perlstein-before-the-storm 182 n.1a: all'
+        - 'via w.perlstein-before-the-storm 182 n.1b: all'
+        - 'via w.perlstein-before-the-storm 182 n.1c: all'
+- edit:
+    id: cal.1962-12-02.goldwater
+    base: e6e19343
+    set:
+      n: 'UPI, *University Daily Kansan*, Dec. 4, 1962 ([KU Libraries](https://digital.lib.ku.edu/islandora/object/ku-udk%3A12052)). [[w.perlstein-before-the-storm]],
+        186–88. To check: White to Rusher, Oct. 18, 1962 ("This meeting will determine"), William A. Rusher Papers, Library of Congress, box 155/5 (cited by [[w.perlstein-before-the-storm]],
+        186 n.3); The colored map of the Essex Motel meeting, F. Clifton White Papers, Cornell University, "White/Primaries, maps, etc." (cited by [[w.perlstein-before-the-storm]],
+        187 n.1a); "Secret Meet to Push Goldwater," San Francisco Examiner, Dec. 4, 1961 [as printed; 1962], A1 (cited by [[w.perlstein-before-the-storm]], 187 n.3a);
+        "Goldwater ''64 Boom," New York Herald Tribune, Dec. 4, 1962 (cited by [[w.perlstein-before-the-storm]], 187 n.3b); [[w.white-making-of-the-president-1965]].
+        See [[cal.1961-10-08.goldwater]]. Made public: UPI, Dec. 3, 1962. Names: White, Rockefeller, Goldwater. Check: Perlstein, 186–87, gives fifty-five, at the
+        Essex Motel, Dec. 1–2.'
+      src:
+        c: 1c9229f0
+        rows:
+        - 'https://digital.lib.ku.edu/islandora/object/ku-udk%3A12052: all'
+        - 'w.perlstein-before-the-storm 186–88: A-D'
+        - 'via w.perlstein-before-the-storm 186 n.3: B'
+        - 'via w.perlstein-before-the-storm 187 n.1a: B'
+        - 'via w.perlstein-before-the-storm 187 n.1b: B'
+        - 'via w.perlstein-before-the-storm 187 n.3a: C'
+        - 'via w.perlstein-before-the-storm 187 n.3b: C'
+- edit:
+    id: cal.1963-01-14.goldwater
+    base: ab30658e
+    set:
+      src:
+        c: 4be28add
+        rows:
+        - 'w.perlstein-before-the-storm 189–90: all'
+- edit:
+    id: cal.1963-02-05.goldwater
+    base: 9c545801
+    set:
+      src:
+        c: 1f30cbc1
+        rows:
+        - 'w.perlstein-before-the-storm 190–91: all'
+        - 'via w.perlstein-before-the-storm 190 n.3: all'
+- edit:
+    id: cal.1963-02.goldwater
+    base: d8e51117
+    set:
+      src:
+        c: 7951e80e
+        rows:
+        - 'w.perlstein-before-the-storm 191: all'
+        - 'via w.perlstein-before-the-storm 191 n.1: all'
+- edit:
+    id: cal.1963-04-08.elections-1964
+    base: bb9aab61
+    set:
+      n: '[[w.perlstein-before-the-storm]], 192–94. To check: Transcript, O''Donnell''s press conference, Apr. 8, 1963, F. Clifton White Papers, Cornell University,
+        box 18 (cited by [[w.perlstein-before-the-storm]], 192 n.4); Kitchel to Kellar, Apr. 8, 1963, Denison Kitchel Papers, Hoover Institution, box 2/Kellar (cited
+        by [[w.perlstein-before-the-storm]], 193 n.3); [[w.white-suite-3505]]; [[w.rusher-rise-of-the-right]]; [[w.goldberg-barry-goldwater]]; [[w.brennan-turning-right-in-the]];
+        [[w.edwards-goldwater]]; [[w.middendorf-glorious-disaster]]; [[w.goldwater-with-no-apologies]]; [[w.goldwater-goldwater]]; [[w.novak-agony-of-the-g]]; [[w.kabaservice-rule-and-ruin]];
+        [[w.white-making-of-the-president-1965]]. Names: O''Donnell, White, Goldwater.'
+      src:
+        c: ef3b70c5
+        rows:
+        - 'w.perlstein-before-the-storm 192–94: all'
+        - 'via w.perlstein-before-the-storm 192 n.4: A-C'
+        - 'via w.perlstein-before-the-storm 193 n.3: D'
+- edit:
+    id: cal.1963-07-04.elections-1964
+    base: 0789d22b
+    set:
+      n: '[[w.perlstein-before-the-storm]], 194, 222 (the rally, the crowd, White, 222; Goldwater at Prescott each July 4, 194). To check: O''Donnell''s handwritten
+        notes on the rally, F. Clifton White Papers, Cornell University, box 18/July 4, 1963 Rally (cited by [[w.perlstein-before-the-storm]], 222 n.1); U.S. News
+        and World Report, July 15, 1963 (the rally) (cited by [[w.perlstein-before-the-storm]], 222 n.2a); Mary McGrory and David Broder, Washington Star, July 5,
+        1963 (cited by [[w.perlstein-before-the-storm]], 222 n.2b); Baltimore Sun, July 5, 1963 (cited by [[w.perlstein-before-the-storm]], 222 n.2c); Schedule of
+        the rally, F. Clifton White Papers, Cornell University, box 18/July 4, 1963 Rally (cited by [[w.perlstein-before-the-storm]], 222 n.2d); [[w.white-suite-3505]];
+        [[w.novak-agony-of-the-g]]. See [[cal.1963-04-08.elections-1964]]. Names: Goldwater, Tower, O''Donnell, White.'
+      src:
+        c: a924924c
+        rows:
+        - 'w.perlstein-before-the-storm 222: A-D'
+        - 'w.perlstein-before-the-storm 194: E'
+        - 'via w.perlstein-before-the-storm 222 n.1: D'
+        - 'via w.perlstein-before-the-storm 222 n.2a: A-D'
+        - 'via w.perlstein-before-the-storm 222 n.2b: A-D'
+        - 'via w.perlstein-before-the-storm 222 n.2c: A-D'
+        - 'via w.perlstein-before-the-storm 222 n.2d: A-D'
+        - 'via w.perlstein-before-the-storm 222 n.2e: A-D'
+- edit:
+    id: cal.1963-09-03.elections-1964
+    base: 7d748fc1
+    set:
+      src:
+        c: e811cdce
+        rows:
+        - 'w.perlstein-before-the-storm 261–62: all'
+- edit:
+    id: cal.1963-11-07.elections-1964
+    base: 9890a9a8
+    set:
+      src:
+        c: d798dbf7
+        rows:
+        - 'w.perlstein-before-the-storm 262: A'
+- edit:
+    id: cal.1963-11-22.goldwater
+    base: f4398a53
+    set:
+      n: '[[w.perlstein-before-the-storm]], 248, 253–54 (Muncie, 248; the debates, 253–54). To check: Gilbert A. Harrison, "Way Out West: An Interim Report on Barry
+        Goldwater," New Republic, Nov. 23, 1963 (Kennedy''s and Goldwater''s proposal to campaign together) (cited by [[w.perlstein-before-the-storm]], 253 n.3);
+        [[w.goldwater-with-no-apologies]]; [[w.edwards-goldwater]]; [[w.goldberg-barry-goldwater]]; [[w.white-making-of-the-president-1965]]. Names: Goldwater. Check:
+        Perlstein, 253, has Goldwater tell Kitchel within days of the assassination to spread word that he would not run.'
+      src:
+        c: 7d91d1d3
+        rows:
+        - 'w.perlstein-before-the-storm 248: A'
+        - 'w.perlstein-before-the-storm 253–54: B'
+        - 'via w.perlstein-before-the-storm 253 n.3: B'
+- edit:
+    id: cal.1964-01-03.elections-1964
+    base: 7fbe1946
+    set:
+      n: '[Remarks Announcing Candidacy for the Republican Presidential Nomination](https://www.presidency.ucsb.edu/documents/remarks-announcing-candidacy-for-the-republican-presidential-nomination)
+        (Jan. 3, 1964). [[w.perlstein-before-the-storm]], 258–61. To check: Male to Goldwater, planning memo, Jan. 3, 1964, Barry Goldwater Papers, box 13/51, Arizona
+        Historical Foundation (cited by [[w.perlstein-before-the-storm]], 259 n.1); Ray Curtis, radio announcer, the announcement, transcribed, Rockefeller Archive
+        Center, box 10/779 (cited by [[w.perlstein-before-the-storm]], 260 n.2a); Los Angeles Times, Jan. 3, 1964, A1 (the announcement) (cited by [[w.perlstein-before-the-storm]],
+        260 n.2b); Transcript, Goldwater''s press conference, Jan. 3, 1964, Rockefeller Archive Center, box 10/779 (cited by [[w.perlstein-before-the-storm]], 260
+        n.3); [[w.shadegg-what-happened-to-goldwater]]; [[w.white-suite-3505]]; [[w.goldberg-barry-goldwater]]; [[w.edwards-goldwater]]; [[w.middendorf-glorious-disaster]];
+        [[w.goldwater-with-no-apologies]]. See [[cal.1963-04-08.elections-1964]]. Names: Goldwater, Kitchel, Burch, Kleindienst.'
+      src:
+        c: cb5c8c78
+        rows:
+        - 'https://www.presidency.ucsb.edu/documents/remarks-announcing-candidacy-for-the-republican-presidential-nomination: A'
+        - 'w.perlstein-before-the-storm 258–61: all'
+        - 'via w.perlstein-before-the-storm 259 n.1: A'
+        - 'via w.perlstein-before-the-storm 259 n.3: B'
+        - 'via w.perlstein-before-the-storm 260 n.2a: A'
+        - 'via w.perlstein-before-the-storm 260 n.2b: A'
+        - 'via w.perlstein-before-the-storm 260 n.3: A'
+- edit:
+    id: cal.1964-01-07.goldwater
+    base: a671e96c
+    set:
+      n: 'Quoted with its date in Humphrey''s speech at Bakersfield, Cal., 1964 ([Humphrey papers, MNHS](https://www2.mnhs.org/library/findaids/00442/pdfa/00442-01375.pdf));
+        the Democrats'' spot ["Social Security"](https://www.livingroomcandidate.org/commercials/1964/social-security) (1964). [[w.perlstein-before-the-storm]], 269–70,
+        274. To check: Transcript, Goldwater''s opening press conference, Jan. 8, 1964 [as printed], Rockefeller Archive Center, box 10/782 (cited by [[w.perlstein-before-the-storm]],
+        269 n.2); New York Times, Jan. 9, 1964 ("Barry Goldwater, aspirant") (cited by [[w.perlstein-before-the-storm]], 269 n.3); [[w.white-making-of-the-president-1965]].
+        See [[cal.1964-01-03.elections-1964]]. Names: Goldwater, Rockefeller.'
+      src:
+        c: 4429d558
+        rows:
+        - 'https://www2.mnhs.org/library/findaids/00442/pdfa/00442-01375.pdf: all'
+        - 'https://www.livingroomcandidate.org/commercials/1964/social-security: C'
+        - 'w.perlstein-before-the-storm 269–70: A, B'
+        - 'w.perlstein-before-the-storm 274: C'
+        - 'via w.perlstein-before-the-storm 269 n.2: A'
+        - 'via w.perlstein-before-the-storm 269 n.3: A'
+- edit:
+    id: cal.1964-03-10.elections-1964
+    base: e14484a2
+    set:
+      src:
+        c: cff6d720
+        rows:
+        - 'https://archive.org/details/manualforgeneral39newh/page/n311: A-C'
+        - 'w.schlesinger-robert-kennedy-and-his 651–52: C'
+        - 'w.perlstein-before-the-storm 297–98: A, B'
+- edit:
+    id: cal.1964-05-24.goldwater
+    base: b39d5ecc
+    set:
+      n: '[[w.perlstein-before-the-storm]], 346–47 (the interview). To check: Transcript, Issues and Answers, May 24, 1964, Rockefeller Archive Center, box 11/904
+        (cited by [[w.perlstein-before-the-storm]], 347 n.1); [[w.mann-daisy-petals-and-mushroom]]; [[w.goldberg-barry-goldwater]]. See [[cal.1964-01-03.elections-1964]].
+        Names: Goldwater.'
+      src:
+        c: f6ace47b
+        rows:
+        - 'w.perlstein-before-the-storm 346–47: A-D'
+        - 'via w.perlstein-before-the-storm 347 n.1: A-D'
+- edit:
+    id: cal.1964-06-12.elections-1964
+    base: 8d2bc7f8
+    set:
+      n: '[[w.perlstein-before-the-storm]], 359–61 (the decision, June 11; the announcement). To check: Scranton''s speech entering the race, Walter Judd Papers,
+        box 213/Presidential Campaigns, Hoover Institution (cited by [[w.perlstein-before-the-storm]], 359 n.2); [[w.wolf-william-warren-scranton]]; [[w.white-making-of-the-president-1965]];
+        [[w.novak-agony-of-the-g]]; [[w.kabaservice-rule-and-ruin]]. See [[cal.1964-06-02.elections-1964]]. Names: Scranton, Rockefeller. Check: Perlstein, 361, has
+        Rockefeller give Scranton his organization and keep his delegates.'
+      src:
+        c: 15f4c52c
+        rows:
+        - 'w.perlstein-before-the-storm 359–61: A, B'
+        - 'via w.perlstein-before-the-storm 359 n.2: A'
+- edit:
+    id: cal.1964-06-18.goldwater
+    base: 42be257d
+    set:
+      n: '[[w.perlstein-before-the-storm]], 363–64. To check: John Grenier, oral history (Goldwater''s visit to Eisenhower; the meeting with Yerger and Grenier),
+        Southern Historical Collection, University of North Carolina at Chapel Hill, 4007: A-9 (cited by [[w.perlstein-before-the-storm]], 363 n.1); John Grenier,
+        oral history, Southern Historical Collection, University of North Carolina, 4007: A-9. See [[cal.1964-06-19.civil-rights-bill]]. Names: Goldwater, Eisenhower,
+        Grenier. Check: the date.'
+      src:
+        c: 8efcfc57
+        rows:
+        - 'w.perlstein-before-the-storm 363–64: all'
+        - 'via w.perlstein-before-the-storm 363 n.1: all'
+- edit:
+    id: cal.1964-06-19.civil-rights-bill
+    base: 91851d59
+    set:
+      n: '[110 Cong. Rec., Senate, June 18, 1964](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt11/pdf/GPO-CRECB-1964-pt11-2-1.pdf); [June 19](https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt11/pdf/GPO-CRECB-1964-pt11-3-2.pdf).
+        Statement by the President Following Senate Passage of the Civil Rights Bill, [1963–64 Pub. Papers 787](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=871)
+        (June 19, 1964). [[w.perlstein-before-the-storm]], 363–64 (Goldwater; Dirksen, June 19). To check: Time, June 26, 1964 (Goldwater on the Senate floor) (cited
+        by [[w.perlstein-before-the-storm]], 364 n.1a); [[w.goldberg-barry-goldwater]]. See [[cal.1964-02-10.civil-rights-bill]]; [[cal.1964-06-10.civil-rights-bill]].
+        Names: Yarborough, Gore, Mansfield, Dirksen, Goldwater, Johnson.'
+      src:
+        c: 0963e8a4
+        rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt11/pdf/GPO-CRECB-1964-pt11-2-1.pdf: all'
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1964-pt11/pdf/GPO-CRECB-1964-pt11-3-2.pdf: all'
+        - 'https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=871: all'
+        - 'w.perlstein-before-the-storm 363–64: E, F'
+        - 'via w.perlstein-before-the-storm 364 n.1a: E'
+        - 'via w.perlstein-before-the-storm 364 n.1b: E'
+- edit:
+    id: cal.1964-07-12.elections-1964
+    base: '51486961'
+    set:
+      n: '[[w.perlstein-before-the-storm]], 377–78. To check: Time, July 24, 1964 (Scranton''s letter and Goldwater''s response) (cited by [[w.perlstein-before-the-storm]],
+        377 n.1); [[w.white-making-of-the-president-1965]]; [[w.wolf-william-warren-scranton]]. See [[cal.1964-06-02.elections-1964]]. Names: Scranton, Goldwater.'
+      src:
+        c: ba8e0cd6
+        rows:
+        - 'w.perlstein-before-the-storm 377–78: all'
+        - 'via w.perlstein-before-the-storm 377 n.1: all'
+- edit:
+    id: cal.1964-07-12.goldwater
+    base: c7e6d5c8
+    set:
+      src:
+        c: '85770456'
+        rows:
+        - 'w.perlstein-before-the-storm 376–77: all'
+- edit:
+    id: cal.1964-07-13.elections-1964
+    base: dfc33e66
+    set:
+      n: 'CQ Guide 6th (2010) 406–408. [Republican Party Platform of 1964](https://www.presidency.ucsb.edu/documents/republican-party-platform-1964) (July 13, 1964).
+        [[w.perlstein-before-the-storm]], 379–80. To check: Hatfield''s keynote, Official Report of the Proceedings of the Twenty-Eighth Republican National Convention
+        (1964), 76–80, Proceedings, 76–80 (cited by [[w.perlstein-before-the-storm]], 380 n.2); [[w.making-of-the-president]]; [[w.rovere-goldwater-caper]]; [[w.white-making-of-the-president-1965]];
+        [[w.novak-agony-of-the-g]]; [[w.kabaservice-rule-and-ruin]]; [[w.shadegg-what-happened-to-goldwater]]; [[w.white-suite-3505]]; [[w.kessel-goldwater-coalition]];
+        [[w.middendorf-glorious-disaster]]; [[w.smith-on-his-own-terms]]; [[w.wolf-william-warren-scranton]]; [[w.goldwater-with-no-apologies]]. See [[cal.1964-03-10.elections-1964]].'
+      src:
+        c: 6e74b6d8
+        rows:
+        - 'https://www.presidency.ucsb.edu/documents/republican-party-platform-1964: A'
+        - 'w.perlstein-before-the-storm 379–80: A'
+        - 'via w.perlstein-before-the-storm 380 n.2: A'
+- edit:
+    id: cal.1964-07-14.elections-1964
+    base: c3168f34
+    set:
+      n: '[Republican Party Platform of 1964](https://www.presidency.ucsb.edu/documents/republican-party-platform-1964) (July 13, 1964). [[w.perlstein-before-the-storm]],
+        381–84 (the platform fight, the vote, Rockefeller). To check: Eisenhower''s address, Proceedings (1964), 180–87, Proceedings, 180–87 (cited by [[w.perlstein-before-the-storm]],
+        381 n.1); Hugh Scott''s amendment introduced, Proceedings (1964), 216–19, Proceedings, 216–19 (cited by [[w.perlstein-before-the-storm]], 382 n.3); The other
+        amendments, Proceedings (1964), 219–62, Proceedings, 219–62 (cited by [[w.perlstein-before-the-storm]], 384 n.1). See [[cal.1964-07-13.elections-1964]]. Names:
+        Scranton, Rockefeller, Eisenhower.'
+      src:
+        c: f3ca6f4d
+        rows:
+        - 'https://www.presidency.ucsb.edu/documents/republican-party-platform-1964: B-D'
+        - 'w.perlstein-before-the-storm 381–84: all'
+        - 'via w.perlstein-before-the-storm 381 n.1: F'
+        - 'via w.perlstein-before-the-storm 382 n.3: B-D'
+        - 'via w.perlstein-before-the-storm 383 n.2: E'
+        - 'via w.perlstein-before-the-storm 384 n.1: B-D'
+- edit:
+    id: cal.1964-07-15.elections-1964
+    base: dc8c0f28
+    set:
+      n: '[Address Accepting the Presidential Nomination at the Republican National Convention in San Francisco](https://www.presidency.ucsb.edu/documents/address-accepting-the-presidential-nomination-the-republican-national-convention-san)
+        (July 16, 1964). [[w.perlstein-before-the-storm]], 387–91 (the nomination, Miller, the acceptance). To check: Nomination roll call, Proceedings (1964), 357–73,
+        Proceedings, 357–73 (cited by [[w.perlstein-before-the-storm]], 388 n.3); Miller''s nomination, Proceedings (1964), 392–403, Proceedings, 392–403 (cited by
+        [[w.perlstein-before-the-storm]], 389 n.3); "Goldwater''s Running Mate," New York Times, July 17, 1964 (cited by [[w.perlstein-before-the-storm]], 389 n.2);
+        [[w.hess-in-a-cause-that]]. See [[cal.1964-07-13.elections-1964]]. Names: Goldwater, Scranton, Rockefeller, Romney, Smith, Judd, Miller.'
+      src:
+        c: ef984277
+        rows:
+        - 'https://www.presidency.ucsb.edu/documents/address-accepting-the-presidential-nomination-the-republican-national-convention-san: D'
+        - 'w.perlstein-before-the-storm 387–91: all'
+        - 'via w.perlstein-before-the-storm 388 n.3: A, B'
+        - 'via w.perlstein-before-the-storm 389 n.3: C'
+        - 'via w.perlstein-before-the-storm 389 n.2: C'
+- edit:
+    id: cal.1964-08-12.elections-1964
+    base: 63b283bb
+    set:
+      n: '[[w.perlstein-before-the-storm]], 505 (the meeting, Nixon''s doing). To check: Nixon and Goldwater, exchange of letters (the extremism lines), Denison Kitchel
+        Papers, Hoover Institution, box 3/Nixon (cited by [[w.perlstein-before-the-storm]], 505 n.1); [[w.novak-agony-of-the-g]]. See [[cal.1964-07-13.elections-1964]].
+        Names: Goldwater, Eisenhower, Nixon, Scranton, Rockefeller, Romney.'
+      src:
+        c: 8b4654a3
+        rows:
+        - 'w.perlstein-before-the-storm 505: A, B'
+        - 'via w.perlstein-before-the-storm 505 n.1: B'
+- edit:
+    id: cal.1964-09-03.goldwater
+    base: fc128cb8
+    set:
+      n: '[[w.perlstein-before-the-storm]], 409–11 (Prescott, where he always opened). To check: Goldwater''s speech at Prescott, Prescott Courier, Sept. 3, 1964
+        (cited by [[w.perlstein-before-the-storm]], 410 n.1); [[w.shadegg-what-happened-to-goldwater]]; [[w.white-making-of-the-president-1965]]. See [[cal.1964-07-15.elections-1964]].
+        Names: Goldwater.'
+      src:
+        c: fbf4a655
+        rows:
+        - 'w.perlstein-before-the-storm 409–11: all'
+        - 'via w.perlstein-before-the-storm 410 n.1: B'
+- edit:
+    id: cal.1964-09-07.elections-1964
+    base: 5154b2fc
+    set:
+      n: 'Remarks in Cadillac Square, Detroit, [1963–64 Pub. Papers 1049](https://www.govinfo.gov/content/pkg/PPP-1964-book1/pdf/PPP-1964-book1.pdf#page=289) (Sept.
+        7, 1964); Remarks in Seattle on the Control of Nuclear Weapons, [1963–64 Pub. Papers 1078](https://www.govinfo.gov/content/pkg/PPP-1964-book1/pdf/PPP-1964-book1.pdf#page=318)
+        (Sept. 16, 1964). [[w.perlstein-before-the-storm]], 412–14, 418–20 (the spot; Cadillac Square); [[w.dallek-flawed-giant]], 175–76 (the Daisy spot). To check:
+        Moyers to Johnson, Sept. 13, 1964 ("That''s exactly what we wanted to imply"), LBJ Library, White House Central Files, EX: PL 6-3 (cited by [[w.perlstein-before-the-storm]],
+        414 n.1); [[w.mann-daisy-petals-and-mushroom]]; [[w.white-making-of-the-president-1965]]; [[w.lamb-campaign-decision-making]]. See [[cal.1964-08-26.elections-1964]];
+        [[cal.1964-07-15.elections-1964]]. Names: Johnson.'
+      src:
+        c: 97ecd882
+        rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1964-book1/pdf/PPP-1964-book1.pdf#page=289: B'
+        - 'https://www.govinfo.gov/content/pkg/PPP-1964-book1/pdf/PPP-1964-book1.pdf#page=318: E'
+        - 'w.perlstein-before-the-storm 412–14: C, D'
+        - 'w.perlstein-before-the-storm 418–20: B'
+        - 'w.dallek-flawed-giant 175–76: C, D'
+        - 'via w.perlstein-before-the-storm 414 n.1: C'
+- edit:
+    id: cal.1964-09.goldwater
+    base: '22092191'
+    set:
+      n: '*Goldwater v. Ginzburg*, [414 F.2d 324](https://static.case.law/f2d/414/case-pdfs/0324-01.pdf) (2d Cir. 1969). *Goldwater v. Ginzburg* (Opp. II.H.1). [[w.perlstein-before-the-storm]],
+        438–39 (Ginzburg and the poll). To check: "The Unconscious of a Conservative: A Special Issue on the Mind of Barry Goldwater," Fact, Sept.–Oct. 1964 (cited
+        by [[w.perlstein-before-the-storm]], 438 n.2). Names: Goldwater, Ginzburg.'
+      src:
+        c: a178c061
+        rows:
+        - 'https://static.case.law/f2d/414/case-pdfs/0324-01.pdf: all'
+        - 'w.perlstein-before-the-storm 438–39: A-C'
+        - 'via w.perlstein-before-the-storm 438 n.2: A-C'
+- edit:
+    id: cal.1964-10-19.goldwater
+    base: 1abfc944
+    set:
+      src:
+        c: ed0ed796
+        rows:
+        - 'https://www.nytimes.com/1964/10/20/archives/goldwater-asks-fbi-to-explain-check-on-jenkins.html: all'
+        - 'w.perlstein-before-the-storm 491: B'
+        - 'w.perlstein-before-the-storm 493: C'
+- edit:
+    id: cal.1964-10-20.goldwater
+    base: 5e5608fc
+    set:
+      n: '[[w.perlstein-before-the-storm]], 494–96. To check: Choice, the film, Perlstein''s collection; Barry Goldwater Audiovisual Collection, tape BG-F/45, Arizona
+        Historical Foundation (cited by [[w.perlstein-before-the-storm]], 495 n.1); Telegram of complaint to White, F. Clifton White Papers, Cornell University, box
+        1/California (cited by [[w.perlstein-before-the-storm]], 496 n.1); [[w.middendorf-glorious-disaster]]; [[w.white-making-of-the-president-1965]]. See [[cal.1964-09-03.goldwater]].
+        Names: Goldwater.'
+      src:
+        c: 26905b1a
+        rows:
+        - 'w.perlstein-before-the-storm 494–96: all'
+        - 'via w.perlstein-before-the-storm 495 n.1: A'
+        - 'via w.perlstein-before-the-storm 496 n.1: D'
+- edit:
+    id: cal.1964-10-27.elections-1964
+    base: 158c943b
+    set:
+      n: '[Address on Behalf of Senator Barry Goldwater: "A Time for Choosing"](https://www.presidency.ucsb.edu/documents/address-behalf-senator-barry-goldwater-time-for-choosing)
+        (Oct. 27, 1964). [[w.perlstein-before-the-storm]], 499–503. To check: A dub of A Time for Choosing, Barry Goldwater Audiovisual Collection, tape BG-VC/4,
+        Arizona Historical Foundation; Perlstein''s collection (cited by [[w.perlstein-before-the-storm]], 501 n.1); [[w.reagan-time-for-choosing]]; [[w.dallek-right-moment]];
+        [[w.schoenwald-time-for-choosing]]. See [[cal.1964-09-07.elections-1964]]. Names: Reagan, Goldwater.'
+      src:
+        c: 3abd144a
+        rows:
+        - 'https://www.presidency.ucsb.edu/documents/address-behalf-senator-barry-goldwater-time-for-choosing: all'
+        - 'w.perlstein-before-the-storm 499–503: all'
+        - 'via w.perlstein-before-the-storm 501 n.1: all'
+- edit:
+    id: cal.1964-11-03.elections-1964
+    base: 4c6d9973
+    set:
+      src:
+        c: 5cadd415
+        rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1964-book1/pdf/PPP-1964-book1.pdf#page=825: all'
+        - 'https://clerk.house.gov/member_info/electionInfo/1964election.pdf: all'
+        - 'w.perlstein-before-the-storm 510–13: D'
+- edit:
+    id: cal.1963-07-14.elections-1964
+    base: 823a53f1
+    set:
+      n: '[[w.perlstein-before-the-storm]], 223–24 (the statement). To check: New York Times, July 15, 1963 (the statement''s transcript) (cited by [[w.perlstein-before-the-storm]],
+        224 n.1); [[w.smith-on-his-own-terms]]; [[w.kabaservice-rule-and-ruin]]; [[w.novak-agony-of-the-g]]. See [[cal.1963-04-08.elections-1964]]. Names: Nelson
+        Rockefeller.'
+      src:
+        c: 2ad673d9
+        rows:
+        - 'w.perlstein-before-the-storm 223–24: A'
+        - 'via w.perlstein-before-the-storm 224 n.1: A'
+- edit:
+    id: cal.1963-05-04.elections-1964
+    base: eef932ad
+    set:
+      n: '[[w.perlstein-before-the-storm]], 194–95. To check: [[w.kramer-i-never-wanted-to]]; [[w.persico-imperial-rockefeller]]; [[w.smith-on-his-own-terms]]; [[w.novak-agony-of-the-g]];
+        [[w.white-making-of-the-president-1965]]. See [[cal.1963-04-08.elections-1964]]. Names: Nelson Rockefeller, Margaretta Rockefeller.'
+      src:
+        c: 2b749a89
+        rows:
+        - 'w.perlstein-before-the-storm 194–95: all'
+- edit:
+    id: cal.1963-10-31.elections-1964
+    base: 339a950f
+    set:
+      n: 'The President''s News Conference, [1963 Pub. Papers 826](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=884) (Oct. 31, 1963).
+        [[w.johnson-vantage-point]], 2 (the ticket); [[w.schlesinger-thousand-days-1965]], 981 (Goldwater); [[w.perlstein-before-the-storm]], 237 (Goldwater). See
+        [[cal.1963-07-14.elections-1964]]. Names: Johnson, Goldwater.'
+      src:
+        c: dc885dff
+        rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=884: all'
+        - 'w.johnson-vantage-point 2: A-C'
+        - 'w.schlesinger-thousand-days-1965 981: A, D'
+        - 'w.perlstein-before-the-storm 237: D'
+        - 'via w.perlstein-before-the-storm 237 n.2: D'

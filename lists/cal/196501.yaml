@@ -32,7 +32,12 @@ entries:
     thread: congress
     also: [elections-1964, republican-party-congress]
     c: House Republicans, in conference, choose Ford over Halleck for minority leader, 73–67.
-    n: '[Cong. Rec., House, Jan. 4, 1965](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt1/pdf/GPO-CRECB-1965-pt1-1-2.pdf#page=6). To check: [[w.peabody-ford-halleck-minority-leadership]]; [[w.peabody-leadership-in-congress]]; [[w.jones-minority-party-in-congress]]; [[w.ford-time-to-heal]]; [[w.scheele-charlie-halleck]]. See [[cal.1963-01-09.congress]]. Names: Ford, Halleck.'
+    n: '[Cong. Rec., House, Jan. 4, 1965](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt1/pdf/GPO-CRECB-1965-pt1-1-2.pdf#page=6). [[w.hess-republican-establishment]], 25–27 (Ford over Halleck, a close fight). To check: [[w.peabody-ford-halleck-minority-leadership]]; [[w.peabody-leadership-in-congress]]; [[w.jones-minority-party-in-congress]]; [[w.ford-time-to-heal]]; [[w.scheele-charlie-halleck]]. See [[cal.1963-01-09.congress]]. Names: Ford, Halleck.'
+    src:
+      c: 8f13446a
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt1/pdf/GPO-CRECB-1965-pt1-1-2.pdf#page=6: all'
+        - 'w.hess-republican-establishment 25–27: A'
     tags: [name:ford-gerald-r, name:halleck-charles-a]
   - id: cal.1965-01-04.congress
     when: Jan. 4
@@ -186,7 +191,11 @@ entries:
     thread: elections-1964
     also: [goldwater, republican-party]
     c: Burch to leave the Republican national chairmanship Apr. 1, after meeting Goldwater in Phoenix; Bliss, the Ohio chairman, to succeed him. Check the date.
-    n: 'To check: [[w.kabaservice-rule-and-ruin]]; [[w.rae-decline-and-fall-of]]. See [[cal.1964-11-04.elections-1964]]. Names: Burch, Bliss, Goldwater.'
+    n: '[[w.hess-republican-establishment]], 42 (the terms, settled at Goldwater''s home in Phoenix, Bliss and Burch there, Bliss to be elected in January, Burch to stay until April). Check: Hess and Broder give no date and no day in April. To check: [[w.kabaservice-rule-and-ruin]]; [[w.rae-decline-and-fall-of]]. See [[cal.1964-11-04.elections-1964]]. Names: Burch, Bliss, Goldwater.'
+    src:
+      c: e99420ee
+      rows:
+        - 'w.hess-republican-establishment 42: A-B'
     tags: [name:burch-dean, name:bliss-ray-c, name:goldwater-barry-m]
   - id: cal.1965-01-12.japan-and-korea
     when: Jan. 12–13
@@ -307,6 +316,19 @@ entries:
     c: Connecticut. Public Act No. 2 of the special session reapportions both houses.
     n: '[Conn. *Register and Manual*, 1966, p. 46](https://archive.org/details/register66conn/page/n49). See [[cal.1965-01-05.state-constitutions-ct]].'
     tags: [state:ct]
+  - id: cal.1965-01-22.republican-party
+    when: Jan. 22
+    date: '1965-01-22'
+    thread: republican-party
+    c: 'Chicago. The Republican National Committee elects Bliss chairman, unanimously; Burch to stay until April, by the terms settled with Goldwater at his home in Phoenix. The committee approves Laird''s plan for a Republican Coordinating Committee. Its members, by Hess and Broder''s account: Eisenhower, five of the Senate''s Republican leaders, seven of the House''s, five governors, the four living defeated nominees, five of the national committee, one State legislator. Bliss to the committee: "I am no modern miracle man, but I will work hard and try to do a job for you."'
+    n: '[[w.hess-republican-establishment]], 42, 51, 54. Check: the Coordinating Committee''s members at its founding; Hess and Broder give them undated. See [[cal.1965-01-12.elections-1964]]. Names: Bliss, Burch, Goldwater, Laird, Eisenhower.'
+    src:
+      c: d154f036
+      rows:
+        - 'w.hess-republican-establishment 42: A-C'
+        - 'w.hess-republican-establishment 51: D-E'
+        - 'w.hess-republican-establishment 54: F'
+    tags: [name:bliss-ray-c, name:burch-dean, name:goldwater-barry-m, name:laird-melvin-r, name:eisenhower-dwight-d]
   - id: cal.1965-01-24.europe-and-the-alliance
     when: Jan. 24
     date: '1965-01-24'

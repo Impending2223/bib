@@ -470,6 +470,23 @@ reports them (`notes/calendar-audit.md`).
   Eisenhower and Kennedy's Camp David talk of Apr. 22, 1961; O'Donnell's account of Kennedy to Mansfield, Dec. 1962, and
   its day; the Record's page for Cooper's Senate speech of Jan. 26, 1966; the Miller Center recordings Johns cites
   (Johnson with Eisenhower, Feb. 15, 1965 and Oct. 3, 1966; with Russell, May 27, 1964), not heard.
+- Hess and Broder, *The Republican Establishment* (1967): read only to p. 70 of 432 (Oct. 29, 2026). The owner's copy
+  (Drive 1irnV_Id8SqRP-JSXe1U1TkRGmDnYIL7t, 21 MB) is over the Drive tool's 10 MB limit and not in the shared books
+  folder; the tool's text stops at p. 70; archive.org's copies (`republicanestabl0000hess`, `bwb_P9-EBD-999`) lend only.
+  Waits on the owner's copy in the shared folder: the rest of chapter 4 (the ACU, the Free Society Association,
+  Republicans for Progress), Romney, Nixon, Percy, Reagan, the regions. Undated in the pages read (the rows of
+  notes/book-checks/hess-republican-establishment.md, "to leads"): Burch named chairman and the executive committee
+  remade (July 1964); Rhodes's release of Ohio's delegation to Goldwater (July 1964); Hugh Scott's call for Burch's
+  removal (Nov. 1964); Goldwater and Bliss at Goldwater's Washington apartment (Dec. 1964-Jan. 1965); Rhodes to the
+  House Policy Committee, Goodell's Planning and Research Committee, Ford's failed move against Arends (Jan. 1965);
+  Bliss's denunciation of the Free Society Association (June 1965); the Boosters Club (1965); the Coordinating
+  Committee's papers on civil rights, extremism and inflation, and Bliss's statement on Welch (1965-66); Bliss's
+  Opinion Research study (1966); Miller's endorsement of Rockefeller and Jackie Robinson (1966); Brooke on "the
+  extremists of black power and white power" and Agnew's turn against Mahoney (Oct. 1966); Nixon's answer to Johnson
+  of Nov. 1966; the national committee at New Orleans (Jan. 1967); Ford's "no such deals" speech (Jan. 1967); Morton's
+  moderates against Dirksen (1967); the Democratic National Committee's release on the rent supplements vote (May
+  1967); Ashbrook's speech and the ACU's report on the Ripon Society (the Record, 1966-67); Specter's election as
+  Philadelphia's district attorney (Nov. 1965); Campaign Consultants Incorporated (Jan. 1966; the owner to rule).
 
 ### Primary records (stage 4, Oct. 29, 2026; notes/primary-records/<years>.md, each entry's record or why none)
 

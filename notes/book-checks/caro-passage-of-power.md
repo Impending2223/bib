@@ -94,8 +94,8 @@ entry; Caro's rows (page: units); the records tied by `via` rows; the ruling.
 | `cal.1960-07-05.elections-1960` | 97: all | 1 | — |
 | `cal.1960-07-12.elections-1960` | — | 0 | no map: the book grounds no unit; parenthetical (the convention; not the platform); note mended |
 | `cal.1960-07-12.elections-1960-2` | 103: A-C; 104: D-E | 4 | — |
-| `cal.1960-07-14.elections-1960` | 122–23: A; 130–34: B-C; 143: D | 6 | — |
-| `cal.1960-08-08.congress` | 94: A | 0 | — |
+| `cal.1960-07-14.elections-1960` | 122–23: A; 130–34: B-C; 143: D | 6 | parenthetical (the accounts of the day); note mended |
+| `cal.1960-08-08.congress` | 94: A | 0 | parenthetical (the plan, 94) |
 | `cal.1960-10-10.elections-1960` | 145: A; 147: A; 148: all | 2 | — |
 | `cal.1960-11-04.elections-1960` | 149: A-C; 150: D | 5 | — |
 | `cal.1960-12.rules` | 164: all | 1 | — |

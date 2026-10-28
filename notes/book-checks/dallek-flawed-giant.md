@@ -79,7 +79,7 @@ entry; Dallek's rows (page: units); the records tied to it by `via` rows; the ru
 | `cal.1963-11-26.vietnam` | 101: A-C, E | 2 | parenthetical (not the bar on criticism, nor Laos) |
 | `cal.1963-11-27.succession` | 56: A; 60: B | 1 | — |
 | `cal.1963-11-29.assassination` | 51: A-C | 0 | — |
-| `cal.1963-12-03.civil-rights-bill` | 70: C-D, J-K | 1 | — |
+| `cal.1963-12-03.civil-rights-bill` | 70: C-D, J-K | 1 | parenthetical (the tax cut, the committee and the cotton bill, from the notes of the breakfast, Diary Backup, LBJ Library) |
 | `cal.1963-12-21.vietnam` | 101: A-B | 1 | — |
 | `cal.1963-12-23.foreign-aid` | 71: all | 4 | — |
 | `cal.1964-01-08.program` | 62: A-C | 0 | — |
@@ -125,7 +125,7 @@ entry; Dallek's rows (page: units); the records tied to it by `via` rows; the ru
 | `cal.1965-07-16.vietnam-july-decision` | 274: all | 0 | — |
 | `cal.1965-07-19.court` | 235: all | 1 | note mended |
 | `cal.1965-07-21.vietnam` | 274: A | 3 | note mended; Check: Dallek, 274–75, and Cooper's record give Ball's case at the meetings as cutting losses, not the compromise of his paper of July 1 |
-| `cal.1965-07-28.vietnam` | 235: G | 1 | — |
+| `cal.1965-07-28.vietnam` | 235: G | 1 | parenthetical (Fortas) |
 | `cal.1965-07-29.medicare` | 210: all | 1 | — |
 | `cal.1965-08-17.steel` | 304: all | 0 | — |
 | `cal.1965-08-30.steel` | 305: B | 1 | parenthetical (both sides at the White House; the shutdown put off eight days) |
@@ -190,6 +190,7 @@ entry; Dallek's rows (page: units); the records tied to it by `via` rows; the ru
 | `cal.1968-11-04.elections-1968-chennault` | 591: A | 1 | — |
 | `cal.1968-11-11.transition-and-staff` | 593–94: A-B | 1 | parenthetical (the meeting; the briefing, on Vietnam and the treaty) |
 | `cal.1969-01-14.program` | 597–98: A, N | 0 | parenthetical (the address in person; the closing words) |
+| `cal.1968-03-19.open-housing` | 533: A | 1 | parenthetical (the deferral, 8 to 7) |
 
 Further rulings, made in the parentheticals: Dallek's House count of Feb. 10, 1964, 290 to 110, is not the roll
 call's (`cal.1964-02-10.crb`); he has eight advisers killed at Pleiku (`cal.1965-02-07`), five killed and seventy-six
@@ -212,7 +213,7 @@ Clifford papers).
 
 ### New entries
 
-Twenty-three, the informal record Dallek dates to the day and the parties' and members' word (the owner's rule of Oct.
+Twenty-two, the informal record Dallek dates to the day and the parties' and members' word (the owner's rule of Oct.
 29): `cal.1964-06-01.vietnam-congress` (Smathers's call), `cal.1964-08-03.vietnam` (Fulbright to Ball),
 `cal.1964-08-10.vietnam-commitments` (FRUS 1964–68, I, doc. 307), `cal.1964-11-11.medicare` (Mills),
 `cal.1965-02-08.school-aid` (Powell), `cal.1965-02-11.vietnam-congress` (Fulbright to Krock),
@@ -221,9 +222,11 @@ Twenty-three, the informal record Dallek dates to the day and the parties' and m
 `cal.1966-05-13.intelligence` (Russell, Hoover), `cal.1966-07-11.vietnam-congress`, `cal.1966-12-19.vietnam` (Goldberg
 to U Thant), `cal.1967-03-13.robert-kennedy` (Johnson to Drew Pearson), `cal.1967-08-07.vietnam` (Apple's
 "stalemate"), `cal.1967-11-01.democratic-party` (the West Side meeting), `cal.1967-11-02.vietnam-support`,
-`cal.1967-11-22.war-opposition` (Ford's statement), `cal.1968-03-19.open-housing` (Rules, 8–7),
+`cal.1967-11-22.war-opposition` (Ford's statement),
 `cal.1968-04-10.elections-1968` (Rockefeller "available"), `cal.1968-05-16.elections-1968` (Riesel's column),
 `cal.1968-10-26.elections-1968` and `cal.1968-10-27.elections-1968` (the campaign).
+
+On `cal.1968-03-19.open-housing`, entered meanwhile by another run, Dallek's page and count (8 to 7) are added.
 
 ### Passed over
 
@@ -443,7 +446,7 @@ again); "below the calendar's level" marks staff memoranda, estimates and the Pr
 | 514 | Jan. 25, 1968 | the *Pueblo* | already in under the Pueblo thread |
 | 515 | Jan. 24, 1968 | Ackley on the risk of a world depression | below the calendar's level (a memorandum) |
 | 527-28 | Mar. 4-24, 1968 | the New Hampshire poll; the primary; Kennedy's announcement; the count of delegates | already in as cal.1968-03-12 (New Hampshire), cal.1968-03-14.robert-kennedy and the elections thread; the *Times*'s count minor |
-| 533 | Mar. 19, 1968 | House Rules, 8-7, puts off the open housing bill to Apr. 9 | entered as cal.1968-03-19.open-housing |
+| 533 | Mar. 19, 1968 | House Rules, 8-7, puts off the open housing bill to Apr. 9 | already in as cal.1968-03-19.open-housing (entered meanwhile by another run; Dallek's count and page added) |
 | 533-34 | Apr. 4-11, 1968 | King's murder; the House passes the bill; the signing | already in as the King entries, cal.1968-04-10.open-housing and the signing |
 | 535 | Apr. 26, 1968 | the Urban Institute's board | below the calendar's level |
 | 535-36 | May 3, 1968 | news conference on the surcharge | a lead: the news conference, not yet entered under the surcharge |
