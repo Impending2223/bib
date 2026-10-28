@@ -3,15 +3,15 @@
 Written by `./bib audit-cal` (`tools/bib/calaudit.py`): the dated entries checked against the brief in
 CLAUDE.md ("The calendar"). A review list: a hit is a place to look, not an error. Rerun after editing.
 
-5892 dated entries.
+5893 dated entries.
 
 | Check | Entries |
 |---|---|
-| A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 140 |
+| A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 141 |
 | (of which only a President's surname: Eisenhower, Kennedy, Johnson) | 4 |
 | Neither a bibliography of its own nor a `See [[id]]` back | 4 |
-| No primary record linked or named | 1060 |
-| A primary record named but not linked | 92 |
+| No primary record linked or named | 1035 |
+| A primary record named but not linked | 85 |
 | Threads (statements listed for review) | 226 |
 
 ## Names
@@ -88,6 +88,8 @@ the person; several mean the surname is shared). "?" marks a surname that is als
 - `cal.1963-07-03.king` (July 3, XLIV 196307.yaml): King to O'Dell, at Burke Marshall's pressing after the *Birmingham News*'s story of June 30: his "temporary re
   - McDonald: McDonald, David L. (K–J Adm. III.F)
   - Jones: Jones, Walter B., Sr. (K–J Cong. III.D); Jones, J. Raymond (K–J Cong. III.K); Jones, Walter H. (K–J Cong. III.K); Jones, Jim (1968 III.A)
+- `cal.1963-07-18.open-housing-ca` (July 18, XLIV 196307.yaml): California. Brown signs the Rumford Fair Housing Act, [Cal. Stats. 1963, ch. 1853](https://clerk.assembly.ca.g
+  - Rumford: Rumford, William Byron (K–J Cong. III.K)
 - `cal.1963-07-30.specials` (July 30, XLIV 196307.yaml): Pennsylvania 15th, special. Fred B. Rooney (D) holds the seat of Francis E. Walter (D), who died May 31, over 
   - Francis: Francis, E. Lee (K–J Cong. III.K)
 - `cal.1963-10-05.king` (Oct. 5, XLVII 196310.yaml): New York, the Park Sheraton. King sees Levison, against his promise to the Kennedys, on his book on Birmingham
@@ -566,7 +568,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1963-04-02.mayors-los-angeles` (Apr. 2, XLI 196304.yaml): Los Angeles City Council, 10th district: Bradley over the appointed incumbent, two elections, for the unexpire
 - `cal.1963-04-02.open-housing-berkeley` (Apr. 2, XLI 196304.yaml): Berkeley. The city's fair housing ordinance, passed by the council, repealed by the voters at referendum. Chec
 - `cal.1963-04-08.elections-1964` (Apr. 8, XLI 196304.yaml): National Draft Goldwater Committee announced. O'Donnell, the Texas Republican chairman, at its head; White its
-- `cal.1963-04-09.middle-east` (Apr. 9, XLI 196304.yaml): Iraq. Harriman approves selling the new regime 40 light tanks and 12 tank transporters; the Near East bureau a
 - `cal.1963-04-15.alabama-birmingham` (Apr. 15, XLI 196304.yaml): Kennedy calls Coretta King, her husband in the Birmingham jail.
 - `cal.1963-04-16.alabama-birmingham` (Apr. 16, XLI 196304.yaml): King's "Letter from Birmingham Jail," to eight white clergymen.
 - `cal.1963-05-01.poverty` (May 1, XLII 196305.yaml): Heller to Kennedy, from Lampman's figures: the economy lifting fewer out of poverty; the poor about as many as
@@ -609,7 +610,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1963-09-13.baker` (Sept. 13–16, XLVI 196309.yaml): Copenhagen. Jenkins telephones Johnson on the Baker story; Johnson in his suite two days, calling Fortas; Gree
 - `cal.1963-09-16.desegregation-schools` (Sept. 16, XLVI 196309.yaml): Prince Edward County, Va., its public schools closed since 1959 rather than desegregated. The Free Schools ope
 - `cal.1963-09-17.mayors-san-diego` (Sept. 17, XLVI 196309.yaml): San Diego, nonpartisan primary for mayor, Dail not running: Councilman Curran over Goodrich, 25,480 to 23,843,
-- `cal.1963-09-24.mayors-boston` (Sept. 24, XLVI 196309.yaml): Boston, the preliminary election for mayor. Collins over Piemonte, of the City Council, 56,989 to 27,492, 46.0
 - `cal.1963-10-05.king` (Oct. 5, XLVII 196310.yaml): New York, the Park Sheraton. King sees Levison, against his promise to the Kennedys, on his book on Birmingham
 - `cal.1963-10-06.mississippi` (Oct. 6, XLVII 196310.yaml): Jackson, the Masonic Temple. COFO's convention opens the Freedom Ballot campaign: a platform against the liter
 - `cal.1963-10-22.desegregation-schools-chicago` (Oct. 22, XLVII 196310.yaml): Chicago. "Freedom Day": the Coordinating Council of Community Organizations' boycott of the public schools aga
@@ -621,7 +621,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1963-11-05.mayors-philadelphia` (Nov. 5, XLVIII 196311.yaml): Philadelphia. Tate (D) elected mayor over McDermott (R), 401,714 to 333,446, 54.3 percent. Republicans take th
 - `cal.1963-11-05.mayors-san-diego` (Nov. 5, XLVIII 196311.yaml): San Diego. Curran elected mayor over Goodrich, 96,898 to 55,520, 63.6 percent.
 - `cal.1963-11-05.mayors-san-francisco` (Nov. 5, XLVIII 196311.yaml): San Francisco. Shelley, U.S. Representative since 1949, elected mayor over Supervisor Dobbs, 120,560 to 92,627
-- `cal.1963-11-05.mayors-boston` (Nov. 5, XLVIII 196311.yaml): Boston. Collins re-elected over Piemonte, 108,624 to 73,067, 59.8 percent.
 - `cal.1963-11-07.elections-1964` (Nov. 7, XLVIII 196311.yaml): Rockefeller announces for the Republican nomination, at Albany, N.Y.
 - `cal.1963-11-10.black-nationalism-detroit` (Nov. 10, XLVIII 196311.yaml): Detroit. Malcolm X, "Message to the Grass Roots," at the Northern Negro Grass Roots Leadership Conference, Kin
 - `cal.1963-11-11.poverty` (Nov. 11, XLVIII 196311.yaml): Kennedy to Heller on the year's program: "First we'll have your tax cut; then we'll have my expenditures progr
@@ -631,15 +630,12 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1963-11-20.king` (Nov. 20, XLVIII 196311.yaml): New York, an airport hotel. King, Levison and Clarence Jones on the book's editing. FBI agents, told of the me
 - `cal.1963-11-22.baker` (Nov. 22, XLVIII 196311.yaml): Don Reynolds, a Maryland insurance agent, before the Rules Committee's staff in closed session: a stereo set f
 - `cal.1963-11-22.goldwater` (Nov. 22–25, XLVIII 196311.yaml): Goldwater in Muncie, Ind., with his wife, at her mother's funeral. He and Kennedy had talked of campaigning to
-- `cal.1963-11-23.robert-kennedy` (Nov. 23, XLVIII 196311.yaml): About 8:55 a.m. Johnson walks into the Oval Office and asks Evelyn Lincoln to clear it by 9:30; Robert Kennedy
-- `cal.1963-11-29.civil-rights-bill` (Nov. 29, XLVIII 196311.yaml): Wilkins with Johnson in the Oval Office, the first of five meetings with the civil rights leaders one at a tim
 - `cal.1963-12-01.black-nationalism` (Dec. 1, XLIX 196312.yaml): Malcolm X, speaking for Elijah Muhammad at the Manhattan Center, asked about Kennedy's murder: "chickens comin
 - `cal.1963-12-04.black-nationalism` (Dec. 4, XLIX 196312.yaml): Muhammad suspends Malcolm X from speaking for ninety days.
 - `cal.1963-12-05.civil-rights-bill` (Dec. 5, XLIX 196312.yaml): Smith's statement: hearings on the bill "reasonably soon" in January. Brown: early January, seven to ten days,
 - `cal.1963-12-12.defense` (Dec. 12, XLIX 196312.yaml): McNamara announces 33 installations to be closed, 26 at home and 7 abroad, two-thirds of them major, Fort Chaf
 - `cal.1963-12-20.poverty` (Dec. 20, XLIX 196312.yaml): Cabinet officers and their staffs on the poverty program, Sorensen at the head of the table: a dispute over wh
 - `cal.1963-12-23.foreign-aid` (Dec. 23, XLIX 196312.yaml): The White House, a Christmas party for the House, the absent Democrats called back for the aid appropriation. 
-- `cal.1963-12-27.press-and-broadcasting` (Dec. 27, XLIX 196312.yaml): Jones of the *Chronicle* at the Ranch with Gus Wortham, Albert Thomas in George Brown's place: "Whenever you n
 - `cal.1963-12-29.poverty` (Dec. 29–Jan. 3, XLIX 196312.yaml): Heller and Gordon at the Ranch. Johnson doubles the poverty money to a billion dollars, half of it new; not de
 - `cal.1963-12.robert-kennedy` (Dec., XLIX 196312.yaml): William Walton, painter and friend of the Kennedys, in Moscow on a cultural visit put off by the assassination
 - `cal.1963-12.mississippi` (Dec., XLIX 196312.yaml): Oxford. A federal jury of white men acquits the Montgomery County sheriff, Earl Patridge, the Winona police ch
@@ -649,9 +645,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1964-01-07.goldwater` (Jan. 7, L 196401.yaml): Concord, N.H., the campaign's first week: "I would like to suggest one change, that social security be made vo
 - `cal.1964-01-07.economy` (Jan. 7, L 196401.yaml): Byrd and Williams brought to the White House to see the budget's galleys and the Budget Bureau's tally sheets:
 - `cal.1964-01-11.governors-la` (Jan. 11, L 196401.yaml): Louisiana's Democratic runoff for governor: McKeithen over Morrison, 492,905 to 451,161, 52.2 percent. McKeith
-- `cal.1964-01-16.vietnam` (Jan. 16, L 196401.yaml): Johnson approves the Krulak committee's plan of covert operations against the North, received at the Ranch Jan
 - `cal.1964-01-18.poverty` (Jan. 18, L 196401.yaml): Johnson, at a Saturday meeting called the night before, asks King, Wilkins, Whitney Young and Farmer to suppor
-- `cal.1964-01-20.africa` (Jan. 20–25, L 196401.yaml): Army mutinies in Tanganyika, Uganda and Kenya, put down by British troops at the governments' request.
 - `cal.1964-01-23.civil-rights-bill` (Jan. 23, L 196401.yaml): Smith gives in, Republicans on Rules having met with its Democrats: the hearings to end Jan. 30, the bill "wil
 - `cal.1964-01-27.elections-1964` (Jan. 27, L 196401.yaml): Margaret Chase Smith announces for the Republican nomination, at the Women's National Press Club: "I have few 
 - `cal.1964-01-27.transition-and-staff` (Jan. 27, L 196401.yaml): Schlesinger resubmits the resignation he wrote after Dallas; accepted. Goldman of Princeton to succeed him, al
@@ -705,8 +699,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1964-06-09.governors-in` (June 9, LV 196406.yaml): Indiana's Republican convention names Lieutenant Governor Ristine for governor, who broke the Senate's tie for
 - `cal.1964-06-11.desegregation-public-places-fl` (June 11, LV 196406.yaml): St. Augustine. King arrested on the steps of the Monson Motor Lodge's restaurant.
 - `cal.1964-06-12.elections-1964` (June 12, LV 196406.yaml): Scranton announces for the Republican nomination, at the Maryland Republican convention in Baltimore. Rockefel
-- `cal.1964-06-12.africa` (June 12, LV 196406.yaml): Pretoria. Mandela and seven others of the Rivonia trial sentenced to life imprisonment.
-- `cal.1964-06-12.governors-in` (June 12, LV 196406.yaml): Indiana's Democratic convention names Roger Branigin for governor, a lawyer of Lafayette, Ind., over Marshall 
 - `cal.1964-06-16.elections-1964-state-conventions` (June 16, LV 196406.yaml): Texas's Republican State convention pledges its 56 delegates to Goldwater. With them, by the papers' counts, a
 - `cal.1964-06-18.desegregation-public-places-fl` (June 18, LV 196406.yaml): St. Augustine. Seventeen rabbis arrested at the Monson Motor Lodge; Negro and white demonstrators in its pool,
 - `cal.1964-06-18.goldwater` (June 18, LV 196406.yaml): Gettysburg. Goldwater calls on Eisenhower to tell him he will vote against the civil rights bill; Eisenhower a
@@ -714,7 +706,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1964-06-19.elections-1964-state-conventions` (June 19, LV 196406.yaml): Montana's Republican State convention pledges its 14 delegates to Goldwater for three ballots.
 - `cal.1964-06-28.black-nationalism` (June 28, LV 196406.yaml): Malcolm X founds the Organization of Afro-American Unity at the Audubon Ballroom, Washington Heights, on the m
 - `cal.1964-06-30.desegregation-public-places` (June 30, LV 196406.yaml): St. Augustine. Bryant announces a biracial committee of four unnamed men, to serve thirty days; King suspends 
-- `cal.1964-07-02.civil-rights-organizations` (July 2, LVI 196407.yaml): After the signing, Johnson in private with King, Wilkins, Whitney Young and others: the rights now secured by 
 - `cal.1964-07-06.mississippi` (July 6, LVI 196407.yaml): McComb. Representative Don Edwards, whose son is a summer volunteer, spends the night at the Freedom House ope
 - `cal.1964-07-06.vietnam` (July 6, LVI 196407.yaml): Hanoi puts its navy on a war footing, against the American destroyers' patrols in the Gulf of Tonkin. By the e
 - `cal.1964-07-12.elections-1964` (July 12, LVI 196407.yaml): Scranton's letter to Goldwater, the day before the convention: "Goldwaterism" has come to stand for "a whole c
@@ -731,7 +722,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1964-08-12.elections-1964` (Aug. 12, LVII 196408.yaml): Hershey, Pa. Goldwater meets Eisenhower, Nixon, Scranton, Rockefeller, Romney, and the party's governors and l
 - `cal.1964-08-12.desegregation-schools-la` (Aug. 12, LVII 196408.yaml): St. Helena Parish, La. The schools open, three Negro pupils in a white school.
 - `cal.1964-08-19.elections-1964` (Aug. 19, LVII 196408.yaml): Johnson with the civil rights leaders at the White House: he will not discuss the convention, and speaks of hi
-- `cal.1964-08-25.elections-1964-2` (Aug. 25, LVII 196408.yaml): Johnson, alone at his desk, 10:40 to 11:06 a.m., writes out a statement that he will not run: "I have learned 
 - `cal.1964-08-28.states-and-cities-philadelphia` (Aug. 28–30, LVII 196408.yaml): Philadelphia. A quarrel over a car stopped at 23rd Street and Columbia Avenue, two policemen, a crowd; a rumor
 - `cal.1964-09-01.open-housing-detroit` (Sept. 1, LVIII 196409.yaml): Detroit. The "Homeowners' Rights Ordinance," an initiative securing an owner's choice of buyer, tenant and age
 - `cal.1964-09-03.goldwater` (Sept. 3, LVIII 196409.yaml): Prescott, Ariz. Goldwater opens his campaign from the north steps of the Yavapai County Courthouse, where he h
@@ -1226,9 +1216,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1968-01-15.war-opposition` (Jan. 15, XCIX 196801.yaml): The Jeannette Rankin Brigade: some 5,000 women march from Union Station toward the Capitol on the session's op
 - `cal.1968-01-15.vietnam-tet` (Jan. 15, XCIX 196801.yaml): The day for the general offensive set: the night of Jan. 30–31, the eve of Tet. The commands in the South give
 - `cal.1968-01-16.king-poor-peoples` (Jan. 16, XCIX 196801.yaml): Atlanta, Ebenezer, SCLC's staff retreat. King to the press: the campaign to open in early April; "jobs or inco
-- `cal.1968-01-17.elections-1968` (Jan. 17, XCIX 196801.yaml): Johnson goes to the Capitol for the State of the Union without the statement withdrawing from the race, Christ
 - `cal.1968-01-18.war-opposition` (Jan. 18, XCIX 196801.yaml): The White House, Lady Bird Johnson's Women Doers' Luncheon on crime in the streets. Eartha Kitt, a guest, to t
-- `cal.1968-01-21.japan-and-korea` (Jan. 21, XCIX 196801.yaml): Seoul, the night of Jan. 21. Thirty-one North Korean commandos, sent to kill Park, stopped by police within a 
 - `cal.1968-01-30.robert-kennedy` (Jan. 30, XCIX 196801.yaml): Washington, a breakfast with reporters at the National Press Club: Robert Kennedy will not oppose Johnson for 
 - `cal.1968-02-01.vietnam` (Feb. 1, C 196802.yaml): Saigon. General Nguyễn Ngọc Loan, the national police chief, shoots a bound Viet Cong prisoner in the street; 
 - `cal.1968-02-01.elections-1968` (Feb. 1–2, C 196802.yaml): Nixon announces for the Republican nomination in a letter to New Hampshire's voters, Feb. 1; at Manchester, Fe
@@ -1256,7 +1244,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1968-03-11.vietnam-operations` (Mar. 11, CI 196803.yaml): Quyết Thắng, the largest allied operation yet in III Corps, around Saigon: six American and ten South Vietname
 - `cal.1968-03-12.states-and-cities-ak` (Mar. 12, CI 196803.yaml): Alaska. Atlantic Richfield and Humble Oil confirm oil at Prudhoe Bay State No. 1, on State land on the North S
 - `cal.1968-03-12.king-poor-peoples` (Mar. 12, CI 196803.yaml): Atlanta. King to SCLC's executive staff, at lunch: the campaign "a continuing, massive lobby-in" at Congress. 
-- `cal.1968-03-16.vietnam` (Mar. 16, CI 196803.yaml): Quảng Ngãi Province. Charlie Company, 1st Battalion, 20th Infantry, of the Americal Division's Task Force Bark
 - `cal.1968-03-18.king` (Mar. 18, CI 196803.yaml): Memphis, the sanitation strike. King at Mason Temple calls for a general strike and a march.
 - `cal.1968-03-18.robert-kennedy` (Mar. 18, CI 196803.yaml): Manhattan, Kan. Robert Kennedy, two days a candidate, gives the Landon Lecture at Kansas State University, som
 - `cal.1968-03-19.students` (Mar. 19–23, CI 196803.yaml): Washington. Howard University students hold the administration building for five days: the charges against the
@@ -1267,7 +1254,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1968-03-28.king` (Mar. 28, CI 196803.yaml): King, from Memphis, on the march with Hosea Williams in Atlanta. Williams tells Jim Harrison, SCLC's comptroll
 - `cal.1968-03-30.soviet-union-czechoslovakia` (Mar. 30, CI 196803.yaml): Prague. The National Assembly elects Svoboda President.
 - `cal.1968-03-30.elections-1968` (Mar. 30, CI 196803.yaml): Busby's new version of the statement withdrawing from the race, sent while Johnson goes over the last draft of
-- `cal.1968-03.state-and-city-finance-ky` (Mar., CI 196803.yaml): Kentucky. Nunn, who had campaigned against new taxes, has the General Assembly raise the sales tax from 3 to 5
 - `cal.1968-03.states-and-cities-ar` (Mar., CI 196803.yaml): Arkansas. Rockefeller fires Murton from the Cummins prison farm.
 - `cal.1968-03-31.king` (Mar. 31, CI 196803.yaml): Washington, National Cathedral, King's sermon. To reporters: the campaign goes on, to be called off only for "
 - `cal.1968-04-01.vietnam-2` (Apr. 1, CII 196804.yaml): Operation Pegasus: the 1st Cavalry Division and Marines west along Route 9 toward Khe Sanh.
@@ -1282,7 +1268,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1968-04-09.king` (Apr. 9, CII 196804.yaml): Atlanta: the funeral at Ebenezer Baptist Church; the coffin on a farm wagon drawn by mules to Morehouse Colleg
 - `cal.1968-04-09.georgia-ga` (Apr. 9, CII 196804.yaml): Atlanta. King's funeral. Maddox, who had refused King lying in state at the Capitol and did not close the Stat
 - `cal.1968-04-09.states-and-cities-wilmington-de` (Apr. 9, CII 196804.yaml): Wilmington, Del. Looting and fires after King's death, Apr. 9–10; the mayor declares an emergency and a curfew
-- `cal.1968-04-11.civil-disorders` (Apr. 11, CII 196804.yaml): Baltimore. Agnew, to some hundred of the city's Negro leaders called to the State Office Building: they had no
 - `cal.1968-04-11.vietnam-air-war` (Apr. 11, CII 196804.yaml): Reconnaissance flights over North Vietnam above the 20th parallel, stopped after the exchange with Hanoi of Ap
 - `cal.1968-04-15.civil-disorders` (Apr. 15, CII 196804.yaml): Chicago. Daley, at a news conference: he has told the police superintendent to issue orders "to shoot to kill 
 - `cal.1968-04-16.king` (Apr. 16, CII 196804.yaml): Memphis. The sanitation strike settled, Reynolds mediating: the City Council recognizes the union, AFSCME's Lo
@@ -1310,7 +1295,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1968-05-28.elections-1968-2` (May 28, CIII 196805.yaml): Oregon: McCarthy over Kennedy, the first election a Kennedy had lost (Check). Nebraska, May 14, had gone to Ke
 - `cal.1968-05-29.economy-surcharge-2` (May 29, CIII 196805.yaml): Cabinet meeting on the tax bill and the cuts. Johnson: "We'll look like Hoover if we don't use all the horsepo
 - `cal.1968-06-01.elections-1968` (June 1, CIV 196806.yaml): San Francisco, ABC: McCarthy and Kennedy on television together, an hour, the one debate of the primaries. Vie
-- `cal.1968-06-01.governors-tx` (June 1, CIV 196806.yaml): Texas Democratic runoff for governor: Smith over Yarborough, 767,490 to 621,226, 55.3 percent. Smith second in
 - `cal.1968-06-08.robert-kennedy` (June 8, CIV 196806.yaml): New York, St. Patrick's Cathedral: the requiem Mass; Edward Kennedy speaks for the family. The funeral train t
 - `cal.1968-06-08.king` (June 8, CIV 196806.yaml): London Airport. Scotland Yard arrests Ray, traveling on a Canadian passport as Ramon George Sneyd, on his way 
 - `cal.1968-06-11.open-housing-mi` (June 11, CIV 196806.yaml): Michigan. Romney signs the State's open housing act, passed by the legislature at his request: discrimination 
@@ -1323,16 +1307,13 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1968-06-27.vietnam` (June 27, CIV 196806.yaml): The command announces that the Marines will leave Khe Sanh and the base be dismantled, its forces to more mobi
 - `cal.1968-06-30.europe-and-the-alliance-france` (June 30, CIV 196806.yaml): France. The Gaullists win a majority of the Assembly (Check the seats).
 - `cal.1968-07-01.court-fortas` (July 1, CV 196807.yaml): Russell to Johnson: released from any commitment on Fortas and Thornberry. The nomination of Alexander Lawrenc
-- `cal.1968-07-03.state-and-city-finance-tx` (July 3, CV 196807.yaml): Texas. The special session ends: the appropriation and some $159 million in taxes for it, the State sales tax 
 - `cal.1968-07-05.vietnam-khe-sanh` (July 5, CV 196807.yaml): The Khe Sanh Combat Base officially closed, 8 p.m.; the 1st Marines' last vehicles to Ca Lu by convoy the next
 - `cal.1968-07-09.elections-1968` (July 9, CV 196807.yaml): Boggs, chairman of the platform committee, asks the White House for direction; Johnson agrees to see him.
 - `cal.1968-07-12.elections-1968` (July 12, CV 196807.yaml): New York. Anna Chennault brings Bùi Diễm, South Vietnam's ambassador, to Nixon; Mitchell present (Check the pl
 - `cal.1968-07-15.black-nationalism-oakland` (July 15, CV 196807.yaml): Oakland, the Alameda County courthouse. Newton's trial opens for the death of Officer John Frey, Oct. 28, 1967
 - `cal.1968-07-18.elections-1968` (July 18, CV 196807.yaml): Walter Reed Army Hospital. Eisenhower, a patient since his heart attack of April, endorses Nixon (Check the da
 - `cal.1968-07-23.civil-disorders` (July 23–27, CV 196807.yaml): Cleveland, Glenville, the night of July 23–24: gunfire for some four hours between the police and Ahmed Evans'
-- `cal.1968-07-25.elections-1968` (July 25, CV 196807.yaml): Humphrey shows Johnson the draft of a speech on Vietnam, the NLF in the talks hinted at. Johnson: it would end
 - `cal.1968-07-26.elections-1968-2` (July 26, CV 196807.yaml): Edward Kennedy will not be a candidate for Vice President (Check the day).
-- `cal.1968-08-04.vietnam-paris` (Aug. 4, CVI 196808.yaml): Clifford alone with Johnson: stop the bombing; three and a half years of trying to win militarily, "[It] canno
 - `cal.1968-08-05.elections-1968-2` (Aug. 5, CVI 196808.yaml): Miami Beach. Reagan declares himself a candidate, the California delegation behind him.
 - `cal.1968-08-07.civil-disorders` (Aug. 7–9, CVI 196808.yaml): Miami, Liberty City, during the Republican convention. A rally at the Vote Power League's building, Aug. 7, en
 - `cal.1968-08-10.elections-1968-2` (Aug. 10, CVI 196808.yaml): McGovern announces his candidacy for the Democratic nomination, for Robert Kennedy's delegates and against the
@@ -1341,7 +1322,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1968-08-21.elections-1968` (Aug. 21, CVI 196808.yaml): Worcester, Mass. Edward Kennedy, his first speech since his brother's death: an end to the bombing of the Nort
 - `cal.1968-08-22.elections-1968` (Aug. 22, CVI 196808.yaml): Chicago, the streets. The Mobilization's march permits refused; some 12,000 police on twelve-hour shifts, abou
 - `cal.1968-08-24.testing` (Aug. 24, CVI 196808.yaml): Fangataufa, French Polynesia: France explodes its first thermonuclear device, Canopus, under a balloon, some 2
-- `cal.1968-08-24.elections-1968` (Aug. 24, CVI 196808.yaml): Boggs called from Chicago to the White House, on the Czech crisis by the announcement. Westmoreland reads him 
 - `cal.1968-08-25.elections-1968-chicago` (Aug. 25–27, CVI 196808.yaml): Chicago. Each night the police clear Lincoln Park after the 11 p.m. curfew, with clubs and tear gas.
 - `cal.1968-08-26.soviet-union-czechoslovakia` (Aug. 26, CVI 196808.yaml): Moscow. Svoboda and Husák, then Dubček and the others, in talks from Aug. 23, sign the Moscow protocol; the tr
 - `cal.1968-08-27.elections-1968-chicago` (Aug. 27, CVI 196808.yaml): Chicago. The unit rule abolished, and the rules committee's minority report adopted: every Democrat a "full an
@@ -1386,12 +1366,9 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1968-12-01.civil-disorders` (Dec. 1, CX 196812.yaml): The Walker report, *Rights in Conflict*, made public by the National Commission on the Causes and Prevention o
 - `cal.1968-12-02.students-san-francisco` (Dec. 2–3, CX 196812.yaml): San Francisco State, reopened by Hayakawa under a "state of emergency" declared Nov. 30. Dec. 2: he climbs a s
 - `cal.1968-12-09.vietnam-operations` (Dec. 9, CX 196812.yaml): Meade River ends, 6 p.m. The Marines report 1,023 of the enemy dead, 123 prisoners, 6 ralliers; their own loss
-- `cal.1968-12-24.congress` (Dec. 24, CX 196812.yaml): Governor Hickel of Alaska, named Secretary of the Interior, appoints Ted Stevens (R), an Anchorage lawyer, maj
-- `cal.1968-12-24.space-apollo` (Dec. 24, CX 196812.yaml): Apollo 8 in orbit around the moon, ten revolutions; on Christmas Eve, on television, Borman, Lovell and Anders
 - `cal.1968-12.states-and-cities-us` (Dec., CX 196812.yaml): The Republican Governors Association elects Reagan chairman, in place of Chafee, beaten for re-election in Nov
 - `cal.1968-12.court-us` (Dec., CX 196812.yaml): Dirksen's convention on apportionment, at the year's end: no legislature applies in 1968; the count stays at 3
 - `cal.1968-12.states-and-cities-nm` (Dec., CX 196812.yaml): Albuquerque. Tijerina, defending himself, acquitted by a State district court jury of the charges of the court
-- `cal.1969-01-01.governors-ia` (Jan. 1, CXI 196901.yaml): Iowa. Hughes, elected to the Senate, resigns as governor; Fulton, the lieutenant governor, governor for sixtee
 - `cal.1969-01-01.vietnam-paris` (Jan. 1, CXI 196901.yaml): The Politburo to Thọ and Thủy: Nixon has no choice but to de-escalate. At the four-party talks the aim all Ame
 - `cal.1969-01-03.congress-2` (Jan. 3, CXI 196901.yaml): The Senate Democrats: Edward Kennedy majority whip over Russell Long, 31–26; Mansfield re-elected leader. The 
 - `cal.1969-01-05.vietnam` (Jan. 5, CXI 196901.yaml): Nixon names Lodge to succeed Harriman at the head of the delegation to Paris, Walsh his deputy (Check the day)
@@ -1424,7 +1401,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1963-03-12.state-and-city-finance-in` (Mar. 12, XL 196303.yaml): Indiana. Welsh calls the General Assembly into special session on his "2-2-2" plan: the State's first sales ta — names "Laws of "
 - `cal.1963-04-01.state-constitutions-mi` (Apr. 1, XLI 196304.yaml): Michigan's new constitution ratified, 810,860 to 803,436, 50.2 percent. In force Jan. 1, 1964: the Civil Right — names "Canvass"
 - `cal.1963-05-29.civil-rights-the-executive` (May 29, XLII 196305.yaml): The President's Committee on Equal Employment Opportunity, Johnson its chairman, meets for the first time sinc — names "Minutes"
-- `cal.1963-06-21.open-housing-ca` (June 21, XLIII 196306.yaml): California. The Rumford Fair Housing Act, Rumford's A.B. 1240, passes the Senate in the session's last hours a — names "Stats. 1963"
 - `cal.1963-07-01.legislatures-il` (July 1, XLIV 196307.yaml): Illinois. Kerner vetoes the Republican legislature's map of the House's districts, "unfair." Under the amendme — names "Blue Book"
 - `cal.1963-07-26.civil-rights-the-executive` (July 26, XLIV 196307.yaml): McNamara's directive on the Gesell Committee's report: commanders to oppose discrimination against their men o — names "Directive"
 - `cal.1963-08-06.mississippi-ms` (Aug. 6, XLV 196308.yaml): Mississippi's Democratic primary for governor: Lieutenant Governor Paul Johnson over former Governor Coleman,  — names "Official and Statistical"
@@ -1436,11 +1412,9 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1964-03-03.governors-la` (Mar. 3, LII 196403.yaml): Louisiana, general election for governor: McKeithen (D) over Lyons (R), a Shreveport oilman, 469,589 to 297,75 — names "Election Returns"
 - `cal.1964-08-04.governors-ks` (Aug. 4, LVII 196408.yaml): Kansas, governor; Governor Anderson not running. Republican primary: U.S. Representative Avery over Boyd, 85,7 — names "Election Statistics"
 - `cal.1964-09-08.governors-wi` (Sept. 8, LVIII 196409.yaml): Wisconsin, governor. Democratic primary: Governor Reynolds over Frinzi, 70.3 percent. Republican: Knowles, a f — names "Blue Book"
-- `cal.1964-09-15.governors-wa` (Sept. 15, LVIII 196409.yaml): Washington's blanket primary, for governor: Evans (R), a State representative, over Governor Rosellini (D), se — names "Official Abstract"
 - `cal.1964-11-03.legislatures-ny` (Nov. 3, LX 196411.yaml): New York. Democrats take both houses of the legislature, the first time since 1935 (Check): the Senate 33 to 2 — names "Legislative Manual"
 - `cal.1964-11-03.legislatures-il` (Nov. 3, LX 196411.yaml): Illinois. The House elected at large on the orange "bedsheet" ballot, 33 inches long: 236 candidates for 177 s — names "Blue Book"
 - `cal.1964-11-03.state-constitutions-mi` (Nov. 3, LX 196411.yaml): Michigan. Proposal C, a referendum on the legislature's law against straight-ticket voting, the law rejected,  — names "Manual"
-- `cal.1964-11-03.governors-wa` (Nov. 3, LX 196411.yaml): Washington. Evans (R) governor over Rosellini (D), 697,256 to 548,692, 55.8 percent, as Johnson carries the St — names "Abstract of Votes"
 - `cal.1964-11-03.governors-wi` (Nov. 3, LX 196411.yaml): Wisconsin. Knowles (R) over Governor Reynolds (D), 856,779 to 837,901, 50.6 percent. — names "Blue Book"
 - `cal.1964-12-15.legislatures-ny` (Dec. 15–30, LXI 196412.yaml): New York. The Republican legislature, in a special session called by Rockefeller before the Democrats take ove — names "Laws of "
 - `cal.1965-01-21.states-and-cities-ok` (Jan. 21, LXII 196501.yaml): Oklahoma City. State Representative G. T. Blankenship reads to the House a summary of the sworn statement of N — names "House Journal"
@@ -1476,11 +1450,8 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1968-02-19.school-aid-fl` (Feb. 19–Mar., C 196802.yaml): Florida. The teachers' statewide walkout, called by the Florida Education Association: at its height 25,712, s — names "Laws of "
 - `cal.1968-04-09.cities-and-housing-ny` (Apr. 9–10, CII 196804.yaml): New York. The legislature, the week of King's funeral, passes Rockefeller's Urban Development Corporation Act  — names "Laws of "
 - `cal.1968-04-23.state-constitutions-pa` (Apr. 23, CII 196804.yaml): Pennsylvania's voters, at the primary, approve the convention's proposals (Check the votes on each): the Senat — names "Manual"
-- `cal.1968-05-07.alabama-al` (May 7, CIII 196805.yaml): Montgomery. Lurleen Wallace dies of cancer, 41, sixteen months in office. Lieutenant Governor Albert Brewer, 3 — names "Official and Statistical"
-- `cal.1968-06-04.state-and-city-finance-tx` (June 4, CIV 196806.yaml): Texas. The legislature in special session, on Connally's call: a $2.6 billion appropriation for fiscal 1969, a — names "House Journal"
 - `cal.1968-06-24.state-constitutions-fl` (June 24–July 3, CIV 196806.yaml): Florida. The legislature, in special session, proposes a revised constitution in three joint resolutions: the  — names "Journal of the House"
 - `cal.1968-07.states-and-cities-nyc` (July, CV 196807.yaml): New York City. Lindsay names Galamison, of the school boycott of 1964, to the Board of Education, enlarged by  — names "Laws of "
-- `cal.1968-08-06.governors-ks` (Aug. 6, CVI 196808.yaml): Kansas, Republican primary for governor: Harman, a businessman, over Crutcher, the lieutenant governor, 133,45 — names "Election Statistics"
 - `cal.1968-10-01.states-and-cities-jacksonville` (Oct. 1, CVIII 196810.yaml): Jacksonville and Duval County one government, by the charter Duval's voters approved Aug. 8, 1967, 54,493 to 2 — names "Laws of "
 - `cal.1968-11-05.legislatures-ny` (Nov. 5, CIX 196811.yaml): New York. Republicans take the Assembly, 78 seats to the Democrats' 72, and keep the Senate, 33 to 24. Duryea, — names "Legislative Manual"
 - `cal.1968-11-05.legislatures-pa` (Nov. 5, CIX 196811.yaml): Pennsylvania. Democrats take the House, 106 seats to the Republicans' 96; Republicans keep the Senate, 27 to 2 — names "Manual"
@@ -1490,7 +1461,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1968-11-05.legislatures-ca` (Nov. 5, CIX 196811.yaml): California. Republicans take both houses: the Assembly 41 R–39 D, from 38–42; the Senate 21–19, from 20–20. Mo — names "Statement of Vote"
 - `cal.1968-11-05.legislatures-ak` (Nov. 5, CIX 196811.yaml): Alaska. Democrats take the House, 22–18, from 15 D–25 R; the Senate stays Republican, 11–9. — names "Official Returns"
 - `cal.1968-11-05.legislatures-tn` (Nov. 5, CIX 196811.yaml): Tennessee's House elected 49 Republicans, 49 Democrats and an independent. Jan. 1969, the Republicans' William — names "Blue Book"
-- `cal.1969-01-07.governors-md` (Jan. 7, CXI 196901.yaml): Annapolis, Md. Agnew resigns as governor. The General Assembly, in joint session, elects Marvin Mandel, Speake — names "Journal of Proceedings"
 - `cal.1969-01-17.economy` (Jan. 17, CXI 196901.yaml): Barr to the Joint Economic Committee: 155 taxpayers with incomes over $200,000, 21 of them over $1 million, pa — names "Hearings"
 
 ## Threads
