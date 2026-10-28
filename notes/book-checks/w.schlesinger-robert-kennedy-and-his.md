@@ -398,7 +398,7 @@ views. Rows give page | date | event | ruling.
 - 829-30 | 1967 autumn, 11-03 | Goodwin's and Dutton's letters to RFK on running; Schlesinger's of Nov. 3 | private advice of persons out of office; passed
 - 848 | 1968-03-12 | Moyers to Schlesinger on Johnson | Moyers out of office; private remark; passed
 
-### Minor, re-ruled Oct. 29, 2026 under "The parties and the members" (228: entered 53, already in 22, minor 126, out of the brief 21, undated 3, a lead 3)
+### Minor, re-ruled Oct. 29, 2026 under "The parties and the members" (228: entered 52, already in 23, minor 126, out of the brief 21, undated 3, a lead 3)
 
 The first reading's 228 "minor" rows, re-ruled: "minor" now only private or social trivia, a repetition of a position already entered, or an operation below the calendar's level. The entries: inbox/2026-10-29-schlesinger-rfk-minor.yaml.
 
@@ -434,8 +434,8 @@ The first reading's 228 "minor" rows, re-ruled: "minor" now only private or soci
 - 334 | 1963-06-07/12 | Clarence Jones letter to NYT; RFK note to Marshall | out of the brief: a private citizen's letter to the Times, Check: printed?; Robert Kennedy's note to Marshall private
 - 340 | 1963-05-21 | Marshall memo to the Cabinet on Wallace (n.107) | entered: cal.1963-05-21.alabama-schools
 - 351 | 1963-08-15 | JFK to author: march size | minor: private remark, no act
-- 353 | 1961-05, 1962-02, 1962-05, 1962-10, 1962-11 | Hoover's notes on King; Reserve Index; COMINFIL opened; DeLoach call | entered: cal.1962-05.king; cal.1962-10.king; cal.1962-11.king; Hoover's marginal notes (May 1961, Feb. 1962) minor: marginalia, no act
-- 363 | 1963-12, 1964 | Time Man of the Year; Hoover's notes; Nov. 24, 1964 Chicago speech | entered: cal.1964-11-24.king; Hoover's note on Time's Man of the Year minor: marginalia
+- 353 | 1961-05, 1962-02, 1962-05, 1962-10, 1962-11 | Hoover's notes on King; Reserve Index; COMINFIL opened; DeLoach call | entered: cal.1962-05.king; cal.1962-10.king; cal.1962-11.antisubversion; Hoover's marginal notes (May 1961, Feb. 1962) minor: marginalia, no act
+- 363 | 1963-12, 1964 | Time Man of the Year; Hoover's notes; Nov. 24, 1964 Chicago speech | already in: cal.1964-11-24.civil-rights-the-executive (the book's citation added); Hoover's note on Time's Man of the Year minor: marginalia
 - 364 | 1964 | Russell briefed by Katzenbach (Nov. 1, 1963 per Church fn) | a lead: the day of Katzenbach's briefing of Russell (the book: during the civil rights debate; Katzenbach's interview with Hackman, 69-70)
 - 370 | 1961 early | RFK to Bailey on Pendergast (n.7) | already in: cal.1961-07-19.democratic-party
 - 372 | 1962-09-18 | primary night: RFK's call re Mark Howe | already in: cal.1962-09-18.democratic-party

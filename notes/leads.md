@@ -1695,6 +1695,43 @@ Searched in FRUS by text and date (sources/frus-text), the *Bulletin*'s index an
 - Johnson's Daily Diary beyond the National Archives Catalog's fifty days (discoverlbj.org refuses this environment):
   the dates Garrow gives for King's meetings at the White House to be set against it.
 
+### Schlesinger, *Robert Kennedy and His Times*, second reading (the re-ruling agent, Oct. 29, 2026; notes/book-checks/w.schlesinger-robert-kennedy-and-his.md)
+
+National:
+- The RFK Papers' memoranda and the Johnson Papers' memoranda the book cites (Watson, Roche, Rowe, Califano, Manatos,
+  McPherson, Wilson to Johnson; Kennedy's dictated memoranda of 1961-64): each in its entry's To check.
+- The Church committee's Hearings, vol. 6 (1975), 495-96, 509-10 (DeLoach's report on Atlantic City): not reached.
+- The Congressional Record's daily-edition pages the book gives (S2995-S3000, Mar. 2, 1967; S14894-97, Oct. 17, 1967;
+  S667-70, Jan. 23, 1967; 9609-20, May 9, 1966) against the bound Record's: the bound pages to be found for the entries
+  that do not yet cite them.
+- Undated in the book, to be dated from the press or the Record: the Appalachia amendment for thirteen New York counties
+  (Feb. 1965); the Morrissey nomination and withdrawal (1965); the Kennedy-Clark jobs bill and the tax-incentive bill
+  (1967); the University of Oklahoma and the Catholic college speeches (1967); RFK in Alabama (Mar. 1968); the Oakland
+  meeting (May 1968); Johnson's statement and O'Connor's against Kennedy (Mar. 1968).
+- Moynihan's speech to the ADA (Sept. 1967); Westmoreland's "pig in a poke" (Feb. 1967), at Johnson's direction
+  (Westmoreland, *A Soldier Reports*, 224).
+
+Foreign:
+- Kennedy's memoranda of his talks with Mitterrand, Malraux, Brandt and Saragat (Jan.-Feb. 1967), passed as repeating the
+  counsel entered; the Fanfani channel of Nov. 1965 (Kraslow and Loory, 132-33); Cabot's cable on the Polish visit
+  (1964); the South African government's refusal of visas (May 25, 1966).
+
+Access:
+- www.intelligence.senate.gov refused this environment's requests for the Church committee's PDFs (a bot check); not
+  tried further. The reports were read from archive.org's copies; the series links the Senate's copies. The JFK Library's oral-history pages are behind a bot check here
+  (not tried further). The Department of Justice's PDFs of Kennedy's speeches open.
+
+From the re-ruling of the "minor" rows (Oct. 29, 2026):
+- Castro in the Soviet Union, Apr. 27-June 3, 1963 (the book, 543): not in the calendar; its record for the Cuba thread.
+- Barghoorn's arrest, Oct. 31, 1963, and Kennedy's demand for his release (the book, 597): not in the calendar; FRUS 1961-63,
+  V, and the news conference of Nov. 14, 1963.
+- Harvey's protest to McCone of the Special Group's "tight controls" (the book, 479; Church committee, *Assassination
+  Plots*, 144-46): its day.
+- Katzenbach's briefing of Russell on the FBI's King tapes (the book, 364; Katzenbach's interview with Hackman, 69-70): its day.
+- Cox's speech proposing a delay of vital price and wage increases (the book, 406): its day and place (the book: June 1962,
+  the day the market fell). Robert Kennedy's defense of it at the White House, by Cox's account: its day.
+- Kennedy to Galbraith, Nov. 1961, "limits to the number of defeats" (the book, 705; Galbraith's interview of 1977): its day.
+
 ## The Executive roster
 
 - NSCID No. 1: the texts of 1958, 1964 and 1972 not in the file (`usib.yaml`). Open on archive.org, the CIA's CREST copies (Oct. 23, 2026): the text effective Feb. 17, 1972 (`CIA-RDP87B01034R000700020013-3`); a 1958 draft (`CIA-RDP85S00362R000600150011-7`, "Concurred in by the IAC 21 January"), with the drafts of 1957; for 1964 only Bundy's approval of the revisions, Mar. 27, 1964, "the President's decision of March 5, 1964 on the reorganization of the USIB" (`cia-readingroom-document-cia-rdp80b01676r000400180031-7`; the text exempt). FRUS 1964–68, XXXIII, doc. 196, n. 3: revised Jan. 18, 1961, and Mar. 4, 1964. Lay shown as the Board's Executive Secretary only for Mar. 1964, in a note.
