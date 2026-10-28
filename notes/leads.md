@@ -359,6 +359,13 @@ reports them (`notes/calendar-audit.md`).
   Joint Chiefs' history FRUS cites.
 - cal.1968-08-19.testing cites FRUS 1964–68, XIV, doc. 285, which is Rusk on the consulates, not Dobrynin's note
   (doc. 286).
+- House roll calls: three entries now give the Record's printed tallies against Voteview's file (Aug. 24 and Sept. 17,
+  1965; June 13, 1967). The calendar's other roll calls probably take Voteview's counts: a pass holding each to the
+  Record's printed tally (notes/disagreements-2026-10-28.md).
+- The Daily Diary days the National Archives Catalog lacks would settle cal.1963-12-03.foreign-aid,
+  cal.1965-07-29.medicare, cal.1965-08-05.economy and cal.1965-08-09.vietnam-congress.
+- 134 disagreement Checks remain open after stage 2 (notes/disagreements-2026-10-28.md): the *New York Times* and the
+  hearings they name were not read.
 
 - Caro, *The Passage of Power* (`w.caro-passage-of-power`; `notes/book-checks/caro-passage-of-power.md`), events the
   book gives without a day or that wait on a record: Johnson's secret meeting with Ben-Gurion at Fortas's house, Mar.
@@ -836,6 +843,9 @@ Searched in the Daily Digest (daybook/committees), the bound Record's days, the 
   Catalog.
 
 ## Foreign
+
+- The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
+  own?
 
 - Meeker's memorandum on the legality of the United States' part in Vietnam (State's Legal Adviser, *Bulletin*, Mar. 1966)
   is in daybook/opinions.yaml only: a pointer from the Senate Foreign Relations Committee's Vietnam hearings of Mar. 1966.
