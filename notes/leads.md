@@ -447,6 +447,19 @@ reports them (`notes/calendar-audit.md`).
 - Nov.–Jan. 1969: Nixon's White House staff appointments; Moynihan; Yost; Hickel's hearings; the Douglas Commission's report; Palach.
 - Gallup's releases of Jan. 1–20, 1969: the 1969 pages of *The Gallup Poll* not yet read.
 
+### The districts' partisan voting index (the PVI agent, Oct. 28, 2026; notes/extensions/memos/pvi-districts.md)
+
+- 1964 by district (for 1966-72): the Census's supplements to the 88th Data Book, *Redistricted States*, Nos. 8-32,
+  full view on HathiTrust (`mdp.39015084491953`; Nos. 1-7, `mdp.39015084491797`, print 1952-60 only), bot-checked
+  here: whether they print 1964 is not known. Else CQ Weekly Report's district returns after the 1964 election; the
+  compilations since (Park-Egan's atlas, Jacobson's file) only as checks against the Census volumes.
+- 1968 on the 92d's lines (for 1970): *Congressional District Data, Districts of the 92d Congress* (CDD-92, 1971-72),
+  HathiTrust `uc1.c025786080`, pts. 1-46, bot-checked; whether it prints the vote is not known.
+- 1972 by district (for 1974): the Census's *Congressional District Data, 94th Congress* (1974; LCCN 74603410), the
+  NRCC's *Vote Comparison*, CQ, Barone's *Almanac of American Politics* 1974: none searched open.
+- The split-county districts left "n.a." in 1962 and 1964: no source found that recomputes CQ's 1956 and 1960 figures
+  on the new lines.
+
 ### The 1960 Census and the reapportionment (Oct. 21, 2026)
 
 - `cal.1960-08.legislatures`: the day the Census Bureau released PC(P1)-1 (its press release; the *Times*, Aug. 1960).

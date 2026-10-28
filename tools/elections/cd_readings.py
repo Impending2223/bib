@@ -5,7 +5,8 @@ tools/elections/make_pvi.py (which refuses figures that do not add) and tools/bi
 
     load()             -> {source: data}, each file's YAML with `path`
     figures(data)      -> {(st, d): {year: {"t", "D", "R", "p"}}}: the district rows (0 the State column, or the at-large
-                          State's one column), a cell "fn" or "na" left as it is
+                          State's one column), a cell "fn" or "na" left as it is (and "A", where the volume's `fields`
+                          name the third party's column: the 1973 Data Book's American Independent Party)
     problems(data)     -> [(where, message)]: every way a file's figures fail to add
 
 STYLE
@@ -21,6 +22,12 @@ STYLE
     the larger of D and R over t (a warning: a printed percent is not used).
  3. A district the volume combines with another (`combined`: Texas's 8th and 22d before 1958) counts as zero in the
     sums: its figures stand under the other.
+ 5. A volume's cells follow its `fields` (default [t, D, R, p]; the 1973 Data Book [t, D, R, A, p], A the American
+    Independent Party's vote, item 16): every field but p is held to the State column, and D + R + A not over t.
+ 6. `as_printed: ["year field"]`: a State column that the districts do not make and no footnote explains, each figure
+    read again by eye off the page (Michigan's 1968 total, 2 over its districts): not held. `us_holds: false`: the
+    volume's United States figures are not the States' sum (the 1973 Data Book prints no District of Columbia column,
+    and its U.S. figures are not the States' plus the District's): recorded, not held (`us_note` says by how much).
 """
 import glob
 import os
@@ -30,6 +37,10 @@ import yaml
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 DIR = os.path.join(ROOT, "elections", "readings", "districts")
 FIELDS = ("t", "D", "R", "p")
+
+
+def fields(data):
+    return tuple(data.get("fields") or FIELDS)
 
 
 def load():
@@ -62,7 +73,7 @@ def figures(data):
     out = {}
     for st, e in (data.get("states") or {}).items():
         for d, row in (e.get("d") or {}).items():
-            out[(st, int(d))] = {int(y): dict(zip(FIELDS, cell)) for y, cell in row.items()}
+            out[(st, int(d))] = {int(y): dict(zip(fields(data), cell)) for y, cell in row.items()}
     return out
 
 
@@ -75,22 +86,25 @@ def problems(data):
     where = data.get("path", "?")
     years = [int(y) for y in data.get("years") or []]
     us = data.get("us") or {}
+    fl = fields(data)
+    summed = [f for f in fl if f != "p"]
     sums = {}
     for st, e in (data.get("states") or {}).items():
         rows = {int(d): {int(y): c for y, c in r.items()} for d, r in (e.get("d") or {}).items()}
-        bad = [d for d, r in rows.items() if sorted(r) != sorted(years) or any(len(c) not in (3, 4) for c in r.values())]
+        bad = [d for d, r in rows.items() if sorted(r) != sorted(years) or
+               any(len(c) not in (len(fl), len(fl) - 1) for c in r.values())]
         if bad:
-            out.append((where, f"{st}: rows {bad} are not [t, D, R(, p)] for each of {years}"))
+            out.append((where, f"{st}: rows {bad} are not {list(fl)} for each of {years}"))
             continue
         comb = set(e.get("combined") or [])
         for y in years:
-            for i, f in enumerate(("t", "D", "R")):
+            for i, f in enumerate(summed):
                 item = f"{y} {f}"
                 cells = {d: r[y][i] for d, r in rows.items()}
                 if 0 in cells and _num(cells[0]):
                     sums[(y, f)] = sums.get((y, f), 0) + cells[0]
                 ds = {d: v for d, v in cells.items() if d}
-                if not ds or not _num(cells.get(0)) or item in (e.get("footnoted") or []):
+                if not ds or not _num(cells.get(0)) or item in (e.get("footnoted") or []) + (e.get("as_printed") or []):
                     continue
                 if any(v in ("fn", "na") and d not in comb for d, v in ds.items()):
                     continue
@@ -98,9 +112,14 @@ def problems(data):
                 if s != cells[0]:
                     out.append((where, f"{st} {item}: the districts add to {s:,}; the State column prints {cells[0]:,}"))
             for d, r in rows.items():
-                t, dv, rv = r[y][:3]
-                if _num(t) and _num(dv) and _num(rv) and dv + rv > t and f"{d} {y}" not in (e.get("over") or []):
-                    out.append((where, f"{st} {d} {y}: D and R ({dv:,} and {rv:,}) exceed the total ({t:,})"))
+                c = dict(zip(fl, r[y]))
+                parts = [c.get(f) for f in summed[1:]]
+                t = c.get("t")
+                if _num(t) and all(_num(x) for x in parts) and sum(parts) > t and f"{d} {y}" not in (e.get("over") or []):
+                    out.append((where, f"{st} {d} {y}: {', '.join(summed[1:])} ({', '.join(f'{x:,}' for x in parts)}) "
+                                       f"exceed the total ({t:,})"))
+    if data.get("us_holds") is False:
+        return out
     for (y, f), v in sums.items():
         want = us.get(f"{f}{str(y)[2:]}")
         if want is not None and f in ("D", "R") and v != want:
@@ -114,11 +133,13 @@ def warnings(data):
     for st, e in (data.get("states") or {}).items():
         for d, r in (e.get("d") or {}).items():
             for y, c in r.items():
-                if len(c) < 4:
+                c = dict(zip(fields(data), c))
+                if "p" not in c:
                     continue
-                t, dv, rv, p = c
-                if all(_num(x) for x in (t, dv, rv, p)) and t and abs(100 * max(dv, rv) / t - p) > 0.11 \
+                t, p = c["t"], c["p"]
+                parties = [c[f] for f in fields(data) if f not in ("t", "p")]
+                if all(_num(x) for x in [t, p] + parties) and t and abs(100 * max(parties) / t - p) > 0.11 \
                         and f"{d} {y}" not in (e.get("percent_as_printed") or []):
                     out.append((data.get("path"), f"{st} {d} {y}: printed percent {p}; the figures give "
-                                                  f"{100 * max(dv, rv) / t:.1f}"))
+                                                  f"{100 * max(parties) / t:.1f}"))
     return out

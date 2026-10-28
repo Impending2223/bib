@@ -4,8 +4,9 @@ it (elections/pvi-districts.yaml, elections/cd-president.yaml). Not shown on any
 
 STYLE
  1. Errors: a reading's figures that do not add (cd_readings.problems: the districts to the State column, the States
-    to the printed United States figures, D and R not over the total unless `over` says the page prints it so); an
-    `eye`, `marks` or `over` entry naming no cell; a `pages` list that does not name every column once; a district the
+    to the printed United States figures unless the volume says `us_holds: false`, D and R (and A, where the volume's
+    `fields` hold it) not over the total unless `over` says the page prints it so); an `eye`, `marks`, `over` or
+    `as_printed` entry naming no cell; a `pages` list that does not name every column once; a district the
     Congress of the source's `lines` does not seat; a generated file missing, or made from other inputs (its `inputs`,
     a hash of every file make_pvi.py reads: cd_readings.inputs_hash).
  2. Warnings [pvi]: a printed percent the figures do not give, not listed in `percent_as_printed` (the percent is not
@@ -55,8 +56,12 @@ def problems(series=None):
                     continue
                 for ent in e.get(fld) or []:
                     p = str(ent).split()
-                    if len(p) != 3 or int(p[0]) not in rows or p[1] not in years or p[2] not in ("t", "D", "R", "p"):
+                    if len(p) != 3 or int(p[0]) not in rows or p[1] not in years or p[2] not in cd.fields(d):
                         out.append(("error", where, f"{st} {fld}: '{ent}' names no cell"))
+            for ent in e.get("as_printed") or []:
+                p = str(ent).split()
+                if len(p) != 2 or p[0] not in years or p[1] not in cd.fields(d):
+                    out.append(("error", where, f"{st} as_printed: '{ent}' names no State figure"))
             for ent in e.get("over") or []:
                 p = str(ent).split()
                 if len(p) != 2 or int(p[0]) not in rows or p[1] not in years:

@@ -20,8 +20,10 @@ STYLE
  1. Two-party share: the Democratic and Republican slates alone (elections/<year>.yaml, each slate's highest
     elector's vote, as the tables show it); the nation's from the same States' sums.
  2. A State where either party ran no slate of its own, or where an unpledged or third slate carried the State, has
-    no two-party share that year (Alabama 1960 and 1964, Mississippi 1960; Wallace's States, 1968): its PVI is
-    computed from the other year alone where that one is sound, and carries `basis` saying so; with neither, none.
+    no two-party share that year (Mississippi 1960, Alabama 1964; Wallace's States, 1968): its PVI is computed from
+    the other year alone where that one is sound, and carries `basis` saying so; with neither, none. Alabama's 1960
+    Democratic slate counts as the Democrats' (the 1963 Data Book's note, p. 7: "6 of the 11 Democratic electors were
+    not committed in advance to support the National candidate").
  3. Each row keeps the inputs: the two years' shares and the nation's, so a reader can check the arithmetic.
 
 DISTRICTS (the presidential vote by district, read off the Census's Data Books: elections/readings/districts/, its schema
@@ -49,6 +51,15 @@ in each file's header; tools/elections/cd_readings.py loads and holds them)
  8. Each district row keeps its inputs (the two years' shares, the source of each); every district of the Congress
     without a PVI is listed under `none` with the reason, so the counts can be read off.
  9. Refused: a source whose figures do not add (cd_readings.problems): the script stops and prints them.
+10. Each State column is held against the Clerk's returns (elections/<year>.yaml, the slates by party): every
+    difference is listed under the volume's `vs_clerk` in elections/cd-president.yaml ("GA 1956 D": [the volume's,
+    the Clerk's]). They are the sources' (CQ, America Votes, the NRCC against the Clerk), not misreadings: a State
+    column is held to its districts (cd_readings) or read by eye where a footnote says it is not their sum.
+    notes/extensions/memos/pvi-districts.md gives the large ones.
+11. A year whose State had no two-party race (STYLE 2) gives no district figure either: Alabama's 1964,
+    Wallace's five States of 1968; Mississippi's 1960 likewise.
+12. A State whose figures leave out a party line the candidate also ran on (`excludes` in the reading: New York's
+    Liberal line, 1968, in the 1973 Data Book) is taken as printed, the row's `basis` saying so.
 """
 import json
 import os
@@ -88,12 +99,34 @@ def shares(year):
     return out, nr / (nd + nr)
 
 
+_SLATES = {}
+
+
+def slates(year):
+    """{st: {party key: votes}} from elections/<year>.yaml ({} where the series holds no returns for the year)."""
+    if year not in _SLATES:
+        path = os.path.join(ROOT, "elections", f"{year}.yaml")
+        out = {}
+        if os.path.exists(path):
+            for s in yaml.safe_load(open(path, encoding="utf-8"))["president"]["states"]:
+                tot = {}
+                for x in s["slates"]:
+                    tot[x["k"]] = tot.get(x["k"], 0) + (x.get("v") or 0)
+                out[s["st"]] = tot
+        _SLATES[year] = out
+    return _SLATES[year]
+
+
 def label(v):
     if v is None:
         return None
     if abs(v) < 0.5:
         return "EVEN"
     return f"R+{round(v)}" if v > 0 else f"D+{round(-v)}"
+
+
+def ordinal(n):
+    return f"{n}{'st' if n % 10 == 1 and n % 100 != 11 else 'd' if n % 10 in (2, 3) and n % 100 not in (12, 13) else 'th'}"
 
 
 def congress_of(year):
@@ -142,8 +175,8 @@ def districts(cache):
 
     def figure(st, d, c, y):
         """(share, source) or (None, why)."""
-        why = "no source gives it"
-        for k, src in sorted(sources.items(), key=lambda kv: kv[1].get("lines") != c):
+        whys = []
+        for k, src in sorted(sources.items(), key=lambda kv: (kv[1].get("lines") != c, abs(kv[1].get("lines") - c))):
             if y not in (src.get("years") or []):
                 continue
             lines = src["lines"]
@@ -152,25 +185,26 @@ def districts(cache):
             if row is None and d == 0:
                 row = figs[k].get((st, 0))
             if row is None:
-                why = f"{k}: no such district on the {lines}th Congress's lines"
+                if st in (src.get("states") or {}):
+                    whys.append(f"{k}: no such district on the {ordinal(lines)} Congress's lines")
                 continue
             if c != lines and d != 0:
                 if not shape(c, st, d) or shape(c, st, d) != shape(lines, st, d):
-                    why = f"{k}: lines not the {lines}th Congress's"
+                    whys.append(f"{k}: lines not the {ordinal(lines)} Congress's")
                     continue
             if not src.get("recomputed") and d in ((src.get("redrawn") or {}).get(y) or {}).get(st, []):
-                why = f"{k}: redrawn after {y} (its note)"
+                whys.append(f"{k}: redrawn after {y} (its note)")
                 continue
             if f"{d} {y}" in ((src.get("states") or {}).get(st, {}).get("suspect") or []):
-                why = f"{k}: {y} suspect (as printed)"
+                whys.append(f"{k}: {y} suspect (as printed)")
                 continue
             cell = row.get(y) or {}
             dv, rv = cell.get("D"), cell.get("R")
             if not (isinstance(dv, int) and isinstance(rv, int)) or dv + rv == 0:
-                why = f"{k}: {y} not given ({dv if not isinstance(dv, int) else rv})"
+                whys.append(f"{k}: {y} not given ({dv if not isinstance(dv, int) else rv})")
                 continue
             return rv / (dv + rv), k
-        return None, why
+        return None, (whys[0] if whys else "no source gives the State")   # the reason of the nearest source holding it
 
     out = {"source": "elections/readings/districts/ (make_pvi.py, its STYLE 4-9)", "inputs": cd_readings.inputs_hash(),
            "nation": {y: {"r": round(100 * v, 2), "from": f} for y, (v, f) in sorted(nation.items())}, "elections": {}}
@@ -178,7 +212,9 @@ def districts(cache):
         c = congress_of(e)
         rows, none = {}, {}
         ss = []
-        for st, d in seats(c) or [(st, int(d)) for st, ds in (geo.get(str(c)) or {}).items() for d in ds]:
+        # without a roster (the 94th), the shapes: a State's "0" is its outline where it has districts too
+        for st, d in seats(c) or [(st, int(d)) for st, ds in (geo.get(str(c)) or {}).items() for d in ds
+                                  if d != "0" or set(ds) == {"0"}]:
             if set((geo.get(str(c)) or {}).get(st) or {}) == {"0"}:
                 d = 0          # the roster numbers the seats of a State chosen wholly at large (Hawaii's two)
             if (st, d) not in ss:
@@ -194,15 +230,22 @@ def districts(cache):
             state_b = cache[b][0].get(st, "x") if b in cache else "x"
             if sa is not None and sb is not None and state_a is not None and state_b is not None:
                 v, basis = 100 * ((sa + sb) / 2 - (nation[a][0] + nation[b][0]) / 2), f"{a} and {b}"
-            elif sb is not None and (state_a is None or (a in cache and st not in cache[a][0])):
+            elif sb is not None and state_b is not None and (state_a is None or (a in cache and st not in cache[a][0])):
                 why = "not yet voting" if a in cache and st not in cache[a][0] else "no two-party race in the State"
                 v, basis = 100 * (sb - nation[b][0]), f"{b} alone ({a}: {why})"
-            elif sa is not None and (state_b is None or (b in cache and st not in cache[b][0])):
+            elif sa is not None and state_a is not None and (state_b is None or (b in cache and st not in cache[b][0])):
                 why = "not yet voting" if b in cache and st not in cache[b][0] else "no two-party race in the State"
                 v, basis = 100 * (sa - nation[a][0]), f"{a} alone ({b}: {why})"
             else:
-                none[key] = "; ".join(f"{y}: {w}" for y, s_, w in ((a, sa, ka), (b, sb, kb)) if s_ is None)
+                why = [f"{y}: {w}" for y, s_, w in ((a, sa, ka), (b, sb, kb)) if s_ is None]
+                why += [f"{y}: no two-party race in the State" for y, s_, x in ((a, sa, state_a), (b, sb, state_b))
+                        if s_ is not None and x is None]
+                none[key] = "; ".join(why)
                 continue
+            note = "; ".join(sorted({sources[k_]["states"][st]["excludes"] for s_, k_ in ((sa, ka), (sb, kb))
+                                      if s_ is not None and (sources[k_].get("states") or {}).get(st, {}).get("excludes")}))
+            if note:
+                basis += f" (as printed: {note})"
             rows[key] = {"pvi": label(v), "points": round(v, 2), "basis": basis,
                          f"r{a}": None if sa is None else round(100 * sa, 2), f"r{b}": None if sb is None else round(100 * sb, 2),
                          "from": sorted({k for s_, k in ((sa, ka), (sb, kb)) if s_ is not None})}
@@ -210,9 +253,16 @@ def districts(cache):
                                "districts": rows, "none": none}
     fig = {"source": "elections/readings/districts/ (make_pvi.py)", "inputs": out["inputs"], "volumes": {}}
     for k, src in sources.items():
-        vol = {"lines": src["lines"], "years": src["years"], "districts": {}}
+        flds = [f for f in cd_readings.fields(src) if f != "p"]
+        vol = {"lines": src["lines"], "years": src["years"], "fields": flds, "vs_clerk": {}, "districts": {}}
         for (st, d), yrs in sorted(figs[k].items()):
-            vol["districts"][f"{st}-{d}"] = {y: [c.get("t"), c.get("D"), c.get("R")] for y, c in yrs.items()}
+            vol["districts"][f"{st}-{d}"] = {y: [c.get(f) for f in flds] for y, c in yrs.items()}
+            for y, c in yrs.items():          # STYLE 10: each State column against the Clerk's slates
+                clerk = slates(y).get(st) if d == 0 else None
+                for f in ("D", "R", "A"):
+                    if clerk is None or f not in c or not isinstance(c.get(f), int) or c[f] == clerk.get(f):
+                        continue
+                    vol["vs_clerk"][f"{st} {y} {f}"] = [c[f], clerk.get(f)]
         fig["volumes"][k] = vol
     return out, fig
 
@@ -255,7 +305,7 @@ def main():
                 "# By volume: each district's [total, Democratic, Republican] a year, as read (0 the State column).\n")
         yaml.safe_dump(fig, f, allow_unicode=True, sort_keys=False, width=120, default_flow_style=None)
     for e, x in dist["elections"].items():
-        print(f"  {e} ({x["congress"]}{"st" if x["congress"] % 10 == 1 else "d" if x["congress"] % 10 in (2, 3) else "th"} Congress): {x['computed']} districts, {x['without']} without")
+        print(f"  {e} ({ordinal(x['congress'])} Congress): {x['computed']} districts, {x['without']} without")
 
 
 if __name__ == "__main__":
