@@ -313,6 +313,10 @@ def run(series, only=None):
     from . import state_law
     for where, msg in state_law.problems():
         add(ERROR, where, msg, "state-law")
+    # the records the secondary works cite, and what for (sources/cited-records/; tools/bib/cited_records.py)
+    from . import cited_records
+    for where, msg in cited_records.problems(series):
+        add(ERROR, where, msg, "cited-records")
     # the Executive Branch (executive/*.yaml)
     from . import executive
     for where, msg in executive.problems(series):

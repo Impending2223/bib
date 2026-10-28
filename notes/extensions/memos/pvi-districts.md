@@ -1,15 +1,18 @@
-# PVI: shelved
+# PVI by State and district: what can be sourced
 
-The owner, Oct. 28, 2026: "Let's hold off on the PVI for now." Not run by the build, not shown, not checked.
+Shelved Oct. 28, 2026 ("Let's hold off on the PVI for now"), and taken off the shelf the same day ("If we can
+calculate the CD numbers, we should take the extension off the shelf and get started on it"): 1952–60 on the 87th
+Congress's lines are open in the Census's 1961 Data Book, so they can. The work: `tools/elections/make_pvi.py`,
+`elections/pvi.yaml`.
 
-## What is here
+## The State level (built)
 
-- `make_pvi.py`: each State's partisan voting index for the elections of 1962–74, the Cook construct as it stood
+- `tools/elections/make_pvi.py`: each State's partisan voting index for the elections of 1962–74, the Cook construct as it stood
   1997–2021 (the State's two-party Republican share of the presidential vote, the last two elections averaged, less the
   nation's; "R+5", "EVEN" under half a point). Its STYLE: the two-party share; a State without a two-party race in a
   year (Alabama 1960 and 1964, Mississippi 1960, Wallace's States 1968) computed from the other year alone, with
-  `basis`. Reads `elections/<year>.yaml`; no network. `python3 -I notes/extensions/shelf/pvi/make_pvi.py`.
-- `pvi.yaml`: its output. 1960 has none (the series holds no 1952 returns by State).
+  `basis`. Reads `elections/<year>.yaml`; no network. `python3 -I tools/elections/make_pvi.py`.
+- `elections/pvi.yaml`: its output. 1960 has none (the series holds no 1952 returns by State).
 
 ## The district level: the sources (searched Oct. 28, 2026)
 

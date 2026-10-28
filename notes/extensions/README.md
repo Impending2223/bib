@@ -17,13 +17,14 @@ future extension ideas and shelved drafts"). Three kinds:
 | [`military-oil-vietnam.md`](memos/military-oil-vietnam.md) (Oct. 20, 2026) | The war table (deaths, strength, the enemy and the allies, the air war); the forces a year under Armed Forces Day; the Oil group and the world's oil; the Vietnam field entries (in part) | §5, HES maps and a hamlet-security row (1967–Jan. 1969); tonnage (CACTA's DLTNS); armor; the CMH, OSD and USAF hosts refused here |
 | [`fiscal-congress-conventions-state.md`](memos/fiscal-congress-conventions-state.md) (Oct. 20, 2026) | State finance; the budgets, the debt limit acts, the bills' courses, the revenue effects; leaders and committees; the committees' meetings; the Republican convention of 1968; the *Bulletin* daybook and FRUS's printed concordance | The conventions of 1960, 1964 and Democratic 1968 (Bain and Parris, borrow only); *Current Documents* as a daybook list (no open scan) |
 | [`indicators-suggestions.md`](memos/indicators-suggestions.md) (Oct. 20, 2026) | The measures marked "Kept", and those marked "No" later built by `make_finance.py` | The London gold price (`gold-london`: no source); the first printings of the Economic Report's money and payments tables |
+| [`pvi-districts.md`](memos/pvi-districts.md) (Oct. 28, 2026) | The States' PVI, 1962–74 (`elections/pvi.yaml`, not shown) | The districts': under way, from the Census's Data Books |
 | [`ag-olc-opinions.md`](memos/ag-olc-opinions.md) (Oct. 23, 2026) | `daybook/opinions.yaml`, the opinions as entries and pointers | The opinions under `known` (no copy read) |
 
 ## Shelf
 
 | Draft | Shelved | Waits on |
 |---|---|---|
-| [`shelf/pvi/`](shelf/pvi/README.md): the States' PVI, 1962–74 | Oct. 28, 2026, by the owner | The district level: the Census's Congressional District Data Books (1961 and 1973 open), the 88th's and its supplements, CQ |
+| (none now: the PVI, shelved Oct. 28, 2026, came off the shelf the same day; its memo is `memos/pvi-districts.md`) | | |
 
 ## Ideas not yet a memo
 
