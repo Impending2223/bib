@@ -468,6 +468,16 @@ reports them (`notes/calendar-audit.md`).
   N.M., Pa., Mich., Tenn., Wyo., Wis. and Vt. election publications (no open copy found). The audit does not count a
   record on archive.org or a State or university host as a primary record (about ten entries a span).
 
+- 1967: the Apollo 204 hearings, House Apr. 10 (D144) and Senate Apr. 11 (D145), not in the calendar; the day of
+  Mills's statement (Oct. 7-8?); S. Res. 180 adopted 82-0, Nov. 30 (FRUS 1964-68, V, doc. 421), not in the calendar;
+  the Record still to be searched for Robert Kennedy's speech of Feb. 8, Ryan's letter of Oct. 12, *Meet the Press* of
+  Nov. 19, McCarthy's statement of Nov. 30, Tower of May 2; Johnson and Fulbright by telephone, June 19, 10:57 p.m.,
+  recorded (FRUS V, doc. 207), not in the calendar; Thompson at the luncheon of June 14, against the calendar's June
+  13 (doc. 193 n.3); the Pell-Bộ follow-ups of May 27, June 29, July 31 and Aug. 30 (doc. 214); the Hanoi bombing
+  restriction extended through Sept. 7 (doc. 308); *Current Documents, 1967* (pp. 843-44, 892-93, 925-26, 1038-39),
+  no open copy; the 1967 session laws of Ark., Colo., Tenn., Or. and Nev. (HathiTrust, bot-checked); the Daily Diary
+  open for 11 days of 1967 only.
+
 ### The official histories, reread (stage 3, Oct. 28-29, 2026; notes/book-checks/, one file a volume)
 
 Dated events the volumes give that the calendar lacks, each with the volume's page in its book-check file ("Passed
