@@ -347,6 +347,14 @@ reports them (`notes/calendar-audit.md`).
 
 ## National
 
+### The spot-check of Oct. 28, 2026 (notes/spot-check-2026-10-28.md)
+- Watson, *Into the Missile Age*, 350, names Gates's testimony of Jan. 25, 1960, before House Science and Astronautics:
+  narrow the Check on cal.1960-01-26.defense.
+- cal.1967-09-25.vietnam-congress: "47 other Republicans" against Gibbons's footnote list of 24 cosponsors; the Record.
+- No copy reached of Gibbons, pts. II and III, *Current Documents* 1963, or the Pentagon Papers (the Government's and
+  Gravel's editions): their pinpoints are unchecked.
+- Futrell, *The Advisory Years*: archive.org's text is badly garbled; read from the page images.
+
 - Caro, *The Passage of Power* (`w.caro-passage-of-power`; `notes/book-checks/caro-passage-of-power.md`), events the
   book gives without a day or that wait on a record: Johnson's secret meeting with Ben-Gurion at Fortas's house, Mar.
   1960 (81-82); Connally's and India Edwards's press conference on Kennedy's Addison's disease, just before July 5,
