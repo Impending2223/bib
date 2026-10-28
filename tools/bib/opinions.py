@@ -1,7 +1,7 @@
 """The opinions of the Attorney General and the Office of Legal Counsel, 1960-69: daybook/opinions.yaml (kept by hand;
 its header is the schema), logged in each day's Documents block as a list of their own, "Opinions" (daybook STYLE 12).
 
-The record (notes/proposals/ag-olc-opinions.md, the memo on what the Attorneys General and the Office did by opinion):
+The record (notes/extensions/memos/ag-olc-opinions.md, the memo on what the Attorneys General and the Office did by opinion):
   - the Official Opinions of the Attorneys General: vol. 41 (Jan. 1, 1949, to Dec. 31, 1960) for 1960, vol. 42 (Jan. 1,
     1961, to June 30, 1974, with one opinion of Nov. 30, 1960) for the rest; Google's scans on archive.org (item
     op-atty-gen, files 041 and 042), read page by page; every opinion of 1960-69 in them is a row (44);

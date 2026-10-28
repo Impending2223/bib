@@ -560,7 +560,7 @@ printing, or not in at all (all on FRASER, open; not reached in the time):
 - The Minerals Yearbook pages for reserves (oil-reserves rows): 1960, 1965–68 checked against the page images; 1961–64
   placed by the page headers in archive.org's OCR (II, 365, 382, 398, 391) Check.
 - The Kuwait and Saudi finds as they bore on policy, Algeria's and Nigeria's exports, Abu Dhabi's first oil, the
-  Iranian consortium's quotas: not entered (the memo's item 3, `notes/proposals/military-oil-vietnam.md`).
+  Iranian consortium's quotas: not entered (the memo's item 3, `notes/extensions/memos/military-oil-vietnam.md`).
 
 ### Leaders and committees (the rosters of Oct. 21, 2026)
 

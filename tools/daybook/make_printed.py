@@ -19,7 +19,7 @@ slightly different text is printed in ..."; not "For text of the joint communiqu
 in ...". The Bulletin's citations take a link to the Boston Public Library's copy on archive.org at the printed page
 (tools/bib/printed.py, `bulletin_url`, from sources/dsb-pages.json), and a `check` where the date is no issue's (the
 issues: sources/dsb-issues.yaml) or the page is not in that issue's pages. Nothing is linked for *Current Documents*:
-no open copy found (notes/proposals/fiscal-congress-conventions-state.md, section 6).
+no open copy found (notes/extensions/memos/fiscal-congress-conventions-state.md, section 6).
 
 Rendered by tools/bib/printed.py (its STYLE notes), under each FRUS document in the daybook.
 """
