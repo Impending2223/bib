@@ -45,8 +45,8 @@ The claude.ai artifacts named in `series.yaml` are frozen copies of Oct. 1, 2026
 | `executive/` | the Executive Branch, a file a department or agency: its offices, their law, their holders |
 | `daybook/` | the Public Papers, FRUS and White House recordings by date (generated), the Sunday programs, the abstracts |
 | `indicators/` | the economic series, a file a series: first reported, released, revised; `concepts.yaml`, the statement of their concepts and sources |
-| `sources/` | the indexes the build reads (the Biographical Directory, FRUS's lists of persons, POCOM, the Public Papers' names, statute links) and the hand-kept registers (State returns, name forms, matches) |
-| `notes/` | the owner's brief, the thread framings, the calendar audit, the works inventory, the briefs for fact-checking and the Executive roster |
+| `sources/` | the indexes the build reads (the Biographical Directory, FRUS's lists of persons, POCOM, the Public Papers' names, statute links) and the hand-kept registers (State returns, State laws, name forms, matches) |
+| `notes/` | the listings of [the States' election sources](notes/state-sources.md) and [the States' laws and constitutions](notes/state-law-sources.md) (generated from `sources/states.yaml` and `sources/state-law.yaml`); the owner's brief, the thread framings, the calendar audit, the works inventory, the briefs for fact-checking and the Executive roster |
 | `templates/` | the page templates and the shared roster styles |
 | `tools/bib/` | the code behind `./bib`; `tools/*/` the scripts that made or refresh the data (most run once; their docstrings say) |
 | `inbox/` | patch files waiting to be merged |

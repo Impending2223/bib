@@ -23,7 +23,8 @@ STYLE
    only where its State is meant: a calendar entry tagged `state:<xx>`, a specials or readings key of the State, a
    governors race of the State; one without a space (an address, an id) counts anywhere. A copy's address counts
    anywhere, its fragment and page parameters aside (a search page's address never).
-3. A match inside a Check sentence ("Check: ...", "check against ...") is a pointer, not a use. The sentence runs to
+3. A match inside a Check sentence ("Check: ...", "check against ...") is a pointer, not a use; "To check:" (the works
+   not yet read, CLAUDE.md "Hard and soft") is neither a Check nor a pointer. The sentence runs to
    the next full stop that ends a word of four letters or more, a closing parenthesis or bracket, or an italic title.
    "The State's canvass" (the governors' races) names the State's publications that print the governor's race.
 4. Order: States by postal code as the register has them, publications as the register lists them, entries by id.
@@ -152,7 +153,7 @@ def line_units(kind, f):
 def check_spans(text):
     """The Check sentences of a text, as (start, end)."""
     spans = []
-    for m in re.finditer(r"\b[Cc]heck(?:s)?(?::| against| it)", text):
+    for m in re.finditer(r"(?<!To )\b[Cc]heck(?:s)?(?::| against| it)", text):     # not "To check:" (works unread)
         j = m.end()
         while True:
             k = text.find(".", j)

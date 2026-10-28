@@ -309,6 +309,10 @@ def run(series, only=None):
         add(ERROR, where, msg, "sources")
     for where, msg in sources.warnings():         # the listings made from the registers (notes/state-*.md)
         add(WARN, where, msg, "state-sources")
+    # the register of the States' laws and constitutions (sources/state-law.yaml; tools/bib/state_law.py)
+    from . import state_law
+    for where, msg in state_law.problems():
+        add(ERROR, where, msg, "state-law")
     # the Executive Branch (executive/*.yaml)
     from . import executive
     for where, msg in executive.problems(series):

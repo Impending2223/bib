@@ -8,6 +8,21 @@ reports them (`notes/calendar-audit.md`).
 
 ## States and cities
 
+### The States' laws and election sources (Oct. 28, 2026; sources/state-law.yaml, sources/states.yaml)
+- Recorded "other" after two failures, perhaps less than an hour apart: Kentucky's acts page (403), Missouri's molaws
+  (proxy 502), Utah's Pioneer service (503), docs.legis.wisconsin.gov (connection reset). Retry an hour apart.
+- No free copy found of Oklahoma's, Nebraska's or Rhode Island's session laws (Rhode Island's State Library's digital
+  run begins 1981).
+- Statutes to read for the authority: the Washington, Idaho and Wyoming session-law sections; the Code of Iowa 1958,
+  ch. 14; New York's, Mississippi's and Texas's codes (no open copy found).
+- The journal clauses of the remaining constitutions, from the open blue books of the 1960s (Georgia, Maryland,
+  Missouri, Iowa, Wisconsin).
+- The calendar's journal Checks naming journals the register lacks: Florida House 1968, Georgia House 1967, and the
+  Tennessee, Oklahoma, Maryland and Kentucky pointers.
+- 67 State-record Checks rest on an assumed source (notes/state-sources.md): most city boards' returns for mayors (New
+  York, Los Angeles, Pittsburgh, Chicago, Cleveland, Kansas City, St. Louis), and State archival series whose finding
+  aids are unread (Texas primaries, Michigan's canvassers, Alabama, Kentucky, Utah, Georgia, Oklahoma).
+
 ### Governors barred from another term (Oct. 24, 2026; elections/term-limits.yaml)
 - Georgia's 1945 provision and when succession was allowed (legis.ga.gov bot-checked); Tennessee's art. III, § 4 as
   amended (sos.tn.gov refuses this environment); New Mexico's art. V, § 1 as it stood in 1966.

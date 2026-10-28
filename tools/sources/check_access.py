@@ -3,6 +3,7 @@
     python3 tools/sources/check_access.py              report only: State, host, old access -> new access
     python3 tools/sources/check_access.py --write      also write the new access and today's date back
     python3 tools/sources/check_access.py --st CT NH   only these States
+    python3 tools/sources/check_access.py --law        the law register (sources/state-law.yaml) instead
 
 Access, as recorded in the register (sources/states.yaml, header):
     open      the page answers 200 with content
@@ -33,6 +34,7 @@ import os
 import re
 import subprocess
 import sys
+import time
 
 import yaml
 
@@ -42,7 +44,7 @@ UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chr
 
 
 CHALLENGE = re.compile(r"(?i)making sure you(?:&#39;|')re not a bot|/turnstile/|_Incapsula_Resource|awswaf|"
-                       r"<title>just a moment|cf-chl-|challenge-platform")
+                       r"<title>just a moment|cf-chl-|challenge-platform|validating your request")
 
 
 SYSTEM_CA = "/etc/ssl/certs/ca-certificates.crt"
@@ -141,17 +143,22 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("--write", action="store_true")
     ap.add_argument("--st", nargs="*")
+    ap.add_argument("--law", action="store_true", help="the law register, sources/state-law.yaml")
     a = ap.parse_args()
+    global REG
+    if a.law:
+        REG = os.path.join(ROOT, "sources", "state-law.yaml")
     reg = yaml.safe_load(open(REG, encoding="utf-8"))
     today = datetime.date.today().isoformat()
     changes = {}
     for s in reg:
         if a.st and s["st"] not in a.st:
             continue
-        for src in s.get("sources", []):
+        for src in (s.get("items") if a.law else s.get("sources")) or []:
             for o in src.get("online", []) or []:
                 if o.get("access") == "borrow" or not o.get("url") or str(o.get("host", "")).startswith("Google Books"):
                     continue
+                time.sleep(1)                   # one request at a time, a second apart
                 new, detail = probe(o["url"])
                 mark = "" if new == o.get("access") else "  <- was " + str(o.get("access"))
                 print(f"{s['st']:3} {new:9} {detail:>6}  {o['url']}{mark}")
