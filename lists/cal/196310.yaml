@@ -36,7 +36,6 @@ entries:
       rows:
         - 'https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=817: B-D'
         - 'https://history.state.gov/historicaldocuments/frus1961-63v04/d167: all'
-        - 'w.miller-misalliance 300–02: all'
         - 'w.gibbons-u-s-government-and II, 184–187: all'
         - 'w.futrell-united-states-air-force 190: A-C'
         - 'via w.futrell-united-states-air-force 190 n.27a: A, C'
@@ -52,6 +51,8 @@ entries:
         - 'via w.schulimson-joint-chiefs-of-staff 381 n.113a: A, C'
         - 'via w.schulimson-joint-chiefs-of-staff 381 n.113b: A, C'
         - 'https://history.state.gov/historicaldocuments/frus1961-63v04/d170: all'
+        - 'w.miller-misalliance 300–02: all'
+        - 'via w.miller-misalliance 301 n.72: all'
     tags: [name:mcnamara-robert-s, name:taylor-maxwell, name:kennedy-john-f]
   - id: cal.1963-10-02.opinion
     when: Oct. 2
@@ -59,6 +60,20 @@ entries:
     thread: opinion
     c: 'Gallup, Sept. 12–17: the most important problem, racial problems, 52 percent; international problems, 25; unemployment, 5; taxes, 5. The Democrats better able to handle it, 30; the Republicans, 20.'
     n: '[[w.gallup-poll]], III, 1842.'
+  - id: cal.1963-10-02.vietnam-saigon
+    when: Oct. 2
+    date: '1963-10-02'
+    thread: vietnam-saigon
+    c: 'Conein meets Trần Văn Đôn by chance at the Saigon airport, the CIA''s first contact with the generals since August. That night at Nha Trang, an hour alone, cleared by Trueheart, Conein to elicit information only: Dương Văn Minh wants to see him, Oct. 5 at the Joint General Staff; the generals "now have a plan."'
+    n: '[FRUS 1961–63, IV, doc. 171](https://history.state.gov/historicaldocuments/frus1961-63v04/d171) (the station, Oct. 3). [[w.miller-misalliance]], 311 (the encounter, the first contact since August; the meeting that evening; Minh''s wish to see Conein; a new plan). To check: "Contacts with Vietnamese Generals, 23 August through 23 October 1963," Oct. 23, 1963, DDRS; Conein''s testimony before the Senate Select Committee on Intelligence Activities, June 20, 1975, box 47, Church Committee Records, NARA (both cited by [[w.miller-misalliance]], 311 n.109). See [[cal.1963-05-08.vietnam]]. Names: Conein, Trần Văn Đôn, Trueheart, Dương Văn Minh.'
+    src:
+      c: ced96bcb
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v04/d171: all'
+        - 'w.miller-misalliance 311: all'
+        - 'via w.miller-misalliance 311 n.109a: all'
+        - 'via w.miller-misalliance 311 n.109c: all'
+    tags: [name:conein-lucien, name:tran-van-don, name:trueheart-william-c, name:duong-van-minh, place:saigon, place:nha-trang]
   - id: cal.1963-10-03.latin-america
     when: Oct. 3
     date: '1963-10-03'
@@ -84,7 +99,15 @@ entries:
     date: '1963-10-05'
     thread: vietnam
     c: Conein with Dương Văn Minh at Minh's headquarters, cleared by Lodge. Minh must know the American position on a change of government; no support asked, only assurance it will not be thwarted. Three plans, the first the assassination of Nhu and Ngô Đình Cẩn, Diệm kept in office.
-    n: '[FRUS 1961–63, IV, doc. 177](https://history.state.gov/historicaldocuments/frus1961-63v04/d177). [[w.miller-misalliance]], 311–12. See [[cal.1963-05-08.vietnam]]. Made public: [[w.pentagon-papers]], vol. 2, 767–68 (1971). Names: Conein, Dương Văn Minh, Lodge, Nhu, Ngô Đình Cẩn, Diệm.'
+    n: '[FRUS 1961–63, IV, doc. 177](https://history.state.gov/historicaldocuments/frus1961-63v04/d177). [[w.miller-misalliance]], 311–12 (the meeting; the American position asked; assassination among the scenarios). To check: "Contacts with Vietnamese Generals, 23 August through 23 October 1963," Oct. 23, 1963, DDRS; Conein''s testimony before the Senate Select Committee on Intelligence Activities, June 20, 1975, box 47, Church Committee Records, NARA (both cited by [[w.miller-misalliance]], 311 n.109). See [[cal.1963-05-08.vietnam]]. Made public: [[w.pentagon-papers]], vol. 2, 767–68 (1971). Names: Conein, Dương Văn Minh, Lodge, Nhu, Ngô Đình Cẩn, Diệm.'
+    src:
+      c: 52c85ac7
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v04/d177: all'
+        - 'w.miller-misalliance 311–12: A-B, D'
+        - 'via w.miller-misalliance 311 n.109a: A'
+        - 'via w.miller-misalliance 311 n.109b: all'
+        - 'via w.miller-misalliance 311 n.109c: A'
     tags: [name:conein-lucien, name:duong-van-minh, name:lodge-henry-cabot, name:ngo-dinh-nhu, name:ngo-dinh-can, name:ngo-dinh-diem, place:saigon]
   - id: cal.1963-10-05.king
     when: Oct. 5
@@ -107,7 +130,13 @@ entries:
     thread: mississippi
     also: [civil-rights-organizations]
     c: 'Jackson, the Masonic Temple. COFO''s convention opens the Freedom Ballot campaign: a platform against the literacy test, for a State farm loan program and a federal minimum wage of $1.25; Aaron Henry nominated for governor.'
-    n: '[[w.dittmer-local-people]], 200–202. See [[cal.1963-08-06.mississippi-ms]]. Names: Henry.'
+    n: '[[w.dittmer-local-people]], 200–202. To check: SNCC press release, "COFO Maps," and Edwin King, "Freedom Vote," unpublished manuscript, 1969, 40 (cited by [[w.dittmer-local-people]], 202 n.18). See [[cal.1963-08-06.mississippi-ms]]. Names: Henry.'
+    src:
+      c: 420cdac8
+      rows:
+        - 'w.dittmer-local-people 200–202: all'
+        - 'via w.dittmer-local-people 202 n.18a: C'
+        - 'via w.dittmer-local-people 202 n.18b: C'
     tags: [state:ms, city:jackson, name:henry-aaron]
   - id: cal.1963-10-07.baker
     when: Oct. 7
@@ -142,6 +171,13 @@ entries:
     thread: vietnam
     c: 'CIA to Lodge, thoughts "discussed with President": "While we do not wish to stimulate coup, we also do not wish to leave impression that U.S. would thwart a change of government or deny economic and military assistance to a new regime if it appeared capable of increasing effectiveness of military effort ..."'
     n: '[FRUS 1961–63, IV, doc. 192](https://history.state.gov/historicaldocuments/frus1961-63v04/d192); [doc. 182](https://history.state.gov/historicaldocuments/frus1961-63v04/d182) (CAP 63560, Oct. 5: no active covert encouragement to a coup; contacts with possible alternative leadership). [[w.miller-misalliance]], 311. See [[cal.1963-05-08.vietnam]]. Made public: [[w.pentagon-papers]], vol. 2, 769 (1971). Names: Lodge.'
+    src:
+      c: e25c2430
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v04/d192: all'
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v04/d182: all'
+        - 'w.miller-misalliance 311: all'
+        - 'via w.miller-misalliance 311 n.109d: all'
     tags: [name:lodge-henry-cabot, name:kennedy-john-f]
   - id: cal.1963-10-10.king
     when: Oct. 10
@@ -156,18 +192,19 @@ entries:
     date: '1963-10-11'
     thread: vietnam
     c: NSAM 263. The report's military recommendations approved Oct. 5; the 1,000 to come out by the end of the year, without formal announcement. Lodge instructed to press Diệm by selective cuts in aid.
-    n: '[NSAM No. 263](https://history.state.gov/historicaldocuments/frus1961-63v04/d194) (Oct. 11, 1963) (K–J Adm. II.H.2). FRUS 1961–63, IV, docs. [179](https://history.state.gov/historicaldocuments/frus1961-63v04/d179), [181](https://history.state.gov/historicaldocuments/frus1961-63v04/d181). [[w.miller-misalliance]], 312–13; [[w.gibbons-u-s-government-and]], II, 188; [[w.schulimson-joint-chiefs-of-staff]], 381–384 (the approval of Oct. 5; the instructions). To check: [[w.newman-jfk-and-vietnam]]; [[w.chomsky-rethinking-camelot]]; [[w.logevall-vietnam-and-the-question]]; [[w.moise-jfk-and-the-myth]]; [[w.blight-vietnam-if-kennedy-had]]; [[w.selverstone-its-a-date]]; [[w.selverstone-kennedy-withdrawal]]; Taylor to CINCPAC and COMUSMACV, "Approved Actions for South Vietnam," Oct. 5, 1963, Taylor Records, RG 218, NARA (cited by [[w.schulimson-joint-chiefs-of-staff]], 383 n.120). See [[cal.1963-09-21.vietnam]]. Names: McGeorge Bundy, Lodge, Ngô Đình Diệm.'
+    n: '[NSAM No. 263](https://history.state.gov/historicaldocuments/frus1961-63v04/d194) (Oct. 11, 1963) (K–J Adm. II.H.2). FRUS 1961–63, IV, docs. [179](https://history.state.gov/historicaldocuments/frus1961-63v04/d179), [181](https://history.state.gov/historicaldocuments/frus1961-63v04/d181). [[w.miller-misalliance]], 312–13 (the cuts approved Oct. 5; Lodge to let Diệm learn of them without a call); [[w.gibbons-u-s-government-and]], II, 188; [[w.schulimson-joint-chiefs-of-staff]], 381–384 (the approval of Oct. 5; the instructions). To check: [[w.newman-jfk-and-vietnam]]; [[w.chomsky-rethinking-camelot]]; [[w.logevall-vietnam-and-the-question]]; [[w.moise-jfk-and-the-myth]]; [[w.blight-vietnam-if-kennedy-had]]; [[w.selverstone-its-a-date]]; [[w.selverstone-kennedy-withdrawal]]; Taylor to CINCPAC and COMUSMACV, "Approved Actions for South Vietnam," Oct. 5, 1963, Taylor Records, RG 218, NARA (cited by [[w.schulimson-joint-chiefs-of-staff]], 383 n.120). See [[cal.1963-09-21.vietnam]]. Names: McGeorge Bundy, Lodge, Ngô Đình Diệm.'
     src:
       c: 5afa97de
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v04/d194: all'
         - 'https://history.state.gov/historicaldocuments/frus1961-63v04/d179: all'
-        - 'w.miller-misalliance 312–13: all'
         - 'w.gibbons-u-s-government-and II, 188: all'
         - 'w.schulimson-joint-chiefs-of-staff 381–384: B-D'
         - 'via w.schulimson-joint-chiefs-of-staff 382 n.117: B'
         - 'via w.schulimson-joint-chiefs-of-staff 382 n.118: D'
         - 'via w.schulimson-joint-chiefs-of-staff 383 n.120: C'
+        - 'w.miller-misalliance 312–13: B, D'
+        - 'via w.miller-misalliance 312 n.115: B, D'
     tags: [name:kennedy-john-f, name:bundy-mcgeorge, name:lodge-henry-cabot, name:ngo-dinh-diem]
   - id: cal.1963-10-11.program
     when: Oct. 11
@@ -270,6 +307,30 @@ entries:
     thread: opinion
     c: 'Gallup, Aug. 15–20: would vote for a well-qualified Jew nominated by their party, 77 percent; for a Negro, 47, against 45 who would not; for a woman, 55, against 41.'
     n: '[[w.gallup-poll]], III, 1846.'
+  - id: cal.1963-10-23.vietnam
+    when: Oct. 23
+    date: '1963-10-23'
+    thread: vietnam
+    c: 'Lodge with Harkins, afternoon. Harkins, with Trần Văn Đôn on Oct. 22, warned him of a colonel''s approach to an American officer, to keep the officers from bringing politics to Americans. Lodge: the United States will not initiate a coup, but under instructions from the highest levels will not thwart a change of government promising a more effective war. Harkins regrets it; he will tell Đôn his remarks were not the government''s thinking.'
+    n: '[FRUS 1961–63, IV, doc. 209](https://history.state.gov/historicaldocuments/frus1961-63v04/d209) (editorial note: Lodge''s telegram, Oct. 23). [[w.miller-misalliance]], 315 (Harkins''s warning to Đôn, Oct. 22; Lodge had not told Harkins the coup was in hand again). See [[cal.1963-05-08.vietnam]]. Names: Lodge, Harkins, Trần Văn Đôn. Check: Miller gives the colonel as one of Đôn''s staff planning a coup; FRUS, Col. Khuong''s approach to an American officer (doc. 206).'
+    src:
+      c: f25e31e6
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v04/d209: all'
+        - 'w.miller-misalliance 315: B'
+    tags: [name:lodge-henry-cabot, name:harkins-paul-d, name:tran-van-don, place:saigon]
+  - id: cal.1963-10-23.vietnam-saigon
+    when: Oct. 23
+    date: '1963-10-23'
+    thread: vietnam-saigon
+    c: 'Conein with Trần Văn Đôn, the night of Oct. 23, at Đôn''s request. Đôn troubled by Harkins''s discouragement of a coup the day before; Conein: Harkins''s remarks inadvertent and contrary to the President''s guidance. Conein asks again for the plans.'
+    n: '[FRUS 1961–63, IV, doc. 209](https://history.state.gov/historicaldocuments/frus1961-63v04/d209) (editorial note: the station''s telegram, undated). [[w.miller-misalliance]], 315 (the meeting; Harkins''s warning; "inadvertently"; the United States not to thwart a coup). To check: Trần Văn Đôn, *Our Endless War* (1978), 98 (cited by FRUS 1961–63, IV, doc. 209). See [[cal.1963-05-08.vietnam]]. Names: Conein, Trần Văn Đôn, Harkins.'
+    src:
+      c: 40b1e628
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v04/d209: all'
+        - 'w.miller-misalliance 315: A-C'
+    tags: [name:conein-lucien, name:tran-van-don, name:harkins-paul-d, place:saigon]
   - id: cal.1963-10-24.program
     when: Oct. 24
     date: '1963-10-24'
@@ -305,7 +366,24 @@ entries:
     thread: vietnam
     c: 'Lodge with Diệm, a Sunday, by plane and helicopter to Dalat. No idea of Lodge''s accepted; asked for one thing to reassure American opinion, Diệm offers nothing. Lodge: Diệm "cut off from present" and "simply unbelievably stubborn."'
     n: 'FRUS 1961–63, IV, docs. [221](https://history.state.gov/historicaldocuments/frus1961-63v04/d221) (Lodge, Oct. 28), [220](https://history.state.gov/historicaldocuments/frus1961-63v04/d220). [[w.miller-misalliance]], 316–17. See [[cal.1963-05-08.vietnam]]. Names: Lodge, Diệm.'
+    src:
+      c: 94625ec0
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v04/d221: all'
+        - 'w.miller-misalliance 316–17: all'
+        - 'via w.miller-misalliance 317 n.130: all'
     tags: [name:lodge-henry-cabot, name:ngo-dinh-diem, place:dalat]
+  - id: cal.1963-10-27.vietnam-saigon
+    when: Oct. 27
+    date: '1963-10-27'
+    thread: vietnam-saigon
+    c: 'At the airport, 7 a.m., officials seeing off Diệm and Lodge: Trần Văn Đôn asks Lodge whether Conein speaks for him; yes. Đôn: it must be thoroughly Vietnamese, the United States not to interfere or stimulate a coup; the army has lost its drive; "we must win before you Americans leave." Lodge: the United States will not thwart; let me see your plans.'
+    n: '[FRUS 1961–63, IV, doc. 224](https://history.state.gov/historicaldocuments/frus1961-63v04/d224) (Lodge, Oct. 28). To check: Trần Văn Đôn, *Our Endless War* (1978), 98 (cited by FRUS 1961–63, IV, doc. 224). See [[cal.1963-05-08.vietnam]]. Names: Trần Văn Đôn, Lodge, Conein, Diệm. Check: the day: Lodge''s telegram of Oct. 28 says "0700 Monday" (Oct. 28); his report of the trip with Diệm dates it Sunday, Oct. 27 (doc. 221).'
+    src:
+      c: 3418b24a
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v04/d224: all'
+    tags: [name:tran-van-don, name:lodge-henry-cabot, name:conein-lucien, name:ngo-dinh-diem, place:saigon]
   - id: cal.1963-10-28.cities-and-housing-nyc
     when: Oct. 28
     date: '1963-10-28'
@@ -328,6 +406,19 @@ entries:
     c: 'After the weekend''s stories of Ellen Rometsch, deported in August, Robert Kennedy asks Hoover to have the Senate leaders keep sex out of the Rules Committee''s inquiry. Hoover sees Mansfield and Dirksen: nothing in it touches the national security.'
     n: '[[w.caro-passage-of-power]], 290–91. Check: the FBI''s record of the meeting. See [[cal.1963-10-07.baker]]. Names: Robert Kennedy, Hoover, Mansfield, Dirksen.'
     tags: [name:kennedy-robert-f, name:hoover-j-edgar, name:mansfield-mike, name:dirksen-everett]
+  - id: cal.1963-10-28.vietnam-saigon
+    when: Oct. 28
+    date: '1963-10-28'
+    thread: vietnam-saigon
+    c: Conein with Trần Văn Đôn, the night of Oct. 28, at Đôn's initiative. Lodge has vouched for Conein; the only way to win before the Americans leave in 1965 is to change the regime. The plans to Lodge perhaps only four hours before; nothing in the next 48 hours; Conein to stay home from the evening of Oct. 30. The units Đôn knows of; Đình watched, to be eliminated if he wavers.
+    n: '[FRUS 1961–63, IV, doc. 225](https://history.state.gov/historicaldocuments/frus1961-63v04/d225) (Lodge, Oct. 29). [[w.miller-misalliance]], 315–16 (the meeting; the plans withheld, the four hours; home from Oct. 30; Đình under watch, 315). To check: Trần Văn Đôn, *Our Endless War* (1978), 98–99 (cited by FRUS 1961–63, IV, doc. 225). See [[cal.1963-05-08.vietnam]]. Names: Conein, Trần Văn Đôn, Lodge, Tôn Thất Đình. Check: Miller''s "the entire Ngo family had to be eliminated" not in the declassified text (doc. 225, para. 6 withheld).'
+    src:
+      c: 89bd9e2b
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v04/d225: all'
+        - 'w.miller-misalliance 315–16: A, D, F, H'
+        - 'via w.miller-misalliance 316 n.127: A, D, F'
+    tags: [name:conein-lucien, name:tran-van-don, name:lodge-henry-cabot, name:ton-that-dinh, place:saigon]
   - id: cal.1963-10-29.civil-rights-bill
     when: Oct. 29
     date: '1963-10-29'
@@ -356,6 +447,17 @@ entries:
     thread: africa-algeria-morocco
     c: A cease-fire agreed at Bamako (Check). Nov. 1, the State Department's support for it.
     n: '[FRUS 1961–63, XXI, doc. 28](https://history.state.gov/historicaldocuments/frus1961-63v21/d28) (circular, Nov. 1). See [[cal.1963-10-08.africa]].'
+  - id: cal.1963-10-30.vietnam-saigon
+    when: Oct. 30
+    date: '1963-10-30'
+    thread: vietnam-saigon
+    c: 'Gia Long Palace. Rufus Phillips with Diệm, at Diệm''s summons, after Phillips''s complaint of the *Times of Viet Nam*''s charges of an American conspiracy: Diệm apologizes; he had not known of the article. Diệm: "Do you think there will be a coup?" Phillips: "I am afraid so, Mr. President."'
+    n: '[[w.miller-misalliance]], 316 (by Phillips''s account). To check: [[w.phillips-why-vietnam-matters]], 201–02 (cited by [[w.miller-misalliance]], 316 n.128). See [[cal.1963-05-08.vietnam]]. Names: Phillips, Diệm.'
+    src:
+      c: dc4b0e5a
+      rows:
+        - 'w.miller-misalliance 316: all'
+    tags: [name:phillips-rufus, name:ngo-dinh-diem, place:saigon]
   - id: cal.1963-10-31.program
     when: Oct. 31
     date: '1963-10-31'

@@ -79,3 +79,116 @@ Eisenhower and Heller entries: it agrees but for Heller's minute.
 The merge's duplicate flags are false: `cal.1963-11-23.succession-2` (Eisenhower) is not `cal.1963-11-23.succession`
 (McCone's briefing), and `cal.1964-08-25.elections-1964-2` (Johnson's statement that he will not run) is not
 `cal.1964-08-25.elections-1964` (Robert Kennedy for the Senate): `./bib resolve ID --take keep`.
+
+## Second pass, Oct. 29, 2026 (the rules of Oct. 28: claim maps, cited records, Passed over)
+
+Patch `inbox/2026-10-29-backfill-thousand-days-vantage.yaml` (patch `backfill-thousand-days-vantage`, with
+Schlesinger's).
+
+**Maps.** Every calendar entry citing the book with a pinpoint was reread against its page and given a claim map
+(`src`): 80 entries edited, 50 of them finer than the whole entry. `cal.1965-07-01.vietnam` left unmapped: 144–53
+treat the decision of July 20–28, none of the entry's units (the four papers of July 1); the card stays in its note as
+the event's bibliography. Moved out of "To check" with pinpoints: `cal.1963-12-23.foreign-aid` (40),
+`cal.1965-07-29.medicare` (217–18); added: `cal.1963-11-26.trade` (39). Where the book and the calendar part:
+
+| Entry | The calendar | Johnson | Ruling |
+|---|---|---|---|
+| `cal.1963-11-26.trade` | the Mundt amendment refused, 57–35 (Voteview) | 57 to 36 (39) | the roll call stands; noted here |
+| `cal.1968-03-04.vietnam` | the draft: some 262,000 reservists (FRUS VI doc. 103) | "about 245,000" | Check appended |
+| new `cal.1968-03-10.vietnam-205000` | — | lunch with Rusk (402) | Check: Rusk, testifying the next day, as Johnson quotes him (403), "yesterday afternoon after he got back from church" |
+| new `cal.1968-03-19.open-housing` | — | the first test vote in Rules, lost by one vote (178) | the Digest (114 Cong. Rec. D110): final action deferred to Apr. 9; both cited, Check |
+| `cal.1964-12-02.medicare` | Mills at Little Rock, Dec. 2 | Mills announced "publicly" Nov. 11, 1964 that he would bring Medicare up (214) | not entered; Check for the next reader: one statement or two |
+
+**Cited records** (`sources/cited-records/johnson-vantage-point.yaml`). The book has no source notes; its footnotes
+explain or point to the appendix. Logged where a footnote gives a record behind an entry: Clifford's memorandum of
+talking points for Robert Kennedy, July 29, 1964 (100 n., found and read: the appendix, 576–77); Juanita Roberts's note
+appended to the statement of Aug. 25, 1964 (97 n., not found); Johnson's memorandum for the file, Dec. 18, 1967 (377 n.,
+found: FRUS 1964–68, V, doc. 441); the *New York Times*, Feb. 6, 1968, on Nixon at Green Bay (399 n., not read). The
+unnumbered note's key is `star`, the dagger's `dagger`.
+
+**New entries (45)**, the informal record the book dates, and (the owner's rule of Oct. 29) the members' and the
+parties' word: El Paso, June 5, 1963, and the date fixed in October; Lady Bird Johnson's memorandum, May 14, 1964;
+McCone with Johnson, Feb. 3, 1965 (FRUS II docs. 61–62); Mills's promise, Jan. 5, 1965; Russell's statement on the
+civil rights bill, Jan. 24, 1964; Albert to O'Brien on the tax, Aug. 30, 1966; Camp David on the nonproliferation
+treaty, Oct. 1–2, 1966; the second letter to Hồ, Apr. 6, 1967; the New York State Democratic dinner, June 3, 1967;
+Glassboro arranged, June 22, 1967 (FRUS XIV doc. 227); Nixon at Green Bay, Feb. 5, 1968; the March of 1968: Mar. 8,
+10, 11 (FRUS VI doc. 120), 15 (doc. 130), Goldberg's telegram of Mar. 15 (doc. 131), Rusk to Bunker, Mar. 16 (doc.
+137), the leaders in the evening of Mar. 19, Bunker's answer and Clifford's call, Mar. 20 (docs. 145, 146), Mar. 22
+(doc. 149), Russell, Mar. 29, Clifford to Armed Services, Mar. 30; Rules on the civil rights bill, Mar. 19 and Apr. 9
+(the Daily Digest); the surcharge: Smathers–Williams offered, Mar. 22, Mills, Apr. 11, Appropriations, May 1, Ways and
+Means, May 6 (Digest), the conferees, May 9 (Digest), Sanders's memorandum, May 9, the Cabinet, May 14, the leadership
+breakfast, May 21; the candidates: Rockefeller, June 10 (1968–69 Pub. Papers 700), McCarthy, June 11, Billy Graham with
+Nixon's message, Sept. 13; the transition: Murphy's instruction, Sept. 9, his memorandum, Oct. 10, Zwick's, Oct. 23,
+the Cabinet, Dec. 4, the evening of Dec. 12, the Medals of Freedom, Jan. 20, 1969.
+
+The merge flags some of these as possible duplicates of the same day's entry in the thread (the Mar. 1968 meetings, the
+surcharge of Mar. 22, May 1 and May 9, June 11, Jan. 20, 1969): each is another event; `./bib resolve ID --take keep`.
+
+## Passed over
+
+How the list was made: as Schlesinger's (618 day-dated mentions). Not listed: what the calendar holds, citations,
+dates used as terms, repeats, month-only mentions. Re-ruled under the rule of Oct. 29: the campaign stops, the parties'
+dinners and the members' words, once "minor", are leads or entries.
+
+| Page | Date | Event | Why |
+|---|---|---|---|
+| 20, 26 | 1963-11-22 | Johnson's evening at home; to Moyers | minor (private) |
+| 33 | 1963-11-26 | Mrs. Kennedy's letter to Johnson | minor (private) |
+| 68 | 1964-08-12 | Johnson to the American Bar Association | lead (Public Papers) |
+| 76 | 1964-01-31 | A memorandum: keep the poverty program out of the departments | lead (author not named) |
+| 77–78 | 1964-03-17 | House hearings on the poverty bill open; McNamara | lead (the Digest's list) |
+| 80 | 1964-07-31 | O'Brien's head count: the House deadlocked | lead (the count not seen) |
+| 85 | 1967-06-29 | Partnership for Health | minor |
+| 103, 105, 108 | 1964-10-24; 09-28; 10-07 | Television to the young; New England and Midwest tours | lead (the campaign; Public Papers) |
+| 113 | 1964-08-03 | McNamara on 34A to Foreign Relations, closed | lead |
+| 133–34 | 1965-04-01, 04-09, 04-20 | The seventeen nations' appeal; Peking, Moscow, Hanoi on it | lead |
+| 139 | 1965-03-17 | Westmoreland asks a Marine battalion near Huế | lead (FRUS II) |
+| 142–43 | 1965-06-09; 06-27–30; 06-28 | Statement on combat support; War Zone D; Taylor on Kỳ | lead |
+| 156 | 1962-05-19 | Vice President Johnson to the equal employment conference | lead |
+| 161, 163 | 1964-11; 1965-03-14 | Katzenbach told to draft a voting bill; the draft near done | lead (month); minor |
+| 168 | 1967-03-10 | Clark Attorney General | lead |
+| 185–86 | 1964-02-05, 02-13, 02-21, 04-01 | Johnson in New York; Castro offers water; the fishermen's case dropped; desalination begun | minor; lead; lead; minor |
+| 191–94 | 1965-04-26, 27 | The embassy's reports; Bennett's house hit; a policeman killed | below the calendar's level |
+| 197 | 1963-10-12 | McNamara and the Chiefs on readiness in the Caribbean | lead |
+| 202–3 | 1965-05-01, 05-07, 05-29, 06-03, 08-09; 02-12 | The OAS committee; Imbert sworn; Alvim; the committee in Santo Domingo; García Godoy proposed; Vaughn for Mann | lead |
+| 210, 212 | 1965-01-22; 1965-12-18 | House hearings on Medicare open; Howe to Education | lead |
+| 212 | 1964-12-27 | A letter from Auburn, Wash. | minor (private) |
+| 215, 219 | 1965-03-15; 07-27 | Mills's target date; Johnson calls Truman | minor |
+| 226, 230 | 1965-11-25, 12-11; 1967-01-15 | The Subramaniam–Freeman agreement; the wheat moved; Eugene Rostow on India's food | lead |
+| 233 | 1965-11-07 | McNamara's memorandum on a pause | lead (FRUS III) |
+| 240, 262 | 1966-02-28; 10-03 | Bundy resigns; Katzenbach Under Secretary | lead |
+| 242, 247 | 1966-01-15; 06-07 | Kỳ to the Armed Forces Congress; the drafting committee's rules | out of the brief; minor |
+| 263–64 | 1966-07-13; 1967-08-03; 09-06 | McNamara's "complete accord"; 45,000 more men; the observers' report | lead |
+| 271, 278 | 1967-01-31; 1961-01 | The astronauts buried; a NASA administrator sought | minor; lead |
+| 281–83 | 1961-04-28; 1963-07-29, 31; 1966-03-16 | Johnson's space report; the moon memoranda; the Space Club | lead |
+| 289–96 | 1967-05-12, 17, 22; 06-01, 04 | Eshkol's warning; Johnson to Eshkol, to Kosygin; the maritime declaration | lead; minor (June 4) |
+| 308–9 | 1967-01-26; 02-23, 24, 27 | The German cabinet; McCloy on offset; the leaders on NATO | out of the brief; lead |
+| 312–13 | 1967-05-11, 16 | The Kennedy Round's last instructions; the leaders' breakfast | lead |
+| 315 | 1965-06-16; 1967-11-17 | Johnson to Fowler on monetary reform (597–98); devaluation foreseen | lead |
+| 322, 333 | 1965-07-27; 1967-09-12; 10-02 | The Cabinet; Wirtz's proposal; the job plan in five cities | lead |
+| 341 | 1967-11-15; 1969-01-16 | The meat act; the last Thursday's ceremony | lead |
+| 348, 352 | 1966-04-01, 04-15; 1961-04-02–05 | Illia's proposal; Mexico City; the Vice President at Dakar | lead |
+| 356–58 | 1965-12-04; 1966-06-16; 1967-08-08 | The Asian Development Bank; ASPAC; ASEAN | lead; out of the brief |
+| 363 | 1966-11-02 | Home from Asia | minor (the trip is in) |
+| 367–69 | 1967-05-09; 08-09–24 | State's memorandum; the Hanoi circle | lead |
+| 371 | 1967-11-21 | The breakfast on the speed-up | lead (informal record, not yet entered) |
+| 401 | 1968-03-06, 07, 08, 10 | Rusk's cable held; soundings of diplomats; Harriman's | minor (Mar. 6); lead |
+| 404–5 | 1968-03-18, 23; 03-09 | The neutral diplomat with Rusk; Bunker on his plan; Khe Sanh's numbers | lead; below the level |
+| 413–21 | 1968-03-21, 23, 25, 29 | Thiệu; McPherson's memorandum (FRUS VI doc. 152); Rusk's comments (doc. 153); Bunker's weekly report | lead; minor (Mar. 29 report) |
+| 414, 433 | 1968-03-25; 02-05, 17 | A businessman's letter; *U.S. News*; Rowan's column | minor |
+| 426 | 1968-05-31 | Hoover's report on racial violence | lead |
+| 444–47 | 1966-03-12; 1967-06-14; 08-02 | Ackley's memorandum; Trowbridge; the tax message drafted | lead; lead; minor |
+| 448 | 1967-08-14 | Ways and Means opens its hearings on the surcharge | in the day's committee list (113 Cong. Rec. D415) |
+| 453, 463–90 | 1968-01-08; 1963-10-10, 12-11; 1964-02-22, 03-02, 04-17, 06-01; 1965-04-29; 1966-12-05; 1967-05-19, 08-10; 1968-11-29 | Zwick for Schultze; the test ban in force; Halaby at Moscow; the production cuts; the cultural agreement; the consular convention; the Miller report; the treaty's language; letters to Kosygin; Foster; Gromyko | lead |
+| 508 | 1968-05-07, 12 | The attacks on the cities | lead |
+| 543 | 1965-07-16, 19 | Galbraith on Goldberg; to Illinois with Goldberg | lead |
+| 550 | 1969-01-17; 1968-10-04, 12-23 | The last Cabinet; Wiggins to the UN; Barr to Treasury | lead |
+| 558 | undated | Wirtz and the Employment Service | undated |
+
+## Leads (second pass)
+
+- The candidates' briefings of 1968: the logs of Johnson's seven calls to Nixon, Aug.–Nov. (554), not found.
+- The tax of 1968: the House Appropriations Committee's resolution of May 1 (454) is in no Digest row found; the Record.
+- Mills's public statement on Medicare, Nov. 11, 1964 (214), against Little Rock, Dec. 2: the press.
+- Philip Graham's offer, June 23, 1960 (90), and the statement he helped draft: Johnson's papers, Senate series.
+- The second letter to Hồ, Apr. 6, 1967: its delivery and return in Moscow; FRUS 1964–68, V, holds no document of the day.

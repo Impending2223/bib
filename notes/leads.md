@@ -449,6 +449,12 @@ reports them (`notes/calendar-audit.md`).
 
 ### The books read again (stage 5, Oct. 29, 2026; the leads at the end of each book's notes/book-checks/ file)
 
+- Dittmer and Miller: de Gaulle's statement of Aug. 29, 1963; the *Washington Daily News* on Richardson, Oct. 2, 1963;
+  FRUS 1961-63, III, docs. 274-75; the Nolting-Diệm talks of Nov.-Dec. 1961; the Mississippi regulars' endorsement of
+  Goldwater; Kennedy's news conference of Mar. 21, 1963 on the Civil Rights Commission's hearings (an `also` and a
+  sentence on `cal.1963-03-21.cuba`); the Daily Diary's backup for Aug. 15-26, 1964; the FBI's file on the Freedom
+  Democrats.
+
 - Frankum, *Victory in Vietnam*, Johns: Hanoi's Politburo decisions not entered, and Hồ's appeals of 1965, 1966 and
   1968; Nam Bắc, 1966-68; Market Time; the target list of June 1964; the herbicide decision of 1961; the Laos side of
   Eisenhower and Kennedy's Camp David talk of Apr. 22, 1961; O'Donnell's account of Kennedy to Mansfield, Dec. 1962, and

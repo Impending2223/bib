@@ -88,3 +88,74 @@ book's civil contempt finding of the same day is not in the opinion, which has t
 Check); PRDE's two Kennedy–Thompson calls, June 18, 1963 (the book: June 17); S. Rep. No. 94-755, Book II, 117–19
 (1976) (the FBI's squad at Atlantic City, Aug. 22, 1964); *Hamer v. Campbell*, 358 F.2d 215 (5th Cir. 1966) (the
 Sunflower election, May 2, 1967). The rest rest on the book alone, with Checks where it dates loosely.
+
+## Stage 5: the second reading (Oct. 29, 2026)
+
+Read again through, text and notes, from the Drive copy's text layer (printed page = PDF page - 13 to p. 142, - 21
+to p. 314, - 29 after; notes at PDF 468-540, by "Notes to Pages"), for every calendar entry citing the book and for
+what the calendar lacks, 1960-68: the Justice Department, the FBI, the White House, Barnett and Paul Johnson, the
+Mississippi delegation, and (the owner's rule of Oct. 29 on the parties and the members) the State's regulars, the
+Freedom Democrats, the Loyalists and the national party. Patch: `inbox/2026-10-29-backfill-dittmer-miller.yaml`.
+
+Rulings. 83 entries reread; claim maps (`src`) written for each, parentheticals where a page bears part of the entry.
+The book taken out of "To check:" where read and found not to treat the matter: Jan. 21, 1964 (`mississippi-ms`),
+Mar. 6, 1964 (`voting-rights`), Aug. 24, 1964 (Greenville court), Dec. 4, 1964 (the Neshoba arrests). Check added to
+Sept. 7, 1961: the book's sheriff John Q. Wood is the registrar in the Fifth Circuit's case. The rest hold, most in
+part.
+
+Records: 118 described in `sources/cited-records/dittmer-local-people.yaml`, nearly all in the movement's papers,
+the Mississippi press, the FBI's files and interviews, not reachable here; found: the President's Daily Diary of June
+23, 1964 (NAID 192440; not read), the Church Committee's report (read, cited), a Public Papers item (read, cited).
+The unread joined "To check:" with the page and note.
+
+New entries (31). The informal record: May 1961 (Robert Kennedy and Barnett, through Eastland); July 14, 1961
+(Marshall to White); Sept. 24, 1961 (Doar with Moses and Steptoe); Dec. 15, 1962, Mar. 26 and 29, 1963 (the Civil
+Rights Commission's Mississippi hearings); Apr. 2, 1963 (Stennis on the floor); Apr. 3, 1963 (Doar and Greenwood);
+Nov. 12, 1963 (Robert Kennedy on Hannah); Sept. 23 and 28, 1964 (McComb); Feb. 14, 1966 (the Greenville air base).
+The parties and the members: Mar. 15, 1964 (COFO decides the challenge); June 16 and 23, 1964 (the precinct and
+county meetings); July 20, 22 and 27, 1964 (Hughes, the FBI's name check, Rolvaag); July 28, 1964 (the regulars'
+convention); Aug. 13 (Paul Johnson's assurance), Aug. 18 (the Oval Office strategy session), Aug. 21 (twenty-five
+Democrats in Congress), Aug. 23 (the Green proposal), Aug. 24 (Humphrey with the Freedom Democrats; Hamer); Feb. 1965
+(Walker and Eastland on the contests); Nov. 1965 (Wynn's loyal Democrats with Humphrey); June 1967 (Edward Kennedy
+for the Young Democrats); Sept. 17, 1967 (Guyot: the 1968 challenge); Sept. 1967 (the Young Democrats' convention);
+Jan. 1968 (Charles Evers for Congress); June 1968 (the Loyalist coalition). Threads `democratic-party` and
+`elections-1964`/`1968` by `also:`.
+
+### Passed over
+
+Made by scripts listing every dated mention in the text and every sentence naming a party, a convention, a member
+of the delegation or the governors, each judged against `./bib find -l cal --since ... --until ...`. Not given rows:
+the local movement's incidents (arrests, beatings, mass meetings, Freedom Days) below the calendar's level, and the
+NAACP's, SNCC's and COFO's internal affairs, as in the first reading.
+
+| page | date | event | why |
+|---|---|---|---|
+| 105 | July 1961 | Justice's suit in Walthall County | a lead |
+| 179-80 | 1960-62 | Rogers's request to Lynd; the suits against him, summer 1961 and 1962 | a lead |
+| 196 | Mar. 21, 1963 | Kennedy's news conference: the hearings not to be delayed | already in under `cal.1963-03-21.cuba` (the same conference); a lead to add the statement and `also` |
+| 196-97 | July 17, 1963; Oct. 23, 1963 | Marshall's and Robert Kennedy's memoranda on the Commission | leads |
+| 220 | Jan. 6, 1964 | The Supreme Court on Lynd | a lead |
+| 224 | early 1964 | Dennis's telegram to the President and the Attorney General | a lead |
+| 250 | June 23, 1964 | Johnson with Eastland and Hoover, by telephone | already in (June 23-24) |
+| 286 | summer 1964 | Oregon's, Michigan's and New York's conventions for seating the Freedom Democrats | undated |
+| 287 | Sept. 1964 | The regulars reconvene and endorse Goldwater | a lead (undated in the book) |
+| 322 | fall 1964 | The national campaign gives the Freedom Democrats no recognition | undated |
+| 348 | early 1965 | The Young Democrats' clubs reorganized | undated |
+| 371, 377 | June 29 and Aug. 5, 1965 | Paul Johnson to Shriver on CDGM; Cotter's report to Stennis | the first already in (June 29, 1965); the second a lead |
+| 417 | 1964 | John Bell Williams endorses Goldwater | undated |
+| 420 | spring 1968 | The regulars' conventions; Evers and Page resign | a lead (undated) |
+| 138, 143-45, 333-35 | 1962-65 | The shots into the McDonalds' house, Sept. 1962; the Leflore commodities cut-off, winter 1962-63; Freeman and the ASCS elections | leads |
+
+## Leads (stage 5)
+
+- States and cities: Justice's Walthall suit (July 1961) and the Lynd suits (1961, 1962) and the Supreme Court's order of
+  Jan. 6, 1964 (the dockets); the shots into the McDonalds' house, Sept. 1962; the Leflore County commodities cut-off, winter
+  1962-63; the regulars' reconvened convention and its Goldwater endorsement, Sept. 1964 (*Jackson Daily News*); the
+  regulars' conventions of 1968, Evers's and Page's resignations.
+- National: Kennedy's news conference of Mar. 21, 1963 on the Commission's hearings (1963 Pub. Papers; the existing
+  entry `cal.1963-03-21.cuba`); Marshall's memorandum of July 17, 1963 and Robert Kennedy's of Oct. 23, 1963 (JFK
+  Library); Dennis's telegram of early 1964 (224); the President's Daily Diary and backup, Aug. 15-26, 1964 (LBJ Library;
+  not among the Catalog's 50 days); Valenti to Johnson, July 20, 1964, and Rolvaag to Jenkins, July 27, 1964 (WHCF,
+  LBJ Library); the FBI's MFDP file, 62-109555; Cotter's report to Stennis, Aug. 5, 1965 (377); Freeman on the ASCS
+  elections (333-35); Wynn to Humphrey, Nov. 29 and Dec.
+  7, 1965 (LBJ Library); the twenty-five members' statement of Aug. 21, 1964 (its signers).

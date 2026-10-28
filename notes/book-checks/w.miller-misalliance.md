@@ -60,3 +60,65 @@ doc. 135) where Miller, 227, has him beheaded; Nhu wanting half the Americans ou
 n. 2, quotes it) where Miller, 258, has "at least 50 percent" of the advisers "not absolutely necessary"; the
 guidance of Oct. 9 (FRUS IV, doc. 192), which Miller, 311, calls a White House cable. The book's own inconsistency on
 the Don–Conein talk (July 4 at 284–85, "three days" before July 11 at 286) is a lead, not an entry.
+
+## Stage 5: the second reading (Oct. 29, 2026)
+
+Read again through, text and notes, from the Drive copy's text layer (printed page = PDF page - 9; notes at the
+back, by chapter), for every calendar entry citing the book and for what the calendar lacks, Jan. 1960-Nov. 1963.
+Patch: `inbox/2026-10-29-backfill-dittmer-miller.yaml`.
+
+Rulings. 44 entries reread; claim maps (`src`) written for each, parentheticals where a page bears part of the entry.
+The cite taken out of Mar. 22, 1962 (Sunrise): the book does not treat the day. Check added to May 11, 1961: FRUS
+1961-63, I, doc. 53 has Nolting's credentials presented May 10. The rest hold, most in part.
+
+Records: 76 described in `sources/cited-records/miller-misalliance.yaml`; 54 found (FRUS, chiefly), 51 read and cited
+first in their entries; the rest (the Central Files, DDRS, the Church Committee's records, the Vietnamese archives,
+the Saigon press) joined "To check:".
+
+New entries (16), each on its FRUS record where one exists: Feb. 13, 1961 (the Counterinsurgency Plan to Diệm); May
+12, 1961 (Johnson with Diệm); Nov. 15, 1961 (the NSC); Feb. 3, 1962 (the Interministerial Committee); Apr. 4, 1963
+(Nolting with Diệm); July 7, 1963 (Tâm Châu's letter); Aug. 26 (Lodge's decision; Conein with Khiêm), Aug. 27 (Lodge
+with Nhu), Sept. 2 (Lodge with Nhu), Sept. 18 (Alsop's column on Nhu and Maneli); Oct. 2 (Conein with Đôn), Oct. 23
+(Lodge with Harkins; Conein with Đôn), Oct. 27 (Đôn with Lodge at the airport), Oct. 28 (Conein with Đôn), Oct. 30
+(Phillips with Diệm), Nov. 1 (Diệm with Lodge, the morning). The Saigon side's are in the ghost subthread
+`vietnam-saigon`. The parties and the members (the owner's rule of Oct. 29): the book treats no party or member
+within its span beyond Mansfield's report (in, Dec. 26, 1962 and Feb. 24, 1963).
+
+### Passed over
+
+Made by a script listing every dated mention in the text pages (195-332), each judged against `./bib find -l cal
+--since ... --until ...`. Not given rows: the Vietnamese-side background before 1960 and the mentions of entries
+already in.
+
+| page | date | event | why |
+|---|---|---|---|
+| 205 | Aug. 1960 | Rebel attack on an ARVN outpost in Quảng Nam | below the calendar's level (an engagement) |
+| 258 | May 10, 1963 | A Pentagon spokesman: forces in Vietnam to be cut within "one to three years" | a lead |
+| 269 | June 1, 1963 | Second clash at Huế; Diệm removes officials, Đặng Sĩ among them | a lead |
+| 269 | June 5-6, 1963 | Agreement in principle with the Buddhists; Diệm's radio address | a lead |
+| 273 | July 7, 1963 | Nhất Linh's suicide | out of the brief (Saigon's own) |
+| 274 | Aug. 4, 1963 | Nhu's interview hinting at a coup to crush the Buddhists | a lead |
+| 275 | Aug. 4-18, 1963 | Phan Thiết self-immolation; the Xá Lợi rally, Aug. 18 | a lead |
+| 281 | Aug. 1963 | Tuyến's plot set for Aug. 15, put off | a lead (CIA reporting) |
+| 284-86 | July 4 or 8, 1963 | Đôn with Conein at the Caravelle | a lead (the book dates it both ways) |
+| 287 | Aug. 23, 1963 | Kim with Phillips; Đôn with Conein (FRUS III, docs. 274, 275) | a lead |
+| 295 | Sept. 2, 1963 | *Times of Viet Nam*: "CIA Financing Planned Coup D'Etat" | a lead |
+| 298 | Sept. 7-9, 1963 | Thục leaves for Rome; Madame Nhu leaves on her tour | out of the brief (travel) |
+| 300 | Sept. 24-Oct. 1, 1963 | McNamara-Taylor mission | already in (Sept. 21, 29; Oct. 2) |
+| 306 | Aug. 29, 1963 | De Gaulle offers to host talks on reunification and neutrality | a lead |
+| 306 | mid-Sept. 1963 | The Lalouette-Maneli initiative ends | a lead |
+| 313 | Oct. 2, 1963 | *Washington Daily News* names Richardson as station chief | a lead (the leak; the article not read) |
+| 313 | Oct. 8, 1963 | Report of Nhu planning an attack on the embassy | a lead |
+
+## Leads (stage 5)
+
+- Foreign: Nolting's talks with Diệm, Nov. 25-Dec. 3, 1961 (FRUS 1961-63, I, docs. 278, 305); Harkins's memorandum of
+  conversation, Sept. 10, 1962; Diệm's break with Laos, Oct. 1962; the Pentagon statement of May 10, 1963 (DoD's
+  release; *Times of Viet Nam*); Huế, June 1, and the agreement of June 5-6, 1963 (FRUS III); Nhu's interview of Aug.
+  4, 1963; Tuyến's plot (CIA, early Aug. 1963); Kim-Phillips and Đôn-Conein, Aug. 23, 1963 (FRUS III, docs. 274, 275);
+  de Gaulle's statement, Aug. 29, 1963 (FRUS IV); the *Times of Viet Nam* article, Sept. 2, 1963; the *Washington
+  Daily News* on Richardson, Oct. 2, 1963; the station's report of Oct. 8, 1963 (FRUS IV); the Đôn-Conein talk of
+  July 4 or 8, 1963.
+- Sources not reached: "Contacts with Vietnamese Generals, 23 August through 23 October 1963" (DDRS CK3100385029);
+  Conein's testimony to the Church Committee, June 20, 1975 (NARA, JFK Assassination Collection); Trần Văn Đôn, *Our
+  Endless War* (1978), 98-99, cited by FRUS IV for Oct. 23, 27 and 28.
