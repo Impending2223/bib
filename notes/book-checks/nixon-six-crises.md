@@ -1,7 +1,7 @@
 # Richard M. Nixon, *Six Crises* (1962): the reading of Jan. 6, 1960–1962
 
 Card `w.nixon-six-crises`. Read Oct. 29, 2026 (batch 3). Patch: `inbox/2026-10-29-b3-six-crises.yaml` (b3-six-crises;
-37 entries edited, 34 added). Records: `sources/cited-records/nixon-six-crises.yaml` (15).
+37 entries edited, 36 added). Records: `sources/cited-records/nixon-six-crises.yaml` (15).
 
 ## The copy, and how much of it was read
 
@@ -31,9 +31,9 @@ Papers 836, 846; the President's News Conference of Mar. 21, 1962, 1962 Pub. Pap
 of 1960 are linked by the titles and dates in `sources/app-index.jsonl`, never read (CLAUDE.md, "The Public Papers").
 The Library of Congress's Meet the Press inventory (`daybook/sunday.yaml`) has Nixon the guest on Sept. 11, 1960.
 
-## The citations it had (fifteen calendar entries; three with pages, all three wrong for this copy)
+## The citations it had (fourteen calendar entries; three with pages, all three wrong for this copy)
 
-`./bib works show w.nixon-six-crises` lists only the Opp. listing; the fifteen calendar cites were found by grep.
+`./bib works show w.nixon-six-crises` lists only the Opp. listing; the fourteen calendar entries citing it were found by grep.
 
 | Entry | Ruling |
 |---|---|
@@ -92,7 +92,7 @@ n.12: **Check added**, Nixon puts the call to the White House in May); `cal.1961
 - Not entered: the convention nominated Nixon "by acclamation" (317); `cal.1960-07-26.elections-1960` gives the roll,
   1,321 to 10 (the motion to make it unanimous not in the entry).
 
-## New entries (thirty-four)
+## New entries (thirty-six)
 
 Nixon's informal record, by his account: the January strategy lunch (`cal.1960-01.elections-1960-2`); Robinson's poll of
 July 19 (`cal.1960-07-19.elections-1960-3`); the August decisions on the debates and on the campaign's organization
@@ -118,7 +118,7 @@ the Senate on the U-2 (`cal.1960-05-23.elections-1960-2`); Kennedy on Cuba, Sept
 Kennedy's press conference, Mar. 21 (`cal.1962-03-20.cuba-bay-of-pigs`, `cal.1962-03-21.republican-party`,
 `cal.1962-03-21.cuba-bay-of-pigs`).
 
-The merge flags thirteen of the adds as possible duplicates of other entries of the same thread and day (or month); each
+The merge flags fourteen of the adds as possible duplicates of other entries of the same thread and day (or month); each
 was compared and is a separate event (`./bib resolve ID --take keep`).
 
 ## For entries in pending patches
