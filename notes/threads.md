@@ -32,8 +32,8 @@ Scopes taken out of the statements, kept here:
   Jobs and wages (Oct. 21, 2026), the railroads' disputes its subthread; a strike in a State's or a city's thread, or in
   Steel, King or Students, takes Labor disputes in `also`. Jobs and wages keeps unemployment, depressed areas, wages,
   the unions' law (14(b), the Taylor Law).
-- Students: college and university students in politics: their organizations, demonstrations, and manifestos (the
-  statement keeps the first clause).
+- Students: college, university and high school students in politics: their organizations, demonstrations, and
+  manifestos (the statement keeps the first clause; the high-school walkouts, McComb and the East Side, Oct. 29, 2026).
 - The States and the cities (Oct. 14, 2026, at the owner's request for State and local elections and politics): each
   event takes the narrowest thread. A race for governor: Governors, also the year's elections thread (Elections of
   1961, 1963, 1965 for the off years). A race for mayor, or for the body that governs a city: Mayors, likewise. A
@@ -46,7 +46,8 @@ Scopes taken out of the statements, kept here:
   the four.
 
 - Republican Party; Democratic Party; Conservative movement (Oct. 29, 2026, the owner's rule on the parties and the
-  members: CLAUDE.md): a party out of the White House and its organs (the national committee and its chairman, the
+  members: CLAUDE.md): a party and its organs (out of the White House, or, for the Republicans of 1960, its convention, platform
+  and national committee in the campaign) (the national committee and its chairman, the
   governors' association and meetings, the coordinating committee, the platform's and the leadership's papers), its
   factions and their papers, its figures out of office on policy or politics; its members of Congress as a party (the
   leaders, conferences, caucuses, policy committees, task forces and their papers) in the subthread "Republican Party:
