@@ -85,7 +85,6 @@ import html
 import os
 import re
 
-import yaml
 
 from . import dayblocks, store
 
@@ -115,11 +114,11 @@ def load():
         for f in sorted(glob.glob(os.path.join(DIR, "[0-9][0-9][0-9][0-9]-[0-9][0-9].yaml"))
                         + glob.glob(os.path.join(DIR, "recordings", "[0-9][0-9][0-9][0-9]-[0-9][0-9].yaml"))
                         + glob.glob(os.path.join(DIR, "bulletin", "[0-9][0-9][0-9][0-9].yaml"))):   # STYLE 11
-            docs += (yaml.safe_load(open(f, encoding="utf-8")) or {}).get("docs", [])
+            docs += (store.load_yaml(f) or {}).get("docs", [])      # the run's and the disk's parse cache
         ab = {}
         p = os.path.join(DIR, "abstracts.yaml")
         if os.path.exists(p):
-            ab = yaml.safe_load(open(p, encoding="utf-8")) or {}
+            ab = store.load_yaml(p) or {}
         free(docs)
         by_day = {}
         for x in docs:
@@ -132,7 +131,7 @@ def programs():
     """{date: [program]} from daybook/sunday.yaml (tools/daybook/make_sunday.py): the Sunday interview programs."""
     if "tv" not in _cache:
         p = os.path.join(DIR, "sunday.yaml")
-        rows = (yaml.safe_load(open(p, encoding="utf-8")) or {}).get("programs", []) if os.path.exists(p) else []
+        rows = (store.load_yaml(p) or {}).get("programs", []) if os.path.exists(p) else []
         by = {}
         for r in rows:
             by.setdefault(r["date"], []).append(r)
@@ -274,7 +273,7 @@ def free(docs):
     p = os.path.join(DIR, "recordings", "millercenter.yaml")
     if not os.path.exists(p):
         return
-    mc = [x for x in (yaml.safe_load(open(p, encoding="utf-8")) or {}).get("docs", []) if not NOISE.match(x["title"])]
+    mc = [x for x in (store.load_yaml(p) or {}).get("docs", []) if not NOISE.match(x["title"])]
     cites = {}
     for y in mc:
         if y.get("cite"):

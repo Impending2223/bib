@@ -45,8 +45,12 @@ entries:
     when: Sept. 4
     date: '1968-09-04'
     thread: elections-1968
-    c: 'Chicago: Nixon''s motorcade through the Loop.'
-    n: 'See [[cal.1968-09-02.elections-1968]]. Names: Nixon.'
+    c: 'Chicago: Nixon''s motorcade through the Loop at noon, an estimated half million out, by Nixon''s account.'
+    n: '[[w.nixon-rn]], 317. See [[cal.1968-09-02.elections-1968]]. Names: Nixon.'
+    src:
+      c: c963a8a9
+      rows:
+        - 'w.nixon-rn 317: all'
     tags: [name:nixon-richard-m, state:il, city:chicago]
   - id: cal.1968-09-06.court
     when: Sept. 6
@@ -60,8 +64,15 @@ entries:
     when: Sept. 7
     date: '1968-09-07'
     thread: vietnam-paris
-    c: Paris. Harriman and Vance meet Lê Đức Thọ and Xuân Thủy in private, the first of such meetings; what is said to stay secret. Thọ's three hours on the war.
-    n: 'FRUS 1964–68, VII, doc. [7](https://history.state.gov/historicaldocuments/frus1964-68v07/d7). [[w.nguyen-hanois-war]], 121–29 (Hanoi''s side of the private talks, to the halt), 122 (this meeting). Made public: FRUS 1964–68, VII (2003). See [[cal.1968-05-13.vietnam]]. Names: Harriman, Vance, Lê Đức Thọ, Xuân Thủy. Check: Nguyen, 122, dates the meeting Sept. 8, by Hanoi''s record, and gives Thọ''s lecture "nearly an hour."'
+    c: Paris. Harriman and Vance meet Lê Đức Thọ and Xuân Thủy in private, the first of such meetings; what is said to stay secret. Most of the three hours Thọ's "endless harangue" on the war.
+    n: 'FRUS 1964–68, VII, doc. [7](https://history.state.gov/historicaldocuments/frus1964-68v07/d7). [[w.nguyen-hanois-war]], 122 (this meeting; Hanoi''s side of the private talks to the halt, 121–29). To check: Hanoi''s record of the meeting, "Private Meeting between Us and the Americans, Sept. 8, 1968," the Foreign Ministry''s chronology, IV, 162 (cited by [[w.nguyen-hanois-war]], 122 n.48). Made public: FRUS 1964–68, VII (2003). Nguyen, 122, dates the meeting Sept. 8, by Hanoi''s record, and gives Thọ''s lecture "nearly an hour"; Harriman and Vance''s telegram, sent Sept. 7: "this morning September 7," three hours. See [[cal.1968-05-13.vietnam]]. Names: Harriman, Vance, Lê Đức Thọ, Xuân Thủy.'
+    src:
+      c: f362fea8
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v07/d7: all'
+        - 'w.nguyen-hanois-war 122: A-B, D'
+        - 'via w.nguyen-hanois-war 122 n.48a: A-B, D'
+        - 'via w.nguyen-hanois-war 122 n.48b: all'
     tags: [name:harriman-w-averell, name:vance-cyrus, name:le-duc-tho, name:xuan-thuy]
   - id: cal.1968-09-07.women
     when: Sept. 7
@@ -84,6 +95,20 @@ entries:
     also: [elections-1968-polls, economy, vietnam]
     c: 'Gallup, Aug. 7–12: the party to do the best job of keeping the country prosperous: Republican 36 percent, Democratic 36. The most important problem: Vietnam 51, crime (looting and riots included) 21, civil rights 20, the high cost of living 7. The party better able to handle it: Republican 37, Democratic 25. Of keeping prices down in the next four years: Republican 44, Democratic 22.'
     n: '[[w.gallup-poll]], III, 2158–59.'
+  - id: cal.1968-09-08.economy
+    when: Sept. 8–9
+    date: '1968-09-08'
+    thread: economy
+    also: [europe-and-the-alliance]
+    c: 'Basel, the Bank for International Settlements: the $2 billion credit for the sterling balances agreed, Sept. 8, announced Sept. 9, in force at once; the United States $650 million, France out. Some thirty countries holding about 80 percent of the official balances have agreed with Britain to keep them, against a dollar guarantee.'
+    n: '[FRUS 1964–68, VIII, doc. 203](https://history.state.gov/historicaldocuments/frus1964-68v08/d203) (Fowler to Johnson, Sept. 10). [[w.gavin-gold-dollars-and-power]], 183. See [[cal.1968-07-01.economy]]. Names: Fowler, Johnson.'
+    src:
+      c: ac5d9b5b
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d203: all'
+        - 'w.gavin-gold-dollars-and-power 183: A'
+        - 'via w.gavin-gold-dollars-and-power 183 n.43: A'
+    tags: [name:fowler-henry-h, name:johnson-lyndon-b]
   - id: cal.1968-09-09.soviet-union
     when: Sept. 9
     date: '1968-09-09'
@@ -108,13 +133,29 @@ entries:
     c: 'New York City. The United Federation of Teachers strikes the schools on the first day, for the return of the Ocean Hill teachers: 93 percent of the 58,000 out.'
     n: '[Wikipedia, "1968 New York City teachers'' strike"](https://en.wikipedia.org/wiki/1968_New_York_City_teachers%27_strike). Check: [Tamiment Library, United Federation of Teachers records](https://findingaids.library.nyu.edu/tamwag/wag_022). See [[cal.1968-05-09.states-and-cities-nyc]]. Names: Shanker.'
     tags: [state:ny, city:nyc, name:shanker-albert]
+  - id: cal.1968-09-09.transition-and-staff
+    when: Sept. 9
+    date: '1968-09-09'
+    thread: transition-and-staff
+    c: 'Charles Murphy to each department and agency head: a senior official to plan for the transition and a briefing book for the incoming appointees.'
+    n: '[[w.johnson-vantage-point]], 558. See [[cal.1968-04-03.robert-kennedy]]. Names: Murphy.'
+    src:
+      c: 93dfd097
+      rows:
+        - 'w.johnson-vantage-point 558: all'
+    tags: [name:murphy-charles-s]
   - id: cal.1968-09-10.elections-1968
     when: Sept. 10
     date: '1968-09-10'
     thread: elections-1968
     also: [vietnam]
     c: 'New Orleans, Johnson to the American Legion: "We yearn for the day when our men can come home. No man can predict when that day will come."'
-    n: 'Remarks in New Orleans Before the 50th Annual National Convention of the American Legion, [1968–69 Pub. Papers 936](https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=246) (Sept. 10, 1968). [[w.dallek-flawed-giant]], 577. See [[cal.1968-09-02.elections-1968]]. Names: Johnson.'
+    n: 'Remarks in New Orleans Before the 50th Annual National Convention of the American Legion, [1968–69 Pub. Papers 936](https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=246) (Sept. 10, 1968). [[w.dallek-flawed-giant]], 577 (the address; not the words quoted). See [[cal.1968-09-02.elections-1968]]. Names: Johnson.'
+    src:
+      c: 08cd8e92
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=246: all'
+        - 'w.dallek-flawed-giant 577: A'
     tags: [name:johnson-lyndon-b, state:la, city:new-orleans]
   - id: cal.1968-09-10.governors-wi
     when: Sept. 10
@@ -210,13 +251,30 @@ entries:
     c: 'Clifford to Johnson, at lunch: the Vice President "has had three flubs": the withdrawal of troops, the planks, a Marine unit coming home.'
     n: 'FRUS 1964–68, VII, doc. [12](https://history.state.gov/historicaldocuments/frus1964-68v07/d12). Made public: FRUS 1964–68, VII (2003). See [[cal.1968-09-02.elections-1968]]. Names: Clifford, Johnson, Humphrey.'
     tags: [name:clifford-clark, name:johnson-lyndon-b, name:humphrey-hubert-h]
+  - id: cal.1968-09-12.elections-1968-2
+    when: Sept. 12
+    date: '1968-09-12'
+    thread: elections-1968
+    also: [vietnam-paris]
+    c: 'Haldeman brings Nixon Mitchell''s report: Kissinger, Rockefeller''s adviser, available to advise. Nixon: Mitchell to stay the go-between, Kissinger''s part kept confidential.'
+    n: '[[w.nixon-rn]], 323. Made public: [[w.nixon-rn]], 323 (1978). Names: Haldeman, Nixon, Mitchell, Kissinger, Rockefeller.'
+    src:
+      c: 9bc48f0d
+      rows:
+        - 'w.nixon-rn 323: all'
+    tags: [name:haldeman-h-r, name:nixon-richard-m, name:mitchell-john-n, name:kissinger-henry-a, name:rockefeller-nelson]
   - id: cal.1968-09-13.court-fortas
     when: Sept. 13
     date: '1968-09-13'
     thread: court-fortas
     also: [confirmations]
     c: 'The Judiciary Committee''s hearings on Fortas resume: he was paid $15,000, raised from private donors, for nine summer seminars at American University''s law school; he declines to appear again (Check the days).'
-    n: 'Daily Digest, [114 Cong. Rec. D425](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=423), [114 Cong. Rec. D427](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=425). See [[cal.1968-07-11.court]]. Names: Fortas.'
+    n: 'Daily Digest, [114 Cong. Rec. D425](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=423), [114 Cong. Rec. D427](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=425). [[w.longley-lbjs-1968]], 179–80 (Porter''s fund; the hearings resumed). See [[cal.1968-07-11.court]]. Names: Fortas.'
+    src:
+      c: 1525c94b
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=423: all'
+        - 'w.longley-lbjs-1968 179–80: A'
     tags: [name:fortas-abe]
   - id: cal.1968-09-13.states-and-cities-ocean-hill
     when: Sept. 13
@@ -226,12 +284,29 @@ entries:
     c: New York City. The teachers out again, the Ocean Hill governing board refusing to take back its teachers.
     n: See [[cal.1968-09-09.states-and-cities-nyc]].
     tags: [state:ny, city:nyc]
+  - id: cal.1968-09-13.elections-1968
+    when: Sept. 13
+    date: '1968-09-13'
+    thread: elections-1968
+    also: [transition-and-staff]
+    c: 'Billy Graham with Johnson, alone: Nixon''s message, given him at Pittsburgh a week before. Nixon will point out the administration''s failures but never reflect on Johnson personally; elected, he would work closely with him. Johnson: he will support Humphrey loyally, but help a President-elect Nixon.'
+    n: '[[w.johnson-vantage-point]], 555, by Johnson''s account. See [[cal.1968-09-11.transition-and-staff]]. Names: Graham, Nixon, Johnson, Humphrey.'
+    src:
+      c: ff243a29
+      rows:
+        - 'w.johnson-vantage-point 555: all'
+    tags: [name:graham-billy, name:nixon-richard-m, name:johnson-lyndon-b, name:humphrey-hubert-h]
   - id: cal.1968-09-15.vietnam-paris
     when: Sept. 15
     date: '1968-09-15'
     thread: vietnam-paris
     c: 'Paris. Harriman and Vance with Lê Đức Thọ and Xuân Thủy in private, after a second meeting Sept. 12: the Americans on mutual withdrawal, the DMZ, and "our side–your side" for talks after a halt.'
-    n: 'FRUS 1964–68, VII, doc. [14](https://history.state.gov/historicaldocuments/frus1964-68v07/d14). [[w.nguyen-hanois-war]], 122. Made public: FRUS 1964–68, VII (2003). See [[cal.1968-09-07.vietnam]]. Names: Harriman, Vance, Lê Đức Thọ, Xuân Thủy.'
+    n: 'FRUS 1964–68, VII, doc. [14](https://history.state.gov/historicaldocuments/frus1964-68v07/d14). [[w.nguyen-hanois-war]], 122 (the meetings of Sept. 12 and 15). Made public: FRUS 1964–68, VII (2003). See [[cal.1968-09-07.vietnam]]. Names: Harriman, Vance, Lê Đức Thọ, Xuân Thủy.'
+    src:
+      c: 298728a5
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v07/d14: all'
+        - 'w.nguyen-hanois-war 122: A-B'
     tags: [name:harriman-w-averell, name:vance-cyrus, name:le-duc-tho, name:xuan-thuy]
   - id: cal.1968-09-15.opinion
     when: Sept. 15
@@ -246,7 +321,12 @@ entries:
     date: '1968-09-15'
     thread: elections-1968
     c: 'Billy Graham brings Johnson six points from Nixon: he will never embarrass Johnson; a working relationship, his advice sought; special assignments after the election; a major share of the credit when Vietnam is settled. Johnson: he will support Humphrey loyally, and cooperate with Nixon if he wins.'
-    n: '[[w.dallek-flawed-giant]], 578 (Graham''s memorandum). See [[cal.1968-09-10.elections-1968]]. Names: Graham, Nixon, Johnson, Humphrey.'
+    n: '[[w.dallek-flawed-giant]], 578 (Graham''s memorandum). To check: Graham''s memorandum, n.d., WHFN: Richard Nixon, LBJ Library (cited by [[w.dallek-flawed-giant]], 578). See [[cal.1968-09-10.elections-1968]]. Names: Graham, Nixon, Johnson, Humphrey.'
+    src:
+      c: 8f810a48
+      rows:
+        - 'w.dallek-flawed-giant 578: all'
+        - 'via w.dallek-flawed-giant 578 n.80: all'
     tags: [name:graham-billy, name:nixon-richard-m, name:johnson-lyndon-b, name:humphrey-hubert-h]
   - id: cal.1968-09-16.testing-missile-talks
     when: Sept. 16
@@ -269,8 +349,30 @@ entries:
     date: '1968-09-16'
     thread: space
     c: 'Webb leaves NASA. By the accounts Dallek gives, he had offered to resign before; Johnson, "fed up with this same old story": "Let''s call in the press." To the reporters, Webb: budget cuts have put the United States second in space; the agency "a sort of whipping boy."'
-    n: '[[w.dallek-flawed-giant]], 423–24 (from Webb''s and Paine''s oral histories and Sherrod''s papers, NASA Archives). Names: Webb, Johnson. Check: the day, against the press of Sept. 16–17.'
+    n: '[[w.dallek-flawed-giant]], 423–24. To check: Webb''s oral history; Paine''s oral history, Mar. 25, 1969, NASA Archives; Sherrod''s memorandum on Paine, Aug. 25, 1970, RSAC, NASA Archives; the Administrative History of NASA, chap. 2, 34–37, 53–55, LBJ Library; *Washington Post*, Sept. 17, 1968 (cited by [[w.dallek-flawed-giant]], 424). Names: Webb, Johnson. Check: the day, against the press of Sept. 16–17.'
+    src:
+      c: a4e524c8
+      rows:
+        - 'w.dallek-flawed-giant 423–24: all'
+        - 'via w.dallek-flawed-giant 424 n.101a: B-C'
+        - 'via w.dallek-flawed-giant 424 n.101b: B-C'
+        - 'via w.dallek-flawed-giant 424 n.101c: B-C'
+        - 'via w.dallek-flawed-giant 424 n.101d: B-C'
+        - 'via w.dallek-flawed-giant 424 n.102a: D-E'
+        - 'via w.dallek-flawed-giant 424 n.102b: D-E'
     tags: [name:webb-james-e, name:johnson-lyndon-b]
+  - id: cal.1968-09-16.court-fortas
+    when: Sept. 16
+    date: '1968-09-16'
+    thread: court-fortas
+    c: 'Manatos to Johnson: Mansfield and Dirksen agree "the ''dirty movies'' issue has taken its toll on Fortas," the $15,000 fee, a secondary issue, "hurtful"; Thurmond "tastes blood now"; the "crony" charge "has fallen of its own weight."'
+    n: '[[w.longley-lbjs-1968]], 180. To check: Manatos to Johnson, Sept. 16, 1968, Files Pertaining to Abe Fortas and Homer Thornberry, Box 3, LBJ Library (cited by [[w.longley-lbjs-1968]], 180 n.84). See [[cal.1968-06-26.court]]. Names: Manatos, Mansfield, Dirksen, Fortas, Thurmond, Johnson.'
+    src:
+      c: 7d737e4a
+      rows:
+        - 'w.longley-lbjs-1968 180: all'
+        - 'via w.longley-lbjs-1968 180 n.84: all'
+    tags: [name:manatos-mike-n, name:mansfield-mike, name:dirksen-everett, name:fortas-abe, name:thurmond-strom, name:johnson-lyndon-b]
   - id: cal.1968-09-16.crime-and-hijacking
     when: Sept. 17
     date: '1968-09-17'
@@ -321,6 +423,11 @@ entries:
     thread: vietnam-paris
     c: 'Harriman, home from Paris, with Johnson, 12:15 p.m., Rostow present: Hanoi will want a settlement, not wait for a new President; the understanding on the DMZ; a decision on ending the bombing hoped for within two weeks. Johnson: Harriman as bad as Rusk in thinking it easy to start the bombing again. By Johnson''s account Harriman promises to urge a resumption "with enthusiasm" if the understandings are violated.'
     n: '[FRUS 1964–68, VII, doc. 20](https://history.state.gov/historicaldocuments/frus1964-68v07/d20) (Harriman''s memorandum). [[w.johnson-vantage-point]], 514–15 (Johnson''s account). Made public: FRUS 1964–68, VII (2003). See [[cal.1968-09-07.vietnam]]. Names: Harriman, Johnson, Rostow, Rusk. Check: Harriman''s memorandum records no such promise; Johnson''s quotes him.'
+    src:
+      c: ad355e13
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v07/d20: all'
+        - 'w.johnson-vantage-point 514–15: B, E'
     tags: [name:harriman-w-averell, name:johnson-lyndon-b, name:rostow-walt-w, name:rusk-dean]
   - id: cal.1968-09-18.crime-and-hijacking-guns
     when: Sept. 18
@@ -349,7 +456,17 @@ entries:
     date: '1968-09-20'
     thread: vietnam-paris
     c: 'Paris. Harriman and Vance with Lê Đức Thọ and Xuân Thủy in private, on Saigon''s place: an understanding on it "could be a major factor" in a decision to stop the bombing; Thọ: only "could be." Sept. 21, Harriman and Vance to Rusk: let them say "would be the major factor." Thọ and Thủy to the Politburo, Sept. 20, by Nguyen''s account: Washington will accept the NLF, or any party Hanoi names, on Hanoi''s side.'
-    n: 'FRUS 1964–68, VII, docs. [24](https://history.state.gov/historicaldocuments/frus1964-68v07/d24), [26](https://history.state.gov/historicaldocuments/frus1964-68v07/d26), [27](https://history.state.gov/historicaldocuments/frus1964-68v07/d27). [[w.nguyen-hanois-war]], 122–23. Made public: FRUS 1964–68, VII (2003). See [[cal.1968-09-07.vietnam]]. Names: Harriman, Vance, Lê Đức Thọ, Xuân Thủy, Rusk.'
+    n: '[FRUS 1964–68, VII, doc. 24](https://history.state.gov/historicaldocuments/frus1964-68v07/d24); [doc. 26](https://history.state.gov/historicaldocuments/frus1964-68v07/d26); [doc. 27](https://history.state.gov/historicaldocuments/frus1964-68v07/d27). [[w.nguyen-hanois-war]], 122–23. To check: Thọ and Thủy to the Politburo, Sept. 20, 1968, the Foreign Ministry''s chronology, IV, 166 (cited by [[w.nguyen-hanois-war]], 123 n.51). Made public: FRUS 1964–68, VII (2003). See [[cal.1968-09-07.vietnam]]. Names: Harriman, Vance, Lê Đức Thọ, Xuân Thủy, Rusk.'
+    src:
+      c: 3185d747
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v07/d24: A-C'
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v07/d26: B'
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v07/d27: B-D'
+        - 'w.nguyen-hanois-war 122–23: A-B'
+        - 'w.nguyen-hanois-war 123: E'
+        - 'via w.nguyen-hanois-war 123 n.49: A-C'
+        - 'via w.nguyen-hanois-war 123 n.51: E'
     tags: [name:harriman-w-averell, name:vance-cyrus, name:le-duc-tho, name:xuan-thuy, name:rusk-dean]
   - id: cal.1968-09-22.opinion
     when: Sept. 22
@@ -369,9 +486,25 @@ entries:
     when: Sept. 24
     date: '1968-09-24'
     thread: elections-1968
-    c: 'Johnson to Clifford, by Clifford''s account: he doubts Humphrey''s fitness to be President, wanting "guts"; he would think more of him if he "showed he had some balls."'
+    c: 'Johnson to Clifford, by Clifford''s account: he doubts Humphrey''s fitness to be President, lacking the guts for it; he would think more of him if he "showed he had some balls."'
     n: '[[w.dallek-flawed-giant]], 577. To check: [[w.clifford-counsel-to-the-president-2]], 570–72. See [[cal.1968-09-10.elections-1968]]. Names: Johnson, Clifford, Humphrey.'
+    src:
+      c: 3665d679
+      rows:
+        - 'w.dallek-flawed-giant 577: all'
     tags: [name:johnson-lyndon-b, name:clifford-clark, name:humphrey-hubert-h]
+  - id: cal.1968-09-24.elections-1968-2
+    when: Sept. 24
+    date: '1968-09-24'
+    thread: elections-1968
+    c: 'Nixon, to a radio audience in Seattle: "I am not going to make the practical military judgments as to what it should be," nor "pull the rug out from under our negotiators in Paris"; no weakening of the military position, for the enemy "must be convinced that he isn''t going to be able to win something militarily at the time we are talking."'
+    n: '[[w.mann-grand-delusion]], 617–18. Check: the day, from Mann''s note; his text gives "late September." To check: Nixon interview, Sept. 24, 1968, PPS 208 (1968).121.1, Nixon Library (cited by [[w.mann-grand-delusion]], 617 n.28). Names: Nixon.'
+    src:
+      c: 01e0adcc
+      rows:
+        - 'w.mann-grand-delusion 617–18: all'
+        - 'via w.mann-grand-delusion 617 n.28: all'
+    tags: [name:nixon-richard-m]
   - id: cal.1968-09-25.opinion
     when: Sept. 25
     date: '1968-09-25'
@@ -386,14 +519,37 @@ entries:
     thread: transition-and-staff
     also: [elections-1968]
     c: 'Ball resigns as Representative to the UN, to work for Humphrey; Johnson: it "has nothing to do with public policy but does have something to do with domestic politics." Wiggins, editor of the *Washington Post*, named in his place; sworn Oct. 4.'
-    n: 'Remarks Upon Announcing Resignation of George W. Ball and Intention To Nominate J. Russell Wiggins as U.S. Representative to the United Nations, [1968–69 Pub. Papers 976](https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=286) (Sept. 26, 1968); Remarks at the Swearing In of J. Russell Wiggins as U.S. Representative to the United Nations, [1968–69 Pub. Papers 1007](https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=317) (Oct. 4, 1968). To check: [[w.ball-past-has-another-pattern]]. See [[cal.1968-09-02.elections-1968]]. Names: Ball, Humphrey, Wiggins, Johnson.'
+    n: 'Remarks Upon Announcing Resignation of George W. Ball and Intention To Nominate J. Russell Wiggins as U.S. Representative to the United Nations, [1968–69 Pub. Papers 976](https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=286) (Sept. 26, 1968); Remarks at the Swearing In of J. Russell Wiggins as U.S. Representative to the United Nations, [1968–69 Pub. Papers 1007](https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=317) (Oct. 4, 1968). [[w.mann-grand-delusion]], 617 (the resignation). To check: [[w.ball-past-has-another-pattern]]. See [[cal.1968-09-02.elections-1968]]. Names: Ball, Humphrey, Wiggins, Johnson.'
+    src:
+      c: 0908ca03
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=286: all'
+        - 'https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=317: all'
+        - 'w.mann-grand-delusion 617: A'
     tags: [name:ball-george-w, name:humphrey-hubert-h, name:wiggins-james-r, name:johnson-lyndon-b]
+  - id: cal.1968-09-26.court-fortas
+    when: Sept. 26
+    date: '1968-09-26'
+    thread: court-fortas
+    c: 'Russell to Johnson: the hearings'' last disclosures, the $15,000 for nine lectures at American University, collected by a former law partner "from the most affluent clients of their law firm," make it "impossible for me to support Justice Fortas."'
+    n: '[[w.longley-lbjs-1968]], 181. To check: Russell to Johnson, Sept. 26, 1968, Files Pertaining to Abe Fortas and Homer Thornberry, Box 3, LBJ Library (cited by [[w.longley-lbjs-1968]], 181 n.86). See [[cal.1968-06-26.court]]. Names: Russell, Fortas, Johnson.'
+    src:
+      c: 124488dd
+      rows:
+        - 'w.longley-lbjs-1968 181: all'
+        - 'via w.longley-lbjs-1968 181 n.86: all'
+    tags: [name:russell-richard-b, name:fortas-abe, name:johnson-lyndon-b]
   - id: cal.1968-09-28.vietnam-paris
     when: Sept. 28
     date: '1968-09-28'
     thread: vietnam-paris
     c: 'Lê Đức Thọ and Xuân Thủy to Nguyễn Duy Trinh, a plan for the talks: no one of Thiệu''s government at the table, the NLF alone beside Hanoi; the private meetings kept up until the American election, the business left for a four-party conference.'
-    n: '[[w.nguyen-hanois-war]], 123. Made public: Nguyen (2012), from the Foreign Ministry''s chronology for internal circulation (Hanoi, 1987). See [[cal.1968-09-07.vietnam]]. Names: Lê Đức Thọ, Xuân Thủy, Nguyễn Duy Trinh.'
+    n: '[[w.nguyen-hanois-war]], 123. To check: Thọ and Thủy to Nguyễn Duy Trinh, Sept. 28, 1968, the Foreign Ministry''s chronology, IV, 168–69 (cited by [[w.nguyen-hanois-war]], 123 n.52). Made public: Nguyen (2012), from the Foreign Ministry''s chronology for internal circulation (Hanoi, 1987). See [[cal.1968-09-07.vietnam]]. Names: Lê Đức Thọ, Xuân Thủy, Nguyễn Duy Trinh.'
+    src:
+      c: 788c5f5b
+      rows:
+        - 'w.nguyen-hanois-war 123: all'
+        - 'via w.nguyen-hanois-war 123 n.52: all'
     tags: [name:le-duc-tho, name:xuan-thuy, name:nguyen-duy-trinh]
   - id: cal.1968-09-29.opinion
     when: Sept. 29
@@ -403,6 +559,29 @@ entries:
     c: 'Gallup, Sept. 19–24: Nixon 43 percent, Humphrey 28, Wallace 21, undecided 8. South: Wallace 38, Nixon 31, Humphrey 24. Midwest: Nixon 50, Humphrey 27, Wallace 16.'
     n: '[[w.gallup-poll]], III, 2162. Names: Nixon, Humphrey, Wallace.'
     tags: [name:nixon-richard-m, name:humphrey-hubert-h, name:wallace-george-c]
+  - id: cal.1968-09-29.elections-1968
+    when: Sept. 29
+    date: '1968-09-29'
+    thread: elections-1968
+    c: 'Ball on CBS''s *Face the Nation*: Agnew a "preposterous" choice, "a fourth-rate political hack."'
+    n: '[[w.mann-grand-delusion]], 617 (the words). Check: the day; Mann has it "several days" after the press conference, and the daybook''s *Face the Nation* line has Ball Sept. 29. To check: [[w.ball-past-has-another-pattern]], 444–45 (cited by [[w.mann-grand-delusion]], 617 n.27). See [[cal.1968-09.elections-1968-3]]. Names: Ball, Agnew.'
+    src:
+      c: d514d5ba
+      rows:
+        - 'w.mann-grand-delusion 617: all'
+    tags: [name:ball-george-w, name:agnew-spiro-t]
+  - id: cal.1968-09-29.elections-1968-2
+    when: Sept. 29
+    date: '1968-09-29'
+    thread: elections-1968
+    c: 'Nixon, in a newspaper''s questionnaire, hawk or dove: "I don''t accept either label"; "The war must be ended. It must be ended honorably, consistent with America''s limited aims and with the long-term requirements of peace in Asia."'
+    n: '[[w.mann-grand-delusion]], 618. Check: the day of the answers; the paper''s date. To check: *Detroit Free Press*, Sept. 29, 1968 (cited by [[w.mann-grand-delusion]], 618 n.29). Names: Nixon.'
+    src:
+      c: 424fcaa0
+      rows:
+        - 'w.mann-grand-delusion 618: all'
+        - 'via w.mann-grand-delusion 618 n.29: all'
+    tags: [name:nixon-richard-m]
   - id: cal.1968-09-30.elections-1968
     when: Sept. 30
     date: '1968-09-30'
@@ -440,3 +619,48 @@ entries:
     c: New York City. The second teachers' strike ends (Check the day).
     n: See [[cal.1968-09-09.states-and-cities-nyc]].
     tags: [state:ny, city:nyc]
+  - id: cal.1968-09.elections-1968-2
+    when: Sept.
+    date: 1968-09
+    thread: elections-1968
+    also: [vietnam-paris]
+    c: 'About two weeks after his first talk with Mitchell, by Nixon''s account: Kissinger, back from Paris, says something big is afoot on Vietnam; Nixon to avoid new proposals for a week. Nixon: Harlow to have Dirksen press Johnson; Agnew to ask Rusk; his staff to hang the war on Humphrey, not Johnson.'
+    n: '[[w.nixon-rn]], 323–24. See [[cal.1968-09-12.elections-1968-2]]. Names: Mitchell, Kissinger, Nixon, Harlow, Dirksen, Johnson, Agnew, Rusk, Humphrey. Check: the day.'
+    src:
+      c: 4a1d6403
+      rows:
+        - 'w.nixon-rn 323–24: all'
+    tags: [name:mitchell-john-n, name:kissinger-henry-a, name:nixon-richard-m, name:harlow-bryce-n, name:dirksen-everett, name:johnson-lyndon-b, name:agnew-spiro-t, name:rusk-dean, name:humphrey-hubert-h]
+  - id: cal.1968-09.elections-1968-3
+    when: Sept.
+    date: 1968-09
+    thread: elections-1968
+    c: 'Ball, at a press conference at the State Department on leaving the UN: Nixon "lamentably lacks" the qualities of leadership; a political solution early in the next term "if he is President Humphrey"; of Nixon, "I don''t think he has any kind of settled principles."'
+    n: '[[w.mann-grand-delusion]], 617. Check: the day. To check: [[w.ball-past-has-another-pattern]], 436–37, 444–45 (cited by [[w.mann-grand-delusion]], 617 n.27). See [[cal.1968-09-26.transition-and-staff]]. Names: Ball, Nixon, Humphrey.'
+    src:
+      c: 061fb05b
+      rows:
+        - 'w.mann-grand-delusion 617: all'
+    tags: [name:ball-george-w, name:nixon-richard-m, name:humphrey-hubert-h]
+  - id: cal.1968-09.elections-1968-4
+    when: Sept.
+    date: 1968-09
+    thread: elections-1968
+    c: 'O''Brien to Humphrey, mid-month: "Let''s face it, Mr. Vice President, as of now, we''ve lost"; "Unless you change direction on this Vietnam thing, and become your own man, you''re finished." Humphrey: "we have to start pulling our ground forces out as soon as the Vietnamese are ready."'
+    n: '[[w.mann-grand-delusion]], 618. Check: the day; Mann gives "mid-September." Names: O''Brien, Humphrey.'
+    src:
+      c: 71c244b0
+      rows:
+        - 'w.mann-grand-delusion 618: all'
+    tags: [name:obrien-lawrence-f, name:humphrey-hubert-h]
+  - id: cal.1968-09.elections-1968-5
+    when: Sept.
+    date: 1968-09
+    thread: elections-1968
+    c: 'Humphrey in South Dakota, McGovern beside him: "I''m going to seek peace in every way possible, but only the President can do it now. Come January, it''s a new ball game. Then I will make peace."'
+    n: '[[w.mann-grand-delusion]], 618. Check: the day; Mann has it "several days" after O''Brien''s counsel, the day before Louisville. See [[cal.1968-09.elections-1968-4]]. Names: Humphrey, McGovern.'
+    src:
+      c: 6f18a378
+      rows:
+        - 'w.mann-grand-delusion 618: all'
+    tags: [name:humphrey-hubert-h, name:mcgovern-george]

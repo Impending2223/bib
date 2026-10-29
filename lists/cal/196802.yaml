@@ -15,8 +15,12 @@ entries:
     when: Feb. 1–2
     date: '1968-02-01'
     thread: elections-1968
-    c: Nixon announces for the Republican nomination in a letter to New Hampshire's voters, Feb. 1; at Manchester, Feb. 2, his first news conference of the campaign.
-    n: 'To check: [[w.witcover-resurrection-of-richard-nixon]]; [[w.nixon-rn]]; [[w.white-making-of-the-president-1969]]; [[w.chester-american-melodrama]]; [[w.gould-1968]]; [[w.perlstein-nixonland-2008]]. See [[cal.1967-01-07.elections-1968]]. Names: Nixon.'
+    c: Nixon announces for the Republican nomination in a letter to New Hampshire's voters, Feb. 1; at Manchester, Feb. 2, his first news conference of the campaign. "Gentlemen, this is not my last press conference." The nominee to be chosen not in smoke-filled rooms but in the "fires of the primaries."
+    n: '[[w.nixon-rn]], 297 (the Manchester press conference, Feb. 2; its words). To check: [[w.witcover-resurrection-of-richard-nixon]]; [[w.white-making-of-the-president-1969]]; [[w.chester-american-melodrama]]; [[w.gould-1968]]; [[w.perlstein-nixonland-2008]]. See [[cal.1967-01-07.elections-1968]]. Names: Nixon.'
+    src:
+      c: 3effff4e
+      rows:
+        - 'w.nixon-rn 297: B-D'
     tags: [name:nixon-richard-m, state:nh]
   - id: cal.1968-02-01.consumers
     when: Feb. 1
@@ -32,12 +36,42 @@ entries:
     c: 'Economic Report: growth in 1967 a little over 1 percent a year in the first half, about 4½ in the second; with the surcharge, GNP up some $60 billion in 1968, about 7¾ percent; the 10 percent surcharge asked again.'
     n: 'Annual Message to the Congress: The Economic Report of the President, [1968–69 Pub. Papers 126](https://www.govinfo.gov/content/pkg/PPP-1968-book1/pdf/PPP-1968-book1.pdf#page=204) (Feb. 1, 1968). To check: [[w.okun-political-economy-of-prosperity]]; [[w.president-and-the-council]]. See [[cal.1968-01-29.economy]]. Names: Johnson.'
     tags: [name:johnson-lyndon-b]
+  - id: cal.1968-02-01.opinion
+    when: Feb. 1
+    date: '1968-02-01'
+    thread: opinion
+    c: 'Panzer to Johnson: Quayle''s telephone poll on the State of the Union, Jan. 19–20: favorable 45 percent, unfavorable 55. More favorable among those who saw or heard it than among those told of it; unfavorable among 40 percent of the Democrats; most unfavorable, men 21 to 49.'
+    n: '[[w.longley-lbjs-1968]], 30. To check: Fred Panzer to Johnson, Feb. 1, 1968, Speeches, Box 151, LBJ Library (cited by [[w.longley-lbjs-1968]], 30 n.58). See [[cal.1968-01-17.program]]. Names: Johnson.'
+    src:
+      c: 09778a26
+      rows:
+        - 'w.longley-lbjs-1968 30: all'
+        - 'via w.longley-lbjs-1968 30 n.58: all'
+    tags: [name:johnson-lyndon-b]
+  - id: cal.1968-02-01.robert-kennedy
+    when: Feb. 1
+    date: '1968-02-01'
+    thread: robert-kennedy-campaign
+    also: [elections-1968]
+    c: 'Schlesinger to Robert Kennedy: "I am sure that the decision you reached was the only one in the circumstances," but "go no further than you have in taking yourself out of things"; "the situation may take a new turn by the spring and unconditional declarations of non-candidacy might be an embarrassment." Enclosed, a graduate student''s "Reflections of a 22-Year Old on Senator Kennedy in January 1968."'
+    n: '[[w.palermo-in-his-own-right]], 107. To check: Schlesinger to Robert Kennedy, Feb. 1, 1968, RFK Papers, JFK Library (cited by [[w.palermo-in-his-own-right]], 107 n.35). See [[cal.1968-01-30.robert-kennedy]]. Names: Schlesinger, Robert Kennedy.'
+    src:
+      c: 4663d6d1
+      rows:
+        - 'w.palermo-in-his-own-right 107: all'
+        - 'via w.palermo-in-his-own-right 107 n.35: all'
+    tags: [name:schlesinger-arthur-m-jr, name:kennedy-robert-f]
   - id: cal.1968-02-02.vietnam-tet
     when: Feb. 2
     date: '1968-02-02'
     thread: vietnam-tet
     c: 'News conference. Johnson on the offensive: its first object, military success, "a complete failure"; the second, a psychological victory, not to be won.'
-    n: 'The President''s News Conference, [1968–69 Pub. Papers 155](https://www.govinfo.gov/content/pkg/PPP-1968-book1/pdf/PPP-1968-book1.pdf#page=233) (Feb. 2, 1968). See [[cal.1968-01-30.vietnam]]. Names: Johnson.'
+    n: 'The President''s News Conference, [1968–69 Pub. Papers 155](https://www.govinfo.gov/content/pkg/PPP-1968-book1/pdf/PPP-1968-book1.pdf#page=233) (Feb. 2, 1968). [[w.longley-lbjs-1968]], 59 (the news conference). See [[cal.1968-01-30.vietnam]]. Names: Johnson.'
+    src:
+      c: 59f61681
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1968-book1/pdf/PPP-1968-book1.pdf#page=233: all'
+        - 'w.longley-lbjs-1968 59: A-C'
     tags: [name:johnson-lyndon-b]
   - id: cal.1968-02-02.japan-and-korea
     when: Feb. 2
@@ -58,7 +92,7 @@ entries:
     when: Feb. 4
     date: '1968-02-04'
     thread: opinion
-    also: [elections-1968-polls, robert-kennedy]
+    also: [elections-1968-polls, robert-kennedy-campaign]
     c: 'Gallup, Jan. 4–9, Democrats, the convention''s choice narrowed to two: Johnson 71 percent, McCarthy 18, no opinion 11. Johnson 52, Robert Kennedy 40, no opinion 8.'
     n: '[[w.gallup-poll]], III, 2104. Names: McCarthy, Johnson, Kennedy.'
     tags: [name:mccarthy-eugene-j, name:johnson-lyndon-b, name:kennedy-robert-f]
@@ -76,6 +110,33 @@ entries:
     c: Message on education, "The Fifth Freedom." Head Start and Follow Through from $340 million to $380 million; $5 million to begin bilingual education; the handicapped from $53 million to $85 million; $30 million for a Stay in School program; Upward Bound for 30,000; Title I funded before the school year; a Partnership for Learning and Earning Act and a Networks for Knowledge Act.
     n: 'Special Message to the Congress on Education: "The Fifth Freedom", [1968–69 Pub. Papers 165](https://www.govinfo.gov/content/pkg/PPP-1968-book1/pdf/PPP-1968-book1.pdf#page=243) (Feb. 5, 1968). To check: [[w.graham-uncertain-triumph]]. See [[cal.1968-01-17.program]]. Names: Johnson.'
     tags: [name:johnson-lyndon-b]
+  - id: cal.1968-02-05.elections-1968
+    when: Feb. 5
+    date: '1968-02-05'
+    thread: elections-1968
+    also: [republican-party]
+    c: 'Green Bay, Wis. Nixon against the administration''s peace offensives: the "only effective way" to bring Hanoi to peace is to "prosecute the war more effectively."'
+    n: '[[w.johnson-vantage-point]], 399 n. (Johnson''s summary). To check: [*New York Times*, Feb. 6, 1968](https://timesmachine.nytimes.com/timesmachine/1968/02/06/issue.html) (cited by [[w.johnson-vantage-point]], 399 n.). See [[cal.1968-02-01.elections-1968]]. Names: Nixon.'
+    src:
+      c: b8768216
+      rows:
+        - 'w.johnson-vantage-point 399: all'
+        - 'via w.johnson-vantage-point 399 n.dagger: all'
+    tags: [name:nixon-richard-m]
+  - id: cal.1968-02-05.vietnam-congress
+    when: Feb. 5
+    date: '1968-02-05'
+    thread: vietnam-congress
+    also: [republican-party-congress, vietnam-tet]
+    c: 'Javits in the Senate, "Vietnam: The Frenetic Stalemate": the lesson of the guerrilla raids and Khe Sanh, "the situation in Vietnam is basically stalemated"; each stalemate met with more force, "a new stalemate at a higher level"; prepare for a negotiated settlement.'
+    n: '[114 Cong. Rec. 2087](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt2/pdf/GPO-CRECB-1968-pt2-5-2.pdf#page=56) (1968). [[w.mann-grand-delusion]], 573. Names: Javits.'
+    src:
+      c: d7d70430
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt2/pdf/GPO-CRECB-1968-pt2-5-2.pdf#page=56: all'
+        - 'w.mann-grand-delusion 573: A'
+        - 'via w.mann-grand-delusion 573 n.11: A'
+    tags: [name:javits-jacob-k]
   - id: cal.1968-02-06.consumers
     when: Feb. 6
     date: '1968-02-06'
@@ -106,6 +167,43 @@ entries:
     c: 'Louisiana''s general election. McKeithen (D), renominated Nov. 4, 1967, re-elected governor unopposed: no Republican filed. The first governor the constitution lets succeed himself, by the amendment of 1966.'
     n: '[Wikipedia, "1967 Louisiana gubernatorial election"](https://en.wikipedia.org/wiki/1967_Louisiana_gubernatorial_election). Check: the Secretary of State''s *General Election Returns*, Feb. 6, 1968, and the vote. See [[cal.1967-11-04.governors-la]]. Names: McKeithen.'
     tags: [governors:1968-02-06, state:la, name:mckeithen-john-j]
+  - id: cal.1968-02-06.vietnam
+    when: Feb. 6
+    date: '1968-02-06'
+    thread: vietnam
+    c: 'Tuesday lunch, 1:14 to 2:55 p.m. Wheeler for the Joint Chiefs, JCSM-78-68 of Feb. 3: the circles closed to strikes around Hanoi and Haiphong cut from five miles to three and one and a half, Washington''s approval needed inside them. McNamara against: "the price is high and the gain is low." Clifford for; Rusk for the 14 authorized targets inside, not armed reconnaissance. Johnson lifts the five-mile limit and approves the 14 targets; armed reconnaissance to be raised again once they are hit.'
+    n: 'FRUS 1964–68, VI, doc. [59](https://history.state.gov/historicaldocuments/frus1964-68v06/d59) (Tom Johnson''s notes). [[w.drea-mcnamara-clifford-and-the-2011]], 223 (the request, McNamara against, Clifford for, the decision). Made public: FRUS 1964–68, VI (2002). To check: JCSM-78-68, the Joint Chiefs to McNamara, Feb. 3, 1968, Pentagon Papers Backup, Acc 75-062 (cited by [[w.drea-mcnamara-clifford-and-the-2011]], 223 n.81). See [[cal.1967-11-09.vietnam-air-war]]. Names: Wheeler, McNamara, Clifford, Rusk, Johnson.'
+    src:
+      c: cf6b4e85
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v06/d59: all'
+        - 'w.drea-mcnamara-clifford-and-the-2011 223: A-D, F'
+        - 'via w.drea-mcnamara-clifford-and-the-2011 223 n.81a: B'
+        - 'via w.drea-mcnamara-clifford-and-the-2011 223 n.81b: A, C-D, F'
+    tags: [name:wheeler-earle, name:mcnamara-robert-s, name:clifford-clark, name:rusk-dean, name:johnson-lyndon-b]
+  - id: cal.1968-02-06.vietnam-tet
+    when: Feb. 6
+    date: '1968-02-06'
+    thread: vietnam-tet
+    also: [japan-and-korea-pueblo]
+    c: 'Breakfast with the Democratic leaders of Congress, Boggs and Mansfield among them. Robert Byrd: poor intelligence, poor preparation for the attacks, the Viet Cong''s morale underestimated, South Vietnam''s support overestimated. Johnson: "I don''t agree with any of that"; at Panmunjom, "we are trying to keep them talking." At the Tuesday lunch Johnson is called away: Byrd, to apologize. Russell Long on the *Pueblo*. Byrd, by Tom Johnson''s notes: "we were not prepared for these attacks. We underestimated the morale and vitality of the Viet Cong. We overestimated the support of South Vietnam''s government." Johnson: "The popular thing now is to stress the mismanagement in Vietnam. I think there has been very little."'
+    n: 'FRUS 1964–68, VI, doc. [58](https://history.state.gov/historicaldocuments/frus1964-68v06/d58) (Byrd''s four points, read to the advisers); doc. [59](https://history.state.gov/historicaldocuments/frus1964-68v06/d59) (the apology). [[w.longley-lbjs-1968]], 46, 60 (the breakfast). [[w.barrett-uncertain-warriors]], 117–18 (Long; Byrd''s words; Johnson''s on the "mismanagement"); [[w.palermo-in-his-own-right]], 114 n.71 (Johnson "fumed" at Byrd on the intelligence; Byrd, by the note, did not agree it was good). [[w.mann-grand-delusion]], 573–74 (Byrd and Johnson, by Tom Johnson''s notes). To check: Notes of the President''s Meeting with the Democratic Congressional Leadership, Feb. 6, 1968, Tom Johnson''s Notes of Meetings, Box 2, LBJ Library (cited by [[w.longley-lbjs-1968]], 46 n.39, 60 n.20); the same notes (cited by [[w.barrett-uncertain-warriors]], 118 n.31; by [[w.palermo-in-his-own-right]], 114 n.71). Made public: FRUS 1964–68, VI (2002). Check: Longley names Harry Byrd at the breakfast (46); FRUS and Longley (60) Robert Byrd. See [[cal.1968-01-30.vietnam]]. Names: Boggs, Mansfield, Robert C. Byrd, Johnson, Long. Check: Mann, 573, has "the next morning, on April 6," after Javits''s speech of Feb. 5.'
+    src:
+      c: 63d29b08
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v06/d58: B-C'
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v06/d59: E'
+        - 'w.longley-lbjs-1968 46, 60: A-D'
+        - 'via w.longley-lbjs-1968 46 n.39: A, D'
+        - 'via w.longley-lbjs-1968 60 n.18: B-C'
+        - 'via w.longley-lbjs-1968 60 n.20b: E'
+        - 'w.barrett-uncertain-warriors 117–18: F-H'
+        - 'via w.barrett-uncertain-warriors 118 n.31: F-H'
+        - 'w.palermo-in-his-own-right 114: B-C'
+        - 'via w.palermo-in-his-own-right 114 n.71: B-C'
+        - 'w.mann-grand-delusion 573–74: A-C, G-H'
+        - 'via w.mann-grand-delusion 574 n.12: B-C, G-H'
+    tags: [name:boggs-hale, name:mansfield-mike, name:byrd-robert-c, name:johnson-lyndon-b, name:long-russell-b]
   - id: cal.1968-02-07.vietnam
     when: Feb. 7
     date: '1968-02-07'
@@ -141,8 +239,40 @@ entries:
     thread: king-poor-peoples
     also: [poverty]
     c: 'Washington. King gives the campaign''s demands: $30 billion a year against poverty; at the least, a commitment to full employment, a guaranteed annual income, and 500,000 low-cost houses a year. "Our protests will center on the government, Congress, and not the city at large."'
-    n: '[[w.garrow-bearing-the-cross]], 595–96. Check: the day; Garrow has it the morning after the march through Arlington Cemetery, and cites the papers of Feb. 7 and 8 (717 n.23). See [[cal.1967-12-04.king]]. Names: King.'
+    n: '[[w.garrow-bearing-the-cross]], 595–96. To check: New York Times, Feb. 7, 1968, 17; Feb. 8, 1968, 30; Washington Post, Feb. 7, 1968, B1; Feb. 8, 1968, A1 (cited by [[w.garrow-bearing-the-cross]], 596 n.23). Check: the day; Garrow, 596, has it the morning after the march through Arlington Cemetery. See [[cal.1967-12-04.king]]. Names: King.'
+    src:
+      c: c22797ac
+      rows:
+        - 'w.garrow-bearing-the-cross 595–96: all'
+        - 'via w.garrow-bearing-the-cross 596 n.23: B-D'
     tags: [name:king-martin-luther-jr]
+  - id: cal.1968-02-07.vietnam-khe-sanh
+    when: Feb. 7
+    date: '1968-02-07'
+    thread: vietnam-khe-sanh
+    also: [vietnam-tet]
+    c: 'The National Security Council, 12:29 p.m. Wheeler: Lang Vei evacuated; 670 Americans dead so far, the enemy''s dead 24,199. Johnson: "Bob, are you worried?" McNamara: "I am not worried about a true military defeat." Wheeler: "this is not a situation to take lightly." Johnson: "Everything he wants, let''s get it to him."'
+    n: 'FRUS 1964–68, VI, doc. [60](https://history.state.gov/historicaldocuments/frus1964-68v06/d60). [[w.longley-lbjs-1968]], 61–62. Made public: FRUS 1964–68, VI (2002). See [[cal.1968-01-08.vietnam-2]]. Names: Wheeler, McNamara, Johnson.'
+    src:
+      c: 7e73c4c2
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v06/d60: all'
+        - 'w.longley-lbjs-1968 61–62: D-G'
+        - 'via w.longley-lbjs-1968 62 n.24: D-G'
+    tags: [name:wheeler-earle, name:mcnamara-robert-s, name:johnson-lyndon-b]
+  - id: cal.1968-02-07.vietnam-congress
+    when: Feb. 7
+    date: '1968-02-07'
+    thread: vietnam-congress
+    c: 'Foreign Relations votes 8–4 to ask the President to let Rusk testify in public. Fulbright to Johnson: "no less urgent a question than the Senate''s constitutional duty to advise, as well as consent." Johnson''s reply, dictated and not sent: not "before television cameras and sometimes in a divisive, argumentative atmosphere."'
+    n: '[[w.mann-grand-delusion]], 587. To check: Fulbright to Johnson, Feb. 7, 1968, Series 1:1, 4:1, Fulbright Papers (cited by [[w.mann-grand-delusion]], 587 n.42); [[w.woods-fulbright]], 470 (cited by [[w.mann-grand-delusion]], 587 n.42); Johnson to Fulbright, Feb. 7, 1968, not sent, in [[w.lyndon-b-johnsons-vietnam]], 588–89 (cited by [[w.mann-grand-delusion]], 587 n.43). See [[cal.1967-12-08.vietnam-congress]]. Names: Fulbright, Johnson, Rusk.'
+    src:
+      c: ea15baba
+      rows:
+        - 'w.mann-grand-delusion 587: all'
+        - 'via w.mann-grand-delusion 587 n.42: B'
+        - 'via w.mann-grand-delusion 587 n.43: C'
+    tags: [name:fulbright-j-william, name:johnson-lyndon-b, name:rusk-dean]
   - id: cal.1968-02-08.south-carolina
     when: Feb. 8
     date: '1968-02-08'
@@ -164,7 +294,15 @@ entries:
     thread: robert-kennedy
     also: [vietnam]
     c: 'Chicago, the Book and Author Luncheon. Robert Kennedy on the war: the enemy, striking across the South, "has finally shattered the mask of official illusion with which we have concealed our true circumstances, even from ourselves."'
-    n: '[[w.schlesinger-robert-kennedy-and-his]], 842–43. To check: [[w.thomas-robert-kennedy]]. See [[cal.1968-01-30.robert-kennedy]]. Names: Robert Kennedy.'
+    n: 'The address, as Clark inserted it, [114 Cong. Rec. 2671–72 (1968)](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt3/pdf/GPO-CRECB-1968-pt3-1-1.pdf#page=69) (Senate, Feb. 8, 1968). [[w.schlesinger-robert-kennedy-and-his]], 842–43 (the speech in Chicago, Feb. 8; not these words); [[w.palermo-in-his-own-right]], 117–24 (the speech at the Ambassador East, written by Walinsky and Goodwin; these words; Daley''s welcome). To check: [[w.thomas-robert-kennedy]]; Robert Kennedy, address at the Book and Author Luncheon, Chicago, Feb. 8, 1968, RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 842 n.2). See [[cal.1968-01-30.robert-kennedy]]. Names: Robert Kennedy.'
+    src:
+      c: a0c2dc8a
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 842–43: A'
+        - 'via w.schlesinger-robert-kennedy-and-his 842 n.2: A'
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt3/pdf/GPO-CRECB-1968-pt3-1-1.pdf#page=69: all'
+        - 'w.palermo-in-his-own-right 117–24: all'
+        - 'via w.palermo-in-his-own-right 121 n.19: all'
     tags: [name:kennedy-robert-f, city:chicago]
   - id: cal.1968-02-08.foreign-aid
     when: Feb. 8
@@ -173,26 +311,121 @@ entries:
     c: 'Message on foreign aid, "To Build the Peace": an economic aid appropriation of $2.5 billion; $412 million in callable capital for the Inter-American Development Bank; agriculture half of AID''s development aid, about $800 million; $35 million for family planning abroad in 1968.'
     n: 'Special Message to the Congress on the Foreign Assistance Programs: "To Build the Peace", [1968–69 Pub. Papers 199](https://www.govinfo.gov/content/pkg/PPP-1968-book1/pdf/PPP-1968-book1.pdf#page=277) (Feb. 8, 1968). See [[cal.1968-01-17.program]]; [[cal.1967-12-14.foreign-aid]]. Names: Johnson.'
     tags: [name:johnson-lyndon-b]
+  - id: cal.1968-02-08.europe-and-the-alliance
+    when: Feb. 8–9
+    date: '1968-02-08'
+    thread: europe-and-the-alliance
+    also: [economy]
+    c: 'Wilson in Washington. Johnson reads him a briefing paper likening sterling''s plight to 1931; Wilson: exports better. The British withdrawal from east of Suez not pressed, by the British record.'
+    n: 'Toasts of the President and Prime Minister Wilson of the United Kingdom, [1968–69 Pub. Papers 209](https://www.govinfo.gov/content/pkg/PPP-1968-book1/pdf/PPP-1968-book1.pdf#page=287) (Feb. 8, 1968). [[w.schwartz-lyndon-johnson-and-europe]], 198–99 (the talks, by the British record). To check: record of talks, Johnson and Wilson, Feb. 8 and 9, 1968, PREM 13/2455, Public Record Office (cited by [[w.schwartz-lyndon-johnson-and-europe]], 199 n.67). See [[cal.1968-01-11.europe-and-the-alliance]]. Names: Wilson, Johnson.'
+    src:
+      c: 3fabc135
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1968-book1/pdf/PPP-1968-book1.pdf#page=287: A'
+        - 'w.schwartz-lyndon-johnson-and-europe 198–99: all'
+        - 'via w.schwartz-lyndon-johnson-and-europe 199 n.67: B-C'
+    tags: [name:wilson-harold, name:johnson-lyndon-b]
+  - id: cal.1968-02-08.robert-kennedy-2
+    when: Feb. 8
+    date: '1968-02-08'
+    thread: robert-kennedy-campaign
+    also: [elections-1968]
+    c: 'Chicago, the day of the speech. Daley to Robert Kennedy: he has told Johnson the war has become so damaging he has little hope of reelection unless he changes his policies. Kennedy: Johnson holds to it as a matter of honor. Daley: "There comes a time when you must put your honor in your back pocket and face realities."'
+    n: '[[w.palermo-in-his-own-right]], 120. To check: [[w.vanden-heuvel-on-his-own]], 296 (cited by [[w.palermo-in-his-own-right]], 120 nn.16–17). See [[cal.1968-02-08.robert-kennedy]]. Names: Daley, Robert Kennedy, Johnson.'
+    src:
+      c: 4701fec4
+      rows:
+        - 'w.palermo-in-his-own-right 120: all'
+    tags: [name:daley-richard-j, name:kennedy-robert-f, name:johnson-lyndon-b, city:chicago]
+  - id: cal.1968-02-08.vietnam-tet
+    when: Feb. 8
+    date: '1968-02-08'
+    thread: vietnam-tet
+    c: 'Bunker to Johnson, his thirty-eighth weekly telegram: "The enemy has suffered a major military defeat"; nearly 25,000 of the enemy killed, Jan. 31 to Feb. 7, the allies'' dead 2,043.'
+    n: '[FRUS 1964–68, VI, doc. 62](https://history.state.gov/historicaldocuments/frus1964-68v06/d62). [[w.mann-grand-delusion]], 573 (the defeat). Names: Bunker, Johnson.'
+    src:
+      c: 6952a380
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v06/d62: all'
+        - 'w.mann-grand-delusion 573: A'
+        - 'via w.mann-grand-delusion 573 n.10: A'
+    tags: [name:bunker-ellsworth, name:johnson-lyndon-b]
   - id: cal.1968-02-09.vietnam
     when: Feb. 9
     date: '1968-02-09'
     thread: vietnam-tet
     c: 'Wheeler to Westmoreland, Feb. 7 and 9: if more troops are needed, ask; make the request urgent. Westmoreland to Wheeler and Sharp, Feb. 9: the enemy''s plan in three phases; he "would welcome reinforcements at any time they can be made available."'
-    n: 'FRUS 1964–68, VI, doc. [63](https://history.state.gov/historicaldocuments/frus1964-68v06/d63). Made public: the Pentagon Papers (1971); FRUS 1964–68, VI (2002). See [[cal.1968-01-30.vietnam]]. Names: Wheeler, Westmoreland, Sharp.'
+    n: 'FRUS 1964–68, VI, doc. [63](https://history.state.gov/historicaldocuments/frus1964-68v06/d63). [[w.longley-lbjs-1968]], 62 (Wheeler''s message, dated Feb. 8 by Longley). Made public: the Pentagon Papers (1971); FRUS 1964–68, VI (2002). See [[cal.1968-01-30.vietnam]]. Names: Wheeler, Westmoreland, Sharp. Check: Longley dates Wheeler''s message Feb. 8 (62, from Clifford''s memoir).'
+    src:
+      c: 03811dc5
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v06/d63: all'
+        - 'w.longley-lbjs-1968 62: A'
     tags: [name:wheeler-earle, name:westmoreland-william, name:sharp-u-s-grant]
   - id: cal.1968-02-09.vietnam-tet
     when: Feb. 9
     date: '1968-02-09'
     thread: vietnam-tet
     c: 'The Cabinet Room, 11:02 a.m.: Johnson with the Joint Chiefs, Rusk, McNamara, Clifford and Rostow. "Hope for the best and expect the worst": extensions, call-ups, specialists. Should he ask for more than the Gulf of Tonkin resolution, a declaration of war? Rusk: no; a challenge to Moscow and Peking "in a way we have never challenged them before." Clifford: "a very strange contradiction in what we are saying and doing."'
-    n: '[FRUS 1964–68, VI, doc. 64](https://history.state.gov/historicaldocuments/frus1964-68v06/d64). [[w.dallek-flawed-giant]], 507. Made public: FRUS 1964–68, VI (2002). See [[cal.1968-02-09.vietnam]]. Names: Johnson, Wheeler, Rusk, McNamara, Clifford, Rostow.'
+    n: '[FRUS 1964–68, VI, doc. 64](https://history.state.gov/historicaldocuments/frus1964-68v06/d64). [[w.dallek-flawed-giant]], 507 ("plan for the worst," the later words of the meeting). [[w.longley-lbjs-1968]], 63–64 (the meeting; Clifford''s contradiction). Made public: FRUS 1964–68, VI (2002). See [[cal.1968-02-09.vietnam]]. Names: Johnson, Wheeler, Rusk, McNamara, Clifford, Rostow.'
+    src:
+      c: 51ebfbb3
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v06/d64: all'
+        - 'w.dallek-flawed-giant 507: all'
+        - 'via w.dallek-flawed-giant 507 n.41: all'
+        - 'w.longley-lbjs-1968 63–64: A, F'
+        - 'via w.longley-lbjs-1968 64 n.28: A, F'
     tags: [name:johnson-lyndon-b, name:wheeler-earle, name:rusk-dean, name:mcnamara-robert-s, name:clifford-clark, name:rostow-walt-w]
+  - id: cal.1968-02-09.robert-kennedy
+    when: Feb. 9
+    date: '1968-02-09'
+    thread: robert-kennedy
+    also: [vietnam-tet]
+    c: 'Helms to Christian, the press secretary, at Johnson''s wish, against Robert Kennedy''s speech in Chicago: "a minimum of fact and a maximum of tone, attitude and innuendo"; "conjuring tricks" with "victory" and "secure." Of Loan''s shooting of the prisoner: "ample historical precedent for giving summary justice to enemy soldiers working behind the lines on military missions in civilian clothes."'
+    n: '[[w.palermo-in-his-own-right]], 106, 126. To check: Helms to Christian, Feb. 9, 1968, Watson Papers, LBJ Library (cited by [[w.palermo-in-his-own-right]], 126 n.36). See [[cal.1968-02-08.robert-kennedy]]. Names: Helms, Christian, Robert Kennedy, Johnson, Nguyễn Ngọc Loan. Check: Palermo, 106, calls it "a letter to Johnson."'
+    src:
+      c: f73847ad
+      rows:
+        - 'w.palermo-in-his-own-right 106, 126: all'
+        - 'via w.palermo-in-his-own-right 126 n.36: all'
+    tags: [name:helms-richard, name:christian-george, name:kennedy-robert-f, name:johnson-lyndon-b, name:nguyen-ngoc-loan]
+  - id: cal.1968-02-09.vietnam-congress
+    when: Feb. 9
+    date: '1968-02-09'
+    thread: vietnam-congress
+    c: Fulbright, for the Foreign Relations Committee, to McNamara, a letter of questions on the war after Tet.
+    n: '[[w.palermo-in-his-own-right]], 111. To check: Fulbright to McNamara, Feb. 9, 1968, NSF Country File, Vietnam, LBJ Library (cited by [[w.palermo-in-his-own-right]], 111 n.50). Names: Fulbright, McNamara. Check: the questions (Palermo, 111: "some very tough questions").'
+    src:
+      c: 8526f099
+      rows:
+        - 'w.palermo-in-his-own-right 111: all'
+        - 'via w.palermo-in-his-own-right 111 n.50: all'
+    tags: [name:fulbright-j-william, name:mcnamara-robert-s]
+  - id: cal.1968-02-09.robert-kennedy-2
+    when: Feb. 9
+    date: '1968-02-09'
+    thread: robert-kennedy-campaign
+    also: [elections-1968]
+    c: Dolan to Robert Kennedy, from his canvass of Democratic politicians, the South among them, since January, on Kennedy's entering the primaries open to him.
+    n: '[[w.palermo-in-his-own-right]], 131. To check: Dolan to Robert Kennedy, Feb. 9, 1968, Dolan Papers, JFK Library (cited by [[w.palermo-in-his-own-right]], 131 n.3). Names: Dolan, Robert Kennedy. Check: the memorandum''s matter (Palermo, 131, cites it for the canvass, from January).'
+    src:
+      c: c3501143
+      rows:
+        - 'w.palermo-in-his-own-right 131: all'
+        - 'via w.palermo-in-his-own-right 131 n.3: all'
+    tags: [name:dolan-joseph-f, name:kennedy-robert-f]
   - id: cal.1968-02-10.japan-and-korea
     when: Feb. 10–15
     date: '1968-02-10'
     thread: korea
     c: 'Vance, Johnson''s envoy, in Seoul. His aims: no independent military action by the South against the North; the agitation for reprisals damped; consent to the private talks with the North Koreans on the *Pueblo*. Joint communiqué, Feb. 15. To Johnson that evening: Park took the raid as a personal affront; "a very strong danger of unilateral action by Pak."'
-    n: 'FRUS 1964–68, XXIX, pt. 1, doc. [180](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d180). Made public: FRUS 1964–68, XXIX, pt. 1 (2000). See [[cal.1968-01-21.japan-and-korea]]; [[cal.1968-01-23.japan-and-korea]]. Names: Vance, Johnson, Park.'
+    n: 'FRUS 1964–68, XXIX, pt. 1, doc. [180](https://history.state.gov/historicaldocuments/frus1964-68v29p1/d180). [[w.longley-lbjs-1968]], 47–48 (Vance''s mission; his report). Made public: FRUS 1964–68, XXIX, pt. 1 (2000). See [[cal.1968-01-21.japan-and-korea]]; [[cal.1968-01-23.japan-and-korea]]. Names: Vance, Johnson, Park.'
+    src:
+      c: 9854d39e
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v29p1/d180: all'
+        - 'w.longley-lbjs-1968 47–48: A'
     tags: [name:vance-cyrus, name:johnson-lyndon-b, name:park-chung-hee]
   - id: cal.1968-02-10.jobs-and-wages-nyc
     when: Feb. 10
@@ -202,6 +435,31 @@ entries:
     c: New York City. The sanitation men return to work. Lindsay had asked Rockefeller for the National Guard; refused. Rockefeller had proposed that the State take over the Department of Sanitation (Check the day). The legislature does not pass the takeover; the dispute to arbitration (Check).
     n: 'Check: *Public Papers of Nelson A. Rockefeller*, 1968. See [[cal.1968-02-02.jobs-and-wages-nyc]]. Names: Lindsay, Rockefeller.'
     tags: [state:ny, city:nyc, name:lindsay-john-v, name:rockefeller-nelson]
+  - id: cal.1968-02-10.robert-kennedy
+    when: Feb. 10
+    date: '1968-02-10'
+    thread: robert-kennedy
+    also: [elections-1968]
+    c: 'Robert Kennedy in the *New York Times*, "Things Fall Apart": the gross national product "measures everything, in short, except that which makes life worthwhile"; "We seek to recapture our country. . . . And that is what the 1968 elections must really be about."'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 845. To check: Robert F. Kennedy, "''Things Fall Apart; the Center Cannot Hold . . .,''" *New York Times*, Feb. 10, 1968 (cited by [[w.schlesinger-robert-kennedy-and-his]], 845 n.18). Names: Robert Kennedy.'
+    src:
+      c: bf56aceb
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 845: all'
+    tags: [name:kennedy-robert-f]
+  - id: cal.1968-02-10.robert-kennedy-2
+    when: Feb. 10
+    date: '1968-02-10'
+    thread: robert-kennedy
+    also: [vietnam-congress]
+    c: 'Fulbright to Robert Kennedy, by hand: "Your speech in Chicago was very effective, one of the best I have seen by anyone. I do believe the country is beginning to respond—is beginning to recognize the peril into which we have been led."'
+    n: '[[w.palermo-in-his-own-right]], 126–27. To check: Fulbright to Robert Kennedy, Feb. 10, 1968, RFK Papers, JFK Library (cited by [[w.palermo-in-his-own-right]], 127 n.39). See [[cal.1968-02-08.robert-kennedy]]. Names: Fulbright, Robert Kennedy.'
+    src:
+      c: 5610a3ca
+      rows:
+        - 'w.palermo-in-his-own-right 126–27: all'
+        - 'via w.palermo-in-his-own-right 127 n.39: all'
+    tags: [name:fulbright-j-william, name:kennedy-robert-f]
   - id: cal.1968-02-11.opinion
     when: Feb. 11
     date: '1968-02-11'
@@ -215,7 +473,17 @@ entries:
     date: '1968-02-12'
     thread: vietnam-tet
     c: 'Westmoreland: the enemy''s third phase, to take Quảng Trị and Thừa Thiên, begun; he asks for reinforcements now. Johnson with his advisers: a brigade of the 82d Airborne, 3,800 men, and Marines, 6,500, to Vietnam; the Joint Chiefs had asked that a reserve call-up come first.'
-    n: 'FRUS 1964–68, VI, docs. [68](https://history.state.gov/historicaldocuments/frus1964-68v06/d68), [70](https://history.state.gov/historicaldocuments/frus1964-68v06/d70). JCSM-91-68 to McNamara, Feb. 12, 1968 (as cited in [[w.drea-mcnamara-clifford-and-the-2011]], 587 n. 44). Made public: the Pentagon Papers (1971); FRUS 1964–68, VI (2002). See [[cal.1968-01-30.vietnam]]. Names: Westmoreland, Johnson.'
+    n: 'FRUS 1964–68, VI, docs. [68](https://history.state.gov/historicaldocuments/frus1964-68v06/d68), [70](https://history.state.gov/historicaldocuments/frus1964-68v06/d70). [[w.drea-mcnamara-clifford-and-the-2011]], 183 (Westmoreland''s cable; the lunch, some 10,000 men approved; the Chiefs for deferring and a call-up). [[w.longley-lbjs-1968]], 64 (the meeting). Made public: the Pentagon Papers (1971); FRUS 1964–68, VI (2002). To check: JCSM-91-68 to McNamara, Feb. 12, 1968, Pentagon Papers Backup, Acc 75-062 (cited by [[w.drea-mcnamara-clifford-and-the-2011]], 183 n.44). See [[cal.1968-01-30.vietnam]]. Names: Westmoreland, Johnson.'
+    src:
+      c: 1ea7446e
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v06/d68: all'
+        - 'w.drea-mcnamara-clifford-and-the-2011 183: B-D'
+        - 'via w.drea-mcnamara-clifford-and-the-2011 183 n.42a: B'
+        - 'via w.drea-mcnamara-clifford-and-the-2011 183 n.42c: C'
+        - 'via w.drea-mcnamara-clifford-and-the-2011 183 n.44a: D'
+        - 'w.longley-lbjs-1968 64: B-C'
+        - 'via w.longley-lbjs-1968 64 n.30: B-C'
     tags: [name:westmoreland-william, name:johnson-lyndon-b]
   - id: cal.1968-02-12.king
     when: Feb. 12
@@ -223,8 +491,27 @@ entries:
     thread: king-memphis
     also: [labor-disputes]
     c: 'Memphis. The city''s sanitation workers, some 1,300, nearly all Negroes, strike for recognition of their union, Local 1733 of AFSCME, after two of them were crushed in a garbage truck''s compactor, Feb. 1. Loeb: the strike illegal; no recognition.'
-    n: '[[w.garrow-bearing-the-cross]], 603–04. To check: [[w.honey-going-down-jericho-road]]; [[w.beifuss-at-the-river-i]]. See [[cal.1967-11-02.mayors-memphis]]; [[cal.1967-12-04.king]]. Check: Garrow, 604, has the walkout follow the sending home without pay of twenty-two Negro sewer workers, and the city''s refusal of a dues check-off; he does not mention the deaths of Feb. 1. Names: Loeb.'
+    n: '[[w.garrow-bearing-the-cross]], 603–04. To check: [[w.honey-going-down-jericho-road]]; [[w.beifuss-at-the-river-i]]; Henry Loeb to the City Council, Feb. 15, 1968, Henry Loeb Papers, Memphis-Shelby County Public Library; Ozell Sutton to James Madison, on the Memphis sanitation workers'' strike, Feb. 29, 1968, Community Relations Service FOIA (cited by [[w.garrow-bearing-the-cross]], 604 n.34). See [[cal.1967-11-02.mayors-memphis]]; [[cal.1967-12-04.king]]. Check: Garrow, 604, has the walkout follow the sending home without pay of twenty-two Negro sewer workers, and the city''s refusal of a dues check-off; he does not mention the deaths of Feb. 1. Names: Loeb.'
+    src:
+      c: 00c9431d
+      rows:
+        - 'w.garrow-bearing-the-cross 603–04: all'
+        - 'via w.garrow-bearing-the-cross 604 n.34a: C-D'
+        - 'via w.garrow-bearing-the-cross 604 n.34b: B-D'
     tags: [name:loeb-henry, state:tn, city:memphis]
+  - id: cal.1968-02-12.vietnam-congress
+    when: Feb. 12
+    date: '1968-02-12'
+    thread: vietnam-congress
+    also: [vietnam-tet]
+    c: 'McNamara consults Russell. Russell, by his notes: no more troops "until after there was a complete reappraisal of Vietnam"; against the "half-way measures."'
+    n: '[[w.mann-grand-delusion]], 576. To check: Russell''s handwritten notes, Feb. 12, 1968, XVIII, Exhibit B, Russell Library (cited by [[w.mann-grand-delusion]], 576 n.20). See [[cal.1968-02-12.vietnam-tet]]. Names: McNamara, Russell.'
+    src:
+      c: f37f2dfa
+      rows:
+        - 'w.mann-grand-delusion 576: all'
+        - 'via w.mann-grand-delusion 576 n.20: all'
+    tags: [name:mcnamara-robert-s, name:russell-richard-b]
   - id: cal.1968-02-13.state-and-city-finance-seattle
     when: Feb. 13
     date: '1968-02-13'
@@ -233,6 +520,31 @@ entries:
     c: Seattle and King County vote on Forward Thrust's twelve bond propositions, each needing 60 percent. Seven carry, among them parks, $118 million, 64.7 percent; a domed stadium, $40 million, 62.3; arterial highways, $81.6 million, 62.2. Rapid transit, $385 million with $765 million federal, fails, 50.8 percent; low-income housing, $3 million, 57.9.
     n: 'Votes: [Wikipedia, "Forward Thrust"](https://en.wikipedia.org/wiki/Forward_Thrust), from HistoryLink; Check: the King County canvass, Feb. 13, 1968. To check: [[w.schwantes-pacific-northwest]]; [[w.peirce-pacific-states-of-america]]. See [[cal.1964-03-10.mayors-seattle]].'
     tags: [state:wa, city:seattle]
+  - id: cal.1968-02-13.robert-kennedy
+    when: Feb. 13
+    date: '1968-02-13'
+    thread: robert-kennedy-campaign
+    also: [elections-1968]
+    c: 'Boston, an evening. Goodwin, for Robert Kennedy, with Edward Kennedy: his brother''s chances of the nomination about one in five; his instincts push him to run. Edward Kennedy: "I know what Dad would have said. . . . Don''t do it." By Goodwin''s report to Robert Kennedy.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 845–46. To check: Goodwin to Robert Kennedy, "Conversation with TK on Feb. 13," n.d., RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 846 n.20). Names: Goodwin, Robert Kennedy, Edward Kennedy.'
+    src:
+      c: db1bc970
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 845–46: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 846 n.20: all'
+    tags: [name:goodwin-richard-n, name:kennedy-robert-f, name:kennedy-edward-m, state:ma]
+  - id: cal.1968-02-13.robert-kennedy-2
+    when: Feb. 13
+    date: '1968-02-13'
+    thread: robert-kennedy
+    c: 'Panzer to Johnson: Robert Kennedy''s analysis of the war "aiding the VC psychological offensive."'
+    n: '[[w.palermo-in-his-own-right]], 125. To check: Panzer to Johnson, Feb. 13, 1968, Watson Papers, LBJ Library (cited by [[w.palermo-in-his-own-right]], 125 n.32). See [[cal.1968-02-08.robert-kennedy]]. Names: Johnson, Robert Kennedy.'
+    src:
+      c: fd2cd23d
+      rows:
+        - 'w.palermo-in-his-own-right 125: all'
+        - 'via w.palermo-in-his-own-right 125 n.32: all'
+    tags: [name:johnson-lyndon-b, name:kennedy-robert-f]
   - id: cal.1968-02-14.opinion
     when: Feb. 14
     date: '1968-02-14'
@@ -255,7 +567,12 @@ entries:
     thread: king-poor-peoples
     also: [civil-rights-the-executive]
     c: 'Temple to Johnson: "We have permitted the Stokely Carmichaels, the Rap Browns, and the Martin Luther Kings to cloak themselves in an aura of respectability to which they are not entitled"; King''s plan "criminal disobedience"; the President to "publicly unmask" it.'
-    n: '[[w.garrow-bearing-the-cross]], 597. To check: Temple to Johnson, Feb. 14, 1968, Ex HU2 Box 7 (LBJ Library), as Garrow cites it (717 n.25). See [[cal.1967-12-04.king]]. Made public: Check; Garrow read it at the LBJ Library (717 n.25). Names: Temple, Johnson, Carmichael, Brown, King.'
+    n: '[[w.garrow-bearing-the-cross]], 597. To check: Larry Temple to Johnson, Feb. 14, 1968, White House Central Files, Ex HU2, box 7, Johnson Library (cited by [[w.garrow-bearing-the-cross]], 597 n.25). See [[cal.1967-12-04.king]]. Made public: Check; Garrow read it at the LBJ Library (717 n.25). Names: Temple, Johnson, Carmichael, Brown, King.'
+    src:
+      c: aa7328fa
+      rows:
+        - 'w.garrow-bearing-the-cross 597: all'
+        - 'via w.garrow-bearing-the-cross 597 n.25: all'
     tags: [name:temple-larry, name:johnson-lyndon-b, name:carmichael-stokely, name:brown-h-rap, name:king-martin-luther-jr]
   - id: cal.1968-02-15.economy
     when: Feb. 15
@@ -265,6 +582,19 @@ entries:
     c: Okun named chairman of the Council of Economic Advisers, Ackley's successor; Peck sworn in as a member.
     n: 'Remarks at the Swearing In of Merton J. Peck as a Member, Council of Economic Advisers, and Upon Designating Arthur M. Okun as Chairman, [1968–69 Pub. Papers 227](https://www.govinfo.gov/content/pkg/PPP-1968-book1/pdf/PPP-1968-book1.pdf#page=305) (Feb. 15, 1968). See [[cal.1968-02-01.economy]]. Names: Okun, Ackley, Peck, Johnson.'
     tags: [name:johnson-lyndon-b, name:okun-arthur-m, name:ackley-gardner, name:peck-merton-j]
+  - id: cal.1968-02-15.elections-1968
+    when: Feb. 15
+    date: '1968-02-15'
+    thread: elections-1968
+    also: [vietnam]
+    c: 'Nixon at Boston: "there shall be no reward for armed aggression"; "peaceful progress" for the people of South Vietnam "pressed with a sense of compelling urgency."'
+    n: '[[w.johns-vietnams-second-front]], 191. To check: the speech, Feb. 15, 1968, Fred A. Seaton Papers, Post-Eisenhower Administration Series, box 11, Eisenhower Library (cited by [[w.johns-vietnams-second-front]], 191 n.123). Names: Nixon.'
+    src:
+      c: 75d3bf40
+      rows:
+        - 'w.johns-vietnams-second-front 191: all'
+        - 'via w.johns-vietnams-second-front 191 n.123: all'
+    tags: [name:nixon-richard-m, city:boston]
   - id: cal.1968-02-16.draft
     when: Feb. 16
     date: '1968-02-16'
@@ -285,7 +615,15 @@ entries:
     date: '1968-02-17'
     thread: vietnam-tet
     c: Johnson sees the paratroopers off at Fort Bragg, N.C., and Marines at El Toro, Cal.; Feb. 18, aboard the *Constellation*.
-    n: '[Remarks at Fort Bragg, North Carolina](https://www.presidency.ucsb.edu/documents/remarks-fort-bragg-north-carolina); Remarks at El Toro Marine Corps Air Station, California, [1968–69 Pub. Papers 240](https://www.govinfo.gov/content/pkg/PPP-1968-book1/pdf/PPP-1968-book1.pdf#page=318) (Feb. 17, 1968). [President''s Daily Diary, Feb. 17, 1968](https://catalog.archives.gov/id/192473), images 7, 12; [Feb. 18](https://catalog.archives.gov/id/192474), image 4 (LBJ Library; National Archives Catalog). See [[cal.1968-01-30.vietnam]]. Names: Johnson.'
+    n: '[Remarks at Fort Bragg, North Carolina](https://www.presidency.ucsb.edu/documents/remarks-fort-bragg-north-carolina); Remarks at El Toro Marine Corps Air Station, California, [1968–69 Pub. Papers 240](https://www.govinfo.gov/content/pkg/PPP-1968-book1/pdf/PPP-1968-book1.pdf#page=318) (Feb. 17, 1968). [President''s Daily Diary, Feb. 17, 1968](https://catalog.archives.gov/id/192473), images 7, 12; [Feb. 18](https://catalog.archives.gov/id/192474), image 4 (LBJ Library; National Archives Catalog). [[w.longley-lbjs-1968]], 65 (Fort Bragg; El Toro). See [[cal.1968-01-30.vietnam]]. Names: Johnson.'
+    src:
+      c: e6698242
+      rows:
+        - 'https://www.presidency.ucsb.edu/documents/remarks-fort-bragg-north-carolina: all'
+        - 'https://www.govinfo.gov/content/pkg/PPP-1968-book1/pdf/PPP-1968-book1.pdf#page=318: all'
+        - 'https://catalog.archives.gov/id/192473: all'
+        - 'https://catalog.archives.gov/id/192474: all'
+        - 'w.longley-lbjs-1968 65: A'
     tags: [name:johnson-lyndon-b]
   - id: cal.1968-02-19.open-housing
     when: Feb. 19
@@ -303,6 +641,19 @@ entries:
     c: 'Florida. The teachers'' statewide walkout, called by the Florida Education Association: at its height 25,712, some 40 percent of the State''s teachers, by resignations; schools closed in about two-thirds of the counties. The special session Kirk called in January had raised taxes for the schools; the FEA calls the sums too small. Kirk and the legislature give no more. By the end of March most teachers back.'
     n: '[Wikipedia, "Florida statewide teachers'' strike of 1968"](https://en.wikipedia.org/wiki/Florida_statewide_teachers%27_strike_of_1968). Check: the taxes enacted in the special session (the sales tax to 4 percent) and whether Kirk signed them, from the *Laws of Florida*, 1968, Extraordinary Session. To check: [[w.kallina-claude-kirk-and-the]]; [[w.colburn-floridas-gubernatorial-politics-in]]. See [[cal.1967-01.crime-and-hijacking-fl]]. Names: Kirk.'
     tags: [state:fl, name:kirk-claude-r-jr]
+  - id: cal.1968-02-19.democratic-party
+    when: Feb. 19
+    date: '1968-02-19'
+    thread: democratic-party
+    also: [robert-kennedy-campaign]
+    c: 'Atlanta, a Jefferson-Jackson Day dinner. Connally on Robert Kennedy: his views have "a detrimental effect on the whole attitude of people in this country, and [an] even more disastrous effect insofar as Ho Chi Minh and the Communist world are concerned"; his "words and his actions have been a source of discord in this country."'
+    n: '[[w.palermo-in-his-own-right]], 125–26. To check: Associated Press, Feb. 19, 1968, Watson Papers, LBJ Library (cited by [[w.palermo-in-his-own-right]], 126 n.35). See [[cal.1968-02-08.robert-kennedy]]. Names: Connally, Robert Kennedy, Ho Chi Minh. Check: the day of the dinner (the wire Feb. 19).'
+    src:
+      c: 02a71a0d
+      rows:
+        - 'w.palermo-in-his-own-right 125–26: all'
+        - 'via w.palermo-in-his-own-right 126 n.35: all'
+    tags: [name:connally-john, name:kennedy-robert-f, name:ho-chi-minh, city:atlanta, state:ga, ok:diacritics]
   - id: cal.1968-02-20.specials
     when: Feb. 20
     date: '1968-02-20'
@@ -315,9 +666,15 @@ entries:
     when: Feb. 20
     date: '1968-02-20'
     thread: vietnam
-    c: 'The Senate Foreign Relations Committee, in closed session, on the Gulf of Tonkin attacks of August 1964: McNamara and Wheeler before Fulbright''s committee. McNamara: the second attack, Aug. 4, took place. The text released, censored, Feb. 24 (Check).'
-    n: 'Daily Digest, [114 Cong. Rec. D52](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=50). *The Gulf of Tonkin, the 1964 Incidents: Hearing Before the Senate Committee on Foreign Relations*, 90th Cong., 2d Sess. (1968). To check: [[w.moise-tonkin-gulf-and-the]]; [[w.woods-fulbright]]; [[w.goulden-truth-is-the-first]]. See [[cal.1964-08-04.vietnam]]. Names: McNamara, Wheeler, Fulbright.'
-    tags: [name:mcnamara-robert-s, name:wheeler-earle, name:fulbright-j-william]
+    c: 'The Senate Foreign Relations Committee, in closed session, on the Gulf of Tonkin attacks of August 1964: McNamara and Wheeler before Fulbright''s committee. McNamara: the second attack, Aug. 4, took place. The text released, censored, Feb. 24 (Check). McNamara: the suggestion that the government induced the incident "monstrous." Fulbright: "I regret it more than anything I have ever done in my life, that I was the vehicle which took that resolution to the floor." Morse: "a confused bungle."'
+    n: 'Daily Digest, [114 Cong. Rec. D52](https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=50). *The Gulf of Tonkin, the 1964 Incidents: Hearing Before the Senate Committee on Foreign Relations*, 90th Cong., 2d Sess. (1968). [[w.mann-grand-delusion]], 578–80. To check: [[w.moise-tonkin-gulf-and-the]]; [[w.woods-fulbright]]; [[w.goulden-truth-is-the-first]]; *The Gulf of Tonkin, The 1964 Incidents*, Hearing before the Senate Committee on Foreign Relations, 90th Cong., 2d Sess. (Feb. 20, 1968) (cited by [[w.mann-grand-delusion]], 580 n.29). See [[cal.1964-08-04.vietnam]]. Names: McNamara, Wheeler, Fulbright, Morse.'
+    src:
+      c: 3b1fcf36
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt26/pdf/GPO-CRECB-1968-pt26-1.pdf#page=50: A-C'
+        - 'w.mann-grand-delusion 578–80: A-B, D-F'
+        - 'via w.mann-grand-delusion 580 n.29: A-B, D-F'
+    tags: [name:mcnamara-robert-s, name:wheeler-earle, name:fulbright-j-william, name:morse-wayne]
   - id: cal.1968-02-20.japan-and-korea
     when: Feb. 20
     date: '1968-02-20'
@@ -338,7 +695,13 @@ entries:
     thread: economy-gold
     also: [trade]
     c: 'The House, H.R. 14743: the 25 percent gold reserve behind Federal Reserve notes ended. Recommittal refused, [189–205](https://voteview.com/rollcall/RH0900257); passed, [199–190](https://voteview.com/rollcall/RH0900258). Fowler to Johnson, Feb. 7: talk in the City of London of a new international financial crisis in March.'
-    n: 'FRUS 1964–68, VIII, doc. [180](https://history.state.gov/historicaldocuments/frus1964-68v08/d180). To check: [[w.gavin-gold-dollars-and-power]]; [[w.solomon-international-monetary-system-1945]]; [[w.coombs-arena-of-international-finance]]. See [[cal.1968-01-01.economy]]. Names: Fowler, Johnson.'
+    n: 'FRUS 1964–68, VIII, doc. [180](https://history.state.gov/historicaldocuments/frus1964-68v08/d180). To check: [[w.solomon-international-monetary-system-1945]]; [[w.coombs-arena-of-international-finance]]. See [[cal.1968-01-01.economy]]. Names: Fowler, Johnson.'
+    src:
+      c: be9d8bad
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v08/d180: all'
+        - 'https://voteview.com/rollcall/RH0900257: B'
+        - 'https://voteview.com/rollcall/RH0900258: C'
     tags: [name:fowler-henry-h, name:johnson-lyndon-b]
   - id: cal.1968-02-21.vietnam
     when: Feb. 21
@@ -363,6 +726,18 @@ entries:
     c: 'Senate, H.R. 2516: a motion to table the Mondale amendment, fair housing, fails, [34–58](https://voteview.com/rollcall/RS0900319).'
     n: 'See [[cal.1968-02-06.open-housing]]. Names: Mondale.'
     tags: [name:mondale-walter-f]
+  - id: cal.1968-02-21.vietnam-congress
+    when: Feb. 21
+    date: '1968-02-21'
+    thread: vietnam-congress
+    c: 'Church, "The Torment in the Land": "Year in, year out, the brutal drama penetrates every home until burning villages, screaming children and flowing blood become a routine part of the typical family scene."'
+    n: '[[w.palermo-in-his-own-right]], 129 n.54. To check: Church''s address, Feb. 21, 1968, Pearson Papers, LBJ Library (cited by [[w.palermo-in-his-own-right]], 129 n.54). Names: Church. Check: where it was given.'
+    src:
+      c: d712af29
+      rows:
+        - 'w.palermo-in-his-own-right 129: all'
+        - 'via w.palermo-in-his-own-right 129 n.54: all'
+    tags: [name:church-frank]
   - id: cal.1968-02-22.cities-and-housing
     when: Feb. 22
     date: '1968-02-22'
@@ -370,6 +745,17 @@ entries:
     c: 'Message on the cities, "The Crisis of the Cities." A Housing and Urban Development Act of 1968: 26 million homes and apartments to be built in ten years, 6 million of them for low- and middle-income families (Check); 300,000 assisted starts in fiscal 1969; home ownership for needy families; rent supplements, $65 million; flexible interest ceilings on FHA mortgages; the Federal National Mortgage Association''s secondary market to private hands; the antipoverty program at its authorized $2.18 billion.'
     n: 'Special Message to the Congress on Urban Problems: "The Crisis of the Cities", [1968–69 Pub. Papers 248](https://www.govinfo.gov/content/pkg/PPP-1968-book1/pdf/PPP-1968-book1.pdf#page=326) (Feb. 22, 1968). To check: [[w.haar-between-the-idea-and]]. See [[cal.1968-01-17.program]]. Names: Johnson.'
     tags: [name:johnson-lyndon-b]
+  - id: cal.1968-02-22.vietnam-congress
+    when: Feb. 22
+    date: '1968-02-22'
+    thread: vietnam-congress
+    c: 'Fulbright answers McNamara''s statement on the Tonkin hearing: the administration misled Congress and the public; a Navy commander who brought the committee information in November confined by the Pentagon to a psychiatric ward for a month.'
+    n: '[[w.mann-grand-delusion]], 580. To check: [[w.woods-fulbright]], 478–79 (cited by [[w.mann-grand-delusion]], 580 n.30). See [[cal.1968-02-20.vietnam]]. Names: Fulbright, McNamara.'
+    src:
+      c: f3e2da80
+      rows:
+        - 'w.mann-grand-delusion 580: all'
+    tags: [name:fulbright-j-william, name:mcnamara-robert-s]
   - id: cal.1968-02-23.economy
     when: Feb. 23
     date: '1968-02-23'
@@ -384,6 +770,11 @@ entries:
     also: [labor-disputes]
     c: Memphis. Police use Mace on ministers and strikers marching down Main Street.
     n: '[[w.garrow-bearing-the-cross]], 604–05, 719–20 n.34 (the day). See [[cal.1968-02-12.king]].'
+    src:
+      c: 9b109fe4
+      rows:
+        - 'w.garrow-bearing-the-cross 604–05: all'
+        - 'via w.garrow-bearing-the-cross 605 n.34a: B'
     tags: [state:tn, city:memphis]
   - id: cal.1968-02-24.vietnam
     when: Feb. 24–25
@@ -421,16 +812,37 @@ entries:
     thread: press-and-broadcasting
     also: [vietnam]
     c: 'CBS, *Report from Vietnam: Who, What, When, Where, Why?* Cronkite, back from Saigon and Huế: "it seems now more certain than ever that the bloody experience of Vietnam is to end in a stalemate"; the rational way out, to negotiate, "not as victors, but as an honorable people who lived up to their pledge to defend democracy, and did the best they could."'
-    n: '[[w.cosmas-joint-chiefs-of-staff]], 161. To check: [[w.brinkley-cronkite]]; [[w.cronkite-reporters-life]]; [[w.campbell-getting-it-wrong]]; [[w.hallin-uncensored-war-the-media]]; [[w.braestrup-big-story]]. Names: Cronkite.'
+    n: '[[w.cosmas-joint-chiefs-of-staff]], 161 (the broadcast; the stalemate). [[w.longley-lbjs-1968]], 71 (the broadcast; "mired in stalemate"; negotiation). Check: the broadcast''s words; Cosmas, 161, from Hammond, *Public Affairs*, 369–70, has "mired in stalemate" and "not as victims, but as an honorable people who lived up to their pledge to victory and democracy". To check: [[w.brinkley-cronkite]]; [[w.cronkite-reporters-life]]; [[w.campbell-getting-it-wrong]]; [[w.hallin-uncensored-war-the-media]]; [[w.braestrup-big-story]]. Names: Cronkite.'
+    src:
+      c: d6777b13
+      rows:
+        - 'w.cosmas-joint-chiefs-of-staff 161: A'
+        - 'w.longley-lbjs-1968 71: A-B'
     tags: [name:cronkite-walter, place:saigon, place:hue]
   - id: cal.1968-02-27.vietnam
     when: Feb. 27
     date: '1968-02-27'
     thread: vietnam-205000
     also: [defense]
-    c: 'Wheeler, back from Saigon, to Johnson: the enemy''s first attack "nearly succeeded in a dozen places"; Westmoreland asks for 205,000 more men, 105,000 by May 1. At State, McNamara: a reserve call-up of at least 150,000 needed, $10 billion more in fiscal 1969; "I do not understand what the strategy is in putting in 205,000 men."'
-    n: 'FRUS 1964–68, VI, docs. [89](https://history.state.gov/historicaldocuments/frus1964-68v06/d89), [90](https://history.state.gov/historicaldocuments/frus1964-68v06/d90). [[w.cosmas-joint-chiefs-of-staff]], 159–161; [[w.drea-mcnamara-clifford-and-the-2011]], 223; [[w.johnson-vantage-point]], 389–90 (McNamara at the lunch at State). Made public: the request, *New York Times*, Mar. 10, 1968; the meetings, the Pentagon Papers (1971) and FRUS 1964–68, VI (2002). To check: [[w.schandler-unmaking-of-a-president]]; [[w.clifford-counsel-to-the-president-2]]; [[w.hoopes-limits-of-intervention]]; [[w.isaacson-wise-men]]. See [[cal.1968-01-30.vietnam]]. Names: Wheeler, Westmoreland, McNamara, Johnson.'
-    tags: [name:wheeler-earle, name:westmoreland-william, name:mcnamara-robert-s, name:johnson-lyndon-b, place:saigon]
+    c: 'Wheeler, back from Saigon, to Johnson: the enemy''s first attack "nearly succeeded in a dozen places"; Westmoreland asks for 205,000 more men, 105,000 by May 1. At State, McNamara: a reserve call-up of at least 150,000 needed, $10 billion more in fiscal 1969; "I do not understand what the strategy is in putting in 205,000 men." William Bundy: "We must also prepare for the worst"; "Our position may be truly untenable." McNamara: the 205,000 "neither enough to do the job, nor an indication that our role must change." By Clifford''s account McNamara, in tears, of the bombing: "The goddamned Air Force, they''re dropping more on North Vietnam than we dropped on Germany in the last year of World War II, and it''s not doing anything!"'
+    n: 'FRUS 1964–68, VI, docs. [89](https://history.state.gov/historicaldocuments/frus1964-68v06/d89), [90](https://history.state.gov/historicaldocuments/frus1964-68v06/d90). [[w.cosmas-joint-chiefs-of-staff]], 159–60 (the report; the request); [[w.drea-mcnamara-clifford-and-the-2011]], 184, 223 (Wheeler''s report and the 205,000; McNamara at State, the reserves and $10 billion); [[w.johnson-vantage-point]], 389–90 (McNamara at the lunch at State). [[w.longley-lbjs-1968]], 67–68 (McNamara at the meeting at State). Made public: the request, *New York Times*, Mar. 10, 1968; the meetings, the Pentagon Papers (1971) and FRUS 1964–68, VI (2002). [[w.mann-grand-delusion]], 585 (William Bundy; McNamara at the meeting). To check: [[w.schandler-unmaking-of-a-president]]; [[w.clifford-counsel-to-the-president-2]], 484–85 (cited by [[w.mann-grand-delusion]], 585 n.37); [[w.hoopes-limits-of-intervention]]; [[w.isaacson-wise-men]]. See [[cal.1968-01-30.vietnam]]. Names: Wheeler, Westmoreland, McNamara, Johnson, William Bundy, Clifford.'
+    src:
+      c: 3959cc1a
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v06/d89: A-G'
+        - 'w.drea-mcnamara-clifford-and-the-2011 184: A-D'
+        - 'w.drea-mcnamara-clifford-and-the-2011 223: C-D'
+        - 'via w.drea-mcnamara-clifford-and-the-2011 184 n.46a: A-B'
+        - 'via w.drea-mcnamara-clifford-and-the-2011 184 n.49a: C-D'
+        - 'via w.drea-mcnamara-clifford-and-the-2011 223 n.82b: C-D'
+        - 'w.johnson-vantage-point 389–90: C-D'
+        - 'w.cosmas-joint-chiefs-of-staff 159–60: A-B'
+        - 'via w.cosmas-joint-chiefs-of-staff 159 n.30: B'
+        - 'via w.cosmas-joint-chiefs-of-staff 159 n.32: B'
+        - 'via w.cosmas-joint-chiefs-of-staff 160 n.33: A'
+        - 'w.longley-lbjs-1968 67–68: C'
+        - 'w.mann-grand-delusion 585: E-H'
+    tags: [name:wheeler-earle, name:westmoreland-william, name:mcnamara-robert-s, name:johnson-lyndon-b, place:saigon, name:bundy-william, name:clifford-clark]
   - id: cal.1968-02-27.farm
     when: Feb. 27
     date: '1968-02-27'
@@ -443,14 +855,27 @@ entries:
     date: '1968-02-28'
     thread: elections-1968
     c: Washington. Romney withdraws from the race for the Republican nomination, two weeks before the New Hampshire primary (Check the place).
-    n: 'To check: [[w.johns-achilles-heel]]; [[w.white-making-of-the-president-1969]]; [[w.witcover-resurrection-of-richard-nixon]]; [[w.chester-american-melodrama]]; [[w.kabaservice-rule-and-ruin]]. See [[cal.1967-11-18.elections-1968]]. Names: Romney.'
+    n: '[[w.nixon-rn]], 298–99 (the withdrawal). To check: [[w.johns-achilles-heel]]; [[w.white-making-of-the-president-1969]]; [[w.witcover-resurrection-of-richard-nixon]]; [[w.chester-american-melodrama]]; [[w.kabaservice-rule-and-ruin]]. See [[cal.1967-11-18.elections-1968]]. Names: Romney.'
+    src:
+      c: b46fcec9
+      rows:
+        - 'w.nixon-rn 298–99: B'
     tags: [name:romney-george-w]
   - id: cal.1968-02-28.vietnam-205000
     when: Feb. 28–29
     date: '1968-02-28'
     thread: vietnam-205000
     c: Johnson's meeting on Wheeler's report. Clifford to head a review of the request; his group, Rusk, McNamara, Katzenbach, Bundy, Nitze, Warnke, Taylor, Helms, Wheeler and Fowler among it, meets that day. Rostow, Feb. 29, for granting it.
-    n: 'FRUS 1964–68, VI, docs. [91](https://history.state.gov/historicaldocuments/frus1964-68v06/d91), [92](https://history.state.gov/historicaldocuments/frus1964-68v06/d92), [93](https://history.state.gov/historicaldocuments/frus1964-68v06/d93). [[w.johnson-vantage-point]], 390–94. Made public: the Pentagon Papers (1971); FRUS 1964–68, VI (2002). See [[cal.1968-02-27.vietnam]]. Names: Johnson, Wheeler, Clifford, Rusk, McNamara, Katzenbach, Bundy, Nitze, Warnke, Taylor, Helms, Fowler, Rostow.'
+    n: 'FRUS 1964–68, VI, docs. [91](https://history.state.gov/historicaldocuments/frus1964-68v06/d91), [92](https://history.state.gov/historicaldocuments/frus1964-68v06/d92), [93](https://history.state.gov/historicaldocuments/frus1964-68v06/d93). [[w.johnson-vantage-point]], 390–94; [[w.herring-lbj-and-vietnam]], 158 (the meeting on Wheeler''s report; Clifford to chair a review, "a new pair of eyes"; "Give me the lesser of evils"). [[w.longley-lbjs-1968]], 68–70 (Wheeler''s report to Johnson; Clifford''s group). Made public: the Pentagon Papers (1971); FRUS 1964–68, VI (2002). To check: Rostow to Johnson, Feb. 27, 1968, NSF Memos to the President, Rostow, box 6, LBJ Library (cited by [[w.herring-lbj-and-vietnam]], 158 n.21). See [[cal.1968-02-27.vietnam]]. Names: Johnson, Wheeler, Clifford, Rusk, McNamara, Katzenbach, Bundy, Nitze, Warnke, Taylor, Helms, Fowler, Rostow.'
+    src:
+      c: 197b4714
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v06/d91: all'
+        - 'w.johnson-vantage-point 391–94: A-C'
+        - 'w.herring-lbj-and-vietnam 158: A-B'
+        - 'via w.herring-lbj-and-vietnam 158 n.21: B'
+        - 'w.longley-lbjs-1968 68–70: A-B'
+        - 'via w.longley-lbjs-1968 69 n.47: A'
     tags: [name:johnson-lyndon-b, name:wheeler-earle, name:clifford-clark, name:rusk-dean, name:mcnamara-robert-s, name:katzenbach-nicholas, name:bundy-william, name:nitze-paul, name:warnke-paul, name:taylor-maxwell, name:helms-richard, name:fowler-henry-h, name:rostow-walt-w]
   - id: cal.1968-02-28.defense
     when: Feb. 28–29
@@ -473,6 +898,18 @@ entries:
     also: [crime-and-hijacking, vietnam, civil-disorders]
     c: 'Gallup, two releases. Jan. 4–9: the most important problem facing the country: the Vietnam war, 53 percent; of the domestic problems, in order, crime and lawlessness (riots, looting, juvenile delinquency included), civil rights, the high cost of living, poverty, general unrest. Feb. 1–6: the most important problem facing this community: crime and lawlessness, named nearly twice as often as any other. Have called upon the police in the last twelve months, 19 percent; theft and robbery the reason most often named. Aug. 3–8, 1967: an area within a mile where one would be afraid to walk alone at night: yes 31; men 16, women 44; cities of 500,000 and over 40.'
     n: '[[w.gallup-poll]], III, 2107–08.'
+  - id: cal.1968-02-28.economy-surcharge
+    when: Feb. 28
+    date: '1968-02-28'
+    thread: economy-surcharge
+    c: 'Mills: a "substantial acceleration of war expenditures" or "inflationary pressures generated from an excess of demand" might "force" Ways and Means to raise taxes.'
+    n: '[[w.zelizer-taxing-america]], 271. To check: Eileen Shanahan, "Mills Says Expanded War Could Force Rise in Taxes," *New York Times*, Feb. 29, 1968 (cited by [[w.zelizer-taxing-america]], 271 n.72). Check: the day; the *Times* reports it Feb. 29. See [[cal.1968-01-29.economy]]. Names: Mills.'
+    src:
+      c: 9396b576
+      rows:
+        - 'w.zelizer-taxing-america 271: all'
+        - 'via w.zelizer-taxing-america 271 n.72: all'
+    tags: [name:mills-wilbur-d]
   - id: cal.1968-02-29.civil-disorders
     when: Feb. 29
     date: '1968-02-29'
@@ -504,3 +941,15 @@ entries:
     c: 'Arkansas. Thomas Murton, Rockefeller''s superintendent at the Cummins prison farm, digs up three skeletons on its grounds, early February, after an inmate''s word of prisoners killed and buried as "escapees." Rockefeller: no point in "washing dirty linen for weeks on end as each body is dug up." A report on the Tucker farm that Faubus had ordered and kept back, released by Rockefeller in 1967, had told of floggings and the "Tucker telephone."'
     n: '[Wikipedia, "Tom Murton"](https://en.wikipedia.org/wiki/Tom_Murton), from *Time*, Feb. 1968. Check: the dates of the digging, from the *Arkansas Gazette*. To check: [[w.urwin-agenda-for-reform]]; [[w.johnson-arkansas-in-modern-america]]. Names: Murton, Rockefeller, Faubus.'
     tags: [state:ar, name:murton-thomas-o, name:rockefeller-winthrop, name:faubus-orval-e]
+  - id: cal.1968-02.robert-kennedy
+    when: Feb.
+    date: 1968-02
+    thread: robert-kennedy-campaign
+    also: [elections-1968]
+    c: 'End of February. McNamara to O''Brien: "I think Bob has to run. I don''t see any other answer." By O''Brien''s account.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 845. To check: [[w.obrien-no-final-victories]], 217 (cited by [[w.schlesinger-robert-kennedy-and-his]], 845 n.19). Check: the day. Names: McNamara, O''Brien, Robert Kennedy.'
+    src:
+      c: 078b275c
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 845: all'
+    tags: [name:mcnamara-robert-s, name:obrien-lawrence-f, name:kennedy-robert-f]

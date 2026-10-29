@@ -7,7 +7,7 @@ entries:
     when: Jan. 2
     date: '1965-01-02'
     thread: congress
-    also: [south-carolina, mississippi]
+    also: [south-carolina, mississippi, democratic-party]
     c: House Democratic caucus. McCormack renominated for Speaker. Watson of South Carolina and Williams of Mississippi, who backed Goldwater, stripped of their seniority.
     n: '[111 Cong. Rec., House, Jan. 4, 1965](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt1/pdf/GPO-CRECB-1965-pt1-1-2.pdf) (McCormack: "on Saturday last"). To check: [[w.peabody-leadership-in-congress]]; [[w.zelizer-on-capitol-hill]]. See [[cal.1964-11-03.elections-1964]]. Names: McCormack, Goldwater, Williams, Watson.'
     tags: [name:mccormack-john-w, name:watson-albert-w, name:williams-john-b, name:goldwater-barry-m]
@@ -17,7 +17,12 @@ entries:
     thread: voting-rights-selma
     also: [alabama, king]
     c: Selma. King at Brown Chapel, against a State court's injunction on meetings. The campaign to register Dallas County's Black citizens begins.
-    n: '[[w.garrow-bearing-the-cross]], 371–72. To check: [[w.garrow-protest-at-selma]]; [[w.lawson-black-ballots]]; [[w.may-bending-toward-justice]]; [[w.branch-pillar-of-fire]]; [[w.kotz-judgment-days]]; [[w.lewis-walking-with-the-wind]]. See [[cal.1964-12-10.voting-rights]]. Names: King.'
+    n: '[[w.garrow-bearing-the-cross]], 371–72. To check: [[w.garrow-protest-at-selma]]; [[w.lawson-black-ballots]]; [[w.may-bending-toward-justice]]; [[w.branch-pillar-of-fire]]; [[w.kotz-judgment-days]]; [[w.lewis-walking-with-the-wind]]; New York Times, Jan. 3, 1965, 1; Washington Post, Jan. 3, 1965, A9; Selma Times-Journal, Jan. 3, 1965, 1 (cited by [[w.garrow-bearing-the-cross]], 372 n.15). See [[cal.1964-12-10.voting-rights]]. Names: King.'
+    src:
+      c: e6947dc7
+      rows:
+        - 'w.garrow-bearing-the-cross 371–72: all'
+        - 'via w.garrow-bearing-the-cross 372 n.15: all'
     tags: [name:king-martin-luther-jr]
   - id: cal.1965-01-03.opinion
     when: Jan. 3
@@ -26,13 +31,41 @@ entries:
     also: [medicare]
     c: 'Gallup, Dec. 11–16, 1964: a compulsory program of hospital and nursing home insurance for the elderly, paid for by higher Social Security taxes: approve 63 percent, disapprove 28. Know why the American Medical Association opposes it: 52.'
     n: '[[w.gallup-poll]], III, 1915.'
+  - id: cal.1965-01-03.medicare
+    when: Jan. 3
+    date: '1965-01-03'
+    thread: medicare
+    c: 'The Advisory Council on Social Security reports: hospital care for the aged under OASDI, about $2.2 billion, from a separate payroll tax; the wage base raised.'
+    n: '[[w.zelizer-taxing-america]], 232. To check: "Report of the Advisory Council on Social Security," *Social Security Bulletin* 28, no. 3 (Mar. 1965): 5–42 (cited by [[w.zelizer-taxing-america]], 232 n.83). Check: the figures. See [[cal.1964-12-02.medicare]].'
+    src:
+      c: 73e68cad
+      rows:
+        - 'w.zelizer-taxing-america 232: all'
+        - 'via w.zelizer-taxing-america 232 n.83: all'
+  - id: cal.1965-01-03.vietnam-congress
+    when: Jan. 3
+    date: '1965-01-03'
+    thread: vietnam-congress
+    c: 'Mansfield on *Meet the Press*: neutralization of Southeast Asia, by agreement among the great powers, perhaps the best solution; a "full-scale debate" on the war in the Senate to come.'
+    n: '[[w.logevall-choosing-war]], 305 (his words). To check: *New York Times*, Jan. 4, 1965 (cited by [[w.logevall-choosing-war]], 305 n.9). See [[cal.1964-12-09.vietnam]]. Names: Mansfield.'
+    src:
+      c: bbc7aab2
+      rows:
+        - 'w.logevall-choosing-war 305: all'
+        - 'via w.logevall-choosing-war 305 n.9: all'
+    tags: [name:mansfield-mike]
   - id: cal.1965-01-04.congress-2
     when: Jan. 4
     date: '1965-01-04'
     thread: congress
-    also: [elections-1964]
+    also: [elections-1964, republican-party-congress]
     c: House Republicans, in conference, choose Ford over Halleck for minority leader, 73–67.
-    n: '[Cong. Rec., House, Jan. 4, 1965](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt1/pdf/GPO-CRECB-1965-pt1-1-2.pdf#page=6). To check: [[w.peabody-ford-halleck-minority-leadership]]; [[w.peabody-leadership-in-congress]]; [[w.jones-minority-party-in-congress]]; [[w.ford-time-to-heal]]; [[w.scheele-charlie-halleck]]. See [[cal.1963-01-09.congress]]. Names: Ford, Halleck.'
+    n: '[Cong. Rec., House, Jan. 4, 1965](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt1/pdf/GPO-CRECB-1965-pt1-1-2.pdf#page=6). [[w.hess-republican-establishment]], 25–27 (Ford over Halleck, a close fight). To check: [[w.peabody-ford-halleck-minority-leadership]]; [[w.peabody-leadership-in-congress]]; [[w.jones-minority-party-in-congress]]; [[w.ford-time-to-heal]]; [[w.scheele-charlie-halleck]]. See [[cal.1963-01-09.congress]]. Names: Ford, Halleck.'
+    src:
+      c: 8f13446a
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt1/pdf/GPO-CRECB-1965-pt1-1-2.pdf#page=6: all'
+        - 'w.hess-republican-establishment 25–27: A'
     tags: [name:ford-gerald-r, name:halleck-charles-a]
   - id: cal.1965-01-04.congress
     when: Jan. 4
@@ -40,7 +73,17 @@ entries:
     thread: congress
     also: [rules]
     c: '89th Congress convenes. Senate 68 D–32 R; House 295 D–140 R. McCormack Speaker over Ford, [289–139](https://voteview.com/rollcall/RH0890001). The five Mississippians seated over the Freedom Democrats'' challenge, Ryan objecting: the previous question, [276–149](https://voteview.com/rollcall/RH0890002). New rules, [224–202](https://voteview.com/rollcall/RH0890003) on the previous question: the 21-day rule restored; a bill sent to conference by majority vote.'
-    n: 'H.R. Res. 1, H.R. Res. 8, 89th Cong. [111 Cong. Rec., House, Jan. 4, 1965](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt1/pdf/GPO-CRECB-1965-pt1-1-2.pdf); [111 Cong. Rec., Senate, Jan. 4, 1965](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt1/pdf/GPO-CRECB-1965-pt1-1-1.pdf). [[w.dittmer-local-people]], 339–40. CQ Almanac 1965. To check: [[w.robinson-house-rules-committee]]; [[w.macneil-forge-of-democracy]]; [[w.bolling-house-out-of-order]]; [[w.zelizer-on-capitol-hill]]; [[w.zelizer-fierce-urgency-of-now]]; [[w.congress-and-the-nation-1969]] (K–J Cong. II.L). See [[cal.1963-01-09.congress]]; [[cal.1963-01-09.rules]]. Names: McCormack, Ford, Ryan.'
+    n: 'H.R. Res. 1, H.R. Res. 8, 89th Cong. [111 Cong. Rec., House, Jan. 4, 1965](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt1/pdf/GPO-CRECB-1965-pt1-1-2.pdf); [111 Cong. Rec., Senate, Jan. 4, 1965](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt1/pdf/GPO-CRECB-1965-pt1-1-1.pdf). [[w.dittmer-local-people]], 339–40 (the Mississippians seated over Ryan''s objection). CQ Almanac 1965. To check: [[w.robinson-house-rules-committee]]; [[w.macneil-forge-of-democracy]]; [[w.bolling-house-out-of-order]]; [[w.zelizer-on-capitol-hill]]; [[w.zelizer-fierce-urgency-of-now]]; [[w.congress-and-the-nation-1969]] (K–J Cong. II.L); *New York Times*, Jan. 6, 1965 (cited by [[w.dittmer-local-people]], 340 n.5). See [[cal.1963-01-09.congress]]; [[cal.1963-01-09.rules]]. Names: McCormack, Ford, Ryan.'
+    src:
+      c: db893452
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt1/pdf/GPO-CRECB-1965-pt1-1-2.pdf: all'
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt1/pdf/GPO-CRECB-1965-pt1-1-1.pdf: all'
+        - 'https://voteview.com/rollcall/RH0890001: C'
+        - 'https://voteview.com/rollcall/RH0890002: D'
+        - 'https://voteview.com/rollcall/RH0890003: E'
+        - 'w.dittmer-local-people 339–40: D'
+        - 'via w.dittmer-local-people 340 n.5: D'
     tags: [congress:89, name:mccormack-john-w, name:ford-gerald-r, name:ryan-william-f, committees:89]
   - id: cal.1965-01-04.program
     when: Jan. 4
@@ -48,6 +91,13 @@ entries:
     thread: program
     c: 'State of the Union: "the Great Society." Education, $1.5 billion the first year; hospital care under Social Security; the war on poverty doubled; "every remaining obstacle" to the vote removed; immigration by a man''s work, not his birthplace; a Department of Housing and Urban Development; excise taxes cut. Vietnam: "We will not break it now."'
     n: 'Annual Message to the Congress on the State of the Union, [1965 Pub. Papers 1](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=77) (Jan. 4, 1965). [111 Cong. Rec., House, Jan. 4, 1965](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt1/pdf/GPO-CRECB-1965-pt1-1-2.pdf). [[w.johnson-vantage-point]], 214 (hospital care); [[w.dallek-flawed-giant]], 193–94. To check: [[w.zelizer-fierce-urgency-of-now]]; [[w.sundquist-politics-and-policy]]. See [[cal.1964-01-08.program]]; [[cal.1964-05-22.program]].'
+    src:
+      c: 786001e6
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=77: all'
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt1/pdf/GPO-CRECB-1965-pt1-1-2.pdf: all'
+        - 'w.johnson-vantage-point 214: A, C'
+        - 'w.dallek-flawed-giant 193–94: A, H'
     tags: [name:johnson-lyndon-b]
     short: State of the Union
     to:
@@ -70,6 +120,18 @@ entries:
     c: Providence. Doorley, 34, of the City Council, sworn as mayor, the youngest in the city's history. McGarry, the Democratic city chairman, had backed him in 1964 against Reynolds, mayor since 1951.
     n: '[Wikipedia, "Joseph A. Doorley Jr."](https://en.wikipedia.org/wiki/Joseph_A._Doorley_Jr.); [Wikipedia, "Walter H. Reynolds"](https://en.wikipedia.org/wiki/Walter_H._Reynolds). Check the primary and the November vote in the *Providence Journal*. To check: [[w.moakley-rhode-island-politics-and]]. Names: Doorley, Reynolds, McGarry.'
     tags: [state:ri, city:providence, name:doorley-joseph-a-jr, name:reynolds-walter-h, name:mcgarry-lawrence-p]
+  - id: cal.1965-01-04.robert-kennedy
+    when: Jan. 4
+    date: '1965-01-04'
+    thread: robert-kennedy
+    also: [congress]
+    c: Robert Kennedy sworn in as Senator from New York; Edward Kennedy, on a cane, in a steel brace, takes the oath with him. Not since 1803 two brothers in the Senate together.
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 676. To check: [111 Cong. Rec., Senate, Jan. 4, 1965](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt1/pdf/GPO-CRECB-1965-pt1-1-1.pdf). See [[cal.1964-11-03.robert-kennedy]]. Names: Robert Kennedy, Edward Kennedy.'
+    src:
+      c: 8b3c3f20
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 676: all'
+    tags: [name:kennedy-robert-f, name:kennedy-edward-m, state:ny, state:ma]
   - id: cal.1965-01-05.state-constitutions-ct
     when: Jan. 5
     date: '1965-01-05'
@@ -82,9 +144,27 @@ entries:
     when: Jan. 5
     date: '1965-01-05'
     thread: king
-    c: 'Atlanta. Coretta King opens a box received at SCLC a month before: a tape from the FBI''s microphones, the Willard''s and others, with an anonymous letter: "King, there is only one thing left for you to do. You know what it is." Made up at Sullivan''s direction two days after Hoover''s attack; mailed from Miami Nov. 21.'
-    n: '[[w.garrow-bearing-the-cross]], 372–74. Check: the day. See [[cal.1964-11-18.civil-rights-the-executive]]. Made public: Check; Garrow had the FBI''s files under the Freedom of Information Act ([[w.garrow-bearing-the-cross]], 627). Names: Coretta Scott King, Sullivan, Hoover, Martin Luther King.'
+    c: 'Atlanta. Coretta King opens a box received at SCLC a month before: a tape from the FBI''s microphones, the Willard''s and others, with an anonymous letter: "King, there is only one thing left for you to do. You know what this is." Made up at Sullivan''s direction two days after Hoover''s attack; mailed from Miami Nov. 21.'
+    n: '[[w.garrow-bearing-the-cross]], 372–74. To check: SAC Atlanta to Director, Jan. 5 and 6, 1965, FBI file 100-106670-715, 716; Robert G. Murphy, "Martin Luther King, Jr.," report to J. Stanley Pottinger, Mar. 31, 1976, 44-45, Civil Rights Division FOIA (cited by [[w.garrow-bearing-the-cross]], 374 n.17). Check: the day. See [[cal.1964-11-18.civil-rights-the-executive]]. Made public: Check; Garrow had the FBI''s files under the Freedom of Information Act ([[w.garrow-bearing-the-cross]], 627). Names: Coretta Scott King, Sullivan, Hoover, Martin Luther King.'
+    src:
+      c: d625fd75
+      rows:
+        - 'w.garrow-bearing-the-cross 373–74: all'
+        - 'via w.garrow-bearing-the-cross 374 n.17a: B'
+        - 'via w.garrow-bearing-the-cross 374 n.17b: B-D'
+        - 'via w.garrow-bearing-the-cross 374 n.17c: B'
     tags: [name:king-coretta-scott, name:sullivan-william-c, name:hoover-j-edgar, name:king-martin-luther-jr, state:ga, city:atlanta]
+  - id: cal.1965-01-05.medicare
+    when: Jan. 5
+    date: '1965-01-05'
+    thread: medicare
+    c: 'Mills to Johnson, the day after the State of the Union: prompt consideration of Medicare by Ways and Means, guaranteed.'
+    n: '[[w.johnson-vantage-point]], 214, by Johnson''s account. See [[cal.1964-12-02.medicare]]. Names: Mills, Johnson.'
+    src:
+      c: 77189f38
+      rows:
+        - 'w.johnson-vantage-point 214: all'
+    tags: [name:mills-wilbur-d, name:johnson-lyndon-b]
   - id: cal.1965-01-06.legislatures-ny
     when: Jan. 6
     date: '1965-01-06'
@@ -107,8 +187,55 @@ entries:
     thread: medicare
     also: [health]
     c: 'Health message. Hospital insurance for those over 65 under Social Security: hospital and post-hospital care, home nursing, outpatient diagnosis; for those outside Social Security, from the administrative budget. Regional centers against heart disease, cancer, and stroke. The King–Anderson bill: H.R. 1, Jan. 4; S. 1, Jan. 6.'
-    n: 'Special Message to the Congress: "Advancing the Nation''s Health", [1965 Pub. Papers 12](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=88) (Jan. 7, 1965). [111 Cong. Rec., House, Jan. 4, 1965](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt1/pdf/GPO-CRECB-1965-pt1-1-2.pdf); [111 Cong. Rec., Senate, Jan. 6, 1965](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt1/pdf/GPO-CRECB-1965-pt1-3-2.pdf). [[w.zelizer-taxing-america]], 232–33. See [[cal.1961-02-09.medicare]]; [[cal.1964-12-09.health]]. Names: King, Anderson.'
+    n: 'Special Message to the Congress: "Advancing the Nation''s Health", [1965 Pub. Papers 12](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=88) (Jan. 7, 1965). [111 Cong. Rec., House, Jan. 4, 1965](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt1/pdf/GPO-CRECB-1965-pt1-1-2.pdf); [111 Cong. Rec., Senate, Jan. 6, 1965](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt1/pdf/GPO-CRECB-1965-pt1-3-2.pdf). [[w.zelizer-taxing-america]], 232–33 (the bill of Jan. 4). To check: Charles Mohr, "Johnson Health Program Gives Medicare Priority; Regional Centers Sought," *New York Times*, Jan. 8, 1965 (cited by [[w.zelizer-taxing-america]], 232 n.86); House Committee on Ways and Means, Medical Care For the Aged: Executive Hearings, 89th Cong., 1st sess. (1965), 2-15 (cited by [[w.zelizer-taxing-america]], 232 n.85). See [[cal.1961-02-09.medicare]]; [[cal.1964-12-09.health]]. Names: King, Anderson.'
+    src:
+      c: '43698211'
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=88: all'
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt1/pdf/GPO-CRECB-1965-pt1-1-2.pdf: all'
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt1/pdf/GPO-CRECB-1965-pt1-3-2.pdf: all'
+        - 'w.zelizer-taxing-america 232: B, E'
+        - 'via w.zelizer-taxing-america 232 n.85: B'
+        - 'via w.zelizer-taxing-america 232 n.86d: A, D'
     tags: [name:johnson-lyndon-b, name:king-cecil-r, name:anderson-clinton-p]
+  - id: cal.1965-01-07.vietnam-congress
+    when: Jan. 7
+    date: '1965-01-07'
+    thread: vietnam-congress
+    c: 'The Associated Press''s survey of the Senate, in the papers: of eighty-three Senators asked, thirty-one with Bible, for the policy but more "emphasis on a stable and responsible Vietnamese Government"; ten for going to negotiations; three for taking the war North.'
+    n: '[[w.mann-grand-delusion]], 399. To check: *New York Times*, Jan. 7, 1965 (cited by [[w.mann-grand-delusion]], 399 n.29). Check: Mann has the survey "in early January." Names: Bible.'
+    src:
+      c: 61deb7bb
+      rows:
+        - 'w.mann-grand-delusion 399: all'
+        - 'via w.mann-grand-delusion 399 n.29: all'
+    tags: [name:bible-alan-h]
+  - id: cal.1965-01-07.vietnam-congress-2
+    when: Jan. 7
+    date: '1965-01-07'
+    thread: vietnam-congress
+    c: 'Humphrey, Vice President-elect, with Lansdale before Foreign Relations in executive session: "Everybody says we have to improve the political situation. But in the meantime they say you can''t improve the political situation until you win the military situation. You know, it is just hopeless if you keep talking like that."'
+    n: '[[w.mann-grand-delusion]], 401. To check: "The Situation in Vietnam," *Executive Sessions of the Senate Foreign Relations Committee (Historical Series)*, XVII (1965), 35–91 (cited by [[w.mann-grand-delusion]], 401 n.39, dated there "1/7/64"). Check: the day; Mann, "in January, as vice president-elect." Names: Humphrey, Lansdale.'
+    src:
+      c: a288b1aa
+      rows:
+        - 'w.mann-grand-delusion 401: all'
+        - 'via w.mann-grand-delusion 401 n.39: all'
+    tags: [name:humphrey-hubert-h, name:lansdale-edward-g]
+  - id: cal.1965-01-08.vietnam-congress
+    when: Jan. 8
+    date: '1965-01-08'
+    thread: vietnam-congress
+    c: 'Rusk''s world briefing to Foreign Relations in executive session. Fulbright: the only reason to think of negotiating "is simply it looks hopeless"; the war seen "entirely as a military operation."'
+    n: '[[w.gibbons-u-s-government-and]], III, 38. [[w.mann-grand-delusion]], 389–90 (Fulbright: "it looks hopeless"; consultation). To check: the executive session transcript, Jan. 8, 1965 (cited by [[w.gibbons-u-s-government-and]], III, 38 n.98). Names: Rusk, Fulbright.'
+    src:
+      c: f8421bee
+      rows:
+        - 'w.gibbons-u-s-government-and III, 38: all'
+        - 'via w.gibbons-u-s-government-and III, 38 n.98: all'
+        - 'w.mann-grand-delusion 389–90: A-B'
+        - 'via w.mann-grand-delusion 390 n.53: A-B'
+    tags: [name:rusk-dean, name:fulbright-j-william]
   - id: cal.1965-01-10.opinion
     when: Jan. 10
     date: '1965-01-10'
@@ -136,7 +263,14 @@ entries:
     date: '1965-01-11'
     thread: king
     c: 'Washington. Andrew Young and Abernathy, for King, see DeLoach to ask that the FBI''s leaks stop. DeLoach: no interest in SCLC''s money or King''s private life. To his superiors, DeLoach reports the meeting made as unpleasant as he could.'
-    n: '[[w.garrow-bearing-the-cross]], 377. See [[cal.1964-11-18.civil-rights-the-executive]]. Made public: Check; Garrow had the FBI''s files under the Freedom of Information Act ([[w.garrow-bearing-the-cross]], 627). Names: Young, Abernathy, DeLoach.'
+    n: '[[w.garrow-bearing-the-cross]], 377. To check: DeLoach to Mohr, Jan. 11, 1965, FBI file 100-106670-730; Robert G. Murphy, "Martin Luther King, Jr.," report to J. Stanley Pottinger, Mar. 31, 1976, 46-47, Civil Rights Division FOIA (cited by [[w.garrow-bearing-the-cross]], 377 n.19). See [[cal.1964-11-18.civil-rights-the-executive]]. Made public: Check; Garrow had the FBI''s files under the Freedom of Information Act ([[w.garrow-bearing-the-cross]], 627). Names: Young, Abernathy, DeLoach.'
+    src:
+      c: 84cbae18
+      rows:
+        - 'w.garrow-bearing-the-cross 377: all'
+        - 'via w.garrow-bearing-the-cross 377 n.19a: B-D'
+        - 'via w.garrow-bearing-the-cross 377 n.19b: D'
+        - 'via w.garrow-bearing-the-cross 377 n.19c: B-C'
     tags: [name:young-andrew-j-jr, name:abernathy-ralph-david, name:deloach-cartha]
   - id: cal.1965-01-11.school-aid
     when: Jan. 11
@@ -144,7 +278,35 @@ entries:
     thread: school-aid
     c: 'Johnson to the Cabinet: "Tomorrow I am sending to the Congress the Message on Education.... I want—and I intend—education to be the cornerstone on which we build this administration''s program and record." Each department''s first priority to support it, "not merely the legislation, but the cause itself."'
     n: '[[w.dallek-flawed-giant]], 198. See [[cal.1965-01-04.program]]. Names: Johnson.'
+    src:
+      c: 5c224d2c
+      rows:
+        - 'w.dallek-flawed-giant 198: all'
     tags: [name:johnson-lyndon-b]
+  - id: cal.1965-01-11.vietnam-congress
+    when: Jan. 11
+    date: '1965-01-11'
+    thread: vietnam-congress
+    c: 'Russell, to reporters: no victory without a stable government in Saigon, not with "changing chair" governments; a fundamental reappraisal of policy.'
+    n: '[[w.logevall-choosing-war]], 309 (the remarks, Jan. 11). To check: *Washington Post* and *New York Times*, Jan. 12, 1965 (cited by [[w.logevall-choosing-war]], 309 n.15). See [[cal.1963-12-07.vietnam-congress]]. Names: Russell.'
+    src:
+      c: a83839e0
+      rows:
+        - 'w.logevall-choosing-war 309: all'
+        - 'via w.logevall-choosing-war 309 n.15: all'
+    tags: [name:russell-richard-b]
+  - id: cal.1965-01-11.republican-party-congress
+    when: Jan. 11
+    date: '1965-01-11'
+    thread: republican-party-congress
+    also: [republican-party]
+    c: 'The joint Senate-House Republican leadership approves statements by Dirksen and Ford. Dirksen: the 32 Republican Senators and 140 Representatives "will guide Republican Party policy at the national level." Ford: a Republican Coordinating Committee of the eleven of the joint leadership, the five living nominees for President and five of the Republican Governors Association; Burch, the national chairman, to preside; task forces on the major issues.'
+    n: '[111 Cong. Rec. 538](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt1/pdf/GPO-CRECB-1965-pt1-7-1.pdf#page=31) (1965) (the statements, put in the Record by Dirksen, Jan. 12). To check: [[w.hess-republican-establishment]]. Names: Dirksen, Ford, Burch.'
+    src:
+      c: d70204d6
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt1/pdf/GPO-CRECB-1965-pt1-7-1.pdf#page=31: all'
+    tags: [name:dirksen-everett, name:ford-gerald-r, name:burch-dean]
   - id: cal.1965-01-12.school-aid
     when: Jan. 12
     date: '1965-01-12'
@@ -156,9 +318,13 @@ entries:
     when: Jan. 12
     date: '1965-01-12'
     thread: elections-1964
-    also: [goldwater]
+    also: [goldwater, republican-party]
     c: Burch to leave the Republican national chairmanship Apr. 1, after meeting Goldwater in Phoenix; Bliss, the Ohio chairman, to succeed him. Check the date.
-    n: 'To check: [[w.kabaservice-rule-and-ruin]]; [[w.rae-decline-and-fall-of]]. See [[cal.1964-11-04.elections-1964]]. Names: Burch, Bliss, Goldwater.'
+    n: '[[w.hess-republican-establishment]], 42 (the terms, settled at Goldwater''s home in Phoenix, Bliss and Burch there, Bliss to be elected in January, Burch to stay until April). Check: Hess and Broder give no date and no day in April. To check: [[w.kabaservice-rule-and-ruin]]; [[w.rae-decline-and-fall-of]]. See [[cal.1964-11-04.elections-1964]]. Names: Burch, Bliss, Goldwater.'
+    src:
+      c: e99420ee
+      rows:
+        - 'w.hess-republican-establishment 42: A-B'
     tags: [name:burch-dean, name:bliss-ray-c, name:goldwater-barry-m]
   - id: cal.1965-01-12.japan-and-korea
     when: Jan. 12–13
@@ -167,6 +333,20 @@ entries:
     c: 'Satō in Washington. Johnson: if Japan needs the American nuclear deterrent, the United States will provide it. Satō: the Ryukyuans'' and the Japanese wish for the islands'' return; a wider Japanese part in them. China: Japan keeps relations with Taipei and trade with the mainland, politics apart from economics. Before it, Dec. 29, to Reischauer: if the other fellow has nuclear weapons, common sense to have them oneself.'
     n: 'Remarks of Welcome at the White House to Prime Minister Sato of Japan, [1965 Pub. Papers 23](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=99); The President''s Toast at a Dinner in Honor of Prime Minister Sato, [1965 Pub. Papers 36](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=112) (Jan. 12, 1965); Joint Statement Following Meetings With the Prime Minister of Japan, [1965 Pub. Papers 40](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=116) (Jan. 13, 1965). FRUS 1964–68, XXIX, pt. 2, docs. [37](https://history.state.gov/historicaldocuments/frus1964-68v29p2/d37), [40](https://history.state.gov/historicaldocuments/frus1964-68v29p2/d40), [41](https://history.state.gov/historicaldocuments/frus1964-68v29p2/d41), [42](https://history.state.gov/historicaldocuments/frus1964-68v29p2/d42), [43](https://history.state.gov/historicaldocuments/frus1964-68v29p2/d43), [44](https://history.state.gov/historicaldocuments/frus1964-68v29p2/d44). Made public: FRUS 1964–68, XXIX, pt. 2 (2006). To check: [[w.schaller-altered-states]]; [[w.lafeber-clash]]; [[w.maga-hands-across-the-sea]]; [[w.sato-eisaku-nikki]]. See [[cal.1964-11-09.japan-and-korea]]; [[cal.1964-10-16.testing]]. Names: Satō, Johnson, Reischauer.'
     tags: [name:sato-eisaku, name:johnson-lyndon-b, name:reischauer-edwin-o]
+  - id: cal.1965-01-12.vietnam-congress
+    when: Jan. 12
+    date: '1965-01-12'
+    thread: vietnam-congress
+    c: 'Fulbright puts in the Record Church''s statement on Southeast Asia, his interview with *Ramparts*: "Nothing would be more futile than to permit ourselves to be sucked into a war which would pit Western forces against Asian forces"; "the tides of history would, in the end, wash over us. No lasting victory could be achieved."'
+    n: '[111 Cong. Rec. 538–41](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt1/pdf/GPO-CRECB-1965-pt1-7-1.pdf) (1965). [[w.mann-grand-delusion]], 9, 409. Check: Mann has Church bring it to the floor himself, "a month" after McGovern''s speech of Jan. 15; the Record has Fulbright put it in, Jan. 12. Names: Fulbright, Church.'
+    src:
+      c: adb1c7bf
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt1/pdf/GPO-CRECB-1965-pt1-7-1.pdf: all'
+        - 'w.mann-grand-delusion 9, 409: B'
+        - 'via w.mann-grand-delusion 9 n.3: B'
+        - 'via w.mann-grand-delusion 409 n.61: B'
+    tags: [name:fulbright-j-william, name:church-frank]
   - id: cal.1965-01-13.immigration
     when: Jan. 13
     date: '1965-01-13'
@@ -178,6 +358,7 @@ entries:
     when: Jan. 15
     date: '1965-01-15'
     thread: opinion
+    also: [republican-party]
     c: 'Gallup, special mail survey of 1,395 Republican county chairmen: Burch to stay as national chairman, 46 percent; to go, 43. South 66 stay; West 53; Midwest 43; East 26 stay, 63 go.'
     n: '[[w.gallup-poll]], III, 1917–18. Names: Burch.'
     tags: [name:burch-dean]
@@ -186,7 +367,15 @@ entries:
     date: '1965-01-15'
     thread: vietnam
     c: 'McGovern in the Senate: the war not being won; to widen it "an act of folly." Pressure on the North by South Vietnamese infiltration, then negotiation.'
-    n: '[111 Cong. Rec. 784–86](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt1/pdf/GPO-CRECB-1965-pt1-10-1.pdf) (1965). [[w.gibbons-u-s-government-and]], II, 395. See [[cal.1964-12-01.vietnam]]. Names: McGovern. Check: Gibbons prints vol. 110.'
+    n: '[111 Cong. Rec. 784–86](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt1/pdf/GPO-CRECB-1965-pt1-10-1.pdf) (1965). [[w.gibbons-u-s-government-and]], II, 395–96. Gibbons, II, 396 n.135, prints vol. 110. [[w.mann-grand-delusion]], 408–9 (not winning; against carrying the war North). See [[cal.1964-12-01.vietnam]]. Names: McGovern. Check: Moyar, 355, quotes the speech (111 Cong. Rec. 784–86) as for fighting rather than "surrender the area to communism."'
+    src:
+      c: c9ea1da0
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt1/pdf/GPO-CRECB-1965-pt1-10-1.pdf: all'
+        - 'w.gibbons-u-s-government-and II, 395–96: all'
+        - 'via w.gibbons-u-s-government-and II, 396 n.135: all'
+        - 'w.mann-grand-delusion 408–9: A'
+        - 'via w.mann-grand-delusion 409 n.60: A'
     tags: [name:mcgovern-george]
   - id: cal.1965-01-15.king
     when: Jan. 15
@@ -194,8 +383,29 @@ entries:
     thread: king
     also: [civil-rights-the-executive]
     c: Johnson, at the Ranch, and King by telephone. King urges Whitney Young for a Cabinet post. The FBI overhears.
-    n: '[Johnson and King, 12:06 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-martin-luther-king-january-15-1965), Conversations WH6501-04-6736, 6737 (Miller Center). [[w.garrow-bearing-the-cross]], 382 (the Cabinet post; the FBI). Names: Johnson, King, Young.'
+    n: '[Johnson and King, 12:06 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-martin-luther-king-january-15-1965), Conversations WH6501-04-6736, 6737 (Miller Center). [[w.garrow-bearing-the-cross]], 382 (the Cabinet post; the FBI). To check: Lee White to Johnson, Jan. 13, 1965, Daily Diary backup, Jan. 15, 1965, Johnson Library; FBI file 100-106670-747, Jan. 15, 1965 (cited by [[w.garrow-bearing-the-cross]], 382 n.24). Names: Johnson, King, Young.'
+    src:
+      c: a55e7a66
+      rows:
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-martin-luther-king-january-15-1965: all'
+        - 'w.garrow-bearing-the-cross 382: B-C'
+        - 'via w.garrow-bearing-the-cross 382 n.24a: B'
+        - 'via w.garrow-bearing-the-cross 382 n.24b: C'
     tags: [name:johnson-lyndon-b, name:king-martin-luther-jr, name:young-whitney-m-jr]
+  - id: cal.1965-01-15.vietnam-congress
+    when: Jan. 15
+    date: '1965-01-15'
+    thread: vietnam-congress
+    c: 'Rusk before Foreign Relations in executive session. Fulbright: will the committee be told before a major attack on the North, or invited to the White House "and told we have made up our mind"? Rusk: any other conclusion "in consultation with the leadership of the Congress."'
+    n: '[[w.gibbons-u-s-government-and]], III, 38. [[w.mann-grand-delusion]], 390. To check: the executive session transcript, Jan. 15, 1965 (cited by [[w.gibbons-u-s-government-and]], III, 38 n.99). See [[cal.1965-01-08.vietnam-congress]]. Names: Rusk, Fulbright.'
+    src:
+      c: 25c63ebb
+      rows:
+        - 'w.gibbons-u-s-government-and III, 38: all'
+        - 'via w.gibbons-u-s-government-and III, 38 n.99: all'
+        - 'w.mann-grand-delusion 390: A, C'
+        - 'via w.mann-grand-delusion 390 n.54: A, C'
+    tags: [name:rusk-dean, name:fulbright-j-william]
   - id: cal.1965-01-16.trade
     when: Jan. 16
     date: '1965-01-16'
@@ -231,7 +441,16 @@ entries:
     date: '1965-01-21'
     thread: testing
     c: 'Gilpatric''s Committee on Nuclear Proliferation reports to Johnson and his advisers in the Cabinet Room. The spread of nuclear weapons a growing threat; the world "fast approaching a point of no return"; India and Japan may follow China, and others them. Its counsel: agreements against the spread, pressure on nations near the threshold, arms control with the Soviet Union. Jan. 23, Bundy: the report to be shown no one outside the Committee of Principals without the President''s approval.'
-    n: 'Statement by the President to the Members of the Committee on Nuclear Proliferation, [1965 Pub. Papers 74](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=150) (Jan. 21, 1965). [FRUS 1964–68, XI, doc. 64](https://history.state.gov/historicaldocuments/frus1964-68v11/d64). [[w.drea-mcnamara-clifford-and-the-2011]], 318; [[w.schwartz-lyndon-johnson-and-europe]], 53 (the report; Rusk''s caution). To check: [[w.brands-rethinking-nonproliferation]]; [[w.gavin-blasts-from-the-past]]. See [[cal.1964-10-16.testing]]. Names: Gilpatric, Johnson, Bundy.'
+    n: 'Statement by the President to the Members of the Committee on Nuclear Proliferation, [1965 Pub. Papers 74](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=150) (Jan. 21, 1965). [FRUS 1964–68, XI, doc. 64](https://history.state.gov/historicaldocuments/frus1964-68v11/d64). [[w.drea-mcnamara-clifford-and-the-2011]], 318 (the report presented Jan. 21, its threat and its counsel; Jan. 23, the Committee of Principals); [[w.schwartz-lyndon-johnson-and-europe]], 53 (the report; Rusk''s caution). Made public: the report, *New York Times*, July 1, 1965 ([[w.schwartz-lyndon-johnson-and-europe]], 56). To check: [[w.brands-rethinking-nonproliferation]]; [[w.gavin-blasts-from-the-past]]. See [[cal.1964-10-16.testing]]. Names: Gilpatric, Johnson, Bundy.'
+    src:
+      c: 40708adc
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=150: all'
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v11/d64: all'
+        - 'w.drea-mcnamara-clifford-and-the-2011 318: A-B, E-F'
+        - 'via w.drea-mcnamara-clifford-and-the-2011 318 n.5b: A-B, E-F'
+        - 'w.schwartz-lyndon-johnson-and-europe 53: A-B, E'
+        - 'via w.schwartz-lyndon-johnson-and-europe 53 n.26: B, E'
     tags: [name:gilpatric-roswell-l, name:johnson-lyndon-b, name:bundy-mcgeorge]
   - id: cal.1965-01-21.states-and-cities-ok
     when: Jan. 21
@@ -252,7 +471,15 @@ entries:
     date: '1965-01-21'
     thread: vietnam
     c: Johnson with the congressional leaders of both parties, 10:07 a.m.–12:45 p.m., Russell and Fulbright not asked. A stable government in Saigon first. More American forces not needed "short of a decision to go to full-scale war."
-    n: '[FRUS 1964–68, II, doc. 30](https://history.state.gov/historicaldocuments/frus1964-68v02/d30) (Gibbons: Jan. 22). [[w.gibbons-u-s-government-and]], III, 39–41. See [[cal.1964-12-01.vietnam]]. Names: Johnson, Russell, Fulbright.'
+    n: '[FRUS 1964–68, II, doc. 30](https://history.state.gov/historicaldocuments/frus1964-68v02/d30) (Gibbons: Jan. 22). [[w.gibbons-u-s-government-and]], III, 39–41. [[w.mann-grand-delusion]], 390. See [[cal.1964-12-01.vietnam]]. Names: Johnson, Russell, Fulbright.'
+    src:
+      c: ff28db6f
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v02/d30: all'
+        - 'w.gibbons-u-s-government-and III, 39–41: all'
+        - 'via w.gibbons-u-s-government-and III, 39 n.101: all'
+        - 'w.mann-grand-delusion 390: A, C'
+        - 'via w.mann-grand-delusion 390 n.55: A, C'
     tags: [name:johnson-lyndon-b, name:russell-richard-b, name:fulbright-j-william]
   - id: cal.1965-01-22.voting-rights
     when: Jan. 22
@@ -260,7 +487,14 @@ entries:
     thread: voting-rights-selma
     also: [alabama, king]
     c: Selma. Black schoolteachers, some hundred, march on the Dallas County courthouse to register; Sheriff Clark's men push them from the steps three times. Check the count.
-    n: 'Check: the record. [[w.garrow-bearing-the-cross]], 381. To check: [[w.garrow-protest-at-selma]]; [[w.branch-at-canaans-edge]]. See [[cal.1965-01-02.voting-rights]]. Names: Clark.'
+    n: 'Check: the record. [[w.garrow-bearing-the-cross]], 381 (over a hundred teachers; Clark''s men prodding them away with billy clubs). To check: [[w.garrow-protest-at-selma]]; [[w.branch-at-canaans-edge]]; New York Times, Jan. 22, 1965, 16; Washington Post, Jan. 22, 1965, A10; Secrest to John Griffin, "Selma . . .," Jan. 26, 1965, LeRoy Collins Papers, 7-B-1; Morland, "A Report to the CRS . . .," Feb. 6, 1965, Morland files (cited by [[w.garrow-bearing-the-cross]], 381 n.22). See [[cal.1965-01-02.voting-rights]]. Names: Clark.'
+    src:
+      c: d84adc5e
+      rows:
+        - 'w.garrow-bearing-the-cross 381: A-B'
+        - 'via w.garrow-bearing-the-cross 381 n.22a: B-C'
+        - 'via w.garrow-bearing-the-cross 381 n.22b: B-C'
+        - 'via w.garrow-bearing-the-cross 381 n.22c: B-C'
     tags: [name:clark-james-g-jr]
   - id: cal.1965-01-22.legislatures-ct
     when: Jan. 22
@@ -270,6 +504,21 @@ entries:
     c: Connecticut. Public Act No. 2 of the special session reapportions both houses.
     n: '[Conn. *Register and Manual*, 1966, p. 46](https://archive.org/details/register66conn/page/n49). See [[cal.1965-01-05.state-constitutions-ct]].'
     tags: [state:ct]
+  - id: cal.1965-01-22.republican-party
+    when: Jan. 22
+    date: '1965-01-22'
+    thread: republican-party
+    c: 'Chicago. The Republican National Committee elects Bliss chairman, unanimously; Burch to stay until April, by the terms settled with Goldwater at his home in Phoenix. The committee approves Laird''s plan for a Republican Coordinating Committee. Its members, by Hess and Broder''s account: Eisenhower, five of the Senate''s Republican leaders, seven of the House''s, five governors, the four living defeated nominees, five of the national committee, one State legislator. Bliss to the committee: "I am no modern miracle man, but I will work hard and try to do a job for you." Goldwater introduces Nixon, by Nixon''s account: the man "who worked harder than any one person for the ticket." Nixon master of ceremonies at the luncheon before the vote.'
+    n: '[[w.hess-republican-establishment]], 42, 51, 54, 172; [[w.nixon-rn]], 265–66 (Goldwater on Nixon). Check: the Coordinating Committee''s members at its founding; Hess and Broder give them undated. See [[cal.1965-01-12.elections-1964]]. Names: Bliss, Burch, Goldwater, Laird, Eisenhower, Nixon.'
+    src:
+      c: b62b1269
+      rows:
+        - 'w.hess-republican-establishment 42: A-C'
+        - 'w.hess-republican-establishment 51: D-E'
+        - 'w.hess-republican-establishment 54: F'
+        - 'w.nixon-rn 265–66: G'
+        - 'w.hess-republican-establishment 172: G-H'
+    tags: [name:bliss-ray-c, name:burch-dean, name:goldwater-barry-m, name:laird-melvin-r, name:eisenhower-dwight-d, name:nixon-richard-m]
   - id: cal.1965-01-24.europe-and-the-alliance
     when: Jan. 24
     date: '1965-01-24'
@@ -327,15 +576,75 @@ entries:
     date: '1965-01-26'
     thread: vietnam
     c: 'Nixon to the Sales Executive Club of New York: "We will be thrown out in a matter of months—certainly within the year" unless the strategy changes; sea and air power against the routes south and the bases in Laos and North Vietnam. Neutrality: "we get out; they stay in; they take over."'
-    n: '[[w.johns-vietnams-second-front]], 82. To check: the speech, Nixon Pre-Presidential Papers, Speech File, box 83/2 (NARA, Laguna Niguel). Names: Nixon.'
+    n: '[[w.johns-vietnams-second-front]], 82; [[w.nixon-rn]], 270 (the occasion; sea and air power; neutrality''s three things). To check: Nixon, speech, Jan. 26, 1965, Speech File, box 83/2, Nixon Pre-Presidential Papers, NARA–Pacific Region, Laguna Niguel (cited by [[w.johns-vietnams-second-front]], 82 n.11). Names: Nixon.'
+    src:
+      c: c8b048c0
+      rows:
+        - 'w.johns-vietnams-second-front 82: all'
+        - 'via w.johns-vietnams-second-front 82 n.11: all'
+        - 'w.nixon-rn 270: all'
     tags: [name:nixon-richard-m]
   - id: cal.1965-01-27.vietnam
     when: Jan. 27
     date: '1965-01-27'
     thread: vietnam-saigon
     c: 'Saigon. The Armed Forces Council withdraws its confidence from Hương''s government and charges Khánh with the crisis: an alliance of Khánh and the Buddhist Institute, Taylor reports. Oánh acting Prime Minister. In Washington that morning, McGeorge Bundy and McNamara to Johnson: present policy "can lead only to disastrous defeat"; of two courses, military power "to force a change of Communist policy" or negotiation, they favor the first. Rusk dissents. Bundy to go to Saigon; American dependents to be withdrawn.'
-    n: 'FRUS 1964–68, II, docs. [41](https://history.state.gov/historicaldocuments/frus1964-68v02/d41), [42](https://history.state.gov/historicaldocuments/frus1964-68v02/d42), [43](https://history.state.gov/historicaldocuments/frus1964-68v02/d43), [44](https://history.state.gov/historicaldocuments/frus1964-68v02/d44), [47](https://history.state.gov/historicaldocuments/frus1964-68v02/d47). [[w.gibbons-u-s-government-and]], III, 45–46; [[w.kaplan-mcnamara-ascendancy-1961-1965]], 528–529; [[w.cosmas-joint-chiefs-of-staff-2012]], 207. To check: [[w.preston-war-council]]; [[w.goldstein-lessons-in-disaster]]; [[w.bird-color-of-truth]]; [[w.mcnamara-in-retrospect]]. See [[cal.1964-11-01.vietnam]]; [[cal.1964-12-20.vietnam]]. Names: Trần Văn Hương, Nguyễn Khánh, Nguyễn Xuân Oánh, Taylor, McGeorge Bundy, McNamara, Rusk, Johnson.'
+    n: 'Denney to Rusk, Jan. 27: [FRUS 1964–68, II, doc. 40](https://history.state.gov/historicaldocuments/frus1964-68v02/d40) (the Armed Forces Council''s communiqué; Khánh and the Buddhists). FRUS 1964–68, II, docs. [41](https://history.state.gov/historicaldocuments/frus1964-68v02/d41), [42](https://history.state.gov/historicaldocuments/frus1964-68v02/d42), [43](https://history.state.gov/historicaldocuments/frus1964-68v02/d43), [44](https://history.state.gov/historicaldocuments/frus1964-68v02/d44), [47](https://history.state.gov/historicaldocuments/frus1964-68v02/d47). [[w.gibbons-u-s-government-and]], III, 45–46 (Hương removed, Jan. 26–27; Oánh acting; Alexis Johnson''s report of Khánh''s alliance with the Buddhists); [[w.kaplan-mcnamara-ascendancy-1961-1965]], 528–29 (Khánh''s takeover; the memorandum; Rusk; Bundy''s mission); [[w.cosmas-joint-chiefs-of-staff-2012]], 207 (the memorandum); [[w.moyar-triumph-forsaken]], 351–52. To check: [[w.preston-war-council]]; [[w.goldstein-lessons-in-disaster]]; [[w.bird-color-of-truth]]; [[w.mcnamara-in-retrospect]]; McGeorge Bundy, meeting notes, Jan. 27, 1965, LBJL, Papers of McGeorge Bundy, box 1 (cited by [[w.moyar-triumph-forsaken]], 352 n.13). See [[cal.1964-11-01.vietnam]]; [[cal.1964-12-20.vietnam]]. Names: Trần Văn Hương, Nguyễn Khánh, Nguyễn Xuân Oánh, Taylor, McGeorge Bundy, McNamara, Rusk, Johnson.'
+    src:
+      c: 79c241b5
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v02/d41: all'
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 528–29: A-G'
+        - 'via w.kaplan-mcnamara-ascendancy-1961-1965 528 n.133a: B'
+        - 'via w.kaplan-mcnamara-ascendancy-1961-1965 528 n.133b: B-C'
+        - 'via w.kaplan-mcnamara-ascendancy-1961-1965 529 n.138: D-F'
+        - 'w.cosmas-joint-chiefs-of-staff-2012 207: D-E'
+        - 'via w.cosmas-joint-chiefs-of-staff-2012 207 n.16: D-E'
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v02/d40: B'
+        - 'w.gibbons-u-s-government-and III, 45–46: A-C'
+        - 'w.moyar-triumph-forsaken 351–52: B, D-E'
+        - 'via w.moyar-triumph-forsaken 352 n.13: D-E'
     tags: [name:tran-van-huong, name:nguyen-khanh, name:nguyen-xuan-oanh, name:taylor-maxwell, name:bundy-mcgeorge, name:mcnamara-robert-s, name:rusk-dean, name:johnson-lyndon-b, place:saigon]
+  - id: cal.1965-01-27.medicare
+    when: Jan. 27
+    date: '1965-01-27'
+    thread: medicare
+    c: 'Herlong and Curtis offer Eldercare, the AMA''s plan: Kerr–Mills enlarged, the States to buy private insurance for the aged by need, hospitals, doctors and drugs among its benefits; about $2.1 billion a year, by their release.'
+    n: '[[w.zelizer-taxing-america]], 233. To check: Herlong and Curtis, press release, Jan. 27, 1965, Manley Papers, LBJ Library (cited by [[w.zelizer-taxing-america]], 233 n.90). See [[cal.1965-01-07.medicare]]. Names: Herlong, Curtis.'
+    src:
+      c: c99863ae
+      rows:
+        - 'w.zelizer-taxing-america 233: all'
+        - 'via w.zelizer-taxing-america 233 n.90: all'
+    tags: [name:herlong-a-sydney-jr, name:curtis-thomas-b]
+  - id: cal.1965-01-27.vietnam-2
+    when: Jan. 27
+    date: '1965-01-27'
+    thread: vietnam
+    c: 'McGeorge Bundy to Johnson, for himself and McNamara, before their meeting with him at 11:30: "our current policy can lead only to disastrous defeat." Two courses: military power to force a change of Communist policy, or negotiation, "salvaging what little can be preserved"; both favor the first. Rusk for making the present policy work.'
+    n: '[FRUS 1964–68, II, doc. 42](https://history.state.gov/historicaldocuments/frus1964-68v02/d42). [[w.logevall-choosing-war]], 317–18 (the memorandum; the courses; Rusk). Made public: [[w.mcnamara-in-retrospect]] (1995), as Logevall cites it; FRUS 1964–68, II (1996). Names: McGeorge Bundy, Johnson, McNamara, Rusk.'
+    src:
+      c: da94b18c
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v02/d42: all'
+        - 'w.logevall-choosing-war 317–18: all'
+        - 'via w.logevall-choosing-war 318 n.31: all'
+    tags: [name:bundy-mcgeorge, name:johnson-lyndon-b, name:mcnamara-robert-s, name:rusk-dean]
+  - id: cal.1965-01-27.vietnam-3
+    when: Jan. 27
+    date: '1965-01-27'
+    thread: vietnam
+    c: 'Johnson with Rusk, McNamara and McGeorge Bundy, 11:30 a.m., on Bundy''s memorandum. Johnson, by Bundy''s notes: "Stable government or no stable government, we''ll do what we have to do.... We will move strongly. Khanh is our boy." The dependents to be evacuated, "clearing decks for further decisions"; the destroyer patrols in the Gulf of Tonkin to resume.'
+    n: '[FRUS 1964–68, II, doc. 43](https://history.state.gov/historicaldocuments/frus1964-68v02/d43) (State to Taylor, 8:48 p.m.: the meeting "at highest levels"; the evacuation, "clearing decks"); doc. [42](https://history.state.gov/historicaldocuments/frus1964-68v02/d42) n.2 (McNamara: the views given Johnson "in a mtg with Dean Rusk"). [[w.logevall-choosing-war]], 318–19 (the meeting; Johnson''s words; the patrols, 319). Johnson to Taylor, 9:46 p.m.: [FRUS 1964–68, II, doc. 44](https://history.state.gov/historicaldocuments/frus1964-68v02/d44). To check: MB meeting notes, Jan. 27, 1965, NSF MPB, LBJ Library (cited by [[w.logevall-choosing-war]], 318 n.32). See [[cal.1965-01-27.vietnam-2]]. Names: Johnson, Rusk, McNamara, McGeorge Bundy, Nguyễn Khánh.'
+    src:
+      c: b24d3fc6
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v02/d43: A, C'
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v02/d42: A'
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v02/d44: C'
+        - 'w.logevall-choosing-war 318–19: A-B, D'
+        - 'via w.logevall-choosing-war 318 n.32a: B'
+    tags: [name:johnson-lyndon-b, name:rusk-dean, name:mcnamara-robert-s, name:bundy-mcgeorge, name:nguyen-khanh]
   - id: cal.1965-01-28.economy
     when: Jan. 28
     date: '1965-01-28'
@@ -381,6 +690,19 @@ entries:
     c: 'Churchill''s funeral at St Paul''s: Warren, Eisenhower and Ambassador Bruce for the United States; Rusk, in London, too ill to attend; Humphrey not sent.'
     n: 'The delegation: The President''s News Conference, [1965 Pub. Papers 131](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=207) (Feb. 4, 1965), [6]. See [[cal.1965-01-24.europe-and-the-alliance]]. Names: Churchill, Warren, Eisenhower, Bruce, Rusk, Humphrey.'
     tags: [name:churchill-winston-s, name:warren-earl, name:eisenhower-dwight-d, name:bruce-david-k-e, name:rusk-dean, name:humphrey-hubert-h]
+  - id: cal.1965-01-30.vietnam
+    when: Jan. 30
+    date: '1965-01-30'
+    thread: vietnam
+    c: 'Stevenson to U Thant: Washington will not take part in the talks with North Vietnam at Rangoon that Thant has arranged with Ne Win. Rusk''s answer, "There may be a time ... but not now," by Herring''s account given without consulting Johnson, nothing put in writing.'
+    n: '[FRUS 1964–68, II, doc. 145](https://history.state.gov/historicaldocuments/frus1964-68v02/d145) (editorial note: Thant''s efforts through Stevenson since August 1964; the talks resumed in January). [[w.herring-lbj-and-vietnam]], 91–92 (Ne Win''s agreement in mid-January; Rusk''s answer; the refusal, Jan. 30). Check: the day, Herring''s alone. To check: "Chronology of U Thant Suggestion that DRV and US Representatives Meet in Rangoon to Discuss Restoration of Peace in Vietnam," n.d., NSF Country File, Vietnam, box 94, LBJ Library (cited by [[w.herring-lbj-and-vietnam]], 92 n.7). See [[cal.1964-08-06.vietnam-2]]. Names: Stevenson, U Thant, Ne Win, Rusk, Johnson.'
+    src:
+      c: ddfed6c3
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v02/d145: A'
+        - 'w.herring-lbj-and-vietnam 91–92: all'
+        - 'via w.herring-lbj-and-vietnam 92 n.7: all'
+    tags: [name:stevenson-adlai-e, name:u-thant, name:ne-win, name:rusk-dean, name:johnson-lyndon-b]
   - id: cal.1965-01-31.opinion
     when: Jan. 31
     date: '1965-01-31'
@@ -396,3 +718,14 @@ entries:
     c: Indiana. The right-to-work law of 1957 repealed, the first act of the session, the Democrats holding both houses; Branigin signs. Check the day.
     n: '*Muncie Star*, January 1965 (Check). [Indiana governors'' history, "Roger D. Branigin"](https://secure.in.gov/governorhistory/2338.htm). To check: [[w.peirce-great-lakes-states-of]]. Names: Branigin.'
     tags: [state:in, name:branigin-roger-d]
+  - id: cal.1965-01.republican-party
+    when: Jan.
+    date: 1965-01
+    thread: republican-party
+    c: 'Javits, to Washington reporters, not for direct quotation: he will not support Rockefeller for President in 1968.'
+    n: '[[w.hess-republican-establishment]], 315. Names: Javits, Rockefeller.'
+    src:
+      c: c8ec9d79
+      rows:
+        - 'w.hess-republican-establishment 315: all'
+    tags: [name:javits-jacob-k, name:rockefeller-nelson]

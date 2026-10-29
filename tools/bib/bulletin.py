@@ -14,7 +14,6 @@ import glob
 import os
 import re
 
-import yaml
 
 from . import store
 
@@ -25,11 +24,11 @@ FROM, TO = datetime.date(1960, 1, 6), datetime.date(1969, 1, 20)
 
 def problems():
     out = []
-    issues = {str(r["date"]) for r in (yaml.safe_load(open(ISSUES, encoding="utf-8")) or {}).get("issues", [])}
+    issues = {str(r["date"]) for r in (store.load_yaml(ISSUES) or {}).get("issues", [])}
     seen = set()
     for f in sorted(glob.glob(os.path.join(DIR, "[0-9][0-9][0-9][0-9].yaml"))):
         name = os.path.basename(f)
-        for x in (yaml.safe_load(open(f, encoding="utf-8")) or {}).get("docs", []):
+        for x in (store.load_yaml(f) or {}).get("docs", []):
             k = x.get("key", "?")
             where = f"{name} {k}"
             if k in seen:

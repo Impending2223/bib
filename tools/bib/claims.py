@@ -35,7 +35,8 @@ STYLE
     stale until a reader looks again and writes the new hash.
  5. The mechanical map, from the note as written under the owner's rule "omission implies" (CLAUDE.md, "What each
     source stands for"): a work read (with its pinpoint) and no parenthetical, `all`; with one, `?`; a link in the
-    note's sources, `all`; a link in `c` (a statute, a case), the unit holding it; an unlinked item, `?`. The note's
+    note's sources, `all`; a link in `c` (a statute, a case), the unit holding it; an unlinked item, no row (in the notes it is nearly always
+    prose, a work's version of the event; a reader's map names an unlinked source by its first words). The note's
     sources are its sentences other than "To check:", "See ...", "Names:", "Check:", "Made public:" and the pointers
     ("Reply:", "The order:", "Bibliography:", "Statute (", "Opinion (").
  6. Verbose (verbose()): the units in order, a run of units with the same sources closed by one footnote (or one
@@ -122,7 +123,7 @@ def parse_row(row):
     if not m:
         return None
     src, spec = m.group("src"), m.group("units")
-    v = re.match(r"^via (w\.\S+) (\S+) n\.(\S+)$", src)
+    v = re.match(r"^via (w\.\S+) ((?:[IVXL]+, )?\S+) n\.(\S+)$", src)   # a part or volume before the page: "IV, 118"
     if v:
         return ("via", v.group(1), v.group(2), v.group(3), spec)
     w = re.match(r"^(w\.\S+)(?: (.+))?$", src)
@@ -172,8 +173,8 @@ def mechanical(e):
                 rows.append(f"{k[1]} {k[2]}: {'?' if k[3] else 'all'}")
         elif k[0] == "url":
             rows.append(f"{k[1]}: all")
-        else:
-            rows.append(f'"{k[1]}": ?')
+        # an unlinked item is no row of the mechanical map: in the notes it is nearly always prose (a work's version of
+        # the event, "Johnson gives 7:40 p.m."), seldom a source; a reader's map names an unlinked source by its words
     for i, u in enumerate(us):
         for lk in LINK.finditer(u):
             rows.append(f"{lk.group(2)}: {LETTERS[i]}")

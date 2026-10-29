@@ -9,7 +9,14 @@ entries:
     thread: missile-crisis
     also: [robert-kennedy]
     c: Statement on Cuba. No offensive weapons found; were there, "the gravest issues would arise." Dobrynin assures Robert Kennedy the same day.
-    n: '[FRUS 1961–63, X, doc. 411](https://history.state.gov/historicaldocuments/frus1961-63v10/d411). Statement by the President on Cuba (Sept. 4, 1962). To check: [[w.dobrynin-in-confidence]]. See [[cal.1962-05-24.missile-crisis]]. Names: Dobrynin, Robert F. Kennedy.'
+    n: '[FRUS 1961–63, X, doc. 411](https://history.state.gov/historicaldocuments/frus1961-63v10/d411). Statement by the President on Cuba (Sept. 4, 1962). [[w.schlesinger-robert-kennedy-and-his]], 502, 505–06 (Dobrynin''s assurance, "in early September"; the statement). [[w.reeves-president-kennedy]], 346–47. To check: [[w.dobrynin-in-confidence]]. See [[cal.1962-05-24.missile-crisis]]. Names: Dobrynin, Robert F. Kennedy.'
+    src:
+      c: d95075a6
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v10/d411: all'
+        - 'w.schlesinger-robert-kennedy-and-his 505–06: A'
+        - 'w.schlesinger-robert-kennedy-and-his 502: B'
+        - 'w.reeves-president-kennedy 346–47: all'
     tags: [name:dobrynin-anatoly, name:kennedy-robert-f, name:kennedy-john-f]
   - id: cal.1962-09-04.governors-nv
     when: Sept. 4
@@ -26,19 +33,44 @@ entries:
     c: 'McDermott, Office of Emergency Planning, sends Kennedy the Petroleum Study Committee''s report, signed for State, Treasury, Defense, Justice, Interior, Commerce and Labor. Interior''s dissent: the costs reckoned, not the benefits; no new coordination needed.'
     n: 'FRUS 1961–63, IX, doc. [357](https://history.state.gov/historicaldocuments/frus1961-63v09/d357). See [[cal.1961-12-02.oil]]. Names: McDermott, Kennedy.'
     tags: [name:mcdermott-edward-a, name:kennedy-john-f]
+  - id: cal.1962-09-04.missile-crisis-2
+    when: Sept. 4
+    date: '1962-09-04'
+    thread: missile-crisis
+    also: [robert-kennedy]
+    c: A White House meeting on Cuba, after Schlei's memorandum on the law of a blockade. Robert Kennedy urges a statement by the President that long-range missiles would raise the gravest issues; Rusk demurs, the problem with the Soviet Union worldwide. The President takes his brother's proposal; Robert Kennedy, Katzenbach and Schlei draft it.
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 505–06. To check: minutes of the White House meeting, Sept. 4, 1962, RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 505 n.27); Schlei''s memorandum, about Aug. 29, 1962, printed in Abram Chayes, *The Cuban Missile Crisis* (1974), app. 1 (cited by [[w.schlesinger-robert-kennedy-and-his]], 505, the second footnote). The statement: [[cal.1962-09-04.missile-crisis]]. Names: Schlei, Robert Kennedy, Rusk, Kennedy, Katzenbach.'
+    src:
+      c: dd8d1f84
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 505–06: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 505 n.27: B-C'
+    tags: [name:schlei-norbert-a, name:kennedy-robert-f, name:rusk-dean, name:kennedy-john-f, name:katzenbach-nicholas]
   - id: cal.1962-09-06.soviet-union
     when: Sept. 6
     date: '1962-09-06'
     thread: soviet-union
     c: 'Udall, eleven days in the Soviet Union on power and resources, with Khrushchev two hours at Pitsunda: the German treaty to be signed, no Western troops in Berlin; satisfaction with Kennedy''s handling of the U-2 protest and with Laos.'
-    n: 'FRUS 1961–63, V, doc. [236](https://history.state.gov/historicaldocuments/frus1961-63v05/d236) (the Embassy, Sept. 7). To check: [[w.smith-stewart-l-udall]]; [[w.taubman-khrushchev]]. Names: Udall, Khrushchev.'
+    n: 'FRUS 1961–63, V, doc. [236](https://history.state.gov/historicaldocuments/frus1961-63v05/d236) (the Embassy, Sept. 7). [[w.reeves-president-kennedy]], 350 (Udall with Khrushchev). To check: [[w.smith-stewart-l-udall]]; [[w.taubman-khrushchev]]; Khrushchev–Udall memorandum of conversation, Sept. 6, 1962, Cuba papers, National Security Archive (cited by [[w.reeves-president-kennedy]], 350). Names: Udall, Khrushchev.'
+    src:
+      c: dcfdda93
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v05/d236: all'
+        - 'w.reeves-president-kennedy 350: A'
+        - 'via w.reeves-president-kennedy 350 n.now-as-to-cuba: A'
     tags: [name:udall-stewart-l, name:khrushchev-nikita-s, name:kennedy-john-f]
   - id: cal.1962-09-07.soviet-union
     when: Sept. 7–9
     date: '1962-09-07'
     thread: soviet-union
     c: Frost, in the Soviet Union on the exchange, with Khrushchev at Gagra, Sept. 7; home, Sept. 9, he tells reporters Khrushchev thought Americans "too liberal to fight" (Check the words and the day).
-    n: 'To check: [[w.reeve-robert-frost-in-russia]]. See [[cal.1962-09-06.soviet-union]]. Names: Frost, Khrushchev.'
+    n: '[[w.reeves-president-kennedy]], 351. To check: [[w.reeve-robert-frost-in-russia]]; *New York Times*, Sept. 10, 1962; Stewart Udall, oral history, 55–56, Kennedy Library (cited by [[w.reeves-president-kennedy]], 351). See [[cal.1962-09-06.soviet-union]]. Names: Frost, Khrushchev.'
+    src:
+      c: ada9b00d
+      rows:
+        - 'w.reeves-president-kennedy 351: all'
+        - 'via w.reeves-president-kennedy 351 n.too-liberal-to-fight: B'
+        - 'via w.reeves-president-kennedy 351 n.why-did-frost-say-that: B'
     tags: [name:frost-robert, name:khrushchev-nikita-s]
   - id: cal.1962-09-07.missile-crisis
     when: Sept. 7
@@ -138,6 +170,19 @@ entries:
     c: 'Georgia''s Democratic primary for governor, the first without the county unit: Sanders, of Augusta, president pro tempore of the State Senate, over Griffin, governor 1955–59, 494,978 to 332,746, 58.1 percent; three others.'
     n: '[Ga. *Official and Statistical Register*, 1961–62, p. 1436](https://dlg.galileo.usg.edu/data/dlg/sreg/pdfs/dlg_sreg_1961.pdf#page=1443), as [Wikipedia](https://en.wikipedia.org/wiki/1962_Georgia_gubernatorial_election) gives it. To check: [[w.cook-carl-sanders]]; [[w.bartley-from-thurmond-to-wallace]]; [[w.black-southern-governors-and-civil]]. See [[cal.1962-04-28.georgia-ga]]. Names: Griffin, Sanders.'
     tags: [name:sanders-carl-e, name:griffin-marvin, state:ga]
+  - id: cal.1962-09-12.economy
+    when: Sept. 12
+    date: '1962-09-12'
+    thread: economy
+    c: 'Dillon and Ball to Kennedy, with Leddy''s and Johnson''s report from Paris and London, the week of Sept. 3: a communiqué of the Ten for after the Bank and Fund meetings, approved by Giscard d''Estaing and Maudling; Giscard and Maudling agree on high-level secret talks among the United States, Britain, France, Germany and Italy on limiting the taking of American gold, "their ideas ... still unclear to us."'
+    n: '[FRUS 1961–63, IX, doc. 59](https://history.state.gov/historicaldocuments/frus1961-63v09/d59). [[w.gavin-gold-dollars-and-power]], 86–87. To check: Giscard d''Estaing to the finance ministers of the Ten, Sept. 12, 1962, French Foreign Ministry archives (cited by [[w.gavin-gold-dollars-and-power]], 86 n.99). See [[cal.1962-08-24.economy]]. Names: Dillon, Ball, Kennedy, Leddy, Griffith Johnson, Giscard d''Estaing, Maudling.'
+    src:
+      c: '63152485'
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v09/d59: all'
+        - 'w.gavin-gold-dollars-and-power 86–87: all'
+        - 'via w.gavin-gold-dollars-and-power 87 n.100: all'
+    tags: [name:dillon-c-douglas, name:ball-george-w, name:kennedy-john-f, name:leddy-john-m, name:johnson-g-griffith-jr, name:giscard-destaing-valery, name:maudling-reginald]
   - id: cal.1962-09-13.mississippi-ole-miss
     when: Sept. 13
     date: '1962-09-13'
@@ -194,14 +239,39 @@ entries:
     thread: governors
     also: [elections-1962]
     c: 'New York''s conventions. Democrats at Syracuse, Sept. 17: Morgenthau, United States Attorney in Manhattan, nominated for governor on the second ballot, over O''Connor, Stratton, Samuels, Beame and others. Sept. 18: Donovan for the Senate against Javits; Edward R. Dudley, Manhattan''s borough president, a Negro, for attorney general. Sept. 19, Republicans at Buffalo renominate Rockefeller and Javits; the Liberals endorse the Democrats'' ticket.'
-    n: '[*New York Times*, Sept. 18, 1962](https://select.nytimes.com/gst/abstract.html?res=FB0610FA355C137A93CAA81782D85F468685F9); [Sept. 19](https://www.nytimes.com/1962/09/19/archives/democrats-name-dudley-a-negro-to-state-ticket-donovan-to-oppose.html); [Sept. 20](https://www.nytimes.com/1962/09/20/archives/governor-vows-hard-campaign-is-renominated-cheering-republican.html). To check: [[w.persico-imperial-rockefeller]]; [[w.smith-on-his-own-terms]]; [[w.connery-rockefeller-of-new-york]]; [[w.underwood-governor-rockefeller-in-new]]. Names: Morgenthau, O''Connor, Stratton, Samuels, Beame, Donovan, Javits, Dudley, Rockefeller.'
+    n: '[*New York Times*, Sept. 18, 1962](https://select.nytimes.com/gst/abstract.html?res=FB0610FA355C137A93CAA81782D85F468685F9); [Sept. 19](https://www.nytimes.com/1962/09/19/archives/democrats-name-dudley-a-negro-to-state-ticket-donovan-to-oppose.html); [Sept. 20](https://www.nytimes.com/1962/09/20/archives/governor-vows-hard-campaign-is-renominated-cheering-republican.html). [[w.schlesinger-robert-kennedy-and-his]], 370–71 (Morgenthau over O''Connor; Robert Kennedy''s part, Buckley turned from O''Connor). To check: [[w.persico-imperial-rockefeller]]; [[w.smith-on-his-own-terms]]; [[w.connery-rockefeller-of-new-york]]; [[w.underwood-governor-rockefeller-in-new]]. Names: Morgenthau, O''Connor, Stratton, Samuels, Beame, Donovan, Javits, Dudley, Rockefeller.'
+    src:
+      c: b5e12596
+      rows:
+        - 'https://select.nytimes.com/gst/abstract.html?res=FB0610FA355C137A93CAA81782D85F468685F9: all'
+        - 'https://www.nytimes.com/1962/09/19/archives/democrats-name-dudley-a-negro-to-state-ticket-donovan-to-oppose.html: all'
+        - 'https://www.nytimes.com/1962/09/20/archives/governor-vows-hard-campaign-is-renominated-cheering-republican.html: all'
+        - 'w.schlesinger-robert-kennedy-and-his 370–71: B'
     tags: [state:ny, name:morgenthau-robert-m, name:oconnor-frank-d, name:stratton-samuel-s, name:samuels-howard-j, name:beame-abraham-d, name:donovan-james-b, name:javits-jacob-k, name:dudley-edward-r, name:rockefeller-nelson]
+  - id: cal.1962-09-17.mississippi-ole-miss
+    when: Sept. 17
+    date: '1962-09-17'
+    thread: mississippi-ole-miss
+    also: [robert-kennedy]
+    c: 'Robert Kennedy''s office, about 6:30 p.m., on a statement on Mississippi: Guthman''s draft, Schlesinger adding the Mississippi Legislature''s resolution of 1832 against interposition; Katzenbach sees no reason to issue one. Kennedy defers it and turns to protecting Meredith when he registers.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 318 (from Schlesinger''s journal). To check: Schlesinger''s journal, Sept. 17, 1962 (cited by [[w.schlesinger-robert-kennedy-and-his]], 318 n.6). See [[cal.1962-06-25.mississippi]]. Names: Robert Kennedy, Guthman, Schlesinger, Katzenbach, Meredith.'
+    src:
+      c: 9007c7e8
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 318: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 318 n.6: all'
+    tags: [name:kennedy-robert-f, name:guthman-edwin-o, name:schlesinger-arthur-m-jr, name:katzenbach-nicholas, name:meredith-james-h]
   - id: cal.1962-09-18.elections-1962
     when: Sept. 18
     date: '1962-09-18'
     thread: elections-1962
     c: Massachusetts primary. Edward Kennedy over McCormack, better than two to one. George Cabot Lodge the Republican.
-    n: '[Mass. *Election Statistics*, 1962 (P.D. 43), pp. 150–155](https://archive.org/details/electionstatisti19611963mass/page/n227). See [[cal.1962-08-27.elections-1962]]. Names: Edward M. Kennedy, McCormack, Lodge.'
+    n: '[Mass. *Election Statistics*, 1962 (P.D. 43), pp. 150–155](https://archive.org/details/electionstatisti19611963mass/page/n227). [[w.reeves-president-kennedy]], 325 n. (69 percent). See [[cal.1962-08-27.elections-1962]]. Names: Edward M. Kennedy, McCormack, Lodge.'
+    src:
+      c: ea7c76bf
+      rows:
+        - 'https://archive.org/details/electionstatisti19611963mass/page/n227: all'
+        - 'w.reeves-president-kennedy 325 n.: A-B'
     tags: [name:kennedy-edward-m, name:lodge-george-c, name:mccormack-edward-j-jr, state:ma]
   - id: cal.1962-09-18.governors-ma
     when: Sept. 18
@@ -226,6 +296,45 @@ entries:
     c: 'An officer of the Kurdistan Democratic Party, for Barzani, at the embassy in Baghdad: money now, perhaps arms later; in return a purge of suspect members and full information on Iraq. Told American policy toward the revolt unchanged.'
     n: 'FRUS 1961–63, XVIII, doc. [49](https://history.state.gov/historicaldocuments/frus1961-63v18/d49). See [[cal.1962-06-20.middle-east]]. Names: Barzani.'
     tags: [name:barzani-mustafa]
+  - id: cal.1962-09-18.democratic-party
+    when: Sept. 18
+    date: '1962-09-18'
+    thread: democratic-party
+    also: [elections-1962, robert-kennedy]
+    c: Massachusetts primary night. Robert Kennedy, from Hyannis Port, asks Schlesinger to persuade Mark DeWolfe Howe, who had called Edward Kennedy's candidacy "reckless," to endorse Lodge in the same terms, after McCormack's showing. By Schlesinger's journal.
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 371–72. To check: Schlesinger, journal, Sept. 18, 1962 (cited by [[w.schlesinger-robert-kennedy-and-his]], 372 n.13). See [[cal.1962-08-27.elections-1962]]. Names: Robert Kennedy, Schlesinger, Edward Kennedy, McCormack.'
+    src:
+      c: 6f735b06
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 371–72: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 372 n.13: all'
+    tags: [name:kennedy-robert-f, name:schlesinger-arthur-m-jr, name:kennedy-edward-m, name:mccormack-edward-j-jr, state:ma]
+  - id: cal.1962-09-18.civil-rights-the-executive
+    when: Sept. 18
+    date: '1962-09-18'
+    thread: civil-rights-the-executive
+    also: [elections-1962]
+    c: 'Griffiths (D-Mich.) to O''Brien, by letter, against the housing order before the election: "No Democratic Congressman, from suburbia, to whom I have talked, believes he is in any danger of losing colored votes; but he does feel such an order could cost white votes."'
+    n: '[[w.reeves-president-kennedy]], 353. To check: Griffiths to O''Brien, Sept. 18, 1962, Lee White Papers, Housing/Executive Order, Kennedy Library (cited by [[w.reeves-president-kennedy]], 353). Check: the day; Reeves has Kennedy read it Sept. 17, his note dates it Sept. 18. Names: Griffiths, O''Brien.'
+    src:
+      c: 4755d1f6
+      rows:
+        - 'w.reeves-president-kennedy 353: all'
+        - 'via w.reeves-president-kennedy 353 n.there-is-not-time-enough: all'
+    tags: [name:griffiths-martha-w, name:obrien-lawrence-f]
+  - id: cal.1962-09-18.vietnam
+    when: Sept. 18
+    date: '1962-09-18'
+    thread: vietnam
+    c: 'Forrestal to Kennedy on Saigon''s weekly report: "it does appear that we have finally developed a series of techniques which, if properly applied, do seem to produce results." The bad press from Saigon partly because the papers and news magazines "have not sent top drawer people to the area."'
+    n: '[FRUS 1961–63, II, doc. 283](https://history.state.gov/historicaldocuments/frus1961-63v02/d283). [[w.mann-grand-delusion]], 267–68. Check: Mann, 267, dates the first passage Sept. 11, the date of the Saigon cable the memorandum reports (FRUS, doc. 283, n. 2). To check: [[w.pentagon-papers]], II, 162 (cited by [[w.mann-grand-delusion]], 267 n.39). Names: Forrestal, Kennedy.'
+    src:
+      c: 03800285
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v02/d283: all'
+        - 'w.mann-grand-delusion 267–68: all'
+        - 'via w.mann-grand-delusion 268 n.40: all'
+    tags: [name:forrestal-michael-v, name:kennedy-john-f]
   - id: cal.1962-09-19.trade
     when: Sept. 19
     date: '1962-09-19'
@@ -237,7 +346,17 @@ entries:
     date: '1962-09-19'
     thread: missile-crisis
     c: 'SNIE 85-3-62: offensive missiles in Cuba unlikely. McCone, on his honeymoon, dissents by cable.'
-    n: '[FRUS vol. 10](https://history.state.gov/historicaldocuments/frus1961-63v10). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 202; [[w.poole-joint-chiefs-of-staff]], 163. To check: [[w.robarge-john-mccone-as-director]]. See [[cal.1962-05-24.missile-crisis]]. Names: McCone.'
+    n: '[FRUS 1961–63, X, doc. 433](https://history.state.gov/historicaldocuments/frus1961-63v10/d433) (the estimate); [FRUS 1961–63, X, doc. 433](https://history.state.gov/historicaldocuments/frus1961-63v10/d433) (the estimate); [vol. 10](https://history.state.gov/historicaldocuments/frus1961-63v10). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 202 (the estimate); [[w.poole-joint-chiefs-of-staff]], 163 (the estimate). To check: [[w.robarge-john-mccone-as-director]]. See [[cal.1962-05-24.missile-crisis]]. Names: McCone.'
+    src:
+      c: 3993600f
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v10: all'
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 202: A'
+        - 'via w.kaplan-mcnamara-ascendancy-1961-1965 202 n.32: A'
+        - 'via w.kaplan-mcnamara-ascendancy-1961-1965 202 n.33: A'
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v10/d433: A'
+        - 'w.poole-joint-chiefs-of-staff 163: A'
+        - 'via w.poole-joint-chiefs-of-staff 163 n.20: A'
     tags: [name:mccone-john-a]
   - id: cal.1962-09-19.opinion
     when: Sept. 19
@@ -246,6 +365,19 @@ entries:
     also: [health]
     c: 'Gallup, Aug. 23–28: the Arizona woman who took thalidomide and had an abortion in Sweden did right, 52 percent; wrong, 32. Catholics 33 right, 49 wrong.'
     n: '[[w.gallup-poll]], III, 1784.'
+  - id: cal.1962-09-19.vietnam
+    when: Sept. 19
+    date: '1962-09-19'
+    thread: vietnam
+    c: 'Trueheart, from Saigon, to the Southeast Asia Task Force: "tremendously encouraged"; the military progress "little short of sensational." The one gloomy spot the press, which "believes that the situation in Viet Nam is going to pieces."'
+    n: '[FRUS 1961–63, II, doc. 286](https://history.state.gov/historicaldocuments/frus1961-63v02/d286) (the minutes). [[w.mann-grand-delusion]], 267. See [[cal.1962-09-18.vietnam]]. Names: Trueheart.'
+    src:
+      c: 9bc053fd
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v02/d286: all'
+        - 'w.mann-grand-delusion 267: all'
+        - 'via w.mann-grand-delusion 267 n.39: all'
+    tags: [name:trueheart-william-c]
   - id: cal.1962-09-20.school-aid
     when: Sept. 20
     date: '1962-09-20'
@@ -260,6 +392,21 @@ entries:
     c: Barnett, as special registrar, refuses Meredith at Oxford.
     n: '*United States v. Barnett*, [376 U.S. 681](https://tile.loc.gov/storage-services/service/ll/usrep/usrep376/usrep376681/usrep376681.pdf) (1964) (K–J Adm. II.H.1). See [[cal.1962-06-25.mississippi]]. Names: Barnett, Meredith.'
     tags: [name:barnett-ross-r, name:meredith-james-h]
+  - id: cal.1962-09-20.economy
+    when: Sept. 20
+    date: '1962-09-20'
+    thread: economy
+    c: 'Kennedy to the governors of the Bank and the Fund: the dollar "an international currency"; if it did not exist as a reserve currency "it would have to be invented"; the deficit not mismanagement but spending for the free world, $3 billion of it military abroad; the dollar to stay convertible into gold; the country "receptive to suggestions" for improving the payments system.'
+    n: 'Remarks to the Board of Governors of the World Bank and the International Monetary Fund, [1962 Pub. Papers 691](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=751) (Sept. 20, 1962); [FRUS 1961–63, IX, doc. 62](https://history.state.gov/historicaldocuments/frus1961-63v09/d62) (editorial note). [[w.gavin-gold-dollars-and-power]], 87 (the drafts; Kaysen and Dillon). To check: Kaysen to Kennedy and Dillon to Kennedy, Sept. 18, 1962, FRUS 1961–63, IX, docs. [60](https://history.state.gov/historicaldocuments/frus1961-63v09/d60), [61](https://history.state.gov/historicaldocuments/frus1961-63v09/d61) (cited by [[w.gavin-gold-dollars-and-power]], 87 nn.101–2). See [[cal.1962-09-12.economy]]. Names: Kennedy.'
+    src:
+      c: 4856a90a
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=751: all'
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v09/d62: all'
+        - 'w.gavin-gold-dollars-and-power 87: E'
+        - 'via w.gavin-gold-dollars-and-power 87 n.101: E'
+        - 'via w.gavin-gold-dollars-and-power 87 n.102: E'
+    tags: [name:kennedy-john-f]
   - id: cal.1962-09-21.middle-east-johnson-plan
     when: Sept. 21
     date: '1962-09-21'
@@ -267,6 +414,18 @@ entries:
     c: 'New York. Meir to Joseph Johnson: the plan shocking, its whole basis unacceptable, not negotiable. In Washington, Harman to Talbot: Israel asks the United States to reject it and to stop the PCC circulating it. Feldman to Kennedy: disengage, the faster the better.'
     n: 'FRUS 1961–63, XVIII, doc. [50](https://history.state.gov/historicaldocuments/frus1961-63v18/d50) (editorial note). See [[cal.1961-08-21.middle-east-johnson-plan]]. Names: Meir, Johnson, Harman, Talbot, Feldman, Kennedy.'
     tags: [name:meir-golda, name:johnson-joseph-e, name:harman-avraham, name:talbot-phillips, name:feldman-myer, name:kennedy-john-f]
+  - id: cal.1962-09-22.civil-rights-the-executive
+    when: Sept. 22
+    date: '1962-09-22'
+    thread: civil-rights-the-executive
+    c: 'The Emancipation Proclamation''s centennial at the Lincoln Memorial: the President''s recorded remarks, he at Hyannis Port. "Abraham Lincoln emancipated the slaves, but ... in this century since, our Negro citizens have emancipated themselves."'
+    n: 'Remarks Recorded for the Ceremony at the Lincoln Memorial Commemorating the Centennial of the Emancipation Proclamation, [1962 Pub. Papers 702](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=762) (Sept. 22, 1962). [[w.reeves-president-kennedy]], 354. Names: Kennedy.'
+    src:
+      c: 432754db
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=762: all'
+        - 'w.reeves-president-kennedy 354: all'
+    tags: [name:kennedy-john-f]
   - id: cal.1962-09-25.mississippi-ole-miss
     when: Sept. 25
     date: '1962-09-25'
@@ -275,6 +434,33 @@ entries:
     c: Barnett refuses Meredith again, at Jackson.
     n: '*United States v. Barnett*, [376 U.S. 681](https://tile.loc.gov/storage-services/service/ll/usrep/usrep376/usrep376681/usrep376681.pdf) (1964). See [[cal.1962-06-25.mississippi]]. Names: Barnett, Meredith.'
     tags: [name:barnett-ross-r, name:meredith-james-h]
+  - id: cal.1962-09-25.mississippi-ole-miss-2
+    when: Sept. 25
+    date: '1962-09-25'
+    thread: mississippi-ole-miss
+    also: [robert-kennedy]
+    c: 'Robert Kennedy and Barnett by telephone, 12:20 p.m. Barnett: "We are going to fight this thing"; Mississippi is "being kicked around — like we don''t belong to it"; "I won''t agree to let that boy to get to Ole Miss." Kennedy: "The orders of the court are going to be upheld."'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 318–19. To check: transcript of the conversation between Robert Kennedy and Barnett, 12:20 p.m., Sept. 25, 1962, Burke Marshall Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 319 n.7). See [[cal.1962-06-25.mississippi]]. Names: Robert Kennedy, Barnett.'
+    src:
+      c: 3ffa36b2
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 318–19: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 319 n.7: all'
+    tags: [name:kennedy-robert-f, name:barnett-ross-r]
+  - id: cal.1962-09-25.vietnam
+    when: Sept. 25
+    date: '1962-09-25'
+    thread: vietnam
+    c: 'Taylor, back from the Far East, reports to Kennedy, 5 p.m.: the war in Vietnam going better. Nothing of Thompson''s token reduction of Americans, put to him in Saigon Sept. 13.'
+    n: '[Meeting with Maxwell Taylor on His Far Eastern Trip](https://millercenter.org/the-presidency/secret-white-house-tapes/meeting-maxwell-taylor-his-far-eastern-trip), Tape 23 (Miller Center). [[w.selverstone-kennedy-withdrawal]], 89–90. To check: Thompson, "Record of Meeting with General Taylor," Sept. 13, 1962 (cited by [[w.selverstone-kennedy-withdrawal]], 90 n.53). Check: the recording not heard; its time PRDE''s. See [[cal.1962-07-23.vietnam]]. Names: Taylor, Kennedy, Thompson.'
+    src:
+      c: 89b146fa
+      rows:
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/meeting-maxwell-taylor-his-far-eastern-trip: A'
+        - 'w.selverstone-kennedy-withdrawal 89–90: all'
+        - 'via w.selverstone-kennedy-withdrawal 90 n.53: B'
+        - 'via w.selverstone-kennedy-withdrawal 90 n.54: A'
+    tags: [name:taylor-maxwell, name:kennedy-john-f, name:thompson-robert]
   - id: cal.1962-09-26.mississippi-ole-miss
     when: Sept. 26
     date: '1962-09-26'
@@ -317,7 +503,14 @@ entries:
     thread: mississippi-ole-miss
     also: [robert-kennedy]
     c: Kennedy–Barnett calls, recorded. A staged confrontation agreed, then called off.
-    n: '[Meeting on the Crisis at the University of Mississippi, 1:18 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/meeting-crisis-university-mississippi), Tape 24 (Miller Center), Sept. 29. Tapes (K–J Adm. II.J). To check: [[w.doyle-american-insurrection]]. See [[cal.1962-06-25.mississippi]]. Names: Barnett, John F. Kennedy, Robert F. Kennedy.'
+    n: '[Meeting on the Crisis at the University of Mississippi, 1:18 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/meeting-crisis-university-mississippi), Tape 24 (Miller Center), Sept. 29. Tapes (K–J Adm. II.J). [[w.reeves-president-kennedy]], 355–56 (the staged confrontation, in Robert Kennedy''s calls with Barnett). To check: [[w.doyle-american-insurrection]]; Nicholas Katzenbach, oral history, 104–23, Kennedy Library (cited by [[w.reeves-president-kennedy]], 355). See [[cal.1962-06-25.mississippi]]. Names: Barnett, John F. Kennedy, Robert F. Kennedy.'
+    src:
+      c: 4ed27861
+      rows:
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/meeting-crisis-university-mississippi: all'
+        - 'w.reeves-president-kennedy 355–56: B'
+        - 'via w.reeves-president-kennedy 355 n.james-meredith.a: B'
+        - 'via w.reeves-president-kennedy 355 n.james-meredith.b: B'
     tags: [name:kennedy-john-f, name:barnett-ross-r, name:kennedy-robert-f]
   - id: cal.1962-09-27.georgia-ga
     when: Sept. 27
@@ -341,6 +534,19 @@ entries:
     c: 'Padre Island National Seashore Act signed, [76 Stat. 650](https://www.govinfo.gov/content/pkg/STATUTE-76/pdf/STATUTE-76-Pg650-2.pdf): about 80 miles of the barrier island on the Texas Gulf coast; not more than $5 million for land. The Senate had refused, Apr. 10, Tower''s motion to recommit, [39–45](https://voteview.com/rollcall/RS0870233), and a road the length of the island, [24–58](https://voteview.com/rollcall/RS0870234); the House passed it Sept. 13, [258–87](https://voteview.com/rollcall/RH0870198).'
     n: 'Statute (K–J Cong. II.J.2). Remarks Upon Signing Bill Providing for the Padre Island National Seashore, [1962 Pub. Papers 725](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=785) (Sept. 28, 1962). See [[cal.1961-08-07.conservation]]. Names: Tower.'
     tags: [name:kennedy-john-f, name:tower-john-g]
+  - id: cal.1962-09-28.mississippi-ole-miss
+    when: Sept. 28
+    date: '1962-09-28'
+    thread: mississippi-ole-miss
+    also: [robert-kennedy]
+    c: 'Robert Kennedy with Taylor and Vance in the Pentagon''s War Room, over maps of Mississippi. Barnett to him that day, by his account to Schlesinger: could he not persuade Meredith to go to another college, on a fellowship Barnett would raise money for?'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 320. To check: Schlesinger''s journal, Sept. 28, 1962 (cited by [[w.schlesinger-robert-kennedy-and-his]], 320 n.12). See [[cal.1962-06-25.mississippi]]. Names: Robert Kennedy, Taylor, Vance, Barnett, Meredith, Schlesinger.'
+    src:
+      c: 7f480294
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 320: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 320 n.12: B'
+    tags: [name:kennedy-robert-f, name:taylor-maxwell, name:vance-cyrus, name:barnett-ross-r, name:meredith-james-h, name:schlesinger-arthur-m-jr]
   - id: cal.1962-09-30.mississippi-ole-miss
     when: Sept. 30
     date: '1962-09-30'
@@ -349,3 +555,39 @@ entries:
     c: Meredith flown to Oxford; marshals at the Lyceum; riot overnight. Guihard, a French reporter, and Gunter, a local man, killed. Kennedy on television during it.
     n: '[Meeting on Civil Rights, 10:40 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/meeting-civil-rights), Tapes 26 and 26A (Miller Center), Sept. 30; [Robert Kennedy and Vance, 12:40 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-oval-office-between-robert-kennedy-and-cyrus), Dictabelt 4F3, Cassette A (Miller Center), Oct. 1. Radio and Television Report to the Nation on the Situation at the University of Mississippi, [1962 Pub. Papers 726](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=786) (Sept. 30, 1962). [Proclamation No. 3497](https://www.presidency.ucsb.edu/documents/proclamation-3497-obstructions-justice-the-state-mississippi), [27 Fed. Reg. 9681](https://www.govinfo.gov/app/details/FR-1962-10-02) (1962). [Exec. Order No. 11,053](https://www.presidency.ucsb.edu/documents/executive-order-11053-providing-assistance-for-the-removal-unlawful-obstructions-justice), [27 Fed. Reg. 9693](https://www.govinfo.gov/app/details/FR-1962-10-02) (1962). Address on Mississippi (K–J Adm. II.I). See [[cal.1962-06-25.mississippi]]. Names: Meredith, Guihard, Gunter, John F. Kennedy, Robert F. Kennedy, Katzenbach, Marshall.'
     tags: [name:kennedy-john-f, name:meredith-james-h, name:guihard-paul, name:gunter-ray, name:kennedy-robert-f, name:katzenbach-nicholas, name:marshall-burke]
+  - id: cal.1962-09.republican-party
+    when: Sept.
+    date: 1962-09
+    thread: republican-party
+    also: [goldwater]
+    c: The National Federation of Republican Women's convention. White's group runs a slate against the nominating committee's, the first such contest, and takes the offices.
+    n: '[[w.perlstein-before-the-storm]], 184. To check: [[w.white-suite-3505]], 73–74 (cited by [[w.perlstein-before-the-storm]], 184 n.2). Names: White.'
+    src:
+      c: d1983fac
+      rows:
+        - 'w.perlstein-before-the-storm 184: all'
+    tags: [name:white-f-clifton]
+  - id: cal.1962-09-30.mississippi-ole-miss-2
+    when: Sept. 30
+    date: '1962-09-30'
+    thread: mississippi-ole-miss
+    also: [robert-kennedy]
+    c: 'Sunday, 12:45 p.m. Robert Kennedy to Barnett by telephone: the President will say on television that night that Barnett had agreed to Meredith''s registering at Jackson. Barnett: "Don''t say that. ... Why don''t you fly him in this afternoon"; "You won''t mind if I raise cain about it?" Kennedy: "I don''t mind that; just say law and order will be maintained."'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 321. To check: transcript of the conversation between Robert Kennedy and Barnett, 12:45 p.m., Sept. 30, 1962, Burke Marshall Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 321 n.17). See [[cal.1962-06-25.mississippi]]. Names: Robert Kennedy, Barnett, Meredith.'
+    src:
+      c: e06f57b3
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 321: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 321 n.17: all'
+    tags: [name:kennedy-robert-f, name:barnett-ross-r, name:kennedy-john-f, name:meredith-james-h]
+  - id: cal.1962-09.republican-party-congress
+    when: Sept.
+    date: 1962-09
+    thread: republican-party-congress
+    also: [missile-crisis, elections-1962]
+    c: At the month's end, a House Republican caucus calls Cuba "the biggest Republican asset" in the coming election.
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 506. To check: [[w.fitzsimons-kennedy-doctrine]], 138 (cited by [[w.schlesinger-robert-kennedy-and-his]], 506 n.28). Check: the day.'
+    src:
+      c: 719e0185
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 506: all'

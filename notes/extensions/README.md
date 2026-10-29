@@ -17,7 +17,7 @@ future extension ideas and shelved drafts"). Three kinds:
 | [`military-oil-vietnam.md`](memos/military-oil-vietnam.md) (Oct. 20, 2026) | The war table (deaths, strength, the enemy and the allies, the air war); the forces a year under Armed Forces Day; the Oil group and the world's oil; the Vietnam field entries (in part) | §5, HES maps and a hamlet-security row (1967–Jan. 1969); tonnage (CACTA's DLTNS); armor; the CMH, OSD and USAF hosts refused here |
 | [`fiscal-congress-conventions-state.md`](memos/fiscal-congress-conventions-state.md) (Oct. 20, 2026) | State finance; the budgets, the debt limit acts, the bills' courses, the revenue effects; leaders and committees; the committees' meetings; the Republican convention of 1968; the *Bulletin* daybook and FRUS's printed concordance | The conventions of 1960, 1964 and Democratic 1968 (Bain and Parris, borrow only); *Current Documents* as a daybook list (no open scan) |
 | [`indicators-suggestions.md`](memos/indicators-suggestions.md) (Oct. 20, 2026) | The measures marked "Kept", and those marked "No" later built by `make_finance.py` | The London gold price (`gold-london`: no source); the first printings of the Economic Report's money and payments tables |
-| [`pvi-districts.md`](memos/pvi-districts.md) (Oct. 28, 2026) | The States' PVI, 1962–74 (`elections/pvi.yaml`, not shown) | The districts': under way, from the Census's Data Books |
+| [`pvi-districts.md`](memos/pvi-districts.md) (Oct. 28, 2026) | The States' PVI, 1962–74 (`elections/pvi.yaml`); the districts', 1960, 1962 and 1964 (`elections/pvi-districts.yaml`, from the Census's Data Books); both shown, with the vote by district, cited and attributed (Oct. 28, 2026) | The districts' for 1966–74 (1964 and 1972 by district not found open; `notes/leads.md`) |
 | [`ag-olc-opinions.md`](memos/ag-olc-opinions.md) (Oct. 23, 2026) | `daybook/opinions.yaml`, the opinions as entries and pointers | The opinions under `known` (no copy read) |
 
 ## Shelf
@@ -36,3 +36,7 @@ Named in CLAUDE.md as not yet done, here so they are found in one place:
   States*, 1960–67).
 - The Congressional Staff Directory's 1965, 1967 and 1969 editions, for the 89th–91st Congresses' subcommittees.
 - NATO's own force tables.
+- Small multiples on the Indicators page: every series on the calendar's span, one scale each, both vintages, one
+  cursor across them all (the owner, Oct. 28, 2026, of the chart gallery's demo 8: "they might be nice in the indicators
+  page, but I haven't spent any time there yet"). The gallery: https://claude.ai/artifact/8da6JMvh2SXn5g7F1hHnsH.
+  Its demos 2 and 3 (tinted changes; a row that opens into a chart) go forward together into the month tables.

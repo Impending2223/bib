@@ -32,8 +32,8 @@ Scopes taken out of the statements, kept here:
   Jobs and wages (Oct. 21, 2026), the railroads' disputes its subthread; a strike in a State's or a city's thread, or in
   Steel, King or Students, takes Labor disputes in `also`. Jobs and wages keeps unemployment, depressed areas, wages,
   the unions' law (14(b), the Taylor Law).
-- Students: college and university students in politics: their organizations, demonstrations, and manifestos (the
-  statement keeps the first clause).
+- Students: college, university and high school students in politics: their organizations, demonstrations, and
+  manifestos (the statement keeps the first clause; the high-school walkouts, McComb and the East Side, Oct. 29, 2026).
 - The States and the cities (Oct. 14, 2026, at the owner's request for State and local elections and politics): each
   event takes the narrowest thread. A race for governor: Governors, also the year's elections thread (Elections of
   1961, 1963, 1965 for the off years). A race for mayor, or for the body that governs a city: Mayors, likewise. A
@@ -44,6 +44,20 @@ Scopes taken out of the statements, kept here:
   of Alabama, Georgia, Mississippi or South Carolina alone takes that State's thread first. Each entry carries hidden
   tags for the States and cities it concerns (`state:ny`, `city:nyc`), for State threads or lists later; none yet beyond
   the four.
+
+- Republican Party; Democratic Party; Conservative movement (Oct. 29, 2026, the owner's rule on the parties and the
+  members: CLAUDE.md): a party and its organs (out of the White House, or, for the Republicans of 1960, its convention, platform
+  and national committee in the campaign) (the national committee and its chairman, the
+  governors' association and meetings, the coordinating committee, the platform's and the leadership's papers), its
+  factions and their papers, its figures out of office on policy or politics; its members of Congress as a party (the
+  leaders, conferences, caucuses, policy committees, task forces and their papers) in the subthread "Republican Party:
+  In Congress", and for the Democrats in Democratic Party itself, Congress as an institution staying in Congress. A
+  member's word on the war is Vietnam: Congress and the President, also the party's thread where he speaks as his
+  party (a conference paper, a leadership statement), not where he speaks for himself. The President's own party as he
+  leads it (the national committee he runs, his campaign) is in the year's elections thread, also Democratic Party.
+  The conservative movement's organized groups and third party (YAF, the Conservative Party of New York, the Free
+  Society Association, the ACU, *National Review*); the radical right and the officers who spoke for it stay in Right
+  and the military.
 
 Names: no thread or subthread name begins with "The" (the owner's rule, Oct. 21, 2026): "Bay of Pigs", "Air war".
 

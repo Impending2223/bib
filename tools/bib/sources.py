@@ -60,7 +60,7 @@ def problems():
     if not os.path.exists(PATH):
         return [("sources/states.yaml", "missing")]
     try:
-        reg = yaml.safe_load(open(PATH, encoding="utf-8"))
+        reg = store.load_yaml(PATH)
     except yaml.YAMLError as e:
         return [("sources/states.yaml", f"does not load: {e}")]
     out, seen = [], set()
@@ -93,7 +93,7 @@ def warnings():
     from .titles import span_dashes
     out = []
     try:
-        reg = yaml.safe_load(open(PATH, encoding="utf-8")) or []
+        reg = store.load_yaml(PATH) or []
     except (OSError, yaml.YAMLError):
         reg = []
     for e in reg:

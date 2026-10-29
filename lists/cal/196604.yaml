@@ -10,13 +10,68 @@ entries:
     also: [vietnam, elections-1966]
     c: 'Gallup, Mar. 3–8: a candidate for Congress who says we should try harder for a compromise peace in Vietnam: more inclined to vote for him 67 percent, less 15. Republicans 65 more inclined; Democrats 69; independents 65.'
     n: '[[w.gallup-poll]], III, 1998.'
+  - id: cal.1966-04-01.vietnam
+    when: Apr. 1
+    date: '1966-04-01'
+    thread: vietnam
+    c: 'JCS 1710-66: Westmoreland''s request of March, supported by the Joint Chiefs, to move American forces into a limited area of Cambodia to trap North Vietnamese troops, refused for "political sensitivity."'
+    n: '[[w.gibbons-u-s-government-and]], IV, 359 n.18. See [[cal.1965-12-11.vietnam]]. Names: Westmoreland.'
+    src:
+      c: fd8278a2
+      rows:
+        - 'w.gibbons-u-s-government-and IV, 359: all'
+        - 'via w.gibbons-u-s-government-and IV, 359 n.18a: all'
+    tags: [name:westmoreland-william]
   - id: cal.1966-04-02.vietnam
     when: Apr. 2
     date: '1966-04-02'
     thread: vietnam-struggle
     c: 'At the White House, on the Struggle Movement: keep Kỳ if possible, a fallback ready; Lodge to press Trí Quang.'
     n: 'FRUS 1964–68, IV, docs. [108](https://history.state.gov/historicaldocuments/frus1964-68v04/d108), [109](https://history.state.gov/historicaldocuments/frus1964-68v04/d109). Made public: FRUS 1964–68, IV (1998). [[w.gibbons-u-s-government-and]], IV, 276–79. See [[cal.1966-03-10.vietnam]]. Names: Nguyễn Cao Kỳ, Thích Trí Quang, Lodge.'
+    src:
+      c: 018590bd
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v04/d108: all'
+        - 'w.gibbons-u-s-government-and IV, 276–79: all'
+        - 'via w.gibbons-u-s-government-and IV, 278 n.38: A-B'
+        - 'via w.gibbons-u-s-government-and IV, 276 n.35: A'
     tags: [name:nguyen-cao-ky, name:thich-tri-quang, name:lodge-henry-cabot, name:johnson-lyndon-b]
+  - id: cal.1966-04-02.vietnam-struggle
+    when: Apr. 2
+    date: '1966-04-02'
+    thread: vietnam-struggle
+    c: 'Lodge, 3672: "firm decisions and necessary action can no longer wait": announce the program for a constitution and elections, restore order at Huế and Đà Nẵng with Vietnamese forces, arrest the movement''s leaders. If asked, fly the troops in; Americans otherwise out of it. A contingency plan if the government falls.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 277–78. To check: Saigon to Washington 3672, Apr. 2, 1966, NSF Country File, Vietnam, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 277 n.36). Names: Lodge.'
+    src:
+      c: 9452f1ab
+      rows:
+        - 'w.gibbons-u-s-government-and IV, 277–78: all'
+        - 'via w.gibbons-u-s-government-and IV, 277 n.36: all'
+    tags: [name:lodge-henry-cabot]
+  - id: cal.1966-04-02.vietnam-struggle-2
+    when: Apr. 2
+    date: '1966-04-02'
+    thread: vietnam-struggle
+    c: 'Rusk to Lodge, 2950, drafted himself after the lunch with Johnson: Trí Quang to be disabused of the idea that the United States is "stuck" with its commitment, a "satellite" whose men''s lives are at his disposal; "if the US is to persist in South Viet-Nam it must have something to support." Keep Thiệu and Kỳ; the President wants Lodge''s views on alternatives.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 278–79. To check: Washington to Saigon 2950, Apr. 2, 1966, NSF Country File, Vietnam, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 278 n.39). See [[cal.1966-04-02.vietnam]]. Names: Rusk, Lodge, Thích Trí Quang, Nguyễn Văn Thiệu, Nguyễn Cao Kỳ, Johnson.'
+    src:
+      c: 3e845f85
+      rows:
+        - 'w.gibbons-u-s-government-and IV, 278–79: all'
+        - 'via w.gibbons-u-s-government-and IV, 278 n.39: all'
+    tags: [name:rusk-dean, name:lodge-henry-cabot, name:thich-tri-quang, name:nguyen-van-thieu, name:nguyen-cao-ky, name:johnson-lyndon-b]
+  - id: cal.1966-04-02.vietnam-struggle-3
+    when: Apr. 2
+    date: '1966-04-02'
+    thread: vietnam-struggle
+    c: 'State to Lodge, 2948, drafted by William Bundy, cleared by Rusk: Dương Văn Minh or Trần Văn Đôn might replace the I Corps commander.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 279. To check: Washington to Saigon 2948, Apr. 2, 1966, NSF Country File, Vietnam, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 279 n.40). See [[cal.1966-04-02.vietnam]]. Names: William Bundy, Rusk, Lodge, Dương Văn Minh, Trần Văn Đôn.'
+    src:
+      c: 3d0782a3
+      rows:
+        - 'w.gibbons-u-s-government-and IV, 279: all'
+        - 'via w.gibbons-u-s-government-and IV, 279 n.40: all'
+    tags: [name:bundy-william, name:rusk-dean, name:lodge-henry-cabot, name:duong-van-minh, name:tran-van-don]
   - id: cal.1966-04-03.opinion
     when: Apr. 3
     date: '1966-04-03'
@@ -30,6 +85,12 @@ entries:
     thread: vietnam-struggle
     c: 'Washington to Saigon: no American forces in Đà Nẵng or Huế or against dissident troops.'
     n: 'FRUS 1964–68, IV, docs. [110](https://history.state.gov/historicaldocuments/frus1964-68v04/d110), [112](https://history.state.gov/historicaldocuments/frus1964-68v04/d112). Made public: FRUS 1964–68, IV (1998). [[w.gibbons-u-s-government-and]], IV, 279–81. See [[cal.1966-03-10.vietnam]].'
+    src:
+      c: '45554991'
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v04/d110: all'
+        - 'w.gibbons-u-s-government-and IV, 279–81: all'
+        - 'via w.gibbons-u-s-government-and IV, 279 n.44: A'
     tags: [name:johnson-lyndon-b]
   - id: cal.1966-04-04.europe-and-the-alliance-france
     when: Apr. 4
@@ -37,14 +98,162 @@ entries:
     thread: europe-and-the-alliance-france
     c: 'State, 6 p.m.: Rusk, McNamara, Ball and Acheson on France and NATO. The reply to the French aide-mémoire of Mar. 29 approved: American facilities out of France as promptly as possible. The North Atlantic Council to leave Paris, NATO''s military headquarters with it. If Bonn insists that French troops stay only under the present arrangements, the United States to back it fully; if Bonn negotiates, to urge safeguards and transit and overflight rights in France for the allies.'
     n: '[FRUS 1964–68, XIII, doc. 151](https://history.state.gov/historicaldocuments/frus1964-68v13/d151). [[w.schwartz-lyndon-johnson-and-europe]], 107 (and McCloy''s instructions). See [[cal.1966-03-07.europe-and-the-alliance]]. Names: Rusk, McNamara, Ball, Acheson.'
+    src:
+      c: 688d6f17
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v13/d151: all'
+        - 'w.schwartz-lyndon-johnson-and-europe 107: A, D-E'
+        - 'via w.schwartz-lyndon-johnson-and-europe 107 n.65: A, D-E'
     tags: [name:rusk-dean, name:mcnamara-robert-s, name:ball-george-w, name:acheson-dean-g]
+  - id: cal.1966-04-04.vietnam-force-levels
+    when: Apr. 4
+    date: '1966-04-04'
+    thread: vietnam-force-levels
+    c: 'JCSM-218-66: the Joint Chiefs propose the added forces be deployed by July 1967 rather than the end of 1966. McNamara accepts.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 182. To check: JCSM-218-66, Apr. 4, 1966, so cited, without its file (cited by [[w.gibbons-u-s-government-and]], IV, 182 n.32). Check: the day McNamara accepted. See [[cal.1966-02-10.vietnam-force-levels]]. Names: McNamara.'
+    src:
+      c: b791baef
+      rows:
+        - 'w.gibbons-u-s-government-and IV, 182: all'
+        - 'via w.gibbons-u-s-government-and IV, 182 n.32: all'
+    tags: [name:mcnamara-robert-s]
+  - id: cal.1966-04-04.vietnam-struggle-2
+    when: Apr. 4
+    date: '1966-04-04'
+    thread: vietnam-struggle
+    c: 'Lodge with Kỳ, 1 p.m., 3698: the Directorate''s resolutions of Apr. 3, a political convention and force at Đà Nẵng, the city declared held by the Communists; a National Political Congress to be formed. Kỳ asks American aircraft to lift the troops; Lodge approves.'
+    n: '[FRUS 1964–68, IV, doc. 110](https://history.state.gov/historicaldocuments/frus1964-68v04/d110). [[w.gibbons-u-s-government-and]], IV, 279. Made public: FRUS 1964–68, IV (1998). Names: Lodge, Nguyễn Cao Kỳ.'
+    src:
+      c: ce78ec1a
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v04/d110: all'
+        - 'w.gibbons-u-s-government-and IV, 279: all'
+        - 'via w.gibbons-u-s-government-and IV, 279 n.42: all'
+    tags: [name:lodge-henry-cabot, name:nguyen-cao-ky]
+  - id: cal.1966-04-04.vietnam-struggle-3
+    when: Apr. 4
+    date: '1966-04-04'
+    thread: vietnam-struggle
+    c: 'Johnson with Humphrey, Rusk, McNamara, Rostow, Taylor, William Bundy and Fortas, 7:10 to 8:35 p.m. Westmoreland sees "prospect of success in Danang"; Johnson, McNamara and Rusk do not. Johnson: "appeasement never wins"; "rather have someone we can control"; "Ky is gone, the last gasp"; "We need a Garcia-Godoy type—with an advisor by his side." McNamara: "We need a Bunker in Vietnam."'
+    n: '[FRUS 1964–68, IV, doc. 112](https://history.state.gov/historicaldocuments/frus1964-68v04/d112) (Valenti''s notes). [[w.gibbons-u-s-government-and]], IV, 279–81. Made public: FRUS 1964–68, IV (1998). See [[cal.1966-04-04.vietnam-struggle]]. Names: Johnson, Humphrey, Rusk, McNamara, Rostow, Taylor, William Bundy, Fortas, Westmoreland, Nguyễn Cao Kỳ.'
+    src:
+      c: 2ee377c9
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v04/d112: all'
+        - 'w.gibbons-u-s-government-and IV, 279–81: all'
+        - 'via w.gibbons-u-s-government-and IV, 279 n.44: all'
+    tags: [name:johnson-lyndon-b, name:humphrey-hubert-h, name:rusk-dean, name:mcnamara-robert-s, name:rostow-walt-w, name:taylor-maxwell, name:bundy-william, name:fortas-abe, name:westmoreland-william, name:nguyen-cao-ky]
+  - id: cal.1966-04-04.vietnam-struggle-4
+    when: Apr. 4
+    date: '1966-04-04'
+    thread: vietnam-struggle
+    c: 'State to Lodge, 2966, the second cable approved at the meeting: a political answer "as quickly and peacefully as possible"; much more contact with the government and the opposition; Lodge or Negroponte to see Trí Quang; a "prompt solution" for Thi''s future. Kỳ''s successor from the Directorate, Chiểu for choice; "We are at a loss here to suggest any civilian."'
+    n: '[[w.gibbons-u-s-government-and]], IV, 281. To check: Washington to Saigon 2964 and 2966, Apr. 4, 1966, Department of State, Central File, Pol 27 Viet S (cited by [[w.gibbons-u-s-government-and]], IV, 281 n.45). See [[cal.1966-04-04.vietnam-struggle-3]]. Names: Lodge, Thích Trí Quang, Nguyễn Chánh Thi, Nguyễn Cao Kỳ.'
+    src:
+      c: f5d527d4
+      rows:
+        - 'w.gibbons-u-s-government-and IV, 281: all'
+        - 'via w.gibbons-u-s-government-and IV, 281 n.45: all'
+    tags: [name:lodge-henry-cabot, name:thich-tri-quang, name:nguyen-chanh-thi, name:nguyen-cao-ky]
+  - id: cal.1966-04-04.vietnam-struggle-5
+    when: Apr. 4
+    date: '1966-04-04'
+    thread: vietnam-struggle
+    c: 'Lodge, 3699, on the cables of Apr. 2: Trí Quang''s acts "totally consistent with Communist aims"; the movement in power "could lead Vietnam into unknown waters, not excluding French-backed neutralism and Hanoi take-over." If Kỳ goes, Phan Xuân Chiểu of the Directorate; or Minh or Đôn.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 279. Reply to: [[cal.1966-04-02.vietnam-struggle-2]]. To check: Saigon to Washington 3699, Apr. 4, 1966, Department of State, Central File, Pol 27 Viet S (cited by [[w.gibbons-u-s-government-and]], IV, 279 n.41). Names: Lodge, Thích Trí Quang, Nguyễn Cao Kỳ, Dương Văn Minh, Trần Văn Đôn.'
+    src:
+      c: 2a181a8a
+      rows:
+        - 'w.gibbons-u-s-government-and IV, 279: all'
+        - 'via w.gibbons-u-s-government-and IV, 279 n.41: all'
+    tags: [name:lodge-henry-cabot, name:thich-tri-quang, name:nguyen-cao-ky, name:duong-van-minh, name:tran-van-don]
+  - id: cal.1966-04-04.vietnam
+    when: Apr. 4
+    date: '1966-04-04'
+    thread: vietnam
+    c: 'McNaughton, "Some Thoughts About Vietnam": Cuba and Berlin came out well; in Vietnam none of the three conditions holds. "The situation in Vietnam is bad and not getting better"; the riots "reveal a rottenness in the fabric that may not be curable." Even with full deployments, "a continued stalemate at a higher level" in 1967; several divisions for years even if the war is won.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 291–92. To check: McNaughton, "Some Thoughts About Vietnam," Apr. 4, 1966, Department of State, Lot File 70 D 207 (cited by [[w.gibbons-u-s-government-and]], IV, 291 n.68). Names: McNaughton.'
+    src:
+      c: 6283b0e1
+      rows:
+        - 'w.gibbons-u-s-government-and IV, 291–92: all'
+        - 'via w.gibbons-u-s-government-and IV, 291 n.68: all'
+    tags: [name:mcnaughton-john-t]
   - id: cal.1966-04-05.vietnam-struggle
     when: Apr. 5
     date: '1966-04-05'
     thread: vietnam-struggle
     c: Three battalions of Vietnamese marines flown to the Đà Nẵng air base. Kỳ, who had called the city held by Communists (Check the day), satisfied it is not, back to Saigon.
-    n: '[FRUS 1964–68, IV, doc. 113](https://history.state.gov/historicaldocuments/frus1964-68v04/d113). [[w.gibbons-u-s-government-and]], IV, 281–82 (the airlift; Kỳ to Đà Nẵng and back). See [[cal.1966-03-10.vietnam]]. Names: Nguyễn Cao Kỳ. Check: Gibbons gives two battalions of marines on Apr. 5 (IV, 281) and two more, flown by the Vietnamese air force, the night of Apr. 8 (IV, 286).'
+    n: '[FRUS 1964–68, IV, doc. 113](https://history.state.gov/historicaldocuments/frus1964-68v04/d113). [[w.gibbons-u-s-government-and]], IV, 281–82 (the airlift; Kỳ to Đà Nẵng and back). Gibbons gives two battalions of marines on Apr. 5 (IV, 281) and two more, flown by the Vietnamese air force, the night of Apr. 8 (IV, 286); William Bundy''s memorandum of Apr. 5, three on the air base (doc. 113). See [[cal.1966-03-10.vietnam]]. Names: Nguyễn Cao Kỳ.'
+    src:
+      c: e239cb34
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v04/d113: all'
+        - 'w.gibbons-u-s-government-and IV, 281–82: all'
     tags: [name:nguyen-cao-ky, place:da-nang-air-base, place:da-nang]
+  - id: cal.1966-04-05.vietnam-struggle-2
+    when: Apr. 5
+    date: '1966-04-05'
+    thread: vietnam-struggle
+    c: 'Night. The Buddhist leaders, Trí Quang excepted, with Kỳ at his house: a constitutional assembly within six months, Kỳ to stay through the transition; by Lodge''s report, "they have no confidence in anyone else."'
+    n: '[[w.gibbons-u-s-government-and]], IV, 282. To check: Saigon to Washington 3761, Apr. 6, 1966, NSF Country File, Vietnam, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 282 n.46). See [[cal.1966-04-05.vietnam-struggle]]. Names: Thích Trí Quang, Nguyễn Cao Kỳ, Lodge.'
+    src:
+      c: 952643b0
+      rows:
+        - 'w.gibbons-u-s-government-and IV, 282: all'
+        - 'via w.gibbons-u-s-government-and IV, 282 n.46: all'
+    tags: [name:thich-tri-quang, name:nguyen-cao-ky, name:lodge-henry-cabot]
+  - id: cal.1966-04-05.vietnam-struggle-3
+    when: Apr. 5
+    date: '1966-04-05'
+    thread: vietnam-struggle
+    c: 'William Bundy to Rusk: "the worst possible outcomes have been avoided, but ... Ky essentially capitulated" to the Buddhists and General Chuẩn; "we may save Thieu, but Ky looks pretty far gone." A reshuffled Directorate, Chiểu moving up, "would not be too bad."'
+    n: '[FRUS 1964–68, IV, doc. 113](https://history.state.gov/historicaldocuments/frus1964-68v04/d113) (the covering note). [[w.gibbons-u-s-government-and]], IV, 282. Made public: FRUS 1964–68, IV (1998). Names: William Bundy, Rusk, Nguyễn Cao Kỳ, Nguyễn Văn Thiệu.'
+    src:
+      c: a6b48d54
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v04/d113: A'
+        - 'w.gibbons-u-s-government-and IV, 282: all'
+        - 'via w.gibbons-u-s-government-and IV, 282 n.47: all'
+    tags: [name:bundy-william, name:rusk-dean, name:nguyen-cao-ky, name:nguyen-van-thieu]
+  - id: cal.1966-04-05.vietnam
+    when: Apr. 5
+    date: '1966-04-05'
+    thread: vietnam
+    c: 'Rostow to Johnson: if the Vietnamese work out a civil constitution-drafting group, "Then will be the time to pour it on." Heavier attrition, the supply routes, oil and "precision target systems"; "It is not, Mr. President, that I''m bloody-minded or a hawk." Get the urban leaders "into a hall and around tables."'
+    n: '[FRUS 1964–68, IV, doc. 115](https://history.state.gov/historicaldocuments/frus1964-68v04/d115). [[w.gibbons-u-s-government-and]], IV, 282. Made public: FRUS 1964–68, IV (1998). Names: Rostow, Johnson.'
+    src:
+      c: c99e2d68
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v04/d115: all'
+        - 'w.gibbons-u-s-government-and IV, 282: all'
+        - 'via w.gibbons-u-s-government-and IV, 282 n.48: all'
+    tags: [name:rostow-walt-w, name:johnson-lyndon-b]
+  - id: cal.1966-04-05.vietnam-2
+    when: Apr. 5
+    date: '1966-04-05'
+    thread: vietnam
+    c: 'McNaughton''s "Possible ''Fall Back'' Plan": change the aim to forcing a compromise between Saigon and the Viet Cong; "we are on a losing wicket"; a private presidential decision to use the troubles in I Corps "as the vehicle for disengagement," in secrecy; an ultimatum, shape up or we ship out; re-educate opinion that the United States has "more than delivered the goods in blood and treasure."'
+    n: '[[w.gibbons-u-s-government-and]], IV, 292–93. To check: McNaughton, "Possible ''Fall Back'' Plan," Apr. 5, 1966, Warnke Papers, McNaughton Files, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 292 n.69). Check: the summary''s date (Gibbons: drafted Apr. 5, filed with the B-P draft of Apr. 15). Names: McNaughton.'
+    src:
+      c: dcae6693
+      rows:
+        - 'w.gibbons-u-s-government-and IV, 292–93: all'
+        - 'via w.gibbons-u-s-government-and IV, 292 n.69b: all'
+    tags: [name:mcnaughton-john-t]
+  - id: cal.1966-04-05.vietnam-congress
+    when: Apr. 5
+    date: '1966-04-05'
+    thread: vietnam-congress
+    c: 'Morse in the Senate: "a civil war within a civil war"; the United States "supporting an immoral and illegal war," and "a tyranny in South Vietnam, a brutal military junta."'
+    n: '[112 Cong. Rec. 7635–37](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt6/pdf/GPO-CRECB-1966-pt6-6-1.pdf#page=71) (Senate, Apr. 5, 1966). [[w.gibbons-u-s-government-and]], IV, 304. Names: Morse.'
+    src:
+      c: 03dbb54e
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt6/pdf/GPO-CRECB-1966-pt6-6-1.pdf#page=71: all'
+        - 'w.gibbons-u-s-government-and IV, 304: all'
+        - 'via w.gibbons-u-s-government-and IV, 304 n.103: all'
+    tags: [name:morse-wayne]
   - id: cal.1966-04-06.civil-rights-the-executive
     when: Apr. 6
     date: '1966-04-06'
@@ -70,7 +279,14 @@ entries:
     date: '1966-04-06'
     thread: vietnam-struggle
     c: The Saigon government accepts a constitutional convention within six months.
-    n: '[FRUS 1964–68, IV, doc. 116](https://history.state.gov/historicaldocuments/frus1964-68v04/d116). [[w.gibbons-u-s-government-and]], IV, 283. See [[cal.1966-03-10.vietnam]].'
+    n: '[FRUS 1964–68, IV, doc. 116](https://history.state.gov/historicaldocuments/frus1964-68v04/d116). [[w.gibbons-u-s-government-and]], IV, 283. To check: Kỳ to Tâm Châu, Apr. 6, 1966 (translation), NSF Memos to the President—Walt Rostow, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 283 n.51); Saigon to Washington 3761, Apr. 6, 1966, NSF Country File, Vietnam, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 283 n.52). See [[cal.1966-03-10.vietnam]].'
+    src:
+      c: 9be57256
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v04/d116: all'
+        - 'w.gibbons-u-s-government-and IV, 283: all'
+        - 'via w.gibbons-u-s-government-and IV, 283 n.51: all'
+        - 'via w.gibbons-u-s-government-and IV, 283 n.52: all'
   - id: cal.1966-04-06.vietnam
     when: Apr. 6
     date: '1966-04-06'
@@ -78,7 +294,62 @@ entries:
     also: [vietnam-struggle]
     c: 'Johnson with Humphrey, Rusk, McNamara, Rostow, William Bundy and others, fifty minutes, on Đà Nẵng. McNamara: the Struggle Movement may be too strong to throw off; "I don''t want to go to war against them." Rusk''s cable to Lodge that evening: Saigon right to seek an over-all political solution first; no American push for a showdown at Đà Nẵng.'
     n: 'FRUS 1964–68, IV, doc. [116](https://history.state.gov/historicaldocuments/frus1964-68v04/d116) (the cable). [[w.gibbons-u-s-government-and]], IV, 283–84 (the meeting, by Valenti''s notes). To check: Valenti''s notes of the meeting, Apr. 6, 1966 (LBJ Library, Meeting Notes File). See [[cal.1966-03-10.vietnam]]. Names: Johnson, Humphrey, Rusk, McNamara, Rostow, William Bundy, Lodge.'
+    src:
+      c: da500ed6
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v04/d116: all'
+        - 'w.gibbons-u-s-government-and IV, 283–84: all'
+        - 'via w.gibbons-u-s-government-and IV, 283 n.53: A-C'
+        - 'via w.gibbons-u-s-government-and IV, 284 n.55: D-E'
     tags: [name:johnson-lyndon-b, name:humphrey-hubert-h, name:rusk-dean, name:mcnamara-robert-s, name:rostow-walt-w, name:bundy-william, name:lodge-henry-cabot]
+  - id: cal.1966-04-06.vietnam-struggle-2
+    when: Apr. 6
+    date: '1966-04-06'
+    thread: vietnam-struggle
+    c: 'Morning. Kỳ to Lodge, 3756: Có negotiating at Đà Nẵng; the dissidents given till midnight, then troops move. "Are you agreed with this procedure?" Lodge: the government must reestablish its authority; if talks fail, "the time of testing could not be avoided."'
+    n: '[[w.gibbons-u-s-government-and]], IV, 283. To check: Saigon to Washington 3756, Apr. 6, 1966, NSF Country File, Vietnam, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 283 n.49). Names: Nguyễn Cao Kỳ, Lodge.'
+    src:
+      c: a4ec3395
+      rows:
+        - 'w.gibbons-u-s-government-and IV, 283: all'
+        - 'via w.gibbons-u-s-government-and IV, 283 n.49: all'
+    tags: [name:nguyen-cao-ky, name:lodge-henry-cabot]
+  - id: cal.1966-04-07.vietnam-struggle
+    when: Apr. 7
+    date: '1966-04-07'
+    thread: vietnam-struggle
+    c: 'Lodge with Kỳ: Tâm Châu''s four demands, no punishment of those in the movement, release of the detained, the troops withdrawn, the assembly convened (by Kỳ''s reading "within the next two or three days"). Kỳ: "If we take no action now, we will have lost Central Vietnam"; two more battalions to Đà Nẵng that night.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 284–85. To check: Lodge''s cable on his meeting with Kỳ, Apr. 7, 1966, with Tâm Châu''s statement, NSF Memos to the President—Walt Rostow, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 285 n.56). Names: Lodge, Nguyễn Cao Kỳ, Tâm Châu.'
+    src:
+      c: dcbfdc11
+      rows:
+        - 'w.gibbons-u-s-government-and IV, 284–85: all'
+        - 'via w.gibbons-u-s-government-and IV, 285 n.56: all'
+    tags: [name:lodge-henry-cabot, name:nguyen-cao-ky, name:tam-chau]
+  - id: cal.1966-04-07.vietnam
+    when: Apr. 7
+    date: '1966-04-07'
+    thread: vietnam
+    c: 'Whiting of State''s intelligence bureau, back from eighteen days in South Vietnam, by Thomson''s summary for Rostow: "Ky will have to go"; he "derives his status only from the U.S. hand on his back"; the Vietnamese "don''t feel that they own their country." Rostow sends it to Johnson Apr. 8.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 279–80 n.44. To check: Thomson to Rostow, Apr. 7, 1966, on Whiting''s account of his trip, NSF Memos to the President—Walt Rostow, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 279 n.44). Names: Thomson, Rostow, Nguyễn Cao Kỳ, Johnson.'
+    src:
+      c: c98bfe47
+      rows:
+        - 'w.gibbons-u-s-government-and IV, 279–80: all'
+        - 'via w.gibbons-u-s-government-and IV, 279 n.44b: all'
+    tags: [name:thomson-james-c-jr, name:rostow-walt-w, name:nguyen-cao-ky, name:johnson-lyndon-b]
+  - id: cal.1966-04-07.vietnam-air-war
+    when: Apr. 7
+    date: '1966-04-07'
+    thread: vietnam-air-war
+    c: 'CINCPAC on McNaughton''s barrier, mines and wire from the coast through Laos to Thailand: three and a half to four years to make it work, seven or eight American divisions tied to a fixed line.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 454. To check: CINCPAC to JCS 071925Z, Apr. 7, 1966, cited in Pentagon Papers, Gravel ed., IV, 114 (cited by [[w.gibbons-u-s-government-and]], IV, 454 n.51). See [[cal.1966-01-30.vietnam-air-war]]. Names: McNaughton.'
+    src:
+      c: 03716d55
+      rows:
+        - 'w.gibbons-u-s-government-and IV, 454: all'
+        - 'via w.gibbons-u-s-government-and IV, 454 n.51: all'
+    tags: [name:mcnaughton-john-t]
   - id: cal.1966-04-08.medicare
     when: Apr. 8
     date: '1966-04-08'
@@ -86,6 +357,53 @@ entries:
     c: At San Antonio, Johnson signs the bill extending enrollment in Medicare's insurance for doctors' bills from Mar. 31 to May 31, [80 Stat. 99](https://www.govinfo.gov/content/pkg/STATUTE-80/pdf/STATUTE-80-Pg99.pdf). Almost 17 million enrolled, he says; some 1.3 million over 65 not yet.
     n: 'Letter to the President of the Senate and to the Speaker of the House Requesting Extension of the Medicare Enrollment Deadline, [1966 Pub. Papers 394](https://www.govinfo.gov/content/pkg/PPP-1966-book1/pdf/PPP-1966-book1.pdf#page=470) (Mar. 31, 1966); Remarks in San Antonio at the Signing of the Medicare Extension Bill, [1966 Pub. Papers 404](https://www.govinfo.gov/content/pkg/PPP-1966-book1/pdf/PPP-1966-book1.pdf#page=480) (Apr. 8, 1966). To check: [[w.smith-health-care-divided]]; [[w.blumenthal-heart-of-power]]. See [[cal.1965-07-30.medicare]]. Names: Johnson.'
     tags: [name:johnson-lyndon-b]
+  - id: cal.1966-04-08.vietnam-struggle
+    when: Apr. 8
+    date: '1966-04-08'
+    thread: vietnam-struggle
+    c: 'Lodge, 3817: the Buddhists'' demands "a naked grab for power"; concessions "a slippery slope." Kỳ has "failed to assert the authority of the government." Force now, "late"; Lodge prefers "selective application of force," Đà Nẵng and Huế cordoned off, while the assembly is prepared.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 285–86. To check: Saigon to Washington 3817, Apr. 8, 1966, NSF Country File, Vietnam, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 285 n.57). Names: Lodge, Nguyễn Cao Kỳ.'
+    src:
+      c: d28ee3f3
+      rows:
+        - 'w.gibbons-u-s-government-and IV, 285–86: all'
+        - 'via w.gibbons-u-s-government-and IV, 285 n.57: all'
+    tags: [name:lodge-henry-cabot, name:nguyen-cao-ky]
+  - id: cal.1966-04-08.vietnam-struggle-2
+    when: Apr. 8
+    date: '1966-04-08'
+    thread: vietnam-struggle
+    c: Kỳ and Thiệu tell Westmoreland of "a real show of force in Danang" and ask American planes for two more battalions; Westmoreland refers them to Lodge, who must ask Washington. That night the government flies the battalions in its own aircraft.
+    n: '[[w.gibbons-u-s-government-and]], IV, 286. See [[cal.1966-04-07.vietnam-struggle]]. Names: Nguyễn Cao Kỳ, Nguyễn Văn Thiệu, Westmoreland, Lodge.'
+    src:
+      c: f7fc5903
+      rows:
+        - 'w.gibbons-u-s-government-and IV, 286: all'
+    tags: [name:nguyen-cao-ky, name:nguyen-van-thieu, name:westmoreland-william, name:lodge-henry-cabot]
+  - id: cal.1966-04-08.vietnam
+    when: Apr. 8
+    date: '1966-04-08'
+    thread: vietnam
+    c: Goldberg to Johnson, a proposal for new peace moves, by Goldberg's letter to Rusk of May 4.
+    n: '[[w.gibbons-u-s-government-and]], IV, 368 n.56. Names: Goldberg, Johnson, Rusk.'
+    src:
+      c: fd4554b5
+      rows:
+        - 'w.gibbons-u-s-government-and IV, 368: all'
+        - 'via w.gibbons-u-s-government-and IV, 368 n.56e: all'
+    tags: [name:goldberg-arthur-j, name:johnson-lyndon-b, name:rusk-dean]
+  - id: cal.1966-04-08.vietnam-congress
+    when: Apr. 8
+    date: '1966-04-08'
+    thread: vietnam-congress
+    c: 'Russell to the Rockdale County Jaycees at Conyers, Ga.: "We may no longer be losing the war ... but neither do we appear to be winning it"; increase the punishment until they come to the table. "If it becomes clearly evident that a majority of the Vietnamese do not want our help, I would favor withdrawing immediately."'
+    n: '[[w.mann-grand-delusion]], 506. To check: Russell, speech text, Rockdale County Jaycees, Apr. 8, 1966, III, B, Media, 22, Russell Library (cited by [[w.mann-grand-delusion]], 506 n.28). Names: Russell, McNamara.'
+    src:
+      c: 0e2f7041
+      rows:
+        - 'w.mann-grand-delusion 506: all'
+        - 'via w.mann-grand-delusion 506 n.28: all'
+    tags: [name:russell-richard-b, state:ga, name:mcnamara-robert-s]
   - id: cal.1966-04-09.africa
     when: Apr. 9
     date: '1966-04-09'
@@ -93,6 +411,55 @@ entries:
     also: [europe-and-the-alliance]
     c: Rhodesia. The tanker *Joanna V* at Beira with oil for the pipeline to Rhodesia. Security Council, Resolution 221, 10–0, Bulgaria, France, Mali, the Soviet Union and Uruguay abstaining; the United States for. Portugal not to let oil through to Rhodesia; Britain authorized to stop, by force if need be, ships believed to carry oil for Rhodesia to Beira.
     n: '[S.C. Res. 221](https://undocs.org/S/RES/221(1966)) (Apr. 9, 1966). To check: [[w.deroche-black-white-and-chrome]]; [[w.watts-rhodesias-unilateral-declaration-of]]. See [[cal.1965-11-11.europe-and-the-alliance]].'
+  - id: cal.1966-04-09.vietnam-struggle
+    when: Apr. 9
+    date: '1966-04-09'
+    thread: vietnam-struggle
+    c: 'Westmoreland to Wheeler, MAC 2812: no direct military action against the dissidents; no plan, likely failure, a "martyr theme." A show of force with the economic and morale strain, and publicity for the Congress and the assembly. Sharp to Wheeler, Apr. 10: if politics fail, force; "Orientals being what they are we should not be impatient."'
+    n: '[[w.gibbons-u-s-government-and]], IV, 286. To check: Wheeler to Westmoreland, JCS 1889-66, Apr. 8, 1966, and Westmoreland''s reply, MAC 2812, Apr. 9, 1966, Westmoreland Papers, Message Files, Center of Military History (cited by [[w.gibbons-u-s-government-and]], IV, 286 n.59); Sharp to Wheeler, Apr. 10, 1966, Westmoreland Papers, Message Files, Center of Military History (cited by [[w.gibbons-u-s-government-and]], IV, 286 n.60). Names: Westmoreland, Wheeler, Sharp.'
+    src:
+      c: 526978f8
+      rows:
+        - 'w.gibbons-u-s-government-and IV, 286: all'
+        - 'via w.gibbons-u-s-government-and IV, 286 n.59: A-B'
+        - 'via w.gibbons-u-s-government-and IV, 286 n.60: C'
+    tags: [name:westmoreland-william, name:wheeler-earle, name:sharp-u-s-grant]
+  - id: cal.1966-04-09.vietnam-struggle-2
+    when: Apr. 9
+    date: '1966-04-09'
+    thread: vietnam-struggle
+    c: 'Rusk to Lodge, 3035, drafted himself: "the present government must govern until it can turn over to a new government arising from a broadly based constitutional process. It cannot turn over to a non-government."'
+    n: '[[w.gibbons-u-s-government-and]], IV, 286. To check: Washington to Saigon 3035, Apr. 9, 1966, Department of State, Central File, Pol 27 Viet S (cited by [[w.gibbons-u-s-government-and]], IV, 286 n.58). See [[cal.1966-04-08.vietnam-struggle]]. Names: Rusk, Lodge.'
+    src:
+      c: c891a488
+      rows:
+        - 'w.gibbons-u-s-government-and IV, 286: all'
+        - 'via w.gibbons-u-s-government-and IV, 286 n.58: all'
+    tags: [name:rusk-dean, name:lodge-henry-cabot]
+  - id: cal.1966-04-09.vietnam
+    when: Apr. 9
+    date: '1966-04-09'
+    thread: vietnam
+    c: 'Rostow to Rusk and McNamara, "Breaking Tri Quang''s Momentum": "We are a nation that cannot use force to shoot people apparently demanding a constitution and free elections." Better a constitutional gathering weighted with provincial and municipal officials, the Directorate kept together, Kỳ probably replaced, then a curfew "backed, if necessary, by U.S. forces." "Some deal with Thi may be a critical element."'
+    n: '[FRUS 1964–68, IV, doc. 118](https://history.state.gov/historicaldocuments/frus1964-68v04/d118). [[w.gibbons-u-s-government-and]], IV, 288–89. Made public: FRUS 1964–68, IV (1998). Names: Rostow, Rusk, McNamara, Thích Trí Quang, Nguyễn Cao Kỳ, Nguyễn Chánh Thi.'
+    src:
+      c: 77a51663
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v04/d118: all'
+        - 'w.gibbons-u-s-government-and IV, 288–89: all'
+        - 'via w.gibbons-u-s-government-and IV, 288 n.65: all'
+    tags: [name:rostow-walt-w, name:rusk-dean, name:mcnamara-robert-s, name:thich-tri-quang, name:nguyen-cao-ky, name:nguyen-chanh-thi]
+  - id: cal.1966-04-09.vietnam-2
+    when: Apr. 9
+    date: '1966-04-09'
+    thread: vietnam
+    c: 'Johnson''s senior advisers assign papers for a review of the options, Ball in charge: A, the status quo, Carver; B-O, an "optimistic" compromise, Unger; B-P, the "pessimistic," McNaughton; C, withdrawal, Ball.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 289. No notes of the meeting are known. Names: Ball, Carver, Unger, McNaughton.'
+    src:
+      c: f5a7c7ee
+      rows:
+        - 'w.gibbons-u-s-government-and IV, 289: all'
+    tags: [name:ball-george-w, name:carver-george-a-jr, name:unger-leonard, name:mcnaughton-john-t]
   - id: cal.1966-04-10.opinion
     when: Apr. 10
     date: '1966-04-10'
@@ -108,18 +475,45 @@ entries:
     c: Easter. Chavez's march at the Capitol in Sacramento.
     n: '[*New York Times*, Apr. 11, 1966](https://timesmachine.nytimes.com/timesmachine/1966/04/11/issue.html). See [[cal.1966-03-16.jobs-and-wages-ca]]. Names: Chavez.'
     tags: [state:ca, name:chavez-cesar]
+  - id: cal.1966-04-11.vietnam
+    when: Apr. 11
+    date: '1966-04-11'
+    thread: vietnam
+    c: 'Carver of the CIA, "Consequences of a Buddhist Political Victory in South Vietnam," asked for at the meeting of Apr. 8: a dangerous transition, held only by allied arms; but "the longer-term consequences ... could turn out very much to our advantage," a government with popular support. The Buddhists'' "long term political objectives are essentially similar to ours."'
+    n: '[[w.gibbons-u-s-government-and]], IV, 287–88. To check: Carver, "Consequences of a Buddhist Political Victory in South Vietnam," Apr. 11, 1966, NSF Country File, Vietnam, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 287 n.63). Names: Carver.'
+    src:
+      c: 23422c6f
+      rows:
+        - 'w.gibbons-u-s-government-and IV, 287–88: all'
+        - 'via w.gibbons-u-s-government-and IV, 287 n.63: all'
+    tags: [name:carver-george-a-jr]
   - id: cal.1966-04-12.europe-and-the-alliance
     when: Apr. 12
     date: '1966-04-12'
     thread: europe-and-the-alliance-france
     c: 'The American aide-mémoire to France, shown to the other fourteen Apr. 7: France acts alone without asking the review Article 12 allows; with French forces in Germany out of Allied Command Europe July 1, the 1960 agreement on atomic weapons for their use lapses.'
-    n: '[FRUS 1964–68, XIII, doc. 154](https://history.state.gov/historicaldocuments/frus1964-68v13/d154). [[w.current-documents-1966]], 328–330; [[w.drea-mcnamara-clifford-and-the-2011]], 377. See [[cal.1966-03-07.europe-and-the-alliance]].'
+    n: '[FRUS 1964–68, XIII, doc. 154](https://history.state.gov/historicaldocuments/frus1964-68v13/d154). [[w.current-documents-1966]], 328–330; [[w.drea-mcnamara-clifford-and-the-2011]], 377 (the American reply of Apr. 12). See [[cal.1966-03-07.europe-and-the-alliance]].'
+    src:
+      c: 28ef2cc8
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v13/d154: all'
+        - 'w.current-documents-1966 328–330: all'
+        - 'w.drea-mcnamara-clifford-and-the-2011 377: A'
+        - 'via w.drea-mcnamara-clifford-and-the-2011 377 n.9a: A'
   - id: cal.1966-04-12.vietnam
     when: Apr. 12
     date: '1966-04-12'
     thread: vietnam
     c: 'B-52s bomb North Vietnam for the first time: Route 15 on the North Vietnamese side of the Mụ Giạ Pass, the road into Laos. Thirty take off from Andersen, Guam; one turns back; twenty-nine bomb.'
-    n: '[[w.staaveren-gradual-failure]], 260, from SAC''s and the JCS''s messages: Rock Kick II, thirty B-52s, twenty-nine over the target. [FRUS 1964–68, IV, doc. 121](https://history.state.gov/historicaldocuments/frus1964-68v04/d121). [[w.frankum-like-rolling-thunder]], 47; [[w.staaveren-u-s-air-force]], 136. To check: [[w.clodfelter-limits-of-air-power]]; [[w.thompson-to-hanoi-and-back]]. See [[cal.1966-03-01.vietnam]]. Check: Frankum gives Apr. 11, and 585 tons of bombs.'
+    n: '[FRUS 1964–68, IV, doc. 121](https://history.state.gov/historicaldocuments/frus1964-68v04/d121). [[w.staaveren-gradual-failure]], 260; [[w.frankum-like-rolling-thunder]], 47 (the first B-52s over the North, the Mụ Giạ Pass; thirty); [[w.staaveren-u-s-air-force]], 136. To check: [[w.clodfelter-limits-of-air-power]]; [[w.thompson-to-hanoi-and-back]]; Hist, SAC, Jan-Jun 66, Vol I, p 126 (cited by [[w.staaveren-gradual-failure]], 260 n.38). See [[cal.1966-03-01.vietnam]]. Check: Frankum gives Apr. 11, and 585 tons of bombs.'
+    src:
+      c: 943edb04
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v04/d121: all'
+        - 'w.staaveren-gradual-failure 260: all'
+        - 'w.staaveren-u-s-air-force 136: all'
+        - 'w.frankum-like-rolling-thunder 47: A-B'
+        - 'via w.staaveren-gradual-failure 260 n.38: all'
     tags: [place:mu-gia-pass]
   - id: cal.1966-04-12.legislatures-ne
     when: Apr. 12
@@ -132,9 +526,31 @@ entries:
     when: Apr. 12–14
     date: '1966-04-12'
     thread: vietnam-struggle
-    c: A National Political Congress at Saigon; Apr. 14, Thiệu decrees elections for a constituent assembly in three to five months (Check).
-    n: '[FRUS 1964–68, IV, doc. 123](https://history.state.gov/historicaldocuments/frus1964-68v04/d123). [[w.gibbons-u-s-government-and]], IV, 294. See [[cal.1966-03-10.vietnam]]. Names: Nguyễn Văn Thiệu. Check: Gibbons gives "within three to six months" (IV, 294).'
+    c: A National Political Congress at Saigon; Apr. 14, Thiệu decrees elections for a constituent assembly in three to five months.
+    n: 'FRUS 1964–68, IV, doc. [122](https://history.state.gov/historicaldocuments/frus1964-68v04/d122) (State''s sitrep, Apr. 14: the decree); doc. [123](https://history.state.gov/historicaldocuments/frus1964-68v04/d123). [[w.gibbons-u-s-government-and]], IV, 294. Gibbons gives "within three to six months" (IV, 294). To check: Saigon to Washington 3920 and 3985, Apr. 12 and 13, 1966, Department of State, Central File, Pol 27 Viet S (cited by [[w.gibbons-u-s-government-and]], IV, 294 n.72); *New York Times*, Apr. 15, 1966 (cited by [[w.gibbons-u-s-government-and]], IV, 294 n.72); *New York Times*, Apr. 14, 1966 (cited by [[w.gibbons-u-s-government-and]], IV, 294 n.73). See [[cal.1966-03-10.vietnam]]. Names: Nguyễn Văn Thiệu.'
+    src:
+      c: 3c51aaca
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v04/d122: all'
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v04/d123: all'
+        - 'w.gibbons-u-s-government-and IV, 294: all'
+        - 'via w.gibbons-u-s-government-and IV, 294 n.72a: A'
+        - 'via w.gibbons-u-s-government-and IV, 294 n.72b: A'
+        - 'via w.gibbons-u-s-government-and IV, 294 n.73: B'
     tags: [name:nguyen-van-thieu, place:saigon]
+  - id: cal.1966-04-12.vietnam-2
+    when: Apr. 12
+    date: '1966-04-12'
+    thread: vietnam
+    c: 'Taylor to Johnson, "Current Situation in South Viet-Nam": Kỳ has not shown himself capable of "the ''whiff of grapeshot''"; he is expendable, but Trí Quang must not overthrow the Directorate. Use force within the law, contain Đà Nẵng and Huế, buy off Thi. "I feel it in my bones" that overreaction is more dangerous than restraint; reject "take over or get out."'
+    n: '[FRUS 1964–68, IV, doc. 119](https://history.state.gov/historicaldocuments/frus1964-68v04/d119). [[w.gibbons-u-s-government-and]], IV, 294. Made public: FRUS 1964–68, IV (1998). Names: Taylor, Johnson, Nguyễn Cao Kỳ, Thích Trí Quang, Nguyễn Chánh Thi.'
+    src:
+      c: c476d4a4
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v04/d119: all'
+        - 'w.gibbons-u-s-government-and IV, 294: all'
+        - 'via w.gibbons-u-s-government-and IV, 294 n.71: all'
+    tags: [name:taylor-maxwell, name:johnson-lyndon-b, name:nguyen-cao-ky, name:thich-tri-quang, name:nguyen-chanh-thi]
   - id: cal.1966-04-13.transportation
     when: Apr. 13
     date: '1966-04-13'
@@ -149,6 +565,84 @@ entries:
     c: Iraq. Abdul Salam Arif killed in an air crash.
     n: '[*New York Times*, Apr. 14, 1966](https://timesmachine.nytimes.com/timesmachine/1966/04/14/issue.html). See [[cal.1963-11-18.middle-east]]. Names: Arif.'
     tags: [name:arif-abdul-salam-muhammad]
+  - id: cal.1966-04-13.vietnam-congress
+    when: Apr. 13
+    date: '1966-04-13'
+    thread: vietnam-congress
+    also: [republican-party-congress]
+    c: 'Cooper in the Senate, twice in Vietnam in four months: "we cannot defend people who are not willing to defend themselves. And a government which cannot gain the support and confidence of the people cannot act for the people."'
+    n: '[112 Cong. Rec. 8114](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt6/pdf/GPO-CRECB-1966-pt6-9-1.pdf#page=53) (Senate, Apr. 13, 1966). [[w.gibbons-u-s-government-and]], IV, 303–04. Check: the words on the page. Names: John Sherman Cooper.'
+    src:
+      c: e725fd5d
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt6/pdf/GPO-CRECB-1966-pt6-9-1.pdf#page=53: all'
+        - 'w.gibbons-u-s-government-and IV, 303–04: all'
+        - 'via w.gibbons-u-s-government-and IV, 304 n.100: all'
+    tags: [name:cooper-john-sherman]
+  - id: cal.1966-04-13.vietnam-air-war
+    when: Apr. 13
+    date: '1966-04-13'
+    thread: vietnam-air-war
+    c: 'McNamara to Wheeler on JCSM-189-66: "Your recommendations were considered in connection with the decision on ROLLING THUNDER 50." The oil stores left out.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 366–67. To check: McNamara to the Chairman, Joint Chiefs of Staff, "Air Operations Against North Vietnam," Apr. 13, 1966, cited in Pentagon Papers, Gravel ed., IV, 87 (cited by [[w.gibbons-u-s-government-and]], IV, 367 n.47). See [[cal.1966-03-26.vietnam-air-war]]. Names: McNamara, Wheeler.'
+    src:
+      c: bc5d701e
+      rows:
+        - 'w.gibbons-u-s-government-and IV, 366–67: all'
+        - 'via w.gibbons-u-s-government-and IV, 367 n.47: all'
+    tags: [name:mcnamara-robert-s, name:wheeler-earle]
+  - id: cal.1966-04-14.vietnam
+    when: Apr. 14
+    date: '1966-04-14'
+    thread: vietnam
+    c: 'Rostow, "Headings for Decision and Action": a presidential statement tying aid to order and the war''s prosecution; experts, "in the most discreet way possible," for the constitution; intelligence on the convention''s people as for "a U.S. national political convention"; POL; and whether Saigon should open "a covert dialogue with the VC."'
+    n: '[FRUS 1964–68, IV, doc. 121](https://history.state.gov/historicaldocuments/frus1964-68v04/d121). [[w.gibbons-u-s-government-and]], IV, 296. Made public: FRUS 1964–68, IV (1998). Names: Rostow.'
+    src:
+      c: e86fe09f
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v04/d121: all'
+        - 'w.gibbons-u-s-government-and IV, 296: all'
+        - 'via w.gibbons-u-s-government-and IV, 296 n.80: all'
+    tags: [name:rostow-walt-w]
+  - id: cal.1966-04-14.vietnam-congress
+    when: Apr. 14
+    date: '1966-04-14'
+    thread: vietnam-congress
+    also: [republican-party-congress]
+    c: 'Javits in the Senate: an election in South Vietnam as soon as possible; if a government came to power against the war, redeploy the troops to other Asian countries, ready against China. Voluntary withdrawal would be disastrous, "but it is no disgrace if conditions make" it necessary.'
+    n: '[112 Cong. Rec. 8153](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt6/pdf/GPO-CRECB-1966-pt6-10-1.pdf#page=7) (Senate, Apr. 14, 1966). [[w.gibbons-u-s-government-and]], IV, 304. Names: Javits.'
+    src:
+      c: 090c1970
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt6/pdf/GPO-CRECB-1966-pt6-10-1.pdf#page=7: all'
+        - 'w.gibbons-u-s-government-and IV, 304: all'
+        - 'via w.gibbons-u-s-government-and IV, 304 n.101: all'
+    tags: [name:javits-jacob-k]
+  - id: cal.1966-04-14.vietnam-air-war
+    when: Apr. 14
+    date: '1966-04-14'
+    thread: vietnam-air-war
+    c: The Joint Chiefs send McNamara the Rolling Thunder Study Group's report on interdiction, with another recommendation for shock strikes, the oil among them. Refused.
+    n: '[[w.gibbons-u-s-government-and]], IV, 366. To check: "ROLLING THUNDER Study Group Report: Air Operations Against NVN", cited in Pentagon Papers, Gravel ed., IV, 86 (cited by [[w.gibbons-u-s-government-and]], IV, 366 n.46). See [[cal.1966-04-13.vietnam-air-war]]. Names: McNamara.'
+    src:
+      c: fa6ee900
+      rows:
+        - 'w.gibbons-u-s-government-and IV, 366: all'
+        - 'via w.gibbons-u-s-government-and IV, 366 n.46: A'
+    tags: [name:mcnamara-robert-s]
+  - id: cal.1966-04-14.robert-kennedy
+    when: Apr. 14
+    date: '1966-04-14'
+    thread: robert-kennedy
+    also: [vietnam-prisoners]
+    c: 'Robert Kennedy''s office, 3:30 to 4:15 p.m.: Kennedy, Walinsky and David Burke with Philip Heymann of State''s Bureau of Security and Consular Affairs, at Kennedy''s asking, on the prisoners in Vietnam. "Not enough is being done." Heymann: more than eighty held in the North, about twenty-seven by the Liberation Front; talks with it in the South "might result in some degree of recognition of the VC." Kennedy proposes a committee of the families with a lawyer to go to Vietnam, Staughton Lynd as intermediary, the Soviet Embassy, a third party as in the Cuban exchange; Heymann against each. By the memorandum of the conversation.'
+    n: '[[w.palermo-in-his-own-right]], 33–34. To check: memorandum of conversation, "U.S. Prisoners in Hands of North Vietnam and Viet Cong," Apr. 14, 1966, Walinsky Papers, JFK Library (cited by [[w.palermo-in-his-own-right]], 33 n.3). Names: Robert Kennedy, Walinsky, Heymann, Lynd.'
+    src:
+      c: d0e95e9c
+      rows:
+        - 'w.palermo-in-his-own-right 33–34: all'
+        - 'via w.palermo-in-his-own-right 33 n.3: all'
+    tags: [name:kennedy-robert-f, name:walinsky-adam, name:heymann-philip-b, name:lynd-staughton]
   - id: cal.1966-04-15.opinion
     when: Apr. 15
     date: '1966-04-15'
@@ -156,6 +650,18 @@ entries:
     also: [economy]
     c: 'Gallup, Feb. 10–15: one''s own federal income tax: too high 52 percent, about right 39, too low under 1.'
     n: '[[w.gallup-poll]], III, 2000.'
+  - id: cal.1966-04-15.vietnam
+    when: Apr. 15
+    date: '1966-04-15'
+    thread: vietnam
+    c: 'McNaughton''s first rough draft of Course B-P, "maintain present course but accept ''soft'' compromise": diplomatic probing for a settlement while the military pressure rises.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 292. To check: McNaughton, "Course B-P," first rough draft, Apr. 15, 1966, Warnke Papers, McNaughton Files, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 292 n.69). See [[cal.1966-04-05.vietnam-2]]. Names: McNaughton.'
+    src:
+      c: 9ab39079
+      rows:
+        - 'w.gibbons-u-s-government-and IV, 292: all'
+        - 'via w.gibbons-u-s-government-and IV, 292 n.69a: all'
+    tags: [name:mcnaughton-john-t]
   - id: cal.1966-04-16.middle-east
     when: Apr. 16
     date: '1966-04-16'
@@ -163,6 +669,31 @@ entries:
     c: Iraq. Abdul Rahman Aref, brother of Abdul Salam Arif, President. Johnson's congratulations.
     n: '[FRUS 1964–68, XXI, doc. 180](https://history.state.gov/historicaldocuments/frus1964-68v21/d180). Check: the message. See [[cal.1966-04-13.middle-east]]. Names: Aref, Arif, Johnson.'
     tags: [name:aref-abdul-rahman-muhammad, name:arif-abdul-salam-muhammad, name:johnson-lyndon-b]
+  - id: cal.1966-04-16.vietnam-struggle
+    when: Apr. 16
+    date: '1966-04-16'
+    thread: vietnam-struggle
+    c: 'Lodge, 4033, after the Congress: no campaign against Đà Nẵng and Huế, but "clever police-type" steps "to shrink, whittle and subdivide" the leaders; Thi a post in the government, away from I Corps; "little or no change in the Directorate"; a strong pro-government party before the year''s end.'
+    n: '[FRUS 1964–68, IV, doc. 123](https://history.state.gov/historicaldocuments/frus1964-68v04/d123). [[w.gibbons-u-s-government-and]], IV, 295. Made public: FRUS 1964–68, IV (1998). See [[cal.1966-04-12.vietnam-struggle]]. Names: Lodge, Nguyễn Chánh Thi.'
+    src:
+      c: 77a4d273
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v04/d123: all'
+        - 'w.gibbons-u-s-government-and IV, 295: all'
+        - 'via w.gibbons-u-s-government-and IV, 295 n.76: all'
+    tags: [name:lodge-henry-cabot, name:nguyen-chanh-thi]
+  - id: cal.1966-04-16.vietnam
+    when: Apr. 16
+    date: '1966-04-16'
+    thread: vietnam
+    c: 'Three papers for the review, apparently for its meeting: Carver''s "How We Should Move" and Unger''s "Scenario," the commitment contingent on South Vietnam''s own effort, "the Eisenhower position"; McNaughton''s "Politics in Vietnam: A ''Worst'' Outcome": if neutralists take power and seek a coalition, "the United States has little choice but to get out of Vietnam."'
+    n: '[[w.gibbons-u-s-government-and]], IV, 296–97. To check: Carver, "How We Should Move"; Unger, "Scenario"; McNaughton, "Politics in Vietnam: A ''Worst'' Outcome," Apr. 16, 1966, Warnke Papers, McNaughton Files, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 296 n.82). See [[cal.1966-04-09.vietnam-2]]. Names: Carver, Unger, McNaughton.'
+    src:
+      c: 3b83ca9d
+      rows:
+        - 'w.gibbons-u-s-government-and IV, 296–97: all'
+        - 'via w.gibbons-u-s-government-and IV, 296 n.82: all'
+    tags: [name:carver-george-a-jr, name:unger-leonard, name:mcnaughton-john-t]
   - id: cal.1966-04-17.opinion
     when: Apr. 17
     date: '1966-04-17'
@@ -175,8 +706,28 @@ entries:
     date: '1966-04-17'
     thread: europe-and-the-alliance-france
     c: 'Bonn. McCloy with Erhard, Schröder, von Hassel, Westrick and Carstens, an hour and a half, on the French troops in Germany. Erhard: a firm position toward de Gaulle, "if need be, hard"; the moment like Munich, 1938. McCloy: the President and Rusk will support any position the Federal Republic takes. Johnson had changed McCloy''s instructions, softer than State''s, on Bator''s telegram to the Ranch of Apr. 11.'
-    n: '[FRUS 1964–68, XIII, doc. 156](https://history.state.gov/historicaldocuments/frus1964-68v13/d156). [[w.schwartz-lyndon-johnson-and-europe]], 107–08 (the instructions changed, by Bator''s papers). See [[cal.1966-04-04.europe-and-the-alliance-france]]. Names: McCloy, Erhard, Schröder, von Hassel, Westrick, Carstens, de Gaulle, Rusk, Bator, Johnson.'
+    n: '[FRUS 1964–68, XIII, doc. 156](https://history.state.gov/historicaldocuments/frus1964-68v13/d156). [[w.schwartz-lyndon-johnson-and-europe]], 107–08 (the instructions changed, by Bator''s papers). To check: Bator to Johnson, telegram, Apr. 11, 1966, Bator Papers, LBJ Library (cited by [[w.schwartz-lyndon-johnson-and-europe]], 108 n.67). See [[cal.1966-04-04.europe-and-the-alliance-france]]. Names: McCloy, Erhard, Schröder, von Hassel, Westrick, Carstens, de Gaulle, Rusk, Bator, Johnson.'
+    src:
+      c: 82800e7c
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v13/d156: all'
+        - 'w.schwartz-lyndon-johnson-and-europe 108: B-F'
+        - 'w.schwartz-lyndon-johnson-and-europe 107: F'
+        - 'via w.schwartz-lyndon-johnson-and-europe 108 n.67: F'
+        - 'via w.schwartz-lyndon-johnson-and-europe 108 n.68: B-E'
     tags: [name:mccloy-john-j, name:erhard-ludwig, name:schroder-gerhard, name:von-hassel-kai-uwe, name:westrick-ludger, name:carstens-karl, name:de-gaulle-charles, name:rusk-dean, name:bator-francis-m, name:johnson-lyndon-b]
+  - id: cal.1966-04-17.vietnam-congress
+    when: Apr. 17
+    date: '1966-04-17'
+    thread: vietnam-congress
+    c: 'Stennis, on ABC''s *Issues and Answers*: for the war and a stronger military effort, but if a freely elected government of South Vietnam asked the United States to leave, it would have to.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 303. Check: the program''s day (the *New York Times* reported it Apr. 18). Names: Stennis.'
+    src:
+      c: aae6c4f5
+      rows:
+        - 'w.gibbons-u-s-government-and IV, 303: all'
+        - 'via w.gibbons-u-s-government-and IV, 303 n.99: all'
+    tags: [name:stennis-john-c]
   - id: cal.1966-04-18.court
     when: Apr. 18
     date: '1966-04-18'
@@ -187,8 +738,15 @@ entries:
     when: Apr. 18
     date: '1966-04-18'
     thread: vietnam-congress
-    c: 'Mansfield in the Senate, on the "inner conflicts" in South Vietnam: a new effort to negotiate, perhaps a conference called by Japan, Burma or another Asian nation, in the region, among the United States, North Vietnam, China and "such elements in South Vietnam as may be essential." State, with the White House''s approval, welcomes it; the Saigon government to be South Vietnam''s sole official representative.'
-    n: '[[w.gibbons-u-s-government-and]], IV, 304–05. To check: 112 Cong. Rec. 8223–25 (1966); *New York Times*, Apr. 20, 1966. Names: Mansfield.'
+    c: 'Mansfield in the Senate, on the "inner conflicts" in South Vietnam: a new effort to negotiate, perhaps a peace table in Japan, Burma or another Asian setting, among the United States, North Vietnam, China and "such elements in South Vietnam as may be essential." State, with the White House''s approval, welcomes it; the Saigon government to be South Vietnam''s sole official representative.'
+    n: '[112 Cong. Rec. 8223–25](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt6/pdf/GPO-CRECB-1966-pt6-11-2.pdf#page=12) (Apr. 18, 1966) (the speech: the place, Japan or Burma; the parties). [[w.gibbons-u-s-government-and]], IV, 304–05. To check: *New York Times*, Apr. 20, 1966. The Record has "no better place to locate a peace table of this kind than in Japan or Burma or some other proximate and appropriate Asian setting" (8224), not who would call it. Names: Mansfield.'
+    src:
+      c: 1978b7b1
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt6/pdf/GPO-CRECB-1966-pt6-11-2.pdf#page=12: A'
+        - 'w.gibbons-u-s-government-and IV, 304–05: all'
+        - 'via w.gibbons-u-s-government-and IV, 305 n.104: A'
+        - 'via w.gibbons-u-s-government-and IV, 305 n.105: B-C'
     tags: [name:mansfield-mike]
   - id: cal.1966-04-19.middle-east
     when: Apr. 19–22
@@ -206,6 +764,43 @@ entries:
     c: The joint resolution on food relief for India signed, [80 Stat. 131](https://www.govinfo.gov/content/pkg/STATUTE-80/pdf/STATUTE-80-Pg131.pdf).
     n: Statement by the President Upon Signing Resolution Supporting U.S. Participation in Food Relief for India, [1966 Pub. Papers 425](https://www.govinfo.gov/content/pkg/PPP-1966-book1/pdf/PPP-1966-book1.pdf#page=501) (Apr. 19, 1966). See [[cal.1966-03-28.india-and-china]].
     tags: [name:johnson-lyndon-b]
+  - id: cal.1966-04-19.vietnam
+    when: Apr. 19
+    date: '1966-04-19'
+    thread: vietnam
+    c: 'Komer, back from reviewing pacification, in a "special annex" for Johnson alone: "I think we have a Lodge problem on our hands"; Lodge distrusts the Buddhists and fears a neutralist regime; Porter, privately, unsure Lodge has the stomach for it: "start thinking now about a replacement."'
+    n: '[[w.gibbons-u-s-government-and]], IV, 295 n.77. Names: Komer, Johnson, Lodge, Porter.'
+    src:
+      c: 62558ec3
+      rows:
+        - 'w.gibbons-u-s-government-and IV, 295: all'
+        - 'via w.gibbons-u-s-government-and IV, 295 n.77a: all'
+    tags: [name:komer-robert-w, name:johnson-lyndon-b, name:lodge-henry-cabot, name:porter-william-j]
+  - id: cal.1966-04-19.vietnam-congress
+    when: Apr. 19
+    date: '1966-04-19'
+    thread: vietnam-congress
+    c: 'Rusk before the Foreign Relations Committee on the foreign aid bill. Fulbright, on aid and commitments: his testimony of January "frightened me more than any other single thing which happened recently"; "We no longer have a declaration of war in order to wage a major war ... we ease into these situations."'
+    n: '[[w.gibbons-u-s-government-and]], IV, 414–15. To check: Senate Comm. on Foreign Relations, *Foreign Assistance, 1966*, hearings on S. 2859 and S. 2861, p. 15, 89th Cong., 2d Sess. (cited by [[w.gibbons-u-s-government-and]], IV, 414 n.106). Names: Rusk, Fulbright.'
+    src:
+      c: bc177ff0
+      rows:
+        - 'w.gibbons-u-s-government-and IV, 414–15: all'
+        - 'via w.gibbons-u-s-government-and IV, 414 n.106: all'
+    tags: [name:rusk-dean, name:fulbright-j-william]
+  - id: cal.1966-04-19.robert-kennedy
+    when: Apr. 19
+    date: '1966-04-19'
+    thread: robert-kennedy
+    also: [vietnam-prisoners]
+    c: 'Robert Kennedy to Rusk, after the talk with Heymann: "not enough is being done for these men, or their families"; "we neglect a possible course of action because we think it will not work"; no approach made through the Soviet Union, no non-governmental third party sought. He asks to be kept informed.'
+    n: '[[w.palermo-in-his-own-right]], 34. To check: Robert Kennedy to Rusk, Apr. 19, 1966, Walinsky Papers, JFK Library (cited by [[w.palermo-in-his-own-right]], 34 n.7). See [[cal.1966-04-14.robert-kennedy]]. Reply: [[cal.1966-05-13.vietnam-prisoners]]. Names: Robert Kennedy, Rusk, Heymann.'
+    src:
+      c: 769c84d7
+      rows:
+        - 'w.palermo-in-his-own-right 34: all'
+        - 'via w.palermo-in-his-own-right 34 n.7: all'
+    tags: [name:kennedy-robert-f, name:rusk-dean, name:heymann-philip-b]
   - id: cal.1966-04-20.court
     when: Apr. 20
     date: '1966-04-20'
@@ -228,13 +823,68 @@ entries:
     thread: civil-rights-the-executive
     c: 'Reorganization Plan 1 of 1966: the House refuses to disapprove it, [163–220](https://voteview.com/rollcall/RH0890240). The plan stands.'
     n: 'Check: the Record''s page. See [[cal.1966-02-10.civil-rights-the-executive]].'
+  - id: cal.1966-04-20.vietnam-struggle
+    when: Apr. 20
+    date: '1966-04-20'
+    thread: vietnam-struggle
+    c: 'State to Saigon, 3144, drafted by Miller: the "current breather" strained by fighting in I Corps, Saigon''s doubts about elections, a tortuous procedure for the electoral law; if the "fragile agreement" is not to come apart, the government must move fast, the Mission helping behind the scenes.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 295. To check: Washington to Saigon 3144, Apr. 20, 1966 (so cited, 1967), NSF Country File, Vietnam, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 295 n.78). Check: Gibbons dates the cable 1967. See [[cal.1966-04-16.vietnam-struggle]].'
+    src:
+      c: c713b5d2
+      rows:
+        - 'w.gibbons-u-s-government-and IV, 295: all'
+        - 'via w.gibbons-u-s-government-and IV, 295 n.78: all'
+  - id: cal.1966-04-20.vietnam-congress
+    when: Apr. 20
+    date: '1966-04-20'
+    thread: vietnam-congress
+    c: 'Pell in the Senate, with Mansfield for a conference in Asia among the parties: "if conditions should arise that a government comes to power which asks us to leave, let us have the good sense to follow that advice," not prop up a government or "organize a counter coup."'
+    n: '[112 Cong. Rec. 8611](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt7/pdf/GPO-CRECB-1966-pt7-2-2.pdf#page=49) (Senate, Apr. 20, 1966). [[w.gibbons-u-s-government-and]], IV, 305. See [[cal.1966-04-18.vietnam-congress]]. Names: Pell, Mansfield.'
+    src:
+      c: 040d05cc
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt7/pdf/GPO-CRECB-1966-pt7-2-2.pdf#page=49: all'
+        - 'w.gibbons-u-s-government-and IV, 305: all'
+        - 'via w.gibbons-u-s-government-and IV, 305 n.106: all'
+    tags: [name:pell-claiborne-d, name:mansfield-mike]
   - id: cal.1966-04-21.vietnam
     when: Apr. 21
     date: '1966-04-21'
     thread: vietnam
     c: 'Fulbright at the Johns Hopkins School of Advanced International Studies, the first of three Christian A. Herter lectures: the "arrogance of power," great nations taking power for virtue; the United States showing the signs. The others Apr. 27 and 28 (Check). Published as *The Arrogance of Power*.'
-    n: '[Cong. Rec., Senate, Apr. 25, 1966, 8869](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt7/pdf/GPO-CRECB-1966-pt7-4-2.pdf#page=20) (the first lecture). [[w.gibbons-u-s-government-and]], IV, 306–09. To check: [[w.fulbright-arrogance-of-power]]. See [[cal.1966-02-04.vietnam]]. Names: Fulbright.'
+    n: '[Cong. Rec., Senate, Apr. 25, 1966, 8869](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt7/pdf/GPO-CRECB-1966-pt7-4-2.pdf#page=20) (the first lecture). [[w.gibbons-u-s-government-and]], IV, 306–09. [[w.mann-grand-delusion]], 506–08 (the lectures). To check: [[w.fulbright-arrogance-of-power]]. See [[cal.1966-02-04.vietnam]]. Names: Fulbright.'
+    src:
+      c: fd36840e
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt7/pdf/GPO-CRECB-1966-pt7-4-2.pdf#page=20: all'
+        - 'w.gibbons-u-s-government-and IV, 306–09: A-B, D'
+        - 'w.mann-grand-delusion 506–08: A-B, D'
     tags: [name:fulbright-j-william]
+  - id: cal.1966-04-21.vietnam-2
+    when: Apr. 21
+    date: '1966-04-21'
+    thread: vietnam
+    c: 'Ball, "Cutting our Losses," option C: the South Vietnamese divisions "too old, too deep, and too fundamental." Make it plain that the United States has met its obligations and "it is the South Vietnamese people who have failed, not us"; pending a stable government, no more forces, fewer air attacks on the North, the ground war at the minimum. To fight on with "the present mushy political base" is "both dangerous and futile."'
+    n: '[[w.gibbons-u-s-government-and]], IV, 293–94. To check: Ball, "Cutting our Losses," Apr. 21, 1966, Warnke Papers, McNaughton Files, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 293 n.70). See [[cal.1966-04-09.vietnam-2]]. Names: Ball.'
+    src:
+      c: fb37cba2
+      rows:
+        - 'w.gibbons-u-s-government-and IV, 293–94: all'
+        - 'via w.gibbons-u-s-government-and IV, 293 n.70: all'
+    tags: [name:ball-george-w]
+  - id: cal.1966-04-21.vietnam-3
+    when: Apr. 21
+    date: '1966-04-21'
+    thread: vietnam
+    c: 'Rostow to Johnson, "Vietnam—The Critical Issues": the enemy hopes American politics cannot stand a protracted war, "playing us as they did the French in 1953." Force a decision in Hanoi now: hurt it around Hanoi and Haiphong, block the roads from Laos, raise attrition until main forces disintegrate. A speech on the theme "We are all being tested by this crisis."'
+    n: '[FRUS 1964–68, IV, doc. 125](https://history.state.gov/historicaldocuments/frus1964-68v04/d125). [[w.gibbons-u-s-government-and]], IV, 297–98. Made public: FRUS 1964–68, IV (1998). Names: Rostow, Johnson.'
+    src:
+      c: 0e3d5255
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v04/d125: all'
+        - 'w.gibbons-u-s-government-and IV, 297–98: all'
+        - 'via w.gibbons-u-s-government-and IV, 297 n.83: all'
+    tags: [name:rostow-walt-w, name:johnson-lyndon-b]
   - id: cal.1966-04-22.opinion
     when: Apr. 22
     date: '1966-04-22'
@@ -261,7 +911,13 @@ entries:
     date: '1966-04-24'
     thread: vietnam
     c: 'Rusk to Johnson, with the report of Ball''s working group on the basic choices: A, go on as now; B, go on, perhaps sending American troops more slowly and encouraging Saigon''s contacts with the Viet Cong; C, cut losses, on the premise of a collapse in Saigon. Rusk and McNamara against C; Rusk for A, and for probing the Viet Cong for divisions.'
-    n: 'FRUS 1964–68, IV, doc. [126](https://history.state.gov/historicaldocuments/frus1964-68v04/d126). Made public: FRUS 1964–68, IV (1998). [[w.gibbons-u-s-government-and]], IV, 289–300 (the working group''s papers and report). To check: [[w.dileo-george-ball-vietnam-and]]; [[w.bill-george-ball]]; [[w.barrett-uncertain-warriors]]. See [[cal.1966-04-02.vietnam]]. Names: Rusk, McNamara, Ball, Johnson. Check: Gibbons dates the report and Rusk''s cover memorandum Apr. 25 (IV, 298).'
+    n: 'FRUS 1964–68, IV, doc. [126](https://history.state.gov/historicaldocuments/frus1964-68v04/d126). Made public: FRUS 1964–68, IV (1998). [[w.gibbons-u-s-government-and]], IV, 289–300 (the working group''s papers and report). Gibbons dates the report and Rusk''s cover memorandum Apr. 25 (IV, 298); FRUS prints the memorandum dated Apr. 24, its attachment Apr. 25. To check: [[w.dileo-george-ball-vietnam-and]]; [[w.bill-george-ball]]. See [[cal.1966-04-02.vietnam]]. Names: Rusk, McNamara, Ball, Johnson.'
+    src:
+      c: 8c9bc56e
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v04/d126: all'
+        - 'w.gibbons-u-s-government-and IV, 289–300: A-C, E'
+        - 'via w.gibbons-u-s-government-and IV, 298 n.85: A-C, E'
     tags: [name:rusk-dean, name:mcnamara-robert-s, name:ball-george-w, name:johnson-lyndon-b]
   - id: cal.1966-04-25.legislatures-hi
     when: Apr. 25
@@ -276,8 +932,49 @@ entries:
     date: '1966-04-25'
     thread: vietnam
     c: 'Johnson with Humphrey, Rusk, McNamara, Ball, William Bundy, Rostow, Raborn, Helms, Komer and Moyers, eighteen minutes, on the working group''s report. By Rostow''s record: "We shall stay on course and explore with Lodge a cautious Track B."'
-    n: '[[w.gibbons-u-s-government-and]], IV, 298, 300. To check: Rostow, Memorandum for the Record, Apr. 25, 1966 (LBJ Library, NSF Country File, Vietnam). See [[cal.1966-04-24.vietnam]]. Names: Johnson, Humphrey, Rusk, McNamara, Ball, William Bundy, Rostow, Raborn, Helms, Komer, Moyers, Lodge.'
+    n: '[FRUS 1964–68, IV, doc. 126](https://history.state.gov/historicaldocuments/frus1964-68v04/d126) n.2 (Rostow''s memorandum for the record, Apr. 26: the meeting at 6:30 p.m. and the decision). [[w.gibbons-u-s-government-and]], IV, 298, 300. Check: Gibbons dates Rostow''s memorandum Apr. 25. See [[cal.1966-04-24.vietnam]]. Names: Johnson, Humphrey, Rusk, McNamara, Ball, William Bundy, Rostow, Raborn, Helms, Komer, Moyers, Lodge.'
+    src:
+      c: 38f3e947
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v04/d126: B'
+        - 'w.gibbons-u-s-government-and IV, 298, 300: all'
+        - 'via w.gibbons-u-s-government-and IV, 300 n.87: B'
     tags: [name:johnson-lyndon-b, name:humphrey-hubert-h, name:rusk-dean, name:mcnamara-robert-s, name:ball-george-w, name:bundy-william, name:rostow-walt-w, name:raborn-william-f-jr, name:helms-richard, name:komer-robert-w, name:moyers-bill, name:lodge-henry-cabot]
+  - id: cal.1966-04-25.vietnam-2
+    when: Apr. 25
+    date: '1966-04-25'
+    thread: vietnam
+    c: State's interdepartmental Political Development Working Group, Unger chairman, Colby of the CIA among its members, first meets, on the constitutional assembly; it meets until December.
+    n: '[[w.gibbons-u-s-government-and]], IV, 300 n.89. Check: Gibbons dates its first meeting Apr. 26 (IV, 411). Names: Unger, Colby.'
+    src:
+      c: 710ad1d0
+      rows:
+        - 'w.gibbons-u-s-government-and IV, 300: all'
+        - 'via w.gibbons-u-s-government-and IV, 300 n.89: all'
+    tags: [name:unger-leonard, name:colby-william-e]
+  - id: cal.1966-04-26.vietnam
+    when: Apr. 26
+    date: '1966-04-26'
+    thread: vietnam
+    c: 'Rusk and McNamara to Lodge, 3212, on the enemy''s growing use of Cambodia: no authority beyond attacking across the border in self-defense; offensive operations might make Cambodia a belligerent, and "the political consequences, foreign and domestic, ... would ... be serious and far-reaching."'
+    n: '[[w.gibbons-u-s-government-and]], IV, 359–60 n.18. To check: Washington to Saigon 3212, Apr. 26, 1966, Department of State, Central File, Pol 27 Viet S (cited by [[w.gibbons-u-s-government-and]], IV, 360 n.18). See [[cal.1966-04-01.vietnam]]. Names: Rusk, McNamara, Lodge.'
+    src:
+      c: a4348746
+      rows:
+        - 'w.gibbons-u-s-government-and IV, 359–60: all'
+        - 'via w.gibbons-u-s-government-and IV, 360 n.18b: all'
+    tags: [name:rusk-dean, name:mcnamara-robert-s, name:lodge-henry-cabot]
+  - id: cal.1966-04-26.vietnam-2
+    when: Apr. 26
+    date: '1966-04-26'
+    thread: vietnam
+    c: 'The Political Development Working Group: "with the exception of some possible role for specific covert activity, the U.S. must make every effort to avoid appearing to be mixing in the elections"; guidelines for the Embassy.'
+    n: '[[w.gibbons-u-s-government-and]], IV, 411. To check: Summary Record of the Meeting on Apr. 26, 1966 (Political Development Working Group), Department of State, Lot File 70 D 102 (cited by [[w.gibbons-u-s-government-and]], IV, 411 n.88). See [[cal.1966-04-25.vietnam-2]].'
+    src:
+      c: e73b22ff
+      rows:
+        - 'w.gibbons-u-s-government-and IV, 411: all'
+        - 'via w.gibbons-u-s-government-and IV, 411 n.88: all'
   - id: cal.1966-04-27.civil-rights-the-executive
     when: Apr. 27
     date: '1966-04-27'
@@ -313,14 +1010,85 @@ entries:
     thread: cities-and-housing
     c: Rent supplements. The Senate keeps the $12 million in the second supplemental appropriation, its committee's amendment striking it lost, [45–46](https://voteview.com/rollcall/RS0890293); $20 million refused, [18–69](https://voteview.com/rollcall/RS0890292); the bill passed, [72–12](https://voteview.com/rollcall/RS0890295).
     n: See [[cal.1966-03-29.cities-and-housing]].
+  - id: cal.1966-04-27.robert-kennedy
+    when: Apr. 27
+    date: '1966-04-27'
+    thread: robert-kennedy
+    also: [vietnam]
+    c: 'Robert Kennedy in the Senate, on the announced "no sanctuary" for planes attacking American aircraft from bases in China: a warning against escalation. "Even accepting our basic policy, it appears to me neither prudent nor wise to undertake risks of a still wider war." That evening, the same on CBS''s and NBC''s news.'
+    n: 'Kennedy''s statement, [112 Cong. Rec. 9041–42 (1966)](https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt7/pdf/GPO-CRECB-1966-pt7-6-1.pdf#page=26) (Senate, Apr. 27, 1966). [[w.schlesinger-robert-kennedy-and-his]], 739 (A); [[w.palermo-in-his-own-right]], 34–35. Names: Robert Kennedy.'
+    src:
+      c: 719fb39d
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1966-pt7/pdf/GPO-CRECB-1966-pt7-6-1.pdf#page=26: A-B'
+        - 'w.palermo-in-his-own-right 34–35: all'
+        - 'via w.palermo-in-his-own-right 35 n.9: A-B'
+        - 'w.schlesinger-robert-kennedy-and-his 739: A'
+    tags: [name:kennedy-robert-f]
+  - id: cal.1966-04-27.vietnam-struggle
+    when: Apr. 27
+    date: '1966-04-27'
+    thread: vietnam-struggle
+    c: 'State to Lodge, 3230, asking comment on Miller''s paper "Political Tactics in Vietnam Over Next Few Months": the government to stay, or be reappointed by the assembly, until a government forms under the constitution; anti-Communist parties or fronts to be encouraged before the elections, lest the Viet Cong gain "a foothold through apparently respectable groups."'
+    n: '[[w.gibbons-u-s-government-and]], IV, 300. To check: Washington to Saigon 3230, Apr. 27, 1966, with Miller''s paper, "Political Tactics in Vietnam Over Next Few Months", Department of State, Central File, Pol 27 Viet S (cited by [[w.gibbons-u-s-government-and]], IV, 300 n.88). Names: Lodge.'
+    src:
+      c: 108fcc55
+      rows:
+        - 'w.gibbons-u-s-government-and IV, 300: all'
+        - 'via w.gibbons-u-s-government-and IV, 300 n.88: all'
+    tags: [name:lodge-henry-cabot]
+  - id: cal.1966-04-27.vietnam-struggle-2
+    when: Apr. 27
+    date: '1966-04-27'
+    thread: vietnam-struggle
+    c: 'State to Saigon, 3229, drafted by Miller, on Lodge''s report of the Directorate: the military seem bent on controlling the election, "tame" candidates only; the Directorate must share the decisions with the electoral council; the United States "cannot let domestic and international support for its massive commitment ... be undermined indefinitely."'
+    n: '[[w.gibbons-u-s-government-and]], IV, 300–01. To check: Washington to Saigon 3229, Apr. 27, 1966 (so cited, 1967), NSF Country File, Vietnam, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 301 n.90). Check: Gibbons dates the cable 1967. See [[cal.1966-04-27.vietnam-struggle]]. Names: Lodge.'
+    src:
+      c: 8c031107
+      rows:
+        - 'w.gibbons-u-s-government-and IV, 300–01: all'
+        - 'via w.gibbons-u-s-government-and IV, 301 n.90: all'
+    tags: [name:lodge-henry-cabot]
+  - id: cal.1966-04-27.vietnam
+    when: Apr. 27
+    date: '1966-04-27'
+    thread: vietnam
+    c: 'Taylor to Johnson, "Assessment and Use of Negotiation Blue Chips": talks are not peace, as at Panmunjom; keep the pressure on until a settlement; give up the bombing, the chief chip, only for an equal gain, a cessation of Viet Cong incidents and operations, which can be verified, as infiltration cannot.'
+    n: '[FRUS 1964–68, IV, doc. 127](https://history.state.gov/historicaldocuments/frus1964-68v04/d127). [[w.gibbons-u-s-government-and]], IV, 369 n.56 (the trade). Made public: FRUS 1964–68, IV (1998). Names: Taylor, Johnson.'
+    src:
+      c: d24df452
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v04/d127: all'
+        - 'w.gibbons-u-s-government-and IV, 369: C'
+        - 'via w.gibbons-u-s-government-and IV, 369 n.56j: all'
+    tags: [name:taylor-maxwell, name:johnson-lyndon-b]
   - id: cal.1966-04-28.open-housing
     when: Apr. 28
     date: '1966-04-28'
     thread: open-housing
     also: [civil-rights-the-executive]
     c: 'Message on civil rights. The first federal law against discrimination in the sale and rental of housing, by owners, brokers, and lenders. Federal crimes for violence against those exercising their rights: voting, schooling, housing, work, jury service, travel. Juries in federal and State courts chosen without discrimination. The Attorney General to sue against segregated schools and public facilities without waiting for a complaint. Enforcement power for the Equal Employment Opportunity Commission. 100 more FBI agents.'
-    n: 'Special Message to the Congress Proposing Further Legislation To Strengthen Civil Rights, [1966 Pub. Papers 461](https://www.govinfo.gov/content/pkg/PPP-1966-book1/pdf/PPP-1966-book1.pdf#page=537) (Apr. 28, 1966). [[w.dallek-flawed-giant]], 325–26. To check: [[w.graham-civil-rights-era]]; [[w.kotz-judgment-days]]; [[w.bonastia-knocking-on-the-door]]; [[w.mackenzie-liberal-hour]]; [[w.zelizer-fierce-urgency-of-now]]. Names: Johnson.'
+    n: 'Special Message to the Congress Proposing Further Legislation To Strengthen Civil Rights, [1966 Pub. Papers 461](https://www.govinfo.gov/content/pkg/PPP-1966-book1/pdf/PPP-1966-book1.pdf#page=537) (Apr. 28, 1966). [[w.dallek-flawed-giant]], 325–26 (the message; housing). To check: [[w.graham-civil-rights-era]]; [[w.kotz-judgment-days]]; [[w.bonastia-knocking-on-the-door]]; [[w.mackenzie-liberal-hour]]; [[w.zelizer-fierce-urgency-of-now]]. Names: Johnson.'
+    src:
+      c: c3fd3e42
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1966-book1/pdf/PPP-1966-book1.pdf#page=537: all'
+        - 'w.dallek-flawed-giant 325–26: A-B'
     tags: [name:johnson-lyndon-b]
+  - id: cal.1966-04-28.robert-kennedy
+    when: Apr. 28
+    date: '1966-04-28'
+    thread: robert-kennedy
+    also: [vietnam]
+    c: 'Kintner to Johnson, personal and confidential, on Robert Kennedy''s statement of Apr. 27 and his appearances on the evening news: "so uncomplicated" it will "appeal to a great many people, as well as to the New York Times"; Johnson painted as reckless with the armed forces. The answer to come from "someone who is obviously not a part of the Administration, who has a liberal stature, and is on the Eastern Seaboard," Javits perhaps; Moyers to go on television.'
+    n: '[[w.palermo-in-his-own-right]], 35–36. To check: Kintner to Johnson, Apr. 28, 1966, WHCF, LBJ Library (cited by [[w.palermo-in-his-own-right]], 36 n.12). See [[cal.1966-04-27.robert-kennedy]]. Names: Kintner, Johnson, Robert Kennedy, Javits, Moyers.'
+    src:
+      c: cce775de
+      rows:
+        - 'w.palermo-in-his-own-right 35–36: all'
+        - 'via w.palermo-in-his-own-right 36 n.12: all'
+        - 'via w.palermo-in-his-own-right 36 n.13: C'
+    tags: [name:kintner-robert-e, name:johnson-lyndon-b, name:kennedy-robert-f, name:javits-jacob-k, name:moyers-bill]
   - id: cal.1966-04-29.opinion
     when: Apr. 29
     date: '1966-04-29'
@@ -352,3 +1120,38 @@ entries:
     c: Massachusetts. The State Board of Education finds the Boston School Committee's plan of December under the Racial Imbalance Act inadequate and withholds State aid. A revised plan rejected June 28. The Committee sues the Board Sept. 26, against the decision and the Act.
     n: '*School Committee of Boston v. Board of Education*, [352 Mass. 693](https://static.case.law/mass/352/case-pdfs/0693-01.pdf), 696 (1967). [Wikipedia, "Boston desegregation busing crisis"](https://en.wikipedia.org/wiki/Boston_desegregation_busing_crisis). Check the dates. To check: [[w.formisano-boston-against-busing]]; [[w.lukas-common-ground]]. See [[cal.1965-08-18.desegregation-schools-ma]].'
     tags: [state:ma, city:boston]
+  - id: cal.1966-04.vietnam-congress
+    when: Apr.
+    date: 1966-04
+    thread: vietnam-congress
+    also: [republican-party-congress]
+    c: 'Cooper: any obligation to the government in Saigon long since fulfilled; foolish to fight for a people who will not fight for themselves.'
+    n: '[[w.johns-vietnams-second-front]], 111. To check: Press Release, Apr. 18–22, 1966, Senatorial Series II, box 597, John Sherman Cooper Papers (cited by [[w.johns-vietnams-second-front]], 111 n.133). Check: the day. Names: Cooper.'
+    src:
+      c: 812f7977
+      rows:
+        - 'w.johns-vietnams-second-front 111: all'
+        - 'via w.johns-vietnams-second-front 111 n.133: all'
+    tags: [name:cooper-john-sherman]
+  - id: cal.1966-04.republican-party
+    when: Apr.
+    date: 1966-04
+    thread: republican-party
+    c: Javits tours upstate New York, "inventorying" his support against Rockefeller's renomination. He does not run.
+    n: '[[w.hess-republican-establishment]], 316–17. Names: Javits, Rockefeller.'
+    src:
+      c: b58a200a
+      rows:
+        - 'w.hess-republican-establishment 316–17: all'
+    tags: [name:javits-jacob-k, name:rockefeller-nelson, state:ny]
+  - id: cal.1966-04-30.congress
+    when: Apr. 30
+    date: '1966-04-30'
+    thread: congress
+    c: Patrick McNamara, Democrat of Michigan, dies, a Senator.
+    n: '[[w.hess-republican-establishment]], 122. Names: McNamara.'
+    src:
+      c: 35762cf5
+      rows:
+        - 'w.hess-republican-establishment 122: all'
+    tags: [name:mcnamara-patrick-v, state:mi]

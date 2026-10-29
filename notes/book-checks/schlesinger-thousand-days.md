@@ -76,3 +76,105 @@ Points to watch:
   nearly word for word ("There's no problem here — we can just station Father McHugh ..."). Check in the entry on the day.
 - Apr. 18, 1961 (lunch with Reston): the remark "Bobby should be in CIA" is in both books (*Thousand Days*, 276; *Robert
   Kennedy*, 452, "while the Cubans were still fighting on the beachhead"); they agree.
+
+## Second pass, Oct. 29, 2026 (the rules of Oct. 28: claim maps, cited records, Passed over)
+
+Patch `inbox/2026-10-29-backfill-thousand-days-vantage.yaml` (patch `backfill-thousand-days-vantage`, with Johnson's).
+
+**Maps.** Every calendar entry citing the book with a pinpoint was reread against its page (`./bib claims show`) and
+given a claim map (`src`): 102 entries edited, 76 of the maps finer than the whole entry; other works' stored rows
+kept. Parentheticals were turned into letters; the card moved out of "To check" where the page bears the entry
+(`cal.1961-04-26.laos`: 337, the reports of Pathet Lao attacks of Apr. 26). `cal.1961-04-14.cuba`'s note rewritten:
+FRUS X doc. 101 (the memorandum) first; the book, 265; Kennedy's notation on the memorandum to check.
+
+**Cited records** (`sources/cited-records/schlesinger-thousand-days-1965.yaml`). The book has a handful of footnotes,
+most to the press or to books: logged only where a note gives the record behind an entry's claim. Two, neither found:
+Kennedy's notation on Schlesinger's aide-mémoire on Miró, Apr. 14, 1961 (265 n., the unnumbered note, key `star`;
+FRUS prints the Department's copy without it); Nixon, "Cuba, Castro and John F. Kennedy," *Reader's Digest*, Nov. 1964
+(337 n.), Nixon's account of Apr. 20, 1961. Not logged, being no entry's ground: Baughman (3), Dulles in *Harper's*
+(247), Haynes Johnson (232, 250, 277), *The Militant* (286), McConnell (635).
+
+**New entries (17)**, the informal record the book dates: Rusk called out of the Rockefeller trustees, Dec. 4, 1960;
+Berle's Task Force, Feb. 16, 1961; Laos: the conference of Mar. 9 (FRUS XXIV doc. 25), Rusk and Gromyko, Mar. 18 (doc.
+34), the lunch with Lippmann, Mar. 20, the meeting of Mar. 21 (doc. 36), the MAAG, Apr. 20, the 479th NSC, Apr. 27
+(doc. 63; X doc. 184; Rostow's account); the Bay of Pigs: the meeting of Apr. 6 ("quasi-minimum basis"), Nixon with
+Kennedy, Apr. 20 (Nixon's account, as quoted); Jagan, Oct. 25, 1961 (FRUS XII doc. 259); the Cabinet Room on Portugal
+and the Azores, July 18, 1962; Kennedy to Schlesinger on the Alsop–Bartlett piece, Dec. 1, 1962; the 1960 campaign:
+Cadillac Square, Sept. 5, the Liberal Party, Sept. 14 (APP's texts to check); the Cabinet doodles, Oct. 29, 1963; and,
+with Johnson's book, the news conference of Oct. 31, 1963 (1963 Pub. Papers 826).
+
+## Passed over
+
+How the list was made: every day-dated mention in the text (a regular expression over the PDF's text, 247 mentions),
+each held against the calendar's days and searched by its words; checked by hand. Not listed: events the calendar
+holds (most of them), citations of publications, dates used as terms or deadlines ("set for April 17"), repeats of a
+date already ruled, and month-only mentions. Reasons as the brief gives them; "lead" also in the leads below.
+
+| Page | Date | Event | Why |
+|---|---|---|---|
+| 33 | 1960-07-09 | Schlesinger reaches Los Angeles | minor (private) |
+| 70 | 1960-10-11 | Lunch with Kennedy on his staff | minor (private) |
+| 72–73 | 1960-10-20, 23 | Kennedy's remarks to Schlesinger | minor (private) |
+| 141 | 1960-12-07 | Rusk dines at Bowles's house | minor (private, before office) |
+| 157, 195 | 1960-11-18 | Kennedy's letter to Sharon proposing more task forces | lead |
+| 221 | 1959 | Bonsal's requests to see Castro | out of span |
+| 222 | 1960-03-17 | Dorticós rejects the last American overture | lead |
+| 243 | 1961-03-14 | The Chiefs examine the Zapata plan | lead (FRUS X) |
+| 267 | 1961-04-14 | Hawkins's evaluation reaches the White House | lead (FRUS X doc. 98 prints the cable) |
+| 269 | 1961-04-10–14 | The Brigade moves to Puerto Cabezas and boards | below the calendar's level |
+| 286 | 1961-04-21, 22 | Fair Play for Cuba rallies, New York and San Francisco | lead |
+| 292, 339 | 1961-05-03 | Kennedy's remarks to Schlesinger | minor (private) |
+| 330 | 1961-02-19 | The King of Laos's statement | lead |
+| 331 | 1961-03-15 | Press conference on Laos | lead (Public Papers) |
+| 334 | 1961-03-27 | SEATO at Bangkok; troop pledges | lead |
+| 334 | 1961-04-01 | Khrushchev ready to consider the British proposal | lead |
+| 336 | 1961-04-19–20 | Souvanna's visit to Washington cancelled | lead |
+| 337 | 1961-04-24 | The co-chairmen's appeal for a cease-fire | lead (FRUS XXIV doc. 59) |
+| 343 | 1961-05-12 | Khrushchev's reply reopening Vienna | lead |
+| 398 | 1961-08-24 | Soviet note on the air corridors | lead |
+| 454 | 1961-06-21 | Khrushchev on testing | lead |
+| 493 | 1962-01-12 | Bundy and Schlesinger on State's draft | minor |
+| 496 | 1962-02-27 | Kennedy tells Macmillan of the address on testing | lead |
+| 516 | 1962-06-12 | The Laos coalition formed (the calendar: June 23) | lead (Check) |
+| 524 | 1961-11-05–07 | Nehru in New York and Washington | lead |
+| 529 | 1961-10-23 | Nehru at Bombay | out of the brief |
+| 657 | 1961-02-28, 03-09, 03-16, 04-13 | Messages on highways, housing, agriculture, the regulatory agencies | lead (Public Papers) |
+| 772 | 1961-12-15 | Kennedy at Puerto Rico | minor (the trip is in) |
+| 787 | 1962-07-23 | Haya's general strike in Peru | out of the brief |
+| 787 | 1963-08-01 | Schlesinger to Kennedy on Peru | minor |
+| 788 | 1962-03-13 | The Alliance's anniversary address | lead (Public Papers) |
+| 795 | 1962-07-02 | Raúl Castro in Moscow | lead |
+| 799 | 1962-09-13 | Schlesinger to Kennedy on Cuba | minor |
+| 800 | 1962-10-10 | The U-2 flight approved | lead |
+| 808 | 1962-10-19 | Stevenson calls Schlesinger to Washington | lead |
+| 832 | 1962-10-30 | Kennedy to Mrs. Mellon | minor (private) |
+| 839 | 1962-12-21 | Donovan and Castro sign the agreement | lead |
+| 858 | 1962-11-06 | Hawthorne's warning on Skybolt | minor |
+| 859 | 1963-11-15, 20 | Neustadt's Skybolt report; Kennedy to Bundy | lead |
+| 866 | 1963-01-05 | Bohlen with de Gaulle | lead |
+| 886 | 1963-06-03, 21 | John XXIII's death; Paul VI elected | out of the brief |
+| 886 | 1963-07-01–02 | Kennedy in Rome | lead |
+| 904 | 1963-07-02 | Khrushchev at Berlin on the test ban | lead |
+| 905 | 1963-07-05–20, 14 | The Sino-Soviet talks; the Central Committee's letter | out of the brief |
+| 909 | 1963-07-28 | Harriman back in Washington | minor |
+| 914–15 | 1963-07-19, 26; 08-04 | Khrushchev's statements; a rejection of Kennedy's offer | lead |
+| 921 | 1963-03-08 | Khrushchev to the artists | out of the brief |
+| 941 | 1962-09-22 | The Emancipation centennial at the Lincoln Memorial | lead |
+| 943 | 1962-09-26 | Walker's call to Oxford | lead |
+| 963 | 1963-05-18 | Address at Vanderbilt | lead (Public Papers) |
+| 964 | 1963-05-21 | The court orders the University of Alabama to admit | lead |
+| 973 | 1963-11-20 | House Judiciary reports the civil rights bill | lead |
+| 986 | 1963-04-22 | Rusk's speech in New York on Vietnam | lead |
+| 989 | 1963-07-11 | Nolting back in Saigon | minor |
+| 997 | 1963-11-01 | Lodge takes Felt to call on Diệm | lead |
+| 999 | 1963-11-18 | Address at Miami on Cuba | lead (Public Papers) |
+
+## Leads (second pass)
+
+- FRUS X doc. 98 prints Hawkins's cable of Apr. 13, 1961 (the "fanatical urge" evaluation Kennedy saw Apr. 14): an
+  entry of Apr. 14 wants the White House's receipt dated.
+- The Laos crisis, Feb.–Apr. 1961, wants its public record: the King's statement (Feb. 19), the press conference of
+  Mar. 15, SEATO at Bangkok (Mar. 27), the co-chairmen's appeal (Apr. 24; FRUS XXIV doc. 59, *Current Documents* 1961,
+  999–1001), the meeting with the congressional leaders after the NSC of Apr. 27 (FRUS XXIV doc. 65).
+- Nixon's article, *Reader's Digest*, Nov. 1964: read it for Apr. 20, 1961.
+- The 1960 campaign speeches (Cadillac Square; the Liberal Party) are on APP, which the series may link and not read.

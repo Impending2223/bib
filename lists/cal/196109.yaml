@@ -8,7 +8,14 @@ entries:
     date: '1961-09-01'
     thread: testing
     c: The Soviet Union ends the three-year moratorium with an atmospheric test. The Belgrade nonaligned conference opens the same day.
-    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 332. [FRUS vol. 7](https://history.state.gov/historicaldocuments/frus1961-63v07). [[w.schlesinger-thousand-days-1965]], 459–60. To check: [[w.seaborg-kennedy-khrushchev-and-the]]. Names: Wiesner.'
+    n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 331–32. [FRUS vol. 7](https://history.state.gov/historicaldocuments/frus1961-63v07). [[w.schlesinger-thousand-days-1965]], 459–60. To check: [[w.seaborg-kennedy-khrushchev-and-the]]. Names: Wiesner.'
+    src:
+      c: faf630f2
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 331: A'
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 332: B'
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v07: all'
+        - 'w.schlesinger-thousand-days-1965 459–60: A'
     tags: [name:wiesner-jerome-b]
   - id: cal.1961-09-03.economy
     when: Sept. 3
@@ -23,12 +30,31 @@ entries:
     c: Foreign Assistance Act signed, [75 Stat. 424](https://www.govinfo.gov/content/pkg/STATUTE-75/pdf/STATUTE-75-Pg424-2.pdf). AID created; Congress denies the Treasury borrowing, granting long-term authorizations instead.
     n: Statute (K–J Cong. II.J.2). See [[cal.1961-03-22.foreign-aid]].
     tags: [name:kennedy-john-f]
+  - id: cal.1961-09-04.berlin-and-vienna
+    when: Sept. 4
+    date: '1961-09-04'
+    thread: berlin-and-vienna
+    c: 'The White House. The President lays out a program for negotiating on Berlin: the legal dispute to the World Court; the United Nations to West Berlin; the autobahn under the UN; a UN plebiscite in Berlin; a nonaggression pact between NATO and the Warsaw Pact. Perhaps for his address to the General Assembly. Stevenson: all excellent but moving the UN. Kennedy: "I don''t think enough of the UN not to be prepared to trade it for a nuclear war." By Schlesinger''s journal.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 430–31. To check: Schlesinger''s journal, Sept. 5, 1961 (cited by [[w.schlesinger-robert-kennedy-and-his]], 431 n.61). See [[cal.1961-08-21.berlin-and-vienna]]. Names: Kennedy, Stevenson, Schlesinger.'
+    src:
+      c: 55ba2000
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 430–31: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 431 n.61: all'
+    tags: [name:kennedy-john-f, name:stevenson-adlai-e, name:schlesinger-arthur-m-jr]
   - id: cal.1961-09-05.testing
     when: Sept. 5
     date: '1961-09-05'
     thread: testing
     c: Kennedy orders U.S. testing resumed, underground and in the laboratory.
-    n: Statement by the President on Ordering Resumption of Underground Nuclear Tests, [1961 Pub. Papers 589](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=647) (Sept. 5, 1961). [[w.schlesinger-thousand-days-1965]], 460, 482. See [[cal.1961-09-01.testing]].
+    n: Statement by the President on Ordering Resumption of Underground Nuclear Tests, [1961 Pub. Papers 589](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=647) (Sept. 5, 1961). [[w.schlesinger-thousand-days-1965]], 460, 482. [[w.reeves-president-kennedy]], 226–27. See [[cal.1961-09-01.testing]].
+    src:
+      c: 3ddd8276
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=647: all'
+        - 'w.schlesinger-thousand-days-1965 460, 482: A'
+        - 'w.reeves-president-kennedy 226–27: all'
+        - 'via w.reeves-president-kennedy 227 n.shit-i-have-no-choice: A'
     tags: [name:kennedy-john-f]
   - id: cal.1961-09-05.crime-and-hijacking
     when: Sept. 5
@@ -43,7 +69,39 @@ entries:
     also: [testing]
     c: 'Kennedy with Rusk, Stevenson, Cleveland, Bundy, Sorensen and Schlesinger on his address to the General Assembly. On resuming tests: "They had spit in our eye three times." Stevenson may tell delegations a "two China" study is not excluded; Peking kept out at least a year: "Whatever is required is OK by me."'
     n: '[[w.schlesinger-thousand-days-1965]], 482–83. Made public: [[w.schlesinger-thousand-days-1965]] (1965). See [[cal.1961-08-05.china]]. Names: Kennedy, Rusk, Stevenson, Cleveland, Bundy, Sorensen, Schlesinger.'
+    src:
+      c: a3b7ad27
+      rows:
+        - 'w.schlesinger-thousand-days-1965 482–83: all'
     tags: [name:kennedy-john-f, name:rusk-dean, name:stevenson-adlai-e, name:cleveland-j-harlan, name:bundy-mcgeorge, name:sorensen-theodore-c, name:schlesinger-arthur-m-jr]
+  - id: cal.1961-09-05.africa
+    when: Sept. 5
+    date: '1961-09-05'
+    thread: africa
+    also: [robert-kennedy]
+    c: 'Robert Kennedy to the President, after Nkrumah''s attack on the United States at the neutral nations'' meeting in Belgrade: "it would be better perhaps to spend it on our friends rather than those who have come out against us."'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 560. To check: Robert Kennedy to the President, Sept. 5, 1961, RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 560 n.4). See [[cal.1961-06-29.africa]]. Names: Robert Kennedy, Kennedy, Nkrumah.'
+    src:
+      c: 0af65d45
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 560: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 560 n.4: all'
+    tags: [name:kennedy-robert-f, name:kennedy-john-f, name:nkrumah-kwame]
+  - id: cal.1961-09-05.latin-america
+    when: Sept. 5
+    date: '1961-09-05'
+    thread: latin-america
+    also: [defense]
+    c: 'NSAM 88, Kennedy to McNamara: training for Latin American officers in riot control and counter-guerrilla warfare; "increase the intimacy between our armed forces and the military of Latin America." The day testing''s resumption is announced.'
+    n: '[FRUS 1961–63, XII, doc. 80](https://history.state.gov/historicaldocuments/frus1961-63v12/d80). [[w.reeves-president-kennedy]], 232. To check: NSAM 88, Sept. 5, 1961, National Security Files, box 331, Kennedy Library; Bowles to Kennedy, Sept. 30, 1961, National Security Files, box 331, Kennedy Library (cited by [[w.reeves-president-kennedy]], 232). See [[cal.1961-09-05.testing]]. Names: McNamara, Kennedy.'
+    src:
+      c: e2e5c87c
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v12/d80: all'
+        - 'w.reeves-president-kennedy 232: all'
+        - 'via w.reeves-president-kennedy 232 n.teach-them-how-to-control-mobs: all'
+        - 'via w.reeves-president-kennedy 232 n.there-can-be-no-successful-action: all'
+    tags: [name:mcnamara-robert-s, name:kennedy-john-f]
   - id: cal.1961-09-06.steel
     when: Sept. 6
     date: '1961-09-06'
@@ -86,7 +144,12 @@ entries:
     thread: mississippi
     also: [voting-rights]
     c: Tylertown, Walthall County. The registrar, John Q. Wood, strikes John Hardy of SNCC on the head with a pistol when Hardy brings two Negroes to register; the sheriff arrests Hardy. No Negro tries to register in the county after.
-    n: '*United States v. Wood*, [295 F.2d 772](https://static.case.law/f2d/295/case-pdfs/0772-01.pdf), 775 (5th Cir. 1961), from the Government''s affidavits. [[w.dittmer-local-people]], 108. See [[cal.1961-08.mississippi]]. Names: Wood, Hardy.'
+    n: '*United States v. Wood*, [295 F.2d 772](https://static.case.law/f2d/295/case-pdfs/0772-01.pdf), 775 (5th Cir. 1961), from the Government''s affidavits. [[w.dittmer-local-people]], 108 (the blow and the arrest; not the sequel). Check: Dittmer, 108, has the sheriff named John Q. Wood; the Fifth Circuit''s case names Wood the registrar. See [[cal.1961-08.mississippi]]. Names: Wood, Hardy.'
+    src:
+      c: 68c5091e
+      rows:
+        - 'https://static.case.law/f2d/295/case-pdfs/0772-01.pdf: all'
+        - 'w.dittmer-local-people 108: A-C'
     tags: [state:ms, name:wood-john-q, name:hardy-john]
   - id: cal.1961-09-12.states-and-cities
     when: Sept. 12
@@ -117,7 +180,14 @@ entries:
     thread: crime-and-hijacking
     also: [robert-kennedy]
     c: 'Robert Kennedy''s organized-crime bills signed: the Wire Act, [75 Stat. 491](https://www.govinfo.gov/content/pkg/STATUTE-75/pdf/STATUTE-75-Pg491.pdf), the Travel Act, [75 Stat. 498](https://www.govinfo.gov/content/pkg/STATUTE-75/pdf/STATUTE-75-Pg498-2.pdf), and the wagering-paraphernalia act, [75 Stat. 492](https://www.govinfo.gov/content/pkg/STATUTE-75/pdf/STATUTE-75-Pg492-2.pdf).'
-    n: '[[w.schlesinger-robert-kennedy-and-his]], 268. To check: [[w.goldfarb-perfect-villains-imperfect-heroes]]; [[w.navasky-kennedy-justice]]. Names: Robert Kennedy.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 268 (the acts, of Kennedy''s program; not the day). To check: [[w.goldfarb-perfect-villains-imperfect-heroes]]; [[w.navasky-kennedy-justice]]. Names: Robert Kennedy.'
+    src:
+      c: c487a8fb
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/STATUTE-75/pdf/STATUTE-75-Pg491.pdf: A'
+        - 'https://www.govinfo.gov/content/pkg/STATUTE-75/pdf/STATUTE-75-Pg498-2.pdf: A'
+        - 'https://www.govinfo.gov/content/pkg/STATUTE-75/pdf/STATUTE-75-Pg492-2.pdf: A'
+        - 'w.schlesinger-robert-kennedy-and-his 268: A'
     tags: [name:kennedy-robert-f, name:kennedy-john-f]
   - id: cal.1961-09-13.opinion
     when: Sept. 13
@@ -134,6 +204,19 @@ entries:
     c: Atlanta's primary for mayor, Hartsfield retiring. Allen, lately president of the Chamber of Commerce, 37,398; Maddox, a restaurant owner and segregationist, 21,091; three others 41,355. Runoff between Allen and Maddox.
     n: '*Atlanta Constitution*, Sept. 14, 1961 ([archive.org](https://archive.org/details/per_atlanta-constitution_1961-09-14_94_76)). To check: [[w.allen-mayor]]; [[w.kruse-white-flight]]; [[w.stone-regime-politics]]; [[w.short-everything-is-pickrick]]. Names: Allen, Maddox, Hartsfield.'
     tags: [name:allen-ivan-jr, name:maddox-lester, name:hartsfield-william-b, state:ga, city:atlanta]
+  - id: cal.1961-09-13.defense
+    when: Sept. 13
+    date: '1961-09-13'
+    thread: defense
+    c: 'Lemnitzer briefs Kennedy on SIOP-62, the plan for nuclear war, two hours, thirty-eight charts: 3,729 targets on the national strategic target list. Afterwards, to Rusk: "And we call ourselves the human race."'
+    n: '[[w.reeves-president-kennedy]], 229–30. To check: "Briefing on SIOP-62," JCS 2056/281, Sept. 13, 1961, Nuclear History papers, National Security Archive (cited by [[w.reeves-president-kennedy]], 229); White House staff oral history, 110, Kennedy Library (cited by [[w.reeves-president-kennedy]], 230). Made public: declassified by the Joint Chiefs, 1986; first printed by Scott D. Sagan in *International Security*, by Reeves''s note (229). Check: the day (Reeves); the words to Rusk by Rusk''s account. Names: Lemnitzer, Rusk, Kennedy.'
+    src:
+      c: bd8d9cc5
+      rows:
+        - 'w.reeves-president-kennedy 229–30: all'
+        - 'via w.reeves-president-kennedy 229 n.siop-62: all'
+        - 'via w.reeves-president-kennedy 230 n.kennedy-was-tapping-his-front-teeth: B'
+    tags: [name:lemnitzer-lyman-l, name:rusk-dean, name:kennedy-john-f]
   - id: cal.1961-09-15.testing
     when: Sept. 15
     date: '1961-09-15'
@@ -155,12 +238,34 @@ entries:
     c: 'Turkey. The Yassiada court''s verdicts on the Democratic Party''s leaders: fifteen sentenced to death. Sept. 15, Kennedy''s concern, through Rusk and Hare: the executions to be postponed. The Foreign Minister to Hare: "absolutely nothing further" to be done. Eleven sentences commuted; the old President spared for his age. Menderes''s Foreign and Finance Ministers hanged, Sept. 16; Menderes, Sept. 17.'
     n: '[FRUS 1961–63, XVI, doc. 370](https://history.state.gov/historicaldocuments/frus1961-63v16/d370). See [[cal.1960-05-27.europe-and-the-alliance]]. Names: Menderes, Gursel, Rusk, Hare, Kennedy.'
     tags: [name:kennedy-john-f, name:rusk-dean, name:hare-raymond-a, name:menderes-adnan, name:gursel-cemal]
+  - id: cal.1961-09-15.defense
+    when: Sept. 15
+    date: '1961-09-15'
+    thread: defense
+    c: '*Life*: "A Letter to You from President Kennedy. How You Can Survive Fallout. 97 out of 100 People Can Be Saved." Wiesner to Kennedy: "an entirely false and misleading estimate of the protection that would be provided by fallout shelters."'
+    n: '[[w.reeves-president-kennedy]], 233. To check: [[w.claflin-jfk-wants-to-know]], 107 (cited by [[w.reeves-president-kennedy]], 233); *Life*, Sept. 15, 1961 (cited by [[w.reeves-president-kennedy]], 233). Check: the day; Reeves has the issue on the stands Sept. 18. Names: Wiesner, Kennedy.'
+    src:
+      c: 1c1688b7
+      rows:
+        - 'w.reeves-president-kennedy 233: all'
+        - 'via w.reeves-president-kennedy 233 n.a-letter-to-you: A'
+    tags: [name:wiesner-jerome-b, name:kennedy-john-f]
   - id: cal.1961-09-17.vietnam
     when: Sept. 17–18
     date: '1961-09-17'
     thread: vietnam
-    c: Phước Thành. Viet Cong battalions take the capital of the new province, on the edge of War Zone D, the night of Sept. 17–18, and hold it some hours; the province chief and his assistant executed in the market place. The first provincial capital taken.
-    n: '[FRUS 1961–63, I, doc. 135](https://history.state.gov/historicaldocuments/frus1961-63v01/d135) (Nolting, Sept. 20). [[w.vietnam-victory-in-vietnam]], 85 (the 500th Battalion of Military Region 7, with district local forces; the town held three days; 600 weapons taken). Check: the capital''s name, and the three days of Hanoi''s account against the embassy''s hours.'
+    c: Phước Thành. About three Viet Cong battalions take Phước Vĩnh, the capital of the new province, on the edge of War Zone D, the night of Sept. 17–18, shortly after midnight, and hold it some hours; the province chief and his assistant executed in the market place. The first provincial capital taken.
+    n: 'FRUS 1961–63, I, docs. [135](https://history.state.gov/historicaldocuments/frus1961-63v01/d135) (Nolting, Sept. 20), [138](https://history.state.gov/historicaldocuments/frus1961-63v01/d138). [[w.miller-misalliance]], 227 (the attack, shortly after midnight Sept. 18; the capital held; the two officials killed; not the battalions'' number or War Zone D); [[w.vietnam-victory-in-vietnam]], 85 (the 500th Battalion of Military Region 7, with district local forces; the town held three days; 600 weapons taken); [[w.moyar-triumph-forsaken]], 134. See [[cal.1961-01-28.vietnam]]. Check: the capital''s name, and the three days of Hanoi''s account against the embassy''s hours. Check: Moyar, 134, has the province chief disemboweled in the square and his wife shot, the attackers gone within hours with a hundred rifles and 270 prisoners from the jail.'
+    src:
+      c: 31a4f86c
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v01/d135: all'
+        - 'w.vietnam-victory-in-vietnam 85: A-B'
+        - 'w.miller-misalliance 227: A-C'
+        - 'via w.miller-misalliance 227 n.35a: A-C'
+        - 'w.moyar-triumph-forsaken 134: B-D'
+    tags: [province:binh-duong]
+    aliases: [cal.1961-09-18.vietnam]
   - id: cal.1961-09-18.congo
     when: Sept. 18
     date: '1961-09-18'
@@ -168,13 +273,6 @@ entries:
     c: Hammarskjöld killed in a crash near Ndola on his way to meet Tshombe.
     n: 'Statement by the President on the Death of Dag Hammarskjold, [1961 Pub. Papers 605](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=663). [FRUS 1961–63, XX, doc. 118](https://history.state.gov/historicaldocuments/frus1961-63v20/d118). See [[cal.1961-02-13.congo]]. The UN inquiries of 2015–24 reopened the cause. Names: Hammarskjöld, Tshombe.'
     tags: [name:hammarskjold-dag, name:tshombe-moise]
-  - id: cal.1961-09-18.vietnam
-    when: Sept. 18
-    date: '1961-09-18'
-    thread: vietnam
-    c: Shortly after midnight. About three Viet Cong battalions take Phước Vĩnh, capital of Phước Thành province, and hold it for hours; the province chief and his assistant executed in the market place. The first provincial capital taken.
-    n: FRUS 1961–63, I, docs. [135](https://history.state.gov/historicaldocuments/frus1961-63v01/d135) (Nolting, Sept. 20), [138](https://history.state.gov/historicaldocuments/frus1961-63v01/d138). [[w.miller-misalliance]], 227. See [[cal.1961-01-28.vietnam]].
-    tags: [province:binh-duong]
   - id: cal.1961-09-19.rules
     when: Sept. 19
     date: '1961-09-19'
@@ -195,7 +293,24 @@ entries:
     thread: berlin-and-vienna
     c: Clay arrives in Berlin.
     n: '[[w.kaplan-mcnamara-ascendancy-1961-1965]], 165. The tank confrontation at Checkpoint Charlie comes [[cal.1961-10-27.berlin-and-vienna]]. To check: [[w.smith-lucius-d-clay]]. Names: Clay.'
+    src:
+      c: 4f6e585f
+      rows:
+        - 'w.kaplan-mcnamara-ascendancy-1961-1965 165: all'
     tags: [name:clay-lucius-d]
+  - id: cal.1961-09-19.robert-kennedy
+    when: Sept. 19
+    date: '1961-09-19'
+    thread: robert-kennedy
+    also: [civil-rights-the-executive]
+    c: 'Robert Kennedy resigns from the Metropolitan Club, which will not admit Negroes even as guests at lunch: "I cannot in good conscience remain a member." He had protested to the board of governors Apr. 11.'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 290. To check: Robert Kennedy to the Board of Governors, Metropolitan Club, Apr. 11 and Sept. 19, 1961, RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 290 n.18). Names: Robert Kennedy.'
+    src:
+      c: 6e615638
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 290: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 290 n.18: all'
+    tags: [name:kennedy-robert-f, city:washington]
   - id: cal.1961-09-21.program
     when: Sept. 21
     date: '1961-09-21'
@@ -216,7 +331,15 @@ entries:
     thread: peace-corps
     also: [robert-kennedy]
     c: Peace Corps Act signed, [75 Stat. 612](https://www.govinfo.gov/content/pkg/STATUTE-75/pdf/STATUTE-75-Pg612.pdf). Juvenile delinquency act signed the same day, [75 Stat. 572](https://www.govinfo.gov/content/pkg/STATUTE-75/pdf/STATUTE-75-Pg572.pdf), Robert Kennedy's committee behind it.
-    n: 'Statutes (K–J Cong. II.J.2). Opinion: [1 Op. O.L.C. Supp. 240](https://www.justice.gov/olc/file/477221/dl#page=256) (1961), Katzenbach to the Criminal Division, Oct. 10: 18 U.S.C. 1913 did not bar Moyers''s calls on Members for the Peace Corps bill. [[w.lemann-promised-land]], on the delinquency program as seed of community action; [[w.schlesinger-robert-kennedy-and-his]], 409–13. Names: Robert Kennedy.'
+    n: 'Statutes (K–J Cong. II.J.2). Opinion: [1 Op. O.L.C. Supp. 240](https://www.justice.gov/olc/file/477221/dl#page=256) (1961), Katzenbach to the Criminal Division, Oct. 10: 18 U.S.C. 1913 did not bar Moyers''s calls on Members for the Peace Corps bill. [[w.lemann-promised-land]], on the delinquency program as seed of community action; [[w.schlesinger-robert-kennedy-and-his]], 409–13 (the delinquency act and the committee; not the Peace Corps). Names: Robert Kennedy.'
+    src:
+      c: 0d254537
+      rows:
+        - 'https://www.justice.gov/olc/file/477221/dl#page=256: all'
+        - 'w.lemann-promised-land on the delinquency program as seed of community action: all'
+        - 'https://www.govinfo.gov/content/pkg/STATUTE-75/pdf/STATUTE-75-Pg612.pdf: A'
+        - 'https://www.govinfo.gov/content/pkg/STATUTE-75/pdf/STATUTE-75-Pg572.pdf: B'
+        - 'w.schlesinger-robert-kennedy-and-his 409–13: B'
     tags: [name:kennedy-robert-f, name:kennedy-john-f]
   - id: cal.1961-09-22.freedom-rides
     when: Sept. 22
@@ -239,12 +362,29 @@ entries:
     thread: middle-east-kuwait
     c: Diplomatic relations with Kuwait, at its request of Sept. 5. The consulate made an embassy, under a chargé d'affaires; no ambassador named.
     n: FRUS 1961–63, XVII, doc. [106](https://history.state.gov/historicaldocuments/frus1961-63v17/d106) (editorial note). See [[cal.1961-06-25.middle-east]].
+  - id: cal.1961-09-22.berlin-and-vienna
+    when: Sept. 22
+    date: '1961-09-22'
+    thread: berlin-and-vienna
+    c: 'James Wechsler, *New York Post*, "JFK (Contd.)," after an interview: Kennedy "disturbed by the frustrated fury of many of his countrymen who believe our national manhood can be affirmed only by some act of bloody bluster"; "Caught in the crossfire of Russian intransigence and domestic Know-nothingism," he is "both keeping his head and sustaining his nerve."'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 431. To check: James Wechsler, "JFK (Contd.)," *New York Post*, Sept. 22, 1961 (cited by [[w.schlesinger-robert-kennedy-and-his]], 431 n.64). Check: the day of the interview. Names: Kennedy.'
+    src:
+      c: fce9eaaf
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 431: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 431 n.64: all'
+    tags: [name:kennedy-john-f]
   - id: cal.1961-09-23.civil-rights-the-executive
     when: Sept. 23
     date: '1961-09-23'
     thread: civil-rights-the-executive
     c: Thurgood Marshall nominated to the Second Circuit; recess-appointed in October. Eastland's subcommittee holds the confirmation for a year.
-    n: '[Cong. Rec., Senate, Sept. 23, 1961](https://www.govinfo.gov/content/pkg/GPO-CRECB-1961-pt16/pdf/GPO-CRECB-1961-pt16-2-2.pdf). To check: [[w.williams-thurgood-marshall]]; [[w.navasky-kennedy-justice]]. Names: Marshall, Eastland.'
+    n: '[Cong. Rec., Senate, Sept. 23, 1961](https://www.govinfo.gov/content/pkg/GPO-CRECB-1961-pt16/pdf/GPO-CRECB-1961-pt16-2-2.pdf). [[w.schlesinger-robert-kennedy-and-his]], 308. To check: [[w.williams-thurgood-marshall]]; [[w.navasky-kennedy-justice]]. Names: Marshall, Eastland.'
+    src:
+      c: 31d992bc
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1961-pt16/pdf/GPO-CRECB-1961-pt16-2-2.pdf: all'
+        - 'w.schlesinger-robert-kennedy-and-his 308: all'
     tags: [name:marshall-thurgood, name:eastland-james-o]
   - id: cal.1961-09-24.opinion
     when: Sept. 24
@@ -252,6 +392,30 @@ entries:
     thread: opinion
     c: 'Gallup, Aug. 24–29: would vote for a well-qualified Catholic nominated for President by their party, 82 percent; would not, 13.'
     n: '[[w.gallup-poll]], III, 1735.'
+  - id: cal.1961-09-24.mississippi
+    when: Sept. 24
+    date: '1961-09-24'
+    thread: mississippi
+    c: 'Amite County. John Doar of the Civil Rights Division, the evening before he returns to Washington, with Moses and E. W. Steptoe on the dangers to Negroes working in the registration drive: Steptoe names Representative E. H. Hurst a threat, Herbert Lee a likely target.'
+    n: '[[w.dittmer-local-people]], 109. Names: Doar, Moses, Hurst, Herbert Lee.'
+    src:
+      c: f5a656b0
+      rows:
+        - 'w.dittmer-local-people 109: all'
+    tags: [name:doar-john, name:moses-robert-p, name:hurst-e-h, name:lee-herbert, state:ms]
+  - id: cal.1961-09-24.robert-kennedy
+    when: Sept. 24
+    date: '1961-09-24'
+    thread: robert-kennedy
+    also: [congress]
+    c: 'Robert Kennedy on *Meet the Press*, asked by Reston about information sought by Congress: Justice has recommended the departments give it; executive privilege perhaps in some instance, but Congress the check on the executive. "We will lean over backwards to make sure that they get the information they request."'
+    n: '[[w.schlesinger-robert-kennedy-and-his]], 380–81. To check: *Meet the Press*, Sept. 24, 1961, vol. 5, no. 37, 7 (cited by [[w.schlesinger-robert-kennedy-and-his]], 381 n.51). Names: Robert Kennedy, Reston.'
+    src:
+      c: 44560df3
+      rows:
+        - 'w.schlesinger-robert-kennedy-and-his 380–81: all'
+        - 'via w.schlesinger-robert-kennedy-and-his 381 n.51: all'
+    tags: [name:kennedy-robert-f, name:reston-james]
   - id: cal.1961-09-25.europe-and-the-alliance-cyprus
     when: Sept. 25
     date: '1961-09-25'
@@ -271,14 +435,29 @@ entries:
     date: '1961-09-25'
     thread: mississippi
     c: Herbert Lee, a farmer working with Moses, shot dead at the Liberty cotton gin by state representative E.H. Hurst. A coroner's jury finds self-defense.
-    n: 'A. L. Hopkins, [report to the Sovereignty Commission, Sept. 29, 1961](https://da.mdah.ms.gov/sovcom/document/images/png/cd03/023393), SCR ID 2-60-0-24-1-1-1, 1: "Monday morning, September 25, 1961," Hurst and Lee at "Westbrook''s gin at Osyka"; the coroner''s jury cleared Hurst; a preliminary hearing at Liberty, Sept. 26, ruled self-defense. Robert Moses, [Report Concerning the Louis Allen Case](https://www.wisconsinhistory.org/record/multi/W01DRZ7) (SNCC, 1964, after Jan. 31), 1: "murdered on September 30, 1961." Civil Rights Division, [Notice to Close File, Louis Allen](https://www.justice.gov/crt/case-document/file/1194136/dl) (May 19, 2015), 3, from the FBI''s files: Sept. 25 (printed "1964"). The literature: Sept. 25. [[w.dittmer-local-people]], 109. Check: the gin''s place (Hopkins: Osyka); the coroner''s inquest. To check: [[w.carson-in-struggle]]; [[w.branch-parting-the-waters]]; [[w.payne-ive-got-the-light]]. See [[cal.1961-08.mississippi]]. Names: Lee, Moses, Hurst.'
+    n: 'A. L. Hopkins, [report to the Sovereignty Commission, Sept. 29, 1961](https://da.mdah.ms.gov/sovcom/document/images/png/cd03/023393), SCR ID 2-60-0-24-1-1-1, 1: "Monday morning, September 25, 1961," Hurst and Lee at "Westbrook''s gin at Osyka"; the coroner''s jury cleared Hurst; a preliminary hearing at Liberty, Sept. 26, ruled self-defense. Robert Moses, [Report Concerning the Louis Allen Case](https://www.wisconsinhistory.org/record/multi/W01DRZ7) (SNCC, 1964, after Jan. 31), 1: "murdered on September 30, 1961." Civil Rights Division, [Notice to Close File, Louis Allen](https://www.justice.gov/crt/case-document/file/1194136/dl) (May 19, 2015), 3, from the FBI''s files: Sept. 25 (printed "1964"). The literature: Sept. 25. [[w.dittmer-local-people]], 109. Check: the gin''s place (Hopkins: Osyka); the coroner''s inquest. To check: [[w.carson-in-struggle]]; [[w.branch-parting-the-waters]]; [[w.payne-ive-got-the-light]]; *McComb Enterprise-Journal*, Sept. 25 and 26, 1961; E. W. Steptoe to Wilkins, Oct. 13, 1961, NAACP Papers (cited by [[w.dittmer-local-people]], 109 n.38). See [[cal.1961-08.mississippi]]. Names: Lee, Moses, Hurst.'
+    src:
+      c: 011846c1
+      rows:
+        - 'https://da.mdah.ms.gov/sovcom/document/images/png/cd03/023393: all'
+        - 'https://www.wisconsinhistory.org/record/multi/W01DRZ7: all'
+        - 'w.dittmer-local-people 109: all'
+        - 'via w.dittmer-local-people 109 n.38a: all'
+        - 'via w.dittmer-local-people 109 n.38b: all'
     tags: [name:moses-robert-p, name:lee-herbert, name:hurst-e-h]
   - id: cal.1961-09-26.testing
     when: Sept. 26
     date: '1961-09-26'
     thread: testing
     c: Arms Control and Disarmament Act signed, [75 Stat. 631](https://www.govinfo.gov/content/pkg/STATUTE-75/pdf/STATUTE-75-Pg631.pdf). ACDA created; William C. Foster director.
-    n: 'Statute (K–J Cong. II.J.2). [[w.poole-joint-chiefs-of-staff]], 82. To check: [[w.seaborg-kennedy-khrushchev-and-the]]; [[w.clarke-politics-of-arms-control]]. Names: Foster.'
+    n: 'Remarks in New York City Upon Signing Bill Establishing the U.S. Arms Control and Disarmament Agency, [1961 Pub. Papers 626](https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=684) (Sept. 26, 1961). Statute (K–J Cong. II.J.2). [[w.poole-joint-chiefs-of-staff]], 82. To check: [[w.seaborg-kennedy-khrushchev-and-the]]; [[w.clarke-politics-of-arms-control]]. Names: Foster.'
+    src:
+      c: 899f5491
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/STATUTE-75/pdf/STATUTE-75-Pg631.pdf: A'
+        - 'https://www.govinfo.gov/content/pkg/PPP-1961-book1/pdf/PPP-1961-book1.pdf#page=684: all'
+        - 'w.poole-joint-chiefs-of-staff 82: all'
+        - 'via w.poole-joint-chiefs-of-staff 82 n.3: all'
     tags: [name:foster-william-c, name:kennedy-john-f]
   - id: cal.1961-09-26.immigration
     when: Sept. 26
@@ -314,6 +493,18 @@ entries:
     thread: opinion
     c: 'Gallup, Aug. 24–29: would vote for a well-qualified Jew nominated by their party, 68 percent; not, 23. For a Negro, 50; not, 41.'
     n: '[[w.gallup-poll]], III, 1736.'
+  - id: cal.1961-09-27.elections-1962
+    when: Sept. 27
+    date: '1961-09-27'
+    thread: elections-1962
+    also: [governors]
+    c: 'Los Angeles, the Statler Hilton, a press conference. Nixon: not a candidate for President in 1964; a candidate for governor of California in 1962. "The Nixon statement is that I shall not be a candidate in 1964." Brown: the governorship to him "only as a stepping-stone for his own presidential ambitions."'
+    n: '[[w.nixon-rn]], 239–41. See [[cal.1961-08.elections-1962]]. Names: Nixon, Brown.'
+    src:
+      c: d3727f33
+      rows:
+        - 'w.nixon-rn 239–41: all'
+    tags: [name:nixon-richard-m, name:brown-edmund-g, state:ca]
   - id: cal.1961-09-28.middle-east
     when: Sept. 28
     date: '1961-09-28'
@@ -341,7 +532,14 @@ entries:
     thread: soviet-union
     also: [berlin-and-vienna]
     c: 'Khrushchev''s first private letter to Kennedy, dated Sept. 29, handed by Bolshakov to Salinger at the Carlyle Hotel, New York, Sept. 30. Berlin and Germany: a special emissary to Moscow, or Thompson, to discuss them.'
-    n: 'FRUS 1961–63, VI, doc. [21](https://history.state.gov/historicaldocuments/frus1961-63v06/d21); V, doc. [120](https://history.state.gov/historicaldocuments/frus1961-63v05/d120). [[w.salinger-with-kennedy]], 198. To check: [[w.fursenko-khrushchevs-cold-war]]; [[w.beschloss-crisis-years]]. See [[cal.1961-05-09.berlin-and-vienna]]. Names: Khrushchev, Bolshakov, Salinger, Thompson.'
+    n: 'FRUS 1961–63, VI, doc. [21](https://history.state.gov/historicaldocuments/frus1961-63v06/d21); V, doc. [120](https://history.state.gov/historicaldocuments/frus1961-63v05/d120). [[w.salinger-with-kennedy]], 198. [[w.reeves-president-kennedy]], 238–39 (the letter, by Bolshakov to Salinger). To check: [[w.fursenko-khrushchevs-cold-war]]; [[w.beschloss-crisis-years]]. See [[cal.1961-05-09.berlin-and-vienna]]. Names: Khrushchev, Bolshakov, Salinger, Thompson.'
+    src:
+      c: 4565e760
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v06/d21: all'
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v05/d120: all'
+        - 'w.salinger-with-kennedy 198: all'
+        - 'w.reeves-president-kennedy 238–39: A'
     tags: [name:khrushchev-nikita-s, name:kennedy-john-f, name:bolshakov-georgi, name:salinger-pierre, name:thompson-llewellyn-e]
   - id: cal.1961-09.oil
     when: Sept.
@@ -362,10 +560,33 @@ entries:
     thread: vietnam
     c: 'The Politburo and the Central Military Party Committee approve the General Staff''s plan for the South, 1961–63: besides recruits there, 30,000 to 40,000 men trained in the North to be sent down; Group 559, the trail''s transport group, grown to 2,000–3,000.'
     n: '[[w.vietnam-victory-in-vietnam]], 80, 456 n.26 (sent down the trail in 1961, 7,664 men). Made public: the history''s Hanoi edition, 1988 (Check: an earlier printing). See [[cal.1961-02-25.vietnam]].'
+    src:
+      c: ef13d535
+      rows:
+        - 'w.vietnam-victory-in-vietnam 80, 456 n.26: A-B'
   - id: cal.1961-09-30.vietnam
     when: Sept. 30
     date: '1961-09-30'
     thread: vietnam
     c: 'Diệm, in the evening, to Felt, McGarr, and Nolting: a bilateral defense treaty with the United States, "like the one with Taiwan." His fear: Laos, infiltration, SEATO held back by Britain and France.'
-    n: '[FRUS 1961–63, I, doc. 142](https://history.state.gov/historicaldocuments/frus1961-63v01/d142) (Nolting, Oct. 1). [[w.miller-misalliance]], 227. See [[cal.1961-01-28.vietnam]]. Made public: [[w.pentagon-papers]], vol. 2, 649–50 (1971). Names: Diệm, Felt, McGarr, Nolting.'
+    n: '[FRUS 1961–63, I, doc. 142](https://history.state.gov/historicaldocuments/frus1961-63v01/d142) (Nolting, Oct. 1). [[w.miller-misalliance]], 227 (the treaty asked, late September). See [[cal.1961-01-28.vietnam]]. Made public: [[w.pentagon-papers]], vol. 2, 649–50 (1971). Names: Diệm, Felt, McGarr, Nolting.'
+    src:
+      c: 1462fd91
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v01/d142: all'
+        - 'w.miller-misalliance 227: A'
+        - 'via w.miller-misalliance 227 n.35b: all'
     tags: [name:ngo-dinh-diem, name:felt-harry-d, name:mcgarr-lionel-c, name:nolting-frederick-e-jr]
+  - id: cal.1961-09.berlin-and-vienna
+    when: Sept.
+    date: 1961-09
+    thread: berlin-and-vienna
+    also: [soviet-union]
+    c: 'New York, the Carlyle, before the President''s address to the UN. Bolshakov brings Kharlamov, Gromyko''s press chief, to Salinger: "The storm in Berlin is over." A message from Khrushchev for the President: the danger of an incident in Berlin too great to delay a settlement long.'
+    n: '[[w.reeves-president-kennedy]], 234. To check: [[w.salinger-with-kennedy]], 246–48 (cited by [[w.reeves-president-kennedy]], 234). Check: the day. See [[cal.1961-09-25.testing]]. Names: Bolshakov, Kharlamov, Salinger, Khrushchev.'
+    src:
+      c: 4e43b4fb
+      rows:
+        - 'w.reeves-president-kennedy 234: all'
+        - 'via w.reeves-president-kennedy 234 n.he-received-a-telephone-call-from: all'
+    tags: [name:bolshakov-georgi, name:kharlamov-mikhail-a, name:salinger-pierre, name:khrushchev-nikita-s]

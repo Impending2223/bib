@@ -96,10 +96,13 @@ def page_key(lst, half):
 
 
 def half_of_date(lst, d):
-    """The part a date falls in (1, 2, 3 ...): the last whose first day is on or before it."""
+    """The part a date falls in (1, 2, 3 ...): the last whose first day is on or before it. A month-only date ('1963-01')
+    is its month's first day, a year its first: as text, '1963-01' sorts before '1963-01-01'."""
+    s = str(d)[:10]
+    s += {4: "-01-01", 7: "-01"}.get(len(s), "")
     n = 1
     for i, p in enumerate(parts(lst)[1:], start=2):
-        if str(d)[:10] >= str(p["from"]):
+        if s >= str(p["from"]):
             n = i
     return n
 

@@ -1,0 +1,111 @@
+patch: threads-7
+by: Claude (agent 7, stage 6 thread statements)
+ops:
+- edit:
+    id: cal.thread.civil-rights-bill
+    base: a345604b
+    set:
+      c2: The civil rights bill from Kennedy's address to the Act and its first year. The May meetings; June 11; the message of June 19; the Senate hearings; Judiciary's bill, Oct. 29; Johnson's joint session; the discharge petition; Smith's hearings; "sex" in Title VII; the House, 290–130; the filibuster; the Dirksen–Mansfield substitute; cloture, 71–29; the Senate, 73–27; the Act, July 2; Title II tested; Title VI's regulations; *Heart of Atlanta*.
+- edit:
+    id: cal.thread.congress
+    base: 8fc6de5d
+    set:
+      c: 'Congress as an institution: its leaders and sessions. The 86th''s second session; Hennings''s corrupt practices bill through the Senate; the recess for the conventions and the August return; Kennedy''s seat resigned, Smith appointed; Mansfield majority leader; the leaders'' weekly breakfasts; Rayburn''s death; McCormack Speaker; the second session''s end, Oct. 13, 1962.'
+      c2: 'Congress as an institution: its leaders and sessions. The 88th''s opening; Clark on the Senate establishment; the pay bill defeated, then passed; Edward Kennedy''s crash; Salinger for Engle; the 88th''s end; the Freedom Democrats'' contests; Mondale for Humphrey; the 89th''s opening, Ford for Halleck; Watson leaves; the Joint Committee on the Organization of the Congress; the contests dismissed; the first session''s end; Byrd resigns.'
+      c3: 'Congress as an institution: its leaders and sessions. The second session; 14(b) again; the Fulbright hearings; Griffin for Patrick McNamara; Long''s campaign fund; the 90th''s opening; Powell excluded; the reorganization bill through the Senate; the House''s ethics committee; Dodd censured; the Election Reform Act; the first session''s end; the Senate''s code of conduct; the surcharge; Goodell for Robert Kennedy; the 91st''s opening, Edward Kennedy whip; Rule XXII.'
+- edit:
+    id: cal.thread.conservation
+    base: 74fa1d8a
+    set:
+      c: Public lands, wilderness, and pollution. The water-pollution veto; California's water bonds; the natural resources message; Cape Cod; the wilderness bill through the Senate; the Delaware compact; the conservation message and the Bureau of Outdoor Recreation; the White House conference; the western dams; *Silent Spring*; Point Reyes and Padre Island.
+    unset:
+    - c2
+    - c3
+- edit:
+    id: cal.thread.elections-1960
+    base: 95fe7a75
+    set:
+      c: The 1960 election, from the announcements to the count. Nixon and Kennedy announce; the primaries, Mar. 8 to June 7 (CQ's returns); Wisconsin and West Virginia; Rockefeller's statements; Johnson announces; Los Angeles, Johnson second; the Treaty of Fifth Avenue; Chicago; Houston; the four debates; King's arrest; Nov. 8; the fraud charges, Illinois's recount; Hawaii's recount; the electors; the count, Jan. 6.
+- edit:
+    id: cal.thread.elections-1964
+    base: b434f35b
+    set:
+      c: The elections of 1964, from the race for the nominations to the result. Lincoln Day by closed circuit; the Goldwater draft, its Chicago and Minnesota meetings; Case's moderates; the Phoenix Country Club.
+      c2: The elections of 1964, from the race for the nominations to the result. The National Draft Goldwater Committee and its rally; Rockefeller announces; Goldwater announces; the primaries, Mar. 10 to June 2 (CQ's returns); Scranton enters, his letter; San Francisco, July 13; the platform fight; Goldwater nominated; the Johnson–Goldwater meeting; the Cabinet ruled out; Hershey; Atlantic City, Aug. 24; Robert Kennedy for the Senate; Thurmond a Republican; the Lady Bird Special; Jenkins; "A Time for Choosing"; Nov. 3; the concession; Burch to go.
+- edit:
+    id: cal.thread.elections-1964-polls
+    base: 8398063b
+    set:
+      c: Gallup on 1964, the Republicans' choice and the President against each. Nixon first; Rockefeller over Goldwater; Kennedy 62, Nixon 38; Kennedy 65, Nixon 35; Rockefeller ahead, Nov. 1962.
+      c2: Gallup on 1964, the Republicans' choice and the President against each. Rockefeller first; Goldwater past Rockefeller, May 1963; the tickets; Goldwater even with Rockefeller, August; Johnson after Nov. 22; Robert Kennedy for Vice President; the county chairmen; Lodge after New Hampshire; Scranton over Goldwater among Republicans; Johnson 65, Goldwater 29, August; the final poll, 64–29.
+- edit:
+    id: cal.thread.indonesia
+    base: d5535490
+    set:
+      c: 'Indonesia: Sukarno, the confrontation of Malaysia, the army. Robert Kennedy at Djakarta, Sukarno on West New Guinea.'
+      c2: 'Indonesia: Sukarno, the confrontation of Malaysia, the army. A presidential visit proposed; Robert Kennedy''s mission on the confrontation, the cease-fire; the Tunku at the White House; the September 30th Movement, Suharto''s army; Robert Kennedy on the killings.'
+- edit:
+    id: cal.thread.intelligence
+    base: f67a2738
+    set:
+      c: 'Intelligence at home: the agencies'' oversight and organization, the CIA''s domestic ties, the Bureau''s reports on politics. The Foreign Intelligence Advisory Board revived; the Las Vegas wiretap, the CIA''s request against prosecution.'
+      c3: 'Intelligence at home: the agencies'' oversight and organization, the CIA''s domestic ties, the Bureau''s reports on politics. Russell at the White House on the CIA inquiry; the National Student Association''s money made public; the Katzenbach committee''s rule against covert support of private bodies; Nixon''s briefing refused; the Bureau on the New Politics conference and on Robert Kennedy''s campaign; the King wiretap papers to the press; Kissinger''s NSC system.'
+- edit:
+    id: cal.thread.latin-america
+    base: dfe97d40
+    set:
+      c: The Alliance for Progress and the hemisphere's governments. Eisenhower in South America; Betancourt attacked; the Newport program; San José, the break with Trujillo; the Act of Bogotá; Berle's task force; the Alliance proposed; Trujillo killed, his family out; Punta del Este, 1961 and 1962; Goulart; Kennedy in Caracas, Bogotá, Mexico City; coups in Argentina and Peru; Bosch elected.
+      c2: 'The Alliance for Progress and the hemisphere''s governments. San José; Chamizal; Bosch ousted; the Honduran coup; Panama''s riots and the break, the joint declaration; Fulbright''s "Old Myths"; Brazil''s coup; the OAS sanctions on Cuba; Frei; the sea-level canal study; the Dominican Republic: the revolt, the Marines, the OAS force, Bundy''s mission, the Act of Reconciliation; Fulbright''s speech; the canal treaties'' terms; Robert Kennedy in South America.'
+      c3: The Alliance for Progress and the hemisphere's governments. Robert Kennedy on the Alliance; Balaguer elected; Onganía's coup; the Presidents at Punta del Este; Guevara killed in Bolivia; Díaz Ordaz, Chamizal returned; Johnson at San Salvador; Mein killed; Tlatelolco; Belaúnde ousted, the IPC's fields taken; Panama's coup; Brazil's Fifth Institutional Act.
+- edit:
+    id: cal.thread.mississippi
+    base: c4396894
+    set:
+      c: 'Mississippi: the movement and the resistance, the State''s government, parties and elections, the Justice Department and the courts there. The Biloxi wade-in; the unpledged electors; the Tougaloo sit-in; the riders jailed at Jackson; McComb; Herbert Lee killed; *United States v. Wood*; Hamer at Ruleville; Barnett''s refusals; Oxford; the poll tax amendment rejected.'
+      c2: 'Mississippi: the movement and the resistance, the State''s government, parties and elections, the Justice Department and the courts there. Greenwood; the Jackson movement; Evers killed; the Freedom Vote; Paul Johnson elected; Freedom Day at Hattiesburg; Louis Allen killed; Beckwith''s trials; the Freedom Democratic Party; Freedom Summer; Chaney, Goodman, Schwerner; the Freedom Democrats at Atlantic City; the Neshoba arrests; the amendments of 1965; the contests dismissed; Natchez.'
+      c3: 'Mississippi: the movement and the resistance, the State''s government, parties and elections, the Justice Department and the courts there. Dahmer killed; the Greenville air base occupied; *Price*; Meredith shot and the March Against Fear; *Connor v. Johnson*; Grenada; the hunger hearings at Jackson; Jackson State; seven convicted at Meridian; Williams elected governor; Charles Evers in the special; the Loyal Democrats seated at Chicago.'
+- edit:
+    id: cal.thread.open-housing
+    base: cae3f06c
+    set:
+      c: Open housing in the States and cities, in Congress, the courts and the streets. Pennsylvania's fair housing law; Washington's court voids its law on publicly assisted housing; Detroit's ordinance against solicitation; Atlanta's barricades; Colorado's court upholds its law.
+      c2: Open housing in the States and cities, in Congress, the courts and the streets. Berkeley's ordinance repealed; the Rumford Act; Tacoma and Seattle refuse ordinances; Detroit's homeowners' ordinance; Akron's charter amendment; Ohio's and Wisconsin's laws; Kentucky's Civil Rights Act.
+      c3: Open housing in the States and cities, in Congress, the courts and the streets. King in Lawndale; the 1966 message; *Mulkey v. Reitman*; Chicago, its marches and its summit agreement; the 1966 bill through the House, stopped in the Senate; Louisville's ordinance refused, then passed; Maryland's act; *Reitman v. Mulkey*; H.R. 2516 through the House; Milwaukee's marches; Romney's special session; the Dirksen substitute and cloture; the Fair Housing Act; Michigan's act; *Jones v. Alfred H. Mayer Co.*; Maryland's act refused at referendum; *Hunter v. Erickson*.
+- edit:
+    id: cal.thread.poverty
+    base: 9a59656d
+    set:
+      c: 'The war on poverty: the Economic Opportunity Act and its programs. Executive Order 10940, the President''s Committee on Juvenile Delinquency.'
+      c2: 'The war on poverty: the Economic Opportunity Act and its programs. Heller''s figures; the North Carolina Fund; Kennedy and Heller on the program; Heller to Johnson, Nov. 23; Shriver''s task force; the poverty message; the poverty tours; the Economic Opportunity Act; Shriver sworn; VISTA; the 1965 letter; the Appalachian act; Head Start; the Economic Opportunity Amendments.'
+      c3: 'The war on poverty: the Economic Opportunity Act and its programs. Shriver full time; the Greenville air base occupied; Bedford-Stuyvesant; the 1966 amendments; the Mississippi Head Start grant refused; the Child Nutrition Act; the children and youth message; "America''s Unfinished Business"; the hunger hearings at Jackson; the rat bill; the 1967 amendments; the Poor People''s Campaign announced; Shriver to Paris; the campaign in Washington; *Hunger in America*; Resurrection City cleared; food stamps extended.'
+- edit:
+    id: cal.thread.right-and-the-military
+    base: e870913d
+    set:
+      c: The radical right and the officers who spoke for it. The Birch Society; Walker relieved, admonished, resigned; Fulbright's memorandum; the crusades; the Seattle and Los Angeles speeches; the Reuther memorandum; the muzzling hearings; Walker at Oxford.
+      c2: The radical right and the officers who spoke for it. Kuchel's "Fright Peddlers"; the Birch Society against Rockefeller; Stevenson in Dallas; the advertisement of Nov. 22; Goldwater on the Birch Society; the extremism amendment at San Francisco.
+- edit:
+    id: cal.thread.south-asia
+    base: 9d52210a
+    set:
+      c2: 'India and Pakistan: their wars, American arms and food aid. Nehru''s death; Ayub''s and Shastri''s visits put off; the Rann of Kutch agreement; Operation Gibraltar; the Kashmir war, the aid suspended, Resolution 211; Ayub Khan in Washington; NSAM 339 on grain.'
+      c3: 'India and Pakistan: their wars, American arms and food aid. Tashkent, Shastri''s death; Indira Gandhi chosen; Food for Freedom; Humphrey at Karachi and New Delhi; Indira Gandhi in Washington; the food message and resolution; the rupee devalued; India and the bomb; the short tether; the food message of 1967; Svetlana Alliluyeva at New Delhi; the food resolution of 1967.'
+- edit:
+    id: cal.thread.state-and-city-finance
+    base: bc69d957
+    set:
+      c: Taxes, budgets and borrowing in the States and cities; Census's figures each fiscal year. Kentucky's sales tax; California's water bonds; West Virginia's income tax; Sanford's food tax; Texas's first sales tax; Detroit's income tax.
+      c2: Taxes, budgets and borrowing in the States and cities; Census's figures each fiscal year. Welsh's taxes in Indiana; taxes refused at the polls in Nevada, North Dakota and Oregon; Romney's fiscal reform refused; New Hampshire's sweepstakes; creative federalism; Maryland's income tax increase repealed; Idaho's sales tax; Oklahoma's sales tax refused; Wagner's borrowing; the governors on revenue sharing; New York's sales tax; the Heller plan set aside.
+      c3: Taxes, budgets and borrowing in the States and cities; Census's figures each fiscal year. The first sales taxes of Virginia and New Jersey; New York City's income tax; Massachusetts's sales tax at referendum; Nebraska's income tax refused; creative federalism and tax sharing; Reagan's budget, the University's tuition, the tax bill; Nebraska's first sales and income taxes; Maryland's graduated income tax; Minnesota's sales tax over the veto; Michigan's first income tax; Forward Thrust; Nunn's sales tax; Texas's special session; Virginia's first bonds; Michigan's graduated tax refused.
+- edit:
+    id: cal.thread.vietnam-marigold
+    base: 21c29aaa
+    set:
+      c: The Polish channel to Hanoi, June–December 1966. D'Orlandi and Lewandowski at Saigon; the ten points read to Lodge; the strikes near Hanoi; the Warsaw meeting not held; the ten-mile limit around Hanoi; Rapacki ends it; Estabrook's account in the *Post*, Feb. 1967.
+- edit:
+    id: cal.thread.welfare
+    base: 00ebd315
+    set:
+      c: Public assistance and Social Security. Kerr–Mills; Flemming's Louisiana ruling; aid to children of the unemployed; Newburgh's thirteen points and the court's order; the Social Security Amendments of 1961; the Public Welfare Amendments of 1962; Texas's ceiling on aid raised.
+      c2: Public assistance and Social Security. Texas's ceiling raised again; the House's Social Security bill of 1964; Medicare through Ways and Means and both Houses; the Howard University address; the Older Americans Act; the Social Security Amendments of 1965 at Independence; Gallup on a guaranteed income; Texas joins the federal programs.
+      c3: Public assistance and Social Security. Medi-Cal; Medicaid's first States, New York's law; the Child Nutrition Act; the older Americans message; the Social Security Amendments of 1967, through the House, the Senate and conference, signed at the Ranch; *Morris v. Williams*; *King v. Smith*; Gallup on a guaranteed income.
