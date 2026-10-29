@@ -1264,7 +1264,11 @@ def first_cites(series):
     return series._first_cites
 
 
-WORK_ITEM = r"\[\[w\.[^\]]+\]\](?:,[^;.\[\]]*(?:\.[^;\s][^;.\[\]]*)*)?"
+# One cited work: its card, its pinpoint (no period before a space: "Jan. 17" ends no pinpoint, it is not in one), and
+# its parenthetical whole, one level of parentheses within ("(the rising, from Jan. 17; the attack)"). A pinpoint
+# stops at a parenthesis, so a work inside another's "(cited by [[w.a]], 54 n.10)" never joins a run outside it.
+_PAREN = r"\((?:[^()]|\([^()]*\))*\)"
+WORK_ITEM = r"\[\[w\.[^\]]+\]\](?:,[^;.()\[\]]*(?:\.[^;\s()][^;.()\[\]]*)*)?(?:\s*" + _PAREN + r")?"
 WORK_RUN = re.compile(WORK_ITEM + r"(?:;\s+" + WORK_ITEM + r")+")
 
 
