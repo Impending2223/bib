@@ -1816,6 +1816,27 @@ Foreign:
 - *Department of Defense Appropriations for 1965*, pt. 4 (1964), pp. 12, 101, 117: the hearing of Feb. 17, 1964, printed.
 - *Foreign Assistance, 1964*, pp. 542–52: the hearing of June 23, 1964, printed.
 
+### Zhai, *China and the Vietnam Wars* (the reading agent, Oct. 28, 2026; notes/book-checks/zhai-china-and-the-vietnam.md)
+
+Foreign:
+
+- The Warsaw talks, 1960–68: now three meetings in (124th, 127th; the 116th as Washington's knowledge of July 31,
+  1963); FRUS 1961–63, XXII and 1964–68, XXX print the rest (Chen's lead stands).
+- Peking's public acts Washington met but the calendar lacks: Mao's statement of Aug. 29, 1963; the nine polemics,
+  1963–64; Zhou's statement on the bombing of Khang Khay, June 16, 1964, and the T-28 strike on the Chinese mission
+  there; Ye Jianying's mission to Hanoi, Dec. 1961; Souvanna Phouma in Peking, Apr. 22–25, 1961; Zhou in Hanoi, May
+  9–14, 1960; the Moscow conference of Nov. 1960; Zhou's walkout from the Twenty-second Congress, Oct. 23, 1961.
+- The Laos conference, 1961–62: Sihanouk's proposal (Jan. 1, 1961), Zurich (June 22, 1961), Boun Oum's repudiation
+  (Dec. 27, 1961), the portfolios (June 12, 1962), Chen Yi's positions (May 24, June 26, 1961): FRUS XXIV.
+- The peace initiatives of 1965–66 and Peking's refusals: Gordon Walker (Mar.–Apr. 1965), the conference on Cambodia,
+  U Thant, Kosygin's proposal of Feb. 16, 1965, Armah's mission, Malraux (July 1965), Michalowski and Shelepin (Jan.
+  1966): FRUS II, III, IV, XXVII, XXVIII. Hanoi's Four Points (Apr. 8, 1965) not found in the calendar by that name.
+- Mao and Edgar Snow, Jan. 9, 1965 (Snow's published account) and Washington's reading.
+- Burris to Johnson, Feb. 5, 1962 (National Security Archive, Vietnam/Laos Collection, box 1): the Vice President's
+  estimate of North Vietnamese troops in Laos.
+- The tacit understanding with Peking, 1965–66: Rostow to Dobrynin, June 1966 (Dobrynin, *In Confidence*, 142).
+- Muong Sai (Oudomxay) for the gazetteer, should an entry place an event there.
+
 ## The Executive roster
 
 - NSCID No. 1: the texts of 1958, 1964 and 1972 not in the file (`usib.yaml`). Open on archive.org, the CIA's CREST copies (Oct. 23, 2026): the text effective Feb. 17, 1972 (`CIA-RDP87B01034R000700020013-3`); a 1958 draft (`CIA-RDP85S00362R000600150011-7`, "Concurred in by the IAC 21 January"), with the drafts of 1957; for 1964 only Bundy's approval of the revisions, Mar. 27, 1964, "the President's decision of March 5, 1964 on the reorganization of the USIB" (`cia-readingroom-document-cia-rdp80b01676r000400180031-7`; the text exempt). FRUS 1964–68, XXXIII, doc. 196, n. 3: revised Jan. 18, 1961, and Mar. 4, 1964. Lay shown as the Board's Executive Secretary only for Mar. 1964, in a note.
