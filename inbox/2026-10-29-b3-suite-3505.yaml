@@ -3321,6 +3321,99 @@ ops:
       - name:tower-john-g
       - state:mo
       - city:st-louis
+- add:
+    entry:
+      id: cal.1962-05.republican-party-congress
+      when: May
+      date: 1962-05
+      thread: republican-party-congress
+      also:
+      - farm
+      c: Dirksen and Halleck, the Republican leaders, demand a congressional investigation of the Agriculture Department's dealings with Billie Sol Estes.
+      n: '[[w.white-suite-3505]], 63. Names: Dirksen, Halleck. Check: the day; White has it "early in May."'
+      src:
+        c: cc090a02
+        rows:
+        - 'w.white-suite-3505 63: all'
+      tags:
+      - name:dirksen-everett
+      - name:halleck-charles-a
+- add:
+    entry:
+      id: cal.1962-04.goldwater
+      when: Apr.
+      date: 1962-04
+      thread: goldwater
+      also:
+      - republican-party
+      c: Washington, the Jefferson Hotel, during the Republican Women's Conference, after the meeting in Minnesota. A sub rosa meeting of conservative women leaders, arranged by Rita Bree; White briefs
+        them on his group and hears their plans for the women's federation's convention at Phoenix. By White's account.
+      n: '[[w.white-suite-3505]], 73. See [[cal.1962-04-13.goldwater]]. Names: White. Check: the day.'
+      src:
+        c: 7668f423
+        rows:
+        - 'w.white-suite-3505 73: all'
+      tags:
+      - name:white-f-clifton
+      - city:washington
+- add:
+    entry:
+      id: cal.1963-07-16.civil-rights-bill
+      when: July 16
+      date: '1963-07-16'
+      thread: civil-rights-bill
+      also:
+      - goldwater
+      - republican-party-congress
+      c: Senate. Goldwater offers amendments to the administration's civil rights bill, one denying a union that practices racial discrimination recourse to the National Labor Relations Board.
+      n: '[[w.white-suite-3505]], 175 & n.8. Names: Goldwater. Check: the Record.'
+      src:
+        c: 84379f32
+        rows:
+        - 'w.white-suite-3505 175: all'
+      tags:
+      - name:goldwater-barry-m
+- add:
+    entry:
+      id: cal.1961-04.cuba-bay-of-pigs-4
+      when: Apr.
+      date: 1961-04
+      thread: cuba-bay-of-pigs
+      also:
+      - goldwater
+      c: 'The White House, at the outset of the invasion''s crisis. Kennedy sends for Goldwater, who finds him out and sits in his rocking chair. Kennedy: "How''d you like to have this damned job of mine?"
+        Goldwater: "Jack, I don''t blame you at all for what happened in Cuba"; he urges air support for the exiles. By White''s account.'
+      n: '[[w.white-suite-3505]], 249–50. Names: Kennedy, Goldwater. Check: the day, and whose account White has.'
+      src:
+        c: '53741510'
+        rows:
+        - 'w.white-suite-3505 249–50: all'
+      tags:
+      - name:kennedy-john-f
+      - name:goldwater-barry-m
+      - city:washington
+- add:
+    entry:
+      id: cal.1964-03-09.elections-1964
+      when: Mar. 9
+      date: '1964-03-09'
+      thread: elections-1964
+      c: 'Oregon, the deadline for a candidate''s affidavit that he will not run, the only way off the primary''s ballot under its law: Romney alone has signed. Nixon, Lodge and Scranton stay on it with
+        Goldwater, Rockefeller and Margaret Chase Smith.'
+      n: '[[w.white-suite-3505]], 326. Names: Romney, Nixon, Lodge, Scranton, Goldwater, Rockefeller, Margaret Chase Smith. Check: the Secretary of State''s list.'
+      src:
+        c: dc8f932c
+        rows:
+        - 'w.white-suite-3505 326: all'
+      tags:
+      - name:romney-george-w
+      - name:nixon-richard-m
+      - name:lodge-henry-cabot
+      - name:scranton-william-w
+      - name:goldwater-barry-m
+      - name:rockefeller-nelson
+      - name:smith-margaret-chase
+      - state:or
 - edit:
     id: cal.1960-03-26.elections-1960
     base: 5ec7780d
@@ -4289,10 +4382,11 @@ ops:
     set:
       n: '[Address Accepting the Presidential Nomination at the Republican National Convention in San Francisco](https://www.presidency.ucsb.edu/documents/address-accepting-the-presidential-nomination-the-republican-national-convention-san)
         (July 16, 1964). [[w.perlstein-before-the-storm]], 387–91 (the nomination, Miller, the acceptance); [[w.young-two-suns-of-the]], 104–6 (the nomination, South Carolina''s votes; Miller; the acceptance);
-        [[w.nixon-rn]], 259–60 (the first ballot; the acceptance''s words). [[w.white-suite-3505]], 400–05, 432–33 (the nominations, the roll call, 883 of 1,308; its table, Appendix C). To check: Nomination
-        roll call, Proceedings (1964), 357–73, Proceedings, 357–73 (cited by [[w.perlstein-before-the-storm]], 388 n.3); Miller''s nomination, Proceedings (1964), 392–403, Proceedings, 392–403 (cited by
-        [[w.perlstein-before-the-storm]], 389 n.3); "Goldwater''s Running Mate," New York Times, July 17, 1964 (cited by [[w.perlstein-before-the-storm]], 389 n.2); [[w.hess-in-a-cause-that]]. See [[cal.1964-07-13.elections-1964]].
-        Names: Goldwater, Scranton, Rockefeller, Romney, Smith, Judd, Miller.'
+        [[w.nixon-rn]], 259–60 (the first ballot; the acceptance''s words). [[w.white-suite-3505]], 400–05, 432–33 (the nominations, the roll call, 883 of 1,308; its table, Appendix C); 13–14 (the acceptance''s
+        words). To check: Nomination roll call, Proceedings (1964), 357–73, Proceedings, 357–73 (cited by [[w.perlstein-before-the-storm]], 388 n.3); Miller''s nomination, Proceedings (1964), 392–403, Proceedings,
+        392–403 (cited by [[w.perlstein-before-the-storm]], 389 n.3); "Goldwater''s Running Mate," New York Times, July 17, 1964 (cited by [[w.perlstein-before-the-storm]], 389 n.2); [[w.hess-in-a-cause-that]].
+        See [[cal.1964-07-13.elections-1964]]. Names: Goldwater, Scranton, Rockefeller, Romney, Smith, Judd, Miller. Check: White, 407, gives the line to Jaffa, from a memorandum for the platform committee,
+        Hess and Jaffa drafting under Baroody.'
       src:
         c: ef984277
         rows:
@@ -4304,6 +4398,7 @@ ops:
         - 'w.young-two-suns-of-the 104–6: C-D'
         - 'w.nixon-rn 259–60: A, D'
         - 'w.white-suite-3505 400–05: A'
+        - 'w.white-suite-3505 13–14: D'
 - edit:
     id: cal.1964-07-17.republican-party
     base: '02635743'
@@ -4329,6 +4424,31 @@ ops:
         - 'via w.perlstein-before-the-storm 495 n.1: A'
         - 'via w.perlstein-before-the-storm 496 n.1: D'
         - 'w.white-suite-3505 414–15: A'
+- edit:
+    id: cal.1963-11-07.elections-1964
+    base: e469156f
+    set:
+      n: '[[w.perlstein-before-the-storm]], 262 (the date). To check: [[w.kramer-i-never-wanted-to]]; [[w.persico-imperial-rockefeller]]; [[w.smith-on-his-own-terms]]; [[w.white-making-of-the-president-1965]].
+        See [[cal.1963-04-08.elections-1964]]. Names: Nelson Rockefeller. Check: F. Clifton White, *Suite 3505*, 240, gives Nov. 6, on NBC''s *Today* show.'
+      src:
+        c: d798dbf7
+        rows:
+        - 'w.perlstein-before-the-storm 262: A'
+- edit:
+    id: cal.1964-02-29.elections-1964-state-conventions
+    base: 5fcc7b2d
+    set:
+      n: '"State Becomes First Going for Goldwater for GOP Nomination," [*Daily Oklahoman*, Mar. 1, 1964](https://www.newspapers.com/image/451527290). The figures: [Wikipedia, "1964 Republican Party presidential
+        primaries"](https://en.wikipedia.org/wiki/1964_Republican_Party_presidential_primaries), its table of the primaries and conventions, read Oct. 22, 2026. [[w.white-suite-3505]], 195, 301 (the pledged
+        delegation, Garrison''s). To check: [[w.novak-agony-of-the-g]]; [[w.white-making-of-the-president-1965]]; [[w.rusher-rise-of-the-right]]; [[w.kessel-goldwater-coalition]]; [[w.middendorf-glorious-disaster]];
+        [[w.kabaservice-rule-and-ruin]]. See [[cal.1963-04-08.elections-1964]]. Names: Goldwater. Check: the paper (newspapers.com, by subscription; not read here). Check: White, 194–95, 301, has the ten
+        at large chosen Feb. 28, "the last two days of February."'
+      src:
+        c: '53516149'
+        rows:
+        - 'https://www.newspapers.com/image/451527290: all'
+        - 'https://en.wikipedia.org/wiki/1964_Republican_Party_presidential_primaries: all'
+        - 'w.white-suite-3505 195, 301: A'
 - move:
     id: cal.1962-09.republican-party
     section: '196209'

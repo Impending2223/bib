@@ -130,3 +130,98 @@ Made from the chronology (189-93) and each chapter's dated matter, Jan. 1964-Jan
   Marolda cites it for the raids of July 30-31 (`cal.1964-08-02.vietnam`).
 - When each volume was made public (its declassification): the pages carry regrading stamps ("20 NOV 1975"; "Order
   Sec Army By TAG per 830624"); the date not settled, so no "Made public:" line was written.
+
+## 1965 (`w.macv-command-history-1965`)
+
+The copy: 496 PDF pages, the History submitted Apr. 20, 1966, "regraded unclassified" page by page; its annex on special
+operations published separately and not in it. The printed page ("Page N of 482 Pages") is the PDF page less 14
+throughout (checked on pp. 24, 41, 162, 222, 315, 479). Its text layer was usable; the footnote pages (313-17, 336, 342)
+and every figure, date and note number a ruling rests on were read off the page images. Chapters: the summary and the
+enemy (I, 1-21), the buildup and the forces (II, 22-...), plans and concept (III), operations (IV, 157-...), the
+footnotes after the text (313-...), the chronology (478-82). Patch: `inbox/2026-10-29-b3-macv-1965.yaml` (patch
+`b3-macv-1965`): 22 new entries, 15 edits.
+
+### Rulings other than "holds"
+
+| Entry | The calendar / the record | The History | Ruling |
+|---|---|---|---|
+| `cal.1965-08-18.vietnam` | the Marines count 614 enemy dead; Check the figures | ended Aug. 21, "approximately 700 VC KIA" (162) | Check, the History's figure; the end entered, Aug. 21 |
+| `cal.1965-10-26.vietnam` | Westmoreland sends the 1st Cavalry after the regiments (Check) | Silver Bayonet from Oct. 23; the 1st Brigade's search-and-destroy mission Oct. 27 (168) | Check, the History's date |
+| `cal.1965-11-14.vietnam` | B-52s on the massif from Nov. 15 | the strikes Westmoreland asked "delivered on 16 November" (168); the campaign's second phase, 1,286 enemy and 217 American dead | Check |
+| `cal.1965-05-05.vietnam` | `c` ended "Check the dates." | the 173d's main body from May 5 (40), its first elements May 3 (chronology, 479); the Chu Lai landing May 7 (479) | the dates borne out; "Check the dates" taken out of `c`, a Check on May 3 in the note |
+| `cal.1965-09-01.vietnam-3` | the concept, Sept. 1 | "Concept of Operations, 1 Sep 65" (28, ch. II n.3); published "in late August" (43), its letter of Aug. 30 (n.91) | Check |
+| `cal.1965-12-11.vietnam-force-levels` (new) | | the accelerated brigades "approved on 11 December" (45 n.102, SECDEF 112125Z); "in mid-December, the SECDEF approved" the Marines' accelerated deployment (36 n.40, the same message) | dated by the message |
+
+### For entries in pending patches
+
+| Entry | Card, page (parenthetical) | Units |
+|---|---|---|
+| `cal.1965-03-06.vietnam` (b3-westmoreland) | `w.macv-command-history-1965`, 37–38 (Westmoreland's answer to the JCS: the Viet Cong hold the initiative; in six months the South's forces clustered about the cities, "end the war" groups; his recommendations: all available tactical air, coastal surveillance, a MEB to Đà Nẵng); via 38 n.49 (Msg, MACV, 060500Z Mar 65; ch. II n.16 gives it as MAC 1190, 060500Z Mar 65) | all |
+| `cal.1965-03.vietnam-force-levels` (b3-westmoreland) | `w.macv-command-history-1965`, 38–39 (the Commander's Estimate of Mar. 26: RVNAF built up to the maximum, a division on the Qui Nhơn–Pleiku axis, a brigade at Biên Hòa–Vũng Tàu, a MEB in I Corps, some 33,000 men, by June 1965; the force ratios); via 39 n.58 (Commander's Estimate of the Situation in South Vietnam, 26 Mar 65). The History dates it Mar. 26: the entry can take the day | all |
+| `cal.1965-06-24.vietnam-force-levels` (b3-westmoreland) | `w.macv-command-history-1965`, 40–41 (Westmoreland's exception to any withdrawal and to 23 battalions as a ceiling; another division; the 44-battalion force to establish a favorable balance by the year's end); via 40 n.70 (CJCS, No 2323, 222338Z Jun 65), 40 n.71 (COMUSMACV, MAC 3237, 24 Jun 65), 40 n.72 (COMUSMACV, MAC 3275, 26 Jun 65), 41 n.73 (CJCS, No 2400, 22 Jun 65), 41 n.74 (COMUSMACV, MAC 3320, 24 Jun 65). Check: the entry's MAC 3240 against the History's MAC 3237 and 3320 | all |
+| `cal.1965-06-27.vietnam-operations` (b3-westmoreland) | `w.macv-command-history-1965`, 166–67, 480 (June 27–30; two ARVN airborne battalions, the 48th Regiment, the Australians; over 25 enemy killed, 200 tons of food and supplies destroyed, some 50 tons of rice recovered; "the first time in over a year" friendly forces in War Zone D); via 167 n.17 (Report, 173d Airborne Brigade, 11 Jul 65, Command Report) | all |
+
+### The war table (for the merger; the scripts not touched)
+
+- U.S. military strength in Vietnam at each month's end, 1965, as MACV's Table II-1 prints it (p. 269): Jan. 23,858;
+  Feb. 24,937; Mar. 29,111; Apr. 36,021; May 51,728; June 59,921; July 81,422; Aug. 100,347; Sept. 132,297; Oct.
+  153,279; Nov. 169,571; Dec. 184,314 (Army 116,755, Navy with the Coast Guard 8,749, Marines 38,190, Air Force 20,620).
+  The chronology: about 23,000 Jan. 1, about 184,000 Dec. 31 (478, 482). The table has no monthly strength "then".
+- The enemy, MACV's holdings by month, Table I-2 (p. 268): total strength (combat, support, militia, political cadre)
+  93,000–113,000 in December 1964 and January 1965; 144,860–164,860 in April–May; 166,919–186,919 in July; 209,667 in
+  August; 221,159 in October; 227,659 in November; 229,759 in December (combat 70,100; 19 regiments, 107 battalions;
+  militia 103,573; political cadre 39,175). The table's MACV order of battle begins later (Dec. 1964 in its new
+  format); these are the figures as MACV held them in 1965-66, a third vintage.
+- Main force regiments, Nov. 21, 1965: 16 confirmed, 4 probable, 1 possible (p. 14).
+- Infiltration in 1965: 26,188, 11,050 of them in North Vietnamese units, some 90 percent ethnic northerners (p. 14).
+- RVNAF strength by month, 1965: charts only (Figures II-4 to II-7, pp. 293-96), no figures printed.
+
+### Passed over
+
+Made from the chronology (478-82) and each chapter's dated matter read.
+
+| Page | Date | Event | Why |
+|---|---|---|---|
+| 478 | Jan. 22, 25, 27; Feb. 9, 15, 19, 22 | Buddhist demonstrations; martial law in Huế; Khánh's coup against Hương; Oánh, then Quát; Thiệu's council; Minh replaces Khánh | Saigon's politics, in the calendar by their chief days |
+| 478 | Feb. 7–8, 10; Mar. 2, 8 | Pleiku and Đồng Hới; dependents evacuated; Qui Nhơn; Rolling Thunder; the Marines land | already in |
+| 478 | Feb. 9, 19, 25; Mar. 15, 19, 27–28 | The Hawk battalion operational at Đà Nẵng; jets first used in the South; the Korean contingent; Route 19 reopened; an MP battalion; mines at Plei Do Lim; the Seventh Fleet's coastal surveillance | below the level; the MP battalion is in the History's account of Mar. 19-21 (38) |
+| 478 | Mar. 21–22, 30 | Riot-control agents confirmed; the first radar site hit in the North; the embassy bombing | already in (the embassy, Mar. 30) or below the level |
+| 479 | Apr. 1, 5; May 5, 7, 14; June 4; July 20; Aug. 7; Sept. 25; Oct. 21; Nov. 1; Dec. 1 | 1st Logistical Command; Rural Reconstruction; the political warfare directorate; III MAF; JUSPAO; Walt; USARV; III MAF senior adviser for I Corps; Field Force, Vietnam; the corps advisory duties | the command's organization: a lead (below); Task Force Alpha is in the Mar. 30 entry |
+| 479 | Apr. 4, 9, 16; June 17; July 24, 27; Oct. 17; Dec. 2, 15 | The air war over the North: MiGs, the first SAM site, SAMs, Uông Bí | the air war, not read against the calendar here; to the owner |
+| 479 | May 4, 13, 18 | The pauses in Rolling Thunder | already in |
+| 479-80 | May 16; June 16, 25; Aug. 24; Dec. 4, 22 | The explosions at Biên Hòa; the Tân Sơn Nhứt terminal; the Mỹ Cảnh restaurant; Biên Hòa mortared; the Metropole bombing; Sóc Trăng | incidents, chronology only; to the owner (the Mỹ Cảnh and the Metropole killed Americans) |
+| 480 | June 2; July 12, 21; Sept. 12; Oct. 7–8 | The Australians' advance party; the 2d Brigade, 1st Division; New Zealand's battery; the 1st Cavalry at Qui Nhơn; the 1st Division's rest; the Korean Capital Division | arrivals: the deployments are entered by their decisions; to the owner |
+| 480 | June 18; July 16 | The first B-52 raid; B-52s in support of ground operations | already in (June 18) / below the level |
+| 480 | July 1; Oct. 27 | The attacks on Đà Nẵng and Sóc Trăng air bases; on the Marines' air installations at Đà Nẵng and Chu Lai | to the owner: the Marble Mountain attack of Oct. 27 is not in the calendar |
+| 480 | July 15; Nov. 7 | MACV confirms the North Vietnamese 101st Regiment in the South; MACV publicly confirms five North Vietnamese regiments | public statements of the order of battle, chronology only: a lead |
+| 480-82 | Apr. 19; Sept. 28; Dec. 10 | Honolulu conferences (McNamara, Sharp, Wheeler, Westmoreland; Sharp and Westmoreland) | Apr. 19-20 already in; Sept. 28 and Dec. 10 chronology only: a lead |
+| 481 | Sept. 7–11 | Piranha, the Marines on the Batangan peninsula (163): 198 enemy killed, 2 Marines | an operation below the level; to the owner |
+| 481 | Sept. 11, 15; Dec. 18 | FULRO: Montagnards disarmed in Darlac; the loyalty ceremony; the seizure of Gia Nghĩa | to the owner (the Montagnards' thread) |
+| 481 | Nov. 2, 5–6, 10, 22 | Cam Ranh's airfield; Throckmorton leaves, Heintges replaces him; Blue Marlin | personnel and operations below the level |
+| 481 | Nov. 27 | The Viet Cong release Sergeants Smith and McClure in Cambodia | to the owner (prisoners) |
+| 482 | Dec. 2 | The *Enterprise* in combat | below the level |
+| 482 | Dec. 24 | The Christmas cease-fire | already in |
+| 12-13 | year | Infiltration routes by land and sea; the 70th Transportation Group | undated |
+| 36 | late Sept. | III MAF's estimate: two Marine divisions for the three enclaves | month only, within the Phase II requirements of Sept. 18 |
+| 37 | Feb. 11 | The JCS recommend a 25th Division brigade to Thailand, the 173d alerted | to the owner: the JCSM of Feb. 11 (the calendar's Feb. 11 holds other Vietnam entries) |
+| 38 | Mar. 7 | The Army Chief of Staff's briefings in Saigon: three helicopter companies, O-1 aircraft | within Harold K. Johnson's mission, in the calendar Mar. 2 and 16; the enclave concept entered Mar. 10 |
+| 39 | Apr. 8–10 | The Honolulu conference of Apr. 8–10 (Stilwell's message, n.61) | a meeting's preparation and its recommendations, entered by the decision of Apr. 14; the conference of Apr. 19–20 already in |
+| 42 | July 14 | Memo, SECDEF Saigon trip, items for discussion | a meeting's preparation; the briefing entered July 16 |
+| 54–55 | Mar. 3; Apr. 10–13, 29, 30 | The planning conference for Market Time; the Swift boats bought; the Coast Guard squadron; McNamara on Market Time's control | steps of Market Time (entered Mar. 16); McNamara's announcement of Apr. 30 to the owner |
+| 162 | July 28 | Liên Kết 4, the first significant combined Marine and South Vietnamese operation | below the level |
+| 164-65 | year | Marine patrols, Golden Fleece, the enclaves' growth (6 to 600 square miles) | below the level |
+| 168 | Nov. 1 | The 1st Brigade's pursuit west of Plei Me: 216 enemy killed, 117 captured; 55 American dead | a phase of Silver Bayonet; to the owner |
+| 169 | Nov. 18-26 | Than Phong 7, the South Vietnamese airborne brigade west of Pleiku | an operation below the level |
+| 220 | Apr. 28 | The amphibious and airmobile operation in Kiến Hòa: a weapons cache, 162 enemy killed | an operation below the level |
+| 226 | July 8; Dec. 6 | Ambushes near Dầu Tiếng and in Hậu Nghĩa | engagements below the level |
+
+### Leads
+
+- The command's organization, 1965: the 1st Logistical Command (Apr. 1), III MAF (May 7), USARV (July 20), Task Force
+  Alpha (Aug. 1) and Field Force, Vietnam (Sept. 25): the History's chronology (479-81) and ch. II; whether the calendar
+  should hold the command's structure as it holds the MACV–MAAG merger of 1964.
+- MACV's public confirmation of North Vietnamese units: the 101st Regiment (July 15), five regiments (Nov. 7): the
+  History's chronology only; the press releases (MACOI) and the *New York Times* of the next days.
+- The Honolulu conferences of Sept. 28 and Dec. 10 (Sharp and Westmoreland): chronology only; FRUS 1964–68, III.
+- The Marble Mountain and Chu Lai attacks of Oct. 27: chronology only.
+- The 1966 volume (the DMZ, Attleboro, Masher, Crimp) was not among the copies: a Sources to Fetch item.

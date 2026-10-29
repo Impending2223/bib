@@ -1117,6 +1117,29 @@ Searched in the Daily Digest (daybook/committees), the bound Record's days, the 
 - *Meet the Press* with Sevareid's question on the Honolulu declaration and the Atlantic Charter (337–38): the LOC inventory has Humphrey on Mar. 13, 1966 only; find the program.
 - Mexico City, Apr. 1, 1968: Humphrey to sign Protocol II of the Treaty of Tlatelolco (358–59); the signing not in the calendar (the U.S.T. cite).
 
+### Sundquist, *Politics and Policy* (batch 3, Oct. 29, 2026; notes/book-checks/sundquist-politics-and-policy.md)
+- The Appalachian governors' two meetings of 1960 (Tawes) and their meeting with Feldman, May 1961 (Sundquist, 100): the Conference of Appalachian Governors' records; the *Times*. Jobs and wages.
+- The DSG's leak of the discharge petition's signatures to the *Times*, Feb.-Mar. 1960 (247; Berman, *A Bill Becomes a Law*, 72-78): the day. Voting rights.
+- The DSG's telegram calling the civil rights proposals "inadequate," June 1963 (263): its day and text. Civil rights bill.
+- The Republican leaders' study committees on automation, asked about at the news conference of Apr. 21, 1961 (1961 Pub. Papers 307): the day named. Republican Party: In Congress.
+- Randolph's public works project cancelled before the Medicare vote, July 1962 (Sorensen, 345; Sundquist, 312-13): the day and the project. Medicare.
+- Stephen Young on Hough, "112 Cong. Rec. 16246 (July 26, 1966)" (Sundquist, 284 n.197): the page tables do not put that page on that day's Senate; find the speech. Civil disorders.
+- Members' words Sundquist cites by the Record's page, not read (the book-check's "Passed over": Mills, June 8, 1961, 9778; Proxmire, Mar. 9, 1961, 3601; Forand, June 22, 1960; Edith Green, Feb. 25, 1960; Weltner, July 2, 1964, 15894; Inouye, Jan. 25, 1967; Carlson, Capehart, Williams, Bennett, Bush, June 1962): to read and enter.
+
+### Solberg, *Hubert Humphrey* (batch 3, Oct. 29, 2026; notes/book-checks/solberg-hubert-humphrey.md)
+- Papers Solberg cites by date in the Humphrey Papers (Minnesota Historical Society) and not yet entered for want of their matter, each a possible entry: Humphrey to Kennedy, a 32-page memorandum after the Bay of Pigs, 1961 (217); Humphrey to Johnson on Latin American personnel, Dec. 14 and 16, 1963 (242); Humphrey's note of the Cabinet of Jan. 22, 1965 (270); Humphrey to Johnson on the housing committee, June 3 and 9, 1965 (278); Humphrey to Johnson on summer jobs, July 19, 1966 (297); Humphrey's memoranda of his talks with Satō and Park, July 2, 1967 (308); Humphrey to Johnson on the hundred mayors, Aug. 23 and 25, 1967 (310). National.
+- Valenti to Johnson, Mar. 4, 1966, "sniping and revitalized criticism" over Humphrey's report (291): the seven-page report was out Mar. 3; the memorandum's day and matter. Vietnam: Humphrey in Asia.
+- Johnson's "We do not need all these memos," Valenti's notes of the President's meeting of May 16, 1965 (Solberg, 274 n.): the day and the meeting. Vietnam.
+- Harpsund, July 1963 (219–21): the weekend of the Socialist leaders at Erlander's residence, Humphrey with Reuther and Brandt; the day. Foreign (Europe).
+- The Rochester debate with Peterson, fall 1960 (213); the first President's Club dinner at Newark, $304,065, 1965 (279); the National Book Awards walkout, March 1967 (304); Maryland's unit rule and Delaware's delegates, 1968 (337); the ADA board's endorsement, 73–13, early October 1968 (386): the days.
+- Humphrey with Johnson, Oct. 4, 1968, 7 to 9:55 p.m., by the Daily Diary as Solberg's note gives it (386 n.), and Connell's "Agenda": what was settled. 1968 elections.
+- Humphrey at the Waldorf, July 1968: a statement on Vietnam within ten days (347; the *Times* of July 24): the day.
+- Rowe's warning to Johnson in March 1968, "something startling and dramatic" (319), cited from Schandler: the memorandum itself.
+- O'Brien's calls to Edward Kennedy on the second place, and Van Dyk's channel through Peabody to Rockefeller, August 1968 (351): the days.
+- The Mudd interview, CBS, Aug. 29 or 31, 1968 (370; the note: Aug. 31, Wechsler files): Humphrey on Daley; the day.
+- Nixon to Humphrey, Oct. 17, 1966 (299), and his call after the grocers' speech, Nov. 1967 (313, Humphrey's memorandum of Nov. 21): whether either is more than private sympathy.
+- Humphrey's letter to William White, July 1964: Goldwater "and his crew have kidnapped the Republican party" (257): the day.
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
