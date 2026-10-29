@@ -4,7 +4,7 @@ Card `w.logevall-choosing-war`. Read Oct. 28–29, 2026, from the owner's copy (
 layer read with pdftotext; cited by the printed page. Offset: printed page = PDF page − 29, constant through the notes
 (pp. 417–98) and the index; checked on the page images at PDF 100 (p. 71), 230 (p. 201) and 400 (p. 371), and by the
 running folios of every page of the text layer. Patch: `inbox/2026-10-29-book-logevall-barrett.yaml` (with Barrett);
-records: `sources/cited-records/logevall-choosing-war.yaml` (50 records). The book runs from de Gaulle's statement of
+records: `sources/cited-records/logevall-choosing-war.yaml` (50 records). Rebuilt Oct. 29 against the tree after the Herring merge (commit 745f720). The book runs from de Gaulle's statement of
 Aug. 29, 1963, to the Marines at Đà Nẵng and the spring of 1965; ch. 12 is argument, with no dated events of its own.
 
 The calendar cited the book 23 times, none by page. 19 now cite it by page, with a parenthetical where it holds in part;
@@ -55,21 +55,23 @@ The calendar cited the book 23 times, none by page. 19 now cite it by page, with
 | `cal.1964-07-24.vietnam` (new) | "a conference called to ratify terror" (the Public Papers) | "conferences called" (188) | the Papers read | Check added |
 | `cal.1964-08-05.vietnam-2` (new) | "in Lebanon and in Cuba" (the Public Papers) | "in Lebanon and in China" (206) | the Papers read | Check added |
 
-## New entries (27)
+## New entries (25)
 
 Read first, where the series holds it, in the primary record: FRUS (1961–63, IV, doc. 37; 1964–68, I, doc. 21; II, docs.
-42–44; XXVII, doc. 53), the Public Papers (the news conference of July 24, Syracuse, Thant's visit, Eufaula, Manchester).
+42–44; XXVII, doc. 53), the Public Papers (the news conference of July 24, Syracuse, Eufaula, Manchester).
 Where only Logevall was read, the record his note gives stands behind "To check:".
 
 1963: Aug. 31, the State Department meeting, Kattenburg for withdrawal (`cal.1963-08-31.vietnam-2`); Dec. 2, Fulbright to
 Johnson for Geneva; Dec. 7, Russell, "We should get out" (`vietnam-congress`). 1964: Jan. 29, Ball's calls on the coup
 (two); May 27, Johnson to Bundy, "What in the hell is Vietnam worth to me?", and Lippmann at the White House; July 8,
 Thant's news conference; July 23, de Gaulle's (`europe-and-the-alliance-france`, also Vietnam); July 24, Johnson's,
-"ratify terror"; Aug. 5, Syracuse; Aug. 6, Thant at the White House; Aug. 21, the Matthias memorandum released; Sept. 25,
+"ratify terror"; Aug. 5, Syracuse; Aug. 21, the Matthias memorandum released; Sept. 25,
 Eufaula, and Sept. 28, Manchester (`elections-1964`, also Vietnam); Sept. 29, William Bundy at Tokyo; Oct. 5, Ball's
 memorandum; Dec. 9, Fulbright at SMU. 1965: Jan. 3, Mansfield on *Meet the Press*; Jan. 11, Russell; Jan. 27, the
 Bundy–McNamara memorandum and the 11:30 meeting ("Khanh is our boy"); Feb. 16, the House leaders; Feb. 19, Couve de
-Murville; Feb. 24, Thant's news conference; Feb. 25, Rusk's; Mar. 6, Johnson to Ball, "get sick and leave town".
+Murville; Feb. 25, Rusk's news conference; Mar. 6, Johnson to Ball, "get sick and leave town".
+
+Two events first drafted as new entries were entered meanwhile by the Herring reading under the same ids, and are edited instead, Logevall's pages and sentences appended so that the units keep their letters: `cal.1964-08-06.vietnam-2` (Thant at the White House: Blair House, Rusk at lunch, the toast; Check: Logevall has Thant propose direct talks in the Oval Office, FRUS a private probe of Hồ) and `cal.1965-02-24.vietnam-2` (Thant's news conference: the "concrete ideas and proposals"; Check: Logevall, 353, "if only they know," Herring "knew"). Rusk's call to Thant that night is Herring's `cal.1965-02-24.vietnam-3`.
 
 The merge flags as possible duplicates the new entries that share a day and thread with another (`-2`, `-3` ids): each
 is a different event (a call, a meeting, a memorandum, a news conference); resolve with `--take keep`.
@@ -193,7 +195,7 @@ read; the leads are in `notes/leads.md` (National; Foreign).
 | 292-93 | Dec. 20, 1964 | the coup of the young officers; Taylor's anger | already in as cal.1964-12-20.vietnam |
 | 293-94 | Dec. 24, 1964 | the Brink Hotel; no reprisal | already in as cal.1964-12-24.vietnam |
 | 295 | Dec. 31, 1964 | Taylor's cable: withdraw the bulk of the Americans? | a lead (Logevall, 295) |
-| 295-96 | Nov. 1964 | Thant's offer of Burma for the talks; Rusk: put it on the shelf | undated ("in November") |
+| 295-96 | Nov. 1964 | Thant's offer of Burma for the talks; Rusk: put it on the shelf | undated ("in November"); the refusal to Thant in as cal.1965-01-30.vietnam |
 | 296 | Dec. 3, 1964 | William Bundy to the Canadians: Hanoi's hints | below the calendar's level |
 | 298-99 | Dec. 30, 1964 | Johnson to Taylor: "I have never felt that this war will be won from the air" | already in, in cal.1964-12-24.vietnam |
 | 300 | Dec. 31, 1964 | Russell in the *New York Times*; Harlech with Bundy | a lead: the *Times* of Dec. 31 (Logevall, 300 n.1) |
@@ -238,7 +240,7 @@ read; the leads are in `notes/leads.md` (National; Foreign).
 | 349-51 | Feb. 17, 1965 | the Senate's debate; the Republican leaders; Eisenhower; the NICB speech | already in as cal.1965-02-17.republican-party-congress, cal.1965-02-17.vietnam |
 | 351 | Feb. 17, 1965 | Bundy and Lippmann | below the calendar's level |
 | 352 | Feb. 18, 1965 | the British proposal to Moscow agreed | a lead: the cable |
-| 354 | Feb. 17, 1965 | William Bundy for an early "talking initiative"; Stevenson's letter to Johnson | below the calendar's level; Stevenson's undated |
+| 354 | Feb. 17, 1965 | William Bundy for an early "talking initiative"; Stevenson's letter to Johnson | below the calendar's level; Stevenson's letter in as cal.1965-02-17.vietnam-5 |
 | 354-55 | Feb. 18, 1965 | McNamara and Ball, by telephone; McNamara with Harlech, Feb. 22 | below the calendar's level |
 | 355 | Mar. 5, 1965 | Rusk, McNamara and Bundy: a conference "if things get worse" | a lead: Bundy's note (Logevall, 355 n.44) |
 | 355 | Feb. 23, 1965 | Rusk's memorandum: negotiation no cover for abandoning Southeast Asia | a lead: the memorandum (FRUS 1964–68, II) |
