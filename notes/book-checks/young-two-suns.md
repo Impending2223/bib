@@ -219,3 +219,77 @@ Within Jan. 6, 1960–Jan. 20, 1969 and pp. 1–151 only (chapter 1's 1950s are 
 | 150 | early Aug. 1964 | Johnson to Reuther on the party's money | undated |
 | 150 | Oct. 27, 1964 | Reagan's "A Time for Choosing" | already in (`cal.1964-10-27.elections-1964`) |
 | 151 | early Sept. 1964 | Valenti and the Chandlers of the *Los Angeles Times* | undated within the month; the text breaks off at 152 |
+
+## The rest, Oct. 29, 2026
+
+Patch: `inbox/2026-10-29-republicans-finish.yaml` (republicans-finish, with the rest of Hess and Broder). Records:
+`sources/cited-records/young-two-suns-of-the.yaml` (19 rows).
+
+**The copy.** The owner's PDF, fetched whole by the brief's download line (drive.usercontent.google.com, the file id
+above) into a scratch directory outside the repo: 312 PDF pages, 20 MB, the Internet Archive's scan with its text
+layer, read with `pdftotext -layout`. Deleted when done; no copy in the repo; the file's sharing not touched. **Read:
+pp. 152–207** (the rest of chapter 6, chapter 7, the Conclusion) **and the notes, pp. 225–255**; the appendices of
+returns and the inaugural address (209–224), the bibliographic essay and the index not read. Offset: printed page =
+PDF page − 18 throughout, as the first run found (152 = PDF 170, 171 = PDF 189, 200 = PDF 218; the notes, 246 = PDF
+264, headed by the text pages they serve). The notes are numbered by chapter; a note citing several records is logged
+a row a record, lettered in the note's order (`20c`, `29b`, `57a`, `57b`).
+
+**Citations reread and rulings.** Thirteen existing entries now cite pp. 152–207, each with its claim map (the units
+each page grounds; `via` rows for the records its notes give: the Unity Conference's transcript, the Truax memorandum,
+the Reuther and Moyers calls, the White House memoranda). Where the book and the calendar differ, a Check, the entry's
+claim left as it stood:
+- `cal.1964-08-12.elections-1964`: Goldwater at Hershey, "of the left or of the right" (159, from the transcript).
+- `cal.1964-10-06.elections-1964`: Young, 188, from Goldman and Woods, gives "Nigger, Nigger, Nigger!"; the Public
+  Papers print "Negro."
+- `cal.1964-11-03.elections-1964`: Young, 196, gives 43,128,956 to 27,177,873; the entry's figures stand, and 196–97
+  is cited only for the electoral votes, the six States and the Congress.
+- `cal.1964-09-03.goldwater`, `-09-07` (Cadillac Square; the Daisy spot shown once, 174–76), `-09-14`, `-09-16`,
+  `-10-14` (the arrests, 191–92), `-10-27`, `-11-04`, `cal.1964-10.goldwater` (Jaffa and Rehnquist, 189),
+  `cal.1964-05-24.goldwater` (165–66): borne out, the page added.
+
+**New entries (18).** The campaign's informal record, from the White House files and the recordings the notes cite:
+Doyle Dane Bernbach signed (Mar. 19, 1964); Truax's survey of the States for Burch (Aug. 3); Johnson to Reuther by
+telephone (Aug. 9, the Miller Center's catalogue); Moyers on Gallup's confidential help (Aug. 15); O'Brien's estimate of
+the races for Congress (Aug. 22); Fortas and Clifford against the Sunday programs (Sept. 3); Johnson to Moyers on the
+Labor Day speech (Sept. 5); Valenti's "AGAINST Goldwater" (Sept. 7) and the Chandlers (Sept. 10); Goldwater in South
+Carolina (Sept. 17); *My Hope for America* (Sept. 19); the Gettysburg film (Sept. 22); Johnson in New England (Sept.
+28, the Public Papers' items); *Fail Safe* (Sept. 29); the Committee to Support Moderate Republicans (Sept. 30, with
+Hess and Broder); McGill on Grenier's men (Sept. 30); O'Brien's report from the States (Oct. 4); *Brunch with Barry*
+(Oct.). The records are none of them read: each stands in the note's "To check:" with the page and note it comes from;
+the two recordings the Miller Center holds are cited by their pages there, the catalogue read, the audio not heard.
+
+**Not done.** The first run's entries (pp. 1–151) still have no `via` rows: the notes for chapters 1–6 are now in hand
+(pp. 225–246), and the next run can log their records and map them.
+
+## Passed over (pp. 152–207)
+
+How made: every dated event in the pages, listed as read; the summaries of polls and returns after the election and
+the historiography of the Conclusion not listed.
+
+| page | date | event | why |
+|---|---|---|---|
+| 152 | Aug. 20, 1964 | Valenti to Moyers and Reedy on the Sunday programs | the decision entered (`cal.1964-09-03.elections-1964`); a memorandum of advice |
+| 154 | July 27, 1964 | Welsh to Johnson on the backlash in Indiana | a memorandum of advice; minor (a repetition of the backlash reports entered) |
+| 155 | Aug. 12, 1964 | Cater to Johnson on the backlash | as above |
+| 156 | Aug. 10, 20, 1964 | Gronouski to Johnson and Popple to Valenti on ethnic voters | as above |
+| 156 | Oct. 1, 1964 | John Bartlow Martin to Moyers | as above |
+| 156 | July 7, 1964 | Louis Martin to Valenti on Negro voters | as above |
+| 163 | Aug. 18, 1964 | Reedy to Johnson on the Republicans | as above |
+| 189 | Oct. 16, 1964 | Manatos and Cater to Johnson | as above |
+| 154 | June 14, 1964 | Kitchel on *Meet the Press*: union members Republicans | to leads (the program's transcript) |
+| 165 | 1963–64 | Goldwater at Hartford and elsewhere on the bomb | undated |
+| 173, 176 | Sept.–Oct. 1964 | Interpublic, the Republicans' advertising; the ice cream spot | undated |
+| 177 | 1965 | Shadegg's account of the campaign | a later book, not an event |
+| 179 | Aug. 15, 1964 | Carter on Bryant and Wallace | undated in the text (the note's day only); to leads |
+| 180 | Oct. 1964 | the campaign's "prebuttals" | undated |
+| 182–84 | Oct. 1964 | Rovere's tour of the South | undated; a journalist |
+| 182 | Oct. 27–28, 1964 | Johnson at Albuquerque | minor (one stop of the day's; in the day's Documents, the Public Papers' remarks) |
+| 190 | Oct. 1964 | the Protestant theologians for Johnson | undated |
+| 191 | mid-Oct. 1964 | Goldwater's speeches on crime | undated |
+| 203, 253 | Nov. 13, 1964 | Rockefeller's note after the election | private; to leads (its text and recipient) |
+| 205 | 1963 | the Democratic Study Group takes up campaign work | undated; to leads |
+
+## Leads (in notes/leads.md, under Young)
+
+Kitchel on *Meet the Press*, June 14, 1964 (Spivak Papers, cited 247 n.33); the Democratic Study Group's campaign
+work from 1963; Rockefeller's note of Nov. 13, 1964; the first run's notes, to be logged.

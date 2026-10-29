@@ -474,11 +474,15 @@ reports them (`notes/calendar-audit.md`).
   Eisenhower and Kennedy's Camp David talk of Apr. 22, 1961; O'Donnell's account of Kennedy to Mansfield, Dec. 1962, and
   its day; the Record's page for Cooper's Senate speech of Jan. 26, 1966; the Miller Center recordings Johns cites
   (Johnson with Eisenhower, Feb. 15, 1965 and Oct. 3, 1966; with Russell, May 27, 1964), not heard.
-- Hess and Broder, *The Republican Establishment* (1967): read only to p. 70 of 432 (Oct. 29, 2026). The owner's copy
-  (Drive 1irnV_Id8SqRP-JSXe1U1TkRGmDnYIL7t, 21 MB) is over the Drive tool's 10 MB limit and not in the shared books
-  folder; the tool's text stops at p. 70; archive.org's copies (`republicanestabl0000hess`, `bwb_P9-EBD-999`) lend only.
-  Waits on the owner's copy in the shared folder: the rest of chapter 4 (the ACU, the Free Society Association,
-  Republicans for Progress), Romney, Nixon, Percy, Reagan, the regions. Undated in the pages read (the rows of
+- Hess and Broder, *The Republican Establishment* (1967): read whole, pp. 1-420, Oct. 29, 2026 (two runs). Undated
+  or unsettled in pp. 71-420 (notes/book-checks/hess-republican-establishment.md, "The rest"): the Wednesday Group's
+  founding (mid-1963, 72); Scott's "in" and "out" groups to the California Republican League (1965, 73); the House
+  Republicans' "State of the Union" and tax sharing (Jan. 1967, 85); Nixon's letter to Goldwater on "extremism in
+  defense of liberty" (Aug. 1964, 171); Nixon to the ASNE (1964, 151); Reagan on *Meet the Press* on the Rumford Act
+  (267: the programs of Jan. 9 and Sept. 11, 1966 both list him); Reagan's 1967 budget, tuition and tax acts (283-87:
+  the session laws); Florida's court-ordered special election of the legislature (Apr. 1967, 352: the day and the
+  canvass); Wallace to Ted Knap, $1 million raised (Apr. 1967, 357: the column); Hatfield's "Prelude to Manila" on
+  statewide television (autumn 1966, 388) and his Harvard Young Republicans speech (389). Undated in pp. 1-70 (the rows of
   notes/book-checks/hess-republican-establishment.md, "to leads"): Burch named chairman and the executive committee
   remade (July 1964); Rhodes's release of Ohio's delegation to Goldwater (July 1964); Hugh Scott's call for Burch's
   removal (Nov. 1964); Goldwater and Bliss at Goldwater's Washington apartment (Dec. 1964-Jan. 1965); Rhodes to the
@@ -958,9 +962,12 @@ Searched in the Daily Digest (daybook/committees), the bound Record's days, the 
 
 ### Young, *Two Suns of the Southwest* (the book agent, Oct. 29, 2026; notes/book-checks/young-two-suns.md)
 
-- The rest of the book: the Drive connector gave the text of printed pp. 1–151 only. Chapter 6 from p. 152, chapter 7
-  (171–199: the fall campaign, the Daisy spot, the Lady Bird Special, direct mail), the Conclusion and the notes
-  (225–256) unread; read them from the owner's copy another way, then log the records the notes give.
+- The rest of the book read Oct. 29, 2026 (pp. 152-207 and the notes; notes/book-checks/young-two-suns.md, "The
+  rest"). Still to do: log the records the notes give for the first run's pages (1-151; notes pp. 225-246) and map
+  them as `via` rows. Leads from pp. 152-207: Kitchel on *Meet the Press*, June 14, 1964 (Spivak Papers, cited 247
+  n.33): the transcript and an entry; the Democratic Study Group's campaign work from 1963 (205): the dates;
+  Rockefeller's note after the election, Nov. 13, 1964 (203, 253 n.): its text and recipient; Carter to Johnson on
+  Bryant and Wallace (179; the note's day): the memorandum.
 - The Platform Committee's hearings at San Francisco, July 1964: Rockefeller, Romney, Scranton, Goldwater, Lodge,
   Milton Eisenhower (Young, 99–100, undated): the days from the convention's *Proceedings*.
 - Nixon at the Waldorf-Astoria, Memorial Day weekend, 1964, plotting to take the convention, by Goldwater's account
@@ -1087,6 +1094,19 @@ Searched in the Daily Digest (daybook/committees), the bound Record's days, the 
   Humphrey's "batten down the hatches," Oct. 28, 1968 (321).
 - The day of each month-only entry from *RN* (the Bohemian Grove, July 1967; the trips of March–June 1967; the Agnew
   meeting, late March 1968; Kissinger's call of late September 1968): the press, the Nixon Library's schedules.
+
+### Logevall, *Choosing War*, and Barrett, *Uncertain Warriors* (the reading agent, Oct. 29, 2026; notes/book-checks/logevall-choosing-war.md, barrett-uncertain-warriors.md)
+
+- Nixon back from Saigon, early April 1964, calls the administration's policy "soft" (Logevall, 135 n.4). Republican Party / Vietnam; the day and his words from the *Times*.
+- Goldwater, late August 1964: the Matthias memorandum shows a secret plan to negotiate (Logevall, 228). Goldwater thread; beside `cal.1964-08-21.vietnam`; the day.
+- The war game Sigma II-64, Sept. 8–17, 1964 (Logevall, 242 n.37). Vietnam.
+- The White House meeting of Jan. 6, 1965: Rusk to talk Fulbright out of a debate (Logevall, 307 n.11). Vietnam: Congress; FRUS 1964–68, II, doc. 17, not yet read for this.
+- Johnson with the Joint Chiefs, Mar. 15, 1965: "Kill more Vietcong" (Logevall, 370 n.85). Vietnam; the Daily Diary and the record.
+- Vance's cable to McNamara in Saigon, July 17, 1965: Johnson's decision on the 34 battalions (Barrett, 41–43 n.107). Vietnam: the July decision.
+- Brooke (R-Mass.) to Johnson, May 19, 1967, an approach to the war like McNamara's (Barrett, 87 n.85: NS Agency file, Defense, vol. iv, box 12, LBJ Library). Vietnam: Congress / Republicans in Congress; the letter not read.
+- Mansfield to Johnson, May 29, 1967, a bombing halt and a barrier (Barrett, 92 n.114); Fulbright to Johnson, June 30, 1967 (94 n.120). Vietnam: Congress.
+- Acheson with Johnson, the night of Feb. 28, 1968 (Barrett, 128–29 n.61). Vietnam: 205,000.
+- Fulbright in the Senate, Apr. 1, 1968: the halt "not significant inducement" (Barrett, 156 n.149; 114 Cong. Rec. 8569, Apr. 2). Vietnam: Congress.
 
 ## Foreign
 
@@ -1836,6 +1856,49 @@ Foreign:
   estimate of North Vietnamese troops in Laos.
 - The tacit understanding with Peking, 1965–66: Rostow to Dobrynin, June 1966 (Dobrynin, *In Confidence*, 142).
 - Muong Sai (Oudomxay) for the gazetteer, should an entry place an event there.
+
+### Logevall, *Choosing War* (the reading agent, Oct. 29, 2026; notes/book-checks/logevall-choosing-war.md)
+
+- De Gaulle's statement on Vietnam, Aug. 29, 1963 (Logevall, 2–3 n.3; *Le Monde*). France / Vietnam; the text.
+- Hanoi agrees, mid-September 1964, through Moscow, to Thant's proposal of talks; Stevenson tells Rusk; no answer (Logevall, 212–13 nn.39–41). Vietnam; the day.
+- Gromyko with Rusk at New York, Dec. 9, 1964: no American stake; a great-power conference (Logevall, 290 n.72). Soviet Union / Vietnam; FRUS.
+- Thant's news conference of Feb. 12, 1965: talks "within or outside the United Nations" (Logevall, 343 n.16). Vietnam.
+- Bruce with Wilson, Feb. 16–17, 1965: "the pill without the jam" (Logevall, 347–48 n.25). Europe and the alliance / Vietnam; Bruce's reports.
+- Gromyko refuses the co-chairmen's proposal, Mar. 16, 1965 (Logevall, 364 n.70). Vietnam.
+
+### Gifford, *The Center Cannot Hold* (the reading agent, Oct. 28, 2026; notes/book-checks/gifford-center-cannot-hold.md)
+
+- Nixon's Policy Advisory Group and the announcement of his position papers, August 1960 (Gifford, 48; Campaign 1960
+  Position Papers, Box 2, Nixon Library): the day.
+- The RNC Research Division's "Preliminary Analysis of the 1960 Presidential Vote" (Rockefeller Papers, RG 4, J.1, Box
+  11, Folder 96) and its report "The 1960 Elections," April 1961 (RG 4, Series G, Box 27, Folder 316): the days and
+  findings (Gifford, 54–55, 88, 141).
+- Nixon's committee on government contracts announces a drive on employers and unions, March 1960 (Gifford, 70; the
+  *Afro-American*, Mar. 5, 1960): the day; the committee's release.
+- Goldwater to Mississippi Republicans, spring 1960, his "Confederate" speech (the *Afro-American*, May 28, 1960, 4;
+  Gifford, 72); and his invitations from the Minnesota, North Dakota and Mississippi conventions (*NR*, Apr. 9; 115).
+- The airlift of African students: State's refusal, the Kennedy Foundation's grant, August 1960 (Gifford, 82; Rampersad,
+  346–47).
+- Robinson joins Nixon's campaign, September 1960 (*California Eagle*, Sept. 8; Gifford, 83): the day.
+- Nixon to the Booker T. Washington Political Club, Portland, Ore., September 1960 (*Defender*, Sept. 15; Gifford, 84).
+- Lodge's forty-five-minute meeting with Nixon after the Harlem promise, Oct. 13–16 (the *Times*, Oct. 17, 1; Gifford, 85).
+- Morrow's draft telegram on King's jailing and Robinson's plea to Nixon, by Safire's account, late October (Morrow,
+  *Forty Years*, 206–208; Rampersad, 351; Gifford, 87).
+- Val Washington's resignation from the RNC after the election (Gifford, 89).
+- Rockefeller at a $100-a-plate Republican dinner, early 1960, not naming Nixon (*NR*, Feb. 13, 1960; Gifford, 114).
+- Draft Rockefeller's proposal of Goldwater for second place; Rhodes sounds Goldwater, July 1960 (Rockefeller Papers,
+  RG 15, Series 22, Subseries 4, Box 50, Folder 1200; Gifford, 52).
+- Rockefeller's readiness for a floor fight on civil rights, his press release of July 23, 1960 (RG 15, Series 25, Box
+  6, Folder 109; Gifford, 76), and Scott's seconding: the days.
+- Croll and Youth for Goldwater against Rockefeller's ten points, June 1960 (Gifford, 134; Evans, 91–92).
+- Young Americans for Freedom's decision to endorse no one in 1960 (Gifford, 138; Andrew, 71).
+- Kennedy on retraining textile and garment workers, New York, Oct. 12, 1960 (Gifford, 163): the APP record.
+- South Carolina's Republicans impound the State's ballots after the election (Gifford, 165; Shorey to Gifford, 2004).
+- Bridges: Nixon threw away a won election (cited by Valiukas to Hermann, Jan. 1, 1961; Gifford, 193): the day.
+- Lodge, Milton Eisenhower and Romney before the Republican platform committee, July 1964 (Gifford, 145; Blair, 112;
+  Perlstein, 374): the day.
+- A *U.S. News* poll of May 1960, Nixon the choice of 84 percent of Republicans (Gifford, 43), and Gallup's of late
+  April 1960 on which party does more for Negroes (Gifford, 70): whether the Opinion thread wants them.
 
 ## The Executive roster
 

@@ -3,15 +3,15 @@
 Written by `./bib audit-cal` (`tools/bib/calaudit.py`): the dated entries checked against the brief in
 CLAUDE.md ("The calendar"). A review list: a hit is a place to look, not an error. Rerun after editing.
 
-6962 dated entries.
+7029 dated entries.
 
 | Check | Entries |
 |---|---|
-| A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 229 |
+| A person in `c` with a Part III entry in neither `Names:` nor a `name:` tag | 238 |
 | (of which only a President's surname: Eisenhower, Kennedy, Johnson) | 6 |
 | Neither a bibliography of its own nor a `See [[id]]` back | 6 |
-| No primary record linked or named | 1813 |
-| A primary record named but not linked | 108 |
+| No primary record linked or named | 1862 |
+| A primary record named but not linked | 111 |
 | Threads (statements listed for review) | 230 |
 
 ## Names
@@ -20,8 +20,12 @@ Each person found in `c` by a surname that has a Part III entry, and the entries
 the person; several mean the surname is shared). "?" marks a surname that is also a place or a thing
 (White, Byrd, Lodge as a word): look before adding.
 
+- `cal.1960-01-12.elections-1960` (Jan. 12, II 196001.yaml): Nixon puts off Wilkins, who asked on Jan. 6 to bring twenty to twenty-five heads of civil rights organizations
+  - Hughes: Hughes, Harold E. (K–J Cong. III.F, Cong. III.B); Hughes, Richard J. (K–J Cong. III.F); Hughes, Sarah T. (K–J Cong. III.K); Hughes, Emmet John (Opp. III.G)
 - `cal.1960-01.governors-il` (Jan., II 196001.yaml): Chicago. Daley's choice for governor: Otto Kerner, a Cook County judge, Cermak's son-in-law, a Protestant.
   - Cermak: Cermak, Albina (K–J Cong. III.F)
+- `cal.1960-02-03.elections-1960` (Feb. 3, III 196002.yaml): Finch to Agnes Waldron of Nixon's staff, on Wilkins's telegram: a reply "signed by someone other than RN." Nix
+  - Waldron: Waldron, Robert E. (K–J Cong. III.K)
 - `cal.1960-02-26.latin-america-trip` (Feb. 26–29, III 196002.yaml): Argentina: the address to the Congress at Buenos Aires, Feb. 26; Mar del Plata; the Declaration of San Carlos 
   - Carlos: Carlos, John (K–J Cong. III.K)
 - `cal.1960-03-24.elections-1960-2` (Mar. 24, IV 196003.yaml): Johnson's campaign, Larry Jones to Larry Blackmon, on the western States: in Montana "no State leader"; in Ida
@@ -32,6 +36,8 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Swan: Swan, Jimmy (K–J Cong. III.K)
 - `cal.1960-06-23.elections-1960` (June 23, VII 196006.yaml): Philip Graham, publisher of the *Washington Post*, privately urges Johnson to run: a contest good for the part
   - Graham: Graham, Katharine (Cong. III.M, Wg. III.H)
+- `cal.1960-06-24.conservative-movement` (June 24, VII 196006.yaml): Shorey, South Carolina's Republican chairman, and Aubrey Barker of Arizona, cochairmen of the Goldwater for Pr
+  - Barker: Barker, Bernard L. (Wg. III.C)
 - `cal.1960-06.democratic-party` (June, VII 196006.yaml): Early in the month, liberals for Kennedy: a statement endorsing him by Rauh, Galbraith, Commager, Goldberg, Bu
   - Cannon: Cannon, Howard W. (K–J Cong. III.B); Cannon, Clarence (K–J Cong. III.D); Cannon, D. James (K–J Cong. III.K); Cannon, Paul (K–J Cong. III.K)
 - `cal.1960-06.elections-1960` (June, VII 196006.yaml): Toward the end of June, Kennedy to Clifford: Symington his first choice for Vice President, Humphrey having de
@@ -46,9 +52,18 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Bruce: Bruce, David K. E. (K–J Adm. III.E)
 - `cal.1960-07.elections-1960-4` (July, VIII 196007.yaml): Hyannis Port, after Los Angeles. Kennedy's strategy sessions, Johnson and his staff there. The nine States wit
   - Bailey: Bailey, Lloyd W. (K–J Cong. III.K)
+- `cal.1960-07.conservative-movement` (July, VIII 196007.yaml): Chicago, after the convention. Liebman and Charles Edison, once New Jersey's governor, give Youth for Goldwate
+  - Goldwater: Goldwater, Barry M. (Opp. III.B, Cong. III.C, Wg. III.I)
 - `cal.1960-08-02.elections-1960` (Aug. 2, IX 196008.yaml): Kennedy's campaign sets up a Civil Rights Section: Marjorie McKenzie Lawson director; Shriver, Wofford, Dawson
   - Lawson: Lawson, James M., Jr. (K–J Cong. III.K)
   - Martin: Martin, John Bartlow (K–J Adm. III.E); Martin, William McChesney, Jr. (K–J Adm. III.H); Martin, Joe (K–J Cong. III.K); Martin, James D. (Opp. III.I); Martin, Graham A. (Viet. III.C)
+- `cal.1960-08-09.republican-party` (Aug. 9, IX 196008.yaml): Hermann, head of the National Committee's Nationalities Division, to Nixon, Hall, Bassett, Finch and Morton: t
+  - Bassett: Bassett, Charles A., II (K–J Cong. III.K)
+  - Conrad: Conrad, Charles, Jr. (K–J Cong. III.K); Conrad, Robert B. (K–J Cong. III.K)
+- `cal.1960-08-23.elections-1960` (Aug. 23, IX 196008.yaml): Nixon's staff, McWhorter and Don Hughes, on whether he will see Wilkins, Clarence Mitchell and Roy Millenson: 
+  - Hughes: Hughes, Harold E. (K–J Cong. III.F, Cong. III.B); Hughes, Richard J. (K–J Cong. III.F); Hughes, Sarah T. (K–J Cong. III.K); Hughes, Emmet John (Opp. III.G)
+- `cal.1960-09-19.elections-1960` (Sept. 19, X 196009.yaml): Washington. American Nationalities for Nixon-Lodge in conference, over two hundred leaders. Nixon to them in t
+  - Scranton: Scranton, William W. (Opp. III.H)
 - `cal.1960-09-22.elections-1960` (Sept. 22, X 196009.yaml): Mitchell, S.D., the Corn Palace. Kennedy's last major speech on farm policy. After it: "Well, that's over."
   - Mitchell: Mitchell, George W. (K–J Adm. III.H); Mitchell, Stephen A. (K–J Cong. III.F); Mitchell, Clarence, Jr. (K–J Cong. III.H); Mitchell, Aaron (K–J Cong. III.K); Mitchell, Joseph McDowell (K–J Cong. III.K); Mitchell, Lester (K–J Cong. III.K); Mitchell, Oscar (K–J Cong. III.K); Mitchell, James P. (Opp. III.E); Mitchell, John N. (Adm. III.H, Wg. III.B); Mitchell, Martha (Wg. III.B)
   - Corn: Corn, N. S. (K–J Cong. III.K)
@@ -56,6 +71,8 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Robinson: Robinson, Spottswood W., III (K–J Cong. III.G); Robinson, Jackie (K–J Cong. III.K); Robinson, Paul W. (K–J Cong. III.K); Robinson, Ruby Doris Smith (K–J Cong. III.K)
 - `cal.1960-10.elections-1960-3` (Oct., XI 196010.yaml): End of October. Drew Pearson's story: Donald Nixon, the Vice President's younger brother, had a $205,000 loan 
   - Drew: Drew, Robert (K–J Cong. III.K)
+- `cal.1960-10.goldwater` (Oct., XI 196010.yaml): Goldwater on tour for Nixon and Lodge in South Carolina, Columbia, Dillon and Orangeburg among the stops: "Bef
+  - Dillon: Dillon, C. Douglas (K–J Adm. III.H)
 - `cal.1960-11-06.elections-1960` (Nov. 6, XII 196011.yaml): Nixon proposes that Eisenhower, Hoover and Truman go to Eastern Europe in 1961 and the Communist bloc's leader
   - Hoover: Hoover, J. Edgar (K–J Adm. III.I, 1968 III.H, Adm. III.H)
 - `cal.1960-11-09.soviet-union` (Nov. 9–10, XII 196011.yaml): Khrushchev congratulates the President-elect: relations to go back to the line of Roosevelt's time; ready to g
@@ -70,6 +87,9 @@ the person; several mean the surname is shared). "?" marks a surname that is als
   - Swan: Swan, Jimmy (K–J Cong. III.K)
 - `cal.1960-11-18.electoral-college` (Nov. 18, XII 196011.yaml): Montgomery. R. Lea Harris, an attorney, calls the South's Democratic and Republican electors to meet and plan 
   - Harris: Harris, Oren (K–J Cong. III.D); Harris, Louis (K–J Cong. III.J); Harris, Fred R. (1968 III.I)
+- `cal.1960-11.republican-party` (Nov., XII 196011.yaml): Harvard. Bruce Chapman, of National Students for Rockefeller, announces *Advance*, a magazine for the "nationa
+  - Bruce: Bruce, David K. E. (K–J Adm. III.E)
+  - Rockefeller: Rockefeller, John D., IV (K–J Cong. III.K); Rockefeller, Laurance S. (K–J Cong. III.K); Rockefeller, Margaretta Fitler (K–J Cong. III.K); Rockefeller, Nelson A. (Opp. III.H, Cong. III.H); Rockefeller, Winthrop (Opp. III.H); Rockefeller, Nelson (1968 III.M)
 - `cal.1961-01-10.cuba` (Jan. 10, XIV 196101.yaml): *New York Times*, front page, Paul Kennedy: "U.S. Helps Train an Anti-Castro Force at Secret Guatemalan Air-Gr
   - Kennedy: Kennedy, Jacqueline (K–J Adm. III.A); Kennedy, Joseph P. (K–J Adm. III.A); Kennedy, Robert F. (K–J Adm. III.A, K–J Cong. III.B, 1968 III.K); Kennedy, Edward M. (K–J Cong. III.B, 1968 III.K, 1968 III.P, Cong. III.A); Kennedy, John F. (Viet. III.A)
   - Train: Train, Russell E. (Adm. III.F)
@@ -534,12 +554,14 @@ Some events have none (a speech outside the Public Papers, a march, a strike); t
 the order, the APP document, the FRUS document, the case.
 
 - `cal.1960-01-09.elections-1960` (Jan. 9, II 196001.yaml): Nixon, on his forty-seventh birthday, announces for the Republican nomination; his name to go on the New Hamps
+- `cal.1960-01-12.elections-1960` (Jan. 12, II 196001.yaml): Nixon puts off Wilkins, who asked on Jan. 6 to bring twenty to twenty-five heads of civil rights organizations
+- `cal.1960-01-22.voting-rights` (Jan. 22, II 196001.yaml): Wilkins to Nixon by telegram: the House Republican leaders hold back from the discharge petition to bring the 
 - `cal.1960-01-23.goldwater` (Jan. 23, II 196001.yaml): Goldwater's column, "How Do You Stand, Sir?," first runs in the *Los Angeles Times*.
-- `cal.1960-01.conservative-movement` (Jan., II 196001.yaml): Chicago, the Union League Club. Twenty-nine members of Manion's Goldwater for President committee meet. Wannam
 - `cal.1960-01.elections-1960` (Jan., II 196001.yaml): DiSalle, Ohio's governor, declares for Kennedy and pledges him the State's sixty-four delegates, after a year'
 - `cal.1960-01.democratic-party` (Jan., II 196001.yaml): Wisconsin. The Democratic Party's administrative committee changes the allocation of the State's convention de
 - `cal.1960-01.governors-il` (Jan., II 196001.yaml): Chicago. Daley's choice for governor: Otto Kerner, a Cook County judge, Cermak's son-in-law, a Protestant.
 - `cal.1960-02-01.sit-ins` (Feb. 1, III 196002.yaml): Four freshmen of North Carolina A&T sit at the Woolworth's lunch counter in Greensboro and are not served. The
+- `cal.1960-02-03.elections-1960` (Feb. 3, III 196002.yaml): Finch to Agnes Waldron of Nixon's staff, on Wilkins's telegram: a reply "signed by someone other than RN." Nix
 - `cal.1960-02-08.sit-ins` (Feb. 8–13, III 196002.yaml): The sit-ins spread: Durham, Winston-Salem, Charlotte, Raleigh; Hampton; Rock Hill, S.C.; Nashville.
 - `cal.1960-02-14.elections-1960` (Feb. 14, III 196002.yaml): Robert Kennedy to the *Peoria Journal-Star*: "Senator Humphrey is our big rival now." Over the long run, he ex
 - `cal.1960-02-17.king` (Feb. 17, III 196002.yaml): An Alabama grand jury in Montgomery indicts King for perjury on his Alabama income tax returns for 1956 and 19
@@ -552,7 +574,6 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1960-03-24.elections-1960` (Mar. 24, IV 196003.yaml): Symington announces for the Democratic nomination. He enters no primaries.
 - `cal.1960-03-24.elections-1960-2` (Mar. 24, IV 196003.yaml): Johnson's campaign, Larry Jones to Larry Blackmon, on the western States: in Montana "no State leader"; in Ida
 - `cal.1960-03-26.desegregation-public-places-las-vegas` (Mar. 26, IV 196003.yaml): Las Vegas. With a march on the Strip threatened against the casinos' exclusion of Negroes, Governor Sawyer bri
-- `cal.1960-03-26.elections-1960` (Mar. 26, IV 196003.yaml): South Carolina's Republican convention. Goldwater speaks, against Nixon's "complacent attitude" toward the Sou
 - `cal.1960-04.economy` (Apr., V 196004.yaml): The business cycle's peak, as the National Bureau later dated it. The recession of 1960–61 begins.
 - `cal.1960-04.elections-1960` (Apr., V 196004.yaml): West Virginia, after Wisconsin; its primary May 10. Kennedy's own poll there, 70–30 for him in December, now 6
 - `cal.1960-04-05.mayors-milwaukee` (Apr. 5, V 196004.yaml): Milwaukee elects Maier mayor over U.S. Representative Reuss, about 58 percent; the mayor not running.
@@ -560,32 +581,45 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1960-04-07.conservative-movement` (Apr. 7, V 196004.yaml): Goldwater's *The Conscience of a Conservative*, written by Bozell, first shipped to the bookstores: Manion's V
 - `cal.1960-04-08.elections-1960` (Apr. 8, V 196004.yaml): Kennedy calls on Johnson in his Capitol office and asks him, by Johnson's account, to get Robert Byrd "out of 
 - `cal.1960-04-08.elections-1960-2` (Apr. 8, V 196004.yaml): Charleston, W. Va. Robert Kennedy asks the Kennedy organizers for "a cold-blooded appraisal" of West Virginia,
+- `cal.1960-04-08.republican-party` (Apr. 8, V 196004.yaml): Val Washington, the National Committee's director for Negro voters, back from a month in Colorado, Oregon, Was
+- `cal.1960-04-09.conservative-movement` (Apr. 9, V 196004.yaml): Des Moines. The Midwest Federation of College Young Republican Clubs: a liberal chairman elected by five votes
 - `cal.1960-04-19.sit-ins` (Apr. 19, V 196004.yaml): Nashville. Z. Alexander Looby's house bombed before dawn; he and his wife unhurt. Some thousands march in sile
 - `cal.1960-04-21.elections-1960` (Apr. 21, V 196004.yaml): Kennedy to the American Society of Newspaper Editors, Washington, on the religious issue: "I am not the Cathol
 - `cal.1960-04-28.georgia-ga` (Apr. 28, V 196004.yaml): Sibley presents the committee's reports to the General Assembly. The majority, eleven: two constitutional amen
 - `cal.1960-04.elections-1960-2` (Apr., V 196004.yaml): Palm Beach, shortly after Wisconsin. Joseph Kennedy and his sons with Franklin D. Roosevelt, Jr.: Robert Kenne
 - `cal.1960-04.elections-1960-3` (Apr., V 196004.yaml): West Virginia. Humphrey, late in April: "I don't think elections should be bought"; "I can't afford to run thr
 - `cal.1960-05-02.crime-and-hijacking-ca` (May 2, VI 196005.yaml): Chessman executed in the gas chamber at San Quentin, his appeals refused.
+- `cal.1960-05-03.republican-party` (May 3, VI 196005.yaml): Wisconsin's Young Republicans pass a resolution praising Goldwater, among other conservative declarations.
 - `cal.1960-05-04.elections-1960` (May 4, VI 196005.yaml): Humphrey, campaigning in West Virginia, for raising the income tax exemption from $600 to $800 a person. Kenne
 - `cal.1960-05-07.governors-tx` (May 7, VI 196005.yaml): Texas Democratic primary. Governor Daniel renominated for a third term over Jack Cox, a former State represent
 - `cal.1960-05-09.elections-1960` (May 9, VI 196005.yaml): Eisenhower to Oveta Culp Hobby: Texas's delegation might name Robert Anderson its favorite son, "to get some R
 - `cal.1960-05-10.elections-1960-2` (May 10, VI 196005.yaml): Humphrey, beaten by Kennedy in West Virginia, withdraws that night, at Charleston.
 - `cal.1960-05-10.sit-ins` (May 10, VI 196005.yaml): Nashville. Six downtown stores serve Negroes at their lunch counters, by agreement with the merchants. Three m
+- `cal.1960-05-11.elections-1960` (May 11, VI 196005.yaml): Jackie Robinson to Nixon, after their meeting with Rogers in May: speak out with authority on civil rights soo
+- `cal.1960-05-12.republican-party` (May 12, VI 196005.yaml): Morton has offered Rockefeller the convention post of his choice, keynote speaker and temporary chairman or pe
+- `cal.1960-05-12.conservative-movement` (May 12, VI 196005.yaml): Youth for Goldwater for Vice President, Croll its chairman; Caddy, Franke, Harley, Noble and Weicher its execu
 - `cal.1960-05-13.elections-1960` (May 13, VI 196005.yaml): Larry King reports to Johnson's campaign on his trip to Wyoming, May 6–10: Kennedy with "a virtual stranglehol
+- `cal.1960-05-23.elections-1960` (May 23, VI 196005.yaml): Rockefeller's statement on the summit's collapse, the first of those on "national issues of serious moment" he
 - `cal.1960-05-25.elections-1960` (May 25, VI 196005.yaml): Robert Kennedy's delegate count, to Stephen Smith: 777 for his brother, sixteen more than the 761 needed, "alm
+- `cal.1960-05-25.elections-1960-2` (May 25, VI 196005.yaml): Rockefeller to a meeting of Republican State leaders: "in all candor," he would accept a draft for the nominat
 - `cal.1960-05-27.elections-1960` (May 27–31, VI 196005.yaml): Johnson's western tour, six States in five days from the Friday before Memorial Day: Des Moines, Loveless aboa
 - `cal.1960-05.democratic-party` (May, VI 196005.yaml): Mid-month, Johnson to Stevenson, trying to hold delegates from Kennedy: "If I don't get it, it will be you."
 - `cal.1960-05.elections-1960` (May, VI 196005.yaml): Kennedy calls on Stevenson at Libertyville, Ill. By his account to Schlesinger, he told Stevenson "that Lyndon
 - `cal.1960-05.democratic-party-2` (May, VI 196005.yaml): The Democratic Advisory Council's statement on the collapse of the Paris summit condemns Eisenhower for going 
+- `cal.1960-05.elections-1960-2` (May, VI 196005.yaml): Mid-May. Rockefeller turns down Morton's offer and will not go to the convention, the one way to keep his name
 - `cal.1960-06-08.elections-1960` (June 8, VII 196006.yaml): Rockefeller, in a statement: those taking control of the Republican Party have not made clear where it is head
 - `cal.1960-06-09.elections-1960` (June 9, VII 196006.yaml): New York. King and Randolph announce "massive nonviolent picketing" of both national conventions, the "March o
+- `cal.1960-06-09.elections-1960-2` (June 9, VII 196006.yaml): Nixon on Rockefeller's statement: "he is free to criticize, since it is motivated by his concern over some adm
+- `cal.1960-06-10.elections-1960` (June 10, VII 196006.yaml): Jackie Robinson's column prints, with Nixon's leave, Nixon's letter to him on civil rights: no party may take 
 - `cal.1960-06-11.elections-1960` (June 11, VII 196006.yaml): Rockefeller telephones Eisenhower for advice on his candidacy: his statement no criticism of the administratio
 - `cal.1960-06-12.elections-1960` (June 12, VII 196006.yaml): Hyannis Port. Kennedy tells Galbraith and Schlesinger he is for Humphrey for Vice President; he has asked Reut
 - `cal.1960-06-23.elections-1960` (June 23, VII 196006.yaml): Philip Graham, publisher of the *Washington Post*, privately urges Johnson to run: a contest good for the part
+- `cal.1960-06-24.conservative-movement` (June 24, VII 196006.yaml): Shorey, South Carolina's Republican chairman, and Aubrey Barker of Arizona, cochairmen of the Goldwater for Pr
 - `cal.1960-06.democratic-party` (June, VII 196006.yaml): Early in the month, liberals for Kennedy: a statement endorsing him by Rauh, Galbraith, Commager, Goldberg, Bu
 - `cal.1960-06.elections-1960` (June, VII 196006.yaml): Toward the end of June, Kennedy to Clifford: Symington his first choice for Vice President, Humphrey having de
 - `cal.1960-06.elections-1960-2` (June, VII 196006.yaml): Bobby Baker to Sorensen, who doubts Johnson would take second place: "Don't be too sure."
 - `cal.1960-06.elections-1960-3` (June, VII 196006.yaml): Rockefeller, late in June: the country seriously open to missile attack; "relative military power of the Unite
+- `cal.1960-06.elections-1960-4` (June, VII 196006.yaml): Buffalo. Rockefeller to the National Sunday School and Baptist Training Union Conference: an executive order a
 - `cal.1960-07-03.elections-1960` (July 3–4, VIII 196007.yaml): Johnson will not rule out taking second place.
 - `cal.1960-07-05.elections-1960` (July 5, VIII 196007.yaml): Johnson announces in the New Senate Office Building's auditorium, Rayburn in the front row: "I am, as of this 
 - `cal.1960-07-08.elections-1960` (July 8, VIII 196007.yaml): Robert Kennedy and Governor Lawrence: Lawrence will do as Pennsylvania's delegation wants, and back Kennedy, G
@@ -596,10 +630,14 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1960-07-13.elections-1960-2` (July 13–14, VIII 196007.yaml): Clifford, for Symington, has Kennedy's offer of second place by the evening: "We had a deal signed, sealed and
 - `cal.1960-07-14.elections-1960` (July 14, VIII 196007.yaml): Kennedy offers Johnson second place; Robert Kennedy to Johnson's suite that afternoon; the accounts of what he
 - `cal.1960-07-19.elections-1960` (July 19, VIII 196007.yaml): Hauge by telephone urges Eisenhower to press Rockefeller to take second place, as Nixon has asked. Eisenhower:
+- `cal.1960-07-19.elections-1960-2` (July 19, VIII 196007.yaml): Rockefeller's statement to the platform committee, "Let Freedom Ring: A Centennial Memorandum for the 1960 Rep
 - `cal.1960-07-20.elections-1960` (July 20, VIII 196007.yaml): Chicago. Goldwater before the platform committee, his "Suggested Declaration of Republican Principles": "To ou
+- `cal.1960-07-21.elections-1960` (July 21, VIII 196007.yaml): The Draft Rockefeller Committee, Brinton of San Francisco its chairman, releases a five-State survey by Politi
 - `cal.1960-07-22.elections-1960` (July 22–23, VIII 196007.yaml): Nixon flies to New York to see Rockefeller at his Fifth Avenue apartment, the night of July 22. Their statemen
 - `cal.1960-07-24.elections-1960` (July 24, VIII 196007.yaml): Chicago, Sunday. Rockefeller at Liberty Baptist Church, King beside him on the pulpit, some six thousand Negro
 - `cal.1960-07-24.elections-1960-2` (July 24, VIII 196007.yaml): Eisenhower, at Newport, R.I., and Nixon on the Fifth Avenue statement. Eisenhower angered by its defense plank
+- `cal.1960-07-24.republican-party` (July 24, VIII 196007.yaml): Chicago. Shorey, South Carolina's Republican chairman and a cochairman of the Goldwater for President Committe
+- `cal.1960-07-24.democratic-party` (July 24, VIII 196007.yaml): Thurmond's analysis of the Democratic platform: "a blueprint for a welfare state and an end to individual libe
 - `cal.1960-07-25.sit-ins` (July 25, VIII 196007.yaml): Greensboro's Woolworth's serves Negroes at its lunch counter, its own Negro employees the first.
 - `cal.1960-07-25.republican-party` (July 25, VIII 196007.yaml): Nixon, arrived in Chicago, at a televised news conference at the Hilton: the convention must adopt "a strong c
 - `cal.1960-07-26.republican-party` (July 26, VIII 196007.yaml): The platform committee's last session, Laird in the chair. The Nixon–Rockefeller civil rights plank over Tower
@@ -608,41 +646,66 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1960-07.elections-1960` (July, VIII 196007.yaml): Early July. Kennedy and Jackie Robinson, who backs Nixon, meet. By Robinson's account Kennedy says, "I don't k
 - `cal.1960-07.elections-1960-2` (July, VIII 196007.yaml): Early July. Percy, chairman of the platform committee, in New York to hear Rockefeller's objections, the defen
 - `cal.1960-07.elections-1960-4` (July, VIII 196007.yaml): Hyannis Port, after Los Angeles. Kennedy's strategy sessions, Johnson and his staff there. The nine States wit
+- `cal.1960-07.conservative-movement` (July, VIII 196007.yaml): Chicago, after the convention. Liebman and Charles Edison, once New Jersey's governor, give Youth for Goldwate
+- `cal.1960-07-28.republican-party` (July 28, VIII 196007.yaml): Shorey, South Carolina's Republican chairman, to the *News and Courier*: Nixon had thought of a less conservat
+- `cal.1960-08-09.republican-party` (Aug. 9, IX 196008.yaml): Hermann, head of the National Committee's Nationalities Division, to Nixon, Hall, Bassett, Finch and Morton: t
+- `cal.1960-08-10.republican-party` (Aug. 10, IX 196008.yaml): Lefkowitz, New York's attorney general, in a statement of the State Republican Party: the Democrats "talked bi
+- `cal.1960-08-12.republican-party` (Aug. 12, IX 196008.yaml): Val Washington, for the National Committee: Kennedy has led the Democrats in making civil rights "second-class
 - `cal.1960-08-16.elections-1960` (Aug. 16, IX 196008.yaml): Hall and Finch's memorandum for Nixon's campaign on religion: no group supporting him on religious grounds to 
 - `cal.1960-08-17.elections-1960` (Aug. 17, IX 196008.yaml): Kennan to Kennedy: "We may, by January, be faced with an extremely disturbing if not calamitous situation"; a 
+- `cal.1960-08-23.elections-1960` (Aug. 23, IX 196008.yaml): Nixon's staff, McWhorter and Don Hughes, on whether he will see Wilkins, Clarence Mitchell and Roy Millenson: 
+- `cal.1960-08-24.republican-party` (Aug. 24, IX 196008.yaml): The National Committee's *Battle Line* on Lodge and Johnson: "the Democrats wrote a civil rights plank promisi
+- `cal.1960-08-24.elections-1960-2` (Aug. 24, IX 196008.yaml): John Richardson Jr., president of the International Rescue Committee, to Ned Harding of Nixon's staff: a Citiz
 - `cal.1960-08-25.elections-1960` (Aug. 25, IX 196008.yaml): "Kennedy before Labor Day," report no. 2 of the Simulactics Corporation, under contract to the Democrats: Kenn
 - `cal.1960-08-27.sit-ins` (Aug. 27, IX 196008.yaml): Jacksonville. White men with ax handles and baseball bats attack Negro youths of the NAACP's Youth Council aft
 - `cal.1960-08.elections-1960` (Aug., IX 196008.yaml): Washington. Kennedy and Governor Vandiver of Georgia confer: Vandiver's support for a promise never to send fe
 - `cal.1960-08.civil-rights-the-executive` (Aug., IX 196008.yaml): A morning. Kennedy picks up Wofford, his campaign man on civil rights, in his convertible: "Now, in five minut
+- `cal.1960-08-30.elections-1960` (Aug. 30, IX 196008.yaml): McCaffrey of Nixon's staff to Carl Shipley, the District's Republican chairman, on a women's club's proposal o
+- `cal.1960-09-01.elections-1960` (Sept. 1, X 196009.yaml): Klein announces American Nationalities for Nixon-Lodge: John Richardson Jr. and McKeldin, once Maryland's gove
+- `cal.1960-09-01.republican-party` (Sept. 1, X 196009.yaml): Shorey, South Carolina's Republican chairman, to Morton: Nixon to keep to the platform's words on civil rights
+- `cal.1960-09-03.elections-1960` (Sept. 3, X 196009.yaml): Lodge and Rockefeller open the Republican campaign in New York in the Catskills, the Jewish resorts among the 
+- `cal.1960-09-09.elections-1960` (Sept. 9, X 196009.yaml): E. Frederic Morrow leaves the White House staff for Nixon's campaign, a staff assistant. By his account he is 
 - `cal.1960-09-10.conservative-movement` (Sept. 10–11, X 196009.yaml): Sharon, Conn., Great Elm, the Buckleys' estate. Almost a hundred young conservatives, called from Liebman's of
 - `cal.1960-09-12.oil` (Sept. 12–16, X 196009.yaml): Esso Export restores up to 4 cents a barrel of its Middle East cuts, to the other companies' postings: Arabian
 - `cal.1960-09-13.governors-vt` (Sept. 13, X 196009.yaml): Vermont's Republican primary for governor, Stafford not running. Keyser, Speaker of the Vermont House, over Ba
+- `cal.1960-09-14.elections-1960-2` (Sept. 14, X 196009.yaml): Lodge names Jewel Stratford Rogers, a Negro, once an assistant attorney general, his consultant on civil right
+- `cal.1960-09-23.elections-1960` (Sept. 23, X 196009.yaml): Byrnes, once Governor of South Carolina, Secretary of State and a Justice, to the press: for Nixon and Lodge. 
 - `cal.1960-09-25.elections-1960` (Sept. 25, X 196009.yaml): Eisenhower and Nixon by telephone, the eve of the first debate: Nixon is "going to play it low key. He was goi
 - `cal.1960-09-27.elections-1960` (Sept. 27, X 196009.yaml): Ohio, the morning after the first debate. Lausche, who said Sept. 25 he would not appear with Kennedy at Cleve
 - `cal.1960-10-03.court` (Oct. 3, XI 196010.yaml): The Court's October Term 1960 opens.
 - `cal.1960-10-06.elections-1960` (Oct. 6, XI 196010.yaml): Johnson, through Reedy: the Republican administration's record "dangerously close to the evils of Reconstructi
 - `cal.1960-10-10.elections-1960` (Oct. 10–13, XI 196010.yaml): Johnson's whistle-stop train, the "LBJ Victory Special," from Culpeper, Va., through the South to New Orleans.
+- `cal.1960-10-11.conservative-movement` (Oct. 11, XI 196010.yaml): Buckley settles *National Review*'s course: no endorsement of Nixon and no call to abstain. Burnham had argued
 - `cal.1960-10-12.elections-1960` (Oct. 12, XI 196010.yaml): Lodge, in East Harlem, promises a Negro in a Nixon cabinet. Nixon says he will appoint the best man, whatever 
+- `cal.1960-10-13.elections-1960-2` (Oct. 13, XI 196010.yaml): Lodge, in Virginia and North Carolina, on his Harlem promise: the second man on the ticket can pledge nothing;
 - `cal.1960-10-15.elections-1960` (Oct. 15, XI 196010.yaml): Phoenix, the Westward Ho. Goldwater presses Nixon in private to put more partisan fire into his campaign; then
+- `cal.1960-10-17.republican-party` (Oct. 17, XI 196010.yaml): Shorey, South Carolina's Republican chairman, to McWhorter of Nixon's staff: Nixon to tell Lodge that "if he d
 - `cal.1960-10-18.elections-1960` (Oct. 18, XI 196010.yaml): Johnson to Connally, by letter: "deeply disturbed about Texas." "We just must not win the nation and lose Texa
 - `cal.1960-10-19.king` (Oct. 19–22, XI 196010.yaml): Atlanta's students resume their sit-ins. King arrested with them in the Magnolia Room of Rich's department sto
 - `cal.1960-10-20.economy` (Oct. 20, XI 196010.yaml): Gold in London to about $40.60 an ounce, against the Treasury's $35.
 - `cal.1960-10-20.cities-and-housing-boston` (Oct. 20, XI 196010.yaml): Boston. Logue, New Haven's development administrator under Lee since 1954, takes charge of the Boston Redevelo
 - `cal.1960-10-21.elections-1960-2` (Oct. 21, XI 196010.yaml): Claude Robinson to Nixon, Hall and Finch, his evaluation of the campaign as of Oct. 14: Nixon at 51 percent or
 - `cal.1960-10-22.elections-1960` (Oct. 22, XI 196010.yaml): Atlanta. Mayor Hartsfield, having brokered King's release from jail, tells reporters that Kennedy intervened, 
+- `cal.1960-10-22.conservative-movement` (Oct. 22, XI 196010.yaml): *National Review*, the issue of Oct. 22: neither for Nixon nor for staying home. Conservatives equally well in
+- `cal.1960-10-23.republican-party` (Oct. 23, XI 196010.yaml): Morhouse, New York's Republican chairman, to the press: registration at its highest ever points to Nixon and L
 - `cal.1960-10-24.cuba` (Oct. 24, XI 196010.yaml): Cuba nationalizes the remaining American-owned businesses.
 - `cal.1960-10-25.elections-1960-2` (Oct. 25, XI 196010.yaml): Robert Kennedy has a telephone call reporting "invasion fever" in Guatemala, some military action hinted.
+- `cal.1960-10-26.elections-1960` (Oct. 26, XI 196010.yaml): Henderson, for Richardson, by telegram to Nixon's train: answer Kennedy with his advisers Bowles and Stevenson
 - `cal.1960-10-30.cuba` (Oct. 30, XI 196010.yaml): *La Hora*, Guatemala City: Cubans in training at a guarded base near Retalhuleu, built for $1 million, for a l
 - `cal.1960-10-30.elections-1960` (Oct. 30, XI 196010.yaml): Brooklyn, Sunday. Rockefeller speaks against King's arrest from the pulpits of four Negro churches, Jackie Rob
 - `cal.1960-10-30.elections-1960-2` (Oct. 30, XI 196010.yaml): Kennedy to Kennan: "very much in accord with the main thrust of your argument, and with most of your particula
+- `cal.1960-10-30.elections-1960-3` (Oct. 30, XI 196010.yaml): Nixon by telegram to a Nixon-Lodge Freedom Rally of Hungarian-Americans in New York: every political, economic
 - `cal.1960-10.elections-1960` (Oct., XI 196010.yaml): About a month before the election. Kennedy, through an intermediary, asks to talk with Bissell of the CIA. Bis
 - `cal.1960-10.elections-1960-2` (Oct., XI 196010.yaml): Mid-October, before the fourth debate. Patterson, told by the head of Alabama's Air National Guard, which trai
 - `cal.1960-10.elections-1960-3` (Oct., XI 196010.yaml): End of October. Drew Pearson's story: Donald Nixon, the Vice President's younger brother, had a $205,000 loan 
 - `cal.1960-10-31.elections-1960` (Oct. 31, XI 196010.yaml): The White House, lunch. Eisenhower's schedule for the last week settled; three more appearances he offers turn
+- `cal.1960-10.goldwater` (Oct., XI 196010.yaml): Goldwater on tour for Nixon and Lodge in South Carolina, Columbia, Dillon and Orangeburg among the stops: "Bef
 - `cal.1960-11-02.elections-1960` (Nov. 2, XII 196011.yaml): Hoover reports to Nixon on Ball's talk with the French Ambassador, Alphand, Oct. 31, as the FBI recorded it: B
 - `cal.1960-11-04.elections-1960` (Nov. 4, XII 196011.yaml): Dallas, the Adolphus Hotel. A Republican crowd, Representative Alger with a sign, LBJ SOLD OUT TO YANKEE SOCIA
 - `cal.1960-11-04.elections-1960-2` (Nov. 4, XII 196011.yaml): Robert Kennedy flies to South Dakota to speak for McGovern, behind in his race for the Senate, the Friday befo
+- `cal.1960-11-04.immigration` (Nov. 4, XII 196011.yaml): McCaffrey sends Nixon's statement on immigration, made in Philadelphia, to the Nixon-Lodge Committee of northe
 - `cal.1960-11-05.elections-1960` (Nov. 5, XII 196011.yaml): Claude Robinson's final estimate for Nixon: 51 percent or more in States with 176 electoral votes, 50 percent 
+- `cal.1960-11-07.elections-1960-2` (Nov. 7, XII 196011.yaml): Thurmond, by the *State*'s report, talks "like a Democrat who will vote Republican Tuesday": he will vote his 
 - `cal.1960-11-08.state-constitutions-ky` (Nov. 8, XII 196011.yaml): Kentucky's voters refuse a convention to revise the constitution of 1891, called for by Combs and approved by 
 - `cal.1960-11-08.elections-1960-2` (Nov. 8, XII 196011.yaml): Dallas. Alger's full-page advertisement in the Morning News: his side of the Adolphus Hotel affair.
 - `cal.1960-11-08.elections-1960-3` (Nov. 8, XII 196011.yaml): Election night. Daley to Kennedy, by Bradlee's account: "Mr. President . . . with a little luck and the help o
@@ -653,7 +716,9 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1960-11-09.elections-1960-3` (Nov. 9, XII 196011.yaml): Eisenhower dictates a letter to Nixon and takes his call. Nixon still expects California, Illinois, perhaps Mi
 - `cal.1960-11-09.elections-1960-4` (Nov. 9, XII 196011.yaml): Eisenhower to Ann Whitman: the election a "repudiation of everything he had done for eight years." Flying to A
 - `cal.1960-11-09.elections-1960-5` (Nov. 9, XII 196011.yaml): Los Angeles, the morning, by Nixon's account. Dirksen telephones Nixon: ask a recount, do not concede, or the 
+- `cal.1960-11-09.goldwater` (Nov. 9, XII 196011.yaml): Goldwater's statement on the election: those who hold the traditional American philosophy of government, "clea
 - `cal.1960-11-10.elections-1960` (Nov. 10–11, XII 196011.yaml): Morton, the Republican chairman, meets on the charges of fraud coming in and wires the party's leaders in elev
+- `cal.1960-11-11.republican-party` (Nov. 11, XII 196011.yaml): Hinman to Rockefeller: Morton to stay on as national chairman for a time, at Nixon's and Eisenhower's request,
 - `cal.1960-11-13.elections-1960` (Nov. 13, XII 196011.yaml): Chicago. Francis X. Connell, the Republicans' Cook County chairman: the Democrats stole 100,000 votes, and the
 - `cal.1960-11-13.elections-1960-2` (Nov. 13, XII 196011.yaml): Herbert Hoover telephones Nixon, at Joseph Kennedy's asking: meet the President-elect; "some indications of na
 - `cal.1960-11-14.transition-and-staff` (Nov. 14, XII 196011.yaml): Kennedy flies from Palm Beach to see Nixon at Key Biscayne, Fla.; they talk alone. In Washington, Clifford and
@@ -670,6 +735,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1960-11-23.transition-and-staff` (Nov. 23, XII 196011.yaml): Kennedy by telephone to Sharon: task forces on Latin America, Africa, USIA and foreign economic policy, not to
 - `cal.1960-11-30.elections-1960` (Nov. 30, XII 196011.yaml): Eisenhower telephones the Attorney General, "very much disturbed" by the charges of fraud: the government to u
 - `cal.1960-11.elections-1960` (Nov., XII 196011.yaml): Late November. Kennedy: "My information is the count has been accurate"; he favors recounting votes whenever "
+- `cal.1960-11.republican-party` (Nov., XII 196011.yaml): Harvard. Bruce Chapman, of National Students for Rockefeller, announces *Advance*, a magazine for the "nationa
 - `cal.1960-12-01.transition-and-staff` (Dec. 1, XIII 196012.yaml): The cabinet named, the first of it. Kennedy names Ribicoff to HEW; Williams to African affairs.
 - `cal.1960-12-01.transition-and-staff-2` (Dec. 1, XIII 196012.yaml): Schlesinger with the President-elect at noon, his Senate office, then Georgetown, by Schlesinger's account. Ho
 - `cal.1960-12-03.transition-and-staff-cabinet` (Dec. 3, XIII 196012.yaml): Hodges to Commerce. Check the date.
@@ -687,6 +753,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1960-12-16.robert-kennedy` (Dec. 16, XIII 196012.yaml): The President-elect names his brother Attorney General, with Dillon to the Treasury. White to be Deputy Attorn
 - `cal.1960-12-17.transition-and-staff-cabinet` (Dec. 17, XIII 196012.yaml): Day to the Post Office, the last of the cabinet.
 - `cal.1960-12-20.vietnam` (Dec. 20, XIII 196012.yaml): The National Front for the Liberation of South Vietnam founded at a congress in Tây Ninh province, as the Lao 
+- `cal.1960-12-22.republican-party` (Dec. 22, XIII 196012.yaml): Richardson's report for American Nationalities for Nixon-Lodge: "basic mistakes made prior to and during the c
 - `cal.1960-12-28.elections-1960-2` (Dec. 28, XIII 196012.yaml): Eisenhower meets Nixon, Morton, Persons and others. Eisenhower: "we have made civil rights a main part of our 
 - `cal.1960-12-30.transition-and-staff` (Dec. 30, XIII 196012.yaml): Stevenson to Sorensen, on the inaugural address: first of all "a frank acknowledgment of the changing equilibr
 - `cal.1960-12-30.elections-1960` (Dec. 30, XIII 196012.yaml): Nixon to Don Maxwell of the Chicago Tribune: "The time to stop vote fraud is before and on election day and no
@@ -904,6 +971,7 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1962-07-18.africa` (July 18, XXXII 196207.yaml): The Cabinet Room, on African policy at the UN. Kennedy: why take the initiative on a resolution on Portugal; t
 - `cal.1962-07-19.vietnam` (July 19, XXXII 196207.yaml): The National Liberation Front proposes, in a public statement: a cease-fire; the American military out; a prov
 - `cal.1962-07-20.albany` (July 20, XXXII 196207.yaml): Elliott enjoins the Albany marches.
+- `cal.1962-07-22.laos` (July 22, XXXII 196207.yaml): Harriman to Ưng Văn Khiêm, North Vietnam's Foreign Minister and delegate to the Geneva conference: are North V
 - `cal.1962-07-23.georgia-albany` (July 23, XXXII 196207.yaml): Marion King beaten at the Camilla jail.
 - `cal.1962-07-24.georgia-albany` (July 24, XXXII 196207.yaml): Tuttle vacates Elliott's order. That night in Albany, rocks and bottles.
 - `cal.1962-07-31.georgia-albany` (July 31, XXXII 196207.yaml): Washington. Ten Senators see Burke Marshall to ask the Justice Department to act in Albany.
@@ -2344,15 +2412,19 @@ the order, the APP document, the FRUS document, the case.
 - `cal.1969-01-03.congress-2` (Jan. 3, CXI 196901.yaml): The Senate Democrats: Edward Kennedy majority whip over Russell Long, 31–26; Mansfield re-elected leader. The 
 - `cal.1969-01-05.vietnam` (Jan. 5, CXI 196901.yaml): Nixon names Lodge to succeed Harriman at the head of the delegation to Paris, Walsh his deputy (Check the day)
 - `cal.1969-01-06.students-san-francisco` (Jan. 6, CXI 196901.yaml): San Francisco State. The American Federation of Teachers' local strikes, sanctioned by the San Francisco Labor
+- `cal.1969-01-13.laos` (Jan. 13, CXI 196901.yaml): William L. Lemnitzer of the NSC staff to Rostow, an intelligence memorandum on the Chinese road from Yunnan to
 - `cal.1969-01.state-constitutions-va` (Jan., CXI 196901.yaml): Virginia. The Commission on Constitutional Revision, appointed by Godwin in 1968, Albertis Harrison, governor 
 - `cal.1969-01-20.transition-and-staff-2` (Jan. 20, CXI 196901.yaml): Bethesda, Md., after the inauguration: lunch at Clark and Marny Clifford's. Johnson gives five Medals of Freed
 
 ### Named, not linked
 
 - `cal.1960-01-09.governors-la` (Jan. 9, II 196001.yaml): Louisiana's Democratic runoff for governor: Davis, governor 1944–48, over Morrison, mayor of New Orleans, 487, — names "Election Returns"
+- `cal.1960-01.conservative-movement` (Jan., II 196001.yaml): Chicago, the Union League Club. Twenty-nine members of Manion's Goldwater for President committee meet. Wannam — names "Minutes"
 - `cal.1960-02-17.georgia-ga` (Feb. 17, III 196002.yaml): The General Assembly Committee on Schools, created by the legislature this month, holds its first meeting at t — names "Laws 1960"
+- `cal.1960-03-26.elections-1960` (Mar. 26, IV 196003.yaml): South Carolina's Republican convention. Goldwater speaks, against Nixon's "complacent attitude" toward the Sou — names "Minutes"
 - `cal.1960-04-19.governors-la` (Apr. 19, V 196004.yaml): Louisiana, general election for governor: Davis (D) over Grevemberg (R), a former superintendent of State poli — names "Election Returns"
 - `cal.1960-05-10.governors-nm` (May 10, VI 196005.yaml): New Mexico's primary, for governor. Democratic: Governor Burroughs over Bursey, 66,541 to 48,841, 53.8 percent — names "Election Returns"
+- `cal.1960-08-06.republican-party` (Aug. 6, IX 196008.yaml): Columbia. The State Republican convention in reconvened session. Wannamaker, the national committeeman: the pa — names "Minutes"
 - `cal.1960-09-13.governors-ut` (Sept. 13, X 196009.yaml): Utah's primary, for governor. Republican: Governor Clyde over Gunderson, 50,592 to 37,002, 57.8 percent. Democ — names "Abstract of the Returns"
 - `cal.1960-11-08.state-constitutions-mi` (Nov. 8, XII 196011.yaml): Michigan. Proposal 3, an amendment changing the way a constitutional convention is called, adopted, 1,312,215  — names "Manual"
 - `cal.1960-11-08.governors-nm` (Nov. 8, XII 196011.yaml): New Mexico. Mechem (R) governor over Burroughs (D), 153,765 to 151,777, 50.3 percent, a 1,988-vote margin; Bol — names "Canvass"

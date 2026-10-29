@@ -121,3 +121,106 @@ city, Ford's speech counts, the finance committee's yearly totals beyond the ent
 | 64 | Jan. 3, 1966 | Michigan's Fifth District committee (Ford's) presents a thirty-nine-page budget | minor (a local committee's operation) |
 | 66 | Jan. 1967 | the national committee's meeting at New Orleans | no act given; to leads (its day and decisions) |
 | 69–70 | 1966–67 | Ashbrook, chairman of the ACU, in the House: the ACU staff's twenty-six-page "exposé" of the Ripon Society | undated; to leads (find it in the Record) |
+
+## The rest, Oct. 29, 2026
+
+Patch: `inbox/2026-10-29-republicans-finish.yaml` (republicans-finish, with the rest of Young, *Two Suns*). Records:
+`sources/cited-records/hess-republican-establishment.yaml` (two, below).
+
+**The copy.** The owner's PDF, fetched whole this time by the brief's download line (drive.usercontent.google.com,
+the file id above) into a scratch directory outside the repo: 456 PDF pages, 21 MB, the Internet Archive's scan with
+its text layer, read with `pdftotext -layout`. Deleted when done; no copy in the repo, the Drive file's sharing not
+touched. **Read: pp. 71–420**, the rest of chapter 4 through the last chapter ("Looking for a Winner, 1968 and
+Beyond") and its schedule of the 1968 primaries (to 420); the bibliography (from 421) and the index not read. Offset: printed page = PDF page − 10 throughout, the running heads' folios checked
+at each chapter opening and every few pages (71 = PDF 81, 157 = PDF 167, 240 = PDF 250, 366 = PDF 376), the same as
+the first run's folios gave. The book has footnotes, no endnotes: they cite works and the authors' reporting but
+once, p. 157 n.*, which names two published accounts (Eisenhower's interview in the *Saturday Review*, 1966, and Nixon
+to Ted Lewis of the *New York Daily News*), logged as records `157 n.*a`, `*b` (press; found: no; read: no).
+
+**Citations reread and rulings.** 25 existing entries now cite the book at its page, 64 new ones; the claim maps
+name the units each page grounds where it is not the whole entry (`cal.1964-12-04.elections-1964-us`: 221 for Percy,
+340 for Gavin; `cal.1966-12-09.elections-1968-us`: 277 for Reagan's press conference; `cal.1967-03-16.soviet-union`:
+87–88 and 235 for the Republicans' 23–13). Where the book and the calendar differ, a Check in the note, the entry's
+claim left as it stood:
+- `cal.1964-06-08.elections-1964`: the book has Nixon fly to Cleveland "on June 9" and the talks with Romney "that
+  Monday" (June 8).
+- `cal.1966-03-12.vietnam-us`: the entry has Reed read Rhodes's resolution; the book (366) has Rhodes rise and read it.
+- `cal.1962-03-07.goldwater`: the book (77) gives nineteen thousand, ten thousand turned away.
+- `cal.1967-01-16.alabama-al`: the book (356) quotes "the final court of appeals."
+- `cal.1964-11-05.republican-party` (an entry another run added from Nixon's *RN* while this one read; this run's own
+  entry folded into it): the text has "two days after the election," the footnote "the November 6, 1964, press
+  conference."
+- `cal.1965-06.republican-party-2` (new): "Friends of Ronald Reagan" organized "in June, 1965" (254) and "in the winter
+  of 1965" (262).
+- `cal.1966-01-04.states-and-cities`: the day borne out (254); the entry's "Check the date" gives way to the fifteen
+  stations.
+- `cal.1967-01-20.students`, `cal.1967-05-02.republican-party`, `cal.1967-05-15.robert-kennedy`,
+  `cal.1966-07-07.vietnam-us` (Hatfield the one governor against), `cal.1960-09-10.conservative-movement`,
+  `cal.1961-11-18.goldwater`, `cal.1964-02-13.elections-1964`, `cal.1964-10-25.goldwater` and `-27` (Kitchel and
+  Baroody against the speech, by Shadegg's account), `cal.1966-11-04.elections-1966`, `cal.1967-03-23.vietnam-congress`,
+  `cal.1967-04-07.elections-1968`, `cal.1965-01-22.republican-party` (Nixon master of ceremonies; 172 bears out
+  Goldwater's thanks too), `cal.1960-10-31.elections-1960`, `cal.1964-07-19.elections-1964`,
+  `cal.1967-01.crime-and-hijacking-fl`: borne out, the page added.
+
+**New entries (64; Part III: Hall, Potter, Gladys O'Donnell, John H. Hughes, Hendricks, Charles P. Taft).** The
+parties and the members, as the owner's rule of Oct. 29 reads them: Potter's rocking chairs (Oct. 1963); the *Star* on
+Hall and Nixon (Dec. 5, 1963); the California Republican Assembly taken, the F.A.B. Society (Mar. 1964); Montauk
+(June 1964); the Committee to Support Moderate Republicans (Sept. 30, 1964, with Young); Republicans for Reagan at
+Owosso (Nov. 4, 1964); Goldwater and Romney's letters and Percy's NAM speech (Dec. 1964); Javits's background talk
+(Jan. 1965); Percy on open housing and Hughes's letter to Javits (May 14, 1965); Friends of Reagan (June 1965); Harris
+County (July 1, 1965); Rockefeller at Minneapolis (July 25, 1965); Kitchel on the Free Society Association (Aug.
+1965); Washington State's resolution on the Birch Society (Sept. 1965); the *Herald*'s Brooke story (Sept. 19, 1965);
+Morton on the Birch Society (Oct. 1, 1965); Ithaca (Oct. 26, 1965); Hendricks on Lindsay (Nov. 8, 1965); Brooke's
+announcement (Dec. 30–31, 1965); Nixon to Lawrence (Jan. 1966); Javits's inventory (Apr. 1966); McNamara's death and
+Griffin's appointment (Apr. 30, May 1966); YAF's fifth anniversary, Nixon and Percy at Jackson (May 1966); Garden City
+(May 23, 1966); Goldwater to the *Times Magazine* (June 1966); Reagan at the Press Club (June 16, 1966); Romney at Los
+Angeles on Vietnam (July 1966); Valerie Percy's murder (Sept. 18, 1966); Trenton (Nov. 1966); Percy (Nov. 9, 1966);
+Tower to Reagan (Dec. 30, 1966); the five freshmen on *Meet the Press* (Jan. 15, 1967, the program's guests from the
+Library of Congress's inventory); Goldwater on Wallace, Rhodes against his draft, Harris on a Mormon President, Romney
+at Anchorage (Feb. 1967); the Victory Gala, *Battle Line* and the *Forum* on Reagan, Goldberg and Deardourff, the Nixon
+for President Committee, McCall's letter, Goldwater in the *Post* (Mar. 1967); Percy at Concord, with Javits and Scott,
+on the bombing, on Dirksen, the Home Ownership plan (Apr. 1967); the Republican women's convention, Rockefeller to
+Agnew, Aiken, Nixon's headquarters, Spad (May 1967); the Young Republicans at Omaha, Reagan's banquet speech, Tower's
+committee, Chafee's committee, Rockefeller on favorite sons (June 1967). Each month-only entry carries "Check: the
+day" where the book gives none.
+
+## Passed over (pp. 71–420)
+
+How made: every dated event the pages treat within the brief and its span, listed as read, page by page; not listed,
+the background before 1960, the portraits that are not events, the returns and counts by State or city, and the
+quoted press after the fact.
+
+| Page | Date | Event | Why |
+|---|---|---|---|
+| 72 | mid-1963 | the Wednesday Club (Group) founded by six junior House Republicans, Lindsay among them | undated (the month); to leads |
+| 72 | 1965–66 | Republicans for Progress gives $18,000 to the Committee for Republican Research | undated |
+| 73 | 1965 | Scott's "in" and "out" groups, to the California Republican League's convention | undated (the day); to leads |
+| 75 | 1964, 1966 | the ACA's organizer for Mundt, its help to Snyder and Findley; its twelve speeches | undated |
+| 85 | Jan. 1967 | tax sharing in the House Republicans' "State of the Union," Ford presenting it | undated; to leads (the day and the text) |
+| 108 | 1965 | McKay's letters to the eleven Mormons in Congress on 14(b) | undated (the month) |
+| 119–20 | June–July 1964 | Romney at Cleveland and San Francisco | already in (`cal.1964-06-08.elections-1964`, the convention's entries) |
+| 151 | 1964 | Nixon's address to the American Society of Newspaper Editors | undated in the book; to leads |
+| 157 | 1966 | Nixon's endorsement of Percy's All-Asian Peace Conference, at a press conference | undated |
+| 171 | Aug. 1964 | Nixon's letter to Goldwater on "extremism in defense of liberty," and Goldwater's reply | undated; to leads |
+| 173 | Sept. 1966 | Nixon at Casper, Wyo., the local stories | minor (an operation below the calendar's level: one campaign stop of many) |
+| 185, 195, 228, 231, 279 | 1965–67 | the Gridiron dinners | minor (social) |
+| 202 | Jan. 1967 | Percy's housing plan unveiled in the session's first week | entered at its introduction (`cal.1967-04.republican-party-congress-3`) |
+| 254 | Jan. 4, 1966 | Reagan's announcement | already in (`cal.1966-01-04.states-and-cities`) |
+| 267 | 1966 | Reagan on *Meet the Press* on the Rumford Act | undated: the programs of Jan. 9 and Sept. 11, 1966 both list him; to leads |
+| 283–87 | 1967 | Reagan's budget cuts, the tuition proposal, the tax bill | State acts, to be dated by the session laws; to leads |
+| 297 | 1967 | Prouty, Vermont's other Senator | no act |
+| 328 | 1966–67 | McKeldin, Mathias, Rogers Morton | no dated act |
+| 342, 356 | 1966 | Lurleen Wallace's nomination and election | already in (the Alabama entries) |
+| 352 | Jan. 1967 | Kirk's Wackenhut contract | already in (`cal.1967-01.crime-and-hijacking-fl`, now citing 352) |
+| 352 | Apr. 1967 | Florida's court-ordered special election of the legislature: Republicans 20 of 48 Senators, 39 of 119 Representatives | to leads (the day and the canvass) |
+| 357 | Apr. 1967 | Wallace to Ted Knap: $1 million raised toward $10 million | a journalist's interview; to leads (the column) |
+| 357 | spring 1967 | Wallace's northern speeches | undated |
+| 366 | 1967 | Rhodes's toast to Johnson at a White House dinner | minor (social) |
+| 388 | autumn 1966 | Hatfield's "Prelude to Manila," a half hour on statewide television | undated (the day); to leads |
+| 389 | 1966–67 | Hatfield to the Harvard Young Republican Club on Vietnam | undated; to leads |
+
+## Leads (in notes/leads.md, National, the Hess and Broder line)
+
+The Wednesday Group's founding; Scott's California speech; the House Republicans' "State of the Union" of Jan. 1967;
+Nixon's letter on extremism, Aug. 1964; Reagan on *Meet the Press* on Rumford; Florida's special legislative election,
+Apr. 1967; Wallace to Knap; Hatfield's "Prelude to Manila" and Harvard speech; Reagan's 1967 budget and tuition acts.

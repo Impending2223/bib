@@ -105,7 +105,11 @@ entries:
     date: '1960-03-08'
     thread: elections-1960
     c: 'New Hampshire primary. Republican: Nixon over Rockefeller (write-in), 65,204 to 2,745, 89.3 percent. Democratic: Kennedy over others, 43,372 to 7,527, 85.2 percent.'
-    n: 'N.H. *Manual for the General Court*, no. 37 (1961), pp. [284](https://archive.org/details/manualforgeneral37newh/page/n313), [382](https://archive.org/details/manualforgeneral37newh/page/n413). CQ Guide 6th (2010) 404. To check: [[w.white-making-of-the-president]]. Names: Kennedy, Nixon, Nelson Rockefeller.'
+    n: 'N.H. *Manual for the General Court*, no. 37 (1961), pp. [284](https://archive.org/details/manualforgeneral37newh/page/n313), [382](https://archive.org/details/manualforgeneral37newh/page/n413). CQ Guide 6th (2010) 404. To check: [[w.white-making-of-the-president]]. Names: Kennedy, Nixon, Nelson Rockefeller. Check: Gifford, [[w.gifford-center-cannot-hold]], 43, gives Nixon 65,077 to Rockefeller''s 2,890 write-ins.'
+    src:
+      c: 329a88ed
+      rows:
+        - 'https://archive.org/details/manualforgeneral37newh/page/n313: all'
     tags: [primary:1960-03-08, name:kennedy-john-f, name:nixon-richard-m, name:rockefeller-nelson]
   - id: cal.1960-03-08.specials
     when: Mar. 8
@@ -289,13 +293,17 @@ entries:
     date: '1960-03-26'
     thread: elections-1960
     also: [goldwater, conservative-movement]
-    c: South Carolina's Republican convention. Goldwater speaks, against Nixon's "complacent attitude" toward the South. The convention pledges its thirteen delegates to him, by Manion's arrangement, to Goldwater's surprise.
-    n: '[[w.perlstein-before-the-storm]], 76. To check: Brophy to Manion, Mar. 26, 1959 [as printed], Manion Papers (cited by [[w.perlstein-before-the-storm]], 76 n.1). Names: Goldwater, Nixon, Manion.'
+    c: South Carolina's Republican convention. Goldwater speaks, against Nixon's "complacent attitude" toward the South; the Democrats on "the road to socialism"; a platform to be no "dime store New Deal." The convention pledges its thirteen delegates to him by acclamation; by Manion's arrangement, to Goldwater's surprise. Wannamaker elected national committeeman.
+    n: '[[w.perlstein-before-the-storm]], 76. [[w.gifford-center-cannot-hold]], 150–53. To check: Brophy to Manion, Mar. 26, 1959 [as printed], Manion Papers (cited by [[w.perlstein-before-the-storm]], 76 n.1); Columbia State, Mar. 27, 1960, 1 (cited by [[w.gifford-center-cannot-hold]], 152 n.27); Columbia State, Mar. 27, 1960, 1 (cited by [[w.gifford-center-cannot-hold]], 152 n.30); Minutes of the 1960 Republican State Convention, Hotel Jefferson, Columbia, S.C., Mar. 26, 1960, William D. Workman Jr. Papers, South Caroliniana Library (cited by [[w.gifford-center-cannot-hold]], 153 n.32). Names: Goldwater, Nixon, Manion. Check: Gifford, 151, has the nomination the State party''s plan, "designed to call attention of GOP bigwigs and Nixon personally to conservative sentiment," by Milliken''s account to Waring of the *News and Courier*, Mar. 21; Gifford does not name Manion.'
     src:
-      c: eb573cdd
+      c: d3f8cc61
       rows:
-        - 'w.perlstein-before-the-storm 76: all'
-        - 'via w.perlstein-before-the-storm 76 n.1: all'
+        - 'w.perlstein-before-the-storm 76: A, B, E, F'
+        - 'via w.perlstein-before-the-storm 76 n.1: A, B, E, F'
+        - 'w.gifford-center-cannot-hold 150–53: A, C, D, E, G'
+        - 'via w.gifford-center-cannot-hold 152 n.27: C, E'
+        - 'via w.gifford-center-cannot-hold 152 n.30: D'
+        - 'via w.gifford-center-cannot-hold 153 n.32: G'
     tags: [name:goldwater-barry-m, name:nixon-richard-m, name:manion-clarence, state:sc]
   - id: cal.1960-03-28.testing
     when: Mar. 28–30

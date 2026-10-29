@@ -773,3 +773,812 @@ enter, for the owner to rule on. "Lead" names where the record is; "already in" 
 - The House's executive sessions of Oct. 8, 1963 (Foreign Affairs) and Jan. 27 and 29, 1964 (Armed Services): closed.
 - *Department of Defense Appropriations for 1965*, pt. 4 (1964), pp. 12, 101, 117: the hearing of Feb. 17, 1964, printed.
 - *Foreign Assistance, 1964*, pp. 542–52: the hearing of June 23, 1964, printed.
+
+## Part IV, 1965–66: back-fill, Oct. 29, 2026
+
+The patch: `inbox/2026-10-29-backfill-gibbons-4a.yaml` (216 edits, 497 adds). The records:
+`sources/cited-records/gibbons-u-s-government-and.yaml`, 840 added after the other runs' (a comment marks where).
+
+### The copy
+
+The owner's Drive copy (Princeton University Press, 1995), Part IV, read by its text layer: PDF page = printed page + 14.
+The page's number stands at its head; the notes at its foot. A note number the OCR garbled was read from its order on the
+page; several records under one number lettered a, b ... in the note's order.
+
+### What was done
+
+Every Part IV citation in the sections of July 1965–Dec. 1966 (212 entries) was read against the page and the entry's
+units (`./bib claims show`). Rulings: 155 held at their pages (133 needing only the map; 22 the note changed for its
+records, a "To check:" or a Check); 57 re-pinned (a page added or dropped, a parenthetical saying which page stands for
+which claim); none cut. Every one now has a claim map (`src`), the other readers' rows kept where their item is still in
+the note, Gibbons's `?` rows turned into letters. Where FRUS, the Public Papers or the bound Record prints the record
+Gibbons cites, it was read and put first in the note, linked, with its own row; quotations in `c` follow the record read
+where it and Gibbons differ (the variants in the Checks below). The unread records went into "To check:" with "(cited by
+Gibbons, IV, 116 n.11)".
+
+Records logged: 840 (memoranda 298, telegrams 173, the press 73, meeting notes 56, reports 39, letters 37, speeches 35,
+hearings 29, minutes 27, executive-session transcripts 17, others 56). Found in a copy the series holds: 270 (FRUS 1964–68
+193; the bound Record 64; the Public Papers 11; the Church Committee's report and the *Bulletin* one each); read: 264.
+Not found: 570, each in its entry's "To check:" where the entry rests on it.
+
+### Dates and figures against the record
+
+Each a Check in its entry's note (the record read against Gibbons, or a detail neither settles):
+
+- `cal.1965-08-10.vietnam-support`: Gibbons dates the meeting Sept. 12 in the text and Aug. 10 in the note.
+- `cal.1965-08-13.vietnam-support`: Gibbons's note dates the memorandum Aug. 13, 1967.
+- `cal.1965-08-18.vietnam-3`: Gibbons cites MAC 4171 and 4382, Aug. 18 and 28, for the reply.
+- `cal.1965-08-19.vietnam`: FRUS 1964–68, III, doc. 118 n.3, dates Goodpaster's memorandum for the record Aug. 20.
+- `cal.1965-09-02.students`: the congress's place and the vote.
+- `cal.1965-09-29.vietnam`: Gibbons has a meeting, 12:29 to 1:20 p.m., Helms there too, and the bombing at a luncheon after, at 1:40.
+- `cal.1965-11-03.vietnam`: FRUS prints the total "about 1,100" villages, Gibbons "about 1,000."
+- `cal.1965-11-11.vietnam-pause`: Gibbons has the meeting morning and afternoon, Rostow, Clifford and Moyers there for part.
+- `cal.1965-11-24.vietnam-pause`: Gibbons has Dobrynin offer Soviet persuasion of Hanoi for a pause of two or three weeks.
+- `cal.1965-11-28.vietnam-support`: the day (New York Times, Nov. 29).
+- `cal.1965-12-03.vietnam-pause`: Gibbons cites the 200 tons to the memorandum to the Ranch (IV, 117 n.14, "Ibid."); FRUS's text of it does not have it.
+- `cal.1965-12-03.vietnam-pause`: Rusk's Appointment Book gives the meetings 12:30 to about 3 p.m. and 6:03 to 7:52 p.m., William Bundy at neither (FRUS 1964–68, III, doc. 214 n.2).
+- `cal.1965-12-15.vietnam-support`: the place and the words.
+- `cal.1965-12-24.vietnam`: Dallek (344) and Gibbons (IV, 125) have the truce announced Dec. 22; FRUS's editorial note and Cosmas (393) give that day's instruction to announce it in Saigon.
+- `cal.1965-12-27.economy`: whether Schultze's memorandum states the assumption; Gibbons gives it as the budget's (IV, 217, 222), and Ackley's words without saying which memorandum holds them.
+- `cal.1965-12-27.vietnam`: Gibbons (IV, 127 n.43), from McGeorge Bundy's memorandum of Dec. 27, has Taylor now for going on with the pause "since we have endured three days."
+- `cal.1965-12-29.vietnam-2`: the day (Gibbons: the day of the cable of Dec. 28; the notes are for Dec. 29).
+- `cal.1965-12-30.vietnam-2`: the words of the party are from Rostow's memorandum of August 1965, "Politics and Victory in South Vietnam."
+- `cal.1966-01-02.vietnam`: Gibbons dates the cable Jan. 1 and Jan. 2. Reply: [[cal.1966-01-04.vietnam]].
+- `cal.1966-01-07.vietnam-4`: the cable's words and those of the talking paper of Dec. 26, which Gibbons quotes together.
+- `cal.1966-01-11.vietnam-congress`: by Gibbons's note (IV, 136 n.67) the quotations are from Mansfield's private report to Johnson ([[cal.1965-12-18.vietnam-congress]]), not the session.
+- `cal.1966-01-20.vietnam-pause-2`: Gibbons dates the memorandum Jan. 22.
+- `cal.1966-01-21.vietnam`: the day of the request (Gibbons: late January; the History File's entry, Jan. 21).
+- `cal.1966-01-24.vietnam-force-levels`: Gibbons gives 367,800 men (IV, 177).
+- `cal.1966-01-27.vietnam-congress-2`: Gibbons dates the speech Jan. 25.
+- `cal.1966-01-29.vietnam-congress-2`: where the speech was given.
+- `cal.1966-01-31.vietnam-congress-2`: the assistant and the memorandum's day.
+- `cal.1966-02-02.republican-party-congress`: the leaders named in the report.
+- `cal.1966-02-07.vietnam`: the summary is Moyers's to U. Alexis Johnson, Feb. 16.
+- `cal.1966-02-10.vietnam-force-levels`: Gibbons gives 429,000 as 20,000 below Westmoreland's latest request; the paper, 30,000 below MACV's.
+- `cal.1966-02-19.vietnam-congress`: Gibbons gives 10:04 a.m. to 1:34 p.m., and Vance, Raborn, Moyers and Watson, not Taylor and Helms.
+- `cal.1966-02-28.opinion`: the day of the approval figures' release.
+- `cal.1966-03-01.vietnam`: the pages of the other votes. [FRUS 1964–68, IV, doc. 87](https://history.state.gov/historicaldocuments/frus1964-68v04/d87) (Johnson to Mansfield by telephone, 9:42 a.m.: the motion to table must not "imply any dilution" of the resolution). [[w.gibbons-u-s-government-and]], IV, 251–59.
+- `cal.1966-03-01.vietnam-congress-2`: each speaker's page (Russell about 4370, Javits 4375, Mansfield 4377, Fulbright 4384).
+- `cal.1966-03-01.vietnam-congress-3`: Nelson's page.
+- `cal.1966-03-08.vietnam-congress`: the day Mathias spoke.
+- `cal.1966-03-17.vietnam-air-war`: Gibbons has CINCPAC concurring; Bromley Smith to Johnson, Mar. 19 ([FRUS 1964–68, IV, doc. 98](https://history.state.gov/historicaldocuments/frus1964-68v04/d98)), has Sharp raising objections.
+- `cal.1966-03-21.vietnam-congress`: Symington's and McGovern's pages.
+- `cal.1966-04-04.vietnam-force-levels`: the day McNamara accepted.
+- `cal.1966-04-05.vietnam-2`: the summary's date (Gibbons: drafted Apr. 5, filed with the B-P draft of Apr. 15).
+- `cal.1966-04-13.vietnam-congress`: the words on the page.
+- `cal.1966-04-17.vietnam-congress`: the program's day (the *New York Times* reported it Apr. 18).
+- `cal.1966-04-20.vietnam-struggle`: Gibbons dates the cable 1967.
+- `cal.1966-04-25.vietnam`: Gibbons dates Rostow's memorandum Apr. 25.
+- `cal.1966-04-25.vietnam-2`: Gibbons dates its first meeting Apr. 26 (IV, 411).
+- `cal.1966-04-27.vietnam-struggle-2`: Gibbons dates the cable 1967.
+- `cal.1966-05-15.students`: the count (the *New York Times* and the *Washington Post*, May 16, 1966).
+- `cal.1966-05-16.vietnam-congress`: each Senator's day and words (the *New York Times*, May 17, 1966).
+- `cal.1966-06-01.vietnam-struggle-2`: the day of Trí Quang's message (Saigon 5224, June 2).
+- `cal.1966-06-13.opinion-2`: Gibbons's table heads its columns December 1965, September 1965, May 1966.
+- `cal.1966-06-14.vietnam`: the day of Johnson's approval (Rostow to Rusk, June 21).
+- `cal.1966-06-17.vietnam-3`: FRUS prints it undated.
+- `cal.1966-06-30.vietnam`: Gibbons dates the Omaha speech July 7; the Public Papers, June 30.
+- `cal.1966-07-03.europe-and-the-alliance`: Bruce's reply ([FRUS 1964–68, XII, doc. 261](https://history.state.gov/historicaldocuments/frus1964-68v12/d261)) refers to State 1116 and 1335.
+- `cal.1966-07-16.vietnam`: Gibbons dates the call-up July 16; the source, the *New York Times* of July 17.
+- `cal.1966-07-25.vietnam`: Gibbons calls this "not entirely accurate."
+- `cal.1966-08-10.vietnam-3`: FRUS numbers it Saigon 2375, Gibbons 3129.
+- `cal.1966-08-12.vietnam-congress`: Gibbons cites p. 19188 and quotes "Our military efforts have been escalated, ... but our efforts for peace have not."
+- `cal.1966-08-13.vietnam-3`: Gibbons gives the cable Saigon 4923, the number of Lodge's of Aug. 31, from Lodge's unpublished "Vietnam Memoirs."
+- `cal.1966-08-18.vietnam-congress`: the Voteview numbers, from the Record's Nos. 210 and 212.
+- `cal.1966-08-23.elections-1966`: Gibbons has Nixon speak "after a meeting with Republican Senators and at the urging of Senator Morton" (IV, 392).
+- `cal.1966-08-29.vietnam-force-levels`: the day of Johnson's note.
+- `cal.1966-08-31.vietnam-2`: Gibbons: against his own staff's evidence of late July.
+- `cal.1966-09-26.vietnam-asian-trip`: the day of the briefing; Ball's report is of Sept. 26.
+- `cal.1966-09-28.vietnam-congress-2`: the day (the *New York Times*, Sept. 29, 1966).
+- `cal.1966-10-15.soviet-union`: the day (the *New York Times*, Oct. 16, 1966).
+- `cal.1966-10-15.vietnam-asian-trip`: the day of the talk.
+- `cal.1966-10-25.vietnam-congress`: the day (the *New York Times*, Oct. 26, 1966).
+- `cal.1966-10-28.soviet-union`: the day of the talk.
+- `cal.1966-10-31.vietnam-air-war`: FRUS dates it October 1966.
+- `cal.1966-11-17.vietnam-2`: Gibbons dates the cables 1967.
+- `cal.1966-11-29.vietnam-congress`: the day (State's activities reports of Nov. 29 and Dec. 1).
+- `cal.1966-12-08.vietnam-congress`: the day (the *New York Times*, Dec. 9, 1966).
+- `cal.1966-12-11.vietnam`: the proclamation, put off to December, issued Apr. 18, 1967.
+
+### Existing entries changed beyond their citations
+
+- `cal.1965-11-27.students`: Representative George E. Brown Jr. added among the speakers (Gibbons, IV, 93).
+- `cal.1965-12-17.vietnam`: the meetings of Dec. 17, 18 and 21, bundled, narrowed to Dec. 17 by its record (FRUS 1964–68, III, Valenti's notes); Dec. 18 and 21 are entries of their own (`cal.1965-12-18.vietnam-pause`, `cal.1965-12-21.vietnam-pause`).
+- `cal.1966-02-17.vietnam-hearings`: the hearings' close, Taylor and Rusk, split; Taylor's day here, Rusk's `cal.1966-02-18.vietnam-hearings`.
+- `cal.1966-02-21.vietnam-support`: the professors' letter of Feb. 14 and Katzenbach's memorandum of Feb. 19 taken out to entries of their own (`cal.1966-02-14.vietnam-support`, `cal.1966-02-19.vietnam-support`); Cooper's report of Liebman's part added.
+- `cal.1966-02-26.vietnam`: Moyers's Harris figures and Johnson's reading of them added (the meeting's notes).
+- `cal.1966-10-15.vietnam`: Humphrey and Vance present; Johnson's approval of the dual system added (Gibbons, IV, 461–63).
+- `cal.1966-11-17.vietnam`: the draft's case on attrition and the bombing added (Gibbons, IV, 467).
+- `cal.1966-11-28.vietnam-congress`: Johnson's note to Rostow of Nov. 30 split off as `cal.1966-11-30.vietnam-congress` (one event, one entry).
+
+### The members' and parties' dated word, entered (the owner's rule of Oct. 29)
+
+New entries (75), each from the page of the Record read where the note gives one (the speech's page linked),
+else from Gibbons's page and the press it cites, the press then in "To check:":
+
+- `cal.1965-08-17.latin-america`: Marcy to Fulbright
+- `cal.1965-09-16.latin-america`: Cater to Johnson
+- `cal.1965-09-23.vietnam-congress`: Foreign Relations
+- `cal.1965-10-15.vietnam-congress`: Dodd
+- `cal.1965-10-18.vietnam-congress`: The Senate on the weekend's demonstrations
+- `cal.1965-10-19.vietnam-congress`: The House
+- `cal.1965-10-19.vietnam-congress-2`: Morse
+- `cal.1965-10-22.vietnam-congress-2`: Javits
+- `cal.1965-12-17.vietnam-congress`: Meeker sends McGeorge Bundy two draft joint resolutions
+- `cal.1965-12-18.vietnam-congress`: Mansfield to Johnson
+- `cal.1966-01-10.vietnam-congress`: Marcy to Fulbright
+- `cal.1966-01-19.vietnam-congress-2`: Morse
+- `cal.1966-01-20.vietnam-congress-2`: Sikes
+- `cal.1966-01-24.vietnam-congress-2`: Russell
+- `cal.1966-01-27.vietnam-congress-2`: Symington
+- `cal.1966-01-27.vietnam-congress-3`: Tillman of the Foreign Relations staff to Fulbright
+- `cal.1966-01-27.vietnam-congress-4`: Zablocki's Subcommittee on the Far East and the Pacific of H
+- `cal.1966-01-29.vietnam-congress-2`: Stennis
+- `cal.1966-01-29.vietnam-congress-3`: Morse
+- `cal.1966-01-31.vietnam-congress-2`: Mansfield
+- `cal.1966-01-31.vietnam-congress-3`: Marcy to Norvill Jones and Lowenstein of the Foreign Relations staff
+- `cal.1966-02-01.vietnam-congress-2`: Hilsman
+- `cal.1966-02-02.republican-party-congress`: The New York Times reports the Republican leaders' line on the war
+- `cal.1966-02-10.vietnam-congress`: Marcy drafts for Fulbright four alternative amendments
+- `cal.1966-02-11.vietnam-hearings`: News conference
+- `cal.1966-02-17.vietnam-hearings-2`: Reedy to Johnson
+- `cal.1966-02-18.vietnam-congress`: Manatos to Johnson
+- `cal.1966-02-18.vietnam-hearings`: Rusk
+- `cal.1966-02-21.vietnam-congress-2`: Meeker to Ball
+- `cal.1966-02-22.vietnam-hearings`: Westmoreland to Lodge
+- `cal.1966-02-23.vietnam-congress`: Marcy to Fulbright
+- `cal.1966-02-23.vietnam-hearings`: Lodge
+- `cal.1966-03-01.vietnam-congress-2`: The Senate's debate on Morse's amendment
+- `cal.1966-03-01.vietnam-congress-3`: Nelson and McGovern
+- `cal.1966-03-01.vietnam-congress-4`: House
+- `cal.1966-03-08.vietnam-congress`: MacArthur to Rusk
+- `cal.1966-03-17.vietnam-congress`: Zablocki's report on his trip to Vietnam
+- `cal.1966-03-21.vietnam-congress`: Russell
+- `cal.1966-03-23.vietnam-congress`: Marcy to Fulbright
+- `cal.1966-03-30.vietnam-congress`: McNamara
+- `cal.1966-04-05.vietnam-congress`: Morse
+- `cal.1966-04-13.vietnam-congress`: Cooper
+- `cal.1966-04-14.vietnam-congress`: Javits
+- `cal.1966-04-17.vietnam-congress`: Stennis
+- `cal.1966-04-19.vietnam-congress`: Rusk
+- `cal.1966-04-20.vietnam-congress`: Pell
+- `cal.1966-05-05.vietnam-congress`: Ribicoff
+- `cal.1966-05-05.vietnam-congress-2`: Javits
+- `cal.1966-05-06.vietnam-congress`: Rostow to Johnson on Ribicoff's proposal
+- `cal.1966-05-09.vietnam-congress-2`: Rusk again
+- `cal.1966-05-16.vietnam-congress`: Senators on the fighting at Đà Nẵng
+- `cal.1966-05-16.vietnam-congress-2`: Rusk to Fulbright
+- `cal.1966-05-22.vietnam-congress`: Marcy sends Hartke his memorandum of May 20
+- `cal.1966-06-01.vietnam-congress`: Marcy to Fulbright
+- `cal.1966-06-18.vietnam-congress`: Marcy to Fulbright on the draft of a speech
+- `cal.1966-06-28.vietnam-congress-3`: MacArthur to Fulbright
+- `cal.1966-07-01.vietnam-congress`: Marcy to Fulbright
+- `cal.1966-07-02.elections-1966`: Percy
+- `cal.1966-08-08.vietnam-congress`: Mansfield
+- `cal.1966-08-10.vietnam-congress`: Sullivan
+- `cal.1966-08-12.vietnam-congress`: Len Jordan of Idaho
+- `cal.1966-08-18.vietnam-congress`: Senate
+- `cal.1966-08-29.vietnam-congress`: Mansfield
+- `cal.1966-09-12.vietnam-congress`: Norvill Jones of the Foreign Relations staff to Marcy
+- `cal.1966-09-19.vietnam-congress-2`: Marcy to Jones
+- `cal.1966-09-26.vietnam-congress`: Morse
+- `cal.1966-09-28.vietnam-congress`: Javits
+- `cal.1966-09-28.vietnam-congress-2`: Fulbright on the Manila meeting
+- `cal.1966-10-25.vietnam-congress`: Mansfield pleased with the Manila conference
+- `cal.1966-10-28.vietnam-congress`: Congressional Quarterly's survey of 313 Senators and Representatives
+- `cal.1966-11-01.vietnam-congress`: Church to Goldberg
+- `cal.1966-11-11.vietnam-congress`: Mansfield to Goldberg
+- `cal.1966-11-29.vietnam-congress`: Rusk tells Fulbright
+- `cal.1966-11-30.vietnam-congress`: Johnson to Rostow
+- `cal.1966-12-08.vietnam-congress`: Stennis
+
+### New entries, the rest (422)
+
+The executive record Gibbons dates (the meetings, memoranda, cables, the informal record of the West Wing and the
+Mission), the war's events the pages treat, the polls; by month:
+
+- Aug. 1965 (9): `cal.1965-08-03.vietnam`, `cal.1965-08-10.vietnam-support`, `cal.1965-08-11.vietnam`, `cal.1965-08-13.vietnam-support`, `cal.1965-08-13.war-opposition`, `cal.1965-08-14.vietnam`, `cal.1965-08-18.vietnam-3`, `cal.1965-08-26.vietnam`, `cal.1965-08-31.war-opposition`
+- Sept. 1965 (4): `cal.1965-09-01.vietnam-2`, `cal.1965-09-02.students`, `cal.1965-09-07.vietnam`, `cal.1965-09-30.vietnam`
+- Oct. 1965 (6): `cal.1965-10-11.vietnam`, `cal.1965-10-18.war-opposition`, `cal.1965-10-21.vietnam`, `cal.1965-10-22.vietnam-pause`, `cal.1965-10-23.vietnam-2`, `cal.1965-10-26.vietnam-2`
+- Nov. 1965 (16): `cal.1965-11-03.vietnam`, `cal.1965-11-03.vietnam-2`, `cal.1965-11-06.vietnam-pause`, `cal.1965-11-09.vietnam`, `cal.1965-11-09.vietnam-2`, `cal.1965-11-10.vietnam`, `cal.1965-11-10.vietnam-2`, `cal.1965-11-11.vietnam-pause`, `cal.1965-11-17.vietnam-pause`, `cal.1965-11-23.vietnam`, `cal.1965-11-23.vietnam-force-levels`, `cal.1965-11-23.vietnam-support`, `cal.1965-11-24.vietnam-pause`, `cal.1965-11-27.vietnam-pause`, `cal.1965-11-28.vietnam-support`, `cal.1965-11-30.vietnam-pause`
+- Dec. 1965 (28): `cal.1965-12-02.vietnam`, `cal.1965-12-02.vietnam-pause`, `cal.1965-12-03.vietnam`, `cal.1965-12-03.vietnam-pause`, `cal.1965-12-04.vietnam-pause`, `cal.1965-12-04.vietnam-pause-2`, `cal.1965-12-06.vietnam-pause`, `cal.1965-12-08.vietnam-pause`, `cal.1965-12-09.vietnam`, `cal.1965-12-10.vietnam-support`, `cal.1965-12-11.vietnam`, `cal.1965-12-14.vietnam`, `cal.1965-12-14.vietnam-pause`, `cal.1965-12-15.vietnam-2`, `cal.1965-12-15.vietnam-3`, `cal.1965-12-15.vietnam-support`, `cal.1965-12-17.vietnam-2`, `cal.1965-12-17.vietnam-3`, `cal.1965-12-18.vietnam-pause`, `cal.1965-12-19.vietnam-pause`, `cal.1965-12-21.vietnam`, `cal.1965-12-21.vietnam-pause`, `cal.1965-12-21.vietnam-pause-2`, `cal.1965-12-27.vietnam-3`, `cal.1965-12-27.vietnam-pause`, `cal.1965-12-28.vietnam-pause`, `cal.1965-12-29.vietnam-2`, `cal.1965-12-30.vietnam-2`
+- Jan. 1966 (28): `cal.1966-01.vietnam`, `cal.1966-01-02.vietnam`, `cal.1966-01-03.laos`, `cal.1966-01-04.vietnam`, `cal.1966-01-05.vietnam`, `cal.1966-01-07.vietnam`, `cal.1966-01-07.vietnam-2`, `cal.1966-01-07.vietnam-3`, `cal.1966-01-07.vietnam-4`, `cal.1966-01-07.vietnam-pause`, `cal.1966-01-08.vietnam`, `cal.1966-01-08.vietnam-2`, `cal.1966-01-08.vietnam-3`, `cal.1966-01-13.vietnam`, `cal.1966-01-14.vietnam`, `cal.1966-01-17.vietnam`, `cal.1966-01-18.vietnam`, `cal.1966-01-19.vietnam-2`, `cal.1966-01-20.vietnam-pause-2`, `cal.1966-01-21.vietnam`, `cal.1966-01-21.vietnam-2`, `cal.1966-01-24.vietnam-force-levels`, `cal.1966-01-25.vietnam-air-war`, `cal.1966-01-25.vietnam-support`, `cal.1966-01-29.vietnam-pause`, `cal.1966-01-29.vietnam-pause-2`, `cal.1966-01-30.vietnam-air-war`, `cal.1966-01-31.vietnam-2`
+- Feb. 1966 (20): `cal.1966-02-03.vietnam`, `cal.1966-02-03.vietnam-force-levels`, `cal.1966-02-04.vietnam-air-war`, `cal.1966-02-04.vietnam-air-war-2`, `cal.1966-02-05.vietnam-support`, `cal.1966-02-07.vietnam`, `cal.1966-02-09.vietnam-force-levels`, `cal.1966-02-10.vietnam-force-levels`, `cal.1966-02-11.vietnam`, `cal.1966-02-11.vietnam-air-war`, `cal.1966-02-14.vietnam-support`, `cal.1966-02-15.vietnam`, `cal.1966-02-16.vietnam`, `cal.1966-02-16.vietnam-2`, `cal.1966-02-19.vietnam-air-war`, `cal.1966-02-19.vietnam-support`, `cal.1966-02-21.vietnam-2`, `cal.1966-02-21.vietnam-support-2`, `cal.1966-02-25.vietnam`, `cal.1966-02-28.opinion`
+- Mar. 1966 (26): `cal.1966-03.vietnam-air-war`, `cal.1966-03-02.vietnam-3`, `cal.1966-03-02.vietnam-4`, `cal.1966-03-07.opinion`, `cal.1966-03-08.vietnam-supplemental`, `cal.1966-03-09.vietnam-struggle`, `cal.1966-03-10.vietnam-air-war`, `cal.1966-03-11.vietnam-struggle-2`, `cal.1966-03-12.vietnam-struggle-2`, `cal.1966-03-14.vietnam`, `cal.1966-03-15.opinion`, `cal.1966-03-16.vietnam-struggle-2`, `cal.1966-03-17.vietnam-air-war`, `cal.1966-03-17.vietnam-struggle-2`, `cal.1966-03-18.vietnam-struggle`, `cal.1966-03-22.vietnam-struggle`, `cal.1966-03-22.vietnam-struggle-2`, `cal.1966-03-23.vietnam-struggle`, `cal.1966-03-24.vietnam-struggle`, `cal.1966-03-25.vietnam-struggle`, `cal.1966-03-26.vietnam-air-war`, `cal.1966-03-29.vietnam-air-war`, `cal.1966-03-30.vietnam-air-war`, `cal.1966-03-30.vietnam-struggle-2`, `cal.1966-03-30.vietnam-struggle-3`, `cal.1966-03-31.vietnam-struggle`
+- Apr. 1966 (43): `cal.1966-04-01.vietnam`, `cal.1966-04-02.vietnam-struggle`, `cal.1966-04-02.vietnam-struggle-2`, `cal.1966-04-02.vietnam-struggle-3`, `cal.1966-04-04.vietnam`, `cal.1966-04-04.vietnam-force-levels`, `cal.1966-04-04.vietnam-struggle-2`, `cal.1966-04-04.vietnam-struggle-3`, `cal.1966-04-04.vietnam-struggle-4`, `cal.1966-04-04.vietnam-struggle-5`, `cal.1966-04-05.vietnam`, `cal.1966-04-05.vietnam-2`, `cal.1966-04-05.vietnam-struggle-2`, `cal.1966-04-05.vietnam-struggle-3`, `cal.1966-04-06.vietnam-struggle-2`, `cal.1966-04-07.vietnam`, `cal.1966-04-07.vietnam-air-war`, `cal.1966-04-07.vietnam-struggle`, `cal.1966-04-08.vietnam`, `cal.1966-04-08.vietnam-struggle`, `cal.1966-04-08.vietnam-struggle-2`, `cal.1966-04-09.vietnam`, `cal.1966-04-09.vietnam-2`, `cal.1966-04-09.vietnam-struggle`, `cal.1966-04-09.vietnam-struggle-2`, `cal.1966-04-11.vietnam`, `cal.1966-04-12.vietnam-2`, `cal.1966-04-13.vietnam-air-war`, `cal.1966-04-14.vietnam`, `cal.1966-04-14.vietnam-air-war`, `cal.1966-04-15.vietnam`, `cal.1966-04-16.vietnam`, `cal.1966-04-16.vietnam-struggle`, `cal.1966-04-19.vietnam`, `cal.1966-04-20.vietnam-struggle`, `cal.1966-04-21.vietnam-2`, `cal.1966-04-21.vietnam-3`, `cal.1966-04-25.vietnam-2`, `cal.1966-04-26.vietnam`, `cal.1966-04-26.vietnam-2`, `cal.1966-04-27.vietnam`, `cal.1966-04-27.vietnam-struggle`, `cal.1966-04-27.vietnam-struggle-2`
+- May 1966 (42): `cal.1966-05-01.vietnam`, `cal.1966-05-02.vietnam`, `cal.1966-05-02.vietnam-2`, `cal.1966-05-05.vietnam-air-war`, `cal.1966-05-06.vietnam`, `cal.1966-05-06.vietnam-struggle`, `cal.1966-05-08.vietnam`, `cal.1966-05-10.vietnam-air-war`, `cal.1966-05-11.vietnam-2`, `cal.1966-05-12.vietnam`, `cal.1966-05-13.vietnam`, `cal.1966-05-13.vietnam-struggle`, `cal.1966-05-15.students`, `cal.1966-05-15.vietnam-struggle`, `cal.1966-05-15.vietnam-struggle-2`, `cal.1966-05-15.vietnam-struggle-3`, `cal.1966-05-15.vietnam-struggle-4`, `cal.1966-05-15.vietnam-struggle-5`, `cal.1966-05-15.vietnam-struggle-6`, `cal.1966-05-16.vietnam-struggle`, `cal.1966-05-16.vietnam-struggle-2`, `cal.1966-05-17.vietnam-struggle-2`, `cal.1966-05-19.vietnam-struggle`, `cal.1966-05-19.vietnam-struggle-2`, `cal.1966-05-20.vietnam-struggle`, `cal.1966-05-20.vietnam-struggle-2`, `cal.1966-05-20.vietnam-struggle-3`, `cal.1966-05-20.vietnam-struggle-4`, `cal.1966-05-21.vietnam-struggle-2`, `cal.1966-05-21.vietnam-struggle-3`, `cal.1966-05-21.vietnam-struggle-4`, `cal.1966-05-22.vietnam-struggle`, `cal.1966-05-23.vietnam-struggle`, `cal.1966-05-23.vietnam-struggle-2`, `cal.1966-05-24.vietnam-air-war`, `cal.1966-05-27.vietnam`, `cal.1966-05-27.vietnam-2`, `cal.1966-05-27.vietnam-3`, `cal.1966-05-27.vietnam-4`, `cal.1966-05-27.vietnam-struggle`, `cal.1966-05-30.vietnam-struggle`, `cal.1966-05-31.vietnam-struggle`
+- Jun. 1966 (44): `cal.1966-06-01.vietnam-struggle-2`, `cal.1966-06-01.vietnam-struggle-3`, `cal.1966-06-01.vietnam-struggle-4`, `cal.1966-06-01.vietnam-struggle-5`, `cal.1966-06-02.europe-and-the-alliance`, `cal.1966-06-02.vietnam`, `cal.1966-06-02.vietnam-air-war`, `cal.1966-06-02.vietnam-struggle`, `cal.1966-06-03.vietnam-air-war`, `cal.1966-06-03.vietnam-struggle`, `cal.1966-06-05.students`, `cal.1966-06-05.vietnam`, `cal.1966-06-05.vietnam-2`, `cal.1966-06-05.vietnam-air-war`, `cal.1966-06-06.vietnam-support`, `cal.1966-06-08.vietnam-2`, `cal.1966-06-08.vietnam-air-war`, `cal.1966-06-10.vietnam`, `cal.1966-06-11.vietnam-air-war`, `cal.1966-06-11.vietnam-struggle`, `cal.1966-06-13.opinion-2`, `cal.1966-06-13.vietnam-air-war`, `cal.1966-06-14.opinion-2`, `cal.1966-06-14.vietnam`, `cal.1966-06-14.vietnam-2`, `cal.1966-06-14.vietnam-air-war`, `cal.1966-06-15.vietnam-2`, `cal.1966-06-16.vietnam-air-war`, `cal.1966-06-17.europe-and-the-alliance`, `cal.1966-06-17.vietnam-3`, `cal.1966-06-17.vietnam-support`, `cal.1966-06-18.vietnam-force-levels`, `cal.1966-06-20.students`, `cal.1966-06-22.vietnam`, `cal.1966-06-22.vietnam-2`, `cal.1966-06-23.vietnam`, `cal.1966-06-23.vietnam-air-war`, `cal.1966-06-25.vietnam`, `cal.1966-06-26.vietnam-struggle`, `cal.1966-06-28.vietnam`, `cal.1966-06-28.vietnam-force-levels`, `cal.1966-06-29.vietnam-3`, `cal.1966-06-29.vietnam-4`, `cal.1966-06-30.vietnam`
+- Jul. 1966 (22): `cal.1966-07.vietnam`, `cal.1966-07-01.vietnam`, `cal.1966-07-01.vietnam-2`, `cal.1966-07-02.europe-and-the-alliance`, `cal.1966-07-03.europe-and-the-alliance`, `cal.1966-07-04.europe-and-the-alliance`, `cal.1966-07-08.vietnam`, `cal.1966-07-11.china`, `cal.1966-07-11.opinion`, `cal.1966-07-11.vietnam`, `cal.1966-07-15.vietnam-support`, `cal.1966-07-16.vietnam`, `cal.1966-07-20.defense`, `cal.1966-07-21.vietnam`, `cal.1966-07-22.vietnam-2`, `cal.1966-07-23.vietnam`, `cal.1966-07-24.vietnam`, `cal.1966-07-25.india-and-china-cultural-revolution`, `cal.1966-07-25.vietnam`, `cal.1966-07-28.europe-and-the-alliance`, `cal.1966-07-30.vietnam-2`, `cal.1966-07-30.vietnam-3`
+- Aug. 1966 (48): `cal.1966-08.vietnam-air-war`, `cal.1966-08-02.vietnam-2`, `cal.1966-08-02.vietnam-3`, `cal.1966-08-02.vietnam-4`, `cal.1966-08-03.vietnam-force-levels`, `cal.1966-08-04.vietnam`, `cal.1966-08-04.vietnam-2`, `cal.1966-08-04.vietnam-support`, `cal.1966-08-05.vietnam`, `cal.1966-08-05.vietnam-2`, `cal.1966-08-05.vietnam-force-levels`, `cal.1966-08-05.vietnam-force-levels-2`, `cal.1966-08-05.vietnam-support`, `cal.1966-08-06.soviet-union`, `cal.1966-08-06.soviet-union-2`, `cal.1966-08-06.vietnam`, `cal.1966-08-07.vietnam`, `cal.1966-08-07.vietnam-2`, `cal.1966-08-07.vietnam-force-levels`, `cal.1966-08-08.vietnam-2`, `cal.1966-08-10.vietnam`, `cal.1966-08-10.vietnam-2`, `cal.1966-08-10.vietnam-3`, `cal.1966-08-11.vietnam`, `cal.1966-08-13.vietnam-2`, `cal.1966-08-13.vietnam-3`, `cal.1966-08-15.vietnam`, `cal.1966-08-17.vietnam`, `cal.1966-08-18.vietnam`, `cal.1966-08-18.vietnam-2`, `cal.1966-08-18.vietnam-3`, `cal.1966-08-19.vietnam`, `cal.1966-08-23.vietnam`, `cal.1966-08-23.vietnam-2`, `cal.1966-08-24.vietnam`, `cal.1966-08-24.vietnam-2`, `cal.1966-08-24.vietnam-force-levels`, `cal.1966-08-25.vietnam`, `cal.1966-08-25.vietnam-2`, `cal.1966-08-25.vietnam-support`, `cal.1966-08-29.economy-investment-credit`, `cal.1966-08-29.vietnam`, `cal.1966-08-29.vietnam-force-levels`, `cal.1966-08-30.economy-investment-credit`, `cal.1966-08-30.vietnam-force-levels`, `cal.1966-08-30.vietnam-force-levels-2`, `cal.1966-08-31.vietnam-2`, `cal.1966-08-31.vietnam-3`
+- Sept. 1966 (21): `cal.1966-09.vietnam`, `cal.1966-09-01.vietnam-2`, `cal.1966-09-02.economy-investment-credit`, `cal.1966-09-02.vietnam`, `cal.1966-09-03.vietnam-air-war`, `cal.1966-09-09.vietnam`, `cal.1966-09-11.opinion-2`, `cal.1966-09-15.vietnam-2`, `cal.1966-09-15.vietnam-3`, `cal.1966-09-16.vietnam-support`, `cal.1966-09-22.vietnam-2`, `cal.1966-09-22.vietnam-3`, `cal.1966-09-26.vietnam`, `cal.1966-09-26.vietnam-asian-trip`, `cal.1966-09-27.vietnam`, `cal.1966-09-28.vietnam`, `cal.1966-09-29.vietnam-2`, `cal.1966-09-30.vietnam-3`, `cal.1966-09-30.vietnam-4`, `cal.1966-09-30.vietnam-5`, `cal.1966-09-30.vietnam-6`
+- Oct. 1966 (26): `cal.1966-10.students`, `cal.1966-10-01.vietnam`, `cal.1966-10-02.vietnam`, `cal.1966-10-03.vietnam-2`, `cal.1966-10-03.vietnam-3`, `cal.1966-10-03.vietnam-4`, `cal.1966-10-03.vietnam-5`, `cal.1966-10-03.vietnam-asian-trip`, `cal.1966-10-05.vietnam`, `cal.1966-10-05.vietnam-force-levels`, `cal.1966-10-06.vietnam`, `cal.1966-10-06.vietnam-force-levels`, `cal.1966-10-07.vietnam`, `cal.1966-10-10.vietnam-2`, `cal.1966-10-10.vietnam-3`, `cal.1966-10-10.vietnam-force-levels`, `cal.1966-10-11.vietnam`, `cal.1966-10-15.soviet-union`, `cal.1966-10-15.vietnam-2`, `cal.1966-10-15.vietnam-3`, `cal.1966-10-15.vietnam-asian-trip`, `cal.1966-10-20.vietnam-force-levels`, `cal.1966-10-23.vietnam-asian-trip`, `cal.1966-10-25.opinion`, `cal.1966-10-28.soviet-union`, `cal.1966-10-31.vietnam-air-war`
+- Nov. 1966 (24): `cal.1966-11-02.vietnam`, `cal.1966-11-04.vietnam`, `cal.1966-11-04.vietnam-force-levels`, `cal.1966-11-04.vietnam-force-levels-2`, `cal.1966-11-05.vietnam-air-war`, `cal.1966-11-06.vietnam`, `cal.1966-11-07.vietnam`, `cal.1966-11-08.vietnam`, `cal.1966-11-08.vietnam-air-war`, `cal.1966-11-09.vietnam-air-war`, `cal.1966-11-10.vietnam`, `cal.1966-11-11.vietnam-2`, `cal.1966-11-11.vietnam-force-levels`, `cal.1966-11-12.vietnam`, `cal.1966-11-14.vietnam-support`, `cal.1966-11-15.vietnam-2`, `cal.1966-11-17.vietnam-2`, `cal.1966-11-17.vietnam-3`, `cal.1966-11-18.vietnam`, `cal.1966-11-22.vietnam`, `cal.1966-11-29.vietnam`, `cal.1966-11-30.vietnam`, `cal.1966-11-30.vietnam-2`, `cal.1966-11-30.vietnam-3`
+- Dec. 1966 (15): `cal.1966-12-02.vietnam`, `cal.1966-12-06.vietnam`, `cal.1966-12-07.vietnam`, `cal.1966-12-11.vietnam`, `cal.1966-12-12.vietnam`, `cal.1966-12-12.vietnam-support`, `cal.1966-12-16.vietnam`, `cal.1966-12-21.vietnam`, `cal.1966-12-21.vietnam-2`, `cal.1966-12-24.vietnam-air-war`, `cal.1966-12-27.vietnam`, `cal.1966-12-29.vietnam`, `cal.1966-12-30.vietnam`, `cal.1966-12-31.vietnam-2`, `cal.1966-12-31.vietnam-3`
+
+### Possible duplicates the merge will flag (distinct events: `./bib resolve ID --take keep`)
+
+99 pairs, each two events of one day in one thread (two cables, a meeting and a memorandum, two speeches), read
+against each other before filing:
+
+- `cal.1966-04-09.vietnam-struggle-2` (of `cal.1966-04-09.vietnam-struggle`)
+- `cal.1966-04-09.vietnam-2` (of `cal.1966-04-09.vietnam`)
+- `cal.1966-04-05.vietnam-2` (of `cal.1966-04-05.vietnam`)
+- `cal.1966-04-21.vietnam-2` (of `cal.1966-04-21.vietnam`)
+- `cal.1966-04-12.vietnam-2` (of `cal.1966-04-12.vietnam`)
+- `cal.1966-04-21.vietnam-3` (of `cal.1966-04-21.vietnam-2`)
+- `cal.1966-04-25.vietnam-2` (of `cal.1966-04-25.vietnam`)
+- `cal.1966-04-27.vietnam-struggle-2` (of `cal.1966-04-27.vietnam-struggle`)
+- `cal.1966-06-28.vietnam-congress-3` (of `cal.1966-06-28.vietnam-congress-2`)
+- `cal.1966-05-05.vietnam-congress-2` (of `cal.1966-05-05.vietnam-congress`)
+- `cal.1966-05-15.vietnam-struggle` (of `cal.1966-05-15.vietnam`)
+- `cal.1966-05-15.vietnam-struggle-2` (of `cal.1966-05-15.vietnam-struggle`)
+- `cal.1966-05-15.vietnam-struggle-3` (of `cal.1966-05-15.vietnam-struggle-2`)
+- `cal.1966-05-15.vietnam-struggle-4` (of `cal.1966-05-15.vietnam-struggle-3`)
+- `cal.1966-05-15.vietnam-struggle-5` (of `cal.1966-05-15.vietnam-struggle-4`)
+- `cal.1966-05-15.vietnam-struggle-6` (of `cal.1966-05-15.vietnam-struggle-5`)
+- `cal.1966-05-16.vietnam-struggle-2` (of `cal.1966-05-16.vietnam-struggle`)
+- `cal.1966-05-17.vietnam-struggle-2` (of `cal.1966-05-17.vietnam-struggle`)
+- `cal.1966-05-19.vietnam-struggle-2` (of `cal.1966-05-19.vietnam-struggle`)
+- `cal.1966-05-20.vietnam-struggle-2` (of `cal.1966-05-20.vietnam-struggle`)
+- `cal.1966-05-20.vietnam-struggle-3` (of `cal.1966-05-20.vietnam-struggle-2`)
+- `cal.1966-05-20.vietnam-struggle-4` (of `cal.1966-05-20.vietnam-struggle-3`)
+- `cal.1966-05-21.vietnam-struggle-2` (of `cal.1966-05-21.vietnam-struggle`)
+- `cal.1966-05-21.vietnam-struggle-3` (of `cal.1966-05-21.vietnam-struggle-2`)
+- `cal.1966-05-21.vietnam-struggle-4` (of `cal.1966-05-21.vietnam-struggle-3`)
+- `cal.1966-05-27.vietnam-2` (of `cal.1966-05-27.vietnam`)
+- `cal.1966-06-01.vietnam-struggle-2` (of `cal.1966-06-01.vietnam-struggle`)
+- `cal.1966-06-01.vietnam-struggle-3` (of `cal.1966-06-01.vietnam-struggle-2`)
+- `cal.1966-06-01.vietnam-struggle-4` (of `cal.1966-06-01.vietnam-struggle-3`)
+- `cal.1966-06-01.vietnam-struggle-5` (of `cal.1966-06-01.vietnam-struggle-4`)
+- `cal.1966-06-13.opinion-2` (of `cal.1966-06-13.opinion`)
+- `cal.1966-09-11.opinion-2` (of `cal.1966-09-11.opinion`)
+- `cal.1966-05-23.vietnam-struggle-2` (of `cal.1966-05-23.vietnam-struggle`)
+- `cal.1966-06-29.vietnam-3` (of `cal.1966-06-29.vietnam`)
+- `cal.1966-06-05.vietnam-2` (of `cal.1966-06-05.vietnam`)
+- `cal.1966-02-04.vietnam-air-war-2` (of `cal.1966-02-04.vietnam-air-war`)
+- `cal.1966-06-14.vietnam-2` (of `cal.1966-06-14.vietnam`)
+- `cal.1966-06-15.vietnam-2` (of `cal.1966-06-15.vietnam`)
+- `cal.1966-05-11.vietnam-2` (of `cal.1966-05-11.vietnam`)
+- `cal.1966-06-17.vietnam-3` (of `cal.1966-06-17.vietnam-2`)
+- `cal.1966-06-22.vietnam-2` (of `cal.1966-06-22.vietnam`)
+- `cal.1966-08-06.soviet-union-2` (of `cal.1966-08-06.soviet-union`)
+- `cal.1966-08-02.vietnam-2` (of `cal.1966-08-02.vietnam`)
+- `cal.1966-08-31.vietnam-2` (of `cal.1966-08-31.vietnam`)
+- `cal.1966-06-29.vietnam-4` (of `cal.1966-06-29.vietnam-3`)
+- `cal.1966-07-01.vietnam-2` (of `cal.1966-07-01.vietnam`)
+- `cal.1966-07-22.vietnam-2` (of `cal.1966-07-22.vietnam`)
+- `cal.1966-07-30.vietnam-2` (of `cal.1966-07-30.vietnam`)
+- `cal.1966-08-18.vietnam-2` (of `cal.1966-08-18.vietnam`)
+- `cal.1966-08-02.vietnam-3` (of `cal.1966-08-02.vietnam-2`)
+- `cal.1966-07-30.vietnam-3` (of `cal.1966-07-30.vietnam-2`)
+- `cal.1966-08-04.vietnam-2` (of `cal.1966-08-04.vietnam`)
+- `cal.1966-08-02.vietnam-4` (of `cal.1966-08-02.vietnam-3`)
+- `cal.1966-08-05.vietnam-2` (of `cal.1966-08-05.vietnam`)
+- `cal.1966-08-13.vietnam-2` (of `cal.1966-08-13.vietnam`)
+- `cal.1966-05-27.vietnam-4` (of `cal.1966-05-27.vietnam-2`)
+- `cal.1966-08-07.vietnam-2` (of `cal.1966-08-07.vietnam`)
+- `cal.1966-08-10.vietnam-2` (of `cal.1966-08-10.vietnam`)
+- `cal.1966-08-18.vietnam-3` (of `cal.1966-08-18.vietnam-2`)
+- `cal.1966-09-15.vietnam-2` (of `cal.1966-09-15.vietnam`)
+- `cal.1966-08-31.vietnam-3` (of `cal.1966-08-31.vietnam-2`)
+- `cal.1966-09-22.vietnam-2` (of `cal.1966-09-22.vietnam`)
+- `cal.1966-10-03.vietnam-2` (of `cal.1966-10-03.vietnam`)
+- `cal.1966-08-05.vietnam-force-levels-2` (of `cal.1966-08-05.vietnam-force-levels`)
+- `cal.1966-08-13.vietnam-3` (of `cal.1966-08-13.vietnam-2`)
+- `cal.1966-08-30.vietnam-force-levels-2` (of `cal.1966-08-30.vietnam-force-levels`)
+- `cal.1966-08-24.vietnam-2` (of `cal.1966-08-24.vietnam`)
+- `cal.1966-08-23.vietnam-2` (of `cal.1966-08-23.vietnam`)
+- `cal.1966-08-10.vietnam-3` (of `cal.1966-08-10.vietnam-2`)
+- `cal.1966-08-25.vietnam-2` (of `cal.1966-08-25.vietnam`)
+- `cal.1966-05-27.vietnam-3` (of `cal.1966-05-27.vietnam-4`)
+- `cal.1966-04-26.vietnam-2` (of `cal.1966-04-26.vietnam`)
+- `cal.1966-05-02.vietnam-2` (of `cal.1966-05-02.vietnam`)
+- `cal.1966-12-31.vietnam-2` (of `cal.1966-12-31.vietnam`)
+- `cal.1966-05-09.vietnam-congress-2` (of `cal.1966-05-09.vietnam-congress`)
+- `cal.1966-05-16.vietnam-congress-2` (of `cal.1966-05-16.vietnam-congress`)
+- `cal.1966-09-19.vietnam-congress-2` (of `cal.1966-09-19.vietnam-congress`)
+- `cal.1966-09-28.vietnam-congress-2` (of `cal.1966-09-28.vietnam-congress`)
+- `cal.1966-09-01.vietnam-2` (of `cal.1966-09-01.vietnam`)
+- `cal.1966-09-15.vietnam-3` (of `cal.1966-09-15.vietnam-2`)
+- `cal.1966-10-03.vietnam-3` (of `cal.1966-10-03.vietnam-2`)
+- `cal.1966-10-03.vietnam-4` (of `cal.1966-10-03.vietnam-3`)
+- `cal.1966-10-10.vietnam-2` (of `cal.1966-10-10.vietnam`)
+- `cal.1966-10-10.vietnam-3` (of `cal.1966-10-10.vietnam-2`)
+- `cal.1966-10-15.vietnam-2` (of `cal.1966-10-15.vietnam`)
+- `cal.1966-10-15.vietnam-3` (of `cal.1966-10-15.vietnam-2`)
+- `cal.1966-11-04.vietnam-force-levels-2` (of `cal.1966-11-04.vietnam-force-levels`)
+- `cal.1966-11-11.vietnam-force-levels` (of `cal.1966-11-11.vietnam`)
+- `cal.1966-09-22.vietnam-3` (of `cal.1966-09-22.vietnam-2`)
+- `cal.1966-09-30.vietnam-4` (of `cal.1966-09-30.vietnam-3`)
+- `cal.1966-11-17.vietnam-3` (of `cal.1966-11-17.vietnam-2`)
+- `cal.1966-10-03.vietnam-5` (of `cal.1966-10-03.vietnam-4`)
+- `cal.1966-11-30.vietnam-2` (of `cal.1966-11-30.vietnam`)
+- `cal.1966-09-30.vietnam-5` (of `cal.1966-09-30.vietnam-4`)
+- `cal.1966-09-30.vietnam-6` (of `cal.1966-09-30.vietnam-5`)
+- `cal.1966-11-30.vietnam-3` (of `cal.1966-11-30.vietnam-2`)
+- `cal.1966-12-21.vietnam-2` (of `cal.1966-12-21.vietnam`)
+- `cal.1966-11-15.vietnam-2` (of `cal.1966-11-15.vietnam`)
+- `cal.1966-12-31.vietnam-3` (of `cal.1966-12-31.vietnam-2`)
+
+### Passed over
+
+How the list was made: every dated event the pages of July 1965–Dec. 1966 treat (pp. 17–500; pp. 1–16 summarize Part
+III), read in context against the day's entries (`./bib find`). Passed without a row: the dates of documents in the notes
+that the entry entered cites; a day named only to place another event. "Minor" only as the owner's rule allows (the
+same position again; private trivia; below the level the calendar records). "Below the level" marks a staff or
+departmental paper, an estimate, a commander's or the Mission's cable, a unit's arrival or a single operation: for the
+owner to rule. "A lead": a dated event whose record the run did not read.
+
+| Page | Date | Event | Why |
+|---|---|---|---|
+| 1–16 | 1964–July 28, 1965 | the chapter's summary of the decision to send forces, from Part III | out of this run: Part III (the Parts I–III run) |
+| 17 | July 29, 1965 | the 1st Brigade, 101st Airborne Division, arrives | minor: a unit's arrival, below the level the calendar records |
+| 17 n.49 | Aug. 26, 1965 | Lodge's cable (Saigon 624, the Mission Intelligence Committee's): the Viet Cong's summer campaign frustrated | minor: a mission assessment, nothing new against the entries of August |
+| 22 | July 27, 1965 | the congressional leaders with Johnson; Mansfield, Russell and Fulbright's meeting and Mansfield's summary | out of this run: before July 28, 1965 (Part III) |
+| 24 | July 29, 1965 | the *New York Times*'s editorial on the decision | out of the brief: an editorial |
+| 24 | Aug. 27, 1965 | Gallup, late August: the Administration's handling of Vietnam approved 57 percent, disapproved 25 (Washington Post, Aug. 27; Gibbons prints 1966) | a lead: enter from Gallup's release (*The Gallup Poll*, III) |
+| 25 | Aug. 1965 | Gallup's first "mistake" question: not a mistake 61 percent, a mistake 24 | a lead: enter from Gallup's release (*The Gallup Poll*, III) |
+| 25–26 | Sept. 12, 1965 | Harris Survey (Washington Post, Sept. 12, 13): nearly 70-30 for a stand in Vietnam; hold the line 49 percent, negotiate 25, carry the war north 26 | a lead: Harris's release, the Post of Sept. 12 and 13 |
+| 27 | Aug. 12, 1965 | King calls on Johnson to negotiate with the National Liberation Front and weighs a personal appeal to the governments (New York Times, Aug. 13, 14); Weaver's reply (Aug. 20) | a lead: the King thread (the Garrow run) |
+| 28 | Aug. 1965 | the protests at Berkeley and Oakland against the troop trains, from early August into September | undated |
+| 29 n.88 | July 12, 1965 | Cooper to Cater on the NSA's coming resolution, Cater and Mondale to speak | minor: a staff memorandum; the resolution entered (cal.1965-09-02.students) |
+| 32 | Aug. 9, 1965; Aug. 16, 1965 | Cooper to McGeorge Bundy: Leibman to be used for the American Friends of Vietnam; Leibman to buy 5,000 copies of *Vietnam Perspectives* | minor: below the calendar's level; the matter in cal.1965-08-03.vietnam-support |
+| 32 n.98 | Sept. 10, 1965 | Cooper, "Financial Support to the American Friends of Vietnam" | minor: below the calendar's level; the matter in cal.1965-08-03.vietnam-support |
+| 34 | Aug. 1965 | Rusk before House Foreign Affairs, "a few days" before Aug. 5 | undated |
+| 38–39 | Aug. 1965 | Fulbright's staff (Holt, Tillman, Williams, Marcy) on a private letter or a public speech on the Dominican affair, by the end of August (CRS interviews with Tillman, Feb. 9, 1979, and Williams, Mar. 13, 1979) | undated |
+| 40 | Sept. 1965 | after the speech, Fulbright and Marcy shut out of the White House ("What are you doing here?") | undated |
+| 41 | Oct. 1965 | Fulbright to Johnson in the hospital: his speech meant to help; "Subservience cannot ... help develop new policies"; no reply | undated (between the operation of Oct. 8 and Oct. 22); a lead: Johnson and Gwertzman, *Fulbright: The Dissenter*, 220 |
+| 41 | 1965-10–11 | Fulbright, privately: he cannot advise other Senators to speak out; "My God, I feel so alone" | undated; minor: private remarks |
+| 43 | July 7, 1965; July 20, 1965 | Lodge to McGeorge Bundy and to Johnson against search and destroy, for the enclaves | out of this run: before July 28, 1965 (Part III) |
+| 44 n.5 | Sept. 17, 1965 | MACV Directive 525-4, "Tactics and Techniques for Employment of U.S. Forces" | minor: a directive below the calendar's level; the concept entered (cal.1965-09-01.vietnam) |
+| 47 | Aug. 30, 1965 | Bowman sends the Chiefs' concept to McGeorge Bundy; no record of further action | already in: cal.1965-08-27.vietnam (unit E) |
+| 56 | Aug. 1965 | Lodge, on arriving: the CIA station to list commanders eligible to head a government; Habib to define a "satisfactory outcome"; Lansdale to advise Kỳ (Lodge's unpublished memoir) | undated |
+| 56–57 | Aug. 3, 1965 | Rostow's Policy Planning paper, "Politics and Victory in South Vietnam" (cover memorandum Aug. 2 or 3): a revolutionary party, a five-year reconstruction program | minor: below the level the calendar records (a planning paper that no decision followed); for the owner to rule |
+| 58–60 | July 29, 1965 | Lodge's working paper to Lansdale on "the 'Politico' Part"; Lansdale's reply (July 29), sent to Johnson with McGeorge Bundy's note ("Can we afford some creative tension?") | undated (Lodge's paper and Bundy's note); Lansdale's reply of July 29 minor: below the level the calendar records; for the owner to rule |
+| 61 | Aug. 9, 1965; Sept. 2, 1965 | Lodge to Lansdale on his role (Aug. 9); Lodge to Johnson, Saigon 716 (Sept. 2): Lansdale "the spokesman for the whole U.S. Mission" on pacification | minor: an appointment within the Mission, below the calendar's level |
+| 61 | Aug. 20, 1965 | Lodge arrives in Saigon | a lead: the arrival and credentials (the Executive roster holds his term) |
+| 62 | Sept. 10, 1965 | Vann's paper, "Harnessing the Revolution in South Vietnam": a pilot project in three provinces; the GVN "forced to accept U.S. judgment" | minor: below the level the calendar records (a provincial representative's paper); for the owner to rule |
+| 62–64 | Sept. 1965; Oct. 1965 | Lodge sees Vann (September); Ellsberg's "Visit to an Insecure Province" (October) | undated |
+| 60 n.43 | Nov. 1965 | Corliss Lamont to Lodge: resign and make the Republican Party "the great American Peace Party" | undated; minor: a private letter, unanswered |
+| 64 | Aug. 29, 1965 | Reston in the *New York Times*: "When Uncle Sam moves in, somebody has to move over" | out of the brief: a column |
+| 65–66 | Oct. 20, 1965 | the Vietnam Coordinating Committee on Miller's paper on the nonmilitary program ("an infinite capacity to absorb economic and social benefits without returning an ounce of loyalty"); Miller's memorandum of Oct. 25 | minor: below the level the calendar records (an interagency working committee and a desk officer's paper); for the owner to rule |
+| 66 n.59 | Oct. 30, 1965 | Lansdale to Lodge, "A National Council," with Melvin and Ellsberg's "Proposal: A True Vietnamese Revolution" | minor: below the level the calendar records (a proposal within the Mission); for the owner to rule |
+| 67 n.60 | Sept. 13, 1965 | Lodge to Johnson, Saigon 888: the American troops' "very beneficial effect" on the Vietnamese | minor: below the level the calendar records (the Ambassador's weekly report); for the owner to rule |
+| 67 n.62 | Sept. 22, 1965 | Lodge to Johnson, Saigon 991: the Kỳ–Thiệu government's survival owed to the American commitment; a coup "most unwelcome" | minor: below the level the calendar records (the Ambassador's weekly report); for the owner to rule |
+| 67–68 | Aug. 18, 1965 | Operation Starlite, the Batangan peninsula | already in: cal.1965-08-18.vietnam |
+| 68 | Aug. 26, 1965 | Lodge to Johnson, Saigon 621: Starlite "could be a milestone"; Saigon's poverty | minor: below the level the calendar records (the Ambassador's weekly report); for the owner to rule |
+| 69–70 | Aug. 1965 | Johnson summons Stanton to the White House with Moyers, "a few days" after the broadcast; Safer investigated (Safer's account) | undated |
+| 70 n.73 | Sept. 1965 | Johnson to Reston at the White House after his trip: "I'm trying to save my ass" (Reston's memoir) | undated |
+| 71 | Sept. 1965 | the Mission's conference in Saigon on the war's psychological side; a Tactical Air Firepower Board (briefed Sept. 15) | undated; the directive entered (cal.1965-09-07.vietnam) |
+| 72 n.82 | Sept. 2, 1965; Sept. 11, 1965 | JCSM-670-65 (Sept. 2), the strikes of Sept. 17–30; JCSM-686-65 (Sept. 11), the estimates of reactions | already in: cal.1965-09-13.vietnam and cal.1965-09-15.vietnam |
+| 72 n.82 | July 30, 1965; Aug. 5, 1965 | McNaughton, "Analysis of the Program of Bombing North Vietnam" (Aug. 5, revising July 30) | minor: below the level the calendar records (a staff paper); for the owner to rule |
+| 75 n.90 | Sept. 23, 1965 | McGeorge Bundy to Johnson, summarizing the cables to and from Lodge | minor: a summary of matters entered |
+| 75 n.91 | Sept. 22, 1965 | Sharp to Wheeler, CINCPAC 220725Z: "This is a counterinsurgency war"; clear, hold, develop | minor: below the level the calendar records (a commander's cable); for the owner to rule |
+| 76 n.92 | Sept. 10, 1965; Sept. 14, 1965; Sept. 21, 1965 | Holbrooke on Hop Tac ("the plan of the Americans"); Westmoreland to Lodge on Hop Tac; MACV's briefing to the Mission Council | minor: below the level the calendar records (papers within the Mission); for the owner to rule |
+| 78 n.6 | Nov. 10, 1965 | Rice, Consul General at Hong Kong: bombing Hanoi and Haiphong would not bring Hanoi to negotiate, and might bring China in | minor: below the level the calendar records (a consulate's letter); for the owner to rule |
+| 79 n.7 | Sept. 30, 1965 | Lippmann's column: to win, "occupy South Vietnam with American troops" | out of the brief: a column |
+| 80–81 | Oct. 18, 1965 | DePuy presents MACV's proposal for 1966 to the Chiefs, the Service Secretaries and the principals, Oct. 18–22 | already in: cal.1965-10-23.vietnam (the briefing, unit A) |
+| 81 n.12 | Oct. 16, 1965 | Westmoreland and Kissinger in Saigon: 60 percent of the people under government control in 18 months, 80 in 36 (Westmoreland's History Notes) | minor: below the level the calendar records (a consultant's interview); for the owner to rule |
+| 81 n.15 | Oct. 20, 1965 | Kỳ with Lodge and Kissinger: the government not strong enough for political warfare (Saigon 1361) | already in: cal.1965-10-21.vietnam (Kỳ, Oct. 19, by Lodge's 1377); Check the day |
+| 82 n.16 | Nov. 3, 1965 | Sullivan, Vientiane 437, on the Russians' possible moves in Indochina | minor: below the level the calendar records (an ambassador's cable); for the owner to rule |
+| 82 | Nov. 1965 | McGeorge Bundy gives Lodge's letter to Rusk and McNamara, not Goldberg | undated; minor: a covering note |
+| 83 n.19 | Nov. 10, 1965; Nov. 23, 1965; Dec. 3, 1965 | Kissinger's letters to Lodge, "For the Ambassador's Eyes Only": "a noble enterprise"; Lodge's standing in Washington; pacification and Lansdale | minor: below the level the calendar records (a consultant's private letters); for the owner to rule |
+| 85 n.23 | Nov. 9, 1965 | Rice to William Bundy: Clifford's visit to Hong Kong on his Asian trip; the President wants "hard intelligence" | minor: below the level the calendar records (a consulate's letter (FRUS 1964–68, III, doc. 196)); for the owner to rule |
+| 86 n.24 | Nov. 9, 1965 | McGeorge Bundy sends McNamara's memorandum to Johnson in Texas | minor: a covering memorandum |
+| 88 n.33 | Nov. 2, 1965 | the Policy Planning Council's "A Settlement in Vietnam" (the Ginsburgh Report) | minor: below the level the calendar records (a planning paper); for the owner to rule |
+| 89 | Oct. 15, 1965 | the draft call for December announced: 45,224 (36,450 for November, 17,000 in July) | a lead: the draft calls month by month, from Selective Service's announcements |
+| 90 n.38 | Sept. 21, 1965 | Moyers to Johnson on lunch with Reston: the trip changed Reston's mind | minor: social |
+| 90–91 | Oct. 17, 1965 | Reston's column, "The Stupidity of Intelligence" (put in the Record by Proxmire) | out of the brief: a column |
+| 93 | Oct. 1965 | SANE's leaders with Cooper before the march; Spock and Hughes cable Hồ Chí Minh (New York Times, Oct. 29) | undated; a lead: the cable's day |
+| 95 | Oct. 8, 1965 | State's Circular 585: the posts to report the Vietnam Day Committee's communications abroad | minor: below the level the calendar records (a circular); for the owner to rule |
+| 95–97 | 1965–66 | the FBI's, CIA's, NSA's and the Army's surveillance of the antiwar movement; the FBI's documents on King shown to Haynes Johnson ("late 1965 or early 1966") | undated |
+| 97 | Nov. 1965 | Gallup, late October: the Communists involved in the demonstrations "a lot," 58 percent | already in: cal.1965-11-19.opinion |
+| 97–98 | Dec. 13, 1965 | Harris (Washington Post, Dec. 13): demonstrators "just demonstrating against something" 34, a "tool of Communists" 26; a right to demonstrate 59, none 32 | a lead: Harris's release |
+| 98 | Nov. 21, 1965 | Gallup: should have become involved with our forces in Southeast Asia, 64; should not, 21 | a lead: Gallup's release (*The Gallup Poll*, III, 1971) |
+| 98 | Dec. 6, 1965 | Harris (Washington Post, Dec. 6): keep fighting until we can negotiate on our own terms, 71 percent | a lead: Harris's release |
+| 98–99 | Dec. 27, 1965 | Redmon to Moyers, "Public Opinion and Vietnam": support for the buildup as a road to peace; never talk of "victory" | minor: below the level the calendar records (a staff memorandum); for the owner to rule |
+| 99 | Dec. 14, 1965 | Cooper to McGeorge Bundy, Moyers, Valenti and Cater, "Vietnam, The American People, and Us": a full-time public affairs staff | minor: below the level the calendar records (a staff memorandum); for the owner to rule |
+| 100 n.66 | Nov. 27, 1965 | Moore to William Bundy on Freedom House's consultations and its funding | minor: a staff memorandum on a matter entered |
+| 101–102 | Jan. 29, 1966 | Harold Johnson to Westmoreland, WDC 1253: "rather serious doubts" that the PAVN were driven from the Ia Drang | minor: below the level the calendar records (a commander's cable); for the owner to rule |
+| 102 | Dec. 1965 | Harold Johnson's visit to Vietnam: Kinnard, the colonels, the 1st Division's junior officers against Westmoreland's tactics | undated |
+| 104 n.81 | Nov. 10, 1965 | JCSM-810-65, the Chiefs' companion memorandum on the North's oil | already in: cal.1965-11-10.vietnam (unit C) |
+| 104–105 | Nov. 20, 1965; Nov. 21, 1965; Nov. 23, 1965 | Taylor (JCS 4500-65), Westmoreland (MAC 5875) and Sharp (INNO 9529) on the South Vietnamese forces' share of the offensive | minor: below the level the calendar records (commanders' cables); for the owner to rule |
+| 105 | Nov. 1965 | McNamara's answer to JCSM-811-65; Wheeler sees Johnson | undated; Wheeler's visit already in: cal.1965-11-23.vietnam |
+| 106 | Nov. 11, 1965 | the Mission Intelligence Committee's "Estimate of Viet Cong Situation" (Saigon 1677) | minor: below the level the calendar records (an intelligence cable); for the owner to rule |
+| 106 | Nov. 1965 | the Phase II estimate raised to 200,000, "a few days" after Nov. 23 | undated |
+| 107–108 | Nov. 29, 1965 | McNamara to the press, leaving Saigon: "it will be a long war" | a lead: the day and the words, from the press of Nov. 29–30 |
+| 109 | Dec. 7, 1965 | McNamara's budget figures in the revised memorandum: $11 billion more for fiscal 1966, $9.8 billion for 1967, the war assumed over by June 30, 1967 | already in: cal.1965-12-07.vietnam (the revised memorandum); the figures a lead for its c |
+| 111 | Dec. 1965 | the Lao Động Central Committee's resolution: limit the enemy's war and defeat it, a protracted war | already in: cal.1965-12-27.vietnam-2 |
+| 113 | Nov. 30, 1965 | McGeorge Bundy's notes, apparently of a call with Johnson: "how do we constitutionally and properly recommit" after a pause (Johnson and Bundy on the telephone Dec. 1, by the Daily Diary) | undated: "on or about" Nov. 30; for the owner to rule |
+| 114 n.5 | Nov. 14, 1965; Nov. 30, 1965 | William Bundy's drafts of "A Pause" for the President (a third draft Nov. 14; Nov. 30): a month's "hard-line pause" | already in: the pause's making (cal.1965-11-17.vietnam-pause, cal.1965-12-04.vietnam-pause); these drafts minor |
+| 114 | Dec. 18, 1965 | State's "Outline of U.S. Public Position During a Suspension of Bombing": the pause "the necessary peace punch to go with the military punch" | minor: below the level the calendar records (a press guidance paper); for the owner to rule |
+| 118 n.18 | Dec. 4, 1965 | the National Council of Churches for a cease-fire as well as a pause | a lead: the Council's statement |
+| 118 n.18 | Dec. 6, 1965 | Taylor to McNamara against a pause: a "carefully reasoned" statement instead; McGeorge Bundy's memorandum of Dec. 6 with William Bundy's on the pause and a draft speech | minor: below the level the calendar records (memoranda; the meetings entered (cal.1965-12-06.vietnam-pause, cal.1965-12-07.vietnam-pause-2)); for the owner to rule |
+| 120 n.25 | Dec. 13, 1965 | Califano to Johnson: a cease-fire with a diplomatic gesture, rather than a pause | already in: cal.1965-12-14.vietnam-pause (Bundy weighs it) |
+| 120 | Oct. 24, 1965 | Fulbright for a pause, in public (New York Times, Oct. 25) | a lead: Fulbright's words and their day |
+| 121 | Dec. 17, 1965 | Johnson with Wheeler, an hour; no notes | already in: cal.1965-12-18.vietnam-pause (Johnson's report of it) |
+| 123 n.32 | Dec. 18, 1965 | Johnson's note to Clifford on his statement ("Magnificent") | minor: private |
+| 125 | Dec. 22, 1965 | the thirty-hour cease-fire announced by the United States and South Vietnam | already in: cal.1965-12-24.vietnam (its announcement, unit A) |
+| 125 n.38 | Dec. 23, 1965 | Rusk asks U. Alexis Johnson, William Bundy, Meeker and Rostow for new diplomatic initiatives; Rostow's paper to Johnson through Valenti: bomb the oil and power of Hanoi and Haiphong if a contact fails | minor: below the level the calendar records (staff papers); for the owner to rule |
+| 126 | Dec. 1965 | Johnson's outbursts at leaks; his closed way of deciding (William Bundy's MS) | undated |
+| 127 n.43 | Dec. 27, 1965 | McGeorge Bundy, "Further Notes on Bombing the North": the public affairs officers, Moyers and Taylor for going on | already in: cal.1965-12-27.vietnam (Check on Taylor) |
+| 127 | Dec. 27, 1965 | late that night the Bundys, from a debutante ball, and Rusk send the orders extending the pause (Cooper's account) | already in: cal.1965-12-28.vietnam (unit B) |
+| 128 | Jan. 3, 1966 | Harris (Washington Post, Jan. 3): a temporary cease-fire 73 percent, a pause in the bombing 59; all-out bombing if Hanoi refuses, 61 | a lead: Harris's release |
+| 128 | Dec. 14, 1965 | Gallup for CBS News: stop the bombing temporarily 21 percent, increase it 58 | a lead: CBS's release (Gibbons's files) |
+| 128 n.49 | Dec. 28, 1965; Dec. 29, 1965 | McNamara to Westmoreland on the pause (Secdef 5041-65); the bombing to be diverted to Laos (Secdef 5039-65) | minor: below the level the calendar records (orders); for the owner to rule |
+| 129 n.50 | Dec. 27, 1965 | Westmoreland to Wheeler: resumption "essential" | minor: below the level the calendar records (a commander's cable (Taylor's memorandum of Dec. 27 reports it, FRUS 1964–68, III, doc. 253)); for the owner to rule |
+| 129 | Dec. 28, 1965 | the emissaries: Humphrey to Japan, Harriman to ten countries, McGeorge Bundy to Canada, Goldberg to Rome and Paris, Williams to fourteen African countries, Mann to Mexico City | already in: cal.1965-12-28.vietnam (the peace offensive; Harriman); the others undated by Gibbons |
+| 130 | Dec. 29, 1965 | Rusk's news conference: the fourteen points | already in: cal.1966-01-03.vietnam (its Check on Gibbons's date) |
+| 133 n.58 | Jan. 3, 1966 | McGeorge Bundy, "The Peace Offensive—where we are today"; Circular 1260 on the diplomatic moves | minor: summaries of matters entered |
+| 133–34 | Jan. 5, 1966 | the 555th NSC: Humphrey on his trip; Rusk: support lost abroad if the bombing resumes; Johnson: a basis to ask the people for "their sons" and "their treasure" | already in: cal.1966-01-03.vietnam (unit I) |
+| 135 n.65 | Jan. 19, 1966 | Bell to Johnson, "Non-Military aspects of the effort in Vietnam—January 1966" | minor: below the level the calendar records (a report); for the owner to rule |
+| 136 n.68 | Dec. 1965 | Mansfield's group with Kỳ, Thiệu and Tran Van Do in Saigon (memoranda of conversation) | undated by Gibbons; a lead: State, Lot File 70 D 102 |
+| 138 n.72 | Jan. 1966 | Reston to MacArthur, Assistant Secretary for Congressional Relations, as to Marcy (State, Lot File 74 D 164, "Press Contacts 1966") | undated; already in: cal.1966-01-10.vietnam-congress (Reston's advice) |
+| 138 n.72 | Jan. 21, 1966 | Marcy's revised memorandum to Fulbright: a coalition government with the Communists offered privately to Moscow, then elections under a reconvened Geneva conference | minor: below the level the calendar records (a revised staff memorandum); for the owner to rule |
+| 139 | Jan. 26, 1966 | Cooper in the Senate: "Negotiations, not escalation" | already in: cal.1966-01-26.vietnam-congress |
+| 139 n.75 | Feb. 3, 1966 | McGeorge Bundy to Johnson: a $15 million loan to Korea "as part of the deal" for another division and a brigade | a lead: the Korean troops (Japan and Korea thread) |
+| 140 | Jan. 20, 1966 | Javits to Johnson, back from Vietnam | already in: cal.1966-01-20.vietnam |
+| 140 n.77 | Jan. 28, 1966 | Javits's public report on his trip, in the Senate | a lead: the speech's page in the Record (not found by its words) |
+| 140 | Jan. 21, 1966 | 77 House members, led by Adams, to Johnson: for the peace effort and a UN cease-fire; Wilson and McGeorge Bundy with Udall; Bundy to Johnson | already in: cal.1966-01-31.vietnam (the letter) |
+| 148 | Jan. 12, 1966 | Sharp, CINCPAC 120205Z: resume and broaden the bombing | minor: below the level the calendar records (a commander's cable (Pentagon Papers, Gravel ed., IV, 40)); for the owner to rule |
+| 148–49 | Jan. 18, 1966; Jan. 19, 1966 | McNaughton, "Some Observations about Bombing North Vietnam" (second draft) and "Some Paragraphs on Vietnam": infiltration figures, the barrier | minor: below the level the calendar records (staff drafts); for the owner to rule |
+| 149 | Jan. 1966 | McNamara's reply to JCSM-41-66 | undated |
+| 150 | Jan. 15, 1966 | William Bundy, "Scenario for Possible Resumption of Bombing" | minor: below the level the calendar records (a staff paper); for the owner to rule |
+| 150 n.109 | Jan. 20, 1966 | Ball to Johnson, "Should We Resume Bombing?" | a lead: not found printed (FRUS 1964–68, IV, doc. 29, of Jan. 19, is Ball's "Possible Signal from Hanoi") |
+| 150 n.109 | Jan. 11, 1966; Jan. 24, 1966 | Rice to William Bundy; Whiting's notes sent by Cooper to McGeorge Bundy: against the bombing | minor: below the level the calendar records (letters and notes); for the owner to rule |
+| 150 | Jan. 31, 1966 | Bohlen to Thompson, a personal letter: bombing will not bring Hanoi to the table | minor: below the level the calendar records (a personal letter); for the owner to rule |
+| 151 | Jan. 25, 1966 | Ball to Johnson, "The Resumption of Bombing Poses Grave Danger of Precipitating a War with China" (FRUS 1964–68, IV, doc. 41); Whiting's "China Prepares for War" (Jan. 24); Meeker's "Resumption of Bombing and Escalation" (Jan. 25) | a lead: Ball's memorandum, printed in FRUS, an entry to make; the others staff papers |
+| 152 | Jan. 24, 1966 | McGeorge Bundy to Johnson, "pros and cons of immediate resumption": "this question narrows to one of timing" (FRUS 1964–68, IV, doc. 39) | a lead: printed in FRUS, an entry to make |
+| 152–53 | Jan. 1966 | the Board of National Estimates' memorandum on striking the sensitive targets | undated |
+| 153 | Jan. 18, 1966 | the CIA's Office of Current Intelligence: Hanoi uses the stand-down to repair and prepare | minor: below the level the calendar records (an intelligence memorandum); for the owner to rule |
+| 153–54 | Jan. 20, 1966 | McGeorge Bundy's lunch with Lippmann: "radically different views" | minor: below the level the calendar records (a lunch with a columnist); for the owner to rule |
+| 154–55 | Jan. 22, 1966 | Free's poll for the White House (the Research Council, with Gallup): hold off 42 percent, resume 44 | a lead: the Opinion thread; Panzer's files |
+| 155 n.126 | Jan. 26, 1966 | Johnson telephones Fortas on resuming the bombing (Daily Diary) | minor: no account of the call |
+| 156–57 | Jan. 27, 1966 | the fifteen Senators' letter, Hartke first | already in: cal.1966-01-31.vietnam (unit C) |
+| 158 | 1966 | Johnson's treatment of Hartke; the new "Johnson Network" of McGee, Bayh, Harris and Douglas (Evans and Novak) | undated |
+| 161 | Jan. 26, 1966 | Lovett to McGeorge Bundy: against the pause, for resuming and a "friendly blockade" | minor: below the level the calendar records (a private man's view, reported); for the owner to rule |
+| 161 n.142 | Jan. 28, 1966 | Moyers to Johnson: send Justice Douglas to Hanoi | minor: below the level the calendar records (a staff memorandum); for the owner to rule |
+| 163 | Jan. 30, 1966 | the 556th NSC: Harold Johnson for doubling, then tripling, the troops, the reserves called | already in: cal.1966-01-31.vietnam (unit F; Gibbons dates it Jan. 30) |
+| 163 n.148 | Feb. 22, 1966 | Ball to Graff: "The one thing we have to do is to win this damned war" | minor: an interview for a book |
+| 166 | Jan. 31, 1966 | Dirksen tells Valenti his "mission was accomplished" (Dietz) | already in: cal.1966-01-31.vietnam-congress (Dirksen speaks for the decision) |
+| 167 | Jan. 30, 1966 | Harris (Washington Post, Jan. 31): all-out bombing if Hanoi refuses to talk, 61 percent; 500,000 men if it shortened the war, 60 | a lead: Harris's release |
+| 168 | Feb. 1, 1966 | New York: a 24-hour vigil at the UN, then some 1,000 march to Times Square and sit down | a lead: the antiwar protests on the resumption (New York Times, Feb. 1–2) |
+| 168 | Jan. 15, 1966 | the Synagogue Council of America: no escalation if the peace offensive fails (New York Times, Jan. 16) | a lead: the religious bodies' statements |
+| 168–69 | Jan. 1966 | the National Emergency Committee of Clergy Concerned about Vietnam formed in New York (later Clergy and Laymen Concerned); Berrigan's return | undated; a lead: its founding day |
+| 169 | Jan. 30, 1966 | Lowry's group, Wedemeyer among the signers, against the Concerned Clergy and for the Administration (New York Times, Jan. 30) | a lead |
+| 169 | Jan. 1966 | the National Coordinating Committee to End the War votes 38–25 against immediate withdrawal | undated |
+| 169–70 | Dec. 1965 | Aptheker, Lynd and Hayden in Hanoi without permission; not prosecuted; Foreign Relations declines their testimony; State's talk with Lynd, Jan. 13 | a lead: the trip's days (New York Times, Dec. 28, 1965; Jan. 10, 11, 1966) |
+| 173–74 | Dec. 1965 | the Lao Động Central Committee's resolution of December: the Americans defeated within two years; protracted war; a "diplomatic struggle" | already in: cal.1965-12-27.vietnam-2 (the Twelfth Plenum) |
+| 171 | Jan. 12, 1966 | the State of the Union: the war "the center of our concerns"; "we will stay" | already in: cal.1966-01-12.program |
+| 172 | Jan. 1966 | McNaughton privately predicts as many as a million men might be needed (Gelb and Betts) | undated |
+| 172 | 1965 | the TOLEDO survey of South Vietnamese opinion, Quayle's, for the White House | undated; a lead: its report and Redmon's summary |
+| 172 | 1966 | McNamara to House Armed Services on the supplemental: some 200,000 Communist troops in the South | undated; a lead: the hearing's day (its p. 4977) |
+| 172–73 | Nov. 30, 1965 | McNamara at a meeting: "a tremendous U.S. force on a bowl of jelly" | already in: cal.1965-11-30.vietnam-pause |
+| 173 | Jan. 1966 | Senate Armed Services on the supplemental: McNamara, less control of the countryside than a year before; Russell, "we are not winning much, are we?"; McConnell, "No, sir" | undated; a lead: the hearing's day (its pp. 339, 350) |
+| 173 | Dec. 23, 1965 | Ton That Thien in the Far Eastern Economic Review: what left for the nationalists to fight for | out of the brief |
+| 173 | Jan. 10, 1966 | Wehrle sends the article to Lodge with a memorandum | minor: below the level the calendar records |
+| 179 | Dec. 7, 1965; Dec. 18, 1965 | Johnson would "trade back to where we were"; McNamara, "We have been too optimistic" | already in: cal.1965-12-07.vietnam-pause-2, cal.1965-12-18.vietnam-pause |
+| 179 | 1968 | Moyers's interview (Manning and Janeway): Johnson began to expect the worst by early 1966 | out of the brief: a later account, undated |
+| 180 | Feb. 6, 1966 | Westmoreland at Honolulu with McNamara ("we would go for" his forces) and with Johnson ("twice the number") | already in: cal.1966-02-06.vietnam (the conference); a lead: Westmoreland's Historical Briefing of Feb. 16 (Westmoreland-CBS Papers) |
+| 184 | Dec. 7, 1965; Dec. 13, 1965 | Lodge to Lansdale: leave to deal with the Vietnamese groups "as they approach" him, but "no free-wheeling political maneuvering" | a lead: which memorandum carries the words |
+| 184 n.36 | Dec. 16, 1965 | Lansdale to the Mission Council asking support and a meeting on staffing | minor: below the level the calendar records |
+| 185 | Dec. 26, 1965 | Westmoreland's talking paper for his discussion with Lodge and Porter on Lansdale | minor: the preparation of a meeting; its words with cal.1966-01-07.vietnam-4 |
+| 185 | Jan. 11, 1966 | Bell back from Vietnam: "Number one problem is rural pacification"; McNamara, "Don't think there is a single area pacified" | already in: cal.1966-01-11.vietnam |
+| 187 | Jan. 11, 1966 | Lansdale to Lodge on Warrenton: a man with "crunch"; Porter likely the coordinator | minor: private |
+| 187 n.47 | Feb. 25, 1966; Mar. 4, 1966 | Washington to Saigon 2534 on encouraging NLF members to defect; Lodge raises it with Thiệu and Trần Văn Đỗ (Saigon 3202) | a lead: below the level the calendar records unless the program is entered |
+| 188 n.50 | Jan. 13, 1966 | Porter with McGeorge Bundy, McNamara and Ball on the reorganization (Scoville) | a lead: Scoville, Reorganizing for Pacification Support, 20 |
+| 189 | Jan. 1966 | Operations Masher/White Wing and Double Eagle | already in: cal.1966-01-24.vietnam |
+| 189 n.56 | Feb. 1, 1966 | Wheeler to Westmoreland, JCS 460-66: McGeorge Bundy asks neutral names for operations; Masher to be renamed | already in: cal.1966-02.vietnam (the cable dates it Feb. 1: for the owner) |
+| 191 n.60 | Mar. 1, 1966; Mar. 10, 1966 | JCSM-130-66 and JCSM-153-66, the Joint Chiefs again for heavier bombing | minor: a repetition of the position entered, cal.1966-02-19.vietnam-air-war |
+| 191 | Nov. 29, 1965 | McNamara's meeting in Saigon; Westmoreland's staff on a cordon: 150,000-200,000 men, not "the most profitable use" | already in: cal.1965-11-28.vietnam |
+| 191 n.62 | Jan. 1966; Feb. 2, 1966 | Westmoreland's cordon plan of 1966 (CINCPAC to COMUSMACV, January; COMUSMACV 0907, Feb. 2), not approved | a lead: the plan and its days |
+| 191–92 |  | Sullivan summoned to Washington every six months and told to keep military operations in Laos to a minimum (Castle) | undated |
+| 192 | 1965 | Shining Brass, the cross-border teams in Laos under OPLAN 35, from late 1965 | undated; a lead: its start |
+| 192 n.66 | Aug. 9, 1965 | Sullivan, Vientiane 142, agrees with reservations to limited ground reconnaissance across the border | a lead |
+| 193 n.70 | Dec. 15, 1965; Feb. 1, 1966 | JCS 8706 on the ground rules for Cambodia; Westmoreland's MACJ3 03170 asks to train reconnaissance teams for Cambodia | minor: below the level the calendar records |
+| 194 | Dec. 16, 1965 | Sullivan asks whether Unger's paper of Dec. 3 is still under consideration | minor: its answer entered, cal.1965-12-27.vietnam-3 |
+| 195 |  | Rusk has William Bundy circulate Sullivan's proposal to several embassies; all expect China to come in | undated |
+| 196 | Jan. 4, 1966 | Sullivan with Symington at Udorn on the landing at Vinh | already in: cal.1966-01-04.vietnam-congress |
+| 197 | July 31, 1980 | Sullivan's interview: the China and Soviet experts said the Chinese would come in | out of the brief |
+| 197 |  | Russell for more bombing and mining the ports, strongly against an invasion of the North | a lead: Gibbons cites 112 Cong. Rec. 4717 (Mar. 2, 1966: Morse's letters); the words not found there or in the Senate's day of Mar. 1 |
+| 199–200 | May 1966 | Krulak again with McNamara, then a long letter: body counts "a dubious index of success" (Sheehan) | undated |
+| 200 | Aug. 1966 | Greene in Vietnam argues tactics with Westmoreland (Sheehan) | undated |
+| 200–01 |  | the Marines' combined action platoons; the Army's Mobile Advisory Teams | undated |
+| 201 | July 1965 | Harold Johnson commissions the study that becomes PROVN | already in: cal.1966-03-14.vietnam |
+| 202 | Dec. 1965 | Harold Johnson with junior officers of the 1st Infantry Division: small units right, but not the casualties (Krepinevich) | undated |
+| 209 |  | McNamara and the Secretary of the Army briefed on PROVN; no action | undated |
+| 210 | Aug. 31, 1966 | Mock (DCSOPS) to Abrams: PROVN "a succinct statement, not of what our national strategy is, but of what it should be" | minor: below the level the calendar records (the Army staff) |
+| 212 n.141 | Mar. 2, 1967 | Montague's report: of PROVN's 140 recommendations 53 carried out, 45 in part | a lead (1967) |
+| 214 | July 27, 1965 | Johnson with the congressional leaders: "the story now and the bill later" | already in: cal.1965-07-27.vietnam |
+| 215 n.5 | Feb. 1966 | Dillon writes Johnson for a tax increase; no answer; the letter not found | undated |
+| 219 | Feb. 1966 | the idea of a new congressional resolution dropped | undated |
+| 219 | Mar. 1966 | NORC: a tax increase approved 31 percent, disapproved 66; wage and price controls 41 and 53 | already in: cal.1966-03-15.opinion (the same study) |
+| 220 | Jan. 1966 | House Armed Services hearings on the supplemental: Rivers, "This war is getting very unpopular"; McNamara, "patience will be the key"; Wheeler, "substantial progress" in 1966; one member, "a bookkeeping game" | a lead: the hearing's days (its pp. 4903–5168) |
+| 221 | 1966 | Senate Armed Services on the fiscal 1967 authorization: Russell, close Haiphong and "knock out those petroleum dumps"; Symington, "Amen" | a lead: the hearing's day (its p. 314) |
+| 223 | Jan. 11, 1966 | Fulbright asks the committee about public hearings; Hickenlooper and Mansfield prefer closed meetings | already in: cal.1966-01-11.vietnam-congress |
+| 225 n.39 | Jan. 26, 1966 | Rusk before House Foreign Affairs on the supplemental, quoting the Truman Doctrine | already in: cal.1966-01-26.vietnam-pause (the day); a lead: a hearing of its own |
+| 226 n.41 | Feb. 3, 1966 | Morse's speech on the Southeast Asia Treaty | already in (the entry of Feb. 3 citing 112 Cong. Rec. 2067) |
+| 228 n.46 | Mar. 1, 1966 | DeLoach to Tolson: the White House wants blind memoranda, no letterhead | minor: below the level the calendar records |
+| 228 n.46 | May 13, 1966 | the FBI's second survey, of congressional staff contacts | already in: cal.1966-03-14.vietnam-support (the reports that followed) |
+| 229 | Mar. 1966 | DeLoach tells Hoover Johnson will arrange a television appearance for him to name the congressional contacts with the Soviet embassy (Sullivan, The Bureau) | undated |
+| 230 n.50 | Feb. 2, 1966 | Lodge invites Fulbright and Lippmann to Vietnam; both decline (Saigon 2777, 2778, 2793; Washington 2224, 2308, Feb. 2–9) | a lead: which cable holds the invitations and the replies |
+| 231 n.53 | Feb. 7, 1966 | Rusk to Trần Văn Đỗ in the diplomatic working group at Honolulu: "Power has to come from the people" | already in: cal.1966-02-06.vietnam (the working groups) |
+| 231 n.53 | Aug. 1965 | Rostow's "Politics and Victory in South Vietnam": a national revolutionary party | undated |
+| 232 n.53 | Jan. 20, 1966 | Rostow to Unger: material on other developing countries' political experience | minor: a repetition with nothing new |
+| 232 n.53 | Apr. 1967 | the cables on the Constituent Assembly and the constitution (Washington to Saigon 3044–3268, Apr. 9–30) | a lead: Gibbons dates them April 1967 among the events of 1966; the year to check |
+| 233 |  | the President's Vietnam Group meets every Saturday for some weeks, then stops | undated |
+| 233 | May 12, 1966 | Lacouture in the New York Review of Books on Honolulu | out of the brief |
+| 234 | Apr. 19, 1966 | Humphrey on CBS: the Declaration of Honolulu as significant for Asia as the Atlantic Charter for Europe; a "Johnson Doctrine"; "the dream of the Great Society in the great area of Asia" | a lead: the interview's day (Gibbons's note: CBS, Apr. 19, 1966, the Wall Street Journal, Apr. 20; the text sets it after the trip of February) |
+| 236 | Feb. 24, 1966 | the President invites all of Congress in four groups to hear Humphrey | already in: cal.1966-02-24.vietnam-congress |
+| 237 | Feb. 1966 | Halberstam on the mood in the White House | undated |
+| 238 | Feb. 28, 1966 | Teasdale to Mrs. Fulbright: Fulbright's ABC's at a dinner in late February: neutrality guaranteed, negotiations with China and Hanoi, fortified enclaves | minor: a repetition of the position entered, cal.1966-03-01.vietnam-congress |
+| 240 | Jan. 1966 | Gavin at the Pentagon with McNamara, Vance and Wheeler (New York Times, Jan. 28): "You're going to get murdered if you stay there" | a lead: the day (Gavin's account, 1978) |
+| 240 n.77 | Apr. 5, 1966; Feb. 25, 1966 | Ridgway in Look; Donovan's editorial in Life | out of the brief |
+| 241 | Jan. 1966 | Russell at the Armed Services hearings: Gavin's theory "the worst kind of Maginot line concept" | a lead: the hearing's day (its pp. 275–76) |
+| 241 |  | Gavin's tax audit; the IRS's information to the FBI and CIA against the war's opponents | undated |
+| 243 | Feb. 17, 1966 | Moyers to Taylor: "The President was very proud of you" | minor: private |
+| 244 n.93 |  | Katzenbach later: he disagreed with Rusk's reading of SEATO (CRS interview, 1978) | out of the brief: a later account |
+| 246 n.96 | Feb. 1966 | the Meeker memorandum, "The Legality of United States Participation in the Defense of Viet-Nam," filed with the committee (Bulletin, Mar. 28) | a lead: its day of filing |
+| 246 n.96 | May 1966 | McDougal, Moore and Underwood's "The Lawfulness of United States Assistance to the Republic of Vietnam," sent to each member by the ABA; Javits's excerpts (112 Cong. Rec. 13870), Long's full text (15519) | a lead: the Record's days |
+| 248–49 |  | the hearings' effect: Bundy, Jones, Pell, Church, Gavin later | out of the brief: later accounts |
+| 250 n.107 | Feb. 10, 1966 | Manatos finds in Mansfield's office Newsweek's quote of Johnson: "Mike is a cross between Jeanette Rankin and Burton K. Wheeler" | minor: private |
+| 251 | Feb. 18, 1966 | Goodwin to Califano (Califano to Johnson, Feb. 19): the hearings confuse the people; a plain statement on television | minor: private |
+| 253 | Feb. 19, 1966 | Robert Kennedy's statement: admit the discontented "to a share of power and responsibility" | already in: cal.1966-02-19.vietnam |
+| 254 n.118 | Feb. 20, 1966 | Humphrey: Kennedy's proposal like "putting a fox in a chicken coop" (New York Times, Feb. 21); Bundy and Ball attack it | a lead: Humphrey's day and words, if not in |
+| 254 n.118 | Mar. 1, 1966 | the House Republican Policy Committee: Humphrey's words; the President to disavow Kennedy; the Democrats' divisions "prolonging the war" | already in: cal.1966-03-02.vietnam-2 (Gibbons dates it Mar. 1; the Record prints it in the House of Mar. 2, p. 4596) |
+| 257 | Feb. 28, 1966 | Gore at the meeting: the President "a desperate man who was likely to get us into war with China" | already in: cal.1966-02-28.vietnam-congress (the meeting) |
+| 259 | Mar. 19, 1966 | Fulbright writes Johnson to consider his plan | already in: cal.1966-03-01.vietnam-congress |
+| 260 | Feb. 24, 1966 | the House passes the supplemental aid authorization, 350–27 | already in: cal.1966-02-24.vietnam-supplemental |
+| 263 n.138 | Jan. 26, 1966; Jan. 28, 1966 | House Appropriations hearings on the supplemental: McNamara and Wheeler questioned on the plans for winning | a lead: Supplemental Defense Appropriations for 1966 |
+| 264 | Feb. 1966 | Whiting's private talk with Fulbright, arranged through Frankel and Reston, the origin of the China hearings | undated (Whiting's account) |
+| 264–65 | Mar. 10, 1966 | Fairbank before the committee: move China toward "acceptance of the international world" | already in: cal.1966-03-10.india-and-china |
+| 267–68 | Feb. 25, 1966 | Negroponte's conversation with Tâm Châu: the situation "going from bad to worse" (airgram A505, Mar. 1) | minor: below the level the calendar records |
+| 268 | Mar. 2, 1966 | the CIA's weekly report: a hardening attitude toward the regime; Trần Văn Tuyên's plans for a new government | minor: a routine report |
+| 268 n.5 | Mar. 19, 1966 | INR's memorandum on the Buddhists' demands | minor: a routine report |
+| 270 | Mar. 9, 1966 | Bromley Smith to Johnson: Lodge "has done everything he can" against a coup | minor: a summary for the President |
+| 270 | Mar. 19, 1966 | Westmoreland, at Lodge's request, invites Thi to the United States for "medical treatment" (MACV 2223) | minor: below the level the calendar records |
+| 270 | Apr. 24, 1966 | Neil Sheehan in the New York Times on the students and the inflation | out of the brief |
+| 271 n.16 | Mar. 16, 1966; Mar. 17, 1966 | Thi's departure delayed; he is to appear in Đà Nẵng and accept the Directorate's decision (MAC 2119; Saigon 3381) | a lead |
+| 272–73 | Mar. 17, 1966 | Bùi Diễm to Habib on the government's two plans; Trí Quang by telephone: Thiệu and Kỳ promised Tâm Châu to announce a Constituent Assembly on Mar. 18 | a lead: the promise and its announcement |
+| 274 | Mar. 23, 1966 | Heintges to Westmoreland: "a crying shame to let the students up there get away with" it; Westmoreland would draft them | minor: below the level the calendar records |
+| 275 | Mar. 24, 1966 | Johnson calls the Situation Room at midnight and 6:30 a.m. (McCafferty to Komer) | minor: private |
+| 276–77 | Apr. 2, 1966 | William Bundy's memorandum for Rusk to the President: Huế and Đà Nẵng out of control; Minh as an alternative | already in: cal.1966-04-02.vietnam (doc. 108) |
+| 279 n.44 | Apr. 4, 1966 | the meeting at State, 3 p.m., on Bundy's checklist | minor: the preparation of a meeting |
+| 282 n.46 | Apr. 5, 1966 | Johnson's lunch on Vietnam, 1:05–2:25 p.m., with Humphrey, Rusk, McNamara, Taylor, McDonald, Rostow, Valenti and Moyers | a lead: no notes found |
+| 283 | Apr. 1966 | Walt against the use of government troops at Đà Nẵng; Westmoreland and the Directorate reject his advice (Shulimson) | undated |
+| 283 | Apr. 6, 1966 | Bùi Diễm to Lodge: a constitutional assembly within six months; Lodge: "a big setback"; GVN "a big case of cold feet" | already in: cal.1966-04-06.vietnam-struggle |
+| 283 n.53 | Apr. 6, 1966 | Valenti's draft to Johnson: "we need to find some way out of Vietnam"; no record it was sent | minor: private (a draft, not sent) |
+| 287 | Apr. 8, 1966 | subcabinet officers in the Situation Room, 1 p.m., at Moyers's suggestion; no notes | a lead: what was told the President |
+| 287 n.63 | Apr. 2, 1966 | Carver's memorandum for the Director, "The Political Situation in South Vietnam": Thi to go abroad; Kỳ not essential | minor: below the level the calendar records (for the Director, not circulated) |
+| 289–90 | Apr. 1966 | Carver's "Option A" and Unger's "Course B-O", undated | undated |
+| 295–96 | Apr. 20, 1966 | State to Saigon, 3145 (Miller): with Lodge on the dangers of moving against Thi; bring him "back into the fold" | minor: a repetition of the position entered, cal.1966-04-16.vietnam-struggle |
+| 294–95 | Apr. 1966 | Trí Quang at Huế urges a halt to demonstrations and support for a national assembly (New York Times, Apr. 20) | a lead: the day |
+| 295 n.76 | Apr. 20, 1966 | Lodge's weekly telegram, 4085 | a lead |
+| 296 | Apr. 1966 | the background sessions of senior officials with reporters, "to avoid excessive and alarmist interpretation" (weekly reports, Lot File 74 D 164) | undated |
+| 302 n.94 | May 10, 1966 | papers for the NSC: the constitutional assembly, parties, the life of the government; discourage a government party for Kỳ | minor: the preparation of a meeting |
+| 304 | Apr. 1966 | Clark, Gore, Proxmire and Morton for early elections in South Vietnam (112 Cong. Rec. 7635–12104 passim) | a lead: each Senator's day and page |
+| 304 n.102 | Apr. 21, 1966; May 12, 1966 | Ribicoff again on UN observers (112 Cong. Rec. 8685–89, 8693, 10347) | minor: a repetition of the position entered, cal.1966-05-05.vietnam-congress |
+| 305–06 | Apr. 1966 | the Stratton subcommittee of House Armed Services, back from Vietnam (Apr. 7–19): "we are moving steadily toward victory"; the demonstrations not representative | a lead: the report's day (cumulative series, 89th Cong., 9545–69) |
+| 308 | Apr. 1966 | Fulbright's eight proposals in the lectures: Saigon to negotiate with the NLF; a cease-fire; no more bombing or forces; the eventual removal of American forces; neutralization | already in: cal.1966-04-21.vietnam (the lectures) |
+| 309 | May 1966 | Johnson's oblique allusion to Fulbright at a diplomatic reception | undated; already in: cal.1966-05-09.vietnam-congress |
+| 312–13 | Apr. 26, 1966 | Johnson invites the Fulbrights on his overnight trip to Houston; Fulbright, speaking in New York, declines | minor: private |
+| 315 n.1 | May 14, 1966 | Rusk to Porter, Flash, 3446: no C-130s without authorization | minor: below the level the calendar records |
+| 315–16 | May 15, 1966 | William Bundy's recollection (1986) of the night in the operations room; Lodge: "we just go on" | out of the brief: a later account |
+| 318 | May 16, 1966 | Max Frankel in the New York Times: "a gloomy capital" | out of the brief |
+| 319 n.16 | May 1966 | others in Congress on the crisis (112 Cong. Rec. 10666–12105 passim) | a lead: each member's day and page |
+| 319 | May 16, 1966 | Johnson with Rusk, McNamara, Ball and others, 12:20–1:05 p.m., then with Lodge, 1:05–1:20; no notes known | a lead: FRUS 1964–68, IV, doc. 141 reports decisions on the nonmilitary programs "reviewed at highest level with Ambassador Lodge present 16 May" |
+| 319 n.17 | May 17, 1966; May 18, 1966 | the embassy mediating between Kỳ and Thi (Saigon 4688, 4699, 4718) | minor: below the level the calendar records |
+| 320 | May 20, 1966 | Johnson with Humphrey, Rusk, McNamara, Ball, Rostow, Bruce, Acheson and Moyers, 6:06–7:05 p.m., then the three, to 8; no notes known (New York Times, May 21) | a lead: no notes |
+| 321 n.23 | May 23, 1966 | Sharp agrees with Westmoreland | minor: a repetition |
+| 322 n.28 | May 21, 1966 | Lodge to Washington, 4837: he will meet Kỳ, without hope of success | minor: below the level the calendar records |
+| 325 n.34 | May 22, 1966 | embassy officers with Quảng Liên and Minh Châu (Saigon 4643, 4666) | minor: below the level the calendar records |
+| 326 | May 27, 1966; June 1, 1966 | Walt with Đính; Đính with Viên (Saigon 5024; Walt to Westmoreland) | minor: below the level the calendar records |
+| 327 | June 1966 | Rostow's memorandum on Mansfield's reply: "hunker up like a jackass in a hailstorm" | undated |
+| 328 | May 25, 1966; May 27, 1966 | Johnson with Rusk, McNamara, Rostow and Moyers (and Komer); no notes known | a lead: no notes |
+| 328 | May 27, 1966 | a trip by McNamara proposed, dropped on Lodge's word (Saigon 5024) | minor: below the level the calendar records |
+| 328 n.50 | May 25, 1966; May 30, 1966 | Karnow in the Washington Post; Emmet John Hughes in Newsweek; Alsop in the Saturday Evening Post | out of the brief |
+| 329 n.50 | May 1966 | Casey's report for the International Rescue Committee (112 Cong. Rec. 11967–69); Freedom House's statement of June (13765–66) | out of the brief |
+| 330 | May 30, 1966 | Kỳ with Tâm Châu, back from abroad | minor: its sequel entered, cal.1966-05-31.vietnam-struggle |
+| 331 | June 1, 1966 | the Buddhists' and the government's statements on the agreement; Ky and Thieu to resign after June 6 (Saigon 5524) | a lead: the statements and their day |
+| 332 | June 8, 1966 | government troops into Huế; several hundred arrested; Trí Quang arrested; Huế held by June 9, resistance to June 22 | a lead: the days (Gibbons's sequence against the New York Times's) |
+| 332 | June 2, 1966 | Thi, as Kỳ's representative, with Trí Quang and Nhuận (Cleveland's memorandum) | minor: below the level the calendar records |
+| 332 n.64 | July 1966 | Thi, Đính, Cao, Nhuận and Chuẩn before a special tribunal: sixty days, retired (Saigon 819, July 12) | a lead: the tribunal's day |
+| 333 n.67 | June 22, 1966 | Lodge, 5684: "a sober, responsible Buddhist Church" | already in: cal.1966-06-22.vietnam-struggle |
+| 334 |  | the CIA's tap in Thiệu's office, its transcripts to Johnson (Powers) | undated |
+| 335 | June 19, 1966 | Gallup: continue the war 48 percent, withdraw 35 (June 1965: 66 and 20) | already in: cal.1966-06-19.opinion |
+| 336 | Mar. 1966 | Gallup, late March: both sides withdraw, a UN vote on unification, 62 percent for | already in: cal.1966-04-17.opinion |
+| 337 | June 1966 | Harris: the handling of the war 42 percent excellent or good, 58 fair or poor | already in: cal.1966-07-11.opinion (the June figure) |
+| 338 | Apr. 1966 | Gallup, mid-April: continue to help if the South Vietnamese fight among themselves, 28; withdraw 54 | already in: cal.1966-05-22.opinion |
+| 338–39 | May 1966 | Gallup, May 5–10: most South Vietnamese want us out, 34 yes, 38 no; pull out if a majority wanted it, 51 yes (Washington Post, June 19) | a lead: the release (cal.1966-06-19.opinion holds the same release's vote on the war) |
+| 341 n.85 | Apr. 1966 | Muste and five other pacifists in Saigon, harassed, forced out after a week (New York Times, Apr. 20, 22) | a lead |
+| 341 | Apr. 1966 | American Writers and Artists Against the War in Vietnam, its read-ins (New York Times, Apr. 27, May 4) | a lead: its founding day |
+| 341 n.87 | May 26, 1966 | the University of Chicago's faculty council and students' referendum against the seizure; grades to go to students only | minor: below the level the calendar records |
+| 341 | June 1966 | walkouts at Amherst and New York University as McNamara receives degrees (New York Times, June 4, 5) | a lead: the days |
+| 342 | June 1, 1966 | McKissick's antiwar resolution blocked at the White House Conference on Civil Rights; Whitney Young: "If the alternative were guns or butter then we must cut Vietnam" | already in: cal.1966-06-01.civil-rights-the-executive |
+| 342 | June 1966 | the National Conference for New Politics formed, Spock, Coffin, Bond and Casady co-chairmen (New York Times, June 10; its advertisement May 22) | a lead: its founding day |
+| 344 | June 7, 1966; June 14, 1966; June 15, 1966 | Fulbright at White House ceremonies; Johnson greets him "warmly as an old friend" | minor: social |
+| 346 | June 7, 1966 | the White House liaison staff acknowledges Fulbright's letter of June 6 | minor: below the level the calendar records |
+| 351 | 1966 | O'Neill's speeches on campuses, briefed with questions gathered by the FBI and the intelligence services (CRS interview) | undated |
+| 351 | July 11, 1966 | the fourteen Representatives back from Vietnam with Johnson; Carter: "No, Mr. President, you're not winning the war" | already in: cal.1966-07-11.vietnam-congress (Carter's account, 1979, a lead) |
+| 352 | Aug. 1967 | Carter's House speech for withdrawal | a lead (1967) |
+| 352 | Aug. 1966 | the CIA sends critics such as Fulbright Communist publicity on their criticism (Fulbright Papers) | undated |
+| 353 n.1 | Mar. 1966 | McNamara to Johnson, "April program of air strikes": less than 20 percent of the enemy's materiel from outside | undated |
+| 356 | June 1966 | Moyers's group of assistants on the President's image (Tom Johnson's notes): "He's in a rut"; a fireside chat | undated |
+| 356 n.8 | Sept. 18, 1966 | Valenti, out of the White House, to Johnson: more press conferences, humor | minor: private |
+| 357 | June 30, 1966 | the Omaha speech: "We shall see this through. We shall persist. We shall succeed." | already in: cal.1966-06-29.vietnam (Gibbons dates it July 7) |
+| 358 | Mar. 1966; June 1966 | Birmingham, Paul Revere, Crazy Horse, El Paso II, Hawthorne | a lead: each operation's days (Stanton) |
+| 359 | June 22, 1966 | Lodge, 5684: the Viet Cong's terror, local officials killed or abducted at 70 a month | already in: cal.1966-06-22.vietnam-struggle (the same telegram) |
+| 359 n.17 | May 11, 1966 | Westmoreland to Sharp, MAC 3797, on operations in the delta | minor: below the level the calendar records |
+| 360 n.18 | May 10, 1966 | the NSC's briefing paper on the rules of engagement for Cambodia | minor: the preparation of a meeting |
+| 361 | Nov. 10, 1965 | JCSM-810-65: the oil the most damaging target | a lead: is it entered with the November bombing papers? |
+| 361 | Jan. 18, 1966; Jan. 25, 1966 | McNaughton's draft; McNamara's memorandum for heavier bombing | already in: cal.1966-01-24.vietnam (McNamara); McNaughton, as earlier ruled |
+| 361 | Feb. 19, 1966; Mar. 1, 1966; Mar. 10, 1966 | the Joint Chiefs for "maximum shock effect" | already in: the entry of Feb. 19 in this patch; Mar. 1 and 10, minor: a repetition |
+| 362 | Feb. 4, 1966 | SNIE 10-1-66 | already in: the entry of Feb. 4 in this patch |
+| 363–64 | Mar. 1966 | McNamara's memorandum drafted by McNaughton, "April program of air strikes" | undated ("toward the end of March") |
+| 364 | Mar. 1966 | meetings with the President defer the strikes; CINCPAC to plan the oil for April | undated |
+| 365 n.44 | Mar. 30, 1966 | Tab B of the FE memorandum: striking the dikes, the proposal of Thai and Trần Văn Đỗ | already in: cal.1966-03-30.vietnam-air-war (the same memorandum; a lead for its tabs) |
+| 366 | Apr. 1966 | CINCPAC's Basic Operations Order: the limits on air operations over the North | a lead: the order's day |
+| 367 n.48 | Apr. 28, 1966 | D. K. Myers's draft for Ball | minor: a draft of a paper entered |
+| 367 n.49 | May 1966 | Rostow to Rusk and McNamara: "systematic and sustained" bombing of the oil | undated ("several days earlier") |
+| 368 n.56 | May 4, 1966 | Goldberg to Rusk, recalling his proposal of Apr. 8 | already in: cal.1966-04-08.vietnam (its record) |
+| 370 | June 1966 | Wilson's public statement on population centers; Rusk's private talk with Wilson | undated |
+| 370–71 | June 29, 1966 | Wilson in the Commons: the oil strikes noted "with regret"; Britain dissociates itself | already in: cal.1966-06-29.vietnam (E) |
+| 371 | June 29, 1966 | Wilson's message to Johnson on his politics, CAP 66423 | undated ("at the same time") |
+| 371 n.60 | July 12, 1966 | London 229 on Wilson's position and the Labour Party | minor: below the level the calendar records (an embassy's reading of an ally's politics) |
+| 371 | July 29, 1966 | Johnson and Wilson at the White House | already in: cal.1966-07-29.europe-and-the-alliance |
+| 377 | June 29, 1966 | McNamara's news conference: "a superb professional job"; the President wants "strangulation" of the oil (to Sharp) | a lead: McNamara to Sharp, the date (Pentagon Papers, Gravel ed., IV, 106, 109) |
+| 377 | July 1, 1966; July 2, 1966 | Westmoreland: the allies have begun to win; Kỳ: the war over in six months | a lead: the days (*New York Times*, July 2, 3, 1966) |
+| 377 | June 29, 1966 | Fulbright, Robert Kennedy, Javits and House Democratic liberals against the strikes | a lead: their words and days (*Congressional Record*, June 29 and 30, 1966) |
+| 378 | July 1966 | Gallup: the oil strikes approved 70 percent, 11 disapprove, 19 no opinion | a lead: the release's day (*Vietnam War, A Compilation*) |
+| 378 | Aug. 1966 | the Soviet protest: a cargo ship struck in Haiphong harbor | undated in Gibbons; a lead: FRUS 1964–68, XIV, doc. 170 n.3 gives the note of Aug. 5 |
+| 379 | July 25, 1966 | Rostow to Johnson: the Cultural Revolution argues against a decision for war | already in: cal.1966-07-25.india-and-china-cultural-revolution |
+| 380 | Sept. 1966 | the Defense Intelligence Agency concurs: no shortage of oil, no insurmountable transport problems | undated |
+| 380 | 1966 | McNamara's dissatisfaction with the oil strikes, to the Air Force and the Navy | undated |
+| 382 n.94 | 1966 | the Roles and Missions Study Group's report, 81 recommendations | a lead: its date (Pentagon Papers, Gravel ed., II, 583) |
+| 383 n.96 | Sept. 13, 1966 | Ginsburgh to Rostow on the JASON study: no expansion of the bombing would be "a grievous mistake" | a lead: the year (Gibbons prints Sept. 13, 1967; Clodfelter, September 1966) |
+| 384 n.99 | July 1, 1966 | Kissinger to Habib on the use of his visit | minor: private (the arrangement of a visit) |
+| 384 n.100 | July 29, 1966 | Saigon's airgram A-41: Kissinger's conversations with eleven South Vietnamese leaders | a lead: their days and matter |
+| 384 n.100 | Aug. 19, 1966 | Kissinger's covering memorandum to William Bundy | minor: a transmittal |
+| 385 n.102 | Aug. 9, 1966 | Kissinger in *Look*: "Withdrawal would be disastrous, and negotiations are inevitable" | out of the brief (a consultant's magazine article) |
+| 389 | Jan. 13, 1969 | Read's interview: the Negotiations Committee set up "with part public relations in mind" and the 1966 elections | undated (a later account) |
+| 390 | June 16, 1966 | Mansfield: face-to-face talks between Washington and Peking | already in: cal.1966-06-16.vietnam-congress |
+| 390 n.10 | Oct. 6, 1966 | the Negotiations Committee: Harriman critical of Sullivan's proposal | minor: a repetition (no other matter given) |
+| 387 | 1966 | Thies: more interest in negotiations in Hanoi by the summer of 1966 | undated |
+| 388 | Oct. 1965 | the Planning Group's first paper on the American negotiating position | a lead: its day |
+| 391 | Aug. 2, 1966; Aug. 3, 1966 | Bohlen's replies, Paris 1535 and 1657 (FRUS: Aug. 2 and 3; Gibbons: Aug. 1 and 3) | minor: a repetition (Sainteny away until September) |
+| 391 n.15 | Jan. 1967 | Cooper in Paris; Sainteny declines after consulting de Gaulle | a lead (1967) |
+| 392 | Aug. 1966 | Rusk welcomes the Thai proposal; China and North Vietnam denounce it | a lead: the days (*Washington Post*, Aug. 8; *New York Times*, Aug. 19, 1966) |
+| 392 | Aug. 1966 | Morton, Kuchel and the House Republican leadership for an Asian conference | undated |
+| 392 n.21 | Aug. 25, 1966 | the Republican congressional leadership's position paper for an all-Asia conference | already in: cal.1966-08-25.elections-1966 |
+| 392–93 | Aug. 1966 | Eisenhower for an all-Asian conference | undated |
+| 393 | Aug. 31, 1966 | Nixon: the war five more years; ground forces up 25 percent; bombing Hanoi would not end it | a lead: the day (*New York Times*, Aug. 26 and Sept. 1, 1966); partly in cal.1966-08-23.elections-1966 |
+| 393 | Aug. 30, 1966 | de Gaulle's state visit to Cambodia; Rusk's hope | already in: cal.1966-09-01.vietnam (Phnom Penh) |
+| 394 | Sept. 1, 1966 | a French spokesman: no meeting of de Gaulle and Johnson planned | minor: below the level the calendar records |
+| 396 n.34 | July 25, 1966 | Kỳ in *U.S. News and World Report*: an invasion of the North may be necessary | a lead: the interview's day |
+| 397 | Feb. 1966 | Johnson privately urges Kỳ and Thiệu at Honolulu to win three or four prominent Communists over | already in: cal.1966-02-06.vietnam (the conference; a lead for the private meeting) |
+| 397 | 1966 | Lodge raises defections with Thiệu and Trần Văn Đỗ: out of the question | undated |
+| 397 n.40 | Aug. 9, 1966 | Lodge, 3038: the uncle to meet Thọ | minor: a repetition; the contact came to nothing |
+| 399 n.45 | Aug. 26, 1966 | Cooper's paper behind the draft of Aug. 29 | minor: a draft of a paper entered |
+| 400 n.49 | Sept. 17, 1966; Sept. 22, 1966; Sept. 23, 1966; Sept. 29, 1966 | State 49407 and 52726; the committee's discussion of the speech; "Program of National Reconciliation" | minor: drafts and discussion of the paper entered |
+| 400 n.50 | Sept. 29, 1966 | Lodge, 7243: the agenda for his meeting | minor: the preparation of a meeting entered |
+| 401 | Oct. 25, 1966 | the Manila communiqué: Saigon preparing a national reconciliation program | already in: the Manila conference (cal.1966-10-24.vietnam-asian-trip and after) |
+| 401 | Apr. 18, 1967 | the National Reconciliation Proclamation | a lead (1967) |
+| 401 n.54 | Nov. 29, 1966 | Saigon 11958: the Embassy's concept paper on national reconciliation | minor: a draft (the themes entered Dec. 11) |
+| 402 | Sept. 22, 1966; Sept. 23, 1966 | Mansfield and Fulbright for Goldberg's speech; Moscow, Peking and Hanoi against | a lead: their words and days (*New York Times*, Sept. 23, 24, 1966) |
+| 404 | Aug. 8, 1966 | Tillson's briefing on PROVN at the Mission Council | already in: cal.1966-08-08.vietnam-2 |
+| 406 | Aug. 31, 1966 | Johnson approves a Tuesday lunch with Taylor on the concept; no record of one | already in: cal.1966-08-31.vietnam |
+| 407 n.80 | Aug. 18, 1966 | a Viet Cong company overruns the Popular Forces at An Phú | minor: an incident below the level the calendar records (in cal.1966-08-23.vietnam) |
+| 410 | Jan. 1966; Feb. 1966; May 1966 | Kỳ's Democracy Building Council; the Declaration of Honolulu; the junta sets the election for Sept. 11 | already in: the Buddhist Uprising and Honolulu entries (a lead: the January announcement's day) |
+| 411 | Aug. 10, 1966 | an American women's meeting at Lansdale's house, Mrs. Lodge in the chair, for the election | minor: below the level the calendar records |
+| 411 n.85 | Aug. 26, 1966; Aug. 29, 1966 | Miller to Lansdale; Lansdale to Lodge, "Women" | minor: below the level the calendar records |
+| 411 | 1966 | secret American help to some candidates (Lodge's unpublished memoir) | undated |
+| 412 | Sept. 12, 1966 | Johnson, members and the press hail the election | a lead: the words (Cong. Rec., Sept. 12, 13, 16, 1966) |
+| 413 | Oct. 1966; Dec. 1966 | the Working Group's and the Vietnam Drafting Group's constitutional papers; Lodge's plan | undated |
+| 413–14 n.101 | Oct. 11, 1966 | the conference report on the Russell amendment, 112 Cong. Rec. 26034–35, 26056–64 | a lead: the conference and its votes |
+| 414 | Mar. 1966 | Fulbright's commitment amendment defeated in committee | undated |
+| 415 | May 13, 1966 | Rostow sends Johnson Read's and Meeker's memoranda; Johnson's note | already in: cal.1966-05-24.vietnam-congress (B-C) |
+| 415 | 1966 | S. Rep. No. 89-1359: no "back-door commitment" | a lead: the report's day |
+| 415 | July 1966 | Moyers's dinner, Fulbright and Rostow | undated (in cal.1966-07-11.india-and-china) |
+| 416 | July 12, 1966 | Johnson to the American Alumni Council: "the Pacific era" | already in: cal.1966-07-12.india-and-china |
+| 417 | July 22, 1966 | Fulbright: Rostow believes the United States should become "a major Asian power" | already in: cal.1966-07-22.vietnam-congress (the same speech) |
+| 418 | Aug. 2, 1966 | the Negotiations Committee: Unger's idea of a resolution on American aims, to bring Fulbright "back on the track" | already in: cal.1966-08-02.vietnam (the meeting; a lead for this matter) |
+| 419 | Aug. 29, 1966 | Marcy to Bader before the Thailand hearing | already in: cal.1966-09-20.vietnam-congress (D) |
+| 421–22 | 1966 | Republican speeches on the "credibility gap" and the war's budget (112 Cong. Rec. 11732–33, 16185 ff., 16285 ff., 16288–89) | a lead: the members, days and words |
+| 422 | Aug. 1966 | Morton urges Republican candidates to endorse an all-Asian conference | undated |
+| 423 | 1966 | the Moss subcommittee: as much as 40 percent of aid to Vietnam lost to theft and the black market (H. Rep. No. 89-2257) | a lead: the report's day |
+| 424 | Oct. 12, 1966 | a former deputy director of the aid mission: "at least 60 percent" diverted; AID's reply, Nov. 18 | a lead: the testimony's day (*New York Times*, Oct. 13, Nov. 18, 1966) |
+| 424–25 | Jan. 1966 | Johnson's decisions of January on taxes and the war's cost in the budget | already in: the January budget entries |
+| 425 | July 18, 1966; July 19, 1966 | Johnson with the leaders and the appropriations chairmen | already in: cal.1966-07-19.economy (A) |
+| 426 | Aug. 1966 | the stock market's low; Ackley's warning to Johnson | undated |
+| 428 | Aug. 1966 | the HUAC bill's provisions; the House hearings | already in: cal.1966-08-16.students |
+| 429 | Aug. 1966 | Deputy Attorney General Ramsey Clark before HUAC: the obstructionists' movement "miniscule" | a lead: the day (Hearings, pt. 2, 101) |
+| 429 | 1966 | Dirksen: the hearings a "spectacle" | a lead: the day |
+| 430 | 1966 | HUAC's report on the bill (H. Rep. No. 89-1908) | a lead: the report's day |
+| 430–31 | Aug. 1966; Oct. 1966 | Gallup in the United States, Britain, France and West Germany: withdraw, carry on, or increase | a lead: the releases' days (*The Gallup Poll*, III, 2030, 2035) |
+| 431–32 | June 1966; June 18, 1966; Nov. 1966 | Russell's Vietnam Solidarity Campaign, his "Appeal to the American Conscience" and the tribunal's organizing meeting | out of the brief (a foreign private body) |
+| 433 | Aug. 25, 1966 | the assignments memorandum: CIA dossiers, a *New York Times* story on Schoenman, USIA guidance | already in: cal.1966-08-29.vietnam-support (C) |
+| 434 n.174 | Feb. 17, 1967; Feb. 19, 1967 | Katzenbach to Johnson on Levin's article in the *New York Times Magazine* | a lead (1967) |
+| 435 | Jan. 2, 1967 | Morgenthau in the *New Leader* against the Freedom House statement | a lead (1967) |
+| 435 | Jan. 1967 | McGeorge Bundy, "The End of Either/Or," *Foreign Affairs* | a lead (1967) |
+| 436 | Oct. 23, 1966 | the Business Council's members for the war (*New York Times*, Oct. 24) | out of the brief (a business group's opinion) |
+| 438–39 | Oct. 9, 1966 | Sheehan in the *New York Times Magazine*, "Not a Dove, But No Longer a Hawk" | out of the brief (a journalist's article) |
+| 439–40 | Nov. 25, 1966 | Frankel in the *New York Times* on the mood of Americans in Vietnam | out of the brief (a journalist's report) |
+| 440 | Sept. 1966 | the White House announces the Manila conference | a lead: the day |
+| 440 | Oct. 15, 1966 | the NSC on the trip: "The conference will probably accomplish little" | already in: the entry citing FRUS 1964–68, IV, doc. 272 (Oct. 15) |
+| 442 | Sept. 22, 1966; Sept. 24, 1966 | Rusk and Gromyko in New York | already in: cal.1966-10-10.soviet-union (G) |
+| 443 n.15 | Oct. 9, 1966 | Rostow sends Johnson Harriman's and Thompson's memoranda | minor: a transmittal |
+| 443 | Oct. 1966 | the bombing of the eastern demilitarized zone stopped some days before the Gromyko meeting | a lead: the days |
+| 444 | Oct. 25, 1966 | Tass on Manila | minor: below the level the calendar records |
+| 445 | Nov. 1966 | Johnson's campaign trip cancelled | a lead: the day (O'Brien, *No Final Victories*, 193; Califano, 151–52) |
+| 445 | Nov. 8, 1966 | the elections: Percy over Douglas, Hatfield over Duncan; the Democrats lose 47 House seats and four in the Senate | already in: the election entries of Nov. 8, 1966 |
+| 445 n.26 | Sept. 11, 1966 | Gallup: Vietnam the most important problem, 56 percent | already in: cal.1966-09-11.opinion |
+| 445 n.26 | June 7, 1966 | Scheer, 45 percent in the Democratic primary in Berkeley | a lead: the race |
+| 447 | Nov. 1966 | Norvill Jones's note to Marcy with Church's memorandum: "I'm not sure who is more dogmatic—Ky or Johnson!" | undated |
+| 449–50 | 1967 | Marks proposes to Johnson an adaptation of Aiken's idea; "Get out" | a lead (1967; Marks's oral history) |
+| 450 | Oct. 11, 1966 | the *New York Times* editorial on McNamara's trip | out of the brief (an editorial) |
+| 450 | Oct. 1966 | a weekly casualty list, 967 Americans killed or wounded, the highest of the war | a lead: the week |
+| 450 n.38 | Oct. 11, 1966 | McNamara with Thiệu and Kỳ (Saigon 8161) | a lead: its matter |
+| 452 | Oct. 1966 | McNamara at the briefing on pacification: "we had failed miserably" | undated (Oct. 10–14) |
+| 452–53 | Oct. 1966 | McChristian's intelligence briefing for McNamara: enemy forces 131,000 to 202,000 by 1967; battalions 149 to 199 | undated (Oct. 10–14); a lead |
+| 452 | July 1, 1968 | Lodge's memoir: McNamara in 1968 recalls "split up and keep off balance" | a lead (1968) |
+| 453 n.46 | Aug. 2, 1966 | Rostow's reading of Goure's study of Viet Cong morale | already in: FRUS 1964–68, IV, doc. 198 (a lead for an entry) |
+| 454 | Dec. 1965 | Kaysen with McNamara, twice, on an electronic barrier | undated (Shapley, 362–63) |
+| 454 | Mar. 1966 | McNaughton sends the barrier to McNamara, who asks the Joint Chiefs | undated |
+| 455 | Aug. 1966; Sept. 1966 | McNamara and McNaughton meet the JASON group twice | undated |
+| 455 | Sept. 13, 1966; Sept. 17, 1966 | CINCPAC calls the barrier impracticable; the Joint Chiefs approve with reservations | already in: cal.1966-09-15.vietnam (B, C) |
+| 456 | Sept. 29, 1966 | Starbird's task force reports | already in: cal.1966-10-10.vietnam-force-levels |
+| 457 | Oct. 1966 | Westmoreland to McNamara: 480,000 to 500,000 by the end of 1967, a force sustainable indefinitely | undated (Oct. 10–14); a lead (Westmoreland, MAC 7720, Sept. 5) |
+| 461 | Oct. 14, 1966 | the Joint Chiefs' reply to McNamara's report, JCSM-672-66 | already in: cal.1966-10-14.vietnam (I) |
+| 461 n.71 | Nov. 12, 1966 | Hanson Baldwin: 600,000 to 750,000 needed to win | out of the brief (a journalist's report) |
+| 462–63 | Oct. 15, 1966 | the NSC: McNamara, Wheeler and Katzenbach report briefly; Johnson against reducing the sanctuaries | already in: the entry citing FRUS 1964–68, IV, doc. 272 |
+| 464 | Jan. 17, 1967 | Johnson to Mansfield and Dirksen: "doing better now than we have ever done" | a lead (1967) |
+| 466 n.87 | Oct. 1966 | the Chief of Naval Operations' study of the bombing, sent by Nitze to McNamara: halt it until intelligence improves | undated (Nitze, *From Hiroshima to Glasnost*, 265) |
+| 469 | Sept. 26, 1966; Oct. 1, 1966; Oct. 3, 1966 | Poats's notes; U. Alexis Johnson to Rusk ("Overtaken by events"); an unsigned CIA comment | minor: drafts, perhaps unsent, against the proposal entered |
+| 469 | Oct. 1966 | Westmoreland: he does not seek the task | undated (Scoville, 34, 38) |
+| 470 | Oct. 9, 1966 | Lodge's draft against military control of pacification, not sent | minor: private (unsent) |
+| 471 | Oct. 14, 1966 | the Joint Chiefs against the dual system, but no objection if the President decides "for political reasons" | already in: cal.1966-10-14.vietnam (I) |
+| 471 | Nov. 4, 1966 | Johnson with Rusk and McNamara (Rostow's agenda) | already in: cal.1966-11-04.vietnam |
+| 475 | Nov. 29, 1966 | Porter offers Lansdale the coordination of civil pacification in Region II | already in: cal.1966-11-30.vietnam-2 |
+| 476 | Dec. 2, 1966 | Lodge and Lansdale meet | already in: cal.1966-12-07.vietnam |
+| 478 | Jan. 3, 1967 | Porter to William Bundy: end Lansdale's office | a lead (1967) |
+| 478 | Apr. 1967 | Bunker succeeds Lodge and keeps Lansdale | a lead (1967) |
+| 481 n.10 | Apr. 22, 1967 | William Bundy to Katzenbach, "Projects for the Group" | a lead (1967) |
+| 481–82 n.12 | Mar. 19, 1970 | Rostow to Johnson, "Decision to Halt the Bombing" | out of the brief (1970) |
+| 487 | Dec. 10, 1966 | Komer sends Rostow "A Strategic Plan for 1967"; Rostow: "it's a start" | already in: cal.1966-12-10.vietnam |
+| 487 n.19 | Jan. 5, 1967 | Rosenthal to Ball on Leonhart's report | a lead (1967) |
+| 490 n.25 | Jan. 3, 1967 | Porter on the draft NSAM: "unnecessarily exhortative" | a lead (1967) |
+| 492 | Jan. 1967 | William Bundy to Katzenbach on the draft NSAM, drafted by Unger | a lead (1967) |
+| 492–93 | Jan. 20, 1967; Jan. 28, 1967 | McNaughton's memorandum on the draft NSAM, sent by Vance to Rostow | a lead (1967) |
+| 493 n.31 | Dec. 14, 1966; Dec. 20, 1966 | MACV's and CINCPAC's comments on the draft NSAM | already in: cal.1966-12-27.vietnam (their basis) |
+| 494 | Jan. 1967; Feb. 9, 1967 | the revised draft NSAM; Unger to Katzenbach | a lead (1967) |
+| 494 | Jan. 18, 1967 | Wheeler to Sharp and Westmoreland on the study group's travels | a lead (1967) |
+| 495 | Dec. 2, 1966; Dec. 4, 1966; Dec. 13, 1966; Dec. 14, 1966 | the strikes on the Yên Viên rail yard and the Văn Điển depot | already in: cal.1966-12-02.vietnam-marigold, cal.1966-12-13.vietnam |
+| 495 | Dec. 1966 | the Polish government: the raids of Dec. 2 and 4 jeopardize Marigold | already in: cal.1966-12-05.vietnam-marigold |
+| 495 | Dec. 1966 | a "senior official": "Oh my God. We lost control" (Kraslow and Loory, 5) | undated |
+| 495 | Dec. 6, 1966 | Johnson in Texas with McNamara, Vance, Rostow and the Joint Chiefs on the bombing | already in: cal.1966-12-06.defense (the same meeting) |
+| 495 | Dec. 9, 1966 | Johnson's meeting: "not to expand our targeting" (Rostow's note) | already in: cal.1966-12-13.vietnam |
+| 496 | Dec. 14, 1966; Dec. 27, 1966 | Defense's statements: no escalation; residential areas hit by mistake | a lead: the days and words (*New York Times*, Dec. 14–16, 27, 1966) |
+| 496 | Dec. 14, 1966 | the Poles: Hanoi asks them to break off the talks | already in: the Marigold entries of December |
+| 496 | Jan. 3, 1967 | Zinchuk to McNaughton: the bombing of Dec. 13–14 "ruined it" | a lead (1967) |
+| 496 | Mar. 8, 1967; Mar. 9, 1967 | Rusk on Goldberg's wish to leave; McNamara on Hanoi's factions | a lead (1967) |
+| 497 | Dec. 9, 1966 | the National Council of Churches, 750 to 20, for a unilateral suspension of the bombing | out of the brief (a church body's resolution); a lead |
+| 497 | Dec. 19, 1966 | Goldberg asks U Thant to take steps toward a cease-fire | already in: cal.1966-12-19.vietnam |
+| 497 | Dec. 23, 1966 | Johnson bars attacks within ten miles of Hanoi without his approval | already in: cal.1966-12-23.vietnam |
+| 499 | Dec. 25, 1966 | Salisbury's dispatches from Hanoi in the *New York Times* | already in: cal.1966-12-25.vietnam |
+| 499 n.58 | Dec. 31, 1966 | State's circular 111162 to all posts on Salisbury's articles | a lead: its matter |
+| 500 | Jan. 13, 1967 | Salisbury with Rusk and William Bundy | already in: cal.1967-01-13.vietnam |
+
+### Leads
+
+- The polls Gibbons quotes from the press (Gallup, Harris, the Research Council's for the White House, 1965–66): each from its release (*The Gallup Poll*, III; Harris's columns in the *Washington Post*), a row of Passed over each.
+- The Foreign Relations Committee's executive-session transcripts of 1966 Gibbons cites as unpublished: whether the Historical Series has printed them since; each entry resting on one has it in "To check:".
+- The Record pages the run did not reach: Javits's report of Jan. 28, 1966 (not found by its words); Mathias, Mar. 1966; Nelson, Mar. 1, 1966; Symington and McGovern, Mar. 21, 1966 (each a Check in its entry).
+- House and Senate Armed Services on the supplemental, Jan.–Feb. 1966 (McNamara's 200,000; Russell's "we are not winning much"): the hearings' days.
+- Selective Service's monthly draft calls, 1965–66, from its announcements.
+- The religious bodies' statements (the National Council of Churches, Dec. 4, 1965; the Synagogue Council, Jan. 15, 1966; Clergy Concerned's founding): their days and texts.
+- Aptheker, Lynd and Hayden in Hanoi, Dec. 1965–Jan. 1966: the trip's days (the *New York Times*).
+- Ginsburgh's memorandum that Gibbons prints as of 1967 (the context gives 1966): its year.
+- The Voteview numbers of the McGovern and Clark amendments of Aug. 18, 1966, derived from the Record's Nos. 210 and 212: to be read on Voteview.
+- Mansfield's group with Kỳ, Thiệu and Trần Văn Đỗ, Dec. 1965 (State, Lot File 70 D 102): the days of the conversations.
+- Westmoreland's Historical Briefings and his cordon plan of Jan.–Feb. 1966 (COMUSMACV 0907): Westmoreland Papers, Center of Military History.
+

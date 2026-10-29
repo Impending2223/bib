@@ -155,12 +155,12 @@ ops:
     id: cal.1966-10-10.vietnam
     base: 28aca91c
     set:
-      n: 'His report, Oct. 14: FRUS 1964–68, IV, doc. [268](https://history.state.gov/historicaldocuments/frus1964-68v04/d268). [[w.herring-lbj-and-vietnam]], 76 (McNamara and Katzenbach to Vietnam in mid-October). To check: [[w.mcnamara-in-retrospect]]; [[w.shapley-promise-and-power]]; [[w.gibbons-u-s-government-and]], IV, 450–57. Names: McNamara, Katzenbach.'
+      n: 'His report, Oct. 14: FRUS 1964–68, IV, doc. [268](https://history.state.gov/historicaldocuments/frus1964-68v04/d268). [[w.herring-lbj-and-vietnam]], 76–77 (McNamara and Katzenbach to Vietnam in mid-October; the report). To check: [[w.mcnamara-in-retrospect]]; [[w.shapley-promise-and-power]]; [[w.gibbons-u-s-government-and]], IV, 450–57. Names: McNamara, Katzenbach.'
       src:
         c: 74cc6ca0
         rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v04/d268: all'
-        - 'w.herring-lbj-and-vietnam 76: A'
+        - 'w.herring-lbj-and-vietnam 76–77: A'
         - 'via w.herring-lbj-and-vietnam 77 n.47: A'
 - edit:
     id: cal.1966-10-17.vietnam
@@ -580,7 +580,7 @@ ops:
     id: cal.1967-08-25.defense
     base: f377e51e
     set:
-      n: '[[w.gibbons-u-s-government-and]], IV, 751–52; [[w.herring-lbj-and-vietnam]], 56 (Perry''s story: the resignation agreed, then reversed in the morning, "It''s mutiny"; denied by the two members living), 198 n.120 (Perry''s source an unnamed "former JCS flag rank officer"; Greene and Moorer deny it). Check: Perry''s the only account Gibbons gives. To check: [[w.perry-four-stars]], 162–64, 169 (cited by Gibbons, IV, 751). See [[cal.1967-08-25.vietnam-air-war]]. Names: Wheeler, Harold K. Johnson, McNamara, Moorer, McConnell.'
+      n: '[[w.gibbons-u-s-government-and]], IV, 751–52; [[w.herring-lbj-and-vietnam]], 56 (Perry''s story: the resignation agreed, then reversed in the morning, "It''s mutiny"; denied by the two members living). Check: Perry''s the only account Gibbons gives; Herring gives Perry''s source as an unnamed "former JCS flag rank officer," and Greene''s and Moorer''s denials (198 n.120). To check: [[w.perry-four-stars]], 162–64, 169 (cited by Gibbons, IV, 751). See [[cal.1967-08-25.vietnam-air-war]]. Names: Wheeler, Harold K. Johnson, McNamara, Moorer, McConnell.'
       src:
         c: edc1a7e8
         rows:
@@ -838,6 +838,20 @@ ops:
         - 'https://www.govinfo.gov/content/pkg/PPP-1967-book1/pdf/PPP-1967-book1.pdf#page=230: all'
         - 'w.herring-lbj-and-vietnam 108–09: A, D'
         - 'via w.herring-lbj-and-vietnam 109 n.69: D'
+- edit:
+    id: cal.1967-04-27.vietnam-program-5
+    base: 3c8c60a4
+    set:
+      n: 'FRUS 1964–68, V, doc. [149](https://history.state.gov/historicaldocuments/frus1964-68v05/d149) (Christian''s notes). Made public: FRUS 1964–68, V (2002). [[w.gibbons-u-s-government-and]], IV, 613–16 (the hours, 10:35 to 11:50 a.m. and 4:45 to 6:30 p.m.; Rostow''s proposal of a landing near Vinh, by his notes); [[w.herring-lbj-and-vietnam]], 52, 54 (Wheeler and Westmoreland with Johnson; the war might go on five years; Johnson: "When we add divisions can''t the enemy add divisions," "If so, where does it all end?"). See [[cal.1967-03-18.vietnam]]. To check: McNaughton''s notes, Apr. 27, 1967, Warnke Papers, McNaughton Files, and Rostow''s notes, LBJ Library (cited by [[w.gibbons-u-s-government-and]], IV, 613 n.24; by [[w.herring-lbj-and-vietnam]], 54 n.111); Westmoreland''s historical briefing, Apr. 27, 1967, Westmoreland Papers, U.S. Army Military History Institute (cited by [[w.herring-lbj-and-vietnam]], 54 n.111). Names: Westmoreland, Johnson. Check: Gibbons quotes the notes as McNaughton''s (IV, 613 n.24); FRUS, as a typed version of Christian''s.'
+      src:
+        c: 4616b1f5
+        rows:
+        - 'w.gibbons-u-s-government-and IV, 613: A, C-D'
+        - 'via w.gibbons-u-s-government-and IV, 613 n.24a: A, C-D'
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v05/d149: all'
+        - 'w.herring-lbj-and-vietnam 52, 54: A'
+        - 'via w.herring-lbj-and-vietnam 54 n.111a: A'
+        - 'via w.herring-lbj-and-vietnam 54 n.111b: A'
 - add:
     entry:
       id: cal.1964-08-06.vietnam-2
@@ -966,7 +980,6 @@ ops:
         c: 02f18b78
         rows:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v03/d112: all'
-        - 'https://history.state.gov/historicaldocuments/frus1964-68v03/d113: A'
         - 'w.herring-lbj-and-vietnam 98–99: A, C'
       tags:
       - name:gullion-edmund-a
@@ -1087,7 +1100,7 @@ ops:
 - add:
     entry:
       id: cal.1966-03.vietnam
-      when: March
+      when: Mar.
       date: 1966-03
       thread: vietnam
       c: 'The Army''s study group, field officers from Vietnam named by Harold Johnson: "A Program for the Pacification and Long-Term Development of South Vietnam" (PROVN). The weight of the effort to shift from the enemy''s main forces to the security of the countryside and to reform; the Ambassador the sole manager of every American activity in the country.'
@@ -1102,11 +1115,11 @@ ops:
 - add:
     entry:
       id: cal.1966-11.vietnam
-      when: Late Nov.
+      when: Nov.
       date: 1966-11
       thread: vietnam
       c: 'Saigon. Lodge announces the Office of Civil Operations under Porter, after a month''s delay: the civilian agencies'' field offices taken into it, the civilians of each province and region under one man; Lathram its director. Westmoreland names a brigadier general his assistant for pacification.'
-      n: '[[w.herring-lbj-and-vietnam]], 77–78 (the order to Lodge; his objections; the office, its form and staff; Vann in III Corps). Check: the day. To check: [[w.pentagon-papers]], Gravel ed., II, 601–602. See [[cal.1966-10-14.vietnam]]. Names: Lodge, Porter, Lathram, Westmoreland.'
+      n: '[[w.herring-lbj-and-vietnam]], 77–78 (the order to Lodge; his objections; the announcement in late November, after a month''s stalling; the office, its form and staff; Vann in III Corps). Check: the day. To check: [[w.pentagon-papers]], Gravel ed., II, 601–602. See [[cal.1966-10-14.vietnam]]. Names: Lodge, Porter, Lathram, Westmoreland.'
       src:
         c: 77e7f26c
         rows:
@@ -1151,7 +1164,7 @@ ops:
 - add:
     entry:
       id: cal.1967-08.vietnam-support
-      when: August
+      when: Aug.
       date: 1967-08
       thread: vietnam-support
       c: 'The Vietnam Information Group, housed in the White House, Kaplan its director: the agencies'' representatives, weekly with Rostow and Christian, a "quick reaction team" to "strike a positive note." Kaplan at its first meeting: "discretion," the press having called it a "miniature Office of War Information."'
@@ -1206,3 +1219,55 @@ ops:
         - 'w.herring-lbj-and-vietnam 53: all'
       tags:
       - name:mcnaughton-john-t
+- add:
+    entry:
+      id: cal.1965-02-21.vietnam
+      when: Feb. 21
+      date: '1965-02-21'
+      thread: vietnam
+      also:
+      - press-and-broadcasting
+      c: 'The *New York Times Magazine*: Hanson Baldwin, "We Must Choose—(1) ''Bug Out'' (2) Negotiate (3) Fight": a war in Vietnam "long, nasty and wearing," 200,000 to a million Americans. By Herring''s account, put there by the Joint Chiefs.'
+      n: '[[w.herring-lbj-and-vietnam]], 34 (the article "planted" by the Chiefs; its warning and figures). Check: the Chiefs'' part, Herring''s alone. To check: Hanson Baldwin, "We Must Choose—(1) ''Bug Out'' (2) Negotiate (3) Fight," *New York Times Magazine*, Feb. 21, 1965, 9, 62–63; Baldwin''s oral history, U.S. Naval Academy Library, 710–711 (cited by [[w.herring-lbj-and-vietnam]], 34 n.30).'
+      src:
+        c: 2ba1bbc3
+        rows:
+        - 'w.herring-lbj-and-vietnam 34: all'
+        - 'via w.herring-lbj-and-vietnam 34 n.30a: all'
+        - 'via w.herring-lbj-and-vietnam 34 n.30b: all'
+- add:
+    entry:
+      id: cal.1965-11-06.vietnam-support
+      when: Nov. 6
+      date: '1965-11-06'
+      thread: vietnam-support
+      c: 'Proclamation 3686: Nov. 28 a day of dedication and prayer for those risking their lives for peace in Vietnam.'
+      n: '[Proclamation 3686—Designating a Day of Dedication and Prayer for Those Risking Their Lives for Peace in Viet-Nam](https://www.presidency.ucsb.edu/documents/proclamation-3686-designating-day-dedication-and-prayer-for-those-risking-their-lives-for) (Nov. 6, 1965). [[w.herring-lbj-and-vietnam]], 134 (the day, to take the ground from the protesters after the demonstrations of November). To check: Dan Ropa to McGeorge Bundy, Nov. 4, 1965, NSF Country File, Vietnam, box 24, LBJ Library (cited by [[w.herring-lbj-and-vietnam]], 134 n.64). Names: Johnson.'
+      src:
+        c: 1a1917ca
+        rows:
+        - 'https://www.presidency.ucsb.edu/documents/proclamation-3686-designating-day-dedication-and-prayer-for-those-risking-their-lives-for: all'
+        - 'w.herring-lbj-and-vietnam 134: all'
+        - 'via w.herring-lbj-and-vietnam 134 n.64: all'
+      tags:
+      - name:johnson-lyndon-b
+- add:
+    entry:
+      id: cal.1968-01-25.vietnam-congress
+      when: Jan. 25
+      date: '1968-01-25'
+      thread: vietnam-congress
+      c: 'Edward Kennedy, in a speech: Westmoreland''s search and destroy to give way to the "population security" approach, an enclave strategy. Johnson asks the Joint Chiefs and several of his civilian advisers for written answers; they defend the strategy.'
+      n: '[[w.herring-lbj-and-vietnam]], 152, 199 n.136 (the speech, Jan. 25; the answers, Jan. 30–Feb. 3). Check: the place and words of the speech. To check: Rostow to Johnson, Jan. 30, 1968; Vance to Johnson, Jan. 31, 1968; Harold Johnson to Johnson, Feb. 1, 1968; Wheeler to Johnson, Feb. 3, 1968, NSF Country File, Vietnam, box 102, LBJ Library (cited by [[w.herring-lbj-and-vietnam]], 152 n.2). Names: Edward Kennedy, Westmoreland, Johnson.'
+      src:
+        c: 1377f57f
+        rows:
+        - 'w.herring-lbj-and-vietnam 152: all'
+        - 'via w.herring-lbj-and-vietnam 152 n.2a: B'
+        - 'via w.herring-lbj-and-vietnam 152 n.2b: B'
+        - 'via w.herring-lbj-and-vietnam 152 n.2c: B'
+        - 'via w.herring-lbj-and-vietnam 152 n.2d: B'
+      tags:
+      - name:kennedy-edward-m
+      - name:westmoreland-william
+      - name:johnson-lyndon-b
