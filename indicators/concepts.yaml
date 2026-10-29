@@ -700,3 +700,41 @@ series:
     printed it, in the issue of the month after (read as the pound's, above).{{1960..1962| The new franc, of 100 old
     francs, from Jan. 1, 1960; from Jan. 1, 1963, "the franc" again, one for one.}} No figure today: the rates are not
     revised.
+  real-bill-cpi: >-
+    The three-month bill's monthly average less the consumer price index's rise over the twelve months to the same
+    month: as first reported, the rise the BLS printed in the month's release (the city wage-earner and clerical-worker
+    index); today, the CPI-U's. The consumer basket: the measure a saver or lender meets (today's inflation-protected
+    Treasuries, from 1997, are indexed to it). Ex post: the inflation of the year past, not what lenders expected.
+    Computed here (tools/indicators/make_derived.py), not published then. A real rate rising is a tighter stance, the
+    cold side; falling, as when rates rise more slowly than prices, the hot. Released: the CPI's release.
+  real-10-cpi: >-
+    The 10-year constant-maturity yield's monthly average less the CPI's rise over the year, each vintage as for the
+    real bill rate. Computed here, not published then; ex post. Released: the CPI's release.
+  real-bill: >-
+    The bill's average over the quarter less the GNP implicit deflator's rise over the year: the whole economy's prices,
+    the usual measure of the stance of policy. As first reported, the rise is the mean of the four quarters' annualized
+    changes as each was released (a ratio across the Commerce Department's base-year change of Aug. 19, 1965 would mix
+    1954 and 1958 prices); today, the deflator against its level a year before ([FRED]({F}GNPDEF)). Ex post. Computed
+    here, not published then. Quarterly, filed in the quarter's last month. Released: the deflator's release.
+  real-10: >-
+    The 10-year yield's average over the quarter less the GNP deflator's rise over the year, each vintage as for the
+    real bill rate on the deflator. Computed here, not published then. Released: the deflator's release.
+  taylor-gap: >-
+    The federal funds rate's average over the quarter less John B. Taylor's rule ("Discretion versus Policy Rules in
+    Practice," 39 Carnegie-Rochester Conf. Series on Pub. Pol'y 195 (1993)): 2 + inflation + ½(inflation − 2) +
+    ½(output gap). As first reported: inflation the deflator's rise as above, the gap by the Council's own rule of thumb,
+    Okun's law, 3 percent of GNP for each point of unemployment above 4 percent, from unemployment as first reported;
+    today: the deflator's rise and the CBO's output gap. A retrospective measure, used by no one at the time: in these
+    years the funds rate was not the Federal Reserve's target (it steered free reserves and money market conditions), so
+    the rule measures where the rate stood, not what the Federal Reserve aimed at. Below zero, easier than the rule: the
+    hot side. Released: the later of the deflator's and the quarter's last unemployment release.
+  rstar-gap: >-
+    Today only. Kathryn Holston, Thomas Laubach and John C. Williams's real policy rate (their policy rate, the discount
+    rate to 1965 and the federal funds rate after, less their expected inflation, a four-quarter average of past core
+    consumer prices) less their estimate of the natural rate, r*, for the United States, one-sided ("Measuring the
+    Natural Rate of Interest after COVID-19," Fed. Res. Bank of N.Y. Staff Rep. No. 1063 (2023); the current estimates,
+    [New York Fed](https://www.newyorkfed.org/research/policy/rstar)). Below zero, easier than the model's neutral: the
+    hot side. The estimates are revised as the Bank adds quarters.
+  spread: >-
+    Today only. The 10-year constant-maturity yield less the three-month bill, monthly averages ([FRED]({F}GS10),
+    [TB3MS]({F}TB3MS)). Widening, the hot side; narrowing, the cold.

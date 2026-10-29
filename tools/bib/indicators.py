@@ -90,6 +90,7 @@ from . import oil
 from . import war
 from . import finance
 from . import concepts
+from . import indchart
 
 DIR = os.path.join(store.ROOT, "indicators")
 ORDER = ["cpi", "wpi", "deflator", "unemployment", "payrolls", "industrial-production", "gnp", "real-gnp",
@@ -100,6 +101,8 @@ ORDER = ["cpi", "wpi", "deflator", "unemployment", "payrolls", "industrial-produ
          "oil-reserves", "war-deaths", "war-strength",
          "war-enemy-ob", "war-enemy-ob-old", "war-enemy-snie", "war-enemy-strength-q", "war-infiltration", "war-enemy-kia", "war-rvnaf-kia", "war-rvnaf-strength", "war-fwmaf-strength", "war-air-attack", "war-air-nvn-rp", "discount-rate", "federal-funds",
          "prime-rate", "treasury-bill", "treasury-10-year", "approval"]
+DERIVED = ["real-bill-cpi", "real-10-cpi", "real-bill", "real-10", "taylor-gap", "rstar-gap", "spread"]
+# real rates and the stance (tools/indicators/make_derived.py): computed from the series above; percent or points
 GROUP = {"cpi": "Prices", "wpi": "Prices", "deflator": "Prices",
          "unemployment": "Employment", "payrolls": "Employment",
          "industrial-production": "Output", "gnp": "Output", "real-gnp": "Output",
@@ -133,6 +136,8 @@ GROUP.update({x: "Employment" for x in finance.COSTS})
 GROUP.update({x: "Federal debt" for x in ("interest-gnp", "public-debt", "debt-gnp", "debt-gdp-omb") + finance.DEBT})
 GROUP.update({x: "International" for x in finance.INTL + finance.FX})
 GROUP.update({x: "Money and credit" for x in finance.MONEY + finance.RATES})
+_place(finance.MONEY[-1], DERIVED)
+GROUP.update({x: "Real rates and the stance" for x in DERIVED})
 FIELD_LABEL = {"receipts": "Receipts", "expenditures": "Expenditures", "payments": "Payments", "outlays": "Outlays",
                "balance": "Balance", "interest": "Net interest", "primary": "Primary"}
 MON = ["Jan.", "Feb.", "Mar.", "Apr.", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."]
@@ -296,6 +301,9 @@ def single(sid, v, unit, kind, c, q=None, yoy=None):
         return f"{num(v)}% {grey('of potential')}"
     if sid in RATES:
         return f"{num(v, 2)}%" + (f", {signed(c, 2)} pt" if c is not None else "")
+    if sid in DERIVED:            # a real rate in percent; a gap or spread in points
+        unit_txt = "%" if sid.startswith("real-") else "\u00a0pts"
+        return f"{num(v, 2)}{unit_txt}" + (f", {signed(c, 2)} pt" if c is not None else "")
     b = base_of(unit)
     out = f"{qual}{num(v)}" + (" " + grey(f"({b})") if b else "") + chg_text(kind, c)
     if yoy is not None and c is None:
@@ -428,7 +436,13 @@ def name_cell(sid, s, r, href=None, text=None):
             f'<span class="per">{esc(period_label(r["p"]))}</span>')
 
 
-def rate_row(sid, s, r, year, href=None, label=None):
+def _tattr(t):
+    """A value cell's tint (tools/bib/indchart.py, STYLE 1) as attributes."""
+    cls, style = t
+    return f' class="{cls}" style="{style}"' if cls else ""
+
+
+def rate_row(sid, s, r, year, href=None, label=None, chart=False):
     """A rate (STYLE 13): its name and month, then the one figure: the discount rate as the Board set it (its change,
     the day announced and the day it took effect, in a month it changed), a market rate as FRED gives it today.
     label: the first cell's text in place of the name (the Indicators page's tables, by month)."""
@@ -447,7 +461,9 @@ def rate_row(sid, s, r, year, href=None, label=None):
         val = cell_now(sid, s, r)
         now = s.get("now") or {}
         tip = now.get("source", "") + (": " + exact(r["now"], now.get("unit")) if r.get("now") is not None else "")
-    return f'<tr><td class="iname">{name}</td><td><span title="{esc(tip)}">{val}</span></td></tr>'
+    t = indchart.tint(sid, s, r, "first" if "first" in r else "now") if chart else ("", "")
+    btn = indchart.button(sid) if chart and indchart.chartable(sid, s) else ""
+    return f'<tr><td class="iname">{btn}{name}</td><td{_tattr(t)}><span title="{esc(tip)}">{val}</span></td></tr>'
 
 
 def cells(sid, s, r, year):
@@ -499,16 +515,19 @@ def block(data, sec_from, sec_to, prev_to, year, next_from=None, href=None):
                          f'<span class="per">{esc(per)}</span></td><td>{first}</td><td class="rel">{rel}</td><td>{now}</td></tr>')
             continue
         if s.get("kind") == "rate":
-            rates.append(rate_row(sid, s, r, year, href))
+            rates.append(rate_row(sid, s, r, year, href, chart=True))
             continue
         name = name_cell(sid, s, r, href)
         first, rel, nowv = cells(sid, s, r, year)
-        trs.append(f'<tr><td class="iname">{name}</td><td>{first}</td><td class="rel">{rel}</td><td>{nowv}</td></tr>')
+        btn = indchart.button(sid) if indchart.chartable(sid, s) else ""
+        ta, tb = indchart.tint(sid, s, r, "first"), indchart.tint(sid, s, r, "now")
+        trs.append(f'<tr><td class="iname">{btn}{name}</td><td{_tattr(ta)}>{first}</td><td class="rel">{rel}</td>'
+                   f'<td{_tattr(tb)}>{nowv}</td></tr>')
     out = ""
     if trs:
         out += ('<div class="ind"><p class="ind-cap">Economic indicators</p><table><thead><tr><th>Indicator</th><th>As first reported</th>'
                 '<th>Released</th><th>Revised, today</th></tr></thead><tbody>'
-                + "".join(trs) + "</tbody></table></div>")
+                + "".join(trs) + "</tbody></table>" + indchart.KEY + "</div>")
     if oils:                             # Oil apart: no vacant columns (STYLE 15; tools/bib/oil.py)
         out += oil.table(oils, year, lambda sid, s, r: name_cell(sid, s, r, href), cells)
     if fxs:                              # exchange rates and gold: not revised, one figure (STYLE 17)
@@ -577,14 +596,16 @@ def inject(page, series, mode):
             page, n = pat.subn(lambda m: m.group(1) + "\n" + blk, page, count=1)
             done = done or bool(n)
     if done:
-        page = page.replace("</head>", STYLE + "\n" + concepts.STYLE + "\n</head>", 1)
+        head, tail = indchart.head_and_tail(data)          # the tints and charts (tools/bib/indchart.py)
+        page = page.replace("</head>", STYLE + "\n" + concepts.STYLE + "\n" + head + "\n</head>", 1)
+        page = page.replace("</body>", tail + "\n</body>", 1)
         page = concepts.link_logic(page)
     return page
 
 
 def problems():
     """For ./bib check: malformed periods, rows without a source, unknown series, missing definitions."""
-    out = []
+    out = list(indchart.problems())
     for sid, s in load().items():
         if sid not in ORDER:
             out.append((sid, f"indicator series {sid!r} not in ORDER (tools/bib/indicators.py)"))

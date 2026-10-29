@@ -39,4 +39,5 @@ Named in CLAUDE.md as not yet done, here so they are found in one place:
 - Small multiples on the Indicators page: every series on the calendar's span, one scale each, both vintages, one
   cursor across them all (the owner, Oct. 28, 2026, of the chart gallery's demo 8: "they might be nice in the indicators
   page, but I haven't spent any time there yet"). The gallery: https://claude.ai/artifact/8da6JMvh2SXn5g7F1hHnsH.
-  Its demos 2 and 3 (tinted changes; a row that opens into a chart) go forward together into the month tables.
+  Its demos 2 and 3 (tinted changes; a row that opens into a chart) went into the month tables Oct. 29, 2026
+  (`tools/bib/indchart.py`).

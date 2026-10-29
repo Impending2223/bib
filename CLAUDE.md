@@ -52,7 +52,10 @@ governor, a party officer or a party figure out of office (Eisenhower, Nixon, Go
 Percy, Reagan) on policy or politics. A journalist's column is an entry only where it carried an act (a leak, a trial
 balloon) or made news itself. "Minor", as a reason in a "Passed over" list, means only: a repetition of a position
 already entered, with nothing new; private or social trivia; an operation or incident below the level the calendar
-records. The threads: Republican Party (`republican-party`; its subthread "In Congress", `republican-party-congress`),
+records. The papers of government (the owner's ruling, Oct. 28, 2026, on the Gibbons readings): a staff or planning
+paper, a White House staff memorandum, an ambassador's, commander's or consulate's cable and an intelligence memorandum
+or estimate are entries, dated by the paper; a covering note or transmittal, a draft not sent, a meeting's
+preparation, a repetition and private remarks are passed over. The threads: Republican Party (`republican-party`; its subthread "In Congress", `republican-party-congress`),
 Conservative movement (`conservative-movement`), Democratic Party (`democratic-party`); `notes/threads.md`.
 
 So every calendar entry has:
@@ -1575,6 +1578,18 @@ the series index, the README and the top bar (数; at first kept out of the bar,
   succeeding year"; Proclamation 3655, May 7, 1965, the same): the U.S. and world forces (`tools/bib/forces.py`,
   another module's, called by the name in `FORCES_FNS` it exposes) and, beside them, the RVNAF by service and the other
   allies by country, with their battalions, for the year before.
+- Tints and charts (the owner's choice from the chart gallery, Oct. 28, 2026; `tools/bib/indchart.py`, its STYLE): each value
+  cell of the indicators and Money and credit tables tinted by its period's move against the series' usual move over
+  1960-68, column by column, green on the hot side (prices, output, jobs, money, debt or nominal rates rising,
+  unemployment falling, a real rate falling, a gap below zero) and brown on the cold (`HOT`); a key under the table. A
+  ▸ before a row's name opens its chart in a row beneath (uPlot, vendored, `sources/vendor/uplot-1.6.30/`): as first
+  reported and today over the span, Level | Year over year, year over year by default but for the rates and ratios in
+  percent; the figures in `build/ind/charts-<hash>.json`, fetched at the first tap.
+- Real rates and the stance (`tools/indicators/make_derived.py`, its docstring; group "Real rates and the stance"): the
+  bill and the 10-year less the CPI's rise over the year (monthly) and the GNP deflator's (quarterly), each vintage its
+  own; the funds rate less Taylor's rule (then, Okun's-law gap from unemployment as first reported; today, the CBO's);
+  Holston, Laubach and Williams's real rate less their r* (today only; `--hlw` the New York Fed's workbook); the yield
+  spread. Rerun after make_indicators.py or make_finance.py.
 - Changes use one basis in both value columns (CHANGE in the script): monthly
   percent, not annualized; quarterly percent at an annual rate; points; persons.
   CPI, WPI and industrial production also carry the change from a year earlier
