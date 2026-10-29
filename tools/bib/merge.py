@@ -307,7 +307,7 @@ def op_edit(series, body, source, report, touched):
         merged = theirs
         note = "applied without a base (last writer wins)"
     else:
-        base = find_base(series, eid, body["base"])
+        base = find_base(series, eid, _base(body["base"]))
         note = ""
         if base is None:
             # The version they edited is unknown: any named field that differs
@@ -315,7 +315,7 @@ def op_edit(series, body, source, report, touched):
             base = dict(cur)
             for k in named:
                 base[k] = "\x00unknown"
-            note = f"base {body['base']} not found"
+            note = f"base {_base(body['base'])} not found"
         merged = three_way(base, cur, theirs, source)
         for c in merged.get("conflict", []):
             if c.get("base") == "\x00unknown":
@@ -370,13 +370,24 @@ def op_move(series, body, source, report, touched):
     report.add("moved", eid, f"to {dest.lst.abbr} {dest.code or dest.id}")
 
 
+def _base(v):
+    """A patch's `base`, as the eight hex digits store.rev gives. Unquoted, YAML reads an all-digit rev as a number:
+    decimal, or octal where it begins with 0 ('01234567' loads as 342391). Put it back."""
+    if isinstance(v, bool) or v is None:
+        return v
+    if isinstance(v, int):
+        s = str(v)
+        return s if len(s) == 8 else format(v, "o").zfill(8)
+    return str(v)
+
+
 def op_delete(series, body, source, report, touched):
     eid = body.get("id")
     hit = _locate(series, eid, report)
     if not hit:
         return
     lst, sec, cur = hit
-    if body.get("base") and store.rev(cur) != body["base"]:
+    if body.get("base") and store.rev(cur) != _base(body["base"]):
         x = dict(cur)
         x.setdefault("conflict", []).append({"kind": "delete-of-changed-entry", "from": source,
                                              "note": "the patch deletes a version that has since changed"})
