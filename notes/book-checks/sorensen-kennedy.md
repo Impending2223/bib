@@ -86,14 +86,14 @@ Sorensen's page added, with its claim row and, where it bears part of `c`, its p
 - `cal.1960-05.elections-1960-10`: *L'Osservatore Romano*: the church "has the duty and the right" to tell Catholics how to vote.
 - `cal.1960-06-02.elections-1960-2`: Williams, governor of Michigan, for Kennedy, after Kennedy's visit to his summer home on Mackinac Island, Mich.: 42 more.
 - `cal.1960-07-02.elections-1960-2`: Truman's televised press conference.
-- `cal.1960-07-04.elections-1960-2`: New York.
-- `cal.1960-07-10.elections-1960-3`: Los Angeles.
-- `cal.1960-07-10.elections-1960-4`: *Meet the Press*.
-- `cal.1960-11-07.elections-1960-4`: Kennedy's election eve.
+- `cal.1960-07-04.elections-1960-3`: New York.
+- `cal.1960-07-10.elections-1960-4`: Los Angeles.
+- `cal.1960-07-10.elections-1960-5`: *Meet the Press*.
+- `cal.1960-11-07.elections-1960-5`: Kennedy's election eve.
 - `cal.1960-12-15.transition-and-staff-3`: Palm Beach.
 - `cal.1960-12-21.transition-and-staff-2`: Palm Beach, an all-day and late-night session: Kennedy and the Budget Bureau's new men on Sorensen's check list of over .
 - `cal.1961-01-16.transition-and-staff-2`: Palm Beach, the patio.
-- `cal.1961-01.transition-and-staff-2`: Kennedy's first Cabinet meeting.
+- `cal.1961-01.transition-and-staff-2`: Late January.
 - `cal.1961-02.civil-rights-the-executive-3`: Wilkins of the NAACP gives Sorensen, at the President's request, a memorandum of sixty-one pages on new executive action.
 - `cal.1961-06-15.transition-and-staff-2`: The Cabinet.
 - `cal.1961-08-30.testing-2`: White House statement that night on the Soviet resumption: a hazard to every human being; the pretext, "the very crisis .
@@ -117,7 +117,7 @@ Sorensen's page added, with its claim row and, where it bears part of `c`, its p
 - `cal.1962-05-08.economy-2`: Atlantic City.
 - `cal.1962-05-21.economy-2`: Kennedy to the White House Conference on National Economic Issues.
 - `cal.1962-06-06.economy-2`: The White House, the second meeting on the economy.
-- `cal.1962-07.economy-4`: Samuelson and Solow, for "a majority of economists inside and outside the government": without a temporary emergency tax.
+- `cal.1962-07.economy-4`: Mid-July.
 - `cal.1962-07.economy-5`: The Cabinet, at the President's request: Sorensen leads a discussion of its part in mending relations with business, aft.
 - `cal.1962-07-10.medicare-2`: The legislative leaders' breakfast, Medicare's tactics and tally its first subject, as on July 3 and 17.
 - `cal.1962-07-17.medicare-3`: The leaders' breakfast, the morning of the vote.
