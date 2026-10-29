@@ -88,6 +88,25 @@ the FBI File on Robert F. Kennedy (microform); the McCormack Papers (Boston Univ
 (Schlesinger Library). The Daily Diary days the notes cite (Feb. 6, 1967; Apr. 9, 1968) are not among the Catalog's
 scanned days; Mar. 31, 1968 is, but the Diary Backup's Connally message (n.7.114) is not in it.
 
+## The campaign's staff memoranda (the second patch, book-palermo-2)
+
+By the coordinator's ruling (Oct. 29, 2026: the informal record covers the planning of the campaign in the members'
+offices and the campaign headquarters), every staff memorandum, meeting's notes and night reading Palermo dates to the
+day or the month is an entry: 39 more, in `inbox/2026-10-29-book-palermo-2.yaml`, each with its writer, addressee and
+gist, Palermo's page, the record under "To check:" as the note gives it and its `via` row (41 records added to the
+cited-records file). Sorensen on McCarthy (ca. Oct. 1967); Dolan, Feb. 9, Mar. 8 (Texas), Mar. 9 (Nebraska); the
+staffs' meeting in Edward Kennedy's office, Mar. 16; Vann on Alabama, Mar. 16; Guzman, Mar. 19; Kraus, Mar. 20;
+Sherburne, Mar. 21; the youth memorandum, Mar. 25; Berger and Douglas, Mar. 28; Sugarman, Mar. 31; the Youth Action
+history (ca. April); the California meeting, Apr. 5; Fishbein and Barron, Apr. 6; Blyth and O'Donnell, Apr. 8; Barron's
+night reading, Apr. 11; California, Apr. 15 and 17 (the NAACP); Unruh by telephone, Apr. 23; Sorensen's "unholy
+alliance," Apr. 26; O'Brien's get-out-the-vote plan and the Mississippi memorandum, Apr. 27; Flug on Indiana, Apr. 28;
+Mankiewicz and Gardner, Apr. 30; Corona and South Dakota, May 1; Silver on Mississippi, May 2; McGovern's lists, May 3;
+the youth division, May 10; the "civil rights indicators" memorandum, May 15; South Dakota on COPE, May 17; McLaughlin,
+May 28; Bill Smith before the debate (ca. May 30); Borden's telex, June 4. Each compared with its day: none repeats an
+entry (15 flagged as possible duplicates by the dry run, each another document). Where the note dates by "ca." or the
+text gives the matter only in general, a Check says so; "below the level" stays for local endorsements and outsiders'
+letters.
+
 ## Passed over
 
 page | date | event | why
@@ -112,7 +131,6 @@ page | date | event | why
 71 | after Sept. 29, 1967 | Johnson orders DeLoach to check the critics of San Antonio | already in (`cal.1967-10-04.vietnam-2`); the page added there
 73 | late 1967 | Walinsky's and Goodwin's memoranda to Kennedy on Johnson | undated (n.d., ca. late 1967)
 78 | Nov. 1967 | SANE and CALCAV distribute the Vietnam chapters as pamphlets | undated
-82 | ca. Oct. 1967 | Sorensen to Kennedy: draft a statement on McCarthy and refer to it | undated (n.d.)
 82 | Jan. 25, 1968 | Grant, Colorado's chairman, to Kennedy | below the level (a State chairman's worry, no act)
 89 | Aug. 8, 1967 | M. A. Jones to Bishop, the FBI's summary of Kennedy on *Meet the Press* | below the level; the program already in
 90 | Oct. 4, 1967 | Kennedy's joking note to Claude Hooton | private trivia
@@ -134,37 +152,33 @@ page | date | event | why
 127–28 | Feb. 1968 | VVAW and servicemen's letters to Kennedy | out of the brief
 129 | Feb. 10, 1968 | UPI: South Vietnam's UN observer on Kennedy's "irresponsible ignorance" | a foreign mission's release: a lead
 129 | ca. Feb. 28, 1968 | Valenti to Watson on the networks | undated (n.d.)
-131 | Jan.–Mar. 1968 | Dolan's canvass of Democratic leaders | undated (several memoranda, no one dated passage)
+131 | Jan.–Mar. 1968 | Dolan's canvass of Democratic leaders, but the memorandum of Feb. 9 | undated (several memoranda; Feb. 9 entered by the ruling)
 132 | Mar. 11, 1968 | Connell to Criswell, Rowe and Watson: the PT-109 tie clasps | minor
 133 | Mar. 12, 1968 | New Hampshire's primary | already in (official returns)
-141 | Mar. 8, 9, 13–14, 1968 | Dolan on Texas; Stewart's and Schaap's letters, Kennedy's reply to Stewart | minor: private advice repeated elsewhere; friends' letters
+141 | Mar. 9, 13–14, 1968 | Stewart's and Schaap's letters, Kennedy's reply to Stewart | minor: friends' letters
 145–50 | Mar. 18–28, 1968 | the canvass's single memoranda (Markman, Charles Roche, Gonella, Blackburn) | in the one entry for the canvass
 151 | Mar. 22, 1968 | the *Washington Post* on the campaign's twenty-six fields | minor
-151 | Mar. 16, 1968 | the meeting of the Senators' staffs in Edward Kennedy's office | a lead: undated notes (Gwirtzman Papers)
 152–53 | Mar. 1968 | the gold crisis; the Wise Men | already in
 154 | Mar. 31, 1968 | Johnson's address; the press conference no. 122 | already in (the Papers)
 155 | Mar. 31, 1968 | Temple's notes of the Cabinet's comments | minor
 156 | Apr. 1, 1968 | Johnson: "that grandstanding little runt" | a published work's quotation (Shesol, 441); a lead
 170 | 1966–67 | the FBI's clippings on Kennedy | below the level
-171–73 | Mar.–May 1968 | the campaign in Mississippi and Alabama (Berger, Silver, Vann, McLaughlin, Evers's telegram) | below the level (organizers' memoranda)
+173 | Mar. 28, May 8, 1968 | Smith's and Evers's telegrams to Kennedy | below the level (telegrams from outside the campaign)
 179 | Apr. 4, 1968 | King's death | already in
-182 | Apr. 8, 1968 | Blyth to Gifford on the ghettos' leaders | below the level
 183–84 | Apr. 6, 12, 1968 | letters and telegrams to Kennedy after King's death | out of the brief
-188–203 | Mar.–Apr. 1968 | the campaign's staff memoranda (Kraus, Flug, Barron, Douglas, Tsongas, the Youth Action history) | below the level
+192 | Apr. 3, 1968 | Tsongas, a Peace Corps trainer, to Greenfield, offering to volunteer | below the level (a volunteer's offer)
 195 | 1968 | the GNP passage, put by Palermo in Des Moines | already in (Feb. 10, the *Times*; Palermo's place a lead)
-198 | May 17, 24, 1968 | South Dakota and Oregon releases (Tibbit) | below the level
+198 | May 24, 1968 | Oregon release (Tibbit) | below the level (a local endorsement)
 200 | Apr. 9, 1968 | Schlesinger to Kennedy | a lead (the letter's matter not given)
 204–05 | May 7, 1968 | Indiana's precincts | analysis, undated
-206–09 | May 1968 | Nebraska's and South Dakota's campaigns (Dolan, Mar. 9; the Indian program) | below the level; Nebraska's primary in
-210–17 | Mar.–May 1968 | Oregon's campaign (Sherburne, the clippings); McCarthy's jibes | undated or minor; the debate, the reply and the spots entered
+209 | May 23, 1968 | a tribal gathering's endorsement in South Dakota | below the level (a local endorsement)
+210–17 | Mar.–May 1968 | Oregon's clippings; McCarthy's jibes | undated or minor; the debate, the reply and the spots entered
 219 | Apr. 27, 1968 | Humphrey's announcement | already in
 220–43 | Apr.–June 1968 | California's committees and endorsements, the campaign's releases of May 8–31 (No. 88A, 88B, 89) | below the level, but the Brown men of May 22 and the Lynch spots, entered
-224–27 | Mar.–May 1968 | Chávez's and Corona's work for Kennedy; Guzman and Mankiewicz | below the level; Delano entered
-228 | Apr. 23, 1968 | Unruh by telephone | below the level
+227 | n.d., Apr. 8, 1968 | Corona's statement (a release, n.d.); Lavery, a county chairman, to Gifford; Rost and Consiglio to Unruh | undated, or below the level (local)
 229 | May 6, 21, 1968 | Schlesinger's and Moynihan's letters to Kennedy | a lead (matter not given)
 241 | May 22, 1968 | Robinson resigns from McCarthy's campaign | below the level (a State organizer)
 244 | June 4, 1968 | the California primary's returns | already in (official returns)
-245 | June 4, 1968 | Borden to Flug on the strategy after California | below the level
 
 ## Leads
 
