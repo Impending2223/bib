@@ -408,7 +408,12 @@ entries:
     thread: opinion
     also: [vietnam]
     c: 'Gallup, Apr. 23–28: what to do next in Vietnam: withdraw 13 percent; negotiate 12; continue 13; step up 8; go all out 15; others, no opinion 39. Handling South Vietnam as well as could be expected, 52; badly, 27. Should have become involved, 52; not, 26. The bombing of North Vietnam: stop 21, continue 59.'
-    n: '[[w.gallup-poll]], III, 1939–40.'
+    n: '[[w.gallup-poll]], III, 1939–40. [[w.mann-grand-delusion]], 439 (the bombing, continue 59).'
+    src:
+      c: '55098024'
+      rows:
+        - 'w.gallup-poll III, 1939–40: all'
+        - 'w.mann-grand-delusion 439: K'
   - id: cal.1965-05-16.latin-america
     when: May 16
     date: '1965-05-16'
@@ -479,6 +484,19 @@ entries:
         - 'w.barrett-uncertain-warriors 33: all'
         - 'via w.barrett-uncertain-warriors 33 n.73: all'
     tags: [name:clifford-clark, name:johnson-lyndon-b]
+  - id: cal.1965-05-17.vietnam-2
+    when: May 17
+    date: '1965-05-17'
+    thread: vietnam
+    c: 'Wheeler to McNamara, an appraisal of the bombing: the strikes "have not reduced their over-all military capabilities in any major sense"; the economy not seriously hurt; the regime "gives every impression of being determined to continue on its present course."'
+    n: '[FRUS 1964–68, II, doc. 306](https://history.state.gov/historicaldocuments/frus1964-68v02/d306). [[w.mann-grand-delusion]], 439. Names: Wheeler, McNamara.'
+    src:
+      c: 63fc0de4
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v02/d306: all'
+        - 'w.mann-grand-delusion 439: all'
+        - 'via w.mann-grand-delusion 439 n.8: all'
+    tags: [name:wheeler-earle, name:mcnamara-robert-s]
   - id: cal.1965-05-18.jobs-and-wages
     when: May 18
     date: '1965-05-18'
@@ -526,6 +544,18 @@ entries:
     c: Santo Domingo. Imbert's offensive has taken the rebels' northern zone; a truce from this day. Check.
     n: '[FRUS 1964–68, XXXII, doc. 89](https://history.state.gov/historicaldocuments/frus1964-68v32/d89) (May 22). See [[cal.1965-05-15.latin-america]]. Names: Imbert-Barrera.'
     tags: [name:imbert-barrera-antonio]
+  - id: cal.1965-05-21.latin-america-dominican-republic
+    when: May 21
+    date: '1965-05-21'
+    thread: latin-america-dominican-republic
+    c: 'Rusk before Foreign Relations, in executive session, on the Dominican Republic: the troops sent almost wholly for the safety of Americans and other foreigners. Fulbright: "Do you consider it now a struggle against Communism?"'
+    n: 'Daily Digest, [111 Cong. Rec. D251](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt23/pdf/GPO-CRECB-1965-pt23-1.pdf#page=249) (the session). [[w.mann-grand-delusion]], 471–72. To check: [[w.johnson-fulbright-the-dissenter]], 212–13 (cited by [[w.mann-grand-delusion]], 472 n.38). See [[cal.1965-05.latin-america-dominican-republic]]. Names: Rusk, Fulbright.'
+    src:
+      c: d6981bdc
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt23/pdf/GPO-CRECB-1965-pt23-1.pdf#page=249: A'
+        - 'w.mann-grand-delusion 471–72: all'
+    tags: [name:rusk-dean, name:fulbright-j-william]
   - id: cal.1965-05-23.opinion
     when: May 23
     date: '1965-05-23'
@@ -626,3 +656,14 @@ entries:
         - 'w.zhai-china-and-the-vietnam 138: A-E, G'
         - 'via w.zhai-china-and-the-vietnam 138 n.42: A-E'
     tags: [name:chen-yi, name:zhou-enlai, name:ayub-khan-mohammad]
+  - id: cal.1965-05.latin-america-dominican-republic
+    when: May
+    date: 1965-05
+    thread: latin-america-dominican-republic
+    c: 'Thomas C. Mann, Under Secretary of State, before Foreign Relations on the Dominican Republic: the Communist threat the reason for the intervention, little said of the danger to Americans. Fulbright and Morse annoyed.'
+    n: '[[w.mann-grand-delusion]], 471. Check: the day; Mann gives "early May," and the Daily Digest has Rusk before the committee on the Dominican Republic Apr. 30 and May 21, and Thomas Mann not before July 14. Names: Mann, Fulbright, Morse.'
+    src:
+      c: 7a81ad6a
+      rows:
+        - 'w.mann-grand-delusion 471: all'
+    tags: [name:mann-thomas-c, name:fulbright-j-william, name:morse-wayne]
