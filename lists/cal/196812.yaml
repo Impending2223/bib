@@ -101,13 +101,14 @@ entries:
     when: Dec. 12
     date: '1968-12-12'
     thread: transition-and-staff
-    c: Evening. The Nixon family with the Johnsons in the Executive Mansion; Johnson's Cabinet receives Nixon's at the State Department; the two staffs in the White House mess.
-    n: '[[w.johnson-vantage-point]], 558–59, by Johnson''s account. See [[cal.1968-09-11.transition-and-staff]]. Names: Nixon, Johnson.'
+    c: 'Evening. The Nixon family with the Johnsons in the Executive Mansion; Johnson''s Cabinet receives Nixon''s at the State Department; the two staffs in the White House mess. In the Oval Office, by Nixon''s account, Johnson on Nixon''s plan to revive the NSC: "the leaks can kill you"; Hoover "a pillar of strength in a city of weak men."'
+    n: '[[w.johnson-vantage-point]], 558–59, by Johnson''s account; [[w.nixon-rn]], 357–58 (Johnson and Nixon in the Oval Office). See [[cal.1968-09-11.transition-and-staff]]. Names: Nixon, Johnson, Hoover.'
     src:
-      c: b9d14f73
+      c: 44aba54d
       rows:
-        - 'w.johnson-vantage-point 558–59: all'
-    tags: [name:nixon-richard-m, name:johnson-lyndon-b]
+        - 'w.johnson-vantage-point 558–59: A-D'
+        - 'w.nixon-rn 357–58: E, F'
+    tags: [name:nixon-richard-m, name:johnson-lyndon-b, name:hoover-j-edgar]
   - id: cal.1968-12-13.latin-america
     when: Dec. 13
     date: '1968-12-13'
@@ -157,7 +158,12 @@ entries:
     thread: testing-missile-talks
     also: [soviet-union, transition-and-staff]
     c: 'Moscow''s message to Nixon. Kissinger to Sedov of the Soviet embassy: whether Moscow accepts a summit before Jan. 20 a "crucial test" of its intentions; the new administration will not be "boxed in." No summit.'
-    n: 'FRUS 1964–68, XIV, docs. [334](https://history.state.gov/historicaldocuments/frus1964-68v14/d334), [335](https://history.state.gov/historicaldocuments/frus1964-68v14/d335). Made public: FRUS 1964–68, XIV (2001). See [[cal.1968-11-25.soviet-union]]. Names: Nixon, Kissinger, Sedov.'
+    n: 'FRUS 1964–68, XIV, docs. [334](https://history.state.gov/historicaldocuments/frus1964-68v14/d334), [335](https://history.state.gov/historicaldocuments/frus1964-68v14/d335). [[w.nixon-rn]], 346 (Kissinger and a Soviet diplomat, mid-December: no summit before the inauguration). Made public: FRUS 1964–68, XIV (2001). See [[cal.1968-11-25.soviet-union]]. Names: Nixon, Kissinger, Sedov. Check: Nixon calls him a Soviet diplomat at the UN (346).'
+    src:
+      c: aa9c5b9b
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v14/d334: all'
+        - 'w.nixon-rn 346: B, D'
     tags: [name:nixon-richard-m, name:kissinger-henry-a, name:sedov-boris]
   - id: cal.1968-12-19.economy
     when: Dec. 19
@@ -194,12 +200,13 @@ entries:
     thread: vietnam-paris
     also: [transition-and-staff]
     c: 'Kissinger to Nixon: by a back channel he has assured Hanoi the new administration is ready to "undertake serious talks ... based on the self-respect and sense of honor of all parties."'
-    n: '[[w.johns-vietnams-second-front]], 244. To check: Kissinger to Nixon, Dec. 20, 1968, HAK Office Files, box 2/3, NSC Files, Nixon Presidential Materials (cited by [[w.johns-vietnams-second-front]], 244 n.24). See [[cal.1968-12-02.transition-and-staff]]. Names: Kissinger, Nixon.'
+    n: '[[w.johns-vietnams-second-front]], 244; [[w.nixon-rn]], 349 (Nixon''s first message, through Sainteny, in conciliatory terms; mid-December). To check: Kissinger to Nixon, Dec. 20, 1968, HAK Office Files, box 2/3, NSC Files, Nixon Presidential Materials (cited by [[w.johns-vietnams-second-front]], 244 n.24). See [[cal.1968-12-02.transition-and-staff]]. Names: Kissinger, Nixon.'
     src:
       c: 4e88a600
       rows:
         - 'w.johns-vietnams-second-front 244: all'
         - 'via w.johns-vietnams-second-front 244 n.24: all'
+        - 'w.nixon-rn 349: A'
     tags: [name:kissinger-henry-a, name:nixon-richard-m]
   - id: cal.1968-12-21.space
     when: Dec. 21

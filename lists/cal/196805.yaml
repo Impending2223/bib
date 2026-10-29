@@ -339,7 +339,13 @@ entries:
     date: '1968-05-14'
     thread: elections-1968
     c: 'Primaries in Nebraska and West Virginia. Republican: Nixon in Nebraska; unpledged delegates in West Virginia. Democratic: Kennedy in Nebraska; unpledged delegates in West Virginia.'
-    n: '[*Official Report of the Board of State Canvassers of the State of Nebraska, 1968*, 3, 18](https://govdocs.nebraska.gov/epubs/S1200/S001-1968prim_gen.pdf#page=4); [*West Virginia Blue Book, 1968*, 824, 853](https://www.wvlegislature.gov/legisdocs/publications/bluebook/WVS_Bluebook_1968.pdf#page=832). CQ Guide 6th (2010) 410. See [[cal.1968-03-12.elections-1968]]. Names: Nixon, Kennedy.'
+    n: '[*Official Report of the Board of State Canvassers of the State of Nebraska, 1968*, 3, 18](https://govdocs.nebraska.gov/epubs/S1200/S001-1968prim_gen.pdf#page=4); [*West Virginia Blue Book, 1968*, 824, 853](https://www.wvlegislature.gov/legisdocs/publications/bluebook/WVS_Bluebook_1968.pdf#page=832). CQ Guide 6th (2010) 410. [[w.nixon-rn]], 302–3 (Nixon in Nebraska). See [[cal.1968-03-12.elections-1968]]. Names: Nixon, Kennedy. Check: Nixon gives Nebraska''s Republican vote as Nixon 70 percent, Reagan 22, Rockefeller 5 (303).'
+    src:
+      c: 5168df8c
+      rows:
+        - 'https://govdocs.nebraska.gov/epubs/S1200/S001-1968prim_gen.pdf#page=4: all'
+        - 'https://www.wvlegislature.gov/legisdocs/publications/bluebook/WVS_Bluebook_1968.pdf#page=832: all'
+        - 'w.nixon-rn 302–3: A, B'
     tags: [primary:1968-05-14, name:nixon-richard-m, name:kennedy-robert-f]
   - id: cal.1968-05-14.state-constitutions-md
     when: May 14
@@ -643,7 +649,13 @@ entries:
     date: '1968-05-28'
     thread: elections-1968
     c: 'Primaries in Florida and Oregon. Republican: unpledged delegates in Florida; Nixon in Oregon. Democratic: Smathers in Florida; McCarthy in Oregon.'
-    n: '[*Tabulation of Official Vote, Florida Primary Elections, 1968*, 25–32](https://archive.org/details/TabulationofofficialvoteFloridaprimaryelections1968/page/n30); Or., [*Official Abstract of Votes, Primary Election 1968*, 34–36](https://records.sos.state.or.us/ORSOSWebDrawer/Record/8411031/File/document). CQ Guide 6th (2010) 410. See [[cal.1968-03-12.elections-1968]]. Names: McCarthy, Smathers, Nixon.'
+    n: '[*Tabulation of Official Vote, Florida Primary Elections, 1968*, 25–32](https://archive.org/details/TabulationofofficialvoteFloridaprimaryelections1968/page/n30); Or., [*Official Abstract of Votes, Primary Election 1968*, 34–36](https://records.sos.state.or.us/ORSOSWebDrawer/Record/8411031/File/document). CQ Guide 6th (2010) 410. [[w.nixon-rn]], 303 (Nixon in Oregon). See [[cal.1968-03-12.elections-1968]]. Names: McCarthy, Smathers, Nixon. Check: Nixon gives Oregon''s Republican vote as Nixon 73 percent, Reagan 23, Rockefeller 4 (303).'
+    src:
+      c: 0130848a
+      rows:
+        - 'https://archive.org/details/TabulationofofficialvoteFloridaprimaryelections1968/page/n30: all'
+        - 'https://records.sos.state.or.us/ORSOSWebDrawer/Record/8411031/File/document: all'
+        - 'w.nixon-rn 303: A, C'
     tags: [primary:1968-05-28, name:mccarthy-eugene-j, name:smathers-george-a, name:nixon-richard-m]
   - id: cal.1968-05-28.cities-and-housing
     when: May 28
@@ -737,3 +749,15 @@ entries:
     c: De Gaulle will not resign; the Assembly dissolved, elections June 23 and 30.
     n: 'FRUS 1964–68, XII, doc. [80](https://history.state.gov/historicaldocuments/frus1964-68v12/d80). See [[cal.1968-05-22.europe-and-the-alliance]]. Names: de Gaulle.'
     tags: [name:de-gaulle-charles]
+  - id: cal.1968-05-31.elections-1968
+    when: May 31–June 1
+    date: '1968-05-31'
+    thread: elections-1968
+    also: [republican-party]
+    c: 'Atlanta, the Southern Republican State chairmen: two days with Nixon, singly and in groups. Thurmond, after months of talks with Nixon on defense and textile imports, pledges his support, by Nixon''s account; Nixon to seek voluntary limits on Japan''s textile exports before tariffs.'
+    n: '[[w.nixon-rn]], 304–5. Names: Nixon, Thurmond.'
+    src:
+      c: 17aa3267
+      rows:
+        - 'w.nixon-rn 304–5: all'
+    tags: [name:nixon-richard-m, name:thurmond-strom]

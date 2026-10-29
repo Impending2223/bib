@@ -364,7 +364,12 @@ entries:
     date: '1968-03-12'
     thread: elections-1968
     c: 'New Hampshire primary. Republican: Nixon over Rockefeller (write-in), 80,666 to 11,241, 77.6 percent. Democratic: Johnson (write-in) over McCarthy, 27,520 to 23,263, 49.6 percent.'
-    n: 'N.H., [*Manual for the General Court*, No. 41 (1969), 318–319, 441](https://archive.org/details/manualforgeneral41newh/page/n350). CQ Guide 6th (2010) 409. To check: [[w.chester-american-melodrama]]; [[w.white-making-of-the-president-1969]]. Names: McCarthy, Johnson, Rockefeller, Nixon.'
+    n: 'N.H., [*Manual for the General Court*, No. 41 (1969), 318–319, 441](https://archive.org/details/manualforgeneral41newh/page/n350). CQ Guide 6th (2010) 409. [[w.nixon-rn]], 299 (Nixon''s 78 percent; McCarthy''s 42.4). To check: [[w.chester-american-melodrama]]; [[w.white-making-of-the-president-1969]]. Names: McCarthy, Johnson, Rockefeller, Nixon.'
+    src:
+      c: 5559e8f0
+      rows:
+        - 'https://archive.org/details/manualforgeneral41newh/page/n350: all'
+        - 'w.nixon-rn 299: A-C'
     tags: [primary:1968-03-12, name:mccarthy-eugene-j, name:johnson-lyndon-b, name:rockefeller-nelson, name:nixon-richard-m]
   - id: cal.1968-03-12.elections-1968-2
     when: Mar. 12–13
@@ -506,6 +511,18 @@ entries:
         - 'w.schlesinger-robert-kennedy-and-his 852–53: all'
         - 'via w.schlesinger-robert-kennedy-and-his 853 n.45: all'
     tags: [name:mcgovern-george, name:udall-stewart-l, name:metcalf-lee-w, name:kennedy-robert-f, name:mccarthy-eugene-j]
+  - id: cal.1968-03-14.elections-1968
+    when: Mar. 14
+    date: '1968-03-14'
+    thread: elections-1968
+    also: [vietnam]
+    c: 'Nixon to the Associated Press, on ending the war: "no magic formula, no gimmick. If I had a gimmick I would tell Lyndon Johnson."'
+    n: '[[w.nixon-rn]], 298. See [[cal.1968-02-01.elections-1968]]. Names: Nixon, Johnson.'
+    src:
+      c: 3df126db
+      rows:
+        - 'w.nixon-rn 298: all'
+    tags: [name:nixon-richard-m, name:johnson-lyndon-b]
   - id: cal.1968-03-15.open-housing-ky
     when: Mar. 15
     date: '1968-03-15'
@@ -814,9 +831,15 @@ entries:
     when: Mar. 21
     date: '1968-03-21'
     thread: elections-1968
-    c: 'New York. Rockefeller, at a news conference: he will not campaign, directly or indirectly, for the Republican nomination, but would answer a draft (Check the words).'
-    n: '[*New York Times*, Mar. 22, 1968](https://timesmachine.nytimes.com/timesmachine/1968/03/22/issue.html). FRUS 1964–68, VI, doc. [149](https://history.state.gov/historicaldocuments/frus1964-68v06/d149). To check: [[w.smith-on-his-own-terms]]; [[w.persico-imperial-rockefeller]]; [[w.kabaservice-rule-and-ruin]]; [[w.white-making-of-the-president-1969]]. Names: Rockefeller.'
-    tags: [name:rockefeller-nelson]
+    c: 'New York. Rockefeller, at a news conference: he will not campaign, directly or indirectly, for the Republican nomination, but would answer a draft. As Nixon quotes him: "I am not a candidate campaigning directly or indirectly for the presidency of the United States"; he will "do nothing in the future by word or deed to encourage" a draft. Agnew, a sponsor of the National Draft Rockefeller Committee, watching in Annapolis: "tremendously surprised and greatly disappointed."'
+    n: '[*New York Times*, Mar. 22, 1968](https://timesmachine.nytimes.com/timesmachine/1968/03/22/issue.html). FRUS 1964–68, VI, doc. [149](https://history.state.gov/historicaldocuments/frus1964-68v06/d149). [[w.nixon-rn]], 299–300 (his words; Agnew). To check: [[w.smith-on-his-own-terms]]; [[w.persico-imperial-rockefeller]]; [[w.kabaservice-rule-and-ruin]]; [[w.white-making-of-the-president-1969]]. Names: Rockefeller, Agnew. Check: whether he said he would answer a draft; the words Nixon quotes (299) say only that he will do nothing to encourage one.'
+    src:
+      c: '05651245'
+      rows:
+        - 'https://timesmachine.nytimes.com/timesmachine/1968/03/22/issue.html: all'
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v06/d149: all'
+        - 'w.nixon-rn 299–300: C-E'
+    tags: [name:rockefeller-nelson, name:agnew-spiro-t]
   - id: cal.1968-03-21.middle-east
     when: Mar. 21
     date: '1968-03-21'
@@ -1272,3 +1295,25 @@ entries:
         - 'w.schlesinger-robert-kennedy-and-his 867–68: all'
         - 'via w.schlesinger-robert-kennedy-and-his 868 n.50: B'
     tags: [name:kennedy-robert-f, name:johnson-lyndon-b, state:ny, city:nyc]
+  - id: cal.1968-03.elections-1968
+    when: Mar.
+    date: 1968-03
+    thread: elections-1968
+    c: 'The week after Rockefeller''s statement, by Nixon''s account: Nixon and Agnew, two hours. Agnew to reporters after: he still likes Rockefeller, not ready to endorse; of Nixon, "He''s the front-runner."'
+    n: '[[w.nixon-rn]], 300. See [[cal.1968-03-21.elections-1968]]. Names: Nixon, Agnew, Rockefeller. Check: the day.'
+    src:
+      c: 2d8690de
+      rows:
+        - 'w.nixon-rn 300: all'
+    tags: [name:nixon-richard-m, name:agnew-spiro-t, name:rockefeller-nelson]
+  - id: cal.1968-03-31.elections-1968-2
+    when: Mar. 31
+    date: '1968-03-31'
+    thread: elections-1968
+    c: 'Nixon''s radio address on Vietnam, set for the evening, put off on Mar. 30 when Johnson asks the networks for time. Nixon campaigning in Milwaukee; at La Guardia, told of Johnson''s withdrawal: "the year of the dropouts," Romney, Rockefeller, Johnson.'
+    n: '[[w.nixon-rn]], 300. See [[cal.1968-03-31.elections-1968]]. Names: Nixon, Johnson, Romney, Rockefeller.'
+    src:
+      c: c19ec0fb
+      rows:
+        - 'w.nixon-rn 300: all'
+    tags: [name:nixon-richard-m, name:johnson-lyndon-b, name:romney-george-w, name:rockefeller-nelson]

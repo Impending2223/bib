@@ -1061,6 +1061,33 @@ Searched in the Daily Digest (daybook/committees), the bound Record's days, the 
   and the indictment of some six hundred election judges (Kallina, 209–10; Special Prosecutor's Report, Chicago History
   Museum): entries for `cal.1961` (Illinois, Chicago).
 
+### Nixon, *RN* (the book agent, Oct. 29, 2026; notes/book-checks/nixon-rn.md)
+- Undated in *RN*, each to be dated from another record before entry (his page): Eisenhower's offer to help raise money
+  for recounts in Illinois and Texas, Nov. 1960 (224); a Kennedy adviser's call to Herter on Quemoy and Matsu after the
+  third debate (220); Nixon's talk with Eisenhower at the El Dorado Country Club and his letter to him on running for
+  governor, summer 1961 (237); Robert Kennedy's Justice Department inquiry into the Hughes loan, 1961 (247; the *New York
+  Times*, 1972); the IRS audit of Nixon's returns "three months after" Nov. 1962 (247; the supervisor's letter to Rose
+  Woods, 1973); Nixon's statement in Oakland and televised address from San Diego for Kennedy's Cuban quarantine, Oct.
+  1962 (244); Eisenhower's call to Hagerty against ABC's Hiss program, Nov. 1962 (246); the European and Middle Eastern
+  trip from June 12, 1963: Franco, de Gaulle's lunch, Nasser, Kennedy's call in Rome (248–50); Hoover's report that
+  Oswald had meant to kill Nixon (252; Marina Oswald's testimony); the Asian trip after Mar. 10, 1964, to Apr. 15:
+  Ayub Khan, Thanom, Pote Sarasin, the dinner with Lodge in Saigon, Chiang, Ikeda, Satō, Kishi (256–58; the Saigon days
+  in the press); the Nixon–Goldwater letters on "extremism," late July or early Aug. 1964 (261; Kitchel Papers, cited by
+  Perlstein); Rockefeller's statement of Nov. 4, 1964 (263); Bliss's refusal of the plane, 1966 (272); Nixon's column on
+  Manila, "a quest for peace or a quest for votes?", late Sept. or Oct. 1966 (273); Eisenhower's statement for Nixon
+  after Nov. 4, 1966 (276); the first Nixon for President Committee, announced in Washington, Mar. 1967 (279); Reagan's
+  Southern tour with White, July 1968 (309); Mitchell's and Nixon's tentative choice of Agnew, late July 1968 (312);
+  Haldeman's memorandum with Kissinger's forecast of a halt in mid-October, and Rusk's reassurance to Agnew, late
+  Sept.–early Oct. 1968 (324); Dirksen's confrontation with Johnson after Oct. 22, 1968 (326: FRUS 1964–68, VII, may hold
+  the call); Nixon's meeting with Humphrey and Muskie at Opa-locka and the UN post offered, between Nov. 6 and 11, 1968
+  (336); Humphrey's refusal of the UN, Jackson's of Defense, Shriver's conditions, Brooke's and Whitney Young's refusals
+  (338–39); Agnew at Key Biscayne and his West Wing office (340); Moynihan's and Burns's appointments (341–42); Hanoi's
+  reply through Sainteny and Nixon's second message, Dec. 1968–Jan. 1969 (349).
+- Dated in *RN*, the words to be read in the press before entry: Humphrey's "Richard the Silent," Oct. 15, 1968 (319);
+  Humphrey's "batten down the hatches," Oct. 28, 1968 (321).
+- The day of each month-only entry from *RN* (the Bohemian Grove, July 1967; the trips of March–June 1967; the Agnew
+  meeting, late March 1968; Kissinger's call of late September 1968): the press, the Nixon Library's schedules.
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its

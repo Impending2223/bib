@@ -45,8 +45,12 @@ entries:
     when: Sept. 4
     date: '1968-09-04'
     thread: elections-1968
-    c: 'Chicago: Nixon''s motorcade through the Loop.'
-    n: 'See [[cal.1968-09-02.elections-1968]]. Names: Nixon.'
+    c: 'Chicago: Nixon''s motorcade through the Loop at noon, an estimated half million out, by Nixon''s account.'
+    n: '[[w.nixon-rn]], 317. See [[cal.1968-09-02.elections-1968]]. Names: Nixon.'
+    src:
+      c: c963a8a9
+      rows:
+        - 'w.nixon-rn 317: all'
     tags: [name:nixon-richard-m, state:il, city:chicago]
   - id: cal.1968-09-06.court
     when: Sept. 6
@@ -233,6 +237,18 @@ entries:
     c: 'Clifford to Johnson, at lunch: the Vice President "has had three flubs": the withdrawal of troops, the planks, a Marine unit coming home.'
     n: 'FRUS 1964–68, VII, doc. [12](https://history.state.gov/historicaldocuments/frus1964-68v07/d12). Made public: FRUS 1964–68, VII (2003). See [[cal.1968-09-02.elections-1968]]. Names: Clifford, Johnson, Humphrey.'
     tags: [name:clifford-clark, name:johnson-lyndon-b, name:humphrey-hubert-h]
+  - id: cal.1968-09-12.elections-1968-2
+    when: Sept. 12
+    date: '1968-09-12'
+    thread: elections-1968
+    also: [vietnam-paris]
+    c: 'Haldeman brings Nixon Mitchell''s report: Kissinger, Rockefeller''s adviser, available to advise. Nixon: Mitchell to stay the go-between, Kissinger''s part kept confidential.'
+    n: '[[w.nixon-rn]], 323. Made public: [[w.nixon-rn]], 323 (1978). Names: Haldeman, Nixon, Mitchell, Kissinger, Rockefeller.'
+    src:
+      c: 9bc48f0d
+      rows:
+        - 'w.nixon-rn 323: all'
+    tags: [name:haldeman-h-r, name:nixon-richard-m, name:mitchell-john-n, name:kissinger-henry-a, name:rockefeller-nelson]
   - id: cal.1968-09-13.court-fortas
     when: Sept. 13
     date: '1968-09-13'
@@ -519,3 +535,15 @@ entries:
     c: New York City. The second teachers' strike ends (Check the day).
     n: See [[cal.1968-09-09.states-and-cities-nyc]].
     tags: [state:ny, city:nyc]
+  - id: cal.1968-09.elections-1968-2
+    when: Sept.
+    date: 1968-09
+    thread: elections-1968
+    also: [vietnam-paris]
+    c: 'About two weeks after his first talk with Mitchell, by Nixon''s account: Kissinger, back from Paris, says something big is afoot on Vietnam; Nixon to avoid new proposals for a week. Nixon: Harlow to have Dirksen press Johnson; Agnew to ask Rusk; his staff to hang the war on Humphrey, not Johnson.'
+    n: '[[w.nixon-rn]], 323–24. See [[cal.1968-09-12.elections-1968-2]]. Names: Mitchell, Kissinger, Nixon, Harlow, Dirksen, Johnson, Agnew, Rusk, Humphrey. Check: the day.'
+    src:
+      c: 4a1d6403
+      rows:
+        - 'w.nixon-rn 323–24: all'
+    tags: [name:mitchell-john-n, name:kissinger-henry-a, name:nixon-richard-m, name:harlow-bryce-n, name:dirksen-everett, name:johnson-lyndon-b, name:agnew-spiro-t, name:rusk-dean, name:humphrey-hubert-h]
