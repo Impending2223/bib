@@ -3,7 +3,7 @@
 Written by `./bib audit-cal` (`tools/bib/calaudit.py`): the dated entries checked against the brief in
 CLAUDE.md ("The calendar"). A review list: a hit is a place to look, not an error. Rerun after editing.
 
-8324 dated entries.
+8325 dated entries.
 
 | Check | Entries |
 |---|---|
@@ -12,7 +12,7 @@ CLAUDE.md ("The calendar"). A review list: a hit is a place to look, not an erro
 | Neither a bibliography of its own nor a `See [[id]]` back | 6 |
 | No primary record linked or named | 2667 |
 | A primary record named but not linked | 124 |
-| Threads (statements listed for review) | 230 |
+| Threads (statements listed for review) | 232 |
 
 ## Names
 
@@ -3627,12 +3627,13 @@ The brief: what the thread is, and its stations, in one or two clipped sentences
 | Buddhist Uprising |  |
 | Buttercup |  |
 | Cabinet named |  |
+| Campaign for the nomination |  |
 | Chennault |  |
 | Chessman |  |
 | Chicago |  |
 | China | Communist China: its bomb, its seat at the UN, its quarrel with Moscow, its part in Vietnam, the ambassadorial talks at Warsaw. The Soviet experts recalled; Peking kept out of the UN another year; the refugees at Hong Kong paroled; the attack on India, the cease-fire. |
 | Cities and housing | Housing, the cities, and urban transit. Logue to Boston; the Housing Act of 1961; the Urban Affairs department refused, by Rules and by the House, Weaver its secretary-to-be; the Lower Manhattan Expressway set aside. |
-| Civil disorders | Riots in the cities, and the inquiries and bills that followed. Nashville; Tampa, Cincinnati, Atlanta, Buffalo; Newark and Plainfield; Cramer's anti-riot bill through the House; Detroit, the Guard and the paratroopers; H. Rap Brown at Cambridge; the address of July 27 and the Kerner Commission; Milwaukee; the Kerner report; Washington, Chicago and Baltimore after King's death; the Violence Commission; Glenville; Liberty City; the Walker report. |
+| Civil disorders | Riots in the cities, and the inquiries and bills that followed. Watts; Johnson on the restoration of order; King with Yorty and Parker; Ramsey Clark's federal team; the McCone commission's report. |
 | Civil rights bill | The civil rights bill from Kennedy's address to the Act and its first year. The Senators' pledge of 1960. |
 | Civil rights organizations | The organizations of the movement as organizations: the NAACP and its Legal Defense Fund, the Urban League, CORE, SCLC, SNCC, COFO, the Freedom Democrats, and their councils; their leaders, foundings, splits and statements. *Bates*; SNCC founded at Raleigh; Farmer to CORE; Highlander; the Taconic meeting; Greenberg and Young; the Albany Movement; COFO revived; the Voter Education Project. |
 | Civil rights: the executive | What the President and the Attorney General did for civil rights by appointment, order and direction, and what the candidates promised. Nixon's letter to Jackie Robinson; the Senators' pledge; Lodge's promise; Weaver; the equal employment committee; the new judgeships, Cox and Marshall; the Emancipation centennial; the housing order. |
@@ -3810,6 +3811,7 @@ The brief: what the thread is, and its stations, in one or two clipped sentences
 | Vietnam | The war in Vietnam and the American commitment: the decisions in Washington, Saigon and Hanoi, the fighting, the bombing, and the talks. Tây Ninh; the Caravelle petition; the Party's Third Congress; the paratroop coup; the National Liberation Front; the Counterinsurgency Plan; NSAM 52; Taylor–Rostow; NSAM 111; MACV; strategic hamlets; Mansfield's report. |
 | Voting rights | Voting rights in Congress and the field. Wilkins put off by Nixon; the referee plan, the filibuster, cloture refused, the Civil Rights Act of 1960; *Raines*; *Gomillion*; Robert Kennedy for registration over demonstrations; the Voter Education Project ratified and begun; McComb and Walthall County; the poll tax amendment through Congress; the literacy-test filibuster; Fannie Lou Hamer at Ruleville. |
 | War on poverty | The war on poverty: the Economic Opportunity Act and its programs. Executive Order 10940, the President's Committee on Juvenile Delinquency. |
+| Watts |  |
 | Welfare | Public assistance and Social Security. Kerr–Mills; Flemming's Louisiana ruling; aid to children of the unemployed; Newburgh's thirteen points and the court's order; the Social Security Amendments of 1961; the Public Welfare Amendments of 1962; Texas's ceiling on aid raised. |
 | Westmoreland to Abrams |  |
 | Wheelus |  |

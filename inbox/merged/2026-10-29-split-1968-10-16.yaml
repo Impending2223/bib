@@ -1,0 +1,40 @@
+patch: split-1968-10-16
+by: Claude (the owner's ruling, Oct. 29, 2026)
+ops:
+- edit:
+    id: cal.1968-10-16.vietnam-paris
+    base: ca6c2578
+    set:
+      c: 'Johnson, by conference call, to Humphrey, Nixon and Wallace, 11:41 a.m.: "our position ... today is exactly what it was the last time all three of you were briefed." Christian: no basic change, no breakthrough.'
+      n: '[Johnson, Humphrey, Nixon and Wallace, 11:41 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-conference-call-richard-nixon-george-wallace), Conversation WH6810-04-13547 (Miller Center). FRUS 1964–68, VII, doc. [80](https://history.state.gov/historicaldocuments/frus1964-68v07/d80). The President''s News Conference, [1968–69 Pub. Papers 1063](https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=373) (Oct. 24, 1968) (Christian''s statement; Check the day). [[w.dallek-flawed-giant]], 583 (the conference call). [[w.nixon-rn]], 325 (the conference call, by Nixon''s account). To check: Territo to Johnson, Nov. 3, 1968, Reference File: Anna Chennault, LBJ Library; William Bundy''s letter, *New York Times*, June 13, 1991 (cited by [[w.dallek-flawed-giant]], 583). See [[cal.1968-09-07.vietnam]]. Names: Johnson, Humphrey, Nixon, Wallace, Christian. Check: Dallek, 583, after William Bundy, has Johnson telling the candidates he was
+        ready to stop the bombing, Hanoi meeting his conditions; the words quoted say the position unchanged.'
+      src:
+        c: 0a9fda3f
+        rows:
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-conference-call-richard-nixon-george-wallace: A'
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v07/d80: A'
+        - 'https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=373: B'
+        - 'w.dallek-flawed-giant 583: A'
+        - 'via w.dallek-flawed-giant 583 n.95a: A'
+        - 'via w.dallek-flawed-giant 583 n.95b: A'
+        - 'w.nixon-rn 325: A'
+- tag:
+    id: cal.1968-10-16.vietnam-paris
+    remove:
+    - place:saigon
+- add:
+    entry:
+      id: cal.1968-10-16.vietnam-paris-2
+      when: Oct. 16
+      date: '1968-10-16'
+      thread: vietnam-paris
+      c: Saigon's Foreign Minister tells the troop-contributing countries a cessation is under consideration.
+      n: 'FRUS 1964–68, VII, doc. [75](https://history.state.gov/historicaldocuments/frus1964-68v07/d75). Made public: FRUS 1964–68, VII (2003). See [[cal.1968-09-07.vietnam]].'
+      src:
+        c: 4d425358
+        rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v07/d75: all'
+      tags:
+      - place:saigon
+    section: '196810'
+    after: cal.1968-10-16.soviet-union
