@@ -14,14 +14,16 @@ entries:
     when: Aug. 1
     date: '1962-08-01'
     thread: georgia-albany
-    c: Press conference. Albany's refusal to negotiate "wholly inexplicable."
-    n: 'News Conference, [1962 Pub. Papers 590](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=650) (Aug. 1, 1962). [[w.garrow-bearing-the-cross]], 212–13. To check: New York Times, Aug. 2, 1962, 1; Atlanta Constitution, Aug. 2, 1962, 1; Albany Herald, Aug. 2, 1962, 1 (cited by [[w.garrow-bearing-the-cross]], 212 n.39). See [[cal.1961-11-17.albany]].'
+    also: [economy]
+    c: 'Press conference. Albany''s refusal to negotiate "wholly inexplicable." Gallup''s 72 percent against a tax cut that adds to the debt: "we are going to wait until we get the July figures."'
+    n: 'News Conference, [1962 Pub. Papers 590](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=650) (Aug. 1, 1962). [[w.garrow-bearing-the-cross]], 212–13. [[w.reeves-president-kennedy]], 331 (the tax cut). To check: New York Times, Aug. 2, 1962, 1; Atlanta Constitution, Aug. 2, 1962, 1; Albany Herald, Aug. 2, 1962, 1 (cited by [[w.garrow-bearing-the-cross]], 212 n.39). See [[cal.1961-11-17.albany]]. Names: Kennedy.'
     src:
-      c: 1e33a7fd
+      c: 9e7189f4
       rows:
         - 'https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=650: all'
-        - 'w.garrow-bearing-the-cross 212–13: all'
-        - 'via w.garrow-bearing-the-cross 212 n.39c: all'
+        - 'w.garrow-bearing-the-cross 212–13: A, B'
+        - 'via w.garrow-bearing-the-cross 212 n.39c: A, B'
+        - 'w.reeves-president-kennedy 331: C'
     tags: [name:kennedy-john-f]
   - id: cal.1962-08-01.opinion
     when: Aug. 1
@@ -182,6 +184,32 @@ entries:
         - 'via w.gavin-gold-dollars-and-power 83 n.84: A-B'
         - 'via w.gavin-gold-dollars-and-power 84 n.85: C-D'
     tags: [name:heller-walter-w, name:kennedy-john-f]
+  - id: cal.1962-08-09.economy-2
+    when: Aug. 9
+    date: '1962-08-09'
+    thread: economy
+    c: 'Kennedy with business leaders on the tax cut, 4:30 p.m., recorded: Greenewalt of Du Pont, Blough, Sproul and others. Greenewalt: Du Pont at 80 percent of capacity; with more demand it could sell $600 million more by opening its valves wider.'
+    n: '[John F. Kennedy and business leaders, 4:30 p.m.](https://prde.upress.virginia.edu/conversations/8010017), Tapes 9.2 and 10.1 (PRDE); [Meeting with Business Leaders on the Tax Cut Proposal (cont.)](https://millercenter.org/the-presidency/secret-white-house-tapes/meeting-business-leaders-tax-cut-proposal-cont), Tape 10.1 (Miller Center). [[w.reeves-president-kennedy]], 333. Check: the recording not heard; the words Reeves''s, from the Library''s transcript. Names: Blough, Kennedy.'
+    src:
+      c: 200aba41
+      rows:
+        - 'https://prde.upress.virginia.edu/conversations/8010017: all'
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/meeting-business-leaders-tax-cut-proposal-cont: all'
+        - 'w.reeves-president-kennedy 333: all'
+        - 'via w.reeves-president-kennedy 333 n.du-pont-was-operating: all'
+    tags: [name:blough-roger-m, name:kennedy-john-f]
+  - id: cal.1962-08-09.economy-3
+    when: Aug. 9
+    date: '1962-08-09'
+    thread: economy
+    c: 'Heller to Kennedy, by memorandum, "The Range of Tax Cut Choices Before Us": six, the first a 1962 cut, "Our last chance" to insure against "a Kennedy recession," to cut, not raise, the fiscal 1964 deficit, and to give Democratic candidates an activist policy for the election; the last Dillon''s, more time to join cuts with reform.'
+    n: '[[w.reeves-president-kennedy]], 334. To check: Heller to Kennedy, Aug. 9, 1962, Sorensen Papers, box 40, Kennedy Library (cited by [[w.reeves-president-kennedy]], 334). See [[cal.1962-08-13.economy]]. Names: Heller, Dillon, Kennedy.'
+    src:
+      c: 53775fb7
+      rows:
+        - 'w.reeves-president-kennedy 334: all'
+        - 'via w.reeves-president-kennedy 334 n.a-1962-tax-cut: all'
+    tags: [name:heller-walter-w, name:dillon-c-douglas, name:kennedy-john-f]
   - id: cal.1962-08-10.albany
     when: Aug. 10
     date: '1962-08-10'
@@ -489,6 +517,19 @@ entries:
       rows:
         - 'w.schlesinger-robert-kennedy-and-his 371: A'
     tags: [name:kennedy-edward-m, name:mccormack-edward-j-jr]
+  - id: cal.1962-08-27.republican-party-congress
+    when: Aug. 27
+    date: '1962-08-27'
+    thread: republican-party-congress
+    also: [missile-crisis]
+    c: 'Capehart (R-Ind.), in a speech: Communist troops, not technicians, going into Cuba, and the time come for an American invasion. "It is high time the American people demand that President Kennedy quit ''examining the situation'' and start protecting the interests of the United States."'
+    n: 'The question put to Kennedy: The President''s News Conference, [1962 Pub. Papers 648](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=708) (Aug. 29, 1962). [[w.reeves-president-kennedy]], 343. Check: the day ("two days earlier," by Reeves) and the place; the speech''s text. Reply: [[cal.1962-08-29.conservation]]. Names: Capehart, Kennedy.'
+    src:
+      c: '79571976'
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=708: A'
+        - 'w.reeves-president-kennedy 343: all'
+    tags: [name:capehart-homer-e, name:kennedy-john-f]
   - id: cal.1962-08-28.court
     when: Aug. 28
     date: '1962-08-28'
@@ -513,9 +554,15 @@ entries:
     when: Aug. 29
     date: '1962-08-29'
     thread: conservation
-    c: 'News conference. Asked about DDT and other pesticides: the Department of Agriculture and the Public Health Service already examining the matter, "particularly, of course, since Miss Carson''s book." *Silent Spring* serialized in *The New Yorker* from June 16; the book out Sept. 27.'
-    n: 'The President''s News Conference, [1962 Pub. Papers 648](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=708) (Aug. 29, 1962). To check: [[w.carson-silent-spring]]; [[w.lear-rachel-carson]]. Names: Carson.'
-    tags: [name:kennedy-john-f, name:carson-rachel]
+    also: [missile-crisis]
+    c: 'News conference. Asked about DDT and other pesticides: the Department of Agriculture and the Public Health Service already examining the matter, "particularly, of course, since Miss Carson''s book." *Silent Spring* serialized in *The New Yorker* from June 16; the book out Sept. 27. On Cuba: "We''ve no evidence of troops." Capehart''s call for an invasion: "I think it would be a mistake to invade Cuba."'
+    n: 'The President''s News Conference, [1962 Pub. Papers 648](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=708) (Aug. 29, 1962). [[w.reeves-president-kennedy]], 343–44 (Cuba). To check: [[w.carson-silent-spring]]; [[w.lear-rachel-carson]]. Names: Carson, Capehart, Kennedy.'
+    src:
+      c: 8c8aad53
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=708: all'
+        - 'w.reeves-president-kennedy 343–44: E-F'
+    tags: [name:kennedy-john-f, name:carson-rachel, name:capehart-homer-e]
   - id: cal.1962-08-30.middle-east-johnson-trip
     when: Aug. 30–31
     date: '1962-08-30'

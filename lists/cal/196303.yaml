@@ -50,17 +50,18 @@ entries:
     when: Mar. 6
     date: '1963-03-06'
     thread: economy
-    also: [vietnam]
-    c: 'News conference. A $13½ billion cut without the reforms? "No, that isn''t what I said." The program sent up, reduction and reform together, the best combination; the bill Congress enacts will hold "important elements of the reforms." On Mansfield''s report: no large cut in aid to South Vietnam, Cambodia and Thailand "unless you want to withdraw from the field."'
-    n: 'The President''s News Conference of March 6, 1963, [1963 Pub. Papers 236](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=294), items 2, 20. [[w.stein-fiscal-revolution-in-america]], 438–39. [[w.selverstone-kennedy-withdrawal]], 107 (Mansfield''s report); [[w.mann-grand-delusion]], 281 (Mansfield''s report). See [[cal.1963-01-24.economy]]. Names: Kennedy, Mansfield.'
+    also: [vietnam, civil-rights-the-executive]
+    c: 'News conference. A $13½ billion cut without the reforms? "No, that isn''t what I said." The program sent up, reduction and reform together, the best combination; the bill Congress enacts will hold "important elements of the reforms." On Mansfield''s report: no large cut in aid to South Vietnam, Cambodia and Thailand "unless you want to withdraw from the field." His judges in the South, "sharing perhaps as they do the general outlook of the South, have done a remarkable job in fulfilling their oath of office."'
+    n: 'The President''s News Conference of March 6, 1963, [1963 Pub. Papers 236](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=294), items 2, 20. [[w.stein-fiscal-revolution-in-america]], 438–39. [[w.selverstone-kennedy-withdrawal]], 107 (Mansfield''s report); [[w.mann-grand-delusion]], 281 (Mansfield''s report). [[w.reeves-president-kennedy]], 466 (the judges). See [[cal.1963-01-24.economy]]. Names: Mansfield, Kennedy.'
     src:
-      c: b6fe5b9c
+      c: 306adcb7
       rows:
         - 'https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=294: all'
         - 'w.stein-fiscal-revolution-in-america 438: A-B'
         - 'w.stein-fiscal-revolution-in-america 439: C-E'
         - 'w.selverstone-kennedy-withdrawal 107: F'
         - 'via w.selverstone-kennedy-withdrawal 107 n.45: F'
+        - 'w.reeves-president-kennedy 466: G'
         - 'w.mann-grand-delusion 281: A, F'
     tags: [name:kennedy-john-f, name:mansfield-mike]
   - id: cal.1963-03-07.vietnam
@@ -76,6 +77,19 @@ entries:
         - 'w.johns-vietnams-second-front 30–31: all'
         - 'via w.johns-vietnams-second-front 31 n.77: all'
     tags: [name:bowles-chester, name:kennedy-john-f]
+  - id: cal.1963-03-07.civil-rights-the-executive
+    when: Mar. 7
+    date: '1963-03-07'
+    thread: civil-rights-the-executive
+    c: 'Kennedy to Katzenbach, recorded, on his Southern judges, after the news conference: "Is it real bad?" Katzenbach: "Not too good," of one; "They''re all Eastland''s." Kennedy asks a memorandum, "so I''ll be able to talk about it in case it comes up again."'
+    n: '[John F. Kennedy and Nicholas Katzenbach](https://prde.upress.virginia.edu/conversations/4001466), JFK Dictabelt 11A.5 (PRDE only). [[w.reeves-president-kennedy]], 466. Check: the recording not heard; the words Reeves''s, from the Library''s transcript. See [[cal.1963-03-06.economy]]. Names: Katzenbach, Eastland, Kennedy.'
+    src:
+      c: 779788d0
+      rows:
+        - 'https://prde.upress.virginia.edu/conversations/4001466: all'
+        - 'w.reeves-president-kennedy 466: all'
+        - 'via w.reeves-president-kennedy 466 n.is-it-real-bad: all'
+    tags: [name:katzenbach-nicholas, name:eastland-james-o, name:kennedy-john-f]
   - id: cal.1963-03-08.middle-east
     when: Mar. 8
     date: '1963-03-08'
@@ -250,8 +264,14 @@ entries:
     when: Mar. 21
     date: '1963-03-21'
     thread: cuba
-    c: 'News conference: the raiders "do not have a connection with the United States Government."'
-    n: 'The President''s News Conference, [1963 Pub. Papers 273](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=331) (Mar. 21, 1963). See [[cal.1963-03-17.cuba]]. Names: Kennedy.'
+    also: [testing, civil-rights-the-executive]
+    c: 'News conference: the raiders "do not have a connection with the United States Government." On the test ban: "we test and test and test, and you finally get weapons which are increasingly sophisticated." "Personally I am haunted by the feeling that by 1970, unless we are successful, there may be 10 nuclear powers instead of 4, and by 1975, 15 or 20." The Civil Rights Commission''s hearing in Mississippi: "any hearing that they feel advances the cause or meets their responsibility ... then they should go ahead and hold it."'
+    n: 'The President''s News Conference, [1963 Pub. Papers 273](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=331) (Mar. 21, 1963). [[w.reeves-president-kennedy]], 311, 469 (testing, 311; the Commission, 469). See [[cal.1963-03-17.cuba]]. Names: Kennedy. Check: Reeves gives the first words as of the news conference of May 17, 1962 (311).'
+    src:
+      c: 1774575e
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=331: all'
+        - 'w.reeves-president-kennedy 311, 469: B-D'
     tags: [name:kennedy-john-f]
   - id: cal.1963-03-22.voting-rights
     when: Mar. 22

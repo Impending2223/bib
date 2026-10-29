@@ -165,16 +165,32 @@ entries:
     when: Feb. 12
     date: '1963-02-12'
     thread: civil-rights-the-executive
-    c: Lincoln's Birthday. The Civil Rights Commission presents *Freedom to the Free*, its report on the century since emancipation.
-    n: 'Remarks Upon Receiving Civil Rights Commission Report "Freedom to the Free", [1963 Pub. Papers 159](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=217) (Feb. 12, 1963). [[w.reeves-president-kennedy]], 462–64. To check: [[w.rights-freedom-to-the-free]]; [[w.brauer-john-f-kennedy-and]]; [[w.dulles-civil-rights-commission-1957]]; *New York Times*, Feb. 13, 1963 (cited by [[w.reeves-president-kennedy]], 463); Lee White, oral history, 104–05, Kennedy Library (cited by [[w.reeves-president-kennedy]], 464). See [[cal.1962-11-20.civil-rights-the-executive]].'
+    also: [mississippi]
+    c: 'Lincoln''s Birthday. The Civil Rights Commission presents *Freedom to the Free*, its report on the century since emancipation. At the Lincoln Day reception, Hannah, the Commission''s chairman, tells Kennedy of its coming report on Mississippi. Kennedy: "You''re making my life difficult. I''ve read this law and I know you can do anything you want to, but I would appreciate if you didn''t."'
+    n: 'Remarks Upon Receiving Civil Rights Commission Report "Freedom to the Free", [1963 Pub. Papers 159](https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=217) (Feb. 12, 1963). [[w.reeves-president-kennedy]], 462–64, 469 (Hannah, 469). To check: [[w.rights-freedom-to-the-free]]; [[w.brauer-john-f-kennedy-and]]; [[w.dulles-civil-rights-commission-1957]]; *New York Times*, Feb. 13, 1963 (cited by [[w.reeves-president-kennedy]], 463); Lee White, oral history, 104–05, Kennedy Library (cited by [[w.reeves-president-kennedy]], 464). See [[cal.1962-11-20.civil-rights-the-executive]]. Names: Hannah, Kennedy.'
     src:
-      c: 4edbd5e6
+      c: 63c75246
       rows:
-        - 'https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=217: all'
-        - 'w.reeves-president-kennedy 462–64: all'
+        - 'https://www.govinfo.gov/content/pkg/PPP-1963-book1/pdf/PPP-1963-book1.pdf#page=217: A, B'
+        - 'w.reeves-president-kennedy 462–64: A, B'
         - 'via w.reeves-president-kennedy 463 n.a-freedom-more-fictional: B'
         - 'via w.reeves-president-kennedy 464 n.whats-he-doing-here: A'
-    tags: [name:kennedy-john-f]
+        - 'w.reeves-president-kennedy 469: C-D'
+        - 'via w.reeves-president-kennedy 469 n.youre-making-my-life-difficult: D'
+    tags: [name:kennedy-john-f, name:hannah-john-a]
+  - id: cal.1963-02-12.republican-party
+    when: Feb. 12
+    date: '1963-02-12'
+    thread: republican-party
+    also: [civil-rights-the-executive, elections-1964]
+    c: 'Rockefeller, the Republicans'' Lincoln Day: "The fact is that the President, on recommendation of his brother the Attorney General, named at least four Federal judges in the South who were known at the time of their appointment for their segregationist views. This is a strange way to expedite civil rights action."'
+    n: '[[w.reeves-president-kennedy]], 465. To check: *Washington Post*, Feb. 13, 1963 (cited by [[w.reeves-president-kennedy]], 465). Check: the day and the occasion; Reeves''s note cites the *Post* of Feb. 13. Names: Rockefeller, Robert Kennedy, Kennedy.'
+    src:
+      c: 32f6e87d
+      rows:
+        - 'w.reeves-president-kennedy 465: all'
+        - 'via w.reeves-president-kennedy 465 n.the-fact-is-that-the-president: all'
+    tags: [name:rockefeller-nelson, name:kennedy-robert-f]
   - id: cal.1963-02-13.opinion
     when: Feb. 13
     date: '1963-02-13'
@@ -182,6 +198,18 @@ entries:
     also: [school-aid, desegregation-schools]
     c: 'Gallup, Jan. 11–16: federal school aid to all public schools, 72 percent; withheld from schools that fail to integrate, 21.'
     n: '[[w.gallup-poll]], III, 1804.'
+  - id: cal.1963-02-13.elections-1964
+    when: Feb. 13
+    date: '1963-02-13'
+    thread: elections-1964
+    c: 'A small dinner at the White House, by Theodore White''s notes. Kennedy: "Rockefeller gets away with murder, what''s he doing for Negroes in New York?" White plans another book on 1964. Both take Rockefeller to be the nominee. Kennedy: "He''ll get to hate me. That''s inevitable."'
+    n: '[[w.reeves-president-kennedy]], 465. To check: Theodore White, "Notes on Social Gathering with the President," Feb. 13, 1963, Schlesinger Papers, box W-6, Kennedy Library (cited by [[w.reeves-president-kennedy]], 465). See [[cal.1963-02-12.republican-party]]. Names: White, Rockefeller, Kennedy.'
+    src:
+      c: bc1bd331
+      rows:
+        - 'w.reeves-president-kennedy 465: all'
+        - 'via w.reeves-president-kennedy 465 n.he-likes-you-you-know: all'
+    tags: [name:white-theodore-h, name:rockefeller-nelson, name:kennedy-john-f]
   - id: cal.1963-02-14.program
     when: Feb. 14
     date: '1963-02-14'
@@ -445,3 +473,27 @@ entries:
         - 'via w.gavin-gold-dollars-and-power 105 n.54: A'
         - 'via w.gavin-gold-dollars-and-power 106 n.61: B'
     tags: [name:kennedy-john-f, name:wheeler-earle, name:de-gaulle-charles]
+  - id: cal.1963-02.congress
+    when: Feb.
+    date: 1963-02
+    thread: congress
+    also: [economy]
+    c: 'Pell (D-R.I.) on the deficit: "Even as a liberal Democrat, I have doubts about the continuation of a deficit. ... I think we would like to see a balanced budget."'
+    n: '[[w.reeves-president-kennedy]], 454. To check: *Time*, Feb. 8, 1963 (cited by [[w.reeves-president-kennedy]], 454). Check: the day; Reeves''s note cites *Time* of Feb. 8. Names: Pell.'
+    src:
+      c: 4fd7818b
+      rows:
+        - 'w.reeves-president-kennedy 454: all'
+        - 'via w.reeves-president-kennedy 454 n.even-as-a-liberal-democrat: all'
+    tags: [name:pell-claiborne-d]
+  - id: cal.1963-02.vietnam
+    when: Feb.
+    date: 1963-02
+    thread: vietnam
+    c: 'Kennedy, to the sister of McAndrew, a helicopter gunner killed at Ấp Bắc, his own reply in place of the Army''s draft: "Americans are in Vietnam because we have determined that this country must not fall under Communist domination."'
+    n: '[[w.reeves-president-kennedy]], 449–50. To check: [[w.lieberson-john-fitzgerald-kennedy-as]], 187–89 (cited by [[w.reeves-president-kennedy]], 449). Check: the day; Reeves has the letter shown him two weeks after the condolences. See [[cal.1963-01-02.vietnam]]. Names: Kennedy.'
+    src:
+      c: a8580374
+      rows:
+        - 'w.reeves-president-kennedy 449–50: all'
+    tags: [name:kennedy-john-f]

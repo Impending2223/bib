@@ -184,6 +184,20 @@ entries:
       rows:
         - 'w.schlesinger-thousand-days-1965 141: all'
     tags: [name:rusk-dean, name:kennedy-john-f]
+  - id: cal.1960-12-08.transition-and-staff-cabinet
+    when: Dec. 8
+    date: '1960-12-08'
+    thread: transition-and-staff-cabinet
+    c: 'Kennedy and McNamara, president of the Ford Motor Company, a Republican, meet for the first time. Kennedy offers him the Treasury or Defense. McNamara: he knows nothing of government; Kennedy: "I don''t know how to be president, either."'
+    n: '[[w.reeves-president-kennedy]], 25. To check: Roswell Gilpatric, oral history, 63, Kennedy Library; Robert McNamara, oral history, 11, Kennedy Library (cited by [[w.reeves-president-kennedy]], 25). Check: the day, "six days" after *Time* of Dec. 2 by Reeves. Names: McNamara, Kennedy.'
+    src:
+      c: ce81e000
+      rows:
+        - 'w.reeves-president-kennedy 25: all'
+        - 'via w.reeves-president-kennedy 25 n.robert-mcnamara.a: all'
+        - 'via w.reeves-president-kennedy 25 n.robert-mcnamara.b: all'
+        - 'via w.reeves-president-kennedy 25 n.robert-mcnamara.c: all'
+    tags: [name:mcnamara-robert-s, name:kennedy-john-f]
   - id: cal.1960-12-09.middle-east-dimona
     when: Dec. 9
     date: '1960-12-09'
@@ -260,15 +274,16 @@ entries:
     when: Dec. 13
     date: '1960-12-13'
     thread: transition-and-staff-cabinet
-    c: McNamara to Defense.
-    n: '[[w.schlesinger-thousand-days-1965]], 131–33 (the approach to McNamara; the day not given); [[w.schlesinger-robert-kennedy-and-his]], 224–25 (the choice, by Robert Kennedy''s memorandum of Feb. 9, 1961; the day not given). To check: Robert Kennedy, memorandum, Feb. 9, 1961, 1–2, RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 225 n.9). See [[cal.1960-12-01.transition-and-staff]]. Names: McNamara.'
+    c: 'McNamara to Defense. McNamara''s letter of conditions, among them final approval of every appointment in his department; Kennedy, after his brother reads it: "It''s a deal."'
+    n: '[[w.schlesinger-thousand-days-1965]], 131–33 (the approach to McNamara; the day not given); [[w.schlesinger-robert-kennedy-and-his]], 224–25 (the choice, by Robert Kennedy''s memorandum of Feb. 9, 1961; the day not given). [[w.reeves-president-kennedy]], 25 (the letter of conditions). To check: Robert Kennedy, memorandum, Feb. 9, 1961, 1–2, RFK Papers (cited by [[w.schlesinger-robert-kennedy-and-his]], 225 n.9). See [[cal.1960-12-01.transition-and-staff]]. Names: McNamara, Robert Kennedy, Kennedy. Check: the day of the letter; Reeves has it "a week later" than their first meeting, [[cal.1960-12-08.transition-and-staff-cabinet]].'
     src:
-      c: e56cd791
+      c: 59bd7d05
       rows:
         - 'w.schlesinger-thousand-days-1965 131–33: A'
         - 'w.schlesinger-robert-kennedy-and-his 224–25: A'
         - 'via w.schlesinger-robert-kennedy-and-his 225 n.9: A'
-    tags: [name:kennedy-john-f, name:mcnamara-robert-s]
+        - 'w.reeves-president-kennedy 25: B-C'
+    tags: [name:kennedy-john-f, name:mcnamara-robert-s, name:kennedy-robert-f]
   - id: cal.1960-12-13.laos
     when: Dec. 13–16
     date: '1960-12-13'
@@ -612,3 +627,15 @@ entries:
       rows:
         - 'w.kallina-kennedy-v-nixon 184: all'
     tags: [name:morton-thruston-b, state:il, city:chicago]
+  - id: cal.1960-12.transition-and-staff-cabinet
+    when: Dec.
+    date: 1960-12
+    thread: transition-and-staff-cabinet
+    also: [economy]
+    c: 'Gore to the President-elect, against Dillon for the Treasury: a Republican, who gave $30,000 to Nixon''s campaign; "If you want someone rich from Wall Street, pick Averell Harriman." Against Surrey for tax policy under him: "Dillon will make the policy. Nobody''s going to listen to some assistant secretary."'
+    n: '[[w.reeves-president-kennedy]], 26–27. Check: the day; Reeves has Gore the visitor after Dillon. See [[cal.1960-12-16.robert-kennedy]]. Names: Gore, Dillon, Harriman, Surrey, Kennedy.'
+    src:
+      c: b26ec5f0
+      rows:
+        - 'w.reeves-president-kennedy 26–27: all'
+    tags: [name:gore-albert-sr, name:dillon-c-douglas, name:harriman-w-averell, name:surrey-stanley-s, name:kennedy-john-f]
