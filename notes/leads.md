@@ -2024,6 +2024,35 @@ Foreign:
 - Guthman and Allen, *RFK: Collected Speeches* (1993), and Dooley, *Robert Kennedy: The Final Years* (1995), cited by the
   book and by the new entries' To check: no cards yet.
 
+### Reeves, *President Kennedy: Profile of Power* (the reading agent, Oct. 29, 2026; notes/book-checks/reeves-president-kennedy.md)
+
+- The members and party figures Reeves names, dated only roughly or not entered: Prescott Bush's antisegregation
+  amendment to school aid, May 1961, 61–25 (133: the roll call); Capehart's call to invade Cuba, Aug. 27, 1962 (343),
+  Keating's speech of Oct. 10 (367) and Van Zandt's (404); Griffiths's letter of Sept. 17, 1962 (353); Gore against the
+  tax cut, Nov. 10, 1962 (433–35); Eisenhower's attacks on the fiscal record and the moon program, Jan. 1963, and his
+  *Saturday Evening Post* article (454, 457–58); the RNC's resolution of July 1963 (544); Goldwater's "We are dining with
+  our enemy," Tito and Madame Nhu at the Waldorf, Oct. 1963 (633); Symington on the tax bill, Oct. 1963 (625).
+- The Democrats' galas: Madison Square Garden, May 19, 1962 (314–15), and the DNC's meeting and gala, Jan. 1963 (461);
+  the Massachusetts convention's endorsement of Edward Kennedy, June 1962 (323–25).
+- The Joint Committee on Internal Revenue Taxation's walkout at Surrey's appearance, Jan. 1961 (332): Reeves writes
+  "Robert Byrd, a West Virginia Democrat"; the senator is Harry F. Byrd. The day.
+- Tito's visit, Oct. 16–25, 1963, and the attempt at the Waldorf (631–34): no thread fits.
+- The taping system's installation, 1962 (304): the date.
+- The many meetings Reeves dates only by the President's daily appointments log (the Kennedy Library): the log is not
+  online; each such entry's day rests on Reeves.
+
+### Selverstone, *The Kennedy Withdrawal* (the reading agent, Oct. 29, 2026; notes/book-checks/selverstone-kennedy-withdrawal.md)
+
+- Phước Vĩnh taken by the PLAF, Sept. 18, 1961 (34); Taylor's warning cable, Oct. 24, 1961 (39); Galbraith to Kennedy,
+  Nov. 20, 1961 (47): FRUS 1961–63, I.
+- State's circular on the war as a Vietnamese war, Apr. 11, 1962 (68): FRUS 1961–63, II.
+- The Clay Committee's report: Selverstone gives its release as Mar. 22, 1963 (111); cal.1963-03-24.foreign-aid.
+- Krulak's inspection, June 25–July 1, 1963 (133); Felt's thousand-man plan to the Chiefs, July 21, 1963 (136); the
+  Chiefs' revised composition, Nov. 4–5, 1963 (193); Felt's "no longer valid," Feb. 15, 1964 (221): the JCS files.
+- Hilsman's tracks, Sept. 14–15, 1963 (157); Diệm's end of martial law, Sept. 16, 1963 (158): FRUS 1961–63, IV.
+- De Gaulle's statement on Vietnam, Aug. 29, 1963 (157); Sihanouk's proposal of a conference, Nov. 30, 1963 (211).
+- Defense's "reaffirmation" of the thousand, Nov. 20, 1963 (200): the release.
+
 ## The Executive roster
 
 - NSCID No. 1: the texts of 1958, 1964 and 1972 not in the file (`usib.yaml`). Open on archive.org, the CIA's CREST copies (Oct. 23, 2026): the text effective Feb. 17, 1972 (`CIA-RDP87B01034R000700020013-3`); a 1958 draft (`CIA-RDP85S00362R000600150011-7`, "Concurred in by the IAC 21 January"), with the drafts of 1957; for 1964 only Bundy's approval of the revisions, Mar. 27, 1964, "the President's decision of March 5, 1964 on the reorganization of the USIB" (`cia-readingroom-document-cia-rdp80b01676r000400180031-7`; the text exempt). FRUS 1964–68, XXXIII, doc. 196, n. 3: revised Jan. 18, 1961, and Mar. 4, 1964. Lay shown as the Board's Executive Secretary only for Mar. 1964, in a note.

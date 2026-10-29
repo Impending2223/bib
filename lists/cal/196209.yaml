@@ -9,13 +9,14 @@ entries:
     thread: missile-crisis
     also: [robert-kennedy]
     c: Statement on Cuba. No offensive weapons found; were there, "the gravest issues would arise." Dobrynin assures Robert Kennedy the same day.
-    n: '[FRUS 1961–63, X, doc. 411](https://history.state.gov/historicaldocuments/frus1961-63v10/d411). Statement by the President on Cuba (Sept. 4, 1962). [[w.schlesinger-robert-kennedy-and-his]], 502, 505–06 (Dobrynin''s assurance, "in early September"; the statement). To check: [[w.dobrynin-in-confidence]]. See [[cal.1962-05-24.missile-crisis]]. Names: Dobrynin, Robert F. Kennedy.'
+    n: '[FRUS 1961–63, X, doc. 411](https://history.state.gov/historicaldocuments/frus1961-63v10/d411). Statement by the President on Cuba (Sept. 4, 1962). [[w.schlesinger-robert-kennedy-and-his]], 502, 505–06 (Dobrynin''s assurance, "in early September"; the statement). [[w.reeves-president-kennedy]], 346–47. To check: [[w.dobrynin-in-confidence]]. See [[cal.1962-05-24.missile-crisis]]. Names: Dobrynin, Robert F. Kennedy.'
     src:
       c: d95075a6
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v10/d411: all'
         - 'w.schlesinger-robert-kennedy-and-his 505–06: A'
         - 'w.schlesinger-robert-kennedy-and-his 502: B'
+        - 'w.reeves-president-kennedy 346–47: all'
     tags: [name:dobrynin-anatoly, name:kennedy-robert-f, name:kennedy-john-f]
   - id: cal.1962-09-04.governors-nv
     when: Sept. 4
@@ -50,14 +51,26 @@ entries:
     date: '1962-09-06'
     thread: soviet-union
     c: 'Udall, eleven days in the Soviet Union on power and resources, with Khrushchev two hours at Pitsunda: the German treaty to be signed, no Western troops in Berlin; satisfaction with Kennedy''s handling of the U-2 protest and with Laos.'
-    n: 'FRUS 1961–63, V, doc. [236](https://history.state.gov/historicaldocuments/frus1961-63v05/d236) (the Embassy, Sept. 7). To check: [[w.smith-stewart-l-udall]]; [[w.taubman-khrushchev]]. Names: Udall, Khrushchev.'
+    n: 'FRUS 1961–63, V, doc. [236](https://history.state.gov/historicaldocuments/frus1961-63v05/d236) (the Embassy, Sept. 7). [[w.reeves-president-kennedy]], 350 (Udall with Khrushchev). To check: [[w.smith-stewart-l-udall]]; [[w.taubman-khrushchev]]; Khrushchev–Udall memorandum of conversation, Sept. 6, 1962, Cuba papers, National Security Archive (cited by [[w.reeves-president-kennedy]], 350). Names: Udall, Khrushchev.'
+    src:
+      c: dcfdda93
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v05/d236: all'
+        - 'w.reeves-president-kennedy 350: A'
+        - 'via w.reeves-president-kennedy 350 n.now-as-to-cuba: A'
     tags: [name:udall-stewart-l, name:khrushchev-nikita-s, name:kennedy-john-f]
   - id: cal.1962-09-07.soviet-union
     when: Sept. 7–9
     date: '1962-09-07'
     thread: soviet-union
     c: Frost, in the Soviet Union on the exchange, with Khrushchev at Gagra, Sept. 7; home, Sept. 9, he tells reporters Khrushchev thought Americans "too liberal to fight" (Check the words and the day).
-    n: 'To check: [[w.reeve-robert-frost-in-russia]]. See [[cal.1962-09-06.soviet-union]]. Names: Frost, Khrushchev.'
+    n: '[[w.reeves-president-kennedy]], 351. To check: [[w.reeve-robert-frost-in-russia]]; *New York Times*, Sept. 10, 1962; Stewart Udall, oral history, 55–56, Kennedy Library (cited by [[w.reeves-president-kennedy]], 351). See [[cal.1962-09-06.soviet-union]]. Names: Frost, Khrushchev.'
+    src:
+      c: ada9b00d
+      rows:
+        - 'w.reeves-president-kennedy 351: all'
+        - 'via w.reeves-president-kennedy 351 n.too-liberal-to-fight: B'
+        - 'via w.reeves-president-kennedy 351 n.why-did-frost-say-that: B'
     tags: [name:frost-robert, name:khrushchev-nikita-s]
   - id: cal.1962-09-07.missile-crisis
     when: Sept. 7
@@ -253,7 +266,12 @@ entries:
     date: '1962-09-18'
     thread: elections-1962
     c: Massachusetts primary. Edward Kennedy over McCormack, better than two to one. George Cabot Lodge the Republican.
-    n: '[Mass. *Election Statistics*, 1962 (P.D. 43), pp. 150–155](https://archive.org/details/electionstatisti19611963mass/page/n227). See [[cal.1962-08-27.elections-1962]]. Names: Edward M. Kennedy, McCormack, Lodge.'
+    n: '[Mass. *Election Statistics*, 1962 (P.D. 43), pp. 150–155](https://archive.org/details/electionstatisti19611963mass/page/n227). [[w.reeves-president-kennedy]], 325 n. (69 percent). See [[cal.1962-08-27.elections-1962]]. Names: Edward M. Kennedy, McCormack, Lodge.'
+    src:
+      c: ea7c76bf
+      rows:
+        - 'https://archive.org/details/electionstatisti19611963mass/page/n227: all'
+        - 'w.reeves-president-kennedy 325 n.: A-B'
     tags: [name:kennedy-edward-m, name:lodge-george-c, name:mccormack-edward-j-jr, state:ma]
   - id: cal.1962-09-18.governors-ma
     when: Sept. 18
@@ -378,6 +396,20 @@ entries:
         - 'w.schlesinger-robert-kennedy-and-his 318–19: all'
         - 'via w.schlesinger-robert-kennedy-and-his 319 n.7: all'
     tags: [name:kennedy-robert-f, name:barnett-ross-r]
+  - id: cal.1962-09-25.vietnam
+    when: Sept. 25
+    date: '1962-09-25'
+    thread: vietnam
+    c: 'Taylor, back from the Far East, reports to Kennedy, 5 p.m.: the war in Vietnam going better. Nothing of Thompson''s token reduction of Americans, put to him in Saigon Sept. 13.'
+    n: '[Meeting with Maxwell Taylor on His Far Eastern Trip](https://millercenter.org/the-presidency/secret-white-house-tapes/meeting-maxwell-taylor-his-far-eastern-trip), Tape 23 (Miller Center). [[w.selverstone-kennedy-withdrawal]], 89–90. To check: Thompson, "Record of Meeting with General Taylor," Sept. 13, 1962 (cited by [[w.selverstone-kennedy-withdrawal]], 90 n.53). Check: the recording not heard; its time PRDE''s. See [[cal.1962-07-23.vietnam]]. Names: Taylor, Kennedy, Thompson.'
+    src:
+      c: 89b146fa
+      rows:
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/meeting-maxwell-taylor-his-far-eastern-trip: A'
+        - 'w.selverstone-kennedy-withdrawal 89–90: all'
+        - 'via w.selverstone-kennedy-withdrawal 90 n.53: B'
+        - 'via w.selverstone-kennedy-withdrawal 90 n.54: A'
+    tags: [name:taylor-maxwell, name:kennedy-john-f, name:thompson-robert]
   - id: cal.1962-09-26.mississippi-ole-miss
     when: Sept. 26
     date: '1962-09-26'
@@ -420,7 +452,14 @@ entries:
     thread: mississippi-ole-miss
     also: [robert-kennedy]
     c: Kennedy–Barnett calls, recorded. A staged confrontation agreed, then called off.
-    n: '[Meeting on the Crisis at the University of Mississippi, 1:18 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/meeting-crisis-university-mississippi), Tape 24 (Miller Center), Sept. 29. Tapes (K–J Adm. II.J). To check: [[w.doyle-american-insurrection]]. See [[cal.1962-06-25.mississippi]]. Names: Barnett, John F. Kennedy, Robert F. Kennedy.'
+    n: '[Meeting on the Crisis at the University of Mississippi, 1:18 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/meeting-crisis-university-mississippi), Tape 24 (Miller Center), Sept. 29. Tapes (K–J Adm. II.J). [[w.reeves-president-kennedy]], 355–56 (the staged confrontation, in Robert Kennedy''s calls with Barnett). To check: [[w.doyle-american-insurrection]]; Nicholas Katzenbach, oral history, 104–23, Kennedy Library (cited by [[w.reeves-president-kennedy]], 355). See [[cal.1962-06-25.mississippi]]. Names: Barnett, John F. Kennedy, Robert F. Kennedy.'
+    src:
+      c: 4ed27861
+      rows:
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/meeting-crisis-university-mississippi: all'
+        - 'w.reeves-president-kennedy 355–56: B'
+        - 'via w.reeves-president-kennedy 355 n.james-meredith.a: B'
+        - 'via w.reeves-president-kennedy 355 n.james-meredith.b: B'
     tags: [name:kennedy-john-f, name:barnett-ross-r, name:kennedy-robert-f]
   - id: cal.1962-09-27.georgia-ga
     when: Sept. 27
