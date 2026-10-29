@@ -4,7 +4,8 @@ Card `w.mcpherson-political-education`. Read Oct. 29, 2026 (batch 3, staff memoi
 Internet Archive's scan of the Boston Public Library's copy, Little, Brown 1972, 488 PDF pages, a text layer): printed
 page = PDF page − 12 throughout, the plates (237–44) counted in the folios; checked against the page image at p. 430 and
 the running heads at 9, 39, 89, 189, 289, 389. Patch: `inbox/2026-10-29-b3-mcpherson.yaml` (b3-mcpherson, 72 ops: 43
-edits, 29 new entries). Records: `sources/cited-records/mcpherson-political-education.yaml` (none: see below).
+edits, 29 new entries); and, under the owner's ruling of Oct. 28, late, `inbox/2026-10-29-b3-mcpherson-more.yaml`
+(b3-mcpherson-more, 44 ops: 42 new entries, 2 pins; below, "Entered"). Records: `sources/cited-records/mcpherson-political-education.yaml` (none: see below).
 
 What the book is: McPherson's memoir, Senate staff 1956–63 (Johnson's, then the Policy Committee's counsel under
 Mansfield), the Army and State 1963–65, the White House 1965–69 (special assistant, then special counsel and chief
@@ -78,86 +79,106 @@ June 5, 1968 (the address after Robert Kennedy's shooting, 1968–69 Pub. Papers
 vetoed and the call to Hayden, 1968–69 Pub. Papers 1072). The merge flags seven of these as possible duplicates of
 another entry of the day; each is a separate event.
 
+## Entered (the owner's ruling, Oct. 28, late)
+
+Rows of the first Passed over list that the ruling (brief-batch3.md rule 5: an event dated to a month, a season or a
+stretch of days; a trip with its places; a private meeting, call or letter on public business; an event's incidents)
+calls entries. Patch: `inbox/2026-10-29-b3-mcpherson-more.yaml` (b3-mcpherson-more: 42 new entries, 2 pins), to be
+merged after `b3-mcpherson` (several of its entries point back to that patch's).
+
+| page | date | event | entry |
+|---|---|---|---|
+| 179–80 | Aug. 1960 | Scott on the Kennedy Foundation's airlift of African students; Kennedy's reply; Johnson's Democrats against Scott | `cal.1960-08.elections-1960` |
+| 182 | Jan. 20, 1961 | McPherson's memorandum to Mansfield on the filibuster rule | `cal.1961-01-20.rules` |
+| 183 | Jan. 1961 | Mansfield keeps McPherson as the Policy Committee's counsel; the leadership's staff cut down | `cal.1961-01.congress` |
+| 194–95 | June 1963 | Johnson, presiding, on the civil rights bill: "Not a chance"; his cook's drive through the South | `cal.1963-06.civil-rights-bill` |
+| 200–02 | late summer 1963 | Vance's offer of the Army post; Johnson: "What do you want?" | `cal.1963-08.transition-and-staff` |
+| 216–17 | early Jan. 1964 | Fleming's call on the flags at Balboa High School | `cal.1964-01-07.latin-america-panama` |
+| 221–22 | Jan. 1964 | the Army's case before the International Commission of Jurists' committee | `cal.1964-01.latin-america-panama` |
+| 225–26 | summer 1964 | the Corps' reservoirs in Mississippi; the order to the District engineers | `cal.1964-07.civil-rights-the-executive` |
+| 226–28 | Aug. 1964 | McPherson sworn in as Assistant Secretary of State; Read's sounding; McNamara's "backwater" | `cal.1964-08-26.transition-and-staff` |
+| 233–36 | Feb. 1965 | McPherson before Rooney's subcommittee | `cal.1965-02.congress` |
+| 235–36 | Feb. 1965 | Moyers asks McPherson to understudy Lee White | `cal.1965-02.transition-and-staff` |
+| 267–68 | Oct. 1965 | Johnson after home rule's defeat: "You've got just one year" | `cal.1965-10.states-and-cities` |
+| 281 | Jan. 1965 | eleven veterans hospitals ordered closed | `cal.1965-01.health` |
+| 286–88 | spring 1965 | the miners' hospitals: Josephine Roach; John L. Lewis | `cal.1965-04.health` |
+| 292–93 | 1967 | the dinners with faculties at Harvard, Yale and the Bay Area | `cal.1967-03.program` (in `b3-califano`, Califano dating them spring and summer) |
+| 303–04 | Oct. 1966 | the advance party's eight days, Samoa to Seoul | `cal.1966-10-08.vietnam-asian-trip` |
+| 304–13 | Oct. 18–30, 1966 | Pago Pago; Wellington's demonstrators and the V sign; the Sydney paint; the Brisbane sentence; the Brisbane crossroads and Townsville; Manila, the water bomb and Malacañang; Corregidor; the Bangkok stag dinner; Kuala Lumpur | `cal.1966-10-18.vietnam-asian-trip`, `cal.1966-10-20.vietnam-asian-trip-2`, `cal.1966-10-22.vietnam-asian-trip`, `cal.1966-10-22.vietnam-asian-trip-2`, `cal.1966-10-23.vietnam-asian-trip-2`, `cal.1966-10-24.vietnam-asian-trip-2`, `cal.1966-10-26.vietnam-asian-trip-2`, `cal.1966-10-29.vietnam-asian-trip`, `cal.1966-10-30.vietnam-asian-trip-2` |
+| 321 | July 7, 1968 | Johnson at the normal school at San Andrés, El Salvador | `cal.1968-07-07.latin-america` |
+| 328–29 | Aug. 19, 1966 | Ellenville, N.Y.: the hospital; the story of the school bill | `cal.1966-08-19.health` |
+| 331–32 | Oct. 26–27, 1968 | Morgantown; the All Americans Council | already in: `cal.1968-10-26.elections-1968`, `cal.1968-10-27.elections-1968` (pinned in the more patch) |
+| 334–35 | Apr. 1965 | Moynihan brings *The Negro Family* to McPherson in hospital | `cal.1965-04.civil-rights-the-executive` |
+| 339–40 | summer–fall 1965 | the planning talks with social scientists; Rustin's doubts | `cal.1965-06.civil-rights-the-executive` |
+| 352, 450 | Dec. 1968 | the Cabinet's exit sessions; the order on federal buildings dropped | `cal.1968-12.transition-and-staff` |
+| 361–63 | Aug. 1967 | Roche's friend's letter; Clark: no case against Carmichael | `cal.1967-08.civil-disorders` |
+| 370 | May 1, 1968 | "Riot Lessons," eleven points | `cal.1968-05-01.civil-disorders-king` |
+| 376 | Mar. 1968 | Johnson on the Kerner report: "There aren't that many of us" | `cal.1968-03.civil-disorders-kerner` |
+| 404–09 | mid-May 1967 | McPherson's two weeks in South Vietnam, I Corps to the Delta | `cal.1967-05.vietnam` |
+| 405–08 | May 1967 | Kỳ at dinner; Bunker; Thắng; Weyand | `cal.1967-05.vietnam-3` |
+| 409–10 | May 1967 | Russell on the free-fire zones; the commanders at Pleiku and of the Air Cavalry | `cal.1967-05.vietnam-2` |
+| 410–11 | late May or early June 1967 | the last talks with Kỳ and Thiệu: Thiệu would serve Hương | `cal.1967-06.vietnam-elections` |
+| 415–17 | June 6–7, 1967 | Gaza, Sde Boker, Beersheba; the Weizmann Institute | `cal.1967-06-06.middle-east-six-day-war`, `cal.1967-06-07.middle-east-six-day-war-2` |
+| 438–39 | Mar. 31, 1968 | McPherson's call to Clifford on the bombing's limit; Johnson's call, "So long, podner" | `cal.1968-03-31.vietnam-205000` |
+| 440 | Apr. 15–17, 1968 | Honolulu: Johnson and McPherson look for sites | `cal.1968-04-15.vietnam-paris` |
+| 440–41 | Apr. 1968 | Clifford at a party; McPherson's memorandum; Johnson's call at 8:30 | `cal.1968-04.vietnam-paris` |
+| 447 | May 29, 1968 | Johnson at Texas Christian University on violence | `cal.1968-05-29.students` |
+
 ## Passed over
 
-Every dated event of 1960–Jan. 20, 1969 the book treats that the run did not enter. Pages are printed pages.
+What remains, by the ruling's terms: the events already entered under another id, the matters no source dates even to
+the month (leads), and the family, social and office routine. Pages are printed pages.
 
 | page | date | event | why |
 |---|---|---|---|
-| 179–80 | Aug. 1960 | the post-convention session: Scott attacks the Kennedy Foundation's airlift of African students; Kennedy replies; Johnson brings Democrats to the floor against Scott | undated in the book; lead (the Record) |
-| 179 | Aug. 1960 | school aid and medical care for the aged fail in the post-convention session | already in the calendar's 1960 session entries (Medicare, school aid); no date given |
-| 182 | Jan. 20, 1961 | McPherson hands Mansfield a memorandum on the filibuster rule after the inaugural | a memorandum without content given; minor |
-| 183 | Jan. 1961 | McPherson stays on as the Policy Committee's counsel under Mansfield | personal; minor |
+| 179 | Aug. 1960 | school aid and medical care for the aged fail in the post-convention session | already in the calendar's 1960 session entries (Medicare, school aid) |
 | 184 | Jan. 1961 | the proposal that Johnson chair the Democratic caucus | already in as `cal.1961-01-03.congress` |
 | 185 | Jan. 1961 | Nixon's last ruling on Rule XXII; the fight put off | already in (`cal.1961-01-11.rules`) |
-| 191 | 1962–63 | Johnson's complaints, at the rostrum, of the Kennedys' handling of Congress | undated; private remarks |
-| 194–95 | June 1963 | Johnson, presiding, on the civil rights bill: "Not a chance"; his cook's drive through the South | private remarks |
+| 191 | 1962–63 | Johnson's complaints, at the rostrum, of the Kennedys' handling of Congress | not dated to a month; lead |
 | 195–96 | 1961 | Spellman and Delaney: school aid killed in the Rules Committee | already in the school-aid thread (1961) |
-| 197 | 1962 | Kennedy and Kerr: the tax bill and the Arkansas River project | undated; a story McPherson heard |
-| 199 | 1961 | McPherson's university speech on McCarthy and Muskie | minor |
-| 200–02 | early fall 1963 | Vance's offer of the Army post; Johnson: "What do you want?" | personnel below the level; private |
+| 197 | 1962 | Kennedy and Kerr: the tax bill and the Arkansas River project | a story McPherson heard, not dated to a month; lead |
+| 199 | 1961 | McPherson's university speech on McCarthy and Muskie | the year only; lead |
 | 210 | 1962–63 | Kennedy's agreement to fly both flags in the Canal Zone | already in the Panama thread (`cal.1963-03-18.latin-america` and after) |
-| 214 | Nov. 24, 1963 | the Johnsons at St. Mark's; Baxter's sermon | minor |
-| 216–17 | early Jan. 1964 | Fleming's call on the flags at Balboa High School; McPherson's advice to hold off | undated within January; lead (the day) |
-| 221–22 | early 1964 | McPherson, Califano and Owen Smith brief the Army's case before the International Commission of Jurists | undated; lead |
-| 223 | 1964 | lunch with Vaughn and Eleta | minor |
-| 223 | 1964 | Califano to McNamara's office; McPherson takes the civil functions | personnel below the level |
-| 225–26 | summer 1964 | McPherson orders the District engineers to bar discrimination at the Corps' facilities, leased ones too | undated; lead |
-| 228 | Aug. 1964 | McPherson sworn in as Assistant Secretary of State for Educational and Cultural Affairs | the Executive roster's (a lead on the day) |
-| 234–35 | early 1965 | McPherson before Rooney's appropriations subcommittee | undated; minor |
-| 235–36 | Feb.–Mar. 1965 | Moyers asks McPherson to the White House to understudy Lee White | personnel; the roster's (lead) |
-| 254–55 | 1965 | Whitten and Califano: "talk cotton" | private; minor |
+| 214 | Nov. 24, 1963 | the Johnsons at St. Mark's; Baxter's sermon | a church service: family and religious observance |
+| 223 | 1964 | lunch with Vaughn and Eleta | "later that year," not dated to a month; lead |
+| 223 | 1964 | Califano to McNamara's office; McPherson takes the civil functions | not dated; the roster's (lead) |
+| 254–55 | 1965 | Whitten's "talk cotton," Redmon's prank on Califano | a staff prank; no business done |
 | 262 | summer 1966 | the airline strike | already in (jobs-and-wages-airlines) |
 | 265 | 1966 | Moyers leaves, Christian press secretary | already in the transition-and-staff thread |
-| 266–67 | n.d. | Johnson and Luce: "good news is no news" | undated; private |
-| 267–68 | fall 1965 | Johnson works round the clock for District home rule and loses; to McPherson, "one year" | undated; private remarks; the vote already in the congress thread |
-| 273 | 1967 | Roche's memorandum to the President on the M-16 and the ARVN | undated; lead |
+| 266–67 | n.d. | Johnson and Luce: "good news is no news" | undated; lead |
+| 273 | 1967 | Roche's memorandum to the President on the M-16 and the ARVN | the year only; lead |
 | 279 | Dec. 1967 | the District crime bill of 1967 signed | already in the crime thread |
-| 281–82 | Jan. 1965 | eleven veterans hospitals ordered closed | undated in the book; lead (the day), noted in `cal.1965-04-03.health` |
-| 286–88 | spring 1965 | the miners' hospitals: Josephine Roach, John L. Lewis, Donald Cook | undated; lead |
-| 290 | 1965–67 | McPherson on the cabinet-level textile committee | undated |
-| 291–92 | 1967 | Johnson rolls back the window glass and watch tariffs | undated; the Papers' Oct. 12 statement differs; lead |
-| 292–93 | 1967 | Califano, Cater and McPherson's dinners with faculties at Harvard, Yale and the Bay Area | undated (Califano's book may date them) |
+| 290 | 1965–67 | McPherson on the cabinet-level textile committee | undated; lead |
+| 291–92 | 1967 | Johnson rolls back the window glass and watch tariffs | the year only in the book; the Papers' Oct. 12 statement differs; lead |
 | 296–98 | fall 1965 | the urban task force; McPherson drafts the cities message | in the cities message's entry (pinned) |
-| 303 | Sept.–Oct. 1966 | the advance party's eight days, Samoa to Seoul | in the trip's first entry (pinned) |
-| 304–15 | Oct.–Nov. 1966 | Wellington's demonstrators and the V sign; the Sydney paint; the Brisbane sentence struck; Townsville; Manila; Bangkok; Kuala Lumpur; Seoul; Anchorage | in the trip's entries (`vietnam-asian-trip`); minor incidents |
+| 313–15 | Oct. 31–Nov. 2, 1966 | Seoul's crowds; the last night out with Korean ministers; Anchorage | already in (`cal.1966-11-01.vietnam`); the night out social |
+| 315 | Nov. 2, 1966 | the flight home, Symington's songs | social |
 | 320 | Apr. 1967 | Adenauer's funeral, McPherson with Johnson | already in (`cal.1967-04-24.europe-and-the-alliance`) |
-| 321 | July 1968 | Johnson at a teachers' school in El Salvador, McPherson's draft | already in the Central American trip (latin-america-trip); minor |
 | 326 | Dec. 24, 1967 | the radio address McPherson wrote on the return | in the Holt trip's entry (pinned) |
-| 328–29 | summer 1966 | Johnson extemporizes in the Catskills on the school bill | minor |
 | 330 | Nov. 6, 1966; Dec. 12, 1967 | McPherson's lines on white backlash and the "wooden soldiers of the status quo" | the statements already in the 1966 and 1967 entries; authorship only (lead) |
-| 331–32 | Oct. 1968 | Johnson at Morgantown, W. Va., and the All Americans Council luncheon in New York | undated in the book; lead |
-| 334–38 | Apr. 1965 | Moynihan brings *The Negro Family* to McPherson in hospital | private; the report's entry the place for it (lead) |
 | 337 | 1966 | McNamara's program of 100,000 men | already in the defense thread |
-| 339–40 | summer–fall 1965 | the planning talks with social scientists; Rustin's doubts | undated |
 | 344 | Aug. 20, 1965 | Johnson to the equal employment conference after Watts | already in the Watts entries |
-| 350–52 | 1966–Dec. 1968 | McPherson and Clifford Alexander's committee on the conference's recommendations; the order on federal buildings dropped, Dec. 1968 | undated; lead |
-| 353–55 | 1966 | the Child Development Group of Mississippi; Shriver's threat, the compromise | undated in the book; lead |
-| 358–59 | n.d. | Johnson and a Negro leader: the Annapolis midshipmen | undated; private |
-| 361–63 | 1967 | Roche's friend's letter; Clark: no case against Carmichael | undated; private |
-| 364 | 1968 | a friend's letter to King against disruption in Washington | undated; private |
-| 370 | May 1, 1968 | "Riot Lessons," eleven points | an unsigned list, author not given; lead |
+| 350–52 | 1966 | the committee on the conference's recommendations at work; Roger Wilkins's paper at its first meetings | the committee already in (`cal.1966-08-25.civil-rights-the-executive`); the paper not dated to a month (lead) |
+| 353–55 | 1966 | the Child Development Group of Mississippi; Shriver's threat, the compromise | the year only in the book; lead |
+| 358–59 | n.d. | Johnson and a Negro leader: the Annapolis midshipmen | undated; lead |
+| 364 | 1968 | a friend's letter to King against disruption in Washington | not dated to a month; lead |
 | 370–74 | 1968 | McPherson's memorandum on a weekend in Harlem and Bedford-Stuyvesant with Martin and Alexander | undated; lead |
-| 376 | Mar. 1968 | Johnson on the Kerner report: "There aren't that many of us" | private remarks |
-| 377–78 | 1967 | Scammon: "get him photographed with a man in blue" | private; undated |
-| 381–82 | June 5, 1968 | the Oval Office's three television sets that night | minor |
+| 377–78 | 1967 | Scammon: "get him photographed with a man in blue" | the year only; lead |
+| 381–82 | June 5, 1968 | the Oval Office's three television sets that night | an office's routine |
 | 391 | Apr. 7, 1965 | Goodwin the author of the Johns Hopkins speech | already in the speech's entry (authorship) |
-| 399 | n.d. | Johnson to McPherson: "more and more pressure on them" | undated; private |
-| 399–400 | 1967 | Roche's memorandum on air power and the ARVN | undated; lead |
-| 401–02 | 1967 | Rowland Evans's talk with McPherson | private |
+| 399 | n.d. | Johnson to McPherson: "more and more pressure on them" | undated; lead |
+| 399–400 | 1967 | Roche's memorandum on air power and the ARVN | the year only; lead |
+| 401–02 | 1967 | Rowland Evans's talk with McPherson | the year only; lead |
 | 402 | 1967 | Gardner's proposal of a pledge by telegram | in `cal.1967-10-25.vietnam-support` (pinned) |
-| 404–12 | mid-May–June 1967 | McPherson in Vietnam: Ky at dinner, Scotton, Thang, Bunker, Vũng Tàu, Weyand, Thiệu's offer to serve Hương | the report of June 13 the entry (FRUS V, doc. 197); the talks undated |
-| 409–10 | May 1967 | Russell to McPherson: the free-fire zones | private advice |
-| 415–17 | June 6–7, 1967 | Gaza, Beersheba, the Weizmann Institute | minor |
-| 420 | late 1967 | Tydings to McPherson: he will speak against the war; Bayh, Harris, Muskie, Hart the same | undated; lead (Tydings's public word) |
-| 423 | Jan. 1968 | Johnson cuts Vietnam from the State of the Union and has McPherson draft a speech | undated; in the drafts' entries |
-| 430 | Mar. 1968 | Phil Carter of *Newsweek* on Arkansas and the war | private; undated |
+| 408 | May 1967 | a political scientist at Mỹ Tho on the Delta's loyalties | a private person, no public role |
+| 411–12 | May 1967 | the wounded soldier at Saigon | an incident of the visit, folded into `cal.1967-05.vietnam`'s account (not named there) |
+| 420 | n.d. | Tydings to McPherson: he will speak against the war; Bayh, Harris, Muskie, Hart the same | not dated in the book; lead (Tydings's public word) |
+| 423 | Jan. 1968 | Johnson cuts Vietnam from the State of the Union and has McPherson draft a speech | in the drafts' entries |
+| 430 | Mar. 1968 | Phil Carter of *Newsweek* on Arkansas and the war | a correspondent's report to McPherson, no act |
 | 433 | Mar. 27, 1968 | McPherson sends the President Carroll's editorial | a transmittal |
-| 438–39 | Mar. 31, 1968 | McPherson's call to Clifford on the 20th parallel; Johnson's call, "So long, podner" | private; in the address's entry (pinned) |
-| 440–41 | late Apr. 1968 | Clifford's urging at a party; McPherson's memorandum for Paris; Johnson's angry call at 8:30 a.m. | undated; lead |
-| 447 | May 1968 | Johnson in Texas on violence | undated in the book; lead |
-| 450–51 | Dec. 1968 | the cabinet members' exit sessions; Clark's, Udall's and Wirtz's last acts | undated; already in part (Udall's lands) |
-| 452 | Jan. 19–20, 1969 | the last night's party; Johnson seen off | minor |
+| 439 | Mar. 31, 1968 | Cater's call at ten: the Chicago speech | an office's routine (the speech of Apr. 1 is in) |
+| 450–51 | Dec. 1968–Jan. 1969 | Clark's, Udall's and Wirtz's last acts | already in in part (Udall's lands); the rest not dated in the book (lead) |
+| 452 | Jan. 19–20, 1969 | the last night's party; Johnson seen off | social |
 
 How the list was made: every page of chs. 6–12 and the epilogue (156–455) read in order, each dated event noted,
 then each compared with the calendar's entries of its day and thread (`./bib find`); the chapters before 1960
@@ -175,10 +196,10 @@ then each compared with the calendar's entries of its day and thread (`./bib fin
 - National: the Corps of Engineers' order against discrimination at its recreation facilities, summer 1964
   (McPherson 225–26).
 - National: the Child Development Group of Mississippi, 1966: Shriver's cutoff and the compromise (McPherson 353–55).
-- National: the dates of Johnson at Morgantown, W. Va., and at the All Americans Council luncheon, Oct. 1968
-  (McPherson 331–32).
-- National: Roche's memoranda on the ARVN and the M-16 (1967), "Riot Lessons" (May 1, 1968), McPherson's Harlem
-  memorandum (1968): the LBJ Library's files.
+- National: Roche's memoranda on the ARVN and the M-16 (1967), "Riot Lessons" (May 1, 1968, now an entry), McPherson's
+  Harlem memorandum (1968): the LBJ Library's files.
+- National: the days of the entries the more patch dates by month or season (each its "Check: the day"); the Senate
+  speeches of Tydings, Bayh, Harris, Muskie and Hart against the war (McPherson 420, undated).
 - Executive roster: McPherson's swearing-in as Assistant Secretary of State (the book: his birthday, the night of
   Humphrey's selection, Aug. 26, 1964; the roster Aug. 23) and his move to the White House (the book: March 1965; the
   roster's special assistant from Aug. 1965).

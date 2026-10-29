@@ -1,7 +1,7 @@
 # Geoffrey Kabaservice, *Rule and Ruin* (`w.kabaservice-rule-and-ruin`)
 
 Read Oct. 29, 2026, by the batch-3 reading (the Republicans: Kabaservice, then Goldberg's *Barry Goldwater*, then
-Smith's *On His Own Terms*). Patch: `inbox/2026-10-29-b3-kabaservice.yaml` (b3-kabaservice). Records:
+Smith's *On His Own Terms*). Patches: `inbox/2026-10-29-b3-kabaservice.yaml` (b3-kabaservice) and, under the owner's ruling of Oct. 28, late, `inbox/2026-10-29-b3-kabaservice-more.yaml` (b3-kabaservice-more). Records:
 `sources/cited-records/kabaservice-rule-and-ruin.yaml`.
 
 ## The copy
@@ -106,85 +106,104 @@ Four events this run had drafted are added in other pending patches; the Kabaser
 | page | date | event | why |
 |---|---|---|---|
 | 27 | Dec. 1959 | Rockefeller will not challenge Nixon | out of the span |
-| 30 | Nov. 16, 1960 | Womey to Keating, griping after the election | private |
-| 50 | 1961 | YAF at the Peace Corps conference; Hayden in *Mademoiselle* | out of the brief (not the parties) |
-| 51 | July 8, 1961 | Chapman to Morhouse, the Young Republicans "out-maneuvered" | private |
-| 54 | undated | Rockefeller's informants in the conservative groups | undated |
-| 57 | Mar. 5, 1962 | Thayer to Chapman: Eisenhower read *Advance* | minor (private trivia) |
-| 59 | July 3, 1962 | Eisenhower to Miller; Eisenhower "sick of him" of Goldwater | a repetition; private remarks |
-| 61 | Mar. 1962 | Rockefeller's contact on the Birchers in Southern California | undated (the month of a private letter) |
+| 30 | Nov. 16, 1960 | Womey to Keating, a griping letter on Rockefeller and the platform | a correspondent with no public role |
+| 61 | Mar. 1962 | Rockefeller's office on the Birchers in Southern California | already in: Richardson's "Report on California," cal.1962-03-05.elections-1962 (this run's patch) |
+| 66 | May 8, 1963 | Landon would not support Rockefeller | already in: cal.1963-05-24.elections-1964 (Douglass to Hinman, 66 n.139) |
+| 127 | Nov. 28, 1964 | Gerald A. Smith to Goldwater: a group to purge the county's moderates | a correspondent with no public role |
 | 137 | Mar. 30, 1961, or May 2, 1963 | Kuchel on the Senate floor against the Birch Society: "Treason!" | a lead: Kabaservice cites 107 Cong. Rec. 5003 (Mar. 30, 1961) and the *Times* of May 3, 1963 for the words; which speech, to read (cal.1963-05-02.right-and-the-military) |
-| 63 | Sept. 25, 1962 | White to Barr, the McDevitt compromise | private (to check with *Suite 3505*) |
-| 66 | May 8, 1963 | Landon would not support Rockefeller | private remarks (in the May 24 entry by one account) |
-| 78–79 | undated | Ripon's "Truth Squad" of law students after Goldwater in New Hampshire | undated |
-| 95 | undated | Rockefeller quashes *The Extremists*, a film | undated |
-| 133 | Dec. 19, 1964 | Goldwater to Buckley | private |
-| 101 | July 7, 1964; Sept. 19, 1964 | Wilkins's and Mitchell's words on Goldwater; the NAACP | out of the brief (not the parties) |
-| 108 | early July 1964 | Eisenhower to Saloma, on the Declaration of Conscience | undated, private |
-| 87 | May? 1964 | Rusher to *National Review*'s editors, Goldwater's 425 "hard-core" delegates | undated (the note queries the month) |
-| 119 | undated | Goldwater on TVA in Tennessee | undated |
-| 120 | Sept. 21, 1964 | the Ripon executive committee's letter on its election analysis | a lead: the letter's matter not given |
-| 124 | Nov. 10, 1964 | Cooper's letters after the election | private |
-| 135–36 | 1964 | Buckley and Sibal | undated |
-| 132 | undated | the Midwestern national committeemen's secret meeting | undated: a lead |
-| 153 | Apr. 19, 1965 | Wilkins to Buckley | private, out of the brief |
 | 153 | Dec. 1965 | Stigler in the *New Guard* | not a party figure |
-| 154 | undated | the Republicans on Watts | undated |
-| 151 | June 9, 1965 | Goldwater to Middendorf | private |
-| 151 | undated | an intercepted Lindsay memorandum | undated |
-| 160 | Aug. 9, 1965 | the *Times*'s editorial on Dumont and Genovese | press, no act |
-| 159 | undated | Holton with Eisenhower | undated |
-| 158 | Nov. 1965 | Louisville's mayoral election | a lead (no figures read) |
+| 160 | Aug. 9, 1965 | the *Times*'s editorial on Dumont and Genovese | a newspaper's editorial, no act |
 | 166 | Apr. 23, 1966 | the *Herald Tribune* closes | out of the brief |
-| 171 | undated | the Eleventh Commandment, Parkinson's; Ripon's "Twelfth Commandment" | undated (in the primary's entry) |
-| 179 | spring 1966 | Hubbard and Dawson's primary | a lead (date and figures) |
-| 178 | undated | Percy's "New Dawn for Our Cities" plan | undated |
-| 189–90 | 1966 | Eisenhower to Jones, Aug. 19; Reagan to French, July 19; Reagan to McCone | private letters |
-| 191 | Nov. 4, 1966 | Agnew to Parsons | private |
-| 192 | Nov. 22, 1966 | Bliss's Opportunities Unlimited (Bliss to Mathias) | a lead: the program's announcement not dated |
-| 196 | Feb. 1967 | Buckley and Gilder at Goldwater's | social |
-| 196 | July 5, 1967 | Goldwater to Buckley | private |
-| 208 | Feb. 1, 1967 | Landon to Romney | private |
-| 222 | Oct. 29, 1967 | Chapman to Petri: Gilder for a press conference against Romney's campaign, for Hatfield in New Hampshire | private, a proposal not acted on |
-| 227 | fall 1967 | the Links Club meeting | undated |
-| 230 | Feb. 10–11, 1968 | Reston's column for Gardner | a journalist's column, no act |
-| 230–31 | Apr. 1968 | Woods to Auspitz; Cobbs to Petri on Republicans for McCarthy; Pillsbury to Auspitz; Dionne to Ripon | private |
-| 231 | Apr. 26, 1967 | Reston on Talbott and Yale | a journalist's column |
-| 233 | undated | Cowger's Urban Affairs Task Force of the House Republican Conference | undated (named in the April 1968 entry): a lead |
-| 234 | 1968 | Taft, Goodell and Curtis with the Black Power advocates, the Community Self-Determination Act | undated: a lead |
-| 235 | spring 1968 | Nixon with McKissick and Innis; "black capitalism" | undated: a lead |
-| 236 | Mar. 27, 1968 | Lawrence to Beal, "a dog without a kennel"; Morse and others to Nixon after Mar. 21 | private; undated |
-| 236 | Mar. 21, 1968 | the Ripon members hired by Rockefeller's campaign call back the pledges | minor (an operation below the level) |
-| 237 | Mar. 2, 1967 | Rafferty on the University of California's "odd birds" | out of the brief (a State officer on a State matter) |
-| 238 | Mar. 8, 1968 | Kuchel to Landis | private |
-| 239 | 1968 | Rafferty: Cranston's bombing halt "perilously close to treason"; his 4-F; the American Veterans Committee | undated |
-| 239 | Oct. 8, 1968 | Djordjevich to Rusher | private |
-| 242–43 | Aug. 12, 1968 | Melich's letters on the convention, to Gingrich and others | private, after the event |
-| 242 | Aug. 1968 | Thurmond to White: "we just cain't take that chance" | already in, by White's account (b3-chester and the Aug. 7 entry's To check) |
-| 245 | Aug. 12, Nov. 20, 1968 | Zimmer to Huebner; Hauberg to Huebner | private |
-| 245 | Mar. 2, 1968 | Eisenhower to Baker: Nixon a moderate | private |
-| 245 | Nov. 1968 | Kilberg's letter in the *Forum*: "Richard Nixon is a progressive" | a reader's letter, not the Society's |
-| 246 | Oct. 16, 1968 | Winter to Petri, on recognizing China after Czechoslovakia | private |
-| 246 | Aug. 1968 | Nixon's memorandum on Vietnam to the platform committee | a lead: its record and day not found here |
-| 246 | Oct. 14, 1968 | Crangle to Behn | private |
-| 247 | Nov. 6, 1968 | Nixon to Huebner and Petri at the Waldorf | private remarks |
+| 178 | 1966 | Percy's "New Dawn for Our Cities" plan | a lead: no month given |
+| 196 | Feb. 1967 | Buckley and Gilder a weekend at Goldwater's; the Grand Canyon; dinner with the Luces | social |
+| 226 | 1968 | Mondale and Percy, a negotiating session on the Housing Act of 1968, by McClaughry's account | a lead: no month given |
+| 230 | Feb. 10–11, 1968; Apr. 26, 1967 | Reston's columns, for Gardner and on Talbott at Yale | a journalist's columns, no act |
+| 230–31 | Apr. 1968 | Woods to Auspitz; Pillsbury to Auspitz; Dionne to the Ripon Society | correspondents with no public role |
+| 234 | 1968 | Taft, Goodell and Curtis with the Black Power advocates, the Community Self-Determination Act | a lead: no month given (the *Forum* of September) |
+| 236 | Mar. 27, 1968 | Lawrence to Beal, "a dog without a kennel" | correspondents with no public role |
+| 238 | Mar. 8, 1968 | Kuchel to Landis | a lead: the letter's matter not given (it is cited for his voting record) |
+| 242 | Aug. 1968 | Thurmond to White: "we just cain't take that chance" | already in, by White's account (b3-chester; the Aug. 7 entry's To check) |
+| 246 | Oct. 14, 1968 | Crangle to Behn, "The nation is drifting to the right" | a correspondent with no public role |
 | 248 | Nov. 1968 | Beal, "The Collapsing Coalitions" | a repetition of his December article (entered) |
-| 248 | Nov. 19, 1968 | Thayer to Eisenhower | private |
 | 249–50 | Jan. 14, 1968; 1968 | Gregory at Yale; Smith in VISTA | out of the brief |
+
+## Entered (the owner's ruling, Oct. 28, late)
+
+In `inbox/2026-10-29-b3-kabaservice-more.yaml` (b3-kabaservice-more), 59 entries for rows this run had passed over as
+private, undated or below the level:
+
+| page | event | entry |
+|---|---|---|
+| 50–51 | YAF at the Peace Corps conference, spring 1961 | cal.1961-03.conservative-movement |
+| 51 | Chapman to Morhouse, July 8, 1961 | cal.1961-07-08.republican-party |
+| 54 | Rockefeller's informants (Hinman, Deardourff, Douglass, 1961–62) | cal.1961-08-25.republican-party |
+| 57 | Thayer to Chapman, Mar. 5, 1962 | cal.1962-03-05.republican-party |
+| 59 | Eisenhower to Jones, July 3, 1962, "sick of him" | cal.1962-07-03.republican-party |
+| 63 | White to Barr, Sept. 25, 1962 | cal.1962-09-25.conservative-movement |
+| 78 | Nixon and the Ripon members at the Recess Club, Dec. 1963 | cal.1963-12.elections-1964-6 |
+| 78–79 | Ripon's Truth Squad in New Hampshire, 1964 | cal.1964-01.elections-1964-5 |
+| 87 | Rusher to *National Review*'s editors, May? 1964 | cal.1964-05.conservative-movement |
+| 95 | *The Extremists* quashed, May 1964 | cal.1964-05.elections-1964-4 |
+| 102 | the NAACP denounces Goldwater, June 1964 | cal.1964-06.civil-rights-organizations |
+| 101 | Wilkins to the Resolutions Committee, July 7, 1964 | cal.1964-07-07.elections-1964-2 |
+| 108–9 | Eisenhower to Saloma, July 1964 | cal.1964-07.republican-party |
+| 119 | Goldwater in Tennessee on TVA, fall 1964 | cal.1964-09.elections-1964-2 |
+| 120 | the Ripon executive committee's letter, Sept. 21, 1964 | cal.1964-09-21.republican-party |
+| 135–36 | Buckley against Sibal, 1964 | cal.1964-10.conservative-movement |
+| 124 | Cooper to Long, Nov. 10, 1964 | cal.1964-11-10.republican-party-congress |
+| 133 | the Midwestern national committeemen in Chicago, Dec. 1964 | cal.1964-12.republican-party-4 |
+| 133 | Goldwater to Buckley, Dec. 19, 1964 | cal.1964-12-19.republican-party |
+| 153 | Wilkins to Buckley, Apr. 19, 1965 | cal.1965-04-19.civil-rights-organizations |
+| 151 | Goldwater to Middendorf, June 9, 1965 | cal.1965-06-09.mayors |
+| 151–52 | the intercepted Lindsay memorandum, 1965 | cal.1965-09.mayors |
+| 154 | Murphy on Watts; Ford on Watts, Aug. 1965 | cal.1965-08.civil-disorders-watts, cal.1965-08.civil-disorders-watts-2 |
+| 159 | Eisenhower for Holton, fall 1965 | cal.1965-10.governors |
+| 158 | Louisville's election, Nov. 2, 1965 | cal.1965-11-02.mayors |
+| 171 | Parkinson's Eleventh Commandment, spring 1966 | cal.1966-03.elections-1966 |
+| 171–72 | Ripon's "Twelfth Commandment," June 1966 | cal.1966-06.republican-party-2 |
+| 179 | Dawson and Hubbard, spring 1966; the shooting | cal.1966-03.elections-1966-2 |
+| 190 | Reagan to French, July 19, 1966 | cal.1966-07-19.elections-1966 |
+| 188 | Eisenhower to Jones, Aug. 19, 1966 | cal.1966-08-19.elections-1966 |
+| 188 | Reagan to McCone, Oct. 3; McCone to Eisenhower, Oct. 28, 1966 | cal.1966-10-03.elections-1966, cal.1966-10-28.elections-1966 |
+| 191 | Agnew to Parsons, Nov. 4, 1966 | cal.1966-11-04.governors |
+| 188 | Reagan to Brooke, Nov. 17, 1966 | cal.1966-11-17.elections-1966 |
+| 192 | Bliss to Mathias, Opportunities Unlimited, Nov. 22, 1966 | cal.1966-11-22.republican-party |
+| 208 | Landon to Romney, Feb. 1, 1967 | cal.1967-02-01.elections-1968 |
+| 237 | Rafferty on the University of California, Mar. 2, 1967 | cal.1967-03-02.students |
+| 196 | Goldwater to Buckley, July 5, 1967 | cal.1967-07-05.republican-party |
+| 227 | the Links Club meeting; Whitney's dinners, fall 1967 | cal.1967-09.elections-1968 |
+| 226–27 | Blades to Rumsfeld, Oct. 2 and Nov. 21, 1967; the Working Group to Percy, Nov.? 1967 | cal.1967-10-02.elections-1968, cal.1967-11-21.elections-1968, cal.1967-11.elections-1968-3 |
+| 222 | Chapman to Petri, Oct. 29, 1967 | cal.1967-10-29.elections-1968-2 |
+| 245 | Eisenhower to Baker, Mar. 2, 1968 | cal.1968-03-02.elections-1968 |
+| 235 | Nixon with McKissick and Innis; "black capitalism," spring 1968 | cal.1968-03.elections-1968-3 |
+| 233 | Cowger's Urban Affairs Task Force, 1968 | cal.1968-03.republican-party-congress |
+| 236 | Morse for Nixon; the Ripon members' pledges called back, Mar. 21, 1968 | cal.1968-03-21.elections-1968-2 |
+| 230 | Republicans for McCarthy, spring 1968 | cal.1968-04.elections-1968-3 |
+| 246 | Nixon's memorandum to the platform committee, Aug. 1968 | cal.1968-08.elections-1968-miami |
+| 242–43 | Melich's letters, Aug. 12, 1968 | cal.1968-08-12.elections-1968-miami |
+| 245 | Zimmer to Huebner, Aug. 12, 1968 | cal.1968-08-12.republican-party |
+| 239 | Rafferty's "treason"; his 4-F, fall 1968 | cal.1968-09.elections-1968-15 |
+| 239 | Djordjevich to Rusher, Oct. 8, 1968 | cal.1968-10-08.conservative-movement |
+| 246 | Winter to Petri, Oct. 16, 1968 | cal.1968-10-16.republican-party |
+| 245 | Kilberg's letter in the *Forum*, Nov. 1968 | cal.1968-11.republican-party |
+| 247 | Nixon to Huebner and Petri at the Waldorf, Nov. 6, 1968 | cal.1968-11-06.elections-1968-2 |
+| 248 | Thayer to Eisenhower, Nov. 19, 1968 | cal.1968-11-19.republican-party |
+| 245 | Hauberg to Huebner, Nov. 20, 1968 | cal.1968-11-20.republican-party |
+
+The merge flags 13 of these as possible duplicates of entries on their day and thread; each was compared and is
+distinct (`./bib resolve ID --take keep`).
 
 ## Leads
 
-- Kuchel's speech on the Birch Society, 1961 (Kabaservice, 61): the Record, Mar.–May 1961.
-- Louisville's mayoral election, Nov. 2, 1965 (Kabaservice, 160): the figures.
-- Hubbard against Dawson, the Republican primary of 1966 (Kabaservice, 175): the day and the figures.
+- Kuchel's speech against the Birch Society (Kabaservice, 137): 107 Cong. Rec. 5003 (Mar. 30, 1961), or May 2, 1963.
+- Percy's "New Dawn for Our Cities" (1966); the Mondale–Percy housing negotiation (1968); the Community Self-Determination Act (1968): their months.
+- Louisville's mayoral election, Nov. 2, 1965 (Kabaservice, 158): the names and figures (cal.1965-11-02.mayors).
+- Hubbard against Dawson, the Democratic primary of 1966 (Kabaservice, 179): the day and the figures (cal.1966-03.elections-1966-2).
 - The Maryland 6th District's primary, May 19, 1964 (Mathias's): the count.
 - Specter's margin, Nov. 2, 1965 (about 36,000, by Kabaservice): the count.
 - Ohio's and Pennsylvania's House primaries of 1966 (May 3, May 17): the counts.
 - Kuchel's libel suit (1965): the affidavit's and the suit's days.
-- Cowger's Urban Affairs Task Force of the House Republican Conference (1968): when named.
 - The Community Self-Determination Act (Taft, Goodell, Curtis; *Ripon Forum*, Sept. 1968): its introduction.
-- Nixon's "black capitalism" speeches, spring 1968 (Kabaservice, 235; Kotlowski, 126): the days.
-- Nixon's statement on Vietnam to the platform committee, Aug. 1968 (Kabaservice, 246).
 - The Republican Governors Association's meeting of summer 1967 (Kabaservice, 207–8, 211): the date and place.
 - Persons named without a name entry: Bruce Chapman, George Gilder, Emil Frankel, Josiah Lee Auspitz, Tanya Melich, Robert
   D. Behn, Edward Failor, William Prendergast, John R. Price (of Ripon), Michael C. Smith, Saul Alinsky, Newt Gingrich.

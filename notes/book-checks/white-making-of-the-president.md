@@ -35,7 +35,7 @@ cal.1960-07-24.elections-1960-2 (200), cal.1960-07-25.elections-1960 (205–6), 
 cal.1960-07.elections-1960-4 (245–49), cal.1960-09-05.elections-1960 (252–53), cal.1960-10-31.elections-1960 (309),
 cal.1960-11-06.elections-1960 (314).
 
-## New entries (41)
+## New entries (73)
 
 The West Virginia organization (Apr. 6, Apr. 11); Nixon's leak on Rockefeller (May 1); Rockefeller and Hughes at
 Tarrytown (May 30); Draft Stevenson (early June; July 4 week end); Lehman left off New York's delegation, and Wagner's
@@ -48,7 +48,8 @@ settled with Newport (July 25–26); Kennedy's opening (Sept. 2–3) and Califor
 governors' telegram (Sept. 26); the Hyannis Port conference (Oct. 1); Quemoy and Matsu in New York (Oct. 12); Wittenberg,
 Miami Beach and Tampa (Oct. 17, 18); the Broadway parade (Oct. 19); the Justice Department's statement on King, never
 issued (Oct. 25); the elephants (Nov. 5); Waterbury (Nov. 6); Nixon's tally (Nov. 7); the Secret Service (Nov. 9).
-Campaign speeches carry their APP record (by the index; APP not read).
+Campaign speeches carry their APP record (by the index; APP not read). And thirty-two more under the owner's ruling of
+Oct. 28 (late), listed under "Entered" below.
 
 ## Disagreements
 
@@ -127,71 +128,87 @@ Campaign speeches carry their APP record (by the index; APP not read).
 
 ## Passed over
 
+Under the owner's rulings of Oct. 28 (the papers of government; and, late, the dated stretch, the trip, the private
+meeting and the event's incidents as entries). What they made entries is in the section after this one.
+
 | page | date | event | why |
 |---|---|---|---|
 | 30, 36, 37, 43, 49, 53, 58, 68, 74–77 | 1958–Jan. 2, 1960 | Humphrey at Duluth; his announcement; Symington's meetings; Rayburn's announcement for Johnson; the Hyannis Port meeting of Oct. 28, 1959; Kennedy's announcement of Jan. 2; Rockefeller's withdrawal | out of the brief: before Jan. 6, 1960 |
-| 74 | Jan. 28, 1960 | New Hampshire's filing deadline | minor: a date in the law, no act |
+| 74 | Jan. 28, 1960 | New Hampshire's filing deadline | no act: a date in the law |
 | 83–93 | Mar. 1960 | the Wisconsin days, district by district | already in under cal.1960-03.elections-1960 (pending) |
 | 96 | Apr. 6–10 | the pressure on Humphrey to withdraw | already in under cal.1960-04-05.elections-1960-3 (pending, Humphrey) |
-| 109–12 | May 1960 | Humphrey's telethon in West Virginia | undated (the last days) |
 | 115–17 | May 1–17 | the U-2 and the summit | already in under the Soviet Union's entries |
-| 119–21 | June 1960 | White's talk with Stevenson at Libertyville, Mrs. Roosevelt's call | undated; private remarks |
-| 122 | Apr. 1960 | the Stevenson headquarters at 100 Indiana Avenue | undated ("early in April"); a lead |
-| 124–25 | late May–June | Monroney and Sharon on the road; Brown's call to Stevenson | undated; a lead |
-| 126 | June 1960 | Novak's column on Symington | minor: a journalist's column, no act |
-| 142–43 | late May–June | Kennedy's mountain-State conventions (New Mexico, Arizona, Colorado) | undated, State by State; a lead |
-| 159 | July 11–13 | Kennedy's caucuses, morning by morning | minor: the routine of the convention |
-| 160 | July 9–10 | Meyner holds New Jersey | undated ("over the week end"); a lead |
-| 168–69, 171–72 | July 13–14 | Kennedy's day of the balloting; James Roosevelt at Robert Kennedy's door | private or social |
+| 126 | June 1960 | Novak's column on Symington | a journalist's column, no act |
+| 168–69 | July 13 | Kennedy's swim, Irish stew at his father's villa, his marked tally | family and social |
 | 173 | July 10 | Kennedy to Philip Graham on Johnson for second place | already in under cal.1960-07-11.elections-1960-2 (Graham's account) |
-| 178–79 | July 15 | Nixon watches the acceptance with two aides; Joseph Kennedy watches with Luce | private or social |
-| 185 | early July | White's talk with Rockefeller | private remarks |
-| 192 | spring 1960 | Percy's draft platform | undated; already in under cal.1960-07.elections-1960-2 |
-| 201 | July 24 | the platform committee reconvenes in the Hubbard Room; the placards | minor: an incident below the level the calendar records |
-| 245–48 | July 17–Aug. | Hyannis Port: Thompson's registration drive, Cox's speech-writers, Byron White's volunteers, the coordinators | undated; a lead |
-| 250, 264, 295, 319–20 | Aug.–Nov. | Gallup's readings (Nixon 53–47; 47–46; 49–46; 51–45) | already in under the Opinion thread where entered; the rest a lead, to be read from *The Gallup Poll* |
-| 250–51 | Aug. | Robert Kennedy at 1001 Connecticut Avenue; Salinger's "diffusing" | undated; private remarks |
-| 253 | Sept. 5 | Kennedy's statement on the Congo, approved on the road | a lead: the statement's text and day in APP |
-| 254–56 | Sept. 6–9 | the Pacific Northwest and the jokes on the expected child | minor |
+| 192 | spring 1960 | Percy's draft platform | already in under cal.1960-07.elections-1960-2 |
+| 250 | Aug. | Salinger's "diffusing" | private remark (the move it speaks of entered) |
+| 254–56 | Sept. 6–9 | the jokes on the expected child | social |
 | 260 | Sept. 10–11 | Kennedy and Sorensen draft the Houston speech at the Ambassador Hotel | a meeting's preparation |
-| 264–65 | May–July | the Republican Plans Board; the Hall–Shepley and Newton–Rogers plans | undated; a lead |
 | 266–67 | Aug.–Oct. | Nixon's theory of pace; the fifty-state pledge | analysis, no act |
-| 275–76 | Sept. 12 | Nixon at Union Square, San Francisco | already in under cal.1960-09-12.elections-1960-2 (pending) |
-| 276–78 | Sept. 16–17 | Nixon across Iowa, Council Bluffs to Des Moines | already in under cal.1960-09-16.farm (pending) |
-| 281–83 | Sept. | the networks and the candidates' men at the Waldorf-Astoria on the debates' terms | undated ("by mid-September"); a lead |
+| 275–78 | Sept. 12, 16–17 | Nixon at Union Square; across Iowa | already in (cal.1960-09-12.elections-1960-2; the Iowa day in b3-six-crises-more) |
 | 283–86 | Sept. 25–26 | the debate preparations at the Knickerbocker and the Pick-Congress | a meeting's preparation |
 | 294–95 | Oct. 13 | Mazeroski's home run; Khrushchev leaves New York | out of the brief; already in |
-| 298–99 | Oct. 19–21 | Nixon at the Waldorf Towers; Klein's press conference in Peacock Alley | undated within the three days; a lead |
-| 300–04 | Oct. 24–Nov. 1 | Nixon's last swing: Marietta, Parkersburg, Michigan, Danville, Centralia, Syracuse, Queens | already in under cal.1960-10-25.elections-1960 for its start; the rest a lead (APP) |
-| 308 | Sept. 29 | Eisenhower's closed-circuit dinner in Chicago | in the daybook (1960–61 Pub. Papers 734) |
-| 309 | Sept. 26 | Eisenhower to the Catholic Charities, New York, the night of the first debate | in the daybook (1960–61 Pub. Papers 728) |
+| 300–04 | Oct. 24–Nov. 1 | Nixon's last swing: Marietta, Parkersburg, Michigan, Danville, Centralia, Syracuse | entered in b3-six-crises-more (cal.1960-10-24.elections-1960-2, cal.1960-10-31.elections-1960-3), White cited there |
+| 309 | Sept. 26 | Eisenhower to the Catholic Charities, New York | in the daybook (1960–61 Pub. Papers 728); not politics |
 | 309 | Oct. 29 | a White House aide in Chicago learns Nixon will call on the President | a meeting's preparation (the lunch of Oct. 31) |
 | 313 | Nov. 5 | the telethon ordered at 1 p.m. Saturday | already in under cal.1960-11-07.elections-1960 (pending) |
-| 317 | early Nov. | Nixon's own estimate of the big seven States | undated ("a few days before"); a lead |
-| 319 | late Oct. | Nixon's speech writers on Galbraith for the Treasury | private remarks |
+| 319 | late Oct. | Nixon's speech writers on Galbraith for the Treasury | gossip with a correspondent, no act |
 | 324–25 | Oct. 16 | Kennedy on Meet the Press | in the daybook's Sunday line; nothing of what he said |
-| 326–29 | Oct.–Nov. | Kennedy's taunts in New Mexico, Arizona, Wisconsin, Illinois, the South | undated; a lead (APP) |
-| 328 n.8 | Oct. | Goldwater: if Nixon lost he would seek the nomination in 1964 | undated ("a few days earlier" than Oct. 15); a lead |
 | 338–39 | Nov. 6 | Kennedy's arrival in Connecticut, midnight | already in under cal.1960-11-06.elections-1960-4 |
-| 345–49 | Nov. 9 | Kennedy's morning: Sorensen at 9:30, the walk on the beach, touch football, dinner with Walton and the Bradlees | private or social |
-| 349 | Nov. 9 | the talk of Khrushchev's congratulations | already in under cal.1960-11-09.soviet-union |
+| 345–49 | Nov. 9 | the walk on the beach, touch football, the movies | family and social |
+| 349 | Nov. 9 | Khrushchev's congratulations | already in under cal.1960-11-09.soviet-union |
 | 350–86 | Nov. 8 | the vote analyzed | analysis; the figures already in (Elections, 1960) |
-| 367–82 | 1961 | ch. 15, the Presidency; a Thursday of early 1961 | undated; out of the book's campaign |
+| 250, 264, 295, 319–20 | Aug.–Nov. | Gallup's readings (Nixon 53–47; 47–46; 49–46; 51–45) | the Opinion thread enters Gallup's releases from *The Gallup Poll*; White's figures second-hand |
+| 367–82 | 1961 | ch. 15, the Presidency; a Thursday of early 1961 | no day; out of the book's campaign |
 
-By reason (48 rows): out of the brief 2; undated 15 (most of them leads below); a lead, dated 1; minor 5; private or
-social 5; already in 15; a meeting's preparation 3; analysis 2.
+By reason: out of the brief 2; no act or analysis 4; already in 10; family or social 3; a meeting's preparation 3;
+private remark or gossip 2; journalists 1; polls 1; entered in the other patch 1; no day 1.
+
+## Entered (the owner's ruling, Oct. 28, late)
+
+In this patch (b3-white-1960), from rows first passed over as undated, private, minor or a lead:
+
+| page | date | event | entry |
+|---|---|---|---|
+| 122 | early Apr. | the Stevenson headquarters at 100 Indiana Avenue | cal.1960-04.elections-1960-4 |
+| 109–10 | Apr.–May | Ribicoff's and Bailey's pressure on Humphrey's backers | cal.1960-04.elections-1960-5 |
+| 110 | May 7 | Humphrey's personal check for television time | cal.1960-05-07.elections-1960-2 |
+| 109–12 | May 9 | Humphrey's telethon | cal.1960-05-09.elections-1960-2 |
+| 123–25 | late May–June | Monroney and Sharon on the road | cal.1960-05.elections-1960-7 |
+| 125 | June | Brown's call to Stevenson | cal.1960-06.elections-1960-10 |
+| 119–22 | June | Stevenson to White at Libertyville; Mrs. Roosevelt's call | cal.1960-06.elections-1960-11 |
+| 142–43 | May 21–June 27 | Kennedy's travels; the mountain-State conventions | cal.1960-05-21.elections-1960 |
+| 264, 313 | May–Sept. | the Republican Plans Board | cal.1960-05.elections-1960-8 |
+| 185 | early July | Rockefeller to White | cal.1960-07.elections-1960-10 |
+| 160 | July 9–10 | Meyner holds New Jersey | cal.1960-07-09.elections-1960-2 |
+| 159 n.3 | July 11–13 | Kennedy's caucuses, morning by morning | cal.1960-07-11.elections-1960-5 |
+| 168 | July 12–13 | North Dakota held; Robert Kennedy's count | cal.1960-07-12.elections-1960-7 |
+| 172 | July 14 | James Roosevelt at Robert Kennedy's door | cal.1960-07-14.elections-1960-2 |
+| 178–79 | July 15 | Nixon watches the acceptance; Joseph Kennedy with Luce | cal.1960-07-15.elections-1960-2, -3 |
+| 201 | July 24 | the platform committee reconvenes; the placards | cal.1960-07-24.republican-party-3 |
+| 245–49 | Aug. | Thompson, Cox, Byron White, the coordinators, O'Donnell's office | cal.1960-08.elections-1960-7 |
+| 250 | Aug. | Robert Kennedy at 1001 Connecticut Avenue | cal.1960-08.elections-1960-8 |
+| 253 | Sept. 5 | Kennedy's statement on the Congo | cal.1960-09-05.elections-1960-2 |
+| 253–56 | Sept. 6–7 | the Northwest | cal.1960-09-06.elections-1960 |
+| 281–83 | Sept. | the debates' terms at the Waldorf-Astoria | cal.1960-09.elections-1960-4 |
+| 308 | Sept. 29 | Eisenhower's Victory Fund dinner in Chicago | cal.1960-09-29.elections-1960 |
+| 298–99 | Oct. 19–21 | Nixon at the Waldorf Towers; Klein's press conference | cal.1960-10-19.elections-1960-3 |
+| 328 n.8 | before Oct. 15 | Goldwater on 1964 | cal.1960-10.goldwater-2 |
+| 326–29, 338 n.6 | Oct. 30–Nov. 4 | Kennedy's last week but one; the taunts | cal.1960-10-30.elections-1960-5 |
+| 317 | early Nov. | Nixon's estimate of the big seven | cal.1960-11.elections-1960-4 |
+| 3–5 | Nov. 8 | Kennedy votes in Boston | cal.1960-11-08.elections-1960-8 |
+| 24–25 | Nov. 9 | Kennedy watches Nixon's appearance | cal.1960-11-09.elections-1960-9 |
+| 346 | Nov. 9 | Scott and Michigan to Nixon's command | cal.1960-11-09.elections-1960-10 |
+| 347 | Nov. 9 | Sorensen at 9:30 | cal.1960-11-09.elections-1960-11 |
+| 349 | Nov. 9 | dinner with Walton and the Bradlees | cal.1960-11-09.transition-and-staff-3 |
 
 ## Leads
 
-- National: the Stevenson headquarters at 100 Indiana Avenue (April 1960), Monroney and Sharon's tour (late May–June),
-  Brown's telephone call to Stevenson: White, 122–25; the dates in the Stevenson papers or the press.
-- National: the Republican Plans Board, its members and four meetings (White, 264, 313): Hall's and Finch's papers.
-- National: Kennedy's mountain-State conventions, May–June (White, 142–43): the State conventions' days.
-- National: Kennedy's Congo statement, Sept. 5 (White, 253), and the Oct. 12 Quemoy speech's text (White, 292 n.4):
-  which APP documents.
-- National: the debate negotiations at the Waldorf-Astoria, September (White, 282–83): the date of the agreement.
-- National: Klein's press conference at the Waldorf, Oct. 19–21 (White, 299); Nixon's estimate of the big seven,
-  early November (317).
-- National: Goldwater's statement that he would seek the nomination in 1964 if Nixon lost, before Oct. 15 (White, 328 n.8).
+Entered now with a Check on the day (the owner's ruling, Oct. 28, late): the Stevenson headquarters, Monroney and
+Sharon's tour, Brown's call, the Plans Board, the mountain-State conventions, the Congo statement, the debate
+negotiations, Klein's press conference, Nixon's estimate, Goldwater on 1964 (the ids above). Left:
+
+- National: the Oct. 12 Quemoy speech (White, 292 n.4): which of the day's APP documents carries it.
 - National: Gallup's readings White gives (250, 264, 319–20), to be set against *The Gallup Poll*, vol. III.
 - National: Section 315, "June 27th" (White, 282): a vote in Congress that day? The *Record*.

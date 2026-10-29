@@ -115,22 +115,12 @@ roll calls, 77 Stat. 422. The rest stand on Sundquist with the record his note g
 | --- | --- | --- | --- |
 | 36 n.70 | Mar. 5, 1961 | Samuelson on *Meet the Press*: a $5 billion deficit "needed now" | out of the brief (an economist out of office); the Sunday line shows the program |
 | 41 | Jan. 1961 | Bridges, Cotton, Carl Curtis and Byrd reintroduce the balanced-budget amendment | undated (the note dates the Texas memorial, Jan. 26); a lead |
-| 42 n.92 | June 8, 1961 | Mills on the tax extension bill: reduce taxes from a surplus, not to raise a deficit | a lead: the Record (107 Cong. Rec. 9778) not read |
-| 43 n.94 | June 6, 14, 28, 1962 | Carlson, Capehart, Williams, Bennett, Bush: a tax cut only with equal spending cuts | a lead: the Record not read |
 | 43 n.95 | Aug. 1, 1962 | Proxmire puts Gallup's poll in the Record, 72–19 against a cut that raises the debt | a lead for the Opinion thread (the poll's own release) |
-| 43 n.96 | Aug. 1962 | Kennedy to reporters on the poll's wording (1962 Pub. Papers 593) | a lead: the item not read |
-| 58 | Mar. 9, 1961 | Proxmire on structural unemployment (107 Cong. Rec. 3601) | a lead: the Record not read |
 | 72 | 1960 | Kennedy's sixty-one campaign speeches on area redevelopment | undated |
-| 76 | spring 1960 | the White House Conference on Children and Youth for the youth corps | undated; out of the brief (a conference's resolution) |
 | 77 | late 1959 | Clark's retraining bill drafted (Cooper, AVA) | before the calendar |
-| 87 | Mar. 20, 1961 | Clark's hearings on retraining open | a lead (the hearings' first day; Goldberg's deferral undated) |
 | 89 n.68 | June 5, 1961 | Logan of the AVA: thirty-four amendments | out of the brief (a lobby's testimony) |
 | 89 | Aug. 10, 1961 | the House committee reports the manpower bill | a lead (the report's number not given) |
-| 94 | Mar. 1962 | Batt's account of a White House meeting on standby public works | undated |
 | 96 n.85 | Aug. 28–29, 1962 | House Republicans on public works ("Bundle for Bailey") | already in under `cal.1962-08-29.jobs-and-wages` |
-| 100 | 1960; May 1961 | the Appalachian governors' two meetings; their meeting with Feldman, the Conference organized | undated; a lead |
-| 101–02 | Mar. 11–12, 1963 | the floods; Feldman and Lee White summon Batt | a lead (the summons undated) |
-| 103 | late 1963 | the Budget Bureau's objections to the Appalachian report | undated; a lead |
 | 105 | Oct. 3, 1961 | Hodges's press conference on area redevelopment | a lead (the words not quoted) |
 | 106 | June 11, 1963 | Batt's speech, said to cost votes the next day | a lead (Batt, an executive officer: the speech's place not given) |
 | 113 | Apr. 1962 | Keyserling's *Poverty and Deprivation* | out of the brief (a private study) |
@@ -139,61 +129,80 @@ roll calls, 77 Stat. 422. The rest stand on Sundquist with the record his note g
 | 127 n.40 | July 20, 1961 | Javits puts the Newburgh documents in the Record | a transmittal; the matter in under `cal.1961-06-19.welfare-ny` |
 | 129 n.44 | Aug. 11, 1961 | the American Public Welfare Association for work relief | out of the brief (an association) |
 | 130 | July 17, 1962 | the Senate passes the welfare bill by voice | already in under `cal.1962-07-25.program` |
-| 135 | June 1963 | the *Herald Tribune* on Republicans planning an antipoverty program | undated press report; a lead |
 | 136 | Oct. 20, 1963 | Bigart in the *Times* on eastern Kentucky | a journalist's report, not an act |
 | 138 | mid-Dec. 1963 | community action given the whole $500 million; Ylvisaker's breakfast | undated; already in under `cal.1963-12.poverty` |
 | 139 | Jan. 21, 1964 | the budget message on poverty; the CEA's chapter | a lead (the budget's entry to be pinned) |
-| 141 | Jan. 21, 1964 | the staff's outline of the program | a draft superseded (Wirtz's memorandum entered) |
-| 142 | Feb. 1–2, 1964 | Shriver told; the Sunday briefing | in under `cal.1964-02-04.poverty` |
-| 144 | early 1964 | Shriver's WPA-type jobs plan refused at a Cabinet meeting | undated; a lead |
 | 149 | July 1964 | the Republican platform's "so-called" war on poverty | a lead (the platform's entry) |
 | 150–51 | 1965–67 | the poverty program's later votes | undated in the book; the votes are Voteview's (leads) |
 | 186 | May 1960 | Rules reports the school bill, 7–5, Reece | already in under `cal.1960-05-26.school-aid` |
-| 187 | Nov. 2, 1960 | Nixon at Los Angeles on teachers' salaries | a lead (S. Rept. 994 not read) |
 | 189 | Feb. 22, Mar. 1, 1961 | the National Council of Churches; the Catholic bishops | out of the brief (churches); the bishops' date a Check on Feb. 20 |
-| 189 | Mar. 8, 1961 | the news conference on school aid (1961 Pub. Papers 156) | a lead (an entry of the news conference to find or make) |
-| 191 | Apr. 25, 1961 | Kennedy recommends extending the NDEA | a lead (the Public Papers' item not read) |
-| 202 | fall 1960; Jan. 21, Feb. 24, 1961 | the ACE's consensus; the Hovde task force; the land-grant circular | out of the brief (associations), the task force a lead |
 | 204 | June 16, 1962 | five school organizations against the college compromise | out of the brief (associations) |
-| 207–09 | Aug. 14, 1963 | Frelinghuysen on the college bill; the House's votes | a lead (the Record not read) |
-| 214–15 | Mar. 24–Aug. 10, 1965 | Ribicoff, Smith, Williams, Cooper on the education act | leads (the Record not read) |
-| 216 | May 2, 1966 | the House on college expansion, by voice | a lead |
-| 246 | Mar. 16, 1960 | Eisenhower: a "moderate" bill (1960–61 Pub. Papers 93) | a lead (the item not read) |
-| 247 | Feb.–Mar. 1960 | the DSG's leak of the discharge petition's names to the *Times* | undated; a lead |
 | 261 | Jan. 1963 | the Chicago conference on religion and race | out of the brief (churches) |
-| 263 | June 1963 | the DSG's telegram, the President's proposals "inadequate" | undated; a lead |
 | 264 | June 1963 | the White House meeting with the Leadership Conference | a lead (Schlesinger, 968–71) |
 | 270 | June 18, July 2, 1964 | Javits; Weltner (110 Cong. Rec. 15894) | leads (the Record not read) |
 | 271 | Dec. 1964 | Johnson to the Urban League (1963–64 Pub. Papers 1653) | a lead |
 | 276 | May 14, 1965 | Evans and Novak on a resignation threat over housing | a column, no act |
 | 278 | 1966 | the House Republican Policy Committee for the titles, against housing | undated; a lead |
-| 280 | July 25, 27, 1966 | Smith; Mathias on open housing | leads (the Record not read) |
 | 282 | Sept. 21, 1966 | Wilkins in the *Times* | out of the brief |
-| 284 | July 26, 1966 | Stephen Young on Hough (112 Cong. Rec. 16246) | a lead: the page does not answer to that day's Senate in the tables |
 | 286 | 1966 | the Republicans' antiriot amendment | undated here; a lead |
 | 305 | 1960 | Goldwater: "dressed up" "socialized medicine"; Mason "frigid"; Lippmann's column | undated (CQ Almanac); a column |
-| 306 | June 22, 1960 | Forand: Mills's plan a "sham" | a lead (the Record not read) |
-| 307 | Aug. 20, Oct. 6, Nov. 1, 1960 | Javits on the floor; Nixon at Cleveland; Kennedy at USC | leads (the Record, S. Rept. 994 not read) |
 | 308 | 1961 | Mills to Kennedy, "something can be worked out" (Sorensen) | undated |
 | 309–10 | Apr. 1961 | the AMA's strategy meeting; AMPAC; the AHA | out of the brief (associations) |
 | 311 | May 21, 1962 | the AMA's answer, Annis at the Garden | out of the brief (an association) |
-| 312–13 | 1962 | the Anderson–Javits compromise; the Randolph project cancelled (Sorensen) | undated; leads |
-| 315 | Jan. 1963 | the House Democratic caucus's Ways and Means seats (Bass, Jennings; Landrum refused) | a lead (the day) |
-| 317 | Jan. 1965 | 1,400 of the Senior Citizens to Washington; the Ways and Means ratio | leads |
 | 321 | July 27, 1965 | Byrnes on the conference report | a lead |
 | 330 | June 4, 1959 | Blatnik on the water pollution bill | before the calendar |
-| 331 | Feb. 25, 1960 | Edith Green on the veto | a lead (the Record not read) |
-| 355 | 1963 | the House's clean air vote, 206–10 Democrats, 67–92 Republicans | a lead (Voteview's day) |
-| 359 | May 1962 | Aspinall at the White House conference on conservation | a lead (the conference's entry, `cal.1962-05-24.conservation`) |
-| 365 | Jan. 1966 | Muskie's subcommittee's findings; forty-eight senators' $6 billion bill | a lead (the day) |
 | 371 | Apr. 7, 1965 | the industry at Detroit (Barr of General Motors) | out of the brief (a company's testimony) |
 | 373 | 1966 | the St. Croix riverway through the Senate; Maine's Allagash act | undated; a lead |
 | 376 | Sept. 7, 1965 | Barbour of the Florida sign companies | out of the brief |
-| 380 | early 1967 | Boyd's $558 million for the signs; the January air message | leads |
-| 514 | Jan. 1967 | the Democratic leaders' promise from Colmer (*Times*, Jan. 27, 1967) | a lead |
-| 516 | Jan. 25, 1967 | Inouye for Rule XXII | a lead (the Record not read) |
-| 522 | Sept. 1966 | Education and Labor against Powell's rules (112 Cong. Rec. 22851) | a lead; the thread `congress-powell` |
 | chs. X–XII | — | the analysis of the parties and Congress | undated |
+
+## Entered (the owner's ruling, Oct. 28, late)
+
+Rows of the Passed over list the ruling makes entries (a month or season is a date; a private meeting, call or paper of a
+public person is an entry), in `inbox/2026-10-29-b3-sundquist-more.yaml` (b3-sundquist-more), to merge after the main
+patch. The last column is the entry.
+
+| Page | Date | Event | Entry |
+| --- | --- | --- | --- |
+| 42 n.92 | June 8, 1961 | Mills on the tax extension bill: reduce taxes from a surplus, not to raise a deficit | cal.1961-06-08.economy |
+| 43 n.94 | June 6, 14, 28, 1962 | Carlson, Capehart, Williams, Bennett, Bush: a tax cut only with equal spending cuts | cal.1962-06-06.economy, cal.1962-06-14.economy, cal.1962-06-28.economy |
+| 43 n.96 | Aug. 1962 | Kennedy to reporters on the poll's wording (1962 Pub. Papers 593) | cal.1962-08-01.albany (pinned) |
+| 58 | Mar. 9, 1961 | Proxmire on structural unemployment (107 Cong. Rec. 3601) | cal.1961-03-09.economy |
+| 76 | spring 1960 | the White House Conference on Children and Youth for the youth corps | cal.1960-04.program |
+| 87 | Mar. 20, 1961 | Clark's hearings on retraining open | cal.1961-03-20.jobs-and-wages |
+| 94 | Mar. 1962 | Batt's account of a White House meeting on standby public works | cal.1962-03.jobs-and-wages |
+| 100 | 1960; May 1961 | the Appalachian governors' two meetings; their meeting with Feldman, the Conference organized | cal.1961-05.jobs-and-wages (the 1960 meetings, a year only, stay a lead) |
+| 101–02 | Mar. 11–12, 1963 | the floods; Feldman and Lee White summon Batt | cal.1963-01.jobs-and-wages |
+| 103 | late 1963 | the Budget Bureau's objections to the Appalachian report | cal.1963-12.jobs-and-wages |
+| 135 | June 1963 | the *Herald Tribune* on Republicans planning an antipoverty program | cal.1963-06.poverty |
+| 141 | Jan. 21, 1964 | the staff's outline of the program | cal.1964-01-21.poverty |
+| 142 | Feb. 1–2, 1964 | Shriver told; the Sunday briefing | cal.1964-02-01.poverty |
+| 144 | early 1964 | Shriver's WPA-type jobs plan refused at a Cabinet meeting | cal.1964-02.poverty |
+| 187 | Nov. 2, 1960 | Nixon at Los Angeles on teachers' salaries | cal.1960-11-02.elections-1960-2 (Kennedy's speech at Los Angeles, not Nixon's) |
+| 189 | Mar. 8, 1961 | the news conference on school aid (1961 Pub. Papers 156) | cal.1961-03-08.school-aid |
+| 191 | Apr. 25, 1961 | Kennedy recommends extending the NDEA | cal.1961-04-25.school-aid |
+| 202 | fall 1960; Jan. 21, Feb. 24, 1961 | the ACE's consensus; the Hovde task force; the land-grant circular | cal.1961-01.school-aid (the Hovde task force; the associations stay out of the brief) |
+| 207–09 | Aug. 14, 1963 | Frelinghuysen on the college bill; the House's votes | cal.1963-08-14.school-aid (edited) |
+| 214–15 | Mar. 24–Aug. 10, 1965 | Ribicoff, Smith, Williams, Cooper on the education act | cal.1965-03-24.school-aid-2, cal.1965-04-07.school-aid, cal.1965-04-09.school-aid (edited); Cooper's of Aug. 10 not found in the text read, a lead |
+| 216 | May 2, 1966 | the House on college expansion, by voice | cal.1966-05-02.school-aid |
+| 246 | Mar. 16, 1960 | Eisenhower: a "moderate" bill (1960–61 Pub. Papers 93) | cal.1960-03-16.sit-ins (edited: one entry of the news conference) |
+| 247 | Feb.–Mar. 1960 | the DSG's leak of the discharge petition's names to the *Times* | cal.1960-02.voting-rights |
+| 263 | June 1963 | the DSG's telegram, the President's proposals "inadequate" | cal.1963-06.civil-rights-bill |
+| 280 | July 25, 27, 1966 | Smith; Mathias on open housing | cal.1966-07-25.open-housing, cal.1966-07-27.open-housing |
+| 284 | July 26, 1966 | Stephen Young on Hough (112 Cong. Rec. 16246) | cal.1966-07-26.civil-disorders |
+| 306 | June 22, 1960 | Forand: Mills's plan a "sham" | cal.1960-06-22.medicare |
+| 307 | Aug. 20, Oct. 6, Nov. 1, 1960 | Javits on the floor; Nixon at Cleveland; Kennedy at USC | cal.1960-08-20.medicare; cal.1960-10-06.elections-1960-2 (Nixon at Cleveland, from 308); Kennedy at USC, Nov. 1, a lead (his words not given) |
+| 312–13 | 1962 | the Anderson–Javits compromise; the Randolph project cancelled (Sorensen) | cal.1962-07.medicare |
+| 315 | Jan. 1963 | the House Democratic caucus's Ways and Means seats (Bass, Jennings; Landrum refused) | cal.1963-01.medicare |
+| 317 | Jan. 1965 | 1,400 of the Senior Citizens to Washington; the Ways and Means ratio | cal.1965-01.medicare |
+| 331 | Feb. 25, 1960 | Edith Green on the veto | cal.1960-02-25.conservation-2 |
+| 355 | 1963 | the House's clean air vote, 206–10 Democrats, 67–92 Republicans | cal.1963-07-24.conservation |
+| 359 | May 1962 | Aspinall at the White House conference on conservation | cal.1962-05-24.conservation (edited) |
+| 365 | Jan. 1966 | Muskie's subcommittee's findings; forty-eight senators' $6 billion bill | cal.1966-01.conservation |
+| 380 | early 1967 | Boyd's $558 million for the signs; the January air message | cal.1967-01.conservation (Boyd); the January air message a lead |
+| 514 | Jan. 1967 | the Democratic leaders' promise from Colmer (*Times*, Jan. 27, 1967) | cal.1967-01.rules |
+| 516 | Jan. 25, 1967 | Inouye for Rule XXII | cal.1967-01-25.rules |
+| 522 | Sept. 1966 | Education and Labor against Powell's rules (112 Cong. Rec. 22851) | cal.1966-09.congress-powell |
 
 ## Leads (copied into `notes/leads.md`, National)
 

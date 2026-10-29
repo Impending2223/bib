@@ -5,8 +5,8 @@ Card `w.clifford-counsel-to-the-president-2` (aliases `w.clifford-counsel-to-the
 a scan with a text layer, 761 PDF pages): printed page = PDF page − 24 through p. 364, − 40 from p. 365 (the plates,
 PDF 389–404, between); checked against the running heads and the notes' page heads (683 = PDF 723). Read for the
 calendar's span: chs. 18–31 (pp. 313–610) and the notes to them (pp. 682–688). The chapters on Truman (1945–53) are
-out of the span. Patch: `inbox/2026-10-29-b3-clifford.yaml` (b3-clifford: 124 edits, 110 new entries, 3 tag ops).
-Records: `sources/cited-records/clifford-counsel-to-the-president-2.yaml` (33 records).
+out of the span. Patches: `inbox/2026-10-29-b3-clifford.yaml` (b3-clifford: 124 edits, 110 new entries, 3 tag ops) and the supplement `inbox/2026-10-29-b3-clifford-more.yaml` (b3-clifford-more: 92 new entries, 1 edit).
+Records: `sources/cited-records/clifford-counsel-to-the-president-2.yaml` (37 records).
 
 What the book is: Clifford's memoir, written with Holbrooke: the Symington campaign and Kennedy's transition (1960),
 Kennedy's lawyer and the Foreign Intelligence Advisory Board (1961–63, its chairman from April 1963), Johnson's
@@ -106,103 +106,113 @@ distinct event (another meeting, paper or call that day), to be kept (`./bib res
 ## Passed over
 
 How the list was made: every dated event chs. 18–31 treat, listed page by page while reading (pp. 313–610), against
-the calendar's entries of the day and the pending patches; what was not entered is here.
+the calendar's entries of the day and the pending patches; what was not entered is here. Revised after the owner's
+ruling of Oct. 28, late: the rows it calls entries are now entered (the next section); these remain.
 
 | page | date | event | why |
 |---|---|---|---|
-| 316 | 1960-07-10 | Symington again refuses Kennedy's request to withdraw | minor (repetition of July 1) |
 | 316 | 1960-07-13 | Kennedy nominated, 806 votes | already in (the nomination) |
-| 321 | 1960, spring–June | Clifford asks Acheson to write Truman on party unity; Acheson's letters | undated |
-| 321 | 1960-07 | Kennedy's answer to Truman ("fourteen years in major elective office") | a lead (undated in the book; Check in `cal.1960-07-02.elections-1960`) |
-| 322 | 1960-08 | Ribicoff to Independence as Kennedy's emissary | undated (in the Aug. 20 entry's note) |
-| 325 | 1960-08, end | Jackson brings Neustadt to Kennedy; to work apart from Clifford | a lead (the day) |
-| 325 | 1960-10 | Clifford's memorandum after the first debate: "Nixon must not be permitted to create the illusion ..." | undated (a paper; a lead) |
-| 330 | 1960-12 | The Symington committee's report, "a month after his election" | a lead (its day; the calendar's December entries) |
-| 333 | 1960-11 | Clifford calls on Hoover; Courtney Evans the FBI's contact | undated |
-| 339 | 1960-11/12 | Bell for the Budget, Clifford and Neustadt for him | undated |
-| 340–41 | 1960-12 | The cabinet's finances; McNamara's Ford stock in a blind trust; the family trusts | undated |
 | 344 | 1961-03-23 | Kennedy's press conference on Laos | already in |
-| 346–47 | 1961-01-21 | The Alfalfa Club dinner | minor (social) |
-| 354 | 1961, summer | Kennedy raises Clifford for Director of Central Intelligence | undated |
-| 354–55 | 1961, fall | McCone tries to make the board his | undated |
-| 356 | 1961-03, 1961-06-15 | Thompson's warning on Berlin; Ulbricht's "building a wall" | a lead (the board's later finding; check the Berlin entries) |
-| 356 | 1962-10-22 | Clifford tells the board's members to stand by | minor (below the level) |
-| 361–68 | 1961–63 | The Georgetown house, Glen Ora; the White House restoration, the Fine Arts Committee (Feb. 23, 1961), the Historical Association (Nov. 3, 1961), Mrs. Kennedy's letters | out of the brief; private |
-| 368, 370 | 1961-12 | Edward Kennedy to run | undated |
-| 371–74 | 1962-01–09 | The Blauvelt story: Clifford for Kennedy; *Thunderbolt*; *Parade*, Sept. 2; *Newsweek*'s piece at Kennedy's request | a lead (the President's use of the press; days to fix) |
+| 346–47 | 1961-01-21 | The Alfalfa Club dinner | social, no bearing |
+| 361–68 | 1961–63 | The Georgetown house, Glen Ora; the White House restoration, the Fine Arts Committee (Feb. 23, 1961), the Historical Association (Nov. 3, 1961), Mrs. Kennedy's letters | out of the brief (the house's restoration); family and private |
 | 375–78 | 1962-03-30, 04-10, 04-11, 04-13 | White named; Blough; the press conference; the Carlyle | already in |
-| 389 | 1961–63 | Johnson's slights as Vice President | undated |
+| 389 | 1961–63 | Johnson's slights as Vice President | undated (no month given) |
 | 392 | 1964-02-28 | Lady Bird Johnson and Mrs. Kennedy on the Historical Association | out of the brief |
-| 394 | 1964 | Lady Bird Johnson's memorandum urging him to run | undated (a lead: her diary) |
-| 395 | 1964, early | Clifford's four-to-one bet on Goldwater | minor (private) |
-| 396 | 1964-07 | Johnson and Clifford on Robert Kennedy through July | undated |
+| 394 | 1964 | Lady Bird Johnson's memorandum urging him to run | undated (no month given; a lead: her diary) |
+| 395 | 1964, early | Clifford's four-to-one bet on Goldwater at a family dinner | family and social |
 | 397–402 | 1964-07-30, 10-14 | The correspondents; Jenkins | already in |
-| 398 | 1964-08 | To Atlantic City with Johnson; the Dodd speculation | a lead (the day) |
-| 398 | 1964, fall | Fortas, Rowe and Clifford, a "court of review" | undated |
-| 402 | 1964-10-15 | Lady Bird Johnson's statement on Jenkins | a lead |
 | 411–22 | 1965-07-21–28 | The July meetings | already in (pinned) |
-| 416 | 1965-07-22 | Clifford reads Ball's memoranda to 2 a.m. | minor |
-| 418 | 1965-07-24 | To Camp David | minor (social) |
+| 416 | 1965-07-22 | Clifford reads Ball's memoranda to 2 a.m. | an office's routine |
 | 421 | 1965-07-26 | Clifford repeats his case; the SAM sites | already in (`cal.1965-07-25.vietnam`, `cal.1965-07-27.vietnam-2`) |
-| 426, 429 | 1965-10-21, 10-31 | Clifford's departure for Tokyo, Taiwan, Hong Kong; his return | minor (travel) |
-| 431–32 | 1965-11 | Kissinger's denial to the AP; his letter to Clifford | undated (a lead) |
-| 433 | 1965-11–12 | Clifford's assessment to Rusk, McNamara, Bundy | undated |
-| 436 | 1965-12-18 | Johnson's note to Clifford | private remarks |
+| 436 | 1965-12-18 | Johnson's note to Clifford ("Magnificent ...") | already in (part of `cal.1965-12-18.vietnam-pause`, pinned 434–36) |
 | 436–37 | 1965-12-19, 1966-01-29, 01-31 | The pause decided; the resumption | already in |
-| 438 | 1965-07 | Johnson to Mrs. Clifford on posts for Clifford | private |
-| 439 | 1964, late; 1965-01 | The Attorney General's office raised | undated |
-| 440 | 1966, summer | Under Secretary of State offered; Katzenbach | undated (a lead: Katzenbach's move, Sept. 1966) |
+| 438 | 1966 | Johnson's hints of the national security assistant's and the Director's posts | undated (no month given) |
 | 440 | 1966-10-18 | Johnson's call from Hawaii | already in (`cal.1966-10-24.vietnam-asian-trip`) |
-| 448–49 | 1967-07 | The *Times*' story of the mission; Marcos cancels; Humphrey's note | undated; private |
-| 451 | 1967-10 | Lee Kuan Yew with Johnson and Clifford before the state dinner | a lead (the visit's day) |
+| 448 | 1967-07 | The *Times*' story of the mission's purpose | out of the brief (a news story, no act) |
 | 453 | 1967-09-29 | San Antonio | already in |
-| 456–58 | 1967-08, 10-31, 11 | McNamara before Stennis; the lunch of Oct. 31; Katzenbach's memorandum | a lead (FRUS V; the calendar's entries) |
-| 459–61 | 1967-11 | The World Bank leak; *Newsweek*'s list | already in; minor |
+| 456–59 | 1967-08, 11 | McNamara before Stennis; Katzenbach's memorandum; the World Bank | already in |
 | 464 | 1968-01-20 | The *Times*, the *Globe*, *Izvestia* on Clifford | out of the brief (comment) |
-| 468 | 1967-11-07, 11-15 | Westmoreland's and Bunker's cables; Rostow's memorandum enclosing the DCI's (notes 2, 3) | a lead (papers cited only in a note; FRUS V) |
-| 469, 472–73, 475 | 1968-01-29, 01-30, 02-02 | The Chiefs on Khe Sanh; the lunch; "complete failure" | already in (pinned) / a lead |
-| 471 | 1968-01-26 | Rusk and Rostow on Clifford's testimony; Christian | a lead |
-| 476, 479 | 1968-02-07, 18, 21, 23, 25 | Lang Vei; the casualties; Hanoi's radio station; the draft call; Westmoreland to the AP; Huế | a lead (operations; the Tet entries) |
-| 486–89 | 1968-02-28, 02-29, 03-01 | McNamara's medal; his departure; Clifford sworn | already in |
-| 499–500 | 1968-03-08, 03-09 | Goulding's note; Bradlee at the Gridiron | minor |
+| 468 | 1967-11-15 | Rostow's memorandum enclosing the DCI's | already in (`cal.1967-11-15.vietnam-order-of-battle`) |
+| 469, 472–73, 476, 486–89 | 1968-01-29, 01-30, 02-07, 02-28, 02-29, 03-01 | The Chiefs on Khe Sanh; the lunch; Lang Vei; McNamara's medal and departure; Clifford sworn | already in |
+| 479 | 1968-02-25 | The Marines clear the Citadel | already in (`cal.1968-02-24.vietnam`; Check in `cal.1968-02-25.vietnam-205000`) |
 | 501–02 | 1968-03-10, 11–12 | The *Times*' story; Johnson's anger; Rusk's testimony; New Hampshire | already in |
-| 505 | 1968-03-17 | Robert Kennedy's statement; Clifford's dispute with Sorensen and Kennedy | a lead (n.14; undated) |
-| 506 | 1968-03 | Clifford to Fulbright: he cannot support the policy | undated |
-| 518 | 1968-03-27 | Habib in Dayton | minor |
-| 521 | 1968-03-29 | Bundy's DEPTEL 138438 to Bunker (n.24) | a lead (check the calendar's Mar. 29) |
-| 524 | 1967, fall | Clifford's memorandum on Truman's decision of 1952 | undated |
-| 528 | 1968-03-30 | Clifford to Fulbright: the bombing to the 20th parallel | a lead |
-| 531 | 1968-04-07 | Over Washington by helicopter | a lead |
-| 532 | 1968-04-07 | Johnson: "Westy is bitter" | private remarks |
-| 534 | 1968-04-01 | Clifford's backgrounder: a "limitation" on deployments | a lead |
-| 536 | 1968-04 | Sheehan's piece in the *Times* | out of the brief |
-| 539 | 1968-05-18 | Clifford's "soliloquy" to Warnke, Elsey and Pursley; McNamara at lunch (FRUS VI, doc. 238) | private remarks; minor |
-| 540 | 1968-05-23 | Bunker's personal message to Johnson: regression in the hamlets | a lead (an ambassador's cable: an entry once found in FRUS VI) |
-| 542 | 1968-05 | 562 killed in a week | a lead (the war table) |
-| 542–43 | 1968-06, early | Sweet's report; Clifford to Wheeler; Wheeler to Abrams | undated |
-| 545 | 1968-06-05 | The evening with Johnson; the statement at 10:07 p.m. | in a pending patch (below) |
-| 546 | 1968-06-08; 1969-01-12 | The burial; $431,000 for the grave | minor; a lead |
-| 547 | 1968-06-07, 09, 11 | Kosygin's message kept from Clifford; Read; the reply | a lead; already in |
-| 547–49 | 1968-06 | Rostow and the Paris telegrams; Read's courier; Marks: "a disintegrating Administration" | undated; private remarks |
-| 549 | 1968-06-30 | Clifford and Rostow at dinner, three hours | minor |
-| 550–51 | 1968-06, 07-14–17 | Johnson asks Clifford to go; Saigon, Đà Nẵng, Thiệu and Kỳ | undated; a lead (the calendar's July 14–17) |
-| 557 | 1968 | Goodwin and Yergin's article | out of the span |
-| 558–59 | 1969-05 | Fortas resigns | out of the span |
-| 560 | 1968, summer | McNamara would leave the Bank to negotiate on arms | undated |
-| 563 | 1968-08-12 | The 8:30 Group on Nixon | private remarks |
-| 564 | 1968-08 | Murphy to Elsey on Johnson and Nixon; Johnson's call to Humphrey on the plank | undated; a lead |
+| 536 | 1968-04 | Sheehan's piece in the *Times* | out of the brief (a news story, no act) |
+| 546 | 1968-06-08 | Clifford at the burial | social |
+| 547 | 1968-06-09, 11 | The reply to Kosygin | already in |
+| 557–59 | 1968–69 | Goodwin and Yergin's article; Fortas's resignation | out of the span |
+| 564 | 1968-08 | Johnson's call to Humphrey on the plank | a lead (check `cal.1968-08-26.elections-1968-chicago`) |
 | 565 | 1968-08-25 | The Chicago speech drafted with Califano and McPherson | a draft not sent |
-| 568–69 | 1968-08-01, 08 | The 8:30 Group; Vance at dinner; Johnson on the stories of the dispute; Humphrey's call | private remarks; minor; undated |
-| 570 | 1968-09 | Harriman back, with Clifford, then Johnson | undated (a lead) |
-| 574 | 1968-10 | The farewell trip to Asia and Moscow | undated |
-| 577–78 | 1968-10-17 | Gorton's leak; Thiệu's objections to Bunker | a lead (Bunker's report) |
-| 578–79 | 1968-10-24–26 | Gallup; "underbrush"; Kosygin's letter; Kalb | already in / a lead |
-| 588–89 | 1968-10-29 | The Tuesday lunch | in a pending patch (below) |
-| 593, 595 | 1968-10-31, 11-05 | Dinner at Paul Young's; lunch with Nitze and Westmoreland | minor (social) |
-| 594 | 1968-11-01 | Warnke's memorandum on the arms talks | a lead (FRUS XX) |
-| 599 | 1968-11-06; 1968-12 | Kỳ to Bunker: two months; Nixon to the Soviets against a summit | a lead |
-| 602–05 | 1968-11-09, 11, 12-09, 12-24, 12-31 | Rumors of Clifford staying; Lincoln's first approach; Nixon's note; Johnson's and Bundy's letters | minor; undated; a lead; private |
-| 610 | 1968-12 | The last debate on going into Cambodia | undated |
+| 574 | 1968-10-12 | Kissinger to Mitchell (n.7, from the memoirs) | already in (the Chennault and Kissinger entries) |
+| 593, 595 | 1968-10-31, 11-05 | Dinner at Paul Young's; lunch with Nitze and Westmoreland, routine business | social; an office's routine |
+| 602 | 1968-11-09 | Elsey on the rumors that Clifford would stay | minor (a repetition of the rumors) |
+
+## Entered (the owner's ruling, Oct. 28, late)
+
+Supplementary patch `inbox/2026-10-29-b3-clifford-more.yaml` (b3-clifford-more: 92 new entries, 1 edit; to be merged
+after `b3-clifford`, whose ids it points to). The rows formerly passed over as undated, private, minor or a lead,
+each now an entry:
+
+| page | date | event | entry |
+|---|---|---|---|
+| 321 | 1960-06 | Acheson's letters to Truman | `cal.1960-06.elections-1960-9` |
+| 321 | 1960-07 | Kennedy's answer to Truman | (b3-clifford-more, `1960-07` elections-1960) |
+| 316 | 1960-07-10 | Symington refuses again | `cal.1960-07-10.elections-1960-2` |
+| 322 | 1960-08 | Ribicoff to Independence | `cal.1960-08.elections-1960-6` |
+| 325 | 1960-08 | Jackson brings Neustadt | `cal.1960-08.transition-and-staff-3` |
+| 325 | 1960-10 | Clifford's memorandum after the first debate | `cal.1960-10.elections-1960-8` |
+| 333 | 1960-11 | Clifford calls on Hoover | `cal.1960-11.transition-and-staff-2` |
+| 330 | 1960-12 | The Symington committee's report | `cal.1960-12.defense` |
+| 339 | 1960-12 | Bell for the Budget | `cal.1960-12.transition-and-staff-cabinet-3` |
+| 340–41 | 1960-12 | The cabinet's finances, McNamara's stock, the family trusts | `cal.1960-12.transition-and-staff-cabinet-4` |
+| 354 | 1961-07 | Clifford for Director, raised | `cal.1961-07.intelligence` |
+| 354–55 | 1961-12 | McCone's run at the board | `cal.1961-12.intelligence` |
+| 370 | 1961-12 | Edward Kennedy to run | `cal.1961-12.elections-1962` |
+| 371–74 | 1962-01, 05, 09-02, 09-24 | The Blauvelt story | `cal.1962-01.press-and-broadcasting-2`, `cal.1962-05.press-and-broadcasting-2`, `cal.1962-09-02.press-and-broadcasting`, `cal.1962-09-24.press-and-broadcasting` |
+| 356 | 1962-10-22 | Clifford calls the board's members | `cal.1962-10-22.missile-crisis-10` |
+| 396 | 1964-07 | Johnson and Clifford on Robert Kennedy through July | `cal.1964-07.elections-1964-3` |
+| 398 | 1964-08 | To Atlantic City; Dodd | `cal.1964-08.elections-1964-2` |
+| 398 | 1964-09 | The "senior court of review" | `cal.1964-09.elections-1964-3` |
+| 402 | 1964-10 | Lady Bird Johnson's statement on Jenkins | (b3-clifford-more, `1964-10` elections-1964) |
+| 439 | 1964-12, 1965-01 | The Attorney General's office raised; Katzenbach's status | `cal.1964-12.transition-and-staff`, `cal.1965-01.transition-and-staff`, `cal.1965-01.transition-and-staff-2` |
+| 438 | 1965-07 | The UN, through Mrs. Clifford | `cal.1965-07.transition-and-staff` |
+| 418 | 1965-07-24 | Camp David | `cal.1965-07-24.vietnam-july-decision` |
+| 426, 429 | 1965-10-21, 10-31 | Tokyo, Taiwan, Hong Kong; the return | `cal.1965-10-21.vietnam-2`, `cal.1965-10-31.vietnam` |
+| 431–33 | 1965-11 | Kissinger's denial and letter; Clifford's assessment to Rusk, McNamara, Bundy | `cal.1965-11.vietnam`, `cal.1965-11.vietnam-2` |
+| 440 | 1966-08 | The Under Secretary's post | `cal.1966-08.transition-and-staff` |
+| 448–49 | 1967-07 | The embassies' telegrams, Marcos; Humphrey's note | `cal.1967-07.vietnam`, `cal.1967-07.vietnam-2` |
+| 524 | 1967-10 | The memorandum on Truman's decision of 1952 | `cal.1967-10.elections-1968-2` |
+| 451 | 1967-10-17 | Lee Kuan Yew | `cal.1967-10-17.vietnam-4` |
+| 457 | 1967-10-31 | The Tuesday lunch, McNamara's doubts | (b3-clifford-more, `1967-10-31` vietnam) |
+| 468 | 1967-11-07 | Westmoreland's and Bunker's cables | `cal.1967-11-07.vietnam-2` |
+| 461 | 1967-11 | *Newsweek*'s list; Fortas | `cal.1967-11.defense` |
+| 462 | 1968-01 | The State of the Union | `cal.1968-01.program` |
+| 471 | 1968-01-26, 1968-01 | Rusk and Rostow on the testimony; "said it better" | `cal.1968-01-26.defense-clifford`, `cal.1968-01.defense-clifford` |
+| 475 | 1968-02 | Aiken | `cal.1968-02.vietnam-tet-3` |
+| 479 | 1968-02-18, 21, 23, 25 | The week's dead; Hanoi's radio station; the draft call; Westmoreland to the AP | `cal.1968-02-18.vietnam-tet`, `cal.1968-02-21.vietnam-air-war`, `cal.1968-02-23.draft`, `cal.1968-02-25.vietnam-205000` |
+| 499–500 | 1968-03-08, 09 | Goulding's note; Bradlee at the Gridiron | `cal.1968-03-08.vietnam-205000-5`, `cal.1968-03-09.vietnam-205000-2` |
+| 505–06 | 1968-03 | Fulbright's request, Clifford's refusal; the dispute with Sorensen and Kennedy | `cal.1968-03.vietnam-congress`, `cal.1968-03.robert-kennedy` |
+| 518 | 1968-03-27 | Habib in Dayton | `cal.1968-03-27.vietnam-205000-4` |
+| 528 | 1968-03-30 | Clifford to Fulbright on the 20th parallel | `cal.1968-03-30.vietnam-congress` |
+| 534 | 1968-04-01 | The backgrounder | `cal.1968-04-01.vietnam-force-levels` |
+| 531–32 | 1968-04-07 | The helicopter survey; "Westy is bitter" | `cal.1968-04-07.civil-disorders-king-2`, `cal.1968-04-07.vietnam` |
+| 539 | 1968-05-18 | The soliloquy; lunch with McNamara | `cal.1968-05-18.vietnam-paris`, `cal.1968-05-18.defense-clifford` |
+| 542 | 1968-05 | 562 dead in a week | `cal.1968-05.vietnam-tet` |
+| 542–43 | 1968-06 | Sweet's report sent on | `cal.1968-06.vietnam-abrams` |
+| 547–50 | 1968-06 | The meeting at State; the Paris telegrams; Marks; the dinner with Rostow; the trip asked | `cal.1968-06-07.soviet-union`, `cal.1968-06.vietnam-paris`, `cal.1968-06.vietnam-paris-2`, `cal.1968-06-30.vietnam-paris`, `cal.1968-06.vietnam` |
+| 550–51 | 1968-07-14–17 | Saigon, Đà Nẵng, Thiệu and Kỳ, Bunker and Berger | `cal.1968-07-14.vietnam`, `cal.1968-07.vietnam`, `cal.1968-07.vietnam-2`, `cal.1968-07.vietnam-3` |
+| 560 | 1968-07 | McNamara's message on the arms talks | `cal.1968-07.testing-missile-talks` |
+| 568–69 | 1968-07-30, 08-01, 08 | Rusk in the car; the 8:30 Group; Vance at dinner; "I want it stopped" | `cal.1968-07-30.vietnam-paris-2`, `cal.1968-08-01.vietnam-paris`, `cal.1968-08.vietnam-paris`, `cal.1968-08.vietnam-paris-2` |
+| 563–64 | 1968-08-12, 08 | The 8:30 Group on Nixon; Murphy to Elsey | `cal.1968-08-12.elections-1968`, `cal.1968-08.elections-1968-3` |
+| 569–70 | 1968-09 | Humphrey's call; Harriman home | `cal.1968-09.elections-1968-16`, `cal.1968-09.vietnam-paris` |
+| 574 | 1968-10 | The farewell trip | `cal.1968-10.vietnam-paris` |
+| 577–79 | 1968-10-17, 10-24 | Gorton, Thiệu's objections; "the underbrush" | `cal.1968-10-17.vietnam-paris-2`, `cal.1968-10-24.vietnam-paris` |
+| 594 | 1968-11-01 | Warnke's memorandum asked; Thiệu refuses Bunker | `cal.1968-11-01.testing-missile-talks`, `cal.1968-11-01.vietnam-paris` |
+| 599 | 1968-11-06, 12 | Kỳ to Bunker; Nixon to the Soviets | `cal.1968-11-06.vietnam-paris-2`, `cal.1968-12.soviet-union` |
+| 602–05 | 1968-11, 12-09, 12-24, 12-31 | Lincoln's first approach; Nixon's note; Johnson's and Bundy's letters | `cal.1968-11.transition-and-staff`, `cal.1968-12-09.transition-and-staff`, `cal.1968-12-24.vietnam-paris`, `cal.1968-12-31.vietnam-paris` |
+| 604, 610 | 1968-12 | Clifford and Warnke with Laird; the last debate on Cambodia | `cal.1968-12.vietnam-2`, `cal.1968-12.vietnam-3` |
+| 546 | 1969-01-12 | The grave at Arlington | `cal.1969-01-12.robert-kennedy` |
+
+The dry run flags 33 of them "possible duplicate" (same day or month, same thread): distinct events, to be kept.
 
 ## For entries in pending patches
 

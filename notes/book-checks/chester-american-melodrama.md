@@ -5,13 +5,25 @@ Viking edition of 1969, 840 PDF pages with a text layer. Printed page = PDF page
 the page images of pp. 381, 544 and 585. Fractions the text layer garbles (1,760¼, 1,691½, 15½, 7½) were read off
 the images of pp. 409, 544 and 585. The PDF and its text have been deleted. The book has no notes and no
 bibliography. It rests on the three authors' reporting for the London *Sunday Times* through 1968 and on their
-interviews; where a passage is one participant's account, the entry says whose. Patch:
-`inbox/2026-10-29-b3-chester.yaml` (b3-chester; 200 ops). Records: `sources/cited-records/chester-american-melodrama.yaml`
+interviews; where a passage is one participant's account, the entry says whose. Patches:
+`inbox/2026-10-29-b3-chester.yaml` (b3-chester; 209 ops) and, under the owner's ruling of Oct. 28, late,
+`inbox/2026-10-29-b3-chester-more.yaml` (b3-chester-more; 38 entries). Records: `sources/cited-records/chester-american-melodrama.yaml`
 (none: no notes).
 
 ## The citations it had
 
-None in the calendar. The card is listed in Opp. II.E and 1968 II.A.
+Nineteen entries named the book behind "To check:". The card is also listed in Opp. II.E and 1968 II.A.
+
+- Ten were pinned among the edits below.
+- Five more were pinned:
+  - Feb. 8, 1968, Wallace's announcement (289);
+  - Apr. 2, Robert Kennedy's "every establishment" (143, 145). Chester gives the occasion: to a reporter on his plane,
+    the night of Humphrey's Waldorf dinner, Tuesday. The entry's "Check: the occasion" is left for the owner.
+  - May 16, Georgia's slate, picked by the State chairman and the governor (556);
+  - July 3, Minneapolis (291). Check added: Chester puts the scuffle on July 4.
+  - Nov. 5, Nixon's 43.4 percent (747).
+- Four were cut because the book does not treat them: Jan. 7, 1967 (the Waldorf Towers planning); Nov. 18, 1967
+  (Romney's announcement); Feb. 1, 1968 (Nixon's announcement); Sept. 2, 1968 (Labor Day).
 
 ## Pinpoints added to entries already in (57)
 
@@ -83,12 +95,12 @@ Under the ruling on the papers of government (brief-batch3.md rule 5, applied he
 memoranda and papers the book dates are entries, dated by the paper: Rauh's paper (July 1967), Walinsky's (Nov. 9,
 1966), Schlesinger's letter (Nov. 3, 1967), Hoeh and Studds's (December 1967), Hughes's (May 19, 1968), O'Brien's
 (Sept. 28), Connell's three (October, Oct. 22, Oct. 25), the Opinion Research Corporation's panels (Sept. 26) and
-Daley's report (Sept. 6). Before the ruling, none was passed over as below the level. The two left out are
-undated: the COPE memorandum on Wallace and Sorensen's "reunite" paper of about May 26.
+Daley's report (Sept. 6). Before the ruling, none was passed over as below the level. Two papers left out at first as undated, COPE's
+memorandum on Wallace and Sorensen's "reunite" strategy, are now entered under the later ruling (below).
 
 ## For entries in pending patches
 
-The same events are added in `inbox/2026-10-29-b3-humphrey.yaml`. Chester's matter is held here to be folded into
+The same events are added in `inbox/2026-10-29-b3-humphrey.yaml` and `inbox/2026-10-29-b3-solberg.yaml`. Chester's matter is held here to be folded into
 those entries at merge, not added twice:
 
 - cal.1968-08-24.elections-1968-chicago-3 (Ginsberg and Murphy agree the Vietnam language). Chester, 536: "That evening Charles Murphy, Johnson's
@@ -108,85 +120,78 @@ those entries at merge, not added twice:
   The session ends at 5:15 a.m. All day Sunday Humphrey's headquarters telephones McCarthy's and Kennedy's leaders:
   the speech is "a major new independent position" (741). Chester's session runs to 5:15 a.m.; Humphrey's to 2 a.m.
   Check.
+- cal.1968-04-03.elections-1968-5 (b3-solberg) (the Waldorf dinner). Chester, 143: Humphrey, after a short talk with Johnson, to New York, Gardner Cowles's dinner for *Look*'s advertisers at the Waldorf-Astoria; upstairs, with the Cowles brothers, Henry Ford II and Sidney Weinberg of Goldman, Sachs, on running and its money. Chester has it Tuesday evening, Apr. 2. Check.
+
+## Entered (the owner's ruling, Oct. 28, late)
+
+These rows were passed over at first and are now entries in `inbox/2026-10-29-b3-chester-more.yaml`. The format is
+page | date | event | entry.
+
+- 227 | May 1963 | Nixon's move to New York announced | cal.1963-05.republican-party-2
+- 65 | July 1967 | Schlesinger and Hartke at Leningrad | cal.1967-07.democratic-party-2
+- 65–66 | Sept.–Oct. 1967 | Lowenstein's soundings of Don Edwards, Church, Galbraith, Gavin | cal.1967-09.democratic-party
+- 90–91 | December 1967 | Hersh taken on by McCarthy | cal.1967-12.elections-1968-3
+- 115 | December 1967 | O'Donnell to Hamill in Boston | cal.1967-12.robert-kennedy-campaign
+- 516 | Dec. 31, 1967 | Gregory's notice to Johnson (*Chicago Tribune*) | cal.1967-12-31.elections-1968-chicago
+- 107–8 | Jan. 19, 1968 | Mercouri to Robert Kennedy | cal.1968-01-19.robert-kennedy-campaign-2
+- 116 | Jan. 31 | Hamill's letter to Robert Kennedy | cal.1968-01-31.robert-kennedy-campaign
+- 93 | February | Goodwin joins McCarthy in Manchester | cal.1968-02.elections-1968-2
+- 94–95 | February | the write-in's pledge cards | cal.1968-02.elections-1968-3
+- 117–18 | Mar. 3–4 | Hickory Hill, O'Donnell, Dutton, Sorensen | cal.1968-03-03.robert-kennedy-campaign
+- 119 | Mar. 12 | Robert Kennedy at "21" | cal.1968-03-12.robert-kennedy-campaign
+- 134–35 | Mar. 17 | the Shore Wood Village Democratic Club | cal.1968-03-17.elections-1968
+- 221 | Mar. 17 | the Oregon delegation at 812 Fifth Avenue | cal.1968-03-17.republican-party
+- 139 | Apr. 2 | Robert Kennedy at the University of Pennsylvania | cal.1968-04-02.robert-kennedy-campaign
+- 144 | Apr. 3 | Meany's public word for Humphrey | cal.1968-04-03.elections-1968-6
+- 144–45 | Apr. 4 | Humphrey at the Steelworkers, Pittsburgh | cal.1968-04-04.elections-1968-3
+- 153 | May | Humphrey's staff divided on Johnson | cal.1968-05.elections-1968-2
+- 168 | May 7 | Branigin at Logansport | cal.1968-05-07.elections-1968-3
+- 351 | about May 25 | Sorensen's "reunite" strategy | cal.1968-05-25.robert-kennedy-campaign
+- 337 | May 31 | Robert Kennedy at the Commonwealth Club | cal.1968-05-31.robert-kennedy-campaign
+- 404 | June | McCarthy, "take our steel out of the land of thatched huts" | cal.1968-06.elections-1968-3
+- 154 | June 14 | Moyers on Humphrey; Mondale | cal.1968-06-14.elections-1968
+- 410 | June 25 | Goodwin back with McCarthy | cal.1968-06-25.elections-1968
+- 417 | July 23 | Diana Ross's endorsement | cal.1968-07-23.elections-1968
+- 457–58 | Aug. 5 | Klein names Hatfield | cal.1968-08-05.elections-1968-miami-2
+- 532, 560 | Aug. 21 | McCarthy on Czechoslovakia; Galbraith's call | cal.1968-08-21.elections-1968-2
+- 522 | Aug. 23 | Pigasus at the Civic Center | cal.1968-08-23.elections-1968-chicago-2
+- 704 | Aug. 24 | the Minutemen at Voluntown, Conn. | cal.1968-08-24.elections-1968-3
+- 595–96 | Aug. 29 | Daley to Cronkite | cal.1968-08-29.elections-1968-chicago-3
+- 628–29 | September | Hess sent to Agnew | cal.1968-09.elections-1968-11
+- 708 | September | COPE's memorandum on Wallace | cal.1968-09.jobs-and-wages
+- 676 | end of September | Nixon at Key Biscayne | cal.1968-09.elections-1968-12
+- 676 | Oct. 18 | Rockefeller's prediction | cal.1968-10-18.elections-1968-2
+- 677 | Oct. 25 | Nixon at Seattle's harbor | cal.1968-10-25.elections-1968-3
+- 750 | Oct. 31 | Nixon through Texas | cal.1968-10-31.elections-1968-4
+- 752 | Nov. 4 | Nixon at his Los Angeles headquarters | cal.1968-11-04.elections-1968-3
+- 33 | June 1968 | *Racial Attitudes in Fifteen American Cities* | cal.1968-06.civil-disorders-kerner
+- 143 | Apr. 2 | Humphrey's Waldorf dinner | in b3-solberg as cal.1968-04-03.elections-1968-5 ("For entries in pending patches")
 
 ## Passed over
 
-Page | date | event | why. The book's undated stretches (Lowenstein's soundings, the staffs' quarrels, the
-candidates' days on the road) are not itemized below.
+The format is page | date | event | why.
 
-Undated:
-
-- 65–66 | summer 1967 | Lowenstein's soundings of Don Edwards, Church, Gavin and others for a candidate | undated;
-  his first approach to Robert Kennedy is entered (Aug. 4).
-- 94–95 | January–February 1968 | the Johnson write-in's pledge cards and the McCarthy poster | undated; the write-in
-  is entered (Mar. 6).
-- 93 | February 1968 | Goodwin joins McCarthy after Tet | the day not given.
-- 153–54 | spring 1968 | Harris and Mondale, with the younger staff, press Humphrey to break with Johnson | undated.
-- 404 | summer 1968 | the strategy decision before Humphrey | undated.
-- 458 | Aug. 1968 | Klein names Hatfield to reporters as Nixon's possible running mate | the day not given.
-- 560 | August 1968 | McCarthy's statement on the Czech crisis and Galbraith's call | undated.
-- 487 | Aug. 1968 | Thurmond's list for the Vice Presidency (Reagan, Baker, Griffin) | undated; the running-mate
-  meetings are entered (Aug. 8).
-- 628–29 | September 1968 | Hess sent to Agnew's staff after the "squishy-soft" remark | undated.
-- 708 | fall 1968 | the COPE memorandum on Wallace | undated.
-- 351 | about May 26, 1968 | Sorensen's "reunite" strategy | undated ("ten days earlier" than the California primary).
-
-Private remarks:
-
-- 64 | Sept. 22–23, 1967 | Lowenstein at dinner at Hickory Hill, Friday and Saturday nights.
-- 65 | 1967 | Schlesinger and Hartke at Leningrad.
-- 108 | January 1968 | Robert Kennedy and Melina Mercouri at a cocktail party.
-- 115 | winter 1967–68 | Hamill and O'Donnell urging Kennedy to run.
-- 117 | Mar. 3, 1968 | Mankiewicz's call to Kennedy about Newfield's program.
-- 119 | Mar. 12, 1968 | Kennedy at "21" with Schlesinger and vanden Heuvel.
-- 394 | June 21, 1968 | McCarthy with Arthur Miller and William Styron at a party in Hartford.
-- 759–61 | Nov. 5–6, 1968 | Nixon with Mitchell, Chotiner and Finch on election night.
-- 767 | November 1968 | Key Biscayne, Smathers's and Rebozo's houses.
-
-Minor (a repetition of a position already entered, social trivia, or below the level the calendar records):
-
-- 134 | Mar. 17, 1968 | the Shore Wood Village Democratic Club's meeting | a club's meeting.
-- 221 | Mar. 17, 1968 | the Oregon delegation at 812 Fifth Avenue urging Rockefeller to run | a repetition; the
-  draft is entered (Mar. 10, 18).
-- 139 | spring 1968 | Robert Kennedy at the University of Pennsylvania | a campaign stop, nothing new said.
-- 168 | spring 1968 | Branigin at Logansport | a campaign stop.
-- 90–91 | January 1968 | Hersh taken on as McCarthy's press secretary | staff.
-- 410 | June 25, 1968 | Goodwin back with McCarthy | staff.
-- 417 | July 23, 1968 | Diana Ross's endorsement of Humphrey.
-- 522 | Aug. 23, 1968 | Pigasus at the Civic Center.
-- 522 | Aug. 22, 1968 | a seventeen-year-old shot by the police near Lincoln Park | an incident below the level
-  (the disorders are entered).
-- 704 | Aug. 24, 1968 | the Minutemen's attack on a pacifist camp near Voluntown, Conn. | an incident below the level.
-- 676 | Oct. 18, 1968 | Rockefeller's prediction for Nixon | a repetition of a position entered.
-- 677 | Oct. 25, 1968 | Nixon's hydrofoil ride at Seattle.
-- 750, 752 | Oct. 31–Nov. 4, 1968 | Nixon through Texas and an unscheduled stop at his Los Angeles headquarters |
-  campaign stops, nothing new said.
-- 337 | May 31, 1968 | Robert Kennedy at the Commonwealth Club | "rather routine"; no content given.
-- 154 | June 14, 1968 | Moyers's radio interview | a journalist's (by then Newsday's publisher); no act.
+- 394 | June 21, 1968 | Bailey's exchange with Arthur Miller and Styron at McCarthy's party in Hartford | social
+  banter with no bearing.
+- 767 | November 1968 | Key Biscayne, the houses of Smathers and Rebozo | social.
 - 592–93 | Aug. 30, Sept. 3, 1968 | the *Times*'s editorial on Daley and Kraft's column | press commentary; no act.
-- 595–96 | Aug. 29, 1968 | Daley's interview with Cronkite | a repetition of what his report says (entered, Sept. 6).
+- 404 | June 1968 | "the strategy decision" before Humphrey | the authors' analysis, not an event.
 
 Already in under other ids:
 
-- the polls (Opinion), Gallup's of May 4–8 and June 29–July 3 among them (392);
+- 64 | Sept. 22–23, 1967 | Lowenstein at Hickory Hill | cal.1967-09-23.robert-kennedy (pinned).
+- 487 | Aug. 8, 1968 | Thurmond's list for the Vice Presidency | in the running-mate meetings,
+  cal.1968-08-08.elections-1968-miami-2.
+- 759–61 | Nov. 5–6, 1968 | Nixon with Mitchell, Chotiner and Finch | cal.1968-11-06.elections-1968 (pinned).
+- 522 | Aug. 22, 1968 | the youth shot near Lincoln Park | cal.1968-08-22.elections-1968.
+- the polls (Opinion), among them Gallup's of May 4–8 and June 29–July 3 (392);
 - the Paris negotiations of Oct. 9–29 (vietnam-paris);
-- the Memphis strike and King's death (the King and Memphis threads);
+- the Memphis strike and King's death;
 - the Kerner report.
-
-Out of the brief:
-
-- 227 | May 1963 | Nixon's announced move to New York | a private move (his law partnership is entered under
-  Mitchell, May 18, 1968).
-- 33 | June 1968 | *Racial Attitudes in Fifteen American Cities*, the Kerner Commission's supplemental study | a study,
-  not an act.
 
 Leads:
 
-- 516 | Dec. 31, 1967 | Dick Gregory's notice to Johnson, by the *Chicago Tribune*'s report of that day | the letter
-  not seen; check the *Tribune*.
-- 144–45 | about Apr. 28, 1968 | Humphrey at the Steelworkers' convention in Pittsburgh, "Deception, doubt, and despair"
-  | the day after the announcement by Chester's "next day"; check the day.
-- 405–8 | June 18, 1968 | O'Dwyer's Senate primary in New York | no full count in the book; check CQ's *Guide*.
+- 405–8 | June 18, 1968 | O'Dwyer's Senate primary in New York | the book gives no full count; check CQ's *Guide*.
 
 ## Leads (for notes/leads.md, at merge)
 
@@ -195,7 +200,4 @@ Leads:
 - National: the Democratic convention's presidential roll call, Aug. 28, 1968. Chester gives Humphrey 1,760¼ (585).
   Check: the *Official Proceedings*, not found open (notes/leads.md, conventions).
 - National: New York's Senate primary, June 18, 1968 (O'Dwyer). Check: CQ's *Guide* for the count.
-- National: Gregory's notice to Johnson, *Chicago Tribune*, Dec. 31, 1967 (Chester, 516). Check: the *Tribune*.
-- National: Humphrey at the Steelworkers' convention, Pittsburgh, about Apr. 28, 1968 (Chester, 144–45). Check the day.
-- National: Lowenstein's soundings of summer 1967, Don Edwards, Church, Gavin (Chester, 65–66). Undated. Check: Chafe,
-  *Never Stop Running*.
+

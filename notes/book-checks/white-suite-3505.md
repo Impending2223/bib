@@ -1,7 +1,8 @@
 # F. Clifton White with William J. Gill, *Suite 3505: The Story of the Draft Goldwater Movement* (`w.white-suite-3505`)
 
-Read Oct. 29, 2026, by the batch-3 reading (1964: *Suite 3505*, then Novak, then Theodore White). Patch:
-`inbox/2026-10-29-b3-suite-3505.yaml` (b3-suite-3505). Records: `sources/cited-records/white-suite-3505.yaml`.
+Read Oct. 29, 2026, by the batch-3 reading (1964: *Suite 3505*, then Novak, then Theodore White). Patches:
+`inbox/2026-10-29-b3-suite-3505.yaml` (b3-suite-3505) and, under the owner's ruling of Oct. 28, late,
+`inbox/2026-10-29-b3-suite-3505-more.yaml` (b3-suite-3505-more, 109 entries; merge after the first). Records: `sources/cited-records/white-suite-3505.yaml`.
 
 ## The copy
 
@@ -95,114 +96,171 @@ one is a distinct event; `./bib resolve ID --take keep`.
 ## Passed over
 
 Made from the running notes kept page by page through the whole book (every dated event, with its page and the ruling),
-and checked again against the owner's rules on the parties and the members and on papers.
+and checked again against the owner's rules on the parties and the members, on papers (Oct. 28) and on what is an entry
+(Oct. 28, late). What the first table passed and the late ruling calls an entry is now under "Entered" below.
 
 | page | date | event | why |
 |---|---|---|---|
 | 11–18 | July 16, 1964 | White in the trailer at the Cow Palace; the acceptance | already in (cal.1964-07-15.elections-1964, pinned 13–14) |
 | 12–13 | July 16, 1964 | Nixon's introduction | already in (cal.1964-07-16.elections-1964-2); White does not print the words it quotes |
-| 18 | July 21, 1964 | Goldwater to White, a letter of thanks | private remarks |
 | 20 | fall 1959 | Shorey invites Goldwater to Greenville | out of the calendar's span |
-| 24 | 1960 | Goldwater's 177 speeches for the ticket | undated (a count) |
-| 25 | Nov. 1960 | White on vote fraud; Hall; Nixon's refusal to contest | undated |
-| 27 | Jan. 1961 | Rusher to Washington; Goldwater committed to Bliss; Reece on Rockefeller | private remarks (a chance meeting) |
-| 27 n.6 | Feb. 3, 1961 | MacArthur to Goldwater | private remarks |
-| 32–33 | summer 1961 | White with Barr in Washington | undated |
-| 33 | Aug. 1, 1961 | White and Rusher at lunch: ready to go | a repetition, nothing new |
-| 34 | Aug. 1961 | White with Ashbrook, his list of names | undated; a repetition of July 10 |
 | 35–36 | Sept. 7, 1961 | Nash and Isaacs, the City Council primary in New York | out of the brief |
-| 52 | Dec. 1961 | Suite 3505 rented, the Chanin Building | undated |
-| 55 | winter 1962 | Jackson, Miss., the Southern Republican chairmen; White with Klumb and Yerger | undated (a lead) |
-| 61–62 | May–Nov. 1962 | the group's money ($2,535 in May; White's own $6,000) | a count over months, no act |
-| 65 | May 29, 1962 | White's memorandum to the group, an exhortation | a repetition, nothing new |
-| 65–66 | late May 1962 | White's trip: Greenville, Birmingham | undated |
-| 66–68 | June 5, 1962 | the California primary; White at Santa Ana | already in under its own id |
-| 69 | June 1962 | Seattle: a breakfast at the Space Needle | private or social |
-| 69 | June 20, 1962 | White's job offer | private |
-| 75 | fall 1962 | White and Rusher at the Commodore | private |
-| 79 | 1962 | Goldwater to Clare B. Williams | undated |
-| 84 | Nov. 1962 | Miller: Goldwater "certainly would be a contender" | undated |
-| 86 | 1962 | Goldwater and Rockefeller at Foxhall Road | undated (a lead) |
-| 87–88 | fall 1962 | Whetstone and Goldwater at Great Falls | undated |
-| 88 | Oct. 18, 1962 | White's memorandum calling the December meeting | a meeting's preparation |
-| 91 | Oct. 1962 | Rockefeller's dinner, called off | undated |
-| 93–94 | Dec. 1, 1962 | the evening session before Chicago | already in (cal.1962-12-02.goldwater, pinned) |
+| 62–63 | spring 1962 | a plane crash; $70,000 in a candidate's man's baggage | undated in the book, the candidate unnamed (a lead) |
+| 69 | June 1962 | Seattle: a breakfast at the Space Needle, White's birthday | social |
+| 69 | June 20, 1962 | a job offer to White | personal (his employment) |
 | 107 | Dec. 5, 1962 | the *Herald Tribune*'s editorial | a newspaper's editorial |
-| 108 | Dec. 5, 1962 | White taped by Cronkite | a repetition, nothing new |
-| 110–11 | spring 1963 | *Advance*, "Inside the Goldwater 'Draft'" | undated (a quarterly) |
-| 115 | Jan. 1963 | *Human Events*'s conference | undated, no act |
-| 118–19 | Jan. 17, 1963 | Coleman, Rusher, Herman at Suite 3505 | nothing shown to follow |
-| 120 | late Jan. 1963 | Goldwater to Rusher: "plan to run for the Senate" | undated |
-| 128 | Feb. 18, 1963 | O'Donnell by telephone, if Dominick serves | settled Mar. 6 (entered) |
-| 129 | Mar. 1963 | Brown declines; Harrington, Fernald named | undated |
-| 130 | Mar. 1963 | Post Office Box 1964 | undated |
 | 130 | Mar. 26, 1963 | Trohan, *Chicago Tribune* | a column, no act |
 | 131–32 | Apr. 5, 1963 | the letters to the national committee and the chairmen | already in (cal.1963-04-08.elections-1964, pinned) |
-| 140–43 | 1963 | women's petitions; Scotts Bluff; the San Francisco headquarters | undated |
-| 142–43 | Oct. 4, 1963 | an emergency landing at LaGuardia | private |
+| 142–43 | Oct. 4, 1963 | an emergency landing at LaGuardia | personal; no bearing |
 | 145–49 | Apr.–May 1963 | Gallup's figures | already in under Gallup's own entries (Disagreements) |
 | 147 | May 3, 1963 | the *Detroit News*'s editorial | a newspaper's editorial |
-| 151 | 1963 | Kovac and Gainey for finance | undated |
-| 152 | May 10, 1963 | White with Hall at the Sheraton-Park | private remarks; nothing decided |
-| 156 | 1963 | Engle's comment | undated |
-| 157 | 1963 | O'Donnell's "resignation rallies" | undated |
-| 157–58 | 1963 | the petitions, a million printed | undated |
+| 157 | 1963 | a Pittsburgh beauty-shop owner's thousand signatures | no bearing |
 | 160 | Apr. 30, 1963 | Bergholz, *Los Angeles Times*, on White | a reporter's piece |
-| 162 | June 1963 | the Hershey workshop (Broder) | undated; a reporter's survey |
-| 162–63 | mid-June 1963 | White in New Hampshire | undated; no decision |
 | 164–65 | June 24, 1963 | Steele; Evans and Novak | columns |
-| 168 | May 10, 1963 | White and McDevitt at breakfast | private |
-| 172 | July 6, 1963 | Bell's letter, *Oregonian* | a letter to the editor |
-| 178 | July 16, 1963 | the Draft's dinner at Wilmington, Del. | nothing of the speeches |
-| 179 | July 1963 | Rockefeller with Javits and Keating, his doubts | undated; private remarks |
 | 187–88 | July 6, 15, 1963 | Krock; *U.S. News* | columns |
-| 188 | 1963 | Kuchel as favorite son | undated (a lead) |
-| 191–92 | Aug. 1963 | Florida's fund-raising; "Gold for Goldwater" | undated |
-| 199–202 | summer–fall 1963 | White and Kitchel at Rhodes's office; the Carroll Arms; Baroody's research | undated |
-| 206 | 1960; July 1965 | Kitchel's Birch membership | private (1960); out of span (1965) |
-| 207 | Sept. 3, 1963 | Van Sickle joins | personnel below the level |
-| 212–13 | 1963 | Romney and White at Lansing on Durant | undated |
-| 218 | Oct. 1963 | the Montgomery County committee's poll (the *Pottstown Mercury*) | a county committee's poll, below the level |
-| 224 | Oct. 1963 | White and Kitchel in New Hampshire | undated |
-| 227–28 | fall 1963 | Nixon's suggestion of Clay; Romney's tax; Pearson; Lodge | undated |
-| 234–35 | Oct. 1963 | Kennedy's western tour; *Time*, Oct. 4; *Look*; Sevareid, Oct. 13 | the press |
-| 237 | Oct. 1963 | the Midwest Democratic conference at Madison | undated; private remarks |
+| 200 | fall 1963 | Kitchel on a plane with Goldwater and a Senator he does not know | an anecdote; no matter |
+| 206 | 1960; July 1965 | Kitchel's Birch membership | private before any public role (1960); out of span (1965) |
+| 212–13 | Oct. 1963–May 1964 | Romney and White at Lansing on Durant | undatable even to the month ("some months later"; a lead) |
+| 234–35 | Oct. 1963 | *Time*, Oct. 4; *Look*; Sevareid, Oct. 13 | the press |
 | 237 | Sept. 16, 1963 | Riesel's column | a column |
-| 238 | Nov. 15, 1963 | the Draft's State chairmen in Washington | no act recorded |
+| 238 | Nov. 1963 | a Pittsburgh Democrat to Helbert of the *Press* | unnamed; a reporter's piece |
 | 239 | Nov. 5, 1963 | Allegheny County's elections | out of the brief (county offices) |
-| 240–42 | fall 1963 | the Democrats' research; Goldwater on the wheat sale | undated |
 | 243 | Oct. 30, 1963 | Kennedy at Philadelphia | already in under its own thread |
-| 245 | Nov. 1963 | Goldwater's tentative decision to announce | undated; private |
-| 253 | Dec. 1963 | White's memorandum on the second anniversary | a repetition, nothing new |
 | 258 | Nov. 27, 1963 | Johnson to the joint session | already in |
-| 259 | Dec. 1963 | Pennsylvania's Democrats on Scranton and Scott | undated (a lead) |
-| 259 | Dec. 12, 1963 | Scranton will not say | a repetition, nothing new |
-| 260–61 | Dec. 1963 | Nixon's brother-in-law in New Hampshire; Goldwater's surgery | private |
-| 270–72, 276 | Jan.–Feb. 1964 | the staff; the State chairmen's appointments delayed | undated |
-| 281–87 | Jan. 7–9, 1964 | the New Hampshire slate and the first tour | already in (cal.1964-01-07, 1964-01-09, pinned) |
-| 292–95 | Feb.–Mar. 1964 | Hanover; the writers withdraw; the last panel | undated |
-| 295–96 | Jan.–Mar. 1964 | the write-ins for Nixon, Smith, Stassen, Lodge; Rockefeller to Lodge | undated (a lead) |
-| 304 | Mar. 1964 | Kleindienst frozen out | undated |
-| 311, 319, 332 | Apr.–May 1964 | White's claims of delegates | a repetition, nothing new |
+| 261 n.3 | Dec. 1963 | Arkansas's deadline for a primary passes | undated (a lead) |
+| 271–72, 276 | Jan.–Feb. 1964 | the staff's anecdotes; a recipe | an office's routine |
+| 285–86 | Jan. 9, 1964 | Pease Air Force Base: a door shut on a major | no bearing |
 | 319–20 | May 8, 1964 | *Time*, "Goldwater's Almost Got It" | the press |
-| 330–32 | 1964 | Palm Beach; the yacht; Grenier's telegram; St. Petersburg | undated (a lead) |
-| 337–38 | Apr. 1964 | the California teams; Stassen's petitions | undated |
-| 340 | May 1964 | Harris's poll before Oregon | undated (a lead) |
-| 346–47 | late May 1964 | the letters to Californians | undated |
-| 347 | May 29, 1964 | White's background session: 50,000 | private remarks (background) |
 | 350 | 1964 | Goldwater's primaries, 2,150,000 votes | a count, no act |
 | 356 | Jan. 18, 1964 | the *Saturday Evening Post* on Scranton; Alsop | the press |
-| 357–58 | Oct. 25, 1962 | Pittsburgh: Scranton overruns his television time | an incident below the level |
-| 358–60 | 1963–64 | McCabe's luncheons; Allegheny's patronage; Malone; Hugus's caucus; Hugus out | undated, or in the entries of Nov. 1963 and Apr. 22, 1964 |
-| 362–63 | June 5–6, 1964 | Cleveland: White with Truax, Keisling, Murphy | undated within the conference; no act |
+| 359 | Dec. 1963 | Allegheny's patronage cut | already in (cal.1963-11.republican-party-2, the Hugus entry) |
 | 366–67 | June 8, 1964 | Eisenhower's reception; Goldwater at the banquet | already in (cal.1964-06-08, pinned) |
 | 372 | June 21, 1964 | Knight's column | a column |
 
+## Entered (the owner's ruling, Oct. 28, late)
+
+The rows the first reading passed as undated (dated by the book to a month or a season), private, below the level, an itinerary,
+a meeting's preparation or a repetition, entered under the ruling in `inbox/2026-10-29-b3-suite-3505-more.yaml`
+(b3-suite-3505-more), and some besides that the first table did not list (the trips' stops, the campaigns' staffs, the
+Florida and Pennsylvania fights). The supplementary patch builds on the first: merge it after.
+
+| page | date | event | entry |
+|---|---|---|---|
+| 24 | Sept.–Nov., 1960 | The campaign for Nixon and Lodge | cal.1960-09.goldwater |
+| 24–25 | Nov., 1960 | After the election | cal.1960-11.elections-1960-3 |
+| 26–27 | Jan., 1961 | Washington | cal.1961-01.goldwater |
+| 27 | Jan., 1961 | Washington, the Metropolitan Club | cal.1961-01.republican-party |
+| 27 | Feb. 3, 1961 | MacArthur to Goldwater, by letter: "A great vacuum exists that you can fill | cal.1961-02-03.goldwater |
+| 32–33 | Summer, 1961 | Washington | cal.1961-06.goldwater-2 |
+| 33–34 | Aug. 1, 1961 | New York, at lunch | cal.1961-08-01.goldwater |
+| 34 | Aug., 1961 | Washington, Ashbrook's office | cal.1961-08.goldwater |
+| 52–54 | Dec., 1961 | New York | cal.1961-12.goldwater |
+| 54–55 | Winter, 1962 | White's swing through the South and Southwest: Shreveport, La., with Charlton Lyons;  … | cal.1962-02.goldwater |
+| 61–62 | May–Nov., 1962 | The group's money | cal.1962-05.goldwater |
+| 65 | May 29, 1962 | White to his group, an unsigned confidential memorandum: "1964 is just around the corner | cal.1962-05-29.goldwater |
+| 65–68 | Late May–June 6, 1962 | White's trip: Greenville, S.C., with Shorey and Chapman; Atlanta; Birmingham, with To … | cal.1962-05.goldwater-2 |
+| 69 | June, 1962 | Seattle, the end of the national committee's meeting | cal.1962-06.goldwater |
+| 75 | Sept., 1962 | Phoenix, the women's federation's convention | cal.1962-09.goldwater |
+| 75–76 | Fall, 1962 | New York, the Commodore's Tudor Room | cal.1962-10.goldwater |
+| 87 | Fall, 1962 | White to his group, a confidential memorandum, with Morhouse's memorandum of Aug | cal.1962-10.goldwater-2 |
+| 79 | Fall, 1962 | Goldwater to Clare B | cal.1962-09.goldwater-2 |
+| 88 | Oct. 18, 1962 | White to his group, a confidential memorandum, a copy to Goldwater: another meeting a … | cal.1962-10-18.goldwater |
+| 91 | Oct., 1962 | New York, during the campaign | cal.1962-10.goldwater-3 |
+| 84 | Nov., 1962 | After the election | cal.1962-11.republican-party-2 |
+| 86 | By Nov., 1962 | Washington, Rockefeller's house on Foxhall Road | cal.1962-11.goldwater-2 |
+| 87–88 | Fall, 1962 | Great Falls, Mont., after a Republican rally | cal.1962-10.goldwater-4 |
+| 357–58 | Oct. 25, 1962 | Pittsburgh, the Civic Arena, the windup rally of Pennsylvania's Republicans, near 14, … | cal.1962-10-25.elections-1962 |
+| 359 | Dec., 1962 | *Meet the Press* | cal.1962-12.republican-party-3 |
+| 108 | Dec. 5, 1962 | New York, CBS | cal.1962-12-05.goldwater |
+| 110–11 | Spring, 1963 | *Advance*, the young liberal Republicans' quarterly, its second issue of 1963: George F | cal.1963-02.republican-party-2 |
+| 115 | Jan. 7–9, 1963 | Washington, the conference of *Human Events*, Hanighen and Wick its hosts | cal.1963-01-07.conservative-movement |
+| 118–19 | Jan. 14, 1963 | New York, Suite 3505, the afternoon after Goldwater's refusal | cal.1963-01-14.goldwater-2 |
+| 119 | Jan. 17, 1963 | New York, Suite 3505 | cal.1963-01-17.goldwater |
+| 120 | Late Jan., 1963 | Goldwater to Rusher, by letter: "At no time have I committed myself to anyone that I  … | cal.1963-01.goldwater-2 |
+| 120 | Feb. 4, 1963 | Houston, a speech by White; that night to Washington, where Barr, in his hotel room,  … | cal.1963-02-04.goldwater |
+| 128 | Feb. 18, 1963 | O'Donnell to White, by telephone from Dallas: he will be co-chairman if Dominick serv … | cal.1963-02-18.goldwater |
+| 129 | Mar. 7, 1963 | Dayton | cal.1963-03-07.goldwater |
+| 130 | Mar., 1963 | Washington | cal.1963-03.goldwater-2 |
+| 156 | Apr., 1963 | Engle (D-Cal.), on Goldwater's proposals for Cuba: diplomacy first to get the Soviet  … | cal.1963-04.goldwater-2 |
+| 157–58 | Apr., 1963 | The draft committee's petitions: more than a million printed in its first weeks, ten  … | cal.1963-04.goldwater-3 |
+| 140–43 | May–Oct., 1963 | The draft's women on the road: Ione Harrington, Rita Bree, Judy Fernald, Maxine Charl … | cal.1963-05.goldwater-2 |
+| 151, | May, 1963 | Kovac, lately executive director of the national finance committee, to the draft comm … | cal.1963-05.goldwater-3 |
+| 152, | May 10, 1963 | Washington | cal.1963-05-10.goldwater |
+| 160 | Early June, 1963 | White's West Coast trip, north from Los Angeles to San Francisco, Portland and Seattl … | cal.1963-06.goldwater |
+| 162 | June, 1963 | Hershey, Pa., a Republican workshop, mostly Easterners | cal.1963-06.republican-party-3 |
+| 162–63 | June, 1963 | New Hampshire, two days | cal.1963-06.goldwater-2 |
+| 163 | June, 1963 | Denver, at the national committee's meeting | cal.1963-06.goldwater-3 |
+| 172 | July 6, 1963 | Bell, chairman of Oregon's delegation to the Young Republicans' convention, to the *O … | cal.1963-07-06.republican-party-2 |
+| 178 | July 16, 1963 | Wilmington, Del., a fund-raising dinner for the draft committee, Tower, Kovac and Whi … | cal.1963-07-16.goldwater |
+| 179 | July, 1963 | Rockefeller, with Javits and Keating, doubts he could support Goldwater as the nomine … | cal.1963-07.elections-1964 |
+| 188 | July, 1963 | California | cal.1963-07.elections-1964-2 |
+| 191–92 | Early Aug., 1963 | Florida, two days: Miami, Fort Lauderdale, Jacksonville | cal.1963-08.goldwater-2 |
+| 192 | Summer, 1963 | The free-lance money: an Omaha housewife's "Gold for Goldwater," an Amarillo business … | cal.1963-07.goldwater-3 |
+| 199 | Summer, 1963 | Washington, Rhodes's office | cal.1963-07.goldwater-4 |
+| 200–01 | Sept., 1963 | Washington | cal.1963-09.goldwater-3 |
+| 207 | Sept. 3, 1963 | Washington | cal.1963-09-03.goldwater |
+| 201–02 | Fall, 1963 | Goldwater's research given to Baroody's American Enterprise Institute; McCabe, once E … | cal.1963-10.goldwater-4 |
+| 212, | Sept., 1963 | Polls of party men: Michigan's Republican county chairmen, 70 percent for Goldwater;  … | cal.1963-09.opinion |
+| 224 | Oct., 1963 | New Hampshire | cal.1963-10.goldwater-5 |
+| 227 | Fall, 1963 | Nixon's dark horse: Lucius D | cal.1963-10.elections-1964-2 |
+| 227–28 | Nov., 1963 | Lansing | cal.1963-11.republican-party-2 |
+| 237 | Early Oct., 1963 | Madison, Wis., a Midwest Democratic conference: leaders own privately to a Goldwater  … | cal.1963-10.democratic-party |
+| 240–41 | Oct., 1963 | The Kennedys on the road for 1964: Shriver, Stephen Smith in a dozen States, Edward K … | cal.1963-10.democratic-party-2 |
+| 241–42 | Oct., 1963 | Goldwater on the United Nations resolution against nuclear weapons in space, not put  … | cal.1963-10.goldwater-6 |
+| 238 | Nov. 15, 1963 | Pittsburgh | cal.1963-11-15.goldwater-2 |
+| 238 | Nov. 15, 1963 | Washington, a conference of the draft's State chairmen: union members and some labor  … | cal.1963-11-15.goldwater-3 |
+| 242 | Nov. 6, 1963 | Reilly and two subordinates, by letters to Dodd's subcommittee, admit in effect that  … | cal.1963-11-06.antisubversion |
+| 242 | Sept., 1963 | The State Department dismisses Otepka, its downgraded chief of security evaluations,  … | cal.1963-09.antisubversion |
+| 245 | Nov., 1963 | Goldwater decides, a few days before Nov | cal.1963-11.goldwater-4 |
+| 259 | Dec., 1963 | Philadelphia, within weeks of the assassination | cal.1963-12.democratic-party |
+| 259 | Early Dec., 1963 | Eisenhower, in a statement read as backing Lodge; he denies it: Lodge one of several  … | cal.1963-12.elections-1964-4 |
+| 259 | Dec. 12, 1963 | Scranton will not tell reporters whether he will seek the nomination. | cal.1963-12-12.elections-1964 |
+| 261 | Dec. 24, 1963 | Goldwater, his heel operated on in Washington, flies to Phoenix in a walking cast; he … | cal.1963-12-24.goldwater |
+| 270–72 | Jan., 1964 | Washington | cal.1964-01.goldwater-6 |
+| 276 | Feb., 1964 | The State chairmen of the Goldwater for President Committee named, by letter, some si … | cal.1964-02.goldwater-2 |
+| 276 | Feb. 14, 1964 | Chicago, the O'Hare Inn, the night before the State chairmen's meeting | cal.1964-02-14.goldwater |
+| 281–82 | Jan. 6, 1964 | New Hampshire | cal.1964-01-06.elections-1964 |
+| 283 | Jan., 1964 | New Hampshire | cal.1964-01.elections-1964-2 |
+| 284, | Jan. 7, 1964 | Concord, N.H., the Highway Hotel | cal.1964-01-07.goldwater-3 |
+| 284–87 | Jan. 8, 1964 | New Hampshire | cal.1964-01-08.goldwater |
+| 285 | Jan. 9, 1964 | New Hampshire | cal.1964-01-09.goldwater-2 |
+| 296 | Mid-Jan., 1964 | Concord, N.H., a store on Main Street | cal.1964-01.elections-1964-3 |
+| 295–96 | Jan.–Feb., 1964 | New Hampshire's field: Scranton puts down a write-in for himself; Nixon will not be o … | cal.1964-02.elections-1964-2 |
+| 296 | Feb., 1964 | Rockefeller telephones Lodge in Saigon to call his men off New Hampshire; Lodge will not. | cal.1964-02.elections-1964-3 |
+| 292 | Late Feb., 1964 | Hanover, N.H., a coffee hour | cal.1964-02.goldwater-3 |
+| 294 | Feb., 1964 | A few days after the Nashua speech, the Hayes writers' line to Goldwater cut, their d … | cal.1964-02.goldwater-4 |
+| 295 | Early Mar., 1964 | New Hampshire, Goldwater's last television appearance before the primary: a panel of  … | cal.1964-03.goldwater-4 |
+| 304 | Apr., 1964 | A strategy meeting of Goldwater's campaign, George Humphrey and Summerfield there; Kl … | cal.1964-04.goldwater-3 |
+| 311 | Apr. 18, 1964 | Topeka, after the Kansas convention | cal.1964-04-18.goldwater |
+| 319 | May 5, 1964 | After the primaries of Apr | cal.1964-05-05.goldwater |
+| 331 | Feb., 1964 | Palm Beach | cal.1964-02.goldwater-5 |
+| 331 | Mar., 1964 | Florida | cal.1964-03.goldwater-5 |
+| 331–32 | Mar., 1964 | A motel near the St | cal.1964-03.goldwater-6 |
+| 332 | May 27, 1964 | After the Florida primary | cal.1964-05-27.goldwater |
+| 337 | Mar., 1964 | California, Goldwater's campaign: Knowland chairman, Pitchess for the South, Brennan  … | cal.1964-03.elections-1964 |
+| 337 | Mar., 1964 | California, Rockefeller's campaign: Kuchel chairman; Knight, Krehbiel, Joseph Martin Jr | cal.1964-03.elections-1964-2 |
+| 338 | Early Apr., 1964 | California's courts strike signatures from Stassen's petitions, and his name from the … | cal.1964-04.elections-1964 |
+| 340 | May 18, 1964 | The Harris poll in California, the first after Oregon: Rockefeller 47 percent, Goldwa … | cal.1964-05-18.opinion |
+| 338, | May 15–June 2, 1964 | Los Angeles, an emergency headquarters on Wilshire Boulevard, eighteen days: Kleindie … | cal.1964-05-15.elections-1964-2 |
+| 346–47 | May 17, 1964 | White to the State chairmen: have their people write friends and kin in California fo … | cal.1964-05-17.goldwater |
+| 346 | May 24, 1964 | Arlington, Va., at the national committee's meeting | cal.1964-05-24.elections-1964 |
+| 347 | May 29, 1964 | Washington, White's background session for the press: Goldwater to win the California … | cal.1964-05-29.goldwater-2 |
+| 358 | Fall, 1963 | Philadelphia | cal.1963-10.elections-1964-3 |
+| 359–60 | Late Jan., 1964 | Harrisburg | cal.1964-01.elections-1964-4 |
+| 360 | Feb., 1964 | Pittsburgh, before the filing deadline of Feb | cal.1964-02.elections-1964-4 |
+| 360 | Apr., 1964 | Pittsburgh | cal.1964-04.elections-1964-2 |
+| 360–61 | June, 1964 | Pittsburgh | cal.1964-06.republican-party |
+| 362 | June 5, 1964 | Cleveland, the Sheraton, the eve of the Governors' Conference | cal.1964-06-05.elections-1964 |
+| 362–63 | June 6, 1964 | Cleveland | cal.1964-06-06.elections-1964 |
+| 260 | Late Dec., 1963 | Nixon's brother-in-law asks what a candidate in New Hampshire's primary would likely  … | cal.1963-12.elections-1964-5 |
+| 260 | Dec., 1963 | Kitchel and Goldwater decide against keeping the draft organization as a citizens' gr … | cal.1963-12.goldwater-4 |
+| 18 | July 21, 1964 | Goldwater to White, by letter: "It was you who got this whole thing started and it wa … | cal.1964-07-21.goldwater |
+
 ## Leads
 
-For `notes/leads.md` (National), at the merge: the Southern Republican chairmen at Jackson, winter 1962 (55); Goldwater and
-Rockefeller at Foxhall Road, 1962 (86); Kuchel's favorite-son move, 1963 (188); Pennsylvania's Democrats on Scranton, Dec.
-1963 (259); the New Hampshire write-ins and Rockefeller's call to Lodge (295–96); the Florida talks (330–32); Harris's
-Oregon poll (340); the Billie Sol Estes affair is not in the calendar at all (63: Dirksen and Halleck's demand entered,
-May 1962); the acceptance of July 16, 1964, is bundled in cal.1964-07-15.elections-1964 with the nomination and Miller's
-(the spans rule: three events).
+For `notes/leads.md` (National), at the merge: the plane crash of spring 1962 with $70,000 in a candidate's man's baggage
+(62–63; White names neither the flight nor the candidate); Romney and White at Lansing on Durant, between Oct. 1963 and May
+1964 (212–13); Arkansas's deadline for requesting a presidential primary, 1964, passed without Goldwater's request (261
+n.3); the Billie Sol Estes affair is not in the calendar at all (63: only Dirksen and Halleck's demand entered, May 1962);
+the acceptance of July 16, 1964, is bundled in cal.1964-07-15.elections-1964 with the nomination and Miller's (the spans
+rule: three events).

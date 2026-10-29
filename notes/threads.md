@@ -2,16 +2,18 @@
 
 For whoever writes or extends a thread (person or agent). Not shown on the pages.
 
-Every thread is its matter as Washington met it: what the President, the executive departments and agencies, the
-Congress, and the courts did about it, said of it, or were told of it (the Public Papers, FRUS, the Congressional
-Record, the Statutes). The owner found the phrase redundant in the statements, since the calendar's whole frame (the
+Every thread is its matter as Washington and its counterparts met it (the owner's wording, Oct. 29, 2026, for "as
+Washington met it"): what the President, the executive departments and agencies, the Congress, and the courts did
+about it, said of it, or were told of it (the Public Papers, FRUS, the Congressional Record, the Statutes), and what
+those they dealt with did and said of it: the governments, parties and commands, ally and adversary, the parties out
+of power, the organized interests (CLAUDE.md, "Out of the brief" and the others met). The owner found the phrase redundant in the statements, since the calendar's whole frame (the
 Congresses, the Executive, the APP and FRUS lists) says it; it is kept here instead. Write a thread's statement as
-what the thread is and its stations, without "as Washington met it", "and Washington", "for the administration".
+what the thread is and its stations, without "as Washington met it", "as Washington and its counterparts met it", "and Washington", "for the administration".
 
 Scopes taken out of the statements, kept here:
 
-- Soviet Union: the Soviet Union as Washington met it, apart from Berlin, Cuba, and Arms control and testing (each its own thread).
-- South Asia: India and Pakistan as Washington met them; China and Indonesia are threads of their own (the owner's
+- Soviet Union: the Soviet Union as Washington and its counterparts met it, apart from Berlin, Cuba, and Arms control and testing (each its own thread).
+- South Asia: India and Pakistan as Washington and its counterparts met them; China and Indonesia are threads of their own (the owner's
   ruling, Oct. 21, 2026, parting India and China). The Sino-Indian war takes South Asia, also China.
 - Cyprus: its own thread, out of Europe and the alliance and the Middle East (Oct. 21, 2026).
 - Oil: the import program (Proclamation 3279 and its amendments, Interior's quotas), the world's oil as it touched
@@ -20,13 +22,13 @@ Scopes taken out of the statements, kept here:
   reverse. The month's figures are the indicator group Oil (`tools/bib/oil.py`).
 - King: Martin Luther King, Jr., and Washington: the President, the Attorney General, the Bureau (the statement
   keeps "The President, the Attorney General, the Bureau").
-- Black nationalism: Black nationalism as Washington met it (the statement opens "Malcolm X and the Nation of Islam").
+- Black nationalism: Black nationalism as Washington and its counterparts met it (the statement opens "Malcolm X and the Nation of Islam").
 - Civil rights organizations: their campaigns (Albany, Birmingham, the Freedom Rides, Freedom Summer, Selma, the March) are in
   the place and law threads; King has his own; Malcolm X and the Nation of Islam are in Black nationalism.
-- Africa: Africa as Washington met it, apart from the Congo (its own thread): South Africa, decolonization at the UN.
+- Africa: Africa as Washington and its counterparts met it, apart from the Congo (its own thread): South Africa, decolonization at the UN.
 - Sit-ins: the student sit-ins of 1960 at lunch counters, an event of their own; other segregation in public places is
   in Desegregation: public places, the Freedom Rides in their own thread.
-- Japan; Korea: each alliance as Washington met it: the treaties, the governments, the visits (one thread until Oct. 21,
+- Japan; Korea: each alliance as Washington and its counterparts met it: the treaties, the governments, the visits (one thread until Oct. 21,
   2026). A matter between the two (the treaty of 1965, Ōhira's offer) takes Korea, also Japan.
 - Labor disputes: strikes and lockouts, the emergency boards, the Taft-Hartley injunctions, the settlements, taken out of
   Jobs and wages (Oct. 21, 2026), the railroads' disputes its subthread; a strike in a State's or a city's thread, or in

@@ -21,7 +21,7 @@ The copy: 209 PDF pages, a sanitized copy dated by its foreword Oct. 15, 1965; A
 separately" and not in it. The printed page is the PDF page less 10 throughout (checked on pp. 15, 32, 188). Chapters:
 command summary (1-9), personnel (10-38), intelligence (39-51), operations (52-134), logistics (135-154), planning
 (155-171), communications (173-181), appendixes (key personnel, 188; chronology, 189-93). The notes follow each chapter.
-Patch: `inbox/2026-10-29-b3-macv-1964.yaml` (patch `b3-macv-1964`): 26 new entries, 16 edits.
+Patches: `inbox/2026-10-29-b3-macv-1964.yaml` (patch `b3-macv-1964`): 50 new entries, 16 edits; `inbox/2026-10-29-b3-macv-1964-more.yaml` (patch `b3-macv-1964-more`): 146 new entries.
 
 ### Cites already in the calendar
 
@@ -68,59 +68,208 @@ Figures the History prints that the table lacks "then" (the History dated Oct. 1
   begin later.
 - Infiltration in 1964: about 7,000 (p. 47), against the study's 4,700 by August (FRUS 1964–68, I, doc. 392).
 
+### Entered (the owner's ruling, Oct. 28): the papers
+
+The staff and planning papers, commanders' messages and plans first passed over as "below the level", "a step" or "to
+the owner", now entries in the same patch, `inbox/2026-10-29-b3-macv-1964.yaml`:
+
+| Page | Date | Entry | Id |
+|---|---|---|---|
+| 10 | Feb. 15 | The Joint Chiefs ask CINCPAC's and Harkins's comments on doing away with the Military ... | `cal.1964-02-15.vietnam` |
+| 10 | Feb. 18 | CINCPAC agrees with Harkins against the merger: it would be "unduly rocking the boat ... | `cal.1964-02-18.vietnam` |
+| 95 | Mar. 7 | MACV's study of riot control and incapacitating chemicals in the counterinsurgency, ... | `cal.1964-03-07.vietnam` |
+| 11 | Mar. 22 | CINCPAC on MACV's merger study: no major reorganization now; Harkins to end the ... | `cal.1964-03-22.vietnam` |
+| 11 | Mar. 31 | Harkins asks CINCPAC for a decision on the merger, to end the uncertainty in the command. | `cal.1964-03-31.vietnam-2` |
+| 11 | Apr. 1 | CINCPAC reaffirms his opposition to so large a reorganization. | `cal.1964-04-01.vietnam-2` |
+| 160 | June | CINCPAC's OPLAN 38-64, "Military Operations to Terminate Aggression in Southeast ... | `cal.1964-06.vietnam` |
+| 158 | June 10 | Westmoreland to CINCPAC: the longer commitment needs logistic action; the jets of the ... | `cal.1964-06-10.vietnam-force-levels-2` |
+| 95 | June 24 | CINCPAC asks MACV for a plan for the use of CS gas on a wide and on a limited scale. | `cal.1964-06-24.vietnam` |
+| 155 | July | "The Short Range Plan for Vietnam," MACV's new country plan on the guidance of the ... | `cal.1964-07.vietnam` |
+| 159 | July 18 | Westmoreland to Trần Thiện Khiêm, MACV's counterproposal on the High Command's plan to ... | `cal.1964-07-18.vietnam` |
+| 59 | July 21 | MACV asks more Army aviation: tailgate delivery of supplies to advisers in remote ... | `cal.1964-07-21.vietnam-force-levels` |
+| 161–62 | Aug. 7 | After the Gulf of Tonkin, MACV's planning committee, formed Aug. 5, meets the Joint ... | `cal.1964-08-07.vietnam-2` |
+| 158 | Aug. 10 | Quảng Ngãi's runway found unable to take jets, Westmoreland recommends a jet airfield ... | `cal.1964-08-10.vietnam-force-levels` |
+| 162 | Aug. 13 | The combined planning with the Joint General Staff ended, by Taylor's verbal ... | `cal.1964-08-13.vietnam` |
+| 155 | Aug. 21 | CINCPAC publishes the Military Assistance Planning Reference Book for South Vietnam, ... | `cal.1964-08-21.vietnam-2` |
+| 158 | Sept. 26 | CINCPAC to the Joint Chiefs on the Chu Lai airfield, recommending also a second runway ... | `cal.1964-09-26.vietnam-force-levels` |
+| 112 | Nov. 14 | After the mortar attack on Biên Hòa, MACV's Joint Research and Test Activity ... | `cal.1964-11-14.vietnam` |
+| 23–24 | Nov. 16 | Westmoreland to Taylor, "Measures of National Mobilization to Put SVN on a War ... | `cal.1964-11-16.vietnam` |
+| 112 | Dec. 2 | Westmoreland asks CINCPAC for the radars, eight countermortar and three ground ... | `cal.1964-12-02.vietnam` |
+| 65–66 | Dec. 19 | The American Mission's statement on the High Command's Directive AB 139, the missions ... | `cal.1964-12-19.vietnam` |
+| 161 | Dec. 21 | MACV approves its Air Defense Requirements Plan for South Vietnam, its third version, ... | `cal.1964-12-21.vietnam` |
+| 112–13 | Dec. 23 | Westmoreland to CINCPAC, on the Army's offer of a single radar section to test: ... | `cal.1964-12-23.vietnam` |
+| 158 | Dec. 29 | McNamara authorizes military assistance funds for architect-engineer services at Chu ... | `cal.1964-12-29.vietnam-force-levels` |
+
+### Entered (the owner's ruling, Oct. 28, late)
+
+Every dated event the volume treats that the calendar lacks, the chronology's (189-93) and the chapters', each its
+entry, in the supplementary patch `inbox/2026-10-29-b3-macv-1964-more.yaml` (patch `b3-macv-1964-more`, merged after
+`b3-macv-1964`: some of its entries point to that patch's): Saigon's governments and measures, the operations and
+incidents, the border incidents with Cambodia, the visits and appointments, the papers. A month or a stretch is dated
+to the month or the first day, "Check: the day". The places named; a province tagged only where the History names it.
+
+| Page | Date | Entry | Id |
+|---|---|---|---|
+| 160 | Jan. | MACV's J5 presents the South's Joint General Staff the outline of a new national war ... | `cal.1964-01.vietnam` |
+| 189 | Jan. 2 | Saigon. The Council of Notables convenes to draft a new constitution. | `cal.1964-01-02.vietnam-saigon` |
+| 189 | Jan. 3 | A Buddhist convention promulgates the charter of the Unified Vietnamese Buddhist Church. | `cal.1964-01-03.vietnam-saigon` |
+| 189 | Jan. 4 | Cambodian forces attack a South Vietnamese unit in An Giang. | `cal.1964-01-04.vietnam` |
+| 189 | Jan. 6 | Maj. Gen. Trần Văn Đôn becomes commander in chief of the armed forces. | `cal.1964-01-06.vietnam-saigon` |
+| 189 | Jan. 17 | The special Saigon command dissolved, the capital put under III Corps. | `cal.1964-01-17.vietnam-saigon` |
+| 189 | Jan. 18 | War Zone D. The largest helilift of the war: 115 helicopters carry 1,100 troops; the ... | `cal.1964-01-18.vietnam-operations` |
+| 189 | Jan. 21 | Saigon. An American naval team fights a cholera epidemic. | `cal.1964-01-21.vietnam` |
+| 58 | Jan. 22 | The Joint Chiefs approve keeping the Marine helicopter squadron at Đà Nẵng to June 30, ... | `cal.1964-01-22.vietnam-force-levels` |
+| 47 | Feb. | High-altitude U-2 flights begin over North and South Vietnam, Laos and Cambodia. | `cal.1964-02.vietnam` |
+| 189 | Feb. 3 | Kon Tum. The advisory group's compound attacked with grenades: one American wounded, a ... | `cal.1964-02-03.vietnam-operations` |
+| 189 | Feb. 7 | Saigon. The Playboy bar bombed: five Americans killed. | `cal.1964-02-07.vietnam-operations` |
+| 189 | Feb. 9 | Saigon. The bleachers at Pershing Field bombed: two Americans killed, 25 wounded. | `cal.1964-02-09.vietnam-operations` |
+| 189 | Feb. 10 | Khánh names himself Prime Minister, Dương Văn Minh Chief of State. | `cal.1964-02-10.vietnam-saigon` |
+| 189 | Feb. 11 | Saigon. The Capitol Kinh Đô theater bombed: three Americans killed, 50 wounded. | `cal.1964-02-11.vietnam-operations` |
+| 65 | Feb. 22 | Khánh's government issues the Chiến Thắng ("Victory") plan in place of the strategic ... | `cal.1964-02-22.vietnam-saigon` |
+| 189 | Feb. 25 | Hilsman, Assistant Secretary of State for Far Eastern Affairs, resigns under fire. | `cal.1964-02-25.vietnam` |
+| 189 | Feb. 27 | Định Tường. A Viet Cong battalion, supposedly trapped, fights its way through a ring ... | `cal.1964-02-27.vietnam-operations` |
+| 165 | Mar. | Bangkok. The SEATO coordination conference on the Central Region's plan, OPLAN 4-64, ... | `cal.1964-03.vietnam` |
+| 57 | Mar. 1 | The commander of the Army's Special Forces in Vietnam asks a full Special Forces ... | `cal.1964-03-01.vietnam-force-levels` |
+| 189 | Mar. 3 | Kiến Phong, near the Cambodian border. South Vietnamese airborne troops kill 110 of an ... | `cal.1964-03-03.vietnam-operations` |
+| 189 | Mar. 6 | Khánh replaces three of the four corps commanders and five of the nine division ... | `cal.1964-03-06.vietnam-saigon` |
+| 189 | Mar. 14 | Kiến Phong. 300 Viet Cong captured in an operation. | `cal.1964-03-14.vietnam-operations` |
+| 189 | Mar. 20 | South Vietnamese forces strike the Cambodian town of Chantrea by mistake. | `cal.1964-03-20.vietnam-2` |
+| 189 | Mar. 23 | Kiến Phong. Phượng Hoàng 13-14/10 finds a Viet Cong battalion in a fortified village ... | `cal.1964-03-23.vietnam-operations` |
+| 57 | Apr. | On his visit to Vietnam, the Chairman of the Joint Chiefs told by Westmoreland's ... | `cal.1964-04.vietnam-force-levels` |
+| 47 | Apr. | The South Vietnamese air force's 716th Reconnaissance Technical Squadron converted to ... | `cal.1964-04.vietnam-2` |
+| 23 | Apr. 6 | The National Service decree, from Khánh's talks with McNamara in March: all men 20 to ... | `cal.1964-04-06.vietnam-saigon` |
+| 189 | Apr. 7 | Khánh makes Saigon a special zone and splits III Corps. | `cal.1964-04-07.vietnam-saigon` |
+| 189 | Apr. 13 | Kiên Long, a district capital near the U Minh forest, overrun: about 300 South ... | `cal.1964-04-13.vietnam-operations` |
+| 190 | Apr. 25 | Johnson announces Westmoreland to replace Harkins. | `cal.1964-04-25.vietnam` |
+| 190 | Apr. 25 | A South Vietnamese ambush near Plei Ta Nag kills 84 Viet Cong. | `cal.1964-04-25.vietnam-operations` |
+| 66 | May | MACV proposes three phases of pacification: clearing, securing, developing. | `cal.1964-05.vietnam` |
+| 66 | May | On McNamara's recommendation, Westmoreland has the J3 work out with Saigon a way of ... | `cal.1964-05.vietnam-2` |
+| 190 | May 2 | Saigon River. The aircraft ferry USNS *Card* damaged by a Viet Cong shaped charge. | `cal.1964-05-02.vietnam-operations` |
+| 190 | May 3 | A Viet Cong bombing at the *Card*'s dock: eight Americans hurt. | `cal.1964-05-03.vietnam-operations` |
+| 58 | May 6 | MACV to CINCPAC: the American transport helicopters in the South to be kept at their ... | `cal.1964-05-06.vietnam-force-levels` |
+| 190 | May 7 | Cambodia charges a South Vietnamese armored troop with attacking the village of Taey, ... | `cal.1964-05-07.vietnam` |
+| 190 | May 10 | A terrorist plot to blow up a bridge on McNamara's route found and foiled. | `cal.1964-05-10.vietnam-operations` |
+| 190 | May 12 | Two Cambodian jets strafe South Vietnamese units in Tây Ninh Province. | `cal.1964-05-12.vietnam-2` |
+| 57 | May 13 | McNamara: the Army's Special Forces men in South Vietnam to be replaced by permanent ... | `cal.1964-05-13.vietnam-force-levels` |
+| 58 | May 24 | The Joint Chiefs, told of MACV's proposal to keep the Marine helicopter squadron, ... | `cal.1964-05-24.vietnam-force-levels` |
+| 58 | May 28 | MACV again recommends to CINCPAC keeping the Marine helicopter squadron indefinitely, ... | `cal.1964-05-28.vietnam-force-levels` |
+| 190 | June 5 | South Vietnamese planes bomb and burn a 20-mile strip along the Vàm Cỏ Đông, on the ... | `cal.1964-06-05.vietnam-2` |
+| 190 | June 21 | A UN mission leaves New York to investigate the incidents on the Vietnamese-Cambodian ... | `cal.1964-06-21.vietnam` |
+| 190 | June 24 | Thắng Long–Hải Yến 79, on the Định Tường–Kiến Phong border, kills 99 Viet Cong. | `cal.1964-06-24.vietnam-operations` |
+| 190 | June 25 | Quảng Ngãi. An attack on a Viet Cong training camp kills 50. | `cal.1964-06-25.vietnam-operations` |
+| 190 | June 28 | Lodge leaves Saigon. | `cal.1964-06-28.vietnam` |
+| 190 | June 29 | A New Zealand Army engineer detachment arrives. | `cal.1964-06-29.vietnam-force-levels` |
+| 91 | July | The Joint Chiefs recommend that Saigon be urged to a strict reading of the protocol to ... | `cal.1964-07.vietnam-2` |
+| 190 | July 1 | William Sullivan named minister-counselor of the embassy in Saigon. | `cal.1964-07-01.vietnam` |
+| 190 | July 1 | The Senate confirms Taylor as Ambassador to South Vietnam and U. Alexis Johnson as his ... | `cal.1964-07-01.vietnam-congress-2` |
+| 190 | July 3 | Killen appointed to direct the Saigon aid mission. | `cal.1964-07-03.vietnam` |
+| 190 | July 4 | The Polei Krong Special Forces camp overrun: 50 friendly killed. | `cal.1964-07-04.vietnam-operations` |
+| 190 | July 4 | Hanoi charges that South Vietnamese guerrillas attacked in Laos June 27 and on its ... | `cal.1964-07-04.vietnam` |
+| 190 | July 6 | The Nam Đông Special Forces camp attacked: 58 friendly killed, two Americans and an ... | `cal.1964-07-06.vietnam-operations` |
+| 190 | July 15 | McNamara's press conference: no North Vietnamese units operating in the South. | `cal.1964-07-15.vietnam-2` |
+| 190 | July 19 | Saigon. Khánh leads a mass rally, shouting "Bắc tiến!", "To the North!" | `cal.1964-07-19.vietnam-saigon` |
+| 190 | July 20 | The 9th Regiment of the North Vietnamese 304th Division cut up in battalion encounters ... | `cal.1964-07-20.vietnam-operations` |
+| 190 | July 22 | The National Vietnamese Student Association demands the nationalization of French ... | `cal.1964-07-22.vietnam-saigon` |
+| 190 | July 22 | Kỳ confirms guerrilla raids on the North to the press. | `cal.1964-07-22.vietnam` |
+| 57 | July 22 | Westmoreland to CINCPAC, the formal request: the Special Forces in the country from ... | `cal.1964-07-22.vietnam-force-levels` |
+| 191 | July 23 | Taylor meets Khánh: they disagree over Khánh's call to go North. | `cal.1964-07-23.vietnam` |
+| 24 | Aug. | Taylor sets up the Mission's manpower committee, chaired by MACV's J1, with a ... | `cal.1964-08.vietnam-saigon` |
+| 89, 92 | Aug. 8 | IV Corps presents Westmoreland its pilot border control plan, a physical barrier on ... | `cal.1964-08-08.vietnam` |
+| 101 | Aug. 10 | The 2d Air Division's operations analysis, "Passive Defense Measures at Bien Hoa ... | `cal.1964-08-10.vietnam-2` |
+| 160 | Aug. 10 | The High Command publishes its Emergency Defense Plan, a contingency defense plan ... | `cal.1964-08-10.vietnam-saigon` |
+| 191 | Aug. 19 | A Viet Cong inter-province headquarters in the Mekong valley bombed; the Viet Cong ... | `cal.1964-08-19.vietnam-operations` |
+| 191 | Aug. 21 | A Viet Cong ambush in a cleared area of the Mekong Delta. | `cal.1964-08-21.vietnam-operations` |
+| 177 | Aug. 24 | Saigon. An experimental Syncom satellite ground station arrives: one voice and one ... | `cal.1964-08-24.vietnam` |
+| 191 | Aug. 26 | Đà Nẵng. Rioters attack an American-supported hospital; the guard fires over their heads. | `cal.1964-08-26.vietnam-saigon` |
+| 191 | Aug. 28 | Saigon proposes that the UN Security Council set up a commission to investigate the ... | `cal.1964-08-28.vietnam` |
+| 191 | Aug. 29 | The military triumvirate appoints Oánh to head the government; Khánh ill at Dalat. | `cal.1964-08-29.vietnam-saigon` |
+| 191 | Aug. 29 | Buddhist leaders announce they will press for an all-civilian government. | `cal.1964-08-29.vietnam-struggle` |
+| 110 | Aug. 31 | Westmoreland proposes to CINCPAC Hawk units for the defense of Saigon, Biên Hòa, Nha ... | `cal.1964-08-31.vietnam-force-levels` |
+| 166 | Sept. | Saigon. An ad hoc committee of the American military and diplomatic representatives to ... | `cal.1964-09.laos` |
+| 90 | Sept. | A MACV staff and 5th Special Forces Group plan: five new CIDG camps and others moved ... | `cal.1964-09.vietnam-force-levels` |
+| 165–66 | Sept. | SEATO's force commanders meet, at CINCUSARPAC's invitation, on the headquarters, ... | `cal.1964-09.vietnam-3` |
+| 96 | Sept. | MACV and High Command officers discuss riot control munitions; the High Command's ... | `cal.1964-09.vietnam-4` |
+| 101 | Sept. 1 | A joint High Command–MACV survey team visits Tân Sơn Nhứt, Biên Hòa and Đà Nẵng, after ... | `cal.1964-09-01.vietnam` |
+| 191 | Sept. 2 | Under Buddhist pressure, the government releases 509 rioters arrested the week before. | `cal.1964-09-02.vietnam-struggle` |
+| 191 | Sept. 3 | Khánh replaces the triumvirate with a 15-member committee to elect a temporary Chief ... | `cal.1964-09-03.vietnam-saigon` |
+| 191 | Sept. 4 | Taylor goes to Washington. | `cal.1964-09-04.vietnam` |
+| 191 | Sept. 4 | Khiêm resigns as Defense Minister; Khánh announces that the military will leave their ... | `cal.1964-09-04.vietnam-saigon` |
+| 191 | Sept. 5 | Four Cambodian jets cross the border and fire on South Vietnamese aircraft, missing. | `cal.1964-09-05.vietnam` |
+| 191 | Sept. 6 | A Cambodian aircraft fires on the Chu Muong outpost. | `cal.1964-09-06.vietnam` |
+| 191 | Sept. 6 | Saigon. 150,000 Buddhists parade at the funeral of the victims of the ... | `cal.1964-09-06.vietnam-struggle` |
+| 191 | Sept. 8 | The government reorganized: Khánh keeps the premiership; Dương Văn Minh chairman. | `cal.1964-09-08.vietnam-saigon` |
+| 191 | Sept. 9 | Khánh abolishes press censorship. | `cal.1964-09-09.vietnam-saigon` |
+| 92 | Sept. 11 | The Joint Chiefs, concerned at matériel for the Viet Cong shipped to Sihanoukville, ... | `cal.1964-09-11.vietnam` |
+| 91 | Sept. 11 | Saigon's cabinet works out controls on Mekong traffic to Phnom Penh: government ... | `cal.1964-09-11.vietnam-2` |
+| 191 | Sept. 12 | The State Department announces no plans for international negotiations on Vietnam. | `cal.1964-09-12.vietnam` |
+| 110 | Sept. 12 | CINCPAC recommends to the Joint Chiefs two Army and one Marine Hawk battalions for ... | `cal.1964-09-12.vietnam-force-levels` |
+| 91 | Sept. 13 | The embassy meets the Foreign Ministry on the Mekong controls; the emphasis on ... | `cal.1964-09-13.vietnam-2` |
+| 192 | Sept. 15 | Khánh arrests five of the coup's leaders. | `cal.1964-09-15.vietnam-saigon` |
+| 192 | Sept. 15 | Tư Lương 134, near Quảng Ngãi city: 80 Viet Cong killed. | `cal.1964-09-15.vietnam-operations` |
+| 89, 92 | Sept. 18 | MACV's answer to the Joint Chiefs on the Mekong: searchlights, heavy machine guns and ... | `cal.1964-09-18.vietnam-2` |
+| 192 | Sept. 20 | Lam Sơn 129, Quảng Trị: 77 Viet Cong killed. | `cal.1964-09-20.vietnam-operations` |
+| 192 | Sept. 21 | A labor strike cripples Saigon's public services. | `cal.1964-09-21.vietnam-saigon` |
+| 110 | Sept. 21–27 | Army and Marine teams survey sites and plan Hawk at Tân Sơn Nhứt–Biên Hòa, Nha Trang ... | `cal.1964-09-21.vietnam-force-levels` |
+| 192 | Sept. 22 | A Korean noncombatant military assistance group arrives. | `cal.1964-09-22.japan-and-korea-korean-troops` |
+| 192 | Sept. 24 | The strike ends in compromises between the labor leaders and Khánh's government. | `cal.1964-09-24.vietnam-saigon` |
+| 110 | Sept. 30 | CINCPAC to the Joint Chiefs on the Hawk survey: Đà Nẵng the most exposed; a Marine ... | `cal.1964-09-30.vietnam-force-levels` |
+| 167 | Oct. | A SEACOORD meeting on the Lao air force's strikes in the panhandle, American jet cover ... | `cal.1964-10.laos` |
+| 90 | Oct. | Westmoreland gives tacit approval to moving CIDG camps closer to the border, if a Nùng ... | `cal.1964-10.vietnam-force-levels` |
+| 192 | Oct. 1 | The Bạc Liêu and Châu Đốc sectors reinstituted. | `cal.1964-10-01.vietnam-saigon` |
+| 192 | Oct. 2 | Khánh: he will accept a draft call to head the government; he threatens force against ... | `cal.1964-10-02.vietnam-saigon` |
+| 192 | Oct. 3 | An Xuyên. Dân Chí 73: 150 Viet Cong killed. | `cal.1964-10-03.vietnam-operations` |
+| 192 | Oct. 4 | Saigon. Riot police disperse workers. | `cal.1964-10-04.vietnam-saigon` |
+| 192 | Oct. 4 | The Viet Cong kill an American and 40 Vietnamese 18 miles from Saigon. | `cal.1964-10-04.vietnam-operations` |
+| 192 | Oct. 7 | Saigon complains to the ICC of North Vietnamese infiltration. | `cal.1964-10-07.vietnam` |
+| 192 | Oct. 9 | Brig. Gen. Cao Văn Viên becomes III Corps commander. | `cal.1964-10-09.vietnam-saigon` |
+| 61 | Oct. 10 | Westmoreland orders a joint American-South Vietnamese survey of the forces needed for ... | `cal.1964-10-10.vietnam-force-levels` |
+| 192 | Oct. 11 | Three Viet Cong battalions and South Vietnamese forces engaged near Gò Dầu Hạ, heavy ... | `cal.1964-10-11.vietnam-operations` |
+| 89–90 | Oct. 12 | Westmoreland forwards the IV Corps border control plan, the Mekong and Bassac controls ... | `cal.1964-10-12.vietnam` |
+| 192 | Oct. 14 | Khiêm named ambassador to the United States. | `cal.1964-10-14.vietnam-saigon` |
+| 192 | Oct. 15 | The leaders of the coup of Sept. 13 go on trial. | `cal.1964-10-15.vietnam-saigon` |
+| 192 | Oct. 17 | Dân Chí 80, on the Ba Xuyên–Bạc Liêu border: 123 Viet Cong killed in two days. | `cal.1964-10-17.vietnam-operations` |
+| 192 | Oct. 18 | Hanoi charges that American and South Vietnamese aircraft bombed a North Vietnamese ... | `cal.1964-10-18.vietnam` |
+| 24 | Oct. 20 | The call-up of youths 20 to 25 begins, to Nov. 2, a month's enforcement to follow: ... | `cal.1964-10-20.vietnam-saigon` |
+| 192 | Oct. 21 | Khánh's government makes way for a civilian government. | `cal.1964-10-21.vietnam-saigon` |
+| 192 | Oct. 23 | The coup's leaders acquitted. | `cal.1964-10-23.vietnam-saigon` |
+| 97 | Oct. 25 | MACV's Army Concept Team in Vietnam (ACTIV) completes a study of the South's infantry ... | `cal.1964-10-25.vietnam` |
+| 61 | Oct. 26–Nov. 7 | The force structure survey team visits each corps headquarters, Oct. 26–Nov. 5, then ... | `cal.1964-10-26.vietnam-force-levels` |
+| 167 | Nov. | A SEACOORD meeting on military operations in Laos and a project to improve Route 9 ... | `cal.1964-11.laos` |
+| 65 | Nov. | High Command Directive AB 139, the missions of the corps, the regular and paramilitary ... | `cal.1964-11.vietnam-saigon-2` |
+| 96 | Nov. | Saigon. Riot control munitions used on rioting students, with success. | `cal.1964-11.vietnam-saigon-3` |
+| 192 | Nov. 4 | Typhoon Iris hits central Vietnam: communications disrupted, crops destroyed. | `cal.1964-11-04.vietnam` |
+| 159 | Nov. 7 | Khánh telephones Westmoreland for comment on draft decrees reorganizing the High Command. | `cal.1964-11-07.vietnam-saigon` |
+| 159 | Nov. 8 | The decrees on the High Command, translated by 7:15 a.m. for Westmoreland, already ... | `cal.1964-11-08.vietnam-saigon` |
+| 159 | Nov. 11 | The decrees withdrawn, revised on the American recommendations and reissued. | `cal.1964-11-11.vietnam-saigon` |
+| 192 | Nov. 17 | The aid mission allocates flood relief supplies; Marine helicopters begin shuttling ... | `cal.1964-11-17.vietnam` |
+| 192 | Nov. 21 | Định Tường. Thăng Long 27 takes Ba Dừa from the Viet Cong, killing 136. | `cal.1964-11-21.vietnam-operations` |
+| 193 | Nov. 22 | Tây Ninh. Phong Hoài ends with the destruction of a Viet Cong base area and arms ... | `cal.1964-11-22.vietnam-operations` |
+| 62 | Nov. 25 | MACV's J3 delivers the force structure study to CINCPAC and briefs his staff. | `cal.1964-11-25.vietnam-force-levels` |
+| 62 | Nov. 29 | CINCPAC concurs in MACV's force increase, Alternative 1, to the Joint Chiefs. Their ... | `cal.1964-11-29.vietnam-force-levels` |
+| 165 | Dec. | Bangkok. A SEATO conference on real estate for the Central Region's plan: essential ... | `cal.1964-12.vietnam-3` |
+| 90 | Dec. | South Vietnam's High Command studies the IV Corps border plan and is briefed on it: it ... | `cal.1964-12.vietnam-4` |
+| 66 | Dec. | The Mission Council approves the concept and definitions of pacification worked out by ... | `cal.1964-12.vietnam-5` |
+| 193 | Dec. 5 | Kỳ's ultimatum to Khánh: support Prime Minister Hương or else; the air force on full ... | `cal.1964-12-05.vietnam-saigon` |
+| 193 | Dec. 6 | IV Corps. Dân Chí 92: 138 Viet Cong killed. | `cal.1964-12-06.vietnam-operations` |
+| 193 | Dec. 7 | The Viet Cong overrun a battalion command post on Hill 193 and threaten the An Lão ... | `cal.1964-12-07.vietnam-operations` |
+| 193 | Dec. 9 | South Vietnamese forces retake Hill 193 and secure the An Lão subsector headquarters. | `cal.1964-12-09.vietnam-operations` |
+| 193 | Dec. 9 | Quảng Tín. The Viet Cong attack the 3d Regiment's headquarters and artillery; the ... | `cal.1964-12-09.vietnam-operations-2` |
+| 193 | Dec. 28 | Ba Xuyên. A South Vietnamese reaction force routs one to two of four hard-core Viet ... | `cal.1964-12-28.vietnam-operations-2` |
+| 97 | Dec. 31 | MACV's chief of staff sends the Army the ACTIV weapons recommendations, asking review, ... | `cal.1964-12-31.vietnam` |
+
 ### Passed over
 
-Made from the chronology (189-93) and each chapter's dated matter, Jan. 1964-Jan. 20, 1965.
+What is left after the rulings of Oct. 28.
 
 | Page | Date | Event | Why |
 |---|---|---|---|
-| 189 | Jan. 2–6, 17, 21 | Council of Notables; the Buddhist charter; Cambodian forces attack in An Giang; Đôn commander in chief; Saigon command dissolved; a Navy team fights cholera | Saigon's internal measures and incidents, below the level |
-| 189 | Jan. 18 | Largest helilift yet, 115 helicopters, 1,100 troops into War Zone D | an operation below the level (no contact) |
-| 189 | Feb. 3, 7, 9, 11 | Terrorist bombings: Kontum compound, the Playboy bar (5 Americans killed), Pershing Field (2 killed), the Kinh Đô theater (3 killed) | incidents below the level; to the owner (Americans killed) |
-| 189 | Feb. 10 | Khánh Premier, Minh Chief of State | Saigon's governments; check whether the calendar should hold it |
-| 189 | Feb. 25 | Hilsman resigns | the calendar holds Hilsman's resignation? not searched here: to the owner |
-| 189-90 | Mar. 3, 14, 23; Apr. 13, 25; June 24–25; Sept. 15, 20; Oct. 3, 11, 17; Nov. 21–22; Dec. 6–9, 28 | South Vietnamese operations and engagements (Kiến Phong, Kiên Long overrun, Plei Ta Nang, Thăng Long, An Lão, Quảng Tín, Đại Ngãi) | operations below the level the calendar records, each a line in the chronology |
-| 189-91 | Mar. 20; May 7, 12; June 5, 21; Aug. 28; Sept. 5–6 | Border incidents with Cambodia; the UN mission; Saigon's proposal to the Security Council | to the owner: the Cambodian border thread, not searched here |
-| 189 | Mar. 6; Apr. 7; Oct. 1, 9 | Khánh changes corps and division commanders; Saigon a special zone; sectors reconstituted; Viên III Corps commander | Saigon's internal measures |
-| 190 | May 2–3 | The USNS Card damaged by a charge in the Saigon River; 8 Americans hurt | incident below the level; to the owner |
-| 190 | May 10 | A plot to blow a bridge on McNamara's route foiled | incident below the level |
-| 190 | June 28–29; July 1, 3 | Lodge leaves Saigon; New Zealand's engineers arrive; Sullivan minister-counselor; Killen to USOM | personnel and arrivals below the level (Lodge's resignation is in, June 23) |
-| 190 | July 4, 6 | Polei Krong and Nam Đông Special Forces camps overrun (Nam Đông: 2 Americans and 1 Australian among 58 killed) | engagements, chronology only; to the owner |
-| 190 | July 15, 19, 22–23 | McNamara: no North Vietnamese units in the South; Khánh's "Bắc tiến"; Kỳ on raids; Taylor and Khánh | the calendar's July 27 entry holds Khánh's campaign "to the North" |
-| 191 | Aug. 19, 21, 26, 29; Sept. 2–4, 6, 8–9, 12 | VC headquarters bombed; an ambush; Đà Nẵng riot; Oánh; releases; the committee of 17; Khiêm resigns; Buddhist funerals; government reorganized; censorship lifted; State on negotiations | Saigon's politics, already in by their chief days (Aug. 16, 25, 27, Sept. 13) |
-| 192 | Sept. 21–24; Oct. 2, 4 | The general strike in Saigon and its end; Khánh's threats; the Korean medical group arrives | Saigon's politics; the Korean group: to the owner (Korea thread) |
-| 192 | Oct. 14–15, 18, 23–24 | Khiêm ambassador to Washington; the coup leaders tried, acquitted, re-arrested; Hanoi's charge of bombing | Saigon's politics, minor beside the entries held |
-| 192 | Nov. 4, 17 | Typhoon Iris; flood relief, Marine helicopters from the Princeton | relief, below the level; to the owner |
-| 193 | Dec. 5 | Kỳ's ultimatum to Khánh to support Hương | Saigon's politics; the calendar's Dec. 20 and the pending b3-westmoreland entries hold the generals |
-| 10–11 | Feb. 15, 17; Mar. 3, 22, 31; Apr. 2, 23 | The JCS's query on MAAG; Harkins's reply; the staff's query; CINCPAC's endorsement; Harkins's renewed request; CINCPAC's opposition; the plan finalized | steps of the merger, entered at Mar. 12 (the study), Apr. 10 (the approval) and May 15 (the act); Harkins's reply of Feb. 17 is in the Mar. 12 entry |
-| 23 | Apr. 6 | The National Service decree, after Khánh's talks with McNamara in March | Saigon's measure; to the owner |
-| 24 | Aug.; Oct. 20–Nov. 2 | The Mission's manpower committee; the call-up of youths 20–25 | Saigon's measures, below the level |
-| 57 | May 13 | McNamara: Special Forces in Vietnam to serve on permanent assignment | a statement within the buildup entered July 28 and Aug. 6 |
-| 58 | Jan. 22 | The JCS extend the Marine helicopter squadron to June 30 | the step before the decision of June 10, entered |
-| 59 | July 21 | MACV's request for more Army aviation (COMUSMACV 211745Z Jul 64) | a staff request; to the owner (aviation buildup, 20 units Oct. 1–Dec. 24) |
-| 61-62 | Oct. 10; Oct. 26–Nov. 7; Nov. 25, 29 | The force structure survey ordered and made; J3 to CINCPAC; CINCPAC's concurrence | the survey's preparation; CINCPAC's concurrence of Nov. 29 (291030Z) passed over as a step, the JCS approval of Jan. 23, 1965 to come from the 1965 volume |
-| 64 | Dec. | Khánh's order to the corps commanders to correct the deficiencies Westmoreland listed (entered Oct. 29) | a step after the entry; RVNAF memo of Dec. 17 (n.38) |
-| 24–25 | Nov. 16 | Westmoreland to Taylor, "Measures of National Mobilization to Put SVN on a War Footing" (nn.33, 35, 46, 52) | the History draws figures from it, not its argument; to the owner (the call-up entry is Dec. 16) |
-| 65-66 | Feb. 22; Nov. 11; Dec. 19 | The Chiến Thắng plan; RVNAF Directive AB 139; the Mission's statement on it | Saigon's plans; to the owner |
-| 93-95 | Jan.; Feb. | Hand-spray defoliation delegated to the division advisers; the request of February for crop destruction authority | steps of the herbicide entries of Mar. 3 and July 29 |
-| 95 | Mar. 7; June 24 | MACV's study of riot control agents; CINCPAC asks a plan | steps of the entry of Sept. 28 |
-| 96 | late Nov. | Riot control munitions used on students in Saigon | undated (late November) |
-| 97 | Aug.; Oct. 26 | MACV asks to use Lazy Dog; CINCPAC's reply; the test from late October | weapons trials below the level |
-| 99-100 | Aug.; Sept.; Oct. 12; Dec. | The IV Corps border control plan; the Special Forces relocation study; Westmoreland on the Mekong and Bassac | staff studies without a decision; to the owner |
-| 101 | Sept. 11, 13 | Saigon's cabinet on Mekong controls; the Embassy's talks | Saigon's measure; to the owner |
-| 101 | Aug. 10, 15 | The Air Division's analysis of mortar attack on Biên Hòa; Westmoreland's letters on ground defense advisers | the letters are part of the Aug. 15 entry; the analysis below the level |
-| 110 | Aug. 31; Sept. 21–27 | Westmoreland proposes Hawk units for five sites; the survey teams | a repetition of the Aug. 15 request; the survey below the level |
-| 112-13 | Nov. 14; Dec. 23 | JRATA asks countermortar radars; Westmoreland's reply to CINCPAC | below the level |
-| 113 | Feb.; May; June 28; July 18; Aug. 1 | U-2 flights over the North begin; Yankee Team begins; the Big Squirt transmitter near Huế agreed and on the air | to the owner: Yankee Team (May) month only; U-2 flights month only |
-| 116-20 | year | Training: recruit, unit, Regional and Popular Force programs | below the level |
-| 155 | Mar.; July; Aug. 21 | The Short Range Plan for Vietnam; the Military Assistance Planning Reference Book | plans superseded before use; to the owner |
-| 158 | June 10 | Westmoreland to CINCPAC on airfields: a jet field at Chu Lai | to the owner (COMUSMACV 100449Z Jun 64; Chu Lai's start is a 1965 entry) |
-| 159 | July 18; Nov. 7–11 | MACV's counterproposal on the RVNAF High Command; the decrees signed without American comment, objected to, reissued Nov. 11 | Saigon's measures; to the owner |
-| 160-61 | Jan.; Aug. 5, 10 | MACV's national war plan outline; the J5 plan against a surprise attack on Huế, shelved; the Emergency Defense Plan | shelved or Saigon's; to the owner |
-| 161-62 | Aug. 5, 7, 13 | The combined planning committee after Tonkin; the meeting with the JGS; OPLAN SK-1-64; the planning stopped | to the owner: combined planning begun and dropped |
-| 162 | Dec. 1 | Taylor's talks in Washington (in, Dec. 1–3) | already in |
-| 166-67 | Sept.; Oct.; Nov. | The SEACOORD committee of the missions in Laos, Thailand and Vietnam; Taylor's proposal; its meetings | month only: a lead (FRUS may date Taylor's proposal) |
-| 175-76 | Mar.; Sept.; Dec. | SEATO planning conferences at Bangkok | below the level; to the owner |
+| 189-93 | Jan. 14, 30; Mar. 8; May 12; June 20, 23; July 27; Aug. 2, 5, 16, 25, 27; Sept. 13-14, 18, 20; Oct. 20, 24; Nov. 1; Dec. 20, 24-25 | Westmoreland named deputy (the Jan. 27 entry's Check); Khánh's coup; McNamara's visits; Harkins leaves; Lodge resigns; the advisers; the Gulf of Tonkin; Khánh's presidency and the triumvirate; the coup of Sept. 13; the Montagnards; the charter; Sửu and Hương; Biên Hòa; the generals' coup; the Brink | already in, or in a pending patch (b3-westmoreland: May 12, June 20, Sept. 20) |
+| 160-61 | Aug. 5 | The J5's outline plan against a surprise attack on Huế | a draft not sent: shelved, never forwarded to the High Command |
+| 99-100 | July 30-Dec. 26; Nov. 14, 30 | JRATA's searchlight platoon, its equipment and training; booby-trapped munitions; the 25th Division's language students | an office's routine (test and evaluation) |
+| 116-20; 156-57; 176-78 | year | Training; the evacuation plan's changes; the suggestion program; communications (the Mark IV terminal, Oct. 3; Wetwash, Jan. 1, 1965) | an office's routine |
+| 64 | Dec. 17 | The RVNAF memorandum on the deficiencies Westmoreland listed (n.38), Khánh's order to the corps commanders | not yet entered: a dated paper for the next run |
+| 102 | June 28; July 18; Aug. 1 | Big Squirt, the medium-wave transmitter near Huế | not yet entered: the pages not reread in this run |
+| 96-97 | Aug.; Oct. 26 | Lazy Dog (MACV's request, CINCPAC's reply, the test) | not yet entered: the passage not found again by search in the OCR; the next run |
 
 ### Leads
 
@@ -139,7 +288,7 @@ throughout (checked on pp. 24, 41, 162, 222, 315, 479). Its text layer was usabl
 and every figure, date and note number a ruling rests on were read off the page images. Chapters: the summary and the
 enemy (I, 1-21), the buildup and the forces (II, 22-...), plans and concept (III), operations (IV, 157-...), the
 footnotes after the text (313-...), the chronology (478-82). Patch: `inbox/2026-10-29-b3-macv-1965.yaml` (patch
-`b3-macv-1965`): 22 new entries, 15 edits.
+`b3-macv-1965`): 121 new entries, 16 edits.
 
 ### Rulings other than "holds"
 
@@ -176,44 +325,144 @@ footnotes after the text (313-...), the chronology (478-82). Patch: `inbox/2026-
 - Infiltration in 1965: 26,188, 11,050 of them in North Vietnamese units, some 90 percent ethnic northerners (p. 14).
 - RVNAF strength by month, 1965: charts only (Figures II-4 to II-7, pp. 293-96), no figures printed.
 
-### Passed over
+### New entries, and those the rulings of Oct. 28 called for
 
-Made from the chronology (478-82) and each chapter's dated matter read.
+All in `inbox/2026-10-29-b3-macv-1965.yaml`: the first 22 from the reading, the rest (the chronology's dated events,
+the operations, incidents, arrivals, conferences and papers) by the owner's rulings of Oct. 28 and Oct. 28, late, rows
+first written here as "Passed over" and moved.
+
+| Page | Date | Entry | Id |
+|---|---|---|---|
+| 478 | Jan. 22 | Saigon. Buddhists demonstrate against the government at the American Embassy. | `cal.1965-01-22.vietnam-saigon` |
+| 478 | Jan. 25 | Huế. Martial law after serious disturbances. | `cal.1965-01-25.vietnam-saigon` |
+| 478 | Feb. 8 | Johnson orders Hawk air defense missiles to South Vietnam. | `cal.1965-02-08.vietnam-force-levels` |
+| 478 | Feb. 9 | Đà Nẵng. The first elements of the Marines' 1st Light Antiaircraft Missile Battalion ... | `cal.1965-02-09.vietnam-force-levels` |
+| 478 | Feb. 9 | Khánh names Nguyễn Xuân Oánh acting prime minister. | `cal.1965-02-09.vietnam-saigon` |
+| 37 | Feb. 11 | The Joint Chiefs recommend to McNamara a brigade of the 25th Infantry Division for ... | `cal.1965-02-11.vietnam-force-levels` |
+| 12, 54, 149, 478 | Feb. 16 | Vũng Rô Bay, Phú Yên Province. A North Vietnamese ship found in a cove, about 100 tons ... | `cal.1965-02-16.vietnam-operations` |
+| 478 | Feb. 19 | Jets used in the South for the first time: Air Force B-57s against the Viet Cong in ... | `cal.1965-02-19.vietnam-operations` |
+| 478 | Feb. 19 | The last American government-sponsored dependents flown out of South Vietnam. | `cal.1965-02-19.vietnam-7` |
+| 478 | Feb. 22 | Maj. Gen. Trần Văn Minh replaces Khánh as commander in chief of the armed forces. | `cal.1965-02-22.vietnam-saigon` |
+| 478 | Feb. 25 | Some 600 Korean troops arrive in South Vietnam. | `cal.1965-02-25.japan-and-korea-korean-troops` |
+| 54–55 | Mar. 3 | Saigon. MACV's planning conference on a combined American and South Vietnamese patrol ... | `cal.1965-03-03.vietnam-operations` |
+| 38 | Mar. 7 | Saigon. MACV briefs the Army Chief of Staff, General Harold K. Johnson: three more ... | `cal.1965-03-07.vietnam-force-levels` |
+| 38 | Mar. 10 | MACV's Enclave Study, by its planning staff: a series of well-defended areas with ... | `cal.1965-03-10.vietnam-force-levels` |
+| 478 | Mar. 15 | Route 19, Qui Nhơn to Pleiku, reopened after almost two months without traffic. | `cal.1965-03-15.vietnam-operations` |
+| 54–55 | Mar. 16 | The Joint Chiefs approve Market Time, a combined American and South Vietnamese patrol ... | `cal.1965-03-16.vietnam-operations` |
+| 38, 478 | Mar. 19–21 | The 716th Military Police Battalion arrives, the first Army battalion-sized unit, for ... | `cal.1965-03-19.vietnam-force-levels` |
+| 38 | Mar. 21 | Westmoreland to the Joint Chiefs, CINCPAC concurring: American combat troops must be ... | `cal.1965-03-21.vietnam-force-levels` |
+| 478 | Mar. 21 | MACV publicly confirms that riot-control agents have been used in South Vietnam. | `cal.1965-03-21.vietnam` |
+| 478 | Mar. 22 | American aircraft hit the first North Vietnamese radar site. | `cal.1965-03-22.vietnam-air-war` |
+| 478 | Mar. 27 | Plei Do Lim Special Forces camp: some 30 Claymore-type mines detonated by accident, ... | `cal.1965-03-27.vietnam-operations` |
+| 478 | Mar. 28 | The Seventh Fleet undertakes coastal surveillance off South Vietnam. | `cal.1965-03-28.vietnam-operations` |
+| 39, 41, 98 | Mar. 30 | Westmoreland asks a field command headquarters to control the American and allied ... | `cal.1965-03-30.vietnam-force-levels` |
+| 478 | Mar. 30 | Air Force planes strike the Đồng Hới airfield, the first North Vietnamese airfield hit. | `cal.1965-03-30.vietnam-air-war` |
+| 55 | Apr. | After the Honolulu conference, McNamara approves buying 20 Swift patrol boats for the ... | `cal.1965-04.vietnam-operations` |
+| 479 | Apr. 1 | The Army's 1st Logistical Command established in South Vietnam. | `cal.1965-04-01.vietnam-force-levels` |
+| 479 | Apr. 4 | The first American planes shot down by MiGs over North Vietnam. | `cal.1965-04-04.vietnam-air-war` |
+| 479 | Apr. 5 | The pacification program renamed Rural Reconstruction, under a new Central Rural ... | `cal.1965-04-05.vietnam-saigon` |
+| 39 | Apr. 8–10 | Honolulu conference. CINCPAC recommends to the Joint Chiefs an Army division for the ... | `cal.1965-04-08.vietnam-force-levels` |
+| 39 | Apr. 14 | The Joint Chiefs approve the 173d Airborne Brigade for temporary deployment from ... | `cal.1965-04-14.vietnam-force-levels` |
+| 479 | Apr. 14 | South Vietnamese planes fly their first night attack mission over the North. | `cal.1965-04-14.vietnam-air-war` |
+| 479 | Apr. 16 | The first North Vietnamese SAM site reported under construction near Hanoi. | `cal.1965-04-16.vietnam-air-war` |
+| 220 | Apr. 28 | Kiến Hòa. After a month's bombing and psychological warfare, a South Vietnamese ... | `cal.1965-04-28.vietnam-operations` |
+| 55 | Apr. 29 | A Coast Guard squadron of 17 patrol boats announced for Vietnam. | `cal.1965-04-29.vietnam-operations` |
+| 55 | Apr. 30 | McNamara announces that the American forces of Market Time will come under ... | `cal.1965-04-30.vietnam-operations` |
+| 479 | May 4 | A two-day halt of Rolling Thunder's armed reconnaissance and strikes over the North, ... | `cal.1965-05-04.vietnam-air-war` |
+| 479 | May 5 | MACV's Political Warfare Advisory Directorate established. | `cal.1965-05-05.vietnam-3` |
+| 479 | May 6 | The Armed Forces Council dissolves itself, voting confidence in Quát. | `cal.1965-05-06.vietnam-saigon` |
+| 479 | May 7 | III Marine Amphibious Force activated, Maj. Gen. W. R. Collins commanding. | `cal.1965-05-07.vietnam-force-levels` |
+| 220–21, 479 | May 11 | Sông Bé, capital of Phước Long Province. Some four Viet Cong battalions break into the ... | `cal.1965-05-11.vietnam-operations` |
+| 479 | May 14 | The first ANGLICO units, the Marines' naval gunfire liaison, deployed in South Vietnam. | `cal.1965-05-14.vietnam-force-levels` |
+| 479 | May 14 | The embassy announces the Joint U.S. Public Affairs Office (JUSPAO). | `cal.1965-05-14.vietnam-2` |
+| 479 | May 16 | Biên Hòa air base rocked by a series of accidental explosions. | `cal.1965-05-16.vietnam-operations` |
+| 479 | May 20 | The destroyer *Hamner* fires the Navy's first naval gunfire support mission in the South. | `cal.1965-05-20.vietnam-operations` |
+| 479 | June 2 | The advance party of the 1st Battalion, Royal Australian Regiment, arrives. | `cal.1965-06-02.vietnam-force-levels` |
+| 479 | June 4 | Brig. Gen. Lewis W. Walt takes command of III Marine Amphibious Force from Collins. | `cal.1965-06-04.vietnam-force-levels` |
+| 479 | June 9 | Army combat engineers begin the base at Cam Ranh Bay. | `cal.1965-06-09.vietnam-force-levels` |
+| 479 | June 11 | Quát resigns. | `cal.1965-06-11.vietnam-saigon` |
+| 479 | June 14 | The generals form a National Leadership Committee under Thiệu. | `cal.1965-06-14.vietnam-saigon` |
+| 479 | June 16 | Saigon. An explosive charge damages Tân Sơn Nhứt's civilian passenger terminal. | `cal.1965-06-16.vietnam-operations` |
+| 479 | June 17 | The first MiGs shot down by Navy aircraft over North Vietnam. | `cal.1965-06-17.vietnam-air-war` |
+| 480 | June 25 | Saigon. Viet Cong mines blast the Mỹ Cảnh floating restaurant. | `cal.1965-06-25.vietnam-operations` |
+| 35, 41 | June 27 | Westmoreland's new forecast of requirements to the Joint Chiefs, beyond his request of ... | `cal.1965-06-27.vietnam-force-levels` |
+| 480 | July 1 | The Viet Cong attack the Đà Nẵng and Sóc Trăng air bases. | `cal.1965-07-01.vietnam-operations` |
+| 41 | July 2 | Westmoreland to CINCPAC on where the Army's combat units go: the 2d Brigade, 1st ... | `cal.1965-07-02.vietnam-force-levels` |
+| 480 | July 7 | 8,000 more Marines land at Đà Nẵng and Qui Nhơn. | `cal.1965-07-07.vietnam-force-levels` |
+| 226 | July 8 | Dầu Tiếng, Bình Dương. An outpost attacked by a platoon; the relief force, the 2d ... | `cal.1965-07-08.vietnam-operations` |
+| 480 | July 9 | Sergeant First Class Isaac Camacho escapes after 20 months a Viet Cong prisoner. | `cal.1965-07-09.vietnam-prisoners` |
+| 41, 480 | July 12 | The 2d Brigade, 1st Infantry Division, begins landing: a battalion at Cam Ranh Bay for ... | `cal.1965-07-12.vietnam-force-levels` |
+| 480 | July 15 | MACV confirms the North Vietnamese 101st Regiment in South Vietnam. | `cal.1965-07-15.vietnam-order-of-battle` |
+| 42 | July 16 | McNamara in Saigon. Westmoreland's concept: 44 maneuver battalions in 1965, from ... | `cal.1965-07-16.vietnam-force-levels` |
+| 480 | July 16 | B-52s used in support of a ground operation for the first time. | `cal.1965-07-16.vietnam-operations` |
+| 480 | July 20 | U.S. Army Support Command, Vietnam, becomes U.S. Army, Vietnam, Westmoreland its ... | `cal.1965-07-20.vietnam-force-levels` |
+| 480 | July 20 | The first Coast Guard vessels to see action in a combat zone since the Second World ... | `cal.1965-07-20.vietnam-operations` |
+| 480 | July 21 | A New Zealand field artillery battery arrives. | `cal.1965-07-21.vietnam-force-levels` |
+| 162, 480 | July 28 | Liên Kết 4: Marines and South Vietnamese, a Vietnamese Marine battalion, a battalion ... | `cal.1965-07-28.vietnam-operations` |
+| 41, 480 | July 29 | The 1st Brigade, 101st Airborne Division, lands at Cam Ranh Bay. | `cal.1965-07-29.vietnam-force-levels` |
+| 480 | July 30 | Taylor leaves Saigon at the end of his tour. | `cal.1965-07-30.vietnam` |
+| 480 | July 30 | Rural Reconstruction renamed Rural Construction, under a new Ministry of Rural ... | `cal.1965-07-30.vietnam-saigon` |
+| 480 | July 30 | Operational control of the American coastal patrol, Market Time, passes from the ... | `cal.1965-07-30.vietnam-operations` |
+| 98, 480 | Aug. 1 | Task Force Alpha activated, the first Army field force headquarters in South Vietnam, ... | `cal.1965-08-01.vietnam-force-levels` |
+| 167, 480 | Aug. 1 | The battle at the Đức Cơ Special Forces camp, west of Pleiku, begins. | `cal.1965-08-01.vietnam-operations` |
+| 41 | Aug. 2 | The 173d Airborne Brigade to stay in South Vietnam for good, not to be replaced by the ... | `cal.1965-08-02.vietnam-force-levels` |
+| 42, 480 | Aug. 2 | Honolulu. Westmoreland and Sharp at the conference on the Phase I deployments. | `cal.1965-08-02.vietnam-force-levels-2` |
+| 42–43 | Aug. 6 | CINCPAC's program for the Phase I deployment, from the Honolulu conference: the rest ... | `cal.1965-08-06.vietnam-force-levels` |
+| 480 | Aug. 7 | The commander of III Marine Amphibious Force made senior adviser, I Corps, with ... | `cal.1965-08-07.vietnam-force-levels` |
+| 480 | Aug. 9 | The South Vietnamese air force receives its first B-57s from the Air Force. | `cal.1965-08-09.vietnam-force-levels` |
+| 480 | Aug. 14 | The 7th Marines, reinforced, begin landing at Đà Nẵng and Chu Lai. | `cal.1965-08-14.vietnam-force-levels` |
+| 480 | Aug. 20 | Lodge arrives in Saigon to begin his second tour. | `cal.1965-08-20.vietnam` |
+| 162–63 | Aug. 21 | Starlite ends. MACV's count, some 700 of the enemy killed; an attack on Chu Lai ... | `cal.1965-08-21.vietnam-operations` |
+| 481 | Aug. 24 | A Viet Cong mortar attack hits Biên Hòa air base. | `cal.1965-08-24.vietnam-operations` |
+| 481 | Aug. 31 | Military Payment Certificates replace American currency in South Vietnam. | `cal.1965-08-31.vietnam` |
+| 163, 481 | Sept. 7–11 | Piranha, a four-day operation on the Batangan peninsula, 20 miles south of Chu Lai, on ... | `cal.1965-09-07.vietnam-operations` |
+| 481 | Sept. 11 | Darlac. A group of Montagnards disarmed, in the government's move against FULRO. | `cal.1965-09-11.vietnam-2` |
+| 44, 481 | Sept. 12 | The first elements of the 1st Cavalry Division (Airmobile) land at Qui Nhơn. | `cal.1965-09-12.vietnam-force-levels` |
+| 481 | Sept. 15 | Ban Mê Thuột. A group of Montagnards reaffirms its loyalty to the government in a ... | `cal.1965-09-15.vietnam-2` |
+| 167–68 | Sept. 18–19 | Gibraltar, northeast of An Khê, in Highland, the 1st Brigade, 101st Airborne's opening ... | `cal.1965-09-18.vietnam-operations` |
+| 43–44 | Sept. 18 | Westmoreland's Phase II force requirements, after the conference in Saigon: two more ... | `cal.1965-09-18.vietnam-force-levels` |
+| 7, 223 | Sept. 23–29 | Phù Cũ pass, Bình Định Province. The Viet Cong overrun the post, Sept. 23; the South ... | `cal.1965-09-23.vietnam-operations` |
+| 42, 481 | Sept. 25 | Task Force Alpha becomes Field Force, Vietnam, with operational control of the II ... | `cal.1965-09-25.vietnam-force-levels` |
+| 481 | Sept. 28 | Honolulu. Sharp and Westmoreland in conference. | `cal.1965-09-28.vietnam-force-levels` |
+| 36 | Sept. 30 | Walt's estimate for Westmoreland: two Marine divisions and their air the optimum for ... | `cal.1965-09-30.vietnam-force-levels` |
+| 44 | Oct. 7 | CINCPAC's program for Phase II, from its conference: the 4th Infantry Division for II ... | `cal.1965-10-07.vietnam-force-levels` |
+| 44, 481 | Oct. 7 | The rest of the 1st Infantry Division arrives at Vũng Tàu. | `cal.1965-10-07.vietnam-force-levels-2` |
+| 481 | Oct. 8 | The first elements of the Korean Capital Division land at Cam Ranh Bay. | `cal.1965-10-08.japan-and-korea-korean-troops` |
+| 481 | Oct. 17 | Navy jets destroy the first mobile SAM site in North Vietnam. | `cal.1965-10-17.vietnam-air-war` |
+| 481 | Oct. 21 | The commander of Field Force, Vietnam, made senior adviser, II Corps. | `cal.1965-10-21.vietnam-force-levels` |
+| 481 | Oct. 27 | The Viet Cong attack the Marines' air installations at Đà Nẵng and Chu Lai. | `cal.1965-10-27.vietnam-operations` |
+| 168, 481 | Nov. 1 | Silver Bayonet, the 1st Cavalry Division's first offensive mission: its 1st Brigade, ... | `cal.1965-11-01.vietnam-operations` |
+| 481 | Nov. 1 | The commander of the 1st Infantry Division takes operational control of all Army units ... | `cal.1965-11-01.vietnam-force-levels` |
+| 481 | Nov. 2 | The air base at Cam Ranh Bay operational for tactical jets. | `cal.1965-11-02.vietnam-force-levels` |
+| 481 | Nov. 2 | Lt. Gen. John L. Throckmorton, Westmoreland's deputy, leaves Vietnam. | `cal.1965-11-02.vietnam-2` |
+| 481 | Nov. 6 | Lt. Gen. J. A. Heintges replaces Throckmorton as deputy commander, MACV. | `cal.1965-11-06.vietnam` |
+| 481 | Nov. 7 | MACV publicly confirms five North Vietnamese regiments in South Vietnam. | `cal.1965-11-07.vietnam-order-of-battle` |
+| 170–71 | Nov. 8 | War Zone D, Hump, the 173d Airborne Brigade's fifth operation there. The 1st ... | `cal.1965-11-08.vietnam-operations` |
+| 481 | Nov. 10 | Blue Marlin: American and South Vietnamese Marines, the first combined amphibious ... | `cal.1965-11-10.vietnam-operations` |
+| 169 | Nov. 18–26 | Thắng Phong 7: three battalions of the South Vietnamese Airborne Brigade west of ... | `cal.1965-11-18.vietnam-operations` |
+| 14, 44 | Nov. 21 | Westmoreland to CINCPAC: captured documents and prisoners show far larger enemy forces ... | `cal.1965-11-21.vietnam-order-of-battle` |
+| 481 | Nov. 22 | The Viet Cong mortar the Sóc Trăng airfield. | `cal.1965-11-22.vietnam-operations` |
+| 8, 224–26 | Nov. 27 | Michelin plantation, Bình Dương Province. A reinforced Viet Cong regiment overruns the ... | `cal.1965-11-27.vietnam-operations` |
+| 481 | Nov. 27 | The Viet Cong release two American prisoners, Smith and McClure, in Cambodia. | `cal.1965-11-27.vietnam-prisoners` |
+| 482 | Dec. 1 | The commander of the 1st Infantry Division made senior adviser, III Corps, with ... | `cal.1965-12-01.vietnam-force-levels` |
+| 482 | Dec. 2 | The carrier *Enterprise* enters combat, its sorties against Viet Cong targets in the ... | `cal.1965-12-02.vietnam-operations` |
+| 482 | Dec. 4 | Saigon. Terrorists bomb the Metropole, an American enlisted men's billet. | `cal.1965-12-04.vietnam-operations` |
+| 226 | Dec. 6 | Near Củ Chi, Hậu Nghĩa. The 2d Battalion, 49th Regiment, 25th Division, ambushed on ... | `cal.1965-12-06.vietnam-operations` |
+| 482 | Dec. 10 | Honolulu. Sharp and Westmoreland in conference. | `cal.1965-12-10.vietnam-force-levels` |
+| 36, 45 | Dec. 11 | The Secretary of Defense approves Westmoreland's request after the Saigon briefings of ... | `cal.1965-12-11.vietnam-force-levels` |
+| 226 | Dec. 16 | The same battalion ambushed again on the road from Củ Chi to Phước Hiệp, fire from 50 ... | `cal.1965-12-16.vietnam-operations` |
+| 482 | Dec. 18 | FULRO briefly seizes the Quảng Đức provincial headquarters at Gia Nghĩa. | `cal.1965-12-18.vietnam` |
+| 36 | Dec. 20 | The 2d Air Division asked whether it can take on III MAF's need of ten fighter ... | `cal.1965-12-20.vietnam-force-levels` |
+| 45 | Dec. 29 | The 3d Brigade, 25th Infantry Division, flown from Hawaii to Pleiku, begins arriving: ... | `cal.1965-12-29.vietnam-force-levels` |
+
+### Passed over
 
 | Page | Date | Event | Why |
 |---|---|---|---|
-| 478 | Jan. 22, 25, 27; Feb. 9, 15, 19, 22 | Buddhist demonstrations; martial law in Huế; Khánh's coup against Hương; Oánh, then Quát; Thiệu's council; Minh replaces Khánh | Saigon's politics, in the calendar by their chief days |
-| 478 | Feb. 7–8, 10; Mar. 2, 8 | Pleiku and Đồng Hới; dependents evacuated; Qui Nhơn; Rolling Thunder; the Marines land | already in |
-| 478 | Feb. 9, 19, 25; Mar. 15, 19, 27–28 | The Hawk battalion operational at Đà Nẵng; jets first used in the South; the Korean contingent; Route 19 reopened; an MP battalion; mines at Plei Do Lim; the Seventh Fleet's coastal surveillance | below the level; the MP battalion is in the History's account of Mar. 19-21 (38) |
-| 478 | Mar. 21–22, 30 | Riot-control agents confirmed; the first radar site hit in the North; the embassy bombing | already in (the embassy, Mar. 30) or below the level |
-| 479 | Apr. 1, 5; May 5, 7, 14; June 4; July 20; Aug. 7; Sept. 25; Oct. 21; Nov. 1; Dec. 1 | 1st Logistical Command; Rural Reconstruction; the political warfare directorate; III MAF; JUSPAO; Walt; USARV; III MAF senior adviser for I Corps; Field Force, Vietnam; the corps advisory duties | the command's organization: a lead (below); Task Force Alpha is in the Mar. 30 entry |
-| 479 | Apr. 4, 9, 16; June 17; July 24, 27; Oct. 17; Dec. 2, 15 | The air war over the North: MiGs, the first SAM site, SAMs, Uông Bí | the air war, not read against the calendar here; to the owner |
-| 479 | May 4, 13, 18 | The pauses in Rolling Thunder | already in |
-| 479-80 | May 16; June 16, 25; Aug. 24; Dec. 4, 22 | The explosions at Biên Hòa; the Tân Sơn Nhứt terminal; the Mỹ Cảnh restaurant; Biên Hòa mortared; the Metropole bombing; Sóc Trăng | incidents, chronology only; to the owner (the Mỹ Cảnh and the Metropole killed Americans) |
-| 480 | June 2; July 12, 21; Sept. 12; Oct. 7–8 | The Australians' advance party; the 2d Brigade, 1st Division; New Zealand's battery; the 1st Cavalry at Qui Nhơn; the 1st Division's rest; the Korean Capital Division | arrivals: the deployments are entered by their decisions; to the owner |
-| 480 | June 18; July 16 | The first B-52 raid; B-52s in support of ground operations | already in (June 18) / below the level |
-| 480 | July 1; Oct. 27 | The attacks on Đà Nẵng and Sóc Trăng air bases; on the Marines' air installations at Đà Nẵng and Chu Lai | to the owner: the Marble Mountain attack of Oct. 27 is not in the calendar |
-| 480 | July 15; Nov. 7 | MACV confirms the North Vietnamese 101st Regiment in the South; MACV publicly confirms five North Vietnamese regiments | public statements of the order of battle, chronology only: a lead |
-| 480-82 | Apr. 19; Sept. 28; Dec. 10 | Honolulu conferences (McNamara, Sharp, Wheeler, Westmoreland; Sharp and Westmoreland) | Apr. 19-20 already in; Sept. 28 and Dec. 10 chronology only: a lead |
-| 481 | Sept. 7–11 | Piranha, the Marines on the Batangan peninsula (163): 198 enemy killed, 2 Marines | an operation below the level; to the owner |
-| 481 | Sept. 11, 15; Dec. 18 | FULRO: Montagnards disarmed in Darlac; the loyalty ceremony; the seizure of Gia Nghĩa | to the owner (the Montagnards' thread) |
-| 481 | Nov. 2, 5–6, 10, 22 | Cam Ranh's airfield; Throckmorton leaves, Heintges replaces him; Blue Marlin | personnel and operations below the level |
-| 481 | Nov. 27 | The Viet Cong release Sergeants Smith and McClure in Cambodia | to the owner (prisoners) |
-| 482 | Dec. 2 | The *Enterprise* in combat | below the level |
-| 482 | Dec. 24 | The Christmas cease-fire | already in |
-| 12-13 | year | Infiltration routes by land and sea; the 70th Transportation Group | undated |
-| 36 | late Sept. | III MAF's estimate: two Marine divisions for the three enclaves | month only, within the Phase II requirements of Sept. 18 |
-| 37 | Feb. 11 | The JCS recommend a 25th Division brigade to Thailand, the 173d alerted | to the owner: the JCSM of Feb. 11 (the calendar's Feb. 11 holds other Vietnam entries) |
-| 38 | Mar. 7 | The Army Chief of Staff's briefings in Saigon: three helicopter companies, O-1 aircraft | within Harold K. Johnson's mission, in the calendar Mar. 2 and 16; the enclave concept entered Mar. 10 |
-| 39 | Apr. 8–10 | The Honolulu conference of Apr. 8–10 (Stilwell's message, n.61) | a meeting's preparation and its recommendations, entered by the decision of Apr. 14; the conference of Apr. 19–20 already in |
-| 42 | July 14 | Memo, SECDEF Saigon trip, items for discussion | a meeting's preparation; the briefing entered July 16 |
-| 54–55 | Mar. 3; Apr. 10–13, 29, 30 | The planning conference for Market Time; the Swift boats bought; the Coast Guard squadron; McNamara on Market Time's control | steps of Market Time (entered Mar. 16); McNamara's announcement of Apr. 30 to the owner |
-| 162 | July 28 | Liên Kết 4, the first significant combined Marine and South Vietnamese operation | below the level |
-| 164-65 | year | Marine patrols, Golden Fleece, the enclaves' growth (6 to 600 square miles) | below the level |
-| 168 | Nov. 1 | The 1st Brigade's pursuit west of Plei Me: 216 enemy killed, 117 captured; 55 American dead | a phase of Silver Bayonet; to the owner |
-| 169 | Nov. 18-26 | Than Phong 7, the South Vietnamese airborne brigade west of Pleiku | an operation below the level |
-| 220 | Apr. 28 | The amphibious and airmobile operation in Kiến Hòa: a weapons cache, 162 enemy killed | an operation below the level |
-| 226 | July 8; Dec. 6 | Ambushes near Dầu Tiếng and in Hậu Nghĩa | engagements below the level |
+| 478, 482 | Jan. 1; Dec. 31 | American strength about 23,000; about 184,000 | figures, for the war table (above) |
+| 478-82 | Jan. 27; Feb. 7, 10, 16, 27; Mar. 2, 8, 30; Apr. 9, 20; May 13, 18; June 10, 18, 19, 27; July 8, 24, 27, 28; Aug. 18; Oct. 19; Nov. 14, 28; Dec. 8, 15, 24 | Khánh and Hương; Pleiku; Qui Nhơn; Quát named (the Feb. 16 entry, a Check on Feb. 15); the white paper; Rolling Thunder; the Marines; the embassy; the Hainan fight; Honolulu; the pauses; Đồng Xoài; the first B-52s; Kỳ; War Zone D; Taylor and Lodge; the first SAM loss and the SAM strikes; the July decision; Starlite; Plei Me; Ia Drang; McNamara in Saigon; Harvest Moon; Uông Bí; the Christmas truce | already in, or in a pending patch (b3-westmoreland: June 27) |
+| 42 | July 14 | Memo, SECDEF Saigon trip, items for discussion | a meeting's preparation; the briefing is entered (July 16) |
+| 12-13; 164-65 | year | The infiltration routes and the 70th Transportation Group; the Marines' patrols and the enclaves' growth | dated to the year only: leads |
 
 ### Leads
 
