@@ -52,7 +52,10 @@ governor, a party officer or a party figure out of office (Eisenhower, Nixon, Go
 Percy, Reagan) on policy or politics. A journalist's column is an entry only where it carried an act (a leak, a trial
 balloon) or made news itself. "Minor", as a reason in a "Passed over" list, means only: a repetition of a position
 already entered, with nothing new; private or social trivia; an operation or incident below the level the calendar
-records. The threads: Republican Party (`republican-party`; its subthread "In Congress", `republican-party-congress`),
+records. The papers of government (the owner's ruling, Oct. 28, 2026, on the Gibbons readings): a staff or planning
+paper, a White House staff memorandum, an ambassador's, commander's or consulate's cable and an intelligence memorandum
+or estimate are entries, dated by the paper; a covering note or transmittal, a draft not sent, a meeting's
+preparation, a repetition and private remarks are passed over. The threads: Republican Party (`republican-party`; its subthread "In Congress", `republican-party-congress`),
 Conservative movement (`conservative-movement`), Democratic Party (`democratic-party`); `notes/threads.md`.
 
 So every calendar entry has:
