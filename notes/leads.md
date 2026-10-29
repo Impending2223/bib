@@ -1900,6 +1900,39 @@ Foreign:
 - A *U.S. News* poll of May 1960, Nixon the choice of 84 percent of Republicans (Gifford, 43), and Gallup's of late
   April 1960 on which party does more for Negroes (Gifford, 70): whether the Opinion thread wants them.
 
+### Herring, *LBJ and Vietnam* (the reading agent, Oct. 28, 2026; notes/book-checks/herring-lbj-and-vietnam.md)
+
+National:
+- The President's Vietnam Group of 1966 (agendas of Mar. 3, 11 and May 16, 1966, NSF Country File, Vietnam, box 28;
+  Memos to the President, Rostow, box 7): its meetings, if FRUS IV prints any.
+- Komer's "A Strategic Plan for 1967 in Vietnam," Nov. 29, 1966, and "Strategic Guidelines for 1967," Dec. 10, 1966 (NSF
+  Komer Files, boxes 5, 7): FRUS 1964–68, IV, doc. 318 (Komer to McNamara, Nov. 29) may be the first. An entry.
+- The Non-Group: Herring dates its founding May 1967 at Johnson's instance (15, 189 n.44); the calendar names it Nov. 15,
+  1966. Settle the dates.
+- The Goodpaster study group's report, "Intensification of the Military Operations in Vietnam: Concept and Appraisal,"
+  July 14, 1965 (NSF Country File, Vietnam, box 20): look in FRUS III; an entry.
+- The meetings of Sept. 13, 1965 (the Chiefs' SAM targets refused), Dec. 6–7, 1965 (Bundy's notes), Aug. 19, 1967 (Meeting
+  Notes File), the NSC of Nov. 29, 1967 ("no divisions"), and June 9, 1968 (Tom Johnson's notes): look in FRUS for each.
+- Westmoreland's record of the White House meeting of Nov. 22, 1967 (Westmoreland Papers, USAMHI, box 29): the same
+  meeting as FRUS V, doc. 409 (Nov. 21) or another?
+- Clifford's press conference of Apr. 11, 1968 (the ceiling on troops): Department of Defense release; an entry.
+- The Democratic National Committee and the Young Democrats for the war: Moyers to Johnson, May 27, 1965 (Aides Files,
+  Moyers, box 11); the Young Democrats' convention of 1965 (the party's campaign; an entry where dated).
+- Members' word Herring gives undated: Fulbright, Mansfield and John Sherman Cooper for a full bombing halt after San
+  Antonio (Oct. 1967); Thruston Morton's and Tip O'Neill's breaks with the war (1967): date them and enter them if not in.
+- Eisenhower's memorandum of Sept. 16, 1966 (NSF Memos to the President, Rostow, box 10): Eisenhower on limited war; an
+  informal-record entry if FRUS or Goodpaster's notes date it.
+- McNaughton's death, July 19, 1967: the place and his office (named Secretary of the Navy?) from a source read; the
+  entry carries a Check.
+- *Look*, Nov. 30, 1965: the day it reached the newsstands (FRUS's editors: by Nov. 16).
+- Edward Kennedy's speech of Jan. 25, 1968: the place and the words (the *Congressional Record* or the press).
+
+Foreign:
+- Fanfani's letter of Nov. 20, 1965 and the exchange to Dec. 4 (FRUS III, docs. 205, 207; XII, doc. 120): entries for the
+  letter and Rusk's reply, the release already entered.
+- The Hanoi Foreign Ministry's statement of Jan. 4, 1966, and Hồ's letter broadcast Jan. 28, 1966: entries if not in.
+- Marigold's mid-November steps (Harriman and Cooper in Rome; State's proposals to Lodge; Read's restricted list).
+
 ## The Executive roster
 
 - NSCID No. 1: the texts of 1958, 1964 and 1972 not in the file (`usib.yaml`). Open on archive.org, the CIA's CREST copies (Oct. 23, 2026): the text effective Feb. 17, 1972 (`CIA-RDP87B01034R000700020013-3`); a 1958 draft (`CIA-RDP85S00362R000600150011-7`, "Concurred in by the IAC 21 January"), with the drafts of 1957; for 1964 only Bundy's approval of the revisions, Mar. 27, 1964, "the President's decision of March 5, 1964 on the reorganization of the USIB" (`cia-readingroom-document-cia-rdp80b01676r000400180031-7`; the text exempt). FRUS 1964–68, XXXIII, doc. 196, n. 3: revised Jan. 18, 1961, and Mar. 4, 1964. Lay shown as the Board's Executive Secretary only for Mar. 1964, in a note.
