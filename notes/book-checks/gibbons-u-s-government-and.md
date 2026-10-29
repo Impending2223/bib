@@ -776,7 +776,7 @@ enter, for the owner to rule on. "Lead" names where the record is; "already in" 
 
 ## Part IV, 1965–66: back-fill, Oct. 29, 2026
 
-The patch: `inbox/2026-10-29-backfill-gibbons-4a.yaml` (216 edits, 497 adds). The records:
+The patch: `inbox/2026-10-29-backfill-gibbons-4a.yaml` (216 edits, 496 adds). The records:
 `sources/cited-records/gibbons-u-s-government-and.yaml`, 840 added after the other runs' (a comment marks where).
 
 ### The copy
@@ -882,18 +882,20 @@ Each a Check in its entry's note (the record read against Gibbons, or a detail n
 
 ### Existing entries changed beyond their citations
 
-- `cal.1965-11-27.students`: Representative George E. Brown Jr. added among the speakers (Gibbons, IV, 93).
-- `cal.1965-12-17.vietnam`: the meetings of Dec. 17, 18 and 21, bundled, narrowed to Dec. 17 by its record (FRUS 1964–68, III, Valenti's notes); Dec. 18 and 21 are entries of their own (`cal.1965-12-18.vietnam-pause`, `cal.1965-12-21.vietnam-pause`).
-- `cal.1966-02-17.vietnam-hearings`: the hearings' close, Taylor and Rusk, split; Taylor's day here, Rusk's `cal.1966-02-18.vietnam-hearings`.
-- `cal.1966-02-21.vietnam-support`: the professors' letter of Feb. 14 and Katzenbach's memorandum of Feb. 19 taken out to entries of their own (`cal.1966-02-14.vietnam-support`, `cal.1966-02-19.vietnam-support`); Cooper's report of Liebman's part added.
-- `cal.1966-02-26.vietnam`: Moyers's Harris figures and Johnson's reading of them added (the meeting's notes).
-- `cal.1966-10-15.vietnam`: Humphrey and Vance present; Johnson's approval of the dual system added (Gibbons, IV, 461–63).
-- `cal.1966-11-17.vietnam`: the draft's case on attrition and the bombing added (Gibbons, IV, 467).
-- `cal.1966-11-28.vietnam-congress`: Johnson's note to Rostow of Nov. 30 split off as `cal.1966-11-30.vietnam-congress` (one event, one entry).
+- Each edit starts from the entry as it stood when the patch was written and keeps every cite, sentence, row and tag another run put there (the coordinator's rule of Oct. 29); a sentence added to `c` goes at the end, so the units keep their letters.
+- `cal.1965-11-27.students`: George E. Brown Jr.'s speaking added at the end (112 Cong. Rec. 11881–82, read; Gibbons, IV, 93–94).
+- `cal.1965-12-17.vietnam` (Dec. 17–21): the meeting of Dec. 17 by Valenti's notes added after the entry's summary of the three days; the days of Dec. 18 and 21 are also entries of their own (`cal.1965-12-18.vietnam-pause`, `cal.1965-12-21.vietnam-pause`). The span bundles three meetings: for the owner to rule.
+- `cal.1966-02-17.vietnam-hearings` (Feb. 17–18): Taylor's day added after the summary; Rusk's day is also `cal.1966-02-18.vietnam-hearings`. The same question of a span.
+- `cal.1966-02-21.vietnam-support`: Cooper's report of Liebman's part added; the professors' letter of Feb. 14 and Katzenbach's memorandum of Feb. 19, which the entry also carries, are also entries of their own (`cal.1966-02-14.vietnam-support`, `cal.1966-02-19.vietnam-support`).
+- `cal.1966-02-26.vietnam`: Moyers's Harris figures and Johnson's reading of them added (FRUS 1964–68, IV, doc. 86).
+- `cal.1966-10-15.vietnam`: Humphrey and Vance present, and Johnson's approval of the dual system, added (Gibbons, IV, 462–63, 471).
+- `cal.1966-11-17.vietnam`: the draft's case on attrition and the bombing added (Gibbons, IV, 467–68).
+- `cal.1966-11-28.vietnam-congress`: kept as it stands, Johnson's note of Nov. 30 with the call (two events in one entry: for the owner to rule); the records mapped (IV, 551 n.79x, n.79y).
+- `cal.1965-08-05.vietnam`: Gibbons's cite restored beside Herring's; the Herring run's row for FRUS III, doc. 117 (`all`) kept, though the run read the document as bearing out only the burning (unit A).
 
 ### The members' and parties' dated word, entered (the owner's rule of Oct. 29)
 
-New entries (75), each from the page of the Record read where the note gives one (the speech's page linked),
+New entries (74), each from the page of the Record read where the note gives one (the speech's page linked),
 else from Gibbons's page and the press it cites, the press then in "To check:":
 
 - `cal.1965-08-17.latin-america`: Marcy to Fulbright
@@ -969,7 +971,6 @@ else from Gibbons's page and the press it cites, the press then in "To check:":
 - `cal.1966-11-01.vietnam-congress`: Church to Goldberg
 - `cal.1966-11-11.vietnam-congress`: Mansfield to Goldberg
 - `cal.1966-11-29.vietnam-congress`: Rusk tells Fulbright
-- `cal.1966-11-30.vietnam-congress`: Johnson to Rostow
 - `cal.1966-12-08.vietnam-congress`: Stennis
 
 ### New entries, the rest (422)
@@ -978,11 +979,11 @@ The executive record Gibbons dates (the meetings, memoranda, cables, the informa
 Mission), the war's events the pages treat, the polls; by month:
 
 - Aug. 1965 (9): `cal.1965-08-03.vietnam`, `cal.1965-08-10.vietnam-support`, `cal.1965-08-11.vietnam`, `cal.1965-08-13.vietnam-support`, `cal.1965-08-13.war-opposition`, `cal.1965-08-14.vietnam`, `cal.1965-08-18.vietnam-3`, `cal.1965-08-26.vietnam`, `cal.1965-08-31.war-opposition`
-- Sept. 1965 (4): `cal.1965-09-01.vietnam-2`, `cal.1965-09-02.students`, `cal.1965-09-07.vietnam`, `cal.1965-09-30.vietnam`
+- Sept. 1965 (4): `cal.1965-09-01.vietnam-3`, `cal.1965-09-02.students`, `cal.1965-09-07.vietnam`, `cal.1965-09-30.vietnam`
 - Oct. 1965 (6): `cal.1965-10-11.vietnam`, `cal.1965-10-18.war-opposition`, `cal.1965-10-21.vietnam`, `cal.1965-10-22.vietnam-pause`, `cal.1965-10-23.vietnam-2`, `cal.1965-10-26.vietnam-2`
 - Nov. 1965 (16): `cal.1965-11-03.vietnam`, `cal.1965-11-03.vietnam-2`, `cal.1965-11-06.vietnam-pause`, `cal.1965-11-09.vietnam`, `cal.1965-11-09.vietnam-2`, `cal.1965-11-10.vietnam`, `cal.1965-11-10.vietnam-2`, `cal.1965-11-11.vietnam-pause`, `cal.1965-11-17.vietnam-pause`, `cal.1965-11-23.vietnam`, `cal.1965-11-23.vietnam-force-levels`, `cal.1965-11-23.vietnam-support`, `cal.1965-11-24.vietnam-pause`, `cal.1965-11-27.vietnam-pause`, `cal.1965-11-28.vietnam-support`, `cal.1965-11-30.vietnam-pause`
-- Dec. 1965 (28): `cal.1965-12-02.vietnam`, `cal.1965-12-02.vietnam-pause`, `cal.1965-12-03.vietnam`, `cal.1965-12-03.vietnam-pause`, `cal.1965-12-04.vietnam-pause`, `cal.1965-12-04.vietnam-pause-2`, `cal.1965-12-06.vietnam-pause`, `cal.1965-12-08.vietnam-pause`, `cal.1965-12-09.vietnam`, `cal.1965-12-10.vietnam-support`, `cal.1965-12-11.vietnam`, `cal.1965-12-14.vietnam`, `cal.1965-12-14.vietnam-pause`, `cal.1965-12-15.vietnam-2`, `cal.1965-12-15.vietnam-3`, `cal.1965-12-15.vietnam-support`, `cal.1965-12-17.vietnam-2`, `cal.1965-12-17.vietnam-3`, `cal.1965-12-18.vietnam-pause`, `cal.1965-12-19.vietnam-pause`, `cal.1965-12-21.vietnam`, `cal.1965-12-21.vietnam-pause`, `cal.1965-12-21.vietnam-pause-2`, `cal.1965-12-27.vietnam-3`, `cal.1965-12-27.vietnam-pause`, `cal.1965-12-28.vietnam-pause`, `cal.1965-12-29.vietnam-2`, `cal.1965-12-30.vietnam-2`
-- Jan. 1966 (28): `cal.1966-01.vietnam`, `cal.1966-01-02.vietnam`, `cal.1966-01-03.laos`, `cal.1966-01-04.vietnam`, `cal.1966-01-05.vietnam`, `cal.1966-01-07.vietnam`, `cal.1966-01-07.vietnam-2`, `cal.1966-01-07.vietnam-3`, `cal.1966-01-07.vietnam-4`, `cal.1966-01-07.vietnam-pause`, `cal.1966-01-08.vietnam`, `cal.1966-01-08.vietnam-2`, `cal.1966-01-08.vietnam-3`, `cal.1966-01-13.vietnam`, `cal.1966-01-14.vietnam`, `cal.1966-01-17.vietnam`, `cal.1966-01-18.vietnam`, `cal.1966-01-19.vietnam-2`, `cal.1966-01-20.vietnam-pause-2`, `cal.1966-01-21.vietnam`, `cal.1966-01-21.vietnam-2`, `cal.1966-01-24.vietnam-force-levels`, `cal.1966-01-25.vietnam-air-war`, `cal.1966-01-25.vietnam-support`, `cal.1966-01-29.vietnam-pause`, `cal.1966-01-29.vietnam-pause-2`, `cal.1966-01-30.vietnam-air-war`, `cal.1966-01-31.vietnam-2`
+- Dec. 1965 (28): `cal.1965-12-02.vietnam`, `cal.1965-12-02.vietnam-pause`, `cal.1965-12-03.vietnam`, `cal.1965-12-03.vietnam-pause`, `cal.1965-12-04.vietnam-pause`, `cal.1965-12-04.vietnam-pause-2`, `cal.1965-12-06.vietnam-pause`, `cal.1965-12-08.vietnam-pause`, `cal.1965-12-09.vietnam`, `cal.1965-12-10.vietnam-support`, `cal.1965-12-11.vietnam`, `cal.1965-12-14.vietnam`, `cal.1965-12-14.vietnam-pause`, `cal.1965-12-15.vietnam-2`, `cal.1965-12-15.vietnam-3`, `cal.1965-12-15.vietnam-support`, `cal.1965-12-17.vietnam-3`, `cal.1965-12-17.vietnam-4`, `cal.1965-12-18.vietnam-pause`, `cal.1965-12-19.vietnam-pause`, `cal.1965-12-21.vietnam`, `cal.1965-12-21.vietnam-pause`, `cal.1965-12-21.vietnam-pause-2`, `cal.1965-12-27.vietnam-3`, `cal.1965-12-27.vietnam-pause`, `cal.1965-12-28.vietnam-pause`, `cal.1965-12-29.vietnam-2`, `cal.1965-12-30.vietnam-2`
+- Jan. 1966 (28): `cal.1966-01.vietnam`, `cal.1966-01-02.vietnam`, `cal.1966-01-03.laos`, `cal.1966-01-04.vietnam`, `cal.1966-01-05.vietnam`, `cal.1966-01-07.vietnam`, `cal.1966-01-07.vietnam-2`, `cal.1966-01-07.vietnam-3`, `cal.1966-01-07.vietnam-4`, `cal.1966-01-07.vietnam-pause`, `cal.1966-01-08.vietnam`, `cal.1966-01-08.vietnam-2`, `cal.1966-01-08.vietnam-3`, `cal.1966-01-13.vietnam`, `cal.1966-01-14.vietnam`, `cal.1966-01-17.vietnam`, `cal.1966-01-18.vietnam`, `cal.1966-01-19.vietnam-2`, `cal.1966-01-20.vietnam-pause-2`, `cal.1966-01-21.vietnam`, `cal.1966-01-21.vietnam-2`, `cal.1966-01-24.vietnam-force-levels`, `cal.1966-01-25.vietnam-air-war`, `cal.1966-01-25.vietnam-support`, `cal.1966-01-29.vietnam-pause`, `cal.1966-01-29.vietnam-pause-2`, `cal.1966-01-30.vietnam-air-war`, `cal.1966-01-31.vietnam-3`
 - Feb. 1966 (20): `cal.1966-02-03.vietnam`, `cal.1966-02-03.vietnam-force-levels`, `cal.1966-02-04.vietnam-air-war`, `cal.1966-02-04.vietnam-air-war-2`, `cal.1966-02-05.vietnam-support`, `cal.1966-02-07.vietnam`, `cal.1966-02-09.vietnam-force-levels`, `cal.1966-02-10.vietnam-force-levels`, `cal.1966-02-11.vietnam`, `cal.1966-02-11.vietnam-air-war`, `cal.1966-02-14.vietnam-support`, `cal.1966-02-15.vietnam`, `cal.1966-02-16.vietnam`, `cal.1966-02-16.vietnam-2`, `cal.1966-02-19.vietnam-air-war`, `cal.1966-02-19.vietnam-support`, `cal.1966-02-21.vietnam-2`, `cal.1966-02-21.vietnam-support-2`, `cal.1966-02-25.vietnam`, `cal.1966-02-28.opinion`
 - Mar. 1966 (26): `cal.1966-03.vietnam-air-war`, `cal.1966-03-02.vietnam-3`, `cal.1966-03-02.vietnam-4`, `cal.1966-03-07.opinion`, `cal.1966-03-08.vietnam-supplemental`, `cal.1966-03-09.vietnam-struggle`, `cal.1966-03-10.vietnam-air-war`, `cal.1966-03-11.vietnam-struggle-2`, `cal.1966-03-12.vietnam-struggle-2`, `cal.1966-03-14.vietnam`, `cal.1966-03-15.opinion`, `cal.1966-03-16.vietnam-struggle-2`, `cal.1966-03-17.vietnam-air-war`, `cal.1966-03-17.vietnam-struggle-2`, `cal.1966-03-18.vietnam-struggle`, `cal.1966-03-22.vietnam-struggle`, `cal.1966-03-22.vietnam-struggle-2`, `cal.1966-03-23.vietnam-struggle`, `cal.1966-03-24.vietnam-struggle`, `cal.1966-03-25.vietnam-struggle`, `cal.1966-03-26.vietnam-air-war`, `cal.1966-03-29.vietnam-air-war`, `cal.1966-03-30.vietnam-air-war`, `cal.1966-03-30.vietnam-struggle-2`, `cal.1966-03-30.vietnam-struggle-3`, `cal.1966-03-31.vietnam-struggle`
 - Apr. 1966 (43): `cal.1966-04-01.vietnam`, `cal.1966-04-02.vietnam-struggle`, `cal.1966-04-02.vietnam-struggle-2`, `cal.1966-04-02.vietnam-struggle-3`, `cal.1966-04-04.vietnam`, `cal.1966-04-04.vietnam-force-levels`, `cal.1966-04-04.vietnam-struggle-2`, `cal.1966-04-04.vietnam-struggle-3`, `cal.1966-04-04.vietnam-struggle-4`, `cal.1966-04-04.vietnam-struggle-5`, `cal.1966-04-05.vietnam`, `cal.1966-04-05.vietnam-2`, `cal.1966-04-05.vietnam-struggle-2`, `cal.1966-04-05.vietnam-struggle-3`, `cal.1966-04-06.vietnam-struggle-2`, `cal.1966-04-07.vietnam`, `cal.1966-04-07.vietnam-air-war`, `cal.1966-04-07.vietnam-struggle`, `cal.1966-04-08.vietnam`, `cal.1966-04-08.vietnam-struggle`, `cal.1966-04-08.vietnam-struggle-2`, `cal.1966-04-09.vietnam`, `cal.1966-04-09.vietnam-2`, `cal.1966-04-09.vietnam-struggle`, `cal.1966-04-09.vietnam-struggle-2`, `cal.1966-04-11.vietnam`, `cal.1966-04-12.vietnam-2`, `cal.1966-04-13.vietnam-air-war`, `cal.1966-04-14.vietnam`, `cal.1966-04-14.vietnam-air-war`, `cal.1966-04-15.vietnam`, `cal.1966-04-16.vietnam`, `cal.1966-04-16.vietnam-struggle`, `cal.1966-04-19.vietnam`, `cal.1966-04-20.vietnam-struggle`, `cal.1966-04-21.vietnam-2`, `cal.1966-04-21.vietnam-3`, `cal.1966-04-25.vietnam-2`, `cal.1966-04-26.vietnam`, `cal.1966-04-26.vietnam-2`, `cal.1966-04-27.vietnam`, `cal.1966-04-27.vietnam-struggle`, `cal.1966-04-27.vietnam-struggle-2`
@@ -997,9 +998,75 @@ Mission), the war's events the pages treat, the polls; by month:
 
 ### Possible duplicates the merge will flag (distinct events: `./bib resolve ID --take keep`)
 
-99 pairs, each two events of one day in one thread (two cables, a meeting and a memorandum, two speeches), read
-against each other before filing:
+165 pairs, each two events of one day in one thread (two cables, a meeting and a memorandum, two speeches), each
+pair read against each other:
 
+- `cal.1965-09-01.vietnam-3` (of `cal.1965-09-01.vietnam-2`)
+- `cal.1965-08-18.vietnam-3` (of `cal.1965-08-18.vietnam-2`)
+- `cal.1965-10-19.vietnam-congress-2` (of `cal.1965-10-19.vietnam-congress`)
+- `cal.1965-10-22.vietnam-congress-2` (of `cal.1965-10-22.vietnam-congress`)
+- `cal.1965-11-03.vietnam-2` (of `cal.1965-11-03.vietnam`)
+- `cal.1965-11-09.vietnam-2` (of `cal.1965-11-09.vietnam`)
+- `cal.1965-11-10.vietnam-2` (of `cal.1965-11-10.vietnam`)
+- `cal.1965-12-04.vietnam-pause-2` (of `cal.1965-12-04.vietnam-pause`)
+- `cal.1965-12-21.vietnam-pause-2` (of `cal.1965-12-21.vietnam-pause`)
+- `cal.1965-12-27.vietnam-pause` (of `cal.1965-12-27.vietnam`)
+- `cal.1965-12-28.vietnam-pause` (of `cal.1965-12-28.vietnam`)
+- `cal.1966-01-19.vietnam-congress-2` (of `cal.1966-01-19.vietnam-congress`)
+- `cal.1966-01-20.vietnam-congress-2` (of `cal.1966-01-20.vietnam-congress`)
+- `cal.1966-01-08.vietnam-2` (of `cal.1966-01-08.vietnam`)
+- `cal.1966-01-20.vietnam-pause-2` (of `cal.1966-01-20.vietnam-pause`)
+- `cal.1966-01-24.vietnam-congress-2` (of `cal.1966-01-24.vietnam-congress`)
+- `cal.1966-01-27.vietnam-congress-2` (of `cal.1966-01-27.vietnam-congress`)
+- `cal.1966-01-29.vietnam-congress-2` (of `cal.1966-01-29.vietnam-congress`)
+- `cal.1966-01-29.vietnam-pause-2` (of `cal.1966-01-29.vietnam-pause`)
+- `cal.1966-01-31.vietnam-congress-2` (of `cal.1966-01-31.vietnam-congress`)
+- `cal.1966-01-07.vietnam-2` (of `cal.1966-01-07.vietnam`)
+- `cal.1966-01-07.vietnam-3` (of `cal.1966-01-07.vietnam-2`)
+- `cal.1965-12-15.vietnam-2` (of `cal.1965-12-15.vietnam`)
+- `cal.1965-12-17.vietnam-3` (of `cal.1965-12-17.vietnam-2`)
+- `cal.1965-12-17.vietnam-4` (of `cal.1965-12-17.vietnam-3`)
+- `cal.1966-01-07.vietnam-4` (of `cal.1966-01-07.vietnam-3`)
+- `cal.1966-01-08.vietnam-3` (of `cal.1966-01-08.vietnam-2`)
+- `cal.1965-12-15.vietnam-3` (of `cal.1965-12-15.vietnam-2`)
+- `cal.1965-12-27.vietnam-3` (of `cal.1965-12-27.vietnam-2`)
+- `cal.1966-03-02.vietnam-3` (of `cal.1966-03-02.vietnam-2`)
+- `cal.1966-08-08.vietnam-2` (of `cal.1966-08-08.vietnam`)
+- `cal.1966-01-29.vietnam-congress-3` (of `cal.1966-01-29.vietnam-congress-2`)
+- `cal.1966-01-27.vietnam-congress-3` (of `cal.1966-01-27.vietnam-congress-2`)
+- `cal.1966-01-27.vietnam-congress-4` (of `cal.1966-01-27.vietnam-congress-3`)
+- `cal.1966-02-01.vietnam-congress-2` (of `cal.1966-02-01.vietnam-congress`)
+- `cal.1966-01-31.vietnam-3` (of `cal.1966-01-31.vietnam-2`)
+- `cal.1966-01-21.vietnam-2` (of `cal.1966-01-21.vietnam`)
+- `cal.1966-02-21.vietnam-2` (of `cal.1966-02-21.vietnam`)
+- `cal.1966-02-16.vietnam-2` (of `cal.1966-02-16.vietnam`)
+- `cal.1966-02-21.vietnam-support-2` (of `cal.1966-02-21.vietnam-support`)
+- `cal.1966-02-17.vietnam-hearings-2` (of `cal.1966-02-17.vietnam-hearings`)
+- `cal.1966-06-14.opinion-2` (of `cal.1966-06-14.opinion`)
+- `cal.1966-01-31.vietnam-congress-3` (of `cal.1966-01-31.vietnam-congress-2`)
+- `cal.1966-02-21.vietnam-congress-2` (of `cal.1966-02-21.vietnam-congress`)
+- `cal.1966-03-01.vietnam-congress-2` (of `cal.1966-03-01.vietnam-congress`)
+- `cal.1966-03-01.vietnam-congress-3` (of `cal.1966-03-01.vietnam-congress-2`)
+- `cal.1966-03-01.vietnam-congress-4` (of `cal.1966-03-01.vietnam-congress-3`)
+- `cal.1966-03-02.vietnam-4` (of `cal.1966-03-02.vietnam-3`)
+- `cal.1966-03-11.vietnam-struggle-2` (of `cal.1966-03-11.vietnam-struggle`)
+- `cal.1966-03-12.vietnam-struggle-2` (of `cal.1966-03-12.vietnam-struggle`)
+- `cal.1966-03-16.vietnam-struggle-2` (of `cal.1966-03-16.vietnam-struggle`)
+- `cal.1966-03-17.vietnam-struggle-2` (of `cal.1966-03-17.vietnam-struggle`)
+- `cal.1966-03-22.vietnam-struggle-2` (of `cal.1966-03-22.vietnam-struggle`)
+- `cal.1966-03-30.vietnam-struggle-2` (of `cal.1966-03-30.vietnam-struggle`)
+- `cal.1966-03-30.vietnam-struggle-3` (of `cal.1966-03-30.vietnam-struggle-2`)
+- `cal.1966-04-02.vietnam-struggle` (of `cal.1966-04-02.vietnam`)
+- `cal.1966-04-02.vietnam-struggle-2` (of `cal.1966-04-02.vietnam-struggle`)
+- `cal.1966-04-02.vietnam-struggle-3` (of `cal.1966-04-02.vietnam-struggle-2`)
+- `cal.1966-04-04.vietnam-struggle-2` (of `cal.1966-04-04.vietnam-struggle`)
+- `cal.1966-04-04.vietnam-struggle-3` (of `cal.1966-04-04.vietnam-struggle-2`)
+- `cal.1966-04-04.vietnam-struggle-4` (of `cal.1966-04-04.vietnam-struggle-3`)
+- `cal.1966-04-04.vietnam-struggle-5` (of `cal.1966-04-04.vietnam-struggle-4`)
+- `cal.1966-04-05.vietnam-struggle-2` (of `cal.1966-04-05.vietnam-struggle`)
+- `cal.1966-04-05.vietnam-struggle-3` (of `cal.1966-04-05.vietnam-struggle-2`)
+- `cal.1966-04-06.vietnam-struggle-2` (of `cal.1966-04-06.vietnam-struggle`)
+- `cal.1966-04-08.vietnam-struggle-2` (of `cal.1966-04-08.vietnam-struggle`)
 - `cal.1966-04-09.vietnam-struggle-2` (of `cal.1966-04-09.vietnam-struggle`)
 - `cal.1966-04-09.vietnam-2` (of `cal.1966-04-09.vietnam`)
 - `cal.1966-04-05.vietnam-2` (of `cal.1966-04-05.vietnam`)
@@ -1581,4 +1648,3 @@ owner to rule. "A lead": a dated event whose record the run did not read.
 - The Voteview numbers of the McGovern and Clark amendments of Aug. 18, 1966, derived from the Record's Nos. 210 and 212: to be read on Voteview.
 - Mansfield's group with Kỳ, Thiệu and Trần Văn Đỗ, Dec. 1965 (State, Lot File 70 D 102): the days of the conversations.
 - Westmoreland's Historical Briefings and his cordon plan of Jan.–Feb. 1966 (COMUSMACV 0907): Westmoreland Papers, Center of Military History.
-
