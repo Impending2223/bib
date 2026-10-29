@@ -281,12 +281,14 @@ entries:
     thread: europe-and-the-alliance
     also: [european-community]
     c: 'De Gaulle and Adenauer sign the Franco-German treaty at the Élysée. Same day, Kennedy to the NSC: de Gaulle "relies on our power to protect him while he launches his policies based solely on the self-interest of France."'
-    n: '[FRUS 1961–63, XIII, doc. 168](https://history.state.gov/historicaldocuments/frus1961-63v13/d168). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 404 (the treaty). To check: [[w.adenauer-erinnerungen-1959-1963]]; [[w.mayer-adenauer-and-kennedy]]; [[w.bange-eec-crisis-of-1963]]. See [[cal.1963-01-14.europe-and-the-alliance]]. Names: de Gaulle, Adenauer.'
+    n: '[FRUS 1961–63, XIII, doc. 168](https://history.state.gov/historicaldocuments/frus1961-63v13/d168). [[w.kaplan-mcnamara-ascendancy-1961-1965]], 404 (the treaty). [[w.gavin-gold-dollars-and-power]], 95 (Kennedy to the NSC). To check: [[w.adenauer-erinnerungen-1959-1963]]; [[w.mayer-adenauer-and-kennedy]]; [[w.bange-eec-crisis-of-1963]]. See [[cal.1963-01-14.europe-and-the-alliance]]. Names: de Gaulle, Adenauer.'
     src:
       c: 5a2d8690
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v13/d168: B'
         - 'w.kaplan-mcnamara-ascendancy-1961-1965 404: A'
+        - 'w.gavin-gold-dollars-and-power 95: B'
+        - 'via w.gavin-gold-dollars-and-power 95 n.11: B'
     tags: [name:de-gaulle-charles, name:adenauer-konrad, name:kennedy-john-f]
   - id: cal.1963-01-22.specials
     when: Jan. 22
@@ -362,6 +364,24 @@ entries:
         - 'w.gibbons-u-s-government-and II, 134: A'
         - 'via w.gibbons-u-s-government-and II, 134 n.153: A'
     tags: [name:hilsman-roger, name:forrestal-michael-v, name:wheeler-earle, name:ngo-dinh-diem]
+  - id: cal.1963-01-25.europe-and-the-alliance
+    when: Jan. 25
+    date: '1963-01-25'
+    thread: europe-and-the-alliance
+    also: [economy]
+    c: 'The ExComm, after Cuba, on Europe, 4 p.m. Kennedy: de Gaulle may deal with the Russians, break up NATO and push the United States out of Europe; "the French may suddenly decide to cash their dollar holdings"; the two old sanctions, aid and defense, wasting away; be ready to reduce the forces in Germany quickly. McNamara: disengage from Europe entirely, or tie closer to the European powers other than France.'
+    n: '[FRUS 1961–63, XIII, doc. 169](https://history.state.gov/historicaldocuments/frus1961-63v13/d169). [[w.gavin-gold-dollars-and-power]], 89, 94–95. Check: Gavin, 94 n.9, gives McNamara''s two courses to the meeting of Jan. 31, and 95 n.12 Dillon''s remarks to this one; FRUS prints McNamara''s here and Dillon''s on Jan. 31. See [[cal.1963-01-22.europe-and-the-alliance]]. Names: Kennedy, de Gaulle, McNamara.'
+    src:
+      c: 07a73444
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v13/d169: all'
+        - 'w.gavin-gold-dollars-and-power 89: B-C'
+        - 'w.gavin-gold-dollars-and-power 94: F'
+        - 'w.gavin-gold-dollars-and-power 95: D'
+        - 'via w.gavin-gold-dollars-and-power 89 n.2: B-C'
+        - 'via w.gavin-gold-dollars-and-power 94 n.9: F'
+        - 'via w.gavin-gold-dollars-and-power 95 n.12: D'
+    tags: [name:kennedy-john-f, name:de-gaulle-charles, name:mcnamara-robert-s]
   - id: cal.1963-01-26.testing
     when: Jan. 26
     date: '1963-01-26'
@@ -420,8 +440,8 @@ entries:
     date: '1963-01-29'
     thread: europe-and-the-alliance
     also: [european-community]
-    c: 'Britain''s negotiations with the Six broken off at Brussels on France''s insistence. Jan. 31: the ExComm reappraises policy toward Europe.'
-    n: '[FRUS 1961–63, XIII, doc. 64](https://history.state.gov/historicaldocuments/frus1961-63v13/d64); Rusk to Schroeder, Jan. 28, [doc. 62](https://history.state.gov/historicaldocuments/frus1961-63v13/d62). To check: [[w.macmillan-at-the-end-of]]; [[w.zeiler-american-trade-and-power]]; [[w.ludlow-dealing-with-britain]]; [[w.bange-eec-crisis-of-1963]]. See [[cal.1963-01-14.europe-and-the-alliance]]. Names: Rusk, Macmillan, de Gaulle.'
+    c: Britain's negotiations with the Six broken off at Brussels on France's insistence.
+    n: 'Rusk to Schroeder, Jan. 28, [FRUS 1961–63, XIII, doc. 62](https://history.state.gov/historicaldocuments/frus1961-63v13/d62). To check: [[w.macmillan-at-the-end-of]]; [[w.zeiler-american-trade-and-power]]; [[w.ludlow-dealing-with-britain]]; [[w.bange-eec-crisis-of-1963]]. See [[cal.1963-01-14.europe-and-the-alliance]]. Names: Rusk, Macmillan, de Gaulle.'
     tags: [name:rusk-dean, name:macmillan-harold, name:de-gaulle-charles, name:kennedy-john-f]
   - id: cal.1963-01-29.middle-east
     when: Jan. 29
@@ -473,3 +493,18 @@ entries:
       rows:
         - 'w.schlesinger-robert-kennedy-and-his 485: all'
     tags: [name:harvey-william-k]
+  - id: cal.1963-01-31.europe-and-the-alliance
+    when: Jan. 31
+    date: '1963-01-31'
+    thread: europe-and-the-alliance
+    also: [economy]
+    c: 'The ExComm reappraises policy toward Europe. Dillon: weak in the financial field, strong in the political and military; if France attacks the dollar, answer there; would withdrawing the forces, $750 million a year in Europe, "be the disaster some say it would." Kennedy: Congress "might well conclude that we should not help Europe if de Gaulle continues to act as he has been."'
+    n: '[FRUS 1961–63, XIII, doc. 64](https://history.state.gov/historicaldocuments/frus1961-63v13/d64). [[w.gavin-gold-dollars-and-power]], 95. See [[cal.1963-01-25.europe-and-the-alliance]]; [[cal.1963-01-29.europe-and-the-alliance]]. Names: Dillon, Kennedy, de Gaulle.'
+    src:
+      c: a236865f
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v13/d64: all'
+        - 'w.gavin-gold-dollars-and-power 95: B-E'
+        - 'via w.gavin-gold-dollars-and-power 95 n.12: B-D'
+        - 'via w.gavin-gold-dollars-and-power 95 n.13: E'
+    tags: [name:dillon-c-douglas, name:kennedy-john-f, name:de-gaulle-charles]

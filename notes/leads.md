@@ -1964,6 +1964,20 @@ Foreign:
 - Rusk and Clifford to Bùi Diễm, Mar. 20 (FRUS VI doc. 140 n.3; Clifford, 508); McNamara on Kosygin's invitation, Nov. 11
   (Christian, 145).
 
+### Gavin, *Gold, Dollars, and Power* (the reading agent, Oct. 28, 2026; notes/book-checks/gavin-gold-dollars-and-power.md)
+
+- National: Dillon before the Joint Economic Committee, Aug. 17, 1962: the daybook's committees file has the hearing
+  under Aug. 16 (Daily Digest D475; the Digest's day against the hearing's to be read again). The memoranda above marked
+  "a lead", most in UPA's microfilms or the presidential libraries (each with Gavin's note in the table). Gilpatric's
+  UPI speech of Oct. 19, 1963: the text not read (the entry rests on Gavin, 109). Eisenhower's *Saturday Evening Post*
+  article on the troops, Oct. 1963: the issue.
+- Foreign: McNamara–von Hassel, May 1966: no record found. The text of de Gaulle's press conference of Feb. 4, 1965
+  (*Discours et messages*, IV). Johnson's telegram to Califano, Dec. 23, 1967, as Gavin quotes it, is not in FRUS
+  (FRUS prints another message; the entry's Check). The date France left the gold pool, 1967. Fowler's European
+  mission, Aug.–Sept. 1965: the dates and the record.
+- To read: the 8 FRUS and Public Papers items found and in To check; the Bulletin's text of Rusk at Frankfurt read (Nov.
+  11, 1963, 726, 729), the text of Kennedy's Oct. 31, 1960 statement as Gavin gives it (Sorensen, 406).
+
 ## The Executive roster
 
 - NSCID No. 1: the texts of 1958, 1964 and 1972 not in the file (`usib.yaml`). Open on archive.org, the CIA's CREST copies (Oct. 23, 2026): the text effective Feb. 17, 1972 (`CIA-RDP87B01034R000700020013-3`); a 1958 draft (`CIA-RDP85S00362R000600150011-7`, "Concurred in by the IAC 21 January"), with the drafts of 1957; for 1964 only Bundy's approval of the revisions, Mar. 27, 1964, "the President's decision of March 5, 1964 on the reorganization of the USIB" (`cia-readingroom-document-cia-rdp80b01676r000400180031-7`; the text exempt). FRUS 1964–68, XXXIII, doc. 196, n. 3: revised Jan. 18, 1961, and Mar. 4, 1964. Lay shown as the Board's Executive Secretary only for Mar. 1964, in a note.
