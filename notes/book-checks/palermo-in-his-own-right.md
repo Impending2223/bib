@@ -73,9 +73,8 @@ of Mar. 14, 1968. The full list is the patch's adds.
 Thirty-three of them share a day and thread with an entry already in and were flagged "possible duplicate" by the
 merge's dry run; each was compared and is a different event (a different document, speaker or meeting). One was a
 duplicate (the leadership breakfast of Feb. 6, 1968, already `cal.1968-02-06.vietnam-tet`) and was made an edit instead.
-The Fulbright entry of Feb. 21, 1966 takes `-3` because `inbox/2026-10-29-backfill-gibbons-4a.yaml` adds `-2`; the same
-patch edits `cal.1966-01-31.robert-kennedy`'s `src`, as this one does: the second merged will show a field conflict,
-both sides' rows to be kept.
+The Fulbright entry of Feb. 21, 1966 takes `-3` because the Gibbons back-fill (gibbons-4a) added `-2`; the patch was
+rebuilt on the calendar after that merge, so its edit of `cal.1966-01-31.robert-kennedy` keeps the back-fill's rows.
 
 ## Records
 

@@ -2004,6 +2004,26 @@ Foreign:
 - Mansfield's group with Kỳ, Thiệu and Trần Văn Đỗ, Dec. 1965 (State, Lot File 70 D 102): the days of the conversations.
 - Westmoreland's Historical Briefings and his cordon plan of Jan.–Feb. 1966 (COMUSMACV 0907): Westmoreland Papers, Center of Military History.
 
+### Palermo, *In His Own Right* (the reading agent, Oct. 28, 2026; notes/book-checks/palermo-in-his-own-right.md)
+
+- The FBI's leak of the King wiretap papers, May 1968 (`cal.1968-05-17.robert-kennedy`): the paper, the columnist (Drew
+  Pearson's?) and the day. DeLoach to Tolson, May 17, is the record Palermo cites; its contents not given.
+- Wheeler to Reuss on Loan, Feb. 3, 1968, NSF Country File, Vietnam, Box 102, LBJ Library (106 n.29): an entry once read.
+- The Young Democrats' national convention, Hollywood, Fla., Nov. 1967, and the White House's and DNC's steps there
+  (70, nn.59–61): the days.
+- Bailey's remarks to the DNC, Chicago, Jan. 8, 1968 (96 n.93), and the DNC's form letter of Feb. 20, 1968 (n.95): the
+  words.
+- Johnson's "grandstanding little runt," Apr. 1, 1968 (Shesol, *Mutual Contempt*, 441, as Palermo cites it): read Shesol.
+- The House resolution of Mar. 18, 1968 (132 members): its number and sponsors in the Record (Palermo cites *The
+  Pentagon Papers*, 591, the edition unnamed).
+- The ADA board's meeting, September 1967, which voted down alternative candidates: the day.
+- The National Conference for New Politics, Chicago, Labor Day weekend 1967: the days (the entry has Sept. 2–4, a Check).
+- The Conference of Concerned Democrats, Chicago: Palermo gives Nov. 30, 1967 and "two days," the rally "of the weekend";
+  the days.
+- The FBI File on Robert F. Kennedy (microform, series 1–4): when it was released, for the entries' "Made public".
+- Guthman and Allen, *RFK: Collected Speeches* (1993), and Dooley, *Robert Kennedy: The Final Years* (1995), cited by the
+  book and by the new entries' To check: no cards yet.
+
 ## The Executive roster
 
 - NSCID No. 1: the texts of 1958, 1964 and 1972 not in the file (`usib.yaml`). Open on archive.org, the CIA's CREST copies (Oct. 23, 2026): the text effective Feb. 17, 1972 (`CIA-RDP87B01034R000700020013-3`); a 1958 draft (`CIA-RDP85S00362R000600150011-7`, "Concurred in by the IAC 21 January"), with the drafts of 1957; for 1964 only Bundy's approval of the revisions, Mar. 27, 1964, "the President's decision of March 5, 1964 on the reorganization of the USIB" (`cia-readingroom-document-cia-rdp80b01676r000400180031-7`; the text exempt). FRUS 1964–68, XXXIII, doc. 196, n. 3: revised Jan. 18, 1961, and Mar. 4, 1964. Lay shown as the Board's Executive Secretary only for Mar. 1964, in a note.
