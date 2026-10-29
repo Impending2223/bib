@@ -21,7 +21,7 @@ The copy: 209 PDF pages, a sanitized copy dated by its foreword Oct. 15, 1965; A
 separately" and not in it. The printed page is the PDF page less 10 throughout (checked on pp. 15, 32, 188). Chapters:
 command summary (1-9), personnel (10-38), intelligence (39-51), operations (52-134), logistics (135-154), planning
 (155-171), communications (173-181), appendixes (key personnel, 188; chronology, 189-93). The notes follow each chapter.
-Patch: `inbox/2026-10-29-b3-macv-1964.yaml` (patch `b3-macv-1964`): 23 new entries, 16 edits.
+Patch: `inbox/2026-10-29-b3-macv-1964.yaml` (patch `b3-macv-1964`): 26 new entries, 16 edits.
 
 ### Cites already in the calendar
 

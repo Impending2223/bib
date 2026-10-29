@@ -70,7 +70,7 @@ ops:
       - elections-1964
       c: 'New York, the Commodore''s Tudor Room. Rusher and White on joining Ashbrook''s files to White''s: a nationwide organization for a conservative candidate at the convention of 1964, or at the least
         a conservative platform. By White''s account.'
-      n: '[[w.white-suite-3505]], 32. See [[cal.1961-07-10.goldwater]]. Names: Rusher, White.'
+      n: '[[w.white-suite-3505]], 32. See [[cal.1961-07-10.goldwater]]. Names: Rusher, White, Ashbrook.'
       src:
         c: 9958e5f2
         rows:
@@ -78,6 +78,7 @@ ops:
       tags:
       - name:rusher-william-a
       - name:white-f-clifton
+      - name:ashbrook-john-m
       - city:nyc
 - add:
     entry:
@@ -1918,14 +1919,15 @@ ops:
       thread: republican-party
       also:
       - elections-1964
-      c: 'Elmer Anderson, Minnesota''s former governor, to Minnesota Republicans, by letter, for Judd as favorite son: "it is not at all impossible that Dr. Judd could emerge from a convention as the Presidential
+      c: 'Elmer Andersen, Minnesota''s former governor, to Minnesota Republicans, by letter, for Judd as favorite son: "it is not at all impossible that Dr. Judd could emerge from a convention as the Presidential
         candidate."'
-      n: '[[w.white-suite-3505]], 260. Names: Judd.'
+      n: '[[w.white-suite-3505]], 260. Names: Andersen, Judd. Check: White, 260, spells him Anderson.'
       src:
-        c: 6ea62840
+        c: 8c7d3bed
         rows:
         - 'w.white-suite-3505 260: all'
       tags:
+      - name:andersen-elmer-l
       - name:judd-walter-h
       - state:mn
 - add:
@@ -2698,13 +2700,14 @@ ops:
       date: '1964-05-02'
       thread: elections-1964-state-conventions
       c: 'Tennessee''s Republican convention: all 28 delegates for Goldwater, 22 of them claimed; Representative Brock helping.'
-      n: '[[w.white-suite-3505]], 315. Names: Goldwater.'
+      n: '[[w.white-suite-3505]], 315. Names: Goldwater, Brock.'
       src:
         c: fbf04146
         rows:
         - 'w.white-suite-3505 315: all'
       tags:
       - name:goldwater-barry-m
+      - name:brock-bill
       - state:tn
 - add:
     entry:
@@ -2978,13 +2981,14 @@ ops:
       date: '1964-06-12'
       thread: elections-1964-state-conventions
       c: 'Idaho''s Republican convention: all fourteen delegates for Goldwater, Governor Smylie having given up backing Rockefeller.'
-      n: '[[w.white-suite-3505]], 353. Names: Goldwater, Rockefeller.'
+      n: '[[w.white-suite-3505]], 353. Names: Goldwater, Smylie, Rockefeller.'
       src:
         c: fe1749d8
         rows:
         - 'w.white-suite-3505 353: all'
       tags:
       - name:goldwater-barry-m
+      - name:smylie-robert-e
       - name:rockefeller-nelson
       - state:id
 - add:
@@ -3240,6 +3244,42 @@ ops:
       - name:curtis-carl-t
       - name:goldwater-barry-m
       - city:san-francisco
+- add:
+    entry:
+      id: cal.1963-03-27.goldwater
+      when: Mar. 27
+      date: '1963-03-27'
+      thread: goldwater
+      also:
+      - elections-1964
+      c: 'White to the original group and other allies, a confidential memorandum: the public launch near; each to name the best people to lead the draft in his State, at once; a press release to come,
+        to be placed in local papers, radio and television.'
+      n: '[[w.white-suite-3505]], 130. Made public: [[w.white-suite-3505]], 130. See [[cal.1963-03-06.goldwater]]. Names: White.'
+      src:
+        c: 74778a20
+        rows:
+        - 'w.white-suite-3505 130: all'
+      tags:
+      - name:white-f-clifton
+- add:
+    entry:
+      id: cal.1963-07.goldwater-2
+      when: July
+      date: 1963-07
+      thread: goldwater
+      also:
+      - republican-party
+      - right-and-the-military
+      c: 'Failor, White''s Midwest regional director, to White, a memorandum on Nadasdy''s charge of Birch Society delegates from Illinois and Iowa: "a complete and total lie"; sworn affidavits from each
+        delegate; no Society member in any phase of the leadership of Lukens''s campaign.'
+      n: '[[w.white-suite-3505]], 173. Made public: [[w.white-suite-3505]], 173. See [[cal.1963-07-06.republican-party]]. Names: White, Lukens. Check: the day; after July 7.'
+      src:
+        c: ce95e5c3
+        rows:
+        - 'w.white-suite-3505 173: all'
+      tags:
+      - name:white-f-clifton
+      - name:lukens-donald-e
 - edit:
     id: cal.1960-03-26.elections-1960
     base: 5ec7780d
