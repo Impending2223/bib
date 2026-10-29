@@ -894,6 +894,31 @@ ops:
         - 'w.longley-lbjs-1968 200: A, D-E'
         - 'via w.longley-lbjs-1968 200 n.55: A'
         - 'via w.longley-lbjs-1968 200 n.56: D-E'
+- add:
+    entry:
+      id: cal.1968-11-01.elections-1968-chennault-2
+      when: Nov. 1
+      date: '1968-11-01'
+      thread: elections-1968-chennault
+      c: 'Johnson to Rowe, of Humphrey''s campaign, by telephone, 1:58 p.m.: keep Humphrey from mentioning Vietnam until Tuesday
+        night; Nixon "is in deep telling Thieu and them and Korea and all of them not to go along with me on anything"; "your
+        little friend, Mrs. Chennault, and the whole outfit is working in it."'
+      n: 'FRUS 1964–68, VII, doc. [173](https://history.state.gov/historicaldocuments/frus1964-68v07/d173). [[w.longley-lbjs-1968]],
+        242. Made public: FRUS 1964–68, VII (2003). See [[cal.1968-07-12.elections-1968]]. Names: Rowe, Humphrey, Nixon, Nguyễn
+        Văn Thiệu, Chennault, Johnson.'
+      tags:
+      - 'name:rowe-james-h-jr'
+      - 'name:humphrey-hubert-h'
+      - 'name:nixon-richard-m'
+      - 'name:nguyen-van-thieu'
+      - 'name:chennault-anna'
+      - 'name:johnson-lyndon-b'
+      src:
+        c: 83c54749
+        rows:
+        - 'https://history.state.gov/historicaldocuments/frus1964-68v07/d173: all'
+        - 'w.longley-lbjs-1968 242: B-C'
+        - 'via w.longley-lbjs-1968 242 n.36: B-C'
 - edit:
     id: cal.1967-12-19.vietnam
     base: e8f3600f
@@ -1599,13 +1624,10 @@ ops:
     id: cal.1968-06-08.robert-kennedy
     base: 326d87ba
     set:
-      c: 'New York, St. Patrick''s Cathedral: the requiem Mass; Edward Kennedy speaks for the family. The funeral train to
-        Washington, crowds along the line. Burial at Arlington at night, near his brother''s grave. Johnson at the Mass and
-        the burial.'
       n: '[[w.longley-lbjs-1968]], 148–54 (the Mass; the train; Johnson at Union Station and at the burial). See [[cal.1968-06-05.robert-kennedy]].
         Names: Edward Kennedy, Robert Kennedy, Johnson.'
       src:
-        c: d499a21a
+        c: 7f716594
         rows:
         - 'w.longley-lbjs-1968 148–54: all'
 - edit:
@@ -2141,3 +2163,16 @@ ops:
         rows:
         - 'w.johnson-vantage-point 567: all'
         - 'w.longley-lbjs-1968 267–69: A-C'
+- edit:
+    id: cal.1968-10-26.elections-1968-2
+    base: b6978dd3
+    set:
+      n: '[[w.nixon-rn]], 327–28. [[w.longley-lbjs-1968]], 236 (the statement, from Ambrose). To check: Nixon''s statement,
+        Oct. 26, 1968 (quoted by [[w.nixon-rn]], 327). See [[cal.1968-10-22.elections-1968-2]]. Names: Nixon, Johnson, Humphrey.
+        Check: Longley dates the statement Oct. 25 (236, from Ambrose, *Nixon*, 209).'
+      src:
+        c: a6ebacb8
+        rows:
+        - 'w.nixon-rn 327–28: all'
+        - 'via w.nixon-rn 327 n.text: all'
+        - 'w.longley-lbjs-1968 236: B'

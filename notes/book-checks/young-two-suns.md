@@ -223,7 +223,7 @@ Within Jan. 6, 1960–Jan. 20, 1969 and pp. 1–151 only (chapter 1's 1950s are 
 ## The rest, Oct. 29, 2026
 
 Patch: `inbox/2026-10-29-republicans-finish.yaml` (republicans-finish, with the rest of Hess and Broder). Records:
-`sources/cited-records/young-two-suns-of-the.yaml` (19 rows).
+`sources/cited-records/young-two-suns-of-the.yaml` (31 rows).
 
 **The copy.** The owner's PDF, fetched whole by the brief's download line (drive.usercontent.google.com, the file id
 above) into a scratch directory outside the repo: 312 PDF pages, 20 MB, the Internet Archive's scan with its text
@@ -247,7 +247,14 @@ claim left as it stood:
   `-10-14` (the arrests, 191–92), `-10-27`, `-11-04`, `cal.1964-10.goldwater` (Jaffa and Rehnquist, 189),
   `cal.1964-05-24.goldwater` (165–66): borne out, the page added.
 
-**New entries (18).** The campaign's informal record, from the White House files and the recordings the notes cite:
+**New entries (29).** The staff memoranda, entered at the coordinator's ruling of Oct. 29 (the informal record, not
+"minor"; first listed here as Passed over), each by its writer, addressee and the note's date, the record in "To
+check:": Louis Martin to Valenti on the Negro Democrats of the South (July 7); Moyers on the religious groups (July
+17); Welsh on the ethnic backlash (July 27); Gronouski on the ethnic campaign (Aug. 10); Cater, the frontlash two to
+one (Aug. 12); Reedy on the bureau chiefs (Aug. 18); Valenti on the Sunday programs and Popple on the schedule (Aug.
+20; Young gives Popple's words to Gronouski: Check); John Bartlow Martin on Illinois (Oct. 1); Cater on the evening
+news and Manatos on Goldwater's churchgoing (Oct. 16; Young sets Cater's among September's decisions). And the 18
+first entered: the campaign's informal record, from the White House files and the recordings the notes cite:
 Doyle Dane Bernbach signed (Mar. 19, 1964); Truax's survey of the States for Burch (Aug. 3); Johnson to Reuther by
 telephone (Aug. 9, the Miller Center's catalogue); Moyers on Gallup's confidential help (Aug. 15); O'Brien's estimate of
 the races for Congress (Aug. 22); Fortas and Clifford against the Sunday programs (Sept. 3); Johnson to Moyers on the
@@ -268,14 +275,6 @@ the historiography of the Conclusion not listed.
 
 | page | date | event | why |
 |---|---|---|---|
-| 152 | Aug. 20, 1964 | Valenti to Moyers and Reedy on the Sunday programs | the decision entered (`cal.1964-09-03.elections-1964`); a memorandum of advice |
-| 154 | July 27, 1964 | Welsh to Johnson on the backlash in Indiana | a memorandum of advice; minor (a repetition of the backlash reports entered) |
-| 155 | Aug. 12, 1964 | Cater to Johnson on the backlash | as above |
-| 156 | Aug. 10, 20, 1964 | Gronouski to Johnson and Popple to Valenti on ethnic voters | as above |
-| 156 | Oct. 1, 1964 | John Bartlow Martin to Moyers | as above |
-| 156 | July 7, 1964 | Louis Martin to Valenti on Negro voters | as above |
-| 163 | Aug. 18, 1964 | Reedy to Johnson on the Republicans | as above |
-| 189 | Oct. 16, 1964 | Manatos and Cater to Johnson | as above |
 | 154 | June 14, 1964 | Kitchel on *Meet the Press*: union members Republicans | to leads (the program's transcript) |
 | 165 | 1963–64 | Goldwater at Hartford and elsewhere on the bomb | undated |
 | 173, 176 | Sept.–Oct. 1964 | Interpublic, the Republicans' advertising; the ice cream spot | undated |
@@ -284,7 +283,7 @@ the historiography of the Conclusion not listed.
 | 180 | Oct. 1964 | the campaign's "prebuttals" | undated |
 | 182–84 | Oct. 1964 | Rovere's tour of the South | undated; a journalist |
 | 182 | Oct. 27–28, 1964 | Johnson at Albuquerque | minor (one stop of the day's; in the day's Documents, the Public Papers' remarks) |
-| 190 | Oct. 1964 | the Protestant theologians for Johnson | undated |
+| 189–90 | Aug. 6, 1964 (the note) | "The Goldwater Candidacy and the Christian Conscience," the Protestant theologians' statement, in the White House files | an outside group's statement, not the parties' or the administration's; the owner to rule |
 | 191 | mid-Oct. 1964 | Goldwater's speeches on crime | undated |
 | 203, 253 | Nov. 13, 1964 | Rockefeller's note after the election | private; to leads (its text and recipient) |
 | 205 | 1963 | the Democratic Study Group takes up campaign work | undated; to leads |

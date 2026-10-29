@@ -358,23 +358,25 @@ ops:
       n: 'To check: [[w.dallek-right-moment]]. [[w.hess-republican-establishment]], 254 (the day; fifteen stations). Names:
         Reagan.'
       src:
-        c: 22847e7e
+        c: '18269662'
         rows:
         - 'w.hess-republican-establishment 254: all'
-      c: Reagan announces for governor of California, on television. Fifteen stations, Redding to San Diego.
+      c: Reagan announces for governor of California, on television. Check the date. Fifteen stations, Redding to San Diego.
 - edit:
     id: cal.1961-11-18.goldwater
-    base: 3fd4ff49
+    base: 45f396f1
     set:
       n: '[[w.perlstein-before-the-storm]], 190 (to Georgia Republicans; the words); [[w.young-two-suns-of-the]], 56 (Atlanta,
-        November 1961; the words; the schools). [[w.hess-republican-establishment]], 336, 340 (a news conference, Atlanta,
-        November 1961; the words; the schools). To check: [[w.goldberg-barry-goldwater]]; [[w.kabaservice-rule-and-ruin]].
-        See [[cal.1961-10-08.goldwater]]. Names: Goldwater.'
+        November 1961; the words; the schools). [[w.gifford-center-cannot-hold]], 146 (Atlanta, 1961; the words). [[w.hess-republican-establishment]],
+        336, 340 (a news conference, Atlanta, November 1961; the words; the schools). To check: [[w.goldberg-barry-goldwater]];
+        [[w.kabaservice-rule-and-ruin]]; [[w.bass-transformation-of-southern-politics-1976]], 27 (cited by [[w.gifford-center-cannot-hold]],
+        146 n.2). See [[cal.1961-10-08.goldwater]]. Names: Goldwater.'
       src:
         c: 32023aaa
         rows:
         - 'w.perlstein-before-the-storm 190: A, B'
         - 'w.young-two-suns-of-the 56: A-C'
+        - 'w.gifford-center-cannot-hold 146: A, B'
         - 'w.hess-republican-establishment 336: A-B'
         - 'w.hess-republican-establishment 340: C'
 - edit:
@@ -552,23 +554,23 @@ ops:
     base: 9d6babb8
     set:
       n: '*Michigan Daily*, Dec. 9, 1964 (AP) (Check against the press). [[w.hess-republican-establishment]], 1, 40–41, 221,
-        340 (Percy; Gavin; Smylie''s words; the statement''s words; Rockefeller, Romney and Scranton; Morton, Wilson and Nixon).
+        340 (Smylie''s words; the statement''s words; Rockefeller, Romney and Scranton; Morton, Wilson and Nixon; Percy; Gavin).
         To check: [[w.sparacino-democratic-and-republican-governors]]; [[w.kabaservice-rule-and-ruin]]. See [[cal.1964-11-03.elections-1964-2]].
         Names: Rockefeller, Romney, Scranton, Burch, Smylie, Morton, Wilson, Nixon, Percy, Gavin.'
       src:
-        c: dba141e0
+        c: c8c7d70c
         rows:
         - '"*Michigan Daily*": A, C-E'
         - 'w.hess-republican-establishment 1: A-B'
         - 'w.hess-republican-establishment 40–41: A, C-D, F-G'
-        - 'w.hess-republican-establishment 221: H'
-        - 'w.hess-republican-establishment 340: I'
+        - 'w.hess-republican-establishment 221: I'
+        - 'w.hess-republican-establishment 340: J'
       c: 'Republican governors and governors-elect at Denver. Smylie, chairman of their association, opens: "We are a defeated
         party with a defeated leadership." A statement on the party''s leadership, for "a policy of inclusion"; Rockefeller,
         Romney and Scranton say Burch should be replaced; Smylie presses hardest for a declaration. Morton and Bob Wilson,
         the campaign committees'' chairmen, counsel against removing Burch; Nixon, by telephone to governors there, the same.
-        Percy: repudiate those who "waved our party banner in 1964 only as a means to promote hate and bigotry." Gavin of
-        North Carolina: "never again" the Southern strategy. Check.'
+        Check. Percy: repudiate those who "waved our party banner in 1964 only as a means to promote hate and bigotry." Gavin
+        of North Carolina: "never again" the Southern strategy.'
       tags:
       - name:rockefeller-nelson
       - name:romney-george-w
@@ -582,15 +584,17 @@ ops:
       - name:gavin-robert-l
 - edit:
     id: cal.1960-09-10.conservative-movement
-    base: d6aba8bd
+    base: 7a415a55
     set:
-      n: '[[w.perlstein-before-the-storm]], 105–106. [[w.hess-republican-establishment]], 77 (about a hundred; the weekend
-        of Sept. 9). To check: [[w.andrew-other-side-of-the]], 55 (cited by [[w.perlstein-before-the-storm]], 105 n.1, for
-        the call). Names: Buckley.'
+      n: '[[w.perlstein-before-the-storm]], 105–106. [[w.gifford-center-cannot-hold]], 137–38 (the conference, over ninety;
+        the statement, M. Stanton Evans''s). [[w.hess-republican-establishment]], 77 (about a hundred; the weekend of Sept.
+        9). To check: [[w.andrew-other-side-of-the]], 55 (cited by [[w.perlstein-before-the-storm]], 105 n.1, for the call);
+        [[w.schneider-cadres-for-conservatism]]. Names: Buckley.'
       src:
         c: 68a2e1b2
         rows:
         - 'w.perlstein-before-the-storm 105–106: all'
+        - 'w.gifford-center-cannot-hold 137–38: A-B'
         - 'w.hess-republican-establishment 77: A-B'
 - edit:
     id: cal.1962-03-07.goldwater
@@ -606,6 +610,238 @@ ops:
         - 'https://www.villagevoice.com/yaf-goes-wild-for-barry-goldwater/: all'
         - 'w.perlstein-before-the-storm 163–65: all'
         - 'w.hess-republican-establishment 77: A'
+- add:
+    entry:
+      id: cal.1964-07-07.democratic-party
+      when: July 7
+      date: '1964-07-07'
+      thread: democratic-party
+      also:
+      - elections-1964
+      c: 'Louis Martin of the national committee to Valenti: reschedule the off-the-record meeting with the Southern Regional
+        Conference of Negro Democrats, as with the groups of the Northeast and the Midwest; "The Negro vote in North Carolina,
+        Georgia, South Carolina, Florida and some of the other states can be decisive."'
+      n: '[[w.young-two-suns-of-the]], 153–54. To check: Louis Martin to Valenti, July 7, 1964, PL 2 Elections and Campaigns,
+        June 15–July 23, 1964, box 83, WHCF, LBJ Library (cited by [[w.young-two-suns-of-the]], 154 n.31). Names: Valenti.'
+      src:
+        c: 4559a835
+        rows:
+        - 'w.young-two-suns-of-the 153–54: all'
+        - 'via w.young-two-suns-of-the 154 n.31: all'
+      tags:
+      - name:valenti-jack
+- add:
+    entry:
+      id: cal.1964-07-17.elections-1964
+      when: July 17
+      date: '1964-07-17'
+      thread: elections-1964
+      c: 'Moyers to Johnson: "we have an opportunity to arouse many religious groups to oppose Goldwater."'
+      n: '[[w.young-two-suns-of-the]], 189. To check: Moyers to Johnson, July 17, 1964, PL 2 Elections and Campaigns, June
+        15–July 23, 1964, box 83, WHCF, LBJ Library (cited by [[w.young-two-suns-of-the]], 189 n.42a). Names: Moyers, Johnson,
+        Goldwater.'
+      src:
+        c: bdd4b74a
+        rows:
+        - 'w.young-two-suns-of-the 189: all'
+        - 'via w.young-two-suns-of-the 189 n.42a: all'
+      tags:
+      - name:moyers-bill
+      - name:johnson-lyndon-b
+      - name:goldwater-barry-m
+- add:
+    entry:
+      id: cal.1964-07-27.elections-1964-2
+      when: July 27
+      date: '1964-07-27'
+      thread: elections-1964
+      c: 'Welsh, governor of Indiana, to Johnson: the "backlash" among the ethnic groups exists, "but it can be effectively
+        countered"; his own run ahead in a Polish and Hungarian part of South Bend after Johnson''s visit there. "I would
+        strongly urge that you make a personal appearance in those areas where the ethnic vote is of consequence."'
+      n: '[[w.young-two-suns-of-the]], 154. To check: Welsh to Johnson, July 27, 1964, PL 2 Elections and Campaigns, Aug.
+        6–14, 1964, box 83, WHCF, LBJ Library (cited by [[w.young-two-suns-of-the]], 154 n.34). Names: Welsh, Johnson.'
+      src:
+        c: ad48d005
+        rows:
+        - 'w.young-two-suns-of-the 154: all'
+        - 'via w.young-two-suns-of-the 154 n.34: all'
+      tags:
+      - name:welsh-matthew-e
+      - name:johnson-lyndon-b
+      - state:in
+- add:
+    entry:
+      id: cal.1964-08-10.democratic-party
+      when: Aug. 10
+      date: '1964-08-10'
+      thread: democratic-party
+      also:
+      - elections-1964
+      c: 'Gronouski, the Postmaster General, to Johnson: Goldwater "already has literally hundreds of people working among
+        the ethnic group communities" of the big cities; the national committee''s ethnic campaign "one man and his secretary";
+        volunteer State coordinators will not do the work.'
+      n: '[[w.young-two-suns-of-the]], 156. To check: Gronouski to Johnson, Aug. 10, 1964, PL 2 Elections and Campaigns, Aug.
+        15–25, 1964, box 83, WHCF, LBJ Library (cited by [[w.young-two-suns-of-the]], 157 n.39a). Names: Gronouski, Johnson,
+        Goldwater.'
+      src:
+        c: f93832ce
+        rows:
+        - 'w.young-two-suns-of-the 156: all'
+        - 'via w.young-two-suns-of-the 157 n.39a: all'
+      tags:
+      - name:gronouski-john-a
+      - name:johnson-lyndon-b
+      - name:goldwater-barry-m
+- add:
+    entry:
+      id: cal.1964-08-12.elections-1964-2
+      when: Aug. 12
+      date: '1964-08-12'
+      thread: elections-1964
+      c: 'Cater to Johnson on the backlash: in Indiana''s polls 15 percent of Democrats for Goldwater, 30 percent of Republicans
+        for Johnson, the "front lash" running "two to one over the ''backlash''"; but not to "minimize the problem." In eighty
+        Milwaukee taverns of Polish-Americans, little anger at the Civil Rights Act. Scammon: "as of now you can carry all
+        but four or five states outside the South."'
+      n: '[[w.young-two-suns-of-the]], 155. Check: whether the taverns and Scammon''s estimate are in Cater''s memorandum;
+        Young''s paragraph runs on under the one note. To check: Cater to Johnson, Aug. 12, 1964, Memos to the White House
+        Staff, May–Nov. 1964 and [1967], box 13B, Aides Files, Cater, LBJ Library (cited by [[w.young-two-suns-of-the]], 155
+        n.35). Names: Cater, Johnson, Goldwater, Scammon.'
+      src:
+        c: f8b02da3
+        rows:
+        - 'w.young-two-suns-of-the 155: all'
+        - 'via w.young-two-suns-of-the 155 n.35: all'
+      tags:
+      - name:cater-s-douglass
+      - name:johnson-lyndon-b
+      - name:goldwater-barry-m
+      - name:scammon-richard-m
+- add:
+    entry:
+      id: cal.1964-08-18.elections-1964-2
+      when: Aug. 18
+      date: '1964-08-18'
+      thread: elections-1964
+      c: 'Reedy to Johnson: no way to avoid stories that he is "taking ''a jab at Goldwater''"; talk it over "completely off
+        the record with the Bureau Chiefs tonight," good-humored; they will "put the shoe on the foot where it belongs—Senator
+        Goldwater''s foot."'
+      n: '[[w.young-two-suns-of-the]], 152. Young''s text has "mid-August"; the note dates the memorandum Aug. 18. To check:
+        Reedy to Johnson, Aug. 18, 1964, PL 6-3 Republican Party, July 20–Sept. 19, 1964, box 117, WHCF, LBJ Library (cited
+        by [[w.young-two-suns-of-the]], 152 n.28). Names: Reedy, Johnson, Goldwater.'
+      src:
+        c: c73a2b90
+        rows:
+        - 'w.young-two-suns-of-the 152: all'
+        - 'via w.young-two-suns-of-the 152 n.28: all'
+      tags:
+      - name:reedy-george-e
+      - name:johnson-lyndon-b
+      - name:goldwater-barry-m
+- add:
+    entry:
+      id: cal.1964-08-20.elections-1964
+      when: Aug. 20
+      date: '1964-08-20'
+      thread: elections-1964
+      c: 'Valenti to Moyers and Reedy: decide soon whether Johnson goes on *Meet the Press*, *Face the Nation* and the like;
+        "It will be difficult to say YES to one or two and NO to the others."'
+      n: '[[w.young-two-suns-of-the]], 152. To check: Valenti to Moyers and Reedy, Aug. 20, 1964, PL 2, Aug. 15–25, 1964,
+        box 83, WHCF, LBJ Library (cited by [[w.young-two-suns-of-the]], 152 n.29a). Names: Valenti, Moyers, Reedy, Johnson.'
+      src:
+        c: 5ec5aa0d
+        rows:
+        - 'w.young-two-suns-of-the 152: all'
+        - 'via w.young-two-suns-of-the 152 n.29a: all'
+      tags:
+      - name:valenti-jack
+      - name:moyers-bill
+      - name:reedy-george-e
+      - name:johnson-lyndon-b
+- add:
+    entry:
+      id: cal.1964-08-20.democratic-party
+      when: Aug. 20
+      date: '1964-08-20'
+      thread: democratic-party
+      also:
+      - elections-1964
+      c: 'Popple to Valenti: the President''s "schedule-makers" must "concern themselves with appearances by you in the critical
+        areas before ethnic groups."'
+      n: '[[w.young-two-suns-of-the]], 157. Check: Young''s text gives the words to Gronouski; the note, to Popple''s memorandum.
+        To check: Paul M. Popple to Valenti, Aug. 20, 1964, PL 2 Elections and Campaigns, Aug. 15–25, 1964, box 83, WHCF,
+        LBJ Library (cited by [[w.young-two-suns-of-the]], 157 n.39b). Names: Popple, Valenti.'
+      src:
+        c: ee29a575
+        rows:
+        - 'w.young-two-suns-of-the 157: all'
+        - 'via w.young-two-suns-of-the 157 n.39b: all'
+      tags:
+      - name:popple-paul-m
+      - name:valenti-jack
+- add:
+    entry:
+      id: cal.1964-10-01.elections-1964
+      when: Oct. 1
+      date: '1964-10-01'
+      thread: elections-1964
+      c: 'John Bartlow Martin to Moyers on Illinois, "the big pivotal Midwest swing state": Goldwater should carry it, downstate
+        and the Chicago suburbs; but the regular Republicans "resent" his volunteers, the Birch Society among them, and the
+        middle-class Republicans will vote for Johnson. Racial fears drive the workers to Goldwater: "If you want a Negro
+        in the next plant, vote Democrat."'
+      n: '[[w.young-two-suns-of-the]], 156. To check: John Bartlow Martin to Moyers, Oct. 1, 1964, PL/ST 14, box 45, WHCF,
+        LBJ Library (cited by [[w.young-two-suns-of-the]], 156 n.37); the same (cited by [[w.young-two-suns-of-the]], 156
+        n.38). Names: John Bartlow Martin, Moyers, Goldwater, Johnson.'
+      src:
+        c: 329ee67d
+        rows:
+        - 'w.young-two-suns-of-the 156: all'
+        - 'via w.young-two-suns-of-the 156 n.37: all'
+        - 'via w.young-two-suns-of-the 156 n.38: all'
+      tags:
+      - name:martin-john-bartlow
+      - name:moyers-bill
+      - name:goldwater-barry-m
+      - name:johnson-lyndon-b
+      - state:il
+- add:
+    entry:
+      id: cal.1964-10-16.elections-1964
+      when: Oct. 16
+      date: '1964-10-16'
+      thread: elections-1964
+      c: 'Cater to Johnson: "we have not done a good job in making maximum use of the nightly TV news programs (Huntley-Brinkley
+        and Cronkite)"; a newsworthy statement by noon or 1 p.m. away from the East Coast, for the film to reach New York.
+        Johnson assents.'
+      n: '[[w.young-two-suns-of-the]], 152–53. Young sets it among the decisions of early September; the note dates it Oct.
+        16. To check: Cater to Johnson, Oct. 16, 1964, Memos to the President, Sept.–Nov. 1964, box 13B, Aides Files, Cater,
+        LBJ Library (cited by [[w.young-two-suns-of-the]], 153 n.30). Names: Cater, Johnson.'
+      src:
+        c: f3f194d4
+        rows:
+        - 'w.young-two-suns-of-the 152–53: all'
+        - 'via w.young-two-suns-of-the 153 n.30: all'
+      tags:
+      - name:cater-s-douglass
+      - name:johnson-lyndon-b
+- add:
+    entry:
+      id: cal.1964-10-16.elections-1964-2
+      when: Oct. 16
+      date: '1964-10-16'
+      thread: elections-1964
+      c: 'Manatos to Moyers: Goldwater has lately said he does not go to church; perhaps "this attitude could be woven into
+        somebody''s speech somewhere along the line."'
+      n: '[[w.young-two-suns-of-the]], 189. To check: Mike Manatos to Moyers, Oct. 16, 1964, PL 2, Oct. 14–18, 1964, box 85,
+        WHCF, LBJ Library (cited by [[w.young-two-suns-of-the]], 189 n.42b). Names: Manatos, Moyers, Goldwater.'
+      src:
+        c: a328012b
+        rows:
+        - 'w.young-two-suns-of-the 189: all'
+        - 'via w.young-two-suns-of-the 189 n.42b: all'
+      tags:
+      - name:manatos-mike-n
+      - name:moyers-bill
+      - name:goldwater-barry-m
 - add:
     entry:
       id: cal.1964-03-19.elections-1964
@@ -733,7 +969,8 @@ ops:
         not controllable, and unsuitable for the President"; an appearance "either before or after Goldwater" would "build
         the Senator an audience he could not otherwise get." Johnson agrees.'
       n: '[[w.young-two-suns-of-the]], 152. To check: Moyers to Johnson, Sept. 3, 1964, PL 2 Aug. 26–Sept. 5, 1964, box 83,
-        WHCF, LBJ Library (cited by [[w.young-two-suns-of-the]], 152 n.29b). Names: Moyers, Johnson, Fortas, Clifford, Goldwater.'
+        WHCF, LBJ Library (cited by [[w.young-two-suns-of-the]], 152 n.29b). See [[cal.1964-08-20.elections-1964]]. Names:
+        Moyers, Johnson, Fortas, Clifford, Goldwater.'
       src:
         c: a04ee3bf
         rows:
