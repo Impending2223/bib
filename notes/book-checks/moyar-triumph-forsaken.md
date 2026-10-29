@@ -32,7 +32,7 @@ All six were in "To check" without pages; each is now read and pinned, out of To
 
 (`cal.1966-03-10.vietnam`'s "moyar" is the other book, *Political Monks*; this one ends in July 1965.)
 
-## Entries newly citing it (81 more)
+## Entries newly citing it (83 more)
 
 Pinned to the event's first entry, each with a claim map (`src`) row and parenthetical where the page bears part:
 1960: Jan. 26, Apr. 26 (Check: by Durbrow's later account Americans helped write the Caravelle manifesto), Aug. 9
@@ -46,8 +46,8 @@ Nov. 1 (Saigon), Nov. 24, Dec. 21, Dec. (Ninth Plenum). 1964: Jan. 30, May 24, M
 Duẩn's order), Aug. 4 (Check: "most of the information now available supports the view that an attack did not
 occur"), Aug. 7, Aug. 25, Sept. 9, Sept. 13, Sept. (Politburo), Nov. 3 (Check: two options, not three), Nov. 20,
 Dec. 1 (Check: Moyar dates the decision Nov. 29), Dec. 20, Dec. 28. 1965: Jan. 27, Feb. 16, Feb. 19, Feb. 26, Apr. 6,
-Apr. 20, June 7, June 9 (Check: the attacking units), June 12, July 1, July 20, July 21, July 28. Check only: Jan.
-15, 1965 (McGovern: Moyar quotes the speech as for fighting). Feb. 14, 1962: pointer to the new Feb. 13 entry.
+Apr. 20, June 7, June 9 (Check: the attacking units), June 12, July 1, July 20, July 21, July 28. Above, Sept. 25, 1964 and July 2,
+1965. Check only: Jan. 15, 1965 (McGovern: Moyar quotes the speech as for fighting). Feb. 14, 1962: pointer to the new Feb. 13 entry.
 
 ## New entries (34)
 
@@ -64,18 +64,19 @@ Center), their words as Moyar quotes them: Oct. 25, 1963 (Kennedy and McNamara o
 alone: Oct. 2, 1963 (Starnes's column naming Richardson); Oct. 30, 1963 (Clare Boothe Luce's advertisement); Nov. 4,
 1963 (Nixon to Eisenhower, via Mann).
 
-Two events of the book are left to entries pending in `inbox/2026-10-29-book-logevall-barrett.yaml`, one event one
-entry: Eufaula, Sept. 25, 1964 (`cal.1964-09-25.elections-1964`; Moyar 325) and Eisenhower's call of July 2, 1965
-(`cal.1965-07-02.vietnam-july-decision-2`; Moyar 409, from Brown's memorandum, Eisenhower Library). Add the pages
-there after that merge.
+Two events of the book were already entered by book-logevall-barrett (merged Oct. 29), one event one entry: Moyar is
+added to them, Eufaula, Sept. 25, 1964 (`cal.1964-09-25.elections-1964`; 325, the quotation in part) and Eisenhower's
+call of July 2, 1965 (`cal.1965-07-02.vietnam-july-decision-2`; 409, the call and "go all out", Brown's memorandum,
+Augusta Series, box 10, by Moyar's n.39). The patch was rebuilt on that merge: the eleven entries both runs edit keep
+every Logevall and Barrett cite and row.
 
 The merge flags seven of the new entries as possible duplicates of another entry the same day in the same thread
 (`-2` ids): each is a separate event (`--take keep`).
 
-## Records (168)
+## Records (169)
 
 `sources/cited-records/moyar-triumph-forsaken.yaml`: 103 found in FRUS (80 read and cited first in their entries, 23
-found and not yet read, linked in To check), 65 not found (the National Archives' RG 59 files, the Kennedy and Johnson
+found and not yet read, linked in To check), 66 not found (the National Archives' RG 59 files, the Kennedy and Johnson
 libraries, the Hoover and Military History Institute papers, DDRS, Texas Tech's Pike collection, the press, the
 author's interviews), all in To check with the note they come from. Secondary works in the notes are not logged.
 

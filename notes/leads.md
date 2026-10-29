@@ -1978,6 +1978,18 @@ Foreign:
 - To read: the 8 FRUS and Public Papers items found and in To check; the Bulletin's text of Rusk at Frankfurt read (Nov.
   11, 1963, 726, 729), the text of Kennedy's Oct. 31, 1960 statement as Gavin gives it (Sorensen, 406).
 
+### Moyar, *Triumph Forsaken* (the reading agent, Oct. 28, 2026; notes/book-checks/moyar-triumph-forsaken.md)
+
+- Foreign: Diệm's request for American combat units, Oct. 13, 1961 (Saigon to State, RG 218, CJCS 091; Moyar 135
+  n.54); Galbraith to Kennedy, Nov. 21, 1961 (Pike collection; Pentagon Papers, USVNR bk. 11, 406–09); Khánh's rally
+  for the march north, July 19, 1964 (*New York Times*, July 20, 24, 1964); Vũng Rô, Feb. 16, 1965, and Market Time
+  (Moyar 357–58); Gen. Harold K. Johnson's report of Mar. 14, 1965 (NSF, VNCF, box 191, LBJ Library); the Conein–Đôn
+  meeting at the bistro, July 4, 1963 (Moyar 226–27; Miller 284–86); Diệm's expulsions of Bigart and Sully, Mar. 1962.
+- National: Kennedy's lunch with Sulzberger on Halberstam, Oct. 1963 (undated in Moyar, 253); McGeorge Bundy to Johnson,
+  Oct. 1, 1964, on the peace talk of the campaign (NSF, Memos to the President, box 2, LBJ Library); McNamara with the
+  Joint Chiefs, Nov. 2, 1964 (Greene Papers); Madame Nhu on CBS, Aug. 1, 1963 (the date; the transcript).
+- To read: the 23 FRUS documents in To check (found, not read); Moyar's sequel, *Triumph Regained*, for Aug. 1965 on.
+
 ## The Executive roster
 
 - NSCID No. 1: the texts of 1958, 1964 and 1972 not in the file (`usib.yaml`). Open on archive.org, the CIA's CREST copies (Oct. 23, 2026): the text effective Feb. 17, 1972 (`CIA-RDP87B01034R000700020013-3`); a 1958 draft (`CIA-RDP85S00362R000600150011-7`, "Concurred in by the IAC 21 January"), with the drafts of 1957; for 1964 only Bundy's approval of the revisions, Mar. 27, 1964, "the President's decision of March 5, 1964 on the reorganization of the USIB" (`cia-readingroom-document-cia-rdp80b01676r000400180031-7`; the text exempt). FRUS 1964–68, XXXIII, doc. 196, n. 3: revised Jan. 18, 1961, and Mar. 4, 1964. Lay shown as the Board's Executive Secretary only for Mar. 1964, in a note.
