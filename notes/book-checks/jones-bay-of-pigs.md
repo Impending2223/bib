@@ -19,7 +19,7 @@ were then entered (Jan. 18, 1961; Apr. 18-19, the cables of the battle; Stevenso
 ## Held as written
 
 Most of the 48 entries edited hold and take their pages (with a parenthetical where Jones stands for part of the
-entry only). Four had their `c` extended from the record Jones led to: Jan. 3, 1961 (the meeting, doc. 3);
+entry only). Six had their `c` extended or rewritten from the record Jones led to: Jan. 3, 1961 (the meeting, doc. 3);
 Jan. 25 (Lemnitzer's words); Mar. 16 (Burke's 50 percent, doc. 66); Apr. 14 (Bissell's cut from sixteen B-26s to
 eight, doc. 103 n.2); Apr. 18 (Burke's account, docs. 121, 124); Apr. 6 rewritten from doc. 84.
 
