@@ -136,12 +136,14 @@ entries:
     thread: republican-party
     also: [vietnam]
     c: 'Nixon to Eisenhower, a letter: "our complicity in Diem''s murder was a national disgrace."'
-    n: '[[w.moyar-triumph-forsaken]], 276 n.8, 467 (the letter, and Eisenhower''s reply: "I cannot believe that any American would have approved the cold-blooded killing"; both quoted from Mann). To check: [[w.mann-grand-delusion]], 297 (cited by [[w.moyar-triumph-forsaken]], 276 n.8). See [[cal.1963-11-01.vietnam]]. Names: Nixon, Eisenhower. Check: the letter itself and the day of the reply.'
+    n: '[[w.moyar-triumph-forsaken]], 276 n.8, 467 (the letter, and Eisenhower''s reply: "I cannot believe that any American would have approved the cold-blooded killing"; both quoted from Mann). [[w.mann-grand-delusion]], 297 (the letter; the reply of Nov. 11). To check: Nixon to Eisenhower, PPS 324.220, Nixon Library (cited by [[w.mann-grand-delusion]], 297 n.25a; Mann cited by [[w.moyar-triumph-forsaken]], 276 n.8). See [[cal.1963-11-01.vietnam]]. Names: Nixon, Eisenhower, Ngô Đình Diệm. Check: the letter itself and the day of the reply.'
     src:
       c: aaf96e18
       rows:
         - 'w.moyar-triumph-forsaken 276, 467: all'
-    tags: [name:nixon-richard-m, name:eisenhower-dwight-d]
+        - 'w.mann-grand-delusion 297: all'
+        - 'via w.mann-grand-delusion 297 n.25a: all'
+    tags: [name:nixon-richard-m, name:eisenhower-dwight-d, name:ngo-dinh-diem]
   - id: cal.1963-11-05.states-and-cities
     when: Nov. 5
     date: '1963-11-05'
@@ -226,6 +228,19 @@ entries:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v11/d373: A'
         - 'w.schlesinger-robert-kennedy-and-his 553: B'
     tags: [name:kennedy-robert-f, name:bundy-mcgeorge, name:castro-fidel, name:attwood-william, name:lechuga-carlos, name:kennedy-john-f, name:mccone-john-a, name:vance-cyrus, name:johnson-u-alexis, name:helms-richard]
+  - id: cal.1963-11-05.vietnam-congress
+    when: Nov. 5
+    date: '1963-11-05'
+    thread: vietnam-congress
+    c: 'Mansfield in the Senate on the coup: the overthrow "neither" a victory nor a defeat. The effectiveness of the policies "cannot be measured by an overthrow of a government," by "whether one government smiles at us and another frowns," but by the "basic questions": "a progressive reduction in the expenditures of American lives and aid," a "popularly responsible and responsive government." The war "not an American war." Pell and Boggs, his companions of 1962, endorse it.'
+    n: '[109 Cong. Rec. 21,061](https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt16/pdf/GPO-CRECB-1963-pt16-3-1.pdf) (1963). [[w.mann-grand-delusion]], 297–98 (the speech). See [[cal.1963-11-01.vietnam]]. Names: Mansfield, Pell, Boggs.'
+    src:
+      c: d03dd77e
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1963-pt16/pdf/GPO-CRECB-1963-pt16-3-1.pdf: all'
+        - 'w.mann-grand-delusion 297–98: B'
+        - 'via w.mann-grand-delusion 298 n.28: B'
+    tags: [name:mansfield-mike, name:pell-claiborne-d, name:boggs-james-c]
   - id: cal.1963-11-06.vietnam
     when: Nov. 6
     date: '1963-11-06'
@@ -304,6 +319,19 @@ entries:
       rows:
         - 'w.schlesinger-thousand-days-1965 1012: all'
     tags: [name:kennedy-john-f, name:heller-walter-w]
+  - id: cal.1963-11-11.republican-party
+    when: Nov. 11
+    date: '1963-11-11'
+    thread: republican-party
+    also: [vietnam]
+    c: 'Eisenhower to Nixon: "I cannot believe any American would have approved the cold-blooded killing" of Diệm.'
+    n: '[[w.mann-grand-delusion]], 297. To check: Eisenhower to Nixon, PPS 324.223, Nixon Library (cited by [[w.mann-grand-delusion]], 297 n.25). See [[cal.1963-11-04.republican-party]]. Names: Eisenhower, Nixon, Ngô Đình Diệm.'
+    src:
+      c: 5d55d4c5
+      rows:
+        - 'w.mann-grand-delusion 297: all'
+        - 'via w.mann-grand-delusion 297 n.25b: all'
+    tags: [name:eisenhower-dwight-d, name:nixon-richard-m, name:ngo-dinh-diem]
   - id: cal.1963-11-12.elections-1964
     when: Nov. 12
     date: '1963-11-12'
