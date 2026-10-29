@@ -1990,6 +1990,20 @@ Foreign:
   Joint Chiefs, Nov. 2, 1964 (Greene Papers); Madame Nhu on CBS, Aug. 1, 1963 (the date; the transcript).
 - To read: the 23 FRUS documents in To check (found, not read); Moyar's sequel, *Triumph Regained*, for Aug. 1965 on.
 
+### Gibbons, *The U.S. Government and the Vietnam War*, Part IV, 1965–66 (the back-fill agent, Oct. 29, 2026; notes/book-checks/gibbons-u-s-government-and.md)
+
+- The polls Gibbons quotes from the press (Gallup, Harris, the Research Council's for the White House, 1965–66): each from its release (*The Gallup Poll*, III; Harris's columns in the *Washington Post*), a row of Passed over each.
+- The Foreign Relations Committee's executive-session transcripts of 1966 Gibbons cites as unpublished: whether the Historical Series has printed them since; each entry resting on one has it in "To check:".
+- The Record pages the run did not reach: Javits's report of Jan. 28, 1966 (not found by its words); Mathias, Mar. 1966; Nelson, Mar. 1, 1966; Symington and McGovern, Mar. 21, 1966 (each a Check in its entry).
+- House and Senate Armed Services on the supplemental, Jan.–Feb. 1966 (McNamara's 200,000; Russell's "we are not winning much"): the hearings' days.
+- Selective Service's monthly draft calls, 1965–66, from its announcements.
+- The religious bodies' statements (the National Council of Churches, Dec. 4, 1965; the Synagogue Council, Jan. 15, 1966; Clergy Concerned's founding): their days and texts.
+- Aptheker, Lynd and Hayden in Hanoi, Dec. 1965–Jan. 1966: the trip's days (the *New York Times*).
+- Ginsburgh's memorandum that Gibbons prints as of 1967 (the context gives 1966): its year.
+- The Voteview numbers of the McGovern and Clark amendments of Aug. 18, 1966, derived from the Record's Nos. 210 and 212: to be read on Voteview.
+- Mansfield's group with Kỳ, Thiệu and Trần Văn Đỗ, Dec. 1965 (State, Lot File 70 D 102): the days of the conversations.
+- Westmoreland's Historical Briefings and his cordon plan of Jan.–Feb. 1966 (COMUSMACV 0907): Westmoreland Papers, Center of Military History.
+
 ## The Executive roster
 
 - NSCID No. 1: the texts of 1958, 1964 and 1972 not in the file (`usib.yaml`). Open on archive.org, the CIA's CREST copies (Oct. 23, 2026): the text effective Feb. 17, 1972 (`CIA-RDP87B01034R000700020013-3`); a 1958 draft (`CIA-RDP85S00362R000600150011-7`, "Concurred in by the IAC 21 January"), with the drafts of 1957; for 1964 only Bundy's approval of the revisions, Mar. 27, 1964, "the President's decision of March 5, 1964 on the reorganization of the USIB" (`cia-readingroom-document-cia-rdp80b01676r000400180031-7`; the text exempt). FRUS 1964–68, XXXIII, doc. 196, n. 3: revised Jan. 18, 1961, and Mar. 4, 1964. Lay shown as the Board's Executive Secretary only for Mar. 1964, in a note.
