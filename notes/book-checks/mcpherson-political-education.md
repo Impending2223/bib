@@ -75,7 +75,7 @@ lunch with the administration's intellectuals); June 5, 1967 (McPherson in Tel A
 mid-March 1968 (the Rose Garden lunch: "Give me three good reasons"; Clifford's call to McPherson); Mar. 23, 1968
 (his sequence of negotiating steps, FRUS VI, doc. 152); Mar. 29, 1968 (Johnson working from the alternative draft);
 June 5, 1968 (the address after Robert Kennedy's shooting, 1968–69 Pub. Papers 691); Oct. 25, 1968 (Hayden's bill
-vetoed and the call to Hayden, 1968–69 Pub. Papers 1072). The merge flags six of these as possible duplicates of
+vetoed and the call to Hayden, 1968–69 Pub. Papers 1072). The merge flags seven of these as possible duplicates of
 another entry of the day; each is a separate event.
 
 ## Passed over
