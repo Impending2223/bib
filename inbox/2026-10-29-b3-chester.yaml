@@ -648,12 +648,12 @@ ops:
     id: cal.1968-08-21.elections-1968
     base: '23dbf873'
     set:
-      n: '[[w.chester-american-melodrama]], 567. To check: [[w.clymer-edward-m-kennedy]]. See [[cal.1968-07-26.elections-1968-2]].
-        Names: Edward Kennedy.'
+      n: '[[w.chester-american-melodrama]], 567 (the speech, Aug. 21, the one planned for July 2; not the place or the terms).
+        To check: [[w.clymer-edward-m-kennedy]]. See [[cal.1968-07-26.elections-1968-2]]. Names: Edward Kennedy.'
       src:
         c: '1048281d'
         rows:
-        - 'w.chester-american-melodrama 567: A'
+        - 'w.chester-american-melodrama 567: B'
 - edit:
     id: cal.1968-08-23.elections-1968-chicago
     base: f577d3dd
@@ -701,7 +701,7 @@ ops:
       src:
         c: '4990211e'
         rows:
-        - 'w.chester-american-melodrama 558: B'
+        - 'w.chester-american-melodrama 558: A-B'
 - edit:
     id: cal.1968-08-26.elections-1968-2
     base: '0f472a37'
@@ -1200,8 +1200,8 @@ ops:
       src:
         c: df64d82b
         rows:
-        - 'w.chester-american-melodrama 89: A-B'
-        - 'w.chester-american-melodrama 109: C'
+        - 'w.chester-american-melodrama 89: A-C'
+        - 'w.chester-american-melodrama 109: D'
 - add:
     entry:
       id: cal.1968-01-25.elections-1968
@@ -1867,8 +1867,8 @@ ops:
       src:
         c: d9e39680
         rows:
-        - 'w.chester-american-melodrama 607: A'
-        - 'w.chester-american-melodrama 666: B'
+        - 'w.chester-american-melodrama 607: A-B'
+        - 'w.chester-american-melodrama 666: A, C'
 - add:
     entry:
       id: cal.1968-10-01.elections-1968
@@ -2365,8 +2365,8 @@ ops:
       src:
         c: f0d04c19
         rows:
-        - 'w.chester-american-melodrama 454–55: A'
-        - 'w.chester-american-melodrama 449: B'
+        - 'w.chester-american-melodrama 454–55: A-B'
+        - 'w.chester-american-melodrama 449: A, C'
 - add:
     entry:
       id: cal.1968-08-04.elections-1968-miami
@@ -2387,8 +2387,8 @@ ops:
       src:
         c: f08b441a
         rows:
-        - 'w.chester-american-melodrama 458: A'
-        - 'w.chester-american-melodrama 449: B'
+        - 'w.chester-american-melodrama 458: A-B'
+        - 'w.chester-american-melodrama 449: A, C-D'
 - add:
     entry:
       id: cal.1968-08-06.elections-1968-miami-2
@@ -2660,8 +2660,7 @@ ops:
       thread: elections-1968-chicago
       c: 'Chicago, after midnight, the Statler Hilton. Gilligan with Ginsburg and Welsh, Humphrey''s draftsmen, and Geoghegan
         of Boggs''s staff, over the peace plank, released at 10:30 the night before, clause by clause. Ginsburg: "There''s
-        not ten cents of difference between this and the Vice-President''s policy." He never calls back. That evening Charles
-        Murphy, Johnson''s man in Chicago, collects Ginsburg''s final draft.'
+        not ten cents of difference between this and the Vice-President''s policy." He never calls back.'
       n: '[[w.chester-american-melodrama]], 533–36. See [[cal.1968-08-23.elections-1968-chicago]]. Names: Gilligan, Ginsburg,
         Geoghegan, Boggs, Charles Murphy, Humphrey, Johnson.'
       tags:
@@ -2673,7 +2672,7 @@ ops:
       - name:humphrey-hubert-h
       - name:johnson-lyndon-b
       src:
-        c: '5622d279'
+        c: '9860fec2'
         rows:
         - 'w.chester-american-melodrama 533–36: all'
 - add:
@@ -2749,28 +2748,6 @@ ops:
         - 'w.chester-american-melodrama 569–70: all'
 - add:
     entry:
-      id: cal.1968-08-25.elections-1968-chicago-2
-      when: Aug. 25
-      date: '1968-08-25'
-      thread: elections-1968-chicago
-      also:
-      - vietnam
-      c: 'Chicago, Sunday evening. Charles Murphy with Boggs, Ginsburg and Welsh: Ginsburg''s plank, "Stop the bombing of
-        North Vietnam," unacceptable to Johnson. The President''s words: "Stop all bombing of North Vietnam when this action
-        would not endanger the lives of our troops in the field; this action should take into account the response from Hanoi."'
-      n: '[[w.chester-american-melodrama]], 536. See [[cal.1968-08-24.elections-1968-chicago]]. Names: Charles Murphy, Boggs,
-        Ginsburg, Johnson.'
-      tags:
-      - name:murphy-charles-s
-      - name:boggs-hale
-      - name:ginsburg-david
-      - name:johnson-lyndon-b
-      src:
-        c: '9443b573'
-        rows:
-        - 'w.chester-american-melodrama 536: all'
-- add:
-    entry:
       id: cal.1968-08-26.elections-1968-chicago-2
       when: Aug. 26
       date: '1968-08-26'
@@ -2779,7 +2756,7 @@ ops:
       - vietnam
       c: 'Chicago, the drafting committee''s last session, the morning: Boggs''s plank not open to amendment; fifteen minutes.
         The platform committee: 65 for the majority plank, 35 for the peace plank. The planks released that evening.'
-      n: '[[w.chester-american-melodrama]], 536–37. See [[cal.1968-08-25.elections-1968-chicago-2]]. Names: Boggs.'
+      n: '[[w.chester-american-melodrama]], 536–37. See [[cal.1968-08-24.elections-1968-chicago]]. Names: Boggs.'
       tags:
       - name:boggs-hale
       src:
@@ -3264,45 +3241,16 @@ ops:
       - vietnam
       c: 'O''Brien, at the Watergate, reads the draft of the speech and dictates a memorandum, sent to Seattle by telecopier:
         a weak, vacillating draft, not worth the campaign''s last $100,000. Humphrey by telephone: "Your comments are valid";
-        come to Seattle. That night in Seattle, hecklers on the platform; Humphrey: "I shall not be driven from this platform
-        by a handful who believe in nothing."'
+        come to Seattle.'
       n: '[[w.chester-american-melodrama]], 646–47. Names: O''Brien, Humphrey.'
       tags:
       - name:obrien-lawrence-f
       - name:humphrey-hubert-h
       - state:wa
       src:
-        c: '38a5e7c3'
+        c: ef1f31ee
         rows:
         - 'w.chester-american-melodrama 646–47: all'
-- add:
-    entry:
-      id: cal.1968-09-29.elections-1968-3
-      when: Sept. 29
-      date: '1968-09-29'
-      thread: elections-1968
-      also:
-      - vietnam
-      c: 'Seattle, then Salt Lake City. O''Brien with Humphrey alone in the afternoon; at night, a dozen in Humphrey''s suite
-        on the halt: O''Brien and Harris to cut the condition on the demilitarized zone, Rowe and Connell against making the
-        speech at all; Ball, by telephone, gets Harriman''s assurance. Humphrey: "Let''s worry about what I''m going to say,
-        for a change!", and writes the passage himself. The session ends at 5:15 a.m. All day Sunday Humphrey''s headquarters
-        telephones McCarthy''s and Kennedy''s leaders: the speech "a major new independent position."'
-      n: '[[w.chester-american-melodrama]], 647–48, 741. See [[cal.1968-09-26.elections-1968-2]]. Names: O''Brien, Humphrey,
-        Fred Harris, Rowe, Ball, Harriman.'
-      tags:
-      - name:obrien-lawrence-f
-      - name:humphrey-hubert-h
-      - name:harris-fred-r
-      - name:rowe-james-h-jr
-      - name:ball-george-w
-      - name:harriman-w-averell
-      - state:ut
-      src:
-        c: '87328098'
-        rows:
-        - 'w.chester-american-melodrama 647–48: A-F'
-        - 'w.chester-american-melodrama 741: G'
 - add:
     entry:
       id: cal.1968-01.elections-1968
