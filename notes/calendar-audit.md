@@ -12,7 +12,7 @@ CLAUDE.md ("The calendar"). A review list: a hit is a place to look, not an erro
 | Neither a bibliography of its own nor a `See [[id]]` back | 6 |
 | No primary record linked or named | 2667 |
 | A primary record named but not linked | 124 |
-| Threads (statements listed for review) | 232 |
+| Threads (statements listed for review) | 233 |
 
 ## Names
 
@@ -3633,7 +3633,7 @@ The brief: what the thread is, and its stations, in one or two clipped sentences
 | Chicago |  |
 | China | Communist China: its bomb, its seat at the UN, its quarrel with Moscow, its part in Vietnam, the ambassadorial talks at Warsaw. The Soviet experts recalled; Peking kept out of the UN another year; the refugees at Hong Kong paroled; the attack on India, the cease-fire. |
 | Cities and housing | Housing, the cities, and urban transit. Logue to Boston; the Housing Act of 1961; the Urban Affairs department refused, by Rules and by the House, Weaver its secretary-to-be; the Lower Manhattan Expressway set aside. |
-| Civil disorders | Riots in the cities, and the inquiries and bills that followed. Watts; Johnson on the restoration of order; King with Yorty and Parker; Ramsey Clark's federal team; the McCone commission's report. |
+| Civil disorders | Riots in the cities, and the inquiries and bills that followed. Harlem; Rochester; Jersey City; Philadelphia; Hoover's report on the summer's riots; Watts; Johnson on the restoration of order; King with Yorty and Parker; Ramsey Clark's federal team; the McCone commission's report. |
 | Civil rights bill | The civil rights bill from Kennedy's address to the Act and its first year. The Senators' pledge of 1960. |
 | Civil rights organizations | The organizations of the movement as organizations: the NAACP and its Legal Defense Fund, the Urban League, CORE, SCLC, SNCC, COFO, the Freedom Democrats, and their councils; their leaders, foundings, splits and statements. *Bates*; SNCC founded at Raleigh; Farmer to CORE; Highlander; the Taconic meeting; Greenberg and Young; the Albany Movement; COFO revived; the Voter Education Project. |
 | Civil rights: the executive | What the President and the Attorney General did for civil rights by appointment, order and direction, and what the candidates promised. Nixon's letter to Jackie Robinson; the Senators' pledge; Lodge's promise; Weaver; the equal employment committee; the new judgeships, Cox and Marshall; the Emancipation centennial; the housing order. |
@@ -3687,6 +3687,7 @@ The brief: what the thread is, and its stations, in one or two clipped sentences
 | Goldwater | Barry M. Goldwater: his speeches, writings and campaigns, and the draft. His column; the South Carolina convention; *The Conscience of a Conservative*; Chicago, his name withdrawn; the statement on the election; the Proposed Republican Principles; White's group at Chicago; Atlanta and the Negro vote; the Garden; the draft's Chicago meeting of December 1962; the Phoenix Country Club. |
 | Governors | The races for governor, primaries and generals, and the governors' acts beside them. Davis over Morrison; Sanford over Lake; Kerner, Volpe, Andersen; Hughes and Harrison; Romney declares; Wallace's primary and runoff; Connally over Don Yarborough; Brown over Nixon; Romney, Scranton, Rhodes; Bellmon, Oklahoma's first Republican; Hoff and King in New England; Minnesota to a recount. |
 | Gun control |  |
+| Harlem |  |
 | Health | Health policy other than Medicare: drugs, tobacco, mental health, the health professions, Medicaid, birth control and abortion. Griswold's clinic, the arrests and the convictions; thalidomide and Kelsey; the Drug Amendments. |
 | Humphrey in Asia |  |
 | Immigration | Immigration and refugees, and the national-origins quotas' repeal. The 1960 message; the refugee resolution; Nixon on immigration; the Cuban refugee program; the 1961 amendments; the braceros extended; the Hong Kong parole; the refugee assistance act; the waiting lists cleared. |
