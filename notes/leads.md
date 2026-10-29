@@ -1933,6 +1933,37 @@ Foreign:
 - The Hanoi Foreign Ministry's statement of Jan. 4, 1966, and Hồ's letter broadcast Jan. 28, 1966: entries if not in.
 - Marigold's mid-November steps (Harriman and Cooper in Rome; State's proposals to Lodge; Read's restricted list).
 
+### Longley, *LBJ's 1968* (the reading agent, Oct. 28, 2026; notes/book-checks/longley-lbjs-1968.md)
+
+National:
+- The Republican Coordinating Committee's statement on the riots, 1967 (Longley 4; date not given).
+- The leaders' briefing before the State of the Union, Jan. 17, 1968 (Daily Diary; Longley 21), and Connally's note
+  (Lady Bird Johnson, *White House Diary*, 617–18).
+- Members on the *Pueblo*, Jan. 23–27: Rivers (*Washington Post*, Jan. 27; *New York Times*, Jan. 24), Fulbright (Jan.
+  24), Nixon (*Chicago Tribune*, Jan. 28); Allott in the Senate, Jan. 10, 1969 (115 Cong. Rec. 432); Humphrey, Aug. 13?
+  (*New York Times*, Aug. 14).
+- FRUS XXIX:1 docs. 225, 226 (the *Pueblo* lunch and evening meetings, Jan. 25); FRUS VI doc. 65 (Feb. 10); FRUS XVII
+  doc. 93 (NSC, Sept. 4); FRUS VII, Nov. 2 (Rusk to Jones, 525): not yet entries.
+- Recordings not yet entered: McNamara to Johnson, Jan. 31, 7:24 a.m. (tape F68.02); Clifford, Mar. 31, 16:54; the
+  calls of Aug. 29 to Humphrey, Criswell, Sanford, Clark, Muskie, Daley (Miller Center, WH6808.04–.05).
+- The Fortas campaign's undated or ill-dated moves: Dirksen's news conference (early July; Goldstein to Jones, July 2);
+  Russell's word to Griffin (Murphy, *Fortas*, 358–59); Griffin's "cronyism" and Rockefeller's defense (*Rocky Mountain
+  News*, June 28); Nixon's "fresh mandate" (*Chicago Sun-Times*, Aug. 15); Humphrey and Nixon on the filibuster, mid-Sept.;
+  Porter's visit to Califano before Sept. 13; Hart to Manatos, July 16; Shaffer's count, Aug. 5.
+- The Chicago convention's informal record: Tom Johnson on Merriman Smith (May 20), Reedy (July 24), Stephen Smith on the
+  film (July 30), Jones to Johnson (Aug. 21, 24), Humphrey's plank cleared (Aug. 24), Connally to O'Brien (Aug. 26), the
+  birthday speech (Califano to Johnson, Aug. 26), vanden Heuvel (Aug. 28), Watson's names for Vice President.
+- Chennault after Nov. 5: Hoover to Bromley Smith, Nov. 7; Rostow, Nov. 8, Dec. 10; Smith, Nov. 27 (Anna Chennault Record,
+  LBJ Library); an aide to Humphrey, Sept. 27 (Solberg, 394); Deepe's memorandum, Oct. 28.
+- The Daily Diary of Apr. 7, 1968 (Catalog, scanned) for the hour Johnson signed the Baltimore proclamation (Longley 128: 10:15 p.m.).
+- Whether the Gun Control Act's signing (Oct. 22, 1968) and the news conference of Oct. 24 are in the calendar.
+
+Foreign:
+- Goldberg to Johnson, Feb. 22, 1968 (NA 2, POL 33-6); the Navy's plan to retake the *Pueblo* and the F-105 mission; Ball's
+  committee on the *Pueblo* (Ball, 436); the inquiries about North Korea's Dutch-built fishing ship (Lerner, 211).
+- Rusk and Clifford to Bùi Diễm, Mar. 20 (FRUS VI doc. 140 n.3; Clifford, 508); McNamara on Kosygin's invitation, Nov. 11
+  (Christian, 145).
+
 ## The Executive roster
 
 - NSCID No. 1: the texts of 1958, 1964 and 1972 not in the file (`usib.yaml`). Open on archive.org, the CIA's CREST copies (Oct. 23, 2026): the text effective Feb. 17, 1972 (`CIA-RDP87B01034R000700020013-3`); a 1958 draft (`CIA-RDP85S00362R000600150011-7`, "Concurred in by the IAC 21 January"), with the drafts of 1957; for 1964 only Bundy's approval of the revisions, Mar. 27, 1964, "the President's decision of March 5, 1964 on the reorganization of the USIB" (`cia-readingroom-document-cia-rdp80b01676r000400180031-7`; the text exempt). FRUS 1964–68, XXXIII, doc. 196, n. 3: revised Jan. 18, 1961, and Mar. 4, 1964. Lay shown as the Board's Executive Secretary only for Mar. 1964, in a note.

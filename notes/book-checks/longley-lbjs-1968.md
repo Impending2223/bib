@@ -16,7 +16,7 @@ informal record; where a meeting is in FRUS, FRUS was read and cited first.
 
 None in the calendar. The chapter card `w.longley-tet` is listed in Viet. II.C.16 only; nothing changed there.
 
-## Entries newly citing it (69 edits) and the new entries (38)
+## Entries newly citing it (70 edits) and the new entries (38)
 
 Edits, each with its pages and its claim-map row (letters), Longley put after the read sources: 1967-12-19.vietnam;
 1968-01-17.program, .elections-1968; 01-23.japan-and-korea; 01-25.japan-and-korea; 02-02.vietnam-tet; 02-09.vietnam-tet,
@@ -194,7 +194,7 @@ names the entry; "lead" goes to the leads below.
 | 259 | Jan. 1969 | the last Cabinet meeting (Wiggins) | lead (the day) |
 | 258 | Jan. 20, 1969 | Johnson to Busby by telephone | minor |
 
-By reason: minor 22; undated 15; already in 11; out of the brief 1; to leads 75 (some rows several events).
+By reason (rows, some several events; a row giving two reasons counted by its first): lead 56; minor 19; undated 18; already in 6; a column with no act 2; out of the brief 1.
 
 ## Leads
 
