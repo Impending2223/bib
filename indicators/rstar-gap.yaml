@@ -1,0 +1,108 @@
+# Derived by tools/indicators/make_derived.py; never edit. Statement: indicators/concepts.yaml.
+id: rstar-gap
+name: Real rate less the neutral rate
+freq: Q
+kind: derived
+change: pts
+then: null
+now:
+  label: 'Holston, Laubach and Williams: their real policy rate (the discount rate to 1965, the federal funds rate after, less their expected inflation, a four-quarter average of past core consumer prices) less their natural rate, r* (US, one-sided)'
+  unit: percentage points
+  source: 'Federal Reserve Bank of New York, HLW current estimates (Final data point: 2026Q2)'
+  url: https://www.newyorkfed.org/research/policy/rstar
+rows:
+- p: 1961Q1
+  now: -3.66
+- p: 1961Q2
+  now: -3.83
+  chg_now: -0.17
+- p: 1961Q3
+  now: -3.78
+  chg_now: 0.05
+- p: 1961Q4
+  now: -3.67
+  chg_now: 0.11
+- p: 1962Q1
+  now: -3.69
+  chg_now: -0.02
+- p: 1962Q2
+  now: -3.21
+  chg_now: 0.48
+- p: 1962Q3
+  now: -2.99
+  chg_now: 0.22
+- p: 1962Q4
+  now: -2.48
+  chg_now: 0.51
+- p: 1963Q1
+  now: -2.43
+  chg_now: 0.05
+- p: 1963Q2
+  now: -2.39
+  chg_now: 0.04
+- p: 1963Q3
+  now: -2.34
+  chg_now: 0.05
+- p: 1963Q4
+  now: -2.27
+  chg_now: 0.07
+- p: 1964Q1
+  now: -2.67
+  chg_now: -0.4
+- p: 1964Q2
+  now: -2.5
+  chg_now: 0.17
+- p: 1964Q3
+  now: -2.5
+  chg_now: 0.0
+- p: 1964Q4
+  now: -1.79
+  chg_now: 0.71
+- p: 1965Q1
+  now: -1.85
+  chg_now: -0.06
+- p: 1965Q2
+  now: -1.72
+  chg_now: 0.13
+- p: 1965Q3
+  now: -2.01
+  chg_now: -0.29
+- p: 1965Q4
+  now: -2.21
+  chg_now: -0.2
+- p: 1966Q1
+  now: -2.15
+  chg_now: 0.06
+- p: 1966Q2
+  now: -2.02
+  chg_now: 0.13
+- p: 1966Q3
+  now: -1.98
+  chg_now: 0.04
+- p: 1966Q4
+  now: -2.33
+  chg_now: -0.35
+- p: 1967Q1
+  now: -3.14
+  chg_now: -0.81
+- p: 1967Q2
+  now: -3.64
+  chg_now: -0.5
+- p: 1967Q3
+  now: -3.85
+  chg_now: -0.21
+- p: 1967Q4
+  now: -3.62
+  chg_now: 0.23
+- p: 1968Q1
+  now: -3.78
+  chg_now: -0.16
+- p: 1968Q2
+  now: -3.05
+  chg_now: 0.73
+- p: 1968Q3
+  now: -3.16
+  chg_now: -0.11
+- p: 1968Q4
+  now: -3.19
+  chg_now: -0.03
