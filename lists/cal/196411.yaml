@@ -91,13 +91,14 @@ entries:
     thread: elections-1964
     also: [goldwater]
     c: 'Election day. Johnson and Humphrey over Goldwater and Miller, 43,126,959 to 27,175,770, 61.1 percent; 486 electoral votes to 52. Goldwater carries Arizona and five States of the Deep South: Alabama, Georgia, Louisiana, Mississippi, South Carolina. The 89th Congress: House 295 D–140 R; Senate 68 D–32 R.'
-    n: 'Radio and Television Remarks to the American People at the Close of Election Day, [1963–64 Pub. Papers 1585](https://www.govinfo.gov/content/pkg/PPP-1964-book1/pdf/PPP-1964-book1.pdf#page=825) (Nov. 4, 1964). [*Statistics of the Presidential and Congressional Election of November 3, 1964*](https://clerk.house.gov/member_info/electionInfo/1964election.pdf) (Clerk of the House, 1965). [[w.perlstein-before-the-storm]], 510–13 (Goldwater''s six States). The national figures: the Clerk''s State figures, added (Elections, 1964). To check: [[w.white-making-of-the-president-1965]]; [[w.cosman-five-states-for-goldwater]]; [[w.lamb-campaign-decision-making]]; [[w.national-election-of-1964]]; [[w.mann-daisy-petals-and-mushroom]]; [[w.kessel-goldwater-coalition]]; [[w.middendorf-glorious-disaster]]; [[w.novak-agony-of-the-g]]; [[w.kabaservice-rule-and-ruin]]. See [[cal.1964-07-15.elections-1964]]; [[cal.1964-08-26.elections-1964]]. Names: Johnson, Humphrey, Goldwater, Miller.'
+    n: 'Radio and Television Remarks to the American People at the Close of Election Day, [1963–64 Pub. Papers 1585](https://www.govinfo.gov/content/pkg/PPP-1964-book1/pdf/PPP-1964-book1.pdf#page=825) (Nov. 4, 1964). [*Statistics of the Presidential and Congressional Election of November 3, 1964*](https://clerk.house.gov/member_info/electionInfo/1964election.pdf) (Clerk of the House, 1965). [[w.perlstein-before-the-storm]], 510–13 (Goldwater''s six States). The national figures: the Clerk''s State figures, added (Elections, 1964). [[w.young-two-suns-of-the]], 196–97 (the electoral votes; the six States; the House and the Senate). To check: [[w.white-making-of-the-president-1965]]; [[w.cosman-five-states-for-goldwater]]; [[w.lamb-campaign-decision-making]]; [[w.national-election-of-1964]]; [[w.mann-daisy-petals-and-mushroom]]; [[w.kessel-goldwater-coalition]]; [[w.middendorf-glorious-disaster]]; [[w.novak-agony-of-the-g]]; [[w.kabaservice-rule-and-ruin]]. See [[cal.1964-07-15.elections-1964]]; [[cal.1964-08-26.elections-1964]]. Names: Johnson, Humphrey, Goldwater, Miller. Check: Young, 196, gives 43,128,956 to 27,177,873 (CQ''s *Almanac* and APP).'
     src:
       c: 5cadd415
       rows:
         - 'https://www.govinfo.gov/content/pkg/PPP-1964-book1/pdf/PPP-1964-book1.pdf#page=825: all'
         - 'https://clerk.house.gov/member_info/electionInfo/1964election.pdf: all'
         - 'w.perlstein-before-the-storm 510–13: D'
+        - 'w.young-two-suns-of-the 196–97: C-F'
     tags: [election:1964, name:johnson-lyndon-b, name:humphrey-hubert-h, name:goldwater-barry-m, name:miller-william-e]
   - id: cal.1964-11-03.elections-1964-2
     when: Nov. 3
@@ -374,7 +375,12 @@ entries:
     thread: elections-1964
     also: [goldwater]
     c: 'Goldwater concedes at Scottsdale, by telegram and before the press: the Republicans "the party of opposition when opposition is called for." More than 25 million voted for "a Republican philosophy"; his defeat in part the work of Republicans who would not work for the top of the ticket.'
-    n: '[News Conference Conceding the Presidential Election in Scottsdale, Arizona](https://www.presidency.ucsb.edu/documents/news-conference-conceding-the-presidential-election-scottsdale-arizona) (Nov. 4, 1964). To check: [[w.goldwater-with-no-apologies]]. See [[cal.1964-11-03.elections-1964]]. Names: Goldwater.'
+    n: '[News Conference Conceding the Presidential Election in Scottsdale, Arizona](https://www.presidency.ucsb.edu/documents/news-conference-conceding-the-presidential-election-scottsdale-arizona) (Nov. 4, 1964). [[w.young-two-suns-of-the]], 198 (no call to Johnson that night; the statement the next morning). To check: [[w.goldwater-with-no-apologies]]. See [[cal.1964-11-03.elections-1964]]. Names: Goldwater.'
+    src:
+      c: 2c4d518f
+      rows:
+        - 'https://www.presidency.ucsb.edu/documents/news-conference-conceding-the-presidential-election-scottsdale-arizona: all'
+        - 'w.young-two-suns-of-the 198: A'
     tags: [name:goldwater-barry-m]
   - id: cal.1964-11-04.middle-east
     when: Nov. 4
@@ -383,18 +389,30 @@ entries:
     c: 'Tehran radio: Khomeini exiled, arrested at Qom and taken to Turkey.'
     n: 'FRUS 1964–68, XXII, docs. [55](https://history.state.gov/historicaldocuments/frus1964-68v22/d55), [56](https://history.state.gov/historicaldocuments/frus1964-68v22/d56). See [[cal.1964-10-13.middle-east]]. Names: Khomeini.'
     tags: [name:khomeini-ruhollah]
+  - id: cal.1964-11-04.conservative-movement
+    when: Nov. 4
+    date: '1964-11-04'
+    thread: conservative-movement
+    c: 'Owosso, Mich., the day after the election: conservatives form "Republicans for Ronald Reagan," the first step, they say, toward making him President.'
+    n: '[[w.hess-republican-establishment]], 254. Names: Reagan.'
+    src:
+      c: ee8423f1
+      rows:
+        - 'w.hess-republican-establishment 254: all'
+    tags: [name:reagan-ronald, state:mi]
   - id: cal.1964-11-05.republican-party
     when: Nov. 5
     date: '1964-11-05'
     thread: republican-party
     also: [elections-1964]
-    c: 'New York, a press conference, by Nixon''s account. Nixon, after Rockefeller''s statement of the day before: Goldwater fought courageously against great odds; those who divided the party cannot unite it; Rockefeller a spoilsport and a divider, no longer a party leader outside New York.'
-    n: '[[w.nixon-rn]], 263–64. See [[cal.1964-11-04.elections-1964]]. Names: Nixon, Rockefeller, Goldwater.'
+    c: 'New York, a press conference, by Nixon''s account. Nixon, after Rockefeller''s statement of the day before: Goldwater fought courageously against great odds; those who divided the party cannot unite it; Rockefeller a spoilsport and a divider, no longer a party leader outside New York. Rockefeller "proceeded to drag his feet" and "contributed to the Republican defeat"; Romney, Keating and Lindsay, candidates themselves, excused. A moratorium on criticism of Goldwater and Burch.'
+    n: '[[w.nixon-rn]], 263–64. [[w.hess-republican-establishment]], 171–72 (his words; the others excused; the moratorium). See [[cal.1964-11-04.elections-1964]]. Names: Nixon, Rockefeller, Goldwater, Romney, Keating, Lindsay, Burch. Check: the day; Hess and Broder''s text has "two days after the election," their note "the November 6, 1964, press conference."'
     src:
-      c: daafdf3c
+      c: b0641b2e
       rows:
-        - 'w.nixon-rn 263–64: all'
-    tags: [name:nixon-richard-m, name:rockefeller-nelson, name:goldwater-barry-m]
+        - 'w.nixon-rn 263–64: A-D'
+        - 'w.hess-republican-establishment 171–72: D-G'
+    tags: [name:nixon-richard-m, name:rockefeller-nelson, name:goldwater-barry-m, name:romney-george-w, name:keating-kenneth-b, name:lindsay-john-v, name:burch-dean]
   - id: cal.1964-11-06.civil-rights-organizations
     when: Nov. 6–12
     date: '1964-11-06'

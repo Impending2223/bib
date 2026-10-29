@@ -34,16 +34,21 @@ The calendar cited the book six times, none by page. Three now cite it by page, 
 | `cal.1965-07-02.vietnam-july-decision-2` (new) | the call, morning | 10:55 a.m., by the Eisenhower Library's memorandum (41 n.101) | the Miller Center's recording, 11:02 a.m. | Check added |
 | `cal.1967-03-02.vietnam-congress` (new) | Russell, by FRUS's transcript, "I'll see about it" | Russell's notes: "on Kennedy suggestion, turned down" (68) | FRUS 1964–68, V, doc. 96, read | both given, each by its source |
 
-## New entries (9)
+## New entries (7), and two of Longley's entries added to
 
 Read first in the primary record where the series holds it: FRUS 1964–68, II, doc. 307 (Clifford, May 17, 1965); III,
 docs. 7 and 11 (Ball's memorandum of June 18, 1965, and Moyers's report of Johnson's answer, June 21); V, doc. 96
-(Johnson and Russell, Mar. 2, 1967); VI, docs. 35 and 59 (the Democratic leaders, Jan. 30, 1968; the Tuesday lunch of
-Feb. 6, 1968). Clifford's "quagmire" letter (`cal.1965-05-17.vietnam`); Ball's "Keeping the Power of Decision" and
-Johnson's "I don't think I should go over 100,000" (`vietnam-july-decision`, June 18 and 21); Johnson and Eisenhower,
-July 2, 1965; Ford and Eisenhower, Aug. 24, 1965 (`republican-party-congress`); Johnson asks Russell to answer Robert
-Kennedy, Mar. 2, 1967; Johnson with the Democratic leaders (Long, "soft") and, that evening, with Dirksen and Ford, Jan.
-30, 1968; Johnson with the Democratic leaders, Robert Byrd's critique, Feb. 6, 1968.
+(Johnson and Russell, Mar. 2, 1967); VI, doc. 35 (the Democratic leaders, Jan. 30, 1968). Clifford's "quagmire" letter
+(`cal.1965-05-17.vietnam`); Ball's "Keeping the Power of Decision" and Johnson's "I don't think I should go over
+100,000" (`vietnam-july-decision`, June 18 and 21); Johnson and Eisenhower, July 2, 1965; Ford and Eisenhower, Aug. 24,
+1965 (`republican-party-congress`); Johnson asks Russell to answer Robert Kennedy, Mar. 2, 1967; Johnson with the
+Democratic leaders, Long's "soft," Jan. 30, 1968 (`cal.1968-01-30.vietnam-congress`).
+
+Rebuilt Oct. 29 after the Longley merge (commit c864629): two events first drafted as new entries were entered by the
+Longley reading, and Barrett's page and sentences are appended to Longley's entries instead, the units keeping their
+letters: `cal.1968-01-30.republican-party-congress` (Dirksen and Ford: the hours, 6:04 to 7:55 p.m., the messages from
+the embassy read out; also Vietnam: Tet) and `cal.1968-02-06.vietnam-tet` (the leaders' breakfast: Russell Long on the
+*Pueblo*, Byrd's words by Tom Johnson's notes, Johnson on the "mismanagement"). The accounts agree; no Check added.
 
 The book's 1967–68 meetings with members are almost all in the calendar already (Gibbons, IV; the FRUS volumes); they
 are listed below as "already in". Barrett's pages were not added to those entries: the reading cites a page only where

@@ -136,15 +136,17 @@ entries:
     date: '1964-12-04'
     thread: elections-1964
     also: [states-and-cities, republican-party]
-    c: 'Republican governors and governors-elect at Denver. Smylie, chairman of their association, opens: "We are a defeated party with a defeated leadership." A statement on the party''s leadership, for "a policy of inclusion"; Rockefeller, Romney and Scranton say Burch should be replaced; Smylie presses hardest for a declaration. Morton and Bob Wilson, the campaign committees'' chairmen, counsel against removing Burch; Nixon, by telephone to governors there, the same. Check.'
-    n: '*Michigan Daily*, Dec. 9, 1964 (AP) (Check against the press). [[w.hess-republican-establishment]], 1, 40–41 (Smylie''s words; the statement''s words; Rockefeller, Romney and Scranton; Morton, Wilson and Nixon). To check: [[w.sparacino-democratic-and-republican-governors]]; [[w.kabaservice-rule-and-ruin]]. See [[cal.1964-11-03.elections-1964-2]]. Names: Rockefeller, Romney, Scranton, Burch, Smylie, Morton, Wilson, Nixon.'
+    c: 'Republican governors and governors-elect at Denver. Smylie, chairman of their association, opens: "We are a defeated party with a defeated leadership." A statement on the party''s leadership, for "a policy of inclusion"; Rockefeller, Romney and Scranton say Burch should be replaced; Smylie presses hardest for a declaration. Morton and Bob Wilson, the campaign committees'' chairmen, counsel against removing Burch; Nixon, by telephone to governors there, the same. Check. Percy: repudiate those who "waved our party banner in 1964 only as a means to promote hate and bigotry." Gavin of North Carolina: "never again" the Southern strategy.'
+    n: '*Michigan Daily*, Dec. 9, 1964 (AP) (Check against the press). [[w.hess-republican-establishment]], 1, 40–41, 221, 340 (Smylie''s words; the statement''s words; Rockefeller, Romney and Scranton; Morton, Wilson and Nixon; Percy; Gavin). To check: [[w.sparacino-democratic-and-republican-governors]]; [[w.kabaservice-rule-and-ruin]]. See [[cal.1964-11-03.elections-1964-2]]. Names: Rockefeller, Romney, Scranton, Burch, Smylie, Morton, Wilson, Nixon, Percy, Gavin.'
     src:
-      c: 179af56f
+      c: c8c7d70c
       rows:
         - '"*Michigan Daily*": A, C-E'
         - 'w.hess-republican-establishment 1: A-B'
         - 'w.hess-republican-establishment 40–41: A, C-D, F-G'
-    tags: [name:rockefeller-nelson, name:romney-george-w, name:scranton-william-w, name:burch-dean, name:smylie-robert-e, name:morton-thruston-b, name:wilson-bob, name:nixon-richard-m]
+        - 'w.hess-republican-establishment 221: I'
+        - 'w.hess-republican-establishment 340: J'
+    tags: [name:rockefeller-nelson, name:romney-george-w, name:scranton-william-w, name:burch-dean, name:smylie-robert-e, name:morton-thruston-b, name:wilson-bob, name:nixon-richard-m, name:percy-charles-h, name:gavin-robert-l]
   - id: cal.1964-12-06.opinion
     when: Dec. 6
     date: '1964-12-06'
@@ -458,3 +460,36 @@ entries:
         - 'via w.garrow-bearing-the-cross 371 n.15b: C'
         - 'via w.garrow-bearing-the-cross 371 n.15c: all'
     tags: [name:young-andrew-j-jr, name:deloach-cartha, name:king-martin-luther-jr, name:king-coretta-scott]
+  - id: cal.1964-12.republican-party
+    when: Dec.
+    date: 1964-12
+    thread: republican-party
+    c: 'Goldwater to Romney, by letter: "many rank-and-file Republicans got a bad taste in their mouths when they saw leaders of their own party failing to support a national ticket."'
+    n: '[[w.hess-republican-establishment]], 139. Names: Goldwater, Romney.'
+    src:
+      c: 8f640250
+      rows:
+        - 'w.hess-republican-establishment 139: all'
+    tags: [name:goldwater-barry-m, name:romney-george-w]
+  - id: cal.1964-12.republican-party-2
+    when: Dec.
+    date: 1964-12
+    thread: republican-party
+    c: 'Romney to Goldwater, twelve single-spaced pages on why he did not support him: "I did not endorse you because I was not willing to compromise one iota the principles I fought for in San Francisco."'
+    n: '[[w.hess-republican-establishment]], 101. See [[cal.1964-12.republican-party]]. Names: Romney, Goldwater.'
+    src:
+      c: 969fcd5e
+      rows:
+        - 'w.hess-republican-establishment 101: all'
+    tags: [name:romney-george-w, name:goldwater-barry-m]
+  - id: cal.1964-12.republican-party-3
+    when: Dec.
+    date: 1964-12
+    thread: republican-party
+    c: 'Percy, in a speech for the public-relations conference of the National Association of Manufacturers, given to the press instead when the association objected: the party "gave the leadership of our party to men who do not accurately reflect its attitude and aspirations"; the Deep South won "on an implied, if not actually stated, rejection of the civil rights movement," "nothing to be proud of."'
+    n: '[[w.hess-republican-establishment]], 218. Names: Percy.'
+    src:
+      c: 3a8446e6
+      rows:
+        - 'w.hess-republican-establishment 218: all'
+    tags: [name:percy-charles-h]

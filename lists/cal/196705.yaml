@@ -68,6 +68,17 @@ entries:
         - 'w.gibbons-u-s-government-and IV, 678: all'
         - 'https://history.state.gov/historicaldocuments/frus1964-68v05/d152: A-C'
     tags: [name:johnson-lyndon-b, name:mansfield-mike, name:morse-wayne, name:rusk-dean, name:rostow-walt-w, name:katzenbach-nicholas, name:goldberg-arthur-j, name:califano-joseph-a-jr]
+  - id: cal.1967-05-01.elections-1968
+    when: May 1
+    date: '1967-05-01'
+    thread: elections-1968
+    c: 'Rockefeller to Agnew, whose first choice he is: join him in supporting Romney.'
+    n: '[[w.hess-republican-establishment]], 328. Names: Rockefeller, Agnew, Romney.'
+    src:
+      c: 4e4a3b46
+      rows:
+        - 'w.hess-republican-establishment 328: all'
+    tags: [name:rockefeller-nelson, name:agnew-spiro-t, name:romney-george-w]
   - id: cal.1967-05-02.mayors-gary
     when: May 2
     date: '1967-05-02'
@@ -132,11 +143,12 @@ entries:
     thread: republican-party
     also: [vietnam]
     c: 'Reagan''s press conference: "our goal should be to win and I think you win as swiftly as possible."'
-    n: '[[w.johns-vietnams-second-front]], 151. See [[cal.1967-05-01.vietnam]]. Names: Reagan.'
+    n: '[[w.johns-vietnams-second-front]], 151. [[w.hess-republican-establishment]], 279–80. See [[cal.1967-05-01.vietnam]]. Names: Reagan.'
     src:
       c: 287e8238
       rows:
         - 'w.johns-vietnams-second-front 151: all'
+        - 'w.hess-republican-establishment 279–80: all'
     tags: [name:reagan-ronald]
   - id: cal.1967-05-03.opinion
     when: May 3
@@ -414,7 +426,11 @@ entries:
     thread: robert-kennedy
     also: [elections-1968, vietnam]
     c: 'CBS, *Town Meeting of the World*: Robert Kennedy and Reagan on the war, answering students in Europe by satellite (Check where).'
-    n: 'To check: [[w.kennedy-town-meeting-of-the]]; [[w.cannon-governor-reagan]]. Names: Robert Kennedy, Reagan.'
+    n: 'To check: [[w.kennedy-town-meeting-of-the]]; [[w.cannon-governor-reagan]]. [[w.hess-republican-establishment]], 279 (by satellite, students in Europe; Reagan''s defense of the war). Names: Robert Kennedy, Reagan.'
+    src:
+      c: 497b1f1a
+      rows:
+        - 'w.hess-republican-establishment 279: A'
     tags: [name:kennedy-robert-f, name:reagan-ronald]
   - id: cal.1967-05-15.trade
     when: May 15–16
@@ -1002,3 +1018,50 @@ entries:
       rows:
         - 'w.hess-republican-establishment 30: A-B'
     tags: [name:romney-george-w, name:ford-gerald-r]
+  - id: cal.1967-05.republican-party
+    when: May
+    date: 1967-05
+    thread: republican-party
+    also: [conservative-movement]
+    c: Washington, the National Federation of Republican Women's convention. For president, O'Donnell over Schlafly, 1,910 to 1,494, 56.1 percent; Schlafly's backers charge fraud in the credentials committee and the voting, and she threatens a rival federation.
+    n: '[[w.hess-republican-establishment]], 81–82. Check: the day. Names: O''Donnell, Schlafly.'
+    src:
+      c: 568c6e23
+      rows:
+        - 'w.hess-republican-establishment 81–82: all'
+    tags: [name:odonnell-gladys, name:schlafly-phyllis]
+  - id: cal.1967-05.republican-party-congress
+    when: May
+    date: 1967-05
+    thread: republican-party-congress
+    also: [vietnam-congress, elections-1968]
+    c: 'Aiken: "the Johnson Administration cannot achieve an honorable peace in Vietnam"; the Republicans to nominate a candidate who will "promise a new look at United States policy in Asia."'
+    n: '[[w.hess-republican-establishment]], 297. Check: the day and the occasion. Names: Aiken, Johnson.'
+    src:
+      c: f8e81d86
+      rows:
+        - 'w.hess-republican-establishment 297: all'
+    tags: [name:aiken-george-d, name:johnson-lyndon-b]
+  - id: cal.1967-05.elections-1968-2
+    when: May
+    date: 1967-05
+    thread: elections-1968
+    c: Washington. A Nixon for President headquarters opens in a converted savings-and-loan bank on Pennsylvania Avenue, a block from the White House.
+    n: '[[w.hess-republican-establishment]], 188. Check: the day. Names: Nixon.'
+    src:
+      c: 3e1b213d
+      rows:
+        - 'w.hess-republican-establishment 188: all'
+    tags: [name:nixon-richard-m]
+  - id: cal.1967-05.elections-1968-3
+    when: May
+    date: 1967-05
+    thread: elections-1968
+    also: [republican-party]
+    c: Spad resigns as New York's Republican chairman, with Rockefeller's blessing, to work in Romney's Washington headquarters on the campaign in the mid-Atlantic States.
+    n: '[[w.hess-republican-establishment]], 134. Check: the day. Names: Rockefeller, Romney.'
+    src:
+      c: b9b567c9
+      rows:
+        - 'w.hess-republican-establishment 134: all'
+    tags: [name:rockefeller-nelson, name:romney-george-w, state:ny]

@@ -333,11 +333,12 @@ entries:
     date: '1964-06-08'
     thread: elections-1964
     c: 'Cleveland. Nixon, up till 3 a.m. pressing Romney to run, at a press conference: "it would be a tragedy if Senator Goldwater''s views as previously stated were not challenged—and repudiated."'
-    n: '[[w.perlstein-before-the-storm]], 358. Check: the day; by Perlstein''s sequence, the morning after Nixon''s arrival, after midnight. Names: Nixon, Romney, Goldwater.'
+    n: '[[w.perlstein-before-the-storm]], 358. Check: the day; by Perlstein''s sequence, the morning after Nixon''s arrival, after midnight. [[w.hess-republican-establishment]], 168–69 (the press conference; Romney pressed). Names: Nixon, Romney, Goldwater. Check: Hess and Broder, 168–69, have Nixon fly in "on June 9," the talks with Romney "that Monday" (June 8).'
     src:
       c: ce08c36a
       rows:
         - 'w.perlstein-before-the-storm 358: all'
+        - 'w.hess-republican-establishment 168–69: all'
     tags: [name:nixon-richard-m, name:romney-george-w, name:goldwater-barry-m, city:cleveland]
   - id: cal.1964-06-08.vietnam-congress
     when: June 8
@@ -1182,3 +1183,15 @@ entries:
         - 'w.gibbons-u-s-government-and II, 275–76, 204: all'
         - 'via w.gibbons-u-s-government-and II, 275 n.164: all'
     tags: [name:lodge-henry-cabot, name:morse-wayne, name:ngo-dinh-diem]
+  - id: cal.1964-06.elections-1964
+    when: June, last two weeks
+    date: 1964-06
+    thread: elections-1964
+    also: [republican-party]
+    c: 'Montauk, N.Y. Nixon with two close associates, by Hess and Broder''s account: Goldwater cannot be denied the nomination nor elected; Nixon to campaign for the ticket in 1964 and for every Republican in 1966, for 1968. After: he will not run for Vice President; his backers to keep delegates from voting for him; his convention speech moved to the night after the balloting.'
+    n: '[[w.hess-republican-establishment]], 170. Check: the days. Names: Nixon, Goldwater.'
+    src:
+      c: dd86bf84
+      rows:
+        - 'w.hess-republican-establishment 170: all'
+    tags: [name:nixon-richard-m, name:goldwater-barry-m]

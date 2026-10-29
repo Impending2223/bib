@@ -151,14 +151,27 @@ entries:
     thread: elections-1968
     also: [vietnam]
     c: 'Hartford. Romney''s first speech on the war, to a Republican dinner: support for the war effort; against a large escalation; a negotiated settlement, with amnesty for the enemy; the war not to become a party issue (Check).'
-    n: '*Daily Tar Heel*, [Apr. 8, 1967, 1](https://newspapers.digitalnc.org/lccn/sn92073228/1967-04-08/ed-1/seq-1/) (AP). [[w.johns-vietnams-second-front]], 145–46 (the speech). To check: [[w.kabaservice-rule-and-ruin]]; [[w.mollenhoff-george-romney]]; [[w.white-making-of-the-president-1969]]; Romney, speech, Apr. 7, 1967, Gubernatorial Series, box 263, Romney Papers (cited by [[w.johns-vietnams-second-front]], 145 n.93). Names: Romney.'
+    n: '*Daily Tar Heel*, [Apr. 8, 1967, 1](https://newspapers.digitalnc.org/lccn/sn92073228/1967-04-08/ed-1/seq-1/) (AP). [[w.johns-vietnams-second-front]], 145–46 (the speech). [[w.hess-republican-establishment]], 127 (no withdrawal, no "massive military escalation"; "peace with amnesty"; no coalition with the Front). To check: [[w.kabaservice-rule-and-ruin]]; [[w.mollenhoff-george-romney]]; [[w.white-making-of-the-president-1969]]; Romney, speech, Apr. 7, 1967, Gubernatorial Series, box 263, Romney Papers (cited by [[w.johns-vietnams-second-front]], 145 n.93). Names: Romney.'
     src:
       c: 0bbef8fa
       rows:
         - 'https://newspapers.digitalnc.org/lccn/sn92073228/1967-04-08/ed-1/seq-1/: all'
         - 'w.johns-vietnams-second-front 145–46: A-D'
         - 'via w.johns-vietnams-second-front 145 n.93: B-D'
+        - 'w.hess-republican-establishment 127: A'
     tags: [name:romney-george-w, state:ct, city:hartford]
+  - id: cal.1967-04-07.republican-party
+    when: Apr. 7
+    date: '1967-04-07'
+    thread: republican-party
+    also: [elections-1968, vietnam]
+    c: 'Concord, N.H., the night of Romney''s Hartford speech. Percy at a press conference: on Vietnam "anything is thinkable," but a precipitate withdrawal "incomprehensible."'
+    n: '[[w.hess-republican-establishment]], 236. See [[cal.1967-04-07.elections-1968]]. Names: Percy, Romney.'
+    src:
+      c: 6999a3b7
+      rows:
+        - 'w.hess-republican-establishment 236: all'
+    tags: [name:percy-charles-h, name:romney-george-w, state:nh]
   - id: cal.1967-04-08.civil-disorders
     when: Apr. 8–10
     date: '1967-04-08'
@@ -857,3 +870,51 @@ entries:
       rows:
         - 'w.nixon-rn 282: all'
     tags: [name:chiang-kai-shek, name:nixon-richard-m]
+  - id: cal.1967-04.republican-party-congress
+    when: Apr.
+    date: 1967-04
+    thread: republican-party-congress
+    also: [vietnam-congress]
+    c: 'Percy, Javits and Scott, a joint statement: "more vigorous" efforts for a negotiated settlement; no military action that risks bringing China in.'
+    n: '[[w.hess-republican-establishment]], 236. Check: the day. Names: Percy, Javits, Scott.'
+    src:
+      c: 2dee3782
+      rows:
+        - 'w.hess-republican-establishment 236: all'
+    tags: [name:percy-charles-h, name:javits-jacob-k, name:scott-hugh-d-jr]
+  - id: cal.1967-04.republican-party-congress-2
+    when: Apr.
+    date: 1967-04
+    thread: republican-party-congress
+    also: [vietnam-congress]
+    c: 'Percy: limit the bombing of the North, for "escalation has hardened the determination of the enemy to resist"; assure the Viet Cong "participation in South Vietnamese political life as a legal political party."'
+    n: '[[w.hess-republican-establishment]], 236. Check: the day. Names: Percy.'
+    src:
+      c: bb83cb16
+      rows:
+        - 'w.hess-republican-establishment 236: all'
+    tags: [name:percy-charles-h]
+  - id: cal.1967-04.republican-party
+    when: Apr.
+    date: 1967-04
+    thread: republican-party
+    also: [elections-1968]
+    c: 'Percy, asked whether he will be Illinois''s favorite son: "As far as I''m concerned, Ev Dirksen is favorite son."'
+    n: '[[w.hess-republican-establishment]], 228. Names: Percy, Dirksen.'
+    src:
+      c: 8f366153
+      rows:
+        - 'w.hess-republican-establishment 228: all'
+    tags: [name:percy-charles-h, name:dirksen-everett]
+  - id: cal.1967-04.republican-party-congress-3
+    when: Apr.
+    date: 1967-04
+    thread: republican-party-congress
+    also: [cities-and-housing]
+    c: Percy's National Home Ownership Foundation plan introduced, every Republican Senator and 109 of the 187 House Republicans its sponsors.
+    n: '[[w.hess-republican-establishment]], 202. Check: the day and the bill. Names: Percy.'
+    src:
+      c: 1df65743
+      rows:
+        - 'w.hess-republican-establishment 202: all'
+    tags: [name:percy-charles-h]

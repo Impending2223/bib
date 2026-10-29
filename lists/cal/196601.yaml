@@ -44,8 +44,12 @@ entries:
     when: Jan. 4
     date: '1966-01-04'
     thread: states-and-cities
-    c: Reagan announces for governor of California, on television. Check the date.
-    n: 'To check: [[w.dallek-right-moment]]. Names: Reagan.'
+    c: Reagan announces for governor of California, on television. Check the date. Fifteen stations, Redding to San Diego.
+    n: 'To check: [[w.dallek-right-moment]]. [[w.hess-republican-establishment]], 254 (the day; fifteen stations). Names: Reagan.'
+    src:
+      c: '18269662'
+      rows:
+        - 'w.hess-republican-establishment 254: all'
     tags: [name:reagan-ronald]
   - id: cal.1966-01-04.jobs-and-wages-transit
     when: Jan. 4
@@ -172,3 +176,15 @@ entries:
       rows:
         - 'w.nixon-rn 271: all'
     tags: [name:buchanan-patrick-j, name:nixon-richard-m]
+  - id: cal.1966-01.republican-party
+    when: Jan.
+    date: 1966-01
+    thread: republican-party
+    also: [elections-1968]
+    c: 'Nixon to William Lawrence of ABC: "As a practical political realist, I do not expect to be a nominee again."'
+    n: '[[w.hess-republican-establishment]], 142. Names: Nixon.'
+    src:
+      c: 78b7607e
+      rows:
+        - 'w.hess-republican-establishment 142: all'
+    tags: [name:nixon-richard-m]

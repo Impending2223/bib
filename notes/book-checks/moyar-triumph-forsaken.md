@@ -57,7 +57,7 @@ Beach: the numbers played down); Feb. 21, 1962 (cable 1006 on the press); July 9
 June 12, 1963 (Trueheart's démarche); June 14, 1963 (Kennedy: no further threats; cable 1219 on Thơ); July 7, 1963
 (Arnett beaten); Aug. 18, 1963 (the ten generals); Sept. 9, 11, 13 (two), 23; Oct. 1, 24, 25 (Lodge's "even bet"),
 28 (Zablocki to Krulak), 30 (Lodge; Bundy); Mar. 4, 1964 (Johnson with the Chiefs). On the Record: Feb. 23, 1965
-(Bingham's open letter; Moyar dates it Feb. 24) and Mar. 1, 1965 (Proxmire, Harris). On the Public Papers: Feb. 13,
+(Bingham's open letter; Moyar dates it Feb. 24) and Mar. 1, 1965 (Proxmire, Javits, Harris). On the Public Papers: Feb. 13,
 1962 (the Republican National Committee's "less than candid"). On recordings, not heard (PRDE only or the Miller
 Center), their words as Moyar quotes them: Oct. 25, 1963 (Kennedy and McNamara on Lodge and Conein); Nov. 4, 1963
 (Kennedy's dictation on cable 243); June 21, July 2 and July 26, 1965 (Johnson with McNamara and Russell). On the book
@@ -128,6 +128,8 @@ the background of 1954–59 and the book's surveys of Asia's "dominoes" (pp. 138
 | 286 | Nov. 1963 | the Politburo's resolution on the coup | a lead |
 | 296, 307 | Mar.–June 1964 | Khánh's calls to attack the North; the leak; Lodge's "police state" | leads |
 | 301 | July 6, 1964 | Nam Đông | an operation below the level |
+| 296 | May 4, 1964 | Lodge with Khánh (Moyar 296 n.42) | a lead |
+| 324 | Oct. 5, 1964 | Mao with Phạm Văn Đồng (CWIHP) | out of the brief |
 | 307 | July 19, 1964 | Khánh's rally for the march north | to leads |
 | 319, 327 | Sept. 4, 19–20, 1964 | the Pentagon on the Chiefs; the Rhadé revolt; the strike | leads |
 | 325 | Oct. 1, 1964 | Bundy to Johnson: no campaign for peace before war | to leads (LBJL) |
