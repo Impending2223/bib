@@ -75,11 +75,48 @@ bibliography, its witnesses' trees for what the event as a whole rests on (`note
 first entry stops doing two jobs; "See" lines are made from the key; the stations of §4 are the events. Built with the
 witness registry, which hangs on the same object.
 
-## 6. The merge
+## 6. Parallel readers and the merge
 
-Every patch is audited and merged by hand (32 waiting now). More of the audit becomes `check`: the duplicate by day and
-thread, the base drift, the brief's forms (the Names line, the To check, the pinpoints, the claim maps), so that the
-merger reads only the conflicts, the flagged duplicates and a sample.
+The owner, Oct. 30, 2026, on R29 and R44 of the reader's brief (a work cited in every entry whose claims it bears out;
+"already in" no reason to pass over): "we should be more thoughtful about queuing and threading parallel agents, and
+merging entries. Is there a performant, compute-economizing solution here? Can you implement it and follow it?"
+
+Where the cost goes now: a reader's edit to an existing entry replaces whole fields (`n`, `src`) against a `base` read
+just before writing. Two readers citing one entry, which R29 and R44 make the common case, collide on `n` and `src`
+every time; the merge records a conflict, `notemerge.propose` drafts the join, and the merger reads it. Each reader
+also reads every pending patch's adds for its days (`grep` and read), and the merger audits every op of every patch.
+The 32 patches waiting now are the result.
+
+The fix: most of what a reader does to an existing entry adds something, and additions commute.
+
+1. **Additive ops.** New patch ops, applied to the entry as it stands at merge time, needing no `base`:
+   - `cite: {id, item, units, from_to_check}`: puts a work, with its pinpoint and parenthetical, into the run of read
+     works (in the build's order), takes its card out of "To check:", and adds its `src` row with the units. A card
+     the note already cites at another page: the pages joined ("123, 211"), each row kept.
+   - `to-check: {id, add: [...]}`; `check: {id, text}` (a "Check:" sentence, kept if already there); `src: {id, rows}`;
+     `via: {id, rows}`; `names: {id, add: [...]}` (the Names line and the `name:` tags together); `also: {id, add}`;
+     `witness:` rows, once the registry is built.
+   Two readers' additive ops on one entry merge in either order to the same note (`notemerge`'s matching by card and
+   by sentence, STYLE 1-3, already does the hard part). `edit` with `base` stays for what is not an addition: `c`, the
+   date, the thread, a cite removed; those are rare and still three-way.
+2. **A ledger of new entries.** `inbox/new-entries.tsv`, append-only, written under a lock (`flock`): a line an entry,
+   before it goes into a patch: date, thread, id, a few words, the patch. A reader adding an entry greps the ledger
+   for the day; where the event is there, it `cite`s the pending id instead of adding a second entry. The merge applies
+   adds before additive ops, so a cite to a pending id lands. A grep of one file replaces reading every pending patch.
+3. **Rolling merge.** A finished patch is merged when it lands, not in a batch: `./bib merge --auto PATCH` runs the
+   patch's checks, applies it, and stops only at a real conflict (two edits of `c`, a cite removed by one and pinned
+   by another) or a flagged duplicate. The merger reads those and a sample (one entry in ten), not every op. Bases for
+   the remaining `edit`s stay fresh; the inbox stays short.
+4. **The checks at write time.** `patchaudit`'s refusals, and the brief's forms (the Names line, To check, pinpoints,
+   claim maps, the ledger), become `./bib patch-check PATCH`, which a reader runs before it finishes: the patch arrives
+   clean, and the merger's audit is the sample.
+5. **Scheduling.** Before a batch, `./bib plan-readers CARDS`: each pair of works' overlap, from the entries they
+   already share and the spans they cover; works that overlap heavily go to one reader, in sequence (its later patches
+   build on its earlier, R49); readers whose works share little run at once. The width of a batch is set so that the
+   expected overlap stays low, not to a fixed number of agents.
+
+The 32 patches now waiting are in the old form: merged first, by the audit as it is (queue item 2), before the readers
+resume under this. The reader's brief's R49 and R51 take the new ops and the ledger once built.
 
 ## 7. Finding things on the site
 
@@ -93,4 +130,4 @@ The regional grouping of the thread index (the owner: "I'll believe it when I se
 ## 9. Order
 
 §1 (small); §2 and §4 with the year split, §3, since the split is what makes §4 pay; §5 with the witness registry
-(queue item 0d); §6 as the batches grow; §7 after §3.
+(queue item 0d); §6 before the readers resume (queue item 0f); §7 after §3.

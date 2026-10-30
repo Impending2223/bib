@@ -1,12 +1,11 @@
 # The reader's brief
 
-**Draft of Oct. 30, 2026 (second draft, after the comparison in `reader-comparison.md`), for the owner to read. Not
-yet in force.** Until the owner approves it, the rules in force are CLAUDE.md's and the batch briefs', the latter kept
-in `notes/briefs/superseded/` (superseded on approval). Once approved, this is the one text every agent that reads a
-source against the calendar, or drafts calendar entries, works from; a batch brief adds only its assignment (the
-sources and their copies, the entries, the patch's name, who else is at work). CLAUDE.md keeps the series' conventions
-(the files, the forms, the build) and points here for the reader's rules; the owner's standing rules on reading go
-here, not into CLAUDE.md.
+**In force from Oct. 30, 2026** (the owner: "I approve the memo. I approve R5."). This is the one text every agent
+that reads a source against the calendar, or drafts calendar entries, works from; a batch brief adds only its
+assignment (the sources and their copies, the entries, the patch's name, who else is at work). The briefs it replaced
+are kept in `notes/briefs/superseded/`, with CLAUDE.md's reading paragraphs as they stood (`claude-md-brief.md`).
+CLAUDE.md keeps the series' conventions (the files, the forms, the build) and points here; the owner's standing rules
+on reading go here, not into CLAUDE.md.
 
 Each rule is numbered (R1, R2 ...). Where each comes from is the table at the foot, "The rulings": the owner's ruling,
 dated, with the owner's words, or "house rule" where the rule is the series' own practice. The owner's messages are in
@@ -398,7 +397,7 @@ how; the patch written.
 ## The rulings
 
 "OB" is `notes/owner-brief.md` (the owner's messages, verbatim; its last section, "The rulings of Oct. 28–30, 2026",
-for the latest); "CL" is CLAUDE.md. Dates, 2026, are the day of the message in OB's times (UTC); CLAUDE.md dates a few of the same rulings a day off, by Pacific time. "House rule": the series' practice,
+for the latest); "CL" is CLAUDE.md as it stood on Oct. 30, 2026; its reading paragraphs are now in `notes/briefs/superseded/claude-md-brief.md`. Dates, 2026, are the day of the message in OB's times (UTC); CLAUDE.md dates a few of the same rulings a day off, by Pacific time. "House rule": the series' practice,
 written by Claude or its agents, no ruling of the owner's.
 
 | Rule | Ruling | The owner's words |
@@ -407,7 +406,7 @@ written by Claude or its agents, no ruling of the owner's.
 | R2 | Oct. 29 (OB, "Out of the brief") | "Perhaps 'Washington or its counterparts'? ('and' its counterparts?)"; the threads' conventions, Oct. 21 (CL, "Subthreads") |
 | R3 | Oct. 23 (CL, "The owner's books", in the superseded brief-books.md) | "Can you check whether our soft citations hold up, identify page numbers if they do, identify other entries to which they may be relevant, or gaps in the calendar they might fill, and fill them in accordingly?" (as brief-books.md quotes it); the order: house rule |
 | R4 | Oct. 18 (CL, "Leads"), the leads half; the rest house rule | "anything recalled but not placed or verified" (CL's statement of the rule) |
-| R5 | house rule, after Oct. 29 (OB, "What is passed over at all") | "The agent on Suite 3505 seems to have a much more generous sense of the brief. I like it!" The general test is the reader's brief's own (CL states it for columnists and operations only): for the owner to rule |
+| R5 | Oct. 30 (OB, "The brief approved") | "I approve R5." (after Oct. 29: "The agent on Suite 3505 seems to have a much more generous sense of the brief. I like it!") |
 | R6 | Oct. 1 (OB) | "executive and legislative events" |
 | R7 | Oct. 23 (OB, "Scope: the informal transactions") | "The sinews of the public history: informal meetings, informal lobbying, informal agreements, informal policy and personnel and operational and communications planning." The account named and dated by page: house rule (CL, "The informal record") |
 | R8, R18 | Oct. 29 (OB, "The papers of government") | "What are the minor papers in Gibbons?"; "Give us entries for every 'minor' entry you recommend, pass over everything you recommend we pass over, and add entries for the cables and intelligence memoranda." |

@@ -178,7 +178,7 @@ The owner asked for the whole universe of useful sources, sorted by what can act
 from the container (the page read, a challenge counted as a bot check); archive.org was searched by title and
 identifier and counted by year; HathiTrust's full holdings file (Oct. 1, 2026) was streamed and matched by title, full
 view and search-only apart. Shown to the owner as the artifact "Source Access Map"
-(https://claude.ai/artifact/4eU99zp15SdZuoUL9xiAa8). The chief findings:
+(https://claude.ai/artifact/4eU99zp15SdZuoUL9xiAa8; republished with the district election volumes, Oct. 30, 2026, at https://claude.ai/artifact/XJEjQnKSeLR74B45fLKYAK). The chief findings:
 
 - Open here, never cited: the President's Daily Brief and the President's Intelligence Checklist, 1961–69 (the CIA
   reading room, and its mirror on archive.org with text: 1,137 Checklist items, about 1,700 Briefs 1964–69); the
