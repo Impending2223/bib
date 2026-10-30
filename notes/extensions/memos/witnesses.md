@@ -84,6 +84,39 @@ row points at.
 The tree is drawn for a claim, a lettered unit of `c` (CLAUDE.md, "Claims and their sources"), not for an entry: a
 memorandum may ground the date and not the decision. An event's map is the union of its units' trees.
 
+## 2a. The record that is the act
+
+The owner, Oct. 30, 2026: "Where we have the record, and the record is sufficient and complete attestation of the
+fact or event for which it's cited—the canvass, the session law, the executive order, the reported decision, the
+indicator—the 'witness' collapses to the record itself, and no 'witness' tree need be compiled."
+
+Diplomatics' name for it (recalled; Check: Duranti, *Diplomatics: New Uses for an Old Science*): the *dispositive*
+document, which brings the act into being, against the *probative*, which gives evidence of an act already done. The
+law is the statute; the order is the order; the result is the certified canvass; the figure first reported is the
+release. Nothing upstream of them can say better what they are.
+
+- **What it closes.** Only the units the record constitutes: the act, its text, its date, its number, the figure as
+  released. Not its circumstances: who drafted the order, who was in the room at the signing, why the figure was
+  late, what the decision was taken to mean. Those units keep their trees.
+- **Which copy.** The record or its official print, as the series already cites them: the Statutes at Large (legal
+  evidence of the law, 1 U.S.C. § 112), the session laws, the Federal Register, the U.S. Reports or the reporter, the
+  State's certified canvass, the release or the publication that first printed the figure (the *Survey*, the
+  *Economic Report*), the Senate's *Executive Journal* for a confirmation. A compilation from records (the Clerk's
+  *Statistics*, CQ's *Guide*, the *Congressional Directory*), a print of a document that is not itself the act
+  (FRUS, the Public Papers' texts of remarks), and the Record's text of a speech (members revise their remarks) are
+  probative: the ordinary rules hold.
+- **What still enters.** Witnesses that agree with the record are not sought or registered. A witness that disagrees
+  with it (another date, another figure, another text), or an official text at odds with another (the History of
+  Bills' misprinted page; the Clerk against the canvass), is recorded as a variant against the unit, since it is
+  evidence of an error or a dispute.
+- **When the tree comes back.** Where the record itself is in question: a contested or recounted election (Illinois
+  and Texas, 1960; Minnesota, 1962), a document's date that differs from the act's (an order signed one day and
+  dated or published another; a bill signed at a ceremony after its signing), a disputed authenticity or validity
+  (a pocket veto). The unit then takes a tree like any other, the record its first root.
+- **In the data.** A claim-map row to the linked record, its kind one of a short list (`DISPOSITIVE` in the module:
+  statute, session law, treaty, order, proclamation, regulation, decision, canvass, release, journal), closes the
+  unit: `stemma` shows it so, and `check` asks no root of it. A unit marked `disputed` reopens it.
+
 ## 3. The rules for the readers
 
 1. **Register every witness met that bears on a claim, however well attested the claim already is.** A witness
