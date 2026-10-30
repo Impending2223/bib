@@ -110,6 +110,108 @@ starts from it; so would the game. Mostly assembly: the pieces exist.
   will, Washington's patience. The models give attrition, logistics, force and the home front's arithmetic; the rest
   is the record's, and in a game, fiction's.
 
+## 5b. Conventional, air and nuclear war
+
+The owner, the same day: "and conventional warfare? aerial warfare? we already have a little sandbox war in the
+calendar, in 1967, and we have other little conventional box wars in prospect (DPRK/ROK) or just outside our window
+(Lam Son, Easter Offensive, Yom Kippur, Black April), and it would be interesting to model what would happen if
+NATO/the US gave up their first-use doctrine altogether".
+
+- **The June war, 1967.** Trevor N. Dupuy, *Elusive Victory: The Arab-Israeli Wars, 1947–1974* (1978): each
+  engagement scored (weapons, terrain, posture, surprise) and a combat effectiveness value fitted, how much better a
+  side fought than its numbers. A model fitted to his engagements, then asked (Egypt's air force not caught on the
+  ground June 5; Jordan out). The same tools for 1973 and, outside the window, Lam Son 719, the Easter Offensive, 1975.
+- **Force scoring and theater models.** The Army's Weapon Effectiveness Indices and Weighted Unit Values (WEI/WUV),
+  armored division equivalents; Joshua M. Epstein, *The Calculus of Conventional War* (1985); Barry R. Posen,
+  *Measuring the European Conventional Balance*, 9 Int'l Sec. 47 (1984–85) (Check: page); John J. Mearsheimer, *Why
+  the Soviets Can't Win Quickly in Central Europe*, 7 Int'l Sec. 3 (1982). After the window, but formalizing what
+  Systems Analysis argued in it: that NATO could hold without early nuclear use (Enthoven and Smith; FRUS).
+- **Numbers against how forces fight.** Stephen Biddle, *Military Power* (2004): the "modern system" of force
+  employment, tested against numbers and technology, explains outcomes better than either; a correction to every
+  Lanchester-type model, and a variable the record can score (§5c).
+- **Korea, 1968.** The balance from the forces tables (the *Military Balance* as the *Statistical Abstract*
+  reprinted it), the terrain, the defense of Seoul; the Blue House raid and the Pueblo the occasions.
+- **The air war.** Sorties against losses against what the targets were worth: the series holds the attack sorties
+  (OSD's reports; CACTA, by route package); losses a sortie wanted. Air-to-air: the Air Force's Red Baron reports
+  (DTIC) and the Navy's Ault Report (1968). Coercion: Robert A. Pape, *Bombing to Win* (1996), punishment against
+  denial; Mark Clodfelter, *The Limits of Air Power* (1989). June 5, 1967: an attack on sortie generation, a
+  well-understood problem.
+- **No first use.** The doctrine: MC 14/2, then MC 14/3, flexible response, adopted Jan. 1968; China's declaration of
+  Oct. 16, 1964. The conventional side by force scoring and Epstein's or Posen's model (without the nuclear threat,
+  does NATO hold, and how many days); the nuclear side the period's own arithmetic, McNamara's assured-destruction
+  tables in the posture statements (the forces job queued for Nov. 2 gathers them).
+- **Off the shelf.** *Command: Modern Operations* (Matrix Games): a serious air and naval simulator with 1960s
+  scenarios and equipment, for exploring, not for scripting into the series. Nothing open at that level found. The
+  models above are small enough to write; the work is the data (orders of battle, equipment counts, weights, loss
+  rates).
+
+## 5c. Surprise, morale, command and political will
+
+The owner, the same day: "Any suggestions as to how to begin building out the groundwork for a simulation 'surprise,
+morale, command, and political will'? There's a reason we have all these intra-administration events and domestic
+political data, formal and informal—and why I was disappointed to see the agents discard that, both at home and
+abroad. ... There's a lot of political science out there!" The groundwork is the record made structured: what the
+informal record holds, laid out so a model can read it. Each layer derived from the calendar (tags on entries, files
+beside them), never a second record; each from the literature that has measured it.
+
+- **Political will at home: opinion.** The literature: John E. Mueller, *War, Presidents and Public Opinion* (1973),
+  and *Presidential Popularity from Truman to Johnson*, 64 Am. Pol. Sci. Rev. 18 (1970) (the rally, the coalition of
+  minorities); John R. Zaller, *The Nature and Origins of Mass Opinion* (1992) (elite cues; Vietnam his case); Adam J.
+  Berinsky, *In Time of War* (2009) (partisan cues over casualties); Christopher Gelpi, Peter D. Feaver and Jason
+  Reifler, *Paying the Human Costs of War* (2009) (expectations of success); Steven Casey, *Selling the Korean War*
+  (2008) and *When Soldiers Fall* (2014) (the administration's selling, the reporting of the dead); Douglas L.
+  Kriner and Francis X. Shen, *The Casualty Gap* (2010) (local losses); Daniel C. Hallin, *The "Uncensored War"*
+  (1986) (the press, following the elite debate); Benjamin I. Page and Robert Y. Shapiro, *The Rational Public*
+  (1992); Nathan P. Kalmoe on partisanship and violence (*With Ballots and Bullets* (2020); with Lilliana Mason,
+  *Radical American Partisanship* (2022)). The data: the series' Gallup readings; Gallup's "mistake" question from
+  Aug. 1965 (to add, by page, as the approval series is); the Policy Agendas Project's "most important problem" and its
+  coding of hearings, laws and the State of the Union (open); the American National Election Studies of 1964 and 1968
+  (open); the elite cue itself, the members' dated public word (the parties-and-members rule) and their roll calls.
+  Models: Mueller's log of casualties; Zaller's and Berinsky's cue-taking; the expectations of success; each tested
+  against the series' own readings.
+- **Political will at home: elections and Congress.** Douglas A. Hibbs's "Bread and Peace" (real disposable income
+  growth and cumulative military deaths in Korea and Vietnam, the incumbent party's presidential vote; the series holds
+  both inputs); Edward R. Tufte, *Determinants of the Outcomes of Midterm Congressional Elections*, 69 Am. Pol. Sci.
+  Rev. 812 (1975), and *Political Control of the Economy* (1978); William G. Howell and Jon C. Pevehouse, *While
+  Dangers Gather* (2007) and Douglas L. Kriner, *After the Rubicon* (2010) (Congress's constraint on the use of
+  force); Richard E. Neustadt, *Presidential Power* (1960), and Samuel Kernell, *Going Public* (1986), for what the
+  President's persuasion could and could not do.
+- **Command: the decisions inside the administration.** The literature: Graham T. Allison, *Essence of Decision*
+  (1971); Morton H. Halperin, *Bureaucratic Politics and Foreign Policy* (1974); Irving L. Janis, *Victims of
+  Groupthink* (1972) (the Bay of Pigs; escalation); John P. Burke and Fred I. Greenstein, *How Presidents Test Reality*
+  (1989) (Eisenhower, 1954, and Johnson, 1965); Yuen Foong Khong, *Analogies at War* (1992); Leslie H. Gelb with Richard
+  K. Betts, *The Irony of Vietnam: The System Worked* (1979); Elizabeth N. Saunders, *Leaders at War* (2011). The
+  groundwork: a positions ledger for each decision the calendar follows (Jan.–July 1965; the bombing pauses; Mar.
+  1968): each participant's recorded position by date, from the entries and their pages ("by Ball's account"),
+  disagreements of account kept as the brief keeps them. Ideal points for the executive, from the informal record:
+  what the agents passed over as private is this layer's data.
+- **Command: the leaders' beliefs, from their own words.** Operational code analysis (Alexander L. George, *The
+  "Operational Code"*, 13 Int'l Stud. Q. 190 (1969); Stephen G. Walker and Mark Schafer on Johnson and his advisers,
+  21 Pol. Psychol. (2000), Check: title and page) and Margaret G. Hermann's leadership trait analysis: dictionaries run
+  over a leader's spontaneous words. The series holds the corpora: the press conferences in the cleaned Public Papers,
+  by date; the cables and memoranda in FRUS. A belief score by month for Kennedy, Johnson, Rusk, McNamara, replicated
+  first where the literature has scored them.
+- **Surprise: the warning record.** Richard K. Betts, *Surprise Attack* (1982); Roberta Wohlstetter, *Pearl Harbor:
+  Warning and Decision* (1962); James J. Wirtz, *The Tet Offensive: Intelligence Failure in War* (1991). For each
+  surprise the calendar holds (the Sino-Indian war, the missiles in Cuba, the June war, Tet, Czechoslovakia), the
+  indicators and estimates by date, now entries under the ruling on the papers of government: a hidden tag
+  (`warning:<event>`) and, from the entries, what was known, by whom, when, and what was estimated.
+- **Morale.** The literature: Edward A. Shils and Morris Janowitz on cohesion (1948); Jasen J. Castillo, *Endurance and
+  War* (2014); Dan Reiter and Allan C. Stam, *Democracies at War* (2002); Kenneth M. Pollack, *Arabs at War* (2002);
+  Caitlin Talmadge, *The Dictator's Army* (2015) (coup-proofing against battlefield effectiveness; North and South
+  Vietnam among her cases). The data the series already reads or can: ARVN desertions and the Chieu Hoi ralliers
+  (Thayer), U.S. desertion and AWOL rates (DoD), the HES's ratings (§5).
+- **Abroad, the same layers.** The decisions of Hanoi, Peking, Moscow, Saigon, now entries under the ruling of Oct. 29
+  (the counterparts): their positions ledger, their warning record. Event data for the dyads, day by day: Edward E.
+  Azar's Conflict and Peace Data Bank (COPDAB, 1948–78) and Charles McClelland's World Event/Interaction Survey (WEIS,
+  from 1966) (Check: where open). The formal frames: Thomas C. Schelling, *Arms and Influence* (1966) and Herman Kahn,
+  *On Escalation* (1965), the period's own, Kahn's ladder a game's skeleton; James D. Fearon, *Rationalist
+  Explanations for War*, 49 Int'l Org. 379 (1995), and *Domestic Political Audiences and the Escalation of
+  International Disputes*, 88 Am. Pol. Sci. Rev. 577 (1994); Bruce Bueno de Mesquita et al., *The Logic of Political
+  Survival* (2003).
+- **What it asks of the readings.** Every meeting, call, position and estimate, dated and by page: the rulings of
+  Oct. 28 and 29 already ask it. A reading's "Passed over" list is this layer's loss.
+
 ## 6. How a simulation is built and shown
 
 - **Precomputed, not run at build.** Each model a script in `tools/sims/` (the network and its libraries there, as
@@ -137,6 +239,8 @@ playthroughs), every branch marked fiction from its point of departure. Nothing 
 2. §3, the pivots, backtested on `congress/bills.yaml` and the roll calls.
 3. §4, the period's own models; then today's estimates.
 4. §5, the crossover calculator and the guerrilla Lanchester model on the war table's figures; the home front against
-   Gallup.
-5. §6's hook, for whatever has passed its backtest.
-6. §4's open economy, when its data is built; §7, the game.
+   Gallup. §5c's layers begun alongside, from the first: the positions ledger and the warning record grow with the
+   readings, and cost little once the tags exist.
+5. §5b, the June war on Dupuy's engagements; then the Central Front and no first use, with the posture statements.
+6. §6's hook, for whatever has passed its backtest.
+7. §4's open economy, when its data is built; §7, the game.
