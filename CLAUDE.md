@@ -110,7 +110,7 @@ Hard and soft (the same day): the sources read (the primary record, linked; a wo
 the page) come first; the works not yet read stand behind "To check:", a sentence of its own before "See" and
 "Names:" ("To check: [[w.a]]; [[w.b]]."), the event's bibliography among them. A reading run that reads one moves it
 out, with its pinpoint and, where it stands for part of the entry, its parenthetical; a source found and not yet read
-(a book, a hearing, a file) joins the To check. "Check:" marks a detail to verify; "To check:", sources not yet read.
+(a book, a hearing, a file) joins the To check. "Check:" marks a detail to verify; "To check:", sources not yet read. A pinpoint names a number (a page, a volume and page, a document, a chapter, a note) or links the place read; a pointer in words ("[[w.x]], on Rusk", "for the arithmetic", a chapter's title) is recalled, and the work stands behind "To check:", the words its parenthetical (the owner, Oct. 30, 2026; swept that day, `tools/works/unpin_words.py`: 31 cited with words, 22 bare; `check` fails on a new one [claims]).
 Swept Oct. 24, 2026: every work cited without a pinpoint went behind "To check:" (2,439 notes; a work inside a
 sentence of prose, some two dozen, left as written).
 

@@ -34,7 +34,7 @@ STYLE
     map is made against one `c` (its hash), and if `c` changes its letters may no longer fit: `check` reports it
     stale until a reader looks again and writes the new hash.
  5. The mechanical map, from the note as written under the owner's rule "omission implies" (CLAUDE.md, "What each
-    source stands for"): a work read (with its pinpoint) and no parenthetical, `all`; with one, `?`; a link in the
+    source stands for"): a work read (with its pinpoint, a number or a link: is_pin) and no parenthetical, `all`; with one, `?`; a link in the
     note's sources, `all`; a link in `c` (a statute, a case), the unit holding it; an unlinked item, no row (in the notes it is nearly always
     prose, a work's version of the event; a reader's map names an unlinked source by its first words). The note's
     sources are its sentences other than "To check:", "See ...", "Names:", "Check:", "Made public:" and the pointers
@@ -141,7 +141,10 @@ def note_parts(n):
     """The note's sentences split into its sources (STYLE 5) and the rest, in order: ([source items], [other])."""
     from .notemerge import items, sentences
     src, other = [], []
-    for s in sentences(n or ""):
+    chunks = []
+    for s in sentences(n or ""):        # a sentence the splitter ran on past an abbreviation ("86th Cong. To check: ...")
+        chunks += [c.strip() for c in re.split(r" (?=(?:To check: |Names: |See \[\[|Check: ))", s) if c.strip()]
+    for s in chunks:
         if s.startswith(NOT_SOURCE):
             other.append(s)
         else:
@@ -150,11 +153,24 @@ def note_parts(n):
     return src, other
 
 
+CARD_ITEM = re.compile(r"^\[\[(w\.[^\]|]+)(?:\|[^\]]*)?\]\](?:, ([^(]+?))?\s*(\((?:[^()]|\([^()]*\))*\))?$")
+
+
+def is_pin(text):
+    """Whether what follows a work's card is a pinpoint: it names a number (a page, a volume and page, a document, a
+    chapter, a footnote) or links the place read. A pointer in words ("on Rusk", "for the arithmetic", a chapter's
+    title) is no pinpoint: it is recalled, and the work stands behind "To check:" (the owner, Oct. 30, 2026)."""
+    return bool(text) and (re.search(r"\d", text) is not None or "](http" in text)
+
+
 def item_key(item):
-    """A source item's kind and key: ('card', id, pin, paren) | ('url', address) | ('text', first words)."""
-    m = re.match(r"^\[\[(w\.[^\]|]+)(?:\|[^\]]*)?\]\](?:, ([^(]+?))?\s*(\((?:[^()]|\([^()]*\))*\))?$", item.strip())
+    """A source item's kind and key: ('card', id, pin, paren) | ('url', address) | ('text', first words). A card's pin
+    is None where what follows it is no pinpoint (is_pin)."""
+    m = CARD_ITEM.match(item.strip())
     if m:
-        return ("card", m.group(1).strip(), (m.group(2) or "").strip() or None, m.group(3))
+        pin = (m.group(2) or "").strip() or None
+        linked = bool(pin) and pin.endswith("]") and (m.group(3) or "").startswith("(http")   # ", at [site](url)"
+        return ("card", m.group(1).strip(), pin if pin and (linked or is_pin(pin)) else None, m.group(3))
     lk = LINK.search(item)
     if lk:
         return ("url", lk.group(2))
@@ -286,6 +302,12 @@ def problems(series):
         if set(letters(n_units)) - cover:
             counts["uncovered"] += 1
         mapped = {(k, key) for _, k, key, *_ in resolve(e) if k}
+        for it in note_parts(e.get("n"))[0]:
+            m = CARD_ITEM.match(it.strip()) or re.match(r"^[a-z][^\[\]();]{0,40}, (\[\[w\.[^\]|]+\]\])$", it.strip())
+            if m and item_key(it)[0] != "card" or (m and item_key(it)[2] is None):
+                errors.append((e["id"], f"a work cited among the sources read without a pinpoint, {it.strip()[:70]!r}: "
+                                        "a pinpoint names a number or links the place read; else the work goes behind "
+                                        "\"To check:\""))
         for it in note_parts(e.get("n"))[0]:
             k = item_key(it)
             if (k[0] == "card" and k[2] and ("card", k[1]) not in mapped) or (k[0] == "url" and ("url", k[1]) not in mapped):
