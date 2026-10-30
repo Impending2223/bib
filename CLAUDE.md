@@ -139,8 +139,8 @@ n.14)."). And what a reading passes over: every dated event the work treats and 
 under another id, a lead), for the owner to rule on. To be replaced (the owner, Oct. 30, 2026: "a trace/map of *all* the *ultimate*, or *root*, materials that bear on a fact or event"): the records become witnesses, works and collections among them, each tied to what it derives from, down to the roots, every one registered however well attested the claim, a copy kept as an edge; `notes/extensions/memos/witnesses.md`, queued. "Minor" as the parties-and-members rule above defines it. The raw material (the owner, Oct. 30, 2026: later passes
 will code positions, warnings and beliefs, "so long as we're not losing the raw material for those passes to the
 cutting-room floor"; the readers code nothing): a position or an argument kept in the source's own words, briefly, with
-its page, in `n`; the time and the sequence the source gives (`time:`, `time_approx:`, `follows:`; "The calendar by
-day"); every figure the source gives, with its page.
+its page, in `n`; the time and the sequence the source gives (`time:`, `time_approx:`, `follows:`, to be built Nov. 2, 2026,
+until then in words in `n`); every figure the source gives, with its page.
 
 Calendar entries on the States and the cities take hidden `state:<postal code>` and `city:<slug>` tags (`state:ny`,
 `city:nyc`) and the threads in `notes/threads.md` ("The States and the cities").

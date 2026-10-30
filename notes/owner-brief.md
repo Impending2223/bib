@@ -111,3 +111,201 @@ message also dealt with other work, only the part on the calendar or the notes i
 > The sinews of the public history: informal meetings, informal lobbying, informal agreements, informal policy and personnel and operational and communications planning.
 >
 > I haven't checked the readings from Schlesinger's RFK, but keep that in mind as we get into materials that take us further from "the public record, narrowly construed."
+
+
+## The rulings of Oct. 28-30, 2026
+
+Copied Oct. 30, 2026, from the session's transcript, for the provenance table of `notes/briefs/reader.md`. Times UTC;
+the series dates each ruling by the owner's day in Pacific time (00:22 UTC on Oct. 28 is the evening of Oct. 27
+there). The 22:26 message asked what gave the readers their view of military matters; the 22:32 "Please do"
+approved the ruling proposed in reply (CLAUDE.md, "Military matters"). Cuts marked [...].
+
+### Records cited, units of claim, one event one entry
+
+2026-10-28 00:22 UTC, session "1968 series".
+
+> [...]
+>
+> Are you sure about your "not for all of them" rule? It seems like our agents didn't get much out of the official histories. What are we leaving on the cutting-room floor? What were the agents leaving there?
+>
+> One further question, on the reading. Are the agents systematically and conscientiously logging the materials and records cited for the claims in the secondary sources they read? Can they?
+
+2026-10-28 00:52 UTC, session "1968 series".
+
+> I think your "the note does not say which" is a bit verbose for a practice which is going to be nearly universal in the works we're reading, at the granularity we're looking for.
+>
+> Can we enumerate the "for ABCD" or "for the entry"? Should we break the entries down into (invisible?) sentence-by-sentence, clause-by-clause units, and accord to each the appropriate (invisible?) pincite?
+>
+> (The existing setup worked for what we started with, but as each entry becomes more involved, our citations must become more involved too, no?)
+
+2026-10-28 02:16 UTC, session "1968 series".
+
+> Stop hook feedback:
+> [~/.claude/stop-hook-git-check.sh]: There are uncommitted changes in the repository. Please commit and push these changes to the remote branch.
+>
+> [...]
+
+### The parties and the members
+
+2026-10-28 16:14 UTC, session "1968 series".
+
+> The Johns notes suggests the Johns pass is overmarking events as "minor".
+>
+> What rule makes this kind of position-taking, messaging, organization, communication, policy formation, campaigning, etc., in the opposition and among non-majority-leadership MCs "minor"? Can we amend it?
+>
+> The Perlstein read didn't seem to pick up much either. Was that for the same reason?
+>
+> I'm quite interested in what the Republicans were up to, and what they were saying, in these years.
+
+### The papers of government (the Gibbons readings)
+
+2026-10-29 04:49 UTC, session "1968 series".
+
+> [...]
+>
+> What are the minor papers in Gibbons?
+>
+> [...]
+
+2026-10-29 05:11 UTC, session "1968 series".
+
+> [...]
+>
+> Stop hook feedback:
+> [~/.claude/stop-hook-git-check.sh]: There are uncommitted changes in the repository. Please commit and push these changes to the remote branch.
+
+### What is passed over at all
+
+2026-10-29 06:43 UTC, session "1968 series".
+
+> I think our agents are cutting a bit too much as "private," "below the level," "undated" (which sometimes means only "not dated to the day"), "itinerary" (I want to know where these guys went!), at least by my read of their notes on Nixon's Six Crises, Humphrey, McPherson's Education (far too much!), Jones's Bay of Pigs (we cover all these meetings and memos but the actual operation is "below the line"?), and Navasky's Kennedy Justice.
+>
+> The agent on Suite 3505 seems to have a much more generous sense of the brief. I like it!
+
+### "Out of the brief"; the counterparts, the interests, the columnists
+
+2026-10-29 06:49 UTC, session "1968 series".
+
+> Please do.
+>
+> Do you know what "out of the brief" means? I'm reading over Asselin and Chen and can't figure out whether we should be leaving out the "out of the brief" material. I'm skeptical.
+
+2026-10-29 07:04 UTC, session "1968 series".
+
+> I've never liked the "as Washington met it" line. Perhaps "Washington or its counterparts"? ("and" its counterparts?)
+>
+> But please do write a fix.
+>
+> Give me the lobbies and foundations too. And Hoffa! (One of the agents dropped him as "below the level (a defendant's interview)".) There must be some way to keep in folks like Meany, Hillman, Lewis, Reuther, the named figures in the  film and electrical workers disputes of the late 1940s, etc., no? I'd also like some cut that gets us the "name" columnists but not the rest, but I'm not sure how to draw the line there.
+
+### The day's order and the time of day
+
+2026-10-29 22:56 UTC, session "1968 series".
+
+> I'm going to suggest something simpler and "dumber": Alphabetic sort, first by the name of the entry's (primary) thread, then by the text of the entry. Anything else is too opaque or too ad hoc to be serviceable, at least for now.
+>
+> I do like the optional "time:" field, though—UTC!—and would hope to make use of it if and when we get days thick enough with events to do a real tick-tock.
+
+2026-10-29 23:03 UTC, session "1968 series".
+
+> Yes, use the hidden sort/thread index keys.
+>
+> One other thought: Could we have something like another, optional field that flags the "time" field as a "dummy", that is, that we're using the field to force a sort order, because we know one event follows another, but can't date it precisely?
+>
+> Is there a more graceful, or more standard way to implement something like this? "this field is written as it is to force this entry AB to follow another entry, AA"? "this entry AB always follows entry AA"?
+
+### The raw material
+
+2026-10-30 00:23 UTC, session "1968 series".
+
+> Put that as a recommendation for the extension.
+>
+> I'm not confident that *I* grasp the appropriate way to state or operationalize these concepts, much less assign it to agents to code on the fly.
+>
+> I tend to think this would be better done in later passes, at least so long as we're not losing the raw material for those passes to the cutting-room floor.
+>
+> Speaking of: Given what we've discussed thus far, should we change anything about the readers' briefs? Is there anything in the reading that deserves a higher priority than we've given it thus far? What have we overlooked? What materials have we overlooked?
+
+### Pinpoints
+
+2026-10-30 01:23 UTC, session "1968 series".
+
+> If your citation check is a tool/script you can edit, you should rewrite "pinned" so it only returns true if the append includes a number; a number of the "pinned" pinpoint citations are recalled, textual pointers in the style of ", on the XYZ", ", for the ABC." They should probably be re-sorted to the "To check: " block, too.
+
+### The counterparts in their own languages
+
+2026-10-30 01:30 UTC, session "1968 series".
+
+> Claude... you can read Czech and Polish... and all the other languages... that's part of the reason why I'd love to have you read these for me...
+
+### Witnesses: what each claim rests on
+
+2026-10-30 22:09 UTC, session "1968 series".
+
+> No, no, that's quite alright. I'm good on spy fiction for now.
+>
+> Back to your high-level overview and recommendations.
+>
+> You said something to the effect that our workflow didn't attempt to compile different accounts of the same event beyond the "check" runs. Am I getting that right?
+>
+> That is something I would like. What would you suggest?
+>
+> That's part of why I began asking for sentence-by-sentence, clause-by-clause citations. That's also what I hoped the "records" trace/map would ultimately give effect to, although I seem to have misspecified it in the instructions.
+>
+> The agents seem to drop threads that lead back to secondary sources or "documentary collections," at least if the Chen read is indicative.
+>
+> What I ultimately want from the "records" is a trace/map of *all* the *ultimate*, or *root*, materials that bear on a fact or event.
+>
+> That means that, first, the "records" trace/map is meant to include *all* materials that bear on a fact or event.
+>
+> That is, agents should should continue to find and register materials to the "records" trace/map even after a fact or event is "sufficiently" attested, even if the new material "merely" confirms the existing entry statements—that is, unless the new material is, in all its contents, strictly inferior to the existing as a matter of the "ultimate," or "root".
+>
+> "Ultimate" or "root" here means "from which no material is upstream." Something is not "ultimate" or "root" in respect of something if there is some material behind it—a record, a document, a work, a witness.
+>
+> (For our purposes, of course, "from which no material is upstream" really means "from which no *identifiable and recoverable* material is upstream."  If the upstream material is not both identifiable and recoverable, the trace/map ends with the downstream matter we have in hand, which, *for our purposes*, is material "from which no material is upstream.")
+>
+> For the ultimate I'm really groping for something like... the kinds of manuscript/editio trees you see in textual criticism, or source criticism? But with a recognition that here, in history, unlike philology, the ultimate "ultimate," the root "root," is the event, not the document?
+>
+> That is, we'll often have multiple items "from which no material is upstream."
+>
+> First, because a fact or event is something that may leave multiple immediate traces, each of which is matter "from which no material is upstream" except the unrecoverable fact or event itself.
+>
+> Second, because the immediate traces may be unidentified or unidentifiable, unecovered or unrecoverable, the actual body of identifiable and recoverable matter may include multiple items "from which no material is upstream" for any (express, implied, inferred, or notional) immediate trace.
+>
+> So. The current reader agents seem to be too restrictive in their definition of "record" (by which I really meant items including "ultimate"/"root" material), too inhibited in their enumeration of multiple ultimate/root items for a fact or event, and too unwilling to name the "upstream" source that could be followed further to the "ultimate"/"root."
+>
+> (it's kind of a "relativity of title" thing? "credit the matter that has a strictly superior claim to being upstream.")
+>
+> whew. sorry for the verbosity, and sorry for everything in there that's confused, imprecise, or misspecified. (again!) I'm neither a historian, a philologist, nor a lawyer, much less a philosopher of those professions, so I'm sure I'm groping for something that has a well-established form and nomenclature *somewhere*.
+>
+> What would you suggest? How would you specify what I'm groping towards here, for the project and for our agents?
+
+2026-10-30 22:15 UTC, session "1968 series".
+
+> Please do. Don't drop the first rule.
+
+2026-10-30 22:23 UTC, session "1968 series".
+
+> One exception: Where we have the record, and the record is sufficient and complete attestation of the fact or event for which it's cited—the canvass, the session law, the executive order, the reported decision, the indicator—the "witness" collapses to the record itself, and no "witness" tree need be compiled.
+>
+> Does that make sense? Is that well-specified? Suggest correction or amendment ad libitum.
+
+### Military matters; the reader's brief
+
+2026-10-30 22:26 UTC, session "1968 series".
+
+> Perfect.
+>
+> One other thing: The agents seem to think operational, logistical, and other military matters are below the level or outside the brief.
+>
+> What gave them that impression?
+
+2026-10-30 22:32 UTC, session "1968 series".
+
+> Please do.
+>
+> Should we clean up the readers' brief into a clean proof texts? I'm worried that it's getting messy with all these edits and sourced attributions.
+
+2026-10-30 22:37 UTC, session "1968 series".
+
+> Please draft it now. Exception to the rule.
