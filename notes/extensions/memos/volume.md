@@ -16,13 +16,13 @@ reader 32.2.
 
 ## 1. Nothing folded by default
 
-A table or map in the calendar is shown open. Folding is kept only for what the owner asked folded: the day's
-materials ("Documents", "Other records", Oct. 22, 2026). The forces tables under Armed Forces Day (`forces.py`,
-`afday.py`: each a `<details>`) are unfolded: a table a kind, its title and date as a caption, no summary to open.
-The other folds now in the build, for the owner to rule on one by one: the select, special and joint committees and the
-subcommittees (`committee_more.py`), the standing committees' tables (`committee_rosters.py`), the State tables of
-State finance (`statefin.py`), the PVI tables under the races (`pvi.py`). Page weight is not a reason to fold: §3
-answers it.
+A table or map in the calendar is shown open, from now on. The forces tables under Armed Forces Day (`forces.py`,
+`afday.py`: each a `<details>`) are unfolded: a table a kind, its title and date as a caption, no summary to open. The
+folds already in the build stay for now (the owner, Oct. 30, 2026: "Keep the other folds for now"): the day's
+materials ("Documents", "Other records", the owner's request of Oct. 22), the select, special and joint committees and
+the subcommittees (`committee_more.py`), the standing committees' tables (`committee_rosters.py`), the State tables of
+State finance (`statefin.py`), the PVI tables under the races (`pvi.py`). A new table is not folded; page weight is no
+reason to fold (§3 answers it).
 
 ## 2. Big threads: subthreads, and promotion
 
@@ -45,24 +45,27 @@ each with its own index of threads and its seams; the old pages (`cal.html`, `ca
 indexes of their years, so old links land (the router already sends an anchor to the page that holds it). A year at
 today's volume is 1–4 MB; a busy year that grows past some 8 MB splits again by half-year, by quarter, by month, by the
 same line. The FIRST CITE rule (a work in full at its first appearance in each part) follows the parts. The
-abbreviations: "Cal. 1961", not Cal. I.
+abbreviations: "Cal. 1961", not Cal. I. The contents (the owner, Oct. 30, 2026: "The 'list' should include link-throughs to the months,
+headings, and tables on the individual calendar pages"): the calendar's index page, and each year's page, carry the
+whole calendar's contents, the months grid and the "Tables and maps" list for every year, each month, heading and
+table linked through to its place on its year's page (`contents.py`; the router already sends an anchor to its page).
 
 ## 4. Thread statements written once
 
 Today a statement is written for each part a thread has entries in (`c`, `c2`, `c3`), and every new division means
-new statements. Instead:
+new statements. Instead (the owner, Oct. 30, 2026: the dates, ranges and tagged years "invisible to the human reader.
+They're just sorting and redrafting aids"; no "Stations:"):
 
-- **The scope, once.** `c` says what the thread is, without its stations: one or two clipped sentences, true of every
-  part.
-- **The stations from the events.** Each event has a short name, written once on the event (§5: the event record; until
-  then, the `short:` of its first entry). A part's statement is the scope and then the events whose dates fall in the
-  part, generated: "Stations: Bay of Pigs (Apr. 1961); Mongoose (Nov. 1961–Oct. 1962)". Any division of the calendar,
-  any page of a thread, gets its stations for nothing.
-- **What is not an event, by span.** A sentence that belongs to some years only is written once, tagged with its span,
-  in the syntax the indicators' master already uses (`{{1961..1962-06|...}}`; `tools/bib/concepts.py`, `parse`,
-  `ranges`), and shown on every page whose range it meets.
+- **The scope, once.** `c` says what the thread is: one or two clipped sentences, true of every part.
+- **The events, from the events.** Each event has a short name, written once on the event (§5: the event record; until
+  then, the `short:` of its first entry). A page's statement is the scope, then the names of the events that fall on
+  the page, in date order, as a clipped sentence of names ("Bay of Pigs; Mongoose."), each linked to the event's first
+  entry; no label, no dates shown. The dates that choose and order them are the events' own and stay hidden.
+- **What is not an event, by span.** A sentence that belongs to some years only is written once with a hidden span, in
+  the syntax the indicators' master already uses (`{{1961..1962-06|...}}`; `tools/bib/concepts.py`, `parse`,
+  `ranges`), and shown, without its span, on every page whose range it meets.
 - The conversion: each thread's `c` cut to its scope; `c2`, `c3` turned into span-tagged sentences or into events'
-  names; `check` warns on a statement that names a date outside its spans.
+  names; `check` warns on a span it cannot read and on a statement whose text names a year outside its spans.
 
 ## 5. Events as records
 

@@ -1765,7 +1765,7 @@ logic, abbr, title and span. A dated section goes to the part its first day fall
 
 ## The calendar's contents, and its tables and maps
 
-Nothing folded by default (the owner's rule, Oct. 30, 2026: "I'm not a fan of the collapsed military tables, for example. I want that reversed and not followed as a norm"): a table or map in the calendar is shown open; a fold only where the owner asked for one (the day's materials, Oct. 22); the forces tables' folds to be reversed and the other folds ruled on one by one (`notes/extensions/memos/volume.md`, §1). Two standing rules (the owner's rules, Oct. 21, 2026; `tools/bib/contents.py`, its STYLE notes):
+Nothing folded by default (the owner's rule, Oct. 30, 2026: "I'm not a fan of the collapsed military tables, for example. I want that reversed and not followed as a norm"): a table or map in the calendar is shown open; a fold only where the owner asked for one (the day's materials, Oct. 22); the forces tables' folds to be reversed; the other folds now in the build kept (the same day: "Keep the other folds for now") (`notes/extensions/memos/volume.md`, §1). Two standing rules (the owner's rules, Oct. 21, 2026; `tools/bib/contents.py`, its STYLE notes):
 
 - The contents at the head of each calendar page (and the Outline drawer, a copy of them): the Threads line, then the
   months in a grid, a year cell spanning the year's rows and six months a row (Jan–Jun, Jul–Dec), each month in its

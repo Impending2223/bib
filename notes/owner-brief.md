@@ -359,3 +359,13 @@ approved the ruling proposed in reply (CLAUDE.md, "Military matters"). Cuts mark
 > I'm also more of a fan of splitting the calendars than you've been in the past. That's the great thing about dates—they can be divided and subdivided as needed!
 >
 > The real problem then is the "rewriting the thread statements" burden. But that seems like something a more thoughtful approach to drafting and redrafting the tags and the thread statements would save you from. Is there no better, more elegant solution here?
+
+2026-10-30, session "1968 series".
+
+> Keep the other folds for now. I see we're missing PVI numbers for 1968 CDs?
+>
+> Drop the "Stations: " language and make the dates, date ranges, and tagged years in the thread statements invisible to the human reader. They're just sorting and redrafting aids.
+>
+> The "list" should include link-throughs to the months, headings, and tables on the individual calendar pages.
+>
+> What else is outstanding? Is there anything else I should see or know about in the reader brief memo?
