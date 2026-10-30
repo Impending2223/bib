@@ -213,3 +213,16 @@ view and search-only apart. Shown to the owner as the artifact "Source Access Ma
   the consulate's *Selections from China Mainland Magazines* (1960–61). Search only or microfilm: the *Survey of China
   Mainland Press* of the 1960s; the Party's compilations and the nianpu. Wilson Center (PRC Foreign Ministry documents,
   translated) and Academia Historica (Taiwan): open to the owner.
+- The Soviet Union and Eastern Europe (Oct. 30, the owner's question: "How would we follow Berlin, Cuba, the fall of
+  Khrushchev, the Soviet side of the Sino-Soviet conflict, Prague Spring ...?"). Open here: the National Security
+  Archive's Russia and Eastern Europe briefing books; the CIA mirror (about 12,000 documents on the USSR, 1960–69; 51
+  CAESAR studies; 128 on Czechoslovakia, 1968; 118 on Berlin, 1961–62); ЭБИД (docs.historyrussia.org), istmat.org,
+  the Presidential Library (prlib.ru); Pravda, 24 issues of 1960 (archive.org); 1000dokumente.de. Full view on
+  HathiTrust, bot-checked here: *Documents on Disarmament*, 1960–69 (every year), *Documents on Germany, 1944–1985*,
+  FBIS's USSR and East Europe supplement (42 vols., 1961–67), *World Strength of the Communist Party Organizations*
+  (12 vols.). Search only or in print: *Prezidium TsK KPSS 1954–1964* (Malin's notes), *Nikita Khrushchev, 1964*, the
+  Current Digest of the Soviet Press, Dokumente zur Deutschlandpolitik. Refused here, open to the owner: the Wilson
+  Center's Digital Archive, Rosarkhiv's portals, the OSA's catalog (Radio Free Europe's research), Budapest's Cold War
+  History Research Center, the Parallel History Project. Cards already exist, unread: Zubok, Taubman, Lüthi, Radchenko,
+  Harrison, Gaiduk (two), Kramer, Dawisha, Williams, Olsen, Kempe, Khrushchev's memoirs (English and Russian), Gromyko,
+  Mikoyan, Fursenko and Naftali's *Khrushchev's Cold War* (*One Hell of a Gamble* and Dobrynin are being read).
