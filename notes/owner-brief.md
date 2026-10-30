@@ -335,3 +335,17 @@ approved the ruling proposed in reply (CLAUDE.md, "Military matters"). Cuts mark
 > Oh, I meant the Iraqi Communist Party, but the PKI is the better choice.
 >
 > Why are we excluding the domestic politics of other countries? I'm not sure that rule makes sense.
+
+### The volume
+
+2026-10-30, session "1968 series" (on the proposal to drop the exclusion of other countries' domestic politics).
+
+> Please do.
+>
+> I want the volume!
+>
+> The purpose of what you're building—the tagging, the threading, the navigational aids, the discipline applied to the writing, sourcing, and organization—is to make the volume manageable.
+>
+> The structure is meant to be braced for, and should be robust to, *even greater* volumes.
+>
+> Does that make sense? Is that consistent with what we've done and what we're now doing?
