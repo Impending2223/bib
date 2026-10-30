@@ -171,3 +171,34 @@ branches and the State archives); about 35 foreign governments' acts with no Ame
 McNamara's Directive 5120.36 (1963; no copy found); the *Oil and Gas Journal*, 1962–69, CQ's *Weekly Report* and
 *Southern School News* (in copyright; libraries); the *Times* (TimesMachine, a subscriber's login); the JFK Library's
 Kennedy appointment books (not known whether digitized).
+
+## The access survey of Oct. 29–30, 2026
+
+The owner asked for the whole universe of useful sources, sorted by what can actually be reached. Each site was probed
+from the container (the page read, a challenge counted as a bot check); archive.org was searched by title and
+identifier and counted by year; HathiTrust's full holdings file (Oct. 1, 2026) was streamed and matched by title, full
+view and search-only apart. Shown to the owner as the artifact "Source Access Map"
+(https://claude.ai/artifact/4eU99zp15SdZuoUL9xiAa8). The chief findings:
+
+- Open here, never cited: the President's Daily Brief and the President's Intelligence Checklist, 1961–69 (the CIA
+  reading room, and its mirror on archive.org with text: 1,137 Checklist items, about 1,700 Briefs 1964–69); the
+  Central Intelligence Bulletin (3,822) and the Current Intelligence Weekly Summary (658, 1960s); some 5,500 CIA
+  documents on Vietnam and 2,200 on Cuba, 1960–69; the FOMC's historical minutes, Greenbooks and policy records, meeting
+  by meeting (federalreserve.gov); Peking Review, 1958–70 complete, and Vietnam Courier, 1967–70 (archive.org);
+  Văn kiện Đảng toàn tập (tulieuvankien.dangcongsan.vn); the Weekly Compilation of Presidential Documents from 1965
+  (archive.org); DTIC's reports of the 1960s on archive.org (40,467), RAND's Viet Cong Motivation and Morale reports
+  among them; Chronicling America's papers to 1963 (loc.gov JSON API); ADST's oral histories (adst.org, loc.gov).
+- Full view on HathiTrust, its pages bot-checked here (for the owner to download): the Senate Foreign Relations
+  Committee's executive sessions, vols. 2–18 (vols. 12–18 for 1960–66, Check); *American Foreign Policy: Current
+  Documents*, 1956–67 (so not "no open copy": mdp.39015010323460 for 1961, the others in the artifact); the *Bulletin*,
+  vol. 59 (July–Dec. 1968, mdp.39015077199605); FBIS Daily Report, 1959–60 and scattered to 1970; at least 1,866
+  hearings of 1959–70 titled Hearing(s); the Civil Rights Commission's hearings and reports; the Kerner Commission's
+  supplemental studies.
+- Refused here, open to the owner: discoverlbj.org and jfklibrary.org (Cloudflare; the LBJ Library's robots file names
+  ClaudeBot), the Wilson Center's Digital Archive (the proxy's 502), senate.gov's history pages ("security risk"),
+  rand.org, history.army.mil, usmcu.edu, afhra.af.mil, aad.archives.gov, data.imf.org (403), ICPSR, ANES, the FBI Vault,
+  TNA Discovery (challenges). The artifact gives the owner the steps and a list of 40 Daily Diary days.
+- Loan or subscription: the CQ Almanac (1966 and 1968 on loan) and Congress and the Nation (loan); Facts on File
+  (1959 and 1961 open; yearbooks on loan); Keesing's (vol. 14, 1963–64, on loan); the DDRS, DNSA, Readex (FBIS, JPRS),
+  ProQuest's newspapers and Congressional, the CQ Press Library: asked of the owner whether a library card reaches them.
+- Google Books' API was over its daily quota from here; its full-view holdings not counted.

@@ -136,7 +136,11 @@ under one note for one passage, each its row, the same letters. The unread recor
 comes from ("To check: Bundy to Johnson, Feb. 7, 1965, NSF, LBJ Library (cited by [[w.dallek-flawed-giant]], 251
 n.14)."). And what a reading passes over: every dated event the work treats and the run did not enter is listed in its
 `notes/book-checks/` file under "Passed over", page, date, event and why (out of the brief, undated, minor, already in
-under another id, a lead), for the owner to rule on. "Minor" as the parties-and-members rule above defines it.
+under another id, a lead), for the owner to rule on. "Minor" as the parties-and-members rule above defines it. The raw material (the owner, Oct. 30, 2026: later passes
+will code positions, warnings and beliefs, "so long as we're not losing the raw material for those passes to the
+cutting-room floor"; the readers code nothing): a position or an argument kept in the source's own words, briefly, with
+its page, in `n`; the time and the sequence the source gives (`time:`, `time_approx:`, `follows:`; "The calendar by
+day"); every figure the source gives, with its page.
 
 Calendar entries on the States and the cities take hidden `state:<postal code>` and `city:<slug>` tags (`state:ny`,
 `city:nyc`) and the threads in `notes/threads.md` ("The States and the cities").
