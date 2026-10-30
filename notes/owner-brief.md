@@ -321,3 +321,17 @@ approved the ruling proposed in reply (CLAUDE.md, "Military matters"). Cuts mark
 > I think we should add a catchall ", and other sovereigns" to the end, along with something that catches armed groups and unrecognized authorities that Washington and its counterparts were then, or later became, interested in as a foreign affairs matter (e.g., PLO, Hizbullah, FARC, Sendero Luminoso, Biafra, the Kurds, armed banditti, insurrectionist or rebel officers or organizations). What's a good catchall here?
 >
 > I'd like to be able to follow this period's equivalents of the Free Officers, discontented Spanish and Portuguese officers, the Ba'athists (hey, we have Ba'athists in our period!), AQAP, ISIL, the Muslim Brotherhood, the various CP affiliates in areas of interest (ICP, JCP, PCF, PCI), before they "hit the radar," if that makes sense. I'd like the calendar to follow the coup leaders before the coup, insurrectionists before the insurrection, rebels before the rebellion. How could we specify that?
+
+### The party in the White House
+
+2026-10-30, session "1968 series" (on R9 of the reader's brief's second draft).
+
+> Shouldn't this be revised to clarify that it covers the party *in* the White House?
+>
+> "Never "minor": the position-taking, messaging, organization, communication, policy formation and campaigning of either party out of the White House and of any member of Congress, leader or not:"
+>
+> "**in or** out of the White House"?
+>
+> Oh, I meant the Iraqi Communist Party, but the PKI is the better choice.
+>
+> Why are we excluding the domestic politics of other countries? I'm not sure that rule makes sense.

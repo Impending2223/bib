@@ -43,7 +43,7 @@ The parties and the members (the owner's rule, Oct. 29, 2026, on the readings' "
 position-taking, messaging, organization, communication, policy formation, campaigning, etc., in the opposition and
 among non-majority-leadership MCs 'minor'? Can we amend it?"; "I'm quite interested in what the Republicans were up to,
 and what they were saying, in these years"): within the brief, and never "minor", the position-taking, messaging,
-organization, communication, policy formation and campaigning of either party out of the White House and of any member
+organization, communication, policy formation and campaigning of either party in or out of the White House (the owner, Oct. 30, 2026: "**in or** out") and of any member
 of Congress, leader or not: a party's statements, papers, declarations and platforms; its committees' and leaderships'
 meetings and decisions; the founding and doings of its factions and allied groups (the Ripon Society, the Free Society
 Association, Young Americans for Freedom, the American Conservative Union, the Democratic Study Group); and the dated

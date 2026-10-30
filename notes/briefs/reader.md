@@ -62,14 +62,15 @@ commander's or consulate's cable, an intelligence memorandum or estimate: each a
 FRUS prints cited first where it prints one.
 
 **R9. The parties and the members.** Never "minor": the position-taking, messaging, organization, communication,
-policy formation and campaigning of either party out of the White House and of any member of Congress, leader or not:
+policy formation and campaigning of either party in or out of the White House and of any member of Congress, leader or not:
 a party's statements, papers, declarations and platforms; its committees' and leaderships' meetings and decisions; the
 founding and doings of its factions and allied groups (the Ripon Society, the Free Society Association, Young Americans
 for Freedom, the American Conservative Union, the Democratic Study Group); and the dated public word (a speech,
 statement, press conference, interview, article or column under the person's own name) of a member, a governor, a
 party officer or a party figure out of office (Eisenhower, Nixon, Goldwater, Rockefeller, Romney, Scranton, Percy,
 Reagan) on policy or politics. Threads: Republican Party, its subthread In Congress, Democratic Party, Conservative
-movement.
+movement; the President's party as he leads it (the national committee he runs, his campaign), the year's elections
+thread, also Democratic Party.
 
 **R10. The counterparts.** Every authority, movement or armed group that Washington or its counterparts dealt with,
 or later would, as a matter of foreign affairs, ally or adversary, recognized or not:
@@ -411,6 +412,7 @@ written by Claude or its agents, no ruling of the owner's.
 | R8, R18 | Oct. 29 (OB, "The papers of government") | "What are the minor papers in Gibbons?"; "Give us entries for every 'minor' entry you recommend, pass over everything you recommend we pass over, and add entries for the cables and intelligence memoranda." |
 | R9 | Oct. 28 (OB, "The parties and the members") | "What rule makes this kind of position-taking, messaging, organization, communication, policy formation, campaigning, etc., in the opposition and among non-majority-leadership MCs 'minor'? Can we amend it?"; "I'm quite interested in what the Republicans were up to, and what they were saying, in these years." |
 | R10 | Oct. 29, Oct. 30 (OB, "Out of the brief"; "The counterparts in their own languages") | "Do you know what 'out of the brief' means? I'm reading over Asselin and Chen and can't figure out whether we should be leaving out the 'out of the brief' material. I'm skeptical."; "you can read Czech and Polish... and all the other languages... that's part of the reason why I'd love to have you read these for me" |
+| R9 | Oct. 30 (OB, "The party in the White House") | "Shouldn't this be revised to clarify that it covers the party *in* the White House? ... '**in or** out of the White House'?" |
 | R10, R18 | Oct. 30 (OB, "The counterparts: other sovereigns, and before the radar") | "I think we should add a catchall ', and other sovereigns' to the end, along with something that catches armed groups and unrecognized authorities that Washington and its counterparts were then, or later became, interested in as a foreign affairs matter"; "I'd like the calendar to follow the coup leaders before the coup, insurrectionists before the insurrection, rebels before the rebellion." The `notice:` tag: house rule |
 | R11, R12 | Oct. 29 (OB, "Out of the brief") | "Give me the lobbies and foundations too. And Hoffa! (One of the agents dropped him as 'below the level (a defendant's interview)'.) There must be some way to keep in folks like Meany, Hillman, Lewis, Reuther ..." |
 | R13 | Oct. 29 (OB, "Out of the brief") | "I'd also like some cut that gets us the 'name' columnists but not the rest, but I'm not sure how to draw the line there." The cut (Part III's press sections; the work's notice): house rule, in CL |
