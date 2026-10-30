@@ -204,3 +204,12 @@ view and search-only apart. Shown to the owner as the artifact "Source Access Ma
   (1959 and 1961 open; yearbooks on loan); Keesing's (vol. 14, 1963–64, on loan); the DDRS, DNSA, Readex (FBIS, JPRS),
   ProQuest's newspapers and Congressional, the CQ Press Library: asked of the owner whether a library card reaches them.
 - Google Books' API was over its daily quota from here; its full-view holdings not counted.
+- China (searched Oct. 30 at the owner's question, "What about CPC materials?"): open here, marxists.org's Chinese
+  archive of Mao's conversation records, 1964–67 (Kosygin, Feb. 12, 1965; Hồ, June 10, 1966; the Vietnamese and NLF
+  delegations, Oct. 1967), and the People's Daily site's congress and plenum documents; the CIA mirror's 1,113 China
+  documents of the 1960s and 39 POLO and ESAU studies. Full view on HathiTrust, bot-checked here: JPRS's *Miscellany of
+  Mao Tse-tung Thought (1949–1968)* (mdp.39015016526157, mdp.39015016526314), *Translations on Communist China:
+  Political and Sociological* (19 vols.), *Communist China Digest* (42), translations from *People's Daily* (1961–62),
+  the consulate's *Selections from China Mainland Magazines* (1960–61). Search only or microfilm: the *Survey of China
+  Mainland Press* of the 1960s; the Party's compilations and the nianpu. Wilson Center (PRC Foreign Ministry documents,
+  translated) and Academia Historica (Taiwan): open to the owner.
