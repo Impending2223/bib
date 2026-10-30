@@ -71,11 +71,28 @@ party officer or a party figure out of office (Eisenhower, Nixon, Goldwater, Roc
 Reagan) on policy or politics. Threads: Republican Party, its subthread In Congress, Democratic Party, Conservative
 movement.
 
-**R10. The counterparts.** The governments, parties and commands Washington dealt with, ally or adversary (Hanoi,
-Peking, Moscow, the NLF, Saigon, Bonn, London, Havana): their decisions, meetings, papers, orders, envoys and public
-word on a matter a thread follows, each dated by its own record, with "Made public:" (R27) where the record was
-private (a Politburo resolution, a plenum, Mao with Hồ at Changsha). Read them in their own languages where the source
-is in one; the entry is in the calendar's English.
+**R10. The counterparts.** Every authority, movement or armed group that Washington or its counterparts dealt with,
+or later would, as a matter of foreign affairs, ally or adversary, recognized or not:
+- the sovereigns: Hanoi, Peking, Moscow, Saigon, Bonn, London, Havana, and every other;
+- the authorities without recognition: a secessionist state, a de facto regime, a government in exile (Biafra,
+  Katanga, Rhodesia);
+- the parties, movements, factions, officers' circles, insurgents, guerrillas, militias and bands, in power or out of
+  it, in arms or not (the NLF, the Ba'ath, Fatah and the PLO, the Muslim Brotherhood, the Kurds, the communist parties:
+  the PCI, the PCF, the JCP, the PKI).
+Their decisions, meetings, papers, orders, envoys and public word on a matter a thread follows, or later followed,
+each dated by its own record, with "Made public:" (R27) where the record was private (a Politburo resolution, a
+plenum, Mao with Hồ at Changsha). Read them in their own languages where the source is in one; the entry is in the
+calendar's English.
+
+*Before the radar.* Such a body, and its leaders, are followed from their beginnings, not from the day Washington took
+notice: the founding, the meetings, the plans, the recruiting, the contacts, the money and the arms, the splits and the
+purges; the officers before the coup, the leaders of an insurrection before the rising, the rebels before the
+rebellion, the party before its rule. The test is what the body became, then or later (a coup, a rising, a war, a
+government, a matter of foreign affairs at any date, after the span too), where the work being read dates the act and
+says what came of it: what came of it is the work's, never the reader's memory (R4). The first notice Washington took
+(the first cable, report or estimate naming the body, its leaders or its plot) is an entry of its own, tagged
+`notice:us`; a counterpart's first notice, where its record shows it, `notice:<the counterpart>` (`notice:uk`,
+`notice:ussr`).
 
 **R11. The organized interests.** The unions and their officers (Meany, Reuther, Hoffa, Carey, Dubinsky, Randolph,
 Chavez); the business, farm and professional bodies (the Chamber of Commerce, the NAM, the Business Council, the Farm
@@ -125,8 +142,8 @@ a thread to get around the merge's duplicate flag.
 
 **R18. What is not an entry.** Only:
 - *Out of the brief*: outside the span (before Jan. 6, 1960, or after Jan. 20, 1969, the primary seasons aside); or
-  matter no thread follows nor should (another country's domestic politics with no bearing on its dealings with
-  Washington, a change of its head of government excepted; a domestic campaign in China that does not touch the war).
+  matter no thread follows nor should (another country's domestic politics with no bearing, then or later, on its
+  dealings with Washington or its counterparts, a change of its head of government excepted; a domestic campaign in China that does not touch the war).
 - *Minor*: a repetition of a position already entered, with nothing new; private or social trivia (family and social
   matters with no bearing on public business or politics); a unit's routine the work does not treat as an event (a
   patrol without contact, a supply run).
@@ -394,6 +411,7 @@ written by Claude or its agents, no ruling of the owner's.
 | R8, R18 | Oct. 29 (OB, "The papers of government") | "What are the minor papers in Gibbons?"; "Give us entries for every 'minor' entry you recommend, pass over everything you recommend we pass over, and add entries for the cables and intelligence memoranda." |
 | R9 | Oct. 28 (OB, "The parties and the members") | "What rule makes this kind of position-taking, messaging, organization, communication, policy formation, campaigning, etc., in the opposition and among non-majority-leadership MCs 'minor'? Can we amend it?"; "I'm quite interested in what the Republicans were up to, and what they were saying, in these years." |
 | R10 | Oct. 29, Oct. 30 (OB, "Out of the brief"; "The counterparts in their own languages") | "Do you know what 'out of the brief' means? I'm reading over Asselin and Chen and can't figure out whether we should be leaving out the 'out of the brief' material. I'm skeptical."; "you can read Czech and Polish... and all the other languages... that's part of the reason why I'd love to have you read these for me" |
+| R10, R18 | Oct. 30 (OB, "The counterparts: other sovereigns, and before the radar") | "I think we should add a catchall ', and other sovereigns' to the end, along with something that catches armed groups and unrecognized authorities that Washington and its counterparts were then, or later became, interested in as a foreign affairs matter"; "I'd like the calendar to follow the coup leaders before the coup, insurrectionists before the insurrection, rebels before the rebellion." The `notice:` tag: house rule |
 | R11, R12 | Oct. 29 (OB, "Out of the brief") | "Give me the lobbies and foundations too. And Hoffa! (One of the agents dropped him as 'below the level (a defendant's interview)'.) There must be some way to keep in folks like Meany, Hillman, Lewis, Reuther ..." |
 | R13 | Oct. 29 (OB, "Out of the brief") | "I'd also like some cut that gets us the 'name' columnists but not the rest, but I'm not sure how to draw the line there." The cut (Part III's press sections; the work's notice): house rule, in CL |
 | R14, R18, R48 | Oct. 30 (OB, "Military matters") | "The agents seem to think operational, logistical, and other military matters are below the level or outside the brief."; "Please do." (approving the ruling in CL, "Military matters") |
