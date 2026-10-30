@@ -349,3 +349,13 @@ approved the ruling proposed in reply (CLAUDE.md, "Military matters"). Cuts mark
 > The structure is meant to be braced for, and should be robust to, *even greater* volumes.
 >
 > Does that make sense? Is that consistent with what we've done and what we're now doing?
+
+2026-10-30, session "1968 series" (on the proposals for volume: notes/extensions/memos/volume.md).
+
+> I'm with you on everything but 6, which seems to be more a fearful anticipation of a future that might not come to pass than a reasoned forecast. I'm at "I'll believe it when I see it" there.
+>
+> Especially if we can settle 2, which seems more an invitation to create subthreads, promote subthreads to threads, and exclude entries exclusive to a subthread, than to simply collapse threads. (I'm not a fan of the collapsed military tables, for example. I want that reversed and not followed as a norm.)
+>
+> I'm also more of a fan of splitting the calendars than you've been in the past. That's the great thing about dates—they can be divided and subdivided as needed!
+>
+> The real problem then is the "rewriting the thread statements" burden. But that seems like something a more thoughtful approach to drafting and redrafting the tags and the thread statements would save you from. Is there no better, more elegant solution here?
