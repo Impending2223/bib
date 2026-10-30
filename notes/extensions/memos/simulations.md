@@ -209,8 +209,15 @@ beside them), never a second record; each from the literature that has measured 
   Explanations for War*, 49 Int'l Org. 379 (1995), and *Domestic Political Audiences and the Escalation of
   International Disputes*, 88 Am. Pol. Sci. Rev. 577 (1994); Bruce Bueno de Mesquita et al., *The Logic of Political
   Survival* (2003).
-- **What it asks of the readings.** Every meeting, call, position and estimate, dated and by page: the rulings of
-  Oct. 28 and 29 already ask it. A reading's "Passed over" list is this layer's loss.
+- **What it asks of the readings, and what it does not.** Every meeting, call, position and estimate, dated and by
+  page, the source's words for a position kept: the rulings of Oct. 28 and 29 already ask it. A reading's "Passed
+  over" list is this layer's loss. The coding is not the readers' (the owner, Oct. 30, 2026: "I'm not confident that
+  *I* grasp the appropriate way to state or operationalize these concepts, much less assign it to agents to code on
+  the fly. ... this would be better done in later passes, at least so long as we're not losing the raw material for
+  those passes to the cutting-room floor").
+- **Recommended.** The positions ledger and the warning record as later passes, each over the entries the readings
+  have made, with the concept stated first from the literature (what a position is, what counts as warning), tried on
+  one decision (July 1965) and one surprise (Tet), and put to the owner before it runs wider.
 
 ## 6. How a simulation is built and shown
 
@@ -239,8 +246,8 @@ playthroughs), every branch marked fiction from its point of departure. Nothing 
 2. §3, the pivots, backtested on `congress/bills.yaml` and the roll calls.
 3. §4, the period's own models; then today's estimates.
 4. §5, the crossover calculator and the guerrilla Lanchester model on the war table's figures; the home front against
-   Gallup. §5c's layers begun alongside, from the first: the positions ledger and the warning record grow with the
-   readings, and cost little once the tags exist.
+   Gallup. §5c's layers as later passes over the readings' entries (above, "Recommended"), the readings meanwhile
+   keeping the raw material.
 5. §5b, the June war on Dupuy's engagements; then the Central Front and no first use, with the posture statements.
 6. §6's hook, for whatever has passed its backtest.
 7. §4's open economy, when its data is built; §7, the game.
