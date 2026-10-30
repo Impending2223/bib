@@ -188,10 +188,12 @@ view and search-only apart. Shown to the owner as the artifact "Source Access Ma
   Văn kiện Đảng toàn tập (tulieuvankien.dangcongsan.vn); the Weekly Compilation of Presidential Documents from 1965
   (archive.org); DTIC's reports of the 1960s on archive.org (40,467), RAND's Viet Cong Motivation and Morale reports
   among them; Chronicling America's papers to 1963 (loc.gov JSON API); ADST's oral histories (adst.org, loc.gov).
-- Full view on HathiTrust, its pages bot-checked here (for the owner to download): the Senate Foreign Relations
-  Committee's executive sessions, vols. 2–18 (vols. 12–18 for 1960–66, Check); *American Foreign Policy: Current
-  Documents*, 1956–67 (so not "no open copy": mdp.39015010323460 for 1961, the others in the artifact); the *Bulletin*,
-  vol. 59 (July–Dec. 1968, mdp.39015077199605); FBIS Daily Report, 1959–60 and scattered to 1970; at least 1,866
+- Already supplied by the owner (the batch-3 Drive folder, Oct. 28, from this list of Oct. 23; the survey's first
+  version missed it, its second marks it "In hand"): the Senate Foreign Relations Committee's executive sessions, vols.
+  15–18; *Current Documents* 1962, 1963, 1964, 1966, 1967; the *Bulletin*, vol. 59; the hearings the leads named; the
+  posture statements; WMEAT; the MACV Command Histories; the FBI's Liuzzo and King files; *Nomination and Election*
+  (1968); *Rights in Conflict*. Still full view on HathiTrust, not yet supplied: the executive sessions, vols. 12–14
+  (1960–62); *Current Documents* 1959–61 and 1965; FBIS Daily Report, 1959–60 and scattered to 1970; at least 1,866
   hearings of 1959–70 titled Hearing(s); the Civil Rights Commission's hearings and reports; the Kerner Commission's
   supplemental studies.
 - Refused here, open to the owner: discoverlbj.org and jfklibrary.org (Cloudflare; the LBJ Library's robots file names
