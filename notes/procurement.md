@@ -119,7 +119,11 @@ For 1968, no chart in No. 9 (Mar. 1, 1968: New York's redistricting at 421 repor
 Elections of 1968 report (No. 30, July 26, 1968, 1856-1937), both read by OCR Oct. 31; But Missouri's redistricting item
 (No. 30, pt. 2, July 26, 1968, 2001-2004, in its primary outlook) tables the 1966 House vote "within the areas of the
 new districts", Democratic and Republican shares, all ten (p. 2002; the 4th and 5th "Estimated"): in hand Oct. 31. New
-York's may be in its primary outlook before June 18 (about No. 23-24, June 7-14, 1968). Still to look at: the Congressional Staff Directory's *Election
+York's: the July 26 roundup (p. 1873 ff.) points only to the results, p. 1544 (No. 25, June 21, 1968), where other
+States get an outlook page too (Maine: 1380, 1547), so CQ may have printed no New York outlook. Louisiana (the 91st's
+new lines; only the 2d and 6th contested in 1968): its primary outlook, p. 2073 (the index, under Caffery), about No.
+31, Aug. 2, 1968. Michigan's 16th is no redistricting case: its lines held, and our 1966 file prints Dingell's opponent,
+John T. Dempsey, as a Democrat (Wikipedia: Republican, 37.3 percent): to put right from the Clerk's page. Still to look at: the Congressional Staff Directory's *Election
 Index to Redistricted States* (1968), and CQ's Eastern (No. 40, Oct. 4, 1968, 2582-2611) and Midwestern (No. 43, Oct.
 25, 2890-2923) roundups, whose State charts may give the 1966 vote by new district. CQ's official 1964 vote by
 district: "a March 1965 Special Report" (22 CQ Weekly Rep. 2701). Also in hand, not yet read: the 1962 supplements of
