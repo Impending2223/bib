@@ -116,8 +116,10 @@ Rep. 2701-2706 (No. 46, Nov. 13, 1964: 1954-64, the 1962 vote on the 89th's line
 index at 2702-2703). And 24 CQ Weekly Rep. 1563-1568 (No. 29, July 22, 1966: 1954-64, the 1964 vote on the 90th's lines,
 in part: New Jersey "not yet computed", others "Not available" with a rating; not 1522, as the index's OCR read it).
 For 1968, no chart in No. 9 (Mar. 1, 1968: New York's redistricting at 421 reports the plan, not the vote) or in the
-Elections of 1968 report (No. 30, July 26, 1968, 1856-1937), both read by OCR Oct. 31; CQ's State redistricting items
-report the plan, so Missouri's (2004) is no better. Still to look at: the Congressional Staff Directory's *Election
+Elections of 1968 report (No. 30, July 26, 1968, 1856-1937), both read by OCR Oct. 31; But Missouri's redistricting item
+(No. 30, pt. 2, July 26, 1968, 2001-2004, in its primary outlook) tables the 1966 House vote "within the areas of the
+new districts", Democratic and Republican shares, all ten (p. 2002; the 4th and 5th "Estimated"): in hand Oct. 31. New
+York's may be in its primary outlook before June 18 (about No. 23-24, June 7-14, 1968). Still to look at: the Congressional Staff Directory's *Election
 Index to Redistricted States* (1968), and CQ's Eastern (No. 40, Oct. 4, 1968, 2582-2611) and Midwestern (No. 43, Oct.
 25, 2890-2923) roundups, whose State charts may give the 1966 vote by new district. CQ's official 1964 vote by
 district: "a March 1965 Special Report" (22 CQ Weekly Rep. 2701). Also in hand, not yet read: the 1962 supplements of
