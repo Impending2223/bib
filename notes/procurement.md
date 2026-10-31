@@ -102,9 +102,25 @@ action, state by state", the new districts' characteristics and 1966 incumbents 
 "Congressional redistricting effect on 1966 elections" p. 815, the July outlook 1489-1492 (the fall outlook after
 September: the Jan.-Sept. index only is open); vol. 26 (1968), "Redistricting outlook" 1216, N.Y. redistricting 421,
 N.J. 23, Okla. 22, the State roundups: Eastern 2582-2611, Southern 2690-2723, Western 2783-2810, Midwestern 2890-2923
-(and the Elections of 1968 special report, July 26, 1856-1937); vol. 20 (1962): its index is not on archive.org, so the
-1962 outlooks' pages are to find (a library's bound volume, or CQ's archive). Bound volumes: HathiTrust search only;
-CQ Press Library by subscription.
+(and the Elections of 1968 special report, July 26, 1856-1937); vol. 20 (1962): its index is on archive.org after all
+(`sim_cq-weekly_january-december-1962_20_index`). Bound volumes: HathiTrust search only; CQ Press Library by subscription.
+
+**The tables to read first** (the indexes read again, Oct. 31, 2026; the owner's copies of vol. 22, Nos. 41-43, read for
+their running feet). The weekly is out each Friday, No. 1 the first Friday of January, so an issue is dated from its
+page by the running foot ("Week ending Oct. 23, 1964 -- PAGE 2544"); dates not read off a foot below are estimates, a
+week either way. Vol. 22 (1964): "House of Reps. winning vote percentages 1954-1964", pp. [27]01-2706 (the index's
+first digits lost), the table the corrections at 2702-2703 amend: the WINNER's percentage, so the "1962 redistricted"
+column is the 1962 vote's leading party on the new lines, as a share of all the votes (not the two-party share); in No.
+45 (Nov. 6, 1964; Elections 1964 opens at 2627) or No. 46 (Nov. 13; the new Members' biographies open at 2714). Read
+off the feet: No. 41 (Oct. 9) holds 2347-2349; No. 42 (Oct. 16) 2419-2421; No. 43 (Oct. 23) 2485-2574 at least (the
+National Election Outlook, 2517). Vol. 24 (1966): "Elections winners percentages since 1956, state by state", p. 1522,
+the last page of the July outlook (1489-1522; about No. 28-29, July 15-22, 1966); whether it recomputes 1964 for the
+States redrawn in 1965-66 (Ohio, N.J., Ind., Mo., N.C.) is the Check. Vol. 20 (1962): "Vote percentages, 1962", p.
+2170 (after the results of 2126-2154: about No. 46, Nov. 16, 1962), and "Vote percentages, 1952-60", a run of pages
+(724, 729, 2034 and others; the State names lost in the OCR), perhaps the redrawn States' new districts on the old
+votes: the Check. Vol. 26 (1968): N.Y. redistricting 421 (about No. 8, Feb. 23, 1968), Missouri's 2004 (about No.
+31-32, Aug. 2-9; the index gives it under Clay of Missouri). Vol. 25 (1967): the official returns of 1966, 746-772
+(about No. 14, Apr. 7, 1967): the 1966 votes by district, likely without a recomputed column.
 
 **Below the county** (the big cities, where most of the missing lags are): no State compilation opened prints the
 House below the county but Massachusetts (Public Document 43, by town and ward group, open on archive.org) and
