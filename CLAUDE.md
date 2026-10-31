@@ -1305,7 +1305,7 @@ tools/bib/elections.py              renders the blocks and checks the data (STYL
   *Congressional District Data Books*, read by page into `elections/readings/districts/` (1952-60 on the 87th, 88th
   and 89th Congresses' lines; 1968 on the 93d's), each district row held to its State column and each State column set
   against these returns (`vs_clerk`); `python3 -I tools/elections/make_pvi.py` (its STYLE; `check` [pvi],
-  `tools/bib/pvi.py`). District PVIs: 1960 419, 1962 321, 1964 302, 1966 222, 1968 114, 1970 386, 1972 15, 1974 418
+  `tools/bib/pvi.py`). District PVIs: 1960 419, 1962 321, 1964 302, 1966 228, 1968 114, 1970 386, 1972 15, 1974 418
   (the 1966 Supplements, the 90th's lines, and CDD-92, the 92d's, the owner's copies, read Oct. 31, 2026, gave 1964 and
   1968 by district; Jacobson's file, where no Census volume gives a district, 1964 for 50 districts of 1966 and 2 of
   1972 for 316 of 1974, each row's basis naming it; CDD-94, the 94th's three reports (Texas, California, New York; the

@@ -2,7 +2,7 @@
 # twenty-four States that redistricted after the 89th Congress's opening: U.S. Bureau of the Census, *Supplement to
 # Congressional District Data Book: Redistricted States*, CDDB Supp. Nos. 8-15 and 17-32 (June 1966-Aug. 1967),
 # "Districts of the 90th Congress" (the States and dates: districts-house/cdh-1966s.yaml, whose header gives the copy,
-# the note and the method); No. 16 is not in this copy. Table "Vote Cast and Population", items 1a-4a (1964: total,
+# the note and the method); No. 16 (Tennessee) is not in this copy and was read apart (the State's `note`). Table "Vote Cast and Population", items 1a-4a (1964: total,
 # Democratic, Republican, "Percent vote for majority party") and 1-7 (1960, the same; 1956, no percent), which "are
 # replacements for items 8 to 10 and 26 to 28, 'Total vote cast, 1952,'" of the 1963 Data Book (each page's head). The
 # source for 1964 (each Supp., p. 1): the Governmental Affairs Institute, *America at the Polls* (1965; copyright); for
@@ -388,3 +388,19 @@ states:
     eye: [2 1956 D, 2 1956 R, 3 1956 D, 3 1956 R, 5 1956 D, 6 1956 D, 7 1960 R, 7 1956 t, 7 1956 D]
     footnotes: 'PDF p. 317: 1 Includes unpledged Independent electors. 2 Includes States Rights electors not formally committed to any particular presidential candidate. [No mark is legible on a cell.]'
     illegible: 'The 8th district''s column lies in the binding of this copy. 1964: not legible, entered na (the 1st and 2d are (NA), so the State column cannot give it). 1960 and 1956: the State column less the 1st to 7th (all printed), 90,488, 45,232, 27,785 and 68,235, 28,621, 34,662, agreeing with the first digits that show; the 1960 percent not legible (null).'
+  TN:
+    pages: {69: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}
+    d:
+      0: {1964: [1144046, 635047, 508965, 55.5], 1960: [1051792, 481453, 556577, 52.9], 1956: [939404, 456507, 462288]}
+      1: {1964: [143623, 62416, 81207, 56.5], 1960: [149214, 42213, 105879, 71.0], 1956: [132637, 38453, 92962]}
+      2: {1964: [151761, 75116, 76635, 50.5], 1960: [149765, 56683, 92107, 61.5], 1956: [139741, 51569, 86185]}
+      3: {1964: [143638, 71701, 71926, 50.1], 1960: [132801, 55159, 75894, 57.1], 1956: [123415, 52834, 67786]}
+      4: {1964: [126104, 85014, 41086, 67.4], 1960: [115305, 63876, 50304, 55.4], 1956: [108588, 66359, 41262]}
+      5: {1964: [124722, 79387, 45335, 63.7], 1960: [112597, 59649, 52077, 53.0], 1956: [94874, 56822, 37077]}
+      6: {1964: [104777, 73236, 31538, 69.9], 1960: [94613, 58649, 35096, 62.0], 1956: [88813, 60224, 27826]}
+      7: {1964: [na, na, na, na], 1960: [na, na, na, na], 1956: [na, na, na]}
+      8: {1964: [na, na, na, na], 1960: [na, na, na, na], 1956: [na, na, na]}
+      9: {1964: [na, na, na, na], 1960: [na, na, na, na], 1956: [na, na, na]}
+    eye: all
+    note: 'Supp. No. 16 (June 1966), read off the owner''s PDFs of single pages of the Pennsylvania State University''s copy (HathiTrust pst.000051825683, Nos. 11-19), page 69 (the volume''s seq.); printed p. 5.'
+    footnotes: 'NA Not available. - Represents zero.'

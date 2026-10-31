@@ -58,9 +58,9 @@ hand after: the four Republican Congressional Committee records (LoC 84114475, 6
 
 **Done Oct. 31, 2026:** CDD-94 (Texas, California, New York), procured by the owner and read the same day
 (`elections/readings/districts/cdd-1974.yaml`, `districts-house/cdh-1974.yaml`): 82 of the 1974 row's 109 lags filled,
-the 1974 PVI from 316 districts to 418. Supplement No. 16 (Tennessee): the owner sent PDF pp. 66, 68, 72, 73 of
-pst.000051825683 (the map, the Memphis inset, housing, nonwhite population); the table "Vote Cast and Population" is
-on another page (67, 69, 70 or 71: Check).
+the 1974 PVI from 316 districts to 418. Supplement No. 16 (Tennessee, June 1966): the owner's eleven single pages of
+pst.000051825683 (seq. 65-75); "Vote Cast and Population" on seq. 69 (printed p. 5), read the same day: President
+1964, 1960, 1956 for the 1st-6th (the 7th-9th "(NA)"), the House 1954-64 for the 5th alone; the 1966 PVI 222 to 228.
 
 **What would fill the table, row by row** (contents not seen unless said; each a Check):
 
