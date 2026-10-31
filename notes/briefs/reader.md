@@ -135,8 +135,9 @@ announcement and the act it announces, hearings and the vote, a note and its rep
 bibliography, the rest point back. Spans of two or three days are good, under a week tolerable, anything longer
 suspect. A meeting, document or address whose matter falls in several threads is one entry, filed under its chief
 thread (`thread:`), listed in the others (`also:`). Before adding an entry, compare it with every entry on its day in
-every thread (`./bib find -l cal --since D --until D`) and with the pending patches' adds (`grep -l "date: 'D'"
-inbox/*.yaml`, then read them): where one records the event, edit it; where a pending patch adds it, R49. File each
+every thread, in the tree and in the ledger of new entries (`./bib ledger find D [--until D]`): where one records the
+event, add to it (R51's additive ops; a pending entry's id takes them too, R49); else claim the new entry in the ledger
+(`./bib ledger add D THREAD ID "a few words" PATCH`) before you write it. File each
 new entry under the thread its matter belongs to, even where that thread has an entry that day; never change an id or
 a thread to get around the merge's duplicate flag.
 
@@ -347,9 +348,9 @@ is not passed over: it takes its cite (R29) and its witnesses (R43). The owner r
 **R48. No blanket exclusions.** Never a row or sentence passing over a class of event ("minor throughout", "not listed
 event by event"); `check` warns on one [passed-over].
 
-**R49. Pending patches.** An event another pending patch adds goes under "For entries in pending patches" in your
-book-check file (`entry id | card, page (parenthetical) | units`), not into your patch; within your own group of
-sources, a later source's patch builds on an earlier's the same way. The merger adds them.
+**R49. Pending entries.** An event another reader has claimed in the ledger (`./bib ledger find`) is not added again:
+cite it, check it, name in it, by additive ops on its id (R51), which the merge applies once that entry lands. Within
+your own group of sources, a later source's patch adds to an earlier's entries the same way.
 
 **R50. Leads.** What you recall and could not place or verify (an event without a date, a figure without a source
 read, a source not reached, a host refused, a columnist to propose): at the end of your book-check file under
@@ -359,9 +360,13 @@ entry it concerns and where to look. The merger copies them into `notes/leads.md
 ## G. The mechanics
 
 **R51. By patch.** All calendar changes (and `th.yaml`'s) in one patch a source, `inbox/<date>-<name>.yaml` (CLAUDE.md,
-"Changing things"): every `edit` and `delete` with a `base` read by `./bib show` just before you write it; keep every
-cite, sentence and map row other runs wrote. `./bib merge <patch> --dry-run` clean. Never edit `lists/cal/*.yaml`,
-never merge, never run git.
+"Changing things"). What adds to an entry is an additive op, with no `base` (`tools/bib/addops.py`): `cite` (a work
+read, its pinpoint, its units: `{id, item: '[[w.card]], 123 (the vote)', units: 'A, C'}`), `primary` (the record,
+linked, first), `to-check`, `check`, `src`, `names` (the Names line and the `name:` tags), `also`. What changes an
+entry (its `c`, date, thread; a cite taken out) is an `edit` with the `base` read by `./bib show` just before you
+write it, keeping every cite, sentence and map row other runs wrote. A new entry is an `add`, claimed in the ledger
+first (R17). Before you finish: `./bib patch-check <patch>`, 0 errors. Never edit `lists/cal/*.yaml`, never merge,
+never run git.
 
 **R52. Finish clean.** `./bib check`: 0 errors from your work (report others' errors without fixing them); `./bib
 audit-cal` for calendar entries.
@@ -440,4 +445,5 @@ written by Claude or its agents, no ruling of the owner's.
 | R42 | Oct. 30 (OB, "Witnesses") | "Where we have the record, and the record is sufficient and complete attestation of the fact or event for which it's cited ... the 'witness' collapses to the record itself" |
 | R44, R49 | Oct. 28 (OB, "Records cited ..."); house rule | "What are we leaving on the cutting-room floor? What were the agents leaving there?" |
 | R50 | Oct. 18 (CL, "Leads") | the owner's standing rule as CL states it; the book-check file and the merger: house rule |
+| R17, R49, R51 | Oct. 30 (OB, "The brief approved") | "Is there a performant, compute-economizing solution here? Can you implement it and follow it?" The ops, the ledger and the checks: house rules (notes/extensions/memos/volume.md, §6) |
 | R51–R58 | house rules (CL, "Changing things", "Do not"; the batch briefs; the sites' own terms) | |

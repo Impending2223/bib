@@ -115,7 +115,12 @@ The fix: most of what a reader does to an existing entry adds something, and add
    build on its earlier, R49); readers whose works share little run at once. The width of a batch is set so that the
    expected overlap stays low, not to a fixed number of agents.
 
-The 32 patches now waiting are in the old form: merged first, by the audit as it is (queue item 2), before the readers
+Built Oct. 31, 2026 (the owner: "Build it now"): `tools/bib/addops.py` (the ops, the deferred file, the clean joins),
+`tools/bib/ledger.py`, `tools/bib/patchcheck.py`, `tools/bib/planreaders.py`, `./bib merge --auto [--legacy]`; tested on
+two patches citing one entry in both orders (the same note and map, but for the order of items in a run and of rows),
+a cite to a ledger-claimed entry merged before the entry (deferred, then applied), and patch-check's refusals. The
+plan's bar is high (ten shared entries and three in ten of the smaller's): with the ops and the ledger, overlap costs
+little. The 32 patches now waiting are in the old form: merged first, by the audit as it is (queue item 2), before the readers
 resume under this. The reader's brief's R49 and R51 take the new ops and the ledger once built.
 
 ## 7. Finding things on the site

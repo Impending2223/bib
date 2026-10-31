@@ -491,6 +491,21 @@ Always give `edit` and `delete` a `base`. With it, the merge is three-way:
 fields only you changed apply, fields only others changed stay, and a field
 both changed becomes a conflict. Without it, your values simply overwrite.
 
+Additive ops (the owner's request, Oct. 30, 2026: "a performant, compute-economizing solution" for parallel readers;
+`notes/extensions/memos/volume.md`, §6; `tools/bib/addops.py`, its STYLE): what only adds to an entry needs no
+`base` and merges in either order: `cite: {id, item: '[[w.card]], 123 (the vote)', units: 'A, C'}` (the work out of
+"To check:" into the run of works read, its claim-map row), `primary: {id, text, units}`, `to-check: {id, add}`,
+`check: {id, text}`, `src: {id, rows}`, `names: {id, add, tags}`, `also: {id, add}`. Within a patch the adds go first.
+A new entry is claimed first in the ledger, `inbox/new-entries.tsv` (`./bib ledger add DATE THREAD ID "words" PATCH`;
+`./bib ledger find DATE [--until DATE] [--thread T]` the day's entries, tree and ledger; `tools/bib/ledger.py`), and
+an additive op on a claimed id not yet in the tree waits in `inbox/deferred.yaml` until it lands. `./bib patch-check
+PATCH` holds a patch to the rules before it is handed in (`tools/bib/patchcheck.py`); `./bib merge --auto PATCH...`
+is the rolling merge: patch-check (`--legacy` for a patch written before the ledger), apply, the deferred ops, the
+conflicts on `n` that `notemerge` joins with no problem and those on `src` over the same `c` joined (both sides kept),
+the ledger pruned, the patch archived; it stops at a patch with errors and prints the conflicts left and a sample, one
+changed entry in ten, to read. `./bib plan-readers CARD...` groups works by the entries they already share, a group a
+reader (`tools/bib/planreaders.py`).
+
 **Git**: run `./bib setup` once per clone. Section files then merge entry by
 entry (`.gitattributes`): both sides' new entries are kept in order, and a field
 changed on both sides becomes a conflict record instead of `<<<<<<<` markers.

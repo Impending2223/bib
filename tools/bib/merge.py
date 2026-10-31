@@ -220,7 +220,10 @@ class Report:
 
 def apply_patch(series, patch, source, report, dry=False):
     touched = set()
-    for op in patch.get("ops") or []:
+    ops = patch.get("ops") or []
+    ops = [o for o in ops if "add" in o] + [o for o in ops if "add" not in o]   # adds first (tools/bib/addops.py)
+    _addops.DRY = dry
+    for op in ops:
         (kind, body), = op.items()
         fn = OPS.get(kind)
         if not fn:
@@ -408,6 +411,9 @@ def op_combine(series, body, source, report, touched):
 
 
 OPS = {"add": op_add, "edit": op_edit, "tag": op_tag, "move": op_move, "delete": op_delete, "combine": op_combine}
+# the additive ops: no base, applied to the entry as it stands (tools/bib/addops.py)
+from . import addops as _addops  # noqa: E402
+OPS.update({k: _addops.make_op(k) for k in _addops.FNS})
 
 
 # ---------------------------------------------------------------- combining duplicates
