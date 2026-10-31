@@ -105,22 +105,19 @@ N.J. 23, Okla. 22, the State roundups: Eastern 2582-2611, Southern 2690-2723, We
 (and the Elections of 1968 special report, July 26, 1856-1937); vol. 20 (1962): its index is on archive.org after all
 (`sim_cq-weekly_january-december-1962_20_index`). Bound volumes: HathiTrust search only; CQ Press Library by subscription.
 
-**The tables to read first** (the indexes read again, Oct. 31, 2026; the owner's copies of vol. 22, Nos. 41-43, read for
-their running feet). The weekly is out each Friday, No. 1 the first Friday of January, so an issue is dated from its
-page by the running foot ("Week ending Oct. 23, 1964 -- PAGE 2544"); dates not read off a foot below are estimates, a
-week either way. Vol. 22 (1964): "House of Reps. winning vote percentages 1954-1964", pp. [27]01-2706 (the index's
-first digits lost), the table the corrections at 2702-2703 amend: the WINNER's percentage, so the "1962 redistricted"
-column is the 1962 vote's leading party on the new lines, as a share of all the votes (not the two-party share); in No.
-45 (Nov. 6, 1964; Elections 1964 opens at 2627) or No. 46 (Nov. 13; the new Members' biographies open at 2714). Read
-off the feet: No. 41 (Oct. 9) holds 2347-2349; No. 42 (Oct. 16) 2419-2421; No. 43 (Oct. 23) 2485-2574 at least (the
-National Election Outlook, 2517). Vol. 24 (1966): "Elections winners percentages since 1956, state by state", p. 1522,
-the last page of the July outlook (1489-1522; about No. 28-29, July 15-22, 1966); whether it recomputes 1964 for the
-States redrawn in 1965-66 (Ohio, N.J., Ind., Mo., N.C.) is the Check. Vol. 20 (1962): "Vote percentages, 1962", p.
-2170 (after the results of 2126-2154: about No. 46, Nov. 16, 1962), and "Vote percentages, 1952-60", a run of pages
-(724, 729, 2034 and others; the State names lost in the OCR), perhaps the redrawn States' new districts on the old
-votes: the Check. Vol. 26 (1968): N.Y. redistricting 421 (about No. 8, Feb. 23, 1968), Missouri's 2004 (about No.
-31-32, Aug. 2-9; the index gives it under Clay of Missouri). Vol. 25 (1967): the official returns of 1966, 746-772
-(about No. 14, Apr. 7, 1967): the 1966 votes by district, likely without a recomputed column.
+**The tables to read first** (settled Oct. 31, 2026, off the owner's copies). CQ's chart "Winning Representatives'
+Vote Percentages", a row a district: the winner's share of the total vote at each election, and Eisenhower's and
+Kennedy's; where a State redrew, CQ "calculated the Congressional vote ... cast within the counties or wards which make
+up each newly created district" and gives "the majority party percentage thus calculated", marked; "Safe Democratic"
+and the like where it had no figures; Democrats' percentages in bold, Republicans' in light type (the party is read by
+eye, not by OCR). Percentages only, no votes. In hand: 20 CQ Weekly Rep. 724-729 (Supp., May 4, 1962: "Past Election
+Figures Set Stage for 1962 House Races", 1952-60, the 1960 vote on the 88th's lines: the 1962 lags) and 22 CQ Weekly
+Rep. 2701-2706 (No. 46, Nov. 13, 1964: 1954-64, the 1962 vote on the 89th's lines: the 1964 lags; corrected in the
+index at 2702-2703). Still to fetch: the 1966 chart, 24 CQ Weekly Rep. 1522 (the July outlook, 1489-1522, about No.
+28-29, July 15-22, 1966; whether it recomputes 1964 is the Check); for 1968, N.Y. 421 (about No. 8, Feb. 23, 1968) and
+Missouri 2004 (about No. 31-32, Aug. 2-9), and whatever chart the 1968 outlooks carry. CQ's official 1964 vote by
+district: "a March 1965 Special Report" (22 CQ Weekly Rep. 2701). Also in hand, not yet read: the 1962 supplements of
+Oct. 5 (pp. 1755 ff., and 1832 ff., the States' candidates) and Oct. 26, and *America Votes 7* (1966).
 
 **Below the county** (the big cities, where most of the missing lags are): no State compilation opened prints the
 House below the county but Massachusetts (Public Document 43, by town and ward group, open on archive.org) and
