@@ -14,7 +14,7 @@ What it is: the week's congressional action (floor, committees), the President's
 out, pp. 415–17, 426), the Presidential Scoreboard of Gallup's and Harris's figures (p. 425), and the roll-call charts
 (pp. 441–445). The week ends Mar. 1; events from Feb. 10.
 
-Patch: `inbox/2026-10-31-cq-1968-03-01.yaml` (14 cites, 4 checks, 46 new entries, each claimed in the ledger).
+Patches: `inbox/2026-10-31-cq-1968-03-01.yaml` (14 cites, 4 checks, 46 new entries; merged Oct. 31) and the second pass, `inbox/2026-10-31-cq-1968-03-01-b.yaml` (74 new entries, 10 edits), each new id claimed in the ledger.
 Records: none. The *Weekly Report* has no notes; it names its sources in the text where it names any (a newspaper
 interview, the *New York Times*'s survey, a poll for Romney, the Washington Post's report on Tomlinson): no
 `sources/cited-records/` file.
@@ -50,10 +50,15 @@ None: the card is new.
 | cal.1968-03-12.specials | first round, Evers 33,706, Griffin 28,927, 29.3 percent (CQ Guide) | 308 of 309 precincts: 33,645, 28,792, Bodron 22,829, Evers 29.4 (p. 421) | CQ Guide, final | Check added (the near-final count); the Guide's stands |
 | cal.1968-02-25.opinion | — | a Gallup heat of the same release, Johnson 46, Rockefeller 41, undecided 13 (p. 425) | Gallup, III, 2106–07 not read here | Check added: add it to `c` after reading Gallup |
 
-For the orchestrator: the "(Check)" marks in `c` of cal.1968-02-20.vietnam (C), cal.1968-02-26.open-housing (C),
-cal.1968-02-27.farm (D), cal.1968-02-28.elections-1968 and cal.1968-03-12.specials (C) are borne out by CQ; taking them
-out is an `edit` of `c` (and the maps' hashes), left to you. The Mar. 12 entry also bundles the first round of Feb. 27,
-an event of its own (R17); not split here.
+The "(Check)" marks in `c` that CQ bears out, each confirmed on the page image and taken out by `edit` in the second
+pass (the map's `c` hash renewed, its rows kept): cal.1968-02-20.vietnam, unit C, the transcript made public Feb. 24
+(p. 384); cal.1968-02-26.open-housing, unit C, the exemption of a single-family house sold or rented by its owner
+without a broker (p. 377); cal.1968-02-27.farm, unit D, the bargaining power, hearings asked (p. 407); cal.1968-02-28.
+elections-1968, the place, a press conference in Washington (p. 418); cal.1968-03-12.specials, the first round's date,
+Feb. 27 (p. 421), now its own entry, cal.1968-02-27.specials, which takes the event's bibliography (the Guide's votes,
+Dittmer, Crespino to check); the run-off of Mar. 12 points back to it. The patch-check refuses an edit that drops a
+work read or a Check from a note, so the Mar. 12 note keeps the CQ cite (now for Williams's resignation, Jan. 16, and
+Griffin as his aide, p. 421: unit B) and the first round's precinct Check, which the Feb. 27 entry carries too.
 
 ## New entries (46)
 
@@ -81,89 +86,70 @@ The merge will flag the same-day, same-thread entries as possible duplicates (Fe
 elections; Feb. 21 Opinion and Vietnam: Congress and the President; Feb. 25 and 28): each is a distinct event; `--take
 keep` (tried in a scratch copy: the flags clear so).
 
+## Second pass (Oct. 31, the coordinator's request)
+
+Every row of the first pass's Passed over left "for time" that the brief makes an entry was read again on the page image and entered (74 new
+entries in the pass, below), 5 edits adding the raw material to existing entries (gold, Feb. 21: the amendments, Mills, Ford, the
+House Republican Policy Committee, Fowler and Martin's letter; the arts bill, Feb. 27: Thompson, Gross, Mahon,
+Matsunaga; the Joint Economic Committee, Feb. 14: Freeman; Feb. 21: Hart, O'Leary, Olsen, Weston; Goddard, Feb. 26: a
+pointer back to the hearings' first day). The background events the issue mentions within the span, not listed in the
+first pass, were read too: eleven entered (Oct. 6, 1967, the wilderness letter; Oct. 19, Pastore; Dec. 11, the FBI's
+figures; Dec. 20 and 22 and Jan. 25, McCarthy's equal-time request, refused; Jan. 29, the Urban Coalition; Jan. 30, the
+House Republican Policy Committee on debates and Johnson's letter to Mansfield; Feb. 6, Agriculture's poultry study;
+Feb. 7, Kerner), the rest below. The roll-call charts (pp. 442–44) gave two House votes the text does not treat: Feb.
+26, the D.C. police and firemen's pay (124–235, 353–2); Feb. 28, H. Res. 1070 (300–92): both entered.
+
+New entries of the second pass (74): open housing, Feb. 27, 28, 29; Tonkin, Mansfield (Feb. 22), Herrick (Feb. 23);
+Joint Economic Committee, Feb. 16 (farm organizations), Feb. 19 (Machlup, Butler, Behrman); poultry, Feb. 6 (the
+study), Feb. 19, 20, 21, 22 (the hearings); drugs, Feb. 19 (the hearings open), Feb. 20 (HEW frees Goddard; Springer),
+Feb. 27 (Giordano); the crime budget (Feb. 20); Ford on crime (Feb. 8); Ramsey Clark's interview (Feb. 12); the FBI
+(Dec. 11, 1967); wilderness, Oct. 6, 1967, Feb. 19–20, Feb. 26; nuclear ships put off (Feb. 26); insurance, Feb. 13
+(AIA), Feb. 17, 18 (ABA sections), Feb. 22 (New Jersey); broadcasting, Feb. 16 (Staggers), Oct. 19, 1967 (Pastore),
+Jan. 30 (House Republicans on debates), Dec. 20, Dec. 22, Jan. 25 (McCarthy's equal time); Johnson to Mansfield (Jan.
+30); Weaver and Schriever (Feb. 26); the travel task force (Feb. 19), the visa letter (Feb. 23), the CAB (Feb. 28);
+FCNL (Feb.), the Urban Coalition (Jan. 29), the Canadian-American Committee (Feb. 18), Citizens for Public Prayer and
+Meskill (Feb. 20), NRTA and AARP (Feb.), Mondale's bargaining bill (Feb. 15), Shuman (Feb. 13); the House, D.C. pay
+(Feb. 26), H. Res. 1070 (Feb. 28); politics, Stark (Feb. 20), the reactions to Romney's withdrawal and Romney at Boston
+(Feb. 28), Lindsay (Feb. 25), the *Times*'s survey (Feb. 26), Edens (Feb. 27), McCarthy (Feb. 24, 26), Bailey (Feb.
+27), Greenberg (Feb. 23), Chafee with Dirksen and Bliss (Feb. 19), Bliss's appointments and the floor-pass rule (Feb.
+23), Pierce (Feb. 23), Cecil King (Feb. 15), Glenn Anderson (Feb. 20), the Gavin committee (Feb. 23), Kerner (Feb. 7),
+Choate (Feb. 20), Siler (Feb. 27), Olson (Feb. 19), Abram (Feb. 22), Tomlinson (Feb. 28), Wallace (Feb. 25),
+Rockefeller off Wisconsin's ballot (Feb. 16), Oklahoma's district conventions (Feb. 10); the Mississippi first round
+(Feb. 27). One entry gathers the reactions of Feb. 28 to Romney's withdrawal (Nixon, Goldwater, McCall, Hatfield,
+Percy, Reagan): several persons' words on one event the same day; split it if the owner prefers.
+
+New Checks the second pass wrote: Dirksen's remarks of p. 379 undated (filed Feb. 28); Herrick's interview set under
+Feb. 23; Mehren's and Sullivan's testimony set before Feb. 20 (filed Feb. 19); the Wilderness Society's day (Feb. 19 or
+20); FCNL's and the NRTA's day (filed to the month); Romney at Boston on Feb. 28, the day CQ has him withdraw in
+Washington; Tomlinson's day (the *Post*'s report, Feb. 28).
+
 ## Passed over
 
-Made by going through the issue page by page and listing every event within the span that it dates and treats; an
-event entered or cited above is not listed. Background it recounts from earlier years (the cloture votes since 1919,
-the 1960 and 1964 debates, the New Hampshire primaries since 1916, the 1966 House vote on open housing) is listed only
-where it is a dated event in the span the calendar may lack. "Lead" here: within the brief, not entered in this run
-for time; each to be entered from the page given.
+Made by going through the issue page by page, twice, and listing every dated event within the span that it treats or
+mentions; an event entered or cited is not listed.
 
 | Page | Date | Event | Why |
 |---|---|---|---|
-| 377 | Feb. 27 | Dirksen: "If I walk in with a bill I think we can get cloture" | lead: raw material for cal.1968-02-26.open-housing |
-| 377 | Feb. 28 | Mondale on the compromise, "a miracle" | lead: raw material, the same |
-| 379 | Feb. 29 | Dirksen's modifications to his substitute, narrowing coverage; other amendments offered | lead (an event of its own) |
-| 381 | Feb. 27 | Matsunaga's amendment for a poet laureate ruled not germane | lead: raw material for cal.1968-02-27.congress |
-| 382 | Feb. 21 | Blackburn's amendment (12.5 percent cover) refused 39–73 standing; Albert Johnson's (18.75) by voice; Mills's appeal; Ford, "to cure cancer with a band aid" | lead: raw material for cal.1968-02-21.economy |
-| 382 | Feb. 21 (or before) | House Republican Policy Committee's statement on the gold cover | lead (R9; the day not printed) |
-| 383 | Feb. 20 | Fowler and Martin's letter to Patman against a partial cover | lead (the letter's date not printed) |
-| 385 | Feb. 22 | Mansfield, a newspaper interview: the Tonkin dispute "getting out of hand" | lead |
-| 386 | Feb. 23 | Herrick, a newspaper interview: the *Maddox* not provocative | lead |
-| 386 | Feb. 16 | Joint Economic Committee: the Farm Bureau, the Grange, the Farmers Union on the tax | lead |
-| 386–87 | Feb. 19 | Joint Economic Committee: Machlup's plan to cut the dollar from gold; Butler; Behrman | lead |
-| 387 | Feb. 21 | Joint Economic Committee: Hart, O'Leary, Olsen, Weston | lead: raw material for cal.1968-02-21.economy-surcharge |
-| 387–89 | Feb. 19–22 | House Agriculture subcommittee hearings on poultry inspection, H.R. 15146 (Mehren, Sullivan, the Farm Bureau, the Grange, the meat cutters) | lead |
-| 389 | Feb. 20 | Springer in the House: possession of LSD a felony | lead |
-| 390 | Feb. 19 | Drug penalties hearing: Vinson, Silver, Jacobson | lead |
-| 390 | Feb. 20 | HEW (Huitt): Goddard free to testify | lead |
-| 390 | Feb. 27 | Drug penalties hearing: Giordano; Carter and Rogers | lead |
-| 390–91 | Feb. 19–20 | Senate Interior's Public Lands subcommittee: the San Gabriel, Mount Jefferson and Washakie wilderness bills | lead |
-| 390 | Feb. 26 | Senate Interior reports S. 2531, the San Gabriel Wilderness, the system's first addition | lead |
-| 391 | Feb. 26 | House Armed Services postpones its hearings on nuclear ships at the Pentagon's request | lead |
-| 392 | Feb. 8 | Ford on the crime message: "a prize fighter with dazzling foot work but no punch" | lead |
-| 394 | Feb. 12 | Ramsey Clark, an interview: no deal on wiretapping; tying guns to the antiriot bill "not entirely the strategy" | lead |
+| 380 | Aug. 9 and Sept. 19, 1966 | The 1966 civil rights bill through the House and set aside in the Senate | lead: background; the 1966 entries to check against it |
+| 379 | 1919–1968 | The table of cloture votes, 41 since 1917 | the in-span rows (Mar. 10, 1960, to Mar. 1, 1968) each a vote the calendar holds or should: lead, each to be checked against its entry |
+| 392 | Jan. | The AP's survey of members home for the recess: crime and riots their constituents' chief concern | lead: dated to the month only by the AP's story, not read |
+| 393 | Oct. 30, 1967 | S. 917 approved by McClellan's subcommittee | lead: background, the calendar's 1967 crime entries to check |
 | 394 | Sept. 1967 | A Harris survey: a majority for gun control (no figures) | lead: the release to find |
-| 395–96 | Mar. 4–14 | The Supreme Court's arguments scheduled (*Flast*, *Powell v. Texas*, the CATV cases and others) | lead: each argument's day to be dated by the Court's journal |
-| 397 | Mar. 12–14 | Senate Commerce's hearings on S.J. Res. 129, the auto insurance study, scheduled | lead (after the issue; date by the hearing) |
-| 400 | Feb. 22 | New Jersey's insurance commissioner: investment income against underwriting losses | lead |
-| 401 | Feb. 13 | Hart's antitrust subcommittee staff: auto insurance hearings in the spring | lead |
-| 402 | Feb. 13 | The American Insurance Association's study of a no-fault plan disclosed | lead |
-| 402 | Feb. 17 | The ABA insurance section's report for the liability system | lead |
-| 402 | Feb. 18 | The ABA judicial administration section for reform | lead |
-| 404 | Feb. 16 | Staggers announces a panel on the fairness doctrine, Mar. 4–5 | lead |
-| 406 | Feb. 26 | Weaver names Schriever a consultant; an Office of Business Participation at HUD, McAuliffe | lead |
-| 406 | Feb. 28 | A White House spokesman: "four or five" more messages | minor |
-| 407 | Feb. 23 | Johnson to Congress: visa requirements eased for visitors, to help the balance of payments | lead (the letter's text in the next issue; the Public Papers) |
-| 407 | Feb. 19 | The President's travel task force (McKinney) reports | lead |
-| 407 | Feb. 28 | The CAB approves half fares on domestic flights for foreign visitors | lead |
-| 408–09 | early Feb. | The Friends Committee on National Legislation's agenda (bombing halt, no war funds, no surtax) | lead (dated to the month) |
-| 409 | Feb. 18 | The Canadian-American Committee against import quotas | lead |
-| 409 | Feb. 20 | Citizens for Public Prayer's program, read in by Meskill | lead |
-| 409 | Feb. | NRTA and AARP for S. 2936, drugs under medicare | lead (dated to the month) |
-| 409 | Feb. 15 | Mondale introduces S. 2973, the National Agricultural Bargaining Act; Dechant for it, Naden's caution | lead |
-| 410 | Feb. 13 | Shuman, Farm Bureau, against government-enforced bargaining | lead |
-| 410–14 | Dec. 18, 1967–Feb. 2, 1968 | 41 lobbyist registrations made public | minor (a register, no event treated) |
-| 414 | Feb. 20 | Johnson adds $5,745,000 to the law enforcement budgets | lead |
-| 415 | Feb. 20 | Stark, New Hampshire's secretary of state: turnout of some 100,000 Republicans and 52,000 Democrats | lead |
-| 418 | Feb. 28 | Chafee: "to look around a bit" | minor (with cal.1968-02-28.elections-1968-2) |
-| 418 | undated | Romney's last poll in New Hampshire: Nixon 73, Romney 10, Rockefeller write-in 8 | lead (no date) |
-| 418–19 | Feb. 28 | Reactions: Nixon's statement; Goldwater, McCall, Hatfield, Percy, Reagan | lead |
-| 419 | Feb. 28 | Romney at Boston: Johnson's broadcasting holdings "a conflict of interest" | lead |
-| 419 | Feb. 25 | Lindsay: Rockefeller's willingness "welcome news" | lead |
-| 419 | Feb. 26 | The *New York Times*'s survey of Republican leaders on the garbage strike; Ashbrook quoted | lead |
-| 420 | Feb. 23 | Nixon at Portsmouth, N.H.: the same as at Rhinelander | minor (a repetition; in the Feb. 21 entry's note) |
-| 420 | Feb. 27 | Edens on Nixon's "soft-sell" campaign, after the national advisory committee | lead |
-| 420 | Feb. 24 | McCarthy against the Johnson pledge cards | lead |
-| 420 | Feb. 26 | McCarthy at the Nashua Rotary: the war in the cities | lead |
-| 420–21 | Feb. 27 | Bailey answers McCarthy | lead |
-| 421 | Feb. 23 | Greenberg, the Liberal party: 10 percent not good enough | lead |
-| 422 | Feb. 23 | Bliss names Peterson the platform staff director, Murphy the program director | lead |
-| 423 | Feb. 23 | The arrangements committee bars demonstrators without passes from the floor | lead |
-| 423 | Feb. 23 | Pierce, Wisconsin's national committeeman, dies | lead |
-| 423 | Feb. 19 | Chafee with Dirksen and Bliss on the platform chairmanship | lead (in the Feb. 22 entry's note) |
-| 423 | Feb. 20 | Glenn Anderson to seek King's seat, California's 17th (King's retirement, Feb. 15) | lead |
-| 423 | Feb. 23 | The Citizens to Draft Gavin Committee disbands | lead |
-| 424 | Feb. 20 | Choate will not seek Gray's seat | lead |
-| 424 | Feb. 27 | Siler for Morton's seat, Vietnam withdrawal by Christmas | lead |
-| 424 | Feb. 19 | Alec Olson will not run against Zwach | lead |
-| 424 | Feb. 22 | Abram to Brandeis, out of the New York Senate race | lead (in the Javits entry's note) |
-| 426 | Feb. 28 | Tomlinson, the Theocratic party, for Johnson (the *Washington Post*) | lead |
-| 426 | Feb. 25 | Wallace: to court in Idaho and Ohio for a place on the ballot (the *Evening Bulletin*) | lead |
-| 426 | Feb. 16 | Rockefeller's name off Wisconsin's ballot | lead (in the Percy entry's note) |
-| 426 | Feb. 10 | Oklahoma's district conventions, twelve delegates | lead (in the Oklahoma entry's note) |
-| 427–40 | Feb. 22, 26, 27, 14 | The texts of the messages and the Tlatelolco letter | not events of their own: the entries above |
-| 441–45 | Feb. 20–Mar. 1 | Roll-call charts, Senate 5–6, House 12–19 | not events of their own: the votes are in the entries (House 14, 15, 19 not identified in the text read: lead) |
+| 394 | undated | The GOP Task Force on Crime's report on the 90th Congress's first session | lead: no date |
+| 395–96 | Mar. 4–14 | The Supreme Court's arguments scheduled (*Flast*, *Powell v. Texas*, the CATV cases and others) | lead: the issue gives the schedule, not the argument; each to be dated by the Court's journal |
+| 397, 402 | Mar. 12–14 | Senate Commerce's hearings on S.J. Res. 129 scheduled | lead: after the issue; to be dated by the hearing |
+| 400 | July 25, 1967 | Celler sets his subcommittee's staff on auto insurance | lead: background |
+| 401 | Feb. 13 | Hart's antitrust subcommittee staff: auto insurance hearings in the spring | minor: a repetition of Hart's announcement of Oct. 23, 1967 |
+| 402 | Oct. 30, Nov. 29–30, 1967 | INA's advertisement for a no-fault plan; the underwriters' cancellation rules | lead: background |
+| 402 | Dec. 18, 1967 | Magnuson: auto insurance "the major consumer business" of his committee | lead: background |
+| 406 | Feb. 28 | A White House spokesman: "four or five" more messages | minor: a count |
+| 410–14 | Dec. 18, 1967–Feb. 2, 1968 | 41 lobbyist registrations made public | minor: a register, no event treated |
+| 418 | Feb. 28 | Chafee: "to look around a bit" | minor: with cal.1968-02-28.elections-1968-2 |
+| 418 | undated | Romney's last poll in New Hampshire: Nixon 73, Romney 10, Rockefeller write-in 8 | lead: no date |
+| 420 | Feb. 23 | Nixon at Portsmouth, N.H.: the same as at Rhinelander | minor: a repetition (in the Feb. 21 entry's note) |
+| 426 | Feb. 24 | A bulletin on Lurleen Wallace: recovering, back about the end of March | minor: a medical bulletin, with cal.1968-02-22.alabama |
+| 427–40 | Feb. 22, 26, 27, 14 | The texts of the messages and the Tlatelolco letter | not events of their own: the entries made |
+| 441–45 | Feb. 20–Mar. 1 | Roll-call charts, Senate 5–6, House 12–19 | not events of their own: every vote is in an entry |
 
 ## Leads (for notes/leads.md)
 
@@ -172,5 +158,5 @@ National
 - cal.1968-02-26.opinion: Harris's second three-way race of Feb. 26 (44–36–12–8): which Republican; read the Harris release (*Washington Post*).
 - cal.1968-02-21.economy: the recommittal, 188–206 (CQ) or 189–205 (Voteview); the Record's roll call.
 - The card `w.cq-weekly-report`: the first volume's year, for a structured card.
-- Every row marked "lead" in Passed over above, each from the page given.
-- The House roll calls 14, 15 and 19 of the 90th Congress, 2d session (CQ 442–45): what they were (the charts' heads garbled in the OCR; the images not read).
+- The rows marked "lead" in Passed over above, each from the page given.
+- cal.1968-02-28.elections-1968-4: Romney at Boston on Feb. 28 (CQ 419) beside his withdrawal in Washington the same day (CQ 418): the day of the Boston remarks.
