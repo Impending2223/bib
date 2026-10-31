@@ -88,6 +88,24 @@ earlier vote retabulated by new district, as the 1970 and 1972 editions' were (t
 Book, so describing them). The Committee's works were not copyrighted as far as found (Check: a 1960s work published
 without notice fell into the public domain; the volumes' notices not seen).
 
+**CQ's recomputed percentages** (found in CQ Weekly Report's annual indexes, archive.org, Oct. 31, 2026). CQ's
+election-year regional outlooks chart each State's House seats with the last election's percentage, and where a State
+redrew, the earlier vote recomputed for the new districts: the 1964 index's corrections print "the 1962 redistricted
+votes" for Colorado (p. 2702: 1st 56.0, 2d 60.0, 3d 55.7, 4th 47.5) and Michigan (p. 2703: 2d 55.4 ... 12th 66.1;
+"Figures are unavailable for the 1st and 13th-19th Districts", Wayne County; "estimates for parts of the 2nd and 3rd")
+and note the Western outlook's Colorado chart (p. 2428). Whose percentage it is (the Democrat's, the winner's, the
+incumbent party's) is not said in the index: Check on the page. Percentages, not votes. The issues, by volume and page
+(the indexes'): vol. 22 (1964), the outlooks: Eastern 2269, Southern 2347, Western 2419, Midwestern 2485 (the States in
+order after each), the post-election tables 2627-2740 (House results 2643, 2648; the State summaries with the 1962
+redistricted percentages about 2700-2738); vol. 24 (1966), "Redistricting, 1964-1966 and current status" and "1960-1966
+action, state by state", the new districts' characteristics and 1966 incumbents pp. 2010-2028 (a State a page or two),
+"Congressional redistricting effect on 1966 elections" p. 815, the July outlook 1489-1492 (the fall outlook after
+September: the Jan.-Sept. index only is open); vol. 26 (1968), "Redistricting outlook" 1216, N.Y. redistricting 421,
+N.J. 23, Okla. 22, the State roundups: Eastern 2582-2611, Southern 2690-2723, Western 2783-2810, Midwestern 2890-2923
+(and the Elections of 1968 special report, July 26, 1856-1937); vol. 20 (1962): its index is not on archive.org, so the
+1962 outlooks' pages are to find (a library's bound volume, or CQ's archive). Bound volumes: HathiTrust search only;
+CQ Press Library by subscription.
+
 **Below the county** (the big cities, where most of the missing lags are): no State compilation opened prints the
 House below the county but Massachusetts (Public Document 43, by town and ward group, open on archive.org) and
 Boston's Election Department reports (1957–75 but 1972, open: the 1960 report's contents list "For Representatives
