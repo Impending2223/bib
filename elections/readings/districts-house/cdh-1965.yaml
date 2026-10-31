@@ -1,0 +1,126 @@
+# The vote for Representative by congressional district, 1962, 1960, 1958, 1956, 1954 and 1952, on the lines of the 89th
+# Congress, for the seven States that redistricted after the 88th Congress's opening: U.S. Bureau of the Census,
+# *Congressional District Data Book (Districts of the 89th Congress)*, Supplements (CDDB-Supp.) Nos. 1-7, January 1965
+# (South Carolina, Wisconsin, Colorado, Connecticut, Georgia, Alabama, Michigan), printed together as H. Doc. 33, 89th
+# Cong., 1st Sess. (Serial Set 12706-1), table, items 11-28 ("Vote cast, by major party: For Representative": total,
+# Democratic, Republican, each year; no percent printed). The copy read: govinfo's scan,
+# SERIALSET-12706_01_00-002-0033-0000; the supplements carry no page numbers, so `pages` gives the PDF page, as in the
+# presidential reading of the same volume (districts/cdb-1965.yaml, whose header quotes the supplements' note: the
+# figures "retabulated for the geographic areas encompassed within the new boundaries", "(NA)" where a split-county
+# district could not be). For the House only Alabama's figures are retabulated (its 2d and 8th, 1960-52, the 88th having
+# chosen its eight seats at large); every other district whose lines changed prints "(NA)" in every year, and the other
+# figures printed (the State columns and South Carolina's 1st, 2d, 3d and 6th, Colorado's 1st, Connecticut's 2d,
+# Georgia's 7th) are the 1963 Data Book's figures for the same district number, unchanged, all 258 (cdh-1963.yaml). Wisconsin's and Michigan's districts all print (NA); Alabama's
+# State column prints (NA) for 1962 (its eight seats chosen at large). The State columns, as in 1963, leave out the votes
+# at large (Connecticut's, Michigan's), though the supplements print no column at large and no footnote saying so. Each
+# page's footnotes: "- Entry represents zero. NA Not available."; no footnote marks on these items.
+#
+# Schema: as cdh-1963.yaml, the cells [t, D, R]; `na` the page's "(NA)" (Michigan's 17th, 1952 Democratic, printed
+# "(AN)"), a dash 0 (no candidate; Georgia's 1952 Republican row prints a dash in every column, the (NA) districts too).
+# The figures: every cell (1,260; 248 figures not zero, 40 dashes, 972 (NA)) read by eye off the page image at 300 dpi,
+# and set against tesseract's reading of each cell (243 of the 248 figures alike; the five that differ misread by the
+# machine). Checks: every district row held to its State column where no district is (NA) (South Carolina 1962-52,
+# items 11-28, and Georgia's 1952 Republican row: all add exactly); D + R not over t. No United States figures.
+source: cdh-1965
+lines: 89
+recomputed: true
+years: [1962, 1960, 1958, 1956, 1954, 1952]
+states:
+  SC:
+    pages: {3: [0, 1, 2, 3, 4, 5, 6]}
+    d:
+      0: {1962: [262522, 225714, 36808], 1960: [328438, 328326, 0], 1958: [76647, 76632, 0], 1956: [262004, 249591, 12278], 1954: [213366, 210624, 2711], 1952: [283852, 278180, 5571]}
+      1: {1962: [39176, 39176, 0], 1960: [47164, 47153, 0], 1958: [13540, 13538, 0], 1956: [31114, 31112, 0], 1954: [34172, 33402, 769], 1952: [30496, 30483, 0]}
+      2: {1962: [74096, 39149, 34947], 1960: [63212, 63207, 0], 1958: [13678, 13677, 0], 1956: [49287, 49284, 0], 1954: [45539, 44484, 1054], 1952: [42209, 42201, 0]}
+      3: {1962: [34545, 34545, 0], 1960: [52409, 52398, 0], 1958: [9540, 9528, 0], 1956: [42282, 39270, 2885], 1954: [31013, 30790, 199], 1952: [47158, 44237, 2849]}
+      4: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, na]}
+      5: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, na]}
+      6: {1962: [36811, 36811, 0], 1960: [49785, 49780, 0], 1958: [12862, 12862, 0], 1956: [39752, 39749, 0], 1954: [31492, 31141, 347], 1952: [41336, 41328, 0]}
+    eye: all
+  WI:
+    pages: {16: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}
+    d:
+      0: {1962: [1244224, 620317, 623907], 1960: [1663093, 813217, 845994], 1958: [1181100, 633152, 547873], 1956: [1522154, 696731, 825305], 1954: [1140788, 541776, 598919], 1952: [1568192, 602521, 965590]}
+      1: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, na]}
+      2: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, na]}
+      3: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, na]}
+      4: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, na]}
+      5: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, na]}
+      6: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, na]}
+      7: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, na]}
+      8: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, na]}
+      9: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, na]}
+      10: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, na]}
+    eye: all
+  CO:
+    pages: {27: [0, 1, 2, 3, 4]}
+    d:
+      0: {1962: [596596, 282474, 314122], 1960: [715279, 370487, 344792], 1958: [534025, 309873, 222979], 1956: [628551, 332049, 296502], 1954: [480084, 239595, 240074], 1952: [606566, 269865, 335394]}
+      1: {1962: [169072, 94680, 74392], 1960: [202652, 121610, 81042], 1958: [161368, 107567, 53801], 1956: [201614, 116487, 85127], 1954: [152370, 84745, 67210], 1952: [200613, 101864, 97442]}
+      2: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, na]}
+      3: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, na]}
+      4: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, na]}
+    eye: all
+  CT:
+    pages: {40: [0, 1, 2, 3, 4, 5, 6]}
+    d:
+      0: {1962: [1032240, 556907, 473659], 1960: [1218503, 649907, 566246], 1958: [968315, 519185, 449130], 1956: [1113700, 437424, 673507], 1954: [935744, 457654, 472677], 1952: [1092797, 504257, 586922]}
+      1: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, na]}
+      2: {1962: [164662, 83652, 81010], 1960: [187486, 93515, 93971], 1958: [149509, 79672, 69837], 1956: [168127, 68847, 99274], 1954: [143686, 70853, 72833], 1952: [163695, 72868, 90827]}
+      3: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, na]}
+      4: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, na]}
+      5: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, na]}
+      6: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, na]}
+    eye: all
+  GA:
+    pages: {52: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}
+    d:
+      0: {1962: [332008, 272494, 59514], 1960: [574272, 549405, 24285], 1958: [158638, 158636, 0], 1956: [592536, 522162, 58777], 1954: [350171, 315131, 29911], 1952: [547264, 547085, 0]}
+      1: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, 0]}
+      2: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, 0]}
+      3: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, 0]}
+      4: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, 0]}
+      5: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, 0]}
+      6: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, 0]}
+      7: {1962: [40042, 28994, 11048], 1960: [94002, 69717, 24285], 1958: [13914, 13913, 0], 1956: [70198, 69873, 0], 1954: [32576, 32575, 0], 1952: [65487, 65416, 0]}
+      8: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, 0]}
+      9: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, 0]}
+      10: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, 0]}
+    eye: all
+  AL:
+    pages: {69: [0, 1, 2, 3, 4, 5, 6, 7, 8]}
+    d:
+      0: {1962: [na, na, na], 1960: [437713, 389567, 48117], 1958: [240762, 234712, 6050], 1956: [382955, 331137, 51818], 1954: [279789, 268552, 11236], 1952: [342827, 324153, 18673]}
+      1: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, na]}
+      2: {1962: [na, na, na], 1960: [44488, 44487, 0], 1958: [27972, 27972, 0], 1956: [36613, 36613, 0], 1954: [30661, 30661, 0], 1952: [38421, 38421, 0]}
+      3: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, na]}
+      4: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, na]}
+      5: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, na]}
+      6: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, na]}
+      7: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, na]}
+      8: {1962: [na, na, na], 1960: [66211, 52411, 13800], 1958: [22710, 22710, 0], 1956: [54101, 43671, 10430], 1954: [32103, 29414, 2689], 1952: [47277, 41293, 5984]}
+    eye: all
+  MI:
+    pages: {87: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], 95: [12, 13, 14, 15, 16, 17, 18, 19]}
+    d:
+      0: {1962: [2675073, 1377814, 1297259], 1960: [3211545, 1638588, 1567845], 1958: [2253810, 1193696, 1054854], 1956: [2994677, 1490837, 1500172], 1954: [2133390, 1100939, 1028093], 1952: [2771937, 1310578, 1453181]}
+      1: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, na]}
+      2: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, na]}
+      3: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, na]}
+      4: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, na]}
+      5: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, na]}
+      6: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, na]}
+      7: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, na]}
+      8: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, na]}
+      9: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, na]}
+      10: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, na]}
+      11: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, na]}
+      12: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, na]}
+      13: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, na]}
+      14: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, na]}
+      15: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, na]}
+      16: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, na]}
+      17: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, na]}
+      18: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, na]}
+      19: {1962: [na, na, na], 1960: [na, na, na], 1958: [na, na, na], 1956: [na, na, na], 1954: [na, na, na], 1952: [na, na, na]}
+    eye: all

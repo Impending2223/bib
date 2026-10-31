@@ -7003,23 +7003,24 @@ years:
       with: -0.5
       without: 4.0
   1962:
-    n: 115
+    n: 170
     lag_sources:
       elections/1960.yaml: 115
-    mean_swing: -0.89
+      'readings: cdh-1963': 55
+    mean_swing: -0.94
     with:
-      a: 0.1232
-      b: 0.7389
-      delta: -1.57
-      psi: 4.75
-      r2: 0.837
-      sd: 5.37
+      a: 0.1446
+      b: 0.6994
+      delta: -0.3
+      psi: 4.2
+      r2: 0.824
+      sd: 5.47
     without:
-      a: 0.118
-      b: 0.7523
-      delta: 2.6
-      r2: 0.826
-      sd: 5.53
+      a: 0.1384
+      b: 0.7137
+      delta: 3.27
+      r2: 0.812
+      sd: 5.64
     races:
     - st: AK
       d: 0
@@ -7030,8 +7031,74 @@ years:
       P: 1
       D: Ralph Rivers
       R: Lowell Thomas Jr.
-      with: -1.4
-      without: -1.1
+      with: -2.0
+      without: -1.6
+    - st: AZ
+      d: 1
+      v: 41.3
+      lag: 40.8
+      lag_src: 'readings: cdh-1963'
+      I: -1
+      P: -1
+      D: Howard V. Peterson
+      R: John Jacob Rhodes
+      with: 2.3
+      without: 1.7
+    - st: CA
+      d: 2
+      v: 64.6
+      lag: 62.7
+      lag_src: 'readings: cdh-1963'
+      I: 1
+      P: 1
+      D: Bizz Johnson
+      R: Fredric H. Nagel
+      with: 2.4
+      without: 2.8
+    - st: CA
+      d: 15
+      v: 70.0
+      lag: 65.4
+      lag_src: 'readings: cdh-1963'
+      I: 1
+      P: 1
+      D: John J. McFall
+      R: Arthur L. Young
+      with: 5.9
+      without: 6.2
+    - st: CA
+      d: 18
+      v: 58.9
+      lag: 56.5
+      lag_src: 'readings: cdh-1963'
+      I: 1
+      P: 1
+      D: Harlan Hagen
+      R: G. Ray Arnett
+      with: 1.0
+      without: 1.5
+    - st: CA
+      d: 33
+      v: 59.0
+      lag: 66.8
+      lag_src: 'readings: cdh-1963'
+      I: 1
+      P: 1
+      D: Harry R. Sheppard
+      R: William R. Thomas
+      with: -6.0
+      without: -5.7
+    - st: CA
+      d: 38
+      v: 44.1
+      lag: 57.1
+      lag_src: 'readings: cdh-1963'
+      I: 1
+      P: 1
+      D: Dalip Singh Saund
+      R: Patrick M. Martin
+      with: -14.2
+      without: -13.8
     - st: CO
       d: 1
       v: 56.0
@@ -7041,8 +7108,8 @@ years:
       P: 1
       D: Byron G. Rogers
       R: William B. Chenoweth
-      with: -3.8
-      without: -3.6
+      with: -4.3
+      without: -3.9
     - st: CO
       d: 2
       v: 38.2
@@ -7052,8 +7119,8 @@ years:
       P: -1
       D: Conrad L. McBride
       R: Donald G. Brotzman
-      with: -7.1
-      without: -2.9
+      with: -6.3
+      without: -2.7
     - st: CO
       d: 3
       v: 45.3
@@ -7063,8 +7130,8 @@ years:
       P: -1
       D: Albert J. Tomsic
       R: John Chenoweth
-      with: 0.8
-      without: 0.1
+      with: 1.3
+      without: 0.6
     - st: CO
       d: 4
       v: 58.6
@@ -7074,8 +7141,8 @@ years:
       P: 1
       D: Wayne N. Aspinall
       R: Leo L. Sommerville
-      with: -7.5
-      without: -7.3
+      with: -7.6
+      without: -7.4
     - st: CT
       d: 0
       v: 52.7
@@ -7085,8 +7152,8 @@ years:
       P: 1
       D: Bernard F. Grabowski
       R: John Lupton
-      with: 2.1
-      without: -2.3
+      with: 0.8
+      without: -2.9
     - st: CT
       d: 1
       v: 57.8
@@ -7096,8 +7163,8 @@ years:
       P: 1
       D: Emilio Q. Daddario
       R: James F. Collins
-      with: -0.9
-      without: -0.6
+      with: -1.4
+      without: -1.0
     - st: CT
       d: 2
       v: 50.8
@@ -7107,8 +7174,8 @@ years:
       P: -1
       D: William St. Onge
       R: Moses A. Savin
-      with: 0.1
-      without: 4.1
+      with: 1.2
+      without: 4.6
     - st: CT
       d: 3
       v: 56.0
@@ -7118,8 +7185,8 @@ years:
       P: 1
       D: Robert Giaimo
       R: Daniel Reinhardsen
-      with: -0.1
-      without: 0.3
+      with: -0.7
+      without: -0.3
     - st: CT
       d: 4
       v: 48.0
@@ -7129,8 +7196,8 @@ years:
       P: -1
       D: Francis X. Lennon Jr.
       R: Abner W. Sibal
-      with: 3.2
-      without: 2.4
+      with: 3.6
+      without: 2.9
     - st: CT
       d: 5
       v: 58.5
@@ -7140,8 +7207,8 @@ years:
       P: 1
       D: John S. Monagan
       R: John Rand
-      with: 2.3
-      without: 2.7
+      with: 1.6
+      without: 2.1
     - st: DE
       d: 0
       v: 53.0
@@ -7151,8 +7218,8 @@ years:
       P: 1
       D: Harris McDowell
       R: Wilmer F. Williams
-      with: 0.2
-      without: 0.6
+      with: -0.6
+      without: -0.1
     - st: GA
       d: 7
       v: 72.4
@@ -7162,8 +7229,19 @@ years:
       P: 1
       D: John William Davis
       R: E. Ralph Ivey
-      with: 2.1
-      without: 2.2
+      with: 2.2
+      without: 2.4
+    - st: IA
+      d: 1
+      v: 38.9
+      lag: 39.1
+      lag_src: 'readings: cdh-1963'
+      I: -1
+      P: -1
+      D: Harold Stephens
+      R: Fred Schwengel
+      with: 1.0
+      without: 0.4
     - st: ID
       d: 1
       v: 53.0
@@ -7173,8 +7251,8 @@ years:
       P: 1
       D: Compton I. White Jr.
       R: Erwin H. Schwiebert
-      with: -2.3
-      without: -6.8
+      with: -3.4
+      without: -7.2
     - st: ID
       d: 2
       v: 52.8
@@ -7184,8 +7262,41 @@ years:
       P: 1
       D: Ralph R. Harding
       R: Orval H. Hansen
-      with: -0.5
-      without: -0.0
+      with: -1.3
+      without: -0.8
+    - st: IL
+      d: 17
+      v: 37.5
+      lag: 38.7
+      lag_src: 'readings: cdh-1963'
+      I: -1
+      P: -1
+      D: Donald M. Laughlin
+      R: Leslie C. Arends
+      with: -0.1
+      without: -0.7
+    - st: IL
+      d: 19
+      v: 44.1
+      lag: 49.4
+      lag_src: 'readings: cdh-1963'
+      I: 0
+      P: -1
+      D: David DeDoncker
+      R: Robert T. McLoskey
+      with: -5.2
+      without: -1.7
+    - st: IL
+      d: 24
+      v: 73.8
+      lag: 72.2
+      lag_src: 'readings: cdh-1963'
+      I: 1
+      P: 1
+      D: Melvin Price
+      R: Kurt Glaser
+      with: 4.9
+      without: 5.1
     - st: IN
       d: 1
       v: 60.8
@@ -7195,8 +7306,8 @@ years:
       P: 1
       D: Ray Madden
       R: Harold Moody
-      with: -2.6
-      without: -2.4
+      with: -2.9
+      without: -2.6
     - st: IN
       d: 2
       v: 42.4
@@ -7206,8 +7317,8 @@ years:
       P: -1
       D: John J. Murray
       R: Charles A. Halleck
-      with: 2.0
-      without: 1.3
+      with: 2.2
+      without: 1.6
     - st: IN
       d: 3
       v: 51.9
@@ -7217,8 +7328,8 @@ years:
       P: 1
       D: John Brademas
       R: Charles W. Ainlay
-      with: -2.3
-      without: -1.9
+      with: -3.1
+      without: -2.6
     - st: IN
       d: 4
       v: 44.4
@@ -7228,8 +7339,8 @@ years:
       P: -1
       D: Ronald R. Ross
       R: E. Ross Adair
-      with: 4.4
-      without: 3.8
+      with: 4.6
+      without: 4.0
     - st: IN
       d: 5
       v: 51.6
@@ -7239,8 +7350,8 @@ years:
       P: 1
       D: J. Edward Roush
       R: George O. Chambers
-      with: -0.8
-      without: -0.4
+      with: -1.7
+      without: -1.1
     - st: IN
       d: 6
       v: 47.3
@@ -7250,8 +7361,8 @@ years:
       P: -1
       D: Fred Wampler
       R: Richard L. Roudebush
-      with: 2.7
-      without: 2.0
+      with: 3.2
+      without: 2.5
     - st: IN
       d: 7
       v: 42.2
@@ -7261,8 +7372,8 @@ years:
       P: -1
       D: Elden C. Tipton
       R: William G. Bray
-      with: 3.6
-      without: 3.0
+      with: 3.7
+      without: 3.2
     - st: IN
       d: 8
       v: 55.7
@@ -7272,8 +7383,8 @@ years:
       P: 1
       D: Winfield K. Denton
       R: Earl J. Heseman
-      with: 0.8
-      without: 1.2
+      with: 0.0
+      without: 0.5
     - st: IN
       d: 9
       v: 47.9
@@ -7283,8 +7394,8 @@ years:
       P: -1
       D: John Pritchard
       R: Earl Wilson
-      with: 2.2
-      without: 1.5
+      with: 2.8
+      without: 2.0
     - st: IN
       d: 10
       v: 47.1
@@ -7294,8 +7405,8 @@ years:
       P: -1
       D: John E. Mitchell
       R: Ralph Harvey
-      with: 6.2
-      without: 5.6
+      with: 6.5
+      without: 5.9
     - st: IN
       d: 11
       v: 45.8
@@ -7305,8 +7416,19 @@ years:
       P: -1
       D: Andrew Jacobs Jr.
       R: Donald C. Bruce
-      with: 2.4
-      without: 1.7
+      with: 2.8
+      without: 2.2
+    - st: KY
+      d: 3
+      v: 49.2
+      lag: 50.3
+      lag_src: 'readings: cdh-1963'
+      I: 1
+      P: 1
+      D: Frank W. Burke
+      R: Gene Snyder
+      with: -4.3
+      without: -3.8
     - st: LA
       d: 2
       v: 67.2
@@ -7316,8 +7438,96 @@ years:
       P: 1
       D: Hale Boggs
       R: Dave Treen
-      with: -5.9
-      without: -5.9
+      with: -5.7
+      without: -5.6
+    - st: MD
+      d: 0
+      v: 55.7
+      lag: 59.4
+      lag_src: 'readings: cdh-1963'
+      I: 0
+      P: 1
+      D: Carlton R. Sickles
+      R: Newton Steers
+      with: 0.0
+      without: -3.8
+    - st: MD
+      d: 1
+      v: 46.8
+      lag: 53.6
+      lag_src: 'readings: cdh-1963'
+      I: 1
+      P: 1
+      D: Thomas Francis Johnson
+      R: Rogers Morton
+      with: -9.0
+      without: -8.5
+    - st: MD
+      d: 2
+      v: 51.9
+      lag: 58.6
+      lag_src: 'readings: cdh-1963'
+      I: 0
+      P: 1
+      D: Clarence Long
+      R: J. Fife Symington Jr.
+      with: -3.2
+      without: -7.0
+    - st: MD
+      d: 4
+      v: 72.3
+      lag: 65.5
+      lag_src: 'readings: cdh-1963'
+      I: 1
+      P: 1
+      D: George Hyde Fallon
+      R: John E. Brandau
+      with: 8.2
+      without: 8.5
+    - st: MD
+      d: 5
+      v: 59.5
+      lag: 62.2
+      lag_src: 'readings: cdh-1963'
+      I: 1
+      P: 1
+      D: Richard Lankford
+      R: Joseph M. Baker Jr.
+      with: -2.4
+      without: -2.0
+    - st: MD
+      d: 6
+      v: 39.1
+      lag: 48.0
+      lag_src: 'readings: cdh-1963'
+      I: -1
+      P: -1
+      D: John R. Foley
+      R: Charles Mathias
+      with: -5.0
+      without: -5.7
+    - st: MD
+      d: 7
+      v: 70.0
+      lag: 64.5
+      lag_src: 'readings: cdh-1963'
+      I: 1
+      P: 1
+      D: Samuel Friedel
+      R: Caroline R. Ramsay
+      with: 6.5
+      without: 6.9
+    - st: MI
+      d: 0
+      v: 52.1
+      lag: 51.1
+      lag_src: 'readings: cdh-1963'
+      I: 0
+      P: 1
+      D: Neil Staebler
+      R: Alvin Morell Bentley
+      with: 2.2
+      without: -1.5
     - st: MI
       d: 1
       v: 89.2
@@ -7327,8 +7537,8 @@ years:
       P: 1
       D: Lucien Nedzi
       R: Walter Czarnecki
-      with: 8.2
-      without: 8.1
+      with: 8.9
+      without: 8.9
     - st: MI
       d: 2
       v: 41.6
@@ -7338,8 +7548,8 @@ years:
       P: -1
       D: Thomas P. Payne
       R: George Meader
-      with: 2.7
-      without: 2.1
+      with: 2.9
+      without: 2.3
     - st: MI
       d: 3
       v: 40.5
@@ -7349,8 +7559,8 @@ years:
       P: -1
       D: Paul H. Todd Jr.
       R: August E. Johansen
-      with: 2.3
-      without: 1.7
+      with: 2.5
+      without: 1.9
     - st: MI
       d: 4
       v: 36.2
@@ -7360,7 +7570,7 @@ years:
       P: -1
       D: Leland D. Mitchell
       R: J. Edward Hutchinson
-      with: -5.4
+      with: -4.8
       without: -1.2
     - st: MI
       d: 5
@@ -7371,8 +7581,8 @@ years:
       P: -1
       D: William G. Reamon
       R: Gerald Ford
-      with: -0.6
-      without: -1.1
+      with: -0.7
+      without: -1.2
     - st: MI
       d: 6
       v: 45.5
@@ -7382,8 +7592,8 @@ years:
       P: -1
       D: Donald Hayworth
       R: Charles E. Chamberlain
-      with: 4.3
-      without: 3.7
+      with: 4.6
+      without: 4.0
     - st: MI
       d: 7
       v: 56.3
@@ -7393,8 +7603,8 @@ years:
       P: 1
       D: James G. O'Hara
       R: H. Charles Knill
-      with: 1.3
-      without: 1.7
+      with: 0.6
+      without: 1.1
     - st: MI
       d: 8
       v: 39.5
@@ -7405,7 +7615,7 @@ years:
       D: Jerome T. Hart
       R: R. James Harvey
       with: 2.6
-      without: 2.0
+      without: 2.1
     - st: MI
       d: 9
       v: 40.6
@@ -7415,8 +7625,8 @@ years:
       P: -1
       D: Donald G. Jennings
       R: Robert P. Griffin
-      with: 1.7
-      without: 1.1
+      with: 1.8
+      without: 1.2
     - st: MI
       d: 10
       v: 38.5
@@ -7426,8 +7636,8 @@ years:
       P: -1
       D: Hubert C. Evans
       R: Al Cederberg
-      with: 1.4
-      without: 0.9
+      with: 1.5
+      without: 1.0
     - st: MI
       d: 11
       v: 43.3
@@ -7437,8 +7647,8 @@ years:
       P: -1
       D: Warren P. Cleary
       R: Victor A. Knox
-      with: 0.9
-      without: 0.2
+      with: 1.2
+      without: 0.6
     - st: MI
       d: 12
       v: 36.7
@@ -7448,8 +7658,8 @@ years:
       P: -1
       D: William J. Bolognesi
       R: John B. Bennett
-      with: -1.3
-      without: -1.9
+      with: -1.2
+      without: -1.8
     - st: MI
       d: 13
       v: 71.2
@@ -7459,8 +7669,8 @@ years:
       P: 1
       D: Charles Diggs
       R: Robert B. Blackwell
-      with: 2.8
-      without: 2.9
+      with: 2.7
+      without: 3.0
     - st: MI
       d: 14
       v: 61.8
@@ -7470,8 +7680,8 @@ years:
       P: 1
       D: Harold M. Ryan
       R: Lois V. Nair
-      with: -0.1
-      without: 0.1
+      with: -0.5
+      without: -0.2
     - st: MI
       d: 15
       v: 83.0
@@ -7481,8 +7691,8 @@ years:
       P: 1
       D: John Dingell
       R: Ernest Richard
-      with: 8.7
-      without: 8.7
+      with: 9.0
+      without: 9.1
     - st: MI
       d: 16
       v: 67.9
@@ -7492,8 +7702,8 @@ years:
       P: 1
       D: John Lesinski Jr.
       R: Laverne O. Elliott
-      with: 3.5
-      without: 3.7
+      with: 3.3
+      without: 3.6
     - st: MI
       d: 17
       v: 59.3
@@ -7503,8 +7713,8 @@ years:
       P: 1
       D: Martha Griffiths
       R: James F. O'Neill
-      with: 1.1
-      without: 1.5
+      with: 0.6
+      without: 1.0
     - st: MI
       d: 18
       v: 40.4
@@ -7514,8 +7724,8 @@ years:
       P: -1
       D: George J. Fulkerson
       R: William Broomfield
-      with: -1.3
-      without: -2.0
+      with: -1.0
+      without: -1.7
     - st: MT
       d: 1
       v: 52.8
@@ -7525,8 +7735,8 @@ years:
       P: 1
       D: Arnold Olsen
       R: Wayne Montgomery
-      with: -2.1
-      without: -1.7
+      with: -2.8
+      without: -2.3
     - st: MT
       d: 2
       v: 44.6
@@ -7536,8 +7746,19 @@ years:
       P: -1
       D: Leo Graybill Jr.
       R: James F. Battin
-      with: -0.9
-      without: -1.6
+      with: -0.3
+      without: -1.0
+    - st: NC
+      d: 6
+      v: 59.9
+      lag: 59.6
+      lag_src: 'readings: cdh-1963'
+      I: 1
+      P: 1
+      D: Horace R. Kornegay
+      R: Blackwell P. Robinson
+      with: -0.2
+      without: 0.2
     - st: NH
       d: 1
       v: 46.9
@@ -7547,8 +7768,8 @@ years:
       P: -1
       D: J. Oliva Huot
       R: Louis C. Wyman
-      with: 0.9
-      without: 5.0
+      with: 1.7
+      without: 5.3
     - st: NH
       d: 2
       v: 42.5
@@ -7558,8 +7779,151 @@ years:
       P: -1
       D: Eugene S. Daniell
       R: James Colgate Cleveland
-      with: -0.7
-      without: 3.5
+      with: -0.0
+      without: 3.6
+    - st: NJ
+      d: 1
+      v: 41.1
+      lag: 42.3
+      lag_src: 'readings: cdh-1963'
+      I: -1
+      P: -1
+      D: Neil F. Deighan
+      R: William T. Cahill
+      with: 0.9
+      without: 0.3
+    - st: NJ
+      d: 2
+      v: 47.0
+      lag: 43.3
+      lag_src: 'readings: cdh-1963'
+      I: -1
+      P: -1
+      D: Paul R. Porreca
+      R: Milton W. Glenn
+      with: 6.1
+      without: 5.5
+    - st: NJ
+      d: 4
+      v: 64.0
+      lag: 60.3
+      lag_src: 'readings: cdh-1963'
+      I: 1
+      P: 1
+      D: Frank Thompson
+      R: Ephraim Tomlinson II
+      with: 3.4
+      without: 3.8
+    - st: NJ
+      d: 6
+      v: 40.0
+      lag: 41.8
+      lag_src: 'readings: cdh-1963'
+      I: -1
+      P: -1
+      D: Lillian W. Egolf
+      R: Florence P. Dwyer
+      with: 0.2
+      without: -0.4
+    - st: NJ
+      d: 7
+      v: 38.1
+      lag: 36.1
+      lag_src: 'readings: cdh-1963'
+      I: -1
+      P: -1
+      D: J. Emmet Cassidy
+      R: William B. Widnall
+      with: 2.3
+      without: 1.8
+    - st: NJ
+      d: 8
+      v: 65.5
+      lag: 54.3
+      lag_src: 'readings: cdh-1963'
+      I: 1
+      P: 1
+      D: Charles S. Joelson
+      R: Walter W. Porter Jr.
+      with: 9.2
+      without: 9.7
+    - st: NJ
+      d: 9
+      v: 42.5
+      lag: 41.7
+      lag_src: 'readings: cdh-1963'
+      I: -1
+      P: -1
+      D: Donald R. Sorkow
+      R: Frank C. Osmers Jr.
+      with: 2.8
+      without: 2.2
+    - st: NJ
+      d: 10
+      v: 73.3
+      lag: 66.2
+      lag_src: 'readings: cdh-1963'
+      I: 1
+      P: 1
+      D: Peter W. Rodino
+      R: Charles A. Baretski
+      with: 8.6
+      without: 8.9
+    - st: NJ
+      d: 11
+      v: 61.4
+      lag: 62.9
+      lag_src: 'readings: cdh-1963'
+      I: 0
+      P: 1
+      D: Joseph Minish
+      R: Frank A. Palmieri
+      with: 3.3
+      without: -0.6
+    - st: NJ
+      d: 12
+      v: 47.0
+      lag: 48.7
+      lag_src: 'readings: cdh-1963'
+      I: -1
+      P: -1
+      D: Robert R. Peacock
+      R: George M. Wallhauser
+      with: 2.4
+      without: 1.7
+    - st: NJ
+      d: 13
+      v: 78.6
+      lag: 68.3
+      lag_src: 'readings: cdh-1963'
+      I: 1
+      P: 1
+      D: Neil Gallagher
+      R: Eugene P. Kenny
+      with: 12.5
+      without: 12.7
+    - st: NJ
+      d: 14
+      v: 71.7
+      lag: 57.9
+      lag_src: 'readings: cdh-1963'
+      I: 1
+      P: 1
+      D: Dominick V. Daniels
+      R: Michael J. Bell
+      with: 12.9
+      without: 13.3
+    - st: NM
+      d: 0
+      v: 64.4
+      lag: 58.7
+      lag_src: 'readings: cdh-1963'
+      I: 2
+      P: 1
+      D: Thomas G. Morris
+      R: Junio Lopez
+      with: 0.8
+      without: 5.4
     - st: NV
       d: 0
       v: 71.6
@@ -7569,8 +7933,107 @@ years:
       P: 1
       D: Walter S. Baring Jr.
       R: Carlton J. Adair
-      with: 13.6
-      without: 14.0
+      with: 13.1
+      without: 13.5
+    - st: NY
+      d: 25
+      v: 38.5
+      lag: 41.7
+      lag_src: 'readings: cdh-1963'
+      I: -1
+      P: -1
+      D: A. Frank Reel
+      R: Robert R. Barry
+      with: -1.2
+      without: -1.8
+    - st: NY
+      d: 26
+      v: 39.1
+      lag: 47.4
+      lag_src: 'readings: cdh-1963'
+      I: 0
+      P: -1
+      D: Stanley W. Church
+      R: Ogden Reid
+      with: -8.8
+      without: -5.3
+    - st: NY
+      d: 27
+      v: 42.1
+      lag: 41.3
+      lag_src: 'readings: cdh-1963'
+      I: -1
+      P: -1
+      D: William F. Ward Jr.
+      R: Katharine St. George
+      with: 2.7
+      without: 2.1
+    - st: NY
+      d: 28
+      v: 35.9
+      lag: 43.3
+      lag_src: 'readings: cdh-1963'
+      I: -1
+      P: -1
+      D: Morton E. Gilday
+      R: J. Ernest Wharton
+      with: -4.9
+      without: -5.5
+    - st: NY
+      d: 31
+      v: 40.0
+      lag: 36.7
+      lag_src: 'readings: cdh-1963'
+      I: -1
+      P: -1
+      D: Francis G. Healey
+      R: Clarence E. Kilburn
+      with: 3.8
+      without: 3.2
+    - st: NY
+      d: 32
+      v: 42.4
+      lag: 44.7
+      lag_src: 'readings: cdh-1963'
+      I: -1
+      P: -1
+      D: Virgil C. Crisafulli
+      R: Alexander Pirnie
+      with: 0.6
+      without: -0.0
+    - st: NY
+      d: 34
+      v: 44.2
+      lag: 45.4
+      lag_src: 'readings: cdh-1963'
+      I: -1
+      P: -1
+      D: Lee Alexander
+      R: R. Walter Riehlman
+      with: 1.9
+      without: 1.3
+    - st: NY
+      d: 36
+      v: 40.7
+      lag: 42.4
+      lag_src: 'readings: cdh-1963'
+      I: 0
+      P: -1
+      D: Robert R. Bickal
+      R: Frank Horton
+      with: -3.7
+      without: -0.1
+    - st: OH
+      d: 0
+      v: 39.5
+      lag: 45.9
+      lag_src: 'readings: cdh-1963'
+      I: 0
+      P: -1
+      D: Richard D. Kennedy
+      R: Robert Taft Jr.
+      with: -7.4
+      without: -3.9
     - st: OH
       d: 1
       v: 37.3
@@ -7580,8 +8043,8 @@ years:
       P: -1
       D: Monica Nolan
       R: Carl West Rich
-      with: -6.9
-      without: -2.8
+      with: -6.2
+      without: -2.6
     - st: OH
       d: 2
       v: 37.2
@@ -7591,8 +8054,8 @@ years:
       P: -1
       D: H. A. Sand
       R: Donald D. Clancy
-      with: -3.4
-      without: -4.0
+      with: -3.1
+      without: -3.7
     - st: OH
       d: 3
       v: 43.0
@@ -7602,8 +8065,8 @@ years:
       P: -1
       D: Martin A. Evers
       R: Paul F. Schenck
-      with: 5.8
-      without: 5.2
+      with: 5.9
+      without: 5.3
     - st: OH
       d: 4
       v: 29.7
@@ -7613,8 +8076,8 @@ years:
       P: -1
       D: Marjorie Conrad Struna
       R: William M. McCulloch
-      with: -5.0
-      without: -5.5
+      with: -5.1
+      without: -5.6
     - st: OH
       d: 5
       v: 29.6
@@ -7624,8 +8087,8 @@ years:
       P: -1
       D: William T. Hunt
       R: Del Latta
-      with: -3.7
-      without: -4.2
+      with: -3.8
+      without: -4.3
     - st: OH
       d: 6
       v: 39.6
@@ -7635,8 +8098,8 @@ years:
       P: -1
       D: Jerry C. Rasor
       R: Bill Harsha
-      with: -2.6
-      without: -3.3
+      with: -2.3
+      without: -2.9
     - st: OH
       d: 7
       v: 32.3
@@ -7657,8 +8120,8 @@ years:
       P: -1
       D: Morris Laderman
       R: Jackson Edward Betts
-      with: -3.1
-      without: -3.6
+      with: -3.2
+      without: -3.7
     - st: OH
       d: 9
       v: 57.4
@@ -7668,8 +8131,8 @@ years:
       P: 1
       D: Thomas L. Ashley
       R: Martin A. Janis
-      with: -0.2
-      without: 0.2
+      with: -0.8
+      without: -0.3
     - st: OH
       d: 10
       v: 47.7
@@ -7679,8 +8142,8 @@ years:
       P: 1
       D: Walter H. Moeller
       R: Pete Abele
-      with: -6.6
-      without: -6.2
+      with: -7.4
+      without: -6.9
     - st: OH
       d: 11
       v: 49.4
@@ -7690,8 +8153,8 @@ years:
       P: 1
       D: Robert E. Cook
       R: Oliver P. Bolton
-      with: -3.8
-      without: -3.3
+      with: -4.6
+      without: -4.1
     - st: OH
       d: 12
       v: 31.7
@@ -7701,8 +8164,8 @@ years:
       P: -1
       D: Paul D. Cassidy
       R: Samuel L. Devine
-      with: -6.5
-      without: -7.1
+      with: -6.3
+      without: -6.9
     - st: OH
       d: 13
       v: 44.9
@@ -7712,8 +8175,8 @@ years:
       P: -1
       D: J. Grant Keys
       R: Charles Adams Mosher
-      with: -0.1
-      without: -0.8
+      with: 0.4
+      without: -0.3
     - st: OH
       d: 14
       v: 46.3
@@ -7723,8 +8186,8 @@ years:
       P: -1
       D: Oliver Ocasek
       R: William Hanes Ayres
-      with: 8.7
-      without: 8.1
+      with: 8.8
+      without: 8.2
     - st: OH
       d: 15
       v: 52.4
@@ -7734,8 +8197,8 @@ years:
       P: -1
       D: Robert T. Secrest
       R: Tom Van Horn Moorehead
-      with: 7.2
-      without: 6.5
+      with: 7.7
+      without: 7.0
     - st: OH
       d: 16
       v: 40.0
@@ -7745,7 +8208,7 @@ years:
       P: -1
       D: Ed Witmer
       R: Frank T. Bow
-      with: 3.1
+      with: 3.2
       without: 2.6
     - st: OH
       d: 17
@@ -7756,8 +8219,8 @@ years:
       P: -1
       D: Robert W. Levering
       R: John M. Ashbrook
-      with: -2.4
-      without: -3.1
+      with: -2.0
+      without: -2.7
     - st: OH
       d: 18
       v: 61.0
@@ -7767,8 +8230,8 @@ years:
       P: 1
       D: Wayne Hays
       R: John J. Carigg
-      with: -2.9
-      without: -2.7
+      with: -3.2
+      without: -2.8
     - st: OH
       d: 19
       v: 62.2
@@ -7778,8 +8241,8 @@ years:
       P: 1
       D: Michael J. Kirwan
       R: William Vincent Williams
-      with: -4.2
-      without: -4.0
+      with: -4.3
+      without: -4.1
     - st: OH
       d: 20
       v: 71.0
@@ -7789,7 +8252,7 @@ years:
       P: 1
       D: Michael A. Feighan
       R: Leonard G. Richter
-      with: 5.4
+      with: 5.3
       without: 5.6
     - st: OH
       d: 21
@@ -7801,7 +8264,7 @@ years:
       D: Charles Vanik
       R: Leodis Harris
       with: 10.5
-      without: 10.6
+      without: 10.7
     - st: OH
       d: 22
       v: 32.2
@@ -7811,8 +8274,8 @@ years:
       P: -1
       D: Edward Corrigan
       R: Frances P. Bolton
-      with: -8.8
-      without: -9.5
+      with: -8.5
+      without: -9.2
     - st: OH
       d: 23
       v: 28.5
@@ -7822,8 +8285,8 @@ years:
       P: -1
       D: Emil C. Weber
       R: William Edwin Minshall Jr.
-      with: -4.8
-      without: -5.3
+      with: -4.9
+      without: -5.4
     - st: OK
       d: 1
       v: 31.4
@@ -7844,8 +8307,8 @@ years:
       P: 1
       D: Ed Edmondson
       R: Bill Sharp
-      with: -0.9
-      without: -0.6
+      with: -1.5
+      without: -1.1
     - st: OK
       d: 5
       v: 68.9
@@ -7855,8 +8318,8 @@ years:
       P: 1
       D: John Jarman
       R: William P. Pointon Jr.
-      with: 4.2
-      without: 4.4
+      with: 4.0
+      without: 4.3
     - st: OK
       d: 6
       v: 53.5
@@ -7866,8 +8329,8 @@ years:
       P: 1
       D: Victor Wickersham
       R: Glenn L. Gibson
-      with: 1.1
-      without: 1.5
+      with: 0.2
+      without: 0.7
     - st: OR
       d: 1
       v: 38.2
@@ -7888,8 +8351,8 @@ years:
       P: 1
       D: Al Ullman
       R: Robert W. Chandler
-      with: 4.5
-      without: 4.8
+      with: 4.0
+      without: 4.4
     - st: OR
       d: 3
       v: 66.0
@@ -7899,8 +8362,8 @@ years:
       P: 1
       D: Edith Green
       R: Stanley E. Hartman
-      with: 3.3
-      without: 3.5
+      with: 3.0
+      without: 3.3
     - st: OR
       d: 4
       v: 53.9
@@ -7910,8 +8373,140 @@ years:
       P: -1
       D: Robert B. Duncan
       R: Carl Fisher
+      with: 5.0
+      without: 8.4
+    - st: PA
+      d: 7
+      v: 39.2
+      lag: 47.0
+      lag_src: 'readings: cdh-1963'
+      I: -1
+      P: -1
+      D: John A. Reilly
+      R: William H. Milliken Jr.
+      with: -4.2
+      without: -4.9
+    - st: PA
+      d: 8
+      v: 45.2
+      lag: 43.9
+      lag_src: 'readings: cdh-1963'
+      I: -1
+      P: -1
+      D: James A. Michener
+      R: Willard S. Curtin
       with: 3.9
-      without: 7.9
+      without: 3.3
+    - st: PA
+      d: 9
+      v: 32.8
+      lag: 33.4
+      lag_src: 'readings: cdh-1963'
+      I: -1
+      P: -1
+      D: Richard C. Keller
+      R: Paul B. Dague
+      with: -1.1
+      without: -1.6
+    - st: PA
+      d: 11
+      v: 66.5
+      lag: 67.1
+      lag_src: 'readings: cdh-1963'
+      I: 1
+      P: 1
+      D: Dan Flood
+      R: Donald B. Ayers
+      with: 1.2
+      without: 1.5
+    - st: PA
+      d: 13
+      v: 33.4
+      lag: 38.2
+      lag_src: 'readings: cdh-1963'
+      I: -1
+      P: -1
+      D: Lee F. Driscoll Jr.
+      R: Richard Schweiker
+      with: -3.9
+      without: -4.4
+    - st: PA
+      d: 16
+      v: 33.3
+      lag: 37.5
+      lag_src: 'readings: cdh-1963'
+      I: -1
+      P: -1
+      D: John A. Walter
+      R: John C. Kunkel
+      with: -3.5
+      without: -4.1
+    - st: PA
+      d: 19
+      v: 43.2
+      lag: 46.8
+      lag_src: 'readings: cdh-1963'
+      I: -1
+      P: -1
+      D: Earl D. Warner
+      R: George A. Goodling
+      with: -0.1
+      without: -0.8
+    - st: PA
+      d: 21
+      v: 59.6
+      lag: 56.7
+      lag_src: 'readings: cdh-1963'
+      I: 1
+      P: 1
+      D: John Herman Dent
+      R: Charles E. Scalf
+      with: 1.6
+      without: 2.0
+    - st: PA
+      d: 22
+      v: 42.5
+      lag: 42.7
+      lag_src: 'readings: cdh-1963'
+      I: -1
+      P: -1
+      D: Donald J. Perry
+      R: John P. Saylor
+      with: 2.1
+      without: 1.5
+    - st: PA
+      d: 24
+      v: 48.6
+      lag: 49.0
+      lag_src: 'readings: cdh-1963'
+      I: 0
+      P: -1
+      D: Peter J. Joyce
+      R: James D. Weaver
+      with: -0.4
+      without: 3.0
+    - st: PA
+      d: 25
+      v: 56.4
+      lag: 58.1
+      lag_src: 'readings: cdh-1963'
+      I: 1
+      P: 1
+      D: Frank M. Clark
+      R: Harvey R. Robinson
+      with: -2.5
+      without: -2.1
+    - st: PA
+      d: 26
+      v: 61.7
+      lag: 63.6
+      lag_src: 'readings: cdh-1963'
+      I: 1
+      P: 1
+      D: Thomas E. Morgan
+      R: Jerome Hahn
+      with: -1.1
+      without: -0.8
     - st: RI
       d: 1
       v: 56.8
@@ -7921,8 +8516,8 @@ years:
       P: 1
       D: Fernand St Germain
       R: R. Gordon Butler
-      with: -7.7
-      without: -7.5
+      with: -7.9
+      without: -7.6
     - st: RI
       d: 2
       v: 71.8
@@ -7932,8 +8527,8 @@ years:
       P: 1
       D: John E. Fogarty
       R: John F. Kennedy
-      with: 4.3
-      without: 4.4
+      with: 4.2
+      without: 4.5
     - st: SD
       d: 1
       v: 40.8
@@ -7943,8 +8538,8 @@ years:
       P: -1
       D: Ralph A. Nauman
       R: Ben Reifel
-      with: -1.7
-      without: -2.4
+      with: -1.4
+      without: -2.0
     - st: SD
       d: 2
       v: 38.5
@@ -7954,8 +8549,8 @@ years:
       P: -1
       D: M. W. Clarkson
       R: E. Y. Berry
-      with: -0.4
-      without: -1.0
+      with: -0.2
+      without: -0.8
     - st: TN
       d: 1
       v: 44.9
@@ -7965,8 +8560,19 @@ years:
       P: -1
       D: Herbert R. Silvers
       R: Jimmy Quillen
-      with: 12.8
-      without: 17.2
+      with: 12.9
+      without: 16.7
+    - st: TX
+      d: 0
+      v: 56.1
+      lag: 85.0
+      lag_src: 'readings: cdh-1963'
+      I: 0
+      P: 1
+      D: Joe R. Pool
+      R: Desmond Barry
+      with: -17.5
+      without: -21.6
     - st: TX
       d: 2
       v: 68.7
@@ -7987,8 +8593,8 @@ years:
       P: -1
       D: Bill Jones
       R: Bruce Alger
-      with: 3.0
-      without: 2.4
+      with: 3.3
+      without: 2.7
     - st: TX
       d: 8
       v: 71.5
@@ -7998,8 +8604,8 @@ years:
       P: 1
       D: Albert Thomas
       R: Anthony J. P. Farris
-      with: -0.1
-      without: 0.0
+      with: 0.1
+      without: 0.3
     - st: TX
       d: 16
       v: 46.2
@@ -8009,8 +8615,8 @@ years:
       P: 1
       D: J. T. Rutherford
       R: Ed Foreman
-      with: -25.9
-      without: -25.8
+      with: -25.7
+      without: -25.6
     - st: TX
       d: 22
       v: 53.5
@@ -8020,8 +8626,8 @@ years:
       P: 1
       D: Robert R. Casey
       R: Ross Baker
-      with: -6.2
-      without: -5.9
+      with: -6.6
+      without: -6.2
     - st: UT
       d: 1
       v: 49.1
@@ -8031,8 +8637,8 @@ years:
       P: 1
       D: M. Blaine Peterson
       R: Laurence J. Burton
-      with: -3.3
-      without: -2.9
+      with: -4.2
+      without: -3.7
     - st: UT
       d: 2
       v: 46.1
@@ -8042,8 +8648,8 @@ years:
       P: 1
       D: Bruce S. Jenkins
       R: Sherman P. Lloyd
-      with: -2.2
-      without: -6.5
+      with: -3.6
+      without: -7.3
     - st: VA
       d: 2
       v: 75.0
@@ -8053,8 +8659,8 @@ years:
       P: 1
       D: Porter Hardy Jr.
       R: Louis B. Fine
-      with: 3.3
-      without: 3.4
+      with: 3.5
+      without: 3.7
     - st: VA
       d: 6
       v: 34.6
@@ -8064,8 +8670,8 @@ years:
       P: -1
       D: John P. Wheeler
       R: Richard H. Poff
-      with: 12.6
-      without: 12.3
+      with: 11.9
+      without: 11.6
     - st: VA
       d: 9
       v: 61.2
@@ -8075,8 +8681,8 @@ years:
       P: 1
       D: W. Pat Jennings
       R: Leon Owens
-      with: 2.8
-      without: 3.2
+      with: 2.3
+      without: 2.7
     - st: VA
       d: 10
       v: 44.6
@@ -8086,8 +8692,8 @@ years:
       P: -1
       D: Augustus C. Johnson
       R: Joel Broyhill
-      with: 2.2
-      without: 1.6
+      with: 2.6
+      without: 1.9
     - st: VT
       d: 0
       v: 43.3
@@ -8097,8 +8703,8 @@ years:
       P: -1
       D: Harold Raynolds
       R: Robert Stafford
-      with: 2.5
-      without: 1.9
+      with: 2.8
+      without: 2.1
     - st: WA
       d: 1
       v: 26.3
@@ -8108,8 +8714,8 @@ years:
       P: -1
       D: Alice Franklin Bryant
       R: Thomas Pelly
-      with: -4.9
-      without: -5.4
+      with: -5.2
+      without: -5.6
     - st: WA
       d: 2
       v: 40.2
@@ -8119,8 +8725,8 @@ years:
       P: -1
       D: Milo Moore
       R: Jack Westland
-      with: 1.6
-      without: 1.0
+      with: 1.7
+      without: 1.2
     - st: WA
       d: 3
       v: 65.3
@@ -8130,8 +8736,8 @@ years:
       P: 1
       D: Julia Butler Hansen
       R: Edwin J. Alexander
-      with: 10.4
-      without: 10.7
+      with: 9.6
+      without: 10.1
     - st: WA
       d: 4
       v: 33.0
@@ -8141,8 +8747,8 @@ years:
       P: -1
       D: David A. Gallant
       R: Catherine Dean May
-      with: -6.6
-      without: -7.2
+      with: -6.4
+      without: -7.0
     - st: WA
       d: 5
       v: 35.6
@@ -8152,8 +8758,8 @@ years:
       P: -1
       D: Bernard J. Gallagher
       R: Walt Horan
-      with: -3.6
-      without: -4.2
+      with: -3.4
+      without: -4.0
     - st: WA
       d: 6
       v: 28.9
@@ -8163,8 +8769,8 @@ years:
       P: -1
       D: Dawn Olson
       R: Thor C. Tollefson
-      with: -12.4
-      without: -13.0
+      with: -12.1
+      without: -12.7
     - st: WA
       d: 7
       v: 43.4
@@ -8174,8 +8780,8 @@ years:
       P: 1
       D: Don Magnuson
       R: K. William Stinson
-      with: -9.1
-      without: -8.6
+      with: -9.9
+      without: -9.4
     - st: WI
       d: 1
       v: 46.7
@@ -8185,8 +8791,8 @@ years:
       P: -1
       D: Gerald T. Flynn
       R: Henry C. Schadeberg
-      with: 2.6
-      without: 1.9
+      with: 3.1
+      without: 2.4
     - st: WI
       d: 2
       v: 52.5
@@ -8196,8 +8802,8 @@ years:
       P: 1
       D: Robert Kastenmeier
       R: Ivan H. Kindschi
-      with: -2.5
-      without: -2.1
+      with: -3.2
+      without: -2.7
     - st: WI
       d: 3
       v: 38.7
@@ -8207,8 +8813,8 @@ years:
       P: -1
       D: Walter P. Thoresen
       R: Vernon W. Thomson
-      with: -4.0
-      without: -4.6
+      with: -3.6
+      without: -4.3
     - st: WI
       d: 4
       v: 72.5
@@ -8229,8 +8835,8 @@ years:
       P: 1
       D: Henry S. Reuss
       R: Thomas F. Nelson
-      with: 5.4
-      without: 5.7
+      with: 4.8
+      without: 5.3
     - st: WI
       d: 6
       v: 40.8
@@ -8240,8 +8846,8 @@ years:
       P: -1
       D: John A. Race
       R: William Van Pelt
-      with: -0.9
-      without: -1.6
+      with: -0.6
+      without: -1.3
     - st: WI
       d: 7
       v: 33.9
@@ -8251,8 +8857,8 @@ years:
       P: -1
       D: John E. Evans
       R: Melvin Laird
-      with: 0.5
-      without: 0.0
+      with: 0.4
+      without: -0.1
     - st: WI
       d: 8
       v: 37.2
@@ -8262,8 +8868,8 @@ years:
       P: -1
       D: Owen F. Monfils
       R: John W. Byrnes
-      with: -2.4
-      without: -3.0
+      with: -2.2
+      without: -2.8
     - st: WI
       d: 9
       v: 55.6
@@ -8273,8 +8879,8 @@ years:
       P: 1
       D: Lester Johnson
       R: Dennis B. Danielson
-      with: -1.7
-      without: -1.4
+      with: -2.3
+      without: -1.9
     - st: WY
       d: 0
       v: 38.6
@@ -8284,26 +8890,27 @@ years:
       P: -1
       D: Louis A. Mankus
       R: William Henry Harrison III
-      with: -5.8
-      without: -6.5
+      with: -5.3
+      without: -6.0
   1964:
-    n: 312
+    n: 315
     lag_sources:
       elections/1962.yaml: 312
-    mean_swing: 5.02
+      'readings: cdh-1965': 3
+    mean_swing: 4.99
     with:
-      a: 0.1644
-      b: 0.7766
-      delta: -0.71
-      psi: 3.56
-      r2: 0.827
-      sd: 5.8
+      a: 0.1732
+      b: 0.7589
+      delta: -0.54
+      psi: 3.54
+      r2: 0.82
+      sd: 5.9
     without:
-      a: 0.1614
-      b: 0.7832
-      delta: 2.42
-      r2: 0.821
-      sd: 5.89
+      a: 0.1703
+      b: 0.7652
+      delta: 2.59
+      r2: 0.814
+      sd: 5.99
     races:
     - st: AK
       d: 0
@@ -8315,7 +8922,7 @@ years:
       D: Ralph Rivers
       R: Lowell Thomas Jr.
       with: -11.3
-      without: -10.9
+      without: -11.0
     - st: AR
       d: 3
       v: 54.7
@@ -8325,8 +8932,8 @@ years:
       P: 1
       D: James William Trimble
       R: J. E. Hinshaw
-      with: -18.4
-      without: -18.1
+      with: -18.2
+      without: -17.9
     - st: AZ
       d: 1
       v: 44.7
@@ -8337,7 +8944,7 @@ years:
       D: John Ahearn
       R: John Jacob Rhodes
       with: -1.0
-      without: -1.4
+      without: -1.3
     - st: AZ
       d: 2
       v: 58.7
@@ -8359,7 +8966,7 @@ years:
       D: George F. Senner Jr.
       R: Sam Steiger
       with: -11.3
-      without: -10.9
+      without: -11.0
     - st: CA
       d: 1
       v: 40.9
@@ -8369,8 +8976,8 @@ years:
       P: -1
       D: George McCabe
       R: Don Clausen
-      with: -12.1
-      without: -12.6
+      with: -11.9
+      without: -12.4
     - st: CA
       d: 2
       v: 64.6
@@ -8380,8 +8987,8 @@ years:
       P: 1
       D: Bizz Johnson
       R: Chester C. Merriam
-      with: -4.9
-      without: -4.5
+      with: -4.7
+      without: -4.4
     - st: CA
       d: 3
       v: 74.3
@@ -8391,8 +8998,8 @@ years:
       P: 1
       D: John E. Moss
       R: Einar B. Gjelsteen
-      with: -3.1
-      without: -2.9
+      with: -2.8
+      without: -2.6
     - st: CA
       d: 4
       v: 71.9
@@ -8424,8 +9031,8 @@ years:
       P: 1
       D: Jeffery Cohelan
       R: Lawrence E. McNutt
-      with: -3.3
-      without: -3.0
+      with: -3.2
+      without: -2.9
     - st: CA
       d: 8
       v: 70.3
@@ -8435,8 +9042,8 @@ years:
       P: 1
       D: George P. Miller
       R: Donald E. McKay
-      with: -5.3
-      without: -5.1
+      with: -5.1
+      without: -4.8
     - st: CA
       d: 9
       v: 69.8
@@ -8446,8 +9053,8 @@ years:
       P: 1
       D: Don Edwards
       R: William P. Hyde
-      with: -0.7
-      without: -0.5
+      with: -0.6
+      without: -0.3
     - st: CA
       d: 10
       v: 36.9
@@ -8457,7 +9064,7 @@ years:
       P: -1
       D: E. Day Carman
       R: Charles Gubser
-      with: -7.2
+      with: -7.3
       without: -7.6
     - st: CA
       d: 11
@@ -8468,8 +9075,8 @@ years:
       P: -1
       D: W. Mark Sullivan
       R: J. Arthur Younger
-      with: 2.4
-      without: 2.0
+      with: 2.3
+      without: 1.9
     - st: CA
       d: 12
       v: 38.1
@@ -8480,7 +9087,7 @@ years:
       D: Sanford Bolz
       R: Burt Talcott
       with: -5.6
-      without: -5.9
+      without: -6.0
     - st: CA
       d: 13
       v: 42.6
@@ -8490,8 +9097,8 @@ years:
       P: -1
       D: George E. Taylor
       R: Charles M. Teague
-      with: 1.8
-      without: 1.4
+      with: 1.7
+      without: 1.3
     - st: CA
       d: 14
       v: 35.1
@@ -8502,7 +9109,7 @@ years:
       D: Russell M. Koch
       R: John F. Baldwin Jr.
       with: -7.3
-      without: -7.6
+      without: -7.7
     - st: CA
       d: 15
       v: 70.9
@@ -8512,8 +9119,8 @@ years:
       P: 1
       D: John J. McFall
       R: Kenneth Gibson
-      with: -2.8
-      without: -2.5
+      with: -2.5
+      without: -2.3
     - st: CA
       d: 16
       v: 66.8
@@ -8523,8 +9130,8 @@ years:
       P: 1
       D: B. F. Sisk
       R: David T. Harris
-      with: -8.3
-      without: -8.1
+      with: -8.1
+      without: -7.9
     - st: CA
       d: 17
       v: 67.7
@@ -8534,8 +9141,8 @@ years:
       P: 1
       D: Cecil R. King
       R: Robert Muncaster
-      with: -3.8
-      without: -3.5
+      with: -3.6
+      without: -3.3
     - st: CA
       d: 18
       v: 66.7
@@ -8556,7 +9163,7 @@ years:
       P: 1
       D: Chet Holifield
       R: C. Everett Hunt
-      with: -1.7
+      with: -1.6
       without: -1.3
     - st: CA
       d: 20
@@ -8567,8 +9174,8 @@ years:
       P: -1
       D: C. Bernard Kaufman
       R: H. Allen Smith
-      with: -4.3
-      without: -4.6
+      with: -4.5
+      without: -4.8
     - st: CA
       d: 21
       v: 90.3
@@ -8578,8 +9185,8 @@ years:
       P: 1
       D: Augustus Hawkins
       R: Rayfield Lundy
-      with: 5.3
-      without: 5.5
+      with: 5.8
+      without: 6.0
     - st: CA
       d: 22
       v: 50.5
@@ -8589,8 +9196,8 @@ years:
       P: 1
       D: James C. Corman
       R: Robert C. Cline
-      with: -10.4
-      without: -10.0
+      with: -10.5
+      without: -10.1
     - st: CA
       d: 23
       v: 44.6
@@ -8600,8 +9207,8 @@ years:
       P: -1
       D: H. O. Van Petten
       R: Del M. Clawson
-      with: -18.9
-      without: -19.4
+      with: -18.5
+      without: -19.0
     - st: CA
       d: 24
       v: 32.1
@@ -8611,8 +9218,8 @@ years:
       P: -1
       D: Bryan W. Stevens
       R: Glenard P. Lipscomb
-      with: -4.6
-      without: -4.9
+      with: -4.8
+      without: -5.1
     - st: CA
       d: 25
       v: 55.4
@@ -8622,8 +9229,8 @@ years:
       P: 1
       D: Ronald B. Cameron
       R: Frank J. Walton
-      with: -5.5
-      without: -5.1
+      with: -5.6
+      without: -5.2
     - st: CA
       d: 26
       v: 70.4
@@ -8633,8 +9240,8 @@ years:
       P: 1
       D: James Roosevelt
       R: Gil Seton
-      with: -1.9
-      without: -1.7
+      with: -1.8
+      without: -1.5
     - st: CA
       d: 27
       v: 48.3
@@ -8644,8 +9251,8 @@ years:
       P: 1
       D: Tom Bane
       R: Edwin Reinecke
-      with: -7.9
-      without: -11.1
+      with: -8.1
+      without: -11.2
     - st: CA
       d: 28
       v: 34.4
@@ -8655,8 +9262,8 @@ years:
       P: -1
       D: Gerald H. Gottlieb
       R: Alphonzo E. Bell Jr.
-      with: -7.1
-      without: -7.5
+      with: -7.2
+      without: -7.6
     - st: CA
       d: 29
       v: 58.6
@@ -8678,7 +9285,7 @@ years:
       D: Edward R. Roybal
       R: Alfred J. Feder
       with: 3.1
-      without: 3.5
+      without: 3.4
     - st: CA
       d: 31
       v: 64.0
@@ -8688,8 +9295,8 @@ years:
       P: 1
       D: Charles H. Wilson
       R: Norman G. Shanahan
-      with: 4.2
-      without: 4.6
+      with: 4.1
+      without: 4.4
     - st: CA
       d: 32
       v: 31.1
@@ -8699,8 +9306,8 @@ years:
       P: -1
       D: Michael Cullen
       R: Craig Hosmer
-      with: -5.2
-      without: -5.6
+      with: -5.4
+      without: -5.8
     - st: CA
       d: 33
       v: 51.7
@@ -8722,7 +9329,7 @@ years:
       D: Richard T. Hanna
       R: Robert A. Geier
       with: -4.5
-      without: -4.1
+      without: -4.2
     - st: CA
       d: 35
       v: 35.0
@@ -8732,8 +9339,8 @@ years:
       P: -1
       D: Paul B. Carpenter
       R: James B. Utt
-      with: -3.0
-      without: -3.4
+      with: -3.2
+      without: -3.5
     - st: CA
       d: 36
       v: 40.9
@@ -8743,7 +9350,7 @@ years:
       P: -1
       D: Quintin Whelan
       R: Bob Wilson
-      with: -2.3
+      with: -2.4
       without: -2.7
     - st: CA
       d: 37
@@ -8754,8 +9361,8 @@ years:
       P: 1
       D: Lionel Van Deerlin
       R: Dick Wilson
-      with: -0.9
-      without: -0.5
+      with: -1.0
+      without: -0.7
     - st: CA
       d: 38
       v: 52.8
@@ -8765,8 +9372,30 @@ years:
       P: -1
       D: John V. Tunney
       R: Patrick M. Martin
-      with: 5.0
-      without: 4.6
+      with: 5.1
+      without: 4.7
+    - st: CO
+      d: 1
+      v: 67.9
+      lag: 56.0
+      lag_src: 'readings: cdh-1965'
+      I: 1
+      P: 1
+      D: Byron G. Rogers
+      R: Glenn R. Jones
+      with: 5.1
+      without: 5.4
+    - st: CT
+      d: 2
+      v: 63.3
+      lag: 50.8
+      lag_src: 'readings: cdh-1965'
+      I: 1
+      P: 1
+      D: William St. Onge
+      R: Belton A. Copp
+      with: 4.4
+      without: 4.8
     - st: DE
       d: 0
       v: 56.6
@@ -8776,8 +9405,8 @@ years:
       P: 1
       D: Harris McDowell
       R: James H. Snowden
-      with: -3.9
-      without: -3.5
+      with: -4.0
+      without: -3.6
     - st: FL
       d: 3
       v: 65.7
@@ -8788,7 +9417,7 @@ years:
       D: Claude Pepper
       R: Paul J. O'Neill
       with: 1.7
-      without: 2.1
+      without: 2.0
     - st: FL
       d: 4
       v: 63.9
@@ -8798,8 +9427,8 @@ years:
       P: 1
       D: Dante Fascell
       R: Jay McGlon
-      with: -5.4
-      without: -5.1
+      with: -5.3
+      without: -5.0
     - st: FL
       d: 6
       v: 66.0
@@ -8809,8 +9438,8 @@ years:
       P: 1
       D: Paul Rogers
       R: John D. Steele
-      with: -3.1
-      without: -2.8
+      with: -3.0
+      without: -2.7
     - st: FL
       d: 11
       v: 39.4
@@ -8820,8 +9449,8 @@ years:
       P: -1
       D: Thomas S. Kenney
       R: Edward Gurney
-      with: -11.5
-      without: -11.9
+      with: -11.4
+      without: -11.8
     - st: FL
       d: 12
       v: 39.4
@@ -8831,8 +9460,19 @@ years:
       P: -1
       D: F. Marion Harrelson
       R: William C. Cramer
-      with: -1.7
-      without: -2.1
+      with: -1.8
+      without: -2.2
+    - st: GA
+      d: 7
+      v: 54.7
+      lag: 72.4
+      lag_src: 'readings: cdh-1965'
+      I: 1
+      P: 1
+      D: John William Davis
+      R: Edward Y. Chapin
+      with: -20.6
+      without: -20.3
     - st: IA
       d: 1
       v: 51.0
@@ -8853,8 +9493,8 @@ years:
       P: -1
       D: John Culver
       R: James E. Bromwell
-      with: 1.9
-      without: 1.5
+      with: 2.1
+      without: 1.6
     - st: IA
       d: 3
       v: 49.9
@@ -8876,7 +9516,7 @@ years:
       D: Bert Bandstra
       R: John Henry Kyl
       with: 5.8
-      without: 5.3
+      without: 5.4
     - st: IA
       d: 5
       v: 70.1
@@ -8897,7 +9537,7 @@ years:
       P: -1
       D: Stanley L. Greigg
       R: Howard N. Sokol
-      with: 3.9
+      with: 4.0
       without: 7.1
     - st: IA
       d: 7
@@ -8908,8 +9548,8 @@ years:
       P: -1
       D: John R. Hansen
       R: Ben F. Jensen
-      with: 5.8
-      without: 5.4
+      with: 5.9
+      without: 5.5
     - st: ID
       d: 1
       v: 51.7
@@ -8920,7 +9560,7 @@ years:
       D: Compton I. White Jr.
       R: John Mattmiller
       with: -8.8
-      without: -8.4
+      without: -8.5
     - st: ID
       d: 2
       v: 47.8
@@ -8930,8 +9570,8 @@ years:
       P: 1
       D: Ralph R. Harding
       R: George V. Hansen
-      with: -12.6
-      without: -12.2
+      with: -12.7
+      without: -12.3
     - st: IL
       d: 1
       v: 84.9
@@ -8941,8 +9581,8 @@ years:
       P: 1
       D: William L. Dawson
       R: Wilbur N. Daniel
-      with: 8.1
-      without: 8.3
+      with: 8.4
+      without: 8.6
     - st: IL
       d: 2
       v: 67.3
@@ -8952,8 +9592,8 @@ years:
       P: 1
       D: Barratt O'Hara
       R: William F. Scannell
-      with: -0.4
-      without: -0.0
+      with: -0.3
+      without: 0.0
     - st: IL
       d: 3
       v: 59.1
@@ -8963,8 +9603,8 @@ years:
       P: 1
       D: William T. Murphy
       R: Emmet Byrne
-      with: -0.2
-      without: 0.2
+      with: -0.3
+      without: 0.1
     - st: IL
       d: 4
       v: 41.1
@@ -8974,8 +9614,8 @@ years:
       P: -1
       D: Ray J. Rybacki
       R: Ed Derwinski
-      with: 0.2
-      without: -0.1
+      with: 0.1
+      without: -0.2
     - st: IL
       d: 5
       v: 63.7
@@ -8985,8 +9625,8 @@ years:
       P: 1
       D: John C. Kluczynski
       R: Robert V. Kotowski
-      with: -4.8
-      without: -4.5
+      with: -4.7
+      without: -4.4
     - st: IL
       d: 6
       v: 83.4
@@ -8996,8 +9636,8 @@ years:
       P: 1
       D: Daniel J. Ronan
       R: Joseph W. Halac
-      with: 7.3
-      without: 3.9
+      with: 7.6
+      without: 4.3
     - st: IL
       d: 7
       v: 85.9
@@ -9007,8 +9647,8 @@ years:
       P: 1
       D: Frank Annunzio
       R: Ray Wolfram
-      with: 9.0
-      without: 5.6
+      with: 9.3
+      without: 6.0
     - st: IL
       d: 8
       v: 66.1
@@ -9019,7 +9659,7 @@ years:
       D: Dan Rostenkowski
       R: Eugene L. Ebrom
       with: -0.4
-      without: -0.1
+      without: -0.0
     - st: IL
       d: 9
       v: 63.9
@@ -9030,7 +9670,7 @@ years:
       D: Sidney R. Yates
       R: Robert S. Decker
       with: 5.5
-      without: 2.4
+      without: 2.3
     - st: IL
       d: 10
       v: 39.2
@@ -9040,8 +9680,8 @@ years:
       P: -1
       D: Thomas E. Gause
       R: Harold R. Collier
-      with: -0.4
-      without: -0.7
+      with: -0.5
+      without: -0.8
     - st: IL
       d: 11
       v: 56.9
@@ -9051,8 +9691,8 @@ years:
       P: 1
       D: Roman Pucinski
       R: Chester T. Podgorski
-      with: -3.4
-      without: -3.0
+      with: -3.5
+      without: -3.1
     - st: IL
       d: 12
       v: 41.4
@@ -9063,7 +9703,7 @@ years:
       D: John C. Kimball
       R: Robert McClory
       with: -0.3
-      without: -0.6
+      without: -0.7
     - st: IL
       d: 13
       v: 42.2
@@ -9073,8 +9713,8 @@ years:
       P: -1
       D: Lynn A. Williams
       R: Donald Rumsfeld
-      with: 0.4
-      without: 0.0
+      with: 0.3
+      without: -0.1
     - st: IL
       d: 14
       v: 41.0
@@ -9095,7 +9735,7 @@ years:
       P: -1
       D: Poppy X. Mitchell
       R: Charlotte Thompson Reid
-      with: -2.2
+      with: -2.3
       without: -2.6
     - st: IL
       d: 16
@@ -9106,8 +9746,8 @@ years:
       P: -1
       D: Robert E. Brinkmeier
       R: John B. Anderson
-      with: 4.3
-      without: 4.0
+      with: 4.2
+      without: 3.9
     - st: IL
       d: 17
       v: 43.6
@@ -9118,7 +9758,7 @@ years:
       D: Bernard J. Hughes
       R: Leslie C. Arends
       with: 0.8
-      without: 0.5
+      without: 0.4
     - st: IL
       d: 18
       v: 46.0
@@ -9128,7 +9768,7 @@ years:
       P: -1
       D: Edward P. Kohlbacher
       R: Robert H. Michel
-      with: 2.3
+      with: 2.2
       without: 1.9
     - st: IL
       d: 19
@@ -9140,7 +9780,7 @@ years:
       D: Gale Schisler
       R: Robert T. McLoskey
       with: 4.6
-      without: 4.1
+      without: 4.2
     - st: IL
       d: 20
       v: 45.2
@@ -9150,8 +9790,8 @@ years:
       P: -1
       D: Lester E. Collins
       R: Paul Findley
-      with: -5.0
-      without: -5.4
+      with: -4.9
+      without: -5.3
     - st: IL
       d: 21
       v: 65.0
@@ -9162,7 +9802,7 @@ years:
       D: Kenneth J. Gray
       R: Stillman J. Stanard
       with: -0.9
-      without: -0.6
+      without: -0.5
     - st: IL
       d: 22
       v: 47.0
@@ -9183,8 +9823,8 @@ years:
       P: 1
       D: George E. Shipley
       R: Wayne S. Jones
-      with: -4.9
-      without: -4.5
+      with: -5.0
+      without: -4.6
     - st: IL
       d: 24
       v: 75.7
@@ -9194,8 +9834,8 @@ years:
       P: 1
       D: Melvin Price
       R: G. S. Mirza
-      with: -0.9
-      without: -0.6
+      with: -0.6
+      without: -0.3
     - st: IN
       d: 1
       v: 63.9
@@ -9206,7 +9846,7 @@ years:
       D: Ray Madden
       R: Arthur F. Endres
       with: -2.6
-      without: -2.3
+      without: -2.2
     - st: IN
       d: 2
       v: 47.1
@@ -9227,8 +9867,8 @@ years:
       P: 1
       D: John Brademas
       R: Robert L. Miller
-      with: 1.1
-      without: 1.4
+      with: 0.9
+      without: 1.3
     - st: IN
       d: 4
       v: 47.9
@@ -9238,8 +9878,8 @@ years:
       P: -1
       D: Max E. Hobbs
       R: E. Ross Adair
-      with: -0.2
-      without: -0.6
+      with: -0.1
+      without: -0.5
     - st: IN
       d: 5
       v: 55.2
@@ -9249,8 +9889,8 @@ years:
       P: 1
       D: J. Edward Roush
       R: John R. Feighner
-      with: -4.2
-      without: -3.8
+      with: -4.3
+      without: -4.0
     - st: IN
       d: 6
       v: 45.9
@@ -9260,8 +9900,8 @@ years:
       P: -1
       D: Karl O'Lessker
       R: Richard L. Roudebush
-      with: -4.5
-      without: -4.9
+      with: -4.4
+      without: -4.8
     - st: IN
       d: 7
       v: 45.8
@@ -9283,7 +9923,7 @@ years:
       D: Winfield K. Denton
       R: Roger H. Zion
       with: -6.1
-      without: -5.7
+      without: -5.8
     - st: IN
       d: 9
       v: 54.4
@@ -9293,8 +9933,8 @@ years:
       P: -1
       D: Lee Hamilton
       R: Earl Wilson
-      with: 3.6
-      without: 3.2
+      with: 3.8
+      without: 3.3
     - st: IN
       d: 10
       v: 49.6
@@ -9304,8 +9944,8 @@ years:
       P: -1
       D: Russell E. Davis
       R: Ralph Harvey
-      with: -0.6
-      without: -1.0
+      with: -0.5
+      without: -0.9
     - st: IN
       d: 11
       v: 50.5
@@ -9315,8 +9955,8 @@ years:
       P: -1
       D: Andrew Jacobs Jr.
       R: Don A. Tabbert
-      with: -2.2
-      without: 0.9
+      with: -2.1
+      without: 1.0
     - st: KS
       d: 1
       v: 48.8
@@ -9326,8 +9966,8 @@ years:
       P: -1
       D: Bill Bork
       R: Bob Dole
-      with: 0.9
-      without: 0.5
+      with: 1.0
+      without: 0.6
     - st: KS
       d: 2
       v: 48.9
@@ -9337,8 +9977,8 @@ years:
       P: -1
       D: John Montgomery
       R: Chester L. Mize
-      with: 4.7
-      without: 7.9
+      with: 4.6
+      without: 7.8
     - st: KS
       d: 3
       v: 37.8
@@ -9348,7 +9988,7 @@ years:
       P: -1
       D: A. Clayton Dial
       R: Robert Ellsworth
-      with: -4.2
+      with: -4.3
       without: -4.6
     - st: KS
       d: 4
@@ -9359,8 +9999,8 @@ years:
       P: -1
       D: Jack Glaves
       R: Garner E. Shriver
-      with: 1.4
-      without: 1.0
+      with: 1.2
+      without: 0.9
     - st: KS
       d: 5
       v: 43.6
@@ -9370,8 +10010,8 @@ years:
       P: -1
       D: Reb. Russell
       R: Joe Skubitz
-      with: -6.3
-      without: -6.7
+      with: -6.1
+      without: -6.6
     - st: KY
       d: 3
       v: 53.8
@@ -9381,8 +10021,8 @@ years:
       P: -1
       D: Charles R. Farnsley
       R: Gene Snyder
-      with: 2.0
-      without: 1.6
+      with: 2.2
+      without: 1.7
     - st: KY
       d: 4
       v: 61.7
@@ -9392,8 +10032,8 @@ years:
       P: 1
       D: Frank Chelf
       R: Clyde Middleton
-      with: 1.3
-      without: 1.7
+      with: 1.2
+      without: 1.6
     - st: KY
       d: 7
       v: 69.7
@@ -9404,7 +10044,7 @@ years:
       D: Carl D. Perkins
       R: Walter Clay Van Hoose
       with: 6.0
-      without: 6.4
+      without: 6.3
     - st: LA
       d: 2
       v: 55.0
@@ -9414,8 +10054,8 @@ years:
       P: 1
       D: Hale Boggs
       R: David C. Treen
-      with: -16.5
-      without: -16.2
+      with: -16.3
+      without: -16.0
     - st: LA
       d: 8
       v: 54.5
@@ -9425,8 +10065,8 @@ years:
       P: 1
       D: Speedy Long
       R: William S. Walker
-      with: -10.9
-      without: -14.2
+      with: -10.8
+      without: -14.1
     - st: MA
       d: 5
       v: 35.0
@@ -9458,8 +10098,8 @@ years:
       P: 1
       D: Torbert Macdonald
       R: Gordon F. Hughes
-      with: 2.1
-      without: 2.3
+      with: 2.3
+      without: 2.6
     - st: MA
       d: 10
       v: 37.0
@@ -9469,8 +10109,8 @@ years:
       P: -1
       D: Edward F. Doolan
       R: Joseph W. Martin Jr.
-      with: -3.4
-      without: -3.7
+      with: -3.5
+      without: -3.8
     - st: MA
       d: 12
       v: 40.4
@@ -9480,8 +10120,8 @@ years:
       P: -1
       D: Alexander Byron
       R: Hastings Keith
-      with: -1.0
-      without: -1.4
+      with: -1.1
+      without: -1.5
     - st: MD
       d: 0
       v: 69.4
@@ -9491,7 +10131,7 @@ years:
       P: 1
       D: Carlton R. Sickles
       R: David Scull
-      with: 6.9
+      with: 6.8
       without: 7.2
     - st: MD
       d: 1
@@ -9502,8 +10142,8 @@ years:
       P: -1
       D: Harry Hughes
       R: Rogers Morton
-      with: -3.1
-      without: -3.5
+      with: -2.9
+      without: -3.4
     - st: MD
       d: 2
       v: 65.9
@@ -9513,8 +10153,8 @@ years:
       P: 1
       D: Clarence Long
       R: George A. Price
-      with: 6.3
-      without: 6.7
+      with: 6.2
+      without: 6.6
     - st: MD
       d: 4
       v: 77.8
@@ -9524,8 +10164,8 @@ years:
       P: 1
       D: George Hyde Fallon
       R: Charles O'Donovan Evans
-      with: 2.3
-      without: 2.6
+      with: 2.5
+      without: 2.8
     - st: MD
       d: 5
       v: 61.0
@@ -9535,7 +10175,7 @@ years:
       P: 1
       D: Hervey Machen
       R: Edward A. Potts
-      with: -1.0
+      with: -0.9
       without: -4.2
     - st: MD
       d: 6
@@ -9557,8 +10197,8 @@ years:
       P: 1
       D: Samuel Friedel
       R: Thomas C. Hofstetter
-      with: 5.8
-      without: 6.1
+      with: 6.0
+      without: 6.3
     - st: ME
       d: 1
       v: 49.9
@@ -9579,8 +10219,8 @@ years:
       P: -1
       D: William Hathaway
       R: Kenneth P. MacLeod
-      with: 6.9
-      without: 10.0
+      with: 7.1
+      without: 10.2
     - st: MN
       d: 1
       v: 44.7
@@ -9634,8 +10274,8 @@ years:
       P: 1
       D: Donald M. Fraser
       R: John W. Johnson
-      with: 2.4
-      without: 2.7
+      with: 2.2
+      without: 2.6
     - st: MN
       d: 6
       v: 51.8
@@ -9645,8 +10285,8 @@ years:
       P: 1
       D: Alec G. Olson
       R: Robert J. Odegard
-      with: -6.4
-      without: -6.0
+      with: -6.6
+      without: -6.2
     - st: MN
       d: 7
       v: 49.2
@@ -9656,8 +10296,8 @@ years:
       P: -1
       D: Ben M. Wichterman
       R: Odin Langen
-      with: -1.7
-      without: -2.1
+      with: -1.5
+      without: -2.0
     - st: MN
       d: 8
       v: 69.4
@@ -9667,8 +10307,8 @@ years:
       P: 1
       D: John Blatnik
       R: David W. Glossbrenner
-      with: -0.9
-      without: -0.6
+      with: -0.8
+      without: -0.5
     - st: MO
       d: 1
       v: 76.9
@@ -9678,8 +10318,8 @@ years:
       P: 1
       D: Frank M. Karsten
       R: Ted Fischer
-      with: 2.7
-      without: 3.0
+      with: 2.9
+      without: 3.2
     - st: MO
       d: 2
       v: 46.9
@@ -9690,7 +10330,7 @@ years:
       D: Sidney B. McClanahan
       R: Thomas B. Curtis
       with: -0.6
-      without: -1.1
+      without: -1.0
     - st: MO
       d: 3
       v: 71.7
@@ -9700,8 +10340,8 @@ years:
       P: 1
       D: Leonor Sullivan
       R: Howard C. Ohlendorf
-      with: -2.4
-      without: -2.1
+      with: -2.2
+      without: -1.9
     - st: MO
       d: 4
       v: 63.9
@@ -9711,8 +10351,8 @@ years:
       P: 1
       D: William J. Randall
       R: James M. Taylor
-      with: 2.7
-      without: 3.1
+      with: 2.6
+      without: 3.0
     - st: MO
       d: 5
       v: 69.3
@@ -9734,7 +10374,7 @@ years:
       D: William R. Hull Jr.
       R: Henry E. Wurst
       with: 2.4
-      without: 2.8
+      without: 2.7
     - st: MO
       d: 7
       v: 48.3
@@ -9744,8 +10384,8 @@ years:
       P: -1
       D: Jim Thomas
       R: Durward G. Hall
-      with: 1.8
-      without: 1.4
+      with: 1.9
+      without: 1.5
     - st: MO
       d: 8
       v: 65.2
@@ -9788,8 +10428,8 @@ years:
       P: 1
       D: Arnold Olsen
       R: Wayne Montgomery
-      with: -6.4
-      without: -6.0
+      with: -6.5
+      without: -6.1
     - st: MT
       d: 2
       v: 45.9
@@ -9799,8 +10439,8 @@ years:
       P: -1
       D: Jack C. Toole
       R: James F. Battin
-      with: -2.3
-      without: -2.7
+      with: -2.2
+      without: -2.6
     - st: NC
       d: 4
       v: 51.8
@@ -9821,7 +10461,7 @@ years:
       P: 1
       D: Ralph James Scott
       R: W. A. Armfield
-      with: -13.7
+      with: -13.6
       without: -13.3
     - st: NC
       d: 6
@@ -9843,8 +10483,8 @@ years:
       P: -1
       D: W. D. James
       R: Charles R. Jonas
-      with: -2.1
-      without: -2.5
+      with: -2.0
+      without: -2.4
     - st: NC
       d: 9
       v: 44.8
@@ -9854,8 +10494,8 @@ years:
       P: -1
       D: Robert M. Davis
       R: Jim Broyhill
-      with: -7.2
-      without: -7.7
+      with: -7.1
+      without: -7.5
     - st: NC
       d: 10
       v: 58.6
@@ -9865,7 +10505,7 @@ years:
       P: 1
       D: Basil Whitener
       R: W. Hall Young
-      with: -3.4
+      with: -3.5
       without: -3.1
     - st: NC
       d: 11
@@ -9876,7 +10516,7 @@ years:
       P: 1
       D: Roy A. Taylor
       R: Clyde M. Roberts
-      with: -1.6
+      with: -1.7
       without: -1.3
     - st: ND
       d: 1
@@ -9887,8 +10527,8 @@ years:
       P: -1
       D: George A. Sinner
       R: Mark Andrews
-      with: -1.2
-      without: -1.7
+      with: -1.1
+      without: -1.6
     - st: ND
       d: 2
       v: 52.5
@@ -9898,8 +10538,8 @@ years:
       P: -1
       D: Rolland W. Redlin
       R: Don L. Short
-      with: 3.2
-      without: 2.8
+      with: 3.3
+      without: 2.9
     - st: NE
       d: 1
       v: 51.3
@@ -9909,8 +10549,8 @@ years:
       P: -1
       D: Clair A. Callan
       R: Ralph F. Beermann
-      with: 1.3
-      without: 0.9
+      with: 1.4
+      without: 1.0
     - st: NE
       d: 2
       v: 46.9
@@ -9920,8 +10560,8 @@ years:
       P: -1
       D: Richard Swenson
       R: Glenn Cunningham
-      with: 9.5
-      without: 9.2
+      with: 9.4
+      without: 9.0
     - st: NE
       d: 3
       v: 47.2
@@ -9931,8 +10571,8 @@ years:
       P: -1
       D: William E. Colwell
       R: David Martin
-      with: 6.9
-      without: 6.5
+      with: 6.8
+      without: 6.4
     - st: NH
       d: 1
       v: 51.3
@@ -9942,8 +10582,8 @@ years:
       P: -1
       D: J. Oliva Huot
       R: Louis C. Wyman
-      with: 1.4
-      without: 0.9
+      with: 1.5
+      without: 1.0
     - st: NH
       d: 2
       v: 49.6
@@ -9953,8 +10593,8 @@ years:
       P: -1
       D: Charles B. Officer
       R: James Colgate Cleveland
-      with: 3.0
-      without: 2.6
+      with: 3.1
+      without: 2.7
     - st: NJ
       d: 1
       v: 43.7
@@ -9964,8 +10604,8 @@ years:
       P: -1
       D: William J. Procacci
       R: William T. Cahill
-      with: -1.8
-      without: -2.2
+      with: -1.7
+      without: -2.1
     - st: NJ
       d: 2
       v: 50.8
@@ -9975,8 +10615,8 @@ years:
       P: -1
       D: Thomas C. McGrath Jr.
       R: Milton W. Glenn
-      with: 0.7
-      without: 0.3
+      with: 0.8
+      without: 0.4
     - st: NJ
       d: 3
       v: 50.4
@@ -9986,8 +10626,8 @@ years:
       P: -1
       D: James J. Howard
       R: Marcus Daly
-      with: -0.2
-      without: 2.9
+      with: -0.1
+      without: 3.0
     - st: NJ
       d: 4
       v: 67.6
@@ -9997,8 +10637,8 @@ years:
       P: 1
       D: Frank Thompson
       R: Ephraim Tomlinson II
-      with: -1.3
-      without: -1.0
+      with: -1.2
+      without: -0.9
     - st: NJ
       d: 5
       v: 36.4
@@ -10008,8 +10648,8 @@ years:
       P: -1
       D: Eugene M. Friedman
       R: Peter Frelinghuysen Jr.
-      with: -3.2
-      without: -3.5
+      with: -3.3
+      without: -3.6
     - st: NJ
       d: 6
       v: 40.3
@@ -10030,7 +10670,7 @@ years:
       P: -1
       D: Edward H. Ihnen
       R: William B. Widnall
-      with: 0.1
+      with: 0.0
       without: -0.3
     - st: NJ
       d: 8
@@ -10041,8 +10681,8 @@ years:
       P: 1
       D: Charles S. Joelson
       R: J. Palmer Murphy
-      with: -2.5
-      without: -2.2
+      with: -2.4
+      without: -2.1
     - st: NJ
       d: 9
       v: 50.5
@@ -10052,8 +10692,8 @@ years:
       P: -1
       D: Henry Helstoski
       R: Frank C. Osmers Jr.
-      with: 3.9
-      without: 3.5
+      with: 4.0
+      without: 3.6
     - st: NJ
       d: 10
       v: 74.7
@@ -10063,8 +10703,8 @@ years:
       P: 1
       D: Peter W. Rodino
       R: Raymond W. Schroeder
-      with: -1.5
-      without: -1.2
+      with: -1.2
+      without: -1.0
     - st: NJ
       d: 11
       v: 69.6
@@ -10085,8 +10725,8 @@ years:
       P: -1
       D: Paul J. Krebs
       R: David H. Wiener
-      with: -0.4
-      without: 2.7
+      with: -0.3
+      without: 2.8
     - st: NJ
       d: 13
       v: 78.2
@@ -10096,8 +10736,8 @@ years:
       P: 1
       D: Neil Gallagher
       R: Cresenzi W. Castaldo
-      with: -2.1
-      without: -1.9
+      with: -1.7
+      without: -1.5
     - st: NJ
       d: 14
       v: 74.6
@@ -10107,8 +10747,8 @@ years:
       P: 1
       D: Dominick V. Daniels
       R: Cecil T. Woolsey
-      with: -0.4
-      without: -0.1
+      with: -0.1
+      without: 0.1
     - st: NJ
       d: 15
       v: 63.1
@@ -10119,7 +10759,7 @@ years:
       D: Edward J. Patten
       R: Bernard F. Rodgers
       with: -0.2
-      without: 0.2
+      without: 0.1
     - st: NV
       d: 0
       v: 63.3
@@ -10129,8 +10769,8 @@ years:
       P: 1
       D: Walter S. Baring Jr.
       R: George Von Tobel
-      with: -11.6
-      without: -11.4
+      with: -11.4
+      without: -11.2
     - st: NY
       d: 1
       v: 64.9
@@ -10140,8 +10780,8 @@ years:
       P: 1
       D: Otis G. Pike
       R: John J. Hart Jr.
-      with: -2.3
-      without: -2.0
+      with: -2.2
+      without: -1.9
     - st: NY
       d: 2
       v: 48.4
@@ -10151,8 +10791,8 @@ years:
       P: -1
       D: Edwyn Silberling
       R: James R. Grover Jr.
-      with: 0.3
-      without: -0.1
+      with: 0.4
+      without: 0.0
     - st: NY
       d: 3
       v: 50.7
@@ -10184,7 +10824,7 @@ years:
       P: -1
       D: Herbert Tenzer
       R: Ralph J. Edsell Jr.
-      with: 5.6
+      with: 5.7
       without: 8.8
     - st: NY
       d: 6
@@ -10195,8 +10835,8 @@ years:
       P: -1
       D: Emil Levin
       R: Seymour Halpern
-      with: 0.9
-      without: 0.5
+      with: 0.8
+      without: 0.4
     - st: NY
       d: 7
       v: 71.1
@@ -10207,7 +10847,7 @@ years:
       D: Joseph P. Addabbo
       R: Robert L. Nelson
       with: 5.8
-      without: 6.1
+      without: 6.2
     - st: NY
       d: 8
       v: 77.0
@@ -10217,8 +10857,8 @@ years:
       P: 1
       D: Benjamin Rosenthal
       R: Vincent P. Brevetti
-      with: 6.2
-      without: 6.5
+      with: 6.3
+      without: 6.6
     - st: NY
       d: 9
       v: 69.2
@@ -10228,8 +10868,8 @@ years:
       P: 1
       D: James J. Delaney
       R: Charles H. Cohen
-      with: 1.3
-      without: 1.6
+      with: 1.4
+      without: 1.7
     - st: NY
       d: 10
       v: 87.5
@@ -10239,8 +10879,8 @@ years:
       P: 1
       D: Emanuel Celler
       R: Samuel W. Held
-      with: 5.4
-      without: 5.6
+      with: 5.8
+      without: 6.0
     - st: NY
       d: 11
       v: 80.9
@@ -10250,8 +10890,8 @@ years:
       P: 1
       D: Eugene Keogh
       R: Herman Sanders
-      with: 6.0
-      without: 6.3
+      with: 6.2
+      without: 6.5
     - st: NY
       d: 12
       v: 81.7
@@ -10261,8 +10901,8 @@ years:
       P: 1
       D: Edna F. Kelly
       R: Carlo G. Colavito
-      with: 8.0
-      without: 8.3
+      with: 8.2
+      without: 8.5
     - st: NY
       d: 13
       v: 78.8
@@ -10272,8 +10912,8 @@ years:
       P: 1
       D: Abraham J. Multer
       R: Gerald S. Held
-      with: 1.6
-      without: 1.8
+      with: 1.9
+      without: 2.1
     - st: NY
       d: 14
       v: 77.4
@@ -10283,8 +10923,8 @@ years:
       P: 1
       D: John J. Rooney
       R: Victor J. Tirabasso Jr.
-      with: 3.1
-      without: 3.4
+      with: 3.3
+      without: 3.6
     - st: NY
       d: 15
       v: 53.6
@@ -10294,8 +10934,8 @@ years:
       P: 1
       D: Hugh Carey
       R: Luigi R. Marano
-      with: -4.7
-      without: -4.3
+      with: -4.8
+      without: -4.4
     - st: NY
       d: 16
       v: 61.4
@@ -10305,8 +10945,8 @@ years:
       P: 1
       D: John M. Murphy
       R: David D. Smith
-      with: 2.6
-      without: 3.0
+      with: 2.5
+      without: 2.9
     - st: NY
       d: 17
       v: 24.7
@@ -10316,8 +10956,8 @@ years:
       P: -1
       D: Eleanor C. French
       R: John Lindsay
-      with: -13.2
-      without: -13.6
+      with: -13.4
+      without: -13.7
     - st: NY
       d: 18
       v: 89.0
@@ -10327,8 +10967,8 @@ years:
       P: 1
       D: Adam Clayton Powell Jr.
       R: Joseph A. Bailey
-      with: 10.4
-      without: 10.7
+      with: 10.8
+      without: 11.0
     - st: NY
       d: 19
       v: 77.3
@@ -10338,8 +10978,8 @@ years:
       P: 1
       D: Leonard Farbstein
       R: Henry E. Del Rosso
-      with: 7.0
-      without: 7.3
+      with: 7.2
+      without: 7.4
     - st: NY
       d: 20
       v: 84.1
@@ -10349,8 +10989,8 @@ years:
       P: 1
       D: William Fitts Ryan
       R: Ronald N. Gottlieb
-      with: 8.5
-      without: 8.7
+      with: 8.7
+      without: 9.0
     - st: NY
       d: 21
       v: 85.7
@@ -10360,8 +11000,8 @@ years:
       P: 1
       D: James H. Scheuer
       R: Henry Rose
-      with: 10.7
-      without: 7.4
+      with: 11.0
+      without: 7.7
     - st: NY
       d: 22
       v: 87.4
@@ -10371,8 +11011,8 @@ years:
       P: 1
       D: Jacob H. Gilbert
       R: Manuel R. Roque
-      with: 7.9
-      without: 8.1
+      with: 8.3
+      without: 8.5
     - st: NY
       d: 23
       v: 78.0
@@ -10382,8 +11022,8 @@ years:
       P: 1
       D: Jonathan B. Bingham
       R: Patrick J. Foley
-      with: 12.8
-      without: 9.5
+      with: 12.9
+      without: 9.6
     - st: NY
       d: 24
       v: 36.6
@@ -10416,7 +11056,7 @@ years:
       D: Frank Conniff
       R: Ogden R. Reid
       with: -0.5
-      without: -0.8
+      without: -0.9
     - st: NY
       d: 27
       v: 51.6
@@ -10426,8 +11066,8 @@ years:
       P: -1
       D: John G. Dow
       R: Katharine St. George
-      with: 5.3
-      without: 4.9
+      with: 5.4
+      without: 5.0
     - st: NY
       d: 28
       v: 53.3
@@ -10437,7 +11077,7 @@ years:
       P: -1
       D: Joseph Y. Resnick
       R: J. Ernest Wharton
-      with: 11.8
+      with: 11.7
       without: 11.4
     - st: NY
       d: 29
@@ -10459,8 +11099,8 @@ years:
       P: -1
       D: Joseph J. Martin
       R: Carleton J. King
-      with: 9.2
-      without: 8.8
+      with: 9.1
+      without: 8.7
     - st: NY
       d: 31
       v: 45.4
@@ -10481,8 +11121,8 @@ years:
       P: -1
       D: Robert Castle
       R: Alexander Pirnie
-      with: 0.0
-      without: -0.4
+      with: 0.1
+      without: -0.3
     - st: NY
       d: 33
       v: 41.6
@@ -10492,8 +11132,8 @@ years:
       P: -1
       D: John L. Joy
       R: Howard W. Robison
-      with: 4.0
-      without: 3.7
+      with: 3.8
+      without: 3.5
     - st: NY
       d: 34
       v: 51.2
@@ -10514,8 +11154,8 @@ years:
       P: 1
       D: Samuel S. Stratton
       R: Robert M. Quigley
-      with: 2.4
-      without: 2.8
+      with: 2.3
+      without: 2.7
     - st: NY
       d: 36
       v: 43.1
@@ -10536,8 +11176,8 @@ years:
       P: -1
       D: Neil F. Bubel
       R: Barber Conable
-      with: -0.0
-      without: 3.2
+      with: -0.1
+      without: 3.1
     - st: NY
       d: 38
       v: 41.6
@@ -10547,8 +11187,8 @@ years:
       P: -1
       D: Robert V. Kelley
       R: Charles Goodell
-      with: 4.1
-      without: 3.8
+      with: 3.9
+      without: 3.6
     - st: NY
       d: 39
       v: 52.8
@@ -10558,8 +11198,8 @@ years:
       P: -1
       D: Richard D. McCarthy
       R: John R. Pillion
-      with: 11.3
-      without: 10.9
+      with: 11.2
+      without: 10.8
     - st: NY
       d: 40
       v: 47.3
@@ -10569,8 +11209,8 @@ years:
       P: -1
       D: Wesley J. Hilts
       R: Henry P. Smith III
-      with: -7.1
-      without: -4.0
+      with: -6.9
+      without: -3.8
     - st: NY
       d: 41
       v: 82.1
@@ -10580,8 +11220,8 @@ years:
       P: 1
       D: Thaddeus J. Dulski
       R: Joseph A. Klawon
-      with: 7.3
-      without: 7.6
+      with: 7.5
+      without: 7.8
     - st: OH
       d: 0
       v: 52.2
@@ -10602,7 +11242,7 @@ years:
       P: -1
       D: John J. Gilligan
       R: Carl West Rich
-      with: 9.3
+      with: 9.2
       without: 8.9
     - st: OH
       d: 2
@@ -10614,7 +11254,7 @@ years:
       D: H. A. Sand
       R: Donald D. Clancy
       with: -3.1
-      without: -3.4
+      without: -3.5
     - st: OH
       d: 3
       v: 52.0
@@ -10625,7 +11265,7 @@ years:
       D: Rodney M. Love
       R: Paul F. Schenck
       with: 5.1
-      without: 4.6
+      without: 4.7
     - st: OH
       d: 4
       v: 44.3
@@ -10635,8 +11275,8 @@ years:
       P: -1
       D: Robert H. Mihlbaugh
       R: William M. McCulloch
-      with: 7.7
-      without: 7.3
+      with: 7.5
+      without: 7.2
     - st: OH
       d: 5
       v: 34.1
@@ -10646,8 +11286,8 @@ years:
       P: -1
       D: Milford Landis
       R: Del Latta
-      with: -2.5
-      without: -2.8
+      with: -2.7
+      without: -3.0
     - st: OH
       d: 6
       v: 39.9
@@ -10668,8 +11308,8 @@ years:
       P: -1
       D: Jerry R. Graham
       R: Clarence J. Brown
-      with: 4.6
-      without: 4.2
+      with: 4.4
+      without: 4.1
     - st: OH
       d: 8
       v: 38.2
@@ -10679,8 +11319,8 @@ years:
       P: -1
       D: Frank Bennett
       R: Jackson Edward Betts
-      with: 1.4
-      without: 1.1
+      with: 1.2
+      without: 0.9
     - st: OH
       d: 9
       v: 62.9
@@ -10690,7 +11330,7 @@ years:
       P: 1
       D: Thomas L. Ashley
       R: John O. Celusta
-      with: -0.9
+      with: -1.0
       without: -0.6
     - st: OH
       d: 10
@@ -10701,8 +11341,8 @@ years:
       P: -1
       D: Walter H. Moeller
       R: Pete Abele
-      with: 1.7
-      without: 1.3
+      with: 1.9
+      without: 1.4
     - st: OH
       d: 11
       v: 44.6
@@ -10712,8 +11352,8 @@ years:
       P: -1
       D: C. D. Lambros
       R: J. William Stanton
-      with: -10.9
-      without: -7.8
+      with: -10.7
+      without: -7.6
     - st: OH
       d: 12
       v: 44.6
@@ -10723,8 +11363,8 @@ years:
       P: -1
       D: Robert L. Van Heyde
       R: Samuel L. Devine
-      with: 6.4
-      without: 6.0
+      with: 6.2
+      without: 5.9
     - st: OH
       d: 13
       v: 45.3
@@ -10734,8 +11374,8 @@ years:
       P: -1
       D: Louis Frey
       R: Charles Adams Mosher
-      with: -3.2
-      without: -3.6
+      with: -3.1
+      without: -3.5
     - st: OH
       d: 14
       v: 45.3
@@ -10745,8 +11385,8 @@ years:
       P: -1
       D: Frances McGovern
       R: William Hanes Ayres
-      with: -4.2
-      without: -4.6
+      with: -4.1
+      without: -4.5
     - st: OH
       d: 15
       v: 66.3
@@ -10756,8 +11396,8 @@ years:
       P: 1
       D: Robert T. Secrest
       R: Randall Metcalf
-      with: 6.3
-      without: 6.7
+      with: 6.2
+      without: 6.6
     - st: OH
       d: 16
       v: 47.8
@@ -10789,8 +11429,8 @@ years:
       P: 1
       D: Wayne Hays
       R: Allen J. Dalrymple
-      with: 2.1
-      without: 2.4
+      with: 2.2
+      without: 2.5
     - st: OH
       d: 19
       v: 76.3
@@ -10800,7 +11440,7 @@ years:
       P: 1
       D: Michael J. Kirwan
       R: Albert James
-      with: 8.7
+      with: 8.8
       without: 9.1
     - st: OH
       d: 20
@@ -10811,8 +11451,8 @@ years:
       P: 1
       D: Michael A. Feighan
       R: Joseph A. Cipollone
-      with: -0.0
-      without: 0.2
+      with: 0.2
+      without: 0.4
     - st: OH
       d: 21
       v: 90.1
@@ -10822,8 +11462,8 @@ years:
       P: 1
       D: Charles Vanik
       R: Eugene A. Smith
-      with: 8.8
-      without: 9.0
+      with: 9.2
+      without: 9.4
     - st: OH
       d: 22
       v: 43.4
@@ -10833,8 +11473,8 @@ years:
       P: -1
       D: Chat Paterson
       R: Frances P. Bolton
-      with: 4.8
-      without: 4.5
+      with: 4.7
+      without: 4.3
     - st: OH
       d: 23
       v: 32.8
@@ -10844,8 +11484,8 @@ years:
       P: -1
       D: Norbert G. Dennerll Jr.
       R: William Edwin Minshall Jr.
-      with: -3.0
-      without: -3.3
+      with: -3.2
+      without: -3.5
     - st: OK
       d: 1
       v: 36.5
@@ -10855,8 +11495,8 @@ years:
       P: -1
       D: Doug Martin
       R: Page Belcher
-      with: -1.5
-      without: -1.8
+      with: -1.7
+      without: -2.0
     - st: OK
       d: 2
       v: 61.4
@@ -10867,7 +11507,7 @@ years:
       D: Ed Edmondson
       R: George L. Lange
       with: -1.9
-      without: -1.5
+      without: -1.6
     - st: OK
       d: 5
       v: 70.8
@@ -10877,8 +11517,8 @@ years:
       P: 1
       D: John Jarman
       R: Homer Cowan
-      with: -2.0
-      without: -1.7
+      with: -1.8
+      without: -1.5
     - st: OK
       d: 6
       v: 56.7
@@ -10888,8 +11528,8 @@ years:
       P: 1
       D: Jed Johnson Jr.
       R: Bayard C. Auchincloss
-      with: -0.6
-      without: -3.8
+      with: -0.7
+      without: -3.9
     - st: OR
       d: 1
       v: 46.9
@@ -10910,8 +11550,8 @@ years:
       P: 1
       D: Al Ullman
       R: Everett J. Thoren
-      with: -0.9
-      without: -0.6
+      with: -0.8
+      without: -0.5
     - st: OR
       d: 3
       v: 65.7
@@ -10921,8 +11561,8 @@ years:
       P: 1
       D: Edith Green
       R: Lyle Dean
-      with: -4.8
-      without: -4.5
+      with: -4.7
+      without: -4.4
     - st: OR
       d: 4
       v: 64.8
@@ -10933,7 +11573,7 @@ years:
       D: Robert B. Duncan
       R: Paul Jaffarian
       with: 3.6
-      without: 4.0
+      without: 3.9
     - st: PA
       d: 1
       v: 71.8
@@ -10943,8 +11583,8 @@ years:
       P: 1
       D: William A. Barrett
       R: Alvin J. Bello
-      with: 3.2
-      without: 3.5
+      with: 3.3
+      without: 3.6
     - st: PA
       d: 2
       v: 80.2
@@ -10954,8 +11594,8 @@ years:
       P: 1
       D: Robert N. C. Nix Sr.
       R: Melvin C. Howell
-      with: 8.9
-      without: 9.1
+      with: 9.0
+      without: 9.3
     - st: PA
       d: 3
       v: 72.0
@@ -10976,7 +11616,7 @@ years:
       P: 1
       D: Herman Toll
       R: James R. Cavanaugh
-      with: 1.4
+      with: 1.3
       without: 1.7
     - st: PA
       d: 5
@@ -10988,7 +11628,7 @@ years:
       D: William J. Green III
       R: Edward H. Rovner
       with: 2.5
-      without: 2.9
+      without: 2.8
     - st: PA
       d: 6
       v: 62.1
@@ -10998,8 +11638,8 @@ years:
       P: 1
       D: George M. Rhodes
       R: James B. Bamford
-      with: 3.0
-      without: 3.4
+      with: 2.9
+      without: 3.3
     - st: PA
       d: 7
       v: 48.9
@@ -11020,8 +11660,8 @@ years:
       P: -1
       D: Ralph O. Samuel
       R: Willard S. Curtin
-      with: 0.2
-      without: -0.2
+      with: 0.3
+      without: -0.1
     - st: PA
       d: 9
       v: 42.3
@@ -11031,8 +11671,8 @@ years:
       P: -1
       D: John A. O'Brien
       R: Paul B. Dague
-      with: 3.2
-      without: 2.9
+      with: 3.1
+      without: 2.8
     - st: PA
       d: 10
       v: 49.2
@@ -11042,8 +11682,8 @@ years:
       P: -1
       D: James J. Haggerty
       R: Joseph M. McDade
-      with: -1.3
-      without: -1.7
+      with: -1.2
+      without: -1.6
     - st: PA
       d: 11
       v: 77.4
@@ -11053,8 +11693,8 @@ years:
       P: 1
       D: Dan Flood
       R: Charles R. Thomas
-      with: 6.5
-      without: 6.8
+      with: 6.6
+      without: 6.9
     - st: PA
       d: 12
       v: 41.4
@@ -11075,8 +11715,8 @@ years:
       P: -1
       D: William D. Searle
       R: Richard Schweiker
-      with: 1.4
-      without: 1.0
+      with: 1.2
+      without: 0.9
     - st: PA
       d: 14
       v: 74.8
@@ -11086,8 +11726,8 @@ years:
       P: 1
       D: William S. Moorhead
       R: Alvin D. Capozzi
-      with: 4.6
-      without: 4.9
+      with: 4.7
+      without: 5.0
     - st: PA
       d: 15
       v: 66.1
@@ -11108,8 +11748,8 @@ years:
       P: -1
       D: William M. Stefanic
       R: John C. Kunkel
-      with: -3.6
-      without: -3.9
+      with: -3.7
+      without: -4.0
     - st: PA
       d: 17
       v: 42.0
@@ -11119,7 +11759,7 @@ years:
       P: -1
       D: William F. Plankenhorn
       R: Herman T. Schneebeli
-      with: -0.4
+      with: -0.5
       without: -0.8
     - st: PA
       d: 18
@@ -11131,7 +11771,7 @@ years:
       D: Frank J. Reed
       R: Robert J. Corbett
       with: -4.0
-      without: -4.3
+      without: -4.4
     - st: PA
       d: 19
       v: 50.8
@@ -11141,7 +11781,7 @@ years:
       P: -1
       D: Nathaniel N. Craley Jr.
       R: George A. Goodling
-      with: 3.7
+      with: 3.8
       without: 3.3
     - st: PA
       d: 20
@@ -11152,8 +11792,8 @@ years:
       P: 1
       D: Elmer J. Holland
       R: Ronald Bryan
-      with: 2.8
-      without: 3.1
+      with: 2.9
+      without: 3.2
     - st: PA
       d: 21
       v: 65.8
@@ -11174,8 +11814,8 @@ years:
       P: -1
       D: James E. McCaffrey
       R: John P. Saylor
-      with: -3.6
-      without: -4.0
+      with: -3.5
+      without: -3.9
     - st: PA
       d: 23
       v: 45.1
@@ -11185,8 +11825,8 @@ years:
       P: -1
       D: John Still
       R: Albert W. Johnson
-      with: -0.3
-      without: -0.7
+      with: -0.2
+      without: -0.6
     - st: PA
       d: 24
       v: 50.8
@@ -11196,8 +11836,8 @@ years:
       P: -1
       D: Joseph P. Vigorito
       R: James D. Weaver
-      with: -0.6
-      without: -1.0
+      with: -0.4
+      without: -0.9
     - st: PA
       d: 25
       v: 70.3
@@ -11218,7 +11858,7 @@ years:
       P: 1
       D: Thomas E. Morgan
       R: Paul P. Riggle
-      with: 0.9
+      with: 1.0
       without: 1.3
     - st: PA
       d: 27
@@ -11229,8 +11869,8 @@ years:
       P: -1
       D: John A. Young
       R: James G. Fulton
-      with: -3.1
-      without: -3.5
+      with: -3.2
+      without: -3.6
     - st: SD
       d: 1
       v: 42.5
@@ -11262,8 +11902,8 @@ years:
       P: -1
       D: Arthur Bright
       R: Jimmy Quillen
-      with: -20.2
-      without: -20.6
+      with: -20.1
+      without: -20.5
     - st: TN
       d: 2
       v: 45.2
@@ -11273,8 +11913,8 @@ years:
       P: -1
       D: Willard V. Yarbrough
       R: John Duncan Sr.
-      with: 5.2
-      without: 8.5
+      with: 5.0
+      without: 8.3
     - st: TN
       d: 3
       v: 45.4
@@ -11284,8 +11924,8 @@ years:
       P: -1
       D: Robert M. Summitt
       R: Bill Brock
-      with: -6.2
-      without: -6.6
+      with: -6.0
+      without: -6.5
     - st: TN
       d: 9
       v: 52.6
@@ -11295,8 +11935,8 @@ years:
       P: 1
       D: George W. Grider
       R: Robert B. James
-      with: -2.3
-      without: -5.5
+      with: -2.5
+      without: -5.7
     - st: TX
       d: 0
       v: 67.2
@@ -11306,7 +11946,7 @@ years:
       P: 1
       D: Joe R. Pool
       R: Bill Hayes
-      with: 4.3
+      with: 4.2
       without: 4.6
     - st: TX
       d: 1
@@ -11317,8 +11957,8 @@ years:
       P: 1
       D: Wright Patman
       R: Mrs. William E. Jones
-      with: 3.0
-      without: 3.3
+      with: 3.1
+      without: 3.4
     - st: TX
       d: 2
       v: 62.7
@@ -11328,8 +11968,8 @@ years:
       P: 1
       D: Jack Brooks
       R: John Greco
-      with: -10.0
-      without: -9.7
+      with: -9.8
+      without: -9.5
     - st: TX
       d: 3
       v: 59.3
@@ -11339,8 +11979,8 @@ years:
       P: 1
       D: Lindley Beckworth
       R: James Warren
-      with: -0.4
-      without: 0.0
+      with: -0.5
+      without: -0.1
     - st: TX
       d: 4
       v: 81.4
@@ -11350,8 +11990,8 @@ years:
       P: 1
       D: Ray Roberts
       R: Fred Banfield
-      with: 6.2
-      without: 6.4
+      with: 6.4
+      without: 6.7
     - st: TX
       d: 5
       v: 57.5
@@ -11361,8 +12001,8 @@ years:
       P: -1
       D: Earle Cabell
       R: Bruce R. Alger
-      with: 9.9
-      without: 9.5
+      with: 10.0
+      without: 9.6
     - st: TX
       d: 7
       v: 83.6
@@ -11372,8 +12012,8 @@ years:
       P: 1
       D: John Dowdy
       R: James W. Orr
-      with: -4.2
-      without: -4.0
+      with: -3.6
+      without: -3.5
     - st: TX
       d: 8
       v: 76.8
@@ -11383,8 +12023,8 @@ years:
       P: 1
       D: Albert Thomas
       R: Bob Gilbert
-      with: 2.0
-      without: 2.2
+      with: 2.2
+      without: 2.5
     - st: TX
       d: 9
       v: 75.3
@@ -11394,8 +12034,8 @@ years:
       P: 1
       D: Clark W. Thompson
       R: Dave Oakes
-      with: 4.5
-      without: 4.8
+      with: 4.7
+      without: 4.9
     - st: TX
       d: 10
       v: 75.8
@@ -11405,8 +12045,8 @@ years:
       P: 1
       D: J. J. Pickle
       R: Billie Pratt
-      with: 7.3
-      without: 7.6
+      with: 7.4
+      without: 7.7
     - st: TX
       d: 12
       v: 68.5
@@ -11416,7 +12056,7 @@ years:
       P: 1
       D: Jim Wright
       R: Fred Dielman
-      with: 2.1
+      with: 2.2
       without: 2.5
     - st: TX
       d: 13
@@ -11427,8 +12067,8 @@ years:
       P: 1
       D: Graham B. Purcell Jr.
       R: George Corse
-      with: 3.8
-      without: 4.0
+      with: 3.9
+      without: 4.2
     - st: TX
       d: 14
       v: 77.5
@@ -11438,8 +12078,8 @@ years:
       P: 1
       D: John Andrew Young
       R: W. F. Patton
-      with: 3.6
-      without: 3.9
+      with: 3.8
+      without: 4.1
     - st: TX
       d: 16
       v: 55.7
@@ -11449,8 +12089,8 @@ years:
       P: -1
       D: Richard Crawford White
       R: Ed Foreman
-      with: 6.2
-      without: 5.8
+      with: 6.3
+      without: 5.9
     - st: TX
       d: 18
       v: 55.0
@@ -11471,8 +12111,8 @@ years:
       P: 1
       D: George H. Mahon
       R: Joe B. Philips
-      with: 6.2
-      without: 6.5
+      with: 6.4
+      without: 6.7
     - st: TX
       d: 21
       v: 78.1
@@ -11482,8 +12122,8 @@ years:
       P: 1
       D: O. C. Fisher
       R: Harry Claypool
-      with: -0.3
-      without: -0.1
+      with: 0.0
+      without: 0.3
     - st: TX
       d: 22
       v: 58.1
@@ -11493,8 +12133,8 @@ years:
       P: 1
       D: Robert R. Casey
       R: Desmond Barry
-      with: -2.8
-      without: -2.4
+      with: -2.9
+      without: -2.5
     - st: UT
       d: 1
       v: 44.0
@@ -11504,8 +12144,8 @@ years:
       P: -1
       D: William G. Bruhn
       R: Laurence J. Burton
-      with: -7.7
-      without: -8.2
+      with: -7.6
+      without: -8.0
     - st: UT
       d: 2
       v: 57.5
@@ -11515,8 +12155,8 @@ years:
       P: -1
       D: David S. King
       R: Thomas G. Judd
-      with: 4.6
-      without: 7.7
+      with: 4.7
+      without: 7.8
     - st: VA
       d: 2
       v: 76.1
@@ -11526,8 +12166,8 @@ years:
       P: 1
       D: Porter Hardy Jr.
       R: Wayne Lustig
-      with: -1.4
-      without: -1.2
+      with: -1.1
+      without: -0.9
     - st: VA
       d: 3
       v: 50.4
@@ -11537,8 +12177,8 @@ years:
       P: 1
       D: David E. Satterfield III
       R: Richard D. Obenshain
-      with: -4.4
-      without: -7.6
+      with: -4.6
+      without: -7.7
     - st: VA
       d: 6
       v: 43.8
@@ -11548,8 +12188,8 @@ years:
       P: -1
       D: William B. Hopkins
       R: Richard H. Poff
-      with: 3.3
-      without: 3.0
+      with: 3.2
+      without: 2.9
     - st: VA
       d: 7
       v: 69.6
@@ -11559,8 +12199,8 @@ years:
       P: 1
       D: John O. Marsh Jr.
       R: Roy Erickson
-      with: 11.0
-      without: 11.4
+      with: 10.9
+      without: 11.3
     - st: VA
       d: 9
       v: 58.2
@@ -11570,8 +12210,8 @@ years:
       P: 1
       D: W. Pat Jennings
       R: Glen M. Williams
-      with: -8.6
-      without: -8.3
+      with: -8.5
+      without: -8.2
     - st: VA
       d: 10
       v: 49.3
@@ -11581,8 +12221,8 @@ years:
       P: -1
       D: Augustus C. Johnson
       R: Joel Broyhill
-      with: 1.1
-      without: 0.7
+      with: 1.2
+      without: 0.8
     - st: VT
       d: 0
       v: 42.2
@@ -11603,8 +12243,8 @@ years:
       P: -1
       D: Edward Palmason
       R: Thomas Pelly
-      with: 6.1
-      without: 5.8
+      with: 5.9
+      without: 5.6
     - st: WA
       d: 2
       v: 54.9
@@ -11625,8 +12265,8 @@ years:
       P: 1
       D: Julia Butler Hansen
       R: Harold L. Anderson
-      with: 0.1
-      without: 0.4
+      with: 0.2
+      without: 0.5
     - st: WA
       d: 4
       v: 34.7
@@ -11636,8 +12276,8 @@ years:
       P: -1
       D: Stephen H. Huza
       R: Catherine Dean May
-      with: -4.4
-      without: -4.8
+      with: -4.6
+      without: -4.9
     - st: WA
       d: 5
       v: 53.4
@@ -11647,8 +12287,8 @@ years:
       P: -1
       D: Tom Foley
       R: Walt Horan
-      with: 12.2
-      without: 11.9
+      with: 12.1
+      without: 11.8
     - st: WA
       d: 6
       v: 52.1
@@ -11658,8 +12298,8 @@ years:
       P: -1
       D: Floyd Hicks
       R: Thor C. Tollefson
-      with: 16.0
-      without: 15.7
+      with: 15.8
+      without: 15.5
     - st: WA
       d: 7
       v: 55.6
@@ -11670,7 +12310,7 @@ years:
       D: Brock Adams
       R: K. William Stinson
       with: 8.3
-      without: 7.8
+      without: 7.9
     - st: WV
       d: 1
       v: 38.6
@@ -11724,8 +12364,8 @@ years:
       P: 1
       D: James Kee
       R: Wade H. Ballard III
-      with: -2.5
-      without: -5.8
+      with: -2.3
+      without: -5.6
     - st: WY
       d: 0
       v: 50.8
