@@ -132,3 +132,54 @@ gives no district figure for that year; the other year alone serves, as for the 
   elections above.
 
 Shown from Oct. 28, 2026 (the owner: "Show both. Be sure to cite and attribute"): tools/bib/pvi.py, STYLE 3-5.
+
+## The baseline, and what to read for it (Oct. 31, 2026)
+
+The owner's request (Oct. 23, 2026: the PVI "gives a rough index of candidate overperformance/underperformance"; Oct.
+31: its "primary use is to set that baseline"; "Run the numbers twice, once with [the incumbency term], and once
+without"): `tools/elections/make_baseline.py` and `elections/baseline.yaml` (CLAUDE.md, "Elections", the baseline
+bullet). The lags across the redistricting of 1962-72 come from the vote for Representative the same Data Books print,
+retabulated onto each Congress's lines (`elections/readings/districts-house/`).
+
+To check (the owner, Oct. 31, 2026: "the recalled literature you mentioned earlier, along with anything else I should
+read to better understand what's here"). Every citation below is recalled, not read: the volume and first page of each
+to verify (Check). In the catalogue already: [[w.cox-elbridge-gerrys-salamander]]; [[w.ansolabehere-end-of-inequality-2008]];
+[[w.mayhew-congress]]; [[w.fiorina-congress]].
+
+- The specification. Andrew Gelman & Gary King, "Estimating Incumbency Advantage without Bias," 34 Am. J. Pol. Sci.
+  1142 (1990): the regression the baseline runs, its year a time, and why the raw swing and the "sophomore surge" are
+  biased. Gary King & Andrew Gelman, "Systemic Consequences of Incumbency Advantage in U.S. House Elections," 35 Am. J.
+  Pol. Sci. 110 (1991). Andrew Gelman & Gary King, "A Unified Method of Evaluating Electoral Systems and Redistricting
+  Plans," 38 Am. J. Pol. Sci. 514 (1994): the district-level model behind JudgeIt.
+- The incumbency advantage growing in these very years. Robert S. Erikson, "The Advantage of Incumbency in
+  Congressional Elections," 3 Polity 395 (1971); David R. Mayhew, "Congressional Elections: The Case of the Vanishing
+  Marginals," 6 Polity 295 (1974); Albert D. Cover, "One Good Term Deserves Another: The Advantage of Incumbency in
+  Congressional Elections," 21 Am. J. Pol. Sci. 523 (1977); John A. Ferejohn, "On the Decline of Competition in
+  Congressional Elections," 71 Am. Pol. Sci. Rev. 166 (1977); Walter Dean Burnham, "Insulation and Responsiveness in
+  Congressional Elections," 90 Pol. Sci. Q. 411 (1975); Gary W. Cox & Jonathan N. Katz, "Why Did the Incumbency
+  Advantage in U.S. House Elections Grow?," 40 Am. J. Pol. Sci. 478 (1996); John R. Alford & David W. Brady, "Personal
+  and Partisan Advantage in U.S. Congressional Elections, 1846-1990," in *Congress Reconsidered* (Lawrence C. Dodd &
+  Bruce I. Oppenheimer eds., 5th ed. 1993) (Check: the edition and pages).
+- Redistricting and the personal vote: what the retabulated lags measure. Stephen Ansolabehere, James M. Snyder Jr. &
+  Charles Stewart III, "Old Voters, New Voters, and the Personal Vote: Using Redistricting to Measure the Incumbency
+  Advantage," 44 Am. J. Pol. Sci. 17 (2000); Scott W. Desposato & John R. Petrocik, "The Variable Incumbency
+  Advantage: New Voters, Redistricting, and the Personal Vote," 47 Am. J. Pol. Sci. 18 (2003).
+- The swing, uniform and otherwise, and votes into seats. David Butler & Donald Stokes, *Political Change in Britain*
+  (1969); Edward R. Tufte, "The Relationship between Seats and Votes in Two-Party Systems," 67 Am. Pol. Sci. Rev. 540
+  (1973); Gary C. Jacobson, *The Politics of Congressional Elections* (1983; later eds.); Gary C. Jacobson & Samuel
+  Kernell, *Strategy and Choice in Congressional Elections* (1981): the strategic candidates the residuals partly are.
+- The period's own constructs. Philip E. Converse, "The Concept of a Normal Vote," in Angus Campbell et al., *Elections
+  and the Political Order* (1966); Donald E. Stokes, "Parties and the Nationalization of Electoral Forces," in *The
+  American Party Systems* (William Nisbet Chambers & Walter Dean Burnham eds., 1967): the national, State and district
+  components the year term and the residual divide.
+- Later estimators, for comparison. Steven D. Levitt & Catherine D. Wolfram, "Decomposing the Sources of Incumbency
+  Advantage in the U.S. House," 22 Legis. Stud. Q. 45 (1997); David S. Lee, "Randomized Experiments from Non-random
+  Selection in U.S. House Elections," 142 J. Econometrics 675 (2008).
+- The PVI itself: the Cook Political Report's notes on the index (introduced 1997; the construct as it stood to 2021,
+  the two prior presidential elections averaged, before the 2022 change of weights). Check: the report's own statement.
+- The data used by others, to hold ours against: Gary C. Jacobson's district file (the presidential and House vote by
+  district from 1952; not public); ICPSR study 10, *United States Congressional District Data Books, 1961-1965* (the
+  Data Books' tables as data; ICPSR refuses this environment).
+
+Not done here: the readings of these works; a card for each (they are not yet cited by an entry, and a card nothing
+points to is a warning); the display (the residual under each race, the year's coefficients under the November block).

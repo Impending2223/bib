@@ -1322,7 +1322,8 @@ tools/bib/elections.py              renders the blocks and checks the data (STYL
   incumbent's running; each race's residual in points (how far the Democrat ran ahead of the seat's baseline, the
   Republican the negative), each year's coefficients and the mean district swing beside them. The lag: the Clerk's
   returns where the lines did not change; across a redistricting, the Census's retabulation of the earlier House vote
-  onto the new lines (`elections/readings/districts-house/`). Not shown yet.
+  onto the new lines (`elections/readings/districts-house/`). Not shown yet. To check: the literature behind it, recalled,
+  in `notes/extensions/memos/pvi-districts.md`, "The baseline, and what to read for it".
 - Hand facts (who caucused with whom, electors who broke, the 1960 unpledged slates, the
   Alabama reckonings) live in `elections/facts.yaml`, not in code. A third-party member
   missing from `caucus:` fails `check`.
