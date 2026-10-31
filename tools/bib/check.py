@@ -249,6 +249,13 @@ def run(series, only=None):
     from . import pvi
     for level, where, msg in pvi.problems(series):
         add(ERROR if level == "error" else WARN, where, msg, "pvi")
+    # Jacobson's district file against the series' returns (sources/jacobson/; tools/elections/jacobson.py)
+    import importlib.util as _ilu
+    _sp = _ilu.spec_from_file_location("_jacobson", os.path.join(store.ROOT, "tools", "elections", "jacobson.py"))
+    _jac = _ilu.module_from_spec(_sp)
+    _sp.loader.exec_module(_jac)
+    for level, where, msg in _jac.problems():
+        add(ERROR if level == "error" else WARN, where, msg, "jacobson")
     # special elections and party switches (congress/specials.yaml, congress/switches.yaml)
     from . import specials
     for where, msg in specials.problems(series):

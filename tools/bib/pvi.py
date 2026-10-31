@@ -159,6 +159,14 @@ VOLUMES = {
                     "\u201cThe original figures for 1964, 1966, and 1968 have been retabulated by the Committee to reflect "
                     "changes in congressional district boundaries up to the time of the 1970 elections\u201d (each "
                     "report's last page)."},
+    "jacobson": {
+        "dataset": True,
+        "cite": "Gary C. Jacobson, replication data for \u201cIt\u2019s Nothing Personal: The Decline of the Incumbency "
+                "Advantage in U.S. House Elections\u201d (Harvard Dataverse, 2015), JOPrepfile1, `dpres`",
+        "url": "https://doi.org/10.7910/DVN/29559",
+        "compiled": "the Democratic share of the two-party presidential vote by district, on the lines of the House "
+                    "election of the row (for a midterm, the vote two years before); taken only where no Census volume "
+                    "gives the district (make_pvi.py STYLE 13); his sources are not named in his codebook. CC0."},
 }
 HATHI = "https://babel.hathitrust.org/cgi/pt?id={id}"
 LABEL = {"t": "Total", "D": "Dem.", "R": "Rep.", "A": "Am. Ind."}
@@ -191,6 +199,8 @@ def page_label(src, page):
 def source_line(src):
     """The volume's citation, linked to the copy read, and its compilers (STYLE 5)."""
     v = VOLUMES[src]
+    if v.get("dataset"):
+        return (f'<a href="{_esc(v["url"])}">{_md(v["cite"].replace("`", ""))}</a>. {_md(v["compiled"][0].upper() + v["compiled"][1:])}')
     first = page_url(src, v.get("intro") or 1)
     return (f'{CENSUS}, <a href="{_esc(first)}">{_md(v["cite"])}</a> ({_esc(v["copy"])}). '
             f'Compiled by: {_md(v["compiled"])}')

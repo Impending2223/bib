@@ -85,9 +85,9 @@ def inputs_hash():
     import hashlib
     h = hashlib.sha256()
     files = sorted(glob.glob(os.path.join(DIR, "*.yaml"))) + \
-        [os.path.join(ROOT, "tools", "elections", f) for f in ("make_pvi.py", "cd_readings.py")] + \
+        [os.path.join(ROOT, "tools", "elections", f) for f in ("make_pvi.py", "cd_readings.py", "jacobson.py")] + \
         sorted(glob.glob(os.path.join(ROOT, "elections", "19[5-7][0-9].yaml"))) + \
-        sorted(glob.glob(os.path.join(ROOT, "congress", "[0-9][0-9].yaml"))) + [os.path.join(ROOT, "congress", "geo.json")]
+        sorted(glob.glob(os.path.join(ROOT, "congress", "[0-9][0-9].yaml"))) + [os.path.join(ROOT, "congress", "geo.json"), os.path.join(ROOT, "sources", "jacobson", "JOPrepfile1.tab")]
     for f in files:
         if os.path.exists(f):
             h.update(os.path.relpath(f, ROOT).encode())

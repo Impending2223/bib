@@ -181,6 +181,8 @@ elections/cq.yaml         CQ's *Guide to U.S. Elections* compared with the Clerk
 elections/renominations.yaml  renominations lost by primary, where a source says so (kept by hand)
 elections/primaries.yaml  Senate primaries from CQ's *Guide*, by race (kept by hand; CQ prints no House primaries)
 elections/conventions.yaml  the national conventions: each delegation's votes, how chosen, the roll calls (kept by hand)
+sources/jacobson/         Gary C. Jacobson's district file, 1946-2014, and its codebook (CC0; its README); held against the
+                          returns by tools/elections/jacobson.py (notes/jacobson-compare.md, generated)
 sources/cited-records/    the records each secondary work cites for the calendar's claims, described once, a file a work
                           (kept by agent); the claims each grounds are `via` rows of the entries' maps (tools/bib/claims.py)
 notes/extensions/         proposals and shelved drafts: memos/ (the research memos before a part was built), shelf/ (drafts
@@ -1303,9 +1305,11 @@ tools/bib/elections.py              renders the blocks and checks the data (STYL
   *Congressional District Data Books*, read by page into `elections/readings/districts/` (1952-60 on the 87th, 88th
   and 89th Congresses' lines; 1968 on the 93d's), each district row held to its State column and each State column set
   against these returns (`vs_clerk`); `python3 -I tools/elections/make_pvi.py` (its STYLE; `check` [pvi],
-  `tools/bib/pvi.py`). District PVIs: 1960 419, 1962 321, 1964 302, 1966 172, 1968 112, 1970 386, 1972 15 (the
-  1966 Supplements, the 90th's lines, and CDD-92, the 92d's, the owner's copies, read Oct. 31, 2026, gave 1964 and 1968
-  by district; 1972 by district is still to find: the memo, notes/extensions/memos/pvi-districts.md). The same volumes'
+  `tools/bib/pvi.py`). District PVIs: 1960 419, 1962 321, 1964 302, 1966 222, 1968 114, 1970 386, 1972 15, 1974 316
+  (the 1966 Supplements, the 90th's lines, and CDD-92, the 92d's, the owner's copies, read Oct. 31, 2026, gave 1964 and
+  1968 by district; Jacobson's file, where no Census volume gives a district, 1964 for 50 districts of 1966 and 2 of
+  1968 and 1972 for all 316 of 1974, each row's basis naming it: make_pvi.py STYLE 13; 1964 on the 93d's lines is still
+  to find: the memo, notes/extensions/memos/pvi-districts.md). The same volumes'
   vote for Representative, retabulated onto each Congress's lines, is in `elections/readings/districts-house/` (1963,
   1965, 1966s, 1971, 1973 volumes), the baseline's lags. Shown (the owner, Oct. 28, 2026:
   "Show both. Be sure to cite and attribute"), in each election's block and the calendar's `election:` entries: the
@@ -1322,8 +1326,16 @@ tools/bib/elections.py              renders the blocks and checks the data (STYL
   incumbent's running; each race's residual in points (how far the Democrat ran ahead of the seat's baseline, the
   Republican the negative), each year's coefficients and the mean district swing beside them. The lag: the Clerk's
   returns where the lines did not change; across a redistricting, the Census's retabulation of the earlier House vote
-  onto the new lines (`elections/readings/districts-house/`). Not shown yet. To check: the literature behind it, recalled,
-  in `notes/extensions/memos/pvi-districts.md`, "The baseline, and what to read for it".
+  onto the new lines (`elections/readings/districts-house/`). Run on three lags, each fitted apart (the owner, Oct. 31,
+  2026: "go ahead with 1-3"): that one (`census`), Jacobson's (`jacobson`, his `dvp`, the redrawn seats included) and
+  the Clerk's alone where the lines held (`clerk`); STYLE 6-7 in the script. Not shown yet. To check: the literature
+  behind it, recalled, in `notes/extensions/memos/pvi-districts.md`, "The baseline, and what to read for it".
+- Jacobson's district file (`sources/jacobson/`, its README: Gary C. Jacobson's replication data for "It's Nothing
+  Personal," Harvard Dataverse, doi:10.7910/DVN/29559, CC0; fetched Oct. 31, 2026), 1946-2014, a row a seat a year:
+  `tools/elections/jacobson.py` (its STYLE) holds his shares, lags and redrawn flags against these returns seat by seat
+  and writes `notes/jacobson-compare.md` (generated; `check` warns when stale [jacobson]); the Clerk's figures stand,
+  each difference a lead to the page. His presidential figure (`dpres`) fills a district no Census volume gives
+  (make_pvi.py STYLE 13).
 - Hand facts (who caucused with whom, electors who broke, the 1960 unpledged slates, the
   Alabama reckonings) live in `elections/facts.yaml`, not in code. A third-party member
   missing from `caucus:` fails `check`.
