@@ -8,6 +8,14 @@ reports them (`notes/calendar-audit.md`).
 
 ## States and cities
 
+- **The State register, four corrections from the procurement batch of Oct. 31, 2026** (`notes/procurement.md`, "The
+  House vote on new lines"): N.Y., the NYC Board of Elections' *Annual Report* on HathiTrust (006269729, 1952-65;
+  000549504, 1950-63; search only) and the *Legislative Manual* 1964/65-1975 (search only); Cal., the *Supplement to
+  the Statement of Vote* carries no House figures (1972 read); Ill., the *Official Vote*'s Chicago wards and Cook
+  townships are the statewide offices' only (1960 read); Mich., the Department of State's *Official Canvass of Votes*
+  (HathiTrust 102823787; 1960, 1962, 1964 full view) is not in the register. To enter in `sources/states.yaml` with
+  their basis, then `python3 tools/sources/make_listing.py`.
+
 ### The States' laws and election sources (Oct. 28, 2026; sources/state-law.yaml, sources/states.yaml)
 - Recorded "other" after two failures, perhaps less than an hour apart: Kentucky's acts page (403), Missouri's molaws
   (proxy 502), Utah's Pioneer service (503), docs.legis.wisconsin.gov (connection reset). Retry an hour apart.

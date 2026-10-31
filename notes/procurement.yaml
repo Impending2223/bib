@@ -625,3 +625,1392 @@ items:
     (Ray''s arrest); the Memphis entries of Feb.–Apr. 1968 (Check what the file holds)'
   check: vault.fbi.gov refuses this environment (403); which files it holds not seen. Malcolm X's and the Black Panthers'
     files are open on archive.org (Found open).
+# Batch retab-2026-10-31: the House vote retabulated onto new district lines, and the returns below the county that
+# would let the series retabulate it (three searchers, Oct. 31, 2026; brief and raw files kept in the session's scratch).
+# Two added fields: access (open, borrow, bot-check, paper, subscription, purchase, not-found) and basis (one ground a
+# line: seen, catalog, cited, recalled).
+- id: cdd-94
+  tier: 1
+  family: U.S. Bureau of the Census (Congressional District Data series)
+  title: 'U.S. Bureau of the Census, *Congressional District Data, 94th Congress*, CDD-94-1 Texas, CDD-94-2 California, CDD-94-3
+    New York (Washington: U.S. Dept. of Commerce, Social and Economic Statistics Administration, Bureau of the Census, 1974-)
+    (series "Its CDD; v. 94"); LC call no. HA205 .U53 1974; LCCN 74603410; OCLC 1499878; SuDoc C 56.213:94-1, 94-2 (as cited)'
+  url: https://babel.hathitrust.org/cgi/pt?id=coo.31924086721416
+  steps: 'California: open coo.31924086721416; Texas: coo.31924086721408 (both Cornell, Google-digitized). "Download" -> "Whole
+    item" PDF, or page by page if a partner login is asked. New York (CDD-94-3) is not on HathiTrust: borrow (ILL by OCLC
+    1499878) or a depository library (SuDoc C 56.213:94-3).'
+  save_as: cdd-94-1-texas.pdf, cdd-94-2-california.pdf, cdd-94-3-new-york.pdf
+  size: CDD-94-1 39 p.; CDD-94-2 59 p. (as cited); CDD-94-3 not known
+  public_domain: 'A work of the U.S. Government (17 U.S.C. § 105). HathiTrust: pdus. The vote figures, if they are the NRCC''s
+    retabulation as in CDD-92 and the 93d Data Book, are facts; cite the Census and name the Committee.'
+  access: bot-check
+  basis:
+  - 'catalog: LoC 74603410 (loc.gov/item/74603410, JSON): title "Congressional district data, 94th Congress", "CDD-94-1--",
+    contents "1. Texas.--2. California.--3. New York."'
+  - 'catalog: HathiTrust record 009142830 (OCLC 1499878): note "Separate State reports presenting 1970 population and housing
+    data and recent election statistics for districts of the 94th Congress"; items coo.31924086721408 Texas, coo.31924086721416
+    California, both pdus'
+  - 'cited: web search snippets (Oct. 31, 2026) of UNT''s digitized Monthly Catalog, mocat.library.unt.edu/catalog/956-08940
+    (Texas, Sept. 1974, C 56.213:94-1, 39 p.) and 971-18506 (Aug. 1974, C 56.213:94-2, 59 p.); ECU catalog record 951642 (CDD-94-3,
+    New York, Sept. 1974, GPO). The pages themselves did not answer (503; DNS refused)'
+  - 'cited (by analogy): CDD-92''s catalog note uses the same words, "recent election statistics" (HathiTrust record 010439711),
+    and CDD-92 prints the House vote 1964-68 "retabulated by the Committee" (NRCC) onto the 1970 lines (elections/readings/districts-house/cdh-1971.yaml,
+    read)'
+  - 'catalog: hathifile (Oct. 1, 2026) rows coo.31924086721408 "Texas" and coo.31924086721416 "California", pdus, OCLC 1499878'
+  - 'catalog: HathiTrust full record (Bib API): 500 note "Separate State reports presenting 1970 population and housing data
+    and recent election statistics for districts of the 94th Congress"; series "Its CDD ; 94"'
+  - 'catalog: Open Library OL1368691W, LCCN 74603410'
+  settles: '1974 row: Cal. 38, N.Y. 34, Tex. 16, 88 of the 109 missing lags (1972 House on the 94th''s lines), if the reports
+    print "Vote cast for Representative" for 1972 (and 1970, 1968) on the 1974 lines; and the 1972 presidential vote on the
+    same lines, to hold against Jacobson''s dpres.'
+  check: 'Not seen: whether the "Elections" items print the House vote for 1972 retabulated onto the 94th''s lines (as CDD-92
+    did for 1970''s), and its source (the NRCC''s Congressional District Vote Comparison, 1974?). Whether the Monthly Catalog
+    numbers are Texas = 94-1 and California = 94-2 (the snippets put Texas in Sept. and 94-2 in Aug.). Whether any State beyond
+    the three was issued (LoC lists three). What "recent election statistics" are (1972 President and House by new district,
+    or 1972 on old lines); the New York report''s whereabouts. Census family: the government searcher may list it too.'
+  batch: retab-2026-10-31
+- id: rcc-1960-vote-stats-adj-1962
+  tier: 1
+  family: Republican Congressional Committee (NRCC)
+  title: 'Republican Congressional Committee, comp., *1960 Congressional Vote Statistics: Adjusted for 1962 Reapportionment*
+    (Washington, D.C.: The Committee, 1962), [123] p., ill., 28 cm. LCCN 84114475; LC call no. MLCM 83/9651 (J).'
+  url: https://www.loc.gov/item/84114475/
+  steps: 'Library of Congress, Main Reading Room: request by call number (MLCM = minimal-level cataloging; the item is in
+    LoC''s general collections) through Ask a Librarian or in person; or a WorldCat search on the LCCN for other holders (WorldCat''s
+    result lists load by script and were not read from here).'
+  save_as: rcc-1960-vote-stats-adj-1962.pdf
+  size: '[123] p.'
+  public_domain: 'Not a government work. Published by a party committee before 1978: public domain in the United States if
+    issued without a copyright notice (Check the title page); otherwise in copyright: read and cite figures by page.'
+  access: paper
+  basis:
+  - 'catalog: Library of Congress item record 84114475 (loc.gov JSON, read Oct. 31, 2026): title, date, [123] p. : ill. ;
+    28 cm., MLCM 83/9651 (J)'
+  - 'catalog: Open Library OL2889391M (from LoC MARC, marc_loc_2016 part15): "compiled by Republican Congressional Committee",
+    publisher The Committee, Washington, D.C.'
+  - 'catalog: HathiTrust Bib API lccn/84114475: no record (not digitized there)'
+  settles: '1962 row (201 lags: Cal. 33, N.Y. 33, Ill. 21, Pa. 15, Tex. 12, Fla. 10, Mass. 10, Mo. 10): the 1960 House vote
+    on the 88th Congress''s lines, if "adjusted" means retabulated by new district, split counties included.'
+  check: 'What "adjusted for 1962 reapportionment" does: district-by-district retabulation onto the new lines (the NRCC method
+    of the 1966-72 editions), or only the States'' gains and losses of seats. Whether split-county districts (the 1963 Data
+    Book''s "n.a.") are filled. Whether party vote only (as the later editions: not comparable as vote for candidates).'
+  batch: retab-2026-10-31
+- id: rcc-1962-vote-stats-adj-1964
+  tier: 1
+  family: Republican Congressional Committee (NRCC)
+  title: 'Republican Congressional Committee, comp., *1962 Congressional Vote Statistics: Including Special Congressional
+    Elections since 1962 and Adjusted for Reapportionments as of Jan. 1, 1964* (Washington, D.C.: [The Committee], 1964),
+    [142] p. Cover title. LCCN 66050841; OCLC 4183161; LC call no. JK1968 1962.'
+  url: https://openlibrary.org/books/OL6004691M
+  steps: 'Library of Congress, Main Reading Room: request by call number (MLCM = minimal-level cataloging; the item is in
+    LoC''s general collections) through Ask a Librarian or in person; or a WorldCat search on the LCCN for other holders (WorldCat''s
+    result lists load by script and were not read from here). OCLC 4183161 names it for interlibrary loan.'
+  save_as: rcc-1962-vote-stats-adj-1964.pdf
+  size: '[142] p.'
+  public_domain: 'Not a government work. Published by a party committee before 1978: public domain in the United States if
+    issued without a copyright notice (Check the title page); otherwise in copyright: read and cite figures by page.'
+  access: paper
+  basis:
+  - 'catalog: Open Library OL6004691M (from LoC MARC, marc_loc_2016 part06): title and subtitle as above, [142] p., cover
+    title, JK1968 1962, LCCN 66050841, OCLC 4183161'
+  - 'catalog: HathiTrust Bib API oclc/4183161 and lccn/66050841: no record'
+  settles: '1964 row (73 lags: Mich. 19, Wis. 10, Ala. 6, Conn. 5, Tex. 5, also Ga., Colo., S.C.): the 1962 House vote on
+    the lines in force Jan. 1, 1964. Texas (redrawn 1965-67) and any State redrawn between Jan. 1 and Nov. 3, 1964 (Michigan''s
+    plan of 1964, Georgia''s, Alabama''s) may fall outside it.'
+  check: 'Whether "adjusted for reapportionments" is a district retabulation (likely, by the series'' later titles, but not
+    seen). Which States had new lines by Jan. 1, 1964 (Michigan''s and Wisconsin''s plans date from 1964: Check against the
+    Census Supps. Nos. 1-7).'
+  batch: retab-2026-10-31
+- id: rcc-1964-vote-stats-rev-1966
+  tier: 1
+  family: Republican Congressional Committee (NRCC)
+  title: 'Republican Congressional Committee, comp., *1964 Congressional Vote Statistics: Including Vote Cast by State for
+    President, Senator and Governor: With Revisions of States Affected by Redistricting of Congressional Districts since Nov.
+    3, 1964* (Washington, D.C.: The Committee, 1966), ca. 150 p. LCCN 79312357; LC call no. JK1968 1964 .R46 1966.'
+  url: https://openlibrary.org/books/OL4483653M
+  steps: 'Library of Congress, Main Reading Room: request by call number (MLCM = minimal-level cataloging; the item is in
+    LoC''s general collections) through Ask a Librarian or in person; or a WorldCat search on the LCCN for other holders (WorldCat''s
+    result lists load by script and were not read from here).'
+  save_as: rcc-1964-vote-stats-rev-1966.pdf
+  size: ca. 150 p.
+  public_domain: 'Not a government work. Published by a party committee before 1978: public domain in the United States if
+    issued without a copyright notice (Check the title page); otherwise in copyright: read and cite figures by page.'
+  access: paper
+  basis:
+  - 'catalog: Open Library OL4483653M (from LoC MARC, marc_loc_2016 part12): title and subtitle as above, ca. 150 p., JK1968
+    1964 .R46 1966, LCCN 79312357'
+  - 'catalog: HathiTrust Bib API lccn/79312357: no record'
+  settles: '1966 row (97 lags: Ohio 21, N.J. 13, Ind. 11, Mo. 10, N.C. 9, and the other States of the Census Supps. Nos. 8-32):
+    the 1964 House vote revised for the States redistricted after Nov. 3, 1964, as of its date in 1966.'
+  check: Its month in 1966 (States redrawn later in 1966, e.g. N.J., Pa., Md., La. of the Census Supps. Nos. 29-32, may be
+    missing). Whether the "revisions" are district retabulations. "Vote cast by state for President" suggests the presidential
+    vote by State only; the presidential vote by new district is in the next item.
+  batch: retab-2026-10-31
+- id: rcc-vote-comparison-1966
+  tier: 1
+  family: Republican Congressional Committee (NRCC)
+  title: 'Republican Congressional Committee, comp., *Congressional and Presidential Vote Comparison: Tabulated in Accordance
+    with Changes Arising from Redistricting and Special Elections up to November 8, 1966* ([Washington, D.C.]: The Committee,
+    1966), 3, [135] leaves, 28 cm. LCCN 84142143; LC call no. MLCM 84/1790 (J).'
+  url: https://www.loc.gov/item/84142143/
+  steps: 'Library of Congress, Main Reading Room: request by call number (MLCM = minimal-level cataloging; the item is in
+    LoC''s general collections) through Ask a Librarian or in person; or a WorldCat search on the LCCN for other holders (WorldCat''s
+    result lists load by script and were not read from here).'
+  save_as: rcc-vote-comparison-1966.pdf
+  size: 3, [135] leaves
+  public_domain: 'Not a government work. Published by a party committee before 1978: public domain in the United States if
+    issued without a copyright notice (Check the title page); otherwise in copyright: read and cite figures by page.'
+  access: paper
+  basis:
+  - 'catalog: Library of Congress item record 84142143 (loc.gov JSON, read Oct. 31, 2026): title as above, 3, [135] leaves
+    ; 28 cm., MLCM 84/1790 (J)'
+  - 'catalog: Open Library OL2911217M (from LoC MARC): "compiled by Republican Congressional Committee"'
+  - 'cited (the series of which it is an edition): Census, *Congressional District Data Book (Districts of the 87th Congress)*
+    (1961), p. XI, cites the Committee''s *Congressional and Presidential Vote Comparison* (1957) for 1952 by district (repo:
+    elections/readings/districts/cdb-1961.yaml header)'
+  - 'catalog: HathiTrust Bib API lccn/84142143: no record'
+  settles: '1966 row (97 lags): the 1964 House vote (and probably 1962, 1960) on the 90th Congress''s lines, every State redrawn
+    up to Nov. 8, 1966; also the 1964 presidential vote by 90th-Congress district (a check on the Census Supps. 8-32, whose
+    House columns print "NA").'
+  check: Which elections it carries (the 1970 and 1972 editions carry three or four); whether split-county districts are filled;
+    party vote only (the later editions' caution). Not seen.
+  batch: retab-2026-10-31
+- id: rcc-vote-comparison-1964
+  tier: 1
+  family: Republican Congressional Committee (NRCC)
+  title: 'Republican Congressional Committee, *Congressional and Presidential Vote Comparison* (1964 edition; full title not
+    seen; Washington, D.C.: The Committee, 1964).'
+  url: https://id.loc.gov/authorities/names/n82052558.html
+  steps: Not found as a bibliographic record (Open Library, HathiTrust). The LoC name authority cites it as its source; ask
+    the LoC Main Reading Room for "Republican Congressional Committee. Congressional and presidential vote comparison, 1964",
+    or search WorldCat in a browser for the title with the Committee as author.
+  save_as: rcc-vote-comparison-1964.pdf
+  size: not known
+  public_domain: 'Not a government work. Published by a party committee before 1978: public domain in the United States if
+    issued without a copyright notice (Check the title page); otherwise in copyright: read and cite figures by page.'
+  access: not-found
+  basis:
+  - 'catalog: LC Name Authority File n82052558 (Republican Congressional Committee), source citation "Republican Congressional
+    Committee. Congressional and presidential vote ... 1964." (id.loc.gov JSON, read Oct. 31, 2026)'
+  settles: '1964 row (73 lags) and the 1962 row: the 1962 and 1960 House and presidential vote on the 89th Congress''s lines,
+    if it is the edition for the 1964 elections.'
+  check: Its full title, date and contents; whether it is the 1964 edition for the 89th's lines or a reprint of 1957's; holders.
+  batch: retab-2026-10-31
+- id: nrcc-vote-comparison-1968
+  tier: 1
+  family: Republican Congressional Committee (NRCC)
+  title: 'Republican Congressional Committee, *Congressional and Presidential Vote Comparison* (or *Congressional District
+    Vote Comparison*), edition for the 1968 elections (91st Congress''s lines): existence inferred, not found.'
+  url: https://openlibrary.org/search?q=vote+comparison
+  steps: Ask the LoC Main Reading Room for the Committee's vote comparisons of 1967-69 (the series runs 1957, 1964, 1966,
+    1970, 1972); the NRCC itself (320 First St. SE, Washington) may hold a run; the Ford Library's and Bliss's RNC papers
+    may hold copies (not searched).
+  save_as: nrcc-vote-comparison-1968.pdf
+  size: not known
+  public_domain: 'Not a government work. Published by a party committee before 1978: public domain in the United States if
+    issued without a copyright notice (Check the title page); otherwise in copyright: read and cite figures by page.'
+  access: not-found
+  basis:
+  - 'recalled: the pattern of the editions found (1964, 1966, 1970, 1972): one after each round of redistricting; none of
+    1967-69 found in Open Library or HathiTrust'
+  settles: '1968 row (75 lags: N.Y. 40, Mo. 10, Tex. 7): the 1966 House vote on the 91st Congress''s lines (New York''s 1968
+    plan).'
+  check: Whether it exists.
+  batch: retab-2026-10-31
+- id: nrcc-cd-vote-comparison-1972
+  tier: 1
+  family: Republican Congressional Committee (NRCC)
+  title: National Republican Congressional Committee, *Congressional District Vote Comparison, Tabulated in Accordance with
+    Congressional Districts as Constituted for the 1972 Elections* (Washington, D.C., 1972?); title as the Census cites it,
+    not seen.
+  url: https://www.loc.gov/
+  steps: Not found in Open Library or HathiTrust by title. Ask LoC; or the Census's copy (the 1973 Data Book's source).
+  save_as: nrcc-cd-vote-comparison-1972.pdf
+  size: not known
+  public_domain: 'Not a government work. Published by a party committee before 1978: public domain in the United States if
+    issued without a copyright notice (Check the title page); otherwise in copyright: read and cite figures by page.'
+  access: not-found
+  basis:
+  - 'cited: Census, *Congressional District Data Book, 93d Congress* (1973), pp. X-XI: the elections data "were obtained from
+    the National Republican Congressional Committee", "retabulated by the Committee to reflect the congressional district
+    boundaries as established for the 1972 elections" (repo: elections/readings/districts/cdb-1973.yaml header)'
+  settles: The presidential vote of 1964 on the 93d Congress's lines (wanted; the 1973 Data Book prints 1968 only), if the
+    NRCC edition carries 1964 as its 1970 edition did; the 1966-70 House vote on the 93d's lines.
+  check: Which years it carries; New York's and Washington's "(NA)" in the Census print.
+  batch: retab-2026-10-31
+- id: nrcc-vote-comparison-1974
+  tier: 1
+  family: Republican Congressional Committee (NRCC)
+  title: 'National Republican Congressional Committee, vote comparison for the districts of the 94th Congress (1974): existence
+    inferred, not found.'
+  url: https://catalog.hathitrust.org/api/volumes/full/htid/coo.31924086721408.json
+  steps: 'First open the Census''s *Congressional District Data: 94th Congress* reports for Texas and California (next item),
+    full view on HathiTrust: their source note will say whether the NRCC retabulated 1972 onto the 1974 lines and name the
+    edition.'
+  save_as: nrcc-vote-comparison-1974.pdf
+  size: not known
+  public_domain: 'Not a government work. Published by a party committee before 1978: public domain in the United States if
+    issued without a copyright notice (Check the title page); otherwise in copyright: read and cite figures by page.'
+  access: not-found
+  basis:
+  - 'recalled: the series'' pattern (the Census''s CDD-92 and 1973 Data Book both took their vote from the NRCC)'
+  - 'catalog: HathiTrust record of CDD-94 (Cornell): "Separate State reports presenting 1970 population and housing data and
+    recent election statistics for districts of the 94th Congress"'
+  settles: '1974 row (109 lags: Cal. 38, N.Y. 34, Tex. 16): the 1972 House vote on the 94th Congress''s lines.'
+  check: Whether it exists.
+  batch: retab-2026-10-31
+- id: nyc-boe-annual-report
+  tier: 1
+  family: HathiTrust (city); NYC Municipal Library / Municipal Archives
+  title: '*Annual Report of the Board of Elections of the City of New York for the Year Ending ...* (Board of Elections in
+    the City of New York), 1960-1965 in HathiTrust; the series ran 1909-1969 and resumed 1987'
+  url: https://catalog.hathitrust.org/Record/006269729
+  steps: 'HathiTrust (search only): uc1.b4565460 (1960), uc1.b4565461 (1961), uc1.b4565462 (1962), uc1.b4565463 (1963), uc1.b4565464
+    (1964), uc1.b4565465 (1965); uiug.30112032135466 (1959-1962 bound); second record 000549504: mdp.39015073175591 (1960),
+    mdp.39015073175435 (1961), mdp.39015073175740 (1962), mdp.39015073175583 (1963). Use full-text search inside each ("Representative
+    in Congress", "Assembly District") to get the page numbers, then read the pages at the NYC Municipal Library (31 Chambers
+    St.) or by a HathiTrust member login for accessible copies (none here). Paper: NYC Municipal Archives accession "Board
+    of Elections annual reports for 1918 to 1960" (bound printed volumes); City Hall Library holds 1909-1969 and 1987-2001
+    (cited).'
+  save_as: nyc-boe-annual-report-YYYY.pdf (pages only)
+  size: not known
+  public_domain: 'A New York City publication, not a federal work. HathiTrust: ic. In copyright status unreviewed: read and
+    cite figures by page.'
+  access: paper
+  basis:
+  - 'catalog: hathifile Oct. 1, 2026, record 006269729 (OCLC 13994255, LCCN sn 86034124), uc1.b4565452-b4565465 (1952-1965)
+    and uiug.30112032135482/-474/-466 (1950-53, 1955-58, 1959-62), all ic'
+  - 'catalog: hathifile, record 000549504 "Annual report." New York (N.Y.). Board of Elections (OCLC 1194635973), mdp. volumes
+    1950-1963, all ic'
+  - 'cited: NYC Municipal Archives collection guide, accession 5824, "Board of Elections annual reports for 1918 to 1960"
+    (a860-collectionguides.nyc.gov/repositories/2/accessions/5824; search result title only; the page refuses this environment,
+    Akamai 403)'
+  - 'cited: web search summary of an NYC City Hall Library note (2004): annual reports 1909-1969 and 1987-2001, with results
+    of general elections for city, State and federal offices'
+  - 'recalled: the reports print the official canvass for each office by assembly district (and by election district in some
+    years)'
+  settles: 'N.Y. 1962 (33 missing; the NYC part): 1960 House by AD (or ED) to rebuild the 1961 lines, which in NYC were drawn
+    of whole and part ADs; N.Y. 1968 (40): 1966 House by AD/ED onto the 1968 court lines (the 1966 report: HathiTrust holds
+    to 1965 only; paper). Not 1974 (series ends 1969): see nyc-city-record-canvass.'
+  check: 'Whether the Congress tables go below the AD (ED level is needed where a new district splits an AD, which the 1961,
+    1968 and 1972 lines all did). Whether 1966-69 volumes exist anywhere (NYC Municipal Library). The register (sources/states.yaml,
+    NY local) says no catalog record exists for 1955-75: corrected by the two HathiTrust records above.'
+  batch: retab-2026-10-31
+- id: nyc-city-record-canvass
+  tier: 1
+  family: NYC Department of Records (Government Publications Portal; Municipal Library)
+  title: '*The City Record* (City of New York), "Official Canvass of the Votes Cast ... at the General Election held November
+    ..." (a supplement, by county, assembly district and election district), 1960-1974'
+  url: https://a860-gpp.nyc.gov/
+  steps: Search the Government Publications Portal (a860-gpp.nyc.gov) for "Official canvass" with the year; the portal holds
+    digitized City Record issues (1904, 1913, 1917, 1918 found by search). Refused here (Akamai "Access Denied"); a person
+    in a browser can open it. Otherwise the City Record on microfilm at the NYC Municipal Library or NYPL (Stephen A. Schwarzman
+    Bldg., microforms).
+  save_as: city-record-official-canvass-YYYY.pdf
+  size: a supplement of several hundred pages a year (recalled)
+  public_domain: An NYC publication; read and cite figures by page.
+  access: bot-check
+  basis:
+  - 'cited: web search results, a860-gpp.nyc.gov/downloads/k3569891s, /3x816s07n, /qr46r590g (City Record issues printing
+    "the votes given in the several Election Districts" of a county at the general election of Nov. 8, 1904; a 1918 issue
+    listing "Official Canvass of Votes" among paid supplements)'
+  - 'recalled: the canvass by election district continued in the City Record supplements into the 1970s'
+  settles: 'N.Y. 1962, 1968, 1974 (the NYC districts, the largest block of the missing lags: 1960 on the 1961 lines, 1966
+    on the 1968 lines, 1972 on the 1974 lines), by election district, the unit the districts were drawn from.'
+  check: That 1960-72 canvasses were printed in the City Record (not only filed); the years digitized on the portal; ED-to-district
+    equivalence lists (the districting acts, N.Y. Laws 1961 ch. 980; 1968 and 1970 court plans; 1972 ch. 76) to assign EDs.
+  batch: retab-2026-10-31
+- id: chicago-boe-canvass
+  tier: 1
+  family: Chicago Public Library, Municipal Reference Collection (Harold Washington Library Center)
+  title: Board of Election Commissioners of the City of Chicago, official canvass (abstracts of votes by ward and precinct)
+    of the general elections of Nov. 8, 1960, Nov. 6, 1962, Nov. 3, 1964, Nov. 8, 1966, Nov. 7, 1972; and the Board's canvassing
+    sheets on aperture cards
+  url: https://www.chipublib.org/
+  steps: Ask the Municipal Reference Collection (Harold Washington Library Center, 400 S. State St., 5th floor) for the Board
+    of Election Commissioners' canvass books or the canvassing-sheet aperture cards for the five Novembers; ward totals for
+    each House race are enough where the new lines follow ward lines, precinct totals where they split a ward.
+  save_as: chicago-boe-canvass-YYYY.pdf
+  size: not known
+  public_domain: A city record; read and cite figures by page or card.
+  access: paper
+  basis:
+  - 'cited: a study of the 1960 Chicago vote (web search summary; Journal of American Studies, "The State''s Attorney and
+    the President: the inside story of the 1960 presidential election in Illinois", Cambridge Core 1CB59C47278A7DA5D3EECA0A8CBCD8CB):
+    the official canvass figures come from the election records in the Chicago Municipal Reference Library; the Board said
+    it had no such records'
+  - 'cited: Wikimedia Commons file "Chicago 1927 mayor by ward": data from canvassing-sheet aperture cards at the Harold Washington
+    Library, courtesy of the Board'
+  settles: 'Ill. 1962 (21 missing, nearly all Cook): the 1960 House vote by ward and precinct onto the 1961 lines; any later
+    Cook redistricting.'
+  check: 'That the cards or books for 1960-72 survive and carry the House races; the article''s page for the citation (not
+    read: Cambridge, paywalled).'
+  batch: retab-2026-10-31
+- id: la-registrar-statement-of-votes
+  tier: 1
+  family: Los Angeles County Registrar-Recorder; UCLA; Los Angeles Public Library
+  title: Los Angeles County Registrar of Voters (from 1968 Registrar-Recorder), statement of votes cast by precinct ("Statement
+    of Votes Cast", the official canvass by precinct, with assembly-district and city subtotals), general elections of 1960,
+    1962, 1964, 1966, 1972
+  url: https://www.lavote.gov/
+  steps: Ask the Registrar-Recorder/County Clerk (Norwalk) for the archived precinct statements of votes cast for the five
+    Novembers; ask UCLA Library (SRLF holds the summary canvasses, call no. LAGE-3858762) and the Los Angeles Public Library
+    (Central, Social Science/Government) for the precinct volumes. The printed summary ("Results of the Official Canvass")
+    gives district totals only.
+  save_as: la-statement-of-votes-cast-YYYY.pdf
+  size: several thousand pages a general election (recalled)
+  public_domain: A county record; read and cite figures by page.
+  access: paper
+  basis:
+  - 'seen: archive.org resultsofficialc1968losa ("Results of the official canvass of general election ... state measures,
+    county questions, special elections", Los Angeles County Dept. of Registrar-Recorder, 1968, 46 images; UCLA SRLF LAGE-3858762):
+    Representatives in Congress by district, totals only'
+  - 'catalog: hathifile, records 007709823/007709824 (uc2.ark:/13960/t0bv7x283, 1968-70 primary; uc2.ark:/13960/t9p279w63,
+    1968 general; ic); record 102645664 "Annual report of the Registrar of Voters of the County of Los Angeles" (uc1.l0053517975
+    1955/56-1958/59, uc1.l0053517983 1960/61; ic)'
+  - 'recalled: the precinct statements of votes cast exist for each election and carry every contest'
+  settles: 'Cal. 1962 (33 missing, most in Los Angeles County: 1960 House on the 1961 lines) and Cal. 1974 (38: 1972 House
+    on the 1973 masters'' lines), by precinct; the city and AD subtotals may suffice where the lines follow them.'
+  check: Survival and access of 1960-72 precinct statements; whether the Registrar's annual report (1960/61) prints the House
+    by AD.
+  batch: retab-2026-10-31
+- id: phila-commissioners-returns
+  tier: 1
+  family: Philadelphia City Archives; Free Library of Philadelphia
+  title: City Commissioners (County Board of Elections) of Philadelphia, returns of the general election by ward and division,
+    1960, 1962, 1964, 1966, 1972
+  url: https://www.phila.gov/departments/department-of-records/city-archives/
+  steps: Ask the Philadelphia City Archives (548 Spring Garden St.) for the City Commissioners' election returns (computation
+    sheets or printed abstracts) of the five Novembers; ward totals of each House race. Also the Free Library's Government
+    Publications and Social Science departments.
+  save_as: phila-returns-by-ward-YYYY.pdf
+  size: not known
+  public_domain: A city record; read and cite figures by page.
+  access: paper
+  basis:
+  - 'seen: The Pennsylvania Manual, vol. 94 (1959-60), pp. 513-514 (archive.org cwopa-the-pennsylvania-manual-vol-094-1959_202403,
+    OCR): "REPRESENTATIVES IN CONGRESS, General Election, November 4, 1958 ... Philadelphia County (part)": no wards'
+  - 'cited: the City Commissioners'' past-results page (vote.phila.gov) and the Committee of Seventy: ward and division data
+    online from 2002 on only'
+  - 'recalled: Philadelphia''s congressional districts were described by wards in the apportionment acts, so ward returns
+    retabulate exactly'
+  settles: 'Pa. 1962 (15 missing; Philadelphia and Allegheny chiefly): 1960 House by ward onto the 1962 lines.'
+  check: Which record group holds the returns; survival for 1960.
+  batch: retab-2026-10-31
+- id: mi-archives-county-returns
+  tier: 1
+  family: Archives of Michigan (State Archives, Lansing)
+  title: '*Statement of election returns ... from Wayne County, Michigan, general election, November 6, 1962*, vol. 1, RG
+    70-10 (Department of State, Elections Division: the county canvassers'' statements filed with the State Board of Canvassers)'
+  url: https://www.michigan.gov/mhc/archives
+  steps: Ask the Archives of Michigan (702 W. Kalamazoo St., Lansing) for RG 70-10, the Wayne County statement for Nov. 6,
+    1962 (and Oakland, Macomb), and whether it breaks the House vote down by city, township and Detroit precinct.
+  save_as: mi-rg70-10-wayne-1962.pdf
+  size: not known
+  public_domain: A State record; read and cite figures by page.
+  access: paper
+  basis:
+  - 'cited: web search result naming a SNAC resource (snaccooperative.org/vocab_administrator/resources/6959357): "Statement
+    of election returns in from Wayne County, Michigan, general election, November 6, 1962", Volume 1 of RG 70-10 (the page
+    itself is bot-checked)'
+  settles: 'Mich. 1964 (19 missing; Wayne, Oakland, Macomb split): the 1962 House vote by city, township and precinct onto
+    the 1964 lines.'
+  check: Repository (RG numbering is the Archives of Michigan's), unit of tabulation.
+  batch: retab-2026-10-31
+- id: boston-election-dept-reports
+  tier: 1
+  family: Internet Archive (Boston Public Library)
+  title: '*Annual Report of the Election Department* [Board of Election Commissioners], City of Boston, for the years 1960-1975
+    (City Document No. 10)'
+  url: https://archive.org/details/annualreportofbo1960bost
+  steps: 'Open. Items found on archive.org (Oct. 31, 2026), each the report for the year named: annualreportofbo1957bost,
+    1958, 1960, 1961, 1962, 1963, 1964, 1965, 1966, 1967, 1968, 1969, 1970, 1971, 1973, 1974, 1975 (1972 not found). Full
+    text: /download/<id>/<id>_djvu.txt.'
+  save_as: ''
+  size: 1960 report, OCR 294 KB
+  public_domain: A City of Boston document; open on archive.org; cite figures by page.
+  access: open
+  basis:
+  - 'seen: annualreportofbo1960bost, title page "ANNUAL REPORT ELECTION DEPARTMENT FOR THE YEAR 1960" and contents: State
+    election "For Representatives in Congress 151-162" (ward and precinct tables; pages not read)'
+  - 'seen: archive.org advanced search, collection bplgovdocs (Oct. 31, 2026)'
+  settles: 'Mass. 1962 (10 missing): the Boston wards and precincts of the 1960 House races, onto the 1962 lines; with PD
+    43 below for the towns.'
+  check: Read pp. 151-162 to confirm ward-and-precinct form for the House.
+  batch: retab-2026-10-31
+- id: ma-pd43-house-by-town
+  tier: 1
+  family: Internet Archive (State)
+  title: '*Election Statistics, The Commonwealth of Massachusetts*, Public Document No. 43, 1959-1960 (and 1961-1963, 1964,
+    1965-1966, 1971, 1972-1973)'
+  url: https://archive.org/details/electionstatisti19591960mass
+  steps: Open; full text at /download/electionstatisti19591960mass/electionstatisti19591960mass_djvu.txt.
+  save_as: ''
+  size: 1959-60 OCR 1.5 MB
+  public_domain: A State document; open; cite figures by page.
+  access: open
+  basis:
+  - 'seen: 1959-1960 volume OCR, "Representatives in the 87th Congress", p. 185 on: by city and town, split cities by groups
+    of wards ("Boston: Wards 4, 5, 10, 12, 19, 20, 21"; "Boston: Wards 1, 2, 3, 22"; "Somerville: Wards 1, 2, 3"; "Lynn: Wards
+    ..."; "Fall River: Ward 6")'
+  settles: Mass. 1962 (10 missing), outside Boston and where the 1962 lines follow town lines and the old ward groups; with
+    the Boston report for the wards.
+  check: Whether any split city other than Boston needs ward figures PD 43 groups.
+  batch: retab-2026-10-31
+- id: cddb-supp-16-tennessee
+  tier: 2
+  family: U.S. Bureau of the Census (Congressional District Data Book)
+  title: 'U.S. Bureau of the Census, *Supplement to Congressional District Data Book: Redistricted States*, No. 16, "Tennessee,
+    districts of the 90th Congress" ("CDDB--Suppl."; Washington: U.S. Bureau of the Census; for sale by the Supt. of Docs.,
+    GPO, 1965-1967; SuDoc C 3.134/2:C 76/963/suppl./; OCLC 2948071, 7640765)'
+  url: https://babel.hathitrust.org/cgi/pt?id=uc1.31210017088863
+  steps: 'Open uc1.31210017088863 (nos. 1-32, 1965-67), find No. 16 (between Virginia, No. 15, and Oregon, No. 17), and download
+    its pages one at a time (about 10-15 pp.). Other copies with No. 16: pst.000051825683 (nos. 11-19, June-July 1966: the
+    smallest volume to page through), coo.31924019887748 and coo.31924060283771 (nos. 1-32). Not coo.31924061256404 (nos.
+    1-31: which is missing, Check).'
+  save_as: cddb-supp-16-tennessee.pdf
+  size: not known; Nos. 8-15 and 17-32 run some 13 pp. each (the owner's copy, 327 pp. for 31 nos.)
+  public_domain: 'A work of the U.S. Government (17 U.S.C. § 105). HathiTrust: pd.'
+  access: bot-check
+  basis:
+  - 'catalog: HathiTrust record 012258002 (OCLC 2948071), MARC 505: "no. 15. Virginia, districts of the 90th Congress -- no.
+    16. Tennessee, districts of the 90th Congress -- no. 17. Oregon, districts of the 90th Congress"; the same 505 in record
+    009145558 (OCLC 7640765, Cornell)'
+  - 'catalog: the same 505 gives every number: 1 S.C., 2 Wis., 3 Colo., 4 Conn., 5 Ga., 6 Ala., 7 Mich. (89th); 8 Utah, 9
+    S.D., 10 Mont., 11 Idaho, 12 Ark., 13 Ala., 14 Ind., 15 Va., 16 Tenn., 17 Or., 18 Kan., 19 Ariz., 20 Fla., 21 Tex., 22
+    Ky., 23 N.C., 24 Mo., 25 Ohio, 26 S.C., 27 Miss., 28 Ill., 29 Pa., 30 N.J., 31 Md., 32 La. (90th), agreeing with the owner''s
+    copy (cdh-1966s.yaml header)'
+  - 'catalog: HathiTrust full record 009145558 (Cornell), 505 contents note: "no. 15. Virginia, districts of the 90th Congress
+    -- no. 16. Tennessee, districts of the 90th Congress -- no. 17. Oregon, districts of the 90th Congress"'
+  - 'catalog: HathiTrust record (Penn State/UC) with 505 to the same effect and SuDoc C 3.134/2:C 76/963/suppl./'
+  settles: The identity of No. 16 (Tennessee). With it, Tennessee's 1964, 1960 and 1956 presidential vote on the 90th's lines
+    (the 1966 and 1968 PVIs) and its House vote for districts carried whole (the House "NA" elsewhere, as in the other Supplements).
+    Not a row of the missing-lag table (Tennessee is not among the States named there).
+  check: 'Its date: June 1966 inferred from Nos. 15 and 17 (June 1966 in the owner''s copy); not seen. No H. Doc. number:
+    the govinfo Serial Set holds Nos. 1-7 only (H. Doc. 33, 89th Cong., 1st Sess., Serial 12706-1); no later supplement found
+    there. Its exact date (June 1966 inferred from Nos. 8-15 and 17-18, June 1966).'
+  batch: retab-2026-10-31
+- id: cdd-93x-interim
+  tier: 2
+  family: U.S. Bureau of the Census (Congressional District Data series)
+  title: 'U.S. Bureau of the Census, *Congressional District Data; Districts of the 93d Congress* (CDD-93X), separate State
+    reports (Washington: for sale by the Supt. of Docs., GPO, 1971-72; SuDoc C 56.213:93X, C 3.134/4:93X-; OCLC 614781): 2
+    Ariz., 3 Ark., 10 Idaho, 12 Ind., 13 Iowa, 14 Kan., 19 Mass., 21 Minn., 22 Miss., 24 Mont., 26 N.H., 30 N.C., 32 Ohio,
+    34 Or., 36 R.I., 37 S.C., 38 S.D., 40 Tex., 41 Utah, 42 Va., 44 W. Va., 45 Wis.'
+  url: https://babel.hathitrust.org/cgi/pt?id=pst.000049891065
+  steps: Open pst.000049891065 (Penn State, "pamphlets in 1 v."); download the "Elections" table page of each State report.
+  save_as: cdd-93x.pdf
+  size: not known
+  public_domain: 'A work of the U.S. Government (17 U.S.C. § 105). HathiTrust: pd.'
+  access: bot-check
+  basis:
+  - 'catalog: HathiTrust record 009424311 (OCLC 614781): notes "No reports will be issued in this series for the States that
+    do not change their congressional district boundaries for the 1972 elections"; "Series of separate state reports presenting
+    1970 population and housng [sic] data and recent election statistics for districts of the 93d Congress"; contents as above'
+  - 'catalog: HathiTrust record 009142831 (OCLC 1294362, the 45 State reports of 1972, Cornell, all ic): "Supersedes a partial
+    interim series (CDD-93X) covering 30 states, issued in 1971-72. Reissued in 1973 in a single volume."'
+  settles: The presidential vote of 1964 on the 93d's lines (the 1972 PVI's missing 15 districts), if the interim reports,
+    like CDD-92, print "Vote cast for President, 1964" beside 1968 (the 1973 volume prints 1968 alone). Also a cross-check
+    of the 1973 volume's House figures for these States.
+  check: Whether CDD-93X prints 1964 at all; which States the 15 missing districts are in (if New York's and Washington's,
+    this series does not hold them). The 45 State reports of 1972 (CDDB-93, coo.31924001264823 etc.) are ic here; their 1973
+    reissue is already read.
+  batch: retab-2026-10-31
+- id: cdir-district-composition
+  tier: 2
+  family: U.S. Congress, Joint Committee on Printing (Congressional Directory)
+  title: '*Official Congressional Directory*, 87th Cong., 1st Sess. (Apr. 1961) through 93d Cong., 1st Sess. (Mar. 1973) (Washington:
+    GPO), the State sections ("Biographical"): each Representative under his district''s description, e.g. 88th Cong., 1st
+    Sess. (Mar. 1, 1963; SuDoc Y 4.P 93/1:1/88-1), govinfo package CDIR-1963-03-01'
+  url: https://www.govinfo.gov/app/details/CDIR-1963-03-01
+  steps: 'Open: each edition has a text file beside the PDF, https://www.govinfo.gov/content/pkg/CDIR-<date>/text/CDIR-<date>.txt
+    (CDIR-1961-04-01, -1963-03-01, -1965-03-01, -1967-02-28, -1969-03-01, -1973-03-10 answered; the 1971 edition is CDIR-1971-03-10
+    per tools/congress/make_cdir_committees.py). No fetch needed: readable from here.'
+  save_as: (open; not needed)
+  size: text 3.1-4.1 MB an edition; PDF 144 MB (1963)
+  public_domain: A work of the U.S. Government (17 U.S.C. § 105).
+  access: open
+  basis:
+  - 'seen: CDIR-1963-03-01 text: whole counties listed with their count, "FIRST DISTRICT.--COUNTIES: Del Norte, Humboldt,
+    Marin, Mendocino, Napa, and Sonoma (6 counties). Population (1960), 533,807." (California, p. 13); split counties by assembly
+    district, "FIFTH DISTRICT.--COUNTY OF SAN FRANCISCO: Assembly districts 18 and 20" (p. 14), "NINTH DISTRICT.--COUNTY OF
+    ALAMEDA: Assembly district 13. COUNTY OF SANTA CLARA: Assembly district 25"; Chicago by wards and parts of wards bounded
+    by streets, "SECOND DISTRICT.--CITY OF CHICAGO: That part of ward 4 south of the center line of east 46th Street ... wards
+    5 and 7" (Illinois, about p. 44); New York City by metes and bounds of streets ("NINTH DISTRICT.--QUEENS COUNTY: That
+    part beginning at a point where 23d Avenue extended intersects ..."), no assembly districts'
+  - 'seen: CDIR-1973-03-10 text: the same form, less uniform (Los Angeles by assembly district, "NINETEENTH DISTRICT.--COUNTY
+    OF LOS ANGELES: Assembly districts 51 and 66; includes all or part of the cities of ..."; others by cities or by metes
+    and bounds; New Hampshire by county and towns; Chicago by wards and parts of wards)'
+  settles: 'The key to whole-county lags: which counties make each district, and for California and Chicago which assembly
+    districts or wards. With county (or AD, ward) returns of the earlier House election, a district made of whole units can
+    be retabulated here; New York City''s street-bounded districts cannot from the Directory alone.'
+  check: 'Page numbers from the text file''s running heads (CALIFORNIA Biographical 13 ... 15): check against the PDF. The
+    1975 (94th) edition''s package id not found (govinfo browse API returned nothing; DEMO_KEY rate-limited).'
+  batch: retab-2026-10-31
+- id: brownson-election-index
+  tier: 2
+  family: Congressional Staff Directory (Charles B. Brownson), not federal; noted for the other searchers
+  title: '*Election Index to Redistricted States* (at head of title: Congressional Staff Directory; Mount Vernon, Va.: Congressional
+    Staff Directory, 1966-1968), 2 v. (1966, 1968), OCLC 7291144; continued by *Election Index with Redistricted States* (1970),
+    OCLC 7291137; then *Election Index* (ISSN 0095-7186)'
+  url: https://catalog.hathitrust.org/api/volumes/brief/htid/mdp.39015022687720.json
+  steps: 'HathiTrust: mdp.39015022687720 (1966), mdp.39015050578973 (1968), mdp.39015033711634 (1970), all ic (search only).
+    Borrow (ILL by OCLC) or buy second-hand.'
+  save_as: csd-election-index-1966.pdf, -1968.pdf
+  size: not known
+  public_domain: 'in copyright: read and cite figures by page'
+  access: borrow
+  basis:
+  - 'catalog: HathiTrust record 000549289: 520 "Containing biographical briefs on the members and the candidates in the ...
+    Congressional elections and listing the cities and towns in the districts from which they are standing for election or
+    reelection - together with election statistics."'
+  - 'catalog: HathiTrust full records 000549289 and 000549291 (Bib API): 520 "Containing biographical briefs on the members
+    and the candidates in the ... Congressional elections and listing the cities and towns in the districts from which they
+    are standing for election or reelection - together with election statistics"; 362 "1966-1968"; 785/780 the title changes'
+  - 'catalog: Open Library OL29060141W, OL29060142W, OL29063618W, OL29055271W, OL29061290W, OL29057755W ("Election Index to
+    Redistricted States", 1966-80, Anna L. Brownson)'
+  - 'catalog: hathifile (Oct. 1, 2026) rows above'
+  settles: Possibly the 1966 row (1964 House on the 90th's lines) and the 1968 row (1966 House on the 91st's lines, N.Y. 40,
+    Mo. 10, Tex. 7), if its "election statistics" give the earlier vote on the new lines; at least the cities and towns in
+    each redistricted district.
+  check: 'Whether the statistics are the previous House vote retabulated, or by old district, or only the candidates'' last
+    results. Outside this searcher''s share: hand to the commercial-publisher list. What "election statistics" are: the previous
+    vote on the old lines, or recomputed. Not seen.'
+  batch: retab-2026-10-31
+- id: cq-congressional-districts-1970s
+  tier: 2
+  family: Congressional Quarterly, not federal; noted for the other searchers
+  title: 'Congressional Quarterly, *Congressional Districts in the 1970s* (Washington: CQ, 1973), 236 pp., LCCN 73002311,
+    OCLC 640793, ISBN 0871870444; 2d ed. (1974), 236 pp., LCCN 72094078, OCLC 1034906, ISBN 0871870630 ("organized and compiled
+    by Warden Moxley, assisted by Wayne Walker and Robert Healy")'
+  url: https://archive.org/details/congressionaldis0000cong
+  steps: 'archive.org lending library: congressionaldis0000cong (1974 ed.), congressionaldis0000cong_f1r0 (1973 ed.); "Borrow"
+    with an archive.org account (one hour or fourteen days). HathiTrust mdp.39015017669717 (1974), mdp.39015072131405 (1973),
+    ic.'
+  save_as: (borrowed; note pages)
+  size: 236 pp. (254 images, 1974 ed.)
+  public_domain: 'in copyright: read and cite figures by page'
+  access: borrow
+  basis:
+  - 'catalog: archive.org metadata, congressionaldis0000cong: "descriptive and statistical profiles of the districts based
+    on the 1970 census and subsequent reapportionment and redistricting; maps of all states showing district lines; official
+    election returns for the 1972 elections together with comparisons with 1968 and 1970 results"'
+  - 'catalog: HathiTrust Bib API lccn/73002311 and lccn/72094078; archive.org metadata (lccn, isbn, imagecount 246 and 254)'
+  - 'seen: CQ Weekly Report 1973 index (archive.org), CQ''s notice: "Political and Demographic Profiles of 435 Congressional
+    Districts based on 1970 census. Includes maps for each state and largest cities. 1973. 234 pages"; 1974 index: "Congressional
+    Districts in the 1970''s, 2nd Edition $10.00"'
+  - 'recalled: that each profile gives the district''s recent vote (1972 House and President in the 2d ed.); whether recomputed
+    for new lines not known'
+  settles: The 1974 row, if the 1974 edition gives California's, New York's and Texas's 1974 districts with the 1972 vote
+    recomputed onto them (the 1973 edition is on the 93d's lines).
+  check: Whether the 1974 edition carries the 1973-74 redistrictings (California's masters' plan, New York, Texas) and whether
+    its "comparisons" are recomputed onto the new lines. Restricted text (download returns 302 to login). Whether the 2d ed.
+    is on the 93d's or the 94th's lines in Cal. and Tex.; what vote figures each district shows and on what lines.
+  batch: retab-2026-10-31
+- id: nrcc-cd-vote-comparison-1970
+  tier: 2
+  family: Republican Congressional Committee (NRCC)
+  title: 'National Republican Congressional Committee, *Congressional District Vote Comparison, 1970* (Washington, D.C., 1970?):
+    House vote 1964, 1966, 1968 (and presidential 1964, 1968) retabulated onto the lines in force for the 1970 elections;
+    title as the Census cites it, not seen.'
+  url: https://www.loc.gov/
+  steps: Not found in Open Library or HathiTrust by title. Ask LoC for the NRCC's 1970 vote comparison; the Census copy behind
+    CDD-92 (Bureau of the Census library, Suitland) may survive.
+  save_as: nrcc-cd-vote-comparison-1970.pdf
+  size: not known
+  public_domain: 'Not a government work. Published by a party committee before 1978: public domain in the United States if
+    issued without a copyright notice (Check the title page); otherwise in copyright: read and cite figures by page.'
+  access: not-found
+  basis:
+  - 'cited: Census, *Congressional District Data, Districts of the 92d Congress*, CDD-92-1 to -46 (1971), each report''s last
+    page: "Data for 1964-1968 are from the National Republican Congressional Committee report, Congressional District Vote
+    Comparison, 1970. The original figures for 1964, 1966, and 1968 have been retabulated by the Committee to reflect changes
+    in congressional district boundaries up to the time of the 1970 elections" (repo: elections/readings/districts-house/cdh-1971.yaml
+    header)'
+  settles: Nothing new where CDD-92 is read (it prints the same figures); serves the 1968 row only where the 1970 lines are
+    the 1968 lines. The NRCC original may give what CDD-92 prints "(NA)" (New York 1964).
+  check: Whether the original prints figures CDD-92 omits.
+  batch: retab-2026-10-31
+- id: rcc-1972-vote-stats-93rd
+  tier: 2
+  family: Republican Congressional Committee (NRCC)
+  title: 'Republican Congressional Committee, *1972 Congressional Vote Statistics, 93rd Congress: A Summary of the Election
+    Year 1972* ([Washington], 1973), 1 v. (various pagings). LCCN 73168210; LC call no. JK1968 1972 .R46 1973.'
+  url: https://openlibrary.org/books/OL5465399M
+  steps: 'Library of Congress, Main Reading Room: request by call number (MLCM = minimal-level cataloging; the item is in
+    LoC''s general collections) through Ask a Librarian or in person; or a WorldCat search on the LCCN for other holders (WorldCat''s
+    result lists load by script and were not read from here).'
+  save_as: rcc-1972-vote-stats-93rd.pdf
+  size: 1 v. (various pagings)
+  public_domain: 'Not a government work. Published by a party committee before 1978: public domain in the United States if
+    issued without a copyright notice (Check the title page); otherwise in copyright: read and cite figures by page.'
+  access: paper
+  basis:
+  - 'catalog: Open Library OL5465399M (from LoC MARC, marc_loc_2016 part08)'
+  - 'catalog: HathiTrust Bib API lccn/73168210: no record'
+  settles: A cross-check of the 1972 House returns on the 93d's lines; if it carries a "revisions for redistricting" part
+    like the 1964 edition, the 1974 row.
+  check: Contents not seen.
+  batch: retab-2026-10-31
+- id: cq-redistricting-reports
+  tier: 2
+  family: Congressional Quarterly
+  title: 'Congressional Quarterly, State-by-State congressional redistricting reports in *CQ Weekly Report*, 1964-74 (pages
+    from the annual indexes): 1964 (vol. 22): Alabama 2136-2138; Colorado 481; Maryland 621; Michigan, Connecticut, Georgia
+    (pages garbled in the OCR); 1965 (vol. 23): Alabama 2404, Arkansas 1254, Idaho 1029, Indiana 780, Kansas 926, Maryland
+    868, 1066, Montana 2449, Ohio 305, 983, South Dakota 547, Oregon (page garbled), computers 2241, standards 2474; 1966
+    (vol. 24): Florida, Illinois, Missouri, "1960-1966 state by state", "1964-1966 status" (pages garbled); 1967 (vol. 25):
+    Florida and Illinois 1977, North Carolina 2630; 1968 (vol. 26): California, Florida, Missouri, Nebraska, New Jersey 23,
+    New Mexico, Oklahoma 22, Tennessee, West Virginia; 1969 (vol. 27): Louisiana 1463, Missouri 1644, congressional districts
+    503-504; 1972 (vol. 30): California 930, Maine 1003, New York 1869-1874, Illinois 1909-1914; 1974 (vol. 32): Texas, new
+    districts (maps) 982-984, "Casualties of redistricting" 727, marginal districts by State 812, 2965.'
+  url: https://archive.org/details/sim_cq-weekly_january-december-1965_23_index
+  steps: Read the page numbers off the open indexes, then the pages in the bound volumes (HathiTrust search-only; a library)
+    or CQ's archive.
+  save_as: cq-redistricting-YYYY-STATE.pdf
+  size: 1-6 pp. each
+  public_domain: 'In copyright (CQ): read and cite figures by page.'
+  access: subscription
+  basis:
+  - 'seen: CQ Weekly Report annual indexes 1964, 1965, 1966, 1967, 1968, 1969, 1972, 1974 (archive.org sim_cq-weekly_* items,
+    OCR read Oct. 31, 2026): the entries and pages above (OCR errors possible: Check each page)'
+  - 'recalled: that CQ''s redistricting reports sometimes gave the incumbents'' earlier vote in the new districts; not seen'
+  settles: Possibly some of every row (the State of each report), where CQ recomputed the earlier vote for the new districts;
+    else only the plans, populations and maps.
+  check: 'The content of each report: recomputed votes or not. Not seen.'
+  batch: retab-2026-10-31
+- id: cq-elections-of-1968
+  tier: 2
+  family: Congressional Quarterly
+  title: 'Congressional Quarterly Service, *Elections of 1968: Races for 34 Senate Seats, 435 House Seats and 21 Governorships
+    in the 50 States* (CQ Special Report), *CQ Weekly Report*, no. 30, pt. 1 of 3 pts. (July 26, 1968), pp. 1856-1937. HathiTrust
+    pst.000059704744 (ic); OCLC 82517940.'
+  url: https://catalog.hathitrust.org/Record/007049473
+  steps: HathiTrust search inside (search only) for "1966" in a browser, to see whether the New York districts carry a recomputed
+    1966 vote; then a library copy of vol. 26 (HathiTrust ic inu.30000108166434, pt. 2) or CQ's archive.
+  save_as: cq-elections-of-1968.pdf
+  size: 82 pp. (1856-1937)
+  public_domain: 'In copyright (CQ): read and cite figures by page.'
+  access: subscription
+  basis:
+  - 'catalog: HathiTrust full record 007049473 (Bib API): 300 "1856-1937 p."; 500 "Congressional quarterly weekly report,
+    no. 30, pt. 1 of 3 pts., July 26, 1968"'
+  - 'seen: CQ Weekly Report 1968 index (archive.org): "Special Report - 1857-1937"'
+  settles: Possibly the 1968 row (N.Y. 40, Mo. 10, Tex. 7) if its district previews give the 1966 vote in the new districts.
+  check: Contents not seen; recalled only that CQ's pre-election reports give each district's previous vote.
+  batch: retab-2026-10-31
+- id: america-votes-5-11
+  tier: 2
+  family: Elections Research Center (Scammon), America Votes
+  title: 'Richard M. Scammon, comp. and ed., *America Votes 5: A Handbook of Contemporary American Election Statistics, 1962*
+    (Pittsburgh: University of Pittsburgh Press, 1964); 6 (1964; Washington: Congressional Quarterly, 1966); 7 (1966; 1968);
+    8 (1968; 1970); 9 (1970; 1972); 10 (1972; 1973); 11 (1974; 1975). Serial LCCN 56010132, OCLC 1240412. archive.org (lending):
+    americavotes5han00scam (5), americavotes6han00scam (6), americavotes7han00scam (7), americavotes8elec (8, vol. 1968),
+    americavotes919700scam (9), americavotes10ha00scam (10), americavotes11elec (11, vol. 1974). HathiTrust (ic): v.5 mdp.39015053605427,
+    mdp.49015002885755; v.6 mdp.39015053605260; v.7 uiug.30112013473100; v.8 uiug.30112013473118; v.9 (1970) mdp.49015002885748
+    (labelled "v.8 1970"); v.10 (1972) mdp.49015002885730.'
+  url: https://archive.org/details/americavotes7han00scam
+  steps: 'archive.org: Borrow; open one State with split-county districts (New York, California) to see what the House table
+    prints: district totals only, or by county or assembly district within a district; and whether an earlier year is shown
+    recomputed for new lines.'
+  save_as: (borrowed) america-votes-7-NY-house.png
+  size: 404-492 page images a volume
+  public_domain: 'In copyright (Governmental Affairs Institute / CQ): read and cite figures by page.'
+  access: borrow
+  basis:
+  - 'catalog: archive.org metadata (titles, imprints, imagecounts; americavotes8elec "volume: 1968", americavotes11elec "volume:
+    1974")'
+  - 'catalog: hathifile (Oct. 1, 2026) rows above'
+  - 'cited: Census 1963 Data Book p. XV: *America Votes* 1, 3, 4 used for whole-county districts (the presidential vote by
+    county; repo cdb-1963.yaml header)'
+  - 'recalled: America Votes prints the House vote by district (candidates, totals, plurality, percentages), the presidential,
+    senatorial and gubernatorial vote by county and by ward or assembly district in the largest cities; not the House vote
+    by county'
+  settles: 'The 1962 row''s split-county districts in the big cities only by a sub-county build: the presidential and gubernatorial
+    vote by ward or assembly district, if the series ever wants a proxy; the House lag itself, no (recalled).'
+  check: All contents recalled; read one volume.
+  batch: retab-2026-10-31
+- id: barone-almanac-1972-1976
+  tier: 2
+  family: Barone, Ujifusa & Matthews, Almanac of American Politics
+  title: 'Michael Barone, Grant Ujifusa & Douglas Matthews, *The Almanac of American Politics: The Senators, the Representatives--Their
+    Records, States and Districts, 1972* (Boston: Gambit, 1972), ISBN 0876450532; *... 1974* (Boston: Gambit, [c1973]), LCCN
+    72096875, OCLC 783696; *The Almanac of American Politics, 1976: The Senators, the Representatives, the Governors--Their
+    Records, States, and Districts* (New York: Dutton, 1975), ISBN 0876901879. Serial LCCN 70160417. archive.org almanacofamerica0000baro_f4i2
+    (1972), almanacofamerica0000baro_y3u0 (1974), almanacofamerica0000baro_g7o6 (1976), lending; HathiTrust mdp.39015071163508
+    (1972), mdp.39015046443472 (1974), mdp.49015002885524 (1976), ic.'
+  url: https://archive.org/details/almanacofamerica0000baro_g7o6
+  steps: 'archive.org: Borrow; open a California and a Texas district of the 1976 edition and a New York district of the 1974
+    edition; note what presidential and House figures the district box gives and on which lines.'
+  save_as: (borrowed) almanac-1976-CA-district.png
+  size: 1,060; 1,274; 1,082 page images
+  public_domain: 'In copyright: read and cite figures by page.'
+  access: borrow
+  basis:
+  - 'catalog: archive.org metadata (titles, imprints, ISBN, LCCN, OCLC, imagecounts)'
+  - 'catalog: hathifile (Oct. 1, 2026)'
+  - 'recalled: each district box gives the census profile, the presidential vote in the district (the latest election, on
+    the current lines in the 1974 and 1976 editions), and the member''s last two or three elections (general and primary)
+    on the lines of their day'
+  settles: 'The 1972 presidential vote on the 94th Congress''s lines (1976 ed.) and on the 93d''s (1974 ed.), as a cross-check
+    of Jacobson''s; the House lag, no (recalled: the House results are the member''s own races).'
+  check: Contents recalled; whether the 1974 edition gives 1968 or 1964 presidential on the 93d's lines; the sources it names
+    (the NRCC?).
+  batch: retab-2026-10-31
+- id: ny-legislative-manual
+  tier: 2
+  family: HathiTrust (State)
+  title: '*Manual for the Use of the Legislature of the State of New York* (Secretary of State), editions 1961, 1962/63, 1963/64
+    (full view) and 1964/65-1975 (search only)'
+  url: https://catalog.hathitrust.org/Record/006110833
+  steps: 'Full view: uc1.b4046864 (1961: prints the 1960 election), uc1.b4046865 or uiug.30112110805931 (1962/63), uc1.b4046866
+    (1963/64: the 1962 election). Search only: uiug.30112110805956 (1964/65), -964 (1965/66), -972 (1966/67), -980 (1967/68:
+    the 1966 election), uiug.30112110805477 (1968), -485 (1969), -493 (1970), uiug.30112071798851 (1971/72), -737 (1973: the
+    1972 election), -877 (1974), -869 (1975). Open the Congress returns pages ("Vote for Representatives in Congress") by
+    "This page" download.'
+  save_as: ny-legislative-manual-1961-congress.pdf (pages)
+  size: about 1,200 pages a volume (recalled)
+  public_domain: 'A State publication; HathiTrust pdus for 1961-1963/64 (not to be republished); the later volumes ic: read
+    and cite figures by page.'
+  access: bot-check
+  basis:
+  - 'catalog: hathifile Oct. 1, 2026, record 006110833 (OCLC 1760145, LCCN 09034832); htids and rights as in steps'
+  - 'recalled: the Manual prints the House vote by county, and within New York City by assembly district'
+  settles: 'If it prints Congress by AD in NYC: part of N.Y. 1962 (1960 vote, 1961 Manual) and 1968 (1966 vote, 1967/68 Manual);
+    and the upstate split counties by town and ward if printed so (Erie, Monroe, Westchester, Nassau, Suffolk).'
+  check: 'What the table prints below the county (AD in NYC? towns and wards upstate?). The register (NY) says "none of 1965-69
+    in HathiTrust": corrected, eleven search-only volumes 1964/65-1975 are on the record.'
+  batch: retab-2026-10-31
+- id: ny-county-boards-canvass
+  tier: 2
+  family: County boards of elections; county boards of supervisors' printed proceedings
+  title: Official canvass of the general election, by town, city ward and election district, as printed in each county's *Journal
+    of Proceedings of the Board of Supervisors* (Erie, Monroe, Westchester, Nassau, Suffolk), 1960-1972; or the county boards
+    of elections' canvass books
+  url: ''
+  steps: Ask the Buffalo and Erie County Public Library (Grosvenor Room), the Rochester Public Library (Local History), the
+    Westchester County Archives (Elmsford), the Nassau County Board of Elections (Mineola) and the Suffolk County Board of
+    Elections (Yaphank) for the printed proceedings or canvass books for the Novembers of 1960, 1966 and 1972.
+  save_as: ny-COUNTY-canvass-YYYY.pdf
+  size: not known
+  public_domain: County publications; read and cite figures by page.
+  access: paper
+  basis:
+  - 'recalled: New York county boards of supervisors printed the official canvass, town by town and ward by ward, in their
+    annual proceedings'
+  - 'catalog: none found in the hathifile extract (searched "supervisors" with the county names; the extract holds only titles
+    with election words, so absence is not evidence)'
+  settles: N.Y. 1962, 1968, 1974 outside NYC where a county was split (Erie, Monroe, Westchester, Nassau, Suffolk).
+  check: 'Everything: existence, years, unit of tabulation.'
+  batch: retab-2026-10-31
+- id: cook-county-clerk-suburban
+  tier: 2
+  family: Cook County Clerk (Elections)
+  title: Cook County Clerk, official canvass of the general election for the suburban townships ("country towns") and precincts,
+    1960-1972
+  url: https://www.cookcountyclerkil.gov/
+  steps: Ask the Cook County Clerk's Elections Division and the Cook County Clerk's archives for the canvass of Nov. 8, 1960
+    (and 1962-72) by township and precinct. The Illinois Official Vote's Cook tables credit "Information furnished by Clerk
+    of Cook County".
+  save_as: cook-clerk-canvass-YYYY.pdf
+  size: not known
+  public_domain: A county record; read and cite figures by page.
+  access: paper
+  basis:
+  - 'seen: Illinois Official Vote 1960 (archive.org officialvote1960illi, OCR): "TOTAL VOTE—COOK COUNTY—NOVEMBER 8, 1960 (Information
+    furnished by Clerk of Cook County)", wards of Chicago then townships'
+  - 'recalled: the Clerk keeps the suburban canvass by precinct'
+  settles: 'Ill. 1962: the suburban parts of the Cook districts (the 1961 lines split suburban townships).'
+  check: Survival and form for 1960.
+  batch: retab-2026-10-31
+- id: ca-other-county-registrars
+  tier: 2
+  family: County registrars of voters (San Francisco, Alameda, San Diego, Orange)
+  title: Statements of vote (precinct) of the City and County of San Francisco Registrar of Voters, and the Alameda, San Diego
+    and Orange County registrars, general elections 1960-1972
+  url: https://archive.org/details/statementofvotec7197sanf
+  steps: 'San Francisco: SFPL''s series on archive.org runs from June 1978 only (register); ask the SFPL Government Information
+    Center for 1960-72. Alameda (Oakland), San Diego, Orange: the registrars'' archives and the county law libraries.'
+  save_as: ca-COUNTY-statement-of-vote-YYYY.pdf
+  size: not known
+  public_domain: County records; read and cite figures by page.
+  access: paper
+  basis:
+  - 'catalog: sources/states.yaml CA local (SFPL series, 24 items from June 1978)'
+  - 'recalled: each California registrar printed a precinct statement of vote for each election'
+  settles: Cal. 1962 and 1974 where a district split one of these counties.
+  check: Everything below the county for 1960-72.
+  batch: retab-2026-10-31
+- id: allegheny-elections-returns
+  tier: 2
+  family: Allegheny County Division of Elections; Carnegie Library of Pittsburgh
+  title: Allegheny County Board of Elections, official returns of the general election by municipality, ward and district,
+    1960-1972
+  url: https://www.alleghenycounty.us/Government/Elections
+  steps: Ask the Allegheny County Division of Elections (County Office Building) and the Carnegie Library of Pittsburgh (Pennsylvania
+    Department) for the official returns of Nov. 8, 1960.
+  save_as: allegheny-returns-YYYY.pdf
+  size: not known
+  public_domain: A county record; read and cite figures by page.
+  access: paper
+  basis:
+  - 'recalled: the county board printed or filed official returns by municipality and ward'
+  settles: Pa. 1962 (the Allegheny districts).
+  check: Everything.
+  batch: retab-2026-10-31
+- id: mi-official-canvass
+  tier: 2
+  family: HathiTrust (State)
+  title: '*Official Canvass of Votes: Primary Election, Special Elections, General Election* (Michigan Department of State),
+    1960, 1962, 1964 (and 1968-72)'
+  url: https://catalog.hathitrust.org/Record/102823787
+  steps: 'Full view: mdp.39015043561367 (1960), mdp.39015043561516 (1962), mdp.39015043561201 (1964), mdp.39015043561508 (1968),
+    mdp.39015043561193 (1970), mdp.39015043561342 (1972); 1966 mdp.39015043561359 search only. Open the Representative in
+    Congress pages and see whether Wayne is broken down by city, township or Detroit ward.'
+  save_as: hathi-mi-official-canvass-1962.pdf
+  size: not known
+  public_domain: A State publication; HathiTrust pdus.
+  access: bot-check
+  basis:
+  - 'catalog: hathifile, record 102823787 (OCLC 17964768), htids and rights as in steps; also record 100753664 (uiug.30112118469656
+    1960-70 ic; uc1.l0059595819 1968-76 pdus)'
+  settles: Mich. 1964, if it prints Wayne below the county; otherwise a county-level cross-check.
+  check: 'Its unit of tabulation (not opened). Not in the register (MI lists the Manual and the Board of State Canvassers''
+    records): an addition.'
+  batch: retab-2026-10-31
+- id: detroit-wayne-local
+  tier: 2
+  family: Detroit City Clerk; Wayne County Clerk; Burton Historical Collection (Detroit Public Library)
+  title: Detroit City Clerk and Wayne County Board of Canvassers, official canvass by precinct, general election of Nov. 6,
+    1962
+  url: https://www.waynecountymi.gov/Government/Elected-Officials/Clerk/Elections/Board-of-Canvassers
+  steps: Ask the Burton Historical Collection and the Detroit Municipal Library for the City Clerk's canvass of 1962; the
+    Wayne County Clerk for the Board of Canvassers' statement.
+  save_as: detroit-canvass-1962.pdf
+  size: not known
+  public_domain: Local records; read and cite figures by page.
+  access: paper
+  basis:
+  - 'recalled: precinct canvasses exist; Wright, *Urban Political Geography: A Black Perspective of Black Political Behavior
+    in the 1961, 1965, 1969 Mayoral Elections of Detroit* (hathifile, inu.39000002979768, ic) used Detroit returns below the
+    city (to check which)'
+  settles: Mich. 1964.
+  check: Everything.
+  batch: retab-2026-10-31
+- id: cuyahoga-boe-and-city-record
+  tier: 2
+  family: Cuyahoga County Board of Elections; Cleveland Public Library; HathiTrust (city)
+  title: Cuyahoga County Board of Elections, official returns by ward and precinct, general election of Nov. 3, 1964; and
+    *The City Record* (City of Cleveland), which printed the official canvass of city elections
+  url: https://catalog.hathitrust.org/Record/100558344
+  steps: 'Board: ask the Board of Elections (2925 Euclid Ave.) and the Cuyahoga County Archives for the 1964 abstracts by
+    ward and municipality. City Record: HathiTrust osu. volumes 1950-1963 (record 100558344, OCLC 1901045, LCCN 15018460;
+    ic), e.g. osu.32435063595623 (July-Dec. 1963, index); search inside for "Representative to Congress"; 1964-66 volumes
+    at the Cleveland Public Library.'
+  save_as: cuyahoga-returns-1964.pdf
+  size: not known
+  public_domain: Local publications; read and cite figures by page.
+  access: paper
+  basis:
+  - 'catalog: hathifile, record 100558344 "The city record" [City of Cleveland], osu. volumes 1950-1963, ic'
+  - 'recalled: the Cleveland City Record printed election canvasses; the county board''s abstracts by precinct exist'
+  settles: 'Ohio 1966 (21 missing): the Cuyahoga part (the 1964 House vote by ward and suburb onto the 1966 lines); the rest
+    of Ohio''s missing lags are whole-county districts, settled by Ohio Election Statistics (county) and outside this share.'
+  check: Whether the City Record printed the federal races; survival of the board's 1964 abstracts.
+  batch: retab-2026-10-31
+- id: tx-county-clerks-precinct
+  tier: 2
+  family: Harris and Dallas county clerks; Texas State Library and Archives
+  title: Harris County Clerk and Dallas County Clerk (and Commissioners Courts), official canvass of the general election
+    by precinct, 1960, 1964, 1966, 1972; the Secretary of State's county returns (by county only) at TSLA
+  url: https://www.tsl.texas.gov/ref/historicalelections
+  steps: Ask the Harris County Clerk (Houston) and the Dallas County Elections Department for the Commissioners Court canvass
+    (precinct returns) of the four Novembers; TSLA's county-by-county returns do not go below the county.
+  save_as: tx-COUNTY-canvass-YYYY.pdf
+  size: not known
+  public_domain: County records; read and cite figures by page.
+  access: paper
+  basis:
+  - 'catalog: sources/states.yaml TX (TSLA guide: county returns 1846-1984, by request)'
+  - 'recalled: the commissioners courts canvassed by precinct and the minutes record it'
+  settles: Tex. 1962 (12), 1968 (7), 1974 (16) where Harris, Dallas, Bexar or Tarrant was split.
+  check: Everything below the county.
+  batch: retab-2026-10-31
+- id: stl-kc-boards
+  tier: 2
+  family: Boards of Election Commissioners of the City of St. Louis, of St. Louis County, of Kansas City
+  title: Official returns by ward and precinct of the general elections of Nov. 8, 1960, Nov. 3, 1964 and Nov. 8, 1966 (City
+    of St. Louis; St. Louis County; Kansas City; Jackson County)
+  url: https://data.library.wustl.edu/record/35
+  steps: Ask the St. Louis Public Library (Central, Missouri Room), the Missouri Historical Society Library and the Missouri
+    State Archives for the City Board's returns by ward; Washington University's data repository holds records of St. Louis
+    County election results (check the years); Kansas City Public Library (Missouri Valley Special Collections) for Kansas
+    City's board.
+  save_as: stl-returns-by-ward-YYYY.pdf
+  size: not known
+  public_domain: Local records; read and cite figures by page.
+  access: paper
+  basis:
+  - 'seen: Official Manual, State of Missouri, 1961-62 (Missouri Digital Heritage CONTENTdm, bluebook 35309, section XXIII,
+    page pointers 34782-34901, OCR read), p. 1194: "Vote for Representatives in Congress at General Election, November 8,
+    1960", columns "Part of City of St. Louis", "St. Louis County", "Part of Jackson County", "Kansas City": no ward breakdown
+    anywhere in the section'
+  - 'cited: web search summary: the St. Louis Genealogical Society''s CD of the Board''s ward maps (1908-1952) was copied
+    from the Board''s bound books; Washington University data.library.wustl.edu records of St. Louis County election results'
+  settles: 'Mo. 1962 (10), 1966 (10), 1968 (10): the St. Louis and Kansas City districts.'
+  check: Survival and form; what the WUSTL records cover (years, units).
+  batch: retab-2026-10-31
+- id: milwaukee-election-commission
+  tier: 2
+  family: Milwaukee County Historical Society (Research Library)
+  title: Milwaukee County Board of Election Commissioners records, Mss-0957 (annual reports 1952-56; "election statistics"
+    folders 1957-61, 1962-65, 1966-70); City of Milwaukee Board of Election Commissioners records, Mss-2128 (annual/biennial
+    reports 1916-1993)
+  url: https://milwaukeehistory.net/wp-content/uploads/2017/09/0957.Board-of-Election-Commissioners.pdf
+  steps: Ask the Milwaukee County Historical Society's Research Library for Mss-0957, folder "Election statistics 1962-1965"
+    (the 1962 House vote by ward and municipality), and Mss-2128's report for 1962. Also the Milwaukee Public Library (Humanities,
+    government documents).
+  save_as: milwaukee-election-statistics-1962.pdf
+  size: not known
+  public_domain: Local records; read and cite figures by page.
+  access: paper
+  basis:
+  - 'cited: web search summaries of the Society''s finding aids for Mss-0957 and Mss-2128 (the PDFs are scans without text;
+    not read here)'
+  - 'cited: a 1963 Wisconsin statute provision (chapter 10, the Milwaukee board) that the board "shall compile and publish
+    an annual report" containing election statistics for the city and county (docs.legis.wisconsin.gov/document/statutes/1963/10.pdf;
+    section not read)'
+  settles: 'Wis. 1964 (10 missing): the Milwaukee County part (the 4th and 5th districts split the county); the other districts
+    are whole counties, settled by the Blue Book''s county table.'
+  check: The statute's section and words; whether the 1962 statistics carry the House race by ward.
+  batch: retab-2026-10-31
+- id: nj-legislative-manual
+  tier: 2
+  family: HathiTrust (State); Fitzgerald's
+  title: '*Manual of the Legislature of New Jersey* ("Fitzgerald''s Legislative Manual"), 1961-1967 editions (each prints
+    the previous November''s returns)'
+  url: https://catalog.hathitrust.org/Record/006135724
+  steps: 'HathiTrust full view to 1963 (uc1.b4046202 1961, uc1.b4046203 1962, uc1.b4046204 1963); 1965 edition (the 1964 election)
+    not in HathiTrust: the New Jersey State Library (Trenton), Rutgers (Alexander Library).'
+  save_as: nj-manual-1965-congress.pdf
+  size: about 1,000 pages a volume (recalled)
+  public_domain: A privately compiled, State-authorized manual; read and cite figures by page.
+  access: paper
+  basis:
+  - 'catalog: hathifile, record 006135724: uc1.b4046192-b4046203 (1951-1962) and b4046204 (1963) pdus; 1974-77 ic'
+  - 'seen: State of New Jersey, Results of the General Election, Nov. 3, 1964, p. 4 (www.nj.gov .../1964-general-election.pdf,
+    8 pages, scan): House by district and county part only'
+  - 'recalled: the Manual prints the general election by municipality'
+  settles: 'N.J. 1966 (13 missing): Essex, Hudson, Bergen and others split by municipality in the 1966 plan; the 1964 House
+    vote by municipality would retabulate it.'
+  check: Whether the Manual prints the House race (not only governor and President) by municipality; the 1965 edition's location.
+  batch: retab-2026-10-31
+- id: census-district-atlas
+  tier: 3
+  family: U.S. Bureau of the Census (Congressional District Atlas)
+  title: 'U.S. Bureau of the Census, *Congressional District Atlas of the United States* ([1960]; OCLC 9318422, LCCN 84643169),
+    and *Congressional District Atlas* (SuDoc C 3.62/5:; OCLC 1768235, LCCN 84643174): 89th Congress (1964), 90th (1966),
+    91st (1968), 92d (1970), 93d (1973) and its supplement, 94th (dated 1973 in the copy''s label)'
+  url: https://babel.hathitrust.org/cgi/pt?id=mdp.39015016887708
+  steps: 'HathiTrust, full view, page by page: 1960 mdp.39015017669709 (and uc1.c109419775 "1960-64"); 89th mdp.39015018604986,
+    pur1.32754072641156; 90th mdp.39015016887708, pur1.32754072641164; 91st mdp.39015053589514, pur1.32754073474417; 92d pur1.32754073474425,
+    mdp.39015048803798; 93d mdp.39015011819680 (supp. mdp.39015016887690); 94th pur1.32754073474508. Only the States wanted
+    (Cal., N.Y., Ill., Pa., Tex., Fla., Mass., Mo., Mich., Ohio, N.J.).'
+  save_as: atlas-<congress>-<state>.pdf
+  size: not known
+  public_domain: 'A work of the U.S. Government (17 U.S.C. § 105). HathiTrust: pd (every edition listed).'
+  access: bot-check
+  basis:
+  - 'catalog: HathiTrust records 000073761 (1960) and 000077729 (the serial; items by Congress as above), all pd'
+  settles: 'Maps of each district''s composition (counties; for split counties, recalled: the minor civil divisions or census
+    tracts), to build the same-lines test and whole-county lags. No votes.'
+  check: What the split-county maps show (MCDs, tracts, wards) is recalled, not seen. The "94th Congress 1973" label of pur1.32754073474508
+    against its title page.
+  batch: retab-2026-10-31
+- id: census-ge10-county-identification
+  tier: 3
+  family: U.S. Bureau of the Census (Geographic Reports)
+  title: 'U.S. Bureau of the Census, *Congressional District Identification of Counties and Selected Places: (Districts of
+    the 90th Congress)*, Geographic Reports GE-10, No. 4 ([Washington]: GPO; "December 1964"), 65 pp.; OCLC 41082552'
+  url: https://babel.hathitrust.org/cgi/pt?id=uc1.b3261273
+  steps: Open uc1.b3261273; download the whole (65 pp.).
+  save_as: census-ge10-4-county-identification.pdf
+  size: 65 pp.
+  public_domain: 'A work of the U.S. Government (17 U.S.C. § 105). HathiTrust: pd.'
+  access: bot-check
+  basis:
+  - 'catalog: HathiTrust record 010312491: 245 as above; 260 date 1964; 490 "Geographic reports ; GE-10, no. 4"; 500 "December
+    1964."'
+  settles: A county-to-district list (and places split between districts), the crosswalk for whole-county retabulation.
+  check: 'The title says the 90th Congress but the date is Dec. 1964 (the 89th''s lines): which? Other GE-10 numbers (for
+    the 88th, 91st) not found in the hathifile.'
+  batch: retab-2026-10-31
+- id: king-icpsr-6311-dataverse
+  tier: 3
+  family: Harvard Dataverse (Gary King)
+  title: Gary King, "Elections to the United States House of Representatives, 1898-1992" (ICPSR 6311), Harvard Dataverse,
+    doi:10.7910/DVN/H5MM1N, version 5.2 (Nov. 17, 2016); production 1994
+  url: https://doi.org/10.7910/DVN/H5MM1N
+  steps: Open; AllFiles.Zip (178 KB). No login.
+  save_as: king-house-1898-1992.zip
+  size: 178 KB
+  public_domain: No license stated ("made available without information on how it can be used. You should communicate with
+    the Contact(s) specified before use"); election counts are facts. Cite King and the DOI.
+  access: open
+  basis:
+  - 'seen: Dataverse metadata and codebook cb6311_LREC.all (downloaded): a file a year, fields state (ICPSR code), district,
+    incumbency code, D votes, R votes (third-party endorsements added in); "Vote totals can always be compared between elections
+    with the same state and district number between major redistricting periods ... Redistrictings that do not occur immediately
+    prior to years ending in ''2'' are dealt with by using new district numbers"; sources: CQ''s Guide to U.S. Elections,
+    2d ed. (1985), to 1984'
+  settles: 'Nothing retabulated: each district''s own returns, with a flag of a mid-decade redistricting by renumbering. A
+    cross-check of the Clerk-based returns and of which seats were redrawn.'
+  check: none
+  batch: retab-2026-10-31
+- id: algara-amlani-county
+  tier: 3
+  family: Harvard Dataverse
+  title: 'Carlos Algara and Sharif Amlani, "Replication Data for: Partisanship & Nationalization in American Elections: Evidence
+    from Presidential, Senatorial, & Gubernatorial Elections in the U.S. Counties, 1872-2020," Harvard Dataverse, doi:10.7910/DVN/DGUMFI,
+    version 1.1 (Sept. 4, 2022), CC0 1.0'
+  url: https://doi.org/10.7910/DVN/DGUMFI
+  steps: Open; dataverse_shareable_presidential_county_returns_1868_2020.Rdata (1.5 MB) and the manual.
+  save_as: algara-amlani-county-returns.zip
+  size: the three county files under 2 MB each; the geodata 2.3 GB (not needed)
+  public_domain: CC0 1.0
+  access: open
+  basis:
+  - 'seen: Dataverse metadata: "raw U.S. county-level electoral data of: 1) presidential elections from 1868-2020, 2) U.S.
+    Senate elections from 1908-2020, and 3) gubernatorial elections from 1865-2020"; file list'
+  settles: No House returns. County presidential returns for 1964 (and 1960-72) could build the presidential vote for whole-county
+    districts on any lines (the 1964 vote on the 93d's lines where those districts are whole counties).
+  check: Its sources for 1960s counties (the manual, not read).
+  batch: retab-2026-10-31
+- id: broockman-isps-d018
+  tier: 3
+  family: Yale Dataverse (ISPS Data Archive, moved)
+  title: David E. Broockman, "Do Congressional Candidates Have Reverse Coattails? Evidence from a Regression Discontinuity
+    Design" (Political Analysis 17 (2009)), ISPS D018, Yale University Dataverse, doi:10.60600/YU/IOEQKE, version 2.0 (Apr.
+    8, 2026), CC0 1.0; also Harvard Dataverse doi:10.7910/DVN/DCKUNX, v1.0 (Sept. 15, 2016), CC0
+  url: https://doi.org/10.60600/YU/IOEQKE
+  steps: Open; Broockman_PA_2009.tab (1 MB).
+  save_as: broockman-pa-2009.tab
+  size: 1 MB
+  public_domain: CC0 1.0
+  access: open
+  basis:
+  - 'seen: Yale Dataverse metadata (otherId ISPS D018; time period 1950-2006) and the .tab header and do-file: state, vote
+    shares t1/t2, presidential share dv_p_t2, t2_redist; the do-file drops "if t2_redist == 1"; no district number'
+  settles: 'Nothing: redistricted seats dropped, no retabulation. The old ISPS address (isps.yale.edu/research/data/d018)
+    answers 404.'
+  check: none
+  batch: retab-2026-10-31
+- id: caughey-sekhon
+  tier: 3
+  family: Devin Caughey and Jasjeet S. Sekhon
+  title: Devin Caughey and Jasjeet S. Sekhon, "Codebook for the Replication Data for 'Elections and the Regression-Discontinuity
+    Design'" (Dec. 22, 2025) (data for 27 Pol. Analysis 385 (2011))
+  url: https://devincaughey.github.io/files/caughey_sekhon_2011_election_rd/CaugheySekhonCodebook.pdf
+  steps: Open; the data beside it on the same site (not fetched).
+  save_as: (not needed)
+  size: 5 pp. codebook
+  public_domain: Facts; cite the authors.
+  access: open
+  basis:
+  - 'seen: codebook: DPctPrv "Democratic percentage of the vote in the previous election. Coded as missing if the seat was
+    redistricted between the previous election and the current one"; spending from Jacobson (from 1972)'
+  settles: 'Nothing: the lag is missing for redrawn seats.'
+  check: none
+  batch: retab-2026-10-31
+- id: park-egan-atlas
+  tier: 3
+  family: Kiernan Park-Egan (ArcGIS Online, Western Washington University and Election Maps Co.)
+  title: 'Kiernan Park-Egan, *Atlas of U.S. Presidential Election Results by Congressional District*, 1952-2024 (Google Sites,
+    sites.google.com/view/presidentialbycongressionaldis), each year an ArcGIS Instant App; 1964: "1964 United States Presidential
+    Election, Results by Congressional District" (app c50a65162a924020a2404711cef83587, web map 30ef390703d74b7296639f119412adb9,
+    constructed Mar. 13, 2022)'
+  url: https://wwu.maps.arcgis.com/apps/instant/minimalist/index.html?appid=c50a65162a924020a2404711cef83587
+  steps: Open; the attributes are on the feature service, services.arcgis.com/qboYD3ru0louQq4F/arcgis/rest/services/1964_United_States_Presidential_Election__Results_by_Congressional_District_WFL1/FeatureServer
+    (query ?where=1=1&outFields=*&f=json).
+  save_as: (not needed)
+  size: n.a.
+  public_domain: No license stated; the figures are Jacobson's and others' (credits on each map).
+  access: open
+  basis:
+  - 'seen: ArcGIS item metadata: 1964 credits "Election Data provided by Professor Gary Jacobson (2018) and Wikipedia (2022)";
+    1972 credits the 1974 *Almanac of American Politics* (Barone, Ujifusa and Matthews), Wikipedia and Leip, "data put into
+    spreadsheet format by Ken Black"'
+  - 'seen: the site''s FAQ: sources include the Almanacs, Jacobson, Leip, Polidata, Kenneth Black and the 1961 Data Book,
+    "tabulated int[o] spreadsheet format by Kenneth Black and DailyKos member Xenocrypt"'
+  settles: 'Nothing for the 1964 vote on the 93d''s lines: the 1964 map is on the 1964 lines, from Jacobson.'
+  check: none
+  batch: retab-2026-10-31
+- id: dailykos-1952-districts
+  tier: 3
+  family: Daily Kos (Xenocrypt)
+  title: 'Xenocrypt, "Presidential Results by 1952 Districts: An Overview," Daily Kos (Feb. 19, 2013), with a spreadsheet
+    linked'
+  url: https://www.dailykos.com/story/2013/2/19/1187003/-Presidential-Results-by-1952-Districts-An-Overview
+  steps: Open the post; follow its spreadsheet link (Google Sheets, not reached).
+  save_as: (not needed)
+  size: n.a.
+  public_domain: Figures from the Census's 1961 Data Book (federal) and the CQ Almanac.
+  access: open
+  basis:
+  - 'cited: web search snippet (Oct. 31, 2026): built from the Congressional District Data Book for the 87th Congress; the
+    author''s follow-up of Mar. 21, 2013 reports mistakes in the 1952 figures, which came from the CQ Almanac'
+  settles: 'Nothing for the gaps: 1952 on the 83d''s lines. Not 1964 on the 93d''s lines.'
+  check: Whether Daily Kos's 1964 crowdsourcing (named in search results, not seen) produced 1964 on later lines.
+  batch: retab-2026-10-31
+- id: rcc-1970-vote-stats
+  tier: 3
+  family: Republican Congressional Committee (NRCC)
+  title: Republican Congressional Committee, *1970 Congressional Vote Statistics* ([Washington], 1971), 1 v. (various pagings).
+    LCCN 78025665; LC call no. JK1968 1970 .R46.
+  url: https://openlibrary.org/books/OL4735637M
+  steps: 'Library of Congress, Main Reading Room: request by call number (MLCM = minimal-level cataloging; the item is in
+    LoC''s general collections) through Ask a Librarian or in person; or a WorldCat search on the LCCN for other holders (WorldCat''s
+    result lists load by script and were not read from here).'
+  save_as: rcc-1970-vote-stats.pdf
+  size: 1 v. (various pagings)
+  public_domain: 'Not a government work. Published by a party committee before 1978: public domain in the United States if
+    issued without a copyright notice (Check the title page); otherwise in copyright: read and cite figures by page.'
+  access: paper
+  basis:
+  - 'catalog: Open Library OL4735637M (from LoC MARC, marc_loc_2016 part11)'
+  settles: Cross-check only (1970 on the 92d's lines; CDD-92 has it).
+  check: Contents not seen.
+  batch: retab-2026-10-31
+- id: rcc-1952-1956-vote-stats
+  tier: 3
+  family: Republican Congressional Committee (NRCC)
+  title: 'Republican Congressional Committee, comp., *1952 Congressional Vote Statistics* (Washington, D.C.: The Committee,
+    1953), [59] leaves, 29 cm., LCCN 84142635, MLCM 84/1821 (J); and *1956 Congressional Vote Statistics* (1957), 1 v. (unpaged),
+    29 cm., LCCN 89831171, MLCM 89/05112 (J).'
+  url: https://www.loc.gov/item/89831171/
+  steps: 'Library of Congress, Main Reading Room: request by call number (MLCM = minimal-level cataloging; the item is in
+    LoC''s general collections) through Ask a Librarian or in person; or a WorldCat search on the LCCN for other holders (WorldCat''s
+    result lists load by script and were not read from here).'
+  save_as: rcc-1952-vote-stats.pdf, rcc-1956-vote-stats.pdf
+  size: '[59] leaves; unpaged'
+  public_domain: 'Not a government work. Published by a party committee before 1978: public domain in the United States if
+    issued without a copyright notice (Check the title page); otherwise in copyright: read and cite figures by page.'
+  access: paper
+  basis:
+  - 'catalog: Open Library OL2911618M (1952) and OL1819894M (1956), from LoC MARC'
+  - 'catalog: Library of Congress item record 89831171 (loc.gov JSON)'
+  settles: None of the missing rows; the earlier links of the series (and the 1957 *Vote Comparison* the Census cites).
+  check: None needed for the task.
+  batch: retab-2026-10-31
+- id: rcc-vote-comparison-1957
+  tier: 3
+  family: Republican Congressional Committee (NRCC)
+  title: 'Republican Congressional Committee, *Congressional and Presidential Vote Comparison* (1957): 1952 by districts of
+    the 85th-87th Congress.'
+  url: https://archive.org/details/congressionaldis1961unit
+  steps: Not found as a record; known only from the Census's citation. LoC, as above.
+  save_as: rcc-vote-comparison-1957.pdf
+  size: not known
+  public_domain: 'Not a government work. Published by a party committee before 1978: public domain in the United States if
+    issued without a copyright notice (Check the title page); otherwise in copyright: read and cite figures by page.'
+  access: not-found
+  basis:
+  - 'cited: Census, *Congressional District Data Book (Districts of the 87th Congress)* (1961), p. XI (archive.org congressionaldis1961unit;
+    repo cdb-1961.yaml header)'
+  settles: None of the missing rows (the series' first edition found).
+  check: Its full title and holders.
+  batch: retab-2026-10-31
+- id: cq-1962-complete-returns
+  tier: 3
+  family: Congressional Quarterly
+  title: 'Congressional Quarterly, "Complete Returns of the 1962 Elections by Congressional District: A State and District
+    Analysis of the Official 1962 Vote for Governor, Senator, Representative," *CQ Weekly Report*, no. 14, pt. I (Apr. 5,
+    1963), pp. 473-517 (CQ Special Report; cover title). HathiTrust uiug.30112062723058 (ic, search only); OCLC 3971932.'
+  url: https://catalog.hathitrust.org/Record/103202934
+  steps: 'HathiTrust: search inside (search only) in a browser to find pages; for the text, the bound CQ Weekly Report, vol.
+    21 (1963), pp. 473-517 (HathiTrust ic copies mdp.39015051144403, uc1.31205013788516) at a library, or CQ Weekly archive
+    (CQ Press Library, subscription).'
+  save_as: cq-1962-complete-returns.pdf
+  size: 45 pp. (473-517)
+  public_domain: 'In copyright (CQ): read and cite figures by page.'
+  access: subscription
+  basis:
+  - 'catalog: HathiTrust full record 103202934 (Bib API): 300 "473-517 pages"; 490 "Its Special report"; 500 "Part I of CQ
+    Weekly report no. 14, April 5, 1963"'
+  - 'seen: CQ Weekly Report 1963 annual index (archive.org sim_cq-weekly_january-december-1963_21_index, OCR): "Elections,
+    1962 (special report) ... 473"'
+  settles: 'None directly: the 1962 House on the 88th''s lines (a check on the Clerk). Its governor and Senate votes by district
+    might serve as a proxy where a 1964 district is a combination of whole 1962 districts.'
+  check: Whether it prints the 1960 House vote recomputed for the 88th's lines beside 1962 (the Census used CQ for split-county
+    districts in 1963 and still printed "n.a.", so likely not).
+  batch: retab-2026-10-31
+- id: cq-complete-returns-series
+  tier: 3
+  family: Congressional Quarterly
+  title: 'Congressional Quarterly, the district-by-district official returns after each election, in *CQ Weekly Report*: 1956,
+    supplement to May 10, 1957; 1960, "Complete Returns of the 1960 Elections by Congressional Districts," supplement to the
+    Weekly Report of Mar. 10, 1961 (pt. II); 1964, "Complete Returns of the 1964 Elections by Congressional District," no.
+    13, pt. 1 (Mar. 26, 1965), from p. 465; 1966, vol. 25 (1967), pp. ca. 745-772 ("District-by-District Vote"); 1968, vol.
+    27 (1969), pp. ca. 885-922; 1972, vol. 31 (1973), "Official 1972 vote returns," pp. 531-539 (and 308); 1974, vol. 33 (1975),
+    "Official 1974 returns," pp. 716-723.'
+  url: https://archive.org/details/sim_cq-weekly_january-december-1967_25_index
+  steps: 'The pages are in the bound volumes (HathiTrust search-only copies: 1961 inu.30000108166202; 1965 inu.30000108078993;
+    1967 inu.30000108166384; 1969 inu.30000108166475; 1973 none listed; 1975 mdp.39015013432474 Apr.-June) or CQ''s archive
+    (subscription). The annual indexes are open on archive.org (found_open).'
+  save_as: cq-returns-YYYY.pdf
+  size: 30-45 pp. each
+  public_domain: 'In copyright (CQ): read and cite figures by page.'
+  access: subscription
+  basis:
+  - 'cited: Census 1961 Data Book p. XI (1956, 1960 issues); Census Supps. 8-32, p. 1 (1964 issue: no. 13, pt. 1, Mar. 26,
+    1965; repo cdh-1966s.yaml header)'
+  - 'seen: CQ Weekly Report annual indexes, archive.org OCR: 1961 ("Complete returns of 1960 elections Congressional District
+    - Supplement to Weekly Report of March 10"); 1965 ("Elections, 1964, complete returns ... 465"); 1967 (corrections: "Page
+    750 ... Georgia District-by-District Vote"; "Page 756 ... 11th District House"; members'' entries "Election returns ''66
+    - 772"); 1969 ("Election returns ''68 - 885, 922"); 1973 ("Official 1972 vote returns - 308, 531"; "531-539"); 1975 ("Official
+    1974 returns - 716-723")'
+  settles: 'None of the missing rows: each prints the election on its own lines (the House vote for the Congress just chosen).
+    A cross-check of the Clerk, and the source the Census took for the House columns of the Supplements.'
+  check: Whether any issue adds the earlier vote recomputed for redistricted States (not seen; the Census's "NA" suggests
+    not). The 1970 issue not found in the 1971 index.
+  batch: retab-2026-10-31
+- id: cq-representation-apportionment-1966
+  tier: 3
+  family: Congressional Quarterly
+  title: 'Congressional Quarterly Service, *Representation and Apportionment* (Washington: Congressional Quarterly Service,
+    1966). LCCN 66028559; OCLC 965478. HathiTrust pst.000033924168 (ic); archive.org representationap0000cong (lending, 106
+    page images).'
+  url: https://archive.org/details/representationap0000cong
+  steps: 'archive.org: Borrow; read the State-by-State redistricting summaries.'
+  save_as: (borrowed) cq-representation-apportionment-pp.png
+  size: 106 page images
+  public_domain: 'In copyright (CQ): read and cite figures by page.'
+  access: borrow
+  basis:
+  - 'catalog: HathiTrust Bib API oclc/965478; archive.org metadata (lccn 66028559 //r71, imagecount 106)'
+  - 'recalled: a history of apportionment and the 1962-66 redistricting by State, with the CQ Weekly reports collected; district
+    vote figures not known'
+  settles: Probably none (populations and plans); a guide to which States redrew when.
+  check: Whether any table recomputes a vote.
+  batch: retab-2026-10-31
+- id: cq-guide-us-elections-1975
+  tier: 3
+  family: Congressional Quarterly
+  title: 'Congressional Quarterly, *Congressional Quarterly''s Guide to U.S. Elections* (Washington: CQ, Dec. 1975), 1,103
+    p. LCCN 75000659; OCLC 1909300. HathiTrust umn.31951d00186697d (ic). With *Congressional Quarterly''s Guide to 1976 Elections:
+    A Supplement* (1977), 66 p., LCCN 77081677, OCLC 3200348; archive.org congressionalqua0000cong_e6j0 (lending).'
+  url: https://catalog.hathitrust.org/api/volumes/brief/oclc/1909300.json
+  steps: A library copy (the series reads the 6th ed. already).
+  save_as: n/a
+  size: 1,103 p.
+  public_domain: In copyright (CQ).
+  access: paper
+  basis:
+  - 'seen: CQ''s notice in the CQ Weekly Report 1976 index (archive.org sim_cq-weekly_1976_34_index): "House elections: popular
+    vote returns for House candidates receiving at least five per cent of the vote since 1824"; "1,120 pages ... December
+    1975"'
+  - 'catalog: HathiTrust Bib API oclc/1909300; Open Library OL6325437W (1,103 p.)'
+  settles: 'None: candidates'' returns on each election''s own lines, no retabulation.'
+  check: None.
+  batch: retab-2026-10-31
+- id: cq-almanac-1966-1968-1971
+  tier: 3
+  family: Congressional Quarterly
+  title: '*Congressional Quarterly Almanac*, vol. 22 (1966; 1967), vol. 24 (1968), vol. 27 (1971; 1972): each election year''s
+    official returns by district. archive.org congressionalqua0000cong_c5g9, congressionalqua0024cong, congressionalqua27cong
+    (lending); HathiTrust holds the Almanac only to 1956 in the hathifile; CQ Press Library (subscription) online.'
+  url: https://archive.org/details/congressionalqua0000cong_c5g9
+  steps: 'archive.org: Borrow; or CQ Press Library.'
+  save_as: n/a
+  size: ca. 1,500 pp. a volume
+  public_domain: In copyright (CQ).
+  access: borrow
+  basis:
+  - 'catalog: archive.org advancedsearch (identifiers and titles above)'
+  - 'recalled: the Almanac reprints the Weekly Report''s official returns on the election''s own lines'
+  settles: None (cross-check).
+  check: Whether the redistricting chapters recompute any earlier vote.
+  batch: retab-2026-10-31
+- id: rnc-research-election-reports
+  tier: 3
+  family: Republican National Committee, Research Division
+  title: 'Republican National Committee, Research Division, *The 19xx Elections: A Summary Report with Supporting Tables*
+    (Washington): 1956 (2d ed., 1959), 39 p., OCLC 1286267, HathiTrust mdp.39015019057788 (pd); 1960 (rev. 2d printing, 1961;
+    prepared by Stephen D. Pfleiderer), 49, [25] p., tables pp. [51]-[74], OCLC 4595952, inu.39000002687635 (pdus); 1962 (3d
+    ed., 1963), 42, [28] p., tables pp. [43]-[70], OCLC 4483357, inu.39000002640204 (pdus); 1964 (1965), 75 p., OCLC 3626789,
+    mdp.39015030791951 (ic); 1968 (1969), 269 p., illus., maps, OCLC 889612, inu.30000035042229 (ic); serial record OCLC 4367187
+    (mdp.39015084447880, und).'
+  url: https://babel.hathitrust.org/cgi/pt?id=inu.39000002640204
+  steps: 'Open the 1960 and 1962 reports in a browser (full view; bot-checked here) and look at the supporting tables: by
+    State, or by district.'
+  save_as: rnc-1960-elections.pdf, rnc-1962-elections.pdf
+  size: 74 and 70 pp.
+  public_domain: 'Not a government work. HathiTrust''s rights review: pd (1956), pdus (1960, 1962): readable and citable;
+    1964, 1968 ic.'
+  access: bot-check
+  basis:
+  - 'catalog: HathiTrust full records 001749348, 009525785, 009525786, 001749350, 009525787, 000046850 (Bib API, read Oct.
+    31, 2026)'
+  - 'catalog: hathifile (Oct. 1, 2026) rights pd/pdus/ic'
+  settles: Probably none (28 pp. of tables cannot hold the House by district with earlier years); a check on the RCC's figures
+    and, for 1962, any table of the 1960 vote "on the new lines" by State.
+  check: The tables' contents (not seen).
+  batch: retab-2026-10-31
+- id: ca-sov-supplement
+  tier: 3
+  family: HathiTrust (State); California Target Book
+  title: '*Supplement to the Statement of Vote*, general elections (California Secretary of State): President or Governor
+    and the propositions "of major interest" by congressional, senatorial, assembly and supervisorial district and by city'
+  url: https://v3.californiatargetbook.com/docs/SoV/g1972.pdf
+  steps: 'Open (Target Book PDFs: g1960, g1962, g1972 tested, 200). HathiTrust: uc1.l0074698762 (1962 Supplement, pdus).'
+  save_as: ''
+  size: 1972 volume 214 pages with the Supplement bound in
+  public_domain: A State publication; read and cite figures by page.
+  access: open
+  basis:
+  - 'seen: Statement of Vote, Nov. 7, 1972, preface and contents (Target Book g1972.pdf): "This Statement of Vote report includes
+    the Supplement ... SUPPLEMENT TO THE STATEMENT OF VOTE: President ... Congressional Districts 37 ... Cities 58; Propositions
+    1, 2, 8, and 14 through 22 ... 71-206" (under Elections Code §§ 18756, 18756.5)'
+  - 'cited: archives.calstate.edu/downloads/qn59qd93w (web search summary): the Nov. 8, 1966 Supplement breaks down by cities
+    and districts only the Governor and Propositions 1-a, 1 and 16'
+  - 'catalog: hathifile, record 007708503 (OCLC 6418000, sn 87016627; title variant "Statement of vote and supplement"): uc1.l0074698762
+    SUPPLEMENT 1962 pdus'
+  settles: Not the House lags. Useful as a cross-check (the 1972 presidential vote by 1972 CD) and for the 1964 presidential
+    vote on the 93d's lines only if a 1964 Supplement gives President by city (to check).
+  check: 'The register (CA, contents.general) says "Supplement by district and city" as if for the House: corrected, the Supplement
+    carries the top race and propositions only (1966, 1972 seen or cited).'
+  batch: retab-2026-10-31
+- id: nj-county-clerks
+  tier: 3
+  family: Hudson and Essex county clerks
+  title: Official canvass (statement of the result) of the general election of Nov. 3, 1964, by municipality, ward and district,
+    Hudson County and Essex County Boards of Canvassers
+  url: ''
+  steps: Ask the Hudson County Clerk (Jersey City) and the Essex County Clerk (Newark) for the 1964 statements; the Jersey
+    City Free Public Library and the Newark Public Library (New Jersey Information Center) for printed copies.
+  save_as: nj-COUNTY-canvass-1964.pdf
+  size: not known
+  public_domain: County records; read and cite figures by page.
+  access: paper
+  basis:
+  - 'recalled: county boards of canvassers file statements by election district'
+  settles: N.J. 1966 where a municipality (Newark, Jersey City) was split.
+  check: Everything.
+  batch: retab-2026-10-31
+- id: md-election-returns-precinct
+  tier: 3
+  family: HathiTrust (State); Baltimore City Board of Supervisors of Elections
+  title: '*Maryland General Election Returns* (State Administrative Board of Election Laws), Nov. 1966, Nov. 1968, Nov. 1970,
+    May 1972-Nov. 1974; Baltimore City Board of Supervisors of Elections, returns by ward and precinct'
+  url: https://catalog.hathitrust.org/Record/100813574
+  steps: HathiTrust full view (per the register); open the House pages and see whether Baltimore City is given by ward or
+    legislative district.
+  save_as: hathi-md-election-returns-1966.pdf
+  size: not known
+  public_domain: A State publication; HathiTrust full view.
+  access: bot-check
+  basis:
+  - 'catalog: sources/states.yaml MD (HathiTrust Record 100813574; "Precinct detail only in the Board''s own returns")'
+  settles: Any Maryland lag across a Baltimore split (not among the table's large rows).
+  check: Unit of tabulation; 1960-64 volumes.
+  batch: retab-2026-10-31

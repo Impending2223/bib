@@ -4,7 +4,7 @@ Save each file to the Drive folder '1968 series: sources for Claude' under its s
 
 The public-domain materials this environment cannot reach (Cloudflare, AkamaiGHost, captchas, HathiTrust's bot check,
 the Wayback Machine refused), ranked by what each settles per click. The records, with every address and the
-reasons each is public domain: `notes/procurement.yaml` (39 items). Written Oct. 23, 2026, from `notes/leads.md`,
+reasons each is public domain: `notes/procurement.yaml` (99 items: 39 of Oct. 23, 60 of the batch of Oct. 31 below). Written Oct. 23, 2026, from `notes/leads.md`,
 `sources/states.yaml`, `./bib audit-cal` (691 dated entries with no primary record) and the hathifile of Oct. 1, 2026.
 Already procured and left off: OSD vol. V; Nixon, *Six Crises*; Dittmer; Schlesinger, *Robert Kennedy*; Frankum;
 Miller, *Misalliance*; *Victory in Vietnam*.
@@ -45,6 +45,72 @@ reading and citation here.
 13. `ttu-macv-command-histories` MACV *Command History*, 1964–68 (Texas Tech): about 12 files; about 30 entries, 3 leads.
 14. `jfk-nsf-folders` Kennedy's National Security Files: 12 folders; 11 entries, 2 leads.
 15. `hathi-secdef-annual-1961-68` *Annual Reports* (uiug.30112132450088, -062, osu.32435062847116): 3 files; 4 leads.
+
+## The House vote on new lines (batch of Oct. 31, 2026)
+
+For the baseline's lags across the redistricting of 1962–74 (`notes/extensions/memos/pvi-districts.md`, "Jacobson's
+file against ours, and the lags still missing"): 60 records, `batch: retab-2026-10-31` in `notes/procurement.yaml`,
+each with `access` and `basis` (seen, catalog, cited, recalled). Searched by three agents the same day: the full
+hathifile of Oct. 1, 2026 (grepped whole), the Library of Congress's item records, Open Library, archive.org,
+Harvard and Yale Dataverse, govinfo, the CQ Weekly Report's annual indexes (open on archive.org), the web. Checked by
+hand after: the four Republican Congressional Committee records (LoC 84114475, 66050841, 79312357, 84142143), CDD-94
+(LoC 74603410), and HathiTrust's coo.31924086721408, coo.31924086721416 and pst.000051825683 (Bib API).
+
+**What would fill the table, row by row** (contents not seen unless said; each a Check):
+
+| Row | Lags missing | The best source found | Access |
+|---|---|---|---|
+| 1962 | 201 | Republican Congressional Committee, *1960 Congressional Vote Statistics: Adjusted for 1962 Reapportionment* (1962), [123] p., LCCN 84114475 | Library of Congress, paper (MLCM 83/9651 (J)); no copy on HathiTrust or archive.org |
+| 1964 | 73 | the same, *1962 Congressional Vote Statistics ... Adjusted for Reapportionments as of Jan. 1, 1964* (1964), [142] p., LCCN 66050841, OCLC 4183161 | LoC, paper (JK1968 1962) |
+| 1966 | 97 | the same, *1964 Congressional Vote Statistics ... With Revisions of States Affected by Redistricting ... since Nov. 3, 1964* (1966), LCCN 79312357; and *Congressional and Presidential Vote Comparison: Tabulated in Accordance with Changes Arising from Redistricting and Special Elections up to November 8, 1966* (1966), 3, [135] leaves, LCCN 84142143 | LoC, paper |
+| 1968 | 75 (N.Y. 40) | no Committee edition found; Brownson, *Election Index to Redistricted States* (Congressional Staff Directory, 1966, 1968; OCLC 7291144), contents not known; CQ, *Elections of 1968*, CQ Weekly Report no. 30, pt. 1 (July 26, 1968), 1856–1937 | borrow; HathiTrust search only; CQ subscription |
+| 1974 | 109 (Cal. 38, N.Y. 34, Tex. 16) | Census, *Congressional District Data, 94th Congress*, CDD-94-1 Texas, -2 California, -3 New York (1974; LCCN 74603410, OCLC 1499878) | Texas and California full view on HathiTrust (pdus: coo.31924086721408, coo.31924086721416; bot-checked here, one PDF each); New York: no HathiTrust copy, a depository library |
+
+Also: Supplement No. 16 to the 88th's Data Book is **Tennessee, districts of the 90th Congress** (June–July 1966: the
+copy's enumeration "no.11-19 June-July 1966"; the MARC contents note of HathiTrust record 012258002, OCLC 2948071),
+full view in `pst.000051825683` (Nos. 11–19, pd), `uc1.31210017088863`, `coo.31924019887748`. The 1964 presidential
+vote on the 93d's lines (the 1972 PVI): perhaps CDD-93X, the interim reports of 1971–72 (OCLC 614781; 22 States,
+`pst.000049891065`), unverified. The *Congressional Directory* gives each district's makeup (whole counties; California
+by assembly district, Chicago by ward; New York City by streets), open on govinfo (CDIR-1961-04-01 to CDIR-1973-03-10,
+text files): the frame for building whole-county lags from the States' county returns.
+
+**The Library of Congress batch.** The Committee's volumes are not digitized anywhere found and are not lent by LoC; a
+visit to the Main Reading Room (call numbers above), a scan by LoC's Duplication Services, or a request through a
+library's interlibrary loan for another holder (WorldCat's holders not read: its results load by script). Four
+volumes, some 550 pages, would fill most of the 1962, 1964 and 1966 rows if "adjusted" and "with revisions" mean the
+earlier vote retabulated by new district, as the 1970 and 1972 editions' were (the Census, CDD-92 and the 1973 Data
+Book, so describing them). The Committee's works were not copyrighted as far as found (Check: a 1960s work published
+without notice fell into the public domain; the volumes' notices not seen).
+
+**Below the county** (the big cities, where most of the missing lags are): no State compilation opened prints the
+House below the county but Massachusetts (Public Document 43, by town and ward group, open on archive.org) and
+Boston's Election Department reports (1957–75 but 1972, open: the 1960 report's contents list "For Representatives
+in Congress 151-162"). Illinois's *Official Vote* gives Chicago's wards for the statewide offices only; Missouri's
+*Manual* "Part of City of St. Louis"; the *Pennsylvania Manual* "Philadelphia County (part)"; New Jersey's results the
+county parts; Los Angeles County's canvass of 1968 district totals; California's *Supplement to the Statement of Vote*
+President, Governor and propositions by district and city, not the House (1972, read; 1966, cited). The rest is
+local and on paper: New York City's Board of Elections *Annual Report* (HathiTrust 006269729, 1952–65, search only;
+whether it prints Congress by assembly district, recalled) and *The City Record*'s official canvass by election
+district (the city's portal refuses this environment); Chicago's Board of Election Commissioners canvass (the
+Municipal Reference Library; aperture cards at the Harold Washington Library); the Los Angeles Registrar's
+statements of votes cast by precinct; Philadelphia's City Commissioners by ward and division (City Archives); Wayne
+County's 1962 statement (Archives of Michigan, RG 70-10); Cuyahoga's, Harris's, Dallas's, St. Louis's, Milwaukee's
+(Milwaukee County Historical Society, Mss-0957, Mss-2128) and the New Jersey counties'. Each is a record in the batch.
+
+**Searched and not found** (so the next run need not repeat it): any Committee edition for the 1968 or 1974 elections,
+and the originals of its 1970 and 1972 *Congressional District Vote Comparison* (known from the Census's citations
+only); any replication data with the House vote retabulated (Ansolabehere, Snyder and Stewart 2000; Cox and Katz
+2002: none found; King's ICPSR 6311 on Dataverse, doi:10.7910/DVN/H5MM1N, district returns only; Broockman's ISPS
+D018, now Yale Dataverse doi:10.60600/YU/IOEQKE, and Caughey and Sekhon, which drop or blank the redrawn seats;
+Algara and Amlani's county file, doi:10.7910/DVN/DGUMFI, no House); a free county-level House file for 1960–74 (ICPSR
+1, 8611 and 13 are members' only, and ICPSR 1's House returns are collapsed to whole counties, by its own
+description); a literature citation of the Committee's volumes (Erikson 1972 and Cox and Katz not readable here).
+
+**Corrections the batch makes to `sources/states.yaml`** (not yet made there; leads, States and cities): New York, the
+Board of Elections' annual reports are on HathiTrust (006269729, 000549504) and the *Legislative Manual* 1964/65–1975
+is there, search only; California, the *Supplement* does not carry the House; Illinois, the ward and township tables
+are the statewide offices'; Michigan, the Department of State's *Official Canvass of Votes* (HathiTrust 102823787;
+1960, 1962, 1964 full view) is not in the register.
 
 ## Batches, a site at a time
 

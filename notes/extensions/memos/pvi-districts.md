@@ -214,7 +214,12 @@ election before, which have no two-party lag on any source):
 | 1968 | 385 | 310 | 75 | N.Y. 40, Mo. 10, Tex. 7 | 1966 House on the 91st's lines (CDD-92 serves only where the 1970 lines kept the district) |
 | 1974 | 375 | 266 | 109 | Cal. 38, N.Y. 34, Tex. 16 | 1972 House on the 94th's lines |
 
-Where fuller retabulations may be (all recalled or inferred, none read; each a Check):
+Where fuller retabulations may be: searched Oct. 31, 2026, and set out as the procurement batch `retab-2026-10-31`
+(`notes/procurement.md`, "The House vote on new lines"; 60 records in `notes/procurement.yaml`). The best: the
+Republican Congressional Committee's *Congressional Vote Statistics* "adjusted for" each reapportionment (1962,
+1964, 1966) and its *Vote Comparison* of 1966, at the Library of Congress, for the 1962, 1964 and 1966 rows; the
+Census's CDD-94 (Texas, California, New York, 1974) for the 1974 row. The list first written here, from memory, as
+it stood:
 
 1. The Republican (from 1966, National Republican) Congressional Committee's *Congressional and Presidential Vote
    Comparison* / *Congressional District Vote Comparison*: the Census's own source for 1952 (the 1961 volume) and for
