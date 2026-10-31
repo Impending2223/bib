@@ -4,6 +4,8 @@ A reading file a volume (its header the schema; cdb-1961.yaml the first). Loaded
 tools/elections/make_pvi.py (which refuses figures that do not add) and tools/bib/pvi.py (`check`).
 
     load()             -> {source: data}, each file's YAML with `path`
+    load_house()       -> the same for the vote for Representative (elections/readings/districts-house/)
+    house_problems(d)  -> problems(d), and the seats at large (`al`) held to the years and fields
     figures(data)      -> {(st, d): {year: {"t", "D", "R", "p"}}}: the district rows (0 the State column, or the at-large
                           State's one column), a cell "fn" or "na" left as it is (and "A", where the volume's `fields`
                           name the third party's column: the 1973 Data Book's American Independent Party)
@@ -36,6 +38,7 @@ import yaml
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 DIR = os.path.join(ROOT, "elections", "readings", "districts")
+HOUSE = os.path.join(ROOT, "elections", "readings", "districts-house")
 FIELDS = ("t", "D", "R", "p")
 
 
@@ -43,12 +46,36 @@ def fields(data):
     return tuple(data.get("fields") or FIELDS)
 
 
-def load():
+def load(where=None):
     out = {}
-    for f in sorted(glob.glob(os.path.join(DIR, "*.yaml"))):
+    for f in sorted(glob.glob(os.path.join(where or DIR, "*.yaml"))):
         d = yaml.safe_load(open(f, encoding="utf-8")) or {}
         d["path"] = os.path.relpath(f, ROOT)
         out[d.get("source") or os.path.basename(f)[:-5]] = d
+    return out
+
+
+def load_house():
+    """The vote for Representative by district, as the same volumes print it (elections/readings/districts-house/;
+    the same schema, `al` the seats at large apart from the districts): {source: data}, as load()."""
+    return load(HOUSE)
+
+
+def house_problems(data):
+    """problems(data), and the seats at large (`al`: {seat: {year: cell}}) held to the volume's years and fields."""
+    out = problems(data)
+    years = sorted(int(y) for y in data.get("years") or [])
+    for st, e in (data.get("states") or {}).items():
+        for seat, r in (e.get("al") or {}).items():
+            if sorted(int(y) for y in r) != years or any(len(c) not in (len(fields(data)), len(fields(data)) - 1)
+                                                         for c in r.values()):
+                out.append((data.get("path", "?"), f"{st} at large {seat}: not {list(fields(data))} for each of {years}"))
+                continue
+            for y, c in r.items():
+                c = dict(zip(fields(data), c))
+                parts = [c.get(f) for f in fields(data) if f not in ("t", "p")]
+                if _num(c.get("t")) and all(_num(x) for x in parts) and sum(parts) > c["t"]:
+                    out.append((data.get("path", "?"), f"{st} at large {seat} {y}: the parties exceed the total"))
     return out
 
 

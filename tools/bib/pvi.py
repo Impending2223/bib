@@ -49,9 +49,11 @@ def problems(series=None):
     cd = _readings()
     out = []
     srcs = cd.load()
-    for k, d in srcs.items():
+    house = cd.load_house()
+    for k, d in list(srcs.items()) + list(house.items()):
         where = d["path"]
-        for w, m in cd.problems(d):
+        for w, m in (cd.house_problems(d) if d["path"].startswith(os.path.join("elections", "readings", "districts-house"))
+                     else cd.problems(d)):
             out.append(("error", w, m))
         for w, m in cd.warnings(d):
             out.append(("warn", w, m))
