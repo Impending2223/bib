@@ -56,6 +56,12 @@ Harvard and Yale Dataverse, govinfo, the CQ Weekly Report's annual indexes (open
 hand after: the four Republican Congressional Committee records (LoC 84114475, 66050841, 79312357, 84142143), CDD-94
 (LoC 74603410), and HathiTrust's coo.31924086721408, coo.31924086721416 and pst.000051825683 (Bib API).
 
+**Done Oct. 31, 2026:** CDD-94 (Texas, California, New York), procured by the owner and read the same day
+(`elections/readings/districts/cdd-1974.yaml`, `districts-house/cdh-1974.yaml`): 82 of the 1974 row's 109 lags filled,
+the 1974 PVI from 316 districts to 418. Supplement No. 16 (Tennessee): the owner sent PDF pp. 66, 68, 72, 73 of
+pst.000051825683 (the map, the Memphis inset, housing, nonwhite population); the table "Vote Cast and Population" is
+on another page (67, 69, 70 or 71: Check).
+
 **What would fill the table, row by row** (contents not seen unless said; each a Check):
 
 | Row | Lags missing | The best source found | Access |

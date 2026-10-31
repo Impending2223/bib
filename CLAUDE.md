@@ -1305,13 +1305,14 @@ tools/bib/elections.py              renders the blocks and checks the data (STYL
   *Congressional District Data Books*, read by page into `elections/readings/districts/` (1952-60 on the 87th, 88th
   and 89th Congresses' lines; 1968 on the 93d's), each district row held to its State column and each State column set
   against these returns (`vs_clerk`); `python3 -I tools/elections/make_pvi.py` (its STYLE; `check` [pvi],
-  `tools/bib/pvi.py`). District PVIs: 1960 419, 1962 321, 1964 302, 1966 222, 1968 114, 1970 386, 1972 15, 1974 316
+  `tools/bib/pvi.py`). District PVIs: 1960 419, 1962 321, 1964 302, 1966 222, 1968 114, 1970 386, 1972 15, 1974 418
   (the 1966 Supplements, the 90th's lines, and CDD-92, the 92d's, the owner's copies, read Oct. 31, 2026, gave 1964 and
   1968 by district; Jacobson's file, where no Census volume gives a district, 1964 for 50 districts of 1966 and 2 of
-  1968 and 1972 for all 316 of 1974, each row's basis naming it: make_pvi.py STYLE 13; 1964 on the 93d's lines is still
+  1972 for 316 of 1974, each row's basis naming it; CDD-94, the 94th's three reports (Texas, California, New York; the
+  owner's copies, read Oct. 31, 2026), 1968 and 1972 for those States' 102: make_pvi.py STYLE 13; 1964 on the 93d's lines is still
   to find: the memo, notes/extensions/memos/pvi-districts.md). The same volumes'
   vote for Representative, retabulated onto each Congress's lines, is in `elections/readings/districts-house/` (1963,
-  1965, 1966s, 1971, 1973 volumes), the baseline's lags. Shown (the owner, Oct. 28, 2026:
+  1965, 1966s, 1971, 1973, 1974 volumes), the baseline's lags. Shown (the owner, Oct. 28, 2026:
   "Show both. Be sure to cite and attribute"), in each election's block and the calendar's `election:` entries: the
   index under each race's seat (the district's; a Senate race and the President's table, the State's), a map view
   "PVI", and, folded under the race tables, the States' and the districts' indexes with their inputs and the vote by
