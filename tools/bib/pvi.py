@@ -142,7 +142,25 @@ VOLUMES = {
                     "candidate are in the total, not in that party's column (pp. X–XI): New York's Democratic figures "
                     "leave out Humphrey's Liberal line.",
         "intro": 10},
+    "cdb-1966s": {
+        "cite": "*Supplement to Congressional District Data Book: Redistricted States*, Supp. Nos. 8\u201315, "
+                "17\u201332 (June 1966\u2013Aug. 1967), Districts of the 90th Congress, \u201cVote Cast and Population\u201d",
+        "hathi": "mdp.39015084491953", "pdf_pages": True,
+        "copy": "the University of Michigan's copy, scanned by Google (the owner's PDF, its page; HathiTrust's copy linked)",
+        "compiled": "1964: the Governmental Affairs Institute, *America at the Polls* (1965); 1960 and 1956: the 1963 "
+                    "Data Book's (Congressional Quarterly, *America Votes*), given for the new districts, (NA) where a "
+                    "district could not be made up (each Supp., p. 1)."},
+    "cdd-1971": {
+        "cite": "*Congressional District Data, Districts of the 92d Congress*, CDD-92-1 to -46 (Mar.\u2013May 1971), "
+                "\u201cElections\u201d",
+        "hathi": "uc1.c025786080", "pdf_pages": True,
+        "copy": "the University of California's copy, scanned by Google (the owner's PDF, its page; HathiTrust's copy linked)",
+        "compiled": "The National Republican Congressional Committee, *Congressional District Vote Comparison* (1970): "
+                    "\u201cThe original figures for 1964, 1966, and 1968 have been retabulated by the Committee to reflect "
+                    "changes in congressional district boundaries up to the time of the 1970 elections\u201d (each "
+                    "report's last page)."},
 }
+HATHI = "https://babel.hathitrust.org/cgi/pt?id={id}"
 LABEL = {"t": "Total", "D": "Dem.", "R": "Rep.", "A": "Am. Ind."}
 
 
@@ -161,6 +179,8 @@ def page_url(src, page):
     v = VOLUMES[src]
     if "item" in v:
         return ARCHIVE.format(item=v["item"], leaf=int(page) + v["leaf"])
+    if "hathi" in v:                            # the owner's copy read, a PDF; HathiTrust's copy of it, by the volume
+        return HATHI.format(id=v["hathi"])
     return GOVINFO.format(pkg=v["pkg"], page=int(page) + v["pdf"])
 
 

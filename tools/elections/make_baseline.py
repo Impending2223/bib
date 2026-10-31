@@ -22,7 +22,8 @@ STYLE
  2. The lag: the seat's share at the election before, on the same lines. Where the seat's shape is the same in both
     Congresses (congress/geo.json, the key make_pvi.py uses), the Clerk's returns of that election (elections/<y-2>.yaml);
     else the Census's retabulation of the earlier House vote onto the current lines, where read
-    (elections/readings/districts-house/, `recomputed: true`, its year y-2); else none. The lag's source is kept a race.
+    (elections/readings/districts-house/, its year y-2), or onto another Congress's lines where the seat's shape is
+    the same in both (the 92d's retabulation of 1966 serves a 1968 race whose district the 1970 lines kept); else none. The lag's source is kept a race.
  3. I: +1 where a Democratic incumbent of the seat runs in it, -1 a Republican, the sum where two run (a merged seat);
     0 an open seat. Running: the returns' `inc` result "Incumbent re-elected" or "Incumbent lost re-election".
  4. P: the party holding the seat before the election: the incumbents' (+1 D, -1 R, summed and signed), else, for an
@@ -125,11 +126,17 @@ def main():
                 if b["D"] > 0 and b["R"] > 0:
                     lag, src = b["D"] / (b["D"] + b["R"]), f"elections/{y - 2}.yaml"
                     lag_win = b["win"]
-            elif (c, y - 2) in retab and (st, d) in retab[(c, y - 2)]:
-                D, R, s = retab[(c, y - 2)][(st, d)]
-                if D > 0 and R > 0:
-                    lag, src = D / (D + R), f"readings: {s}"
-                    lag_win = "D" if D > R else "R"
+            else:
+                for (L, yr), cells in sorted(retab.items(), key=lambda kv: (kv[0][0] != c, abs(kv[0][0] - c))):
+                    if yr != y - 2 or (st, d) not in cells:
+                        continue
+                    if L != c and not (shape(c, st, d) and shape(c, st, d) == shape(L, st, d)):
+                        continue
+                    D, R, s = cells[(st, d)]
+                    if D > 0 and R > 0:
+                        lag, src = D / (D + R), f"readings: {s}"
+                        lag_win = "D" if D > R else "R"
+                    break
             if lag is None:
                 continue
             I = sign(r["running"]) if len(r["running"]) == 1 else sum(1 if p == "D" else -1 for p in r["running"])
