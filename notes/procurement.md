@@ -113,9 +113,13 @@ and the like where it had no figures; Democrats' percentages in bold, Republican
 eye, not by OCR). Percentages only, no votes. In hand: 20 CQ Weekly Rep. 724-729 (Supp., May 4, 1962: "Past Election
 Figures Set Stage for 1962 House Races", 1952-60, the 1960 vote on the 88th's lines: the 1962 lags) and 22 CQ Weekly
 Rep. 2701-2706 (No. 46, Nov. 13, 1964: 1954-64, the 1962 vote on the 89th's lines: the 1964 lags; corrected in the
-index at 2702-2703). Still to fetch: the 1966 chart, 24 CQ Weekly Rep. 1522 (the July outlook, 1489-1522, about No.
-28-29, July 15-22, 1966; whether it recomputes 1964 is the Check); for 1968, N.Y. 421 (about No. 8, Feb. 23, 1968) and
-Missouri 2004 (about No. 31-32, Aug. 2-9), and whatever chart the 1968 outlooks carry. CQ's official 1964 vote by
+index at 2702-2703). And 24 CQ Weekly Rep. 1563-1568 (No. 29, July 22, 1966: 1954-64, the 1964 vote on the 90th's lines,
+in part: New Jersey "not yet computed", others "Not available" with a rating; not 1522, as the index's OCR read it).
+For 1968, no chart in No. 9 (Mar. 1, 1968: New York's redistricting at 421 reports the plan, not the vote) or in the
+Elections of 1968 report (No. 30, July 26, 1968, 1856-1937), both read by OCR Oct. 31; CQ's State redistricting items
+report the plan, so Missouri's (2004) is no better. Still to look at: the Congressional Staff Directory's *Election
+Index to Redistricted States* (1968), and CQ's Eastern (No. 40, Oct. 4, 1968, 2582-2611) and Midwestern (No. 43, Oct.
+25, 2890-2923) roundups, whose State charts may give the 1966 vote by new district. CQ's official 1964 vote by
 district: "a March 1965 Special Report" (22 CQ Weekly Rep. 2701). Also in hand, not yet read: the 1962 supplements of
 Oct. 5 (pp. 1755 ff., and 1832 ff., the States' candidates) and Oct. 26, and *America Votes 7* (1966).
 
