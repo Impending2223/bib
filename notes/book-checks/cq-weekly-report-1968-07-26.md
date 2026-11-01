@@ -19,13 +19,33 @@ and primaries (pp. 2001–04), the Fortas hearings (p. 2005), the Honolulu state
 election calendar: mostly forecast.
 
 Patch: `inbox/2026-10-31-cq-1968-07-26.yaml` (16 cites, 2 checks, 153 new entries, each claimed in the ledger).
-patch-check: 0 errors; 61 warnings, each a same-day, same-thread pair of distinct events (the campaign's days).
+patch-check: 0 errors; 63 warnings, each a same-day, same-thread pair of distinct events (the campaign's days).
 Records: none. The *Weekly Report* has no notes; it names its sources in the text (the *Wall Street Journal*, UPI,
 the *New York Times*, *Life*, the Washington Post's counts): no `sources/cited-records/` file. Primary records read:
 *Preisler v. Secretary of State of Missouri*, 279 F. Supp. 952 (W.D. Mo. 1967), on case.law (its decree, 969–70;
 its headnote, probable jurisdiction noted Mar. 4, 1968, 88 S. Ct. 1053); the Public Papers' text of the Honolulu
 statement (sources/ppp-text). Not reached: Missouri's act of 1967 (Laws of Missouri), the Supreme Court's order.
 The Missouri table on p. 2002 (the 1966 vote by new district) left to the orchestrator, as assigned.
+
+## Checked against the page images (Oct. 31, 2026, second pass)
+
+At the orchestrator's request every new entry and cite in the patch was held to the page image, not the OCR: each
+cited page's running foot read on the image (72 pages: pp. 1861, 1862, 1870, 1871, 1873, 1875–77, 1882, 1887,
+1939–42, 1944–47, 1951–68, 1974–80, 1982–2000, 2002–03, 2005, 2007, 2009–14); and each entry's figures, dates,
+names, votes and quotations read on crops of the image paragraphs that carry them (the crops found by a fresh OCR of
+the images with word boxes, then read by eye). The scan's double pages: PDF 45–47 repeat pp. 1980–81 and PDF 58–59
+pp. 1990–91; PDF 49 is p. 1983 whole, its running head "Republican Delegations - 6" set over the right column only,
+so the Mississippi, Minnesota and Missouri passages and Nixon's of June 26 are p. 1983.
+
+Corrected (33): the pages of 31 cites, most of them a page off where the OCR had run a passage onto the next file
+(Around the Capitol: Clifford in Saigon, the recess, the silver dollars, Gardner are p. 1977, not 1976; the politics
+pages: Gabrielson and Reagan's trip p. 1989, the platform committee p. 1993, Lindsay and the governors' resolution p.
+1995, Pedersen and Hawkins p. 1997; the delegations: Kentucky, Louisiana, Massachusetts p. 1982; Delaware, the Ripon
+Society p. 1979; the Callaway–Nixon exchange p. 1983); the gun bill of July 23 (McClory's licensing amendment,
+84–179, added from the image of p. 1939; Horton's amendment p. 1941); Alabama's Republican convention (Hooper's
+nomination and Martin's election June 29, the second day, not the convention's span). Nothing dropped: every
+claim was found on its page image. The Presidential Scoreboard (p. 1994) and the Honolulu transcript (p. 2007,
+675,000) as before.
 
 ## Cites added to entries already in the calendar
 
