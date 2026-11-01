@@ -1315,7 +1315,8 @@ tools/bib/elections.py              renders the blocks and checks the data (STYL
   1965, 1966s, 1971, 1973, 1974 volumes; and CQ's recomputed shares where the Census gives none: `cq-1962`, `cq-1964`,
   `cq-1966` (CQ's "Winning Representatives' Vote Percentages" charts, the leading party's percent of the total, read
   by eye, the party by the type weight) and `cq-1968` (Missouri's 1966 vote on the 1968 lines); make_baseline.py
-  STYLE 8), the baseline's lags. Shown (the owner, Oct. 28, 2026:
+  STYLE 8), the baseline's lags. Every seat's lag where its lines changed, the cell as printed, its page, Jacobson's beside
+  it, and every seat with none and why: `notes/house-lags.md` (generated, `python3 -I tools/elections/lag_listing.py`). Shown (the owner, Oct. 28, 2026:
   "Show both. Be sure to cite and attribute"), in each election's block and the calendar's `election:` entries: the
   index under each race's seat (the district's; a Senate race and the President's table, the State's), a map view
   "PVI", and, folded under the race tables, the States' and the districts' indexes with their inputs and the vote by
