@@ -222,10 +222,11 @@ def resolve(e, cards=None):
     """The entry's rows as (row, kind, key, pin, note, units set or '?', the note's item) for rendering and checking."""
     n_units = len(units(e.get("c") or ""))
     srcs, _ = note_parts(e.get("n"))
-    by = {}
+    by, all_ = {}, {}
     for it in srcs:
         k = item_key(it)
         by.setdefault((k[0], k[1]), it)
+        all_.setdefault((k[0], k[1]), []).append(it)
     out = []
     for r in (effective(e) or {}).get("rows") or []:
         p = parse_row(r)
@@ -234,6 +235,13 @@ def resolve(e, cards=None):
             continue
         kind, key, pin, note, spec = p
         u = parse_units(spec, n_units)
+        if kind in ("card", "via") and len(all_.get(("card", key)) or []) > 1 and pin:
+            want = _pages(pin)                 # a card cited twice (two issues of a periodical): the item whose pages
+            fit = [it for it in all_[("card", key)]       # hold the row's
+                   if want is not None and (_pages(item_key(it)[2]) or set()) >= want]
+            if fit:
+                out.append((r, kind, key, pin, note, u, fit[0]))
+                continue
         item = by.get(("card", key)) if kind in ("card", "via") else by.get((kind, key)) if kind == "url" else \
             next((v for (k, kk), v in by.items() if k == "text" and kk.startswith(key[:30])), None)
         if kind == "url" and item is None:
