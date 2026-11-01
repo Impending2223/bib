@@ -41253,54 +41253,54 @@ years:
         without: -5.7
   1970:
     census:
-      n: 356
-      mean_swing: 3.64
+      n: 357
+      mean_swing: 3.61
       with:
-        a: 0.215
-        b: 0.6373
-        delta: -2.37
-        psi: 9.28
+        a: 0.2158
+        b: 0.6352
+        delta: -2.34
+        psi: 9.3
         r2: 0.854
         sd: 6.45
       without:
-        a: 0.2087
-        b: 0.6502
-        delta: 5.68
-        r2: 0.822
+        a: 0.2097
+        b: 0.6478
+        delta: 5.73
+        r2: 0.821
         sd: 7.11
       lag_sources:
-        elections/1968.yaml: 306
+        elections/1968.yaml: 307
         'readings: cdh-1971': 50
     jacobson:
-      n: 353
-      mean_swing: 3.47
+      n: 354
+      mean_swing: 3.44
       with:
-        a: 0.2022
-        b: 0.6613
-        delta: -1.93
-        psi: 8.29
-        r2: 0.854
-        sd: 6.46
+        a: 0.2032
+        b: 0.6589
+        delta: -1.9
+        psi: 8.32
+        r2: 0.853
+        sd: 6.45
       without:
-        a: 0.1924
-        b: 0.6812
-        delta: 5.16
+        a: 0.1936
+        b: 0.6784
+        delta: 5.22
         r2: 0.829
-        sd: 6.96
+        sd: 6.97
     clerk:
-      n: 306
-      mean_swing: 4.15
+      n: 307
+      mean_swing: 4.11
       with:
-        a: 0.2318
-        b: 0.6139
-        delta: -0.84
-        psi: 8.0
+        a: 0.2329
+        b: 0.6113
+        delta: -0.81
+        psi: 8.03
         r2: 0.858
         sd: 6.26
       without:
-        a: 0.2279
-        b: 0.6226
-        delta: 6.08
+        a: 0.2292
+        b: 0.6196
+        delta: 6.14
         r2: 0.833
         sd: 6.78
     races:
@@ -41320,12 +41320,12 @@ years:
         lag: 45.8
         P: -1
         with: 3.0
-        without: 9.9
+        without: 10.0
       jacobson:
         lag: 45.8
         P: -1
         with: 2.7
-        without: 9.8
+        without: 9.9
     - st: AL
       d: 1
       v: 39.4
@@ -41337,17 +41337,17 @@ years:
         src: elections/1968.yaml
         P: -1
         with: -2.5
-        without: -3.7
+        without: -3.6
       clerk:
         lag: 42.9
         P: -1
         with: -2.9
-        without: -4.0
+        without: -3.9
       jacobson:
         lag: 40.2
         P: -1
         with: -1.0
-        without: -2.1
+        without: -2.0
     - st: AL
       d: 2
       v: 38.6
@@ -41358,18 +41358,18 @@ years:
         lag: 44.6
         src: elections/1968.yaml
         P: -1
-        with: -4.4
-        without: -5.6
+        with: -4.3
+        without: -5.5
       clerk:
         lag: 44.6
         P: -1
-        with: -4.8
-        without: -5.9
+        with: -4.7
+        without: -5.8
       jacobson:
         lag: 38.2
         P: -1
-        with: -0.5
-        without: -1.5
+        with: -0.4
+        without: -1.4
     - st: AL
       d: 4
       v: 85.8
@@ -41380,8 +41380,8 @@ years:
         lag: 88.5
         src: elections/1968.yaml
         P: 1
-        with: 0.9
-        without: 1.6
+        with: 1.0
+        without: 1.7
       clerk:
         lag: 88.5
         P: 1
@@ -41390,8 +41390,8 @@ years:
       jacobson:
         lag: 88.4
         P: 1
-        with: 0.7
-        without: 1.1
+        with: 0.8
+        without: 1.2
     - st: AL
       d: 6
       v: 38.5
@@ -41402,13 +41402,13 @@ years:
         lag: 40.7
         src: elections/1968.yaml
         P: -1
-        with: -2.0
+        with: -1.9
         without: -3.1
       clerk:
         lag: 40.7
         P: -1
         with: -2.4
-        without: -3.5
+        without: -3.4
       jacobson:
         lag: 33.3
         P: -1
@@ -41425,12 +41425,12 @@ years:
         src: elections/1968.yaml
         P: -1
         with: -2.2
-        without: -3.3
+        without: -3.2
       clerk:
         lag: 32.9
         P: -1
         with: -2.9
-        without: -3.9
+        without: -3.8
       jacobson:
         lag: 32.9
         P: -1
@@ -41446,7 +41446,7 @@ years:
         lag: 29.2
         src: 'readings: cdh-1971'
         P: -1
-        with: -1.7
+        with: -1.6
         without: -2.6
       jacobson:
         lag: 28.4
@@ -41464,7 +41464,7 @@ years:
         src: 'readings: cdh-1971'
         P: 1
         with: -3.4
-        without: -2.5
+        without: -2.4
       jacobson:
         lag: 70.3
         P: 1
@@ -41480,13 +41480,13 @@ years:
         lag: 34.6
         src: 'readings: cdh-1971'
         P: -1
-        with: 1.3
+        with: 1.4
         without: 0.3
       jacobson:
         lag: 36.6
         P: -1
         with: -0.1
-        without: -1.1
+        without: -1.0
     - st: CA
       d: 1
       v: 36.6
@@ -41502,12 +41502,12 @@ years:
       clerk:
         lag: 22.1
         P: -1
-        with: 7.0
+        with: 7.1
         without: 6.2
       jacobson:
         lag: 22.0
         P: -1
-        with: 8.2
+        with: 8.3
         without: 7.6
     - st: CA
       d: 2
@@ -41546,13 +41546,13 @@ years:
       clerk:
         lag: 57.2
         P: 1
-        with: -2.7
+        with: -2.8
         without: -1.8
       jacobson:
         lag: 57.2
         P: 1
         with: -1.7
-        without: -0.6
+        without: -0.7
     - st: CA
       d: 4
       v: 68.0
@@ -41573,7 +41573,7 @@ years:
       jacobson:
         lag: 57.2
         P: 1
-        with: 3.6
+        with: 3.5
         without: 4.6
     - st: CA
       d: 5
@@ -41590,13 +41590,13 @@ years:
       clerk:
         lag: 74.8
         P: 1
-        with: -5.5
-        without: -4.7
+        with: -5.4
+        without: -4.6
       jacobson:
         lag: 75.4
         P: 1
         with: -5.6
-        without: -5.0
+        without: -4.9
     - st: CA
       d: 6
       v: 46.6
@@ -41608,7 +41608,7 @@ years:
         src: elections/1968.yaml
         P: -1
         with: 14.7
-        without: 13.7
+        without: 13.8
       clerk:
         lag: 27.2
         P: -1
@@ -41618,7 +41618,7 @@ years:
         lag: 26.6
         P: -1
         with: 15.2
-        without: 14.4
+        without: 14.5
     - st: CA
       d: 7
       v: 58.1
@@ -41674,7 +41674,7 @@ years:
         src: elections/1968.yaml
         P: 1
         with: 6.3
-        without: 7.5
+        without: 7.4
       clerk:
         lag: 56.5
         P: 1
@@ -41705,7 +41705,7 @@ years:
       jacobson:
         lag: 31.5
         P: -1
-        with: 2.5
+        with: 2.6
         without: 1.7
     - st: CA
       d: 11
@@ -41744,13 +41744,13 @@ years:
       clerk:
         lag: 34.1
         P: -1
-        with: 4.2
-        without: 3.2
+        with: 4.3
+        without: 3.3
       jacobson:
         lag: 34.2
         P: -1
-        with: 4.7
-        without: 3.8
+        with: 4.8
+        without: 3.9
     - st: CA
       d: 14
       v: 74.5
@@ -41766,7 +41766,7 @@ years:
       clerk:
         lag: 72.9
         P: 1
-        with: -0.6
+        with: -0.5
         without: 0.3
       jacobson:
         lag: 72.8
@@ -41788,12 +41788,12 @@ years:
       clerk:
         lag: 53.8
         P: 1
-        with: 0.6
-        without: 1.6
+        with: 0.5
+        without: 1.5
       jacobson:
         lag: 53.8
         P: 1
-        with: 1.8
+        with: 1.7
         without: 2.9
     - st: CA
       d: 16
@@ -41837,7 +41837,7 @@ years:
       jacobson:
         lag: 51.3
         P: 1
-        with: 3.2
+        with: 3.1
         without: 4.3
     - st: CA
       d: 18
@@ -41849,7 +41849,7 @@ years:
         lag: 33.9
         src: elections/1968.yaml
         P: -1
-        with: -0.2
+        with: -0.1
         without: -1.2
       clerk:
         lag: 33.9
@@ -41859,8 +41859,8 @@ years:
       jacobson:
         lag: 33.9
         P: -1
-        with: -0.3
-        without: -1.2
+        with: -0.2
+        without: -1.1
     - st: CA
       d: 19
       v: 70.4
@@ -41915,18 +41915,18 @@ years:
         lag: 91.6
         src: elections/1968.yaml
         P: 1
-        with: 7.7
-        without: 8.4
+        with: 7.8
+        without: 8.5
       clerk:
         lag: 91.6
         P: 1
         with: 8.0
-        without: 8.6
+        without: 8.7
       jacobson:
         lag: 91.6
         P: 1
         with: 7.4
-        without: 7.7
+        without: 7.8
     - st: CA
       d: 22
       v: 60.1
@@ -41943,7 +41943,7 @@ years:
         lag: 57.9
         P: 1
         with: -5.8
-        without: -4.8
+        without: -4.9
       jacobson:
         lag: 57.9
         P: 1
@@ -41959,17 +41959,17 @@ years:
         lag: 35.1
         src: elections/1968.yaml
         P: -1
-        with: -0.3
+        with: -0.2
         without: -1.3
       clerk:
         lag: 35.1
         P: -1
-        with: -0.9
-        without: -1.9
+        with: -0.8
+        without: -1.8
       jacobson:
         lag: 34.9
         P: -1
-        with: -0.3
+        with: -0.2
         without: -1.2
     - st: CA
       d: 24
@@ -42057,8 +42057,8 @@ years:
       jacobson:
         lag: 43.1
         P: -1
-        with: -11.0
-        without: -12.1
+        with: -10.9
+        without: -12.0
     - st: CA
       d: 28
       v: 27.2
@@ -42070,7 +42070,7 @@ years:
         src: elections/1968.yaml
         P: -1
         with: -4.8
-        without: -5.8
+        without: -5.7
       clerk:
         lag: 27.4
         P: -1
@@ -42102,7 +42102,7 @@ years:
         lag: 52.3
         P: 1
         with: 9.7
-        without: 2.6
+        without: 2.5
     - st: CA
       d: 30
       v: 69.5
@@ -42140,7 +42140,7 @@ years:
       clerk:
         lag: 60.1
         P: 1
-        with: 6.0
+        with: 5.9
         without: 6.9
       jacobson:
         lag: 60.1
@@ -42158,7 +42158,7 @@ years:
         src: elections/1968.yaml
         P: -1
         with: -3.2
-        without: -4.2
+        without: -4.1
       clerk:
         lag: 24.7
         P: -1
@@ -42184,13 +42184,13 @@ years:
       clerk:
         lag: 32.6
         P: -1
-        with: -8.2
-        without: -9.2
+        with: -8.1
+        without: -9.1
       jacobson:
         lag: 32.6
         P: -1
         with: -7.6
-        without: -8.5
+        without: -8.4
     - st: CA
       d: 34
       v: 55.3
@@ -42207,11 +42207,11 @@ years:
         lag: 50.9
         P: 1
         with: -6.3
-        without: -5.2
+        without: -5.3
       jacobson:
         lag: 50.9
         P: 1
-        with: -4.9
+        with: -5.0
         without: -3.8
     - st: CA
       d: 35
@@ -42246,11 +42246,11 @@ years:
         src: elections/1968.yaml
         P: -1
         with: -7.4
-        without: -8.4
+        without: -8.3
       clerk:
         lag: 28.4
         P: -1
-        with: -8.2
+        with: -8.1
         without: -9.1
       jacobson:
         lag: 28.4
@@ -42317,11 +42317,11 @@ years:
         lag: 52.5
         P: 1
         with: -7.7
-        without: -14.7
+        without: -14.8
       jacobson:
         lag: 52.4
         P: 1
-        with: -6.1
+        with: -6.2
         without: -13.3
     - st: CO
       d: 2
@@ -42343,7 +42343,7 @@ years:
       jacobson:
         lag: 37.1
         P: -1
-        with: -1.8
+        with: -1.7
         without: -2.7
     - st: CO
       d: 3
@@ -42356,16 +42356,16 @@ years:
         src: elections/1968.yaml
         P: 1
         with: 4.0
-        without: 5.2
+        without: 5.1
       clerk:
         lag: 52.1
         P: 1
-        with: 3.3
-        without: 4.3
+        with: 3.2
+        without: 4.2
       jacobson:
         lag: 52.1
         P: 1
-        with: 4.6
+        with: 4.5
         without: 5.7
     - st: CO
       d: 4
@@ -42382,8 +42382,8 @@ years:
       clerk:
         lag: 54.7
         P: 1
-        with: -8.8
-        without: -7.8
+        with: -8.9
+        without: -7.9
       jacobson:
         lag: 54.7
         P: 1
@@ -42409,7 +42409,7 @@ years:
       jacobson:
         lag: 62.6
         P: 1
-        with: -9.4
+        with: -9.3
         without: -16.7
     - st: CT
       d: 2
@@ -42444,7 +42444,7 @@ years:
         src: elections/1968.yaml
         P: 1
         with: -7.8
-        without: -6.6
+        without: -6.7
       clerk:
         lag: 56.0
         P: 1
@@ -42454,7 +42454,7 @@ years:
         lag: 56.0
         P: 1
         with: -7.3
-        without: -6.2
+        without: -6.3
     - st: CT
       d: 4
       v: 43.0
@@ -42466,17 +42466,17 @@ years:
         src: elections/1968.yaml
         P: -1
         with: -11.4
-        without: -3.4
+        without: -3.3
       clerk:
         lag: 47.9
         P: -1
-        with: -10.5
-        without: -3.6
+        with: -10.4
+        without: -3.5
       jacobson:
         lag: 47.8
         P: -1
         with: -10.8
-        without: -3.7
+        without: -3.6
     - st: CT
       d: 5
       v: 55.3
@@ -42520,7 +42520,7 @@ years:
         lag: 37.7
         P: -1
         with: 4.0
-        without: 11.3
+        without: 11.4
     - st: DE
       d: 0
       v: 45.3
@@ -42531,18 +42531,18 @@ years:
         lag: 41.3
         src: elections/1968.yaml
         P: -1
-        with: -4.9
+        with: -4.8
         without: 3.3
       clerk:
         lag: 41.3
         P: -1
         with: -4.0
-        without: 2.9
+        without: 3.0
       jacobson:
         lag: 41.3
         P: -1
         with: -4.1
-        without: 3.1
+        without: 3.2
     - st: FL
       d: 1
       v: 80.2
@@ -42553,13 +42553,13 @@ years:
         lag: 84.7
         src: elections/1968.yaml
         P: 1
-        with: -2.2
+        with: -2.1
         without: -1.4
       clerk:
         lag: 84.7
         P: 1
         with: -2.1
-        without: -1.4
+        without: -1.3
       jacobson:
         lag: 84.7
         P: 1
@@ -42576,7 +42576,7 @@ years:
         src: elections/1968.yaml
         P: 1
         with: -4.3
-        without: -3.1
+        without: -3.2
       clerk:
         lag: 52.8
         P: 1
@@ -42585,7 +42585,7 @@ years:
       jacobson:
         lag: 52.8
         P: 1
-        with: -3.7
+        with: -3.8
         without: -2.6
     - st: FL
       d: 5
@@ -42603,12 +42603,12 @@ years:
         lag: 38.3
         P: -1
         with: -15.3
-        without: -16.4
+        without: -16.3
       jacobson:
         lag: 38.3
         P: -1
-        with: -15.0
-        without: -16.0
+        with: -14.9
+        without: -15.9
     - st: FL
       d: 6
       v: 72.3
@@ -42619,7 +42619,7 @@ years:
         lag: 62.0
         src: elections/1968.yaml
         P: 1
-        with: 4.4
+        with: 4.3
         without: 5.4
       clerk:
         lag: 62.0
@@ -42646,7 +42646,7 @@ years:
       clerk:
         lag: 55.0
         P: 1
-        with: -10.7
+        with: -10.8
         without: -9.8
       jacobson:
         lag: 55.0
@@ -42664,7 +42664,7 @@ years:
         src: elections/1968.yaml
         P: 1
         with: 6.4
-        without: 7.6
+        without: 7.5
       clerk:
         lag: 56.2
         P: 1
@@ -42686,17 +42686,17 @@ years:
         src: elections/1968.yaml
         P: -1
         with: 2.6
-        without: 1.3
+        without: 1.4
       clerk:
         lag: 45.1
         P: -1
         with: 2.2
-        without: 1.1
+        without: 1.2
       jacobson:
         lag: 45.1
         P: -1
-        with: 2.2
-        without: 1.1
+        with: 2.3
+        without: 1.2
     - st: FL
       d: 12
       v: 71.7
@@ -42712,7 +42712,7 @@ years:
       clerk:
         lag: 57.0
         P: 1
-        with: 6.4
+        with: 6.3
         without: 7.3
       jacobson:
         lag: 57.0
@@ -42730,17 +42730,17 @@ years:
         src: elections/1968.yaml
         P: -1
         with: -6.8
-        without: -8.0
+        without: -7.9
       clerk:
         lag: 42.5
         P: -1
         with: -7.2
-        without: -8.3
+        without: -8.2
       jacobson:
         lag: 42.5
         P: -1
         with: -7.1
-        without: -8.2
+        without: -8.1
     - st: GA
       d: 5
       v: 42.6
@@ -42751,18 +42751,18 @@ years:
         lag: 44.4
         src: elections/1968.yaml
         P: -1
-        with: -0.2
-        without: -1.4
+        with: -0.1
+        without: -1.3
       clerk:
         lag: 44.4
         P: -1
-        with: -0.6
-        without: -1.7
+        with: -0.5
+        without: -1.6
       jacobson:
         lag: 44.4
         P: -1
-        with: -0.6
-        without: -1.7
+        with: -0.5
+        without: -1.6
     - st: HI
       d: 1
       v: 72.9
@@ -42786,17 +42786,17 @@ years:
         src: elections/1968.yaml
         P: -1
         with: 5.2
-        without: 3.9
+        without: 4.0
       clerk:
+        lag: 47.0
+        P: -1
+        with: 4.9
+        without: 3.8
+      jacobson:
         lag: 47.0
         P: -1
         with: 4.8
         without: 3.7
-      jacobson:
-        lag: 47.0
-        P: -1
-        with: 4.7
-        without: 3.6
     - st: IA
       d: 2
       v: 60.5
@@ -42829,18 +42829,18 @@ years:
         lag: 36.0
         src: elections/1968.yaml
         P: -1
-        with: 3.5
-        without: 2.4
+        with: 3.6
+        without: 2.5
       clerk:
         lag: 36.0
         P: -1
-        with: 2.9
-        without: 1.9
+        with: 3.0
+        without: 2.0
       jacobson:
         lag: 36.0
         P: -1
         with: 3.4
-        without: 2.4
+        without: 2.5
     - st: IA
       d: 4
       v: 45.4
@@ -42852,17 +42852,17 @@ years:
         src: elections/1968.yaml
         P: -1
         with: 1.5
-        without: 0.2
+        without: 0.3
       clerk:
+        lag: 46.1
+        P: -1
+        with: 1.2
+        without: 0.1
+      jacobson:
         lag: 46.1
         P: -1
         with: 1.1
         without: -0.0
-      jacobson:
-        lag: 46.1
-        P: -1
-        with: 1.0
-        without: -0.1
     - st: IA
       d: 5
       v: 66.4
@@ -42900,12 +42900,12 @@ years:
       clerk:
         lag: 35.0
         P: -1
-        with: 5.5
-        without: 4.5
+        with: 5.6
+        without: 4.6
       jacobson:
         lag: 35.0
         P: -1
-        with: 6.0
+        with: 6.1
         without: 5.1
     - st: IA
       d: 7
@@ -42922,13 +42922,13 @@ years:
       clerk:
         lag: 34.9
         P: -1
-        with: -0.2
-        without: -1.2
+        with: -0.1
+        without: -1.1
       jacobson:
         lag: 35.2
         P: -1
-        with: 0.1
-        without: -0.8
+        with: 0.2
+        without: -0.7
     - st: ID
       d: 1
       v: 41.8
@@ -42939,17 +42939,17 @@ years:
         lag: 40.6
         src: elections/1968.yaml
         P: -1
-        with: 1.4
+        with: 1.5
         without: 0.3
       clerk:
         lag: 40.6
         P: -1
-        with: 0.9
+        with: 1.0
         without: -0.1
       jacobson:
         lag: 40.6
         P: -1
-        with: 1.1
+        with: 1.2
         without: 0.1
     - st: ID
       d: 2
@@ -42966,13 +42966,13 @@ years:
       clerk:
         lag: 45.5
         P: -1
-        with: -11.5
-        without: -12.6
+        with: -11.4
+        without: -12.5
       jacobson:
         lag: 45.5
         P: -1
         with: -11.5
-        without: -12.7
+        without: -12.6
     - st: IL
       d: 1
       v: 91.0
@@ -42983,18 +42983,18 @@ years:
         lag: 84.6
         src: elections/1968.yaml
         P: 1
-        with: 17.9
-        without: 9.4
+        with: 18.0
+        without: 9.5
       clerk:
         lag: 84.6
         P: 1
-        with: 16.7
-        without: 9.4
+        with: 16.8
+        without: 9.5
       jacobson:
         lag: 84.6
         P: 1
-        with: 16.7
-        without: 8.9
+        with: 16.8
+        without: 9.0
     - st: IL
       d: 2
       v: 74.7
@@ -43028,7 +43028,7 @@ years:
         src: elections/1968.yaml
         P: 1
         with: 15.4
-        without: 7.3
+        without: 7.2
       clerk:
         lag: 54.0
         P: 1
@@ -43038,7 +43038,7 @@ years:
         lag: 54.0
         P: 1
         with: 14.9
-        without: 7.8
+        without: 7.7
     - st: IL
       d: 4
       v: 32.0
@@ -43049,18 +43049,18 @@ years:
         lag: 31.7
         src: elections/1968.yaml
         P: -1
-        with: -2.8
+        with: -2.7
         without: -3.8
       clerk:
         lag: 31.7
         P: -1
-        with: -3.5
+        with: -3.4
         without: -4.4
       jacobson:
         lag: 31.7
         P: -1
         with: -2.8
-        without: -3.7
+        without: -3.6
     - st: IL
       d: 5
       v: 68.8
@@ -43121,11 +43121,11 @@ years:
         lag: 83.1
         P: 1
         with: 5.9
-        without: 6.6
+        without: 6.7
       jacobson:
         lag: 83.1
         P: 1
-        with: 5.7
+        with: 5.8
         without: 6.3
     - st: IL
       d: 8
@@ -43181,7 +43181,7 @@ years:
         lag: 33.2
         src: elections/1968.yaml
         P: -1
-        with: 2.0
+        with: 2.1
         without: 1.0
       clerk:
         lag: 33.2
@@ -43209,11 +43209,11 @@ years:
         lag: 55.8
         P: 1
         with: 7.4
-        without: 8.4
+        without: 8.3
       jacobson:
         lag: 55.8
         P: 1
-        with: 8.5
+        with: 8.4
         without: 9.5
     - st: IL
       d: 12
@@ -43230,7 +43230,7 @@ years:
       clerk:
         lag: 29.6
         P: -1
-        with: 3.7
+        with: 3.8
         without: 2.8
       jacobson:
         lag: 29.6
@@ -43253,12 +43253,12 @@ years:
         lag: 27.3
         P: -1
         with: 9.3
-        without: 8.3
+        without: 8.4
       jacobson:
         lag: 41.6
         P: -1
         with: 0.7
-        without: -0.4
+        without: -0.3
     - st: IL
       d: 14
       v: 36.4
@@ -43269,13 +43269,13 @@ years:
         lag: 28.9
         src: elections/1968.yaml
         P: -1
-        with: 3.4
+        with: 3.5
         without: 2.5
       clerk:
         lag: 28.9
         P: -1
         with: 2.7
-        without: 1.7
+        without: 1.8
       jacobson:
         lag: 28.9
         P: -1
@@ -43297,7 +43297,7 @@ years:
         lag: 31.3
         P: -1
         with: -4.1
-        without: -5.1
+        without: -5.0
       jacobson:
         lag: 31.3
         P: -1
@@ -43313,7 +43313,7 @@ years:
         lag: 32.7
         src: elections/1968.yaml
         P: -1
-        with: -2.2
+        with: -2.1
         without: -3.2
       clerk:
         lag: 32.7
@@ -43335,18 +43335,18 @@ years:
         lag: 34.7
         src: elections/1968.yaml
         P: -1
-        with: 1.0
-        without: -0.0
+        with: 1.1
+        without: 0.0
       clerk:
         lag: 34.7
         P: -1
         with: 0.4
-        without: -0.6
+        without: -0.5
       jacobson:
         lag: 34.7
         P: -1
-        with: 0.9
-        without: 0.0
+        with: 1.0
+        without: 0.1
     - st: IL
       d: 18
       v: 33.9
@@ -43357,18 +43357,18 @@ years:
         lag: 39.1
         src: elections/1968.yaml
         P: -1
-        with: -5.6
-        without: -6.7
+        with: -5.5
+        without: -6.6
       clerk:
         lag: 39.1
         P: -1
-        with: -6.1
+        with: -6.0
         without: -7.1
       jacobson:
         lag: 39.1
         P: -1
-        with: -5.8
-        without: -6.8
+        with: -5.7
+        without: -6.7
     - st: IL
       d: 19
       v: 31.8
@@ -43389,7 +43389,7 @@ years:
       jacobson:
         lag: 36.5
         P: -1
-        with: -6.2
+        with: -6.1
         without: -7.1
     - st: IL
       d: 20
@@ -43401,7 +43401,7 @@ years:
         lag: 33.8
         src: elections/1968.yaml
         P: -1
-        with: -3.7
+        with: -3.6
         without: -4.7
       clerk:
         lag: 33.8
@@ -43411,7 +43411,7 @@ years:
       jacobson:
         lag: 33.8
         P: -1
-        with: -3.8
+        with: -3.7
         without: -4.6
     - st: IL
       d: 21
@@ -43423,7 +43423,7 @@ years:
         lag: 54.1
         src: elections/1968.yaml
         P: 1
-        with: -0.4
+        with: -0.5
         without: 0.7
       clerk:
         lag: 54.1
@@ -43455,7 +43455,7 @@ years:
       jacobson:
         lag: 35.7
         P: -1
-        with: 3.5
+        with: 3.6
         without: 2.6
     - st: IL
       d: 23
@@ -43477,7 +43477,7 @@ years:
       jacobson:
         lag: 54.0
         P: 1
-        with: -8.3
+        with: -8.4
         without: -7.2
     - st: IL
       d: 24
@@ -43495,7 +43495,7 @@ years:
         lag: 71.3
         P: 1
         with: 0.1
-        without: 0.9
+        without: 1.0
       jacobson:
         lag: 71.3
         P: 1
@@ -43517,7 +43517,7 @@ years:
         lag: 56.9
         P: 1
         with: 0.4
-        without: 1.4
+        without: 1.3
       jacobson:
         lag: 56.9
         P: 1
@@ -43533,18 +43533,18 @@ years:
         lag: 44.9
         src: elections/1968.yaml
         P: -1
-        with: 6.4
-        without: 5.2
+        with: 6.5
+        without: 5.3
       clerk:
         lag: 44.9
         P: -1
-        with: 6.0
-        without: 4.9
+        with: 6.1
+        without: 5.0
       jacobson:
         lag: 44.9
         P: -1
         with: 6.1
-        without: 4.9
+        without: 5.0
     - st: IN
       d: 3
       v: 57.5
@@ -43566,7 +43566,7 @@ years:
         lag: 52.2
         P: 1
         with: -3.6
-        without: -2.4
+        without: -2.5
     - st: IN
       d: 4
       v: 51.9
@@ -43577,18 +43577,18 @@ years:
         lag: 48.6
         src: elections/1968.yaml
         P: -1
-        with: 6.3
-        without: 5.1
+        with: 6.4
+        without: 5.2
       clerk:
         lag: 48.6
         P: -1
-        with: 6.0
-        without: 4.9
+        with: 6.1
+        without: 5.0
       jacobson:
         lag: 48.6
         P: -1
         with: 5.9
-        without: 4.7
+        without: 4.8
     - st: IN
       d: 5
       v: 44.0
@@ -43599,18 +43599,18 @@ years:
         lag: 37.0
         src: elections/1968.yaml
         P: -1
-        with: -3.5
-        without: 4.7
+        with: -3.4
+        without: 4.8
       clerk:
         lag: 37.0
         P: -1
         with: -2.7
-        without: 4.2
+        without: 4.3
       jacobson:
         lag: 37.0
         P: -1
         with: -2.6
-        without: 4.7
+        without: 4.8
     - st: IN
       d: 6
       v: 39.3
@@ -43632,7 +43632,7 @@ years:
         lag: 35.1
         P: -1
         with: 2.3
-        without: 1.3
+        without: 1.4
     - st: IN
       d: 7
       v: 42.9
@@ -43648,7 +43648,7 @@ years:
       clerk:
         lag: 40.2
         P: -1
-        with: 2.2
+        with: 2.3
         without: 1.2
       jacobson:
         lag: 40.2
@@ -43665,18 +43665,18 @@ years:
         lag: 45.5
         src: elections/1968.yaml
         P: -1
-        with: 3.8
-        without: 2.6
+        with: 3.9
+        without: 2.7
       clerk:
         lag: 45.5
         P: -1
-        with: 3.4
-        without: 2.3
+        with: 3.5
+        without: 2.4
       jacobson:
         lag: 45.5
         P: -1
         with: 3.5
-        without: 2.3
+        without: 2.4
     - st: IN
       d: 9
       v: 62.5
@@ -43688,7 +43688,7 @@ years:
         src: elections/1968.yaml
         P: 1
         with: -0.6
-        without: 0.6
+        without: 0.5
       clerk:
         lag: 54.4
         P: 1
@@ -43709,8 +43709,8 @@ years:
         lag: 46.1
         src: elections/1968.yaml
         P: -1
-        with: 5.2
-        without: 4.0
+        with: 5.3
+        without: 4.1
       clerk:
         lag: 46.1
         P: -1
@@ -43720,7 +43720,7 @@ years:
         lag: 46.1
         P: -1
         with: 4.9
-        without: 3.7
+        without: 3.8
     - st: IN
       d: 11
       v: 58.3
@@ -43754,12 +43754,12 @@ years:
         src: elections/1968.yaml
         P: -1
         with: -2.3
-        without: -3.6
+        without: -3.5
       clerk:
         lag: 48.5
         P: -1
         with: -2.6
-        without: -3.8
+        without: -3.7
       jacobson:
         lag: 48.5
         P: -1
@@ -43786,7 +43786,7 @@ years:
         lag: 32.4
         P: -1
         with: 18.5
-        without: 17.6
+        without: 17.7
     - st: KS
       d: 3
       v: 46.3
@@ -43797,8 +43797,8 @@ years:
         lag: 37.2
         src: elections/1968.yaml
         P: -1
-        with: 8.0
-        without: 6.9
+        with: 8.1
+        without: 7.0
       clerk:
         lag: 37.2
         P: -1
@@ -43819,13 +43819,13 @@ years:
         lag: 35.3
         src: elections/1968.yaml
         P: -1
-        with: -1.5
+        with: -1.4
         without: -2.5
       clerk:
         lag: 35.3
         P: -1
-        with: -2.1
-        without: -3.1
+        with: -2.0
+        without: -3.0
       jacobson:
         lag: 35.3
         P: -1
@@ -43842,7 +43842,7 @@ years:
         src: elections/1968.yaml
         P: -1
         with: -3.3
-        without: -4.4
+        without: -4.3
       clerk:
         lag: 35.5
         P: -1
@@ -43868,7 +43868,7 @@ years:
       clerk:
         lag: 44.1
         P: -1
-        with: 7.0
+        with: 7.1
         without: 6.0
       jacobson:
         lag: 44.1
@@ -43886,7 +43886,7 @@ years:
         src: elections/1968.yaml
         P: -1
         with: -3.5
-        without: -4.6
+        without: -4.5
       clerk:
         lag: 35.0
         P: -1
@@ -43917,7 +43917,7 @@ years:
       jacobson:
         lag: 26.1
         P: -1
-        with: -11.6
+        with: -11.5
         without: -12.3
     - st: KY
       d: 6
@@ -43979,7 +43979,7 @@ years:
         lag: 51.2
         P: 1
         with: 12.0
-        without: 13.2
+        without: 13.1
     - st: MA
       d: 3
       v: 51.4
@@ -44040,12 +44040,12 @@ years:
         lag: 39.6
         P: -1
         with: -3.6
-        without: -4.7
+        without: -4.6
       jacobson:
         lag: 39.6
         P: -1
         with: -3.3
-        without: -4.4
+        without: -4.3
     - st: MA
       d: 6
       v: 61.7
@@ -44056,17 +44056,17 @@ years:
         lag: 33.9
         src: elections/1968.yaml
         P: 1
-        with: 11.7
-        without: 13.1
+        with: 11.6
+        without: 13.0
       clerk:
         lag: 33.9
         P: 1
         with: 10.5
-        without: 11.7
+        without: 11.6
       jacobson:
         lag: 52.4
         P: 1
-        with: 0.5
+        with: 0.4
         without: 1.6
     - st: MA
       d: 7
@@ -44105,13 +44105,13 @@ years:
       clerk:
         lag: 82.9
         P: 1
-        with: 1.1
+        with: 1.2
         without: -6.1
       jacobson:
         lag: 82.9
         P: 1
         with: 1.3
-        without: -6.5
+        without: -6.4
     - st: MA
       d: 10
       v: 43.0
@@ -44123,16 +44123,16 @@ years:
         src: elections/1968.yaml
         P: -1
         with: 7.6
-        without: 6.5
+        without: 6.6
       clerk:
         lag: 32.6
         P: -1
         with: 6.9
-        without: 5.9
+        without: 6.0
       jacobson:
         lag: 32.6
         P: -1
-        with: 7.5
+        with: 7.6
         without: 6.7
     - st: MD
       d: 1
@@ -44144,7 +44144,7 @@ years:
         lag: 26.4
         src: elections/1968.yaml
         P: -1
-        with: -7.6
+        with: -7.5
         without: -8.5
       clerk:
         lag: 26.4
@@ -44189,11 +44189,11 @@ years:
         src: elections/1968.yaml
         P: 1
         with: 9.1
-        without: 0.8
+        without: 0.9
       clerk:
         lag: 65.6
         P: 1
-        with: 7.4
+        with: 7.5
         without: 0.3
       jacobson:
         lag: 65.6
@@ -44216,12 +44216,12 @@ years:
         lag: 47.3
         P: -1
         with: -6.4
-        without: -7.6
+        without: -7.5
       jacobson:
         lag: 47.3
         P: -1
         with: -6.5
-        without: -7.7
+        without: -7.6
     - st: MD
       d: 6
       v: 51.6
@@ -44232,7 +44232,7 @@ years:
         lag: 47.0
         src: elections/1968.yaml
         P: -1
-        with: -2.2
+        with: -2.1
         without: 5.9
       clerk:
         lag: 47.0
@@ -44243,7 +44243,7 @@ years:
         lag: 47.0
         P: -1
         with: -1.6
-        without: 5.5
+        without: 5.6
     - st: MD
       d: 7
       v: 58.7
@@ -44255,17 +44255,17 @@ years:
         src: elections/1968.yaml
         P: 1
         with: -11.2
-        without: -19.7
+        without: -19.6
       clerk:
         lag: 79.6
         P: 1
-        with: -12.6
-        without: -19.8
+        with: -12.5
+        without: -19.7
       jacobson:
         lag: 79.6
         P: 1
-        with: -12.3
-        without: -20.0
+        with: -12.2
+        without: -19.9
     - st: MD
       d: 8
       v: 36.6
@@ -44276,7 +44276,7 @@ years:
         lag: 39.1
         src: elections/1968.yaml
         P: -1
-        with: -2.9
+        with: -2.8
         without: -4.0
       clerk:
         lag: 39.1
@@ -44286,8 +44286,8 @@ years:
       jacobson:
         lag: 39.1
         P: -1
-        with: -3.1
-        without: -4.1
+        with: -3.0
+        without: -4.0
     - st: ME
       d: 1
       v: 59.2
@@ -44298,17 +44298,17 @@ years:
         lag: 56.6
         src: elections/1968.yaml
         P: 1
-        with: -5.3
+        with: -5.4
         without: -4.2
       clerk:
         lag: 56.6
         P: 1
-        with: -5.9
+        with: -6.0
         without: -5.0
       jacobson:
         lag: 56.6
         P: 1
-        with: -4.8
+        with: -4.9
         without: -3.8
     - st: ME
       d: 2
@@ -44326,12 +44326,34 @@ years:
         lag: 55.7
         P: 1
         with: -0.3
-        without: 0.7
+        without: 0.6
       jacobson:
         lag: 55.7
         P: 1
         with: 0.8
-        without: 1.9
+        without: 1.8
+    - st: MI
+      d: 2
+      v: 37.5
+      I: -1
+      D: R. Michael Stillwagon
+      R: Marvin L. Esch
+      census:
+        lag: 45.3
+        src: elections/1968.yaml
+        P: -1
+        with: -5.9
+        without: -7.1
+      clerk:
+        lag: 45.3
+        P: -1
+        with: -6.3
+        without: -7.4
+      jacobson:
+        lag: 45.2
+        P: -1
+        with: -6.2
+        without: -7.3
     - st: MI
       d: 3
       v: 43.7
@@ -44347,13 +44369,13 @@ years:
       clerk:
         lag: 34.8
         P: -1
-        with: 6.3
-        without: 5.3
+        with: 6.4
+        without: 5.4
       jacobson:
         lag: 34.8
         P: -1
         with: 6.9
-        without: 5.9
+        without: 6.0
     - st: MI
       d: 4
       v: 38.1
@@ -44364,13 +44386,13 @@ years:
         lag: 34.4
         src: elections/1968.yaml
         P: -1
-        with: 1.6
+        with: 1.7
         without: 0.6
       clerk:
         lag: 34.4
         P: -1
         with: 1.0
-        without: -0.0
+        without: 0.0
       jacobson:
         lag: 34.4
         P: -1
@@ -44397,7 +44419,7 @@ years:
         lag: 37.2
         P: -1
         with: 0.1
-        without: -0.9
+        without: -0.8
     - st: MI
       d: 6
       v: 39.7
@@ -44409,11 +44431,11 @@ years:
         src: elections/1968.yaml
         P: -1
         with: 2.3
-        without: 1.2
+        without: 1.3
       clerk:
         lag: 35.9
         P: -1
-        with: 1.7
+        with: 1.8
         without: 0.7
       jacobson:
         lag: 35.9
@@ -44430,18 +44452,18 @@ years:
         lag: 39.3
         src: elections/1968.yaml
         P: -1
-        with: -10.0
-        without: -11.1
+        with: -9.9
+        without: -11.0
       clerk:
         lag: 39.3
         P: -1
-        with: -10.5
+        with: -10.4
         without: -11.5
       jacobson:
         lag: 39.3
         P: -1
-        with: -10.2
-        without: -11.2
+        with: -10.1
+        without: -11.1
     - st: MI
       d: 8
       v: 34.1
@@ -44458,7 +44480,7 @@ years:
         lag: 31.2
         P: -1
         with: -1.0
-        without: -2.0
+        without: -1.9
       jacobson:
         lag: 31.2
         P: -1
@@ -44475,7 +44497,7 @@ years:
         src: elections/1968.yaml
         P: -1
         with: -0.0
-        without: -1.1
+        without: -1.0
       clerk:
         lag: 32.5
         P: -1
@@ -44485,7 +44507,7 @@ years:
         lag: 32.5
         P: -1
         with: -0.1
-        without: -1.0
+        without: -0.9
     - st: MI
       d: 10
       v: 40.9
@@ -44497,12 +44519,12 @@ years:
         src: elections/1968.yaml
         P: -1
         with: 4.6
-        without: 3.5
+        without: 3.6
       clerk:
         lag: 34.1
         P: -1
-        with: 3.9
-        without: 2.9
+        with: 4.0
+        without: 3.0
       jacobson:
         lag: 34.1
         P: -1
@@ -44518,18 +44540,18 @@ years:
         lag: 41.2
         src: elections/1968.yaml
         P: -1
-        with: -2.5
+        with: -2.4
         without: -3.6
       clerk:
         lag: 41.2
         P: -1
         with: -2.9
-        without: -4.0
+        without: -3.9
       jacobson:
         lag: 41.2
         P: -1
         with: -2.7
-        without: -3.8
+        without: -3.7
     - st: MI
       d: 12
       v: 76.8
@@ -44540,7 +44562,7 @@ years:
         lag: 70.6
         src: elections/1968.yaml
         P: 1
-        with: 3.4
+        with: 3.5
         without: 4.4
       clerk:
         lag: 70.6
@@ -44563,7 +44585,7 @@ years:
         src: elections/1968.yaml
         P: 1
         with: 2.7
-        without: 3.4
+        without: 3.5
       clerk:
         lag: 86.4
         P: 1
@@ -44572,8 +44594,8 @@ years:
       jacobson:
         lag: 86.4
         P: 1
-        with: 2.4
-        without: 2.9
+        with: 2.5
+        without: 3.0
     - st: MI
       d: 14
       v: 70.0
@@ -44612,7 +44634,7 @@ years:
         lag: 71.0
         P: 1
         with: 6.0
-        without: 6.8
+        without: 6.9
       jacobson:
         lag: 71.0
         P: 1
@@ -44629,17 +44651,17 @@ years:
         src: elections/1968.yaml
         P: 1
         with: 3.5
-        without: 4.4
+        without: 4.5
       clerk:
         lag: 74.1
         P: 1
-        with: 3.3
-        without: 4.1
+        with: 3.4
+        without: 4.2
       jacobson:
         lag: 74.0
         P: 1
         with: 3.6
-        without: 4.3
+        without: 4.4
     - st: MI
       d: 17
       v: 79.7
@@ -44655,8 +44677,8 @@ years:
       clerk:
         lag: 75.1
         P: 1
-        with: 3.2
-        without: 4.0
+        with: 3.3
+        without: 4.1
       jacobson:
         lag: 75.1
         P: 1
@@ -44672,18 +44694,18 @@ years:
         lag: 39.9
         src: elections/1968.yaml
         P: -1
-        with: -4.6
+        with: -4.5
         without: -5.7
       clerk:
         lag: 39.9
         P: -1
-        with: -5.1
+        with: -5.0
         without: -6.1
       jacobson:
         lag: 39.8
         P: -1
-        with: -4.8
-        without: -5.8
+        with: -4.7
+        without: -5.7
     - st: MI
       d: 19
       v: 40.8
@@ -44699,12 +44721,12 @@ years:
       clerk:
         lag: 42.0
         P: -1
-        with: -1.0
-        without: -2.1
+        with: -0.9
+        without: -2.0
       jacobson:
         lag: 42.0
         P: -1
-        with: -0.9
+        with: -0.8
         without: -1.9
     - st: MN
       d: 1
@@ -44722,7 +44744,7 @@ years:
         lag: 31.3
         P: -1
         with: -4.5
-        without: -5.5
+        without: -5.4
       jacobson:
         lag: 31.3
         P: -1
@@ -44739,17 +44761,17 @@ years:
         src: elections/1968.yaml
         P: -1
         with: -3.7
-        without: -4.9
+        without: -4.8
       clerk:
         lag: 40.5
         P: -1
         with: -4.2
-        without: -5.3
+        without: -5.2
       jacobson:
         lag: 40.5
         P: -1
-        with: -4.0
-        without: -5.0
+        with: -3.9
+        without: -4.9
     - st: MN
       d: 3
       v: 49.4
@@ -44766,11 +44788,11 @@ years:
         lag: 35.2
         P: -1
         with: 3.7
-        without: 10.7
+        without: 10.8
       jacobson:
         lag: 35.2
         P: -1
-        with: 3.9
+        with: 4.0
         without: 11.3
     - st: MN
       d: 4
@@ -44814,7 +44836,7 @@ years:
       jacobson:
         lag: 57.9
         P: 1
-        with: -7.4
+        with: -7.5
         without: -6.4
     - st: MN
       d: 6
@@ -44826,18 +44848,18 @@ years:
         lag: 43.8
         src: elections/1968.yaml
         P: -1
-        with: 5.2
-        without: 4.0
+        with: 5.3
+        without: 4.1
       clerk:
-        lag: 43.8
-        P: -1
-        with: 4.8
-        without: 3.7
-      jacobson:
         lag: 43.8
         P: -1
         with: 4.9
         without: 3.8
+      jacobson:
+        lag: 43.8
+        P: -1
+        with: 5.0
+        without: 3.9
     - st: MN
       d: 7
       v: 54.1
@@ -44849,7 +44871,7 @@ years:
         src: elections/1968.yaml
         P: -1
         with: 8.5
-        without: 7.2
+        without: 7.3
       clerk:
         lag: 48.8
         P: -1
@@ -44858,8 +44880,8 @@ years:
       jacobson:
         lag: 48.8
         P: -1
-        with: 8.0
-        without: 6.8
+        with: 8.1
+        without: 6.9
     - st: MN
       d: 8
       v: 78.0
@@ -44892,8 +44914,8 @@ years:
         lag: 50.5
         src: 'readings: cdh-1971'
         P: 1
-        with: -2.2
-        without: -1.0
+        with: -2.3
+        without: -1.1
       jacobson:
         lag: 53.2
         P: 1
@@ -44909,12 +44931,12 @@ years:
         lag: 73.6
         src: 'readings: cdh-1971'
         P: 1
-        with: -0.6
-        without: 0.3
+        with: -0.5
+        without: 0.4
       jacobson:
         lag: 73.4
         P: 1
-        with: -0.4
+        with: -0.3
         without: 0.4
     - st: MO
       d: 4
@@ -44932,7 +44954,7 @@ years:
         lag: 57.9
         P: 1
         with: -4.8
-        without: -3.7
+        without: -3.8
     - st: MO
       d: 5
       v: 61.9
@@ -44949,7 +44971,7 @@ years:
         lag: 65.4
         P: 1
         with: -7.9
-        without: -7.1
+        without: -7.0
     - st: MO
       d: 6
       v: 53.9
@@ -44995,11 +45017,11 @@ years:
         src: 'readings: cdh-1971'
         P: 1
         with: 1.6
-        without: 2.8
+        without: 2.7
       jacobson:
         lag: 52.2
         P: 1
-        with: 2.4
+        with: 2.3
         without: 3.5
     - st: MO
       d: 10
@@ -45033,8 +45055,8 @@ years:
       clerk:
         lag: 53.6
         P: 1
-        with: -13.7
-        without: -12.7
+        with: -13.8
+        without: -12.8
       jacobson:
         lag: 53.6
         P: 1
@@ -45050,18 +45072,18 @@ years:
         lag: 32.2
         src: elections/1968.yaml
         P: 1
-        with: 15.2
+        with: 15.1
         without: 16.6
       clerk:
         lag: 32.2
         P: 1
-        with: 14.0
-        without: 15.2
+        with: 13.9
+        without: 15.1
       jacobson:
         lag: 51.1
         P: 1
         with: 3.7
-        without: 4.9
+        without: 4.8
     - st: NC
       d: 1
       v: 72.0
@@ -45099,8 +45121,8 @@ years:
       clerk:
         lag: 54.0
         P: 1
-        with: -3.3
-        without: -2.3
+        with: -3.4
+        without: -2.4
       jacobson:
         lag: 54.0
         P: 1
@@ -45127,7 +45149,7 @@ years:
         lag: 51.5
         P: 1
         with: -8.3
-        without: -7.1
+        without: -7.2
     - st: NC
       d: 5
       v: 41.9
@@ -45139,16 +45161,16 @@ years:
         src: elections/1968.yaml
         P: -1
         with: -3.0
-        without: -4.3
+        without: -4.2
       clerk:
         lag: 47.6
         P: -1
-        with: -3.4
-        without: -4.5
+        with: -3.3
+        without: -4.4
       jacobson:
         lag: 47.6
         P: -1
-        with: -3.5
+        with: -3.4
         without: -4.6
     - st: NC
       d: 6
@@ -45161,7 +45183,7 @@ years:
         src: elections/1968.yaml
         P: 1
         with: 7.1
-        without: 8.3
+        without: 8.2
       clerk:
         lag: 53.6
         P: 1
@@ -45170,7 +45192,7 @@ years:
       jacobson:
         lag: 53.6
         P: 1
-        with: 7.7
+        with: 7.6
         without: 8.8
     - st: NC
       d: 8
@@ -45183,11 +45205,11 @@ years:
         src: elections/1968.yaml
         P: -1
         with: -1.8
-        without: -3.1
+        without: -3.0
       clerk:
         lag: 48.8
         P: -1
-        with: -2.1
+        with: -2.0
         without: -3.2
       jacobson:
         lag: 48.8
@@ -45209,12 +45231,12 @@ years:
       clerk:
         lag: 45.2
         P: -1
-        with: -0.8
-        without: -1.9
+        with: -0.7
+        without: -1.8
       jacobson:
         lag: 45.2
         P: -1
-        with: -0.8
+        with: -0.7
         without: -1.9
     - st: NC
       d: 11
@@ -45258,7 +45280,7 @@ years:
       jacobson:
         lag: 32.1
         P: -1
-        with: -0.8
+        with: -0.7
         without: -1.6
     - st: ND
       d: 2
@@ -45270,18 +45292,18 @@ years:
         lag: 49.4
         src: elections/1968.yaml
         P: -1
-        with: -5.1
-        without: 2.9
+        with: -5.0
+        without: 3.0
       clerk:
         lag: 49.4
         P: -1
-        with: -4.1
-        without: 2.8
+        with: -4.0
+        without: 2.9
       jacobson:
         lag: 49.4
         P: -1
-        with: -4.6
-        without: 2.5
+        with: -4.5
+        without: 2.6
     - st: NE
       d: 1
       v: 31.4
@@ -45298,12 +45320,12 @@ years:
         lag: 44.5
         P: -1
         with: -19.9
-        without: -13.0
+        without: -12.9
       jacobson:
         lag: 44.5
         P: -1
-        with: -20.2
-        without: -13.0
+        with: -20.1
+        without: -12.9
     - st: NE
       d: 2
       v: 48.1
@@ -45320,12 +45342,12 @@ years:
         lag: 44.8
         P: -1
         with: -3.4
-        without: 3.5
+        without: 3.6
       jacobson:
         lag: 44.8
         P: -1
-        with: -3.7
-        without: 3.5
+        with: -3.6
+        without: 3.6
     - st: NE
       d: 3
       v: 40.5
@@ -45342,7 +45364,7 @@ years:
         lag: 32.2
         P: -1
         with: 4.7
-        without: 3.7
+        without: 3.8
       jacobson:
         lag: 32.2
         P: -1
@@ -45358,12 +45380,12 @@ years:
         lag: 35.7
         src: 'readings: cdh-1971'
         P: -1
-        with: -4.8
+        with: -4.7
         without: -5.8
       jacobson:
         lag: 36.6
         P: -1
-        with: -5.5
+        with: -5.4
         without: -6.4
     - st: NH
       d: 2
@@ -45392,17 +45414,17 @@ years:
         lag: 41.4
         src: elections/1968.yaml
         P: -1
-        with: -2.4
+        with: -2.3
         without: -3.5
       clerk:
         lag: 41.4
         P: -1
         with: -2.8
-        without: -3.9
+        without: -3.8
       jacobson:
         lag: 41.4
         P: -1
-        with: -2.7
+        with: -2.6
         without: -3.7
     - st: NJ
       d: 2
@@ -45414,12 +45436,12 @@ years:
         lag: 44.6
         src: elections/1968.yaml
         P: -1
-        with: 5.3
-        without: 4.1
+        with: 5.4
+        without: 4.2
       clerk:
         lag: 44.6
         P: -1
-        with: 4.9
+        with: 5.0
         without: 3.9
       jacobson:
         lag: 44.6
@@ -45441,7 +45463,7 @@ years:
       clerk:
         lag: 57.9
         P: 1
-        with: -9.7
+        with: -9.8
         without: -8.8
       jacobson:
         lag: 58.0
@@ -45469,7 +45491,7 @@ years:
         lag: 53.5
         P: 1
         with: -3.5
-        without: -2.3
+        without: -2.4
     - st: NJ
       d: 5
       v: 32.4
@@ -45485,13 +45507,13 @@ years:
       clerk:
         lag: 30.5
         P: -1
-        with: -2.4
+        with: -2.3
         without: -3.3
       jacobson:
         lag: 30.5
         P: -1
         with: -1.6
-        without: -2.5
+        without: -2.4
     - st: NJ
       d: 6
       v: 45.2
@@ -45503,7 +45525,7 @@ years:
         src: elections/1968.yaml
         P: -1
         with: -0.4
-        without: 7.8
+        without: 7.9
       clerk:
         lag: 34.1
         P: -1
@@ -45529,12 +45551,12 @@ years:
       clerk:
         lag: 37.1
         P: -1
-        with: 2.6
-        without: 1.6
+        with: 2.7
+        without: 1.7
       jacobson:
         lag: 37.1
         P: -1
-        with: 3.0
+        with: 3.1
         without: 2.1
     - st: NJ
       d: 8
@@ -45557,7 +45579,7 @@ years:
         lag: 50.4
         P: 1
         with: 9.4
-        without: 2.3
+        without: 2.2
     - st: NJ
       d: 9
       v: 57.0
@@ -45574,12 +45596,12 @@ years:
         lag: 50.6
         P: 1
         with: -4.4
-        without: -3.3
+        without: -3.4
       jacobson:
         lag: 50.6
         P: 1
         with: -3.0
-        without: -1.8
+        without: -1.9
     - st: NJ
       d: 10
       v: 70.0
@@ -45639,7 +45661,7 @@ years:
       clerk:
         lag: 28.4
         P: -1
-        with: 0.3
+        with: 0.4
         without: -0.6
       jacobson:
         lag: 28.4
@@ -45710,8 +45732,8 @@ years:
       jacobson:
         lag: 54.9
         P: 1
-        with: -1.8
-        without: -0.7
+        with: -1.9
+        without: -0.8
     - st: NM
       d: 1
       v: 41.5
@@ -45722,8 +45744,8 @@ years:
         lag: 46.9
         src: elections/1968.yaml
         P: -1
-        with: -3.0
-        without: -4.2
+        with: -2.9
+        without: -4.1
       clerk:
         lag: 46.9
         P: -1
@@ -45732,7 +45754,7 @@ years:
       jacobson:
         lag: 46.7
         P: -1
-        with: -3.3
+        with: -3.2
         without: -4.4
     - st: NM
       d: 2
@@ -45745,17 +45767,17 @@ years:
         src: elections/1968.yaml
         P: -1
         with: 5.4
-        without: 4.1
+        without: 4.2
       clerk:
         lag: 49.3
         P: -1
-        with: 5.1
-        without: 4.0
+        with: 5.2
+        without: 4.1
       jacobson:
         lag: 49.3
         P: -1
-        with: 4.9
-        without: 3.7
+        with: 5.0
+        without: 3.8
     - st: NV
       d: 0
       v: 82.5
@@ -45771,13 +45793,13 @@ years:
       clerk:
         lag: 72.1
         P: 1
-        with: 7.8
+        with: 7.9
         without: 8.7
       jacobson:
         lag: 72.1
         P: 1
         with: 8.2
-        without: 8.9
+        without: 9.0
     - st: NY
       d: 1
       v: 52.2
@@ -45793,7 +45815,7 @@ years:
       jacobson:
         lag: 60.0
         P: 1
-        with: -14.0
+        with: -14.1
         without: -13.1
     - st: NY
       d: 2
@@ -45823,7 +45845,7 @@ years:
         src: 'readings: cdh-1971'
         P: 1
         with: -3.4
-        without: -2.2
+        without: -2.3
       jacobson:
         lag: 56.3
         P: 1
@@ -45879,7 +45901,7 @@ years:
         lag: 76.2
         P: 1
         with: -14.1
-        without: -13.5
+        without: -13.4
     - st: NY
       d: 10
       v: 73.0
@@ -45890,13 +45912,13 @@ years:
         lag: 76.6
         src: 'readings: cdh-1971'
         P: 1
-        with: -4.3
+        with: -4.2
         without: -3.4
       jacobson:
         lag: 70.5
         P: 1
         with: -0.2
-        without: 0.5
+        without: 0.6
     - st: NY
       d: 12
       v: 84.4
@@ -45907,8 +45929,8 @@ years:
         lag: 80.2
         src: 'readings: cdh-1971'
         P: 1
-        with: 4.9
-        without: 5.7
+        with: 5.0
+        without: 5.8
       jacobson:
         lag: 71.7
         P: 1
@@ -45924,7 +45946,7 @@ years:
         lag: 79.4
         src: 'readings: cdh-1971'
         P: 1
-        with: 4.2
+        with: 4.3
         without: 5.1
       jacobson:
         lag: 80.9
@@ -45981,7 +46003,7 @@ years:
         lag: 51.5
         P: 1
         with: -7.3
-        without: -6.1
+        without: -6.2
     - st: NY
       d: 17
       v: 66.0
@@ -45992,8 +46014,8 @@ years:
         lag: 49.2
         src: 'readings: cdh-1971'
         P: 1
-        with: 6.3
-        without: 7.5
+        with: 6.2
+        without: 7.4
       jacobson:
         lag: 54.7
         P: 1
@@ -46009,12 +46031,12 @@ years:
         lag: 62.9
         src: 'readings: cdh-1971'
         P: 1
-        with: -4.3
+        with: -4.2
         without: -12.5
       jacobson:
         lag: 61.6
         P: 1
-        with: -4.1
+        with: -4.0
         without: -11.4
     - st: NY
       d: 20
@@ -46027,12 +46049,12 @@ years:
         src: 'readings: cdh-1971'
         P: 1
         with: 6.0
-        without: 6.8
+        without: 6.9
       jacobson:
         lag: 82.5
         P: 1
         with: 3.4
-        without: 3.9
+        without: 4.0
     - st: NY
       d: 22
       v: 71.6
@@ -46048,8 +46070,8 @@ years:
       jacobson:
         lag: 86.3
         P: 1
-        with: -12.1
-        without: -11.6
+        with: -12.0
+        without: -11.5
     - st: NY
       d: 23
       v: 83.0
@@ -46060,7 +46082,7 @@ years:
         lag: 80.7
         src: 'readings: cdh-1971'
         P: 1
-        with: 3.1
+        with: 3.2
         without: 4.0
       jacobson:
         lag: 71.9
@@ -46095,7 +46117,7 @@ years:
         src: 'readings: cdh-1971'
         P: 1
         with: -8.2
-        without: -16.3
+        without: -16.4
       jacobson:
         lag: 62.7
         P: 1
@@ -46111,7 +46133,7 @@ years:
         lag: 27.6
         src: 'readings: cdh-1971'
         P: -1
-        with: -13.1
+        with: -13.0
         without: -14.0
       jacobson:
         lag: 25.3
@@ -46129,11 +46151,11 @@ years:
         src: 'readings: cdh-1971'
         P: -1
         with: 5.5
-        without: 4.2
+        without: 4.3
       jacobson:
         lag: 48.4
         P: -1
-        with: 6.3
+        with: 6.4
         without: 5.2
     - st: NY
       d: 28
@@ -46145,13 +46167,13 @@ years:
         lag: 52.1
         src: 'readings: cdh-1971'
         P: -1
-        with: -21.9
-        without: -23.2
+        with: -21.8
+        without: -23.1
       jacobson:
         lag: 48.6
         P: -1
-        with: -20.1
-        without: -21.3
+        with: -20.0
+        without: -21.2
     - st: NY
       d: 29
       v: 66.2
@@ -46179,8 +46201,8 @@ years:
       jacobson:
         lag: 33.5
         P: -1
-        with: 6.9
-        without: 6.0
+        with: 7.0
+        without: 6.1
     - st: NY
       d: 31
       v: 27.6
@@ -46191,12 +46213,12 @@ years:
         lag: 41.7
         src: 'readings: cdh-1971'
         P: -1
-        with: -13.6
+        with: -13.5
         without: -14.7
       jacobson:
         lag: 41.2
         P: -1
-        with: -13.5
+        with: -13.4
         without: -14.5
     - st: NY
       d: 32
@@ -46231,7 +46253,7 @@ years:
         lag: 31.5
         P: -1
         with: -1.2
-        without: -2.1
+        without: -2.0
     - st: NY
       d: 34
       v: 40.5
@@ -46254,8 +46276,8 @@ years:
         lag: 51.5
         src: 'readings: cdh-1971'
         P: 1
-        with: -9.3
-        without: -8.1
+        with: -9.4
+        without: -8.2
       jacobson:
         lag: 70.2
         P: 1
@@ -46288,8 +46310,8 @@ years:
         lag: 31.3
         src: 'readings: cdh-1971'
         P: -1
-        with: -3.7
-        without: -4.7
+        with: -3.6
+        without: -4.6
       jacobson:
         lag: 28.2
         P: -1
@@ -46305,13 +46327,13 @@ years:
         lag: 36.3
         src: 'readings: cdh-1971'
         P: -1
-        with: -9.2
+        with: -9.1
         without: -10.2
       jacobson:
         lag: 34.3
         P: -1
-        with: -8.0
-        without: -8.9
+        with: -7.9
+        without: -8.8
     - st: NY
       d: 39
       v: 48.4
@@ -46323,7 +46345,7 @@ years:
         src: 'readings: cdh-1971'
         P: 1
         with: -7.8
-        without: -15.9
+        without: -16.0
       jacobson:
         lag: 56.5
         P: 1
@@ -46340,12 +46362,12 @@ years:
         src: 'readings: cdh-1971'
         P: -1
         with: -0.5
-        without: -1.6
+        without: -1.5
       jacobson:
         lag: 34.4
         P: -1
-        with: 0.0
-        without: -0.9
+        with: 0.1
+        without: -0.8
     - st: NY
       d: 41
       v: 79.7
@@ -46357,11 +46379,11 @@ years:
         src: 'readings: cdh-1971'
         P: 1
         with: 1.6
-        without: 2.4
+        without: 2.5
       jacobson:
         lag: 77.6
         P: 1
-        with: 1.8
+        with: 1.9
         without: 2.5
     - st: OH
       d: 1
@@ -46384,7 +46406,7 @@ years:
         lag: 32.8
         P: -1
         with: -13.0
-        without: -5.6
+        without: -5.5
     - st: OH
       d: 2
       v: 44.1
@@ -46396,7 +46418,7 @@ years:
         src: elections/1968.yaml
         P: -1
         with: 8.8
-        without: 7.7
+        without: 7.8
       clerk:
         lag: 32.6
         P: -1
@@ -46406,7 +46428,7 @@ years:
         lag: 32.6
         P: -1
         with: 8.7
-        without: 7.8
+        without: 7.9
     - st: OH
       d: 3
       v: 23.5
@@ -46461,7 +46483,7 @@ years:
         lag: 27.6
         src: elections/1968.yaml
         P: -1
-        with: -0.0
+        with: 0.0
         without: -1.0
       clerk:
         lag: 27.6
@@ -46493,7 +46515,7 @@ years:
       jacobson:
         lag: 36.2
         P: -1
-        with: -7.2
+        with: -7.1
         without: -8.1
     - st: OH
       d: 9
@@ -46560,7 +46582,7 @@ years:
         lag: 24.7
         P: -1
         with: 1.6
-        without: 0.8
+        without: 0.9
     - st: OH
       d: 12
       v: 42.3
@@ -46572,16 +46594,16 @@ years:
         src: elections/1968.yaml
         P: -1
         with: 7.1
-        without: 6.0
+        without: 6.1
       clerk:
         lag: 32.4
         P: -1
         with: 6.4
-        without: 5.4
+        without: 5.5
       jacobson:
         lag: 32.4
         P: -1
-        with: 7.0
+        with: 7.1
         without: 6.2
     - st: OH
       d: 13
@@ -46593,17 +46615,17 @@ years:
         lag: 38.1
         src: elections/1968.yaml
         P: -1
-        with: -0.6
+        with: -0.5
         without: -1.7
       clerk:
         lag: 38.1
         P: -1
         with: -1.1
-        without: -2.2
+        without: -2.1
       jacobson:
         lag: 38.1
         P: -1
-        with: -0.8
+        with: -0.7
         without: -1.7
     - st: OH
       d: 14
@@ -46615,8 +46637,8 @@ years:
         lag: 44.9
         src: elections/1968.yaml
         P: -1
-        with: 13.2
-        without: 12.0
+        with: 13.3
+        without: 12.1
       clerk:
         lag: 44.9
         P: -1
@@ -46642,7 +46664,7 @@ years:
       clerk:
         lag: 26.7
         P: -1
-        with: -3.0
+        with: -2.9
         without: -3.9
       jacobson:
         lag: 26.7
@@ -46659,12 +46681,12 @@ years:
         lag: 40.4
         src: elections/1968.yaml
         P: -1
-        with: 3.4
+        with: 3.5
         without: 2.3
       clerk:
         lag: 40.4
         P: -1
-        with: 2.9
+        with: 3.0
         without: 1.9
       jacobson:
         lag: 40.4
@@ -46681,13 +46703,13 @@ years:
         lag: 35.1
         src: elections/1968.yaml
         P: -1
-        with: -1.3
+        with: -1.2
         without: -2.3
       clerk:
         lag: 35.1
         P: -1
-        with: -1.9
-        without: -2.9
+        with: -1.8
+        without: -2.8
       jacobson:
         lag: 35.1
         P: -1
@@ -46704,11 +46726,11 @@ years:
         src: elections/1968.yaml
         P: 1
         with: 1.5
-        without: 2.6
+        without: 2.5
       clerk:
         lag: 60.3
         P: 1
-        with: 1.0
+        with: 0.9
         without: 1.9
       jacobson:
         lag: 60.3
@@ -46725,7 +46747,7 @@ years:
         lag: 69.7
         src: elections/1968.yaml
         P: 1
-        with: -5.1
+        with: -5.0
         without: -13.4
       clerk:
         lag: 69.7
@@ -46735,8 +46757,8 @@ years:
       jacobson:
         lag: 69.6
         P: 1
-        with: -5.9
-        without: -13.4
+        with: -5.8
+        without: -13.3
     - st: OH
       d: 20
       v: 81.3
@@ -46752,12 +46774,12 @@ years:
       clerk:
         lag: 72.4
         P: 1
-        with: 14.5
+        with: 14.6
         without: 7.4
       jacobson:
         lag: 72.4
         P: 1
-        with: 15.1
+        with: 15.2
         without: 7.6
     - st: OH
       d: 21
@@ -46775,12 +46797,12 @@ years:
         lag: 74.7
         P: 1
         with: 1.4
-        without: 2.2
+        without: 2.3
       jacobson:
         lag: 74.7
         P: 1
-        with: 1.6
-        without: 2.3
+        with: 1.7
+        without: 2.4
     - st: OH
       d: 22
       v: 71.5
@@ -46791,7 +46813,7 @@ years:
         lag: 54.7
         src: elections/1968.yaml
         P: 1
-        with: 8.3
+        with: 8.2
         without: 9.4
       clerk:
         lag: 54.7
@@ -46814,17 +46836,17 @@ years:
         src: elections/1968.yaml
         P: -1
         with: -5.3
-        without: -6.6
+        without: -6.5
       clerk:
         lag: 48.0
         P: -1
         with: -5.6
-        without: -6.8
+        without: -6.7
       jacobson:
         lag: 48.0
         P: -1
         with: -5.7
-        without: -6.9
+        without: -6.8
     - st: OH
       d: 24
       v: 46.7
@@ -46846,7 +46868,7 @@ years:
         lag: 29.6
         P: -1
         with: 5.0
-        without: 12.4
+        without: 12.5
     - st: OK
       d: 1
       v: 44.3
@@ -46862,12 +46884,12 @@ years:
       clerk:
         lag: 40.7
         P: -1
-        with: 3.3
+        with: 3.4
         without: 2.3
       jacobson:
         lag: 40.7
         P: -1
-        with: 3.5
+        with: 3.6
         without: 2.5
     - st: OK
       d: 2
@@ -46890,7 +46912,7 @@ years:
         lag: 54.9
         P: 1
         with: 7.9
-        without: 9.0
+        without: 8.9
     - st: OK
       d: 4
       v: 64.6
@@ -46906,8 +46928,8 @@ years:
       clerk:
         lag: 53.6
         P: 1
-        with: 1.4
-        without: 2.4
+        with: 1.3
+        without: 2.3
       jacobson:
         lag: 53.6
         P: 1
@@ -46951,12 +46973,12 @@ years:
         lag: 44.7
         P: -1
         with: -7.6
-        without: -8.7
+        without: -8.6
       jacobson:
         lag: 44.7
         P: -1
-        with: -7.6
-        without: -8.7
+        with: -7.5
+        without: -8.6
     - st: OR
       d: 1
       v: 28.2
@@ -47038,12 +47060,12 @@ years:
       clerk:
         lag: 41.1
         P: -1
-        with: 0.4
+        with: 0.5
         without: -0.6
       jacobson:
         lag: 41.1
         P: -1
-        with: 0.6
+        with: 0.7
         without: -0.4
     - st: PA
       d: 1
@@ -47061,12 +47083,12 @@ years:
         lag: 74.7
         P: 1
         with: -6.6
-        without: -5.8
+        without: -5.7
       jacobson:
         lag: 74.7
         P: 1
-        with: -6.4
-        without: -5.7
+        with: -6.3
+        without: -5.6
     - st: PA
       d: 2
       v: 68.2
@@ -47078,17 +47100,17 @@ years:
         src: elections/1968.yaml
         P: 1
         with: -4.8
-        without: -3.9
+        without: -3.8
       clerk:
         lag: 70.0
         P: 1
         with: -5.1
-        without: -4.3
+        without: -4.2
       jacobson:
         lag: 70.0
         P: 1
-        with: -4.7
-        without: -3.9
+        with: -4.6
+        without: -3.8
     - st: PA
       d: 3
       v: 56.4
@@ -47148,7 +47170,7 @@ years:
       clerk:
         lag: 69.1
         P: 1
-        with: -5.5
+        with: -5.4
         without: -4.6
       jacobson:
         lag: 69.1
@@ -47165,18 +47187,18 @@ years:
         lag: 52.0
         src: elections/1968.yaml
         P: 1
-        with: 5.1
+        with: 5.0
         without: 6.2
       clerk:
         lag: 52.0
         P: 1
         with: 4.3
-        without: 5.4
+        without: 5.3
       jacobson:
         lag: 52.0
         P: 1
         with: 5.6
-        without: 6.8
+        without: 6.7
     - st: PA
       d: 7
       v: 40.8
@@ -47187,18 +47209,18 @@ years:
         lag: 43.0
         src: elections/1968.yaml
         P: -1
-        with: -1.2
-        without: -2.4
+        with: -1.1
+        without: -2.3
       clerk:
         lag: 43.0
         P: -1
         with: -1.6
-        without: -2.7
+        without: -2.6
       jacobson:
         lag: 43.0
         P: -1
-        with: -1.5
-        without: -2.6
+        with: -1.4
+        without: -2.5
     - st: PA
       d: 8
       v: 41.3
@@ -47215,7 +47237,7 @@ years:
         lag: 39.0
         P: -1
         with: 1.4
-        without: 0.3
+        without: 0.4
       jacobson:
         lag: 39.0
         P: -1
@@ -47258,13 +47280,13 @@ years:
       clerk:
         lag: 33.0
         P: -1
-        with: -2.9
+        with: -2.8
         without: -3.8
       jacobson:
         lag: 33.0
         P: -1
-        with: -2.3
-        without: -3.2
+        with: -2.2
+        without: -3.1
     - st: PA
       d: 12
       v: 34.3
@@ -47280,13 +47302,13 @@ years:
       clerk:
         lag: 31.8
         P: -1
-        with: -1.3
+        with: -1.2
         without: -2.2
       jacobson:
         lag: 31.8
         P: -1
         with: -0.6
-        without: -1.5
+        without: -1.4
     - st: PA
       d: 13
       v: 40.3
@@ -47307,8 +47329,8 @@ years:
       jacobson:
         lag: 37.2
         P: -1
-        with: 1.8
-        without: 0.8
+        with: 1.9
+        without: 0.9
     - st: PA
       d: 14
       v: 77.1
@@ -47319,7 +47341,7 @@ years:
         lag: 70.8
         src: elections/1968.yaml
         P: 1
-        with: 3.5
+        with: 3.6
         without: 4.5
       clerk:
         lag: 70.8
@@ -47329,7 +47351,7 @@ years:
       jacobson:
         lag: 70.7
         P: 1
-        with: 3.7
+        with: 3.8
         without: 4.5
     - st: PA
       d: 15
@@ -47368,7 +47390,7 @@ years:
       clerk:
         lag: 28.5
         P: -1
-        with: -2.1
+        with: -2.0
         without: -3.0
       jacobson:
         lag: 28.5
@@ -47385,7 +47407,7 @@ years:
         lag: 32.4
         src: elections/1968.yaml
         P: -1
-        with: 5.5
+        with: 5.6
         without: 4.5
       clerk:
         lag: 32.4
@@ -47396,7 +47418,7 @@ years:
         lag: 32.4
         P: -1
         with: 5.5
-        without: 4.6
+        without: 4.7
     - st: PA
       d: 18
       v: 38.5
@@ -47417,7 +47439,7 @@ years:
       jacobson:
         lag: 36.0
         P: -1
-        with: 0.8
+        with: 0.9
         without: -0.1
     - st: PA
       d: 19
@@ -47429,17 +47451,17 @@ years:
         lag: 41.4
         src: elections/1968.yaml
         P: -1
-        with: 4.0
+        with: 4.1
         without: 2.9
       clerk:
         lag: 41.4
         P: -1
-        with: 3.5
+        with: 3.6
         without: 2.5
       jacobson:
         lag: 41.4
         P: -1
-        with: 3.7
+        with: 3.8
         without: 2.7
     - st: PA
       d: 20
@@ -47462,7 +47484,7 @@ years:
         lag: 71.3
         P: 1
         with: 5.3
-        without: 6.0
+        without: 6.1
     - st: PA
       d: 21
       v: 69.7
@@ -47496,17 +47518,17 @@ years:
         src: elections/1968.yaml
         P: -1
         with: 0.5
-        without: -0.7
+        without: -0.6
       clerk:
         lag: 42.0
         P: -1
-        with: 0.0
+        with: 0.1
         without: -1.0
       jacobson:
         lag: 42.0
         P: -1
         with: 0.2
-        without: -0.9
+        without: -0.8
     - st: PA
       d: 23
       v: 42.1
@@ -47517,8 +47539,8 @@ years:
         lag: 38.2
         src: elections/1968.yaml
         P: -1
-        with: 3.1
-        without: 2.0
+        with: 3.2
+        without: 2.1
       clerk:
         lag: 38.2
         P: -1
@@ -47606,7 +47628,7 @@ years:
         src: elections/1968.yaml
         P: -1
         with: 3.6
-        without: 2.5
+        without: 2.6
       clerk:
         lag: 32.4
         P: -1
@@ -47616,7 +47638,7 @@ years:
         lag: 32.4
         P: -1
         with: 3.5
-        without: 2.6
+        without: 2.7
     - st: RI
       d: 1
       v: 62.0
@@ -47671,17 +47693,17 @@ years:
         lag: 42.4
         src: elections/1968.yaml
         P: -1
-        with: -4.3
-        without: 3.8
+        with: -4.2
+        without: 3.9
       clerk:
         lag: 42.4
         P: -1
         with: -3.4
-        without: 3.5
+        without: 3.6
       jacobson:
         lag: 42.4
         P: -1
-        with: -3.6
+        with: -3.5
         without: 3.7
     - st: SC
       d: 3
@@ -47716,7 +47738,7 @@ years:
         src: elections/1968.yaml
         P: 1
         with: -11.1
-        without: -10.3
+        without: -10.2
       clerk:
         lag: 77.4
         P: 1
@@ -47725,7 +47747,7 @@ years:
       jacobson:
         lag: 77.3
         P: 1
-        with: -11.1
+        with: -11.0
         without: -10.4
     - st: SC
       d: 6
@@ -47759,13 +47781,13 @@ years:
         lag: 42.0
         src: elections/1968.yaml
         P: -1
-        with: 5.3
+        with: 5.4
         without: 13.5
       clerk:
         lag: 42.0
         P: -1
         with: 6.2
-        without: 13.1
+        without: 13.2
       jacobson:
         lag: 42.0
         P: -1
@@ -47782,12 +47804,12 @@ years:
         src: elections/1968.yaml
         P: -1
         with: 2.5
-        without: 10.6
+        without: 10.7
       clerk:
         lag: 40.7
         P: -1
         with: 3.3
-        without: 10.2
+        without: 10.3
       jacobson:
         lag: 40.7
         P: -1
@@ -47808,13 +47830,13 @@ years:
       clerk:
         lag: 14.8
         P: -1
-        with: 7.1
+        with: 7.0
         without: 6.2
       jacobson:
         lag: 14.8
         P: -1
         with: 8.5
-        without: 8.0
+        without: 7.9
     - st: TN
       d: 2
       v: 26.0
@@ -47836,7 +47858,7 @@ years:
         lag: 15.2
         P: -1
         with: 2.1
-        without: 1.6
+        without: 1.5
     - st: TN
       d: 3
       v: 47.0
@@ -47848,11 +47870,11 @@ years:
         src: elections/1968.yaml
         P: -1
         with: -4.2
-        without: 3.9
+        without: 4.0
       clerk:
         lag: 43.0
         P: -1
-        with: -3.4
+        with: -3.3
         without: 3.6
       jacobson:
         lag: 43.0
@@ -47870,17 +47892,17 @@ years:
         src: elections/1968.yaml
         P: 1
         with: 5.9
-        without: 6.7
+        without: 6.8
       clerk:
         lag: 75.9
         P: 1
         with: 5.7
-        without: 6.5
+        without: 6.6
       jacobson:
         lag: 75.9
         P: 1
-        with: 5.8
-        without: 6.5
+        with: 5.9
+        without: 6.6
     - st: TN
       d: 5
       v: 70.6
@@ -47919,7 +47941,7 @@ years:
         lag: 59.4
         P: 1
         with: 14.9
-        without: 15.9
+        without: 15.8
       jacobson:
         lag: 59.4
         P: 1
@@ -47957,18 +47979,18 @@ years:
         lag: 38.3
         src: elections/1968.yaml
         P: -1
-        with: -1.6
+        with: -1.5
         without: -2.7
       clerk:
         lag: 38.3
         P: -1
         with: -2.1
-        without: -3.2
+        without: -3.1
       jacobson:
         lag: 38.3
         P: -1
         with: -1.8
-        without: -2.8
+        without: -2.7
     - st: TX
       d: 3
       v: 39.4
@@ -47979,17 +48001,17 @@ years:
         lag: 40.6
         src: elections/1968.yaml
         P: -1
-        with: -1.1
+        with: -1.0
         without: -2.2
       clerk:
         lag: 40.6
         P: -1
-        with: -1.6
-        without: -2.6
+        with: -1.5
+        without: -2.5
       jacobson:
         lag: 40.6
         P: -1
-        with: -1.3
+        with: -1.2
         without: -2.3
     - st: TX
       d: 5
@@ -48067,18 +48089,18 @@ years:
         lag: 73.5
         src: elections/1968.yaml
         P: 1
-        with: 7.4
+        with: 7.5
         without: 8.4
       clerk:
         lag: 73.5
         P: 1
-        with: 7.2
+        with: 7.3
         without: 8.1
       jacobson:
         lag: 73.5
         P: 1
         with: 7.5
-        without: 8.2
+        without: 8.3
     - st: TX
       d: 21
       v: 61.4
@@ -48139,7 +48161,7 @@ years:
         lag: 31.9
         P: -1
         with: 8.1
-        without: 15.1
+        without: 15.2
       jacobson:
         lag: 31.9
         P: -1
@@ -48155,8 +48177,8 @@ years:
         lag: 38.4
         src: elections/1968.yaml
         P: -1
-        with: 8.1
-        without: 7.0
+        with: 8.2
+        without: 7.1
       clerk:
         lag: 38.4
         P: -1
@@ -48166,7 +48188,7 @@ years:
         lag: 38.4
         P: -1
         with: 7.9
-        without: 6.9
+        without: 7.0
     - st: VA
       d: 2
       v: 38.3
@@ -48177,8 +48199,8 @@ years:
         lag: 45.8
         src: elections/1968.yaml
         P: -1
-        with: -5.5
-        without: -6.7
+        with: -5.4
+        without: -6.6
       clerk:
         lag: 45.8
         P: -1
@@ -48187,8 +48209,8 @@ years:
       jacobson:
         lag: 45.8
         P: -1
-        with: -5.9
-        without: -7.0
+        with: -5.8
+        without: -6.9
     - st: VA
       d: 3
       v: 67.5
@@ -48200,11 +48222,11 @@ years:
         src: elections/1968.yaml
         P: 1
         with: 0.7
-        without: 1.8
+        without: 1.7
       clerk:
         lag: 60.3
         P: 1
-        with: 0.2
+        with: 0.1
         without: 1.1
       jacobson:
         lag: 60.3
@@ -48221,13 +48243,13 @@ years:
         lag: 71.5
         src: elections/1968.yaml
         P: 1
-        with: 10.8
+        with: 10.9
         without: 11.8
       clerk:
         lag: 71.5
         P: 1
         with: 10.6
-        without: 11.4
+        without: 11.5
       jacobson:
         lag: 71.5
         P: 1
@@ -48243,8 +48265,8 @@ years:
         lag: 67.1
         src: elections/1968.yaml
         P: 1
-        with: 1.8
-        without: 2.8
+        with: 1.9
+        without: 2.9
       clerk:
         lag: 67.1
         P: 1
@@ -48265,8 +48287,8 @@ years:
         lag: 7.3
         src: elections/1968.yaml
         P: -1
-        with: 6.2
-        without: 5.5
+        with: 6.1
+        without: 5.4
       clerk:
         lag: 7.3
         P: -1
@@ -48288,7 +48310,7 @@ years:
         src: elections/1968.yaml
         P: 1
         with: -16.4
-        without: -24.5
+        without: -24.6
       clerk:
         lag: 55.8
         P: 1
@@ -48319,7 +48341,7 @@ years:
       jacobson:
         lag: 35.1
         P: -1
-        with: -0.9
+        with: -0.8
         without: -1.8
     - st: VA
       d: 9
@@ -48331,17 +48353,17 @@ years:
         lag: 40.1
         src: elections/1968.yaml
         P: -1
-        with: -1.1
-        without: -2.2
+        with: -1.0
+        without: -2.1
       clerk:
         lag: 40.1
         P: -1
-        with: -1.6
-        without: -2.6
+        with: -1.5
+        without: -2.5
       jacobson:
         lag: 40.1
         P: -1
-        with: -1.3
+        with: -1.2
         without: -2.3
     - st: VA
       d: 10
@@ -48354,17 +48376,17 @@ years:
         src: elections/1968.yaml
         P: -1
         with: 5.3
-        without: 4.1
+        without: 4.2
       clerk:
         lag: 40.2
         P: -1
         with: 4.8
-        without: 3.7
+        without: 3.8
       jacobson:
         lag: 40.2
         P: -1
-        with: 5.0
-        without: 4.0
+        with: 5.1
+        without: 4.1
     - st: WA
       d: 1
       v: 33.2
@@ -48376,17 +48398,17 @@ years:
         src: elections/1968.yaml
         P: -1
         with: -5.6
-        without: -6.8
+        without: -6.7
       clerk:
         lag: 38.0
         P: -1
-        with: -6.2
+        with: -6.1
         without: -7.2
       jacobson:
         lag: 38.0
         P: -1
         with: -5.8
-        without: -6.8
+        without: -6.7
     - st: WA
       d: 2
       v: 72.7
@@ -48403,12 +48425,12 @@ years:
         lag: 56.2
         P: 1
         with: 7.9
-        without: 8.9
+        without: 8.8
       jacobson:
         lag: 56.2
         P: 1
         with: 9.0
-        without: 10.1
+        without: 10.0
     - st: WA
       d: 3
       v: 59.1
@@ -48419,18 +48441,18 @@ years:
         lag: 56.8
         src: elections/1968.yaml
         P: 1
-        with: -5.4
+        with: -5.5
         without: -4.3
       clerk:
         lag: 56.8
         P: 1
-        with: -6.0
+        with: -6.1
         without: -5.1
       jacobson:
         lag: 56.8
         P: 1
         with: -5.0
-        without: -3.9
+        without: -4.0
     - st: WA
       d: 4
       v: 52.6
@@ -48441,7 +48463,7 @@ years:
         lag: 33.2
         src: elections/1968.yaml
         P: -1
-        with: 16.8
+        with: 16.9
         without: 15.8
       clerk:
         lag: 33.2
@@ -48464,7 +48486,7 @@ years:
         src: elections/1968.yaml
         P: 1
         with: 2.4
-        without: 3.6
+        without: 3.5
       clerk:
         lag: 56.8
         P: 1
@@ -48491,7 +48513,7 @@ years:
         lag: 56.4
         P: 1
         with: 5.0
-        without: 6.0
+        without: 5.9
       jacobson:
         lag: 56.4
         P: 1
@@ -48530,17 +48552,17 @@ years:
         src: elections/1968.yaml
         P: -1
         with: 15.1
-        without: 13.8
+        without: 13.9
       clerk:
         lag: 49.1
         P: -1
         with: 14.8
-        without: 13.6
+        without: 13.7
       jacobson:
         lag: 49.1
         P: -1
-        with: 14.6
-        without: 13.4
+        with: 14.7
+        without: 13.5
     - st: WI
       d: 2
       v: 68.8
@@ -48574,17 +48596,17 @@ years:
         src: elections/1968.yaml
         P: -1
         with: 6.8
-        without: 5.7
+        without: 5.8
       clerk:
         lag: 36.3
         P: -1
-        with: 6.2
-        without: 5.2
+        with: 6.3
+        without: 5.3
       jacobson:
         lag: 36.3
         P: -1
         with: 6.7
-        without: 5.7
+        without: 5.8
     - st: WI
       d: 4
       v: 81.6
@@ -48596,12 +48618,12 @@ years:
         src: elections/1968.yaml
         P: 1
         with: 6.9
-        without: 7.8
+        without: 7.9
       clerk:
         lag: 72.6
         P: 1
         with: 6.7
-        without: 7.5
+        without: 7.6
       jacobson:
         lag: 72.6
         P: 1
@@ -48623,7 +48645,7 @@ years:
         lag: 68.3
         P: 1
         with: 4.5
-        without: 5.3
+        without: 5.4
       jacobson:
         lag: 68.3
         P: 1
@@ -48640,7 +48662,7 @@ years:
         src: elections/1968.yaml
         P: -1
         with: -5.6
-        without: -6.7
+        without: -6.6
       clerk:
         lag: 34.9
         P: -1
@@ -48666,13 +48688,13 @@ years:
       clerk:
         lag: 35.9
         P: 1
-        with: 15.9
-        without: 17.0
+        with: 15.8
+        without: 16.9
       jacobson:
         lag: 51.6
         P: 1
         with: 7.5
-        without: 8.7
+        without: 8.6
     - st: WI
       d: 8
       v: 44.0
@@ -48689,7 +48711,7 @@ years:
         lag: 32.0
         P: -1
         with: 8.3
-        without: 7.3
+        without: 7.4
       jacobson:
         lag: 32.0
         P: -1
@@ -48710,12 +48732,12 @@ years:
       clerk:
         lag: 36.9
         P: -1
-        with: 9.3
+        with: 9.4
         without: 8.3
       jacobson:
         lag: 36.9
         P: -1
-        with: 9.7
+        with: 9.8
         without: 8.8
     - st: WI
       d: 10
@@ -48727,18 +48749,18 @@ years:
         lag: 34.1
         src: elections/1968.yaml
         P: -1
-        with: 12.5
+        with: 12.6
         without: 11.5
       clerk:
         lag: 34.1
         P: -1
         with: 11.9
-        without: 10.9
+        without: 11.0
       jacobson:
         lag: 34.1
         P: -1
-        with: 12.4
-        without: 11.5
+        with: 12.5
+        without: 11.6
     - st: WV
       d: 1
       v: 61.5
@@ -48750,7 +48772,7 @@ years:
         src: elections/1968.yaml
         P: 1
         with: -1.2
-        without: -0.0
+        without: -0.1
       clerk:
         lag: 53.9
         P: 1
@@ -48848,7 +48870,7 @@ years:
         lag: 66.2
         P: 1
         with: 0.1
-        without: 0.9
+        without: 1.0
     - st: WY
       d: 0
       v: 50.3
@@ -48860,7 +48882,7 @@ years:
         src: elections/1968.yaml
         P: -1
         with: 2.7
-        without: 10.8
+        without: 10.9
       clerk:
         lag: 37.3
         P: -1
@@ -48869,7 +48891,7 @@ years:
       jacobson:
         lag: 37.3
         P: -1
-        with: 3.4
+        with: 3.5
         without: 10.8
   1972:
     census:
