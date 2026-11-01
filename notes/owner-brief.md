@@ -383,3 +383,43 @@ approved the ruling proposed in reply (CLAUDE.md, "Military matters"). Cuts mark
 > Your note on R29 and R44 suggests we should be more thoughtful about queuing and threading parallel agents, and merging entries. Is there a performant, compute-economizing solution here? Can you implement it and follow it?
 >
 > Can you give the Hathi links for the CDs in a "to procure" artifact for me? Or write them into an existing one and point me to the relevant items?
+
+### The press
+
+2026-11-01, session "1968 series".
+
+> Initial thoughts on the press:
+>
+> - Our primary criteria are these: first, a focus on politics or current events; and second, reach, influence, or access.
+> - As a result, the ABC, NBC, and CBS evening news, and the relevant named figures, are in, as a rule, for both comment and coverage.
+> - Syndicated columnists and reporters on matters of interest that pass these filters are in, as a rule, for both comment and coverage.
+> - Editorial decisions on matters of interest by broadcasters and publishers that pass these filters are in, as a rule.
+> - Once a named figure has passed these filters, our calendar takes on an interest in their formal and informal exchanges with other named figures.
+>
+> Does that make sense? What does that commit me to? Would you recommend any amendments?
+
+2026-11-01, session "1968 series".
+
+> I'm not sure we need to be so definite that "No run of the papers or broadcasts is read." I would ask to read if I could. I would also drop "and whom to endorse," which is the least interesting thing the press does.
+>
+> If I could get the routine coverage of matters of interest stated in our best clipped, telegraphic way—the segments of each evening broadcasts, headlines of the dailies, covers of the weeklies, and items covered in both, limited to matters of interest—I'd ask for that, too.
+>
+> That's more interesting to me than an approach that stresses "a disclosure, a leak" to the exclusion of almost all else—because, AIUI, the *routine* coverage is also based on "a disclosure, a leak," but only gets *called* that when the President doesn't like the coverage. I don't know if I want to put that kind of filter on what I get to see.
+>
+> Of course, there's more *material for the agent readers* where the President doesn't like the coverage, so it takes priority for the reason alone, but I don't think we need to put a thumb on the scale here.
+>
+> I'm also interested in following at least the in-country VN beat reporters, the top national political beat reporters, and anyone "on the road"/"on the bus" with the candidates. (I might become interested in beat reporters on other subjects, but I'd be hard-pressed to name any of them right now, besides Halberstam, who did double-duty.)
+>
+> Do we have a good specification of "opinion journals" here? National Review, the New Republic, ... and that's it? Was the coverage and comment in Nation, Harper's, the Atlantic, or the NYRB of particular interest in our period? I'm sure the little magazines were more fun to read—well, actually, maybe not—but did they have reach, influence, or access? Would we just want to limit ourselves to NR and TNR and... anyone else? ... subject to a "where two works treat them as a voice" rule? (So we bring in Ramparts for a minute and then drop them just as quickly. Yesterday's news!)
+
+2026-11-01, session "1968 series".
+
+> Shoot, you're right about the others. Please do enumerate them, as you have here.
+>
+> Drop the " (others as named)" parenthetical—that's our placeholder, not the readers'!
+>
+> Put the enumerated list of "opinion journals and magazines" in-line, where "on the list" is now.
+>
+> Replace "Its routine coverage" with "The press's routine coverage" to avoid any possible "last antecedent" confusion.
+>
+> Good to go. Hold off on the extension/archive/Times API for now. I just want the readers to start including these things.

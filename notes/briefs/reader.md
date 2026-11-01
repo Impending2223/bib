@@ -107,13 +107,37 @@ event's own otherwise.
 **R12. The parties to an event.** A defendant, a witness or a plaintiff in an event the calendar records, on that
 event (Hoffa's interviews on his trials).
 
-**R13. The columnists.** A named columnist is one with an entry in Part III's press sections (K–J Cong. III.J, Opp.
-III.J, 1968 III.O, Cong. III.M: Lippmann, Reston, Krock, the Alsops, Pearson, Anderson, Evans and Novak, McGrory,
-Buckley, Rovere, Wicker, Sidey, Broder). A named columnist's column on policy or politics is an entry where the work
-being read dates and treats it; no run of the papers is read. Another journalist's column is an entry only where it
-carried an act (a leak, a trial balloon) or made news. A columnist the work treats as a voice who has no Part III
-entry: propose the columnist in your leads (Kraft, Childs, David Lawrence, Drummond, Kilpatrick, Fleeson, Kempton),
-for the owner to rule.
+**R13. The press.** The press is in where it treats politics or current events and has reach, influence or access:
+the networks' evening news, its anchors, correspondents and news presidents; columnists syndicated nationally on
+politics; the beat reporters in Vietnam, on national politics and with the candidates, on civil rights, on diplomacy
+and on the Court; the publishers, editors and bureau chiefs of the national papers, the wires and the newsweeklies;
+and the journals and magazines *National Review*, *Human Events*, *The New Republic*, *The Reporter*, *Commentary*,
+*Foreign Affairs*, *The New Yorker*, *Life*, *Look* and the *Saturday Evening Post*, others (*The Nation*, *Harper's*,
+*The Atlantic*, *The New York Review of Books*, *The Public Interest*, *Ramparts*) where two works treat them as a
+voice. The press's routine coverage of matters of interest is a daily list (each broadcast's segments, the front
+pages, the covers), as far as the record allows. Its comment, its decisions on what to cover, its coverage where a
+work or a primary record treats it as an event, and its figures' exchanges with other named figures on public
+business are entries.
+
+How to apply it:
+- An entry still takes R5's test: the work being read, or a primary record (the tapes, the Daily Diary, FRUS), dates
+  and treats it. A column, a broadcast, a cover story, an editorial decision (a network's choice to air or drop, a
+  paper's to hold a story) or an exchange (a call, a dinner, a background session, an interview with a principal),
+  each its own entry (R17), filed under the thread of its matter; the exchanges on R7's terms.
+- Named so far: Part III's press sections (K–J Cong. III.J, Opp. III.J, 1968 III.O, Cong. III.M: Lippmann, Reston,
+  Krock, the Alsops, Pearson, Anderson, Evans and Novak, McGrory, Buckley, Rovere, Wicker, Sidey, Broder). Others the
+  rule takes in: the columnists Kraft, Childs, David Lawrence, Drummond, Kilpatrick, Fleeson, Kempton; the anchors and
+  correspondents Cronkite, Huntley, Brinkley, Sevareid, Howard K. Smith, Reasoner, Safer, Kalb, Scali; the news
+  presidents and executives Friendly, Stanton, Paley, Sarnoff, Kintner, Frank; in Vietnam Halberstam, Sheehan,
+  Browne, Arnett, Faas, Mohr, Ward Just, Braestrup, Beech; in national politics and with the candidates White, Witcover,
+  Germond, Apple, McGinniss, Newfield; on civil rights Sitton, Karl Fleming, Gene Roberts; on diplomacy and the Court
+  Max Frankel, Chalmers Roberts, Anthony Lewis; the publishers and editors Graham, Bradlee, Luce, Sulzberger, Otis
+  Chandler, Ascoli, Podhoretz. Enter what they did; tag only a name entry; propose in your leads a Part III entry for
+  each without one, and any other figure the rule takes in, with the works that treat the figure.
+- The daily list: where the work gives a day's coverage, write it in your book-check file under "## The press", a line
+  each: date | outlet | broadcast, front page or cover | the items, clipped, matters of interest only | page. The merger
+  copies the lines into `notes/press.md`, by date, until the list is built. A reader reads the works assigned, not a run of
+  the papers or the broadcasts.
 
 **R14. Military matters.** A military operation, action or incident the work dates and treats, in every theater
 (Vietnam, Laos, Cambodia, Thailand, the Korean DMZ, the Dominican Republic, Cuba, Berlin's convoys, the Congo airlift,
@@ -353,7 +377,7 @@ cite it, check it, name in it, by additive ops on its id (R51), which the merge 
 your own group of sources, a later source's patch adds to an earlier's entries the same way.
 
 **R50. Leads.** What you recall and could not place or verify (an event without a date, a figure without a source
-read, a source not reached, a host refused, a columnist to propose): at the end of your book-check file under
+read, a source not reached, a host refused, a press figure to propose): at the end of your book-check file under
 "Leads", by the headings of `notes/leads.md` (States and cities, National, Foreign, the Executive roster), with the
 entry it concerns and where to look. The merger copies them into `notes/leads.md`. Never into the calendar unchecked.
 
@@ -422,6 +446,7 @@ written by Claude or its agents, no ruling of the owner's.
 | R10, R18 | Oct. 30 (OB, "The counterparts: other sovereigns, and before the radar") | "I think we should add a catchall ', and other sovereigns' to the end, along with something that catches armed groups and unrecognized authorities that Washington and its counterparts were then, or later became, interested in as a foreign affairs matter"; "I'd like the calendar to follow the coup leaders before the coup, insurrectionists before the insurrection, rebels before the rebellion." The `notice:` tag: house rule |
 | R11, R12 | Oct. 29 (OB, "Out of the brief") | "Give me the lobbies and foundations too. And Hoffa! (One of the agents dropped him as 'below the level (a defendant's interview)'.) There must be some way to keep in folks like Meany, Hillman, Lewis, Reuther ..." |
 | R13 | Oct. 29 (OB, "Out of the brief") | "I'd also like some cut that gets us the 'name' columnists but not the rest, but I'm not sure how to draw the line there." The cut (Part III's press sections; the work's notice): house rule, in CL |
+| R13 | Nov. 1 (OB, "The press") | "Our primary criteria are these: first, a focus on politics or current events; and second, reach, influence, or access."; "Shoot, you're right about the others. Please do enumerate them"; "Good to go. ... I just want the readers to start including these things." The wording, Claude's draft as the owner amended it; how to apply it, the names and the book-check section: house rule |
 | R14, R18, R48 | Oct. 30 (OB, "Military matters") | "The agents seem to think operational, logistical, and other military matters are below the level or outside the brief."; "Please do." (approving the ruling in CL, "Military matters") |
 | R15, R16 | Oct. 29 (OB, "What is passed over at all") | "I think our agents are cutting a bit too much as 'private,' 'below the level,' 'undated' (which sometimes means only 'not dated to the day'), 'itinerary' (I want to know where these guys went!) ... Jones's Bay of Pigs (we cover all these meetings and memos but the actual operation is 'below the line'?)" |
 | R17 | Oct. 20 (CL, "Spans"); Oct. 28 (OB, "Records cited, units of claim, one event one entry") | "Re: duplicates: One entry, listed in both threads." The comparison by day and the duplicate flag: house rule |
