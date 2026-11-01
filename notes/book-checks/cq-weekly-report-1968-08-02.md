@@ -31,24 +31,34 @@ Senate's CQ vote number + 315, the House's + 245, in the 90th Congress's numberi
 school aid passage at 857), from `sources/ppp-text`. Found, not read: the Statutes at Large of the laws signed July
 26–27 (Interior appropriation, PL 90-425; S. 1752, PL 90-427; the veterans' bills).
 
-Patch: `inbox/2026-11-01-cq-1968-08-02.yaml`: 109 new entries, each claimed in the ledger; 16 ops on entries in the
-calendar (cites, Checks, one primary record, one edit). patch-check: 0 errors, 58 warnings, each a same-day,
+Patch: `inbox/2026-11-01-cq-1968-08-02.yaml`: 109 new entries, each claimed in the ledger; 30 ops on entries in the
+calendar (cites, Checks, one primary record, three edits, one `also`). patch-check: 0 errors, 58 warnings, each a same-day,
 same-thread set of distinct events (the platform sessions, the campaign's days). Merged into a scratch copy of the tree
 (duplicate flags taken `keep`): `./bib check` 0 errors, no new warning from these entries.
 
 ## Checked against the page images (Nov. 1, 2026)
 
-Read on the page image (crops at 760–820 px a column): pp. 2018 (left column: the Committee's 14–4 vote, Fulbright
-the first chairman against), 2021 (left column: the House's passage, the 37–106 standing vote, the recommittal printed
-"32-50"; Sikes's "measure of unilateral disarmament"), 2023 (right column: Williams's point of order, July 22), 2066
-(right column: UPI's delegate poll, every figure), 2069 (left column: Kennedy's statement, July 26, through a spokesman
-in Boston), 2075 (right column: Reagan on *Issues and Answers*, July 28, "these young monsters," the Hitler Youth).
+Second pass, at the orchestrator's request: every figure, date, name, vote and quotation in the patch's new entries
+and ops read on the page image (crops of 560-820 px a column from the 600-dpi scans), page by page: pp. 2017, 2018,
+2019, 2021, 2022, 2023, 2024, 2026, 2027, 2028, 2029, 2030, 2031, 2038, 2039, 2040, 2041, 2043, 2044, 2045, 2046,
+2050, 2052, 2053, 2054, 2055, 2056, 2057, 2058, 2064, 2066, 2067, 2068, 2069, 2070, 2071, 2072, 2073, 2074, 2075,
+2076, 2077, 2078, 2079, 2085, 2090. Roll-call counts: Voteview, as before, against CQ's (the image read for CQ's own
+figure where a Check cites it). Not read on the image, and not relied on for a figure: pp. 2042, 2047-49, 2051, 2092
+(the held ops' juvenile delinquency, gun and farm cites, and the postal bill, rest on the existing entries' figures or
+Voteview; their CQ pages bear out the acts, read in the OCR).
 
-Every roll-call count in the patch is Voteview's, read against CQ's: where they differ the entry gives Voteview's and a
-Check gives CQ's. Every other figure, date, name and quotation in the patch is from the OCR and was NOT read on the
-page image, for want of time: pp. 2017–20, 2022–65, 2067–68, 2070–74, 2076–79 (the OCR's figures agree with CQ's own
-vote charts and with Voteview wherever the two meet, but a misread digit elsewhere is possible). These pages want a
-reader's check against the images before the owner relies on a figure from them; the entries carry no "Check" for it.
+Corrections made from the images (17): Sparkman's quotation completed ("ever considered"); the continuing resolution,
+"action completed on" three bills, not "enacted"; the rivers and harbors bill's 62 Republicans and 24 Democrats
+attributed to CQ (Voteview counts 85 nays); Watson's restrictions, an end to Saturday delivery "prepared for"; Green
+(William J. Green III) tagged by his own key, not his father's; the Crossley poll, Nixon carrying only 126 of the eight
+States' electoral votes; Hruska on Clark's "hesitance" in enforcing Congress's curbs on the Court's crime decisions,
+not "the crime act"; Tydings's date (July 28 is his statement; the request to the executive committee undated);
+Humphrey not driven away "from campaigning in Negro communities"; the Massachusetts and Oregon figures given as
+Humphrey's; Humphrey "a co-founder" of the ADA, not its founder; Brewer against Hoff's amendment, his words quoted;
+the day of Rampton's proposal a Check; Alexander's share 34.5 from the counts (CQ prints 35.5), a Check; the Alliance
+for Labor Action, Reuther's press conference in Chicago (not both men's), farm workers "in particular"; Bolsa Island,
+cancelled after Edison withdrew, the agencies' joint announcement; McClellan's amendment "as Bayh modified it".
+Nothing dropped.
 
 ## Cites added to entries already in the calendar
 
@@ -66,12 +76,11 @@ reader's check against the images before the owner relies on a figure from them;
 | cal.1968-07-21.states-and-cities-us | — | — | Check added: CQ names Brewer, Reagan, Kirk, Godwin, Maddox and Moore against Romney's declaration, Reagan and Kirk then "present but not voting" (2072). |
 | cal.1968-07-31.opinion | — | — | Check added: CQ dates the Gallup poll's release July 29 (2066, 2075); its Scoreboard heads the same figures "July 23" (2074). |
 
-### Held out of the patch, for the orchestrator to decide
+### Held out of the patch at first, now in it
 
 `claims.resolve` (tools/bib/claims.py) pairs every `src` row with the first item of its card in the note. An entry that
 already cites another issue of the *Weekly Report* (July 26 or Aug. 9) therefore fails the page check ("src row's
-pages ... not among the note's") when a second issue is cited, by `cite` or by an edit. These ops are correct by the
-brief but held out; each can go in once `resolve` matches a row to the item whose pages hold its pin (or by hand):
+pages ... not among the note's") when a second issue is cited, by `cite` or by an edit. With `resolve` fixed (the orchestrator, Nov. 1, 2026), all but the last are in the patch; the last, on Chester's pending entry, stays out until that entry lands:
 
 | Entry | Op | Units |
 |---|---|---|
@@ -109,6 +118,8 @@ Reagan's testimony of July 31 is therefore left out of this patch's entry for th
 - The platform hearings: July 29–Aug. 1 (2066); the calendar's entry (from the Aug. 9 issue), to Aug. 2.
 - The poultry bill: H.R. 16363 (CQ); Voteview's record HR16313.
 - The higher education bill's Scherle amendment (above); the Cleveland dead (above).
+- The Stennis amendment, July 23: "Roll-call vote, 18-8" in the story's amendments (2024, the image read); 78-8 in the story (2024), the chart (2083) and Voteview (RS0900512).
+- Arkansas's 1st District: Alexander 24,186 printed "35.5%"; the eight counts, 70,156, give 34.5 (2075).
 
 ## New entries
 
@@ -304,8 +315,6 @@ Already in the calendar and not cited here (the issue only lists them): Johnson'
 ## Leads
 
 National
-- `claims.resolve` takes the first item of a card in a note: a second issue of a periodical (or a second edition read)
-  cannot carry its own `src` row (tools/bib/claims.py, `resolve`, `by.setdefault`). Fourteen ops held out above.
 - Name entries wanted: John M. Bailey, chairman of the Democratic National Committee; Fletcher Thompson (R Ga.), 90th
   Congress (no roster key found under "Thompson, Fletcher"); Joseph D. Duffey; Harold Willens; Robert F. Goheen;
   Francis C. Turner, Lowell K. Bridwell (the Executive roster: Federal Highway Administration); Paul J. Tierney (ICC);
@@ -313,8 +322,6 @@ National
   `mcdonald-david-l` is the admiral). Each is in an entry of this patch without a tag.
 - Voteview's House numbering for the 90th Congress, second session, at the end of July: CQ's vote number + 245; the
   Senate's + 315 (checked on 38 roll calls). The CR numbers CQ prints for the House (287–294) do not map the same way.
-- Every page but those listed under "Checked against the page images" wants a reader's check of its figures against
-  the image (the OCR read, not the image, stands behind them).
 - The signings of July 26–27 (Interior appropriation, PL 90-425; S. 1752, PL 90-427; the veterans' bills): entries
   wait for their Statutes at Large pages.
 
