@@ -46,7 +46,8 @@ STYLE
     100 - pct) and R the rest, which overstates the trailing party by the minor parties' share (an approximation, said
     so in the files). A file's `not_final` States, a cell under `party_doubt` or `doubt`, and a figure the chart printed
     and CQ corrected (`corrected`, which stands) are handled as they say: the first two left out, the last used; a
-    district CQ's correction `withdrawn` ("figures are unavailable") is left out. An unmarked figure in a redrawn State
+    district CQ's correction `withdrawn` ("figures are unavailable") is left out, and so is a cell the reader found
+    printed `unmarked` with no earlier run, neither recomputed nor plainly on old borders. An unmarked figure in a redrawn State
     is a district CQ says kept its borders ("the percentages ... still applicable"): used. A leader's percent of 50 or
     less (a plurality: Colorado's 4th, 1962) is left out: the rest cannot be split between the parties.
 """
@@ -115,7 +116,7 @@ def retabulated():
             cor = e.get("corrected") or {}
             fixed = {int(k): v for k, v in (cor.get("d") if isinstance(cor.get("d"), dict) else cor).items()
                      if str(k).isdigit()}
-            if int(dist) in set(e.get("withdrawn") or []):
+            if int(dist) in set(e.get("withdrawn") or []) | set(e.get("unmarked") or []):
                 continue
             for y, cell in years.items():
                 if f"{dist} {y}" in doubt:
@@ -187,15 +188,18 @@ def main():
                 if b["D"] > 0 and b["R"] > 0:
                     lags["census"] = lags["clerk"] = (b["D"] / (b["D"] + b["R"]), f"elections/{y - 2}.yaml", b["win"])
             else:
-                for (L, yr), cells in sorted(retab.items(), key=lambda kv: (kv[0][0] != c, abs(kv[0][0] - c))):
+                found = []                           # the Census's before CQ's (STYLE 8), then the lines nearest
+                for (L, yr), cells in retab.items():
                     if yr != y - 2 or (st, d) not in cells:
                         continue
                     if L != c and not (shape(c, st, d) and shape(c, st, d) == shape(L, st, d)):
                         continue
                     D, R, s_ = cells[(st, d)]
+                    found.append(((s_.startswith("cq-"), L != c, abs(L - c)), D, R, s_))
+                if found:
+                    _, D, R, s_ = min(found)
                     if D > 0 and R > 0:
                         lags["census"] = (D / (D + R), f"readings: {s_}", "D" if D > R else "R")
-                    break
             jv = (jlags.get(y) or {}).get((st, d), (None, None))[0]
             if jv is not None and 0 < jv < 100:
                 lags["jacobson"] = (jv / 100, "jacobson", "D" if jv > 50 else "R")

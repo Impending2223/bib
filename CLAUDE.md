@@ -1312,8 +1312,10 @@ tools/bib/elections.py              renders the blocks and checks the data (STYL
   owner's copies, read Oct. 31, 2026), 1968 and 1972 for those States' 102: make_pvi.py STYLE 13; 1964 on the 93d's lines is still
   to find: the memo, notes/extensions/memos/pvi-districts.md). The same volumes'
   vote for Representative, retabulated onto each Congress's lines, is in `elections/readings/districts-house/` (1963,
-  1965, 1966s, 1971, 1973, 1974 volumes; and CQ's recomputed shares where the Census gives none, `cq-1968.yaml`,
-  Missouri's 1966 vote on the 1968 lines, `shares: true`), the baseline's lags. Shown (the owner, Oct. 28, 2026:
+  1965, 1966s, 1971, 1973, 1974 volumes; and CQ's recomputed shares where the Census gives none: `cq-1962`, `cq-1964`,
+  `cq-1966` (CQ's "Winning Representatives' Vote Percentages" charts, the leading party's percent of the total, read
+  by eye, the party by the type weight) and `cq-1968` (Missouri's 1966 vote on the 1968 lines); make_baseline.py
+  STYLE 8), the baseline's lags. Shown (the owner, Oct. 28, 2026:
   "Show both. Be sure to cite and attribute"), in each election's block and the calendar's `election:` entries: the
   index under each race's seat (the district's; a Senate race and the President's table, the State's), a map view
   "PVI", and, folded under the race tables, the States' and the districts' indexes with their inputs and the vote by
