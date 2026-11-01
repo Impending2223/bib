@@ -332,7 +332,8 @@ def race_record(y, st, r, lines, key, dg, recap):
             if (y, key) in getattr(read, 'CLERK', {}):
                 rec['how'] = "the State's canvass"
                 rec['clerk'] = read.CLERK[(y, key)]
-        wiki_names(rec['cands'], r['candidates'])
+        if key not in getattr(read, 'PRINTED_NAMES', {}).get(y, set()):   # `names: printed`: the Clerk's names stand
+            wiki_names(rec['cands'], r['candidates'])
     else:
         if any(c.get('clerk') is None for c in r['candidates']) or not r['candidates']:
             # not in the Clerk's November volume (an earlier special election), or a name the OCR lost
