@@ -45,7 +45,10 @@ STYLE
     the leading party's percent of the TOTAL vote (`fields: [party, pct]`, `of_total: true`), taken as D = pct (or
     100 - pct) and R the rest, which overstates the trailing party by the minor parties' share (an approximation, said
     so in the files). A file's `not_final` States, a cell under `party_doubt` or `doubt`, and a figure the chart printed
-    and CQ corrected (`corrected`, which stands) are handled as they say: the first two left out, the last used.
+    and CQ corrected (`corrected`, which stands) are handled as they say: the first two left out, the last used; a
+    district CQ's correction `withdrawn` ("figures are unavailable") is left out. An unmarked figure in a redrawn State
+    is a district CQ says kept its borders ("the percentages ... still applicable"): used. A leader's percent of 50 or
+    less (a plurality: Colorado's 4th, 1962) is left out: the rest cannot be split between the parties.
 """
 import json
 import os
@@ -109,18 +112,23 @@ def retabulated():
                 continue
             e = (d.get("states") or {}).get(st) or {}
             doubt = set(e.get("party_doubt") or []) | set(e.get("doubt") or [])
-            fixed = {int(k): v for k, v in (e.get("corrected") or {}).items()}
+            cor = e.get("corrected") or {}
+            fixed = {int(k): v for k, v in (cor.get("d") if isinstance(cor.get("d"), dict) else cor).items()
+                     if str(k).isdigit()}
+            if int(dist) in set(e.get("withdrawn") or []):
+                continue
             for y, cell in years.items():
                 if f"{dist} {y}" in doubt:
                     continue
                 if "party" in cell:                  # CQ's charts: the leading party's percent of the total (STYLE 8)
                     party, pct = fixed.get(int(dist), [cell["party"], cell["pct"]])
-                    if party not in ("D", "R") or not isinstance(pct, (int, float)):
-                        continue
+                    if party not in ("D", "R") or not isinstance(pct, (int, float)) or pct <= 50:
+                        continue                     # a plurality: the leader's share of the total gives no split
                     cell = {"D": pct if party == "D" else 100 - pct, "R": 100 - pct if party == "D" else pct}
                 D, R = cell.get("D"), cell.get("R")
                 if isinstance(D, (int, float)) and isinstance(R, (int, float)):
-                    out.setdefault((d["lines"], int(y)), {})[(st, int(dist))] = (D, R, d.get("source") or f[:-5])
+                    out.setdefault((d["lines"], int(y)), {}).setdefault(       # the Census's first: cdh-* sorts before cq-*
+                        (st, int(dist)), (D, R, d.get("source") or f[:-5]))
     return out
 
 
