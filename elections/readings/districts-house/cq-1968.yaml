@@ -1,0 +1,36 @@
+# Congressional Quarterly, "Redistricting" (Missouri), *CQ Weekly Report*, vol. 26, no. 30, pt. 2 (week ending July 26,
+# 1968), pp. 2001-2004: the table on p. 2002, "NEW DISTRICTS", column "1966 Congress Vote" (Dem., Rep.), its note: "Based
+# on the actual vote received by Democratic and Republican House candidates within the areas of the new districts"; the
+# 4th and 5th marked "#Estimated." The districts are those of the act Gov. Hearnes signed Aug. 22, 1967 (CQ, p. 2002),
+# used for the 1968 election (the 91st Congress's lines). The copy read: the owner's scan (Oct. 31, 2026), PDF page 70
+# of the issue's second part, read by eye off the page image at 150 dpi (Nov. 1, 2026); each row's two shares add to
+# 100.0. `pages` gives the PDF page, as the Census files do; `page` the printed page.
+#
+# Shares, not votes: CQ prints the two parties' percentages of the two-party vote and no counts. So `fields: [D, R]`,
+# each a percent; tools/elections/make_baseline.py takes D / (D + R) as it does for the Census's counts, and
+# tools/elections/cd_readings.py has no State column or total to hold them to. `estimated`: the cells CQ marks so.
+# Used for the 1968 lag (the 1966 House vote on the 1968 lines), the series' `census` variant (STYLE 2 in
+# make_baseline.py), Missouri's ten seats.
+source: cq-1968
+lines: 91
+recomputed: true
+shares: true
+fields: [D, R]
+years: [1966]
+states:
+  MO:
+    page: 2002
+    pages:
+      70: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    estimated: ["4 1966", "5 1966"]
+    d:
+      1: {1966: [73.2, 26.8]}
+      2: {1966: [39.0, 61.0]}
+      3: {1966: [61.4, 38.6]}
+      4: {1966: [58.0, 42.0]}
+      5: {1966: [62.0, 38.0]}
+      6: {1966: [56.9, 43.1]}
+      7: {1966: [38.2, 61.8]}
+      8: {1966: [50.5, 49.5]}
+      9: {1966: [55.9, 44.1]}
+      10: {1966: [61.2, 38.8]}
