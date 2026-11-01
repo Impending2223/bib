@@ -98,12 +98,60 @@ calendar.
 | 1386 | May 10, 1967 | The court voids the 1961 districts | lead: check the calendar |
 | 1386-94 | | The district outlooks for June 18 | out of the brief: forecast; the primary's entries exist |
 
-Not read in this run (stopped at the time allowed; to a second run, which lists their events here): 1384 (the Poor
-People's Campaign's lobbying), 1395-98 (Edward Kennedy's record), 1399-1402 (mass transit), 1403-04 (Around the
-Capitol, the Political Briefs), 1405-06 (the trade message: cite to cal.1968-05-28.trade), 1407-16 (Committee Roundup:
-the food programs, the hearings on trade, NASA, loan sharks, strip mining), 1417-38 (Floor Action: the surcharge
-conference, food stamps, the conservation fund, auto insurance, interstate taxation, the NSF, the State-Justice-Commerce
-funds, the Senate's housing bill of May 28, 67-4, the crime bill), 1439-43 (the vote charts).
+## Second run (patch `inbox/2026-11-01-cq-1968-06-07-b.yaml`)
+
+Pages read: 1384 and 1395-1443, every page in the OCR; checked against the image: 1384, 1395, 1396, 1401-04,
+1408-21, 1425, 1426, 1428, 1434, 1440. Pages read from the OCR only, nothing entered from them but as a lead below:
+1397-1400 (the rest of Edward Kennedy's record, the transit fact sheet), 1405-06 (the trade message's text; the
+message's own entry cites 1415, checked), 1407 (food programs' history), 1422-24 (H.R. 2158's provisions, the NSF,
+credit unions), 1427, 1429-33, 1435-39, 1441-43.
+
+65 new entries, claimed in the ledger under `2026-11-01-cq-1968-06-07-b`; cites to 8 existing entries, 5 Checks.
+
+| Entry | The entry | CQ (page) | Ruling |
+|---|---|---|---|
+| cal.1962-06-08.elections-1962 | the convention June 8 | "the convention nomination on June 9" (1396) | Pinned B-C; Check on the day |
+| cal.1964-06-19.congress | West Springfield | "a political meeting in Springfield"; Mrs. Bayh injured (1396) | Pinned B-D; Check |
+| cal.1968-05-28.cities-and-housing | the votes in a May 28 entry | Tower's new-communities amendment, 27-38, May 27 (1440) | Pinned B; Check on the day |
+| cal.1968-05-21.poverty | Freeman answers (Check) | a letter to Perkins, May 27 (1410) | Check; the letter an entry of its own |
+| cal.1968-05-23.king-poor-peoples-3 (new) | Freeman's $60 million of foods, May 23 (1384) | the same five foods, $60 million, Apr. 23 (1410) | Entered May 23 with a Check |
+| cal.1968-05-21.space (new) | the House's authorization | $4,031,243,000 in CQ's text, $4,031,423,000 in its table (1411) | noted in the entry |
+| cal.1968-05-28.congress (new) | the Justice Department | $448,384,000 recommended (1426), $488,384,000 in the passed bill's table (1428) | not entered; a lead |
+| cal.1968-05-28.trade, cal.1968-05-27.elections-1968, cal.1968-05-29.economy-surcharge, cal.1968-05-27.desegregation-schools, cal.1968-06-06.crime-and-hijacking-safe-streets, cal.1962-09-18.elections-1962 | | 1415, 1402, 1417, 1404, 1434, 1396 | Hold |
+
+The Public Papers read for two new entries: 1968-69 Pub. Papers 666 (Texas Christian University, the vote at 18) and
+670 (the news conference at the LBJ Ranch: the $6 billion, Westmoreland's "point of desperation", the message on the
+vote at 18).
+
+### Passed over, second run
+
+Made from the pages above: each dated event the pages treat, not entered and not already in the calendar.
+
+| Page | Date | Event | Why |
+|---|---|---|---|
+| 1395-97 | 1959-67 | Edward Kennedy's record: Jack Kennedy's words of 1959; Farley, 1963; Morehead State, 1967; his statements on Vietnam (1966-68), China (1966), the poll tax (1965), busing (1964), Mississippi (1966); Morrissey (1965) | lead: undated or dated only to a year; the poll tax (cal.1965-05-11.voting-rights) and Morrissey (cal.1965-10-21.confirmations) to be cited when 1397 is checked against its image |
+| 1396 | Nov. 6, 1962; Nov. 3, 1964 | Kennedy's elections (55 percent; over 74) | in the calendar (the elections' entries); not cited (no count) |
+| 1398 | 1963-68 | CQ's key votes with Kennedy's position | lead: a roll-call table |
+| 1399-1401 | 1961-67 | transit grants by city, to Dec. 31, 1967 | lead: figures without a day |
+| 1401 | Feb. 1968; Aug. 1967 | Braman in *Nation's Cities*; Pignataro at the New York Academy of Sciences | lead: month-dated, not read on the day |
+| 1401 | Jan. 29, 1968 | the budget's $190 million for transit | in the calendar (the budget message); not cited |
+| 1402 | June | the New Systems report scheduled | out of the brief: forecast |
+| 1405-06 | May 28 | the trade message's text | in the calendar (cal.1968-05-28.trade) |
+| 1407-09 | 1935-1968 | the food programs' history | in the calendar where entered; background |
+| 1411 | Apr. 19 | Smathers announces the loan-sharking hearings | lead |
+| 1413 | July 3, 1967; Mar. 8, 11, 1968; Jan. 12, 1967 | the surface mining report sent; the conservation message; S. 3132, S. 3126, S. 217 introduced | lead: check the calendar |
+| 1418 | May 8 | Perkins introduces H.R. 17144 | lead |
+| 1418 | | Sullivan's H.R. 15900 and 15901; Mondale's S. 3507 | lead: undated |
+| 1419 | May 21 | Willis's amendment to the Interior appropriations refused | lead |
+| 1420 | May 6, 8 | the House clears S. 2531; the Senate clears S.J. Res. 129 | lead: separate entries |
+| 1423-24 | May 24 | the Senate passes H.R. 5404, the National Science Foundation | lead: no thread fits (propose one) |
+| 1424-25 | May 27 | the House passes H.R. 14907, credit unions | lead: no thread fits |
+| 1426 | May 24 | Appropriations reports H.R. 17522 | in the note of cal.1968-05-28.congress |
+| 1428 | May 28 | the amendments refused on H.R. 17522 (Hall, Gross, Cederberg, Joelson) | lead: teller and standing votes |
+| 1429-32 | May 24 | Sparkman opens debate on S. 3497 | lead |
+| 1434 | June 6 | Ford's and Poff's words in debate | in the parenthetical of cal.1968-06-06.crime-and-hijacking-safe-streets (Celler); Ford and Poff a lead |
+| 1435-39 | May 13-23 | the Senate's amendments to S. 917, accepted and refused | in the calendar where entered; the rest a lead (roll calls) |
+| 1439-43 | May 27-June 5 | CQ's Senate votes 125-136, House votes 85-90 | lead: roll-call tables (as the orchestrator directed) |
 
 ## Leads
 
@@ -124,3 +172,11 @@ States and cities
 - Maine: Merrill's change of party, Dec. 1967 (1380).
 - California: the State's *Statement of Vote* for the House primaries of June 4 (CQ prints partial returns).
 - New Jersey, Mississippi, Montana, South Dakota, Alabama, North Carolina: the canvasses for the June 1 and 4 primaries.
+- (Second run) CQ's next Weekly Report: the House's votes of June 6 on the crime bill; the news conference's text.
+- The Puyallup case, the Supreme Court's ruling on net fishing, argued against at the Court May 29 (1384): the case
+  and its day.
+- The roll calls on Voteview for H.R. 17522 (May 28, 347-28; 223-154) and Javits's amendment to H.R. 16913 (May 29,
+  31-30).
+- Justice's appropriation, H.R. 17522: $448,384,000 (1426) or $488,384,000 (1428); CQ's own figures differ.
+- A thread for science policy (the NSF bill, May 24) and for credit (H.R. 14907): the owner to rule.
+- Edward Kennedy's key votes, 1963-68 (1398): CQ's selection, each a roll call the calendar may hold.
