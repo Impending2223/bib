@@ -39,6 +39,13 @@ STYLE
     of 50 within half a point); his 1966, 1968 and 1972 lags for the redrawn seats are not the retabulations the
     series holds (CDD-92's of 1964 and 1966, the 1973 volume's of 1970: within half a point in 32 of 83, 39 of 123 and
     88 of 306), most of them his predecessor seat's share (notes/jacobson-compare.md, "lags another seat's").
+ 8. CQ's recomputations (Nov. 1, 2026): where the Census gives none, CQ's (elections/readings/districts-house/cq-*.yaml),
+    in the `census` variant with the Census's. Two forms: Missouri's 1968 table prints both parties' shares of the
+    two-party vote (`fields: [D, R]`, taken as they stand); the "Winning Representatives' Vote Percentages" charts print
+    the leading party's percent of the TOTAL vote (`fields: [party, pct]`, `of_total: true`), taken as D = pct (or
+    100 - pct) and R the rest, which overstates the trailing party by the minor parties' share (an approximation, said
+    so in the files). A file's `not_final` States, a cell under `party_doubt` or `doubt`, and a figure the chart printed
+    and CQ corrected (`corrected`, which stands) are handled as they say: the first two left out, the last used.
 """
 import json
 import os
@@ -96,8 +103,21 @@ def retabulated():
         if not d.get("recomputed") and d.get("lines") is None:
             continue
         figs = cd_readings.figures(d)
+        held = set(d.get("not_final") or {})
         for (st, dist), years in figs.items():
+            if st in held:
+                continue
+            e = (d.get("states") or {}).get(st) or {}
+            doubt = set(e.get("party_doubt") or []) | set(e.get("doubt") or [])
+            fixed = {int(k): v for k, v in (e.get("corrected") or {}).items()}
             for y, cell in years.items():
+                if f"{dist} {y}" in doubt:
+                    continue
+                if "party" in cell:                  # CQ's charts: the leading party's percent of the total (STYLE 8)
+                    party, pct = fixed.get(int(dist), [cell["party"], cell["pct"]])
+                    if party not in ("D", "R") or not isinstance(pct, (int, float)):
+                        continue
+                    cell = {"D": pct if party == "D" else 100 - pct, "R": 100 - pct if party == "D" else pct}
                 D, R = cell.get("D"), cell.get("R")
                 if isinstance(D, (int, float)) and isinstance(R, (int, float)):
                     out.setdefault((d["lines"], int(y)), {})[(st, int(dist))] = (D, R, d.get("source") or f[:-5])
