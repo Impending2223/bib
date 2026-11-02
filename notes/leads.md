@@ -353,6 +353,40 @@ reports them (`notes/calendar-audit.md`).
   Urban Development Corporation); Va. Acts 1966, c. 151 (the sales tax); N.J. L. 1966, c. 30; Fla. Laws 1968, Extraordinary Session (the teachers' strike, the constitution's joint resolutions);
   Tex., *House Journal*, 60th Leg., 1st C.S. (1968); Md., *Journal of Proceedings*, Jan. 7, 1969 (Mandel's election).
 
+### From the CQ Weekly Report, 1968, and the Walker Report (read Oct. 31-Nov. 1, 2026; notes/book-checks/)
+
+CQ Weekly Report, 1968-06-07:
+- New York: the Republican State committee, Mar. 27, and the Democratic, Mar. 30, 1968 (1385); the court's acceptance
+  of the districts, Mar. 20 (1386); the filing deadline, May 14.
+- Florida: the revolt against Kirk, Mar. 28 (1383; CQ Weekly Report p. 741 of 1968).
+- Maine: Merrill's change of party, Dec. 1967 (1380).
+- California: the State's *Statement of Vote* for the House primaries of June 4 (CQ prints partial returns).
+- New Jersey, Mississippi, Montana, South Dakota, Alabama, North Carolina: the canvasses for the June 1 and 4 primaries.
+- (Second run) CQ's next Weekly Report: the House's votes of June 6 on the crime bill; the news conference's text.
+- The Puyallup case, the Supreme Court's ruling on net fishing, argued against at the Court May 29 (1384): the case
+  and its day.
+- The roll calls on Voteview for H.R. 17522 (May 28, 347-28; 223-154) and Javits's amendment to H.R. 16913 (May 29,
+  31-30).
+- Justice's appropriation, H.R. 17522: $448,384,000 (1426) or $488,384,000 (1428); CQ's own figures differ.
+- A thread for science policy (the NSF bill, May 24) and for credit (H.R. 14907): the owner to rule.
+- Edward Kennedy's key votes, 1963-68 (1398): CQ's selection, each a roll call the calendar may hold.
+CQ Weekly Report, 1968-07-26:
+- Iowa, Apr. 17: CQ calls the body that chose the delegation the State committee, then the State convention (p. 1980).
+CQ Weekly Report, 1968-08-02:
+- Arkansas's primary of July 30: the 1st District's figures and Rockefeller's are CQ's unofficial returns; the State's
+  canvass (the *Historical Report of the Secretary of State*, as cal.1968-07-30.governors-ar cites it) for the official.
+- Louisiana's primary of Aug. 17 (outlook, 2072–73): the candidates by district are there for the day's entry.
+CQ Weekly Report, 1968-08-09:
+- The primaries of Aug. 1 (Tennessee) and Aug. 6 (Michigan, Idaho, Kansas, Missouri): CQ's figures are unofficial;
+  the States' canvasses (`sources/states.yaml`; Kansas's *Election Statistics, 1968*, KGI Online Library) to replace
+  them. CQ's Kansas governor's figures (2109) are far from the canvass the calendar already cites.
+- Missouri's 1st District: CQ calls Clay's primary win the assurance of the State's first Negro Representative.
+CQ Weekly Report, 1968-08-16:
+- New Mexico's districting act, Feb. 13, 1968 (CQ, Aug. 16, 1968, 2217): the session laws; thread Legislatures.
+- Chicago: Daley's committee on the April riots, its report's day (CQ, Aug. 16, 1968, 2216); the taxi and bus
+  strikes threatened for convention week (2183).
+- Arkansas: the State's canvass for the 1st District's runoff of Aug. 13 (CQ's count partial).
+
 ## National
 
 ### The spot-check of Oct. 28, 2026 (notes/spot-check-2026-10-28.md)
@@ -1147,6 +1181,149 @@ Searched in the Daily Digest (daybook/committees), the bound Record's days, the 
 - The Mudd interview, CBS, Aug. 29 or 31, 1968 (370; the note: Aug. 31, Wechsler files): Humphrey on Daley; the day.
 - Nixon to Humphrey, Oct. 17, 1966 (299), and his call after the grocers' speech, Nov. 1967 (313, Humphrey's memorandum of Nov. 21): whether either is more than private sympathy.
 - Humphrey's letter to William White, July 1964: Goldwater "and his crew have kidnapped the Republican party" (257): the day.
+
+### From the CQ Weekly Report, 1968, and the Walker Report (read Oct. 31-Nov. 1, 2026; notes/book-checks/)
+
+CQ Weekly Report, 1968-03-01:
+- cal.1968-02-25.opinion: Gallup's Johnson–Rockefeller heat of the same release (46–41–13, CQ 425); read Gallup, III, 2106–07, and add it.
+- cal.1968-02-26.opinion: Harris's second three-way race of Feb. 26 (44–36–12–8): which Republican; read the Harris release (*Washington Post*).
+- cal.1968-02-21.economy: the recommittal, 188–206 (CQ) or 189–205 (Voteview); the Record's roll call.
+- The card `w.cq-weekly-report`: the first volume's year, for a structured card.
+- The rows marked "lead" in Passed over above, each from the page given.
+- cal.1968-02-28.elections-1968-4: Romney at Boston on Feb. 28 (CQ 419) beside his withdrawal in Washington the same day (CQ 418): the day of the Boston remarks.
+CQ Weekly Report, 1968-06-07:
+- The Army's civil-disturbance directorate on alert, June 5 (CQ June 7, 1968, 1367): an entry, Defense or Civil
+  disorders.
+- Sirhan's arraignment, June 5, 7 a.m. (1367): an entry, Assassination; the court record.
+- The violence commission's members (1369): into cal.1968-06-10.civil-disorders; the Public Papers of June 6-10.
+- The Senate's 75-0 on H.R. 16489, June 6 (1368): its Voteview roll call, for cal.1968-06-06.assassination.
+- CQ's next Weekly Report (June 14, 1968): the House vote on the crime bill (promised at 1433) and the Northern
+  California House primaries (promised at 1373).
+- The pages not read in this run (above).
+CQ Weekly Report, 1968-06-21:
+- cal.1968-06-18.elections-1968-ny, -ny-2, -ny-3: CQ's figures are unofficial and incomplete; New York's canvass of the June 18 primary (`sources/states.yaml`, NY) for the delegates, the Senate and the House races.
+- cal.1968-06-17.elections-1968-me: Maine's returns of the June 17 primary.
+- cal.1968-04-15.elections-1968: McCarthy at Phoenix, "April 15" as CQ prints it (p. 1543), beside his Phoenix remarks of June 15: the day.
+- cal.1968-06-18.elections-1968-ny-3: CQ gives the 28th District's Republican, Hamilton Fish, as "(R 1920-45)": which Fish, and the Names tag.
+- cal.1968-06.elections-1968-4: CQ prints "George A. Hinman"; Part III has George L.
+- cal.1968-06-20.economy-surcharge: Gross's resolution, 257–162 (CQ vote 111): the roll call on Voteview, to link.
+- cal.1968-06-13.elections-1968: Callaway's words of June 1 as Rockefeller quotes them; the July reader's June 24 entry has Callaway's answer.
+- cal.1968-06-16.elections-1968-3: McCarthy's gun and third-party remarks of June 16: one occasion or two.
+- The organization entries (June): the persons CQ names without name entries (Blair Clark, John M. Bailey, Maguire, Birkhead, Douglass, Bill Jones, Trammell, Farley and others): K–J Cong. III.K or 1968 III, for the owner.
+- R13: Carl T. Rowan (a name entry, `rowan-carl-t`; his column entered for carrying Humphrey's words): whether he is a named columnist.
+- The earlier *Weekly Reports* CQ points to: pp. 344, 714 (Campaign Consultants), 1060, 1222 (ADA's endorsement), 1315 (Shafer's hearings), 1337 (the convention), 1380, 1385, 1486 (Trammell); 1966, p. 1078 (Maguire).
+- The year-only rows of Passed over above (Haldeman 1960, 1962; Hood, Mardian 1964; McManus, Robinson, Douglass 1966; the Conference of Concerned Democrats' founding).
+- The pages not read in this run (1508–32, 1549–69): a second pass.
+CQ Weekly Report, 1968-07-26:
+- Part 1 (pp. 1856–1937) to be read in full: the State-by-State outlook and the Senators' biographies date many
+  events of 1968 not taken here (rows above).
+- The surcharge retrospective (pp. 1969–74): cites to the thread Economy: Surcharge, and the steps it may lack (row).
+- The Commission on Executive, Legislative and Judicial Salaries, named June 3, 1968 (p. 1945).
+- Columnists: none named.
+- The Missouri act of Aug. 22, 1967 (Laws of Missouri, Missouri Digital Heritage) and the Supreme Court's order of
+  Mar. 4, 1968 (U.S. Reports), for the entries' primary records.
+CQ Weekly Report, 1968-08-02:
+- Name entries wanted: John M. Bailey, chairman of the Democratic National Committee; Fletcher Thompson (R Ga.), 90th
+  Congress (no roster key found under "Thompson, Fletcher"); Joseph D. Duffey; Harold Willens; Robert F. Goheen;
+  Francis C. Turner, Lowell K. Bridwell (the Executive roster: Federal Highway Administration); Paul J. Tierney (ICC);
+  Jerome J. Keating (letter carriers); Frank Fitzsimmons (Teamsters); David J. McDonald (Steelworkers; no key fits him:
+  `mcdonald-david-l` is the admiral). Each is in an entry of this patch without a tag.
+- Voteview's House numbering for the 90th Congress, second session, at the end of July: CQ's vote number + 245; the
+  Senate's + 315 (checked on 38 roll calls). The CR numbers CQ prints for the House (287–294) do not map the same way.
+- The signings of July 26–27 (Interior appropriation, PL 90-425; S. 1752, PL 90-427; the veterans' bills): entries
+  wait for their Statutes at Large pages.
+CQ Weekly Report, 1968-08-09:
+- The Platform Committee's executive session of Aug. 2 (2097): the law-and-order and injustice language, to enter.
+- The President's news conference of July 31: its Vietnam passage (above).
+- The roll calls of July 31 on the foreign aid bill, Voteview, for the entry's links.
+- Public Law 90-449 (H.R. 15387, Aug. 2): its Statutes at Large cite (tools/executive/resolve_statutes.py).
+- The Virginia elector case: the three-judge court's opinion, July 17 (F. Supp.), and its appeal.
+- The federal court's dismissal of the Florida and Louisiana suits, Aug. 7: the case and the judge (CQ names neither).
+- The Proceedings (cited in cal.1968-08-07.elections-1968) on Reagan's motion: put to a vote or not (CQ says not).
+- Columnists: none named.
+- Persons without name entries named in the new entries: Robert T. Hood Jr. (N.C.), Orvas Beerman (Ind.), Barrington
+  D. Parker, Joy Rohm, William Murfin, Charles deGravelles, Von D. Mizell, Leslie Slote, Robert R. Douglass, Burns W.
+  Roper, Wainwright Dawson Jr., Cass S. Hough, John Millett, J. Robert Stassen,
+  Buena Chaney, Kenneth T. Lyons, John S. Andrews, Jack McDonald of the Young Republicans (not tagged: CQ names a
+  Michigan Representative Jack McDonald too, 2109; whether one man, not settled), Samuel C. Jackson (tagged; check the
+  tag is the same man). For Part III K–J Cong. III.K, where the owner wants them.
+CQ Weekly Report, 1968-08-16:
+- Part I of no. 33 (Aug. 16, 1968): not in the scan; what it holds (a special report?) to find.
+- The House and Senate members' votes on the Aug. 1 roll calls (CQ, Aug. 16, 1968, 2225–27): Voteview for each.
+- The earlier steps of the bills above (State Technical Services, S. 752, grain standards, S. 1752, S. 3640, H.R.
+  3136, H.R. 17144, H.R. 13781, H.R. 18299): the Record and CQ's earlier issues (CQ, Aug. 16, 1968, 2209–14).
+- S. 355 in 1967: referred Mar. 9, its hearing Apr. 11, the House Republican Policy Committee's statement of May 10
+  (CQ, Aug. 16, 1968, 2201): the 1967 entries.
+- The Statutes at Large cites of P.L. 90-422, 90-427, 90-433, 90-447, 90-472 (sources/statute-links.json).
+- The Public Papers for July 31 (Export Expansion Advisory Committee), Aug. 12 (the veto of H.R. 10915, H.R. 10864,
+  Bikini) and Dec. 12, 1967 (AFL-CIO): to add as each entry's primary record.
+- The Treasury's compilation of fiscal 1967 grants-in-aid (CQ, Aug. 16, 1968, 2193–99): its release.
+- Nixon's strategy for the fall (CQ, Aug. 16, 1968, 2181): a dated source.
+CQ Weekly Report, 1968-08-30:
+- The Democratic convention's roll calls by State, 1968: the first ballot (CQ, Aug. 30, 1968, 2288: 2,622 votes,
+  Humphrey 1,760¼, abstaining 14) and the Vietnam plank (2287: yeas 1,041¼, nays 1,567¾), for the `rollcall:1968-D-*`
+  tables until the *Official Proceedings* are found. Also the credentials roll calls (Texas, Georgia, Alabama), the
+  Unruh motion, the 1972 unit rule and the National Committee proposal: totals only in CQ (2286–87, 2293).
+- The Credentials Committee's decisions, Aug. 19–23, 1968: their days (CQ gives the hearings' days only). Where:
+  Chester, *American Melodrama*; the committee's report in the Proceedings.
+- The Platform Committee's votes on gun control and welfare (CQ, 2285): their day and count.
+- The favorite sons' withdrawals before the ballot of Aug. 28 (Connally, Ellington, McKeithen, Smathers, Moore) and
+  Daley's endorsement of Humphrey: their days (CQ, 2342, undated).
+- The Sunday programs of Aug. 25, 1968 (McCarthy, McGovern, Muskie and Harold Hughes, Richard Hughes, Humphrey at
+  4:05 p.m.): what was said; the transcripts. CQ gives a second Humphrey *Meet the Press* the same day.
+- The court injunction against Chicago's bus strike, Aug. 25–26, 1968: the court and the day.
+- Albert's address as permanent chairman, Aug. 27, 1968: its text (Proceedings).
+- Utah's State conventions, July 12–13 and July 26–27, 1968, and Rhode Island's Democratic committee, June 30, 1968:
+  the votes (CQ, 2311–12, gives none).
+- The lobbyist registrations of Apr. 1–June 30, 1968 (CQ, 2325–32, 101): a pass of their own, registrant by
+  registrant, if the owner wants the lobbies' filings in the calendar.
+- The Harris poll released Aug. 19, 1968 (bombing halt, coalition): the field dates.
+- *Chicago Tribune*, first edition of Aug. 26 (dated Aug. 27), 1968: the report of Johnson's order on the plank;
+  Boggs's denial, its day.
+- The floor steps of July 24–30, 1968, on the public works, maritime, Virgin Islands and highway bills (CQ, Aug. 30,
+  2315–22): for the reader of the Aug. 2 issue, if not entered there; and the Virgin Islands bill's House committee
+  report, June 5, and passage, June 17 (2319–20).
+- New Mexico's primary, Aug. 27, 1968: the counts (CQ printed none; the State's canvass).
+- Oklahoma's primary, Aug. 27, 1968: the State Election Board's figures against CQ's "almost complete" returns.
+Rights in Conflict (Walker Report):
+- The rows marked "lead" above, each from its page; first the Mobilization's police meetings (Aug. 7, 21, 23), the
+  Coalition's letters, the Free City group's June meetings, the preconvention publicity (Rubin, Rollins), the
+  press chapter's telegrams and arrests (pp. 317–28), Huntley's broadcast (Huntley has a name entry).
+- The records the report names and the series does not hold: the Joint Command Monitor Log, the Chicago police radio
+  log, the Illinois National Guard's After Action Report and duty officer's log, the FBI's 2,017 witness statements,
+  the Los Angeles police inspector's report (pp. 1–2), the Secret Service's intelligence summary of Aug. 8 (p. 113):
+  where they are now (the Commission's records, RG 283, National Archives; the Chicago police) not searched.
+- Judge William J. Lynch's opinion of Aug. 23, 1968, on the Mobilization's suit (the report quotes it, p. 67, but gives
+  no caption or reporter): to find, if reported, and cite as the primary record of
+  cal.1968-08-23.elections-1968-chicago-2.
+- The day the report was made public (Dec. 1, 1968, in the calendar): not in the report; the Commission's release or the
+  *Times*.
+- The Bantam paperback (`w.rights-in-conflict`): its pages not compared with the Dutton's.
+- Persons the report names with no name entry: Conlisk, Stahl, Baugher, Barry (Park District), Brig. Gen. Richard T.
+  Dunn, Judge Lynch, Raymond Simon, Thomas Foran, Frank Sullivan, Dan Rather, Mike Wallace, Krassner, Ginsberg,
+  Carlos Russell, Clinton Deveaux, Martin Slate, Richard Neuhaus, Murray Kempton (a columnist, R13: to propose),
+  Donald Peterson (Wisconsin's chairman). Michaelis (Task Force III's commander, p. 116) may be the John H. Michaelis
+  who has an entry: not tagged, not confirmed.
+
+### Elections data and the recordings (Nov. 1, 2026)
+
+- The House lags for 1968 on New York's new lines (39 seats) and two of Louisiana's: no CQ table found (Mar. 1, June 7,
+  June 21, the Eastern roundup); the candidate is the *Election Index to Redistricted States* (1968). Louisiana: CQ's
+  outlook, July 26, 1968, 2072-73, prints no table; check the shapes in `congress/geo.json` (whether the State's lines
+  changed at all). The seats: `notes/house-lags.md`, 1968.
+- The 1964 presidential vote on the 93d Congress's lines: America Votes 6's county and ward figures, or the Census's
+  interim CDD-93 reports (`notes/extensions/memos/pvi-districts.md`).
+- The governors of 1960 still resting on weak sources (Ark., Del., Mass., Minn., Mo., Tex., W. Va.): America Votes 4
+  (1962) not found open.
+- Name entries wanted (CQ readers, Aug. 16, 1968): Jim Wright (the roster's "Wright, James C., Jr.": no key answers),
+  Blair Clark, John M. Bailey.
+- The Chester patch (`inbox/2026-10-29-b3-chester.yaml`, unmerged): the Aug. 2 reader's cite on
+  cal.1968-07-31.elections-1968-miami (Reagan before the Platform Committee) waits for Chester's entry to land
+  (notes/book-checks/cq-weekly-report-1968-08-02.md).
+- PRDE's transcripts: readable on its site by registered users only. For the owner: the 48-hour trial, a library's
+  Rotunda subscription, or individual purchase; and the printed volumes (Norton, *The Presidential Recordings*:
+  Kennedy's July-Oct. 1962, Johnson's from Nov. 1963 into 1964; check the volumes' spans), for Drive like the other
+  books. Its search API returns the text too; the series has not used it.
 
 ## Foreign
 
@@ -2092,6 +2269,14 @@ Foreign:
 - Hilsman's tracks, Sept. 14–15, 1963 (157); Diệm's end of martial law, Sept. 16, 1963 (158): FRUS 1961–63, IV.
 - De Gaulle's statement on Vietnam, Aug. 29, 1963 (157); Sihanouk's proposal of a conference, Nov. 30, 1963 (211).
 - Defense's "reaffirmation" of the thousand, Nov. 20, 1963 (200): the release.
+
+### From the CQ Weekly Report, 1968, and the Walker Report (read Oct. 31-Nov. 1, 2026; notes/book-checks/)
+
+CQ Weekly Report, 1968-08-16:
+- Nguyễn Thành Lê's statement on Nixon and the Republican platform: the day (CQ, Aug. 16, 1968, 2181).
+CQ Weekly Report, 1968-08-30:
+- The shelling of Saigon and Biên Hòa, Aug. 22, 1968 (CQ, 2337): MACV's or the papers' account, the casualties.
+- Nguyễn Thanh Lê's news conference, Aug. 26, 1968: the delegation's own text (CQ quotes a translation).
 
 ## The Executive roster
 
