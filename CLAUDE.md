@@ -1903,7 +1903,9 @@ tools/bib/committees.py         the committees' list and "Testimony before Congr
   recording (`free` in `tools/bib/daybook.py`, STYLE 8): Johnson's by citation number; else the day, the time within
   twenty minutes and a name in both titles; else the day and the same title (Kennedy's); else Kennedy's tape and item.
   93 percent of PRDE's rows match; machine noise and PRDE's daily introductions are left out. The catalogue only: the transcripts and the editors'
-  introductions are the Edition's text, behind its subscription, and are not taken or paraphrased; what was said comes
+  introductions are the Edition's text, which its site shows to registered users only (a 48-hour trial, or purchase); its
+  search API returns them too, in its full results (found Nov. 1, 2026), and the script keeps the catalogue fields alone;
+  they are not taken or paraphrased; what was said comes
   from published transcripts (Beschloss, *Taking Charge*, *Reaching for Glory*) and the studies. As a calendar entry's
   primary record, the free page: `[Johnson and Robert Kennedy, 12:25 p.m.](https://millercenter.org/the-presidency/
   secret-white-house-tapes/…), Conversation WH6407-11-4288 (Miller Center)`; PRDE's page only where the Miller Center
