@@ -324,6 +324,8 @@ cmd_lives = cmd_names                  # the old name
 def cmd_merge(series, a):
     from .merge import apply_patch, Report
     rc = 0
+    if getattr(a, "auto", False):
+        return merge_auto(a)
     for path in a.patches:
         patch = store.load_yaml(path) or {}
         name = patch.get("patch") or os.path.basename(path)
@@ -345,6 +347,90 @@ def cmd_merge(series, a):
                 series.works.save()
                 print(f"  {len(done)} entries' works made cards: " + ", ".join(d[0] for d in done))
         if not a.dry_run and a.archive:
+            done = os.path.join(HERE, "inbox", "merged")
+            os.makedirs(done, exist_ok=True)
+            os.replace(path, os.path.join(done, os.path.basename(path)))
+    return rc
+
+
+def cmd_patch_check(series, a):
+    """A patch held to the rules before it is handed in (tools/bib/patchcheck.py)."""
+    from . import patchcheck
+    bad = False
+    for path in a.patches:
+        text, err = patchcheck.report(store.Series(), path)
+        print(text)
+        bad = bad or err
+    return 1 if bad else 0
+
+
+def cmd_ledger(series, a):
+    """The ledger of new entries (tools/bib/ledger.py)."""
+    from . import ledger
+    if a.what == "add":
+        if len(a.args) != 5:
+            print("ledger add DATE THREAD ID \"a few words\" PATCH")
+            return 2
+        err = ledger.add(series, *a.args)
+        print(err or f"claimed {a.args[2]}")
+        return 1 if err else 0
+    if a.what == "find":
+        if not a.args:
+            print("ledger find DATE [--until DATE] [--thread T]")
+            return 2
+        for where, d, t, i, w in ledger.find(series, a.args[0], a.until, a.thread):
+            print(f"{d}  {t or '-':28} {i:48} {where}: {w}")
+        return 0
+    print(f"pruned {ledger.prune(series)} lines")
+    return 0
+
+
+def cmd_plan_readers(series, a):
+    """Works grouped by the entries they share (tools/bib/planreaders.py)."""
+    from . import planreaders
+    print(planreaders.report(series, a.cards, a.min))
+    return 0
+
+
+def merge_auto(a):
+    """The rolling merge (volume memo §6): each patch checked, applied, the deferred ops retried, the ledger pruned, the
+    patch archived; it stops at a patch with errors. Prints the conflicts and a sample (one touched entry in ten) to
+    read."""
+    import hashlib
+    from . import addops, ledger, patchcheck
+    from .merge import apply_patch, Report
+    rc = 0
+    for path in a.patches:
+        text, err = patchcheck.report(store.Series(), path, legacy=a.legacy)
+        if err:
+            print(text)
+            print(f"  refused: {os.path.basename(path)} left in the inbox")
+            return 1
+        series = store.Series()
+        patch = store.load_yaml(path) or {}
+        name = patch.get("patch") or os.path.basename(path)
+        rep = Report()
+        touched = apply_patch(series, patch, name, rep, dry=a.dry_run)
+        ready = [] if a.dry_run else addops.take_deferred(store.Series())
+        if ready:
+            series = store.Series()
+            for r in ready:
+                touched |= apply_patch(series, {"ops": [r["op"]]}, r["from"], rep)
+        print(f"== {name} (auto" + (", dry run)" if a.dry_run else ")"))
+        shown = [l for l in rep.lines if not l.startswith(("same", "added-to", "edited", "added ", "tagged"))]
+        if shown:
+            print("\n".join("  " + l for l in shown))
+        ids = sorted({l.split()[1].rstrip(":") for l in rep.lines if l.split()[0] in ("added-to", "edited", "added", "tagged")})
+        sample = [i for i in ids if int(hashlib.sha1(i.encode()).hexdigest(), 16) % 10 == 0] or ids[:1]
+        print(f"  {len(ids)} entries changed; read: {' '.join(sample)}")
+        joined, left = ([], rep.conflicts) if a.dry_run else addops.join_clean(store.Series(), name)
+        if joined:
+            print(f"  {len(joined)} notes or maps joined, both sides kept (read): {' '.join(joined)}")
+        if left:
+            print(f"  {left} conflicts left in the entries: ./bib conflicts, ./bib reconcile")
+            rc = 1
+        if not a.dry_run:
+            ledger.prune(store.Series())
             done = os.path.join(HERE, "inbox", "merged")
             os.makedirs(done, exist_ok=True)
             os.replace(path, os.path.join(done, os.path.basename(path)))
@@ -758,6 +844,19 @@ def main(argv=None):
     x.add_argument("patches", nargs="+")
     x.add_argument("--dry-run", "-n", action="store_true")
     x.add_argument("--archive", action="store_true", help="move applied patches to inbox/merged/")
+    x.add_argument("--auto", action="store_true", help="rolling merge: patch-check, apply, deferred ops, ledger "
+                   "pruned, clean joins, archive; stops at an error (tools/bib/addops.py, volume memo §6)")
+    x.add_argument("--legacy", action="store_true", help="with --auto: a patch written before the ledger")
+    x = sub.add_parser("patch-check", help="a patch held to the rules before it is handed in (tools/bib/patchcheck.py)")
+    x.add_argument("patches", nargs="+")
+    x = sub.add_parser("ledger", help="the ledger of new entries: add DATE THREAD ID WORDS PATCH | find DATE | prune")
+    x.add_argument("what", choices=["add", "find", "prune"])
+    x.add_argument("args", nargs="*")
+    x.add_argument("--until")
+    x.add_argument("--thread")
+    x = sub.add_parser("plan-readers", help="works grouped by the entries they share, a group a reader (tools/bib/planreaders.py)")
+    x.add_argument("cards", nargs="+")
+    x.add_argument("--min", type=int, default=10)
     x = sub.add_parser("audit-patches", help="pending patches read together before merging: overlaps, collisions")
     x.add_argument("patches", nargs="+")
     x = sub.add_parser("claims", help="each calendar entry's units and their sources: show IDS [--inline], stats, seed IDS")

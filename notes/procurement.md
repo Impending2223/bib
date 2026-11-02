@@ -4,7 +4,7 @@ Save each file to the Drive folder '1968 series: sources for Claude' under its s
 
 The public-domain materials this environment cannot reach (Cloudflare, AkamaiGHost, captchas, HathiTrust's bot check,
 the Wayback Machine refused), ranked by what each settles per click. The records, with every address and the
-reasons each is public domain: `notes/procurement.yaml` (39 items). Written Oct. 23, 2026, from `notes/leads.md`,
+reasons each is public domain: `notes/procurement.yaml` (99 items: 39 of Oct. 23, 60 of the batch of Oct. 31 below). Written Oct. 23, 2026, from `notes/leads.md`,
 `sources/states.yaml`, `./bib audit-cal` (691 dated entries with no primary record) and the hathifile of Oct. 1, 2026.
 Already procured and left off: OSD vol. V; Nixon, *Six Crises*; Dittmer; Schlesinger, *Robert Kennedy*; Frankum;
 Miller, *Misalliance*; *Victory in Vietnam*.
@@ -45,6 +45,119 @@ reading and citation here.
 13. `ttu-macv-command-histories` MACV *Command History*, 1964–68 (Texas Tech): about 12 files; about 30 entries, 3 leads.
 14. `jfk-nsf-folders` Kennedy's National Security Files: 12 folders; 11 entries, 2 leads.
 15. `hathi-secdef-annual-1961-68` *Annual Reports* (uiug.30112132450088, -062, osu.32435062847116): 3 files; 4 leads.
+
+## The House vote on new lines (batch of Oct. 31, 2026)
+
+For the baseline's lags across the redistricting of 1962–74 (`notes/extensions/memos/pvi-districts.md`, "Jacobson's
+file against ours, and the lags still missing"): 60 records, `batch: retab-2026-10-31` in `notes/procurement.yaml`,
+each with `access` and `basis` (seen, catalog, cited, recalled). Searched by three agents the same day: the full
+hathifile of Oct. 1, 2026 (grepped whole), the Library of Congress's item records, Open Library, archive.org,
+Harvard and Yale Dataverse, govinfo, the CQ Weekly Report's annual indexes (open on archive.org), the web. Checked by
+hand after: the four Republican Congressional Committee records (LoC 84114475, 66050841, 79312357, 84142143), CDD-94
+(LoC 74603410), and HathiTrust's coo.31924086721408, coo.31924086721416 and pst.000051825683 (Bib API).
+
+**Done Oct. 31, 2026:** CDD-94 (Texas, California, New York), procured by the owner and read the same day
+(`elections/readings/districts/cdd-1974.yaml`, `districts-house/cdh-1974.yaml`): 82 of the 1974 row's 109 lags filled,
+the 1974 PVI from 316 districts to 418. Supplement No. 16 (Tennessee, June 1966): the owner's eleven single pages of
+pst.000051825683 (seq. 65-75); "Vote Cast and Population" on seq. 69 (printed p. 5), read the same day: President
+1964, 1960, 1956 for the 1st-6th (the 7th-9th "(NA)"), the House 1954-64 for the 5th alone; the 1966 PVI 222 to 228.
+
+**What would fill the table, row by row** (contents not seen unless said; each a Check):
+
+| Row | Lags missing | The best source found | Access |
+|---|---|---|---|
+| 1962 | 201 | Republican Congressional Committee, *1960 Congressional Vote Statistics: Adjusted for 1962 Reapportionment* (1962), [123] p., LCCN 84114475 | Library of Congress, paper (MLCM 83/9651 (J)); no copy on HathiTrust or archive.org |
+| 1964 | 73 | the same, *1962 Congressional Vote Statistics ... Adjusted for Reapportionments as of Jan. 1, 1964* (1964), [142] p., LCCN 66050841, OCLC 4183161 | LoC, paper (JK1968 1962) |
+| 1966 | 97 | the same, *1964 Congressional Vote Statistics ... With Revisions of States Affected by Redistricting ... since Nov. 3, 1964* (1966), LCCN 79312357; and *Congressional and Presidential Vote Comparison: Tabulated in Accordance with Changes Arising from Redistricting and Special Elections up to November 8, 1966* (1966), 3, [135] leaves, LCCN 84142143 | LoC, paper |
+| 1968 | 75 (N.Y. 40) | no Committee edition found; Brownson, *Election Index to Redistricted States* (Congressional Staff Directory, 1966, 1968; OCLC 7291144), contents not known; CQ, *Elections of 1968*, CQ Weekly Report no. 30, pt. 1 (July 26, 1968), 1856–1937 | borrow; HathiTrust search only; CQ subscription |
+| 1974 | 109 (Cal. 38, N.Y. 34, Tex. 16) | Census, *Congressional District Data, 94th Congress*, CDD-94-1 Texas, -2 California, -3 New York (1974; LCCN 74603410, OCLC 1499878) | Texas and California full view on HathiTrust (pdus: coo.31924086721408, coo.31924086721416; bot-checked here, one PDF each); New York: no HathiTrust copy, a depository library |
+
+Also: Supplement No. 16 to the 88th's Data Book is **Tennessee, districts of the 90th Congress** (June–July 1966: the
+copy's enumeration "no.11-19 June-July 1966"; the MARC contents note of HathiTrust record 012258002, OCLC 2948071),
+full view in `pst.000051825683` (Nos. 11–19, pd), `uc1.31210017088863`, `coo.31924019887748`. The 1964 presidential
+vote on the 93d's lines (the 1972 PVI): perhaps CDD-93X, the interim reports of 1971–72 (OCLC 614781; 22 States,
+`pst.000049891065`), unverified. The *Congressional Directory* gives each district's makeup (whole counties; California
+by assembly district, Chicago by ward; New York City by streets), open on govinfo (CDIR-1961-04-01 to CDIR-1973-03-10,
+text files): the frame for building whole-county lags from the States' county returns.
+
+**The Library of Congress batch.** The Committee's volumes are not digitized anywhere found and are not lent by LoC; a
+visit to the Main Reading Room (call numbers above), a scan by LoC's Duplication Services, or a request through a
+library's interlibrary loan for another holder (WorldCat's holders not read: its results load by script). Four
+volumes, some 550 pages, would fill most of the 1962, 1964 and 1966 rows if "adjusted" and "with revisions" mean the
+earlier vote retabulated by new district, as the 1970 and 1972 editions' were (the Census, CDD-92 and the 1973 Data
+Book, so describing them). The Committee's works were not copyrighted as far as found (Check: a 1960s work published
+without notice fell into the public domain; the volumes' notices not seen).
+
+**CQ's recomputed percentages** (found in CQ Weekly Report's annual indexes, archive.org, Oct. 31, 2026). CQ's
+election-year regional outlooks chart each State's House seats with the last election's percentage, and where a State
+redrew, the earlier vote recomputed for the new districts: the 1964 index's corrections print "the 1962 redistricted
+votes" for Colorado (p. 2702: 1st 56.0, 2d 60.0, 3d 55.7, 4th 47.5) and Michigan (p. 2703: 2d 55.4 ... 12th 66.1;
+"Figures are unavailable for the 1st and 13th-19th Districts", Wayne County; "estimates for parts of the 2nd and 3rd")
+and note the Western outlook's Colorado chart (p. 2428). Whose percentage it is (the Democrat's, the winner's, the
+incumbent party's) is not said in the index: Check on the page. Percentages, not votes. The issues, by volume and page
+(the indexes'): vol. 22 (1964), the outlooks: Eastern 2269, Southern 2347, Western 2419, Midwestern 2485 (the States in
+order after each), the post-election tables 2627-2740 (House results 2643, 2648; the State summaries with the 1962
+redistricted percentages about 2700-2738); vol. 24 (1966), "Redistricting, 1964-1966 and current status" and "1960-1966
+action, state by state", the new districts' characteristics and 1966 incumbents pp. 2010-2028 (a State a page or two),
+"Congressional redistricting effect on 1966 elections" p. 815, the July outlook 1489-1492 (the fall outlook after
+September: the Jan.-Sept. index only is open); vol. 26 (1968), "Redistricting outlook" 1216, N.Y. redistricting 421,
+N.J. 23, Okla. 22, the State roundups: Eastern 2582-2611, Southern 2690-2723, Western 2783-2810, Midwestern 2890-2923
+(and the Elections of 1968 special report, July 26, 1856-1937); vol. 20 (1962): its index is on archive.org after all
+(`sim_cq-weekly_january-december-1962_20_index`). Bound volumes: HathiTrust search only; CQ Press Library by subscription.
+
+**The tables to read first** (settled Oct. 31, 2026, off the owner's copies). CQ's chart "Winning Representatives'
+Vote Percentages", a row a district: the winner's share of the total vote at each election, and Eisenhower's and
+Kennedy's; where a State redrew, CQ "calculated the Congressional vote ... cast within the counties or wards which make
+up each newly created district" and gives "the majority party percentage thus calculated", marked; "Safe Democratic"
+and the like where it had no figures; Democrats' percentages in bold, Republicans' in light type (the party is read by
+eye, not by OCR). Percentages only, no votes. In hand: 20 CQ Weekly Rep. 724-729 (Supp., May 4, 1962: "Past Election
+Figures Set Stage for 1962 House Races", 1952-60, the 1960 vote on the 88th's lines: the 1962 lags) and 22 CQ Weekly
+Rep. 2701-2706 (No. 46, Nov. 13, 1964: 1954-64, the 1962 vote on the 89th's lines: the 1964 lags; corrected in the
+index at 2702-2703). And 24 CQ Weekly Rep. 1563-1568 (No. 29, July 22, 1966: 1954-64, the 1964 vote on the 90th's lines,
+in part: New Jersey "not yet computed", others "Not available" with a rating; not 1522, as the index's OCR read it).
+For 1968, no chart in No. 9 (Mar. 1, 1968: New York's redistricting at 421 reports the plan, not the vote) or in the
+Elections of 1968 report (No. 30, July 26, 1968, 1856-1937), both read by OCR Oct. 31; But Missouri's redistricting item
+(No. 30, pt. 2, July 26, 1968, 2001-2004, in its primary outlook) tables the 1966 House vote "within the areas of the
+new districts", Democratic and Republican shares, all ten (p. 2002; the 4th and 5th "Estimated"): in hand Oct. 31. New
+York's: the July 26 roundup (p. 1873 ff.) points only to the results, p. 1544 (No. 25, June 21, 1968), where other
+States get an outlook page too (Maine: 1380, 1547), so CQ may have printed no New York outlook. Louisiana (the 91st's
+new lines; only the 2d and 6th contested in 1968): its primary outlook, p. 2073 (the index, under Caffery), about No.
+31, Aug. 2, 1968. Michigan's 16th is no redistricting case: its lines held, and our 1966 file prints Dingell's opponent,
+John T. Dempsey, as a Democrat (Wikipedia: Republican, 37.3 percent): to put right from the Clerk's page. Still to look at: the Congressional Staff Directory's *Election
+Index to Redistricted States* (1968), and CQ's Eastern (No. 40, Oct. 4, 1968, 2582-2611) and Midwestern (No. 43, Oct.
+25, 2890-2923) roundups, whose State charts may give the 1966 vote by new district. CQ's official 1964 vote by
+district: "a March 1965 Special Report" (22 CQ Weekly Rep. 2701). Also in hand, not yet read: the 1962 supplements of
+Oct. 5 (pp. 1755 ff., and 1832 ff., the States' candidates) and Oct. 26, and *America Votes 7* (1966).
+
+**Below the county** (the big cities, where most of the missing lags are): no State compilation opened prints the
+House below the county but Massachusetts (Public Document 43, by town and ward group, open on archive.org) and
+Boston's Election Department reports (1957–75 but 1972, open: the 1960 report's contents list "For Representatives
+in Congress 151-162"). Illinois's *Official Vote* gives Chicago's wards for the statewide offices only; Missouri's
+*Manual* "Part of City of St. Louis"; the *Pennsylvania Manual* "Philadelphia County (part)"; New Jersey's results the
+county parts; Los Angeles County's canvass of 1968 district totals; California's *Supplement to the Statement of Vote*
+President, Governor and propositions by district and city, not the House (1972, read; 1966, cited). The rest is
+local and on paper: New York City's Board of Elections *Annual Report* (HathiTrust 006269729, 1952–65, search only;
+whether it prints Congress by assembly district, recalled) and *The City Record*'s official canvass by election
+district (the city's portal refuses this environment); Chicago's Board of Election Commissioners canvass (the
+Municipal Reference Library; aperture cards at the Harold Washington Library); the Los Angeles Registrar's
+statements of votes cast by precinct; Philadelphia's City Commissioners by ward and division (City Archives); Wayne
+County's 1962 statement (Archives of Michigan, RG 70-10); Cuyahoga's, Harris's, Dallas's, St. Louis's, Milwaukee's
+(Milwaukee County Historical Society, Mss-0957, Mss-2128) and the New Jersey counties'. Each is a record in the batch.
+
+**Searched and not found** (so the next run need not repeat it): any Committee edition for the 1968 or 1974 elections,
+and the originals of its 1970 and 1972 *Congressional District Vote Comparison* (known from the Census's citations
+only); any replication data with the House vote retabulated (Ansolabehere, Snyder and Stewart 2000; Cox and Katz
+2002: none found; King's ICPSR 6311 on Dataverse, doi:10.7910/DVN/H5MM1N, district returns only; Broockman's ISPS
+D018, now Yale Dataverse doi:10.60600/YU/IOEQKE, and Caughey and Sekhon, which drop or blank the redrawn seats;
+Algara and Amlani's county file, doi:10.7910/DVN/DGUMFI, no House); a free county-level House file for 1960–74 (ICPSR
+1, 8611 and 13 are members' only, and ICPSR 1's House returns are collapsed to whole counties, by its own
+description); a literature citation of the Committee's volumes (Erikson 1972 and Cox and Katz not readable here).
+
+**Corrections the batch makes to `sources/states.yaml`** (not yet made there; leads, States and cities): New York, the
+Board of Elections' annual reports are on HathiTrust (006269729, 000549504) and the *Legislative Manual* 1964/65–1975
+is there, search only; California, the *Supplement* does not carry the House; Illinois, the ward and township tables
+are the statewide offices'; Michigan, the Department of State's *Official Canvass of Votes* (HathiTrust 102823787;
+1960, 1962, 1964 full view) is not in the register.
 
 ## Batches, a site at a time
 
@@ -171,3 +284,58 @@ branches and the State archives); about 35 foreign governments' acts with no Ame
 McNamara's Directive 5120.36 (1963; no copy found); the *Oil and Gas Journal*, 1962–69, CQ's *Weekly Report* and
 *Southern School News* (in copyright; libraries); the *Times* (TimesMachine, a subscriber's login); the JFK Library's
 Kennedy appointment books (not known whether digitized).
+
+## The access survey of Oct. 29–30, 2026
+
+The owner asked for the whole universe of useful sources, sorted by what can actually be reached. Each site was probed
+from the container (the page read, a challenge counted as a bot check); archive.org was searched by title and
+identifier and counted by year; HathiTrust's full holdings file (Oct. 1, 2026) was streamed and matched by title, full
+view and search-only apart. Shown to the owner as the artifact "Source Access Map"
+(https://claude.ai/artifact/4eU99zp15SdZuoUL9xiAa8; republished with the district election volumes, Oct. 30, 2026, at https://claude.ai/artifact/XJEjQnKSeLR74B45fLKYAK). The chief findings:
+
+- Open here, never cited: the President's Daily Brief and the President's Intelligence Checklist, 1961–69 (the CIA
+  reading room, and its mirror on archive.org with text: 1,137 Checklist items, about 1,700 Briefs 1964–69); the
+  Central Intelligence Bulletin (3,822) and the Current Intelligence Weekly Summary (658, 1960s); some 5,500 CIA
+  documents on Vietnam and 2,200 on Cuba, 1960–69; the FOMC's historical minutes, Greenbooks and policy records, meeting
+  by meeting (federalreserve.gov); Peking Review, 1958–70 complete, and Vietnam Courier, 1967–70 (archive.org);
+  Văn kiện Đảng toàn tập (tulieuvankien.dangcongsan.vn); the Weekly Compilation of Presidential Documents from 1965
+  (archive.org); DTIC's reports of the 1960s on archive.org (40,467), RAND's Viet Cong Motivation and Morale reports
+  among them; Chronicling America's papers to 1963 (loc.gov JSON API); ADST's oral histories (adst.org, loc.gov).
+- Already supplied by the owner (the batch-3 Drive folder, Oct. 28, from this list of Oct. 23; the survey's first
+  version missed it, its second marks it "In hand"): the Senate Foreign Relations Committee's executive sessions, vols.
+  15–18; *Current Documents* 1962, 1963, 1964, 1966, 1967; the *Bulletin*, vol. 59; the hearings the leads named; the
+  posture statements; WMEAT; the MACV Command Histories; the FBI's Liuzzo and King files; *Nomination and Election*
+  (1968); *Rights in Conflict*. Still full view on HathiTrust, not yet supplied: the executive sessions, vols. 12–14
+  (1960–62); *Current Documents* 1959–61 and 1965; FBIS Daily Report, 1959–60 and scattered to 1970; at least 1,866
+  hearings of 1959–70 titled Hearing(s); the Civil Rights Commission's hearings and reports; the Kerner Commission's
+  supplemental studies.
+- Refused here, open to the owner: discoverlbj.org and jfklibrary.org (Cloudflare; the LBJ Library's robots file names
+  ClaudeBot), the Wilson Center's Digital Archive (the proxy's 502), senate.gov's history pages ("security risk"),
+  rand.org, history.army.mil, usmcu.edu, afhra.af.mil, aad.archives.gov, data.imf.org (403), ICPSR, ANES, the FBI Vault,
+  TNA Discovery (challenges). The artifact gives the owner the steps and a list of 40 Daily Diary days.
+- Loan or subscription: the CQ Almanac (1966 and 1968 on loan) and Congress and the Nation (loan); Facts on File
+  (1959 and 1961 open; yearbooks on loan); Keesing's (vol. 14, 1963–64, on loan); the DDRS, DNSA, Readex (FBIS, JPRS),
+  ProQuest's newspapers and Congressional, the CQ Press Library: asked of the owner whether a library card reaches them.
+- Google Books' API was over its daily quota from here; its full-view holdings not counted.
+- China (searched Oct. 30 at the owner's question, "What about CPC materials?"): open here, marxists.org's Chinese
+  archive of Mao's conversation records, 1964–67 (Kosygin, Feb. 12, 1965; Hồ, June 10, 1966; the Vietnamese and NLF
+  delegations, Oct. 1967), and the People's Daily site's congress and plenum documents; the CIA mirror's 1,113 China
+  documents of the 1960s and 39 POLO and ESAU studies. Full view on HathiTrust, bot-checked here: JPRS's *Miscellany of
+  Mao Tse-tung Thought (1949–1968)* (mdp.39015016526157, mdp.39015016526314), *Translations on Communist China:
+  Political and Sociological* (19 vols.), *Communist China Digest* (42), translations from *People's Daily* (1961–62),
+  the consulate's *Selections from China Mainland Magazines* (1960–61). Search only or microfilm: the *Survey of China
+  Mainland Press* of the 1960s; the Party's compilations and the nianpu. Wilson Center (PRC Foreign Ministry documents,
+  translated) and Academia Historica (Taiwan): open to the owner.
+- The Soviet Union and Eastern Europe (Oct. 30, the owner's question: "How would we follow Berlin, Cuba, the fall of
+  Khrushchev, the Soviet side of the Sino-Soviet conflict, Prague Spring ...?"). Open here: the National Security
+  Archive's Russia and Eastern Europe briefing books; the CIA mirror (about 12,000 documents on the USSR, 1960–69; 51
+  CAESAR studies; 128 on Czechoslovakia, 1968; 118 on Berlin, 1961–62); ЭБИД (docs.historyrussia.org), istmat.org,
+  the Presidential Library (prlib.ru); Pravda, 24 issues of 1960 (archive.org); 1000dokumente.de. Full view on
+  HathiTrust, bot-checked here: *Documents on Disarmament*, 1960–69 (every year), *Documents on Germany, 1944–1985*,
+  FBIS's USSR and East Europe supplement (42 vols., 1961–67), *World Strength of the Communist Party Organizations*
+  (12 vols.). Search only or in print: *Prezidium TsK KPSS 1954–1964* (Malin's notes), *Nikita Khrushchev, 1964*, the
+  Current Digest of the Soviet Press, Dokumente zur Deutschlandpolitik. Refused here, open to the owner: the Wilson
+  Center's Digital Archive, Rosarkhiv's portals, the OSA's catalog (Radio Free Europe's research), Budapest's Cold War
+  History Research Center, the Parallel History Project. Cards already exist, unread: Zubok, Taubman, Lüthi, Radchenko,
+  Harrison, Gaiduk (two), Kramer, Dawisha, Williams, Olsen, Kempe, Khrushchev's memoirs (English and Russian), Gromyko,
+  Mikoyan, Fursenko and Naftali's *Khrushchev's Cold War* (*One Hell of a Gamble* and Dobrynin are being read).

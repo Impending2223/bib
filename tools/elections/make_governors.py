@@ -18,7 +18,8 @@ STYLE (the file):
  2. Parties by letter: D, R; others by their own name (Prohibition, Socialist Labor, Independent ...).
  3. Odd years: New Jersey and Virginia (1961, 1965), Kentucky and Mississippi (1963, 1967), Louisiana's general of
     Mar. 3, 1964 (its year table is 1963's), and of Feb. 6, 1968 (1967's).
- 4. Never edit the file by hand: fix the script (HAND) and rerun.
+ 4. Never edit the file by hand: fix the script (HAND, laid over the race last: `check: None` clears the check) and
+    rerun.
 """
 import argparse
 import json
@@ -62,6 +63,49 @@ HAND = {
                           "candidates": [{"name": "John McKeithen (incumbent)", "party": "D", "votes": None, "pct": 100.0,
                                           "won": True}],
                           "note": "McKeithen, renominated in the Democratic primary of Nov. 4, 1967, was unopposed in the general election."},
+    # 1966: the races Wikipedia sources to Our Campaigns or to nothing, held to America Votes 7 (1968), its figures
+    # read off the page images Nov. 1, 2026 (scratch: av7/governors-1966.yaml): the same figures, the book the source;
+    # Pennsylvania's votes (the article prints shares only) the book's.
+    (1966, 'Alabama'): {'source': {'title': 'America Votes 7 (1968) 12, 19', 'url': 'https://archive.org/details/americavotes7han00scam/page/n25/mode/1up'}, 'check': None},
+    (1966, 'Arkansas'): {'source': {'title': 'America Votes 7 (1968) 31, 38', 'url': 'https://archive.org/details/americavotes7han00scam/page/n44/mode/1up'}, 'check': None},
+    (1966, 'Florida'): {'source': {'title': 'America Votes 7 (1968) 74, 81', 'url': 'https://archive.org/details/americavotes7han00scam/page/n87/mode/1up'}, 'check': None},
+    (1966, 'Hawaii'): {'source': {'title': 'America Votes 7 (1968) 92, 96', 'url': 'https://archive.org/details/americavotes7han00scam/page/n105/mode/1up'}, 'check': None},
+    (1966, 'Minnesota'): {'source': {'title': 'America Votes 7 (1968) 195, 204', 'url': 'https://archive.org/details/americavotes7han00scam/page/n208/mode/1up'}, 'check': None},
+    (1966, 'New York'): {'source': {'title': 'America Votes 7 (1968) 263, 286', 'url': 'https://archive.org/details/americavotes7han00scam/page/n276/mode/1up'}, 'check': None},
+    (1966, 'Pennsylvania'): {'source': {'title': 'America Votes 7 (1968) 333, 349', 'url': 'https://archive.org/details/americavotes7han00scam/page/n346/mode/1up'}, 'check': None, 'candidates': [{'name': 'Raymond P. Shafer', 'party': 'R', 'votes': 2110349, 'pct': 52.1, 'won': True}, {'name': 'Milton Shapp', 'party': 'D', 'votes': 1868719, 'pct': 46.1, 'won': False}, {'name': 'Edward S. Swartz', 'party': 'Constitutional', 'votes': 57073, 'pct': 1.4, 'won': False}, {'name': 'George S. Taylor', 'party': 'Socialist Labor', 'votes': 14527, 'pct': 0.4, 'won': False}], 'total': 4050668},
+    (1966, 'South Carolina'): {'source': {'title': 'America Votes 7 (1968) 357, 362', 'url': 'https://archive.org/details/americavotes7han00scam/page/n370/mode/1up'}, 'check': None},
+    (1966, 'Texas'): {'source': {'title': 'America Votes 7 (1968) 379, 392', 'url': 'https://archive.org/details/americavotes7han00scam/page/n392/mode/1up'}, 'check': None},
+    # 1961-68: the races Wikipedia sources to Our Campaigns or to nothing, held to America Votes 5, 6 and 8, read off the
+    # page images Nov. 1, 2026 (scratch: av/out5, out6, out8): the book the source; its figures where they differ or the
+    # article prints none. Virginia 1965: a transposition in the article.
+    (1962, 'Alabama'): {'source': {'title': 'America Votes 5 (1964) 10, 17', 'url': 'https://archive.org/details/americavotes5han00scam/page/n25/mode/1up'}, 'check': None},
+    (1962, 'Arkansas'): {'source': {'title': 'America Votes 5 (1964) 30, 37', 'url': 'https://archive.org/details/americavotes5han00scam/page/n45/mode/1up'}, 'check': None},
+    (1962, 'California'): {'source': {'title': 'America Votes 5 (1964) 38, 51', 'url': 'https://archive.org/details/americavotes5han00scam/page/n53/mode/1up'}, 'check': None, 'candidates': [{'name': 'Edmund G. "Pat" Brown (incumbent)', 'party': 'D', 'votes': 3037109, 'pct': 51.89, 'won': True}, {'name': 'Richard M. Nixon', 'party': 'R', 'votes': 2740351, 'pct': 46.82, 'won': False}, {'name': 'Robert L. Wyckoff', 'party': 'Prohibition', 'votes': 69700, 'pct': 1.19, 'won': False}, {'name': 'Joseph C. Shell (write-in)', 'party': 'Independent', 'votes': 3166, 'pct': 0.05, 'won': False}, {'name': 'Herbert Steiner (write-in)', 'party': 'Independent', 'votes': 448, 'pct': 0.01, 'won': False}, {'name': 'R. C. Irvine (write-in)', 'party': 'Independent', 'votes': 159, 'pct': 0.0, 'won': False}, {'name': 'Scattering', 'party': '?', 'votes': 2299, 'pct': 0.04, 'won': False}], 'total': 5853270},
+    (1962, 'Georgia'): {'source': {'title': 'America Votes 5 (1964) 82, 92', 'url': 'https://archive.org/details/americavotes5han00scam/page/n97/mode/1up'}, 'check': None},
+    (1962, 'Hawaii'): {'source': {'title': 'America Votes 5 (1964) 94, 98', 'url': 'https://archive.org/details/americavotes5han00scam/page/n109/mode/1up'}, 'check': None},
+    (1962, 'Minnesota'): {'source': {'title': 'America Votes 5 (1964) 201, 211', 'url': 'https://archive.org/details/americavotes5han00scam/page/n216/mode/1up'}, 'check': None, 'candidates': [{'name': 'Karl Rolvaag', 'party': 'D', 'votes': 619842, 'pct': 49.71, 'won': True}, {'name': 'Elmer Andersen (incumbent)', 'party': 'R', 'votes': 619751, 'pct': 49.7, 'won': False}, {'name': 'William Braatz', 'party': 'Industrial Government', 'votes': 7311, 'pct': 0.59, 'won': False}], 'total': 1246904, 'note': 'Andersen led the first count; the recount gave Rolvaag 91 votes more, and the court declared him elected, Mar. 21, 1963.'},
+    (1962, 'New York'): {'source': {'title': 'America Votes 5 (1964) 271, 291', 'url': 'https://archive.org/details/americavotes5han00scam/page/n286/mode/1up'}, 'check': None, 'candidates': [{'name': 'Nelson Rockefeller (incumbent)', 'party': 'R', 'votes': 3081587, 'pct': 53.08, 'won': True}, {'name': 'Robert Morgenthau', 'party': 'D', 'votes': 2552418, 'pct': 43.96, 'won': False}, {'name': 'Robert Morgenthau', 'party': 'Liberal  of New York', 'votes': 2552418, 'pct': 43.96, 'won': False}, {'name': 'Robert Morgenthau', 'party': 'Total', 'votes': 2552418, 'pct': 43.96, 'won': False}, {'name': 'David H. Jaquith', 'party': 'Conservative  of New York', 'votes': 141877, 'pct': 2.44, 'won': False}, {'name': 'Richard Garza', 'party': 'Socialist Workers', 'votes': 19698, 'pct': 0.34, 'won': False}, {'name': 'Eric Hass', 'party': 'Socialist Labor', 'votes': 9762, 'pct': 0.17, 'won': False}], 'total': 5805631},
+    (1962, 'Pennsylvania'): {'source': {'title': 'America Votes 5 (1964) 342, 356', 'url': 'https://archive.org/details/americavotes5han00scam/page/n357/mode/1up'}, 'check': None, 'candidates': [{'name': 'William Scranton', 'party': 'R', 'pct': 55.39, 'won': True, 'votes': 2424918}, {'name': 'Richardson Dilworth', 'party': 'D', 'pct': 44.28, 'won': False, 'votes': 1938627}, {'name': 'George Sam Taylor', 'party': 'Socialist Labor', 'pct': 0.33, 'won': False, 'votes': 14340}], 'total': 4378042},
+    (1962, 'South Carolina'): {'source': {'title': 'America Votes 5 (1964) 364, 369', 'url': 'https://archive.org/details/americavotes5han00scam/page/n379/mode/1up'}, 'check': None},
+    (1962, 'Texas'): {'source': {'title': 'America Votes 5 (1964) 387, 401', 'url': 'https://archive.org/details/americavotes5han00scam/page/n402/mode/1up'}, 'check': None, 'candidates': [{'name': 'John Connally', 'party': 'D', 'votes': 847036, 'pct': 53.98, 'won': True}, {'name': 'Jack Cox', 'party': 'R', 'votes': 715025, 'pct': 45.57, 'won': False}, {'name': 'Jack Carswell', 'party': 'Constitution', 'votes': 7120, 'pct': 0.45, 'won': False}], 'total': 1569181},
+    (1964, 'Arkansas'): {'source': {'title': 'America Votes 6 (1966) 33, 40', 'url': 'https://archive.org/details/americavotes6han00scam/page/n46/mode/1up'}, 'check': None},
+    (1964, 'Delaware'): {'source': {'title': 'America Votes 6 (1966) 69, 73', 'url': 'https://archive.org/details/americavotes6han00scam/page/n82/mode/1up'}, 'check': None},
+    (1964, 'Indiana'): {'source': {'title': 'America Votes 6 (1966) 120, 128', 'url': 'https://archive.org/details/americavotes6han00scam/page/n133/mode/1up'}, 'check': None},
+    (1964, 'Missouri'): {'source': {'title': 'America Votes 6 (1966) 226, 236', 'url': 'https://archive.org/details/americavotes6han00scam/page/n239/mode/1up'}, 'check': None},
+    (1964, 'Texas'): {'source': {'title': 'America Votes 6 (1966) 397, 412', 'url': 'https://archive.org/details/americavotes6han00scam/page/n410/mode/1up'}, 'check': None},
+    (1964, 'West Virginia'): {'source': {'title': 'America Votes 6 (1966) 445, 450', 'url': 'https://archive.org/details/americavotes6han00scam/page/n458/mode/1up'}, 'check': None},
+    (1963, 'Louisiana'): {'source': {'title': 'America Votes 6 (1966) 155, 165', 'url': 'https://archive.org/details/americavotes6han00scam/page/n168/mode/1up'}, 'check': None, 'candidates': [{'name': 'John McKeithen', 'party': 'D', 'pct': 60.72, 'won': True, 'votes': 469589}, {'name': 'Charlton Lyons', 'party': 'R', 'pct': 38.5, 'won': False, 'votes': 297753}, {'name': 'Williams', 'party': 'States Rights', 'votes': 6048, 'pct': 0.78, 'won': False}], 'total': 773390},
+    (1961, 'Virginia'): {'source': {'title': 'America Votes 6 (1966) 426', 'url': 'https://archive.org/details/americavotes6han00scam/page/n439/mode/1up'}, 'check': None, 'candidates': [{'name': 'Albertis S. Harrison, Jr.', 'party': 'D', 'votes': 251861, 'pct': 63.84, 'won': True}, {'name': 'H. Clyde Pearson', 'party': 'R', 'votes': 142567, 'pct': 36.14, 'won': False}], 'total': 394490},
+    (1965, 'Virginia'): {'source': {'title': 'America Votes 6 (1966) 426, 436', 'url': 'https://archive.org/details/americavotes6han00scam/page/n439/mode/1up'}, 'check': None, 'candidates': [{'name': 'Mills E. Godwin Jr.', 'party': 'D', 'votes': 269526, 'pct': 47.89, 'won': True}, {'name': 'A. Linwood Holton Jr.', 'party': 'R', 'votes': 212207, 'pct': 37.71, 'won': False}, {'name': 'William J. Story Jr.', 'party': 'Conservative  of Virginia (1965)', 'votes': 75307, 'pct': 13.38, 'won': False}, {'name': 'George Lincoln Rockwell', 'party': 'White Constitutional', 'votes': 5730, 'pct': 1.02, 'won': False}, {'name': '', 'party': 'Write-ins', 'votes': 19, 'pct': 0.0, 'won': False}], 'total': 562789, 'note': "Wikipedia prints Godwin's vote 296,526, the digits transposed; America Votes 6 prints 269,526."},
+    (1968, 'Arkansas'): {'source': {'title': 'America Votes 8 (1970) 23, 32', 'url': 'https://archive.org/details/americavotes8elec/page/n34/mode/1up'}, 'check': None},
+    (1968, 'Delaware'): {'source': {'title': 'America Votes 8 (1970) 58, 62', 'url': 'https://archive.org/details/americavotes8elec/page/n69/mode/1up'}, 'check': None},
+    (1968, 'Indiana'): {'source': {'title': 'America Votes 8 (1970) 107, 116', 'url': 'https://archive.org/details/americavotes8elec/page/n118/mode/1up'}, 'check': None},
+    (1967, 'Louisiana'): {'source': {'title': 'America Votes 8 (1970) 148, 157', 'url': 'https://archive.org/details/americavotes8elec/page/n159/mode/1up'}, 'check': None, 'candidates': [{'name': 'John McKeithen (incumbent)', 'party': 'D', 'votes': 372762, 'pct': 100.0, 'won': True}], 'total': 372762, 'winner': 'John McKeithen', 'note': 'McKeithen, renominated in the Democratic primary of Nov. 4, 1967, was unopposed in the general election.'},
+    (1968, 'Missouri'): {'source': {'title': 'America Votes 8 (1970) 208, 221', 'url': 'https://archive.org/details/americavotes8elec/page/n219/mode/1up'}, 'check': None},
+    (1968, 'New Hampshire'): {'source': {'title': 'America Votes 8 (1970) 240, 245', 'url': 'https://archive.org/details/americavotes8elec/page/n251/mode/1up'}, 'check': None},
+    (1968, 'Texas'): {'source': {'title': 'America Votes 8 (1970) 364, 377', 'url': 'https://archive.org/details/americavotes8elec/page/n375/mode/1up'}, 'check': None, 'candidates': [{'name': 'Preston Smith', 'party': 'D', 'votes': 1662019, 'pct': 56.99, 'won': True}, {'name': 'Paul Eggers', 'party': 'R', 'votes': 1254333, 'pct': 43.01, 'won': False}], 'total': 2916509},
+    (1968, 'West Virginia'): {'source': {'title': 'America Votes 8 (1970) 406, 411', 'url': 'https://archive.org/details/americavotes8elec/page/n417/mode/1up'}, 'check': None},
+    (1967, 'Mississippi'): {'source': {'title': 'America Votes 8 (1970) 200, 207', 'url': 'https://archive.org/details/americavotes8elec/page/n211/mode/1up'}, 'check': None},
     (1966, "Georgia"): {"winner": "Lester Maddox",
                         "note": "No candidate had a majority; the General Assembly elected Maddox, Jan. 10, 1967."},
 }
@@ -344,9 +388,11 @@ def main():
                 race["source"] = {}
                 checks.append("the article prints no votes; shares from the year table")
             race["wiki"] = r["article"]
-            race.update(HAND.get((year, r["state"]), {}))
             if checks:
                 race["check"] = "; ".join(checks)
+            race.update(HAND.get((year, r["state"]), {}))       # HAND last: a source it gives clears the check
+            if race.get("check") is None:
+                race.pop("check", None)
             races.append(race)
     races.sort(key=lambda r: (r["date"], r["state"]))
     head = ("# Every general election for governor, 1960-66: written by tools/elections/make_governors.py from Wikipedia\n"

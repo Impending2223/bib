@@ -49,9 +49,11 @@ def problems(series=None):
     cd = _readings()
     out = []
     srcs = cd.load()
-    for k, d in srcs.items():
+    house = cd.load_house()
+    for k, d in list(srcs.items()) + list(house.items()):
         where = d["path"]
-        for w, m in cd.problems(d):
+        for w, m in (cd.house_problems(d) if d["path"].startswith(os.path.join("elections", "readings", "districts-house"))
+                     else cd.problems(d)):
             out.append(("error", w, m))
         for w, m in cd.warnings(d):
             out.append(("warn", w, m))
@@ -140,7 +142,42 @@ VOLUMES = {
                     "candidate are in the total, not in that party's column (pp. X–XI): New York's Democratic figures "
                     "leave out Humphrey's Liberal line.",
         "intro": 10},
+    "cdb-1966s": {
+        "cite": "*Supplement to Congressional District Data Book: Redistricted States*, Supp. Nos. 8\u201315, "
+                "17\u201332 (June 1966\u2013Aug. 1967), Districts of the 90th Congress, \u201cVote Cast and Population\u201d",
+        "hathi": "mdp.39015084491953", "pdf_pages": True,
+        "copy": "the University of Michigan's copy, scanned by Google (the owner's PDF, its page; HathiTrust's copy linked)",
+        "compiled": "1964: the Governmental Affairs Institute, *America at the Polls* (1965); 1960 and 1956: the 1963 "
+                    "Data Book's (Congressional Quarterly, *America Votes*), given for the new districts, (NA) where a "
+                    "district could not be made up (each Supp., p. 1)."},
+    "cdd-1971": {
+        "cite": "*Congressional District Data, Districts of the 92d Congress*, CDD-92-1 to -46 (Mar.\u2013May 1971), "
+                "\u201cElections\u201d",
+        "hathi": "uc1.c025786080", "pdf_pages": True,
+        "copy": "the University of California's copy, scanned by Google (the owner's PDF, its page; HathiTrust's copy linked)",
+        "compiled": "The National Republican Congressional Committee, *Congressional District Vote Comparison* (1970): "
+                    "\u201cThe original figures for 1964, 1966, and 1968 have been retabulated by the Committee to reflect "
+                    "changes in congressional district boundaries up to the time of the 1970 elections\u201d (each "
+                    "report's last page)."},
+    "cdd-1974": {
+        "cite": "*Congressional District Data, 94th Congress*, CDD-94-1 Texas, CDD-94-2 California, CDD-94-3 New York "
+                "(1974), \u201cElections\u201d",
+        "url": "https://catalog.hathitrust.org/Record/009142830", "pdf_pages": True,
+        "copy": "Cornell's copies of Texas and California and the University of Minnesota's of New York, scanned by Google "
+                "(the owner's PDFs, their pages; HathiTrust's record linked, Texas and California full view)",
+        "compiled": "The National Republican Congressional Committee: \u201cData retabulated in accordance with "
+                    "congressional districts as constituted for the 1974 elections\u201d (each report's note). New York's "
+                    "12th\u201315th, the districts its 1974 law redrew, \u201c(NA)\u201d."},
+    "jacobson": {
+        "dataset": True,
+        "cite": "Gary C. Jacobson, replication data for \u201cIt\u2019s Nothing Personal: The Decline of the Incumbency "
+                "Advantage in U.S. House Elections\u201d (Harvard Dataverse, 2015), JOPrepfile1, `dpres`",
+        "url": "https://doi.org/10.7910/DVN/29559",
+        "compiled": "the Democratic share of the two-party presidential vote by district, on the lines of the House "
+                    "election of the row (for a midterm, the vote two years before); taken only where no Census volume "
+                    "gives the district (make_pvi.py STYLE 13); his sources are not named in his codebook. CC0."},
 }
+HATHI = "https://babel.hathitrust.org/cgi/pt?id={id}"
 LABEL = {"t": "Total", "D": "Dem.", "R": "Rep.", "A": "Am. Ind."}
 
 
@@ -159,6 +196,10 @@ def page_url(src, page):
     v = VOLUMES[src]
     if "item" in v:
         return ARCHIVE.format(item=v["item"], leaf=int(page) + v["leaf"])
+    if "url" in v and "item" not in v and "pkg" not in v and "hathi" not in v:
+        return v["url"]
+    if "hathi" in v:                            # the owner's copy read, a PDF; HathiTrust's copy of it, by the volume
+        return HATHI.format(id=v["hathi"])
     return GOVINFO.format(pkg=v["pkg"], page=int(page) + v["pdf"])
 
 
@@ -169,6 +210,8 @@ def page_label(src, page):
 def source_line(src):
     """The volume's citation, linked to the copy read, and its compilers (STYLE 5)."""
     v = VOLUMES[src]
+    if v.get("dataset"):
+        return (f'<a href="{_esc(v["url"])}">{_md(v["cite"].replace("`", ""))}</a>. {_md(v["compiled"][0].upper() + v["compiled"][1:])}')
     first = page_url(src, v.get("intro") or 1)
     return (f'{CENSUS}, <a href="{_esc(first)}">{_md(v["cite"])}</a> ({_esc(v["copy"])}). '
             f'Compiled by: {_md(v["compiled"])}')

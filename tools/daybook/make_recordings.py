@@ -6,7 +6,9 @@ the Miller Center's Presidential Recordings Digital Edition (PRDE, University of
 What is taken: the catalogue only, as PRDE's public search lists it: the recording's title, date and time, place,
 length, the persons PRDE lists as speakers, the tape cite (the LBJ Library's conversation number, "WH6407-11-4288";
 for Kennedy, the tape), the Edition's volume, and the address of its page. Not taken: the transcripts and the editors'
-introductions, which are the Edition's text and behind its subscription.
+introductions, which are the Edition's text: its site shows them to registered users only (a 48-hour trial, or
+purchase; the conversation page, read Nov. 1, 2026). The search API returns them too, in the full results this script
+asks for (`options: all`); `row` reads the catalogue fields alone, and nothing of the text is kept.
 
 STYLE (rendered by tools/bib/daybook.py):
  1. One row a recording: key 'prde:<id>', src 'prde', date, time (HH:MM; none where PRDE gives none or a placeholder,

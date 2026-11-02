@@ -128,83 +128,95 @@ None: no pending patch touched these days when the patch was written.
 ## Passed over
 
 Made from the whole chapter, page by page, against the calendar's entries for 1960–62 (`./bib find -l cal --since
-1960-01 --until 1961-01`) and the reading notes; every dated event within the span not entered.
+1960-01 --until 1961-01`) and the reading notes; every dated event within the span not entered. Revised Oct. 29, 2026,
+under the owner's ruling of Oct. 28 (late): the rows it makes entries are moved to the section after this one.
 
 | Page | Date | Event | Why |
 |---|---|---|---|
 | 301–3 | Nov. 7, 1958–Nov. 1959 | Hall's and Folger's dinner; London; Moscow; the polls | before the span |
 | 304 | Dec. 3, 1959–Jan. 4, 1960 | the steel mediation and settlement | before the span; the settlement in as `cal.1960-01-07.steel` (pinned) |
-| 302, 309 | Feb.–July 1960 | Gallup: party preference 47–30–23; Nixon 53–47 before New Hampshire; Kennedy 52–48 before Los Angeles | polls, given without release dates; the Opinion thread enters Gallup's releases from Gallup's volumes |
-| 308 | Aug. 1, 1960 | *U.S. News* prints the Kennedy staff's 1956 memorandum on the Catholic vote | a magazine's printing of a 1956 paper; lead |
+| 302, 309, 320, 329 | Feb.–Sept. 1960 | Gallup's figures: party preference 47–30–23; Nixon 53–47 before New Hampshire; Kennedy 52–48 before Los Angeles; 53–47 after Chicago; even Aug. 31; Sept. 1 | the Opinion thread enters Gallup's releases from *The Gallup Poll* (Sept. 14 in as `cal.1960-09-14.opinion`); Nixon's figures are second-hand |
 | 311 | May 1960 | the U-2, the summit's collapse | already in (Soviet Union: U-2) |
-| 312 | before July 11 | Morton, at Nixon's suggestion, predicts a Kennedy–Johnson "deal" | undated; lead |
-| 312 | July 13–14 | Nixon at Camp David drafting his acceptance; Rogers with him when Johnson is named | private |
 | 316–17 | July 26–27 | Eisenhower's address; Hatfield nominates Nixon, "by acclamation" | already in as `cal.1960-07-26.elections-1960` (see Disagreements) |
-| 317 | July | Mitchell rules himself out for second place after Kennedy's nomination | undated; lead |
 | 318 | July 28 | Goldwater's and Rockefeller's speeches; the acceptance | already in (`cal.1960-07-27.conservative-movement`, `cal.1960-07-28.elections-1960`) |
-| 320 | early Aug. | Goldwater to Nixon: Lodge popular everywhere | private remarks |
-| 320 | Aug. | Robinson 51–49; Gallup 53–47 after the convention | polls without dates |
-| 323 | June–July | Morton on television: the Republican nominee will debate | undated; lead |
-| 325 | Aug. 24 | Nixon at the VFW convention, Detroit | no word of it given; the text in APP (not read): lead |
-| 326 | Aug. 27 | Tkach; the knee tapped at Walter Reed | part of `cal.1960-08-29.elections-1960` |
-| 327 | Aug. 29–Sept. 9 | Eisenhower's and Rockefeller's visits to the hospital | private |
-| 329 | Aug. 31, Sept. 1, Sept. 14 | Gallup releases | polls; Sept. 14 already in as `cal.1960-09-14.opinion` |
-| 330–33 | Sept. 12–17 | the first week's stops (the *Hope* dedicated at Hunter's Point, Portland, Boise, Grand Forks, Peoria, Atlantic City, Roanoke, Omaha, Des Moines, Sioux City, Minneapolis–St. Paul); the Iowa School for the Deaf | an itinerary, no word given (APP holds the texts); the school private |
-| 335 | Sept. 19–23 | the second week's stops | an itinerary |
-| 337 | Sept. 26 | Nixon to the Carpenters' convention, Chicago | no word given (APP) |
-| 340–41 | Sept. 26 | the staff's post-mortem on the debate; Todd's diet | private |
-| 342–43 | Sept. 27–Oct. 6 | Memphis, West Memphis, Charleston; Fordham (Oct. 5); Cleveland (Oct. 6); Seltzer's advice | an itinerary; Seltzer private remarks |
-| 346, 349 | Oct. 8–15 | Minnesota to New Mexico; California; Arizona, Oklahoma, Illinois | an itinerary |
-| 349 | Oct. 18 | Eisenhower at Minneapolis–St. Paul | planned at Hartford; the speech not treated; lead (the Public Papers) |
-| 351 | Jan. 1960 | Kennedy's speeches published: Castro "part of the legacy of Bolivar" | a book, no day; lead |
-| 351 | May 1960 | Kennedy on television: "for the present, I support the Administration" on Cuba | undated within May; lead |
-| 351 | Oct. 17 | Connecticut, with Alcorn | an itinerary; a remark |
-| 356 | Oct. 21 | Dillon telephones Nixon after the debate | private remarks |
+| 327 | Aug. 29–Sept. 9 | the girls' evening visits to the hospital | family |
+| 341 | Sept. 26 | his mother's call | family |
 | 358–60 | Oct. 20–Nov. 2 | the press's and networks' predictions (NBC, the *Times*, Alsop, Lawrence, Reston, the newsweeklies) | journalists' work, no act |
-| 360–61, 363–64, 370 | Oct. 24–Nov. 5 | the whistle-stop and last week's speeches (Kennedy's "rash" statements; "a printing press"; "Pied Piper") | repetitions of positions entered, no new matter; APP holds the texts |
-| 361 | Oct. 26 | Dayton | an itinerary |
-| 364 | Oct. 31–Nov. 4 | nightly national telecasts at seven, at Dewey's suggestion | the days not given; lead (APP) |
-| 365 | early fall | Billy Graham's endorsement for *Life*, vetoed by Nixon | undated; lead |
-| 365–66 | Sept.–Nov. | Democrats on religion: Stevenson on Quakers; Hodges at Charlottesville; Jackson's "conniving"; Diggs; Powell; COPE's pamphlet; the Kennedy-Johnson Labor Committee's leaflet; Kennedy's "racism in reverse" | undated; lead |
-| 369–70 | Nov. 3–5 | San Antonio, the telecast on defense, Houston with Tower (Hutcheson and Hobby: Texas will go Republican); Fort Worth, Cheyenne, Spokane, Fresno; San Jose to Los Angeles | an itinerary; Hutcheson and Hobby private remarks |
-| 371 | Nov. 6 | the taped half hour from Los Angeles | already in as `cal.1960-11-06.elections-1960` (its proposal; *Six Crises* gives other matter) |
-| 371–73 | Nov. 7 | Madison; Rockefeller's call (New York turning) | an itinerary; private remarks |
-| 376–79 | Nov. 8 | Ontario airport; voting at Whittier; Tijuana; San Juan Capistrano | private |
+| 360–61, 363–64, 370 | Oct. 24–Nov. 5 | the last weeks' attacks on Kennedy's "rash" statements | repetitions of positions entered, no new matter (the places in the swing entries below) |
+| 371 | Nov. 6 | the taped half hour from Los Angeles | already in as `cal.1960-11-06.elections-1960` |
 | 379–92 | Nov. 8–9 | the returns through the night | already in as `cal.1960-11-08` and `-11-09` entries |
-| 391 | Nov. 9, 2:30 a.m. | Hall to Nixon: two hundred Cook County precincts held back | a remark in the night; the charges are in from Nov. 10 (`cal.1960-11-10.elections-1960`) |
-| 395–97 | Nov. 9 | the law firm's offer; Lodge's call; Willard Edwards; Reston's letter to Henry Arnold (ten days before) | private |
+| 395 | Nov. 9 | a law firm's offer of a partnership | personal: his career, no public business |
+| 397 | Oct. 29 | Reston's letter to Henry Arnold | a journalist's private letter |
 | 400–401 | Nov. 9 | the welcome at Andrews | social |
-| 403 | Nov. 10–11 | Wardlaw's remark; to Florida | private |
-| 408 | Nov. 13 | Smathers to Nixon: Bowles and others urging Kennedy to reconsider China | private remarks |
-| 410, 414–15 | Nov. 16–Dec. | Florida and Nassau; the letters; *Fiorello!*; the White House dinners; Byrnes's dinner | private; social |
+| 403 | Nov. 10 | Wardlaw, his driver, on the Negro vote | private remark of a man with no public role |
+| 410, 414–15 | Nov. 16–Dec. | Florida and Nassau; the letters; *Fiorello!*; the White House dinners; Byrnes's dinner | family and social |
 | 417 | Jan. 20, 1961 | Strauss's luncheon | social |
 | 421 | Jan. 13, 1961 | Cardinal Cushing, at Baltimore, names Nixon "good will man of the year" | out of the brief |
-| 421 | July 25–28 | the Merchandise Mart picketing proposed and refused | undated within the convention; lead |
-| 424–25 | Jan.–Feb. 1961 | the offers; the law firm; Chambers's letter urging the governorship | private |
-| 426 | Apr. 1960 | De Gaulle to Nixon, Sophocles | private remarks |
-| 336 n.5 | late June 1961 | Kennedy's press conference on Soviet growth | a remark at a press conference; lead (the Public Papers) |
+| 424–25 | Jan.–Feb. 1961 | the offers; Dreyfus; the law firm | personal: his career |
+| 426 | Apr. 1960 | De Gaulle to Nixon, Sophocles | social: a philosophical remark, no public business |
 | 127 | Dec. 1960 | Nixon's Christmas reception for the press | social |
 | 223 n.3, 231 n.4 | Dec. 1961 | Venezuela's riots before Kennedy's visit; Peruvian students' apology | out of the brief (the visit's security entered) |
 
-By reason: out of the brief or before the span 6; undated 11 (leads); private, social or private remarks 22; an
-itinerary or no word given 10; polls 4; already in 7; repetitions 1; journalists' work 1.
+By reason: before the span or out of the brief 3; already in 5; polls (Opinion) 1; family or social 8; personal 2;
+journalists 2; repetitions 1.
+
+## Entered (the owner's ruling, Oct. 28, late)
+
+Patch `inbox/2026-10-29-b3-six-crises-more.yaml` (b3-six-crises-more), 55 entries; the trips with their places from APP's
+list of the day's remarks (the index; APP not read).
+
+| Page | Date | Event | Entry |
+|---|---|---|---|
+| 351 | Jan. 1960 | Kennedy's speeches published: Castro "part of the legacy of Bolivar" | cal.1960-01.elections-1960-3 |
+| 351 | May 1960 | Kennedy on television: "for the present, I support the Administration" | cal.1960-05.elections-1960-6 |
+| 323 | before the conventions | Morton on television: the Republican nominee will debate | cal.1960-07.elections-1960-7 |
+| 312 | before July 11 | Morton, at Nixon's suggestion, predicts a Kennedy–Johnson "deal" | cal.1960-07.elections-1960-8 |
+| 312 | July 11–14 | Camp David; Rogers with Nixon when Johnson is named | cal.1960-07-11.elections-1960-4 |
+| 317 | July | Mitchell rules himself out | cal.1960-07.elections-1960-9 |
+| 421 | July 25–28 | the Merchandise Mart picketing proposed and refused | cal.1960-07-25.elections-1960-2 |
+| 308 | Aug. 1 | *U.S. News* prints the Kennedy staff's 1956 memorandum | cal.1960-08-01.elections-1960-2 |
+| 320 | early Aug. | Goldwater to Nixon: Lodge popular everywhere | cal.1960-08.elections-1960-4 |
+| 320 | Aug. | Robinson 51–49 | cal.1960-08.elections-1960-5 |
+| 325 | Aug. 24 | Nixon at the VFW convention, Detroit | cal.1960-08-24.elections-1960-3 |
+| 326 | Aug. 27 | Tkach; the knee tapped at Walter Reed | cal.1960-08-27.elections-1960 |
+| 327 | Aug. 29–Sept. 9 | Eisenhower's and Rockefeller's visits to the hospital | cal.1960-08-29.elections-1960-2, -3 |
+| 365 | early fall | Billy Graham's endorsement for *Life*, vetoed | cal.1960-09.elections-1960-3 |
+| 329 | Sept. 9 | Robinson 50–50 | cal.1960-09-09.elections-1960-3 |
+| 330–33 | Sept. 13–17 | the first week's stops; the fever at St. Louis; the Iowa School for the Deaf | cal.1960-09-13.elections-1960, cal.1960-09-14.elections-1960-3, cal.1960-09-15.elections-1960-2, cal.1960-09-16.elections-1960, cal.1960-09-17.elections-1960 |
+| 335 | Sept. 19–23 | the second week's stops | cal.1960-09-19.elections-1960-2 |
+| 337 | Sept. 25–26 | Chicago's wards; the Carpenters | cal.1960-09-25.elections-1960-3 |
+| 340–41 | Sept. 26 | the post-mortem on the debate; Todd's diet | cal.1960-09-26.elections-1960-3 |
+| 342–43 | Sept. 27–Oct. 6 | Memphis, West Memphis, Charleston; the swing to Oct. 6; Fordham; Seltzer | cal.1960-09-27.elections-1960-2, cal.1960-09-28.elections-1960, cal.1960-10-03.elections-1960, cal.1960-10-05.elections-1960, cal.1960-10-06.elections-1960-2 |
+| 346, 349 | Oct. 8–15 | Minnesota to New Mexico; California; Arizona, Oklahoma, Illinois | cal.1960-10-08.elections-1960, cal.1960-10-11.elections-1960, cal.1960-10-15.elections-1960-2 |
+| 351 | Oct. 17 | Connecticut, with Alcorn | cal.1960-10-17.elections-1960-4 |
+| 349 | Oct. 18 | Eisenhower at Minneapolis–St. Paul | cal.1960-10-18.elections-1960-4 |
+| 356 | Oct. 21 | Dillon telephones Nixon after the debate | cal.1960-10-21.elections-1960-3 |
+| 361 | Oct. 24–28 | the whistle-stop train; Dayton | cal.1960-10-24.elections-1960-2 |
+| 365–66 | Sept.–Nov. | the Democrats on religion | cal.1960-10.elections-1960-7 |
+| 364 | Oct. 31–Nov. 4 | the nightly telecasts at seven | cal.1960-10-31.elections-1960-2 |
+| 364 | Oct. 31–Nov. 1 | New Jersey, Pennsylvania, upstate New York | cal.1960-10-31.elections-1960-3 |
+| 369–70 | Nov. 3–5 | San Antonio, Houston; Hutcheson and Hobby; Fort Worth to Fresno; San Jose to Los Angeles | cal.1960-11-03.elections-1960-2, -3, cal.1960-11-04.elections-1960-4, cal.1960-11-05.elections-1960-3 |
+| 371–73 | Nov. 7 | Madison and Detroit; Rockefeller's call | cal.1960-11-07.elections-1960-3, cal.1960-11-07.elections-1960-6 |
+| 376–79 | Nov. 8 | Ontario airport; voting at Whittier; Tijuana; San Juan Capistrano | cal.1960-11-08.elections-1960-5, -6, -7 |
+| 391 | Nov. 9, 2:30 a.m. | Hall: two hundred Cook County precincts held back | cal.1960-11-09.elections-1960-6 |
+| 395–97 | Nov. 9 | Lodge's call; Willard Edwards | cal.1960-11-09.elections-1960-7, -8 |
+| 403 | Nov. 11 | to Florida | cal.1960-11-11.elections-1960 |
+| 408 | Nov. 13 | Smathers on China | cal.1960-11-13.transition-and-staff |
+| 425 | Feb. 1961 | Chambers's letter: run for governor | cal.1961-02.elections-1962 |
+| 336 n.5 | June 28, 1961 | Kennedy's press conference on Soviet growth | cal.1961-06-28.soviet-union |
+
+The merge may renumber an id taken in the meantime; the patch is the record.
 
 ## Leads
 
 National:
-- Morton's public prediction of a Kennedy–Johnson "deal," at Nixon's suggestion, before the Los Angeles convention
-  (*Six Crises*, 312): the day and where.
-- Morton on television, before the conventions, that the Republican nominee would debate (323); and the Senate's
+- (Entered with a Check, cal.1960-07.elections-1960-7.) Morton on television, before the conventions, that the Republican nominee would debate (323); and the Senate's
   passage of the Section 315 joint resolution, which Nixon puts before the conventions (74 Stat. 554 is of Aug. 24).
-- Mitchell rules himself out for second place, after Kennedy's nomination (317): the day.
-- Billy Graham's article for *Life* endorsing Nixon, vetoed by Nixon, "early in the fall" (365).
-- The Democrats on religion, autumn 1960 (365–66): Hodges at Charlottesville; Jackson's charge of "conniving"; Diggs;
+- (Entered with a Check, cal.1960-10.elections-1960-7.) The Democrats on religion, autumn 1960 (365–66): Hodges at Charlottesville; Jackson's charge of "conniving"; Diggs;
   Powell; COPE's pamphlet; the Kennedy-Johnson Labor Committee's leaflet; Stevenson on Nixon's Quaker faith: the days.
-- Kennedy on Cuba: the television interview of May 1960 (351); the place and text of Sept. 15 and the program of
+- Kennedy on Cuba (the May interview entered with a Check, cal.1960-05.elections-1960-6): the television interview of May 1960 (351); the place and text of Sept. 15 and the program of
   Sept. 30 (entered with Checks); the Scripps-Howard statement of Sept. 23 and the statement of Oct. 23.
-- Nixon's nightly telecasts of the last week, at Dewey's suggestion (364): the days, from APP's list.
+- (Entered with a Check, cal.1960-10-31.elections-1960-2.) Nixon's nightly telecasts of the last week, at Dewey's suggestion (364): the days, from APP's list.
 - Which Toledo text of Oct. 26, 1960 carries the testing pledge (APP lists two).
-- The Merchandise Mart picketing proposed to Nixon at the convention (421).
-- Kennedy's press conference of late June 1961 on Soviet growth (336 n.5): the day in the Public Papers.
 - *Six Crises*: the day of publication (March 1962) and the first printing's p. 354, set before the White House's
   statement of Mar. 20, 1962.

@@ -13,6 +13,8 @@ These replace the OCR in make_elections.py. Each file:
         - [Name, 'Democrat, Liberal', 141323, [[Democrat, 47371], [Liberal, 9965]]]   # fusion: total, then lines
         - [Scattering, null, 12]     # also 'Write-in', 'Others', 'Miscellaneous': counted as scattering
         note: >-                     a ruling: why this figure and not another (kept here, not shown)
+        names: printed               the names as printed stand: Wikipedia's are not laid over them (a surname
+                                     Wikipedia misspells alike: 'Eonard', Mich. 16th, 1964)
         printed: >-                  where the Clerk's own figures disagree (the race page and the recapitulation, a
                                      bracketed total and its lines, a party printed one way and counted another):
                                      which is used; shown in the race's note (also under president: ST)
@@ -41,7 +43,7 @@ Rules for a reading (the review tools in tools/elections/review/ apply them):
   - Names and parties as printed; make_elections.py gives Wikipedia's name where the surname matches.
 
 Exposed as before: READ[year][(ch, st, seat)] = [(name, party, votes[, lines])]; UNTABULATED, WON,
-AGREE_NOT (wikipedia_differs), PRES[year][st] = [(party, votes)], PRES_FROM[(year, st)], NOTES[year][key].
+AGREE_NOT (wikipedia_differs), PRES[year][st] = [(party, votes)], PRES_FROM[(year, st)], NOTES[year][key], PRINTED_NAMES[year] (keys).
 """
 import glob
 import os
@@ -64,12 +66,14 @@ def row(r):
     return tuple(r)
 
 
-READ, UNTABULATED, WON, AGREE_NOT, PRES, PRES_FROM, NOTES, NOT_IN_VOLUME, RACE_FROM, CLERK = {}, {}, {}, {}, {}, {}, {}, {}, {}, {}
+READ, UNTABULATED, WON, AGREE_NOT, PRES, PRES_FROM, NOTES, NOT_IN_VOLUME, RACE_FROM, CLERK, PRINTED_NAMES = \
+    {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}
 for f in sorted(glob.glob(os.path.join(DIR, '*.yaml'))):
     d = yaml.safe_load(open(f, encoding='utf-8')) or {}
     y = d['year']
     READ[y] = {key(k): [row(r) for r in v['cands']] for k, v in (d.get('races') or {}).items()}
     NOTES[y] = {key(k): v['note'] for k, v in (d.get('races') or {}).items() if v.get('note')}
+    PRINTED_NAMES[y] = {key(k) for k, v in (d.get('races') or {}).items() if v.get('names') == 'printed'}
     RACE_FROM[y] = {key(k): v['source'] for k, v in (d.get('races') or {}).items() if v.get('source')}
     for k, v in (d.get('races') or {}).items():
         if v.get('clerk'):

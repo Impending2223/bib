@@ -1,0 +1,431 @@
+# Congressional Quarterly, "Winning Representatives' Vote Percentages Since 1954," *CQ Weekly Report*, vol. 24, no. 29
+# (week ending July 22, 1966), pp. 1563-1567 (running feet "July 22, 1966 -- PAGE 1563" ... "PAGE 1567", confirmed on
+# each page; PDF pages 79-83; p. 1568, PDF page 84, is the "1966 Election Calendar", not the chart). The headnote
+# (p. 1563): "This chart shows the percentage of the total Congressional district vote won by House Members in elections
+# since 1954 ... Percentages are based on final, official returns. Past percentages were not applicable in areas where
+# district lines had been changed by redistricting. These new districts were treated as follows: Where sufficient
+# election statistics were available, CQ calculated the last Congressional vote prior to redistricting within the
+# counties or wards which make up each newly created district For these districts, the majority party percentage thus
+# calculated is marked by this symbol:* Where a district within a redistricted state retained its old borders, even
+# though its district number is changed, the percentages since 1954, still applicable, are given. Percentages of winning
+# Democrats are given in bold type, of winning Republicans in light type. Only 1964 winners' names are given, except for
+# notation of winners in subsequent special elections." The footnote box (the same on pp. 1563-1567): "*Redistricted
+# seat. Figure shown is the majority percentage of the previous vote for Congress cast within the confines of the new
+# district." "**Resigned." "[bullet] Retiree." "X No major party opposition." "***Defeated in 1966 primary." "#Estimated
+# figures." "[dagger] Deceased." "[double dagger] Liberal candidate received 6.6% of 1962 vote." Where CQ had no figures
+# it prints "Not available" or "Figures unavailable" and a rating ("Safe Democratic", "Leans Republican", "Doubtful").
+# The recomputed (*) figures for the 1965-66 redistrictings stand in the 1964 column (the last vote before them); the
+# other marks (in the 1962 and 1960 columns) are the 1961-64 redistrictings' and are not read here.
+#
+# The copy read: the owner's scan (w66.pdf), PDF pages 79-83, read by eye off 300-dpi renders (Nov. 1, 2026): each page
+# whole, then each State's block cropped; every cell of the listed seats read a second time from a fresh crop (or, for
+# Arizona and Arkansas, a fresh render of the block); the two readings agree in every cell. The other marked cells in the
+# 1964 column (States not on the missing list) read once in a crop and checked against the whole-page image.
+#
+# Cells: `[party, pct]`, the 1964 column as printed: pct the leading party's percentage of the TOTAL vote, party by the
+# type weight (bold D, light R; the weight, not the incumbent's party: Maryland's 1st, Morton (R), is bold). The
+# orchestrator converts: D = pct, or 100 - pct where R leads, the rest taken as the other major party's (an
+# approximation: minor parties' votes are in the total). `old`: the cell printed without the mark (the "old borders"
+# case; a figure for the old district). `unopposed`: the cell prints "X" (no major-party opposition), with the mark
+# unless `old` names it; an X carries no party by its weight (the legend's X is bold too). `estimated`: CQ's "#".
+# `rating`: the words CQ prints where it had no figures, as printed ("Not available*": the mark with no rating).
+# `special`: a later special election's figure printed under the seat (unmarked, the old district's), not the lag.
+# `two_members`: the figure stands on the line of the second-named incumbent thrown into the district, as noted.
+#
+# Not final / no figures: the chart prints New Jersey "(Redistricted June 18, 1966, percentages not yet computed.)"
+# (p. 1565; the scan reads "perceniages", a broken t): no figures. South Carolina is printed with its full 1954-64
+# history, unmarked, as if on old borders, though the issue's own outlook (p. 1516, read from the page's OCR, not by eye)
+# says the 2nd lost "heavily Republican Aiken County in the recent redistricting" and the 3rd was "recently redistricted
+# to include the Republican counties of Sumter and Aiken": the 2nd's cell is a figure for the old district. Nothing in
+# the chart marks any other State as on old lines, pending, or awaiting a court plan. Tennessee: the outlook (p. 1517,
+# OCR) says "A 1965 redistricting act was declared unconstitutional by a three-judge federal panel but was allowed to
+# stand for use in this year's elections" (the 1966 lines; a later plan is 1968's). Arizona's lines are a three-judge
+# court's of Feb. 2, 1966 (p. 1491, OCR). CQ's 1966 index (its corrections) not read: a lead.
+#
+# Checks against the issue's outlooks (OCR, not by eye): Ohio's 17th, "voted 53.5 percent Democratic in 1964" (p. 1512),
+# agrees; North Carolina's 10th, "dropping Whitener's margin to 55.8 percent" (p. 1511), agrees; Idaho's 2nd, "50.3
+# percent" (p. 1497), agrees. Two disagree: Idaho's 1st, chart 48.9* light, outlook "This gave Republicans 51.1 percent of
+# the 1964 vote" (p. 1497): the cell is the Democrat's share printed light, not the leader's (do not convert it as R);
+# Illinois's 23rd, chart 58.1*, outlook "from 54.6 to 60.7 percent" (p. 1498). Tennessee's 5th (old, 59.8) against the
+# Census's Supplement No. 16 (cdh-1966s): 74,597 of 124,807, 59.8 percent: agrees.
+#
+# `pages` names the districts with a figure or a rating. Used for the 1966 lag (the 1964 House vote on the 1966 lines,
+# the 90th Congress's).
+# `pages` names the districts with a figure (the orchestrator, on wiring the file in).
+source: cq-1966
+lines: 90
+recomputed: true
+shares: true
+of_total: true
+fields: [party, pct]
+years: [1964]
+states:
+  AL:
+    pages: {79: [4, 6]}
+    page: 1563
+    d:
+      4: {1964: [R, 60.6]}
+      6: {1964: [R, 59.7]}
+    note: "Only the 4th and 6th are marked; the 1st, 2nd, 5th, 7th (figures) and 3rd, 8th (X) are printed unmarked."
+    party_doubt: []
+    doubt: []
+  AZ:
+    pages: {79: [1, 2, 3]}
+    page: 1563
+    d:
+      1: {1964: [R, 57.8]}
+      2: {1964: [D, 58.7]}
+      3: {1964: [D, 51.6]}
+    old: [2]
+    estimated: ["1 1964"]
+    party_doubt: []
+    doubt: []
+  AR:
+    pages: {79: [3]}
+    page: 1563
+    d:
+      3: {1964: [D, 56.2]}
+    unopposed: [1, 2, 4]
+    old: [4]
+    note: "4: printed 'X 77.5 X*' (1964 X unmarked; 1960 marked, the 1961 redistricting)."
+    party_doubt: []
+    doubt: []
+  FL:
+    pages: {79: [3], 80: [5, 8, 9]}
+    page: 1563-1564
+    d:
+      3: {1964: [D, 72.7]}
+      5: {1964: [R, 61.3]}
+      8: {1964: [R, 60.6]}
+      9: {1964: [D, 66.3]}
+    unopposed: [1, 2, 4, 6, 7]
+    rating:
+      10: "Figures unavailable; Leans Republican"
+      11: "Figures unavailable; Safe Democratic"
+      12: "Figures unavailable; Safe Democratic"
+    two_members: {2: "Fuqua (D); Matthews (D)***: X* on Matthews's line"}
+    party_doubt: []
+    doubt: []
+  ID:
+    pages: {80: [1, 2]}
+    page: 1564
+    d:
+      1: {1964: [R, 48.9]}
+      2: {1964: [R, 50.3]}
+    note: "1: printed 48.9* in light type; the outlook (p. 1497) gives the Republicans 51.1 percent of the 1964 vote in the new district, so 48.9 is the Democrat's share: D = 48.9, R = 51.1 (of the two)."
+    party_doubt: ["1 1964"]
+    doubt: ["1 1964"]
+  IL:
+    pages: {80: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]}
+    page: 1564
+    d:
+      1: {1964: [D, 80.0]}
+      2: {1964: [D, 71.0]}
+      3: {1964: [D, 62.0]}
+      4: {1964: [R, 60.0]}
+      5: {1964: [D, 60.0]}
+      6: {1964: [D, 69.0]}
+      7: {1964: [D, 83.0]}
+      8: {1964: [D, 66.0]}
+      9: {1964: [D, 65.0]}
+      10: {1964: [R, 57.0]}
+      11: {1964: [D, 61.0]}
+      12: {1964: [R, 60.0]}
+      13: {1964: [R, 62.0]}
+      14: {1964: [R, 59.0]}
+      15: {1964: [R, 58.4]}
+      16: {1964: [R, 56.8]}
+      17: {1964: [R, 56.7]}
+      18: {1964: [R, 55.6]}
+      19: {1964: [D, 51.0]}
+      20: {1964: [R, 55.9]}
+      21: {1964: [D, 63.3]}
+      22: {1964: [R, 52.5]}
+      23: {1964: [D, 58.1]}
+      24: {1964: [D, 77.4]}
+    estimated: ["1 1964", "2 1964", "3 1964", "4 1964", "5 1964", "6 1964", "7 1964", "8 1964", "9 1964", "10 1964", "11 1964", "12 1964", "13 1964"]
+    note: "23: the outlook (p. 1498, OCR) says the redistricting raised the 1964 Democratic percentage 'from 54.6 to 60.7 percent'; the chart prints 58.1*."
+    party_doubt: []
+    doubt: []
+  IN:
+    pages: {80: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]}
+    page: 1564
+    d:
+      1: {1964: [D, 66.8]}
+      2: {1964: [R, 53.3]}
+      3: {1964: [D, 60.7]}
+      4: {1964: [R, 51.0]}
+      5: {1964: [D, 55.6]}
+      6: {1964: [R, 61.9]}
+      7: {1964: [R, 51.8]}
+      8: {1964: [D, 54.3]}
+      9: {1964: [D, 55.1]}
+      10: {1964: [R, 52.5]}
+      11: {1964: [D, 58.4]}
+    estimated: ["6 1964", "10 1964"]
+    two_members: {10: "Roudebush (R); Harvey (R)***: the figure on Roudebush's line"}
+    note: "7: 'None' (no incumbent). 8: 'Denton', no party printed."
+    party_doubt: []
+    doubt: []
+  KS:
+    pages: {80: [1, 2, 3, 4, 5]}
+    page: 1564
+    d:
+      1: {1964: [R, 53.2]}
+      2: {1964: [R, 52.2]}
+      3: {1964: [R, 61.9]}
+      4: {1964: [R, 55.0]}
+      5: {1964: [R, 55.0]}
+    estimated: ["4 1964", "5 1964"]
+    party_doubt: []
+    doubt: []
+  KY:
+    pages: {80: [1, 2, 5, 6, 7]}
+    page: 1564
+    d:
+      1: {1964: [D, 92.9]}
+      2: {1964: [D, 69.7]}
+      5: {1964: [R, 52.8]}
+      6: {1964: [D, 71.6]}
+      7: {1964: [D, 69.7]}
+    rating:
+      3: "Figures unavailable; Doubtful"
+      4: "Figures unavailable; Doubtful"
+    two_members: {2: "Natcher (D); Chelf (D): the figure on Natcher's line"}
+    party_doubt: []
+    doubt: []
+  MD:
+    pages: {80: [1, 2, 3, 4, 5, 6, 7, 8]}
+    page: 1564
+    d:
+      1: {1964: [D, 51.7]}
+      2: {1964: [D, 66.0]}
+      3: {1964: [D, 84.9]}
+      4: {1964: [D, 71.4]}
+      5: {1964: [D, 60.2]}
+      6: {1964: [R, 53.6]}
+      7: {1964: [D, 85.0]}
+      8: {1964: [R, 50.2]}
+    estimated: ["1 1964", "3 1964", "4 1964", "6 1964", "7 1964", "8 1964"]
+    note: "1: Morton (R), the figure in bold. 8: 'None'."
+    party_doubt: []
+    doubt: []
+  MO:
+    pages: {81: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}
+    page: 1565
+    d:
+      1: {1964: [D, 74.5]}
+      2: {1964: [R, 54.3]}
+      3: {1964: [D, 74.0]}
+      4: {1964: [D, 63.9]}
+      5: {1964: [D, 65.5]}
+      6: {1964: [D, 64.5]}
+      7: {1964: [R, 51.9]}
+      8: {1964: [D, 65.5]}
+      9: {1964: [D, 63.0]}
+      10: {1964: [D, 67.2]}
+    note: "10: the tenths digit is broken in the print (a dot over a wedge-shaped base); read 2, not certain. The 1965 lines, used in 1966."
+    party_doubt: []
+    doubt: ["10 1964"]
+  MT:
+    pages: {81: [1, 2]}
+    page: 1565
+    d:
+      1: {1964: [D, 52.6]}
+      2: {1964: [R, 53.9]}
+    party_doubt: []
+    doubt: []
+  NC:
+    pages: {82: [1, 2, 3, 4, 5, 6, 8, 9, 10, 11]}
+    page: 1566
+    d:
+      1: {1964: [D, 82.0]}
+      2: {1964: [D, 89.8]}
+      3: {1964: [D, 64.6]}
+      4: {1964: [D, 54.1]}
+      5: {1964: [D, 55.9]}
+      6: {1964: [D, 55.1]}
+      8: {1964: [R, 55.1]}
+      9: {1964: [R, 55.1]}
+      10: {1964: [D, 55.8]}
+      11: {1964: [D, 60.2]}
+    unopposed: [7]
+    special: {1: "Jones (D) 60.3, bold, unmarked (Special election '66)"}
+    party_doubt: []
+    doubt: []
+  OH:
+    pages: {82: [3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 17, 20, 21, 22, 23, 24]}
+    page: 1566
+    d:
+      3: {1964: [D, 55.2]}
+      4: {1964: [R, 55.4]}
+      5: {1964: [R, 65.0]}
+      6: {1964: [R, 60.1]}
+      7: {1964: [R, 56.5]}
+      8: {1964: [R, 58.6]}
+      9: {1964: [D, 62.9]}
+      10: {1964: [D, 57.6]}
+      11: {1964: [R, 54.9]}
+      13: {1964: [R, 55.3]}
+      14: {1964: [R, 54.0]}
+      17: {1964: [D, 53.5]}
+      20: {1964: [D, 80.0]}
+      21: {1964: [D, 82.3]}
+      22: {1964: [R, 56.3]}
+      23: {1964: [R, 63.2]}
+      24: {1964: [R, 54.5]}
+    rating:
+      1: "Not available; Doubtful"
+      2: "Not available; Safe Republican"
+      12: "Not available; Safe Republican"
+      15: "Leans Republican"
+      16: "Not available; Safe Republican"
+      18: "Not available; Safe Democratic"
+      19: "Not available; Safe Democratic"
+    special: {7: "Brown (R) 59.6, light, unmarked (Special election '66)"}
+    two_members:
+      17: "Ashbrook (R); Secrest (D): the figure on Ashbrook's line"
+      23: "Minshall (R); Sweeney (D): the figure on Minshall's line"
+    note: "15 and 24: 'None' (no incumbent)."
+    party_doubt: []
+    doubt: []
+  OR:
+    pages: {82: [1, 2, 3, 4]}
+    page: 1566
+    d:
+      1: {1964: [R, 52.0]}
+      2: {1964: [D, 62.0]}
+      3: {1964: [D, 67.0]}
+      4: {1964: [D, 64.3]}
+    estimated: ["1 1964"]
+    party_doubt: []
+    doubt: []
+  PA:
+    pages: {82: [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 21, 22, 23, 26]}
+    page: 1566
+    d:
+      6: {1964: [D, 66.2]}
+      7: {1964: [R, 53.0]}
+      8: {1964: [R, 53.2]}
+      9: {1964: [R, 54.8]}
+      10: {1964: [R, 51.8]}
+      11: {1964: [D, 72.4]}
+      12: {1964: [R, 58.9]}
+      13: {1964: [R, 59.0]}
+      14: {1964: [D, 74.8]}
+      15: {1964: [D, 59.7]}
+      16: {1964: [R, 59.2]}
+      17: {1964: [R, 58.7]}
+      21: {1964: [D, 65.8]}
+      22: {1964: [R, 57.1]}
+      23: {1964: [R, 54.5]}
+      26: {1964: [D, 68.2]}
+    old: [15]
+    rating:
+      1: "Not available*"
+      2: "Not available*"
+      3: "Not available*"
+      4: "Not available*"
+      5: "Not available*"
+    estimated: ["7 1964", "13 1964"]
+    two_members:
+      9: "Watkins (R); Dague (R): the figure on Dague's line"
+      17: "Schneebeli (R); Kunkel (R): the figure on Kunkel's line"
+    note: "7 and 13 printed '#*' (the marks reversed). The chart prints two lines numbered 21 (Holland, 74.4 67.4 69.2*, and Dent, 65.8*); the first is the 20th. 18, 19, 20 (Holland), 24, 25, 27 carry unmarked 1964 figures (old borders) and are not recorded."
+    party_doubt: []
+    doubt: []
+  SC:
+    pages: {82: []}
+    page: 1566
+    unopposed: [2]
+    old: [2]
+    special: {2: "Watson (R) 69.8, light, unmarked (Special election '65)"}
+    note: "2: 1964 'X' unmarked (Watson (D)**, unopposed); the chart prints all six districts with their 1954-64 figures, unmarked. See the header: the State was redistricted."
+    party_doubt: []
+    doubt: []
+  TN:
+    pages: {82: [1, 2, 3, 5, 6, 7, 8, 9]}
+    page: 1566
+    d:
+      1: {1964: [R, 71.8]}
+      2: {1964: [R, 55.9]}
+      3: {1964: [R, 54.9]}
+      5: {1964: [D, 59.8]}
+      6: {1964: [D, 78.8]}
+      7: {1964: [D, 55.0]}
+      8: {1964: [D, 80.0]}
+      9: {1964: [D, 52.2]}
+    unopposed: [4]
+    old: [5]
+    estimated: ["7 1964", "8 1964"]
+    note: "5: printed '59.8 60.4 X 94.4 74.5 90.8', unmarked (Davidson County kept whole)."
+    party_doubt: []
+    doubt: []
+  TX:
+    pages: {82: [1, 2], 83: [4, 6, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 21, 23]}
+    page: 1566-1567
+    d:
+      1: {1964: [D, 71.8]}
+      2: {1964: [D, 74.5]}
+      4: {1964: [D, 69.2]}
+      6: {1964: [D, 73.0]}
+      9: {1964: [D, 69.0]}
+      10: {1964: [D, 75.4]}
+      11: {1964: [D, 81.5]}
+      13: {1964: [D, 71.0]}
+      14: {1964: [D, 76.0]}
+      15: {1964: [D, 66.9]}
+      16: {1964: [D, 61.6]}
+      17: {1964: [D, 76.7]}
+      18: {1964: [D, 56.7]}
+      19: {1964: [D, 70.2]}
+      21: {1964: [D, 68.0]}
+      23: {1964: [D, 76.0]}
+    rating:
+      3: "Not available; Doubtful"
+      5: "Not available; Leans Democratic"
+      7: "Not available; Leans Republican"
+      8: "Not available; Safe Democratic"
+      12: "Not available; Safe Democratic"
+      20: "Not available; Safe Democratic"
+      22: "Not available; Leans Democratic"
+    estimated: ["6 1964", "9 1964", "13 1964", "14 1964", "21 1964"]
+    special: {8: "Thomas (D) 74.2, bold, unmarked (Special election '66)"}
+    two_members:
+      4: "Roberts (D); Beckworth (D)***: the figure on Roberts's line"
+      9: "Brooks (D); Thompson (D): the figure on Brooks's line"
+    note: "7 and 23: 'None' (no incumbent)."
+    party_doubt: []
+    doubt: []
+  UT:
+    pages: {83: [1, 2]}
+    page: 1567
+    d:
+      1: {1964: [R, 51.5]}
+      2: {1964: [D, 57.0]}
+    party_doubt: []
+    doubt: []
+  VA:
+    pages: {83: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}
+    page: 1567
+    d:
+      1: {1964: [D, 78.9]}
+      2: {1964: [D, 69.3]}
+      3: {1964: [D, 34.3]}
+      4: {1964: [D, 67.8]}
+      5: {1964: [D, 60.8]}
+      6: {1964: [R, 53.7]}
+      7: {1964: [D, 70.7]}
+      8: {1964: [D, 65.0]}
+      9: {1964: [D, 58.6]}
+      10: {1964: [R, 50.3]}
+    old: [2]
+    estimated: ["3 1964", "8 1964"]
+    note: "3: printed '34.3*#' in bold, clearly; not a majority, and not checked against the 1964 returns (a misprint?)."
+    party_doubt: []
+    doubt: ["3 1964"]
+not_final:
+  SC: "printed unmarked, with its 1954-64 history, as on old borders; the issue's outlook (p. 1516) says the 2nd and 3rd were redistricted"
+not_computed:
+  NJ: "(Redistricted June 18, 1966, percentages not yet computed.)"
+missing_not_found: [NJ 1, NJ 2, NJ 3, NJ 4, NJ 6, NJ 7, NJ 9, NJ 10, NJ 11, NJ 12, NJ 13, NJ 14, NJ 15]

@@ -37,7 +37,8 @@ Compiled since (each to be held against the Census volumes before use):
   1952 Districts", Feb. 19, 2013). Its figures scraped into a Kaggle set, 1952–2024 (no totals for 1964; 141 of 1960's
   rows without). Open here: the atlas's page answers.
 - Gary Jacobson's district file (the major-party presidential share by district, 1952 on), the political science
-  standard; not public. David Mayhew's "Amendments to Gary Jacobson dataset ... 1956–2004" (2011, works.bepress.com);
+  standard: public since 2015 as his replication data for "It's Nothing Personal" (Harvard Dataverse,
+  doi:10.7910/DVN/29559, CC0), kept in `sources/jacobson/` from Oct. 31, 2026 and held against ours (below). David Mayhew's "Amendments to Gary Jacobson dataset ... 1956–2004" (2011, works.bepress.com);
   David Broockman's replication data at Yale's ISPS archive (study d018: presidential results by district, 1952–2004;
   the page moved); Caughey and Sekhon's (David Brady's figures). ICPSR study 10, *United States Congressional District
   Data Books, 1961–1965*, the Data Books' tables as data (ICPSR refuses this environment, 403; a member's login).
@@ -119,7 +120,8 @@ gives no district figure for that year; the other year alone serves, as for the 
   only). Else CQ Weekly Report's district returns after the 1964 election (subscription), or the compilations since
   (Park-Egan's atlas, the Daily Kos spreadsheets, Jacobson's file), held against the Census volumes.
 - **The redistricted States' 1956 and 1960** on the 90th-91st lines: the same Supplements Nos. 8-32.
-- **1972 by district** (the 1974 election): the Census's *Congressional District Data, 94th Congress* (1974; LCCN
+- **1972 by district** (the 1974 election): Jacobson's `dpres` gives it on the 94th's lines (taken Oct. 31, 2026,
+  316 districts); to hold it against a printed source, the Census's *Congressional District Data, 94th Congress* (1974; LCCN
   74603410; not on HathiTrust by that number), the NRCC's *Vote Comparison* for 1974, CQ, Barone's *Almanac of
   American Politics* 1974 (not searched).
 - **1968 on the 92d's lines** (the 1970 election): *Congressional District Data, Districts of the 92d Congress*
@@ -132,3 +134,115 @@ gives no district figure for that year; the other year alone serves, as for the 
   elections above.
 
 Shown from Oct. 28, 2026 (the owner: "Show both. Be sure to cite and attribute"): tools/bib/pvi.py, STYLE 3-5.
+
+## The baseline, and what to read for it (Oct. 31, 2026)
+
+The owner's request (Oct. 23, 2026: the PVI "gives a rough index of candidate overperformance/underperformance"; Oct.
+31: its "primary use is to set that baseline"; "Run the numbers twice, once with [the incumbency term], and once
+without"): `tools/elections/make_baseline.py` and `elections/baseline.yaml` (CLAUDE.md, "Elections", the baseline
+bullet). The lags across the redistricting of 1962-72 come from the vote for Representative the same Data Books print,
+retabulated onto each Congress's lines (`elections/readings/districts-house/`).
+
+To check (the owner, Oct. 31, 2026: "the recalled literature you mentioned earlier, along with anything else I should
+read to better understand what's here"). Every citation below is recalled, not read: the volume and first page of each
+to verify (Check). In the catalogue already: [[w.cox-elbridge-gerrys-salamander]]; [[w.ansolabehere-end-of-inequality-2008]];
+[[w.mayhew-congress]]; [[w.fiorina-congress]].
+
+- The specification. Andrew Gelman & Gary King, "Estimating Incumbency Advantage without Bias," 34 Am. J. Pol. Sci.
+  1142 (1990): the regression the baseline runs, its year a time, and why the raw swing and the "sophomore surge" are
+  biased. Gary King & Andrew Gelman, "Systemic Consequences of Incumbency Advantage in U.S. House Elections," 35 Am. J.
+  Pol. Sci. 110 (1991). Andrew Gelman & Gary King, "A Unified Method of Evaluating Electoral Systems and Redistricting
+  Plans," 38 Am. J. Pol. Sci. 514 (1994): the district-level model behind JudgeIt.
+- The incumbency advantage growing in these very years. Robert S. Erikson, "The Advantage of Incumbency in
+  Congressional Elections," 3 Polity 395 (1971); David R. Mayhew, "Congressional Elections: The Case of the Vanishing
+  Marginals," 6 Polity 295 (1974); Albert D. Cover, "One Good Term Deserves Another: The Advantage of Incumbency in
+  Congressional Elections," 21 Am. J. Pol. Sci. 523 (1977); John A. Ferejohn, "On the Decline of Competition in
+  Congressional Elections," 71 Am. Pol. Sci. Rev. 166 (1977); Walter Dean Burnham, "Insulation and Responsiveness in
+  Congressional Elections," 90 Pol. Sci. Q. 411 (1975); Gary W. Cox & Jonathan N. Katz, "Why Did the Incumbency
+  Advantage in U.S. House Elections Grow?," 40 Am. J. Pol. Sci. 478 (1996); John R. Alford & David W. Brady, "Personal
+  and Partisan Advantage in U.S. Congressional Elections, 1846-1990," in *Congress Reconsidered* (Lawrence C. Dodd &
+  Bruce I. Oppenheimer eds., 5th ed. 1993) (Check: the edition and pages).
+- Redistricting and the personal vote: what the retabulated lags measure. Stephen Ansolabehere, James M. Snyder Jr. &
+  Charles Stewart III, "Old Voters, New Voters, and the Personal Vote: Using Redistricting to Measure the Incumbency
+  Advantage," 44 Am. J. Pol. Sci. 17 (2000); Scott W. Desposato & John R. Petrocik, "The Variable Incumbency
+  Advantage: New Voters, Redistricting, and the Personal Vote," 47 Am. J. Pol. Sci. 18 (2003).
+- The swing, uniform and otherwise, and votes into seats. David Butler & Donald Stokes, *Political Change in Britain*
+  (1969); Edward R. Tufte, "The Relationship between Seats and Votes in Two-Party Systems," 67 Am. Pol. Sci. Rev. 540
+  (1973); Gary C. Jacobson, *The Politics of Congressional Elections* (1983; later eds.); Gary C. Jacobson & Samuel
+  Kernell, *Strategy and Choice in Congressional Elections* (1981): the strategic candidates the residuals partly are.
+- The period's own constructs. Philip E. Converse, "The Concept of a Normal Vote," in Angus Campbell et al., *Elections
+  and the Political Order* (1966); Donald E. Stokes, "Parties and the Nationalization of Electoral Forces," in *The
+  American Party Systems* (William Nisbet Chambers & Walter Dean Burnham eds., 1967): the national, State and district
+  components the year term and the residual divide.
+- Later estimators, for comparison. Steven D. Levitt & Catherine D. Wolfram, "Decomposing the Sources of Incumbency
+  Advantage in the U.S. House," 22 Legis. Stud. Q. 45 (1997); David S. Lee, "Randomized Experiments from Non-random
+  Selection in U.S. House Elections," 142 J. Econometrics 675 (2008).
+- The PVI itself: the Cook Political Report's notes on the index (introduced 1997; the construct as it stood to 2021,
+  the two prior presidential elections averaged, before the 2022 change of weights). Check: the report's own statement.
+- The data used by others, to hold ours against: Gary C. Jacobson's district file (now in `sources/jacobson/`, below);
+  ICPSR study 10, *United States Congressional District Data Books, 1961-1965* (the
+  Data Books' tables as data; ICPSR refuses this environment).
+
+Not done here: the readings of these works; a card for each (they are not yet cited by an entry, and a card nothing
+points to is a warning); the display (the residual under each race, the year's coefficients under the November block).
+
+## Jacobson's file against ours, and the lags still missing (Oct. 31, 2026)
+
+The owner, Oct. 31, 2026: "Please do go ahead with 1-3, and 4 as described. I'd still like to find fuller retabulated
+House party vote baselines. Are they out there somewhere? What sources remain unread and outstanding?"
+
+Done: his file in `sources/jacobson/` (README, codebook); the standing comparison, `notes/jacobson-compare.md`
+(`tools/elections/jacobson.py`; `check` [jacobson]); the baseline on three lags (make_baseline.py STYLE 6-7); his
+`dpres` where no Census volume gives a district (make_pvi.py STYLE 13: 1974's districts 0 to 316, 1966's 172 to 222).
+
+What the comparison shows. His House shares agree with the Clerk's within half a point in 97-99 percent of seats a
+year. His lags (`dvp`) in the redrawn States are not the same-numbered seat's: in 1962 they are the 1963 Data Book's
+retabulations (50 of 50 the series also holds); in 1972 and 1974 mostly a predecessor seat's actual share (46 and 26
+seats named in the listing), which is a different quantity from a retabulation (the predecessor's voters are not the
+new district's). His own estimate leaves the redrawn seats out (`redist==0`). His `redist` and the series' shapes
+disagree in 2 to 42 seats a year (Maryland's whole delegation in 1962, New Jersey's, Pennsylvania's): one or the other
+is wrong, or the shapes differ by digitizing; each is listed.
+
+The lags the baseline lacks (contested seats with no retabulated or same-lines lag; some are seats unopposed at the
+election before, which have no two-party lag on any source):
+
+| Election | Contested | With a lag | Without | Where most | The vote it needs |
+|---|---|---|---|---|---|
+| 1962 | 371 | 170 | 201 | Cal. 33, N.Y. 33, Ill. 21, Pa. 15, Tex. 12 | 1960 House on the 88th's lines: the 1963 Data Book's "n.a." for split-county districts |
+| 1964 | 388 | 315 | 73 | Mich. 19, Wis. 10, Ala. 6, Conn. 5 | 1962 House on the 89th's lines (Supps. 1-7 retabulate Alabama only) |
+| 1966 | 373 | 276 | 97 | Ohio 21, N.J. 13, Ind. 11, Mo. 10, N.C. 9 | 1964 House on the 90th's lines (the 1966 Supplements print the House "NA") |
+| 1968 | 385 | 310 | 75 | N.Y. 40, Mo. 10, Tex. 7 | 1966 House on the 91st's lines (CDD-92 serves only where the 1970 lines kept the district) |
+| 1974 | 375 | 266 | 109 | Cal. 38, N.Y. 34, Tex. 16 | 1972 House on the 94th's lines |
+
+Where fuller retabulations may be: searched Oct. 31, 2026, and set out as the procurement batch `retab-2026-10-31`
+(`notes/procurement.md`, "The House vote on new lines"; 60 records in `notes/procurement.yaml`). The best: the
+Republican Congressional Committee's *Congressional Vote Statistics* "adjusted for" each reapportionment (1962,
+1964, 1966) and its *Vote Comparison* of 1966, at the Library of Congress, for the 1962, 1964 and 1966 rows; the
+Census's CDD-94 (Texas, California, New York, 1974) for the 1974 row. The list first written here, from memory, as
+it stood:
+
+1. The Republican (from 1966, National Republican) Congressional Committee's *Congressional and Presidential Vote
+   Comparison* / *Congressional District Vote Comparison*: the Census's own source for 1952 (the 1961 volume) and for
+   1964-70 (CDD-92, the 1973 volume), each "retabulated by the Committee" onto the new lines. Editions after each
+   redistricting would cover 1962-68 and 1974 (an edition of 1963, 1965, 1967, 1969 or 1974 not seen; whether any
+   exists, and where held, is to find: WorldCat, HathiTrust's catalog).
+2. CQ Weekly Report's redistricting reports and its election supplements (the 1961 volume's source for 1956 and 1960,
+   "Complete Returns ... by Congressional Districts"): CQ recomputed the vote for new districts as States redrew;
+   its *Congressional Districts in the 1970s* (1973; 2d ed. 1974?) gives each district of the 93d's lines with its
+   earlier vote. Subscription (CQ's archive) or paper.
+3. Michael Barone, Grant Ujifusa & Douglas Matthews, *The Almanac of American Politics* (1972, 1974, 1976 eds.): each
+   district's previous House and presidential results; whether on the new lines is to check.
+4. County returns, from which a whole-county district's lag can be made here: Jerome M. Clubb, William H. Flanigan &
+   Nancy H. Zingale, *Electoral Data for Counties in the United States: Presidential and Congressional Races,
+   1840-1972* (ICPSR 8611), and ICPSR 1, *United States Historical Election Returns, 1824-1968* (both ICPSR: refused
+   here, 403; the owner's login); Richard M. Scammon's *America Votes* (the House by county where a district spans
+   counties; volumes 5-11, 1962-74: the Census used vols. 1-4 so). Split counties would need the States' returns by
+   ward, township or assembly district (California's *Statement of Vote* by assembly district; New York's *Manual*):
+   `sources/states.yaml` says which States print them.
+5. Supplement No. 16 to the 88th's Data Book (missing from the owner's copy of Nos. 8-32): one State's 1966 lines.
+6. The Census's *Congressional District Data, 94th Congress* (1974?; LCCN 74603410), if it prints the vote: the 1974
+   gap above (1972 on the 94th's lines), and 1964 on the 93d's (the 1972 PVI, still 15 districts).
+7. Ansolabehere, Snyder & Stewart's data for "Old Voters, New Voters" (2000): county-level, built to split each
+   redrawn district's voters into old and new; its replication files not found on Dataverse by a search of Oct. 31,
+   2026.
+

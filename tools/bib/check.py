@@ -4,6 +4,8 @@ Each problem is (level, where, rule, message), where `where` is an entry id or a
 file. A warning that is deliberate can be silenced on its entry with the tag
 `ok:<rule>`, e.g. `tags: [ok:thread-first]`.
 """
+import glob
+import os
 import re
 
 from . import store
@@ -247,6 +249,13 @@ def run(series, only=None):
     from . import pvi
     for level, where, msg in pvi.problems(series):
         add(ERROR if level == "error" else WARN, where, msg, "pvi")
+    # Jacobson's district file against the series' returns (sources/jacobson/; tools/elections/jacobson.py)
+    import importlib.util as _ilu
+    _sp = _ilu.spec_from_file_location("_jacobson", os.path.join(store.ROOT, "tools", "elections", "jacobson.py"))
+    _jac = _ilu.module_from_spec(_sp)
+    _sp.loader.exec_module(_jac)
+    for level, where, msg in _jac.problems():
+        add(ERROR if level == "error" else WARN, where, msg, "jacobson")
     # special elections and party switches (congress/specials.yaml, congress/switches.yaml)
     from . import specials
     for where, msg in specials.problems(series):
@@ -397,7 +406,16 @@ def run(series, only=None):
     for path, n in curly_files():
         add(WARN, path, f"{n} curly quotation mark{'s' if n > 1 else ''}; write ' and \" (the build curls them)",
             "straight-quotes")
+    # a reading's Passed over lists every dated event a row (CLAUDE.md, "Military matters": the owner, Oct. 30, 2026)
+    for path in sorted(glob.glob(os.path.join(store.ROOT, "notes", "book-checks", "*.md"))):
+        text = open(path, encoding="utf-8").read()
+        if BLANKET.search(text):
+            add(WARN, os.path.relpath(path, store.ROOT), "a blanket exclusion (\"minor throughout\", \"not listed event "
+                "by event\"): each dated event not entered is its own row in Passed over", "passed-over")
     return out
+
+
+BLANKET = re.compile(r"(minor|passed over)[^.\n]{0,40}\bthroughout\b|not listed event by event", re.I)
 
 
 THREAD_SORT_AS = {"War on poverty": "poverty", "Bobby Baker": "Baker", "Robert Kennedy": "Kennedy"}

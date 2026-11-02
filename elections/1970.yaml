@@ -2325,10 +2325,9 @@ races:
   seat: 2
   special: false
   cands:
+  - {n: R. Michael Stillwagon, party: Democrat, p: D, v: 52782, w: false}
   - {n: Marvin L. Esch, party: Republican, p: R, v: 88071, w: true}
-  - {n: R. Michael Stillwagon, party: Democrat, p: O, v: 52782, w: false}
-  how: sum to the total
-  page: 16
+  how: read by eye
   inc:
   - {n: Marvin L. Esch, p: R, result: Incumbent re-elected.}
   seats: 1
@@ -5422,8 +5421,8 @@ races:
   cands:
   - {n: Jack Brooks, party: Democrat, p: D, v: 57180, w: true}
   - {n: Henry C. Pressler, party: Republican, p: R, v: 31483, w: false}
-  how: two of three readings agree; shares match
-  page: 35
+  scat: 4
+  how: read by eye
   inc:
   - {n: Jack Brooks, p: D, result: Incumbent re-elected.}
   seats: 1
@@ -5492,8 +5491,8 @@ races:
   cands:
   - {n: Kika de la Garza, party: Democrat, p: D, v: 54498, w: true}
   - {n: Ben A. Martinez, party: Republican, p: R, v: 17049, w: false}
-  how: two of three readings agree; shares match
-  page: 35
+  scat: 1
+  how: read by eye
   inc:
   - {n: Kika de la Garza, p: D, result: Incumbent re-elected.}
   seats: 1
@@ -5527,9 +5526,9 @@ races:
   seat: 18
   special: false
   cands:
-  - {n: Robert Price, party: Republican, p: R, v: 9, w: true}
-  how: sum to the total
-  page: 35
+  - {n: Robert Price, party: Republican, p: R, v: 52845, w: true}
+  scat: 79
+  how: read by eye
   inc:
   - {n: Robert Price, p: R, result: Incumbent re-elected.}
   seats: 1

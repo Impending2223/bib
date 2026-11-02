@@ -58,6 +58,12 @@ in each file's header; tools/elections/cd_readings.py loads and holds them)
     notes/extensions/memos/pvi-districts.md gives the large ones.
 11. A year whose State had no two-party race (STYLE 2) gives no district figure either: Alabama's 1964,
     Wallace's five States of 1968; Mississippi's 1960 likewise.
+13. Where no Census volume gives a numbered district a year's figure (the district not on any volume's lines, or
+    "n.a."), Gary C. Jacobson's (sources/jacobson/; tools/elections/jacobson.py STYLE 4): the Democratic two-party
+    share his file gives the district, on the lines of the House election its row is for, or on another Congress's
+    where the district's shape is the same in both (STYLE 5); the row's `basis` names the year his ("1972: Jacobson's
+    figure") and `from` carries "jacobson". A seat at large takes the State's column as before (STYLE 7). His shares
+    agree with the Census's to a tenth of a point in 916 of 951 districts both give (the 1960, 1962, 1966 and 1970 rows).
 12. A State whose figures leave out a party line the candidate also ran on (`excludes` in the reading: New York's
     Liberal line, 1968, in the 1973 Data Book) is taken as printed, the row's `basis` saying so.
 """
@@ -160,6 +166,8 @@ def districts(cache):
         return (geo.get(str(c)) or {}).get(st, {}).get(str(d))
 
     figs = {k: cd_readings.figures(d) for k, d in sources.items()}
+    import jacobson
+    jac = jacobson.dpres()
     nation = {}
     for k, d in sources.items():
         us = d.get("us") or {}
@@ -204,9 +212,16 @@ def districts(cache):
                 whys.append(f"{k}: {y} not given ({dv if not isinstance(dv, int) else rv})")
                 continue
             return rv / (dv + rv), k
+        if d:                                   # STYLE 13: Jacobson's figure, where no Census volume gives one
+            for (L, p), cells in sorted(jac.items(), key=lambda kv: (kv[0][0] != c, abs(kv[0][0] - c))):
+                if p != y or (st, d) not in cells:
+                    continue
+                if L != c and (not shape(c, st, d) or shape(c, st, d) != shape(L, st, d)):
+                    continue
+                return 1 - cells[(st, d)] / 100, "jacobson"
         return None, (whys[0] if whys else "no source gives the State")   # the reason of the nearest source holding it
 
-    out = {"source": "elections/readings/districts/ (make_pvi.py, its STYLE 4-9)", "inputs": cd_readings.inputs_hash(),
+    out = {"source": "elections/readings/districts/, and sources/jacobson/ where no volume gives a district (make_pvi.py, its STYLE 4-9, 13)", "inputs": cd_readings.inputs_hash(),
            "nation": {y: {"r": round(100 * v, 2), "from": f} for y, (v, f) in sorted(nation.items())}, "elections": {}}
     for e, (a, b) in sorted(HOUSE.items()):
         c = congress_of(e)
@@ -243,9 +258,12 @@ def districts(cache):
                 none[key] = "; ".join(why)
                 continue
             note = "; ".join(sorted({sources[k_]["states"][st]["excludes"] for s_, k_ in ((sa, ka), (sb, kb))
-                                      if s_ is not None and (sources[k_].get("states") or {}).get(st, {}).get("excludes")}))
+                                      if s_ is not None and k_ in sources and (sources[k_].get("states") or {}).get(st, {}).get("excludes")}))
             if note:
                 basis += f" (as printed: {note})"
+            jy = [str(y_) for y_, k_ in ((a, ka), (b, kb)) if k_ == "jacobson"]
+            if jy:
+                basis += f" ({' and '.join(jy)}: Jacobson's figure)"
             rows[key] = {"pvi": label(v), "points": round(v, 2), "basis": basis,
                          f"r{a}": None if sa is None else round(100 * sa, 2), f"r{b}": None if sb is None else round(100 * sb, 2),
                          "from": sorted({k for s_, k in ((sa, ka), (sb, kb)) if s_ is not None})}

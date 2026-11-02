@@ -30,33 +30,7 @@ Berlin Crisis, but you might only have a full bibliography entry for the
 first.) At the very least, I want the calendar entries to point to the
 relevant material elsewhere in the bibliography. Names, events."
 
-The informal record (the owner's rule, Oct. 23, 2026: "the sinews of the public history"): the calendar is not the
-public record narrowly construed. For the persons with public roles (executive, legislative, policy, foreign
-relations, the administration of justice, the campaigns and the parties' communications), the transactions behind it
-belong too: informal meetings, lobbying, agreements, the planning of policy, personnel, operations and communications,
-in the West Wing, the members' offices, the campaign headquarters. Their record is mostly memoirs, biographies, oral
-histories, recordings and diaries: date each by its source, cite it by page, name whose account it is where it is one
-participant's ("by O'Donnell's account"), and where accounts differ, say so ("Check: Sorensen gives ..."). The reading
-runs look for them.
-
-The parties and the members (the owner's rule, Oct. 29, 2026, on the readings' "minor": "What rule makes this kind of
-position-taking, messaging, organization, communication, policy formation, campaigning, etc., in the opposition and
-among non-majority-leadership MCs 'minor'? Can we amend it?"; "I'm quite interested in what the Republicans were up to,
-and what they were saying, in these years"): within the brief, and never "minor", the position-taking, messaging,
-organization, communication, policy formation and campaigning of either party out of the White House and of any member
-of Congress, leader or not: a party's statements, papers, declarations and platforms; its committees' and leaderships'
-meetings and decisions; the founding and doings of its factions and allied groups (the Ripon Society, the Free Society
-Association, Young Americans for Freedom, the American Conservative Union, the Democratic Study Group); and the dated
-public word (a speech, statement, press conference, interview, article or column under his own name) of a member, a
-governor, a party officer or a party figure out of office (Eisenhower, Nixon, Goldwater, Rockefeller, Romney, Scranton,
-Percy, Reagan) on policy or politics. A journalist's column is an entry only where it carried an act (a leak, a trial
-balloon) or made news itself. "Minor", as a reason in a "Passed over" list, means only: a repetition of a position
-already entered, with nothing new; private or social trivia; an operation or incident below the level the calendar
-records. The papers of government (the owner's ruling, Oct. 28, 2026, on the Gibbons readings): a staff or planning
-paper, a White House staff memorandum, an ambassador's, commander's or consulate's cable and an intelligence memorandum
-or estimate are entries, dated by the paper; a covering note or transmittal, a draft not sent, a meeting's
-preparation, a repetition and private remarks are passed over. The threads: Republican Party (`republican-party`; its subthread "In Congress", `republican-party-congress`),
-Conservative movement (`conservative-movement`), Democratic Party (`democratic-party`); `notes/threads.md`.
+What is an entry, and how a reading runs: the reader's brief, `notes/briefs/reader.md`, in force from Oct. 30, 2026 (the owner: "I approve the memo. I approve R5."): the test (R5: what the work being read dates and treats as an event), the informal record, the papers of government, the parties and the members (either party, in or out of the White House), the counterparts and their followers before the radar, the organized interests, the parties to an event, the press, military matters, trips and stretches, what is not an entry (R18: out of the brief only outside the span or with no bearing on politics or policy anywhere; "minor" and "below the level" as it defines them), the raw material, the citing rules, the records and the witnesses, Passed over and the leads, the mechanics. Each rule's source is the table at its foot; the owner's messages, verbatim, `notes/owner-brief.md`. A ruling on reading is written there, not here. The paragraphs it replaced here, as they stood: `notes/briefs/superseded/claude-md-brief.md`.
 
 So every calendar entry has:
 - `c`: what happened, in one to three clipped sentences. Who, what, the number.
@@ -110,7 +84,7 @@ Hard and soft (the same day): the sources read (the primary record, linked; a wo
 the page) come first; the works not yet read stand behind "To check:", a sentence of its own before "See" and
 "Names:" ("To check: [[w.a]]; [[w.b]]."), the event's bibliography among them. A reading run that reads one moves it
 out, with its pinpoint and, where it stands for part of the entry, its parenthetical; a source found and not yet read
-(a book, a hearing, a file) joins the To check. "Check:" marks a detail to verify; "To check:", sources not yet read.
+(a book, a hearing, a file) joins the To check. "Check:" marks a detail to verify; "To check:", sources not yet read. A pinpoint names a number (a page, a volume and page, a document, a chapter, a note) or links the place read; a pointer in words ("[[w.x]], on Rusk", "for the arithmetic", a chapter's title) is recalled, and the work stands behind "To check:", the words its parenthetical (the owner, Oct. 30, 2026; swept that day, `tools/works/unpin_words.py`: 31 cited with words, 22 bare; `check` fails on a new one [claims]).
 Swept Oct. 24, 2026: every work cited without a pinpoint went behind "To check:" (2,439 notes; a work inside a
 sentence of prose, some two dozen, left as written).
 
@@ -134,15 +108,13 @@ reading run that cites a work's page for an entry describes each record the work
 the units it grounds by a `via` row of the entry's map (`via w.dallek-flawed-giant 70 n.36: B, E`); several records
 under one note for one passage, each its row, the same letters. The unread record joins "To check:" with the work it
 comes from ("To check: Bundy to Johnson, Feb. 7, 1965, NSF, LBJ Library (cited by [[w.dallek-flawed-giant]], 251
-n.14)."). And what a reading passes over: every dated event the work treats and the run did not enter is listed in its
-`notes/book-checks/` file under "Passed over", page, date, event and why (out of the brief, undated, minor, already in
-under another id, a lead), for the owner to rule on. "Minor" as the parties-and-members rule above defines it.
+n.14).").
 
 Calendar entries on the States and the cities take hidden `state:<postal code>` and `city:<slug>` tags (`state:ny`,
 `city:nyc`) and the threads in `notes/threads.md` ("The States and the cities").
 
 Each thread in `th.yaml` has a brief statement (`c`), as the owner asked: what the thread is, and its stations, in
-one or two clipped sentences. Every thread is its matter as Washington met it, but the statements don't say so; that framing, and the scopes
+one or two clipped sentences. Every thread is its matter as Washington and its counterparts met it, but the statements don't say so; that framing, and the scopes
 taken out of the statements, are in `notes/threads.md`. `th.yaml` keeps the threads in alphabetical order of their
 names (War on poverty under "poverty"; `check` warns otherwise). The calendar is built in three parts (below, "The
 calendar in three parts"): a thread's `c` speaks to the first part it has entries in, and `c2`, `c3` to the second and
@@ -195,6 +167,8 @@ congress/geo.json         district and state shapes, projected and simplified
 elections/<YYYY>.yaml     President, House and Senate returns, 1956–74 (generated; never edit)
 elections/readings/<YYYY>.yaml  figures read by eye from the Clerk's pages, with a note on each ruling
 elections/pres-margins.csv  every contested race for presidential electors, 1824–2024, by constituency (generated)
+elections/baseline.yaml   each House race's residual against the seat's baseline, with and without incumbency, 1958-74
+                          (generated by tools/elections/make_baseline.py; never edit)
 elections/pvi.yaml        each State's partisan voting index for the elections of 1962–74, from the two presidential
                           elections before (generated by tools/elections/make_pvi.py; never edit; shown: tools/bib/pvi.py)
 elections/readings/districts/<cdb-YYYY>.yaml  the presidential vote by congressional district as the Census's Data Books
@@ -207,6 +181,8 @@ elections/cq.yaml         CQ's *Guide to U.S. Elections* compared with the Clerk
 elections/renominations.yaml  renominations lost by primary, where a source says so (kept by hand)
 elections/primaries.yaml  Senate primaries from CQ's *Guide*, by race (kept by hand; CQ prints no House primaries)
 elections/conventions.yaml  the national conventions: each delegation's votes, how chosen, the roll calls (kept by hand)
+sources/jacobson/         Gary C. Jacobson's district file, 1946-2014, and its codebook (CC0; its README); held against the
+                          returns by tools/elections/jacobson.py (notes/jacobson-compare.md, generated)
 sources/cited-records/    the records each secondary work cites for the calendar's claims, described once, a file a work
                           (kept by agent); the claims each grounds are `via` rows of the entries' maps (tools/bib/claims.py)
 notes/extensions/         proposals and shelved drafts: memos/ (the research memos before a part was built), shelf/ (drafts
@@ -518,6 +494,21 @@ ops:
 Always give `edit` and `delete` a `base`. With it, the merge is three-way:
 fields only you changed apply, fields only others changed stay, and a field
 both changed becomes a conflict. Without it, your values simply overwrite.
+
+Additive ops (the owner's request, Oct. 30, 2026: "a performant, compute-economizing solution" for parallel readers;
+`notes/extensions/memos/volume.md`, §6; `tools/bib/addops.py`, its STYLE): what only adds to an entry needs no
+`base` and merges in either order: `cite: {id, item: '[[w.card]], 123 (the vote)', units: 'A, C'}` (the work out of
+"To check:" into the run of works read, its claim-map row), `primary: {id, text, units}`, `to-check: {id, add}`,
+`check: {id, text}`, `src: {id, rows}`, `names: {id, add, tags}`, `also: {id, add}`. Within a patch the adds go first.
+A new entry is claimed first in the ledger, `inbox/new-entries.tsv` (`./bib ledger add DATE THREAD ID "words" PATCH`;
+`./bib ledger find DATE [--until DATE] [--thread T]` the day's entries, tree and ledger; `tools/bib/ledger.py`), and
+an additive op on a claimed id not yet in the tree waits in `inbox/deferred.yaml` until it lands. `./bib patch-check
+PATCH` holds a patch to the rules before it is handed in (`tools/bib/patchcheck.py`); `./bib merge --auto PATCH...`
+is the rolling merge: patch-check (`--legacy` for a patch written before the ledger), apply, the deferred ops, the
+conflicts on `n` that `notemerge` joins with no problem and those on `src` over the same `c` joined (both sides kept),
+the ledger pruned, the patch archived; it stops at a patch with errors and prints the conflicts left and a sample, one
+changed entry in ten, to read. `./bib plan-readers CARD...` groups works by the entries they already share, a group a
+reader (`tools/bib/planreaders.py`).
 
 **Git**: run `./bib setup` once per clone. Section files then merge entry by
 entry (`.gitattributes`): both sides' new entries are kept in order, and a field
@@ -1314,14 +1305,42 @@ tools/bib/elections.py              renders the blocks and checks the data (STYL
   *Congressional District Data Books*, read by page into `elections/readings/districts/` (1952-60 on the 87th, 88th
   and 89th Congresses' lines; 1968 on the 93d's), each district row held to its State column and each State column set
   against these returns (`vs_clerk`); `python3 -I tools/elections/make_pvi.py` (its STYLE; `check` [pvi],
-  `tools/bib/pvi.py`). The 1960, 1962 and 1964 House elections have district PVIs (419, 321, 302); the later ones wait
-  on 1964 and 1972 by district (the memo, notes/extensions/memos/pvi-districts.md). Shown (the owner, Oct. 28, 2026:
+  `tools/bib/pvi.py`). District PVIs: 1960 419, 1962 321, 1964 302, 1966 228, 1968 114, 1970 386, 1972 15, 1974 418
+  (the 1966 Supplements, the 90th's lines, and CDD-92, the 92d's, the owner's copies, read Oct. 31, 2026, gave 1964 and
+  1968 by district; Jacobson's file, where no Census volume gives a district, 1964 for 50 districts of 1966 and 2 of
+  1972 for 316 of 1974, each row's basis naming it; CDD-94, the 94th's three reports (Texas, California, New York; the
+  owner's copies, read Oct. 31, 2026), 1968 and 1972 for those States' 102: make_pvi.py STYLE 13; 1964 on the 93d's lines is still
+  to find: the memo, notes/extensions/memos/pvi-districts.md). The same volumes'
+  vote for Representative, retabulated onto each Congress's lines, is in `elections/readings/districts-house/` (1963,
+  1965, 1966s, 1971, 1973, 1974 volumes; and CQ's recomputed shares where the Census gives none: `cq-1962`, `cq-1964`,
+  `cq-1966` (CQ's "Winning Representatives' Vote Percentages" charts, the leading party's percent of the total, read
+  by eye, the party by the type weight) and `cq-1968` (Missouri's 1966 vote on the 1968 lines); make_baseline.py
+  STYLE 8), the baseline's lags. Every seat's lag where its lines changed, the cell as printed, its page, Jacobson's beside
+  it, and every seat with none and why: `notes/house-lags.md` (generated, `python3 -I tools/elections/lag_listing.py`). Shown (the owner, Oct. 28, 2026:
   "Show both. Be sure to cite and attribute"), in each election's block and the calendar's `election:` entries: the
   index under each race's seat (the district's; a Senate race and the President's table, the State's), a map view
   "PVI", and, folded under the race tables, the States' and the districts' indexes with their inputs and the vote by
   district as each Data Book prints it, every table citing its volume by page and naming the compilers the Census
   names (the Republican Congressional Committee, CQ, *America Votes*, the NRCC); the vote taken as fact, not CQ's
   selection or arrangement (*Feist*): STYLE 3-5 in `tools/bib/pvi.py`.
+- The baseline (the owner, Oct. 30-31, 2026: the PVI's "primary use is to set that baseline"; the swing "against prior
+  Congressional results in each election-day district"; "Run the numbers twice, once with [the incumbency term], and
+  once without"): `elections/baseline.yaml`, written by `python3 -I tools/elections/make_baseline.py [--print]` (its
+  STYLE; generated, never edit): Gelman and King's regression a year at a time over the contested seats with a lagged
+  House vote, the Democratic two-party share on the seat's last share and the party holding it, with and without the
+  incumbent's running; each race's residual in points (how far the Democrat ran ahead of the seat's baseline, the
+  Republican the negative), each year's coefficients and the mean district swing beside them. The lag: the Clerk's
+  returns where the lines did not change; across a redistricting, the Census's retabulation of the earlier House vote
+  onto the new lines (`elections/readings/districts-house/`). Run on three lags, each fitted apart (the owner, Oct. 31,
+  2026: "go ahead with 1-3"): that one (`census`), Jacobson's (`jacobson`, his `dvp`, the redrawn seats included) and
+  the Clerk's alone where the lines held (`clerk`); STYLE 6-7 in the script. Not shown yet. To check: the literature
+  behind it, recalled, in `notes/extensions/memos/pvi-districts.md`, "The baseline, and what to read for it".
+- Jacobson's district file (`sources/jacobson/`, its README: Gary C. Jacobson's replication data for "It's Nothing
+  Personal," Harvard Dataverse, doi:10.7910/DVN/29559, CC0; fetched Oct. 31, 2026), 1946-2014, a row a seat a year:
+  `tools/elections/jacobson.py` (its STYLE) holds his shares, lags and redrawn flags against these returns seat by seat
+  and writes `notes/jacobson-compare.md` (generated; `check` warns when stale [jacobson]); the Clerk's figures stand,
+  each difference a lead to the page. His presidential figure (`dpres`) fills a district no Census volume gives
+  (make_pvi.py STYLE 13).
 - Hand facts (who caucused with whom, electors who broke, the 1960 unpledged slates, the
   Alabama reckonings) live in `elections/facts.yaml`, not in code. A third-party member
   missing from `caucus:` fails `check`.
@@ -1761,7 +1780,7 @@ logic, abbr, title and span. A dated section goes to the part its first day fall
 
 ## The calendar's contents, and its tables and maps
 
-Two standing rules (the owner's rules, Oct. 21, 2026; `tools/bib/contents.py`, its STYLE notes):
+Nothing folded by default (the owner's rule, Oct. 30, 2026: "I'm not a fan of the collapsed military tables, for example. I want that reversed and not followed as a norm"): a table or map in the calendar is shown open; a fold only where the owner asked for one (the day's materials, Oct. 22); the forces tables' folds to be reversed; the other folds now in the build kept (the same day: "Keep the other folds for now") (`notes/extensions/memos/volume.md`, §1). Two standing rules (the owner's rules, Oct. 21, 2026; `tools/bib/contents.py`, its STYLE notes):
 
 - The contents at the head of each calendar page (and the Outline drawer, a copy of them): the Threads line, then the
   months in a grid, a year cell spanning the year's rows and six months a row (Jan–Jun, Jul–Dec), each month in its
@@ -1884,7 +1903,9 @@ tools/bib/committees.py         the committees' list and "Testimony before Congr
   recording (`free` in `tools/bib/daybook.py`, STYLE 8): Johnson's by citation number; else the day, the time within
   twenty minutes and a name in both titles; else the day and the same title (Kennedy's); else Kennedy's tape and item.
   93 percent of PRDE's rows match; machine noise and PRDE's daily introductions are left out. The catalogue only: the transcripts and the editors'
-  introductions are the Edition's text, behind its subscription, and are not taken or paraphrased; what was said comes
+  introductions are the Edition's text, which its site shows to registered users only (a 48-hour trial, or purchase); its
+  search API returns them too, in its full results (found Nov. 1, 2026), and the script keeps the catalogue fields alone;
+  they are not taken or paraphrased; what was said comes
   from published transcripts (Beschloss, *Taking Charge*, *Reaching for Glory*) and the studies. As a calendar entry's
   primary record, the free page: `[Johnson and Robert Kennedy, 12:25 p.m.](https://millercenter.org/the-presidency/
   secret-white-house-tapes/…), Conversation WH6407-11-4288 (Miller Center)`; PRDE's page only where the Miller Center

@@ -1,0 +1,401 @@
+# U.S. Bureau of the Census, *Congressional District Data, 94th Congress*, CDD-94-1 Texas, CDD-94-2 California, CDD-94-3
+# New York (1974; LCCN 74603410; SuDoc C 56.213:94-; a report a State, each paged by itself; the three the series
+# printed for the States redistricted for the 1974 elections), the table's "Elections" items 1-21. The copies read, the
+# owner's PDFs (Oct. 31, 2026), scanned by Google: Texas and California the Cornell University Library's (HathiTrust
+# coo.31924086721408, coo.31924086721416, full view; record 009142830), New York the University of Minnesota's (not on
+# HathiTrust); `pages` gives the PDF page. Its note (each report, "Vote cast, by major party"): "Source: National
+# Republican Congressional Committee. Data retabulated in accordance with congressional districts as constituted for the
+# 1974 elections ... Figures are for districts as constituted for the November 1974 congressional elections and not as
+# they were at the time of each election. The original figures for each election year shown were retabulated by the
+# Committee to reflect the congressional district boundaries as established for the 1974 elections. Thus, the data
+# purport to show what the party vote would have been if the 1974 boundaries had been in effect for each election.
+# Furthermore, it should be noted that the figures for 'vote cast for Representative' are strictly in terms of party
+# vote, and are not necessarily comparable as vote cast for particular candidates. Also, the vote cast for third parties
+# endorsing the major party candidates ..." (the sentence the 1973 Data Book also prints: in the total, not in the
+# party's column, so New York's D and R leave out the Liberal, Conservative and other lines, each by a footnote). New
+# York's report (p. 1): "Redistricting legislation enacted for New York effective May 29, 1974, changed only the
+# boundaries for congressional districts 12, 13, 14, and 15 from that for the 93d Congress"; those four print "(NA)".
+#
+# This file: items 13-21, "Vote cast for President", 1972 (total, Democratic Party, Republican Party, percent) and 1968
+# (the same and the American Independent Party). The House items are districts-house/cdh-1974.yaml, whose header gives
+# how the figures were read and checked; 1972 prints no third party's column (`nil` in A). Used by
+# tools/elections/make_pvi.py (the 1974 PVI, on the 94th Congress's lines); shown by tools/bib/pvi.py.
+source: cdd-1974
+lines: 94
+recomputed: true
+years: [1972, 1968]
+fields: [t, D, R, A, p]
+states:
+  TX:
+    pages:
+      20: [0, 1, 2, 3, 4, 5, 6, 7, 8]
+      24: [9, 10, 11, 12, 13, 14, 15, 16]
+      28: [17, 18, 19, 20, 21, 22, 23, 24]
+    d:
+      0:
+        1972: [3468776, 1153815, 2296865, nil, 66.2]
+        1968: [3080267, 1267774, 1227643, 584398, 41.2]
+      1:
+        1972: [143270, 42139, 100495, nil, 70.1]
+        1968: [149871, 56764, 40125, 52979, 37.9]
+      2:
+        1972: [143179, 46325, 96398, nil, 67.3]
+        1968: [136060, 48651, 37398, 50002, 36.7]
+      3:
+        1972: [220159, 43972, 174319, nil, 79.2]
+        1968: [173527, 43546, 109721, 20158, 63.2]
+      4:
+        1972: [147533, 41471, 105236, nil, 71.3]
+        1968: [134857, 48436, 50332, 36088, 37.3]
+      5:
+        1972: [123062, 43354, 78522, nil, 63.8]
+        1968: [110388, 45325, 43716, 21329, 41.1]
+      6:
+        1972: [159262, 43610, 114865, nil, 72.1]
+        1968: [135816, 52934, 56848, 26002, 41.9]
+      7:
+        1972: [198972, 37172, 161078, nil, 81.0]
+        1968: [136745, 29218, 88438, 19089, 64.7]
+      8:
+        1972: [122037, 54313, 66870, nil, 54.8]
+        1968: [104725, 48559, 27293, 28873, 46.4]
+      9:
+        1972: [144722, 58117, 86079, nil, 59.5]
+        1968: [145339, 61422, 46166, 37740, 42.3]
+      10:
+        1972: [176395, 71161, 104400, nil, 59.2]
+        1968: [129926, 60205, 52125, 17474, 46.3]
+      11:
+        1972: [131391, 39753, 91162, nil, 69.4]
+        1968: [118725, 59505, 37267, 21925, 50.1]
+      12:
+        1972: [120867, 45508, 75156, nil, 62.2]
+        1968: [108023, 51584, 39826, 16613, 47.8]
+      13:
+        1972: [154113, 36339, 115660, nil, 75.0]
+        1968: [156891, 53248, 71606, 32017, 45.6]
+      14:
+        1972: [140014, 54815, 84574, nil, 60.4]
+        1968: [133337, 68864, 45033, 19433, 51.6]
+      15:
+        1972: [120093, 53967, 65696, nil, 54.7]
+        1968: [108470, 62858, 37593, 8015, 57.9]
+      16:
+        1972: [109830, 39749, 69211, nil, 63.0]
+        1968: [94575, 40510, 40900, 13164, 43.2]
+      17:
+        1972: [133991, 36122, 97197, nil, 72.5]
+        1968: [137818, 60904, 50810, 26085, 44.2]
+      18:
+        1972: [110209, 75243, 34355, nil, 68.3]
+        1968: [100641, 62464, 24533, 13644, 62.1]
+      19:
+        1972: [143107, 33494, 108282, nil, 75.7]
+        1968: [138349, 40901, 66070, 31371, 47.8]
+      20:
+        1972: [93897, 56470, 37021, nil, 60.1]
+        1968: [89453, 61572, 22233, 5648, 68.8]
+      21:
+        1972: [160499, 38623, 120737, nil, 75.2]
+        1968: [136227, 46713, 71002, 18488, 52.1]
+      22:
+        1972: [154868, 53818, 100489, nil, 64.9]
+        1968: [126647, 46320, 54339, 25980, 42.9]
+      23:
+        1972: [117805, 44843, 72629, nil, 61.7]
+        1968: [95972, 49709, 33947, 12307, 51.8]
+      24:
+        1972: [118915, 47374, 70819, nil, 59.6]
+        1968: [98728, 44635, 37138, 16936, 45.2]
+    footnoted: [1972 t, 1972 D, 1972 R, 1968 t, 1968 D, 1968 R, 1968 A]
+    footnotes: 'PDF pp. 20, 24, 28: - Represents zero. X Not applicable. *Data for congressional districts reflect party vote for Representatives and are not necessarily comparable as vote cast for individual
+      candidates; see text. State totals include absentee and write-in votes not distributed in district-by-district tabulation. 1No candidate in this district as constituted before redistricting.'
+  CA:
+    pages:
+      29: [0, 1, 2, 3, 4, 5, 6, 7, 8]
+      33: [9, 10, 11, 12, 13, 14, 15, 16, 17]
+      37: [18, 19, 20, 21, 22, 23, 24, 25, 26]
+      41: [27, 28, 29, 30, 31, 32, 33, 34, 35]
+      45: [36, 37, 38, 39, 40, 41, 42, 43]
+    d:
+      0:
+        1972: [8367862, 3475847, 4602096, nil, 55.0]
+        1968: [7251587, 3244318, 3467664, 487270, 47.8]
+      1:
+        1972: [208656, 87914, 109546, nil, 52.5]
+        1968: [174480, 74159, 82631, 17075, 47.4]
+      2:
+        1972: [221663, 92863, 119136, nil, 53.7]
+        1968: [172452, 76673, 80612, 14481, 46.7]
+      3:
+        1972: [212464, 101927, 103642, nil, 48.8]
+        1968: [169275, 87014, 71328, 10602, 51.4]
+      4:
+        1972: [177617, 83334, 88410, nil, 49.8]
+        1968: [143060, 73101, 56297, 13015, 51.1]
+      5:
+        1972: [212728, 112246, 96120, nil, 52.8]
+        1968: [188318, 99705, 78393, 8039, 52.9]
+      6:
+        1972: [173955, 96794, 73349, nil, 55.6]
+        1968: [175307, 105703, 56430, 12079, 60.3]
+      7:
+        1972: [194814, 89056, 100894, nil, 51.8]
+        1968: [166334, 82776, 66818, 15588, 49.8]
+      8:
+        1972: [226268, 136330, 85741, nil, 60.3]
+        1968: [200199, 107760, 78753, 8285, 53.8]
+      9:
+        1972: [187549, 91030, 92267, nil, 49.2]
+        1968: [165744, 86026, 64529, 14037, 51.9]
+      10:
+        1972: [169590, 87054, 78375, nil, 51.3]
+        1968: [132495, 72256, 49222, 10456, 54.5]
+      11:
+        1972: [199642, 85842, 105286, nil, 52.7]
+        1968: [174024, 84926, 73049, 12608, 48.8]
+      12:
+        1972: [202917, 93176, 103806, nil, 51.2]
+        1968: [166491, 79731, 77623, 7495, 47.9]
+      13:
+        1972: [196204, 81125, 109760, nil, 55.9]
+        1968: [145934, 66852, 70753, 8001, 48.5]
+      14:
+        1972: [188096, 75662, 103566, nil, 55.1]
+        1968: [161410, 69015, 77124, 14837, 47.8]
+      15:
+        1972: [159141, 76038, 77993, nil, 49.0]
+        1968: [144084, 73063, 59332, 11010, 50.7]
+      16:
+        1972: [195387, 82492, 106134, nil, 54.3]
+        1968: [149059, 62408, 75367, 10173, 50.6]
+      17:
+        1972: [163297, 65907, 91629, nil, 56.1]
+        1968: [140950, 61100, 68256, 11172, 48.4]
+      18:
+        1972: [170889, 55207, 106941, nil, 62.6]
+        1968: [159935, 63676, 78261, 17647, 48.9]
+      19:
+        1972: [196887, 79671, 110267, nil, 56.0]
+        1968: [154461, 66676, 77900, 9111, 50.4]
+      20:
+        1972: [204369, 63588, 132965, nil, 65.1]
+        1968: [150070, 53907, 86597, 9269, 57.7]
+      21:
+        1972: [179853, 76271, 98207, nil, 54.6]
+        1968: [164212, 78043, 76740, 8997, 47.5]
+      22:
+        1972: [205173, 62080, 134792, nil, 65.7]
+        1968: [201058, 64619, 125454, 10497, 62.4]
+      23:
+        1972: [242221, 117663, 119617, nil, 49.4]
+        1968: [216536, 116397, 93343, 5927, 53.8]
+      24:
+        1972: [197504, 98225, 94038, nil, 49.7]
+        1968: [198693, 105462, 85206, 6992, 53.1]
+      25:
+        1972: [106960, 58785, 44924, nil, 55.0]
+        1968: [112035, 67627, 38130, 5552, 60.4]
+      26:
+        1972: [196597, 56014, 132894, nil, 67.6]
+        1968: [190856, 61046, 118287, 11114, 62.0]
+      27:
+        1972: [223808, 78853, 138282, nil, 61.8]
+        1968: [187250, 66021, 109925, 10491, 58.7]
+      28:
+        1972: [172383, 107019, 62037, nil, 62.1]
+        1968: [173809, 109210, 57573, 6337, 62.8]
+      29:
+        1972: [132902, 96415, 33571, nil, 72.5]
+        1968: [144839, 108346, 29315, 6665, 74.8]
+      30:
+        1972: [144012, 64217, 74551, nil, 51.8]
+        1968: [143226, 74645, 57105, 11057, 52.1]
+      31:
+        1972: [142314, 73874, 64074, nil, 51.9]
+        1968: [146038, 80219, 52964, 12326, 54.9]
+      32:
+        1972: [153736, 65507, 82921, nil, 53.9]
+        1968: [142927, 67404, 63126, 11734, 47.2]
+      33:
+        1972: [189281, 55330, 126430, nil, 66.8]
+        1968: [160283, 56472, 91466, 12003, 57.1]
+      34:
+        1972: [212814, 70071, 135141, nil, 63.5]
+        1968: [188403, 69699, 105492, 12707, 56.0]
+      35:
+        1972: [170093, 55895, 107616, nil, 63.3]
+        1968: [152545, 55442, 86010, 10743, 56.4]
+      36:
+        1972: [155903, 69883, 80137, nil, 51.4]
+        1968: [144080, 66158, 64868, 12566, 45.9]
+      37:
+        1972: [170335, 54835, 107237, nil, 63.0]
+        1968: [149388, 53571, 81898, 13733, 54.8]
+      38:
+        1972: [166910, 50126, 107451, nil, 64.4]
+        1968: [139098, 50701, 75642, 12649, 54.4]
+      39:
+        1972: [205675, 53220, 142003, nil, 69.0]
+        1968: [164602, 47182, 107183, 10097, 65.1]
+      40:
+        1972: [226826, 59110, 157926, nil, 69.6]
+        1968: [145215, 38505, 98841, 7604, 68.1]
+      41:
+        1972: [222694, 79660, 135629, nil, 60.9]
+        1968: [178242, 61498, 105886, 10470, 59.4]
+      42:
+        1972: [139640, 58538, 76127, nil, 54.5]
+        1968: [123150, 57228, 55467, 10223, 46.5]
+      43:
+        1972: [227266, 68647, 148139, nil, 65.2]
+        1968: [157270, 50642, 93602, 12685, 59.5]
+    footnoted: [1972 t, 1972 D, 1972 R, 1968 t, 1968 D, 1968 R, 1968 A]
+    footnotes: 'PDF pp. 29, 33, 37, 41, 45: - Represents zero. NA Not available. X Not applicable. *Data for congressional districts reflect party vote for Representatives; not necessarily comparable as
+      vote cast for individual candidates; see text. 1Includes all absentee and scattered votes cast for minor candidates, some of which are omitted in the district-by-district tabulation. (p. 33:) No candidate
+      in this district as constituted before redistricting.'
+  NY:
+    pages:
+      17: [0, 1, 2, 3, 4, 5, 6, 7]
+      21: [8, 9, 10, 11, 12, 13, 14, 15]
+      25: [16, 17, 18, 19, 20, 21, 22, 23]
+      29: [24, 25, 26, 27, 28, 29, 30, 31]
+      33: [32, 33, 34, 35, 36, 37, 38, 39]
+    d:
+      0:
+        1972: [7161801, 2767942, 3824629, nil, 53.4]
+        1968: [6792177, 3066954, 3007985, 358995, 45.2]
+      1:
+        1972: [201233, 56276, 125986, nil, 62.6]
+        1968: [159700, 47935, 93472, 14030, 58.5]
+      2:
+        1972: [169806, 44134, 108944, nil, 64.2]
+        1968: [144825, 43864, 84034, 13514, 58.0]
+      3:
+        1972: [206010, 64677, 122444, nil, 59.4]
+        1968: [184368, 64035, 103012, 10061, 55.9]
+      4:
+        1972: [219427, 74267, 127056, nil, 57.9]
+        1968: [204834, 78123, 105061, 11378, 51.3]
+      5:
+        1972: [232777, 82587, 133270, nil, 57.3]
+        1968: [217898, 87079, 108949, 9226, 50.0]
+      6:
+        1972: [225816, 78242, 123657, nil, 54.8]
+        1968: [218835, 84600, 108298, 10694, 49.5]
+      7:
+        1972: [160513, 85865, 58887, nil, 53.5]
+        1968: [162822, 92350, 46602, 6226, 56.7]
+      8:
+        1972: [189141, 85877, 82171, nil, 45.4]
+        1968: [187304, 96047, 61484, 7554, 51.3]
+      9:
+        1972: [176439, 42879, 110402, nil, 62.6]
+        1968: [184282, 61843, 98641, 16127, 53.5]
+      10:
+        1972: [164110, 56151, 88324, nil, 53.8]
+        1968: [169837, 70004, 77681, 12972, 45.7]
+      11:
+        1972: [155915, 69738, 70210, nil, 45.0]
+        1968: [157487, 82906, 52709, 8469, 52.6]
+      12:
+        1972: [na, na, na, na, na]
+        1968: [na, na, na, na, na]
+      13:
+        1972: [na, na, na, na, na]
+        1968: [na, na, na, na, na]
+      14:
+        1972: [na, na, na, na, na]
+        1968: [na, na, na, na, na]
+      15:
+        1972: [na, na, na, na, na]
+        1968: [na, na, na, na, na]
+      16:
+        1972: [161367, 80839, 66207, nil, 50.1]
+        1968: [177361, 102055, 50182, 5742, 57.5]
+      17:
+        1972: [170545, 59279, 88954, nil, 52.2]
+        1968: [148017, 61111, 67427, 10898, 45.6]
+      18:
+        1972: [197402, 102902, 75380, nil, 52.1]
+        1968: [199225, 100708, 69963, 4879, 50.5]
+      19:
+        1972: [130332, 99131, 22321, nil, 76.1]
+        1968: [125050, 93487, 16073, 1678, 74.8]
+      20:
+        1972: [167937, 99853, 51187, nil, 59.5]
+        1968: [171523, 101592, 40319, 4866, 59.2]
+      21:
+        1972: [74864, 56364, 13957, nil, 75.3]
+        1968: [71874, 53417, 10417, 1426, 74.3]
+      22:
+        1972: [169500, 94221, 58970, nil, 55.6]
+        1968: [169894, 96469, 45102, 6847, 56.8]
+      23:
+        1972: [209741, 74878, 112522, nil, 53.6]
+        1968: [205098, 81858, 99301, 12149, 48.4]
+      24:
+        1972: [210892, 76310, 115180, nil, 54.6]
+        1968: [208369, 84397, 100797, 10378, 48.4]
+      25:
+        1972: [212041, 59838, 133575, nil, 63.0]
+        1968: [185313, 64251, 102353, 13478, 55.2]
+      26:
+        1972: [197715, 59944, 118370, nil, 59.9]
+        1968: [169739, 62895, 89655, 12118, 52.8]
+      27:
+        1972: [202831, 72101, 120511, nil, 59.4]
+        1968: [186171, 70833, 100771, 10554, 54.1]
+      28:
+        1972: [236489, 97875, 128471, nil, 54.3]
+        1968: [220865, 118419, 89880, 8564, 53.6]
+      29:
+        1972: [224920, 64885, 149467, nil, 66.5]
+        1968: [199828, 74202, 112265, 10343, 56.2]
+      30:
+        1972: [183680, 57799, 117649, nil, 64.1]
+        1968: [168245, 66295, 93004, 6593, 55.3]
+      31:
+        1972: [201394, 58989, 133939, nil, 66.5]
+        1968: [186955, 73817, 100614, 10016, 53.8]
+      32:
+        1972: [199394, 58017, 132718, nil, 66.6]
+        1968: [183174, 70031, 101486, 8613, 55.4]
+      33:
+        1972: [197142, 57306, 129805, nil, 65.8]
+        1968: [184178, 73971, 97648, 9722, 53.0]
+      34:
+        1972: [209648, 74967, 123905, nil, 59.1]
+        1968: [194849, 86627, 98521, 6818, 50.6]
+      35:
+        1972: [202110, 66804, 125882, nil, 62.3]
+        1968: [184684, 80149, 94124, 8130, 51.0]
+      36:
+        1972: [198739, 75766, 111210, nil, 56.0]
+        1968: [184584, 84038, 84839, 12367, 46.0]
+      37:
+        1972: [174817, 95031, 66765, nil, 54.4]
+        1968: [185634, 119600, 47192, 13786, 64.4]
+      38:
+        1972: [218462, 81648, 122990, nil, 56.3]
+        1968: [190524, 86283, 86360, 14742, 45.3]
+      39:
+        1972: [188662, 61332, 120174, nil, 63.7]
+        1968: [181914, 69736, 99328, 10498, 54.6]
+    marks: {0 1968 D: 2, 0 1972 D: 2, 0 1972 R: 3, 1 1968 D: 2, 1 1972 D: 2, 1 1972 R: 3, 2 1968 D: 2, 2 1972 D: 2, 2 1972 R: 3, 3 1968 D: 2, 3 1972 D: 2, 3 1972 R: 3, 4 1968 D: 2, 4 1972 D: 2, 4 1972 R: 3,
+      5 1968 D: 2, 5 1972 D: 2, 5 1972 R: 3, 6 1968 D: 2, 6 1972 D: 2, 6 1972 R: 3, 7 1968 D: 2, 7 1972 D: 2, 7 1972 R: 3, 8 1968 D: 1, 8 1972 D: 1, 8 1972 R: 1, 9 1968 D: 1, 9 1972 D: 1, 9 1972 R: 4, 10 1968 D: 1,
+      10 1972 D: 1, 10 1972 R: 4, 11 1968 D: 1, 11 1972 D: 1, 11 1972 R: 4, 16 1968 D: 1, 16 1972 D: 1, 16 1972 R: 3, 17 1968 D: 1, 17 1972 D: 1, 17 1972 R: 3, 18 1968 D: 1, 18 1972 D: 1, 18 1972 R: 3,
+      19 1968 D: 1, 19 1972 D: 1, 19 1972 R: 3, 20 1968 D: 1, 20 1972 D: 1, 20 1972 R: 3, 21 1968 D: 1, 21 1972 D: 1, 21 1972 R: 3, 22 1972 D: 1, 22 1972 R: 3, 23 1968 D: 1, 23 1972 D: 1, 23 1972 R: 3,
+      24 1968 D: 1, 24 1972 D: 1, 24 1972 R: 2, 25 1968 D: 1, 26 1968 D: 1, 26 1972 D: 1, 26 1972 R: 2, 27 1968 D: 1, 27 1972 D: 1, 27 1972 R: 2, 28 1968 D: 1, 28 1972 D: 1, 28 1972 R: 2, 29 1968 D: 1,
+      29 1972 D: 1, 29 1972 R: 2, 30 1968 D: 1, 30 1972 D: 1, 30 1972 R: 2, 31 1968 D: 1, 31 1972 D: 1, 31 1972 R: 2, 32 1968 D: 1, 32 1972 D: 1, 32 1972 R: 2, 33 1968 D: 1, 33 1972 D: 1, 33 1972 R: 2,
+      34 1968 D: 1, 34 1972 D: 1, 34 1972 R: 2, 35 1968 D: 1, 35 1972 D: 1, 35 1972 R: 2, 36 1968 D: 1, 36 1972 D: 1, 36 1972 R: 2, 37 1968 D: 1, 37 1972 D: 1, 37 1972 R: 2, 38 1968 D: 1, 38 1972 D: 1,
+      38 1972 R: 2, 39 1968 D: 1, 39 1972 D: 1, 39 1972 R: 2}
+    footnotes: 'Each page numbers its own notes. PDF p. 17: 1Excludes vote cast for the candidate by Republican and Conservative Parties, included in district total. 2Liberal Party. 3Conservative Party.
+      4Conservative and Liberal Parties. 5Liberal and Republican Parties. 6Conservative and Environmental Parties. 7Conservative, Liberal, and Environmental Parties. 8No candidate in this district as constituted
+      before redistricting. PDF p. 21: 1Liberal Party. 2Republican and Conservative Parties. 3Republican Party. 4Conservative Party. 5Conservative, Liberal, and Republican Parties. 6Liberal and Republican
+      Parties. 7Conservative, Liberal, and Environmental Parties. 8Conservative and Liberal Parties. 9No candidate in this district as constituted before redistricting. 10Conservative and Silent Majority
+      Parties. PDF p. 25: 1Liberal Party. 2Liberal and Republican Parties. 3Conservative Party. 4Liberal and Civil Service Independent Parties. 5Conservative and Liberal Parties. 6No candidate in this district
+      as constituted before redistricting. 7Conservative and Silent Majority Parties. 8Silent Majority Party. PDF p. 29: 1Liberal Party. 2Conservative Party. 3Liberal and Silent Majority Parties. 4Conservative
+      and Liberal Parties. 5Citizens Party. 6Conservative and Citizens Parties. 7Conservative, Liberal, and Citizens Parties. PDF p. 33: 1Liberal Party. 2Conservative Party. 3Conservative and Liberal Parties.
+      (Each ''Excludes vote cast for the candidate by ... , included in district total''; the State column''s mark 1 on p. 17 the same.)'
+    eye: all

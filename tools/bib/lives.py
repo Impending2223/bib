@@ -1225,8 +1225,11 @@ def primary_cells(key, name):
 
 
 def primary_cite(key):
+    """The race's source: `cite` where the race gives one (America Votes 7's House primaries), else CQ's *Guide* by page."""
     p = primaries().get(key)
-    return f"CQ Guide 6th (2010) {p['page']}" if p else ""
+    if not p:
+        return ""
+    return p.get("cite") or f"CQ Guide 6th (2010) {p['page']}"
 
 
 def race_matches():

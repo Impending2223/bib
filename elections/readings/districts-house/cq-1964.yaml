@@ -1,0 +1,170 @@
+# Congressional Quarterly, "Winning Representatives' Vote Percentages Since 1954," *CQ Weekly Report*, vol. 22, no. 46
+# (week ending Nov. 13, 1964), pp. 2701-2706 (running feet "Week ending Nov. 13, 1964 -- PAGE 2701" ... "PAGE 2706",
+# confirmed on each page; PDF pages 33-38). The headnote (p. 2701): "This chart shows the percentage of the total
+# Congressional district vote won by House Members in elections since 1954 ... Where sufficient election statistics were
+# available, CQ calculated the Congressional vote (1960 or 1962) cast within the counties or wards which make up each
+# newly created district. For these districts, the majority party percentage thus calculated is given under the 1960 or
+# 1962 column, marked by this symbol: [a circled plus]. Where no figures whatever were available, the reported political
+# complexion is given -- Safe Democratic, Safe Republican, etc. Where a district within a redistricted state retained its
+# old borders, even though its district number is changed, the percentages since 1954, still applicable, are given.
+# Percentages of winning Democrats are given in bold type, of winning Republicans in light type." The footnote boxes:
+# p. 2702 and p. 2703, "Redistricted seat. Figure shown is the majority percentage of the 1960 or 1962 vote for Congress
+# cast within the confines of the new district"; p. 2702, "**Includes slight estimates" (Georgia's 4th and 5th),
+# "# Grabowski was elected at large in 1962"; p. 2706, "... of the 1962 vote ..."; "X No major party opposition."
+# The marked cells in the 1962 column are Connecticut's, Georgia's, Michigan's and Wisconsin's; every other mark in the
+# chart stands in the 1960 column (the 1961-62 redistrictings) and is not read here.
+#
+# The copy read: the owner's scan (archive.org's sim_cq-weekly_1964-11-13_22_46, as n46.pdf), PDF pages 34, 35, 37, 38;
+# read by eye off the page images (each page whole at 100 dpi, then each State's block cropped at 300 dpi, and again
+# from a fresh crop at 400 dpi; the two readings agree in every cell), Nov. 1, 2026.
+#
+# Cells: `[party, pct]`, the 1962 column as printed: pct the leading (winning) party's percentage of the TOTAL vote, party
+# by the type weight (bold D, light R). The orchestrator converts: D = pct, or 100 - pct where R leads, the rest taken as
+# the other major party's (an approximation: minor parties' votes are in the total). `old`: the cell printed without the
+# mark (the chart's "old borders" case). `unopposed`: the cell prints "X" (no major-party opposition), the mark as
+# `old` says; an X carries no party by its weight (the legend's X is bold too). `estimated`: CQ's "**".
+#
+# Corrections: CQ corrected this chart in its 1964 index (22 CQ Weekly Rep. index, corrections; read by the orchestrator
+# off archive.org's sim_cq-weekly_january-december-1964_22_index): "Page 2702, Col. 1 -- Under Colorado, the 1962
+# redistricted votes should be: 1st District, 56.0 percent; 2nd District, 60.0 percent; 3rd District, 55.7 percent; 4th
+# District, 47.5 percent." "Page 2703, Col. 2 -- Under Michigan, the 1962 redistricted House vote listed is incorrect.
+# Figures are unavailable for the 1st and 13th-19th Districts. Other figures, including estimates for parts of the 2nd
+# and 3rd Districts, are: 2nd, 55.4; 3rd, 59.6; 4th, 64.0; 5th, 60.8; 6th, 60.8; 7th, 50.1; 8th, 58.0; 9th, 60.2; 10th,
+# 63.2; 11th, 59.3; and 12th, 66.1." `corrected` gives these, the party the chart's type weight for the district (the
+# corrections print none); the corrected figure is the one to use. `withdrawn`: Michigan's districts whose printed figure
+# the correction withdraws (figures unavailable): the printed cell is recorded and is not to be used. Colorado was printed
+# unmarked, as if on old borders; the correction calls its figures "redistricted": the corrected ones are on the new
+# lines. Colorado's 4th, 47.5, is a plurality (the leader short of a majority of the total vote).
+#
+# Not final: nothing in the chart or its notes marks a State as on old lines, pending, or awaiting a court plan.
+# `pages` names the districts with a figure. Used for the 1964 lag (the 1962 House vote on the 1964 lines, the 89th Congress's).
+source: cq-1964
+lines: 89
+recomputed: true
+shares: true
+of_total: true
+fields: [party, pct]
+years: [1962]
+states:
+  CO:
+    pages: {34: [1, 2, 3, 4]}
+    page: 2702
+    d:
+      1: {1962: [D, 56.0]}
+      2: {1962: [R, 61.8]}
+      3: {1962: [R, 54.7]}
+      4: {1962: [D, 58.6]}
+    old: [1, 2, 3, 4]
+    corrected:
+      cite: 22 CQ Weekly Rep. index, corrections, p. 2702
+      d:
+        1: [D, 56.0]
+        2: [R, 60.0]
+        3: [R, 55.7]
+        4: [D, 47.5]
+      plurality: [4]
+    party_doubt: []
+    doubt: []
+  CT:
+    pages: {34: [1, 2, 3, 4, 5, 6]}
+    page: 2702
+    d:
+      1: {1962: [D, 57.8]}
+      2: {1962: [D, 50.8]}
+      3: {1962: [D, 56.0]}
+      4: {1962: [R, 51.7]}
+      5: {1962: [D, 57.7]}
+      6: {1962: [D, 53.8]}
+    old: [2]
+    note: "6: CQ's footnote, \"Grabowski was elected at large in 1962\" (the 6th is new; the at-large seat gone)."
+    party_doubt: []
+    doubt: []
+  GA:
+    pages: {34: [4, 5, 7]}
+    page: 2702
+    d:
+      4: {1962: [D, 54.9]}
+      5: {1962: [D, 55.7]}
+      7: {1962: [D, 72.4]}
+    unopposed: [1, 2, 3, 6, 8, 9, 10]
+    old: [7]
+    estimated: ["4 1962", "5 1962"]
+    party_doubt: []
+    doubt: []
+  MI:
+    pages: {35: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]}
+    page: 2703
+    d:
+      1: {1962: [D, 75.9]}
+      2: {1962: [R, 58.6]}
+      3: {1962: [R, 58.7]}
+      4: {1962: [R, 66.7]}
+      5: {1962: [R, 64.2]}
+      6: {1962: [R, 61.8]}
+      7: {1962: [R, 51.3]}
+      8: {1962: [R, 58.9]}
+      9: {1962: [R, 60.5]}
+      10: {1962: [R, 50.9]}
+      11: {1962: [R, 59.1]}
+      12: {1962: [D, 66.1]}
+      13: {1962: [D, 84.2]}
+      14: {1962: [D, 58.8]}
+      15: {1962: [D, 76.1]}
+      16: {1962: [D, 62.8]}
+      17: {1962: [D, 58.6]}
+      18: {1962: [R, 60.9]}
+      19: {1962: [R, 58.9]}
+    corrected:
+      cite: 22 CQ Weekly Rep. index, corrections, p. 2703
+      d:
+        2: [R, 55.4]
+        3: [R, 59.6]
+        4: [R, 64.0]
+        5: [R, 60.8]
+        6: [R, 60.8]
+        7: [R, 50.1]
+        8: [R, 58.0]
+        9: [R, 60.2]
+        10: [R, 63.2]
+        11: [R, 59.3]
+        12: [D, 66.1]
+      estimated: [2, 3]    # "including estimates for parts of the 2nd and 3rd Districts"
+    withdrawn: [1, 13, 14, 15, 16, 17, 18, 19]   # "Figures are unavailable for the 1st and 13th-19th Districts"
+    party_doubt: []
+    doubt: []
+  RI:
+    pages: {37: [1, 2]}
+    page: 2705
+    d:
+      1: {1962: [D, 56.8]}
+      2: {1962: [D, 71.8]}
+    old: [1, 2]
+    party_doubt: []
+    doubt: []
+  SC:
+    pages: {37: []}
+    page: 2705
+    d: {}
+    unopposed: [5]
+    old: [5]
+    party_doubt: []
+    doubt: []
+  WI:
+    pages: {38: [1, 2, 3, 6, 7, 8, 10]}
+    page: 2706
+    d:
+      1: {1962: [R, 52.2]}
+      2: {1962: [D, 53.6]}
+      3: {1962: [R, 57.4]}
+      6: {1962: [R, 59.9]}
+      7: {1962: [R, 63.8]}
+      8: {1962: [R, 63.1]}
+      10: {1962: [R, 54.6]}
+    rating:
+      4: "Figures unavailable; Safe Democratic"
+      5: "Figures unavailable; Safe Democratic"
+      9: "Figures unavailable; Leans Republican"
+    party_doubt: []
+    doubt: []
+not_final: {}
+missing_not_found: []
