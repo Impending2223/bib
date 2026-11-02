@@ -136,8 +136,8 @@ How to apply it:
   each without one, and any other figure the rule takes in, with the works that treat the figure.
 - The daily list: where the work gives a day's coverage, write it in your book-check file under "## The press", a line
   each: date | outlet | broadcast, front page or cover | the items, clipped, matters of interest only | page. The merger
-  copies the lines into `notes/press.md`, by date, until the list is built. A reader reads the works assigned, not a run of
-  the papers or the broadcasts.
+  copies the lines into `notes/press.md`, by date, until the list is built. A run of the papers or the broadcasts found
+  open (an index, transcripts, scans, a catalogue of segments): name it in your leads, its address, span and access.
 
 **R14. Military matters.** A military operation, action or incident the work dates and treats, in every theater
 (Vietnam, Laos, Cambodia, Thailand, the Korean DMZ, the Dominican Republic, Cuba, Berlin's convoys, the Congo airlift,
