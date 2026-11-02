@@ -411,9 +411,8 @@ change a Drive file's sharing.
 **R55. Copyright.** The books are the owner's copies, for this research: nothing of their text into the repo beyond a
 short quotation an entry needs, marked and cited by page; never a paraphrase at length.
 
-**R56. The network.** Through the proxy; never disable TLS; never get around a bot check (a refused host is a lead);
-never read presidency.ucsb.edu, discoverlbj.org or PRDE's transcripts. Python with `-I` on
-downloaded data. Never write a key anywhere.
+**R56. Dead ends.** Not readable here: the newspapers (TimesMachine is a link by date, not a text),
+history.defense.gov, jcs.mil, HathiTrust's pages.
 
 **R57. Pronouns.** No gendered pronoun for an author in a note: "the note", the surname.
 
@@ -471,3 +470,4 @@ written by Claude or its agents, no ruling of the owner's.
 | R50 | Oct. 18 (CL, "Leads") | the owner's standing rule as CL states it; the book-check file and the merger: house rule |
 | R17, R49, R51 | Oct. 30 (OB, "The brief approved") | "Is there a performant, compute-economizing solution here? Can you implement it and follow it?" The ops, the ledger and the checks: house rules (notes/extensions/memos/volume.md, §6) |
 | R51–R58 | house rules (CL, "Changing things", "Do not"; the batch briefs; the sites' own terms) | |
+| R56 | Nov. 1 (OB, "The network") | "Drop R56."; "Remove the part that's still there. ... Keep the list of dead ends." |

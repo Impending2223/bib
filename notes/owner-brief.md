@@ -423,3 +423,13 @@ approved the ruling proposed in reply (CLAUDE.md, "Military matters"). Cuts mark
 > Replace "Its routine coverage" with "The press's routine coverage" to avoid any possible "last antecedent" confusion.
 >
 > Good to go. Hold off on the extension/archive/Times API for now. I just want the readers to start including these things.
+
+### The network
+
+2026-11-01, session "1968 series".
+
+> Drop R56.
+
+2026-11-01, session "1968 series".
+
+> No, I like what you removed. Remove the part that's still there. Don't brief your agents to, in either the brief mechanics or the batch brief. Keep the list of dead ends.
