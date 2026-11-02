@@ -412,8 +412,7 @@ change a Drive file's sharing.
 short quotation an entry needs, marked and cited by page; never a paraphrase at length.
 
 **R56. The network.** Through the proxy; never disable TLS; never get around a bot check (a refused host is a lead);
-never read presidency.ucsb.edu, discoverlbj.org or PRDE's transcripts. Not readable here: the newspapers
-(TimesMachine is a link by date, not a text), history.defense.gov, jcs.mil, HathiTrust's pages. Python with `-I` on
+never read presidency.ucsb.edu, discoverlbj.org or PRDE's transcripts. Python with `-I` on
 downloaded data. Never write a key anywhere.
 
 **R57. Pronouns.** No gendered pronoun for an author in a note: "the note", the surname.
