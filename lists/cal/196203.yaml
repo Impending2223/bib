@@ -26,8 +26,27 @@ entries:
     date: '1962-03-02'
     thread: testing
     c: Television address. Atmospheric tests to resume in late April, absent a treaty with inspection.
-    n: 'Radio and Television Address to the American People: "Nuclear Testing and Disarmament", [1962 Pub. Papers 186](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=246) (Mar. 2, 1962). See [[cal.1961-09-01.testing]].'
+    n: 'Radio and Television Address to the American People: "Nuclear Testing and Disarmament", [1962 Pub. Papers 186](https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=246) (Mar. 2, 1962). [[w.fursenko-one-hell-of-a]], 155. See [[cal.1961-09-01.testing]].'
+    src:
+      c: c5b98c93
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/PPP-1962-book1/pdf/PPP-1962-book1.pdf#page=246: all'
+        - 'w.fursenko-one-hell-of-a 155: all'
     tags: [name:kennedy-john-f]
+  - id: cal.1962-03-02.robert-kennedy
+    when: Mar. 2
+    date: '1962-03-02'
+    thread: robert-kennedy
+    also: [testing, soviet-union]
+    c: 'Robert Kennedy and Bolshakov, outside the Justice Department, hours before the President''s address, by the GRU''s report: "The president sincerely wants to avoid conducting these nuclear tests"; why not start with a ban on tests in the open air, which cannot be hidden? Failing that, the President wants to see Khrushchev again.'
+    n: '[[w.fursenko-one-hell-of-a]], 154–55. To check: GRU resident to GRU headquarters, Mar. 3, 1962, APRF (cited by [[w.fursenko-one-hell-of-a]], 154 n.17, 155 n.18). Check: Robert Kennedy''s date diary does not show the meeting (n.16). See [[cal.1962-03-02.testing]]. Names: Robert Kennedy, Bolshakov, Khrushchev.'
+    src:
+      c: a86ef752
+      rows:
+        - 'w.fursenko-one-hell-of-a 154–55: all'
+        - 'via w.fursenko-one-hell-of-a 154 n.17: A-B'
+        - 'via w.fursenko-one-hell-of-a 155 n.18: C'
+    tags: [name:kennedy-robert-f, name:bolshakov-georgi, name:khrushchev-nikita-s]
   - id: cal.1962-03-03.mayors-new-orleans
     when: Mar. 3
     date: '1962-03-03'
@@ -145,7 +164,7 @@ entries:
     thread: cuba
     also: [robert-kennedy]
     c: 'Guidelines for Mongoose: hard intelligence the immediate priority; other actions short of those "reasonably calculated to inspire a revolt"; final success to require "decisive U.S. military intervention."'
-    n: '[FRUS 1961–63, X, doc. 314](https://history.state.gov/historicaldocuments/frus1961-63v10/d314); [S. Rep. No. 94-465, 145–147 (1975)](https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94465.pdf#page=156). [[w.schlesinger-robert-kennedy-and-his]], 477–78. See [[cal.1961-11-30.cuba]].'
+    n: '[FRUS 1961–63, X, doc. 314](https://history.state.gov/historicaldocuments/frus1961-63v10/d314); [S. Rep. No. 94-465, 145–147 (1975)](https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94465.pdf#page=156). [[w.schlesinger-robert-kennedy-and-his]], 477–78. [[w.fursenko-one-hell-of-a]], 158 (the program in two steps, a review in July). See [[cal.1961-11-30.cuba]].'
     src:
       c: 29e5df12
       rows:
@@ -153,6 +172,7 @@ entries:
         - 'https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94465.pdf#page=156: A-B'
         - 'w.schlesinger-robert-kennedy-and-his 477–78: A-B'
         - 'via w.schlesinger-robert-kennedy-and-his 478 n.35: A-B'
+        - 'w.fursenko-one-hell-of-a 158: all'
   - id: cal.1962-03-14.elections-1962
     when: Mar. 14
     date: '1962-03-14'
@@ -418,3 +438,16 @@ entries:
       c: e7b11914
       rows:
         - 'w.schlesinger-robert-kennedy-and-his 304: all'
+  - id: cal.1962-03.soviet-union
+    when: Mar.
+    date: 1962-03
+    thread: soviet-union
+    also: [press-and-broadcasting, testing]
+    c: 'Khrushchev calls off the television exchange. Gromyko to the embassy, for Bolshakov to tell Salinger: "Recent events, particularly John F. Kennedy''s decision to resume nuclear tests, make it impossible to exchange television messages." On the test ban, no inspections at all.'
+    n: '[[w.fursenko-one-hell-of-a]], 156. To check: Gromyko to Smirnovsky, the acting ambassador in Washington, APRF (cited by [[w.fursenko-one-hell-of-a]], 156 n.20). Check: the day. See [[cal.1962-01-18.soviet-union]]. Names: Khrushchev, Gromyko, Bolshakov, Salinger.'
+    src:
+      c: e25ebfb7
+      rows:
+        - 'w.fursenko-one-hell-of-a 156: all'
+        - 'via w.fursenko-one-hell-of-a 156 n.20: A-B'
+    tags: [name:khrushchev-nikita-s, name:gromyko-andrei, name:bolshakov-georgi, name:salinger-pierre]
