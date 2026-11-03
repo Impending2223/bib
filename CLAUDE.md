@@ -2051,6 +2051,18 @@ lists both, by year (the series index's Pages, README).
   does both. `check` fails on a file in `sources/frus-text/` that is not a daybook month's xz, and warns on a daybook
   month without one [ebooks].
 
+## The owner's desk
+
+The owner edits the calendar from a phone at the desk, https://claude.ai/artifact/G7GDP7qa9yYsfqJ2wGPcCq (the owner's
+request, Oct. 29, 2026: find, edit `c` and `n` with a preview, add an entry, the thread statements, a notebook; every
+keystroke saved as a draft in the artifact's store, "Ready" the one conscious step). Its data is the calendar exported a
+month a file beside the page (`python3 -I tools/desk/export.py DIR`, each entry with its rev). At each 5 p.m. resume, or
+on "merge my edits": the Ready edits read from the store (ArtifactData list, `edits`, out_dir), turned into
+`inbox/<date>-owner-desk.yaml` by `tools/desk/bridge.py patch`, merged (`./bib merge --auto`), checked, their outcomes
+written back (`bridge.py after`: merged, or needs-you with the series' text and the reason), and the desk's data
+republished so the next base is current (the steps: its docstring). A conflict keeps the series' text and hands the
+owner's back; nothing of his is dropped.
+
 ## Working hours
 
 The owner's standing rule (Oct. 28, 2026): no work between 7 a.m. and 5 p.m. Pacific, Monday to Friday; Saturday and
