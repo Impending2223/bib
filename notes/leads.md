@@ -1317,9 +1317,6 @@ Rights in Conflict (Walker Report):
   (1962) not found open.
 - Name entries wanted (CQ readers, Aug. 16, 1968): Jim Wright (the roster's "Wright, James C., Jr.": no key answers),
   Blair Clark, John M. Bailey.
-- The Chester patch (`inbox/2026-10-29-b3-chester.yaml`, unmerged): the Aug. 2 reader's cite on
-  cal.1968-07-31.elections-1968-miami (Reagan before the Platform Committee) waits for Chester's entry to land
-  (notes/book-checks/cq-weekly-report-1968-08-02.md).
 - PRDE's transcripts: readable on its site by registered users only. For the owner: the 48-hour trial, a library's
   Rotunda subscription, or individual purchase; and the printed volumes (Norton, *The Presidential Recordings*:
   Kennedy's July-Oct. 1962, Johnson's from Nov. 1963 into 1964; check the volumes' spans), for Drive like the other
@@ -1338,6 +1335,11 @@ Rights in Conflict (Walker Report):
 - The Child Development Group of Mississippi, 1966: Shriver's cutoff and the compromise (McPherson 353–55).
 - Roche's memoranda on the ARVN and the M-16 (1967), "Riot Lessons" (May 1, 1968, now an entry), McPherson's Harlem memorandum (1968): the LBJ Library's files.
 - The days of the entries the book dates by month or season (each its "Check: the day"); the Senate speeches of Tydings, Bayh, Harris, Muskie and Hart against the war (McPherson 420, undated).
+
+### Chester, Hodgson and Page, *An American Melodrama* (batch 3, Oct. 29, 2026; notes/book-checks/chester-american-melodrama.md)
+- Pennsylvania's Democratic primary, Apr. 23, 1968: Chester prints the McCarthy and Humphrey–Johnson figures two ways (153, 548). Check: the Pennsylvania *Manual* or the State's canvass. 1968 elections.
+- The Democratic convention's presidential roll call, Aug. 28, 1968: Chester gives Humphrey 1,760¼ (585). Check: the *Official Proceedings*, not found open (the conventions, above).
+- New York's Senate primary, June 18, 1968 (O'Dwyer): CQ's *Guide* for the count.
 
 ## Foreign
 

@@ -218,6 +218,30 @@ entries:
     thread: congress
     c: 'The House adopts H. Res. 1247, 218–109: House Public Works members and staff to travel in Europe and in Asia, Vietnam among the places.'
     n: '[[w.cq-weekly-report]], Aug. 16, 1968, 2226 (CQ vote 170).'
+  - id: cal.1968-08-01.elections-1968
+    when: Aug. 1
+    date: '1968-08-01'
+    thread: elections-1968
+    also: [democratic-party, vietnam]
+    c: 'Washington, a private lunch at the Carroll Arms: the peace-plank coalition. Gilligan and Kenneth O''Donnell, its convenors; Pell and Morse; Mankiewicz and Sorensen for McGovern''s and Kennedy''s men; Blair Clark and Rauh for McCarthy; Dutton. One plank, no lever for any candidate, no direct criticism of Johnson; Gilligan and O''Donnell cochairmen, Dutton to draft. Rauh pays.'
+    n: '[[w.chester-american-melodrama]], 527–28. Names: Gilligan, Kenneth O''Donnell, Pell, Morse, Mankiewicz, Sorensen, Rauh, Dutton, Johnson, McGovern, Robert Kennedy, McCarthy.'
+    src:
+      c: 698e2f73
+      rows:
+        - 'w.chester-american-melodrama 527–28: all'
+    tags: [name:gilligan-john-j, name:odonnell-kenneth-p, name:pell-claiborne-d, name:morse-wayne, name:mankiewicz-frank, name:sorensen-theodore-c, name:rauh-joseph-l-jr, name:dutton-frederick-g, name:johnson-lyndon-b, name:mcgovern-george, name:kennedy-robert-f, name:mccarthy-eugene-j]
+  - id: cal.1968-08-01.civil-disorders
+    when: Aug. 1
+    date: '1968-08-01'
+    thread: civil-disorders
+    also: [elections-1968-chicago, war-opposition]
+    c: 'Chicago. The report of the citizens'' inquiry into the peace march of Apr. 27, Sparling''s, of Roosevelt University: the violent police "cannot be truly labeled ''exceptions''"; "the political system of Chicago, not merely individual officers, was at work that Saturday." City Hall silent.'
+    n: '[[w.chester-american-melodrama]], 518. See [[cal.1968-04-27.war-opposition]]. Names: Daley.'
+    src:
+      c: 810fb026
+      rows:
+        - 'w.chester-american-melodrama 518: all'
+    tags: [name:daley-richard-j, city:chicago, state:il]
   - id: cal.1968-08-02.economy-surcharge
     when: Aug. 2
     date: '1968-08-02'
@@ -435,6 +459,19 @@ entries:
     c: 'New York. Burns W. Roper against Gallup and Harris''s statement of Aug. 1: "overly generous" of Gallup to put Rockefeller ahead without Gallup''s data for it; Rockefeller, Nixon, Humphrey and McCarthy "roughly equal, though shifting."'
     n: '[[w.cq-weekly-report]], Aug. 9, 1968, 2103. [[w.cq-weekly-report]], Aug. 16, 1968, 2185 (Roper: a shift of 13 points in seven days "hard to believe"; "carrying pollster unity too far"). Names: Gallup, Harris, Rockefeller, Nixon, Humphrey, McCarthy.'
     tags: [name:gallup-george-h, name:harris-louis, name:rockefeller-nelson, name:nixon-richard-m, name:humphrey-hubert-h, name:mccarthy-eugene-j, city:nyc]
+  - id: cal.1968-08-03.elections-1968-miami
+    when: Aug. 3
+    date: '1968-08-03'
+    thread: elections-1968-miami
+    also: [republican-party]
+    c: 'Miami Beach. The *New York Times*, from Leonard Hall, Rockefeller''s floor manager: "Rockefeller Aides Fear Reagan Is Gaining Rapidly," up to 300 votes for Reagan on the first ballot. That night, Reagan back in Miami Beach, on television: "It''s very difficult to disagree with most of the things that Mr. Wallace is saying."'
+    n: '[[w.chester-american-melodrama]], 449, 454–55. Names: Hall, Rockefeller, Reagan, Wallace.'
+    src:
+      c: f0d04c19
+      rows:
+        - 'w.chester-american-melodrama 454–55: A-B'
+        - 'w.chester-american-melodrama 449: A, C'
+    tags: [name:hall-leonard-w, name:rockefeller-nelson, name:reagan-ronald, name:wallace-george-c]
   - id: cal.1968-08-04.opinion
     when: Aug. 4
     date: '1968-08-04'
@@ -584,6 +621,31 @@ entries:
     c: 'Harold Hughes takes the chair of a commission on how the convention''s delegates are chosen: model procedures, the unit rule; to the Credentials and Rules committees.'
     n: '[[w.cq-weekly-report]], Aug. 16, 1968, 2183. Names: Harold Hughes.'
     tags: [name:hughes-harold-e]
+  - id: cal.1968-08-04.elections-1968-2
+    when: Aug. 4
+    date: '1968-08-04'
+    thread: elections-1968
+    also: [democratic-party]
+    c: 'Chicago, a motel at O''Hare Airport, secret. McGovern with many of those at the Huron dinner and other liberal Democrats; he seems eager to run. Harold Hughes: "I love you, George, but you can''t do anything for me!" McGovern to the Black Hills with his family to decide.'
+    n: '[[w.chester-american-melodrama]], 415. See [[cal.1968-07-13.elections-1968-2]]. Names: McGovern, Harold Hughes.'
+    src:
+      c: e6168a72
+      rows:
+        - 'w.chester-american-melodrama 415: all'
+    tags: [name:mcgovern-george, name:hughes-harold-e, city:chicago, state:il]
+  - id: cal.1968-08-04.elections-1968-miami
+    when: Aug. 4
+    date: '1968-08-04'
+    thread: elections-1968-miami
+    also: [republican-party]
+    c: 'Miami Beach, Sunday. Southern party leaders with Mitchell, at their asking, on the Vice Presidency: Nixon will not split the ticket, which they take to exclude a divisive liberal. Reagan with the delegations of Alabama, Georgia, Mississippi, Montana, Utah and Wyoming; Utah decides for Romney on the first ballot.'
+    n: '[[w.chester-american-melodrama]], 449, 458. Names: Mitchell, Nixon, Reagan, Romney.'
+    src:
+      c: f08b441a
+      rows:
+        - 'w.chester-american-melodrama 458: A-B'
+        - 'w.chester-american-melodrama 449: A, C-D'
+    tags: [name:mitchell-john-n, name:nixon-richard-m, name:reagan-ronald, name:romney-george-w]
   - id: cal.1968-08-05.elections-1968
     when: Aug. 5
     date: '1968-08-05'
@@ -609,12 +671,13 @@ entries:
     date: '1968-08-05'
     thread: elections-1968-miami
     c: Miami Beach. Reagan declares himself a candidate, the California delegation behind him.
-    n: '[[w.nixon-rn]], 309 (Knowland''s announcement of the delegation''s resolution, Aug. 5); [[w.cq-weekly-report]], Aug. 9, 1968, 2096, 2104. To check: [[w.white-making-of-the-president-1969]]; [[w.chester-american-melodrama]]; [[w.mailer-miami-and-the-siege-1968]]; [[w.cannon-governor-reagan]]; [[w.kabaservice-rule-and-ruin]]. See [[cal.1968-08-05.elections-1968]]. Names: Reagan.'
+    n: '[[w.nixon-rn]], 309 (Knowland''s announcement of the delegation''s resolution, Aug. 5); [[w.cq-weekly-report]], Aug. 9, 1968, 2096, 2104. [[w.chester-american-melodrama]], 449–50 (Knowland''s announcement, 4 p.m., of the California caucus''s resolution; Reagan: "It all came out of the clear blue sky"). To check: [[w.white-making-of-the-president-1969]]; [[w.mailer-miami-and-the-siege-1968]]; [[w.cannon-governor-reagan]]; [[w.kabaservice-rule-and-ruin]]. See [[cal.1968-08-05.elections-1968]]. Names: Reagan.'
     src:
       c: 2b7c1b8d
       rows:
         - 'w.nixon-rn 309: all'
         - 'w.cq-weekly-report Aug. 9, 1968, 2096, 2104: A-B'
+        - 'w.chester-american-melodrama 449–50: all'
     tags: [name:reagan-ronald, state:fl]
   - id: cal.1968-08-05.africa
     when: Aug. 5
@@ -727,6 +790,18 @@ entries:
     c: 'Chicago. The Committee for a Democratic Convention plans a "third-force" movement on the platform, Vietnam and the cities: Harold Hughes, Hoff, Unruh, Lucey, Pell, McGovern.'
     n: '[[w.cq-weekly-report]], Aug. 16, 1968, 2183 Check: CQ prints "Philip H. Hoff (D Va.)"; Hoff governed Vermont. Names: Harold Hughes, Hoff, Unruh, Lucey, Pell, McGovern.'
     tags: [name:hughes-harold-e, name:hoff-philip-h, name:unruh-jesse-m, name:lucey-patrick, name:pell-claiborne-d, name:mcgovern-george]
+  - id: cal.1968-08-05.elections-1968-miami
+    when: Aug. 5
+    date: '1968-08-05'
+    thread: elections-1968-miami
+    also: [republican-party, conservative-movement]
+    c: Miami Beach, the convention's opening day. Goldwater's speech, thirty-three bursts of applause; "I'm still mad about Barry" buttons.
+    n: '[[w.chester-american-melodrama]], 436–37. See [[cal.1968-08-05.elections-1968]]. Names: Goldwater.'
+    src:
+      c: 2f49e971
+      rows:
+        - 'w.chester-american-melodrama 436–37: all'
+    tags: [name:goldwater-barry-m]
   - id: cal.1968-08-06.elections-1968-miami
     when: Aug. 6
     date: '1968-08-06'
@@ -942,18 +1017,43 @@ entries:
     thread: testing
     c: 'Geneva. Britain''s working paper to the disarmament conference: a convention on bacteriological warfare.'
     n: '[[w.cq-weekly-report]], Aug. 16, 1968, 2216.'
+  - id: cal.1968-08-06.elections-1968-miami-2
+    when: Aug. 6
+    date: '1968-08-06'
+    thread: elections-1968-miami
+    also: [republican-party, desegregation-schools, vietnam]
+    c: 'Miami Beach, the Hilton Plaza, the morning. Nixon with the Southern delegations, coffee and buns, in two groups, the talk shaped by Dent and Thurmond the night before; the second, Florida, the Carolinas, Kentucky, Virginia, Tennessee, the District and Arkansas, taped by a Florida delegate for the *Miami Herald*. "I am not going to take ... anybody that is going to divide this party." Busing a child "into a strange community ... I think you destroy that child"; no court "qualified to be a local school district." Open housing: he backed the act to get it "out of our sight" before the convention. Vietnam: Eisenhower and Korea; "we''ve got the cards."'
+    n: '[[w.chester-american-melodrama]], 461–64. Made public: the *Miami Herald*''s transcript (Check the day). Names: Nixon, Dent, Thurmond, Eisenhower.'
+    src:
+      c: 43a089d3
+      rows:
+        - 'w.chester-american-melodrama 461–64: all'
+    tags: [name:nixon-richard-m, name:dent-harry-s, name:thurmond-strom, name:eisenhower-dwight-d]
+  - id: cal.1968-08-06.elections-1968-miami-3
+    when: Aug. 6
+    date: '1968-08-06'
+    thread: elections-1968-miami
+    also: [republican-party]
+    c: 'Miami Beach, the Versailles Hotel. Reagan with Thurmond, before the South Carolina delegation, then alone upstairs, forty-five minutes: Thurmond''s admiration, but it is not Reagan''s year; Nixon acceptable, "Nobody''s ever been able to pin any fraud on him." Reagan by telephone to Clarke Reed of Mississippi: "release your delegates." Goldwater, for Nixon, among the delegations: Reagan a wonderful Vice President; Reagan''s telegrams to the delegations: not so.'
+    n: '[[w.chester-american-melodrama]], 465–66. Names: Reagan, Thurmond, Goldwater, Nixon.'
+    src:
+      c: d966e301
+      rows:
+        - 'w.chester-american-melodrama 465–66: all'
+    tags: [name:reagan-ronald, name:thurmond-strom, name:goldwater-barry-m, name:nixon-richard-m]
   - id: cal.1968-08-07.elections-1968
     when: Aug. 7–8
     date: '1968-08-07'
     thread: elections-1968-miami
     c: 'Miami Beach. Thurmond and the Southern delegations hold for Nixon (Check). Nixon nominated on the first ballot, early Aug. 8: 692 votes, 667 needed; Rockefeller 277, Reagan 182, Rhodes 55, Romney 50. After the roll, the delegations change: Nixon 1,238, Rockefeller 93, Reagan 2. New York''s and Kentucky''s motions to make it unanimous not recognized. The rules suspended by voice vote, on California''s motion, for Reagan to speak; he moves that the convention "declare itself as unanimously and united behind the candidate Richard Nixon." The chair thanks him. No vote put.'
-    n: '[*Official Report of the Proceedings of the Twenty-Ninth Republican National Convention*](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968) (1968), the fourth session, Aug. 7, the roll call [368–379](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968/page/368/mode/1up), the changes and the final tabulation [379–389](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968/page/379/mode/1up), the motions [381–389](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968/page/381/mode/1up) (Rule 17, the chair to put "Shall the nomination of the candidate be made unanimous?", read, 381; New York, 382, and the table''s note, "not recognized under the rules of the Convention," 389; Kentucky, "not recognized for that purpose," 383; California''s motion, seconded by Maine and Virginia, put as "to suspend the rules ... for the Convention to cast a unanimous vote for Richard M. Nixon," the ayes having it, "under the motion, the Governor of California will be recognized," 386–87; Reagan''s motion and the chair''s thanks, 387; the table''s note, "Governor Reagan moved that the nomination of Richard M. Nixon be made unanimous," no outcome given, 389). [[w.nixon-rn]], 309–11 (Thurmond and Tower holding the South; the first ballot, 692, 25 more than needed; Reagan''s motion); [[w.cq-weekly-report]], Aug. 9, 1968, 2096, 2098, 2141 (the first ballot and the changes; no vote on Reagan''s motion, 2096). CQ agrees: Reagan''s motion "never put to a vote" (2096); New York''s and Kentucky''s motions ruled out of order (2141). To check: [[w.witcover-resurrection-of-richard-nixon]]; [[w.perlstein-nixonland-2008]]; [[w.nelson-resilient-america]]. See [[cal.1968-08-05.elections-1968]]. Names: Thurmond, Nixon, Rockefeller, Reagan, Rhodes, Romney.'
+    n: '[*Official Report of the Proceedings of the Twenty-Ninth Republican National Convention*](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968) (1968), the fourth session, Aug. 7, the roll call [368–379](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968/page/368/mode/1up), the changes and the final tabulation [379–389](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968/page/379/mode/1up), the motions [381–389](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968/page/381/mode/1up) (Rule 17, the chair to put "Shall the nomination of the candidate be made unanimous?", read, 381; New York, 382, and the table''s note, "not recognized under the rules of the Convention," 389; Kentucky, "not recognized for that purpose," 383; California''s motion, seconded by Maine and Virginia, put as "to suspend the rules ... for the Convention to cast a unanimous vote for Richard M. Nixon," the ayes having it, "under the motion, the Governor of California will be recognized," 386–87; Reagan''s motion and the chair''s thanks, 387; the table''s note, "Governor Reagan moved that the nomination of Richard M. Nixon be made unanimous," no outcome given, 389). [[w.nixon-rn]], 309–11 (Thurmond and Tower holding the South; the first ballot, 692, 25 more than needed; Reagan''s motion); [[w.cq-weekly-report]], Aug. 9, 1968, 2096, 2098, 2141 (the first ballot and the changes; no vote on Reagan''s motion, 2096). CQ agrees: Reagan''s motion "never put to a vote" (2096); New York''s and Kentucky''s motions ruled out of order (2141). [[w.chester-american-melodrama]], 458, 465–75 (the South held for Nixon, Thurmond and Dent at work on Alabama, Mississippi and Florida). To check: [[w.witcover-resurrection-of-richard-nixon]]; [[w.perlstein-nixonland-2008]]; [[w.nelson-resilient-america]]. See [[cal.1968-08-05.elections-1968]]. Names: Thurmond, Nixon, Rockefeller, Reagan, Rhodes, Romney.'
     src:
       c: f228d54e
       rows:
         - 'https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968: A, C-J'
         - 'w.nixon-rn 309–11: B, C, H'
         - 'w.cq-weekly-report Aug. 9, 1968, 2096, 2098, 2141: C-E, J'
+        - 'w.chester-american-melodrama 458, 465–75: A'
     tags: [name:thurmond-strom, name:nixon-richard-m, name:rockefeller-nelson, name:reagan-ronald, name:rhodes-james-a, name:romney-george-w, state:fl, rollcall:1968-R-pres1]
   - id: cal.1968-08-07.civil-disorders
     when: Aug. 7–9
@@ -1061,7 +1161,7 @@ entries:
     date: '1968-08-08'
     thread: elections-1968-miami
     c: 'Miami Beach. Nixon names Agnew; Agnew nominated, 1,119, over Romney, put up by delegates against him, 186. Nixon''s acceptance: the voice of "the forgotten Americans—the non-shouters; the non-demonstrators." Johnson by telephone: a briefing at the ranch.'
-    n: '[Address Accepting the Presidential Nomination at the Republican National Convention in Miami Beach, Florida](https://www.presidency.ucsb.edu/documents/address-accepting-the-presidential-nomination-the-republican-national-convention-miami) (Aug. 8, 1968). [Johnson and Nixon, 4:09 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-richard-nixon-august-8-1968), Conversation WH6808-01-13304 (Miller Center). [*Official Report of the Proceedings of the Twenty-Ninth Republican National Convention*](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968) (1968), the fifth session, the roll call [420–431](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968/page/420/mode/1up). [[w.nixon-rn]], 311–14 (Agnew chosen; the challenge in Romney''s name); [[w.cq-weekly-report]], Aug. 9, 1968, 2096–97, 2137, 2141 (Agnew named, 12:39 p.m.; the ballot; the acceptance, its text). [[w.cq-weekly-report]], Aug. 16, 1968, 2190 (the ballot for Vice President by State: Agnew 1,119, Romney 186, 28 others and not voting). To check: [[w.witcover-white-knight]]; [[w.coffey-spiro-agnew-and-the]]. See [[cal.1968-08-07.elections-1968]]. Names: Nixon, Agnew, Romney, Johnson. Check: Nixon gives Agnew 1,128 votes (314).'
+    n: '[Address Accepting the Presidential Nomination at the Republican National Convention in Miami Beach, Florida](https://www.presidency.ucsb.edu/documents/address-accepting-the-presidential-nomination-the-republican-national-convention-miami) (Aug. 8, 1968). [Johnson and Nixon, 4:09 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-richard-nixon-august-8-1968), Conversation WH6808-01-13304 (Miller Center). [*Official Report of the Proceedings of the Twenty-Ninth Republican National Convention*](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968) (1968), the fifth session, the roll call [420–431](https://archive.org/details/sim_republican-national-convention-proceedings_august-5-8-1968/page/420/mode/1up). [[w.nixon-rn]], 311–14 (Agnew chosen; the challenge in Romney''s name); [[w.cq-weekly-report]], Aug. 9, 1968, 2096–97, 2137, 2141 (Agnew named, 12:39 p.m.; the ballot; the acceptance, its text). [[w.cq-weekly-report]], Aug. 16, 1968, 2190 (the ballot for Vice President by State: Agnew 1,119, Romney 186, 28 others and not voting). [[w.chester-american-melodrama]], 490, 493 (Agnew named, 12:40 p.m.; the revolt at the evening session). To check: [[w.witcover-white-knight]]; [[w.coffey-spiro-agnew-and-the]]. See [[cal.1968-08-07.elections-1968]]. Names: Nixon, Agnew, Romney, Johnson. Check: Nixon gives Agnew 1,128 votes (314).'
     src:
       c: 2cb78eb9
       rows:
@@ -1071,6 +1171,7 @@ entries:
         - 'w.nixon-rn 311–14: B, C'
         - 'w.cq-weekly-report Aug. 9, 1968, 2096–97, 2137, 2141: B-D'
         - 'w.cq-weekly-report Aug. 16, 1968, 2190: ?'
+        - 'w.chester-american-melodrama 490, 493: A-B'
     tags: [name:nixon-richard-m, name:agnew-spiro-t, name:romney-george-w, name:johnson-lyndon-b, state:fl, rollcall:1968-R-vp, ok:result-form]
   - id: cal.1968-08-08.elections-1968-miami-3
     when: Aug. 8
@@ -1176,6 +1277,18 @@ entries:
     thread: testing
     c: 'State: the United States would support a study of "the nature and possible effects of chemical and biological weapons," by the conference or the Secretary General.'
     n: '[[w.cq-weekly-report]], Aug. 16, 1968, 2216.'
+  - id: cal.1968-08-08.elections-1968-miami-2
+    when: Aug. 8
+    date: '1968-08-08'
+    thread: elections-1968-miami
+    also: [republican-party]
+    c: 'Miami Beach, from 2:15 a.m., the night after the nomination. Nixon''s meetings on a running mate: twenty-four in his penthouse, "I have brought no names to Miami"; at 2:45 a.m., twenty-two, Thurmond, Dent, Goldwater, Nunn, Brock, Fannin, John Rhodes, James Rhodes, Jack Miller, Brownell, Finch, Billy Graham, Rumsfeld; Thurmond for Reagan, then Baker, Volpe and Agnew acceptable; James Rhodes: "With Reagan on the ticket, we''d lose Ohio." At 9 a.m., the Jackie of Hearts Room: Bliss, Dirksen, Ford, Murphy, Bob Wilson, Rogers Morton, Tower, O''Donnell; Wilson and Ford for Lindsay, Tower for Reagan. Then Mitchell, Haldeman, Ellsworth, Morton, Tower and Finch: "you three ... or Ted Agnew." Tower, at Nixon''s asking, to Thurmond: Volpe or Agnew? Morton calls Agnew; at 12:40 p.m. Nixon names him.'
+    n: '[[w.chester-american-melodrama]], 484–90 (the names Nixon''s staff released; Sears: Agnew decided ten days before). See [[cal.1968-08-08.elections-1968-miami]]. Names: Nixon, Thurmond, Dent, Goldwater, Nunn, Brock, Fannin, John J. Rhodes, James A. Rhodes, Jack Miller, Brownell, Finch, Graham, Rumsfeld, Baker, Volpe, Agnew, Bliss, Dirksen, Ford, Murphy, Bob Wilson, Rogers Morton, Tower, Peter O''Donnell, Lindsay, Reagan, Mitchell, Haldeman, Ellsworth, Sears.'
+    src:
+      c: c2bb24e0
+      rows:
+        - 'w.chester-american-melodrama 484–90: all'
+    tags: [name:nixon-richard-m, name:thurmond-strom, name:dent-harry-s, name:goldwater-barry-m, name:nunn-louie-b, name:brock-bill, name:fannin-paul-j, name:rhodes-john-j, name:rhodes-james-a, name:miller-jack-r, name:brownell-herbert-jr, name:finch-robert-h, name:graham-billy, name:rumsfeld-donald, name:baker-howard-h-jr, name:volpe-john-a, name:agnew-spiro-t, name:bliss-ray-c, name:dirksen-everett, name:ford-gerald-r, name:murphy-george, name:wilson-bob, name:morton-rogers-c-b, name:tower-john-g, name:odonnell-peter, name:lindsay-john-v, name:reagan-ronald, name:mitchell-john-n, name:haldeman-h-r, name:ellsworth-robert, name:sears-john-p]
   - id: cal.1968-08-09.court-fortas
     when: Aug. 9
     date: '1968-08-09'
@@ -1316,6 +1429,18 @@ entries:
     c: 'Signed: H.R. 3136, the study of the metric system.'
     n: '[[w.cq-weekly-report]], Aug. 16, 1968, 2211 Check: the statute''s cite (Public Law 90-472). See [[cal.1968-07-30.economy-2]]. Names: Johnson.'
     tags: [name:johnson-lyndon-b]
+  - id: cal.1968-08-09.elections-1968-7
+    when: Aug. 9
+    date: '1968-08-09'
+    thread: elections-1968
+    also: [vietnam]
+    c: The LBJ Ranch. Humphrey brings Johnson his tenth draft of the statement on Vietnam; Johnson, unruffled, as good as says he could not have done better himself. The draft much weakened.
+    n: '[[w.chester-american-melodrama]], 423 (by one who saw the draft). See [[cal.1968-07-25.elections-1968]]. Names: Humphrey, Johnson.'
+    src:
+      c: d90a10fe
+      rows:
+        - 'w.chester-american-melodrama 423: all'
+    tags: [name:humphrey-hubert-h, name:johnson-lyndon-b]
   - id: cal.1968-08-10.elections-1968
     when: Aug. 10
     date: '1968-08-10'
@@ -1337,13 +1462,14 @@ entries:
     thread: elections-1968
     also: [robert-kennedy]
     c: 'McGovern announces his candidacy for the Democratic nomination, for Robert Kennedy''s delegates and against the war (Check the day). His statement: "The loss of American youth and the slaughter of the Vietnamese should stop now"; "We seek no wider war" the pledge of 1964; "25,000 young American lives and $100 billion later."'
-    n: '[[w.mann-grand-delusion]], 609–10; [[w.cq-weekly-report]], Aug. 16, 1968, 2175–77 (the day, Aug. 10, in Washington; the statement''s text). Check: CQ dates the announcement Aug. 10, in Washington, and prints its text ([[w.cq-weekly-report]], Aug. 16, 1968, 2175–77). To check: [[w.mcgovern-grassroots]]; [[w.knock-rise-of-a-prairie]]; McGovern, announcement, Aug. 10, 1968, Speeches, Box 37, McGovern Papers (cited by [[w.mann-grand-delusion]], 610 n.4). See [[cal.1968-06-05.robert-kennedy]]. Names: McGovern, Robert Kennedy.'
+    n: '[[w.mann-grand-delusion]], 609–10; [[w.cq-weekly-report]], Aug. 16, 1968, 2175–77 (the day, Aug. 10, in Washington; the statement''s text). Check: CQ dates the announcement Aug. 10, in Washington, and prints its text ([[w.cq-weekly-report]], Aug. 16, 1968, 2175–77). [[w.chester-american-melodrama]], 415 (the announcement, Aug. 10). To check: [[w.mcgovern-grassroots]]; [[w.knock-rise-of-a-prairie]]. See [[cal.1968-06-05.robert-kennedy]]. Names: McGovern, Robert Kennedy.'
     src:
       c: df9526f5
       rows:
         - 'w.mann-grand-delusion 609–10: A-D'
         - 'via w.mann-grand-delusion 610 n.4: A-D'
         - 'w.cq-weekly-report Aug. 16, 1968, 2175–77: ?'
+        - 'w.chester-american-melodrama 415: A'
     tags: [name:mcgovern-george, name:kennedy-robert-f]
   - id: cal.1968-08-10.elections-1968-chicago
     when: Aug. 10
@@ -1390,6 +1516,18 @@ entries:
     c: 'Richard Hughes: the Equal Rights Committee to have "permanent status."'
     n: '[[w.cq-weekly-report]], Aug. 16, 1968, 2183. Names: Richard Hughes.'
     tags: [name:hughes-richard-j]
+  - id: cal.1968-08-10.georgia-bond
+    when: Aug. 10
+    date: '1968-08-10'
+    thread: georgia-bond
+    also: [elections-1968-chicago, georgia]
+    c: 'Macon, Ga. Bond''s State convention, mounted with McCarthy''s staff: forty-one challenge delegates to Chicago, twenty-one white, twenty Negro, against the regular slate the State chairman, James Gray, and Governor Maddox picked.'
+    n: '[[w.chester-american-melodrama]], 555–56. See [[cal.1968-08-26.elections-1968-2]]. Names: Bond, Maddox, McCarthy.'
+    src:
+      c: 90932fcd
+      rows:
+        - 'w.chester-american-melodrama 555–56: all'
+    tags: [name:bond-julian, name:maddox-lester, state:ga, name:mccarthy-eugene-j]
   - id: cal.1968-08-11.opinion
     when: Aug. 11
     date: '1968-08-11'
@@ -1804,6 +1942,30 @@ entries:
     c: 'McCarthy''s plank on Vietnam for the platform released: the first formal proposal of its language.'
     n: '[[w.cq-weekly-report]], Aug. 30, 1968, 2285. See [[cal.1968-07-09.elections-1968]]. Names: McCarthy.'
     tags: [name:mccarthy-eugene-j]
+  - id: cal.1968-08-17.elections-1968
+    when: Aug. 17
+    date: '1968-08-17'
+    thread: elections-1968
+    also: [georgia]
+    c: Maddox, governor of Georgia, declares himself a candidate for the Democratic nomination, against "socialist decay in the land."
+    n: '[[w.chester-american-melodrama]], 556. Names: Maddox.'
+    src:
+      c: 1db59203
+      rows:
+        - 'w.chester-american-melodrama 556: all'
+    tags: [name:maddox-lester, state:ga]
+  - id: cal.1968-08-17.elections-1968-2
+    when: Aug. 17
+    date: '1968-08-17'
+    thread: elections-1968
+    also: [vietnam, robert-kennedy-campaign]
+    c: 'New York. Humphrey: he and Robert Kennedy held "remarkably similar views on Vietnam," both against forcing a coalition government on Saigon before negotiations. Walinsky, Mankiewicz, Schlesinger and Goodwin, to the *New York Times*: "false and misleading"; Kennedy for the Viet Cong''s part in the government, which Humphrey had called "putting a fox in a chicken coop."'
+    n: '[[w.chester-american-melodrama]], 529–30. Names: Humphrey, Robert Kennedy, Walinsky, Mankiewicz, Schlesinger, Goodwin.'
+    src:
+      c: 74b0a2d0
+      rows:
+        - 'w.chester-american-melodrama 529–30: all'
+    tags: [name:humphrey-hubert-h, name:kennedy-robert-f, name:walinsky-adam, name:mankiewicz-frank, name:schlesinger-arthur-m-jr, name:goodwin-richard-n, city:nyc]
   - id: cal.1968-08-18.vietnam
     when: Aug. 18
     date: '1968-08-18'
@@ -1947,6 +2109,20 @@ entries:
     also: [vietnam]
     c: 'Harris, released: a halt in all bombing of North Vietnam, opposed 61 percent, favored 24, not sure 15. The Viet Cong in a coalition government before an election in the South: opposed 52 percent, favored 27, not sure 21.'
     n: '[[w.cq-weekly-report]], Aug. 30, 1968, 2337. Check: the dates of the interviews.'
+  - id: cal.1968-08-19.elections-1968-chicago-6
+    when: Aug. 19
+    date: '1968-08-19'
+    thread: elections-1968-chicago
+    also: [vietnam]
+    c: 'Washington, the Statler Hilton. The platform committee''s hearings open, Boggs in the chair; Goodwin''s threat of a walkout brings anti-administration witnesses, McGovern, Fulbright, Gaylord Nelson, Galbraith, Sam Brown, Hilsman. The peace-plank group''s count: 39 or 40 of the 110 members with it. The same day, Johnson to the Veterans of Foreign Wars at Detroit: "It takes two to make a bargain."'
+    n: '[[w.chester-american-melodrama]], 530–32; [[w.cq-weekly-report]], Aug. 30, 1968, 2285 (the hearings; Boggs). Check: CQ dates the opening Aug. 20. See [[cal.1968-08-01.elections-1968]]. Names: Boggs, Goodwin, McGovern, Fulbright, Gaylord Nelson, Galbraith, Sam Brown, Hilsman, Johnson.'
+    src:
+      c: b884693a
+      rows:
+        - 'w.chester-american-melodrama 530–32: all'
+        - 'w.cq-weekly-report Aug. 30, 1968, 2285: A-B'
+    tags: [name:boggs-hale, name:goodwin-richard-n, name:mcgovern-george, name:fulbright-j-william, name:nelson-gaylord-a, name:galbraith-john-kenneth, name:brown-sam, name:hilsman-roger, name:johnson-lyndon-b, city:washington]
+    aliases: [cal.1968-08-20.elections-1968-chicago-2]
   - id: cal.1968-08-20.testing-missile-talks
     when: Aug. 20
     date: '1968-08-20'
@@ -2019,13 +2195,6 @@ entries:
     c: 'Hayden, to some 800 delegates of the National Student Association: a show of dissident strength in Chicago.'
     n: '[[w.rights-in-conflict-convention-week]], 81. Check: the place. See [[cal.1967-12-18.war-opposition]]. Names: Hayden.'
     tags: [name:hayden-tom]
-  - id: cal.1968-08-20.elections-1968-chicago-2
-    when: Aug. 20
-    date: '1968-08-20'
-    thread: elections-1968-chicago
-    c: Washington. The Platform Committee's hearings open, Boggs chairman.
-    n: '[[w.cq-weekly-report]], Aug. 30, 1968, 2285. See [[cal.1968-07-09.elections-1968]]. Names: Boggs.'
-    tags: [name:boggs-hale, city:washington]
   - id: cal.1968-08-20.elections-1968-2
     when: Aug. 20
     date: '1968-08-20'
@@ -2062,13 +2231,41 @@ entries:
     c: 'Zwick, the Budget Director: from Sept. 1 agencies may replace only 70 percent of those who leave, not the act''s 75, to reach the cut of 245,000 in federal employment after four agencies'' exemptions; three more exemptions pending in Congress, 36 agencies asking.'
     n: '[[w.cq-weekly-report]], Aug. 30, 1968, 2337. Names: Zwick.'
     tags: [name:zwick-charles-j]
+  - id: cal.1968-08-20.elections-1968-chicago-3
+    when: Aug. 20
+    date: '1968-08-20'
+    thread: elections-1968-chicago
+    also: [soviet-union-czechoslovakia, vietnam]
+    c: 'Washington, the platform committee, 9:27 p.m. Rusk has finished for the administration''s policy when Boggs reads a press dispatch: the invasion of Czechoslovakia. Rusk: "I think I ought to see what this is all about."'
+    n: '[[w.chester-american-melodrama]], 532. See [[cal.1968-08-19.elections-1968-chicago-6]]. Names: Rusk, Boggs.'
+    src:
+      c: '76859112'
+      rows:
+        - 'w.chester-american-melodrama 532: all'
+    tags: [name:rusk-dean, name:boggs-hale]
+  - id: cal.1968-08-20.elections-1968-chicago-4
+    when: Aug. 20
+    date: '1968-08-20'
+    thread: elections-1968-chicago
+    also: [war-opposition]
+    c: 'Lowenstein calls off the Coalition for an Open Convention''s rally in Chicago, Soldier Field booked for the week by the Democratic National Committee for "Lyndon Johnson''s Birthday Party": the authorities "seem determined to have a confrontation that can only produce violence and bloodshed." McCarthy had already told his supporters to stay away.'
+    n: '[[w.chester-american-melodrama]], 519. Names: Lowenstein, McCarthy, Johnson.'
+    src:
+      c: bddb091b
+      rows:
+        - 'w.chester-american-melodrama 519: all'
+    tags: [name:lowenstein-allard, name:mccarthy-eugene-j, name:johnson-lyndon-b]
   - id: cal.1968-08-21.elections-1968
     when: Aug. 21
     date: '1968-08-21'
     thread: elections-1968
     also: [vietnam, war-opposition]
     c: 'Worcester, Mass. Edward Kennedy, his first speech since his brother''s death: an end to the bombing of the North without conditions; the withdrawal of American and North Vietnamese forces from the South to be negotiated (Check the place and the terms).'
-    n: 'To check: [[w.clymer-edward-m-kennedy]]. See [[cal.1968-07-26.elections-1968-2]]. Names: Edward Kennedy.'
+    n: '[[w.chester-american-melodrama]], 567 (the speech, Aug. 21, the one planned for July 2; not the place or the terms). To check: [[w.clymer-edward-m-kennedy]]. See [[cal.1968-07-26.elections-1968-2]]. Names: Edward Kennedy.'
+    src:
+      c: 1048281d
+      rows:
+        - 'w.chester-american-melodrama 567: B'
     tags: [name:kennedy-edward-m, state:ma]
   - id: cal.1968-08-21.opinion
     when: Aug. 21
@@ -2144,6 +2341,18 @@ entries:
       rows:
         - 'w.ball-past-has-another-pattern 440–41: all'
     tags: [name:malik-yakov-aleksandrovich, name:ball-george-w, name:hajek-jiri]
+  - id: cal.1968-08-21.elections-1968-chicago-2
+    when: Aug. 21
+    date: '1968-08-21'
+    thread: elections-1968-chicago
+    also: [rules]
+    c: 'Humphrey''s headquarters releases his letter to Governor Shapiro of Illinois, chairman of the rules committee: abolish the unit rule at this convention and in the call to 1972. Connally, told otherwise, feels betrayed.'
+    n: '[[w.chester-american-melodrama]], 557 (Sanford''s account). Names: Humphrey, Shapiro, Connally.'
+    src:
+      c: 876694de
+      rows:
+        - 'w.chester-american-melodrama 557: all'
+    tags: [name:humphrey-hubert-h, name:shapiro-samuel-h, name:connally-john]
   - id: cal.1968-08-22.soviet-union
     when: Aug. 22
     date: '1968-08-22'
@@ -2186,7 +2395,7 @@ entries:
     thread: elections-1968-chicago
     also: [vietnam]
     c: 'Chicago, 9:38 a.m. The Platform Committee''s hearings resume, Boggs in the chair. Alioto: the States to share revenues with their cities. Stokes: the welfare system "inappropriate in concept." 12:30 p.m., Connally against the doves and McCarthy: if Hanoi did not respond, "our only alternative is abject surrender." From 2:45 p.m., three panels.'
-    n: '[[w.cq-weekly-report]], Aug. 30, 1968, 2292. See [[cal.1968-08-20.elections-1968-chicago-2]]. Names: Boggs, Alioto, Stokes, Connally, McCarthy.'
+    n: '[[w.cq-weekly-report]], Aug. 30, 1968, 2292. See [[cal.1968-08-19.elections-1968-chicago-6]]. Names: Boggs, Alioto, Stokes, Connally, McCarthy.'
     tags: [name:boggs-hale, name:alioto-joseph-l, name:stokes-carl-b, name:connally-john, name:mccarthy-eugene-j, state:il, city:chicago]
   - id: cal.1968-08-22.elections-1968-chicago-3
     when: Aug. 22
@@ -2215,7 +2424,7 @@ entries:
     date: '1968-08-22'
     thread: elections-1968-chicago
     c: Boggs names the Platform Committee's drafting subcommittee, 22 members.
-    n: '[[w.cq-weekly-report]], Aug. 30, 1968, 2285. See [[cal.1968-08-20.elections-1968-chicago-2]]. Names: Boggs.'
+    n: '[[w.cq-weekly-report]], Aug. 30, 1968, 2285. See [[cal.1968-08-19.elections-1968-chicago-6]]. Names: Boggs.'
     tags: [name:boggs-hale]
   - id: cal.1968-08-22.elections-1968-chicago-6
     when: Aug. 22
@@ -2273,13 +2482,14 @@ entries:
     thread: elections-1968-chicago
     also: [vietnam]
     c: 'McGovern and McCarthy, a joint plank on Vietnam for the platform: an immediate end to the bombing; mutual withdrawal of American and North Vietnamese forces from the South; fewer offensive operations in the countryside; a settlement negotiated between the NLF and Saigon. The platform committee rejects it, nearly two to one.'
-    n: '[[w.mann-grand-delusion]], 613; [[w.cq-weekly-report]], Aug. 30, 1968, 2285. Check: CQ: the plank released Aug. 23 by McCarthy''s people, McGovern''s and unaligned delegates after their meeting the night of Aug. 22; it asks a negotiated coalition government including the Communists; the drafting subcommittee rejects it by voice vote Aug. 25, the committee 62–35 the same day ([[w.cq-weekly-report]], Aug. 30, 1968, 2285; Aug. 26 in its analysis, 2289). The committee''s vote: [[cal.1968-08-25.elections-1968-chicago-4]]. To check: McGovern and McCarthy, proposal, Aug. 23, 1968, Speeches, Box 37, McGovern Papers (cited by [[w.mann-grand-delusion]], 613 n.12); [[w.chester-american-melodrama]], 537 (cited by [[w.mann-grand-delusion]], 613 n.13). Check: the day of the committee''s vote. See [[cal.1968-08-20.elections-1968]]. Names: McGovern, McCarthy.'
+    n: '[[w.mann-grand-delusion]], 613; [[w.cq-weekly-report]], Aug. 30, 1968, 2285. Check: CQ: the plank released Aug. 23 by McCarthy''s people, McGovern''s and unaligned delegates after their meeting the night of Aug. 22; it asks a negotiated coalition government including the Communists; the drafting subcommittee rejects it by voice vote Aug. 25, the committee 62–35 the same day ([[w.cq-weekly-report]], Aug. 30, 1968, 2285; Aug. 26 in its analysis, 2289). The committee''s vote: [[cal.1968-08-25.elections-1968-chicago-4]]. [[w.chester-american-melodrama]], 533–34 (the plank, released at 10:30 p.m. Friday; its words). Check: the day of the committee''s vote. See [[cal.1968-08-20.elections-1968]]. Names: McGovern, McCarthy.'
     src:
       c: '25546378'
       rows:
         - 'w.mann-grand-delusion 613: all'
         - 'via w.mann-grand-delusion 613 n.12: A'
         - 'w.cq-weekly-report Aug. 30, 1968, 2285: A-C'
+        - 'w.chester-american-melodrama 533–34: A-B, D'
     tags: [name:mcgovern-george, name:mccarthy-eugene-j]
   - id: cal.1968-08-23.elections-1968-chicago-2
     when: Aug. 23
@@ -2374,7 +2584,7 @@ entries:
     date: '1968-08-24'
     thread: elections-1968
     c: 'Boggs called from Chicago to the White House, on the Czech crisis by the announcement. Westmoreland reads him Abrams''s cable of Aug. 23: a halt would bring "a several-fold increase in U.S. and allied casualties in I Corps." He takes it back to the platform committee.'
-    n: 'Abrams to Rostow, Aug. 23, 1968, MAC 11409, [FRUS 1964–68, VI: Vietnam, January–August 1968, doc. 337](https://history.state.gov/historicaldocuments/frus1964-68v06/d337) (the cable; its words, which put the quotation right). [[w.dallek-flawed-giant]], 575. [[w.longley-lbjs-1968]], 214 (Boggs, with Randolph, briefed by Westmoreland). To check: "Summary of General Abrams'' View," Aug. 23, 1968, NSF: Country: Vietnam, LBJ Library; Jones''s memorandum, Aug. 24, 1968, WHCF: EX/PL1, LBJ Library; Bromley Smith''s "Situation Report on Vietnam Plank," NSF: Country: Vietnam, LBJ Library (cited by [[w.dallek-flawed-giant]], 575). See [[cal.1968-07-09.elections-1968]]. Names: Boggs, Westmoreland, Abrams, Johnson.'
+    n: 'Abrams to Rostow, Aug. 23, 1968, MAC 11409, [FRUS 1964–68, VI: Vietnam, January–August 1968, doc. 337](https://history.state.gov/historicaldocuments/frus1964-68v06/d337) (the cable; its words, which put the quotation right). [[w.dallek-flawed-giant]], 575. [[w.longley-lbjs-1968]], 214 (Boggs, with Randolph, briefed by Westmoreland). [[w.chester-american-melodrama]], 535–36 (Boggs at the White House with the congressional leaders, Johnson reading him Abrams''s cable; back in Chicago with it). To check: "Summary of General Abrams'' View," Aug. 23, 1968, NSF: Country: Vietnam, LBJ Library; Jones''s memorandum, Aug. 24, 1968, WHCF: EX/PL1, LBJ Library; Bromley Smith''s "Situation Report on Vietnam Plank," NSF: Country: Vietnam, LBJ Library (cited by [[w.dallek-flawed-giant]], 575). See [[cal.1968-07-09.elections-1968]]. Names: Boggs, Westmoreland, Abrams, Johnson. Check: Chester, 535, gives Friday, Aug. 23, Boggs with Albert and Randolph among the congressional leaders briefed on Czechoslovakia, Johnson reading the cable, a five-hundred-percent increase in the enemy''s capability in the zone.'
     src:
       c: a4b0c4dd
       rows:
@@ -2384,6 +2594,7 @@ entries:
         - 'via w.dallek-flawed-giant 575 n.71a: A, C'
         - 'via w.dallek-flawed-giant 575 n.71b: C'
         - 'w.longley-lbjs-1968 214: A-C'
+        - 'w.chester-american-melodrama 535–36: A-C'
     tags: [name:boggs-hale, name:westmoreland-william, name:abrams-creighton, name:johnson-lyndon-b]
   - id: cal.1968-08-24.elections-1968-chicago
     when: Aug. 24
@@ -2419,6 +2630,41 @@ entries:
       rows:
         - 'w.ball-past-has-another-pattern 442–43: all'
     tags: [name:hajek-jiri, name:malik-yakov-aleksandrovich, name:ball-george-w]
+  - id: cal.1968-08-24.elections-1968-chicago-3
+    when: Aug. 24
+    date: '1968-08-24'
+    thread: elections-1968-chicago
+    c: 'Chicago, after midnight, the Statler Hilton. Gilligan with Ginsburg and Welsh, Humphrey''s draftsmen, and Geoghegan of Boggs''s staff, over the peace plank, released at 10:30 the night before, clause by clause. Ginsburg: "There''s not ten cents of difference between this and the Vice-President''s policy." He never calls back.'
+    n: '[[w.chester-american-melodrama]], 533–36. See [[cal.1968-08-23.elections-1968-chicago]]. Names: Gilligan, Ginsburg, Geoghegan, Boggs, Charles Murphy, Humphrey, Johnson.'
+    src:
+      c: 9860fec2
+      rows:
+        - 'w.chester-american-melodrama 533–36: all'
+    tags: [name:gilligan-john-j, name:ginsburg-david, name:geoghegan-william-a, name:boggs-hale, name:murphy-charles-s, name:humphrey-hubert-h, name:johnson-lyndon-b]
+  - id: cal.1968-08-24.elections-1968-chicago-4
+    when: Aug. 24
+    date: '1968-08-24'
+    thread: elections-1968-chicago
+    also: [elections-1968]
+    c: 'Chicago, Saturday evening. Goodwin, for McCarthy, two hours with Connally, angry at Humphrey over the unit rule; Goodwin then bets McCarthy will be nominated. McCarthy, told, is displeased. Sunday, Humphrey''s men mollify Connally; before the convention opens, Humphrey to him: a "bureaucratic mix-up."'
+    n: '[[w.chester-american-melodrama]], 557–58. See [[cal.1968-08-21.elections-1968-chicago-2]]. Names: Goodwin, McCarthy, Connally, Humphrey.'
+    src:
+      c: 0e031d0e
+      rows:
+        - 'w.chester-american-melodrama 557–58: all'
+    tags: [name:goodwin-richard-n, name:mccarthy-eugene-j, name:connally-john, name:humphrey-hubert-h]
+  - id: cal.1968-08-24.elections-1968-2
+    when: Aug. 24
+    date: '1968-08-24'
+    thread: elections-1968
+    also: [elections-1968-chicago]
+    c: 'Daley by telephone to Edward Kennedy at Hyannis Port, Saturday: Humphrey in trouble; Kennedy should be a candidate, come to Chicago, or say he would accept a draft. Kennedy: none of these; Stephen Smith, a New York delegate, will be in touch. Smith had seen Daley in Chicago the day before.'
+    n: '[[w.chester-american-melodrama]], 569, 575 (Smith''s account). Names: Daley, Edward Kennedy, Stephen Smith, Humphrey.'
+    src:
+      c: be01ca1f
+      rows:
+        - 'w.chester-american-melodrama 569, 575: all'
+    tags: [name:daley-richard-j, name:kennedy-edward-m, name:smith-stephen-e, name:humphrey-hubert-h]
   - id: cal.1968-08-25.opinion
     when: Aug. 25
     date: '1968-08-25'
@@ -2465,7 +2711,7 @@ entries:
     thread: elections-1968-chicago
     also: [vietnam]
     c: 'The Platform Committee''s drafting subcommittee, fifteen minutes on Vietnam, four motions by voice vote: O''Donnell''s, to endorse the Administration''s policy, tabled; Pell''s milder substitute defeated; the McCarthy-McGovern plank, Burton''s motion, rejected, five or six of the 22 for it. Its plank: a halt in the bombing only when it "would not endanger the lives of our troops in the field."'
-    n: '[[w.cq-weekly-report]], Aug. 30, 1968, 2285, 2289 (O''Donnell''s account to reporters, Aug. 26; Connally had proposed the endorsement Aug. 22). Check: the day of the four motions, CQ''s analysis giving no date for them. See [[cal.1968-08-20.elections-1968-chicago-2]]. Names: O''Donnell, Pell, McCarthy, McGovern, Burton.'
+    n: '[[w.cq-weekly-report]], Aug. 30, 1968, 2285, 2289 (O''Donnell''s account to reporters, Aug. 26; Connally had proposed the endorsement Aug. 22). Check: the day of the four motions, CQ''s analysis giving no date for them. See [[cal.1968-08-19.elections-1968-chicago-6]]. Names: O''Donnell, Pell, McCarthy, McGovern, Burton.'
     src:
       c: 213254a7
       rows:
@@ -2514,6 +2760,18 @@ entries:
     c: 'Chicago, 7 p.m. Connally''s press conference: no plans to nominate Johnson; Texas''s delegation held to him as favorite son for the present.'
     n: '[[w.cq-weekly-report]], Aug. 30, 1968, 2293. Names: Connally, Johnson.'
     tags: [name:connally-john, name:johnson-lyndon-b, state:il, city:chicago]
+  - id: cal.1968-08-25.elections-1968-2
+    when: Aug. 25
+    date: '1968-08-25'
+    thread: elections-1968
+    also: [elections-1968-chicago]
+    c: 'Chicago, Sunday. Unruh at breakfast with Daley at the Sherman House: Humphrey not a winner, "Let''s get another candidate." Smith at the Standard Club from noon, Daley holding Illinois''s choice forty-eight hours; Smith telephoning delegations all afternoon and evening. DiSalle sets up a Draft Kennedy office at the Sherman House. Goodwin to Smith that night: McCarthy will consider stepping down for Kennedy. "Are you prepared to turn down the Presidency of the United States?"'
+    n: '[[w.chester-american-melodrama]], 569–70. See [[cal.1968-08-24.elections-1968-2]]. Names: Unruh, Daley, Stephen Smith, DiSalle, Goodwin, McCarthy, Edward Kennedy, Humphrey, Sherman.'
+    src:
+      c: e3357fb5
+      rows:
+        - 'w.chester-american-melodrama 569–70: all'
+    tags: [name:unruh-jesse-m, name:daley-richard-j, name:smith-stephen-e, name:disalle-michael-v, name:goodwin-richard-n, name:mccarthy-eugene-j, name:kennedy-edward-m, name:humphrey-hubert-h, name:sherman-norman]
   - id: cal.1968-08-26.soviet-union-czechoslovakia
     when: Aug. 26
     date: '1968-08-26'
@@ -2539,7 +2797,7 @@ entries:
     thread: elections-1968-chicago
     also: [voting-rights, mississippi, georgia]
     c: 'Chicago. Credentials, the committee under Hughes of New Jersey: Mississippi''s regular delegation unseated, the Loyal Democrats, Aaron Henry among them, seated; Georgia''s seats divided between Maddox''s regulars and Bond''s challengers; the Texas regulars under Connally and the Alabama regulars, with a loyalty pledge, seated (Check the votes).'
-    n: '[Johnson, Murphy and Jones, 8:04 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-charles-murphy-and-jim-jones-august-26-1968), Conversation WH6808-01-13313 (Miller Center). FRUS 1964–68, VI, doc. [339](https://history.state.gov/historicaldocuments/frus1964-68v06/d339). Check: the convention''s *Official Proceedings*. [[w.dittmer-local-people]], 420–22 (Mississippi''s regulars unseated, the Loyalists seated); [[w.cq-weekly-report]], Aug. 30, 1968, 2286, 2293 (the committee and the floor; Henry not named). Check: CQ dates the committee''s last hearings Aug. 23 and puts its decisions on the floor Aug. 26–27: Mississippi''s Loyal National Democrats seated by voice vote, Aug. 26, 11:19 p.m.; Texas''s regulars, 1,368 to 955, Aug. 27, 1:24 a.m.; Georgia''s minority report, 1,041½ to 1,413, 2:37 a.m.; Alabama''s, 883½ to 1,605, 7:59 p.m. ([[w.cq-weekly-report]], Aug. 30, 1968, 2286, 2293). The votes: [[cal.1968-08-27.elections-1968-chicago-11]], [[cal.1968-08-27.elections-1968-chicago-12]], [[cal.1968-08-27.elections-1968-chicago-14]]. To check: [[w.white-making-of-the-president-1969]]; [[w.chester-american-melodrama]]. See [[cal.1968-08-26.elections-1968]]. Names: Hughes, Henry, Maddox, Bond, Connally, Johnson.'
+    n: '[Johnson, Murphy and Jones, 8:04 a.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-charles-murphy-and-jim-jones-august-26-1968), Conversation WH6808-01-13313 (Miller Center). FRUS 1964–68, VI, doc. [339](https://history.state.gov/historicaldocuments/frus1964-68v06/d339). Check: the convention''s *Official Proceedings*. [[w.dittmer-local-people]], 420–22 (Mississippi''s regulars unseated, the Loyalists seated); [[w.cq-weekly-report]], Aug. 30, 1968, 2286, 2293 (the committee and the floor; Henry not named). Check: CQ dates the committee''s last hearings Aug. 23 and puts its decisions on the floor Aug. 26–27: Mississippi''s Loyal National Democrats seated by voice vote, Aug. 26, 11:19 p.m.; Texas''s regulars, 1,368 to 955, Aug. 27, 1:24 a.m.; Georgia''s minority report, 1,041½ to 1,413, 2:37 a.m.; Alabama''s, 883½ to 1,605, 7:59 p.m. ([[w.cq-weekly-report]], Aug. 30, 1968, 2286, 2293). The votes: [[cal.1968-08-27.elections-1968-chicago-11]], [[cal.1968-08-27.elections-1968-chicago-12]], [[cal.1968-08-27.elections-1968-chicago-14]]. [[w.chester-american-melodrama]], 555–56 (Georgia split, Hughes on Bond: "That man is a symbol"; the Mississippi challengers seated, 84 to 10, in committee). To check: [[w.white-making-of-the-president-1969]]. See [[cal.1968-08-26.elections-1968]]. Names: Hughes, Henry, Maddox, Bond, Connally, Johnson.'
     src:
       c: 1dd346e4
       rows:
@@ -2547,6 +2805,7 @@ entries:
         - 'https://history.state.gov/historicaldocuments/frus1964-68v06/d339: all'
         - 'w.dittmer-local-people 420–22: A-B'
         - 'w.cq-weekly-report Aug. 30, 1968, 2286, 2293: A, C-D'
+        - 'w.chester-american-melodrama 555–56: B-C'
     tags: [name:hughes-richard-j, name:henry-aaron, name:maddox-lester, name:bond-julian, name:connally-john, name:murphy-charles-s, name:johnson-lyndon-b, state:ms, state:ga, state:tx, state:al]
   - id: cal.1968-08-26.elections-1968-chicago
     when: Aug. 26
@@ -2699,14 +2958,48 @@ entries:
     date: '1968-08-26'
     thread: elections-1968-chicago
     c: The convention, 10:32 p.m. Unruh moves the credentials contests be heard Aug. 27, as first scheduled; defeated at 11:03, 1,691½ to 875. The Rules Committee's report adopted by voice vote. 11:19 p.m., by voice votes, Mississippi's Loyalists seated, and the regulars of Washington, Pennsylvania, Minnesota and Connecticut.
-    n: '[[w.cq-weekly-report]], Aug. 30, 1968, 2286, 2293. See [[cal.1968-08-26.elections-1968]]. Names: Unruh.'
+    n: '[[w.cq-weekly-report]], Aug. 30, 1968, 2286, 2293; [[w.chester-american-melodrama]], 543–44 (Unruh''s motion and the count). Check: the count, against the convention''s *Proceedings*. See [[cal.1968-08-26.elections-1968]]. Names: Unruh.'
+    src:
+      c: efca2d11
+      rows:
+        - 'w.cq-weekly-report Aug. 30, 1968, 2286, 2293: all'
+        - 'w.chester-american-melodrama 543–44: B-C'
     tags: [name:unruh-jesse-m, state:il, city:chicago]
+    aliases: [cal.1968-08-26.elections-1968-chicago-19]
+  - id: cal.1968-08-26.elections-1968-chicago-17
+    when: Aug. 26
+    date: '1968-08-26'
+    thread: elections-1968-chicago
+    also: [vietnam]
+    c: 'Chicago, the drafting committee''s last session, the morning: Boggs''s plank not open to amendment; fifteen minutes. The platform committee: 65 for the majority plank, 35 for the peace plank. The planks released that evening.'
+    n: '[[w.chester-american-melodrama]], 536–37. See [[cal.1968-08-24.elections-1968-chicago-3]]. Names: Boggs.'
+    src:
+      c: 48dd6d7b
+      rows:
+        - 'w.chester-american-melodrama 536–37: all'
+    tags: [name:boggs-hale]
+  - id: cal.1968-08-26.elections-1968-chicago-18
+    when: Aug. 26
+    date: '1968-08-26'
+    thread: elections-1968-chicago
+    also: [jobs-and-wages]
+    c: 'Chicago. Meany at lunch with 350 union delegates and alternates: stay in line for Humphrey. A Labor for McCarthy lunch, Schrade''s, in answer.'
+    n: '[[w.chester-american-melodrama]], 542. Names: Meany, Humphrey, McCarthy.'
+    src:
+      c: 5fad0be3
+      rows:
+        - 'w.chester-american-melodrama 542: all'
+    tags: [name:meany-george, name:humphrey-hubert-h, name:mccarthy-eugene-j]
   - id: cal.1968-08-27.elections-1968-chicago
     when: Aug. 27
     date: '1968-08-27'
     thread: elections-1968-chicago
     c: 'Chicago. The rules committee''s minority report adopted, 1,350 to 1,206: every Democrat a "full and timely opportunity" to take part in choosing the delegates of 1972 (Check the wording).'
-    n: '[[w.cq-weekly-report]], Aug. 30, 1968, 2287, 2293 (the minority report, 1,350 to 1,206, 11:38 p.m.). Check: the convention''s *Official Proceedings*. Check: CQ quotes the minority report as asking "that the unit rule not be used at any stage of the delegate selection process" and delegates chosen "within the calendar year of the National Convention"; it prints no "full and timely" ([[w.cq-weekly-report]], Aug. 30, 1968, 2287). The abolition: [[cal.1968-08-26.elections-1968-chicago-15]]. To check: [[w.shafer-quiet-revolution]]. See [[cal.1968-08-26.elections-1968]].'
+    n: '[[w.cq-weekly-report]], Aug. 30, 1968, 2287, 2293 (the minority report, 1,350 to 1,206, 11:38 p.m.). Check: the convention''s *Official Proceedings*. Check: CQ quotes the minority report as asking "that the unit rule not be used at any stage of the delegate selection process" and delegates chosen "within the calendar year of the National Convention"; it prints no "full and timely" ([[w.cq-weekly-report]], Aug. 30, 1968, 2287). The abolition: [[cal.1968-08-26.elections-1968-chicago-15]]. [[w.chester-american-melodrama]], 558 (the unit rule rejected Tuesday night, 1,350 to 1,206). To check: [[w.shafer-quiet-revolution]]. See [[cal.1968-08-26.elections-1968]].'
+    src:
+      c: 4990211e
+      rows:
+        - 'w.chester-american-melodrama 558: A-B'
   - id: cal.1968-08-27.elections-1968-ak
     when: Aug. 27
     date: '1968-08-27'
@@ -2900,13 +3193,36 @@ entries:
     c: New Mexico's primary. Cargo renominated for governor over Hawley, a conservative; Fabian Chavez, once a State senator, the Democratic nominee over five others. For the House, Morris and Walker renominated; their opponents Lujan and Foreman, once Representative from Texas.
     n: '[[w.cq-weekly-report]], Aug. 30, 1968, 2342. Check: the counts (CQ printed none); the State''s canvass. Names: Cargo, Hawley, Chavez, Morris, Walker, Lujan, Foreman.'
     tags: [name:cargo-david-f, name:hawley-clifford-j, name:chavez-fabian-jr, name:morris-thomas-g, name:walker-e-s-johnny, name:lujan-manuel-jr, name:foreman-edgar-f, state:nm]
+  - id: cal.1968-08-27.elections-1968-4
+    when: Aug. 27
+    date: '1968-08-27'
+    thread: elections-1968
+    also: [elections-1968-chicago]
+    c: 'Chicago, the Conrad Hilton, about 4:30 p.m. Stephen Smith with McCarthy in Goodwin''s room: McCarthy''s delegates for Edward Kennedy? The accounts differ, Goodwin''s and Smith''s. At 8:30 p.m. CBS reports Smith asked McCarthy''s support; Smith, angry, presses Goodwin to deny it. Edward Kennedy had told DiSalle by telephone and telegram not to put his name in nomination.'
+    n: '[[w.chester-american-melodrama]], 571–75 (Goodwin''s account in *Look*, Smith''s by Peter Maas in *New York*). Names: Stephen Smith, McCarthy, Goodwin, Edward Kennedy, DiSalle.'
+    src:
+      c: ebb62a94
+      rows:
+        - 'w.chester-american-melodrama 571–75: all'
+    tags: [name:smith-stephen-e, name:mccarthy-eugene-j, name:goodwin-richard-n, name:kennedy-edward-m, name:disalle-michael-v]
+  - id: cal.1968-08-27.elections-1968-chicago-16
+    when: Aug. 27
+    date: '1968-08-27'
+    thread: elections-1968-chicago
+    c: Chicago, the LaSalle's Grand Ballroom, the morning. Humphrey, McGovern and McCarthy before the California delegation; McCarthy's first thrust at McGovern.
+    n: '[[w.chester-american-melodrama]], 560–61. Names: Humphrey, McGovern, McCarthy.'
+    src:
+      c: 46ae7937
+      rows:
+        - 'w.chester-american-melodrama 560–61: all'
+    tags: [name:humphrey-hubert-h, name:mcgovern-george, name:mccarthy-eugene-j]
   - id: cal.1968-08-28.elections-1968
     when: Aug. 28
     date: '1968-08-28'
     thread: elections-1968-chicago
     also: [vietnam]
     c: 'Chicago. The platform''s plank on Vietnam: stop all bombing of the North "when this action would not endanger the lives of our troops in the field," taking "into account the response from Hanoi." The minority plank, McCarthy''s and McGovern''s, for an unconditional halt, defeated, 1,567¾ to 1,041¼ (Check). Johnson''s message read: his name not to be considered. Ribicoff, nominating McGovern: "Gestapo tactics on the streets of Chicago." Humphrey nominated on the first ballot after midnight: 1,759¼; McCarthy 601, McGovern 146½, Channing Phillips of the District 67½, Moore of North Carolina 17½, Edward Kennedy 12¾.'
-    n: '[1968 Democratic Party Platform](https://www.presidency.ucsb.edu/documents/1968-democratic-party-platform) (Aug. 26, 1968); Message to the Democratic National Convention Prior to the Nomination of a Presidential Candidate, [1968–69 Pub. Papers 917](https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=227) (Aug. 28, 1968); The President''s News Conference Held on His 60th Birthday at Austin, Texas, [1968–69 Pub. Papers 914](https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=224) (Aug. 27, 1968). [Johnson and Daley, 4:08 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-richard-daley-august-27-1968), Aug. 27, Conversation WH6808-03-13327 (Miller Center). Votes: [Wikipedia, "1968 Democratic National Convention"](https://en.wikipedia.org/wiki/1968_Democratic_National_Convention). [[w.longley-lbjs-1968]], 225, 227 (Johnson''s message; Ribicoff); [[w.cq-weekly-report]], Aug. 30, 1968, 2285, 2287–88, 2338, 2342. [[w.mann-grand-delusion]], 613. Check: the *Official Proceedings*. [[w.dallek-flawed-giant]], 575 (the plank, the vote). Check: CQ prints the minority plank''s defeat 1,041¼ to 1,567¾ in its table and its chronology (2287, 2338), 1,048¼ to 1,567¾ in its story (2285), 1,041–1,567 in its analysis (2289): Burton offered it; debate from 1:03 p.m., the roll from 3:52, the result 4:39. Humphrey''s first-ballot total 1,760¼ in its table (2288) and summary (2283), 1,761¾ in its story (2284, 2342), both against 1,759¼ here; Pennsylvania put him over at 11:47 p.m., the result announced 12:02 a.m., Aug. 29 (2338, 2342). The telegrams of Johnson and Edward Kennedy read at 8:02 p.m. (2338). CQ says only that Ribicoff spoke of the tumult in the city, departing from his text (2338). To check: [[w.solberg-hubert-humphrey]]; [[w.humphrey-education-of-a-public-1976]]; [[w.eisele-almost-to-the-presidency]]; [[w.mccarthy-year-of-the-people]]; [[w.johns-price-of-loyalty]]; [[w.witcover-year-the-dream-died]]; [[w.gould-1968]]; [[w.lafeber-deadly-bet]]. See [[cal.1968-08-26.elections-1968-2]]. Names: McCarthy, McGovern, Ribicoff, Humphrey, Phillips, Moore, Edward Kennedy, Daley, Johnson. Check: Longley gives the minority plank''s defeat as 1,527¾ to 1,041¼ (225, from Witcover). Check: Mann, 613, gives the minority plank''s defeat as 1,567 to 1,048, from the *Congressional Quarterly Almanac*, 1968, 1021.'
+    n: '[1968 Democratic Party Platform](https://www.presidency.ucsb.edu/documents/1968-democratic-party-platform) (Aug. 26, 1968); Message to the Democratic National Convention Prior to the Nomination of a Presidential Candidate, [1968–69 Pub. Papers 917](https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=227) (Aug. 28, 1968); The President''s News Conference Held on His 60th Birthday at Austin, Texas, [1968–69 Pub. Papers 914](https://www.govinfo.gov/content/pkg/PPP-1968-book2/pdf/PPP-1968-book2.pdf#page=224) (Aug. 27, 1968). [Johnson and Daley, 4:08 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-richard-daley-august-27-1968), Aug. 27, Conversation WH6808-03-13327 (Miller Center). Votes: [Wikipedia, "1968 Democratic National Convention"](https://en.wikipedia.org/wiki/1968_Democratic_National_Convention). [[w.longley-lbjs-1968]], 225, 227 (Johnson''s message; Ribicoff); [[w.cq-weekly-report]], Aug. 30, 1968, 2285, 2287–88, 2338, 2342. [[w.mann-grand-delusion]], 613; [[w.chester-american-melodrama]], 579–80, 585 (the debate, three hours; the plank, 1,567 to 1,041 at 4:30 p.m.; Humphrey 1,760¼, McCarthy 601, McGovern 146½, Phillips 67½, Moore 17½, Edward Kennedy 12¾). Check: the *Official Proceedings*. [[w.dallek-flawed-giant]], 575 (the plank, the vote). Check: CQ prints the minority plank''s defeat 1,041¼ to 1,567¾ in its table and its chronology (2287, 2338), 1,048¼ to 1,567¾ in its story (2285), 1,041–1,567 in its analysis (2289): Burton offered it; debate from 1:03 p.m., the roll from 3:52, the result 4:39. Humphrey''s first-ballot total 1,760¼ in its table (2288) and summary (2283), 1,761¾ in its story (2284, 2342), both against 1,759¼ here; Pennsylvania put him over at 11:47 p.m., the result announced 12:02 a.m., Aug. 29 (2338, 2342). The telegrams of Johnson and Edward Kennedy read at 8:02 p.m. (2338). CQ says only that Ribicoff spoke of the tumult in the city, departing from his text (2338). To check: [[w.solberg-hubert-humphrey]]; [[w.humphrey-education-of-a-public-1976]]; [[w.eisele-almost-to-the-presidency]]; [[w.mccarthy-year-of-the-people]]; [[w.johns-price-of-loyalty]]; [[w.witcover-year-the-dream-died]]; [[w.gould-1968]]; [[w.lafeber-deadly-bet]]. See [[cal.1968-08-26.elections-1968-2]]. Names: McCarthy, McGovern, Ribicoff, Humphrey, Phillips, Moore, Edward Kennedy, Daley, Johnson. Check: Longley gives the minority plank''s defeat as 1,527¾ to 1,041¼ (225, from Witcover). Check: Mann, 613, gives the minority plank''s defeat as 1,567 to 1,048, from the *Congressional Quarterly Almanac*, 1968, 1021. Check: Chester, 585, gives Humphrey 1,760¼.'
     src:
       c: af1151e2
       rows:
@@ -2919,6 +3235,7 @@ entries:
         - 'w.longley-lbjs-1968 225, 227: D-E'
         - 'w.mann-grand-delusion 613: B-C, E'
         - 'w.cq-weekly-report Aug. 30, 1968, 2285, 2287–88, 2338, 2342: A-D, G'
+        - 'w.chester-american-melodrama 579–80, 585: A-C, F-G'
     tags: [name:mccarthy-eugene-j, name:mcgovern-george, name:ribicoff-abraham, name:humphrey-hubert-h, name:phillips-channing-e, name:moore-dan-k, name:kennedy-edward-m, name:daley-richard-j, name:johnson-lyndon-b]
   - id: cal.1968-08-28.elections-1968-chicago
     when: Aug. 28
@@ -3053,6 +3370,18 @@ entries:
     c: The roll call, 11:19 p.m. Peterson, Wisconsin's chairman, moves to suspend the rules and adjourn for two weeks, to meet again in another city; the clerk refuses to recognize him. At 11:47 Pennsylvania's 103¾ votes put Humphrey over the 1,312 needed.
     n: '[[w.cq-weekly-report]], Aug. 30, 1968, 2338, 2342. See [[cal.1968-08-26.elections-1968]]. Names: Humphrey.'
     tags: [name:humphrey-hubert-h, state:wi, state:il, city:chicago]
+  - id: cal.1968-08-28.elections-1968-2
+    when: Aug. 28
+    date: '1968-08-28'
+    thread: elections-1968
+    also: [elections-1968-chicago]
+    c: '9:30 a.m. Edward Kennedy, by telephone to Humphrey, Daley and Unruh, will withdraw his name even if it is put forward; a statement to the wire services. Unruh tells the California caucus; Daley, from the Illinois caucus at the Sherman House: 112 of its 118 votes for Humphrey.'
+    n: '[[w.chester-american-melodrama]], 575, 578. See [[cal.1968-08-25.elections-1968-2]]. Names: Edward Kennedy, Humphrey, Daley, Unruh, Sherman.'
+    src:
+      c: 78fadce7
+      rows:
+        - 'w.chester-american-melodrama 575, 578: all'
+    tags: [name:kennedy-edward-m, name:humphrey-hubert-h, name:daley-richard-j, name:unruh-jesse-m, name:sherman-norman]
   - id: cal.1968-08-29.elections-1968
     when: Aug. 29
     date: '1968-08-29'
@@ -3160,6 +3489,31 @@ entries:
     c: '10:09 p.m. Muskie''s acceptance: to work with "the strong determination of so many young people and disadvantaged among us to make a place for themselves."'
     n: '[[w.cq-weekly-report]], Aug. 30, 1968, 2284, 2338. See [[cal.1968-08-29.elections-1968]]. Names: Muskie.'
     tags: [name:muskie-edmund-s, state:il, city:chicago]
+  - id: cal.1968-08-29.elections-1968-2
+    when: Aug. 29
+    date: '1968-08-29'
+    thread: elections-1968
+    also: [democratic-party]
+    c: Chicago, before the acceptance speech. O'Brien shows Humphrey a rough plan for the campaign, cut down from Orville Freeman's "black book"; Humphrey approves it. O'Brien stays on to manage the campaign.
+    n: '[[w.chester-american-melodrama]], 632, 638–39. Check: a manager of Humphrey''s gives Aug. 30 (632). Names: O''Brien, Humphrey, Orville Freeman.'
+    src:
+      c: '34171418'
+      rows:
+        - 'w.chester-american-melodrama 638–39: all'
+        - 'w.chester-american-melodrama 632: A'
+    tags: [name:obrien-lawrence-f, name:humphrey-hubert-h, name:freeman-orville-l, city:chicago, state:il]
+  - id: cal.1968-08-29.elections-1968-chicago-11
+    when: Aug. 29
+    date: '1968-08-29'
+    thread: elections-1968-chicago
+    also: [elections-1968]
+    c: 'Chicago, the afternoon. McCarthy to his staff and supporters: go on presenting the issues until November; the protest cannot be ignored. Not yet endorsing Humphrey; a fourth party he "might" support if it drew a large following, but would not lead. "If you people keep on this way, I may—as we say—lose my cool."'
+    n: '[[w.chester-american-melodrama]], 587. Names: McCarthy, Humphrey.'
+    src:
+      c: eb7f1fe6
+      rows:
+        - 'w.chester-american-melodrama 587: all'
+    tags: [name:mccarthy-eugene-j, name:humphrey-hubert-h]
   - id: cal.1968-08-30.soviet-union-czechoslovakia
     when: Aug. 30
     date: '1968-08-30'
@@ -3183,9 +3537,16 @@ entries:
     when: Aug. 30
     date: '1968-08-30'
     thread: elections-1968-chicago
+    also: [civil-disorders]
     c: Chicago, the Conrad Hilton, from about 5 a.m. Police, sent to stop objects thrown from suite 1506-A, McCarthy's staff's, clear it and the 15th floor; a McCarthy worker clubbed; some 40 or 50 taken down to the lobby. McCarthy comes, tells his people to go to their rooms.
-    n: '[[w.rights-in-conflict-convention-week]], 347–50. See [[cal.1968-08-22.elections-1968]]. Names: McCarthy.'
+    n: '[[w.rights-in-conflict-convention-week]], 347–50; [[w.chester-american-melodrama]], 591, 599 (the raid on the fifteenth floor; the tip from the National Guard). Check: Chester has the police at 4 a.m., staff lined against the wall, rooms entered with pass keys. See [[cal.1968-08-22.elections-1968]]. Names: McCarthy.'
+    src:
+      c: bfc77935
+      rows:
+        - 'w.rights-in-conflict-convention-week 347–50: all'
+        - 'w.chester-american-melodrama 591, 599: B-C'
     tags: [name:mccarthy-eugene-j, state:il, city:chicago]
+    aliases: [cal.1968-08-30.elections-1968-chicago-2]
   - id: cal.1968-08.vietnam-paris
     when: Aug.
     date: 1968-08
@@ -3193,3 +3554,14 @@ entries:
     c: 'Paris. Nguyễn Thành Lê, Hanoi''s spokesman, against Nixon and the Republican platform on Vietnam: "Mr. Nixon has pushed impudence to the point of considering the Southern part of our fatherland as his private property."'
     n: '[[w.cq-weekly-report]], Aug. 16, 1968, 2181 Check: the day (CQ: after the nomination, Aug. 8). Names: Nixon.'
     tags: [name:nixon-richard-m]
+  - id: cal.1968-08-30.elections-1968
+    when: Aug. 30
+    date: '1968-08-30'
+    thread: elections-1968
+    c: 'Louisville. Wallace with A. B. Chandler, governor of Kentucky and baseball commissioner, several hours in a motel: Chandler to be his running mate, the choice to be announced at Washington, Sept. 10.'
+    n: '[[w.chester-american-melodrama]], 697. Names: Wallace, Chandler.'
+    src:
+      c: f6c6cf96
+      rows:
+        - 'w.chester-american-melodrama 697: all'
+    tags: [name:wallace-george-c, name:chandler-a-b, state:ky]

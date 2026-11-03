@@ -3,8 +3,9 @@
 # owner's copy (printed page = PDF page - 15; the notes, pp. 285-372). The studies, memoirs and Chinese military
 # histories the Oct. 29 reading left out are here; the records it registered are not repeated (their edges stand in
 # sources/witnesses/by-work/jian-maos-china-and-the.yaml). Each study's pinpoints are on its by-work edges (`pin`). A
-# study's `from` is not scoped to a passage: an edge from it names a document the passage Chen cites quotes or reports
-# (book-check addendum, "What the rules missed"). Asselin: not read this run (the copy could not be fetched).
+# study's row stands for the whole work and has no `from`; where the passage Chen cites quotes or reports a document,
+# that passage is a row of its own (`part_of` the work: a field the schema lacks), carrying the edge (book-check
+# addendum, "What the rules missed"). Asselin: not read this run (the copy could not be fetched).
 
 # --- Studies and memoirs (not in the catalogue) ---------------------------------------------------------------------
 
@@ -72,11 +73,6 @@
   made: later
   made_on: '1989'
   form: study
-  from:
-    - {of: x.1964-08-05.zhou-enlai-and-luo-ruiqing-to, kind: report, note: 'at 408, as Chen 213 n.34 gives it; Chen quotes the cable'}
-    - {of: x.1965-04-27.sino-vietnamese-railway-agreement, kind: report, note: 'at 421 (Chen 222 n.76)'}
-    - {of: x.1965-07-24.vietnamese-general-staff-to-chinese, kind: quotation, note: 'at 423, or DZJJG, 1:550 (Chen 225 n.89 gives both)'}
-    - {of: x.1965-07-25.chinese-general-staff-to-vietnamese, kind: report, note: 'at 423, or DZJJG, 1:550 (Chen 225 n.89)'}
   open: not held
   read: false
 - id: x.1989.qu-aiguo-chinese-supporters
@@ -88,8 +84,6 @@
   made: later
   made_on: '1989'
   form: study
-  from:
-    - {of: x.1964-08-05.zhou-enlai-and-luo-ruiqing-to, kind: report, note: 'at 40 (Chen 213 n.34)'}
   open: not held
   read: false
 - id: x.1989.wang-dinglie-dangdai-zhongguo-kongjun
@@ -101,8 +95,6 @@
   made: later
   made_on: '1989'
   form: study
-  from:
-    - {of: x.1964-08-05.cmc-general-staff-combat-readiness-order, kind: quotation, note: 'at 384 (Chen 213 n.35, the order quoted)'}
   open: not held
   read: false
 - id: x.1989.han-huaizhi-dangdai-zhongguo-jundui
@@ -114,11 +106,6 @@
   made: later
   made_on: '1989'
   form: study
-  from:
-    - {of: x.1965-04-27.sino-vietnamese-railway-agreement, kind: report, note: 'at 1:545 (Chen 222 n.76)'}
-    - {of: x.1965-05-30.sino-vietnamese-road-agreement, kind: report, note: 'at 1:548 (Chen 223 n.79)'}
-    - {of: x.1965-07-24.vietnamese-general-staff-to-chinese, kind: quotation, note: 'at 1:550, or Li Ke and Hao, 423 (Chen 225 n.89 gives both)'}
-    - {of: x.1965-07-25.chinese-general-staff-to-vietnamese, kind: report, note: 'at 1:550, or Li Ke and Hao, 423 (Chen 225 n.89)'}
   open: not held
   read: false
 - id: x.1990.wang-xiangen-kangmei-yuanyue-shilu
@@ -130,8 +117,6 @@
   made: later
   made_on: '1990'
   form: study
-  from:
-    - {of: x.1965-04-27.sino-vietnamese-railway-agreement, kind: report, note: 'at 100-101 (Chen 222 n.76)'}
   open: not held
   read: false
 - id: x.1993.whiting-chinas-role-in-the-vietnam-war
@@ -208,6 +193,127 @@
   made: contemporaneous
   form: original
   open: not held
+  read: false
+
+# --- Passages of the studies that quote or report a document (each `part_of` its work) -----------------------------
+
+- id: x.1989.li-ke-hao-shengzhang-wenhua-dageming-408
+  what: 'Li Ke and Hao Shengzhang, Wenhua dageming zhong de renmin jiefang jun (1989), 408: the cable of Aug. 5, 1964'
+  kind: study
+  date: '1989'
+  part_of: x.1989.li-ke-hao-shengzhang-wenhua-dageming
+  where: 'Chen 213 n.34, with Qu Aiguo, 40, and Beijing Review'
+  agent: [Li Ke, Hao Shengzhang]
+  made: later
+  form: study
+  from:
+    - {of: x.1964-08-05.zhou-enlai-and-luo-ruiqing-to, kind: report}
+  read: false
+
+- id: x.1989.qu-aiguo-chinese-supporters-40
+  what: 'Qu Aiguo, "Chinese Supporters in the Operations to Assist Vietnam and Resist America," Junshi shilin, no. 6 (1989), 40: the cable of Aug. 5, 1964'
+  kind: study
+  date: '1989'
+  part_of: x.1989.qu-aiguo-chinese-supporters
+  where: 'Chen 213 n.34'
+  agent: [Qu Aiguo]
+  made: later
+  form: study
+  from:
+    - {of: x.1964-08-05.zhou-enlai-and-luo-ruiqing-to, kind: report}
+  read: false
+
+- id: x.1989.wang-dinglie-dangdai-zhongguo-kongjun-384
+  what: 'Wang Dinglie, Dangdai zhongguo kongjun (1989), 384: the readiness order of Aug. 5, 1964'
+  kind: study
+  date: '1989'
+  part_of: x.1989.wang-dinglie-dangdai-zhongguo-kongjun
+  where: 'Chen 213 n.35, the order quoted'
+  agent: [Wang Dinglie]
+  made: later
+  form: study
+  from:
+    - {of: x.1964-08-05.cmc-general-staff-combat-readiness-order, kind: quotation}
+  read: false
+
+- id: x.1989.han-huaizhi-dangdai-zhongguo-jundui-1-545
+  what: 'Han Huaizhi et al., DZJJG (1989), 1:545: the agreement of Apr. 27, 1965'
+  kind: study
+  date: '1989'
+  part_of: x.1989.han-huaizhi-dangdai-zhongguo-jundui
+  where: 'Chen 222 n.76'
+  agent: [Han Huaizhi]
+  made: later
+  form: study
+  from:
+    - {of: x.1965-04-27.sino-vietnamese-railway-agreement, kind: report}
+  read: false
+
+- id: x.1989.li-ke-hao-shengzhang-wenhua-dageming-421
+  what: 'Li Ke and Hao Shengzhang (1989), 421: the agreement of Apr. 27, 1965'
+  kind: study
+  date: '1989'
+  part_of: x.1989.li-ke-hao-shengzhang-wenhua-dageming
+  where: 'Chen 222 n.76'
+  agent: [Li Ke, Hao Shengzhang]
+  made: later
+  form: study
+  from:
+    - {of: x.1965-04-27.sino-vietnamese-railway-agreement, kind: report}
+  read: false
+
+- id: x.1990.wang-xiangen-kangmei-yuanyue-shilu-100
+  what: 'Wang Xiangen, Kangmei yuanyue shilu (1990), 100-101: the agreement of Apr. 27, 1965'
+  kind: study
+  date: '1990'
+  part_of: x.1990.wang-xiangen-kangmei-yuanyue-shilu
+  where: 'Chen 222 n.76'
+  agent: [Wang Xiangen]
+  made: later
+  form: study
+  from:
+    - {of: x.1965-04-27.sino-vietnamese-railway-agreement, kind: report}
+  read: false
+
+- id: x.1989.han-huaizhi-dangdai-zhongguo-jundui-1-548
+  what: 'Han Huaizhi et al., DZJJG (1989), 1:548: the agreement of May 30, 1965'
+  kind: study
+  date: '1989'
+  part_of: x.1989.han-huaizhi-dangdai-zhongguo-jundui
+  where: 'Chen 223 n.79'
+  agent: [Han Huaizhi]
+  made: later
+  form: study
+  from:
+    - {of: x.1965-05-30.sino-vietnamese-road-agreement, kind: report}
+  read: false
+
+- id: x.1989.han-huaizhi-dangdai-zhongguo-jundui-1-550
+  what: 'Han Huaizhi et al., DZJJG (1989), 1:550: Hanois request of July 24, 1965, and the answer of July 25'
+  kind: study
+  date: '1989'
+  part_of: x.1989.han-huaizhi-dangdai-zhongguo-jundui
+  where: 'Chen 225 n.89, with Li Ke and Hao, 423: which of the two Chen quotes, the note does not say'
+  agent: [Han Huaizhi]
+  made: later
+  form: study
+  from:
+    - {of: x.1965-07-24.vietnamese-general-staff-to-chinese, kind: quotation}
+    - {of: x.1965-07-25.chinese-general-staff-to-vietnamese, kind: report}
+  read: false
+
+- id: x.1989.li-ke-hao-shengzhang-wenhua-dageming-423
+  what: 'Li Ke and Hao Shengzhang (1989), 423: Hanois request of July 24, 1965, and the answer of July 25'
+  kind: study
+  date: '1989'
+  part_of: x.1989.li-ke-hao-shengzhang-wenhua-dageming
+  where: 'Chen 225 n.89, with DZJJG, 1:550'
+  agent: [Li Ke, Hao Shengzhang]
+  made: later
+  form: study
+  from:
+    - {of: x.1965-07-24.vietnamese-general-staff-to-chinese, kind: quotation}
+    - {of: x.1965-07-25.chinese-general-staff-to-vietnamese, kind: report}
   read: false
 
 # --- Documents the text names or quotes, reached through the studies ------------------------------------------------
