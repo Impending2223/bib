@@ -15,8 +15,8 @@ STYLE (keep it):
     Both series are in The war table too (tools/bib/wartable.py), filed by period; here the year's breakdown.
  3. Each table one column of figures (and the battalions'), the label at the left: it fits a 400px phone. The block
     has the war table's panel, solid rule and caption ("Armed Forces Day, May 15, 1965"); inside it, forces.py's dress
-    (its STYLE): a part under a small-capital heading ("South Vietnam and the allies"), each table folded, its title
-    the summary, its source under it.
+    (its STYLE): a part under a small-capital heading ("South Vietnam and the allies"), each table open, its title
+    in a line above it, its source under it.
  4. Contents: "Armed forces, 1965" in the page's contents and in the Defense and Vietnam threads' Tables and maps.
 """
 import datetime
@@ -90,8 +90,8 @@ def table(title, rows, src, extra_head=None):
     total = ' class="fcs"'                    # the total in bold (forces.py STYLE 3)
     body = "".join(f'<tr{total if a == "Total" else ""}><th>{esc(a)}</th><td>{b}</td>'
                    + (f"<td>{c}</td>" if extra_head else "") + "</tr>" for a, b, c in rows)
-    return (f'<details><summary>{esc(title)}</summary><table class="fct"><thead><tr>{head}</tr></thead>'
-            f'<tbody>{body}</tbody></table><p class="fcsrc">{esc(src)}</p></details>')
+    return (f'<div class="fcb"><p class="fcti">{esc(title)}</p><table class="fct"><thead><tr>{head}</tr></thead>'
+            f'<tbody>{body}</tbody></table><p class="fcsrc">{esc(src)}</p></div>')
 
 
 def rvn_html(y):

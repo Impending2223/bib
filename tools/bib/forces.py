@@ -15,8 +15,9 @@ apart from the economic tables, under Armed Forces Day; the world beside them wh
 
 STYLE (keep it):
  1. One block a year, the United States first ("United States"), then the world ("The world"), each a small-capital
-    heading. Each table folds (a <details>), its summary the table's title and date ("Military personnel on active
-    duty, June 30, 1965"); the first, the men on active duty, open. The order is the file's.
+    heading. Each table open, never folded (the owner's rule, Oct. 30, 2026: "I'm not a fan of the collapsed military
+    tables"), under its title and date in a line of its own ("Military personnel on active duty, June 30, 1965").
+    The order is the file's.
  2. A table's columns are the sources' figures for that date: "Printed then" (what was published at the time, the
     *Statistical Abstract* reprinting the Department's and the Budget's tables) beside "DMDC today" or "FAS today"
     where a later figure exists; a column a year lacks is left out, never shown empty (budgets STYLE 2). A table
@@ -51,9 +52,9 @@ STYLE = """<style id="fcstyle">
 /* The armed forces a year (tools/bib/forces.py, STYLE) */
 div.fc{font-family:var(--sans);font-size:.8rem;line-height:1.35;font-variant-numeric:tabular-nums;margin:.3rem 0 .4rem}
 div.fc .fch{margin:.55rem 0 .15rem;font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
-div.fc details{margin:0 0 .15rem}
-div.fc summary{cursor:pointer;font-weight:600;padding:.12rem 0}
-div.fc summary .fcd{font-weight:400;color:var(--muted)}
+div.fc .fcb{margin:0 0 .35rem}
+div.fc .fcti{font-weight:600;padding:.12rem 0;margin:.2rem 0 0}
+div.fc .fcti .fcd{font-weight:400;color:var(--muted)}
 div.fc table.fct{border-collapse:collapse;width:100%;table-layout:auto;margin:.15rem 0 .2rem}
 div.fc table.fct th,div.fc table.fct td{padding:.08rem 0 .08rem .7rem;border-bottom:1px solid var(--rule);vertical-align:bottom;
   text-align:right;font-weight:400;white-space:nowrap}
@@ -210,8 +211,8 @@ def table_html(which, t, year, open_=False):
         parts.append((f"{esc(', '.join(same))}: " if len(set(cc.get('src') for cc in cols.values())) > 1 else "") + cite
                      + (f". {note_s.rstrip('.')}" if note_s else ""))
     src = '<p class="fcsrc">Sources: ' + "; ".join(parts) + ".</p>"
-    return (f'<details{" open" if open_ else ""}><summary>{esc(t["title"])} <span class="fcd">{esc(_date(t, year))}'
-            f'</span></summary>{"".join(tables)}{note}{src}</details>')
+    return (f'<div class="fcb"><p class="fcti">{esc(t["title"])} <span class="fcd">{esc(_date(t, year))}'
+            f'</span></p>{"".join(tables)}{note}{src}</div>')
 
 
 def block(year):
