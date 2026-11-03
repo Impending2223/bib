@@ -30,12 +30,13 @@ entries:
     date: '1961-12-05'
     thread: africa
     c: 'The NSC on the Volta dam. Rusk: the United States committed by the letter of June 29. Kennedy: no support to be had in Congress; decide, then explain; how to justify help to Nkrumah, given his course at home and abroad? The decision deferred for a legal report.'
-    n: 'FRUS 1961–63, XXI, docs. [239](https://history.state.gov/historicaldocuments/frus1961-63v21/d239) (Bundy, Dec. 1), [240](https://history.state.gov/historicaldocuments/frus1961-63v21/d240), [241](https://history.state.gov/historicaldocuments/frus1961-63v21/d241). Made public: FRUS 1961–63, XXI (1995). [[w.schlesinger-thousand-days-1965]], 572–73. Schlesinger, 573, has the decision to go ahead made in November and the NSC told of it; the record of action, the decision deferred (doc. 241). See [[cal.1961-06-29.africa]]. Names: Rusk, Kennedy, Nkrumah.'
+    n: 'FRUS 1961–63, XXI, docs. [239](https://history.state.gov/historicaldocuments/frus1961-63v21/d239) (Bundy, Dec. 1), [240](https://history.state.gov/historicaldocuments/frus1961-63v21/d240), [241](https://history.state.gov/historicaldocuments/frus1961-63v21/d241). [[w.ball-past-has-another-pattern]], 186 (Randall''s report; the NSC). Made public: FRUS 1961–63, XXI (1995). [[w.schlesinger-thousand-days-1965]], 572–73. Schlesinger, 573, has the decision to go ahead made in November and the NSC told of it; the record of action, the decision deferred (doc. 241). See [[cal.1961-06-29.africa]]. Names: Rusk, Kennedy, Nkrumah. Check: Ball (186) has the NSC of Nov. 28; FRUS''s record of action is of Dec. 5.'
     src:
       c: 32672fce
       rows:
         - 'https://history.state.gov/historicaldocuments/frus1961-63v21/d239: all'
         - 'w.schlesinger-thousand-days-1965 573: A'
+        - 'w.ball-past-has-another-pattern 186: A'
     tags: [name:kennedy-john-f, name:rusk-dean, name:nkrumah-kwame]
   - id: cal.1961-12-07.states-and-cities-nh
     when: Dec. 7
@@ -151,8 +152,48 @@ entries:
     date: '1961-12-14'
     thread: africa
     c: 'Kennedy to Nkrumah: the United States will help finance the Volta dam, on his assurances of non-alignment.'
-    n: 'FRUS 1961–63, XXI, doc. [242](https://history.state.gov/historicaldocuments/frus1961-63v21/d242). See [[cal.1961-12-05.africa]]. Names: Kennedy, Nkrumah.'
+    n: 'FRUS 1961–63, XXI, doc. [242](https://history.state.gov/historicaldocuments/frus1961-63v21/d242). [[w.ball-past-has-another-pattern]], 187 (the decision). See [[cal.1961-12-05.africa]]. Names: Kennedy, Nkrumah. Check: Ball (187) has Randall leaving again for Ghana Dec. 15 to press the conditions, and Kennedy announcing the decision Saturday, Dec. 16.'
+    src:
+      c: 20b85ff0
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v21/d242: all'
+        - 'w.ball-past-has-another-pattern 187: A'
     tags: [name:kennedy-john-f, name:nkrumah-kwame]
+  - id: cal.1961-12-14.congo
+    when: Dec. 14
+    date: '1961-12-14'
+    thread: congo
+    c: 'Tshombe to Kennedy by telegram: for ten days the UN''s troops "exerting pressure against Katanga"; "Force alone can never resolve the Congolese problem"; his "desire to negotiate" with Adoula. He asks Kennedy "as a free man and as a Christian to designate a suitable negotiator."'
+    n: '"President Kennedy Asked To Facilitate Negotiations Between Congo Leaders," Department statement, Dec. 15, [[w.department-of-state-bulletin]], [Jan. 1, 1962, 10](https://archive.org/details/departmentofstat461962unit/page/10/mode/1up). [[w.ball-past-has-another-pattern]], 256–57. See [[cal.1961-12-21.congo]]. Names: Tshombe, Kennedy, Adoula.'
+    src:
+      c: f8753db0
+      rows:
+        - 'https://archive.org/details/departmentofstat461962unit/page/10/mode/1up: all'
+        - 'w.ball-past-has-another-pattern 256–57: all'
+    tags: [name:tshombe-moise, name:kennedy-john-f, name:adoula-cyrille]
+  - id: cal.1961-12-14.congo-2
+    when: Dec. 14
+    date: '1961-12-14'
+    thread: congo
+    c: 'Ball to Gullion, 9:23 p.m.: Kennedy''s message to Tshombe, for Hoffacker to deliver once Adoula concurs; Adoula has told Bunche he would meet Tshombe at Kitona. Gullion to be Kennedy''s man to bring the two together, by Ball''s account, a cease-fire left unpromised in writing; Hoffacker to say one would be in effect.'
+    n: '[FRUS 1961–63, XX, doc. 162](https://history.state.gov/historicaldocuments/frus1961-63v20/d162). [[w.ball-past-has-another-pattern]], 257 (Gullion; the cease-fire). See [[cal.1961-12-14.congo]]. Names: Ball, Gullion, Kennedy, Tshombe, Hoffacker, Adoula, Bunche.'
+    src:
+      c: d4456828
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v20/d162: A-B'
+        - 'w.ball-past-has-another-pattern 257: C-D'
+    tags: [name:ball-george-w, name:gullion-edmund-a, name:kennedy-john-f, name:tshombe-moise, name:hoffacker-lewis, name:adoula-cyrille, name:bunche-ralph-j]
+  - id: cal.1961-12-14.congo-3
+    when: Dec. 14
+    date: '1961-12-14'
+    thread: congo
+    also: [conservative-movement]
+    c: 'The American Committee for Aid to Katanga Freedom Fighters, Max Yergan chairman, in a full-page advertisement in the *New York Times* and seventeen other papers: "Katanga is the Hungary of 1961." The United States to stop paying for the UN''s operation in Katanga.'
+    n: '[[w.ball-past-has-another-pattern]], 234. Check: the advertisement not read. See [[cal.1961-12-21.congo]].'
+    src:
+      c: 38d0e76c
+      rows:
+        - 'w.ball-past-has-another-pattern 234: all'
   - id: cal.1961-12-15.vietnam
     when: Dec. 15
     date: '1961-12-15'
@@ -230,6 +271,17 @@ entries:
     also: [trade, european-community]
     c: 'Gallup, Nov. 17–22: 22 percent have heard of the European Common Market; 13 can tell its purposes.'
     n: '[[w.gallup-poll]], III, 1746.'
+  - id: cal.1961-12-17.congo
+    when: Dec. 17
+    date: '1961-12-17'
+    thread: congo
+    c: 'Ball to Kennedy in Bogotá: the UN''s limited military objectives at Elisabethville substantially reached; a de facto suspension of hostilities, not a formal cease-fire, the British and French having made the difference plain to Tshombe; Tshombe to meet Adoula, apparently without conditions. Gullion to fly him to Kitona.'
+    n: '[FRUS 1961–63, XX, doc. 166](https://history.state.gov/historicaldocuments/frus1961-63v20/d166). See [[cal.1961-12-14.congo-2]]. Names: Ball, Kennedy, Tshombe, Adoula, Gullion.'
+    src:
+      c: a1b3b5a9
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v20/d166: all'
+    tags: [name:ball-george-w, name:kennedy-john-f, name:tshombe-moise, name:adoula-cyrille, name:gullion-edmund-a]
   - id: cal.1961-12-18.india-and-china
     when: Dec. 18
     date: '1961-12-18'
@@ -273,6 +325,31 @@ entries:
         - 'https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-94755-iii.pdf#page=896: all'
         - 'w.schlesinger-robert-kennedy-and-his 451: A'
     tags: [name:kennedy-robert-f, name:reuther-walter, name:reuther-victor-g, name:rauh-joseph-l-jr, name:goldwater-barry-m, name:welch-robert, name:kennedy-john-f]
+  - id: cal.1961-12-19.congo
+    when: Dec. 19
+    date: '1961-12-19'
+    thread: congo
+    c: 'Ball before the Town Hall at Los Angeles, "The Elements in Our Congo Policy": Congolese unity "perhaps the only really ''modern'' issue"; should Adoula fail to deal with Katanga''s secession, Gizenga would bid for the central government, and "our main objectives in central Africa would be drowned in blood." "There simply is no legal case, no political case, no economic case, and no moral case for Balkanizing the heart of Africa."'
+    n: 'Ball, "The Elements in Our Congo Policy," [[w.department-of-state-bulletin]], [Jan. 8, 1962, 43](https://archive.org/details/departmentofstat461962unit/page/43/mode/1up). [[w.ball-past-has-another-pattern]], 232–33. See [[cal.1961-12-14.congo]]. Names: Ball, Adoula, Gizenga.'
+    src:
+      c: 4c42a73d
+      rows:
+        - 'https://archive.org/details/departmentofstat461962unit/page/43/mode/1up: all'
+        - 'w.ball-past-has-another-pattern 232–33: all'
+        - 'via w.ball-past-has-another-pattern 233 n.8: all'
+    tags: [name:ball-george-w, name:adoula-cyrille, name:gizenga-antoine]
+  - id: cal.1961-12-19.congo-2
+    when: Dec. 19
+    date: '1961-12-19'
+    thread: congo
+    also: [republican-party]
+    c: 'Nixon, in a syndicated article in the *New York Herald Tribune*: the administration''s Congo policy has failed and leads toward a Communist Congo; Tshombe "a dedicated anti-Communist."'
+    n: '[[w.ball-past-has-another-pattern]], 234. Check: the article not read. See [[cal.1961-12-14.congo]]. Names: Nixon, Tshombe.'
+    src:
+      c: 28b745c3
+      rows:
+        - 'w.ball-past-has-another-pattern 234: all'
+    tags: [name:nixon-richard-m, name:tshombe-moise]
   - id: cal.1961-12-20.middle-east-johnson-plan
     when: Dec. 20
     date: '1961-12-20'
@@ -284,7 +361,13 @@ entries:
     date: '1961-12-21'
     thread: congo
     c: Kitona. Tshombe accepts the central government, Gullion mediating. Repudiated within weeks. Check the repudiation.
-    n: 'FRUS 1961–63, XX, docs. [166](https://history.state.gov/historicaldocuments/frus1961-63v20/d166), [174](https://history.state.gov/historicaldocuments/frus1961-63v20/d174), [176](https://history.state.gov/historicaldocuments/frus1961-63v20/d176), [181](https://history.state.gov/historicaldocuments/frus1961-63v20/d181). To check: [[w.kalb-congo-cables]]. See [[cal.1961-02-13.congo]]. Names: Tshombe, Gullion.'
+    n: 'FRUS 1961–63, XX, docs. [166](https://history.state.gov/historicaldocuments/frus1961-63v20/d166), [174](https://history.state.gov/historicaldocuments/frus1961-63v20/d174), [176](https://history.state.gov/historicaldocuments/frus1961-63v20/d176), [181](https://history.state.gov/historicaldocuments/frus1961-63v20/d181). [FRUS 1961–63, XX, doc. 176](https://history.state.gov/historicaldocuments/frus1961-63v20/d176) (Ball to Kennedy and Rusk at Bermuda: the terms; Tshombe''s escape, his cabinet and assembly). [[w.ball-past-has-another-pattern]], 257–58 (seventeen hours; the terms; Tshombe to the press at Kitona). To check: [[w.kalb-congo-cables]]. See [[cal.1961-02-13.congo]]. Names: Tshombe, Gullion.'
+    src:
+      c: 234b4f1b
+      rows:
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v20/d166: all'
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v20/d176: A-B'
+        - 'w.ball-past-has-another-pattern 257–58: A-B, D'
     tags: [name:gullion-edmund-a, name:tshombe-moise]
   - id: cal.1961-12-21.europe-and-the-alliance
     when: Dec. 21–22
@@ -308,6 +391,18 @@ entries:
     c: Specialist James T. Davis killed in an ambush west of Saigon. Later counted the first American battle death.
     n: 'See [[cal.1961-01-28.vietnam]]. Names: Davis.'
     tags: [name:davis-james-t, place:saigon]
+  - id: cal.1961-12-22.congo
+    when: Dec. 22
+    date: '1961-12-22'
+    thread: congo
+    c: 'Ball to McGeorge Bundy at Bermuda by telephone, by Ball''s account: Tshombe''s cabinet, after three hours the night before, has denounced the Kitona agreement as not binding. State''s program of economic pressure on Katanga, in three stages, to Leopoldville: Tshombe''s financial backers to be put in jeopardy, the Congo''s tax and customs offices in Belgium reopened; the United States, Belgium, Britain and the UN to consult first.'
+    n: '[FRUS 1961–63, XX, doc. 179](https://history.state.gov/historicaldocuments/frus1961-63v20/d179). [[w.ball-past-has-another-pattern]], 258 (the call). See [[cal.1961-12-21.congo]]. Names: Ball, McGeorge Bundy, Tshombe.'
+    src:
+      c: 3f6dd552
+      rows:
+        - 'w.ball-past-has-another-pattern 258: A'
+        - 'https://history.state.gov/historicaldocuments/frus1961-63v20/d179: B-C'
+    tags: [name:ball-george-w, name:bundy-mcgeorge, name:tshombe-moise]
   - id: cal.1961-12-24.latin-america
     when: Dec. 24
     date: '1961-12-24'
@@ -329,6 +424,18 @@ entries:
     c: 'On reports of Iraqi moves against Kuwait, Britain sends an aircraft carrier and smaller ships toward the Gulf; Iraq protests to the Security Council. Jernegan from Baghdad: Kuwait''s safety to be made the concern of the Arab states, Nasser''s above all.'
     n: 'FRUS 1961–63, XVII, docs. [154](https://history.state.gov/historicaldocuments/frus1961-63v17/d154), [155](https://history.state.gov/historicaldocuments/frus1961-63v17/d155), [156](https://history.state.gov/historicaldocuments/frus1961-63v17/d156) (Dec. 29). Made public: FRUS 1961–63, XVII (1994). See [[cal.1961-06-25.middle-east]]. Names: Jernegan, Nasser.'
     tags: [name:nasser-gamal-abdel, name:jernegan-john-d]
+  - id: cal.1961-12-30.congo
+    when: Dec. 30
+    date: '1961-12-30'
+    thread: congo
+    also: [republican-party]
+    c: Herbert Hoover endorses Dodd's call for a Senate investigation of the UN's action in Katanga, its "naked aggression" and "atrocities."
+    n: '[[w.ball-past-has-another-pattern]], 234. Check: Dodd''s statement not dated; neither read. See [[cal.1961-12-14.congo]]. Names: Dodd.'
+    src:
+      c: 9d5b88ad
+      rows:
+        - 'w.ball-past-has-another-pattern 234: all'
+    tags: [name:dodd-thomas-j]
   - id: cal.1961-12-31.opinion-5
     when: Dec. 31
     date: '1961-12-31'
