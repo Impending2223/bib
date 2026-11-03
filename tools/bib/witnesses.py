@@ -27,6 +27,15 @@ year files, so no two write one file; check reads them with the registry, and th
 (`python3 -I tools/witnesses/fold.py`: each row to its year's file, a repeated id refused). A work's edges go in its own
 by-work file, which only its reader writes.
 
+Amending a registered witness (fill `agent`, `open`, `made`, `form`, set `read`, add a `from` edge or a copy): a row in
+the reader's pending file `{amend: x.…, set: {field: value}, add_from: [{of, kind}], add_copies: [...], why: ...}`;
+check applies it with the registry, fold writes it in. Joining two witnesses that are one record: `{amend: x.keep,
+absorbs: x.drop, why: ...}`: the drop's edges and copies go to the keep, its id is left out and never reused.
+
+A passage of a study that quotes or reports a document is a row of its own, `part_of` the study's witness (or `w.`
+card) and `pin` its page, carrying its own `from`: so a study's sources tie to the passage, not the whole book. An edge
+may name a card (`of: w.zhai-china-and-the-vietnam`, with `at:` its page): one work resting on another.
+
 STYLE
 1. Every witness met that bears on a claim is registered, however well attested the claim (memo §3, rule 1). A copy of
    one registered (the same text, nothing added) is its `copy`, `print` or `edition` edge: kept, never counted as
@@ -40,6 +49,7 @@ STYLE
    journal) closes its units; `stemma` says so and asks no root of them. Not built into the rows yet: shown by stemma
    from the link's address (STATUTE, the Federal Register, the U.S. Reports, govinfo's PPP for a proclamation).
 5. Independence is counted by roots and agents, never by works (memo §2).
+5a. A witness that disputes a unit is no support for it: it goes in the entry's `variants`, never in a `via` row.
 6. check [witnesses]: an error on an id malformed or repeated, a kind, form, edge kind or `made` outside its list, an
    edge to nothing, to itself, or round in a cycle, a by-work file naming no card, a `via` to a witness no item of the
    note leads to, a variant's unit not in `c` or its witness unknown; a warning (one line, a count) on the roots that
@@ -93,17 +103,58 @@ def load():
     if _cache.get("key") == key:
         return _cache["val"]
     rows, where, edges = {}, {}, {}
+    amends = []
     for p in files() + pending_files():
         for r in store.load_yaml(p) or []:
-            if isinstance(r, dict) and r.get("id"):
+            if isinstance(r, dict) and r.get("amend"):
+                amends.append((os.path.relpath(p, store.ROOT), r))
+            elif isinstance(r, dict) and r.get("id"):
                 if r["id"] in rows:
                     where.setdefault("_dup", []).append(r["id"])
                 rows[r["id"]] = r
                 where[r["id"]] = os.path.relpath(p, store.ROOT)
+    absorbed = {}
+    for at, a in amends:
+        w = rows.get(a["amend"])
+        if w is None:
+            where.setdefault("_bad", []).append((at, f"amend {a['amend']}: no such witness"))
+            continue
+        apply_amend(w, a, rows, absorbed)
     for p in work_files():
-        edges["w." + os.path.basename(p)[:-5]] = store.load_yaml(p) or []
+        es = store.load_yaml(p) or []
+        for ed in es:
+            if isinstance(ed, dict) and ed.get("of") in absorbed:
+                ed["of"] = absorbed[ed["of"]]
+        edges["w." + os.path.basename(p)[:-5]] = es
+    for w in rows.values():
+        for f in w.get("from") or []:
+            if f.get("of") in absorbed:
+                f["of"] = absorbed[f["of"]]
+    where["_absorbed"] = absorbed
     _cache.update(key=key, val=(rows, edges, where))
     return rows, edges, where
+
+
+def apply_amend(w, a, rows, absorbed):
+    """An amendment row applied to its witness (in memory at load; on disk by fold)."""
+    for k, v in (a.get("set") or {}).items():
+        w[k] = v
+    for f in a.get("add_from") or []:
+        if f not in (w.get("from") or []):
+            w.setdefault("from", []).append(f)
+    for c in a.get("add_copies") or []:
+        if c not in (w.get("copies") or []):
+            w.setdefault("copies", []).append(c)
+    d = a.get("absorbs")
+    if d and d in rows and d != w["id"]:
+        x = rows.pop(d)
+        for c in x.get("copies") or []:
+            if c not in (w.get("copies") or []):
+                w.setdefault("copies", []).append(c)
+        if x.get("what") != w.get("what") and x.get("what") not in (w.get("also_as") or []):
+            w.setdefault("also_as", []).append(x["what"])
+        w["read"] = bool(w.get("read") or x.get("read"))
+        absorbed[d] = w["id"]
 
 
 def register(series=None):
@@ -135,8 +186,10 @@ def reachable(cards, rows, edges):
     out = set()
     for c in cards:
         for ed in edges.get(c) or []:
-            upstream(ed.get("of"), rows, [])
             out.update(upstream(ed.get("of"), rows, []))
+    more = {wid for wid, r in rows.items() if r.get("part_of") in out | set(cards)}
+    for m in more:
+        out.update(upstream(m, rows, []))
     return out
 
 
@@ -149,6 +202,8 @@ def problems(series):
     from . import claims
     rows, edges, where = load()
     errors, warns = [], []
+    for at, msg in where.get("_bad", []):
+        errors.append((at, msg))
     for d in where.get("_dup", []):
         errors.append((where.get(d, "sources/witnesses"), f"{d}: id repeated"))
     blank = 0
@@ -172,8 +227,14 @@ def problems(series):
                 errors.append((at, f"edge kind {f.get('kind')!r} not in EDGES"))
             if f.get("of") == wid:
                 errors.append((at, "an edge to itself"))
+            elif str(f.get("of", "")).startswith("w."):
+                if series.works.get(f["of"]) is None:
+                    errors.append((at, f"an edge to no card: {f['of']}"))
             elif f.get("of") not in rows:
                 errors.append((at, f"an edge to nothing: {f.get('of')}"))
+        po = r.get("part_of")
+        if po and po not in rows and not (str(po).startswith("w.") and series.works.get(po) is not None):
+            errors.append((at, f"part_of {po!r}: no such witness or card"))
         if not r.get("from") and not r.get("open"):
             blank += 1
     state = {}
@@ -198,8 +259,8 @@ def problems(series):
         for i, ed in enumerate(es):
             if not isinstance(ed, dict) or not AT.match(str(ed.get("at", ""))):
                 errors.append((f"{w}[{i}]", "at: 'PAGE n.NOTE'"))
-            elif ed.get("of") not in rows:
-                errors.append((f"{w}[{i}]", f"of {ed.get('of')!r}: no such witness"))
+            elif ed.get("of") not in rows and not (str(ed.get("of", "")).startswith("w.") and series.works.get(ed["of"])):
+                errors.append((f"{w}[{i}]", f"of {ed.get('of')!r}: no such witness or card"))
             elif ed.get("kind") not in EDGES:
                 errors.append((f"{w}[{i}]", f"kind {ed.get('kind')!r} not in EDGES"))
     for _, e in claims.calendar(series):
@@ -254,12 +315,8 @@ def stemma(series, eid, unit=None):
         for r, kind, key, pin, note, uu, item in claims.resolve(e):
             if uu is None or (uu != "?" and L not in uu):
                 continue
-            if kind == "card":
+            if kind == "card":            # the work read; what its page rests on only by the map's via rows
                 out.append(f"   {key} {pin or ''}".rstrip())
-                for ed in edges.get(key) or []:
-                    m = AT.match(str(ed.get("at", "")))
-                    if m and pin and m.group("page") == str(pin):
-                        out.extend(_tree(ed["of"], rows, 2, found_roots, agents))
             elif kind == "via":
                 w = reg.get((key, str(pin), str(note)))
                 out.append(f"   {key} {pin} n.{note}")
@@ -270,6 +327,9 @@ def stemma(series, eid, unit=None):
             elif kind == "url":
                 disp = next((k for rx, k in DISP_LINK if rx.search(item or key or "")), None)
                 out.append(f"   {key}" + (f"   [dispositive: {disp}; closes the units it constitutes]" if disp else ""))
+                fk = frus_key_of_url(key)
+                for wid in (frus_index(rows).get(fk) or []) if fk else []:
+                    out.extend(_tree(wid, rows, 2, found_roots, agents))
             elif kind == "witness":
                 out.extend(_tree(key, rows, 1, found_roots, agents))
             else:
@@ -281,10 +341,46 @@ def stemma(series, eid, unit=None):
     return out
 
 
+FRUS_COPY = re.compile(r"FRUS (\d{4})[–-](\d{2}),\s*([IVXL]+)(?:,\s*(pt\. \d|microfiche supp\.))?,\s*doc\.\s*(\d+)", re.I)
+ROMAN = {"I": 1, "V": 5, "X": 10, "L": 50}
+
+
+def _roman(r):
+    n = 0
+    for a, b in zip(r, r[1:] + " "):
+        n += -ROMAN[a] if ROMAN.get(b, 0) > ROMAN[a] else ROMAN[a]
+    return n
+
+
+def frus_key_of_copy(c):
+    m = FRUS_COPY.search(str(c))
+    return m and (m.group(1), m.group(2), _roman(m.group(3).upper()), m.group(5))
+
+
+def frus_key_of_url(u):
+    m = re.search(r"frus(\d{4})-(\d{2})v(\d{2})(?:p\d|m\w+)?/d(\d+)", str(u))
+    return m and (m.group(1), m.group(2), int(m.group(3)), m.group(4))
+
+
+def frus_index(rows):
+    """{FRUS key: [witness ids whose copies name that document]}: a linked FRUS document is the print of these."""
+    if _cache.get("frus_for") is not rows:
+        idx = collections.defaultdict(list)
+        for wid, r in rows.items():
+            for c in r.get("copies") or []:
+                k = frus_key_of_copy(c)
+                if k and wid not in idx[k]:
+                    idx[k].append(wid)
+        _cache["frus_idx"], _cache["frus_for"] = idx, rows
+    return _cache["frus_idx"]
+
+
 def _tree(wid, rows, depth, found_roots, agents, seen=None):
     seen = seen if seen is not None else set()
     r = rows.get(wid)
     pad = "   " * depth
+    if not r and str(wid).startswith("w."):
+        return [f"{pad}{wid} (a work in the catalogue)"]
     if not r:
         return [f"{pad}{wid} (no such witness)"]
     if wid in seen:

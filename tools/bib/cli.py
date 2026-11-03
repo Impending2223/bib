@@ -1,6 +1,7 @@
 """./bib — work on the series without reading all of it. See CLAUDE.md."""
 import argparse
 import hashlib
+import json
 import os
 import re
 import sys
@@ -534,7 +535,8 @@ def cmd_conflicts(series, a):
                     print(f"  field {c['field']!r} from {c.get('from')}")
                     for side in ("ours", "theirs", "base"):
                         v = c.get(side)
-                        v = plain(" | ".join(store.as_list(v))) if v is not None else "(none)"
+                        v = plain(" | ".join(x if isinstance(x, str) else json.dumps(x, ensure_ascii=False)
+                                             for x in store.as_list(v))) if v is not None else "(none)"
                         print(f"    {side:6} {v[:300]}")
                 else:
                     print(f"  {c.get('kind')} from {c.get('from')}" + (f": of {', '.join(store.as_list(c.get('of')))}" if c.get("of") else ""))

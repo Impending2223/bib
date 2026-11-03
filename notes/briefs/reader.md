@@ -321,7 +321,7 @@ note leads to it). `./bib stemma ID [--unit B]` prints each unit's tree to its r
 branches. A witness the series holds: read it; if it bears out its units, cite it first in `n` as the primary record,
 `read: true`. An unread one joins "To check:" with the work it comes from ("To check: Bundy to Johnson, Feb. 7, 1965,
 NSF, LBJ Library (cited by [[w.dallek-flawed-giant]], 251 n.14)."). A work with no notes: say so in the book-check file.
-Write your new witnesses to `inbox/witnesses/<your patch name>.yaml` (the same rows; never the year files, which other readers share; check reads them, the merger folds them in), and your work's edges to its by-work file.
+A passage of a study that quotes or reports a document is a witness of its own, `part_of` the study's witness or card, `pin` its page, with its own `from`; an edge may name a card (`of: w.…`, `at:` its page), one work resting on another. To amend a registered witness (fill `agent`, `open`, `made`, `form`; set `read`; add a `from` or a copy) or join two that are one record, write an amendment row in your pending file: `{amend: x.…, set: {…}, add_from: […], add_copies: […], absorbs: x.…, why: …}` (witnesses.py's docstring). A witness that disputes a unit is no support: it goes in `variants` (R41), never a `via` row. Write your new witnesses to `inbox/witnesses/<your patch name>.yaml` (the same rows; never the year files, which other readers share; check reads them, the merger folds them in), and your work's edges to its by-work file.
 
 **R36. Witnesses.** A witness is anything that bears on a claim: a document, a recording, a
 transcript; a print, edition or translation of any of them; a statement, a press account, a hearing; a study, a
