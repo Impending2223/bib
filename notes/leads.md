@@ -1329,6 +1329,16 @@ Rights in Conflict (Walker Report):
 - Discoverer XI and XII, early 1960: the months (Bissell; the Air Force's and NRO's histories). Space.
 - Kennedy's word to Bissell that he must resign as Deputy Director for Plans: the month (`cal.1961-04.cuba-bay-of-pigs`). Cuba: Bay of Pigs.
 
+### McPherson, *A Political Education* (batch 3, Oct. 29, 2026; notes/book-checks/mcpherson-political-education.md)
+- The Senate debate of Aug. 1960 on the Kennedy Foundation's airlift of African students (Scott's attack, Kennedy's reply): the day and the Record's page (McPherson, 179–80).
+- Mansfield's speech on Rule XXII, Sept. 1961: the day and page in the Record (`cal.1961-09.rules`).
+- The closing of eleven veterans hospitals, Jan. 1965, and the Prettyman committee's report (McPherson 281–82; 1965 Pub. Papers 379).
+- The escape-clause tariffs on watches and sheet glass rolled back, Jan. 1967 (the proclamations; McPherson 291–92 against the Papers' statement of Oct. 12, 1967).
+- The Corps of Engineers' order against discrimination at its recreation facilities, summer 1964 (McPherson 225–26).
+- The Child Development Group of Mississippi, 1966: Shriver's cutoff and the compromise (McPherson 353–55).
+- Roche's memoranda on the ARVN and the M-16 (1967), "Riot Lessons" (May 1, 1968, now an entry), McPherson's Harlem memorandum (1968): the LBJ Library's files.
+- The days of the entries the book dates by month or season (each its "Check: the day"); the Senate speeches of Tydings, Bayh, Harris, Muskie and Hart against the war (McPherson 420, undated).
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
@@ -2297,6 +2307,9 @@ CQ Weekly Report, 1968-08-30:
 - The 1966 volume (the DMZ, Attleboro, Masher, Crimp) was not among the copies: to fetch.
 - The war table: figures the Histories print that the table lacks "then" (U.S. strength, casualties, Viet Cong and RVNAF strength, infiltration, 1964): the book-check file, "The war table (for the merger)", for tools/indicators/make_war_forces.py.
 
+### McPherson, *A Political Education* (batch 3, Oct. 29, 2026; notes/book-checks/mcpherson-political-education.md)
+- Panama, Jan. 1964: Fleming's call on the flags, the day; the International Commission of Jurists' hearing of the Army's case (McPherson 216–17, 221–22).
+
 ## The Executive roster
 
 - NSCID No. 1: the texts of 1958, 1964 and 1972 not in the file (`usib.yaml`). Open on archive.org, the CIA's CREST copies (Oct. 23, 2026): the text effective Feb. 17, 1972 (`CIA-RDP87B01034R000700020013-3`); a 1958 draft (`CIA-RDP85S00362R000600150011-7`, "Concurred in by the IAC 21 January"), with the drafts of 1957; for 1964 only Bundy's approval of the revisions, Mar. 27, 1964, "the President's decision of March 5, 1964 on the reorganization of the USIB" (`cia-readingroom-document-cia-rdp80b01676r000400180031-7`; the text exempt). FRUS 1964–68, XXXIII, doc. 196, n. 3: revised Jan. 18, 1961, and Mar. 4, 1964. Lay shown as the Board's Executive Secretary only for Mar. 1964, in a note.
@@ -2325,3 +2338,4 @@ CQ Weekly Report, 1968-08-30:
 - Interior: the order creating the Alaska Power Administration (narrowed to June 1967); the authority for the High Commissioner's nomination, 1969.
 - The days of the ICC's rotations, 1953–55, and the National Mediation Board's; the recess commissions of Walsh, Mitchell, Wood and Bicks.
 - Plum Book offices not settled: the Pay Board's and the Price Commission's members and executive directors (OCR garbled); GSA's service commissioners and Griffin; the Board of Parole; the Postal Rate Commissioners (no Senate record); Egeberg, HEW special assistant.
+- McPherson (batch 3, Oct. 29, 2026; notes/book-checks/mcpherson-political-education.md): his swearing-in as Assistant Secretary of State (the book: his birthday, the night of Humphrey's selection, Aug. 26, 1964; the roster Aug. 23) and his move to the White House (the book: March 1965; the roster's special assistant from Aug. 1965).
