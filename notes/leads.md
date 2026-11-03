@@ -1325,6 +1325,10 @@ Rights in Conflict (Walker Report):
   Kennedy's July-Oct. 1962, Johnson's from Nov. 1963 into 1964; check the volumes' spans), for Drive like the other
   books. Its search API returns the text too; the series has not used it.
 
+### Bissell, *Reflections of a Cold Warrior* (batch 3, Oct. 29, 2026; notes/book-checks/bissell-reflections-of-a-cold.md)
+- Discoverer XI and XII, early 1960: the months (Bissell; the Air Force's and NRO's histories). Space.
+- Kennedy's word to Bissell that he must resign as Deputy Director for Plans: the month (`cal.1961-04.cuba-bay-of-pigs`). Cuba: Bay of Pigs.
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
@@ -2277,6 +2281,10 @@ CQ Weekly Report, 1968-08-16:
 CQ Weekly Report, 1968-08-30:
 - The shelling of Saigon and Biên Hòa, Aug. 22, 1968 (CQ, 2337): MACV's or the papers' account, the casualties.
 - Nguyễn Thanh Lê's news conference, Aug. 26, 1968: the delegation's own text (CQ quotes a translation).
+
+### Bissell, *Reflections of a Cold Warrior* (batch 3, Oct. 29, 2026; notes/book-checks/bissell-reflections-of-a-cold.md)
+- The USIB ad hoc committee's "The Military Build-up in Cuba," summer 1961: its date (Bissell; FRUS 1961–63, X). Cuba.
+- Dulles's unpublished paper on the Bay of Pigs (Dulles Papers, boxes 138, 244, Princeton): to read. Cuba: Bay of Pigs.
 
 ## The Executive roster
 
