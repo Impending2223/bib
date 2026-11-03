@@ -146,7 +146,7 @@ entries:
     date: '1964-01-05'
     thread: king
     c: 'Washington, the Willard Hotel, King there for the argument of *New York Times v. Sullivan*. FBI agents plant microphones in his room: fifteen reels in two days, a party with SCLC colleagues and two women from Philadelphia. The transcripts made for the White House.'
-    n: '[[w.garrow-bearing-the-cross]], 310. To check: SAC New York to Director, Jan. 6, 7 and 10, 1964, FBI file 100-438794-NR; FBI file 100-106670-1024, Dec. 2, 1964; Director to Attorney General, Jan. 17, 1964, FBI file 100-3-116 (cited by [[w.garrow-bearing-the-cross]], 310 n.19). Check: the days. See [[cal.1963-10-10.king]]. Made public: Check; Garrow had the FBI''s files under the Freedom of Information Act ([[w.garrow-bearing-the-cross]], 627). Names: King.'
+    n: '[[w.garrow-bearing-the-cross]], 310; [[w.branch-pillar-of-fire]], 207. To check: SAC New York to Director, Jan. 6, 7 and 10, 1964, FBI file 100-438794-NR; FBI file 100-106670-1024, Dec. 2, 1964; Director to Attorney General, Jan. 17, 1964, FBI file 100-3-116 (cited by [[w.garrow-bearing-the-cross]], 310 n.19); Sullivan to Belmont, Jan. 6, 1964, FK-NR (cited by [[w.branch-pillar-of-fire]], 207); "Summary of Highly Sensitive Coverage," Nov. 27, 1964, FK-1024 (cited by [[w.branch-pillar-of-fire]], 207). Check: the days. See [[cal.1963-10-10.king]]. Made public: Check; Garrow had the FBI''s files under the Freedom of Information Act ([[w.garrow-bearing-the-cross]], 627). Names: King.'
     src:
       c: b69ea200
       rows:
@@ -154,6 +154,9 @@ entries:
         - 'via w.garrow-bearing-the-cross 310 n.19c: C'
         - 'via w.garrow-bearing-the-cross 310 n.19d: C-D'
         - 'via w.garrow-bearing-the-cross 310 n.19b: D'
+        - 'w.branch-pillar-of-fire 207: A, C'
+        - 'via w.branch-pillar-of-fire 207 n.installed-microphone-bugs-in.a: A, C'
+        - 'via w.branch-pillar-of-fire 207 n.installed-microphone-bugs-in.b: A, C'
     tags: [name:king-martin-luther-jr]
   - id: cal.1964-01-05.goldwater
     when: Jan. 5
@@ -197,6 +200,20 @@ entries:
       rows:
         - 'w.macv-command-history-1964 189: all'
     tags: [name:tran-van-don]
+  - id: cal.1964-01-06.court
+    when: Jan. 6–7
+    date: '1964-01-06'
+    thread: court
+    also: [king]
+    c: '*New York Times Co. v. Sullivan* and *Abernathy v. Sullivan* argued. Jan. 6, Herbert Wechsler for the *Times*. Jan. 7, William Rogers, Eisenhower''s Attorney General, and Samuel Pierce for the four Negro ministers, Rogers: their names were added to the advertisement without their knowledge; "If this judgment is permitted to stand, it will be a mild forerunner of what will follow."'
+    n: '[[w.branch-pillar-of-fire]], 204–08. To check: Proceedings of the Supreme Court in Case No. 39, Jan. 6, 1964, p. 10 (cited by [[w.branch-pillar-of-fire]], 206); Proceedings of the Supreme Court in Case No. 39, Jan. 6, 1964, p. 21 (cited by [[w.branch-pillar-of-fire]], 206). Reply: [[cal.1964-03-09.court]]. Names: Rogers, Abernathy.'
+    src:
+      c: 9898dcb6
+      rows:
+        - 'w.branch-pillar-of-fire 204–08: all'
+        - 'via w.branch-pillar-of-fire 206 n.fantastic: all'
+        - 'via w.branch-pillar-of-fire 206 n.a-death-penalty-for: all'
+    tags: [name:rogers-william-p, name:abernathy-ralph-david]
   - id: cal.1964-01-07.congress
     when: Jan. 7
     date: '1964-01-07'
@@ -312,6 +329,19 @@ entries:
         - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-george-brown-and-office-secretary-january-8: B'
         - 'w.caro-passage-of-power 527: all'
     tags: [name:johnson-lyndon-b, name:saxon-james-j]
+  - id: cal.1964-01-08.king
+    when: Jan. 8
+    date: '1964-01-08'
+    thread: king
+    c: Sullivan of the FBI resolves "to take [King] off his pedestal and to reduce him completely in influence"; his staff to approach the Internal Revenue Service on a hunch that King's returns might "assist the Bureau in its efforts to discredit King."
+    n: '[[w.branch-pillar-of-fire]], 207–08. To check: Sullivan to Belmont, Jan. 8, 1964, FBI 77-56944-19, cited in Garrow, FBI and Martin, p. 105 (cited by [[w.branch-pillar-of-fire]], 207); Baumgardner to Sullivan, Jan. 8, 1964, FSC-NR (cited by [[w.branch-pillar-of-fire]], 208). Made public: Check. See [[cal.1964-01-05.king]]. Names: Sullivan, Martin Luther King.'
+    src:
+      c: dc2553b9
+      rows:
+        - 'w.branch-pillar-of-fire 207–08: all'
+        - 'via w.branch-pillar-of-fire 207 n.to-take-king-off: all'
+        - 'via w.branch-pillar-of-fire 208 n.recent-income-tax-returns: all'
+    tags: [name:sullivan-william-c, name:king-martin-luther-jr]
   - id: cal.1964-01-09.latin-america
     when: Jan. 9–11
     date: '1964-01-09'
@@ -454,6 +484,18 @@ entries:
     c: 'Johnson to Sanford''s conference on poverty at Raleigh: "The North Carolina Fund promises to make an exciting and important contribution." The federal departments to cooperate.'
     n: 'Telegram to Governor Sanford on His Attack on Poverty in North Carolina, [1963–64 Pub. Papers 132](https://www.govinfo.gov/content/pkg/PPP-1963-book2/pdf/PPP-1963-book2.pdf#page=216) (Jan. 14, 1964). See [[cal.1963-07-18.poverty-nc]]. Names: Sanford, Johnson.'
     tags: [state:nc, name:sanford-terry, name:johnson-lyndon-b]
+  - id: cal.1964-01-14.king
+    when: Jan. 14
+    date: '1964-01-14'
+    thread: king
+    c: 'DeLoach, for Hoover, shows Johnson and Walter Jenkins the transcripts of the Willard Hotel recordings. Hoover had refused a copy to the Attorney General: "No. A copy need not be given A.G."'
+    n: '[[w.branch-pillar-of-fire]], 209. To check: Garrow, FBI and Martin, p. 106 (cited by [[w.branch-pillar-of-fire]], 209). Made public: Check. See [[cal.1964-01-05.king]]. Names: DeLoach, Hoover, Johnson, Jenkins.'
+    src:
+      c: b27a7ab4
+      rows:
+        - 'w.branch-pillar-of-fire 209: all'
+        - 'via w.branch-pillar-of-fire 209 n.fbi-executives-debated: all'
+    tags: [name:deloach-cartha, name:hoover-j-edgar, name:johnson-lyndon-b, name:jenkins-walter-w]
   - id: cal.1964-01-15.transition-and-staff
     when: Jan. 15
     date: '1964-01-15'
@@ -528,12 +570,13 @@ entries:
     thread: poverty
     also: [civil-rights-organizations]
     c: Johnson, at a Saturday meeting called the night before, asks King, Wilkins, Whitney Young and Farmer to support the war on poverty. King for it, and for "some kind of compensatory crash program."
-    n: '[[w.garrow-bearing-the-cross]], 310. To check: New York Times, Jan. 19, 1964, 1; Washington Post, Jan. 19, 1964, A2 (cited by [[w.garrow-bearing-the-cross]], 310 n.20). Names: Johnson, King, Wilkins, Young, Farmer.'
+    n: '[[w.garrow-bearing-the-cross]], 310; [[w.branch-pillar-of-fire]], 210. To check: New York Times, Jan. 19, 1964, 1; Washington Post, Jan. 19, 1964, A2 (cited by [[w.garrow-bearing-the-cross]], 310 n.20). Names: Johnson, King, Wilkins, Young, Farmer.'
     src:
       c: d572b264
       rows:
         - 'w.garrow-bearing-the-cross 310: all'
         - 'via w.garrow-bearing-the-cross 310 n.20: all'
+        - 'w.branch-pillar-of-fire 210: A'
     tags: [name:johnson-lyndon-b, name:king-martin-luther-jr, name:wilkins-roy, name:young-whitney-m-jr, name:farmer-james]
   - id: cal.1964-01-18.civil-rights-bill
     when: Jan. 18
@@ -627,11 +670,13 @@ entries:
     thread: mississippi
     also: [governors]
     c: 'Paul Johnson inaugurated at Jackson: "Hate, or prejudice, or ignorance, will not lead Mississippi while I sit in the governor''s chair" (Check the wording).'
-    n: 'Mississippi Department of Archives and History, ["Paul Burney Johnson, Jr."](https://mshistory.mdah.ms.gov/issue/paul-burney-johnson-jr-fifty-fourth-governor-of-mississippi-1964-1968). To check: [[w.crespino-in-search-of-another]]. See [[cal.1963-11-05.mississippi-ms]]. Names: Paul Johnson.'
+    n: 'Mississippi Department of Archives and History, ["Paul Burney Johnson, Jr."](https://mshistory.mdah.ms.gov/issue/paul-burney-johnson-jr-fifty-fourth-governor-of-mississippi-1964-1968). [[w.branch-pillar-of-fire]], 214. To check: [[w.crespino-in-search-of-another]]; Gov. Paul Johnson inaugural address, Jan. 21, 1964, WLBT-TV news tape 0139/D22, MDAH (cited by [[w.branch-pillar-of-fire]], 214). See [[cal.1963-11-05.mississippi-ms]]. Names: Paul Johnson.'
     src:
       c: b853ef3d
       rows:
         - 'https://mshistory.mdah.ms.gov/issue/paul-burney-johnson-jr-fifty-fourth-governor-of-mississippi-1964-1968: all'
+        - 'w.branch-pillar-of-fire 214: all'
+        - 'via w.branch-pillar-of-fire 214 n.i-would-say-to: all'
     tags: [state:ms, city:jackson, name:johnson-paul-b-jr]
   - id: cal.1964-01-21.transition-and-staff
     when: Jan. 21
@@ -676,12 +721,16 @@ entries:
     thread: mississippi
     also: [voting-rights, civil-rights-organizations]
     c: 'Hattiesburg. Freedom Day: Negro applicants line up at the Forrest County courthouse to register before the circuit clerk, some fifty pickets and some thirty Northern clergymen beside them; Moses, of SNCC, among the organizers. Check the numbers.'
-    n: 'SNCC, ["Hattiesburg, Miss., Freedom Day, January 22, 1964"](https://www.crmvet.org/docs/6401_sncc_hattiesburg-fd.pdf). [[w.dittmer-local-people]], 219–21 (nearly 200 at the courthouse by 10:30, fifty clergymen from out of the State; Moses the one arrest there). To check: [[w.payne-ive-got-the-light]]; [[w.branch-pillar-of-fire]]. See [[cal.1962-05.mississippi-ms]]. Check: Dittmer, 220–21, gives nearly 200 at the courthouse by 10:30, fifty clergymen from out of the State among them, and Moses the one arrested there. Names: Moses.'
+    n: 'SNCC, ["Hattiesburg, Miss., Freedom Day, January 22, 1964"](https://www.crmvet.org/docs/6401_sncc_hattiesburg-fd.pdf). [[w.dittmer-local-people]], 219–21 (nearly 200 at the courthouse by 10:30, fifty clergymen from out of the State; Moses the one arrest there); [[w.branch-pillar-of-fire]], 215–19. To check: [[w.payne-ive-got-the-light]]; list of "Clergy Participation, Freedom Day, January 22, 1964, Hattiesburg, Mississippi," A/SN101f8 (cited by [[w.branch-pillar-of-fire]], 215); Jackson Daily News, Jan. 23, 1964, p. 6 (cited by [[w.branch-pillar-of-fire]], 217); COFO "Hattiesburg Report," Jan. 1964, A/SN54f9, p. 2 (cited by [[w.branch-pillar-of-fire]], 218). See [[cal.1962-05.mississippi-ms]]. Check: Dittmer, 220–21, gives nearly 200 at the courthouse by 10:30, fifty clergymen from out of the State among them, and Moses the one arrested there. Names: Moses. Check: Branch, 215, counts fifty-one clergy; 219, Moses arrested and, Jan. 23, sentenced to sixty days.'
     src:
       c: 39e62b2f
       rows:
         - 'https://www.crmvet.org/docs/6401_sncc_hattiesburg-fd.pdf: all'
         - 'w.dittmer-local-people 219–21: A-C'
+        - 'w.branch-pillar-of-fire 215–19: all'
+        - 'via w.branch-pillar-of-fire 215 n.fifty-one-white-faces-and: all'
+        - 'via w.branch-pillar-of-fire 217 n.main-street-on-tuesday: all'
+        - 'via w.branch-pillar-of-fire 218 n.annoyance-focused-on-bob: all'
     tags: [state:ms, city:hattiesburg, name:moses-robert-p]
   - id: cal.1964-01-22.amendments
     when: Jan. 22–23
@@ -1000,7 +1049,7 @@ entries:
     date: '1964-01-31'
     thread: mississippi
     c: 'Liberty, Amite County. Louis Allen, who saw Hurst kill Herbert Lee in 1961 and testified to self-defense, then told SNCC, the FBI and the Civil Rights Commission otherwise, shot dead at his gate the night before he was to leave the State. The FBI had referred his reports of threats to the Highway Patrol. Its inquiry closed in May: no voting work, so no federal jurisdiction.'
-    n: 'Robert Moses, [Report Concerning the Louis Allen Case](https://www.wisconsinhistory.org/record/multi/W01DRZ7) (SNCC, 1964), with Mrs. Allen''s and Tommy Allen''s accounts. Civil Rights Division, [Notice to Close File, Louis Allen](https://www.justice.gov/crt/case-document/file/1194136/dl) (May 19, 2015). [[w.dittmer-local-people]], 109, 215 (Allen''s testimony and what he told the FBI; the killing, the night before he was to leave). To check: [[w.payne-ive-got-the-light]]; *Nation*, Mar. 16, 1964, 254–55; the affidavit of Mrs. Elizabeth Allen, May 29, 1964, Hillegas Collection (cited by [[w.dittmer-local-people]], 215 n.1). See [[cal.1961-09-25.mississippi]]. Made public: the Civil Rights Division''s notice closing the file, May 19, 2015, from the FBI''s memoranda of 1961–64. Names: Allen, Hurst, Lee.'
+    n: 'Robert Moses, [Report Concerning the Louis Allen Case](https://www.wisconsinhistory.org/record/multi/W01DRZ7) (SNCC, 1964), with Mrs. Allen''s and Tommy Allen''s accounts. Civil Rights Division, [Notice to Close File, Louis Allen](https://www.justice.gov/crt/case-document/file/1194136/dl) (May 19, 2015). [[w.dittmer-local-people]], 109, 215 (Allen''s testimony and what he told the FBI; the killing, the night before he was to leave); [[w.branch-pillar-of-fire]], 222–23. To check: [[w.payne-ive-got-the-light]]; *Nation*, Mar. 16, 1964, 254–55; the affidavit of Mrs; "Report Concerning the Louis Allen Case by Robert Moses," A/SN51f6. | (cited by [[w.branch-pillar-of-fire]], 222); Director to SAC, New Orleans, Feb. 3, 1964, FBI File No. 44-24466 (Louis Allen murder), Serial 2 (cited by [[w.branch-pillar-of-fire]], 223); Rosen to Belmont, Feb. 3, 1964, FBI File No. 44-24466 (Louis Allen Murder), Serial 4. Also Rosen to Belmont, June 22, 1964, FBI File No. 44-24466 (Louis Allen murder), Serial 4. Also Rosen to Belmont, June 22, 1964, FBI File No. 44-24466 (Louis Allen Murder), Serial Ls pine (cited by [[w.branch-pillar-of-fire]], 223). Elizabeth Allen, May 29, 1964, Hillegas Collection (cited by [[w.dittmer-local-people]], 215 n.1). See [[cal.1961-09-25.mississippi]]. Made public: the Civil Rights Division''s notice closing the file, May 19, 2015, from the FBI''s memoranda of 1961–64. Names: Allen, Hurst, Lee.'
     src:
       c: a11636ee
       rows:
@@ -1009,6 +1058,10 @@ entries:
         - 'w.dittmer-local-people 109, 215: A-B'
         - 'via w.dittmer-local-people 215 n.1a: B'
         - 'via w.dittmer-local-people 215 n.1b: B'
+        - 'w.branch-pillar-of-fire 222–23: A-C'
+        - 'via w.branch-pillar-of-fire 222 n.what-grieving-relatives-told: A-C'
+        - 'via w.branch-pillar-of-fire 223 n.advise-all-persons: A-C'
+        - 'via w.branch-pillar-of-fire 223 n.the-victim-is-not: A-C'
     tags: [name:allen-louis, name:hurst-e-h, name:lee-herbert]
   - id: cal.1964-01-31.civil-rights-bill
     when: Jan. 31

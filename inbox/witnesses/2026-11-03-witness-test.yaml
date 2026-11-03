@@ -1,0 +1,316 @@
+# The witness test, Nov. 3, 2026 (patch inbox/2026-11-03-witness-test.yaml): the witnesses Chen Jian's *Mao's China and
+# the Cold War* (w.jian-maos-china-and-the) gives for the passages the calendar cites, read again under R35-R43 from the
+# owner's copy (printed page = PDF page - 15; the notes, pp. 285-372). The studies, memoirs and Chinese military
+# histories the Oct. 29 reading left out are here; the records it registered are not repeated (their edges stand in
+# sources/witnesses/by-work/jian-maos-china-and-the.yaml). Each study's pinpoints are on its by-work edges (`pin`). A
+# study's `from` is not scoped to a passage: an edge from it names a document the passage Chen cites quotes or reports
+# (book-check addendum, "What the rules missed"). Asselin: not read this run (the copy could not be fetched).
+
+# --- Studies and memoirs (not in the catalogue) ---------------------------------------------------------------------
+
+- id: x.1988.xue-mouhong-dangdai-zhongguo-waijiao
+  what: Xue Mouhong et al., Dangdai zhongguo waijiao (Contemporary Chinese Diplomacy) (Beijing, Zhongguo shehui kexue 1988)
+  kind: study
+  date: '1988'
+  where: published (Chen gives the year as 1988 in one note, 1989 in others); not held
+  agent: [Xue Mouhong]
+  made: later
+  made_on: '1988'
+  form: study
+  open: not held
+  read: false
+- id: x.1989.cong-jin-quzhe-fazhan-de-suiyue
+  what: Cong Jin, Quzhe fazhan de suiyue (The Years of Tortuous Development) (Zhengzhou, Henan renmin 1989)
+  kind: study
+  date: '1989'
+  where: published; not held
+  agent: [Cong Jin]
+  made: later
+  made_on: '1989'
+  form: study
+  open: not held
+  read: false
+- id: x.1996.chen-jian-crucial-step-withdrawal-soviet-experts
+  what: 'Chen Jian, "A Crucial Step toward the Breakdown of the Sino-Soviet Alliance: The Withdrawal of Soviet Experts from China in July 1960," CWIHPB, nos. 8-9 (Winter 1996-97)'
+  kind: study
+  date: '1996'
+  where: Cold War International History Project Bulletin, nos. 8-9, 246, 249-50; not held (no card)
+  agent: [Chen Jian]
+  made: later
+  made_on: 1996-97
+  form: study
+  open: not held
+  read: false
+- id: x.1998.wang-taiping-waijiao-shi-1957-1969
+  what: Wang Taiping et al., Zhonghua renmin gongheguo waijiao shi, 1957-1969 (A Diplomatic History of the People's Republic of China, 1957-1969) (Beijing, Shijie zhishi 1998)
+  kind: study
+  date: '1998'
+  where: published; not held
+  agent: [Wang Taiping]
+  made: later
+  made_on: '1998'
+  form: study
+  open: not held
+  read: false
+- id: x.1998.jin-chongji-zhou-enlai-zhuan
+  what: Jin Chongji, ed., Zhou Enlai zhuan, 1949-1976 (A Biography of Zhou Enlai, 1949-1976) (Beijing, Zhongyang wenxian 1998)
+  kind: study
+  date: '1998'
+  where: published; not held
+  agent: [Jin Chongji]
+  made: later
+  made_on: '1998'
+  form: study
+  open: not held
+  read: false
+- id: x.1989.li-ke-hao-shengzhang-wenhua-dageming
+  what: Li Ke and Hao Shengzhang, Wenhua dageming zhong de renmin jiefang jun (The People's Liberation Army during the Cultural Revolution) (Beijing, Zhonggong dangshi ziliao 1989)
+  kind: study
+  date: '1989'
+  where: published and withdrawn from circulation shortly after (Chen, 352 n.11); not held
+  agent: [Li Ke, Hao Shengzhang]
+  made: later
+  made_on: '1989'
+  form: study
+  from:
+    - {of: x.1964-08-05.zhou-enlai-and-luo-ruiqing-to, kind: report, note: 'at 408, as Chen 213 n.34 gives it; Chen quotes the cable'}
+    - {of: x.1965-04-27.sino-vietnamese-railway-agreement, kind: report, note: 'at 421 (Chen 222 n.76)'}
+    - {of: x.1965-07-24.vietnamese-general-staff-to-chinese, kind: quotation, note: 'at 423, or DZJJG, 1:550 (Chen 225 n.89 gives both)'}
+    - {of: x.1965-07-25.chinese-general-staff-to-vietnamese, kind: report, note: 'at 423, or DZJJG, 1:550 (Chen 225 n.89)'}
+  open: not held
+  read: false
+- id: x.1989.qu-aiguo-chinese-supporters
+  what: Qu Aiguo, "Chinese Supporters in the Operations to Assist Vietnam and Resist America," Junshi shilin (The Circle of Military History), no. 6 (1989)
+  kind: study
+  date: '1989'
+  where: Junshi shilin, no. 6 (1989), 40-43; not held
+  agent: [Qu Aiguo]
+  made: later
+  made_on: '1989'
+  form: study
+  from:
+    - {of: x.1964-08-05.zhou-enlai-and-luo-ruiqing-to, kind: report, note: 'at 40 (Chen 213 n.34)'}
+  open: not held
+  read: false
+- id: x.1989.wang-dinglie-dangdai-zhongguo-kongjun
+  what: Wang Dinglie, Dangdai zhongguo kongjun (Contemporary Chinese Air Force) (Beijing, Jiefangjun 1989)
+  kind: study
+  date: '1989'
+  where: published; not held
+  agent: [Wang Dinglie]
+  made: later
+  made_on: '1989'
+  form: study
+  from:
+    - {of: x.1964-08-05.cmc-general-staff-combat-readiness-order, kind: quotation, note: 'at 384 (Chen 213 n.35, the order quoted)'}
+  open: not held
+  read: false
+- id: x.1989.han-huaizhi-dangdai-zhongguo-jundui
+  what: Han Huaizhi et al., Dangdai Zhongguo jundui de junshi gongzuo (The Military Affairs of the Contemporary Chinese Army), 2 vols. (Beijing, Zhongguo shehui kexue 1989) (Chen's DZJJG)
+  kind: study
+  date: '1989'
+  where: published; not held
+  agent: [Han Huaizhi]
+  made: later
+  made_on: '1989'
+  form: study
+  from:
+    - {of: x.1965-04-27.sino-vietnamese-railway-agreement, kind: report, note: 'at 1:545 (Chen 222 n.76)'}
+    - {of: x.1965-05-30.sino-vietnamese-road-agreement, kind: report, note: 'at 1:548 (Chen 223 n.79)'}
+    - {of: x.1965-07-24.vietnamese-general-staff-to-chinese, kind: quotation, note: 'at 1:550, or Li Ke and Hao, 423 (Chen 225 n.89 gives both)'}
+    - {of: x.1965-07-25.chinese-general-staff-to-vietnamese, kind: report, note: 'at 1:550, or Li Ke and Hao, 423 (Chen 225 n.89)'}
+  open: not held
+  read: false
+- id: x.1990.wang-xiangen-kangmei-yuanyue-shilu
+  what: Wang Xiangen, Kangmei yuanyue shilu (A Factual Account of Resisting America and Assisting Vietnam) (Beijing, Guoji wenhua chuban gongsi 1990)
+  kind: study
+  date: '1990'
+  where: published; not held
+  agent: [Wang Xiangen]
+  made: later
+  made_on: '1990'
+  form: study
+  from:
+    - {of: x.1965-04-27.sino-vietnamese-railway-agreement, kind: report, note: 'at 100-101 (Chen 222 n.76)'}
+  open: not held
+  read: false
+- id: x.1993.whiting-chinas-role-in-the-vietnam-war
+  what: Allen S. Whiting, "China's Role in the Vietnam War," in Jayne Werner and David Hunt, eds., The American War in Vietnam (Ithaca, Cornell University Southeast Asia Program 1993)
+  kind: study
+  date: '1993'
+  where: published, 73-75 (not the Werner and Luu Doan Huynh volume the catalogue holds); not held
+  agent: [name:whiting-allen-s]
+  made: later
+  made_on: '1993'
+  form: study
+  from:
+    - {of: x.undated.vietnamese-sources-chinese-troops-in-the-north, kind: report, note: 'at 74, as Chen 358 n.100 gives it'}
+  open: not held
+  read: false
+- id: x.undated.vietnamese-sources-chinese-troops-in-the-north
+  what: '"Vietnamese sources" giving 20,000 Chinese troops in North Vietnam in all, as Whiting reports them (so Chen, 358 n.100)'
+  kind: other
+  date: null
+  where: not named by Chen; Whiting, "China's Role in the Vietnam War," 74, may name them (not read)
+  agent: [Vietnamese sources, not named]
+  made: later
+  form: account
+  open: not found
+  read: false
+- id: x.1995-12-05.giap-to-mcnamara-gulf-of-tonkin
+  what: 'Vo Nguyen Giap to McNamara, Hanoi, Dec. 5, 1995 (so Chen): the Aug. 2 attack "ordered by a local commander, not by Hanoi"; the Aug. 4 attack "never occurred"'
+  kind: statement
+  date: '1995-12-05'
+  where: as McNamara, Blight and Brigham, Argument without End (1999), 167, print it (the card w.mcnamara-argument-without-end; not read this run)
+  agent: [name:vo-nguyen-giap]
+  made: later
+  made_on: '1995-12-05'
+  form: account
+  open: none known
+  read: false
+- id: x.1997.holdridge-crossing-the-divide
+  what: 'John H. Holdridge, Crossing the Divide: An Insider''s Account of Normalization of U.S.-China Relations (Lanham, Md., Rowman and Littlefield 1997)'
+  kind: memoir
+  date: '1997'
+  where: published, 25 (Chen 362 n.29); no card; not held
+  agent: [John H. Holdridge]
+  made: later
+  made_on: '1997'
+  form: account
+  open: not held
+  read: false
+- id: x.undated.luo-yisu-my-years-in-poland
+  what: Luo Yisu, "My Years in Poland," in Wang Taiping, ed., Zhongguo waijiaoguan waijiao shengya (Chinese Diplomats' Diplomatic Careers), vol. 4 (Beijing, Shijie zhishi 1995-)
+  kind: memoir
+  date: null
+  where: the series' vol. 4, 177-78, 181 (Chen 362 n.28; 363 nn.55-56; Chen prints the series' title "Zhongguo shijie waijiao shengya"); not held
+  agent: [Luo Yisu]
+  made: later
+  form: account
+  open: not held
+  read: false
+- id: x.1970-01-08.stoessel-to-the-secretary-of-state
+  what: Telegram, Stoessel to the Secretary of State, Warsaw, Jan. 8, 1970 (the informal meeting with Lei Yang; the talks to resume Jan. 20)
+  kind: telegram
+  date: '1970-01-08'
+  where: RG 59, Department of State Records, Subject-Numeric Files, 1967-69, CHICOM-US, National Archives (Chen 363 n.55)
+  agent: [name:stoessel-walter-j-jr]
+  made: contemporaneous
+  form: original
+  open: not held
+  read: false
+- id: x.1970-01-20.report-stoessel-lei-talks
+  what: Report, Stoessel-Lei talks, Warsaw, Jan. 20, 1970 (the 135th meeting, the first since Jan. 8, 1968)
+  kind: report
+  date: '1970-01-20'
+  where: RG 59, Department of State Records, Subject-Numeric Files, 1970-73, POL CHICOM-US, National Archives (Chen 363 n.56)
+  agent: [name:stoessel-walter-j-jr]
+  made: contemporaneous
+  form: original
+  open: not held
+  read: false
+
+# --- Documents the text names or quotes, reached through the studies ------------------------------------------------
+
+- id: x.1964-08-05.cmc-general-staff-combat-readiness-order
+  what: Order, the Central Military Commission and the General Staff to the Kunming and Guangzhou military regions and the air and naval units of the south and southwest, Aug. 5, 1964 (combat readiness; quoted by Chen, 213)
+  kind: other
+  date: '1964-08-05'
+  where: not given; Chen, 213, quotes it from Wang Dinglie, Dangdai zhongguo kongjun, 384 (n.35)
+  agent: [Central Military Commission, PLA General Staff]
+  made: contemporaneous
+  form: original
+  open: closed archive
+  read: false
+- id: x.1965-04-27.sino-vietnamese-railway-agreement
+  what: Agreement, the Chinese and North Vietnamese governments, Apr. 27, 1965 (China to help build railways and supply transport equipment)
+  kind: other
+  date: '1965-04-27'
+  where: not given; Chen, 222, gives its terms from DZJJG, 1:545, Li Ke and Hao, 421, Wang Xiangen, 100-101 (n.76)
+  agent: [PRC government, DRV government]
+  made: contemporaneous
+  form: original
+  open: closed archive
+  read: false
+- id: x.1965-05-30.sino-vietnamese-road-agreement
+  what: Agreement, the Chinese and North Vietnamese delegations, May 30, 1965 (Chinese engineering troops to build and rebuild twelve roads)
+  kind: other
+  date: '1965-05-30'
+  where: not given; Chen, 223, gives its terms from DZJJG, 1:548 (n.79)
+  agent: [PRC government, DRV government]
+  made: contemporaneous
+  form: original
+  open: closed archive
+  read: false
+- id: x.1965-07-24.vietnamese-general-staff-to-chinese
+  what: Telegram, the Vietnamese General Staff to the Chinese General Staff, July 24, 1965 (asking the two antiaircraft divisions, "if possible" Aug. 1; quoted by Chen, 225)
+  kind: telegram
+  date: '1965-07-24'
+  where: not given; Chen, 225, quotes it from DZJJG, 1:550, or Li Ke and Hao, 423 (n.89)
+  agent: [PAVN General Staff]
+  made: contemporaneous
+  form: original
+  open: closed archive
+  read: false
+- id: x.1965-07-25.chinese-general-staff-to-vietnamese
+  what: Telegram, the Chinese General Staff to the Vietnamese General Staff, July 25, 1965 (two divisions and a regiment to go at once, for the two railways)
+  kind: telegram
+  date: '1965-07-25'
+  where: not given; Chen, 225, reports it from DZJJG, 1:550, or Li Ke and Hao, 423 (n.89)
+  agent: [PLA General Staff]
+  made: contemporaneous
+  form: original
+  open: closed archive
+  read: false
+
+# --- Hopson's telegrams in Washington: the branch behind FRUS's editorial note (FRUS 1964-68, II, doc. 321), which
+# --- Chen cites at 218 n.59. Registered for the editorial note's `from` (wanted: book-check addendum); no item of the
+# --- entries' notes reaches them yet.
+
+- id: x.1965-06-01.peking-to-fo-telegram-722
+  what: Telegram 722, the British Embassy (Hopson), Peking, to the Foreign Office, June 1, 1965 (the Vietnam part of the meeting with Chen Yi, the message in detail)
+  kind: telegram
+  date: '1965-06-01'
+  where: FO (Kew; not cited by Chen); copies to William Bundy, June 2 (FRUS 1964-68, XXX, doc. 88 n.3)
+  agent: [Donald Charles Hopson]
+  made: contemporaneous
+  form: original
+  open: not held
+  read: false
+- id: x.1965-06-02.stewart-to-william-bundy-copies-of-720-722
+  what: Stewart (British Minister of Embassy, Washington) to William Bundy, June 2, 1965, covering copies of Peking telegrams 720 and 722
+  kind: letter
+  date: '1965-06-02'
+  where: Washington National Records Center, RG 330, OASD/ISA Files, FRC 70 A 3717, 092 Communist China (FRUS 1964-68, XXX, doc. 88 n.3)
+  agent: [Michael N. F. Stewart]
+  made: contemporaneous
+  form: copy
+  from:
+    - {of: x.1965-05-31.peking-mr-hopson-to-fo-no, kind: copy}
+    - {of: x.1965-06-01.peking-to-fo-telegram-722, kind: copy}
+  read: false
+- id: x.1965-06-04.bundy-to-johnson-item-in-cia-daily-brief
+  what: McGeorge Bundy to Johnson, June 4, 1965, 11:10 a.m., "Item in CIA daily brief" (the British telegrams attached; Rusk's first impression; "the $64 question")
+  kind: memorandum
+  date: '1965-06-04'
+  where: Johnson Library, National Security File, Memos to the President, McGeorge Bundy, vol. 11
+  agent: [name:bundy-mcgeorge]
+  made: contemporaneous
+  form: original
+  from:
+    - {of: x.1965-06-02.stewart-to-william-bundy-copies-of-720-722, kind: citation, note: the telegrams attached}
+  copies: [FRUS 1964–68, XXX, doc. 88]
+  read: true
+- id: x.1998.frus-1964-68-xxx-doc-88-n4
+  what: 'FRUS 1964-68, XXX, doc. 88 n.4: the editors'' summary of telegram 720, with the four points quoted ("when he visited Peking in March")'
+  kind: other
+  date: '1998'
+  where: FRUS 1964-68, XXX (1998), doc. 88 n.4
+  agent: [FRUS editors]
+  made: later
+  made_on: '1998'
+  form: print
+  from:
+    - {of: x.1965-06-02.stewart-to-william-bundy-copies-of-720-722, kind: quotation}
+  copies: [FRUS 1964–68, XXX, doc. 88]
+  read: true
