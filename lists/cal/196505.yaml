@@ -9,7 +9,10 @@ entries:
     thread: desegregation-schools
     also: [civil-rights-organizations]
     c: Philadelphia. Moore and the NAACP begin to picket the wall of Girard College, open by Stephen Girard's will to "poor white male orphans" alone.
-    n: 'Check: the record. To check: [[w.countryman-up-south]]; [[w.branch-at-canaans-edge]]. Names: Moore.'
+    n: 'Check: the record. To check: [[w.countryman-up-south]]. Names: Moore.'
+    src:
+      c: 2e043c13
+      rows: []
     tags: [state:pa, city:philadelphia, name:moore-cecil-b]
   - id: cal.1965-05-02.latin-america
     when: May 2
@@ -239,7 +242,11 @@ entries:
     thread: alabama
     also: [voting-rights]
     c: 'Hayneville, Lowndes County. Wilkins, Klansman, tried for the murder of Viola Liuzzo; the FBI''s informer in the car testifies that he fired the shots. Mistrial: the jury 10–2 to convict. Check the date and the split.'
-    n: 'To check: [[w.may-informant]]. See [[cal.1965-03-07.voting-rights]]. Names: Wilkins, Liuzzo.'
+    n: '[[w.branch-at-canaans-edge]], 218–19. To check: [[w.may-informant]]. See [[cal.1965-03-07.voting-rights]]. Check: Branch, 219, gives May 7, and the jury 10–2 for conviction of manslaughter. Names: Wilkins, Liuzzo.'
+    src:
+      c: 1511765e
+      rows:
+        - 'w.branch-at-canaans-edge 218–19: A-D'
     tags: [name:wilkins-collie-leroy-jr, name:liuzzo-viola]
   - id: cal.1965-05-07.opinion
     when: May 7
@@ -398,6 +405,21 @@ entries:
         - 'https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=598: all'
         - 'w.gibbons-u-s-government-and III, 256: B-C'
     tags: [name:kohler-foy-d, name:gromyko-andrei, name:dobrynin-anatoly, name:johnson-lyndon-b]
+  - id: cal.1965-05-13.desegregation-schools
+    when: May 13
+    date: '1965-05-13'
+    thread: desegregation-schools
+    also: [georgia]
+    c: 'Johnson and Carl Sanders by telephone, 8:35 p.m., on the Office of Education''s terms for desegregating the schools. Sanders: the districts in Wallace''s camp are "screaming and hollering revolution and defiance"; moderates can mix the classes in stages but not the teachers: "I couldn''t do that with a shotgun." Johnson: "my heart bleeds for you." May 18, Sanders again: "I''m just asking for mercy."'
+    n: '[Johnson and Sanders, 8:35 p.m.](https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-carl-sanders-and-lady-bird-johnson-may-14-1965), Conversation WH6505-11-7656 (Miller Center). [[w.branch-at-canaans-edge]], 229–30 (the words). Names: Johnson, Sanders, Wallace.'
+    src:
+      c: aa3914bb
+      rows:
+        - 'https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-carl-sanders-and-lady-bird-johnson-may-14-1965: A'
+        - 'w.branch-at-canaans-edge 229–30: all'
+        - 'via w.branch-at-canaans-edge 229 n.screaming-and-hollering: A-B'
+        - 'via w.branch-at-canaans-edge 230 n.ive-got-my: C'
+    tags: [name:johnson-lyndon-b, name:sanders-carl-e, name:wallace-george-c, state:ga]
   - id: cal.1965-05-14.vietnam
     when: May 14
     date: '1965-05-14'
@@ -460,11 +482,12 @@ entries:
     thread: students
     also: [vietnam]
     c: The National Teach-In on Vietnam, Sheraton-Park Hotel, Washington, by the Inter-University Committee for Debate on Foreign Policy; carried by telephone to some 100 campuses. Bundy, to have spoken for the administration, sent to the Dominican Republic; his statement read. Check the count.
-    n: '[[w.gibbons-u-s-government-and]], III, 270–72 (the teach-in, some 5,000 there, more than 100 campuses by radio and television; Bundy sent to the Dominican Republic). To check: [[w.menashe-teach-ins]]; [[w.wells-war-within]]; [[w.debenedetti-american-ordeal]]; [[w.zaroulis-who-spoke-up]]; [[w.bird-color-of-truth]]. See [[cal.1964-12-02.states-and-cities]]. Check: Gibbons, III, 270, has it organized by the Inter-University Committee for a Public Hearing on Vietnam. Names: Bundy.'
+    n: '[[w.gibbons-u-s-government-and]], III, 270–72 (the teach-in, some 5,000 there, more than 100 campuses by radio and television; Bundy sent to the Dominican Republic); [[w.branch-at-canaans-edge]], 221–22. To check: [[w.menashe-teach-ins]]; [[w.wells-war-within]]; [[w.debenedetti-american-ordeal]]; [[w.zaroulis-who-spoke-up]]; [[w.bird-color-of-truth]]. See [[cal.1964-12-02.states-and-cities]]. Check: Gibbons, III, 270, has it organized by the Inter-University Committee for a Public Hearing on Vietnam. Names: Bundy.'
     src:
       c: 4d9ec101
       rows:
         - 'w.gibbons-u-s-government-and III, 270–72: A-C'
+        - 'w.branch-at-canaans-edge 221–22: A-C'
     tags: [name:bundy-mcgeorge]
   - id: cal.1965-05-15.latin-america
     when: May 15
@@ -625,6 +648,18 @@ entries:
         - 'w.gibbons-u-s-government-and III, 256–258: all'
         - 'w.ball-past-has-another-pattern 404: A-B'
     tags: [name:johnson-lyndon-b]
+  - id: cal.1965-05-19.king
+    when: May 19
+    date: '1965-05-19'
+    thread: king
+    c: 'Archibald Carey of Chicago, for King, to DeLoach at the FBI, to head off a press attack rumored for the end of the month. DeLoach: the FBI "had plenty to do without being responsible for a discrediting campaign against Reverend King." Hoover: "well handled"; he authorizes giving the FBI''s bugging and wiretap information on King to UPI''s chief Southern correspondent.'
+    n: '[[w.branch-at-canaans-edge]], 225 (by DeLoach''s report). To check: DeLoach to Mohr, May 19, 1965, FBI file 77-59135-30 (cited by [[w.branch-at-canaans-edge]], 225); [[w.garrow-fbi-and-martin-luther]], 170, 275 (cited by [[w.branch-at-canaans-edge]], 225). Made public: Check (the Church Committee''s *Supplementary Detailed Staff Reports*, 1976, 171, 175, cited by Branch). See [[cal.1965-03-08.king]]. Names: DeLoach, Martin Luther King, Hoover.'
+    src:
+      c: f68eb24e
+      rows:
+        - 'w.branch-at-canaans-edge 225: all'
+        - 'via w.branch-at-canaans-edge 225 n.i-interrupted-dr: A-B'
+    tags: [name:deloach-cartha, name:king-martin-luther-jr, name:hoover-j-edgar]
   - id: cal.1965-05-20.vietnam-operations
     when: May 20
     date: '1965-05-20'
@@ -641,7 +676,11 @@ entries:
     thread: students
     also: [vietnam]
     c: 'Vietnam Day, Berkeley: some 35 hours of speeches against the war on the campus. The Vietnam Day Committee formed. Check the crowd.'
-    n: 'To check: [[w.rorabaugh-berkeley-at-war]]; [[w.wells-war-within]]. See [[cal.1965-05-15.students]].'
+    n: '[[w.branch-at-canaans-edge]], 222–24. To check: [[w.rorabaugh-berkeley-at-war]]; [[w.wells-war-within]]. See [[cal.1965-05-15.students]]. Check: Branch gives "nearly thirty-four continuous hours" (222) and the *Times*''s headline, "33-Hour Teach-In Attracts 10,000" (224).'
+    src:
+      c: b4b0a1bd
+      rows:
+        - 'w.branch-at-canaans-edge 222–24: A'
   - id: cal.1965-05-21.latin-america
     when: May 21
     date: '1965-05-21'
@@ -699,7 +738,17 @@ entries:
     date: '1965-05-25'
     thread: voting-rights
     c: Senate invokes cloture on the voting rights bill, [70–30](https://voteview.com/rollcall/RS0890067). May 26, the Mansfield–Dirksen substitute adopted, [78–18](https://voteview.com/rollcall/RS0890077); the bill passed, [77–19](https://voteview.com/rollcall/RS0890078).
-    n: '[111 Cong. Rec., Senate, May 25, 1965](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt9/pdf/GPO-CRECB-1965-pt9-1-1.pdf); [May 26, 1965](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt9/pdf/GPO-CRECB-1965-pt9-2-2.pdf). Statement by the President Following Passage by the Senate of the Voting Rights Bill, [1965 Pub. Papers 581](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=657) (May 26, 1965). Voting Rights Act of 1965 (K–J Cong. II.J.2). See [[cal.1965-05-11.voting-rights]]. Names: Mansfield, Dirksen.'
+    n: '[111 Cong. Rec., Senate, May 25, 1965](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt9/pdf/GPO-CRECB-1965-pt9-1-1.pdf); [May 26, 1965](https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt9/pdf/GPO-CRECB-1965-pt9-2-2.pdf). Statement by the President Following Passage by the Senate of the Voting Rights Bill, [1965 Pub. Papers 581](https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=657) (May 26, 1965). Voting Rights Act of 1965 (K–J Cong. II.J.2). [[w.branch-at-canaans-edge]], 226–28. See [[cal.1965-05-11.voting-rights]]. Names: Mansfield, Dirksen.'
+    src:
+      c: 87469b75
+      rows:
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt9/pdf/GPO-CRECB-1965-pt9-1-1.pdf: all'
+        - 'https://www.govinfo.gov/content/pkg/GPO-CRECB-1965-pt9/pdf/GPO-CRECB-1965-pt9-2-2.pdf: all'
+        - 'https://www.govinfo.gov/content/pkg/PPP-1965-book1/pdf/PPP-1965-book1.pdf#page=657: all'
+        - 'https://voteview.com/rollcall/RS0890067: A'
+        - 'https://voteview.com/rollcall/RS0890077: B'
+        - 'https://voteview.com/rollcall/RS0890078: C'
+        - 'w.branch-at-canaans-edge 226–28: A, C'
     tags: [name:mansfield-mike, name:dirksen-everett, name:johnson-lyndon-b]
   - id: cal.1965-05.mayors-omaha
     when: May
@@ -727,6 +776,42 @@ entries:
     c: Bundy home from Santo Domingo; no agreement on Guzmán.
     n: 'FRUS 1964–68, XXXII, docs. [95](https://history.state.gov/historicaldocuments/frus1964-68v32/d95), [97](https://history.state.gov/historicaldocuments/frus1964-68v32/d97). See [[cal.1965-05-15.latin-america]]. Names: Bundy, Guzmán-Fernández.'
     tags: [name:bundy-mcgeorge, name:guzman-fernandez-silvestre-antonio]
+  - id: cal.1965-05-26.republican-party-congress
+    when: May 26
+    date: '1965-05-26'
+    thread: republican-party-congress
+    also: [press-and-broadcasting]
+    c: 'Tower asks a federal investigation of boxing after the Ali-Liston fight at Lewiston, Me., the "nadir": "use of citizen-owned television airways keeps boxing alive in its present highly questionable form." The same day, one of two Republicans against the voting rights bill.'
+    n: '[[w.branch-at-canaans-edge]], 227. See [[cal.1965-05-25.voting-rights]]. Names: Tower.'
+    src:
+      c: fa1b161b
+      rows:
+        - 'w.branch-at-canaans-edge 227: all'
+    tags: [name:tower-john-g]
+  - id: cal.1965-05-26.voting-rights
+    when: May 26
+    date: '1965-05-26'
+    thread: voting-rights
+    also: [republican-party-congress]
+    c: 'Thurmond, before voting against the voting rights bill: the Senate the "final resting place of the Constitution and the rule of law, for it is here that they will have been buried with shovels of emotion under piles of expediency, in the year of our Lord, 1965."'
+    n: '[[w.branch-at-canaans-edge]], 227. See [[cal.1965-05-25.voting-rights]]. Names: Thurmond.'
+    src:
+      c: 93109ed1
+      rows:
+        - 'w.branch-at-canaans-edge 227: all'
+    tags: [name:thurmond-strom]
+  - id: cal.1965-05-27.desegregation-schools
+    when: May 27
+    date: '1965-05-27'
+    thread: desegregation-schools
+    also: [states-and-cities]
+    c: Chicago. The Board of Education, three of Daley's appointees changing their votes, extends Benjamin Willis's contract as superintendent. The NAACP's leaders call that night for a five-day boycott of the schools.
+    n: '[[w.branch-at-canaans-edge]], 240. To check: [[w.anderson-confronting-the-color-line]], 153–54 (cited by [[w.branch-at-canaans-edge]], 240). Check: the length of the extension; Branch gives four years. Names: Daley, Willis.'
+    src:
+      c: ae633765
+      rows:
+        - 'w.branch-at-canaans-edge 240: all'
+    tags: [name:daley-richard-j, name:willis-benjamin-c, state:il, city:chicago]
   - id: cal.1965-05-29.vietnam-operations
     when: May 29–30
     date: '1965-05-29'
