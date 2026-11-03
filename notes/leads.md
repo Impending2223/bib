@@ -1341,6 +1341,13 @@ Rights in Conflict (Walker Report):
 - The Democratic convention's presidential roll call, Aug. 28, 1968: Chester gives Humphrey 1,760¼ (585). Check: the *Official Proceedings*, not found open (the conventions, above).
 - New York's Senate primary, June 18, 1968 (O'Dwyer): CQ's *Guide* for the count.
 
+### Clifford, *Counsel to the President* (batch 3, Oct. 29, 2026; notes/book-checks/clifford-counsel-to-the-president-2.md)
+- Kennedy's answer to Truman (July 1960, "fourteen years in major elective office"): its day (Clifford, 321; `cal.1960-07.elections-1960-11`).
+- The Symington Committee on the Defense Establishment's report, December 1960 (Clifford, 330).
+- The Blauvelt story, 1962: *Parade*, Sept. 2; *Newsweek*'s piece, at Kennedy's request (Clifford, 371–74).
+- Lady Bird Johnson's memorandum urging Johnson to run in 1964 (Clifford, 394; her diary).
+- Some fifty FRUS papers from or to Clifford as Secretary (1964–68: VI, VII, X, XI, XII, XIX, XX, XXII, XXVIII, XXIX, XXXIII) are in the daybook and in no calendar entry: Hoopes's memorandum of Mar. 14, 1968 (VI, doc. 126), Clifford's of Mar. 15 (VI, doc. 129), Wheeler's of Mar. 20 (VI, doc. 144), Clifford's staff meeting of May 20 (VI, doc. 238), the telephone call of Nov. 23 (VII, doc. 231), the PFIAB papers of 1964 (XXXIII, docs. 188, 200, 201, 207) among them. Under the owner's ruling they are entries; the reading entered only those the book treats.
+
 ## Foreign
 
 - The fourteen points' release by the State Department, Jan. 7, 1966 (*Bulletin*, Feb. 14, 1966, 225): an entry of its
@@ -2311,6 +2318,10 @@ CQ Weekly Report, 1968-08-30:
 
 ### McPherson, *A Political Education* (batch 3, Oct. 29, 2026; notes/book-checks/mcpherson-political-education.md)
 - Panama, Jan. 1964: Fleming's call on the flags, the day; the International Commission of Jurists' hearing of the Army's case (McPherson 216–17, 221–22).
+
+### Clifford, *Counsel to the President* (batch 3, Oct. 29, 2026; notes/book-checks/clifford-counsel-to-the-president-2.md)
+- Bunker's personal message of May 23, 1968, on regression in the hamlets (Clifford, 540): FRUS 1964–68, VI.
+- Kỳ to Bunker, Nov. 6, 1968, two months to settle the format (Clifford, 599; `cal.1968-11-06.vietnam-paris-2`); Bunker's report on Thiệu's objections, Oct. 17, 1968 (578; `cal.1968-10-17.vietnam-paris-2`): the telegrams, FRUS 1964–68, VII.
 
 ## The Executive roster
 
