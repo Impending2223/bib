@@ -321,7 +321,7 @@ note leads to it). `./bib stemma ID [--unit B]` prints each unit's tree to its r
 branches. A witness the series holds: read it; if it bears out its units, cite it first in `n` as the primary record,
 `read: true`. An unread one joins "To check:" with the work it comes from ("To check: Bundy to Johnson, Feb. 7, 1965,
 NSF, LBJ Library (cited by [[w.dallek-flawed-giant]], 251 n.14)."). A work with no notes: say so in the book-check file.
-You write the registry's files directly; one witness's row is one reader's at a time (look again before writing).
+Write your new witnesses to `inbox/witnesses/<your patch name>.yaml` (the same rows; never the year files, which other readers share; check reads them, the merger folds them in), and your work's edges to its by-work file.
 
 **R36. Witnesses.** A witness is anything that bears on a claim: a document, a recording, a
 transcript; a print, edition or translation of any of them; a statement, a press account, a hearing; a study, a

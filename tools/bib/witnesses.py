@@ -22,6 +22,11 @@ A witness:
       copies: [FRUS 1964–68, II, doc. 84]       # a copy the series can read (FRUS, the Papers, a recording, a scan)
       read: false                               # read and cited as an entry's primary record
 
+Readers at work together write their new witnesses to `inbox/witnesses/<patch name>.yaml` (the same rows), never to the
+year files, so no two write one file; check reads them with the registry, and the merger folds them in
+(`python3 -I tools/witnesses/fold.py`: each row to its year's file, a repeated id refused). A work's edges go in its own
+by-work file, which only its reader writes.
+
 STYLE
 1. Every witness met that bears on a claim is registered, however well attested the claim (memo §3, rule 1). A copy of
    one registered (the same text, nothing added) is its `copy`, `print` or `edition` edge: kept, never counted as
@@ -48,6 +53,7 @@ import re
 from . import store
 
 DIR = os.path.join(store.ROOT, "sources", "witnesses")
+PENDING = os.path.join(store.ROOT, "inbox", "witnesses")    # a reader's new witnesses, a file a reader, until folded
 BYWORK = os.path.join(DIR, "by-work")
 KINDS = {"memorandum", "letter", "telegram", "minutes", "notes", "diary", "recording", "transcript", "interview",
          "oral history", "file", "report", "hearing", "speech", "statement", "press", "manuscript", "study", "memoir",
@@ -68,6 +74,10 @@ def files():
     return sorted(glob.glob(os.path.join(DIR, "*.yaml")))
 
 
+def pending_files():
+    return sorted(glob.glob(os.path.join(PENDING, "*.yaml")))
+
+
 def work_files():
     return sorted(glob.glob(os.path.join(BYWORK, "*.yaml")))
 
@@ -79,11 +89,11 @@ def file_for(wid):
 
 def load():
     """(witnesses {id: row}, edges {card: [edge]}, where {id: file}), parsed once a run."""
-    key = tuple((p, os.path.getmtime(p)) for p in files() + work_files())
+    key = tuple((p, os.path.getmtime(p)) for p in files() + pending_files() + work_files())
     if _cache.get("key") == key:
         return _cache["val"]
     rows, where, edges = {}, {}, {}
-    for p in files():
+    for p in files() + pending_files():
         for r in store.load_yaml(p) or []:
             if isinstance(r, dict) and r.get("id"):
                 if r["id"] in rows:
@@ -146,7 +156,7 @@ def problems(series):
         at = f"{where.get(wid)}: {wid}"
         if not ID.match(wid):
             errors.append((at, "id: x.<date or undated>.<slug>, a-z 0-9 -"))
-        elif where.get(wid) != os.path.relpath(file_for(wid), store.ROOT):
+        elif where.get(wid) != os.path.relpath(file_for(wid), store.ROOT) and not where.get(wid, "").startswith("inbox/"):
             errors.append((at, f"filed in {where.get(wid)}, its year's file is {os.path.relpath(file_for(wid), store.ROOT)}"))
         if not r.get("what"):
             errors.append((at, "no `what`"))

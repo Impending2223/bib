@@ -113,7 +113,8 @@ stemma ID` prints each unit's tree to its roots, counting roots and agents, neve
 The unread record joins "To check:" with the work it comes from ("To check: Bundy to Johnson, Feb. 7, 1965, NSF, LBJ
 Library (cited by [[w.dallek-flawed-giant]], 251 n.14)."). Converted Nov. 3, 2026 from `sources/cited-records/` (the
 rule of Oct. 28, now on the shelf: `tools/witnesses/convert_records.py`, once); witnesses that are one FRUS document
-joined by `tools/witnesses/join_frus.py` (rerunnable); the near matches left for a reader, `notes/witnesses-near-matches.md`.
+joined by `tools/witnesses/join_frus.py` (rerunnable); the near matches left for a reader, `notes/witnesses-near-matches.md`. Readers at work together write new
+witnesses to `inbox/witnesses/<patch>.yaml`, never the shared year files; the merger folds them in (`tools/witnesses/fold.py`).
 
 Calendar entries on the States and the cities take hidden `state:<postal code>` and `city:<slug>` tags (`state:ny`,
 `city:nyc`) and the threads in `notes/threads.md` ("The States and the cities").
