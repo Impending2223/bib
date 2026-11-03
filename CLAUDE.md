@@ -1846,6 +1846,15 @@ list's own blocks), or a link to an anchor inside one (the page's `lzmap` names 
 curls the page; `./bib links` reads each page with its month files. Opened as files (not through a server), the blocks
 stay empty.
 
+The day's order (the owner's ruling, Oct. 29, 2026: "Alphabetic sort, first by the name of the entry's (primary)
+thread, then by the text of the entry"): at build, the day's entries and the month's undated block by the primary
+thread's key in the thread index (th.yaml's `sort:`; a subthread under its parent), then `c` as plain text, both folded;
+no file is reordered, so where an entry sits in its month's file no longer matters. Optional, hidden: `follows: [<id>]`
+(the entry follows those named, the same day; a topological sort, the alphabetical key breaking ties; its basis in the
+note), `time:` (a UTC instant, '1961-10-17T00:30Z', the local time turned by the place's IANA zone; checked, not yet
+shown) and `time_approx: true` (the source's time is loose: "that evening", "about 7"); never a made-up hour. STYLE and
+check [day-order]: `tools/bib/dayorder.py`.
+
 ```
 tools/daybook/make_daybook.py   writes daybook/<YYYY-MM>.yaml (needs the network; the build does not)
 tools/daybook/make_recordings.py  writes daybook/recordings/<YYYY-MM>.yaml from PRDE's catalogue (needs the network)
@@ -2061,7 +2070,7 @@ on "merge my edits": the Ready edits read from the store (ArtifactData list, `ed
 `inbox/<date>-owner-desk.yaml` by `tools/desk/bridge.py patch`, merged (`./bib merge --auto`), checked, their outcomes
 written back (`bridge.py after`: merged, or needs-you with the series' text and the reason), and the desk's data
 republished so the next base is current (the steps: its docstring). A conflict keeps the series' text and hands the
-owner's back; nothing of his is dropped.
+owner's back; nothing of the owner's is dropped.
 
 ## Working hours
 

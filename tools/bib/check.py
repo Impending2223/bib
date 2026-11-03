@@ -205,6 +205,10 @@ def run(series, only=None):
                             add(WARN, e["id"], f"*{m.group(1)}* cited as {plain(tail)[a:b]} but found in {', '.join(where[:3])}", "cited-section")
                         break
 
+    # the day's order and the time of day (tools/bib/dayorder.py)
+    from . import dayorder
+    for where, msg in dayorder.problems(series):
+        add(ERROR, where, msg, "day-order")
     # the works catalogue (works/*.yaml)
     from . import works
     for level, where, msg in works.problems(series):
