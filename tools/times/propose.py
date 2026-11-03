@@ -10,6 +10,9 @@ The mechanical tier (no agents), for each calendar entry dated to a day:
         Washington's unless confirmed (the daybook keeps the TEI stamp's clock as written, not its offset: re-read
         the stamp, `frus:doc-dateTime-min`, before taking one): a cable's time is its sending, a memorandum of conversation the meeting's, so
         the proposal holds only where the entry is the meeting or the paper
+  ppp   an item of the Public Papers the note cites (its link, `PPP-1961-book1.pdf#page=59`), the hour its NOTE or the
+        editors' bracketed note gives ("The President spoke at 7:40 p.m. in the Pan Pacific Auditorium in Los Angeles"),
+        where the item is the entry's day and the sentence names no other day; the zone by the sentence's place
   text  an hour the entry's own `c` names ("at 12:30 p.m.", "noon"); Washington's zone unless the entry names a place
         this file knows (ZONES), else `zone_check: true`
 
@@ -19,7 +22,7 @@ STYLE
    basis (the cite), zone_check where the zone is a guess. Several for an entry: all kept, the reviewer picks.
 2. The reviewer moves a proposal into the entry (`time`, `time_approx`) by patch, the source in the note. The file is
    regenerated; never edited by hand.
-3. Not yet: the Public Papers' hours (the items' notes, "at 4 p.m."), the Congress's hours (the Daily Digest), the war's
+3. Not yet: the Congress's hours (the Daily Digest), the war's
    date-time groups, launches and tests, the Security Council (the hand-off's tiers 2-4).
 """
 import datetime
@@ -40,7 +43,10 @@ ZONES = [  # a place the entry names -> its zone (first match in `c`)
     (r"\bHanoi\b|North Vietnam|Haiphong", "Asia/Bangkok"),                         # +7
     (r"\bMoscow\b|\bKremlin\b", "Europe/Moscow"),
     (r"\bBerlin\b", "Europe/Berlin"), (r"\bParis\b", "Europe/Paris"), (r"\bLondon\b", "Europe/London"),
-    (r"\bHavana\b", "America/Havana"), (r"\bVienna\b", "Europe/Vienna"), (r"\bGeneva\b", "Europe/Zurich"),
+    (r"\bHavana\b", "America/Havana"), (r"Puerto Ric|San Juan", "America/Puerto_Rico"),
+    (r"\bRio de Janeiro\b|\bBras[ií]lia\b|S[aã]o Paulo", "America/Sao_Paulo"), (r"\bMexico City\b", "America/Mexico_City"),
+    (r"\bBonn\b|\bFrankfurt\b|\bCologne\b", "Europe/Berlin"), (r"\bRome\b", "Europe/Rome"), (r"\bDublin\b|Ireland", "Europe/Dublin"),
+    (r"\bSeoul\b", "Asia/Seoul"), (r"\bBangkok\b", "Asia/Bangkok"), (r"\bCanberra\b|\bMelbourne\b", "Australia/Sydney"), (r"\bVienna\b", "Europe/Vienna"), (r"\bGeneva\b", "Europe/Zurich"),
     (r"\bTokyo\b", "Asia/Tokyo"), (r"\bManila\b", "Asia/Manila"), (r"\bHonolulu\b", "Pacific/Honolulu"),
     (r"\bDallas\b|\bAustin\b|\bJohnson City\b|LBJ Ranch|\bthe Ranch\b|\bHouston\b|\bChicago\b|\bMemphis\b|\bSelma\b|"
      r"\bMontgomery\b|\bBirmingham\b|\bOxford, Miss|\bJackson, Miss|\bNew Orleans\b", "America/Chicago"),
@@ -86,10 +92,40 @@ def load_daybook():
     return frus, prde, mc
 
 
+PPP_AT = re.compile(r"[^.]*?\bat (about )?(\d{1,2})(?::(\d{2}))? (a\.m\.|p\.m\.)[^.]*\.")
+MONTHS = r"(January|February|March|April|May|June|July|August|September|October|November|December) \d{1,2}"
+
+
+def load_ppp():
+    """{package: [(pdf, pdf_to, date, sentence, approx, hh)]}: the items whose notes give an hour."""
+    import json
+    import lzma
+    out = {}
+    for f in glob.glob(os.path.join(ROOT, "sources", "ppp-text", "PPP-*.json.xz")):
+        d = json.load(lzma.open(f))
+        rows = out.setdefault(d["package"], [])
+        for it in d["items"]:
+            for kind, t in it.get("text") or []:
+                if kind not in ("n", "e"):
+                    continue
+                m = PPP_AT.search(t)
+                if not m:
+                    continue
+                h, mi = int(m.group(2)), int(m.group(3) or 0)
+                if h > 12 or mi > 59:
+                    break
+                h = (h % 12) + (12 if m.group(4) == "p.m." else 0)
+                rows.append((it.get("pdf"), it.get("pdf_to") or it.get("pdf"), it.get("date"), m.group(0).strip(),
+                             bool(m.group(1)), f"{h:02d}:{mi:02d}", it.get("page")))
+                break
+    return out
+
+
 def main():
     s = store.Series(ROOT)
     frus, prde, mc = load_daybook()
-    out, counts = [], {"rec": 0, "frus": 0, "text": 0}
+    ppp = load_ppp()
+    out, counts = [], {"rec": 0, "frus": 0, "ppp": 0, "text": 0}
     for _, e in s.lists["cal"].entries():
         day = str(e.get("date", ""))
         if len(day) != 10 or e.get("time"):
@@ -112,6 +148,12 @@ def main():
             if r and str(r.get("date")) == day:
                 z = zone_of(c) or DC
                 props.append(("frus", str(r["time"]), z, False, f"{r.get('cite')}: {r.get('title', '')[:90]}", True))
+        for pkg, page in re.findall(r"(PPP-\d{4}-book\d)\.pdf#page=(\d+)", n):
+            for lo, hi, idate, sent, approx, hh, ppage in ppp.get(pkg, []):
+                if lo and lo <= int(page) <= (hi or lo) and str(idate) == day and not re.search(MONTHS, sent):
+                    z = zone_of(sent)
+                    props.append(("ppp", hh, z or DC, approx, f"{pkg}, p. {ppage}: {sent[:140]}", z is None))
+                    break
         for m in HOUR.finditer(c):
             approx = bool(m.group(1) or m.group(5))
             if m.group(6):

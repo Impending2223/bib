@@ -43,10 +43,16 @@ proposals:
     source: frus
     basis: 'FRUS 1958–60, VI, doc. 454: Memorandum of a Conference With the President, White House, Washington, February 17, 1960,'
     zone_check: true
+  - id: cal.1960-02-22.conservation
+    local: '12:07'
+    zone: America/Puerto_Rico
+    time: 1960-02-22T16:07Z
+    source: ppp
+    basis: 'PPP-1960-book1, p. 207: NOTE: The President spoke at 12:07 p.m. He was met by Governor Luis Munoz Marin and other members of the Puerto Rican Government.'
   - id: cal.1960-02-23.latin-america
     local: 06:30
-    zone: America/New_York
-    time: 1960-02-23T11:30Z
+    zone: America/Sao_Paulo
+    time: 1960-02-23T09:30Z
     source: frus
     basis: 'FRUS 1958–60, V, doc. 282: Memorandum of a Conversation, Presidential Palace, Brasilia, February 23, 1960, 8:30–10:30'
     zone_check: true
@@ -56,6 +62,13 @@ proposals:
     time: 1960-02-29T22:00Z
     source: text
     basis: 'the entry''s text: ''5 p.m.'''
+    zone_check: true
+  - id: cal.1960-03-02.latin-america-trip
+    local: '18:05'
+    zone: America/New_York
+    time: 1960-03-02T23:05Z
+    source: ppp
+    basis: 'PPP-1960-book1, p. 267: NOTE: The President spoke at 6:05 p.m. at the Legislative Palace.'
     zone_check: true
   - id: cal.1960-03-08.cuba
     local: '19:00'
@@ -150,15 +163,15 @@ proposals:
     zone_check: true
   - id: cal.1960-04-19.japan-and-korea-rhee
     local: '12:55'
-    zone: America/New_York
-    time: 1960-04-19T17:55Z
+    zone: Asia/Seoul
+    time: 1960-04-19T04:25Z
     source: frus
     basis: 'FRUS 1958–60, XVIII, doc. 301: Memorandum of Telephone Conversation Between President Eisenhower and Secretary of State H'
     zone_check: true
   - id: cal.1960-04-19.japan-and-korea-rhee
     local: '17:14'
-    zone: America/New_York
-    time: 1960-04-19T22:14Z
+    zone: Asia/Seoul
+    time: 1960-04-19T08:44Z
     source: frus
     basis: 'FRUS 1958–60, XVIII, doc. 302: Telegram From the Department of State to the Embassy in Korea'
     zone_check: true
@@ -171,8 +184,8 @@ proposals:
     zone_check: true
   - id: cal.1960-04-26.japan-and-korea
     local: 05:30
-    zone: America/New_York
-    time: 1960-04-26T09:30Z
+    zone: Asia/Seoul
+    time: 1960-04-25T21:00Z
     source: frus
     basis: 'FRUS 1958–60, XVIII, doc. 308: Telegram From the Embassy in Korea to the Department of State'
     zone_check: true
@@ -203,10 +216,17 @@ proposals:
     source: frus
     basis: 'FRUS 1958–60, XIX, doc. 337: Memorandum of Conversation'
     zone_check: true
+  - id: cal.1960-06-18.japan-and-korea-far-east
+    local: '20:30'
+    zone: America/New_York
+    time: 1960-06-19T00:30Z
+    source: ppp
+    basis: 'PPP-1960-book1, p. 508: NOTE: The President proposed the toast at 8:30 p.m. at a state banquet in the Presidential Office Building.'
+    zone_check: true
   - id: cal.1960-06-19.japan-and-korea-far-east
     local: '23:40'
-    zone: America/New_York
-    time: 1960-06-20T03:40Z
+    zone: Asia/Seoul
+    time: 1960-06-19T14:10Z
     source: frus
     basis: 'FRUS 1958–60, XVIII, doc. 323: Memorandum of Conversation'
     zone_check: true
@@ -273,6 +293,12 @@ proposals:
     source: frus
     basis: 'FRUS 1958–60, XVIII, doc. 192: Telegram From the Embassy in Japan to the Department of State'
     zone_check: true
+  - id: cal.1960-07-26.elections-1960
+    local: '21:42'
+    zone: America/Chicago
+    time: 1960-07-27T02:42Z
+    source: ppp
+    basis: 'PPP-1960-book1, p. 589: NOTE: The President spoke at 9:42 p.m. at the Union Stockyards Amphitheater in Chicago.'
   - id: cal.1960-08-16.latin-america
     local: '17:00'
     zone: America/New_York
@@ -301,6 +327,13 @@ proposals:
     source: frus
     basis: 'FRUS 1958–60, XIV, doc. 199: Memorandum of Discussion at the 458th Meeting of the National Security Council'
     zone_check: true
+  - id: cal.1960-09-08.space
+    local: '10:35'
+    zone: America/New_York
+    time: 1960-09-08T14:35Z
+    source: ppp
+    basis: 'PPP-1960-book1, p. 689: NOTE: The President spoke at 10:35 a.m. in the Administration Building.'
+    zone_check: true
   - id: cal.1960-09-10.laos
     local: '11:00'
     zone: America/New_York
@@ -322,6 +355,13 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, XXIII, doc. 24: Telegram From the Central Intelligence Agency to the Station in the Congo'
     zone_check: true
+  - id: cal.1960-09-22.soviet-union
+    local: '11:12'
+    zone: America/New_York
+    time: 1960-09-22T15:12Z
+    source: ppp
+    basis: 'PPP-1960-book1, p. 707: NOTE: The President spoke at 11:12 a.m. His opening words “Mr.'
+    zone_check: true
   - id: cal.1960-09-26.middle-east
     local: '15:30'
     zone: America/New_York
@@ -336,6 +376,12 @@ proposals:
     source: text
     basis: 'the entry''s text: ''7:30 a.m.'''
     zone_check: true
+  - id: cal.1960-09-27.japan-and-korea
+    local: '22:04'
+    zone: America/New_York
+    time: 1960-09-28T02:04Z
+    source: ppp
+    basis: 'PPP-1960-book1, p. 733: NOTE: The President proposed the toast at 10:04 p.m. at a state dinner at the White House.'
   - id: cal.1960-10-02.soviet-union-un
     local: 08:30
     zone: America/New_York
@@ -371,6 +417,13 @@ proposals:
     source: frus
     basis: 'FRUS 1958–60, I, doc. 203: Telegram From the Ambassador in Vietnam (Durbrow) to the Department of State'
     zone_check: true
+  - id: cal.1960-10-17.elections-1960
+    local: '21:30'
+    zone: America/New_York
+    time: 1960-10-18T01:30Z
+    source: ppp
+    basis: 'PPP-1960-book1, p. 769: NOTE: The President spoke at 9:30 p.m. in Cobo Hall in Detroit.'
+    zone_check: true
   - id: cal.1960-10-20.economy-2
     local: 09:00
     zone: America/New_York
@@ -378,6 +431,19 @@ proposals:
     source: frus
     basis: 'FRUS 1958–60, IX, doc. 262: Telegram From the Embassy in Germany to the Department of State'
     zone_check: true
+  - id: cal.1960-10-28.elections-1960
+    local: '20:30'
+    zone: America/New_York
+    time: 1960-10-29T00:30Z
+    source: ppp
+    basis: 'PPP-1960-book1, p. 815: NOTE: The President spoke at 8:30 p.m. at the Bellevue Stratford Hotel in Philadelphia.'
+    zone_check: true
+  - id: cal.1960-11-07.elections-1960
+    local: '22:30'
+    zone: America/New_York
+    time: 1960-11-08T03:30Z
+    source: ppp
+    basis: 'PPP-1960-book1, p. 852: NOTE: The President spoke at 10:30 p.m. at a studio of the Columbia Broadcasting System in Washington.'
   - id: cal.1960-11-09.elections-1960
     local: 03:20
     zone: America/Los_Angeles
@@ -476,6 +542,24 @@ proposals:
     source: frus
     basis: 'FRUS 1961–63, X, doc. 7: Telegram From the Department of State to the Embassy in Cuba'
     zone_check: true
+  - id: cal.1961-01-20.soviet-union
+    local: '12:52'
+    zone: America/New_York
+    time: 1961-01-20T17:52Z
+    source: ppp
+    basis: 'PPP-1961-book1, p. 1: NOTE: The President spoke at 12:52 p.m. from a platform erected at the east front of the Capitol.'
+  - id: cal.1961-01-20.transition-and-staff
+    local: '12:52'
+    zone: America/New_York
+    time: 1961-01-20T17:52Z
+    source: ppp
+    basis: 'PPP-1961-book1, p. 1: NOTE: The President spoke at 12:52 p.m. from a platform erected at the east front of the Capitol.'
+  - id: cal.1961-01-21.governors-ct
+    local: '13:19'
+    zone: America/New_York
+    time: 1961-01-21T18:19Z
+    source: ppp
+    basis: 'PPP-1961-book1, p. 4: NOTE: The President spoke at 1:19 p.m. in the East Room at the Mayflower Hotel in Washington.'
   - id: cal.1961-01-22.cuba
     local: '10:00'
     zone: America/New_York
@@ -537,6 +621,18 @@ proposals:
     source: frus
     basis: 'FRUS 1961–63, I, doc. 16: Telegram From the Department of State to the Embassy in Vietnam'
     zone_check: true
+  - id: cal.1961-03-08.africa
+    local: '16:00'
+    zone: America/New_York
+    time: 1961-03-08T21:00Z
+    source: ppp
+    basis: 'PPP-1961-book1, p. 160: NOTE: The President greeted President Nkrumah at 4 p.m. at the Washington National Airport.'
+  - id: cal.1961-03-08.africa
+    local: '17:45'
+    zone: America/New_York
+    time: 1961-03-08T22:45Z
+    source: ppp
+    basis: 'PPP-1961-book1, p. 160: NOTE: The President spoke at 5:45 p.m. in the Fish Room at the White House.'
   - id: cal.1961-03-09.laos
     local: '15:30'
     zone: Asia/Bangkok
@@ -593,6 +689,13 @@ proposals:
     time: 1961-04-13T15:30Z
     source: frus
     basis: 'FRUS 1961–63, XIII, doc. 4: Memorandum of Conversation'
+    zone_check: true
+  - id: cal.1961-04-14.latin-america
+    local: '11:10'
+    zone: America/New_York
+    time: 1961-04-14T16:10Z
+    source: ppp
+    basis: 'PPP-1961-book1, p. 276: NOTE: The President spoke at 11:10 a.m. at the Pan American Union Building.'
     zone_check: true
   - id: cal.1961-04-16.cuba
     local: '21:30'
@@ -709,6 +812,13 @@ proposals:
     source: frus
     basis: 'FRUS 1961–63, XXIV, doc. 65: Telegram From the Department of State to Secretary of State Rusk, at Ankara'
     zone_check: true
+  - id: cal.1961-04-28.democratic-party
+    local: '16:00'
+    zone: America/New_York
+    time: 1961-04-28T21:00Z
+    source: ppp
+    basis: 'PPP-1961-book1, p. 338: NOTE: The President’s remarks were broadcast at 4 p.m. on the two Conelrad channels while all commercial TV and radio stations were silent.'
+    zone_check: true
   - id: cal.1961-04-29.laos
     local: 08:05
     zone: Asia/Ho_Chi_Minh
@@ -744,33 +854,54 @@ proposals:
     source: text
     basis: 'the entry''s text: ''8 a.m.'''
     zone_check: true
+  - id: cal.1961-05-16.european-community
+    local: '16:56'
+    zone: America/New_York
+    time: 1961-05-16T20:56Z
+    source: ppp
+    basis: 'PPP-1961-book1, p. 380: NOTE: The President spoke at 4:56 p.m. In his opening words he referred to Governor General George P.'
+    zone_check: true
   - id: cal.1961-05-16.japan-and-korea
     local: 04:15
-    zone: America/New_York
-    time: 1961-05-16T08:15Z
+    zone: Asia/Seoul
+    time: 1961-05-15T19:45Z
     source: frus
     basis: 'FRUS 1961–63, XXII, doc. 213: Telegram From the Commander in Chief, U.S. Forces Korea (Magruder) to the Joint Chiefs of '
     zone_check: true
   - id: cal.1961-05-16.japan-and-korea
     local: '18:52'
-    zone: America/New_York
-    time: 1961-05-16T22:52Z
+    zone: Asia/Seoul
+    time: 1961-05-16T10:22Z
     source: frus
     basis: 'FRUS 1961–63, XXII, doc. 215: Telegram From the Department of State to Secretary of State Rusk at Geneva'
     zone_check: true
   - id: cal.1961-05-16.japan-and-korea
     local: '21:45'
-    zone: America/New_York
-    time: 1961-05-17T01:45Z
+    zone: Asia/Seoul
+    time: 1961-05-16T13:15Z
     source: frus
     basis: 'FRUS 1961–63, XXII, doc. 216: Telegram From the Department of State to the Embassy in Korea'
     zone_check: true
   - id: cal.1961-05-16.japan-and-korea
     local: '22:10'
-    zone: America/New_York
-    time: 1961-05-17T02:10Z
+    zone: Asia/Seoul
+    time: 1961-05-16T13:40Z
     source: frus
     basis: 'FRUS 1961–63, XXII, doc. 218: Telegram From the Commander in Chief, United Nations Command (Magruder) to the Chairman of'
+    zone_check: true
+  - id: cal.1961-05-16.transition-and-staff
+    local: '16:56'
+    zone: America/New_York
+    time: 1961-05-16T20:56Z
+    source: ppp
+    basis: 'PPP-1961-book1, p. 380: NOTE: The President spoke at 4:56 p.m. In his opening words he referred to Governor General George P.'
+    zone_check: true
+  - id: cal.1961-05-17.europe-and-the-alliance
+    local: 09:20
+    zone: America/New_York
+    time: 1961-05-17T13:20Z
+    source: ppp
+    basis: 'PPP-1961-book1, p. 382: NOTE: The President spoke at 9:20 a.m. In his opening words he referred to Livingston T.'
     zone_check: true
   - id: cal.1961-05-30.middle-east
     local: '15:45'
@@ -888,6 +1019,13 @@ proposals:
     source: text
     basis: 'the entry''s text: ''11 a.m.'''
     zone_check: true
+  - id: cal.1961-09-05.testing
+    local: '13:00'
+    zone: America/New_York
+    time: 1961-09-05T17:00Z
+    source: ppp
+    basis: 'PPP-1961-book1, p. 589: Kennedy announced that the United States conducted an underground nuclear weapons development test of low yield at the Nevada Test Site at 1'
+    zone_check: true
   - id: cal.1961-09-15.europe-and-the-alliance
     local: '13:00'
     zone: America/New_York
@@ -908,6 +1046,13 @@ proposals:
     time: 1961-09-19T00:00Z
     source: frus
     basis: 'FRUS 1961–63, XX, doc. 118: Telegram From the Mission to the United Nations to the Department of State'
+    zone_check: true
+  - id: cal.1961-09-25.testing
+    local: '11:30'
+    zone: America/New_York
+    time: 1961-09-25T15:30Z
+    source: ppp
+    basis: 'PPP-1961-book1, p. 618: NOTE: The President spoke at 11:30 a.m. His opening words “Mr.'
     zone_check: true
   - id: cal.1961-09-30.vietnam
     local: '21:00'
@@ -1012,6 +1157,13 @@ proposals:
     source: text
     basis: 'the entry''s text: ''5 p.m.'''
     zone_check: true
+  - id: cal.1961-11-25.berlin-and-vienna
+    local: '10:20'
+    zone: America/New_York
+    time: 1961-11-25T15:20Z
+    source: ppp
+    basis: 'PPP-1961-book1, p. 741: , beginning at 10:20 a.m. Present during the interview were: Alex Akalovsky, interpreter for the President; Georgi Bolshikov, interpreter fo'
+    zone_check: true
   - id: cal.1961-12-21.congo
     local: '17:02'
     zone: America/New_York
@@ -1089,6 +1241,12 @@ proposals:
     source: frus
     basis: 'FRUS 1961–63, XXIII, doc. 232: Telegram From the Embassy in Indonesia to the Department of State'
     zone_check: true
+  - id: cal.1962-02-20.space
+    local: '15:27'
+    zone: America/New_York
+    time: 1962-02-20T20:27Z
+    source: ppp
+    basis: 'PPP-1962-book1, p. 150: NOTE: The President spoke at 3:27 p.m. on the South Lawn at the White House.'
   - id: cal.1962-02-21.laos
     local: 09:30
     zone: Asia/Ho_Chi_Minh
@@ -1150,6 +1308,13 @@ proposals:
     time: 1962-04-10T22:45Z
     source: text
     basis: 'the entry''s text: ''5:45 p.m.'''
+  - id: cal.1962-04-30.economy
+    local: 09:40
+    zone: America/New_York
+    time: 1962-04-30T13:40Z
+    source: ppp
+    basis: 'PPP-1962-book1, p. 348: NOTE: The President spoke at 9:40 a.m. in Constitution Hall.'
+    zone_check: true
   - id: cal.1962-05-01.vietnam-2
     local: '10:00'
     zone: Asia/Ho_Chi_Minh
@@ -1203,6 +1368,38 @@ proposals:
     time: 1962-05-12T08:30Z
     source: text
     basis: 'the entry''s text: ''4:30 p.m.'''
+  - id: cal.1962-05-19.democratic-party
+    local: '23:30'
+    zone: America/New_York
+    time: 1962-05-20T03:30Z
+    source: ppp
+    basis: 'PPP-1962-book1, p. 414: NOTE: The President spoke at 11:30 p.m. at Madison Square Garden in New York City.'
+  - id: cal.1962-06-05.europe-and-the-alliance
+    local: '10:00'
+    zone: America/New_York
+    time: 1962-06-05T14:00Z
+    source: ppp
+    basis: 'PPP-1962-book1, p. 450: NOTE: The President spoke at 10 a.m. in the Fish Room at the White House.'
+  - id: cal.1962-06-07.economy
+    local: 09:45
+    zone: America/New_York
+    time: 1962-06-07T13:45Z
+    source: ppp
+    basis: 'PPP-1962-book1, p. 456: NOTE: The presentation ceremony was held at 9:45 a.m. in the President’s office at the White House.'
+  - id: cal.1962-06-11.economy
+    local: '11:30'
+    zone: America/New_York
+    time: 1962-06-11T15:30Z
+    source: ppp
+    basis: 'PPP-1962-book1, p. 470: NOTE: The President spoke at 11:30 a.m. on the Old Campus after being awarded an honorary degree of Doctor of Laws.'
+    zone_check: true
+  - id: cal.1962-07-04.europe-and-the-alliance
+    local: '11:40'
+    zone: America/New_York
+    time: 1962-07-04T15:40Z
+    source: ppp
+    basis: 'PPP-1962-book1, p. 537: NOTE: The President spoke at 11:40 a.m. in Independence Square in Philadelphia.'
+    zone_check: true
   - id: cal.1962-07-09.vietnam
     local: 07:00
     zone: America/New_York
@@ -1231,6 +1428,12 @@ proposals:
     source: text
     basis: 'the entry''s text: ''6 p.m.'''
     zone_check: true
+  - id: cal.1962-08-01.albany
+    local: '10:30'
+    zone: America/New_York
+    time: 1962-08-01T14:30Z
+    source: ppp
+    basis: 'PPP-1962-book1, p. 589: NOTE: The President spoke at 10:30 a.m. in his office at the White House.'
   - id: cal.1962-08-09.economy-2
     local: '16:30'
     zone: America/New_York
@@ -1264,6 +1467,12 @@ proposals:
     time: 1962-08-14T21:35Z
     source: text
     basis: 'the entry''s text: ''5:35 p.m.'''
+  - id: cal.1962-08-16.conservation
+    local: 09:30
+    zone: America/New_York
+    time: 1962-08-16T13:30Z
+    source: ppp
+    basis: 'PPP-1962-book1, p. 620: NOTE: The President spoke at 9:30 a.m. in his office at the White House.'
   - id: cal.1962-08-16.economy
     local: '17:50'
     zone: America/New_York
@@ -1334,6 +1543,12 @@ proposals:
     time: 1962-09-25T09:00Z
     source: text
     basis: 'the entry''s text: ''5 p.m.'''
+  - id: cal.1962-09-28.conservation
+    local: '12:30'
+    zone: America/New_York
+    time: 1962-09-28T16:30Z
+    source: ppp
+    basis: 'PPP-1962-book1, p. 725: NOTE: The President spoke at 12:30 p.m. in his office at the White House.'
   - id: cal.1962-09-30.mississippi-ole-miss-2
     local: '12:45'
     zone: America/New_York
@@ -1341,6 +1556,12 @@ proposals:
     source: text
     basis: 'the entry''s text: ''12:45 p.m.'''
     zone_check: true
+  - id: cal.1962-10-01.transition-and-staff
+    local: '11:00'
+    zone: America/New_York
+    time: 1962-10-01T15:00Z
+    source: ppp
+    basis: 'PPP-1962-book1, p. 729: NOTE: The presentation ceremony was held at 11 a.m. in the Rose Garden at the White House.'
   - id: cal.1962-10-05.middle-east
     local: '12:00'
     zone: America/New_York
@@ -1354,6 +1575,19 @@ proposals:
     time: 1962-10-10T15:00Z
     source: frus
     basis: 'FRUS 1961–63, XXI, doc. 264: Memorandum of Conversation'
+    zone_check: true
+  - id: cal.1962-10-10.africa
+    local: '10:00'
+    zone: America/New_York
+    time: 1962-10-10T14:00Z
+    source: ppp
+    basis: 'PPP-1962-book1, p. 751: NOTE: The President spoke at 10 a.m. in the Rose Garden at the White House.'
+  - id: cal.1962-10-15.africa
+    local: '11:45'
+    zone: America/New_York
+    time: 1962-10-15T15:45Z
+    source: ppp
+    basis: 'PPP-1962-book1, p. 784: NOTE: The President spoke at 11:45 a.m. Prime Minister Ahmed Ben Bella responded (through an interpreter) as follows: “Mr.'
     zone_check: true
   - id: cal.1962-10-16.missile-crisis
     local: '10:50'
@@ -1584,20 +1818,25 @@ proposals:
     source: text
     basis: 'the entry''s text: ''5:36 p.m.'''
     zone_check: true
+  - id: cal.1962-12-14.economy
+    local: '13:20'
+    zone: America/New_York
+    time: 1962-12-14T18:20Z
+    source: ppp
+    basis: 'PPP-1962-book1, p. 875: NOTE: The President spoke at 1:20 p.m. at Flushing Meadow Park, Long Island, N.'
+    zone_check: true
   - id: cal.1962-12-17.latin-america
     local: '11:15'
-    zone: America/New_York
-    time: 1962-12-17T16:15Z
+    zone: America/Sao_Paulo
+    time: 1962-12-17T14:15Z
     source: text
     basis: 'the entry''s text: ''11:15 a.m.'''
-    zone_check: true
   - id: cal.1962-12-17.latin-america
     local: '14:30'
-    zone: America/New_York
-    time: 1962-12-17T19:30Z
+    zone: America/Sao_Paulo
+    time: 1962-12-17T17:30Z
     source: text
     basis: 'the entry''s text: ''2:30 p.m.'''
-    zone_check: true
   - id: cal.1962-12-27.middle-east
     local: '10:00'
     zone: America/New_York
@@ -1687,6 +1926,18 @@ proposals:
     source: frus
     basis: 'FRUS 1961–63, XVIII, doc. 150: Memorandum of Conversation'
     zone_check: true
+  - id: cal.1963-02-12.civil-rights-the-executive
+    local: '17:00'
+    zone: America/New_York
+    time: 1963-02-12T22:00Z
+    source: ppp
+    basis: 'PPP-1963-book1, p. 159: NOTE: The President spoke at 5 p.m. in his office at the White House at a presentation ceremony attended by the members and staff representa'
+  - id: cal.1963-02-25.economy
+    local: '10:00'
+    zone: America/New_York
+    time: 1963-02-25T15:00Z
+    source: ppp
+    basis: 'PPP-1963-book1, p. 210: NOTE: The President spoke at 10 a.m. in the Grand Ballroom at the Mayflower Hotel in Washington.'
   - id: cal.1963-02-26.economy
     local: '11:00'
     zone: America/New_York
@@ -1694,6 +1945,12 @@ proposals:
     source: text
     basis: 'the entry''s text: ''11 a.m.'''
     zone_check: true
+  - id: cal.1963-03-06.economy
+    local: 09:30
+    zone: America/New_York
+    time: 1963-03-06T14:30Z
+    source: ppp
+    basis: 'PPP-1963-book1, p. 235: NOTE: The President spoke at 9:30 a.m. in the Flower Garden at the White House following introductory remarks by Secretary of State Dean Rus'
   - id: cal.1963-03-16.japan-and-korea
     local: '17:58'
     zone: America/New_York
@@ -1763,6 +2020,12 @@ proposals:
     source: frus
     basis: 'FRUS 1961–63, XXII, doc. 300: Telegram From the Department of State to the Embassy in Korea'
     zone_check: true
+  - id: cal.1963-04-09.europe-and-the-alliance
+    local: '15:00'
+    zone: America/New_York
+    time: 1963-04-09T20:00Z
+    source: ppp
+    basis: 'PPP-1963-book1, p. 315: NOTE: The ceremony was held at 3 p.m. in the Flower Garden at the White House after which President and Mrs.'
   - id: cal.1963-04-18.economy
     local: '10:00'
     zone: America/New_York
@@ -1784,6 +2047,12 @@ proposals:
     source: frus
     basis: 'FRUS 1961–63, XVIII, doc. 216: Circular Airgram From the Department of State to the Embassy in Iraq'
     zone_check: true
+  - id: cal.1963-04-19.economy
+    local: '13:45'
+    zone: America/New_York
+    time: 1963-04-19T18:45Z
+    source: ppp
+    basis: 'PPP-1963-book1, p. 323: NOTE: The President spoke at 1:45 p.m. at the Statler Hilton Hotel in Washington.'
   - id: cal.1963-04-20.laos
     local: '11:10'
     zone: Europe/Moscow
@@ -1824,6 +2093,20 @@ proposals:
     time: 1963-05-07T08:32Z
     source: text
     basis: 'the entry''s text: ''4:32 p.m.'''
+  - id: cal.1963-05-18.alabama
+    local: '11:10'
+    zone: America/New_York
+    time: 1963-05-18T15:10Z
+    source: ppp
+    basis: 'PPP-1963-book1, p. 406: NOTE: The President spoke at 11:10 a.m. in the stadium at Vanderbilt University, Nashville, Tenn.'
+    zone_check: true
+  - id: cal.1963-05-18.alabama
+    local: '16:00'
+    zone: America/New_York
+    time: 1963-05-18T20:00Z
+    source: ppp
+    basis: 'PPP-1963-book1, p. 412: NOTE: The President spoke at 4 p.m. His opening words referred to U.'
+    zone_check: true
   - id: cal.1963-05-18.middle-east
     local: '17:57'
     zone: America/New_York
@@ -1831,6 +2114,12 @@ proposals:
     source: frus
     basis: 'FRUS 1961–63, XVIII, doc. 252: Telegram From the Department of State to the Embassy in Israel'
     zone_check: true
+  - id: cal.1963-05-20.program
+    local: '12:30'
+    zone: America/New_York
+    time: 1963-05-20T16:30Z
+    source: ppp
+    basis: 'PPP-1963-book1, p. 414: NOTE: The President spoke at 12:30 p.m. in the Fish Room at the White House.'
   - id: cal.1963-05-21.alabama-al
     local: '15:17'
     zone: America/New_York
@@ -1844,6 +2133,20 @@ proposals:
     time: 1963-05-28T20:00Z
     source: frus
     basis: 'FRUS 1961–63, XI, doc. 344: Summary Record of 7th Meeting of the Standing Group of the National Security Council'
+    zone_check: true
+  - id: cal.1963-06-05.elections-1964
+    local: 09:45
+    zone: America/New_York
+    time: 1963-06-05T13:45Z
+    source: ppp
+    basis: 'PPP-1963-book1, p. 439: 443] NOTE: The President spoke at 9:45 a.m. in Falcon Stadium at the U.'
+    zone_check: true
+  - id: cal.1963-06-05.transportation
+    local: 09:45
+    zone: America/New_York
+    time: 1963-06-05T13:45Z
+    source: ppp
+    basis: 'PPP-1963-book1, p. 439: 443] NOTE: The President spoke at 9:45 a.m. in Falcon Stadium at the U.'
     zone_check: true
   - id: cal.1963-06-08.vietnam
     local: 05:00
@@ -1922,12 +2225,38 @@ proposals:
     source: frus
     basis: 'FRUS 1961–63, III, doc. 177: Telegram From the Embassy in Vietnam to the Department of State'
     zone_check: true
+  - id: cal.1963-06-19.civil-rights-bill
+    local: 09:45
+    zone: America/New_York
+    time: 1963-06-19T13:45Z
+    source: ppp
+    basis: 'PPP-1963-book1, p. 482: NOTE: The President spoke at 9:45 a.m. on the South Lawn at the White House.'
+  - id: cal.1963-06-24.peace-corps
+    local: '11:40'
+    zone: America/New_York
+    time: 1963-06-24T15:40Z
+    source: ppp
+    basis: 'PPP-1963-book1, p. 503: NOTE: The President spoke at 11:40 a.m. at the Villa Hammerschmidt, the German Presidential residence.'
+    zone_check: true
+  - id: cal.1963-06-25.europe-and-the-alliance-kennedy-in-europe
+    local: '15:30'
+    zone: America/New_York
+    time: 1963-06-25T19:30Z
+    source: ppp
+    basis: 'PPP-1963-book1, p. 515: NOTE: The President spoke at 3:30 p.m. outside the City Hall.'
+    zone_check: true
   - id: cal.1963-06-25.republican-party
     local: 05:15
     zone: America/Los_Angeles
     time: 1963-06-25T12:15Z
     source: text
     basis: 'the entry''s text: ''5:15 a.m.'''
+  - id: cal.1963-06-26.berlin-and-vienna
+    local: '15:30'
+    zone: Europe/Berlin
+    time: 1963-06-26T14:30Z
+    source: ppp
+    basis: 'PPP-1963-book1, p. 526: NOTE: The President spoke at 3:30 p.m. after being made an Honorary Citizen of the Free University of Berlin.'
   - id: cal.1963-07-04.middle-east
     local: '14:02'
     zone: America/New_York
@@ -1981,6 +2310,12 @@ proposals:
     source: text
     basis: 'the entry''s text: ''midnight'''
     zone_check: true
+  - id: cal.1963-07-15.africa
+    local: '11:30'
+    zone: America/New_York
+    time: 1963-07-15T15:30Z
+    source: ppp
+    basis: 'PPP-1963-book1, p. 561: NOTE: The President spoke at 11:30 a.m. on the South Lawn at the White House where President Julius K.'
   - id: cal.1963-07-15.testing
     local: '14:00'
     zone: Europe/Moscow
@@ -1988,6 +2323,12 @@ proposals:
     source: frus
     basis: 'FRUS 1961–63, VII, doc. 325: Telegram From the Embassy in the Soviet Union to the Department of State'
     zone_check: true
+  - id: cal.1963-07-18.latin-america
+    local: '10:00'
+    zone: America/New_York
+    time: 1963-07-18T14:00Z
+    source: ppp
+    basis: 'PPP-1963-book1, p. 584: NOTE: The President spoke at 10 a.m. on the South Lawn at the White House.'
   - id: cal.1963-07-25.testing
     local: '14:00'
     zone: Europe/Moscow
@@ -2001,6 +2342,12 @@ proposals:
     time: 1963-07-25T16:15Z
     source: text
     basis: 'the entry''s text: ''7:15 p.m.'''
+  - id: cal.1963-07-26.testing
+    local: 09:30
+    zone: America/New_York
+    time: 1963-07-26T13:30Z
+    source: ppp
+    basis: 'PPP-1963-book1, p. 601: NOTE: The President spoke at 9:30 a.m. in the Flower Garden at the White House.'
   - id: cal.1963-08-05.testing
     local: '14:00'
     zone: Europe/Moscow
@@ -2027,6 +2374,18 @@ proposals:
     source: frus
     basis: 'FRUS 1961–63, III, doc. 261: Telegram From the Embassy in Vietnam to the Department of State'
     zone_check: true
+  - id: cal.1963-08-23.africa
+    local: 09:45
+    zone: America/New_York
+    time: 1963-08-23T13:45Z
+    source: ppp
+    basis: 'PPP-1963-book1, p. 640: NOTE: The President spoke in the Flower Garden at the White House at 9:45 a.m. to a group of teachers from 21 countries who had been attendi'
+  - id: cal.1963-08-23.foreign-aid
+    local: 09:45
+    zone: America/New_York
+    time: 1963-08-23T13:45Z
+    source: ppp
+    basis: 'PPP-1963-book1, p. 640: NOTE: The President spoke in the Flower Garden at the White House at 9:45 a.m. to a group of teachers from 21 countries who had been attendi'
   - id: cal.1963-08-24.vietnam
     local: '20:36'
     zone: America/New_York
@@ -2069,6 +2428,12 @@ proposals:
     source: frus
     basis: 'FRUS 1961–63, III, doc. 298: Telegram From the Embassy in Vietnam to the Department of State'
     zone_check: true
+  - id: cal.1963-08-28.march-on-washington
+    local: '18:15'
+    zone: America/New_York
+    time: 1963-08-28T22:15Z
+    source: ppp
+    basis: 'PPP-1963-book1, p. 645: NOTE: The statement was released at 6:15 p.m. after the President had met in his office with the leaders of the March on Washington for Jobs'
   - id: cal.1963-08-28.march-on-washington
     local: '17:00'
     zone: America/New_York
@@ -2208,6 +2573,12 @@ proposals:
     source: frus
     basis: 'FRUS 1961–63, IV, doc. 125: Telegram From the White House to the Embassy in Vietnam'
     zone_check: true
+  - id: cal.1963-09-18.economy
+    local: '16:00'
+    zone: America/New_York
+    time: 1963-09-18T20:00Z
+    source: ppp
+    basis: 'PPP-1963-book1, p. 686: NOTE: The President spoke at 4 p.m. in the Flower Garden at the White House.'
   - id: cal.1963-09-19.alabama
     local: '17:00'
     zone: America/New_York
@@ -2234,6 +2605,13 @@ proposals:
     source: text
     basis: 'the entry''s text: ''4 p.m.'''
     zone_check: true
+  - id: cal.1963-09-20.space
+    local: '11:00'
+    zone: America/New_York
+    time: 1963-09-20T15:00Z
+    source: ppp
+    basis: 'PPP-1963-book1, p. 693: NOTE: The President spoke at 11 a.m. In his opening words he referred to Dr.'
+    zone_check: true
   - id: cal.1963-09-23.vietnam
     local: 09:00
     zone: Asia/Ho_Chi_Minh
@@ -2253,6 +2631,24 @@ proposals:
     time: 1963-09-23T02:00Z
     source: text
     basis: 'the entry''s text: ''10 a.m.'''
+  - id: cal.1963-09-24.program
+    local: 09:30
+    zone: America/New_York
+    time: 1963-09-24T13:30Z
+    source: ppp
+    basis: 'PPP-1963-book1, p. 703: NOTE: The President spoke at 9:30 a.m. in his office at the White House.'
+  - id: cal.1963-09-24.program-2
+    local: 09:30
+    zone: America/New_York
+    time: 1963-09-24T13:30Z
+    source: ppp
+    basis: 'PPP-1963-book1, p. 703: NOTE: The President spoke at 9:30 a.m. in his office at the White House.'
+  - id: cal.1963-09-24.testing
+    local: 09:30
+    zone: America/New_York
+    time: 1963-09-24T13:30Z
+    source: ppp
+    basis: 'PPP-1963-book1, p. 703: NOTE: The President spoke at 9:30 a.m. in his office at the White House.'
   - id: cal.1963-09-29.vietnam
     local: '13:30'
     zone: America/New_York
@@ -2267,6 +2663,12 @@ proposals:
     source: text
     basis: 'the entry''s text: ''5:30 p.m.'''
     zone_check: true
+  - id: cal.1963-09-30.transition-and-staff
+    local: '10:00'
+    zone: America/New_York
+    time: 1963-09-30T14:00Z
+    source: ppp
+    basis: 'PPP-1963-book1, p. 749: NOTE: The President spoke at 10 a.m. at the Sheraton-Park Hotel in Washington.'
   - id: cal.1963-10-01.africa
     local: '15:30'
     zone: America/New_York
@@ -2313,6 +2715,12 @@ proposals:
     time: 1963-10-05T15:00Z
     source: rec
     basis: PRDE 4022295 (Cabinet Room)
+  - id: cal.1963-10-11.program
+    local: '10:00'
+    zone: America/New_York
+    time: 1963-10-11T14:00Z
+    source: ppp
+    basis: 'PPP-1963-book1, p. 779: NOTE: The President spoke at 10 a.m. in the Flower Garden at the White House.'
   - id: cal.1963-10-15.japan-and-korea
     local: '11:00'
     zone: America/New_York
@@ -2327,6 +2735,12 @@ proposals:
     source: frus
     basis: 'FRUS 1961–63, XVI, doc. 162: Memorandum of Conversation'
     zone_check: true
+  - id: cal.1963-10-17.trade
+    local: '11:45'
+    zone: America/New_York
+    time: 1963-10-17T15:45Z
+    source: ppp
+    basis: 'PPP-1963-book1, p. 788: NOTE: The President spoke at 11:45 a.m. on the South Lawn at the White House where President Josip Broz Tito was given a formal welcome with'
   - id: cal.1963-10-17.trade
     local: '16:00'
     zone: America/New_York
@@ -2345,6 +2759,12 @@ proposals:
     time: 1963-10-24T09:30Z
     source: text
     basis: 'the entry''s text: ''10:30 a.m.'''
+  - id: cal.1963-10-24.program
+    local: '11:30'
+    zone: America/New_York
+    time: 1963-10-24T15:30Z
+    source: ppp
+    basis: 'PPP-1963-book1, p. 811: NOTE: The President spoke at 11:30 a.m. in the Cabinet Room at the White House.'
   - id: cal.1963-10-25.vietnam
     local: '11:05'
     zone: America/New_York
@@ -2439,6 +2859,24 @@ proposals:
     source: text
     basis: 'the entry''s text: ''5:49 p.m.'''
     zone_check: true
+  - id: cal.1963-10-31.elections-1964
+    local: '10:00'
+    zone: America/New_York
+    time: 1963-10-31T15:00Z
+    source: ppp
+    basis: 'PPP-1963-book1, p. 825: NOTE: The President spoke at 10 a.m. in the Cabinet Room at the White House.'
+  - id: cal.1963-10-31.goldwater
+    local: '10:00'
+    zone: America/New_York
+    time: 1963-10-31T15:00Z
+    source: ppp
+    basis: 'PPP-1963-book1, p. 825: NOTE: The President spoke at 10 a.m. in the Cabinet Room at the White House.'
+  - id: cal.1963-10-31.program
+    local: '10:00'
+    zone: America/New_York
+    time: 1963-10-31T15:00Z
+    source: ppp
+    basis: 'PPP-1963-book1, p. 825: NOTE: The President spoke at 10 a.m. in the Cabinet Room at the White House.'
   - id: cal.1963-11-01.vietnam
     local: 05:00
     zone: Asia/Ho_Chi_Minh
@@ -2486,6 +2924,12 @@ proposals:
     source: frus
     basis: 'FRUS 1961–63, IV, doc. 304: Telegram From the Department of State to the Embassy in Vietnam'
     zone_check: true
+  - id: cal.1963-11-18.cuba
+    local: '17:00'
+    zone: America/New_York
+    time: 1963-11-18T22:00Z
+    source: ppp
+    basis: 'PPP-1963-book1, p. 871: NOTE: The President spoke at 5 p.m. at a Democratic rally held upon his arrival at the International Airport at Miami.'
   - id: cal.1963-11-19.indonesia
     local: '17:00'
     zone: America/New_York
@@ -2501,6 +2945,13 @@ proposals:
     basis: 'the entry''s text: ''5 p.m.'''
     zone_check: true
   - id: cal.1963-11-22.assassination
+    local: 09:00
+    zone: America/New_York
+    time: 1963-11-22T14:00Z
+    source: ppp
+    basis: 'PPP-1963-book1, p. 888: NOTE: The President spoke at 9 a.m. (c.'
+    zone_check: true
+  - id: cal.1963-11-22.assassination
     local: '12:30'
     zone: America/Chicago
     time: 1963-11-22T18:30Z
@@ -2512,6 +2963,12 @@ proposals:
     time: 1963-11-22T19:00Z
     source: text
     basis: 'the entry''s text: ''1 p.m.'''
+  - id: cal.1963-11-22.succession
+    local: '13:00'
+    zone: America/Chicago
+    time: 1963-11-22T19:00Z
+    source: ppp
+    basis: 'PPP-1963-book2, p. 1: The motorcade proceeded to Parkland Hospital in Dallas where President Kennedy was pronounced dead at 1 p.m. Shortly afterwards Mr.'
   - id: cal.1963-11-22.succession
     local: '14:38'
     zone: America/New_York
@@ -2583,6 +3040,18 @@ proposals:
     time: 1963-11-25T15:40Z
     source: rec
     basis: Miller Center, https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-joseph-alsop-november-25-1963
+  - id: cal.1963-11-25.europe-and-the-alliance-france
+    local: '20:30'
+    zone: America/New_York
+    time: 1963-11-26T01:30Z
+    source: ppp
+    basis: 'PPP-1963-book2, p. 4: NOTE: The President spoke at 8:30 p.m. in his temporary office in the Executive Office Building to the group of Governors who were in Washin'
+  - id: cal.1963-11-25.succession
+    local: '20:30'
+    zone: America/New_York
+    time: 1963-11-26T01:30Z
+    source: ppp
+    basis: 'PPP-1963-book2, p. 4: NOTE: The President spoke at 8:30 p.m. in his temporary office in the Executive Office Building to the group of Governors who were in Washin'
   - id: cal.1963-11-25.succession
     local: '20:30'
     zone: America/New_York
@@ -2714,6 +3183,18 @@ proposals:
     source: rec
     basis: PRDE 9020036 (Oval Office)
   - id: cal.1963-12-04.civil-rights-bill
+    local: '16:00'
+    zone: America/New_York
+    time: 1963-12-04T21:00Z
+    source: ppp
+    basis: 'PPP-1963-book2, p. 20: NOTE: The President spoke at 4 p.m. in the Rose Garden at the White House.'
+  - id: cal.1963-12-04.civil-rights-bill
+    local: '10:30'
+    zone: America/New_York
+    time: 1963-12-04T15:30Z
+    source: ppp
+    basis: 'PPP-1963-book2, p. 20: NOTE: The ceremony was held at 10:30 a.m. in the Rose Garden at the White House.'
+  - id: cal.1963-12-04.civil-rights-bill
     local: '18:00'
     zone: America/New_York
     time: 1963-12-04T23:00Z
@@ -2762,6 +3243,36 @@ proposals:
     time: 1963-12-13T16:33Z
     source: rec
     basis: Miller Center, https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-harry-byrd-december-13-1963
+  - id: cal.1963-12-16.foreign-aid
+    local: '11:00'
+    zone: America/New_York
+    time: 1963-12-16T16:00Z
+    source: ppp
+    basis: 'PPP-1963-book2, p. 57: NOTE: The President spoke at 11 a.m. in the Cabinet Room at the White House.'
+  - id: cal.1963-12-16.school-aid
+    local: '11:00'
+    zone: America/New_York
+    time: 1963-12-16T16:00Z
+    source: ppp
+    basis: 'PPP-1963-book2, p. 57: NOTE: The President spoke at 11 a.m. in the Cabinet Room at the White House.'
+  - id: cal.1963-12-17.program
+    local: 09:30
+    zone: America/New_York
+    time: 1963-12-17T14:30Z
+    source: ppp
+    basis: 'PPP-1963-book2, p. 60: NOTE: The President spoke at 9:30 a.m. in the Cabinet Room at the White House.'
+  - id: cal.1963-12-17.succession
+    local: 09:30
+    zone: America/New_York
+    time: 1963-12-17T14:30Z
+    source: ppp
+    basis: 'PPP-1963-book2, p. 60: NOTE: The President spoke at 9:30 a.m. in the Cabinet Room at the White House.'
+  - id: cal.1963-12-18.school-aid
+    local: 09:30
+    zone: America/New_York
+    time: 1963-12-18T14:30Z
+    source: ppp
+    basis: 'PPP-1963-book2, p. 64: NOTE: The President spoke at 9:30 a.m. in the Cabinet Room at the White House.'
   - id: cal.1963-12-23.civil-rights-bill
     local: '22:30'
     zone: America/New_York
@@ -2957,6 +3468,18 @@ proposals:
     time: 1964-01-21T20:30Z
     source: rec
     basis: Miller Center, https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-james-webb-january-21-1964
+  - id: cal.1964-01-21.economy
+    local: '11:30'
+    zone: America/New_York
+    time: 1964-01-21T16:30Z
+    source: ppp
+    basis: 'PPP-1963-book2, p. 174: NOTE: The President spoke at 11:30 a.m. from the Cabinet Room at the White House.'
+  - id: cal.1964-01-21.testing
+    local: '16:00'
+    zone: America/New_York
+    time: 1964-01-21T21:00Z
+    source: ppp
+    basis: 'PPP-1963-book2, p. 170: NOTE: The President spoke at 4 p.m. at the North Portico of the White House where Prime Minister Lester Pearson was given a formal welcome.'
   - id: cal.1964-01-23.baker
     local: '17:00'
     zone: America/New_York
@@ -3007,6 +3530,18 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, XXVI, doc. 23: Telegram From the Embassy in Indonesia to the Department of State'
     zone_check: true
+  - id: cal.1964-01-23.voting-rights
+    local: '12:30'
+    zone: America/New_York
+    time: 1964-01-23T17:30Z
+    source: ppp
+    basis: 'PPP-1963-book2, p. 221: NOTE: The swearing-in ceremony was held in the Cabinet Room at the White House at 12:30 p.m. In the President’s closing remarks he referred '
+  - id: cal.1964-01-24.transition-and-staff
+    local: '16:30'
+    zone: America/New_York
+    time: 1964-01-24T21:30Z
+    source: ppp
+    basis: 'PPP-1963-book2, p. 223: NOTE: The President spoke at 4:30 p.m. in the Cabinet Room at the White House.'
   - id: cal.1964-01-25.europe-and-the-alliance
     local: '18:30'
     zone: Europe/London
@@ -3284,6 +3819,12 @@ proposals:
     source: text
     basis: 'the entry''s text: ''6:04 p.m.'''
     zone_check: true
+  - id: cal.1964-03-24.japan-and-korea
+    local: '11:00'
+    zone: America/New_York
+    time: 1964-03-24T16:00Z
+    source: ppp
+    basis: 'PPP-1963-book2, p. 413: NOTE: The President spoke at 11 a.m. at the Sheraton Park Hotel in Washington.'
   - id: cal.1964-03-25.latin-america-2
     local: '16:20'
     zone: America/New_York
@@ -3357,6 +3898,12 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, XXXI, doc. 410: Telephone Conversation Between President Johnson and Panamanian President Chiari'
     zone_check: true
+  - id: cal.1964-04-03.latin-america
+    local: '17:00'
+    zone: America/New_York
+    time: 1964-04-03T22:00Z
+    source: ppp
+    basis: 'PPP-1963-book2, p. 433: NOTE: The President spoke at 5 p.m. in the East Room at the White House.'
   - id: cal.1964-04-03.vietnam
     local: '14:00'
     zone: America/New_York
@@ -3379,6 +3926,12 @@ proposals:
     basis: 'FRUS 1964–68, XXI, doc. 327: Telephone Conversation Between President Johnson and Secretary of State Rusk'
     zone_check: true
   - id: cal.1964-04-09.railroads
+    local: '17:30'
+    zone: America/New_York
+    time: 1964-04-09T22:30Z
+    source: ppp
+    basis: 'PPP-1963-book2, p. 446: NOTE: The President spoke at 5:30 p.m. in the East Room at the White House.'
+  - id: cal.1964-04-09.railroads
     local: 00:01
     zone: America/New_York
     time: 1964-04-09T05:01Z
@@ -3398,6 +3951,18 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, XVIII, doc. 39: Memorandum of Conversation'
     zone_check: true
+  - id: cal.1964-04-14.middle-east
+    local: '11:40'
+    zone: America/New_York
+    time: 1964-04-14T16:40Z
+    source: ppp
+    basis: 'PPP-1963-book2, p. 461: NOTE: The President spoke at 11:40 a.m. on the North Portico at the White House where King Hussein I was given a formal welcome with full mi'
+  - id: cal.1964-04-20.testing
+    local: '13:00'
+    zone: America/New_York
+    time: 1964-04-20T18:00Z
+    source: ppp
+    basis: 'PPP-1963-book2, p. 493: NOTE: The President spoke at 1 p.m. at the Waldorf Astoria Hotel in New York City.'
   - id: cal.1964-04-30.vietnam
     local: '18:10'
     zone: America/New_York
@@ -3416,6 +3981,34 @@ proposals:
     time: 1964-04-30T23:50Z
     source: text
     basis: 'the entry''s text: ''7:50 p.m.'''
+    zone_check: true
+  - id: cal.1964-05-07.poverty
+    local: 09:15
+    zone: America/New_York
+    time: 1964-05-07T13:15Z
+    source: ppp
+    basis: 'PPP-1963-book2, p. 625: NOTE: The President spoke at 9:15 a.m. in Cumberland, Md.'
+    zone_check: true
+  - id: cal.1964-05-07.poverty
+    local: '11:05'
+    zone: America/New_York
+    time: 1964-05-07T15:05Z
+    source: ppp
+    basis: 'PPP-1963-book2, p. 629: NOTE: The President spoke at 11:05 a.m. following brief remarks by Lynda Bird Johnson.'
+    zone_check: true
+  - id: cal.1964-05-07.poverty
+    local: '18:05'
+    zone: America/New_York
+    time: 1964-05-07T22:05Z
+    source: ppp
+    basis: 'PPP-1963-book2, p. 637: NOTE: The President spoke at 6:05 p.m. His opening words referred to Governor Terry Sanford and Senators Sam J.'
+    zone_check: true
+  - id: cal.1964-05-07.poverty
+    local: '19:55'
+    zone: America/New_York
+    time: 1964-05-07T23:55Z
+    source: ppp
+    basis: 'PPP-1963-book2, p. 642: NOTE: The President spoke at 7:55 p.m. on a platform erected outside City Hall.'
     zone_check: true
   - id: cal.1964-05-13.republican-party-congress
     local: '16:30'
@@ -3573,15 +4166,15 @@ proposals:
     zone_check: true
   - id: cal.1964-06-03.japan-and-korea
     local: 08:30
-    zone: America/New_York
-    time: 1964-06-03T12:30Z
+    zone: Asia/Seoul
+    time: 1964-06-02T23:30Z
     source: frus
     basis: 'FRUS 1964–68, XXIX, pt. 1, doc. 13: Telegram From the Embassy in Korea to the Department of State'
     zone_check: true
   - id: cal.1964-06-03.japan-and-korea
     local: '13:00'
-    zone: America/New_York
-    time: 1964-06-03T17:00Z
+    zone: Asia/Seoul
+    time: 1964-06-03T04:00Z
     source: frus
     basis: 'FRUS 1964–68, XXIX, pt. 1, doc. 14: Telegram From the Embassy in Korea to the Department of State'
     zone_check: true
@@ -3794,6 +4387,12 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, XXII, doc. 49: Telegram From the Embassy in Iran to the Department of State'
     zone_check: true
+  - id: cal.1964-07-10.mississippi
+    local: '10:55'
+    zone: America/New_York
+    time: 1964-07-10T14:55Z
+    source: ppp
+    basis: 'PPP-1964-book1, p. 850: NOTE: The President spoke at 10:55 a.m. in the Cabinet Room at the White House.'
   - id: cal.1964-07-11.civil-rights-the-executive
     local: '12:27'
     zone: America/New_York
@@ -3856,6 +4455,12 @@ proposals:
     time: 1964-07-21T17:00Z
     source: text
     basis: 'the entry''s text: ''1 p.m.'''
+  - id: cal.1964-07-22.indonesia
+    local: '11:15'
+    zone: America/New_York
+    time: 1964-07-22T15:15Z
+    source: ppp
+    basis: 'PPP-1964-book1, p. 877: NOTE: The ceremony was held at 11:15 a.m. in the Fish Room at the White House.'
   - id: cal.1964-07-24.elections-1964
     local: '17:25'
     zone: America/New_York
@@ -3925,6 +4530,13 @@ proposals:
     time: 1964-08-04T21:45Z
     source: frus
     basis: 'FRUS 1964–68, I, doc. 280: Notes of the Leadership Meeting, White House'
+    zone_check: true
+  - id: cal.1964-08-04.vietnam
+    local: '23:36'
+    zone: America/New_York
+    time: 1964-08-05T03:36Z
+    source: ppp
+    basis: 'PPP-1964-book1, p. 927: NOTE: The President began speaking at 11:36 p.m., eastern daylight time.'
     zone_check: true
   - id: cal.1964-08-04.vietnam
     local: '23:36'
@@ -4143,6 +4755,12 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, I, doc. 330: Telegram From the Embassy in Vietnam to the Department of State'
     zone_check: true
+  - id: cal.1964-09-03.conservation
+    local: '10:30'
+    zone: America/New_York
+    time: 1964-09-03T14:30Z
+    source: ppp
+    basis: 'PPP-1964-book1, p. 1033: NOTE: The President spoke at 10:30 a.m. in the Rose Garden at the White House.'
   - id: cal.1964-09-03.transition-and-staff
     local: '11:58'
     zone: America/New_York
@@ -4220,6 +4838,42 @@ proposals:
     source: text
     basis: 'the entry''s text: ''1:41 p.m.'''
     zone_check: true
+  - id: cal.1964-10-06.elections-1964
+    local: 08:30
+    zone: America/New_York
+    time: 1964-10-06T12:30Z
+    source: ppp
+    basis: 'PPP-1964-book1, p. 1215: NOTE: The President spoke at about 8:30 a.m. at Union Station, Alexandria, Va.'
+    approx: true
+    zone_check: true
+  - id: cal.1964-10-07.elections-1964
+    local: '18:40'
+    zone: America/New_York
+    time: 1964-10-07T22:40Z
+    source: ppp
+    basis: 'PPP-1964-book1, p. 1239: NOTE: The President spoke at 6:40 p.m. in the Armory in Peoria.'
+    zone_check: true
+  - id: cal.1964-10-08.elections-1964-2
+    local: '21:37'
+    zone: America/New_York
+    time: 1964-10-09T01:37Z
+    source: ppp
+    basis: 'PPP-1964-book1, p. 1251: NOTE: The President spoke at 9:37 p.m. at Convention Center in Cleveland, Ohio.'
+    zone_check: true
+  - id: cal.1964-10-08.foreign-aid
+    local: '12:12'
+    zone: America/New_York
+    time: 1964-10-08T16:12Z
+    source: ppp
+    basis: 'PPP-1964-book1, p. 1246: NOTE: The President spoke at 12:12 p.m. at Soldiers and Sailors Square in Indianapolis, Ind.'
+    zone_check: true
+  - id: cal.1964-10-09.elections-1964
+    local: 09:07
+    zone: America/New_York
+    time: 1964-10-09T13:07Z
+    source: ppp
+    basis: 'PPP-1964-book1, p. 1261: NOTE: The President spoke at 9:07 a.m. in the Grand Ballroom at the Sheraton Seelbach Hotel in Louisville, Ky.'
+    zone_check: true
   - id: cal.1964-10-14.republican-party
     local: '20:02'
     zone: America/New_York
@@ -4245,6 +4899,24 @@ proposals:
     time: 1964-10-16T17:00Z
     source: text
     basis: 'the entry''s text: ''1 p.m.'''
+  - id: cal.1964-10-16.poverty
+    local: '13:45'
+    zone: America/New_York
+    time: 1964-10-16T17:45Z
+    source: ppp
+    basis: 'PPP-1964-book1, p. 1358: NOTE: The President spoke at 1:45 p.m. in the East Room at the White House.'
+  - id: cal.1964-10-16.school-aid
+    local: '13:20'
+    zone: America/New_York
+    time: 1964-10-16T17:20Z
+    source: ppp
+    basis: 'PPP-1964-book1, p. 1357: NOTE: This statement was read by the President to members of the press immediately following the reading of Item 674 at 1:20 p.m. in the Fis'
+  - id: cal.1964-10-16.testing
+    local: '13:20'
+    zone: America/New_York
+    time: 1964-10-16T17:20Z
+    source: ppp
+    basis: 'PPP-1964-book1, p. 1357: NOTE: This statement was read by the President to members of the press immediately following the reading of Item 674 at 1:20 p.m. in the Fis'
   - id: cal.1964-10-16.testing
     local: 03:00
     zone: America/New_York
@@ -4252,6 +4924,27 @@ proposals:
     source: text
     basis: 'the entry''s text: ''about 3 a.m.'''
     approx: true
+    zone_check: true
+  - id: cal.1964-10-21.vietnam
+    local: '12:33'
+    zone: America/New_York
+    time: 1964-10-21T16:33Z
+    source: ppp
+    basis: 'PPP-1964-book1, p. 1387: NOTE: The President spoke at 12:33 p.m. at Memorial Hall at the University of Akron, Akron, Ohio.'
+    zone_check: true
+  - id: cal.1964-10-26.elections-1964
+    local: '15:19'
+    zone: America/New_York
+    time: 1964-10-26T20:19Z
+    source: ppp
+    basis: 'PPP-1964-book1, p. 1444: NOTE: The President spoke at 3:19 p.m. at City Hall in Macon, Ga.'
+    zone_check: true
+  - id: cal.1964-10-26.elections-1964
+    local: '17:38'
+    zone: America/New_York
+    time: 1964-10-26T22:38Z
+    source: ppp
+    basis: 'PPP-1964-book1, p. 1449: NOTE: The President spoke at 5:38 p.m. at the Richmond-Augusta County-Municipal Building in Augusta, Ga.'
     zone_check: true
   - id: cal.1964-11-01.vietnam
     local: '18:28'
@@ -4292,6 +4985,12 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, XXII, doc. 56: Telegram From the Embassy in Iran to the Department of State'
     zone_check: true
+  - id: cal.1964-11-16.transition-and-staff
+    local: '12:25'
+    zone: America/New_York
+    time: 1964-11-16T17:25Z
+    source: ppp
+    basis: 'PPP-1964-book1, p. 1593: NOTE: The President spoke at 12:25 p.m. in the Cabinet Room at the White House.'
   - id: cal.1964-11-19.vietnam
     local: '12:30'
     zone: America/New_York
@@ -4327,6 +5026,18 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, XXVIII, doc. 150: Telegram From the Embassy in Laos to the Department of State'
     zone_check: true
+  - id: cal.1964-12-16.transition-and-staff
+    local: '11:09'
+    zone: America/New_York
+    time: 1964-12-16T16:09Z
+    source: ppp
+    basis: 'PPP-1964-book1, p. 1660: NOTE: The President spoke at 11:09 a.m. in the Theater at the White House.'
+  - id: cal.1964-12-18.latin-america
+    local: '16:45'
+    zone: America/New_York
+    time: 1964-12-18T21:45Z
+    source: ppp
+    basis: 'PPP-1964-book1, p. 1663: NOTE: The President spoke at 4:45 p.m. in the Theater at the White House.'
   - id: cal.1964-12-20.vietnam
     local: 04:00
     zone: Asia/Ho_Chi_Minh
@@ -4382,6 +5093,12 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, I, doc. 465: Telegram From the Department of State to the Embassy in Vietnam'
     zone_check: true
+  - id: cal.1965-01-07.medicare
+    local: '12:15'
+    zone: America/New_York
+    time: 1965-01-07T17:15Z
+    source: ppp
+    basis: 'PPP-1965-book1, p. 10: NOTE: The President spoke at 12:15 p.m. in the Cabinet Room at the White House.'
   - id: cal.1965-01-12.japan-and-korea
     local: '11:30'
     zone: America/New_York
@@ -4396,12 +5113,24 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, XXIX, pt. 2, doc. 42: Memorandum of Conversation'
     zone_check: true
+  - id: cal.1965-01-12.japan-and-korea
+    local: '11:23'
+    zone: America/New_York
+    time: 1965-01-12T16:23Z
+    source: ppp
+    basis: 'PPP-1965-book1, p. 23: NOTE: The President spoke at 11:23 a.m. on the North Portico at the White House.'
   - id: cal.1965-01-15.king
     local: '12:06'
     zone: America/New_York
     time: 1965-01-15T17:06Z
     source: rec
     basis: Miller Center, https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-martin-luther-king-january-15-1965
+  - id: cal.1965-01-16.trade
+    local: '10:16'
+    zone: America/Chicago
+    time: 1965-01-16T16:16Z
+    source: ppp
+    basis: 'PPP-1965-book1, p. 52: NOTE: The signing ceremony was held at 10:16 a.m. on the front lawn at the LBJ Ranch, Johnson City, Tex.'
   - id: cal.1965-01-21.vietnam
     local: '10:07'
     zone: Asia/Ho_Chi_Minh
@@ -4531,6 +5260,12 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, II, doc. 100: Notes on the Congressional Leadership Meeting'
     zone_check: true
+  - id: cal.1965-02-13.transition-and-staff
+    local: '12:10'
+    zone: America/New_York
+    time: 1965-02-13T17:10Z
+    source: ppp
+    basis: 'PPP-1965-book1, p. 182: NOTE: The President spoke at 12:10 p.m. in the Cabinet Room at the White House.'
   - id: cal.1965-02-13.vietnam
     local: '18:54'
     zone: Asia/Ho_Chi_Minh
@@ -4565,6 +5300,12 @@ proposals:
     time: 1965-02-16T07:30Z
     source: text
     basis: 'the entry''s text: ''3:30 p.m.'''
+  - id: cal.1965-02-17.vietnam
+    local: '14:03'
+    zone: America/New_York
+    time: 1965-02-17T19:03Z
+    source: ppp
+    basis: 'PPP-1965-book1, p. 202: NOTE: The President spoke to the National Industrial Conference Board, a nonprofit organization dedicated to the study of business problems,'
   - id: cal.1965-02-17.vietnam-3
     local: '10:00'
     zone: Asia/Bangkok
@@ -4597,6 +5338,12 @@ proposals:
     source: text
     basis: 'the entry''s text: ''6:20 p.m.'''
     zone_check: true
+  - id: cal.1965-02-18.economy-2
+    local: '13:40'
+    zone: America/New_York
+    time: 1965-02-18T18:40Z
+    source: ppp
+    basis: 'PPP-1965-book1, p. 206: NOTE: The President spoke at 1:40 p.m. in the East Room at the White House.'
   - id: cal.1965-02-18.vietnam-2
     local: '17:20'
     zone: Asia/Ho_Chi_Minh
@@ -4678,6 +5425,18 @@ proposals:
     source: text
     basis: 'the entry''s text: ''12:05 p.m.'''
     zone_check: true
+  - id: cal.1965-03-09.jobs-and-wages
+    local: '11:02'
+    zone: America/New_York
+    time: 1965-03-09T16:02Z
+    source: ppp
+    basis: 'PPP-1965-book1, p. 271: NOTE: The President spoke at 11:02 a.m. in the Rose Garden at the White House.'
+  - id: cal.1965-03-09.voting-rights
+    local: '11:02'
+    zone: America/New_York
+    time: 1965-03-09T16:02Z
+    source: ppp
+    basis: 'PPP-1965-book1, p. 271: NOTE: The President spoke at 11:02 a.m. in the Rose Garden at the White House.'
   - id: cal.1965-03-10.middle-east
     local: '19:00'
     zone: America/New_York
@@ -4711,12 +5470,30 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, XXVIII, doc. 174: Telegram From the Department of State to the Embassy in Laos'
     zone_check: true
+  - id: cal.1965-03-23.space
+    local: '15:45'
+    zone: America/New_York
+    time: 1965-03-23T20:45Z
+    source: ppp
+    basis: 'PPP-1965-book1, p. 309: NOTE: The President spoke at 3:45 p.m. by radiotelephone from his office at the White House to Maj.'
   - id: cal.1965-03-23.vietnam
     local: '15:46'
     zone: Asia/Bangkok
     time: 1965-03-23T08:46Z
     source: text
     basis: 'the entry''s text: ''3:46 p.m.'''
+  - id: cal.1965-03-26.civil-rights-the-executive
+    local: '11:26'
+    zone: America/New_York
+    time: 1965-03-26T16:26Z
+    source: ppp
+    basis: 'PPP-1965-book1, p. 330: NOTE: The President spoke at 11:26 a.m. in the East Room at the White House.'
+  - id: cal.1965-03-26.school-aid
+    local: '17:52'
+    zone: America/New_York
+    time: 1965-03-26T22:52Z
+    source: ppp
+    basis: 'PPP-1965-book1, p. 333: NOTE: The President spoke at 5:52 p.m. in the Fish Room at the White House.'
   - id: cal.1965-04-02.vietnam
     local: '14:05'
     zone: America/New_York
@@ -4724,6 +5501,18 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, II, doc. 231: Summary Notes of the 551st Meeting of the National Security Council'
     zone_check: true
+  - id: cal.1965-04-09.school-aid
+    local: '12:15'
+    zone: America/New_York
+    time: 1965-04-09T17:15Z
+    source: ppp
+    basis: 'PPP-1965-book1, p. 406: NOTE: The President spoke at 12:15 p.m. in the Cabinet Room at the White House.'
+  - id: cal.1965-04-11.school-aid
+    local: '16:20'
+    zone: America/Chicago
+    time: 1965-04-11T22:20Z
+    source: ppp
+    basis: 'PPP-1965-book1, p. 412: NOTE: The President spoke at 4:20 p.m. on the front lawn of the former Junction Elementary School, Johnson City, Tex.'
   - id: cal.1965-04-14.south-asia
     local: '10:35'
     zone: America/New_York
@@ -4745,6 +5534,12 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, XXV, doc. 102: Telegram From the Department of State to the Embassy in India'
     zone_check: true
+  - id: cal.1965-04-17.vietnam
+    local: '12:10'
+    zone: America/Chicago
+    time: 1965-04-17T18:10Z
+    source: ppp
+    basis: 'PPP-1965-book1, p. 428: NOTE: The President read the statement to members of the press at 12:10 p.m. on the front lawn at the LBJ Ranch, Johnson City, Tex.'
   - id: cal.1965-04-22.vietnam
     local: '12:34'
     zone: America/New_York
@@ -4798,6 +5593,12 @@ proposals:
     local: '20:40'
     zone: America/New_York
     time: 1965-04-29T00:40Z
+    source: ppp
+    basis: 'PPP-1965-book1, p. 461: NOTE: The President read the statement on a television broadcast transmitted at 8:40 p.m. from the Theater at the White House.'
+  - id: cal.1965-04-28.latin-america
+    local: '20:40'
+    zone: America/New_York
+    time: 1965-04-29T00:40Z
     source: text
     basis: 'the entry''s text: ''8:40 p.m.'''
     zone_check: true
@@ -4822,6 +5623,12 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, XXXII, doc. 46: Telegram From the Department of State to the Embassy in the Dominican Republic'
     zone_check: true
+  - id: cal.1965-04-30.latin-america
+    local: '19:07'
+    zone: America/New_York
+    time: 1965-04-30T23:07Z
+    source: ppp
+    basis: 'PPP-1965-book1, p. 465: NOTE: The President read the statement to members of the press at 7:07 p.m. in the Theater at the White House.'
   - id: cal.1965-05-02.latin-america
     local: '13:42'
     zone: America/New_York
@@ -4829,6 +5636,18 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, XXXII, doc. 52: Telegram From the Department of State to the Embassy in the Dominican Republic'
     zone_check: true
+  - id: cal.1965-05-04.vietnam
+    local: '12:20'
+    zone: America/New_York
+    time: 1965-05-04T16:20Z
+    source: ppp
+    basis: 'PPP-1965-book1, p. 492: NOTE: The President spoke at 12:20 p.m. in the Rose Garden at the White House.'
+  - id: cal.1965-05-04.vietnam
+    local: '10:10'
+    zone: America/New_York
+    time: 1965-05-04T14:10Z
+    source: ppp
+    basis: 'PPP-1965-book1, p. 484: NOTE: The President spoke at 10:10 a.m. in the East Room at the White House to the Members of the House and Senate Appropriations, Foreign R'
   - id: cal.1965-05-06.latin-america
     local: '14:00'
     zone: America/New_York
@@ -4850,6 +5669,12 @@ proposals:
     source: text
     basis: 'the entry''s text: ''midnight'''
     zone_check: true
+  - id: cal.1965-05-07.vietnam
+    local: 09:20
+    zone: America/New_York
+    time: 1965-05-07T13:20Z
+    source: ppp
+    basis: 'PPP-1965-book1, p. 505: NOTE: The President spoke at 9:20 a.m. in the East Room at the White House.'
   - id: cal.1965-05-10.vietnam-mayflower
     local: '19:39'
     zone: Asia/Bangkok
@@ -4869,6 +5694,12 @@ proposals:
     time: 1965-05-12T16:00Z
     source: text
     basis: 'the entry''s text: ''noon'''
+  - id: cal.1965-05-13.vietnam-mayflower
+    local: '11:00'
+    zone: America/New_York
+    time: 1965-05-13T15:00Z
+    source: ppp
+    basis: 'PPP-1965-book1, p. 522: NOTE: The President spoke at 11 a.m. in the East Room at the White House.'
   - id: cal.1965-05-16.latin-america
     local: 02:45
     zone: America/New_York
@@ -4883,6 +5714,12 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, II, doc. 304: Notes of a Meeting'
     zone_check: true
+  - id: cal.1965-05-17.economy
+    local: '11:52'
+    zone: America/New_York
+    time: 1965-05-17T15:52Z
+    source: ppp
+    basis: 'PPP-1965-book1, p. 538: NOTE: The President spoke at 11:52 a.m. on the South Lawn at the White House where President Chung Hee Park was given a formal welcome with '
   - id: cal.1965-05-17.japan-and-korea
     local: '15:00'
     zone: America/New_York
@@ -4897,6 +5734,24 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, XXIX, pt. 1, doc. 48: Memorandum of Conversation'
     zone_check: true
+  - id: cal.1965-05-17.japan-and-korea
+    local: '11:52'
+    zone: America/New_York
+    time: 1965-05-17T15:52Z
+    source: ppp
+    basis: 'PPP-1965-book1, p. 538: NOTE: The President spoke at 11:52 a.m. on the South Lawn at the White House where President Chung Hee Park was given a formal welcome with '
+  - id: cal.1965-05-18.poverty
+    local: '12:20'
+    zone: America/New_York
+    time: 1965-05-18T16:20Z
+    source: ppp
+    basis: 'PPP-1965-book1, p. 556: NOTE: The President spoke at 12:20 p.m. in the Rose Garden at the White House.'
+  - id: cal.1965-05-25.voting-rights
+    local: '18:12'
+    zone: America/New_York
+    time: 1965-05-25T22:12Z
+    source: ppp
+    basis: 'PPP-1965-book1, p. 576: NOTE: The President spoke at 6:12 p.m. in the East Room at the White House.'
   - id: cal.1965-05-26.latin-america
     local: '16:35'
     zone: America/New_York
@@ -4904,6 +5759,12 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, XXXII, doc. 97: Memorandum for the Record'
     zone_check: true
+  - id: cal.1965-06-04.civil-rights-the-executive
+    local: '18:35'
+    zone: America/New_York
+    time: 1965-06-04T22:35Z
+    source: ppp
+    basis: 'PPP-1965-book2, p. 635: NOTE: The President spoke at 6:35 p.m. on the Main Quadrangle in front of the library at Howard University in Washington, after being awarde'
   - id: cal.1965-06-04.vietnam
     local: '10:10'
     zone: America/New_York
@@ -4958,6 +5819,12 @@ proposals:
     basis: 'FRUS 1964–68, III, doc. 4: Telegram From the White House to the Embassy in the United Kingdom'
     zone_check: true
   - id: cal.1965-06-21.economy
+    local: '16:00'
+    zone: America/New_York
+    time: 1965-06-21T20:00Z
+    source: ppp
+    basis: 'PPP-1965-book2, p. 691: NOTE: The President spoke at 4 p.m. in the East Room at the White House.'
+  - id: cal.1965-06-21.economy
     local: 00:00
     zone: America/New_York
     time: 1965-06-21T04:00Z
@@ -4998,6 +5865,18 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, XXXII, doc. 111: Telegram From the Embassy in the Dominican Republic to the Department of State'
     zone_check: true
+  - id: cal.1965-06-25.vietnam
+    local: '11:30'
+    zone: America/Los_Angeles
+    time: 1965-06-25T18:30Z
+    source: ppp
+    basis: 'PPP-1965-book2, p. 703: NOTE: The President spoke at 11:30 a.m. at the San Francisco Opera House.'
+  - id: cal.1965-06-30.cities-and-housing
+    local: '12:10'
+    zone: America/New_York
+    time: 1965-06-30T16:10Z
+    source: ppp
+    basis: 'PPP-1965-book2, p. 711: NOTE: The ceremony was held at 12:10 p.m. in the Cabinet Room at the White House.'
   - id: cal.1965-06-30.european-community
     local: 00:00
     zone: America/New_York
@@ -5045,6 +5924,24 @@ proposals:
     time: 1965-07-02T15:02Z
     source: rec
     basis: Miller Center, https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-dwight-eisenhower-july-2-1965
+  - id: cal.1965-07-08.vietnam
+    local: '12:23'
+    zone: America/New_York
+    time: 1965-07-08T16:23Z
+    source: ppp
+    basis: 'PPP-1965-book2, p. 724: NOTE: The President spoke at 12:23 p.m. in the Rose Garden at the White House just prior to signing Proclamation 3662 “World Law Day” (30 F.'
+  - id: cal.1965-07-14.transition-and-staff
+    local: '14:10'
+    zone: America/New_York
+    time: 1965-07-14T18:10Z
+    source: ppp
+    basis: 'PPP-1965-book2, p. 746: NOTE: The President spoke at 2:10 p.m. in the State Dining Room at the White House.'
+  - id: cal.1965-07-14.welfare
+    local: '11:55'
+    zone: America/New_York
+    time: 1965-07-14T15:55Z
+    source: ppp
+    basis: 'PPP-1965-book2, p. 744: NOTE: The President spoke at 11:55 a.m. in the Rose Garden at the White House.'
   - id: cal.1965-07-21.vietnam
     local: 09:40
     zone: America/New_York
@@ -5093,6 +5990,12 @@ proposals:
     source: text
     basis: 'the entry''s text: ''5:46 p.m.'''
     zone_check: true
+  - id: cal.1965-07-27.transition-and-staff
+    local: '10:30'
+    zone: America/New_York
+    time: 1965-07-27T14:30Z
+    source: ppp
+    basis: 'PPP-1965-book2, p. 788: 790] NOTE: The President spoke at 10:30 a.m. in the Rose Garden at the White House.'
   - id: cal.1965-07-27.vietnam
     local: '16:40'
     zone: America/New_York
@@ -5113,6 +6016,13 @@ proposals:
     time: 1965-07-27T19:30Z
     source: text
     basis: 'the entry''s text: ''3:30 p.m.'''
+    zone_check: true
+  - id: cal.1965-07-30.medicare
+    local: '14:55'
+    zone: America/New_York
+    time: 1965-07-30T18:55Z
+    source: ppp
+    basis: 'PPP-1965-book2, p. 811: NOTE: The President spoke at 2:55 p.m. in the auditorium of the Harry S.'
     zone_check: true
   - id: cal.1965-08-05.economy
     local: '20:30'
@@ -5167,6 +6077,12 @@ proposals:
     time: 1965-08-06T16:00Z
     source: text
     basis: 'the entry''s text: ''noon'''
+  - id: cal.1965-08-10.cities-and-housing
+    local: '12:02'
+    zone: America/New_York
+    time: 1965-08-10T16:02Z
+    source: ppp
+    basis: 'PPP-1965-book2, p. 861: NOTE: The President spoke at 12:02 p.m. in the Rose Garden at the White House.'
   - id: cal.1965-08-10.vietnam-support
     local: '16:30'
     zone: America/New_York
@@ -5194,6 +6110,36 @@ proposals:
     time: 1965-08-20T21:10Z
     source: rec
     basis: Miller Center, https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-martin-luther-king-lee-white-and-office
+  - id: cal.1965-08-24.peace-corps
+    local: '12:12'
+    zone: America/New_York
+    time: 1965-08-24T16:12Z
+    source: ppp
+    basis: 'PPP-1965-book2, p. 912: NOTE: The President spoke at 12:12 p.m. in the Rose Garden at the White House.'
+  - id: cal.1965-08-25.economy
+    local: 08:00
+    zone: America/New_York
+    time: 1965-08-25T12:00Z
+    source: ppp
+    basis: 'PPP-1965-book2, p. 916: NOTE: The President discussed the new system with members of the Cabinet and heads of Government agencies at a breakfast meeting at 8 a.m. a'
+  - id: cal.1965-08-25.space
+    local: 08:00
+    zone: America/New_York
+    time: 1965-08-25T12:00Z
+    source: ppp
+    basis: 'PPP-1965-book2, p. 916: NOTE: The President discussed the new system with members of the Cabinet and heads of Government agencies at a breakfast meeting at 8 a.m. a'
+  - id: cal.1965-08-26.jobs-and-wages
+    local: 09:34
+    zone: America/New_York
+    time: 1965-08-26T13:34Z
+    source: ppp
+    basis: 'PPP-1965-book2, p. 930: NOTE: The President spoke at 9:34 a.m. in the East Room at the White House.'
+  - id: cal.1965-08-26.states-and-cities
+    local: 09:34
+    zone: America/New_York
+    time: 1965-08-26T13:34Z
+    source: ppp
+    basis: 'PPP-1965-book2, p. 930: NOTE: The President spoke at 9:34 a.m. in the East Room at the White House.'
   - id: cal.1965-08-27.robert-kennedy
     local: '12:30'
     zone: America/New_York
@@ -5201,6 +6147,18 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, XXXI, doc. 31: Memorandum of Telephone Conversation'
     zone_check: true
+  - id: cal.1965-08-29.space
+    local: 09:00
+    zone: America/Chicago
+    time: 1965-08-29T14:00Z
+    source: ppp
+    basis: 'PPP-1965-book2, p. 942: , at 9 a.m. from the LBJ Ranch at Johnson City, Tex.'
+  - id: cal.1965-08-29.transition-and-staff
+    local: 09:00
+    zone: America/Chicago
+    time: 1965-08-29T14:00Z
+    source: ppp
+    basis: 'PPP-1965-book2, p. 942: , at 9 a.m. from the LBJ Ranch at Johnson City, Tex.'
   - id: cal.1965-08-30.goldwater
     local: '14:58'
     zone: America/New_York
@@ -5213,6 +6171,12 @@ proposals:
     time: 1965-08-30T18:58Z
     source: text
     basis: 'the entry''s text: ''2:58 p.m.'''
+  - id: cal.1965-08-30.steel
+    local: '21:00'
+    zone: America/New_York
+    time: 1965-08-31T01:00Z
+    source: ppp
+    basis: 'PPP-1965-book2, p. 952: NOTE: The President read the statement at 9 p.m. in the White House Theater.'
   - id: cal.1965-08-31.india-and-china
     local: '15:00'
     zone: America/New_York
@@ -5234,6 +6198,24 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, XXXII, doc. 130: Telegram From the Embassy in the Dominican Republic to the Department of State'
     zone_check: true
+  - id: cal.1965-09-03.latin-america
+    local: '18:30'
+    zone: America/New_York
+    time: 1965-09-03T22:30Z
+    source: ppp
+    basis: 'PPP-1965-book2, p. 968: NOTE: The President spoke at 6:30 p.m. in the White House Theater.'
+  - id: cal.1965-09-03.states-and-cities
+    local: '14:00'
+    zone: America/New_York
+    time: 1965-09-03T18:00Z
+    source: ppp
+    basis: 'PPP-1965-book2, p. 966: NOTE: The President spoke at 2 p.m. in the White House Theater.'
+  - id: cal.1965-09-03.steel
+    local: '18:30'
+    zone: America/New_York
+    time: 1965-09-03T22:30Z
+    source: ppp
+    basis: 'PPP-1965-book2, p. 968: NOTE: The President spoke at 6:30 p.m. in the White House Theater.'
   - id: cal.1965-09-06.india-and-china
     local: 09:30
     zone: America/New_York
@@ -5241,6 +6223,12 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, XXV, doc. 187: Telegram From the Office in Pakistan to the Department of State'
     zone_check: true
+  - id: cal.1965-09-09.cities-and-housing
+    local: '10:06'
+    zone: America/New_York
+    time: 1965-09-09T14:06Z
+    source: ppp
+    basis: 'PPP-1965-book2, p. 985: NOTE: The President spoke at 10:06 a.m. in the Rose Garden at the White House.'
   - id: cal.1965-09-13.vietnam
     local: '14:20'
     zone: Asia/Bangkok
@@ -5261,12 +6249,37 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, XXX, doc. 101: Telegram From the Embassy in Poland to the Department of State'
     zone_check: true
+  - id: cal.1965-09-16.latin-america
+    local: '16:33'
+    zone: America/New_York
+    time: 1965-09-16T20:33Z
+    source: ppp
+    basis: 'PPP-1965-book2, p. 1003: NOTE: The President spoke at 4:33 p.m. on the south side of the Mall in front of the Smithsonian Institution.'
+    zone_check: true
   - id: cal.1965-09-20.india-and-china
     local: '18:00'
     zone: America/New_York
     time: 1965-09-20T22:00Z
     source: text
     basis: 'the entry''s text: ''6 p.m.'''
+  - id: cal.1965-09-24.latin-america
+    local: '13:35'
+    zone: America/New_York
+    time: 1965-09-24T17:35Z
+    source: ppp
+    basis: 'PPP-1965-book2, p. 1020: NOTE: The President read the statement at 1:35 p.m. in the White House Theater.'
+  - id: cal.1965-09-29.program
+    local: 09:50
+    zone: America/New_York
+    time: 1965-09-29T13:50Z
+    source: ppp
+    basis: 'PPP-1965-book2, p. 1022: NOTE: The President spoke at 9:50 a.m. in the Rose Garden at the White House.'
+  - id: cal.1965-09-30.transportation
+    local: 09:45
+    zone: America/New_York
+    time: 1965-09-30T13:45Z
+    source: ppp
+    basis: 'PPP-1965-book2, p. 1024: NOTE: The President spoke at 9:45 a.m. in the East Room at the White House.'
   - id: cal.1965-10-01.india-and-china
     local: 06:20
     zone: America/New_York
@@ -5274,6 +6287,18 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, XXVI, doc. 142: Memorandum for President Johnson'
     zone_check: true
+  - id: cal.1965-10-02.conservation
+    local: '10:04'
+    zone: America/New_York
+    time: 1965-10-02T14:04Z
+    source: ppp
+    basis: 'PPP-1965-book2, p. 1034: NOTE: The President spoke at 10:04 a.m. in the East Room at the White House before a group composed of United States Senators, Representativ'
+  - id: cal.1965-10-03.immigration
+    local: '15:08'
+    zone: America/New_York
+    time: 1965-10-03T19:08Z
+    source: ppp
+    basis: 'PPP-1965-book2, p. 1037: NOTE: The President spoke at 3:08 p.m. on Liberty Island in New York Harbor before a group of several hundred guests who had crossed to the '
   - id: cal.1965-10-05.africa
     local: '14:17'
     zone: Europe/London
@@ -5295,6 +6320,13 @@ proposals:
     source: text
     basis: 'the entry''s text: ''11 a.m.'''
     zone_check: true
+  - id: cal.1965-10-20.conservation
+    local: 09:05
+    zone: America/New_York
+    time: 1965-10-20T13:05Z
+    source: ppp
+    basis: 'PPP-1965-book2, p. 1066: NOTE: The President spoke at 9:05 a.m. in his room at the Naval Hospital, Bethesda, Md.'
+    zone_check: true
   - id: cal.1965-10-21.vietnam
     local: 05:00
     zone: Asia/Ho_Chi_Minh
@@ -5302,6 +6334,12 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, III, doc. 176: Telegram From the Embassy in Vietnam to the Department of State'
     zone_check: true
+  - id: cal.1965-10-22.conservation
+    local: '14:16'
+    zone: America/New_York
+    time: 1965-10-22T18:16Z
+    source: ppp
+    basis: 'PPP-1965-book2, p. 1072: NOTE: The President spoke at 2:16 p.m. in the East Room at the White House.'
   - id: cal.1965-10-23.congress
     local: 00:00
     zone: America/New_York
@@ -5316,12 +6354,32 @@ proposals:
     source: text
     basis: 'the entry''s text: ''12:51 a.m.'''
     zone_check: true
+  - id: cal.1965-11-03.farm
+    local: '11:54'
+    zone: America/New_York
+    time: 1965-11-03T16:54Z
+    source: ppp
+    basis: 'PPP-1965-book2, p. 1093: NOTE: The President spoke at 11:54 a.m. at the post office in Hye, Tex.'
+    zone_check: true
+  - id: cal.1965-11-03.transition-and-staff
+    local: '11:13'
+    zone: America/Chicago
+    time: 1965-11-03T17:13Z
+    source: ppp
+    basis: 'PPP-1965-book2, p. 1091: NOTE: The President spoke at 11:13 a.m. at the LBJ Ranch, Johnson City, Tex.'
   - id: cal.1965-11-08.middle-east
     local: '19:56'
     zone: America/New_York
     time: 1965-11-09T00:56Z
     source: frus
     basis: 'FRUS 1964–68, XXI, doc. 257: Telegram From the Department of State to the Embassy in Saudi Arabia'
+    zone_check: true
+  - id: cal.1965-11-08.school-aid
+    local: '12:30'
+    zone: America/New_York
+    time: 1965-11-08T17:30Z
+    source: ppp
+    basis: 'PPP-1965-book2, p. 1102: NOTE: The President spoke at 12:30 p.m. in the Strahan Gymnasium at Southwest Texas State College, San Marcos, Tex.'
     zone_check: true
   - id: cal.1965-11-09.states-and-cities
     local: '17:16'
@@ -5492,6 +6550,18 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, XXV, doc. 265: Memorandum of Conversation'
     zone_check: true
+  - id: cal.1965-12-14.india-and-china
+    local: '11:12'
+    zone: America/New_York
+    time: 1965-12-14T16:12Z
+    source: ppp
+    basis: 'PPP-1965-book2, p. 1152: NOTE: The President spoke at 11:12 a.m. on the South Lawn at the White House, where President Mohammed Ayub Khan was given a formal welcome '
+  - id: cal.1965-12-14.india-and-china
+    local: '22:15'
+    zone: America/New_York
+    time: 1965-12-15T03:15Z
+    source: ppp
+    basis: 'PPP-1965-book2, p. 1153: NOTE: The President proposed the toast at 10:15 p.m. at a dinner in the State Dining Room at the White House.'
   - id: cal.1965-12-14.vietnam-pause
     local: '19:45'
     zone: America/New_York
@@ -5576,11 +6646,23 @@ proposals:
     basis: 'FRUS 1964–68, XIII, doc. 120: Memorandum of Conversation'
     zone_check: true
   - id: cal.1965-12-20.europe-and-the-alliance
+    local: '22:05'
+    zone: America/New_York
+    time: 1965-12-21T03:05Z
+    source: ppp
+    basis: 'PPP-1965-book2, p. 1161: NOTE: The President proposed the toast at 10:05 p.m. in the State Dining Room at the White House.'
+  - id: cal.1965-12-20.europe-and-the-alliance
     local: 09:12
     zone: America/New_York
     time: 1965-12-20T14:12Z
     source: rec
     basis: Miller Center, https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-robert-mcnamara-december-20-1965
+  - id: cal.1965-12-20.japan-and-korea
+    local: '22:05'
+    zone: America/New_York
+    time: 1965-12-21T03:05Z
+    source: ppp
+    basis: 'PPP-1965-book2, p. 1161: NOTE: The President proposed the toast at 10:05 p.m. in the State Dining Room at the White House.'
   - id: cal.1965-12-21.vietnam-pause
     local: '12:25'
     zone: America/New_York
@@ -5737,6 +6819,18 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, IV, doc. 19: Memorandum of Telephone Conversation Between President Johnson and the Under Secretary of '
     zone_check: true
+  - id: cal.1966-01-17.cities-and-housing
+    local: '16:14'
+    zone: America/New_York
+    time: 1966-01-17T21:14Z
+    source: ppp
+    basis: 'PPP-1966-book1, p. 24: NOTE: The President spoke at 4:14 p.m. in the Fish Room at the White House during a news briefing conducted by Bill D.'
+  - id: cal.1966-01-17.transition-and-staff
+    local: '16:14'
+    zone: America/New_York
+    time: 1966-01-17T21:14Z
+    source: ppp
+    basis: 'PPP-1966-book1, p. 24: NOTE: The President spoke at 4:14 p.m. in the Fish Room at the White House during a news briefing conducted by Bill D.'
   - id: cal.1966-01-17.vietnam-pause
     local: 09:15
     zone: America/New_York
@@ -5913,6 +7007,12 @@ proposals:
     time: 1966-02-04T02:25Z
     source: text
     basis: 'the entry''s text: ''4:25 p.m.'''
+  - id: cal.1966-02-04.civil-rights-the-executive
+    local: '11:38'
+    zone: America/New_York
+    time: 1966-02-04T16:38Z
+    source: ppp
+    basis: 'PPP-1966-book1, p. 141: NOTE: The President spoke at 11:38 a.m. in the Theater at the White House.'
   - id: cal.1966-02-05.vietnam-hearings
     local: 08:27
     zone: America/New_York
@@ -5920,6 +7020,18 @@ proposals:
     source: text
     basis: 'the entry''s text: ''8:27 a.m.'''
     zone_check: true
+  - id: cal.1966-02-08.vietnam-humphrey
+    local: '21:40'
+    zone: America/Los_Angeles
+    time: 1966-02-09T05:40Z
+    source: ppp
+    basis: 'PPP-1966-book1, p. 155: NOTE: The President spoke at 9:40 p.m. at the Los Angeles International Airport.'
+  - id: cal.1966-02-10.foreign-aid
+    local: '11:30'
+    zone: America/New_York
+    time: 1966-02-10T16:30Z
+    source: ppp
+    basis: 'PPP-1966-book1, p. 161: NOTE: The President spoke at 11:30 a.m. in the East Room at the White House.'
   - id: cal.1966-02-11.vietnam-hearings-2
     local: 09:00
     zone: America/New_York
@@ -6029,6 +7141,18 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, XVIII, doc. 275: Telegram From the Department of State to the Embassy in Jordan'
     zone_check: true
+  - id: cal.1966-02-23.vietnam
+    local: '17:40'
+    zone: America/New_York
+    time: 1966-02-23T22:40Z
+    source: ppp
+    basis: 'PPP-1966-book1, p. 205: NOTE: The President spoke at 5:40 p.m. on the South Lawn at the White House.'
+  - id: cal.1966-02-23.vietnam-humphrey
+    local: '17:40'
+    zone: America/New_York
+    time: 1966-02-23T22:40Z
+    source: ppp
+    basis: 'PPP-1966-book1, p. 205: NOTE: The President spoke at 5:40 p.m. on the South Lawn at the White House.'
   - id: cal.1966-02-24.vietnam-congress
     local: 08:00
     zone: America/New_York
@@ -6063,6 +7187,12 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, IV, doc. 87: Telephone Conversation Between President Johnson and Senator Mike Mansfield'
     zone_check: true
+  - id: cal.1966-03-03.school-aid
+    local: '11:10'
+    zone: America/New_York
+    time: 1966-03-03T16:10Z
+    source: ppp
+    basis: 'PPP-1966-book1, p. 263: NOTE: The President spoke at 11:10 a.m. in the East Room at the White House.'
   - id: cal.1966-03-11.europe-and-the-alliance-france
     local: '14:15'
     zone: America/New_York
@@ -6090,6 +7220,24 @@ proposals:
     time: 1966-03-15T00:49Z
     source: rec
     basis: Miller Center, https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-cartha-deloach-march-15-1966
+  - id: cal.1966-03-15.vietnam-supplemental
+    local: 09:05
+    zone: America/New_York
+    time: 1966-03-15T14:05Z
+    source: ppp
+    basis: 'PPP-1966-book1, p. 321: NOTE: The President spoke at 9:05 a.m. in the East Room at the White House.'
+  - id: cal.1966-03-16.foreign-aid
+    local: 09:40
+    zone: America/New_York
+    time: 1966-03-16T14:40Z
+    source: ppp
+    basis: 'PPP-1966-book1, p. 327: NOTE: The President spoke at 9:40 a.m. in the East Room at the White House.'
+  - id: cal.1966-03-16.space
+    local: '12:10'
+    zone: America/New_York
+    time: 1966-03-16T17:10Z
+    source: ppp
+    basis: 'PPP-1966-book1, p. 329: NOTE: The President spoke at 12:10 p.m. in the Fish Room at the White House after receiving the Robert H.'
   - id: cal.1966-03-16.vietnam-struggle
     local: '16:13'
     zone: America/New_York
@@ -6111,6 +7259,19 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, XIII, doc. 147: Telegram From the Mission to the North Atlantic Treaty Organization and European Regional '
     zone_check: true
+  - id: cal.1966-03-23.europe-and-the-alliance-france
+    local: 09:33
+    zone: America/New_York
+    time: 1966-03-23T14:33Z
+    source: ppp
+    basis: 'PPP-1966-book1, p. 351: NOTE: The President spoke at 9:33 a.m. in the Department of State auditorium.'
+    zone_check: true
+  - id: cal.1966-03-28.india-and-china
+    local: '11:10'
+    zone: America/New_York
+    time: 1966-03-28T16:10Z
+    source: ppp
+    basis: 'PPP-1966-book1, p. 358: NOTE: The President spoke at 11:10 a.m. on the South Lawn at the White House, where Prime Minister Indira Gandhi was given a formal welcome '
   - id: cal.1966-03-30.vietnam-struggle
     local: '17:21'
     zone: Asia/Ho_Chi_Minh
@@ -6118,6 +7279,18 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, IV, doc. 107: Telegram From the Department of State to the Embassy in Vietnam'
     zone_check: true
+  - id: cal.1966-03-31.economy
+    local: '10:50'
+    zone: America/New_York
+    time: 1966-03-31T15:50Z
+    source: ppp
+    basis: 'PPP-1966-book1, p. 373: NOTE: The President spoke at 10:50 a.m. in the International Ballroom at the Washington Hilton Hotel before the Second National Legislative '
+  - id: cal.1966-03-31.health-us
+    local: '12:15'
+    zone: America/New_York
+    time: 1966-03-31T17:15Z
+    source: ppp
+    basis: 'PPP-1966-book1, p. 381: NOTE: The President spoke at 12:15 p.m. in the Cabinet Room at the White House.'
   - id: cal.1966-04-02.vietnam
     local: '13:30'
     zone: America/New_York
@@ -6192,6 +7365,13 @@ proposals:
     time: 1966-04-05T16:00Z
     source: text
     basis: 'the entry''s text: ''midnight'''
+  - id: cal.1966-04-08.medicare
+    local: '11:45'
+    zone: America/New_York
+    time: 1966-04-08T16:45Z
+    source: ppp
+    basis: 'PPP-1966-book1, p. 404: NOTE: The President spoke at 11:45 a.m. at Victoria Plaza in San Antonio, Texas, at a ceremony marking the signing of the bill (Public Law 8'
+    zone_check: true
   - id: cal.1966-04-09.vietnam
     local: 07:00
     zone: America/New_York
@@ -6215,8 +7395,8 @@ proposals:
     zone_check: true
   - id: cal.1966-04-17.europe-and-the-alliance-france
     local: '12:30'
-    zone: America/Chicago
-    time: 1966-04-17T18:30Z
+    zone: Europe/Berlin
+    time: 1966-04-17T11:30Z
     source: frus
     basis: 'FRUS 1964–68, XIII, doc. 156: Telegram From the Embassy in Germany to the Department of State'
     zone_check: true
@@ -6269,6 +7449,13 @@ proposals:
     source: text
     basis: 'the entry''s text: ''about 3 p.m.'''
     approx: true
+  - id: cal.1966-05-17.vietnam
+    local: '20:00'
+    zone: America/New_York
+    time: 1966-05-18T00:00Z
+    source: ppp
+    basis: 'PPP-1966-book1, p. 513: NOTE: The President spoke at 8 p.m. following the dinner at McCormick Place.'
+    zone_check: true
   - id: cal.1966-05-19.europe-and-the-alliance-france
     local: '18:00'
     zone: America/New_York
@@ -6297,6 +7484,12 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, XXIV, doc. 211: Memorandum From the President’s Special Assistant (Moyers) to President Johnson'
     zone_check: true
+  - id: cal.1966-05-26.africa
+    local: '18:55'
+    zone: America/New_York
+    time: 1966-05-26T22:55Z
+    source: ppp
+    basis: 'PPP-1966-book1, p. 556: NOTE: The President spoke at 6:55 p.m. in the East Room at the White House to the ambassadors of the 36 member states of the Organization of'
   - id: cal.1966-06-01.vietnam
     local: '20:13'
     zone: America/New_York
@@ -6334,6 +7527,12 @@ proposals:
     time: 1966-06-10T01:45Z
     source: text
     basis: 'the entry''s text: ''8:45 a.m.'''
+  - id: cal.1966-06-15.medicare
+    local: '11:10'
+    zone: America/New_York
+    time: 1966-06-15T15:10Z
+    source: ppp
+    basis: 'PPP-1966-book1, p. 605: NOTE: The President spoke at 11:10 a.m. in the East Room at the White House before a meeting attended by approximately 300 representatives o'
   - id: cal.1966-06-17.vietnam-2
     local: '17:05'
     zone: Asia/Bangkok
@@ -6354,6 +7553,18 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, XXI, doc. 276: Memorandum of Conversation'
     zone_check: true
+  - id: cal.1966-06-21.middle-east
+    local: '11:40'
+    zone: America/New_York
+    time: 1966-06-21T15:40Z
+    source: ppp
+    basis: 'PPP-1966-book1, p. 640: NOTE: The President spoke at 11:40 a.m. on the South Lawn at the White House, where King Faisal ibn Abd al-Aziz al-Saud was given a formal w'
+  - id: cal.1966-06-22.crime-and-hijacking
+    local: 09:40
+    zone: America/New_York
+    time: 1966-06-22T13:40Z
+    source: ppp
+    basis: 'PPP-1966-book1, p. 644: NOTE: The President spoke at 9:40 a.m. in the East Room at the White House.'
   - id: cal.1966-06-22.vietnam-2
     local: '12:30'
     zone: Asia/Bangkok
@@ -6366,6 +7577,12 @@ proposals:
     time: 1966-06-22T11:10Z
     source: text
     basis: 'the entry''s text: ''7:10 p.m.'''
+  - id: cal.1966-06-24.transportation
+    local: '11:15'
+    zone: America/New_York
+    time: 1966-06-24T15:15Z
+    source: ppp
+    basis: 'PPP-1966-book1, p. 649: NOTE: The President spoke at 11:15 a.m. in the Cabinet Room at the White House.'
   - id: cal.1966-06-28.latin-america
     local: 01:40
     zone: America/New_York
@@ -6394,6 +7611,12 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, XXXI, doc. 134: Telegram From the Department of State to Secretary of State Rusk in Australia'
     zone_check: true
+  - id: cal.1966-06-28.medicare
+    local: '12:32'
+    zone: America/New_York
+    time: 1966-06-28T16:32Z
+    source: ppp
+    basis: 'PPP-1966-book1, p. 657: NOTE: The President spoke at 12:32 p.m. in the Fish Room at the White House.'
   - id: cal.1966-06-29.middle-east
     local: 09:00
     zone: America/New_York
@@ -6401,6 +7624,12 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, XXII, doc. 148: Telegram From the Embassy in Iran to the Department of State'
     zone_check: true
+  - id: cal.1966-06-29.vietnam
+    local: '12:25'
+    zone: America/New_York
+    time: 1966-06-29T16:25Z
+    source: ppp
+    basis: 'PPP-1966-book1, p. 664: NOTE: The President spoke at 12:25 p.m. on the South Lawn at the White House, where Prime Minister Harold E.'
   - id: cal.1966-07-02.states-and-cities-omaha
     local: 00:30
     zone: America/New_York
@@ -6415,6 +7644,12 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, XII, doc. 261: Telegram From the Embassy in the United Kingdom to the Department of State'
     zone_check: true
+  - id: cal.1966-07-12.india-and-china
+    local: '20:32'
+    zone: America/New_York
+    time: 1966-07-13T00:32Z
+    source: ppp
+    basis: 'PPP-1966-book2, p. 718: NOTE: The President spoke at 8:32 p.m. in the Theater at the White House.'
   - id: cal.1966-07-13.middle-east-iran-arms
     local: 09:30
     zone: America/New_York
@@ -6457,6 +7692,18 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, VIII, doc. 102: Memorandum of Conversation Between U.S. and British Officials'
     zone_check: true
+  - id: cal.1966-07-29.europe-and-the-alliance
+    local: '14:10'
+    zone: America/New_York
+    time: 1966-07-29T18:10Z
+    source: ppp
+    basis: 'PPP-1966-book2, p. 790: NOTE: The President spoke at 2:10 p.m. at lunch in the State Dining Room at the White House.'
+  - id: cal.1966-07-29.jobs-and-wages-airlines
+    local: '14:10'
+    zone: America/New_York
+    time: 1966-07-29T18:10Z
+    source: ppp
+    basis: 'PPP-1966-book2, p. 790: NOTE: The President spoke at 2:10 p.m. at lunch in the State Dining Room at the White House.'
   - id: cal.1966-07-29.jobs-and-wages-airlines
     local: '21:52'
     zone: America/New_York
@@ -6514,18 +7761,29 @@ proposals:
     zone_check: true
   - id: cal.1966-08-23.europe-and-the-alliance
     local: '15:00'
-    zone: America/New_York
-    time: 1966-08-23T19:00Z
+    zone: Europe/Berlin
+    time: 1966-08-23T14:00Z
     source: frus
     basis: 'FRUS 1964–68, XIII, doc. 197: Briefing Memorandum From the President’s Deputy Special Assistant for National Security Af'
     zone_check: true
   - id: cal.1966-08-23.europe-and-the-alliance
     local: '18:30'
-    zone: America/New_York
-    time: 1966-08-23T22:30Z
+    zone: Europe/Berlin
+    time: 1966-08-23T17:30Z
     source: text
     basis: 'the entry''s text: ''6:30 p.m.'''
-    zone_check: true
+  - id: cal.1966-08-25.civil-rights-the-executive
+    local: '13:00'
+    zone: America/New_York
+    time: 1966-08-25T17:00Z
+    source: ppp
+    basis: 'PPP-1966-book2, p. 893: NOTE: The President spoke at 1 p.m. in the Cabinet Room at the White House.'
+  - id: cal.1966-08-25.civil-rights-the-executive
+    local: '11:15'
+    zone: America/New_York
+    time: 1966-08-25T15:15Z
+    source: ppp
+    basis: 'PPP-1966-book2, p. 891: NOTE: The President spoke at 11:15 a.m. in the Rose Garden at the White House.'
   - id: cal.1966-08-29.vietnam-force-levels
     local: '10:00'
     zone: Asia/Ho_Chi_Minh
@@ -6562,6 +7820,12 @@ proposals:
     source: text
     basis: 'the entry''s text: ''1:05 p.m.'''
     zone_check: true
+  - id: cal.1966-09-09.transportation
+    local: '12:25'
+    zone: America/New_York
+    time: 1966-09-09T16:25Z
+    source: ppp
+    basis: 'PPP-1966-book2, p. 1001: NOTE: The President spoke at 12:25 p.m. in his office at the White House.'
   - id: cal.1966-09-19.vietnam
     local: '17:30'
     zone: America/New_York
@@ -6575,40 +7839,70 @@ proposals:
     source: text
     basis: 'the entry''s text: ''5:30 p.m.'''
     zone_check: true
+  - id: cal.1966-09-21.economy
+    local: 09:40
+    zone: America/New_York
+    time: 1966-09-21T13:40Z
+    source: ppp
+    basis: 'PPP-1966-book2, p. 1044: NOTE: The President spoke at 9:40 a.m. in the Cabinet Room at the White House.'
+  - id: cal.1966-09-21.transition-and-staff
+    local: 09:40
+    zone: America/New_York
+    time: 1966-09-21T13:40Z
+    source: ppp
+    basis: 'PPP-1966-book2, p. 1044: NOTE: The President spoke at 9:40 a.m. in the Cabinet Room at the White House.'
+  - id: cal.1966-09-23.jobs-and-wages
+    local: '11:07'
+    zone: America/New_York
+    time: 1966-09-23T15:07Z
+    source: ppp
+    basis: 'PPP-1966-book2, p. 1060: NOTE: The President spoke at 11:07 a.m. in the Cabinet Room at the White House.'
   - id: cal.1966-09-26.europe-and-the-alliance
     local: '10:00'
-    zone: America/New_York
-    time: 1966-09-26T14:00Z
+    zone: Europe/Berlin
+    time: 1966-09-26T09:00Z
     source: frus
     basis: 'FRUS 1964–68, XV, doc. 175: Memorandum From the President’s Special Assistant (Rostow) to President Johnson'
     zone_check: true
   - id: cal.1966-09-26.europe-and-the-alliance
     local: '11:30'
-    zone: America/New_York
-    time: 1966-09-26T15:30Z
+    zone: Europe/Berlin
+    time: 1966-09-26T10:30Z
     source: frus
     basis: 'FRUS 1964–68, XV, doc. 176: Memorandum of Conversation'
     zone_check: true
   - id: cal.1966-09-26.europe-and-the-alliance
     local: '12:00'
-    zone: America/New_York
-    time: 1966-09-26T16:00Z
+    zone: Europe/Berlin
+    time: 1966-09-26T11:00Z
     source: frus
     basis: 'FRUS 1964–68, XV, doc. 177: Memorandum of Conversation'
     zone_check: true
   - id: cal.1966-09-26.europe-and-the-alliance
     local: '18:40'
-    zone: America/New_York
-    time: 1966-09-26T22:40Z
+    zone: Europe/Berlin
+    time: 1966-09-26T17:40Z
     source: frus
     basis: 'FRUS 1964–68, XV, doc. 178: Telephone Conversation Between President Johnson and Secretary of Defense McNamara'
     zone_check: true
+  - id: cal.1966-09-26.europe-and-the-alliance
+    local: '22:25'
+    zone: America/New_York
+    time: 1966-09-27T02:25Z
+    source: ppp
+    basis: 'PPP-1966-book2, p. 1064: NOTE: The President spoke at 10:25 p.m. in the State Dining Room at the White House, at a dinner honoring Chancellor Ludwig Erhard.'
   - id: cal.1966-09-27.states-and-cities-san-francisco
     local: '23:39'
     zone: America/Los_Angeles
     time: 1966-09-28T06:39Z
     source: text
     basis: 'the entry''s text: ''11:39 p.m.'''
+  - id: cal.1966-09-28.africa
+    local: '11:50'
+    zone: America/New_York
+    time: 1966-09-28T15:50Z
+    source: ppp
+    basis: 'PPP-1966-book2, p. 1082: NOTE: The President spoke at 11:50 a.m. in the East Room at the White House.'
   - id: cal.1966-10-03.vietnam
     local: '17:24'
     zone: America/New_York
@@ -6622,6 +7916,12 @@ proposals:
     source: text
     basis: 'the entry''s text: ''5:24 p.m.'''
     zone_check: true
+  - id: cal.1966-10-07.europe-and-the-alliance
+    local: '13:34'
+    zone: America/New_York
+    time: 1966-10-07T17:34Z
+    source: ppp
+    basis: 'PPP-1966-book2, p. 1125: NOTE: The President spoke at 1:34 p.m. at the Carnegie Endowment Building in New York City.'
   - id: cal.1966-10-10.soviet-union
     local: '16:41'
     zone: America/New_York
@@ -6642,6 +7942,30 @@ proposals:
     time: 1966-10-10T22:41Z
     source: text
     basis: 'the entry''s text: ''6:41 p.m.'''
+  - id: cal.1966-10-11.welfare
+    local: '18:00'
+    zone: America/New_York
+    time: 1966-10-11T22:00Z
+    source: ppp
+    basis: 'PPP-1966-book2, p. 1140: NOTE: The President spoke at 6 p.m. in the Cabinet Room at the White House.'
+  - id: cal.1966-10-14.vietnam
+    local: '16:00'
+    zone: America/New_York
+    time: 1966-10-14T20:00Z
+    source: ppp
+    basis: 'PPP-1966-book2, p. 1184: NOTE: The briefing was already in progress in the President’s office when the stenographic reporter arrived at 4 p.m. As printed, this item '
+  - id: cal.1966-10-15.conservation
+    local: '11:18'
+    zone: America/New_York
+    time: 1966-10-15T15:18Z
+    source: ppp
+    basis: 'PPP-1966-book2, p. 1186: NOTE: The President spoke at 11:18 a.m. in the Cabinet Room at the White House.'
+  - id: cal.1966-10-15.transportation
+    local: '11:18'
+    zone: America/New_York
+    time: 1966-10-15T15:18Z
+    source: ppp
+    basis: 'PPP-1966-book2, p. 1186: NOTE: The President spoke at 11:18 a.m. in the Cabinet Room at the White House.'
   - id: cal.1966-10-15.vietnam
     local: '13:40'
     zone: America/New_York
@@ -6649,6 +7973,32 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, IV, doc. 272: Summary Notes of the 565th Meeting of the National Security Council'
     zone_check: true
+  - id: cal.1966-10-17.vietnam
+    local: '13:54'
+    zone: Pacific/Honolulu
+    time: 1966-10-17T23:54Z
+    source: ppp
+    basis: 'PPP-1966-book2, p. 1217: NOTE: The President spoke at 1:54 p.m. at the Honolulu International Airport following brief remarks by Governor John A.'
+  - id: cal.1966-10-19.vietnam-asian-trip
+    local: '16:43'
+    zone: America/New_York
+    time: 1966-10-19T20:43Z
+    source: ppp
+    basis: 'PPP-1966-book2, p. 1230: NOTE: The President spoke at 4:43 p.m. at Ohakea Airport, Ohakea, New Zealand.'
+    zone_check: true
+  - id: cal.1966-10-19.vietnam-asian-trip
+    local: '17:55'
+    zone: America/New_York
+    time: 1966-10-19T21:55Z
+    source: ppp
+    basis: 'PPP-1966-book2, p. 1231: NOTE: The President spoke at 5:55 p.m. at Wellington International Airport, Wellington, New Zealand.'
+    zone_check: true
+  - id: cal.1966-10-20.vietnam-asian-trip
+    local: '18:25'
+    zone: Australia/Sydney
+    time: 1966-10-20T08:25Z
+    source: ppp
+    basis: 'PPP-1966-book2, p. 1238: NOTE: The President spoke at 6:25 p.m. at the RAAF Fairbairn Airport, Canberra, Australia.'
   - id: cal.1966-10-22.congress
     local: '17:08'
     zone: America/New_York
@@ -6669,6 +8019,12 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, IV, doc. 282: Memorandum From the Presidentʼs Special Assistant (Rostow) to President Johnson'
     zone_check: true
+  - id: cal.1966-10-24.vietnam-asian-trip
+    local: '16:37'
+    zone: Asia/Manila
+    time: 1966-10-24T08:37Z
+    source: ppp
+    basis: 'PPP-1966-book2, p. 1256: NOTE: The President spoke at 4:37 p.m. at Malacanang Palace in Manila.'
   - id: cal.1966-10-25.middle-east
     local: 09:45
     zone: America/New_York
@@ -6676,6 +8032,50 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, XXXIV, doc. 191: Telegram From the Embassy in Iran to the Department of State'
     zone_check: true
+  - id: cal.1966-10-26.vietnam-asian-trip
+    local: '14:00'
+    zone: America/New_York
+    time: 1966-10-26T18:00Z
+    source: ppp
+    basis: 'PPP-1966-book2, p. 1267: NOTE: The President spoke at 2 p.m. at Corregidor.'
+    zone_check: true
+  - id: cal.1966-10-28.vietnam-asian-trip
+    local: '14:05'
+    zone: Asia/Bangkok
+    time: 1966-10-28T07:05Z
+    source: ppp
+    basis: 'PPP-1966-book2, p. 1273: NOTE: The President spoke at 2:05 p.m. at Municipal Pavilion in Bangkok.'
+  - id: cal.1966-11-01.vietnam
+    local: '16:36'
+    zone: America/New_York
+    time: 1966-11-01T21:36Z
+    source: ppp
+    basis: 'PPP-1966-book2, p. 1288: NOTE: The President spoke at 4:36 p.m. at Johnson Hill, Tae-an Myun agriculture demonstration center, Suwon, Korea.'
+    zone_check: true
+  - id: cal.1966-11-03.cities-and-housing
+    local: '12:03'
+    zone: America/New_York
+    time: 1966-11-03T17:03Z
+    source: ppp
+    basis: 'PPP-1966-book2, p. 1307: NOTE: The President spoke at 12:03 p.m. in the East Room at the White House.'
+  - id: cal.1966-11-03.conservation
+    local: '12:03'
+    zone: America/New_York
+    time: 1966-11-03T17:03Z
+    source: ppp
+    basis: 'PPP-1966-book2, p. 1307: NOTE: The President spoke at 12:03 p.m. in the East Room at the White House.'
+  - id: cal.1966-11-03.program
+    local: '17:45'
+    zone: America/New_York
+    time: 1966-11-03T22:45Z
+    source: ppp
+    basis: 'PPP-1966-book2, p. 1314: NOTE: The President spoke at 5:45 p.m. in the East Room at the White House.'
+  - id: cal.1966-11-03.school-aid
+    local: '12:03'
+    zone: America/New_York
+    time: 1966-11-03T17:03Z
+    source: ppp
+    basis: 'PPP-1966-book2, p. 1307: NOTE: The President spoke at 12:03 p.m. in the East Room at the White House.'
   - id: cal.1966-11-04.middle-east-iran-oil
     local: '18:06'
     zone: America/New_York
@@ -6710,6 +8110,13 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, IV, doc. 300: Memorandum of Meeting'
     zone_check: true
+  - id: cal.1966-11-11.states-and-cities-us
+    local: '10:18'
+    zone: America/New_York
+    time: 1966-11-11T15:18Z
+    source: ppp
+    basis: 'PPP-1966-book2, p. 1366: NOTE: The message was read by George Christian, Acting Press Secretary, at his news conference at 10:18 a.m. on Friday, November u, 1966, at'
+    zone_check: true
   - id: cal.1966-11-12.vietnam
     local: '14:02'
     zone: America/New_York
@@ -6723,6 +8130,13 @@ proposals:
     time: 1966-11-13T20:25Z
     source: frus
     basis: 'FRUS 1964–68, XVIII, doc. 332: Telegram From the Department of State to the Embassy in Israel'
+    zone_check: true
+  - id: cal.1966-11-19.succession
+    local: '12:37'
+    zone: America/New_York
+    time: 1966-11-19T17:37Z
+    source: ppp
+    basis: 'PPP-1966-book2, p. 1394: NOTE: The President spoke at 12:37 p.m. on the grounds of the Naval Hospital at Bethesda, Md.'
     zone_check: true
   - id: cal.1966-11-20.middle-east-samu
     local: '13:20'
@@ -6779,12 +8193,32 @@ proposals:
     source: text
     basis: 'the entry''s text: ''noon'''
     zone_check: true
+  - id: cal.1967-01-10.economy
+    local: '11:30'
+    zone: America/New_York
+    time: 1967-01-10T16:30Z
+    source: ppp
+    basis: 'PPP-1967-book1, p. 2: NOTE: The statement was read by Tom Johnson, Assistant Press Secretary, at his news conference at 11:30 a.m. on Tuesday, January io, 1967.'
+    zone_check: true
+  - id: cal.1967-01-10.program
+    local: '11:30'
+    zone: America/New_York
+    time: 1967-01-10T16:30Z
+    source: ppp
+    basis: 'PPP-1967-book1, p. 2: NOTE: The statement was read by Tom Johnson, Assistant Press Secretary, at his news conference at 11:30 a.m. on Tuesday, January io, 1967.'
+    zone_check: true
   - id: cal.1967-01-10.program
     local: '21:33'
     zone: Europe/Moscow
     time: 1967-01-10T18:33Z
     source: text
     basis: 'the entry''s text: ''9:33 p.m.'''
+  - id: cal.1967-01-16.transition-and-staff
+    local: '11:36'
+    zone: America/New_York
+    time: 1967-01-16T16:36Z
+    source: ppp
+    basis: 'PPP-1967-book1, p. 15: NOTE: The President spoke at 11:36 a.m. in the East Room at the White House.'
   - id: cal.1967-01-17.vietnam
     local: '15:10'
     zone: America/New_York
@@ -6820,10 +8254,22 @@ proposals:
     basis: 'the entry''s text: ''midnight'''
   - id: cal.1967-01-27.space
     local: '17:15'
+    zone: America/New_York
+    time: 1967-01-27T22:15Z
+    source: ppp
+    basis: 'PPP-1967-book1, p. 91: NOTE: The President spoke at 5:15 p.m. in the East Room at the White House.'
+  - id: cal.1967-01-27.space
+    local: '17:15'
     zone: Europe/Moscow
     time: 1967-01-27T14:15Z
     source: text
     basis: 'the entry''s text: ''5:15 p.m.'''
+  - id: cal.1967-01-27.space-2
+    local: '17:15'
+    zone: America/New_York
+    time: 1967-01-27T22:15Z
+    source: ppp
+    basis: 'PPP-1967-book1, p. 91: NOTE: The President spoke at 5:15 p.m. in the East Room at the White House.'
   - id: cal.1967-01-27.space-2
     local: '18:31'
     zone: America/New_York
@@ -6837,6 +8283,13 @@ proposals:
     time: 1967-01-31T20:20Z
     source: text
     basis: 'the entry''s text: ''3:20 p.m.'''
+    zone_check: true
+  - id: cal.1967-02-02.india-and-china
+    local: 09:10
+    zone: America/New_York
+    time: 1967-02-02T14:10Z
+    source: ppp
+    basis: 'PPP-1967-book1, p. 119: The President spoke at 9:10 a.m. In his opening words he referred to Senator Frank Carlson of Kansas, chairman of the board, International C'
     zone_check: true
   - id: cal.1967-02-02.vietnam-sunflower
     local: '10:15'
@@ -6858,6 +8311,12 @@ proposals:
     time: 1967-02-07T18:00Z
     source: text
     basis: 'the entry''s text: ''1 a.m.'''
+  - id: cal.1967-02-09.foreign-aid
+    local: '12:39'
+    zone: America/New_York
+    time: 1967-02-09T17:39Z
+    source: ppp
+    basis: 'PPP-1967-book1, p. 162: NOTE: The President spoke at 12:39 p.m. in the East Room at the White House.'
   - id: cal.1967-02-12.vietnam-sunflower
     local: '18:33'
     zone: Asia/Bangkok
@@ -6905,6 +8364,18 @@ proposals:
     source: text
     basis: 'the entry''s text: ''3:25 p.m.'''
     zone_check: true
+  - id: cal.1967-02-23.succession
+    local: '13:18'
+    zone: America/New_York
+    time: 1967-02-23T18:18Z
+    source: ppp
+    basis: 'PPP-1967-book1, p. 217: NOTE: The President spoke at 1:18 p.m. in the East Room at the White House.'
+  - id: cal.1967-02-28.court
+    local: '15:40'
+    zone: America/New_York
+    time: 1967-02-28T20:40Z
+    source: ppp
+    basis: 'PPP-1967-book1, p. 258: NOTE: The President spoke at 3:40 p.m. in his office at the White House.'
   - id: cal.1967-03-01.vietnam
     local: 09:53
     zone: Europe/Zurich
@@ -6932,6 +8403,13 @@ proposals:
     time: 1967-03-02T08:04Z
     source: frus
     basis: 'FRUS 1964–68, V, doc. 96: Telephone Conversation Between President Johnson and Senator Richard Russell'
+    zone_check: true
+  - id: cal.1967-03-02.robert-kennedy
+    local: '12:48'
+    zone: America/New_York
+    time: 1967-03-02T17:48Z
+    source: ppp
+    basis: 'PPP-1967-book1, p. 265: NOTE: The President spoke at 12:48 p.m. in the Office of Education Plaza.'
     zone_check: true
   - id: cal.1967-03-02.vietnam-congress
     local: '15:04'
@@ -6986,6 +8464,12 @@ proposals:
     source: text
     basis: 'the entry''s text: ''12:45 p.m.'''
     zone_check: true
+  - id: cal.1967-03-09.economy
+    local: '12:50'
+    zone: America/New_York
+    time: 1967-03-09T17:50Z
+    source: ppp
+    basis: 'PPP-1967-book1, p. 299: NOTE: The President spoke at 12:50 p.m. on the South Lawn at the White House.'
   - id: cal.1967-03-10.vietnam
     local: '15:45'
     zone: Asia/Bangkok
@@ -7001,8 +8485,8 @@ proposals:
     basis: 'the entry''s text: ''3:45 p.m.'''
   - id: cal.1967-03-11.europe-and-the-alliance
     local: 00:03
-    zone: America/New_York
-    time: 1967-03-11T05:03Z
+    zone: Europe/Berlin
+    time: 1967-03-10T23:03Z
     source: frus
     basis: 'FRUS 1964–68, XIII, doc. 241: Telegram From the Department of State to the Embassy in Germany'
     zone_check: true
@@ -7013,6 +8497,25 @@ proposals:
     source: text
     basis: 'the entry''s text: ''10:45 p.m.'''
     zone_check: true
+  - id: cal.1967-03-15.vietnam
+    local: 09:45
+    zone: America/New_York
+    time: 1967-03-15T14:45Z
+    source: ppp
+    basis: 'PPP-1967-book1, p. 346: NOTE: The President spoke at 9:45 a.m. at the Hermitage near Nashville, Tenn.'
+    zone_check: true
+  - id: cal.1967-03-18.states-and-cities-us
+    local: 09:05
+    zone: America/New_York
+    time: 1967-03-18T14:05Z
+    source: ppp
+    basis: 'PPP-1967-book1, p. 369: NOTE: The President spoke at 9:05 a.m. in the Fish Room at the White House.'
+  - id: cal.1967-03-18.states-and-cities-us
+    local: '14:13'
+    zone: America/New_York
+    time: 1967-03-18T19:13Z
+    source: ppp
+    basis: 'PPP-1967-book1, p. 372: NOTE: The President spoke at 2:13 p.m. in the State Dining Room at the White House.'
   - id: cal.1967-03-18.vietnam-thant
     local: '10:43'
     zone: Asia/Ho_Chi_Minh
@@ -7034,12 +8537,26 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, V, doc. 116: Memorandum for the Record'
     zone_check: true
+  - id: cal.1967-03-20.vietnam
+    local: '15:15'
+    zone: America/New_York
+    time: 1967-03-20T20:15Z
+    source: ppp
+    basis: 'PPP-1967-book1, p. 378: NOTE: The President spoke at 3:15 p.m. at Nimitz Hill, Guam headquarters of U.'
+    zone_check: true
   - id: cal.1967-03-20.vietnam-operations
     local: '22:50'
     zone: America/New_York
     time: 1967-03-21T03:50Z
     source: text
     basis: 'the entry''s text: ''10:50 p.m.'''
+    zone_check: true
+  - id: cal.1967-03-21.vietnam
+    local: '18:53'
+    zone: America/New_York
+    time: 1967-03-21T23:53Z
+    source: ppp
+    basis: 'PPP-1967-book1, p. 389: NOTE: The President spoke at 6:53 p.m. at Andrews Air Force Base.'
     zone_check: true
   - id: cal.1967-03-21.vietnam-operations
     local: '10:45'
@@ -7056,6 +8573,18 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, XIV, doc. 210: Memorandum of Conversation'
     zone_check: true
+  - id: cal.1967-03-24.trade
+    local: '11:30'
+    zone: America/New_York
+    time: 1967-03-24T16:30Z
+    source: ppp
+    basis: 'PPP-1967-book1, p. 394: NOTE: The President spoke at 11:30 a.m. in his office at the White House.'
+  - id: cal.1967-03-28.vietnam-thant
+    local: '11:38'
+    zone: America/New_York
+    time: 1967-03-28T16:38Z
+    source: ppp
+    basis: 'PPP-1967-book1, p. 395: NOTE: The President spoke at 11:38 a.m. on the South Lawn at the White House where Prime Minister Mohammad Hashim Maiwandwal was given a for'
   - id: cal.1967-03-29.intelligence
     local: '19:45'
     zone: America/New_York
@@ -7114,11 +8643,17 @@ proposals:
     zone_check: true
   - id: cal.1967-04-24.europe-and-the-alliance
     local: 05:30
-    zone: America/New_York
-    time: 1967-04-24T10:30Z
+    zone: Europe/Berlin
+    time: 1967-04-24T04:30Z
     source: frus
     basis: 'FRUS 1964–68, XV, doc. 212: Memorandum of Conversation'
     zone_check: true
+  - id: cal.1967-04-28.vietnam
+    local: '14:55'
+    zone: America/New_York
+    time: 1967-04-28T19:55Z
+    source: ppp
+    basis: 'PPP-1967-book1, p. 469: NOTE: The President spoke at 2:55 p.m. in the East Room at the White House.'
   - id: cal.1967-05-01.vietnam-congress
     local: '10:03'
     zone: America/New_York
@@ -7222,6 +8757,12 @@ proposals:
     local: '18:10'
     zone: America/New_York
     time: 1967-05-23T22:10Z
+    source: ppp
+    basis: 'PPP-1967-book1, p. 561: NOTE: The President read the statement at 6:10 p.m. in the Fish Room at the White House.'
+  - id: cal.1967-05-23.middle-east
+    local: '18:10'
+    zone: America/New_York
+    time: 1967-05-23T22:10Z
     source: text
     basis: 'the entry''s text: ''6:10 p.m.'''
     zone_check: true
@@ -7251,6 +8792,12 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, XXIV, doc. 386: Circular Telegram From the Department of State to Certain Posts'
     zone_check: true
+  - id: cal.1967-06-02.middle-east
+    local: '11:25'
+    zone: America/New_York
+    time: 1967-06-02T15:25Z
+    source: ppp
+    basis: 'PPP-1967-book1, p. 591: NOTE: The President spoke at 11:25 a.m. on the South Lawn at the White House where Prime Minister Harold Wilson was given a formal welcome w'
   - id: cal.1967-06-04.middle-east
     local: '20:54'
     zone: America/New_York
@@ -7286,6 +8833,12 @@ proposals:
     basis: 'the entry''s text: ''7:57 a.m.'''
     zone_check: true
   - id: cal.1967-06-06.middle-east
+    local: '20:00'
+    zone: America/New_York
+    time: 1967-06-07T00:00Z
+    source: ppp
+    basis: 'PPP-1967-book1, p. 598: NOTE: The statement was read by the President at 8 p.m. in the White House Theater.'
+  - id: cal.1967-06-06.middle-east
     local: 07:40
     zone: America/New_York
     time: 1967-06-06T11:40Z
@@ -7305,6 +8858,13 @@ proposals:
     time: 1967-06-07T21:30Z
     source: frus
     basis: 'FRUS 1964–68, XIX, doc. 197: Notes of a Meeting of the Special Committee of the National Security Council'
+    zone_check: true
+  - id: cal.1967-06-07.middle-east
+    local: '13:37'
+    zone: America/New_York
+    time: 1967-06-07T17:37Z
+    source: ppp
+    basis: 'PPP-1967-book1, p. 599: Later, at 1:37 p.m. a press briefing was held by George E.'
     zone_check: true
   - id: cal.1967-06-08.middle-east
     local: 08:20
@@ -7356,6 +8916,12 @@ proposals:
     source: text
     basis: 'the entry''s text: ''1:28 p.m.'''
     zone_check: true
+  - id: cal.1967-06-13.court
+    local: '11:32'
+    zone: America/New_York
+    time: 1967-06-13T15:32Z
+    source: ppp
+    basis: 'PPP-1967-book1, p. 610: NOTE: The President spoke at 11:32 a.m. in the Rose Garden at the White House, before presenting diplomas to the graduates.'
   - id: cal.1967-06-13.court
     local: 07:59
     zone: America/New_York
@@ -7429,6 +8995,12 @@ proposals:
     source: text
     basis: 'the entry''s text: ''2:30 p.m.'''
     zone_check: true
+  - id: cal.1967-06-19.middle-east
+    local: 09:31
+    zone: America/New_York
+    time: 1967-06-19T13:31Z
+    source: ppp
+    basis: 'PPP-1967-book1, p. 630: NOTE: The President spoke at 9:31 a.m. in the West Auditorium at the Department of State building in Washington.'
   - id: cal.1967-06-20.vietnam-congress
     local: '17:45'
     zone: Asia/Bangkok
@@ -7448,6 +9020,33 @@ proposals:
     time: 1967-06-22T22:35Z
     source: text
     basis: 'the entry''s text: ''6:35 p.m.'''
+  - id: cal.1967-06-23.soviet-union
+    local: '16:40'
+    zone: America/New_York
+    time: 1967-06-23T20:40Z
+    source: ppp
+    basis: 'PPP-1967-book1, p. 644: NOTE: The President spoke at 4:40 p.m. at Hollybush, home of the president of Glassboro State College.'
+    zone_check: true
+  - id: cal.1967-06-23.soviet-union
+    local: '22:30'
+    zone: America/Los_Angeles
+    time: 1967-06-24T05:30Z
+    source: ppp
+    basis: 'PPP-1967-book1, p. 645: NOTE: The President spoke at 10:30 p.m. at the Century Plaza Hotel in Los Angeles.'
+  - id: cal.1967-06-23.vietnam
+    local: '16:40'
+    zone: America/New_York
+    time: 1967-06-23T20:40Z
+    source: ppp
+    basis: 'PPP-1967-book1, p. 644: NOTE: The President spoke at 4:40 p.m. at Hollybush, home of the president of Glassboro State College.'
+    zone_check: true
+  - id: cal.1967-06-23.war-opposition
+    local: '16:40'
+    zone: America/New_York
+    time: 1967-06-23T20:40Z
+    source: ppp
+    basis: 'PPP-1967-book1, p. 644: NOTE: The President spoke at 4:40 p.m. at Hollybush, home of the president of Glassboro State College.'
+    zone_check: true
   - id: cal.1967-06-27.oil
     local: '12:29'
     zone: America/New_York
@@ -7475,6 +9074,13 @@ proposals:
     time: 1967-06-30T11:57Z
     source: frus
     basis: 'FRUS 1964–68, VIII, doc. 370: Telegram From the President’s Deputy Special Assistant for National Security Affairs (Bato'
+    zone_check: true
+  - id: cal.1967-07-01.states-and-cities-us
+    local: '17:09'
+    zone: America/New_York
+    time: 1967-07-01T21:09Z
+    source: ppp
+    basis: 'PPP-1967-book2, p. 671: NOTE: The President spoke at 5:09 p.m. at the Mayfair Hotel in St.'
     zone_check: true
   - id: cal.1967-07-05.congo
     local: '21:31'
@@ -7525,6 +9131,12 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, V, doc. 240: Notes of Meeting'
     zone_check: true
+  - id: cal.1967-07-13.vietnam-program-5
+    local: '13:06'
+    zone: America/New_York
+    time: 1967-07-13T17:06Z
+    source: ppp
+    basis: 'PPP-1967-book2, p. 688: NOTE: The President spoke at 1:06 p.m. in the East Room at the White House.'
   - id: cal.1967-07-14.civil-disorders-newark
     local: 02:30
     zone: America/New_York
@@ -7560,6 +9172,12 @@ proposals:
     basis: 'FRUS 1964–68, XIX, doc. 384: Telegram From the Mission to the United Nations to the Department of State'
     zone_check: true
   - id: cal.1967-07-24.civil-disorders-detroit
+    local: '23:58'
+    zone: America/New_York
+    time: 1967-07-25T03:58Z
+    source: ppp
+    basis: 'PPP-1967-book2, p. 715: NOTE: The President spoke at 11:58 p.m. in the Theater at the White House for broadcast on radio and television.'
+  - id: cal.1967-07-24.civil-disorders-detroit
     local: '10:46'
     zone: America/New_York
     time: 1967-07-24T14:46Z
@@ -7593,6 +9211,12 @@ proposals:
     basis: 'the entry''s text: ''7:33 p.m.'''
     zone_check: true
   - id: cal.1967-07-27.civil-disorders
+    local: '22:30'
+    zone: America/New_York
+    time: 1967-07-28T02:30Z
+    source: ppp
+    basis: 'PPP-1967-book2, p. 721: NOTE: The President spoke at 10:30 p.m. in his office at the White House.'
+  - id: cal.1967-07-27.civil-disorders
     local: '17:02'
     zone: America/New_York
     time: 1967-07-27T21:02Z
@@ -7605,6 +9229,12 @@ proposals:
     source: text
     basis: 'the entry''s text: ''10:30 p.m.'''
     zone_check: true
+  - id: cal.1967-07-29.civil-disorders-kerner
+    local: '13:18'
+    zone: America/New_York
+    time: 1967-07-29T17:18Z
+    source: ppp
+    basis: 'PPP-1967-book2, p. 724: NOTE: The President spoke at 1:18 p.m. in the Fish Room at the White House upon signing Executive Order 11365 “Establishing a National Advis'
   - id: cal.1967-07-29.congo
     local: '21:32'
     zone: America/New_York
@@ -7619,6 +9249,12 @@ proposals:
     source: text
     basis: 'the entry''s text: ''6:35 p.m.'''
     zone_check: true
+  - id: cal.1967-08-03.civil-disorders-detroit
+    local: '12:56'
+    zone: America/New_York
+    time: 1967-08-03T16:56Z
+    source: ppp
+    basis: 'PPP-1967-book2, p. 746: NOTE: The President spoke at 12:56 p.m. in the Fish Room at the White House.'
   - id: cal.1967-08-03.vietnam-pennsylvania
     local: '15:00'
     zone: Europe/Paris
@@ -7662,11 +9298,17 @@ proposals:
     zone_check: true
   - id: cal.1967-08-15.europe-and-the-alliance
     local: '11:00'
-    zone: America/New_York
-    time: 1967-08-15T15:00Z
+    zone: America/Sao_Paulo
+    time: 1967-08-15T14:00Z
     source: frus
     basis: 'FRUS 1964–68, XIII, doc. 263: Memorandum of Conversation'
     zone_check: true
+  - id: cal.1967-08-16.cities-and-housing
+    local: '13:18'
+    zone: America/New_York
+    time: 1967-08-16T17:18Z
+    source: ppp
+    basis: 'PPP-1967-book2, p. 779: NOTE: The President spoke at 1:18 p.m. in the East Room at the White House.'
   - id: cal.1967-08-16.vietnam-air-war
     local: '13:10'
     zone: Asia/Bangkok
@@ -7719,6 +9361,12 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, V, doc. 294: Notes of Meeting'
     zone_check: true
+  - id: cal.1967-08-28.economy
+    local: '17:52'
+    zone: America/New_York
+    time: 1967-08-28T21:52Z
+    source: ppp
+    basis: 'PPP-1967-book2, p. 810: NOTE: The President spoke at 5:52 p.m. in the Fish Room at the White House.'
   - id: cal.1967-08-31.congo
     local: 08:35
     zone: America/New_York
@@ -7800,6 +9448,12 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, V, doc. 324: Telegram From the Embassy in France to the Department of State'
     zone_check: true
+  - id: cal.1967-09-15.railroads
+    local: '17:40'
+    zone: America/New_York
+    time: 1967-09-15T21:40Z
+    source: ppp
+    basis: 'PPP-1967-book2, p. 841: NOTE: The President spoke at 5:40 p.m. in the Fish Room at the White House.'
   - id: cal.1967-09-26.vietnam
     local: '12:15'
     zone: America/New_York
@@ -7820,6 +9474,32 @@ proposals:
     time: 1967-09-26T06:15Z
     source: text
     basis: 'the entry''s text: ''1:15 p.m.'''
+  - id: cal.1967-09-27.farm
+    local: '11:58'
+    zone: America/New_York
+    time: 1967-09-27T15:58Z
+    source: ppp
+    basis: 'PPP-1967-book2, p. 867: NOTE: The President spoke at 11:58 a.m. in the Rose Garden at the White House.'
+  - id: cal.1967-09-28.states-and-cities
+    local: '10:52'
+    zone: America/New_York
+    time: 1967-09-28T14:52Z
+    source: ppp
+    basis: 'PPP-1967-book2, p. 868: NOTE: The President spoke at 10:52 a.m. in the East Room at the White House.'
+  - id: cal.1967-09-29.defense
+    local: '20:34'
+    zone: America/New_York
+    time: 1967-09-30T00:34Z
+    source: ppp
+    basis: 'PPP-1967-book2, p. 876: NOTE: The President spoke at 8:34 p.m. at the Villita Assembly Hall in San Antonio, Texas, before a group of 2,000 delegates to the National'
+    zone_check: true
+  - id: cal.1967-09-29.vietnam
+    local: '20:34'
+    zone: America/New_York
+    time: 1967-09-30T00:34Z
+    source: ppp
+    basis: 'PPP-1967-book2, p. 876: NOTE: The President spoke at 8:34 p.m. at the Villita Assembly Hall in San Antonio, Texas, before a group of 2,000 delegates to the National'
+    zone_check: true
   - id: cal.1967-10-02.vietnam
     local: 00:00
     zone: Asia/Ho_Chi_Minh
@@ -7866,6 +9546,12 @@ proposals:
     source: text
     basis: 'the entry''s text: ''1:15 p.m.'''
     zone_check: true
+  - id: cal.1967-10-10.space
+    local: '11:25'
+    zone: America/New_York
+    time: 1967-10-10T15:25Z
+    source: ppp
+    basis: 'PPP-1967-book2, p. 918: NOTE: The President spoke at 11:25 a.m. in the East Room at the White House at a ceremony marking the signing of the Protocol of Deposit and'
   - id: cal.1967-10-11.vietnam
     local: '13:03'
     zone: America/New_York
@@ -7977,6 +9663,12 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, V, doc. 378: Memorandum From the President’s Special Assistant (Rostow) to President Johnson'
     zone_check: true
+  - id: cal.1967-11-03.cities-and-housing
+    local: '11:40'
+    zone: America/New_York
+    time: 1967-11-03T16:40Z
+    source: ppp
+    basis: 'PPP-1967-book2, p. 985: NOTE: The President spoke at 11:40 a.m. in the East Room at the White House.'
   - id: cal.1967-11-04.vietnam
     local: '14:20'
     zone: America/New_York
@@ -7984,6 +9676,12 @@ proposals:
     source: text
     basis: 'the entry''s text: ''2:20 p.m.'''
     zone_check: true
+  - id: cal.1967-11-07.press-and-broadcasting
+    local: '11:33'
+    zone: America/New_York
+    time: 1967-11-07T16:33Z
+    source: ppp
+    basis: 'PPP-1967-book2, p. 995: NOTE: The President spoke at 11:33 a.m. in the East Room at the White House.'
   - id: cal.1967-11-08.vietnam
     local: '10:05'
     zone: America/New_York
@@ -8005,6 +9703,18 @@ proposals:
     source: text
     basis: 'the entry''s text: ''2:15 p.m.'''
     zone_check: true
+  - id: cal.1967-11-08.women
+    local: '11:15'
+    zone: America/New_York
+    time: 1967-11-08T16:15Z
+    source: ppp
+    basis: 'PPP-1967-book2, p. 998: NOTE: The President spoke at 11:15 a.m. in the East Room at the White House.'
+  - id: cal.1967-11-09.space
+    local: '20:57'
+    zone: America/New_York
+    time: 1967-11-10T01:57Z
+    source: ppp
+    basis: 'PPP-1967-book2, p. 1007: NOTE: The President spoke at 8:57 p.m. at the Americana Hotel in New York City.'
   - id: cal.1967-11-13.vietnam
     local: '14:16'
     zone: America/New_York
@@ -8040,6 +9750,19 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, XII, doc. 279: Circular Telegram From the Department of State to All Posts'
     zone_check: true
+  - id: cal.1967-11-18.economy
+    local: '13:13'
+    zone: America/New_York
+    time: 1967-11-18T18:13Z
+    source: ppp
+    basis: 'PPP-1967-book2, p. 1055: NOTE: The President spoke at 1:13 p.m. from the Cabinet Room at the White House to the convention of the national farm group at Syracuse, N.'
+  - id: cal.1967-11-20.consumers
+    local: '10:57'
+    zone: America/New_York
+    time: 1967-11-20T15:57Z
+    source: ppp
+    basis: 'PPP-1967-book2, p. 1058: NOTE: The President spoke at 10:57 a.m. in the main lobby at the Department of Commerce.'
+    zone_check: true
   - id: cal.1967-11-20.economy-surcharge
     local: '18:40'
     zone: America/New_York
@@ -8047,6 +9770,12 @@ proposals:
     source: text
     basis: 'the entry''s text: ''6:40 p.m.'''
     zone_check: true
+  - id: cal.1967-11-21.conservation
+    local: '11:56'
+    zone: America/New_York
+    time: 1967-11-21T16:56Z
+    source: ppp
+    basis: 'PPP-1967-book2, p. 1067: NOTE: The President spoke at 11:56 a.m. in the East Room at the White House.'
   - id: cal.1967-11-23.vietnam-operations
     local: '11:30'
     zone: Asia/Ho_Chi_Minh
@@ -8089,6 +9818,12 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, XVI, doc. 342: Notes of Meeting'
     zone_check: true
+  - id: cal.1967-12-05.europe-and-the-alliance-cyprus
+    local: '12:38'
+    zone: America/New_York
+    time: 1967-12-05T17:38Z
+    source: ppp
+    basis: 'PPP-1967-book2, p. 1099: NOTE: The President spoke at 12:38 p.m. in the East Room at the White House.'
   - id: cal.1967-12-05.vietnam
     local: '13:18'
     zone: America/New_York
@@ -8119,11 +9854,23 @@ proposals:
     zone_check: true
   - id: cal.1967-12-13.europe-and-the-alliance
     local: 04:15
-    zone: America/New_York
-    time: 1967-12-13T09:15Z
+    zone: Europe/Rome
+    time: 1967-12-13T03:15Z
     source: frus
     basis: 'FRUS 1964–68, XVI, doc. 344: Telegram From the Embassy in Greece to the Mission to the North Atlantic Treaty Organizati'
     zone_check: true
+  - id: cal.1967-12-14.consumers
+    local: '11:25'
+    zone: America/New_York
+    time: 1967-12-14T16:25Z
+    source: ppp
+    basis: 'PPP-1967-book2, p. 1133: NOTE: The President spoke at 11:25 a.m. in the Cabinet Room at the White House.'
+  - id: cal.1967-12-15.consumers
+    local: '11:12'
+    zone: America/New_York
+    time: 1967-12-15T16:12Z
+    source: ppp
+    basis: 'PPP-1967-book2, p. 1143: NOTE: The President spoke at 11:12 a.m. in the East Room at the White House.'
   - id: cal.1967-12-15.economy-gold
     local: '16:20'
     zone: Europe/London
@@ -8144,6 +9891,12 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, V, doc. 441: Memorandum for the File by President Johnson'
     zone_check: true
+  - id: cal.1967-12-19.vietnam
+    local: '18:15'
+    zone: Pacific/Honolulu
+    time: 1967-12-20T04:15Z
+    source: ppp
+    basis: 'PPP-1967-book2, p. 1173: NOTE: The President spoke at 6:15 p.m. at Honolulu International Airport.'
   - id: cal.1967-12-21.economy
     local: '16:00'
     zone: America/New_York
@@ -8221,6 +9974,12 @@ proposals:
     source: text
     basis: 'the entry''s text: ''9:05 p.m.'''
     zone_check: true
+  - id: cal.1968-01-19.defense
+    local: '12:28'
+    zone: America/New_York
+    time: 1968-01-19T17:28Z
+    source: ppp
+    basis: 'PPP-1968-book1, p. 36: NOTE: The President spoke at 12:28 p.m. in the Fish Room at the White House to members of the Democratic National Committee’s Advisory Commi'
   - id: cal.1968-01-23.japan-and-korea
     local: 03:55
     zone: Europe/Moscow
@@ -8300,8 +10059,8 @@ proposals:
     zone_check: true
   - id: cal.1968-01-26.japan-and-korea-pueblo
     local: '11:08'
-    zone: America/New_York
-    time: 1968-01-26T16:08Z
+    zone: Asia/Seoul
+    time: 1968-01-26T02:08Z
     source: frus
     basis: 'FRUS 1964–68, XXIX, pt. 1, doc. 228: Notes of Meeting'
     zone_check: true
@@ -8309,9 +10068,20 @@ proposals:
     local: '15:58'
     zone: America/New_York
     time: 1968-01-26T20:58Z
+    source: ppp
+    basis: 'PPP-1968-book1, p. 77: NOTE: The President spoke at 3:58 p.m. in the Fish Room at the White House.'
+  - id: cal.1968-01-26.japan-and-korea-pueblo
+    local: '15:58'
+    zone: Asia/Seoul
+    time: 1968-01-26T06:58Z
     source: text
     basis: 'the entry''s text: ''3:58 p.m.'''
-    zone_check: true
+  - id: cal.1968-01-27.jobs-and-wages
+    local: '14:00'
+    zone: America/New_York
+    time: 1968-01-27T19:00Z
+    source: ppp
+    basis: 'PPP-1968-book1, p. 78: NOTE: This is the text of the White House press release made public in connection with the luncheon for the National Alliance of Businessmen'
   - id: cal.1968-01-27.jobs-and-wages
     local: '15:45'
     zone: America/New_York
@@ -8319,6 +10089,12 @@ proposals:
     source: text
     basis: 'the entry''s text: ''3:45 p.m.'''
     zone_check: true
+  - id: cal.1968-01-29.economy
+    local: '11:38'
+    zone: America/New_York
+    time: 1968-01-29T16:38Z
+    source: ppp
+    basis: 'PPP-1968-book1, p. 80: NOTE: The President spoke at 11:38 a.m. in the Cabinet Room at the White House.'
   - id: cal.1968-01-30.republican-party-congress
     local: '19:55'
     zone: Asia/Ho_Chi_Minh
@@ -8373,6 +10149,12 @@ proposals:
     source: text
     basis: 'the entry''s text: ''8:40 a.m.'''
     zone_check: true
+  - id: cal.1968-02-01.economy
+    local: '11:03'
+    zone: America/New_York
+    time: 1968-02-01T16:03Z
+    source: ppp
+    basis: 'PPP-1968-book1, p. 124: NOTE: The President spoke at 11:03 a.m. in the Cabinet Room at the White House.'
   - id: cal.1968-02-02.japan-and-korea
     local: 02:41
     zone: America/New_York
@@ -8387,12 +10169,24 @@ proposals:
     source: text
     basis: 'the entry''s text: ''11 a.m.'''
     zone_check: true
+  - id: cal.1968-02-05.school-aid
+    local: '11:35'
+    zone: America/New_York
+    time: 1968-02-05T16:35Z
+    source: ppp
+    basis: 'PPP-1968-book1, p. 163: NOTE: The President spoke at 11:35 a.m. in the Cabinet Room at the White House.'
   - id: cal.1968-02-06.vietnam
     local: '14:55'
     zone: Asia/Bangkok
     time: 1968-02-06T07:55Z
     source: text
     basis: 'the entry''s text: ''2:55 p.m.'''
+  - id: cal.1968-02-07.crime-and-hijacking
+    local: '11:30'
+    zone: America/New_York
+    time: 1968-02-07T16:30Z
+    source: ppp
+    basis: 'PPP-1968-book1, p. 182: NOTE: The President spoke at 11:30 a.m. in his office at the White House.'
   - id: cal.1968-02-07.vietnam
     local: '12:29'
     zone: Asia/Ho_Chi_Minh
@@ -8455,6 +10249,19 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, VI, doc. 70: Notes of Meeting'
     zone_check: true
+  - id: cal.1968-02-15.economy
+    local: '13:15'
+    zone: America/New_York
+    time: 1968-02-15T18:15Z
+    source: ppp
+    basis: 'PPP-1968-book1, p. 227: NOTE: The President spoke at 1:15 p.m. in the Cabinet Room at the White House.'
+  - id: cal.1968-02-17.vietnam-tet
+    local: '20:42'
+    zone: America/New_York
+    time: 1968-02-18T01:42Z
+    source: ppp
+    basis: 'PPP-1968-book1, p. 240: NOTE: The President spoke at 8:42 p.m. In his opening words he referred to Lt.'
+    zone_check: true
   - id: cal.1968-02-28.vietnam-205000
     local: '18:55'
     zone: America/New_York
@@ -8462,12 +10269,31 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, VI, doc. 92: Information Memorandum From the President’s Special Assistant (Rostow) to President Johnso'
     zone_check: true
+  - id: cal.1968-03-01.vietnam
+    local: '19:14'
+    zone: America/New_York
+    time: 1968-03-02T00:14Z
+    source: ppp
+    basis: 'PPP-1968-book1, p. 308: NOTE: The President spoke at 7:14 p.m. to a group of senior citizens at the Schlesinger Old Folks Home in Beaumont, Texas, upon signing Proc'
+    zone_check: true
+  - id: cal.1968-03-06.transition-and-staff
+    local: '13:13'
+    zone: America/New_York
+    time: 1968-03-06T18:13Z
+    source: ppp
+    basis: 'PPP-1968-book1, p. 348: NOTE: The President spoke at 1:13 p.m. in the East Room at the White House.'
   - id: cal.1968-03-08.elections-1968-2
     local: '20:30'
     zone: America/New_York
     time: 1968-03-09T01:30Z
     source: text
     basis: 'the entry''s text: ''8:30 p.m.'''
+  - id: cal.1968-03-11.open-housing
+    local: '13:15'
+    zone: America/New_York
+    time: 1968-03-11T18:15Z
+    source: ppp
+    basis: 'PPP-1968-book1, p. 372: NOTE: The President spoke at 1:15 p.m. in the East Room at the White House.'
   - id: cal.1968-03-11.vietnam-205000
     local: '18:57'
     zone: America/New_York
@@ -8482,6 +10308,12 @@ proposals:
     source: text
     basis: 'the entry''s text: ''8:18 p.m.'''
     zone_check: true
+  - id: cal.1968-03-12.vietnam
+    local: '21:16'
+    zone: America/New_York
+    time: 1968-03-13T02:16Z
+    source: ppp
+    basis: 'PPP-1968-book1, p. 381: NOTE: The President spoke at 9:16 p.m. at the Sheraton Park Hotel in Washington.'
   - id: cal.1968-03-12.vietnam-205000
     local: '13:29'
     zone: America/New_York
@@ -8586,6 +10418,13 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, VI, doc. 137: Telegram From the Department of State to the Embassy in Vietnam'
     zone_check: true
+  - id: cal.1968-03-18.vietnam
+    local: '10:41'
+    zone: America/New_York
+    time: 1968-03-18T15:41Z
+    source: ppp
+    basis: 'PPP-1968-book1, p. 406: NOTE: The President spoke at 10:41 a.m. at the Leamington Hotel in Minneapolis, Minn.'
+    zone_check: true
   - id: cal.1968-03-18.vietnam-2
     local: '19:10'
     zone: Asia/Ho_Chi_Minh
@@ -8675,6 +10514,12 @@ proposals:
     source: text
     basis: 'the entry''s text: ''7:45 p.m.'''
     zone_check: true
+  - id: cal.1968-03-27.court
+    local: '11:45'
+    zone: America/New_York
+    time: 1968-03-27T16:45Z
+    source: ppp
+    basis: 'PPP-1968-book1, p. 443: NOTE: The President spoke at 11:45 a.m. on the South Lawn at the White House, where President William V.'
   - id: cal.1968-03-28.vietnam
     local: '20:20'
     zone: America/New_York
@@ -8682,6 +10527,18 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, VI, doc. 165: Telegram From the Department of State to the Embassy in Vietnam'
     zone_check: true
+  - id: cal.1968-03-29.king-memphis
+    local: '13:55'
+    zone: America/New_York
+    time: 1968-03-29T18:55Z
+    source: ppp
+    basis: 'PPP-1968-book1, p. 456: NOTE: The President spoke at 1:55 p.m. at the Washington Hilton Hotel.'
+  - id: cal.1968-03-31.elections-1968
+    local: '21:00'
+    zone: America/New_York
+    time: 1968-04-01T02:00Z
+    source: ppp
+    basis: 'PPP-1968-book1, p. 469: NOTE: The President spoke at 9 p.m. in his office at the White House.'
   - id: cal.1968-03-31.elections-1968
     local: '23:59'
     zone: America/New_York
@@ -8754,6 +10611,18 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, VI, doc. 176: Memorandum of Conversation'
     zone_check: true
+  - id: cal.1968-04-03.vietnam
+    local: '17:05'
+    zone: America/New_York
+    time: 1968-04-03T22:05Z
+    source: ppp
+    basis: 'PPP-1968-book1, p. 492: NOTE: The President read the statement at 5:05 p.m. in front of the West Lobby at the White House for broadcast by radio and television.'
+  - id: cal.1968-04-04.king
+    local: '21:07'
+    zone: America/New_York
+    time: 1968-04-05T02:07Z
+    source: ppp
+    basis: 'PPP-1968-book1, p. 493: NOTE: The President read the statement at 9:07 p.m. outside the entrance to the West Lobby at the White House for broadcast by radio and tel'
   - id: cal.1968-04-04.king
     local: '23:00'
     zone: America/New_York
@@ -8785,6 +10654,12 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, VI, doc. 181: Notes of Meeting'
     zone_check: true
+  - id: cal.1968-04-05.king
+    local: '13:22'
+    zone: America/New_York
+    time: 1968-04-05T18:22Z
+    source: ppp
+    basis: 'PPP-1968-book1, p. 493: NOTE: The President spoke at 1:22 p.m. in the Fish Room at the White House after attending a memorial service for Dr.'
   - id: cal.1968-04-06.civil-disorders-chicago
     local: '17:19'
     zone: America/New_York
@@ -8798,6 +10673,37 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, VI, doc. 187: Notes of Meeting'
     zone_check: true
+  - id: cal.1968-04-08.vietnam
+    local: '13:36'
+    zone: America/New_York
+    time: 1968-04-08T18:36Z
+    source: ppp
+    basis: 'PPP-1968-book1, p. 500: NOTE: The President spoke at 1:36 p.m. in the Cabinet Room at the White House.'
+  - id: cal.1968-04-09.vietnam-paris
+    local: '10:38'
+    zone: America/New_York
+    time: 1968-04-09T15:38Z
+    source: ppp
+    basis: 'PPP-1968-book1, p. 500: NOTE: The President spoke at 10:38 a.m. at Camp David near Thurmont, Md.'
+    zone_check: true
+  - id: cal.1968-04-10.open-housing
+    local: '17:15'
+    zone: America/New_York
+    time: 1968-04-10T22:15Z
+    source: ppp
+    basis: 'PPP-1968-book1, p. 507: NOTE: The President spoke at 5:15 p.m. in the Fish Room at the White House.'
+  - id: cal.1968-04-10.transition-and-staff
+    local: '11:43'
+    zone: America/New_York
+    time: 1968-04-10T16:43Z
+    source: ppp
+    basis: 'PPP-1968-book1, p. 503: NOTE: The President spoke at 11:43 a.m. on the South Lawn at the White House where Chancellor Klaus was given a formal welcome with full mil'
+  - id: cal.1968-04-11.open-housing
+    local: '17:00'
+    zone: America/New_York
+    time: 1968-04-11T22:00Z
+    source: ppp
+    basis: 'PPP-1968-book1, p. 509: NOTE: The President spoke at 5 p.m. in the East Room at the White House.'
   - id: cal.1968-04-11.vietnam-paris
     local: '10:00'
     zone: Asia/Bangkok
@@ -8811,6 +10717,18 @@ proposals:
     time: 1968-04-11T16:46Z
     source: rec
     basis: Miller Center, https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-averell-harriman-april-11-1968
+  - id: cal.1968-04-22.states-and-cities
+    local: '17:32'
+    zone: America/New_York
+    time: 1968-04-22T22:32Z
+    source: ppp
+    basis: 'PPP-1968-book1, p. 519: NOTE: The President spoke at 5:32 p.m. in the Fish Room at the White House.'
+  - id: cal.1968-04-26.transition-and-staff
+    local: '13:00'
+    zone: America/New_York
+    time: 1968-04-26T18:00Z
+    source: ppp
+    basis: 'PPP-1968-book1, p. 543: NOTE: The President spoke at 1 p.m. in the Rose Garden at the White House.'
   - id: cal.1968-04-30.students-columbia
     local: 02:30
     zone: America/New_York
@@ -8923,6 +10841,12 @@ proposals:
     time: 1968-05-15T10:53Z
     source: text
     basis: 'the entry''s text: ''5:53 p.m.'''
+  - id: cal.1968-05-16.transition-and-staff
+    local: '13:06'
+    zone: America/New_York
+    time: 1968-05-16T17:06Z
+    source: ppp
+    basis: 'PPP-1968-book1, p. 616: NOTE: The President spoke at 1:06 p.m. in the East Room at the White House.'
   - id: cal.1968-05-17.war-opposition
     local: '12:50'
     zone: America/New_York
@@ -8965,6 +10889,33 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, VI, doc. 253: Notes of Meeting'
     zone_check: true
+  - id: cal.1968-05-29.amendments
+    local: '20:08'
+    zone: America/New_York
+    time: 1968-05-30T00:08Z
+    source: ppp
+    basis: 'PPP-1968-book1, p. 666: NOTE: The President spoke at 8:08 p.m. in the coliseum at Texas Christian University in Fort Worth.'
+    zone_check: true
+  - id: cal.1968-05-29.consumers
+    local: '13:26'
+    zone: America/New_York
+    time: 1968-05-29T17:26Z
+    source: ppp
+    basis: 'PPP-1968-book1, p. 660: NOTE: The President spoke at 1:26 p.m. in the East Room at the White House.'
+  - id: cal.1968-06-04.soviet-union
+    local: 09:30
+    zone: America/New_York
+    time: 1968-06-04T13:30Z
+    source: ppp
+    basis: 'PPP-1968-book1, p. 679: NOTE: The President spoke at 9:30 a.m. at Glassboro State College in Glassboro, N.'
+    zone_check: true
+  - id: cal.1968-06-05.robert-kennedy
+    local: 06:45
+    zone: America/New_York
+    time: 1968-06-05T10:45Z
+    source: ppp
+    basis: 'PPP-1968-book1, p. 691: Christian, Special Assistant to the President, at 6:45 a.m. He also issued the following announcement on the President’s activities after he'
+    zone_check: true
   - id: cal.1968-06-05.robert-kennedy
     local: 05:34
     zone: America/New_York
@@ -8996,6 +10947,36 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, VI, doc. 262: Memorandum From the President’s Special Assistant (Rostow) to President Johnson'
     zone_check: true
+  - id: cal.1968-06-10.civil-disorders
+    local: '14:24'
+    zone: America/New_York
+    time: 1968-06-10T18:24Z
+    source: ppp
+    basis: 'PPP-1968-book1, p. 697: NOTE: The President spoke at 2:24 p.m. in the Cabinet Room at the White House upon signing Executive Order 11412 “Establishing a National Co'
+  - id: cal.1968-06-10.elections-1968
+    local: '15:20'
+    zone: America/New_York
+    time: 1968-06-10T19:20Z
+    source: ppp
+    basis: 'PPP-1968-book1, p. 700: NOTE: The President spoke at 3:20 p.m. in the Cabinet Room at the White House following his meeting with Governor Nelson A.'
+  - id: cal.1968-06-12.testing
+    local: '17:09'
+    zone: America/New_York
+    time: 1968-06-12T21:09Z
+    source: ppp
+    basis: 'PPP-1968-book1, p. 712: NOTE: The President spoke at 5:09 p.m. at the United Nations General Assembly in New York City shordy after the General Assembly voted 95 to'
+  - id: cal.1968-06-13.soviet-union
+    local: '11:50'
+    zone: America/New_York
+    time: 1968-06-13T15:50Z
+    source: ppp
+    basis: 'PPP-1968-book1, p. 715: NOTE: The President spoke at 11:50 a.m. in the East Room at the White House.'
+  - id: cal.1968-06-24.transition-and-staff
+    local: '17:40'
+    zone: America/New_York
+    time: 1968-06-24T21:40Z
+    source: ppp
+    basis: 'PPP-1968-book1, p. 743: 744] NOTE: The President spoke at 5:40 p.m. in the East Room at the White House.'
   - id: cal.1968-06-25.vietnam
     local: '12:20'
     zone: Asia/Bangkok
@@ -9031,6 +11012,30 @@ proposals:
     source: text
     basis: 'the entry''s text: ''6 p.m.'''
     zone_check: true
+  - id: cal.1968-07-01.immigration
+    local: '17:55'
+    zone: America/New_York
+    time: 1968-07-01T21:55Z
+    source: ppp
+    basis: 'PPP-1968-book2, p. 768: NOTE: The President spoke at 5:55 p.m. in the Cabinet Room at the White House.'
+  - id: cal.1968-07-01.transportation
+    local: '13:15'
+    zone: America/New_York
+    time: 1968-07-01T17:15Z
+    source: ppp
+    basis: 'PPP-1968-book2, p. 766: NOTE: The President spoke at 1:15 p.m. in the Cabinet Room at the White House.'
+  - id: cal.1968-07-02.defense
+    local: '12:36'
+    zone: America/New_York
+    time: 1968-07-02T16:36Z
+    source: ppp
+    basis: 'PPP-1968-book2, p. 769: NOTE: The President spoke at 12:36 p.m. in the East Room at the White House.'
+  - id: cal.1968-07-05.latin-america
+    local: '13:25'
+    zone: America/Chicago
+    time: 1968-07-05T18:25Z
+    source: ppp
+    basis: 'PPP-1968-book2, p. 779: NOTE: The President proposed the toast at 1:25 p.m. at a luncheon in the dining room at the LBJ Ranch.'
   - id: cal.1968-07-05.vietnam-khe-sanh
     local: '20:00'
     zone: Asia/Ho_Chi_Minh
@@ -9051,6 +11056,12 @@ proposals:
     source: text
     basis: 'the entry''s text: ''5 p.m.'''
     zone_check: true
+  - id: cal.1968-07-16.program-2
+    local: '10:15'
+    zone: America/New_York
+    time: 1968-07-16T14:15Z
+    source: ppp
+    basis: 'PPP-1968-book2, p. 812: NOTE: The President spoke at 10:15 a.m. in the Rose Garden at the White House.'
   - id: cal.1968-07-24.elections-1968
     local: '12:30'
     zone: America/New_York
@@ -9091,6 +11102,12 @@ proposals:
     time: 1968-07-26T18:35Z
     source: text
     basis: 'the entry''s text: ''7:35 p.m.'''
+  - id: cal.1968-07-29.consumers
+    local: '13:14'
+    zone: America/New_York
+    time: 1968-07-29T17:14Z
+    source: ppp
+    basis: 'PPP-1968-book2, p. 847: NOTE: The President spoke at 1:14 p.m. in the Fish Room at the White House.'
   - id: cal.1968-07-29.elections-1968-chicago
     local: '19:00'
     zone: America/New_York
@@ -9118,6 +11135,12 @@ proposals:
     source: text
     basis: 'the entry''s text: ''2:30 p.m.'''
     zone_check: true
+  - id: cal.1968-07-29.foreign-aid
+    local: '13:14'
+    zone: America/New_York
+    time: 1968-07-29T17:14Z
+    source: ppp
+    basis: 'PPP-1968-book2, p. 847: NOTE: The President spoke at 1:14 p.m. in the Fish Room at the White House.'
   - id: cal.1968-07-29.opinion
     local: '18:25'
     zone: America/New_York
@@ -9166,6 +11189,12 @@ proposals:
     time: 1968-07-30T13:57Z
     source: rec
     basis: Miller Center, https://millercenter.org/the-presidency/secret-white-house-tapes/conversation-dean-rusk-july-30-1968
+  - id: cal.1968-07-31.crime-and-hijacking
+    local: '13:43'
+    zone: America/New_York
+    time: 1968-07-31T17:43Z
+    source: ppp
+    basis: 'PPP-1968-book2, p. 855: NOTE: The President spoke at 1:43 p.m. in the Fish Room at the White House.'
   - id: cal.1968-07-31.elections-1968-miami-4
     local: 09:13
     zone: America/New_York
@@ -9180,6 +11209,18 @@ proposals:
     source: text
     basis: 'the entry''s text: ''6:15 p.m.'''
     zone_check: true
+  - id: cal.1968-08-01.cities-and-housing
+    local: '11:34'
+    zone: America/New_York
+    time: 1968-08-01T15:34Z
+    source: ppp
+    basis: 'PPP-1968-book2, p. 865: NOTE: The President spoke at 11:34 a.m. in the Plaza of the Department of Housing and Urban Development in Washington.'
+  - id: cal.1968-08-01.civil-rights-the-executive
+    local: '21:00'
+    zone: America/New_York
+    time: 1968-08-02T01:00Z
+    source: ppp
+    basis: 'PPP-1968-book2, p. 870: NOTE: The President spoke at 9 p.m. in the Grand Ballroom at the Washington Hilton Hotel.'
   - id: cal.1968-08-01.elections-1968-miami-2
     local: 09:37
     zone: Europe/Paris
@@ -9386,6 +11427,13 @@ proposals:
     time: 1968-08-19T15:04Z
     source: frus
     basis: 'FRUS 1964–68, XIV, doc. 286: Telegram From the President’s Special Assistant (Rostow) to President Johnson'
+    zone_check: true
+  - id: cal.1968-08-19.vietnam-paris
+    local: '20:37'
+    zone: America/New_York
+    time: 1968-08-20T00:37Z
+    source: ppp
+    basis: 'PPP-1968-book2, p. 896: NOTE: The President spoke at 8:37 p.m. at Cobo Hall in Detroit.'
     zone_check: true
   - id: cal.1968-08-20.elections-1968-chicago
     local: '14:00'
@@ -10033,6 +12081,13 @@ proposals:
     source: text
     basis: 'the entry''s text: ''about 5 a.m.'''
     approx: true
+  - id: cal.1968-08-30.soviet-union-czechoslovakia
+    local: '20:20'
+    zone: America/New_York
+    time: 1968-08-31T00:20Z
+    source: ppp
+    basis: 'PPP-1968-book2, p. 917: NOTE: The President spoke at 8:20 p.m. in Convention Center at HemisFair ’68, San Antonio, Texas.'
+    zone_check: true
   - id: cal.1968-09-04.elections-1968
     local: '12:00'
     zone: America/Chicago
@@ -10053,6 +12108,12 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, XIV, doc. 294: Memorandum From the President’s Special Assistant (Rostow) to President Johnson'
     zone_check: true
+  - id: cal.1968-09-10.elections-1968
+    local: '13:07'
+    zone: America/Chicago
+    time: 1968-09-10T18:07Z
+    source: ppp
+    basis: 'PPP-1968-book2, p. 936: NOTE: The President spoke at 1:07 p.m. at the Municipal Auditorium in New Orleans, La.'
   - id: cal.1968-09-12.elections-1968
     local: '12:39'
     zone: America/New_York
@@ -10101,6 +12162,18 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, VII, doc. 24: Telegram From the Embassy in France to the Department of State'
     zone_check: true
+  - id: cal.1968-09-26.transition-and-staff
+    local: '16:11'
+    zone: America/New_York
+    time: 1968-09-26T20:11Z
+    source: ppp
+    basis: 'PPP-1968-book2, p. 976: NOTE: The President spoke at 4:11 p.m. in the Cabinet Room at the White House.'
+  - id: cal.1968-09-30.conservation
+    local: '10:23'
+    zone: America/New_York
+    time: 1968-09-30T14:23Z
+    source: ppp
+    basis: 'PPP-1968-book2, p. 987: NOTE: The President spoke at 10:23 a.m. at the Sheraton Park Hotel in Washington at the joint annual meeting of the Boards of Governors of t'
   - id: cal.1968-09-30.elections-1968
     local: '17:45'
     zone: America/New_York
@@ -10161,6 +12234,18 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, VII, doc. 41: Telephone Conversation Between President Johnson and George Ball'
     zone_check: true
+  - id: cal.1968-10-02.conservation
+    local: '13:15'
+    zone: America/New_York
+    time: 1968-10-02T17:15Z
+    source: ppp
+    basis: 'PPP-1968-book2, p. 1000: 1003] NOTE: The President spoke at 1:15 p.m. in the East Room at the White House.'
+  - id: cal.1968-10-02.court-fortas
+    local: '13:15'
+    zone: America/New_York
+    time: 1968-10-02T17:15Z
+    source: ppp
+    basis: 'PPP-1968-book2, p. 1000: 1003] NOTE: The President spoke at 1:15 p.m. in the East Room at the White House.'
   - id: cal.1968-10-03.latin-america
     local: 09:50
     zone: America/New_York
@@ -10187,6 +12272,20 @@ proposals:
     time: 1968-10-10T08:55Z
     source: frus
     basis: 'FRUS 1964–68, XXIX, pt. 1, doc. 319: Telegram From the Embassy in Korea to the Department of State'
+    zone_check: true
+  - id: cal.1968-10-11.farm
+    local: '19:20'
+    zone: America/New_York
+    time: 1968-10-11T23:20Z
+    source: ppp
+    basis: 'PPP-1968-book2, p. 1031: NOTE: The President spoke at 7:20 p.m. at the Truman home in Independence, Mo.'
+    zone_check: true
+  - id: cal.1968-10-11.space
+    local: '19:20'
+    zone: America/New_York
+    time: 1968-10-11T23:20Z
+    source: ppp
+    basis: 'PPP-1968-book2, p. 1031: NOTE: The President spoke at 7:20 p.m. at the Truman home in Independence, Mo.'
     zone_check: true
   - id: cal.1968-10-11.vietnam-paris
     local: '10:20'
@@ -10237,6 +12336,12 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, VII, doc. 65: Telegram From the Department of State to the Embassy in France'
     zone_check: true
+  - id: cal.1968-10-16.school-aid
+    local: '12:01'
+    zone: America/New_York
+    time: 1968-10-16T16:01Z
+    source: ppp
+    basis: 'PPP-1968-book2, p. 1038: NOTE: The President spoke at 12:01 p.m. in the East Room at the White House.'
   - id: cal.1968-10-16.vietnam
     local: 08:30
     zone: Asia/Ho_Chi_Minh
@@ -10285,6 +12390,12 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, VII, doc. 84: Telegram From the Embassy in France to the Department of State'
     zone_check: true
+  - id: cal.1968-10-18.consumers
+    local: '12:14'
+    zone: America/New_York
+    time: 1968-10-18T16:14Z
+    source: ppp
+    basis: 'PPP-1968-book2, p. 1050: NOTE: The President spoke at 12:14 p.m. in the Cabinet Room at the White House.'
   - id: cal.1968-10-18.soviet-union
     local: '14:20'
     zone: America/New_York
@@ -10306,6 +12417,12 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, VII, doc. 92: Telegram From the Department of State to the Embassies in France and Vietnam'
     zone_check: true
+  - id: cal.1968-10-22.crime-and-hijacking
+    local: '11:50'
+    zone: America/New_York
+    time: 1968-10-22T15:50Z
+    source: ppp
+    basis: 'PPP-1968-book2, p. 1059: NOTE: The President spoke at 11:50 a.m. in the Cabinet Room at the White House.'
   - id: cal.1968-10-22.latin-america-peru
     local: '12:20'
     zone: America/New_York
@@ -10320,6 +12437,12 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, XX, doc. 284: Memorandum of Conversation Between President Johnson and Foreign Minister Eban'
     zone_check: true
+  - id: cal.1968-10-22.space-apollo
+    local: 08:52
+    zone: America/New_York
+    time: 1968-10-22T12:52Z
+    source: ppp
+    basis: 'PPP-1968-book2, p. 1058: NOTE: The President spoke at 8:52 a.m. from the Cabinet Room at the White House to Capt.'
   - id: cal.1968-10-23.japan-and-korea-pueblo
     local: 06:00
     zone: America/New_York
@@ -10355,6 +12478,33 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, VII, doc. 121: Notes of Meeting'
     zone_check: true
+  - id: cal.1968-10-26.elections-1968
+    local: '15:20'
+    zone: America/New_York
+    time: 1968-10-26T19:20Z
+    source: ppp
+    basis: 'PPP-1968-book2, p. 1073: NOTE: The President spoke at 3:20 p.m. at TriState Airport, Huntington, W.'
+    zone_check: true
+  - id: cal.1968-10-26.elections-1968
+    local: '16:35'
+    zone: America/New_York
+    time: 1968-10-26T20:35Z
+    source: ppp
+    basis: 'PPP-1968-book2, p. 1075: NOTE: The President spoke at 4:35 p.m. at the dedication of Fishtrap Dam near Pikeville, Ky.'
+    zone_check: true
+  - id: cal.1968-10-26.elections-1968
+    local: '18:35'
+    zone: America/New_York
+    time: 1968-10-26T22:35Z
+    source: ppp
+    basis: 'PPP-1968-book2, p. 1078: NOTE: The President spoke at 6:35 p.m. at the airport, Morgantown, W.'
+    zone_check: true
+  - id: cal.1968-10-27.elections-1968
+    local: '13:26'
+    zone: America/New_York
+    time: 1968-10-27T18:26Z
+    source: ppp
+    basis: 'PPP-1968-book2, p. 1087: NOTE: The President spoke at 1:26 p.m. at the Waldorf-Astoria Hotel in New York City.'
   - id: cal.1968-10-27.vietnam-paris
     local: '13:30'
     zone: Asia/Bangkok
@@ -10509,6 +12659,12 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, VII, doc. 182: Telegram From the Embassy in Vietnam to the Department of State'
     zone_check: true
+  - id: cal.1968-11-03.elections-1968
+    local: '16:42'
+    zone: America/Chicago
+    time: 1968-11-03T22:42Z
+    source: ppp
+    basis: 'PPP-1968-book2, p. 1107: NOTE: The President spoke at 4:42 p.m. at the Astrodome in Houston, Texas.'
   - id: cal.1968-11-03.elections-1968-chennault
     local: '13:54'
     zone: Asia/Ho_Chi_Minh
@@ -10581,6 +12737,12 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, VII, doc. 209: Telegram From the Director of the Federal Bureau of Investigation (Hoover) to the Executiv'
     zone_check: true
+  - id: cal.1968-11-11.transition-and-staff
+    local: '16:58'
+    zone: America/New_York
+    time: 1968-11-11T21:58Z
+    source: ppp
+    basis: 'PPP-1968-book2, p. 1119: NOTE: The President spoke at 4:58 p.m. outside the West Lobby of the White House.'
   - id: cal.1968-11-12.elections-1968-chennault
     local: '20:30'
     zone: America/New_York
@@ -10690,6 +12852,13 @@ proposals:
     time: 1968-12-12T00:25Z
     source: text
     basis: 'the entry''s text: ''7:25 p.m.'''
+  - id: cal.1968-12-13.latin-america
+    local: '14:25'
+    zone: America/New_York
+    time: 1968-12-13T19:25Z
+    source: ppp
+    basis: 'PPP-1968-book2, p. 1189: NOTE: The President proposed the toast at 2:25 p.m. at the Paso del Norte Hotel in El Paso, Texas.'
+    zone_check: true
   - id: cal.1968-12-22.japan-and-korea
     local: 09:00
     zone: America/New_York
@@ -10709,6 +12878,24 @@ proposals:
     source: frus
     basis: 'FRUS 1964–68, XX, doc. 369: Telegram From the Department of State to the Embassy in Israel'
     zone_check: true
+  - id: cal.1969-01-09.testing
+    local: '12:30'
+    zone: America/New_York
+    time: 1969-01-09T17:30Z
+    source: ppp
+    basis: 'PPP-1968-book2, p. 1250: NOTE: The President spoke at 12:30 p.m. in his office at the White House at a meeting with Governor Walter J.'
+  - id: cal.1969-01-14.program
+    local: '12:43'
+    zone: America/New_York
+    time: 1969-01-14T17:43Z
+    source: ppp
+    basis: 'PPP-1968-book2, p. 1262: NOTE: The President spoke at 12:43 p.m. in the Cabinet Room at the White House.'
+  - id: cal.1969-01-15.economy
+    local: '11:05'
+    zone: America/New_York
+    time: 1969-01-15T16:05Z
+    source: ppp
+    basis: 'PPP-1968-book2, p. 1270: NOTE: The President spoke at 11:05 a.m. in the East Room at the White House.'
   - id: cal.1969-01-16.vietnam-paris
     local: 09:20
     zone: Asia/Ho_Chi_Minh
